@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.8
-  scored_at: '2026-10-17'
+  score: 31.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 8
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 138
   slug: unit-co-agentic-access
   summary_line: 138 operations · 73 acting · 8 human-in-the-loop
-api_count: 20
+api_count: 18
 apis:
 - baseURL: https://api.unit.co
   baseurl_source: declared
@@ -132,7 +134,7 @@ apis:
   description: Subscriptions that deliver events as signed HTTP callbacks.
   name: Unit Webhooks API
   slug: unit-co-webhooks-api
-artifact_total: 86
+artifact_total: 88
 asyncapis:
 - description: ''
   name: Unit Co Events Webhooks
@@ -186,9 +188,6 @@ collections:
 - collection_type: postman
   name: Unit Webhooks and Events API
   slug: postman-unit-co-webhooks-openapi
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Unit Accounts API
   slug: open-unit-co-accounts-api
@@ -296,42 +295,42 @@ collections:
   slug: open-unit-co
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/rules/unit-co-rules.yml
+  href: https://artifacts.apis.io/unit-co/rules/unit-co-rules.yml
   title: ''
   type: Spectral
   url: rules/unit-co-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/json-ld/unit-co-context.jsonld
+  href: https://artifacts.apis.io/unit-co/json-ld/unit-co-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/unit-co-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/vocabulary/unit-co-vocabulary.yml
+  href: https://artifacts.apis.io/unit-co/vocabulary/unit-co-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/unit-co-vocabulary.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/errors/unit-co-decline-codes.yml
+  href: https://artifacts.apis.io/unit-co/errors/unit-co-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/unit-co-decline-codes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/well-known/unit-co-status-security.txt
+  href: https://artifacts.apis.io/unit-co/well-known/unit-co-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/unit-co-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/well-known/unit-co-well-known.yml
+  href: https://artifacts.apis.io/unit-co/well-known/unit-co-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/unit-co-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/hosts/unit-co-hosts.yml
+  href: https://artifacts.apis.io/unit-co/hosts/unit-co-hosts.yml
   title: ''
   type: Hosts
   url: hosts/unit-co-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/vendors/unit-co-vendors.yml
+  href: https://artifacts.apis.io/unit-co/vendors/unit-co-vendors.yml
   title: ''
   type: Vendors
   url: vendors/unit-co-vendors.yml
@@ -344,32 +343,32 @@ common:
   type: Newsroom
   url: https://www.unit.co/resources/press
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/capabilities/unit-co-capability-edges.yml
+  href: https://artifacts.apis.io/unit-co/capabilities/unit-co-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/unit-co-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/agentic-access/unit-co-agentic-access.yml
+  href: https://artifacts.apis.io/unit-co/agentic-access/unit-co-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/unit-co-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/security/unit-co-trust-center.yml
+  href: https://artifacts.apis.io/unit-co/security/unit-co-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/unit-co-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/security/unit-co-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/unit-co/security/unit-co-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/unit-co-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/security/unit-co-domain-security.yml
+  href: https://artifacts.apis.io/unit-co/security/unit-co-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unit-co-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/authentication/unit-co-authentication.yml
+  href: https://artifacts.apis.io/unit-co/authentication/unit-co-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unit-co-authentication.yml
@@ -390,17 +389,17 @@ common:
   type: Documentation
   url: https://www.unit.co/docs/api/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/plans/unit-co-plans-pricing.yml
+  href: https://artifacts.apis.io/unit-co/plans/unit-co-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/unit-co-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/rate-limits/unit-co-rate-limits.yml
+  href: https://artifacts.apis.io/unit-co/rate-limits/unit-co-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/unit-co-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/finops/unit-co-finops.yml
+  href: https://artifacts.apis.io/unit-co/finops/unit-co-finops.yml
   title: ''
   type: FinOps
   url: finops/unit-co-finops.yml
@@ -457,87 +456,87 @@ common:
   type: Deprecation
   url: https://www.unit.co/docs/api/using-the-api#deprecations
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/scopes/unit-co-scopes.yml
+  href: https://artifacts.apis.io/unit-co/scopes/unit-co-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/unit-co-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/conventions/unit-co-conventions.yml
+  href: https://artifacts.apis.io/unit-co/conventions/unit-co-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unit-co-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/conventions/unit-co-conventions.yml
+  href: https://artifacts.apis.io/unit-co/conventions/unit-co-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/unit-co-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/packages/unit-co-packages.yml
+  href: https://artifacts.apis.io/unit-co/packages/unit-co-packages.yml
   title: ''
   type: Packages
   url: packages/unit-co-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/packages/unit-co-packages.yml
+  href: https://artifacts.apis.io/unit-co/packages/unit-co-packages.yml
   title: ''
   type: SDKs
   url: packages/unit-co-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/errors/unit-co-problem-types.yml
+  href: https://artifacts.apis.io/unit-co/errors/unit-co-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/unit-co-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/lifecycle/unit-co-lifecycle.yml
+  href: https://artifacts.apis.io/unit-co/lifecycle/unit-co-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unit-co-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/conformance/unit-co-conformance.yml
+  href: https://artifacts.apis.io/unit-co/conformance/unit-co-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unit-co-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/sandbox/unit-co-sandbox.yml
+  href: https://artifacts.apis.io/unit-co/sandbox/unit-co-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/unit-co-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/changelog/unit-co-changelog.yml
+  href: https://artifacts.apis.io/unit-co/changelog/unit-co-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/unit-co-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/components/unit-co-components.yml
+  href: https://artifacts.apis.io/unit-co/components/unit-co-components.yml
   title: ''
   type: Components
   url: components/unit-co-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/data-model/unit-co-data-model.yml
+  href: https://artifacts.apis.io/unit-co/data-model/unit-co-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unit-co-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/mcp/unit-co-mcp.yml
+  href: https://artifacts.apis.io/unit-co/mcp/unit-co-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/unit-co-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/llms/unit-co-llms.txt
+  href: https://artifacts.apis.io/unit-co/llms/unit-co-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unit-co-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/overlays/unit-co-openapi-source-overlay.yaml
+  href: https://artifacts.apis.io/unit-co/overlays/unit-co-openapi-source-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/unit-co-openapi-source-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/asyncapi/unit-co-events-webhooks.yml
+  href: https://artifacts.apis.io/unit-co/asyncapi/unit-co-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/unit-co-events-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/unit-co/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -545,12 +544,12 @@ created: '2026-07-02'
 description: Unit is a Banking-as-a-Service (BaaS) platform that lets companies embed deposit accounts, cards, payments, and lending into their own products without becoming a bank. A single REST API, built on the JSON:API specification (media type application/vnd.api+json) and secured with Bearer/JWT tokens, covers onboarding (Applications), Customers, Deposit and Credit Accounts, Debit and Credit Cards, real-time card Authorizations, Payments (Book, ACH, Wire, Recurring, Cash Deposits), Counterparties, Checks, Transactions, Statements, Tax Forms, Fees, Rewards, Credit and Repayments, and Events delivered as signed HTTP webhooks. Unit publishes an official OpenAPI 3.0.2 specification (github.com/unit-finance/openapi-unit-sdk) plus generated Node.js, Python, Ruby, and Java SDKs. Sandbox runs at api.s.unit.sh; production access is provisioned per signed BaaS agreement with Unit's partner banks.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Unit Co Finops
   primary_unit: ''
-  service_category: Banking as a Service
+  service_category: ''
   slug: unit-co-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unit-co.png
 json_schemas:
 - name: CreateAccountRequest
@@ -589,7 +588,7 @@ plans:
 - name: Unit Co Plans Pricing
   plan_count: 0
   slug: unit-co-plans-pricing
-random_paper: 21
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Unit Co Rate Limits
@@ -613,8 +612,8 @@ scopes:
   slug: unit-co-scopes
   summary_line: 46 scopes
 score:
-  band: strong
-  composite: 64.7
+  band: exemplar
+  composite: 67.5
   coverage:
     artifact_dirs: 36
     catalog_earned: 70.2
@@ -622,15 +621,15 @@ score:
     catalog_gap: 44.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: -0.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 35.6
-    contract_quality: 60.9
+    contract_quality: 60.3
     developer_ergonomics: 78.0
-    discoverability: 80.4
-    operational_transparency: 81.6
-  previous_composite: 65.0
+    discoverability: 73.2
+    operational_transparency: 84.2
+  previous_composite: 68.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -647,13 +646,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/screenshots/unit-co-2026-06-20T200056.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/unit-co/unit-co-2026-06-20T200056.png
 security:
 - kind: authentication
   name: Unit Co Authentication
@@ -671,6 +671,14 @@ security:
   name: Unit Co Trust Center
   slug: unit-co-trust-center
   summary_line: SOC 2, PCI DSS
+skill_count: 3
+skills:
+- name: issue-and-manage-debit-card
+  slug: unit-co-issue-and-manage-card
+- name: onboard-customer-and-open-deposit-account
+  slug: unit-co-onboard-customer-and-open-account
+- name: originate-ach-payment
+  slug: unit-co-originate-ach-payment
 slug: unit-co
 tags:
 - Fintech

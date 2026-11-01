@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aeva/refs/heads/main/security/aeva-domain-security.yml
+  href: https://artifacts.apis.io/aeva/security/aeva-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aeva-domain-security.yml
@@ -70,12 +72,12 @@ common:
   type: TermsOfService
   url: https://www.aeva.com/terms-conditions/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aeva/refs/heads/main/packages/aeva-packages.yml
+  href: https://artifacts.apis.io/aeva/packages/aeva-packages.yml
   title: ''
   type: Packages
   url: packages/aeva-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aeva/refs/heads/main/packages/aeva-packages.yml
+  href: https://artifacts.apis.io/aeva/packages/aeva-packages.yml
   title: ''
   type: SDKs
   url: packages/aeva-packages.yml
@@ -91,10 +93,10 @@ overview: 'Aeva is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Aeva''s developer surface includes developer portal, engineering blog, support, and 7 more developer resources.'
-random_paper: 17
+random_paper: 5
 score:
   band: emerging
-  composite: 13.9
+  composite: 14.3
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -109,22 +111,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 23.8
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 13.9
+    operational_transparency: 5.3
+  previous_composite: 14.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aeva/refs/heads/main/screenshots/aeva-2026-07-25T181732.png
+screenshot: https://apis.io/screenshots/aeva/aeva-2026-07-25T181732.png
 security:
 - kind: domain-security
   name: Aeva Domain Security

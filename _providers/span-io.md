@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-17'
+  score: 24.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -88,15 +90,12 @@ apis:
   description: The Wifi API from SPAN — 2 operation(s) for wifi.
   name: SPAN Wifi API
   slug: span-io-wifi-api
-artifact_total: 48
+artifact_total: 47
 asyncapis:
 - description: Publish/subscribe streaming API hosted directly on SPAN Panel using the Electrification Bus (eBus) integration framework and the Homie Convention for MQTT topic and payload structure. SPAN Panel hosts
   name: SPAN eBus MQTT API
   slug: span-ebus-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Span Auth API
   slug: open-span-io-auth-api
@@ -130,22 +129,22 @@ common:
   type: ContributionGuide
   url: https://github.com/spanio/SPAN-API-Client-Docs/blob/main/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/agentic-access/span-io-agentic-access.yml
+  href: https://artifacts.apis.io/span-io/agentic-access/span-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/span-io-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/security/span-io-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/span-io/security/span-io-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/span-io-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/security/span-io-domain-security.yml
+  href: https://artifacts.apis.io/span-io/security/span-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/span-io-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/authentication/span-io-authentication.yml
+  href: https://artifacts.apis.io/span-io/authentication/span-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/span-io-authentication.yml
@@ -266,17 +265,17 @@ common:
   type: Contact
   url: https://www.span.io/contact
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/plans/span-io-plans-pricing.yml
+  href: https://artifacts.apis.io/span-io/plans/span-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/span-io-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/rate-limits/span-io-rate-limits.yml
+  href: https://artifacts.apis.io/span-io/rate-limits/span-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/span-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/finops/span-io-finops.yml
+  href: https://artifacts.apis.io/span-io/finops/span-io-finops.yml
   title: ''
   type: FinOps
   url: finops/span-io-finops.yml
@@ -337,7 +336,7 @@ plans:
 - name: Span Io Plans Pricing
   plan_count: 3
   slug: span-io-plans-pricing
-random_paper: 13
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Span Io Rate Limits
@@ -368,8 +367,8 @@ rules:
     warn: 4
   slug: span-io-rules
 score:
-  band: thin
-  composite: 38.7
+  band: developing
+  composite: 44.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 52.9
@@ -377,14 +376,14 @@ score:
     catalog_gap: 62.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.7
+  delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 56.9
-    developer_ergonomics: 52.4
+    developer_ergonomics: 54.8
     discoverability: 57.1
-    operational_transparency: 18.4
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -392,7 +391,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 44.4
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     contracts:
@@ -405,14 +404,15 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 22.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 25.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/screenshots/span-io-2026-06-20T194242.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/span-io/span-io-2026-06-20T194242.png
 security:
 - kind: authentication
   name: Span Io Authentication

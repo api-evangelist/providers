@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -17,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.1
-  scored_at: '2026-10-17'
+  score: 37.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -69,57 +70,57 @@ asyncapis:
   slug: billieio-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/agentic-access/billieio-agentic-access.yml
+  href: https://artifacts.apis.io/billieio/agentic-access/billieio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/billieio-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/rules/billieio-rules.yml
+  href: https://artifacts.apis.io/billieio/rules/billieio-rules.yml
   title: ''
   type: Spectral
   url: rules/billieio-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/json-ld/billieio-context.jsonld
+  href: https://artifacts.apis.io/billieio/json-ld/billieio-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/billieio-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/vocabulary/billieio-vocabulary.yml
+  href: https://artifacts.apis.io/billieio/vocabulary/billieio-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/billieio-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/data-model/billieio-data-model.yml
+  href: https://artifacts.apis.io/billieio/data-model/billieio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/billieio-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/errors/billieio-problem-types.yml
+  href: https://artifacts.apis.io/billieio/errors/billieio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/billieio-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/conformance/billieio-conformance.yml
+  href: https://artifacts.apis.io/billieio/conformance/billieio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/billieio-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/scopes/billieio-scopes.yml
+  href: https://artifacts.apis.io/billieio/scopes/billieio-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/billieio-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/well-known/billieio-www-security.txt
+  href: https://artifacts.apis.io/billieio/well-known/billieio-www-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/billieio-www-security.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/vendors/billieio-vendors.yml
+  href: https://artifacts.apis.io/billieio/vendors/billieio-vendors.yml
   title: ''
   type: Vendors
   url: vendors/billieio-vendors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/asyncapi/billieio-webhooks.yml
+  href: https://artifacts.apis.io/billieio/asyncapi/billieio-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/billieio-webhooks.yml
@@ -128,32 +129,32 @@ common:
   type: Security
   url: https://billie.io/coordinated-vulnerability-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/authentication/billieio-authentication.yml
+  href: https://artifacts.apis.io/billieio/authentication/billieio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/billieio-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/llms/billieio-llms.txt
+  href: https://artifacts.apis.io/billieio/llms/billieio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/billieio-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/well-known/billieio-status-security.txt
+  href: https://artifacts.apis.io/billieio/well-known/billieio-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/billieio-status-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/well-known/billieio-security.txt
+  href: https://artifacts.apis.io/billieio/well-known/billieio-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/billieio-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/well-known/billieio-well-known.yml
+  href: https://artifacts.apis.io/billieio/well-known/billieio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/billieio-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/hosts/billieio-hosts.yml
+  href: https://artifacts.apis.io/billieio/hosts/billieio-hosts.yml
   title: ''
   type: Hosts
   url: hosts/billieio-hosts.yml
@@ -174,12 +175,12 @@ common:
   type: Documentation
   url: https://docs.billie.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/security/billieio-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/billieio/security/billieio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/billieio-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/security/billieio-domain-security.yml
+  href: https://artifacts.apis.io/billieio/security/billieio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/billieio-domain-security.yml
@@ -236,7 +237,7 @@ overview: 'Billieio publishes 6 API contracts indexed on the [APIs.io](https://a
 
 
   Billieio''s developer surface includes authentication, support, API reference, documentation, and 21 more developer resources.'
-random_paper: 5
+random_paper: 1
 rules:
 - authorship: generated
   effective_rule_count: 56
@@ -256,8 +257,8 @@ scopes:
   slug: billieio-scopes
   summary_line: 1 scope · password
 score:
-  band: developing
-  composite: 39.5
+  band: thin
+  composite: 36.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 50.8
@@ -265,20 +266,20 @@ score:
     catalog_gap: 64.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 14.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
     contract_quality: 67.9
     developer_ergonomics: 33.3
-    discoverability: 51.8
+    discoverability: 44.6
     operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 25.5
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -294,13 +295,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/screenshots/billieio-2026-10-11T102211.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/billieio/billieio-2026-10-11T102211.png
 security:
 - kind: authentication
   name: Billieio Authentication

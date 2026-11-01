@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,27 +51,28 @@ apis:
   description: The Images API from ImgBB — 1 operation(s) for images.
   name: ImgBB Images API
   slug: imgbb-images-api
-artifact_total: 15
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ImgBB Image Upload Images API
   slug: open-imgbb-images-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/imgbb/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imgbb/refs/heads/main/agentic-access/imgbb-agentic-access.yml
+  href: https://artifacts.apis.io/imgbb/agentic-access/imgbb-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/imgbb-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imgbb/refs/heads/main/security/imgbb-domain-security.yml
+  href: https://artifacts.apis.io/imgbb/security/imgbb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/imgbb-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imgbb/refs/heads/main/authentication/imgbb-authentication.yml
+  href: https://artifacts.apis.io/imgbb/authentication/imgbb-authentication.yml
   title: ''
   type: Authentication
   url: authentication/imgbb-authentication.yml
@@ -94,27 +97,27 @@ common:
   type: PrivacyPolicy
   url: https://imgbb.com/page/privacy_policy
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/imgbb/refs/heads/main/plans/imgbb-plans-pricing.yml
+  href: https://artifacts.apis.io/imgbb/plans/imgbb-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/imgbb-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/imgbb/refs/heads/main/rate-limits/imgbb-rate-limits.yml
+  href: https://artifacts.apis.io/imgbb/rate-limits/imgbb-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/imgbb-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/imgbb/refs/heads/main/finops/imgbb-finops.yml
+  href: https://artifacts.apis.io/imgbb/finops/imgbb-finops.yml
   title: ''
   type: FinOps
   url: finops/imgbb-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imgbb/refs/heads/main/vocabulary/imgbb-vocabulary.yml
+  href: https://artifacts.apis.io/imgbb/vocabulary/imgbb-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/imgbb-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imgbb/refs/heads/main/json-ld/imgbb-jsonld.json
+  href: https://artifacts.apis.io/imgbb/json-ld/imgbb-jsonld.json
   title: ''
   type: JSONLD
   url: json-ld/imgbb-jsonld.json
@@ -157,12 +160,12 @@ overview: 'ImgBB publishes 1 API contract indexed on the [APIs.io](https://apis.
   The ImgBB catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  ImgBB''s developer surface includes authentication, documentation, pricing, and 10 more developer resources.'
+  ImgBB''s developer surface includes authentication, documentation, pricing, and 11 more developer resources.'
 plans:
 - name: Imgbb Plans Pricing
   plan_count: 4
   slug: imgbb-plans-pricing
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Imgbb Rate Limits
@@ -180,8 +183,8 @@ rules:
     warn: 4
   slug: imgbb-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.5
+  band: developing
+  composite: 39.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 58.8
@@ -189,15 +192,15 @@ score:
     catalog_gap: 56.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.2
   facets:
-    access_clarity: 23.7
+    access_clarity: 39.5
     contract_governance: 23.5
     contract_quality: 61.5
-    developer_ergonomics: 10.7
+    developer_ergonomics: 22.6
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 39.9
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -210,14 +213,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/imgbb/refs/heads/main/screenshots/imgbb-2026-06-20T183249.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/imgbb/imgbb-2026-06-20T183249.png
 security:
 - kind: authentication
   name: Imgbb Authentication

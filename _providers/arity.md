@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.6
-  scored_at: '2026-10-17'
+  score: 23.2
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - baseURL: https://api.arity.com
@@ -64,37 +66,37 @@ apis:
 artifact_total: 10
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arity/refs/heads/main/rules/arity-rules.yml
+  href: https://artifacts.apis.io/arity/rules/arity-rules.yml
   title: ''
   type: Spectral
   url: rules/arity-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arity/refs/heads/main/errors/arity-problem-types.yml
+  href: https://artifacts.apis.io/arity/errors/arity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/arity-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arity/refs/heads/main/conformance/arity-conformance.yml
+  href: https://artifacts.apis.io/arity/conformance/arity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/arity-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arity/refs/heads/main/well-known/arity-prod-security.txt
+  href: https://artifacts.apis.io/arity/well-known/arity-prod-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/arity-prod-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arity/refs/heads/main/well-known/arity-well-known.yml
+  href: https://artifacts.apis.io/arity/well-known/arity-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/arity-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arity/refs/heads/main/hosts/arity-hosts.yml
+  href: https://artifacts.apis.io/arity/hosts/arity-hosts.yml
   title: ''
   type: Hosts
   url: hosts/arity-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arity/refs/heads/main/vendors/arity-vendors.yml
+  href: https://artifacts.apis.io/arity/vendors/arity-vendors.yml
   title: ''
   type: Vendors
   url: vendors/arity-vendors.yml
@@ -103,12 +105,12 @@ common:
   type: Pricing
   url: https://arity.com/move/pricing-through-personalization-key-takeaways-from-robert-nendorf-2/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arity/refs/heads/main/scopes/arity-scopes.yml
+  href: https://artifacts.apis.io/arity/scopes/arity-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/arity-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arity/refs/heads/main/security/arity-domain-security.yml
+  href: https://artifacts.apis.io/arity/security/arity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arity-domain-security.yml
@@ -194,7 +196,7 @@ overview: 'Arity is listed with 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Arity''s developer surface includes pricing, documentation, API reference, authentication, engineering blog, support, and 19 more developer resources.'
-random_paper: 3
+random_paper: 1
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -215,21 +217,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 39.7
+  composite: 41.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 44.5
     catalog_earned_first_party: 0.0
     catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 40.6
     developer_ergonomics: 57.1
     discoverability: 73.2
-    operational_transparency: 0.0
+    operational_transparency: 10.5
+  previous_composite: 41.8
   provenance:
     conformance: derived
     contracts:
@@ -244,11 +248,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 33.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Arity Domain Security

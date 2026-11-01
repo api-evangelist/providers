@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: Epic's HL7 FHIR R4 (4.0.1) REST API, aligned to the US Core implementation guides and exposing 59 resource types (Patient, Encounter, Observation, Condition, MedicationRequest, DiagnosticReport, Docum
@@ -55,7 +57,7 @@ apis:
 - description: Epic's support for the CDS Hooks specification, letting external clinical decision support services return cards and SMART app launch links at documented workflow hook points inside the Epic EHR. Docu
   name: Epic CDS Hooks API
   slug: epic-cds-hooks-api
-artifact_total: 13
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Epic Systems Cds Hooks Webhooks
@@ -70,12 +72,12 @@ common:
   type: Blog
   url: https://www.epic.com/epic/newsroom/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/security/epic-systems-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/epic-systems/security/epic-systems-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/epic-systems-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/security/epic-systems-domain-security.yml
+  href: https://artifacts.apis.io/epic-systems/security/epic-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/epic-systems-domain-security.yml
@@ -100,7 +102,7 @@ common:
   type: GettingStarted
   url: https://fhir.epic.com/Documentation?docId=fhirtutorial
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/authentication/epic-systems-authentication.yml
+  href: https://artifacts.apis.io/epic-systems/authentication/epic-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/epic-systems-authentication.yml
@@ -117,57 +119,57 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/epic1979/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/well-known/epic-systems-well-known.yml
+  href: https://artifacts.apis.io/epic-systems/well-known/epic-systems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/epic-systems-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/well-known/epic-systems-security.txt
+  href: https://artifacts.apis.io/epic-systems/well-known/epic-systems-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/epic-systems-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/scopes/epic-systems-scopes.yml
+  href: https://artifacts.apis.io/epic-systems/scopes/epic-systems-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/epic-systems-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/conformance/epic-systems-conformance.yml
+  href: https://artifacts.apis.io/epic-systems/conformance/epic-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/epic-systems-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/conventions/epic-systems-conventions.yml
+  href: https://artifacts.apis.io/epic-systems/conventions/epic-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/epic-systems-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/conventions/epic-systems-conventions.yml
+  href: https://artifacts.apis.io/epic-systems/conventions/epic-systems-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/epic-systems-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/errors/epic-systems-problem-types.yml
+  href: https://artifacts.apis.io/epic-systems/errors/epic-systems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/epic-systems-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/data-model/epic-systems-data-model.yml
+  href: https://artifacts.apis.io/epic-systems/data-model/epic-systems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/epic-systems-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/lifecycle/epic-systems-lifecycle.yml
+  href: https://artifacts.apis.io/epic-systems/lifecycle/epic-systems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/epic-systems-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/asyncapi/epic-systems-cds-hooks-webhooks.yml
+  href: https://artifacts.apis.io/epic-systems/asyncapi/epic-systems-cds-hooks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/epic-systems-cds-hooks-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/llms/epic-systems-llms.txt
+  href: https://artifacts.apis.io/epic-systems/llms/epic-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/epic-systems-llms.txt
@@ -176,22 +178,22 @@ common:
   type: Security
   url: https://www.epic.com/epic/page/reporting-potential-security-vulnerability/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/packages/epic-systems-packages.yml
+  href: https://artifacts.apis.io/epic-systems/packages/epic-systems-packages.yml
   title: ''
   type: Packages
   url: packages/epic-systems-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/sandbox/epic-systems-sandbox.yml
+  href: https://artifacts.apis.io/epic-systems/sandbox/epic-systems-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/epic-systems-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/errors/epic-systems-error-codes.yml
+  href: https://artifacts.apis.io/epic-systems/errors/epic-systems-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/epic-systems-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/changelog/epic-systems-changelog.yml
+  href: https://artifacts.apis.io/epic-systems/changelog/epic-systems-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/epic-systems-changelog.yml
@@ -200,22 +202,22 @@ common:
   type: Deprecation
   url: https://fhir.epic.com/Documentation?docId=developerguidelines
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/rate-limits/epic-systems-rate-limits.yml
+  href: https://artifacts.apis.io/epic-systems/rate-limits/epic-systems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/epic-systems-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/plans/epic-systems-plans-pricing.yml
+  href: https://artifacts.apis.io/epic-systems/plans/epic-systems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/epic-systems-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/epic-systems/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/fhir/epic-systems-endpoint-catalog.yml
+  href: https://artifacts.apis.io/epic-systems/fhir/epic-systems-endpoint-catalog.yml
   title: ''
   type: APICatalog
   url: fhir/epic-systems-endpoint-catalog.yml
@@ -234,6 +236,14 @@ common:
 created: '2026-07-24'
 description: Epic Systems Corporation is a privately held electronic health record (EHR/EMR) software company founded in 1979 and headquartered in Verona, Wisconsin, United States. Epic's software supports the medical records of a large share of U.S. hospital systems and academic medical centers, and its "Epic on FHIR" developer program (fhir.epic.com / open.epic.com) exposes a standards-based HL7 FHIR interoperability surface for patient- and provider-facing apps. Epic serves live, public sandbox FHIR endpoints across three FHIR versions - R4 (4.0.1), STU3 (3.0.1), and DSTU2 (1.0.2) - aligned to the US Core implementation guides, with SMART on FHIR / OAuth 2.0 authorization, CDS Hooks, and FHIR Bulk Data ($export) access. Production access requires client registration and a health system's participation; the developer sandbox, specifications, and CapabilityStatements are openly published. Epic is a core node of the U.S. healthcare interoperability landscape shaped by the ONC/CMS 21st Century
   Cures Act information-blocking rules and TEFCA.
+finops:
+- has_sources: true
+  method: derived
+  name: Epic Systems Finops
+  primary_unit: ''
+  service_category: ''
+  slug: epic-systems-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-10-06'
@@ -251,7 +261,7 @@ plans:
 - name: Epic Systems Plans Pricing
   plan_count: 2
   slug: epic-systems-plans-pricing
-random_paper: 0
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Epic Systems Rate Limits
@@ -263,21 +273,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.5
+  composite: 61.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.6
+  delta: -0.8
   facets:
     access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 44.2
     developer_ergonomics: 66.1
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 73.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -286,7 +296,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 59.9
+  previous_composite: 62.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -297,14 +307,14 @@ score:
     regime: Health
     regime_id: health
     score: 48.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/screenshots/epic-systems-2026-07-25T213516.png
+screenshot: https://apis.io/screenshots/epic-systems/epic-systems-2026-07-25T213516.png
 security:
 - kind: authentication
   name: Epic Systems Authentication
@@ -318,6 +328,14 @@ security:
   name: Epic Systems Vulnerability Disclosure
   slug: epic-systems-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Export a population from Epic with FHIR Bulk Data
+  slug: epic-systems-backend-bulk-export
+- name: Read a patient's clinical record from Epic (patient-context SMART app)
+  slug: epic-systems-patient-context-read
+- name: Write data back into an Epic chart
+  slug: epic-systems-write-back-observation
 slug: epic-systems
 tags:
 - Healthcare

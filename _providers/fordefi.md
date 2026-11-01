@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.4
-  scored_at: '2026-10-17'
+  score: 36.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 75
   slug: fordefi-agentic-access
   summary_line: 75 operations · 43 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.fordefi.com/
   baseurl_source: declared
@@ -129,15 +131,12 @@ apis:
   description: 'These endpoints allow you to manually trigger your pre-configured webhooks.<br><br><a href=''https://docs.fordefi.com/reference/webhooks''>Use Webhooks</a> describes how to configure webhooks, validate '
   name: Fordefi Webhooks API
   slug: fordefi-webhooks-api
-artifact_total: 40
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Fordefi Webhooks
   slug: fordefi-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Fordefi Address Book API
   slug: open-fordefi-address-book-api
@@ -190,6 +189,15 @@ collections:
   name: Fordefi Address Book Webhooks API
   slug: open-fordefi-webhooks-api
 common:
+- group: other
+  href: https://artifacts.apis.io/fordefi/capabilities/fordefi-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fordefi-capability-edges.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/fordefi/overview
 - group: company
   title: ''
   type: Blog
@@ -251,92 +259,92 @@ common:
   type: Compliance
   url: https://fordefi.com/solutions/mpc-security
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/changelog/fordefi-changelog.yml
+  href: https://artifacts.apis.io/fordefi/changelog/fordefi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fordefi-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/lifecycle/fordefi-lifecycle.yml
+  href: https://artifacts.apis.io/fordefi/lifecycle/fordefi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fordefi-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/authentication/fordefi-authentication.yml
+  href: https://artifacts.apis.io/fordefi/authentication/fordefi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fordefi-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/conventions/fordefi-conventions.yml
+  href: https://artifacts.apis.io/fordefi/conventions/fordefi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fordefi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/conventions/fordefi-conventions.yml
+  href: https://artifacts.apis.io/fordefi/conventions/fordefi-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/fordefi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/errors/fordefi-problem-types.yml
+  href: https://artifacts.apis.io/fordefi/errors/fordefi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fordefi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/data-model/fordefi-data-model.yml
+  href: https://artifacts.apis.io/fordefi/data-model/fordefi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fordefi-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/asyncapi/fordefi-webhooks.yml
+  href: https://artifacts.apis.io/fordefi/asyncapi/fordefi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fordefi-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/packages/fordefi-packages.yml
+  href: https://artifacts.apis.io/fordefi/packages/fordefi-packages.yml
   title: ''
   type: Packages
   url: packages/fordefi-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/packages/fordefi-packages.yml
+  href: https://artifacts.apis.io/fordefi/packages/fordefi-packages.yml
   title: ''
   type: SDKs
   url: packages/fordefi-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/mcp/fordefi-mcp.yml
+  href: https://artifacts.apis.io/fordefi/mcp/fordefi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fordefi-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fordefi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/llms/fordefi-llms.txt
+  href: https://artifacts.apis.io/fordefi/llms/fordefi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fordefi-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/overlays/fordefi-openapi-overlay.yaml
+  href: https://artifacts.apis.io/fordefi/overlays/fordefi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fordefi-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/conformance/fordefi-conformance.yml
+  href: https://artifacts.apis.io/fordefi/conformance/fordefi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fordefi-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/security/fordefi-trust-center.yml
+  href: https://artifacts.apis.io/fordefi/security/fordefi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fordefi-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/security/fordefi-domain-security.yml
+  href: https://artifacts.apis.io/fordefi/security/fordefi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fordefi-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/agentic-access/fordefi-agentic-access.yml
+  href: https://artifacts.apis.io/fordefi/agentic-access/fordefi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fordefi-agentic-access.yml
@@ -354,27 +362,27 @@ overview: 'Fordefi publishes 17 API contracts indexed on the [APIs.io](https://a
   The Fordefi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fordefi''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, changelog, authentication, and 26 more developer resources.'
-random_paper: 9
+  Fordefi''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, changelog, authentication, and 28 more developer resources.'
+random_paper: 15
 score:
   band: developing
-  composite: 53.4
+  composite: 53.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.2
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 58.3
-    developer_ergonomics: 61.3
-    discoverability: 73.2
-    operational_transparency: 50.0
-  previous_composite: 53.3
+    developer_ergonomics: 62.5
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -391,13 +399,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/screenshots/fordefi-2026-07-25T214929.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fordefi/fordefi-2026-07-25T214929.png
 security:
 - kind: authentication
   name: Fordefi Authentication
@@ -411,6 +420,14 @@ security:
   name: Fordefi Trust Center
   slug: fordefi-trust-center
   summary_line: SOC 2 Type II
+skill_count: 3
+skills:
+- name: Create, sign and monitor a transaction
+  slug: fordefi-create-and-approve-transaction
+- name: Create a vault and generate a receiving address
+  slug: fordefi-create-vault-and-address
+- name: Transfer assets and track to completion
+  slug: fordefi-transfer-and-track
 slug: fordefi
 tags:
 - Company

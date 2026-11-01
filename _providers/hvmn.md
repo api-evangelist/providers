@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Agent-native commerce surface for the Ketone-IQ (HVMN) Shopify store: a Universal Commerce Protocol (UCP) merchant profile and live MCP endpoint for catalog search, cart, and buyer-approved checkout, '
@@ -50,37 +52,37 @@ common:
   type: BlogRSS
   url: https://ketone.com/blogs/blog.atom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hvmn/refs/heads/main/security/hvmn-domain-security.yml
+  href: https://artifacts.apis.io/hvmn/security/hvmn-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hvmn-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hvmn/refs/heads/main/llms/hvmn-llms.txt
+  href: https://artifacts.apis.io/hvmn/llms/hvmn-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hvmn-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hvmn/refs/heads/main/mcp/hvmn-mcp.yml
+  href: https://artifacts.apis.io/hvmn/mcp/hvmn-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hvmn-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hvmn/refs/heads/main/well-known/hvmn-well-known.yml
+  href: https://artifacts.apis.io/hvmn/well-known/hvmn-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hvmn-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hvmn/refs/heads/main/authentication/hvmn-authentication.yml
+  href: https://artifacts.apis.io/hvmn/authentication/hvmn-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hvmn-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hvmn/refs/heads/main/scopes/hvmn-scopes.yml
+  href: https://artifacts.apis.io/hvmn/scopes/hvmn-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hvmn-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hvmn/refs/heads/main/conformance/hvmn-conformance.yml
+  href: https://artifacts.apis.io/hvmn/conformance/hvmn-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hvmn-conformance.yml
@@ -124,7 +126,7 @@ overview: 'HVMN is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   HVMN''s developer surface includes engineering blog, authentication, documentation, pricing, and 11 more developer resources.'
-random_paper: 1
+random_paper: 9
 scopes:
 - name: Hvmn Scopes
   scope_count: 4
@@ -132,7 +134,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.7
+  composite: 23.0
   coverage:
     artifact_dirs: 11
     catalog_earned: 32.0
@@ -140,15 +142,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 0.0
-  previous_composite: 22.2
+  previous_composite: 23.0
   provenance:
     conformance: derived
     mcp: platform-generated
@@ -158,14 +160,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hvmn/refs/heads/main/screenshots/hvmn-2026-08-07T170422.png
+screenshot: https://apis.io/screenshots/hvmn/hvmn-2026-08-07T170422.png
 security:
 - kind: authentication
   name: Hvmn Authentication

@@ -26,20 +26,22 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 36.4
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://infer.flow7.org/v1
   baseurl_source: declared
@@ -56,24 +58,44 @@ apis:
   description: Customer-facing service state without private routing topology.
   name: Infer by Flow7 Status API
   slug: infer-by-flow7-status-api
-artifact_total: 11
+- baseURL: https://infer.flow7.org/v1
+  baseurl_source: declared
+  description: The Generation API from Infer by Flow7 — 6 operation(s) for generation.
+  name: Infer by Flow7 Generation API
+  slug: infer-by-flow7-generation-api
+- baseURL: https://infer.flow7.org/v1
+  baseurl_source: declared
+  description: The Messages API from Infer by Flow7 — 1 operation(s) for messages.
+  name: Infer by Flow7 Messages API
+  slug: infer-by-flow7-messages-api
+- baseURL: https://infer.flow7.org/v1
+  baseurl_source: declared
+  description: Completed metered usage and charge receipts.
+  name: Infer by Flow7 Usage API
+  slug: infer-by-flow7-usage-api
+- baseURL: https://infer.flow7.org/v1
+  baseurl_source: declared
+  description: The Chat Completions API from Infer by Flow7 — 1 operation(s) for chat completions.
+  name: Infer by Flow7 Chat Completions API
+  slug: infer-by-flow7-chat-completions-api
+artifact_total: 19
 collections:
 - collection_type: open
   name: Infer by Flow7 Public API
   slug: open-infer-by-flow7-public-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/plans/infer-by-flow7-plans-pricing.yml
+  href: https://artifacts.apis.io/infer-by-flow7/plans/infer-by-flow7-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/infer-by-flow7-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/rate-limits/infer-by-flow7-rate-limits.yml
+  href: https://artifacts.apis.io/infer-by-flow7/rate-limits/infer-by-flow7-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/infer-by-flow7-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/capabilities/infer-by-flow7-capability-edges.yml
+  href: https://artifacts.apis.io/infer-by-flow7/capabilities/infer-by-flow7-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/infer-by-flow7-capability-edges.yml
@@ -82,22 +104,22 @@ common:
   type: AgentSkill
   url: https://infer.flow7.org/.well-known/agent-skills/index.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/infer-by-flow7/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/overlays/infer-by-flow7-public-api-overlay.yaml
+  href: https://artifacts.apis.io/infer-by-flow7/overlays/infer-by-flow7-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infer-by-flow7-public-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/mcp/infer-by-flow7-mcp.yml
+  href: https://artifacts.apis.io/infer-by-flow7/mcp/infer-by-flow7-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/infer-by-flow7-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/security/infer-by-flow7-domain-security.yml
+  href: https://artifacts.apis.io/infer-by-flow7/security/infer-by-flow7-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/infer-by-flow7-domain-security.yml
@@ -146,12 +168,12 @@ common:
   type: StatusPage
   url: https://infer.flow7.org/status
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/lifecycle/infer-by-flow7-lifecycle.yml
+  href: https://artifacts.apis.io/infer-by-flow7/lifecycle/infer-by-flow7-lifecycle.yml
   title: ''
   type: StatusPage
   url: lifecycle/infer-by-flow7-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/well-known/infer-by-flow7-well-known.yml
+  href: https://artifacts.apis.io/infer-by-flow7/well-known/infer-by-flow7-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/infer-by-flow7-well-known.yml
@@ -164,39 +186,47 @@ common:
   type: APIsJSON
   url: https://infer.flow7.org/.well-known/apis.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/security/infer-by-flow7-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/infer-by-flow7/security/infer-by-flow7-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/infer-by-flow7-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/security/infer-by-flow7-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/infer-by-flow7/security/infer-by-flow7-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/infer-by-flow7-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/conformance/infer-by-flow7-conformance.yml
+  href: https://artifacts.apis.io/infer-by-flow7/conformance/infer-by-flow7-conformance.yml
   title: ''
   type: Compliance
   url: conformance/infer-by-flow7-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/packages/infer-by-flow7-packages.yml
+  href: https://artifacts.apis.io/infer-by-flow7/packages/infer-by-flow7-packages.yml
   title: ''
   type: Packages
   url: packages/infer-by-flow7-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/changelog/infer-by-flow7-changelog.yml
+  href: https://artifacts.apis.io/infer-by-flow7/changelog/infer-by-flow7-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/infer-by-flow7-changelog.yml
 created: '2026-08-11'
 description: 'A single Responses-compatible inference API that fronts multiple model families through a private, opaque supplier pool. Public paid beta offering a prepaid-wallet billing model, locked prices, spending limits, and per-call receipts for accountable coding-agent inference. Four operations — two of them unauthenticated — cover a machine-readable price catalog, per-model route status with p95 latency, an authenticated selector list, and the Responses endpoint itself. Distinguished by an unusually legible commercial surface: the full rate card, including per-tier margin floors and dated market-reference discounts, is served as JSON without a key, and every completed request returns a receipt with the locked price version and the exact charge.'
+finops:
+- has_sources: true
+  method: derived
+  name: Infer By Flow7 Finops
+  primary_unit: ''
+  service_category: ''
+  slug: infer-by-flow7-finops
+  template: true
 image: https://infer.flow7.org/assets/og-infer.png?v=20260811
 layout: provider
 modified: '2026-08-11'
 name: Infer by Flow7
 nav: Providers
 network: true
-overview: 'Infer by Flow7 publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Catalog API, Inference API, and Status API. Tagged areas include AI/ML inference, LLM API gateway, Responses-compatible API, Coding-agent tooling, and Developer Tools.
+overview: 'Infer by Flow7 publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalog API, Inference API, Status API, and 4 more. Tagged areas include AI/ML inference, LLM API gateway, Responses-compatible API, Coding-agent tooling, and Developer Tools.
 
 
   Infer by Flow7''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 21 more developer resources.'
@@ -216,30 +246,30 @@ scopes:
   summary_line: 1 scope · bearer token (not OAuth)
 score:
   band: strong
-  composite: 65.7
+  composite: 63.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 46.0
     catalog_earned_first_party: 12.0
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 52.0
+    contract_quality: 52.5
     developer_ergonomics: 69.0
     discoverability: 78.6
     operational_transparency: 42.1
-  previous_composite: 65.7
+  previous_composite: 63.7
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 3
+      marker_coverage: 8.3
+      total: 12
     mcp: derived
     skills: first-party
   regulatory:
@@ -248,13 +278,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/screenshots/infer-by-flow7-2026-08-17T080956.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/infer-by-flow7/infer-by-flow7-2026-08-17T080956.png
 security:
 - kind: authentication
   name: Infer By Flow7 Authentication
@@ -272,6 +303,14 @@ security:
   name: Infer By Flow7 Trust Center
   slug: infer-by-flow7-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: codex-provider-doctor
+  slug: infer-by-flow7-codex-provider-doctor
+- name: infer-codex-provider
+  slug: infer-by-flow7-infer-codex-provider
+- name: infer-opencode-provider
+  slug: infer-by-flow7-infer-opencode-provider
 slug: infer-by-flow7
 tags:
 - AI/ML inference

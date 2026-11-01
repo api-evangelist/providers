@@ -4,6 +4,6 @@ layout: provider
 name: osgi
 nav: Providers
 network: true
-random_paper: 16
+random_paper: 2
 slug: osgi
 ---

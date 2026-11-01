@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,21 +20,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.5
-  scored_at: '2026-10-17'
+  score: 37.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +44,7 @@ agentic_access:
   operation_count: 13
   slug: payerset-agentic-access
   summary_line: 13 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.payerset.com
   baseurl_source: declared
@@ -70,11 +71,8 @@ apis:
   description: Payer-provider negotiated rate lookups from Transparency in Coverage MRFs.
   name: Payerset Rates API
   slug: payerset-rates-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Payerset Data Lake Billing Codes API
   slug: open-payerset-billing-codes-api
@@ -95,22 +93,22 @@ collections:
   slug: open-payerset
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/capabilities/payerset-capability-edges.yml
+  href: https://artifacts.apis.io/payerset/capabilities/payerset-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/payerset-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/agentic-access/payerset-agentic-access.yml
+  href: https://artifacts.apis.io/payerset/agentic-access/payerset-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/payerset-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/security/payerset-domain-security.yml
+  href: https://artifacts.apis.io/payerset/security/payerset-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/payerset-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/authentication/payerset-authentication.yml
+  href: https://artifacts.apis.io/payerset/authentication/payerset-authentication.yml
   title: ''
   type: Authentication
   url: authentication/payerset-authentication.yml
@@ -131,17 +129,17 @@ common:
   type: Documentation
   url: https://docs.payerset.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/plans/payerset-plans-pricing.yml
+  href: https://artifacts.apis.io/payerset/plans/payerset-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/payerset-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/rate-limits/payerset-rate-limits.yml
+  href: https://artifacts.apis.io/payerset/rate-limits/payerset-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/payerset-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/finops/payerset-finops.yml
+  href: https://artifacts.apis.io/payerset/finops/payerset-finops.yml
   title: ''
   type: FinOps
   url: finops/payerset-finops.yml
@@ -177,14 +175,14 @@ plans:
 - name: Payerset Plans Pricing
   plan_count: 2
   slug: payerset-plans-pricing
-random_paper: 19
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Payerset Rate Limits
   slug: payerset-rate-limits
 score:
   band: emerging
-  composite: 24.8
+  composite: 24.9
   coverage:
     artifact_dirs: 14
     catalog_earned: 41.0
@@ -192,15 +190,15 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 45.1
     developer_ergonomics: 25.0
-    discoverability: 68.3
-    operational_transparency: 7.9
-  previous_composite: 30.8
+    discoverability: 66.1
+    operational_transparency: 10.5
+  previous_composite: 24.9
   provenance:
     agentic_access: derived
     contracts:
@@ -215,14 +213,14 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/screenshots/payerset-2026-08-07T191632.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/payerset/payerset-2026-08-07T191632.png
 security:
 - kind: authentication
   name: Payerset Authentication

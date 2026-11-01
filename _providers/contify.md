@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Contify News API is a developer-friendly REST/JSON API that aggregates, deduplicates, and enriches business news from over a million curated sources, covering 700,000+ companies and 117+ languages
@@ -46,17 +48,17 @@ asyncapis:
   slug: contify-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/contify/refs/heads/main/plans/contify-plans-pricing.yml
+  href: https://artifacts.apis.io/contify/plans/contify-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/contify-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/contify/refs/heads/main/rate-limits/contify-rate-limits.yml
+  href: https://artifacts.apis.io/contify/rate-limits/contify-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/contify-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/contify/refs/heads/main/finops/contify-finops.yml
+  href: https://artifacts.apis.io/contify/finops/contify-finops.yml
   title: ''
   type: FinOps
   url: finops/contify-finops.yml
@@ -65,7 +67,7 @@ common:
   type: BlogRSS
   url: https://www.contify.com/resources/blog/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contify/refs/heads/main/security/contify-domain-security.yml
+  href: https://artifacts.apis.io/contify/security/contify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/contify-domain-security.yml
@@ -106,32 +108,32 @@ common:
   type: ContactUs
   url: https://www.contify.com/contact-us/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contify/refs/heads/main/authentication/contify-authentication.yml
+  href: https://artifacts.apis.io/contify/authentication/contify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/contify-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contify/refs/heads/main/conventions/contify-conventions.yml
+  href: https://artifacts.apis.io/contify/conventions/contify-conventions.yml
   title: ''
   type: Conventions
   url: conventions/contify-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contify/refs/heads/main/errors/contify-problem-types.yml
+  href: https://artifacts.apis.io/contify/errors/contify-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/contify-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contify/refs/heads/main/lifecycle/contify-lifecycle.yml
+  href: https://artifacts.apis.io/contify/lifecycle/contify-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/contify-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/contify/refs/heads/main/changelog/contify-changelog.yml
+  href: https://artifacts.apis.io/contify/changelog/contify-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/contify-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contify/refs/heads/main/conformance/contify-conformance.yml
+  href: https://artifacts.apis.io/contify/conformance/contify-conformance.yml
   title: ''
   type: Conformance
   url: conformance/contify-conformance.yml
@@ -140,12 +142,12 @@ common:
   type: Compliance
   url: https://www.contify.com/news-api/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contify/refs/heads/main/asyncapi/contify-webhooks.yml
+  href: https://artifacts.apis.io/contify/asyncapi/contify-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/contify-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/contify/refs/heads/main/llms/contify-llms.txt
+  href: https://artifacts.apis.io/contify/llms/contify-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/contify-llms.txt
@@ -164,11 +166,11 @@ common:
 created: '2025-02-09'
 description: Contify is an AI-powered market and competitive intelligence platform that helps businesses track competitor activity, market trends, and industry news. It exposes a REST News API that delivers structured, deduplicated, and enriched business news data on companies, industries, and topics.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Contify Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: contify-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/contify.png
@@ -188,14 +190,14 @@ plans:
 - name: Contify Plans Pricing
   plan_count: 0
   slug: contify-plans-pricing
-random_paper: 16
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Contify Rate Limits
   slug: contify-rate-limits
 score:
   band: developing
-  composite: 39.6
+  composite: 40.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -203,15 +205,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 33.3
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 41.1
+    developer_ergonomics: 38.1
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 40.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -221,14 +223,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/contify/refs/heads/main/screenshots/contify-2026-06-20T174939.png
+screenshot: https://apis.io/screenshots/contify/contify-2026-06-20T174939.png
 security:
 - kind: authentication
   name: Contify Authentication

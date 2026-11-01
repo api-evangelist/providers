@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: derived
-    idempotency: false
+    idempotency: verified
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-17'
+  score: 31.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 37
   slug: fly-io-agentic-access
   summary_line: 37 operations · 24 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - baseURL: https://api.machines.dev
   baseurl_source: declared
@@ -88,15 +90,37 @@ apis:
   description: Fly.io platform OAuth endpoints used during the single sign-on flow to authorize users and exchange tokens.
   name: Fly Io O Auth API
   slug: fly-io-oauth-api
-artifact_total: 73
+- baseURL: https://api.machines.dev
+  baseurl_source: declared
+  description: The Organizations API from Fly Io — 2 operation(s) for organizations.
+  name: Fly Io Organizations API
+  slug: fly-io-organizations-api
+- baseURL: https://api.machines.dev
+  baseurl_source: declared
+  description: The Platform API from Fly Io — 2 operation(s) for platform.
+  name: Fly Io Platform API
+  slug: fly-io-platform-api
+- baseURL: https://api.machines.dev
+  baseurl_source: declared
+  description: Create and manage Postgres clusters, including databases, users, extensions, backups, and app attachments.
+  name: Fly Io Postgres Clusters API
+  slug: fly-io-postgres-clusters-api
+- baseURL: https://api.machines.dev
+  baseurl_source: declared
+  description: The Secrets API from Fly Io — 9 operation(s) for secrets.
+  name: Fly Io Secrets API
+  slug: fly-io-secrets-api
+- baseURL: https://api.machines.dev
+  baseurl_source: declared
+  description: 'This site hosts documentation generated from the Fly.io Machines API OpenAPI specification. Visit our complete [Machines API docs](https://fly.io/docs/machines/api/certificates-resource/) for details '
+  name: Fly Io TLS Certificates API
+  slug: fly-io-tls-certificates-api
+artifact_total: 77
 asyncapis:
 - description: The Fly.io Extensions webhook system delivers real-time event notifications in both directions between Fly.io and extension providers. Fly.io sends CloudEvents-format payloads to the provider's regist
   name: Fly.io Extensions Webhook Events
   slug: fly-io-extensions-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Fly.io Extensions Apps API
   slug: open-fly-io-apps-api
@@ -123,22 +147,22 @@ collections:
   slug: open-fly-io-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/plans/fly-io-plans-pricing.yml
+  href: https://artifacts.apis.io/fly-io/plans/fly-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fly-io-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/rate-limits/fly-io-rate-limits.yml
+  href: https://artifacts.apis.io/fly-io/rate-limits/fly-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fly-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/finops/fly-io-finops.yml
+  href: https://artifacts.apis.io/fly-io/finops/fly-io-finops.yml
   title: ''
   type: FinOps
   url: finops/fly-io-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/capabilities/fly-io-capability-edges.yml
+  href: https://artifacts.apis.io/fly-io/capabilities/fly-io-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fly-io-capability-edges.yml
@@ -147,27 +171,27 @@ common:
   type: Website
   url: https://fly.io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/agentic-access/fly-io-agentic-access.yml
+  href: https://artifacts.apis.io/fly-io/agentic-access/fly-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fly-io-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/security/fly-io-trust-center.yml
+  href: https://artifacts.apis.io/fly-io/security/fly-io-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fly-io-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/security/fly-io-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/fly-io/security/fly-io-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fly-io-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/security/fly-io-domain-security.yml
+  href: https://artifacts.apis.io/fly-io/security/fly-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fly-io-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/authentication/fly-io-authentication.yml
+  href: https://artifacts.apis.io/fly-io/authentication/fly-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fly-io-authentication.yml
@@ -180,17 +204,17 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/fly-io
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/json-schema/fly-io-machine-schema.json
+  href: https://artifacts.apis.io/fly-io/json-schema/fly-io-machine-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/fly-io-machine-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/json-schema/fly-io-volume-schema.json
+  href: https://artifacts.apis.io/fly-io/json-schema/fly-io-volume-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/fly-io-volume-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/json-ld/fly-io-context.jsonld
+  href: https://artifacts.apis.io/fly-io/json-ld/fly-io-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/fly-io-context.jsonld
@@ -319,7 +343,7 @@ modified: '2026-09-16'
 name: Fly Io
 nav: Providers
 network: true
-overview: 'Fly Io is listed with 9 APIs on the [APIs.io](https://apis.io/) network, including Fly.io Machines API, Fly.io Extensions API, fly-io Apps API, and 6 more. Tagged areas include Platform, Infrastructure, Edge Computing, Networking, and Hosting.
+overview: 'Fly Io publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Fly.io Machines API, Fly.io Extensions API, fly-io Apps API, and 11 more. Tagged areas include Platform, Infrastructure, Edge Computing, Networking, and Hosting.
 
 
   The Fly Io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -330,7 +354,7 @@ plans:
 - name: Fly Io Plans Pricing
   plan_count: 8
   slug: fly-io-plans-pricing
-random_paper: 20
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Fly Io Rate Limits
@@ -361,43 +385,44 @@ rules:
   slug: fly-io-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.3
+  composite: 35.0
   coverage:
     artifact_dirs: 22
-    catalog_earned: 50.5
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.5
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -0.6
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 66.0
+    contract_quality: 61.3
     developer_ergonomics: 23.8
-    discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 35.8
+    discoverability: 51.8
+    operational_transparency: 23.7
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 13
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/screenshots/fly-io-2026-06-20T181357.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fly-io/fly-io-2026-06-20T181357.png
 security:
 - kind: authentication
   name: Fly Io Authentication

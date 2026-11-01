@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -59,11 +61,8 @@ apis:
   description: Retrieve PDF shipping documents associated with ODFL PRO numbers.
   name: Old Dominion Freight Line Documents API
   slug: old-dominion-freight-line-documents-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ODFL Bill of Lading API
   slug: open-old-dominion-freight-line-bill-of-lading-api
@@ -81,37 +80,37 @@ collections:
   slug: open-old-dominion-freight-line-tracking-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/plans/old-dominion-freight-line-plans-pricing.yml
+  href: https://artifacts.apis.io/old-dominion-freight-line/plans/old-dominion-freight-line-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/old-dominion-freight-line-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/rate-limits/old-dominion-freight-line-rate-limits.yml
+  href: https://artifacts.apis.io/old-dominion-freight-line/rate-limits/old-dominion-freight-line-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/old-dominion-freight-line-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/finops/old-dominion-freight-line-finops.yml
+  href: https://artifacts.apis.io/old-dominion-freight-line/finops/old-dominion-freight-line-finops.yml
   title: ''
   type: FinOps
   url: finops/old-dominion-freight-line-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/capabilities/old-dominion-freight-line-capability-edges.yml
+  href: https://artifacts.apis.io/old-dominion-freight-line/capabilities/old-dominion-freight-line-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/old-dominion-freight-line-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/agentic-access/old-dominion-freight-line-agentic-access.yml
+  href: https://artifacts.apis.io/old-dominion-freight-line/agentic-access/old-dominion-freight-line-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/old-dominion-freight-line-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/security/old-dominion-freight-line-domain-security.yml
+  href: https://artifacts.apis.io/old-dominion-freight-line/security/old-dominion-freight-line-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/old-dominion-freight-line-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/authentication/old-dominion-freight-line-authentication.yml
+  href: https://artifacts.apis.io/old-dominion-freight-line/authentication/old-dominion-freight-line-authentication.yml
   title: ''
   type: Authentication
   url: authentication/old-dominion-freight-line-authentication.yml
@@ -141,7 +140,7 @@ finops:
 - has_sources: true
   method: generated
   name: Old Dominion Freight Line Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: LTL Freight / Logistics
   slug: old-dominion-freight-line-finops
   template: false
@@ -175,30 +174,30 @@ press:
 - date: ''
   title: Old Dominion Freight Line Meets Growing Demand in Six ...
   url: https://www.dcvelocity.com/articles/51838-old-dominion-freight-line-meets-growing-demand-in-six-markets-with-new-expanded-service-centers
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Old Dominion Freight Line Rate Limits
   slug: old-dominion-freight-line-rate-limits
 score:
-  band: emerging
-  composite: 24.3
+  band: thin
+  composite: 26.6
   coverage:
     artifact_dirs: 15
-    catalog_earned: 36.0
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.5
   facets:
-    access_clarity: 5.3
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 51.4
     developer_ergonomics: 26.2
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 25.9
+  previous_composite: 25.1
   provenance:
     agentic_access: derived
     contracts:
@@ -212,13 +211,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/screenshots/old-dominion-freight-line-2026-06-20T190653.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/old-dominion-freight-line/old-dominion-freight-line-2026-06-20T190653.png
 security:
 - kind: authentication
   name: Old Dominion Freight Line Authentication

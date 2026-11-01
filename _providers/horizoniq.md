@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 28.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -89,11 +91,8 @@ apis:
   description: Enpionts related to user accounts
   name: HorizonIQ User Accounts API
   slug: horizoniq-user-accounts-api
-artifact_total: 23
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Compass Action Items API
   slug: open-horizoniq-action-items-api
@@ -122,12 +121,17 @@ collections:
   name: Compass Action Items User Accounts API
   slug: open-horizoniq-user-accounts-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/horizoniq/plans/horizoniq-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/horizoniq-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.horizoniq.com/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/capabilities/horizoniq-capability-edges.yml
+  href: https://artifacts.apis.io/horizoniq/capabilities/horizoniq-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/horizoniq-capability-edges.yml
@@ -148,72 +152,72 @@ common:
   type: GettingStarted
   url: https://compass-horizoniq.readme.io/reference/general-api-information
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/authentication/horizoniq-authentication.yml
+  href: https://artifacts.apis.io/horizoniq/authentication/horizoniq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/horizoniq-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/_original/horizoniq-compass-openapi-original.yml
+  href: https://artifacts.apis.io/horizoniq/openapi/_original/horizoniq-compass-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/horizoniq-compass-openapi-original.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/overlays/horizoniq-compass-overlay.yaml
+  href: https://artifacts.apis.io/horizoniq/overlays/horizoniq-compass-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/horizoniq-compass-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/mcp/horizoniq-mcp.yml
+  href: https://artifacts.apis.io/horizoniq/mcp/horizoniq-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/horizoniq-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/horizoniq/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/llms/horizoniq-llms.txt
+  href: https://artifacts.apis.io/horizoniq/llms/horizoniq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/horizoniq-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/conventions/horizoniq-conventions.yml
+  href: https://artifacts.apis.io/horizoniq/conventions/horizoniq-conventions.yml
   title: ''
   type: Conventions
   url: conventions/horizoniq-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/data-model/horizoniq-data-model.yml
+  href: https://artifacts.apis.io/horizoniq/data-model/horizoniq-data-model.yml
   title: ''
   type: DataModel
   url: data-model/horizoniq-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/errors/horizoniq-problem-types.yml
+  href: https://artifacts.apis.io/horizoniq/errors/horizoniq-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/horizoniq-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/conformance/horizoniq-conformance.yml
+  href: https://artifacts.apis.io/horizoniq/conformance/horizoniq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/horizoniq-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/lifecycle/horizoniq-lifecycle.yml
+  href: https://artifacts.apis.io/horizoniq/lifecycle/horizoniq-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/horizoniq-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/agentic-access/horizoniq-agentic-access.yml
+  href: https://artifacts.apis.io/horizoniq/agentic-access/horizoniq-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/horizoniq-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/well-known/horizoniq-well-known.yml
+  href: https://artifacts.apis.io/horizoniq/well-known/horizoniq-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/horizoniq-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/security/horizoniq-trust-center.yml
+  href: https://artifacts.apis.io/horizoniq/security/horizoniq-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/horizoniq-trust-center.yml
@@ -222,7 +226,7 @@ common:
   type: Compliance
   url: https://www.horizoniq.com/compliance/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/security/horizoniq-domain-security.yml
+  href: https://artifacts.apis.io/horizoniq/security/horizoniq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/horizoniq-domain-security.yml
@@ -260,6 +264,14 @@ common:
   url: https://www.horizoniq.com/
 created: '2026-07-17'
 description: HorizonIQ (formerly INAP / Internap) is a US infrastructure provider delivering fully managed private cloud, bare metal servers, and GPU dedicated servers, along with block and object storage, backup and recovery, connectivity, load balancing, firewalls, and DDoS mitigation across its data center footprint. Its Compass platform gives customers self-service provisioning, monitoring, and automation, exposed programmatically through the Compass REST API for managing servers, devices, managed firewalls, OS images, SSL certificates, billing, users, action items, and support cases. HorizonIQ holds SOC 2 Type II, ISO 27001, and PCI DSS certifications.
+finops:
+- has_sources: true
+  method: derived
+  name: Horizoniq Finops
+  primary_unit: server
+  service_category: ''
+  slug: horizoniq-finops
+  template: false
 image: https://www.horizoniq.com/wp-content/uploads/2024/01/HorizonIQ_FullColor_Horizontal.png
 layout: provider
 modified: '2026-10-06'
@@ -269,27 +281,34 @@ network: true
 overview: 'HorizonIQ publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Action Items API, Billing API, Devices API, and 6 more. Tagged areas include Company, Enterprise, Cloud, Bare Metal, and Infrastructure.
 
 
-  HorizonIQ''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 23 more developer resources.'
-random_paper: 5
+  HorizonIQ''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 24 more developer resources.'
+plans:
+- name: Horizoniq Plans Pricing
+  plan_count: 9
+  slug: horizoniq-plans-pricing
+- name: Horizoniq Price Estimates
+  plan_count: 0
+  slug: horizoniq-price-estimates
+random_paper: 11
 score:
   band: developing
-  composite: 41.0
+  composite: 53.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 55.3
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 50.7
-    developer_ergonomics: 39.9
-    discoverability: 73.2
+    contract_quality: 48.2
+    developer_ergonomics: 58.9
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 40.9
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -306,13 +325,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/screenshots/horizoniq-2026-07-25T221431.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/horizoniq/horizoniq-2026-07-25T221431.png
 security:
 - kind: authentication
   name: Horizoniq Authentication
@@ -326,6 +346,14 @@ security:
   name: Horizoniq Trust Center
   slug: horizoniq-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS
+skill_count: 3
+skills:
+- name: Manage HorizonIQ Compass team access
+  slug: horizoniq-manage-team-access
+- name: Provision a HorizonIQ SSL certificate
+  slug: horizoniq-provision-ssl-certificate
+- name: Reinstall a HorizonIQ bare metal server
+  slug: horizoniq-reinstall-server
 slug: horizoniq
 tags:
 - Company

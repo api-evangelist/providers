@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -43,7 +45,7 @@ asyncapis:
   slug: appboxo-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appboxo/refs/heads/main/security/appboxo-domain-security.yml
+  href: https://artifacts.apis.io/appboxo/security/appboxo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/appboxo-domain-security.yml
@@ -92,62 +94,62 @@ common:
   type: PrivacyPolicy
   url: https://www.boxo.io/privacy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appboxo/refs/heads/main/packages/appboxo-packages.yml
+  href: https://artifacts.apis.io/appboxo/packages/appboxo-packages.yml
   title: ''
   type: Packages
   url: packages/appboxo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appboxo/refs/heads/main/packages/appboxo-packages.yml
+  href: https://artifacts.apis.io/appboxo/packages/appboxo-packages.yml
   title: ''
   type: SDKs
   url: packages/appboxo-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appboxo/refs/heads/main/llms/appboxo-llms.txt
+  href: https://artifacts.apis.io/appboxo/llms/appboxo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/appboxo-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appboxo/refs/heads/main/errors/appboxo-error-codes.yml
+  href: https://artifacts.apis.io/appboxo/errors/appboxo-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/appboxo-error-codes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appboxo/refs/heads/main/authentication/appboxo-authentication.yml
+  href: https://artifacts.apis.io/appboxo/authentication/appboxo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/appboxo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appboxo/refs/heads/main/conventions/appboxo-conventions.yml
+  href: https://artifacts.apis.io/appboxo/conventions/appboxo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/appboxo-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/appboxo/refs/heads/main/changelog/appboxo-changelog.yml
+  href: https://artifacts.apis.io/appboxo/changelog/appboxo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/appboxo-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appboxo/refs/heads/main/components/appboxo-components.yml
+  href: https://artifacts.apis.io/appboxo/components/appboxo-components.yml
   title: ''
   type: Components
   url: components/appboxo-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appboxo/refs/heads/main/asyncapi/appboxo-webhooks.yml
+  href: https://artifacts.apis.io/appboxo/asyncapi/appboxo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/appboxo-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/appboxo/refs/heads/main/sandbox/appboxo-sandbox.yml
+  href: https://artifacts.apis.io/appboxo/sandbox/appboxo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/appboxo-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appboxo/refs/heads/main/data-model/appboxo-data-model.yml
+  href: https://artifacts.apis.io/appboxo/data-model/appboxo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/appboxo-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appboxo/refs/heads/main/lifecycle/appboxo-lifecycle.yml
+  href: https://artifacts.apis.io/appboxo/lifecycle/appboxo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/appboxo-lifecycle.yml
@@ -166,40 +168,40 @@ overview: 'Appboxo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Appboxo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 13
+random_paper: 17
 score:
   band: thin
-  composite: 35.1
+  composite: 39.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 61.9
-    discoverability: 55.4
-    operational_transparency: 26.3
-  previous_composite: 35.0
+    developer_ergonomics: 71.4
+    discoverability: 48.2
+    operational_transparency: 28.9
+  previous_composite: 39.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/appboxo/refs/heads/main/screenshots/appboxo-2026-07-25T200739.png
+screenshot: https://apis.io/screenshots/appboxo/appboxo-2026-07-25T200739.png
 security:
 - kind: authentication
   name: Appboxo Authentication

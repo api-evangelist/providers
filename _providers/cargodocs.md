@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -80,11 +82,8 @@ apis:
   description: Endpoints for finding and managing transactions
   name: CargoDocs Transactions API
   slug: cargodocs-transactions-api
-artifact_total: 31
+artifact_total: 30
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CargoDocs Customer Data/Docs Common API
   slug: open-cargodocs-common-api
@@ -117,37 +116,37 @@ collections:
   slug: open-cargodocs-transactions-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/plans/cargodocs-plans-pricing.yml
+  href: https://artifacts.apis.io/cargodocs/plans/cargodocs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cargodocs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/rate-limits/cargodocs-rate-limits.yml
+  href: https://artifacts.apis.io/cargodocs/rate-limits/cargodocs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cargodocs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/finops/cargodocs-finops.yml
+  href: https://artifacts.apis.io/cargodocs/finops/cargodocs-finops.yml
   title: ''
   type: FinOps
   url: finops/cargodocs-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/capabilities/cargodocs-capability-edges.yml
+  href: https://artifacts.apis.io/cargodocs/capabilities/cargodocs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cargodocs-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/agentic-access/cargodocs-agentic-access.yml
+  href: https://artifacts.apis.io/cargodocs/agentic-access/cargodocs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cargodocs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/security/cargodocs-domain-security.yml
+  href: https://artifacts.apis.io/cargodocs/security/cargodocs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cargodocs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/authentication/cargodocs-authentication.yml
+  href: https://artifacts.apis.io/cargodocs/authentication/cargodocs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cargodocs-authentication.yml
@@ -160,7 +159,7 @@ common:
   type: Product
   url: https://www.essdocs.com/cargodocs
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/json-ld/cargodocs-context.jsonld
+  href: https://artifacts.apis.io/cargodocs/json-ld/cargodocs-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/cargodocs-context.jsonld
@@ -244,7 +243,7 @@ plans:
 - name: Cargodocs Plans Pricing
   plan_count: 1
   slug: cargodocs-plans-pricing
-random_paper: 3
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Cargodocs Rate Limits
@@ -263,7 +262,7 @@ rules:
   slug: cargodocs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.9
+  composite: 38.1
   coverage:
     artifact_dirs: 15
     catalog_earned: 61.3
@@ -271,15 +270,15 @@ score:
     catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 61.2
-    developer_ergonomics: 25.0
+    developer_ergonomics: 35.7
     discoverability: 71.4
     operational_transparency: 5.3
-  previous_composite: 31.4
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -292,14 +291,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/screenshots/cargodocs-2026-08-17T123110.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cargodocs/cargodocs-2026-08-17T123110.png
 security:
 - kind: authentication
   name: Cargodocs Authentication

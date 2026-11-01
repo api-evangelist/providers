@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.6
-  scored_at: '2026-10-17'
+  score: 32.3
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://api.attentivemobile.com/v1
@@ -273,7 +275,7 @@ apis:
 - description: 'Attentive''s GraphQL API (beta) at POST https://api.attentivemobile.com/v1/graphql, authenticated with the same application token as the REST API and gated by the same app scopes. The graph covers the '
   name: Attentive GraphQL API
   slug: attentive-graphql-api
-artifact_total: 65
+artifact_total: 69
 asyncapis:
 - description: ''
   name: Attentive Webhooks
@@ -334,9 +336,6 @@ collections:
   name: Attentive Access Token Webhooks API
   slug: postman-attentive-webhooks-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Attentive Access Token API
   slug: open-attentive-access-token-api
 - collection_type: open
@@ -392,12 +391,12 @@ collections:
   slug: open-attentive-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/capabilities/attentive-capability-edges.yml
+  href: https://artifacts.apis.io/attentive/capabilities/attentive-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/attentive-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/overlays/attentive-v1-overlay.yaml
+  href: https://artifacts.apis.io/attentive/overlays/attentive-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/attentive-v1-overlay.yaml
@@ -426,42 +425,42 @@ common:
   type: GettingStarted
   url: https://docs.attentive.com/docs/introduction
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/authentication/attentive-authentication.yml
+  href: https://artifacts.apis.io/attentive/authentication/attentive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/attentive-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/scopes/attentive-scopes.yml
+  href: https://artifacts.apis.io/attentive/scopes/attentive-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/attentive-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/packages/attentive-packages.yml
+  href: https://artifacts.apis.io/attentive/packages/attentive-packages.yml
   title: ''
   type: SDKs
   url: packages/attentive-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/packages/attentive-packages.yml
+  href: https://artifacts.apis.io/attentive/packages/attentive-packages.yml
   title: ''
   type: Packages
   url: packages/attentive-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/mcp/attentive-mcp.yml
+  href: https://artifacts.apis.io/attentive/mcp/attentive-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/attentive-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/llms/attentive-llms.txt
+  href: https://artifacts.apis.io/attentive/llms/attentive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/attentive-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/attentive/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/conformance/attentive-conformance.yml
+  href: https://artifacts.apis.io/attentive/conformance/attentive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/attentive-conformance.yml
@@ -470,12 +469,12 @@ common:
   type: Compliance
   url: https://security.attentive.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/errors/attentive-problem-types.yml
+  href: https://artifacts.apis.io/attentive/errors/attentive-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/attentive-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/lifecycle/attentive-lifecycle.yml
+  href: https://artifacts.apis.io/attentive/lifecycle/attentive-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/attentive-lifecycle.yml
@@ -484,47 +483,47 @@ common:
   type: StatusPage
   url: https://status.attentivemobile.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/conventions/attentive-conventions.yml
+  href: https://artifacts.apis.io/attentive/conventions/attentive-conventions.yml
   title: ''
   type: Conventions
   url: conventions/attentive-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/changelog/attentive-changelog.yml
+  href: https://artifacts.apis.io/attentive/changelog/attentive-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/attentive-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/components/attentive-components.yml
+  href: https://artifacts.apis.io/attentive/components/attentive-components.yml
   title: ''
   type: Components
   url: components/attentive-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/data-model/attentive-data-model.yml
+  href: https://artifacts.apis.io/attentive/data-model/attentive-data-model.yml
   title: ''
   type: DataModel
   url: data-model/attentive-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/asyncapi/attentive-webhooks.yml
+  href: https://artifacts.apis.io/attentive/asyncapi/attentive-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/attentive-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/rate-limits/attentive-rate-limits.yml
+  href: https://artifacts.apis.io/attentive/rate-limits/attentive-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/attentive-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/sandbox/attentive-sandbox.yml
+  href: https://artifacts.apis.io/attentive/sandbox/attentive-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/attentive-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/security/attentive-domain-security.yml
+  href: https://artifacts.apis.io/attentive/security/attentive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/attentive-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/security/attentive-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/attentive/security/attentive-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/attentive-vulnerability-disclosure.yml
@@ -533,7 +532,7 @@ common:
   type: Security
   url: https://www.attentive.com/legal/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/security/attentive-trust-center.yml
+  href: https://artifacts.apis.io/attentive/security/attentive-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/attentive-trust-center.yml
@@ -570,22 +569,30 @@ common:
   type: PrivacyPolicy
   url: https://www.attentive.com/legal/privacy
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/graphql/attentive.graphql
+  href: https://artifacts.apis.io/attentive/graphql/attentive.graphql
   title: ''
   type: GraphQL
   url: graphql/attentive.graphql
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/mcp/attentive-tool-crosswalk.yml
+  href: https://artifacts.apis.io/attentive/mcp/attentive-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/attentive-tool-crosswalk.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/plans/attentive-plans-pricing.yml
+  href: https://artifacts.apis.io/attentive/plans/attentive-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/attentive-plans-pricing.yml
 created: '2026-07-17'
 description: Attentive is a martech SMS and email marketing platform for e-commerce and retail brands. Its developer platform exposes REST APIs (v1 and v2) plus a GraphQL API for managing subscribers and subscriptions, sending SMS/email and ecommerce events (product view, add-to-cart, purchase), setting custom attributes and custom events, uploading product catalogs, distributing offers/coupon codes, resolving identity across phone/email/Shopify/Klaviyo/custom identifiers, handling CCPA privacy deletion requests, and subscribing to webhooks. It also ships iOS, Android, and React Native SDKs and an on-site JavaScript Tag for creative rendering and event collection. Authentication is OAuth 2.0 (authorization code grant) or a bearer API token.
+finops:
+- has_sources: true
+  method: derived
+  name: Attentive Finops
+  primary_unit: ''
+  service_category: ''
+  slug: attentive-finops
+  template: true
 image: https://cdn.prod.website-files.com/684306b795a2c402456e92ba/6a037c0d3dadcc6de287311a_Rebrand-OpenGraphImage_5005x2622.png
 layout: provider
 mcp_servers:
@@ -605,9 +612,9 @@ overview: 'Attentive publishes 19 API contracts indexed on the [APIs.io](https:/
   Attentive''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 35 more developer resources.'
 plans:
 - name: Attentive Plans Pricing
-  plan_count: 3
+  plan_count: 8
   slug: attentive-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 7
   name: Attentive Rate Limits
@@ -619,23 +626,23 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 71.9
+  composite: 69.7
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 30
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 58.6
-    developer_ergonomics: 55.4
-    discoverability: 73.2
-    operational_transparency: 84.2
-  previous_composite: 72.0
+    contract_quality: 58.0
+    developer_ergonomics: 74.4
+    discoverability: 65.0
+    operational_transparency: 86.8
+  previous_composite: 69.7
   provenance:
     conformance: derived
     contracts:
@@ -657,13 +664,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 44.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/screenshots/attentive-2026-07-25T201630.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/attentive/attentive-2026-07-25T201630.png
 security:
 - kind: authentication
   name: Attentive Authentication
@@ -681,6 +689,16 @@ security:
   name: Attentive Trust Center
   slug: attentive-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 4
+skills:
+- name: Send ecommerce events to Attentive
+  slug: attentive-ecommerce-events
+- name: Query and mutate the Attentive subscriber graph over GraphQL
+  slug: attentive-graphql-subscriber-graph
+- name: Subscribe to and manage Attentive webhooks
+  slug: attentive-manage-webhooks
+- name: Subscribe and manage a user's marketing subscriptions
+  slug: attentive-subscribe-user
 slug: attentive
 tags:
 - Company

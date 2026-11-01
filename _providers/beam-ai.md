@@ -1,8 +1,8 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-17'
+  score: 32.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 26
@@ -88,80 +90,80 @@ apis:
   description: The User API from Beam AI — 1 operation(s) for user.
   name: Beam AI User API
   slug: beam-ai-user-api
-artifact_total: 22
+artifact_total: 24
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/agentic-access/beam-ai-agentic-access.yml
+  href: https://artifacts.apis.io/beam-ai/agentic-access/beam-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/beam-ai-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/rules/beam-ai-rules.yml
+  href: https://artifacts.apis.io/beam-ai/rules/beam-ai-rules.yml
   title: ''
   type: Spectral
   url: rules/beam-ai-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/json-ld/beam-ai-context.jsonld
+  href: https://artifacts.apis.io/beam-ai/json-ld/beam-ai-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/beam-ai-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/vocabulary/beam-ai-vocabulary.yml
+  href: https://artifacts.apis.io/beam-ai/vocabulary/beam-ai-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/beam-ai-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/beam-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/data-model/beam-ai-data-model.yml
+  href: https://artifacts.apis.io/beam-ai/data-model/beam-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/beam-ai-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/changelog/beam-ai-changelog.yml
+  href: https://artifacts.apis.io/beam-ai/changelog/beam-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/beam-ai-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/authentication/beam-ai-authentication.yml
+  href: https://artifacts.apis.io/beam-ai/authentication/beam-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/beam-ai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/errors/beam-ai-problem-types.yml
+  href: https://artifacts.apis.io/beam-ai/errors/beam-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/beam-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/conformance/beam-ai-conformance.yml
+  href: https://artifacts.apis.io/beam-ai/conformance/beam-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/beam-ai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/llms/beam-ai-llms.txt
+  href: https://artifacts.apis.io/beam-ai/llms/beam-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beam-ai-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/a2a/beam-ai-a2a.yml
+  href: https://artifacts.apis.io/beam-ai/a2a/beam-ai-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/beam-ai-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/well-known/beam-ai-well-known.yml
+  href: https://artifacts.apis.io/beam-ai/well-known/beam-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/beam-ai-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/hosts/beam-ai-hosts.yml
+  href: https://artifacts.apis.io/beam-ai/hosts/beam-ai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/beam-ai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/vendors/beam-ai-vendors.yml
+  href: https://artifacts.apis.io/beam-ai/vendors/beam-ai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/beam-ai-vendors.yml
@@ -194,7 +196,7 @@ common:
   type: APIReference
   url: https://docs.beam.ai/llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/security/beam-ai-domain-security.yml
+  href: https://artifacts.apis.io/beam-ai/security/beam-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beam-ai-domain-security.yml
@@ -265,7 +267,7 @@ overview: 'Beam AI publishes 11 API contracts indexed on the [APIs.io](https://a
 
 
   Beam AI''s developer surface includes changelog, authentication, API reference, documentation, getting-started guide, support, engineering blog, and 23 more developer resources.'
-random_paper: 14
+random_paper: 4
 rules:
 - authorship: generated
   effective_rule_count: 53
@@ -289,13 +291,15 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 35.6
     contract_quality: 54.8
     developer_ergonomics: 58.9
-    discoverability: 75.0
+    discoverability: 67.9
     operational_transparency: 26.3
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -318,11 +322,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Beam Ai Authentication
@@ -332,6 +338,12 @@ security:
   name: Beam Ai Domain Security
   slug: beam-ai-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: beam-ai-add-node-edge-publish
+  slug: beam-ai-add-node-edge-publish
+- name: beam-ai-agent-context-files
+  slug: beam-ai-agent-context-files
 slug: beam-ai
 tags:
 - Company

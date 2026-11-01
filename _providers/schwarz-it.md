@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 3
   slug: schwarz-it-agentic-access
   summary_line: 3 operations · 1 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: http://localhost:3001
   baseurl_source: spec
@@ -48,85 +50,85 @@ apis:
   description: The rules API from Schwarz IT — 1 operation(s) for rules.
   name: Schwarz IT Rules API
   slug: schwarz-it-rules-api
-artifact_total: 12
+artifact_total: 13
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-it/refs/heads/main/security/schwarz-it-domain-security.yml
+  href: https://artifacts.apis.io/schwarz-it/security/schwarz-it-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/schwarz-it-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-it/refs/heads/main/agentic-access/schwarz-it-agentic-access.yml
+  href: https://artifacts.apis.io/schwarz-it/agentic-access/schwarz-it-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/schwarz-it-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-it/refs/heads/main/rules/schwarz-it-rules.yml
+  href: https://artifacts.apis.io/schwarz-it/rules/schwarz-it-rules.yml
   title: ''
   type: Spectral
   url: rules/schwarz-it-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-it/refs/heads/main/json-ld/schwarz-it-context.jsonld
+  href: https://artifacts.apis.io/schwarz-it/json-ld/schwarz-it-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/schwarz-it-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-it/refs/heads/main/vocabulary/schwarz-it-vocabulary.yml
+  href: https://artifacts.apis.io/schwarz-it/vocabulary/schwarz-it-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/schwarz-it-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-it/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/schwarz-it/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-it/refs/heads/main/data-model/schwarz-it-data-model.yml
+  href: https://artifacts.apis.io/schwarz-it/data-model/schwarz-it-data-model.yml
   title: ''
   type: DataModel
   url: data-model/schwarz-it-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-it/refs/heads/main/components/schwarz-it-components.yml
+  href: https://artifacts.apis.io/schwarz-it/components/schwarz-it-components.yml
   title: ''
   type: Components
   url: components/schwarz-it-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-it/refs/heads/main/conventions/schwarz-it-conventions.yml
+  href: https://artifacts.apis.io/schwarz-it/conventions/schwarz-it-conventions.yml
   title: ''
   type: Conventions
   url: conventions/schwarz-it-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-it/refs/heads/main/lifecycle/schwarz-it-lifecycle.yml
+  href: https://artifacts.apis.io/schwarz-it/lifecycle/schwarz-it-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/schwarz-it-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-it/refs/heads/main/errors/schwarz-it-problem-types.yml
+  href: https://artifacts.apis.io/schwarz-it/errors/schwarz-it-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/schwarz-it-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-it/refs/heads/main/conformance/schwarz-it-conformance.yml
+  href: https://artifacts.apis.io/schwarz-it/conformance/schwarz-it-conformance.yml
   title: ''
   type: Conformance
   url: conformance/schwarz-it-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-it/refs/heads/main/overlays/schwarz-it-api-linter-service-overlay.yaml
+  href: https://artifacts.apis.io/schwarz-it/overlays/schwarz-it-api-linter-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/schwarz-it-api-linter-service-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-it/refs/heads/main/hosts/schwarz-it-hosts.yml
+  href: https://artifacts.apis.io/schwarz-it/hosts/schwarz-it-hosts.yml
   title: ''
   type: Hosts
   url: hosts/schwarz-it-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-it/refs/heads/main/packages/schwarz-it-packages.yml
+  href: https://artifacts.apis.io/schwarz-it/packages/schwarz-it-packages.yml
   title: ''
   type: SDKs
   url: packages/schwarz-it-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-it/refs/heads/main/packages/schwarz-it-packages.yml
+  href: https://artifacts.apis.io/schwarz-it/packages/schwarz-it-packages.yml
   title: ''
   type: Packages
   url: packages/schwarz-it-packages.yml
@@ -174,7 +176,7 @@ plans:
 - name: Schwarz It Plans Pricing
   plan_count: 0
   slug: schwarz-it-plans-pricing
-random_paper: 2
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Schwarz It Rate Limits
@@ -194,15 +196,15 @@ rules:
   slug: schwarz-it-rules
 score:
   band: emerging
-  composite: 25.2
+  composite: 25.9
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 57.8
     catalog_earned_first_party: 0.0
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 22.0
@@ -218,7 +220,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 26.4
+  previous_composite: 25.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,13 +237,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/schwarz-it/refs/heads/main/screenshots/schwarz-it-2026-10-11T125550.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/schwarz-it/schwarz-it-2026-10-11T125550.png
 security:
 - kind: authentication
   name: Schwarz It Authentication
@@ -251,6 +254,10 @@ security:
   name: Schwarz It Domain Security
   slug: schwarz-it-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: lint-an-openapi-spec
+  slug: schwarz-it-lint-an-openapi-spec
 slug: schwarz-it
 tags:
 - Company

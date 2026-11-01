@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Run any MostlyPDF tool programmatically via a single POST endpoint.
@@ -32,37 +34,37 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mostlypdf/refs/heads/main/well-known/mostlypdf-security.txt
+  href: https://artifacts.apis.io/mostlypdf/well-known/mostlypdf-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/mostlypdf-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mostlypdf/refs/heads/main/well-known/mostlypdf-mostly-pdf-security.txt
+  href: https://artifacts.apis.io/mostlypdf/well-known/mostlypdf-mostly-pdf-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/mostlypdf-mostly-pdf-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mostlypdf/refs/heads/main/well-known/mostlypdf-well-known.yml
+  href: https://artifacts.apis.io/mostlypdf/well-known/mostlypdf-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mostlypdf-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mostlypdf/refs/heads/main/authentication/mostlypdf-authentication.yml
+  href: https://artifacts.apis.io/mostlypdf/authentication/mostlypdf-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mostlypdf-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mostlypdf/refs/heads/main/llms/mostlypdf-llms.txt
+  href: https://artifacts.apis.io/mostlypdf/llms/mostlypdf-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mostlypdf-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mostlypdf/refs/heads/main/hosts/mostlypdf-hosts.yml
+  href: https://artifacts.apis.io/mostlypdf/hosts/mostlypdf-hosts.yml
   title: ''
   type: Hosts
   url: hosts/mostlypdf-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mostlypdf/refs/heads/main/vendors/mostlypdf-vendors.yml
+  href: https://artifacts.apis.io/mostlypdf/vendors/mostlypdf-vendors.yml
   title: ''
   type: Vendors
   url: vendors/mostlypdf-vendors.yml
@@ -71,7 +73,7 @@ common:
   type: Blog
   url: https://mostlypdf.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mostlypdf/refs/heads/main/security/mostlypdf-domain-security.yml
+  href: https://artifacts.apis.io/mostlypdf/security/mostlypdf-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mostlypdf-domain-security.yml
@@ -115,10 +117,10 @@ overview: 'MostlyPDF is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   MostlyPDF''s developer surface includes authentication, engineering blog, documentation, API reference, support, and 11 more developer resources.'
-random_paper: 4
+random_paper: 10
 score:
   band: emerging
-  composite: 18.5
+  composite: 19.1
   coverage:
     artifact_dirs: 10
     catalog_earned: 32.0
@@ -126,15 +128,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 64.3
-    operational_transparency: 0.0
-  previous_composite: 18.4
+    discoverability: 57.1
+    operational_transparency: 10.5
+  previous_composite: 19.1
   provenance:
     mcp: derived
   regulatory:
@@ -143,14 +145,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mostlypdf/refs/heads/main/screenshots/mostlypdf-2026-10-11T111252.png
+screenshot: https://apis.io/screenshots/mostlypdf/mostlypdf-2026-10-11T111252.png
 security:
 - kind: authentication
   name: Mostlypdf Authentication

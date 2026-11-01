@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-17'
+  score: 30.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -114,12 +116,17 @@ apis:
   description: The Webhook Management API from Paystone — 2 operation(s) for webhook management.
   name: Paystone Webhook Management API
   slug: paystone-webhook-management-api
-artifact_total: 18
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Paystone Datacandy Webhooks
   slug: paystone-datacandy-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/paystone/plans/paystone-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/paystone-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -129,72 +136,72 @@ common:
   type: BlogRSS
   url: https://www.paystone.com/resources/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/capabilities/paystone-capability-edges.yml
+  href: https://artifacts.apis.io/paystone/capabilities/paystone-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/paystone-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/authentication/paystone-authentication.yml
+  href: https://artifacts.apis.io/paystone/authentication/paystone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paystone-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/agentic-access/paystone-agentic-access.yml
+  href: https://artifacts.apis.io/paystone/agentic-access/paystone-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/paystone-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/security/paystone-domain-security.yml
+  href: https://artifacts.apis.io/paystone/security/paystone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paystone-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/conventions/paystone-conventions.yml
+  href: https://artifacts.apis.io/paystone/conventions/paystone-conventions.yml
   title: ''
   type: Conventions
   url: conventions/paystone-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/errors/paystone-problem-types.yml
+  href: https://artifacts.apis.io/paystone/errors/paystone-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/paystone-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/lifecycle/paystone-lifecycle.yml
+  href: https://artifacts.apis.io/paystone/lifecycle/paystone-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/paystone-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/conformance/paystone-conformance.yml
+  href: https://artifacts.apis.io/paystone/conformance/paystone-conformance.yml
   title: ''
   type: Conformance
   url: conformance/paystone-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/data-model/paystone-data-model.yml
+  href: https://artifacts.apis.io/paystone/data-model/paystone-data-model.yml
   title: ''
   type: DataModel
   url: data-model/paystone-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/mcp/paystone-mcp.yml
+  href: https://artifacts.apis.io/paystone/mcp/paystone-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/paystone-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/asyncapi/paystone-datacandy-webhooks.yml
+  href: https://artifacts.apis.io/paystone/asyncapi/paystone-datacandy-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/paystone-datacandy-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/paystone/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/llms/paystone-llms.txt
+  href: https://artifacts.apis.io/paystone/llms/paystone-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paystone-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/overlays/paystone-datacandy-overlay.yaml
+  href: https://artifacts.apis.io/paystone/overlays/paystone-datacandy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paystone-datacandy-overlay.yaml
@@ -253,6 +260,14 @@ common:
 created: '2026-07-24'
 description: 'Paystone is a Canadian payment processing and customer-engagement company headquartered in London, Ontario, positioning itself as one of the country''s largest bank-independent payment processors. It sells card-present terminals, online checkout and hosted payment pages, virtual terminals, invoicing, and recurring billing to Canadian small and mid-sized businesses, and layers loyalty, gift-card, and reputation-marketing products on top of the payment rails. Paystone owns DataCandy, a long-standing Canadian gift-card and loyalty platform, and it is DataCandy that carries Paystone''s public, self-serve, documented API surface: a live API Platform (Hydra/JSON-LD) REST API at api.paystone.com covering merchants, clients, contacts, gift/loyalty/ prepaid/promo account types, transactions, member and balance portals, and webhooks, authenticated with JWT bearer tokens and documented through an interactive Swagger UI. Paystone''s core card-acquiring and payment-gateway processing is
   delivered as a merchant product rather than a publicly self-serve developer API, so the honest developer story here is the DataCandy gift-and-loyalty platform API, not a public payments/acquiring API.'
+finops:
+- has_sources: true
+  method: derived
+  name: Paystone Finops
+  primary_unit: transaction
+  service_category: ''
+  slug: paystone-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-10-06'
@@ -265,26 +280,33 @@ overview: 'Paystone publishes 14 API contracts indexed on the [APIs.io](https://
   The Paystone catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Paystone''s developer surface includes engineering blog, authentication, documentation, API reference, pricing, signup flow, and 23 more developer resources.'
-random_paper: 3
+  Paystone''s developer surface includes engineering blog, authentication, documentation, API reference, pricing, signup flow, and 24 more developer resources.'
+plans:
+- name: Paystone Plans Pricing
+  plan_count: 6
+  slug: paystone-plans-pricing
+- name: Paystone Price Estimates
+  plan_count: 0
+  slug: paystone-price-estimates
+random_paper: 19
 score:
   band: developing
-  composite: 43.0
+  composite: 52.2
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 58.7
     developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 18.4
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -294,7 +316,7 @@ score:
     - europe
     - north-america
     - united-kingdom-ireland
-  previous_composite: 43.0
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -311,13 +333,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/screenshots/paystone-2026-08-07T191657.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/paystone/paystone-2026-08-07T191657.png
 security:
 - kind: authentication
   name: Paystone Authentication
@@ -327,6 +350,14 @@ security:
   name: Paystone Domain Security
   slug: paystone-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Onboard a DataCandy client and its first merchant
+  slug: paystone-onboard-client-and-merchant
+- name: Reconcile loyalty and prepaid transactions
+  slug: paystone-reconcile-loyalty-transactions
+- name: Subscribe to DataCandy webhooks
+  slug: paystone-subscribe-to-webhooks
 slug: paystone
 tags:
 - Payments

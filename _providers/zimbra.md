@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: SOAP API (XML and JSON encodings) for Zimbra Collaboration — account, mail, and admin operations, POSTed to /service/soap on a Zimbra deployment. Self-hosted, so the base host is per-deployment; the r
@@ -82,47 +84,47 @@ common:
   type: PrivacyPolicy
   url: https://synacor.com/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zimbra/refs/heads/main/packages/zimbra-packages.yml
+  href: https://artifacts.apis.io/zimbra/packages/zimbra-packages.yml
   title: ''
   type: Packages
   url: packages/zimbra-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zimbra/refs/heads/main/packages/zimbra-packages.yml
+  href: https://artifacts.apis.io/zimbra/packages/zimbra-packages.yml
   title: ''
   type: SDKs
   url: packages/zimbra-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zimbra/refs/heads/main/authentication/zimbra-authentication.yml
+  href: https://artifacts.apis.io/zimbra/authentication/zimbra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zimbra-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zimbra/refs/heads/main/conventions/zimbra-conventions.yml
+  href: https://artifacts.apis.io/zimbra/conventions/zimbra-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zimbra-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zimbra/refs/heads/main/lifecycle/zimbra-lifecycle.yml
+  href: https://artifacts.apis.io/zimbra/lifecycle/zimbra-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zimbra-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zimbra/refs/heads/main/conformance/zimbra-conformance.yml
+  href: https://artifacts.apis.io/zimbra/conformance/zimbra-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zimbra-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zimbra/refs/heads/main/llms/zimbra-llms.txt
+  href: https://artifacts.apis.io/zimbra/llms/zimbra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zimbra-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zimbra/refs/heads/main/security/zimbra-domain-security.yml
+  href: https://artifacts.apis.io/zimbra/security/zimbra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zimbra-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zimbra/refs/heads/main/security/zimbra-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zimbra/security/zimbra-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zimbra-vulnerability-disclosure.yml
@@ -142,26 +144,26 @@ overview: 'Zimbra is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Zimbra''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 7
+random_paper: 21
 score:
   band: thin
-  composite: 27.3
+  composite: 27.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 39.3
-    discoverability: 64.3
-    operational_transparency: 13.2
-  previous_composite: 27.2
+    developer_ergonomics: 42.9
+    discoverability: 57.1
+    operational_transparency: 15.8
+  previous_composite: 27.7
   provenance:
     conformance: first-party
   regulatory:
@@ -170,14 +172,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/zimbra/refs/heads/main/screenshots/zimbra-2026-09-02T171743.png
+screenshot: https://apis.io/screenshots/zimbra/zimbra-2026-09-02T171743.png
 security:
 - kind: authentication
   name: Zimbra Authentication

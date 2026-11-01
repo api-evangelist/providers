@@ -13,6 +13,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,17 +27,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.7
-  scored_at: '2026-10-17'
-api_count: 32
+  score: 39.1
+  scored_at: '2026-10-31'
+api_count: 12
 apis:
 - description: Official Model Context Protocol server published by ControlUp as the npm package @controlup-ai/mcp. Runs locally over stdio via npx, authenticates with a ControlUp API key plus organization ID, and ex
   name: ControlUp MCP Server
@@ -1127,15 +1130,12 @@ apis:
     question: Which Windows error events hit a particular machine in the last month?
   phrasing_ops: 1
   slug: controlup-windowsevents-api
-artifact_total: 130
+artifact_total: 135
 asyncapis:
 - description: ''
   name: Controlup Webhooks
   slug: controlup-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Controlup Alerts API
   slug: open-controlup-alerts-api
@@ -1318,22 +1318,22 @@ collections:
   slug: open-controlup-windowsevents-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/plans/controlup-plans-pricing.yml
+  href: https://artifacts.apis.io/controlup/plans/controlup-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/controlup-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/capabilities/controlup-capability-edges.yml
+  href: https://artifacts.apis.io/controlup/capabilities/controlup-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/controlup-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/security/controlup-domain-security.yml
+  href: https://artifacts.apis.io/controlup/security/controlup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/controlup-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/authentication/controlup-authentication.yml
+  href: https://artifacts.apis.io/controlup/authentication/controlup-authentication.yml
   title: ''
   type: Authentication
   url: authentication/controlup-authentication.yml
@@ -1414,67 +1414,67 @@ common:
   type: Security
   url: https://trustcenter.controlup.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/well-known/controlup-well-known.yml
+  href: https://artifacts.apis.io/controlup/well-known/controlup-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/controlup-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/well-known/controlup-api-catalog.json
+  href: https://artifacts.apis.io/controlup/well-known/controlup-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/controlup-api-catalog.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/mcp/controlup-mcp.yml
+  href: https://artifacts.apis.io/controlup/mcp/controlup-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/controlup-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/mcp/controlup-tool-crosswalk.yml
+  href: https://artifacts.apis.io/controlup/mcp/controlup-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/controlup-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/llms/controlup-llms.txt
+  href: https://artifacts.apis.io/controlup/llms/controlup-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/controlup-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/packages/controlup-packages.yml
+  href: https://artifacts.apis.io/controlup/packages/controlup-packages.yml
   title: ''
   type: Packages
   url: packages/controlup-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/packages/controlup-packages.yml
+  href: https://artifacts.apis.io/controlup/packages/controlup-packages.yml
   title: ''
   type: SDKs
   url: packages/controlup-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/cli/controlup-cli.yml
+  href: https://artifacts.apis.io/controlup/cli/controlup-cli.yml
   title: ''
   type: CLI
   url: cli/controlup-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/conventions/controlup-conventions.yml
+  href: https://artifacts.apis.io/controlup/conventions/controlup-conventions.yml
   title: ''
   type: Conventions
   url: conventions/controlup-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/rate-limits/controlup-rate-limits.yml
+  href: https://artifacts.apis.io/controlup/rate-limits/controlup-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/controlup-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/errors/controlup-problem-types.yml
+  href: https://artifacts.apis.io/controlup/errors/controlup-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/controlup-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/data-model/controlup-data-model.yml
+  href: https://artifacts.apis.io/controlup/data-model/controlup-data-model.yml
   title: ''
   type: DataModel
   url: data-model/controlup-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/lifecycle/controlup-lifecycle.yml
+  href: https://artifacts.apis.io/controlup/lifecycle/controlup-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/controlup-lifecycle.yml
@@ -1483,98 +1483,106 @@ common:
   type: Deprecation
   url: https://support.controlup.com/docs/controlup-product-version-lifecycle-quick-guide
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/changelog/controlup-changelog.yml
+  href: https://artifacts.apis.io/controlup/changelog/controlup-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/controlup-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/conformance/controlup-conformance.yml
+  href: https://artifacts.apis.io/controlup/conformance/controlup-conformance.yml
   title: ''
   type: Conformance
   url: conformance/controlup-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/security/controlup-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/controlup/security/controlup-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/controlup-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/security/controlup-trust-center.yml
+  href: https://artifacts.apis.io/controlup/security/controlup-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/controlup-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/asyncapi/controlup-webhooks.yml
+  href: https://artifacts.apis.io/controlup/asyncapi/controlup-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/controlup-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/controlup/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/overlays/controlup-dex-platform-overlay.yaml
+  href: https://artifacts.apis.io/controlup/overlays/controlup-dex-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/controlup-dex-platform-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/overlays/controlup-dex-alerts-overlay.yaml
+  href: https://artifacts.apis.io/controlup/overlays/controlup-dex-alerts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/controlup-dex-alerts-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/overlays/controlup-dex-events-overlay.yaml
+  href: https://artifacts.apis.io/controlup/overlays/controlup-dex-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/controlup-dex-events-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/overlays/controlup-desktops-overlay.yaml
+  href: https://artifacts.apis.io/controlup/overlays/controlup-desktops-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/controlup-desktops-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/overlays/controlup-compliance-overlay.yaml
+  href: https://artifacts.apis.io/controlup/overlays/controlup-compliance-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/controlup-compliance-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/overlays/controlup-vdi-daas-historical-overlay.yaml
+  href: https://artifacts.apis.io/controlup/overlays/controlup-vdi-daas-historical-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/controlup-vdi-daas-historical-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/overlays/controlup-vdi-daas-realtime-metrics-overlay.yaml
+  href: https://artifacts.apis.io/controlup/overlays/controlup-vdi-daas-realtime-metrics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/controlup-vdi-daas-realtime-metrics-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/overlays/controlup-vdi-daas-configuration-overlay.yaml
+  href: https://artifacts.apis.io/controlup/overlays/controlup-vdi-daas-configuration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/controlup-vdi-daas-configuration-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/overlays/controlup-vdi-config-triggers-overlay.yaml
+  href: https://artifacts.apis.io/controlup/overlays/controlup-vdi-config-triggers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/controlup-vdi-config-triggers-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/overlays/controlup-daas-iq-overlay.yaml
+  href: https://artifacts.apis.io/controlup/overlays/controlup-daas-iq-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/controlup-daas-iq-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/overlays/controlup-synthetic-monitoring-overlay.yaml
+  href: https://artifacts.apis.io/controlup/overlays/controlup-synthetic-monitoring-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/controlup-synthetic-monitoring-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/overlays/controlup-workflows-overlay.yaml
+  href: https://artifacts.apis.io/controlup/overlays/controlup-workflows-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/controlup-workflows-overlay.yaml
 created: '2026-08-04'
 description: ControlUp is a Digital Employee Experience (DEX) and Autonomous Endpoint Management (AEM) platform that monitors, scores and remediates the end-user computing estate — physical desktops and laptops, VDI and DaaS (Citrix CVAD / Citrix Cloud, Omnissa Horizon, Azure Virtual Desktop, Windows 365, Parallels RAS), the applications and sessions running on them, and the network path in between. The ControlUp ONE platform spans ControlUp for Desktops, for VDI, for Apps, for Frontline Workers and for Compliance, plus Synthetic Monitoring (Scouts and Hives), Workflows, and Pulse AI. It publishes a public REST API surface at api.controlup.com documented on a ReadMe hub at api.controlup.io, an RFC 9727 /.well-known/api-catalog linkset enumerating twelve OpenAPI definitions, an official Model Context Protocol server on npm (@controlup-ai/mcp) exposing 106 tools across six product domains, PowerShell cmdlets for monitor and agent automation, and llms.txt indexes on both the documentation and
   API hosts.
+finops:
+- has_sources: true
+  method: derived
+  name: Controlup Finops
+  primary_unit: ''
+  service_category: ''
+  slug: controlup-finops
+  template: true
 image: https://www.controlup.com/wp-content/uploads/controlup_prev.webp
 layout: provider
 mcp_servers:
@@ -1596,16 +1604,16 @@ plans:
 - name: Controlup Plans Pricing
   plan_count: 6
   slug: controlup-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 6
   name: Controlup Rate Limits
   slug: controlup-rate-limits
 score:
   band: exemplar
-  composite: 75.6
+  composite: 71.9
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -1615,11 +1623,16 @@ score:
   facets:
     access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 63.8
-    developer_ergonomics: 58.9
-    discoverability: 78.6
-    operational_transparency: 97.4
-  previous_composite: 75.6
+    contract_quality: 61.2
+    developer_ergonomics: 73.2
+    discoverability: 70.0
+    operational_transparency: 100.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 71.9
   provenance:
     conformance: derived
     contracts:
@@ -1635,13 +1648,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/screenshots/controlup-2026-08-07T163802.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/controlup/controlup-2026-08-07T163802.png
 security:
 - kind: authentication
   name: Controlup Authentication
@@ -1659,6 +1673,18 @@ security:
   name: Controlup Trust Center
   slug: controlup-trust-center
   summary_line: ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO/IEC 27018:2019, ISO/IEC 27701:2019, SOC 2 Type 2, SOC 3, FIPS 140-2 Level 1, CSA STAR Level 1, GDPR
+skill_count: 5
+skills:
+- name: Analyze VDI and DaaS session experience and right-size the estate
+  slug: controlup-analyze-vdi-session-experience
+- name: Govern organization access, roles and API keys
+  slug: controlup-govern-organization-access
+- name: Provision a Synthetic Monitoring Scout and its alert policy
+  slug: controlup-provision-synthetic-monitoring-scout
+- name: Discover and execute a ControlUp Workflows integration action
+  slug: controlup-run-workflow-integration-action
+- name: Triage endpoint compliance risk for a ControlUp-managed device
+  slug: controlup-triage-device-compliance-risk
 slug: controlup
 tags:
 - Digital Employee Experience

@@ -23,21 +23,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eino/refs/heads/main/plans/eino-plans-pricing.yml
+  href: https://artifacts.apis.io/eino/plans/eino-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eino-plans-pricing.yml
@@ -54,7 +56,7 @@ common:
   type: GettingStarted
   url: https://docs.eino.ai/knowledge-base/quickstart
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eino/refs/heads/main/llms/eino-llms.txt
+  href: https://artifacts.apis.io/eino/llms/eino-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eino-llms.txt
@@ -87,7 +89,7 @@ common:
   type: Support
   url: mailto:hello@eino.ai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eino/refs/heads/main/security/eino-domain-security.yml
+  href: https://artifacts.apis.io/eino/security/eino-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eino-domain-security.yml
@@ -111,31 +113,31 @@ plans:
 - name: Eino Plans Pricing
   plan_count: 3
   slug: eino-plans-pricing
-random_paper: 9
+random_paper: 19
 score:
   band: emerging
-  composite: 23.0
+  composite: 24.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
-    discoverability: 58.3
+    developer_ergonomics: 28.6
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 16.7
+  previous_composite: 24.4
   provenance:
     mcp: first-party
   regulatory:
@@ -144,14 +146,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/eino/refs/heads/main/screenshots/eino-2026-07-25T213018.png
+screenshot: https://apis.io/screenshots/eino/eino-2026-07-25T213018.png
 security:
 - kind: domain-security
   name: Eino Domain Security

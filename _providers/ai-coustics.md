@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,25 +26,27 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.7
-  scored_at: '2026-10-17'
+  score: 6.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Real-time speech-enhancement SDK (Quail, Rook, Quail VAD, Quail Voice Focus, Tyto) with a JWT token-minting API for client authentication. Delivered as native language bindings.
   name: ai-coustics SDK
   slug: ai-coustics-sdk
-artifact_total: 5
+artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ai-coustics/refs/heads/main/plans/ai-coustics-plans-pricing.yml
+  href: https://artifacts.apis.io/ai-coustics/plans/ai-coustics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ai-coustics-plans-pricing.yml
@@ -101,52 +103,60 @@ common:
   type: Deprecation
   url: https://docs.ai-coustics.com/models/older-models/deprecated-models
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ai-coustics/refs/heads/main/changelog/ai-coustics-changelog.yml
+  href: https://artifacts.apis.io/ai-coustics/changelog/ai-coustics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ai-coustics-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ai-coustics/refs/heads/main/authentication/ai-coustics-authentication.yml
+  href: https://artifacts.apis.io/ai-coustics/authentication/ai-coustics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ai-coustics-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ai-coustics/refs/heads/main/packages/ai-coustics-packages.yml
+  href: https://artifacts.apis.io/ai-coustics/packages/ai-coustics-packages.yml
   title: ''
   type: Packages
   url: packages/ai-coustics-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ai-coustics/refs/heads/main/packages/ai-coustics-packages.yml
+  href: https://artifacts.apis.io/ai-coustics/packages/ai-coustics-packages.yml
   title: ''
   type: SDKs
   url: packages/ai-coustics-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ai-coustics/refs/heads/main/llms/ai-coustics-llms.txt
+  href: https://artifacts.apis.io/ai-coustics/llms/ai-coustics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ai-coustics-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ai-coustics/refs/heads/main/lifecycle/ai-coustics-lifecycle.yml
+  href: https://artifacts.apis.io/ai-coustics/lifecycle/ai-coustics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ai-coustics-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ai-coustics/refs/heads/main/sandbox/ai-coustics-sandbox.yml
+  href: https://artifacts.apis.io/ai-coustics/sandbox/ai-coustics-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ai-coustics-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ai-coustics/refs/heads/main/conventions/ai-coustics-conventions.yml
+  href: https://artifacts.apis.io/ai-coustics/conventions/ai-coustics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ai-coustics-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ai-coustics/refs/heads/main/security/ai-coustics-domain-security.yml
+  href: https://artifacts.apis.io/ai-coustics/security/ai-coustics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ai-coustics-domain-security.yml
 created: '2026-07-17'
 description: ai-coustics is a Berlin-based audio-intelligence company providing a real-time speech-enhancement SDK for Voice AI systems. Its Quail, Rook, Quail VAD, Quail Voice Focus, and Tyto models remove background noise, isolate the primary speaker, detect voice activity, and score audio risk to make automatic speech recognition (ASR) more accurate and voice-activity detection steadier in the real world. The SDK runs on the proprietary AirTen CPU-first inference runtime (no GPU, no ONNX dependency) with sub-30ms latency, and ships official bindings for Python, Rust, Node.js, C, C++, and WebAssembly, plus LiveKit and Pipecat integrations. Authentication uses self-service license keys or short-lived JWTs; a legacy REST API was sunset in favor of the SDK. Backed by Partech.
+finops:
+- has_sources: true
+  method: derived
+  name: Ai Coustics Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: ai-coustics-finops
+  template: false
 image: https://framerusercontent.com/images/1bJnBz9PHkEocX9YfiBn69WgGao.png
 layout: provider
 mcp_servers:
@@ -165,25 +175,28 @@ plans:
 - name: Ai Coustics Plans Pricing
   plan_count: 4
   slug: ai-coustics-plans-pricing
-random_paper: 2
+- name: Ai Coustics Price Estimates
+  plan_count: 0
+  slug: ai-coustics-price-estimates
+random_paper: 20
 score:
   band: developing
-  composite: 40.6
+  composite: 42.6
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 49.0
+    artifact_dirs: 15
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.0
+  delta: 1.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 66.7
-    discoverability: 75.0
-    operational_transparency: 34.2
+    discoverability: 66.1
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -192,7 +205,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 34.6
+  previous_composite: 41.1
   provenance:
     mcp: first-party
   regulatory:
@@ -201,14 +214,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ai-coustics/refs/heads/main/screenshots/ai-coustics-2026-07-25T195338.png
+screenshot: https://apis.io/screenshots/ai-coustics/ai-coustics-2026-07-25T195338.png
 security:
 - kind: authentication
   name: Ai Coustics Authentication

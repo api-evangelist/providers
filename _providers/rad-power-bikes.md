@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,16 +38,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol (UCP) shopping service for the Rad Power Bikes online store, exposed over MCP. Anonymous tools/list returns 13 tools covering catalog search and lookup, product detail,
   name: Rad Power Bikes UCP Commerce MCP
   slug: rad-power-bikes-ucp-commerce-mcp
-artifact_total: 7
+artifact_total: 9
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rad-power-bikes/refs/heads/main/rate-limits/rad-power-bikes-rate-limits.yml
+  href: https://artifacts.apis.io/rad-power-bikes/rate-limits/rad-power-bikes-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rad-power-bikes-rate-limits.yml
@@ -86,27 +88,27 @@ common:
   type: PrivacyPolicy
   url: https://www.radpowerbikes.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rad-power-bikes/refs/heads/main/well-known/rad-power-bikes-well-known.yml
+  href: https://artifacts.apis.io/rad-power-bikes/well-known/rad-power-bikes-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rad-power-bikes-well-known.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rad-power-bikes/refs/heads/main/plans/rad-power-bikes-plans-pricing.yml
+  href: https://artifacts.apis.io/rad-power-bikes/plans/rad-power-bikes-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rad-power-bikes-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rad-power-bikes/refs/heads/main/lifecycle/rad-power-bikes-lifecycle.yml
+  href: https://artifacts.apis.io/rad-power-bikes/lifecycle/rad-power-bikes-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rad-power-bikes-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rad-power-bikes/refs/heads/main/security/rad-power-bikes-domain-security.yml
+  href: https://artifacts.apis.io/rad-power-bikes/security/rad-power-bikes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rad-power-bikes-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rad-power-bikes/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rad-power-bikes/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -131,7 +133,7 @@ plans:
 - name: Rad Power Bikes Plans Pricing
   plan_count: 0
   slug: rad-power-bikes-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Rad Power Bikes Rate Limits
@@ -143,7 +145,7 @@ scopes:
   summary_line: 4 scopes · authorization_code/refresh_token
 score:
   band: thin
-  composite: 27.9
+  composite: 26.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -151,13 +153,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.3
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -166,7 +168,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 27.8
+  previous_composite: 26.9
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -177,14 +179,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rad-power-bikes/refs/heads/main/screenshots/rad-power-bikes-2026-09-02T152746.png
+screenshot: https://apis.io/screenshots/rad-power-bikes/rad-power-bikes-2026-09-02T152746.png
 security:
 - kind: authentication
   name: Rad Power Bikes Authentication
@@ -194,6 +196,12 @@ security:
   name: Rad Power Bikes Domain Security
   slug: rad-power-bikes-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: rad-power-bikes-catalog-research
+  slug: rad-power-bikes-catalog-research
+- name: rad-power-bikes-guided-purchase
+  slug: rad-power-bikes-guided-purchase
 slug: rad-power-bikes
 tags:
 - Company

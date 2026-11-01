@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The public Model Context Protocol endpoint served by LIFT Aircraft's Wix-hosted site. Exposes nine tools that let an agent read business details, search the site, read the installed Wix business-solut
   name: LIFT Aircraft Site MCP
   slug: site-mcp
-artifact_total: 4
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -51,27 +53,27 @@ common:
   type: Website
   url: https://www.liftaircraft.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lift/refs/heads/main/mcp/lift-mcp.yml
+  href: https://artifacts.apis.io/lift/mcp/lift-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lift-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lift/refs/heads/main/llms/lift-llms.txt
+  href: https://artifacts.apis.io/lift/llms/lift-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lift-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lift/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lift/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lift/refs/heads/main/authentication/lift-authentication.yml
+  href: https://artifacts.apis.io/lift/authentication/lift-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lift-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lift/refs/heads/main/security/lift-domain-security.yml
+  href: https://artifacts.apis.io/lift/security/lift-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lift-domain-security.yml
@@ -93,7 +95,7 @@ description: LIFT Aircraft is an Austin, Texas experiential aviation company fou
 image: https://static.wixstatic.com/media/9f6a5c_257a4a5e996e4aa5bccb028fdb90388b%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/9f6a5c_257a4a5e996e4aa5bccb028fdb90388b%7Emv2.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at www.liftaircraft.com over HTTP; 9 tools listed.
+- description: Remote MCP server at www.liftaircraft.com over HTTP; 10 tools listed.
   name: LIFT Aircraft MCP Server
   slug: lift-aircraft-site
 modified: '2026-10-06'
@@ -104,10 +106,10 @@ overview: 'LIFT Aircraft is listed with 1 API on the [APIs.io](https://apis.io/)
 
 
   LIFT Aircraft''s developer surface includes authentication, engineering blog, support, pricing, and 6 more developer resources.'
-random_paper: 13
+random_paper: 23
 score:
   band: emerging
-  composite: 13.3
+  composite: 12.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -115,15 +117,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 20.8
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 13.2
+  previous_composite: 12.3
   provenance:
     mcp: platform-generated
     skills: derived
@@ -133,14 +135,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lift/refs/heads/main/screenshots/lift-2026-07-25T225052.png
+screenshot: https://apis.io/screenshots/lift/lift-2026-07-25T225052.png
 security:
 - kind: authentication
   name: Lift Authentication
@@ -150,6 +152,10 @@ security:
   name: Lift Domain Security
   slug: lift-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Book a HEXA flight experience
+  slug: lift-book-a-hexa-flight
 slug: lift
 tags:
 - Company

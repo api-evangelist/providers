@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
+  score: 20.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -89,11 +91,8 @@ apis:
   description: The Tags API from Fini — 5 operation(s) for tags.
   name: Fini Tags API
   slug: fini-tags-api
-artifact_total: 25
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Fini AI Agents API
   slug: open-fini-agents-api
@@ -123,12 +122,12 @@ collections:
   slug: open-fini-tags-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/plans/fini-plans-pricing.yml
+  href: https://artifacts.apis.io/fini/plans/fini-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fini-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/capabilities/fini-capability-edges.yml
+  href: https://artifacts.apis.io/fini/capabilities/fini-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fini-capability-edges.yml
@@ -169,92 +168,100 @@ common:
   type: PrivacyPolicy
   url: https://www.usefini.com/security/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/authentication/fini-authentication.yml
+  href: https://artifacts.apis.io/fini/authentication/fini-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fini-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/conventions/fini-conventions.yml
+  href: https://artifacts.apis.io/fini/conventions/fini-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fini-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/errors/fini-problem-types.yml
+  href: https://artifacts.apis.io/fini/errors/fini-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fini-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/lifecycle/fini-lifecycle.yml
+  href: https://artifacts.apis.io/fini/lifecycle/fini-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fini-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/data-model/fini-data-model.yml
+  href: https://artifacts.apis.io/fini/data-model/fini-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fini-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/mcp/fini-mcp.yml
+  href: https://artifacts.apis.io/fini/mcp/fini-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fini-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fini/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/overlays/fini-openapi-overlay.yaml
+  href: https://artifacts.apis.io/fini/overlays/fini-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fini-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/llms/fini-llms.txt
+  href: https://artifacts.apis.io/fini/llms/fini-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fini-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/well-known/fini-well-known.yml
+  href: https://artifacts.apis.io/fini/well-known/fini-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fini-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/agentic-access/fini-agentic-access.yml
+  href: https://artifacts.apis.io/fini/agentic-access/fini-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fini-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/conformance/fini-conformance.yml
+  href: https://artifacts.apis.io/fini/conformance/fini-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fini-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/security/fini-trust-center.yml
+  href: https://artifacts.apis.io/fini/security/fini-trust-center.yml
   title: ''
   type: Compliance
   url: security/fini-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/security/fini-trust-center.yml
+  href: https://artifacts.apis.io/fini/security/fini-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fini-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/security/fini-domain-security.yml
+  href: https://artifacts.apis.io/fini/security/fini-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fini-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/security/fini-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/fini/security/fini-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fini-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/security/fini-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/fini/security/fini-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/fini-vulnerability-disclosure.yml
 created: '2026-07-17'
 description: Fini AI provides self-improving AI agents for enterprise customer support across voice, chat, and email. Built on a RAGless retrieval engine, the Fini Agent Loop, a self-updating Knowledge Atlas, and Agentic Actions, Fini understands customer intent, retrieves the right data, and takes action — resolving up to 90% of support tickets at 99% accuracy. It is purpose-built for regulated industries such as fintech, banking, healthcare, insurance, and e-commerce, with PII redaction, audit trails, and guardrails. Fini exposes a public v2 REST API for managing agents, conversations, knowledge (sources, articles, folders), rules, tags, and prompts, and for driving the agent loop through its Generate Answer endpoint. Backed by Y Combinator (S22) and Matrix Partners.
+finops:
+- has_sources: true
+  method: derived
+  name: Fini Finops
+  primary_unit: resolved ticket
+  service_category: ''
+  slug: fini-finops
+  template: false
 image: https://mintcdn.com/fini/images/shared/logos/fini-light.png
 layout: provider
 modified: '2026-07-19'
@@ -269,26 +276,26 @@ plans:
 - name: Fini Plans Pricing
   plan_count: 3
   slug: fini-plans-pricing
-random_paper: 4
+random_paper: 14
 score:
   band: developing
-  composite: 49.7
+  composite: 53.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 49.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.9
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 54.0
-    developer_ergonomics: 16.1
-    discoverability: 73.2
+    contract_quality: 51.4
+    developer_ergonomics: 42.3
+    discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 43.8
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -305,13 +312,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/screenshots/fini-2026-07-25T214529.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fini/fini-2026-07-25T214529.png
 security:
 - kind: authentication
   name: Fini Authentication
@@ -329,6 +337,14 @@ security:
   name: Fini Trust Center
   slug: fini-trust-center
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+skill_count: 3
+skills:
+- name: Answer a customer question with a Fini agent
+  slug: fini-answer-customer-question
+- name: Export Fini conversations for QA and analytics
+  slug: fini-export-conversations
+- name: Ingest sources and publish knowledge to a Fini agent
+  slug: fini-ingest-and-publish-knowledge
 slug: fini
 tags:
 - Company

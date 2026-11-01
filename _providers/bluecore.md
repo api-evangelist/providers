@@ -11,7 +11,8 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +28,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 54.1
-  scored_at: '2026-10-17'
+  score: 55.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +45,7 @@ agentic_access:
   operation_count: 9
   slug: bluecore-agentic-access
   summary_line: 9 operations · 6 acting
-api_count: 5
+api_count: 2
 apis:
 - baseURL: https://a.bluecore.com/api
   baseurl_source: declared
@@ -91,15 +94,12 @@ arazzos:
 - description: Authenticate, upsert a Customer Profile, opt them into marketing, send a transactional message with an idempotency key, and read its delivery status.
   name: Onboard a Bluecore customer and send a transactional message
   slug: bluecore-onboard-and-message.arazzo
-artifact_total: 26
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Bluecore Events
   slug: bluecore-events
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bluecore Authn API
   slug: open-bluecore-authn-api
@@ -119,43 +119,77 @@ collections:
   name: Bluecore Authn Transactional API
   slug: open-bluecore-transactional-api
 common:
+- group: design
+  href: https://artifacts.apis.io/bluecore/rules/bluecore-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/bluecore-rules.yml
+- group: design
+  href: https://artifacts.apis.io/bluecore/json-ld/bluecore-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/bluecore-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/bluecore/vocabulary/bluecore-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/bluecore-vocabulary.yml
+- group: operate
+  href: https://artifacts.apis.io/bluecore/lifecycle/bluecore-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/bluecore-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/capabilities/bluecore-capability-edges.yml
+  href: https://artifacts.apis.io/bluecore/hosts/bluecore-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/bluecore-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/bluecore/integrations/bluecore-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/bluecore-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/bluecore/vendors/bluecore-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/bluecore-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.bluecore.com/press/insider-one-acquires-bluecore/?utm_source=medium&utm_medium=website&utm_campaign=bluecore-acquisition&utm_content=bluecore-sharing&utm_term=website-announcement
+- group: other
+  href: https://artifacts.apis.io/bluecore/capabilities/bluecore-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bluecore-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/overlays/bluecore-transactional-legacy-overlay.yaml
+  href: https://artifacts.apis.io/bluecore/overlays/bluecore-transactional-legacy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bluecore-transactional-legacy-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/well-known/bluecore-well-known.yml
+  href: https://artifacts.apis.io/bluecore/well-known/bluecore-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bluecore-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/well-known/bluecore-openid-configuration.json
+  href: https://artifacts.apis.io/bluecore/well-known/bluecore-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/bluecore-openid-configuration.json
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/packages/bluecore-packages.yml
-  title: ''
-  type: Packages
-  url: packages/bluecore-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/plans/bluecore-plans-pricing.yml
+  href: https://artifacts.apis.io/bluecore/plans/bluecore-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bluecore-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/components/bluecore-components.yml
+  href: https://artifacts.apis.io/bluecore/components/bluecore-components.yml
   title: ''
   type: Components
   url: components/bluecore-components.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/asyncapi/bluecore-events.yml
+  href: https://artifacts.apis.io/bluecore/asyncapi/bluecore-events.yml
   title: ''
   type: EventCatalog
   url: asyncapi/bluecore-events.yml
@@ -164,17 +198,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/TriggerMail
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/llms/bluecore-llms.txt
+  href: https://artifacts.apis.io/bluecore/llms/bluecore-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bluecore-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/security/bluecore-trust-center.yml
+  href: https://artifacts.apis.io/bluecore/security/bluecore-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bluecore-trust-center.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/overlays/bluecore-openapi-overlay.yaml
+  href: https://artifacts.apis.io/bluecore/overlays/bluecore-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bluecore-openapi-overlay.yaml
@@ -195,47 +229,47 @@ common:
   type: GettingStarted
   url: https://developers.bluecore.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/authentication/bluecore-authentication.yml
+  href: https://artifacts.apis.io/bluecore/authentication/bluecore-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bluecore-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/scopes/bluecore-scopes.yml
+  href: https://artifacts.apis.io/bluecore/scopes/bluecore-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bluecore-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/conventions/bluecore-conventions.yml
+  href: https://artifacts.apis.io/bluecore/conventions/bluecore-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/bluecore-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/conventions/bluecore-conventions.yml
+  href: https://artifacts.apis.io/bluecore/conventions/bluecore-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bluecore-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/rate-limits/bluecore-rate-limits.yml
+  href: https://artifacts.apis.io/bluecore/rate-limits/bluecore-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bluecore-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/errors/bluecore-problem-types.yml
+  href: https://artifacts.apis.io/bluecore/errors/bluecore-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bluecore-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/data-model/bluecore-data-model.yml
+  href: https://artifacts.apis.io/bluecore/data-model/bluecore-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bluecore-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/conformance/bluecore-conformance.yml
+  href: https://artifacts.apis.io/bluecore/conformance/bluecore-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bluecore-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/lifecycle/bluecore-lifecycle.yml
+  href: https://artifacts.apis.io/bluecore/lifecycle/bluecore-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bluecore-lifecycle.yml
@@ -244,42 +278,42 @@ common:
   type: StatusPage
   url: https://bluecore.statuspage.io/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/changelog/bluecore-changelog.yml
+  href: https://artifacts.apis.io/bluecore/changelog/bluecore-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bluecore-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/mcp/bluecore-mcp.yml
+  href: https://artifacts.apis.io/bluecore/mcp/bluecore-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bluecore-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bluecore/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/arazzo/bluecore-onboard-and-message.arazzo.yml
+  href: https://artifacts.apis.io/bluecore/arazzo/bluecore-onboard-and-message.arazzo.yml
   title: ''
   type: Arazzo
   url: arazzo/bluecore-onboard-and-message.arazzo.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/agentic-access/bluecore-agentic-access.yml
+  href: https://artifacts.apis.io/bluecore/agentic-access/bluecore-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bluecore-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/security/bluecore-domain-security.yml
+  href: https://artifacts.apis.io/bluecore/security/bluecore-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bluecore-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/security/bluecore-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bluecore/security/bluecore-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bluecore-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/security/bluecore-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bluecore/security/bluecore-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/bluecore-vulnerability-disclosure.yml
@@ -320,8 +354,70 @@ common:
   type: Website
   url: https://bluecore.com
 created: '2026-07-17'
-description: Bluecore is a retail marketing technology platform that unifies shopper identity, behavior, and product data into a customer data platform with 20+ predictive AI models, cross-channel experience orchestration (email, SMS, site, paid media), and AI shopping and marketing agents. Its public developer API (developers.bluecore.com) exposes OAuth 2.0 client-credentials authentication, Customer Profile management, eligibility (consent) management, and Communicate surfaces for transactional and direct-send messaging. Customers include Wayfair, Gap, J.Crew, Lenovo, CVS, and Fender. Backed by Norwest Venture Partners and Techstars.
+description: Bluecore is a retail marketing technology platform that unifies shopper identity, behavior, and product data into a customer data platform with 20+ predictive AI models, cross-channel experience orchestration (email, SMS, site, paid media), and AI shopping and marketing agents. Its public developer API (developers.bluecore.com) exposes OAuth 2.0 client-credentials authentication, Customer Profile management, eligibility (consent) management, and Communicate surfaces for transactional and direct-send messaging. Customers include Wayfair, Gap, J.Crew, Lenovo, CVS, and Fender. Backed by Norwest Venture Partners and Techstars. Bluecore's site announces it has been acquired by Insider One (https://www.bluecore.com/press/insider-one-acquires-bluecore/).
+finops:
+- has_sources: true
+  method: derived
+  name: Bluecore Finops
+  primary_unit: ''
+  service_category: ''
+  slug: bluecore-finops
+  template: true
 image: https://www.bluecore.com/wp-content/themes/bluecore/assets/img/favicon.png
+json_schemas:
+- name: bluecore.api.GetAccessTokenRequest
+  property_count: 4
+  slug: bluecore-bluecore-api-get-access-token-request
+- name: bluecore.api.GetAccessTokenResponse
+  property_count: 4
+  slug: bluecore-bluecore-api-get-access-token-response
+- name: body
+  property_count: 6
+  slug: bluecore-body
+- name: CampaignsAPIPublic_CreateDirectSendCampaign_campaigns.public.CreateDirectSendCampaignRequest
+  property_count: 0
+  slug: bluecore-campaigns-apipublic-create-direct-send-campaign-campaigns-public-create-direct-send-campaign-request
+- name: campaigns.public.DirectSendCampaignResponse
+  property_count: 1
+  slug: bluecore-campaigns-public-direct-send-campaign-response
+- name: ConversationResponse
+  property_count: 2
+  slug: bluecore-conversation-response
+- name: customers.public.CreateOrUpdateResponse
+  property_count: 1
+  slug: bluecore-customers-public-create-or-update-response
+- name: customers.public.GetResponse
+  property_count: 1
+  slug: bluecore-customers-public-get-response
+- name: DirectSend_Send_emailflow.public.SendRequest
+  property_count: 2
+  slug: bluecore-direct-send-send-emailflow-public-send-request
+- name: eligibility.public.GetResponse
+  property_count: 1
+  slug: bluecore-eligibility-public-get-response
+- name: eligibility.public.UpdateResponse
+  property_count: 1
+  slug: bluecore-eligibility-public-update-response
+- name: Eligibility_Update_eligibility.public.UpdateRequest
+  property_count: 2
+  slug: bluecore-eligibility-update-eligibility-public-update-request
+- name: Profile_CreateOrUpdate_customers.public.CreateOrUpdateRequest
+  property_count: 3
+  slug: bluecore-profile-create-or-update-customers-public-create-or-update-request
+- name: transactional_api.public.GetResponse
+  property_count: 1
+  slug: bluecore-transactional-api-public-get-response
+- name: transactional_api.public.SendResponse
+  property_count: 1
+  slug: bluecore-transactional-api-public-send-response
+- name: Transactional_Send_transactional_api.public.SendRequest
+  property_count: 1
+  slug: bluecore-transactional-send-transactional-api-public-send-request
+jsonld:
+- class_count: 24
+  name: Bluecore Context
+  property_count: 41
+  slug: bluecore-context
 layout: provider
 modified: '2026-08-13'
 name: Bluecore
@@ -330,43 +426,56 @@ network: true
 overview: 'Bluecore publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authn API, CampaignsAPIPublic API, Direct send API, and 6 more. Tagged areas include Company, Retail, Marketing, Customer Data Platform, and Personalization.
 
 
-  The Bluecore catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Bluecore catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Bluecore''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 36 more developer resources.'
+  Bluecore''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 43 more developer resources.'
 plans:
 - name: Bluecore Plans Pricing
   plan_count: 0
   slug: bluecore-plans-pricing
-random_paper: 13
+random_paper: 9
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Bluecore Rate Limits
   slug: bluecore-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Bluecore API Rules
+  rule_count: 13
+  severity_counts:
+    error: 11
+    hint: 0
+    info: 1
+    warn: 1
+  slug: bluecore-rules
 scopes:
 - name: Bluecore Scopes
   scope_count: 7
   slug: bluecore-scopes
   summary_line: 7 scopes
 score:
-  band: developing
-  composite: 48.8
+  band: strong
+  composite: 62.0
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 35
+    catalog_earned: 70.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
-    contract_governance: 4.5
-    contract_quality: 55.8
-    developer_ergonomics: 44.6
-    discoverability: 78.6
-    operational_transparency: 28.9
-  previous_composite: 48.8
+    access_clarity: 50.0
+    contract_governance: 22.0
+    contract_quality: 69.3
+    developer_ergonomics: 58.9
+    discoverability: 67.9
+    operational_transparency: 76.3
+  previous_composite: 62.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -383,18 +492,19 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 44.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/screenshots/bluecore-2026-07-25T203448.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bluecore/bluecore-2026-07-25T203448.png
 security:
 - kind: authentication
   name: Bluecore Authentication
   slug: bluecore-authentication
-  summary_line: oauth2/http-bearer · 3 schemes
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Bluecore Domain Security
   slug: bluecore-domain-security
@@ -406,7 +516,13 @@ security:
 - kind: trust-center
   name: Bluecore Trust Center
   slug: bluecore-trust-center
-  summary_line: SOC 2, GDPR, CCPA, EU AI Act
+  summary_line: SOC 2, GDPR
+skill_count: 2
+skills:
+- name: bluecore-manage-customer-consent
+  slug: bluecore-manage-customer-consent
+- name: bluecore-send-transactional-message
+  slug: bluecore-send-transactional-message
 slug: bluecore
 tags:
 - Company

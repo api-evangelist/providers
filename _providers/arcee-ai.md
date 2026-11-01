@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 29.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 125
   human_in_the_loop: 4
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 237
   slug: arcee-ai-agentic-access
   summary_line: 237 operations · 125 acting · 4 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.arcee.ai
   baseurl_source: declared
@@ -189,11 +191,8 @@ apis:
   description: The Webhooks API from Arcee AI — 1 operation(s) for webhooks.
   name: Arcee AI Webhooks API
   slug: arcee-ai-webhooks-api
-artifact_total: 63
+artifact_total: 65
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AFM Access Profiles API
   slug: open-arcee-ai-access-profiles-api
@@ -283,17 +282,17 @@ collections:
   slug: open-arcee-ai-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/plans/arcee-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/arcee-ai/plans/arcee-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/arcee-ai-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/capabilities/arcee-ai-capability-edges.yml
+  href: https://artifacts.apis.io/arcee-ai/capabilities/arcee-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/arcee-ai-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/overlays/arcee-ai-afm-overlay.yaml
+  href: https://artifacts.apis.io/arcee-ai/overlays/arcee-ai-afm-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/arcee-ai-afm-overlay.yaml
@@ -350,47 +349,55 @@ common:
   type: Deprecation
   url: https://docs.arcee.ai/policies/deprecation-policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/lifecycle/arcee-ai-lifecycle.yml
+  href: https://artifacts.apis.io/arcee-ai/lifecycle/arcee-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/arcee-ai-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/llms/arcee-ai-llms.txt
+  href: https://artifacts.apis.io/arcee-ai/llms/arcee-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/arcee-ai-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/packages/arcee-ai-packages.yml
+  href: https://artifacts.apis.io/arcee-ai/packages/arcee-ai-packages.yml
   title: ''
   type: Packages
   url: packages/arcee-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/packages/arcee-ai-packages.yml
+  href: https://artifacts.apis.io/arcee-ai/packages/arcee-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/arcee-ai-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/mcp/arcee-ai-mcp.yml
+  href: https://artifacts.apis.io/arcee-ai/mcp/arcee-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/arcee-ai-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/conformance/arcee-ai-conformance.yml
+  href: https://artifacts.apis.io/arcee-ai/conformance/arcee-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/arcee-ai-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/security/arcee-ai-domain-security.yml
+  href: https://artifacts.apis.io/arcee-ai/security/arcee-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arcee-ai-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/arcee-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Arcee AI is an American open-intelligence research lab that builds and releases small, efficient open-weight language models (the Trinity family, AFM-4.5B, and Virtuoso/Maestro derivatives) along with a developer platform for running them. The Arcee Platform exposes an OpenAI-compatible inference API at api.arcee.ai (chat completions, model listing, and usage/credits endpoints) secured with bearer API keys, plus Arcee Conductor (model routing), Arcee Orchestra (agentic workflows with their own invocation API), and AnyMCP for hosting Model Context Protocol servers. Arcee also maintains widely used open-source model tooling including mergekit, DistillKit, and DALM. Models can be consumed through the hosted API or self-deployed on vLLM, SGLang, llama.cpp, and Ollama.
+finops:
+- has_sources: true
+  method: derived
+  name: Arcee Ai Finops
+  primary_unit: 1m input tokens
+  service_category: ''
+  slug: arcee-ai-finops
+  template: false
 image: https://avatars.githubusercontent.com/u/126496414?v=4
 layout: provider
 modified: '2026-09-16'
@@ -405,31 +412,31 @@ plans:
 - name: Arcee Ai Plans Pricing
   plan_count: 8
   slug: arcee-ai-plans-pricing
-random_paper: 11
+random_paper: 15
 score:
   band: developing
-  composite: 46.0
+  composite: 50.2
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 49.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.9
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 73.7
     contract_governance: 4.5
-    contract_quality: 46.2
+    contract_quality: 44.5
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 26.3
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 40.1
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -437,7 +444,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 29
+      total: 62
     mcp: first-party
     skills: derived
   regulatory:
@@ -446,13 +453,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/screenshots/arcee-ai-2026-07-25T201012.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/arcee-ai/arcee-ai-2026-07-25T201012.png
 security:
 - kind: authentication
   name: Arcee Ai Authentication
@@ -462,6 +470,12 @@ security:
   name: Arcee Ai Domain Security
   slug: arcee-ai-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Run a chat completion with an Arcee model
+  slug: arcee-ai-chat-completion
+- name: Retrieval-augmented answering over an uploaded data group
+  slug: arcee-ai-rag-over-data-group
 slug: arcee-ai
 tags:
 - Company

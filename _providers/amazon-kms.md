@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -55,6 +57,36 @@ apis:
   description: KMS cryptographic key management
   name: Amazon KMS Keys API
   slug: amazon-kms-keys-api
+- baseURL: https://kms.amazonaws.com
+  baseurl_source: declared
+  description: The Kms Alias API from Amazon KMS — 3 operation(s) for kms alias.
+  name: Amazon KMS Kms Alias API
+  slug: amazon-kms-alias-api
+- baseURL: https://kms.amazonaws.com
+  baseurl_source: declared
+  description: The Kms Custom Key Store API from Amazon KMS — 6 operation(s) for kms custom key store.
+  name: Amazon KMS Kms Custom Key Store API
+  slug: amazon-kms-custom-key-store-api
+- baseURL: https://kms.amazonaws.com
+  baseurl_source: declared
+  description: The Kms Grant API from Amazon KMS — 4 operation(s) for kms grant.
+  name: Amazon KMS Kms Grant API
+  slug: amazon-kms-grant-api
+- baseURL: https://kms.amazonaws.com
+  baseurl_source: declared
+  description: The Kms Key Policy API from Amazon KMS — 3 operation(s) for kms key policy.
+  name: Amazon KMS Kms Key Policy API
+  slug: amazon-kms-key-policy-api
+- baseURL: https://kms.amazonaws.com
+  baseurl_source: declared
+  description: The Kms Key Rotation API from Amazon KMS — 3 operation(s) for kms key rotation.
+  name: Amazon KMS Kms Key Rotation API
+  slug: amazon-kms-key-rotation-api
+- baseURL: https://kms.amazonaws.com
+  baseurl_source: declared
+  description: The Kms Operations API from Amazon KMS — 21 operation(s) for kms operations.
+  name: Amazon KMS Kms Operations API
+  slug: amazon-kms-operations-api
 arazzos:
 - description: Create a new customer managed KMS key and read back its full metadata.
   name: Amazon KMS Create Key and Describe
@@ -80,14 +112,11 @@ arazzos:
 - description: Sign a message with an asymmetric KMS key, then verify the signature.
   name: Amazon KMS Sign and Verify
   slug: amazon-kms-sign-and-verify-workflow
-artifact_total: 39
+artifact_total: 45
 collections:
 - collection_type: postman
   name: Amazon KMS API
   slug: postman-amazon-kms
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon KMS Cryptographic Operations API
   slug: open-amazon-kms-cryptographic-operations-api
@@ -99,22 +128,22 @@ collections:
   slug: open-amazon-kms
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/plans/amazon-kms-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-kms/plans/amazon-kms-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-kms-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/rate-limits/amazon-kms-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-kms/rate-limits/amazon-kms-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-kms-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/finops/amazon-kms-finops.yml
+  href: https://artifacts.apis.io/amazon-kms/finops/amazon-kms-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-kms-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/capabilities/amazon-kms-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-kms/capabilities/amazon-kms-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-kms-capability-edges.yml
@@ -123,27 +152,27 @@ common:
   type: Website
   url: https://aws.amazon.com/kms/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/agentic-access/amazon-kms-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-kms/agentic-access/amazon-kms-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-kms-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/security/amazon-kms-trust-center.yml
+  href: https://artifacts.apis.io/amazon-kms/security/amazon-kms-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-kms-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/security/amazon-kms-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-kms/security/amazon-kms-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-kms-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/security/amazon-kms-domain-security.yml
+  href: https://artifacts.apis.io/amazon-kms/security/amazon-kms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-kms-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/authentication/amazon-kms-authentication.yml
+  href: https://artifacts.apis.io/amazon-kms/authentication/amazon-kms-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-kms-authentication.yml
@@ -152,42 +181,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-kms/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/arazzo/amazon-kms-create-key-and-describe-workflow.yml
+  href: https://artifacts.apis.io/amazon-kms/arazzo/amazon-kms-create-key-and-describe-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kms-create-key-and-describe-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/arazzo/amazon-kms-data-key-generate-and-decrypt-workflow.yml
+  href: https://artifacts.apis.io/amazon-kms/arazzo/amazon-kms-data-key-generate-and-decrypt-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kms-data-key-generate-and-decrypt-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/arazzo/amazon-kms-disable-and-schedule-deletion-workflow.yml
+  href: https://artifacts.apis.io/amazon-kms/arazzo/amazon-kms-disable-and-schedule-deletion-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kms-disable-and-schedule-deletion-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/arazzo/amazon-kms-enable-key-and-verify-state-workflow.yml
+  href: https://artifacts.apis.io/amazon-kms/arazzo/amazon-kms-enable-key-and-verify-state-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kms-enable-key-and-verify-state-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/arazzo/amazon-kms-envelope-encrypt-decrypt-workflow.yml
+  href: https://artifacts.apis.io/amazon-kms/arazzo/amazon-kms-envelope-encrypt-decrypt-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kms-envelope-encrypt-decrypt-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/arazzo/amazon-kms-list-and-describe-keys-workflow.yml
+  href: https://artifacts.apis.io/amazon-kms/arazzo/amazon-kms-list-and-describe-keys-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kms-list-and-describe-keys-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/arazzo/amazon-kms-provision-key-and-encrypt-workflow.yml
+  href: https://artifacts.apis.io/amazon-kms/arazzo/amazon-kms-provision-key-and-encrypt-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kms-provision-key-and-encrypt-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/arazzo/amazon-kms-sign-and-verify-workflow.yml
+  href: https://artifacts.apis.io/amazon-kms/arazzo/amazon-kms-sign-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kms-sign-and-verify-workflow.yml
@@ -256,12 +285,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/aws
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/rules/amazon-kms-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-kms/rules/amazon-kms-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-kms-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/vocabulary/amazon-kms-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-kms/vocabulary/amazon-kms-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-kms-vocabulary.yaml
@@ -285,13 +314,13 @@ features:
 - description: Every KMS API call is logged to AWS CloudTrail for auditing and compliance.
   name: CloudTrail Integration
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Kms Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: 10,000 requests
+  service_category: ''
   slug: amazon-kms-finops
-  template: true
+  template: false
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: Key
@@ -311,7 +340,7 @@ modified: '2026-09-16'
 name: Amazon KMS
 nav: Providers
 network: true
-overview: 'Amazon KMS publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Cryptographic Operations API and Keys API. Tagged areas include Cryptography, Data Protection, Encryption, Key Management, and Security.
+overview: 'Amazon KMS publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cryptographic Operations API, Keys API, Kms Alias API, and 5 more. Tagged areas include Cryptography, Data Protection, Encryption, Key Management, and Security.
 
 
   The Amazon KMS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -320,9 +349,12 @@ overview: 'Amazon KMS publishes 2 API contracts indexed on the [APIs.io](https:/
   Amazon KMS''s developer surface includes authentication, engineering blog, support, developer console, CLI, developer portal, documentation, and 30 more developer resources.'
 plans:
 - name: Amazon Kms Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: amazon-kms-plans-pricing
-random_paper: 10
+- name: Amazon Kms Price Estimates
+  plan_count: 0
+  slug: amazon-kms-price-estimates
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Amazon Kms Rate Limits
@@ -352,44 +384,50 @@ rules:
     warn: 15
   slug: amazon-kms-spectral-rules
 score:
-  band: strong
-  composite: 60.6
+  band: exemplar
+  composite: 70.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 62.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.6
+    artifact_dirs: 22
+    catalog_earned: 74.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 40.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 2.4
   facets:
-    access_clarity: 68.4
+    access_clarity: 100.0
     contract_governance: 27.3
-    contract_quality: 58.5
+    contract_quality: 62.5
     developer_ergonomics: 79.8
     discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 62.1
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 67.9
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 2
+      marker_coverage: 75.0
+      total: 8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/screenshots/amazon-kms-2026-06-20T171719.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-kms/amazon-kms-2026-06-20T171719.png
 security:
 - kind: authentication
   name: Amazon Kms Authentication

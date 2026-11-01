@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.2
-  scored_at: '2026-10-17'
+  score: 31.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -65,7 +67,7 @@ apis:
   description: Accept API — create and query payments (collections).
   name: Fazz Payments API
   slug: fazz-payments-api
-artifact_total: 21
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Fazz Webhooks
@@ -81,9 +83,6 @@ collections:
   name: Fazz API (Singapore v4) Disbursements Payments API
   slug: postman-fazz-payments-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Fazz Payments API (Singapore v4) Disbursements API
   slug: open-fazz-disbursements-api
 - collection_type: open
@@ -98,7 +97,7 @@ common:
   type: Blog
   url: https://fazz.com/id/newsroom/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/capabilities/fazz-capability-edges.yml
+  href: https://artifacts.apis.io/fazz/capabilities/fazz-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fazz-capability-edges.yml
@@ -107,27 +106,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/fazz/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/agentic-access/fazz-agentic-access.yml
+  href: https://artifacts.apis.io/fazz/agentic-access/fazz-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fazz-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/security/fazz-trust-center.yml
+  href: https://artifacts.apis.io/fazz/security/fazz-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fazz-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/security/fazz-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/fazz/security/fazz-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fazz-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/security/fazz-domain-security.yml
+  href: https://artifacts.apis.io/fazz/security/fazz-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fazz-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/authentication/fazz-authentication.yml
+  href: https://artifacts.apis.io/fazz/authentication/fazz-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fazz-authentication.yml
@@ -148,102 +147,102 @@ common:
   type: Documentation
   url: https://docs.fazz.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/plans/fazz-plans-pricing.yml
+  href: https://artifacts.apis.io/fazz/plans/fazz-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fazz-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/rate-limits/fazz-rate-limits.yml
+  href: https://artifacts.apis.io/fazz/rate-limits/fazz-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fazz-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/finops/fazz-finops.yml
+  href: https://artifacts.apis.io/fazz/finops/fazz-finops.yml
   title: ''
   type: FinOps
   url: finops/fazz-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/packages/fazz-packages.yml
+  href: https://artifacts.apis.io/fazz/packages/fazz-packages.yml
   title: ''
   type: Packages
   url: packages/fazz-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/packages/fazz-packages.yml
+  href: https://artifacts.apis.io/fazz/packages/fazz-packages.yml
   title: ''
   type: SDKs
   url: packages/fazz-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/well-known/fazz-well-known.yml
+  href: https://artifacts.apis.io/fazz/well-known/fazz-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fazz-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/llms/fazz-llms.txt
+  href: https://artifacts.apis.io/fazz/llms/fazz-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fazz-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/mcp/fazz-mcp.yml
+  href: https://artifacts.apis.io/fazz/mcp/fazz-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fazz-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/overlays/fazz-openapi-overlay.yaml
+  href: https://artifacts.apis.io/fazz/overlays/fazz-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fazz-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/conformance/fazz-conformance.yml
+  href: https://artifacts.apis.io/fazz/conformance/fazz-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fazz-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/errors/fazz-error-codes.yml
+  href: https://artifacts.apis.io/fazz/errors/fazz-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/fazz-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/lifecycle/fazz-lifecycle.yml
+  href: https://artifacts.apis.io/fazz/lifecycle/fazz-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fazz-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/conventions/fazz-conventions.yml
+  href: https://artifacts.apis.io/fazz/conventions/fazz-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fazz-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/conventions/fazz-conventions.yml
+  href: https://artifacts.apis.io/fazz/conventions/fazz-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/fazz-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/changelog/fazz-changelog.yml
+  href: https://artifacts.apis.io/fazz/changelog/fazz-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fazz-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/sandbox/fazz-sandbox.yml
+  href: https://artifacts.apis.io/fazz/sandbox/fazz-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fazz-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/data-model/fazz-data-model.yml
+  href: https://artifacts.apis.io/fazz/data-model/fazz-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fazz-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/asyncapi/fazz-webhooks.yml
+  href: https://artifacts.apis.io/fazz/asyncapi/fazz-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fazz-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fazz/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/collections/fazz.postman_collection.json
+  href: https://artifacts.apis.io/fazz/collections/fazz.postman_collection.json
   title: ''
   type: Postman
   url: collections/fazz.postman_collection.json
@@ -294,35 +293,35 @@ plans:
 - name: Fazz Plans Pricing
   plan_count: 2
   slug: fazz-plans-pricing
-random_paper: 3
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Fazz Rate Limits
   slug: fazz-rate-limits
 score:
   band: thin
-  composite: 35.0
+  composite: 38.6
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 8.1
-    developer_ergonomics: 64.9
-    discoverability: 73.2
-    operational_transparency: 31.6
+    developer_ergonomics: 74.4
+    discoverability: 66.1
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 40.6
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -339,13 +338,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/screenshots/fazz-2026-07-25T214301.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fazz/fazz-2026-07-25T214301.png
 security:
 - kind: authentication
   name: Fazz Authentication
@@ -363,6 +363,14 @@ security:
   name: Fazz Trust Center
   slug: fazz-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Accept a payment with Fazz
+  slug: fazz-accept-a-payment
+- name: Create a reusable Fazz payment method
+  slug: fazz-reusable-payment-method
+- name: Send a disbursement with Fazz
+  slug: fazz-send-a-disbursement
 slug: fazz
 tags:
 - Fintech

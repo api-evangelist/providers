@@ -16,7 +16,7 @@ common:
   type: Documentation
   url: https://code.visualstudio.com/docs/copilot/customization/custom-instructions
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/instructions-md/refs/heads/main/json-schema/instructions-md-frontmatter-schema.json
+  href: https://artifacts.apis.io/instructions-md/json-schema/instructions-md-frontmatter-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/instructions-md-frontmatter-schema.json
@@ -52,7 +52,7 @@ rules:
     info: 1
     warn: 3
   slug: instructions-md-jsonschema-spectral-rules
-screenshot: https://raw.githubusercontent.com/api-evangelist/instructions-md/refs/heads/main/screenshots/instructions-md-2026-06-20T183420.png
+screenshot: https://apis.io/screenshots/instructions-md/instructions-md-2026-06-20T183420.png
 slug: instructions-md
 tags:
 - AI Copilot

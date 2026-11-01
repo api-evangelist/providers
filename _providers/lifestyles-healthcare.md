@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The LifeStyles US store implements the Universal Commerce Protocol for agent-driven commerce. Agents discover the merchant profile at /.well-known/ucp and then call the JSON-RPC MCP endpoint to search
@@ -47,7 +49,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lifestyles-healthcare/refs/heads/main/security/lifestyles-healthcare-domain-security.yml
+  href: https://artifacts.apis.io/lifestyles-healthcare/security/lifestyles-healthcare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lifestyles-healthcare-domain-security.yml
@@ -60,52 +62,52 @@ common:
   type: Documentation
   url: https://lifestyles.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lifestyles-healthcare/refs/heads/main/llms/lifestyles-healthcare-llms.txt
+  href: https://artifacts.apis.io/lifestyles-healthcare/llms/lifestyles-healthcare-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lifestyles-healthcare-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lifestyles-healthcare/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lifestyles-healthcare/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lifestyles-healthcare/refs/heads/main/mcp/lifestyles-healthcare-mcp.yml
+  href: https://artifacts.apis.io/lifestyles-healthcare/mcp/lifestyles-healthcare-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lifestyles-healthcare-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lifestyles-healthcare/refs/heads/main/well-known/lifestyles-healthcare-well-known.yml
+  href: https://artifacts.apis.io/lifestyles-healthcare/well-known/lifestyles-healthcare-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lifestyles-healthcare-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lifestyles-healthcare/refs/heads/main/authentication/lifestyles-healthcare-authentication.yml
+  href: https://artifacts.apis.io/lifestyles-healthcare/authentication/lifestyles-healthcare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lifestyles-healthcare-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lifestyles-healthcare/refs/heads/main/scopes/lifestyles-healthcare-scopes.yml
+  href: https://artifacts.apis.io/lifestyles-healthcare/scopes/lifestyles-healthcare-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lifestyles-healthcare-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lifestyles-healthcare/refs/heads/main/conventions/lifestyles-healthcare-conventions.yml
+  href: https://artifacts.apis.io/lifestyles-healthcare/conventions/lifestyles-healthcare-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lifestyles-healthcare-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lifestyles-healthcare/refs/heads/main/errors/lifestyles-healthcare-problem-types.yml
+  href: https://artifacts.apis.io/lifestyles-healthcare/errors/lifestyles-healthcare-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lifestyles-healthcare-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lifestyles-healthcare/refs/heads/main/conformance/lifestyles-healthcare-conformance.yml
+  href: https://artifacts.apis.io/lifestyles-healthcare/conformance/lifestyles-healthcare-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lifestyles-healthcare-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lifestyles-healthcare/refs/heads/main/lifecycle/lifestyles-healthcare-lifecycle.yml
+  href: https://artifacts.apis.io/lifestyles-healthcare/lifecycle/lifestyles-healthcare-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lifestyles-healthcare-lifecycle.yml
@@ -141,7 +143,7 @@ overview: 'LifeStyles Healthcare is listed with 2 APIs on the [APIs.io](https://
 
 
   LifeStyles Healthcare''s developer surface includes documentation, authentication, engineering blog, support, and 13 more developer resources.'
-random_paper: 0
+random_paper: 18
 scopes:
 - name: Lifestyles Healthcare Scopes
   scope_count: 4
@@ -149,7 +151,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 23.3
+  composite: 22.3
   coverage:
     artifact_dirs: 15
     catalog_earned: 32.0
@@ -163,9 +165,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 0.0
-  previous_composite: 23.3
+  previous_composite: 22.3
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -176,14 +178,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lifestyles-healthcare/refs/heads/main/screenshots/lifestyles-healthcare-2026-08-07T171647.png
+screenshot: https://apis.io/screenshots/lifestyles-healthcare/lifestyles-healthcare-2026-08-07T171647.png
 security:
 - kind: authentication
   name: Lifestyles Healthcare Authentication

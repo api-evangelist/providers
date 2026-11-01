@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.3
-  scored_at: '2026-10-17'
+  score: 31.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,11 +56,8 @@ apis:
   description: The Players API from Splitgate — 4 operation(s) for players.
   name: Splitgate Players API
   slug: splitgate-players-api
-artifact_total: 9
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 1047 Games Third-Party Matches API
   slug: open-splitgate-matches-api
@@ -67,7 +66,7 @@ collections:
   slug: open-splitgate-players-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/splitgate/refs/heads/main/rate-limits/splitgate-rate-limits.yml
+  href: https://artifacts.apis.io/splitgate/rate-limits/splitgate-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/splitgate-rate-limits.yml
@@ -76,12 +75,12 @@ common:
   type: IssueTracker
   url: https://github.com/1047Games/sdk-api/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/splitgate/refs/heads/main/skills/splitgate-match-history.md
+  href: https://artifacts.apis.io/splitgate/skills/splitgate-match-history.md
   title: ''
   type: AgentSkill
   url: skills/splitgate-match-history.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/splitgate/refs/heads/main/overlays/splitgate-third-party-overlay.yaml
+  href: https://artifacts.apis.io/splitgate/overlays/splitgate-third-party-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splitgate-third-party-overlay.yaml
@@ -126,22 +125,22 @@ common:
   type: Community
   url: https://discord.com/invite/splitgate
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/splitgate/refs/heads/main/packages/splitgate-packages.yml
+  href: https://artifacts.apis.io/splitgate/packages/splitgate-packages.yml
   title: ''
   type: Packages
   url: packages/splitgate-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/splitgate/refs/heads/main/well-known/splitgate-well-known.yml
+  href: https://artifacts.apis.io/splitgate/well-known/splitgate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/splitgate-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/splitgate/refs/heads/main/security/splitgate-domain-security.yml
+  href: https://artifacts.apis.io/splitgate/security/splitgate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/splitgate-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/splitgate/refs/heads/main/llms/splitgate-llms.txt
+  href: https://artifacts.apis.io/splitgate/llms/splitgate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/splitgate-llms.txt
@@ -181,14 +180,14 @@ overview: 'Splitgate publishes 2 API contracts indexed on the [APIs.io](https://
 
 
   Splitgate''s developer surface includes API reference, support, engineering blog, YouTube channel, and 20 more developer resources.'
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Splitgate Rate Limits
   slug: splitgate-rate-limits
 score:
   band: thin
-  composite: 33.7
+  composite: 33.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -202,9 +201,9 @@ score:
     contract_governance: 4.5
     contract_quality: 49.0
     developer_ergonomics: 28.0
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 33.7
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -221,14 +220,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/splitgate/refs/heads/main/screenshots/splitgate-2026-09-02T160519.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/splitgate/splitgate-2026-09-02T160519.png
 security:
 - kind: authentication
   name: Splitgate Authentication
@@ -238,6 +237,12 @@ security:
   name: Splitgate Domain Security
   slug: splitgate-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Walk a Splitgate player's match history into full match detail
+  slug: splitgate-match-history
+- name: Look up a Splitgate player's stats and ranks
+  slug: splitgate-player-lookup
 slug: splitgate
 tags:
 - Company

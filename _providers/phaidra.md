@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -61,12 +63,12 @@ common:
   type: Compliance
   url: https://www.phaidra.ai/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phaidra/refs/heads/main/security/phaidra-trust-center.yml
+  href: https://artifacts.apis.io/phaidra/security/phaidra-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/phaidra-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phaidra/refs/heads/main/security/phaidra-domain-security.yml
+  href: https://artifacts.apis.io/phaidra/security/phaidra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/phaidra-domain-security.yml
@@ -82,12 +84,12 @@ overview: 'Phaidra is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Phaidra''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 3
+random_paper: 9
 score:
   band: emerging
   composite: 12.9
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -108,14 +110,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/phaidra/refs/heads/main/screenshots/phaidra-2026-09-02T151128.png
+screenshot: https://apis.io/screenshots/phaidra/phaidra-2026-09-02T151128.png
 security:
 - kind: domain-security
   name: Phaidra Domain Security

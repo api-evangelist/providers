@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.8
-  scored_at: '2026-10-17'
+  score: 40.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -255,7 +257,7 @@ arazzos:
 - description: Resolve a policy by name, update it, then update one of its conditions.
   name: New Relic Update Policy And Condition
   slug: new-relic-update-policy-and-condition-workflow
-artifact_total: 966
+artifact_total: 968
 asyncapis:
 - description: Describes New Relic's documented event-driven and streaming surfaces. New Relic does not publish a customer-facing WebSocket or Server-Sent Events streaming endpoint, and the NerdGraph GraphQL API doe
   name: New Relic Streaming and Event-Driven Surfaces
@@ -276,9 +278,6 @@ collections:
 - collection_type: postman
   name: New Relic
   slug: postman-new-relic
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: New Relic Event Alerts API
   slug: open-new-relic-alerts-api
@@ -383,122 +382,122 @@ collections:
   slug: open-new-relic
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/finops/new-relic-finops.yml
+  href: https://artifacts.apis.io/new-relic/finops/new-relic-finops.yml
   title: ''
   type: FinOps
   url: finops/new-relic-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/rate-limits/new-relic-rate-limits.yml
+  href: https://artifacts.apis.io/new-relic/rate-limits/new-relic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/new-relic-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/plans/new-relic-plans-pricing.yml
+  href: https://artifacts.apis.io/new-relic/plans/new-relic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/new-relic-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/rules/new-relic-spectral-rules.yml
+  href: https://artifacts.apis.io/new-relic/rules/new-relic-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/new-relic-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/rules/new-relic-rules.yml
+  href: https://artifacts.apis.io/new-relic/rules/new-relic-rules.yml
   title: ''
   type: Spectral
   url: rules/new-relic-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/rules/new-relic-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/new-relic/rules/new-relic-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/new-relic-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/rules/new-relic-asyncapi-spectral-rules.yml
+  href: https://artifacts.apis.io/new-relic/rules/new-relic-asyncapi-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/new-relic-asyncapi-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-ld/new-relic-trace-context.jsonld
+  href: https://artifacts.apis.io/new-relic/json-ld/new-relic-trace-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/new-relic-trace-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-ld/new-relic-metric-context.jsonld
+  href: https://artifacts.apis.io/new-relic/json-ld/new-relic-metric-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/new-relic-metric-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-ld/new-relic-log-context.jsonld
+  href: https://artifacts.apis.io/new-relic/json-ld/new-relic-log-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/new-relic-log-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-ld/new-relic-event-context.jsonld
+  href: https://artifacts.apis.io/new-relic/json-ld/new-relic-event-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/new-relic-event-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/vocabulary/new-relic-vocabulary.yml
+  href: https://artifacts.apis.io/new-relic/vocabulary/new-relic-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/new-relic-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/new-relic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/asyncapi/new-relic-streaming-asyncapi.yml
+  href: https://artifacts.apis.io/new-relic/asyncapi/new-relic-streaming-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/new-relic-streaming-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/data-model/new-relic-data-model.yml
+  href: https://artifacts.apis.io/new-relic/data-model/new-relic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/new-relic-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/cli/new-relic-cli.yml
+  href: https://artifacts.apis.io/new-relic/cli/new-relic-cli.yml
   title: ''
   type: CLI
   url: cli/new-relic-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/errors/new-relic-problem-types.yml
+  href: https://artifacts.apis.io/new-relic/errors/new-relic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/new-relic-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/conformance/new-relic-conformance.yml
+  href: https://artifacts.apis.io/new-relic/conformance/new-relic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/new-relic-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/overlays/new-relic-alerts-api-overlay.yml
+  href: https://artifacts.apis.io/new-relic/overlays/new-relic-alerts-api-overlay.yml
   title: ''
   type: Overlay
   url: overlays/new-relic-alerts-api-overlay.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/llms/new-relic-llms.txt
+  href: https://artifacts.apis.io/new-relic/llms/new-relic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/new-relic-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/mcp/new-relic-mcp.yml
+  href: https://artifacts.apis.io/new-relic/mcp/new-relic-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/new-relic-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/hosts/new-relic-hosts.yml
+  href: https://artifacts.apis.io/new-relic/hosts/new-relic-hosts.yml
   title: ''
   type: Hosts
   url: hosts/new-relic-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/vendors/new-relic-vendors.yml
+  href: https://artifacts.apis.io/new-relic/vendors/new-relic-vendors.yml
   title: ''
   type: Vendors
   url: vendors/new-relic-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/packages/new-relic-packages.yml
+  href: https://artifacts.apis.io/new-relic/packages/new-relic-packages.yml
   title: ''
   type: Packages
   url: packages/new-relic-packages.yml
@@ -515,7 +514,7 @@ common:
   type: Website
   url: https://www.newrelic.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/capabilities/new-relic-capability-edges.yml
+  href: https://artifacts.apis.io/new-relic/capabilities/new-relic-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/new-relic-capability-edges.yml
@@ -540,22 +539,22 @@ common:
   type: License
   url: https://github.com/newrelic/newrelic-telemetry-sdk-java/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/agentic-access/new-relic-agentic-access.yml
+  href: https://artifacts.apis.io/new-relic/agentic-access/new-relic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/new-relic-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/security/new-relic-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/new-relic/security/new-relic-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/new-relic-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/security/new-relic-domain-security.yml
+  href: https://artifacts.apis.io/new-relic/security/new-relic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/new-relic-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/authentication/new-relic-authentication.yml
+  href: https://artifacts.apis.io/new-relic/authentication/new-relic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/new-relic-authentication.yml
@@ -564,102 +563,102 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/new-relic/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-application-health-triage-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-application-health-triage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-application-health-triage-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-associate-entity-with-condition-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-associate-entity-with-condition-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-associate-entity-with-condition-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-attach-notification-channel-to-policy-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-attach-notification-channel-to-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-attach-notification-channel-to-policy-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-create-alert-policy-with-condition-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-create-alert-policy-with-condition-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-create-alert-policy-with-condition-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-create-nrql-alert-policy-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-create-nrql-alert-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-create-nrql-alert-policy-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-create-synthetics-alert-condition-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-create-synthetics-alert-condition-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-create-synthetics-alert-condition-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-find-policy-and-list-conditions-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-find-policy-and-list-conditions-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-find-policy-and-list-conditions-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-host-metric-drilldown-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-host-metric-drilldown-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-host-metric-drilldown-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-ingest-deployment-telemetry-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-ingest-deployment-telemetry-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-ingest-deployment-telemetry-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-ingest-metrics-and-logs-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-ingest-metrics-and-logs-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-ingest-metrics-and-logs-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-ingest-trace-and-event-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-ingest-trace-and-event-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-ingest-trace-and-event-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-key-transaction-metric-report-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-key-transaction-metric-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-key-transaction-metric-report-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-mobile-app-crash-report-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-mobile-app-crash-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-mobile-app-crash-report-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-open-violations-triage-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-open-violations-triage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-open-violations-triage-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-provision-alerting-stack-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-provision-alerting-stack-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-provision-alerting-stack-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-prune-nrql-condition-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-prune-nrql-condition-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-prune-nrql-condition-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-record-deployment-marker-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-record-deployment-marker-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-record-deployment-marker-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-rename-application-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-rename-application-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-rename-application-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-rollback-deployment-marker-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-rollback-deployment-marker-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-rollback-deployment-marker-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/arazzo/new-relic-update-policy-and-condition-workflow.yml
+  href: https://artifacts.apis.io/new-relic/arazzo/new-relic-update-policy-and-condition-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/new-relic-update-policy-and-condition-workflow.yml
@@ -760,17 +759,17 @@ common:
   type: YouTube
   url: https://www.youtube.com/@NewRelicInc
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-ld/new-relic-context.jsonld
+  href: https://artifacts.apis.io/new-relic/json-ld/new-relic-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/new-relic-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-schema/new-relic-metric-payload-schema.json
+  href: https://artifacts.apis.io/new-relic/json-schema/new-relic-metric-payload-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/new-relic-metric-payload-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-schema/new-relic-event-payload-schema.json
+  href: https://artifacts.apis.io/new-relic/json-schema/new-relic-event-payload-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/new-relic-event-payload-schema.json
@@ -859,12 +858,12 @@ common:
   type: CodeExamples
   url: https://github.com/newrelic/newrelic-opentelemetry-examples
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/rules/new-relic-spectral-rules.yml
+  href: https://artifacts.apis.io/new-relic/rules/new-relic-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/new-relic-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/vocabulary/new-relic-vocabulary.yaml
+  href: https://artifacts.apis.io/new-relic/vocabulary/new-relic-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/new-relic-vocabulary.yaml
@@ -1703,10 +1702,10 @@ features:
 - Custom dashboards via NRQL
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: New Relic Finops
-  primary_unit: ''
-  service_category: Observability
+  primary_unit: user
+  service_category: ''
   slug: new-relic-finops
   template: false
 graphqls:
@@ -3463,9 +3462,12 @@ overview: 'New Relic publishes 18 API contracts indexed on the [APIs.io](https:/
   New Relic''s developer surface includes CLI, authentication, developer portal, pricing, documentation, engineering blog, signup flow, and 101 more developer resources.'
 plans:
 - name: New Relic Plans Pricing
-  plan_count: 4
+  plan_count: 11
   slug: new-relic-plans-pricing
-random_paper: 0
+- name: New Relic Price Estimates
+  plan_count: 0
+  slug: new-relic-price-estimates
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: New Relic Rate Limits
@@ -3520,26 +3522,28 @@ rules:
   slug: new-relic-spectral-rules
 score:
   band: exemplar
-  composite: 71.0
+  composite: 77.7
   coverage:
     artifact_dirs: 37
-    catalog_earned: 75.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 40.0
+    catalog_earned: 87.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 28.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.4
+  delta: 1.6
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 31.8
-    contract_quality: 80.6
-    developer_ergonomics: 87.5
-    discoverability: 83.3
+    contract_quality: 78.6
+    developer_ergonomics: 91.1
+    discoverability: 73.3
     operational_transparency: 55.3
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 74.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 76.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -3556,13 +3560,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/screenshots/new-relic-2026-06-20T190230.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/new-relic/new-relic-2026-06-20T190230.png
 security:
 - kind: authentication
   name: New Relic Authentication
@@ -3576,6 +3581,12 @@ security:
   name: New Relic Vulnerability Disclosure
   slug: new-relic-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 2
+skills:
+- name: new-relic-fetch-application-metrics
+  slug: new-relic-fetch-application-metrics
+- name: new-relic-manage-alert-channels
+  slug: new-relic-manage-alert-channels
 slug: new-relic
 tags:
 - Analysis

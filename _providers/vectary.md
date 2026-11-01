@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: JavaScript API for programmatic control of Vectary 3D scenes embedded on websites. The VctrModelApi class (an ES module served from app.vectary.com) wraps postMessage communication with the embedded i
@@ -86,42 +88,42 @@ common:
   type: PrivacyPolicy
   url: https://www.vectary.com/privacy-policy/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vectary/refs/heads/main/changelog/vectary-changelog.yml
+  href: https://artifacts.apis.io/vectary/changelog/vectary-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vectary-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vectary/refs/heads/main/llms/vectary-llms.txt
+  href: https://artifacts.apis.io/vectary/llms/vectary-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vectary-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vectary/refs/heads/main/packages/vectary-packages.yml
+  href: https://artifacts.apis.io/vectary/packages/vectary-packages.yml
   title: ''
   type: Packages
   url: packages/vectary-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vectary/refs/heads/main/packages/vectary-packages.yml
+  href: https://artifacts.apis.io/vectary/packages/vectary-packages.yml
   title: ''
   type: SDKs
   url: packages/vectary-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vectary/refs/heads/main/components/vectary-components.yml
+  href: https://artifacts.apis.io/vectary/components/vectary-components.yml
   title: ''
   type: Components
   url: components/vectary-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vectary/refs/heads/main/authentication/vectary-authentication.yml
+  href: https://artifacts.apis.io/vectary/authentication/vectary-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vectary-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vectary/refs/heads/main/security/vectary-domain-security.yml
+  href: https://artifacts.apis.io/vectary/security/vectary-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vectary-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vectary/refs/heads/main/security/vectary-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/vectary/security/vectary-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vectary-vulnerability-disclosure.yml
@@ -130,7 +132,7 @@ common:
   type: Security
   url: https://www.vectary.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vectary/refs/heads/main/security/vectary-trust-center.yml
+  href: https://artifacts.apis.io/vectary/security/vectary-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vectary-trust-center.yml
@@ -150,10 +152,10 @@ overview: 'Vectary is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Vectary''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 18
+random_paper: 22
 score:
   band: thin
-  composite: 36.4
+  composite: 36.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -167,23 +169,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 54.8
-    discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 36.4
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 36.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vectary/refs/heads/main/screenshots/vectary-2026-09-02T165538.png
+screenshot: https://apis.io/screenshots/vectary/vectary-2026-09-02T165538.png
 security:
 - kind: authentication
   name: Vectary Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - description: Server-side API for managing QlikView Server operations, documents, and sessions.
@@ -66,30 +68,30 @@ apis:
 - description: API interface for the QlikView Distribution Service, providing programmatic access to document distribution, task management, and scheduled reload operations including External Document Exchange (EDX)
   name: QlikView Distribution Service API (IQDS)
   slug: qlikview-distribution-service-api-iqds
-artifact_total: 30
+artifact_total: 31
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/plans/qlikview-plans-pricing.yml
+  href: https://artifacts.apis.io/qlikview/plans/qlikview-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qlikview-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/rate-limits/qlikview-rate-limits.yml
+  href: https://artifacts.apis.io/qlikview/rate-limits/qlikview-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qlikview-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/finops/qlikview-finops.yml
+  href: https://artifacts.apis.io/qlikview/finops/qlikview-finops.yml
   title: ''
   type: FinOps
   url: finops/qlikview-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/security/qlikview-trust-center.yml
+  href: https://artifacts.apis.io/qlikview/security/qlikview-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/qlikview-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/security/qlikview-domain-security.yml
+  href: https://artifacts.apis.io/qlikview/security/qlikview-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qlikview-domain-security.yml
@@ -154,62 +156,62 @@ common:
   type: Compliance
   url: https://www.qlik.com/us/trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/security/qlikview-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/qlikview/security/qlikview-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/qlikview-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/security/qlikview-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/qlikview/security/qlikview-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/qlikview-vulnerability-disclosure.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/packages/qlikview-packages.yml
+  href: https://artifacts.apis.io/qlikview/packages/qlikview-packages.yml
   title: ''
   type: Packages
   url: packages/qlikview-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/packages/qlikview-packages.yml
+  href: https://artifacts.apis.io/qlikview/packages/qlikview-packages.yml
   title: ''
   type: SDKs
   url: packages/qlikview-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/authentication/qlikview-authentication.yml
+  href: https://artifacts.apis.io/qlikview/authentication/qlikview-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qlikview-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/conventions/qlikview-conventions.yml
+  href: https://artifacts.apis.io/qlikview/conventions/qlikview-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qlikview-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/conformance/qlikview-conformance.yml
+  href: https://artifacts.apis.io/qlikview/conformance/qlikview-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qlikview-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/lifecycle/qlikview-lifecycle.yml
+  href: https://artifacts.apis.io/qlikview/lifecycle/qlikview-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qlikview-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/lifecycle/qlikview-lifecycle.yml
+  href: https://artifacts.apis.io/qlikview/lifecycle/qlikview-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/qlikview-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/changelog/qlikview-changelog.yml
+  href: https://artifacts.apis.io/qlikview/changelog/qlikview-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/qlikview-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/components/qlikview-components.yml
+  href: https://artifacts.apis.io/qlikview/components/qlikview-components.yml
   title: ''
   type: Components
   url: components/qlikview-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/llms/qlikview-llms.txt
+  href: https://artifacts.apis.io/qlikview/llms/qlikview-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qlikview-llms.txt
@@ -233,13 +235,13 @@ features:
 - description: Integrate single sign-on with custom authentication systems using the Ticket API.
   name: Custom Ticket Authentication
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Qlikview Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: 10 users, billed annually
+  service_category: ''
   slug: qlikview-finops
-  template: true
+  template: false
 image: https://www.qlik.com/us/-/media/images/qlik/global/qlik-logo-2x.png
 layout: provider
 modified: '2026-08-29'
@@ -252,32 +254,35 @@ overview: 'QlikView is listed with 10 APIs on the [APIs.io](https://apis.io/) ne
   QlikView''s developer surface includes developer portal, API reference, support, training material, pricing, release notes, documentation, and 25 more developer resources.'
 plans:
 - name: Qlikview Plans Pricing
-  plan_count: 0
+  plan_count: 4
   slug: qlikview-plans-pricing
-random_paper: 18
+- name: Qlikview Price Estimates
+  plan_count: 0
+  slug: qlikview-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Qlikview Rate Limits
   slug: qlikview-rate-limits
 score:
   band: developing
-  composite: 40.2
+  composite: 47.7
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 18
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 7.9
   facets:
-    access_clarity: 47.4
+    access_clarity: 86.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 78.6
-    operational_transparency: 36.8
-  previous_composite: 41.7
+    discoverability: 71.4
+    operational_transparency: 39.5
+  previous_composite: 39.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -287,14 +292,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/screenshots/qlikview-2026-06-20T192347.png
+screenshot: https://apis.io/screenshots/qlikview/qlikview-2026-06-20T192347.png
 security:
 - kind: authentication
   name: Qlikview Authentication

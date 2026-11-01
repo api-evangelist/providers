@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 24
   slug: quandoo-agentic-access
   summary_line: 24 operations · 6 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://public-api.prod.quandoo.com
   baseurl_source: declared
@@ -95,7 +97,7 @@ apis:
   description: The Validations API from Quandoo — 1 operation(s) for validations.
   name: Quandoo Validations API
   slug: quandoo-validations-api
-artifact_total: 234
+artifact_total: 233
 collections:
 - collection_type: postman
   name: Quandoo Public Partner Availabilities API
@@ -128,9 +130,6 @@ collections:
   name: Quandoo Public Partner Availabilities Validations API
   slug: postman-quandoo-validations-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Quandoo Public Partner Availabilities API
   slug: open-quandoo-availabilities-api
 - collection_type: open
@@ -161,27 +160,32 @@ collections:
   name: Quandoo Public Partner Availabilities Validations API
   slug: open-quandoo-validations-api
 common:
+- group: other
+  href: https://artifacts.apis.io/quandoo/capabilities/quandoo-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/quandoo-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/quandoo/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/agentic-access/quandoo-agentic-access.yml
+  href: https://artifacts.apis.io/quandoo/agentic-access/quandoo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/quandoo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/security/quandoo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/quandoo/security/quandoo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/quandoo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/security/quandoo-domain-security.yml
+  href: https://artifacts.apis.io/quandoo/security/quandoo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quandoo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/authentication/quandoo-authentication.yml
+  href: https://artifacts.apis.io/quandoo/authentication/quandoo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/quandoo-authentication.yml
@@ -206,32 +210,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/quandoo
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/rules/quandoo-public-partner-api-spectral-rules.yml
+  href: https://artifacts.apis.io/quandoo/rules/quandoo-public-partner-api-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/quandoo-public-partner-api-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/vocabulary/quandoo-vocabulary.yml
+  href: https://artifacts.apis.io/quandoo/vocabulary/quandoo-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/quandoo-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/json-ld/quandoo-context.jsonld
+  href: https://artifacts.apis.io/quandoo/json-ld/quandoo-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/quandoo-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/plans/quandoo-plans-pricing.yml
+  href: https://artifacts.apis.io/quandoo/plans/quandoo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/quandoo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/rate-limits/quandoo-rate-limits.yml
+  href: https://artifacts.apis.io/quandoo/rate-limits/quandoo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/quandoo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/finops/quandoo-finops.yml
+  href: https://artifacts.apis.io/quandoo/finops/quandoo-finops.yml
   title: ''
   type: FinOps
   url: finops/quandoo-finops.yml
@@ -829,12 +833,12 @@ overview: 'Quandoo publishes 10 API contracts indexed on the [APIs.io](https://a
   The Quandoo catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Quandoo''s developer surface includes authentication, documentation, API reference, support, pricing, and 13 more developer resources.'
+  Quandoo''s developer surface includes authentication, documentation, API reference, support, pricing, and 14 more developer resources.'
 plans:
 - name: Quandoo Plans Pricing
   plan_count: 3
   slug: quandoo-plans-pricing
-random_paper: 11
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Quandoo Rate Limits
@@ -876,23 +880,23 @@ rules:
   slug: quandoo-spectral-rules
 score:
   band: developing
-  composite: 43.3
+  composite: 45.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 71.0
     catalog_earned_first_party: 0.0
     catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 69.2
     developer_ergonomics: 46.4
     discoverability: 66.1
-    operational_transparency: 7.9
-  previous_composite: 50.7
+    operational_transparency: 21.1
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     contracts:
@@ -906,13 +910,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/screenshots/quandoo-2026-06-20T192405.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/quandoo/quandoo-2026-06-20T192405.png
 security:
 - kind: authentication
   name: Quandoo Authentication

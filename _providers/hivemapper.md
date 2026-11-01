@@ -26,17 +26,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: documented
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
-api_count: 5
+  score: 24.7
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://beemaps.com/api/developer
   baseurl_source: declared
@@ -63,11 +65,13 @@ apis:
   description: ML-detected road objects and features.
   name: Hivemapper Map Features API
   slug: hivemapper-map-features-api
-artifact_total: 15
+- baseURL: https://beemaps.com/api/developer
+  baseurl_source: declared
+  description: Camera calibration data
+  name: Hivemapper Devices API
+  slug: hivemapper-devices-api
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bee Maps (Hivemapper) Developer Account API
   slug: open-hivemapper-account-api
@@ -85,17 +89,17 @@ collections:
   slug: open-hivemapper-map-features-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/plans/hivemapper-plans-pricing.yml
+  href: https://artifacts.apis.io/hivemapper/plans/hivemapper-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hivemapper-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/overlays/hivemapper-beemaps-overlay.yaml
+  href: https://artifacts.apis.io/hivemapper/overlays/hivemapper-beemaps-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hivemapper-beemaps-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/security/hivemapper-domain-security.yml
+  href: https://artifacts.apis.io/hivemapper/security/hivemapper-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hivemapper-domain-security.yml
@@ -148,42 +152,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/Hivemapper
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/sandbox/hivemapper-sandbox.yml
+  href: https://artifacts.apis.io/hivemapper/sandbox/hivemapper-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hivemapper-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/cli/hivemapper-cli.yml
+  href: https://artifacts.apis.io/hivemapper/cli/hivemapper-cli.yml
   title: ''
   type: CLI
   url: cli/hivemapper-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/mcp/hivemapper-mcp.yml
+  href: https://artifacts.apis.io/hivemapper/mcp/hivemapper-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hivemapper-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/llms/hivemapper-llms.txt
+  href: https://artifacts.apis.io/hivemapper/llms/hivemapper-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hivemapper-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/packages/hivemapper-packages.yml
+  href: https://artifacts.apis.io/hivemapper/packages/hivemapper-packages.yml
   title: ''
   type: Packages
   url: packages/hivemapper-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/packages/hivemapper-packages.yml
+  href: https://artifacts.apis.io/hivemapper/packages/hivemapper-packages.yml
   title: ''
   type: SDKs
   url: packages/hivemapper-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hivemapper/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/well-known/hivemapper-well-known.yml
+  href: https://artifacts.apis.io/hivemapper/well-known/hivemapper-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hivemapper-well-known.yml
@@ -201,6 +205,14 @@ common:
   url: https://discord.com/invite/FRWMKyy5v2
 created: '2026-07-17'
 description: Hivemapper (Bee Maps) is a decentralized mapping network that turns a planetary-scale fleet of purpose-built "Bee" dashcams into fresh, structured, queryable street-level data. Contributors passively collect imagery while driving and earn HONEY tokens on Solana; the data is processed through on-device and cloud ML pipelines and delivered to developers as REST APIs. The Bee Maps Developer API offers a Street-Level Imagery API, a Map Features API (ML-detected signs, hydrants, lane lines and more), an AI Event Videos API (harsh braking, swerving, violations with synchronized sensor data), and Burst on-demand mapping, plus Edge AI for deploying custom ML workloads to cameras. Enterprise customers include HERE Technologies, Lyft, Mapbox, and Volkswagen. Billing is consumption-based (API credits plus per-view metering).
+finops:
+- has_sources: true
+  method: derived
+  name: Hivemapper Finops
+  primary_unit: image
+  service_category: ''
+  slug: hivemapper-finops
+  template: false
 image: https://hivemapper.com/favicon.ico
 layout: provider
 mcp_servers:
@@ -211,7 +223,7 @@ modified: '2026-07-19'
 name: Hivemapper
 nav: Providers
 network: true
-overview: 'Hivemapper is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, AI Events API, Bursts API, and 2 more. Tagged areas include Company, Logistics, Mapping, Geospatial, and Imagery.
+overview: 'Hivemapper publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, AI Events API, Bursts API, and 3 more. Tagged areas include Company, Logistics, Mapping, Geospatial, and Imagery.
 
 
   Hivemapper''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 19 more developer resources.'
@@ -222,30 +234,30 @@ plans:
 random_paper: 17
 score:
   band: developing
-  composite: 44.1
+  composite: 52.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.0
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 14.2
+    contract_quality: 42.6
     developer_ergonomics: 80.4
-    discoverability: 78.6
-    operational_transparency: 2.6
-  previous_composite: 37.7
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 51.4
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 6
-      marker_coverage: 100.0
-      total: 6
+      derived: 1
+      marker_coverage: 14.3
+      total: 7
     mcp: first-party
     skills: derived
   regulatory:
@@ -254,13 +266,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/screenshots/hivemapper-2026-07-25T221306.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hivemapper/hivemapper-2026-07-25T221306.png
 security:
 - kind: authentication
   name: Hivemapper Authentication
@@ -270,6 +283,12 @@ security:
   name: Hivemapper Domain Security
   slug: hivemapper-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Pull road features and AI driving events
+  slug: hivemapper-map-features-and-events
+- name: Query street-level imagery for an area
+  slug: hivemapper-query-imagery
 slug: hivemapper
 tags:
 - Company

@@ -23,13 +23,12 @@ modified: '2026-04-28'
 name: .Gitattributes
 nav: Providers
 network: true
-overview: .Gitattributes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Configuration, Git, Repository, and Version Control.
-random_paper: 11
-screenshot: https://raw.githubusercontent.com/api-evangelist/gitattributes/refs/heads/main/screenshots/gitattributes-2026-07-25T215841.png
+overview: .Gitattributes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Configuration, Version Control, and Repository.
+random_paper: 3
+screenshot: https://apis.io/screenshots/gitattributes/gitattributes-2026-07-25T215841.png
 slug: gitattributes
 tags:
 - Configuration
-- Git
-- Repository
 - Version Control
+- Repository
 ---

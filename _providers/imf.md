@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 21.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,11 +55,8 @@ apis:
   description: Retrieve dataset metadata including dataflows, data structures, codelists, and concept schemes
   name: IMF Data Structure API
   slug: imf-structure-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: IMF SDMX 3.0 Data API
   slug: open-imf-data-api
@@ -66,12 +65,12 @@ collections:
   slug: open-imf-structure-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imf/refs/heads/main/agentic-access/imf-agentic-access.yml
+  href: https://artifacts.apis.io/imf/agentic-access/imf-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/imf-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imf/refs/heads/main/security/imf-domain-security.yml
+  href: https://artifacts.apis.io/imf/security/imf-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/imf-domain-security.yml
@@ -108,17 +107,17 @@ common:
   type: X
   url: https://x.com/IMFData
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/imf/refs/heads/main/plans/imf-plans-pricing.yml
+  href: https://artifacts.apis.io/imf/plans/imf-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/imf-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/imf/refs/heads/main/rate-limits/imf-rate-limits.yml
+  href: https://artifacts.apis.io/imf/rate-limits/imf-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/imf-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/imf/refs/heads/main/finops/imf-finops.yml
+  href: https://artifacts.apis.io/imf/finops/imf-finops.yml
   title: ''
   type: FinOps
   url: finops/imf-finops.yml
@@ -181,7 +180,7 @@ plans:
 - name: Imf Plans Pricing
   plan_count: 1
   slug: imf-plans-pricing
-random_paper: 8
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Imf Rate Limits
@@ -200,7 +199,7 @@ rules:
   slug: imf-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 27.9
+  composite: 28.9
   coverage:
     artifact_dirs: 15
     catalog_earned: 55.3
@@ -208,15 +207,15 @@ score:
     catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 54.3
-    developer_ergonomics: 7.1
+    developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 34.0
+  previous_composite: 28.9
   provenance:
     agentic_access: derived
     contracts:
@@ -230,14 +229,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/imf/refs/heads/main/screenshots/imf-2026-06-20T183250.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/imf/imf-2026-06-20T183250.png
 security:
 - kind: domain-security
   name: Imf Domain Security

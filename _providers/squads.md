@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: TypeScript and Rust SDKs plus a CLI for creating and operating Squads multisigs (smart accounts) on Solana — creating multisigs, proposing, approving and executing transactions, and managing program-u
@@ -58,7 +60,7 @@ common:
   type: License
   url: https://github.com/Squads-Protocol/v4/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/squads/refs/heads/main/security/squads-trust-center.yml
+  href: https://artifacts.apis.io/squads/security/squads-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/squads-trust-center.yml
@@ -115,42 +117,42 @@ common:
   type: Support
   url: https://discord.com/invite/squadsprotocol
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/squads/refs/heads/main/packages/squads-packages.yml
+  href: https://artifacts.apis.io/squads/packages/squads-packages.yml
   title: ''
   type: Packages
   url: packages/squads-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/squads/refs/heads/main/packages/squads-packages.yml
+  href: https://artifacts.apis.io/squads/packages/squads-packages.yml
   title: ''
   type: SDKs
   url: packages/squads-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/squads/refs/heads/main/cli/squads-cli.yml
+  href: https://artifacts.apis.io/squads/cli/squads-cli.yml
   title: ''
   type: CLI
   url: cli/squads-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/squads/refs/heads/main/llms/squads-llms.txt
+  href: https://artifacts.apis.io/squads/llms/squads-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/squads-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/squads/refs/heads/main/authentication/squads-authentication.yml
+  href: https://artifacts.apis.io/squads/authentication/squads-authentication.yml
   title: ''
   type: Authentication
   url: authentication/squads-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/squads/refs/heads/main/lifecycle/squads-lifecycle.yml
+  href: https://artifacts.apis.io/squads/lifecycle/squads-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/squads-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/squads/refs/heads/main/conformance/squads-conformance.yml
+  href: https://artifacts.apis.io/squads/conformance/squads-conformance.yml
   title: ''
   type: Conformance
   url: conformance/squads-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/squads/refs/heads/main/security/squads-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/squads/security/squads-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/squads-vulnerability-disclosure.yml
@@ -159,7 +161,7 @@ common:
   type: Security
   url: https://docs.squads.so/main/security/bug-bounty.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/squads/refs/heads/main/security/squads-domain-security.yml
+  href: https://artifacts.apis.io/squads/security/squads-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/squads-domain-security.yml
@@ -175,10 +177,10 @@ overview: 'Squads is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Squads'' developer surface includes documentation, getting-started guide, API reference, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
-random_paper: 19
+random_paper: 9
 score:
   band: thin
-  composite: 39.2
+  composite: 39.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -192,12 +194,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 13.2
-  open_source:
-    applies: true
-    score: 35.0
-  previous_composite: 39.2
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 39.1
   provenance:
     conformance: first-party
   regulatory:
@@ -206,14 +205,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/squads/refs/heads/main/screenshots/squads-2026-09-02T160642.png
+screenshot: https://apis.io/screenshots/squads/squads-2026-09-02T160642.png
 security:
 - kind: authentication
   name: Squads Authentication

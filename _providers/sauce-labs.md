@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-17'
+  score: 27.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -84,7 +86,7 @@ apis:
   description: The Users API from Sauce Labs — 1 operation(s) for users.
   name: Sauce Labs Users API
   slug: sauce-labs-users-api
-artifact_total: 37
+artifact_total: 36
 collections:
 - collection_type: postman
   name: Sauce Labs Jobs Devices API
@@ -105,9 +107,6 @@ collections:
   name: Sauce Labs Jobs Devices Users API
   slug: postman-sauce-labs-users-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Sauce Labs Jobs Devices API
   slug: open-sauce-labs-devices-api
 - collection_type: open
@@ -127,7 +126,7 @@ collections:
   slug: open-sauce-labs-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/capabilities/sauce-labs-capability-edges.yml
+  href: https://artifacts.apis.io/sauce-labs/capabilities/sauce-labs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sauce-labs-capability-edges.yml
@@ -136,17 +135,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/sauce-labs/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/agentic-access/sauce-labs-agentic-access.yml
+  href: https://artifacts.apis.io/sauce-labs/agentic-access/sauce-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sauce-labs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/security/sauce-labs-domain-security.yml
+  href: https://artifacts.apis.io/sauce-labs/security/sauce-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sauce-labs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/authentication/sauce-labs-authentication.yml
+  href: https://artifacts.apis.io/sauce-labs/authentication/sauce-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sauce-labs-authentication.yml
@@ -195,27 +194,27 @@ common:
   type: SDKs
   url: https://github.com/saucelabs/node-saucelabs
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/vocabulary/sauce-labs-vocabulary.yml
+  href: https://artifacts.apis.io/sauce-labs/vocabulary/sauce-labs-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sauce-labs-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/json-ld/sauce-labs-context.jsonld
+  href: https://artifacts.apis.io/sauce-labs/json-ld/sauce-labs-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/sauce-labs-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/plans/sauce-labs-plans-pricing.yml
+  href: https://artifacts.apis.io/sauce-labs/plans/sauce-labs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sauce-labs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/rate-limits/sauce-labs-rate-limits.yml
+  href: https://artifacts.apis.io/sauce-labs/rate-limits/sauce-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sauce-labs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/finops/sauce-labs-finops.yml
+  href: https://artifacts.apis.io/sauce-labs/finops/sauce-labs-finops.yml
   title: ''
   type: FinOps
   url: finops/sauce-labs-finops.yml
@@ -276,7 +275,7 @@ plans:
 - name: Sauce Labs Plans Pricing
   plan_count: 5
   slug: sauce-labs-plans-pricing
-random_paper: 2
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Sauce Labs Rate Limits
@@ -306,8 +305,8 @@ rules:
     warn: 0
   slug: sauce-labs-sauce-docs-spectral-rules
 score:
-  band: thin
-  composite: 38.4
+  band: developing
+  composite: 41.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 63.5
@@ -315,15 +314,15 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 37.9
     contract_quality: 55.9
     developer_ergonomics: 32.1
-    discoverability: 68.3
-    operational_transparency: 26.3
-  previous_composite: 44.9
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -338,13 +337,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/screenshots/sauce-labs-2026-06-20T193442.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sauce-labs/sauce-labs-2026-06-20T193442.png
 security:
 - kind: authentication
   name: Sauce Labs Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Global and countrywise data of Covid 19 daily Summary, confirmed cases, recovered and deaths
@@ -57,7 +59,7 @@ name: Covid-19 Live Data
 nav: Providers
 network: true
 overview: Covid-19 Live Data is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 10
+random_paper: 8
 score:
   band: minimal
   composite: 4.0
@@ -76,12 +78,6 @@ score:
     developer_ergonomics: 9.5
     discoverability: 39.3
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 4.0
   regulatory:
     applies: true
@@ -89,14 +85,14 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/covid-19-live-data/refs/heads/main/screenshots/covid-19-live-data-2026-06-20T175136.png
+screenshot: https://apis.io/screenshots/covid-19-live-data/covid-19-live-data-2026-06-20T175136.png
 slug: covid-19-live-data
 tags:
 - Health

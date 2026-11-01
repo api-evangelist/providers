@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Aramis Group publishes the machine-readable contracts behind the Aramisauto vehicle catalog as ten JSON Schema 2020-12 documents at https://schemas.aramis.group/ — a search request envelope (criteria/
@@ -44,7 +46,7 @@ apis:
 artifact_total: 20
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aramisauto/refs/heads/main/security/aramisauto-domain-security.yml
+  href: https://artifacts.apis.io/aramisauto/security/aramisauto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aramisauto-domain-security.yml
@@ -53,52 +55,52 @@ common:
   type: Website
   url: https://www.aramisauto.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/aramisauto/refs/heads/main/json-schema/_index.yml
+  href: https://artifacts.apis.io/aramisauto/json-schema/_index.yml
   title: ''
   type: JSONSchema
   url: json-schema/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aramisauto/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/aramisauto/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aramisauto/refs/heads/main/vocabulary/aramisauto-vocabulary.yml
+  href: https://artifacts.apis.io/aramisauto/vocabulary/aramisauto-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/aramisauto-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aramisauto/refs/heads/main/data-model/aramisauto-data-model.yml
+  href: https://artifacts.apis.io/aramisauto/data-model/aramisauto-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aramisauto-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aramisauto/refs/heads/main/conventions/aramisauto-conventions.yml
+  href: https://artifacts.apis.io/aramisauto/conventions/aramisauto-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aramisauto-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aramisauto/refs/heads/main/conformance/aramisauto-conformance.yml
+  href: https://artifacts.apis.io/aramisauto/conformance/aramisauto-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aramisauto-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aramisauto/refs/heads/main/packages/aramisauto-packages.yml
+  href: https://artifacts.apis.io/aramisauto/packages/aramisauto-packages.yml
   title: ''
   type: Packages
   url: packages/aramisauto-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aramisauto/refs/heads/main/plans/aramisauto-plans-pricing.yml
+  href: https://artifacts.apis.io/aramisauto/plans/aramisauto-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aramisauto-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aramisauto/refs/heads/main/rate-limits/aramisauto-rate-limits.yml
+  href: https://artifacts.apis.io/aramisauto/rate-limits/aramisauto-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aramisauto-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aramisauto/refs/heads/main/llms/aramisauto-llms.txt
+  href: https://artifacts.apis.io/aramisauto/llms/aramisauto-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aramisauto-llms.txt
@@ -218,14 +220,14 @@ plans:
 - name: Aramisauto Plans Pricing
   plan_count: 0
   slug: aramisauto-plans-pricing
-random_paper: 0
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Aramisauto Rate Limits
   slug: aramisauto-rate-limits
 score:
   band: emerging
-  composite: 18.4
+  composite: 18.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 44.3
@@ -239,8 +241,8 @@ score:
     contract_governance: 8.3
     contract_quality: 14.5
     developer_ergonomics: 7.1
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -249,7 +251,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 18.4
+  previous_composite: 18.1
   provenance:
     conformance: derived
   regulatory:
@@ -258,14 +260,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aramisauto/refs/heads/main/screenshots/aramisauto-2026-09-02T144124.png
+screenshot: https://apis.io/screenshots/aramisauto/aramisauto-2026-09-02T144124.png
 security:
 - kind: authentication
   name: Aramisauto Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.5
-  scored_at: '2026-10-17'
+  score: 21.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -81,11 +83,8 @@ apis:
   description: Manage completed Bread Pay transactions.
   name: Alliance Data Systems (Bread Financial Holdings) Transactions API
   slug: alliance-data-systems-transactions-api
-artifact_total: 48
+artifact_total: 47
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bread Classic Merchant Buyers API
   slug: open-alliance-data-systems-buyers-api
@@ -109,7 +108,7 @@ collections:
   slug: open-bread-pay-platform
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/capabilities/alliance-data-systems-capability-edges.yml
+  href: https://artifacts.apis.io/alliance-data-systems/capabilities/alliance-data-systems-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/alliance-data-systems-capability-edges.yml
@@ -118,22 +117,22 @@ common:
   type: Releases
   url: https://github.com/bppub/breadfinancial-brand-partners-ios/releases
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/agentic-access/alliance-data-systems-agentic-access.yml
+  href: https://artifacts.apis.io/alliance-data-systems/agentic-access/alliance-data-systems-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/alliance-data-systems-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/security/alliance-data-systems-domain-security.yml
+  href: https://artifacts.apis.io/alliance-data-systems/security/alliance-data-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alliance-data-systems-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/authentication/alliance-data-systems-authentication.yml
+  href: https://artifacts.apis.io/alliance-data-systems/authentication/alliance-data-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alliance-data-systems-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/scopes/alliance-data-systems-scopes.yml
+  href: https://artifacts.apis.io/alliance-data-systems/scopes/alliance-data-systems-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/alliance-data-systems-scopes.yml
@@ -206,27 +205,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/bread-financial
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/plans/alliance-data-systems-plans-pricing.yml
+  href: https://artifacts.apis.io/alliance-data-systems/plans/alliance-data-systems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/alliance-data-systems-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/rate-limits/alliance-data-systems-rate-limits.yml
+  href: https://artifacts.apis.io/alliance-data-systems/rate-limits/alliance-data-systems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/alliance-data-systems-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/finops/alliance-data-systems-finops.yml
+  href: https://artifacts.apis.io/alliance-data-systems/finops/alliance-data-systems-finops.yml
   title: ''
   type: FinOps
   url: finops/alliance-data-systems-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/vocabulary/alliance-data-systems-vocabulary.yml
+  href: https://artifacts.apis.io/alliance-data-systems/vocabulary/alliance-data-systems-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/alliance-data-systems-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/json-ld/alliance-data-systems-context.jsonld
+  href: https://artifacts.apis.io/alliance-data-systems/json-ld/alliance-data-systems-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/alliance-data-systems-context.jsonld
@@ -394,8 +393,8 @@ scopes:
   slug: alliance-data-systems-scopes
   summary_line: 3 scopes · clientCredentials
 score:
-  band: thin
-  composite: 36.7
+  band: developing
+  composite: 40.7
   coverage:
     artifact_dirs: 22
     catalog_earned: 62.0
@@ -403,14 +402,14 @@ score:
     catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 56.6
-    developer_ergonomics: 38.1
-    discoverability: 67.0
-    operational_transparency: 23.7
+    developer_ergonomics: 52.4
+    discoverability: 67.9
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -418,7 +417,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 44.1
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     contracts:
@@ -432,13 +431,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/screenshots/alliance-data-systems-2026-07-25T195654.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/alliance-data-systems/alliance-data-systems-2026-07-25T195654.png
 security:
 - kind: authentication
   name: Alliance Data Systems Authentication

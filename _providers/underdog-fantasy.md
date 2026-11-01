@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -74,37 +76,37 @@ common:
   type: Security
   url: https://underdogfantasy.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/underdog-fantasy/refs/heads/main/well-known/underdog-fantasy-security.txt
+  href: https://artifacts.apis.io/underdog-fantasy/well-known/underdog-fantasy-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/underdog-fantasy-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/underdog-fantasy/refs/heads/main/well-known/underdog-fantasy-well-known.yml
+  href: https://artifacts.apis.io/underdog-fantasy/well-known/underdog-fantasy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/underdog-fantasy-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/underdog-fantasy/refs/heads/main/security/underdog-fantasy-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/underdog-fantasy/security/underdog-fantasy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/underdog-fantasy-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/underdog-fantasy/refs/heads/main/security/underdog-fantasy-domain-security.yml
+  href: https://artifacts.apis.io/underdog-fantasy/security/underdog-fantasy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/underdog-fantasy-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/underdog-fantasy/refs/heads/main/lifecycle/underdog-fantasy-lifecycle.yml
+  href: https://artifacts.apis.io/underdog-fantasy/lifecycle/underdog-fantasy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/underdog-fantasy-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/underdog-fantasy/refs/heads/main/packages/underdog-fantasy-packages.yml
+  href: https://artifacts.apis.io/underdog-fantasy/packages/underdog-fantasy-packages.yml
   title: ''
   type: Packages
   url: packages/underdog-fantasy-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/underdog-fantasy/refs/heads/main/llms/underdog-fantasy-llms.txt
+  href: https://artifacts.apis.io/underdog-fantasy/llms/underdog-fantasy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/underdog-fantasy-llms.txt
@@ -145,10 +147,10 @@ overview: 'Underdog Fantasy is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Underdog Fantasy''s developer surface includes signup flow, support, and 20 more developer resources.'
-random_paper: 9
+random_paper: 3
 score:
   band: emerging
-  composite: 11.2
+  composite: 17.6
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -156,29 +158,29 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 56.3
-    operational_transparency: 28.9
-  previous_composite: 11.1
+    discoverability: 50.0
+    operational_transparency: 31.6
+  previous_composite: 17.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 19.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/underdog-fantasy/refs/heads/main/screenshots/underdog-fantasy-2026-09-02T164851.png
+screenshot: https://apis.io/screenshots/underdog-fantasy/underdog-fantasy-2026-09-02T164851.png
 security:
 - kind: domain-security
   name: Underdog Fantasy Domain Security

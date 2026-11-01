@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bioage-labs/refs/heads/main/security/bioage-labs-domain-security.yml
+  href: https://artifacts.apis.io/bioage-labs/security/bioage-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bioage-labs-domain-security.yml
@@ -69,12 +71,12 @@ overview: 'BioAge Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   BioAge Labs'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 0
+random_paper: 22
 score:
   band: minimal
-  composite: 6.5
+  composite: 6.8
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -85,7 +87,7 @@ score:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 1.2
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -95,21 +97,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 6.5
+  previous_composite: 6.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bioage-labs/refs/heads/main/screenshots/bioage-labs-2026-07-25T203023.png
+screenshot: https://apis.io/screenshots/bioage-labs/bioage-labs-2026-07-25T203023.png
 security:
 - kind: domain-security
   name: Bioage Labs Domain Security

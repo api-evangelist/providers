@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 38.1
-  scored_at: '2026-10-17'
+  score: 34.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.bezerocarbonmarkets.com/v3
@@ -48,11 +50,8 @@ apis:
   description: The Ratings API from BeZero Carbon — 3 operation(s) for ratings.
   name: BeZero Carbon Ratings API
   slug: bezero-carbon-ratings-api
-artifact_total: 9
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: BeZero Ratings Projects API
   slug: open-bezero-carbon-projects-api
@@ -61,7 +60,7 @@ collections:
   slug: open-bezero-carbon-ratings-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/capabilities/bezero-carbon-capability-edges.yml
+  href: https://artifacts.apis.io/bezero-carbon/capabilities/bezero-carbon-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bezero-carbon-capability-edges.yml
@@ -110,37 +109,37 @@ common:
   type: PrivacyPolicy
   url: https://legal.bezerocarbon.com/legal-hub/privacy-policy-b92ddd45
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/openapi/_original/bezero-carbon-ratings-openapi.yml
+  href: https://artifacts.apis.io/bezero-carbon/openapi/_original/bezero-carbon-ratings-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/bezero-carbon-ratings-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/authentication/bezero-carbon-authentication.yml
+  href: https://artifacts.apis.io/bezero-carbon/authentication/bezero-carbon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bezero-carbon-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/scopes/bezero-carbon-scopes.yml
+  href: https://artifacts.apis.io/bezero-carbon/scopes/bezero-carbon-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bezero-carbon-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/security/bezero-carbon-domain-security.yml
+  href: https://artifacts.apis.io/bezero-carbon/security/bezero-carbon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bezero-carbon-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/conventions/bezero-carbon-conventions.yml
+  href: https://artifacts.apis.io/bezero-carbon/conventions/bezero-carbon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bezero-carbon-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/errors/bezero-carbon-problem-types.yml
+  href: https://artifacts.apis.io/bezero-carbon/errors/bezero-carbon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bezero-carbon-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/lifecycle/bezero-carbon-lifecycle.yml
+  href: https://artifacts.apis.io/bezero-carbon/lifecycle/bezero-carbon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bezero-carbon-lifecycle.yml
@@ -149,57 +148,57 @@ common:
   type: Deprecation
   url: https://legal.bezerocarbon.com/legal-hub/product-specific-terms-ffc0b2c9
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/conformance/bezero-carbon-conformance.yml
+  href: https://artifacts.apis.io/bezero-carbon/conformance/bezero-carbon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bezero-carbon-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/data-model/bezero-carbon-data-model.yml
+  href: https://artifacts.apis.io/bezero-carbon/data-model/bezero-carbon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bezero-carbon-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/examples/bezero-carbon-examples.yml
+  href: https://artifacts.apis.io/bezero-carbon/examples/bezero-carbon-examples.yml
   title: ''
   type: Examples
   url: examples/bezero-carbon-examples.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/rate-limits/bezero-carbon-rate-limits.yml
+  href: https://artifacts.apis.io/bezero-carbon/rate-limits/bezero-carbon-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bezero-carbon-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/packages/bezero-carbon-packages.yml
+  href: https://artifacts.apis.io/bezero-carbon/packages/bezero-carbon-packages.yml
   title: ''
   type: Packages
   url: packages/bezero-carbon-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/well-known/bezero-carbon-well-known.yml
+  href: https://artifacts.apis.io/bezero-carbon/well-known/bezero-carbon-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bezero-carbon-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/mcp/bezero-carbon-mcp.yml
+  href: https://artifacts.apis.io/bezero-carbon/mcp/bezero-carbon-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bezero-carbon-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/mcp/bezero-carbon-tool-crosswalk.yml
+  href: https://artifacts.apis.io/bezero-carbon/mcp/bezero-carbon-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/bezero-carbon-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/llms/bezero-carbon-llms.txt
+  href: https://artifacts.apis.io/bezero-carbon/llms/bezero-carbon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bezero-carbon-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/overlays/bezero-carbon-ratings-overlay.yaml
+  href: https://artifacts.apis.io/bezero-carbon/overlays/bezero-carbon-ratings-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bezero-carbon-ratings-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bezero-carbon/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -227,7 +226,7 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 42.7
+  composite: 46.8
   coverage:
     artifact_dirs: 22
     catalog_earned: 45.0
@@ -235,15 +234,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 55.0
-    developer_ergonomics: 53.0
+    developer_ergonomics: 58.9
     discoverability: 66.1
-    operational_transparency: 31.6
-  previous_composite: 42.6
+    operational_transparency: 34.2
+  previous_composite: 46.8
   provenance:
     conformance: derived
     contracts:
@@ -259,14 +258,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/screenshots/bezero-carbon-2026-08-07T162353.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bezero-carbon/bezero-carbon-2026-08-07T162353.png
 security:
 - kind: authentication
   name: Bezero Carbon Authentication
@@ -276,6 +275,12 @@ security:
   name: Bezero Carbon Domain Security
   slug: bezero-carbon-domain-security
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Screen a carbon project on BeZero risk factors
+  slug: bezero-carbon-screen-project-risk
+- name: Sync BeZero carbon credit ratings
+  slug: bezero-carbon-sync-ratings
 slug: bezero-carbon
 tags:
 - Company

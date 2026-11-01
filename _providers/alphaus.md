@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.6
-  scored_at: '2026-10-17'
+  score: 18.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 401
   human_in_the_loop: 8
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 586
   slug: alphaus-agentic-access
   summary_line: 586 operations · 401 acting · 8 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.alphaus.cloud/m/blue
   baseurl_source: declared
@@ -118,11 +120,8 @@ apis:
   description: '(Alpha) Vortex API. Base URL: https://api.alphaus.cloud/m/blue/vortex'
   name: Alphaus Vortex API
   slug: alphaus-vortex-api
-artifact_total: 35
+artifact_total: 38
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Blue API reference Admin API
   slug: open-alphaus-admin-api
@@ -170,22 +169,22 @@ collections:
   slug: open-alphaus-vortex-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/capabilities/alphaus-capability-edges.yml
+  href: https://artifacts.apis.io/alphaus/capabilities/alphaus-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/alphaus-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/overlays/alphaus-blueapi-overlay.yaml
+  href: https://artifacts.apis.io/alphaus/overlays/alphaus-blueapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alphaus-blueapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/agentic-access/alphaus-agentic-access.yml
+  href: https://artifacts.apis.io/alphaus/agentic-access/alphaus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/alphaus-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/security/alphaus-domain-security.yml
+  href: https://artifacts.apis.io/alphaus/security/alphaus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alphaus-domain-security.yml
@@ -210,12 +209,12 @@ common:
   type: GettingStarted
   url: https://labs.alphaus.cloud/docs/blueapi/overview/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/authentication/alphaus-authentication.yml
+  href: https://artifacts.apis.io/alphaus/authentication/alphaus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alphaus-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/scopes/alphaus-scopes.yml
+  href: https://artifacts.apis.io/alphaus/scopes/alphaus-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/alphaus-scopes.yml
@@ -248,57 +247,57 @@ common:
   type: StatusPage
   url: https://status.alphaus.cloud/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/lifecycle/alphaus-lifecycle.yml
+  href: https://artifacts.apis.io/alphaus/lifecycle/alphaus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alphaus-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/packages/alphaus-packages.yml
+  href: https://artifacts.apis.io/alphaus/packages/alphaus-packages.yml
   title: ''
   type: Packages
   url: packages/alphaus-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/packages/alphaus-packages.yml
+  href: https://artifacts.apis.io/alphaus/packages/alphaus-packages.yml
   title: ''
   type: SDKs
   url: packages/alphaus-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/cli/alphaus-cli.yml
+  href: https://artifacts.apis.io/alphaus/cli/alphaus-cli.yml
   title: ''
   type: CLI
   url: cli/alphaus-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/conventions/alphaus-conventions.yml
+  href: https://artifacts.apis.io/alphaus/conventions/alphaus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alphaus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/errors/alphaus-problem-types.yml
+  href: https://artifacts.apis.io/alphaus/errors/alphaus-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/alphaus-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/conformance/alphaus-conformance.yml
+  href: https://artifacts.apis.io/alphaus/conformance/alphaus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alphaus-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/data-model/alphaus-data-model.yml
+  href: https://artifacts.apis.io/alphaus/data-model/alphaus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/alphaus-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/mcp/alphaus-mcp.yml
+  href: https://artifacts.apis.io/alphaus/mcp/alphaus-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/alphaus-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/llms/alphaus-llms.txt
+  href: https://artifacts.apis.io/alphaus/llms/alphaus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alphaus-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/alphaus/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -314,7 +313,7 @@ overview: 'Alphaus publishes 15 API contracts indexed on the [APIs.io](https://a
 
 
   Alphaus'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, CLI, and 22 more developer resources.'
-random_paper: 2
+random_paper: 6
 scopes:
 - name: Alphaus Scopes
   scope_count: 1
@@ -322,7 +321,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 51.2
+  composite: 43.5
   coverage:
     artifact_dirs: 25
     catalog_earned: 37.0
@@ -330,14 +329,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 38.7
+    contract_quality: 37.1
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 18.4
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -345,7 +344,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 51.1
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -362,13 +361,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 88.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/screenshots/alphaus-2026-07-25T195758.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/alphaus/alphaus-2026-07-25T195758.png
 security:
 - kind: authentication
   name: Alphaus Authentication
@@ -378,6 +378,16 @@ security:
   name: Alphaus Domain Security
   slug: alphaus-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Authenticate to Blue API and provision an API client
+  slug: alphaus-authenticate-and-provision
+- name: Configure cost anomaly alerts
+  slug: alphaus-cost-anomaly-alerts
+- name: Manage reseller billing and access groups
+  slug: alphaus-manage-billing-groups
+- name: Query and export cloud costs
+  slug: alphaus-query-cloud-costs
 slug: alphaus
 tags:
 - Company

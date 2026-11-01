@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -73,11 +75,8 @@ apis:
   description: Search and retrieve distributed traces
   name: Zipkin Traces API
   slug: zipkin-traces-api
-artifact_total: 49
+artifact_total: 48
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Zipkin API v2
   slug: open-zipkin-api-v2
@@ -101,22 +100,22 @@ collections:
   slug: open-zipkin-traces-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/plans/zipkin-plans-pricing.yml
+  href: https://artifacts.apis.io/zipkin/plans/zipkin-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zipkin-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/rate-limits/zipkin-rate-limits.yml
+  href: https://artifacts.apis.io/zipkin/rate-limits/zipkin-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zipkin-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/finops/zipkin-finops.yml
+  href: https://artifacts.apis.io/zipkin/finops/zipkin-finops.yml
   title: ''
   type: FinOps
   url: finops/zipkin-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/capabilities/zipkin-capability-edges.yml
+  href: https://artifacts.apis.io/zipkin/capabilities/zipkin-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zipkin-capability-edges.yml
@@ -141,12 +140,12 @@ common:
   type: License
   url: https://github.com/openzipkin/zipkin/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/agentic-access/zipkin-agentic-access.yml
+  href: https://artifacts.apis.io/zipkin/agentic-access/zipkin-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zipkin-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/security/zipkin-domain-security.yml
+  href: https://artifacts.apis.io/zipkin/security/zipkin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zipkin-domain-security.yml
@@ -179,17 +178,17 @@ common:
   type: SDKs
   url: https://github.com/openzipkin/zipkin-ruby
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/json-ld/zipkin-context.jsonld
+  href: https://artifacts.apis.io/zipkin/json-ld/zipkin-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/zipkin-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/rules/zipkin-spectral.yaml
+  href: https://artifacts.apis.io/zipkin/rules/zipkin-spectral.yaml
   title: ''
   type: SpectralRules
   url: rules/zipkin-spectral.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/vocabulary/zipkin-vocabulary.yaml
+  href: https://artifacts.apis.io/zipkin/vocabulary/zipkin-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/zipkin-vocabulary.yaml
@@ -225,7 +224,7 @@ finops:
 - has_sources: false
   method: generated
   name: Zipkin Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: zipkin-finops
   template: true
@@ -288,7 +287,7 @@ plans:
 - name: Zipkin Plans Pricing
   plan_count: 3
   slug: zipkin-plans-pricing
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Zipkin Rate Limits
@@ -319,7 +318,7 @@ rules:
   slug: zipkin-spectral
 score:
   band: thin
-  composite: 37.5
+  composite: 33.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 59.0
@@ -327,18 +326,15 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 55.9
     developer_ergonomics: 26.2
     discoverability: 48.2
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 85.0
-  previous_composite: 38.8
+    operational_transparency: 39.5
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -352,13 +348,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/screenshots/zipkin-2026-06-20T201916.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zipkin/zipkin-2026-06-20T201916.png
 security:
 - kind: domain-security
   name: Zipkin Domain Security

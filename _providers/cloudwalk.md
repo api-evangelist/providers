@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -59,7 +61,7 @@ apis:
   description: Query the payment status of a checkout link.
   name: CloudWalk Payments API
   slug: cloudwalk-payments-api
-artifact_total: 10
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Cloudwalk Infinitepay Webhooks
@@ -70,27 +72,27 @@ collections:
   slug: open-cloudwalk-infinitepay-checkout
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/plans/cloudwalk-plans-pricing.yml
+  href: https://artifacts.apis.io/cloudwalk/plans/cloudwalk-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloudwalk-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/capabilities/cloudwalk-capability-edges.yml
+  href: https://artifacts.apis.io/cloudwalk/capabilities/cloudwalk-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cloudwalk-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/overlays/cloudwalk-infinitepay-checkout-overlay.yaml
+  href: https://artifacts.apis.io/cloudwalk/overlays/cloudwalk-infinitepay-checkout-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cloudwalk-infinitepay-checkout-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/mcp/cloudwalk-mcp.yml
+  href: https://artifacts.apis.io/cloudwalk/mcp/cloudwalk-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cloudwalk-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/agentic-access/cloudwalk-agentic-access.yml
+  href: https://artifacts.apis.io/cloudwalk/agentic-access/cloudwalk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cloudwalk-agentic-access.yml
@@ -163,83 +165,91 @@ common:
   type: Newsroom
   url: https://www.cloudwalk.io/newsroom
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/packages/cloudwalk-packages.yml
+  href: https://artifacts.apis.io/cloudwalk/packages/cloudwalk-packages.yml
   title: ''
   type: Packages
   url: packages/cloudwalk-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/packages/cloudwalk-packages.yml
+  href: https://artifacts.apis.io/cloudwalk/packages/cloudwalk-packages.yml
   title: ''
   type: SDKs
   url: packages/cloudwalk-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/well-known/cloudwalk-well-known.yml
+  href: https://artifacts.apis.io/cloudwalk/well-known/cloudwalk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cloudwalk-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/llms/cloudwalk-llms.txt
+  href: https://artifacts.apis.io/cloudwalk/llms/cloudwalk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cloudwalk-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/conformance/cloudwalk-conformance.yml
+  href: https://artifacts.apis.io/cloudwalk/conformance/cloudwalk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cloudwalk-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/errors/cloudwalk-problem-types.yml
+  href: https://artifacts.apis.io/cloudwalk/errors/cloudwalk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cloudwalk-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/lifecycle/cloudwalk-lifecycle.yml
+  href: https://artifacts.apis.io/cloudwalk/lifecycle/cloudwalk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cloudwalk-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/authentication/cloudwalk-authentication.yml
+  href: https://artifacts.apis.io/cloudwalk/authentication/cloudwalk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloudwalk-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/security/cloudwalk-domain-security.yml
+  href: https://artifacts.apis.io/cloudwalk/security/cloudwalk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudwalk-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/security/cloudwalk-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cloudwalk/security/cloudwalk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cloudwalk-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/conventions/cloudwalk-conventions.yml
+  href: https://artifacts.apis.io/cloudwalk/conventions/cloudwalk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cloudwalk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/components/cloudwalk-components.yml
+  href: https://artifacts.apis.io/cloudwalk/components/cloudwalk-components.yml
   title: ''
   type: Components
   url: components/cloudwalk-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/data-model/cloudwalk-data-model.yml
+  href: https://artifacts.apis.io/cloudwalk/data-model/cloudwalk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cloudwalk-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/asyncapi/cloudwalk-infinitepay-webhooks.yml
+  href: https://artifacts.apis.io/cloudwalk/asyncapi/cloudwalk-infinitepay-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cloudwalk-infinitepay-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cloudwalk/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-01'
 description: 'CloudWalk, Inc. is a Sunnyvale- and São Paulo-based payments and financial-infrastructure company that builds an AI-native transaction layer for small businesses. It operates three consumer-facing brands: InfinitePay, its Brazilian acquirer and digital-banking platform (card machines, Tap to Pay, hosted checkout, payment links, Pix, PJ accounts, credit and CDB); JIM, a phone-as-POS operating system for self-employed workers in the United States; and Pierre, a personal-finance intelligence product built on Brazilian Open Finance. Its public developer surface is deliberately small and integration-shaped rather than platform-shaped: an Integrated Checkout REST API on api.checkout.infinitepay.io that creates hosted payment links and checks their status, an approved-payment webhook, and an InfiniteTap deeplink contract that hands a Tap-to-Pay transaction from a third-party POS app to the InfinitePay mobile app and back. CloudWalk publishes no OpenAPI, no machine-readable discovery
   documents and no MCP or agent surface. The legal entity behind InfinitePay is CLOUDWALK INSTITUIÇÃO DE PAGAMENTO E SERVIÇOS LTDA (CNPJ 18.189.547/0001-42), a Brazilian payment institution supervised by the Banco Central do Brasil.'
+finops:
+- has_sources: true
+  method: derived
+  name: Cloudwalk Finops
+  primary_unit: por venda
+  service_category: ''
+  slug: cloudwalk-finops
+  template: false
 image: https://cdn.prod.website-files.com/6654b3697a9d140e0ca14dcc/6a0bb9e1bb37dcd08e538cc1_Cover-Profile%2044.webp
 layout: provider
 modified: '2026-08-01'
@@ -257,25 +267,25 @@ plans:
 - name: Cloudwalk Plans Pricing
   plan_count: 7
   slug: cloudwalk-plans-pricing
-random_paper: 20
+random_paper: 6
 score:
-  band: developing
-  composite: 54.2
+  band: strong
+  composite: 60.3
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 49.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 71.1
+    access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 51.3
+    contract_quality: 57.2
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    operational_transparency: 36.8
+    discoverability: 67.9
+    operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -283,7 +293,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 54.2
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -291,7 +301,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 2
     mcp: derived
     skills: derived
   regulatory:
@@ -300,13 +310,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/screenshots/cloudwalk-2026-08-07T163513.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cloudwalk/cloudwalk-2026-08-07T163513.png
 security:
 - kind: authentication
   name: Cloudwalk Authentication
@@ -320,6 +331,14 @@ security:
   name: Cloudwalk Vulnerability Disclosure
   slug: cloudwalk-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 3
+skills:
+- name: Collect a payment with an InfinitePay checkout link
+  slug: cloudwalk-collect-payment-with-checkout-link
+- name: Reconcile an InfinitePay payment webhook
+  slug: cloudwalk-reconcile-payment-webhook
+- name: Take an in-person Tap to Pay payment with InfiniteTap
+  slug: cloudwalk-take-tap-to-pay-payment
 slug: cloudwalk
 tags:
 - Company

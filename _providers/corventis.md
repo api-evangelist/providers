@@ -24,7 +24,7 @@ name: Corventis
 nav: Providers
 network: true
 overview: Corventis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, Cardiac Monitoring, and Remote Patient Monitoring.
-random_paper: 21
+random_paper: 5
 slug: corventis
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/insightec/refs/heads/main/security/insightec-domain-security.yml
+  href: https://artifacts.apis.io/insightec/security/insightec-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/insightec-domain-security.yml
@@ -75,12 +77,12 @@ common:
   type: InvestorProfile
   url: https://forgeglobal.com/insightec_stock/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insightec/refs/heads/main/conformance/insightec-conformance.yml
+  href: https://artifacts.apis.io/insightec/conformance/insightec-conformance.yml
   title: ''
   type: Conformance
   url: conformance/insightec-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/insightec/refs/heads/main/llms/insightec-llms.txt
+  href: https://artifacts.apis.io/insightec/llms/insightec-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/insightec-llms.txt
@@ -97,12 +99,12 @@ overview: 'Insightec is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Insightec''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 12
+random_paper: 22
 score:
   band: emerging
-  composite: 15.9
+  composite: 15.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -114,7 +116,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -124,7 +126,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 15.9
+  previous_composite: 15.2
   provenance:
     conformance: first-party
   regulatory:
@@ -133,14 +135,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/insightec/refs/heads/main/screenshots/insightec-2026-08-07T170718.png
+screenshot: https://apis.io/screenshots/insightec/insightec-2026-08-07T170718.png
 security:
 - kind: domain-security
   name: Insightec Domain Security

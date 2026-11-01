@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'The Cardless partner API surface used by brands to embed a co-branded credit card program: partner authentication (Basic-auth exchange of a partner-signed JWT for a bearer access token), application s'
@@ -87,52 +89,52 @@ common:
   type: Careers
   url: https://www.cardless.com/careers
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cardless/refs/heads/main/mcp/cardless-mcp.yml
+  href: https://artifacts.apis.io/cardless/mcp/cardless-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cardless-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cardless/refs/heads/main/well-known/cardless-well-known.yml
+  href: https://artifacts.apis.io/cardless/well-known/cardless-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cardless-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cardless/refs/heads/main/scopes/cardless-scopes.yml
+  href: https://artifacts.apis.io/cardless/scopes/cardless-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cardless-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cardless/refs/heads/main/authentication/cardless-authentication.yml
+  href: https://artifacts.apis.io/cardless/authentication/cardless-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cardless-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cardless/refs/heads/main/conventions/cardless-conventions.yml
+  href: https://artifacts.apis.io/cardless/conventions/cardless-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cardless-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cardless/refs/heads/main/conformance/cardless-conformance.yml
+  href: https://artifacts.apis.io/cardless/conformance/cardless-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cardless-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cardless/refs/heads/main/lifecycle/cardless-lifecycle.yml
+  href: https://artifacts.apis.io/cardless/lifecycle/cardless-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cardless-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cardless/refs/heads/main/components/cardless-components.yml
+  href: https://artifacts.apis.io/cardless/components/cardless-components.yml
   title: ''
   type: Components
   url: components/cardless-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cardless/refs/heads/main/security/cardless-domain-security.yml
+  href: https://artifacts.apis.io/cardless/security/cardless-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cardless-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cardless/refs/heads/main/llms/cardless-llms.txt
+  href: https://artifacts.apis.io/cardless/llms/cardless-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cardless-llms.txt
@@ -152,7 +154,7 @@ overview: 'Cardless is listed with 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Cardless'' developer surface includes documentation, engineering blog, support, signup flow, authentication, and 15 more developer resources.'
-random_paper: 13
+random_paper: 9
 scopes:
 - name: Cardless Scopes
   scope_count: 1
@@ -160,7 +162,7 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials/refreshToken
 score:
   band: emerging
-  composite: 20.1
+  composite: 23.3
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -173,10 +175,10 @@ score:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 19.0
-    discoverability: 71.7
+    developer_ergonomics: 38.1
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 20.1
+  previous_composite: 23.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -186,14 +188,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cardless/refs/heads/main/screenshots/cardless-2026-08-07T162953.png
+screenshot: https://apis.io/screenshots/cardless/cardless-2026-08-07T162953.png
 security:
 - kind: authentication
   name: Cardless Authentication

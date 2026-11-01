@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 25.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 121
   slug: bitvore-agentic-access
   summary_line: 121 operations · 53 acting
-api_count: 12
+api_count: 6
 apis:
 - baseURL: https://api.bitvore.com/muni/alerts/
   baseurl_source: declared
@@ -142,11 +144,8 @@ apis:
   description: Bitvore OAuth2 Authorization Server API
   name: Bitvore O Auth2 API
   slug: bitvore-oauth2-api
-artifact_total: 45
+artifact_total: 49
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Deprecated Custom Alert API API
   slug: open-bitvore-alert-api-api
@@ -210,17 +209,17 @@ common:
   type: BlogRSS
   url: https://bondwave.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/capabilities/bitvore-capability-edges.yml
+  href: https://artifacts.apis.io/bitvore/capabilities/bitvore-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bitvore-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/agentic-access/bitvore-agentic-access.yml
+  href: https://artifacts.apis.io/bitvore/agentic-access/bitvore-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bitvore-agentic-access.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/overlays/bitvore-corporate-overlay.yaml
+  href: https://artifacts.apis.io/bitvore/overlays/bitvore-corporate-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bitvore-corporate-overlay.yaml
@@ -261,7 +260,7 @@ common:
   type: ChangeLog
   url: https://developer.bitvore.com/v2/release
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/changelog/bitvore-changelog.yml
+  href: https://artifacts.apis.io/bitvore/changelog/bitvore-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bitvore-changelog.yml
@@ -270,87 +269,87 @@ common:
   type: Deprecation
   url: https://developer.bitvore.com/v2/release
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/lifecycle/bitvore-lifecycle.yml
+  href: https://artifacts.apis.io/bitvore/lifecycle/bitvore-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bitvore-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/authentication/bitvore-authentication.yml
+  href: https://artifacts.apis.io/bitvore/authentication/bitvore-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bitvore-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/scopes/bitvore-scopes.yml
+  href: https://artifacts.apis.io/bitvore/scopes/bitvore-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bitvore-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/conventions/bitvore-conventions.yml
+  href: https://artifacts.apis.io/bitvore/conventions/bitvore-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bitvore-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/errors/bitvore-problem-types.yml
+  href: https://artifacts.apis.io/bitvore/errors/bitvore-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bitvore-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/conformance/bitvore-conformance.yml
+  href: https://artifacts.apis.io/bitvore/conformance/bitvore-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bitvore-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/data-model/bitvore-data-model.yml
+  href: https://artifacts.apis.io/bitvore/data-model/bitvore-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bitvore-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/data-model/bitvore-dataset-export-schema.yml
+  href: https://artifacts.apis.io/bitvore/data-model/bitvore-dataset-export-schema.yml
   title: ''
   type: DataModel
   url: data-model/bitvore-dataset-export-schema.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/rate-limits/bitvore-rate-limits.yml
+  href: https://artifacts.apis.io/bitvore/rate-limits/bitvore-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bitvore-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/plans/bitvore-plans-pricing.yml
+  href: https://artifacts.apis.io/bitvore/plans/bitvore-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bitvore-plans-pricing.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/sandbox/bitvore-sandbox.yml
+  href: https://artifacts.apis.io/bitvore/sandbox/bitvore-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bitvore-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/packages/bitvore-packages.yml
+  href: https://artifacts.apis.io/bitvore/packages/bitvore-packages.yml
   title: ''
   type: Packages
   url: packages/bitvore-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/security/bitvore-domain-security.yml
+  href: https://artifacts.apis.io/bitvore/security/bitvore-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitvore-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/llms/bitvore-llms.txt
+  href: https://artifacts.apis.io/bitvore/llms/bitvore-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bitvore-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bitvore/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/mcp/bitvore-tool-crosswalk.yml
+  href: https://artifacts.apis.io/bitvore/mcp/bitvore-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/bitvore-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/vocabulary/bitvore-signals.yml
+  href: https://artifacts.apis.io/bitvore/vocabulary/bitvore-signals.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bitvore-signals.yml
@@ -386,7 +385,7 @@ plans:
 - name: Bitvore Plans Pricing
   plan_count: 0
   slug: bitvore-plans-pricing
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Bitvore Rate Limits
@@ -397,24 +396,24 @@ scopes:
   slug: bitvore-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: thin
-  composite: 36.0
+  band: developing
+  composite: 50.7
   coverage:
     artifact_dirs: 26
-    catalog_earned: 48.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_earned: 53.0
+    catalog_earned_first_party: 13.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.3
+  delta: 0.0
   facets:
-    access_clarity: 21.1
-    contract_governance: 4.5
-    contract_quality: 49.0
-    developer_ergonomics: 28.0
-    discoverability: 78.6
-    operational_transparency: 23.7
-  previous_composite: 35.7
+    access_clarity: 34.2
+    contract_governance: 19.7
+    contract_quality: 45.8
+    developer_ergonomics: 66.1
+    discoverability: 71.4
+    operational_transparency: 50.0
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -431,13 +430,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/screenshots/bitvore-2026-08-07T162558.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bitvore/bitvore-2026-08-07T162558.png
 security:
 - kind: authentication
   name: Bitvore Authentication
@@ -447,6 +447,18 @@ security:
   name: Bitvore Domain Security
   slug: bitvore-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 5
+skills:
+- name: Authenticate against the Bitvore Cellenus API
+  slug: bitvore-authenticate
+- name: Surveil a company for material business events
+  slug: bitvore-corporate-news-surveillance
+- name: Export Cellenus datasets and reconcile with changesets
+  slug: bitvore-dataset-and-changeset-export
+- name: Find municipal bond news by CUSIP, location or sector
+  slug: bitvore-muni-bond-news
+- name: Load a portfolio into Bitvore and monitor it
+  slug: bitvore-portfolio-monitoring
 slug: bitvore
 tags:
 - Financial Data

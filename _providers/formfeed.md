@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.6
-  scored_at: '2026-10-17'
+  score: 45.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 122
   slug: formfeed-agentic-access
   summary_line: 122 operations · 80 acting
-api_count: 4
+api_count: 1
 apis:
 - baseURL: https://api.formfeed.dev/v1
   baseurl_source: declared
@@ -78,79 +80,79 @@ apis:
   description: Event delivery to your endpoints.
   name: Formfeed Webhooks API
   slug: formfeed-webhooks-api
-artifact_total: 26
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Formfeed Webhooks
   slug: formfeed-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/capabilities/formfeed-capability-edges.yml
+  href: https://artifacts.apis.io/formfeed/capabilities/formfeed-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/formfeed-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/agentic-access/formfeed-agentic-access.yml
+  href: https://artifacts.apis.io/formfeed/agentic-access/formfeed-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/formfeed-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/rate-limits/formfeed-rate-limits.yml
+  href: https://artifacts.apis.io/formfeed/rate-limits/formfeed-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/formfeed-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/plans/formfeed-plans-pricing.yml
+  href: https://artifacts.apis.io/formfeed/plans/formfeed-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/formfeed-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/rules/formfeed-rules.yml
+  href: https://artifacts.apis.io/formfeed/rules/formfeed-rules.yml
   title: ''
   type: Spectral
   url: rules/formfeed-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/json-ld/formfeed-context.jsonld
+  href: https://artifacts.apis.io/formfeed/json-ld/formfeed-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/formfeed-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/vocabulary/formfeed-vocabulary.yml
+  href: https://artifacts.apis.io/formfeed/vocabulary/formfeed-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/formfeed-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/formfeed/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/asyncapi/formfeed-webhooks.yml
+  href: https://artifacts.apis.io/formfeed/asyncapi/formfeed-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/formfeed-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/data-model/formfeed-data-model.yml
+  href: https://artifacts.apis.io/formfeed/data-model/formfeed-data-model.yml
   title: ''
   type: DataModel
   url: data-model/formfeed-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/cli/formfeed-cli.yml
+  href: https://artifacts.apis.io/formfeed/cli/formfeed-cli.yml
   title: ''
   type: CLI
   url: cli/formfeed-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/changelog/formfeed-changelog.yml
+  href: https://artifacts.apis.io/formfeed/changelog/formfeed-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/formfeed-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/conventions/formfeed-conventions.yml
+  href: https://artifacts.apis.io/formfeed/conventions/formfeed-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/formfeed-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/conventions/formfeed-conventions.yml
+  href: https://artifacts.apis.io/formfeed/conventions/formfeed-conventions.yml
   title: ''
   type: Conventions
   url: conventions/formfeed-conventions.yml
@@ -159,57 +161,57 @@ common:
   type: Compliance
   url: https://formfeed.dev/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/authentication/formfeed-authentication.yml
+  href: https://artifacts.apis.io/formfeed/authentication/formfeed-authentication.yml
   title: ''
   type: Authentication
   url: authentication/formfeed-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/errors/formfeed-problem-types.yml
+  href: https://artifacts.apis.io/formfeed/errors/formfeed-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/formfeed-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/conformance/formfeed-conformance.yml
+  href: https://artifacts.apis.io/formfeed/conformance/formfeed-conformance.yml
   title: ''
   type: Conformance
   url: conformance/formfeed-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/overlays/formfeed-openapi-overlay.yaml
+  href: https://artifacts.apis.io/formfeed/overlays/formfeed-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/formfeed-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/llms/formfeed-llms.txt
+  href: https://artifacts.apis.io/formfeed/llms/formfeed-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/formfeed-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/well-known/formfeed-security.txt
+  href: https://artifacts.apis.io/formfeed/well-known/formfeed-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/formfeed-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/well-known/formfeed-well-known.yml
+  href: https://artifacts.apis.io/formfeed/well-known/formfeed-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/formfeed-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/hosts/formfeed-hosts.yml
+  href: https://artifacts.apis.io/formfeed/hosts/formfeed-hosts.yml
   title: ''
   type: Hosts
   url: hosts/formfeed-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/vendors/formfeed-vendors.yml
+  href: https://artifacts.apis.io/formfeed/vendors/formfeed-vendors.yml
   title: ''
   type: Vendors
   url: vendors/formfeed-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/packages/formfeed-packages.yml
+  href: https://artifacts.apis.io/formfeed/packages/formfeed-packages.yml
   title: ''
   type: SDKs
   url: packages/formfeed-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/packages/formfeed-packages.yml
+  href: https://artifacts.apis.io/formfeed/packages/formfeed-packages.yml
   title: ''
   type: Packages
   url: packages/formfeed-packages.yml
@@ -234,17 +236,17 @@ common:
   type: APIReference
   url: https://docs.formfeed.dev/api/reference/formfeed
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/security/formfeed-trust-center.yml
+  href: https://artifacts.apis.io/formfeed/security/formfeed-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/formfeed-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/security/formfeed-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/formfeed/security/formfeed-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/formfeed-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/security/formfeed-domain-security.yml
+  href: https://artifacts.apis.io/formfeed/security/formfeed-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/formfeed-domain-security.yml
@@ -293,7 +295,7 @@ common:
   type: APIsJSON
   url: https://formfeed.dev/.well-known/apis.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/mcp/formfeed-mcp.yml
+  href: https://artifacts.apis.io/formfeed/mcp/formfeed-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/formfeed-mcp.yml
@@ -331,6 +333,14 @@ common:
   url: https://docs.formfeed.dev/api/data-residency
 created: '2026-09-28'
 description: Formfeed offers a PDF and image generation API that lets developers render templates written in Jinja2, Liquid, or Handlebars into PDFs, PNGs, and other formats. It can also convert Word and PowerPoint files. The service runs in Frankfurt with EU‑only data residency and provides a free tier of 100 units per month. SDKs are available for TypeScript and Python, a CLI exists, and there is MCP integration for AI agents. Features include batch rendering, webhook notifications, versioned templates, and a visual editor for designing documents.
+finops:
+- has_sources: true
+  method: derived
+  name: Formfeed Finops
+  primary_unit: units
+  service_category: ''
+  slug: formfeed-finops
+  template: false
 image: https://formfeed.dev/app-screenshots/en/editor.webp
 json_schemas:
 - name: Brand
@@ -374,9 +384,12 @@ overview: 'Formfeed publishes 9 API contracts indexed on the [APIs.io](https://a
   Formfeed''s developer surface includes CLI, changelog, authentication, support, getting-started guide, API reference, documentation, and 47 more developer resources.'
 plans:
 - name: Formfeed Plans Pricing
-  plan_count: 5
+  plan_count: 8
   slug: formfeed-plans-pricing
-random_paper: 4
+- name: Formfeed Price Estimates
+  plan_count: 0
+  slug: formfeed-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Formfeed Rate Limits
@@ -396,23 +409,23 @@ rules:
   slug: formfeed-rules
 score:
   band: exemplar
-  composite: 77.3
+  composite: 75.1
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 31
     catalog_earned: 89.8
     catalog_earned_first_party: 24.0
     catalog_gap: 25.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.2
+  delta: 1.1
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 22.0
-    contract_quality: 71.1
+    contract_quality: 69.9
     developer_ergonomics: 63.7
-    discoverability: 80.0
+    discoverability: 71.7
     operational_transparency: 86.8
-  previous_composite: 75.1
+  previous_composite: 74.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -429,13 +442,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 43.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/screenshots/formfeed-2026-10-11T104619.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/formfeed/formfeed-2026-10-11T104619.png
 security:
 - kind: authentication
   name: Formfeed Authentication
@@ -453,6 +467,18 @@ security:
   name: Formfeed Trust Center
   slug: formfeed-trust-center
   summary_line: SOC 2, ISO 27001, GDPR
+skill_count: 5
+skills:
+- name: formfeed-create-and-publish-template
+  slug: formfeed-create-and-publish-template
+- name: formfeed-create-render-and-fetch-result
+  slug: formfeed-create-render-and-fetch-result
+- name: formfeed-manage-storage-connection
+  slug: formfeed-manage-storage-connection
+- name: formfeed-manage-webhooks
+  slug: formfeed-manage-webhooks
+- name: formfeed-upload-and-manage-file
+  slug: formfeed-upload-and-manage-file
 slug: formfeed
 tags:
 - PDF

@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.4
-  scored_at: '2026-10-17'
+  score: 45.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 255
   human_in_the_loop: 15
@@ -174,11 +176,8 @@ apis:
   description: The Tags API from H2O.ai — 3 operation(s) for tags.
   name: H2O.ai Tags API
   slug: h2o-ai-tags-api
-artifact_total: 162
+artifact_total: 165
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: h2oGPTe REST Admin Sessions API
   slug: open-h2o-ai-admin-sessions-api
@@ -256,12 +255,12 @@ collections:
   slug: open-h2o-ai-tags-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/capabilities/h2o-ai-capability-edges.yml
+  href: https://artifacts.apis.io/h2o-ai/capabilities/h2o-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/h2o-ai-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/overlays/h2o-ai-h2ogpte-overlay.yaml
+  href: https://artifacts.apis.io/h2o-ai/overlays/h2o-ai-h2ogpte-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/h2o-ai-h2ogpte-overlay.yaml
@@ -322,62 +321,62 @@ common:
   type: Compliance
   url: https://trust.h2o.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/security/h2o-ai-trust-center.yml
+  href: https://artifacts.apis.io/h2o-ai/security/h2o-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/h2o-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/security/h2o-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/h2o-ai/security/h2o-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/h2o-ai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/security/h2o-ai-domain-security.yml
+  href: https://artifacts.apis.io/h2o-ai/security/h2o-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/h2o-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/authentication/h2o-ai-authentication.yml
+  href: https://artifacts.apis.io/h2o-ai/authentication/h2o-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/h2o-ai-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/packages/h2o-ai-packages.yml
+  href: https://artifacts.apis.io/h2o-ai/packages/h2o-ai-packages.yml
   title: ''
   type: Packages
   url: packages/h2o-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/packages/h2o-ai-packages.yml
+  href: https://artifacts.apis.io/h2o-ai/packages/h2o-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/h2o-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/cli/h2o-ai-cli.yml
+  href: https://artifacts.apis.io/h2o-ai/cli/h2o-ai-cli.yml
   title: ''
   type: CLI
   url: cli/h2o-ai-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/well-known/h2o-ai-well-known.yml
+  href: https://artifacts.apis.io/h2o-ai/well-known/h2o-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/h2o-ai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/llms/h2o-ai-llms.txt
+  href: https://artifacts.apis.io/h2o-ai/llms/h2o-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/h2o-ai-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/conformance/h2o-ai-conformance.yml
+  href: https://artifacts.apis.io/h2o-ai/conformance/h2o-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/h2o-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/errors/h2o-ai-problem-types.yml
+  href: https://artifacts.apis.io/h2o-ai/errors/h2o-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/h2o-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/lifecycle/h2o-ai-lifecycle.yml
+  href: https://artifacts.apis.io/h2o-ai/lifecycle/h2o-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/h2o-ai-lifecycle.yml
@@ -386,32 +385,32 @@ common:
   type: StatusPage
   url: https://h2oai.statuspage.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/conventions/h2o-ai-conventions.yml
+  href: https://artifacts.apis.io/h2o-ai/conventions/h2o-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/h2o-ai-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/changelog/h2o-ai-changelog.yml
+  href: https://artifacts.apis.io/h2o-ai/changelog/h2o-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/h2o-ai-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/data-model/h2o-ai-data-model.yml
+  href: https://artifacts.apis.io/h2o-ai/data-model/h2o-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/h2o-ai-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/sandbox/h2o-ai-sandbox.yml
+  href: https://artifacts.apis.io/h2o-ai/sandbox/h2o-ai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/h2o-ai-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/agentic-access/h2o-ai-agentic-access.yml
+  href: https://artifacts.apis.io/h2o-ai/agentic-access/h2o-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/h2o-ai-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/h2o-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -754,7 +753,7 @@ overview: 'H2O.ai publishes 26 API contracts indexed on the [APIs.io](https://ap
 
 
   H2O.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 28 more developer resources.'
-random_paper: 6
+random_paper: 8
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -770,7 +769,7 @@ rules:
   slug: h2o-ai-rules
 score:
   band: strong
-  composite: 56.5
+  composite: 56.8
   coverage:
     artifact_dirs: 31
     catalog_earned: 61.5
@@ -778,15 +777,20 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.6
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 64.5
+    contract_quality: 62.3
     developer_ergonomics: 70.8
-    discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 61.1
+    discoverability: 65.0
+    operational_transparency: 47.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -807,13 +811,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/screenshots/h2o-ai-2026-08-07T165917.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/h2o-ai/h2o-ai-2026-08-07T165917.png
 security:
 - kind: authentication
   name: H2O Ai Authentication
@@ -831,6 +836,16 @@ security:
   name: H2O Ai Trust Center
   slug: h2o-ai-trust-center
   summary_line: SOC 2 Type 2, FedRAMP High, IRAP, HITECH
+skill_count: 4
+skills:
+- name: Ingest documents into h2oGPTe asynchronously with jobs
+  slug: h2o-ai-async-ingestion-jobs
+- name: Build an h2oGPTe Collection and chat over it
+  slug: h2o-ai-build-collection-and-chat
+- name: Retrieve h2oGPTe chunks directly for your own RAG loop
+  slug: h2o-ai-retrieve-chunks-directly
+- name: Score a model deployed through H2O MLOps
+  slug: h2o-ai-score-a-deployed-mlops-model
 slug: h2o-ai
 tags:
 - Company

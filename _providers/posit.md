@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 154
   slug: posit-agentic-access
   summary_line: 154 operations · 65 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://connect.example.com/__api__
   baseurl_source: declared
@@ -209,11 +211,8 @@ apis:
   description: The Vanity URLs API from Posit — 2 operation(s) for vanity urls.
   name: Posit Vanity URLs API
   slug: posit-vanity-urls-api
-artifact_total: 133
+artifact_total: 135
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Posit Connect API Reference API Keys API
   slug: open-posit-api-keys-api
@@ -323,27 +322,27 @@ common:
   type: BlogRSS
   url: https://opensource.posit.co/blog/index.xml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/rules/posit-rules.yml
+  href: https://artifacts.apis.io/posit/rules/posit-rules.yml
   title: ''
   type: Spectral
   url: rules/posit-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/json-ld/posit-context.jsonld
+  href: https://artifacts.apis.io/posit/json-ld/posit-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/posit-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/vocabulary/posit-vocabulary.yml
+  href: https://artifacts.apis.io/posit/vocabulary/posit-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/posit-vocabulary.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/hosts/posit-hosts.yml
+  href: https://artifacts.apis.io/posit/hosts/posit-hosts.yml
   title: ''
   type: Hosts
   url: hosts/posit-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/vendors/posit-vendors.yml
+  href: https://artifacts.apis.io/posit/vendors/posit-vendors.yml
   title: ''
   type: Vendors
   url: vendors/posit-vendors.yml
@@ -356,22 +355,22 @@ common:
   type: Leadership
   url: https://posit.co/products/enterprise/team
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/plans/posit-plans-pricing.yml
+  href: https://artifacts.apis.io/posit/plans/posit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/posit-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/capabilities/posit-capability-edges.yml
+  href: https://artifacts.apis.io/posit/capabilities/posit-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/posit-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/overlays/posit-connect-overlay.yaml
+  href: https://artifacts.apis.io/posit/overlays/posit-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/posit-connect-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/security/posit-domain-security.yml
+  href: https://artifacts.apis.io/posit/security/posit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/posit-domain-security.yml
@@ -420,87 +419,95 @@ common:
   type: ChangeLog
   url: https://docs.posit.co/connect/news/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/packages/posit-packages.yml
+  href: https://artifacts.apis.io/posit/packages/posit-packages.yml
   title: ''
   type: SDKs
   url: packages/posit-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/cli/posit-cli.yml
+  href: https://artifacts.apis.io/posit/cli/posit-cli.yml
   title: ''
   type: CLI
   url: cli/posit-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/agentic-access/posit-agentic-access.yml
+  href: https://artifacts.apis.io/posit/agentic-access/posit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/posit-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/authentication/posit-authentication.yml
+  href: https://artifacts.apis.io/posit/authentication/posit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/posit-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/packages/posit-packages.yml
+  href: https://artifacts.apis.io/posit/packages/posit-packages.yml
   title: ''
   type: Packages
   url: packages/posit-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/conventions/posit-conventions.yml
+  href: https://artifacts.apis.io/posit/conventions/posit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/posit-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/errors/posit-problem-types.yml
+  href: https://artifacts.apis.io/posit/errors/posit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/posit-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/lifecycle/posit-lifecycle.yml
+  href: https://artifacts.apis.io/posit/lifecycle/posit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/posit-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/lifecycle/posit-lifecycle.yml
+  href: https://artifacts.apis.io/posit/lifecycle/posit-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/posit-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/conformance/posit-conformance.yml
+  href: https://artifacts.apis.io/posit/conformance/posit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/posit-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/data-model/posit-data-model.yml
+  href: https://artifacts.apis.io/posit/data-model/posit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/posit-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/well-known/posit-well-known.yml
+  href: https://artifacts.apis.io/posit/well-known/posit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/posit-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/mcp/posit-mcp.yml
+  href: https://artifacts.apis.io/posit/mcp/posit-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/posit-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/llms/posit-llms.txt
+  href: https://artifacts.apis.io/posit/llms/posit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/posit-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/posit/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/changelog/posit-changelog.yml
+  href: https://artifacts.apis.io/posit/changelog/posit-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/posit-changelog.yml
 created: '2026-07-17'
 description: Posit, PBC (formerly RStudio) builds open-source and enterprise software for data science teams working in R and Python. Its professional products — Posit Workbench, Posit Connect, and Posit Package Manager (bundled as Posit Team), plus Posit Cloud and the Positron IDE — help organizations develop, publish, and govern data science work. Posit Connect exposes a full REST Server API (the Connect API) for automating content publishing, deployment bundles, users and groups, permissions, jobs, environments, tags, audit logs, and API keys, authenticated with per-user API keys. Posit also stewards widely used open-source projects including the Tidyverse, Shiny, Quarto, and tidymodels.
+finops:
+- has_sources: true
+  method: derived
+  name: Posit Finops
+  primary_unit: ''
+  service_category: ''
+  slug: posit-finops
+  template: true
 image: https://posit.co/wp-content/uploads/2022/10/Posit-Logo-Black-TransparentBackground.png
 json_schemas:
 - name: AccessTestResult
@@ -704,7 +711,7 @@ plans:
 - name: Posit Plans Pricing
   plan_count: 3
   slug: posit-plans-pricing
-random_paper: 9
+random_paper: 7
 rules:
 - authorship: generated
   effective_rule_count: 58
@@ -720,23 +727,28 @@ rules:
   slug: posit-rules
 score:
   band: strong
-  composite: 63.4
+  composite: 56.7
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 31
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 22.0
-    contract_quality: 66.3
+    contract_quality: 62.9
     developer_ergonomics: 73.2
-    discoverability: 75.0
-    operational_transparency: 42.1
-  previous_composite: 68.7
+    discoverability: 67.9
+    operational_transparency: 44.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -753,13 +765,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/screenshots/posit-2026-08-17T081325.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/posit/posit-2026-08-17T081325.png
 security:
 - kind: authentication
   name: Posit Authentication
@@ -769,6 +782,12 @@ security:
   name: Posit Domain Security
   slug: posit-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Publish and deploy content to Posit Connect
+  slug: posit-deploy-content
+- name: Manage content access and permissions
+  slug: posit-manage-access
 slug: posit
 tags:
 - Company

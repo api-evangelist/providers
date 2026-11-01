@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.1
-  scored_at: '2026-10-17'
+  score: 17.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Thunder Kubernetes Connector (TKC) runs inside Kubernetes and configures upstream Thunder ADC objects automatically as pods are created and scaled. It defines 24 CRDs covering VirtualServer, Virtu
@@ -64,11 +66,8 @@ apis:
   description: Virtual servers (VIPs) that front pools of real servers
   name: A10 Networks SLB Virtual Server API
   slug: a10-networks-slb-virtual-server-api
-artifact_total: 25
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: A10 Networks ACOS aXAPI v3 Authentication API
   slug: open-a10-networks-authentication-api
@@ -86,27 +85,27 @@ collections:
   slug: open-a10-networks-slb-virtual-server-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/plans/a10-networks-plans-pricing.yml
+  href: https://artifacts.apis.io/a10-networks/plans/a10-networks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/a10-networks-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/rate-limits/a10-networks-rate-limits.yml
+  href: https://artifacts.apis.io/a10-networks/rate-limits/a10-networks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/a10-networks-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/finops/a10-networks-finops.yml
+  href: https://artifacts.apis.io/a10-networks/finops/a10-networks-finops.yml
   title: ''
   type: FinOps
   url: finops/a10-networks-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/capabilities/a10-networks-capability-edges.yml
+  href: https://artifacts.apis.io/a10-networks/capabilities/a10-networks-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/a10-networks-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/security/a10-networks-domain-security.yml
+  href: https://artifacts.apis.io/a10-networks/security/a10-networks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/a10-networks-domain-security.yml
@@ -220,55 +219,55 @@ common:
   url: https://github.com/a10networks
 crds:
 - name: A10IPPool
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/A10IPPool.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/A10IPPool.yaml
 - name: AccessListExtended
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/AccessListExtended.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/AccessListExtended.yaml
 - name: AccessListStandard
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/AccessListStandard.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/AccessListStandard.yaml
 - name: ActiveActiveHADevice
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/ActiveActiveHADevice.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/ActiveActiveHADevice.yaml
 - name: ClientSsl
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/ClientSsl.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/ClientSsl.yaml
 - name: DeploymentConfig
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/DeploymentConfig.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/DeploymentConfig.yaml
 - name: HealthMonitor
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/HealthMonitor.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/HealthMonitor.yaml
 - name: NatPool
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/NatPool.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/NatPool.yaml
 - name: ServerSsl
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/ServerSsl.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/ServerSsl.yaml
 - name: ServiceGroup
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/ServiceGroup.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/ServiceGroup.yaml
 - name: TemplateCipher
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/TemplateCipher.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/TemplateCipher.yaml
 - name: TemplateExternalService
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/TemplateExternalService.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/TemplateExternalService.yaml
 - name: TemplateHttp
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/TemplateHttp.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/TemplateHttp.yaml
 - name: TemplateHttpPolicy
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/TemplateHttpPolicy.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/TemplateHttpPolicy.yaml
 - name: TemplatePersistSourceIp
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/TemplatePersistSourceIp.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/TemplatePersistSourceIp.yaml
 - name: TemplatePolicy
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/TemplatePolicy.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/TemplatePolicy.yaml
 - name: TemplatePort
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/TemplatePort.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/TemplatePort.yaml
 - name: TemplateSlbServer
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/TemplateSlbServer.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/TemplateSlbServer.yaml
 - name: TemplateTcp
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/TemplateTcp.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/TemplateTcp.yaml
 - name: TemplateTcpProxy
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/TemplateTcpProxy.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/TemplateTcpProxy.yaml
 - name: TemplateUdp
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/TemplateUdp.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/TemplateUdp.yaml
 - name: TemplateVirtualPort
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/TemplateVirtualPort.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/TemplateVirtualPort.yaml
 - name: VirtualPort
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/VirtualPort.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/VirtualPort.yaml
 - name: VirtualServer
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/VirtualServer.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/VirtualServer.yaml
 - name: a10 crd installation
-  url: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/crd/a10-crd-installation.yaml
+  url: https://artifacts.apis.io/a10-networks/crd/a10-crd-installation.yaml
 created: '2026-05-25'
 description: 'A10 Networks (NYSE: ATEN) is a San Jose, California–headquartered application delivery and cybersecurity company founded in 2004 by Lee Chen. A10 builds the ACOS (Application Centric Operating System) software platform that powers its Thunder family of physical appliances, virtual machines (vThunder), and containerized form factors across hyperscalers and private clouds. The product line spans the Thunder ADC (Application Delivery Controller for L4–L7 server load balancing and GSLB), the Thunder TPS / A10 Defend portfolio (DDoS detection, mitigation, orchestration, and Threat Control SaaS) protecting service-provider and enterprise networks from volumetric and application-layer attacks, Thunder CGN (Carrier-Grade NAT and IPv4/IPv6 transition), Thunder CFW (consolidated firewall, VPN, CGN, and secure web gateway), SSL Insight for encrypted traffic decryption, the A10 Defend Next-Gen WAF (incorporating ThreatX), and the A10 AI Firewall for protecting LLM and AI application traffic.
   Every ACOS device exposes the aXAPI v3 — a RESTful HTTPS interface that is the primary configuration and operational control plane for the platform, supporting ACOS 4.0.0 through 7.0.2. The aXAPI surface is exhaustive (the official Terraform provider exposes 3,627 resources) and is wrapped by official Ansible collections (a10-acos-axapi, a10-acos-cli), a Python client (acos-client), the Thunder Kubernetes Connector (TKC, with 24 CRDs for pod-driven VIP automation), and integrations for OpenStack Octavia, Neutron LBaaS, AWS CloudFormation, Azure ARM, VMware vSphere, Helm, and Prometheus. A10 reported record annual revenue of $290.6M in FY2025 (up 11.0% year over year) under CEO Dhrupad Trivedi, serving 7,700+ customers across 117 countries.'
@@ -323,7 +322,7 @@ plans:
 - name: A10 Networks Plans Pricing
   plan_count: 6
   slug: a10-networks-plans-pricing
-random_paper: 10
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: A10 Networks Rate Limits
@@ -354,7 +353,7 @@ rules:
   slug: a10-networks-rules
 score:
   band: thin
-  composite: 27.4
+  composite: 27.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 56.5
@@ -362,15 +361,15 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 56.4
+    contract_quality: 53.0
     developer_ergonomics: 16.7
-    discoverability: 58.0
+    discoverability: 58.9
     operational_transparency: 5.3
-  previous_composite: 31.4
+  previous_composite: 27.3
   provenance:
     contracts:
       callable: 0.0
@@ -383,13 +382,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/screenshots/a10-networks-2026-06-20T162934.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/a10-networks/a10-networks-2026-06-20T162934.png
 security:
 - kind: domain-security
   name: A10 Networks Domain Security

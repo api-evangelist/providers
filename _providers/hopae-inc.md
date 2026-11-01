@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 33.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 21
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 42
   slug: hopae-inc-agentic-access
   summary_line: 42 operations · 24 acting · 21 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://sandbox.api.hopae.com/connect
   baseurl_source: declared
@@ -91,15 +93,12 @@ apis:
   description: Workspace information
   name: Hopae, Inc. Workspace API - Workspace API
   slug: hopae-inc-workspace-api-workspace-api
-artifact_total: 25
+artifact_total: 26
 asyncapis:
 - description: Outgoing webhook deliveries from Hopae Connect for the identity verification lifecycle. Every delivery is signed with an HMAC-SHA256 signature in the X-Hopae-Signature header (format `t=<unix-ts>,v1=<
   name: Hopae hConnect Webhooks
   slug: hopae-inc-hconnect-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: hConnect Console - API Keys API
   slug: open-hopae-inc-console-api-keys-api
@@ -129,22 +128,22 @@ collections:
   slug: open-hopae-inc-workspace-api-workspace-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/capabilities/hopae-inc-capability-edges.yml
+  href: https://artifacts.apis.io/hopae-inc/capabilities/hopae-inc-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hopae-inc-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/overlays/hopae-inc-hconnect-overlay.yaml
+  href: https://artifacts.apis.io/hopae-inc/overlays/hopae-inc-hconnect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hopae-inc-hconnect-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/security/hopae-inc-domain-security.yml
+  href: https://artifacts.apis.io/hopae-inc/security/hopae-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hopae-inc-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/agentic-access/hopae-inc-agentic-access.yml
+  href: https://artifacts.apis.io/hopae-inc/agentic-access/hopae-inc-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hopae-inc-agentic-access.yml
@@ -157,77 +156,77 @@ common:
   type: Compliance
   url: https://trust.hopae.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/authentication/hopae-inc-authentication.yml
+  href: https://artifacts.apis.io/hopae-inc/authentication/hopae-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hopae-inc-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/scopes/hopae-inc-scopes.yml
+  href: https://artifacts.apis.io/hopae-inc/scopes/hopae-inc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hopae-inc-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/packages/hopae-inc-packages.yml
+  href: https://artifacts.apis.io/hopae-inc/packages/hopae-inc-packages.yml
   title: ''
   type: Packages
   url: packages/hopae-inc-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/packages/hopae-inc-packages.yml
+  href: https://artifacts.apis.io/hopae-inc/packages/hopae-inc-packages.yml
   title: ''
   type: SDKs
   url: packages/hopae-inc-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/well-known/hopae-inc-well-known.yml
+  href: https://artifacts.apis.io/hopae-inc/well-known/hopae-inc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hopae-inc-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/mcp/hopae-inc-mcp.yml
+  href: https://artifacts.apis.io/hopae-inc/mcp/hopae-inc-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hopae-inc-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/llms/hopae-inc-llms.txt
+  href: https://artifacts.apis.io/hopae-inc/llms/hopae-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hopae-inc-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hopae-inc/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/conventions/hopae-inc-conventions.yml
+  href: https://artifacts.apis.io/hopae-inc/conventions/hopae-inc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hopae-inc-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/conventions/hopae-inc-conventions.yml
+  href: https://artifacts.apis.io/hopae-inc/conventions/hopae-inc-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/hopae-inc-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/errors/hopae-inc-problem-types.yml
+  href: https://artifacts.apis.io/hopae-inc/errors/hopae-inc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hopae-inc-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/conformance/hopae-inc-conformance.yml
+  href: https://artifacts.apis.io/hopae-inc/conformance/hopae-inc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hopae-inc-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/lifecycle/hopae-inc-lifecycle.yml
+  href: https://artifacts.apis.io/hopae-inc/lifecycle/hopae-inc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hopae-inc-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/sandbox/hopae-inc-sandbox.yml
+  href: https://artifacts.apis.io/hopae-inc/sandbox/hopae-inc-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hopae-inc-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/data-model/hopae-inc-data-model.yml
+  href: https://artifacts.apis.io/hopae-inc/data-model/hopae-inc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hopae-inc-data-model.yml
@@ -236,17 +235,17 @@ common:
   type: RateLimits
   url: https://docs.hopae.com/api-reference/workspace/rate-limit
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/asyncapi/hopae-inc-hconnect-webhooks.yml
+  href: https://artifacts.apis.io/hopae-inc/asyncapi/hopae-inc-hconnect-webhooks.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/hopae-inc-hconnect-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/asyncapi/hopae-inc-hconnect-webhooks.yml
+  href: https://artifacts.apis.io/hopae-inc/asyncapi/hopae-inc-hconnect-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hopae-inc-hconnect-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/changelog/hopae-inc-changelog.yml
+  href: https://artifacts.apis.io/hopae-inc/changelog/hopae-inc-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hopae-inc-changelog.yml
@@ -305,7 +304,7 @@ overview: 'Hopae publishes 9 API contracts indexed on the [APIs.io](https://apis
 
 
   Hopae''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
-random_paper: 4
+random_paper: 20
 scopes:
 - name: Hopae Inc Scopes
   scope_count: 7
@@ -313,23 +312,23 @@ scopes:
   summary_line: 7 scopes
 score:
   band: developing
-  composite: 48.2
+  composite: 52.7
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 26.3
+    access_clarity: 39.5
     contract_governance: 18.2
-    contract_quality: 59.9
-    developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 48.1
+    contract_quality: 58.2
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -350,13 +349,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/screenshots/hopae-inc-2026-07-25T221528.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hopae-inc/hopae-inc-2026-07-25T221528.png
 security:
 - kind: authentication
   name: Hopae Inc Authentication
@@ -370,6 +370,12 @@ security:
   name: Hopae Inc Trust Center
   slug: hopae-inc-trust-center
   summary_line: SOC 2, ISO 27001, GDPR, eIDAS 2.0
+skill_count: 2
+skills:
+- name: Create an App, activate providers, and wire webhooks
+  slug: hopae-inc-onboard-app
+- name: Verify a user's identity with a global eID
+  slug: hopae-inc-verify-identity
 slug: hopae-inc
 tags:
 - Company

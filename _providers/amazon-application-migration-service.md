@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,17 +24,19 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-17'
+  score: 35.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -94,11 +96,18 @@ apis:
   description: Wave-based migration orchestration
   name: Amazon Application Migration Service Waves API
   slug: amazon-application-migration-service-waves-api
-artifact_total: 354
+- baseURL: https://mgn.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Application Migration Service Network Migration API from Amazon Application Migration Service — 25 operation(s) for application migration service network migration.
+  name: Amazon Application Migration Service Application Migration Service Network Migration API
+  slug: amazon-application-migration-service-network-migration-api
+- baseURL: https://mgn.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Application Migration Service Operations API from Amazon Application Migration Service — 26 operation(s) for application migration service operations.
+  name: Amazon Application Migration Service Application Migration Service Operations API
+  slug: amazon-application-migration-service-operations-api
+artifact_total: 355
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Application Migration Service Applications API
   slug: open-amazon-application-migration-service-applications-api
@@ -130,52 +139,57 @@ collections:
   name: Amazon Application Migration Service Applications Waves API
   slug: open-amazon-application-migration-service-waves-api
 common:
+- group: other
+  href: https://artifacts.apis.io/amazon-application-migration-service/capabilities/amazon-application-migration-service-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-application-migration-service-capability-edges.yml
 - group: company
   title: ''
   type: Website
   url: https://aws.amazon.com/application-migration-service/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/mcp/amazon-application-migration-service-mcp.yml
+  href: https://artifacts.apis.io/amazon-application-migration-service/mcp/amazon-application-migration-service-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-application-migration-service-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/overlays/amazon-application-migration-service-api-overlay.yaml
+  href: https://artifacts.apis.io/amazon-application-migration-service/overlays/amazon-application-migration-service-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-application-migration-service-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/agentic-access/amazon-application-migration-service-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-application-migration-service/agentic-access/amazon-application-migration-service-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-application-migration-service-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/security/amazon-application-migration-service-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-application-migration-service/security/amazon-application-migration-service-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-application-migration-service-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/security/amazon-application-migration-service-domain-security.yml
+  href: https://artifacts.apis.io/amazon-application-migration-service/security/amazon-application-migration-service-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-application-migration-service-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/authentication/amazon-application-migration-service-authentication.yml
+  href: https://artifacts.apis.io/amazon-application-migration-service/authentication/amazon-application-migration-service-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-application-migration-service-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/well-known/amazon-application-migration-service-well-known.yml
+  href: https://artifacts.apis.io/amazon-application-migration-service/well-known/amazon-application-migration-service-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-application-migration-service-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/well-known/amazon-application-migration-service-security.txt
+  href: https://artifacts.apis.io/amazon-application-migration-service/well-known/amazon-application-migration-service-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-application-migration-service-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/llms/amazon-application-migration-service-llms.txt
+  href: https://artifacts.apis.io/amazon-application-migration-service/llms/amazon-application-migration-service-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-application-migration-service-llms.txt
@@ -1117,14 +1131,14 @@ modified: '2026-09-16'
 name: Amazon Application Migration Service
 nav: Providers
 network: true
-overview: 'Amazon Application Migration Service publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Exports API, Jobs API, and 7 more. Tagged areas include Amazon Application Migration Service, Migration, Lift And Shift, and Cloud Migration.
+overview: 'Amazon Application Migration Service publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Exports API, Jobs API, and 9 more. Tagged areas include Amazon Application Migration Service, Migration, Lift And Shift, and Cloud Migration.
 
 
   The Amazon Application Migration Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Application Migration Service''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 2
+  Amazon Application Migration Service''s developer surface includes authentication and 10 more developer resources.'
+random_paper: 4
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -1151,31 +1165,31 @@ rules:
   slug: amazon-application-migration-service-spectral-rules
 score:
   band: thin
-  composite: 29.1
+  composite: 31.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 24
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.2
   facets:
     access_clarity: 0.0
     contract_governance: 31.8
-    contract_quality: 67.2
+    contract_quality: 68.2
     developer_ergonomics: 11.9
     discoverability: 57.1
-    operational_transparency: 0.0
-  previous_composite: 29.0
+    operational_transparency: 10.5
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 10
+      marker_coverage: 16.7
+      total: 12
     mcp: derived
   regulatory:
     applies: true
@@ -1183,13 +1197,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/screenshots/amazon-application-migration-service-2026-07-25T195925.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-application-migration-service/amazon-application-migration-service-2026-07-25T195925.png
 security:
 - kind: authentication
   name: Amazon Application Migration Service Authentication

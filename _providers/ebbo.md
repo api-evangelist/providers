@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,22 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ebbo/refs/heads/main/plans/ebbo-plans-pricing.yml
+  href: https://artifacts.apis.io/ebbo/plans/ebbo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ebbo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ebbo/refs/heads/main/rate-limits/ebbo-rate-limits.yml
+  href: https://artifacts.apis.io/ebbo/rate-limits/ebbo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ebbo-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ebbo/refs/heads/main/security/ebbo-domain-security.yml
+  href: https://artifacts.apis.io/ebbo/security/ebbo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ebbo-domain-security.yml
@@ -76,7 +78,7 @@ common:
   type: BlogRSS
   url: https://www.ebbo.com/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ebbo/refs/heads/main/llms/ebbo-llms.txt
+  href: https://artifacts.apis.io/ebbo/llms/ebbo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ebbo-llms.txt
@@ -110,14 +112,14 @@ plans:
 - name: Ebbo Plans Pricing
   plan_count: 0
   slug: ebbo-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Ebbo Rate Limits
   slug: ebbo-rate-limits
 score:
   band: minimal
-  composite: 8.9
+  composite: 10.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -127,27 +129,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 3.6
-    discoverability: 55.4
+    developer_ergonomics: 7.1
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 8.9
+  previous_composite: 10.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 13.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ebbo/refs/heads/main/screenshots/ebbo-2026-07-25T212725.png
+screenshot: https://apis.io/screenshots/ebbo/ebbo-2026-07-25T212725.png
 security:
 - kind: domain-security
   name: Ebbo Domain Security

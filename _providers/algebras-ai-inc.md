@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.3
-  scored_at: '2026-10-17'
+  score: 30.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -89,11 +91,8 @@ apis:
   description: The Video API from Algebras AI Inc. — 2 operation(s) for video.
   name: Algebras AI Inc. Video API
   slug: algebras-ai-inc-video-api
-artifact_total: 24
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Algebras Authentication API
   slug: open-algebras-ai-inc-authentication-api
@@ -123,12 +122,12 @@ collections:
   slug: open-algebras-ai-inc-video-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/plans/algebras-ai-inc-plans-pricing.yml
+  href: https://artifacts.apis.io/algebras-ai-inc/plans/algebras-ai-inc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/algebras-ai-inc-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/overlays/algebras-ai-inc-openapi-overlay.yaml
+  href: https://artifacts.apis.io/algebras-ai-inc/overlays/algebras-ai-inc-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/algebras-ai-inc-openapi-overlay.yaml
@@ -181,72 +180,72 @@ common:
   type: StatusPage
   url: https://status.algebras.ai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/authentication/algebras-ai-inc-authentication.yml
+  href: https://artifacts.apis.io/algebras-ai-inc/authentication/algebras-ai-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/algebras-ai-inc-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/conventions/algebras-ai-inc-conventions.yml
+  href: https://artifacts.apis.io/algebras-ai-inc/conventions/algebras-ai-inc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/algebras-ai-inc-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/errors/algebras-ai-inc-problem-types.yml
+  href: https://artifacts.apis.io/algebras-ai-inc/errors/algebras-ai-inc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/algebras-ai-inc-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/lifecycle/algebras-ai-inc-lifecycle.yml
+  href: https://artifacts.apis.io/algebras-ai-inc/lifecycle/algebras-ai-inc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/algebras-ai-inc-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/data-model/algebras-ai-inc-data-model.yml
+  href: https://artifacts.apis.io/algebras-ai-inc/data-model/algebras-ai-inc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/algebras-ai-inc-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/conformance/algebras-ai-inc-conformance.yml
+  href: https://artifacts.apis.io/algebras-ai-inc/conformance/algebras-ai-inc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/algebras-ai-inc-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/packages/algebras-ai-inc-packages.yml
+  href: https://artifacts.apis.io/algebras-ai-inc/packages/algebras-ai-inc-packages.yml
   title: ''
   type: Packages
   url: packages/algebras-ai-inc-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/packages/algebras-ai-inc-packages.yml
+  href: https://artifacts.apis.io/algebras-ai-inc/packages/algebras-ai-inc-packages.yml
   title: ''
   type: SDKs
   url: packages/algebras-ai-inc-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/cli/algebras-ai-inc-cli.yml
+  href: https://artifacts.apis.io/algebras-ai-inc/cli/algebras-ai-inc-cli.yml
   title: ''
   type: CLI
   url: cli/algebras-ai-inc-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/mcp/algebras-ai-inc-mcp.yml
+  href: https://artifacts.apis.io/algebras-ai-inc/mcp/algebras-ai-inc-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/algebras-ai-inc-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/algebras-ai-inc/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/llms/algebras-ai-inc-llms.txt
+  href: https://artifacts.apis.io/algebras-ai-inc/llms/algebras-ai-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/algebras-ai-inc-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/agentic-access/algebras-ai-inc-agentic-access.yml
+  href: https://artifacts.apis.io/algebras-ai-inc/agentic-access/algebras-ai-inc-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/algebras-ai-inc-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/security/algebras-ai-inc-domain-security.yml
+  href: https://artifacts.apis.io/algebras-ai-inc/security/algebras-ai-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/algebras-ai-inc-domain-security.yml
@@ -256,6 +255,14 @@ common:
   url: https://algebras.ai
 created: '2026-07-17'
 description: Algebras AI is an AI-powered localization platform that translates UI, video, and audio content into 300+ languages with agentic translation, glossary-aware quality, and voice/video dubbing with lip-sync. The Algebras API (OpenAPI 3.0, API-key auth via the X-Api-Key header) exposes text, batch, and agentic translation, translation fluency evaluation, glossaries and terms, localization tables, language detection, video translation, storage upload URLs, and real-time streaming rooms with RTMP ingress/egress. First-party tooling includes a Python CLI, a Unity SDK, a Next.js integration, a locale-checker GitHub Action, a hosted MCP server, and a published agent skill. Algebras AI was surfaced as a 500 Global portfolio company.
+finops:
+- has_sources: true
+  method: derived
+  name: Algebras Ai Inc Finops
+  primary_unit: words
+  service_category: ''
+  slug: algebras-ai-inc-finops
+  template: false
 image: https://algebras.ai/favicon.ico
 layout: provider
 mcp_servers:
@@ -274,26 +281,29 @@ plans:
 - name: Algebras Ai Inc Plans Pricing
   plan_count: 10
   slug: algebras-ai-inc-plans-pricing
-random_paper: 9
+- name: Algebras Ai Inc Price Estimates
+  plan_count: 0
+  slug: algebras-ai-inc-price-estimates
+random_paper: 23
 score:
   band: developing
-  composite: 46.7
+  composite: 52.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 49.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 59.2
+    access_clarity: 73.7
     contract_governance: 4.5
-    contract_quality: 48.6
-    developer_ergonomics: 61.9
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 40.3
+    contract_quality: 47.8
+    developer_ergonomics: 78.6
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -310,13 +320,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/screenshots/algebras-ai-inc-2026-07-25T195603.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/algebras-ai-inc/algebras-ai-inc-2026-07-25T195603.png
 security:
 - kind: authentication
   name: Algebras Ai Inc Authentication

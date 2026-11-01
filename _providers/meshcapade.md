@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for programmatic creation of animation-ready 3D avatars from images, video, measurements and text, built on the SMPL body-model family.
@@ -85,22 +87,22 @@ common:
   type: TermsOfService
   url: https://me.meshcapade.com/terms-of-service
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/meshcapade/refs/heads/main/packages/meshcapade-packages.yml
+  href: https://artifacts.apis.io/meshcapade/packages/meshcapade-packages.yml
   title: ''
   type: Packages
   url: packages/meshcapade-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/meshcapade/refs/heads/main/packages/meshcapade-packages.yml
+  href: https://artifacts.apis.io/meshcapade/packages/meshcapade-packages.yml
   title: ''
   type: SDKs
   url: packages/meshcapade-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meshcapade/refs/heads/main/llms/meshcapade-llms.txt
+  href: https://artifacts.apis.io/meshcapade/llms/meshcapade-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/meshcapade-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meshcapade/refs/heads/main/security/meshcapade-domain-security.yml
+  href: https://artifacts.apis.io/meshcapade/security/meshcapade-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meshcapade-domain-security.yml
@@ -116,10 +118,10 @@ overview: 'Meshcapade is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Meshcapade''s developer surface includes documentation, API reference, engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 1
+random_paper: 3
 score:
   band: emerging
-  composite: 22.2
+  composite: 21.9
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -133,23 +135,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 22.2
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 21.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/meshcapade/refs/heads/main/screenshots/meshcapade-2026-10-11T191205.png
+screenshot: https://apis.io/screenshots/meshcapade/meshcapade-2026-10-11T191205.png
 security:
 - kind: domain-security
   name: Meshcapade Domain Security

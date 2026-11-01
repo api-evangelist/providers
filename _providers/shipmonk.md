@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.8
-  scored_at: '2026-10-17'
+  score: 35.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -84,15 +86,12 @@ apis:
   description: 'ShipMonk supports webhooks to help you stay updated in real time as key events happen in our system. Currently, we provide webhooks for the following areas: - Orders - Returns - Receivings ## Webhooks'
   name: ShipMonk Webhooks API
   slug: shipmonk-webhooks-api
-artifact_total: 22
+artifact_total: 28
 asyncapis:
 - description: AsyncAPI 3.0 model of the ShipMonk webhook event surface, derived from the `webhooks` block of ShipMonk's own OpenAPI 3.1 document (https://apidocs.shipmonk.com/openapi/public_api.json) plus the publi
   name: ShipMonk Webhooks
   slug: shipmonk-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ShipMonk Orders API
   slug: open-shipmonk-orders-api
@@ -109,17 +108,22 @@ collections:
   name: ShipMonk Warehouses API
   slug: open-shipmonk-warehouses-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/shipmonk/plans/shipmonk-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/shipmonk-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.shipmonk.com/feed
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/capabilities/shipmonk-capability-edges.yml
+  href: https://artifacts.apis.io/shipmonk/capabilities/shipmonk-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/shipmonk-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/overlays/shipmonk-orders-overlay.yaml
+  href: https://artifacts.apis.io/shipmonk/overlays/shipmonk-orders-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shipmonk-orders-overlay.yaml
@@ -188,7 +192,7 @@ common:
   type: ChangeLog
   url: https://apidocs.shipmonk.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/changelog/shipmonk-changelog.yml
+  href: https://artifacts.apis.io/shipmonk/changelog/shipmonk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/shipmonk-changelog.yml
@@ -197,7 +201,7 @@ common:
   type: Compliance
   url: https://www.shipmonk.com/resources/content-hub/soc-2-type-ii-compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/security/shipmonk-trust-center.yml
+  href: https://artifacts.apis.io/shipmonk/security/shipmonk-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/shipmonk-trust-center.yml
@@ -206,82 +210,82 @@ common:
   type: Security
   url: https://app.shipmonk.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/security/shipmonk-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/shipmonk/security/shipmonk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/shipmonk-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/well-known/shipmonk-security.txt
+  href: https://artifacts.apis.io/shipmonk/well-known/shipmonk-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/shipmonk-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/security/shipmonk-domain-security.yml
+  href: https://artifacts.apis.io/shipmonk/security/shipmonk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shipmonk-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/well-known/shipmonk-well-known.yml
+  href: https://artifacts.apis.io/shipmonk/well-known/shipmonk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/shipmonk-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/well-known/shipmonk-api-catalog.json
+  href: https://artifacts.apis.io/shipmonk/well-known/shipmonk-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/shipmonk-api-catalog.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/authentication/shipmonk-authentication.yml
+  href: https://artifacts.apis.io/shipmonk/authentication/shipmonk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shipmonk-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/conventions/shipmonk-conventions.yml
+  href: https://artifacts.apis.io/shipmonk/conventions/shipmonk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shipmonk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/conventions/shipmonk-conventions.yml
+  href: https://artifacts.apis.io/shipmonk/conventions/shipmonk-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/shipmonk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/errors/shipmonk-problem-types.yml
+  href: https://artifacts.apis.io/shipmonk/errors/shipmonk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/shipmonk-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/rate-limits/shipmonk-rate-limits.yml
+  href: https://artifacts.apis.io/shipmonk/rate-limits/shipmonk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shipmonk-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/lifecycle/shipmonk-lifecycle.yml
+  href: https://artifacts.apis.io/shipmonk/lifecycle/shipmonk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shipmonk-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/conformance/shipmonk-conformance.yml
+  href: https://artifacts.apis.io/shipmonk/conformance/shipmonk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shipmonk-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/sandbox/shipmonk-sandbox.yml
+  href: https://artifacts.apis.io/shipmonk/sandbox/shipmonk-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/shipmonk-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/data-model/shipmonk-data-model.yml
+  href: https://artifacts.apis.io/shipmonk/data-model/shipmonk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shipmonk-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/packages/shipmonk-packages.yml
+  href: https://artifacts.apis.io/shipmonk/packages/shipmonk-packages.yml
   title: ''
   type: Packages
   url: packages/shipmonk-packages.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/asyncapi/shipmonk-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/shipmonk/asyncapi/shipmonk-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/shipmonk-webhooks-asyncapi.yml
@@ -290,32 +294,40 @@ common:
   type: Webhooks
   url: https://apidocs.shipmonk.com/reference/webhooks
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/mcp/shipmonk-mcp.yml
+  href: https://artifacts.apis.io/shipmonk/mcp/shipmonk-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/shipmonk-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/mcp/shipmonk-tool-crosswalk.yml
+  href: https://artifacts.apis.io/shipmonk/mcp/shipmonk-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/shipmonk-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/shipmonk/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/agentic-access/shipmonk-agentic-access.yml
+  href: https://artifacts.apis.io/shipmonk/agentic-access/shipmonk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shipmonk-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/llms/shipmonk-llms.txt
+  href: https://artifacts.apis.io/shipmonk/llms/shipmonk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shipmonk-llms.txt
 created: '2026-08-02'
 description: ShipMonk is a Florida-headquartered third-party logistics (3PL) and ecommerce fulfillment provider operating a network of fulfillment centres across the United States, Canada, Mexico, the United Kingdom and Czechia. It runs an order management system for direct-to-consumer, retail/B2B and marketplace brands covering inbound receiving, inventory and lot control, pick-and-pack fulfillment, multi-carrier shipping and returns. Its public API is a single REST surface at api.shipmonk.com, described by a self-published OpenAPI 3.1 document covering orders, products and inventory, receivings, returns and warehouses, with four HTTP webhook events for shipment, order, return and receiving status changes and a contract-only sandbox environment with warehouse simulation endpoints.
+finops:
+- has_sources: true
+  method: derived
+  name: Shipmonk Finops
+  primary_unit: ''
+  service_category: ''
+  slug: shipmonk-finops
+  template: true
 image: https://files.readme.io/742121760e9d1bfa2dd7dd9dc8fb20dba2f79207e8c192facb4681cdb2bb5c23-logo.svg
 layout: provider
 mcp_servers:
@@ -332,17 +344,21 @@ overview: 'ShipMonk publishes 8 API contracts indexed on the [APIs.io](https://a
   The ShipMonk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ShipMonk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 38 more developer resources.'
-random_paper: 15
+  ShipMonk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
+plans:
+- name: Shipmonk Plans Pricing
+  plan_count: 0
+  slug: shipmonk-plans-pricing
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Shipmonk Rate Limits
   slug: shipmonk-rate-limits
 score:
-  band: developing
-  composite: 53.8
+  band: strong
+  composite: 59.8
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 28
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -352,10 +368,10 @@ score:
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 53.6
-    developer_ergonomics: 41.1
-    discoverability: 76.7
-    operational_transparency: 56.6
+    contract_quality: 55.9
+    developer_ergonomics: 66.1
+    discoverability: 70.0
+    operational_transparency: 76.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -363,7 +379,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 53.8
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -380,13 +396,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/screenshots/shipmonk-2026-08-17T081833.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/shipmonk/shipmonk-2026-08-17T081833.png
 security:
 - kind: authentication
   name: Shipmonk Authentication
@@ -404,6 +421,18 @@ security:
   name: Shipmonk Trust Center
   slug: shipmonk-trust-center
   summary_line: SOC 2 Type II
+skill_count: 5
+skills:
+- name: Consume ShipMonk webhooks
+  slug: shipmonk-consume-webhooks
+- name: Create and fulfill a ShipMonk order
+  slug: shipmonk-create-and-fulfill-order
+- name: Send inbound stock to ShipMonk (receiving)
+  slug: shipmonk-inbound-receiving
+- name: Process a ShipMonk return (RMA)
+  slug: shipmonk-process-return
+- name: Sync ShipMonk inventory and catalog
+  slug: shipmonk-sync-inventory
 slug: shipmonk
 tags:
 - Logistics

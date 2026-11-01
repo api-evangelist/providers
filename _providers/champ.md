@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 31
 apis:
 - description: 'The CHAMP Cargosystems Cargospot Acceptance API is a software solution that allows cargo handling agents and freight forwarders to streamline and automate the acceptance process for air shipments. By '
@@ -132,17 +134,17 @@ apis:
 artifact_total: 81
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/champ/refs/heads/main/plans/champ-plans-pricing.yml
+  href: https://artifacts.apis.io/champ/plans/champ-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/champ-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/champ/refs/heads/main/rate-limits/champ-rate-limits.yml
+  href: https://artifacts.apis.io/champ/rate-limits/champ-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/champ-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/champ/refs/heads/main/finops/champ-finops.yml
+  href: https://artifacts.apis.io/champ/finops/champ-finops.yml
   title: ''
   type: FinOps
   url: finops/champ-finops.yml
@@ -155,7 +157,7 @@ common:
   type: BlogRSS
   url: https://www.champ.aero/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/champ/refs/heads/main/security/champ-domain-security.yml
+  href: https://artifacts.apis.io/champ/security/champ-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/champ-domain-security.yml
@@ -233,7 +235,7 @@ finops:
 - has_sources: false
   method: generated
   name: Champ Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: champ-finops
   template: true
@@ -263,7 +265,7 @@ plans:
 - name: Champ Plans Pricing
   plan_count: 3
   slug: champ-plans-pricing
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Champ Rate Limits
@@ -278,7 +280,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -286,21 +288,21 @@ score:
     developer_ergonomics: 33.3
     discoverability: 71.4
     operational_transparency: 7.9
-  previous_composite: 16.1
+  previous_composite: 15.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/champ/refs/heads/main/screenshots/champ-2026-06-20T174207.png
+screenshot: https://apis.io/screenshots/champ/champ-2026-06-20T174207.png
 security:
 - kind: domain-security
   name: Champ Domain Security

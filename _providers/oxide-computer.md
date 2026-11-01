@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 28.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://{oxide-control-plane-host}
@@ -188,7 +190,7 @@ apis:
   description: Virtual Private Clouds (VPCs) provide isolated network environments for managing and deploying services.
   name: Oxide Vpcs API
   slug: oxide-computer-vpcs-api
-artifact_total: 36
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Oxide Computer Alerts Webhooks
@@ -199,12 +201,12 @@ common:
   type: BlogRSS
   url: https://oxide.computer/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/capabilities/oxide-computer-capability-edges.yml
+  href: https://artifacts.apis.io/oxide-computer/capabilities/oxide-computer-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/oxide-computer-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/overlays/oxide-computer-region-api-overlay.yaml
+  href: https://artifacts.apis.io/oxide-computer/overlays/oxide-computer-region-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oxide-computer-region-api-overlay.yaml
@@ -245,7 +247,7 @@ common:
   type: PrivacyPolicy
   url: https://oxide.computer/privacy-policy
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/changelog/oxide-computer-changelog.yml
+  href: https://artifacts.apis.io/oxide-computer/changelog/oxide-computer-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/oxide-computer-changelog.yml
@@ -254,93 +256,101 @@ common:
   type: ReleaseNotes
   url: https://docs.oxide.computer/release-notes/system
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/lifecycle/oxide-computer-lifecycle.yml
+  href: https://artifacts.apis.io/oxide-computer/lifecycle/oxide-computer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/oxide-computer-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/packages/oxide-computer-packages.yml
+  href: https://artifacts.apis.io/oxide-computer/packages/oxide-computer-packages.yml
   title: ''
   type: Packages
   url: packages/oxide-computer-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/packages/oxide-computer-packages.yml
+  href: https://artifacts.apis.io/oxide-computer/packages/oxide-computer-packages.yml
   title: ''
   type: SDKs
   url: packages/oxide-computer-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/cli/oxide-computer-cli.yml
+  href: https://artifacts.apis.io/oxide-computer/cli/oxide-computer-cli.yml
   title: ''
   type: CLI
   url: cli/oxide-computer-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/llms/oxide-computer-llms.txt
+  href: https://artifacts.apis.io/oxide-computer/llms/oxide-computer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oxide-computer-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/well-known/oxide-computer-well-known.yml
+  href: https://artifacts.apis.io/oxide-computer/well-known/oxide-computer-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/oxide-computer-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/well-known/oxide-computer-security.txt
+  href: https://artifacts.apis.io/oxide-computer/well-known/oxide-computer-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/oxide-computer-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/security/oxide-computer-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/oxide-computer/security/oxide-computer-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/oxide-computer-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/security/oxide-computer-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/oxide-computer/security/oxide-computer-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/oxide-computer-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/security/oxide-computer-domain-security.yml
+  href: https://artifacts.apis.io/oxide-computer/security/oxide-computer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oxide-computer-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/conformance/oxide-computer-conformance.yml
+  href: https://artifacts.apis.io/oxide-computer/conformance/oxide-computer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oxide-computer-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/conventions/oxide-computer-conventions.yml
+  href: https://artifacts.apis.io/oxide-computer/conventions/oxide-computer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/oxide-computer-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/data-model/oxide-computer-data-model.yml
+  href: https://artifacts.apis.io/oxide-computer/data-model/oxide-computer-data-model.yml
   title: ''
   type: DataModel
   url: data-model/oxide-computer-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/plans/oxide-computer-plans-pricing.yml
+  href: https://artifacts.apis.io/oxide-computer/plans/oxide-computer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/oxide-computer-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/rate-limits/oxide-computer-rate-limits.yml
+  href: https://artifacts.apis.io/oxide-computer/rate-limits/oxide-computer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/oxide-computer-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/oxide-computer/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/asyncapi/oxide-computer-alerts-webhooks.yml
+  href: https://artifacts.apis.io/oxide-computer/asyncapi/oxide-computer-alerts-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/oxide-computer-alerts-webhooks.yml
 created: '2026-08-26'
 description: 'Oxide Computer Company builds a rack-scale cloud computer: integrated server sleds (Gimlet), a rack-level switch (Sidecar), Oxide''s own illumos distribution (Helios), the Propolis/bhyve hypervisor and the Crucible distributed block store, all driven by a single control plane called Nexus. Nexus exposes the Oxide Region API, a 315-operation OpenAPI 3.0.3 REST contract covering silos, projects, instances, disks, snapshots, images, VPCs, subnets, firewall rules, floating and ephemeral IPs, IP pools, affinity groups, alerts and webhook receivers, audit log, metrics/OxQL, hardware inventory, BGP/BFD networking, SAML and SCIM identity, support bundles and system update. Because the product is a rack a customer owns, the API is served from the customer''s own control-plane domain rather than a vendor-hosted endpoint. Oxide publishes first-party Rust, TypeScript and Go SDKs, an `oxide` CLI, a Terraform provider and a Packer plugin, and develops essentially the entire stack in the
   open on GitHub.'
+finops:
+- has_sources: true
+  method: derived
+  name: Oxide Computer Finops
+  primary_unit: ''
+  service_category: ''
+  slug: oxide-computer-finops
+  template: true
 image: https://oxide.computer/favicon.png
 layout: provider
 modified: '2026-10-06'
@@ -358,30 +368,30 @@ plans:
 - name: Oxide Computer Plans Pricing
   plan_count: 0
   slug: oxide-computer-plans-pricing
-random_paper: 9
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Oxide Computer Rate Limits
   slug: oxide-computer-rate-limits
 score:
   band: developing
-  composite: 46.2
+  composite: 41.8
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 47.7
+    contract_quality: 44.3
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 46.1
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 41.8
   provenance:
     conformance: derived
     contracts:
@@ -397,13 +407,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/screenshots/oxide-computer-2026-09-02T150902.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/oxide-computer/oxide-computer-2026-09-02T150902.png
 security:
 - kind: authentication
   name: Oxide Computer Authentication
@@ -417,6 +428,16 @@ security:
   name: Oxide Computer Vulnerability Disclosure
   slug: oxide-computer-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 4
+skills:
+- name: oxide-configure-networking
+  slug: oxide-computer-configure-networking
+- name: oxide-manage-storage
+  slug: oxide-computer-manage-storage
+- name: oxide-provision-instance
+  slug: oxide-computer-provision-instance
+- name: oxide-receive-alerts
+  slug: oxide-computer-receive-alerts
 slug: oxide-computer
 tags:
 - Cloud Computing

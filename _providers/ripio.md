@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 32.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -108,7 +110,7 @@ apis:
   description: The WebSocket Stream API from Ripio — 0 operation(s) for websocket stream.
   name: Ripio WebSocket Stream API
   slug: ripio-websocket-stream-api
-artifact_total: 43
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Ripio Trade Webhooks
@@ -147,9 +149,6 @@ collections:
 - collection_type: postman
   name: Ripio Trade - API Documentation Book Wallets API
   slug: postman-ripio-wallets-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ripio Trade - API Documentation Book API
   slug: open-ripio-book-api
@@ -233,22 +232,22 @@ common:
   type: PrivacyPolicy
   url: https://terms.ripio.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/authentication/ripio-authentication.yml
+  href: https://artifacts.apis.io/ripio/authentication/ripio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ripio-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/security/ripio-domain-security.yml
+  href: https://artifacts.apis.io/ripio/security/ripio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ripio-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/agentic-access/ripio-agentic-access.yml
+  href: https://artifacts.apis.io/ripio/agentic-access/ripio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ripio-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/lifecycle/ripio-lifecycle.yml
+  href: https://artifacts.apis.io/ripio/lifecycle/ripio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ripio-lifecycle.yml
@@ -257,52 +256,52 @@ common:
   type: Deprecation
   url: https://apidocs.ripiotrade.co/#tag/V3-Endpoint-Migrations
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/conventions/ripio-conventions.yml
+  href: https://artifacts.apis.io/ripio/conventions/ripio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ripio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/conventions/ripio-conventions.yml
+  href: https://artifacts.apis.io/ripio/conventions/ripio-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ripio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/errors/ripio-error-codes.yml
+  href: https://artifacts.apis.io/ripio/errors/ripio-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ripio-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/rate-limits/ripio-rate-limits.yml
+  href: https://artifacts.apis.io/ripio/rate-limits/ripio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ripio-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/asyncapi/ripio-trade-webhooks.yml
+  href: https://artifacts.apis.io/ripio/asyncapi/ripio-trade-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ripio-trade-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/data-model/ripio-data-model.yml
+  href: https://artifacts.apis.io/ripio/data-model/ripio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ripio-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/mcp/ripio-mcp.yml
+  href: https://artifacts.apis.io/ripio/mcp/ripio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ripio-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/packages/ripio-packages.yml
+  href: https://artifacts.apis.io/ripio/packages/ripio-packages.yml
   title: ''
   type: Packages
   url: packages/ripio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/packages/ripio-packages.yml
+  href: https://artifacts.apis.io/ripio/packages/ripio-packages.yml
   title: ''
   type: SDKs
   url: packages/ripio-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/conformance/ripio-conformance.yml
+  href: https://artifacts.apis.io/ripio/conformance/ripio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ripio-conformance.yml
@@ -311,7 +310,7 @@ common:
   type: Compliance
   url: https://www.ripio.com/es/seguridad
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/security/ripio-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ripio/security/ripio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ripio-vulnerability-disclosure.yml
@@ -320,22 +319,22 @@ common:
   type: Security
   url: https://github.com/ripio/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/security/ripio-trust-center.yml
+  href: https://artifacts.apis.io/ripio/security/ripio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ripio-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ripio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/llms/ripio-llms.txt
+  href: https://artifacts.apis.io/ripio/llms/ripio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ripio-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/overlays/ripio-trade-overlay.yaml
+  href: https://artifacts.apis.io/ripio/overlays/ripio-trade-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ripio-trade-overlay.yaml
@@ -361,7 +360,7 @@ rate_limits:
   slug: ripio-rate-limits
 score:
   band: strong
-  composite: 58.3
+  composite: 57.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 49.0
@@ -369,20 +368,20 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.5
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 54.8
+    contract_quality: 55.7
     developer_ergonomics: 64.9
-    discoverability: 73.2
-    operational_transparency: 72.4
+    discoverability: 66.1
+    operational_transparency: 78.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 58.2
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -399,13 +398,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/screenshots/ripio-2026-08-17T081611.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ripio/ripio-2026-08-17T081611.png
 security:
 - kind: authentication
   name: Ripio Authentication
@@ -423,6 +423,12 @@ security:
   name: Ripio Trust Center
   slug: ripio-trust-center
   summary_line: SOC 2 Type II
+skill_count: 2
+skills:
+- name: Withdraw cryptocurrency from Ripio Trade
+  slug: ripio-crypto-withdrawal
+- name: Place and manage a Ripio Trade order
+  slug: ripio-place-and-manage-order
 slug: ripio
 tags:
 - Company

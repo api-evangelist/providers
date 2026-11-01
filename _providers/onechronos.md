@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Order entry and execution for the OneChronos US equities dark ATS over a modern variant of the FIX 4.2 protocol. Standard and Target orders, and Expressive Bids, are submitted electronically via FIX o
@@ -87,27 +89,27 @@ common:
   type: PrivacyPolicy
   url: https://www.onechronos.com/legal/privacy-policy/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/onechronos/refs/heads/main/packages/onechronos-packages.yml
+  href: https://artifacts.apis.io/onechronos/packages/onechronos-packages.yml
   title: ''
   type: Packages
   url: packages/onechronos-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onechronos/refs/heads/main/well-known/onechronos-well-known.yml
+  href: https://artifacts.apis.io/onechronos/well-known/onechronos-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/onechronos-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onechronos/refs/heads/main/conformance/onechronos-conformance.yml
+  href: https://artifacts.apis.io/onechronos/conformance/onechronos-conformance.yml
   title: ''
   type: Conformance
   url: conformance/onechronos-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onechronos/refs/heads/main/security/onechronos-domain-security.yml
+  href: https://artifacts.apis.io/onechronos/security/onechronos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onechronos-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onechronos/refs/heads/main/llms/onechronos-llms.txt
+  href: https://artifacts.apis.io/onechronos/llms/onechronos-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/onechronos-llms.txt
@@ -123,10 +125,10 @@ overview: 'OneChronos is listed with 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   OneChronos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 8
+random_paper: 6
 score:
   band: emerging
-  composite: 21.7
+  composite: 21.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 35.0
@@ -140,9 +142,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 69.6
-    operational_transparency: 2.6
-  previous_composite: 21.7
+    discoverability: 62.5
+    operational_transparency: 5.3
+  previous_composite: 21.4
   provenance:
     conformance: first-party
   regulatory:
@@ -151,14 +153,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/onechronos/refs/heads/main/screenshots/onechronos-2026-08-07T190304.png
+screenshot: https://apis.io/screenshots/onechronos/onechronos-2026-08-07T190304.png
 security:
 - kind: domain-security
   name: Onechronos Domain Security

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: A public, unauthenticated JSON API served by the Wand platform status page. It reports overall platform health, the four Wand products and the twenty-two production services behind them, plus thirty-d
@@ -42,7 +44,7 @@ common:
   type: BlogRSS
   url: https://wand.ai/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/security/wand-ai-domain-security.yml
+  href: https://artifacts.apis.io/wand-ai/security/wand-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wand-ai-domain-security.yml
@@ -83,62 +85,62 @@ common:
   type: StatusPage
   url: https://status.wand.ai/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/llms/wand-ai-llms.txt
+  href: https://artifacts.apis.io/wand-ai/llms/wand-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wand-ai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/well-known/wand-ai-well-known.yml
+  href: https://artifacts.apis.io/wand-ai/well-known/wand-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wand-ai-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/well-known/wand-ai-security.txt
+  href: https://artifacts.apis.io/wand-ai/well-known/wand-ai-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/wand-ai-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/security/wand-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/wand-ai/security/wand-ai-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/wand-ai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/authentication/wand-ai-authentication.yml
+  href: https://artifacts.apis.io/wand-ai/authentication/wand-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wand-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/scopes/wand-ai-scopes.yml
+  href: https://artifacts.apis.io/wand-ai/scopes/wand-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/wand-ai-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/conformance/wand-ai-conformance.yml
+  href: https://artifacts.apis.io/wand-ai/conformance/wand-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wand-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/lifecycle/wand-ai-lifecycle.yml
+  href: https://artifacts.apis.io/wand-ai/lifecycle/wand-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wand-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/conventions/wand-ai-conventions.yml
+  href: https://artifacts.apis.io/wand-ai/conventions/wand-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wand-ai-conventions.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/plans/wand-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/wand-ai/plans/wand-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wand-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/rate-limits/wand-ai-rate-limits.yml
+  href: https://artifacts.apis.io/wand-ai/rate-limits/wand-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wand-ai-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/security/wand-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/wand-ai/security/wand-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wand-ai-vulnerability-disclosure.yml
@@ -158,7 +160,7 @@ plans:
 - name: Wand Ai Plans Pricing
   plan_count: 0
   slug: wand-ai-plans-pricing
-random_paper: 13
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Wand Ai Rate Limits
@@ -170,7 +172,7 @@ scopes:
   summary_line: 11 scopes
 score:
   band: emerging
-  composite: 24.2
+  composite: 23.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 40.0
@@ -178,15 +180,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 78.6
-    operational_transparency: 28.9
-  previous_composite: 24.1
+    discoverability: 71.4
+    operational_transparency: 31.6
+  previous_composite: 23.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -196,14 +198,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/screenshots/wand-ai-2026-10-11T133245.png
+screenshot: https://apis.io/screenshots/wand-ai/wand-ai-2026-10-11T133245.png
 security:
 - kind: authentication
   name: Wand Ai Authentication

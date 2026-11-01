@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 20.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -85,11 +87,8 @@ apis:
   description: Rancher users.
   name: Rancher Users API
   slug: rancher-users-api
-artifact_total: 36
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Rancher Management Apps API
   slug: open-rancher-apps-api
@@ -118,23 +117,27 @@ collections:
   name: Rancher Management Apps Users API
   slug: open-rancher-users-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/rancher/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/plans/rancher-plans-pricing.yml
+  href: https://artifacts.apis.io/rancher/plans/rancher-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rancher-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/rate-limits/rancher-rate-limits.yml
+  href: https://artifacts.apis.io/rancher/rate-limits/rancher-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rancher-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/finops/rancher-finops.yml
+  href: https://artifacts.apis.io/rancher/finops/rancher-finops.yml
   title: ''
   type: FinOps
   url: finops/rancher-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/capabilities/rancher-capability-edges.yml
+  href: https://artifacts.apis.io/rancher/capabilities/rancher-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rancher-capability-edges.yml
@@ -159,17 +162,17 @@ common:
   type: License
   url: https://github.com/rancher/rancher/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/agentic-access/rancher-agentic-access.yml
+  href: https://artifacts.apis.io/rancher/agentic-access/rancher-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rancher-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/security/rancher-domain-security.yml
+  href: https://artifacts.apis.io/rancher/security/rancher-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rancher-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/authentication/rancher-authentication.yml
+  href: https://artifacts.apis.io/rancher/authentication/rancher-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rancher-authentication.yml
@@ -210,7 +213,7 @@ common:
   type: Support
   url: https://www.rancher.com/support-maintenance-terms
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/vocabulary/rancher-vocabulary.yml
+  href: https://artifacts.apis.io/rancher/vocabulary/rancher-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/rancher-vocabulary.yml
@@ -227,11 +230,11 @@ examples:
   name: Rancher List Projects Example
   slug: rancher-list-projects-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Rancher Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: rancher-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rancher.png
@@ -271,12 +274,12 @@ overview: 'Rancher publishes 8 API contracts indexed on the [APIs.io](https://ap
   The Rancher catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Rancher''s developer surface includes authentication, documentation, engineering blog, pricing, signup flow, support, and 16 more developer resources.'
+  Rancher''s developer surface includes authentication, documentation, engineering blog, pricing, signup flow, support, and 17 more developer resources.'
 plans:
 - name: Rancher Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: rancher-plans-pricing
-random_paper: 13
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Rancher Rate Limits
@@ -307,26 +310,23 @@ rules:
   slug: rancher-rules
 score:
   band: developing
-  composite: 43.8
+  composite: 41.2
   coverage:
     artifact_dirs: 19
-    catalog_earned: 69.0
+    catalog_earned: 66.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: -6.1
   facets:
-    access_clarity: 31.6
+    access_clarity: 23.7
     contract_governance: 27.3
     contract_quality: 57.1
-    developer_ergonomics: 40.5
+    developer_ergonomics: 41.7
     discoverability: 66.1
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 45.2
+    operational_transparency: 28.9
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -340,13 +340,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/screenshots/rancher-2026-06-20T192552.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rancher/rancher-2026-06-20T192552.png
 security:
 - kind: authentication
   name: Rancher Authentication

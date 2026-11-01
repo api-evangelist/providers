@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.7
-  scored_at: '2026-10-17'
+  score: 35.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,14 +51,11 @@ apis:
   description: Operations on Google Docs documents
   name: Google Docs Documents API
   slug: google-docs-documents-api
-artifact_total: 403
+artifact_total: 402
 collections:
 - collection_type: postman
   name: Google Docs Documents API
   slug: postman-google-docs-documents-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Docs API
   slug: open-google-docs-api-v1
@@ -65,17 +64,17 @@ collections:
   slug: open-google-docs-documents-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/plans/google-docs-plans-pricing.yml
+  href: https://artifacts.apis.io/google-docs/plans/google-docs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-docs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/rate-limits/google-docs-rate-limits.yml
+  href: https://artifacts.apis.io/google-docs/rate-limits/google-docs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-docs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/finops/google-docs-finops.yml
+  href: https://artifacts.apis.io/google-docs/finops/google-docs-finops.yml
   title: ''
   type: FinOps
   url: finops/google-docs-finops.yml
@@ -88,27 +87,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-docs/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/agentic-access/google-docs-agentic-access.yml
+  href: https://artifacts.apis.io/google-docs/agentic-access/google-docs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-docs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/security/google-docs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-docs/security/google-docs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-docs-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/security/google-docs-domain-security.yml
+  href: https://artifacts.apis.io/google-docs/security/google-docs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-docs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/authentication/google-docs-authentication.yml
+  href: https://artifacts.apis.io/google-docs/authentication/google-docs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-docs-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/scopes/google-docs-scopes.yml
+  href: https://artifacts.apis.io/google-docs/scopes/google-docs-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-docs-scopes.yml
@@ -145,12 +144,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/googleapis
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/rules/google-docs-spectral-rules.yml
+  href: https://artifacts.apis.io/google-docs/rules/google-docs-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/google-docs-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/vocabulary/google-docs-vocabulary.yaml
+  href: https://artifacts.apis.io/google-docs/vocabulary/google-docs-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/google-docs-vocabulary.yaml
@@ -540,11 +539,11 @@ features:
 - description: Use named ranges and text replacement to merge data into document templates at scale.
   name: Template Automation
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Google Docs Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: google-docs-finops
   template: true
 image: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
@@ -1325,9 +1324,9 @@ overview: 'Google Docs publishes 1 API contract indexed on the [APIs.io](https:/
   Google Docs'' developer surface includes authentication, developer portal, getting-started guide, engineering blog, and 16 more developer resources.'
 plans:
 - name: Google Docs Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: google-docs-plans-pricing
-random_paper: 7
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Google Docs Rate Limits
@@ -1363,23 +1362,28 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.5
+  composite: 63.0
   coverage:
     artifact_dirs: 20
-    catalog_earned: 64.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_earned: 69.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -2.1
   facets:
-    access_clarity: 39.5
+    access_clarity: 52.6
     contract_governance: 27.3
     contract_quality: 70.0
-    developer_ergonomics: 67.9
+    developer_ergonomics: 75.0
     discoverability: 57.1
-    operational_transparency: 42.1
-  previous_composite: 58.0
+    operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1393,13 +1397,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/screenshots/google-docs-2026-06-20T182203.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-docs/google-docs-2026-06-20T182203.png
 security:
 - kind: authentication
   name: Google Docs Authentication

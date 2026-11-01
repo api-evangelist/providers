@@ -14,51 +14,53 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-17'
+  score: 26.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/banner-technologies/refs/heads/main/well-known/banner-technologies-withbanner-security.txt
+  href: https://artifacts.apis.io/banner-technologies/well-known/banner-technologies-withbanner-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/banner-technologies-withbanner-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/banner-technologies/refs/heads/main/llms/banner-technologies-llms.txt
+  href: https://artifacts.apis.io/banner-technologies/llms/banner-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/banner-technologies-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/banner-technologies/refs/heads/main/a2a/banner-technologies-a2a.yml
+  href: https://artifacts.apis.io/banner-technologies/a2a/banner-technologies-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/banner-technologies-a2a.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/banner-technologies/refs/heads/main/well-known/banner-technologies-docs-security.txt
+  href: https://artifacts.apis.io/banner-technologies/well-known/banner-technologies-docs-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/banner-technologies-docs-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/banner-technologies/refs/heads/main/well-known/banner-technologies-well-known.yml
+  href: https://artifacts.apis.io/banner-technologies/well-known/banner-technologies-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/banner-technologies-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/banner-technologies/refs/heads/main/hosts/banner-technologies-hosts.yml
+  href: https://artifacts.apis.io/banner-technologies/hosts/banner-technologies-hosts.yml
   title: ''
   type: Hosts
   url: hosts/banner-technologies-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/banner-technologies/refs/heads/main/vendors/banner-technologies-vendors.yml
+  href: https://artifacts.apis.io/banner-technologies/vendors/banner-technologies-vendors.yml
   title: ''
   type: Vendors
   url: vendors/banner-technologies-vendors.yml
@@ -71,7 +73,7 @@ common:
   type: DeveloperPortal
   url: https://withbanner.com/home/solutions/developers
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/banner-technologies/refs/heads/main/security/banner-technologies-domain-security.yml
+  href: https://artifacts.apis.io/banner-technologies/security/banner-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/banner-technologies-domain-security.yml
@@ -119,10 +121,10 @@ overview: 'Banner Technologies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Banner Technologies'' developer surface includes documentation, support, engineering blog, and 13 more developer resources.'
-random_paper: 1
+random_paper: 15
 score:
   band: emerging
-  composite: 17.7
+  composite: 18.4
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -136,9 +138,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 55.4
-    operational_transparency: 15.8
-  previous_composite: 17.7
+    discoverability: 48.2
+    operational_transparency: 26.3
+  previous_composite: 18.4
   provenance:
     mcp: unknown
   regulatory:
@@ -147,14 +149,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/banner-technologies/refs/heads/main/screenshots/banner-technologies-2026-10-11T101530.png
+screenshot: https://apis.io/screenshots/banner-technologies/banner-technologies-2026-10-11T101530.png
 security:
 - kind: domain-security
   name: Banner Technologies Domain Security

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,11 +62,8 @@ apis:
   description: Aviation weather data operations
   name: United Technologies Weather API
   slug: united-technologies-weather-api
-artifact_total: 58
+artifact_total: 57
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Collins Aerospace ARINC Messaging API
   slug: open-united-technologies-arinc-messaging
@@ -78,33 +77,37 @@ collections:
   name: Collins Aerospace ARINC Messaging Flights Weather API
   slug: open-united-technologies-weather-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/united-technologies/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/plans/united-technologies-plans-pricing.yml
+  href: https://artifacts.apis.io/united-technologies/plans/united-technologies-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/united-technologies-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/rate-limits/united-technologies-rate-limits.yml
+  href: https://artifacts.apis.io/united-technologies/rate-limits/united-technologies-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/united-technologies-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/finops/united-technologies-finops.yml
+  href: https://artifacts.apis.io/united-technologies/finops/united-technologies-finops.yml
   title: ''
   type: FinOps
   url: finops/united-technologies-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/agentic-access/united-technologies-agentic-access.yml
+  href: https://artifacts.apis.io/united-technologies/agentic-access/united-technologies-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/united-technologies-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/security/united-technologies-domain-security.yml
+  href: https://artifacts.apis.io/united-technologies/security/united-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/united-technologies-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/authentication/united-technologies-authentication.yml
+  href: https://artifacts.apis.io/united-technologies/authentication/united-technologies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/united-technologies-authentication.yml
@@ -125,12 +128,12 @@ common:
   type: Documentation
   url: https://www.rtx.com/collinsaerospace/what-we-do/industries/commercial-aviation/ground-operations/messaging-data-exchange
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/rules/united-technologies-spectral-rules.yml
+  href: https://artifacts.apis.io/united-technologies/rules/united-technologies-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/united-technologies-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/vocabulary/united-technologies-vocabulary.yaml
+  href: https://artifacts.apis.io/united-technologies/vocabulary/united-technologies-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/united-technologies-vocabulary.yaml
@@ -183,7 +186,7 @@ finops:
 - has_sources: false
   method: generated
   name: United Technologies Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: united-technologies-finops
   template: true
@@ -263,7 +266,7 @@ overview: 'United Technologies is listed with 3 APIs on the [APIs.io](https://ap
   The United Technologies catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  United Technologies'' developer surface includes authentication, developer portal, documentation, engineering blog, and 9 more developer resources.'
+  United Technologies'' developer surface includes authentication, developer portal, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: United Technologies Plans Pricing
   plan_count: 3
@@ -284,7 +287,7 @@ press:
 - date: ''
   title: United Technologies - Oak Ridge Leadership Computing Facility
   url: https://www.olcf.ornl.gov/tag/united-technologies/
-random_paper: 20
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: United Technologies Rate Limits
@@ -315,7 +318,7 @@ rules:
   slug: united-technologies-spectral-rules
 score:
   band: thin
-  composite: 26.9
+  composite: 27.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 75.0
@@ -323,12 +326,12 @@ score:
     catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.2
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 30.6
-    developer_ergonomics: 33.3
+    developer_ergonomics: 34.5
     discoverability: 71.4
     operational_transparency: 7.9
   jurisdiction:
@@ -336,7 +339,7 @@ score:
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 28.4
+  previous_composite: 27.6
   provenance:
     agentic_access: derived
     contracts:
@@ -350,13 +353,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/screenshots/united-technologies-2026-06-20T200101.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/united-technologies/united-technologies-2026-06-20T200101.png
 security:
 - kind: authentication
   name: United Technologies Authentication

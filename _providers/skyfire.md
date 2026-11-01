@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.4
-  scored_at: '2026-10-17'
+  score: 32.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -73,40 +75,45 @@ apis:
   description: The Tokens API from Skyfire — 4 operation(s) for tokens.
   name: Skyfire Tokens API
   slug: skyfire-tokens-api
-artifact_total: 15
+artifact_total: 17
 common:
+- group: other
+  href: https://artifacts.apis.io/skyfire/capabilities/skyfire-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/skyfire-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/agentic-access/skyfire-agentic-access.yml
+  href: https://artifacts.apis.io/skyfire/agentic-access/skyfire-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/skyfire-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/rules/skyfire-rules.yml
+  href: https://artifacts.apis.io/skyfire/rules/skyfire-rules.yml
   title: ''
   type: Spectral
   url: rules/skyfire-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/json-ld/skyfire-context.jsonld
+  href: https://artifacts.apis.io/skyfire/json-ld/skyfire-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/skyfire-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/vocabulary/skyfire-vocabulary.yml
+  href: https://artifacts.apis.io/skyfire/vocabulary/skyfire-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/skyfire-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/errors/skyfire-problem-types.yml
+  href: https://artifacts.apis.io/skyfire/errors/skyfire-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/skyfire-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/hosts/skyfire-hosts.yml
+  href: https://artifacts.apis.io/skyfire/hosts/skyfire-hosts.yml
   title: ''
   type: Hosts
   url: hosts/skyfire-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/vendors/skyfire-vendors.yml
+  href: https://artifacts.apis.io/skyfire/vendors/skyfire-vendors.yml
   title: ''
   type: Vendors
   url: vendors/skyfire-vendors.yml
@@ -167,77 +174,77 @@ common:
   type: GitHubOrganization
   url: https://github.com/skyfire-xyz
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/authentication/skyfire-authentication.yml
+  href: https://artifacts.apis.io/skyfire/authentication/skyfire-authentication.yml
   title: ''
   type: Authentication
   url: authentication/skyfire-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/mcp/skyfire-mcp.yml
+  href: https://artifacts.apis.io/skyfire/mcp/skyfire-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/skyfire-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/llms/skyfire-llms.txt
+  href: https://artifacts.apis.io/skyfire/llms/skyfire-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/skyfire-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/packages/skyfire-packages.yml
+  href: https://artifacts.apis.io/skyfire/packages/skyfire-packages.yml
   title: ''
   type: Packages
   url: packages/skyfire-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/packages/skyfire-packages.yml
+  href: https://artifacts.apis.io/skyfire/packages/skyfire-packages.yml
   title: ''
   type: SDKs
   url: packages/skyfire-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/well-known/skyfire-well-known.yml
+  href: https://artifacts.apis.io/skyfire/well-known/skyfire-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/skyfire-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/errors/skyfire-error-codes.yml
+  href: https://artifacts.apis.io/skyfire/errors/skyfire-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/skyfire-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/conformance/skyfire-conformance.yml
+  href: https://artifacts.apis.io/skyfire/conformance/skyfire-conformance.yml
   title: ''
   type: Conformance
   url: conformance/skyfire-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/lifecycle/skyfire-lifecycle.yml
+  href: https://artifacts.apis.io/skyfire/lifecycle/skyfire-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/skyfire-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/conventions/skyfire-conventions.yml
+  href: https://artifacts.apis.io/skyfire/conventions/skyfire-conventions.yml
   title: ''
   type: Conventions
   url: conventions/skyfire-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/sandbox/skyfire-sandbox.yml
+  href: https://artifacts.apis.io/skyfire/sandbox/skyfire-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/skyfire-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/components/skyfire-components.yml
+  href: https://artifacts.apis.io/skyfire/components/skyfire-components.yml
   title: ''
   type: Components
   url: components/skyfire-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/data-model/skyfire-data-model.yml
+  href: https://artifacts.apis.io/skyfire/data-model/skyfire-data-model.yml
   title: ''
   type: DataModel
   url: data-model/skyfire-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/security/skyfire-domain-security.yml
+  href: https://artifacts.apis.io/skyfire/security/skyfire-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skyfire-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/skills/skyfire-skyfire.md
+  href: https://artifacts.apis.io/skyfire/skills/skyfire-skyfire.md
   title: ''
   type: AgentSkill
   url: skills/skyfire-skyfire.md
@@ -274,8 +281,8 @@ overview: 'Skyfire publishes 6 API contracts indexed on the [APIs.io](https://ap
   The Skyfire catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Skyfire''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, support, authentication, and 29 more developer resources.'
-random_paper: 17
+  Skyfire''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, support, authentication, and 30 more developer resources.'
+random_paper: 21
 rules:
 - authorship: generated
   effective_rule_count: 54
@@ -291,23 +298,23 @@ rules:
   slug: skyfire-rules
 score:
   band: developing
-  composite: 44.1
+  composite: 50.6
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 17.6
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 35.6
     contract_quality: 62.5
-    developer_ergonomics: 59.5
-    discoverability: 80.0
-    operational_transparency: 2.6
-  previous_composite: 26.5
+    developer_ergonomics: 78.6
+    discoverability: 70.0
+    operational_transparency: 5.3
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -324,13 +331,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/screenshots/skyfire-2026-09-02T155756.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/skyfire/skyfire-2026-09-02T155756.png
 security:
 - kind: authentication
   name: Skyfire Authentication
@@ -340,6 +348,12 @@ security:
   name: Skyfire Domain Security
   slug: skyfire-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: skyfire
+  slug: skyfire-AGENTS
+- name: skyfire
+  slug: skyfire-skyfire
 slug: skyfire
 tags:
 - Company

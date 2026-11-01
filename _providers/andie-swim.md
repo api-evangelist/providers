@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.5
-  scored_at: '2026-10-17'
+  score: 7.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for Andie Swim e-commerce platform
@@ -32,27 +34,27 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/andie-swim/refs/heads/main/llms/andie-swim-llms.txt
+  href: https://artifacts.apis.io/andie-swim/llms/andie-swim-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/andie-swim-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/andie-swim/refs/heads/main/well-known/andie-swim-well-known.yml
+  href: https://artifacts.apis.io/andie-swim/well-known/andie-swim-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/andie-swim-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/andie-swim/refs/heads/main/hosts/andie-swim-hosts.yml
+  href: https://artifacts.apis.io/andie-swim/hosts/andie-swim-hosts.yml
   title: ''
   type: Hosts
   url: hosts/andie-swim-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/andie-swim/refs/heads/main/vendors/andie-swim-vendors.yml
+  href: https://artifacts.apis.io/andie-swim/vendors/andie-swim-vendors.yml
   title: ''
   type: Vendors
   url: vendors/andie-swim-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/andie-swim/refs/heads/main/security/andie-swim-domain-security.yml
+  href: https://artifacts.apis.io/andie-swim/security/andie-swim-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/andie-swim-domain-security.yml
@@ -69,10 +71,10 @@ name: Andie Swim
 nav: Providers
 network: true
 overview: Andie Swim is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Swimwear, Fashion, E-Commerce, InclusiveSizing, and Lifestyle.
-random_paper: 16
+random_paper: 22
 score:
   band: minimal
-  composite: 5.1
+  composite: 4.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 32.0
@@ -80,15 +82,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 5.0
+  previous_composite: 4.3
   provenance:
     mcp: unknown
   regulatory:
@@ -97,14 +99,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/andie-swim/refs/heads/main/screenshots/andie-swim-2026-10-11T094019.png
+screenshot: https://apis.io/screenshots/andie-swim/andie-swim-2026-10-11T094019.png
 security:
 - kind: domain-security
   name: Andie Swim Domain Security

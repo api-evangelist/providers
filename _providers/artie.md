@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.9
-  scored_at: '2026-10-17'
+  score: 24.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -94,15 +96,22 @@ apis:
   description: The Artie API API from Artie — 0 operation(s) for artie api.
   name: Artie API
   slug: artie-artie-api-api
-artifact_total: 24
+- baseURL: https://api.artie.com
+  baseurl_source: declared
+  description: The Company API from Artie — 1 operation(s) for company.
+  name: Artie Company API
+  slug: artie-company-api
+- baseURL: https://api.artie.com
+  baseurl_source: declared
+  description: The Kafka Clusters API from Artie — 19 operation(s) for kafka clusters.
+  name: Artie Kafka Clusters API
+  slug: artie-kafka-clusters-api
+artifact_total: 31
 asyncapis:
 - description: Webhook event surface for Artie, derived from the webhook payload schemas published in the Artie OpenAPI. Artie POSTs an Event Payload (PayloadsWebhookEnvelope / discriminated by the `event` field) to
   name: Artie Webhooks
   slug: artie-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Artie Column Hashing Salts API
   slug: open-artie-column-hashing-salts-api
@@ -131,23 +140,28 @@ collections:
   name: Artie Column Hashing Salts SSH Tunnels API
   slug: open-artie-ssh-tunnels-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/artie/plans/artie-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/artie-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/capabilities/artie-capability-edges.yml
+  href: https://artifacts.apis.io/artie/capabilities/artie-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/artie-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/overlays/artie-openapi-overlay.yaml
+  href: https://artifacts.apis.io/artie/overlays/artie-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/artie-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/security/artie-domain-security.yml
+  href: https://artifacts.apis.io/artie/security/artie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/artie-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/authentication/artie-authentication.yml
+  href: https://artifacts.apis.io/artie/authentication/artie-authentication.yml
   title: ''
   type: Authentication
   url: authentication/artie-authentication.yml
@@ -208,115 +222,130 @@ common:
   type: TrustCenter
   url: https://trust.artie.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/llms/artie-llms.txt
+  href: https://artifacts.apis.io/artie/llms/artie-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/artie-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/packages/artie-packages.yml
+  href: https://artifacts.apis.io/artie/packages/artie-packages.yml
   title: ''
   type: Packages
   url: packages/artie-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/cli/artie-cli.yml
+  href: https://artifacts.apis.io/artie/cli/artie-cli.yml
   title: ''
   type: CLI
   url: cli/artie-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/mcp/artie-mcp.yml
+  href: https://artifacts.apis.io/artie/mcp/artie-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/artie-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/conventions/artie-conventions.yml
+  href: https://artifacts.apis.io/artie/conventions/artie-conventions.yml
   title: ''
   type: Conventions
   url: conventions/artie-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/errors/artie-problem-types.yml
+  href: https://artifacts.apis.io/artie/errors/artie-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/artie-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/lifecycle/artie-lifecycle.yml
+  href: https://artifacts.apis.io/artie/lifecycle/artie-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/artie-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/changelog/artie-changelog.yml
+  href: https://artifacts.apis.io/artie/changelog/artie-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/artie-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/conformance/artie-conformance.yml
+  href: https://artifacts.apis.io/artie/conformance/artie-conformance.yml
   title: ''
   type: Conformance
   url: conformance/artie-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/data-model/artie-data-model.yml
+  href: https://artifacts.apis.io/artie/data-model/artie-data-model.yml
   title: ''
   type: DataModel
   url: data-model/artie-data-model.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/asyncapi/artie-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/artie/asyncapi/artie-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/artie-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/asyncapi/artie-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/artie/asyncapi/artie-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/artie-webhooks-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/artie/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/agentic-access/artie-agentic-access.yml
+  href: https://artifacts.apis.io/artie/agentic-access/artie-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/artie-agentic-access.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/ai-catalog/artie-ai-catalog.yml
+  href: https://artifacts.apis.io/artie/ai-catalog/artie-ai-catalog.yml
   title: ''
   type: AICatalog
   url: ai-catalog/artie-ai-catalog.yml
 created: '2026-07-17'
 description: Artie is a real-time data replication platform that streams database changes to cloud data warehouses and lakehouses with sub-minute latency and exactly-once delivery. It captures change data (CDC) from sources such as PostgreSQL, MySQL, MongoDB, Oracle, and DynamoDB and continuously merges them into destinations including Snowflake, BigQuery, Databricks, Redshift, and Apache Iceberg, eliminating the need to build and operate Kafka or Debezium infrastructure. Artie handles advanced backfills, schema evolution, column-level encryption and hashing, data catalog search, PrivateLink/SSH connectivity, and observability, and exposes a REST API plus a webhook event stream so teams can programmatically manage pipelines, connectors, and source readers. Artie is venture-backed by Canaan Partners and General Catalyst.
+finops:
+- has_sources: true
+  method: derived
+  name: Artie Finops
+  primary_unit: billable rows
+  service_category: ''
+  slug: artie-finops
+  template: false
 image: https://avatars.githubusercontent.com/artie-labs
 layout: provider
 modified: '2026-09-16'
 name: Artie
 nav: Providers
 network: true
-overview: 'Artie publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Column Hashing Salts API, Connectors API, Data Catalog API, and 7 more. Tagged areas include Company, Data Replication, Change Data Capture, Data Integration, and ETL.
+overview: 'Artie publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Column Hashing Salts API, Connectors API, Data Catalog API, and 9 more. Tagged areas include Company, Data Replication, Change Data Capture, Data Integration, and ETL.
 
 
   The Artie catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Artie''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 26 more developer resources.'
+  Artie''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
+plans:
+- name: Artie Plans Pricing
+  plan_count: 3
+  slug: artie-plans-pricing
+- name: Artie Price Estimates
+  plan_count: 0
+  slug: artie-price-estimates
 random_paper: 5
 score:
-  band: developing
-  composite: 48.0
+  band: strong
+  composite: 59.1
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 8.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 59.1
-    developer_ergonomics: 56.5
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 47.9
+    contract_quality: 57.5
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -324,7 +353,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 10
+      total: 21
     mcp: derived
     skills: derived
   regulatory:
@@ -333,13 +362,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/screenshots/artie-2026-07-25T201330.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/artie/artie-2026-07-25T201330.png
 security:
 - kind: authentication
   name: Artie Authentication
@@ -349,6 +379,14 @@ security:
   name: Artie Domain Security
   slug: artie-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Create and start a replication pipeline
+  slug: artie-create-and-start-pipeline
+- name: Search the data catalog
+  slug: artie-search-data-catalog
+- name: Configure column encryption and hashing
+  slug: artie-secure-columns
 slug: artie
 tags:
 - Company

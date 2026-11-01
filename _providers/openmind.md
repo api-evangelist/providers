@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Unified chat-completions endpoint that proxies multiple LLM providers (OpenAI, Anthropic via OpenRouter, Google Gemini, X.AI, DeepSeek, NEAR.AI) through a single OpenAI-compatible interface authentica
@@ -46,7 +48,7 @@ apis:
 - description: Account and API-key management API (create/delete/list keys, account OMCU balance) at api.openmind.com/api/core, authenticated with a Clerk-issued JWT bearer token.
   name: OpenMind Core API
   slug: openmind-core-api
-artifact_total: 6
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -89,87 +91,87 @@ common:
   type: GitHubOrganization
   url: https://github.com/OpenMind
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/llms/openmind-llms.txt
+  href: https://artifacts.apis.io/openmind/llms/openmind-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openmind-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/packages/openmind-packages.yml
+  href: https://artifacts.apis.io/openmind/packages/openmind-packages.yml
   title: ''
   type: Packages
   url: packages/openmind-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/packages/openmind-packages.yml
+  href: https://artifacts.apis.io/openmind/packages/openmind-packages.yml
   title: ''
   type: SDKs
   url: packages/openmind-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/cli/openmind-cli.yml
+  href: https://artifacts.apis.io/openmind/cli/openmind-cli.yml
   title: ''
   type: CLI
   url: cli/openmind-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/mcp/openmind-mcp.yml
+  href: https://artifacts.apis.io/openmind/mcp/openmind-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/openmind-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/authentication/openmind-authentication.yml
+  href: https://artifacts.apis.io/openmind/authentication/openmind-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openmind-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/conventions/openmind-conventions.yml
+  href: https://artifacts.apis.io/openmind/conventions/openmind-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openmind-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/errors/openmind-problem-types.yml
+  href: https://artifacts.apis.io/openmind/errors/openmind-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/openmind-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/lifecycle/openmind-lifecycle.yml
+  href: https://artifacts.apis.io/openmind/lifecycle/openmind-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openmind-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/changelog/openmind-changelog.yml
+  href: https://artifacts.apis.io/openmind/changelog/openmind-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openmind-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/conformance/openmind-conformance.yml
+  href: https://artifacts.apis.io/openmind/conformance/openmind-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openmind-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/data-model/openmind-data-model.yml
+  href: https://artifacts.apis.io/openmind/data-model/openmind-data-model.yml
   title: ''
   type: DataModel
   url: data-model/openmind-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/sandbox/openmind-sandbox.yml
+  href: https://artifacts.apis.io/openmind/sandbox/openmind-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/openmind-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/rate-limits/openmind-rate-limits.yml
+  href: https://artifacts.apis.io/openmind/rate-limits/openmind-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/openmind-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/plans/openmind-plans.yml
+  href: https://artifacts.apis.io/openmind/plans/openmind-plans.yml
   title: ''
   type: Plans
   url: plans/openmind-plans.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/openmind/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/security/openmind-domain-security.yml
+  href: https://artifacts.apis.io/openmind/security/openmind-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openmind-domain-security.yml
@@ -190,14 +192,14 @@ plans:
 - name: Openmind Plans
   plan_count: 6
   slug: openmind-plans
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Openmind Rate Limits
   slug: openmind-rate-limits
 score:
-  band: thin
-  composite: 37.0
+  band: developing
+  composite: 41.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 61.0
@@ -205,15 +207,15 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 55.3
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 70.8
-    discoverability: 73.2
-    operational_transparency: 50.0
-  previous_composite: 36.5
+    developer_ergonomics: 80.4
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 41.2
   provenance:
     conformance: derived
     mcp: derived
@@ -224,14 +226,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/screenshots/openmind-2026-08-07T190620.png
+screenshot: https://apis.io/screenshots/openmind/openmind-2026-08-07T190620.png
 security:
 - kind: authentication
   name: Openmind Authentication
@@ -241,6 +243,14 @@ security:
   name: Openmind Domain Security
   slug: openmind-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Run a multi-provider LLM chat completion
+  slug: openmind-llm-chat
+- name: Manage OpenMind API keys and balance
+  slug: openmind-manage-api-keys
+- name: Map and navigate a robot with the OM1 ROS2 SDK
+  slug: openmind-robot-navigation
 slug: openmind
 tags:
 - Company

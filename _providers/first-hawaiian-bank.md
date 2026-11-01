@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: First Hawaiian Bank exposes no public first-party API. Consumer-permissioned account and transaction data is available only through third-party financial data aggregators such as Plaid, which handle a
@@ -42,17 +44,17 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/first-hawaiian-bank/refs/heads/main/security/first-hawaiian-bank-domain-security.yml
+  href: https://artifacts.apis.io/first-hawaiian-bank/security/first-hawaiian-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/first-hawaiian-bank-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/first-hawaiian-bank/refs/heads/main/llms/first-hawaiian-bank-llms.txt
+  href: https://artifacts.apis.io/first-hawaiian-bank/llms/first-hawaiian-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/first-hawaiian-bank-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/first-hawaiian-bank/refs/heads/main/well-known/first-hawaiian-bank-well-known.yml
+  href: https://artifacts.apis.io/first-hawaiian-bank/well-known/first-hawaiian-bank-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/first-hawaiian-bank-well-known.yml
@@ -93,10 +95,10 @@ overview: 'First Hawaiian Bank is listed with 1 API on the [APIs.io](https://api
 
 
   First Hawaiian Bank''s developer surface includes documentation, support, and 7 more developer resources.'
-random_paper: 18
+random_paper: 16
 score:
   band: emerging
-  composite: 12.1
+  composite: 11.4
   coverage:
     artifact_dirs: 6
     catalog_earned: 32.0
@@ -110,7 +112,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -119,21 +121,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 12.1
+  previous_composite: 11.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/first-hawaiian-bank/refs/heads/main/screenshots/first-hawaiian-bank-2026-07-25T214608.png
+screenshot: https://apis.io/screenshots/first-hawaiian-bank/first-hawaiian-bank-2026-07-25T214608.png
 security:
 - kind: domain-security
   name: First Hawaiian Bank Domain Security

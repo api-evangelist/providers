@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Pyramid's main programmatic surface. All calls are HTTP POST against /API3/<section>/<method> on the customer's own Pyramid server, carrying a JSON body and a "paToken" security token in the HTTP head
@@ -44,19 +46,19 @@ apis:
 - description: A client-side JavaScript API (PyramidEmbedClient) for embedding Pyramid content — hubs, discoveries, presentations, publications and the search bar — into third-party web applications, with its own em
   name: Pyramid Embed API
   slug: pyramid-analytics-embed-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Pyramid Analytics Webhooks
   slug: pyramid-analytics-webhooks
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pyramid-analytics/refs/heads/main/rate-limits/pyramid-analytics-rate-limits.yml
+  href: https://artifacts.apis.io/pyramid-analytics/rate-limits/pyramid-analytics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pyramid-analytics-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pyramid-analytics/refs/heads/main/security/pyramid-analytics-domain-security.yml
+  href: https://artifacts.apis.io/pyramid-analytics/security/pyramid-analytics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pyramid-analytics-domain-security.yml
@@ -117,52 +119,52 @@ common:
   type: Roadmap
   url: https://help.pyramidanalytics.com/Content/Root/Guides/general/Release%20Framework.htm
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pyramid-analytics/refs/heads/main/changelog/pyramid-analytics-changelog.yml
+  href: https://artifacts.apis.io/pyramid-analytics/changelog/pyramid-analytics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pyramid-analytics-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pyramid-analytics/refs/heads/main/lifecycle/pyramid-analytics-lifecycle.yml
+  href: https://artifacts.apis.io/pyramid-analytics/lifecycle/pyramid-analytics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pyramid-analytics-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pyramid-analytics/refs/heads/main/lifecycle/pyramid-analytics-lifecycle.yml
+  href: https://artifacts.apis.io/pyramid-analytics/lifecycle/pyramid-analytics-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/pyramid-analytics-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pyramid-analytics/refs/heads/main/packages/pyramid-analytics-packages.yml
+  href: https://artifacts.apis.io/pyramid-analytics/packages/pyramid-analytics-packages.yml
   title: ''
   type: Packages
   url: packages/pyramid-analytics-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pyramid-analytics/refs/heads/main/packages/pyramid-analytics-packages.yml
+  href: https://artifacts.apis.io/pyramid-analytics/packages/pyramid-analytics-packages.yml
   title: ''
   type: SDKs
   url: packages/pyramid-analytics-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pyramid-analytics/refs/heads/main/conformance/pyramid-analytics-conformance.yml
+  href: https://artifacts.apis.io/pyramid-analytics/conformance/pyramid-analytics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pyramid-analytics-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pyramid-analytics/refs/heads/main/llms/pyramid-analytics-llms.txt
+  href: https://artifacts.apis.io/pyramid-analytics/llms/pyramid-analytics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pyramid-analytics-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pyramid-analytics/refs/heads/main/plans/pyramid-analytics-plans-pricing.yml
+  href: https://artifacts.apis.io/pyramid-analytics/plans/pyramid-analytics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pyramid-analytics-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pyramid-analytics/refs/heads/main/asyncapi/pyramid-analytics-webhooks.yml
+  href: https://artifacts.apis.io/pyramid-analytics/asyncapi/pyramid-analytics-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/pyramid-analytics-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pyramid-analytics/refs/heads/main/components/pyramid-analytics-components.yml
+  href: https://artifacts.apis.io/pyramid-analytics/components/pyramid-analytics-components.yml
   title: ''
   type: Components
   url: components/pyramid-analytics-components.yml
@@ -173,6 +175,14 @@ common:
 created: '2026-08-26'
 description: Pyramid Analytics is a decision intelligence software company whose platform unifies data preparation, business analytics and AI-assisted insight generation in a single environment, deployed either onto the customer's own infrastructure ("Pyramid Deployed") or hosted by Pyramid ("Pyramid Managed"). Its programmable surface is a POST-only REST API — API 3.0, documented as 234 methods across authentication, access, content, analytics, dataSources, tasks, notification and themes — together with a JavaScript Embed API for hosting Pyramid content inside third-party applications, Custom Visual and Workflow APIs, an OData feed that turns any Pyramid query into a consumable data source, and Swagger-generated client SDKs for Java, C#, JavaScript/TypeScript, Python and PHP. Because Pyramid runs inside each customer's own tenancy, the API base URL is the customer's own Pyramid server rather than a vendor-hosted host, and the SDK packages are distributed through the customer portal rather
   than public package registries.
+finops:
+- has_sources: true
+  method: derived
+  name: Pyramid Analytics Finops
+  primary_unit: ''
+  service_category: ''
+  slug: pyramid-analytics-finops
+  template: true
 image: https://www.pyramidanalytics.com/wp-content/uploads/2022/02/pyramid-analytics.jpg
 layout: provider
 modified: '2026-08-26'
@@ -188,32 +198,32 @@ overview: 'Pyramid Analytics is listed with 2 APIs on the [APIs.io](https://apis
   Pyramid Analytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 20 more developer resources.'
 plans:
 - name: Pyramid Analytics Plans Pricing
-  plan_count: 0
+  plan_count: 2
   slug: pyramid-analytics-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Pyramid Analytics Rate Limits
   slug: pyramid-analytics-rate-limits
 score:
   band: developing
-  composite: 46.9
+  composite: 51.4
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 21
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.2
   facets:
-    access_clarity: 38.2
+    access_clarity: 65.8
     contract_governance: 18.2
-    contract_quality: 44.2
+    contract_quality: 39.0
     developer_ergonomics: 64.3
     discoverability: 66.1
-    operational_transparency: 39.5
-  previous_composite: 46.8
+    operational_transparency: 42.1
+  previous_composite: 47.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -223,14 +233,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pyramid-analytics/refs/heads/main/screenshots/pyramid-analytics-2026-09-02T152358.png
+screenshot: https://apis.io/screenshots/pyramid-analytics/pyramid-analytics-2026-09-02T152358.png
 security:
 - kind: authentication
   name: Pyramid Analytics Authentication

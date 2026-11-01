@@ -23,21 +23,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spotpay/refs/heads/main/security/spotpay-domain-security.yml
+  href: https://artifacts.apis.io/spotpay/security/spotpay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spotpay-domain-security.yml
@@ -65,12 +67,12 @@ overview: 'SpotPay is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   SpotPay''s developer surface includes signup flow and 2 more developer resources.'
-random_paper: 14
+random_paper: 16
 score:
   band: minimal
-  composite: 5.7
+  composite: 5.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -82,9 +84,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 51.7
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 5.7
+  previous_composite: 5.3
   provenance:
     mcp: first-party
   regulatory:
@@ -93,14 +95,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/spotpay/refs/heads/main/screenshots/spotpay-2026-09-02T160600.png
+screenshot: https://apis.io/screenshots/spotpay/spotpay-2026-09-02T160600.png
 security:
 - kind: domain-security
   name: Spotpay Domain Security

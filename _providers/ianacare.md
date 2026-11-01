@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
@@ -65,62 +67,62 @@ common:
   type: PrivacyPolicy
   url: https://ianacare.com/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ianacare/refs/heads/main/well-known/ianacare-well-known.yml
+  href: https://artifacts.apis.io/ianacare/well-known/ianacare-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ianacare-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ianacare/refs/heads/main/authentication/ianacare-authentication.yml
+  href: https://artifacts.apis.io/ianacare/authentication/ianacare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ianacare-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ianacare/refs/heads/main/scopes/ianacare-scopes.yml
+  href: https://artifacts.apis.io/ianacare/scopes/ianacare-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ianacare-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ianacare/refs/heads/main/well-known/ianacare-openid-configuration.json
+  href: https://artifacts.apis.io/ianacare/well-known/ianacare-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/ianacare-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ianacare/refs/heads/main/conformance/ianacare-conformance.yml
+  href: https://artifacts.apis.io/ianacare/conformance/ianacare-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ianacare-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ianacare/refs/heads/main/security/ianacare-domain-security.yml
+  href: https://artifacts.apis.io/ianacare/security/ianacare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ianacare-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ianacare/refs/heads/main/lifecycle/ianacare-lifecycle.yml
+  href: https://artifacts.apis.io/ianacare/lifecycle/ianacare-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ianacare-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ianacare/refs/heads/main/plans/ianacare-plans-pricing.yml
+  href: https://artifacts.apis.io/ianacare/plans/ianacare-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ianacare-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ianacare/refs/heads/main/rate-limits/ianacare-rate-limits.yml
+  href: https://artifacts.apis.io/ianacare/rate-limits/ianacare-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ianacare-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ianacare/refs/heads/main/llms/ianacare-llms.txt
+  href: https://artifacts.apis.io/ianacare/llms/ianacare-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ianacare-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ianacare/refs/heads/main/conventions/ianacare-conventions.yml
+  href: https://artifacts.apis.io/ianacare/conventions/ianacare-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ianacare-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ianacare/refs/heads/main/packages/ianacare-packages.yml
+  href: https://artifacts.apis.io/ianacare/packages/ianacare-packages.yml
   title: ''
   type: Packages
   url: packages/ianacare-packages.yml
@@ -163,7 +165,7 @@ plans:
 - name: Ianacare Plans Pricing
   plan_count: 0
   slug: ianacare-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Ianacare Rate Limits
@@ -175,7 +177,7 @@ scopes:
   summary_line: 14 scopes
 score:
   band: emerging
-  composite: 15.3
+  composite: 21.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 27.0
@@ -183,13 +185,13 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 16.7
-    discoverability: 55.4
+    developer_ergonomics: 19.0
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -198,7 +200,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 15.2
+  previous_composite: 21.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -207,15 +209,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 37.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ianacare/refs/heads/main/screenshots/ianacare-2026-09-02T145814.png
+screenshot: https://apis.io/screenshots/ianacare/ianacare-2026-09-02T145814.png
 security:
 - kind: authentication
   name: Ianacare Authentication

@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Kizik's Universal Commerce Protocol surface, exposed over MCP at https://kizik.com/api/ucp/mcp. An unauthenticated tools/list returns thirteen tools covering catalog search and lookup, cart create/upd
@@ -45,10 +47,10 @@ apis:
 - description: 'The read-only JSON product surface of the Kizik Shopify storefront, documented for agents in https://kizik.com/llms.txt: /products.json, /collections/{handle}/products.json, /products/{handle}.json an'
   name: Kizik Storefront Product Data
   slug: kizik-storefront-product-data
-artifact_total: 8
+artifact_total: 10
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kizik/refs/heads/main/rate-limits/kizik-rate-limits.yml
+  href: https://artifacts.apis.io/kizik/rate-limits/kizik-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kizik-rate-limits.yml
@@ -57,7 +59,7 @@ common:
   type: BlogRSS
   url: https://kizik.com/blogs/news.atom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kizik/refs/heads/main/security/kizik-domain-security.yml
+  href: https://artifacts.apis.io/kizik/security/kizik-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kizik-domain-security.yml
@@ -70,47 +72,47 @@ common:
   type: Documentation
   url: https://kizik.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kizik/refs/heads/main/llms/kizik-llms.txt
+  href: https://artifacts.apis.io/kizik/llms/kizik-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kizik-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kizik/refs/heads/main/well-known/kizik-well-known.yml
+  href: https://artifacts.apis.io/kizik/well-known/kizik-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kizik-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kizik/refs/heads/main/conventions/kizik-conventions.yml
+  href: https://artifacts.apis.io/kizik/conventions/kizik-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kizik-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kizik/refs/heads/main/conventions/kizik-conventions.yml
+  href: https://artifacts.apis.io/kizik/conventions/kizik-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/kizik-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kizik/refs/heads/main/conformance/kizik-conformance.yml
+  href: https://artifacts.apis.io/kizik/conformance/kizik-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kizik-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kizik/refs/heads/main/lifecycle/kizik-lifecycle.yml
+  href: https://artifacts.apis.io/kizik/lifecycle/kizik-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kizik-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kizik/refs/heads/main/data-model/kizik-data-model.yml
+  href: https://artifacts.apis.io/kizik/data-model/kizik-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kizik-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kizik/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kizik/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kizik/refs/heads/main/plans/kizik-plans-pricing.yml
+  href: https://artifacts.apis.io/kizik/plans/kizik-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kizik-plans-pricing.yml
@@ -170,7 +172,7 @@ scopes:
   summary_line: 4 scopes · authorization_code
 score:
   band: emerging
-  composite: 24.7
+  composite: 23.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 32.0
@@ -178,15 +180,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 0.0
-  previous_composite: 24.6
+  previous_composite: 23.7
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -197,14 +199,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kizik/refs/heads/main/screenshots/kizik-2026-09-02T150105.png
+screenshot: https://apis.io/screenshots/kizik/kizik-2026-09-02T150105.png
 security:
 - kind: authentication
   name: Kizik Authentication
@@ -214,6 +216,12 @@ security:
   name: Kizik Domain Security
   slug: kizik-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: kizik-catalog-search
+  slug: kizik-catalog-search
+- name: kizik-guided-purchase
+  slug: kizik-guided-purchase
 slug: kizik
 tags:
 - Company

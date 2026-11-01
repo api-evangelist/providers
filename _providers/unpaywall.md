@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.3
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,11 +55,8 @@ apis:
   description: Search articles by title
   name: Unpaywall Search API
   slug: unpaywall-search-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Unpaywall DOI Lookup API
   slug: open-unpaywall-doi-lookup-api
@@ -69,32 +68,32 @@ collections:
   slug: open-unpaywall
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/plans/unpaywall-plans-pricing.yml
+  href: https://artifacts.apis.io/unpaywall/plans/unpaywall-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/unpaywall-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/rate-limits/unpaywall-rate-limits.yml
+  href: https://artifacts.apis.io/unpaywall/rate-limits/unpaywall-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/unpaywall-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/finops/unpaywall-finops.yml
+  href: https://artifacts.apis.io/unpaywall/finops/unpaywall-finops.yml
   title: ''
   type: FinOps
   url: finops/unpaywall-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/capabilities/unpaywall-capability-edges.yml
+  href: https://artifacts.apis.io/unpaywall/capabilities/unpaywall-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/unpaywall-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/agentic-access/unpaywall-agentic-access.yml
+  href: https://artifacts.apis.io/unpaywall/agentic-access/unpaywall-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/unpaywall-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/security/unpaywall-domain-security.yml
+  href: https://artifacts.apis.io/unpaywall/security/unpaywall-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unpaywall-domain-security.yml
@@ -147,7 +146,7 @@ finops:
 - has_sources: false
   method: generated
   name: Unpaywall Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: unpaywall-finops
   template: true
@@ -181,7 +180,7 @@ plans:
 - name: Unpaywall Plans Pricing
   plan_count: 3
   slug: unpaywall-plans-pricing
-random_paper: 21
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Unpaywall Rate Limits
@@ -212,23 +211,23 @@ rules:
   slug: unpaywall-rules
 score:
   band: thin
-  composite: 27.3
+  composite: 30.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 68.4
     catalog_earned_first_party: 0.0
     catalog_gap: 46.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 59.5
-    developer_ergonomics: 0.0
+    developer_ergonomics: 14.3
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 25.7
+    operational_transparency: 13.2
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
@@ -242,14 +241,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/screenshots/unpaywall-2026-06-20T200345.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/unpaywall/unpaywall-2026-06-20T200345.png
 security:
 - kind: domain-security
   name: Unpaywall Domain Security

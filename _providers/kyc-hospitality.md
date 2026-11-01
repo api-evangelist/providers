@@ -1,0 +1,158 @@
+---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: conformant
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.5
+  scored_at: '2026-10-31'
+api_count: 0
+artifact_total: 2
+common:
+- group: auth
+  href: https://artifacts.apis.io/kyc-hospitality/authentication/kyc-hospitality-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/kyc-hospitality-authentication.yml
+- group: agent
+  href: https://artifacts.apis.io/kyc-hospitality/llms/kyc-hospitality-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/kyc-hospitality-llms.txt
+- group: other
+  href: https://artifacts.apis.io/kyc-hospitality/a2a/kyc-hospitality-a2a.yml
+  title: ''
+  type: AgentCard
+  url: a2a/kyc-hospitality-a2a.yml
+- group: agent
+  href: https://artifacts.apis.io/kyc-hospitality/well-known/kyc-hospitality-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/kyc-hospitality-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/kyc-hospitality/hosts/kyc-hospitality-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/kyc-hospitality-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/kyc-hospitality/vendors/kyc-hospitality-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/kyc-hospitality-vendors.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://api-docs.kychospitality.com/security
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.kychospitality.com/privacy
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://api-docs.kychospitality.com/getting-started
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api-docs.kychospitality.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api-docs.kychospitality.com/llms.txt
+- group: auth
+  href: https://artifacts.apis.io/kyc-hospitality/security/kyc-hospitality-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/kyc-hospitality-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.kychospitality.com
+coverage:
+  checked: '2026-10-22'
+  detail: The provider's website is a static Webflow page with no machine‑readable API documentation.
+  evidence:
+  - status: 200
+    url: https://www.kychospitality.com
+  reason: js-rendered-docs
+  state: unreadable
+created: '2026-10-21'
+description: KYC Hospitality provides a platform that connects hospitality businesses with compliance and identity verification services. The company aims to streamline guest onboarding, ensure regulatory adherence, and enhance security for hotels, resorts, and short‑term rentals. By integrating KYC processes directly into property management systems, it helps operators reduce fraud, meet local laws, and improve the guest experience through faster check‑in and automated document verification. Founded with backing from Bonfire Ventures, KYC Hospitality focuses on the hospitality sector to deliver tailored compliance solutions.
+image: https://cdn.prod.website-files.com/64065f22a05691517febcaf1/640665da869a5d9939c2ad73_KYC%20Logo.webp
+layout: provider
+modified: '2026-10-21'
+name: KYC Hospitality
+nav: Providers
+network: true
+overview: 'KYC Hospitality is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Compliance, IdentityVerification, and SaaS.
+
+
+  KYC Hospitality''s developer surface includes authentication, getting-started guide, documentation, API reference, and 9 more developer resources.'
+random_paper: 22
+score:
+  band: emerging
+  composite: 16.5
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 10.5
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 40.5
+    discoverability: 48.2
+    operational_transparency: 10.5
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 15.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: authentication
+  name: Kyc Hospitality Authentication
+  slug: kyc-hospitality-authentication
+  summary_line: 1 scheme
+- kind: domain-security
+  name: Kyc Hospitality Domain Security
+  slug: kyc-hospitality-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: kyc-hospitality
+tags:
+- Company
+- Hospitality
+- Compliance
+- IdentityVerification
+- SaaS
+website: https://www.kychospitality.com
+---

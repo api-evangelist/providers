@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.3
-  scored_at: '2026-10-17'
+  score: 26.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,22 +50,19 @@ apis:
   description: Operations for discovering and retrieving activities
   name: Bored API Activities API
   slug: bored-api-activities-api
-artifact_total: 12
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bored Activities API
   slug: open-bored-api-activities-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bored-api/refs/heads/main/agentic-access/bored-api-agentic-access.yml
+  href: https://artifacts.apis.io/bored-api/agentic-access/bored-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bored-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bored-api/refs/heads/main/security/bored-api-domain-security.yml
+  href: https://artifacts.apis.io/bored-api/security/bored-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bored-api-domain-security.yml
@@ -100,17 +99,17 @@ common:
   type: X
   url: https://x.com/appbrewery
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bored-api/refs/heads/main/plans/bored-api-plans-pricing.yml
+  href: https://artifacts.apis.io/bored-api/plans/bored-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bored-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bored-api/refs/heads/main/rate-limits/bored-api-rate-limits.yml
+  href: https://artifacts.apis.io/bored-api/rate-limits/bored-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bored-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bored-api/refs/heads/main/finops/bored-api-finops.yml
+  href: https://artifacts.apis.io/bored-api/finops/bored-api-finops.yml
   title: ''
   type: FinOps
   url: finops/bored-api-finops.yml
@@ -154,7 +153,7 @@ plans:
 - name: Bored Api Plans Pricing
   plan_count: 1
   slug: bored-api-plans-pricing
-random_paper: 3
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Bored Api Rate Limits
@@ -181,7 +180,7 @@ score:
     catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
@@ -189,7 +188,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 26.3
-  previous_composite: 34.7
+  previous_composite: 28.7
   provenance:
     agentic_access: derived
     contracts:
@@ -203,14 +202,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/bored-api/refs/heads/main/screenshots/bored-api-2026-06-20T173608.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bored-api/bored-api-2026-06-20T173608.png
 security:
 - kind: domain-security
   name: Bored Api Domain Security

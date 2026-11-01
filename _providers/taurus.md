@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: REST API for institutional custody (Taurus-PROTECT) and tokenization / digital asset issuance (Taurus-CAPITAL). Bearer + HMAC request signing, versioned under /api/rest/v1/, cursor-based pagination, g
@@ -81,52 +83,52 @@ common:
   type: GitHubOrganization
   url: https://github.com/taurushq-io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/authentication/taurus-authentication.yml
+  href: https://artifacts.apis.io/taurus/authentication/taurus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/taurus-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/conventions/taurus-conventions.yml
+  href: https://artifacts.apis.io/taurus/conventions/taurus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/taurus-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/packages/taurus-packages.yml
+  href: https://artifacts.apis.io/taurus/packages/taurus-packages.yml
   title: ''
   type: SDKs
   url: packages/taurus-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/packages/taurus-packages.yml
+  href: https://artifacts.apis.io/taurus/packages/taurus-packages.yml
   title: ''
   type: Packages
   url: packages/taurus-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/errors/taurus-problem-types.yml
+  href: https://artifacts.apis.io/taurus/errors/taurus-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/taurus-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/lifecycle/taurus-lifecycle.yml
+  href: https://artifacts.apis.io/taurus/lifecycle/taurus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/taurus-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/conformance/taurus-conformance.yml
+  href: https://artifacts.apis.io/taurus/conformance/taurus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/taurus-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/security/taurus-trust-center.yml
+  href: https://artifacts.apis.io/taurus/security/taurus-trust-center.yml
   title: ''
   type: Compliance
   url: security/taurus-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/security/taurus-trust-center.yml
+  href: https://artifacts.apis.io/taurus/security/taurus-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/taurus-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/security/taurus-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/taurus/security/taurus-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/taurus-vulnerability-disclosure.yml
@@ -135,27 +137,27 @@ common:
   type: Security
   url: https://www.taurushq.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/well-known/taurus-security.txt
+  href: https://artifacts.apis.io/taurus/well-known/taurus-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/taurus-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/well-known/taurus-well-known.yml
+  href: https://artifacts.apis.io/taurus/well-known/taurus-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/taurus-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/security/taurus-domain-security.yml
+  href: https://artifacts.apis.io/taurus/security/taurus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/taurus-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/asyncapi/taurus-protect-webhooks.yml
+  href: https://artifacts.apis.io/taurus/asyncapi/taurus-protect-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/taurus-protect-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/llms/taurus-llms.txt
+  href: https://artifacts.apis.io/taurus/llms/taurus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/taurus-llms.txt
@@ -182,10 +184,10 @@ overview: 'Taurus is listed with 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Taurus'' developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, and 20 more developer resources.'
-random_paper: 16
+random_paper: 4
 score:
   band: thin
-  composite: 33.1
+  composite: 39.1
   coverage:
     artifact_dirs: 14
     catalog_earned: 40.0
@@ -193,14 +195,14 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 34.5
-    discoverability: 78.6
-    operational_transparency: 10.5
+    developer_ergonomics: 59.5
+    discoverability: 71.4
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -209,7 +211,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 32.6
+  previous_composite: 39.1
   provenance:
     conformance: first-party
   regulatory:
@@ -218,14 +220,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/screenshots/taurus-2026-09-02T162612.png
+screenshot: https://apis.io/screenshots/taurus/taurus-2026-09-02T162612.png
 security:
 - kind: authentication
   name: Taurus Authentication

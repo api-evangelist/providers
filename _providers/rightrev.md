@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: RightRev's REST (and GraphQL) API for revenue recognition — transaction ingestion (orders, invoices, events, bulk uploads), policy-set and company configuration, Revenue Desk 360 contract search and d
@@ -70,52 +72,52 @@ common:
   type: TermsOfService
   url: https://www.rightrev.com/terms-of-use/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rightrev/refs/heads/main/authentication/rightrev-authentication.yml
+  href: https://artifacts.apis.io/rightrev/authentication/rightrev-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rightrev-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rightrev/refs/heads/main/scopes/rightrev-scopes.yml
+  href: https://artifacts.apis.io/rightrev/scopes/rightrev-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/rightrev-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rightrev/refs/heads/main/conventions/rightrev-conventions.yml
+  href: https://artifacts.apis.io/rightrev/conventions/rightrev-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rightrev-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rightrev/refs/heads/main/errors/rightrev-problem-types.yml
+  href: https://artifacts.apis.io/rightrev/errors/rightrev-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rightrev-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rightrev/refs/heads/main/lifecycle/rightrev-lifecycle.yml
+  href: https://artifacts.apis.io/rightrev/lifecycle/rightrev-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rightrev-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rightrev/refs/heads/main/conformance/rightrev-conformance.yml
+  href: https://artifacts.apis.io/rightrev/conformance/rightrev-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rightrev-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rightrev/refs/heads/main/data-model/rightrev-data-model.yml
+  href: https://artifacts.apis.io/rightrev/data-model/rightrev-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rightrev-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rightrev/refs/heads/main/mcp/rightrev-mcp.yml
+  href: https://artifacts.apis.io/rightrev/mcp/rightrev-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rightrev-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rightrev/refs/heads/main/llms/rightrev-llms.txt
+  href: https://artifacts.apis.io/rightrev/llms/rightrev-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rightrev-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rightrev/refs/heads/main/security/rightrev-domain-security.yml
+  href: https://artifacts.apis.io/rightrev/security/rightrev-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rightrev-domain-security.yml
@@ -131,7 +133,7 @@ overview: 'Rightrev is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Rightrev''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 12 more developer resources.'
-random_paper: 17
+random_paper: 11
 scopes:
 - name: Rightrev Scopes
   scope_count: 2
@@ -139,7 +141,7 @@ scopes:
   summary_line: 2 scopes
 score:
   band: emerging
-  composite: 22.9
+  composite: 22.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -153,9 +155,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 22.9
+  previous_composite: 22.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -165,14 +167,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rightrev/refs/heads/main/screenshots/rightrev-2026-09-02T153819.png
+screenshot: https://apis.io/screenshots/rightrev/rightrev-2026-09-02T153819.png
 security:
 - kind: authentication
   name: Rightrev Authentication

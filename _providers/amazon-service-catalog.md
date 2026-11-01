@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: verified
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.4
-  scored_at: '2026-10-17'
+  score: 32.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 9
   slug: amazon-service-catalog-agentic-access
   summary_line: 9 operations · 5 acting · 1 human-in-the-loop
-api_count: 3
+api_count: 12
 apis:
 - baseURL: https://servicecatalog.amazonaws.com
   baseurl_source: declared
@@ -60,7 +62,52 @@ apis:
   description: Provisioned product management
   name: Amazon Service Catalog Provisioned Products API
   slug: amazon-service-catalog-provisioned-products-api
-artifact_total: 31
+- baseURL: https://servicecatalog.amazonaws.com
+  baseurl_source: declared
+  description: The Service Catalog Budget API from Amazon Service Catalog — 3 operation(s) for service catalog budget.
+  name: Amazon Service Catalog Service Catalog Budget API
+  slug: amazon-service-catalog-budget-api
+- baseURL: https://servicecatalog.amazonaws.com
+  baseurl_source: declared
+  description: The Service Catalog Constraint API from Amazon Service Catalog — 5 operation(s) for service catalog constraint.
+  name: Amazon Service Catalog Service Catalog Constraint API
+  slug: amazon-service-catalog-constraint-api
+- baseURL: https://servicecatalog.amazonaws.com
+  baseurl_source: declared
+  description: The Service Catalog Operations API from Amazon Service Catalog — 29 operation(s) for service catalog operations.
+  name: Amazon Service Catalog Service Catalog Operations API
+  slug: amazon-service-catalog-operations-api
+- baseURL: https://servicecatalog.amazonaws.com
+  baseurl_source: declared
+  description: The Service Catalog Portfolio Share API from Amazon Service Catalog — 6 operation(s) for service catalog portfolio share.
+  name: Amazon Service Catalog Service Catalog Portfolio Share API
+  slug: amazon-service-catalog-portfolio-share-api
+- baseURL: https://servicecatalog.amazonaws.com
+  baseurl_source: declared
+  description: The Service Catalog Principal API from Amazon Service Catalog — 3 operation(s) for service catalog principal.
+  name: Amazon Service Catalog Service Catalog Principal API
+  slug: amazon-service-catalog-principal-api
+- baseURL: https://servicecatalog.amazonaws.com
+  baseurl_source: declared
+  description: The Service Catalog Provisioned Product Plan API from Amazon Service Catalog — 5 operation(s) for service catalog provisioned product plan.
+  name: Amazon Service Catalog Service Catalog Provisioned Product Plan API
+  slug: amazon-service-catalog-provisioned-product-plan-api
+- baseURL: https://servicecatalog.amazonaws.com
+  baseurl_source: declared
+  description: The Service Catalog Provisioning Artifact API from Amazon Service Catalog — 6 operation(s) for service catalog provisioning artifact.
+  name: Amazon Service Catalog Service Catalog Provisioning Artifact API
+  slug: amazon-service-catalog-provisioning-artifact-api
+- baseURL: https://servicecatalog.amazonaws.com
+  baseurl_source: declared
+  description: The Service Catalog Service Action API from Amazon Service Catalog — 10 operation(s) for service catalog service action.
+  name: Amazon Service Catalog Service Catalog Service Action API
+  slug: amazon-service-catalog-service-action-api
+- baseURL: https://servicecatalog.amazonaws.com
+  baseurl_source: declared
+  description: The Service Catalog Tag Option API from Amazon Service Catalog — 7 operation(s) for service catalog tag option.
+  name: Amazon Service Catalog Service Catalog Tag Option API
+  slug: amazon-service-catalog-tag-option-api
+artifact_total: 40
 collections:
 - collection_type: postman
   name: Amazon Service Catalog Portfolios API
@@ -71,9 +118,6 @@ collections:
 - collection_type: postman
   name: Amazon Service Catalog Portfolios Provisioned Products API
   slug: postman-amazon-service-catalog-provisioned-products-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Service Catalog Portfolios API
   slug: open-amazon-service-catalog-portfolios-api
@@ -88,17 +132,17 @@ collections:
   slug: open-amazon-service-catalog
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/plans/amazon-service-catalog-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-service-catalog/plans/amazon-service-catalog-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-service-catalog-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/rate-limits/amazon-service-catalog-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-service-catalog/rate-limits/amazon-service-catalog-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-service-catalog-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/finops/amazon-service-catalog-finops.yml
+  href: https://artifacts.apis.io/amazon-service-catalog/finops/amazon-service-catalog-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-service-catalog-finops.yml
@@ -107,27 +151,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-service-catalog/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/agentic-access/amazon-service-catalog-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-service-catalog/agentic-access/amazon-service-catalog-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-service-catalog-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/security/amazon-service-catalog-trust-center.yml
+  href: https://artifacts.apis.io/amazon-service-catalog/security/amazon-service-catalog-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-service-catalog-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/security/amazon-service-catalog-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-service-catalog/security/amazon-service-catalog-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-service-catalog-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/security/amazon-service-catalog-domain-security.yml
+  href: https://artifacts.apis.io/amazon-service-catalog/security/amazon-service-catalog-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-service-catalog-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/authentication/amazon-service-catalog-authentication.yml
+  href: https://artifacts.apis.io/amazon-service-catalog/authentication/amazon-service-catalog-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-service-catalog-authentication.yml
@@ -184,57 +228,57 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/json-ld/amazon-service-catalog-context.jsonld
+  href: https://artifacts.apis.io/amazon-service-catalog/json-ld/amazon-service-catalog-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-service-catalog-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/json-schema/amazon-service-catalog-portfolio-schema.json
+  href: https://artifacts.apis.io/amazon-service-catalog/json-schema/amazon-service-catalog-portfolio-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-service-catalog-portfolio-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/json-schema/amazon-service-catalog-product-view-summary-schema.json
+  href: https://artifacts.apis.io/amazon-service-catalog/json-schema/amazon-service-catalog-product-view-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-service-catalog-product-view-summary-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/json-schema/amazon-service-catalog-provisioned-product-schema.json
+  href: https://artifacts.apis.io/amazon-service-catalog/json-schema/amazon-service-catalog-provisioned-product-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-service-catalog-provisioned-product-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/json-structure/amazon-service-catalog-portfolio-structure.json
+  href: https://artifacts.apis.io/amazon-service-catalog/json-structure/amazon-service-catalog-portfolio-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-service-catalog-portfolio-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/json-structure/amazon-service-catalog-product-view-summary-structure.json
+  href: https://artifacts.apis.io/amazon-service-catalog/json-structure/amazon-service-catalog-product-view-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-service-catalog-product-view-summary-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/json-structure/amazon-service-catalog-provisioned-product-structure.json
+  href: https://artifacts.apis.io/amazon-service-catalog/json-structure/amazon-service-catalog-provisioned-product-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-service-catalog-provisioned-product-structure.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/examples/amazon-service-catalog-portfolio-example.json
+  href: https://artifacts.apis.io/amazon-service-catalog/examples/amazon-service-catalog-portfolio-example.json
   title: ''
   type: Examples
   url: examples/amazon-service-catalog-portfolio-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/examples/amazon-service-catalog-product-view-summary-example.json
+  href: https://artifacts.apis.io/amazon-service-catalog/examples/amazon-service-catalog-product-view-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-service-catalog-product-view-summary-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/examples/amazon-service-catalog-provisioned-product-example.json
+  href: https://artifacts.apis.io/amazon-service-catalog/examples/amazon-service-catalog-provisioned-product-example.json
   title: ''
   type: Examples
   url: examples/amazon-service-catalog-provisioned-product-example.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/rules/amazon-service-catalog-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-service-catalog/rules/amazon-service-catalog-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-service-catalog-spectral-rules.yml
@@ -251,13 +295,13 @@ examples:
   name: Amazon Service Catalog Provisioned Product Example
   slug: amazon-service-catalog-provisioned-product-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Service Catalog Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: api call
+  service_category: ''
   slug: amazon-service-catalog-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-service-catalog.png
 json_schemas:
 - name: Portfolio
@@ -289,7 +333,7 @@ modified: '2026-05-19'
 name: Amazon Service Catalog
 nav: Providers
 network: true
-overview: 'Amazon Service Catalog is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Portfolios API, Products API, and Provisioned Products API. Tagged areas include Cloud Governance, Compliance, IT Governance, and Service Catalog.
+overview: 'Amazon Service Catalog is listed with 12 APIs on the [APIs.io](https://apis.io/) network, including Portfolios API, Products API, Provisioned Products API, and 9 more. Tagged areas include Cloud Governance, Compliance, IT Governance, and Service Catalog.
 
 
   The Amazon Service Catalog catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -298,9 +342,12 @@ overview: 'Amazon Service Catalog is listed with 3 APIs on the [APIs.io](https:/
   Amazon Service Catalog''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 26 more developer resources.'
 plans:
 - name: Amazon Service Catalog Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: amazon-service-catalog-plans-pricing
-random_paper: 20
+- name: Amazon Service Catalog Price Estimates
+  plan_count: 0
+  slug: amazon-service-catalog-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Amazon Service Catalog Rate Limits
@@ -330,44 +377,45 @@ rules:
     warn: 15
   slug: amazon-service-catalog-spectral-rules
 score:
-  band: developing
-  composite: 41.6
+  band: strong
+  composite: 58.8
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 53.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 61.5
+    artifact_dirs: 19
+    catalog_earned: 61.5
+    catalog_earned_first_party: 8.0
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.1
   facets:
-    access_clarity: 53.9
+    access_clarity: 81.6
     contract_governance: 13.6
-    contract_quality: 22.3
+    contract_quality: 59.0
     developer_ergonomics: 58.3
     discoverability: 62.5
-    operational_transparency: 26.3
-  previous_composite: 43.1
+    operational_transparency: 39.5
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 4
-      marker_coverage: 100.0
-      total: 4
+      derived: 1
+      marker_coverage: 76.9
+      total: 13
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/screenshots/amazon-service-catalog-2026-06-20T171823.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-service-catalog/amazon-service-catalog-2026-06-20T171823.png
 security:
 - kind: authentication
   name: Amazon Service Catalog Authentication

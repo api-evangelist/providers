@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.8
-  scored_at: '2026-10-17'
+  score: 42.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: The Flashbots Auction & MEV Share Relay (JSON RPC) API from Flashbots — 1 operation(s) for flashbots auction & mev share relay (json rpc).
   name: Flashbots Auction & MEV Share Relay (JSON RPC) API
   slug: flashbots-flashbots-auction-mev-share-relay-json-rpc-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Flashbots Auction & MEV-Share Relay (JSON-RPC) Flashbots Auction & MEV Share Relay (JSON RPC) Flashbots Auction & MEV Share Relay (JSON RPC) Flashbots Auction & MEV Share Relay (JSON RPC) API
   slug: open-flashbots-flashbots-auction-mev-share-relay-json-rpc-api
@@ -82,17 +81,17 @@ collections:
   slug: open-flashbots
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/flashbots/refs/heads/main/plans/flashbots-plans-pricing.yml
+  href: https://artifacts.apis.io/flashbots/plans/flashbots-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/flashbots-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flashbots/refs/heads/main/rate-limits/flashbots-rate-limits.yml
+  href: https://artifacts.apis.io/flashbots/rate-limits/flashbots-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/flashbots-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/flashbots/refs/heads/main/finops/flashbots-finops.yml
+  href: https://artifacts.apis.io/flashbots/finops/flashbots-finops.yml
   title: ''
   type: FinOps
   url: finops/flashbots-finops.yml
@@ -109,17 +108,17 @@ common:
   type: License
   url: https://github.com/flashbots/rpc-endpoint/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flashbots/refs/heads/main/agentic-access/flashbots-agentic-access.yml
+  href: https://artifacts.apis.io/flashbots/agentic-access/flashbots-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/flashbots-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flashbots/refs/heads/main/security/flashbots-domain-security.yml
+  href: https://artifacts.apis.io/flashbots/security/flashbots-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flashbots-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flashbots/refs/heads/main/authentication/flashbots-authentication.yml
+  href: https://artifacts.apis.io/flashbots/authentication/flashbots-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flashbots-authentication.yml
@@ -198,7 +197,7 @@ plans:
 - name: Flashbots Plans Pricing
   plan_count: 1
   slug: flashbots-plans-pricing
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Flashbots Rate Limits
@@ -217,27 +216,24 @@ rules:
     warn: 0
   slug: flashbots-relay-specs-spectral-rules
 score:
-  band: thin
-  composite: 34.1
+  band: developing
+  composite: 40.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 56.0
     catalog_earned_first_party: 15.0
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 15.8
     contract_governance: 45.5
     contract_quality: 53.3
-    developer_ergonomics: 47.6
-    discoverability: 68.3
+    developer_ergonomics: 50.0
+    discoverability: 66.1
     operational_transparency: 10.5
-  open_source:
-    applies: true
-    score: 15.0
-  previous_composite: 34.6
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -251,14 +247,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 15.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/flashbots/refs/heads/main/screenshots/flashbots-2026-06-20T181301.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/flashbots/flashbots-2026-06-20T181301.png
 security:
 - kind: authentication
   name: Flashbots Authentication

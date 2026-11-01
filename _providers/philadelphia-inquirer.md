@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,11 +65,8 @@ apis:
   description: XML sitemaps and sitemap indexes.
   name: The Philadelphia Inquirer Sitemaps API
   slug: philadelphia-inquirer-sitemaps-api
-artifact_total: 49
+artifact_total: 48
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Dewey MCP
   slug: open-dewey-mcp
@@ -91,17 +90,17 @@ collections:
   slug: open-sitemaps
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/plans/philadelphia-inquirer-plans-pricing.yml
+  href: https://artifacts.apis.io/philadelphia-inquirer/plans/philadelphia-inquirer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/philadelphia-inquirer-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/rate-limits/philadelphia-inquirer-rate-limits.yml
+  href: https://artifacts.apis.io/philadelphia-inquirer/rate-limits/philadelphia-inquirer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/philadelphia-inquirer-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/finops/philadelphia-inquirer-finops.yml
+  href: https://artifacts.apis.io/philadelphia-inquirer/finops/philadelphia-inquirer-finops.yml
   title: ''
   type: FinOps
   url: finops/philadelphia-inquirer-finops.yml
@@ -114,12 +113,12 @@ common:
   type: ContributionGuide
   url: https://github.com/phillymedia/dewey-mcp/blob/main/docs/contributing.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/agentic-access/philadelphia-inquirer-agentic-access.yml
+  href: https://artifacts.apis.io/philadelphia-inquirer/agentic-access/philadelphia-inquirer-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/philadelphia-inquirer-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/security/philadelphia-inquirer-domain-security.yml
+  href: https://artifacts.apis.io/philadelphia-inquirer/security/philadelphia-inquirer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/philadelphia-inquirer-domain-security.yml
@@ -297,7 +296,7 @@ plans:
 - name: Philadelphia Inquirer Plans Pricing
   plan_count: 1
   slug: philadelphia-inquirer-plans-pricing
-random_paper: 21
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Philadelphia Inquirer Rate Limits
@@ -328,7 +327,7 @@ rules:
   slug: rss-rules
 score:
   band: emerging
-  composite: 23.5
+  composite: 24.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 51.5
@@ -336,15 +335,15 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 49.3
     developer_ergonomics: 11.9
     discoverability: 71.4
-    operational_transparency: 2.6
-  previous_composite: 27.7
+    operational_transparency: 5.3
+  previous_composite: 24.6
   provenance:
     agentic_access: derived
     contracts:
@@ -358,13 +357,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/screenshots/philadelphia-inquirer-2026-06-20T191649.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/philadelphia-inquirer/philadelphia-inquirer-2026-06-20T191649.png
 security:
 - kind: domain-security
   name: Philadelphia Inquirer Domain Security

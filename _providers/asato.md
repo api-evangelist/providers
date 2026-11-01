@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.6
-  scored_at: '2026-10-17'
+  score: 6.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API documentation not publicly machine‑readable; no OpenAPI/AsyncAPI/GraphQL spec found.
@@ -36,7 +38,7 @@ common:
   type: Pricing
   url: https://www.asato.ai
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/asato/refs/heads/main/plans/asato-plans-pricing.yml
+  href: https://artifacts.apis.io/asato/plans/asato-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/asato-plans-pricing.yml
@@ -45,27 +47,27 @@ common:
   type: Compliance
   url: https://trust.asato.ai/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/asato/refs/heads/main/conformance/asato-conformance.yml
+  href: https://artifacts.apis.io/asato/conformance/asato-conformance.yml
   title: ''
   type: Conformance
   url: conformance/asato-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/asato/refs/heads/main/llms/asato-llms.txt
+  href: https://artifacts.apis.io/asato/llms/asato-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/asato-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/asato/refs/heads/main/well-known/asato-well-known.yml
+  href: https://artifacts.apis.io/asato/well-known/asato-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/asato-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/asato/refs/heads/main/hosts/asato-hosts.yml
+  href: https://artifacts.apis.io/asato/hosts/asato-hosts.yml
   title: ''
   type: Hosts
   url: hosts/asato-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/asato/refs/heads/main/vendors/asato-vendors.yml
+  href: https://artifacts.apis.io/asato/vendors/asato-vendors.yml
   title: ''
   type: Vendors
   url: vendors/asato-vendors.yml
@@ -74,12 +76,12 @@ common:
   type: Newsroom
   url: https://www.asato.ai/newsroom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/asato/refs/heads/main/security/asato-trust-center.yml
+  href: https://artifacts.apis.io/asato/security/asato-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/asato-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/asato/refs/heads/main/security/asato-domain-security.yml
+  href: https://artifacts.apis.io/asato/security/asato-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/asato-domain-security.yml
@@ -142,7 +144,7 @@ plans:
 random_paper: 8
 score:
   band: emerging
-  composite: 26.0
+  composite: 25.3
   coverage:
     artifact_dirs: 10
     catalog_earned: 32.0
@@ -150,15 +152,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 26.3
-  previous_composite: 23.8
+  previous_composite: 25.3
   provenance:
     conformance: first-party
     mcp: unknown
@@ -174,14 +176,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/asato/refs/heads/main/screenshots/asato-2026-10-11T100456.png
+screenshot: https://apis.io/screenshots/asato/asato-2026-10-11T100456.png
 security:
 - kind: domain-security
   name: Asato Domain Security

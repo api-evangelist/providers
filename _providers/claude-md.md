@@ -44,7 +44,7 @@ common:
   type: Hooks Reference
   url: https://code.claude.com/docs/en/hooks
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/claude-md/refs/heads/main/json-ld/claude-md-context.jsonld
+  href: https://artifacts.apis.io/claude-md/json-ld/claude-md-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/claude-md-context.jsonld
@@ -72,8 +72,8 @@ overview: 'CLAUDE.md is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   CLAUDE.md''s developer surface includes engineering blog, documentation, tooling, and 7 more developer resources.'
-random_paper: 18
-screenshot: https://raw.githubusercontent.com/api-evangelist/claude-md/refs/heads/main/screenshots/claude-md-2026-06-20T174448.png
+random_paper: 12
+screenshot: https://apis.io/screenshots/claude-md/claude-md-2026-06-20T174448.png
 slug: claude-md
 tags:
 - AI Agents

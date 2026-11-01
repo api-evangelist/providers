@@ -15,8 +15,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: unknown
     agentic_access: derived
     agentic_commerce: false
@@ -28,16 +29,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.0
-  scored_at: '2026-10-17'
+  score: 44.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -45,7 +48,7 @@ agentic_access:
   operation_count: 6
   slug: biconomy-agentic-access
   summary_line: 6 operations · 5 acting
-api_count: 4
+api_count: 2
 apis:
 - description: Biconomy's open-source ERC-4337 TypeScript Bundler. Implements eth_sendUserOperation, eth_estimateUserOperationGas, eth_getUserOperationByHash, eth_getUserOperationReceipt, and eth_supportedEntryPoint
   name: Biconomy Bundler API
@@ -83,11 +86,8 @@ apis:
 - description: 'Status and tracking surface for a submitted supertransaction. GET /v1/explorer/{supertxHash} returns the terminal execution state (SUCCESS, FAILED) with execution details, authenticated with the same '
   name: Biconomy MEE Explorer API
   slug: biconomy-mee-explorer-api
-artifact_total: 29
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Supertransaction instructions API
   slug: open-biconomy-instructions-api
@@ -103,17 +103,17 @@ common:
   type: Website
   url: https://www.biconomy.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/agentic-access/biconomy-agentic-access.yml
+  href: https://artifacts.apis.io/biconomy/agentic-access/biconomy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/biconomy-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/security/biconomy-domain-security.yml
+  href: https://artifacts.apis.io/biconomy/security/biconomy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/biconomy-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/authentication/biconomy-authentication.yml
+  href: https://artifacts.apis.io/biconomy/authentication/biconomy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/biconomy-authentication.yml
@@ -302,107 +302,107 @@ common:
   type: Support
   url: https://discord.gg/biconomy
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/plans/biconomy-plans-pricing.yml
+  href: https://artifacts.apis.io/biconomy/plans/biconomy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/biconomy-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/rate-limits/biconomy-rate-limits.yml
+  href: https://artifacts.apis.io/biconomy/rate-limits/biconomy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/biconomy-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/finops/biconomy-finops.yml
+  href: https://artifacts.apis.io/biconomy/finops/biconomy-finops.yml
   title: ''
   type: FinOps
   url: finops/biconomy-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/vocabulary/biconomy-vocabulary.yml
+  href: https://artifacts.apis.io/biconomy/vocabulary/biconomy-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/biconomy-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/rules/biconomy-rules.yml
+  href: https://artifacts.apis.io/biconomy/rules/biconomy-rules.yml
   title: ''
   type: Rules
   url: rules/biconomy-rules.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/packages/biconomy-packages.yml
+  href: https://artifacts.apis.io/biconomy/packages/biconomy-packages.yml
   title: ''
   type: Packages
   url: packages/biconomy-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/packages/biconomy-packages.yml
+  href: https://artifacts.apis.io/biconomy/packages/biconomy-packages.yml
   title: ''
   type: SDKs
   url: packages/biconomy-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/well-known/biconomy-well-known.yml
+  href: https://artifacts.apis.io/biconomy/well-known/biconomy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/biconomy-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/mcp/biconomy-mcp.yml
+  href: https://artifacts.apis.io/biconomy/mcp/biconomy-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/biconomy-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/mcp/biconomy-tool-crosswalk.yml
+  href: https://artifacts.apis.io/biconomy/mcp/biconomy-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/biconomy-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/a2a/biconomy-a2a.yml
+  href: https://artifacts.apis.io/biconomy/a2a/biconomy-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/biconomy-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/llms/biconomy-llms.txt
+  href: https://artifacts.apis.io/biconomy/llms/biconomy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/biconomy-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/biconomy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/conformance/biconomy-conformance.yml
+  href: https://artifacts.apis.io/biconomy/conformance/biconomy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/biconomy-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/errors/biconomy-problem-types.yml
+  href: https://artifacts.apis.io/biconomy/errors/biconomy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/biconomy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/lifecycle/biconomy-lifecycle.yml
+  href: https://artifacts.apis.io/biconomy/lifecycle/biconomy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/biconomy-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/lifecycle/biconomy-lifecycle.yml
+  href: https://artifacts.apis.io/biconomy/lifecycle/biconomy-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/biconomy-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/conventions/biconomy-conventions.yml
+  href: https://artifacts.apis.io/biconomy/conventions/biconomy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/biconomy-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/sandbox/biconomy-sandbox.yml
+  href: https://artifacts.apis.io/biconomy/sandbox/biconomy-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/biconomy-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/changelog/biconomy-changelog.yml
+  href: https://artifacts.apis.io/biconomy/changelog/biconomy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/biconomy-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/data-model/biconomy-data-model.yml
+  href: https://artifacts.apis.io/biconomy/data-model/biconomy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/biconomy-data-model.yml
@@ -446,12 +446,12 @@ examples:
   slug: biconomy-quote-eoa-7702-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Biconomy Finops
-  primary_unit: supertransaction
-  service_category: Web3 Infrastructure
+  primary_unit: ''
+  service_category: ''
   slug: biconomy-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/biconomy.png
 json_schemas:
 - name: Biconomy MEE Quote Request
@@ -489,7 +489,7 @@ plans:
 - name: Biconomy Plans Pricing
   plan_count: 2
   slug: biconomy-plans-pricing
-random_paper: 6
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Biconomy Rate Limits
@@ -520,28 +520,28 @@ rules:
   slug: biconomy-rules
 score:
   band: strong
-  composite: 57.0
+  composite: 54.6
   coverage:
     artifact_dirs: 32
-    catalog_earned: 84.0
+    catalog_earned: 78.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 31.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -2.1
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 45.5
     contract_quality: 65.1
     developer_ergonomics: 79.0
-    discoverability: 71.7
+    discoverability: 56.7
     operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - singapore
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 56.5
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -558,13 +558,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/screenshots/biconomy-2026-06-20T173223.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/biconomy/biconomy-2026-06-20T173223.png
 security:
 - kind: authentication
   name: Biconomy Authentication
@@ -574,6 +575,16 @@ security:
   name: Biconomy Domain Security
   slug: biconomy-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: biconomy-compose-and-execute-supertransaction
+  slug: biconomy-compose-and-execute-supertransaction
+- name: biconomy-delegate-to-an-agent-with-smart-sessions
+  slug: biconomy-delegate-to-an-agent-with-smart-sessions
+- name: Biconomy
+  slug: biconomy-published-skill
+- name: biconomy-upgrade-legacy-account
+  slug: biconomy-upgrade-legacy-account
 slug: biconomy
 tags:
 - Account Abstraction
@@ -586,7 +597,7 @@ tags:
 - ERC-7702
 - Ethereum
 - Gas Abstraction
-- Gasless
+- Gasless Transactions
 - MEE
 - Paymaster
 - Smart Accounts

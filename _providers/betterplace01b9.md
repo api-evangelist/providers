@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Betterplace provides a learning platform API (details not publicly documented).
@@ -32,12 +34,12 @@ apis:
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/betterplace01b9/refs/heads/main/plans/betterplace01b9-plans-pricing.yml
+  href: https://artifacts.apis.io/betterplace01b9/plans/betterplace01b9-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/betterplace01b9-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/betterplace01b9/refs/heads/main/hosts/betterplace01b9-hosts.yml
+  href: https://artifacts.apis.io/betterplace01b9/hosts/betterplace01b9-hosts.yml
   title: ''
   type: Hosts
   url: hosts/betterplace01b9-hosts.yml
@@ -54,7 +56,7 @@ common:
   type: Login
   url: https://www.betterplace.com/login/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betterplace01b9/refs/heads/main/security/betterplace01b9-domain-security.yml
+  href: https://artifacts.apis.io/betterplace01b9/security/betterplace01b9-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/betterplace01b9-domain-security.yml
@@ -85,7 +87,7 @@ plans:
 - name: Betterplace01B9 Plans Pricing
   plan_count: 3
   slug: betterplace01b9-plans-pricing
-random_paper: 7
+random_paper: 23
 score:
   band: emerging
   composite: 17.1
@@ -113,14 +115,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 9.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/betterplace01b9/refs/heads/main/screenshots/betterplace01b9-2026-10-11T102024.png
+screenshot: https://apis.io/screenshots/betterplace01b9/betterplace01b9-2026-10-11T102024.png
 security:
 - kind: domain-security
   name: Betterplace01B9 Domain Security

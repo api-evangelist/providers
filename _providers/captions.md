@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,17 +25,19 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
+  score: 33.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 23
   slug: captions-agentic-access
   summary_line: 23 operations · 11 acting · 5 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://api.mirage.app
   baseurl_source: declared
@@ -90,11 +92,23 @@ apis:
   description: Generate talking-head videos using community AI avatars or AI Twins
   name: Captions AI Creator API
   slug: captions-ai-creator-api
-artifact_total: 34
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: The Catalog API from Captions — 2 operation(s) for catalog.
+  name: Captions Catalog API
+  slug: captions-catalog-api
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: The internal-fal API from Captions — 5 operation(s) for internal-fal.
+  name: Captions Internal Fal API
+  slug: captions-internal-fal-api
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: The Videos v2 API from Captions — 2 operation(s) for videos v2.
+  name: Captions Videos v2 API
+  slug: captions-videos-v2-api
+artifact_total: 39
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Captions AI Creator & AI Ads API
   slug: open-captions-ai-ads-api
@@ -124,12 +138,12 @@ collections:
   slug: open-captions-videos-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/capabilities/captions-capability-edges.yml
+  href: https://artifacts.apis.io/captions/capabilities/captions-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/captions-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/overlays/captions-mirage-overlay.yaml
+  href: https://artifacts.apis.io/captions/overlays/captions-mirage-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/captions-mirage-overlay.yaml
@@ -190,67 +204,67 @@ common:
   type: Compliance
   url: https://captions.ai/solutions/enterprise
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/_original/captions-mirage-openapi-original.json
+  href: https://artifacts.apis.io/captions/openapi/_original/captions-mirage-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/captions-mirage-openapi-original.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/llms/captions-llms.txt
+  href: https://artifacts.apis.io/captions/llms/captions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/captions-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/authentication/captions-authentication.yml
+  href: https://artifacts.apis.io/captions/authentication/captions-authentication.yml
   title: ''
   type: Authentication
   url: authentication/captions-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/conventions/captions-conventions.yml
+  href: https://artifacts.apis.io/captions/conventions/captions-conventions.yml
   title: ''
   type: Conventions
   url: conventions/captions-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/errors/captions-problem-types.yml
+  href: https://artifacts.apis.io/captions/errors/captions-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/captions-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/lifecycle/captions-lifecycle.yml
+  href: https://artifacts.apis.io/captions/lifecycle/captions-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/captions-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/data-model/captions-data-model.yml
+  href: https://artifacts.apis.io/captions/data-model/captions-data-model.yml
   title: ''
   type: DataModel
   url: data-model/captions-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/conformance/captions-conformance.yml
+  href: https://artifacts.apis.io/captions/conformance/captions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/captions-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/security/captions-domain-security.yml
+  href: https://artifacts.apis.io/captions/security/captions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/captions-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/mcp/captions-mcp.yml
+  href: https://artifacts.apis.io/captions/mcp/captions-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/captions-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/captions/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/agentic-access/captions-agentic-access.yml
+  href: https://artifacts.apis.io/captions/agentic-access/captions-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/captions-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/plans/captions-plans.yml
+  href: https://artifacts.apis.io/captions/plans/captions-plans.yml
   title: ''
   type: Plans
   url: plans/captions-plans.yml
@@ -267,22 +281,22 @@ common:
   type: ChangeLog
   url: https://captions.ai/help/whats-new
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/rate-limits/captions-rate-limits.yml
+  href: https://artifacts.apis.io/captions/rate-limits/captions-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/captions-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/finops/captions-finops.yml
+  href: https://artifacts.apis.io/captions/finops/captions-finops.yml
   title: ''
   type: FinOps
   url: finops/captions-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/vocabulary/captions-vocabulary.yml
+  href: https://artifacts.apis.io/captions/vocabulary/captions-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/captions-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/json-ld/captions-context.jsonld
+  href: https://artifacts.apis.io/captions/json-ld/captions-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/captions-context.jsonld
@@ -327,7 +341,7 @@ modified: '2026-08-08'
 name: Captions
 nav: Providers
 network: true
-overview: 'Captions publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audio API, Health API, Internal API, and 6 more. Tagged areas include Company, Video, Artificial Intelligence, Video Editing, and Video Generation.
+overview: 'Captions publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audio API, Health API, Internal API, and 9 more. Tagged areas include Company, Video, Artificial Intelligence, Video Editing, and Video Generation.
 
 
   The Captions catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -341,7 +355,7 @@ plans:
 - name: Captions Plans
   plan_count: 5
   slug: captions-plans
-random_paper: 7
+random_paper: 1
 rate_limits:
 - limit_count: 6
   name: Captions Rate Limits
@@ -360,36 +374,36 @@ rules:
   slug: captions-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 55.2
+  composite: 54.7
   coverage:
     artifact_dirs: 28
-    catalog_earned: 61.8
+    catalog_earned: 58.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.3
+    catalog_gap: 56.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.7
+  delta: -0.7
   facets:
     access_clarity: 60.5
     contract_governance: 41.7
-    contract_quality: 49.2
+    contract_quality: 48.1
     developer_ergonomics: 58.9
-    discoverability: 78.6
-    operational_transparency: 42.1
+    discoverability: 66.1
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 63.9
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 22.2
+      callable: 15.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 20
     mcp: derived
     skills: derived
   regulatory:
@@ -398,13 +412,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/screenshots/captions-2026-07-25T204454.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/captions/captions-2026-07-25T204454.png
 security:
 - kind: authentication
   name: Captions Authentication
@@ -414,6 +429,14 @@ security:
   name: Captions Domain Security
   slug: captions-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Add stylized captions to a video
+  slug: captions-add-captions
+- name: Generate an AI avatar video and retrieve the result
+  slug: captions-generate-avatar-video
+- name: Synthesize speech audio from text
+  slug: captions-text-to-speech
 slug: captions
 tags:
 - Company

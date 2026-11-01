@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 17.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,11 +55,8 @@ apis:
   description: The Farm Machinery API from Farm Machinery and Equipment API — 1 operation(s) for farm machinery.
   name: Farm Machinery and Equipment API Farm Machinery API
   slug: farm-machinery-and-equipment-api-farm-machinery-api
-artifact_total: 11
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: APIFarmer and Equipment Farm Machinery API
   slug: open-farm-machinery-and-equipment-api-farm-machinery-api
@@ -66,32 +65,32 @@ collections:
   slug: open-farm-machinery-and-equipment-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/plans/farm-machinery-and-equipment-api-plans-pricing.yml
+  href: https://artifacts.apis.io/farm-machinery-and-equipment-api/plans/farm-machinery-and-equipment-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/farm-machinery-and-equipment-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/rate-limits/farm-machinery-and-equipment-api-rate-limits.yml
+  href: https://artifacts.apis.io/farm-machinery-and-equipment-api/rate-limits/farm-machinery-and-equipment-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/farm-machinery-and-equipment-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/finops/farm-machinery-and-equipment-api-finops.yml
+  href: https://artifacts.apis.io/farm-machinery-and-equipment-api/finops/farm-machinery-and-equipment-api-finops.yml
   title: ''
   type: FinOps
   url: finops/farm-machinery-and-equipment-api-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/agentic-access/farm-machinery-and-equipment-api-agentic-access.yml
+  href: https://artifacts.apis.io/farm-machinery-and-equipment-api/agentic-access/farm-machinery-and-equipment-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/farm-machinery-and-equipment-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/security/farm-machinery-and-equipment-api-domain-security.yml
+  href: https://artifacts.apis.io/farm-machinery-and-equipment-api/security/farm-machinery-and-equipment-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/farm-machinery-and-equipment-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/authentication/farm-machinery-and-equipment-api-authentication.yml
+  href: https://artifacts.apis.io/farm-machinery-and-equipment-api/authentication/farm-machinery-and-equipment-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/farm-machinery-and-equipment-api-authentication.yml
@@ -101,7 +100,7 @@ finops:
 - has_sources: false
   method: generated
   name: Farm Machinery And Equipment Api Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: farm-machinery-and-equipment-api-finops
   template: true
@@ -119,7 +118,7 @@ plans:
 - name: Farm Machinery And Equipment Api Plans Pricing
   plan_count: 3
   slug: farm-machinery-and-equipment-api-plans-pricing
-random_paper: 21
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Farm Machinery And Equipment Api Rate Limits
@@ -134,7 +133,7 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
@@ -142,7 +141,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 57.1
     operational_transparency: 7.9
-  previous_composite: 27.3
+  previous_composite: 25.8
   provenance:
     agentic_access: derived
     contracts:
@@ -156,14 +155,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/screenshots/farm-machinery-and-equipment-api-2026-06-20T181042.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/farm-machinery-and-equipment-api/farm-machinery-and-equipment-api-2026-06-20T181042.png
 security:
 - kind: authentication
   name: Farm Machinery And Equipment Api Authentication

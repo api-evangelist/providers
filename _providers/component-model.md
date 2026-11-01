@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The Component Model specification repository under the W3C WebAssembly Community Group. Contains design documents, the formal specification drafts, the WIT grammar, the canonical ABI, and the binary a
@@ -51,17 +53,17 @@ apis:
 artifact_total: 8
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/component-model/refs/heads/main/plans/component-model-plans-pricing.yml
+  href: https://artifacts.apis.io/component-model/plans/component-model-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/component-model-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/component-model/refs/heads/main/rate-limits/component-model-rate-limits.yml
+  href: https://artifacts.apis.io/component-model/rate-limits/component-model-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/component-model-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/component-model/refs/heads/main/finops/component-model-finops.yml
+  href: https://artifacts.apis.io/component-model/finops/component-model-finops.yml
   title: ''
   type: FinOps
   url: finops/component-model-finops.yml
@@ -74,7 +76,7 @@ common:
   type: CodeOfConduct
   url: https://github.com/WebAssembly/.github/blob/main/CODE_OF_CONDUCT.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/component-model/refs/heads/main/security/component-model-domain-security.yml
+  href: https://artifacts.apis.io/component-model/security/component-model-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/component-model-domain-security.yml
@@ -112,7 +114,7 @@ finops:
 - has_sources: false
   method: generated
   name: Component Model Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: component-model-finops
   template: true
@@ -130,14 +132,14 @@ plans:
 - name: Component Model Plans Pricing
   plan_count: 3
   slug: component-model-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Component Model Rate Limits
   slug: component-model-rate-limits
 score:
   band: emerging
-  composite: 11.2
+  composite: 11.5
   coverage:
     artifact_dirs: 6
     catalog_earned: 41.0
@@ -145,29 +147,29 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 62.5
-    operational_transparency: 10.5
-  previous_composite: 12.7
+    operational_transparency: 13.2
+  previous_composite: 11.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/component-model/refs/heads/main/screenshots/component-model-2026-06-20T174832.png
+screenshot: https://apis.io/screenshots/component-model/component-model-2026-06-20T174832.png
 security:
 - kind: domain-security
   name: Component Model Domain Security

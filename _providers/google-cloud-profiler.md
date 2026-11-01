@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,14 +50,11 @@ apis:
   description: The Projects API from Google Cloud Profiler — 4 operation(s) for projects.
   name: Google Cloud Profiler Projects API
   slug: google-cloud-profiler-projects-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: postman
   name: Google Cloud Profiler Projects API
   slug: postman-google-cloud-profiler-projects-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Cloud Profiler Projects API
   slug: open-google-cloud-profiler-projects-api
@@ -64,22 +63,22 @@ collections:
   slug: open-openapi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-profiler/refs/heads/main/plans/google-cloud-profiler-plans-pricing.yml
+  href: https://artifacts.apis.io/google-cloud-profiler/plans/google-cloud-profiler-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-cloud-profiler-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-profiler/refs/heads/main/rate-limits/google-cloud-profiler-rate-limits.yml
+  href: https://artifacts.apis.io/google-cloud-profiler/rate-limits/google-cloud-profiler-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-cloud-profiler-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-profiler/refs/heads/main/finops/google-cloud-profiler-finops.yml
+  href: https://artifacts.apis.io/google-cloud-profiler/finops/google-cloud-profiler-finops.yml
   title: ''
   type: FinOps
   url: finops/google-cloud-profiler-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-profiler/refs/heads/main/capabilities/google-cloud-profiler-capability-edges.yml
+  href: https://artifacts.apis.io/google-cloud-profiler/capabilities/google-cloud-profiler-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-cloud-profiler-capability-edges.yml
@@ -92,17 +91,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-cloud-profiler/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-profiler/refs/heads/main/agentic-access/google-cloud-profiler-agentic-access.yml
+  href: https://artifacts.apis.io/google-cloud-profiler/agentic-access/google-cloud-profiler-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-cloud-profiler-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-profiler/refs/heads/main/security/google-cloud-profiler-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-cloud-profiler/security/google-cloud-profiler-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-cloud-profiler-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-profiler/refs/heads/main/security/google-cloud-profiler-domain-security.yml
+  href: https://artifacts.apis.io/google-cloud-profiler/security/google-cloud-profiler-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-cloud-profiler-domain-security.yml
@@ -147,7 +146,7 @@ common:
   type: Support
   url: https://cloud.google.com/profiler/docs/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-profiler/refs/heads/main/json-ld/json-ld.yml
+  href: https://artifacts.apis.io/google-cloud-profiler/json-ld/json-ld.yml
   title: ''
   type: JSONLDContext
   url: json-ld/json-ld.yml
@@ -157,7 +156,7 @@ finops:
 - has_sources: false
   method: generated
   name: Google Cloud Profiler Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: google-cloud-profiler-finops
   template: true
@@ -197,7 +196,7 @@ rules:
   slug: google-cloud-profiler-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 39.7
+  composite: 44.2
   coverage:
     artifact_dirs: 14
     catalog_earned: 51.7
@@ -205,15 +204,15 @@ score:
     catalog_gap: 63.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 48.4
     developer_ergonomics: 48.8
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 41.2
+    operational_transparency: 39.5
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     contracts:
@@ -227,13 +226,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-profiler/refs/heads/main/screenshots/google-cloud-profiler-2026-06-20T182130.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-cloud-profiler/google-cloud-profiler-2026-06-20T182130.png
 security:
 - kind: domain-security
   name: Google Cloud Profiler Domain Security

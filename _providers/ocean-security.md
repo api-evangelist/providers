@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Operations for retrieving threat information
   name: Ocean Security Threats API
   slug: ocean-security-threats-api
-artifact_total: 12
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ocean Security Metrics API
   slug: open-ocean-security-metrics-api
@@ -83,27 +82,27 @@ collections:
   slug: open-ocean-security-threats-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/capabilities/ocean-security-capability-edges.yml
+  href: https://artifacts.apis.io/ocean-security/capabilities/ocean-security-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ocean-security-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/skills/ocean-security-investigate-phishing-reports.md
+  href: https://artifacts.apis.io/ocean-security/skills/ocean-security-investigate-phishing-reports.md
   title: ''
   type: AgentSkill
   url: skills/ocean-security-investigate-phishing-reports.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/mcp/ocean-security-mcp.yml
+  href: https://artifacts.apis.io/ocean-security/mcp/ocean-security-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ocean-security-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/overlays/ocean-security-openapi-overlay.yaml
+  href: https://artifacts.apis.io/ocean-security/overlays/ocean-security-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ocean-security-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/agentic-access/ocean-security-agentic-access.yml
+  href: https://artifacts.apis.io/ocean-security/agentic-access/ocean-security-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ocean-security-agentic-access.yml
@@ -148,32 +147,32 @@ common:
   type: SignUp
   url: https://ocean.security/demo
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/llms/ocean-security-llms.txt
+  href: https://artifacts.apis.io/ocean-security/llms/ocean-security-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ocean-security-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/authentication/ocean-security-authentication.yml
+  href: https://artifacts.apis.io/ocean-security/authentication/ocean-security-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ocean-security-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/security/ocean-security-domain-security.yml
+  href: https://artifacts.apis.io/ocean-security/security/ocean-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ocean-security-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/conventions/ocean-security-conventions.yml
+  href: https://artifacts.apis.io/ocean-security/conventions/ocean-security-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ocean-security-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/lifecycle/ocean-security-lifecycle.yml
+  href: https://artifacts.apis.io/ocean-security/lifecycle/ocean-security-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ocean-security-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/well-known/ocean-security-well-known.yml
+  href: https://artifacts.apis.io/ocean-security/well-known/ocean-security-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ocean-security-well-known.yml
@@ -189,10 +188,10 @@ overview: 'Ocean Security publishes 4 API contracts indexed on the [APIs.io](htt
 
 
   Ocean Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 21
+random_paper: 11
 score:
-  band: thin
-  composite: 36.8
+  band: developing
+  composite: 40.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -202,13 +201,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 53.0
-    developer_ergonomics: 42.3
-    discoverability: 73.2
+    contract_quality: 49.6
+    developer_ergonomics: 54.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 36.8
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,14 +223,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/screenshots/ocean-security-2026-08-07T185923.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ocean-security/ocean-security-2026-08-07T185923.png
 security:
 - kind: authentication
   name: Ocean Security Authentication
@@ -241,6 +241,16 @@ security:
   name: Ocean Security Domain Security
   slug: ocean-security-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: Investigate SONAR phishing reports
+  slug: ocean-security-investigate-phishing-reports
+- name: Manage the tenant allow/deny list
+  slug: ocean-security-manage-allow-deny-list
+- name: Report security ROI and posture metrics
+  slug: ocean-security-report-security-roi
+- name: Triage recent email threats
+  slug: ocean-security-triage-recent-threats
 slug: ocean-security
 tags:
 - Company

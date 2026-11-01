@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.1
-  scored_at: '2026-10-17'
+  score: 47.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 9
@@ -85,15 +87,22 @@ apis:
   description: The User API from Gojiberry AI — 2 operation(s) for user.
   name: Gojiberry AI User API
   slug: gojiberry-ai-user-api
-artifact_total: 25
+- baseURL: https://ext.gojiberry.ai
+  baseurl_source: declared
+  description: The Directory API from Gojiberry AI — 6 operation(s) for directory.
+  name: Gojiberry AI Directory API
+  slug: gojiberry-ai-directory-api
+- baseURL: https://ext.gojiberry.ai
+  baseurl_source: declared
+  description: The Email Seat API from Gojiberry AI — 1 operation(s) for email seat.
+  name: Gojiberry AI Email Seat API
+  slug: gojiberry-ai-email-seat-api
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Gojiberry Ai Webhooks
   slug: gojiberry-ai-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Gojiberry AI - External AppExternal API
   slug: open-gojiberry-ai-appexternal-api
@@ -119,12 +128,17 @@ collections:
   name: Gojiberry AI - External AppExternal User API
   slug: open-gojiberry-ai-user-api
 common:
+- group: other
+  href: https://artifacts.apis.io/gojiberry-ai/capabilities/gojiberry-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gojiberry-ai-capability-edges.yml
 - group: company
   title: ''
   type: Blog
   url: https://gojiberry.ai/blog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/agentic-access/gojiberry-ai-agentic-access.yml
+  href: https://artifacts.apis.io/gojiberry-ai/agentic-access/gojiberry-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gojiberry-ai-agentic-access.yml
@@ -149,52 +163,52 @@ common:
   type: APIReference
   url: https://ext.gojiberry.ai/documentation
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/authentication/gojiberry-ai-authentication.yml
+  href: https://artifacts.apis.io/gojiberry-ai/authentication/gojiberry-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gojiberry-ai-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/mcp/gojiberry-ai-mcp.yml
+  href: https://artifacts.apis.io/gojiberry-ai/mcp/gojiberry-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/gojiberry-ai-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/mcp/gojiberry-ai-tool-crosswalk.yml
+  href: https://artifacts.apis.io/gojiberry-ai/mcp/gojiberry-ai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/gojiberry-ai-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/scopes/gojiberry-ai-scopes.yml
+  href: https://artifacts.apis.io/gojiberry-ai/scopes/gojiberry-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/gojiberry-ai-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/well-known/gojiberry-ai-well-known.yml
+  href: https://artifacts.apis.io/gojiberry-ai/well-known/gojiberry-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gojiberry-ai-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/packages/gojiberry-ai-packages.yml
+  href: https://artifacts.apis.io/gojiberry-ai/packages/gojiberry-ai-packages.yml
   title: ''
   type: Packages
   url: packages/gojiberry-ai-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/plans/gojiberry-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/gojiberry-ai/plans/gojiberry-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gojiberry-ai-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/conventions/gojiberry-ai-conventions.yml
+  href: https://artifacts.apis.io/gojiberry-ai/conventions/gojiberry-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gojiberry-ai-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/rate-limits/gojiberry-ai-rate-limits.yml
+  href: https://artifacts.apis.io/gojiberry-ai/rate-limits/gojiberry-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gojiberry-ai-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/lifecycle/gojiberry-ai-lifecycle.yml
+  href: https://artifacts.apis.io/gojiberry-ai/lifecycle/gojiberry-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gojiberry-ai-lifecycle.yml
@@ -203,42 +217,42 @@ common:
   type: StatusPage
   url: https://status.gojiberry.ai/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/conformance/gojiberry-ai-conformance.yml
+  href: https://artifacts.apis.io/gojiberry-ai/conformance/gojiberry-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gojiberry-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/data-model/gojiberry-ai-data-model.yml
+  href: https://artifacts.apis.io/gojiberry-ai/data-model/gojiberry-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gojiberry-ai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/asyncapi/gojiberry-ai-webhooks.yml
+  href: https://artifacts.apis.io/gojiberry-ai/asyncapi/gojiberry-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/gojiberry-ai-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/gojiberry-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/security/gojiberry-ai-domain-security.yml
+  href: https://artifacts.apis.io/gojiberry-ai/security/gojiberry-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gojiberry-ai-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/llms/gojiberry-ai-llms.txt
+  href: https://artifacts.apis.io/gojiberry-ai/llms/gojiberry-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gojiberry-ai-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/overlays/gojiberry-ai-external-overlay.yaml
+  href: https://artifacts.apis.io/gojiberry-ai/overlays/gojiberry-ai-external-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gojiberry-ai-external-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/errors/gojiberry-ai-problem-types.yml
+  href: https://artifacts.apis.io/gojiberry-ai/errors/gojiberry-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gojiberry-ai-problem-types.yml
@@ -280,6 +294,14 @@ common:
   url: https://x.com/gojiberryai
 created: '2026-07-17'
 description: Gojiberry AI is a Y Combinator-backed (P26), EU-hosted AI sales development platform that turns a company website into an autonomous go-to-market agent. The agent detects buying and social intent signals, scores prospects against an ideal customer profile, builds warm-lead lists, and runs multichannel (email and LinkedIn) outreach automatically. Gojiberry exposes a REST External API at ext.gojiberry.ai for programmatic access to contacts, campaigns, lists, lead-source agents, and the unified LinkedIn/email inbox (Unibox), plus a hosted Model Context Protocol (MCP) server so agents like Claude can run outreach and pull pipeline insights conversationally. Trusted by 2,000+ sales and GTM teams worldwide.
+finops:
+- has_sources: true
+  method: derived
+  name: Gojiberry Ai Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: gojiberry-ai-finops
+  template: false
 image: https://framerusercontent.com/images/0PsnqRXKIijGaB8ooIkfAThxHs.png
 layout: provider
 mcp_servers:
@@ -290,18 +312,21 @@ modified: '2026-10-06'
 name: Gojiberry AI
 nav: Providers
 network: true
-overview: 'Gojiberry AI publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including AppExternal API, Campaigns API, Contacts API, and 5 more. Tagged areas include Company, Sales, Lead Generation, Sales Intelligence, and AI Agents.
+overview: 'Gojiberry AI publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including AppExternal API, Campaigns API, Contacts API, and 7 more. Tagged areas include Company, Sales, Lead Generation, Sales Intelligence, and AI Agents.
 
 
   The Gojiberry AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Gojiberry AI''s developer surface includes engineering blog, developer portal, documentation, API reference, authentication, pricing, signup flow, and 28 more developer resources.'
+  Gojiberry AI''s developer surface includes engineering blog, developer portal, documentation, API reference, authentication, pricing, signup flow, and 29 more developer resources.'
 plans:
 - name: Gojiberry Ai Plans Pricing
   plan_count: 2
   slug: gojiberry-ai-plans-pricing
-random_paper: 10
+- name: Gojiberry Ai Price Estimates
+  plan_count: 0
+  slug: gojiberry-ai-price-estimates
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Gojiberry Ai Rate Limits
@@ -313,31 +338,31 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.5
+  composite: 53.8
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 53.0
+    artifact_dirs: 26
+    catalog_earned: 56.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 62.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.7
   facets:
-    access_clarity: 53.9
+    access_clarity: 73.7
     contract_governance: 4.5
-    contract_quality: 47.7
+    contract_quality: 52.8
     developer_ergonomics: 47.0
-    discoverability: 75.0
-    operational_transparency: 39.5
-  previous_composite: 47.4
+    discoverability: 65.0
+    operational_transparency: 50.0
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 55.6
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 18
     mcp: first-party
     skills: derived
   regulatory:
@@ -346,13 +371,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/screenshots/gojiberry-ai-2026-07-25T220016.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gojiberry-ai/gojiberry-ai-2026-07-25T220016.png
 security:
 - kind: authentication
   name: Gojiberry Ai Authentication
@@ -362,6 +388,14 @@ security:
   name: Gojiberry Ai Domain Security
   slug: gojiberry-ai-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Enrich a contact and send a LinkedIn message
+  slug: gojiberry-ai-enrich-and-message-contact
+- name: Find warm leads and build a list
+  slug: gojiberry-ai-find-and-list-warm-leads
+- name: Manage campaigns and lead-source agents
+  slug: gojiberry-ai-manage-campaigns-and-agents
 slug: gojiberry-ai
 tags:
 - Company

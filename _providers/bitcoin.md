@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +63,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/bitcoin
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitcoin/refs/heads/main/security/bitcoin-domain-security.yml
+  href: https://artifacts.apis.io/bitcoin/security/bitcoin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitcoin-domain-security.yml
@@ -77,10 +79,10 @@ overview: 'Bitcoin is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bitcoin''s developer surface includes documentation, API reference, getting-started guide, code examples, and 3 more developer resources.'
-random_paper: 18
+random_paper: 0
 score:
   band: minimal
-  composite: 10.4
+  composite: 10.7
   coverage:
     artifact_dirs: 3
     catalog_earned: 27.0
@@ -95,22 +97,22 @@ score:
     contract_quality: 6.5
     developer_ergonomics: 28.6
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 10.4
+    operational_transparency: 5.3
+  previous_composite: 10.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bitcoin/refs/heads/main/screenshots/bitcoin-2026-07-25T203139.png
+screenshot: https://apis.io/screenshots/bitcoin/bitcoin-2026-07-25T203139.png
 security:
 - kind: domain-security
   name: Bitcoin Domain Security

@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.3
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 28.4
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://sandbox.oumla.com
   baseurl_source: declared
@@ -98,11 +100,8 @@ apis:
   description: The workflows API from Oumla Ltd — 1 operation(s) for workflows.
   name: Oumla Ltd Workflows API
   slug: oumla-ltd-workflows-api
-artifact_total: 27
+artifact_total: 30
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Oumla Core Server addresses API
   slug: open-oumla-ltd-addresses-api
@@ -141,7 +140,7 @@ collections:
   slug: open-oumla-ltd-workflows-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/overlays/oumla-ltd-openapi-overlay.yaml
+  href: https://artifacts.apis.io/oumla-ltd/overlays/oumla-ltd-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oumla-ltd-openapi-overlay.yaml
@@ -166,32 +165,32 @@ common:
   type: GettingStarted
   url: https://docs.oumla.com/guides/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/authentication/oumla-ltd-authentication.yml
+  href: https://artifacts.apis.io/oumla-ltd/authentication/oumla-ltd-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oumla-ltd-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/packages/oumla-ltd-packages.yml
+  href: https://artifacts.apis.io/oumla-ltd/packages/oumla-ltd-packages.yml
   title: ''
   type: SDKs
   url: packages/oumla-ltd-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/packages/oumla-ltd-packages.yml
+  href: https://artifacts.apis.io/oumla-ltd/packages/oumla-ltd-packages.yml
   title: ''
   type: Packages
   url: packages/oumla-ltd-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/sandbox/oumla-ltd-sandbox.yml
+  href: https://artifacts.apis.io/oumla-ltd/sandbox/oumla-ltd-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/oumla-ltd-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/mcp/oumla-ltd-mcp.yml
+  href: https://artifacts.apis.io/oumla-ltd/mcp/oumla-ltd-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/oumla-ltd-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/oumla-ltd/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -200,27 +199,27 @@ common:
   type: ChangeLog
   url: https://docs.oumla.com/changelog
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/lifecycle/oumla-ltd-lifecycle.yml
+  href: https://artifacts.apis.io/oumla-ltd/lifecycle/oumla-ltd-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/oumla-ltd-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/errors/oumla-ltd-error-codes.yml
+  href: https://artifacts.apis.io/oumla-ltd/errors/oumla-ltd-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/oumla-ltd-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/conventions/oumla-ltd-conventions.yml
+  href: https://artifacts.apis.io/oumla-ltd/conventions/oumla-ltd-conventions.yml
   title: ''
   type: Conventions
   url: conventions/oumla-ltd-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/data-model/oumla-ltd-data-model.yml
+  href: https://artifacts.apis.io/oumla-ltd/data-model/oumla-ltd-data-model.yml
   title: ''
   type: DataModel
   url: data-model/oumla-ltd-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/conformance/oumla-ltd-conformance.yml
+  href: https://artifacts.apis.io/oumla-ltd/conformance/oumla-ltd-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oumla-ltd-conformance.yml
@@ -229,12 +228,12 @@ common:
   type: Compliance
   url: https://oumla.com/blog/oumla-achieves-soc-2-type-ii-certification
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/llms/oumla-ltd-llms.txt
+  href: https://artifacts.apis.io/oumla-ltd/llms/oumla-ltd-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oumla-ltd-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/security/oumla-ltd-domain-security.yml
+  href: https://artifacts.apis.io/oumla-ltd/security/oumla-ltd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oumla-ltd-domain-security.yml
@@ -270,12 +269,12 @@ overview: 'Oumla publishes 12 API contracts indexed on the [APIs.io](https://api
 
 
   Oumla''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 19 more developer resources.'
-random_paper: 9
+random_paper: 23
 score:
   band: developing
-  composite: 45.5
+  composite: 45.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -287,8 +286,8 @@ score:
     contract_governance: 18.2
     contract_quality: 51.3
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 18.4
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -297,7 +296,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 45.5
+  previous_composite: 45.9
   provenance:
     conformance: first-party
     contracts:
@@ -313,13 +312,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 23.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/screenshots/oumla-ltd-2026-08-07T191043.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/oumla-ltd/oumla-ltd-2026-08-07T191043.png
 security:
 - kind: authentication
   name: Oumla Ltd Authentication
@@ -329,6 +329,16 @@ security:
   name: Oumla Ltd Domain Security
   slug: oumla-ltd-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Create a wallet and receive address
+  slug: oumla-ltd-create-wallet-and-address
+- name: Deploy and interact with a smart contract
+  slug: oumla-ltd-deploy-and-interact-contract
+- name: Tokenize an asset (collection, issue, mint)
+  slug: oumla-ltd-tokenize-asset
+- name: Withdraw funds and track the workflow
+  slug: oumla-ltd-withdraw-and-track
 slug: oumla-ltd
 tags:
 - Company

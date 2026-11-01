@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Access Bloomberg TV and Radio content including video clips, interview segments, market coverage segments, and audio content for licensed distribution to enterprise clients and media partners.
@@ -45,17 +47,17 @@ apis:
 artifact_total: 16
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-television-and-radio/refs/heads/main/plans/bloomberg-television-and-radio-plans-pricing.yml
+  href: https://artifacts.apis.io/bloomberg-television-and-radio/plans/bloomberg-television-and-radio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bloomberg-television-and-radio-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-television-and-radio/refs/heads/main/rate-limits/bloomberg-television-and-radio-rate-limits.yml
+  href: https://artifacts.apis.io/bloomberg-television-and-radio/rate-limits/bloomberg-television-and-radio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bloomberg-television-and-radio-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-television-and-radio/refs/heads/main/finops/bloomberg-television-and-radio-finops.yml
+  href: https://artifacts.apis.io/bloomberg-television-and-radio/finops/bloomberg-television-and-radio-finops.yml
   title: ''
   type: FinOps
   url: finops/bloomberg-television-and-radio-finops.yml
@@ -68,7 +70,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/bloomberg/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-television-and-radio/refs/heads/main/security/bloomberg-television-and-radio-domain-security.yml
+  href: https://artifacts.apis.io/bloomberg-television-and-radio/security/bloomberg-television-and-radio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bloomberg-television-and-radio-domain-security.yml
@@ -111,7 +113,7 @@ finops:
 - has_sources: false
   method: generated
   name: Bloomberg Television And Radio Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: bloomberg-television-and-radio-finops
   template: true
@@ -129,7 +131,7 @@ plans:
 - name: Bloomberg Television And Radio Plans Pricing
   plan_count: 3
   slug: bloomberg-television-and-radio-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Bloomberg Television And Radio Rate Limits
@@ -144,7 +146,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
@@ -152,21 +154,21 @@ score:
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 19.5
+  previous_composite: 18.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-television-and-radio/refs/heads/main/screenshots/bloomberg-television-and-radio-2026-07-25T203405.png
+screenshot: https://apis.io/screenshots/bloomberg-television-and-radio/bloomberg-television-and-radio-2026-07-25T203405.png
 security:
 - kind: domain-security
   name: Bloomberg Television And Radio Domain Security

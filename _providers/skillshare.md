@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skillshare/refs/heads/main/security/skillshare-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/skillshare/security/skillshare-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/skillshare-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skillshare/refs/heads/main/security/skillshare-domain-security.yml
+  href: https://artifacts.apis.io/skillshare/security/skillshare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skillshare-domain-security.yml
@@ -130,7 +132,7 @@ overview: 'Skillshare is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 18
 score:
   band: emerging
-  composite: 11.3
+  composite: 12.7
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -145,22 +147,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 5.3
-  previous_composite: 11.3
+    operational_transparency: 15.8
+  previous_composite: 12.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/skillshare/refs/heads/main/screenshots/skillshare-2026-10-11T193344.png
+screenshot: https://apis.io/screenshots/skillshare/skillshare-2026-10-11T193344.png
 security:
 - kind: domain-security
   name: Skillshare Domain Security

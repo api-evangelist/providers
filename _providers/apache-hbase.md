@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -66,11 +68,8 @@ apis:
   description: Table management operations
   name: Apache HBase Tables API
   slug: apache-hbase-tables-api
-artifact_total: 62
+artifact_total: 61
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apache HBase REST Regions API
   slug: open-apache-hbase-regions-api
@@ -88,17 +87,17 @@ collections:
   slug: open-apache-hbase-tables-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/plans/apache-hbase-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-hbase/plans/apache-hbase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-hbase-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/rate-limits/apache-hbase-rate-limits.yml
+  href: https://artifacts.apis.io/apache-hbase/rate-limits/apache-hbase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-hbase-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/finops/apache-hbase-finops.yml
+  href: https://artifacts.apis.io/apache-hbase/finops/apache-hbase-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-hbase-finops.yml
@@ -123,17 +122,17 @@ common:
   type: License
   url: https://github.com/apache/hbase/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/agentic-access/apache-hbase-agentic-access.yml
+  href: https://artifacts.apis.io/apache-hbase/agentic-access/apache-hbase-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-hbase-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/security/apache-hbase-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-hbase/security/apache-hbase-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-hbase-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/security/apache-hbase-domain-security.yml
+  href: https://artifacts.apis.io/apache-hbase/security/apache-hbase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-hbase-domain-security.yml
@@ -154,12 +153,12 @@ common:
   type: GitHubRepository
   url: https://github.com/apache/hbase
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/rules/apache-hbase-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-hbase/rules/apache-hbase-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-hbase-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/vocabulary/apache-hbase-vocabulary.yaml
+  href: https://artifacts.apis.io/apache-hbase/vocabulary/apache-hbase-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-hbase-vocabulary.yaml
@@ -211,7 +210,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Hbase Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-hbase-finops
   template: true
@@ -298,7 +297,7 @@ plans:
 - name: Apache Hbase Plans Pricing
   plan_count: 3
   slug: apache-hbase-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Apache Hbase Rate Limits
@@ -329,26 +328,23 @@ rules:
   slug: apache-hbase-spectral-rules
 score:
   band: thin
-  composite: 39.2
+  composite: 33.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 60.4
     catalog_earned_first_party: 0.0
     catalog_gap: 54.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 48.9
     developer_ergonomics: 28.6
     discoverability: 57.1
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 75.0
-  previous_composite: 40.6
+    operational_transparency: 39.5
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -362,13 +358,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/screenshots/apache-hbase-2026-06-20T172109.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-hbase/apache-hbase-2026-06-20T172109.png
 security:
 - kind: domain-security
   name: Apache Hbase Domain Security

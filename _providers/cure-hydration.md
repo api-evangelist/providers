@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'A live, first-party, anonymously discoverable Model Context Protocol server implementing the Shopify Universal Commerce Protocol shopping service for the CURE storefront. Thirteen tools cover catalog '
@@ -48,7 +50,7 @@ apis:
 - description: Read-only, unauthenticated JSON endpoints the store documents for agents in /agents.md — product list, product detail by handle, collection list, collection products, store metadata and search. Unvers
   name: CURE Storefront JSON Endpoints
   slug: cure-storefront-json-endpoints
-artifact_total: 12
+artifact_total: 14
 common:
 - group: company
   title: ''
@@ -67,7 +69,7 @@ common:
   type: APIReference
   url: https://www.curehydration.com/llms.txt
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/skills/cure-hydration-browse-catalog.md
+  href: https://artifacts.apis.io/cure-hydration/skills/cure-hydration-browse-catalog.md
   title: ''
   type: GettingStarted
   url: skills/cure-hydration-browse-catalog.md
@@ -104,97 +106,97 @@ common:
   type: About
   url: https://www.curehydration.com/pages/about-us
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/llms/cure-hydration-llms.txt
+  href: https://artifacts.apis.io/cure-hydration/llms/cure-hydration-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cure-hydration-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cure-hydration/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/mcp/cure-hydration-mcp.yml
+  href: https://artifacts.apis.io/cure-hydration/mcp/cure-hydration-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cure-hydration-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/mcp/cure-hydration-tool-crosswalk.yml
+  href: https://artifacts.apis.io/cure-hydration/mcp/cure-hydration-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cure-hydration-tool-crosswalk.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/graphql/cure-hydration-storefront.graphql
+  href: https://artifacts.apis.io/cure-hydration/graphql/cure-hydration-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/cure-hydration-storefront.graphql
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/well-known/cure-hydration-well-known.yml
+  href: https://artifacts.apis.io/cure-hydration/well-known/cure-hydration-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cure-hydration-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/well-known/cure-hydration-openid-configuration.json
+  href: https://artifacts.apis.io/cure-hydration/well-known/cure-hydration-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/cure-hydration-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/authentication/cure-hydration-authentication.yml
+  href: https://artifacts.apis.io/cure-hydration/authentication/cure-hydration-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cure-hydration-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/scopes/cure-hydration-scopes.yml
+  href: https://artifacts.apis.io/cure-hydration/scopes/cure-hydration-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cure-hydration-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/conventions/cure-hydration-conventions.yml
+  href: https://artifacts.apis.io/cure-hydration/conventions/cure-hydration-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cure-hydration-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/conventions/cure-hydration-conventions.yml
+  href: https://artifacts.apis.io/cure-hydration/conventions/cure-hydration-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/cure-hydration-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/errors/cure-hydration-problem-types.yml
+  href: https://artifacts.apis.io/cure-hydration/errors/cure-hydration-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cure-hydration-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/rate-limits/cure-hydration-rate-limits.yml
+  href: https://artifacts.apis.io/cure-hydration/rate-limits/cure-hydration-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cure-hydration-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/plans/cure-hydration-plans-pricing.yml
+  href: https://artifacts.apis.io/cure-hydration/plans/cure-hydration-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cure-hydration-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/lifecycle/cure-hydration-lifecycle.yml
+  href: https://artifacts.apis.io/cure-hydration/lifecycle/cure-hydration-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cure-hydration-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/conformance/cure-hydration-conformance.yml
+  href: https://artifacts.apis.io/cure-hydration/conformance/cure-hydration-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cure-hydration-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/data-model/cure-hydration-data-model.yml
+  href: https://artifacts.apis.io/cure-hydration/data-model/cure-hydration-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cure-hydration-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/cure-hydration/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/security/cure-hydration-domain-security.yml
+  href: https://artifacts.apis.io/cure-hydration/security/cure-hydration-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cure-hydration-domain-security.yml
@@ -228,7 +230,7 @@ plans:
 - name: Cure Hydration Plans Pricing
   plan_count: 0
   slug: cure-hydration-plans-pricing
-random_paper: 2
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Cure Hydration Rate Limits
@@ -240,7 +242,7 @@ scopes:
   summary_line: 4 scopes · authorization_code/refresh_token/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: thin
-  composite: 35.9
+  composite: 35.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 35.0
@@ -254,9 +256,9 @@ score:
     contract_governance: 18.2
     contract_quality: 15.6
     developer_ergonomics: 54.8
-    discoverability: 68.3
+    discoverability: 61.7
     operational_transparency: 0.0
-  previous_composite: 35.9
+  previous_composite: 35.3
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -267,14 +269,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/screenshots/cure-hydration-2026-08-17T080844.png
+screenshot: https://apis.io/screenshots/cure-hydration/cure-hydration-2026-08-17T080844.png
 security:
 - kind: authentication
   name: Cure Hydration Authentication
@@ -284,6 +286,12 @@ security:
   name: Cure Hydration Domain Security
   slug: cure-hydration-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: agentic-purchase
+  slug: cure-hydration-agentic-purchase
+- name: browse-catalog
+  slug: cure-hydration-browse-catalog
 slug: cure-hydration
 tags:
 - Company

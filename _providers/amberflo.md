@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 29.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -128,7 +130,7 @@ arazzos:
 - description: Find a customer by ID and update it if it exists, otherwise create it.
   name: Amberflo Upsert Customer
   slug: amberflo-upsert-customer-workflow
-artifact_total: 118
+artifact_total: 117
 collections:
 - collection_type: postman
   name: Amberflo Billing Customers API
@@ -155,9 +157,6 @@ collections:
   name: Amberflo Billing Customers Usage Queries API
   slug: postman-amberflo-usage-queries-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Amberflo Billing Customers API
   slug: open-amberflo-customers-api
 - collection_type: open
@@ -183,17 +182,17 @@ collections:
   slug: open-amberflo-usage-queries-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/plans/amberflo-plans-pricing.yml
+  href: https://artifacts.apis.io/amberflo/plans/amberflo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amberflo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/rate-limits/amberflo-rate-limits.yml
+  href: https://artifacts.apis.io/amberflo/rate-limits/amberflo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amberflo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/finops/amberflo-finops.yml
+  href: https://artifacts.apis.io/amberflo/finops/amberflo-finops.yml
   title: ''
   type: FinOps
   url: finops/amberflo-finops.yml
@@ -202,82 +201,82 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amberflo/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/agentic-access/amberflo-agentic-access.yml
+  href: https://artifacts.apis.io/amberflo/agentic-access/amberflo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amberflo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/security/amberflo-trust-center.yml
+  href: https://artifacts.apis.io/amberflo/security/amberflo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amberflo-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/security/amberflo-domain-security.yml
+  href: https://artifacts.apis.io/amberflo/security/amberflo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amberflo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/authentication/amberflo-authentication.yml
+  href: https://artifacts.apis.io/amberflo/authentication/amberflo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amberflo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/arazzo/amberflo-create-customer-and-assign-plan-workflow.yml
+  href: https://artifacts.apis.io/amberflo/arazzo/amberflo-create-customer-and-assign-plan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amberflo-create-customer-and-assign-plan-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/arazzo/amberflo-create-meter-and-ingest-event-workflow.yml
+  href: https://artifacts.apis.io/amberflo/arazzo/amberflo-create-meter-and-ingest-event-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amberflo-create-meter-and-ingest-event-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/arazzo/amberflo-discover-meter-and-query-usage-workflow.yml
+  href: https://artifacts.apis.io/amberflo/arazzo/amberflo-discover-meter-and-query-usage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amberflo-discover-meter-and-query-usage-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/arazzo/amberflo-get-customer-invoices-workflow.yml
+  href: https://artifacts.apis.io/amberflo/arazzo/amberflo-get-customer-invoices-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amberflo-get-customer-invoices-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/arazzo/amberflo-ingest-and-query-usage-workflow.yml
+  href: https://artifacts.apis.io/amberflo/arazzo/amberflo-ingest-and-query-usage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amberflo-ingest-and-query-usage-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/arazzo/amberflo-launch-usage-based-product-workflow.yml
+  href: https://artifacts.apis.io/amberflo/arazzo/amberflo-launch-usage-based-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amberflo-launch-usage-based-product-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/arazzo/amberflo-meter-usage-and-topup-prepaid-workflow.yml
+  href: https://artifacts.apis.io/amberflo/arazzo/amberflo-meter-usage-and-topup-prepaid-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amberflo-meter-usage-and-topup-prepaid-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/arazzo/amberflo-meter-with-filtering-rule-workflow.yml
+  href: https://artifacts.apis.io/amberflo/arazzo/amberflo-meter-with-filtering-rule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amberflo-meter-with-filtering-rule-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/arazzo/amberflo-offboard-customer-if-no-invoices-workflow.yml
+  href: https://artifacts.apis.io/amberflo/arazzo/amberflo-offboard-customer-if-no-invoices-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amberflo-offboard-customer-if-no-invoices-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/arazzo/amberflo-onboard-customer-and-meter-usage-workflow.yml
+  href: https://artifacts.apis.io/amberflo/arazzo/amberflo-onboard-customer-and-meter-usage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amberflo-onboard-customer-and-meter-usage-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/arazzo/amberflo-provision-customer-billing-workflow.yml
+  href: https://artifacts.apis.io/amberflo/arazzo/amberflo-provision-customer-billing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amberflo-provision-customer-billing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/arazzo/amberflo-upsert-customer-workflow.yml
+  href: https://artifacts.apis.io/amberflo/arazzo/amberflo-upsert-customer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amberflo-upsert-customer-workflow.yml
@@ -584,7 +583,7 @@ plans:
 - name: Amberflo Plans Pricing
   plan_count: 4
   slug: amberflo-plans-pricing
-random_paper: 4
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Amberflo Rate Limits
@@ -615,7 +614,7 @@ rules:
   slug: amberflo-spectral-rules
 score:
   band: developing
-  composite: 46.5
+  composite: 48.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 66.0
@@ -623,15 +622,15 @@ score:
     catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 61.8
+    access_clarity: 68.4
     contract_governance: 27.3
-    contract_quality: 25.2
-    developer_ergonomics: 58.3
+    contract_quality: 22.3
+    developer_ergonomics: 70.2
     discoverability: 78.6
-    operational_transparency: 10.5
-  previous_composite: 48.0
+    operational_transparency: 13.2
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -645,13 +644,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/screenshots/amberflo-2026-06-20T171855.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amberflo/amberflo-2026-06-20T171855.png
 security:
 - kind: authentication
   name: Amberflo Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.3
-  scored_at: '2026-10-17'
+  score: 33.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 191
   human_in_the_loop: 3
@@ -952,7 +954,7 @@ apis:
     question: Can a WiFi vendor enroll guests into the eClub with a business admin key?
   phrasing_ops: 4
   slug: punchh-wifi-acquisition-api
-artifact_total: 132
+artifact_total: 137
 asyncapis:
 - description: ''
   name: Punchh Webhooks
@@ -979,9 +981,6 @@ collections:
 - collection_type: postman
   name: PAR Punchh Mobile Check-In Users API
   slug: postman-punchh-users-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Mobile API
   slug: open-punchh-mobile-api
@@ -1041,72 +1040,72 @@ collections:
   slug: open-punchh-pos
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/overlays/punchh-mobile-api-overlay.yaml
+  href: https://artifacts.apis.io/punchh/overlays/punchh-mobile-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/punchh-mobile-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/overlays/punchh-mobile-redemptions-legacy-overlay.yaml
+  href: https://artifacts.apis.io/punchh/overlays/punchh-mobile-redemptions-legacy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/punchh-mobile-redemptions-legacy-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/overlays/punchh-mobile-redemptions-v2-overlay.yaml
+  href: https://artifacts.apis.io/punchh/overlays/punchh-mobile-redemptions-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/punchh-mobile-redemptions-v2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/overlays/punchh-mobile-subscription-overlay.yaml
+  href: https://artifacts.apis.io/punchh/overlays/punchh-mobile-subscription-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/punchh-mobile-subscription-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/overlays/punchh-online-ordering-redemptions-legacy-overlay.yaml
+  href: https://artifacts.apis.io/punchh/overlays/punchh-online-ordering-redemptions-legacy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/punchh-online-ordering-redemptions-legacy-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/overlays/punchh-online-ordering-redemptions-v2-overlay.yaml
+  href: https://artifacts.apis.io/punchh/overlays/punchh-online-ordering-redemptions-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/punchh-online-ordering-redemptions-v2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/overlays/punchh-online-ordering-sso-api-overlay.yaml
+  href: https://artifacts.apis.io/punchh/overlays/punchh-online-ordering-sso-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/punchh-online-ordering-sso-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/overlays/punchh-online-ordering-subscription-overlay.yaml
+  href: https://artifacts.apis.io/punchh/overlays/punchh-online-ordering-subscription-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/punchh-online-ordering-subscription-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/overlays/punchh-platform-functions-api-overlay.yaml
+  href: https://artifacts.apis.io/punchh/overlays/punchh-platform-functions-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/punchh-platform-functions-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/overlays/punchh-platform-functions-headless-offers-overlay.yaml
+  href: https://artifacts.apis.io/punchh/overlays/punchh-platform-functions-headless-offers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/punchh-platform-functions-headless-offers-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/overlays/punchh-platform-functions-offers-ingestion-overlay.yaml
+  href: https://artifacts.apis.io/punchh/overlays/punchh-platform-functions-offers-ingestion-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/punchh-platform-functions-offers-ingestion-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/overlays/punchh-platform-functions-subscription-overlay.yaml
+  href: https://artifacts.apis.io/punchh/overlays/punchh-platform-functions-subscription-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/punchh-platform-functions-subscription-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/overlays/punchh-pos-redemptions-legacy-overlay.yaml
+  href: https://artifacts.apis.io/punchh/overlays/punchh-pos-redemptions-legacy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/punchh-pos-redemptions-legacy-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/overlays/punchh-pos-redemptions-v2-overlay.yaml
+  href: https://artifacts.apis.io/punchh/overlays/punchh-pos-redemptions-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/punchh-pos-redemptions-v2-overlay.yaml
@@ -1115,22 +1114,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/punchh/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/agentic-access/punchh-agentic-access.yml
+  href: https://artifacts.apis.io/punchh/agentic-access/punchh-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/punchh-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/security/punchh-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/punchh/security/punchh-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/punchh-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/security/punchh-domain-security.yml
+  href: https://artifacts.apis.io/punchh/security/punchh-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/punchh-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/authentication/punchh-authentication.yml
+  href: https://artifacts.apis.io/punchh/authentication/punchh-authentication.yml
   title: ''
   type: Authentication
   url: authentication/punchh-authentication.yml
@@ -1163,27 +1162,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/partechnology
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/rules/punchh-spectral-rules.yml
+  href: https://artifacts.apis.io/punchh/rules/punchh-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/punchh-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/vocabulary/punchh-vocabulary.yaml
+  href: https://artifacts.apis.io/punchh/vocabulary/punchh-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/punchh-vocabulary.yaml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/plans/punchh-plans-pricing.yml
+  href: https://artifacts.apis.io/punchh/plans/punchh-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/punchh-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/rate-limits/punchh-rate-limits.yml
+  href: https://artifacts.apis.io/punchh/rate-limits/punchh-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/punchh-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/finops/punchh-finops.yml
+  href: https://artifacts.apis.io/punchh/finops/punchh-finops.yml
   title: ''
   type: FinOps
   url: finops/punchh-finops.yml
@@ -1192,22 +1191,22 @@ common:
   type: Webhooks
   url: https://developers.partech.com/docs/dev-portal-webhooks-manager/8c18e3660f73f-event-guest
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/conventions/punchh-conventions.yml
+  href: https://artifacts.apis.io/punchh/conventions/punchh-conventions.yml
   title: ''
   type: Conventions
   url: conventions/punchh-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/conventions/punchh-conventions.yml
+  href: https://artifacts.apis.io/punchh/conventions/punchh-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/punchh-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/errors/punchh-problem-types.yml
+  href: https://artifacts.apis.io/punchh/errors/punchh-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/punchh-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/lifecycle/punchh-lifecycle.yml
+  href: https://artifacts.apis.io/punchh/lifecycle/punchh-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/punchh-lifecycle.yml
@@ -1216,57 +1215,57 @@ common:
   type: StatusPage
   url: https://status.punchh.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/lifecycle/punchh-lifecycle.yml
+  href: https://artifacts.apis.io/punchh/lifecycle/punchh-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/punchh-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/conformance/punchh-conformance.yml
+  href: https://artifacts.apis.io/punchh/conformance/punchh-conformance.yml
   title: ''
   type: Conformance
   url: conformance/punchh-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/data-model/punchh-data-model.yml
+  href: https://artifacts.apis.io/punchh/data-model/punchh-data-model.yml
   title: ''
   type: DataModel
   url: data-model/punchh-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/asyncapi/punchh-webhooks.yml
+  href: https://artifacts.apis.io/punchh/asyncapi/punchh-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/punchh-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/sandbox/punchh-sandbox.yml
+  href: https://artifacts.apis.io/punchh/sandbox/punchh-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/punchh-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/changelog/punchh-changelog.yml
+  href: https://artifacts.apis.io/punchh/changelog/punchh-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/punchh-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/packages/punchh-packages.yml
+  href: https://artifacts.apis.io/punchh/packages/punchh-packages.yml
   title: ''
   type: Packages
   url: packages/punchh-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/llms/punchh-llms.txt
+  href: https://artifacts.apis.io/punchh/llms/punchh-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/punchh-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/mcp/punchh-mcp.yml
+  href: https://artifacts.apis.io/punchh/mcp/punchh-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/punchh-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/punchh/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/security/punchh-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/punchh/security/punchh-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/punchh-vulnerability-disclosure.yml
@@ -1344,12 +1343,12 @@ examples:
   slug: pos-pos-user-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Punchh Finops
   primary_unit: ''
-  service_category: Loyalty + Guest Engagement
+  service_category: ''
   slug: punchh-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/punchh.png
 json_schemas:
 - name: AccessToken
@@ -1476,7 +1475,7 @@ plans:
 - name: Punchh Plans Pricing
   plan_count: 1
   slug: punchh-plans-pricing
-random_paper: 8
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Punchh Rate Limits
@@ -1506,8 +1505,8 @@ rules:
     warn: 23
   slug: punchh-spectral-rules
 score:
-  band: exemplar
-  composite: 67.8
+  band: strong
+  composite: 64.6
   coverage:
     artifact_dirs: 33
     catalog_earned: 89.0
@@ -1515,15 +1514,15 @@ score:
     catalog_gap: 26.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 45.5
-    contract_quality: 64.0
-    developer_ergonomics: 68.5
-    discoverability: 78.6
-    operational_transparency: 92.1
-  previous_composite: 69.4
+    contract_quality: 63.5
+    developer_ergonomics: 70.8
+    discoverability: 71.4
+    operational_transparency: 94.7
+  previous_composite: 64.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1540,13 +1539,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/screenshots/punchh-2026-06-20T192311.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/punchh/punchh-2026-06-20T192311.png
 security:
 - kind: authentication
   name: Punchh Authentication
@@ -1560,6 +1560,20 @@ security:
   name: Punchh Vulnerability Disclosure
   slug: punchh-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 6
+skills:
+- name: punchh-consume-webhooks
+  slug: punchh-consume-webhooks
+- name: punchh-mobile-enrollment-and-balance
+  slug: punchh-mobile-enrollment-and-balance
+- name: punchh-mobile-passwordless-auth
+  slug: punchh-mobile-passwordless-auth
+- name: punchh-offers-ingestion
+  slug: punchh-offers-ingestion
+- name: punchh-online-ordering-loyalty-checkout
+  slug: punchh-online-ordering-loyalty-checkout
+- name: punchh-pos-checkin-and-redeem
+  slug: punchh-pos-checkin-and-redeem
 slug: punchh
 tags:
 - Gift Cards

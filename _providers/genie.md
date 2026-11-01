@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -97,27 +99,27 @@ common:
   type: SourceCode
   url: https://github.com/GenieFramework/Genie.jl
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/genie/refs/heads/main/packages/genie-packages.yml
+  href: https://artifacts.apis.io/genie/packages/genie-packages.yml
   title: ''
   type: Packages
   url: packages/genie-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/genie/refs/heads/main/packages/genie-packages.yml
+  href: https://artifacts.apis.io/genie/packages/genie-packages.yml
   title: ''
   type: SDKs
   url: packages/genie-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/genie/refs/heads/main/changelog/genie-changelog.yml
+  href: https://artifacts.apis.io/genie/changelog/genie-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/genie-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/genie/refs/heads/main/llms/genie-llms.txt
+  href: https://artifacts.apis.io/genie/llms/genie-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/genie-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/genie/refs/heads/main/security/genie-domain-security.yml
+  href: https://artifacts.apis.io/genie/security/genie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/genie-domain-security.yml
@@ -133,10 +135,10 @@ overview: 'Genie is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Genie''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, changelog, and 13 more developer resources.'
-random_paper: 14
+random_paper: 16
 score:
-  band: thin
-  composite: 26.4
+  band: emerging
+  composite: 18.8
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -149,33 +151,30 @@ score:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 48.8
-    discoverability: 55.4
-    operational_transparency: 18.4
+    developer_ergonomics: 52.4
+    discoverability: 48.2
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
     - france-iberia
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 26.4
+  previous_composite: 18.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/genie/refs/heads/main/screenshots/genie-2026-07-25T215616.png
+screenshot: https://apis.io/screenshots/genie/genie-2026-07-25T215616.png
 security:
 - kind: domain-security
   name: Genie Domain Security

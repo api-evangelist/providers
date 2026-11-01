@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST API for TRON Energy and Bandwidth rental, energy subscriptions, and AML crypto checks. Endpoints include Get Services, Check Balance, Estimate Energy, Address Info, Calculate Resource Cost, Creat
@@ -45,7 +47,7 @@ apis:
 - description: Fully public, unauthenticated Orders API for non-custodial wallet integrations. Four operations — POST /v1/orders/calculate (a true dry run whose total is guaranteed to equal the order amount), POST /
   name: TronZap Wallet Orders API
   slug: tronzap-wallet-orders-api
-artifact_total: 7
+artifact_total: 11
 collections:
 - collection_type: postman
   name: Tron Energy API by TronZap.com
@@ -56,7 +58,7 @@ common:
   type: Website
   url: https://www.tronzap.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/security/tronzap-domain-security.yml
+  href: https://artifacts.apis.io/tronzap/security/tronzap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tronzap-domain-security.yml
@@ -113,72 +115,80 @@ common:
   type: Postman
   url: https://www.postman.com/tron-energy/tronzap-com/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/llms/tronzap-llms.txt
+  href: https://artifacts.apis.io/tronzap/llms/tronzap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tronzap-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/packages/tronzap-packages.yml
+  href: https://artifacts.apis.io/tronzap/packages/tronzap-packages.yml
   title: ''
   type: Packages
   url: packages/tronzap-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/packages/tronzap-packages.yml
+  href: https://artifacts.apis.io/tronzap/packages/tronzap-packages.yml
   title: ''
   type: SDKs
   url: packages/tronzap-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/conventions/tronzap-conventions.yml
+  href: https://artifacts.apis.io/tronzap/conventions/tronzap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tronzap-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/errors/tronzap-problem-types.yml
+  href: https://artifacts.apis.io/tronzap/errors/tronzap-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tronzap-problem-types.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/authentication/tronzap-authentication.yml
+  href: https://artifacts.apis.io/tronzap/authentication/tronzap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tronzap-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/rate-limits/tronzap-rate-limits.yml
+  href: https://artifacts.apis.io/tronzap/rate-limits/tronzap-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tronzap-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/plans/tronzap-plans-pricing.yml
+  href: https://artifacts.apis.io/tronzap/plans/tronzap-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tronzap-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/lifecycle/tronzap-lifecycle.yml
+  href: https://artifacts.apis.io/tronzap/lifecycle/tronzap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tronzap-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/conformance/tronzap-conformance.yml
+  href: https://artifacts.apis.io/tronzap/conformance/tronzap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tronzap-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/data-model/tronzap-data-model.yml
+  href: https://artifacts.apis.io/tronzap/data-model/tronzap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tronzap-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/mcp/tronzap-mcp.yml
+  href: https://artifacts.apis.io/tronzap/mcp/tronzap-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tronzap-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tronzap/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-30'
 description: API-first TRON-network infrastructure provider offering automated TRON Energy and Bandwidth rental, energy subscriptions, and AML crypto checks to reduce USDT (TRC-20) transfer costs via delegation to non-custodial wallets.
+finops:
+- has_sources: true
+  method: derived
+  name: Tronzap Finops
+  primary_unit: ''
+  service_category: ''
+  slug: tronzap-finops
+  template: true
 image: https://tronzap.com/images/logo-1200x630.png
 layout: provider
 modified: '2026-08-30'
@@ -193,16 +203,16 @@ plans:
 - name: Tronzap Plans Pricing
   plan_count: 2
   slug: tronzap-plans-pricing
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Tronzap Rate Limits
   slug: tronzap-rate-limits
 score:
   band: developing
-  composite: 41.2
+  composite: 42.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -213,10 +223,10 @@ score:
     access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 68.5
+    developer_ergonomics: 70.8
     discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 41.2
+    operational_transparency: 36.8
+  previous_composite: 42.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -227,14 +237,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/screenshots/tronzap-2026-09-02T164311.png
+screenshot: https://apis.io/screenshots/tronzap/tronzap-2026-09-02T164311.png
 security:
 - kind: authentication
   name: Tronzap Authentication
@@ -244,6 +254,14 @@ security:
   name: Tronzap Domain Security
   slug: tronzap-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: tronzap-aml-screen-tron-address
+  slug: tronzap-aml-screen-tron-address
+- name: tronzap-rent-energy-for-usdt-transfer
+  slug: tronzap-rent-energy-for-usdt-transfer
+- name: tronzap-wallet-orders-public-api
+  slug: tronzap-wallet-orders-public-api
 slug: tronzap
 tags:
 - Blockchain

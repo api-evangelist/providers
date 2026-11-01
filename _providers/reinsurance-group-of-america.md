@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: AURA NEXT is RGA's SaaS-based automated underwriting decision management platform powered by 40+ years of underwriting expertise. The API enables insurance carriers to integrate real-time underwriting
@@ -51,22 +53,22 @@ apis:
 artifact_total: 15
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/plans/reinsurance-group-of-america-plans-pricing.yml
+  href: https://artifacts.apis.io/reinsurance-group-of-america/plans/reinsurance-group-of-america-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/reinsurance-group-of-america-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/rate-limits/reinsurance-group-of-america-rate-limits.yml
+  href: https://artifacts.apis.io/reinsurance-group-of-america/rate-limits/reinsurance-group-of-america-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/reinsurance-group-of-america-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/finops/reinsurance-group-of-america-finops.yml
+  href: https://artifacts.apis.io/reinsurance-group-of-america/finops/reinsurance-group-of-america-finops.yml
   title: ''
   type: FinOps
   url: finops/reinsurance-group-of-america-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/security/reinsurance-group-of-america-domain-security.yml
+  href: https://artifacts.apis.io/reinsurance-group-of-america/security/reinsurance-group-of-america-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reinsurance-group-of-america-domain-security.yml
@@ -131,7 +133,7 @@ common:
   type: Examples
   url: https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/examples/reinsurance-group-of-america-health-score-example.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/security/reinsurance-group-of-america-domain-security.yml
+  href: https://artifacts.apis.io/reinsurance-group-of-america/security/reinsurance-group-of-america-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reinsurance-group-of-america-domain-security.yml
@@ -156,7 +158,7 @@ common:
   type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/reinsurance-of-america/refs/heads/main/vocabulary/reinsurance-of-america-vocabulary.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/security/reinsurance-group-of-america-domain-security.yml
+  href: https://artifacts.apis.io/reinsurance-group-of-america/security/reinsurance-group-of-america-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reinsurance-group-of-america-domain-security.yml
@@ -226,7 +228,7 @@ press:
 - date: ''
   title: Reinsurance Group of America Reports Fourth Quarter Results
   url: https://investor.rgare.com/news-releases/news-release-details/reinsurance-group-america-reports-fourth-quarter-results-16?mobile=1
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Reinsurance Group Of America Rate Limits
@@ -245,7 +247,7 @@ rules:
   slug: reinsurance-group-of-america-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 15.3
+  composite: 15.6
   coverage:
     artifact_dirs: 15
     catalog_earned: 51.8
@@ -253,29 +255,29 @@ score:
     catalog_gap: 63.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 23.5
     contract_quality: 13.2
     developer_ergonomics: 9.5
     discoverability: 62.5
-    operational_transparency: 7.9
-  previous_composite: 21.4
+    operational_transparency: 10.5
+  previous_composite: 15.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/screenshots/reinsurance-group-of-america-2026-06-20T192808.png
+screenshot: https://apis.io/screenshots/reinsurance-group-of-america/reinsurance-group-of-america-2026-06-20T192808.png
 security:
 - kind: domain-security
   name: Reinsurance Group Of America Domain Security

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 29.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -103,7 +105,7 @@ arazzos:
 - description: Confirm a product exists, upload a draft package, and poll until the package is validated.
   name: Microsoft Edge Upload Package And Validate
   slug: microsoft-edge-upload-package-and-validate-workflow
-artifact_total: 80
+artifact_total: 79
 collections:
 - collection_type: postman
   name: Microsoft Edge Add-ons API
@@ -111,9 +113,6 @@ collections:
 - collection_type: postman
   name: Microsoft Edge DevTools Protocol HTTP API
   slug: postman-microsoft-edge-devtools-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Microsoft Edge Add-ons Browser API
   slug: open-microsoft-edge-browser-api
@@ -134,17 +133,17 @@ collections:
   slug: open-microsoft-edge-targets-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/plans/microsoft-edge-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-edge/plans/microsoft-edge-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-edge-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/rate-limits/microsoft-edge-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-edge/rate-limits/microsoft-edge-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-edge-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/finops/microsoft-edge-finops.yml
+  href: https://artifacts.apis.io/microsoft-edge/finops/microsoft-edge-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-edge-finops.yml
@@ -153,22 +152,22 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/agentic-access/microsoft-edge-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-edge/agentic-access/microsoft-edge-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-edge-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/security/microsoft-edge-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/microsoft-edge/security/microsoft-edge-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-edge-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/security/microsoft-edge-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-edge/security/microsoft-edge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-edge-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/authentication/microsoft-edge-authentication.yml
+  href: https://artifacts.apis.io/microsoft-edge/authentication/microsoft-edge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-edge-authentication.yml
@@ -177,37 +176,37 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-edge/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/arazzo/microsoft-edge-find-and-close-target-workflow.yml
+  href: https://artifacts.apis.io/microsoft-edge/arazzo/microsoft-edge-find-and-close-target-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-edge-find-and-close-target-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/arazzo/microsoft-edge-inspect-browser-environment-workflow.yml
+  href: https://artifacts.apis.io/microsoft-edge/arazzo/microsoft-edge-inspect-browser-environment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-edge-inspect-browser-environment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/arazzo/microsoft-edge-list-and-inspect-product-workflow.yml
+  href: https://artifacts.apis.io/microsoft-edge/arazzo/microsoft-edge-list-and-inspect-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-edge-list-and-inspect-product-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/arazzo/microsoft-edge-open-and-activate-target-workflow.yml
+  href: https://artifacts.apis.io/microsoft-edge/arazzo/microsoft-edge-open-and-activate-target-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-edge-open-and-activate-target-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/arazzo/microsoft-edge-publish-extension-update-workflow.yml
+  href: https://artifacts.apis.io/microsoft-edge/arazzo/microsoft-edge-publish-extension-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-edge-publish-extension-update-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/arazzo/microsoft-edge-submit-draft-and-track-workflow.yml
+  href: https://artifacts.apis.io/microsoft-edge/arazzo/microsoft-edge-submit-draft-and-track-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-edge-submit-draft-and-track-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/arazzo/microsoft-edge-upload-package-and-validate-workflow.yml
+  href: https://artifacts.apis.io/microsoft-edge/arazzo/microsoft-edge-upload-package-and-validate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-edge-upload-package-and-validate-workflow.yml
@@ -280,22 +279,22 @@ common:
   type: Marketplace
   url: https://microsoftedge.microsoft.com/addons/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/json-ld/microsoft-edge-devtools-api-context.jsonld
+  href: https://artifacts.apis.io/microsoft-edge/json-ld/microsoft-edge-devtools-api-context.jsonld
   title: DevTools API Context
   type: JSONLD
   url: json-ld/microsoft-edge-devtools-api-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/json-ld/microsoft-edge-addons-api-context.jsonld
+  href: https://artifacts.apis.io/microsoft-edge/json-ld/microsoft-edge-addons-api-context.jsonld
   title: Add-ons API Context
   type: JSONLD
   url: json-ld/microsoft-edge-addons-api-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/rules/microsoft-edge-spectral-rules.yml
+  href: https://artifacts.apis.io/microsoft-edge/rules/microsoft-edge-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/microsoft-edge-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/vocabulary/microsoft-edge-vocabulary.yaml
+  href: https://artifacts.apis.io/microsoft-edge/vocabulary/microsoft-edge-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/microsoft-edge-vocabulary.yaml
@@ -435,7 +434,7 @@ plans:
 - name: Microsoft Edge Plans Pricing
   plan_count: 2
   slug: microsoft-edge-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Microsoft Edge Rate Limits
@@ -466,23 +465,23 @@ rules:
   slug: microsoft-edge-spectral-rules
 score:
   band: developing
-  composite: 42.8
+  composite: 48.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 71.0
     catalog_earned_first_party: 0.0
     catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 27.3
     contract_quality: 28.1
     developer_ergonomics: 65.5
     discoverability: 78.6
-    operational_transparency: 26.3
-  previous_composite: 44.4
+    operational_transparency: 55.3
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     contracts:
@@ -496,13 +495,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/screenshots/microsoft-edge-2026-08-07T172849.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-edge/microsoft-edge-2026-08-07T172849.png
 security:
 - kind: authentication
   name: Microsoft Edge Authentication

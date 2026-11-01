@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.8
-  scored_at: '2026-10-17'
+  score: 33.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -73,11 +75,8 @@ apis:
   description: OAuth token generation for machine-to-machine authentication.
   name: UrbanFox O Auth API
   slug: urbanfox-oauth-api
-artifact_total: 18
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: UrbanFox Customer Cases API
   slug: open-urbanfox-cases-api
@@ -98,12 +97,12 @@ collections:
   slug: open-urbanfox-tenants-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/plans/urbanfox-plans-pricing.yml
+  href: https://artifacts.apis.io/urbanfox/plans/urbanfox-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/urbanfox-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/overlays/urbanfox-customer-api-overlay.yaml
+  href: https://artifacts.apis.io/urbanfox/overlays/urbanfox-customer-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/urbanfox-customer-api-overlay.yaml
@@ -144,72 +143,72 @@ common:
   type: SignUp
   url: https://2ffr2z.share-eu1.hsforms.com/2wcLUdqqOSWOmGkVadK7V0g
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/llms/urbanfox-llms.txt
+  href: https://artifacts.apis.io/urbanfox/llms/urbanfox-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/urbanfox-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/authentication/urbanfox-authentication.yml
+  href: https://artifacts.apis.io/urbanfox/authentication/urbanfox-authentication.yml
   title: ''
   type: Authentication
   url: authentication/urbanfox-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/scopes/urbanfox-scopes.yml
+  href: https://artifacts.apis.io/urbanfox/scopes/urbanfox-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/urbanfox-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/security/urbanfox-domain-security.yml
+  href: https://artifacts.apis.io/urbanfox/security/urbanfox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/urbanfox-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/agentic-access/urbanfox-agentic-access.yml
+  href: https://artifacts.apis.io/urbanfox/agentic-access/urbanfox-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/urbanfox-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/mcp/urbanfox-mcp.yml
+  href: https://artifacts.apis.io/urbanfox/mcp/urbanfox-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/urbanfox-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/conformance/urbanfox-conformance.yml
+  href: https://artifacts.apis.io/urbanfox/conformance/urbanfox-conformance.yml
   title: ''
   type: Conformance
   url: conformance/urbanfox-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/errors/urbanfox-problem-types.yml
+  href: https://artifacts.apis.io/urbanfox/errors/urbanfox-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/urbanfox-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/lifecycle/urbanfox-lifecycle.yml
+  href: https://artifacts.apis.io/urbanfox/lifecycle/urbanfox-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/urbanfox-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/conventions/urbanfox-conventions.yml
+  href: https://artifacts.apis.io/urbanfox/conventions/urbanfox-conventions.yml
   title: ''
   type: Conventions
   url: conventions/urbanfox-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/components/urbanfox-components.yml
+  href: https://artifacts.apis.io/urbanfox/components/urbanfox-components.yml
   title: ''
   type: Components
   url: components/urbanfox-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/data-model/urbanfox-data-model.yml
+  href: https://artifacts.apis.io/urbanfox/data-model/urbanfox-data-model.yml
   title: ''
   type: DataModel
   url: data-model/urbanfox-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/packages/urbanfox-packages.yml
+  href: https://artifacts.apis.io/urbanfox/packages/urbanfox-packages.yml
   title: ''
   type: Packages
   url: packages/urbanfox-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/urbanfox/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -229,15 +228,15 @@ plans:
 - name: Urbanfox Plans Pricing
   plan_count: 0
   slug: urbanfox-plans-pricing
-random_paper: 11
+random_paper: 5
 scopes:
 - name: Urbanfox Scopes
   scope_count: 13
   slug: urbanfox-scopes
   summary_line: 13 scopes · clientCredentials
 score:
-  band: thin
-  composite: 37.4
+  band: developing
+  composite: 40.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -247,13 +246,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 55.1
     developer_ergonomics: 56.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 37.4
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -269,14 +268,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 25.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/screenshots/urbanfox-2026-08-17T082646.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/urbanfox/urbanfox-2026-08-17T082646.png
 security:
 - kind: authentication
   name: Urbanfox Authentication
@@ -286,6 +286,16 @@ security:
   name: Urbanfox Domain Security
   slug: urbanfox-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Authenticate and list fraud cases
+  slug: urbanfox-authenticate-and-list-cases
+- name: Investigate and close a fraud case
+  slug: urbanfox-investigate-and-close-case
+- name: Manage end-user accounts
+  slug: urbanfox-manage-end-user-accounts
+- name: Query tenant activity metrics
+  slug: urbanfox-query-metrics
 slug: urbanfox
 tags:
 - Fraud Prevention

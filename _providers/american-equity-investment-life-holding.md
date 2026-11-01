@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,22 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 17
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/american-equity-investment-life-holding/refs/heads/main/plans/american-equity-investment-life-holding-plans-pricing.yml
+  href: https://artifacts.apis.io/american-equity-investment-life-holding/plans/american-equity-investment-life-holding-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/american-equity-investment-life-holding-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/american-equity-investment-life-holding/refs/heads/main/rate-limits/american-equity-investment-life-holding-rate-limits.yml
+  href: https://artifacts.apis.io/american-equity-investment-life-holding/rate-limits/american-equity-investment-life-holding-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/american-equity-investment-life-holding-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/american-equity-investment-life-holding/refs/heads/main/security/american-equity-investment-life-holding-domain-security.yml
+  href: https://artifacts.apis.io/american-equity-investment-life-holding/security/american-equity-investment-life-holding-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/american-equity-investment-life-holding-domain-security.yml
@@ -72,12 +74,12 @@ common:
   type: Security
   url: https://www.american-equity.com/security-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/american-equity-investment-life-holding/refs/heads/main/security/american-equity-investment-life-holding-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/american-equity-investment-life-holding/security/american-equity-investment-life-holding-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/american-equity-investment-life-holding-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/american-equity-investment-life-holding/refs/heads/main/llms/american-equity-investment-life-holding-llms.txt
+  href: https://artifacts.apis.io/american-equity-investment-life-holding/llms/american-equity-investment-life-holding-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/american-equity-investment-life-holding-llms.txt
@@ -177,16 +179,16 @@ press:
 - date: ''
   title: American Equity Recognized for Award-Winning Customer ...
   url: https://www.businesswire.com/news/home/20221031005652/en/American-Equity-Recognized-for-Award-Winning-Customer-Satisfaction-Among-Annuity-Providers-in-the-U.S.-by-J.D.-Power
-random_paper: 5
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: American Equity Investment Life Holding Rate Limits
   slug: american-equity-investment-life-holding-rate-limits
 score:
   band: emerging
-  composite: 17.6
+  composite: 17.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -198,28 +200,28 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 55.4
-    operational_transparency: 13.2
+    discoverability: 48.2
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 17.6
+  previous_composite: 17.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 17.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/american-equity-investment-life-holding/refs/heads/main/screenshots/american-equity-investment-life-holding-2026-06-20T171912.png
+screenshot: https://apis.io/screenshots/american-equity-investment-life-holding/american-equity-investment-life-holding-2026-06-20T171912.png
 security:
 - kind: domain-security
   name: American Equity Investment Life Holding Domain Security

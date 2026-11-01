@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: The Vulns API from OpenSSF — 1 operation(s) for vulns.
   name: OpenSSF Vulns API
   slug: openssf-vulns-api
-artifact_total: 24
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OSV (Open Source Vulnerabilities) API
   slug: open-openssf-osv
@@ -102,22 +101,22 @@ collections:
   slug: open-openssf-vulns-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/plans/openssf-plans-pricing.yml
+  href: https://artifacts.apis.io/openssf/plans/openssf-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/openssf-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/rate-limits/openssf-rate-limits.yml
+  href: https://artifacts.apis.io/openssf/rate-limits/openssf-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/openssf-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/finops/openssf-finops.yml
+  href: https://artifacts.apis.io/openssf/finops/openssf-finops.yml
   title: ''
   type: FinOps
   url: finops/openssf-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/capabilities/openssf-capability-edges.yml
+  href: https://artifacts.apis.io/openssf/capabilities/openssf-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/openssf-capability-edges.yml
@@ -142,12 +141,12 @@ common:
   type: ContributionGuide
   url: https://github.com/guacsec/guac/blob/main/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/agentic-access/openssf-agentic-access.yml
+  href: https://artifacts.apis.io/openssf/agentic-access/openssf-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openssf-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/security/openssf-domain-security.yml
+  href: https://artifacts.apis.io/openssf/security/openssf-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openssf-domain-security.yml
@@ -205,7 +204,7 @@ finops:
 - has_sources: false
   method: generated
   name: Openssf Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: openssf-finops
   template: true
@@ -239,7 +238,7 @@ plans:
 - name: Openssf Plans Pricing
   plan_count: 3
   slug: openssf-plans-pricing
-random_paper: 18
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Openssf Rate Limits
@@ -258,7 +257,7 @@ rules:
   slug: openssf-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.7
+  composite: 32.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 59.7
@@ -266,15 +265,15 @@ score:
     catalog_gap: 55.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 54.8
     developer_ergonomics: 26.2
     discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 33.2
+    operational_transparency: 39.5
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -288,13 +287,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/screenshots/openssf-2026-06-20T191036.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openssf/openssf-2026-06-20T191036.png
 security:
 - kind: domain-security
   name: Openssf Domain Security

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/borgwarner/refs/heads/main/security/borgwarner-domain-security.yml
+  href: https://artifacts.apis.io/borgwarner/security/borgwarner-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/borgwarner-domain-security.yml
@@ -70,37 +72,37 @@ common:
   type: Blog
   url: https://www.borgwarner.com/newsroom/press-releases
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/borgwarner/refs/heads/main/well-known/borgwarner-well-known.yml
+  href: https://artifacts.apis.io/borgwarner/well-known/borgwarner-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/borgwarner-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/borgwarner/refs/heads/main/conformance/borgwarner-conformance.yml
+  href: https://artifacts.apis.io/borgwarner/conformance/borgwarner-conformance.yml
   title: ''
   type: Conformance
   url: conformance/borgwarner-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/borgwarner/refs/heads/main/authentication/borgwarner-authentication.yml
+  href: https://artifacts.apis.io/borgwarner/authentication/borgwarner-authentication.yml
   title: ''
   type: Authentication
   url: authentication/borgwarner-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/borgwarner/refs/heads/main/llms/borgwarner-llms.txt
+  href: https://artifacts.apis.io/borgwarner/llms/borgwarner-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/borgwarner-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/borgwarner/refs/heads/main/packages/borgwarner-packages.yml
+  href: https://artifacts.apis.io/borgwarner/packages/borgwarner-packages.yml
   title: ''
   type: Packages
   url: packages/borgwarner-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/borgwarner/refs/heads/main/plans/borgwarner-plans-pricing.yml
+  href: https://artifacts.apis.io/borgwarner/plans/borgwarner-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/borgwarner-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/borgwarner/refs/heads/main/rate-limits/borgwarner-rate-limits.yml
+  href: https://artifacts.apis.io/borgwarner/rate-limits/borgwarner-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/borgwarner-rate-limits.yml
@@ -158,14 +160,14 @@ press:
 - date: ''
   title: BorgWarner Strategically Enters Data Center Market with ...
   url: https://www.borgwarner.com/newsroom/press-releases/2026/02/11/borgwarner-strategically-enters-data-center-market-with-power-generation-solution-award
-random_paper: 3
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Borgwarner Rate Limits
   slug: borgwarner-rate-limits
 score:
   band: emerging
-  composite: 16.3
+  composite: 15.7
   coverage:
     artifact_dirs: 13
     catalog_earned: 27.0
@@ -173,15 +175,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 56.3
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 16.2
+  previous_composite: 15.7
   provenance:
     conformance: first-party
   regulatory:
@@ -190,14 +192,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/borgwarner/refs/heads/main/screenshots/borgwarner-2026-06-20T173610.png
+screenshot: https://apis.io/screenshots/borgwarner/borgwarner-2026-06-20T173610.png
 security:
 - kind: authentication
   name: Borgwarner Authentication

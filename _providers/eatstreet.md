@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The live EatStreet API, served under https://eatstreet.com/api/v2 and protected by OAuth 2.0 authorization code with PKCE. EatStreet publishes no reference, no OpenAPI and no developer portal for it; '
@@ -49,7 +51,7 @@ common:
   type: Blog
   url: https://eatstreet.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eatstreet/refs/heads/main/security/eatstreet-domain-security.yml
+  href: https://artifacts.apis.io/eatstreet/security/eatstreet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eatstreet-domain-security.yml
@@ -82,57 +84,57 @@ common:
   type: GitHubOrganization
   url: https://github.com/eatstreet
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eatstreet/refs/heads/main/well-known/eatstreet-well-known.yml
+  href: https://artifacts.apis.io/eatstreet/well-known/eatstreet-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/eatstreet-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eatstreet/refs/heads/main/authentication/eatstreet-authentication.yml
+  href: https://artifacts.apis.io/eatstreet/authentication/eatstreet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eatstreet-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eatstreet/refs/heads/main/scopes/eatstreet-scopes.yml
+  href: https://artifacts.apis.io/eatstreet/scopes/eatstreet-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/eatstreet-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eatstreet/refs/heads/main/conformance/eatstreet-conformance.yml
+  href: https://artifacts.apis.io/eatstreet/conformance/eatstreet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eatstreet-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eatstreet/refs/heads/main/conventions/eatstreet-conventions.yml
+  href: https://artifacts.apis.io/eatstreet/conventions/eatstreet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eatstreet-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eatstreet/refs/heads/main/errors/eatstreet-problem-types.yml
+  href: https://artifacts.apis.io/eatstreet/errors/eatstreet-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eatstreet-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eatstreet/refs/heads/main/lifecycle/eatstreet-lifecycle.yml
+  href: https://artifacts.apis.io/eatstreet/lifecycle/eatstreet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eatstreet-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eatstreet/refs/heads/main/packages/eatstreet-packages.yml
+  href: https://artifacts.apis.io/eatstreet/packages/eatstreet-packages.yml
   title: ''
   type: Packages
   url: packages/eatstreet-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eatstreet/refs/heads/main/plans/eatstreet-plans-pricing.yml
+  href: https://artifacts.apis.io/eatstreet/plans/eatstreet-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eatstreet-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eatstreet/refs/heads/main/rate-limits/eatstreet-rate-limits.yml
+  href: https://artifacts.apis.io/eatstreet/rate-limits/eatstreet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eatstreet-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eatstreet/refs/heads/main/llms/eatstreet-llms.txt
+  href: https://artifacts.apis.io/eatstreet/llms/eatstreet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eatstreet-llms.txt
@@ -152,7 +154,7 @@ plans:
 - name: Eatstreet Plans Pricing
   plan_count: 0
   slug: eatstreet-plans-pricing
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Eatstreet Rate Limits
@@ -164,7 +166,7 @@ scopes:
   summary_line: 3 scopes
 score:
   band: emerging
-  composite: 19.1
+  composite: 20.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -172,15 +174,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 14.3
+    developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 19.0
+    operational_transparency: 5.3
+  previous_composite: 20.4
   provenance:
     conformance: first-party
   regulatory:
@@ -189,14 +191,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/eatstreet/refs/heads/main/screenshots/eatstreet-2026-09-02T145324.png
+screenshot: https://apis.io/screenshots/eatstreet/eatstreet-2026-09-02T145324.png
 security:
 - kind: authentication
   name: Eatstreet Authentication

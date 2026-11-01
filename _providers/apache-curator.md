@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Curator provides a high-level Java API with fluent builders for ZooKeeper operations, along with pre-built recipes for leader election, distributed locks (shared, reentrant, read-write, semaphore), ba
@@ -42,17 +44,17 @@ apis:
 artifact_total: 40
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-curator/refs/heads/main/plans/apache-curator-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-curator/plans/apache-curator-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-curator-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-curator/refs/heads/main/rate-limits/apache-curator-rate-limits.yml
+  href: https://artifacts.apis.io/apache-curator/rate-limits/apache-curator-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-curator-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-curator/refs/heads/main/finops/apache-curator-finops.yml
+  href: https://artifacts.apis.io/apache-curator/finops/apache-curator-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-curator-finops.yml
@@ -73,12 +75,12 @@ common:
   type: License
   url: https://github.com/apache/curator/blob/master/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-curator/refs/heads/main/security/apache-curator-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-curator/security/apache-curator-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-curator-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-curator/refs/heads/main/security/apache-curator-domain-security.yml
+  href: https://artifacts.apis.io/apache-curator/security/apache-curator-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-curator-domain-security.yml
@@ -146,7 +148,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Curator Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-curator-finops
   template: true
@@ -211,7 +213,7 @@ plans:
 - name: Apache Curator Plans Pricing
   plan_count: 3
   slug: apache-curator-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Apache Curator Rate Limits
@@ -230,40 +232,37 @@ rules:
   slug: apache-curator-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.3
+  composite: 34.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.3
+    artifact_dirs: 12
+    catalog_earned: 65.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.8
+    catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
-    contract_governance: 9.8
+    contract_governance: 23.5
     contract_quality: 33.2
     developer_ergonomics: 54.8
     discoverability: 57.1
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 40.0
-  previous_composite: 33.6
+    operational_transparency: 39.5
+  previous_composite: 34.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-curator/refs/heads/main/screenshots/apache-curator-2026-06-20T172050.png
+screenshot: https://apis.io/screenshots/apache-curator/apache-curator-2026-06-20T172050.png
 security:
 - kind: domain-security
   name: Apache Curator Domain Security

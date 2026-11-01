@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 60.7
-  scored_at: '2026-10-17'
+  score: 51.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 92
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 135
   slug: novu-agentic-access
   summary_line: 135 operations · 92 acting · 92 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.novu.co
   baseurl_source: declared
@@ -503,9 +505,6 @@ collections:
   name: Novu API
   slug: postman-novu
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Novu Activity API
   slug: open-novu-activity-api
 - collection_type: open
@@ -557,6 +556,11 @@ collections:
   name: Novu API
   slug: open-novu
 common:
+- group: other
+  href: https://artifacts.apis.io/novu/capabilities/novu-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/novu-capability-edges.yml
 - group: company
   title: ''
   type: Blog
@@ -570,17 +574,17 @@ common:
   type: IssueTracker
   url: https://github.com/novuhq/novu-mcp-server/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/agentic-access/novu-agentic-access.yml
+  href: https://artifacts.apis.io/novu/agentic-access/novu-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/novu-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/security/novu-domain-security.yml
+  href: https://artifacts.apis.io/novu/security/novu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/novu-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/authentication/novu-authentication.yml
+  href: https://artifacts.apis.io/novu/authentication/novu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/novu-authentication.yml
@@ -589,62 +593,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/novu/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/arazzo/novu-bulk-onboard-and-broadcast-workflow.yml
+  href: https://artifacts.apis.io/novu/arazzo/novu-bulk-onboard-and-broadcast-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/novu-bulk-onboard-and-broadcast-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/arazzo/novu-create-workflow-and-trigger-workflow.yml
+  href: https://artifacts.apis.io/novu/arazzo/novu-create-workflow-and-trigger-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/novu-create-workflow-and-trigger-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/arazzo/novu-offboard-subscriber-workflow.yml
+  href: https://artifacts.apis.io/novu/arazzo/novu-offboard-subscriber-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/novu-offboard-subscriber-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/arazzo/novu-onboard-subscriber-and-notify-workflow.yml
+  href: https://artifacts.apis.io/novu/arazzo/novu-onboard-subscriber-and-notify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/novu-onboard-subscriber-and-notify-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/arazzo/novu-provision-integration-and-set-primary-workflow.yml
+  href: https://artifacts.apis.io/novu/arazzo/novu-provision-integration-and-set-primary-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/novu-provision-integration-and-set-primary-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/arazzo/novu-set-preferences-then-notify-workflow.yml
+  href: https://artifacts.apis.io/novu/arazzo/novu-set-preferences-then-notify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/novu-set-preferences-then-notify-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/arazzo/novu-subscribe-existing-to-topic-workflow.yml
+  href: https://artifacts.apis.io/novu/arazzo/novu-subscribe-existing-to-topic-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/novu-subscribe-existing-to-topic-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/arazzo/novu-subscriber-inbox-triage-workflow.yml
+  href: https://artifacts.apis.io/novu/arazzo/novu-subscriber-inbox-triage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/novu-subscriber-inbox-triage-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/arazzo/novu-topic-broadcast-campaign-workflow.yml
+  href: https://artifacts.apis.io/novu/arazzo/novu-topic-broadcast-campaign-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/novu-topic-broadcast-campaign-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/arazzo/novu-trigger-and-verify-delivery-workflow.yml
+  href: https://artifacts.apis.io/novu/arazzo/novu-trigger-and-verify-delivery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/novu-trigger-and-verify-delivery-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/arazzo/novu-trigger-then-cancel-workflow.yml
+  href: https://artifacts.apis.io/novu/arazzo/novu-trigger-then-cancel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/novu-trigger-then-cancel-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/arazzo/novu-unsubscribe-from-topic-workflow.yml
+  href: https://artifacts.apis.io/novu/arazzo/novu-unsubscribe-from-topic-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/novu-unsubscribe-from-topic-workflow.yml
@@ -673,17 +677,17 @@ common:
   type: Pricing
   url: https://novu.co/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/plans/novu-plans-pricing.yml
+  href: https://artifacts.apis.io/novu/plans/novu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/novu-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/finops/novu-finops.yml
+  href: https://artifacts.apis.io/novu/finops/novu-finops.yml
   title: ''
   type: FinOps
   url: finops/novu-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/rate-limits/novu-rate-limits.yml
+  href: https://artifacts.apis.io/novu/rate-limits/novu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/novu-rate-limits.yml
@@ -764,17 +768,17 @@ common:
   type: LlmsText
   url: https://docs.novu.co/llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/rules/novu-spectral-rules.yml
+  href: https://artifacts.apis.io/novu/rules/novu-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/novu-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/vocabulary/novu-vocabulary.yml
+  href: https://artifacts.apis.io/novu/vocabulary/novu-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/novu-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/json-ld/novu-context.jsonld
+  href: https://artifacts.apis.io/novu/json-ld/novu-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/novu-context.jsonld
@@ -887,13 +891,13 @@ features:
 - description: TypeScript, Python, Go, PHP, C#, Java, Elixir, Kotlin, Ruby, Rust, .NET clients.
   name: 9 Language SDKs
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Novu Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: novu-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novu.png
 integrations:
 - description: Outbound email integration via SendGrid credentials.
@@ -1078,12 +1082,15 @@ overview: 'Novu publishes 20 API contracts indexed on the [APIs.io](https://apis
   The Novu catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Novu''s developer surface includes engineering blog, authentication, developer portal, documentation, signup flow, pricing, GitHub presence, and 54 more developer resources.'
+  Novu''s developer surface includes engineering blog, authentication, developer portal, documentation, signup flow, pricing, GitHub presence, and 55 more developer resources.'
 plans:
 - name: Novu Plans Pricing
   plan_count: 4
   slug: novu-plans-pricing
-random_paper: 16
+- name: Novu Price Estimates
+  plan_count: 0
+  slug: novu-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Novu Rate Limits
@@ -1125,24 +1132,24 @@ rules:
     warn: 28
   slug: novu-spectral-rules
 score:
-  band: strong
-  composite: 63.2
+  band: exemplar
+  composite: 69.3
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 72.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
+    artifact_dirs: 26
+    catalog_earned: 84.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 31.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.4
+  delta: 1.6
   facets:
-    access_clarity: 46.1
+    access_clarity: 84.2
     contract_governance: 27.3
-    contract_quality: 77.6
-    developer_ergonomics: 83.3
-    discoverability: 75.0
-    operational_transparency: 34.2
-  previous_composite: 71.6
+    contract_quality: 75.5
+    developer_ergonomics: 85.7
+    discoverability: 73.2
+    operational_transparency: 44.7
+  previous_composite: 67.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1157,13 +1164,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/screenshots/novu-2026-06-20T190442.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/novu/novu-2026-06-20T190442.png
 security:
 - kind: authentication
   name: Novu Authentication

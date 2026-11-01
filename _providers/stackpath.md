@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stackpath/refs/heads/main/vendor-facets/stackpath-vendor-facets.yml
+  href: https://artifacts.apis.io/stackpath/vendor-facets/stackpath-vendor-facets.yml
   title: ''
   type: VendorFacets
   url: vendor-facets/stackpath-vendor-facets.yml
@@ -48,42 +50,42 @@ common:
   type: Website
   url: https://www.stackpath.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stackpath/refs/heads/main/security/stackpath-domain-security.yml
+  href: https://artifacts.apis.io/stackpath/security/stackpath-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stackpath-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stackpath/refs/heads/main/packages/stackpath-packages.yml
+  href: https://artifacts.apis.io/stackpath/packages/stackpath-packages.yml
   title: ''
   type: Packages
   url: packages/stackpath-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stackpath/refs/heads/main/packages/stackpath-packages.yml
+  href: https://artifacts.apis.io/stackpath/packages/stackpath-packages.yml
   title: ''
   type: SDKs
   url: packages/stackpath-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stackpath/refs/heads/main/cli/stackpath-cli.yml
+  href: https://artifacts.apis.io/stackpath/cli/stackpath-cli.yml
   title: ''
   type: CLI
   url: cli/stackpath-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stackpath/refs/heads/main/lifecycle/stackpath-lifecycle.yml
+  href: https://artifacts.apis.io/stackpath/lifecycle/stackpath-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stackpath-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stackpath/refs/heads/main/plans/stackpath-plans-pricing.yml
+  href: https://artifacts.apis.io/stackpath/plans/stackpath-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stackpath-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stackpath/refs/heads/main/rate-limits/stackpath-rate-limits.yml
+  href: https://artifacts.apis.io/stackpath/rate-limits/stackpath-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stackpath-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stackpath/refs/heads/main/llms/stackpath-llms.txt
+  href: https://artifacts.apis.io/stackpath/llms/stackpath-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stackpath-llms.txt
@@ -120,7 +122,7 @@ plans:
 - name: Stackpath Plans Pricing
   plan_count: 0
   slug: stackpath-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Stackpath Rate Limits
@@ -129,7 +131,7 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -158,14 +160,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/stackpath/refs/heads/main/screenshots/stackpath-2026-09-02T160712.png
+screenshot: https://apis.io/screenshots/stackpath/stackpath-2026-09-02T160712.png
 security:
 - kind: domain-security
   name: Stackpath Domain Security

@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.3
-  scored_at: '2026-10-17'
+  score: 52.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 3
@@ -104,14 +106,14 @@ apis:
 - description: Pay-per-run execution surface on x402.monid.ai — POST /v1/run answers HTTP 402 with an accepts[] array of CAIP-2 networks (Base eip155:8453, Monad eip155:143), the client signs a USDC authorization an
   name: Monid x402 Run API
   slug: monid-x402-run-api
-artifact_total: 63
+artifact_total: 68
 collections:
 - collection_type: open
   name: Monid API
   slug: open-monid
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/rate-limits/monid-rate-limits.yml
+  href: https://artifacts.apis.io/monid/rate-limits/monid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/monid-rate-limits.yml
@@ -120,32 +122,32 @@ common:
   type: Newsroom
   url: https://monid.ai/tools/news
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/plans/monid-plans-pricing.yml
+  href: https://artifacts.apis.io/monid/plans/monid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/monid-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/rules/monid-rules.yml
+  href: https://artifacts.apis.io/monid/rules/monid-rules.yml
   title: ''
   type: Spectral
   url: rules/monid-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/json-ld/monid-context.jsonld
+  href: https://artifacts.apis.io/monid/json-ld/monid-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/monid-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/vocabulary/monid-vocabulary.yml
+  href: https://artifacts.apis.io/monid/vocabulary/monid-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/monid-vocabulary.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/hosts/monid-hosts.yml
+  href: https://artifacts.apis.io/monid/hosts/monid-hosts.yml
   title: ''
   type: Hosts
   url: hosts/monid-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/vendors/monid-vendors.yml
+  href: https://artifacts.apis.io/monid/vendors/monid-vendors.yml
   title: ''
   type: Vendors
   url: vendors/monid-vendors.yml
@@ -154,57 +156,57 @@ common:
   type: BlogRSS
   url: https://monid.ai/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/capabilities/monid-capability-edges.yml
+  href: https://artifacts.apis.io/monid/capabilities/monid-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/monid-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/agentic-access/monid-agentic-access.yml
+  href: https://artifacts.apis.io/monid/agentic-access/monid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/monid-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/authentication/monid-authentication.yml
+  href: https://artifacts.apis.io/monid/authentication/monid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/monid-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/scopes/monid-scopes.yml
+  href: https://artifacts.apis.io/monid/scopes/monid-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/monid-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/security/monid-domain-security.yml
+  href: https://artifacts.apis.io/monid/security/monid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/monid-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/mcp/monid-mcp.yml
+  href: https://artifacts.apis.io/monid/mcp/monid-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/monid-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/errors/monid-problem-types.yml
+  href: https://artifacts.apis.io/monid/errors/monid-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/monid-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/conventions/monid-conventions.yml
+  href: https://artifacts.apis.io/monid/conventions/monid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/monid-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/conformance/monid-conformance.yml
+  href: https://artifacts.apis.io/monid/conformance/monid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/monid-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/well-known/monid-well-known.yml
+  href: https://artifacts.apis.io/monid/well-known/monid-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/monid-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/lifecycle/monid-lifecycle.yml
+  href: https://artifacts.apis.io/monid/lifecycle/monid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/monid-lifecycle.yml
@@ -213,27 +215,27 @@ common:
   type: StatusPage
   url: https://status.monid.ai
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/data-model/monid-data-model.yml
+  href: https://artifacts.apis.io/monid/data-model/monid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/monid-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/overlays/monid-openapi-overlay.yaml
+  href: https://artifacts.apis.io/monid/overlays/monid-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/monid-openapi-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/cli/monid-cli.yml
+  href: https://artifacts.apis.io/monid/cli/monid-cli.yml
   title: ''
   type: CLI
   url: cli/monid-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/monid/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/llms/monid-llms.txt
+  href: https://artifacts.apis.io/monid/llms/monid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/monid-llms.txt
@@ -287,6 +289,14 @@ common:
   url: https://discord.gg/rQzztcgJV8
 created: '2026-07-23'
 description: Monid is a San Francisco-based data-access and agent-tool integration platform that gives developers and AI agents on-demand, pay-per-use access to hundreds of web data endpoints and 1,300+ tools across 13+ providers (Semrush, Apollo, ElevenLabs, web scrapers, and more) through a single integration. Agents discover, inspect, compare, and execute tools at runtime and pay only for actual usage, with a unified balance and no per-tool API key management or subscriptions. Monid exposes its catalog through four connection methods — an MCP (Model Context Protocol) server for Claude and other AI assistants, a Skill integration for Claude Code and Cursor, a CLI for shell access, and an HTTP API for programmatic integration — with OAuth, proxy, and master API key options for embedded use.
+finops:
+- has_sources: true
+  method: derived
+  name: Monid Finops
+  primary_unit: ''
+  service_category: ''
+  slug: monid-finops
+  template: true
 image: https://monid.ai/share-card.png
 json_schemas:
 - name: ApiKey
@@ -462,22 +472,22 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.2
+  composite: 59.9
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 33
     catalog_earned: 70.8
     catalog_earned_first_party: 8.0
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 52.6
+    access_clarity: 65.8
     contract_governance: 35.6
     contract_quality: 63.6
     developer_ergonomics: 71.4
-    discoverability: 76.7
-    operational_transparency: 10.5
+    discoverability: 66.7
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -485,7 +495,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 56.1
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -502,13 +512,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/screenshots/monid-2026-08-07T184201.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/monid/monid-2026-08-07T184201.png
 security:
 - kind: authentication
   name: Monid Authentication
@@ -518,6 +529,16 @@ security:
   name: Monid Domain Security
   slug: monid-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: monid-discover-inspect-run
+  slug: monid-discover-inspect-run
+- name: investor-sourcing
+  slug: monid-investor-sourcing
+- name: job-finder
+  slug: monid-job-finder
+- name: monid
+  slug: monid-skill
 slug: monid
 tags:
 - Company

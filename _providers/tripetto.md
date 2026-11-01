@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -63,7 +65,7 @@ apis:
   description: Configure outbound webhook integrations
   name: Tripetto Webhooks API
   slug: tripetto-webhooks-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: postman
   name: Tripetto FormBuilder SDK Forms API
@@ -74,9 +76,6 @@ collections:
 - collection_type: postman
   name: Tripetto FormBuilder SDK Forms Webhooks API
   slug: postman-tripetto-webhooks-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tripetto FormBuilder SDK API
   slug: open-tripetto-form-builder
@@ -91,17 +90,17 @@ collections:
   slug: open-tripetto-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/plans/tripetto-plans-pricing.yml
+  href: https://artifacts.apis.io/tripetto/plans/tripetto-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tripetto-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/rate-limits/tripetto-rate-limits.yml
+  href: https://artifacts.apis.io/tripetto/rate-limits/tripetto-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tripetto-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/finops/tripetto-finops.yml
+  href: https://artifacts.apis.io/tripetto/finops/tripetto-finops.yml
   title: ''
   type: FinOps
   url: finops/tripetto-finops.yml
@@ -110,17 +109,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/tripetto/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/agentic-access/tripetto-agentic-access.yml
+  href: https://artifacts.apis.io/tripetto/agentic-access/tripetto-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tripetto-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/security/tripetto-domain-security.yml
+  href: https://artifacts.apis.io/tripetto/security/tripetto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tripetto-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/authentication/tripetto-authentication.yml
+  href: https://artifacts.apis.io/tripetto/authentication/tripetto-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tripetto-authentication.yml
@@ -173,37 +172,37 @@ common:
   type: Signup
   url: https://tripetto.com/app/sign-up/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/openapi/_original/tripetto-form-builder-openapi.yml
+  href: https://artifacts.apis.io/tripetto/openapi/_original/tripetto-form-builder-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/tripetto-form-builder-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/json-schema/tripetto-form-schema.json
+  href: https://artifacts.apis.io/tripetto/json-schema/tripetto-form-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tripetto-form-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/json-schema/tripetto-response-schema.json
+  href: https://artifacts.apis.io/tripetto/json-schema/tripetto-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tripetto-response-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/json-structure/tripetto-form-structure.json
+  href: https://artifacts.apis.io/tripetto/json-structure/tripetto-form-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/tripetto-form-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/json-ld/tripetto-context.jsonld
+  href: https://artifacts.apis.io/tripetto/json-ld/tripetto-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tripetto-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/rules/tripetto-rules.yml
+  href: https://artifacts.apis.io/tripetto/rules/tripetto-rules.yml
   title: ''
   type: SpectralRules
   url: rules/tripetto-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/vocabulary/tripetto-vocabulary.yml
+  href: https://artifacts.apis.io/tripetto/vocabulary/tripetto-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tripetto-vocabulary.yml
@@ -220,7 +219,7 @@ finops:
 - has_sources: false
   method: generated
   name: Tripetto Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: tripetto-finops
   template: true
@@ -257,7 +256,7 @@ plans:
 - name: Tripetto Plans Pricing
   plan_count: 3
   slug: tripetto-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Tripetto Rate Limits
@@ -287,8 +286,8 @@ rules:
     warn: 5
   slug: tripetto-rules
 score:
-  band: thin
-  composite: 38.4
+  band: developing
+  composite: 41.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 64.0
@@ -296,15 +295,15 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 19.7
+    access_clarity: 31.6
     contract_governance: 27.3
-    contract_quality: 65.0
+    contract_quality: 61.6
     developer_ergonomics: 41.7
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 39.9
+    operational_transparency: 13.2
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -318,13 +317,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/screenshots/tripetto-2026-06-20T195723.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tripetto/tripetto-2026-06-20T195723.png
 security:
 - kind: authentication
   name: Tripetto Authentication

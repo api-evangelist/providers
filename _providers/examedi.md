@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Live authenticated application backend for Examedi's consumer apps (Django REST Framework). Requires authorization; no public developer documentation or OpenAPI definition is published. Discovered via
@@ -45,12 +47,12 @@ common:
   type: BlogRSS
   url: https://blog.examedi.com/rss/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/examedi/refs/heads/main/security/examedi-domain-security.yml
+  href: https://artifacts.apis.io/examedi/security/examedi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/examedi-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/examedi/refs/heads/main/llms/examedi-llms.txt
+  href: https://artifacts.apis.io/examedi/llms/examedi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/examedi-llms.txt
@@ -67,10 +69,10 @@ name: Examedi
 nav: Providers
 network: true
 overview: Examedi is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Health Tech, and Diagnostics.
-random_paper: 7
+random_paper: 13
 score:
   band: minimal
-  composite: 6.2
+  composite: 5.5
   coverage:
     artifact_dirs: 5
     catalog_earned: 37.0
@@ -84,28 +86,28 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 6.2
+  previous_composite: 5.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/examedi/refs/heads/main/screenshots/examedi-2026-07-25T213839.png
+screenshot: https://apis.io/screenshots/examedi/examedi-2026-07-25T213839.png
 security:
 - kind: domain-security
   name: Examedi Domain Security

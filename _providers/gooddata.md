@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -89,11 +91,8 @@ apis:
   description: The Workspaces API from GoodData — 2 operation(s) for workspaces.
   name: GoodData Workspaces API
   slug: gooddata-workspaces-api
-artifact_total: 28
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: GoodData Cloud Dashboards API
   slug: open-gooddata-dashboards-api
@@ -126,32 +125,32 @@ collections:
   slug: open-gooddata
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/capabilities/gooddata-capability-edges.yml
+  href: https://artifacts.apis.io/gooddata/capabilities/gooddata-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gooddata-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/agentic-access/gooddata-agentic-access.yml
+  href: https://artifacts.apis.io/gooddata/agentic-access/gooddata-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gooddata-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/security/gooddata-trust-center.yml
+  href: https://artifacts.apis.io/gooddata/security/gooddata-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gooddata-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/security/gooddata-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/gooddata/security/gooddata-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gooddata-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/security/gooddata-domain-security.yml
+  href: https://artifacts.apis.io/gooddata/security/gooddata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gooddata-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/authentication/gooddata-authentication.yml
+  href: https://artifacts.apis.io/gooddata/authentication/gooddata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gooddata-authentication.yml
@@ -172,17 +171,17 @@ common:
   type: Documentation
   url: https://www.gooddata.com/docs/cloud/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/plans/gooddata-plans-pricing.yml
+  href: https://artifacts.apis.io/gooddata/plans/gooddata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gooddata-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/rate-limits/gooddata-rate-limits.yml
+  href: https://artifacts.apis.io/gooddata/rate-limits/gooddata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gooddata-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/finops/gooddata-finops.yml
+  href: https://artifacts.apis.io/gooddata/finops/gooddata-finops.yml
   title: ''
   type: FinOps
   url: finops/gooddata-finops.yml
@@ -213,14 +212,14 @@ plans:
 - name: Gooddata Plans Pricing
   plan_count: 3
   slug: gooddata-plans-pricing
-random_paper: 21
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Gooddata Rate Limits
   slug: gooddata-rate-limits
 score:
   band: thin
-  composite: 29.4
+  composite: 31.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.0
@@ -228,15 +227,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 46.7
+    contract_quality: 44.1
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 37.7
+    operational_transparency: 23.7
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     contracts:
@@ -250,13 +249,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/screenshots/gooddata-2026-07-25T220051.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gooddata/gooddata-2026-07-25T220051.png
 security:
 - kind: authentication
   name: Gooddata Authentication

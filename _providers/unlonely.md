@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,27 +59,27 @@ common:
   type: XProfile
   url: https://x.com/unlonely_app
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/unlonely/refs/heads/main/graphql/unlonely-graphql.md
+  href: https://artifacts.apis.io/unlonely/graphql/unlonely-graphql.md
   title: ''
   type: GraphQL
   url: graphql/unlonely-graphql.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unlonely/refs/heads/main/llms/unlonely-llms.txt
+  href: https://artifacts.apis.io/unlonely/llms/unlonely-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unlonely-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unlonely/refs/heads/main/lifecycle/unlonely-lifecycle.yml
+  href: https://artifacts.apis.io/unlonely/lifecycle/unlonely-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unlonely-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unlonely/refs/heads/main/well-known/unlonely-well-known.yml
+  href: https://artifacts.apis.io/unlonely/well-known/unlonely-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/unlonely-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unlonely/refs/heads/main/data-model/unlonely-data-model.yml
+  href: https://artifacts.apis.io/unlonely/data-model/unlonely-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unlonely-data-model.yml
@@ -94,7 +96,7 @@ name: Unlonely
 nav: Providers
 network: true
 overview: Unlonely is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Live Streaming, Video, and Base.
-random_paper: 6
+random_paper: 22
 score:
   band: minimal
   composite: 0.0
@@ -121,14 +123,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/unlonely/refs/heads/main/screenshots/unlonely-2026-10-11T131454.png
+screenshot: https://apis.io/screenshots/unlonely/unlonely-2026-10-11T131454.png
 slug: unlonely
 tags:
 - Company

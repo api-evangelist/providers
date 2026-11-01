@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Bespoke MITA-built open-data portal (JS SPA) at portal.data.gov.mt / open.data.gov.mt. The catalog is DCAT-AP-compliant and harvested into data.europa.eu (~230+ datasets across sectors such as plannin
@@ -44,12 +46,12 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/data-gov-mt/refs/heads/main/security/data-gov-mt-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/data-gov-mt/security/data-gov-mt-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/data-gov-mt-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/data-gov-mt/refs/heads/main/security/data-gov-mt-domain-security.yml
+  href: https://artifacts.apis.io/data-gov-mt/security/data-gov-mt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/data-gov-mt-domain-security.yml
@@ -58,7 +60,7 @@ common:
   type: Website
   url: https://portal.data.gov.mt/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/data-gov-mt/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/data-gov-mt/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -74,9 +76,9 @@ overview: data.gov.mt (Open Data Malta) is listed with 2 APIs on the [APIs.io](h
 random_paper: 1
 score:
   band: minimal
-  composite: 5.5
+  composite: 6.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -89,28 +91,28 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 57.1
-    operational_transparency: 0.0
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
     - italy-southern-europe
-  previous_composite: 5.5
+  previous_composite: 6.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/data-gov-mt/refs/heads/main/screenshots/data-gov-mt-2026-07-25T211239.png
+screenshot: https://apis.io/screenshots/data-gov-mt/data-gov-mt-2026-07-25T211239.png
 security:
 - kind: domain-security
   name: Data Gov Mt Domain Security

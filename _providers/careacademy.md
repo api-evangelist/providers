@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://go.careacademy.com/api/v1
@@ -63,11 +65,8 @@ apis:
   description: The Sign In Url API from CareAcademy — 1 operation(s) for sign in url.
   name: CareAcademy Sign In Url API
   slug: careacademy-sign-in-url-api
-artifact_total: 13
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CareAcademy Compliance Report API
   slug: open-careacademy-compliance-report-api
@@ -89,12 +88,12 @@ common:
   type: BlogRSS
   url: https://careacademy.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/capabilities/careacademy-capability-edges.yml
+  href: https://artifacts.apis.io/careacademy/capabilities/careacademy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/careacademy-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/overlays/careacademy-overlay.yaml
+  href: https://artifacts.apis.io/careacademy/overlays/careacademy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/careacademy-overlay.yaml
@@ -151,57 +150,57 @@ common:
   type: StatusPage
   url: https://status.careacademy.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/authentication/careacademy-authentication.yml
+  href: https://artifacts.apis.io/careacademy/authentication/careacademy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/careacademy-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/conventions/careacademy-conventions.yml
+  href: https://artifacts.apis.io/careacademy/conventions/careacademy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/careacademy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/errors/careacademy-problem-types.yml
+  href: https://artifacts.apis.io/careacademy/errors/careacademy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/careacademy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/data-model/careacademy-data-model.yml
+  href: https://artifacts.apis.io/careacademy/data-model/careacademy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/careacademy-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/conformance/careacademy-conformance.yml
+  href: https://artifacts.apis.io/careacademy/conformance/careacademy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/careacademy-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/lifecycle/careacademy-lifecycle.yml
+  href: https://artifacts.apis.io/careacademy/lifecycle/careacademy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/careacademy-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/sandbox/careacademy-sandbox.yml
+  href: https://artifacts.apis.io/careacademy/sandbox/careacademy-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/careacademy-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/mcp/careacademy-mcp.yml
+  href: https://artifacts.apis.io/careacademy/mcp/careacademy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/careacademy-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/llms/careacademy-llms.txt
+  href: https://artifacts.apis.io/careacademy/llms/careacademy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/careacademy-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/careacademy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/security/careacademy-domain-security.yml
+  href: https://artifacts.apis.io/careacademy/security/careacademy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/careacademy-domain-security.yml
@@ -217,10 +216,10 @@ overview: 'CareAcademy publishes 5 API contracts indexed on the [APIs.io](https:
 
 
   CareAcademy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 13
+random_paper: 7
 score:
-  band: thin
-  composite: 37.3
+  band: developing
+  composite: 43.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -230,13 +229,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 45.4
-    developer_ergonomics: 53.0
-    discoverability: 73.2
+    developer_ergonomics: 66.1
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 37.3
+  previous_composite: 43.8
   provenance:
     conformance: derived
     contracts:
@@ -251,14 +250,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 16.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 19.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/screenshots/careacademy-2026-08-07T175428.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/careacademy/careacademy-2026-08-07T175428.png
 security:
 - kind: authentication
   name: Careacademy Authentication
@@ -268,6 +268,12 @@ security:
   name: Careacademy Domain Security
   slug: careacademy-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Onboard an agency and its caregivers to CareAcademy
+  slug: careacademy-onboard-agency
+- name: Pull an agency's CareAcademy compliance report
+  slug: careacademy-pull-compliance-report
 slug: careacademy
 tags:
 - Company
@@ -275,7 +281,6 @@ tags:
 - Education
 - Compliance
 - Home Care
-- Home Health
 - Hospice
 - Senior Living
 - Healthcare

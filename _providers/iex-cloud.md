@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Real-time and historical US equity quotes, intraday and historical prices, OHLCV charts, news, dividends, splits, options chains, fundamentals, and corporate actions. Pricing was message-based: each e'
@@ -46,7 +48,7 @@ common:
   type: Website
   url: https://iexcloud.io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/iex-cloud/refs/heads/main/security/iex-cloud-domain-security.yml
+  href: https://artifacts.apis.io/iex-cloud/security/iex-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/iex-cloud-domain-security.yml
@@ -71,7 +73,7 @@ common:
   type: Documentation
   url: https://web.archive.org/web/20241003164023/https://iexcloud.io/docs/api/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iex-cloud/refs/heads/main/lifecycle/iex-cloud-lifecycle.yml
+  href: https://artifacts.apis.io/iex-cloud/lifecycle/iex-cloud-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/iex-cloud-lifecycle.yml
@@ -84,47 +86,47 @@ common:
   type: Deprecation
   url: https://web.archive.org/web/20240611120824/https://iexcloud.io/docs/api-basics/deprecation
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/iex-cloud/refs/heads/main/changelog/iex-cloud-changelog.yml
+  href: https://artifacts.apis.io/iex-cloud/changelog/iex-cloud-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/iex-cloud-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/iex-cloud/refs/heads/main/authentication/iex-cloud-authentication.yml
+  href: https://artifacts.apis.io/iex-cloud/authentication/iex-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/iex-cloud-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/iex-cloud/refs/heads/main/packages/iex-cloud-packages.yml
+  href: https://artifacts.apis.io/iex-cloud/packages/iex-cloud-packages.yml
   title: ''
   type: Packages
   url: packages/iex-cloud-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/iex-cloud/refs/heads/main/packages/iex-cloud-packages.yml
+  href: https://artifacts.apis.io/iex-cloud/packages/iex-cloud-packages.yml
   title: ''
   type: SDKs
   url: packages/iex-cloud-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/iex-cloud/refs/heads/main/well-known/iex-cloud-well-known.yml
+  href: https://artifacts.apis.io/iex-cloud/well-known/iex-cloud-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/iex-cloud-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/iex-cloud/refs/heads/main/llms/iex-cloud-llms.txt
+  href: https://artifacts.apis.io/iex-cloud/llms/iex-cloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/iex-cloud-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/iex-cloud/refs/heads/main/plans/iex-cloud-plans-pricing.yml
+  href: https://artifacts.apis.io/iex-cloud/plans/iex-cloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/iex-cloud-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/iex-cloud/refs/heads/main/rate-limits/iex-cloud-rate-limits.yml
+  href: https://artifacts.apis.io/iex-cloud/rate-limits/iex-cloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/iex-cloud-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/iex-cloud/refs/heads/main/finops/iex-cloud-finops.yml
+  href: https://artifacts.apis.io/iex-cloud/finops/iex-cloud-finops.yml
   title: ''
   type: FinOps
   url: finops/iex-cloud-finops.yml
@@ -152,7 +154,7 @@ plans:
 - name: Iex Cloud Plans Pricing
   plan_count: 4
   slug: iex-cloud-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Iex Cloud Rate Limits
@@ -183,14 +185,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/iex-cloud/refs/heads/main/screenshots/iex-cloud-2026-06-20T183213.png
+screenshot: https://apis.io/screenshots/iex-cloud/iex-cloud-2026-06-20T183213.png
 security:
 - kind: authentication
   name: Iex Cloud Authentication

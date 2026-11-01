@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'Auto-generated GraphQL API providing schema-based access to Craft CMS content including entries, assets, categories, tags, and custom fields. Access is controlled via bearer token authentication tied '
@@ -45,12 +47,12 @@ apis:
 artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/craft-cms/refs/heads/main/security/craft-cms-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/craft-cms/security/craft-cms-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/craft-cms-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/craft-cms/refs/heads/main/security/craft-cms-domain-security.yml
+  href: https://artifacts.apis.io/craft-cms/security/craft-cms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/craft-cms-domain-security.yml
@@ -91,22 +93,22 @@ common:
   type: StatusPage
   url: https://status.craftcms.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/craft-cms/refs/heads/main/plans/craft-cms-plans-pricing.yml
+  href: https://artifacts.apis.io/craft-cms/plans/craft-cms-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/craft-cms-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/craft-cms/refs/heads/main/rate-limits/craft-cms-rate-limits.yml
+  href: https://artifacts.apis.io/craft-cms/rate-limits/craft-cms-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/craft-cms-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/craft-cms/refs/heads/main/finops/craft-cms-finops.yml
+  href: https://artifacts.apis.io/craft-cms/finops/craft-cms-finops.yml
   title: ''
   type: FinOps
   url: finops/craft-cms-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/craft-cms/refs/heads/main/json-ld/craft-cms-context.jsonld
+  href: https://artifacts.apis.io/craft-cms/json-ld/craft-cms-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/craft-cms-context.jsonld
@@ -146,44 +148,44 @@ plans:
 - name: Craft Cms Plans Pricing
   plan_count: 4
   slug: craft-cms-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Craft Cms Rate Limits
   slug: craft-cms-rate-limits
 score:
-  band: emerging
-  composite: 25.6
+  band: thin
+  composite: 28.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 50.0
     catalog_earned_first_party: 0.0
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 42.6
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 15.8
-  previous_composite: 33.0
+    operational_transparency: 36.8
+  previous_composite: 28.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/craft-cms/refs/heads/main/screenshots/craft-cms-2026-06-20T175204.png
+screenshot: https://apis.io/screenshots/craft-cms/craft-cms-2026-06-20T175204.png
 security:
 - kind: domain-security
   name: Craft Cms Domain Security

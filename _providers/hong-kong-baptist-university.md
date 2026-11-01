@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: HKBU's own SAML 2.0 identity provider, entityID https://buidp01.hkbu.edu.hk/idp/shibboleth, registered in eduGAIN by the Hong Kong Access Federation (HKAF) since 2018-03-14 with scope hkbu.edu.hk. The
@@ -106,37 +108,37 @@ common:
   type: Twitter
   url: https://twitter.com/hkbaptistu
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hong-kong-baptist-university/refs/heads/main/conformance/hong-kong-baptist-university-conformance.yml
+  href: https://artifacts.apis.io/hong-kong-baptist-university/conformance/hong-kong-baptist-university-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hong-kong-baptist-university-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hong-kong-baptist-university/refs/heads/main/authentication/hong-kong-baptist-university-authentication.yml
+  href: https://artifacts.apis.io/hong-kong-baptist-university/authentication/hong-kong-baptist-university-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hong-kong-baptist-university-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hong-kong-baptist-university/refs/heads/main/security/hong-kong-baptist-university-domain-security.yml
+  href: https://artifacts.apis.io/hong-kong-baptist-university/security/hong-kong-baptist-university-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hong-kong-baptist-university-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hong-kong-baptist-university/refs/heads/main/plans/hong-kong-baptist-university-plans-pricing.yml
+  href: https://artifacts.apis.io/hong-kong-baptist-university/plans/hong-kong-baptist-university-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hong-kong-baptist-university-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hong-kong-baptist-university/refs/heads/main/rate-limits/hong-kong-baptist-university-rate-limits.yml
+  href: https://artifacts.apis.io/hong-kong-baptist-university/rate-limits/hong-kong-baptist-university-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hong-kong-baptist-university-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hong-kong-baptist-university/refs/heads/main/finops/hong-kong-baptist-university-finops.yml
+  href: https://artifacts.apis.io/hong-kong-baptist-university/finops/hong-kong-baptist-university-finops.yml
   title: ''
   type: FinOps
   url: finops/hong-kong-baptist-university-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hong-kong-baptist-university/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/hong-kong-baptist-university/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -180,7 +182,7 @@ coverage:
   - note: Empty organisation, zero public repositories; not an institutional code presence.
     status: 200
     url: https://github.com/hkbu
-  reason: auth_required
+  reason: auth-required
   state: gated
 created: '2026-06-03'
 description: 'Hong Kong Baptist University (HKBU) is a publicly funded, UGC-supported research university in Hong Kong SAR. Re-profiled on 2026-08-30 under the API Evangelist university pipeline, which settles WHO OPERATES each surface before crediting any contract. HKBU operates no central developer portal, no public API catalogue and no institution-wide GitHub organisation; github.com/hkbu exists but is empty, and the only active HKBU orgs are research labs (HKBUNLP, HKBU-HPML). What HKBU does operate itself, verified by live probe, is four things: a Shibboleth/SAML 2.0 identity provider at buidp01.hkbu.edu.hk registered in eduGAIN through the Hong Kong Access Federation since 2018 and serving 12KB of signed SAML metadata anonymously; a self-built GenAI Platform whose Azure-OpenAI-shaped chat-completions and embeddings endpoints answer on genai.hkbu.edu.hk behind an api-key header, undocumented publicly; a self-hosted Moodle at buelearning.hkbu.edu.hk publishing a live IMS LTI 1.3 JWKS
@@ -207,7 +209,7 @@ plans:
 - name: Hong Kong Baptist University Plans Pricing
   plan_count: 2
   slug: hong-kong-baptist-university-plans-pricing
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Hong Kong Baptist University Rate Limits
@@ -222,7 +224,7 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 18.2
@@ -235,7 +237,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 29.7
+  previous_composite: 23.6
   provenance:
     conformance: first-party
   regulatory:
@@ -244,14 +246,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hong-kong-baptist-university/refs/heads/main/screenshots/hong-kong-baptist-university-2026-06-20T182824.png
+screenshot: https://apis.io/screenshots/hong-kong-baptist-university/hong-kong-baptist-university-2026-06-20T182824.png
 security:
 - kind: authentication
   name: Hong Kong Baptist University Authentication

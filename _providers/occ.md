@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Search for Community Reinvestment Act (CRA), enforcement, and institution data for OCC-regulated national banks, federal savings associations, and federal branches and agencies of foreign banking orga
@@ -48,7 +50,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/occ/refs/heads/main/security/occ-domain-security.yml
+  href: https://artifacts.apis.io/occ/security/occ-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/occ-domain-security.yml
@@ -73,7 +75,7 @@ common:
   type: Blog
   url: https://www.occ.treas.gov/news-issuances/news-releases/index-news-releases.html
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/occ/refs/heads/main/plans/occ-plans-pricing.yml
+  href: https://artifacts.apis.io/occ/plans/occ-plans-pricing.yml
   title: ''
   type: Pricing
   url: plans/occ-plans-pricing.yml
@@ -86,17 +88,17 @@ common:
   type: X
   url: https://twitter.com/USOCC
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/occ/refs/heads/main/plans/occ-plans-pricing.yml
+  href: https://artifacts.apis.io/occ/plans/occ-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/occ-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/occ/refs/heads/main/rate-limits/occ-rate-limits.yml
+  href: https://artifacts.apis.io/occ/rate-limits/occ-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/occ-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/occ/refs/heads/main/finops/occ-finops.yml
+  href: https://artifacts.apis.io/occ/finops/occ-finops.yml
   title: ''
   type: FinOps
   url: finops/occ-finops.yml
@@ -136,14 +138,14 @@ plans:
 - name: Occ Plans Pricing
   plan_count: 1
   slug: occ-plans-pricing
-random_paper: 1
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Occ Rate Limits
   slug: occ-rate-limits
 score:
   band: emerging
-  composite: 15.9
+  composite: 16.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 50.0
@@ -151,29 +153,29 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 10.7
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 71.4
     operational_transparency: 21.1
-  previous_composite: 20.2
+  previous_composite: 16.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 8.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/occ/refs/heads/main/screenshots/occ-2026-06-20T190555.png
+screenshot: https://apis.io/screenshots/occ/occ-2026-06-20T190555.png
 security:
 - kind: domain-security
   name: Occ Domain Security

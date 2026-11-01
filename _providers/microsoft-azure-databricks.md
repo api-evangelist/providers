@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-17'
+  score: 31.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 3
@@ -226,14 +228,11 @@ arazzos:
 - description: Partially update a job's settings, then trigger and poll a fresh run.
   name: Azure Databricks Update a Job and Re-run It
   slug: azure-databricks-update-job-and-rerun-workflow
-artifact_total: 230
+artifact_total: 229
 collections:
 - collection_type: postman
   name: Azure Databricks REST API
   slug: postman-azure-databricks
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure Databricks REST API
   slug: open-azure-databricks
@@ -248,22 +247,22 @@ collections:
   slug: open-microsoft-azure-databricks-workspace-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/plans/azure-databricks-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/plans/azure-databricks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/azure-databricks-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/rate-limits/azure-databricks-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/rate-limits/azure-databricks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/azure-databricks-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/finops/azure-databricks-finops.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/finops/azure-databricks-finops.yml
   title: ''
   type: FinOps
   url: finops/azure-databricks-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/capabilities/microsoft-azure-databricks-capability-edges.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/capabilities/microsoft-azure-databricks-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-azure-databricks-capability-edges.yml
@@ -296,27 +295,27 @@ common:
   type: License
   url: https://github.com/Azure/azure-databricks-client/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/agentic-access/microsoft-azure-databricks-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/agentic-access/microsoft-azure-databricks-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-databricks-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/security/azure-databricks-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/security/azure-databricks-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/azure-databricks-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/security/azure-databricks-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/security/azure-databricks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/azure-databricks-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/authentication/azure-databricks-authentication.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/authentication/azure-databricks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/azure-databricks-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/scopes/microsoft-azure-databricks-scopes.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/scopes/microsoft-azure-databricks-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-databricks-scopes.yml
@@ -325,102 +324,102 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/azure-databricks/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-backup-notebook-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-backup-notebook-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-backup-notebook-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-cancel-active-run-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-cancel-active-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-cancel-active-run-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-cleanup-latest-job-run-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-cleanup-latest-job-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-cleanup-latest-job-run-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-cluster-health-diagnostics-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-cluster-health-diagnostics-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-cluster-health-diagnostics-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-create-directory-and-import-notebook-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-create-directory-and-import-notebook-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-create-directory-and-import-notebook-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-create-job-and-run-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-create-job-and-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-create-job-and-run-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-delete-workspace-directory-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-delete-workspace-directory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-delete-workspace-directory-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-import-notebook-and-run-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-import-notebook-and-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-import-notebook-and-run-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-pin-most-recent-cluster-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-pin-most-recent-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-pin-most-recent-cluster-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-preflight-create-cluster-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-preflight-create-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-preflight-create-cluster-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-provision-cluster-and-run-job-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-provision-cluster-and-run-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-provision-cluster-and-run-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-provision-cluster-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-provision-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-provision-cluster-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-reset-job-and-verify-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-reset-job-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-reset-job-and-verify-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-resize-running-cluster-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-resize-running-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-resize-running-cluster-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-restart-cluster-and-wait-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-restart-cluster-and-wait-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-restart-cluster-and-wait-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-run-existing-job-and-wait-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-run-existing-job-and-wait-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-run-existing-job-and-wait-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-start-cluster-and-wait-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-start-cluster-and-wait-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-start-cluster-and-wait-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-submit-one-time-run-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-submit-one-time-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-submit-one-time-run-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-terminate-and-purge-cluster-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-terminate-and-purge-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-terminate-and-purge-cluster-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/arazzo/azure-databricks-update-job-and-rerun-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/arazzo/azure-databricks-update-job-and-rerun-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-databricks-update-job-and-rerun-workflow.yml
@@ -489,27 +488,27 @@ common:
   type: GitHubRepository
   url: https://github.com/Azure/azure-databricks-client
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/_original/azure-databricks-openapi.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/openapi/_original/azure-databricks-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/azure-databricks-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/json-schema/azure-databricks-cluster-schema.json
+  href: https://artifacts.apis.io/microsoft-azure-databricks/json-schema/azure-databricks-cluster-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/azure-databricks-cluster-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/json-ld/azure-databricks-context.jsonld
+  href: https://artifacts.apis.io/microsoft-azure-databricks/json-ld/azure-databricks-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/azure-databricks-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/rules/azure-databricks-spectral-rules.yml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/rules/azure-databricks-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/azure-databricks-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/vocabulary/azure-databricks-vocabulary.yaml
+  href: https://artifacts.apis.io/microsoft-azure-databricks/vocabulary/azure-databricks-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/azure-databricks-vocabulary.yaml
@@ -701,10 +700,10 @@ features:
 - SCIM 2.0 for identity and access management
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Azure Databricks Finops
-  primary_unit: ''
-  service_category: Data Analytics
+  primary_unit: '% of azure databricks product spend in a selected workspace'
+  service_category: ''
   slug: azure-databricks-finops
   template: false
 - has_sources: true
@@ -949,12 +948,12 @@ overview: 'Azure Databricks publishes 38 API contracts indexed on the [APIs.io](
   Azure Databricks'' developer surface includes authentication, getting-started guide, pricing, CLI, API reference, release notes, changelog, and 53 more developer resources.'
 plans:
 - name: Azure Databricks Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: azure-databricks-plans-pricing
 - name: Microsoft Azure Databricks Plans Pricing
   plan_count: 6
   slug: microsoft-azure-databricks-plans-pricing
-random_paper: 9
+random_paper: 7
 rate_limits:
 - limit_count: 23
   name: Azure Databricks Rate Limits
@@ -1008,26 +1007,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 57.9
+  composite: 59.9
   coverage:
     artifact_dirs: 22
-    catalog_earned: 57.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_earned: 69.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.2
+  delta: 1.6
   facets:
-    access_clarity: 13.2
+    access_clarity: 50.0
     contract_governance: 27.3
     contract_quality: 62.2
     developer_ergonomics: 72.6
     discoverability: 71.4
     operational_transparency: 55.3
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 63.1
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1041,13 +1037,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/screenshots/microsoft-azure-databricks-2026-06-20T185410.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-azure-databricks/microsoft-azure-databricks-2026-06-20T185410.png
 security:
 - kind: authentication
   name: Azure Databricks Authentication

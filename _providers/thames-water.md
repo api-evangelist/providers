@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Developer portal providing API information and resources for Thames Water.
@@ -32,17 +34,17 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thames-water/refs/heads/main/hosts/thames-water-hosts.yml
+  href: https://artifacts.apis.io/thames-water/hosts/thames-water-hosts.yml
   title: ''
   type: Hosts
   url: hosts/thames-water-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/thames-water/refs/heads/main/packages/thames-water-packages.yml
+  href: https://artifacts.apis.io/thames-water/packages/thames-water-packages.yml
   title: ''
   type: SDKs
   url: packages/thames-water-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/thames-water/refs/heads/main/packages/thames-water-packages.yml
+  href: https://artifacts.apis.io/thames-water/packages/thames-water-packages.yml
   title: ''
   type: Packages
   url: packages/thames-water-packages.yml
@@ -83,7 +85,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/ThamesWater
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thames-water/refs/heads/main/security/thames-water-domain-security.yml
+  href: https://artifacts.apis.io/thames-water/security/thames-water-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thames-water-domain-security.yml
@@ -110,7 +112,7 @@ overview: 'Thames Water is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   Thames Water''s developer surface includes support, pricing, getting-started guide, and 11 more developer resources.'
-random_paper: 2
+random_paper: 10
 score:
   band: emerging
   composite: 21.6
@@ -121,6 +123,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
@@ -128,6 +131,7 @@ score:
     developer_ergonomics: 33.3
     discoverability: 55.4
     operational_transparency: 5.3
+  previous_composite: 21.6
   provenance:
     mcp: unknown
   regulatory:
@@ -136,8 +140,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

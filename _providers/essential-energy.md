@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 4
@@ -53,10 +55,10 @@ apis:
 - description: Anonymous ArcGIS REST FeatureServer tables and layers publishing Essential Energy's regulated network planning data — zone substation summer and winter ratings and forecasts (DAPR_ZS_Summer_v2, DAPR_Z
   name: Essential Energy Network Planning and DAPR Feature Services
   slug: essential-energy-network-planning-feature-services
-artifact_total: 12
+artifact_total: 15
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/security/essential-energy-domain-security.yml
+  href: https://artifacts.apis.io/essential-energy/security/essential-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/essential-energy-domain-security.yml
@@ -81,97 +83,97 @@ common:
   type: Documentation
   url: https://dapr.essentialenergy.com.au/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/arcgis/essential-energy-arcgis-services-catalog.json
+  href: https://artifacts.apis.io/essential-energy/arcgis/essential-energy-arcgis-services-catalog.json
   title: ''
   type: Reference
   url: arcgis/essential-energy-arcgis-services-catalog.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/arcgis/essential-energy-arcgis-public-items.json
+  href: https://artifacts.apis.io/essential-energy/arcgis/essential-energy-arcgis-public-items.json
   title: ''
   type: Reference
   url: arcgis/essential-energy-arcgis-public-items.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/arcgis/essential-energy-arcgis-portal-self.json
+  href: https://artifacts.apis.io/essential-energy/arcgis/essential-energy-arcgis-portal-self.json
   title: ''
   type: Reference
   url: arcgis/essential-energy-arcgis-portal-self.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/arcgis/essential-energy-arcgis-rest-info.json
+  href: https://artifacts.apis.io/essential-energy/arcgis/essential-energy-arcgis-rest-info.json
   title: ''
   type: Reference
   url: arcgis/essential-energy-arcgis-rest-info.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/arcgis/essential-energy-service-capabilities.json
+  href: https://artifacts.apis.io/essential-energy/arcgis/essential-energy-service-capabilities.json
   title: ''
   type: Reference
   url: arcgis/essential-energy-service-capabilities.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/arcgis/essential-energy-layer-field-schemas.json
+  href: https://artifacts.apis.io/essential-energy/arcgis/essential-energy-layer-field-schemas.json
   title: ''
   type: Reference
   url: arcgis/essential-energy-layer-field-schemas.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/well-known/essential-energy-well-known.yml
+  href: https://artifacts.apis.io/essential-energy/well-known/essential-energy-well-known.yml
   title: ''
   type: Reference
   url: well-known/essential-energy-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/authentication/essential-energy-authentication.yml
+  href: https://artifacts.apis.io/essential-energy/authentication/essential-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/essential-energy-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/conventions/essential-energy-conventions.yml
+  href: https://artifacts.apis.io/essential-energy/conventions/essential-energy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/essential-energy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/errors/essential-energy-problem-types.yml
+  href: https://artifacts.apis.io/essential-energy/errors/essential-energy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/essential-energy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/lifecycle/essential-energy-lifecycle.yml
+  href: https://artifacts.apis.io/essential-energy/lifecycle/essential-energy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/essential-energy-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/conformance/essential-energy-conformance.yml
+  href: https://artifacts.apis.io/essential-energy/conformance/essential-energy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/essential-energy-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/vocabulary/essential-energy-vocabulary.yml
+  href: https://artifacts.apis.io/essential-energy/vocabulary/essential-energy-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/essential-energy-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/data-model/essential-energy-data-model.yml
+  href: https://artifacts.apis.io/essential-energy/data-model/essential-energy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/essential-energy-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/examples/essential-energy-examples.yml
+  href: https://artifacts.apis.io/essential-energy/examples/essential-energy-examples.yml
   title: ''
   type: Examples
   url: examples/essential-energy-examples.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/agentic-access/essential-energy-agentic-access.yml
+  href: https://artifacts.apis.io/essential-energy/agentic-access/essential-energy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/essential-energy-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/essential-energy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/llms/essential-energy-llms.txt
+  href: https://artifacts.apis.io/essential-energy/llms/essential-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/essential-energy-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/security/essential-energy-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/essential-energy/security/essential-energy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/essential-energy-vulnerability-disclosure.yml
@@ -224,7 +226,7 @@ overview: 'Essential Energy is listed with 3 APIs on the [APIs.io](https://apis.
 
 
   Essential Energy''s developer surface includes developer portal, documentation, authentication, code examples, support, engineering blog, and 24 more developer resources.'
-random_paper: 13
+random_paper: 7
 score:
   band: thin
   composite: 28.2
@@ -261,14 +263,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 25.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/essential-energy/refs/heads/main/screenshots/essential-energy-2026-08-07T165022.png
+screenshot: https://apis.io/screenshots/essential-energy/essential-energy-2026-08-07T165022.png
 security:
 - kind: authentication
   name: Essential Energy Authentication
@@ -282,6 +284,14 @@ security:
   name: Essential Energy Vulnerability Disclosure
   slug: essential-energy-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 3
+skills:
+- name: Pull Essential Energy regulated network planning forecasts (DAPR)
+  slug: essential-energy-dapr-planning-forecast
+- name: Look up DER hosting capacity for a location on the Essential Energy network
+  slug: essential-energy-der-hosting-capacity-lookup
+- name: Query Essential Energy physical network assets in an area
+  slug: essential-energy-network-asset-query
 slug: essential-energy
 tags:
 - Energy

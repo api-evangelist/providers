@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-17'
+  score: 22.5
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - baseURL: https://api.bonsai.io
@@ -46,95 +48,95 @@ apis:
   description: The Spaces API from Bonsai — 2 operation(s) for spaces.
   name: Bonsai Spaces API
   slug: bonsai-io-spaces-api
-artifact_total: 16
+artifact_total: 18
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/rate-limits/bonsai-io-rate-limits.yml
+  href: https://artifacts.apis.io/bonsai-io/rate-limits/bonsai-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bonsai-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/plans/bonsai-io-plans-pricing.yml
+  href: https://artifacts.apis.io/bonsai-io/plans/bonsai-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bonsai-io-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/rules/bonsai-io-rules.yml
+  href: https://artifacts.apis.io/bonsai-io/rules/bonsai-io-rules.yml
   title: ''
   type: Spectral
   url: rules/bonsai-io-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/json-ld/bonsai-io-context.jsonld
+  href: https://artifacts.apis.io/bonsai-io/json-ld/bonsai-io-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bonsai-io-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/vocabulary/bonsai-io-vocabulary.yml
+  href: https://artifacts.apis.io/bonsai-io/vocabulary/bonsai-io-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bonsai-io-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/data-model/bonsai-io-data-model.yml
+  href: https://artifacts.apis.io/bonsai-io/data-model/bonsai-io-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bonsai-io-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/conventions/bonsai-io-conventions.yml
+  href: https://artifacts.apis.io/bonsai-io/conventions/bonsai-io-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bonsai-io-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/authentication/bonsai-io-authentication.yml
+  href: https://artifacts.apis.io/bonsai-io/authentication/bonsai-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bonsai-io-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/scopes/bonsai-io-scopes.yml
+  href: https://artifacts.apis.io/bonsai-io/scopes/bonsai-io-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bonsai-io-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/lifecycle/bonsai-io-lifecycle.yml
+  href: https://artifacts.apis.io/bonsai-io/lifecycle/bonsai-io-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bonsai-io-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/errors/bonsai-io-problem-types.yml
+  href: https://artifacts.apis.io/bonsai-io/errors/bonsai-io-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bonsai-io-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/conformance/bonsai-io-conformance.yml
+  href: https://artifacts.apis.io/bonsai-io/conformance/bonsai-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bonsai-io-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/well-known/bonsai-io-status-security.txt
+  href: https://artifacts.apis.io/bonsai-io/well-known/bonsai-io-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bonsai-io-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/well-known/bonsai-io-well-known.yml
+  href: https://artifacts.apis.io/bonsai-io/well-known/bonsai-io-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bonsai-io-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/hosts/bonsai-io-hosts.yml
+  href: https://artifacts.apis.io/bonsai-io/hosts/bonsai-io-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bonsai-io-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/vendors/bonsai-io-vendors.yml
+  href: https://artifacts.apis.io/bonsai-io/vendors/bonsai-io-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bonsai-io-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/packages/bonsai-io-packages.yml
+  href: https://artifacts.apis.io/bonsai-io/packages/bonsai-io-packages.yml
   title: ''
   type: SDKs
   url: packages/bonsai-io-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/packages/bonsai-io-packages.yml
+  href: https://artifacts.apis.io/bonsai-io/packages/bonsai-io-packages.yml
   title: ''
   type: Packages
   url: packages/bonsai-io-packages.yml
@@ -147,7 +149,7 @@ common:
   type: Security
   url: https://bonsai.io/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bonsai-io/refs/heads/main/security/bonsai-io-domain-security.yml
+  href: https://artifacts.apis.io/bonsai-io/security/bonsai-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bonsai-io-domain-security.yml
@@ -210,6 +212,14 @@ coverage:
   state: gated
 created: '2026-10-13'
 description: Bonsai, made by One More Cloud, is a fully managed hosted Elasticsearch and OpenSearch search service (managed or bring-your-own-cloud on AWS and Google Cloud), with vector search, a Heroku add-on and a Terraform provider. Its Bonsai Cloud REST API at https://api.bonsai.io (alpha) manages clusters and lists plans, releases (search engine versions) and spaces (regions), authenticated with Basic or Bearer API tokens.
+finops:
+- has_sources: true
+  method: derived
+  name: Bonsai Io Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: bonsai-io-finops
+  template: false
 image: https://cdn.prod.website-files.com/63c81e4decde60c281417feb/6807c033856de7919fd4ad83_opengraph-home.jpg
 json_schemas:
 - name: Cluster
@@ -248,7 +258,10 @@ plans:
 - name: Bonsai Io Plans Pricing
   plan_count: 12
   slug: bonsai-io-plans-pricing
-random_paper: 17
+- name: Bonsai Io Price Estimates
+  plan_count: 0
+  slug: bonsai-io-price-estimates
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Bonsai Io Rate Limits
@@ -273,21 +286,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 52.6
+  composite: 54.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 85.8
+    artifact_dirs: 22
+    catalog_earned: 88.8
     catalog_earned_first_party: 20.0
-    catalog_gap: 29.3
+    catalog_gap: 26.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 22.0
-    contract_quality: 30.3
+    contract_quality: 26.9
     developer_ergonomics: 54.8
     discoverability: 71.4
     operational_transparency: 52.6
+  previous_composite: 52.4
   provenance:
     conformance: derived
     contracts:
@@ -302,11 +317,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Bonsai Io Authentication

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,18 +37,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for the Verkada Command platform - cameras and footage, access control, sensors, alarms, guest management, Helix video tagging, and audit logs. Scoped API key + short-lived token auth; region
   name: Verkada Command API
   slug: verkada-command-api
-artifact_total: 7
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Verkada Webhooks
   slug: verkada-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/verkada/plans/verkada-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/verkada-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -116,7 +123,7 @@ common:
   type: Security
   url: https://www.verkada.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/security/verkada-trust-center.yml
+  href: https://artifacts.apis.io/verkada/security/verkada-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/verkada-trust-center.yml
@@ -125,87 +132,95 @@ common:
   type: Compliance
   url: https://security.verkada.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/changelog/verkada-changelog.yml
+  href: https://artifacts.apis.io/verkada/changelog/verkada-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/verkada-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/authentication/verkada-authentication.yml
+  href: https://artifacts.apis.io/verkada/authentication/verkada-authentication.yml
   title: ''
   type: Authentication
   url: authentication/verkada-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/conventions/verkada-conventions.yml
+  href: https://artifacts.apis.io/verkada/conventions/verkada-conventions.yml
   title: ''
   type: Conventions
   url: conventions/verkada-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/lifecycle/verkada-lifecycle.yml
+  href: https://artifacts.apis.io/verkada/lifecycle/verkada-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/verkada-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/errors/verkada-problem-types.yml
+  href: https://artifacts.apis.io/verkada/errors/verkada-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/verkada-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/asyncapi/verkada-webhooks.yml
+  href: https://artifacts.apis.io/verkada/asyncapi/verkada-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/verkada-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/conformance/verkada-conformance.yml
+  href: https://artifacts.apis.io/verkada/conformance/verkada-conformance.yml
   title: ''
   type: Conformance
   url: conformance/verkada-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/mcp/verkada-mcp.yml
+  href: https://artifacts.apis.io/verkada/mcp/verkada-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/verkada-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/verkada/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/llms/verkada-llms.txt
+  href: https://artifacts.apis.io/verkada/llms/verkada-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/verkada-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/well-known/verkada-well-known.yml
+  href: https://artifacts.apis.io/verkada/well-known/verkada-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/verkada-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/packages/verkada-packages.yml
+  href: https://artifacts.apis.io/verkada/packages/verkada-packages.yml
   title: ''
   type: Packages
   url: packages/verkada-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/data-model/verkada-data-model.yml
+  href: https://artifacts.apis.io/verkada/data-model/verkada-data-model.yml
   title: ''
   type: DataModel
   url: data-model/verkada-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/rate-limits/verkada-rate-limits.yml
+  href: https://artifacts.apis.io/verkada/rate-limits/verkada-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/verkada-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/security/verkada-domain-security.yml
+  href: https://artifacts.apis.io/verkada/security/verkada-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/verkada-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/security/verkada-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/verkada/security/verkada-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/verkada-vulnerability-disclosure.yml
 created: '2026-07-17'
 description: Verkada is a cloud-managed physical security company whose platform spans security cameras, access control, environmental and air-quality sensors, alarms, intercoms, visitor/guest management, and workplace safety, all administered through Verkada Command. Its public Command API is a REST interface (JSON over HTTPS, standard HTTP status codes) that lets developers programmatically manage cameras and footage, access-control users, doors, credentials and schedules, sensor and alarm data, guest events, Helix video tagging, and organization audit logs. Authentication uses a scoped API Key that mints short-lived 30-minute tokens (x-verkada-auth), with region-specific hosts for the United States, Europe, Australia, and GovCloud, plus HMAC-signed event webhooks for cameras, access, alarms, and guest.
+finops:
+- has_sources: true
+  method: derived
+  name: Verkada Finops
+  primary_unit: site
+  service_category: ''
+  slug: verkada-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verkada.png
 layout: provider
 modified: '2026-07-21'
@@ -218,31 +233,38 @@ overview: 'Verkada is listed with 1 API on the [APIs.io](https://apis.io/) netwo
   The Verkada catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Verkada''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 8
+  Verkada''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+plans:
+- name: Verkada Plans Pricing
+  plan_count: 12
+  slug: verkada-plans-pricing
+- name: Verkada Price Estimates
+  plan_count: 0
+  slug: verkada-price-estimates
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Verkada Rate Limits
   slug: verkada-rate-limits
 score:
-  band: developing
-  composite: 50.6
+  band: strong
+  composite: 65.3
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 21
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 52.6
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 42.3
-    discoverability: 73.2
-    operational_transparency: 77.6
-  previous_composite: 50.5
+    developer_ergonomics: 63.7
+    discoverability: 66.1
+    operational_transparency: 84.2
+  previous_composite: 57.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -252,15 +274,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/screenshots/verkada-2026-08-17T082733.png
+screenshot: https://apis.io/screenshots/verkada/verkada-2026-08-17T082733.png
 security:
 - kind: authentication
   name: Verkada Authentication
@@ -278,6 +300,14 @@ security:
   name: Verkada Trust Center
   slug: verkada-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 3
+skills:
+- name: Authenticate and read Verkada camera data
+  slug: verkada-authenticate-and-read-cameras
+- name: Consume and verify Verkada webhooks
+  slug: verkada-consume-webhooks
+- name: Provision a Verkada access user and grant door access
+  slug: verkada-provision-access-user
 slug: verkada
 tags:
 - Company

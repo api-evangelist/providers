@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-17'
+  score: 21.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: Yank and unyank crate versions
   name: crates.io Versions API
   slug: crates-io-versions-api
-artifact_total: 41
+artifact_total: 40
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: crates.io Sparse Index Config API
   slug: open-crates-io-config-api
@@ -96,23 +95,28 @@ collections:
   name: crates.io Web API
   slug: open-crates-io-web-api
 common:
+- group: other
+  href: https://artifacts.apis.io/crates-io/capabilities/crates-io-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/crates-io-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/agentic-access/crates-io-agentic-access.yml
+  href: https://artifacts.apis.io/crates-io/agentic-access/crates-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/crates-io-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/security/crates-io-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/crates-io/security/crates-io-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/crates-io-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/security/crates-io-domain-security.yml
+  href: https://artifacts.apis.io/crates-io/security/crates-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crates-io-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/authentication/crates-io-authentication.yml
+  href: https://artifacts.apis.io/crates-io/authentication/crates-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crates-io-authentication.yml
@@ -306,8 +310,8 @@ overview: 'crates.io publishes 5 API contracts indexed on the [APIs.io](https://
   The crates.io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  crates.io''s developer surface includes authentication, developer portal, documentation, getting-started guide, tooling, engineering blog, changelog, and 30 more developer resources.'
-random_paper: 1
+  crates.io''s developer surface includes authentication, developer portal, documentation, getting-started guide, tooling, engineering blog, changelog, and 31 more developer resources.'
+random_paper: 15
 rules:
 - authorship: generated
   effective_rule_count: 6
@@ -334,15 +338,15 @@ rules:
   slug: crates-io-rules
 score:
   band: developing
-  composite: 39.5
+  composite: 40.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 50.5
     catalog_earned_first_party: 0.0
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 13.6
@@ -350,7 +354,7 @@ score:
     developer_ergonomics: 50.0
     discoverability: 57.1
     operational_transparency: 47.4
-  previous_composite: 39.4
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     contracts:
@@ -364,13 +368,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/screenshots/crates-io-2026-06-20T175213.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/crates-io/crates-io-2026-06-20T175213.png
 security:
 - kind: authentication
   name: Crates Io Authentication

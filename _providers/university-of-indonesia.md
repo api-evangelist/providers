@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - description: api.ui.ac.id is a Kong Enterprise 3.3.1.0 API gateway operated by the university on its own network. Every probed path — /, /v1, /status, /docs, /openapi.json, /oauth2/token, /.well-known/openid-confi
@@ -87,42 +89,42 @@ common:
   type: LibraryCatalog
   url: https://lib.ui.ac.id/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-indonesia/refs/heads/main/conformance/university-of-indonesia-conformance.yml
+  href: https://artifacts.apis.io/university-of-indonesia/conformance/university-of-indonesia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-indonesia-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-indonesia/refs/heads/main/security/university-of-indonesia-domain-security.yml
+  href: https://artifacts.apis.io/university-of-indonesia/security/university-of-indonesia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-indonesia-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-indonesia/refs/heads/main/plans/university-of-indonesia-plans-pricing.yml
+  href: https://artifacts.apis.io/university-of-indonesia/plans/university-of-indonesia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-indonesia-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-indonesia/refs/heads/main/rate-limits/university-of-indonesia-rate-limits.yml
+  href: https://artifacts.apis.io/university-of-indonesia/rate-limits/university-of-indonesia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-indonesia-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-indonesia/refs/heads/main/finops/university-of-indonesia-finops.yml
+  href: https://artifacts.apis.io/university-of-indonesia/finops/university-of-indonesia-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-indonesia-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-indonesia/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/university-of-indonesia/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-indonesia/refs/heads/main/json-ld/university-of-indonesia-context.jsonld
+  href: https://artifacts.apis.io/university-of-indonesia/json-ld/university-of-indonesia-context.jsonld
   title: ''
   type: x-json-ld
   url: json-ld/university-of-indonesia-context.jsonld
 - group: company
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-indonesia/refs/heads/main/blogs/blogs.json
+  href: https://artifacts.apis.io/university-of-indonesia/blogs/blogs.json
   title: ''
   type: x-blog
   url: blogs/blogs.json
@@ -163,7 +165,7 @@ coverage:
     url: https://api.crossref.org/members/4386
   - status: 200
     url: https://api.ror.org/v2/organizations?query=Universitas%20Indonesia
-  reason: auth_required
+  reason: auth-required
   state: gated
 created: '2026-06-03'
 description: 'University of Indonesia (Universitas Indonesia, UI) is a public research university in Depok and Salemba, Jakarta, the highest-ranked university in Indonesia. Its programmable footprint is real but almost entirely closed. UI operates its own Kong Enterprise API gateway at api.ui.ac.id on its own network allocation (152.118.0.0/16, APNIC "INDONESIAUNI-ID"), a campus-wide CAS Single Sign-On at sso.ui.ac.id, an institution-hosted Moodle learning platform at emas2.ui.ac.id exposing Moodle Web Services and an LTI 1.3 platform endpoint, and the LONTAR library OPAC at lib.ui.ac.id. Every one of those is credential-gated: the gateway answers 401 {"message":"Unauthorized"} on every probed path, the LMS web service rejects anonymous calls with invalidtoken, and no developer portal, API reference, OpenAPI description, key issuance or client registration exists anywhere on the public surface. The two research-discovery surfaces that DO answer anonymously are vendor tenancies on UI hostnames,
@@ -205,7 +207,7 @@ rate_limits:
   slug: university-of-indonesia-rate-limits
 score:
   band: emerging
-  composite: 16.6
+  composite: 19.0
   coverage:
     artifact_dirs: 9
     catalog_earned: 47.0
@@ -213,12 +215,12 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 18.2
     contract_quality: 14.3
-    developer_ergonomics: 9.5
+    developer_ergonomics: 21.4
     discoverability: 62.5
     operational_transparency: 5.3
   jurisdiction:
@@ -228,7 +230,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 22.6
+  previous_composite: 19.0
   provenance:
     conformance: first-party
   regulatory:
@@ -237,14 +239,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-indonesia/refs/heads/main/screenshots/university-of-indonesia-2026-10-11T131504.png
+screenshot: https://apis.io/screenshots/university-of-indonesia/university-of-indonesia-2026-10-11T131504.png
 security:
 - kind: domain-security
   name: University Of Indonesia Domain Security

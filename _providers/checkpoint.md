@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -142,11 +144,8 @@ apis:
   description: The System API from Check Point — 1 operation(s) for system.
   name: Check Point System API
   slug: checkpoint-system-api
-artifact_total: 55
+artifact_total: 54
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Check Point CloudGuard Access Rules API
   slug: open-checkpoint-access-rules-api
@@ -215,37 +214,37 @@ collections:
   slug: open-checkpoint-system-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/plans/checkpoint-plans-pricing.yml
+  href: https://artifacts.apis.io/checkpoint/plans/checkpoint-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/checkpoint-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/rate-limits/checkpoint-rate-limits.yml
+  href: https://artifacts.apis.io/checkpoint/rate-limits/checkpoint-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/checkpoint-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/finops/checkpoint-finops.yml
+  href: https://artifacts.apis.io/checkpoint/finops/checkpoint-finops.yml
   title: ''
   type: FinOps
   url: finops/checkpoint-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/capabilities/checkpoint-capability-edges.yml
+  href: https://artifacts.apis.io/checkpoint/capabilities/checkpoint-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/checkpoint-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/agentic-access/checkpoint-agentic-access.yml
+  href: https://artifacts.apis.io/checkpoint/agentic-access/checkpoint-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/checkpoint-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/security/checkpoint-domain-security.yml
+  href: https://artifacts.apis.io/checkpoint/security/checkpoint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/checkpoint-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/authentication/checkpoint-authentication.yml
+  href: https://artifacts.apis.io/checkpoint/authentication/checkpoint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/checkpoint-authentication.yml
@@ -286,22 +285,22 @@ common:
   type: PrivacyPolicy
   url: https://www.checkpoint.com/about-us/privacy-statement/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/json-ld/checkpoint-context.jsonld
+  href: https://artifacts.apis.io/checkpoint/json-ld/checkpoint-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/checkpoint-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/json-schema/checkpoint-host-schema.json
+  href: https://artifacts.apis.io/checkpoint/json-schema/checkpoint-host-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/checkpoint-host-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/json-schema/checkpoint-access-rule-schema.json
+  href: https://artifacts.apis.io/checkpoint/json-schema/checkpoint-access-rule-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/checkpoint-access-rule-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/spectral/checkpoint-spectral.yml
+  href: https://artifacts.apis.io/checkpoint/spectral/checkpoint-spectral.yml
   title: ''
   type: Spectral
   url: spectral/checkpoint-spectral.yml
@@ -371,7 +370,7 @@ rules:
   slug: checkpoint-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.4
+  composite: 36.5
   coverage:
     artifact_dirs: 21
     catalog_earned: 47.3
@@ -379,15 +378,15 @@ score:
     catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 47.7
     developer_ergonomics: 28.6
     discoverability: 69.6
     operational_transparency: 10.5
-  previous_composite: 35.9
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -401,13 +400,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/screenshots/checkpoint-2026-07-25T205134.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/checkpoint/checkpoint-2026-07-25T205134.png
 security:
 - kind: authentication
   name: Checkpoint Authentication

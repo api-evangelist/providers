@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-17'
+  score: 24.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -92,11 +94,8 @@ apis:
 - description: The SAP SuccessFactors HXM Suite OData API set (OData v2 and v4) provides programmatic access to Employee Central, Recruiting, Onboarding, Performance & Goals, Compensation, Learning, and other HXM en
   name: SAP SuccessFactors HXM Suite OData API
   slug: sap-successfactors-hxm-suite-odata-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SAP SuccessFactors HXM Suite OData EmpEmployment API
   slug: open-sap-successfactors-empemployment-api
@@ -126,7 +125,7 @@ collections:
   slug: open-sap-successfactors
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/capabilities/sap-successfactors-capability-edges.yml
+  href: https://artifacts.apis.io/sap-successfactors/capabilities/sap-successfactors-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sap-successfactors-capability-edges.yml
@@ -135,27 +134,27 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/sap/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/agentic-access/sap-successfactors-agentic-access.yml
+  href: https://artifacts.apis.io/sap-successfactors/agentic-access/sap-successfactors-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sap-successfactors-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/security/sap-successfactors-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sap-successfactors/security/sap-successfactors-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sap-successfactors-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/security/sap-successfactors-domain-security.yml
+  href: https://artifacts.apis.io/sap-successfactors/security/sap-successfactors-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sap-successfactors-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/authentication/sap-successfactors-authentication.yml
+  href: https://artifacts.apis.io/sap-successfactors/authentication/sap-successfactors-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sap-successfactors-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/scopes/sap-successfactors-scopes.yml
+  href: https://artifacts.apis.io/sap-successfactors/scopes/sap-successfactors-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sap-successfactors-scopes.yml
@@ -203,17 +202,17 @@ overview: 'SAP SuccessFactors publishes 11 API contracts indexed on the [APIs.io
 
 
   SAP SuccessFactors'' developer surface includes authentication, documentation, API reference, and 12 more developer resources.'
-random_paper: 14
+random_paper: 12
 scopes:
 - name: Sap Successfactors Scopes
   scope_count: 0
   slug: sap-successfactors-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 23.1
+  band: thin
+  composite: 27.8
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -223,11 +222,11 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 43.7
-    developer_ergonomics: 11.9
+    contract_quality: 41.0
+    developer_ergonomics: 38.1
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 23.1
+    operational_transparency: 15.8
+  previous_composite: 27.8
   provenance:
     agentic_access: derived
     contracts:
@@ -241,13 +240,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/screenshots/sap-successfactors-2026-06-20T193430.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sap-successfactors/sap-successfactors-2026-06-20T193430.png
 security:
 - kind: authentication
   name: Sap Successfactors Authentication

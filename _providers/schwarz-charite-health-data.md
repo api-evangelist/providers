@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -32,27 +34,27 @@ common:
   type: Website
   url: https://schwarz-digits.de/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-charite-health-data/refs/heads/main/conformance/schwarz-charite-health-data-conformance.yml
+  href: https://artifacts.apis.io/schwarz-charite-health-data/conformance/schwarz-charite-health-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/schwarz-charite-health-data-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-charite-health-data/refs/heads/main/security/schwarz-charite-health-data-domain-security.yml
+  href: https://artifacts.apis.io/schwarz-charite-health-data/security/schwarz-charite-health-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/schwarz-charite-health-data-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-charite-health-data/refs/heads/main/plans/schwarz-charite-health-data-plans-pricing.yml
+  href: https://artifacts.apis.io/schwarz-charite-health-data/plans/schwarz-charite-health-data-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/schwarz-charite-health-data-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-charite-health-data/refs/heads/main/rate-limits/schwarz-charite-health-data-rate-limits.yml
+  href: https://artifacts.apis.io/schwarz-charite-health-data/rate-limits/schwarz-charite-health-data-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/schwarz-charite-health-data-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/schwarz-charite-health-data/refs/heads/main/llms/schwarz-charite-health-data-llms.txt
+  href: https://artifacts.apis.io/schwarz-charite-health-data/llms/schwarz-charite-health-data-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/schwarz-charite-health-data-llms.txt
@@ -84,14 +86,14 @@ plans:
 - name: Schwarz Charite Health Data Plans Pricing
   plan_count: 0
   slug: schwarz-charite-health-data-plans-pricing
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Schwarz Charite Health Data Rate Limits
   slug: schwarz-charite-health-data-rate-limits
 score:
   band: minimal
-  composite: 7.2
+  composite: 6.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -105,7 +107,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -115,7 +117,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 7.2
+  previous_composite: 6.5
   provenance:
     conformance: first-party
   regulatory:
@@ -124,14 +126,14 @@ score:
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/schwarz-charite-health-data/refs/heads/main/screenshots/schwarz-charite-health-data-2026-10-11T125543.png
+screenshot: https://apis.io/screenshots/schwarz-charite-health-data/schwarz-charite-health-data-2026-10-11T125543.png
 security:
 - kind: domain-security
   name: Schwarz Charite Health Data Domain Security

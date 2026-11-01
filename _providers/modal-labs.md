@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.6
-  scored_at: '2026-10-17'
+  score: 33.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -111,11 +113,8 @@ apis:
 - description: Manages workspaces, tokens, members, and authentication for the Modal control plane.
   name: Modal Token / Workspace API
   slug: modal-token-api
-artifact_total: 33
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Modal Web Endpoints (Representative) Modal Web Endpoints (Representative) Modal Web Endpoints (Representative) Modal Web Endpoints (Representative) API
   slug: open-modal-labs-modal-web-endpoints-representative-api
@@ -124,12 +123,12 @@ collections:
   slug: open-modal-labs
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/agentic-access/modal-labs-agentic-access.yml
+  href: https://artifacts.apis.io/modal-labs/agentic-access/modal-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/modal-labs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/security/modal-labs-domain-security.yml
+  href: https://artifacts.apis.io/modal-labs/security/modal-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/modal-labs-domain-security.yml
@@ -150,17 +149,17 @@ common:
   type: Documentation
   url: https://modal.com/docs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/plans/modal-labs-plans-pricing.yml
+  href: https://artifacts.apis.io/modal-labs/plans/modal-labs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/modal-labs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/rate-limits/modal-labs-rate-limits.yml
+  href: https://artifacts.apis.io/modal-labs/rate-limits/modal-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/modal-labs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/finops/modal-labs-finops.yml
+  href: https://artifacts.apis.io/modal-labs/finops/modal-labs-finops.yml
   title: ''
   type: FinOps
   url: finops/modal-labs-finops.yml
@@ -169,37 +168,37 @@ common:
   type: Blog
   url: https://modal.com/blog/atom.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/grpc/modal-labs-api.proto
+  href: https://artifacts.apis.io/modal-labs/grpc/modal-labs-api.proto
   title: ''
   type: Protobuf
   url: grpc/modal-labs-api.proto
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/packages/modal-labs-packages.yml
+  href: https://artifacts.apis.io/modal-labs/packages/modal-labs-packages.yml
   title: ''
   type: Packages
   url: packages/modal-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/packages/modal-labs-packages.yml
+  href: https://artifacts.apis.io/modal-labs/packages/modal-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/modal-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/cli/modal-labs-cli.yml
+  href: https://artifacts.apis.io/modal-labs/cli/modal-labs-cli.yml
   title: ''
   type: CLI
   url: cli/modal-labs-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/modal-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/llms/modal-labs-llms.txt
+  href: https://artifacts.apis.io/modal-labs/llms/modal-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/modal-labs-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/well-known/modal-labs-well-known.yml
+  href: https://artifacts.apis.io/modal-labs/well-known/modal-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/modal-labs-well-known.yml
@@ -208,37 +207,37 @@ common:
   type: OpenIDConnect
   url: https://oidc.modal.com/.well-known/openid-configuration
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/authentication/modal-labs-authentication.yml
+  href: https://artifacts.apis.io/modal-labs/authentication/modal-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/modal-labs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/conventions/modal-labs-conventions.yml
+  href: https://artifacts.apis.io/modal-labs/conventions/modal-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/modal-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/conventions/modal-labs-conventions.yml
+  href: https://artifacts.apis.io/modal-labs/conventions/modal-labs-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/modal-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/errors/modal-labs-problem-types.yml
+  href: https://artifacts.apis.io/modal-labs/errors/modal-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/modal-labs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/data-model/modal-labs-data-model.yml
+  href: https://artifacts.apis.io/modal-labs/data-model/modal-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/modal-labs-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/conformance/modal-labs-conformance.yml
+  href: https://artifacts.apis.io/modal-labs/conformance/modal-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/modal-labs-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/security/modal-labs-trust-center.yml
+  href: https://artifacts.apis.io/modal-labs/security/modal-labs-trust-center.yml
   title: ''
   type: Compliance
   url: security/modal-labs-trust-center.yml
@@ -247,17 +246,17 @@ common:
   type: TrustCenter
   url: https://trust.modal.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/security/modal-labs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/modal-labs/security/modal-labs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/modal-labs-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/security/modal-labs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/modal-labs/security/modal-labs-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/modal-labs-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/lifecycle/modal-labs-lifecycle.yml
+  href: https://artifacts.apis.io/modal-labs/lifecycle/modal-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/modal-labs-lifecycle.yml
@@ -274,7 +273,7 @@ common:
   type: ChangeLog
   url: https://modal.com/docs/sdk/py/releases
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/overlays/modal-labs-modal-web-endpoints-representative-api-overlay.yaml
+  href: https://artifacts.apis.io/modal-labs/overlays/modal-labs-modal-web-endpoints-representative-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/modal-labs-modal-web-endpoints-representative-api-overlay.yaml
@@ -322,10 +321,10 @@ created: '2026-07-01'
 description: Modal is a serverless cloud for AI, data, and general compute. Developers define infrastructure as code in Python (with JavaScript and Go SDKs) and run functions, GPUs, sandboxes, web endpoints, cron jobs, and volumes on demand. The primary developer interface is the Modal SDK and CLI communicating with a gRPC backend, not a conventional first-party REST API. User-deployed Modal Functions can be exposed as HTTPS web endpoints (@modal.fastapi_endpoint / asgi_app / wsgi_app / web_server) on *.modal.run, and Sandboxes can expose ports via network tunnels.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Modal Labs Finops
-  primary_unit: ''
-  service_category: Compute
+  primary_unit: workspace
+  service_category: ''
   slug: modal-labs-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/modal-labs.png
@@ -340,32 +339,35 @@ overview: 'Modal publishes 22 API contracts indexed on the [APIs.io](https://api
   Modal''s developer surface includes documentation, engineering blog, CLI, authentication, changelog, API reference, getting-started guide, and 36 more developer resources.'
 plans:
 - name: Modal Labs Plans Pricing
-  plan_count: 4
+  plan_count: 9
   slug: modal-labs-plans-pricing
-random_paper: 20
+- name: Modal Labs Price Estimates
+  plan_count: 0
+  slug: modal-labs-price-estimates
+random_paper: 4
 rate_limits:
 - limit_count: 6
   name: Modal Labs Rate Limits
   slug: modal-labs-rate-limits
 score:
-  band: strong
-  composite: 56.2
+  band: exemplar
+  composite: 67.4
   coverage:
     artifact_dirs: 26
-    catalog_earned: 38.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_earned: 50.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.6
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 43.5
-    developer_ergonomics: 81.0
-    discoverability: 64.3
-    operational_transparency: 52.6
-  previous_composite: 64.5
+    developer_ergonomics: 86.9
+    discoverability: 57.1
+    operational_transparency: 63.2
+  previous_composite: 65.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -381,14 +383,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/screenshots/modal-labs-2026-10-11T111210.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/modal-labs/modal-labs-2026-10-11T111210.png
 security:
 - kind: authentication
   name: Modal Labs Authentication
@@ -406,6 +409,10 @@ security:
   name: Modal Labs Trust Center
   slug: modal-labs-trust-center
   summary_line: SOC 2 Type 2, HIPAA, PCI DSS
+skill_count: 1
+skills:
+- name: modal
+  slug: modal-labs-modal-skill
 slug: modal-labs
 tags:
 - Serverless

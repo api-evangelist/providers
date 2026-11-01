@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -101,10 +103,10 @@ overview: 'Barnes & Noble Education is profiled on the [APIs.io](https://apis.io
 
 
   Barnes & Noble Education''s developer surface includes product news and 10 more developer resources.'
-random_paper: 9
+random_paper: 17
 score:
   band: minimal
-  composite: 6.0
+  composite: 6.1
   coverage:
     artifact_dirs: 5
     catalog_earned: 35.0
@@ -118,23 +120,17 @@ score:
     contract_governance: 0.0
     contract_quality: 14.7
     developer_ergonomics: 0.0
-    discoverability: 43.8
+    discoverability: 44.6
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
-  previous_composite: 6.0
+  previous_composite: 6.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

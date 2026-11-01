@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: derived
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 34.5
-  scored_at: '2026-10-17'
+  score: 32.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.skore.probabl.ai
@@ -76,15 +78,15 @@ apis:
   description: The Readiness API from Probabl — 1 operation(s) for readiness.
   name: Probabl Readiness API
   slug: probabl-readiness-api
-artifact_total: 13
+artifact_total: 28
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/plans/probabl-plans-pricing.yml
+  href: https://artifacts.apis.io/probabl/plans/probabl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/probabl-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/rate-limits/probabl-rate-limits.yml
+  href: https://artifacts.apis.io/probabl/rate-limits/probabl-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/probabl-rate-limits.yml
@@ -93,12 +95,12 @@ common:
   type: BlogRSS
   url: https://blog.probabl.ai/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/capabilities/probabl-capability-edges.yml
+  href: https://artifacts.apis.io/probabl/capabilities/probabl-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/probabl-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/overlays/probabl-skore-hub-overlay.yaml
+  href: https://artifacts.apis.io/probabl/overlays/probabl-skore-hub-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/probabl-skore-hub-overlay.yaml
@@ -147,52 +149,52 @@ common:
   type: StatusPage
   url: https://status.probabl.ai/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/lifecycle/probabl-lifecycle.yml
+  href: https://artifacts.apis.io/probabl/lifecycle/probabl-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/probabl-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/changelog/probabl-changelog.yml
+  href: https://artifacts.apis.io/probabl/changelog/probabl-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/probabl-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/packages/probabl-packages.yml
+  href: https://artifacts.apis.io/probabl/packages/probabl-packages.yml
   title: ''
   type: Packages
   url: packages/probabl-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/packages/probabl-packages.yml
+  href: https://artifacts.apis.io/probabl/packages/probabl-packages.yml
   title: ''
   type: SDKs
   url: packages/probabl-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/cli/probabl-cli.yml
+  href: https://artifacts.apis.io/probabl/cli/probabl-cli.yml
   title: ''
   type: CLI
   url: cli/probabl-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/probabl/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/mcp/probabl-mcp.yml
+  href: https://artifacts.apis.io/probabl/mcp/probabl-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/probabl-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/llms/probabl-llms.txt
+  href: https://artifacts.apis.io/probabl/llms/probabl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/probabl-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/security/probabl-domain-security.yml
+  href: https://artifacts.apis.io/probabl/security/probabl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/probabl-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/mcp/probabl-tool-crosswalk.yml
+  href: https://artifacts.apis.io/probabl/mcp/probabl-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/probabl-tool-crosswalk.yml
@@ -203,6 +205,14 @@ common:
 created: '2026-08-17'
 description: 'Probabl (styled ":probabl.") is the French, Inria-spun-out company behind scikit-learn — "the Tabular AI company by the creators of scikit-learn" — founded in 2023 to develop, maintain and commercially sustain the open-source Python data-science stack (scikit-learn, skrub, skore). Its commercial product is Skore: an open-source Python library (`skore`) that turns model training into structured, auditable artifacts — estimator reports, cross-validation reports, comparison reports, data and metric diagnostics — plus Skore Hub, a hosted collaboration platform where teams push, compare and track those artifacts across workspaces and projects. Skore Hub exposes a public REST API (Skore Hub, OpenAPI 3.1.0, 67 operations) covering identity/OAuth, workspaces, members and API keys, projects, estimator/cross-validation/comparison reports, artifacts, project goals, and OpenAI/Anthropic-compatible agent endpoints. Probabl also publishes a first-party Agent Skills package (probabl-skills,
   BSD-3-Clause) of 14 data-science skills for coding agents such as Claude Code and Cursor, a `skore` CLI, training via Skolar, and the Scikit-learn Central ecosystem explorer.'
+finops:
+- has_sources: true
+  method: derived
+  name: Probabl Finops
+  primary_unit: ''
+  service_category: ''
+  slug: probabl-finops
+  template: true
 image: https://avatars.githubusercontent.com/u/135336812?v=4
 layout: provider
 mcp_servers:
@@ -221,29 +231,29 @@ plans:
 - name: Probabl Plans Pricing
   plan_count: 0
   slug: probabl-plans-pricing
-random_paper: 12
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Probabl Rate Limits
   slug: probabl-rate-limits
 score:
   band: developing
-  composite: 41.5
+  composite: 45.1
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 41.9
-    developer_ergonomics: 71.4
-    discoverability: 68.3
-    operational_transparency: 26.3
+    contract_quality: 40.2
+    developer_ergonomics: 76.2
+    discoverability: 65.0
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -252,7 +262,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 41.4
+  previous_composite: 45.1
   provenance:
     conformance: derived
     contracts:
@@ -268,13 +278,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/screenshots/probabl-2026-09-02T152057.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/probabl/probabl-2026-09-02T152057.png
 security:
 - kind: authentication
   name: Probabl Authentication
@@ -284,6 +295,36 @@ security:
   name: Probabl Domain Security
   slug: probabl-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 14
+skills:
+- name: audit-ml-pipeline
+  slug: probabl-audit-ml-pipeline
+- name: build-ml-pipeline
+  slug: probabl-build-ml-pipeline
+- name: data-science-python-stack
+  slug: probabl-data-science-python-stack
+- name: evaluate-ml-pipeline
+  slug: probabl-evaluate-ml-pipeline
+- name: explore-ml-data
+  slug: probabl-explore-ml-data
+- name: iterate-from-skore
+  slug: probabl-iterate-from-skore
+- name: iterate-from-user
+  slug: probabl-iterate-from-user
+- name: iterate-ml-experiment
+  slug: probabl-iterate-ml-experiment
+- name: organize-ml-workspace
+  slug: probabl-organize-ml-workspace
+- name: python-api
+  slug: probabl-python-api
+- name: python-code-style
+  slug: probabl-python-code-style
+- name: python-env-manager
+  slug: probabl-python-env-manager
+- name: smoke-test-ml-pipeline
+  slug: probabl-smoke-test-ml-pipeline
+- name: test-ml-pipeline
+  slug: probabl-test-ml-pipeline
 slug: probabl
 tags:
 - Company

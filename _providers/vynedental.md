@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-17'
+  score: 19.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -76,52 +78,52 @@ apis:
 artifact_total: 19
 common:
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/sandbox/vynedental-sandbox.yml
+  href: https://artifacts.apis.io/vynedental/sandbox/vynedental-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/vynedental-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/agentic-access/vynedental-agentic-access.yml
+  href: https://artifacts.apis.io/vynedental/agentic-access/vynedental-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vynedental-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/rules/vynedental-rules.yml
+  href: https://artifacts.apis.io/vynedental/rules/vynedental-rules.yml
   title: ''
   type: Spectral
   url: rules/vynedental-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/json-ld/vynedental-context.jsonld
+  href: https://artifacts.apis.io/vynedental/json-ld/vynedental-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/vynedental-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/vocabulary/vynedental-vocabulary.yml
+  href: https://artifacts.apis.io/vynedental/vocabulary/vynedental-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/vynedental-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/data-model/vynedental-data-model.yml
+  href: https://artifacts.apis.io/vynedental/data-model/vynedental-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vynedental-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/errors/vynedental-problem-types.yml
+  href: https://artifacts.apis.io/vynedental/errors/vynedental-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vynedental-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/conformance/vynedental-conformance.yml
+  href: https://artifacts.apis.io/vynedental/conformance/vynedental-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vynedental-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/hosts/vynedental-hosts.yml
+  href: https://artifacts.apis.io/vynedental/hosts/vynedental-hosts.yml
   title: ''
   type: Hosts
   url: hosts/vynedental-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/vendors/vynedental-vendors.yml
+  href: https://artifacts.apis.io/vynedental/vendors/vynedental-vendors.yml
   title: ''
   type: Vendors
   url: vendors/vynedental-vendors.yml
@@ -130,12 +132,12 @@ common:
   type: ChangeLog
   url: https://vynedental.com/resources/blog/release-notes/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/authentication/vynedental-authentication.yml
+  href: https://artifacts.apis.io/vynedental/authentication/vynedental-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vynedental-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/security/vynedental-domain-security.yml
+  href: https://artifacts.apis.io/vynedental/security/vynedental-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vynedental-domain-security.yml
@@ -222,7 +224,7 @@ overview: 'Vyne Dental publishes 8 API contracts indexed on the [APIs.io](https:
 
 
   Vyne Dental''s developer surface includes sandbox, changelog, authentication, documentation, API reference, engineering blog, support, and 17 more developer resources.'
-random_paper: 4
+random_paper: 2
 rules:
 - authorship: generated
   effective_rule_count: 48
@@ -238,7 +240,7 @@ rules:
   slug: vynedental-rules
 score:
   band: developing
-  composite: 46.1
+  composite: 46.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 62.8
@@ -246,6 +248,7 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 22.0
@@ -253,6 +256,7 @@ score:
     developer_ergonomics: 52.4
     discoverability: 66.1
     operational_transparency: 31.6
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,11 +272,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Vynedental Authentication

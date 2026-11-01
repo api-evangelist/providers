@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,15 +26,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -134,11 +136,88 @@ apis:
   description: The Visit Types API from Digitail — 1 operation(s) for visit types.
   name: Digitail Visit Types API
   slug: digitail-visit-types-api
-artifact_total: 44
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: Current User information
+  name: Digitail Authentication API
+  slug: digitail-authentication-api
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: Get list of blood types per species
+  name: Digitail Blood Types API
+  slug: digitail-bloodtypes-api
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: Api Endpoints related to communications between a Clinic and a PetParent
+  name: Digitail Client Communication API
+  slug: digitail-client-communication-api
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: Api Endpoints For Credit Notes
+  name: Digitail Credit Notes API
+  slug: digitail-credit-notes-api
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Patient Estimates API from Digitail — 1 operation(s) for patient estimates.
+  name: Digitail Patient Estimates API
+  slug: digitail-patient-estimates-api
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: Api Endpoints For Pet's Preventive Care
+  name: Digitail Periodical Treatments API
+  slug: digitail-periodical-treatments-api
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Pets Archive API from Digitail — 3 operation(s) for pets archive.
+  name: Digitail Pets Archive API
+  slug: digitail-pets-archive-api
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Product API from Digitail — 2 operation(s) for product.
+  name: Digitail Product API
+  slug: digitail-product-api
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Public Clinics API from Digitail — 4 operation(s) for public clinics.
+  name: Digitail Public Clinics API
+  slug: digitail-public-clinics-api
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Public Vets API from Digitail — 1 operation(s) for public vets.
+  name: Digitail Public Vets API
+  slug: digitail-public-vets-api
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Reminder Protocol Usages API from Digitail — 4 operation(s) for reminder protocol usages.
+  name: Digitail Reminder Protocol Usages API
+  slug: digitail-reminder-protocol-usages-api
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Roles API from Digitail — 4 operation(s) for roles.
+  name: Digitail Roles API
+  slug: digitail-roles-api
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: Api Endpoints For Service Packages
+  name: Digitail Service Packages API
+  slug: digitail-service-packages-api
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: Api Endpoints For Tags and Taggables management(for Pet;Owner)
+  name: Digitail Tags API
+  slug: digitail-tags-api
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Wellness Plans API from Digitail — 3 operation(s) for wellness plans.
+  name: Digitail Wellness Plans API
+  slug: digitail-wellness-plans-api
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: Api Endpoints For Purchase Orders
+  name: Digitail Purchase Orders API
+  slug: digitail-purchase-orders-api
+artifact_total: 59
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Digitail Open Appointments API
   slug: open-digitail-appointments-api
@@ -195,22 +274,22 @@ collections:
   slug: open-digitail-visit-types-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/agentic-access/digitail-agentic-access.yml
+  href: https://artifacts.apis.io/digitail/agentic-access/digitail-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/digitail-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/security/digitail-domain-security.yml
+  href: https://artifacts.apis.io/digitail/security/digitail-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/digitail-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/authentication/digitail-authentication.yml
+  href: https://artifacts.apis.io/digitail/authentication/digitail-authentication.yml
   title: ''
   type: Authentication
   url: authentication/digitail-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/scopes/digitail-scopes.yml
+  href: https://artifacts.apis.io/digitail/scopes/digitail-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/digitail-scopes.yml
@@ -231,17 +310,17 @@ common:
   type: SignUp
   url: https://digitail.com/api/access
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/plans/digitail-plans-pricing.yml
+  href: https://artifacts.apis.io/digitail/plans/digitail-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/digitail-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/rate-limits/digitail-rate-limits.yml
+  href: https://artifacts.apis.io/digitail/rate-limits/digitail-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/digitail-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/finops/digitail-finops.yml
+  href: https://artifacts.apis.io/digitail/finops/digitail-finops.yml
   title: ''
   type: FinOps
   url: finops/digitail-finops.yml
@@ -265,7 +344,7 @@ modified: '2026-07-04'
 name: Digitail
 nav: Providers
 network: true
-overview: 'Digitail publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointments API, Breeds API, Charges API, and 15 more. Tagged areas include Veterinary, PIMS, Practice Management, Pets, and Healthcare.
+overview: 'Digitail publishes 34 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointments API, Breeds API, Charges API, and 31 more. Tagged areas include Veterinary, PIMS, Practice Management, Pets, and Healthcare.
 
 
   Digitail''s developer surface includes authentication, documentation, signup flow, engineering blog, and 8 more developer resources.'
@@ -273,7 +352,7 @@ plans:
 - name: Digitail Plans Pricing
   plan_count: 4
   slug: digitail-plans-pricing
-random_paper: 3
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Digitail Rate Limits
@@ -284,44 +363,45 @@ scopes:
   slug: digitail-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 16.0
+  band: thin
+  composite: 27.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 42.0
     catalog_earned_first_party: 0.0
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 0.0
+    contract_quality: 33.4
     developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 23.4
+  previous_composite: 27.7
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 18
+      total: 53
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/screenshots/digitail-2026-07-25T212019.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/digitail/digitail-2026-07-25T212019.png
 security:
 - kind: authentication
   name: Digitail Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 63
   slug: workist-agentic-access
   summary_line: 63 operations · 47 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.workist.com/api/v1
   baseurl_source: declared
@@ -84,11 +86,8 @@ apis:
   description: The Rfq API from Workist — 5 operation(s) for rfq.
   name: Workist Rfq API
   slug: workist-rfq-api
-artifact_total: 21
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Workist Integrations & Developer Delivery Notes API
   slug: open-workist-delivery-notes-api
@@ -115,52 +114,52 @@ collections:
   slug: open-workist-rfq-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/plans/workist-plans-pricing.yml
+  href: https://artifacts.apis.io/workist/plans/workist-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/workist-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/capabilities/workist-capability-edges.yml
+  href: https://artifacts.apis.io/workist/capabilities/workist-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/workist-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/agentic-access/workist-agentic-access.yml
+  href: https://artifacts.apis.io/workist/agentic-access/workist-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/workist-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/security/workist-domain-security.yml
+  href: https://artifacts.apis.io/workist/security/workist-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/workist-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/authentication/workist-authentication.yml
+  href: https://artifacts.apis.io/workist/authentication/workist-authentication.yml
   title: ''
   type: Authentication
   url: authentication/workist-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/llms/workist-llms.txt
+  href: https://artifacts.apis.io/workist/llms/workist-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/workist-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/well-known/workist-well-known.yml
+  href: https://artifacts.apis.io/workist/well-known/workist-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/workist-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/mcp/workist-mcp.yml
+  href: https://artifacts.apis.io/workist/mcp/workist-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/workist-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/overlays/workist-integrations-overlay.yaml
+  href: https://artifacts.apis.io/workist/overlays/workist-integrations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/workist-integrations-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/conformance/workist-conformance.yml
+  href: https://artifacts.apis.io/workist/conformance/workist-conformance.yml
   title: ''
   type: Conformance
   url: conformance/workist-conformance.yml
@@ -169,27 +168,27 @@ common:
   type: Compliance
   url: https://www.workist.com/en
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/errors/workist-problem-types.yml
+  href: https://artifacts.apis.io/workist/errors/workist-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/workist-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/lifecycle/workist-lifecycle.yml
+  href: https://artifacts.apis.io/workist/lifecycle/workist-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/workist-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/conventions/workist-conventions.yml
+  href: https://artifacts.apis.io/workist/conventions/workist-conventions.yml
   title: ''
   type: Conventions
   url: conventions/workist-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/data-model/workist-data-model.yml
+  href: https://artifacts.apis.io/workist/data-model/workist-data-model.yml
   title: ''
   type: DataModel
   url: data-model/workist-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/workist/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -247,6 +246,14 @@ common:
   url: https://www.workist.com/en/privacy-policy
 created: '2026-07-17'
 description: Workist is a Berlin-based AI document-automation company whose WorKI system automates B2B order entry and inquiry handling — extracting data from emails and PDFs, validating it against ERP master data, and writing structured transactions back into 20+ ERP systems such as SAP S/4HANA, Microsoft Dynamics 365, Oracle NetSuite, and Sage. The Workist Integrations & Developer API is a bearer-token REST API for uploading documents (orders, invoices, delivery notes, order confirmations, RFQs, property bills, lists of services), retrieving processed results, and importing ERP master data in batches.
+finops:
+- has_sources: true
+  method: derived
+  name: Workist Finops
+  primary_unit: ''
+  service_category: ''
+  slug: workist-finops
+  template: true
 image: https://docs.workist.com/img/workist_icon.svg
 layout: provider
 modified: '2026-07-21'
@@ -261,25 +268,25 @@ plans:
 - name: Workist Plans Pricing
   plan_count: 6
   slug: workist-plans-pricing
-random_paper: 17
+random_paper: 19
 score:
   band: developing
-  composite: 52.4
+  composite: 54.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 0.0
   facets:
-    access_clarity: 77.6
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 48.5
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 18.4
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -288,7 +295,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 46.1
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -309,13 +316,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/screenshots/workist-2026-08-17T082941.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/workist/workist-2026-08-17T082941.png
 security:
 - kind: authentication
   name: Workist Authentication
@@ -325,6 +333,12 @@ security:
   name: Workist Domain Security
   slug: workist-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Import ERP master data into Workist
+  slug: workist-import-master-data
+- name: Process orders through Workist
+  slug: workist-process-orders
 slug: workist
 tags:
 - Documents

@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.5
-  scored_at: '2026-10-17'
+  score: 29.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -56,15 +58,12 @@ apis:
   description: Batch video rendering from a template and a set of variable objects
   name: Wideo Batch API
   slug: wideo-batch-api
-artifact_total: 11
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Wideo Events Asyncapi
   slug: wideo-events-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Wideo Video Automation API
   slug: open-wideo-automation-api
@@ -73,57 +72,57 @@ collections:
   slug: open-wideo-batch-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/agentic-access/wideo-agentic-access.yml
+  href: https://artifacts.apis.io/wideo/agentic-access/wideo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wideo-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/conventions/wideo-conventions.yml
+  href: https://artifacts.apis.io/wideo/conventions/wideo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wideo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/asyncapi/wideo-events-asyncapi.yml
+  href: https://artifacts.apis.io/wideo/asyncapi/wideo-events-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/wideo-events-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/mcp/wideo-mcp.yml
+  href: https://artifacts.apis.io/wideo/mcp/wideo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wideo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/llms/wideo-llms.txt
+  href: https://artifacts.apis.io/wideo/llms/wideo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wideo-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/overlays/wideo-automation-overlay.yaml
+  href: https://artifacts.apis.io/wideo/overlays/wideo-automation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wideo-automation-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/overlays/wideo-batch-overlay.yaml
+  href: https://artifacts.apis.io/wideo/overlays/wideo-batch-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wideo-batch-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/mcp/wideo-tool-crosswalk.yml
+  href: https://artifacts.apis.io/wideo/mcp/wideo-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/wideo-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/packages/wideo-packages.yml
+  href: https://artifacts.apis.io/wideo/packages/wideo-packages.yml
   title: ''
   type: Packages
   url: packages/wideo-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/errors/wideo-problem-types.yml
+  href: https://artifacts.apis.io/wideo/errors/wideo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wideo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/lifecycle/wideo-lifecycle.yml
+  href: https://artifacts.apis.io/wideo/lifecycle/wideo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wideo-lifecycle.yml
@@ -132,37 +131,37 @@ common:
   type: StatusPage
   url: https://status.wideo.co/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/conformance/wideo-conformance.yml
+  href: https://artifacts.apis.io/wideo/conformance/wideo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wideo-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/plans/wideo-plans-pricing.yml
+  href: https://artifacts.apis.io/wideo/plans/wideo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wideo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/rate-limits/wideo-rate-limits.yml
+  href: https://artifacts.apis.io/wideo/rate-limits/wideo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wideo-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/data-model/wideo-data-model.yml
+  href: https://artifacts.apis.io/wideo/data-model/wideo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wideo-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/wideo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/security/wideo-domain-security.yml
+  href: https://artifacts.apis.io/wideo/security/wideo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wideo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/authentication/wideo-authentication.yml
+  href: https://artifacts.apis.io/wideo/authentication/wideo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wideo-authentication.yml
@@ -216,6 +215,14 @@ common:
   url: https://wideo.co/wideo-privacy-policy/
 created: '2026-07-17'
 description: 'Wideo is an online video creation and automation platform that lets teams produce animated videos, presentations, and marketing content from drag-and-drop templates and AI tools. For developers, Wideo publishes a Video Automation API that renders finished MP4 videos at scale: a rendering batch is created from a reusable template plus a list of per-video variable objects, rendering runs asynchronously, and completion is delivered via a webhook callback and pollable batch status returning signed video and preview URLs. A legacy replace/encode flow supports single-video generation. Wideo also offers a white-label video API for embedding video creation into other products. Wideo was surfaced as a portfolio company of 500 Global.'
+finops:
+- has_sources: true
+  method: derived
+  name: Wideo Finops
+  primary_unit: user
+  service_category: ''
+  slug: wideo-finops
+  template: false
 image: https://wideo.co/wp-content/uploads/2017/12/logo.png
 layout: provider
 modified: '2026-08-13'
@@ -233,30 +240,33 @@ plans:
 - name: Wideo Plans Pricing
   plan_count: 8
   slug: wideo-plans-pricing
+- name: Wideo Price Estimates
+  plan_count: 0
+  slug: wideo-price-estimates
 random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Wideo Rate Limits
   slug: wideo-rate-limits
 score:
-  band: developing
-  composite: 53.3
+  band: strong
+  composite: 54.9
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 58.5
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 23.7
-  previous_composite: 53.2
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -273,13 +283,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/screenshots/wideo-2026-08-17T082920.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wideo/wideo-2026-08-17T082920.png
 security:
 - kind: authentication
   name: Wideo Authentication
@@ -289,6 +300,12 @@ security:
   name: Wideo Domain Security
   slug: wideo-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Generate videos in bulk with Wideo
+  slug: wideo-batch-video-generation
+- name: Render a single video with the legacy Wideo replace/encode flow
+  slug: wideo-legacy-replace-and-encode
 slug: wideo
 tags:
 - Company

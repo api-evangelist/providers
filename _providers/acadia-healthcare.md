@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,27 +35,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'An API gateway host operated by Acadia Healthcare, not a published API product. Probed 2026-08-29: api.acadiahealthcare.com resolves by CNAME to w5rrqr.usa-e2.cloudhub.io (MuleSoft CloudHub, US-East-2'
   name: Acadia Healthcare API Gateway
   provenance: unpublished
   slug: acadia-healthcare-api
-artifact_total: 5
+artifact_total: 7
 common:
+- group: other
+  href: https://artifacts.apis.io/acadia-healthcare/hosts/acadia-healthcare-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/acadia-healthcare-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/acadia-healthcare/vendors/acadia-healthcare-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/acadia-healthcare-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/acadia-healthcare/packages/acadia-healthcare-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/acadia-healthcare-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/acadia-healthcare/refs/heads/main/plans/acadia-healthcare-plans-pricing.yml
+  href: https://artifacts.apis.io/acadia-healthcare/plans/acadia-healthcare-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/acadia-healthcare-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/acadia-healthcare/refs/heads/main/rate-limits/acadia-healthcare-rate-limits.yml
+  href: https://artifacts.apis.io/acadia-healthcare/rate-limits/acadia-healthcare-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/acadia-healthcare-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/acadia-healthcare/refs/heads/main/finops/acadia-healthcare-finops.yml
+  href: https://artifacts.apis.io/acadia-healthcare/finops/acadia-healthcare-finops.yml
   title: ''
   type: FinOps
   url: finops/acadia-healthcare-finops.yml
@@ -82,37 +99,28 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/acadia-healthcare
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acadia-healthcare/refs/heads/main/security/acadia-healthcare-domain-security.yml
+  href: https://artifacts.apis.io/acadia-healthcare/security/acadia-healthcare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/acadia-healthcare-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/acadia-healthcare/refs/heads/main/packages/acadia-healthcare-packages.yml
+  href: https://artifacts.apis.io/acadia-healthcare/packages/acadia-healthcare-packages.yml
   title: ''
   type: Packages
   url: packages/acadia-healthcare-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acadia-healthcare/refs/heads/main/conformance/acadia-healthcare-conformance.yml
+  href: https://artifacts.apis.io/acadia-healthcare/conformance/acadia-healthcare-conformance.yml
   title: ''
   type: Conformance
   url: conformance/acadia-healthcare-conformance.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acadia-healthcare/refs/heads/main/llms/acadia-healthcare-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/acadia-healthcare-llms.txt
 coverage:
-  checked: '2026-08-29'
-  detail: Acadia Healthcare is a behavioral-health hospital operator with no software product to publish — the developer host the catalog previously carried, developer.acadiahealthcare.com, is NXDOMAIN, and the MuleSoft CloudHub gateway that is genuinely deployed at api.acadiahealthcare.com answers every anonymous path, including /openapi.json and every /.well-known/ document, with an empty-body HTTP 404.
+  checked: '2026-10-27'
+  detail: Acadia Healthcare operates as a behavioral-health provider with no published API product; the MuleSoft gateway at api.acadiahealthcare.com returns 404 for all anonymous paths.
   evidence:
-  - status: 0
-    url: https://developer.acadiahealthcare.com/
   - status: 404
     url: https://api.acadiahealthcare.com/openapi.json
   - status: 404
     url: https://api.acadiahealthcare.com/.well-known/agent-card.json
-  - status: 404
-    url: https://www.acadiahealthcare.com/llms.txt
   reason: not-a-software-company
   state: none
 created: '2026-04-19'
@@ -134,34 +142,39 @@ network: true
 overview: 'Acadia Healthcare publishes no API. The 1 entry listed on the [APIs.io](https://apis.io/) network are product areas recorded for completeness, each marked as not an API. Tagged areas include Behavioral Health, Mental Health, Substance Use Treatment, Healthcare Providers, and Hospitals.
 
 
-  Acadia Healthcare''s developer surface includes engineering blog, support, and 11 more developer resources.'
+  Acadia Healthcare''s developer surface includes engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Acadia Healthcare Plans Pricing
   plan_count: 0
   slug: acadia-healthcare-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Acadia Healthcare Rate Limits
   slug: acadia-healthcare-rate-limits
+scopes:
+- name: Acadia Healthcare Scopes
+  scope_count: 0
+  slug: acadia-healthcare-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 13.3
+  composite: 16.4
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 3.5
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 7.1
-    discoverability: 73.2
-    operational_transparency: 2.6
+    developer_ergonomics: 14.3
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -169,9 +182,10 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 14.8
+  previous_composite: 12.9
   provenance:
     conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
     jurisdictions:
@@ -181,16 +195,20 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 11.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 25.0
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/acadia-healthcare/refs/heads/main/screenshots/acadia-healthcare-2026-08-07T160746.png
+screenshot: https://apis.io/screenshots/acadia-healthcare/acadia-healthcare-2026-08-07T160746.png
 security:
+- kind: authentication
+  name: Acadia Healthcare Authentication
+  slug: acadia-healthcare-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Acadia Healthcare Domain Security
   slug: acadia-healthcare-domain-security

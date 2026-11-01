@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.7
-  scored_at: '2026-10-17'
+  score: 29.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -94,15 +96,12 @@ arazzos:
 - description: Receive a Purchase Order from an inbox, approve delivery, acknowledge it, and send back the acknowledgment.
   name: Orderful Order-to-Cash
   slug: orderful-order-to-cash
-artifact_total: 26
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Orderful Webhooks
   slug: orderful-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Orderful Conversion API
   slug: open-orderful-conversion-api
@@ -132,7 +131,17 @@ collections:
   slug: open-orderful-transaction-v3-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/overlays/orderful-openapi-overlay.yaml
+  href: https://artifacts.apis.io/orderful/capabilities/orderful-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/orderful-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/orderful/plans/orderful-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/orderful-plans-pricing.yml
+- group: other
+  href: https://artifacts.apis.io/orderful/overlays/orderful-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/orderful-openapi-overlay.yaml
@@ -185,107 +194,107 @@ common:
   type: StatusPage
   url: https://status.orderful.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/authentication/orderful-authentication.yml
+  href: https://artifacts.apis.io/orderful/authentication/orderful-authentication.yml
   title: ''
   type: Authentication
   url: authentication/orderful-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/conventions/orderful-conventions.yml
+  href: https://artifacts.apis.io/orderful/conventions/orderful-conventions.yml
   title: ''
   type: Conventions
   url: conventions/orderful-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/errors/orderful-problem-types.yml
+  href: https://artifacts.apis.io/orderful/errors/orderful-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/orderful-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/lifecycle/orderful-lifecycle.yml
+  href: https://artifacts.apis.io/orderful/lifecycle/orderful-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/orderful-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/lifecycle/orderful-lifecycle.yml
+  href: https://artifacts.apis.io/orderful/lifecycle/orderful-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/orderful-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/changelog/orderful-changelog.yml
+  href: https://artifacts.apis.io/orderful/changelog/orderful-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/orderful-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/mcp/orderful-mcp.yml
+  href: https://artifacts.apis.io/orderful/mcp/orderful-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/orderful-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/conformance/orderful-conformance.yml
+  href: https://artifacts.apis.io/orderful/conformance/orderful-conformance.yml
   title: ''
   type: Conformance
   url: conformance/orderful-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/data-model/orderful-data-model.yml
+  href: https://artifacts.apis.io/orderful/data-model/orderful-data-model.yml
   title: ''
   type: DataModel
   url: data-model/orderful-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/sandbox/orderful-sandbox.yml
+  href: https://artifacts.apis.io/orderful/sandbox/orderful-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/orderful-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/asyncapi/orderful-webhooks.yml
+  href: https://artifacts.apis.io/orderful/asyncapi/orderful-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/orderful-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/orderful/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/arazzo/orderful-order-to-cash.yml
+  href: https://artifacts.apis.io/orderful/arazzo/orderful-order-to-cash.yml
   title: ''
   type: Arazzo
   url: arazzo/orderful-order-to-cash.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/agentic-access/orderful-agentic-access.yml
+  href: https://artifacts.apis.io/orderful/agentic-access/orderful-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/orderful-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/llms/orderful-llms.txt
+  href: https://artifacts.apis.io/orderful/llms/orderful-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/orderful-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/well-known/orderful-well-known.yml
+  href: https://artifacts.apis.io/orderful/well-known/orderful-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/orderful-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/well-known/orderful-security.txt
+  href: https://artifacts.apis.io/orderful/well-known/orderful-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/orderful-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/security/orderful-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/orderful/security/orderful-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/orderful-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/security/orderful-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/orderful/security/orderful-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/orderful-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/security/orderful-trust-center.yml
+  href: https://artifacts.apis.io/orderful/security/orderful-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/orderful-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/security/orderful-domain-security.yml
+  href: https://artifacts.apis.io/orderful/security/orderful-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/orderful-domain-security.yml
@@ -295,6 +304,14 @@ common:
   url: https://www.orderful.com/
 created: '2026-07-17'
 description: Orderful is a modern B2B trading and EDI platform that lets companies connect once to transact with any partner in their supply chain without building custom integrations. Its Mosaic API turns X12 and EDIFACT electronic data interchange into simple JSON, handling mapping, validation, testing, and compliance so suppliers, retailers, 3PLs, and carriers can exchange purchase orders (850), acknowledgments (855), ship notices (856), invoices (810), inventory advices (846), warehouse (940-series) and other transaction sets over a REST API, HTTP webhooks, AS2, SFTP, and VAN. The platform advertises 10,000+ trading partners, 50M+ transactions, and 99.99% network uptime, with US and EU regional data residency, Web EDI (Pixel), and GS1 UCC-128 shipping labels.
+finops:
+- has_sources: true
+  method: derived
+  name: Orderful Finops
+  primary_unit: trading partner
+  service_category: ''
+  slug: orderful-finops
+  template: false
 image: https://www.orderful.com/cms/og-image.png
 layout: provider
 modified: '2026-07-20'
@@ -307,27 +324,34 @@ overview: 'Orderful publishes 9 API contracts indexed on the [APIs.io](https://a
   The Orderful catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Orderful''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 9
+  Orderful''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+plans:
+- name: Orderful Plans Pricing
+  plan_count: 4
+  slug: orderful-plans-pricing
+- name: Orderful Price Estimates
+  plan_count: 0
+  slug: orderful-price-estimates
+random_paper: 3
 score:
-  band: developing
-  composite: 51.3
+  band: strong
+  composite: 63.3
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 52.6
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 53.2
-    developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 60.5
-  previous_composite: 51.2
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 63.2
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,13 +368,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/screenshots/orderful-2026-08-07T190910.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/orderful/orderful-2026-08-07T190910.png
 security:
 - kind: authentication
   name: Orderful Authentication
@@ -368,6 +393,12 @@ security:
   name: Orderful Trust Center
   slug: orderful-trust-center
   summary_line: trust center published
+skill_count: 2
+skills:
+- name: Orderful convert and send an EDI document
+  slug: orderful-convert-and-send-edi
+- name: Orderful Order-to-Cash (seller)
+  slug: orderful-order-to-cash
 slug: orderful
 tags:
 - Company

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brinker-international/refs/heads/main/security/brinker-international-domain-security.yml
+  href: https://artifacts.apis.io/brinker-international/security/brinker-international-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brinker-international-domain-security.yml
@@ -74,22 +76,22 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/brinker-international
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brinker-international/refs/heads/main/authentication/brinker-international-authentication.yml
+  href: https://artifacts.apis.io/brinker-international/authentication/brinker-international-authentication.yml
   title: Authentication + onboarding profile (Apigee key/secret, approval-gated)
   type: Authentication
   url: authentication/brinker-international-authentication.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/brinker-international/refs/heads/main/plans/brinker-international-plans-pricing.yml
+  href: https://artifacts.apis.io/brinker-international/plans/brinker-international-plans-pricing.yml
   title: Plans + pricing (none published — partner entitlement only)
   type: Plans
   url: plans/brinker-international-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/brinker-international/refs/heads/main/rate-limits/brinker-international-rate-limits.yml
+  href: https://artifacts.apis.io/brinker-international/rate-limits/brinker-international-rate-limits.yml
   title: Rate limits (none published)
   type: RateLimits
   url: rate-limits/brinker-international-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brinker-international/refs/heads/main/llms/brinker-international-llms.txt
+  href: https://artifacts.apis.io/brinker-international/llms/brinker-international-llms.txt
   title: llms.txt (generated)
   type: LLMsTxt
   url: llms/brinker-international-llms.txt
@@ -156,14 +158,14 @@ press:
 - date: ''
   title: BRINKER INTERNATIONAL REPORTS THIRD QUARTER ...
   url: https://www.prnewswire.com/news-releases/brinker-international-reports-third-quarter-of-fiscal-2026-results-and-updates-fiscal-2026-guidance-302756567.html
-random_paper: 16
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Brinker International Rate Limits
   slug: brinker-international-rate-limits
 score:
   band: emerging
-  composite: 12.9
+  composite: 17.6
   coverage:
     artifact_dirs: 11
     catalog_earned: 27.0
@@ -173,11 +175,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -186,21 +188,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 12.9
+  previous_composite: 17.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 19.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/brinker-international/refs/heads/main/screenshots/brinker-international-2026-06-20T173707.png
+screenshot: https://apis.io/screenshots/brinker-international/brinker-international-2026-06-20T173707.png
 security:
 - kind: authentication
   name: Brinker International Authentication

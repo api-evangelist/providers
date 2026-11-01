@@ -20,17 +20,17 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/contributing-md/refs/heads/main/plans/contributing-md-plans-pricing.yml
+  href: https://artifacts.apis.io/contributing-md/plans/contributing-md-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/contributing-md-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/contributing-md/refs/heads/main/rate-limits/contributing-md-rate-limits.yml
+  href: https://artifacts.apis.io/contributing-md/rate-limits/contributing-md-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/contributing-md-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/contributing-md/refs/heads/main/finops/contributing-md-finops.yml
+  href: https://artifacts.apis.io/contributing-md/finops/contributing-md-finops.yml
   title: ''
   type: FinOps
   url: finops/contributing-md-finops.yml
@@ -56,7 +56,7 @@ finops:
 - has_sources: false
   method: generated
   name: Contributing Md Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: contributing-md-finops
   template: true
@@ -74,12 +74,12 @@ plans:
 - name: Contributing Md Plans Pricing
   plan_count: 3
   slug: contributing-md-plans-pricing
-random_paper: 18
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Contributing Md Rate Limits
   slug: contributing-md-rate-limits
-screenshot: https://raw.githubusercontent.com/api-evangelist/contributing-md/refs/heads/main/screenshots/contributing-md-2026-06-20T174948.png
+screenshot: https://apis.io/screenshots/contributing-md/contributing-md-2026-06-20T174948.png
 slug: contributing-md
 tags:
 - Code Of Conduct

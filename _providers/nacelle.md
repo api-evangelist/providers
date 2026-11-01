@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.7
-  scored_at: '2026-10-17'
+  score: 22.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -138,34 +140,34 @@ apis:
   description: The token API from Nacelle — 2 operation(s) for token.
   name: Nacelle Token API
   slug: nacelle-token-api
-artifact_total: 44
+artifact_total: 45
 collections:
 - collection_type: open
   name: Nacelle GraphQL API
   slug: open-nacelle
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/agentic-access/nacelle-agentic-access.yml
+  href: https://artifacts.apis.io/nacelle/agentic-access/nacelle-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nacelle-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/rules/nacelle-rules.yml
+  href: https://artifacts.apis.io/nacelle/rules/nacelle-rules.yml
   title: ''
   type: Spectral
   url: rules/nacelle-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/json-ld/nacelle-context.jsonld
+  href: https://artifacts.apis.io/nacelle/json-ld/nacelle-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/nacelle-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/vocabulary/nacelle-vocabulary.yml
+  href: https://artifacts.apis.io/nacelle/vocabulary/nacelle-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/nacelle-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/data-model/nacelle-data-model.yml
+  href: https://artifacts.apis.io/nacelle/data-model/nacelle-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nacelle-data-model.yml
@@ -174,27 +176,27 @@ common:
   type: Compliance
   url: https://nacelle.com/terms-and-conditions
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/security/nacelle-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nacelle/security/nacelle-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/nacelle-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/errors/nacelle-problem-types.yml
+  href: https://artifacts.apis.io/nacelle/errors/nacelle-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nacelle-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/llms/nacelle-llms.txt
+  href: https://artifacts.apis.io/nacelle/llms/nacelle-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nacelle-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/hosts/nacelle-hosts.yml
+  href: https://artifacts.apis.io/nacelle/hosts/nacelle-hosts.yml
   title: ''
   type: Hosts
   url: hosts/nacelle-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/vendors/nacelle-vendors.yml
+  href: https://artifacts.apis.io/nacelle/vendors/nacelle-vendors.yml
   title: ''
   type: Vendors
   url: vendors/nacelle-vendors.yml
@@ -211,27 +213,27 @@ common:
   type: Pricing
   url: https://nacelle.com/pricing/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/scopes/nacelle-scopes.yml
+  href: https://artifacts.apis.io/nacelle/scopes/nacelle-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nacelle-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/authentication/nacelle-authentication.yml
+  href: https://artifacts.apis.io/nacelle/authentication/nacelle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nacelle-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/security/nacelle-trust-center.yml
+  href: https://artifacts.apis.io/nacelle/security/nacelle-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nacelle-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/security/nacelle-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nacelle/security/nacelle-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nacelle-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/security/nacelle-domain-security.yml
+  href: https://artifacts.apis.io/nacelle/security/nacelle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nacelle-domain-security.yml
@@ -252,17 +254,17 @@ common:
   type: Documentation
   url: https://docs.nacelle.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/plans/nacelle-plans-pricing.yml
+  href: https://artifacts.apis.io/nacelle/plans/nacelle-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nacelle-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/rate-limits/nacelle-rate-limits.yml
+  href: https://artifacts.apis.io/nacelle/rate-limits/nacelle-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nacelle-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/finops/nacelle-finops.yml
+  href: https://artifacts.apis.io/nacelle/finops/nacelle-finops.yml
   title: ''
   type: FinOps
   url: finops/nacelle-finops.yml
@@ -270,10 +272,10 @@ created: '2026-07-01'
 description: Nacelle is a headless / composable commerce data platform that ingests, normalizes, and indexes commerce and content data (Shopify, Contentful and other CMS sources) and serves it back to headless storefronts through a single, fast GraphQL Storefront API. The company has since pivoted toward an AI personalization engine, and the headless commerce Storefront API is now a legacy / maintenance-mode product rather than an actively expanding platform.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Nacelle Finops
-  primary_unit: ''
-  service_category: Commerce and Content Infrastructure
+  primary_unit: platform fee
+  service_category: ''
   slug: nacelle-finops
   template: false
 graphqls:
@@ -337,9 +339,12 @@ overview: 'Nacelle publishes 19 API contracts indexed on the [APIs.io](https://a
   Nacelle''s developer surface includes support, pricing, authentication, documentation, and 22 more developer resources.'
 plans:
 - name: Nacelle Plans Pricing
-  plan_count: 1
+  plan_count: 2
   slug: nacelle-plans-pricing
-random_paper: 20
+- name: Nacelle Price Estimates
+  plan_count: 0
+  slug: nacelle-price-estimates
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Nacelle Rate Limits
@@ -364,23 +369,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.5
+  composite: 52.2
   coverage:
     artifact_dirs: 25
-    catalog_earned: 70.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 44.3
+    catalog_earned: 79.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 35.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 18.7
+  delta: 1.6
   facets:
-    access_clarity: 31.6
+    access_clarity: 55.3
     contract_governance: 17.4
     contract_quality: 66.0
-    developer_ergonomics: 32.9
-    discoverability: 78.6
-    operational_transparency: 36.8
-  previous_composite: 30.8
+    developer_ergonomics: 34.5
+    discoverability: 71.4
+    operational_transparency: 39.5
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -395,13 +400,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/screenshots/nacelle-2026-08-07T184601.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nacelle/nacelle-2026-08-07T184601.png
 security:
 - kind: authentication
   name: Nacelle Authentication

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Paramark's production API, offered as a feature of the Advanced and Enterprise tiers. The service is live and answers anonymously at GET /healthz (HTTP 200 {"status":"ok"}) and is a FastAPI applicatio
@@ -43,7 +45,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paramark/refs/heads/main/security/paramark-domain-security.yml
+  href: https://artifacts.apis.io/paramark/security/paramark-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paramark-domain-security.yml
@@ -72,52 +74,52 @@ common:
   type: Login
   url: https://signin.paramark.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paramark/refs/heads/main/well-known/paramark-well-known.yml
+  href: https://artifacts.apis.io/paramark/well-known/paramark-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/paramark-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paramark/refs/heads/main/authentication/paramark-authentication.yml
+  href: https://artifacts.apis.io/paramark/authentication/paramark-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paramark-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paramark/refs/heads/main/scopes/paramark-scopes.yml
+  href: https://artifacts.apis.io/paramark/scopes/paramark-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/paramark-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paramark/refs/heads/main/well-known/paramark-openid-configuration.json
+  href: https://artifacts.apis.io/paramark/well-known/paramark-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/paramark-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paramark/refs/heads/main/conformance/paramark-conformance.yml
+  href: https://artifacts.apis.io/paramark/conformance/paramark-conformance.yml
   title: ''
   type: Conformance
   url: conformance/paramark-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paramark/refs/heads/main/security/paramark-trust-center.yml
+  href: https://artifacts.apis.io/paramark/security/paramark-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/paramark-trust-center.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/paramark/refs/heads/main/plans/paramark-plans-pricing.yml
+  href: https://artifacts.apis.io/paramark/plans/paramark-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/paramark-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/paramark/refs/heads/main/rate-limits/paramark-rate-limits.yml
+  href: https://artifacts.apis.io/paramark/rate-limits/paramark-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/paramark-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paramark/refs/heads/main/packages/paramark-packages.yml
+  href: https://artifacts.apis.io/paramark/packages/paramark-packages.yml
   title: ''
   type: Packages
   url: packages/paramark-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paramark/refs/heads/main/llms/paramark-llms.txt
+  href: https://artifacts.apis.io/paramark/llms/paramark-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paramark-llms.txt
@@ -138,7 +140,7 @@ plans:
 - name: Paramark Plans Pricing
   plan_count: 3
   slug: paramark-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Paramark Rate Limits
@@ -150,7 +152,7 @@ scopes:
   summary_line: 4 scopes · authorization_code/client_credentials/refresh_token/urn:ietf:params:oauth:grant-type:device_code
 score:
   band: thin
-  composite: 28.8
+  composite: 29.7
   coverage:
     artifact_dirs: 12
     catalog_earned: 49.0
@@ -158,15 +160,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 67.1
+    access_clarity: 73.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 28.7
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 29.7
   provenance:
     conformance: first-party
   regulatory:
@@ -175,14 +177,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/paramark/refs/heads/main/screenshots/paramark-2026-08-07T191427.png
+screenshot: https://apis.io/screenshots/paramark/paramark-2026-08-07T191427.png
 security:
 - kind: authentication
   name: Paramark Authentication

@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-17'
+  score: 26.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: Cost reports, dashboards, and analytics
   name: Ternary Reporting API
   slug: ternary-reporting-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ternary Anomaly Detection API
   slug: open-ternary-anomaly-detection-api
@@ -103,37 +102,37 @@ collections:
   slug: open-ternary
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/plans/ternary-plans-pricing.yml
+  href: https://artifacts.apis.io/ternary/plans/ternary-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ternary-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/rate-limits/ternary-rate-limits.yml
+  href: https://artifacts.apis.io/ternary/rate-limits/ternary-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ternary-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/finops/ternary-finops.yml
+  href: https://artifacts.apis.io/ternary/finops/ternary-finops.yml
   title: ''
   type: FinOps
   url: finops/ternary-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/capabilities/ternary-capability-edges.yml
+  href: https://artifacts.apis.io/ternary/capabilities/ternary-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ternary-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/agentic-access/ternary-agentic-access.yml
+  href: https://artifacts.apis.io/ternary/agentic-access/ternary-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ternary-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/security/ternary-domain-security.yml
+  href: https://artifacts.apis.io/ternary/security/ternary-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ternary-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/authentication/ternary-authentication.yml
+  href: https://artifacts.apis.io/ternary/authentication/ternary-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ternary-authentication.yml
@@ -186,7 +185,7 @@ finops:
 - has_sources: false
   method: generated
   name: Ternary Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: ternary-finops
   template: true
@@ -227,7 +226,7 @@ plans:
 - name: Ternary Plans Pricing
   plan_count: 3
   slug: ternary-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Ternary Rate Limits
@@ -259,7 +258,7 @@ rules:
   slug: ternary-rules
 score:
   band: thin
-  composite: 32.8
+  composite: 35.7
   coverage:
     artifact_dirs: 21
     catalog_earned: 58.0
@@ -267,15 +266,15 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
-    contract_quality: 61.7
-    developer_ergonomics: 26.2
-    discoverability: 66.7
+    contract_quality: 58.3
+    developer_ergonomics: 42.9
+    discoverability: 64.3
     operational_transparency: 7.9
-  previous_composite: 34.3
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     contracts:
@@ -290,13 +289,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/screenshots/ternary-2026-06-20T195129.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ternary/ternary-2026-06-20T195129.png
 security:
 - kind: authentication
   name: Ternary Authentication

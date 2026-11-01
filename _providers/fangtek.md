@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: Website
   url: http://www.fangtek.com.cn/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fangtek/refs/heads/main/security/fangtek-domain-security.yml
+  href: https://artifacts.apis.io/fangtek/security/fangtek-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fangtek-domain-security.yml
@@ -54,7 +56,7 @@ name: FangTek
 nav: Providers
 network: true
 overview: FangTek is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Integrated Circuits, Analog, and Mixed-Signal.
-random_paper: 10
+random_paper: 16
 score:
   band: minimal
   composite: 3.6
@@ -87,14 +89,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fangtek/refs/heads/main/screenshots/fangtek-2026-10-11T104400.png
+screenshot: https://apis.io/screenshots/fangtek/fangtek-2026-10-11T104400.png
 security:
 - kind: domain-security
   name: Fangtek Domain Security

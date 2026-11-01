@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -59,11 +61,8 @@ apis:
   description: Anonymous user creation, email-code login, token refresh, and avatar access tokens used by the Ready Player Me Avatar Creator and SDKs. Authentication runs through each application's per-studio subdom
   name: Ready Player Me Auth API
   slug: ready-player-me-auth-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ready Player Me Assets API
   slug: open-ready-player-me-assets-api
@@ -79,12 +78,12 @@ common:
   type: Website
   url: https://readyplayer.me
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/agentic-access/ready-player-me-agentic-access.yml
+  href: https://artifacts.apis.io/ready-player-me/agentic-access/ready-player-me-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ready-player-me-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/authentication/ready-player-me-authentication.yml
+  href: https://artifacts.apis.io/ready-player-me/authentication/ready-player-me-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ready-player-me-authentication.yml
@@ -149,67 +148,67 @@ common:
   type: Tools
   url: https://github.com/readyplayerme/animation-library
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/plans/ready-player-me-plans-pricing.yml
+  href: https://artifacts.apis.io/ready-player-me/plans/ready-player-me-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ready-player-me-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/rate-limits/ready-player-me-rate-limits.yml
+  href: https://artifacts.apis.io/ready-player-me/rate-limits/ready-player-me-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ready-player-me-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/finops/ready-player-me-finops.yml
+  href: https://artifacts.apis.io/ready-player-me/finops/ready-player-me-finops.yml
   title: ''
   type: FinOps
   url: finops/ready-player-me-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/vocabulary/ready-player-me-vocabulary.yml
+  href: https://artifacts.apis.io/ready-player-me/vocabulary/ready-player-me-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ready-player-me-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/json-ld/ready-player-me-context.jsonld
+  href: https://artifacts.apis.io/ready-player-me/json-ld/ready-player-me-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/ready-player-me-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/packages/ready-player-me-packages.yml
+  href: https://artifacts.apis.io/ready-player-me/packages/ready-player-me-packages.yml
   title: ''
   type: Packages
   url: packages/ready-player-me-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/packages/ready-player-me-packages.yml
+  href: https://artifacts.apis.io/ready-player-me/packages/ready-player-me-packages.yml
   title: ''
   type: SDKs
   url: packages/ready-player-me-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/components/ready-player-me-components.yml
+  href: https://artifacts.apis.io/ready-player-me/components/ready-player-me-components.yml
   title: ''
   type: Components
   url: components/ready-player-me-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/lifecycle/ready-player-me-lifecycle.yml
+  href: https://artifacts.apis.io/ready-player-me/lifecycle/ready-player-me-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ready-player-me-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/conventions/ready-player-me-conventions.yml
+  href: https://artifacts.apis.io/ready-player-me/conventions/ready-player-me-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ready-player-me-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/data-model/ready-player-me-data-model.yml
+  href: https://artifacts.apis.io/ready-player-me/data-model/ready-player-me-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ready-player-me-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/conformance/ready-player-me-conformance.yml
+  href: https://artifacts.apis.io/ready-player-me/conformance/ready-player-me-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ready-player-me-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/llms/ready-player-me-llms.txt
+  href: https://artifacts.apis.io/ready-player-me/llms/ready-player-me-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ready-player-me-llms.txt
@@ -280,7 +279,7 @@ plans:
 - name: Ready Player Me Plans Pricing
   plan_count: 3
   slug: ready-player-me-plans-pricing
-random_paper: 12
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Ready Player Me Rate Limits
@@ -313,7 +312,7 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
@@ -343,12 +342,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Ready Player Me Authentication

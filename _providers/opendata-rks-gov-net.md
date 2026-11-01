@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Historical CKAN Action API for Kosovo's national open-data portal. Platform confirmed as CKAN ~2.7 from archived snapshots. The canonical CKAN endpoint path would be /api/3/action/, but the host is cu
@@ -41,7 +43,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opendata-rks-gov-net/refs/heads/main/security/opendata-rks-gov-net-domain-security.yml
+  href: https://artifacts.apis.io/opendata-rks-gov-net/security/opendata-rks-gov-net-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opendata-rks-gov-net-domain-security.yml
@@ -50,7 +52,7 @@ common:
   type: Website
   url: https://opendata.rks-gov.net/en/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opendata-rks-gov-net/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/opendata-rks-gov-net/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -63,7 +65,7 @@ name: opendata.rks-gov.net (Kosovo Open Data) [offline]
 nav: Providers
 network: true
 overview: opendata.rks-gov.net (Kosovo Open Data) [offline] is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, CKAN, Data Catalog, Government Data, and National Government.
-random_paper: 16
+random_paper: 6
 score:
   band: minimal
   composite: 7.4
@@ -94,14 +96,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/opendata-rks-gov-net/refs/heads/main/screenshots/opendata-rks-gov-net-2026-08-07T190549.png
+screenshot: https://apis.io/screenshots/opendata-rks-gov-net/opendata-rks-gov-net-2026-08-07T190549.png
 security:
 - kind: domain-security
   name: Opendata Rks Gov Net Domain Security

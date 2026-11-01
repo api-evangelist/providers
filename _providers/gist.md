@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-10-17'
+  score: 27.7
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Publisher ingest API for the Gist Content Network. Lets publisher partners push articles to ProRata in real time (`POST /ingest/article`) or in bulk for archival backfill (`POST /ingest/multiple_artic
@@ -78,12 +80,17 @@ apis:
   description: The Threads API from Gist — 2 operation(s) for threads.
   name: Gist Threads API
   slug: gist-threads-api
-artifact_total: 17
+artifact_total: 22
 collections:
 - collection_type: open
   name: Prorata API Service
   slug: open-gist-answers-api
 common:
+- group: other
+  href: https://artifacts.apis.io/gist/capabilities/gist-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gist-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -129,103 +136,111 @@ common:
   type: TermsOfService
   url: https://gist.ai/terms-of-use
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/llms/gist-llms.txt
+  href: https://artifacts.apis.io/gist/llms/gist-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gist-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/packages/gist-packages.yml
+  href: https://artifacts.apis.io/gist/packages/gist-packages.yml
   title: ''
   type: Packages
   url: packages/gist-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/packages/gist-packages.yml
+  href: https://artifacts.apis.io/gist/packages/gist-packages.yml
   title: ''
   type: SDKs
   url: packages/gist-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/components/gist-components.yml
+  href: https://artifacts.apis.io/gist/components/gist-components.yml
   title: ''
   type: Components
   url: components/gist-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/sandbox/gist-sandbox.yml
+  href: https://artifacts.apis.io/gist/sandbox/gist-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/gist-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/authentication/gist-authentication.yml
+  href: https://artifacts.apis.io/gist/authentication/gist-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gist-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/conventions/gist-conventions.yml
+  href: https://artifacts.apis.io/gist/conventions/gist-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gist-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/errors/gist-problem-types.yml
+  href: https://artifacts.apis.io/gist/errors/gist-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gist-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/rate-limits/gist-rate-limits.yml
+  href: https://artifacts.apis.io/gist/rate-limits/gist-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gist-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/plans/gist-plans-pricing.yml
+  href: https://artifacts.apis.io/gist/plans/gist-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gist-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/lifecycle/gist-lifecycle.yml
+  href: https://artifacts.apis.io/gist/lifecycle/gist-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gist-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/conformance/gist-conformance.yml
+  href: https://artifacts.apis.io/gist/conformance/gist-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gist-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/data-model/gist-data-model.yml
+  href: https://artifacts.apis.io/gist/data-model/gist-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gist-data-model.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/json-schema/gist-attribution-extension.json
+  href: https://artifacts.apis.io/gist/json-schema/gist-attribution-extension.json
   title: ''
   type: JSONSchema
   url: json-schema/gist-attribution-extension.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/mcp/gist-mcp.yml
+  href: https://artifacts.apis.io/gist/mcp/gist-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/gist-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/mcp/gist-tool-crosswalk.yml
+  href: https://artifacts.apis.io/gist/mcp/gist-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/gist-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/gist/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/overlays/gist-answers-api-overlay.yaml
+  href: https://artifacts.apis.io/gist/overlays/gist-answers-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gist-answers-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/security/gist-domain-security.yml
+  href: https://artifacts.apis.io/gist/security/gist-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gist-domain-security.yml
 created: '2026-07-17'
 description: 'Gist is an AI brand-visibility, answer-engine and content-monetization platform built by ProRata (founded 2024) that helps publishers and advertisers stay visible, measurable and monetizable inside generative AI experiences. It ships three products: Gist GEO (generative engine optimization for consistent organic visibility in AI answers), Gist Ads (paid brand amplification placed directly in AI search surfaces, with native iOS and Android ad SDKs and a publisher ad tag), and Gist Answers (an embeddable, publisher-backed AI answer engine for on-site engagement and monetization). Behind those products sits a real developer surface documented at the Gist Developer Hub: the Prorata API Service (chat, streaming completions, citations, per-source attribution, threads, recommended and related questions, publisher management and document summarization) at api.gist.ai, the Gist Content API for publisher article ingestion, the Gist Content Network crawler and CMS/RSS ingestion paths,
   and the gist-chat-widget web component distributed from cdn.gist.ai. Gist positions itself as turning AI from a black box into a measurable, actionable channel for brands and content owners, with fair attribution and a 50/50 publisher revenue share as the stated basis of the model.'
+finops:
+- has_sources: true
+  method: derived
+  name: Gist Finops
+  primary_unit: ''
+  service_category: ''
+  slug: gist-finops
+  template: true
 image: https://cdn.prod.website-files.com/69b4128468609a447fd7dd25/6a05c44830dff65379b10594_512x512.png
 json_schemas:
 - name: Fractional Attribution Extension - definitions
@@ -245,35 +260,35 @@ network: true
 overview: 'Gist publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chat API, Health API, Publishers API, and 6 more. Tagged areas include Company, Artificial Intelligence, Generative AI, Advertising, and Marketing.
 
 
-  Gist''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, sandbox, authentication, and 23 more developer resources.'
+  Gist''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, sandbox, authentication, and 24 more developer resources.'
 plans:
 - name: Gist Plans Pricing
   plan_count: 0
   slug: gist-plans-pricing
-random_paper: 21
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Gist Rate Limits
   slug: gist-rate-limits
 score:
   band: developing
-  composite: 39.5
+  composite: 43.3
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 40.0
     catalog_earned_first_party: 8.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 45.6
-    developer_ergonomics: 62.5
-    discoverability: 64.3
-    operational_transparency: 23.7
-  previous_composite: 39.8
+    developer_ergonomics: 73.2
+    discoverability: 57.1
+    operational_transparency: 26.3
+  previous_composite: 43.3
   provenance:
     conformance: derived
     contracts:
@@ -289,13 +304,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/screenshots/gist-2026-07-25T215832.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gist/gist-2026-07-25T215832.png
 security:
 - kind: authentication
   name: Gist Authentication
@@ -305,6 +321,16 @@ security:
   name: Gist Domain Security
   slug: gist-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Ask Gist Answers and read the attribution
+  slug: gist-ask-and-attribute
+- name: Embed the Gist Answers widget on a publisher site
+  slug: gist-embed-answers-widget
+- name: Push publisher content into the Gist Content Network
+  slug: gist-ingest-publisher-content
+- name: Summarize an authorized publisher URL
+  slug: gist-summarize-publisher-url
 slug: gist
 tags:
 - Company

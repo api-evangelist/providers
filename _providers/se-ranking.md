@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.7
-  scored_at: '2026-10-17'
+  score: 34.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 86
   slug: se-ranking-agentic-access
   summary_line: 86 operations · 27 acting
-api_count: 2
+api_count: 1
 apis:
 - description: REST API providing access to SE Ranking's SEO datasets including keyword research, backlink analysis, domain analysis, SERP data, website audits, and AI search visibility tracking. Uses a credit-based
   name: SE Ranking Data API
@@ -88,11 +90,8 @@ apis:
 - description: 'Hosted remote Model Context Protocol server exposing 217 tools and 5 prompts across three SE Ranking surfaces: the credit-billed Data API (66 DATA_* tools, backed 1:1 by the published OpenAPI), the Pr'
   name: SE Ranking MCP Server
   slug: mcp-server
-artifact_total: 37
+artifact_total: 61
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SE Ranking Data Account & system API
   slug: open-se-ranking-account-system-api
@@ -116,7 +115,7 @@ collections:
   slug: open-se-ranking-website-audit-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/capabilities/se-ranking-capability-edges.yml
+  href: https://artifacts.apis.io/se-ranking/capabilities/se-ranking-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/se-ranking-capability-edges.yml
@@ -125,7 +124,7 @@ common:
   type: License
   url: https://github.com/seranking/openapi/blob/main/LICENSE
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/_original/se-ranking-data-api-openapi.yml
+  href: https://artifacts.apis.io/se-ranking/openapi/_original/se-ranking-data-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/se-ranking-data-api-openapi.yml
@@ -134,82 +133,82 @@ common:
   type: SourceCode
   url: https://github.com/seranking/openapi
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/mcp/se-ranking-mcp.yml
+  href: https://artifacts.apis.io/se-ranking/mcp/se-ranking-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/se-ranking-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/mcp/se-ranking-tool-crosswalk.yml
+  href: https://artifacts.apis.io/se-ranking/mcp/se-ranking-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/se-ranking-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/se-ranking/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/well-known/se-ranking-well-known.yml
+  href: https://artifacts.apis.io/se-ranking/well-known/se-ranking-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/se-ranking-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/scopes/se-ranking-scopes.yml
+  href: https://artifacts.apis.io/se-ranking/scopes/se-ranking-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/se-ranking-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/conventions/se-ranking-conventions.yml
+  href: https://artifacts.apis.io/se-ranking/conventions/se-ranking-conventions.yml
   title: ''
   type: Conventions
   url: conventions/se-ranking-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/errors/se-ranking-problem-types.yml
+  href: https://artifacts.apis.io/se-ranking/errors/se-ranking-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/se-ranking-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/lifecycle/se-ranking-lifecycle.yml
+  href: https://artifacts.apis.io/se-ranking/lifecycle/se-ranking-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/se-ranking-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/conformance/se-ranking-conformance.yml
+  href: https://artifacts.apis.io/se-ranking/conformance/se-ranking-conformance.yml
   title: ''
   type: Conformance
   url: conformance/se-ranking-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/data-model/se-ranking-data-model.yml
+  href: https://artifacts.apis.io/se-ranking/data-model/se-ranking-data-model.yml
   title: ''
   type: DataModel
   url: data-model/se-ranking-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/packages/se-ranking-packages.yml
+  href: https://artifacts.apis.io/se-ranking/packages/se-ranking-packages.yml
   title: ''
   type: Packages
   url: packages/se-ranking-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/changelog/se-ranking-changelog.yml
+  href: https://artifacts.apis.io/se-ranking/changelog/se-ranking-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/se-ranking-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/llms/se-ranking-llms.txt
+  href: https://artifacts.apis.io/se-ranking/llms/se-ranking-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/se-ranking-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/agentic-access/se-ranking-agentic-access.yml
+  href: https://artifacts.apis.io/se-ranking/agentic-access/se-ranking-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/se-ranking-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/security/se-ranking-domain-security.yml
+  href: https://artifacts.apis.io/se-ranking/security/se-ranking-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/se-ranking-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/authentication/se-ranking-authentication.yml
+  href: https://artifacts.apis.io/se-ranking/authentication/se-ranking-authentication.yml
   title: ''
   type: Authentication
   url: authentication/se-ranking-authentication.yml
@@ -282,17 +281,17 @@ common:
   type: StatusPage
   url: https://status.seranking.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/plans/se-ranking-plans-pricing.yml
+  href: https://artifacts.apis.io/se-ranking/plans/se-ranking-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/se-ranking-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/rate-limits/se-ranking-rate-limits.yml
+  href: https://artifacts.apis.io/se-ranking/rate-limits/se-ranking-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/se-ranking-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/finops/se-ranking-finops.yml
+  href: https://artifacts.apis.io/se-ranking/finops/se-ranking-finops.yml
   title: ''
   type: FinOps
   url: finops/se-ranking-finops.yml
@@ -315,13 +314,13 @@ examples:
   name: Se Ranking Site Audit Example
   slug: se-ranking-site-audit-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Se Ranking Finops
-  primary_unit: ''
+  primary_unit: credits
   service_category: ''
   slug: se-ranking-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/se-ranking.png
 json_schemas:
 - name: SE Ranking AI Search Visibility
@@ -359,9 +358,12 @@ overview: 'SE Ranking publishes 10 API contracts indexed on the [APIs.io](https:
   SE Ranking''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 33 more developer resources.'
 plans:
 - name: Se Ranking Plans Pricing
-  plan_count: 6
+  plan_count: 5
   slug: se-ranking-plans-pricing
-random_paper: 17
+- name: Se Ranking Price Estimates
+  plan_count: 0
+  slug: se-ranking-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 6
   name: Se Ranking Rate Limits
@@ -385,23 +387,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 60.3
+  composite: 64.1
   coverage:
     artifact_dirs: 31
-    catalog_earned: 72.3
+    catalog_earned: 75.3
     catalog_earned_first_party: 24.0
-    catalog_gap: 42.8
+    catalog_gap: 39.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 14.4
     contract_quality: 53.8
-    developer_ergonomics: 66.7
-    discoverability: 68.3
-    operational_transparency: 57.9
-  previous_composite: 61.8
+    developer_ergonomics: 69.0
+    discoverability: 65.0
+    operational_transparency: 68.4
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -418,13 +420,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/screenshots/se-ranking-2026-06-20T193611.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/se-ranking/se-ranking-2026-06-20T193611.png
 security:
 - kind: authentication
   name: Se Ranking Authentication
@@ -434,6 +437,56 @@ security:
   name: Se Ranking Domain Security
   slug: se-ranking-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 32
+skills:
+- name: ai-search-gaps-to-social-campaign
+  slug: se-ranking-ai-search-gaps-to-social-campaign
+- name: client-onboarding-proposal
+  slug: se-ranking-client-onboarding-proposal
+- name: local-gmb-visibility
+  slug: se-ranking-local-gmb-visibility
+- name: seo-ads
+  slug: se-ranking-seo-ads
+- name: seo-agency-landing-page
+  slug: se-ranking-seo-agency-landing-page
+- name: seo-ai-search-share-of-voice
+  slug: se-ranking-seo-ai-search-share-of-voice
+- name: seo-ai-social-report
+  slug: se-ranking-seo-ai-social-report
+- name: seo-api
+  slug: se-ranking-seo-api
+- name: seo-backlink-gap
+  slug: se-ranking-seo-backlink-gap
+- name: seo-backlinks-profile
+  slug: se-ranking-seo-backlinks-profile
+- name: seo-competitor-gap-analysis
+  slug: se-ranking-seo-competitor-gap-analysis
+- name: seo-competitor-pages
+  slug: se-ranking-seo-competitor-pages
+- name: seo-content-audit
+  slug: se-ranking-seo-content-audit
+- name: seo-content-brief
+  slug: se-ranking-seo-content-brief
+- name: seo-drift
+  slug: se-ranking-seo-drift
+- name: seo-firecrawl
+  slug: se-ranking-seo-firecrawl
+- name: seo-gaps-to-social-campaign
+  slug: se-ranking-seo-gaps-to-social-campaign
+- name: seo-geo
+  slug: se-ranking-seo-geo
+- name: seo-google
+  slug: se-ranking-seo-google
+- name: seo-hreflang
+  slug: se-ranking-seo-hreflang
+- name: seo-images
+  slug: se-ranking-seo-images
+- name: seo-keyword-cluster
+  slug: se-ranking-seo-keyword-cluster
+- name: seo-keyword-niche
+  slug: se-ranking-seo-keyword-niche
+- name: seo-local
+  slug: se-ranking-seo-local
 slug: se-ranking
 tags:
 - SEO

@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -113,15 +115,12 @@ apis:
   description: The User Items.json API from Kongregate — 1 operation(s) for user items.json.
   name: Kongregate User Items.json API
   slug: kongregate-user-items-json-api
-artifact_total: 32
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Kongregate Callbacks Webhooks
   slug: kongregate-callbacks-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: api Authenticate.json API
   slug: open-kongregate-authenticate-json-api
@@ -207,92 +206,92 @@ common:
   type: SignUp
   url: https://www.kongregate.com/en/accounts/new
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/_original/kongregate-server-api-openapi-original.json
+  href: https://artifacts.apis.io/kongregate/openapi/_original/kongregate-server-api-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/kongregate-server-api-openapi-original.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/overlays/kongregate-server-api-overlay.yaml
+  href: https://artifacts.apis.io/kongregate/overlays/kongregate-server-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kongregate-server-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/llms/kongregate-llms.txt
+  href: https://artifacts.apis.io/kongregate/llms/kongregate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kongregate-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/mcp/kongregate-mcp.yml
+  href: https://artifacts.apis.io/kongregate/mcp/kongregate-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kongregate-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kongregate/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/agentic-access/kongregate-agentic-access.yml
+  href: https://artifacts.apis.io/kongregate/agentic-access/kongregate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kongregate-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/authentication/kongregate-authentication.yml
+  href: https://artifacts.apis.io/kongregate/authentication/kongregate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kongregate-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/conventions/kongregate-conventions.yml
+  href: https://artifacts.apis.io/kongregate/conventions/kongregate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kongregate-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/errors/kongregate-problem-types.yml
+  href: https://artifacts.apis.io/kongregate/errors/kongregate-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kongregate-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/data-model/kongregate-data-model.yml
+  href: https://artifacts.apis.io/kongregate/data-model/kongregate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kongregate-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/conformance/kongregate-conformance.yml
+  href: https://artifacts.apis.io/kongregate/conformance/kongregate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kongregate-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/lifecycle/kongregate-lifecycle.yml
+  href: https://artifacts.apis.io/kongregate/lifecycle/kongregate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kongregate-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/asyncapi/kongregate-callbacks-webhooks.yml
+  href: https://artifacts.apis.io/kongregate/asyncapi/kongregate-callbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kongregate-callbacks-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/packages/kongregate-packages.yml
+  href: https://artifacts.apis.io/kongregate/packages/kongregate-packages.yml
   title: ''
   type: Packages
   url: packages/kongregate-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/packages/kongregate-packages.yml
+  href: https://artifacts.apis.io/kongregate/packages/kongregate-packages.yml
   title: ''
   type: SDKs
   url: packages/kongregate-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/sandbox/kongregate-sandbox.yml
+  href: https://artifacts.apis.io/kongregate/sandbox/kongregate-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kongregate-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/well-known/kongregate-well-known.yml
+  href: https://artifacts.apis.io/kongregate/well-known/kongregate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kongregate-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/security/kongregate-domain-security.yml
+  href: https://artifacts.apis.io/kongregate/security/kongregate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kongregate-domain-security.yml
@@ -314,7 +313,7 @@ overview: 'Kongregate publishes 14 API contracts indexed on the [APIs.io](https:
 random_paper: 7
 score:
   band: developing
-  composite: 44.0
+  composite: 47.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -322,15 +321,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 54.3
-    developer_ergonomics: 57.7
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 43.9
+    developer_ergonomics: 70.8
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -347,13 +346,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/screenshots/kongregate-2026-07-25T224157.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kongregate/kongregate-2026-07-25T224157.png
 security:
 - kind: authentication
   name: Kongregate Authentication
@@ -363,6 +363,16 @@ security:
   name: Kongregate Domain Security
   slug: kongregate-domain-security
   summary_line: TLSv1.2 · DNSSEC
+skill_count: 4
+skills:
+- name: Authenticate a Kongregate player
+  slug: kongregate-authenticate-player
+- name: Manage Kongregate guilds and characters
+  slug: kongregate-guilds-and-characters
+- name: Sell and consume Kongregate virtual goods
+  slug: kongregate-sell-and-consume-items
+- name: Submit Kongregate statistics and read leaderboards
+  slug: kongregate-statistics-and-leaderboards
 slug: kongregate
 tags:
 - Company

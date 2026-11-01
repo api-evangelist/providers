@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.3
-  scored_at: '2026-10-17'
+  score: 33.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 150
   human_in_the_loop: 1
@@ -488,7 +490,7 @@ arazzos:
 - description: Resolve a rate, update its price for a range, then re-read to verify.
   name: Mews Update Rate Pricing
   slug: mews-com-update-rate-pricing-workflow
-artifact_total: 211
+artifact_total: 210
 collections:
 - collection_type: postman
   name: BookingEngineApi
@@ -499,9 +501,6 @@ collections:
 - collection_type: postman
   name: DistributorApi
   slug: postman-mews-distributor-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: BookingEngineApi
   slug: open-mews-booking-engine-api
@@ -742,22 +741,22 @@ common:
   type: Website
   url: https://www.mews.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/capabilities/mews-com-capability-edges.yml
+  href: https://artifacts.apis.io/mews-com/capabilities/mews-com-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mews-com-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/agentic-access/mews-com-agentic-access.yml
+  href: https://artifacts.apis.io/mews-com/agentic-access/mews-com-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mews-com-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/security/mews-com-trust-center.yml
+  href: https://artifacts.apis.io/mews-com/security/mews-com-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mews-com-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/security/mews-com-domain-security.yml
+  href: https://artifacts.apis.io/mews-com/security/mews-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mews-com-domain-security.yml
@@ -766,102 +765,102 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/mews/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-add-companion-to-reservation-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-add-companion-to-reservation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-add-companion-to-reservation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-add-customer-add-reservation-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-add-customer-add-reservation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-add-customer-add-reservation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-add-product-to-reservation-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-add-product-to-reservation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-add-product-to-reservation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-attach-identity-document-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-attach-identity-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-attach-identity-document-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-cancel-reservation-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-cancel-reservation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-cancel-reservation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-capture-credit-card-payment-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-capture-credit-card-payment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-capture-credit-card-payment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-check-in-reservation-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-check-in-reservation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-check-in-reservation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-check-out-reservation-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-check-out-reservation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-check-out-reservation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-extend-reservation-stay-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-extend-reservation-stay-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-extend-reservation-stay-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-find-or-create-customer-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-find-or-create-customer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-find-or-create-customer-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-post-room-service-order-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-post-room-service-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-post-room-service-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-price-then-book-reservation-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-price-then-book-reservation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-price-then-book-reservation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-quote-rate-pricing-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-quote-rate-pricing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-quote-rate-pricing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-reassign-reservation-guest-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-reassign-reservation-guest-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-reassign-reservation-guest-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-record-external-payment-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-record-external-payment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-record-external-payment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-refund-payment-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-refund-payment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-refund-payment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-reservation-accounting-summary-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-reservation-accounting-summary-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-reservation-accounting-summary-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-service-availability-to-reservation-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-service-availability-to-reservation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-service-availability-to-reservation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-update-customer-details-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-update-customer-details-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-update-customer-details-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/arazzo/mews-com-update-rate-pricing-workflow.yml
+  href: https://artifacts.apis.io/mews-com/arazzo/mews-com-update-rate-pricing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mews-com-update-rate-pricing-workflow.yml
@@ -982,27 +981,27 @@ common:
   type: Careers
   url: https://www.mews.com/en/careers
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/plans/mews-com-plans-pricing.yml
+  href: https://artifacts.apis.io/mews-com/plans/mews-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mews-com-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/rate-limits/mews-com-rate-limits.yml
+  href: https://artifacts.apis.io/mews-com/rate-limits/mews-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mews-com-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/finops/mews-com-finops.yml
+  href: https://artifacts.apis.io/mews-com/finops/mews-com-finops.yml
   title: ''
   type: FinOps
   url: finops/mews-com-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/vocabulary/mews-com-vocabulary.yml
+  href: https://artifacts.apis.io/mews-com/vocabulary/mews-com-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/mews-com-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/rules/mews-com-rules.yml
+  href: https://artifacts.apis.io/mews-com/rules/mews-com-rules.yml
   title: ''
   type: SpectralRules
   url: rules/mews-com-rules.yml
@@ -1047,12 +1046,12 @@ features:
 - Pricing is quote-based per property — no public price list; commercial terms negotiated with the partner success team
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Mews Com Finops
-  primary_unit: property-month
-  service_category: Hospitality Software
+  primary_unit: ''
+  service_category: ''
   slug: mews-com-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mews-com.png
 json_schemas:
 - name: MewsCustomer
@@ -1084,7 +1083,7 @@ overview: 'Mews publishes 78 API contracts indexed on the [APIs.io](https://apis
   Mews'' developer surface includes developer portal, documentation, signup flow, support, engineering blog, pricing, changelog, and 56 more developer resources.'
 plans:
 - name: Mews Com Plans Pricing
-  plan_count: 5
+  plan_count: 3
   slug: mews-com-plans-pricing
 random_paper: 16
 rate_limits:
@@ -1116,24 +1115,24 @@ rules:
     warn: 5
   slug: mews-com-rules
 score:
-  band: developing
-  composite: 54.0
+  band: strong
+  composite: 58.1
   coverage:
     artifact_dirs: 20
-    catalog_earned: 67.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    catalog_earned: 73.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 42.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.7
+  delta: -1.6
   facets:
-    access_clarity: 68.4
+    access_clarity: 84.2
     contract_governance: 27.3
     contract_quality: 61.2
     developer_ergonomics: 41.7
     discoverability: 62.5
-    operational_transparency: 42.1
-  previous_composite: 60.7
+    operational_transparency: 52.6
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1147,13 +1146,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/screenshots/mews-com-2026-06-20T185312.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mews-com/mews-com-2026-06-20T185312.png
 security:
 - kind: domain-security
   name: Mews Com Domain Security

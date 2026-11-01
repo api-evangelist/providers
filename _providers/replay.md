@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -24,25 +24,27 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 30.2
-  scored_at: '2026-10-17'
+  score: 25.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GraphQL API for retrieving workspace and user metadata — replays/recordings, team members, and comments on a replay. POST queries to the endpoint with a Replay API key as a bearer token.
   name: Replay GraphQL API
   slug: replay-graphql-api
-artifact_total: 7
+artifact_total: 13
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/plans/replay-plans-pricing.yml
+  href: https://artifacts.apis.io/replay/plans/replay-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/replay-plans-pricing.yml
@@ -99,62 +101,62 @@ common:
   type: StatusPage
   url: https://status.replay.io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/mcp/replay-mcp.yml
+  href: https://artifacts.apis.io/replay/mcp/replay-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/replay-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/packages/replay-packages.yml
+  href: https://artifacts.apis.io/replay/packages/replay-packages.yml
   title: ''
   type: Packages
   url: packages/replay-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/packages/replay-packages.yml
+  href: https://artifacts.apis.io/replay/packages/replay-packages.yml
   title: ''
   type: SDKs
   url: packages/replay-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/cli/replay-cli.yml
+  href: https://artifacts.apis.io/replay/cli/replay-cli.yml
   title: ''
   type: CLI
   url: cli/replay-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/replay/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/well-known/replay-well-known.yml
+  href: https://artifacts.apis.io/replay/well-known/replay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/replay-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/well-known/replay-www-api-catalog.json
+  href: https://artifacts.apis.io/replay/well-known/replay-www-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/replay-www-api-catalog.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/authentication/replay-authentication.yml
+  href: https://artifacts.apis.io/replay/authentication/replay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/replay-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/conventions/replay-conventions.yml
+  href: https://artifacts.apis.io/replay/conventions/replay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/replay-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/changelog/replay-changelog.yml
+  href: https://artifacts.apis.io/replay/changelog/replay-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/replay-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/lifecycle/replay-lifecycle.yml
+  href: https://artifacts.apis.io/replay/lifecycle/replay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/replay-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/conformance/replay-conformance.yml
+  href: https://artifacts.apis.io/replay/conformance/replay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/replay-conformance.yml
@@ -163,12 +165,12 @@ common:
   type: Compliance
   url: https://www.replay.io/blog/replay-achieves-soc2
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/security/replay-trust-center.yml
+  href: https://artifacts.apis.io/replay/security/replay-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/replay-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/security/replay-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/replay/security/replay-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/replay-vulnerability-disclosure.yml
@@ -177,21 +179,29 @@ common:
   type: Security
   url: https://www.replay.io/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/security/replay-domain-security.yml
+  href: https://artifacts.apis.io/replay/security/replay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/replay-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/llms/replay-llms.txt
+  href: https://artifacts.apis.io/replay/llms/replay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/replay-llms.txt
 created: '2026-07-17'
 description: Replay is an AI-native QA and time-travel debugging platform for web applications. Replay QA autonomously explores a web app, records every session in a deterministic Replay Browser, finds real bugs, and hands a coding agent the root cause and a suggested fix. The recording is a time-travel database of everything that happened in the browser — sources, console, network, DOM, React renders — inspectable after the fact without reproducing the bug locally. Replay exposes this programmatically through a GraphQL API, a WebSocket Replay Protocol, a published Model Context Protocol (MCP) server for agent debugging, a CLI (replayio), and Playwright/Cypress recording integrations. Backed by a16z and Version One Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Replay Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: replay-finops
+  template: false
 image: https://www.replay.io/replayQA_og-image.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at dispatch.replay.io over HTTP; 25 tools listed.
+- description: Remote MCP server at dispatch.replay.io over HTTP; 32 tools listed.
   name: Replay MCP
   slug: replay-mcp
 modified: '2026-07-20'
@@ -206,26 +216,29 @@ plans:
 - name: Replay Plans Pricing
   plan_count: 5
   slug: replay-plans-pricing
-random_paper: 15
+- name: Replay Price Estimates
+  plan_count: 0
+  slug: replay-price-estimates
+random_paper: 5
 score:
   band: developing
-  composite: 51.2
+  composite: 53.2
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 49.0
+    artifact_dirs: 18
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 78.6
-    discoverability: 75.0
-    operational_transparency: 36.8
-  previous_composite: 44.9
+    discoverability: 65.0
+    operational_transparency: 47.4
+  previous_composite: 51.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -236,14 +249,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/replay/refs/heads/main/screenshots/replay-2026-08-17T081521.png
+screenshot: https://apis.io/screenshots/replay/replay-2026-08-17T081521.png
 security:
 - kind: authentication
   name: Replay Authentication
@@ -261,6 +274,16 @@ security:
   name: Replay Trust Center
   slug: replay-trust-center
   summary_line: SOC 2 Type 2
+skill_count: 4
+skills:
+- name: replay-cli
+  slug: replay-cli
+- name: replay-cypress
+  slug: replay-cypress
+- name: replay-mcp
+  slug: replay-mcp
+- name: replay-playwright
+  slug: replay-playwright
 slug: replay
 tags:
 - Company

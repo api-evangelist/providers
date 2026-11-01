@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.6
-  scored_at: '2026-10-17'
+  score: 21.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 0
@@ -119,11 +121,8 @@ apis:
   description: Uni-Parser — 提取文本、表格、图表、公式。收费：0.05 元/页（触发时扣）。figure 模块无权限时可能 403。
   name: DP Technology (Bohrium) PDF 解析 (bohrium-pdf-parser) API
   slug: dp-pdf-bohrium-pdf-parser-api
-artifact_total: 35
+artifact_total: 52
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bohrium Open AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) AI 科学小导师 (bohrium-mentor) API
   slug: open-dp-ai-bohrium-mentor-api
@@ -175,92 +174,92 @@ common:
   type: Pricing
   url: https://bohrium-doc.dp.tech/en/docs/bohrctl/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/plans/dp-plans-pricing.yml
+  href: https://artifacts.apis.io/dp/plans/dp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dp-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/capabilities/dp-capability-edges.yml
+  href: https://artifacts.apis.io/dp/capabilities/dp-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dp-capability-edges.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/openapi/_original/dp-bohrium-openapi.json
+  href: https://artifacts.apis.io/dp/openapi/_original/dp-bohrium-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/dp-bohrium-openapi.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/authentication/dp-authentication.yml
+  href: https://artifacts.apis.io/dp/authentication/dp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dp-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/conventions/dp-conventions.yml
+  href: https://artifacts.apis.io/dp/conventions/dp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dp-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/errors/dp-error-codes.yml
+  href: https://artifacts.apis.io/dp/errors/dp-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/dp-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/lifecycle/dp-lifecycle.yml
+  href: https://artifacts.apis.io/dp/lifecycle/dp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dp-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/conformance/dp-conformance.yml
+  href: https://artifacts.apis.io/dp/conformance/dp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dp-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/packages/dp-packages.yml
+  href: https://artifacts.apis.io/dp/packages/dp-packages.yml
   title: ''
   type: Packages
   url: packages/dp-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/packages/dp-packages.yml
+  href: https://artifacts.apis.io/dp/packages/dp-packages.yml
   title: ''
   type: SDKs
   url: packages/dp-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/cli/dp-cli.yml
+  href: https://artifacts.apis.io/dp/cli/dp-cli.yml
   title: ''
   type: CLI
   url: cli/dp-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/mcp/dp-mcp.yml
+  href: https://artifacts.apis.io/dp/mcp/dp-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dp-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dp/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/llms/dp-llms.txt
+  href: https://artifacts.apis.io/dp/llms/dp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dp-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/overlays/dp-bohrium-overlay.yaml
+  href: https://artifacts.apis.io/dp/overlays/dp-bohrium-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dp-bohrium-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/well-known/dp-well-known.yml
+  href: https://artifacts.apis.io/dp/well-known/dp-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dp-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/agentic-access/dp-agentic-access.yml
+  href: https://artifacts.apis.io/dp/agentic-access/dp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dp-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/security/dp-domain-security.yml
+  href: https://artifacts.apis.io/dp/security/dp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dp-domain-security.yml
@@ -294,6 +293,14 @@ common:
   url: https://dp.tech
 created: '2026-07-17'
 description: DP Technology (Deep Potential Technology, 深势科技) is a global pioneer of the "AI for Science" research paradigm, founded in 2018 with offices in Beijing, Shanghai, Shenzhen, and Yibin. Its Bohrium platform is a research cloud for microscale scientific computing and industrial design — compute jobs, development nodes, datasets, container images, projects, knowledge bases, large knowledge models, paper/patent/scholar search, PDF parsing, a scientific-tools library, and web search — all reachable through the Bohrium OpenAPI (Bearer AccessKey auth, base URL https://open.bohrium.com). DP Technology also founds and maintains the open-source DeepModeling molecular-simulation toolchain (DeePMD-kit, DP-GEN, dpdispatcher, dpdata) and ships a first-party Python SDK, agent SDK, CLI, and 17 official Agent Skills.
+finops:
+- has_sources: true
+  method: derived
+  name: Dp Finops
+  primary_unit: call
+  service_category: ''
+  slug: dp-finops
+  template: false
 image: https://dp.tech/dp-favicon.png
 layout: provider
 modified: '2026-07-18'
@@ -308,26 +315,26 @@ plans:
 - name: Dp Plans Pricing
   plan_count: 11
   slug: dp-plans-pricing
-random_paper: 14
+random_paper: 20
 score:
   band: developing
-  composite: 40.1
+  composite: 43.9
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 49.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 55.3
+    access_clarity: 63.2
     contract_governance: 4.5
-    contract_quality: 42.0
-    developer_ergonomics: 54.8
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 40.0
+    contract_quality: 41.9
+    developer_ergonomics: 64.3
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,13 +351,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/screenshots/dp-2026-07-25T212347.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dp/dp-2026-07-25T212347.png
 security:
 - kind: authentication
   name: Dp Authentication
@@ -360,6 +368,42 @@ security:
   name: Dp Domain Security
   slug: dp-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 17
+skills:
+- name: bohrium-database
+  slug: dp-bohrium-database
+- name: bohrium-dataset
+  slug: dp-bohrium-dataset
+- name: bohrium-file
+  slug: dp-bohrium-file
+- name: bohrium-image
+  slug: dp-bohrium-image
+- name: bohrium-job
+  slug: dp-bohrium-job
+- name: bohrium-knowledge-base
+  slug: dp-bohrium-knowledge-base
+- name: bohrium-lkm
+  slug: dp-bohrium-lkm
+- name: bohrium-mentor
+  slug: dp-bohrium-mentor
+- name: bohrium-node
+  slug: dp-bohrium-node
+- name: bohrium-paper-search
+  slug: dp-bohrium-paper-search
+- name: bohrium-pdf-parser
+  slug: dp-bohrium-pdf-parser
+- name: bohrium-project
+  slug: dp-bohrium-project
+- name: bohrium-sandbox
+  slug: dp-bohrium-sandbox
+- name: bohrium-scholar-search
+  slug: dp-bohrium-scholar-search
+- name: bohrium-sciencepedia
+  slug: dp-bohrium-sciencepedia
+- name: bohrium-tools
+  slug: dp-bohrium-tools
+- name: bohrium-web-search
+  slug: dp-bohrium-web-search
 slug: dp
 tags:
 - Company

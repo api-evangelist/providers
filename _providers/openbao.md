@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,20 +38,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The OpenBao HTTP API gives full access to every OpenBao capability over REST-like HTTP verbs. All routes are prefixed with /v1/ and the API is versioned only at that prefix. Authentication is by clien
   name: OpenBao HTTP API
   slug: openbao-http-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Openbao Audit Events
   slug: openbao-audit-events
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/rate-limits/openbao-rate-limits.yml
+  href: https://artifacts.apis.io/openbao/rate-limits/openbao-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/openbao-rate-limits.yml
@@ -58,7 +60,7 @@ common:
   type: BlogRSS
   url: https://openbao.org/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/security/openbao-domain-security.yml
+  href: https://artifacts.apis.io/openbao/security/openbao-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openbao-domain-security.yml
@@ -107,83 +109,91 @@ common:
   type: PrivacyPolicy
   url: https://lfprojects.org/policies/privacy-policy/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/changelog/openbao-changelog.yml
+  href: https://artifacts.apis.io/openbao/changelog/openbao-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openbao-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/lifecycle/openbao-lifecycle.yml
+  href: https://artifacts.apis.io/openbao/lifecycle/openbao-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/openbao-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/lifecycle/openbao-lifecycle.yml
+  href: https://artifacts.apis.io/openbao/lifecycle/openbao-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openbao-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/packages/openbao-packages.yml
+  href: https://artifacts.apis.io/openbao/packages/openbao-packages.yml
   title: ''
   type: Packages
   url: packages/openbao-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/packages/openbao-packages.yml
+  href: https://artifacts.apis.io/openbao/packages/openbao-packages.yml
   title: ''
   type: SDKs
   url: packages/openbao-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/cli/openbao-cli.yml
+  href: https://artifacts.apis.io/openbao/cli/openbao-cli.yml
   title: ''
   type: CLI
   url: cli/openbao-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/sandbox/openbao-sandbox.yml
+  href: https://artifacts.apis.io/openbao/sandbox/openbao-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/openbao-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/conformance/openbao-conformance.yml
+  href: https://artifacts.apis.io/openbao/conformance/openbao-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openbao-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/conformance/openbao-conformance.yml
+  href: https://artifacts.apis.io/openbao/conformance/openbao-conformance.yml
   title: ''
   type: Compliance
   url: conformance/openbao-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/security/openbao-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/openbao/security/openbao-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/openbao-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/security/openbao-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/openbao/security/openbao-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/openbao-vulnerability-disclosure.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/grpc/openbao-backend.proto
+  href: https://artifacts.apis.io/openbao/grpc/openbao-backend.proto
   title: ''
   type: Protobuf
   url: grpc/openbao-backend.proto
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/openbao/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/llms/openbao-llms.txt
+  href: https://artifacts.apis.io/openbao/llms/openbao-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openbao-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/plans/openbao-plans-pricing.yml
+  href: https://artifacts.apis.io/openbao/plans/openbao-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/openbao-plans-pricing.yml
 created: '2026-08-27'
 description: 'OpenBao is an open source, community-driven identity-based secrets and encryption management system, forked from HashiCorp Vault in 2023 and governed by the Linux Foundation as a sandbox project of the Open Source Security Foundation (OpenSSF). It stores and tightly controls access to tokens, passwords, certificates and encryption keys, and exposes every one of its capabilities — key/value secrets, dynamic database credentials, PKI issuance, transit encryption, leasing and revocation, policy and namespace administration, seal/unseal and cluster operations — through a single JSON HTTP API prefixed with /v1/. OpenBao is self-hosted software rather than a hosted service, so there is no vendor-operated base URL: the API is served by whatever instance an operator runs, and the CLI, the web UI and the official Go client all speak the same HTTP API. The machine-readable OpenAPI document is generated per instance at runtime from the mounted backends and is served at /v1/sys/internal/specs/openapi
   rather than published as a static file.'
+finops:
+- has_sources: true
+  method: derived
+  name: Openbao Finops
+  primary_unit: ''
+  service_category: ''
+  slug: openbao-finops
+  template: true
 image: https://raw.githubusercontent.com/openbao/artwork/main/color/openbao-color.png
 layout: provider
 modified: '2026-10-06'
@@ -201,30 +211,30 @@ plans:
 - name: Openbao Plans Pricing
   plan_count: 0
   slug: openbao-plans-pricing
-random_paper: 14
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Openbao Rate Limits
   slug: openbao-rate-limits
 score:
   band: developing
-  composite: 51.7
+  composite: 51.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 85.7
-    discoverability: 73.2
-    operational_transparency: 50.0
-  previous_composite: 51.6
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 51.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -235,14 +245,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/screenshots/openbao-2026-09-02T150850.png
+screenshot: https://apis.io/screenshots/openbao/openbao-2026-09-02T150850.png
 security:
 - kind: authentication
   name: Openbao Authentication

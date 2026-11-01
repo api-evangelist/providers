@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cohere-technologies/refs/heads/main/security/cohere-technologies-domain-security.yml
+  href: https://artifacts.apis.io/cohere-technologies/security/cohere-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cohere-technologies-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cohere-technologies/refs/heads/main/llms/cohere-technologies-llms.txt
+  href: https://artifacts.apis.io/cohere-technologies/llms/cohere-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cohere-technologies-llms.txt
@@ -82,10 +84,10 @@ overview: 'Cohere Technologies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Cohere Technologies'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 1
+random_paper: 15
 score:
   band: minimal
-  composite: 6.3
+  composite: 5.6
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -99,23 +101,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 6.3
+  previous_composite: 5.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cohere-technologies/refs/heads/main/screenshots/cohere-technologies-2026-07-25T210017.png
+screenshot: https://apis.io/screenshots/cohere-technologies/cohere-technologies-2026-07-25T210017.png
 security:
 - kind: domain-security
   name: Cohere Technologies Domain Security

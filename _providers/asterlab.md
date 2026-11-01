@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API from Aster serving open-weight models (gpt-oss-120b, gpt-oss-120b-fast, GLM 5.2). Authenticate with an Aster API key created in the inference console and set the base U
@@ -43,7 +45,7 @@ apis:
 artifact_total: 4
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/asterlab/refs/heads/main/plans/asterlab-plans-pricing.yml
+  href: https://artifacts.apis.io/asterlab/plans/asterlab-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/asterlab-plans-pricing.yml
@@ -88,27 +90,27 @@ common:
   type: Support
   url: mailto:info@asterlab.ai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/asterlab/refs/heads/main/authentication/asterlab-authentication.yml
+  href: https://artifacts.apis.io/asterlab/authentication/asterlab-authentication.yml
   title: ''
   type: Authentication
   url: authentication/asterlab-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/asterlab/refs/heads/main/conventions/asterlab-conventions.yml
+  href: https://artifacts.apis.io/asterlab/conventions/asterlab-conventions.yml
   title: ''
   type: Conventions
   url: conventions/asterlab-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/asterlab/refs/heads/main/well-known/asterlab-well-known.yml
+  href: https://artifacts.apis.io/asterlab/well-known/asterlab-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/asterlab-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/asterlab/refs/heads/main/llms/asterlab-llms.txt
+  href: https://artifacts.apis.io/asterlab/llms/asterlab-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/asterlab-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/asterlab/refs/heads/main/security/asterlab-domain-security.yml
+  href: https://artifacts.apis.io/asterlab/security/asterlab-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/asterlab-domain-security.yml
@@ -128,40 +130,40 @@ plans:
 - name: Asterlab Plans Pricing
   plan_count: 6
   slug: asterlab-plans-pricing
-random_paper: 10
+random_paper: 6
 score:
   band: thin
-  composite: 33.0
+  composite: 32.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 26.7
+  previous_composite: 32.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/asterlab/refs/heads/main/screenshots/asterlab-2026-07-25T201459.png
+screenshot: https://apis.io/screenshots/asterlab/asterlab-2026-07-25T201459.png
 security:
 - kind: authentication
   name: Asterlab Authentication

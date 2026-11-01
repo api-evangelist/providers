@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.5
-  scored_at: '2026-10-17'
+  score: 30.3
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - baseURL: https://{tenant}.hypr.com
@@ -56,60 +58,65 @@ apis:
   description: The RP Applications API from HYPR — 111 operation(s) for rp applications.
   name: HYPR RP Applications API
   slug: hypr-rp-applications-api
-artifact_total: 10
+artifact_total: 13
 common:
+- group: commercial
+  href: https://artifacts.apis.io/hypr/plans/hypr-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hypr-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/rules/hypr-rules.yml
+  href: https://artifacts.apis.io/hypr/rules/hypr-rules.yml
   title: ''
   type: Spectral
   url: rules/hypr-rules.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/security/hypr-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hypr/security/hypr-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/hypr-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/errors/hypr-problem-types.yml
+  href: https://artifacts.apis.io/hypr/errors/hypr-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hypr-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/conformance/hypr-conformance.yml
+  href: https://artifacts.apis.io/hypr/conformance/hypr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hypr-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/well-known/hypr-status-security.txt
+  href: https://artifacts.apis.io/hypr/well-known/hypr-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/hypr-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/well-known/hypr-well-known.yml
+  href: https://artifacts.apis.io/hypr/well-known/hypr-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hypr-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/hosts/hypr-hosts.yml
+  href: https://artifacts.apis.io/hypr/hosts/hypr-hosts.yml
   title: ''
   type: Hosts
   url: hosts/hypr-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/vendors/hypr-vendors.yml
+  href: https://artifacts.apis.io/hypr/vendors/hypr-vendors.yml
   title: ''
   type: Vendors
   url: vendors/hypr-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/security/hypr-trust-center.yml
+  href: https://artifacts.apis.io/hypr/security/hypr-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/hypr-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/security/hypr-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hypr/security/hypr-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hypr-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/security/hypr-domain-security.yml
+  href: https://artifacts.apis.io/hypr/security/hypr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hypr-domain-security.yml
@@ -182,6 +189,14 @@ coverage:
   state: none
 created: '2026-10-13'
 description: HYPR is a passwordless identity assurance company. Its Passwordless REST APIs, served from each customer's own HYPR Server, cover device registration, authentication, user management, RP application configuration, audit trail and administration.
+finops:
+- has_sources: true
+  method: derived
+  name: Hypr Finops
+  primary_unit: user
+  service_category: ''
+  slug: hypr-finops
+  template: false
 image: https://www.hypr.com/hubfs/Company/HYPR-general-tile.jpg
 layout: provider
 modified: '2026-10-13'
@@ -194,8 +209,15 @@ overview: 'HYPR is listed with 6 APIs on the [APIs.io](https://apis.io/) network
   The HYPR catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  HYPR''s developer surface includes API reference, engineering blog, documentation, getting-started guide, pricing, support, and 19 more developer resources.'
-random_paper: 11
+  HYPR''s developer surface includes API reference, engineering blog, documentation, getting-started guide, pricing, support, and 20 more developer resources.'
+plans:
+- name: Hypr Plans Pricing
+  plan_count: 7
+  slug: hypr-plans-pricing
+- name: Hypr Price Estimates
+  plan_count: 0
+  slug: hypr-price-estimates
+random_paper: 19
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -211,21 +233,23 @@ rules:
   slug: hypr-rules
 score:
   band: developing
-  composite: 39.9
+  composite: 45.9
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 44.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 70.5
+    artifact_dirs: 14
+    catalog_earned: 59.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 7.9
   facets:
-    access_clarity: 39.5
+    access_clarity: 78.9
     contract_governance: 18.2
-    contract_quality: 12.3
+    contract_quality: 11.1
     developer_ergonomics: 57.1
     discoverability: 73.2
     operational_transparency: 26.3
+  previous_composite: 38.0
   provenance:
     conformance: derived
     contracts:
@@ -240,11 +264,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 22.2
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Hypr Domain Security

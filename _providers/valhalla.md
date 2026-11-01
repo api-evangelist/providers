@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-17'
+  score: 23.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -98,11 +100,8 @@ apis:
   description: The Trace Route API from Valhalla — 1 operation(s) for trace route.
   name: Valhalla Trace Route API
   slug: valhalla-trace-route-api
-artifact_total: 38
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Valhalla Routing Expansion API
   slug: open-valhalla-expansion-api
@@ -142,12 +141,12 @@ common:
   type: Website
   url: https://valhalla.github.io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/agentic-access/valhalla-agentic-access.yml
+  href: https://artifacts.apis.io/valhalla/agentic-access/valhalla-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/valhalla-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/security/valhalla-domain-security.yml
+  href: https://artifacts.apis.io/valhalla/security/valhalla-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/valhalla-domain-security.yml
@@ -241,7 +240,7 @@ plans:
 - name: Open Source
   plan_count: 2
   slug: open-source
-random_paper: 1
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Openstreetmap De
@@ -260,7 +259,7 @@ rules:
   slug: valhalla-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 25.7
+  composite: 25.3
   coverage:
     artifact_dirs: 14
     catalog_earned: 53.3
@@ -268,7 +267,7 @@ score:
     catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 9.8
@@ -276,7 +275,7 @@ score:
     developer_ergonomics: 9.5
     discoverability: 66.1
     operational_transparency: 13.2
-  previous_composite: 32.6
+  previous_composite: 25.3
   provenance:
     agentic_access: derived
     contracts:
@@ -290,13 +289,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/screenshots/valhalla-2026-08-17T082706.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/valhalla/valhalla-2026-08-17T082706.png
 security:
 - kind: domain-security
   name: Valhalla Domain Security

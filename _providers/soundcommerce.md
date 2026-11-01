@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -81,42 +83,42 @@ common:
   type: ChangeLog
   url: https://reactordata.com/docs/release-notes
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soundcommerce/refs/heads/main/llms/soundcommerce-llms.txt
+  href: https://artifacts.apis.io/soundcommerce/llms/soundcommerce-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/soundcommerce-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soundcommerce/refs/heads/main/mcp/soundcommerce-mcp.yml
+  href: https://artifacts.apis.io/soundcommerce/mcp/soundcommerce-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/soundcommerce-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soundcommerce/refs/heads/main/security/soundcommerce-trust-center.yml
+  href: https://artifacts.apis.io/soundcommerce/security/soundcommerce-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/soundcommerce-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soundcommerce/refs/heads/main/security/soundcommerce-trust-center.yml
+  href: https://artifacts.apis.io/soundcommerce/security/soundcommerce-trust-center.yml
   title: ''
   type: Compliance
   url: security/soundcommerce-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soundcommerce/refs/heads/main/security/soundcommerce-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/soundcommerce/security/soundcommerce-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/soundcommerce-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soundcommerce/refs/heads/main/security/soundcommerce-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/soundcommerce/security/soundcommerce-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/soundcommerce-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soundcommerce/refs/heads/main/security/soundcommerce-domain-security.yml
+  href: https://artifacts.apis.io/soundcommerce/security/soundcommerce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/soundcommerce-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soundcommerce/refs/heads/main/conformance/soundcommerce-conformance.yml
+  href: https://artifacts.apis.io/soundcommerce/conformance/soundcommerce-conformance.yml
   title: ''
   type: Conformance
   url: conformance/soundcommerce-conformance.yml
@@ -136,10 +138,10 @@ overview: 'SoundCommerce is profiled on the [APIs.io](https://apis.io/) network.
 
 
   SoundCommerce''s developer surface includes documentation, pricing, engineering blog, support, signup flow, changelog, and 13 more developer resources.'
-random_paper: 10
+random_paper: 4
 score:
   band: thin
-  composite: 30.9
+  composite: 30.6
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -153,9 +155,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 55.0
-    operational_transparency: 28.9
-  previous_composite: 30.9
+    discoverability: 48.3
+    operational_transparency: 31.6
+  previous_composite: 30.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -165,14 +167,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/soundcommerce/refs/heads/main/screenshots/soundcommerce-2026-09-02T160242.png
+screenshot: https://apis.io/screenshots/soundcommerce/soundcommerce-2026-09-02T160242.png
 security:
 - kind: domain-security
   name: Soundcommerce Domain Security

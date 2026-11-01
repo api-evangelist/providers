@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -84,11 +86,8 @@ apis:
   description: Manage Kafka ACL rules for access control
   name: WarpStream AC Ls API
   slug: warpstream-acls-api
-artifact_total: 31
+artifact_total: 30
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: WarpStream Management ACLs API
   slug: open-warpstream-acls-api
@@ -115,22 +114,22 @@ collections:
   slug: open-warpstream-workspaces-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/agentic-access/warpstream-agentic-access.yml
+  href: https://artifacts.apis.io/warpstream/agentic-access/warpstream-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/warpstream-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/security/warpstream-trust-center.yml
+  href: https://artifacts.apis.io/warpstream/security/warpstream-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/warpstream-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/security/warpstream-domain-security.yml
+  href: https://artifacts.apis.io/warpstream/security/warpstream-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/warpstream-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/authentication/warpstream-authentication.yml
+  href: https://artifacts.apis.io/warpstream/authentication/warpstream-authentication.yml
   title: ''
   type: Authentication
   url: authentication/warpstream-authentication.yml
@@ -167,27 +166,27 @@ common:
   type: X
   url: https://twitter.com/warpstream_labs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/plans/warpstream-plans-pricing.yml
+  href: https://artifacts.apis.io/warpstream/plans/warpstream-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/warpstream-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/rate-limits/warpstream-rate-limits.yml
+  href: https://artifacts.apis.io/warpstream/rate-limits/warpstream-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/warpstream-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/finops/warpstream-finops.yml
+  href: https://artifacts.apis.io/warpstream/finops/warpstream-finops.yml
   title: ''
   type: FinOps
   url: finops/warpstream-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/vocabulary/warpstream-vocabulary.yml
+  href: https://artifacts.apis.io/warpstream/vocabulary/warpstream-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/warpstream-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/json-ld/warpstream-context.jsonld
+  href: https://artifacts.apis.io/warpstream/json-ld/warpstream-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/warpstream-context.jsonld
@@ -244,7 +243,7 @@ plans:
 - name: Warpstream Plans Pricing
   plan_count: 6
   slug: warpstream-plans-pricing
-random_paper: 16
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Warpstream Rate Limits
@@ -263,7 +262,7 @@ rules:
   slug: warpstream-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.8
+  composite: 38.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 61.8
@@ -271,7 +270,7 @@ score:
     catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 23.5
@@ -279,7 +278,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 46.1
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -293,13 +292,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/screenshots/warpstream-2026-06-20T201333.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/warpstream/warpstream-2026-06-20T201333.png
 security:
 - kind: authentication
   name: Warpstream Authentication

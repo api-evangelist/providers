@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-17'
+  score: 32.2
+  scored_at: '2026-10-31'
 api_count: 11
 apis:
 - baseURL: https://platform.modulate.ai
@@ -94,7 +96,7 @@ apis:
   description: The Velma 2 Synthetic Voice Detection Batch API from Modulate — 1 operation(s) for velma 2 synthetic voice detection batch.
   name: Modulate Velma 2 Synthetic Voice Detection Batch API
   slug: modulate-velma-2-synthetic-voice-detection-batch-api
-artifact_total: 35
+artifact_total: 39
 asyncapis:
 - description: 'Real-time AI music detection over WebSocket. The client streams audio and receives per-window vocal AI verdicts as they become available, followed by a final clip-level summary including instrumental '
   name: Velma 2 AI Music Detection Streaming API
@@ -118,9 +120,6 @@ asyncapis:
   name: Modulate Velma-2 Streaming Server
   slug: modulate-velma-2-streaming-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Velma 2 Accent Batch API
   slug: open-modulate-velma-2-accent-batch-api
@@ -155,18 +154,23 @@ collections:
   name: Velma 2 Accent Batch Velma 2 Synthetic Voice Detection Batch API
   slug: open-modulate-velma-2-synthetic-voice-detection-batch-api
 common:
+- group: other
+  href: https://artifacts.apis.io/modulate/capabilities/modulate-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/modulate-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/plans/modulate-plans-pricing.yml
+  href: https://artifacts.apis.io/modulate/plans/modulate-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/modulate-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/overlays/modulate-velma-2-batch-overlay.yaml
+  href: https://artifacts.apis.io/modulate/overlays/modulate-velma-2-batch-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/modulate-velma-2-batch-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/security/modulate-trust-center.yml
+  href: https://artifacts.apis.io/modulate/security/modulate-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/modulate-trust-center.yml
@@ -175,12 +179,12 @@ common:
   type: Compliance
   url: https://www.modulate.ai/compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/security/modulate-domain-security.yml
+  href: https://artifacts.apis.io/modulate/security/modulate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/modulate-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/authentication/modulate-authentication.yml
+  href: https://artifacts.apis.io/modulate/authentication/modulate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/modulate-authentication.yml
@@ -237,62 +241,70 @@ common:
   type: GitHubOrganization
   url: https://github.com/modulateai
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/llms/modulate-llms.txt
+  href: https://artifacts.apis.io/modulate/llms/modulate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/modulate-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/mcp/modulate-mcp.yml
+  href: https://artifacts.apis.io/modulate/mcp/modulate-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/modulate-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/conventions/modulate-conventions.yml
+  href: https://artifacts.apis.io/modulate/conventions/modulate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/modulate-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/errors/modulate-error-codes.yml
+  href: https://artifacts.apis.io/modulate/errors/modulate-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/modulate-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/lifecycle/modulate-lifecycle.yml
+  href: https://artifacts.apis.io/modulate/lifecycle/modulate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/modulate-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/conformance/modulate-conformance.yml
+  href: https://artifacts.apis.io/modulate/conformance/modulate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/modulate-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/data-model/modulate-data-model.yml
+  href: https://artifacts.apis.io/modulate/data-model/modulate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/modulate-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/sandbox/modulate-sandbox.yml
+  href: https://artifacts.apis.io/modulate/sandbox/modulate-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/modulate-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/rate-limits/modulate-rate-limits.yml
+  href: https://artifacts.apis.io/modulate/rate-limits/modulate-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/modulate-rate-limits.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/asyncapi/modulate-velma-2-streaming-asyncapi.yml
+  href: https://artifacts.apis.io/modulate/asyncapi/modulate-velma-2-streaming-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/modulate-velma-2-streaming-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/modulate/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Modulate is a voice AI company based in Cambridge, Massachusetts, building audio-native voice intelligence for trust, safety, and conversation understanding. Its Velma-2 platform exposes a suite of REST (batch) and WebSocket (streaming) model APIs — multilingual and English speech-to-text transcription with speaker diarization, deepfake (synthetic voice) detection, emotion and accent detection, PII/PHI tagging and redaction, language detection, and music/speech and AI-music detection — alongside Velma conversation analysis (behaviors, topics, sentiment, participant roles) and the ToxMod voice-safety product for gaming and social platforms. Authentication is via an X-API-Key header (an api_key query parameter for WebSocket streams), billed per hour of audio processed. Backed by Sierra Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Modulate Finops
+  primary_unit: annual commitment
+  service_category: ''
+  slug: modulate-finops
+  template: false
 image: https://cdn.prod.website-files.com/67ed675f8e30d86d14c51adb/6a0c34c788a0bb22111adc3a_Modulate%20Thumbnail%20master.png
 layout: provider
 modified: '2026-07-20'
@@ -305,34 +317,37 @@ overview: 'Modulate publishes 11 API contracts indexed on the [APIs.io](https://
   The Modulate catalog on APIs.io includes 7 event-driven AsyncAPI specifications.
 
 
-  Modulate''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
+  Modulate''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
 plans:
 - name: Modulate Plans Pricing
   plan_count: 18
   slug: modulate-plans-pricing
-random_paper: 1
+- name: Modulate Price Estimates
+  plan_count: 0
+  slug: modulate-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Modulate Rate Limits
   slug: modulate-rate-limits
 score:
   band: strong
-  composite: 61.6
+  composite: 63.5
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 64.0
+    artifact_dirs: 23
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.9
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 59.5
     developer_ergonomics: 66.1
-    discoverability: 78.6
-    operational_transparency: 34.2
+    discoverability: 71.4
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -340,7 +355,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 55.7
+  previous_composite: 61.9
   provenance:
     conformance: first-party
     contracts:
@@ -360,13 +375,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 26.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/screenshots/modulate-2026-08-07T184031.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/modulate/modulate-2026-08-07T184031.png
 security:
 - kind: authentication
   name: Modulate Authentication
@@ -380,6 +396,14 @@ security:
   name: Modulate Trust Center
   slug: modulate-trust-center
   summary_line: SOC 2, ISO 27001, GDPR
+skill_count: 3
+skills:
+- name: Analyze a voice conversation with Velma-2
+  slug: modulate-analyze-conversation
+- name: Detect deepfake (synthetic) voice
+  slug: modulate-detect-deepfake
+- name: Transcribe audio and redact PII/PHI
+  slug: modulate-transcribe-and-redact
 slug: modulate
 tags:
 - Company

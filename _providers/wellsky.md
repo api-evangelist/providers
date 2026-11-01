@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Integration hub API for WellSky's CareTend home infusion and specialty pharmacy platform, providing programmatic access to patient management, billing authorizations, clinical visits, inventory, purch
@@ -59,7 +61,7 @@ common:
   type: Website
   url: https://www.wellsky.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wellsky/refs/heads/main/security/wellsky-domain-security.yml
+  href: https://artifacts.apis.io/wellsky/security/wellsky-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wellsky-domain-security.yml
@@ -72,17 +74,17 @@ common:
   type: Support
   url: https://wellsky.com/support/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wellsky/refs/heads/main/plans/wellsky-plans-pricing.yml
+  href: https://artifacts.apis.io/wellsky/plans/wellsky-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wellsky-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wellsky/refs/heads/main/rate-limits/wellsky-rate-limits.yml
+  href: https://artifacts.apis.io/wellsky/rate-limits/wellsky-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wellsky-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wellsky/refs/heads/main/finops/wellsky-finops.yml
+  href: https://artifacts.apis.io/wellsky/finops/wellsky-finops.yml
   title: ''
   type: FinOps
   url: finops/wellsky-finops.yml
@@ -107,7 +109,7 @@ modified: '2026-10-06'
 name: WellSky
 nav: Providers
 network: true
-overview: 'WellSky is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Home Health, Hospice, Care Coordination, and FHIR.
+overview: 'WellSky is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Home Care, Hospice, Care Coordination, and FHIR.
 
 
   The WellSky catalog on APIs.io includes 1 JSON-LD context.
@@ -118,14 +120,14 @@ plans:
 - name: Wellsky Plans Pricing
   plan_count: 4
   slug: wellsky-plans-pricing
-random_paper: 9
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Wellsky Rate Limits
   slug: wellsky-rate-limits
 score:
   band: emerging
-  composite: 19.7
+  composite: 20.9
   coverage:
     artifact_dirs: 9
     catalog_earned: 54.0
@@ -133,29 +135,29 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 10.7
-    developer_ergonomics: 22.6
+    developer_ergonomics: 28.6
     discoverability: 71.4
     operational_transparency: 7.9
-  previous_composite: 28.0
+  previous_composite: 20.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wellsky/refs/heads/main/screenshots/wellsky-2026-06-20T201350.png
+screenshot: https://apis.io/screenshots/wellsky/wellsky-2026-06-20T201350.png
 security:
 - kind: domain-security
   name: Wellsky Domain Security
@@ -164,13 +166,12 @@ security:
 slug: wellsky
 tags:
 - Healthcare
-- Home Health
+- Home Care
 - Hospice
 - Care Coordination
 - FHIR
 - Clinical Documentation
 - Billing
 - Electronic Health Records
-- Home Care
 website: https://www.wellsky.com/
 ---

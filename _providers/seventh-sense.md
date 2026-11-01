@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 21.9
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://us.opencv.fr
   baseurl_source: declared
@@ -62,11 +64,8 @@ apis:
   description: The endpoints below allow you to search for previously registered persons using a face image obtained at a later time. The search is performed using a deep learning model trained on millions of face i
   name: Seventh Sense Search API
   slug: seventh-sense-search-api
-artifact_total: 13
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OpenCV Face Recognition Collections API
   slug: open-seventh-sense-collections-api
@@ -84,72 +83,72 @@ collections:
   slug: open-seventh-sense-search-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/overlays/seventh-sense-opencv-fr-overlay.yaml
+  href: https://artifacts.apis.io/seventh-sense/overlays/seventh-sense-opencv-fr-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seventh-sense-opencv-fr-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/security/seventh-sense-domain-security.yml
+  href: https://artifacts.apis.io/seventh-sense/security/seventh-sense-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/seventh-sense-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/authentication/seventh-sense-authentication.yml
+  href: https://artifacts.apis.io/seventh-sense/authentication/seventh-sense-authentication.yml
   title: ''
   type: Authentication
   url: authentication/seventh-sense-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/packages/seventh-sense-packages.yml
+  href: https://artifacts.apis.io/seventh-sense/packages/seventh-sense-packages.yml
   title: ''
   type: Packages
   url: packages/seventh-sense-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/packages/seventh-sense-packages.yml
+  href: https://artifacts.apis.io/seventh-sense/packages/seventh-sense-packages.yml
   title: ''
   type: SDKs
   url: packages/seventh-sense-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/conventions/seventh-sense-conventions.yml
+  href: https://artifacts.apis.io/seventh-sense/conventions/seventh-sense-conventions.yml
   title: ''
   type: Conventions
   url: conventions/seventh-sense-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/conformance/seventh-sense-conformance.yml
+  href: https://artifacts.apis.io/seventh-sense/conformance/seventh-sense-conformance.yml
   title: ''
   type: Conformance
   url: conformance/seventh-sense-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/conformance/seventh-sense-conformance.yml
+  href: https://artifacts.apis.io/seventh-sense/conformance/seventh-sense-conformance.yml
   title: ''
   type: Compliance
   url: conformance/seventh-sense-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/errors/seventh-sense-problem-types.yml
+  href: https://artifacts.apis.io/seventh-sense/errors/seventh-sense-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/seventh-sense-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/lifecycle/seventh-sense-lifecycle.yml
+  href: https://artifacts.apis.io/seventh-sense/lifecycle/seventh-sense-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/seventh-sense-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/data-model/seventh-sense-data-model.yml
+  href: https://artifacts.apis.io/seventh-sense/data-model/seventh-sense-data-model.yml
   title: ''
   type: DataModel
   url: data-model/seventh-sense-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/mcp/seventh-sense-mcp.yml
+  href: https://artifacts.apis.io/seventh-sense/mcp/seventh-sense-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/seventh-sense-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/llms/seventh-sense-llms.txt
+  href: https://artifacts.apis.io/seventh-sense/llms/seventh-sense-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/seventh-sense-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/seventh-sense/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -181,31 +180,31 @@ overview: 'Seventh Sense publishes 5 API contracts indexed on the [APIs.io](http
 
 
   Seventh Sense''s developer surface includes authentication, documentation, signup flow, and 15 more developer resources.'
-random_paper: 10
+random_paper: 8
 score:
   band: thin
-  composite: 32.7
+  composite: 34.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 43.7
-    developer_ergonomics: 37.5
-    discoverability: 73.2
+    contract_quality: 42.2
+    developer_ergonomics: 47.0
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - singapore
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 32.1
+  previous_composite: 34.2
   provenance:
     conformance: first-party
     contracts:
@@ -225,13 +224,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 26.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/screenshots/seventh-sense-2026-09-02T155055.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/seventh-sense/seventh-sense-2026-09-02T155055.png
 security:
 - kind: authentication
   name: Seventh Sense Authentication
@@ -241,6 +241,12 @@ security:
   name: Seventh Sense Domain Security
   slug: seventh-sense-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Register persons and search by face
+  slug: seventh-sense-register-and-search-faces
+- name: Verify a person with a liveness check
+  slug: seventh-sense-verify-with-liveness
 slug: seventh-sense
 tags:
 - Company

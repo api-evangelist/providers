@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.9
-  scored_at: '2026-10-17'
+  score: 30.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -103,9 +105,6 @@ collections:
   name: Loop Returns Cart Return Data API
   slug: postman-loop-returns-return-data-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Loop Returns Cart API
   slug: open-loop-returns-cart-api
 - collection_type: open
@@ -128,7 +127,7 @@ collections:
   slug: open-loop-returns-return-data-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/capabilities/loop-returns-capability-edges.yml
+  href: https://artifacts.apis.io/loop-returns/capabilities/loop-returns-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/loop-returns-capability-edges.yml
@@ -137,27 +136,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/loop-returns/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/agentic-access/loop-returns-agentic-access.yml
+  href: https://artifacts.apis.io/loop-returns/agentic-access/loop-returns-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/loop-returns-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/security/loop-returns-trust-center.yml
+  href: https://artifacts.apis.io/loop-returns/security/loop-returns-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/loop-returns-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/security/loop-returns-domain-security.yml
+  href: https://artifacts.apis.io/loop-returns/security/loop-returns-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/loop-returns-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/authentication/loop-returns-authentication.yml
+  href: https://artifacts.apis.io/loop-returns/authentication/loop-returns-authentication.yml
   title: ''
   type: Authentication
   url: authentication/loop-returns-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/scopes/loop-returns-scopes.yml
+  href: https://artifacts.apis.io/loop-returns/scopes/loop-returns-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/loop-returns-scopes.yml
@@ -202,27 +201,27 @@ common:
   type: X
   url: https://x.com/loop
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/plans/loop-returns-plans-pricing.yml
+  href: https://artifacts.apis.io/loop-returns/plans/loop-returns-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/loop-returns-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/rate-limits/loop-returns-rate-limits.yml
+  href: https://artifacts.apis.io/loop-returns/rate-limits/loop-returns-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/loop-returns-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/finops/loop-returns-finops.yml
+  href: https://artifacts.apis.io/loop-returns/finops/loop-returns-finops.yml
   title: ''
   type: FinOps
   url: finops/loop-returns-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/vocabulary/loop-returns-vocabulary.yml
+  href: https://artifacts.apis.io/loop-returns/vocabulary/loop-returns-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/loop-returns-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/json-ld/loop-returns-context.jsonld
+  href: https://artifacts.apis.io/loop-returns/json-ld/loop-returns-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/loop-returns-context.jsonld
@@ -239,13 +238,13 @@ examples:
   name: Loop Returns Webhook Example
   slug: loop-returns-webhook-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Loop Returns Finops
-  primary_unit: ''
+  primary_unit: subscription
   service_category: ''
   slug: loop-returns-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loop-returns.png
 json_schemas:
 - name: Loop Returns - Label Request
@@ -278,7 +277,10 @@ plans:
 - name: Loop Returns Plans Pricing
   plan_count: 3
   slug: loop-returns-plans-pricing
-random_paper: 20
+- name: Loop Returns Price Estimates
+  plan_count: 0
+  slug: loop-returns-price-estimates
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Loop Returns Rate Limits
@@ -302,23 +304,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.7
+  composite: 50.2
   coverage:
     artifact_dirs: 20
-    catalog_earned: 63.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.3
+    catalog_earned: 75.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 39.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 57.9
     contract_governance: 23.5
-    contract_quality: 62.6
+    contract_quality: 59.2
     developer_ergonomics: 29.8
     discoverability: 71.4
-    operational_transparency: 39.5
-  previous_composite: 51.1
+    operational_transparency: 42.1
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     contracts:
@@ -332,13 +334,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/screenshots/loop-returns-2026-06-20T184717.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/loop-returns/loop-returns-2026-06-20T184717.png
 security:
 - kind: authentication
   name: Loop Returns Authentication

@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 25.4
+  scored_at: '2026-10-31'
 api_count: 12
 apis:
 - description: OpenAI-compatible chat completions for the Step model family (e.g. step-3.7-flash, step-3.5-flash, stepaudio-2.5-chat), with multimodal image/video/audio message parts, tool calling, JSON mode, stream
@@ -76,14 +78,14 @@ apis:
 - description: Retrieve account information including balances (GET /v1/accounts).
   name: StepFun Accounts API
   slug: accounts-api
-artifact_total: 18
+artifact_total: 19
 asyncapis:
 - description: 'StepFun''s realtime event surface: a bidirectional realtime voice channel at wss://api.stepfun.com/v1/realtime (OpenAI Realtime-style session / conversation / response events, models stepaudio-2.5-real'
   name: StepFun Realtime Voice & Streaming TTS WebSocket API
   slug: stepfun-realtime-asyncapi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/plans/stepfun-plans-pricing.yml
+  href: https://artifacts.apis.io/stepfun/plans/stepfun-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stepfun-plans-pricing.yml
@@ -92,7 +94,7 @@ common:
   type: Blog
   url: https://www.stepfun.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/security/stepfun-domain-security.yml
+  href: https://artifacts.apis.io/stepfun/security/stepfun-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stepfun-domain-security.yml
@@ -141,47 +143,47 @@ common:
   type: PrivacyPolicy
   url: https://platform.stepfun.com/docs/zh/agreement/userprivacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/llms/stepfun-llms.txt
+  href: https://artifacts.apis.io/stepfun/llms/stepfun-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stepfun-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/well-known/stepfun-well-known.yml
+  href: https://artifacts.apis.io/stepfun/well-known/stepfun-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stepfun-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/mcp/stepfun-mcp.yml
+  href: https://artifacts.apis.io/stepfun/mcp/stepfun-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/stepfun-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/errors/stepfun-error-codes.yml
+  href: https://artifacts.apis.io/stepfun/errors/stepfun-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/stepfun-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/rate-limits/stepfun-rate-limits.yml
+  href: https://artifacts.apis.io/stepfun/rate-limits/stepfun-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stepfun-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/conventions/stepfun-conventions.yml
+  href: https://artifacts.apis.io/stepfun/conventions/stepfun-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stepfun-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/authentication/stepfun-authentication.yml
+  href: https://artifacts.apis.io/stepfun/authentication/stepfun-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stepfun-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/conformance/stepfun-conformance.yml
+  href: https://artifacts.apis.io/stepfun/conformance/stepfun-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stepfun-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/lifecycle/stepfun-lifecycle.yml
+  href: https://artifacts.apis.io/stepfun/lifecycle/stepfun-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stepfun-lifecycle.yml
@@ -190,22 +192,30 @@ common:
   type: Deprecation
   url: https://platform.stepfun.com/docs/zh/guides/model-migration
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/packages/stepfun-packages.yml
+  href: https://artifacts.apis.io/stepfun/packages/stepfun-packages.yml
   title: ''
   type: Packages
   url: packages/stepfun-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/packages/stepfun-packages.yml
+  href: https://artifacts.apis.io/stepfun/packages/stepfun-packages.yml
   title: ''
   type: SDKs
   url: packages/stepfun-packages.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/asyncapi/stepfun-realtime-asyncapi.yml
+  href: https://artifacts.apis.io/stepfun/asyncapi/stepfun-realtime-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/stepfun-realtime-asyncapi.yml
 created: '2026-07-17'
 description: StepFun (阶跃星辰) is a Shanghai-based AI foundation-model company whose open platform serves the Step model family — multimodal reasoning (step-3.7-flash), fast language reasoning (step-3.5-flash), vision, image generation and editing (step-2x-large, step-image-edit-2), and a deep audio stack spanning TTS, voice cloning, ASR, and end-to-end realtime voice (StepAudio 2.5) — via an OpenAI-compatible REST API at api.stepfun.com, an Anthropic-compatible Messages API, WebSocket realtime channels, and a hosted StepSearch MCP server for agent clients.
+finops:
+- has_sources: true
+  method: derived
+  name: Stepfun Finops
+  primary_unit: 1m tokens
+  service_category: ''
+  slug: stepfun-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stepfun.png
 layout: provider
 mcp_servers:
@@ -227,29 +237,29 @@ plans:
 - name: Stepfun Plans Pricing
   plan_count: 29
   slug: stepfun-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 18
   name: Stepfun Rate Limits
   slug: stepfun-rate-limits
 score:
   band: strong
-  composite: 54.4
+  composite: 55.3
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 64.0
+    artifact_dirs: 18
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.5
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.6
     developer_ergonomics: 64.3
-    discoverability: 80.0
-    operational_transparency: 42.1
+    discoverability: 70.0
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -257,7 +267,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 47.9
+  previous_composite: 53.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -267,14 +277,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/screenshots/stepfun-2026-08-17T082149.png
+screenshot: https://apis.io/screenshots/stepfun/stepfun-2026-08-17T082149.png
 security:
 - kind: authentication
   name: Stepfun Authentication

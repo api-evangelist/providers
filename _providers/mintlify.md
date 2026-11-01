@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.4
-  scored_at: '2026-10-17'
+  score: 45.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,7 +71,7 @@ apis:
   description: Trigger and monitor documentation deployment updates.
   name: Mintlify Update API
   slug: mintlify-update-api
-artifact_total: 40
+artifact_total: 42
 collections:
 - collection_type: postman
   name: Mintlify Agent API
@@ -83,9 +85,6 @@ collections:
 - collection_type: postman
   name: Mintlify Agent Update API
   slug: postman-mintlify-update-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Mintlify Agent API
   slug: open-mintlify-agent-api
@@ -103,57 +102,57 @@ collections:
   slug: open-mintlify
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/finops/mintlify-finops.yml
+  href: https://artifacts.apis.io/mintlify/finops/mintlify-finops.yml
   title: ''
   type: FinOps
   url: finops/mintlify-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/rate-limits/mintlify-rate-limits.yml
+  href: https://artifacts.apis.io/mintlify/rate-limits/mintlify-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mintlify-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/plans/mintlify-plans-pricing.yml
+  href: https://artifacts.apis.io/mintlify/plans/mintlify-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mintlify-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/rules/mintlify-rules.yml
+  href: https://artifacts.apis.io/mintlify/rules/mintlify-rules.yml
   title: ''
   type: Spectral
   url: rules/mintlify-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/rules/mintlify-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/mintlify/rules/mintlify-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/mintlify-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/json-ld/mintlify-context.jsonld
+  href: https://artifacts.apis.io/mintlify/json-ld/mintlify-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/mintlify-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/vocabulary/mintlify-vocabulary.yml
+  href: https://artifacts.apis.io/mintlify/vocabulary/mintlify-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/mintlify-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mintlify/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/data-model/mintlify-data-model.yml
+  href: https://artifacts.apis.io/mintlify/data-model/mintlify-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mintlify-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/cli/mintlify-cli.yml
+  href: https://artifacts.apis.io/mintlify/cli/mintlify-cli.yml
   title: ''
   type: CLI
   url: cli/mintlify-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/changelog/mintlify-changelog.yml
+  href: https://artifacts.apis.io/mintlify/changelog/mintlify-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mintlify-changelog.yml
@@ -162,37 +161,37 @@ common:
   type: Compliance
   url: https://security.mintlify.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/conformance/mintlify-conformance.yml
+  href: https://artifacts.apis.io/mintlify/conformance/mintlify-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mintlify-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/llms/mintlify-llms.txt
+  href: https://artifacts.apis.io/mintlify/llms/mintlify-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mintlify-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/a2a/mintlify-a2a.yml
+  href: https://artifacts.apis.io/mintlify/a2a/mintlify-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/mintlify-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/mcp/mintlify-mcp.yml
+  href: https://artifacts.apis.io/mintlify/mcp/mintlify-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mintlify-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/well-known/mintlify-well-known.yml
+  href: https://artifacts.apis.io/mintlify/well-known/mintlify-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mintlify-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/hosts/mintlify-hosts.yml
+  href: https://artifacts.apis.io/mintlify/hosts/mintlify-hosts.yml
   title: ''
   type: Hosts
   url: hosts/mintlify-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/vendors/mintlify-vendors.yml
+  href: https://artifacts.apis.io/mintlify/vendors/mintlify-vendors.yml
   title: ''
   type: Vendors
   url: vendors/mintlify-vendors.yml
@@ -205,7 +204,7 @@ common:
   type: APIReference
   url: https://www.mintlify.com/docs/reference/concepts
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/vendor-facets/mintlify-vendor-facets.yml
+  href: https://artifacts.apis.io/mintlify/vendor-facets/mintlify-vendor-facets.yml
   title: ''
   type: VendorFacets
   url: vendor-facets/mintlify-vendor-facets.yml
@@ -214,27 +213,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/mintlify/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/agentic-access/mintlify-agentic-access.yml
+  href: https://artifacts.apis.io/mintlify/agentic-access/mintlify-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mintlify-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/security/mintlify-trust-center.yml
+  href: https://artifacts.apis.io/mintlify/security/mintlify-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mintlify-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/security/mintlify-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mintlify/security/mintlify-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mintlify-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/security/mintlify-domain-security.yml
+  href: https://artifacts.apis.io/mintlify/security/mintlify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mintlify-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/authentication/mintlify-authentication.yml
+  href: https://artifacts.apis.io/mintlify/authentication/mintlify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mintlify-authentication.yml
@@ -366,10 +365,10 @@ created: '2026-01-05'
 description: Mintlify is an AI-native intelligent documentation platform designed for the next generation of technical documentation, combining beautiful out-of-the-box design with advanced collaboration and AI capabilities.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Mintlify Finops
-  primary_unit: ''
-  service_category: Documentation / Developer Tools
+  primary_unit: subscription
+  service_category: ''
   slug: mintlify-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mintlify.png
@@ -437,9 +436,12 @@ overview: 'Mintlify publishes 5 API contracts indexed on the [APIs.io](https://a
   Mintlify''s developer surface includes CLI, changelog, API reference, authentication, engineering blog, pricing, documentation, and 50 more developer resources.'
 plans:
 - name: Mintlify Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: mintlify-plans-pricing
-random_paper: 18
+- name: Mintlify Price Estimates
+  plan_count: 0
+  slug: mintlify-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Mintlify Rate Limits
@@ -469,24 +471,24 @@ rules:
     warn: 0
   slug: mintlify-rules
 score:
-  band: strong
-  composite: 59.9
+  band: exemplar
+  composite: 66.6
   coverage:
     artifact_dirs: 32
-    catalog_earned: 67.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    catalog_earned: 79.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 36.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.9
+  delta: 1.6
   facets:
-    access_clarity: 68.4
+    access_clarity: 100.0
     contract_governance: 31.8
     contract_quality: 57.7
     developer_ergonomics: 57.7
-    discoverability: 66.7
+    discoverability: 63.3
     operational_transparency: 60.5
-  previous_composite: 60.8
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -503,13 +505,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/screenshots/mintlify-2026-06-20T185606.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mintlify/mintlify-2026-06-20T185606.png
 security:
 - kind: authentication
   name: Mintlify Authentication
@@ -527,6 +530,12 @@ security:
   name: Mintlify Trust Center
   slug: mintlify-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 2
+skills:
+- name: mintlify-create-agent-job
+  slug: mintlify-create-agent-job
+- name: mintlify-update-documentation
+  slug: mintlify-update-documentation
 slug: mintlify
 tags:
 - Documentation

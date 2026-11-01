@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 30.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -100,7 +102,7 @@ apis:
   description: The Version API from Solera — 2 operation(s) for version.
   name: Solera Version API
   slug: solera-version-api
-artifact_total: 27
+artifact_total: 32
 asyncapis:
 - description: 'Audatex Integrations (EAPI) pushes claim lifecycle events to a CLIENT-hosted HTTPS endpoint. The client registers its callback endpoints and the credentials Audatex should use, per assignment, in the '
   name: Solera / Audatex EAPI Event Callbacks
@@ -145,77 +147,77 @@ common:
   type: BlogRSS
   url: https://www.solera.com/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/capabilities/solera-capability-edges.yml
+  href: https://artifacts.apis.io/solera/capabilities/solera-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/solera-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/overlays/solera-dashboard-assignment-overlay.yaml
+  href: https://artifacts.apis.io/solera/overlays/solera-dashboard-assignment-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/solera-dashboard-assignment-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/overlays/solera-enterprise-assignment-prod-swagger-overlay.yaml
+  href: https://artifacts.apis.io/solera/overlays/solera-enterprise-assignment-prod-swagger-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/solera-enterprise-assignment-prod-swagger-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/overlays/solera-claim-images-overlay.yaml
+  href: https://artifacts.apis.io/solera/overlays/solera-claim-images-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/solera-claim-images-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/overlays/solera-claim-images-prod-swagger-overlay.yaml
+  href: https://artifacts.apis.io/solera/overlays/solera-claim-images-prod-swagger-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/solera-claim-images-prod-swagger-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/overlays/solera-gic-integration-overlay.yaml
+  href: https://artifacts.apis.io/solera/overlays/solera-gic-integration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/solera-gic-integration-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/overlays/solera-getdocuments-v1-overlay.yaml
+  href: https://artifacts.apis.io/solera/overlays/solera-getdocuments-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/solera-getdocuments-v1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/overlays/solera-getdocuments-v2-overlay.yaml
+  href: https://artifacts.apis.io/solera/overlays/solera-getdocuments-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/solera-getdocuments-v2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/overlays/solera-getimage-v1-overlay.yaml
+  href: https://artifacts.apis.io/solera/overlays/solera-getimage-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/solera-getimage-v1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/overlays/solera-getimage-v2-overlay.yaml
+  href: https://artifacts.apis.io/solera/overlays/solera-getimage-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/solera-getimage-v2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/overlays/solera-eapi-getdocument-overlay.yaml
+  href: https://artifacts.apis.io/solera/overlays/solera-eapi-getdocument-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/solera-eapi-getdocument-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/agentic-access/solera-agentic-access.yml
+  href: https://artifacts.apis.io/solera/agentic-access/solera-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/solera-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/security/solera-domain-security.yml
+  href: https://artifacts.apis.io/solera/security/solera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/solera-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/authentication/solera-authentication.yml
+  href: https://artifacts.apis.io/solera/authentication/solera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/solera-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/scopes/solera-scopes.yml
+  href: https://artifacts.apis.io/solera/scopes/solera-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/solera-scopes.yml
@@ -260,72 +262,72 @@ common:
   type: Documentation
   url: https://na.api.solera.com/files/GIC%20-%20Image%20Capture%20API.docx
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/well-known/solera-well-known.yml
+  href: https://artifacts.apis.io/solera/well-known/solera-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/solera-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/well-known/solera-openid-configuration.json
+  href: https://artifacts.apis.io/solera/well-known/solera-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/solera-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/conformance/solera-conformance.yml
+  href: https://artifacts.apis.io/solera/conformance/solera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/solera-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/errors/solera-problem-types.yml
+  href: https://artifacts.apis.io/solera/errors/solera-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/solera-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/lifecycle/solera-lifecycle.yml
+  href: https://artifacts.apis.io/solera/lifecycle/solera-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/solera-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/conventions/solera-conventions.yml
+  href: https://artifacts.apis.io/solera/conventions/solera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/solera-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/sandbox/solera-sandbox.yml
+  href: https://artifacts.apis.io/solera/sandbox/solera-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/solera-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/changelog/solera-changelog.yml
+  href: https://artifacts.apis.io/solera/changelog/solera-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/solera-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/data-model/solera-data-model.yml
+  href: https://artifacts.apis.io/solera/data-model/solera-data-model.yml
   title: ''
   type: DataModel
   url: data-model/solera-data-model.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/asyncapi/solera-eapi-asyncapi.yml
+  href: https://artifacts.apis.io/solera/asyncapi/solera-eapi-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/solera-eapi-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/asyncapi/solera-webhooks.yml
+  href: https://artifacts.apis.io/solera/asyncapi/solera-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/solera-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/solera/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/mcp/solera-mcp.yml
+  href: https://artifacts.apis.io/solera/mcp/solera-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/solera-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/llms/solera-llms.txt
+  href: https://artifacts.apis.io/solera/llms/solera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/solera-llms.txt
@@ -390,7 +392,7 @@ overview: 'Solera publishes 11 API contracts indexed on the [APIs.io](https://ap
 
 
   Solera''s developer surface includes authentication, engineering blog, API reference, documentation, sandbox, changelog, support, and 44 more developer resources.'
-random_paper: 8
+random_paper: 22
 scopes:
 - name: Solera Scopes
   scope_count: 4
@@ -398,7 +400,7 @@ scopes:
   summary_line: 4 scopes · password
 score:
   band: developing
-  composite: 41.6
+  composite: 42.4
   coverage:
     artifact_dirs: 23
     catalog_earned: 40.0
@@ -412,7 +414,7 @@ score:
     contract_governance: 18.2
     contract_quality: 45.0
     developer_ergonomics: 56.5
-    discoverability: 72.3
+    discoverability: 73.2
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -421,7 +423,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 41.6
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -438,13 +440,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/screenshots/solera-2026-08-17T081956.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/solera/solera-2026-08-17T081956.png
 security:
 - kind: authentication
   name: Solera Authentication
@@ -454,6 +457,18 @@ security:
   name: Solera Domain Security
   slug: solera-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Authenticate against the Audatex IdentityServer
+  slug: solera-authenticate
+- name: Dispatch an assignment to Audatex
+  slug: solera-dispatch-assignment
+- name: Run the GIC image-capture integration
+  slug: solera-gic-image-capture
+- name: Retrieve claim images
+  slug: solera-retrieve-claim-images
+- name: Retrieve estimate documents after an estimate completes
+  slug: solera-retrieve-estimate-documents
 slug: solera
 tags:
 - Insurance

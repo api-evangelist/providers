@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,32 +71,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/lafraise-pro
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/la-fraise-pro/refs/heads/main/llms/la-fraise-pro-llms.txt
+  href: https://artifacts.apis.io/la-fraise-pro/llms/la-fraise-pro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/la-fraise-pro-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/la-fraise-pro/refs/heads/main/well-known/la-fraise-pro-well-known.yml
+  href: https://artifacts.apis.io/la-fraise-pro/well-known/la-fraise-pro-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/la-fraise-pro-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/la-fraise-pro/refs/heads/main/packages/la-fraise-pro-packages.yml
+  href: https://artifacts.apis.io/la-fraise-pro/packages/la-fraise-pro-packages.yml
   title: ''
   type: Packages
   url: packages/la-fraise-pro-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/la-fraise-pro/refs/heads/main/conformance/la-fraise-pro-conformance.yml
+  href: https://artifacts.apis.io/la-fraise-pro/conformance/la-fraise-pro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/la-fraise-pro-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/la-fraise-pro/refs/heads/main/conformance/la-fraise-pro-conformance.yml
+  href: https://artifacts.apis.io/la-fraise-pro/conformance/la-fraise-pro-conformance.yml
   title: ''
   type: Compliance
   url: conformance/la-fraise-pro-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/la-fraise-pro/refs/heads/main/security/la-fraise-pro-domain-security.yml
+  href: https://artifacts.apis.io/la-fraise-pro/security/la-fraise-pro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/la-fraise-pro-domain-security.yml
@@ -110,25 +112,25 @@ overview: 'La Fraise Pro is profiled on the [APIs.io](https://apis.io/) network.
 
 
   La Fraise Pro''s developer surface includes engineering blog, documentation, pricing, and 11 more developer resources.'
-random_paper: 12
+random_paper: 18
 score:
   band: emerging
-  composite: 12.3
+  composite: 22.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 14.5
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 55.4
-    operational_transparency: 2.6
+    developer_ergonomics: 11.9
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -137,7 +139,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 11.8
+  previous_composite: 22.4
   provenance:
     conformance: first-party
   regulatory:
@@ -145,15 +147,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 18.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/la-fraise-pro/refs/heads/main/screenshots/la-fraise-pro-2026-10-11T110306.png
+screenshot: https://apis.io/screenshots/la-fraise-pro/la-fraise-pro-2026-10-11T110306.png
 security:
 - kind: domain-security
   name: La Fraise Pro Domain Security

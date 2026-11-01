@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Amber Premium Global API service suite, exposing institutional crypto trading, liquidity, and account services for the Amber Premium (Nasdaq: AMBR) platform. API reference is published as a hosted'
@@ -41,7 +43,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amber-group/refs/heads/main/security/amber-group-domain-security.yml
+  href: https://artifacts.apis.io/amber-group/security/amber-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amber-group-domain-security.yml
@@ -86,7 +88,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/ambergroup-io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amber-group/refs/heads/main/llms/amber-group-llms.txt
+  href: https://artifacts.apis.io/amber-group/llms/amber-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amber-group-llms.txt
@@ -102,12 +104,12 @@ overview: 'Amber Group is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   Amber Group''s developer surface includes documentation, API reference, support, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 21
+random_paper: 17
 score:
   band: emerging
-  composite: 20.0
+  composite: 19.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -119,23 +121,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 20.0
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 19.7
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/amber-group/refs/heads/main/screenshots/amber-group-2026-07-25T200028.png
+screenshot: https://apis.io/screenshots/amber-group/amber-group-2026-07-25T200028.png
 security:
 - kind: domain-security
   name: Amber Group Domain Security

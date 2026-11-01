@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
@@ -44,7 +46,7 @@ common:
   type: BlogRSS
   url: https://www.mursion.com/blog/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mursion/refs/heads/main/security/mursion-domain-security.yml
+  href: https://artifacts.apis.io/mursion/security/mursion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mursion-domain-security.yml
@@ -105,52 +107,52 @@ common:
   type: SecondaryMarketListing
   url: https://forgeglobal.com/mursion_stock/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mursion/refs/heads/main/authentication/mursion-authentication.yml
+  href: https://artifacts.apis.io/mursion/authentication/mursion-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mursion-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mursion/refs/heads/main/conformance/mursion-conformance.yml
+  href: https://artifacts.apis.io/mursion/conformance/mursion-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mursion-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mursion/refs/heads/main/conventions/mursion-conventions.yml
+  href: https://artifacts.apis.io/mursion/conventions/mursion-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mursion-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mursion/refs/heads/main/changelog/mursion-changelog.yml
+  href: https://artifacts.apis.io/mursion/changelog/mursion-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mursion-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mursion/refs/heads/main/lifecycle/mursion-lifecycle.yml
+  href: https://artifacts.apis.io/mursion/lifecycle/mursion-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mursion-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mursion/refs/heads/main/plans/mursion-plans-pricing.yml
+  href: https://artifacts.apis.io/mursion/plans/mursion-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mursion-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mursion/refs/heads/main/rate-limits/mursion-rate-limits.yml
+  href: https://artifacts.apis.io/mursion/rate-limits/mursion-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mursion-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mursion/refs/heads/main/packages/mursion-packages.yml
+  href: https://artifacts.apis.io/mursion/packages/mursion-packages.yml
   title: ''
   type: Packages
   url: packages/mursion-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mursion/refs/heads/main/llms/mursion-llms.txt
+  href: https://artifacts.apis.io/mursion/llms/mursion-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mursion-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mursion/refs/heads/main/security/mursion-trust-center.yml
+  href: https://artifacts.apis.io/mursion/security/mursion-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mursion-trust-center.yml
@@ -186,14 +188,14 @@ plans:
 - name: Mursion Plans Pricing
   plan_count: 0
   slug: mursion-plans-pricing
-random_paper: 11
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Mursion Rate Limits
   slug: mursion-rate-limits
 score:
   band: emerging
-  composite: 22.6
+  composite: 25.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 27.0
@@ -203,13 +205,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 48.2
-    operational_transparency: 18.4
-  previous_composite: 22.6
+    operational_transparency: 21.1
+  previous_composite: 25.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -218,15 +220,15 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mursion/refs/heads/main/screenshots/mursion-2026-09-02T150658.png
+screenshot: https://apis.io/screenshots/mursion/mursion-2026-09-02T150658.png
 security:
 - kind: authentication
   name: Mursion Authentication

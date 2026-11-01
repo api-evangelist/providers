@@ -1,8 +1,8 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-17'
+  score: 33.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -68,65 +70,70 @@ apis:
   description: Endpoints for updating a card
   name: Enfuce Update card API
   slug: enfuce-update-card-api
-artifact_total: 11
+artifact_total: 14
 common:
+- group: commercial
+  href: https://artifacts.apis.io/enfuce/plans/enfuce-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/enfuce-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/enfuce/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/agentic-access/enfuce-agentic-access.yml
+  href: https://artifacts.apis.io/enfuce/agentic-access/enfuce-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/enfuce-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/rate-limits/enfuce-rate-limits.yml
+  href: https://artifacts.apis.io/enfuce/rate-limits/enfuce-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/enfuce-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/data-model/enfuce-data-model.yml
+  href: https://artifacts.apis.io/enfuce/data-model/enfuce-data-model.yml
   title: ''
   type: DataModel
   url: data-model/enfuce-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/changelog/enfuce-changelog.yml
+  href: https://artifacts.apis.io/enfuce/changelog/enfuce-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/enfuce-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/conventions/enfuce-conventions.yml
+  href: https://artifacts.apis.io/enfuce/conventions/enfuce-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/enfuce-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/conventions/enfuce-conventions.yml
+  href: https://artifacts.apis.io/enfuce/conventions/enfuce-conventions.yml
   title: ''
   type: Conventions
   url: conventions/enfuce-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/errors/enfuce-problem-types.yml
+  href: https://artifacts.apis.io/enfuce/errors/enfuce-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/enfuce-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/conformance/enfuce-conformance.yml
+  href: https://artifacts.apis.io/enfuce/conformance/enfuce-conformance.yml
   title: ''
   type: Conformance
   url: conformance/enfuce-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/overlays/enfuce-advanced-spend-control-v1-overlay.yml
+  href: https://artifacts.apis.io/enfuce/overlays/enfuce-advanced-spend-control-v1-overlay.yml
   title: ''
   type: Overlay
   url: overlays/enfuce-advanced-spend-control-v1-overlay.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/llms/enfuce-llms.txt
+  href: https://artifacts.apis.io/enfuce/llms/enfuce-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/enfuce-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/a2a/enfuce-a2a.yml
+  href: https://artifacts.apis.io/enfuce/a2a/enfuce-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/enfuce-a2a.yml
@@ -151,12 +158,12 @@ common:
   type: ChangeLog
   url: https://docs.enfuce.com/updates/release-notes
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/authentication/enfuce-authentication.yml
+  href: https://artifacts.apis.io/enfuce/authentication/enfuce-authentication.yml
   title: ''
   type: Authentication
   url: authentication/enfuce-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/security/enfuce-domain-security.yml
+  href: https://artifacts.apis.io/enfuce/security/enfuce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/enfuce-domain-security.yml
@@ -198,6 +205,14 @@ common:
   url: https://github.com/enfuce
 created: '2026-09-21'
 description: Enfuce provides a cloud‑native, tenant‑isolated, API‑first platform for card issuing, processing, licensing, ledger, fraud & dispute management, and data analytics. It serves banks, fintechs, fleet providers and enterprises, offering real‑time decisioning at scale, modular services, and compliance with PSD3, DORA and AMLA standards.
+finops:
+- has_sources: true
+  method: derived
+  name: Enfuce Finops
+  primary_unit: ''
+  service_category: ''
+  slug: enfuce-finops
+  template: true
 image: https://enfuce.com/uploads/Product-images/_1200x630_crop_center-center_82_none/resized_2552x1436.png?mtime=1788270445
 layout: provider
 modified: '2026-09-21'
@@ -207,8 +222,12 @@ network: true
 overview: 'Enfuce publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorisation Request API, Create Card API, Create PIN Control access token API, and 4 more. Tagged areas include Company, Payments, Card Issuing, Fintech, and API Platform.
 
 
-  Enfuce''s developer surface includes changelog, pricing, authentication, documentation, API reference, getting-started guide, engineering blog, and 21 more developer resources.'
-random_paper: 14
+  Enfuce''s developer surface includes changelog, pricing, authentication, documentation, API reference, getting-started guide, engineering blog, and 22 more developer resources.'
+plans:
+- name: Enfuce Plans Pricing
+  plan_count: 0
+  slug: enfuce-plans-pricing
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Enfuce Rate Limits
@@ -217,7 +236,7 @@ score:
   band: developing
   composite: 49.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 23
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -229,7 +248,7 @@ score:
     contract_governance: 18.2
     contract_quality: 49.9
     developer_ergonomics: 49.4
-    discoverability: 75.0
+    discoverability: 67.9
     operational_transparency: 57.9
   previous_composite: 49.3
   provenance:
@@ -248,13 +267,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/screenshots/enfuce-2026-10-11T104207.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/enfuce/enfuce-2026-10-11T104207.png
 security:
 - kind: authentication
   name: Enfuce Authentication
@@ -264,6 +284,10 @@ security:
   name: Enfuce Domain Security
   slug: enfuce-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: auth
+  slug: enfuce-auth
 slug: enfuce
 tags:
 - Company

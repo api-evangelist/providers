@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 31.3
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://madapi.madkudu.com
@@ -98,20 +100,20 @@ apis:
   description: The Utilities API from MadKudu — 1 operation(s) for utilities.
   name: MadKudu Utilities API
   slug: madkudu-utilities-api
-artifact_total: 18
+artifact_total: 22
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/capabilities/madkudu-capability-edges.yml
+  href: https://artifacts.apis.io/madkudu/capabilities/madkudu-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/madkudu-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/overlays/madkudu-madapi-overlay.yaml
+  href: https://artifacts.apis.io/madkudu/overlays/madkudu-madapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/madkudu-madapi-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/overlays/madkudu-legacy-api-overlay.yaml
+  href: https://artifacts.apis.io/madkudu/overlays/madkudu-legacy-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/madkudu-legacy-api-overlay.yaml
@@ -136,12 +138,12 @@ common:
   type: GettingStarted
   url: https://developers.madkudu.com/getting-started/quickstart
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/mcp/madkudu-mcp.yml
+  href: https://artifacts.apis.io/madkudu/mcp/madkudu-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/madkudu-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/mcp/madkudu-tool-crosswalk.yml
+  href: https://artifacts.apis.io/madkudu/mcp/madkudu-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/madkudu-tool-crosswalk.yml
@@ -182,87 +184,95 @@ common:
   type: StatusPage
   url: https://status.madkudu.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/authentication/madkudu-authentication.yml
+  href: https://artifacts.apis.io/madkudu/authentication/madkudu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/madkudu-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/errors/madkudu-problem-types.yml
+  href: https://artifacts.apis.io/madkudu/errors/madkudu-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/madkudu-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/conventions/madkudu-conventions.yml
+  href: https://artifacts.apis.io/madkudu/conventions/madkudu-conventions.yml
   title: ''
   type: Conventions
   url: conventions/madkudu-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/lifecycle/madkudu-lifecycle.yml
+  href: https://artifacts.apis.io/madkudu/lifecycle/madkudu-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/madkudu-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/data-model/madkudu-data-model.yml
+  href: https://artifacts.apis.io/madkudu/data-model/madkudu-data-model.yml
   title: ''
   type: DataModel
   url: data-model/madkudu-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/sandbox/madkudu-sandbox.yml
+  href: https://artifacts.apis.io/madkudu/sandbox/madkudu-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/madkudu-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/conformance/madkudu-conformance.yml
+  href: https://artifacts.apis.io/madkudu/conformance/madkudu-conformance.yml
   title: ''
   type: Conformance
   url: conformance/madkudu-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/security/madkudu-trust-center.yml
+  href: https://artifacts.apis.io/madkudu/security/madkudu-trust-center.yml
   title: ''
   type: Compliance
   url: security/madkudu-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/security/madkudu-trust-center.yml
+  href: https://artifacts.apis.io/madkudu/security/madkudu-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/madkudu-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/security/madkudu-domain-security.yml
+  href: https://artifacts.apis.io/madkudu/security/madkudu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/madkudu-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/packages/madkudu-packages.yml
+  href: https://artifacts.apis.io/madkudu/packages/madkudu-packages.yml
   title: ''
   type: Packages
   url: packages/madkudu-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/packages/madkudu-packages.yml
+  href: https://artifacts.apis.io/madkudu/packages/madkudu-packages.yml
   title: ''
   type: SDKs
   url: packages/madkudu-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/plans/madkudu-plans-pricing.yml
+  href: https://artifacts.apis.io/madkudu/plans/madkudu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/madkudu-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/rate-limits/madkudu-rate-limits.yml
+  href: https://artifacts.apis.io/madkudu/rate-limits/madkudu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/madkudu-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/madkudu/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/llms/madkudu-llms.txt
+  href: https://artifacts.apis.io/madkudu/llms/madkudu-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/madkudu-llms.txt
 created: '2026-07-17'
 description: MadKudu is a predictive lead scoring and account intelligence platform for B2B sales and marketing teams, using AI-driven propensity modeling and dynamic scoring across fit, intent, and engagement signals to surface high-propensity accounts and people. Its developer surface (MadAPI) programmatically exposes account and person lookup, enrichment, activity, search, sourcing discovery, AI web search, organisation endpoints and a "coming soon" custom ingestion API, alongside a legacy Scoring API and a hosted Model Context Protocol (MCP) server for AI agents. MadKudu publishes OpenAPI 3.1.0 for both surfaces, but only as per-operation blocks embedded in its GitBook reference — no spec document is served. MadKudu was acquired by HG Insights in 2025; the docs are now titled "HG Platform API" and API access is contact-sales. Originally backed by Partech and Techstars.
+finops:
+- has_sources: true
+  method: derived
+  name: Madkudu Finops
+  primary_unit: ''
+  service_category: ''
+  slug: madkudu-finops
+  template: true
 image: https://cdn.prod.website-files.com/6107b1101d4d3e748743f234/65f31ad2b4ac6cf0cb8bd691_og-img.png
 layout: provider
 mcp_servers:
@@ -281,30 +291,30 @@ plans:
 - name: Madkudu Plans Pricing
   plan_count: 0
   slug: madkudu-plans-pricing
-random_paper: 21
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Madkudu Rate Limits
   slug: madkudu-rate-limits
 score:
   band: developing
-  composite: 51.2
+  composite: 53.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 49.3
-    developer_ergonomics: 70.8
-    discoverability: 68.3
-    operational_transparency: 39.5
-  previous_composite: 51.1
+    developer_ergonomics: 73.2
+    discoverability: 65.0
+    operational_transparency: 42.1
+  previous_composite: 53.7
   provenance:
     conformance: derived
     contracts:
@@ -320,13 +330,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/screenshots/madkudu-2026-07-25T225833.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/madkudu/madkudu-2026-07-25T225833.png
 security:
 - kind: authentication
   name: Madkudu Authentication
@@ -340,6 +351,14 @@ security:
   name: Madkudu Trust Center
   slug: madkudu-trust-center
   summary_line: SOC 2 Type 2, CAIQ, SIG Lite
+skill_count: 3
+skills:
+- name: MadKudu account intelligence lookup
+  slug: madkudu-account-intelligence
+- name: MadKudu hiring-signal enrichment
+  slug: madkudu-hiring-signal-enrichment
+- name: MadKudu person discovery and enrichment
+  slug: madkudu-person-enrichment
 slug: madkudu
 tags:
 - Company

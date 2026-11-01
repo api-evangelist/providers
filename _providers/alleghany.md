@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alleghany/refs/heads/main/security/alleghany-domain-security.yml
+  href: https://artifacts.apis.io/alleghany/security/alleghany-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alleghany-domain-security.yml
@@ -107,12 +109,12 @@ press:
 - date: ''
   title: Alleghany Capital Corporation Announces Investment In ...
   url: https://www.prnewswire.com/news-releases/alleghany-capital-corporation-announces-investment-in-ips-integrated-project-services-300170111.html
-random_paper: 3
+random_paper: 13
 score:
   band: minimal
   composite: 3.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -133,14 +135,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alleghany/refs/heads/main/screenshots/alleghany-2026-07-25T195644.png
+screenshot: https://apis.io/screenshots/alleghany/alleghany-2026-07-25T195644.png
 security:
 - kind: domain-security
   name: Alleghany Domain Security

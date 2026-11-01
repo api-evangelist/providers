@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,9 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 4
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -93,62 +95,62 @@ common:
   type: Compliance
   url: https://getbruin.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bruin/refs/heads/main/security/bruin-trust-center.yml
+  href: https://artifacts.apis.io/bruin/security/bruin-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bruin-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bruin/refs/heads/main/security/bruin-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bruin/security/bruin-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bruin-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bruin/refs/heads/main/security/bruin-domain-security.yml
+  href: https://artifacts.apis.io/bruin/security/bruin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bruin-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bruin/refs/heads/main/packages/bruin-packages.yml
+  href: https://artifacts.apis.io/bruin/packages/bruin-packages.yml
   title: ''
   type: Packages
   url: packages/bruin-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bruin/refs/heads/main/packages/bruin-packages.yml
+  href: https://artifacts.apis.io/bruin/packages/bruin-packages.yml
   title: ''
   type: SDKs
   url: packages/bruin-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bruin/refs/heads/main/cli/bruin-cli.yml
+  href: https://artifacts.apis.io/bruin/cli/bruin-cli.yml
   title: ''
   type: CLI
   url: cli/bruin-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bruin/refs/heads/main/mcp/bruin-mcp.yml
+  href: https://artifacts.apis.io/bruin/mcp/bruin-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bruin-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bruin/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bruin/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bruin/refs/heads/main/llms/bruin-llms.txt
+  href: https://artifacts.apis.io/bruin/llms/bruin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bruin-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bruin/refs/heads/main/conformance/bruin-conformance.yml
+  href: https://artifacts.apis.io/bruin/conformance/bruin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bruin-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bruin/refs/heads/main/lifecycle/bruin-lifecycle.yml
+  href: https://artifacts.apis.io/bruin/lifecycle/bruin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bruin-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bruin/refs/heads/main/changelog/bruin-changelog.yml
+  href: https://artifacts.apis.io/bruin/changelog/bruin-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bruin-changelog.yml
@@ -175,23 +177,23 @@ overview: 'Bruin is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 16
 score:
   band: thin
-  composite: 34.3
+  composite: 36.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.7
-    discoverability: 55.0
-    operational_transparency: 28.9
-  previous_composite: 34.2
+    discoverability: 48.3
+    operational_transparency: 31.6
+  previous_composite: 36.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -206,14 +208,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bruin/refs/heads/main/screenshots/bruin-2026-07-25T204000.png
+screenshot: https://apis.io/screenshots/bruin/bruin-2026-07-25T204000.png
 security:
 - kind: domain-security
   name: Bruin Domain Security
@@ -227,6 +229,14 @@ security:
   name: Bruin Trust Center
   slug: bruin-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 3
+skills:
+- name: pipeline-diagnose
+  slug: bruin-pipeline-diagnose
+- name: quality-check-investigate
+  slug: bruin-quality-check-investigate
+- name: schema-drift-check
+  slug: bruin-schema-drift-check
 slug: bruin
 tags:
 - Company

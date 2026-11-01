@@ -12,7 +12,7 @@ api_count: 0
 artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bemis/refs/heads/main/security/bemis-domain-security.yml
+  href: https://artifacts.apis.io/bemis/security/bemis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bemis-domain-security.yml
@@ -78,7 +78,7 @@ press:
   title: /C O R R E C T I O N -- Bemis Associates Inc/
   url: https://www.newswire.ca/news-releases/bemis-associates-appoints-christina-chen-as-president-and-chief-operating-officer-885168229.html
 random_paper: 0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bemis/refs/heads/main/screenshots/bemis-2026-06-20T173134.png
+screenshot: https://apis.io/screenshots/bemis/bemis-2026-06-20T173134.png
 security:
 - kind: domain-security
   name: Bemis Domain Security

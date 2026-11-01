@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Historical partner/owner REST API used by fleet-management integrators (CarSync, FleetWire, Kitts) to sync bookings onto external calendars, block vehicle availability, generate invoices for professio
@@ -46,12 +48,12 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getaround/refs/heads/main/security/getaround-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/getaround/security/getaround-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/getaround-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getaround/refs/heads/main/security/getaround-domain-security.yml
+  href: https://artifacts.apis.io/getaround/security/getaround-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/getaround-domain-security.yml
@@ -140,12 +142,12 @@ overview: 'Getaround is listed with 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Getaround''s developer surface includes documentation, engineering blog, and 18 more developer resources.'
-random_paper: 1
+random_paper: 9
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -167,14 +169,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/getaround/refs/heads/main/screenshots/getaround-2026-07-25T215717.png
+screenshot: https://apis.io/screenshots/getaround/getaround-2026-07-25T215717.png
 security:
 - kind: domain-security
   name: Getaround Domain Security

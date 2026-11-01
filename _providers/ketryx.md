@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,9 +59,6 @@ apis:
 artifact_total: 9
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Ketryx Build Artifacts API
   slug: open-ketryx-artifacts-api
 - collection_type: open
@@ -75,12 +74,12 @@ common:
   type: Website
   url: https://www.ketryx.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/overlays/ketryx-build-api-overlay.yaml
+  href: https://artifacts.apis.io/ketryx/overlays/ketryx-build-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ketryx-build-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/agentic-access/ketryx-agentic-access.yml
+  href: https://artifacts.apis.io/ketryx/agentic-access/ketryx-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ketryx-agentic-access.yml
@@ -137,47 +136,47 @@ common:
   type: Compliance
   url: https://trust.ketryx.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/llms/ketryx-llms.txt
+  href: https://artifacts.apis.io/ketryx/llms/ketryx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ketryx-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/packages/ketryx-packages.yml
+  href: https://artifacts.apis.io/ketryx/packages/ketryx-packages.yml
   title: ''
   type: Packages
   url: packages/ketryx-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/packages/ketryx-packages.yml
+  href: https://artifacts.apis.io/ketryx/packages/ketryx-packages.yml
   title: ''
   type: SDKs
   url: packages/ketryx-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/authentication/ketryx-authentication.yml
+  href: https://artifacts.apis.io/ketryx/authentication/ketryx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ketryx-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/conformance/ketryx-conformance.yml
+  href: https://artifacts.apis.io/ketryx/conformance/ketryx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ketryx-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/lifecycle/ketryx-lifecycle.yml
+  href: https://artifacts.apis.io/ketryx/lifecycle/ketryx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ketryx-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/security/ketryx-domain-security.yml
+  href: https://artifacts.apis.io/ketryx/security/ketryx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ketryx-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/mcp/ketryx-mcp.yml
+  href: https://artifacts.apis.io/ketryx/mcp/ketryx-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ketryx-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ketryx/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -193,10 +192,10 @@ overview: 'Ketryx publishes 2 API contracts indexed on the [APIs.io](https://api
 
 
   Ketryx''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 19
+random_paper: 7
 score:
-  band: thin
-  composite: 33.7
+  band: developing
+  composite: 40.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -209,10 +208,10 @@ score:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 14.3
-    developer_ergonomics: 28.0
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 33.7
+    developer_ergonomics: 54.2
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -233,13 +232,14 @@ score:
     regime: Health
     regime_id: health
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/screenshots/ketryx-2026-07-25T223638.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ketryx/ketryx-2026-07-25T223638.png
 security:
 - kind: authentication
   name: Ketryx Authentication
@@ -253,6 +253,10 @@ security:
   name: Ketryx Trust Center
   slug: ketryx-trust-center
   summary_line: SOC 2 Type 2, SOC 3, ISO/IEC 27001:2022, ISO 13485:2016, ISO 14971:2019, IEC 62304:2006, HIPAA BAA, FDA 21 CFR Part 11
+skill_count: 1
+skills:
+- name: Report a build to Ketryx
+  slug: ketryx-report-build
 slug: ketryx
 tags:
 - Company

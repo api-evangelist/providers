@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-insurance/refs/heads/main/security/adaptive-insurance-domain-security.yml
+  href: https://artifacts.apis.io/adaptive-insurance/security/adaptive-insurance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adaptive-insurance-domain-security.yml
@@ -61,42 +63,42 @@ common:
   type: PrivacyPolicy
   url: https://www.adaptiveinsurance.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-insurance/refs/heads/main/llms/adaptive-insurance-llms.txt
+  href: https://artifacts.apis.io/adaptive-insurance/llms/adaptive-insurance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adaptive-insurance-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-insurance/refs/heads/main/well-known/adaptive-insurance-well-known.yml
+  href: https://artifacts.apis.io/adaptive-insurance/well-known/adaptive-insurance-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adaptive-insurance-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-insurance/refs/heads/main/authentication/adaptive-insurance-authentication.yml
+  href: https://artifacts.apis.io/adaptive-insurance/authentication/adaptive-insurance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adaptive-insurance-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-insurance/refs/heads/main/scopes/adaptive-insurance-scopes.yml
+  href: https://artifacts.apis.io/adaptive-insurance/scopes/adaptive-insurance-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/adaptive-insurance-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-insurance/refs/heads/main/conformance/adaptive-insurance-conformance.yml
+  href: https://artifacts.apis.io/adaptive-insurance/conformance/adaptive-insurance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adaptive-insurance-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-insurance/refs/heads/main/plans/adaptive-insurance-plans-pricing.yml
+  href: https://artifacts.apis.io/adaptive-insurance/plans/adaptive-insurance-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adaptive-insurance-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-insurance/refs/heads/main/rate-limits/adaptive-insurance-rate-limits.yml
+  href: https://artifacts.apis.io/adaptive-insurance/rate-limits/adaptive-insurance-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adaptive-insurance-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-insurance/refs/heads/main/security/adaptive-insurance-domain-security.yml
+  href: https://artifacts.apis.io/adaptive-insurance/security/adaptive-insurance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adaptive-insurance-domain-security.yml
@@ -145,7 +147,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: emerging
-  composite: 21.4
+  composite: 20.7
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -159,9 +161,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 21.4
+  previous_composite: 20.7
   provenance:
     conformance: first-party
   regulatory:
@@ -170,14 +172,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-insurance/refs/heads/main/screenshots/adaptive-insurance-2026-10-11T092738.png
+screenshot: https://apis.io/screenshots/adaptive-insurance/adaptive-insurance-2026-10-11T092738.png
 security:
 - kind: authentication
   name: Adaptive Insurance Authentication

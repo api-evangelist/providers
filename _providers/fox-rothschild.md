@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 21
 apis:
 - description: Attorney-authored LexBlog covering advertising, trademark, and copyright law.
@@ -101,7 +103,7 @@ apis:
 artifact_total: 22
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fox-rothschild/refs/heads/main/security/fox-rothschild-domain-security.yml
+  href: https://artifacts.apis.io/fox-rothschild/security/fox-rothschild-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fox-rothschild-domain-security.yml
@@ -169,10 +171,10 @@ overview: 'Fox Rothschild is listed with 21 APIs on the [APIs.io](https://apis.i
 
 
   Fox Rothschild''s developer surface includes engineering blog, product news, and 12 more developer resources.'
-random_paper: 2
+random_paper: 14
 score:
   band: minimal
-  composite: 6.3
+  composite: 6.4
   coverage:
     artifact_dirs: 4
     catalog_earned: 40.0
@@ -186,23 +188,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 72.3
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 6.3
+  previous_composite: 6.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fox-rothschild/refs/heads/main/screenshots/fox-rothschild-2026-06-20T181502.png
+screenshot: https://apis.io/screenshots/fox-rothschild/fox-rothschild-2026-06-20T181502.png
 security:
 - kind: domain-security
   name: Fox Rothschild Domain Security

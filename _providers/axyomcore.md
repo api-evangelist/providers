@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 0
 common:
@@ -62,7 +64,7 @@ overview: 'AxyomCore is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   AxyomCore''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 15
+random_paper: 23
 score:
   band: minimal
   composite: 2.3
@@ -81,12 +83,6 @@ score:
     developer_ergonomics: 7.1
     discoverability: 39.3
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 2.3
   regulatory:
     applies: true
@@ -94,14 +90,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/axyomcore/refs/heads/main/screenshots/axyomcore-2026-09-02T144923.png
+screenshot: https://apis.io/screenshots/axyomcore/axyomcore-2026-09-02T144923.png
 slug: axyomcore
 tags:
 - Telecommunications

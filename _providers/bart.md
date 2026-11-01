@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Public transit data API providing schedules, real-time departures, station info and fare data.
@@ -32,22 +34,22 @@ apis:
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bart/refs/heads/main/plans/bart-plans-pricing.yml
+  href: https://artifacts.apis.io/bart/plans/bart-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bart-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bart/refs/heads/main/llms/bart-llms.txt
+  href: https://artifacts.apis.io/bart/llms/bart-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bart-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bart/refs/heads/main/hosts/bart-hosts.yml
+  href: https://artifacts.apis.io/bart/hosts/bart-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bart-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bart/refs/heads/main/vendors/bart-vendors.yml
+  href: https://artifacts.apis.io/bart/vendors/bart-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bart-vendors.yml
@@ -76,7 +78,7 @@ common:
   type: DeveloperPortal
   url: https://www.bart.gov/about/developers
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bart/refs/heads/main/security/bart-domain-security.yml
+  href: https://artifacts.apis.io/bart/security/bart-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bart-domain-security.yml
@@ -107,10 +109,10 @@ plans:
 - name: Bart Plans Pricing
   plan_count: 35
   slug: bart-plans-pricing
-random_paper: 7
+random_paper: 17
 score:
   band: emerging
-  composite: 21.5
+  composite: 20.8
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -124,23 +126,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 53.6
+    discoverability: 46.4
     operational_transparency: 0.0
-  previous_composite: 21.5
+  previous_composite: 20.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bart/refs/heads/main/screenshots/bart-2026-10-11T101601.png
+screenshot: https://apis.io/screenshots/bart/bart-2026-10-11T101601.png
 security:
 - kind: domain-security
   name: Bart Domain Security

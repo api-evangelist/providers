@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,16 +37,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Anonymous, publicly callable MCP server on binske's direct-to-consumer storefront host implementing the Universal Commerce Protocol shopping service. A live JSON-RPC 2.0 tools/list returned 13 tools w
   name: binske Storefront Commerce API (UCP / MCP)
   slug: binske-storefront-commerce-api-ucp-mcp
-artifact_total: 6
+artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/security/binske-domain-security.yml
+  href: https://artifacts.apis.io/binske/security/binske-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/binske-domain-security.yml
@@ -57,57 +59,57 @@ common:
   type: Documentation
   url: https://shopbinske.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/mcp/binske-mcp.yml
+  href: https://artifacts.apis.io/binske/mcp/binske-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/binske-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/llms/binske-llms.txt
+  href: https://artifacts.apis.io/binske/llms/binske-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/binske-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/well-known/binske-well-known.yml
+  href: https://artifacts.apis.io/binske/well-known/binske-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/binske-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/authentication/binske-authentication.yml
+  href: https://artifacts.apis.io/binske/authentication/binske-authentication.yml
   title: ''
   type: Authentication
   url: authentication/binske-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/scopes/binske-scopes.yml
+  href: https://artifacts.apis.io/binske/scopes/binske-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/binske-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/conventions/binske-conventions.yml
+  href: https://artifacts.apis.io/binske/conventions/binske-conventions.yml
   title: ''
   type: Conventions
   url: conventions/binske-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/conventions/binske-conventions.yml
+  href: https://artifacts.apis.io/binske/conventions/binske-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/binske-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/conformance/binske-conformance.yml
+  href: https://artifacts.apis.io/binske/conformance/binske-conformance.yml
   title: ''
   type: Conformance
   url: conformance/binske-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/lifecycle/binske-lifecycle.yml
+  href: https://artifacts.apis.io/binske/lifecycle/binske-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/binske-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/data-model/binske-data-model.yml
+  href: https://artifacts.apis.io/binske/data-model/binske-data-model.yml
   title: ''
   type: DataModel
   url: data-model/binske-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/binske/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -158,7 +160,7 @@ overview: 'Binske is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Binske''s developer surface includes documentation, authentication, engineering blog, support, and 17 more developer resources.'
-random_paper: 20
+random_paper: 12
 scopes:
 - name: Binske Scopes
   scope_count: 4
@@ -166,7 +168,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 22.5
+  composite: 21.9
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -180,9 +182,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 71.7
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 22.5
+  previous_composite: 21.9
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -193,14 +195,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/screenshots/binske-2026-08-07T162438.png
+screenshot: https://apis.io/screenshots/binske/binske-2026-08-07T162438.png
 security:
 - kind: authentication
   name: Binske Authentication
@@ -210,6 +212,10 @@ security:
   name: Binske Domain Security
   slug: binske-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: binske-agent-commerce
+  slug: binske-agent-commerce
 slug: binske
 tags:
 - Cannabis

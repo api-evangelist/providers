@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 32.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,11 +80,8 @@ apis:
   description: Banking Product endpoints
   name: ING Australia Banking Products API
   slug: ing-australia-banking-products-api
-artifact_total: 19
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-ing-australia-banking-account-balances-api
@@ -106,52 +105,52 @@ collections:
   slug: open-ing-australia-banking-products-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/capabilities/ing-australia-capability-edges.yml
+  href: https://artifacts.apis.io/ing-australia/capabilities/ing-australia-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ing-australia-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/agentic-access/ing-australia-agentic-access.yml
+  href: https://artifacts.apis.io/ing-australia/agentic-access/ing-australia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ing-australia-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/security/ing-australia-domain-security.yml
+  href: https://artifacts.apis.io/ing-australia/security/ing-australia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ing-australia-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/authentication/ing-australia-authentication.yml
+  href: https://artifacts.apis.io/ing-australia/authentication/ing-australia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ing-australia-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/scopes/ing-australia-scopes.yml
+  href: https://artifacts.apis.io/ing-australia/scopes/ing-australia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ing-australia-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/well-known/ing-australia-well-known.yml
+  href: https://artifacts.apis.io/ing-australia/well-known/ing-australia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ing-australia-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/conformance/ing-australia-conformance.yml
+  href: https://artifacts.apis.io/ing-australia/conformance/ing-australia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ing-australia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/errors/ing-australia-problem-types.yml
+  href: https://artifacts.apis.io/ing-australia/errors/ing-australia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ing-australia-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/conventions/ing-australia-conventions.yml
+  href: https://artifacts.apis.io/ing-australia/conventions/ing-australia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ing-australia-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/lifecycle/ing-australia-lifecycle.yml
+  href: https://artifacts.apis.io/ing-australia/lifecycle/ing-australia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ing-australia-lifecycle.yml
@@ -160,27 +159,27 @@ common:
   type: Deprecation
   url: https://consumerdatastandardsaustralia.github.io/standards/#future-dated-obligations
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/data-model/ing-australia-data-model.yml
+  href: https://artifacts.apis.io/ing-australia/data-model/ing-australia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ing-australia-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/mcp/ing-australia-mcp.yml
+  href: https://artifacts.apis.io/ing-australia/mcp/ing-australia-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ing-australia-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/llms/ing-australia-llms.txt
+  href: https://artifacts.apis.io/ing-australia/llms/ing-australia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ing-australia-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/overlays/ing-australia-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/ing-australia/overlays/ing-australia-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ing-australia-cds-banking-products-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ing-australia/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -246,7 +245,7 @@ score:
     contract_governance: 18.2
     contract_quality: 44.7
     developer_ergonomics: 47.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -273,13 +272,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/screenshots/ing-australia-2026-07-21T114732.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ing-australia/ing-australia-2026-07-21T114732.png
 security:
 - kind: authentication
   name: Ing Australia Authentication
@@ -289,6 +289,12 @@ security:
   name: Ing Australia Domain Security
   slug: ing-australia-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Read ING Australia account data via CDR consumer data sharing
+  slug: ing-australia-consumer-data-sharing
+- name: List ING Australia banking products (public CDR PRD)
+  slug: ing-australia-list-products
 slug: ing-australia
 tags:
 - Finance

@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: Third-Party Provider identity and regulatory validation
   name: Konsentus PSP Checking Service API
   slug: konsentus-psp-checking-service-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Konsentus Verify PSP Checking Service API
   slug: open-konsentus-psp-checking-service-api
@@ -72,17 +71,17 @@ common:
   type: Website
   url: https://www.konsentus.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/konsentus/refs/heads/main/agentic-access/konsentus-agentic-access.yml
+  href: https://artifacts.apis.io/konsentus/agentic-access/konsentus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/konsentus-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/konsentus/refs/heads/main/security/konsentus-domain-security.yml
+  href: https://artifacts.apis.io/konsentus/security/konsentus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/konsentus-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/konsentus/refs/heads/main/authentication/konsentus-authentication.yml
+  href: https://artifacts.apis.io/konsentus/authentication/konsentus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/konsentus-authentication.yml
@@ -208,10 +207,10 @@ overview: 'Konsentus publishes 3 API contracts indexed on the [APIs.io](https://
 
 
   Konsentus'' developer surface includes authentication, developer portal, documentation, getting-started guide, release notes, support, FAQ, and 21 more developer resources.'
-random_paper: 12
+random_paper: 18
 score:
   band: thin
-  composite: 35.7
+  composite: 36.6
   coverage:
     artifact_dirs: 9
     catalog_earned: 32.0
@@ -219,20 +218,20 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 52.0
-    developer_ergonomics: 54.8
-    discoverability: 58.0
-    operational_transparency: 18.4
+    developer_ergonomics: 57.1
+    discoverability: 58.9
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-kingdom
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 35.6
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     contracts:
@@ -246,14 +245,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/konsentus/refs/heads/main/screenshots/konsentus-2026-06-20T184135.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/konsentus/konsentus-2026-06-20T184135.png
 security:
 - kind: authentication
   name: Konsentus Authentication

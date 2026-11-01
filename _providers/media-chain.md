@@ -32,32 +32,32 @@ common:
   type: SourceCode
   url: https://github.com/mediachain/mediachain
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/media-chain/refs/heads/main/packages/media-chain-packages.yml
+  href: https://artifacts.apis.io/media-chain/packages/media-chain-packages.yml
   title: ''
   type: Packages
   url: packages/media-chain-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/media-chain/refs/heads/main/packages/media-chain-packages.yml
+  href: https://artifacts.apis.io/media-chain/packages/media-chain-packages.yml
   title: ''
   type: SDKs
   url: packages/media-chain-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/media-chain/refs/heads/main/cli/media-chain-cli.yml
+  href: https://artifacts.apis.io/media-chain/cli/media-chain-cli.yml
   title: ''
   type: CLI
   url: cli/media-chain-cli.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/media-chain/refs/heads/main/grpc/media-chain-types.proto
+  href: https://artifacts.apis.io/media-chain/grpc/media-chain-types.proto
   title: ''
   type: Protobuf
   url: grpc/media-chain-types.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/media-chain/refs/heads/main/grpc/media-chain-datastore.proto
+  href: https://artifacts.apis.io/media-chain/grpc/media-chain-datastore.proto
   title: ''
   type: Protobuf
   url: grpc/media-chain-datastore.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/media-chain/refs/heads/main/grpc/media-chain-transactor.proto
+  href: https://artifacts.apis.io/media-chain/grpc/media-chain-transactor.proto
   title: ''
   type: Protobuf
   url: grpc/media-chain-transactor.proto
@@ -74,7 +74,7 @@ overview: 'Media Chain is profiled on the [APIs.io](https://apis.io/) network. T
 
   Media Chain''s developer surface includes documentation, CLI, and 9 more developer resources.'
 random_paper: 16
-screenshot: https://raw.githubusercontent.com/api-evangelist/media-chain/refs/heads/main/screenshots/media-chain-2026-08-07T172331.png
+screenshot: https://apis.io/screenshots/media-chain/media-chain-2026-08-07T172331.png
 slug: media-chain
 tags:
 - Company

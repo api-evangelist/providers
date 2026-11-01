@@ -22,19 +22,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.1
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,84 +44,130 @@ agentic_access:
   operation_count: 18
   slug: amazon-amplify-agentic-access
   summary_line: 18 operations · 10 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://amplify.amazonaws.com
   baseurl_source: declared
   description: The Apps API from Amazon Amplify — 4 operation(s) for apps.
   name: Amazon Amplify Apps API
   slug: amazon-amplify-apps-api
-artifact_total: 54
+- baseURL: https://amplify.amazonaws.com
+  baseurl_source: declared
+  description: The Amplify Backendenvironments API from Amazon Amplify — 2 operation(s) for amplify backendenvironments.
+  name: Amazon Amplify Amplify Backendenvironments API
+  slug: amazon-amplify-backendenvironments-api
+- baseURL: https://amplify.amazonaws.com
+  baseurl_source: declared
+  description: The Amplify Branches API from Amazon Amplify — 2 operation(s) for amplify branches.
+  name: Amazon Amplify Amplify Branches API
+  slug: amazon-amplify-branches-api
+- baseURL: https://amplify.amazonaws.com
+  baseurl_source: declared
+  description: The Amplify Domains API from Amazon Amplify — 2 operation(s) for amplify domains.
+  name: Amazon Amplify Amplify Domains API
+  slug: amazon-amplify-domains-api
+- baseURL: https://amplify.amazonaws.com
+  baseurl_source: declared
+  description: The Amplify Jobs API from Amazon Amplify — 2 operation(s) for amplify jobs.
+  name: Amazon Amplify Amplify Jobs API
+  slug: amazon-amplify-jobs-api
+- baseURL: https://amplify.amazonaws.com
+  baseurl_source: declared
+  description: The Amplify Operations API from Amazon Amplify — 6 operation(s) for amplify operations.
+  name: Amazon Amplify Amplify Operations API
+  slug: amazon-amplify-operations-api
+- baseURL: https://amplify.amazonaws.com
+  baseurl_source: declared
+  description: The Amplify Tags API from Amazon Amplify — 1 operation(s) for amplify tags.
+  name: Amazon Amplify Amplify Tags API
+  slug: amazon-amplify-tags-api
+- baseURL: https://amplify.amazonaws.com
+  baseurl_source: declared
+  description: The Amplify Webhooks API from Amazon Amplify — 2 operation(s) for amplify webhooks.
+  name: Amazon Amplify Amplify Webhooks API
+  slug: amazon-amplify-webhooks-api
+artifact_total: 63
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Amplify REST Apps API
   slug: open-amazon-amplify-apps-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/amazon-amplify/plans/amazon-amplify-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-amplify-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/overlays/amazon-amplify-api-overlay.yaml
+  href: https://artifacts.apis.io/amazon-amplify/capabilities/amazon-amplify-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-amplify-capability-edges.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-amplify/overview
+- group: other
+  href: https://artifacts.apis.io/amazon-amplify/overlays/amazon-amplify-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-amplify-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/agentic-access/amazon-amplify-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-amplify/agentic-access/amazon-amplify-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-amplify-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/security/amazon-amplify-trust-center.yml
+  href: https://artifacts.apis.io/amazon-amplify/security/amazon-amplify-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-amplify-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/security/amazon-amplify-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-amplify/security/amazon-amplify-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-amplify-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/security/amazon-amplify-domain-security.yml
+  href: https://artifacts.apis.io/amazon-amplify/security/amazon-amplify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-amplify-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/authentication/amazon-amplify-authentication.yml
+  href: https://artifacts.apis.io/amazon-amplify/authentication/amazon-amplify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-amplify-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/packages/amazon-amplify-packages.yml
+  href: https://artifacts.apis.io/amazon-amplify/packages/amazon-amplify-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-amplify-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/well-known/amazon-amplify-well-known.yml
+  href: https://artifacts.apis.io/amazon-amplify/well-known/amazon-amplify-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-amplify-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/well-known/amazon-amplify-security.txt
+  href: https://artifacts.apis.io/amazon-amplify/well-known/amazon-amplify-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-amplify-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/mcp/amazon-amplify-mcp.yml
+  href: https://artifacts.apis.io/amazon-amplify/mcp/amazon-amplify-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-amplify-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/llms/amazon-amplify-llms.txt
+  href: https://artifacts.apis.io/amazon-amplify/llms/amazon-amplify-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-amplify-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/conformance/amazon-amplify-conformance.yml
+  href: https://artifacts.apis.io/amazon-amplify/conformance/amazon-amplify-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-amplify-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/lifecycle/amazon-amplify-lifecycle.yml
+  href: https://artifacts.apis.io/amazon-amplify/lifecycle/amazon-amplify-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-amplify-lifecycle.yml
@@ -188,12 +236,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/rules/amazon-amplify-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-amplify/rules/amazon-amplify-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-amplify-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/vocabulary/amazon-amplify-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-amplify/vocabulary/amazon-amplify-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-amplify-vocabulary.yaml
@@ -241,6 +289,14 @@ features:
   name: Domain Association
 - description: Manage AWS backend environments linked to Amplify applications for full-stack cloud resource provisioning.
   name: Backend Environment Management
+finops:
+- has_sources: true
+  method: derived
+  name: Amazon Amplify Finops
+  primary_unit: build minute
+  service_category: ''
+  slug: amazon-amplify-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-amplify.png
 integrations:
 - description: Connect Amplify apps to AWS CodeCommit repositories for source code hosting and automated deployments.
@@ -323,14 +379,21 @@ modified: '2026-06-20'
 name: Amazon Amplify
 nav: Providers
 network: true
-overview: 'Amazon Amplify publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Apps API. Tagged areas include Frontend, Full-Stack, Hosting, Mobile Development, and Web Applications.
+overview: 'Amazon Amplify publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Apps API, Amplify Backendenvironments API, Amplify Branches API, and 5 more. Tagged areas include Frontend, Full-Stack, Hosting, Mobile Development, and Web Applications.
 
 
   The Amazon Amplify catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Amplify''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 24 more developer resources.'
-random_paper: 15
+  Amazon Amplify''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 27 more developer resources.'
+plans:
+- name: Amazon Amplify Plans Pricing
+  plan_count: 9
+  slug: amazon-amplify-plans-pricing
+- name: Amazon Amplify Price Estimates
+  plan_count: 0
+  slug: amazon-amplify-price-estimates
+random_paper: 5
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -356,32 +419,32 @@ rules:
     warn: 7
   slug: amazon-amplify-spectral-rules
 score:
-  band: developing
-  composite: 51.2
+  band: strong
+  composite: 60.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 63.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    artifact_dirs: 27
+    catalog_earned: 78.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.7
   facets:
-    access_clarity: 52.6
+    access_clarity: 92.1
     contract_governance: 31.8
-    contract_quality: 65.8
-    developer_ergonomics: 52.4
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 51.2
+    contract_quality: 64.8
+    developer_ergonomics: 53.6
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 1
+      marker_coverage: 87.5
+      total: 8
     mcp: derived
   regulatory:
     applies: true
@@ -389,13 +452,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/screenshots/amazon-amplify-2026-07-25T195912.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-amplify/amazon-amplify-2026-07-25T195912.png
 security:
 - kind: authentication
   name: Amazon Amplify Authentication

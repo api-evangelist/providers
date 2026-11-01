@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-17'
+  score: 25.8
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The only publicly documented HTTP endpoints Chatsimple (now Expertise AI) publishes. Documented on the Zapier integration page of docs.expertise.ai as four operations under the base URL https://api.ex
@@ -42,7 +44,7 @@ apis:
 - description: 'A remote Model Context Protocol server at https://api.expertise.ai/mcp, found by direct probe of the API host root and documented nowhere on the provider''s site. It implements the MCP Streamable HTTP '
   name: Expertise AI MCP Server
   slug: chatsimple-mcp-server
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Chatsimple Webhooks
@@ -89,7 +91,7 @@ common:
   type: Support
   url: https://www.expertise.ai/contact-us
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/security/chatsimple-trust-center.yml
+  href: https://artifacts.apis.io/chatsimple/security/chatsimple-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/chatsimple-trust-center.yml
@@ -98,12 +100,12 @@ common:
   type: Compliance
   url: https://trust.expertise.ai/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/plans/chatsimple-plans.yml
+  href: https://artifacts.apis.io/chatsimple/plans/chatsimple-plans.yml
   title: ''
   type: Plans
   url: plans/chatsimple-plans.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/security/chatsimple-domain-security.yml
+  href: https://artifacts.apis.io/chatsimple/security/chatsimple-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chatsimple-domain-security.yml
@@ -124,62 +126,70 @@ common:
   type: Roadmap
   url: https://www.expertise.ai/roadmap
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/changelog/chatsimple-changelog.yml
+  href: https://artifacts.apis.io/chatsimple/changelog/chatsimple-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/chatsimple-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/mcp/chatsimple-mcp.yml
+  href: https://artifacts.apis.io/chatsimple/mcp/chatsimple-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/chatsimple-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/authentication/chatsimple-authentication.yml
+  href: https://artifacts.apis.io/chatsimple/authentication/chatsimple-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chatsimple-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/conventions/chatsimple-conventions.yml
+  href: https://artifacts.apis.io/chatsimple/conventions/chatsimple-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chatsimple-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/asyncapi/chatsimple-webhooks.yml
+  href: https://artifacts.apis.io/chatsimple/asyncapi/chatsimple-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/chatsimple-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/rate-limits/chatsimple-rate-limits.yml
+  href: https://artifacts.apis.io/chatsimple/rate-limits/chatsimple-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chatsimple-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/lifecycle/chatsimple-lifecycle.yml
+  href: https://artifacts.apis.io/chatsimple/lifecycle/chatsimple-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chatsimple-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/conformance/chatsimple-conformance.yml
+  href: https://artifacts.apis.io/chatsimple/conformance/chatsimple-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chatsimple-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/packages/chatsimple-packages.yml
+  href: https://artifacts.apis.io/chatsimple/packages/chatsimple-packages.yml
   title: ''
   type: Packages
   url: packages/chatsimple-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/components/chatsimple-components.yml
+  href: https://artifacts.apis.io/chatsimple/components/chatsimple-components.yml
   title: ''
   type: Components
   url: components/chatsimple-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/llms/chatsimple-llms.txt
+  href: https://artifacts.apis.io/chatsimple/llms/chatsimple-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chatsimple-llms.txt
 created: '2026-07-17'
 description: Chatsimple (now operating as Expertise AI, expertise.ai) is an AI agent platform for revenue and go-to-market teams. It builds no-code conversational AI sales agents and chatbots that engage website visitors, qualify and capture leads, book meetings, and answer questions from a trained knowledge base, plus a Voice AI assistant and an "Expertise Assistant" library of 100+ pre-built GTM plays that automate prospecting, pipeline management, and outreach. The platform embeds on any website, integrates with CRM and communication tools such as HubSpot, Salesforce, Slack, Zapier, Marketo, and LeanData, and offers API access on its Enterprise tier. It is SOC 2 Type II, SOC 3, GDPR, and CCPA aligned with a public trust center. Originally launched as chatsimple.ai, the company rebranded to Expertise AI; chatsimple.ai now redirects to expertise.ai.
+finops:
+- has_sources: true
+  method: derived
+  name: Chatsimple Finops
+  primary_unit: user
+  service_category: ''
+  slug: chatsimple-finops
+  template: false
 image: https://www.expertise.ai/images/og-home-page.png
 layout: provider
 mcp_servers:
@@ -207,24 +217,24 @@ rate_limits:
   name: Chatsimple Rate Limits
   slug: chatsimple-rate-limits
 score:
-  band: developing
-  composite: 53.1
+  band: strong
+  composite: 56.0
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 49.0
+    artifact_dirs: 18
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 1.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 68.3
-    operational_transparency: 31.6
-  previous_composite: 53.5
+    discoverability: 65.0
+    operational_transparency: 34.2
+  previous_composite: 54.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -240,14 +250,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/screenshots/chatsimple-2026-07-25T205118.png
+screenshot: https://apis.io/screenshots/chatsimple/chatsimple-2026-07-25T205118.png
 security:
 - kind: authentication
   name: Chatsimple Authentication

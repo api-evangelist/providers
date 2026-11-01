@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.3
-  scored_at: '2026-10-17'
+  score: 30.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: JWT-authenticated API for partner vendors (drop-off locations, scan events) to exchange an API key for a 24-hour access token and query shipment tracking status and event history.
@@ -69,15 +71,12 @@ apis:
   description: Receive real-time shipment status updates.
   name: UniUni Webhooks API
   slug: uniuni-webhooks-api
-artifact_total: 16
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Uniuni Webhooks
   slug: uniuni-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: UniUni Platform Client Batches API
   slug: open-uniuni-batches-api
@@ -94,13 +93,18 @@ collections:
   name: UniUni Platform Client Batches Webhooks API
   slug: open-uniuni-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/uniuni/plans/uniuni-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/uniuni-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/capabilities/uniuni-capability-edges.yml
+  href: https://artifacts.apis.io/uniuni/capabilities/uniuni-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/uniuni-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/overlays/uniuni-platform-client-api-overlay.yaml
+  href: https://artifacts.apis.io/uniuni/overlays/uniuni-platform-client-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/uniuni-platform-client-api-overlay.yaml
@@ -149,67 +153,75 @@ common:
   type: Postman
   url: https://docs.uniuni.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/llms/uniuni-llms.txt
+  href: https://artifacts.apis.io/uniuni/llms/uniuni-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uniuni-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/mcp/uniuni-mcp.yml
+  href: https://artifacts.apis.io/uniuni/mcp/uniuni-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/uniuni-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/authentication/uniuni-authentication.yml
+  href: https://artifacts.apis.io/uniuni/authentication/uniuni-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uniuni-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/sandbox/uniuni-sandbox.yml
+  href: https://artifacts.apis.io/uniuni/sandbox/uniuni-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/uniuni-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/conventions/uniuni-conventions.yml
+  href: https://artifacts.apis.io/uniuni/conventions/uniuni-conventions.yml
   title: ''
   type: Conventions
   url: conventions/uniuni-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/errors/uniuni-problem-types.yml
+  href: https://artifacts.apis.io/uniuni/errors/uniuni-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/uniuni-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/lifecycle/uniuni-lifecycle.yml
+  href: https://artifacts.apis.io/uniuni/lifecycle/uniuni-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/uniuni-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/conformance/uniuni-conformance.yml
+  href: https://artifacts.apis.io/uniuni/conformance/uniuni-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uniuni-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/data-model/uniuni-data-model.yml
+  href: https://artifacts.apis.io/uniuni/data-model/uniuni-data-model.yml
   title: ''
   type: DataModel
   url: data-model/uniuni-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/asyncapi/uniuni-webhooks.yml
+  href: https://artifacts.apis.io/uniuni/asyncapi/uniuni-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/uniuni-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/uniuni/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/security/uniuni-domain-security.yml
+  href: https://artifacts.apis.io/uniuni/security/uniuni-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uniuni-domain-security.yml
 created: '2026-07-17'
 description: UniUni is a Canadian last-mile delivery carrier serving ecommerce businesses across Canada and the United States, delivering parcels through a crowdsourced driver network with hubs, stores, and partner drop-off locations. The UniUni Platform gives merchants shipment creation, label purchase, batching, wallet billing, tracking, and Shopify/ShipStation/WooCommerce integrations, alongside a REST Client API, a Partner API for vendor tracking updates, and a legacy Integration API for enterprise shippers.
+finops:
+- has_sources: true
+  method: derived
+  name: Uniuni Finops
+  primary_unit: delivery
+  service_category: ''
+  slug: uniuni-finops
+  template: false
 image: https://mintcdn.com/uniexpressinc/YvoYth8Wg7rezp7U/logo/light.svg
 layout: provider
 modified: '2026-07-21'
@@ -222,32 +234,36 @@ overview: 'UniUni publishes 7 API contracts indexed on the [APIs.io](https://api
   The UniUni catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  UniUni''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 4
+  UniUni''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
+plans:
+- name: Uniuni Plans Pricing
+  plan_count: 2
+  slug: uniuni-plans-pricing
+random_paper: 16
 score:
   band: developing
-  composite: 45.6
+  composite: 51.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 5.8
   facets:
-    access_clarity: 34.2
+    access_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 59.9
     developer_ergonomics: 70.8
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - canada
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 45.5
+  previous_composite: 45.6
   provenance:
     conformance: derived
     contracts:
@@ -263,13 +279,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/screenshots/uniuni-2026-08-17T082619.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/uniuni/uniuni-2026-08-17T082619.png
 security:
 - kind: authentication
   name: Uniuni Authentication
@@ -279,6 +296,14 @@ security:
   name: Uniuni Domain Security
   slug: uniuni-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Batch UniUni shipments for drop-off or pickup
+  slug: uniuni-batch-shipments
+- name: Quote, create, purchase, and label a UniUni shipment
+  slug: uniuni-quote-create-purchase-label
+- name: Track UniUni shipments and receive webhook updates
+  slug: uniuni-track-and-notify
 slug: uniuni
 tags:
 - Company

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -71,47 +73,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/little-spoon-dev
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/little-spoon/refs/heads/main/llms/little-spoon-llms.txt
+  href: https://artifacts.apis.io/little-spoon/llms/little-spoon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/little-spoon-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/little-spoon/refs/heads/main/packages/little-spoon-packages.yml
+  href: https://artifacts.apis.io/little-spoon/packages/little-spoon-packages.yml
   title: ''
   type: Packages
   url: packages/little-spoon-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/little-spoon/refs/heads/main/components/little-spoon-components.yml
+  href: https://artifacts.apis.io/little-spoon/components/little-spoon-components.yml
   title: ''
   type: Components
   url: components/little-spoon-components.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/little-spoon/refs/heads/main/rate-limits/little-spoon-rate-limits.yml
+  href: https://artifacts.apis.io/little-spoon/rate-limits/little-spoon-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/little-spoon-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/little-spoon/refs/heads/main/plans/little-spoon-plans-pricing.yml
+  href: https://artifacts.apis.io/little-spoon/plans/little-spoon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/little-spoon-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/little-spoon/refs/heads/main/conformance/little-spoon-conformance.yml
+  href: https://artifacts.apis.io/little-spoon/conformance/little-spoon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/little-spoon-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/little-spoon/refs/heads/main/lifecycle/little-spoon-lifecycle.yml
+  href: https://artifacts.apis.io/little-spoon/lifecycle/little-spoon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/little-spoon-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/little-spoon/refs/heads/main/conventions/little-spoon-conventions.yml
+  href: https://artifacts.apis.io/little-spoon/conventions/little-spoon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/little-spoon-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/little-spoon/refs/heads/main/security/little-spoon-domain-security.yml
+  href: https://artifacts.apis.io/little-spoon/security/little-spoon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/little-spoon-domain-security.yml
@@ -152,14 +154,14 @@ plans:
 - name: Little Spoon Plans Pricing
   plan_count: 0
   slug: little-spoon-plans-pricing
-random_paper: 4
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Little Spoon Rate Limits
   slug: little-spoon-rate-limits
 score:
   band: emerging
-  composite: 16.9
+  composite: 16.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 35.0
@@ -173,8 +175,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 55.4
-    operational_transparency: 23.7
+    discoverability: 48.2
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -182,7 +184,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 16.9
+  previous_composite: 16.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -192,14 +194,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/little-spoon/refs/heads/main/screenshots/little-spoon-2026-09-02T150331.png
+screenshot: https://apis.io/screenshots/little-spoon/little-spoon-2026-09-02T150331.png
 security:
 - kind: domain-security
   name: Little Spoon Domain Security
@@ -216,6 +218,5 @@ tags:
 - Baby Food
 - Nutrition
 - Retail
-- Design Systems
 website: https://www.littlespoon.com
 ---

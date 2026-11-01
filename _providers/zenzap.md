@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.0
-  scored_at: '2026-10-17'
+  score: 40.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -83,15 +85,12 @@ apis:
   description: 'OAuth 2.0 `client_credentials` grant. Used by API-key bots that were created with `credentialType: oauth` to mint short-lived bearer access tokens. **In a nutshell:** 1. Get a `clientId` and `clientSe'
   name: ZenZap O Auth API
   slug: zenzap-oauth-api
-artifact_total: 23
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Zenzap Webhooks
   slug: zenzap-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Zenzap External Integration Agentic API
   slug: open-zenzap-agentic-api
@@ -117,6 +116,16 @@ collections:
   name: Zenzap External Integration Agentic Topics (group chats/channels/conversations) API
   slug: open-zenzap-topics-group-chats-channels-conversations-api
 common:
+- group: other
+  href: https://artifacts.apis.io/zenzap/capabilities/zenzap-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zenzap-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/zenzap/plans/zenzap-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/zenzap-plans-pricing.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -166,27 +175,27 @@ common:
   type: PrivacyPolicy
   url: https://www.zenzap.co/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/authentication/zenzap-authentication.yml
+  href: https://artifacts.apis.io/zenzap/authentication/zenzap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zenzap-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/scopes/zenzap-scopes.yml
+  href: https://artifacts.apis.io/zenzap/scopes/zenzap-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zenzap-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/agentic-access/zenzap-agentic-access.yml
+  href: https://artifacts.apis.io/zenzap/agentic-access/zenzap-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zenzap-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/security/zenzap-domain-security.yml
+  href: https://artifacts.apis.io/zenzap/security/zenzap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zenzap-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/security/zenzap-trust-center.yml
+  href: https://artifacts.apis.io/zenzap/security/zenzap-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/zenzap-trust-center.yml
@@ -195,57 +204,57 @@ common:
   type: Compliance
   url: https://www.zenzap.co/trust-center
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/conformance/zenzap-conformance.yml
+  href: https://artifacts.apis.io/zenzap/conformance/zenzap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zenzap-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/errors/zenzap-problem-types.yml
+  href: https://artifacts.apis.io/zenzap/errors/zenzap-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zenzap-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/lifecycle/zenzap-lifecycle.yml
+  href: https://artifacts.apis.io/zenzap/lifecycle/zenzap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zenzap-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/conventions/zenzap-conventions.yml
+  href: https://artifacts.apis.io/zenzap/conventions/zenzap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zenzap-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/conventions/zenzap-conventions.yml
+  href: https://artifacts.apis.io/zenzap/conventions/zenzap-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/zenzap-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/data-model/zenzap-data-model.yml
+  href: https://artifacts.apis.io/zenzap/data-model/zenzap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zenzap-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/mcp/zenzap-mcp.yml
+  href: https://artifacts.apis.io/zenzap/mcp/zenzap-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zenzap-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/llms/zenzap-llms.txt
+  href: https://artifacts.apis.io/zenzap/llms/zenzap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zenzap-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/overlays/zenzap-openapi-overlay.yaml
+  href: https://artifacts.apis.io/zenzap/overlays/zenzap-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zenzap-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/asyncapi/zenzap-webhooks.yml
+  href: https://artifacts.apis.io/zenzap/asyncapi/zenzap-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zenzap-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zenzap/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -255,6 +264,14 @@ common:
   url: https://www.zenzap.co/
 created: '2026-07-17'
 description: 'Zenzap is an AI-native work communication platform — "Work Chat Built for the AI Era" — used by teams in healthcare, hospitality, construction, food service, retail, franchise, manufacturing, and non-profit operations. It organizes work into topics (group chats / channels / conversations) carrying messages, tasks, polls, reactions, and file attachments, with HIPAA and SOC 2 compliance, SAML SSO, and SCIM provisioning for enterprises. The Zenzap External Integration API (v2) lets external applications and AI agents act as bots: create topics, send and manage messages, run tasks and polls, manage members, and receive events by webhook or long polling. Backed by Bessemer Venture Partners.'
+finops:
+- has_sources: true
+  method: derived
+  name: Zenzap Finops
+  primary_unit: workspace
+  service_category: ''
+  slug: zenzap-finops
+  template: false
 image: https://cdn.prod.website-files.com/6559c53afcb17d5a5995bfc0/683d76d5c705aada2bab4c9e_Open%20graph%20visual.png
 layout: provider
 modified: '2026-07-21'
@@ -267,32 +284,39 @@ overview: 'ZenZap publishes 8 API contracts indexed on the [APIs.io](https://api
   The ZenZap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ZenZap''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 4
+  ZenZap''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 25 more developer resources.'
+plans:
+- name: Zenzap Plans Pricing
+  plan_count: 4
+  slug: zenzap-plans-pricing
+- name: Zenzap Price Estimates
+  plan_count: 0
+  slug: zenzap-price-estimates
+random_paper: 16
 scopes:
 - name: Zenzap Scopes
   scope_count: 12
   slug: zenzap-scopes
   summary_line: 12 scopes · clientCredentials
 score:
-  band: developing
-  composite: 53.7
+  band: strong
+  composite: 58.4
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 62.8
+    contract_quality: 61.1
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 54.1
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -309,13 +333,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/screenshots/zenzap-2026-08-17T083047.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zenzap/zenzap-2026-08-17T083047.png
 security:
 - kind: authentication
   name: Zenzap Authentication
@@ -329,6 +354,16 @@ security:
   name: Zenzap Trust Center
   slug: zenzap-trust-center
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+skill_count: 4
+skills:
+- name: Build an event-driven bot with long polling
+  slug: zenzap-event-bot
+- name: Create and track tasks in a topic
+  slug: zenzap-manage-tasks
+- name: Create a topic and post a message
+  slug: zenzap-post-to-topic
+- name: Run a poll and collect votes
+  slug: zenzap-run-poll
 slug: zenzap
 tags:
 - Company

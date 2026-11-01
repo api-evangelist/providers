@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Agent-native commerce surface for the IM8 Health (Prenetics) Shopify storefront, implemented with the Universal Commerce Protocol (UCP, 2026-04-08) over MCP. Agents discover capabilities at /.well-kno
@@ -69,32 +71,32 @@ common:
   type: PrivacyPolicy
   url: https://im8health.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prenetics/refs/heads/main/mcp/prenetics-mcp.yml
+  href: https://artifacts.apis.io/prenetics/mcp/prenetics-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/prenetics-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prenetics/refs/heads/main/well-known/prenetics-well-known.yml
+  href: https://artifacts.apis.io/prenetics/well-known/prenetics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/prenetics-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prenetics/refs/heads/main/llms/prenetics-llms.txt
+  href: https://artifacts.apis.io/prenetics/llms/prenetics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/prenetics-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prenetics/refs/heads/main/conventions/prenetics-conventions.yml
+  href: https://artifacts.apis.io/prenetics/conventions/prenetics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/prenetics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prenetics/refs/heads/main/conformance/prenetics-conformance.yml
+  href: https://artifacts.apis.io/prenetics/conformance/prenetics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/prenetics-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prenetics/refs/heads/main/security/prenetics-domain-security.yml
+  href: https://artifacts.apis.io/prenetics/security/prenetics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prenetics-domain-security.yml
@@ -114,10 +116,10 @@ overview: 'Prenetics is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Prenetics'' developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 5
+random_paper: 13
 score:
   band: emerging
-  composite: 14.5
+  composite: 13.8
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -130,10 +132,10 @@ score:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 1.2
-    discoverability: 75.0
+    developer_ergonomics: 2.4
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 14.5
+  previous_composite: 13.8
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -143,14 +145,14 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/prenetics/refs/heads/main/screenshots/prenetics-2026-09-02T151934.png
+screenshot: https://apis.io/screenshots/prenetics/prenetics-2026-09-02T151934.png
 security:
 - kind: domain-security
   name: Prenetics Domain Security

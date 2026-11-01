@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -92,11 +94,8 @@ apis:
   description: The Version API from Hyperscience — 1 operation(s) for version.
   name: Hyperscience Version API
   slug: hyperscience-version-api
-artifact_total: 30
+artifact_total: 29
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Hyperscience Audit Logs API
   slug: open-hyperscience-audit-logs-api
@@ -129,32 +128,32 @@ collections:
   slug: open-hyperscience
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/agentic-access/hyperscience-agentic-access.yml
+  href: https://artifacts.apis.io/hyperscience/agentic-access/hyperscience-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hyperscience-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/security/hyperscience-trust-center.yml
+  href: https://artifacts.apis.io/hyperscience/security/hyperscience-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/hyperscience-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/security/hyperscience-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hyperscience/security/hyperscience-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hyperscience-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/security/hyperscience-domain-security.yml
+  href: https://artifacts.apis.io/hyperscience/security/hyperscience-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hyperscience-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/authentication/hyperscience-authentication.yml
+  href: https://artifacts.apis.io/hyperscience/authentication/hyperscience-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hyperscience-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/scopes/hyperscience-scopes.yml
+  href: https://artifacts.apis.io/hyperscience/scopes/hyperscience-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hyperscience-scopes.yml
@@ -179,17 +178,17 @@ common:
   type: SecurityAndCompliance
   url: https://www.hyperscience.ai/security/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/plans/hyperscience-plans-pricing.yml
+  href: https://artifacts.apis.io/hyperscience/plans/hyperscience-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hyperscience-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/rate-limits/hyperscience-rate-limits.yml
+  href: https://artifacts.apis.io/hyperscience/rate-limits/hyperscience-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hyperscience-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/finops/hyperscience-finops.yml
+  href: https://artifacts.apis.io/hyperscience/finops/hyperscience-finops.yml
   title: ''
   type: FinOps
   url: finops/hyperscience-finops.yml
@@ -207,7 +206,7 @@ finops:
 - has_sources: true
   method: generated
   name: Hyperscience Finops
-  primary_unit: ''
+  primary_unit: contract-year
   service_category: Enterprise IDP
   slug: hyperscience-finops
   template: false
@@ -225,7 +224,7 @@ plans:
 - name: Hyperscience Plans Pricing
   plan_count: 4
   slug: hyperscience-plans-pricing
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Hyperscience Rate Limits
@@ -237,23 +236,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 27.5
+  composite: 33.4
   coverage:
     artifact_dirs: 13
-    catalog_earned: 42.0
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.0
+  delta: 1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 39.8
-    developer_ergonomics: 14.3
+    developer_ergonomics: 23.8
     discoverability: 73.2
-    operational_transparency: 7.9
-  previous_composite: 29.5
+    operational_transparency: 21.1
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     contracts:
@@ -267,13 +266,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 30.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/screenshots/hyperscience-2026-06-20T183049.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hyperscience/hyperscience-2026-06-20T183049.png
 security:
 - kind: authentication
   name: Hyperscience Authentication

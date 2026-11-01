@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 5
   slug: uberduck-agentic-access
   summary_line: 5 operations · 3 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.uberduck.ai/v1
   baseurl_source: declared
@@ -65,11 +67,8 @@ apis:
   description: List, filter, and clone voices.
   name: Uberduck Voices API
   slug: uberduck-voices-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Uberduck Text To Speech Conversational API
   slug: open-uberduck-conversational-api
@@ -91,17 +90,17 @@ common:
   type: Blog
   url: https://www.uberduck.ai/blog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/agentic-access/uberduck-agentic-access.yml
+  href: https://artifacts.apis.io/uberduck/agentic-access/uberduck-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/uberduck-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/security/uberduck-domain-security.yml
+  href: https://artifacts.apis.io/uberduck/security/uberduck-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uberduck-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/authentication/uberduck-authentication.yml
+  href: https://artifacts.apis.io/uberduck/authentication/uberduck-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uberduck-authentication.yml
@@ -122,17 +121,17 @@ common:
   type: APIReference
   url: https://api.uberduck.ai/docs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/plans/uberduck-plans-pricing.yml
+  href: https://artifacts.apis.io/uberduck/plans/uberduck-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/uberduck-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/rate-limits/uberduck-rate-limits.yml
+  href: https://artifacts.apis.io/uberduck/rate-limits/uberduck-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/uberduck-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/finops/uberduck-finops.yml
+  href: https://artifacts.apis.io/uberduck/finops/uberduck-finops.yml
   title: ''
   type: FinOps
   url: finops/uberduck-finops.yml
@@ -152,7 +151,7 @@ modified: '2026-10-06'
 name: Uberduck
 nav: Providers
 network: true
-overview: 'Uberduck publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Conversational API, Models API, Text-to-Speech API, and 1 more. Tagged areas include Artificial Intelligence, Text-to-Speech, TTS, Voice, and Voice Cloning.
+overview: 'Uberduck publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Conversational API, Models API, Text-to-Speech API, and 1 more. Tagged areas include Artificial Intelligence, Text-to-Speech, Voice, Voice Cloning, and Speech Synthesis.
 
 
   Uberduck''s developer surface includes engineering blog, authentication, documentation, API reference, and 7 more developer resources.'
@@ -160,14 +159,14 @@ plans:
 - name: Uberduck Plans Pricing
   plan_count: 4
   slug: uberduck-plans-pricing
-random_paper: 17
+random_paper: 13
 rate_limits:
 - limit_count: 6
   name: Uberduck Rate Limits
   slug: uberduck-rate-limits
 score:
   band: thin
-  composite: 26.7
+  composite: 27.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 43.0
@@ -175,7 +174,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -183,7 +182,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 35.0
+  previous_composite: 27.4
   provenance:
     agentic_access: derived
     contracts:
@@ -197,13 +196,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 10.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/screenshots/uberduck-2026-09-02T164706.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/uberduck/uberduck-2026-09-02T164706.png
 security:
 - kind: authentication
   name: Uberduck Authentication
@@ -217,7 +217,6 @@ slug: uberduck
 tags:
 - Artificial Intelligence
 - Text-to-Speech
-- TTS
 - Voice
 - Voice Cloning
 - Speech Synthesis

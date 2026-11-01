@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: REST API for trading, order management, RFQ, account balances and transactions, transfers/deposits/withdrawals, custody (sFOX SAFE), staking, post-trade settlement, market data, and reporting. Bearer-
@@ -101,77 +103,77 @@ common:
   type: PrivacyPolicy
   url: https://www.sfox.com/privacy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/authentication/sfox-authentication.yml
+  href: https://artifacts.apis.io/sfox/authentication/sfox-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sfox-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/llms/sfox-llms.txt
+  href: https://artifacts.apis.io/sfox/llms/sfox-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sfox-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/mcp/sfox-mcp.yml
+  href: https://artifacts.apis.io/sfox/mcp/sfox-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sfox-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/well-known/sfox-well-known.yml
+  href: https://artifacts.apis.io/sfox/well-known/sfox-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sfox-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/errors/sfox-problem-types.yml
+  href: https://artifacts.apis.io/sfox/errors/sfox-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sfox-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/lifecycle/sfox-lifecycle.yml
+  href: https://artifacts.apis.io/sfox/lifecycle/sfox-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sfox-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/rate-limits/sfox-rate-limits.yml
+  href: https://artifacts.apis.io/sfox/rate-limits/sfox-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sfox-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/conventions/sfox-conventions.yml
+  href: https://artifacts.apis.io/sfox/conventions/sfox-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sfox-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/conformance/sfox-conformance.yml
+  href: https://artifacts.apis.io/sfox/conformance/sfox-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sfox-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/data-model/sfox-data-model.yml
+  href: https://artifacts.apis.io/sfox/data-model/sfox-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sfox-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/sandbox/sfox-sandbox.yml
+  href: https://artifacts.apis.io/sfox/sandbox/sfox-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sfox-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/security/sfox-domain-security.yml
+  href: https://artifacts.apis.io/sfox/security/sfox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sfox-domain-security.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/changelog/sfox-changelog.yml
+  href: https://artifacts.apis.io/sfox/changelog/sfox-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sfox-changelog.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/asyncapi/sfox-websocket-asyncapi.yml
+  href: https://artifacts.apis.io/sfox/asyncapi/sfox-websocket-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/sfox-websocket-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/asyncapi/sfox-websocket-asyncapi.yml
+  href: https://artifacts.apis.io/sfox/asyncapi/sfox-websocket-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/sfox-websocket-asyncapi.yml
@@ -190,14 +192,14 @@ overview: 'Sfox is listed with 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Sfox''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Sfox Rate Limits
   slug: sfox-rate-limits
 score:
   band: developing
-  composite: 41.7
+  composite: 45.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 48.0
@@ -207,13 +209,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 43.8
-    developer_ergonomics: 47.6
-    discoverability: 78.6
+    developer_ergonomics: 64.3
+    discoverability: 71.4
     operational_transparency: 44.7
-  previous_composite: 41.7
+  previous_composite: 45.6
   provenance:
     conformance: derived
     mcp: derived
@@ -223,14 +225,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/screenshots/sfox-2026-08-17T081823.png
+screenshot: https://apis.io/screenshots/sfox/sfox-2026-08-17T081823.png
 security:
 - kind: authentication
   name: Sfox Authentication

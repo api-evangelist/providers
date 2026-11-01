@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,7 +55,7 @@ common:
   type: License
   url: https://github.com/concrete-utopia/utopia/blob/master/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/utopia/refs/heads/main/security/utopia-domain-security.yml
+  href: https://artifacts.apis.io/utopia/security/utopia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/utopia-domain-security.yml
@@ -70,12 +72,12 @@ common:
   type: SourceCode
   url: https://github.com/concrete-utopia/utopia
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/utopia/refs/heads/main/packages/utopia-packages.yml
+  href: https://artifacts.apis.io/utopia/packages/utopia-packages.yml
   title: ''
   type: Packages
   url: packages/utopia-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/utopia/refs/heads/main/llms/utopia-llms.txt
+  href: https://artifacts.apis.io/utopia/llms/utopia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/utopia-llms.txt
@@ -88,10 +90,10 @@ name: Utopia
 nav: Providers
 network: true
 overview: Utopia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Design, Low-Code, and React.
-random_paper: 20
+random_paper: 10
 score:
   band: minimal
-  composite: 10.8
+  composite: 6.2
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -99,32 +101,29 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 55.4
-    operational_transparency: 18.4
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 10.7
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 6.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/utopia/refs/heads/main/screenshots/utopia-2026-09-02T165242.png
+screenshot: https://apis.io/screenshots/utopia/utopia-2026-09-02T165242.png
 security:
 - kind: domain-security
   name: Utopia Domain Security

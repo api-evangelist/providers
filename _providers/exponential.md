@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,11 +78,8 @@ arazzos:
 - description: Read a vault's current snapshot, yield and TVL history, and a user's pending redemptions.
   name: YO vault snapshot and user position
   slug: exponential-vault-snapshot
-artifact_total: 18
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Yo Protocol Agent API
   slug: open-exponential-agent-api
@@ -98,17 +97,17 @@ collections:
   slug: open-exponential-vault-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/overlays/exponential-protocol-overlay.yaml
+  href: https://artifacts.apis.io/exponential/overlays/exponential-protocol-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/exponential-protocol-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/security/exponential-domain-security.yml
+  href: https://artifacts.apis.io/exponential/security/exponential-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/exponential-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/agentic-access/exponential-agentic-access.yml
+  href: https://artifacts.apis.io/exponential/agentic-access/exponential-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/exponential-agentic-access.yml
@@ -149,87 +148,87 @@ common:
   type: Pricing
   url: https://docs.yo.xyz/yo-risk-graph/agent-api
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/packages/exponential-packages.yml
+  href: https://artifacts.apis.io/exponential/packages/exponential-packages.yml
   title: ''
   type: Packages
   url: packages/exponential-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/packages/exponential-packages.yml
+  href: https://artifacts.apis.io/exponential/packages/exponential-packages.yml
   title: ''
   type: SDKs
   url: packages/exponential-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/cli/exponential-cli.yml
+  href: https://artifacts.apis.io/exponential/cli/exponential-cli.yml
   title: ''
   type: CLI
   url: cli/exponential-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/components/exponential-components.yml
+  href: https://artifacts.apis.io/exponential/components/exponential-components.yml
   title: ''
   type: Components
   url: components/exponential-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/mcp/exponential-mcp.yml
+  href: https://artifacts.apis.io/exponential/mcp/exponential-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/exponential-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/exponential/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/llms/exponential-llms.txt
+  href: https://artifacts.apis.io/exponential/llms/exponential-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/exponential-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/well-known/exponential-well-known.yml
+  href: https://artifacts.apis.io/exponential/well-known/exponential-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/exponential-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/authentication/exponential-authentication.yml
+  href: https://artifacts.apis.io/exponential/authentication/exponential-authentication.yml
   title: ''
   type: Authentication
   url: authentication/exponential-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/conventions/exponential-conventions.yml
+  href: https://artifacts.apis.io/exponential/conventions/exponential-conventions.yml
   title: ''
   type: Conventions
   url: conventions/exponential-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/errors/exponential-problem-types.yml
+  href: https://artifacts.apis.io/exponential/errors/exponential-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/exponential-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/lifecycle/exponential-lifecycle.yml
+  href: https://artifacts.apis.io/exponential/lifecycle/exponential-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/exponential-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/conformance/exponential-conformance.yml
+  href: https://artifacts.apis.io/exponential/conformance/exponential-conformance.yml
   title: ''
   type: Conformance
   url: conformance/exponential-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/data-model/exponential-data-model.yml
+  href: https://artifacts.apis.io/exponential/data-model/exponential-data-model.yml
   title: ''
   type: DataModel
   url: data-model/exponential-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/finops/exponential-finops.yml
+  href: https://artifacts.apis.io/exponential/finops/exponential-finops.yml
   title: ''
   type: FinOps
   url: finops/exponential-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/arazzo/exponential-vault-snapshot.yml
+  href: https://artifacts.apis.io/exponential/arazzo/exponential-vault-snapshot.yml
   title: ''
   type: Arazzo
   url: arazzo/exponential-vault-snapshot.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/arazzo/exponential-risk-graph-triage.yml
+  href: https://artifacts.apis.io/exponential/arazzo/exponential-risk-graph-triage.yml
   title: ''
   type: Arazzo
   url: arazzo/exponential-risk-graph-triage.yml
@@ -257,10 +256,10 @@ overview: 'Exponential publishes 5 API contracts indexed on the [APIs.io](https:
 
 
   Exponential''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, CLI, authentication, and 22 more developer resources.'
-random_paper: 3
+random_paper: 15
 score:
   band: thin
-  composite: 37.8
+  composite: 37.5
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -268,15 +267,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 38.6
     developer_ergonomics: 73.8
-    discoverability: 71.7
-    operational_transparency: 13.2
-  previous_composite: 39.3
+    discoverability: 65.0
+    operational_transparency: 15.8
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -293,14 +292,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/screenshots/exponential-2026-07-25T213934.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/exponential/exponential-2026-07-25T213934.png
 security:
 - kind: authentication
   name: Exponential Authentication
@@ -310,6 +309,18 @@ security:
   name: Exponential Domain Security
   slug: exponential-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: risk-graph
+  slug: exponential-risk-graph
+- name: yo-base-mcp-plugin
+  slug: exponential-yo-base-mcp-plugin
+- name: yo-protocol-cli
+  slug: exponential-yo-protocol-cli
+- name: yo-protocol-react-sdk
+  slug: exponential-yo-protocol-react
+- name: yo-protocol-sdk
+  slug: exponential-yo-protocol-sdk
 slug: exponential
 tags:
 - Company

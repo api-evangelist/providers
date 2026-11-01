@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.2
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -85,15 +87,12 @@ apis:
   description: Member-authenticated experience endpoints.
   name: Circle Headless - Member API
   slug: circle-community-headless-member-api
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: Circle exposes a documented public WebSocket API for realtime chat and notifications, in beta for customers on the Business plan and above. The transport is ActionCable (Rails' WebSocket framework), a
   name: Circle Realtime WebSocket API (Beta)
   slug: circle-community-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Circle Developer Platform Admin - Courses API
   slug: open-circle-community-admin-courses-api
@@ -119,27 +118,32 @@ collections:
   name: Circle Developer Platform API
   slug: open-circle-community
 common:
+- group: other
+  href: https://artifacts.apis.io/circle-community/capabilities/circle-community-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/circle-community-capability-edges.yml
 - group: company
   title: ''
   type: Blog
   url: https://circle.so/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/vendor-facets/circle-community-vendor-facets.yml
+  href: https://artifacts.apis.io/circle-community/vendor-facets/circle-community-vendor-facets.yml
   title: ''
   type: VendorFacets
   url: vendor-facets/circle-community-vendor-facets.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/agentic-access/circle-community-agentic-access.yml
+  href: https://artifacts.apis.io/circle-community/agentic-access/circle-community-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/circle-community-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/security/circle-community-domain-security.yml
+  href: https://artifacts.apis.io/circle-community/security/circle-community-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/circle-community-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/authentication/circle-community-authentication.yml
+  href: https://artifacts.apis.io/circle-community/authentication/circle-community-authentication.yml
   title: ''
   type: Authentication
   url: authentication/circle-community-authentication.yml
@@ -156,17 +160,17 @@ common:
   type: Documentation
   url: https://api.circle.so
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/plans/circle-community-plans-pricing.yml
+  href: https://artifacts.apis.io/circle-community/plans/circle-community-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/circle-community-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/rate-limits/circle-community-rate-limits.yml
+  href: https://artifacts.apis.io/circle-community/rate-limits/circle-community-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/circle-community-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/finops/circle-community-finops.yml
+  href: https://artifacts.apis.io/circle-community/finops/circle-community-finops.yml
   title: ''
   type: FinOps
   url: finops/circle-community-finops.yml
@@ -196,12 +200,12 @@ overview: 'Circle publishes 8 API contracts indexed on the [APIs.io](https://api
   The Circle catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Circle''s developer surface includes engineering blog, authentication, documentation, and 8 more developer resources.'
+  Circle''s developer surface includes engineering blog, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Circle Community Plans Pricing
   plan_count: 4
   slug: circle-community-plans-pricing
-random_paper: 18
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Circle Community Rate Limits
@@ -221,23 +225,23 @@ rules:
   slug: circle-community-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 30.1
+  composite: 29.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 46.8
     catalog_earned_first_party: 0.0
     catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 11.4
-    contract_quality: 56.3
+    contract_quality: 53.3
     developer_ergonomics: 32.1
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 37.9
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     contracts:
@@ -252,13 +256,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/screenshots/circle-community-2026-07-25T205412.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/circle-community/circle-community-2026-07-25T205412.png
 security:
 - kind: authentication
   name: Circle Community Authentication

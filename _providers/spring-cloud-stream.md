@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Core programmatic API for building message-driven microservice applications. Provides functional programming model with java.util.function.Function, Consumer and Supplier bindings, binding lifecycle m
@@ -48,27 +50,27 @@ apis:
 artifact_total: 14
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spring-cloud-stream/refs/heads/main/plans/spring-cloud-stream-plans-pricing.yml
+  href: https://artifacts.apis.io/spring-cloud-stream/plans/spring-cloud-stream-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spring-cloud-stream-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spring-cloud-stream/refs/heads/main/rate-limits/spring-cloud-stream-rate-limits.yml
+  href: https://artifacts.apis.io/spring-cloud-stream/rate-limits/spring-cloud-stream-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spring-cloud-stream-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spring-cloud-stream/refs/heads/main/finops/spring-cloud-stream-finops.yml
+  href: https://artifacts.apis.io/spring-cloud-stream/finops/spring-cloud-stream-finops.yml
   title: ''
   type: FinOps
   url: finops/spring-cloud-stream-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spring-cloud-stream/refs/heads/main/security/spring-cloud-stream-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/spring-cloud-stream/security/spring-cloud-stream-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/spring-cloud-stream-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spring-cloud-stream/refs/heads/main/security/spring-cloud-stream-domain-security.yml
+  href: https://artifacts.apis.io/spring-cloud-stream/security/spring-cloud-stream-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spring-cloud-stream-domain-security.yml
@@ -101,7 +103,7 @@ common:
   type: Support
   url: https://spring.io/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spring-cloud-stream/refs/heads/main/vocabulary/spring-cloud-stream-vocabulary.yml
+  href: https://artifacts.apis.io/spring-cloud-stream/vocabulary/spring-cloud-stream-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/spring-cloud-stream-vocabulary.yml
@@ -118,7 +120,7 @@ finops:
 - has_sources: false
   method: generated
   name: Spring Cloud Stream Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: spring-cloud-stream-finops
   template: true
@@ -152,7 +154,7 @@ plans:
 - name: Spring Cloud Stream Plans Pricing
   plan_count: 3
   slug: spring-cloud-stream-plans-pricing
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Spring Cloud Stream Rate Limits
@@ -171,7 +173,7 @@ rules:
   slug: spring-cloud-stream-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.7
+  composite: 30.9
   coverage:
     artifact_dirs: 13
     catalog_earned: 67.2
@@ -179,29 +181,29 @@ score:
     catalog_gap: 47.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 24.4
-    developer_ergonomics: 33.3
+    developer_ergonomics: 35.7
     discoverability: 78.6
-    operational_transparency: 26.3
-  previous_composite: 30.2
+    operational_transparency: 39.5
+  previous_composite: 30.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/spring-cloud-stream/refs/heads/main/screenshots/spring-cloud-stream-2026-06-20T194411.png
+screenshot: https://apis.io/screenshots/spring-cloud-stream/spring-cloud-stream-2026-06-20T194411.png
 security:
 - kind: domain-security
   name: Spring Cloud Stream Domain Security

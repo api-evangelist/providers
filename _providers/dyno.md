@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 27.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.dyno-agents.app
   baseurl_source: declared
@@ -122,7 +124,7 @@ apis:
   description: The workflows API from Dyno — 9 operation(s) for workflows.
   name: Dyno Workflows API
   slug: dyno-workflows-api
-artifact_total: 22
+artifact_total: 26
 collections:
 - collection_type: open
   name: Phi — Protein Design API
@@ -133,17 +135,17 @@ common:
   type: BlogRSS
   url: https://dynotx.substack.com/feed
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/capabilities/dyno-capability-edges.yml
+  href: https://artifacts.apis.io/dyno/capabilities/dyno-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dyno-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/overlays/dyno-phi-overlay.yaml
+  href: https://artifacts.apis.io/dyno/overlays/dyno-phi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dyno-phi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/mcp/dyno-mcp.yml
+  href: https://artifacts.apis.io/dyno/mcp/dyno-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dyno-mcp.yml
@@ -208,88 +210,96 @@ common:
   type: SourceCode
   url: https://github.com/dynotx/phi-cli
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/packages/dyno-packages.yml
+  href: https://artifacts.apis.io/dyno/packages/dyno-packages.yml
   title: ''
   type: Packages
   url: packages/dyno-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/packages/dyno-packages.yml
+  href: https://artifacts.apis.io/dyno/packages/dyno-packages.yml
   title: ''
   type: SDKs
   url: packages/dyno-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/cli/dyno-cli.yml
+  href: https://artifacts.apis.io/dyno/cli/dyno-cli.yml
   title: ''
   type: CLI
   url: cli/dyno-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dyno/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/authentication/dyno-authentication.yml
+  href: https://artifacts.apis.io/dyno/authentication/dyno-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dyno-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/conventions/dyno-conventions.yml
+  href: https://artifacts.apis.io/dyno/conventions/dyno-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dyno-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/errors/dyno-problem-types.yml
+  href: https://artifacts.apis.io/dyno/errors/dyno-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dyno-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/rate-limits/dyno-rate-limits.yml
+  href: https://artifacts.apis.io/dyno/rate-limits/dyno-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dyno-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/plans/dyno-plans-pricing.yml
+  href: https://artifacts.apis.io/dyno/plans/dyno-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dyno-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/data-model/dyno-data-model.yml
+  href: https://artifacts.apis.io/dyno/data-model/dyno-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dyno-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/lifecycle/dyno-lifecycle.yml
+  href: https://artifacts.apis.io/dyno/lifecycle/dyno-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dyno-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/changelog/dyno-changelog.yml
+  href: https://artifacts.apis.io/dyno/changelog/dyno-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dyno-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/conformance/dyno-conformance.yml
+  href: https://artifacts.apis.io/dyno/conformance/dyno-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dyno-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/sandbox/dyno-sandbox.yml
+  href: https://artifacts.apis.io/dyno/sandbox/dyno-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dyno-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/llms/dyno-llms.txt
+  href: https://artifacts.apis.io/dyno/llms/dyno-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dyno-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/security/dyno-domain-security.yml
+  href: https://artifacts.apis.io/dyno/security/dyno-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dyno-domain-security.yml
 created: '2026-07-17'
 description: 'Dyno Therapeutics is an AI and biotechnology company building high-performance gene delivery technologies to unlock the potential of next-generation genetic medicine. Using its CapsidMap platform, which combines machine learning with high-throughput in vivo measurement, Dyno designs novel adeno-associated virus (AAV) capsids with improved tissue targeting, immune evasion, manufacturability, and payload capacity. Alongside its capsid partnerships, Dyno operates a public developer platform — Dyno Psi-Phi at design.dynotx.com — that exposes a REST API for agentic protein design: submit structure-prediction, inverse-folding and binder-scoring jobs against GPU-backed open models (AlphaFold2, ESMFold, ProteinMPNN, Boltz, ESM-2, RFDiffusion3, BoltzGen, OpenFold3), track job status, and retrieve scored results. The platform ships a first-party Python CLI (dyno-phi), an MIT-licensed open-source repository, and a provider-published Claude Code Agent Skill. Founded on research from George
   Church''s lab at Harvard, Dyno is headquartered in Watertown, Massachusetts, and is an a16z Bio+Health portfolio company.'
+finops:
+- has_sources: true
+  method: derived
+  name: Dyno Finops
+  primary_unit: ''
+  service_category: ''
+  slug: dyno-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dyno.png
 layout: provider
 modified: '2026-10-06'
@@ -304,29 +314,29 @@ plans:
 - name: Dyno Plans Pricing
   plan_count: 0
   slug: dyno-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Dyno Rate Limits
   slug: dyno-rate-limits
 score:
   band: developing
-  composite: 46.3
+  composite: 45.6
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 40.0
+    artifact_dirs: 26
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 44.2
+    contract_quality: 43.6
     developer_ergonomics: 85.0
-    discoverability: 71.4
-    operational_transparency: 18.4
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -334,7 +344,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 45.7
+  previous_composite: 46.1
   provenance:
     conformance: derived
     contracts:
@@ -350,13 +360,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/screenshots/dyno-2026-08-17T080911.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dyno/dyno-2026-08-17T080911.png
 security:
 - kind: authentication
   name: Dyno Authentication
@@ -366,6 +377,14 @@ security:
   name: Dyno Domain Security
   slug: dyno-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: phi
+  slug: dyno-phi
+- name: dyno-run-a-published-protocol
+  slug: dyno-run-a-published-protocol
+- name: dyno-score-a-binder-design-set
+  slug: dyno-score-a-binder-design-set
 slug: dyno
 tags:
 - Company

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 32.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Endpoints provide access to historical trace files for an aircraft.
   name: ADS-B Exchange Traces API
   slug: adsbexchange-traces-api
-artifact_total: 79
+artifact_total: 78
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ADSB Exchange Geopolitical Filtering API
   slug: open-adsbexchange-geopolitical-filtering-api
@@ -92,17 +91,17 @@ collections:
   slug: open-adsbexchange-traces-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/adsbexchange/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/adsbexchange/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/adsbexchange/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -111,22 +110,22 @@ common:
   type: Blog
   url: https://www.adsbexchange.com/news/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/capabilities/adsbexchange-capability-edges.yml
+  href: https://artifacts.apis.io/adsbexchange/capabilities/adsbexchange-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/adsbexchange-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/agentic-access/adsbexchange-agentic-access.yml
+  href: https://artifacts.apis.io/adsbexchange/agentic-access/adsbexchange-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adsbexchange-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/security/adsbexchange-domain-security.yml
+  href: https://artifacts.apis.io/adsbexchange/security/adsbexchange-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adsbexchange-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/authentication/adsbexchange-authentication.yml
+  href: https://artifacts.apis.io/adsbexchange/authentication/adsbexchange-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adsbexchange-authentication.yml
@@ -380,7 +379,7 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -399,7 +398,7 @@ rules:
   slug: adsbexchange-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.3
+  composite: 37.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 54.3
@@ -407,15 +406,15 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.1
+  delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 62.0
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 36.4
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -428,14 +427,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/screenshots/adsbexchange-2026-06-20T165151.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/adsbexchange/adsbexchange-2026-06-20T165151.png
 security:
 - kind: authentication
   name: Adsbexchange Authentication

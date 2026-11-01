@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'National Bank of Canada exposes no public, self-serve first-party developer API. Consumer financial-data access is consent-based and aggregator-mediated: when a customer links a fintech app, National '
@@ -42,12 +44,12 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/national-bank-of-canada/refs/heads/main/security/national-bank-of-canada-domain-security.yml
+  href: https://artifacts.apis.io/national-bank-of-canada/security/national-bank-of-canada-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/national-bank-of-canada-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/national-bank-of-canada/refs/heads/main/llms/national-bank-of-canada-llms.txt
+  href: https://artifacts.apis.io/national-bank-of-canada/llms/national-bank-of-canada-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/national-bank-of-canada-llms.txt
@@ -97,10 +99,10 @@ name: National Bank of Canada
 nav: Providers
 network: true
 overview: National Bank of Canada is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Canada, Big Six, and Open Banking.
-random_paper: 14
+random_paper: 6
 score:
-  band: emerging
-  composite: 11.2
+  band: minimal
+  composite: 10.6
   coverage:
     artifact_dirs: 5
     catalog_earned: 32.0
@@ -114,7 +116,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 65.2
+    discoverability: 58.9
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -123,21 +125,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 11.2
+  previous_composite: 10.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/national-bank-of-canada/refs/heads/main/screenshots/national-bank-of-canada-2026-08-07T184639.png
+screenshot: https://apis.io/screenshots/national-bank-of-canada/national-bank-of-canada-2026-08-07T184639.png
 security:
 - kind: domain-security
   name: National Bank Of Canada Domain Security

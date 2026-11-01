@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ofo/refs/heads/main/packages/ofo-packages.yml
+  href: https://artifacts.apis.io/ofo/packages/ofo-packages.yml
   title: ''
   type: Packages
   url: packages/ofo-packages.yml
@@ -71,7 +73,7 @@ name: Ofo
 nav: Providers
 network: true
 overview: Ofo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Transportation, Mobility, and Micromobility.
-random_paper: 16
+random_paper: 12
 score:
   band: minimal
   composite: 0.0
@@ -98,12 +100,6 @@ score:
     regions:
     - greater-china
   lifecycle: defunct
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 0.0
   regulatory:
     applies: true
@@ -111,8 +107,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

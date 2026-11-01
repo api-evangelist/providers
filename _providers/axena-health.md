@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,12 +37,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/axena-health/refs/heads/main/security/axena-health-domain-security.yml
+  href: https://artifacts.apis.io/axena-health/security/axena-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/axena-health-domain-security.yml
@@ -85,32 +87,32 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/axena-health/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/axena-health/refs/heads/main/well-known/axena-health-well-known.yml
+  href: https://artifacts.apis.io/axena-health/well-known/axena-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/axena-health-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/axena-health/refs/heads/main/mcp/axena-health-mcp.yml
+  href: https://artifacts.apis.io/axena-health/mcp/axena-health-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/axena-health-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/axena-health/refs/heads/main/authentication/axena-health-authentication.yml
+  href: https://artifacts.apis.io/axena-health/authentication/axena-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/axena-health-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/axena-health/refs/heads/main/scopes/axena-health-scopes.yml
+  href: https://artifacts.apis.io/axena-health/scopes/axena-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/axena-health-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/axena-health/refs/heads/main/conformance/axena-health-conformance.yml
+  href: https://artifacts.apis.io/axena-health/conformance/axena-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/axena-health-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/axena-health/refs/heads/main/llms/axena-health-llms.txt
+  href: https://artifacts.apis.io/axena-health/llms/axena-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/axena-health-llms.txt
@@ -144,7 +146,7 @@ overview: 'Axena Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Axena Health''s developer surface includes engineering blog, support, authentication, and 14 more developer resources.'
-random_paper: 12
+random_paper: 0
 scopes:
 - name: Axena Health Scopes
   scope_count: 1
@@ -152,7 +154,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: emerging
-  composite: 18.8
+  composite: 18.1
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -166,9 +168,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 55.0
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 18.8
+  previous_composite: 18.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -178,14 +180,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/axena-health/refs/heads/main/screenshots/axena-health-2026-08-07T162030.png
+screenshot: https://apis.io/screenshots/axena-health/axena-health-2026-08-07T162030.png
 security:
 - kind: authentication
   name: Axena Health Authentication

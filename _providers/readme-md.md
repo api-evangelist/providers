@@ -18,12 +18,12 @@ modified: '2026-04-28'
 name: README.md
 nav: Providers
 network: true
-overview: README.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Documentation, Git, Onboarding, Project Overview, and Repository.
-random_paper: 18
+overview: README.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Documentation, Version Control, Onboarding, Project Overview, and Repository.
+random_paper: 12
 slug: readme-md
 tags:
 - Documentation
-- Git
+- Version Control
 - Onboarding
 - Project Overview
 - Repository

@@ -16,27 +16,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/concord
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/concord-systems/refs/heads/main/packages/concord-systems-packages.yml
+  href: https://artifacts.apis.io/concord-systems/packages/concord-systems-packages.yml
   title: ''
   type: Packages
   url: packages/concord-systems-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/concord-systems/refs/heads/main/packages/concord-systems-packages.yml
+  href: https://artifacts.apis.io/concord-systems/packages/concord-systems-packages.yml
   title: ''
   type: SDKs
   url: packages/concord-systems-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/concord-systems/refs/heads/main/cli/concord-systems-cli.yml
+  href: https://artifacts.apis.io/concord-systems/cli/concord-systems-cli.yml
   title: ''
   type: CLI
   url: cli/concord-systems-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/concord-systems/refs/heads/main/lifecycle/concord-systems-lifecycle.yml
+  href: https://artifacts.apis.io/concord-systems/lifecycle/concord-systems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/concord-systems-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/concord-systems/refs/heads/main/llms/concord-systems-llms.txt
+  href: https://artifacts.apis.io/concord-systems/llms/concord-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/concord-systems-llms.txt
@@ -53,8 +53,8 @@ overview: 'Concord Systems is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Concord Systems'' developer surface includes CLI and 5 more developer resources.'
-random_paper: 19
-screenshot: https://raw.githubusercontent.com/api-evangelist/concord-systems/refs/heads/main/screenshots/concord-systems-2026-07-25T210233.png
+random_paper: 21
+screenshot: https://apis.io/screenshots/concord-systems/concord-systems-2026-07-25T210233.png
 slug: concord-systems
 tags:
 - Company

@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: Sea-level and water-temperature observations.
   name: Danish Meteorological Institutes Ocean Obs API
   slug: danish-meteorological-institutes-oceanobs-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: DMI Open Data climateData API
   slug: open-danish-meteorological-institutes-climatedata-api
@@ -87,37 +86,37 @@ collections:
   slug: open-dmi-open-data-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/plans/danish-meteorological-institutes-plans-pricing.yml
+  href: https://artifacts.apis.io/danish-meteorological-institutes/plans/danish-meteorological-institutes-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/danish-meteorological-institutes-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/rate-limits/danish-meteorological-institutes-rate-limits.yml
+  href: https://artifacts.apis.io/danish-meteorological-institutes/rate-limits/danish-meteorological-institutes-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/danish-meteorological-institutes-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/finops/danish-meteorological-institutes-finops.yml
+  href: https://artifacts.apis.io/danish-meteorological-institutes/finops/danish-meteorological-institutes-finops.yml
   title: ''
   type: FinOps
   url: finops/danish-meteorological-institutes-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/agentic-access/danish-meteorological-institutes-agentic-access.yml
+  href: https://artifacts.apis.io/danish-meteorological-institutes/agentic-access/danish-meteorological-institutes-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/danish-meteorological-institutes-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/security/danish-meteorological-institutes-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/danish-meteorological-institutes/security/danish-meteorological-institutes-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/danish-meteorological-institutes-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/security/danish-meteorological-institutes-domain-security.yml
+  href: https://artifacts.apis.io/danish-meteorological-institutes/security/danish-meteorological-institutes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/danish-meteorological-institutes-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/authentication/danish-meteorological-institutes-authentication.yml
+  href: https://artifacts.apis.io/danish-meteorological-institutes/authentication/danish-meteorological-institutes-authentication.yml
   title: ''
   type: Authentication
   url: authentication/danish-meteorological-institutes-authentication.yml
@@ -146,12 +145,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/dmidk
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/json-ld/dmi-context.jsonld
+  href: https://artifacts.apis.io/danish-meteorological-institutes/json-ld/dmi-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dmi-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/vocabulary/dmi-vocabulary.yml
+  href: https://artifacts.apis.io/danish-meteorological-institutes/vocabulary/dmi-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/dmi-vocabulary.yml
@@ -161,7 +160,7 @@ finops:
 - has_sources: false
   method: generated
   name: Danish Meteorological Institutes Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: danish-meteorological-institutes-finops
   template: true
@@ -194,7 +193,7 @@ plans:
 - name: Danish Meteorological Institutes Plans Pricing
   plan_count: 3
   slug: danish-meteorological-institutes-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Danish Meteorological Institutes Rate Limits
@@ -225,7 +224,7 @@ rules:
   slug: dmi-open-data-api-rules
 score:
   band: thin
-  composite: 28.4
+  composite: 34.4
   coverage:
     artifact_dirs: 15
     catalog_earned: 66.0
@@ -233,21 +232,21 @@ score:
     catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 56.7
-    developer_ergonomics: 0.0
+    developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 10.5
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
     - nordics
-  previous_composite: 30.0
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -261,14 +260,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/screenshots/danish-meteorological-institutes-2026-06-20T175450.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/danish-meteorological-institutes/danish-meteorological-institutes-2026-06-20T175450.png
 security:
 - kind: authentication
   name: Danish Meteorological Institutes Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,25 +35,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Trendyol Marketplace / Partner API for sellers and integrators — product, order/shipment, returns, invoice, settlement, and webhook operations.
   name: Trendyol Marketplace API
   slug: trendyol-marketplace-api
-artifact_total: 5
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Trendyol Webhooks
   slug: trendyol-webhooks
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trendyol/refs/heads/main/rate-limits/trendyol-rate-limits.yml
+  href: https://artifacts.apis.io/trendyol/rate-limits/trendyol-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trendyol-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trendyol/refs/heads/main/security/trendyol-domain-security.yml
+  href: https://artifacts.apis.io/trendyol/security/trendyol-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trendyol-domain-security.yml
@@ -96,27 +98,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/Trendyol
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trendyol/refs/heads/main/authentication/trendyol-authentication.yml
+  href: https://artifacts.apis.io/trendyol/authentication/trendyol-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trendyol-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trendyol/refs/heads/main/asyncapi/trendyol-webhooks.yml
+  href: https://artifacts.apis.io/trendyol/asyncapi/trendyol-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/trendyol-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trendyol/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/trendyol/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trendyol/refs/heads/main/mcp/trendyol-mcp.yml
+  href: https://artifacts.apis.io/trendyol/mcp/trendyol-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/trendyol-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trendyol/refs/heads/main/llms/trendyol-llms.txt
+  href: https://artifacts.apis.io/trendyol/llms/trendyol-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trendyol-llms.txt
@@ -135,14 +137,14 @@ overview: 'Trendyol is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Trendyol''s developer surface includes documentation, API reference, getting-started guide, support, changelog, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 1
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Trendyol Rate Limits
   slug: trendyol-rate-limits
 score:
-  band: thin
-  composite: 35.3
+  band: developing
+  composite: 41.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 49.0
@@ -150,14 +152,14 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 44.6
-    discoverability: 73.2
-    operational_transparency: 65.8
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 84.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -166,7 +168,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 35.2
+  previous_composite: 41.3
   provenance:
     conformance: derived
     mcp: derived
@@ -177,14 +179,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/trendyol/refs/heads/main/screenshots/trendyol-2026-08-17T082435.png
+screenshot: https://apis.io/screenshots/trendyol/trendyol-2026-08-17T082435.png
 security:
 - kind: authentication
   name: Trendyol Authentication
@@ -194,6 +196,16 @@ security:
   name: Trendyol Domain Security
   slug: trendyol-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Fulfill an order package
+  slug: trendyol-fulfill-an-order
+- name: Handle a customer return (claim)
+  slug: trendyol-handle-a-return
+- name: List a product on Trendyol
+  slug: trendyol-list-a-product
+- name: Subscribe to order webhooks
+  slug: trendyol-subscribe-to-webhooks
 slug: trendyol
 tags:
 - Company

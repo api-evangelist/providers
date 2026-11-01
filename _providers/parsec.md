@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -85,11 +87,8 @@ apis:
   description: The Relay API from Parsec — 2 operation(s) for relay.
   name: Parsec Relay API
   slug: parsec-relay-api
-artifact_total: 25
+artifact_total: 29
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Parsec Teams App Rule API
   slug: open-parsec-app-rule-api
@@ -116,7 +115,7 @@ collections:
   slug: open-parsec-relay-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/plans/parsec-plans-pricing.yml
+  href: https://artifacts.apis.io/parsec/plans/parsec-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/parsec-plans-pricing.yml
@@ -125,7 +124,7 @@ common:
   type: Website
   url: https://www.parsec.app/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/capabilities/parsec-capability-edges.yml
+  href: https://artifacts.apis.io/parsec/capabilities/parsec-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/parsec-capability-edges.yml
@@ -190,32 +189,32 @@ common:
   type: Compliance
   url: https://parsec.app/security
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/_original/parsec-teams-openapi.yml
+  href: https://artifacts.apis.io/parsec/openapi/_original/parsec-teams-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/parsec-teams-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/authentication/parsec-authentication.yml
+  href: https://artifacts.apis.io/parsec/authentication/parsec-authentication.yml
   title: ''
   type: Authentication
   url: authentication/parsec-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/conventions/parsec-conventions.yml
+  href: https://artifacts.apis.io/parsec/conventions/parsec-conventions.yml
   title: ''
   type: Conventions
   url: conventions/parsec-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/rate-limits/parsec-rate-limits.yml
+  href: https://artifacts.apis.io/parsec/rate-limits/parsec-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/parsec-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/errors/parsec-problem-types.yml
+  href: https://artifacts.apis.io/parsec/errors/parsec-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/parsec-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/lifecycle/parsec-lifecycle.yml
+  href: https://artifacts.apis.io/parsec/lifecycle/parsec-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/parsec-lifecycle.yml
@@ -224,7 +223,7 @@ common:
   type: Deprecation
   url: https://parsec.app/changelog
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/conformance/parsec-conformance.yml
+  href: https://artifacts.apis.io/parsec/conformance/parsec-conformance.yml
   title: ''
   type: Conformance
   url: conformance/parsec-conformance.yml
@@ -233,52 +232,60 @@ common:
   type: TrustCenter
   url: https://parsec.app/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/security/parsec-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/parsec/security/parsec-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/parsec-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/security/parsec-domain-security.yml
+  href: https://artifacts.apis.io/parsec/security/parsec-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/parsec-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/data-model/parsec-data-model.yml
+  href: https://artifacts.apis.io/parsec/data-model/parsec-data-model.yml
   title: ''
   type: DataModel
   url: data-model/parsec-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/mcp/parsec-mcp.yml
+  href: https://artifacts.apis.io/parsec/mcp/parsec-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/parsec-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/parsec/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/agentic-access/parsec-agentic-access.yml
+  href: https://artifacts.apis.io/parsec/agentic-access/parsec-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/parsec-agentic-access.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/overlays/parsec-teams-overlay.yaml
+  href: https://artifacts.apis.io/parsec/overlays/parsec-teams-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/parsec-teams-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/llms/parsec-llms.txt
+  href: https://artifacts.apis.io/parsec/llms/parsec-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/parsec-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/changelog/parsec-changelog.yml
+  href: https://artifacts.apis.io/parsec/changelog/parsec-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/parsec-changelog.yml
 created: '2026-07-17'
 description: Parsec is a high-performance, low-latency remote desktop and interactive video streaming product, now a Unity company, used to access graphics-intensive and latency-sensitive applications from anywhere across any device. Its peer-to-peer architecture streams in silky-smooth high definition and is used by game studios (EA, Ubisoft, Blizzard, Square Enix), film/TV, animation, broadcast and architecture teams. Parsec for Teams adds organization-wide administration, and the Parsec for Teams API exposes that admin surface — managing members, groups, team machines (computers), time-limited guest access, application rules, relays, and the team audit log — authenticated with an API key presented as an HTTP Bearer token and governed by a granular team permission model.
+finops:
+- has_sources: true
+  method: derived
+  name: Parsec Finops
+  primary_unit: user
+  service_category: ''
+  slug: parsec-finops
+  template: false
 image: https://parsec.app/_next/static/media/opengraph.60ec26bf.png
 layout: provider
 modified: '2026-07-20'
@@ -296,30 +303,30 @@ plans:
 - name: Parsec Price Estimates
   plan_count: 0
   slug: parsec-price-estimates
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Parsec Rate Limits
   slug: parsec-rate-limits
 score:
   band: strong
-  composite: 60.5
+  composite: 63.4
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 57.0
+    artifact_dirs: 23
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 49.0
     developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 65.8
-  previous_composite: 60.4
+    discoverability: 66.1
+    operational_transparency: 76.3
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -336,13 +343,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/screenshots/parsec-2026-08-07T191456.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/parsec/parsec-2026-08-07T191456.png
 security:
 - kind: authentication
   name: Parsec Authentication
@@ -360,6 +368,16 @@ security:
   name: Parsec Trust Center
   slug: parsec-trust-center
   summary_line: SOC 2 Type 2
+skill_count: 4
+skills:
+- name: Pull the team audit log
+  slug: parsec-audit-log
+- name: Issue time-limited guest access
+  slug: parsec-guest-access
+- name: Invite and organize a team member
+  slug: parsec-onboard-team-member
+- name: Provision and assign a team machine
+  slug: parsec-provision-machine-access
 slug: parsec
 tags:
 - Company

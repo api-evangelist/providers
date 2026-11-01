@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.0
-  scored_at: '2026-10-17'
+  score: 48.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -110,15 +112,12 @@ apis:
   description: Reference endpoints to retrieve the visit reasons Zocdoc supports and the specialty each one belongs to. Visit reason drives appointment duration and bookable timeslots.
   name: Zocdoc Visit Reasons API
   slug: zocdoc-visit-reasons-api
-artifact_total: 41
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Zocdoc Webhooks
   slug: zocdoc-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: API Documentation appointments API
   slug: open-zocdoc-appointments-api
@@ -151,27 +150,27 @@ collections:
   slug: open-zocdoc-webhook-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/capabilities/zocdoc-capability-edges.yml
+  href: https://artifacts.apis.io/zocdoc/capabilities/zocdoc-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zocdoc-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/agentic-access/zocdoc-agentic-access.yml
+  href: https://artifacts.apis.io/zocdoc/agentic-access/zocdoc-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zocdoc-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/security/zocdoc-domain-security.yml
+  href: https://artifacts.apis.io/zocdoc/security/zocdoc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zocdoc-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/authentication/zocdoc-authentication.yml
+  href: https://artifacts.apis.io/zocdoc/authentication/zocdoc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zocdoc-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/scopes/zocdoc-scopes.yml
+  href: https://artifacts.apis.io/zocdoc/scopes/zocdoc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zocdoc-scopes.yml
@@ -204,112 +203,112 @@ common:
   type: X
   url: https://x.com/Zocdoc
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/plans/zocdoc-plans-pricing.yml
+  href: https://artifacts.apis.io/zocdoc/plans/zocdoc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zocdoc-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/rate-limits/zocdoc-rate-limits.yml
+  href: https://artifacts.apis.io/zocdoc/rate-limits/zocdoc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zocdoc-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/finops/zocdoc-finops.yml
+  href: https://artifacts.apis.io/zocdoc/finops/zocdoc-finops.yml
   title: ''
   type: FinOps
   url: finops/zocdoc-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/vocabulary/zocdoc-vocabulary.yml
+  href: https://artifacts.apis.io/zocdoc/vocabulary/zocdoc-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/zocdoc-vocabulary.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/json-schema/zocdoc-provider.json
+  href: https://artifacts.apis.io/zocdoc/json-schema/zocdoc-provider.json
   title: ''
   type: JSONSchema
   url: json-schema/zocdoc-provider.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/json-ld/zocdoc-context.jsonld
+  href: https://artifacts.apis.io/zocdoc/json-ld/zocdoc-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/zocdoc-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/rules/zocdoc-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/zocdoc/rules/zocdoc-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/zocdoc-jsonschema-spectral-rules.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/examples/book-appointment-request.json
+  href: https://artifacts.apis.io/zocdoc/examples/book-appointment-request.json
   title: ''
   type: Examples
   url: examples/book-appointment-request.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/llms/zocdoc-llms.txt
+  href: https://artifacts.apis.io/zocdoc/llms/zocdoc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zocdoc-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/well-known/zocdoc-well-known.yml
+  href: https://artifacts.apis.io/zocdoc/well-known/zocdoc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zocdoc-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/packages/zocdoc-packages.yml
+  href: https://artifacts.apis.io/zocdoc/packages/zocdoc-packages.yml
   title: ''
   type: Packages
   url: packages/zocdoc-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/mcp/zocdoc-mcp.yml
+  href: https://artifacts.apis.io/zocdoc/mcp/zocdoc-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zocdoc-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/mcp/zocdoc-tool-crosswalk.yml
+  href: https://artifacts.apis.io/zocdoc/mcp/zocdoc-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/zocdoc-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zocdoc/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/conformance/zocdoc-conformance.yml
+  href: https://artifacts.apis.io/zocdoc/conformance/zocdoc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zocdoc-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/errors/zocdoc-problem-types.yml
+  href: https://artifacts.apis.io/zocdoc/errors/zocdoc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zocdoc-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/lifecycle/zocdoc-lifecycle.yml
+  href: https://artifacts.apis.io/zocdoc/lifecycle/zocdoc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zocdoc-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/conventions/zocdoc-conventions.yml
+  href: https://artifacts.apis.io/zocdoc/conventions/zocdoc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zocdoc-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/changelog/zocdoc-changelog.yml
+  href: https://artifacts.apis.io/zocdoc/changelog/zocdoc-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zocdoc-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/sandbox/zocdoc-sandbox.yml
+  href: https://artifacts.apis.io/zocdoc/sandbox/zocdoc-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zocdoc-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/data-model/zocdoc-data-model.yml
+  href: https://artifacts.apis.io/zocdoc/data-model/zocdoc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zocdoc-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/asyncapi/zocdoc-webhooks.yml
+  href: https://artifacts.apis.io/zocdoc/asyncapi/zocdoc-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zocdoc-webhooks.yml
@@ -354,8 +353,8 @@ examples:
   name: Book Appointment Response
   slug: book-appointment-response
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Zocdoc Finops
   primary_unit: ''
   service_category: ''
@@ -393,7 +392,7 @@ plans:
 - name: Zocdoc Plans Pricing
   plan_count: 2
   slug: zocdoc-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Zocdoc Rate Limits
@@ -417,7 +416,7 @@ scopes:
   summary_line: 10 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 58.3
+  composite: 61.1
   coverage:
     artifact_dirs: 33
     catalog_earned: 60.8
@@ -425,15 +424,20 @@ score:
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 59.2
+    access_clarity: 65.8
     contract_governance: 28.0
     contract_quality: 64.4
-    developer_ergonomics: 64.3
-    discoverability: 73.2
+    developer_ergonomics: 71.4
+    discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 59.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 61.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -450,13 +454,14 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/screenshots/zocdoc-2026-06-20T201932.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zocdoc/zocdoc-2026-06-20T201932.png
 security:
 - kind: authentication
   name: Zocdoc Authentication
@@ -470,6 +475,18 @@ security:
   name: Zocdoc Vulnerability Disclosure
   slug: zocdoc-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 5
+skills:
+- name: zocdoc-book-appointment
+  slug: zocdoc-book-appointment
+- name: zocdoc-doctor-finder
+  slug: zocdoc-doctor-finder
+- name: zocdoc-manage-appointment
+  slug: zocdoc-manage-appointment
+- name: zocdoc-publish-provider-availability
+  slug: zocdoc-publish-provider-availability
+- name: zocdoc-sync-insurance-offerings
+  slug: zocdoc-sync-insurance-offerings
 slug: zocdoc
 tags:
 - Healthcare

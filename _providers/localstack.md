@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 32.9
-  scored_at: '2026-10-17'
+  score: 34.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -54,11 +56,8 @@ apis:
   description: The localstack API from LocalStack — 8 operation(s) for localstack.
   name: LocalStack API
   slug: localstack-localstack-api
-artifact_total: 9
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LocalStack REST API for Community Aws API
   slug: open-localstack-aws-api
@@ -66,17 +65,22 @@ collections:
   name: REST API for Community Aws localstack API
   slug: open-localstack-localstack-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/localstack/plans/localstack-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/localstack-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://blog.localstack.cloud/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/capabilities/localstack-capability-edges.yml
+  href: https://artifacts.apis.io/localstack/capabilities/localstack-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/localstack-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/overlays/localstack-openapi-overlay.yaml
+  href: https://artifacts.apis.io/localstack/overlays/localstack-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/localstack-openapi-overlay.yaml
@@ -133,92 +137,100 @@ common:
   type: StatusPage
   url: https://status.localstack.cloud
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/changelog/localstack-changelog.yml
+  href: https://artifacts.apis.io/localstack/changelog/localstack-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/localstack-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/packages/localstack-packages.yml
+  href: https://artifacts.apis.io/localstack/packages/localstack-packages.yml
   title: ''
   type: Packages
   url: packages/localstack-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/packages/localstack-packages.yml
+  href: https://artifacts.apis.io/localstack/packages/localstack-packages.yml
   title: ''
   type: SDKs
   url: packages/localstack-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/cli/localstack-cli.yml
+  href: https://artifacts.apis.io/localstack/cli/localstack-cli.yml
   title: ''
   type: CLI
   url: cli/localstack-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/mcp/localstack-mcp.yml
+  href: https://artifacts.apis.io/localstack/mcp/localstack-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/localstack-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/localstack/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/well-known/localstack-well-known.yml
+  href: https://artifacts.apis.io/localstack/well-known/localstack-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/localstack-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/well-known/localstack-api-catalog.json
+  href: https://artifacts.apis.io/localstack/well-known/localstack-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/localstack-api-catalog.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/llms/localstack-llms.txt
+  href: https://artifacts.apis.io/localstack/llms/localstack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/localstack-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/authentication/localstack-authentication.yml
+  href: https://artifacts.apis.io/localstack/authentication/localstack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/localstack-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/conventions/localstack-conventions.yml
+  href: https://artifacts.apis.io/localstack/conventions/localstack-conventions.yml
   title: ''
   type: Conventions
   url: conventions/localstack-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/errors/localstack-problem-types.yml
+  href: https://artifacts.apis.io/localstack/errors/localstack-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/localstack-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/conformance/localstack-conformance.yml
+  href: https://artifacts.apis.io/localstack/conformance/localstack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/localstack-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/lifecycle/localstack-lifecycle.yml
+  href: https://artifacts.apis.io/localstack/lifecycle/localstack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/localstack-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/data-model/localstack-data-model.yml
+  href: https://artifacts.apis.io/localstack/data-model/localstack-data-model.yml
   title: ''
   type: DataModel
   url: data-model/localstack-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/agentic-access/localstack-agentic-access.yml
+  href: https://artifacts.apis.io/localstack/agentic-access/localstack-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/localstack-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/security/localstack-domain-security.yml
+  href: https://artifacts.apis.io/localstack/security/localstack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/localstack-domain-security.yml
 created: '2026-07-17'
 description: LocalStack is a cloud service emulator that runs in a single container on your laptop or in your CI environment, providing a local test and mocking framework for developing cloud applications against AWS, Snowflake, and Azure without provisioning real infrastructure. It ships a CLI, a Docker image, IaC integrations (Terraform, CDK, SAM, CloudFormation, Pulumi), an official MCP server and Agent Skills, and a local REST API for diagnostics, health checks, service introspection, and retrospective access to emulated AWS resources (SES, SNS, SQS, Lambda, DynamoDB, EventBridge, CloudWatch). Backed by GGV Capital.
+finops:
+- has_sources: true
+  method: derived
+  name: Localstack Finops
+  primary_unit: license
+  service_category: ''
+  slug: localstack-finops
+  template: false
 image: https://github.com/localstack.png
 layout: provider
 mcp_servers:
@@ -232,27 +244,34 @@ network: true
 overview: 'LocalStack publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Aws API, and 1 more. Tagged areas include Company, Developer Tools, Cloud, Emulator, and Testing.
 
 
-  LocalStack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
+  LocalStack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
+plans:
+- name: Localstack Plans Pricing
+  plan_count: 8
+  slug: localstack-plans-pricing
+- name: Localstack Price Estimates
+  plan_count: 0
+  slug: localstack-price-estimates
 random_paper: 1
 score:
-  band: developing
-  composite: 43.6
+  band: strong
+  composite: 54.5
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 32.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    artifact_dirs: 25
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 31.6
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 38.3
     developer_ergonomics: 78.6
-    discoverability: 63.3
-    operational_transparency: 34.2
-  previous_composite: 43.6
+    discoverability: 56.7
+    operational_transparency: 36.8
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -269,13 +288,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/screenshots/localstack-2026-07-25T225424.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/localstack/localstack-2026-07-25T225424.png
 security:
 - kind: authentication
   name: Localstack Authentication
@@ -285,6 +305,20 @@ security:
   name: Localstack Domain Security
   slug: localstack-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 6
+skills:
+- name: localstack-extensions
+  slug: localstack-extensions
+- name: localstack-deploy
+  slug: localstack-iac-deployment
+- name: localstack-iam
+  slug: localstack-iam-policy-analyzer
+- name: localstack
+  slug: localstack-lifecycle
+- name: localstack-logs
+  slug: localstack-logs-analysis
+- name: localstack-state
+  slug: localstack-state-management
 slug: localstack
 tags:
 - Company

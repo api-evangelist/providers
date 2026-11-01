@@ -14,46 +14,48 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.5
-  scored_at: '2026-10-17'
+  score: 2.2
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blossomenergy/refs/heads/main/llms/blossomenergy-llms.txt
+  href: https://artifacts.apis.io/blossomenergy/llms/blossomenergy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blossomenergy-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blossomenergy/refs/heads/main/mcp/blossomenergy-tool-crosswalk.yml
+  href: https://artifacts.apis.io/blossomenergy/mcp/blossomenergy-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/blossomenergy-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blossomenergy/refs/heads/main/mcp/blossomenergy-mcp.yml
+  href: https://artifacts.apis.io/blossomenergy/mcp/blossomenergy-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/blossomenergy-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blossomenergy/refs/heads/main/hosts/blossomenergy-hosts.yml
+  href: https://artifacts.apis.io/blossomenergy/hosts/blossomenergy-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blossomenergy-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blossomenergy/refs/heads/main/vendors/blossomenergy-vendors.yml
+  href: https://artifacts.apis.io/blossomenergy/vendors/blossomenergy-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blossomenergy-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blossomenergy/refs/heads/main/security/blossomenergy-domain-security.yml
+  href: https://artifacts.apis.io/blossomenergy/security/blossomenergy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blossomenergy-domain-security.yml
@@ -81,10 +83,10 @@ name: Blossomenergy
 nav: Providers
 network: true
 overview: Blossomenergy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Renewables, Startups, and Private.
-random_paper: 9
+random_paper: 1
 score:
   band: minimal
-  composite: 4.3
+  composite: 3.3
   coverage:
     artifact_dirs: 7
     catalog_earned: 25.0
@@ -92,25 +94,25 @@ score:
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 55.0
+    discoverability: 45.0
     operational_transparency: 0.0
-  previous_composite: 4.2
+  previous_composite: 3.3
   provenance:
-    mcp: first-party
+    mcp: platform-generated
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

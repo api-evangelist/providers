@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Celsius provides a cryptocurrency lending and mining platform; no public developer API documentation was found.
@@ -32,12 +34,12 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/celsius/refs/heads/main/hosts/celsius-hosts.yml
+  href: https://artifacts.apis.io/celsius/hosts/celsius-hosts.yml
   title: ''
   type: Hosts
   url: hosts/celsius-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/celsius/refs/heads/main/vendors/celsius-vendors.yml
+  href: https://artifacts.apis.io/celsius/vendors/celsius-vendors.yml
   title: ''
   type: Vendors
   url: vendors/celsius-vendors.yml
@@ -46,7 +48,7 @@ common:
   type: PrivacyPolicy
   url: https://celsius.network/static/privacy-policy.pdf
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/celsius/refs/heads/main/security/celsius-domain-security.yml
+  href: https://artifacts.apis.io/celsius/security/celsius-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/celsius-domain-security.yml
@@ -73,7 +75,7 @@ name: Celsius
 nav: Providers
 network: true
 overview: Celsius is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Lending, Mining, and Bankruptcy.
-random_paper: 12
+random_paper: 16
 score:
   band: minimal
   composite: 6.7
@@ -84,6 +86,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -91,6 +94,7 @@ score:
     developer_ergonomics: 0.0
     discoverability: 53.6
     operational_transparency: 0.0
+  previous_composite: 6.7
   provenance:
     mcp: derived
   regulatory:
@@ -99,8 +103,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

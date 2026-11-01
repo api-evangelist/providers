@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 31.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -99,11 +101,8 @@ apis:
   description: Manage the people who have access to a workspace and their access levels.
   name: Instapage Team Members API
   slug: instapage-team-members-api
-artifact_total: 31
+artifact_total: 36
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Instapage Analytics API
   slug: open-instapage-analytics
@@ -142,72 +141,72 @@ collections:
   slug: open-instapage
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-team-members-overlay.yaml
+  href: https://artifacts.apis.io/instapage/overlays/instapage-team-members-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-team-members-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-pages-overlay.yaml
+  href: https://artifacts.apis.io/instapage/overlays/instapage-pages-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-pages-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-groups-overlay.yaml
+  href: https://artifacts.apis.io/instapage/overlays/instapage-groups-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-groups-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-personalizations-overlay.yaml
+  href: https://artifacts.apis.io/instapage/overlays/instapage-personalizations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-personalizations-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-collections-overlay.yaml
+  href: https://artifacts.apis.io/instapage/overlays/instapage-collections-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-collections-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-experiments-overlay.yaml
+  href: https://artifacts.apis.io/instapage/overlays/instapage-experiments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-experiments-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-analytics-overlay.yaml
+  href: https://artifacts.apis.io/instapage/overlays/instapage-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-analytics-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-form-submissions-overlay.yaml
+  href: https://artifacts.apis.io/instapage/overlays/instapage-form-submissions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-form-submissions-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-domains-overlay.yaml
+  href: https://artifacts.apis.io/instapage/overlays/instapage-domains-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-domains-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-assets-overlay.yaml
+  href: https://artifacts.apis.io/instapage/overlays/instapage-assets-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-assets-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/agentic-access/instapage-agentic-access.yml
+  href: https://artifacts.apis.io/instapage/agentic-access/instapage-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/instapage-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/security/instapage-trust-center.yml
+  href: https://artifacts.apis.io/instapage/security/instapage-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/instapage-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/security/instapage-domain-security.yml
+  href: https://artifacts.apis.io/instapage/security/instapage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/instapage-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/authentication/instapage-authentication.yml
+  href: https://artifacts.apis.io/instapage/authentication/instapage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/instapage-authentication.yml
@@ -248,62 +247,62 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/instapage
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/packages/instapage-packages.yml
+  href: https://artifacts.apis.io/instapage/packages/instapage-packages.yml
   title: ''
   type: Packages
   url: packages/instapage-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/llms/instapage-llms.txt
+  href: https://artifacts.apis.io/instapage/llms/instapage-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/instapage-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/conventions/instapage-conventions.yml
+  href: https://artifacts.apis.io/instapage/conventions/instapage-conventions.yml
   title: ''
   type: Conventions
   url: conventions/instapage-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/errors/instapage-problem-types.yml
+  href: https://artifacts.apis.io/instapage/errors/instapage-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/instapage-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/lifecycle/instapage-lifecycle.yml
+  href: https://artifacts.apis.io/instapage/lifecycle/instapage-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/instapage-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/changelog/instapage-changelog.yml
+  href: https://artifacts.apis.io/instapage/changelog/instapage-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/instapage-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/data-model/instapage-data-model.yml
+  href: https://artifacts.apis.io/instapage/data-model/instapage-data-model.yml
   title: ''
   type: DataModel
   url: data-model/instapage-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/conformance/instapage-conformance.yml
+  href: https://artifacts.apis.io/instapage/conformance/instapage-conformance.yml
   title: ''
   type: Conformance
   url: conformance/instapage-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/plans/instapage-plans-pricing.yml
+  href: https://artifacts.apis.io/instapage/plans/instapage-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/instapage-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/rate-limits/instapage-rate-limits.yml
+  href: https://artifacts.apis.io/instapage/rate-limits/instapage-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/instapage-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/instapage/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/security/instapage-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/instapage/security/instapage-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/instapage-vulnerability-disclosure.yml
@@ -353,6 +352,14 @@ common:
   url: https://app.instapage.com/auth/login/
 created: '2026-05-11'
 description: Instapage is a landing page and post-click optimization platform that lets marketers build, personalize, A/B test, and analyze landing pages used in paid advertising and conversion campaigns. The platform includes a drag and drop builder, AdMap for ad-to-page connection, heatmaps, experiments, and AI-powered content generation, and integrates with major ad platforms, CRMs, and marketing automation tools. Instapage's REST API provides programmatic access to landing pages, leads, accounts, and team members using a Personal API Token for authentication.
+finops:
+- has_sources: true
+  method: derived
+  name: Instapage Finops
+  primary_unit: ''
+  service_category: ''
+  slug: instapage-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instapage.png
 layout: provider
 modified: '2026-08-13'
@@ -367,30 +374,30 @@ plans:
 - name: Instapage Plans Pricing
   plan_count: 3
   slug: instapage-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Instapage Rate Limits
   slug: instapage-rate-limits
 score:
   band: developing
-  composite: 43.4
+  composite: 53.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 63.2
+    access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 17.8
-    developer_ergonomics: 50.6
+    contract_quality: 14.4
+    developer_ergonomics: 58.9
     discoverability: 71.4
-    operational_transparency: 57.9
-  previous_composite: 43.3
+    operational_transparency: 68.4
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -406,14 +413,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/screenshots/instapage-2026-06-20T183418.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/instapage/instapage-2026-06-20T183418.png
 security:
 - kind: authentication
   name: Instapage Authentication
@@ -431,6 +439,18 @@ security:
   name: Instapage Trust Center
   slug: instapage-trust-center
   summary_line: SOC 2, ISO 27001, GDPR, CCPA/CPRA
+skill_count: 5
+skills:
+- name: Export Instapage form submissions (leads)
+  slug: instapage-export-leads
+- name: Launch an Instapage landing page
+  slug: instapage-launch-a-landing-page
+- name: Manage Instapage workspace access
+  slug: instapage-manage-workspace-access
+- name: Publish an Instapage collection page
+  slug: instapage-publish-a-collection-page
+- name: Report on Instapage page performance
+  slug: instapage-report-on-page-performance
 slug: instapage
 tags:
 - Landing Pages

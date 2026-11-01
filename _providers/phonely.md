@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-17'
+  score: 25.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,15 +55,12 @@ apis:
 - description: Receive structured post-call event data from Phonely after each AI voice interaction completes. The Send Call Data post-call workflow action POSTs a JSON payload containing call metadata, full transcr
   name: Phonely Webhooks API
   slug: phonely-webhooks-api
-artifact_total: 59
+artifact_total: 58
 asyncapis:
 - description: Phonely delivers post-call event data to any HTTPS endpoint configured via the "Send Call Data" post-call action in the workflow builder. The event is delivered as an HTTP POST with a JSON body contai
   name: Phonely Webhooks
   slug: phonely-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Phonely Agents API
   slug: open-phonely-agents-api
@@ -71,17 +70,17 @@ common:
   type: Website
   url: https://www.phonely.ai/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/agentic-access/phonely-agentic-access.yml
+  href: https://artifacts.apis.io/phonely/agentic-access/phonely-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/phonely-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/security/phonely-domain-security.yml
+  href: https://artifacts.apis.io/phonely/security/phonely-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/phonely-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/authentication/phonely-authentication.yml
+  href: https://artifacts.apis.io/phonely/authentication/phonely-authentication.yml
   title: ''
   type: Authentication
   url: authentication/phonely-authentication.yml
@@ -138,17 +137,17 @@ common:
   type: Plans
   url: https://www.phonely.ai/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/plans/phonely-plans-pricing.yml
+  href: https://artifacts.apis.io/phonely/plans/phonely-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/phonely-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/rate-limits/phonely-rate-limits.yml
+  href: https://artifacts.apis.io/phonely/rate-limits/phonely-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/phonely-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/finops/phonely-finops.yml
+  href: https://artifacts.apis.io/phonely/finops/phonely-finops.yml
   title: ''
   type: FinOps
   url: finops/phonely-finops.yml
@@ -234,7 +233,7 @@ plans:
 - name: Phonely Plans Pricing
   plan_count: 4
   slug: phonely-plans-pricing
-random_paper: 19
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Phonely Rate Limits
@@ -276,8 +275,8 @@ rules:
     warn: 3
   slug: phonely-rules
 score:
-  band: thin
-  composite: 38.7
+  band: developing
+  composite: 46.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 55.9
@@ -285,15 +284,15 @@ score:
     catalog_gap: 59.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.8
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 50.0
     contract_governance: 13.6
     contract_quality: 69.2
     developer_ergonomics: 45.2
     discoverability: 57.1
-    operational_transparency: 7.9
-  previous_composite: 45.5
+    operational_transparency: 23.7
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -306,14 +305,15 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 13.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 19.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/screenshots/phonely-2026-06-20T191652.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/phonely/phonely-2026-06-20T191652.png
 security:
 - kind: authentication
   name: Phonely Authentication

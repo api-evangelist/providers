@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,11 +56,8 @@ apis:
   description: Web Apps operations
   name: Microsoft Azure App Service Web Apps API
   slug: microsoft-azure-app-service-web-apps-api
-artifact_total: 13
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure App Service REST Operations API
   slug: open-microsoft-azure-app-service-operations-api
@@ -69,18 +68,23 @@ collections:
   name: Azure App Service REST API
   slug: open-microsoft-azure-app-service
 common:
+- group: other
+  href: https://artifacts.apis.io/microsoft-azure-app-service/capabilities/microsoft-azure-app-service-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-azure-app-service-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/plans/microsoft-azure-app-service-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-azure-app-service/plans/microsoft-azure-app-service-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-azure-app-service-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/rate-limits/microsoft-azure-app-service-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-azure-app-service/rate-limits/microsoft-azure-app-service-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-azure-app-service-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/finops/microsoft-azure-app-service-finops.yml
+  href: https://artifacts.apis.io/microsoft-azure-app-service/finops/microsoft-azure-app-service-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-azure-app-service-finops.yml
@@ -89,22 +93,22 @@ common:
   type: Website
   url: https://microsoft.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/agentic-access/microsoft-azure-app-service-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-azure-app-service/agentic-access/microsoft-azure-app-service-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-app-service-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/security/microsoft-azure-app-service-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-azure-app-service/security/microsoft-azure-app-service-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-app-service-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/authentication/microsoft-azure-app-service-authentication.yml
+  href: https://artifacts.apis.io/microsoft-azure-app-service/authentication/microsoft-azure-app-service-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-app-service-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/scopes/microsoft-azure-app-service-scopes.yml
+  href: https://artifacts.apis.io/microsoft-azure-app-service/scopes/microsoft-azure-app-service-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-app-service-scopes.yml
@@ -147,11 +151,11 @@ common:
 created: '2026-03-13'
 description: Microsoft Azure App Service is a fully managed platform-as-a-service (PaaS) for building, deploying, and scaling web apps, REST APIs, and mobile backends. It supports multiple languages and frameworks, offers built-in auto-scaling and load balancing, and includes integrated authentication, continuous deployment, custom domain, and SSL certificate management.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Microsoft Azure App Service Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: microsoft-azure-app-service-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-app-service.png
@@ -163,12 +167,12 @@ network: true
 overview: 'Microsoft Azure App Service is listed with 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Web Apps API. Tagged areas include App Service, Hosting, Microsoft Azure, Platform-as-a-Service, and Web App.
 
 
-  Microsoft Azure App Service''s developer surface includes authentication, developer portal, documentation, pricing, support, and 12 more developer resources.'
+  Microsoft Azure App Service''s developer surface includes authentication, developer portal, documentation, pricing, support, and 13 more developer resources.'
 plans:
 - name: Microsoft Azure App Service Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: microsoft-azure-app-service-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure App Service Rate Limits
@@ -180,23 +184,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 44.0
+  composite: 41.3
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 43.0
+    artifact_dirs: 13
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -6.3
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 50.0
     discoverability: 80.4
-    operational_transparency: 26.3
-  previous_composite: 45.5
+    operational_transparency: 28.9
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -210,13 +214,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/screenshots/microsoft-azure-app-service-2026-06-20T185356.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-azure-app-service/microsoft-azure-app-service-2026-06-20T185356.png
 security:
 - kind: authentication
   name: Microsoft Azure App Service Authentication

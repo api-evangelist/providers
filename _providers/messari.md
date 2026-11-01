@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-17'
+  score: 38.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -104,11 +106,8 @@ apis:
   description: The Token Unlocks API from Messari — 2 operation(s) for token unlocks.
   name: Messari Token Unlocks API
   slug: messari-token-unlocks-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Messari AI API
   slug: open-messari-ai-api
@@ -151,17 +150,17 @@ common:
   type: Website
   url: https://messari.io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/agentic-access/messari-agentic-access.yml
+  href: https://artifacts.apis.io/messari/agentic-access/messari-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/messari-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/security/messari-domain-security.yml
+  href: https://artifacts.apis.io/messari/security/messari-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/messari-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/authentication/messari-authentication.yml
+  href: https://artifacts.apis.io/messari/authentication/messari-authentication.yml
   title: ''
   type: Authentication
   url: authentication/messari-authentication.yml
@@ -186,17 +185,17 @@ common:
   type: GitHub
   url: https://github.com/messari
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/plans/messari-plans-pricing.yml
+  href: https://artifacts.apis.io/messari/plans/messari-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/messari-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/rate-limits/messari-rate-limits.yml
+  href: https://artifacts.apis.io/messari/rate-limits/messari-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/messari-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/finops/messari-finops.yml
+  href: https://artifacts.apis.io/messari/finops/messari-finops.yml
   title: ''
   type: FinOps
   url: finops/messari-finops.yml
@@ -228,14 +227,14 @@ plans:
 - name: Messari Plans Pricing
   plan_count: 3
   slug: messari-plans-pricing
-random_paper: 8
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Messari Rate Limits
   slug: messari-rate-limits
 score:
   band: thin
-  composite: 26.6
+  composite: 29.0
   coverage:
     artifact_dirs: 12
     catalog_earned: 43.0
@@ -243,15 +242,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 45.3
-    developer_ergonomics: 26.2
-    discoverability: 68.3
+    developer_ergonomics: 31.0
+    discoverability: 66.1
     operational_transparency: 13.2
-  previous_composite: 28.1
+  previous_composite: 29.0
   provenance:
     agentic_access: derived
     contracts:
@@ -266,13 +265,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/screenshots/messari-2026-08-07T172637.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/messari/messari-2026-08-07T172637.png
 security:
 - kind: authentication
   name: Messari Authentication

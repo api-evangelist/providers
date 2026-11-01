@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 22.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 10
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 419
   slug: scaleway-agentic-access
   summary_line: 419 operations · 257 acting · 10 human-in-the-loop
-api_count: 12
+api_count: 10
 apis:
 - description: Scaleway Generative APIs provide access to AI language models and generative AI services hosted on Scaleway's European cloud infrastructure. Compatible with the OpenAI API format for easy integration.
   name: Scaleway Generative APIs
@@ -413,7 +415,7 @@ apis:
   description: A Virtual Private Cloud (VPC) allows you to group your regional Private Networks together. Note that a Private Network can be a part of only one VPC.
   name: Scaleway VP Cs API
   slug: scaleway-vpcs-api
-artifact_total: 590
+artifact_total: 589
 collections:
 - collection_type: postman
   name: Managed Database for PostgreSQL and MySQL Access Control List API
@@ -634,9 +636,6 @@ collections:
 - collection_type: postman
   name: Managed Database for PostgreSQL and MySQL Access Control List Webhooks API
   slug: postman-scaleway-webhooks-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Managed Database for PostgreSQL and MySQL Access Control List API
   slug: open-scaleway-access-control-list-api
@@ -888,17 +887,17 @@ collections:
   slug: open-scaleway-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/finops/scaleway-finops.yml
+  href: https://artifacts.apis.io/scaleway/finops/scaleway-finops.yml
   title: ''
   type: FinOps
   url: finops/scaleway-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/rate-limits/scaleway-rate-limits.yml
+  href: https://artifacts.apis.io/scaleway/rate-limits/scaleway-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/scaleway-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/plans/scaleway-plans-pricing.yml
+  href: https://artifacts.apis.io/scaleway/plans/scaleway-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/scaleway-plans-pricing.yml
@@ -907,7 +906,7 @@ common:
   type: Website
   url: https://scaleway.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/capabilities/scaleway-capability-edges.yml
+  href: https://artifacts.apis.io/scaleway/capabilities/scaleway-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/scaleway-capability-edges.yml
@@ -916,27 +915,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/scaleway/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/agentic-access/scaleway-agentic-access.yml
+  href: https://artifacts.apis.io/scaleway/agentic-access/scaleway-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/scaleway-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/security/scaleway-trust-center.yml
+  href: https://artifacts.apis.io/scaleway/security/scaleway-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/scaleway-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/security/scaleway-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/scaleway/security/scaleway-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/scaleway-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/security/scaleway-domain-security.yml
+  href: https://artifacts.apis.io/scaleway/security/scaleway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/scaleway-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/authentication/scaleway-authentication.yml
+  href: https://artifacts.apis.io/scaleway/authentication/scaleway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/scaleway-authentication.yml
@@ -1037,10 +1036,10 @@ examples:
   slug: scaleway-secret-manager-create-secret-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Scaleway Finops
-  primary_unit: ''
-  service_category: Cloud Infrastructure
+  primary_unit: server
+  service_category: ''
   slug: scaleway-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scaleway.png
@@ -2099,7 +2098,7 @@ plans:
 - name: Scaleway Price Estimates
   plan_count: 0
   slug: scaleway-price-estimates
-random_paper: 21
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Scaleway Rate Limits
@@ -2129,23 +2128,23 @@ rules:
   slug: scaleway-rules
 score:
   band: developing
-  composite: 50.7
+  composite: 53.5
   coverage:
     artifact_dirs: 21
-    catalog_earned: 58.8
+    catalog_earned: 61.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 56.3
+    catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 47.4
     contract_governance: 23.5
-    contract_quality: 55.6
+    contract_quality: 52.2
     developer_ergonomics: 81.0
     discoverability: 62.5
-    operational_transparency: 21.1
-  previous_composite: 52.2
+    operational_transparency: 31.6
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     contracts:
@@ -2159,13 +2158,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/screenshots/scaleway-2026-08-17T125218.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/scaleway/scaleway-2026-08-17T125218.png
 security:
 - kind: authentication
   name: Scaleway Authentication

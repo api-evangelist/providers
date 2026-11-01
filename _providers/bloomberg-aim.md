@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -132,7 +134,7 @@ apis:
   description: Manage security universes for data requests
   name: Bloomberg AIM Universes API
   slug: bloomberg-aim-universes-api
-artifact_total: 329
+artifact_total: 328
 collections:
 - collection_type: postman
   name: Bloomberg Data License API (HAPI) Broker Strategies API
@@ -185,9 +187,6 @@ collections:
 - collection_type: postman
   name: Bloomberg Data License API (HAPI) Broker Strategies Universes API
   slug: postman-bloomberg-aim-universes-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bloomberg Data License API (HAPI) Broker Strategies API
   slug: open-bloomberg-aim-broker-strategies-api
@@ -250,17 +249,17 @@ collections:
   slug: open-bloomberg-http-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/plans/bloomberg-aim-plans-pricing.yml
+  href: https://artifacts.apis.io/bloomberg-aim/plans/bloomberg-aim-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bloomberg-aim-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/rate-limits/bloomberg-aim-rate-limits.yml
+  href: https://artifacts.apis.io/bloomberg-aim/rate-limits/bloomberg-aim-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bloomberg-aim-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/finops/bloomberg-aim-finops.yml
+  href: https://artifacts.apis.io/bloomberg-aim/finops/bloomberg-aim-finops.yml
   title: ''
   type: FinOps
   url: finops/bloomberg-aim-finops.yml
@@ -269,7 +268,7 @@ common:
   type: Website
   url: https://bloomberg.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/capabilities/bloomberg-aim-capability-edges.yml
+  href: https://artifacts.apis.io/bloomberg-aim/capabilities/bloomberg-aim-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bloomberg-aim-capability-edges.yml
@@ -298,27 +297,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/bloomberg-aim/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/agentic-access/bloomberg-aim-agentic-access.yml
+  href: https://artifacts.apis.io/bloomberg-aim/agentic-access/bloomberg-aim-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bloomberg-aim-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/security/bloomberg-aim-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bloomberg-aim/security/bloomberg-aim-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bloomberg-aim-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/security/bloomberg-aim-domain-security.yml
+  href: https://artifacts.apis.io/bloomberg-aim/security/bloomberg-aim-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bloomberg-aim-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/authentication/bloomberg-aim-authentication.yml
+  href: https://artifacts.apis.io/bloomberg-aim/authentication/bloomberg-aim-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bloomberg-aim-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/scopes/bloomberg-aim-scopes.yml
+  href: https://artifacts.apis.io/bloomberg-aim/scopes/bloomberg-aim-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bloomberg-aim-scopes.yml
@@ -1146,7 +1145,7 @@ plans:
 - name: Bloomberg Aim Plans Pricing
   plan_count: 1
   slug: bloomberg-aim-plans-pricing
-random_paper: 11
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Bloomberg Aim Rate Limits
@@ -1182,7 +1181,7 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 43.8
+  composite: 47.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 48.5
@@ -1190,18 +1189,15 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 57.4
-    developer_ergonomics: 63.1
+    developer_ergonomics: 70.2
     discoverability: 62.5
-    operational_transparency: 7.9
-  open_source:
-    applies: true
-    score: 40.0
-  previous_composite: 45.1
+    operational_transparency: 21.1
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1215,13 +1211,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/screenshots/bloomberg-aim-2026-06-20T173406.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bloomberg-aim/bloomberg-aim-2026-06-20T173406.png
 security:
 - kind: authentication
   name: Bloomberg Aim Authentication

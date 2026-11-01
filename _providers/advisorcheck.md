@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The first-party HTTP API behind the AdvisorCheck consumer web application, served from an AWS API Gateway custom domain at api.advisorcheck.com. It is an internal application backend, not a published '
@@ -36,7 +38,7 @@ common:
   type: Pricing
   url: https://help.advisorcheck.com/en/articles/53-what-is-advisorcheck-premium
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/advisorcheck/refs/heads/main/security/advisorcheck-domain-security.yml
+  href: https://artifacts.apis.io/advisorcheck/security/advisorcheck-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/advisorcheck-domain-security.yml
@@ -69,7 +71,7 @@ common:
   type: PrivacyPolicy
   url: https://www.advisorcheck.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/advisorcheck/refs/heads/main/llms/advisorcheck-llms.txt
+  href: https://artifacts.apis.io/advisorcheck/llms/advisorcheck-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/advisorcheck-llms.txt
@@ -78,17 +80,17 @@ common:
   type: GettingStarted
   url: https://help.advisorcheck.com/en/collections/7-getting-started-with-advisorchceck
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/advisorcheck/refs/heads/main/plans/advisorcheck-plans-pricing.yml
+  href: https://artifacts.apis.io/advisorcheck/plans/advisorcheck-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/advisorcheck-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/advisorcheck/refs/heads/main/rate-limits/advisorcheck-rate-limits.yml
+  href: https://artifacts.apis.io/advisorcheck/rate-limits/advisorcheck-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/advisorcheck-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advisorcheck/refs/heads/main/conformance/advisorcheck-conformance.yml
+  href: https://artifacts.apis.io/advisorcheck/conformance/advisorcheck-conformance.yml
   title: ''
   type: Conformance
   url: conformance/advisorcheck-conformance.yml
@@ -123,14 +125,14 @@ plans:
 - name: Advisorcheck Plans Pricing
   plan_count: 2
   slug: advisorcheck-plans-pricing
-random_paper: 16
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Advisorcheck Rate Limits
   slug: advisorcheck-rate-limits
 score:
   band: emerging
-  composite: 21.4
+  composite: 23.6
   coverage:
     artifact_dirs: 10
     catalog_earned: 45.0
@@ -138,13 +140,13 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.1
+  delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 17.9
-    discoverability: 73.2
+    developer_ergonomics: 19.0
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -153,7 +155,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 19.3
+  previous_composite: 23.6
   provenance:
     conformance: first-party
   regulatory:
@@ -161,15 +163,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/advisorcheck/refs/heads/main/screenshots/advisorcheck-2026-10-11T092912.png
+screenshot: https://apis.io/screenshots/advisorcheck/advisorcheck-2026-10-11T092912.png
 security:
 - kind: domain-security
   name: Advisorcheck Domain Security

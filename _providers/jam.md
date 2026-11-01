@@ -25,27 +25,34 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.5
-  scored_at: '2026-10-17'
+  score: 40.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server that pipes a Jam's recording, console logs, network requests, user events, transcript, and metadata into AI coding tools (Claude, Cursor, VS Code). OAuth2 (PKCE) o
   name: Jam MCP Server
   slug: jam-mcp-server
-artifact_total: 8
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Jam Webhooks
   slug: jam-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/jam/plans/jam-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/jam-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -107,7 +114,7 @@ common:
   type: Security
   url: https://jam.dev/docs/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/security/jam-trust-center.yml
+  href: https://artifacts.apis.io/jam/security/jam-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/jam-trust-center.yml
@@ -116,87 +123,95 @@ common:
   type: Compliance
   url: https://trust.jam.dev/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/mcp/jam-mcp.yml
+  href: https://artifacts.apis.io/jam/mcp/jam-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/jam-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/llms/jam-llms.txt
+  href: https://artifacts.apis.io/jam/llms/jam-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jam-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/well-known/jam-well-known.yml
+  href: https://artifacts.apis.io/jam/well-known/jam-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jam-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/packages/jam-packages.yml
+  href: https://artifacts.apis.io/jam/packages/jam-packages.yml
   title: ''
   type: Packages
   url: packages/jam-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/packages/jam-packages.yml
+  href: https://artifacts.apis.io/jam/packages/jam-packages.yml
   title: ''
   type: SDKs
   url: packages/jam-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/cli/jam-cli.yml
+  href: https://artifacts.apis.io/jam/cli/jam-cli.yml
   title: ''
   type: CLI
   url: cli/jam-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/authentication/jam-authentication.yml
+  href: https://artifacts.apis.io/jam/authentication/jam-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jam-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/scopes/jam-scopes.yml
+  href: https://artifacts.apis.io/jam/scopes/jam-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/jam-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/conventions/jam-conventions.yml
+  href: https://artifacts.apis.io/jam/conventions/jam-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jam-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/asyncapi/jam-webhooks.yml
+  href: https://artifacts.apis.io/jam/asyncapi/jam-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/jam-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/conformance/jam-conformance.yml
+  href: https://artifacts.apis.io/jam/conformance/jam-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jam-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/lifecycle/jam-lifecycle.yml
+  href: https://artifacts.apis.io/jam/lifecycle/jam-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jam-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/security/jam-domain-security.yml
+  href: https://artifacts.apis.io/jam/security/jam-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jam-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/security/jam-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/jam/security/jam-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jam-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/skills/jam-bug-to-fix.md
+  href: https://artifacts.apis.io/jam/skills/jam-bug-to-fix.md
   title: ''
   type: AgentSkill
   url: skills/jam-bug-to-fix.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/skills/jam-collect-recordings.md
+  href: https://artifacts.apis.io/jam/skills/jam-collect-recordings.md
   title: ''
   type: AgentSkill
   url: skills/jam-collect-recordings.md
 created: '2026-07-17'
 description: Jam is a bug-reporting and debugging-telemetry tool for software teams. Its Chrome extension and iOS app capture one-click bug reports that bundle a screen recording or screenshot together with console logs, network requests, user events, and device metadata, so engineers can reproduce and fix issues without chasing repro steps. Jam adds Instant Replay (the last two minutes of activity), Recording Links for collecting captures from anyone with no install, and routes reports into GitHub, GitLab, Jira, Linear, Slack, Notion, Sentry and other tools. For developers and AI agents Jam exposes a hosted MCP server, a first-party CLI, a JavaScript SDK (jam.metadata()), and Standard Webhooks. Used by 200,000+ people across QA, product, engineering, and support.
+finops:
+- has_sources: true
+  method: derived
+  name: Jam Finops
+  primary_unit: creator
+  service_category: ''
+  slug: jam-finops
+  template: false
 image: https://storage.googleapis.com/jam-assets/jam-og-image.png
 layout: provider
 mcp_servers:
@@ -213,32 +228,39 @@ overview: 'Jam is listed with 1 API on the [APIs.io](https://apis.io/) network. 
   The Jam catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Jam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, CLI, and 26 more developer resources.'
-random_paper: 4
+  Jam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, CLI, and 27 more developer resources.'
+plans:
+- name: Jam Plans Pricing
+  plan_count: 3
+  slug: jam-plans-pricing
+- name: Jam Price Estimates
+  plan_count: 0
+  slug: jam-price-estimates
+random_paper: 0
 scopes:
 - name: Jam Scopes
   scope_count: 2
   slug: jam-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: developing
-  composite: 52.1
+  band: strong
+  composite: 62.7
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 19
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 53.9
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 73.2
-    discoverability: 75.0
-    operational_transparency: 21.1
-  previous_composite: 52.0
+    discoverability: 65.0
+    operational_transparency: 39.5
+  previous_composite: 54.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -253,14 +275,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/screenshots/jam-2026-07-25T223045.png
+screenshot: https://apis.io/screenshots/jam/jam-2026-07-25T223045.png
 security:
 - kind: authentication
   name: Jam Authentication
@@ -278,6 +300,12 @@ security:
   name: Jam Trust Center
   slug: jam-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 2
+skills:
+- name: Triage a Jam bug report into a fix
+  slug: jam-bug-to-fix
+- name: Collect customer screen recordings with Recording Links
+  slug: jam-collect-recordings
 slug: jam
 tags:
 - Company

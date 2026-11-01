@@ -14,26 +14,28 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bodyshopbids/refs/heads/main/hosts/bodyshopbids-hosts.yml
+  href: https://artifacts.apis.io/bodyshopbids/hosts/bodyshopbids-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bodyshopbids-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bodyshopbids/refs/heads/main/security/bodyshopbids-domain-security.yml
+  href: https://artifacts.apis.io/bodyshopbids/security/bodyshopbids-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bodyshopbids-domain-security.yml
@@ -57,7 +59,7 @@ name: Bodyshopbids
 nav: Providers
 network: true
 overview: Bodyshopbids is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Automotive, Claims, B2B, and Platform.
-random_paper: 14
+random_paper: 18
 score:
   band: minimal
   composite: 3.1
@@ -92,8 +94,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

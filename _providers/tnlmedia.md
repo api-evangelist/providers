@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The header-bidding demand endpoint operated by Ad2iction, TNL Mediagene's ad-technology subsidiary (acquired by TNL Media Group in 2020). Publishers reach it through the `ad2iction` bidder adapter shi
@@ -45,7 +47,7 @@ common:
   type: License
   url: https://github.com/prebid/Prebid.js/blob/master/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tnlmedia/refs/heads/main/security/tnlmedia-domain-security.yml
+  href: https://artifacts.apis.io/tnlmedia/security/tnlmedia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tnlmedia-domain-security.yml
@@ -74,42 +76,42 @@ common:
   type: Blog
   url: https://www.tnlmediagene.com/news
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tnlmedia/refs/heads/main/components/tnlmedia-components.yml
+  href: https://artifacts.apis.io/tnlmedia/components/tnlmedia-components.yml
   title: ''
   type: Components
   url: components/tnlmedia-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tnlmedia/refs/heads/main/packages/tnlmedia-packages.yml
+  href: https://artifacts.apis.io/tnlmedia/packages/tnlmedia-packages.yml
   title: ''
   type: Packages
   url: packages/tnlmedia-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tnlmedia/refs/heads/main/conformance/tnlmedia-conformance.yml
+  href: https://artifacts.apis.io/tnlmedia/conformance/tnlmedia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tnlmedia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tnlmedia/refs/heads/main/lifecycle/tnlmedia-lifecycle.yml
+  href: https://artifacts.apis.io/tnlmedia/lifecycle/tnlmedia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tnlmedia-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tnlmedia/refs/heads/main/plans/tnlmedia-plans-pricing.yml
+  href: https://artifacts.apis.io/tnlmedia/plans/tnlmedia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tnlmedia-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tnlmedia/refs/heads/main/rate-limits/tnlmedia-rate-limits.yml
+  href: https://artifacts.apis.io/tnlmedia/rate-limits/tnlmedia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tnlmedia-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tnlmedia/refs/heads/main/llms/tnlmedia-llms.txt
+  href: https://artifacts.apis.io/tnlmedia/llms/tnlmedia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tnlmedia-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tnlmedia/refs/heads/main/well-known/tnlmedia-content-signals.yml
+  href: https://artifacts.apis.io/tnlmedia/well-known/tnlmedia-content-signals.yml
   title: ''
   type: ContentSignal
   url: well-known/tnlmedia-content-signals.yml
@@ -130,14 +132,14 @@ plans:
 - name: Tnlmedia Plans Pricing
   plan_count: 0
   slug: tnlmedia-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Tnlmedia Rate Limits
   slug: tnlmedia-rate-limits
 score:
   band: emerging
-  composite: 14.1
+  composite: 14.5
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -152,8 +154,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 14.1
+    operational_transparency: 5.3
+  previous_composite: 14.5
   provenance:
     conformance: derived
   regulatory:
@@ -162,14 +164,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tnlmedia/refs/heads/main/screenshots/tnlmedia-2026-09-02T163832.png
+screenshot: https://apis.io/screenshots/tnlmedia/tnlmedia-2026-09-02T163832.png
 security:
 - kind: domain-security
   name: Tnlmedia Domain Security

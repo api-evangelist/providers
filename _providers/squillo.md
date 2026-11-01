@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: Workflow definition and management
   name: Squillo Workflows API
   slug: squillo-workflows-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Squillo Platform Connectors API
   slug: open-squillo-connectors-api
@@ -87,32 +86,32 @@ collections:
   slug: open-squillo-workflows-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/plans/squillo-plans-pricing.yml
+  href: https://artifacts.apis.io/squillo/plans/squillo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/squillo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/rate-limits/squillo-rate-limits.yml
+  href: https://artifacts.apis.io/squillo/rate-limits/squillo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/squillo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/finops/squillo-finops.yml
+  href: https://artifacts.apis.io/squillo/finops/squillo-finops.yml
   title: ''
   type: FinOps
   url: finops/squillo-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/agentic-access/squillo-agentic-access.yml
+  href: https://artifacts.apis.io/squillo/agentic-access/squillo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/squillo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/security/squillo-domain-security.yml
+  href: https://artifacts.apis.io/squillo/security/squillo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/squillo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/authentication/squillo-authentication.yml
+  href: https://artifacts.apis.io/squillo/authentication/squillo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/squillo-authentication.yml
@@ -173,7 +172,7 @@ finops:
 - has_sources: false
   method: generated
   name: Squillo Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: squillo-finops
   template: true
@@ -207,7 +206,7 @@ plans:
 - name: Squillo Plans Pricing
   plan_count: 3
   slug: squillo-plans-pricing
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Squillo Rate Limits
@@ -238,7 +237,7 @@ rules:
   slug: squillo-rules
 score:
   band: thin
-  composite: 30.9
+  composite: 31.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 60.0
@@ -246,15 +245,15 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
-    contract_quality: 55.7
+    contract_quality: 52.3
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 32.5
+    operational_transparency: 13.2
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     contracts:
@@ -268,13 +267,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/screenshots/squillo-2026-06-20T194434.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/squillo/squillo-2026-06-20T194434.png
 security:
 - kind: authentication
   name: Squillo Authentication

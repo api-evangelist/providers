@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.3
-  scored_at: '2026-10-17'
+  score: 48.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -108,49 +110,59 @@ apis:
   description: The Sandbox Testing API from Forage — 2 operation(s) for sandbox testing.
   name: Forage Sandbox Testing API
   slug: forage-sandbox-testing-api
-artifact_total: 27
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Forage Webhooks
   slug: forage-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/forage/capabilities/forage-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/forage-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/forage/plans/forage-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/forage-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/agentic-access/forage-agentic-access.yml
+  href: https://artifacts.apis.io/forage/agentic-access/forage-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/forage-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/rules/forage-rules.yml
+  href: https://artifacts.apis.io/forage/rules/forage-rules.yml
   title: ''
   type: Spectral
   url: rules/forage-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/json-ld/forage-context.jsonld
+  href: https://artifacts.apis.io/forage/json-ld/forage-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/forage-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/vocabulary/forage-vocabulary.yml
+  href: https://artifacts.apis.io/forage/vocabulary/forage-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/forage-vocabulary.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/sandbox/forage-sandbox.yml
+  href: https://artifacts.apis.io/forage/sandbox/forage-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/forage-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/mcp/forage-mcp.yml
+  href: https://artifacts.apis.io/forage/mcp/forage-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/forage-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/hosts/forage-hosts.yml
+  href: https://artifacts.apis.io/forage/hosts/forage-hosts.yml
   title: ''
   type: Hosts
   url: hosts/forage-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/vendors/forage-vendors.yml
+  href: https://artifacts.apis.io/forage/vendors/forage-vendors.yml
   title: ''
   type: Vendors
   url: vendors/forage-vendors.yml
@@ -163,12 +175,12 @@ common:
   type: Newsroom
   url: https://www.joinforage.com/newsroom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/scopes/forage-scopes.yml
+  href: https://artifacts.apis.io/forage/scopes/forage-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/forage-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/security/forage-domain-security.yml
+  href: https://artifacts.apis.io/forage/security/forage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/forage-domain-security.yml
@@ -225,32 +237,32 @@ common:
   type: StatusPage
   url: https://status.joinforage.app
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/changelog/forage-changelog.yml
+  href: https://artifacts.apis.io/forage/changelog/forage-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/forage-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/lifecycle/forage-lifecycle.yml
+  href: https://artifacts.apis.io/forage/lifecycle/forage-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/forage-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/lifecycle/forage-lifecycle.yml
+  href: https://artifacts.apis.io/forage/lifecycle/forage-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/forage-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/authentication/forage-authentication.yml
+  href: https://artifacts.apis.io/forage/authentication/forage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/forage-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/conventions/forage-conventions.yml
+  href: https://artifacts.apis.io/forage/conventions/forage-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/forage-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/conventions/forage-conventions.yml
+  href: https://artifacts.apis.io/forage/conventions/forage-conventions.yml
   title: ''
   type: Conventions
   url: conventions/forage-conventions.yml
@@ -259,57 +271,57 @@ common:
   type: RateLimits
   url: https://docs.joinforage.app/reference/request-limits
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/mcp/forage-mcp.yml
+  href: https://artifacts.apis.io/forage/mcp/forage-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/forage-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/llms/forage-llms.txt
+  href: https://artifacts.apis.io/forage/llms/forage-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/forage-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/packages/forage-packages.yml
+  href: https://artifacts.apis.io/forage/packages/forage-packages.yml
   title: ''
   type: Packages
   url: packages/forage-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/packages/forage-packages.yml
+  href: https://artifacts.apis.io/forage/packages/forage-packages.yml
   title: ''
   type: SDKs
   url: packages/forage-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/components/forage-components.yml
+  href: https://artifacts.apis.io/forage/components/forage-components.yml
   title: ''
   type: Components
   url: components/forage-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/asyncapi/forage-webhooks.yml
+  href: https://artifacts.apis.io/forage/asyncapi/forage-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/forage-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/forage/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/errors/forage-problem-types.yml
+  href: https://artifacts.apis.io/forage/errors/forage-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/forage-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/errors/forage-decline-codes.yml
+  href: https://artifacts.apis.io/forage/errors/forage-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/forage-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/data-model/forage-data-model.yml
+  href: https://artifacts.apis.io/forage/data-model/forage-data-model.yml
   title: ''
   type: DataModel
   url: data-model/forage-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/conformance/forage-conformance.yml
+  href: https://artifacts.apis.io/forage/conformance/forage-conformance.yml
   title: ''
   type: Conformance
   url: conformance/forage-conformance.yml
@@ -318,12 +330,20 @@ common:
   type: Compliance
   url: https://trust.joinforage.app/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/security/forage-trust-center.yml
+  href: https://artifacts.apis.io/forage/security/forage-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/forage-trust-center.yml
 created: '2026-07-17'
 description: Forage is a mission-driven payments company and one of only three payment processors approved by the USDA Food and Nutrition Service (FNS) to accept SNAP EBT and EBT Cash online. Forage gives grocery retailers, marketplaces, and platforms the API, SDKs, and regulatory expertise to add government-benefit tender (SNAP, EBT Cash, and HSA/FSA) to online and in-store checkout. The Forage Payments API tokenizes EBT cards, runs PIN-secured balance inquiries, and creates, captures, voids, and refunds EBT payments and orders, backed by JavaScript, iOS, Android, and POS Terminal SDKs, webhooks for order/payment/refund events, and daily CSV reconciliation reports.
+finops:
+- has_sources: true
+  method: derived
+  name: Forage Finops
+  primary_unit: processing fee per transaction
+  service_category: ''
+  slug: forage-finops
+  template: false
 image: https://framerusercontent.com/assets/ZoPlyiuvY1BwAuHbWMWp7HW8UmE.png
 json_schemas:
 - name: ErrorResponseObject
@@ -360,8 +380,15 @@ overview: 'Forage publishes 13 API contracts indexed on the [APIs.io](https://ap
   The Forage catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Forage''s developer surface includes sandbox, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 38 more developer resources.'
-random_paper: 12
+  Forage''s developer surface includes sandbox, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 40 more developer resources.'
+plans:
+- name: Forage Plans Pricing
+  plan_count: 2
+  slug: forage-plans-pricing
+- name: Forage Price Estimates
+  plan_count: 0
+  slug: forage-price-estimates
+random_paper: 4
 rules:
 - authorship: generated
   effective_rule_count: 56
@@ -381,24 +408,24 @@ scopes:
   slug: forage-scopes
   summary_line: 6 scopes · password/clientCredentials
 score:
-  band: strong
-  composite: 59.9
+  band: exemplar
+  composite: 73.3
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 62.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.3
+    artifact_dirs: 32
+    catalog_earned: 73.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 12.9
+  delta: 5.8
   facets:
-    access_clarity: 52.6
+    access_clarity: 89.5
     contract_governance: 35.6
-    contract_quality: 73.7
-    developer_ergonomics: 47.0
-    discoverability: 73.3
-    operational_transparency: 60.5
-  previous_composite: 47.0
+    contract_quality: 72.5
+    developer_ergonomics: 73.2
+    discoverability: 66.7
+    operational_transparency: 63.2
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -414,14 +441,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 38.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 42.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/screenshots/forage-2026-07-25T214925.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/forage/forage-2026-07-25T214925.png
 security:
 - kind: authentication
   name: Forage Authentication
@@ -435,6 +463,14 @@ security:
   name: Forage Trust Center
   slug: forage-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Accept an EBT SNAP payment (SDK / Custom)
+  slug: forage-accept-ebt-payment
+- name: Run a Fully Hosted EBT checkout
+  slug: forage-fully-hosted-checkout
+- name: Refund an EBT SNAP payment
+  slug: forage-refund-ebt-payment
 slug: forage
 tags:
 - Company

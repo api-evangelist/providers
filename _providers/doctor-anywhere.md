@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Anonymous Model Context Protocol endpoint served from the Doctor Anywhere Thailand site (Wix Site MCP). Advertised in the site llms.txt; an unauthenticated tools/list returns nine tools covering busin
@@ -46,10 +48,10 @@ apis:
 - description: 'Anonymous Model Context Protocol endpoint served from the Doctor Anywhere Indonesia site (Wix Site MCP). Advertised in the Indonesian-language site llms.txt; an unauthenticated tools/list returns the '
   name: Doctor Anywhere Indonesia Site MCP
   slug: site-mcp-id
-artifact_total: 6
+artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/security/doctor-anywhere-domain-security.yml
+  href: https://artifacts.apis.io/doctor-anywhere/security/doctor-anywhere-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/doctor-anywhere-domain-security.yml
@@ -98,42 +100,42 @@ common:
   type: Pricing
   url: https://doctoranywhere.com/da-virtual-clinic/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/mcp/doctor-anywhere-mcp.yml
+  href: https://artifacts.apis.io/doctor-anywhere/mcp/doctor-anywhere-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/doctor-anywhere-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/llms/doctor-anywhere-llms.txt
+  href: https://artifacts.apis.io/doctor-anywhere/llms/doctor-anywhere-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/doctor-anywhere-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/well-known/doctor-anywhere-well-known.yml
+  href: https://artifacts.apis.io/doctor-anywhere/well-known/doctor-anywhere-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/doctor-anywhere-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/authentication/doctor-anywhere-authentication.yml
+  href: https://artifacts.apis.io/doctor-anywhere/authentication/doctor-anywhere-authentication.yml
   title: ''
   type: Authentication
   url: authentication/doctor-anywhere-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/conventions/doctor-anywhere-conventions.yml
+  href: https://artifacts.apis.io/doctor-anywhere/conventions/doctor-anywhere-conventions.yml
   title: ''
   type: Conventions
   url: conventions/doctor-anywhere-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/conformance/doctor-anywhere-conformance.yml
+  href: https://artifacts.apis.io/doctor-anywhere/conformance/doctor-anywhere-conformance.yml
   title: ''
   type: Conformance
   url: conformance/doctor-anywhere-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/lifecycle/doctor-anywhere-lifecycle.yml
+  href: https://artifacts.apis.io/doctor-anywhere/lifecycle/doctor-anywhere-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/doctor-anywhere-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/doctor-anywhere/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -143,7 +145,7 @@ description: Doctor Anywhere is a Singapore-headquartered, tech-led regional hea
 image: https://doctoranywhere.com/wp-content/uploads/2025/06/cropped-DA-Tab-logo-02.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at doctoranywhere.co.th; 9 tools listed.
+- description: Remote MCP server at doctoranywhere.co.th; 10 tools listed.
   name: Doctor Anywhere MCP Server
   slug: doctor-anywhere-mcp-yml
 modified: '2026-08-04'
@@ -154,10 +156,10 @@ overview: 'Doctor Anywhere is listed with 3 APIs on the [APIs.io](https://apis.i
 
 
   Doctor Anywhere''s developer surface includes engineering blog, support, signup flow, pricing, authentication, and 15 more developer resources.'
-random_paper: 1
+random_paper: 3
 score:
   band: emerging
-  composite: 23.1
+  composite: 22.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 40.0
@@ -165,14 +167,14 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 20.8
-    discoverability: 80.0
-    operational_transparency: 2.6
+    discoverability: 70.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -180,7 +182,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 23.0
+  previous_composite: 22.4
   provenance:
     conformance: derived
     mcp: platform-generated
@@ -191,14 +193,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/screenshots/doctor-anywhere-2026-08-07T164459.png
+screenshot: https://apis.io/screenshots/doctor-anywhere/doctor-anywhere-2026-08-07T164459.png
 security:
 - kind: authentication
   name: Doctor Anywhere Authentication
@@ -208,6 +210,10 @@ security:
   name: Doctor Anywhere Domain Security
   slug: doctor-anywhere-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: Look up Doctor Anywhere regional services over MCP
+  slug: doctor-anywhere-site-mcp-lookup
 slug: doctor-anywhere
 tags:
 - Company

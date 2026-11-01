@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.4
-  scored_at: '2026-10-17'
+  score: 42.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.sailresearch.com/v1
@@ -62,15 +64,12 @@ apis:
   description: OpenAI-compatible Responses API endpoints.
   name: Sail Research Responses API
   slug: sail-research-responses-api-api
-artifact_total: 16
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Sail Research Webhooks
   slug: sail-research-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sail Batches API API
   slug: open-sail-research-batches-api-api
@@ -88,12 +87,12 @@ collections:
   slug: open-sail-research-responses-api-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/plans/sail-research-plans-pricing.yml
+  href: https://artifacts.apis.io/sail-research/plans/sail-research-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sail-research-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/capabilities/sail-research-capability-edges.yml
+  href: https://artifacts.apis.io/sail-research/capabilities/sail-research-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sail-research-capability-edges.yml
@@ -150,87 +149,87 @@ common:
   type: TrustCenter
   url: https://trust.sailresearch.com
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/openapi/_original/sail-research-openapi-original.json
+  href: https://artifacts.apis.io/sail-research/openapi/_original/sail-research-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/sail-research-openapi-original.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/authentication/sail-research-authentication.yml
+  href: https://artifacts.apis.io/sail-research/authentication/sail-research-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sail-research-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/security/sail-research-domain-security.yml
+  href: https://artifacts.apis.io/sail-research/security/sail-research-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sail-research-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/llms/sail-research-llms.txt
+  href: https://artifacts.apis.io/sail-research/llms/sail-research-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sail-research-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/mcp/sail-research-mcp.yml
+  href: https://artifacts.apis.io/sail-research/mcp/sail-research-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sail-research-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/packages/sail-research-packages.yml
+  href: https://artifacts.apis.io/sail-research/packages/sail-research-packages.yml
   title: ''
   type: Packages
   url: packages/sail-research-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/packages/sail-research-packages.yml
+  href: https://artifacts.apis.io/sail-research/packages/sail-research-packages.yml
   title: ''
   type: SDKs
   url: packages/sail-research-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/cli/sail-research-cli.yml
+  href: https://artifacts.apis.io/sail-research/cli/sail-research-cli.yml
   title: ''
   type: CLI
   url: cli/sail-research-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/conventions/sail-research-conventions.yml
+  href: https://artifacts.apis.io/sail-research/conventions/sail-research-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sail-research-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/conventions/sail-research-conventions.yml
+  href: https://artifacts.apis.io/sail-research/conventions/sail-research-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/sail-research-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/errors/sail-research-problem-types.yml
+  href: https://artifacts.apis.io/sail-research/errors/sail-research-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sail-research-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/lifecycle/sail-research-lifecycle.yml
+  href: https://artifacts.apis.io/sail-research/lifecycle/sail-research-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sail-research-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/conformance/sail-research-conformance.yml
+  href: https://artifacts.apis.io/sail-research/conformance/sail-research-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sail-research-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/asyncapi/sail-research-webhooks.yml
+  href: https://artifacts.apis.io/sail-research/asyncapi/sail-research-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sail-research-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/data-model/sail-research-data-model.yml
+  href: https://artifacts.apis.io/sail-research/data-model/sail-research-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sail-research-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/overlays/sail-research-openapi-overlay.yaml
+  href: https://artifacts.apis.io/sail-research/overlays/sail-research-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sail-research-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sail-research/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -240,6 +239,14 @@ common:
   url: https://github.com/sailresearchco
 created: '2026-07-17'
 description: 'Sail Research provides infrastructure for long-horizon agents: cost-efficient inference for leading open-source models (GLM, DeepSeek, Kimi, Nemotron and others) run on demand. Its API is OpenAI- and Anthropic-compatible (Chat Completions, Responses, Messages, Batches), so existing clients migrate by changing the base URL and key. Completion windows (asap/priority/standard/flex) trade latency for lower per-token price for background and agentic workloads, and Sailboxes provide full persistent VMs for long-running agents. Sail raised $80M and is backed by Kleiner Perkins. This profile was enriched by the API Evangelist pipeline from Sail''s public OpenAPI, docs, SDKs, CLI, and MCP surface.'
+finops:
+- has_sources: true
+  method: derived
+  name: Sail Research Finops
+  primary_unit: 1m input tokens
+  service_category: ''
+  slug: sail-research-finops
+  template: false
 image: https://www.sailresearch.com/og-image.png
 layout: provider
 mcp_servers:
@@ -261,26 +268,29 @@ plans:
 - name: Sail Research Plans Pricing
   plan_count: 7
   slug: sail-research-plans-pricing
-random_paper: 17
+- name: Sail Research Price Estimates
+  plan_count: 0
+  slug: sail-research-price-estimates
+random_paper: 19
 score:
-  band: developing
-  composite: 53.9
+  band: strong
+  composite: 59.2
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 49.0
+    artifact_dirs: 28
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 57.7
     developer_ergonomics: 68.5
-    discoverability: 71.7
-    operational_transparency: 18.4
-  previous_composite: 47.5
+    discoverability: 65.0
+    operational_transparency: 28.9
+  previous_composite: 57.6
   provenance:
     conformance: derived
     contracts:
@@ -295,14 +305,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/screenshots/sail-research-2026-08-17T081712.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sail-research/sail-research-2026-08-17T081712.png
 security:
 - kind: authentication
   name: Sail Research Authentication
@@ -312,6 +323,14 @@ security:
   name: Sail Research Domain Security
   slug: sail-research-domain-security
   summary_line: TLSv1.2 · DMARC
+skill_count: 3
+skills:
+- name: Call Sail with the Anthropic Messages API
+  slug: sail-research-anthropic-messages
+- name: Run batch inference at scale on Sail
+  slug: sail-research-batch-inference
+- name: Run a background agent response on Sail
+  slug: sail-research-run-background-response
 slug: sail-research
 tags:
 - Company

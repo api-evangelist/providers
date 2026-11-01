@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 36.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -185,90 +187,90 @@ apis:
   description: The Transactions API from Tandem Bank — 2 operation(s) for transactions.
   name: Tandem Bank Transactions API
   slug: tandem-bank-transactions-api
-artifact_total: 32
+artifact_total: 35
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/capabilities/tandem-bank-capability-edges.yml
+  href: https://artifacts.apis.io/tandem-bank/capabilities/tandem-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tandem-bank-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/overlays/tandem-bank-account-info-overlay.yaml
+  href: https://artifacts.apis.io/tandem-bank/overlays/tandem-bank-account-info-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tandem-bank-account-info-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/overlays/tandem-bank-payment-initiation-overlay.yaml
+  href: https://artifacts.apis.io/tandem-bank/overlays/tandem-bank-payment-initiation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tandem-bank-payment-initiation-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/overlays/tandem-bank-confirmation-funds-overlay.yaml
+  href: https://artifacts.apis.io/tandem-bank/overlays/tandem-bank-confirmation-funds-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tandem-bank-confirmation-funds-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/security/tandem-bank-domain-security.yml
+  href: https://artifacts.apis.io/tandem-bank/security/tandem-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tandem-bank-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/agentic-access/tandem-bank-agentic-access.yml
+  href: https://artifacts.apis.io/tandem-bank/agentic-access/tandem-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tandem-bank-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/scopes/tandem-bank-scopes.yml
+  href: https://artifacts.apis.io/tandem-bank/scopes/tandem-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tandem-bank-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/authentication/tandem-bank-authentication.yml
+  href: https://artifacts.apis.io/tandem-bank/authentication/tandem-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tandem-bank-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/conventions/tandem-bank-conventions.yml
+  href: https://artifacts.apis.io/tandem-bank/conventions/tandem-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tandem-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/conventions/tandem-bank-conventions.yml
+  href: https://artifacts.apis.io/tandem-bank/conventions/tandem-bank-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/tandem-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/errors/tandem-bank-problem-types.yml
+  href: https://artifacts.apis.io/tandem-bank/errors/tandem-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tandem-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/conformance/tandem-bank-conformance.yml
+  href: https://artifacts.apis.io/tandem-bank/conformance/tandem-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tandem-bank-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/data-model/tandem-bank-data-model.yml
+  href: https://artifacts.apis.io/tandem-bank/data-model/tandem-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tandem-bank-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/lifecycle/tandem-bank-lifecycle.yml
+  href: https://artifacts.apis.io/tandem-bank/lifecycle/tandem-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tandem-bank-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/mcp/tandem-bank-mcp.yml
+  href: https://artifacts.apis.io/tandem-bank/mcp/tandem-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tandem-bank-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/llms/tandem-bank-llms.txt
+  href: https://artifacts.apis.io/tandem-bank/llms/tandem-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tandem-bank-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tandem-bank/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -329,7 +331,7 @@ overview: 'Tandem Bank publishes 28 API contracts indexed on the [APIs.io](https
 
 
   Tandem Bank''s developer surface includes authentication, getting-started guide, engineering blog, support, and 24 more developer resources.'
-random_paper: 12
+random_paper: 10
 scopes:
 - name: Tandem Bank Scopes
   scope_count: 3
@@ -337,7 +339,7 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 36.1
+  composite: 36.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 35.0
@@ -351,7 +353,7 @@ score:
     contract_governance: 4.5
     contract_quality: 49.0
     developer_ergonomics: 58.9
-    discoverability: 70.5
+    discoverability: 64.3
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -361,7 +363,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 36.1
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -382,13 +384,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 40.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tandem-bank/refs/heads/main/screenshots/tandem-bank-2026-09-02T162515.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tandem-bank/tandem-bank-2026-09-02T162515.png
 security:
 - kind: authentication
   name: Tandem Bank Authentication
@@ -398,6 +401,14 @@ security:
   name: Tandem Bank Domain Security
   slug: tandem-bank-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Access account and transaction information (AIS)
+  slug: tandem-bank-account-information-access
+- name: Confirm availability of funds (CBPII)
+  slug: tandem-bank-confirmation-of-funds
+- name: Initiate a domestic payment (PIS)
+  slug: tandem-bank-domestic-payment
 slug: tandem-bank
 tags:
 - Financial Services

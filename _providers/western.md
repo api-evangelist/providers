@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: Western's institutional identity provider, publishing machine-readable SAML 2.0 metadata through the Canadian Access Federation. entityID https://shibidp.uwo.ca/idp/shibboleth, mdui:DisplayName "Unive
@@ -113,47 +115,47 @@ common:
   type: AITooling
   url: https://ai.uwo.ca/resources/ai-tools.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/western/refs/heads/main/authentication/western-authentication.yml
+  href: https://artifacts.apis.io/western/authentication/western-authentication.yml
   title: ''
   type: Authentication
   url: authentication/western-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/western/refs/heads/main/conformance/western-conformance.yml
+  href: https://artifacts.apis.io/western/conformance/western-conformance.yml
   title: ''
   type: Conformance
   url: conformance/western-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/western/refs/heads/main/examples/western-shibboleth-idp-caf-metadata-example.xml
+  href: https://artifacts.apis.io/western/examples/western-shibboleth-idp-caf-metadata-example.xml
   title: ''
   type: Examples
   url: examples/western-shibboleth-idp-caf-metadata-example.xml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/western/refs/heads/main/json-ld/western-context.jsonld
+  href: https://artifacts.apis.io/western/json-ld/western-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/western-context.jsonld
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/western/refs/heads/main/security/western-domain-security.yml
+  href: https://artifacts.apis.io/western/security/western-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/western-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/western/refs/heads/main/plans/western-plans-pricing.yml
+  href: https://artifacts.apis.io/western/plans/western-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/western-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/western/refs/heads/main/rate-limits/western-rate-limits.yml
+  href: https://artifacts.apis.io/western/rate-limits/western-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/western-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/western/refs/heads/main/finops/western-finops.yml
+  href: https://artifacts.apis.io/western/finops/western-finops.yml
   title: ''
   type: FinOps
   url: finops/western-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/western/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/western/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -191,7 +193,7 @@ plans:
 - name: Western Plans Pricing
   plan_count: 2
   slug: western-plans-pricing
-random_paper: 6
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Western Rate Limits
@@ -206,7 +208,7 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
@@ -221,7 +223,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 29.9
+  previous_composite: 23.8
   provenance:
     conformance: first-party
   regulatory:
@@ -230,14 +232,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 28.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/western/refs/heads/main/screenshots/western-2026-06-20T201359.png
+screenshot: https://apis.io/screenshots/western/western-2026-06-20T201359.png
 security:
 - kind: authentication
   name: Western Authentication

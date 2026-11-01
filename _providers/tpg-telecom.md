@@ -32,6 +32,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -39,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Contacts Management API for the Vodafone Business Messaging Hub, providing CRUD over contacts, lists and custom fields for SMS/MMS campaigns. Documented as an Apiary API Blueprint (project subdomain c
@@ -48,19 +50,39 @@ apis:
 - description: The SMS/MMS REST API of the Vodafone Business Messaging Hub, listed on the product page as "Access to our REST API" on every plan tier. The API is live on the TPG-branded host https://api.messaging.tp
   name: TPG Telecom Messaging Hub REST API
   slug: tpg-telecom-messaging-hub-rest-api
-artifact_total: 8
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Tpg Telecom Messaging Webhooks
   slug: tpg-telecom-messaging-webhooks
 common:
+- group: operate
+  href: https://artifacts.apis.io/tpg-telecom/lifecycle/tpg-telecom-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/tpg-telecom-lifecycle.yml
+- group: other
+  href: https://artifacts.apis.io/tpg-telecom/hosts/tpg-telecom-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/tpg-telecom-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/tpg-telecom/integrations/tpg-telecom-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/tpg-telecom-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/tpg-telecom/vendors/tpg-telecom-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/tpg-telecom-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/security/tpg-telecom-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tpg-telecom/security/tpg-telecom-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tpg-telecom-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/security/tpg-telecom-domain-security.yml
+  href: https://artifacts.apis.io/tpg-telecom/security/tpg-telecom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tpg-telecom-domain-security.yml
@@ -69,42 +91,42 @@ common:
   type: Security
   url: https://www.tpgtelecom.com.au/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/well-known/tpg-telecom-security.txt
+  href: https://artifacts.apis.io/tpg-telecom/well-known/tpg-telecom-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/tpg-telecom-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/well-known/tpg-telecom-well-known.yml
+  href: https://artifacts.apis.io/tpg-telecom/well-known/tpg-telecom-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tpg-telecom-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/authentication/tpg-telecom-authentication.yml
+  href: https://artifacts.apis.io/tpg-telecom/authentication/tpg-telecom-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tpg-telecom-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/conventions/tpg-telecom-conventions.yml
+  href: https://artifacts.apis.io/tpg-telecom/conventions/tpg-telecom-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tpg-telecom-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/errors/tpg-telecom-problem-types.yml
+  href: https://artifacts.apis.io/tpg-telecom/errors/tpg-telecom-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tpg-telecom-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/errors/tpg-telecom-delivery-status-codes.yml
+  href: https://artifacts.apis.io/tpg-telecom/errors/tpg-telecom-delivery-status-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/tpg-telecom-delivery-status-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/data-model/tpg-telecom-data-model.yml
+  href: https://artifacts.apis.io/tpg-telecom/data-model/tpg-telecom-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tpg-telecom-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/lifecycle/tpg-telecom-lifecycle.yml
+  href: https://artifacts.apis.io/tpg-telecom/lifecycle/tpg-telecom-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tpg-telecom-lifecycle.yml
@@ -113,42 +135,32 @@ common:
   type: StatusPage
   url: https://status.messaging.tpgtelecom.com.au
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/asyncapi/tpg-telecom-messaging-webhooks.yml
+  href: https://artifacts.apis.io/tpg-telecom/asyncapi/tpg-telecom-messaging-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tpg-telecom-messaging-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/mcp/tpg-telecom-mcp.yml
+  href: https://artifacts.apis.io/tpg-telecom/mcp/tpg-telecom-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tpg-telecom-mcp.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/packages/tpg-telecom-packages.yml
-  title: ''
-  type: Packages
-  url: packages/tpg-telecom-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/conformance/tpg-telecom-conformance.yml
+  href: https://artifacts.apis.io/tpg-telecom/conformance/tpg-telecom-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tpg-telecom-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/llms/tpg-telecom-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/tpg-telecom-llms.txt
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tpg-telecom/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/plans/tpg-telecom-plans.yml
+  href: https://artifacts.apis.io/tpg-telecom/plans/tpg-telecom-plans.yml
   title: ''
   type: Plans
   url: plans/tpg-telecom-plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/rate-limits/tpg-telecom-rate-limits.yml
+  href: https://artifacts.apis.io/tpg-telecom/rate-limits/tpg-telecom-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tpg-telecom-rate-limits.yml
@@ -160,6 +172,10 @@ common:
   title: ''
   type: About
   url: https://www.tpgtelecom.com.au/about-us
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.tpgtelecom.com.au/contact
 - group: docs
   title: ''
   type: Documentation
@@ -213,16 +229,24 @@ common:
   type: InvestorRelations
   url: https://www.tpgtelecom.com.au/investor-relations
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/tpg-telecom/review.yml
   title: ''
   type: Review
   url: review.yml
 created: '2026-07-25'
 description: 'TPG Telecom Limited is Australia''s second-largest telecommunications company and an ASX-listed mobile network operator and fixed broadband carrier, formed by the 2020 merger of Vodafone Hutchison Australia and TPG Corporation. It runs its own mobile network reaching 98.4% of the Australian population and sells under the Vodafone, TPG, iiNet, Internode, Lebara and felix brands, with business, enterprise, government and wholesale services consolidated under Vodafone Business. In the telecom API value chain TPG Telecom sits squarely on the network side and not the developer side: it publishes no first-party developer portal, no downloadable OpenAPI, and no network APIs. Its only public, callable developer surface is the Vodafone Business Messaging Hub — a white-labelled Sinch MessageMedia (Sinch Engage) CPaaS platform running on TPG-branded hosts at messaging.tpgtelecom.com.au and api.messaging.tpgtelecom.com.au, with documentation served from a Zendesk help centre and an Apiary
   API Blueprint owned by MessageMedia. On the sector''s defining signal, CAMARA and GSMA Open Gateway, TPG Telecom is a stated non-participant: while Telstra went live with Number Verification and SIM Swap through Aduna and Optus signalled it would follow, TPG''s public position is that it is "closely watching developments like GSMA Open Gateway" while prioritising local scam prevention — a watching brief, not an implementation. TPG Telecom is therefore partner-gated and aggregator-mediated: developers reach its network through a CPaaS supplier, not through TPG.'
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+finops:
+- has_sources: true
+  method: derived
+  name: Tpg Telecom Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: tpg-telecom-finops
+  template: false
+image: https://www.tpgtelecom.com.au/themes/custom/tpg/TPG_Telecom_Logo_RGB.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-20'
 name: TPG Telecom
 nav: Providers
 network: true
@@ -232,34 +256,37 @@ overview: 'TPG Telecom is listed with 2 APIs on the [APIs.io](https://apis.io/) 
   The TPG Telecom catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  TPG Telecom''s developer surface includes authentication, documentation, getting-started guide, support, pricing, legal docs, and 30 more developer resources.'
+  TPG Telecom''s developer surface includes authentication, documentation, getting-started guide, support, pricing, legal docs, and 33 more developer resources.'
 plans:
 - name: Tpg Telecom Plans
   plan_count: 5
   slug: tpg-telecom-plans
-random_paper: 21
+- name: Tpg Telecom Price Estimates
+  plan_count: 0
+  slug: tpg-telecom-price-estimates
+random_paper: 17
 rate_limits:
-- limit_count: 4
+- limit_count: 3
   name: Tpg Telecom Rate Limits
   slug: tpg-telecom-rate-limits
 score:
-  band: developing
-  composite: 48.8
+  band: strong
+  composite: 55.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 61.0
+    artifact_dirs: 23
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 63.2
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 47.0
-    discoverability: 67.0
-    operational_transparency: 63.2
+    discoverability: 67.9
+    operational_transparency: 78.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -267,7 +294,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 48.8
+  previous_composite: 53.6
   provenance:
     conformance: derived
     mcp: derived
@@ -278,14 +305,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/screenshots/tpg-telecom-2026-08-17T082417.png
+screenshot: https://apis.io/screenshots/tpg-telecom/tpg-telecom-2026-08-17T082417.png
 security:
 - kind: authentication
   name: Tpg Telecom Authentication
@@ -299,6 +326,14 @@ security:
   name: Tpg Telecom Vulnerability Disclosure
   slug: tpg-telecom-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: tpg-telecom-build-campaign-list
+  slug: tpg-telecom-build-campaign-list
+- name: tpg-telecom-manage-contacts
+  slug: tpg-telecom-manage-contacts
+- name: tpg-telecom-personalise-with-custom-fields
+  slug: tpg-telecom-personalise-with-custom-fields
 slug: tpg-telecom
 tags:
 - Telecommunications

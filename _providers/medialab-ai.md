@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'The Genius API exposes the music knowledge community behind genius.com: annotations (crowd-sourced explanations attached to a fragment of a document), referents (the fragments annotations attach to), '
@@ -47,19 +49,24 @@ apis:
   description: 'The Imgur API (version 3) exposes the Imgur image-sharing and community platform over a RESTful HTTPS interface: image upload and retrieval, albums, the public gallery and its tags, comments, and acco'
   name: Imgur API
   slug: imgur-api
-artifact_total: 8
+artifact_total: 15
 collections:
 - collection_type: postman
   name: Imgur API
   slug: postman-medialab-ai-imgur-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/medialab-ai/plans/medialab-ai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/medialab-ai-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/mcp/medialab-ai-mcp.yml
+  href: https://artifacts.apis.io/medialab-ai/mcp/medialab-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/medialab-ai-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/security/medialab-ai-domain-security.yml
+  href: https://artifacts.apis.io/medialab-ai/security/medialab-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/medialab-ai-domain-security.yml
@@ -124,27 +131,27 @@ common:
   type: PrivacyPolicy
   url: https://medialab.la/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/packages/medialab-ai-packages.yml
+  href: https://artifacts.apis.io/medialab-ai/packages/medialab-ai-packages.yml
   title: ''
   type: Packages
   url: packages/medialab-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/packages/medialab-ai-packages.yml
+  href: https://artifacts.apis.io/medialab-ai/packages/medialab-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/medialab-ai-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/well-known/medialab-ai-well-known.yml
+  href: https://artifacts.apis.io/medialab-ai/well-known/medialab-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/medialab-ai-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/well-known/medialab-ai-genius-security.txt
+  href: https://artifacts.apis.io/medialab-ai/well-known/medialab-ai-genius-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/medialab-ai-genius-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/security/medialab-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/medialab-ai/security/medialab-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/medialab-ai-vulnerability-disclosure.yml
@@ -153,32 +160,32 @@ common:
   type: Security
   url: https://bugcrowd.com/engagements/Genius-VDP
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/authentication/medialab-ai-authentication.yml
+  href: https://artifacts.apis.io/medialab-ai/authentication/medialab-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/medialab-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/scopes/medialab-ai-scopes.yml
+  href: https://artifacts.apis.io/medialab-ai/scopes/medialab-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/medialab-ai-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/conventions/medialab-ai-conventions.yml
+  href: https://artifacts.apis.io/medialab-ai/conventions/medialab-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/medialab-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/errors/medialab-ai-problem-types.yml
+  href: https://artifacts.apis.io/medialab-ai/errors/medialab-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/medialab-ai-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/rate-limits/medialab-ai-rate-limits.yml
+  href: https://artifacts.apis.io/medialab-ai/rate-limits/medialab-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/medialab-ai-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/lifecycle/medialab-ai-lifecycle.yml
+  href: https://artifacts.apis.io/medialab-ai/lifecycle/medialab-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/medialab-ai-lifecycle.yml
@@ -187,48 +194,56 @@ common:
   type: StatusPage
   url: https://status.imgur.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/lifecycle/medialab-ai-lifecycle.yml
+  href: https://artifacts.apis.io/medialab-ai/lifecycle/medialab-ai-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/medialab-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/conformance/medialab-ai-conformance.yml
+  href: https://artifacts.apis.io/medialab-ai/conformance/medialab-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/medialab-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/data-model/medialab-ai-data-model.yml
+  href: https://artifacts.apis.io/medialab-ai/data-model/medialab-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/medialab-ai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/components/medialab-ai-components.yml
+  href: https://artifacts.apis.io/medialab-ai/components/medialab-ai-components.yml
   title: ''
   type: Components
   url: components/medialab-ai-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/examples/medialab-ai-imgur-examples.yml
+  href: https://artifacts.apis.io/medialab-ai/examples/medialab-ai-imgur-examples.yml
   title: ''
   type: Examples
   url: examples/medialab-ai-imgur-examples.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/llms/medialab-ai-llms.txt
+  href: https://artifacts.apis.io/medialab-ai/llms/medialab-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/medialab-ai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/medialab-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/postman/medialab-ai-imgur-api.postman_collection.json
+  href: https://artifacts.apis.io/medialab-ai/postman/medialab-ai-imgur-api.postman_collection.json
   title: ''
   type: Postman
   url: postman/medialab-ai-imgur-api.postman_collection.json
 created: '2026-08-01'
 description: MediaLab.AI Inc. is a Santa Monica, California holding company for consumer internet brands. Rather than building products from scratch, MediaLab acquires and operates established community and media properties, and monetizes them through advertising across an owned-and-operated portfolio that reaches roughly one in three US internet users each month. The portfolio includes Genius (music knowledge, lyrics and annotations), Imgur (image sharing and community), Kik (messaging), WorldStarHipHop (hip hop media), Whisper (anonymous sharing), Amino (interest communities) and DatPiff (mixtapes). MediaLab also operates Assembly Exchange, its owned-and-operated programmatic ad exchange. The company itself publishes no corporate developer portal; its public API surface is carried by two portfolio brands - the Genius API (docs.genius.com, OAuth 2.0, annotations/songs/artists/search) and the Imgur API v3 (apidocs.imgur.com, OAuth 2.0, images/albums/galleries/comments/accounts), the latter
   documented as a public Postman collection.
+finops:
+- has_sources: true
+  method: derived
+  name: Medialab Ai Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: medialab-ai-finops
+  template: false
 image: https://cdn.prod.website-files.com/6434b7d63112666081bedeb0/643591619f8e24bf570e827e_medialab-webclip.jpg
 layout: provider
 modified: '2026-08-01'
@@ -238,7 +253,14 @@ network: true
 overview: 'MediaLab.AI is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including Imgur API, and 1 more. Tagged areas include Company, Media, Social, Advertising, and Content.
 
 
-  MediaLab.AI''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 31 more developer resources.'
+  MediaLab.AI''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 32 more developer resources.'
+plans:
+- name: Medialab Ai Plans Pricing
+  plan_count: 2
+  slug: medialab-ai-plans-pricing
+- name: Medialab Ai Price Estimates
+  plan_count: 0
+  slug: medialab-ai-price-estimates
 random_paper: 6
 rate_limits:
 - limit_count: 3
@@ -251,23 +273,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/implicit
 score:
   band: developing
-  composite: 42.3
+  composite: 50.1
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 21
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 5.8
   facets:
-    access_clarity: 44.7
+    access_clarity: 73.7
     contract_governance: 4.5
     contract_quality: 6.5
-    developer_ergonomics: 56.1
-    discoverability: 73.2
-    operational_transparency: 68.4
-  previous_composite: 42.2
+    developer_ergonomics: 68.0
+    discoverability: 66.1
+    operational_transparency: 71.1
+  previous_composite: 44.3
   provenance:
     conformance: derived
     mcp: derived
@@ -278,14 +300,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/screenshots/medialab-ai-2026-08-07T172332.png
+screenshot: https://apis.io/screenshots/medialab-ai/medialab-ai-2026-08-07T172332.png
 security:
 - kind: authentication
   name: Medialab Ai Authentication
@@ -299,6 +321,16 @@ security:
   name: Medialab Ai Vulnerability Disclosure
   slug: medialab-ai-vulnerability-disclosure
   summary_line: Bugcrowd · security.txt · contact published
+skill_count: 4
+skills:
+- name: Annotate a public web page with Genius
+  slug: medialab-ai-genius-annotate-web-page
+- name: Look up a song and read its Genius annotations
+  slug: medialab-ai-genius-lookup-song-annotations
+- name: Search and read the Imgur public gallery
+  slug: medialab-ai-imgur-search-gallery
+- name: Upload images to Imgur and collect them in an album
+  slug: medialab-ai-imgur-upload-and-album
 slug: medialab-ai
 tags:
 - Company

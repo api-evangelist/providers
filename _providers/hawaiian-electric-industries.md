@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The public Esri ArcGIS Online feature-service catalog Hawaiian Electric serves under tenant gfBpz2hbsVDgru6D. Twenty-three FeatureServers are shared publicly and answer anonymous queries: the External'
@@ -41,17 +43,17 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hawaiian-electric-industries/refs/heads/main/plans/hawaiian-electric-industries-plans-pricing.yml
+  href: https://artifacts.apis.io/hawaiian-electric-industries/plans/hawaiian-electric-industries-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hawaiian-electric-industries-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hawaiian-electric-industries/refs/heads/main/rate-limits/hawaiian-electric-industries-rate-limits.yml
+  href: https://artifacts.apis.io/hawaiian-electric-industries/rate-limits/hawaiian-electric-industries-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hawaiian-electric-industries-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hawaiian-electric-industries/refs/heads/main/security/hawaiian-electric-industries-domain-security.yml
+  href: https://artifacts.apis.io/hawaiian-electric-industries/security/hawaiian-electric-industries-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hawaiian-electric-industries-domain-security.yml
@@ -104,12 +106,12 @@ common:
   type: Blog
   url: https://www.hawaiianelectric.com/about-us/newsroom
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hawaiian-electric-industries/refs/heads/main/llms/hawaiian-electric-industries-llms.txt
+  href: https://artifacts.apis.io/hawaiian-electric-industries/llms/hawaiian-electric-industries-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hawaiian-electric-industries-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hawaiian-electric-industries/refs/heads/main/packages/hawaiian-electric-industries-packages.yml
+  href: https://artifacts.apis.io/hawaiian-electric-industries/packages/hawaiian-electric-industries-packages.yml
   title: ''
   type: Packages
   url: packages/hawaiian-electric-industries-packages.yml
@@ -145,14 +147,14 @@ press:
 - date: ''
   title: 'Wall Street Recap: Can Hawaiian Electric Industries Inc. (HWI) stock ...'
   url: https://www.fitnessatfive.com/ati-del/258/Can-Hawaiian-Electric-Industries-Inc.-(HWI)-stock-sustain-institutional-flows
-random_paper: 5
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Hawaiian Electric Industries Rate Limits
   slug: hawaiian-electric-industries-rate-limits
 score:
   band: emerging
-  composite: 25.2
+  composite: 24.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 49.0
@@ -166,9 +168,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 67.9
     operational_transparency: 31.6
-  previous_composite: 25.2
+  previous_composite: 24.6
   provenance:
     conformance: first-party
   regulatory:
@@ -177,14 +179,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hawaiian-electric-industries/refs/heads/main/screenshots/hawaiian-electric-industries-2026-06-20T182541.png
+screenshot: https://apis.io/screenshots/hawaiian-electric-industries/hawaiian-electric-industries-2026-06-20T182541.png
 security:
 - kind: authentication
   name: Hawaiian Electric Industries Authentication

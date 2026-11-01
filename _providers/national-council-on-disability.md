@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: FOIA-accessible data from the National Council on Disability including performance and results act reports, congressional budget justification reports, financial audit reports, strategic plans, bylaws
@@ -48,12 +50,12 @@ apis:
 artifact_total: 42
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/finops/national-council-on-disability-finops.yml
+  href: https://artifacts.apis.io/national-council-on-disability/finops/national-council-on-disability-finops.yml
   title: ''
   type: FinOps
   url: finops/national-council-on-disability-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/security/national-council-on-disability-domain-security.yml
+  href: https://artifacts.apis.io/national-council-on-disability/security/national-council-on-disability-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/national-council-on-disability-domain-security.yml
@@ -62,32 +64,32 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/ncdgov
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/vocabulary/ncd-vocabulary.yaml
+  href: https://artifacts.apis.io/national-council-on-disability/vocabulary/ncd-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/ncd-vocabulary.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/json-schema/ncd-policy-report-schema.json
+  href: https://artifacts.apis.io/national-council-on-disability/json-schema/ncd-policy-report-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/ncd-policy-report-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/json-schema/ncd-foia-record-schema.json
+  href: https://artifacts.apis.io/national-council-on-disability/json-schema/ncd-foia-record-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/ncd-foia-record-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/json-schema/ncd-accountability-report-schema.json
+  href: https://artifacts.apis.io/national-council-on-disability/json-schema/ncd-accountability-report-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/ncd-accountability-report-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/json-schema/ncd-testimony-schema.json
+  href: https://artifacts.apis.io/national-council-on-disability/json-schema/ncd-testimony-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/ncd-testimony-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/json-schema/ncd-stakeholder-letter-schema.json
+  href: https://artifacts.apis.io/national-council-on-disability/json-schema/ncd-stakeholder-letter-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/ncd-stakeholder-letter-schema.json
@@ -112,57 +114,57 @@ common:
   type: Newsroom
   url: https://www.ncd.gov/newsroom/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/json-ld/ncd-context.jsonld
+  href: https://artifacts.apis.io/national-council-on-disability/json-ld/ncd-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/ncd-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/json-structure/ncd-policy-report-structure.json
+  href: https://artifacts.apis.io/national-council-on-disability/json-structure/ncd-policy-report-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/ncd-policy-report-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/json-structure/ncd-foia-record-structure.json
+  href: https://artifacts.apis.io/national-council-on-disability/json-structure/ncd-foia-record-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/ncd-foia-record-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/json-structure/ncd-accountability-report-structure.json
+  href: https://artifacts.apis.io/national-council-on-disability/json-structure/ncd-accountability-report-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/ncd-accountability-report-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/json-structure/ncd-testimony-structure.json
+  href: https://artifacts.apis.io/national-council-on-disability/json-structure/ncd-testimony-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/ncd-testimony-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/json-structure/ncd-stakeholder-letter-structure.json
+  href: https://artifacts.apis.io/national-council-on-disability/json-structure/ncd-stakeholder-letter-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/ncd-stakeholder-letter-structure.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/examples/ncd-policy-report-example.json
+  href: https://artifacts.apis.io/national-council-on-disability/examples/ncd-policy-report-example.json
   title: ''
   type: Examples
   url: examples/ncd-policy-report-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/examples/ncd-foia-record-example.json
+  href: https://artifacts.apis.io/national-council-on-disability/examples/ncd-foia-record-example.json
   title: ''
   type: Examples
   url: examples/ncd-foia-record-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/examples/ncd-accountability-report-example.json
+  href: https://artifacts.apis.io/national-council-on-disability/examples/ncd-accountability-report-example.json
   title: ''
   type: Examples
   url: examples/ncd-accountability-report-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/examples/ncd-testimony-example.json
+  href: https://artifacts.apis.io/national-council-on-disability/examples/ncd-testimony-example.json
   title: ''
   type: Examples
   url: examples/ncd-testimony-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/examples/ncd-stakeholder-letter-example.json
+  href: https://artifacts.apis.io/national-council-on-disability/examples/ncd-stakeholder-letter-example.json
   title: ''
   type: Examples
   url: examples/ncd-stakeholder-letter-example.json
@@ -171,37 +173,37 @@ common:
   type: Blog
   url: https://www.ncd.gov/newsroom/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/security/national-council-on-disability-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/national-council-on-disability/security/national-council-on-disability-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/national-council-on-disability-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/security/national-council-on-disability-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/national-council-on-disability/security/national-council-on-disability-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/national-council-on-disability-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/conformance/national-council-on-disability-conformance.yml
+  href: https://artifacts.apis.io/national-council-on-disability/conformance/national-council-on-disability-conformance.yml
   title: ''
   type: Conformance
   url: conformance/national-council-on-disability-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/conformance/national-council-on-disability-conformance.yml
+  href: https://artifacts.apis.io/national-council-on-disability/conformance/national-council-on-disability-conformance.yml
   title: ''
   type: Compliance
   url: conformance/national-council-on-disability-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/llms/national-council-on-disability-llms.txt
+  href: https://artifacts.apis.io/national-council-on-disability/llms/national-council-on-disability-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/national-council-on-disability-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/plans/national-council-on-disability-plans-pricing.yml
+  href: https://artifacts.apis.io/national-council-on-disability/plans/national-council-on-disability-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/national-council-on-disability-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/rate-limits/national-council-on-disability-rate-limits.yml
+  href: https://artifacts.apis.io/national-council-on-disability/rate-limits/national-council-on-disability-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/national-council-on-disability-rate-limits.yml
@@ -272,7 +274,7 @@ finops:
 - has_sources: false
   method: generated
   name: National Council On Disability Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: national-council-on-disability-finops
   template: true
@@ -339,7 +341,7 @@ plans:
 - name: National Council On Disability Plans Pricing
   plan_count: 0
   slug: national-council-on-disability-plans-pricing
-random_paper: 15
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: National Council On Disability Rate Limits
@@ -358,7 +360,7 @@ rules:
   slug: national-council-on-disability-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 19.9
+  composite: 20.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 47.8
@@ -366,20 +368,20 @@ score:
     catalog_gap: 67.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 13.2
     developer_ergonomics: 16.7
-    discoverability: 63.4
-    operational_transparency: 13.2
+    discoverability: 64.3
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 21.4
+  previous_composite: 20.3
   provenance:
     conformance: first-party
   regulatory:
@@ -388,14 +390,14 @@ score:
     regime: Health
     regime_id: health
     score: 17.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/screenshots/national-council-on-disability-2026-06-20T190008.png
+screenshot: https://apis.io/screenshots/national-council-on-disability/national-council-on-disability-2026-06-20T190008.png
 security:
 - kind: domain-security
   name: National Council On Disability Domain Security

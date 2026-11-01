@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
-    mcp_server: false
+    idempotency: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: The Version API from ClinicalTrials.gov — 1 operation(s) for version.
   name: ClinicalTrials.gov Version API
   slug: clinical-trials-gov-version-api
-artifact_total: 19
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ClinicalTrials.gov Data API v2 Stats API
   slug: open-clinical-trials-gov-stats-api
@@ -97,12 +96,12 @@ common:
   type: Blog
   url: https://clinicaltrials.gov/blog/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/agentic-access/clinical-trials-gov-agentic-access.yml
+  href: https://artifacts.apis.io/clinical-trials-gov/agentic-access/clinical-trials-gov-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/clinical-trials-gov-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/security/clinical-trials-gov-domain-security.yml
+  href: https://artifacts.apis.io/clinical-trials-gov/security/clinical-trials-gov-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clinical-trials-gov-domain-security.yml
@@ -135,12 +134,12 @@ common:
   type: TermsOfService
   url: https://clinicaltrials.gov/about-site/terms-conditions
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/json-ld/clinical-trials-gov-context.jsonld
+  href: https://artifacts.apis.io/clinical-trials-gov/json-ld/clinical-trials-gov-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/clinical-trials-gov-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/rules/clinical-trials-gov-rules.yml
+  href: https://artifacts.apis.io/clinical-trials-gov/rules/clinical-trials-gov-rules.yml
   title: ''
   type: Spectral
   url: rules/clinical-trials-gov-rules.yml
@@ -173,7 +172,7 @@ common:
   type: ChangeLog
   url: https://clinicaltrials.gov/about-site/release-notes
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/changelog/clinical-trials-gov-changelog.yml
+  href: https://artifacts.apis.io/clinical-trials-gov/changelog/clinical-trials-gov-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/clinical-trials-gov-changelog.yml
@@ -182,57 +181,57 @@ common:
   type: Deprecation
   url: https://clinicaltrials.gov/data-api/about-api/api-migration
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/packages/clinical-trials-gov-packages.yml
+  href: https://artifacts.apis.io/clinical-trials-gov/packages/clinical-trials-gov-packages.yml
   title: ''
   type: Packages
   url: packages/clinical-trials-gov-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/mcp/clinical-trials-gov-mcp.yml
+  href: https://artifacts.apis.io/clinical-trials-gov/mcp/clinical-trials-gov-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/clinical-trials-gov-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/conformance/clinical-trials-gov-conformance.yml
+  href: https://artifacts.apis.io/clinical-trials-gov/conformance/clinical-trials-gov-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clinical-trials-gov-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/errors/clinical-trials-gov-problem-types.yml
+  href: https://artifacts.apis.io/clinical-trials-gov/errors/clinical-trials-gov-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clinical-trials-gov-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/lifecycle/clinical-trials-gov-lifecycle.yml
+  href: https://artifacts.apis.io/clinical-trials-gov/lifecycle/clinical-trials-gov-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clinical-trials-gov-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/authentication/clinical-trials-gov-authentication.yml
+  href: https://artifacts.apis.io/clinical-trials-gov/authentication/clinical-trials-gov-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clinical-trials-gov-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/conventions/clinical-trials-gov-conventions.yml
+  href: https://artifacts.apis.io/clinical-trials-gov/conventions/clinical-trials-gov-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clinical-trials-gov-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/data-model/clinical-trials-gov-data-model.yml
+  href: https://artifacts.apis.io/clinical-trials-gov/data-model/clinical-trials-gov-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clinical-trials-gov-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/plans/clinical-trials-gov-plans-pricing.yml
+  href: https://artifacts.apis.io/clinical-trials-gov/plans/clinical-trials-gov-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/clinical-trials-gov-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/rate-limits/clinical-trials-gov-rate-limits.yml
+  href: https://artifacts.apis.io/clinical-trials-gov/rate-limits/clinical-trials-gov-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/clinical-trials-gov-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/clinical-trials-gov/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -264,7 +263,7 @@ plans:
 - name: Clinical Trials Gov Plans Pricing
   plan_count: 1
   slug: clinical-trials-gov-plans-pricing
-random_paper: 16
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Clinical Trials Gov Rate Limits
@@ -283,24 +282,24 @@ rules:
     warn: 5
   slug: clinical-trials-gov-rules
 score:
-  band: thin
-  composite: 36.4
+  band: developing
+  composite: 47.2
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 49.5
     catalog_earned_first_party: 8.0
     catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.7
+  delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 52.6
     contract_governance: 31.8
     contract_quality: 42.0
-    developer_ergonomics: 30.4
-    discoverability: 65.2
-    operational_transparency: 0.0
-  previous_composite: 38.1
+    developer_ergonomics: 58.9
+    discoverability: 58.3
+    operational_transparency: 23.7
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -316,15 +315,15 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/screenshots/clinical-trials-gov-2026-06-20T174525.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/clinical-trials-gov/clinical-trials-gov-2026-06-20T174525.png
 security:
 - kind: authentication
   name: Clinical Trials Gov Authentication
@@ -334,6 +333,12 @@ security:
   name: Clinical Trials Gov Domain Security
   slug: clinical-trials-gov-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: clinical-trials-gov-find-studies
+  slug: clinical-trials-gov-find-studies
+- name: clinical-trials-gov-get-study-record
+  slug: clinical-trials-gov-get-study-record
 slug: clinical-trials-gov
 tags:
 - Clinical Trials

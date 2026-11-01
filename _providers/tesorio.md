@@ -24,21 +24,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 22.2
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tesorio/refs/heads/main/security/tesorio-domain-security.yml
+  href: https://artifacts.apis.io/tesorio/security/tesorio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tesorio-domain-security.yml
@@ -75,17 +77,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/tesorio
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tesorio/refs/heads/main/mcp/tesorio-mcp.yml
+  href: https://artifacts.apis.io/tesorio/mcp/tesorio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tesorio-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tesorio/refs/heads/main/authentication/tesorio-authentication.yml
+  href: https://artifacts.apis.io/tesorio/authentication/tesorio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tesorio-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tesorio/refs/heads/main/security/tesorio-trust-center.yml
+  href: https://artifacts.apis.io/tesorio/security/tesorio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tesorio-trust-center.yml
@@ -94,7 +96,7 @@ common:
   type: Compliance
   url: https://security.tesorio.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tesorio/refs/heads/main/llms/tesorio-llms.txt
+  href: https://artifacts.apis.io/tesorio/llms/tesorio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tesorio-llms.txt
@@ -114,10 +116,10 @@ overview: 'Tesorio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Tesorio''s developer surface includes documentation, support, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 3
+random_paper: 5
 score:
   band: emerging
-  composite: 22.0
+  composite: 22.6
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -125,15 +127,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 58.3
-    operational_transparency: 2.6
-  previous_composite: 21.9
+    discoverability: 48.3
+    operational_transparency: 5.3
+  previous_composite: 22.6
   provenance:
     mcp: first-party
   regulatory:
@@ -142,14 +144,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tesorio/refs/heads/main/screenshots/tesorio-2026-09-02T163211.png
+screenshot: https://apis.io/screenshots/tesorio/tesorio-2026-09-02T163211.png
 security:
 - kind: authentication
   name: Tesorio Authentication

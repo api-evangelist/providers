@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
+  score: 30.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -86,11 +88,8 @@ apis:
   description: Signers are responsible for signing the transactions related to the relayers.
   name: OpenZeppelin Signers API
   slug: openzeppelin-signers-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OpenZeppelin Relayer Health API
   slug: open-openzeppelin-health-api
@@ -113,18 +112,23 @@ collections:
   name: OpenZeppelin Relayer Health Signers API
   slug: open-openzeppelin-signers-api
 common:
+- group: other
+  href: https://artifacts.apis.io/openzeppelin/capabilities/openzeppelin-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/openzeppelin-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/openzeppelin/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/openzeppelin/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/openzeppelin/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -153,22 +157,22 @@ common:
   type: License
   url: https://github.com/OpenZeppelin/openzeppelin-monitor/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/agentic-access/openzeppelin-agentic-access.yml
+  href: https://artifacts.apis.io/openzeppelin/agentic-access/openzeppelin-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openzeppelin-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/security/openzeppelin-trust-center.yml
+  href: https://artifacts.apis.io/openzeppelin/security/openzeppelin-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/openzeppelin-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/security/openzeppelin-domain-security.yml
+  href: https://artifacts.apis.io/openzeppelin/security/openzeppelin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openzeppelin-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/authentication/openzeppelin-authentication.yml
+  href: https://artifacts.apis.io/openzeppelin/authentication/openzeppelin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openzeppelin-authentication.yml
@@ -279,12 +283,12 @@ overview: 'OpenZeppelin publishes 9 API contracts indexed on the [APIs.io](https
   The OpenZeppelin catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenZeppelin''s developer surface includes authentication, documentation, GitHub presence, engineering blog, product news, status page, signup flow, and 21 more developer resources.'
+  OpenZeppelin''s developer surface includes authentication, documentation, GitHub presence, engineering blog, product news, status page, signup flow, and 22 more developer resources.'
 plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Rate Limits
@@ -303,26 +307,23 @@ rules:
   slug: openzeppelin-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.8
+  composite: 47.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 49.3
     catalog_earned_first_party: 0.0
     catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 53.4
-    developer_ergonomics: 52.4
-    discoverability: 58.0
+    contract_quality: 50.0
+    developer_ergonomics: 54.8
+    discoverability: 58.9
     operational_transparency: 39.5
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 60.2
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     contracts:
@@ -336,13 +337,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/screenshots/openzeppelin-2026-06-20T191058.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openzeppelin/openzeppelin-2026-06-20T191058.png
 security:
 - kind: authentication
   name: Openzeppelin Authentication

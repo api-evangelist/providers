@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Public website does not expose a developer portal or machine‑readable API specification.
@@ -32,17 +34,17 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crestif/refs/heads/main/hosts/crestif-hosts.yml
+  href: https://artifacts.apis.io/crestif/hosts/crestif-hosts.yml
   title: ''
   type: Hosts
   url: hosts/crestif-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crestif/refs/heads/main/vendors/crestif-vendors.yml
+  href: https://artifacts.apis.io/crestif/vendors/crestif-vendors.yml
   title: ''
   type: Vendors
   url: vendors/crestif-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crestif/refs/heads/main/security/crestif-domain-security.yml
+  href: https://artifacts.apis.io/crestif/security/crestif-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crestif-domain-security.yml
@@ -65,7 +67,7 @@ name: Crestif
 nav: Providers
 network: true
 overview: Crestif is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, and Compliance.
-random_paper: 4
+random_paper: 8
 score:
   band: minimal
   composite: 2.3
@@ -76,6 +78,7 @@ score:
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -83,14 +86,16 @@ score:
     developer_ergonomics: 0.0
     discoverability: 44.6
     operational_transparency: 0.0
+  previous_composite: 2.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

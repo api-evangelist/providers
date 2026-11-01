@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-17'
+  score: 26.8
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'The private production API behind the Acelab Material Hub web application and Revit add-in. It is not a published developer product: no OpenAPI, no API reference and no key-issuance flow is published '
@@ -87,57 +89,57 @@ common:
   type: ContentSignal
   url: https://docs.acelabusa.com/robots.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acelab/refs/heads/main/llms/acelab-llms.txt
+  href: https://artifacts.apis.io/acelab/llms/acelab-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/acelab-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acelab/refs/heads/main/well-known/acelab-well-known.yml
+  href: https://artifacts.apis.io/acelab/well-known/acelab-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/acelab-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acelab/refs/heads/main/mcp/acelab-mcp.yml
+  href: https://artifacts.apis.io/acelab/mcp/acelab-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/acelab-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acelab/refs/heads/main/authentication/acelab-authentication.yml
+  href: https://artifacts.apis.io/acelab/authentication/acelab-authentication.yml
   title: ''
   type: Authentication
   url: authentication/acelab-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acelab/refs/heads/main/scopes/acelab-scopes.yml
+  href: https://artifacts.apis.io/acelab/scopes/acelab-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/acelab-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acelab/refs/heads/main/conformance/acelab-conformance.yml
+  href: https://artifacts.apis.io/acelab/conformance/acelab-conformance.yml
   title: ''
   type: Conformance
   url: conformance/acelab-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/acelab/refs/heads/main/packages/acelab-packages.yml
+  href: https://artifacts.apis.io/acelab/packages/acelab-packages.yml
   title: ''
   type: Packages
   url: packages/acelab-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/acelab/refs/heads/main/plans/acelab-plans-pricing.yml
+  href: https://artifacts.apis.io/acelab/plans/acelab-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/acelab-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/acelab/refs/heads/main/rate-limits/acelab-rate-limits.yml
+  href: https://artifacts.apis.io/acelab/rate-limits/acelab-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/acelab-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acelab/refs/heads/main/lifecycle/acelab-lifecycle.yml
+  href: https://artifacts.apis.io/acelab/lifecycle/acelab-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/acelab-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acelab/refs/heads/main/security/acelab-domain-security.yml
+  href: https://artifacts.apis.io/acelab/security/acelab-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/acelab-domain-security.yml
@@ -162,7 +164,7 @@ plans:
 - name: Acelab Plans Pricing
   plan_count: 3
   slug: acelab-plans-pricing
-random_paper: 6
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Acelab Rate Limits
@@ -174,7 +176,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: thin
-  composite: 38.3
+  composite: 37.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 49.0
@@ -182,15 +184,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 38.2
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 37.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -200,14 +202,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/acelab/refs/heads/main/screenshots/acelab-2026-10-11T092612.png
+screenshot: https://apis.io/screenshots/acelab/acelab-2026-10-11T092612.png
 security:
 - kind: authentication
   name: Acelab Authentication

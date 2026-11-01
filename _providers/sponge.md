@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 51.1
-  scored_at: '2026-10-17'
+  score: 46.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 57
   slug: sponge-agentic-access
   summary_line: 57 operations · 31 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.wallet.paysponge.com
   baseurl_source: declared
@@ -101,11 +103,8 @@ arazzos:
 - description: Read wallet balances, send an EVM transfer, then poll transaction status.
   name: Sponge — check balance, transfer, and confirm
   slug: sponge-transfer-and-confirm
-artifact_total: 28
+artifact_total: 30
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sponge public Agents API
   slug: open-sponge-agents-api
@@ -138,7 +137,12 @@ collections:
   slug: open-sponge-wallet-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/overlays/sponge-openapi-overlay.yaml
+  href: https://artifacts.apis.io/sponge/capabilities/sponge-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sponge-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/sponge/overlays/sponge-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sponge-openapi-overlay.yaml
@@ -179,92 +183,92 @@ common:
   type: PrivacyPolicy
   url: https://paysponge.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/authentication/sponge-authentication.yml
+  href: https://artifacts.apis.io/sponge/authentication/sponge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sponge-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/scopes/sponge-scopes.yml
+  href: https://artifacts.apis.io/sponge/scopes/sponge-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sponge-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/security/sponge-domain-security.yml
+  href: https://artifacts.apis.io/sponge/security/sponge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sponge-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/agentic-access/sponge-agentic-access.yml
+  href: https://artifacts.apis.io/sponge/agentic-access/sponge-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sponge-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/mcp/sponge-mcp.yml
+  href: https://artifacts.apis.io/sponge/mcp/sponge-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sponge-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/llms/sponge-llms.txt
+  href: https://artifacts.apis.io/sponge/llms/sponge-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sponge-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/packages/sponge-packages.yml
+  href: https://artifacts.apis.io/sponge/packages/sponge-packages.yml
   title: ''
   type: Packages
   url: packages/sponge-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/packages/sponge-packages.yml
+  href: https://artifacts.apis.io/sponge/packages/sponge-packages.yml
   title: ''
   type: SDKs
   url: packages/sponge-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/cli/sponge-cli.yml
+  href: https://artifacts.apis.io/sponge/cli/sponge-cli.yml
   title: ''
   type: CLI
   url: cli/sponge-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/well-known/sponge-well-known.yml
+  href: https://artifacts.apis.io/sponge/well-known/sponge-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sponge-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/conventions/sponge-conventions.yml
+  href: https://artifacts.apis.io/sponge/conventions/sponge-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sponge-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/conformance/sponge-conformance.yml
+  href: https://artifacts.apis.io/sponge/conformance/sponge-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sponge-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/data-model/sponge-data-model.yml
+  href: https://artifacts.apis.io/sponge/data-model/sponge-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sponge-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/lifecycle/sponge-lifecycle.yml
+  href: https://artifacts.apis.io/sponge/lifecycle/sponge-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sponge-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/sandbox/sponge-sandbox.yml
+  href: https://artifacts.apis.io/sponge/sandbox/sponge-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sponge-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sponge/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/arazzo/sponge-transfer-and-confirm.yml
+  href: https://artifacts.apis.io/sponge/arazzo/sponge-transfer-and-confirm.yml
   title: ''
   type: Arazzo
   url: arazzo/sponge-transfer-and-confirm.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/arazzo/sponge-agent-onboarding.yml
+  href: https://artifacts.apis.io/sponge/arazzo/sponge-agent-onboarding.yml
   title: ''
   type: Arazzo
   url: arazzo/sponge-agent-onboarding.yml
@@ -283,8 +287,8 @@ network: true
 overview: 'Sponge publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Cards API, Fiat API, and 7 more. Tagged areas include Company, Agentic Payments, AI Agents, Wallets, and Cryptocurrency.
 
 
-  Sponge''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, CLI, sandbox, and 21 more developer resources.'
-random_paper: 14
+  Sponge''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, CLI, sandbox, and 22 more developer resources.'
+random_paper: 4
 scopes:
 - name: Sponge Scopes
   scope_count: 5
@@ -294,7 +298,7 @@ score:
   band: developing
   composite: 46.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -304,10 +308,10 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 47.0
+    contract_quality: 46.6
     developer_ergonomics: 83.3
-    discoverability: 75.0
-    operational_transparency: 2.6
+    discoverability: 65.0
+    operational_transparency: 5.3
   previous_composite: 46.3
   provenance:
     agentic_access: derived
@@ -325,13 +329,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/screenshots/sponge-2026-08-17T082030.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sponge/sponge-2026-08-17T082030.png
 security:
 - kind: authentication
   name: Sponge Authentication
@@ -341,6 +346,14 @@ security:
   name: Sponge Domain Security
   slug: sponge-domain-security
   summary_line: TLSv1.3
+skill_count: 3
+skills:
+- name: Issue and fund a Sponge Card
+  slug: sponge-issue-and-fund-card
+- name: Pay for a paid service with a Sponge wallet
+  slug: sponge-pay-for-service
+- name: sponge-wallet
+  slug: sponge-wallet
 slug: sponge
 tags:
 - Company

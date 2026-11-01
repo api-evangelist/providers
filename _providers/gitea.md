@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-17'
+  score: 32.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 470
   human_in_the_loop: 12
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 944
   slug: gitea-agentic-access
   summary_line: 944 operations · 470 acting · 12 human-in-the-loop
-api_count: 2
+api_count: 3
 apis:
 - description: GitHub-Actions-compatible workflow engine embedded in Gitea. The Actions API surface is exposed under the main REST API (/repos/{owner}/{repo}/actions/* and /admin/actions/*) for managing workflows, r
   name: Gitea Actions API
@@ -389,9 +391,6 @@ collections:
   name: Gitea API
   slug: postman-gitea-rest-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Gitea admin API
   slug: open-gitea-admin-api
 - collection_type: open
@@ -423,7 +422,7 @@ collections:
   slug: open-gitea-user-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/capabilities/gitea-capability-edges.yml
+  href: https://artifacts.apis.io/gitea/capabilities/gitea-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gitea-capability-edges.yml
@@ -452,112 +451,112 @@ common:
   type: License
   url: https://github.com/go-gitea/gitea/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/agentic-access/gitea-agentic-access.yml
+  href: https://artifacts.apis.io/gitea/agentic-access/gitea-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gitea-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/security/gitea-trust-center.yml
+  href: https://artifacts.apis.io/gitea/security/gitea-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gitea-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/security/gitea-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/gitea/security/gitea-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gitea-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/security/gitea-domain-security.yml
+  href: https://artifacts.apis.io/gitea/security/gitea-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gitea-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/authentication/gitea-authentication.yml
+  href: https://artifacts.apis.io/gitea/authentication/gitea-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gitea-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/scopes/gitea-scopes.yml
+  href: https://artifacts.apis.io/gitea/scopes/gitea-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/gitea-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/packages/gitea-packages.yml
+  href: https://artifacts.apis.io/gitea/packages/gitea-packages.yml
   title: ''
   type: Packages
   url: packages/gitea-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/well-known/gitea-well-known.yml
+  href: https://artifacts.apis.io/gitea/well-known/gitea-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gitea-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/well-known/gitea-security.txt
+  href: https://artifacts.apis.io/gitea/well-known/gitea-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/gitea-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/mcp/gitea-mcp.yml
+  href: https://artifacts.apis.io/gitea/mcp/gitea-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/gitea-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/llms/gitea-llms.txt
+  href: https://artifacts.apis.io/gitea/llms/gitea-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gitea-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/overlays/gitea-rest-api-overlay.yaml
+  href: https://artifacts.apis.io/gitea/overlays/gitea-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gitea-rest-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/grpc/gitea-runner-v1-services.proto
+  href: https://artifacts.apis.io/gitea/grpc/gitea-runner-v1-services.proto
   title: ''
   type: Protobuf
   url: grpc/gitea-runner-v1-services.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/grpc/gitea-runner-v1-messages.proto
+  href: https://artifacts.apis.io/gitea/grpc/gitea-runner-v1-messages.proto
   title: ''
   type: Protobuf
   url: grpc/gitea-runner-v1-messages.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/grpc/gitea-ping-v1-services.proto
+  href: https://artifacts.apis.io/gitea/grpc/gitea-ping-v1-services.proto
   title: ''
   type: Protobuf
   url: grpc/gitea-ping-v1-services.proto
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/conformance/gitea-conformance.yml
+  href: https://artifacts.apis.io/gitea/conformance/gitea-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gitea-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/errors/gitea-problem-types.yml
+  href: https://artifacts.apis.io/gitea/errors/gitea-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gitea-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/lifecycle/gitea-lifecycle.yml
+  href: https://artifacts.apis.io/gitea/lifecycle/gitea-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gitea-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/conventions/gitea-conventions.yml
+  href: https://artifacts.apis.io/gitea/conventions/gitea-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gitea-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/changelog/gitea-changelog.yml
+  href: https://artifacts.apis.io/gitea/changelog/gitea-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gitea-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/cli/gitea-cli.yml
+  href: https://artifacts.apis.io/gitea/cli/gitea-cli.yml
   title: ''
   type: CLI
   url: cli/gitea-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/data-model/gitea-data-model.yml
+  href: https://artifacts.apis.io/gitea/data-model/gitea-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gitea-data-model.yml
@@ -566,97 +565,97 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/gitea/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-bootstrap-repo-with-tracking-issue-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-bootstrap-repo-with-tracking-issue-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-bootstrap-repo-with-tracking-issue-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-branch-pull-request-merge-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-branch-pull-request-merge-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-branch-pull-request-merge-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-comment-and-close-issue-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-comment-and-close-issue-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-comment-and-close-issue-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-commit-file-and-open-pr-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-commit-file-and-open-pr-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-commit-file-and-open-pr-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-create-branch-and-await-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-create-branch-and-await-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-create-branch-and-await-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-draft-then-publish-release-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-draft-then-publish-release-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-draft-then-publish-release-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-label-create-and-apply-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-label-create-and-apply-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-label-create-and-apply-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-milestone-with-issue-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-milestone-with-issue-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-milestone-with-issue-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-mirror-sync-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-mirror-sync-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-mirror-sync-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-open-and-triage-pull-request-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-open-and-triage-pull-request-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-open-and-triage-pull-request-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-org-bootstrap-with-label-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-org-bootstrap-with-label-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-org-bootstrap-with-label-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-org-repo-with-webhook-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-org-repo-with-webhook-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-org-repo-with-webhook-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-org-with-webhook-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-org-with-webhook-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-org-with-webhook-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-release-and-verify-by-tag-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-release-and-verify-by-tag-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-release-and-verify-by-tag-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-release-with-asset-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-release-with-asset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-release-with-asset-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-repo-with-labeled-issue-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-repo-with-labeled-issue-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-repo-with-labeled-issue-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-repo-with-webhook-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-repo-with-webhook-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-repo-with-webhook-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-report-issue-to-existing-repo-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-report-issue-to-existing-repo-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-report-issue-to-existing-repo-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/arazzo/gitea-sprint-issue-setup-workflow.yml
+  href: https://artifacts.apis.io/gitea/arazzo/gitea-sprint-issue-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitea-sprint-issue-setup-workflow.yml
@@ -693,17 +692,17 @@ common:
   type: Pricing
   url: https://about.gitea.com/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/plans/gitea-plans-pricing.yml
+  href: https://artifacts.apis.io/gitea/plans/gitea-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gitea-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/rate-limits/gitea-rate-limits.yml
+  href: https://artifacts.apis.io/gitea/rate-limits/gitea-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gitea-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/finops/gitea-finops.yml
+  href: https://artifacts.apis.io/gitea/finops/gitea-finops.yml
   title: ''
   type: FinOps
   url: finops/gitea-finops.yml
@@ -792,17 +791,17 @@ common:
   type: Forums
   url: https://forum.gitea.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/rules/gitea-rules.yml
+  href: https://artifacts.apis.io/gitea/rules/gitea-rules.yml
   title: ''
   type: SpectralRules
   url: rules/gitea-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/json-ld/gitea-context.jsonld
+  href: https://artifacts.apis.io/gitea/json-ld/gitea-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/gitea-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/vocabulary/gitea-vocabulary.yml
+  href: https://artifacts.apis.io/gitea/vocabulary/gitea-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/gitea-vocabulary.yml
@@ -904,13 +903,13 @@ features:
 - description: Pull and push mirrors plus one-shot migration import from GitHub, GitLab, Bitbucket, Gitea, and other sources.
   name: Mirroring And Migration
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Gitea Finops
-  primary_unit: ''
-  service_category: Developer Tools / DevOps
+  primary_unit: user/month
+  service_category: ''
   slug: gitea-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gitea.png
 integrations:
 - description: GitHub-compatible workflow ecosystem; most public Actions run unmodified on Gitea Actions runners.
@@ -1041,7 +1040,7 @@ modified: '2026-06-20'
 name: Gitea
 nav: Providers
 network: true
-overview: 'Gitea publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Issue API, Miscellaneous API, and 10 more. Tagged areas include Gitea, Git, Version Control, DevOps, and CI/CD.
+overview: 'Gitea publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Issue API, Miscellaneous API, and 10 more. Tagged areas include Gitea, Version Control, DevOps, CI/CD, and Code Hosting.
 
 
   The Gitea catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -1050,9 +1049,12 @@ overview: 'Gitea publishes 13 API contracts indexed on the [APIs.io](https://api
   Gitea''s developer surface includes authentication, changelog, CLI, documentation, API reference, engineering blog, signup flow, and 78 more developer resources.'
 plans:
 - name: Gitea Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: gitea-plans-pricing
-random_paper: 16
+- name: Gitea Price Estimates
+  plan_count: 0
+  slug: gitea-price-estimates
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Gitea Rate Limits
@@ -1099,49 +1101,47 @@ scopes:
   slug: gitea-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 65.5
+  band: exemplar
+  composite: 69.3
   coverage:
     artifact_dirs: 36
-    catalog_earned: 64.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_earned: 75.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.5
+  delta: 0.1
   facets:
-    access_clarity: 47.4
+    access_clarity: 89.5
     contract_governance: 31.8
-    contract_quality: 60.6
+    contract_quality: 55.0
     developer_ergonomics: 79.8
-    discoverability: 64.3
-    operational_transparency: 42.1
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 73.0
+    discoverability: 61.7
+    operational_transparency: 55.3
+  previous_composite: 69.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 5.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 20
     mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 37.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 45.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/screenshots/gitea-2026-06-20T181832.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gitea/gitea-2026-06-20T181832.png
 security:
 - kind: authentication
   name: Gitea Authentication
@@ -1171,7 +1171,6 @@ solutions:
   name: Gitea Actions Runner (act_runner)
 tags:
 - Gitea
-- Git
 - Version Control
 - DevOps
 - CI/CD

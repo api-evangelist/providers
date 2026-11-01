@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Carlyle Direct Lending operates a dedicated investor portal for clients of Carlyle's direct lending funds and BDC vehicles. The portal supports modern web browsers and is used for reporting, distribut
@@ -45,22 +47,22 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/carlyle-group/refs/heads/main/plans/carlyle-group-plans-pricing.yml
+  href: https://artifacts.apis.io/carlyle-group/plans/carlyle-group-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/carlyle-group-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/carlyle-group/refs/heads/main/rate-limits/carlyle-group-rate-limits.yml
+  href: https://artifacts.apis.io/carlyle-group/rate-limits/carlyle-group-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/carlyle-group-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/carlyle-group/refs/heads/main/finops/carlyle-group-finops.yml
+  href: https://artifacts.apis.io/carlyle-group/finops/carlyle-group-finops.yml
   title: ''
   type: FinOps
   url: finops/carlyle-group-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carlyle-group/refs/heads/main/security/carlyle-group-domain-security.yml
+  href: https://artifacts.apis.io/carlyle-group/security/carlyle-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/carlyle-group-domain-security.yml
@@ -161,44 +163,44 @@ press:
 - date: ''
   title: Carlyle Agrees to Acquire Adastra
   url: https://www.carlyle.com/media-room/news-release-archive/carlyle-agrees-acquire-adastra
-random_paper: 8
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Carlyle Group Rate Limits
   slug: carlyle-group-rate-limits
 score:
   band: emerging
-  composite: 14.7
+  composite: 16.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 16.2
+  previous_composite: 16.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/carlyle-group/refs/heads/main/screenshots/carlyle-group-2026-06-20T174007.png
+screenshot: https://apis.io/screenshots/carlyle-group/carlyle-group-2026-06-20T174007.png
 security:
 - kind: domain-security
   name: Carlyle Group Domain Security

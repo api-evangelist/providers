@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -99,11 +101,8 @@ apis:
   description: User account administration
   name: Site24x7 Users API
   slug: site24x7-users-api
-artifact_total: 39
+artifact_total: 38
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Site24x7 REST Alarms API
   slug: open-site24x7-alarms-api
@@ -138,33 +137,37 @@ collections:
   name: Site24x7 REST Alarms Users API
   slug: open-site24x7-users-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/site24x7/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/capabilities/site24x7-capability-edges.yml
+  href: https://artifacts.apis.io/site24x7/capabilities/site24x7-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/site24x7-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/agentic-access/site24x7-agentic-access.yml
+  href: https://artifacts.apis.io/site24x7/agentic-access/site24x7-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/site24x7-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/security/site24x7-trust-center.yml
+  href: https://artifacts.apis.io/site24x7/security/site24x7-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/site24x7-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/security/site24x7-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/site24x7/security/site24x7-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/site24x7-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/security/site24x7-domain-security.yml
+  href: https://artifacts.apis.io/site24x7/security/site24x7-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/site24x7-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/authentication/site24x7-authentication.yml
+  href: https://artifacts.apis.io/site24x7/authentication/site24x7-authentication.yml
   title: ''
   type: Authentication
   url: authentication/site24x7-authentication.yml
@@ -201,17 +204,17 @@ common:
   type: X
   url: https://x.com/Site24x7
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/plans/site24x7-plans-pricing.yml
+  href: https://artifacts.apis.io/site24x7/plans/site24x7-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/site24x7-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/rate-limits/site24x7-rate-limits.yml
+  href: https://artifacts.apis.io/site24x7/rate-limits/site24x7-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/site24x7-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/finops/site24x7-finops.yml
+  href: https://artifacts.apis.io/site24x7/finops/site24x7-finops.yml
   title: ''
   type: FinOps
   url: finops/site24x7-finops.yml
@@ -262,12 +265,12 @@ overview: 'Site24x7 publishes 11 API contracts indexed on the [APIs.io](https://
   The Site24x7 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Site24x7''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+  Site24x7''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Site24X7 Plans Pricing
   plan_count: 8
   slug: site24x7-plans-pricing
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Site24X7 Rate Limits
@@ -285,8 +288,8 @@ rules:
     warn: 4
   slug: site24x7-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.4
+  band: developing
+  composite: 39.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 57.3
@@ -294,15 +297,15 @@ score:
     catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.2
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
-    contract_quality: 62.6
-    developer_ergonomics: 23.8
+    contract_quality: 59.2
+    developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 46.7
+    operational_transparency: 39.5
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -316,13 +319,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/screenshots/site24x7-2026-06-20T193955.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/site24x7/site24x7-2026-06-20T193955.png
 security:
 - kind: authentication
   name: Site24X7 Authentication

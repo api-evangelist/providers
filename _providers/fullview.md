@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
+  score: 26.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.eu1.fullview.io
@@ -43,17 +45,19 @@ apis:
   description: The Bug Report API from Fullview — 2 operation(s) for bug report.
   name: Fullview Bug Report API
   slug: fullview-bug-report-api
-artifact_total: 8
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Fullview Bug Report API
   slug: open-fullview-bug-report-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/fullview/plans/fullview-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/fullview-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/security/fullview-domain-security.yml
+  href: https://artifacts.apis.io/fullview/security/fullview-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fullview-domain-security.yml
@@ -102,82 +106,82 @@ common:
   type: Compliance
   url: https://trust.fullview.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/authentication/fullview-authentication.yml
+  href: https://artifacts.apis.io/fullview/authentication/fullview-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fullview-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/scopes/fullview-scopes.yml
+  href: https://artifacts.apis.io/fullview/scopes/fullview-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fullview-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/well-known/fullview-well-known.yml
+  href: https://artifacts.apis.io/fullview/well-known/fullview-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fullview-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/packages/fullview-packages.yml
+  href: https://artifacts.apis.io/fullview/packages/fullview-packages.yml
   title: ''
   type: Packages
   url: packages/fullview-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/packages/fullview-packages.yml
+  href: https://artifacts.apis.io/fullview/packages/fullview-packages.yml
   title: ''
   type: SDKs
   url: packages/fullview-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/mcp/fullview-mcp.yml
+  href: https://artifacts.apis.io/fullview/mcp/fullview-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fullview-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fullview/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/llms/fullview-llms.txt
+  href: https://artifacts.apis.io/fullview/llms/fullview-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fullview-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/conventions/fullview-conventions.yml
+  href: https://artifacts.apis.io/fullview/conventions/fullview-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fullview-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/components/fullview-components.yml
+  href: https://artifacts.apis.io/fullview/components/fullview-components.yml
   title: ''
   type: Components
   url: components/fullview-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/conformance/fullview-conformance.yml
+  href: https://artifacts.apis.io/fullview/conformance/fullview-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fullview-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/data-model/fullview-data-model.yml
+  href: https://artifacts.apis.io/fullview/data-model/fullview-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fullview-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/lifecycle/fullview-lifecycle.yml
+  href: https://artifacts.apis.io/fullview/lifecycle/fullview-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fullview-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/overlays/fullview-bug-report-overlay.yaml
+  href: https://artifacts.apis.io/fullview/overlays/fullview-bug-report-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fullview-bug-report-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/security/fullview-trust-center.yml
+  href: https://artifacts.apis.io/fullview/security/fullview-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fullview-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/security/fullview-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/fullview/security/fullview-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fullview-vulnerability-disclosure.yml
@@ -187,6 +191,14 @@ common:
   url: https://trust.fullview.io/
 created: '2026-07-17'
 description: Fullview is a customer-support platform that combines cobrowsing and session replays. Support agents can view and control a customer's browser session in real time directly from a help-desk ticket, and automatically recorded session replays capture user clicks, scrolls, console logs, network errors and JavaScript exceptions so issues can be diagnosed without asking the customer to screen-share. Fullview integrates one-click with Zendesk, Intercom, Salesforce Service Cloud and HubSpot Service Hub, offers customizable privacy controls and PII masking, and exposes a Bug Report integration API plus web and React Native SDKs. Authentication is handled by a Keycloak-based OpenID Connect provider, with optional RS256 JWT "Signed Identities" to secure end-user identity. Backed by Lightspeed Venture Partners and Seedcamp.
+finops:
+- has_sources: true
+  method: derived
+  name: Fullview Finops
+  primary_unit: ''
+  service_category: ''
+  slug: fullview-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fullview.png
 layout: provider
 modified: '2026-07-19'
@@ -196,8 +208,12 @@ network: true
 overview: 'Fullview publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Bug Report API. Tagged areas include Company, Customer Service, Co-Browsing, Session Replay, and Customer Experience.
 
 
-  Fullview''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
-random_paper: 20
+  Fullview''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
+plans:
+- name: Fullview Plans Pricing
+  plan_count: 0
+  slug: fullview-plans-pricing
+random_paper: 14
 scopes:
 - name: Fullview Scopes
   scope_count: 12
@@ -205,23 +221,23 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 46.4
+  composite: 44.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 49.0
     developer_ergonomics: 56.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 46.3
+  previous_composite: 44.9
   provenance:
     conformance: first-party
     contracts:
@@ -241,13 +257,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/screenshots/fullview-2026-07-25T215258.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fullview/fullview-2026-07-25T215258.png
 security:
 - kind: authentication
   name: Fullview Authentication
@@ -265,6 +282,10 @@ security:
   name: Fullview Trust Center
   slug: fullview-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 1
+skills:
+- name: Record a Fullview bug report for a user
+  slug: fullview-report-a-bug
 slug: fullview
 tags:
 - Company

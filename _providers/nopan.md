@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.2
-  scored_at: '2026-10-17'
+  score: 32.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -75,15 +77,12 @@ arazzos:
 - description: Authenticate, refund a previously captured payment, and confirm via events.
   name: Nopan — refund a captured payment
   slug: nopan-refund-payment
-artifact_total: 18
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Nopan Webhooks
   slug: nopan-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nopan Authentication APIs API
   slug: open-nopan-authentication-apis-api
@@ -101,7 +100,7 @@ collections:
   slug: open-nopan-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/capabilities/nopan-capability-edges.yml
+  href: https://artifacts.apis.io/nopan/capabilities/nopan-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nopan-capability-edges.yml
@@ -122,92 +121,92 @@ common:
   type: GettingStarted
   url: https://docs.nopan.com/guides/integration-walkthrough
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/authentication/nopan-authentication.yml
+  href: https://artifacts.apis.io/nopan/authentication/nopan-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nopan-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/scopes/nopan-scopes.yml
+  href: https://artifacts.apis.io/nopan/scopes/nopan-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nopan-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/conventions/nopan-conventions.yml
+  href: https://artifacts.apis.io/nopan/conventions/nopan-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nopan-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/conventions/nopan-conventions.yml
+  href: https://artifacts.apis.io/nopan/conventions/nopan-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/nopan-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/errors/nopan-error-codes.yml
+  href: https://artifacts.apis.io/nopan/errors/nopan-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/nopan-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/asyncapi/nopan-webhooks.yml
+  href: https://artifacts.apis.io/nopan/asyncapi/nopan-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/nopan-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/conformance/nopan-conformance.yml
+  href: https://artifacts.apis.io/nopan/conformance/nopan-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nopan-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/conformance/nopan-conformance.yml
+  href: https://artifacts.apis.io/nopan/conformance/nopan-conformance.yml
   title: ''
   type: Compliance
   url: conformance/nopan-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/lifecycle/nopan-lifecycle.yml
+  href: https://artifacts.apis.io/nopan/lifecycle/nopan-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nopan-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/sandbox/nopan-sandbox.yml
+  href: https://artifacts.apis.io/nopan/sandbox/nopan-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nopan-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/data-model/nopan-data-model.yml
+  href: https://artifacts.apis.io/nopan/data-model/nopan-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nopan-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/mcp/nopan-mcp.yml
+  href: https://artifacts.apis.io/nopan/mcp/nopan-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nopan-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/overlays/nopan-payments-overlay.yaml
+  href: https://artifacts.apis.io/nopan/overlays/nopan-payments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nopan-payments-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nopan/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/arazzo/nopan-accept-payment.yml
+  href: https://artifacts.apis.io/nopan/arazzo/nopan-accept-payment.yml
   title: ''
   type: Arazzo
   url: arazzo/nopan-accept-payment.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/arazzo/nopan-refund-payment.yml
+  href: https://artifacts.apis.io/nopan/arazzo/nopan-refund-payment.yml
   title: ''
   type: Arazzo
   url: arazzo/nopan-refund-payment.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/agentic-access/nopan-agentic-access.yml
+  href: https://artifacts.apis.io/nopan/agentic-access/nopan-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nopan-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/security/nopan-domain-security.yml
+  href: https://artifacts.apis.io/nopan/security/nopan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nopan-domain-security.yml
@@ -270,20 +269,20 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 4.5
     contract_quality: 52.3
     developer_ergonomics: 70.8
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 44.8
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,13 +303,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/screenshots/nopan-2026-08-07T185510.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nopan/nopan-2026-08-07T185510.png
 security:
 - kind: authentication
   name: Nopan Authentication
@@ -320,6 +320,14 @@ security:
   name: Nopan Domain Security
   slug: nopan-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC
+skill_count: 3
+skills:
+- name: Accept an account or wallet payment with Nopan
+  slug: nopan-accept-a-payment
+- name: Charge a stored credential (recurring / MIT) with Nopan
+  slug: nopan-recurring-charge
+- name: Refund or cancel a Nopan payment
+  slug: nopan-refund-a-payment
 slug: nopan
 tags:
 - Payments

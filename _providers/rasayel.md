@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 29.3
-  scored_at: '2026-10-17'
+  score: 30.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -80,11 +82,8 @@ apis:
   description: The Templates API from Rasayel — 2 operation(s) for templates.
   name: Rasayel Templates API
   slug: rasayel-templates-api
-artifact_total: 19
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Rasayel REST Channels API
   slug: open-rasayel-channels-api
@@ -108,32 +107,32 @@ collections:
   slug: open-rasayel-templates-api
 common:
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/_original/rasayel-rest-openapi.yml
+  href: https://artifacts.apis.io/rasayel/openapi/_original/rasayel-rest-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/rasayel-rest-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/authentication/rasayel-authentication.yml
+  href: https://artifacts.apis.io/rasayel/authentication/rasayel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rasayel-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/conventions/rasayel-conventions.yml
+  href: https://artifacts.apis.io/rasayel/conventions/rasayel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rasayel-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/rate-limits/rasayel-rate-limits.yml
+  href: https://artifacts.apis.io/rasayel/rate-limits/rasayel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rasayel-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/errors/rasayel-problem-types.yml
+  href: https://artifacts.apis.io/rasayel/errors/rasayel-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rasayel-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/lifecycle/rasayel-lifecycle.yml
+  href: https://artifacts.apis.io/rasayel/lifecycle/rasayel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rasayel-lifecycle.yml
@@ -142,47 +141,47 @@ common:
   type: StatusPage
   url: https://status.rasayel.io/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/changelog/rasayel-changelog.yml
+  href: https://artifacts.apis.io/rasayel/changelog/rasayel-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rasayel-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/data-model/rasayel-data-model.yml
+  href: https://artifacts.apis.io/rasayel/data-model/rasayel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rasayel-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/conformance/rasayel-conformance.yml
+  href: https://artifacts.apis.io/rasayel/conformance/rasayel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rasayel-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/mcp/rasayel-mcp.yml
+  href: https://artifacts.apis.io/rasayel/mcp/rasayel-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rasayel-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rasayel/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/llms/rasayel-llms.txt
+  href: https://artifacts.apis.io/rasayel/llms/rasayel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rasayel-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/overlays/rasayel-rest-overlay.yaml
+  href: https://artifacts.apis.io/rasayel/overlays/rasayel-rest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rasayel-rest-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/agentic-access/rasayel-agentic-access.yml
+  href: https://artifacts.apis.io/rasayel/agentic-access/rasayel-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rasayel-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/security/rasayel-domain-security.yml
+  href: https://artifacts.apis.io/rasayel/security/rasayel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rasayel-domain-security.yml
@@ -254,14 +253,14 @@ overview: 'Rasayel publishes 7 API contracts indexed on the [APIs.io](https://ap
 
 
   Rasayel''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 5
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Rasayel Rate Limits
   slug: rasayel-rate-limits
 score:
-  band: thin
-  composite: 37.8
+  band: developing
+  composite: 41.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 45.0
@@ -269,15 +268,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 15.5
-    developer_ergonomics: 57.7
-    discoverability: 73.2
-    operational_transparency: 47.4
-  previous_composite: 37.7
+    contract_quality: 12.9
+    developer_ergonomics: 63.7
+    discoverability: 66.1
+    operational_transparency: 57.9
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -294,13 +293,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/screenshots/rasayel-2026-08-17T081447.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rasayel/rasayel-2026-08-17T081447.png
 security:
 - kind: authentication
   name: Rasayel Authentication
@@ -310,6 +310,14 @@ security:
   name: Rasayel Domain Security
   slug: rasayel-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Manage Rasayel contacts, tags, and properties
+  slug: rasayel-manage-contacts
+- name: Manage Rasayel WhatsApp message templates
+  slug: rasayel-manage-templates
+- name: Send a WhatsApp message with Rasayel
+  slug: rasayel-send-whatsapp-message
 slug: rasayel
 tags:
 - Company

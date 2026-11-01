@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -87,11 +89,8 @@ apis:
 - description: bonndata is registered in re3data, the Registry of Research Data Repositories, as r3d100014222 with its own DOI https://doi.org/10.17616/R31NJNGU. Verified 2026-09-01 via https://www.re3data.org/api/b
   name: re3data Registry Record — bonndata
   slug: re3data-record
-artifact_total: 33
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: bonndata Dataverse Native REST API (Public Read Subset) Datasets API
   slug: open-university-of-bonn-datasets-api
@@ -170,52 +169,52 @@ common:
   type: Blog
   url: https://www.uni-bonn.de/news/rss.xml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/conformance/university-of-bonn-conformance.yml
+  href: https://artifacts.apis.io/university-of-bonn/conformance/university-of-bonn-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-bonn-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/authentication/university-of-bonn-authentication.yml
+  href: https://artifacts.apis.io/university-of-bonn/authentication/university-of-bonn-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-bonn-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/errors/university-of-bonn-errors.yml
+  href: https://artifacts.apis.io/university-of-bonn/errors/university-of-bonn-errors.yml
   title: ''
   type: x-errors
   url: errors/university-of-bonn-errors.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/agentic-access/university-of-bonn-agentic-access.yml
+  href: https://artifacts.apis.io/university-of-bonn/agentic-access/university-of-bonn-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/university-of-bonn-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/security/university-of-bonn-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/university-of-bonn/security/university-of-bonn-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/university-of-bonn-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/security/university-of-bonn-domain-security.yml
+  href: https://artifacts.apis.io/university-of-bonn/security/university-of-bonn-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-bonn-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/plans/university-of-bonn-plans-pricing.yml
+  href: https://artifacts.apis.io/university-of-bonn/plans/university-of-bonn-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-bonn-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/rate-limits/university-of-bonn-rate-limits.yml
+  href: https://artifacts.apis.io/university-of-bonn/rate-limits/university-of-bonn-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-bonn-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/finops/university-of-bonn-finops.yml
+  href: https://artifacts.apis.io/university-of-bonn/finops/university-of-bonn-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-bonn-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/university-of-bonn/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -303,8 +302,8 @@ rules:
     warn: 4
   slug: university-of-bonn-rules
 score:
-  band: developing
-  composite: 41.4
+  band: thin
+  composite: 33.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 57.7
@@ -312,14 +311,14 @@ score:
     catalog_gap: 57.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 28.0
-    contract_quality: 50.9
+    contract_quality: 12.7
     developer_ergonomics: 28.6
     discoverability: 76.8
-    operational_transparency: 7.9
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -328,7 +327,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 47.5
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -343,14 +342,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 38.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/screenshots/university-of-bonn-2026-06-20T200139.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/university-of-bonn/university-of-bonn-2026-06-20T200139.png
 security:
 - kind: authentication
   name: University Of Bonn Authentication

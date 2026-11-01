@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Hosted AI business intelligence SaaS. No public REST/HTTP API is published; the only machine-consumable artifact is an llms.txt content index.
@@ -46,7 +48,7 @@ overview: 'Fennix - AI Business Intelligence & Analytics Platform is listed with
 
 
   Fennix - AI Business Intelligence & Analytics Platform''s developer surface includes engineering blog.'
-random_paper: 6
+random_paper: 18
 score:
   band: minimal
   composite: 6.5
@@ -57,7 +59,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -70,27 +72,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - mena
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
-  previous_composite: 6.0
+  previous_composite: 6.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fennix-ai-business-intelligence-amp-analytics-platform/refs/heads/main/screenshots/fennix-ai-business-intelligence-amp-analytics-platform-2026-10-11T184800.png
+screenshot: https://apis.io/screenshots/fennix-ai-business-intelligence-amp-analytics-platform/fennix-ai-business-intelligence-amp-analytics-platform-2026-10-11T184800.png
 slug: fennix-ai-business-intelligence-amp-analytics-platform
 tags:
 - Business Intelligence

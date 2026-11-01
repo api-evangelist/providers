@@ -13,6 +13,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
+  score: 39.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -75,15 +78,12 @@ apis:
   description: The Workflow API from Ondemand — 2 operation(s) for workflow.
   name: Ondemand Workflow API
   slug: ondemand-workflow-api
-artifact_total: 18
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Ondemand Webhooks
   slug: ondemand-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OnDemand AI Chat API
   slug: open-ondemand-chat-api
@@ -112,12 +112,12 @@ common:
   type: Website
   url: https://www.on-demand.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/agentic-access/ondemand-agentic-access.yml
+  href: https://artifacts.apis.io/ondemand/agentic-access/ondemand-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ondemand-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/security/ondemand-domain-security.yml
+  href: https://artifacts.apis.io/ondemand/security/ondemand-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ondemand-domain-security.yml
@@ -150,72 +150,72 @@ common:
   type: GitHubOrganization
   url: https://github.com/on-demand-io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/authentication/ondemand-authentication.yml
+  href: https://artifacts.apis.io/ondemand/authentication/ondemand-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ondemand-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/llms/ondemand-llms.txt
+  href: https://artifacts.apis.io/ondemand/llms/ondemand-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ondemand-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/packages/ondemand-packages.yml
+  href: https://artifacts.apis.io/ondemand/packages/ondemand-packages.yml
   title: ''
   type: Packages
   url: packages/ondemand-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/packages/ondemand-packages.yml
+  href: https://artifacts.apis.io/ondemand/packages/ondemand-packages.yml
   title: ''
   type: SDKs
   url: packages/ondemand-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/mcp/ondemand-mcp.yml
+  href: https://artifacts.apis.io/ondemand/mcp/ondemand-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ondemand-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/overlays/ondemand-overlay.yaml
+  href: https://artifacts.apis.io/ondemand/overlays/ondemand-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ondemand-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/conformance/ondemand-conformance.yml
+  href: https://artifacts.apis.io/ondemand/conformance/ondemand-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ondemand-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/errors/ondemand-problem-types.yml
+  href: https://artifacts.apis.io/ondemand/errors/ondemand-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ondemand-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/lifecycle/ondemand-lifecycle.yml
+  href: https://artifacts.apis.io/ondemand/lifecycle/ondemand-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ondemand-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/asyncapi/ondemand-webhooks.yml
+  href: https://artifacts.apis.io/ondemand/asyncapi/ondemand-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ondemand-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/conventions/ondemand-conventions.yml
+  href: https://artifacts.apis.io/ondemand/conventions/ondemand-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ondemand-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/data-model/ondemand-data-model.yml
+  href: https://artifacts.apis.io/ondemand/data-model/ondemand-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ondemand-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/rate-limits/ondemand-rate-limits.yml
+  href: https://artifacts.apis.io/ondemand/rate-limits/ondemand-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ondemand-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ondemand/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -234,14 +234,14 @@ overview: 'Ondemand publishes 6 API contracts indexed on the [APIs.io](https://a
 
 
   Ondemand''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 2
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Ondemand Rate Limits
   slug: ondemand-rate-limits
 score:
-  band: thin
-  composite: 34.4
+  band: developing
+  composite: 43.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 49.0
@@ -249,15 +249,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 55.0
-    developer_ergonomics: 39.9
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 34.3
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -274,13 +274,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/screenshots/ondemand-2026-08-07T190238.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ondemand/ondemand-2026-08-07T190238.png
 security:
 - kind: authentication
   name: Ondemand Authentication
@@ -290,6 +291,14 @@ security:
   name: Ondemand Domain Security
   slug: ondemand-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Submit and retrieve a chat batch
+  slug: ondemand-batch-chat
+- name: Run a RAG chat query
+  slug: ondemand-chat-query
+- name: Ingest media for retrieval
+  slug: ondemand-media-ingest
 slug: ondemand
 tags:
 - Company

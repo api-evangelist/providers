@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-10-17'
+  score: 7.7
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Partner-gated REST API used to trigger test runs, manage suites, and retrieve execution results from the Functionize Test Cloud. Endpoint surface, base URL, and authentication mechanism are documented
@@ -48,7 +50,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/functionize/refs/heads/main/security/functionize-domain-security.yml
+  href: https://artifacts.apis.io/functionize/security/functionize-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/functionize-domain-security.yml
@@ -65,17 +67,17 @@ common:
   type: Support
   url: https://support.functionize.com/hc/en-us
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/functionize/refs/heads/main/plans/functionize-plans-pricing.yml
+  href: https://artifacts.apis.io/functionize/plans/functionize-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/functionize-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/functionize/refs/heads/main/rate-limits/functionize-rate-limits.yml
+  href: https://artifacts.apis.io/functionize/rate-limits/functionize-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/functionize-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/functionize/refs/heads/main/finops/functionize-finops.yml
+  href: https://artifacts.apis.io/functionize/finops/functionize-finops.yml
   title: ''
   type: FinOps
   url: finops/functionize-finops.yml
@@ -111,14 +113,14 @@ plans:
 - name: Functionize Plans Pricing
   plan_count: 1
   slug: functionize-plans-pricing
-random_paper: 10
+random_paper: 22
 rate_limits:
 - limit_count: 2
   name: Functionize Rate Limits
   slug: functionize-rate-limits
 score:
   band: minimal
-  composite: 9.7
+  composite: 9.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 39.0
@@ -126,15 +128,15 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 65.0
+    discoverability: 62.5
     operational_transparency: 5.3
-  previous_composite: 16.1
+  previous_composite: 9.5
   provenance:
     mcp: first-party
   regulatory:
@@ -143,14 +145,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/functionize/refs/heads/main/screenshots/functionize-2026-06-20T181615.png
+screenshot: https://apis.io/screenshots/functionize/functionize-2026-06-20T181615.png
 security:
 - kind: domain-security
   name: Functionize Domain Security

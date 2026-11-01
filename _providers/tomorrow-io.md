@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.4
-  scored_at: '2026-10-17'
+  score: 32.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -136,7 +138,7 @@ arazzos:
 - description: Create a location, tag it into a cohort, confirm the tag, and read its current conditions.
   name: Tomorrow.io Tag and Monitor a Location Cohort
   slug: tomorrow-io-tag-location-cohort-workflow
-artifact_total: 102
+artifact_total: 101
 collections:
 - collection_type: postman
   name: Tomorrow.io Alerts API
@@ -162,9 +164,6 @@ collections:
 - collection_type: postman
   name: Tomorrow.io Weather API
   slug: postman-tomorrow-io-weather-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tomorrow.io Alerts API
   slug: open-tomorrow-io-alerts-api
@@ -207,17 +206,17 @@ common:
   type: Website
   url: https://www.tomorrow.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/agentic-access/tomorrow-io-agentic-access.yml
+  href: https://artifacts.apis.io/tomorrow-io/agentic-access/tomorrow-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tomorrow-io-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/security/tomorrow-io-domain-security.yml
+  href: https://artifacts.apis.io/tomorrow-io/security/tomorrow-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tomorrow-io-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/authentication/tomorrow-io-authentication.yml
+  href: https://artifacts.apis.io/tomorrow-io/authentication/tomorrow-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tomorrow-io-authentication.yml
@@ -226,62 +225,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/tomorrowio/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/arazzo/tomorrow-io-alert-threshold-tuning-workflow.yml
+  href: https://artifacts.apis.io/tomorrow-io/arazzo/tomorrow-io-alert-threshold-tuning-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tomorrow-io-alert-threshold-tuning-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/arazzo/tomorrow-io-decommission-location-workflow.yml
+  href: https://artifacts.apis.io/tomorrow-io/arazzo/tomorrow-io-decommission-location-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tomorrow-io-decommission-location-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/arazzo/tomorrow-io-historical-and-normals-analysis-workflow.yml
+  href: https://artifacts.apis.io/tomorrow-io/arazzo/tomorrow-io-historical-and-normals-analysis-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tomorrow-io-historical-and-normals-analysis-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/arazzo/tomorrow-io-insight-driven-alert-setup-workflow.yml
+  href: https://artifacts.apis.io/tomorrow-io/arazzo/tomorrow-io-insight-driven-alert-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tomorrow-io-insight-driven-alert-setup-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/arazzo/tomorrow-io-insight-scoped-event-query-workflow.yml
+  href: https://artifacts.apis.io/tomorrow-io/arazzo/tomorrow-io-insight-scoped-event-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tomorrow-io-insight-scoped-event-query-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/arazzo/tomorrow-io-location-severe-weather-events-workflow.yml
+  href: https://artifacts.apis.io/tomorrow-io/arazzo/tomorrow-io-location-severe-weather-events-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tomorrow-io-location-severe-weather-events-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/arazzo/tomorrow-io-map-tile-precipitation-overlay-workflow.yml
+  href: https://artifacts.apis.io/tomorrow-io/arazzo/tomorrow-io-map-tile-precipitation-overlay-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tomorrow-io-map-tile-precipitation-overlay-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/arazzo/tomorrow-io-realtime-then-timelines-deep-dive-workflow.yml
+  href: https://artifacts.apis.io/tomorrow-io/arazzo/tomorrow-io-realtime-then-timelines-deep-dive-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tomorrow-io-realtime-then-timelines-deep-dive-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/arazzo/tomorrow-io-realtime-vs-climate-normals-workflow.yml
+  href: https://artifacts.apis.io/tomorrow-io/arazzo/tomorrow-io-realtime-vs-climate-normals-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tomorrow-io-realtime-vs-climate-normals-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/arazzo/tomorrow-io-route-weather-hazard-scan-workflow.yml
+  href: https://artifacts.apis.io/tomorrow-io/arazzo/tomorrow-io-route-weather-hazard-scan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tomorrow-io-route-weather-hazard-scan-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/arazzo/tomorrow-io-saved-location-realtime-forecast-workflow.yml
+  href: https://artifacts.apis.io/tomorrow-io/arazzo/tomorrow-io-saved-location-realtime-forecast-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tomorrow-io-saved-location-realtime-forecast-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/arazzo/tomorrow-io-tag-location-cohort-workflow.yml
+  href: https://artifacts.apis.io/tomorrow-io/arazzo/tomorrow-io-tag-location-cohort-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tomorrow-io-tag-location-cohort-workflow.yml
@@ -410,32 +409,32 @@ common:
   type: Twitter
   url: https://twitter.com/tomorrow_io
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/rules/tomorrow-io-rules.yml
+  href: https://artifacts.apis.io/tomorrow-io/rules/tomorrow-io-rules.yml
   title: ''
   type: SpectralRules
   url: rules/tomorrow-io-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/vocabulary/tomorrow-io-vocabulary.yml
+  href: https://artifacts.apis.io/tomorrow-io/vocabulary/tomorrow-io-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tomorrow-io-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/json-ld/tomorrow-io-context.jsonld
+  href: https://artifacts.apis.io/tomorrow-io/json-ld/tomorrow-io-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tomorrow-io-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/plans/tomorrow-io-plans-pricing.yml
+  href: https://artifacts.apis.io/tomorrow-io/plans/tomorrow-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tomorrow-io-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/rate-limits/tomorrow-io-rate-limits.yml
+  href: https://artifacts.apis.io/tomorrow-io/rate-limits/tomorrow-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tomorrow-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/finops/tomorrow-io-finops.yml
+  href: https://artifacts.apis.io/tomorrow-io/finops/tomorrow-io-finops.yml
   title: ''
   type: FinOps
   url: finops/tomorrow-io-finops.yml
@@ -558,7 +557,7 @@ plans:
 - name: Tomorrow Io Plans Pricing
   plan_count: 4
   slug: tomorrow-io-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Tomorrow Io Rate Limits
@@ -589,7 +588,7 @@ rules:
   slug: tomorrow-io-rules
 score:
   band: strong
-  composite: 56.3
+  composite: 57.6
   coverage:
     artifact_dirs: 21
     catalog_earned: 66.4
@@ -597,13 +596,13 @@ score:
     catalog_gap: 48.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 27.3
-    contract_quality: 60.7
-    developer_ergonomics: 73.8
-    discoverability: 65.0
+    contract_quality: 57.7
+    developer_ergonomics: 82.1
+    discoverability: 62.5
     operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -612,7 +611,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 63.8
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     contracts:
@@ -627,13 +626,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/screenshots/tomorrow-io-2026-06-20T195444.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tomorrow-io/tomorrow-io-2026-06-20T195444.png
 security:
 - kind: authentication
   name: Tomorrow Io Authentication

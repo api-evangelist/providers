@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-10-17'
+  score: 37.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://connect.wealthx.com/rest/v1
@@ -63,11 +65,8 @@ apis:
 - description: 'Asynchronous bulk matching of a customer dataset against the Altrata dataset. Submit a personsMatch or organizations mutation, receive a requestId, poll until matched, then page the results as unique '
   name: Altrata Matching API
   slug: altrata-matching-api
-artifact_total: 17
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Wealth-X Connect Dossiers API
   slug: open-wealth-x-dossiers-api
@@ -87,7 +86,7 @@ common:
   type: Website
   url: https://www.wealthx.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/overlays/wealth-x-connect-overlay.yaml
+  href: https://artifacts.apis.io/wealth-x/overlays/wealth-x-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wealth-x-connect-overlay.yaml
@@ -124,102 +123,102 @@ common:
   type: Postman
   url: https://developers.wealthx.com/api/Wealth-X%20API%20Samples.postman_collection.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/security/wealth-x-domain-security.yml
+  href: https://artifacts.apis.io/wealth-x/security/wealth-x-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wealth-x-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/authentication/wealth-x-authentication.yml
+  href: https://artifacts.apis.io/wealth-x/authentication/wealth-x-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wealth-x-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/conventions/wealth-x-conventions.yml
+  href: https://artifacts.apis.io/wealth-x/conventions/wealth-x-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wealth-x-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/errors/wealth-x-problem-types.yml
+  href: https://artifacts.apis.io/wealth-x/errors/wealth-x-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wealth-x-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/data-model/wealth-x-data-model.yml
+  href: https://artifacts.apis.io/wealth-x/data-model/wealth-x-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wealth-x-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/lifecycle/wealth-x-lifecycle.yml
+  href: https://artifacts.apis.io/wealth-x/lifecycle/wealth-x-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wealth-x-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/conformance/wealth-x-conformance.yml
+  href: https://artifacts.apis.io/wealth-x/conformance/wealth-x-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wealth-x-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/mcp/wealth-x-mcp.yml
+  href: https://artifacts.apis.io/wealth-x/mcp/wealth-x-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wealth-x-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/wealth-x/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/llms/wealth-x-llms.txt
+  href: https://artifacts.apis.io/wealth-x/llms/wealth-x-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wealth-x-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/packages/wealth-x-packages.yml
+  href: https://artifacts.apis.io/wealth-x/packages/wealth-x-packages.yml
   title: ''
   type: Packages
   url: packages/wealth-x-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/plans/wealth-x-plans-pricing.yml
+  href: https://artifacts.apis.io/wealth-x/plans/wealth-x-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wealth-x-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/rate-limits/wealth-x-rate-limits.yml
+  href: https://artifacts.apis.io/wealth-x/rate-limits/wealth-x-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wealth-x-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/changelog/wealth-x-changelog.yml
+  href: https://artifacts.apis.io/wealth-x/changelog/wealth-x-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/wealth-x-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/scopes/wealth-x-scopes.yml
+  href: https://artifacts.apis.io/wealth-x/scopes/wealth-x-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/wealth-x-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/security/wealth-x-trust-center.yml
+  href: https://artifacts.apis.io/wealth-x/security/wealth-x-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wealth-x-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/security/wealth-x-trust-center.yml
+  href: https://artifacts.apis.io/wealth-x/security/wealth-x-trust-center.yml
   title: ''
   type: Compliance
   url: security/wealth-x-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/well-known/wealth-x-well-known.yml
+  href: https://artifacts.apis.io/wealth-x/well-known/wealth-x-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wealth-x-well-known.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/lifecycle/wealth-x-lifecycle.yml
+  href: https://artifacts.apis.io/wealth-x/lifecycle/wealth-x-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/wealth-x-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/llms/wealth-x-llms-published.txt
+  href: https://artifacts.apis.io/wealth-x/llms/wealth-x-llms-published.txt
   title: ''
   type: LLMsTxt
   url: llms/wealth-x-llms-published.txt
@@ -237,6 +236,14 @@ common:
   url: https://altrata.com/resources/types/articles
 created: '2026-07-17'
 description: Wealth-X, an Altrata company founded in 2010, provides curated wealth intelligence on ultra-high-net-worth (UHNW) and very-high-net-worth (VHNW) individuals and their privately held companies. Its Connect API delivers Wealth-X dossiers — net worth, careers, interests, philanthropy and relationship networks — plus advanced prospect search and bulk/incremental sync directly into a subscriber's CRM or data platform. Wealth-X serves financial services, luxury, nonprofit and education clients for prospect qualification, relationship intelligence and compliance. Altrata's developer documentation names Wealth-X as a legacy product migrating to the unified Altrata GraphQL platform (Profile, Relationship, Events and Matching APIs), which also fronts a live OAuth-protected remote MCP server.
+finops:
+- has_sources: true
+  method: derived
+  name: Wealth X Finops
+  primary_unit: ''
+  service_category: ''
+  slug: wealth-x-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wealth-x.png
 layout: provider
 modified: '2026-08-14'
@@ -263,23 +270,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.9
+  composite: 54.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.2
+  delta: 0.0
   facets:
-    access_clarity: 85.5
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 13.9
     developer_ergonomics: 63.7
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 55.3
-  previous_composite: 50.7
+  previous_composite: 54.2
   provenance:
     conformance: first-party
     contracts:
@@ -299,13 +306,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/screenshots/wealth-x-2026-08-17T082844.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wealth-x/wealth-x-2026-08-17T082844.png
 security:
 - kind: authentication
   name: Wealth X Authentication
@@ -319,6 +327,12 @@ security:
   name: Wealth X Trust Center
   slug: wealth-x-trust-center
   summary_line: SOC 2, CCPA Validation
+skill_count: 2
+skills:
+- name: Build a targeted UHNW prospect list from Wealth-X
+  slug: wealth-x-build-prospect-list
+- name: Screen a contact against Wealth-X and pull the dossier
+  slug: wealth-x-screen-and-enrich
 slug: wealth-x
 tags:
 - Company

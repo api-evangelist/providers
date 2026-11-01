@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 33.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.evervault.com
@@ -58,7 +60,7 @@ apis:
   description: The Evervault API API from Evervault — 0 operation(s) for evervault api.
   name: Evervault API
   slug: evervault-evervault-api-api
-artifact_total: 33
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Evervault Webhooks
@@ -101,9 +103,6 @@ collections:
   name: Evervault Webhooks API
   slug: postman-evervault-webhooks-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Evervault 3D Secure API
   slug: open-evervault-3d-secure-api
 - collection_type: open
@@ -140,13 +139,18 @@ collections:
   name: Evervault Webhooks API
   slug: open-evervault-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/evervault/plans/evervault-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/evervault-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/capabilities/evervault-capability-edges.yml
+  href: https://artifacts.apis.io/evervault/capabilities/evervault-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/evervault-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/overlays/evervault-openapi-overlay.yaml
+  href: https://artifacts.apis.io/evervault/overlays/evervault-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/evervault-openapi-overlay.yaml
@@ -203,87 +207,87 @@ common:
   type: ChangeLog
   url: https://evervault.com/changelog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/authentication/evervault-authentication.yml
+  href: https://artifacts.apis.io/evervault/authentication/evervault-authentication.yml
   title: ''
   type: Authentication
   url: authentication/evervault-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/packages/evervault-packages.yml
+  href: https://artifacts.apis.io/evervault/packages/evervault-packages.yml
   title: ''
   type: Packages
   url: packages/evervault-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/packages/evervault-packages.yml
+  href: https://artifacts.apis.io/evervault/packages/evervault-packages.yml
   title: ''
   type: SDKs
   url: packages/evervault-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/cli/evervault-cli.yml
+  href: https://artifacts.apis.io/evervault/cli/evervault-cli.yml
   title: ''
   type: CLI
   url: cli/evervault-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/components/evervault-components.yml
+  href: https://artifacts.apis.io/evervault/components/evervault-components.yml
   title: ''
   type: Components
   url: components/evervault-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/sandbox/evervault-sandbox.yml
+  href: https://artifacts.apis.io/evervault/sandbox/evervault-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/evervault-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/mcp/evervault-mcp.yml
+  href: https://artifacts.apis.io/evervault/mcp/evervault-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/evervault-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/evervault/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/llms/evervault-llms.txt
+  href: https://artifacts.apis.io/evervault/llms/evervault-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/evervault-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/well-known/evervault-well-known.yml
+  href: https://artifacts.apis.io/evervault/well-known/evervault-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/evervault-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/well-known/evervault-security.txt
+  href: https://artifacts.apis.io/evervault/well-known/evervault-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/evervault-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/asyncapi/evervault-webhooks.yml
+  href: https://artifacts.apis.io/evervault/asyncapi/evervault-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/evervault-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/errors/evervault-problem-types.yml
+  href: https://artifacts.apis.io/evervault/errors/evervault-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/evervault-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/conventions/evervault-conventions.yml
+  href: https://artifacts.apis.io/evervault/conventions/evervault-conventions.yml
   title: ''
   type: Conventions
   url: conventions/evervault-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/data-model/evervault-data-model.yml
+  href: https://artifacts.apis.io/evervault/data-model/evervault-data-model.yml
   title: ''
   type: DataModel
   url: data-model/evervault-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/lifecycle/evervault-lifecycle.yml
+  href: https://artifacts.apis.io/evervault/lifecycle/evervault-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/evervault-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/conformance/evervault-conformance.yml
+  href: https://artifacts.apis.io/evervault/conformance/evervault-conformance.yml
   title: ''
   type: Conformance
   url: conformance/evervault-conformance.yml
@@ -292,12 +296,12 @@ common:
   type: Compliance
   url: https://docs.evervault.com/compliance/pci-compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/security/evervault-domain-security.yml
+  href: https://artifacts.apis.io/evervault/security/evervault-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/evervault-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/security/evervault-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/evervault/security/evervault-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/evervault-vulnerability-disclosure.yml
@@ -311,6 +315,14 @@ common:
   url: https://evervault.com
 created: '2026-07-17'
 description: 'Evervault is a data-security and payments-infrastructure platform that lets developers encrypt, tokenize, and process sensitive data - especially cardholder data - without it touching their own infrastructure. Its model stores encryption keys on Evervault''s side while customers hold the ciphertext, reducing breach scope. Core products include Relay (an encrypting/decrypting proxy), Functions (secure serverless runtimes), Enclaves (AWS Nitro Enclave workloads), UI Components for PCI-compliant card collection, plus payments tooling: network tokens, 3D Secure, BIN lookup, card account updater, and multi-PSP routing. Evervault is PCI DSS Level 1 and SOC 2 Type II, and supports HIPAA and GDPR.'
+finops:
+- has_sources: true
+  method: derived
+  name: Evervault Finops
+  primary_unit: transaction
+  service_category: ''
+  slug: evervault-finops
+  template: false
 image: https://evervault.com/favicon.ico
 layout: provider
 modified: '2026-09-16'
@@ -323,34 +335,41 @@ overview: 'Evervault publishes 4 API contracts indexed on the [APIs.io](https://
   The Evervault catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Evervault''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 30 more developer resources.'
-random_paper: 0
+  Evervault''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 31 more developer resources.'
+plans:
+- name: Evervault Plans Pricing
+  plan_count: 22
+  slug: evervault-plans-pricing
+- name: Evervault Price Estimates
+  plan_count: 0
+  slug: evervault-price-estimates
+random_paper: 6
 score:
-  band: strong
-  composite: 57.4
+  band: exemplar
+  composite: 67.4
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 28
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.2
   facets:
-    access_clarity: 39.5
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 57.7
+    contract_quality: 58.5
     developer_ergonomics: 76.8
-    discoverability: 73.2
-    operational_transparency: 52.6
-  previous_composite: 57.4
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 59.2
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 13
+      total: 16
     mcp: derived
     skills: derived
   regulatory:
@@ -365,13 +384,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/screenshots/evervault-2026-08-07T165228.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/evervault/evervault-2026-08-07T165228.png
 security:
 - kind: authentication
   name: Evervault Authentication
@@ -385,6 +405,14 @@ security:
   name: Evervault Vulnerability Disclosure
   slug: evervault-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Encrypt and decrypt data with Evervault
+  slug: evervault-encrypt-decrypt
+- name: Create and use a network token
+  slug: evervault-network-token
+- name: Configure a Relay and subscribe to webhooks
+  slug: evervault-relay-webhooks
 slug: evervault
 tags:
 - Company

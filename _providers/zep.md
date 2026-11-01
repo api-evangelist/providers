@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 10.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Zep Cloud API delivers agent memory and temporal knowledge graph services over REST. It exposes endpoints for users, sessions, messages, memory retrieval, the per-user graph, facts, summaries, and
@@ -42,17 +44,17 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zep/refs/heads/main/plans/zep-plans-pricing.yml
+  href: https://artifacts.apis.io/zep/plans/zep-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zep-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zep/refs/heads/main/rate-limits/zep-rate-limits.yml
+  href: https://artifacts.apis.io/zep/rate-limits/zep-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zep-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zep/refs/heads/main/finops/zep-finops.yml
+  href: https://artifacts.apis.io/zep/finops/zep-finops.yml
   title: ''
   type: FinOps
   url: finops/zep-finops.yml
@@ -81,12 +83,12 @@ common:
   type: License
   url: https://github.com/getzep/zep/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zep/refs/heads/main/security/zep-trust-center.yml
+  href: https://artifacts.apis.io/zep/security/zep-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/zep-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zep/refs/heads/main/security/zep-domain-security.yml
+  href: https://artifacts.apis.io/zep/security/zep-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zep-domain-security.yml
@@ -158,14 +160,14 @@ plans:
 - name: Zep Plans Pricing
   plan_count: 1
   slug: zep-plans-pricing
-random_paper: 5
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Zep Rate Limits
   slug: zep-rate-limits
 score:
   band: thin
-  composite: 37.1
+  composite: 35.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 41.0
@@ -173,18 +175,15 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.4
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 68.3
-    operational_transparency: 34.2
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 42.5
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 35.5
   provenance:
     mcp: first-party
   regulatory:
@@ -192,15 +191,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 22.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/zep/refs/heads/main/screenshots/zep-2026-06-20T201828.png
+screenshot: https://apis.io/screenshots/zep/zep-2026-06-20T201828.png
 security:
 - kind: domain-security
   name: Zep Domain Security

@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,13 +39,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The RAGFlow RESTful HTTP API — 95 documented operations under /api/v1, authenticated with a tenant API key carried as a bearer token. Covers dataset management, document upload / parse / ingest, chunk
   name: RAGFlow HTTP API
   slug: ragflow-http-api
-artifact_total: 7
+artifact_total: 10
 common:
 - group: commercial
   title: ''
@@ -110,87 +112,87 @@ common:
   type: Compliance
   url: https://ragflow.io/policies/dpa
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/security/ragflow-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ragflow/security/ragflow-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/ragflow-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/security/ragflow-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ragflow/security/ragflow-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ragflow-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/security/ragflow-domain-security.yml
+  href: https://artifacts.apis.io/ragflow/security/ragflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ragflow-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/packages/ragflow-packages.yml
+  href: https://artifacts.apis.io/ragflow/packages/ragflow-packages.yml
   title: ''
   type: Packages
   url: packages/ragflow-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/packages/ragflow-packages.yml
+  href: https://artifacts.apis.io/ragflow/packages/ragflow-packages.yml
   title: ''
   type: SDKs
   url: packages/ragflow-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/mcp/ragflow-mcp.yml
+  href: https://artifacts.apis.io/ragflow/mcp/ragflow-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ragflow-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/mcp/ragflow-tool-crosswalk.yml
+  href: https://artifacts.apis.io/ragflow/mcp/ragflow-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ragflow-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ragflow/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/llms/ragflow-llms.txt
+  href: https://artifacts.apis.io/ragflow/llms/ragflow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ragflow-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/conventions/ragflow-conventions.yml
+  href: https://artifacts.apis.io/ragflow/conventions/ragflow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ragflow-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/errors/ragflow-error-codes.yml
+  href: https://artifacts.apis.io/ragflow/errors/ragflow-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ragflow-error-codes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/authentication/ragflow-authentication.yml
+  href: https://artifacts.apis.io/ragflow/authentication/ragflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ragflow-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/conformance/ragflow-conformance.yml
+  href: https://artifacts.apis.io/ragflow/conformance/ragflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ragflow-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/data-model/ragflow-data-model.yml
+  href: https://artifacts.apis.io/ragflow/data-model/ragflow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ragflow-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/lifecycle/ragflow-lifecycle.yml
+  href: https://artifacts.apis.io/ragflow/lifecycle/ragflow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ragflow-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/lifecycle/ragflow-lifecycle.yml
+  href: https://artifacts.apis.io/ragflow/lifecycle/ragflow-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/ragflow-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/changelog/ragflow-changelog.yml
+  href: https://artifacts.apis.io/ragflow/changelog/ragflow-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ragflow-changelog.yml
@@ -199,27 +201,35 @@ common:
   type: ReleaseNotes
   url: https://ragflow.io/docs/release_notes
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/plans/ragflow-plans-pricing.yml
+  href: https://artifacts.apis.io/ragflow/plans/ragflow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ragflow-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/rate-limits/ragflow-rate-limits.yml
+  href: https://artifacts.apis.io/ragflow/rate-limits/ragflow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ragflow-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/sandbox/ragflow-sandbox.yml
+  href: https://artifacts.apis.io/ragflow/sandbox/ragflow-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ragflow-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/components/ragflow-components.yml
+  href: https://artifacts.apis.io/ragflow/components/ragflow-components.yml
   title: ''
   type: Components
   url: components/ragflow-components.yml
 created: '2026-08-27'
 description: RAGFlow is the open-source Retrieval-Augmented Generation engine built by InfiniFlow Inc. It combines deep document understanding (DeepDoc parsing of PDFs, images, tables and scanned files) with hybrid retrieval — dense vector search, BM25 full-text and tensor/multi-vector re-ranking — and an integrated visual agent platform, to serve as a context layer for LLM applications. The platform ships as an Apache-2.0 self-hosted Docker deployment and as RAGFlow Cloud, a hosted multi-tenant service. Its RESTful HTTP API covers dataset (knowledge base) management, document ingestion and parsing, chunk management, retrieval, chat assistants, sessions, agents, memory, workspace file versioning and search apps, plus an OpenAI-compatible chat-completions surface. A first-party Python SDK and an optional self-hosted Model Context Protocol server expose the same retrieval core to agents.
+finops:
+- has_sources: true
+  method: derived
+  name: Ragflow Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: ragflow-finops
+  template: false
 image: https://ragflow.io/img/logo.svg
 layout: provider
 mcp_servers:
@@ -230,38 +240,41 @@ modified: '2026-08-27'
 name: RAGFlow
 nav: Providers
 network: true
-overview: 'RAGFlow is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, RAG, Search, and Vector Database.
+overview: 'RAGFlow is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, RAG, Search, and Vector Search.
 
 
   RAGFlow''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Ragflow Plans Pricing
-  plan_count: 5
+  plan_count: 6
   slug: ragflow-plans-pricing
-random_paper: 6
+- name: Ragflow Price Estimates
+  plan_count: 0
+  slug: ragflow-price-estimates
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Ragflow Rate Limits
   slug: ragflow-rate-limits
 score:
   band: developing
-  composite: 47.9
+  composite: 53.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 61.0
+    artifact_dirs: 22
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 65.8
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 69.0
     discoverability: 65.0
-    operational_transparency: 73.7
-  previous_composite: 47.8
+    operational_transparency: 76.3
+  previous_composite: 51.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -272,14 +285,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ragflow/refs/heads/main/screenshots/ragflow-2026-09-02T152804.png
+screenshot: https://apis.io/screenshots/ragflow/ragflow-2026-09-02T152804.png
 security:
 - kind: authentication
   name: Ragflow Authentication
@@ -293,13 +306,17 @@ security:
   name: Ragflow Vulnerability Disclosure
   slug: ragflow-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 1
+skills:
+- name: ragflow-dataset-ingest
+  slug: ragflow-dataset-ingest
 slug: ragflow
 tags:
 - Company
 - Artificial Intelligence
 - RAG
 - Search
-- Vector Database
+- Vector Search
 - Document Processing
 - Knowledge Management
 - Agents

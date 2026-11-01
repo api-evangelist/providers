@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -49,37 +51,34 @@ apis:
   description: Operations on Zoho Sheet workbooks (spreadsheet files)
   name: Zoho Sheet Workbook API
   slug: zoho-sheet-workbook-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Zoho Sheet Data Workbook API
   slug: open-zoho-sheet-workbook-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/agentic-access/zoho-sheet-agentic-access.yml
+  href: https://artifacts.apis.io/zoho-sheet/agentic-access/zoho-sheet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zoho-sheet-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/security/zoho-sheet-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zoho-sheet/security/zoho-sheet-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zoho-sheet-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/security/zoho-sheet-domain-security.yml
+  href: https://artifacts.apis.io/zoho-sheet/security/zoho-sheet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zoho-sheet-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/authentication/zoho-sheet-authentication.yml
+  href: https://artifacts.apis.io/zoho-sheet/authentication/zoho-sheet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zoho-sheet-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/scopes/zoho-sheet-scopes.yml
+  href: https://artifacts.apis.io/zoho-sheet/scopes/zoho-sheet-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zoho-sheet-scopes.yml
@@ -116,17 +115,17 @@ common:
   type: X
   url: https://x.com/zoho
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/plans/zoho-sheet-plans-pricing.yml
+  href: https://artifacts.apis.io/zoho-sheet/plans/zoho-sheet-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zoho-sheet-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/rate-limits/zoho-sheet-rate-limits.yml
+  href: https://artifacts.apis.io/zoho-sheet/rate-limits/zoho-sheet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zoho-sheet-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/finops/zoho-sheet-finops.yml
+  href: https://artifacts.apis.io/zoho-sheet/finops/zoho-sheet-finops.yml
   title: ''
   type: FinOps
   url: finops/zoho-sheet-finops.yml
@@ -180,7 +179,7 @@ plans:
 - name: Zoho Sheet Plans Pricing
   plan_count: 4
   slug: zoho-sheet-plans-pricing
-random_paper: 18
+random_paper: 22
 rate_limits:
 - limit_count: 6
   name: Zoho Sheet Rate Limits
@@ -204,7 +203,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode/implicit/clientCredentials
 score:
   band: thin
-  composite: 33.5
+  composite: 35.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 46.3
@@ -212,15 +211,15 @@ score:
     catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 49.6
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 41.8
+    operational_transparency: 39.5
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -234,13 +233,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/screenshots/zoho-sheet-2026-06-20T201949.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zoho-sheet/zoho-sheet-2026-06-20T201949.png
 security:
 - kind: authentication
   name: Zoho Sheet Authentication

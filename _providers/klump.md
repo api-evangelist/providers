@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,18 +37,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Klump REST API lets a merchant verify transactions, sync commerce product catalogs, create Klump Access hosted payment pages, and resend webhooks. A single base URL serves both sandbox and product
   name: Klump API
   slug: klump-api
-artifact_total: 4
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Klump Webhooks
   slug: klump-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/klump/plans/klump-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/klump-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -100,88 +107,96 @@ common:
   type: PrivacyPolicy
   url: https://useklump.com/legal/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/conformance/klump-conformance.yml
+  href: https://artifacts.apis.io/klump/conformance/klump-conformance.yml
   title: ''
   type: Compliance
   url: conformance/klump-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/authentication/klump-authentication.yml
+  href: https://artifacts.apis.io/klump/authentication/klump-authentication.yml
   title: ''
   type: Authentication
   url: authentication/klump-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/packages/klump-packages.yml
+  href: https://artifacts.apis.io/klump/packages/klump-packages.yml
   title: ''
   type: Packages
   url: packages/klump-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/packages/klump-packages.yml
+  href: https://artifacts.apis.io/klump/packages/klump-packages.yml
   title: ''
   type: SDKs
   url: packages/klump-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/components/klump-components.yml
+  href: https://artifacts.apis.io/klump/components/klump-components.yml
   title: ''
   type: Components
   url: components/klump-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/conventions/klump-conventions.yml
+  href: https://artifacts.apis.io/klump/conventions/klump-conventions.yml
   title: ''
   type: Conventions
   url: conventions/klump-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/conventions/klump-conventions.yml
+  href: https://artifacts.apis.io/klump/conventions/klump-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/klump-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/errors/klump-error-codes.yml
+  href: https://artifacts.apis.io/klump/errors/klump-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/klump-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/lifecycle/klump-lifecycle.yml
+  href: https://artifacts.apis.io/klump/lifecycle/klump-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/klump-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/sandbox/klump-sandbox.yml
+  href: https://artifacts.apis.io/klump/sandbox/klump-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/klump-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/asyncapi/klump-webhooks.yml
+  href: https://artifacts.apis.io/klump/asyncapi/klump-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/klump-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/conformance/klump-conformance.yml
+  href: https://artifacts.apis.io/klump/conformance/klump-conformance.yml
   title: ''
   type: Conformance
   url: conformance/klump-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/well-known/klump-well-known.yml
+  href: https://artifacts.apis.io/klump/well-known/klump-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/klump-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/security/klump-domain-security.yml
+  href: https://artifacts.apis.io/klump/security/klump-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/klump-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/mcp/klump-mcp.yml
+  href: https://artifacts.apis.io/klump/mcp/klump-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/klump-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/llms/klump-llms.txt
+  href: https://artifacts.apis.io/klump/llms/klump-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/klump-llms.txt
 created: '2026-07-17'
 description: Klump Technology Company Ltd is a Lagos, Nigeria based fintech whose flagship product, Klump BNPL (Buy Now, Pay Later), lets shoppers spread the cost of a purchase over monthly instalments at online and in-store merchant checkouts. Merchants integrate Klump either through the Klump.js client-side checkout widget, a framework component (React, Vue 2, Vue 3, Angular, React Native, Flutter), an e-commerce plugin (WooCommerce/WordPress, Magento 2, PrestaShop, OpenCart, WHMCS), a Laravel package, or directly against the Klump REST API at https://api.useklump.com. The API is secret-key authenticated via a klump-secret-key header, uses one base URL for both sandbox and production (the key and the merchant application state, TEST or LIVE, select the environment), and covers transaction verification, Klump Commerce product sync, Klump Access hosted payment pages, and webhook resend. Klump emits transaction lifecycle webhooks (initiated, successful, abandoned) signed with an X-Klump-Signature
   HMAC header and retried hourly for 72 hours. Klump is backed by Seedcamp and displays a PCI DSS Compliant badge.
+finops:
+- has_sources: true
+  method: derived
+  name: Klump Finops
+  primary_unit: reducing balance
+  service_category: ''
+  slug: klump-finops
+  template: false
 image: https://useklump.com/images/meta.png
 layout: provider
 modified: '2026-07-19'
@@ -194,26 +209,33 @@ overview: 'Klump is listed with 1 API on the [APIs.io](https://apis.io/) network
   The Klump catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Klump''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 3
+  Klump''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+plans:
+- name: Klump Plans Pricing
+  plan_count: 2
+  slug: klump-plans-pricing
+- name: Klump Price Estimates
+  plan_count: 0
+  slug: klump-price-estimates
+random_paper: 1
 score:
   band: developing
-  composite: 47.6
+  composite: 53.0
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 19
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 5.8
   facets:
-    access_clarity: 52.6
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 10.5
+    discoverability: 66.1
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -221,7 +243,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 47.5
+  previous_composite: 47.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -231,14 +253,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/klump/refs/heads/main/screenshots/klump-2026-07-25T223950.png
+screenshot: https://apis.io/screenshots/klump/klump-2026-07-25T223950.png
 security:
 - kind: authentication
   name: Klump Authentication

@@ -22,19 +22,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-17'
+  score: 25.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -74,11 +76,38 @@ apis:
   description: Operations for configuring Audit Manager settings
   name: Amazon Audit Manager Settings API
   slug: amazon-audit-manager-settings-api
-artifact_total: 232
+- baseURL: https://auditmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Audit Manager Account API from Amazon Audit Manager — 6 operation(s) for audit manager account.
+  name: Amazon Audit Manager Audit Manager Account API
+  slug: amazon-audit-manager-account-api
+- baseURL: https://auditmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Audit Manager Assessmentframeworksharerequests API from Amazon Audit Manager — 2 operation(s) for audit manager assessmentframeworksharerequests.
+  name: Amazon Audit Manager Audit Manager Assessmentframeworksharerequests API
+  slug: amazon-audit-manager-assessmentframeworksharerequests-api
+- baseURL: https://auditmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Audit Manager Delegations API from Amazon Audit Manager — 2 operation(s) for audit manager delegations.
+  name: Amazon Audit Manager Audit Manager Delegations API
+  slug: amazon-audit-manager-delegations-api
+- baseURL: https://auditmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Audit Manager Insights API from Amazon Audit Manager — 6 operation(s) for audit manager insights.
+  name: Amazon Audit Manager Audit Manager Insights API
+  slug: amazon-audit-manager-insights-api
+- baseURL: https://auditmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Audit Manager Operations API from Amazon Audit Manager — 18 operation(s) for audit manager operations.
+  name: Amazon Audit Manager Audit Manager Operations API
+  slug: amazon-audit-manager-operations-api
+- baseURL: https://auditmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Audit Manager Tags API from Amazon Audit Manager — 1 operation(s) for audit manager tags.
+  name: Amazon Audit Manager Audit Manager Tags API
+  slug: amazon-audit-manager-tags-api
+artifact_total: 237
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Audit Manager Assessments API
   slug: open-amazon-audit-manager-assessments-api
@@ -99,7 +128,7 @@ collections:
   slug: open-amazon-audit-manager-settings-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/capabilities/amazon-audit-manager-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-audit-manager/capabilities/amazon-audit-manager-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-audit-manager-capability-edges.yml
@@ -108,32 +137,32 @@ common:
   type: Website
   url: https://aws.amazon.com/audit-manager/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/mcp/amazon-audit-manager-mcp.yml
+  href: https://artifacts.apis.io/amazon-audit-manager/mcp/amazon-audit-manager-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-audit-manager-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/overlays/amazon-audit-manager-openapi-overlay.yaml
+  href: https://artifacts.apis.io/amazon-audit-manager/overlays/amazon-audit-manager-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-audit-manager-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/agentic-access/amazon-audit-manager-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-audit-manager/agentic-access/amazon-audit-manager-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-audit-manager-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/security/amazon-audit-manager-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-audit-manager/security/amazon-audit-manager-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-audit-manager-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/security/amazon-audit-manager-domain-security.yml
+  href: https://artifacts.apis.io/amazon-audit-manager/security/amazon-audit-manager-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-audit-manager-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/authentication/amazon-audit-manager-authentication.yml
+  href: https://artifacts.apis.io/amazon-audit-manager/authentication/amazon-audit-manager-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-audit-manager-authentication.yml
@@ -741,14 +770,14 @@ modified: '2026-09-16'
 name: Amazon Audit Manager
 nav: Providers
 network: true
-overview: 'Amazon Audit Manager publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assessments API, Controls API, Evidence API, and 3 more. Tagged areas include Amazon Audit Manager, Compliance, Audit, and Risk Management.
+overview: 'Amazon Audit Manager publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assessments API, Controls API, Evidence API, and 9 more. Tagged areas include Amazon Audit Manager, Compliance, Audit, and Risk Management.
 
 
   The Amazon Audit Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
   Amazon Audit Manager''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 0
+random_paper: 10
 rules:
 - authorship: generated
   effective_rule_count: 4
@@ -775,45 +804,46 @@ rules:
   slug: amazon-audit-manager-spectral-rules
 score:
   band: thin
-  composite: 30.6
+  composite: 32.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 53.0
     catalog_earned_first_party: 0.0
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 31.8
-    contract_quality: 71.0
+    contract_quality: 68.2
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 0.0
-  previous_composite: 30.5
+    operational_transparency: 10.5
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 6
+      marker_coverage: 50.0
+      total: 12
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 22.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/screenshots/amazon-audit-manager-2026-07-25T195931.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-audit-manager/amazon-audit-manager-2026-07-25T195931.png
 security:
 - kind: authentication
   name: Amazon Audit Manager Authentication

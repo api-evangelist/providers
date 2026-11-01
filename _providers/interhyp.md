@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.9
-  scored_at: '2026-10-17'
+  score: 33.2
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://api.interhyp.de/submission/v2
@@ -78,11 +80,8 @@ apis:
   description: provides endpoints for submission resources associated with a specific financing partner
   name: Interhyp Submissions API
   slug: interhyp-submissions-api
-artifact_total: 19
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Interhyp Submission commands API
   slug: open-interhyp-commands-api
@@ -109,12 +108,12 @@ collections:
   slug: open-interhyp-submissions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/capabilities/interhyp-capability-edges.yml
+  href: https://artifacts.apis.io/interhyp/capabilities/interhyp-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/interhyp-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/overlays/interhyp-submission-documents-overlay.yaml
+  href: https://artifacts.apis.io/interhyp/overlays/interhyp-submission-documents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/interhyp-submission-documents-overlay.yaml
@@ -155,72 +154,72 @@ common:
   type: PrivacyPolicy
   url: https://www.interhyp.de/datenschutz.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/authentication/interhyp-authentication.yml
+  href: https://artifacts.apis.io/interhyp/authentication/interhyp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/interhyp-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/conventions/interhyp-conventions.yml
+  href: https://artifacts.apis.io/interhyp/conventions/interhyp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/interhyp-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/conventions/interhyp-conventions.yml
+  href: https://artifacts.apis.io/interhyp/conventions/interhyp-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/interhyp-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/errors/interhyp-problem-types.yml
+  href: https://artifacts.apis.io/interhyp/errors/interhyp-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/interhyp-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/errors/interhyp-error-codes.yml
+  href: https://artifacts.apis.io/interhyp/errors/interhyp-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/interhyp-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/lifecycle/interhyp-lifecycle.yml
+  href: https://artifacts.apis.io/interhyp/lifecycle/interhyp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/interhyp-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/lifecycle/interhyp-lifecycle.yml
+  href: https://artifacts.apis.io/interhyp/lifecycle/interhyp-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/interhyp-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/data-model/interhyp-data-model.yml
+  href: https://artifacts.apis.io/interhyp/data-model/interhyp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/interhyp-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/conformance/interhyp-conformance.yml
+  href: https://artifacts.apis.io/interhyp/conformance/interhyp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/interhyp-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/mcp/interhyp-mcp.yml
+  href: https://artifacts.apis.io/interhyp/mcp/interhyp-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/interhyp-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/llms/interhyp-llms.txt
+  href: https://artifacts.apis.io/interhyp/llms/interhyp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/interhyp-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/security/interhyp-domain-security.yml
+  href: https://artifacts.apis.io/interhyp/security/interhyp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/interhyp-domain-security.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/sandbox/interhyp-sandbox.yml
+  href: https://artifacts.apis.io/interhyp/sandbox/interhyp-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/interhyp-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/interhyp/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -236,10 +235,10 @@ overview: 'Interhyp publishes 8 API contracts indexed on the [APIs.io](https://a
 
 
   Interhyp''s developer surface includes documentation, getting-started guide, changelog, signup flow, support, authentication, sandbox, and 18 more developer resources.'
-random_paper: 3
+random_paper: 19
 score:
   band: developing
-  composite: 41.7
+  composite: 42.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -253,8 +252,8 @@ score:
     contract_governance: 4.5
     contract_quality: 52.3
     developer_ergonomics: 56.5
-    discoverability: 73.2
-    operational_transparency: 26.3
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -263,7 +262,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 41.7
+  previous_composite: 42.0
   provenance:
     conformance: derived
     contracts:
@@ -279,13 +278,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/screenshots/interhyp-2026-07-25T222702.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/interhyp/interhyp-2026-07-25T222702.png
 security:
 - kind: authentication
   name: Interhyp Authentication
@@ -295,6 +295,12 @@ security:
   name: Interhyp Domain Security
   slug: interhyp-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Manage a mortgage submission
+  slug: interhyp-manage-submission
+- name: Read a mortgage financing application
+  slug: interhyp-read-financing-application
 slug: interhyp
 tags:
 - Company

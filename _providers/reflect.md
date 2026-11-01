@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,11 +62,8 @@ apis:
   description: The Tests API from Reflect — 2 operation(s) for tests.
   name: Reflect Tests API
   slug: reflect-tests-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Reflect Execution API
   slug: open-reflect-execution-api
@@ -78,23 +77,27 @@ collections:
   name: Reflect
   slug: open-reflect
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/reflect/overview
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/rate-limits/reflect-rate-limits.yml
+  href: https://artifacts.apis.io/reflect/rate-limits/reflect-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/reflect-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/finops/reflect-finops.yml
+  href: https://artifacts.apis.io/reflect/finops/reflect-finops.yml
   title: ''
   type: FinOps
   url: finops/reflect-finops.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/plans/reflect-plans-pricing.yml
+  href: https://artifacts.apis.io/reflect/plans/reflect-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/reflect-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/capabilities/reflect-capability-edges.yml
+  href: https://artifacts.apis.io/reflect/capabilities/reflect-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/reflect-capability-edges.yml
@@ -103,17 +106,17 @@ common:
   type: Website
   url: https://reflect.run
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/agentic-access/reflect-agentic-access.yml
+  href: https://artifacts.apis.io/reflect/agentic-access/reflect-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/reflect-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/security/reflect-domain-security.yml
+  href: https://artifacts.apis.io/reflect/security/reflect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reflect-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/authentication/reflect-authentication.yml
+  href: https://artifacts.apis.io/reflect/authentication/reflect-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reflect-authentication.yml
@@ -166,37 +169,37 @@ common:
   type: GettingStarted
   url: https://reflect.run/docs/overview/quick-start/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/openapi/_original/reflect-openapi.yml
+  href: https://artifacts.apis.io/reflect/openapi/_original/reflect-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/reflect-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/json-schema/reflect-test-schema.json
+  href: https://artifacts.apis.io/reflect/json-schema/reflect-test-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/reflect-test-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/json-schema/reflect-execution-schema.json
+  href: https://artifacts.apis.io/reflect/json-schema/reflect-execution-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/reflect-execution-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/json-structure/reflect-api-structure.json
+  href: https://artifacts.apis.io/reflect/json-structure/reflect-api-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/reflect-api-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/json-ld/reflect-context.jsonld
+  href: https://artifacts.apis.io/reflect/json-ld/reflect-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/reflect-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/rules/reflect-rules.yml
+  href: https://artifacts.apis.io/reflect/rules/reflect-rules.yml
   title: ''
   type: SpectralRules
   url: rules/reflect-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/vocabulary/reflect-vocabulary.yml
+  href: https://artifacts.apis.io/reflect/vocabulary/reflect-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/reflect-vocabulary.yml
@@ -214,11 +217,11 @@ examples:
   name: Reflect Run Test Example
   slug: reflect-run-test-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Reflect Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: reflect-finops
   template: true
 image: https://reflect.run/assets/logo.png
@@ -249,12 +252,12 @@ overview: 'Reflect publishes 3 API contracts indexed on the [APIs.io](https://ap
   The Reflect catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Reflect''s developer surface includes authentication, engineering blog, pricing, signup flow, getting-started guide, and 23 more developer resources.'
+  Reflect''s developer surface includes authentication, engineering blog, pricing, signup flow, getting-started guide, and 24 more developer resources.'
 plans:
 - name: Reflect Plans Pricing
   plan_count: 3
   slug: reflect-plans-pricing
-random_paper: 15
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Reflect Rate Limits
@@ -285,7 +288,7 @@ rules:
   slug: reflect-rules
 score:
   band: developing
-  composite: 41.3
+  composite: 48.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 69.0
@@ -293,15 +296,15 @@ score:
     catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.3
+  delta: 0.3
   facets:
-    access_clarity: 69.7
+    access_clarity: 76.3
     contract_governance: 27.3
     contract_quality: 48.3
-    developer_ergonomics: 14.3
+    developer_ergonomics: 36.9
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 38.0
+    operational_transparency: 13.2
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -315,13 +318,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/screenshots/reflect-2026-06-20T192747.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/reflect/reflect-2026-06-20T192747.png
 security:
 - kind: authentication
   name: Reflect Authentication

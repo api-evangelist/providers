@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: 'Place title and escrow orders programmatically (into Qualia Core or to third-party systems) and track their status through the closing lifecycle. Modeled from Qualia''s public description of push/pull '
@@ -68,17 +70,17 @@ common:
   type: BlogRSS
   url: https://blog.qualia.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/security/qualia-title-trust-center.yml
+  href: https://artifacts.apis.io/qualia-title/security/qualia-title-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/qualia-title-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/security/qualia-title-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/qualia-title/security/qualia-title-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/qualia-title-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/security/qualia-title-domain-security.yml
+  href: https://artifacts.apis.io/qualia-title/security/qualia-title-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qualia-title-domain-security.yml
@@ -103,12 +105,12 @@ common:
   type: TermsOfService
   url: https://www.qualia.com/api-terms/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/plans/qualia-title-plans-pricing.yml
+  href: https://artifacts.apis.io/qualia-title/plans/qualia-title-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qualia-title-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/rate-limits/qualia-title-rate-limits.yml
+  href: https://artifacts.apis.io/qualia-title/rate-limits/qualia-title-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qualia-title-rate-limits.yml
@@ -121,17 +123,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/qualialabs
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/authentication/qualia-title-authentication.yml
+  href: https://artifacts.apis.io/qualia-title/authentication/qualia-title-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qualia-title-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/well-known/qualia-title-well-known.yml
+  href: https://artifacts.apis.io/qualia-title/well-known/qualia-title-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/qualia-title-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/well-known/qualia-title-security.txt
+  href: https://artifacts.apis.io/qualia-title/well-known/qualia-title-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/qualia-title-security.txt
@@ -144,7 +146,7 @@ common:
   type: Compliance
   url: https://www.qualia.com/trust/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/lifecycle/qualia-title-lifecycle.yml
+  href: https://artifacts.apis.io/qualia-title/lifecycle/qualia-title-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qualia-title-lifecycle.yml
@@ -153,12 +155,12 @@ common:
   type: StatusPage
   url: https://status.qualia.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/lifecycle/qualia-title-lifecycle.yml
+  href: https://artifacts.apis.io/qualia-title/lifecycle/qualia-title-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/qualia-title-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/llms/qualia-title-llms.txt
+  href: https://artifacts.apis.io/qualia-title/llms/qualia-title-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qualia-title-llms.txt
@@ -182,14 +184,14 @@ plans:
 - name: Qualia Title Plans Pricing
   plan_count: 1
   slug: qualia-title-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Qualia Title Rate Limits
   slug: qualia-title-rate-limits
 score:
   band: thin
-  composite: 34.7
+  composite: 35.0
   coverage:
     artifact_dirs: 12
     catalog_earned: 56.0
@@ -197,29 +199,29 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 68.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
     discoverability: 71.4
-    operational_transparency: 57.9
-  previous_composite: 32.6
+    operational_transparency: 60.5
+  previous_composite: 35.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 27.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/screenshots/qualia-title-2026-09-02T152559.png
+screenshot: https://apis.io/screenshots/qualia-title/qualia-title-2026-09-02T152559.png
 security:
 - kind: authentication
   name: Qualia Title Authentication

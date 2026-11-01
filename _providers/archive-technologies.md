@@ -25,29 +25,31 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.8
-  scored_at: '2026-10-17'
+  score: 42.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Archive''s public GraphQL API for programmatic access to creator and UGC workspace data — creators, social profiles, items (posts/reels/stories/videos), engagement history, content views, collections, '
   name: Archive API
   slug: archive-api
-artifact_total: 7
+artifact_total: 12
 common:
 - group: company
   title: ''
   type: Website
   url: https://www.archive.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/security/archive-technologies-domain-security.yml
+  href: https://artifacts.apis.io/archive-technologies/security/archive-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/archive-technologies-domain-security.yml
@@ -92,67 +94,67 @@ common:
   type: ChangeLog
   url: https://feedback.archive.com/changelog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/mcp/archive-technologies-mcp.yml
+  href: https://artifacts.apis.io/archive-technologies/mcp/archive-technologies-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/archive-technologies-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/authentication/archive-technologies-authentication.yml
+  href: https://artifacts.apis.io/archive-technologies/authentication/archive-technologies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/archive-technologies-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/scopes/archive-technologies-scopes.yml
+  href: https://artifacts.apis.io/archive-technologies/scopes/archive-technologies-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/archive-technologies-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/conventions/archive-technologies-conventions.yml
+  href: https://artifacts.apis.io/archive-technologies/conventions/archive-technologies-conventions.yml
   title: ''
   type: Conventions
   url: conventions/archive-technologies-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/errors/archive-technologies-problem-types.yml
+  href: https://artifacts.apis.io/archive-technologies/errors/archive-technologies-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/archive-technologies-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/rate-limits/archive-technologies-rate-limits.yml
+  href: https://artifacts.apis.io/archive-technologies/rate-limits/archive-technologies-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/archive-technologies-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/lifecycle/archive-technologies-lifecycle.yml
+  href: https://artifacts.apis.io/archive-technologies/lifecycle/archive-technologies-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/archive-technologies-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/changelog/archive-technologies-changelog.yml
+  href: https://artifacts.apis.io/archive-technologies/changelog/archive-technologies-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/archive-technologies-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/well-known/archive-technologies-well-known.yml
+  href: https://artifacts.apis.io/archive-technologies/well-known/archive-technologies-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/archive-technologies-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/conformance/archive-technologies-conformance.yml
+  href: https://artifacts.apis.io/archive-technologies/conformance/archive-technologies-conformance.yml
   title: ''
   type: Conformance
   url: conformance/archive-technologies-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/data-model/archive-technologies-data-model.yml
+  href: https://artifacts.apis.io/archive-technologies/data-model/archive-technologies-data-model.yml
   title: ''
   type: DataModel
   url: data-model/archive-technologies-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/llms/archive-technologies-llms.txt
+  href: https://artifacts.apis.io/archive-technologies/llms/archive-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/archive-technologies-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/archive-technologies/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -169,28 +171,36 @@ common:
   type: Pricing
   url: https://archive.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/plans/archive-technologies-plans-pricing.yml
+  href: https://artifacts.apis.io/archive-technologies/plans/archive-technologies-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/archive-technologies-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/examples/archive-technologies-graphql-examples.yml
+  href: https://artifacts.apis.io/archive-technologies/examples/archive-technologies-graphql-examples.yml
   title: ''
   type: Examples
   url: examples/archive-technologies-graphql-examples.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/mcp/archive-technologies-tool-crosswalk.yml
+  href: https://artifacts.apis.io/archive-technologies/mcp/archive-technologies-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/archive-technologies-tool-crosswalk.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/graphql/archive-technologies.graphql
+  href: https://artifacts.apis.io/archive-technologies/graphql/archive-technologies.graphql
   title: ''
   type: GraphQL
   url: graphql/archive-technologies.graphql
 created: '2026-07-17'
 description: Archive (Archive Technologies, Inc.) is an AI-powered creator and community marketing platform for e-commerce brands, founded in 2021 and headquartered in Miami, FL. Archive automates social listening across TikTok, Instagram, and YouTube, creator discovery, UGC rights and repurposing, campaign tracking, and reporting. Its public developer surface is the Archive API — a GraphQL API at POST https://app.archive.com/api/v2 that gives teams programmatic access to workspace data (creators, social profiles, UGC items, engagement history, content views, collections, campaigns, and competitor brands) authenticated with a workspace-scoped bearer token plus a WORKSPACE-ID header. The schema is published as a full reference (53 operations — 29 queries and 24 mutations — over 135 types) even though runtime introspection is disabled. Archive also operates an OAuth-protected remote MCP server at https://app.archive.com/api/v2/mcp whose 53 tools map 1:1 to those GraphQL operations, and both
   surfaces draw on the same per-workspace credit budget alongside a flat 5 requests/second ceiling, signalled at runtime with IETF ratelimit headers. Archive is backed by Battery Ventures among others.
+finops:
+- has_sources: true
+  method: derived
+  name: Archive Technologies Finops
+  primary_unit: ''
+  service_category: ''
+  slug: archive-technologies-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/archive-technologies.png
 layout: provider
 mcp_servers:
@@ -207,9 +217,9 @@ overview: 'Archive Technologies is listed with 1 API on the [APIs.io](https://ap
   Archive Technologies'' developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, getting-started guide, and 25 more developer resources.'
 plans:
 - name: Archive Technologies Plans Pricing
-  plan_count: 5
+  plan_count: 3
   slug: archive-technologies-plans-pricing
-random_paper: 21
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Archive Technologies Rate Limits
@@ -220,29 +230,29 @@ scopes:
   slug: archive-technologies-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 53.3
+  band: strong
+  composite: 55.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 69.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 44.6
     developer_ergonomics: 58.9
-    discoverability: 75.0
-    operational_transparency: 42.1
+    discoverability: 65.0
+    operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 53.2
+  previous_composite: 55.6
   provenance:
     conformance: derived
     mcp: first-party
@@ -253,14 +263,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/screenshots/archive-technologies-2026-07-25T201038.png
+screenshot: https://apis.io/screenshots/archive-technologies/archive-technologies-2026-07-25T201038.png
 security:
 - kind: authentication
   name: Archive Technologies Authentication
@@ -270,6 +280,16 @@ security:
   name: Archive Technologies Domain Security
   slug: archive-technologies-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Export a workspace's content or creators without burning the credit budget
+  slug: archive-technologies-budget-aware-export
+- name: Curate a collection of UGC items
+  slug: archive-technologies-curate-collection
+- name: Discover a creator's UGC and engagement
+  slug: archive-technologies-discover-creator-ugc
+- name: Save a search as a view and organise the workspace sidebar
+  slug: archive-technologies-manage-saved-views
 slug: archive-technologies
 tags:
 - Company

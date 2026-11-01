@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -59,7 +61,7 @@ apis:
   description: Manage interconnect connections
   name: Google Cloud Interconnect Interconnects API
   slug: google-cloud-interconnect-interconnects-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: postman
   name: Google Cloud Interconnect InterconnectAttachments API
@@ -70,9 +72,6 @@ collections:
 - collection_type: postman
   name: Google Cloud Interconnect InterconnectAttachments Interconnects API
   slug: postman-google-cloud-interconnect-interconnects-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Cloud Interconnect InterconnectAttachments API
   slug: open-google-cloud-interconnect-interconnectattachments-api
@@ -87,17 +86,17 @@ collections:
   slug: open-openapi
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/rate-limits/google-cloud-interconnect-rate-limits.yml
+  href: https://artifacts.apis.io/google-cloud-interconnect/rate-limits/google-cloud-interconnect-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-cloud-interconnect-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/finops/google-cloud-interconnect-finops.yml
+  href: https://artifacts.apis.io/google-cloud-interconnect/finops/google-cloud-interconnect-finops.yml
   title: ''
   type: FinOps
   url: finops/google-cloud-interconnect-finops.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/plans/google-cloud-interconnect-plans-pricing.yml
+  href: https://artifacts.apis.io/google-cloud-interconnect/plans/google-cloud-interconnect-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-cloud-interconnect-plans-pricing.yml
@@ -106,7 +105,7 @@ common:
   type: Website
   url: https://www.google.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/capabilities/google-cloud-interconnect-capability-edges.yml
+  href: https://artifacts.apis.io/google-cloud-interconnect/capabilities/google-cloud-interconnect-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-cloud-interconnect-capability-edges.yml
@@ -115,27 +114,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-cloud-interconnect/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/agentic-access/google-cloud-interconnect-agentic-access.yml
+  href: https://artifacts.apis.io/google-cloud-interconnect/agentic-access/google-cloud-interconnect-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-cloud-interconnect-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/security/google-cloud-interconnect-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-cloud-interconnect/security/google-cloud-interconnect-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-cloud-interconnect-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/security/google-cloud-interconnect-domain-security.yml
+  href: https://artifacts.apis.io/google-cloud-interconnect/security/google-cloud-interconnect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-cloud-interconnect-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/authentication/google-cloud-interconnect-authentication.yml
+  href: https://artifacts.apis.io/google-cloud-interconnect/authentication/google-cloud-interconnect-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-cloud-interconnect-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/scopes/google-cloud-interconnect-scopes.yml
+  href: https://artifacts.apis.io/google-cloud-interconnect/scopes/google-cloud-interconnect-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-cloud-interconnect-scopes.yml
@@ -180,20 +179,20 @@ common:
   type: Support
   url: https://cloud.google.com/network-connectivity/docs/interconnect/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/json-ld/json-ld.yml
+  href: https://artifacts.apis.io/google-cloud-interconnect/json-ld/json-ld.yml
   title: ''
   type: JSONLDContext
   url: json-ld/json-ld.yml
 created: '2026-03-13'
 description: Google Cloud Interconnect provides high-bandwidth, low-latency connections between your on-premises network and Google Cloud, enabling hybrid cloud architectures through dedicated or partner interconnect options.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Google Cloud Interconnect Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: hour per vlan attachment
+  service_category: ''
   slug: google-cloud-interconnect-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-interconnect.png
 layout: provider
 modified: '2026-05-19'
@@ -211,7 +210,7 @@ plans:
 - name: Google Cloud Interconnect Plans Pricing
   plan_count: 26
   slug: google-cloud-interconnect-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Google Cloud Interconnect Rate Limits
@@ -235,23 +234,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.1
+  composite: 53.1
   coverage:
     artifact_dirs: 16
-    catalog_earned: 60.7
+    catalog_earned: 63.7
     catalog_earned_first_party: 12.0
-    catalog_gap: 54.4
+    catalog_gap: 51.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 71.1
     contract_governance: 9.8
     contract_quality: 52.7
     developer_ergonomics: 48.8
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 50.6
+    operational_transparency: 39.5
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     contracts:
@@ -265,13 +264,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/screenshots/google-cloud-interconnect-2026-06-20T182115.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-cloud-interconnect/google-cloud-interconnect-2026-06-20T182115.png
 security:
 - kind: authentication
   name: Google Cloud Interconnect Authentication

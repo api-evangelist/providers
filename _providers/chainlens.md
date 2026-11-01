@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 14.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 6
@@ -233,11 +235,8 @@ apis:
   description: The Transaction-Events-Controller API from Chainlens — 1 operation(s) for transaction-events-controller.
   name: Chainlens Transaction-Events-Controller API
   slug: chainlens-transaction-events-controller-api
-artifact_total: 112
+artifact_total: 111
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Chainlens Account-Controller API
   slug: open-chainlens-account-controller-api
@@ -357,22 +356,22 @@ collections:
   slug: open-chainlens
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/chainlens/refs/heads/main/rate-limits/chainlens-rate-limits.yml
+  href: https://artifacts.apis.io/chainlens/rate-limits/chainlens-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chainlens-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chainlens/refs/heads/main/finops/chainlens-finops.yml
+  href: https://artifacts.apis.io/chainlens/finops/chainlens-finops.yml
   title: ''
   type: FinOps
   url: finops/chainlens-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chainlens/refs/heads/main/agentic-access/chainlens-agentic-access.yml
+  href: https://artifacts.apis.io/chainlens/agentic-access/chainlens-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/chainlens-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chainlens/refs/heads/main/security/chainlens-domain-security.yml
+  href: https://artifacts.apis.io/chainlens/security/chainlens-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chainlens-domain-security.yml
@@ -473,7 +472,7 @@ modified: '2026-05-19'
 name: Chainlens
 nav: Providers
 network: true
-overview: 'Chainlens publishes 38 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account-Controller API, Account-Mapping-Controller API, Account-Tokens-Controller API, and 35 more. Tagged areas include Analytics, Blockchain, Block Explorer, Cryptocurrencies, and DeFi.
+overview: 'Chainlens publishes 38 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account-Controller API, Account-Mapping-Controller API, Account-Tokens-Controller API, and 35 more. Tagged areas include Analytics, Blockchain, Block Explorer, Cryptocurrency, and DeFi.
 
 
   Chainlens'' developer surface includes documentation, getting-started guide, signup flow, pricing, engineering blog, GitHub presence, and 12 more developer resources.'
@@ -481,30 +480,30 @@ plans:
 - name: Chainlens Plans Pricing
   plan_count: 1
   slug: chainlens-plans-pricing
-random_paper: 3
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Chainlens Rate Limits
   slug: chainlens-rate-limits
 score:
-  band: emerging
-  composite: 25.6
+  band: thin
+  composite: 31.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 33.7
     developer_ergonomics: 23.8
     discoverability: 73.2
     operational_transparency: 10.5
-  previous_composite: 27.1
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     contracts:
@@ -517,14 +516,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 13.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/chainlens/refs/heads/main/screenshots/chainlens-2026-06-20T174159.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/chainlens/chainlens-2026-06-20T174159.png
 security:
 - kind: domain-security
   name: Chainlens Domain Security
@@ -535,7 +535,7 @@ tags:
 - Analytics
 - Blockchain
 - Block Explorer
-- Cryptocurrencies
+- Cryptocurrency
 - DeFi
 - Ethereum
 - EVM

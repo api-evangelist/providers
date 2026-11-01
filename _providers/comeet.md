@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,11 +58,8 @@ apis:
   description: Published positions for a company.
   name: Comeet Positions API
   slug: comeet-positions-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Comeet Careers API
   slug: open-comeet-careers-api
@@ -69,37 +68,37 @@ collections:
   slug: open-comeet-positions-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/plans/comeet-plans-pricing.yml
+  href: https://artifacts.apis.io/comeet/plans/comeet-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/comeet-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/rate-limits/comeet-rate-limits.yml
+  href: https://artifacts.apis.io/comeet/rate-limits/comeet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/comeet-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/finops/comeet-finops.yml
+  href: https://artifacts.apis.io/comeet/finops/comeet-finops.yml
   title: ''
   type: FinOps
   url: finops/comeet-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/capabilities/comeet-capability-edges.yml
+  href: https://artifacts.apis.io/comeet/capabilities/comeet-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/comeet-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/agentic-access/comeet-agentic-access.yml
+  href: https://artifacts.apis.io/comeet/agentic-access/comeet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/comeet-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/security/comeet-domain-security.yml
+  href: https://artifacts.apis.io/comeet/security/comeet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/comeet-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/authentication/comeet-authentication.yml
+  href: https://artifacts.apis.io/comeet/authentication/comeet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/comeet-authentication.yml
@@ -132,17 +131,17 @@ common:
   type: PrivacyPolicy
   url: https://www.comeet.com/privacy-policy/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/json-ld/comeet-context.jsonld
+  href: https://artifacts.apis.io/comeet/json-ld/comeet-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/comeet-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/json-schema/comeet-position-schema.json
+  href: https://artifacts.apis.io/comeet/json-schema/comeet-position-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/comeet-position-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/rules/comeet-rules.yml
+  href: https://artifacts.apis.io/comeet/rules/comeet-rules.yml
   title: ''
   type: Spectral
   url: rules/comeet-rules.yml
@@ -186,7 +185,7 @@ plans:
 - name: Comeet Plans Pricing
   plan_count: 3
   slug: comeet-plans-pricing
-random_paper: 21
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Comeet Rate Limits
@@ -217,7 +216,7 @@ rules:
   slug: comeet-rules
 score:
   band: thin
-  composite: 31.3
+  composite: 34.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 46.5
@@ -225,15 +224,15 @@ score:
     catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 53.0
     developer_ergonomics: 35.7
     discoverability: 64.3
-    operational_transparency: 7.9
-  previous_composite: 32.8
+    operational_transparency: 10.5
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -246,15 +245,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 20.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/screenshots/comeet-2026-06-20T174801.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/comeet/comeet-2026-06-20T174801.png
 security:
 - kind: authentication
   name: Comeet Authentication

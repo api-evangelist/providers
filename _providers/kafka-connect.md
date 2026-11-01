@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 16.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -58,11 +60,8 @@ apis:
   description: The Kafka Connect REST API API from Kafka Connect — 1 operation(s) for kafka connect rest api.
   name: Kafka Connect Kafka Connect REST API
   slug: kafka-connect-kafka-connect-rest-api-api
-artifact_total: 14
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kafka Connect REST Connector Plugins API
   slug: open-kafka-connect-connector-plugins-api
@@ -77,32 +76,32 @@ collections:
   slug: open-kafka-connect
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/plans/kafka-connect-plans-pricing.yml
+  href: https://artifacts.apis.io/kafka-connect/plans/kafka-connect-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kafka-connect-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/rate-limits/kafka-connect-rate-limits.yml
+  href: https://artifacts.apis.io/kafka-connect/rate-limits/kafka-connect-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kafka-connect-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/finops/kafka-connect-finops.yml
+  href: https://artifacts.apis.io/kafka-connect/finops/kafka-connect-finops.yml
   title: ''
   type: FinOps
   url: finops/kafka-connect-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/agentic-access/kafka-connect-agentic-access.yml
+  href: https://artifacts.apis.io/kafka-connect/agentic-access/kafka-connect-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kafka-connect-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/security/kafka-connect-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kafka-connect/security/kafka-connect-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kafka-connect-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/security/kafka-connect-domain-security.yml
+  href: https://artifacts.apis.io/kafka-connect/security/kafka-connect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kafka-connect-domain-security.yml
@@ -136,7 +135,7 @@ finops:
 - has_sources: false
   method: generated
   name: Kafka Connect Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: kafka-connect-finops
   template: true
@@ -154,14 +153,14 @@ plans:
 - name: Kafka Connect Plans Pricing
   plan_count: 3
   slug: kafka-connect-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Kafka Connect Rate Limits
   slug: kafka-connect-rate-limits
 score:
   band: emerging
-  composite: 23.4
+  composite: 23.6
   coverage:
     artifact_dirs: 10
     catalog_earned: 41.0
@@ -169,15 +168,15 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 33.7
     developer_ergonomics: 23.8
     discoverability: 62.5
-    operational_transparency: 10.5
-  previous_composite: 24.9
+    operational_transparency: 23.7
+  previous_composite: 23.6
   provenance:
     agentic_access: derived
     contracts:
@@ -191,13 +190,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/screenshots/kafka-connect-2026-06-20T183852.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kafka-connect/kafka-connect-2026-06-20T183852.png
 security:
 - kind: domain-security
   name: Kafka Connect Domain Security

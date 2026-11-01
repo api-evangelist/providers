@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 21.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.advance.ai
@@ -57,11 +59,8 @@ apis:
   description: Optical character recognition for identity documents.
   name: Advance Intelligence Group OCR API
   slug: advance-intelligence-group-ocr-api
-artifact_total: 11
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ADVANCE.AI Open Authentication API
   slug: open-advance-intelligence-group-authentication-api
@@ -76,12 +75,12 @@ collections:
   slug: open-advance-intelligence-group-ocr-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/overlays/advance-intelligence-group-advance-ai-overlay.yaml
+  href: https://artifacts.apis.io/advance-intelligence-group/overlays/advance-intelligence-group-advance-ai-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/advance-intelligence-group-advance-ai-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/security/advance-intelligence-group-domain-security.yml
+  href: https://artifacts.apis.io/advance-intelligence-group/security/advance-intelligence-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/advance-intelligence-group-domain-security.yml
@@ -122,57 +121,57 @@ common:
   type: Compliance
   url: https://advance.ai/security-compliance/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/authentication/advance-intelligence-group-authentication.yml
+  href: https://artifacts.apis.io/advance-intelligence-group/authentication/advance-intelligence-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/advance-intelligence-group-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/conventions/advance-intelligence-group-conventions.yml
+  href: https://artifacts.apis.io/advance-intelligence-group/conventions/advance-intelligence-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/advance-intelligence-group-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/errors/advance-intelligence-group-error-codes.yml
+  href: https://artifacts.apis.io/advance-intelligence-group/errors/advance-intelligence-group-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/advance-intelligence-group-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/lifecycle/advance-intelligence-group-lifecycle.yml
+  href: https://artifacts.apis.io/advance-intelligence-group/lifecycle/advance-intelligence-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/advance-intelligence-group-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/conformance/advance-intelligence-group-conformance.yml
+  href: https://artifacts.apis.io/advance-intelligence-group/conformance/advance-intelligence-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/advance-intelligence-group-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/packages/advance-intelligence-group-packages.yml
+  href: https://artifacts.apis.io/advance-intelligence-group/packages/advance-intelligence-group-packages.yml
   title: ''
   type: Packages
   url: packages/advance-intelligence-group-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/packages/advance-intelligence-group-packages.yml
+  href: https://artifacts.apis.io/advance-intelligence-group/packages/advance-intelligence-group-packages.yml
   title: ''
   type: SDKs
   url: packages/advance-intelligence-group-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/mcp/advance-intelligence-group-mcp.yml
+  href: https://artifacts.apis.io/advance-intelligence-group/mcp/advance-intelligence-group-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/advance-intelligence-group-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/llms/advance-intelligence-group-llms.txt
+  href: https://artifacts.apis.io/advance-intelligence-group/llms/advance-intelligence-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/advance-intelligence-group-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/data-model/advance-intelligence-group-data-model.yml
+  href: https://artifacts.apis.io/advance-intelligence-group/data-model/advance-intelligence-group-data-model.yml
   title: ''
   type: DataModel
   url: data-model/advance-intelligence-group-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/advance-intelligence-group/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -188,7 +187,7 @@ overview: 'Advance Intelligence Group publishes 4 API contracts indexed on the [
 
 
   Advance Intelligence Group''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 18
+random_paper: 20
 score:
   band: thin
   composite: 38.7
@@ -199,13 +198,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 48.2
     developer_ergonomics: 54.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -214,7 +213,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 39.2
+  previous_composite: 38.7
   provenance:
     conformance: first-party
     contracts:
@@ -230,13 +229,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 26.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/screenshots/advance-intelligence-group-2026-07-25T181711.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/advance-intelligence-group/advance-intelligence-group-2026-07-25T181711.png
 security:
 - kind: authentication
   name: Advance Intelligence Group Authentication
@@ -246,6 +246,12 @@ security:
   name: Advance Intelligence Group Domain Security
   slug: advance-intelligence-group-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: OCR an ID and match the holder's face
+  slug: advance-intelligence-group-face-and-ocr-check
+- name: Verify an identity document (eKYC)
+  slug: advance-intelligence-group-verify-identity-document
 slug: advance-intelligence-group
 tags:
 - Company

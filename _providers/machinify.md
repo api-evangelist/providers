@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -49,12 +51,12 @@ common:
   type: Compliance
   url: https://machinify.com/compliance/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/machinify/refs/heads/main/security/machinify-trust-center.yml
+  href: https://artifacts.apis.io/machinify/security/machinify-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/machinify-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/machinify/refs/heads/main/security/machinify-domain-security.yml
+  href: https://artifacts.apis.io/machinify/security/machinify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/machinify-domain-security.yml
@@ -86,12 +88,12 @@ overview: 'Machinify is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Machinify''s developer surface includes support, signup flow, and 7 more developer resources.'
-random_paper: 6
+random_paper: 16
 score:
   band: emerging
   composite: 15.6
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -112,14 +114,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 15.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/machinify/refs/heads/main/screenshots/machinify-2026-07-25T225816.png
+screenshot: https://apis.io/screenshots/machinify/machinify-2026-07-25T225816.png
 security:
 - kind: domain-security
   name: Machinify Domain Security

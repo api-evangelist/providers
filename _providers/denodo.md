@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: The Solution Manager REST API provides programmatic access to administer the Denodo Platform across environments and clusters. It exposes endpoints for cluster lifecycle management, environment config
@@ -69,27 +71,27 @@ common:
   type: PrivacyPolicy
   url: https://www.denodo.com/privacy-notice
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/denodo/refs/heads/main/finops/denodo-finops.yml
+  href: https://artifacts.apis.io/denodo/finops/denodo-finops.yml
   title: ''
   type: FinOps
   url: finops/denodo-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/denodo/refs/heads/main/rate-limits/denodo-rate-limits.yml
+  href: https://artifacts.apis.io/denodo/rate-limits/denodo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/denodo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/denodo/refs/heads/main/plans/denodo-plans-pricing.yml
+  href: https://artifacts.apis.io/denodo/plans/denodo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/denodo-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/denodo/refs/heads/main/llms/denodo-llms.txt
+  href: https://artifacts.apis.io/denodo/llms/denodo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/denodo-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/denodo/refs/heads/main/hosts/denodo-hosts.yml
+  href: https://artifacts.apis.io/denodo/hosts/denodo-hosts.yml
   title: ''
   type: Hosts
   url: hosts/denodo-hosts.yml
@@ -110,7 +112,7 @@ common:
   type: ChangeLog
   url: https://www.denodo.com/en/denodo-platform/whats-new
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/denodo/refs/heads/main/security/denodo-domain-security.yml
+  href: https://artifacts.apis.io/denodo/security/denodo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/denodo-domain-security.yml
@@ -163,12 +165,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/denodo
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/denodo/refs/heads/main/json-ld/denodo-context.jsonld
+  href: https://artifacts.apis.io/denodo/json-ld/denodo-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/denodo-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/denodo/refs/heads/main/vocabulary/denodo-vocabulary.yml
+  href: https://artifacts.apis.io/denodo/vocabulary/denodo-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/denodo-vocabulary.yml
@@ -182,7 +184,7 @@ finops:
 - has_sources: false
   method: generated
   name: Denodo Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: denodo-finops
   template: true
@@ -212,14 +214,14 @@ plans:
 - name: Denodo Plans Pricing
   plan_count: 3
   slug: denodo-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Denodo Rate Limits
   slug: denodo-rate-limits
 score:
   band: thin
-  composite: 31.0
+  composite: 37.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 55.5
@@ -227,15 +229,15 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 42.1
     contract_governance: 13.6
     contract_quality: 30.7
-    developer_ergonomics: 32.6
-    discoverability: 82.1
-    operational_transparency: 26.3
-  previous_composite: 32.5
+    developer_ergonomics: 37.4
+    discoverability: 75.0
+    operational_transparency: 28.9
+  previous_composite: 37.0
   provenance:
     mcp: derived
   regulatory:
@@ -243,15 +245,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/denodo/refs/heads/main/screenshots/denodo-2026-06-20T175914.png
+screenshot: https://apis.io/screenshots/denodo/denodo-2026-06-20T175914.png
 security:
 - kind: domain-security
   name: Denodo Domain Security

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-10-17'
+  score: 27.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -102,7 +104,7 @@ arazzos:
 - description: Create an entity, run KYC, open an account, find a stock, and place a managed market buy.
   name: Onboard a customer and place a dShare order
   slug: dinari-onboard-and-trade
-artifact_total: 38
+artifact_total: 43
 asyncapis:
 - description: Real-time market data and order updates over WebSocket. Clients authenticate with their API key + secret, then subscribe to market data (Level 2 order book, DFN quotes) and/or order data for their cus
   name: Dinari Streaming (WebSocket) API
@@ -139,9 +141,6 @@ collections:
   name: Dinari Enterprise Accounts Withdrawals API
   slug: postman-dinari-withdrawals-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Dinari Enterprise Accounts API
   slug: open-dinari-accounts-api
 - collection_type: open
@@ -172,8 +171,13 @@ collections:
   name: Dinari Enterprise Accounts Withdrawals API
   slug: open-dinari-withdrawals-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/dinari/plans/dinari-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dinari-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/capabilities/dinari-capability-edges.yml
+  href: https://artifacts.apis.io/dinari/capabilities/dinari-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dinari-capability-edges.yml
@@ -242,82 +246,82 @@ common:
   type: ChangeLog
   url: https://docs.dinari.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/changelog/dinari-changelog.yml
+  href: https://artifacts.apis.io/dinari/changelog/dinari-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dinari-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/packages/dinari-packages.yml
+  href: https://artifacts.apis.io/dinari/packages/dinari-packages.yml
   title: ''
   type: Packages
   url: packages/dinari-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/packages/dinari-packages.yml
+  href: https://artifacts.apis.io/dinari/packages/dinari-packages.yml
   title: ''
   type: SDKs
   url: packages/dinari-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/mcp/dinari-mcp.yml
+  href: https://artifacts.apis.io/dinari/mcp/dinari-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dinari-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/llms/dinari-llms.txt
+  href: https://artifacts.apis.io/dinari/llms/dinari-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dinari-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/overlays/dinari-openapi-overlay.yaml
+  href: https://artifacts.apis.io/dinari/overlays/dinari-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dinari-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/conformance/dinari-conformance.yml
+  href: https://artifacts.apis.io/dinari/conformance/dinari-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dinari-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/errors/dinari-error-codes.yml
+  href: https://artifacts.apis.io/dinari/errors/dinari-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/dinari-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/lifecycle/dinari-lifecycle.yml
+  href: https://artifacts.apis.io/dinari/lifecycle/dinari-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dinari-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/conventions/dinari-conventions.yml
+  href: https://artifacts.apis.io/dinari/conventions/dinari-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dinari-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/data-model/dinari-data-model.yml
+  href: https://artifacts.apis.io/dinari/data-model/dinari-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dinari-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/sandbox/dinari-sandbox.yml
+  href: https://artifacts.apis.io/dinari/sandbox/dinari-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dinari-sandbox.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/asyncapi/dinari-streaming-asyncapi.yml
+  href: https://artifacts.apis.io/dinari/asyncapi/dinari-streaming-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/dinari-streaming-asyncapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/authentication/dinari-authentication.yml
+  href: https://artifacts.apis.io/dinari/authentication/dinari-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dinari-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/security/dinari-domain-security.yml
+  href: https://artifacts.apis.io/dinari/security/dinari-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dinari-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/security/dinari-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dinari/security/dinari-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dinari-vulnerability-disclosure.yml
@@ -326,27 +330,35 @@ common:
   type: Security
   url: https://docs.dinari.com/docs/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/agentic-access/dinari-agentic-access.yml
+  href: https://artifacts.apis.io/dinari/agentic-access/dinari-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dinari-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dinari/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/arazzo/dinari-onboard-and-trade.yml
+  href: https://artifacts.apis.io/dinari/arazzo/dinari-onboard-and-trade.yml
   title: ''
   type: Arazzo
   url: arazzo/dinari-onboard-and-trade.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/arazzo/dinari-connect-wallet-and-fund.yml
+  href: https://artifacts.apis.io/dinari/arazzo/dinari-connect-wallet-and-fund.yml
   title: ''
   type: Arazzo
   url: arazzo/dinari-connect-wallet-and-fund.yml
 created: '2026-07-17'
 description: Dinari provides tokenized US stocks and ETFs (dShares) backed 1:1 by real securities, giving businesses an API to offer global customers regulated access to over a hundred equities and index tokens across 85+ jurisdictions. The Dinari Enterprise API covers entity onboarding and KYC/KYB, brokerage account management, market data (prices, quotes, splits, dividends, news), managed and on-chain (EIP-155 permit) order requests, order fulfillment, blockchain wallet connection, token transfers, withdrawals, and a USD+ stablecoin for dividend payments. dShares settle on-chain across Arbitrum One, HyperEVM, and Avalanche C-Chain. Surfaced as a portfolio company of 500 Global and Version One Ventures and enriched into the API Evangelist network.
+finops:
+- has_sources: true
+  method: derived
+  name: Dinari Finops
+  primary_unit: api access
+  service_category: ''
+  slug: dinari-finops
+  template: false
 image: https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/6a2b7f71ca32dba392e2c452_dinari-og-2026.jpg
 layout: provider
 modified: '2026-07-18'
@@ -359,27 +371,34 @@ overview: 'Dinari publishes 10 API contracts indexed on the [APIs.io](https://ap
   The Dinari catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dinari''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 31 more developer resources.'
-random_paper: 15
+  Dinari''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 32 more developer resources.'
+plans:
+- name: Dinari Plans Pricing
+  plan_count: 5
+  slug: dinari-plans-pricing
+- name: Dinari Price Estimates
+  plan_count: 0
+  slug: dinari-price-estimates
+random_paper: 7
 score:
-  band: developing
-  composite: 44.0
+  band: strong
+  composite: 63.3
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.8
   facets:
-    access_clarity: 26.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 60.6
-    developer_ergonomics: 50.6
-    discoverability: 73.2
-    operational_transparency: 39.5
-  previous_composite: 44.0
+    developer_ergonomics: 74.4
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -395,14 +414,15 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 34.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/screenshots/dinari-2026-07-25T212044.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dinari/dinari-2026-07-25T212044.png
 security:
 - kind: authentication
   name: Dinari Authentication
@@ -416,6 +436,14 @@ security:
   name: Dinari Vulnerability Disclosure
   slug: dinari-vulnerability-disclosure
   summary_line: contact published
+skill_count: 3
+skills:
+- name: Connect a wallet and fund a Dinari account
+  slug: dinari-connect-wallet-and-fund
+- name: Onboard a Dinari entity (KYC) and open an account
+  slug: dinari-onboard-entity
+- name: Place a managed dShare order
+  slug: dinari-place-managed-order
 slug: dinari
 tags:
 - Company

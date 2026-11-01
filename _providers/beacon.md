@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beacon/refs/heads/main/security/beacon-domain-security.yml
+  href: https://artifacts.apis.io/beacon/security/beacon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beacon-domain-security.yml
@@ -86,37 +88,37 @@ common:
   type: Careers
   url: https://beacon.bio/careers
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/beacon/refs/heads/main/packages/beacon-packages.yml
+  href: https://artifacts.apis.io/beacon/packages/beacon-packages.yml
   title: ''
   type: Packages
   url: packages/beacon-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/beacon/refs/heads/main/packages/beacon-packages.yml
+  href: https://artifacts.apis.io/beacon/packages/beacon-packages.yml
   title: ''
   type: SDKs
   url: packages/beacon-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/beacon/refs/heads/main/changelog/beacon-changelog.yml
+  href: https://artifacts.apis.io/beacon/changelog/beacon-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/beacon-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beacon/refs/heads/main/well-known/beacon-well-known.yml
+  href: https://artifacts.apis.io/beacon/well-known/beacon-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/beacon-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beacon/refs/heads/main/llms/beacon-llms.txt
+  href: https://artifacts.apis.io/beacon/llms/beacon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beacon-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beacon/refs/heads/main/conformance/beacon-conformance.yml
+  href: https://artifacts.apis.io/beacon/conformance/beacon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/beacon-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beacon/refs/heads/main/conformance/beacon-conformance.yml
+  href: https://artifacts.apis.io/beacon/conformance/beacon-conformance.yml
   title: ''
   type: Compliance
   url: conformance/beacon-conformance.yml
@@ -133,26 +135,26 @@ overview: 'Beacon Biosignals is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Beacon Biosignals'' developer surface includes documentation, engineering blog, support, changelog, and 15 more developer resources.'
-random_paper: 0
+random_paper: 16
 score:
   band: emerging
-  composite: 20.3
+  composite: 23.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 55.4
-    operational_transparency: 18.4
-  previous_composite: 20.2
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 23.8
   provenance:
     conformance: first-party
   regulatory:
@@ -160,15 +162,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 17.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/beacon/refs/heads/main/screenshots/beacon-2026-07-25T202700.png
+screenshot: https://apis.io/screenshots/beacon/beacon-2026-07-25T202700.png
 security:
 - kind: domain-security
   name: Beacon Domain Security

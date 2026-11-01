@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-17'
+  score: 21.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The gRPC core framework defines the RPC protocol, service definition format using Protocol Buffers, and the fundamental call lifecycle including unary, server-streaming, client-streaming, and bidirect
@@ -63,11 +65,8 @@ apis:
   description: Server Reflection service for runtime discovery of available gRPC services and their definitions.
   name: gRPC Reflection API
   slug: grpc-reflection-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: gRPC-Web Proxy Channelz API
   slug: open-grpc-channelz-api
@@ -79,17 +78,17 @@ collections:
   slug: open-grpc-reflection-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/plans/grpc-plans-pricing.yml
+  href: https://artifacts.apis.io/grpc/plans/grpc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/grpc-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/rate-limits/grpc-rate-limits.yml
+  href: https://artifacts.apis.io/grpc/rate-limits/grpc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/grpc-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/finops/grpc-finops.yml
+  href: https://artifacts.apis.io/grpc/finops/grpc-finops.yml
   title: ''
   type: FinOps
   url: finops/grpc-finops.yml
@@ -114,7 +113,7 @@ common:
   type: License
   url: https://github.com/grpc/grpc/blob/master/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/security/grpc-domain-security.yml
+  href: https://artifacts.apis.io/grpc/security/grpc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/grpc-domain-security.yml
@@ -155,22 +154,22 @@ common:
   type: ChangeLog
   url: https://github.com/grpc/grpc/releases
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/json-schema.yml
+  href: https://artifacts.apis.io/grpc/json-schema.yml
   title: ''
   type: JSONSchema
   url: json-schema.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/service-config-schema.json
+  href: https://artifacts.apis.io/grpc/service-config-schema.json
   title: ''
   type: JSONSchema
   url: service-config-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/asyncapi.yml
+  href: https://artifacts.apis.io/grpc/asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/context.jsonld
+  href: https://artifacts.apis.io/grpc/context.jsonld
   title: ''
   type: JSONLD
   url: context.jsonld
@@ -180,7 +179,7 @@ finops:
 - has_sources: false
   method: generated
   name: Grpc Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: grpc-finops
   template: true
@@ -201,7 +200,7 @@ plans:
 - name: Grpc Plans Pricing
   plan_count: 3
   slug: grpc-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Grpc Rate Limits
@@ -219,8 +218,8 @@ rules:
     warn: 5
   slug: grpc-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.6
+  band: thin
+  composite: 37.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 50.3
@@ -228,18 +227,15 @@ score:
     catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 55.3
-    developer_ergonomics: 52.4
+    developer_ergonomics: 54.8
     discoverability: 57.1
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 43.9
+    operational_transparency: 39.5
+  previous_composite: 37.9
   provenance:
     contracts:
       callable: 0.0
@@ -252,13 +248,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/screenshots/grpc-2026-06-20T182421.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/grpc/grpc-2026-06-20T182421.png
 security:
 - kind: domain-security
   name: Grpc Domain Security

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 9
 apis:
 - description: Nexus is Quantinuum's all-in-one quantum computing cloud platform. It brokers access to Quantinuum H-Series hardware (H1, H2, Helios) and to partner backends including IBM Quantum and Amazon Braket, m
@@ -73,7 +75,7 @@ common:
   type: Website
   url: https://www.quantinuum.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quantinuum/refs/heads/main/security/quantinuum-domain-security.yml
+  href: https://artifacts.apis.io/quantinuum/security/quantinuum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quantinuum-domain-security.yml
@@ -218,10 +220,10 @@ overview: 'Quantinuum is listed with 9 APIs on the [APIs.io](https://apis.io/) n
 
 
   Quantinuum''s developer surface includes developer portal, documentation, signup flow, getting-started guide, support, engineering blog, tooling, and 23 more developer resources.'
-random_paper: 11
+random_paper: 7
 score:
   band: emerging
-  composite: 20.4
+  composite: 20.8
   coverage:
     artifact_dirs: 5
     catalog_earned: 35.0
@@ -236,22 +238,22 @@ score:
     contract_quality: 6.5
     developer_ergonomics: 54.8
     discoverability: 62.5
-    operational_transparency: 2.6
-  previous_composite: 20.4
+    operational_transparency: 5.3
+  previous_composite: 20.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/quantinuum/refs/heads/main/screenshots/quantinuum-2026-06-20T192411.png
+screenshot: https://apis.io/screenshots/quantinuum/quantinuum-2026-06-20T192411.png
 security:
 - kind: domain-security
   name: Quantinuum Domain Security

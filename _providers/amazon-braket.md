@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: Manage resource tags
   name: Amazon Braket Tags API
   slug: amazon-braket-tags-api
-artifact_total: 23
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Braket Devices API
   slug: open-amazon-braket-devices-api
@@ -90,38 +89,43 @@ collections:
   name: Amazon Braket Devices Tags API
   slug: open-amazon-braket-tags-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/amazon-braket/plans/amazon-braket-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-braket-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/mcp/amazon-braket-mcp.yml
+  href: https://artifacts.apis.io/amazon-braket/mcp/amazon-braket-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-braket-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/overlays/amazon-braket-api-overlay.yaml
+  href: https://artifacts.apis.io/amazon-braket/overlays/amazon-braket-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-braket-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/agentic-access/amazon-braket-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-braket/agentic-access/amazon-braket-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-braket-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/security/amazon-braket-trust-center.yml
+  href: https://artifacts.apis.io/amazon-braket/security/amazon-braket-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-braket-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/security/amazon-braket-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-braket/security/amazon-braket-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-braket-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/security/amazon-braket-domain-security.yml
+  href: https://artifacts.apis.io/amazon-braket/security/amazon-braket-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-braket-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/authentication/amazon-braket-authentication.yml
+  href: https://artifacts.apis.io/amazon-braket/authentication/amazon-braket-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-braket-authentication.yml
@@ -182,22 +186,22 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/packages/amazon-braket-packages.yml
+  href: https://artifacts.apis.io/amazon-braket/packages/amazon-braket-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-braket-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/well-known/amazon-braket-well-known.yml
+  href: https://artifacts.apis.io/amazon-braket/well-known/amazon-braket-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-braket-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/well-known/amazon-braket-security.txt
+  href: https://artifacts.apis.io/amazon-braket/well-known/amazon-braket-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-braket-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/llms/amazon-braket-llms.txt
+  href: https://artifacts.apis.io/amazon-braket/llms/amazon-braket-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-braket-llms.txt
@@ -213,6 +217,14 @@ examples:
 - key_count: 2
   name: Search Devices Example
   slug: search-devices-example
+finops:
+- has_sources: true
+  method: derived
+  name: Amazon Braket Finops
+  primary_unit: shot
+  service_category: ''
+  slug: amazon-braket-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-braket.png
 json_schemas:
 - name: Quantum Task
@@ -238,7 +250,11 @@ overview: 'Amazon Braket publishes 5 API contracts indexed on the [APIs.io](http
   The Amazon Braket catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Amazon Braket''s developer surface includes authentication, developer portal, documentation, pricing, FAQ, getting-started guide, engineering blog, and 18 more developer resources.'
+  Amazon Braket''s developer surface includes authentication, developer portal, documentation, pricing, FAQ, getting-started guide, engineering blog, and 19 more developer resources.'
+plans:
+- name: Amazon Braket Plans Pricing
+  plan_count: 14
+  slug: amazon-braket-plans-pricing
 random_paper: 4
 rules:
 - authorship: generated
@@ -253,24 +269,24 @@ rules:
     warn: 3
   slug: amazon-braket-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 49.2
+  band: strong
+  composite: 58.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 58.2
-    catalog_earned_first_party: 0.0
-    catalog_gap: 56.9
+    artifact_dirs: 27
+    catalog_earned: 73.2
+    catalog_earned_first_party: 12.0
+    catalog_gap: 41.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 39.5
+    access_clarity: 78.9
     contract_governance: 28.0
     contract_quality: 64.1
     developer_ergonomics: 59.5
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 49.1
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -286,13 +302,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/screenshots/amazon-braket-2026-07-25T195944.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-braket/amazon-braket-2026-07-25T195944.png
 security:
 - kind: authentication
   name: Amazon Braket Authentication

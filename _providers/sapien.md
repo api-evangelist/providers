@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.5
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 22
   slug: sapien-agentic-access
   summary_line: 22 operations · 12 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://sapien-poq.up.railway.app/developer/v1
   baseurl_source: declared
@@ -69,11 +71,8 @@ apis:
   description: The Validators API from Sapien — 9 operation(s) for validators.
   name: Sapien Validators API
   slug: sapien-validators-api
-artifact_total: 15
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sapien Developer Datapoints API
   slug: open-sapien-datapoints-api
@@ -91,67 +90,67 @@ collections:
   slug: open-sapien-validators-api
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/security/sapien-domain-security.yml
+  href: https://artifacts.apis.io/sapien/security/sapien-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sapien-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/agentic-access/sapien-agentic-access.yml
+  href: https://artifacts.apis.io/sapien/agentic-access/sapien-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sapien-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/authentication/sapien-authentication.yml
+  href: https://artifacts.apis.io/sapien/authentication/sapien-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sapien-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/mcp/sapien-mcp.yml
+  href: https://artifacts.apis.io/sapien/mcp/sapien-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sapien-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/llms/sapien-llms.txt
+  href: https://artifacts.apis.io/sapien/llms/sapien-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sapien-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/conventions/sapien-conventions.yml
+  href: https://artifacts.apis.io/sapien/conventions/sapien-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sapien-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/conventions/sapien-conventions.yml
+  href: https://artifacts.apis.io/sapien/conventions/sapien-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/sapien-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/errors/sapien-problem-types.yml
+  href: https://artifacts.apis.io/sapien/errors/sapien-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sapien-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/conformance/sapien-conformance.yml
+  href: https://artifacts.apis.io/sapien/conformance/sapien-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sapien-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/lifecycle/sapien-lifecycle.yml
+  href: https://artifacts.apis.io/sapien/lifecycle/sapien-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sapien-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/data-model/sapien-data-model.yml
+  href: https://artifacts.apis.io/sapien/data-model/sapien-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sapien-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/overlays/sapien-poq-overlay.yaml
+  href: https://artifacts.apis.io/sapien/overlays/sapien-poq-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sapien-poq-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sapien/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -211,10 +210,10 @@ overview: 'Sapien publishes 5 API contracts indexed on the [APIs.io](https://api
 
 
   Sapien''s developer surface includes authentication, documentation, getting-started guide, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 2
+random_paper: 16
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 38.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -222,15 +221,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 44.0
     developer_ergonomics: 54.2
-    discoverability: 75.0
-    operational_transparency: 7.9
-  previous_composite: 39.2
+    discoverability: 65.0
+    operational_transparency: 10.5
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,13 +246,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/screenshots/sapien-2026-09-02T154409.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sapien/sapien-2026-09-02T154409.png
 security:
 - kind: authentication
   name: Sapien Authentication
@@ -263,6 +263,14 @@ security:
   name: Sapien Domain Security
   slug: sapien-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Invite and assign validators to a project
+  slug: sapien-assign-validators
+- name: Create a PoQ project and upload data
+  slug: sapien-create-project-and-upload
+- name: Retrieve consensus outcomes and issue a PoQ Report
+  slug: sapien-retrieve-consensus-and-report
 slug: sapien
 tags:
 - Company

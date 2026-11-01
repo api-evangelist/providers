@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-10-17'
+  score: 31.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 4
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 132
   slug: ubicloud-agentic-access
   summary_line: 132 operations · 81 acting · 4 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.ubicloud.com
   baseurl_source: declared
@@ -123,120 +125,125 @@ apis:
   description: Virtual Machine Operations
   name: Ubicloud Virtual Machine API
   slug: ubicloud-virtual-machine-api
-artifact_total: 32
+artifact_total: 38
 common:
+- group: other
+  href: https://artifacts.apis.io/ubicloud/capabilities/ubicloud-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ubicloud-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/agentic-access/ubicloud-agentic-access.yml
+  href: https://artifacts.apis.io/ubicloud/agentic-access/ubicloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ubicloud-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/plans/ubicloud-plans-pricing.yml
+  href: https://artifacts.apis.io/ubicloud/plans/ubicloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ubicloud-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/rules/ubicloud-ubicloud-spectral-rules.yml
+  href: https://artifacts.apis.io/ubicloud/rules/ubicloud-ubicloud-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/ubicloud-ubicloud-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/rules/ubicloud-rules.yml
+  href: https://artifacts.apis.io/ubicloud/rules/ubicloud-rules.yml
   title: ''
   type: Spectral
   url: rules/ubicloud-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/json-ld/ubicloud-context.jsonld
+  href: https://artifacts.apis.io/ubicloud/json-ld/ubicloud-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/ubicloud-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/vocabulary/ubicloud-vocabulary.yml
+  href: https://artifacts.apis.io/ubicloud/vocabulary/ubicloud-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ubicloud-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ubicloud/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/data-model/ubicloud-data-model.yml
+  href: https://artifacts.apis.io/ubicloud/data-model/ubicloud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ubicloud-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/cli/ubicloud-cli.yml
+  href: https://artifacts.apis.io/ubicloud/cli/ubicloud-cli.yml
   title: ''
   type: CLI
   url: cli/ubicloud-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/changelog/ubicloud-changelog.yml
+  href: https://artifacts.apis.io/ubicloud/changelog/ubicloud-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ubicloud-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/conventions/ubicloud-conventions.yml
+  href: https://artifacts.apis.io/ubicloud/conventions/ubicloud-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ubicloud-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/conventions/ubicloud-conventions.yml
+  href: https://artifacts.apis.io/ubicloud/conventions/ubicloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ubicloud-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/lifecycle/ubicloud-lifecycle.yml
+  href: https://artifacts.apis.io/ubicloud/lifecycle/ubicloud-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/ubicloud-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/lifecycle/ubicloud-lifecycle.yml
+  href: https://artifacts.apis.io/ubicloud/lifecycle/ubicloud-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ubicloud-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/errors/ubicloud-problem-types.yml
+  href: https://artifacts.apis.io/ubicloud/errors/ubicloud-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ubicloud-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/conformance/ubicloud-conformance.yml
+  href: https://artifacts.apis.io/ubicloud/conformance/ubicloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ubicloud-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/overlays/ubicloud-openapi-overlay.yaml
+  href: https://artifacts.apis.io/ubicloud/overlays/ubicloud-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ubicloud-openapi-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/hosts/ubicloud-hosts.yml
+  href: https://artifacts.apis.io/ubicloud/hosts/ubicloud-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ubicloud-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/vendors/ubicloud-vendors.yml
+  href: https://artifacts.apis.io/ubicloud/vendors/ubicloud-vendors.yml
   title: ''
   type: Vendors
   url: vendors/ubicloud-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/packages/ubicloud-packages.yml
+  href: https://artifacts.apis.io/ubicloud/packages/ubicloud-packages.yml
   title: ''
   type: SDKs
   url: packages/ubicloud-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/packages/ubicloud-packages.yml
+  href: https://artifacts.apis.io/ubicloud/packages/ubicloud-packages.yml
   title: ''
   type: Packages
   url: packages/ubicloud-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/authentication/ubicloud-authentication.yml
+  href: https://artifacts.apis.io/ubicloud/authentication/ubicloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ubicloud-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/security/ubicloud-domain-security.yml
+  href: https://artifacts.apis.io/ubicloud/security/ubicloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ubicloud-domain-security.yml
@@ -330,6 +337,14 @@ common:
   url: https://www.linkedin.com/company/ubicloud/
 created: '2026-10-09'
 description: Ubicloud is an open source cloud that can run anywhere, positioned as an open source alternative to AWS. It provides cloud services such as compute (virtual machines), managed PostgreSQL, Kubernetes, GitHub Actions runners and machine images on bare metal providers like Hetzner, Leaseweb and AWS Bare Metal, offered as a managed service at console.ubicloud.com or self-hosted. It publishes an API reference and documentation at ubicloud.com/docs. Founded by Ozgun Erdogan, Umur Cubukcu and Daniel Farina.
+finops:
+- has_sources: true
+  method: derived
+  name: Ubicloud Finops
+  primary_unit: ''
+  service_category: ''
+  slug: ubicloud-finops
+  template: true
 image: https://cdn.prod.website-files.com/64f9d9b4e737e7b37d4e39a4/64fe41a59732cbbaa5762828_Webclip.png
 json_schemas:
 - name: FirewallRuleUpdate
@@ -366,12 +381,15 @@ overview: 'Ubicloud publishes 18 API contracts indexed on the [APIs.io](https://
   The Ubicloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Ubicloud''s developer surface includes CLI, changelog, authentication, documentation, API reference, getting-started guide, support, and 38 more developer resources.'
+  Ubicloud''s developer surface includes CLI, changelog, authentication, documentation, API reference, getting-started guide, support, and 39 more developer resources.'
 plans:
 - name: Ubicloud Plans Pricing
   plan_count: 13
   slug: ubicloud-plans-pricing
-random_paper: 19
+- name: Ubicloud Price Estimates
+  plan_count: 0
+  slug: ubicloud-price-estimates
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Ubicloud Rate Limits
@@ -403,15 +421,15 @@ rules:
   slug: ubicloud-ubicloud-spectral-rules
 score:
   band: strong
-  composite: 61.8
+  composite: 62.5
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 30
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     contract_governance: 35.6
@@ -419,7 +437,7 @@ score:
     developer_ergonomics: 63.7
     discoverability: 66.1
     operational_transparency: 44.7
-  previous_composite: 63.0
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -436,13 +454,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/screenshots/ubicloud-2026-10-11T131342.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ubicloud/ubicloud-2026-10-11T131342.png
 security:
 - kind: authentication
   name: Ubicloud Authentication
@@ -452,6 +471,16 @@ security:
   name: Ubicloud Domain Security
   slug: ubicloud-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: ubicloud-kubernetes-cluster
+  slug: ubicloud-kubernetes-cluster
+- name: ubicloud-managed-postgres
+  slug: ubicloud-managed-postgres
+- name: ubicloud-network-load-balancing
+  slug: ubicloud-network-load-balancing
+- name: ubicloud-provision-vm
+  slug: ubicloud-provision-vm
 slug: ubicloud
 tags:
 - Company

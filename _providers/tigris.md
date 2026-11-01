@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: flavored
     agent_skills: derived
@@ -25,31 +25,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-10-17'
+  score: 24.5
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 4
+artifact_total: 6
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tigris/refs/heads/main/skills/tigris-fork-for-agents.md
+  href: https://artifacts.apis.io/tigris/skills/tigris-fork-for-agents.md
   title: ''
   type: AgentSkill
   url: skills/tigris-fork-for-agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tigris/refs/heads/main/mcp/tigris-mcp.yml
+  href: https://artifacts.apis.io/tigris/mcp/tigris-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tigris-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tigris/refs/heads/main/a2a/tigris-a2a.yml
+  href: https://artifacts.apis.io/tigris/a2a/tigris-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/tigris-a2a.yml
@@ -65,10 +67,10 @@ name: Tigris
 nav: Providers
 network: true
 overview: Tigris is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and A2A.
-random_paper: 20
+random_paper: 10
 score:
   band: minimal
-  composite: 5.8
+  composite: 4.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 20.0
@@ -82,15 +84,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 1.8
-    discoverability: 46.7
+    discoverability: 36.7
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
-  previous_composite: 5.8
+  previous_composite: 4.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -101,8 +97,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
@@ -121,6 +117,12 @@ security:
   name: Tigris Trust Center
   slug: tigris-trust-center
   summary_line: SOC 2
+skill_count: 2
+skills:
+- name: Fork a dataset per agent with copy-on-write buckets
+  slug: tigris-fork-for-agents
+- name: Upload and serve objects on Tigris
+  slug: tigris-upload-and-serve
 slug: tigris
 tags:
 - Company

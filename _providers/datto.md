@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-10-17'
+  score: 27.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://concord-api.centrastage.net/api
@@ -86,11 +88,8 @@ apis:
   description: Operations on users
   name: Datto /v2/user API
   slug: datto-v2-user-api
-artifact_total: 24
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Datto RMM /v2/account /v2/account /v2/account API
   slug: open-datto-v2-account-api
@@ -122,8 +121,13 @@ collections:
   name: Datto RMM /v2/account /v2/account /v2/user API
   slug: open-datto-v2-user-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/datto/plans/datto-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/datto-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/capabilities/datto-capability-edges.yml
+  href: https://artifacts.apis.io/datto/capabilities/datto-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/datto-capability-edges.yml
@@ -132,7 +136,7 @@ common:
   type: Website
   url: https://www.datto.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/overlays/datto-rmm-overlay.yaml
+  href: https://artifacts.apis.io/datto/overlays/datto-rmm-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/datto-rmm-overlay.yaml
@@ -181,72 +185,80 @@ common:
   type: StatusPage
   url: https://status.datto.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/authentication/datto-authentication.yml
+  href: https://artifacts.apis.io/datto/authentication/datto-authentication.yml
   title: ''
   type: Authentication
   url: authentication/datto-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/conventions/datto-conventions.yml
+  href: https://artifacts.apis.io/datto/conventions/datto-conventions.yml
   title: ''
   type: Conventions
   url: conventions/datto-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/rate-limits/datto-rate-limits.yml
+  href: https://artifacts.apis.io/datto/rate-limits/datto-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/datto-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/errors/datto-problem-types.yml
+  href: https://artifacts.apis.io/datto/errors/datto-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/datto-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/lifecycle/datto-lifecycle.yml
+  href: https://artifacts.apis.io/datto/lifecycle/datto-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/datto-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/lifecycle/datto-lifecycle.yml
+  href: https://artifacts.apis.io/datto/lifecycle/datto-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/datto-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/conformance/datto-conformance.yml
+  href: https://artifacts.apis.io/datto/conformance/datto-conformance.yml
   title: ''
   type: Conformance
   url: conformance/datto-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/mcp/datto-mcp.yml
+  href: https://artifacts.apis.io/datto/mcp/datto-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/datto-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/llms/datto-llms.txt
+  href: https://artifacts.apis.io/datto/llms/datto-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/datto-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/data-model/datto-data-model.yml
+  href: https://artifacts.apis.io/datto/data-model/datto-data-model.yml
   title: ''
   type: DataModel
   url: data-model/datto-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/sandbox/datto-sandbox.yml
+  href: https://artifacts.apis.io/datto/sandbox/datto-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/datto-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/datto/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/security/datto-domain-security.yml
+  href: https://artifacts.apis.io/datto/security/datto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datto-domain-security.yml
 created: '2026-07-17'
 description: Datto is a data-protection and IT-management vendor for managed service providers (MSPs) and internal IT teams, now part of Kaseya. Its platform spans business continuity and disaster recovery (SIRIS, ALTO, Endpoint Backup), SaaS Protection for Microsoft 365 and Google Workspace, Remote Monitoring and Management (Datto RMM), Autotask professional services automation (PSA), networking (Wi-Fi, switches, firewalls, Secure Edge), and cybersecurity (Managed SOC, EDR, antivirus). Datto RMM publishes a versioned REST API (v2, OpenAPI 3.1) with platform-specific regional hosts on the CentraStage infrastructure, OAuth 2.0 access tokens, request-rate limiting, and paginated responses, letting partners programmatically manage sites, devices, alerts, jobs, audits, and account variables. Datto runs a formal Developer Program offering sandbox environments, technical enablement, and an integrations marketplace for vendors building on its solutions.
+finops:
+- has_sources: true
+  method: derived
+  name: Datto Finops
+  primary_unit: ''
+  service_category: ''
+  slug: datto-finops
+  template: true
 image: https://www.datto.com/wp-content/uploads/datto-opengraph.jpg
 layout: provider
 modified: '2026-07-18'
@@ -256,7 +268,11 @@ network: true
 overview: 'Datto publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including /v2/account API, /v2/activity-logs API, /v2/alert API, and 7 more. Tagged areas include Company, Data Protection, Backup, Disaster Recovery, and Managed Service Providers.
 
 
-  Datto''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, authentication, and 20 more developer resources.'
+  Datto''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, authentication, and 21 more developer resources.'
+plans:
+- name: Datto Plans Pricing
+  plan_count: 0
+  slug: datto-plans-pricing
 random_paper: 12
 rate_limits:
 - limit_count: 2
@@ -264,23 +280,23 @@ rate_limits:
   slug: datto-rate-limits
 score:
   band: developing
-  composite: 43.2
+  composite: 46.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 25
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 44.7
+    access_clarity: 52.6
     contract_governance: 4.5
     contract_quality: 40.2
     developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 43.1
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 46.5
   provenance:
     conformance: derived
     contracts:
@@ -295,14 +311,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/screenshots/datto-2026-07-25T211420.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/datto/datto-2026-07-25T211420.png
 security:
 - kind: authentication
   name: Datto Authentication
@@ -312,6 +329,14 @@ security:
   name: Datto Domain Security
   slug: datto-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Datto RMM alert triage
+  slug: datto-alert-triage
+- name: Datto RMM device inventory
+  slug: datto-device-inventory
+- name: Datto RMM run a quick job
+  slug: datto-run-quick-job
 slug: datto
 tags:
 - Company
@@ -319,7 +344,7 @@ tags:
 - Backup
 - Disaster Recovery
 - Managed Service Providers
-- Remote Monitoring and Management
+- RMM
 - Endpoint Management
 - Cybersecurity
 - IT Operations

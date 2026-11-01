@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Adaptive Integration Fabric (formerly Ivory Suite) enables enterprises to rapidly expose IBM z/OS and z/VSE mainframe applications as REST or SOAP web services without programming. Using the Fabri
@@ -42,22 +44,22 @@ apis:
 artifact_total: 17
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/plans/adaptigent-plans-pricing.yml
+  href: https://artifacts.apis.io/adaptigent/plans/adaptigent-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adaptigent-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/rate-limits/adaptigent-rate-limits.yml
+  href: https://artifacts.apis.io/adaptigent/rate-limits/adaptigent-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adaptigent-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/finops/adaptigent-finops.yml
+  href: https://artifacts.apis.io/adaptigent/finops/adaptigent-finops.yml
   title: ''
   type: FinOps
   url: finops/adaptigent-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/security/adaptigent-domain-security.yml
+  href: https://artifacts.apis.io/adaptigent/security/adaptigent-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adaptigent-domain-security.yml
@@ -102,22 +104,22 @@ common:
   type: Support
   url: https://gtsoftware2.zendesk.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/llms/adaptigent-llms.txt
+  href: https://artifacts.apis.io/adaptigent/llms/adaptigent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adaptigent-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/changelog/adaptigent-changelog.yml
+  href: https://artifacts.apis.io/adaptigent/changelog/adaptigent-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/adaptigent-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/lifecycle/adaptigent-lifecycle.yml
+  href: https://artifacts.apis.io/adaptigent/lifecycle/adaptigent-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adaptigent-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/conformance/adaptigent-conformance.yml
+  href: https://artifacts.apis.io/adaptigent/conformance/adaptigent-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adaptigent-conformance.yml
@@ -142,7 +144,7 @@ finops:
 - has_sources: false
   method: generated
   name: Adaptigent Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: adaptigent-finops
   template: true
@@ -167,7 +169,7 @@ rate_limits:
   slug: adaptigent-rate-limits
 score:
   band: emerging
-  composite: 24.2
+  composite: 24.4
   coverage:
     artifact_dirs: 13
     catalog_earned: 32.0
@@ -175,15 +177,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 33.3
-    discoverability: 64.3
+    developer_ergonomics: 38.1
+    discoverability: 57.1
     operational_transparency: 15.8
-  previous_composite: 25.7
+  previous_composite: 24.4
   provenance:
     conformance: first-party
   regulatory:
@@ -192,14 +194,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/screenshots/adaptigent-2026-06-20T164608.png
+screenshot: https://apis.io/screenshots/adaptigent/adaptigent-2026-06-20T164608.png
 security:
 - kind: domain-security
   name: Adaptigent Domain Security

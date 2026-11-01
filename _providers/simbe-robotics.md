@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Simbe's cloud platform API, which feeds Tally-captured shelf, inventory, pricing and out-of-stock data into a retailer's existing systems. Its existence is confirmed by Simbe's own public status page,
@@ -44,7 +46,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simbe-robotics/refs/heads/main/security/simbe-robotics-domain-security.yml
+  href: https://artifacts.apis.io/simbe-robotics/security/simbe-robotics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simbe-robotics-domain-security.yml
@@ -85,22 +87,22 @@ common:
   type: SecondaryMarketListing
   url: https://www.hiive.com/securities/simbe-robotics-stock
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simbe-robotics/refs/heads/main/lifecycle/simbe-robotics-lifecycle.yml
+  href: https://artifacts.apis.io/simbe-robotics/lifecycle/simbe-robotics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/simbe-robotics-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/simbe-robotics/refs/heads/main/plans/simbe-robotics-plans-pricing.yml
+  href: https://artifacts.apis.io/simbe-robotics/plans/simbe-robotics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/simbe-robotics-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/simbe-robotics/refs/heads/main/rate-limits/simbe-robotics-rate-limits.yml
+  href: https://artifacts.apis.io/simbe-robotics/rate-limits/simbe-robotics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/simbe-robotics-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simbe-robotics/refs/heads/main/llms/simbe-robotics-llms.txt
+  href: https://artifacts.apis.io/simbe-robotics/llms/simbe-robotics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/simbe-robotics-llms.txt
@@ -137,14 +139,14 @@ plans:
 - name: Simbe Robotics Plans Pricing
   plan_count: 0
   slug: simbe-robotics-plans-pricing
-random_paper: 12
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Simbe Robotics Rate Limits
   slug: simbe-robotics-rate-limits
 score:
   band: emerging
-  composite: 15.6
+  composite: 16.0
   coverage:
     artifact_dirs: 9
     catalog_earned: 32.0
@@ -159,22 +161,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 57.1
-    operational_transparency: 18.4
-  previous_composite: 15.6
+    operational_transparency: 21.1
+  previous_composite: 16.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/simbe-robotics/refs/heads/main/screenshots/simbe-robotics-2026-09-02T155523.png
+screenshot: https://apis.io/screenshots/simbe-robotics/simbe-robotics-2026-09-02T155523.png
 security:
 - kind: domain-security
   name: Simbe Robotics Domain Security

@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.2
-  scored_at: '2026-10-17'
+  score: 6.0
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Rescale's token-authenticated REST API (v2) for creating, submitting, monitoring and managing simulation jobs, uploading and downloading files, listing available software (analyses) and hardware (core
@@ -50,7 +52,7 @@ common:
   type: BlogRSS
   url: https://rescale.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rescale/refs/heads/main/security/rescale-domain-security.yml
+  href: https://artifacts.apis.io/rescale/security/rescale-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rescale-domain-security.yml
@@ -103,42 +105,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/rescale-labs
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rescale/refs/heads/main/mcp/rescale-mcp.yml
+  href: https://artifacts.apis.io/rescale/mcp/rescale-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/rescale-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rescale/refs/heads/main/packages/rescale-packages.yml
+  href: https://artifacts.apis.io/rescale/packages/rescale-packages.yml
   title: ''
   type: Packages
   url: packages/rescale-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rescale/refs/heads/main/packages/rescale-packages.yml
+  href: https://artifacts.apis.io/rescale/packages/rescale-packages.yml
   title: ''
   type: SDKs
   url: packages/rescale-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rescale/refs/heads/main/cli/rescale-cli.yml
+  href: https://artifacts.apis.io/rescale/cli/rescale-cli.yml
   title: ''
   type: CLI
   url: cli/rescale-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rescale/refs/heads/main/authentication/rescale-authentication.yml
+  href: https://artifacts.apis.io/rescale/authentication/rescale-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rescale-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rescale/refs/heads/main/conventions/rescale-conventions.yml
+  href: https://artifacts.apis.io/rescale/conventions/rescale-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rescale-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rescale/refs/heads/main/lifecycle/rescale-lifecycle.yml
+  href: https://artifacts.apis.io/rescale/lifecycle/rescale-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rescale-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rescale/refs/heads/main/conformance/rescale-conformance.yml
+  href: https://artifacts.apis.io/rescale/conformance/rescale-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rescale-conformance.yml
@@ -147,12 +149,12 @@ common:
   type: Compliance
   url: https://rescale.com/platform/security-compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rescale/refs/heads/main/data-model/rescale-data-model.yml
+  href: https://artifacts.apis.io/rescale/data-model/rescale-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rescale-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rescale/refs/heads/main/llms/rescale-llms.txt
+  href: https://artifacts.apis.io/rescale/llms/rescale-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rescale-llms.txt
@@ -172,10 +174,10 @@ overview: 'Rescale is listed with 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Rescale''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, CLI, and 18 more developer resources.'
-random_paper: 9
+random_paper: 15
 score:
   band: thin
-  composite: 34.6
+  composite: 33.9
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -183,15 +185,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 34.5
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 33.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -205,14 +207,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rescale/refs/heads/main/screenshots/rescale-2026-09-02T153521.png
+screenshot: https://apis.io/screenshots/rescale/rescale-2026-09-02T153521.png
 security:
 - kind: authentication
   name: Rescale Authentication

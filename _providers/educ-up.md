@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,17 +37,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/educ-up/refs/heads/main/plans/educ-up-plans-pricing.yml
+  href: https://artifacts.apis.io/educ-up/plans/educ-up-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/educ-up-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/educ-up/refs/heads/main/rate-limits/educ-up-rate-limits.yml
+  href: https://artifacts.apis.io/educ-up/rate-limits/educ-up-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/educ-up-rate-limits.yml
@@ -86,12 +88,12 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/educ-up/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/educ-up/refs/heads/main/security/educ-up-domain-security.yml
+  href: https://artifacts.apis.io/educ-up/security/educ-up-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/educ-up-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/educ-up/refs/heads/main/llms/educ-up-llms.txt
+  href: https://artifacts.apis.io/educ-up/llms/educ-up-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/educ-up-llms.txt
@@ -135,14 +137,14 @@ plans:
 - name: Educ Up Plans Pricing
   plan_count: 0
   slug: educ-up-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Educ Up Rate Limits
   slug: educ-up-rate-limits
 score:
   band: minimal
-  composite: 10.1
+  composite: 9.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 25.0
@@ -156,7 +158,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 51.8
+    discoverability: 44.6
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -166,21 +168,21 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 10.1
+  previous_composite: 9.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/educ-up/refs/heads/main/screenshots/educ-up-2026-09-02T145329.png
+screenshot: https://apis.io/screenshots/educ-up/educ-up-2026-09-02T145329.png
 security:
 - kind: domain-security
   name: Educ Up Domain Security

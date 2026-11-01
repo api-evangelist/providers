@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-10-17'
+  score: 26.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -321,7 +323,7 @@ arazzos:
 - description: Upsert an Account on an external ID field, then attach a Contact to it.
   name: Salesforce Sales Cloud Upsert Account By External ID
   slug: salesforce-sales-cloud-upsert-account-by-external-id-workflow
-artifact_total: 202
+artifact_total: 201
 collections:
 - collection_type: postman
   name: Salesforce Sales Cloud Salesforce Analytics REST API
@@ -356,9 +358,6 @@ collections:
 - collection_type: postman
   name: Salesforce Sales Cloud Salesforce User Interface API
   slug: postman-salesforce-sales-cloud-ui-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Salesforce Sales Cloud Salesforce Analytics REST API
   slug: open-salesforce-sales-cloud-analytics-api
@@ -529,22 +528,22 @@ collections:
   slug: open-salesforce-sales-cloud-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/plans/salesforce-sales-cloud-plans-pricing.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/plans/salesforce-sales-cloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/salesforce-sales-cloud-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/rate-limits/salesforce-sales-cloud-rate-limits.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/rate-limits/salesforce-sales-cloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/salesforce-sales-cloud-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/finops/salesforce-sales-cloud-finops.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/finops/salesforce-sales-cloud-finops.yml
   title: ''
   type: FinOps
   url: finops/salesforce-sales-cloud-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/capabilities/salesforce-sales-cloud-capability-edges.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/capabilities/salesforce-sales-cloud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/salesforce-sales-cloud-capability-edges.yml
@@ -553,22 +552,22 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/salesforce/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/agentic-access/salesforce-sales-cloud-agentic-access.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/agentic-access/salesforce-sales-cloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/salesforce-sales-cloud-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/security/salesforce-sales-cloud-domain-security.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/security/salesforce-sales-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/salesforce-sales-cloud-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/authentication/salesforce-sales-cloud-authentication.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/authentication/salesforce-sales-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/salesforce-sales-cloud-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/scopes/salesforce-sales-cloud-scopes.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/scopes/salesforce-sales-cloud-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/salesforce-sales-cloud-scopes.yml
@@ -577,92 +576,92 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/salesforce-sales-cloud/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-account-360-enrichment-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-account-360-enrichment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-account-360-enrichment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-account-tree-with-contacts-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-account-tree-with-contacts-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-account-tree-with-contacts-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-bulk-import-accounts-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-bulk-import-accounts-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-bulk-import-accounts-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-close-opportunity-won-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-close-opportunity-won-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-close-opportunity-won-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-create-and-convert-lead-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-create-and-convert-lead-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-create-and-convert-lead-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-create-then-retrieve-contact-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-create-then-retrieve-contact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-create-then-retrieve-contact-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-delete-stale-lead-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-delete-stale-lead-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-delete-stale-lead-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-describe-then-create-record-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-describe-then-create-record-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-describe-then-create-record-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-log-task-on-account-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-log-task-on-account-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-log-task-on-account-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-new-customer-onboarding-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-new-customer-onboarding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-new-customer-onboarding-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-opportunity-with-contact-role-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-opportunity-with-contact-role-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-opportunity-with-contact-role-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-paginated-soql-export-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-paginated-soql-export-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-paginated-soql-export-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-query-then-update-account-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-query-then-update-account-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-query-then-update-account-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-reparent-contact-to-account-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-reparent-contact-to-account-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-reparent-contact-to-account-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-schedule-event-with-contact-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-schedule-event-with-contact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-schedule-event-with-contact-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-search-then-retrieve-record-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-search-then-retrieve-record-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-search-then-retrieve-record-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-submit-opportunity-for-approval-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-submit-opportunity-for-approval-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-submit-opportunity-for-approval-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-upsert-account-by-external-id-workflow.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/arazzo/salesforce-sales-cloud-upsert-account-by-external-id-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-upsert-account-by-external-id-workflow.yml
@@ -759,52 +758,52 @@ common:
   type: SOQL and SOSL Reference
   url: https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_sosl_intro.htm
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/json-ld/salesforce-sales-cloud-context.jsonld
+  href: https://artifacts.apis.io/salesforce-sales-cloud/json-ld/salesforce-sales-cloud-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/salesforce-sales-cloud-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/rules/salesforce-sales-cloud-rules.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/rules/salesforce-sales-cloud-rules.yml
   title: ''
   type: SpectralRules
   url: rules/salesforce-sales-cloud-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/vocabulary/salesforce-sales-cloud-vocabulary.yml
+  href: https://artifacts.apis.io/salesforce-sales-cloud/vocabulary/salesforce-sales-cloud-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/salesforce-sales-cloud-vocabulary.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/json-schema/salesforce-sales-cloud-account-schema.json
+  href: https://artifacts.apis.io/salesforce-sales-cloud/json-schema/salesforce-sales-cloud-account-schema.json
   title: Account Schema
   type: JSONSchema
   url: json-schema/salesforce-sales-cloud-account-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/json-schema/salesforce-sales-cloud-contact-schema.json
+  href: https://artifacts.apis.io/salesforce-sales-cloud/json-schema/salesforce-sales-cloud-contact-schema.json
   title: Contact Schema
   type: JSONSchema
   url: json-schema/salesforce-sales-cloud-contact-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/json-schema/salesforce-sales-cloud-lead-schema.json
+  href: https://artifacts.apis.io/salesforce-sales-cloud/json-schema/salesforce-sales-cloud-lead-schema.json
   title: Lead Schema
   type: JSONSchema
   url: json-schema/salesforce-sales-cloud-lead-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/json-schema/salesforce-sales-cloud-opportunity-schema.json
+  href: https://artifacts.apis.io/salesforce-sales-cloud/json-schema/salesforce-sales-cloud-opportunity-schema.json
   title: Opportunity Schema
   type: JSONSchema
   url: json-schema/salesforce-sales-cloud-opportunity-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/json-schema/salesforce-sales-cloud-task-schema.json
+  href: https://artifacts.apis.io/salesforce-sales-cloud/json-schema/salesforce-sales-cloud-task-schema.json
   title: Task Schema
   type: JSONSchema
   url: json-schema/salesforce-sales-cloud-task-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/json-schema/salesforce-sales-cloud-case-schema.json
+  href: https://artifacts.apis.io/salesforce-sales-cloud/json-schema/salesforce-sales-cloud-case-schema.json
   title: Case Schema
   type: JSONSchema
   url: json-schema/salesforce-sales-cloud-case-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/json-schema/salesforce-sales-cloud-campaign-schema.json
+  href: https://artifacts.apis.io/salesforce-sales-cloud/json-schema/salesforce-sales-cloud-campaign-schema.json
   title: Campaign Schema
   type: JSONSchema
   url: json-schema/salesforce-sales-cloud-campaign-schema.json
@@ -819,12 +818,12 @@ examples:
   slug: salesforce-sales-cloud-soql-query-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Salesforce Sales Cloud Finops
   primary_unit: ''
-  service_category: CRM
+  service_category: ''
   slug: salesforce-sales-cloud-finops
-  template: false
+  template: true
 graphqls:
 - description: Query Salesforce data using GraphQL, allowing clients to request exactly the fields they need in a single request. Reduces payload size and supports aggregation across object relationships.
   name: Salesforce Sales Cloud GraphQL API
@@ -1022,9 +1021,9 @@ overview: 'Salesforce Sales Cloud publishes 46 API contracts indexed on the [API
   Salesforce Sales Cloud''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 54 more developer resources.'
 plans:
 - name: Salesforce Sales Cloud Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: salesforce-sales-cloud-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Salesforce Sales Cloud Rate Limits
@@ -1059,23 +1058,28 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 56.6
+  composite: 54.8
   coverage:
     artifact_dirs: 23
-    catalog_earned: 51.8
+    catalog_earned: 49.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.3
+    catalog_gap: 65.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -4.2
   facets:
-    access_clarity: 32.9
+    access_clarity: 34.2
     contract_governance: 23.5
-    contract_quality: 63.8
+    contract_quality: 60.4
     developer_ergonomics: 76.2
     discoverability: 64.3
-    operational_transparency: 31.6
-  previous_composite: 58.1
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1089,13 +1093,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/screenshots/salesforce-sales-cloud-2026-06-20T193350.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/salesforce-sales-cloud/salesforce-sales-cloud-2026-06-20T193350.png
 security:
 - kind: authentication
   name: Salesforce Sales Cloud Authentication

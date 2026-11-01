@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -68,11 +70,8 @@ apis:
   description: Supplier profile and warehouse management
   name: United Natural Foods (UNFI) Suppliers API
   slug: united-natural-foods-suppliers-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: UNFI Supplier and Data API
   slug: open-unfi-supplier
@@ -90,37 +89,37 @@ collections:
   slug: open-united-natural-foods-suppliers-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/plans/united-natural-foods-plans-pricing.yml
+  href: https://artifacts.apis.io/united-natural-foods/plans/united-natural-foods-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/united-natural-foods-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/rate-limits/united-natural-foods-rate-limits.yml
+  href: https://artifacts.apis.io/united-natural-foods/rate-limits/united-natural-foods-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/united-natural-foods-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/finops/united-natural-foods-finops.yml
+  href: https://artifacts.apis.io/united-natural-foods/finops/united-natural-foods-finops.yml
   title: ''
   type: FinOps
   url: finops/united-natural-foods-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/capabilities/united-natural-foods-capability-edges.yml
+  href: https://artifacts.apis.io/united-natural-foods/capabilities/united-natural-foods-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/united-natural-foods-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/agentic-access/united-natural-foods-agentic-access.yml
+  href: https://artifacts.apis.io/united-natural-foods/agentic-access/united-natural-foods-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/united-natural-foods-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/security/united-natural-foods-domain-security.yml
+  href: https://artifacts.apis.io/united-natural-foods/security/united-natural-foods-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/united-natural-foods-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/authentication/united-natural-foods-authentication.yml
+  href: https://artifacts.apis.io/united-natural-foods/authentication/united-natural-foods-authentication.yml
   title: ''
   type: Authentication
   url: authentication/united-natural-foods-authentication.yml
@@ -241,7 +240,7 @@ press:
 - date: ''
   title: UNFI and Symbotic Announce Agreement to Implement ...
   url: https://ir.unfi.com/news/press-release-details/2022/UNFI-and-Symbotic-Announce-Agreement-to-Implement-Industry-Leading-Warehouse-Automation-Systems/default.aspx
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: United Natural Foods Rate Limits
@@ -272,7 +271,7 @@ rules:
   slug: united-natural-foods-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 27.8
+  composite: 30.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 58.0
@@ -280,15 +279,15 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 56.9
-    developer_ergonomics: 11.9
+    developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 33.5
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     contracts:
@@ -302,12 +301,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: United Natural Foods Authentication

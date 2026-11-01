@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-17'
+  score: 26.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -618,15 +620,12 @@ apis:
     question: How do I remove a voice profile from a Brand Kit?
   phrasing_ops: 5
   slug: contentstack-voice-profiles-api
-artifact_total: 202
+artifact_total: 205
 asyncapis:
 - description: Contentstack Webhooks provide event-driven notifications for content lifecycle events within a stack. When configured, Contentstack sends HTTP POST requests to your specified endpoint URL whenever mat
   name: Contentstack Webhooks
   slug: contentstack-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Contentstack Analytics Accounts API
   slug: open-contentstack-accounts-api
@@ -781,8 +780,13 @@ collections:
   name: Contentstack Analytics Accounts Voice Profiles API
   slug: open-contentstack-voice-profiles-api
 common:
+- group: other
+  href: https://artifacts.apis.io/contentstack/capabilities/contentstack-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/contentstack-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/finops/contentstack-finops.yml
+  href: https://artifacts.apis.io/contentstack/finops/contentstack-finops.yml
   title: ''
   type: FinOps
   url: finops/contentstack-finops.yml
@@ -791,22 +795,22 @@ common:
   type: Website
   url: https://contentstack.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/agentic-access/contentstack-agentic-access.yml
+  href: https://artifacts.apis.io/contentstack/agentic-access/contentstack-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/contentstack-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/security/contentstack-trust-center.yml
+  href: https://artifacts.apis.io/contentstack/security/contentstack-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/contentstack-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/security/contentstack-domain-security.yml
+  href: https://artifacts.apis.io/contentstack/security/contentstack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/contentstack-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/authentication/contentstack-authentication.yml
+  href: https://artifacts.apis.io/contentstack/authentication/contentstack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/contentstack-authentication.yml
@@ -819,97 +823,97 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/contentstack
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/asyncapi/contentstack-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/contentstack/asyncapi/contentstack-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/contentstack-webhooks-asyncapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/json-schema/contentstack-entry-schema.json
+  href: https://artifacts.apis.io/contentstack/json-schema/contentstack-entry-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/contentstack-entry-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/json-schema/contentstack-stack-schema.json
+  href: https://artifacts.apis.io/contentstack/json-schema/contentstack-stack-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/contentstack-stack-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/json-schema/contentstack-webhook-payload-schema.json
+  href: https://artifacts.apis.io/contentstack/json-schema/contentstack-webhook-payload-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/contentstack-webhook-payload-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/json-ld/contentstack-context.jsonld
+  href: https://artifacts.apis.io/contentstack/json-ld/contentstack-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/contentstack-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/vocabulary/contentstack-vocabulary.yml
+  href: https://artifacts.apis.io/contentstack/vocabulary/contentstack-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/contentstack-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/rules/contentstack-rules.yml
+  href: https://artifacts.apis.io/contentstack/rules/contentstack-rules.yml
   title: ''
   type: SpectralRules
   url: rules/contentstack-rules.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/mcp/contentstack-mcp.yml
+  href: https://artifacts.apis.io/contentstack/mcp/contentstack-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/contentstack-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/mcp/contentstack-tool-crosswalk.yml
+  href: https://artifacts.apis.io/contentstack/mcp/contentstack-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/contentstack-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/llms/contentstack-llms.txt
+  href: https://artifacts.apis.io/contentstack/llms/contentstack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/contentstack-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/packages/contentstack-packages.yml
+  href: https://artifacts.apis.io/contentstack/packages/contentstack-packages.yml
   title: ''
   type: Packages
   url: packages/contentstack-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/packages/contentstack-packages.yml
+  href: https://artifacts.apis.io/contentstack/packages/contentstack-packages.yml
   title: ''
   type: SDKs
   url: packages/contentstack-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/cli/contentstack-cli.yml
+  href: https://artifacts.apis.io/contentstack/cli/contentstack-cli.yml
   title: ''
   type: CLI
   url: cli/contentstack-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/components/contentstack-components.yml
+  href: https://artifacts.apis.io/contentstack/components/contentstack-components.yml
   title: ''
   type: Components
   url: components/contentstack-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/conventions/contentstack-conventions.yml
+  href: https://artifacts.apis.io/contentstack/conventions/contentstack-conventions.yml
   title: ''
   type: Conventions
   url: conventions/contentstack-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/conformance/contentstack-conformance.yml
+  href: https://artifacts.apis.io/contentstack/conformance/contentstack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/contentstack-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/conformance/contentstack-conformance.yml
+  href: https://artifacts.apis.io/contentstack/conformance/contentstack-conformance.yml
   title: ''
   type: Compliance
   url: conformance/contentstack-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/errors/contentstack-problem-types.yml
+  href: https://artifacts.apis.io/contentstack/errors/contentstack-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/contentstack-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/lifecycle/contentstack-lifecycle.yml
+  href: https://artifacts.apis.io/contentstack/lifecycle/contentstack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/contentstack-lifecycle.yml
@@ -918,37 +922,37 @@ common:
   type: StatusPage
   url: https://status.contentstack.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/changelog/contentstack-changelog.yml
+  href: https://artifacts.apis.io/contentstack/changelog/contentstack-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/contentstack-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/scopes/contentstack-scopes.yml
+  href: https://artifacts.apis.io/contentstack/scopes/contentstack-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/contentstack-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/data-model/contentstack-data-model.yml
+  href: https://artifacts.apis.io/contentstack/data-model/contentstack-data-model.yml
   title: ''
   type: DataModel
   url: data-model/contentstack-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/plans/contentstack-plans-pricing.yml
+  href: https://artifacts.apis.io/contentstack/plans/contentstack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/contentstack-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/rate-limits/contentstack-rate-limits.yml
+  href: https://artifacts.apis.io/contentstack/rate-limits/contentstack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/contentstack-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/contentstack/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/asyncapi/contentstack-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/contentstack/asyncapi/contentstack-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/contentstack-webhooks-asyncapi.yml
@@ -1000,10 +1004,10 @@ created: '2026-05-04'
 description: Contentstack is a composable, API-first content platform — an Agentic Experience Platform built around a headless CMS, a real-time customer data layer and an agent runtime. Developers reach it through a read-only Content Delivery API on a global CDN, a write-side Content Management API, a read-only GraphQL delivery surface, an on-the-fly Image Delivery API, and product APIs for Launch (front-end hosting), Automation Hub, Personalize, BrandKit AI and SCIM 2.0 user provisioning. Contentstack publishes a 95-scope OAuth 2.0 reference, an llms.txt, markdown twins of its API reference pages, and a first-party Model Context Protocol server exposing 206 tools whose definitions — including the REST call each one makes — it serves anonymously as JSON.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Contentstack Finops
-  primary_unit: ''
-  service_category: Headless CMS / Digital Experience Platform
+  primary_unit: subscription
+  service_category: ''
   slug: contentstack-finops
   template: false
 graphqls:
@@ -1333,12 +1337,15 @@ overview: 'Contentstack publishes 35 API contracts indexed on the [APIs.io](http
   The Contentstack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Contentstack''s developer surface includes authentication, CLI, changelog, documentation, API reference, pricing, support, and 39 more developer resources.'
+  Contentstack''s developer surface includes authentication, CLI, changelog, documentation, API reference, pricing, support, and 40 more developer resources.'
 plans:
 - name: Contentstack Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: contentstack-plans-pricing
-random_paper: 21
+- name: Contentstack Price Estimates
+  plan_count: 0
+  slug: contentstack-price-estimates
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Contentstack Rate Limits
@@ -1386,23 +1393,23 @@ scopes:
   summary_line: 105 scopes · authorization_code
 score:
   band: exemplar
-  composite: 73.6
+  composite: 74.5
   coverage:
     artifact_dirs: 37
-    catalog_earned: 81.0
+    catalog_earned: 84.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 34.0
+    catalog_gap: 31.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 27.3
-    contract_quality: 70.5
-    developer_ergonomics: 63.7
-    discoverability: 76.7
-    operational_transparency: 84.2
-  previous_composite: 75.1
+    contract_quality: 64.4
+    developer_ergonomics: 66.1
+    discoverability: 70.0
+    operational_transparency: 86.8
+  previous_composite: 72.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1423,13 +1430,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/screenshots/contentstack-2026-06-20T174935.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/contentstack/contentstack-2026-06-20T174935.png
 security:
 - kind: authentication
   name: Contentstack Authentication
@@ -1443,6 +1451,14 @@ security:
   name: Contentstack Trust Center
   slug: contentstack-trust-center
   summary_line: SOC 2, ISO 27001, GDPR
+skill_count: 3
+skills:
+- name: contentstack-provision-users-with-scim
+  slug: contentstack-provision-users-with-scim
+- name: contentstack-publish-an-entry
+  slug: contentstack-publish-an-entry
+- name: contentstack-sync-a-content-cache
+  slug: contentstack-sync-a-content-cache
 slug: contentstack
 tags:
 - Headless CMS

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,16 +25,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Remote Model Context Protocol server (Streamable HTTP, server name luminary-mcp-server v1.0.0) that exposes a customer''s Lane workspace to MCP clients: brands, brand foundation (voice, personas, objec'
   name: Luminary Lane MCP Server
   slug: luminary-lane-mcp-server
-artifact_total: 7
+artifact_total: 9
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/luminarylane-app/refs/heads/main/rate-limits/luminarylane-app-rate-limits.yml
+  href: https://artifacts.apis.io/luminarylane-app/rate-limits/luminarylane-app-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/luminarylane-app-rate-limits.yml
@@ -53,7 +55,7 @@ common:
   type: Pricing
   url: https://www.luminarylane.app/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/luminarylane-app/refs/heads/main/plans/luminarylane-app-plans-pricing.yml
+  href: https://artifacts.apis.io/luminarylane-app/plans/luminarylane-app-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/luminarylane-app-plans-pricing.yml
@@ -78,7 +80,7 @@ common:
   type: BlogRSS
   url: https://www.luminarylane.app/rss.xml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/luminarylane-app/refs/heads/main/changelog/luminarylane-app-changelog.yml
+  href: https://artifacts.apis.io/luminarylane-app/changelog/luminarylane-app-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/luminarylane-app-changelog.yml
@@ -135,7 +137,7 @@ common:
   type: Instagram
   url: https://www.instagram.com/luminarylane.app
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/luminarylane-app/refs/heads/main/llms/luminarylane-app-llms.txt
+  href: https://artifacts.apis.io/luminarylane-app/llms/luminarylane-app-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/luminarylane-app-llms.txt
@@ -144,7 +146,7 @@ common:
   type: LLMsTxt
   url: https://www.luminarylane.app/llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/luminarylane-app/refs/heads/main/a2a/luminarylane-app-a2a.yml
+  href: https://artifacts.apis.io/luminarylane-app/a2a/luminarylane-app-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/luminarylane-app-a2a.yml
@@ -153,37 +155,37 @@ common:
   type: AgentCard
   url: https://luminarylane.app/.well-known/agent-card.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/luminarylane-app/refs/heads/main/well-known/luminarylane-app-well-known.yml
+  href: https://artifacts.apis.io/luminarylane-app/well-known/luminarylane-app-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/luminarylane-app-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/luminarylane-app/refs/heads/main/packages/luminarylane-app-packages.yml
+  href: https://artifacts.apis.io/luminarylane-app/packages/luminarylane-app-packages.yml
   title: ''
   type: Packages
   url: packages/luminarylane-app-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/luminarylane-app/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/luminarylane-app/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/luminarylane-app/refs/heads/main/conformance/luminarylane-app-conformance.yml
+  href: https://artifacts.apis.io/luminarylane-app/conformance/luminarylane-app-conformance.yml
   title: ''
   type: Conformance
   url: conformance/luminarylane-app-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/luminarylane-app/refs/heads/main/lifecycle/luminarylane-app-lifecycle.yml
+  href: https://artifacts.apis.io/luminarylane-app/lifecycle/luminarylane-app-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/luminarylane-app-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/luminarylane-app/refs/heads/main/security/luminarylane-app-domain-security.yml
+  href: https://artifacts.apis.io/luminarylane-app/security/luminarylane-app-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/luminarylane-app-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/luminarylane-app/refs/heads/main/regulatory/luminarylane-app-regulatory-posture.yml
+  href: https://artifacts.apis.io/luminarylane-app/regulatory/luminarylane-app-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/luminarylane-app-regulatory-posture.yml
@@ -194,6 +196,14 @@ common:
 created: '2026-09-19'
 description: Luminary Lane (a product of Lumi5 Labs Pte. Ltd., Singapore) is an agentic AI marketing platform built around Lane, a "Chief Marketing AI-Agent" that reads a company's brand foundation, proposes channel tests across the 19-channel Traction framework, drafts content and campaigns, and executes approved work through connected LinkedIn, Facebook, Instagram, X, Bluesky, YouTube, WordPress, Sanity, GA4, Search Console and Google Ads accounts — every consequential action waiting in a human approval queue. It is sold as a self-serve monthly subscription priced in weekly "Lane Cycles" (Discover $100/mo to Agency $3,500/mo). The machine-facing surface is a remote Model Context Protocol server at mcp.luminarylane.app/mcp exposing 46 workspace tools behind OAuth 2.1 (RFC 8414/9728/7591 discovery) or a per-user API key, plus an A2A agent card, two llms.txt files, a Claude Cowork plugin with provider-published skills, and fourteen open-source stdio MCP servers on npm and PyPI. No OpenAPI,
   GraphQL, AsyncAPI or SOAP contract is published.
+finops:
+- has_sources: true
+  method: derived
+  name: Luminarylane App Finops
+  primary_unit: plus approved external budgets
+  service_category: ''
+  slug: luminarylane-app-finops
+  template: false
 image: https://www.luminarylane.app/images/logo.svg
 layout: provider
 mcp_servers:
@@ -210,9 +220,12 @@ overview: 'Luminary Lane is listed with 1 API on the [APIs.io](https://apis.io/)
   Luminary Lane''s developer surface includes documentation, getting-started guide, pricing, FAQ, support, engineering blog, changelog, and 30 more developer resources.'
 plans:
 - name: Luminarylane App Plans Pricing
-  plan_count: 4
+  plan_count: 8
   slug: luminarylane-app-plans-pricing
-random_paper: 13
+- name: Luminarylane App Price Estimates
+  plan_count: 0
+  slug: luminarylane-app-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Luminarylane App Rate Limits
@@ -224,23 +237,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 40.7
+  composite: 41.9
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 49.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 75.0
+    discoverability: 71.7
     operational_transparency: 21.1
-  previous_composite: 40.6
+  previous_composite: 40.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -251,14 +264,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 38.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/luminarylane-app/refs/heads/main/screenshots/luminarylane-app-2026-10-11T110607.png
+screenshot: https://apis.io/screenshots/luminarylane-app/luminarylane-app-2026-10-11T110607.png
 security:
 - kind: authentication
   name: Luminarylane App Authentication

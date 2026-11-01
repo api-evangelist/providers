@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The internal-but-anonymously-discoverable JSON API behind the Zerocater ordering application at app.zerocater.com. Built on Django REST Framework, it serves an RFC 6570 URI-template hypermedia index a
@@ -55,7 +57,7 @@ common:
   type: License
   url: https://github.com/ZeroCater/PyZeroCater/blob/master/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zerocater/refs/heads/main/security/zerocater-domain-security.yml
+  href: https://artifacts.apis.io/zerocater/security/zerocater-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zerocater-domain-security.yml
@@ -100,47 +102,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/ZeroCater
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zerocater/refs/heads/main/llms/zerocater-llms.txt
+  href: https://artifacts.apis.io/zerocater/llms/zerocater-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zerocater-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zerocater/refs/heads/main/packages/zerocater-packages.yml
+  href: https://artifacts.apis.io/zerocater/packages/zerocater-packages.yml
   title: ''
   type: Packages
   url: packages/zerocater-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zerocater/refs/heads/main/packages/zerocater-packages.yml
+  href: https://artifacts.apis.io/zerocater/packages/zerocater-packages.yml
   title: ''
   type: SDKs
   url: packages/zerocater-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zerocater/refs/heads/main/discovery/zerocater-api-v3-discovery.yml
+  href: https://artifacts.apis.io/zerocater/discovery/zerocater-api-v3-discovery.yml
   title: ''
   type: APIDiscovery
   url: discovery/zerocater-api-v3-discovery.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zerocater/refs/heads/main/authentication/zerocater-authentication.yml
+  href: https://artifacts.apis.io/zerocater/authentication/zerocater-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zerocater-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zerocater/refs/heads/main/errors/zerocater-problem-types.yml
+  href: https://artifacts.apis.io/zerocater/errors/zerocater-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zerocater-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zerocater/refs/heads/main/conventions/zerocater-conventions.yml
+  href: https://artifacts.apis.io/zerocater/conventions/zerocater-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zerocater-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zerocater/refs/heads/main/conformance/zerocater-conformance.yml
+  href: https://artifacts.apis.io/zerocater/conformance/zerocater-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zerocater-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zerocater/refs/heads/main/lifecycle/zerocater-lifecycle.yml
+  href: https://artifacts.apis.io/zerocater/lifecycle/zerocater-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zerocater-lifecycle.yml
@@ -169,29 +171,26 @@ overview: 'Zerocater is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Zerocater''s developer surface includes engineering blog, support, FAQ, signup flow, authentication, and 21 more developer resources.'
-random_paper: 7
+random_paper: 15
 score:
   band: emerging
-  composite: 25.2
+  composite: 24.8
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 73.2
-    operational_transparency: 18.4
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 25.1
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 24.8
   provenance:
     conformance: first-party
   regulatory:
@@ -200,14 +199,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/zerocater/refs/heads/main/screenshots/zerocater-2026-09-02T171641.png
+screenshot: https://apis.io/screenshots/zerocater/zerocater-2026-09-02T171641.png
 security:
 - kind: authentication
   name: Zerocater Authentication

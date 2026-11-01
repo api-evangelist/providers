@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,20 +36,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: HappyCo's gRPC API for property inspections, reports, templates, accounts, users, partner account provisioning, assets, folders, and streaming events.
   name: HappyCo API (Happy API)
   slug: happyco-api-happy-api
-artifact_total: 5
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Happyco Events
   slug: happyco-events
 common:
+- group: commercial
+  href: https://artifacts.apis.io/happyco/plans/happyco-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/happyco-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/happyco/refs/heads/main/security/happyco-domain-security.yml
+  href: https://artifacts.apis.io/happyco/security/happyco-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/happyco-domain-security.yml
@@ -108,37 +115,37 @@ common:
   type: StatusPage
   url: https://happyco.statuspage.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/happyco/refs/heads/main/llms/happyco-llms.txt
+  href: https://artifacts.apis.io/happyco/llms/happyco-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/happyco-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/happyco/refs/heads/main/packages/happyco-packages.yml
+  href: https://artifacts.apis.io/happyco/packages/happyco-packages.yml
   title: ''
   type: Packages
   url: packages/happyco-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/happyco/refs/heads/main/packages/happyco-packages.yml
+  href: https://artifacts.apis.io/happyco/packages/happyco-packages.yml
   title: ''
   type: SDKs
   url: packages/happyco-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/happyco/refs/heads/main/authentication/happyco-authentication.yml
+  href: https://artifacts.apis.io/happyco/authentication/happyco-authentication.yml
   title: ''
   type: Authentication
   url: authentication/happyco-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/happyco/refs/heads/main/conventions/happyco-conventions.yml
+  href: https://artifacts.apis.io/happyco/conventions/happyco-conventions.yml
   title: ''
   type: Conventions
   url: conventions/happyco-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/happyco/refs/heads/main/lifecycle/happyco-lifecycle.yml
+  href: https://artifacts.apis.io/happyco/lifecycle/happyco-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/happyco-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/happyco/refs/heads/main/conformance/happyco-conformance.yml
+  href: https://artifacts.apis.io/happyco/conformance/happyco-conformance.yml
   title: ''
   type: Conformance
   url: conformance/happyco-conformance.yml
@@ -147,37 +154,45 @@ common:
   type: Compliance
   url: https://happy.co/press/happyco-announces-soc-2-type-ii-security-certification
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/happyco/refs/heads/main/security/happyco-trust-center.yml
+  href: https://artifacts.apis.io/happyco/security/happyco-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/happyco-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/happyco/refs/heads/main/well-known/happyco-well-known.yml
+  href: https://artifacts.apis.io/happyco/well-known/happyco-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/happyco-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/happyco/refs/heads/main/mcp/happyco-mcp.yml
+  href: https://artifacts.apis.io/happyco/mcp/happyco-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/happyco-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/happyco/refs/heads/main/asyncapi/happyco-events.yml
+  href: https://artifacts.apis.io/happyco/asyncapi/happyco-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/happyco-events.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/happyco/refs/heads/main/data-model/happyco-data-model.yml
+  href: https://artifacts.apis.io/happyco/data-model/happyco-data-model.yml
   title: ''
   type: DataModel
   url: data-model/happyco-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/happyco/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/happyco/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: HappyCo is a PropTech company (founded 2011, San Diego) whose real-time multifamily operations platform powers property inspections, AI-led maintenance, centralized maintenance, and asset performance for nearly 4 million units globally. Its developer-facing Happy API is a high-performance gRPC API (grpc.happyco.com) exposing inspection, report, template, account, account-provisioning (Partner API), asset, and folder services, plus server-streaming event notifications and a flexible MyID/IntegrationID system. Generated client libraries are published for Ruby, Go, and Java, and the platform integrates with major property-management systems (Yardi, RealPage, Entrata, MRI, ResMan, AppFolio, Buildium).
+finops:
+- has_sources: true
+  method: derived
+  name: Happyco Finops
+  primary_unit: ''
+  service_category: ''
+  slug: happyco-finops
+  template: true
 image: https://cdn.prod.website-files.com/6414ce4dcbfbc386d105ceb9/69a0a5421dfd02fb3bb57b77_OG-Home.avif
 layout: provider
 modified: '2026-07-19'
@@ -190,27 +205,31 @@ overview: 'HappyCo is listed with 1 API on the [APIs.io](https://apis.io/) netwo
   The HappyCo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  HappyCo''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 22 more developer resources.'
-random_paper: 8
+  HappyCo''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 23 more developer resources.'
+plans:
+- name: Happyco Plans Pricing
+  plan_count: 0
+  slug: happyco-plans-pricing
+random_paper: 12
 score:
   band: developing
-  composite: 46.1
+  composite: 47.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 46.0
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 47.8
   provenance:
     conformance: derived
     mcp: derived
@@ -221,14 +240,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/happyco/refs/heads/main/screenshots/happyco-2026-07-25T220650.png
+screenshot: https://apis.io/screenshots/happyco/happyco-2026-07-25T220650.png
 security:
 - kind: authentication
   name: Happyco Authentication
@@ -242,6 +261,14 @@ security:
   name: Happyco Trust Center
   slug: happyco-trust-center
   summary_line: SOC 2 Type II
+skill_count: 3
+skills:
+- name: Manage HappyCo inspections
+  slug: happyco-manage-inspections
+- name: Provision HappyCo partner accounts
+  slug: happyco-provision-partner-accounts
+- name: Subscribe to HappyCo inspection & report events
+  slug: happyco-subscribe-events
 slug: happyco
 tags:
 - Company

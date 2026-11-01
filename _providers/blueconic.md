@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.7
-  scored_at: '2026-10-17'
+  score: 46.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 64
   slug: blueconic-agentic-access
   summary_line: 64 operations · 17 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
@@ -433,15 +435,12 @@ apis:
     question: What roles and details does one specific user have?
   phrasing_ops: 2
   slug: blueconic-users-api
-artifact_total: 163
+artifact_total: 167
 asyncapis:
 - description: ''
   name: Blueconic Webhooks
   slug: blueconic-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: BlueConic REST API v2 Audit Events API
   slug: open-blueconic-audit-events-api
@@ -528,27 +527,27 @@ collections:
   slug: open-blueconic-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/capabilities/blueconic-capability-edges.yml
+  href: https://artifacts.apis.io/blueconic/capabilities/blueconic-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/blueconic-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/agentic-access/blueconic-agentic-access.yml
+  href: https://artifacts.apis.io/blueconic/agentic-access/blueconic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/blueconic-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/security/blueconic-domain-security.yml
+  href: https://artifacts.apis.io/blueconic/security/blueconic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blueconic-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/authentication/blueconic-authentication.yml
+  href: https://artifacts.apis.io/blueconic/authentication/blueconic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blueconic-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/scopes/blueconic-scopes.yml
+  href: https://artifacts.apis.io/blueconic/scopes/blueconic-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/blueconic-scopes.yml
@@ -605,52 +604,52 @@ common:
   type: MCPServer
   url: https://github.com/blueconic/blueconic-mcp
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/plans/blueconic-plans-pricing.yml
+  href: https://artifacts.apis.io/blueconic/plans/blueconic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blueconic-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/rate-limits/blueconic-rate-limits.yml
+  href: https://artifacts.apis.io/blueconic/rate-limits/blueconic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blueconic-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/finops/blueconic-finops.yml
+  href: https://artifacts.apis.io/blueconic/finops/blueconic-finops.yml
   title: ''
   type: FinOps
   url: finops/blueconic-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/packages/blueconic-packages.yml
+  href: https://artifacts.apis.io/blueconic/packages/blueconic-packages.yml
   title: ''
   type: Packages
   url: packages/blueconic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/packages/blueconic-packages.yml
+  href: https://artifacts.apis.io/blueconic/packages/blueconic-packages.yml
   title: ''
   type: SDKs
   url: packages/blueconic-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/mcp/blueconic-mcp.yml
+  href: https://artifacts.apis.io/blueconic/mcp/blueconic-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/blueconic-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/mcp/blueconic-tool-crosswalk.yml
+  href: https://artifacts.apis.io/blueconic/mcp/blueconic-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/blueconic-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/blueconic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/llms/blueconic-llms.txt
+  href: https://artifacts.apis.io/blueconic/llms/blueconic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blueconic-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/conformance/blueconic-conformance.yml
+  href: https://artifacts.apis.io/blueconic/conformance/blueconic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blueconic-conformance.yml
@@ -659,12 +658,12 @@ common:
   type: Compliance
   url: https://www.blueconic.com/trust-center
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/security/blueconic-trust-center.yml
+  href: https://artifacts.apis.io/blueconic/security/blueconic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/blueconic-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/security/blueconic-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/blueconic/security/blueconic-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/blueconic-vulnerability-disclosure.yml
@@ -673,12 +672,12 @@ common:
   type: Security
   url: https://support.blueconic.com/en/articles/266965-guidelines-for-penetration-tests
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/errors/blueconic-problem-types.yml
+  href: https://artifacts.apis.io/blueconic/errors/blueconic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/blueconic-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/lifecycle/blueconic-lifecycle.yml
+  href: https://artifacts.apis.io/blueconic/lifecycle/blueconic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blueconic-lifecycle.yml
@@ -687,7 +686,7 @@ common:
   type: Deprecation
   url: https://support.blueconic.com/en/articles/248010-blueconic-rest-api-migration
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/changelog/blueconic-changelog.yml
+  href: https://artifacts.apis.io/blueconic/changelog/blueconic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/blueconic-changelog.yml
@@ -696,67 +695,67 @@ common:
   type: ChangeLog
   url: https://announcekit.co/blueconic-changelog/blueconic-product-updates
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/conventions/blueconic-conventions.yml
+  href: https://artifacts.apis.io/blueconic/conventions/blueconic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blueconic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/data-model/blueconic-data-model.yml
+  href: https://artifacts.apis.io/blueconic/data-model/blueconic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blueconic-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/sandbox/blueconic-sandbox.yml
+  href: https://artifacts.apis.io/blueconic/sandbox/blueconic-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/blueconic-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/asyncapi/blueconic-webhooks.yml
+  href: https://artifacts.apis.io/blueconic/asyncapi/blueconic-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/blueconic-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/vocabulary/blueconic-vocabulary.yml
+  href: https://artifacts.apis.io/blueconic/vocabulary/blueconic-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/blueconic-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/rules/blueconic-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/blueconic/rules/blueconic-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/blueconic-jsonschema-spectral-rules.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/examples/getOneProfile-response-200.json
+  href: https://artifacts.apis.io/blueconic/examples/getOneProfile-response-200.json
   title: ''
   type: Examples
   url: examples/getOneProfile-response-200.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/examples/createUpdateDeleteProfiles-request.json
+  href: https://artifacts.apis.io/blueconic/examples/createUpdateDeleteProfiles-request.json
   title: ''
   type: Examples
   url: examples/createUpdateDeleteProfiles-request.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/examples/getProfilesInSegment-response-200.json
+  href: https://artifacts.apis.io/blueconic/examples/getProfilesInSegment-response-200.json
   title: ''
   type: Examples
   url: examples/getProfilesInSegment-response-200.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/examples/getAuditEvents-response-200.json
+  href: https://artifacts.apis.io/blueconic/examples/getAuditEvents-response-200.json
   title: ''
   type: Examples
   url: examples/getAuditEvents-response-200.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/json-schema/profile.json
+  href: https://artifacts.apis.io/blueconic/json-schema/profile.json
   title: ''
   type: JSONSchema
   url: json-schema/profile.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/json-schema/segment.json
+  href: https://artifacts.apis.io/blueconic/json-schema/segment.json
   title: ''
   type: JSONSchema
   url: json-schema/segment.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/json-ld/blueconic-context.jsonld
+  href: https://artifacts.apis.io/blueconic/json-ld/blueconic-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/blueconic-context.jsonld
@@ -985,8 +984,8 @@ examples:
   name: Updateurlmapping Response 200
   slug: updateURLMapping-response-200
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Blueconic Finops
   primary_unit: ''
   service_category: ''
@@ -1097,7 +1096,7 @@ plans:
 - name: Blueconic Plans Pricing
   plan_count: 0
   slug: blueconic-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Blueconic Rate Limits
@@ -1129,15 +1128,15 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -0.6
   facets:
     access_clarity: 47.4
     contract_governance: 31.8
-    contract_quality: 61.6
+    contract_quality: 60.4
     developer_ergonomics: 78.6
-    discoverability: 68.3
+    discoverability: 65.0
     operational_transparency: 94.7
-  previous_composite: 68.9
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1154,13 +1153,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/screenshots/blueconic-2026-06-20T173532.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/blueconic/blueconic-2026-06-20T173532.png
 security:
 - kind: authentication
   name: Blueconic Authentication
@@ -1178,6 +1178,18 @@ security:
   name: Blueconic Trust Center
   slug: blueconic-trust-center
   summary_line: SOC 2 Type 2, TRUSTe Verified Privacy Seal, TRUSTe Verified International Privacy Seal, EU-U.S. Data Privacy Framework (incl. UK Extension and Swiss-U.S. DPF)
+skill_count: 5
+skills:
+- name: blueconic-audit-tenant-governance
+  slug: blueconic-audit-tenant-governance
+- name: blueconic-authenticate-rest-api
+  slug: blueconic-authenticate-rest-api
+- name: blueconic-bulk-upsert-profiles
+  slug: blueconic-bulk-upsert-profiles
+- name: blueconic-read-segment-audience
+  slug: blueconic-read-segment-audience
+- name: blueconic-sdk-integration
+  slug: blueconic-sdk-integration
 slug: blueconic
 tags:
 - Customer Data Platform

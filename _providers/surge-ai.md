@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
-    rate_limit_signal: derived
-    reversibility_documented: documented
+    rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 21.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -79,25 +81,22 @@ apis:
   name: Surge Toxicity Dataset
   slug: surge-toxicity-dataset
 - baseURL: https://app.surgehq.ai/api
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Projects API from Surge AI — 9 operation(s) for projects.
   name: Surge AI Projects API
   slug: surge-ai-projects-api
 - baseURL: https://app.surgehq.ai/api
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Tasks API from Surge AI — 5 operation(s) for tasks.
   name: Surge AI Tasks API
   slug: surge-ai-tasks-api
 - baseURL: https://app.surgehq.ai/api
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Teams API from Surge AI — 1 operation(s) for teams.
   name: Surge AI Teams API
   slug: surge-ai-teams-api
-artifact_total: 44
+artifact_total: 55
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Surge AI Projects API
   slug: open-surge-ai-projects-api
@@ -111,25 +110,85 @@ collections:
   name: Surge AI API
   slug: open-surge-ai
 common:
-- group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/plans/surge-ai-plans-pricing.yml
+- group: other
+  href: https://artifacts.apis.io/surge-ai/capabilities/surge-ai-capability-edges.yml
   title: ''
-  type: Plans
-  url: plans/surge-ai-plans-pricing.yml
+  type: CapabilityMap
+  url: capabilities/surge-ai-capability-edges.yml
+- group: design
+  href: https://artifacts.apis.io/surge-ai/rules/surge-ai-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/surge-ai-rules.yml
+- group: design
+  href: https://artifacts.apis.io/surge-ai/json-ld/surge-ai-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/surge-ai-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/surge-ai/vocabulary/surge-ai-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/surge-ai-vocabulary.yml
+- group: agent
+  href: https://artifacts.apis.io/surge-ai/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://artifacts.apis.io/surge-ai/data-model/surge-ai-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/surge-ai-data-model.yml
+- group: design
+  href: https://artifacts.apis.io/surge-ai/conventions/surge-ai-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/surge-ai-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/rate-limits/surge-ai-rate-limits.yml
+  href: https://artifacts.apis.io/surge-ai/lifecycle/surge-ai-lifecycle.yml
   title: ''
-  type: RateLimits
-  url: rate-limits/surge-ai-rate-limits.yml
+  type: Deprecation
+  url: lifecycle/surge-ai-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/surge-ai/lifecycle/surge-ai-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/surge-ai-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/surge-ai/conformance/surge-ai-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/surge-ai-conformance.yml
+- group: other
+  href: https://artifacts.apis.io/surge-ai/overlays/surge-ai-projects-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/surge-ai-projects-api-overlay.yaml
+- group: other
+  href: https://artifacts.apis.io/surge-ai/hosts/surge-ai-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/surge-ai-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/surge-ai/vendors/surge-ai-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/surge-ai-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/surge-ai/packages/surge-ai-packages.yml
+  title: ''
+  type: Packages
+  url: packages/surge-ai-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/finops/surge-ai-finops.yml
+  href: https://artifacts.apis.io/surge-ai/finops/surge-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/surge-ai-finops.yml
 - group: company
   title: ''
   type: Website
-  url: https://www.surgehq.ai/
+  url: https://surgehq.ai/
 - group: operate
   title: ''
   type: IssueTracker
@@ -139,17 +198,17 @@ common:
   type: License
   url: https://github.com/surge-ai/surge-python/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/agentic-access/surge-ai-agentic-access.yml
+  href: https://artifacts.apis.io/surge-ai/agentic-access/surge-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/surge-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/security/surge-ai-domain-security.yml
+  href: https://artifacts.apis.io/surge-ai/security/surge-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/surge-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/authentication/surge-ai-authentication.yml
+  href: https://artifacts.apis.io/surge-ai/authentication/surge-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/surge-ai-authentication.yml
@@ -200,11 +259,51 @@ common:
 - group: operate
   title: ''
   type: Support
-  url: https://www.surgehq.ai
+  url: https://surgehq.ai/contact
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://surgehq.ai/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://surgehq.ai/privacy-policy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.surgehq.ai/
+- group: docs
+  title: ''
+  type: Guides
+  url: https://surgehq.ai/guides
+- group: start
+  title: ''
+  type: Login
+  url: https://app.surgehq.ai/customers/sign_in
+- group: company
+  title: ''
+  type: Careers
+  url: https://surgehq.ai/careers
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/surge-ai/
 - group: other
   title: ''
   type: X
   url: https://x.com/HelloSurgeAI
+coverage:
+  checked: '2026-10-27'
+  detail: Surge's API reference at app.surgehq.ai/docs/api redirects to app.surgehq.ai/customers/sign_in, so the only public description of the API is the open-source surge-python SDK.
+  evidence:
+  - status: 200
+    url: https://app.surgehq.ai/docs/api
+  - status: 404
+    url: https://app.surgehq.ai/openapi.json
+  - status: 404
+    url: https://app.surgehq.ai/api/openapi.json
+  reason: customer-only-docs
+  state: gated
 created: '2026-05-23'
 description: Surge AI is a human-data company that provides large-scale, expert-quality labeled data for training and evaluating frontier AI models. The product surface spans RL environments and agents (rich, complex environments that challenge agentic models), rubrics and verifiers (scoring systems for AI outputs), RLHF (preference and reward data), SFT (foundational skill demonstrations), human evaluation, expert professional domains, internationalization across 70+ languages, multimodal (image, audio, video) data, and off-the-shelf datasets. Surge ships an official Python SDK (surge-python) wrapping the Surge API, with API-key authentication, and exposes the dashboard and API reference at app.surgehq.ai. Public datasets published by Surge include the toxicity dataset (the world's largest social-media toxicity dataset).
 features:
@@ -246,66 +345,107 @@ integrations:
   name: API Key Authentication
 - description: Use Surge blueprints as templates for new labeling projects.
   name: Custom Project Blueprints
+json_schemas:
+- name: ProjectCreate
+  property_count: 4
+  slug: surge-ai-project-create
+- name: Project
+  property_count: 4
+  slug: surge-ai-project
+- name: ProjectUpdate
+  property_count: 3
+  slug: surge-ai-project-update
+- name: TaskCreate
+  property_count: 1
+  slug: surge-ai-task-create
+- name: Task
+  property_count: 4
+  slug: surge-ai-task
+- name: Team
+  property_count: 2
+  slug: surge-ai-team
+jsonld:
+- class_count: 6
+  name: Surge Ai Context
+  property_count: 10
+  slug: surge-ai-context
 layout: provider
-modified: '2026-05-23'
+modified: '2026-10-27'
 name: Surge AI
 nav: Providers
 network: true
 overview: 'Surge AI publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Projects API, Tasks API, Teams API, and 11 more. Tagged areas include Human Data, RLHF, SFT, Rubrics, and Verifiers.
 
 
-  Surge AI''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, developer console, engineering blog, and 15 more developer resources.'
+  The Surge AI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Surge AI''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, developer console, engineering blog, and 34 more developer resources.'
 plans:
 - name: Surge Ai Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: surge-ai-plans-pricing
 random_paper: 5
 rate_limits:
-- limit_count: 2
+- limit_count: 0
   name: Surge Ai Rate Limits
   slug: surge-ai-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Surge AI API Rules
+  rule_count: 12
+  severity_counts:
+    error: 10
+    hint: 0
+    info: 1
+    warn: 1
+  slug: surge-ai-rules
 score:
-  band: thin
-  composite: 28.7
+  band: developing
+  composite: 46.9
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 36.0
+    artifact_dirs: 29
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.8
+  delta: 8.8
   facets:
-    access_clarity: 18.4
-    contract_governance: 0.0
-    contract_quality: 45.3
-    developer_ergonomics: 59.5
+    access_clarity: 34.2
+    contract_governance: 22.0
+    contract_quality: 58.9
+    developer_ergonomics: 61.3
     discoverability: 57.1
-    operational_transparency: 7.9
-  open_source:
-    applies: true
-    score: 0.0
-  previous_composite: 34.5
+    operational_transparency: 28.9
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/screenshots/surge-ai-2026-06-20T194733.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/surge-ai/surge-ai-2026-06-20T194733.png
 security:
 - kind: authentication
   name: Surge Ai Authentication
@@ -315,6 +455,16 @@ security:
   name: Surge Ai Domain Security
   slug: surge-ai-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: collect-task-responses
+  slug: surge-ai-collect-task-responses
+- name: create-and-launch-a-labeling-project
+  slug: surge-ai-create-and-launch-a-labeling-project
+- name: manage-project-lifecycle
+  slug: surge-ai-manage-project-lifecycle
+- name: seed-gold-standards
+  slug: surge-ai-seed-gold-standards
 slug: surge-ai
 tags:
 - Human Data
@@ -337,5 +487,5 @@ use_cases:
   name: Multilingual Model Evaluation
 - description: Use the toxicity dataset and human evaluation pipelines for trust and safety work.
   name: Trust and Safety Research
-website: https://www.surgehq.ai/
+website: https://surgehq.ai/
 ---

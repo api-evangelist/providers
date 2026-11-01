@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: true
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 32.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,15 +66,12 @@ arazzos:
 - description: List the authenticated shop's shipment report exports and download the most recent finished, non-expired report.
   name: Wonderment — export and download a shipment report
   slug: wonderment-report-export
-artifact_total: 12
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Wonderment Webhooks
   slug: wonderment-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Wonderment Delivery Promise API
   slug: open-wonderment-delivery-promise-api
@@ -88,12 +87,12 @@ common:
   type: Blog
   url: https://www.loopreturns.com/blog/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/capabilities/wonderment-capability-edges.yml
+  href: https://artifacts.apis.io/wonderment/capabilities/wonderment-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/wonderment-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/overlays/wonderment-openapi-overlay.yaml
+  href: https://artifacts.apis.io/wonderment/overlays/wonderment-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wonderment-openapi-overlay.yaml
@@ -118,72 +117,72 @@ common:
   type: Login
   url: https://app.wonderment.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/llms/wonderment-llms.txt
+  href: https://artifacts.apis.io/wonderment/llms/wonderment-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wonderment-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/mcp/wonderment-mcp.yml
+  href: https://artifacts.apis.io/wonderment/mcp/wonderment-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wonderment-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/authentication/wonderment-authentication.yml
+  href: https://artifacts.apis.io/wonderment/authentication/wonderment-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wonderment-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/agentic-access/wonderment-agentic-access.yml
+  href: https://artifacts.apis.io/wonderment/agentic-access/wonderment-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wonderment-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/conventions/wonderment-conventions.yml
+  href: https://artifacts.apis.io/wonderment/conventions/wonderment-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wonderment-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/errors/wonderment-problem-types.yml
+  href: https://artifacts.apis.io/wonderment/errors/wonderment-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wonderment-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/lifecycle/wonderment-lifecycle.yml
+  href: https://artifacts.apis.io/wonderment/lifecycle/wonderment-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wonderment-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/conformance/wonderment-conformance.yml
+  href: https://artifacts.apis.io/wonderment/conformance/wonderment-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wonderment-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/data-model/wonderment-data-model.yml
+  href: https://artifacts.apis.io/wonderment/data-model/wonderment-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wonderment-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/components/wonderment-components.yml
+  href: https://artifacts.apis.io/wonderment/components/wonderment-components.yml
   title: ''
   type: Components
   url: components/wonderment-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/asyncapi/wonderment-webhooks.yml
+  href: https://artifacts.apis.io/wonderment/asyncapi/wonderment-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/wonderment-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/wonderment/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/arazzo/wonderment-report-export.yml
+  href: https://artifacts.apis.io/wonderment/arazzo/wonderment-report-export.yml
   title: ''
   type: Arazzo
   url: arazzo/wonderment-report-export.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/security/wonderment-domain-security.yml
+  href: https://artifacts.apis.io/wonderment/security/wonderment-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wonderment-domain-security.yml
@@ -206,10 +205,10 @@ overview: 'Wonderment publishes 3 API contracts indexed on the [APIs.io](https:/
 
 
   Wonderment''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, and 17 more developer resources.'
-random_paper: 13
+random_paper: 11
 score:
   band: thin
-  composite: 34.8
+  composite: 35.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -217,15 +216,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 58.0
     developer_ergonomics: 49.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 34.3
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,14 +241,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/wonderment/refs/heads/main/screenshots/wonderment-2026-09-02T170915.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wonderment/wonderment-2026-09-02T170915.png
 security:
 - kind: authentication
   name: Wonderment Authentication
@@ -259,6 +258,14 @@ security:
   name: Wonderment Domain Security
   slug: wonderment-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Quote a delivery date
+  slug: wonderment-delivery-promise
+- name: Export and download a shipment report
+  slug: wonderment-export-report
+- name: Track a shipment
+  slug: wonderment-track-shipment
 slug: wonderment
 tags:
 - Company

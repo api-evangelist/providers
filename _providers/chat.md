@@ -4,6 +4,6 @@ layout: provider
 name: chat
 nav: Providers
 network: true
-random_paper: 20
+random_paper: 8
 slug: chat
 ---

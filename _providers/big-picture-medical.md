@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
@@ -52,47 +54,47 @@ common:
   type: Compliance
   url: https://trust.bigpicturemedical.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/security/big-picture-medical-trust-center.yml
+  href: https://artifacts.apis.io/big-picture-medical/security/big-picture-medical-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/big-picture-medical-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/security/big-picture-medical-domain-security.yml
+  href: https://artifacts.apis.io/big-picture-medical/security/big-picture-medical-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/big-picture-medical-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/conformance/big-picture-medical-conformance.yml
+  href: https://artifacts.apis.io/big-picture-medical/conformance/big-picture-medical-conformance.yml
   title: ''
   type: Conformance
   url: conformance/big-picture-medical-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/lifecycle/big-picture-medical-lifecycle.yml
+  href: https://artifacts.apis.io/big-picture-medical/lifecycle/big-picture-medical-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/big-picture-medical-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/plans/big-picture-medical-plans-pricing.yml
+  href: https://artifacts.apis.io/big-picture-medical/plans/big-picture-medical-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/big-picture-medical-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/rate-limits/big-picture-medical-rate-limits.yml
+  href: https://artifacts.apis.io/big-picture-medical/rate-limits/big-picture-medical-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/big-picture-medical-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/packages/big-picture-medical-packages.yml
+  href: https://artifacts.apis.io/big-picture-medical/packages/big-picture-medical-packages.yml
   title: ''
   type: Packages
   url: packages/big-picture-medical-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/components/big-picture-medical-components.yml
+  href: https://artifacts.apis.io/big-picture-medical/components/big-picture-medical-components.yml
   title: ''
   type: Components
   url: components/big-picture-medical-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/llms/big-picture-medical-llms.txt
+  href: https://artifacts.apis.io/big-picture-medical/llms/big-picture-medical-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/big-picture-medical-llms.txt
@@ -129,14 +131,14 @@ plans:
 - name: Big Picture Medical Plans Pricing
   plan_count: 1
   slug: big-picture-medical-plans-pricing
-random_paper: 9
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Big Picture Medical Rate Limits
   slug: big-picture-medical-rate-limits
 score:
   band: emerging
-  composite: 23.0
+  composite: 23.3
   coverage:
     artifact_dirs: 14
     catalog_earned: 35.0
@@ -144,14 +146,14 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 48.2
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -160,7 +162,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 22.9
+  previous_composite: 23.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -176,14 +178,14 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/screenshots/big-picture-medical-2026-10-11T102121.png
+screenshot: https://apis.io/screenshots/big-picture-medical/big-picture-medical-2026-10-11T102121.png
 security:
 - kind: authentication
   name: Big Picture Medical Authentication

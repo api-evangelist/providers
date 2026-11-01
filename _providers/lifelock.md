@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -41,17 +43,17 @@ common:
   type: Website
   url: https://lifelock.norton.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lifelock/refs/heads/main/llms/lifelock-llms.txt
+  href: https://artifacts.apis.io/lifelock/llms/lifelock-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lifelock-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lifelock/refs/heads/main/security/lifelock-domain-security.yml
+  href: https://artifacts.apis.io/lifelock/security/lifelock-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lifelock-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lifelock/refs/heads/main/security/lifelock-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/lifelock/security/lifelock-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lifelock-vulnerability-disclosure.yml
@@ -99,12 +101,12 @@ overview: 'LifeLock is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   LifeLock''s developer surface includes engineering blog, support, pricing, signup flow, and 8 more developer resources.'
-random_paper: 5
+random_paper: 1
 score:
   band: emerging
-  composite: 17.9
+  composite: 17.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -116,23 +118,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 17.9
+  previous_composite: 17.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lifelock/refs/heads/main/screenshots/lifelock-2026-07-25T225042.png
+screenshot: https://apis.io/screenshots/lifelock/lifelock-2026-07-25T225042.png
 security:
 - kind: domain-security
   name: Lifelock Domain Security

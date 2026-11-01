@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: FOCUS defines a common normalized data schema for cloud and technology billing data. The specification is delivered as a set of normative documents and supporting artifacts (column library, requiremen
@@ -42,17 +44,17 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/focus-spec/refs/heads/main/plans/focus-spec-plans-pricing.yml
+  href: https://artifacts.apis.io/focus-spec/plans/focus-spec-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/focus-spec-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/focus-spec/refs/heads/main/rate-limits/focus-spec-rate-limits.yml
+  href: https://artifacts.apis.io/focus-spec/rate-limits/focus-spec-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/focus-spec-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/focus-spec/refs/heads/main/finops/focus-spec-finops.yml
+  href: https://artifacts.apis.io/focus-spec/finops/focus-spec-finops.yml
   title: ''
   type: FinOps
   url: finops/focus-spec-finops.yml
@@ -69,7 +71,7 @@ common:
   type: ContributionGuide
   url: https://github.com/FinOps-Open-Cost-and-Usage-Spec/FOCUS_Spec/blob/working_draft/CONTRIBUTING.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/focus-spec/refs/heads/main/security/focus-spec-domain-security.yml
+  href: https://artifacts.apis.io/focus-spec/security/focus-spec-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/focus-spec-domain-security.yml
@@ -90,7 +92,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/FinOps-Open-Cost-and-Usage-Spec
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/focus-spec/refs/heads/main/json-schema/focus-billing-record-schema.json
+  href: https://artifacts.apis.io/focus-spec/json-schema/focus-billing-record-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/focus-billing-record-schema.json
@@ -100,7 +102,7 @@ finops:
 - has_sources: false
   method: generated
   name: Focus Spec Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: focus-spec-finops
   template: true
@@ -125,7 +127,7 @@ plans:
 - name: Focus Spec Plans Pricing
   plan_count: 3
   slug: focus-spec-plans-pricing
-random_paper: 4
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Focus Spec Rate Limits
@@ -144,7 +146,7 @@ rules:
   slug: focus-spec-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 14.2
+  composite: 16.9
   coverage:
     artifact_dirs: 9
     catalog_earned: 46.7
@@ -152,29 +154,29 @@ score:
     catalog_gap: 68.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 7.2
-    developer_ergonomics: 9.5
+    developer_ergonomics: 21.4
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 15.7
+    operational_transparency: 28.9
+  previous_composite: 16.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/focus-spec/refs/heads/main/screenshots/focus-spec-2026-06-20T181352.png
+screenshot: https://apis.io/screenshots/focus-spec/focus-spec-2026-06-20T181352.png
 security:
 - kind: domain-security
   name: Focus Spec Domain Security

@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Pocus core API is a GraphQL endpoint at https://api.pocus.com/graphql, confirmed live and authoritatively named as POCUS_CORE_API_ENDPOINT in Pocus' own published @pocus/cli package. Introspection
@@ -100,57 +102,57 @@ common:
   type: StatusPage
   url: https://status.pocus.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pocus/refs/heads/main/llms/pocus-llms.txt
+  href: https://artifacts.apis.io/pocus/llms/pocus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pocus-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pocus/refs/heads/main/mcp/pocus-mcp.yml
+  href: https://artifacts.apis.io/pocus/mcp/pocus-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/pocus-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pocus/refs/heads/main/well-known/pocus-well-known.yml
+  href: https://artifacts.apis.io/pocus/well-known/pocus-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pocus-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pocus/refs/heads/main/packages/pocus-packages.yml
+  href: https://artifacts.apis.io/pocus/packages/pocus-packages.yml
   title: ''
   type: Packages
   url: packages/pocus-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pocus/refs/heads/main/cli/pocus-cli.yml
+  href: https://artifacts.apis.io/pocus/cli/pocus-cli.yml
   title: ''
   type: CLI
   url: cli/pocus-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pocus/refs/heads/main/components/pocus-components.yml
+  href: https://artifacts.apis.io/pocus/components/pocus-components.yml
   title: ''
   type: Components
   url: components/pocus-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pocus/refs/heads/main/conformance/pocus-conformance.yml
+  href: https://artifacts.apis.io/pocus/conformance/pocus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pocus-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pocus/refs/heads/main/lifecycle/pocus-lifecycle.yml
+  href: https://artifacts.apis.io/pocus/lifecycle/pocus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pocus-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pocus/refs/heads/main/security/pocus-domain-security.yml
+  href: https://artifacts.apis.io/pocus/security/pocus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pocus-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pocus/refs/heads/main/plans/pocus-plans-pricing.yml
+  href: https://artifacts.apis.io/pocus/plans/pocus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pocus-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pocus/refs/heads/main/rate-limits/pocus-rate-limits.yml
+  href: https://artifacts.apis.io/pocus/rate-limits/pocus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pocus-rate-limits.yml
@@ -174,7 +176,7 @@ plans:
 - name: Pocus Plans Pricing
   plan_count: 0
   slug: pocus-plans-pricing
-random_paper: 4
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Pocus Rate Limits
@@ -186,7 +188,7 @@ scopes:
   summary_line: 3 scopes
 score:
   band: thin
-  composite: 27.4
+  composite: 33.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -194,15 +196,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 42.9
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 27.3
+    developer_ergonomics: 64.3
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 33.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -212,14 +214,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pocus/refs/heads/main/screenshots/pocus-2026-09-02T151605.png
+screenshot: https://apis.io/screenshots/pocus/pocus-2026-09-02T151605.png
 security:
 - kind: authentication
   name: Pocus Authentication

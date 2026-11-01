@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-17'
+  score: 20.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Partner-gated Upload/Download integration that pushes ACORD-based application and submission data from an agency management system (AMS) into the Semsee platform for multi-carrier quoting. No public, '
@@ -48,27 +50,24 @@ apis:
 - description: No public webhook or event-notification surface is documented by Semsee. This entry is a placeholder reflecting that event-driven callbacks, if they exist, are part of a private partner integration an
   name: Semsee Webhooks API
   slug: semsee-webhooks-api
-artifact_total: 13
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Semsee API
   slug: open-semsee
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/security/semsee-trust-center.yml
+  href: https://artifacts.apis.io/semsee/security/semsee-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/semsee-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/security/semsee-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/semsee/security/semsee-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/semsee-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/security/semsee-domain-security.yml
+  href: https://artifacts.apis.io/semsee/security/semsee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/semsee-domain-security.yml
@@ -85,17 +84,17 @@ common:
   type: Documentation
   url: https://help.semsee.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/plans/semsee-plans-pricing.yml
+  href: https://artifacts.apis.io/semsee/plans/semsee-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/semsee-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/rate-limits/semsee-rate-limits.yml
+  href: https://artifacts.apis.io/semsee/rate-limits/semsee-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/semsee-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/finops/semsee-finops.yml
+  href: https://artifacts.apis.io/semsee/finops/semsee-finops.yml
   title: ''
   type: FinOps
   url: finops/semsee-finops.yml
@@ -131,14 +130,14 @@ plans:
 - name: Semsee Plans Pricing
   plan_count: 3
   slug: semsee-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Semsee Rate Limits
   slug: semsee-rate-limits
 score:
   band: emerging
-  composite: 19.5
+  composite: 22.2
   coverage:
     artifact_dirs: 10
     catalog_earned: 42.0
@@ -146,15 +145,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 23.3
+    contract_quality: 29.7
     developer_ergonomics: 16.2
-    discoverability: 68.3
-    operational_transparency: 5.3
-  previous_composite: 26.9
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 22.2
   provenance:
     mcp: first-party
   regulatory:
@@ -163,14 +162,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 14.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/semsee/refs/heads/main/screenshots/semsee-2026-09-02T154832.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/semsee/semsee-2026-09-02T154832.png
 security:
 - kind: domain-security
   name: Semsee Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'Rite Aid supports Electronic Data Interchange (EDI) for vendor integration using ANSI/ASC X12 standards (versions 4010 and 5010). Supported transactions include purchase orders (850), invoices (810), '
@@ -45,22 +47,22 @@ apis:
 artifact_total: 10
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rite-aid/refs/heads/main/plans/rite-aid-plans-pricing.yml
+  href: https://artifacts.apis.io/rite-aid/plans/rite-aid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rite-aid-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rite-aid/refs/heads/main/rate-limits/rite-aid-rate-limits.yml
+  href: https://artifacts.apis.io/rite-aid/rate-limits/rite-aid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rite-aid-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rite-aid/refs/heads/main/finops/rite-aid-finops.yml
+  href: https://artifacts.apis.io/rite-aid/finops/rite-aid-finops.yml
   title: ''
   type: FinOps
   url: finops/rite-aid-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rite-aid/refs/heads/main/security/rite-aid-domain-security.yml
+  href: https://artifacts.apis.io/rite-aid/security/rite-aid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rite-aid-domain-security.yml
@@ -165,7 +167,7 @@ press:
 - date: ''
   title: Rite Aid Banned from Using AI Facial Recognition After ...
   url: https://www.ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Rite Aid Rate Limits
@@ -184,7 +186,7 @@ rules:
   slug: rite-aid-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 16.3
+  composite: 22.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 51.8
@@ -192,29 +194,29 @@ score:
     catalog_gap: 63.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 26.3
     contract_governance: 23.5
     contract_quality: 10.7
-    developer_ergonomics: 14.3
+    developer_ergonomics: 19.0
     discoverability: 64.3
-    operational_transparency: 7.9
-  previous_composite: 17.9
+    operational_transparency: 10.5
+  previous_composite: 22.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 8.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 14.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rite-aid/refs/heads/main/screenshots/rite-aid-2026-06-20T193130.png
+screenshot: https://apis.io/screenshots/rite-aid/rite-aid-2026-06-20T193130.png
 security:
 - kind: domain-security
   name: Rite Aid Domain Security

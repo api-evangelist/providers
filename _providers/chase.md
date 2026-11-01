@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -99,11 +101,8 @@ apis:
   description: The Transactions API from Chase — 1 operation(s) for transactions.
   name: Chase Transactions API
   slug: chase-transactions-api
-artifact_total: 40
+artifact_total: 39
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Chase Account Aggregation User Consent API
   slug: open-chase-account-aggregation-user-consent-api
@@ -154,42 +153,42 @@ collections:
   slug: open-chase-transactions-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/plans/chase-plans-pricing.yml
+  href: https://artifacts.apis.io/chase/plans/chase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chase-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/rate-limits/chase-rate-limits.yml
+  href: https://artifacts.apis.io/chase/rate-limits/chase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chase-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/finops/chase-finops.yml
+  href: https://artifacts.apis.io/chase/finops/chase-finops.yml
   title: ''
   type: FinOps
   url: finops/chase-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/capabilities/chase-capability-edges.yml
+  href: https://artifacts.apis.io/chase/capabilities/chase-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/chase-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/agentic-access/chase-agentic-access.yml
+  href: https://artifacts.apis.io/chase/agentic-access/chase-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/chase-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/security/chase-domain-security.yml
+  href: https://artifacts.apis.io/chase/security/chase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chase-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/authentication/chase-authentication.yml
+  href: https://artifacts.apis.io/chase/authentication/chase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chase-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/scopes/chase-scopes.yml
+  href: https://artifacts.apis.io/chase/scopes/chase-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/chase-scopes.yml
@@ -238,22 +237,22 @@ common:
   type: PrivacyPolicy
   url: https://www.chase.com/digital/resources/privacy-security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/json-ld/chase-context.jsonld
+  href: https://artifacts.apis.io/chase/json-ld/chase-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/chase-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/json-schema/chase-account-schema.json
+  href: https://artifacts.apis.io/chase/json-schema/chase-account-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/chase-account-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/json-schema/chase-rewards-balance-schema.json
+  href: https://artifacts.apis.io/chase/json-schema/chase-rewards-balance-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/chase-rewards-balance-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/spectral/chase-spectral.yml
+  href: https://artifacts.apis.io/chase/spectral/chase-spectral.yml
   title: ''
   type: Spectral
   url: spectral/chase-spectral.yml
@@ -300,7 +299,7 @@ plans:
 - name: Chase Plans Pricing
   plan_count: 2
   slug: chase-plans-pricing
-random_paper: 10
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Chase Rate Limits
@@ -324,7 +323,7 @@ scopes:
   summary_line: 11 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 33.4
+  composite: 35.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 52.3
@@ -332,15 +331,15 @@ score:
     catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 45.6
-    developer_ergonomics: 31.0
+    developer_ergonomics: 35.7
     discoverability: 71.4
-    operational_transparency: 7.9
-  previous_composite: 35.0
+    operational_transparency: 10.5
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -354,13 +353,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 33.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/screenshots/chase-2026-06-20T174235.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/chase/chase-2026-06-20T174235.png
 security:
 - kind: authentication
   name: Chase Authentication

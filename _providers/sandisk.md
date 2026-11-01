@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The SanDisk iXpand SDK enables third-party iOS application developers to access and manage iXpand Flash Drive storage through the Lightning interface. It provides File System APIs with a familiar file
@@ -45,17 +47,17 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sandisk/refs/heads/main/plans/sandisk-plans-pricing.yml
+  href: https://artifacts.apis.io/sandisk/plans/sandisk-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sandisk-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sandisk/refs/heads/main/rate-limits/sandisk-rate-limits.yml
+  href: https://artifacts.apis.io/sandisk/rate-limits/sandisk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sandisk-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sandisk/refs/heads/main/finops/sandisk-finops.yml
+  href: https://artifacts.apis.io/sandisk/finops/sandisk-finops.yml
   title: ''
   type: FinOps
   url: finops/sandisk-finops.yml
@@ -64,7 +66,7 @@ common:
   type: IssueTracker
   url: https://github.com/HQME-developer/SanDisk-HQME-SDK/issues
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sandisk/refs/heads/main/security/sandisk-domain-security.yml
+  href: https://artifacts.apis.io/sandisk/security/sandisk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sandisk-domain-security.yml
@@ -93,12 +95,12 @@ common:
   type: Support
   url: https://support-en.sandisk.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sandisk/refs/heads/main/vocabulary/sandisk-vocabulary.yml
+  href: https://artifacts.apis.io/sandisk/vocabulary/sandisk-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sandisk-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sandisk/refs/heads/main/json-ld/sandisk-context.jsonld
+  href: https://artifacts.apis.io/sandisk/json-ld/sandisk-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/sandisk-context.jsonld
@@ -108,7 +110,7 @@ finops:
 - has_sources: false
   method: generated
   name: Sandisk Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: sandisk-finops
   template: true
@@ -150,14 +152,14 @@ press:
 - date: ''
   title: Sandisk Announces Launch of Secondary Offering ...
   url: https://investor.sandisk.com/news-releases/news-release-details/sandisk-announces-launch-secondary-offering-common-stock-0
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Sandisk Rate Limits
   slug: sandisk-rate-limits
 score:
   band: emerging
-  composite: 16.3
+  composite: 18.8
   coverage:
     artifact_dirs: 12
     catalog_earned: 47.5
@@ -165,29 +167,29 @@ score:
     catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 6.7
-    developer_ergonomics: 25.0
+    developer_ergonomics: 35.7
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 17.8
+    operational_transparency: 13.2
+  previous_composite: 18.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sandisk/refs/heads/main/screenshots/sandisk-2026-06-20T193405.png
+screenshot: https://apis.io/screenshots/sandisk/sandisk-2026-06-20T193405.png
 security:
 - kind: domain-security
   name: Sandisk Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Expel Workbench API is a gated REST API used by customers and technology partners to integrate with the Expel MDR platform. The API powers ingest of signals from endpoint, cloud, SIEM, identity, a
@@ -42,32 +44,32 @@ apis:
 artifact_total: 27
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/expel/refs/heads/main/plans/expel-plans-pricing.yml
+  href: https://artifacts.apis.io/expel/plans/expel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/expel-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/expel/refs/heads/main/rate-limits/expel-rate-limits.yml
+  href: https://artifacts.apis.io/expel/rate-limits/expel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/expel-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/expel/refs/heads/main/finops/expel-finops.yml
+  href: https://artifacts.apis.io/expel/finops/expel-finops.yml
   title: ''
   type: FinOps
   url: finops/expel-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/expel/refs/heads/main/security/expel-trust-center.yml
+  href: https://artifacts.apis.io/expel/security/expel-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/expel-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/expel/refs/heads/main/security/expel-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/expel/security/expel-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/expel-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/expel/refs/heads/main/security/expel-domain-security.yml
+  href: https://artifacts.apis.io/expel/security/expel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/expel-domain-security.yml
@@ -178,37 +180,37 @@ rate_limits:
   slug: expel-rate-limits
 score:
   band: emerging
-  composite: 16.0
+  composite: 20.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 73.2
-    operational_transparency: 5.3
-  previous_composite: 22.0
+    operational_transparency: 15.8
+  previous_composite: 20.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/expel/refs/heads/main/screenshots/expel-2026-06-20T180936.png
+screenshot: https://apis.io/screenshots/expel/expel-2026-06-20T180936.png
 security:
 - kind: domain-security
   name: Expel Domain Security

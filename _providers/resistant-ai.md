@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.9
-  scored_at: '2026-10-17'
+  score: 47.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 19
   slug: resistant-ai-agentic-access
   summary_line: 19 operations · 8 acting
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://api.documents.resistant.ai
   baseurl_source: declared
@@ -54,15 +56,12 @@ apis:
   description: The Tenants API from Resistant AI — 4 operation(s) for tenants.
   name: Resistant AI Tenants API
   slug: resistant-ai-tenants-api
-artifact_total: 12
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Resistant Ai Documents Webhooks
   slug: resistant-ai-documents-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Resistant Documents Submission API
   slug: open-resistant-ai-submission-api
@@ -75,12 +74,12 @@ common:
   type: BlogRSS
   url: https://resistant.ai/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/capabilities/resistant-ai-capability-edges.yml
+  href: https://artifacts.apis.io/resistant-ai/capabilities/resistant-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/resistant-ai-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/overlays/resistant-ai-documents-overlay.yaml
+  href: https://artifacts.apis.io/resistant-ai/overlays/resistant-ai-documents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/resistant-ai-documents-overlay.yaml
@@ -129,87 +128,87 @@ common:
   type: TrustCenter
   url: https://trust.resistant.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/authentication/resistant-ai-authentication.yml
+  href: https://artifacts.apis.io/resistant-ai/authentication/resistant-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/resistant-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/scopes/resistant-ai-scopes.yml
+  href: https://artifacts.apis.io/resistant-ai/scopes/resistant-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/resistant-ai-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/conventions/resistant-ai-conventions.yml
+  href: https://artifacts.apis.io/resistant-ai/conventions/resistant-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/resistant-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/errors/resistant-ai-problem-types.yml
+  href: https://artifacts.apis.io/resistant-ai/errors/resistant-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/resistant-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/lifecycle/resistant-ai-lifecycle.yml
+  href: https://artifacts.apis.io/resistant-ai/lifecycle/resistant-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/resistant-ai-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/rate-limits/resistant-ai-rate-limits.yml
+  href: https://artifacts.apis.io/resistant-ai/rate-limits/resistant-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/resistant-ai-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/asyncapi/resistant-ai-documents-webhooks.yml
+  href: https://artifacts.apis.io/resistant-ai/asyncapi/resistant-ai-documents-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/resistant-ai-documents-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/conformance/resistant-ai-conformance.yml
+  href: https://artifacts.apis.io/resistant-ai/conformance/resistant-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/resistant-ai-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/sandbox/resistant-ai-sandbox.yml
+  href: https://artifacts.apis.io/resistant-ai/sandbox/resistant-ai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/resistant-ai-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/components/resistant-ai-components.yml
+  href: https://artifacts.apis.io/resistant-ai/components/resistant-ai-components.yml
   title: ''
   type: Components
   url: components/resistant-ai-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/data-model/resistant-ai-data-model.yml
+  href: https://artifacts.apis.io/resistant-ai/data-model/resistant-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/resistant-ai-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/mcp/resistant-ai-mcp.yml
+  href: https://artifacts.apis.io/resistant-ai/mcp/resistant-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/resistant-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/resistant-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/agentic-access/resistant-ai-agentic-access.yml
+  href: https://artifacts.apis.io/resistant-ai/agentic-access/resistant-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/resistant-ai-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/well-known/resistant-ai-well-known.yml
+  href: https://artifacts.apis.io/resistant-ai/well-known/resistant-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/resistant-ai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/llms/resistant-ai-llms.txt
+  href: https://artifacts.apis.io/resistant-ai/llms/resistant-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/resistant-ai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/security/resistant-ai-domain-security.yml
+  href: https://artifacts.apis.io/resistant-ai/security/resistant-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/resistant-ai-domain-security.yml
@@ -228,7 +227,7 @@ overview: 'Resistant AI publishes 2 API contracts indexed on the [APIs.io](https
 
 
   Resistant AI''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, authentication, and 24 more developer resources.'
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Resistant Ai Rate Limits
@@ -240,23 +239,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 42.3
+  composite: 44.0
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 40.0
+    artifact_dirs: 25
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.6
   facets:
-    access_clarity: 10.5
+    access_clarity: 18.4
     contract_governance: 4.5
     contract_quality: 57.1
     developer_ergonomics: 66.1
-    discoverability: 78.6
+    discoverability: 66.1
     operational_transparency: 23.7
-  previous_composite: 41.7
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -272,14 +271,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 32.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/screenshots/resistant-ai-2026-08-17T081532.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/resistant-ai/resistant-ai-2026-08-17T081532.png
 security:
 - kind: authentication
   name: Resistant Ai Authentication
@@ -293,6 +293,14 @@ security:
   name: Resistant Ai Trust Center
   slug: resistant-ai-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Run Adaptive Decision with webhook notification
+  slug: resistant-ai-adaptive-decision-with-webhooks
+- name: Analyze a document for fraud
+  slug: resistant-ai-analyze-document-for-fraud
+- name: Provision a tenant and application
+  slug: resistant-ai-provision-tenant-and-application
 slug: resistant-ai
 tags:
 - Company

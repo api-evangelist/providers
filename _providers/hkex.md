@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Real-time datafeeds (OMD-C SS, SP, SF tiers) for all securities traded on the Stock Exchange of Hong Kong, published in a proprietary binary message format over one-to-many IP multicast/UDP for high t
@@ -51,57 +53,57 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hkex/refs/heads/main/authentication/hkex-authentication.yml
+  href: https://artifacts.apis.io/hkex/authentication/hkex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hkex-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hkex/refs/heads/main/scopes/hkex-scopes.yml
+  href: https://artifacts.apis.io/hkex/scopes/hkex-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hkex-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hkex/refs/heads/main/conventions/hkex-conventions.yml
+  href: https://artifacts.apis.io/hkex/conventions/hkex-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hkex-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hkex/refs/heads/main/errors/hkex-problem-types.yml
+  href: https://artifacts.apis.io/hkex/errors/hkex-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hkex-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hkex/refs/heads/main/rate-limits/hkex-rate-limits.yml
+  href: https://artifacts.apis.io/hkex/rate-limits/hkex-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hkex-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hkex/refs/heads/main/changelog/hkex-changelog.yml
+  href: https://artifacts.apis.io/hkex/changelog/hkex-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hkex-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hkex/refs/heads/main/lifecycle/hkex-lifecycle.yml
+  href: https://artifacts.apis.io/hkex/lifecycle/hkex-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hkex-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hkex/refs/heads/main/conformance/hkex-conformance.yml
+  href: https://artifacts.apis.io/hkex/conformance/hkex-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hkex-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hkex/refs/heads/main/llms/hkex-llms.txt
+  href: https://artifacts.apis.io/hkex/llms/hkex-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hkex-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hkex/refs/heads/main/well-known/hkex-well-known.yml
+  href: https://artifacts.apis.io/hkex/well-known/hkex-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hkex-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hkex/refs/heads/main/security/hkex-domain-security.yml
+  href: https://artifacts.apis.io/hkex/security/hkex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hkex-domain-security.yml
@@ -153,7 +155,7 @@ overview: 'HKEX is listed with 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   HKEX''s developer surface includes authentication, changelog, developer portal, documentation, engineering blog, pricing, support, and 13 more developer resources.'
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Hkex Rate Limits
@@ -190,14 +192,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hkex/refs/heads/main/screenshots/hkex-2026-07-22T202427.png
+screenshot: https://apis.io/screenshots/hkex/hkex-2026-07-22T202427.png
 security:
 - kind: authentication
   name: Hkex Authentication

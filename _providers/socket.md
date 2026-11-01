@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.9
-  scored_at: '2026-10-17'
+  score: 32.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -146,15 +148,12 @@ apis:
   description: The webhooks API from Socket — 2 operation(s) for webhooks.
   name: Socket Webhooks API
   slug: socket-webhooks-api
-artifact_total: 49
+artifact_total: 55
 asyncapis:
 - description: ''
   name: Socket Webhooks
   slug: socket-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: API Endpoints alerts API
   slug: open-socket-alerts-api
@@ -216,28 +215,33 @@ collections:
   name: API Endpoints alerts webhooks API
   slug: open-socket-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/socket/plans/socket-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/socket-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/capabilities/socket-capability-edges.yml
+  href: https://artifacts.apis.io/socket/capabilities/socket-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/socket-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/overlays/socket-api-overlay.yaml
+  href: https://artifacts.apis.io/socket/overlays/socket-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/socket-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/security/socket-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/socket/security/socket-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/socket-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/security/socket-domain-security.yml
+  href: https://artifacts.apis.io/socket/security/socket-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/socket-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/agentic-access/socket-agentic-access.yml
+  href: https://artifacts.apis.io/socket/agentic-access/socket-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/socket-agentic-access.yml
@@ -270,47 +274,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/SocketDev
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/llms/socket-llms.txt
+  href: https://artifacts.apis.io/socket/llms/socket-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/socket-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/authentication/socket-authentication.yml
+  href: https://artifacts.apis.io/socket/authentication/socket-authentication.yml
   title: ''
   type: Authentication
   url: authentication/socket-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/scopes/socket-scopes.yml
+  href: https://artifacts.apis.io/socket/scopes/socket-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/socket-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/conventions/socket-conventions.yml
+  href: https://artifacts.apis.io/socket/conventions/socket-conventions.yml
   title: ''
   type: Conventions
   url: conventions/socket-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/rate-limits/socket-rate-limits.yml
+  href: https://artifacts.apis.io/socket/rate-limits/socket-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/socket-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/errors/socket-problem-types.yml
+  href: https://artifacts.apis.io/socket/errors/socket-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/socket-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/data-model/socket-data-model.yml
+  href: https://artifacts.apis.io/socket/data-model/socket-data-model.yml
   title: ''
   type: DataModel
   url: data-model/socket-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/conformance/socket-conformance.yml
+  href: https://artifacts.apis.io/socket/conformance/socket-conformance.yml
   title: ''
   type: Conformance
   url: conformance/socket-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/lifecycle/socket-lifecycle.yml
+  href: https://artifacts.apis.io/socket/lifecycle/socket-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/socket-lifecycle.yml
@@ -323,22 +327,22 @@ common:
   type: StatusPage
   url: https://status.socket.dev
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/changelog/socket-changelog.yml
+  href: https://artifacts.apis.io/socket/changelog/socket-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/socket-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/cli/socket-cli.yml
+  href: https://artifacts.apis.io/socket/cli/socket-cli.yml
   title: ''
   type: CLI
   url: cli/socket-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/packages/socket-packages.yml
+  href: https://artifacts.apis.io/socket/packages/socket-packages.yml
   title: ''
   type: Packages
   url: packages/socket-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/packages/socket-packages.yml
+  href: https://artifacts.apis.io/socket/packages/socket-packages.yml
   title: ''
   type: SDKs
   url: packages/socket-packages.yml
@@ -347,22 +351,22 @@ common:
   type: MCPServer
   url: https://mcp.socket.dev/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/asyncapi/socket-webhooks.yml
+  href: https://artifacts.apis.io/socket/asyncapi/socket-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/socket-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/socket/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/well-known/socket-security.txt
+  href: https://artifacts.apis.io/socket/well-known/socket-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/socket-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/well-known/socket-well-known.yml
+  href: https://artifacts.apis.io/socket/well-known/socket-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/socket-well-known.yml
@@ -384,6 +388,14 @@ common:
   url: https://socket.dev/login
 created: '2026-07-17'
 description: Socket is a developer-first software supply chain security platform that protects applications from supply chain attacks by deeply inspecting open source dependencies across npm, PyPI, Maven, Go, NuGet, RubyGems, Cargo and more. Socket detects malware, hidden code, typosquats, install scripts, protestware, and risky capabilities in packages, scores their quality and risk, and enforces security and license policies across repositories through a REST API, CLI, GitHub App, MCP server, and static reachability analysis. Founded by Feross Aboukhadijeh and backed by a16z, Socket is used by engineering teams at organizations including Vercel, Replit, and Brave.
+finops:
+- has_sources: true
+  method: derived
+  name: Socket Finops
+  primary_unit: dev seat
+  service_category: ''
+  slug: socket-finops
+  template: false
 image: https://socket.dev/favicon.ico
 layout: provider
 mcp_servers:
@@ -400,8 +412,15 @@ overview: 'Socket publishes 20 API contracts indexed on the [APIs.io](https://ap
   The Socket catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Socket''s developer surface includes documentation, getting-started guide, API reference, support, authentication, changelog, CLI, and 29 more developer resources.'
-random_paper: 11
+  Socket''s developer surface includes documentation, getting-started guide, API reference, support, authentication, changelog, CLI, and 30 more developer resources.'
+plans:
+- name: Socket Plans Pricing
+  plan_count: 4
+  slug: socket-plans-pricing
+- name: Socket Price Estimates
+  plan_count: 0
+  slug: socket-price-estimates
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Socket Rate Limits
@@ -412,24 +431,24 @@ scopes:
   slug: socket-scopes
   summary_line: 34 scopes
 score:
-  band: developing
-  composite: 43.6
+  band: strong
+  composite: 59.0
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 28
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 10.5
+    access_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 55.6
-    developer_ergonomics: 51.8
-    discoverability: 75.0
-    operational_transparency: 56.6
-  previous_composite: 43.6
+    developer_ergonomics: 73.2
+    discoverability: 65.0
+    operational_transparency: 63.2
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -446,13 +465,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/screenshots/socket-2026-08-17T081947.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/socket/socket-2026-08-17T081947.png
 security:
 - kind: authentication
   name: Socket Authentication
@@ -466,6 +486,16 @@ security:
   name: Socket Vulnerability Disclosure
   slug: socket-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 4
+skills:
+- name: Check a package's risk score before adding it
+  slug: socket-check-package-risk-score
+- name: Diff-scan a pull request
+  slug: socket-diff-scan-a-pull-request
+- name: Export an SBOM and fetch fixes
+  slug: socket-export-sbom-and-fetch-fixes
+- name: Scan a project for supply chain risk
+  slug: socket-scan-project-for-supply-chain-risk
 slug: socket
 tags:
 - Company

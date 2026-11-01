@@ -4,6 +4,6 @@ layout: provider
 name: six-sigma
 nav: Providers
 network: true
-random_paper: 12
+random_paper: 2
 slug: six-sigma
 ---

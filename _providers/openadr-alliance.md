@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-10-17'
+  score: 33.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -98,7 +100,7 @@ arazzos:
 - description: 'VEN-side onboarding against an OpenADR 3.1.1 VTN: authenticate, register the VEN, attach a controllable resource, ask the VTN which notifier bindings it supports, and register a webhook subscription f'
   name: Onboard a VEN, attach a resource, and subscribe to event notifications
   slug: openadr-alliance-ven-onboard-and-subscribe
-artifact_total: 18
+artifact_total: 25
 asyncapis:
 - description: Event surface of the OpenADR 3 protocol, derived from the OpenADR 3.1.1 OpenAPI contract and the Alliance-published notifications design document. The OpenADR Alliance publishes no AsyncAPI document o
   name: OpenADR 3 Object Operation Notifications
@@ -107,8 +109,12 @@ asyncapis:
   name: Openadr Alliance Webhooks
   slug: openadr-alliance-webhooks
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/openadr-alliance/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/capabilities/openadr-alliance-capability-edges.yml
+  href: https://artifacts.apis.io/openadr-alliance/capabilities/openadr-alliance-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/openadr-alliance-capability-edges.yml
@@ -117,22 +123,22 @@ common:
   type: IssueTracker
   url: https://github.com/grid-coordination/openadr3-specification/issues
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/overlays/openadr-alliance-openadr-3-1-1-overlay.yaml
+  href: https://artifacts.apis.io/openadr-alliance/overlays/openadr-alliance-openadr-3-1-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openadr-alliance-openadr-3-1-1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/overlays/openadr-alliance-openadr-3-1-0-overlay.yaml
+  href: https://artifacts.apis.io/openadr-alliance/overlays/openadr-alliance-openadr-3-1-0-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openadr-alliance-openadr-3-1-0-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/overlays/openadr-alliance-openadr-3-0-1-overlay.yaml
+  href: https://artifacts.apis.io/openadr-alliance/overlays/openadr-alliance-openadr-3-0-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openadr-alliance-openadr-3-0-1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/overlays/openadr-alliance-openadr-3-0-0-overlay.yaml
+  href: https://artifacts.apis.io/openadr-alliance/overlays/openadr-alliance-openadr-3-0-0-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openadr-alliance-openadr-3-0-0-overlay.yaml
@@ -141,22 +147,22 @@ common:
   type: License
   url: https://github.com/grid-coordination/openadr3-specification/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/agentic-access/openadr-alliance-agentic-access.yml
+  href: https://artifacts.apis.io/openadr-alliance/agentic-access/openadr-alliance-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openadr-alliance-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/security/openadr-alliance-domain-security.yml
+  href: https://artifacts.apis.io/openadr-alliance/security/openadr-alliance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openadr-alliance-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/authentication/openadr-alliance-authentication.yml
+  href: https://artifacts.apis.io/openadr-alliance/authentication/openadr-alliance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openadr-alliance-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/scopes/openadr-alliance-scopes.yml
+  href: https://artifacts.apis.io/openadr-alliance/scopes/openadr-alliance-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/openadr-alliance-scopes.yml
@@ -217,62 +223,62 @@ common:
   type: Support
   url: https://www.openadr.org/contact-us
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/packages/openadr-alliance-packages.yml
+  href: https://artifacts.apis.io/openadr-alliance/packages/openadr-alliance-packages.yml
   title: ''
   type: Packages
   url: packages/openadr-alliance-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/llms/openadr-alliance-llms.txt
+  href: https://artifacts.apis.io/openadr-alliance/llms/openadr-alliance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openadr-alliance-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/conformance/openadr-alliance-conformance.yml
+  href: https://artifacts.apis.io/openadr-alliance/conformance/openadr-alliance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openadr-alliance-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/lifecycle/openadr-alliance-lifecycle.yml
+  href: https://artifacts.apis.io/openadr-alliance/lifecycle/openadr-alliance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openadr-alliance-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/conventions/openadr-alliance-conventions.yml
+  href: https://artifacts.apis.io/openadr-alliance/conventions/openadr-alliance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openadr-alliance-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/changelog/openadr-alliance-changelog.yml
+  href: https://artifacts.apis.io/openadr-alliance/changelog/openadr-alliance-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openadr-alliance-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/sandbox/openadr-alliance-sandbox.yml
+  href: https://artifacts.apis.io/openadr-alliance/sandbox/openadr-alliance-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/openadr-alliance-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/vocabulary/openadr-alliance-vocabulary.yml
+  href: https://artifacts.apis.io/openadr-alliance/vocabulary/openadr-alliance-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/openadr-alliance-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/openadr-alliance/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/arazzo/openadr-alliance-dispatch-event.yml
+  href: https://artifacts.apis.io/openadr-alliance/arazzo/openadr-alliance-dispatch-event.yml
   title: ''
   type: Arazzo
   url: arazzo/openadr-alliance-dispatch-event.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/arazzo/openadr-alliance-ven-onboard-and-subscribe.yml
+  href: https://artifacts.apis.io/openadr-alliance/arazzo/openadr-alliance-ven-onboard-and-subscribe.yml
   title: ''
   type: Arazzo
   url: arazzo/openadr-alliance-ven-onboard-and-subscribe.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/plans/openadr-alliance-plans.yml
+  href: https://artifacts.apis.io/openadr-alliance/plans/openadr-alliance-plans.yml
   title: ''
   type: Plans
   url: plans/openadr-alliance-plans.yml
@@ -329,13 +335,21 @@ common:
   type: SourceCode
   url: https://github.com/grid-coordination/openadr3-specification
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/well-known/openadr-alliance-well-known.yml
+  href: https://artifacts.apis.io/openadr-alliance/well-known/openadr-alliance-well-known.yml
   title: ''
   type: Probe
   url: well-known/openadr-alliance-well-known.yml
 created: '2026-07-27'
 description: 'The OpenADR Alliance is a San Ramon, California mutual-benefit membership corporation that develops, certifies, and promotes OpenADR, the open information-exchange model utilities, ISOs/RTOs, aggregators, and device makers use to automate demand response and dispatch distributed energy resources. It is a standards body, not a service operator: it publishes the OpenADR 2.0a/2.0b profile specifications (approved by the IEC as IEC/PAS 62746-10-1) and OpenADR 3.0/3.1, which abandoned the SOAP-era design and is now defined entirely by an OpenAPI 3.0 contract covering programs, events, reports, subscriptions, VENs, and resources, secured with OAuth 2.0 client credentials. It also runs the OpenADR and EcoPort (CTA-2045-B) certification programmes and their public certified-product databases. Its API posture is honest but narrow: the OpenADR 3 OpenAPI is a genuine, parseable machine-readable contract, and the specifications are license-free, but the Alliance itself operates no developer
   portal, no api./developer./docs. subdomain, and no hosted API — its canonical specification repository (github.com/oadr3-org) has zero public repositories and requires membership, and the public route to the spec is a registration form that emails download links under terms and conditions. It publishes no consumer energy data and no open grid or market data; it defines the protocol that other parties implement. Home market is the United States, with adoption across Europe, Japan, Korea, and Australia.'
+finops:
+- has_sources: true
+  method: derived
+  name: Openadr Alliance Finops
+  primary_unit: membership
+  service_category: ''
+  slug: openadr-alliance-finops
+  template: false
 image: https://www.openadr.org/assets/site/openadrlogo347x75.png
 layout: provider
 modified: '2026-07-27'
@@ -348,12 +362,15 @@ overview: 'OpenADR Alliance publishes 9 API contracts indexed on the [APIs.io](h
   The OpenADR Alliance catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  OpenADR Alliance''s developer surface includes authentication, documentation, developer portal, tooling, support, engineering blog, changelog, and 44 more developer resources.'
+  OpenADR Alliance''s developer surface includes authentication, documentation, developer portal, tooling, support, engineering blog, changelog, and 45 more developer resources.'
 plans:
 - name: Openadr Alliance Plans
-  plan_count: 10
+  plan_count: 6
   slug: openadr-alliance-plans
-random_paper: 9
+- name: Openadr Alliance Price Estimates
+  plan_count: 0
+  slug: openadr-alliance-price-estimates
+random_paper: 7
 scopes:
 - name: Openadr Alliance Scopes
   scope_count: 9
@@ -361,22 +378,22 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: strong
-  composite: 54.5
+  composite: 63.3
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 54.3
+    artifact_dirs: 29
+    catalog_earned: 57.3
     catalog_earned_first_party: 18.0
-    catalog_gap: 60.8
+    catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.4
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 22.0
-    contract_quality: 66.3
-    developer_ergonomics: 66.1
-    discoverability: 63.4
-    operational_transparency: 26.3
+    contract_quality: 63.0
+    developer_ergonomics: 70.4
+    discoverability: 64.3
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -384,10 +401,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  open_source:
-    applies: true
-    score: 0.0
-  previous_composite: 54.5
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -403,14 +417,15 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 36.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 38.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/screenshots/openadr-alliance-2026-08-07T190522.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openadr-alliance/openadr-alliance-2026-08-07T190522.png
 security:
 - kind: authentication
   name: Openadr Alliance Authentication
@@ -420,6 +435,18 @@ security:
   name: Openadr Alliance Domain Security
   slug: openadr-alliance-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Authenticate against an OpenADR 3 VTN
+  slug: openadr-alliance-authenticate
+- name: Publish a program and dispatch a demand response event
+  slug: openadr-alliance-dispatch-a-demand-response-event
+- name: Register a VEN and its resources
+  slug: openadr-alliance-register-ven-and-resources
+- name: Report telemetry back to a VTN
+  slug: openadr-alliance-report-telemetry
+- name: Subscribe to VTN notifications over webhook or MQTT
+  slug: openadr-alliance-subscribe-to-notifications
 slug: openadr-alliance
 tags:
 - Energy

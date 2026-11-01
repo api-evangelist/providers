@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salt-labs/refs/heads/main/security/salt-labs-domain-security.yml
+  href: https://artifacts.apis.io/salt-labs/security/salt-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/salt-labs-domain-security.yml
@@ -68,17 +70,17 @@ common:
   type: StatusPage
   url: https://status.saltlabs.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salt-labs/refs/heads/main/lifecycle/salt-labs-lifecycle.yml
+  href: https://artifacts.apis.io/salt-labs/lifecycle/salt-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/salt-labs-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/salt-labs/refs/heads/main/llms/salt-labs-llms.txt
+  href: https://artifacts.apis.io/salt-labs/llms/salt-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/salt-labs-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/salt-labs/refs/heads/main/plans/salt-labs-plans-pricing.yml
+  href: https://artifacts.apis.io/salt-labs/plans/salt-labs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/salt-labs-plans-pricing.yml
@@ -119,10 +121,10 @@ plans:
 - name: Salt Labs Plans Pricing
   plan_count: 0
   slug: salt-labs-plans-pricing
-random_paper: 19
+random_paper: 11
 score:
   band: emerging
-  composite: 12.5
+  composite: 13.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -136,23 +138,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 15.8
-  previous_composite: 12.5
+    discoverability: 48.2
+    operational_transparency: 26.3
+  previous_composite: 13.1
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/salt-labs/refs/heads/main/screenshots/salt-labs-2026-09-02T154329.png
+screenshot: https://apis.io/screenshots/salt-labs/salt-labs-2026-09-02T154329.png
 security:
 - kind: domain-security
   name: Salt Labs Domain Security

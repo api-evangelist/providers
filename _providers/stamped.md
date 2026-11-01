@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: The Program Reporting API from Stamped — 2 operation(s) for program reporting.
   name: Stamped Program Reporting API
   slug: stamped-program-reporting-api
-artifact_total: 14
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Loyalty Operations Customer Actions API
   slug: open-stamped-customer-actions-api
@@ -95,17 +94,17 @@ common:
   type: BlogRSS
   url: https://website.stamped.io/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/capabilities/stamped-capability-edges.yml
+  href: https://artifacts.apis.io/stamped/capabilities/stamped-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/stamped-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/overlays/stamped-loyalty-operations-overlay.yaml
+  href: https://artifacts.apis.io/stamped/overlays/stamped-loyalty-operations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/stamped-loyalty-operations-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/security/stamped-domain-security.yml
+  href: https://artifacts.apis.io/stamped/security/stamped-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stamped-domain-security.yml
@@ -134,57 +133,57 @@ common:
   type: Support
   url: https://stampedsupport.zendesk.com/hc/en-us
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/llms/stamped-llms.txt
+  href: https://artifacts.apis.io/stamped/llms/stamped-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stamped-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/authentication/stamped-authentication.yml
+  href: https://artifacts.apis.io/stamped/authentication/stamped-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stamped-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/agentic-access/stamped-agentic-access.yml
+  href: https://artifacts.apis.io/stamped/agentic-access/stamped-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stamped-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/conventions/stamped-conventions.yml
+  href: https://artifacts.apis.io/stamped/conventions/stamped-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stamped-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/errors/stamped-problem-types.yml
+  href: https://artifacts.apis.io/stamped/errors/stamped-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/stamped-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/data-model/stamped-data-model.yml
+  href: https://artifacts.apis.io/stamped/data-model/stamped-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stamped-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/mcp/stamped-mcp.yml
+  href: https://artifacts.apis.io/stamped/mcp/stamped-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/stamped-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/conformance/stamped-conformance.yml
+  href: https://artifacts.apis.io/stamped/conformance/stamped-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stamped-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/lifecycle/stamped-lifecycle.yml
+  href: https://artifacts.apis.io/stamped/lifecycle/stamped-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stamped-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/lifecycle/stamped-lifecycle.yml
+  href: https://artifacts.apis.io/stamped/lifecycle/stamped-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/stamped-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/stamped/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -200,10 +199,10 @@ overview: 'Stamped publishes 5 API contracts indexed on the [APIs.io](https://ap
 
 
   Stamped''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 16 more developer resources.'
-random_paper: 2
+random_paper: 6
 score:
   band: thin
-  composite: 29.8
+  composite: 31.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -211,15 +210,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 46.8
-    developer_ergonomics: 48.2
-    discoverability: 73.2
+    developer_ergonomics: 56.5
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 29.7
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,13 +235,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/screenshots/stamped-2026-09-02T160728.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/stamped/stamped-2026-09-02T160728.png
 security:
 - kind: authentication
   name: Stamped Authentication
@@ -252,6 +252,12 @@ security:
   name: Stamped Domain Security
   slug: stamped-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Adjust Stamped loyalty points and redeem rewards
+  slug: stamped-loyalty-points-and-rewards
+- name: Sync Stamped merchant records
+  slug: stamped-sync-merchant-records
 slug: stamped
 tags:
 - Company

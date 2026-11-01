@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'REST API for prediction market data across Kalshi and Polymarket: full-text search over markets, events, and series; historical orderbook snapshots, top-of-book timeseries, trades, and OHLCV bars; wha'
@@ -92,57 +94,57 @@ common:
   type: Support
   url: https://cal.com/team/oddpool/30-minute-meeting
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oddpool/refs/heads/main/llms/oddpool-llms.txt
+  href: https://artifacts.apis.io/oddpool/llms/oddpool-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oddpool-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oddpool/refs/heads/main/authentication/oddpool-authentication.yml
+  href: https://artifacts.apis.io/oddpool/authentication/oddpool-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oddpool-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oddpool/refs/heads/main/conventions/oddpool-conventions.yml
+  href: https://artifacts.apis.io/oddpool/conventions/oddpool-conventions.yml
   title: ''
   type: Conventions
   url: conventions/oddpool-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oddpool/refs/heads/main/errors/oddpool-problem-types.yml
+  href: https://artifacts.apis.io/oddpool/errors/oddpool-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/oddpool-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oddpool/refs/heads/main/data-model/oddpool-data-model.yml
+  href: https://artifacts.apis.io/oddpool/data-model/oddpool-data-model.yml
   title: ''
   type: DataModel
   url: data-model/oddpool-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oddpool/refs/heads/main/conformance/oddpool-conformance.yml
+  href: https://artifacts.apis.io/oddpool/conformance/oddpool-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oddpool-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oddpool/refs/heads/main/lifecycle/oddpool-lifecycle.yml
+  href: https://artifacts.apis.io/oddpool/lifecycle/oddpool-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/oddpool-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oddpool/refs/heads/main/mcp/oddpool-mcp.yml
+  href: https://artifacts.apis.io/oddpool/mcp/oddpool-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/oddpool-mcp.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/oddpool/refs/heads/main/asyncapi/oddpool-feeds-asyncapi.yml
+  href: https://artifacts.apis.io/oddpool/asyncapi/oddpool-feeds-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/oddpool-feeds-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oddpool/refs/heads/main/asyncapi/oddpool-feeds-asyncapi.yml
+  href: https://artifacts.apis.io/oddpool/asyncapi/oddpool-feeds-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/oddpool-feeds-asyncapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oddpool/refs/heads/main/security/oddpool-domain-security.yml
+  href: https://artifacts.apis.io/oddpool/security/oddpool-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oddpool-domain-security.yml
@@ -161,26 +163,26 @@ overview: 'Oddpool is listed with 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Oddpool''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, authentication, and 14 more developer resources.'
-random_paper: 5
+random_paper: 9
 score:
   band: thin
-  composite: 39.1
+  composite: 38.4
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 39.6
     developer_ergonomics: 54.8
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 39.0
+  previous_composite: 38.4
   provenance:
     conformance: derived
     mcp: derived
@@ -190,14 +192,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/oddpool/refs/heads/main/screenshots/oddpool-2026-08-07T185952.png
+screenshot: https://apis.io/screenshots/oddpool/oddpool-2026-08-07T185952.png
 security:
 - kind: authentication
   name: Oddpool Authentication

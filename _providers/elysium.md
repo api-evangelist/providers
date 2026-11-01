@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Elysium Health's storefront implements the Universal Commerce Protocol (UCP) for agent-driven commerce, discoverable at https://www.elysiumhealth.com/.well-known/ucp. The merchant profile advertises t
@@ -45,14 +47,14 @@ apis:
 - description: 'Read-only, unauthenticated storefront data endpoints published in Elysium Health''s agent policy: product listings at /products.json, per-product JSON at /products/{handle}.json, collection listings at'
   name: Elysium Health Storefront Product JSON
   slug: elysium-storefront-json
-artifact_total: 7
+artifact_total: 9
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.elysiumhealth.com/blogs/aging101.atom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/security/elysium-domain-security.yml
+  href: https://artifacts.apis.io/elysium/security/elysium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/elysium-domain-security.yml
@@ -101,67 +103,67 @@ common:
   type: PrivacyPolicy
   url: https://www.elysiumhealth.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/llms/elysium-llms.txt
+  href: https://artifacts.apis.io/elysium/llms/elysium-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/elysium-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/llms/elysium-agents.md
+  href: https://artifacts.apis.io/elysium/llms/elysium-agents.md
   title: ''
   type: AgentsMD
   url: llms/elysium-agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/well-known/elysium-well-known.yml
+  href: https://artifacts.apis.io/elysium/well-known/elysium-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/elysium-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/mcp/elysium-mcp.yml
+  href: https://artifacts.apis.io/elysium/mcp/elysium-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/elysium-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/authentication/elysium-authentication.yml
+  href: https://artifacts.apis.io/elysium/authentication/elysium-authentication.yml
   title: ''
   type: Authentication
   url: authentication/elysium-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/scopes/elysium-scopes.yml
+  href: https://artifacts.apis.io/elysium/scopes/elysium-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/elysium-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/conventions/elysium-conventions.yml
+  href: https://artifacts.apis.io/elysium/conventions/elysium-conventions.yml
   title: ''
   type: Conventions
   url: conventions/elysium-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/conformance/elysium-conformance.yml
+  href: https://artifacts.apis.io/elysium/conformance/elysium-conformance.yml
   title: ''
   type: Conformance
   url: conformance/elysium-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/lifecycle/elysium-lifecycle.yml
+  href: https://artifacts.apis.io/elysium/lifecycle/elysium-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/elysium-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/data-model/elysium-data-model.yml
+  href: https://artifacts.apis.io/elysium/data-model/elysium-data-model.yml
   title: ''
   type: DataModel
   url: data-model/elysium-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/errors/elysium-problem-types.yml
+  href: https://artifacts.apis.io/elysium/errors/elysium-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/elysium-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/skills/elysium-browse-catalog.md
+  href: https://artifacts.apis.io/elysium/skills/elysium-browse-catalog.md
   title: ''
   type: AgentSkill
   url: skills/elysium-browse-catalog.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/skills/elysium-agentic-purchase.md
+  href: https://artifacts.apis.io/elysium/skills/elysium-agentic-purchase.md
   title: ''
   type: AgentSkill
   url: skills/elysium-agentic-purchase.md
@@ -182,7 +184,7 @@ overview: 'Elysium Health is listed with 3 APIs on the [APIs.io](https://apis.io
 
 
   Elysium Health''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, pricing, authentication, and 19 more developer resources.'
-random_paper: 6
+random_paper: 8
 scopes:
 - name: Elysium Scopes
   scope_count: 4
@@ -190,7 +192,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 32.9
+  composite: 32.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 40.0
@@ -204,8 +206,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 51.8
-    discoverability: 80.0
-    operational_transparency: 2.6
+    discoverability: 70.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -213,7 +215,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 32.9
+  previous_composite: 32.3
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -224,14 +226,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/screenshots/elysium-2026-07-25T213214.png
+screenshot: https://apis.io/screenshots/elysium/elysium-2026-07-25T213214.png
 security:
 - kind: authentication
   name: Elysium Authentication
@@ -241,6 +243,12 @@ security:
   name: Elysium Domain Security
   slug: elysium-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Purchase from Elysium Health over UCP with buyer approval
+  slug: elysium-agentic-purchase
+- name: Browse the Elysium Health catalog
+  slug: elysium-browse-catalog
 slug: elysium
 tags:
 - Company

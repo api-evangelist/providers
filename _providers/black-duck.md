@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.6
-  scored_at: '2026-10-17'
+  score: 17.3
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: REST API for Black Duck SCA (Hub) — projects, versions, components, vulnerabilities, policies, scans, and reports. Each Black Duck server publishes its own OpenAPI 3 document at /api-doc/openapi3-publ
@@ -65,8 +67,13 @@ apis:
   description: The Users API from Black Duck — 1 operation(s) for users.
   name: Black Duck Users API
   slug: black-duck-users-api
-artifact_total: 15
+artifact_total: 17
 common:
+- group: commercial
+  href: https://artifacts.apis.io/black-duck/plans/black-duck-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/black-duck-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -76,42 +83,42 @@ common:
   type: PrivacyPolicy
   url: https://www.blackduck.com/company/legal/privacy-policy.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/rules/black-duck-rules.yml
+  href: https://artifacts.apis.io/black-duck/rules/black-duck-rules.yml
   title: ''
   type: Spectral
   url: rules/black-duck-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/json-ld/black-duck-context.jsonld
+  href: https://artifacts.apis.io/black-duck/json-ld/black-duck-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/black-duck-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/vocabulary/black-duck-vocabulary.yml
+  href: https://artifacts.apis.io/black-duck/vocabulary/black-duck-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/black-duck-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/data-model/black-duck-data-model.yml
+  href: https://artifacts.apis.io/black-duck/data-model/black-duck-data-model.yml
   title: ''
   type: DataModel
   url: data-model/black-duck-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/conformance/black-duck-conformance.yml
+  href: https://artifacts.apis.io/black-duck/conformance/black-duck-conformance.yml
   title: ''
   type: Conformance
   url: conformance/black-duck-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/mcp/black-duck-mcp.yml
+  href: https://artifacts.apis.io/black-duck/mcp/black-duck-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/black-duck-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/hosts/black-duck-hosts.yml
+  href: https://artifacts.apis.io/black-duck/hosts/black-duck-hosts.yml
   title: ''
   type: Hosts
   url: hosts/black-duck-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/vendors/black-duck-vendors.yml
+  href: https://artifacts.apis.io/black-duck/vendors/black-duck-vendors.yml
   title: ''
   type: Vendors
   url: vendors/black-duck-vendors.yml
@@ -120,7 +127,7 @@ common:
   type: Website
   url: https://www.blackduck.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/security/black-duck-domain-security.yml
+  href: https://artifacts.apis.io/black-duck/security/black-duck-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/black-duck-domain-security.yml
@@ -161,32 +168,32 @@ common:
   type: SignUp
   url: https://www.blackduck.com/software-composition-analysis-tools/black-duck-sca/get-pricing.html
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/packages/black-duck-packages.yml
+  href: https://artifacts.apis.io/black-duck/packages/black-duck-packages.yml
   title: ''
   type: Packages
   url: packages/black-duck-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/packages/black-duck-packages.yml
+  href: https://artifacts.apis.io/black-duck/packages/black-duck-packages.yml
   title: ''
   type: SDKs
   url: packages/black-duck-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/cli/black-duck-cli.yml
+  href: https://artifacts.apis.io/black-duck/cli/black-duck-cli.yml
   title: ''
   type: CLI
   url: cli/black-duck-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/mcp/black-duck-mcp.yml
+  href: https://artifacts.apis.io/black-duck/mcp/black-duck-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/black-duck-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/authentication/black-duck-authentication.yml
+  href: https://artifacts.apis.io/black-duck/authentication/black-duck-authentication.yml
   title: ''
   type: Authentication
   url: authentication/black-duck-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/lifecycle/black-duck-lifecycle.yml
+  href: https://artifacts.apis.io/black-duck/lifecycle/black-duck-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/black-duck-lifecycle.yml
@@ -195,12 +202,12 @@ common:
   type: StatusPage
   url: https://community.blackduck.com/s/black-duck-status
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/changelog/black-duck-changelog.yml
+  href: https://artifacts.apis.io/black-duck/changelog/black-duck-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/black-duck-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/security/black-duck-trust-center.yml
+  href: https://artifacts.apis.io/black-duck/security/black-duck-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/black-duck-trust-center.yml
@@ -209,7 +216,7 @@ common:
   type: Compliance
   url: https://www.blackduck.com/company/legal/security-commitments.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/security/black-duck-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/black-duck/security/black-duck-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/black-duck-vulnerability-disclosure.yml
@@ -227,6 +234,14 @@ coverage:
   state: unreadable
 created: '2026-07-17'
 description: Black Duck Software (formerly the Synopsys Software Integrity Group) is an application security company whose platform spans software composition analysis (SCA), static application security testing (SAST), dynamic application security testing (DAST), interactive application security testing (IAST), and open-source license and vulnerability management. Its API-first products — Black Duck SCA (Hub), Polaris, Coverity, and Seeker — expose REST APIs, webhooks, native CI/CD plug-ins, and the Detect command-line scanner so teams can automate open-source discovery, policy enforcement, and risk remediation across build pipelines such as Jenkins, GitHub Actions, GitLab CI, and Azure DevOps. Each Black Duck server publishes its own OpenAPI 3 document and Postman collection at /api-doc, and first-party Python and Go client libraries plus the Detect CLI wrap the API surface. This profile was seeded as a general-catalyst portfolio lead and enriched by the API Evangelist pipeline.
+finops:
+- has_sources: true
+  method: derived
+  name: Black Duck Finops
+  primary_unit: ''
+  service_category: ''
+  slug: black-duck-finops
+  template: true
 image: https://www.blackduck.com/content/dam/black-duck/style-guide/header/BlackDuckLogo.svg
 json_schemas:
 - name: GetApiV2IssuesSourcecodeinfoResponse
@@ -254,8 +269,12 @@ overview: 'Black Duck is listed with 6 APIs on the [APIs.io](https://apis.io/) n
   The Black Duck catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Black Duck''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 9
+  Black Duck''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+plans:
+- name: Black Duck Plans Pricing
+  plan_count: 1
+  slug: black-duck-plans-pricing
+random_paper: 17
 rules:
 - authorship: generated
   effective_rule_count: 53
@@ -271,23 +290,23 @@ rules:
   slug: black-duck-rules
 score:
   band: developing
-  composite: 43.3
+  composite: 52.1
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 59.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 55.3
+    artifact_dirs: 25
+    catalog_earned: 67.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -13.9
+  delta: 4.2
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 22.0
     contract_quality: 21.6
-    developer_ergonomics: 61.9
-    discoverability: 80.0
-    operational_transparency: 44.7
-  previous_composite: 57.2
+    developer_ergonomics: 71.4
+    discoverability: 70.0
+    operational_transparency: 47.4
+  previous_composite: 47.9
   provenance:
     conformance: derived
     contracts:
@@ -301,14 +320,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 31.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/screenshots/black-duck-2026-07-25T203232.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/black-duck/black-duck-2026-07-25T203232.png
 security:
 - kind: authentication
   name: Black Duck Authentication

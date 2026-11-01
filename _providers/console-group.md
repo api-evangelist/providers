@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/console-group/refs/heads/main/security/console-group-domain-security.yml
+  href: https://artifacts.apis.io/console-group/security/console-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/console-group-domain-security.yml
@@ -47,27 +49,27 @@ common:
   type: StatusPage
   url: https://status.console.com.au/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/console-group/refs/heads/main/lifecycle/console-group-lifecycle.yml
+  href: https://artifacts.apis.io/console-group/lifecycle/console-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/console-group-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/console-group/refs/heads/main/changelog/console-group-changelog.yml
+  href: https://artifacts.apis.io/console-group/changelog/console-group-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/console-group-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/console-group/refs/heads/main/conformance/console-group-conformance.yml
+  href: https://artifacts.apis.io/console-group/conformance/console-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/console-group-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/console-group/refs/heads/main/packages/console-group-packages.yml
+  href: https://artifacts.apis.io/console-group/packages/console-group-packages.yml
   title: ''
   type: Packages
   url: packages/console-group-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/console-group/refs/heads/main/llms/console-group-llms.txt
+  href: https://artifacts.apis.io/console-group/llms/console-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/console-group-llms.txt
@@ -153,10 +155,10 @@ overview: 'Console Group is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Console Group''s developer surface includes changelog, pricing, support, engineering blog, signup flow, and 19 more developer resources.'
-random_paper: 15
+random_paper: 13
 score:
   band: emerging
-  composite: 21.8
+  composite: 21.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 27.0
@@ -170,7 +172,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -180,7 +182,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 21.8
+  previous_composite: 21.1
   provenance:
     conformance: first-party
   regulatory:
@@ -189,14 +191,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/console-group/refs/heads/main/screenshots/console-group-2026-07-27T125333.png
+screenshot: https://apis.io/screenshots/console-group/console-group-2026-07-27T125333.png
 security:
 - kind: domain-security
   name: Console Group Domain Security

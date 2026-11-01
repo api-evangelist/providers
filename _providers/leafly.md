@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 5
   slug: leafly-agentic-access
   summary_line: 5 operations · 3 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Order (Reservations) API that lets any cannabis POS provider integrate Leafly online orders into its own system, taking ownership of the order integration rather than relying on a bespoke Leafly-built
   name: Leafly Order API
@@ -57,11 +59,8 @@ apis:
   description: The Status API from Leafly — 1 operation(s) for status.
   name: Leafly Status API
   slug: leafly-status-api
-artifact_total: 13
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Leafly Integration Menu API
   slug: open-leafly-menu-api
@@ -70,27 +69,27 @@ collections:
   slug: open-leafly-status-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/capabilities/leafly-capability-edges.yml
+  href: https://artifacts.apis.io/leafly/capabilities/leafly-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/leafly-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/agentic-access/leafly-agentic-access.yml
+  href: https://artifacts.apis.io/leafly/agentic-access/leafly-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/leafly-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/security/leafly-domain-security.yml
+  href: https://artifacts.apis.io/leafly/security/leafly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leafly-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/authentication/leafly-authentication.yml
+  href: https://artifacts.apis.io/leafly/authentication/leafly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/leafly-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/scopes/leafly-scopes.yml
+  href: https://artifacts.apis.io/leafly/scopes/leafly-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/leafly-scopes.yml
@@ -115,17 +114,17 @@ common:
   type: Support
   url: https://help.leafly.com/hc/en-us/categories/20959505132051-Developer-FAQs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/plans/leafly-plans-pricing.yml
+  href: https://artifacts.apis.io/leafly/plans/leafly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/leafly-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/rate-limits/leafly-rate-limits.yml
+  href: https://artifacts.apis.io/leafly/rate-limits/leafly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/leafly-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/finops/leafly-finops.yml
+  href: https://artifacts.apis.io/leafly/finops/leafly-finops.yml
   title: ''
   type: FinOps
   url: finops/leafly-finops.yml
@@ -157,7 +156,7 @@ plans:
 - name: Leafly Plans Pricing
   plan_count: 2
   slug: leafly-plans-pricing
-random_paper: 21
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Leafly Rate Limits
@@ -169,7 +168,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 31.8
+  composite: 30.8
   coverage:
     artifact_dirs: 14
     catalog_earned: 42.0
@@ -177,15 +176,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 45.3
-    developer_ergonomics: 33.3
+    developer_ergonomics: 35.7
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 38.7
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
@@ -199,13 +198,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/screenshots/leafly-2026-07-25T224732.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/leafly/leafly-2026-07-25T224732.png
 security:
 - kind: authentication
   name: Leafly Authentication

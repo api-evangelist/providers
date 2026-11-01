@@ -27,29 +27,31 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.6
-  scored_at: '2026-10-17'
+  score: 48.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for building and operating conversational voice AI agents — create and manage agents, place outbound calls, run CSV batch campaigns, wire inbound numbers and SIP trunks, purchase/search phone
   name: Bolna Voice AI API
   slug: bolna-voice-ai-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Bolna Webhooks
   slug: bolna-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/plans/bolna-plans-pricing.yml
+  href: https://artifacts.apis.io/bolna/plans/bolna-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bolna-plans-pricing.yml
@@ -122,97 +124,105 @@ common:
   type: ChangeLog
   url: https://www.bolna.ai/docs/changelog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/mcp/bolna-mcp.yml
+  href: https://artifacts.apis.io/bolna/mcp/bolna-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bolna-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/llms/bolna-llms.txt
+  href: https://artifacts.apis.io/bolna/llms/bolna-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bolna-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/packages/bolna-packages.yml
+  href: https://artifacts.apis.io/bolna/packages/bolna-packages.yml
   title: ''
   type: Packages
   url: packages/bolna-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/packages/bolna-packages.yml
+  href: https://artifacts.apis.io/bolna/packages/bolna-packages.yml
   title: ''
   type: SDKs
   url: packages/bolna-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/cli/bolna-cli.yml
+  href: https://artifacts.apis.io/bolna/cli/bolna-cli.yml
   title: ''
   type: CLI
   url: cli/bolna-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/components/bolna-components.yml
+  href: https://artifacts.apis.io/bolna/components/bolna-components.yml
   title: ''
   type: Components
   url: components/bolna-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/authentication/bolna-authentication.yml
+  href: https://artifacts.apis.io/bolna/authentication/bolna-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bolna-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/conventions/bolna-conventions.yml
+  href: https://artifacts.apis.io/bolna/conventions/bolna-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bolna-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/errors/bolna-error-codes.yml
+  href: https://artifacts.apis.io/bolna/errors/bolna-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/bolna-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/rate-limits/bolna-rate-limits.yml
+  href: https://artifacts.apis.io/bolna/rate-limits/bolna-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bolna-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/lifecycle/bolna-lifecycle.yml
+  href: https://artifacts.apis.io/bolna/lifecycle/bolna-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bolna-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/lifecycle/bolna-lifecycle.yml
+  href: https://artifacts.apis.io/bolna/lifecycle/bolna-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/bolna-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/asyncapi/bolna-webhooks.yml
+  href: https://artifacts.apis.io/bolna/asyncapi/bolna-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bolna-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/conformance/bolna-conformance.yml
+  href: https://artifacts.apis.io/bolna/conformance/bolna-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bolna-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/data-model/bolna-data-model.yml
+  href: https://artifacts.apis.io/bolna/data-model/bolna-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bolna-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/well-known/bolna-well-known.yml
+  href: https://artifacts.apis.io/bolna/well-known/bolna-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bolna-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/security/bolna-domain-security.yml
+  href: https://artifacts.apis.io/bolna/security/bolna-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bolna-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bolna/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Bolna is a voice AI platform for building, testing, deploying, and scaling conversational voice agents that place and receive phone calls with human-like, multilingual intelligence. The platform pairs a no-code Agent Studio with a Bearer-authenticated REST API (api.bolna.ai) covering agents, outbound and inbound calls, CSV batch campaigns, executions and transcripts, phone-number purchasing and search, SIP trunks, knowledge bases (RAG over PDFs/URLs), dispositions/extractions, providers (ASR/LLM/TTS credentials), voices, violations, and multi-tenant sub-accounts. Bolna integrates 20+ ASR, LLM, and TTS models (OpenAI, Azure, Anthropic, ElevenLabs, Deepgram) and telephony providers (Twilio, Plivo, SIP), and ships a hosted MCP server, an official Agent Skills collection, a Go CLI, and an open-source Python agent framework. Backed by Y Combinator and General Catalyst; strong focus on Indian-language (Hinglish, Hindi, Tamil, Telugu) voice agents with India data residency.
+finops:
+- has_sources: true
+  method: derived
+  name: Bolna Finops
+  primary_unit: credits
+  service_category: ''
+  slug: bolna-finops
+  template: false
 image: https://www.bolna.ai/logo.png
 layout: provider
 mcp_servers:
@@ -234,30 +244,35 @@ plans:
 - name: Bolna Plans Pricing
   plan_count: 5
   slug: bolna-plans-pricing
-random_paper: 18
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Bolna Rate Limits
   slug: bolna-rate-limits
 score:
   band: strong
-  composite: 55.8
+  composite: 61.0
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 61.0
+    artifact_dirs: 23
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.9
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 69.0
-    discoverability: 75.0
-    operational_transparency: 73.7
-  previous_composite: 49.9
+    developer_ergonomics: 78.6
+    discoverability: 65.0
+    operational_transparency: 84.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 59.4
   provenance:
     conformance: derived
     mcp: first-party
@@ -268,14 +283,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/screenshots/bolna-2026-07-25T203540.png
+screenshot: https://apis.io/screenshots/bolna/bolna-2026-07-25T203540.png
 security:
 - kind: authentication
   name: Bolna Authentication

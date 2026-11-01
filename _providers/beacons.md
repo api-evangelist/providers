@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.7
-  scored_at: '2026-10-17'
+  score: 21.8
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -32,27 +34,27 @@ common:
   type: Blog
   url: https://beacons.ai/i/blog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beacons/refs/heads/main/llms/beacons-llms.txt
+  href: https://artifacts.apis.io/beacons/llms/beacons-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beacons-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beacons/refs/heads/main/well-known/beacons-well-known.yml
+  href: https://artifacts.apis.io/beacons/well-known/beacons-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/beacons-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beacons/refs/heads/main/hosts/beacons-hosts.yml
+  href: https://artifacts.apis.io/beacons/hosts/beacons-hosts.yml
   title: ''
   type: Hosts
   url: hosts/beacons-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beacons/refs/heads/main/vendors/beacons-vendors.yml
+  href: https://artifacts.apis.io/beacons/vendors/beacons-vendors.yml
   title: ''
   type: Vendors
   url: vendors/beacons-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beacons/refs/heads/main/security/beacons-domain-security.yml
+  href: https://artifacts.apis.io/beacons/security/beacons-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beacons-domain-security.yml
@@ -79,26 +81,26 @@ overview: 'Beacons is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Beacons'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 5
+random_paper: 11
 score:
   band: minimal
-  composite: 5.2
+  composite: 4.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 51.8
+    discoverability: 44.6
     operational_transparency: 0.0
-  previous_composite: 4.6
+  previous_composite: 4.4
   provenance:
     mcp: unknown
   regulatory:
@@ -107,14 +109,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/beacons/refs/heads/main/screenshots/beacons-2026-10-11T101701.png
+screenshot: https://apis.io/screenshots/beacons/beacons-2026-10-11T101701.png
 security:
 - kind: domain-security
   name: Beacons Domain Security

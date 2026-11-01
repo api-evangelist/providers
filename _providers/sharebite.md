@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,17 +35,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sharebite/refs/heads/main/security/sharebite-trust-center.yml
+  href: https://artifacts.apis.io/sharebite/security/sharebite-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sharebite-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sharebite/refs/heads/main/security/sharebite-domain-security.yml
+  href: https://artifacts.apis.io/sharebite/security/sharebite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sharebite-domain-security.yml
@@ -88,17 +90,17 @@ common:
   type: StatusPage
   url: https://status.sharebite.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sharebite/refs/heads/main/llms/sharebite-llms.txt
+  href: https://artifacts.apis.io/sharebite/llms/sharebite-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sharebite-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharebite/refs/heads/main/lifecycle/sharebite-lifecycle.yml
+  href: https://artifacts.apis.io/sharebite/lifecycle/sharebite-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sharebite-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharebite/refs/heads/main/conformance/sharebite-conformance.yml
+  href: https://artifacts.apis.io/sharebite/conformance/sharebite-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sharebite-conformance.yml
@@ -107,7 +109,7 @@ common:
   type: Compliance
   url: https://trust.sharebite.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sharebite/refs/heads/main/security/sharebite-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sharebite/security/sharebite-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sharebite-vulnerability-disclosure.yml
@@ -148,10 +150,10 @@ overview: 'Sharebite is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sharebite''s developer surface includes support, engineering blog, signup flow, and 16 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: emerging
-  composite: 24.8
+  composite: 24.2
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -165,7 +167,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 56.3
+    discoverability: 50.0
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -174,7 +176,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 24.8
+  previous_composite: 24.2
   provenance:
     conformance: first-party
   regulatory:
@@ -189,14 +191,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sharebite/refs/heads/main/screenshots/sharebite-2026-09-02T155112.png
+screenshot: https://apis.io/screenshots/sharebite/sharebite-2026-09-02T155112.png
 security:
 - kind: domain-security
   name: Sharebite Domain Security

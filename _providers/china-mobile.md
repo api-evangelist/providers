@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -72,7 +74,7 @@ apis:
   description: 语音通话 — voice notification and click-to-dial
   name: China Mobile Voice Call Service API
   slug: china-mobile-voice-call-service-api
-artifact_total: 14
+artifact_total: 18
 asyncapis:
 - description: 'OneNET pushes events to application servers over plain HTTP(S) POST. Two distinct outbound surfaces are documented anonymously: the platform-wide 数据推送 (HTTP data push) service, which delivers rule-eng'
   name: China Mobile OneNET event and callback surface
@@ -89,17 +91,17 @@ collections:
   slug: open-china-mobile-vcs
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/overlays/china-mobile-onenet-studio-overlay.yaml
+  href: https://artifacts.apis.io/china-mobile/overlays/china-mobile-onenet-studio-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/china-mobile-onenet-studio-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/overlays/china-mobile-vcs-overlay.yaml
+  href: https://artifacts.apis.io/china-mobile/overlays/china-mobile-vcs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/china-mobile-vcs-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/mcp/china-mobile-mcp.yml
+  href: https://artifacts.apis.io/china-mobile/mcp/china-mobile-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/china-mobile-mcp.yml
@@ -164,82 +166,82 @@ common:
   type: ChangeLog
   url: https://open.iot.10086.cn/doc/iot_platform/book/release/update_log.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/agentic-access/china-mobile-agentic-access.yml
+  href: https://artifacts.apis.io/china-mobile/agentic-access/china-mobile-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/china-mobile-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/security/china-mobile-domain-security.yml
+  href: https://artifacts.apis.io/china-mobile/security/china-mobile-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/china-mobile-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/authentication/china-mobile-authentication.yml
+  href: https://artifacts.apis.io/china-mobile/authentication/china-mobile-authentication.yml
   title: ''
   type: Authentication
   url: authentication/china-mobile-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/packages/china-mobile-packages.yml
+  href: https://artifacts.apis.io/china-mobile/packages/china-mobile-packages.yml
   title: ''
   type: Packages
   url: packages/china-mobile-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/packages/china-mobile-packages.yml
+  href: https://artifacts.apis.io/china-mobile/packages/china-mobile-packages.yml
   title: ''
   type: SDKs
   url: packages/china-mobile-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/conventions/china-mobile-conventions.yml
+  href: https://artifacts.apis.io/china-mobile/conventions/china-mobile-conventions.yml
   title: ''
   type: Conventions
   url: conventions/china-mobile-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/errors/china-mobile-error-codes.yml
+  href: https://artifacts.apis.io/china-mobile/errors/china-mobile-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/china-mobile-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/lifecycle/china-mobile-lifecycle.yml
+  href: https://artifacts.apis.io/china-mobile/lifecycle/china-mobile-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/china-mobile-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/changelog/china-mobile-changelog.yml
+  href: https://artifacts.apis.io/china-mobile/changelog/china-mobile-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/china-mobile-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/conformance/china-mobile-conformance.yml
+  href: https://artifacts.apis.io/china-mobile/conformance/china-mobile-conformance.yml
   title: ''
   type: Conformance
   url: conformance/china-mobile-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/sandbox/china-mobile-sandbox.yml
+  href: https://artifacts.apis.io/china-mobile/sandbox/china-mobile-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/china-mobile-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/data-model/china-mobile-data-model.yml
+  href: https://artifacts.apis.io/china-mobile/data-model/china-mobile-data-model.yml
   title: ''
   type: DataModel
   url: data-model/china-mobile-data-model.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/asyncapi/china-mobile-onenet-asyncapi.yml
+  href: https://artifacts.apis.io/china-mobile/asyncapi/china-mobile-onenet-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/china-mobile-onenet-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/asyncapi/china-mobile-onenet-webhooks.yml
+  href: https://artifacts.apis.io/china-mobile/asyncapi/china-mobile-onenet-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/china-mobile-onenet-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/china-mobile/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/llms/china-mobile-llms.txt
+  href: https://artifacts.apis.io/china-mobile/llms/china-mobile-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/china-mobile-llms.txt
@@ -259,10 +261,10 @@ overview: 'China Mobile publishes 7 API contracts indexed on the [APIs.io](https
 
 
   China Mobile''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 27 more developer resources.'
-random_paper: 4
+random_paper: 16
 score:
-  band: thin
-  composite: 39.0
+  band: developing
+  composite: 40.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 32.0
@@ -270,14 +272,14 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 22.0
     developer_ergonomics: 70.8
     discoverability: 57.1
-    operational_transparency: 26.3
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -285,7 +287,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 39.1
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -302,13 +304,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 33.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/screenshots/china-mobile-2026-08-07T163418.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/china-mobile/china-mobile-2026-08-07T163418.png
 security:
 - kind: authentication
   name: China Mobile Authentication
@@ -318,6 +321,16 @@ security:
   name: China Mobile Domain Security
   slug: china-mobile-domain-security
   summary_line: TLSv1.2 · HSTS
+skill_count: 4
+skills:
+- name: Onboard and authenticate against the OneNET open API gateway
+  slug: china-mobile-onboard-and-authenticate
+- name: Place a click-to-dial or voice-notification call and track its status
+  slug: china-mobile-place-a-click-to-dial-call
+- name: Receive OneNET device events over HTTP data push
+  slug: china-mobile-receive-device-events
+- name: Register a device and read or control it through the thing model
+  slug: china-mobile-register-and-control-a-device
 slug: china-mobile
 tags:
 - Telecommunications

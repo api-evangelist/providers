@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Coinsquare provides cryptocurrency trading services. Documentation is limited and no machine-readable contract was found.
@@ -32,27 +34,27 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coinsquare/refs/heads/main/well-known/coinsquare-coinsquare-security.txt
+  href: https://artifacts.apis.io/coinsquare/well-known/coinsquare-coinsquare-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/coinsquare-coinsquare-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coinsquare/refs/heads/main/well-known/coinsquare-status-security.txt
+  href: https://artifacts.apis.io/coinsquare/well-known/coinsquare-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/coinsquare-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coinsquare/refs/heads/main/well-known/coinsquare-well-known.yml
+  href: https://artifacts.apis.io/coinsquare/well-known/coinsquare-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/coinsquare-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coinsquare/refs/heads/main/hosts/coinsquare-hosts.yml
+  href: https://artifacts.apis.io/coinsquare/hosts/coinsquare-hosts.yml
   title: ''
   type: Hosts
   url: hosts/coinsquare-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coinsquare/refs/heads/main/vendors/coinsquare-vendors.yml
+  href: https://artifacts.apis.io/coinsquare/vendors/coinsquare-vendors.yml
   title: ''
   type: Vendors
   url: vendors/coinsquare-vendors.yml
@@ -93,7 +95,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/coinsquare
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coinsquare/refs/heads/main/security/coinsquare-domain-security.yml
+  href: https://artifacts.apis.io/coinsquare/security/coinsquare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coinsquare-domain-security.yml
@@ -125,10 +127,10 @@ overview: 'Coinsquare is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Coinsquare''s developer surface includes support, pricing, documentation, engineering blog, getting-started guide, and 11 more developer resources.'
-random_paper: 4
+random_paper: 2
 score:
   band: emerging
-  composite: 19.0
+  composite: 20.3
   coverage:
     artifact_dirs: 6
     catalog_earned: 30.0
@@ -136,13 +138,15 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 53.6
-    operational_transparency: 21.1
+    operational_transparency: 31.6
+  previous_composite: 20.3
   provenance:
     mcp: unknown
   regulatory:
@@ -151,8 +155,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 9.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

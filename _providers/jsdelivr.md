@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Package info and download stats on jsDelivr CDN
@@ -64,7 +66,7 @@ overview: 'jsDelivr is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   jsDelivr''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 9
+random_paper: 3
 score:
   band: minimal
   composite: 4.0
@@ -83,12 +85,6 @@ score:
     developer_ergonomics: 11.9
     discoverability: 39.3
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 4.0
   regulatory:
     applies: true
@@ -96,14 +92,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jsdelivr/refs/heads/main/screenshots/jsdelivr-2026-06-20T183812.png
+screenshot: https://apis.io/screenshots/jsdelivr/jsdelivr-2026-06-20T183812.png
 slug: jsdelivr
 tags:
 - Development

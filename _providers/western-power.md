@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 24.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,7 +74,7 @@ apis:
   description: The Search API from Western Power — 1 operation(s) for search.
   name: Western Power Search API
   slug: western-power-search-api
-artifact_total: 16
+artifact_total: 18
 collections:
 - collection_type: open
   name: Western Power Outage Areas Feature Service (ArcGIS REST)
@@ -85,92 +87,92 @@ collections:
   slug: open-western-power-outage
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/overlays/western-power-outage-overlay.yaml
+  href: https://artifacts.apis.io/western-power/overlays/western-power-outage-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/western-power-outage-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/skills/western-power-check-outages.md
+  href: https://artifacts.apis.io/western-power/skills/western-power-check-outages.md
   title: ''
   type: AgentSkill
   url: skills/western-power-check-outages.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/overlays/western-power-corporate-web-overlay.yaml
+  href: https://artifacts.apis.io/western-power/overlays/western-power-corporate-web-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/western-power-corporate-web-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/overlays/western-power-arcgis-outage-overlay.yaml
+  href: https://artifacts.apis.io/western-power/overlays/western-power-arcgis-outage-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/western-power-arcgis-outage-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/skills/western-power-query-outage-geography.md
+  href: https://artifacts.apis.io/western-power/skills/western-power-query-outage-geography.md
   title: ''
   type: AgentSkill
   url: skills/western-power-query-outage-geography.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/mcp/western-power-mcp.yml
+  href: https://artifacts.apis.io/western-power/mcp/western-power-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/western-power-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/agentic-access/western-power-agentic-access.yml
+  href: https://artifacts.apis.io/western-power/agentic-access/western-power-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/western-power-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/security/western-power-domain-security.yml
+  href: https://artifacts.apis.io/western-power/security/western-power-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/western-power-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/authentication/western-power-authentication.yml
+  href: https://artifacts.apis.io/western-power/authentication/western-power-authentication.yml
   title: ''
   type: Authentication
   url: authentication/western-power-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/conventions/western-power-conventions.yml
+  href: https://artifacts.apis.io/western-power/conventions/western-power-conventions.yml
   title: ''
   type: Conventions
   url: conventions/western-power-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/errors/western-power-problem-types.yml
+  href: https://artifacts.apis.io/western-power/errors/western-power-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/western-power-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/lifecycle/western-power-lifecycle.yml
+  href: https://artifacts.apis.io/western-power/lifecycle/western-power-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/western-power-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/conformance/western-power-conformance.yml
+  href: https://artifacts.apis.io/western-power/conformance/western-power-conformance.yml
   title: ''
   type: Conformance
   url: conformance/western-power-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/data-model/western-power-data-model.yml
+  href: https://artifacts.apis.io/western-power/data-model/western-power-data-model.yml
   title: ''
   type: DataModel
   url: data-model/western-power-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/well-known/western-power-well-known.yml
+  href: https://artifacts.apis.io/western-power/well-known/western-power-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/western-power-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/packages/western-power-packages.yml
+  href: https://artifacts.apis.io/western-power/packages/western-power-packages.yml
   title: ''
   type: Packages
   url: packages/western-power-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/llms/western-power-llms.txt
+  href: https://artifacts.apis.io/western-power/llms/western-power-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/western-power-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/western-power/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -257,10 +259,10 @@ overview: 'Western Power publishes 6 API contracts indexed on the [APIs.io](http
 
 
   Western Power''s developer surface includes authentication, support, engineering blog, documentation, developer portal, and 27 more developer resources.'
-random_paper: 14
+random_paper: 10
 score:
   band: thin
-  composite: 30.6
+  composite: 29.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -274,7 +276,7 @@ score:
     contract_governance: 4.5
     contract_quality: 15.0
     developer_ergonomics: 39.9
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -283,7 +285,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 30.6
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -300,14 +302,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/screenshots/western-power-2026-09-02T170733.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/western-power/western-power-2026-09-02T170733.png
 security:
 - kind: authentication
   name: Western Power Authentication
@@ -317,6 +319,12 @@ security:
   name: Western Power Domain Security
   slug: western-power-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Check Western Power outages
+  slug: western-power-check-outages
+- name: Query Western Power outage geography
+  slug: western-power-query-outage-geography
 slug: western-power
 tags:
 - Energy

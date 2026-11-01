@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.0
-  scored_at: '2026-10-17'
+  score: 36.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1098
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 1510
   slug: pipeliner-agentic-access
   summary_line: 1510 operations · 1098 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://us-east.api.pipelinersales.com/api/v100/rest/spaces/{space_id}
   baseurl_source: declared
@@ -288,19 +290,24 @@ apis:
   description: The Webresource API from Pipeliner CRM — 5 operation(s) for webresource.
   name: Pipeliner CRM Webresource API
   slug: pipeliner-webresource-api
-artifact_total: 65
+artifact_total: 73
 asyncapis:
 - description: ''
   name: Pipeliner Webhooks
   slug: pipeliner-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/pipeliner/plans/pipeliner-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/pipeliner-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/capabilities/pipeliner-capability-edges.yml
+  href: https://artifacts.apis.io/pipeliner/capabilities/pipeliner-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pipeliner-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/llms/pipeliner-llms.txt
+  href: https://artifacts.apis.io/pipeliner/llms/pipeliner-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pipeliner-llms.txt
@@ -309,42 +316,42 @@ common:
   type: Website
   url: https://www.coevera.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/agentic-access/pipeliner-agentic-access.yml
+  href: https://artifacts.apis.io/pipeliner/agentic-access/pipeliner-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pipeliner-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/rules/pipeliner-rules.yml
+  href: https://artifacts.apis.io/pipeliner/rules/pipeliner-rules.yml
   title: ''
   type: Spectral
   url: rules/pipeliner-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/json-ld/pipeliner-context.jsonld
+  href: https://artifacts.apis.io/pipeliner/json-ld/pipeliner-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/pipeliner-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/vocabulary/pipeliner-vocabulary.yml
+  href: https://artifacts.apis.io/pipeliner/vocabulary/pipeliner-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/pipeliner-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pipeliner/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/asyncapi/pipeliner-webhooks.yml
+  href: https://artifacts.apis.io/pipeliner/asyncapi/pipeliner-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/pipeliner-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/data-model/pipeliner-data-model.yml
+  href: https://artifacts.apis.io/pipeliner/data-model/pipeliner-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pipeliner-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/conventions/pipeliner-conventions.yml
+  href: https://artifacts.apis.io/pipeliner/conventions/pipeliner-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pipeliner-conventions.yml
@@ -353,57 +360,57 @@ common:
   type: Compliance
   url: https://www.coevera.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/security/pipeliner-trust-center.yml
+  href: https://artifacts.apis.io/pipeliner/security/pipeliner-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pipeliner-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/security/pipeliner-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pipeliner/security/pipeliner-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/pipeliner-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/security/pipeliner-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pipeliner/security/pipeliner-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pipeliner-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/security/pipeliner-domain-security.yml
+  href: https://artifacts.apis.io/pipeliner/security/pipeliner-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pipeliner-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/authentication/pipeliner-authentication.yml
+  href: https://artifacts.apis.io/pipeliner/authentication/pipeliner-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pipeliner-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/errors/pipeliner-problem-types.yml
+  href: https://artifacts.apis.io/pipeliner/errors/pipeliner-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pipeliner-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/conformance/pipeliner-conformance.yml
+  href: https://artifacts.apis.io/pipeliner/conformance/pipeliner-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pipeliner-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/well-known/pipeliner-help-security.txt
+  href: https://artifacts.apis.io/pipeliner/well-known/pipeliner-help-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/pipeliner-help-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/well-known/pipeliner-well-known.yml
+  href: https://artifacts.apis.io/pipeliner/well-known/pipeliner-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pipeliner-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/hosts/pipeliner-hosts.yml
+  href: https://artifacts.apis.io/pipeliner/hosts/pipeliner-hosts.yml
   title: ''
   type: Hosts
   url: hosts/pipeliner-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/vendors/pipeliner-vendors.yml
+  href: https://artifacts.apis.io/pipeliner/vendors/pipeliner-vendors.yml
   title: ''
   type: Vendors
   url: vendors/pipeliner-vendors.yml
@@ -453,6 +460,14 @@ common:
   url: https://www.coevera.com/log-in/
 created: '2026-09-22'
 description: Pipeliner CRM provides a visual sales pipeline and customer relationship management platform that helps businesses track leads, manage contacts, and automate sales processes. The solution offers customizable pipelines, activity tracking, reporting, and integration capabilities, enabling teams to improve productivity and close deals more efficiently. It serves a range of industries with a focus on sales automation and pipeline visibility, delivering a cloud‑based CRM experience.
+finops:
+- has_sources: true
+  method: derived
+  name: Pipeliner Finops
+  primary_unit: user
+  service_category: ''
+  slug: pipeliner-finops
+  template: false
 json_schemas:
 - name: Appointment
   property_count: 57
@@ -488,8 +503,15 @@ overview: 'Pipeliner CRM publishes 51 API contracts indexed on the [APIs.io](htt
   The Pipeliner CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Pipeliner CRM''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
-random_paper: 0
+  Pipeliner CRM''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
+plans:
+- name: Pipeliner Plans Pricing
+  plan_count: 3
+  slug: pipeliner-plans-pricing
+- name: Pipeliner Price Estimates
+  plan_count: 0
+  slug: pipeliner-price-estimates
+random_paper: 8
 rules:
 - authorship: generated
   effective_rule_count: 51
@@ -505,23 +527,23 @@ rules:
   slug: pipeliner-rules
 score:
   band: strong
-  composite: 57.9
+  composite: 62.9
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 60.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 54.3
+    artifact_dirs: 27
+    catalog_earned: 75.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 39.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 22.0
-    contract_quality: 70.0
+    contract_quality: 67.4
     developer_ergonomics: 58.9
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 18.4
-  previous_composite: 57.8
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -538,13 +560,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/screenshots/pipeliner-2026-10-11T112558.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pipeliner/pipeliner-2026-10-11T112558.png
 security:
 - kind: authentication
   name: Pipeliner Authentication
@@ -562,6 +585,18 @@ security:
   name: Pipeliner Trust Center
   slug: pipeliner-trust-center
   summary_line: ISO 27001, HIPAA, GDPR
+skill_count: 5
+skills:
+- name: pipeliner-client-list-and-fetch
+  slug: pipeliner-client-list-and-fetch
+- name: pipeliner-create-and-list-accounts
+  slug: pipeliner-create-and-list-accounts
+- name: pipeliner-create-and-list-webhook
+  slug: pipeliner-create-and-list-webhook
+- name: pipeliner-create-product
+  slug: pipeliner-create-product
+- name: pipeliner-manage-pipeline
+  slug: pipeliner-manage-pipeline
 slug: pipeliner
 tags:
 - CRM

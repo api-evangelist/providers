@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST API hosted on api.anaconda.org that provides read access to conda-forge package metadata including package details, version lists, platform availability, download counts, licensing, and distribut
@@ -45,27 +47,27 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/conda-forge/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/conda-forge/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/conda-forge/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/conda-forge/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/conda-forge/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/conda-forge/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/conda-forge/refs/heads/main/security/conda-forge-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/conda-forge/security/conda-forge-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/conda-forge-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/conda-forge/refs/heads/main/security/conda-forge-domain-security.yml
+  href: https://artifacts.apis.io/conda-forge/security/conda-forge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/conda-forge-domain-security.yml
@@ -129,14 +131,14 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 15
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Rate Limits
   slug: rate-limits
 score:
-  band: emerging
-  composite: 25.0
+  band: thin
+  composite: 26.3
   coverage:
     artifact_dirs: 7
     catalog_earned: 39.0
@@ -144,29 +146,29 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 29.2
+    operational_transparency: 15.8
+  previous_composite: 26.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/conda-forge/refs/heads/main/screenshots/conda-forge-2026-06-20T174843.png
+screenshot: https://apis.io/screenshots/conda-forge/conda-forge-2026-06-20T174843.png
 security:
 - kind: domain-security
   name: Conda Forge Domain Security

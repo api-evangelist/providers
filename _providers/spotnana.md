@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.2
-  scored_at: '2026-10-17'
+  score: 41.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 2
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 210
   slug: spotnana-agentic-access
   summary_line: 210 operations · 115 acting · 2 human-in-the-loop
-api_count: 14
+api_count: 11
 apis:
 - baseURL: https://apis.spotnana.com
   baseurl_source: declared
@@ -209,15 +211,12 @@ apis:
   description: APIs to onboard and manage users.
   name: Spotnana Users API
   slug: spotnana-users-api
-artifact_total: 72
+artifact_total: 76
 asyncapis:
 - description: ''
   name: Spotnana Webhooks
   slug: spotnana-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Air API
   slug: open-spotnana-air-api
@@ -327,12 +326,12 @@ common:
   type: BlogRSS
   url: https://www.spotnana.com/newsroom/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/capabilities/spotnana-capability-edges.yml
+  href: https://artifacts.apis.io/spotnana/capabilities/spotnana-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/spotnana-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/overlays/spotnana-air-overlay.yaml
+  href: https://artifacts.apis.io/spotnana/overlays/spotnana-air-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spotnana-air-overlay.yaml
@@ -365,7 +364,7 @@ common:
   type: ChangeLog
   url: https://developer.spotnana.com/changelog/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/changelog/spotnana-changelog.yml
+  href: https://artifacts.apis.io/spotnana/changelog/spotnana-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/spotnana-changelog.yml
@@ -382,7 +381,7 @@ common:
   type: Webhooks
   url: https://developer.spotnana.com/webhooks/webhook-main-intro
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/asyncapi/spotnana-webhooks.yml
+  href: https://artifacts.apis.io/spotnana/asyncapi/spotnana-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/spotnana-webhooks.yml
@@ -399,67 +398,67 @@ common:
   type: Login
   url: https://app.spotnana.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/mcp/spotnana-mcp.yml
+  href: https://artifacts.apis.io/spotnana/mcp/spotnana-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/spotnana-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/llms/spotnana-llms.txt
+  href: https://artifacts.apis.io/spotnana/llms/spotnana-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spotnana-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/well-known/spotnana-well-known.yml
+  href: https://artifacts.apis.io/spotnana/well-known/spotnana-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/spotnana-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/spotnana/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/agentic-access/spotnana-agentic-access.yml
+  href: https://artifacts.apis.io/spotnana/agentic-access/spotnana-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spotnana-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/authentication/spotnana-authentication.yml
+  href: https://artifacts.apis.io/spotnana/authentication/spotnana-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spotnana-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/conventions/spotnana-conventions.yml
+  href: https://artifacts.apis.io/spotnana/conventions/spotnana-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spotnana-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/errors/spotnana-problem-types.yml
+  href: https://artifacts.apis.io/spotnana/errors/spotnana-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spotnana-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/lifecycle/spotnana-lifecycle.yml
+  href: https://artifacts.apis.io/spotnana/lifecycle/spotnana-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spotnana-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/conformance/spotnana-conformance.yml
+  href: https://artifacts.apis.io/spotnana/conformance/spotnana-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spotnana-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/data-model/spotnana-data-model.yml
+  href: https://artifacts.apis.io/spotnana/data-model/spotnana-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spotnana-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/sandbox/spotnana-sandbox.yml
+  href: https://artifacts.apis.io/spotnana/sandbox/spotnana-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/spotnana-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/security/spotnana-domain-security.yml
+  href: https://artifacts.apis.io/spotnana/security/spotnana-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spotnana-domain-security.yml
@@ -482,10 +481,10 @@ overview: 'Spotnana publishes 33 API contracts indexed on the [APIs.io](https://
 
 
   Spotnana''s developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, authentication, sandbox, and 25 more developer resources.'
-random_paper: 10
+random_paper: 4
 score:
   band: developing
-  composite: 48.5
+  composite: 45.3
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -493,15 +492,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 58.2
+    contract_quality: 57.7
     developer_ergonomics: 61.3
-    discoverability: 80.0
-    operational_transparency: 50.0
-  previous_composite: 48.0
+    discoverability: 70.0
+    operational_transparency: 52.6
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -517,14 +516,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 19.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 66.7
-screenshot: https://raw.githubusercontent.com/api-evangelist/spotnana/refs/heads/main/screenshots/spotnana-2026-08-17T082033.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spotnana/spotnana-2026-08-17T082033.png
 security:
 - kind: authentication
   name: Spotnana Authentication
@@ -534,6 +534,18 @@ security:
   name: Spotnana Domain Security
   slug: spotnana-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 5
+skills:
+- name: Authenticate and obtain a Spotnana API token
+  slug: spotnana-authenticate
+- name: Create a trip and manage its PNRs
+  slug: spotnana-manage-trip-pnr
+- name: Onboard a company, its structure, and a traveler
+  slug: spotnana-onboard-company
+- name: Search and book a flight
+  slug: spotnana-search-and-book-air
+- name: Search and book a hotel
+  slug: spotnana-search-and-book-hotel
 slug: spotnana
 tags:
 - Company

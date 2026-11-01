@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,22 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/digital-room/refs/heads/main/plans/digital-room-plans-pricing.yml
+  href: https://artifacts.apis.io/digital-room/plans/digital-room-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/digital-room-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/digital-room/refs/heads/main/rate-limits/digital-room-rate-limits.yml
+  href: https://artifacts.apis.io/digital-room/rate-limits/digital-room-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/digital-room-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/digital-room/refs/heads/main/security/digital-room-domain-security.yml
+  href: https://artifacts.apis.io/digital-room/security/digital-room-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/digital-room-domain-security.yml
@@ -56,7 +58,7 @@ common:
   type: Website
   url: http://www.digitalroominc.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/digital-room/refs/heads/main/llms/digital-room-llms.txt
+  href: https://artifacts.apis.io/digital-room/llms/digital-room-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/digital-room-llms.txt
@@ -105,14 +107,14 @@ plans:
 - name: Digital Room Plans Pricing
   plan_count: 0
   slug: digital-room-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Digital Room Rate Limits
   slug: digital-room-rate-limits
 score:
   band: minimal
-  composite: 8.1
+  composite: 7.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -126,9 +128,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 8.1
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 7.8
   provenance:
     mcp: derived
   regulatory:
@@ -137,14 +139,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/digital-room/refs/heads/main/screenshots/digital-room-2026-07-25T212021.png
+screenshot: https://apis.io/screenshots/digital-room/digital-room-2026-07-25T212021.png
 security:
 - kind: domain-security
   name: Digital Room Domain Security

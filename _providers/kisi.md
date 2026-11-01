@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.8
-  scored_at: '2026-10-17'
+  score: 33.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 138
   human_in_the_loop: 25
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 227
   slug: kisi-agentic-access
   summary_line: 227 operations · 138 acting · 25 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.kisi.io
   baseurl_source: declared
@@ -283,11 +285,8 @@ apis:
   description: The Wireless locks API from KISI — 1 operation(s) for wireless locks.
   name: KISI Wireless locks API
   slug: kisi-wireless-locks-api
-artifact_total: 105
+artifact_total: 108
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kisi Calendars API
   slug: open-kisi-calendars-api
@@ -434,12 +433,12 @@ collections:
   slug: open-kisi-wireless-locks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/plans/kisi-plans-pricing.yml
+  href: https://artifacts.apis.io/kisi/plans/kisi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kisi-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/capabilities/kisi-capability-edges.yml
+  href: https://artifacts.apis.io/kisi/capabilities/kisi-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kisi-capability-edges.yml
@@ -496,12 +495,12 @@ common:
   type: StatusPage
   url: https://status.kisi.io
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/lifecycle/kisi-lifecycle.yml
+  href: https://artifacts.apis.io/kisi/lifecycle/kisi-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/kisi-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/lifecycle/kisi-lifecycle.yml
+  href: https://artifacts.apis.io/kisi/lifecycle/kisi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kisi-lifecycle.yml
@@ -514,72 +513,80 @@ common:
   type: Compliance
   url: https://trust.getkisi.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/conformance/kisi-conformance.yml
+  href: https://artifacts.apis.io/kisi/conformance/kisi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kisi-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/security/kisi-domain-security.yml
+  href: https://artifacts.apis.io/kisi/security/kisi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kisi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/authentication/kisi-authentication.yml
+  href: https://artifacts.apis.io/kisi/authentication/kisi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kisi-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/scopes/kisi-scopes.yml
+  href: https://artifacts.apis.io/kisi/scopes/kisi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kisi-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/conventions/kisi-conventions.yml
+  href: https://artifacts.apis.io/kisi/conventions/kisi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kisi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/errors/kisi-error-codes.yml
+  href: https://artifacts.apis.io/kisi/errors/kisi-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kisi-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/rate-limits/kisi-rate-limits.yml
+  href: https://artifacts.apis.io/kisi/rate-limits/kisi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kisi-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/data-model/kisi-data-model.yml
+  href: https://artifacts.apis.io/kisi/data-model/kisi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kisi-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/agentic-access/kisi-agentic-access.yml
+  href: https://artifacts.apis.io/kisi/agentic-access/kisi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kisi-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/mcp/kisi-mcp.yml
+  href: https://artifacts.apis.io/kisi/mcp/kisi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kisi-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kisi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/llms/kisi-llms.txt
+  href: https://artifacts.apis.io/kisi/llms/kisi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kisi-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/overlays/kisi-openapi-overlay.yaml
+  href: https://artifacts.apis.io/kisi/overlays/kisi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kisi-openapi-overlay.yaml
 created: '2026-07-17'
 description: Kisi is a cloud-based physical access control platform that combines hardware controllers and readers with software dashboards and a full REST API to manage building access, doors, locks, elevators, groups, members, access cards, visitor management, video surveillance, and security analytics. The Kisi API (OpenAPI 3.1, production host https://api.kisi.io) exposes 227 operations across 47 resource families, with header/OAuth2 authentication, offset/limit pagination, documented rate limits, RFC 8594 deprecation signaling, and a published Trust Center (SOC 2 Type 2, ISO/IEC 27001:2022, GDPR, NDAA). Kisi is a Point Nine portfolio company; this profile was enriched from Kisi's public developer surface.
+finops:
+- has_sources: true
+  method: derived
+  name: Kisi Finops
+  primary_unit: device
+  service_category: ''
+  slug: kisi-finops
+  template: false
 image: https://getkisi.com/favicon.svg
 layout: provider
 modified: '2026-07-20'
@@ -597,7 +604,7 @@ plans:
 - name: Kisi Price Estimates
   plan_count: 0
   slug: kisi-price-estimates
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Kisi Rate Limits
@@ -609,23 +616,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 54.8
+  composite: 57.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 49.4
-    developer_ergonomics: 49.4
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 54.8
+    contract_quality: 46.0
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -642,13 +649,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/screenshots/kisi-2026-07-25T223853.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kisi/kisi-2026-07-25T223853.png
 security:
 - kind: authentication
   name: Kisi Authentication
@@ -662,6 +670,14 @@ security:
   name: Kisi Trust Center
   slug: kisi-trust-center
   summary_line: SOC 2, ISO 27001, GDPR
+skill_count: 3
+skills:
+- name: Export and page through access events
+  slug: kisi-export-access-events
+- name: Issue and activate an access card
+  slug: kisi-issue-and-activate-card
+- name: Onboard a member and grant door access
+  slug: kisi-onboard-member-access
 slug: kisi
 tags:
 - Company

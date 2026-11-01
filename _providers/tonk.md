@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -69,32 +71,32 @@ common:
   type: Support
   url: https://discord.gg/cHqkYpRE
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tonk/refs/heads/main/packages/tonk-packages.yml
+  href: https://artifacts.apis.io/tonk/packages/tonk-packages.yml
   title: ''
   type: Packages
   url: packages/tonk-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tonk/refs/heads/main/packages/tonk-packages.yml
+  href: https://artifacts.apis.io/tonk/packages/tonk-packages.yml
   title: ''
   type: SDKs
   url: packages/tonk-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tonk/refs/heads/main/cli/tonk-cli.yml
+  href: https://artifacts.apis.io/tonk/cli/tonk-cli.yml
   title: ''
   type: CLI
   url: cli/tonk-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tonk/refs/heads/main/mcp/tonk-mcp.yml
+  href: https://artifacts.apis.io/tonk/mcp/tonk-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tonk-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tonk/refs/heads/main/llms/tonk-llms.txt
+  href: https://artifacts.apis.io/tonk/llms/tonk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tonk-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tonk/refs/heads/main/security/tonk-domain-security.yml
+  href: https://artifacts.apis.io/tonk/security/tonk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tonk-domain-security.yml
@@ -114,26 +116,26 @@ overview: 'Tonk is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Tonk''s developer surface includes engineering blog, documentation, getting-started guide, support, CLI, and 9 more developer resources.'
-random_paper: 4
+random_paper: 12
 score:
   band: emerging
-  composite: 14.0
+  composite: 14.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 47.6
-    discoverability: 55.0
-    operational_transparency: 2.6
-  previous_composite: 13.4
+    developer_ergonomics: 52.4
+    discoverability: 48.3
+    operational_transparency: 5.3
+  previous_composite: 14.6
   provenance:
     mcp: first-party
   regulatory:
@@ -142,14 +144,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tonk/refs/heads/main/screenshots/tonk-2026-09-02T163903.png
+screenshot: https://apis.io/screenshots/tonk/tonk-2026-09-02T163903.png
 security:
 - kind: domain-security
   name: Tonk Domain Security

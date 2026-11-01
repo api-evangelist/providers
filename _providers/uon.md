@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: UON's institutional identity provider, publishing machine-readable SAML 2.0 metadata at a stable URL. entityID https://idp.newcastle.edu.au/idp/shibboleth, shibmd:Scope newcastle.edu.au, SingleSignOnS
@@ -87,32 +89,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/university-of-newcastle-research
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/conformance/uon-conformance.yml
+  href: https://artifacts.apis.io/uon/conformance/uon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uon-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/security/uon-domain-security.yml
+  href: https://artifacts.apis.io/uon/security/uon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uon-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/plans/uon-plans-pricing.yml
+  href: https://artifacts.apis.io/uon/plans/uon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/uon-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/rate-limits/uon-rate-limits.yml
+  href: https://artifacts.apis.io/uon/rate-limits/uon-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/uon-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/finops/uon-finops.yml
+  href: https://artifacts.apis.io/uon/finops/uon-finops.yml
   title: ''
   type: FinOps
   url: finops/uon-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/uon/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -141,14 +143,14 @@ plans:
 - name: Uon Plans Pricing
   plan_count: 2
   slug: uon-plans-pricing
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Uon Rate Limits
   slug: uon-rate-limits
 score:
   band: emerging
-  composite: 12.3
+  composite: 12.6
   coverage:
     artifact_dirs: 8
     catalog_earned: 44.0
@@ -156,14 +158,14 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 4.4
     developer_ergonomics: 9.5
     discoverability: 71.4
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -171,7 +173,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 18.3
+  previous_composite: 12.6
   provenance:
     conformance: first-party
   regulatory:
@@ -180,14 +182,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/screenshots/uon-2026-06-20T200428.png
+screenshot: https://apis.io/screenshots/uon/uon-2026-06-20T200428.png
 security:
 - kind: domain-security
   name: Uon Domain Security

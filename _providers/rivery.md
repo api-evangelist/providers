@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.5
-  scored_at: '2026-10-17'
+  score: 30.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 2
@@ -103,70 +105,75 @@ apis:
   description: Management of data flows
   name: Rivery Dataflows API
   slug: rivery-dataflows-api
-artifact_total: 26
+artifact_total: 31
 common:
+- group: other
+  href: https://artifacts.apis.io/rivery/capabilities/rivery-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/rivery-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/agentic-access/rivery-agentic-access.yml
+  href: https://artifacts.apis.io/rivery/agentic-access/rivery-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rivery-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/plans/rivery-plans-pricing.yml
+  href: https://artifacts.apis.io/rivery/plans/rivery-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rivery-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/rules/rivery-rules.yml
+  href: https://artifacts.apis.io/rivery/rules/rivery-rules.yml
   title: ''
   type: Spectral
   url: rules/rivery-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/json-ld/rivery-context.jsonld
+  href: https://artifacts.apis.io/rivery/json-ld/rivery-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/rivery-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/vocabulary/rivery-vocabulary.yml
+  href: https://artifacts.apis.io/rivery/vocabulary/rivery-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/rivery-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rivery/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/data-model/rivery-data-model.yml
+  href: https://artifacts.apis.io/rivery/data-model/rivery-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rivery-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/conventions/rivery-conventions.yml
+  href: https://artifacts.apis.io/rivery/conventions/rivery-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rivery-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/authentication/rivery-authentication.yml
+  href: https://artifacts.apis.io/rivery/authentication/rivery-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rivery-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/errors/rivery-problem-types.yml
+  href: https://artifacts.apis.io/rivery/errors/rivery-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rivery-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/conformance/rivery-conformance.yml
+  href: https://artifacts.apis.io/rivery/conformance/rivery-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rivery-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/hosts/rivery-hosts.yml
+  href: https://artifacts.apis.io/rivery/hosts/rivery-hosts.yml
   title: ''
   type: Hosts
   url: hosts/rivery-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/vendors/rivery-vendors.yml
+  href: https://artifacts.apis.io/rivery/vendors/rivery-vendors.yml
   title: ''
   type: Vendors
   url: vendors/rivery-vendors.yml
@@ -187,7 +194,7 @@ common:
   type: APIReference
   url: https://api-docs.rivery.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/security/rivery-domain-security.yml
+  href: https://artifacts.apis.io/rivery/security/rivery-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rivery-domain-security.yml
@@ -217,6 +224,14 @@ common:
   url: https://rivery.io/terms-of-use
 created: '2026-10-03'
 description: Rivery provides a cloud ELT (Extract, Load, Transform) platform that enables organizations to integrate, orchestrate, and automate data pipelines across a wide range of sources and destinations. The low‑code solution supports data ingestion, transformation, CDC replication, reverse ETL, and data‑ops management, offering a unified interface for building scalable data workflows. Rivery’s platform is designed for both technical and business users, featuring AI‑assisted pipeline creation, extensive connector library, and robust security controls, positioning it as a comprehensive data integration tool now part of Boomi.
+finops:
+- has_sources: true
+  method: derived
+  name: Rivery Finops
+  primary_unit: ''
+  service_category: ''
+  slug: rivery-finops
+  template: true
 image: https://rivery.io/wp-content/uploads/2021/07/more_than_an_etl_.jpg
 json_schemas:
 - name: AuditEventsResponse
@@ -247,18 +262,18 @@ modified: '2026-10-03'
 name: Rivery
 nav: Providers
 network: true
-overview: 'Rivery publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Activities API, Audit Events API, and 11 more. Tagged areas include Data Integration, ELT, Cloud, Low-code, and Boomi.
+overview: 'Rivery publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Activities API, Audit Events API, and 11 more. Tagged areas include Data Integration, ELT, Cloud, Low-Code, and Boomi.
 
 
   The Rivery catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Rivery''s developer surface includes authentication, engineering blog, getting-started guide, API reference, documentation, pricing, and 18 more developer resources.'
+  Rivery''s developer surface includes authentication, engineering blog, getting-started guide, API reference, documentation, pricing, and 19 more developer resources.'
 plans:
 - name: Rivery Plans Pricing
   plan_count: 4
   slug: rivery-plans-pricing
-random_paper: 13
+random_paper: 1
 rules:
 - authorship: generated
   effective_rule_count: 57
@@ -274,15 +289,15 @@ rules:
   slug: rivery-rules
 score:
   band: developing
-  composite: 53.1
+  composite: 51.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 22.0
@@ -290,7 +305,7 @@ score:
     developer_ergonomics: 54.2
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 55.7
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,12 +322,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Rivery Authentication
@@ -322,12 +338,22 @@ security:
   name: Rivery Domain Security
   slug: rivery-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: rivery-connections-create-and-test
+  slug: rivery-connections-create-and-test
+- name: rivery-create-and-run-data-flow
+  slug: rivery-create-and-run-data-flow
+- name: rivery-dataframe-create-and-download
+  slug: rivery-dataframe-create-and-download
+- name: rivery-invite-and-verify-user
+  slug: rivery-invite-and-verify-user
 slug: rivery
 tags:
 - Data Integration
 - ELT
 - Cloud
-- Low-code
+- Low-Code
 - Boomi
 website: https://rivery.io/
 ---

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-17'
+  score: 32.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -126,7 +128,7 @@ arazzos:
 - description: Check the account has credit, create a guest contact in Cendyn CRM (PUSHTech) with GDPR consent recorded, subscribe them to an audience list, send a welcome email, and confirm the delivery reached a t
   name: Onboard a guest and send a welcome message
   slug: push-onboard-and-welcome-guest
-artifact_total: 24
+artifact_total: 27
 asyncapis:
 - description: 'Event surface of the Cendyn CRM (formerly PUSHTech) hospitality CRM / CDP platform. The platform makes an HTTP POST to subscriber-configured callback URLs when activities, message deliveries, contact '
   name: Cendyn CRM (PUSHTech) Webhooks
@@ -180,102 +182,102 @@ common:
   type: PrivacyPolicy
   url: https://pushtech.com/privacy_policy
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/_original/push-cendyn-crm-openapi.yml
+  href: https://artifacts.apis.io/push/openapi/_original/push-cendyn-crm-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/push-cendyn-crm-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/overlays/push-cendyn-crm-overlay.yaml
+  href: https://artifacts.apis.io/push/overlays/push-cendyn-crm-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/push-cendyn-crm-overlay.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/asyncapi/push-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/push/asyncapi/push-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/push-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/asyncapi/push-webhooks.yml
+  href: https://artifacts.apis.io/push/asyncapi/push-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/push-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/authentication/push-authentication.yml
+  href: https://artifacts.apis.io/push/authentication/push-authentication.yml
   title: ''
   type: Authentication
   url: authentication/push-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/conventions/push-conventions.yml
+  href: https://artifacts.apis.io/push/conventions/push-conventions.yml
   title: ''
   type: Conventions
   url: conventions/push-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/errors/push-problem-types.yml
+  href: https://artifacts.apis.io/push/errors/push-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/push-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/data-model/push-data-model.yml
+  href: https://artifacts.apis.io/push/data-model/push-data-model.yml
   title: ''
   type: DataModel
   url: data-model/push-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/lifecycle/push-lifecycle.yml
+  href: https://artifacts.apis.io/push/lifecycle/push-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/push-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/conformance/push-conformance.yml
+  href: https://artifacts.apis.io/push/conformance/push-conformance.yml
   title: ''
   type: Conformance
   url: conformance/push-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/packages/push-packages.yml
+  href: https://artifacts.apis.io/push/packages/push-packages.yml
   title: ''
   type: Packages
   url: packages/push-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/packages/push-packages.yml
+  href: https://artifacts.apis.io/push/packages/push-packages.yml
   title: ''
   type: SDKs
   url: packages/push-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/plans/push-plans-pricing.yml
+  href: https://artifacts.apis.io/push/plans/push-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/push-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/rate-limits/push-rate-limits.yml
+  href: https://artifacts.apis.io/push/rate-limits/push-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/push-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/agentic-access/push-agentic-access.yml
+  href: https://artifacts.apis.io/push/agentic-access/push-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/push-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/push/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/llms/push-llms.txt
+  href: https://artifacts.apis.io/push/llms/push-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/push-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/arazzo/push-onboard-and-welcome-guest.yml
+  href: https://artifacts.apis.io/push/arazzo/push-onboard-and-welcome-guest.yml
   title: ''
   type: Arazzo
   url: arazzo/push-onboard-and-welcome-guest.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/arazzo/push-load-catalog-and-purchase-history.yml
+  href: https://artifacts.apis.io/push/arazzo/push-load-catalog-and-purchase-history.yml
   title: ''
   type: Arazzo
   url: arazzo/push-load-catalog-and-purchase-history.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/security/push-domain-security.yml
+  href: https://artifacts.apis.io/push/security/push-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/push-domain-security.yml
@@ -299,14 +301,14 @@ plans:
 - name: Push Plans Pricing
   plan_count: 0
   slug: push-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Push Rate Limits
   slug: push-rate-limits
 score:
   band: thin
-  composite: 32.1
+  composite: 34.4
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -316,13 +318,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 21.8
     developer_ergonomics: 66.1
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 32.1
+    operational_transparency: 13.2
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -339,13 +341,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/screenshots/push-2026-08-17T081405.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/push/push-2026-08-17T081405.png
 security:
 - kind: authentication
   name: Push Authentication
@@ -355,6 +358,14 @@ security:
   name: Push Domain Security
   slug: push-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Onboard a guest as a Cendyn CRM contact
+  slug: push-onboard-guest-contact
+- name: Send a guest message and track its delivery
+  slug: push-send-guest-message
+- name: Sync products and guest purchases into Cendyn CRM
+  slug: push-sync-purchases-and-catalog
 slug: push
 tags:
 - Company

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 27.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 226
   human_in_the_loop: 20
@@ -303,14 +305,11 @@ apis:
   description: Trunk management operations
   name: Nfon Trunks API
   slug: nfon-trunks-api
-artifact_total: 108
+artifact_total: 113
 collections:
 - collection_type: postman
   name: __Official Service Portal API Collection
   slug: postman-nfon-service-portal-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NFON Call History Accounts API
   slug: open-nfon-accounts-api
@@ -465,6 +464,11 @@ collections:
   name: NFON Call History Accounts trunks API
   slug: open-nfon-trunks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/nfon/plans/nfon-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/nfon-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -474,22 +478,22 @@ common:
   type: Website
   url: https://www.nfon.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/capabilities/nfon-capability-edges.yml
+  href: https://artifacts.apis.io/nfon/capabilities/nfon-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nfon-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/security/nfon-domain-security.yml
+  href: https://artifacts.apis.io/nfon/security/nfon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nfon-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/agentic-access/nfon-agentic-access.yml
+  href: https://artifacts.apis.io/nfon/agentic-access/nfon-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nfon-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/authentication/nfon-authentication.yml
+  href: https://artifacts.apis.io/nfon/authentication/nfon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nfon-authentication.yml
@@ -542,92 +546,100 @@ common:
   type: Support
   url: https://partners.nfon.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/postman/nfon-service-portal-api.postman_collection.json
+  href: https://artifacts.apis.io/nfon/postman/nfon-service-portal-api.postman_collection.json
   title: ''
   type: Postman
   url: postman/nfon-service-portal-api.postman_collection.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/errors/nfon-problem-types.yml
+  href: https://artifacts.apis.io/nfon/errors/nfon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nfon-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/conformance/nfon-conformance.yml
+  href: https://artifacts.apis.io/nfon/conformance/nfon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nfon-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/lifecycle/nfon-lifecycle.yml
+  href: https://artifacts.apis.io/nfon/lifecycle/nfon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nfon-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/conventions/nfon-conventions.yml
+  href: https://artifacts.apis.io/nfon/conventions/nfon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nfon-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/data-model/nfon-data-model.yml
+  href: https://artifacts.apis.io/nfon/data-model/nfon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nfon-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/mcp/nfon-mcp.yml
+  href: https://artifacts.apis.io/nfon/mcp/nfon-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nfon-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/llms/nfon-llms.txt
+  href: https://artifacts.apis.io/nfon/llms/nfon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nfon-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/packages/nfon-packages.yml
+  href: https://artifacts.apis.io/nfon/packages/nfon-packages.yml
   title: ''
   type: Packages
   url: packages/nfon-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/well-known/nfon-well-known.yml
+  href: https://artifacts.apis.io/nfon/well-known/nfon-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nfon-well-known.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/changelog/nfon-changelog.yml
+  href: https://artifacts.apis.io/nfon/changelog/nfon-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nfon-changelog.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/overlays/nfon-pbx-configuration-overlay.yaml
+  href: https://artifacts.apis.io/nfon/overlays/nfon-pbx-configuration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nfon-pbx-configuration-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/overlays/nfon-cti-overlay.yaml
+  href: https://artifacts.apis.io/nfon/overlays/nfon-cti-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nfon-cti-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/overlays/nfon-call-history-overlay.yaml
+  href: https://artifacts.apis.io/nfon/overlays/nfon-call-history-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nfon-call-history-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/skills/nfon-cti-originate-and-cancel-call.md
+  href: https://artifacts.apis.io/nfon/skills/nfon-cti-originate-and-cancel-call.md
   title: ''
   type: AgentSkill
   url: skills/nfon-cti-originate-and-cancel-call.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/skills/nfon-call-history-retrieve-records.md
+  href: https://artifacts.apis.io/nfon/skills/nfon-call-history-retrieve-records.md
   title: ''
   type: AgentSkill
   url: skills/nfon-call-history-retrieve-records.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/skills/nfon-pbx-provision-extension.md
+  href: https://artifacts.apis.io/nfon/skills/nfon-pbx-provision-extension.md
   title: ''
   type: AgentSkill
   url: skills/nfon-pbx-provision-extension.md
 created: '2026-07-17'
 description: 'NFON AG is a European provider of cloud telephony and unified communications (UCaaS/CPaaS), headquartered in Munich and serving businesses across 15+ European countries. Its Cloudya cloud phone system and related products deliver business voice, video, contact centre and AI-assisted communication. For developers and integration partners, NFON publishes a set of RESTful JSON APIs hosted from the NFON-AG GitHub organisation: the flagship PBX Configuration API (OAuth 2.0, ~480 operations for provisioning tenants, extensions, devices, queues, groups, IVRs, phone books, licences and more — the successor to the legacy Service Portal API), the CTI API (server-to-server call control and Server-Sent-Event call/state streaming), and the Call History API offered under "Login with NFON" (OAuth 2.0 Authorization Code + PKCE) for retrieving, streaming and deleting call records with transcriptions and summaries. Use of the APIs is free of charge; access is provisioned by contacting integration@nfon.com.'
+finops:
+- has_sources: true
+  method: derived
+  name: Nfon Finops
+  primary_unit: connection
+  service_category: ''
+  slug: nfon-finops
+  template: false
 image: https://a.storyblok.com/f/290788/2624x1428/c0ccf89b71/homepage-hero-home.png
 layout: provider
 modified: '2026-10-06'
@@ -637,26 +649,33 @@ network: true
 overview: 'Nfon publishes 52 API contracts indexed on the [APIs.io](https://apis.io/) network, including Service Portal API (legacy), Accounts API, Address API, and 49 more. Tagged areas include Company, Telecommunications, Cloud Telephony, UCaaS, and CPaaS.
 
 
-  Nfon''s developer surface includes engineering blog, authentication, documentation, API reference, support, changelog, and 29 more developer resources.'
-random_paper: 15
+  Nfon''s developer surface includes engineering blog, authentication, documentation, API reference, support, changelog, and 30 more developer resources.'
+plans:
+- name: Nfon Plans Pricing
+  plan_count: 24
+  slug: nfon-plans-pricing
+- name: Nfon Price Estimates
+  plan_count: 0
+  slug: nfon-price-estimates
+random_paper: 1
 score:
-  band: developing
-  composite: 46.2
+  band: strong
+  composite: 55.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 25
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.4
+  delta: 7.9
   facets:
-    access_clarity: 43.4
+    access_clarity: 89.5
     contract_governance: 18.2
-    contract_quality: 49.7
+    contract_quality: 47.8
     developer_ergonomics: 48.2
-    discoverability: 78.6
-    operational_transparency: 42.1
+    discoverability: 71.4
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -665,7 +684,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 45.8
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -686,13 +705,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/screenshots/nfon-2026-08-07T185227.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nfon/nfon-2026-08-07T185227.png
 security:
 - kind: authentication
   name: Nfon Authentication
@@ -702,6 +722,14 @@ security:
   name: Nfon Domain Security
   slug: nfon-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Retrieve and stream NFON call history records
+  slug: nfon-call-history-retrieve-records
+- name: Originate and cancel a call with the NFON CTI API
+  slug: nfon-cti-originate-and-cancel-call
+- name: Provision a phone extension via the NFON PBX Configuration API
+  slug: nfon-pbx-provision-extension
 slug: nfon
 tags:
 - Company

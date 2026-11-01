@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/puget-energy/refs/heads/main/security/puget-energy-domain-security.yml
+  href: https://artifacts.apis.io/puget-energy/security/puget-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/puget-energy-domain-security.yml
@@ -78,7 +80,7 @@ press:
 - date: ''
   title: SUSTAINABILITY REPORT
   url: https://www.pse.com/-/media/PDFs/Sustainability/2025_PSERY24SustainabilityReport.pdf
-random_paper: 12
+random_paper: 20
 score:
   band: minimal
   composite: 2.7
@@ -111,14 +113,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/puget-energy/refs/heads/main/screenshots/puget-energy-2026-06-20T192252.png
+screenshot: https://apis.io/screenshots/puget-energy/puget-energy-2026-06-20T192252.png
 security:
 - kind: domain-security
   name: Puget Energy Domain Security

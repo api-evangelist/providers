@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Decentralized JSON-RPC + WebSocket API for the Angstrom DEX. Every Angstrom node runs its own JSON-RPC server (there is no single central API); a load-balanced HTTPS/WebSocket endpoint is recommended '
@@ -86,42 +88,42 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/sorella-labs/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sorella-labs/refs/heads/main/packages/sorella-labs-packages.yml
+  href: https://artifacts.apis.io/sorella-labs/packages/sorella-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/sorella-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sorella-labs/refs/heads/main/packages/sorella-labs-packages.yml
+  href: https://artifacts.apis.io/sorella-labs/packages/sorella-labs-packages.yml
   title: ''
   type: Packages
   url: packages/sorella-labs-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sorella-labs/refs/heads/main/authentication/sorella-labs-authentication.yml
+  href: https://artifacts.apis.io/sorella-labs/authentication/sorella-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sorella-labs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sorella-labs/refs/heads/main/conventions/sorella-labs-conventions.yml
+  href: https://artifacts.apis.io/sorella-labs/conventions/sorella-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sorella-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sorella-labs/refs/heads/main/conformance/sorella-labs-conformance.yml
+  href: https://artifacts.apis.io/sorella-labs/conformance/sorella-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sorella-labs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sorella-labs/refs/heads/main/lifecycle/sorella-labs-lifecycle.yml
+  href: https://artifacts.apis.io/sorella-labs/lifecycle/sorella-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sorella-labs-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sorella-labs/refs/heads/main/llms/sorella-labs-llms.txt
+  href: https://artifacts.apis.io/sorella-labs/llms/sorella-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sorella-labs-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sorella-labs/refs/heads/main/security/sorella-labs-domain-security.yml
+  href: https://artifacts.apis.io/sorella-labs/security/sorella-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sorella-labs-domain-security.yml
@@ -137,10 +139,10 @@ overview: 'Sorella Labs is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   Sorella Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 7
+random_paper: 17
 score:
   band: emerging
-  composite: 22.0
+  composite: 21.6
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -148,15 +150,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 21.9
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 21.6
   provenance:
     conformance: first-party
   regulatory:
@@ -165,14 +167,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sorella-labs/refs/heads/main/screenshots/sorella-labs-2026-09-02T160233.png
+screenshot: https://apis.io/screenshots/sorella-labs/sorella-labs-2026-09-02T160233.png
 security:
 - kind: authentication
   name: Sorella Labs Authentication

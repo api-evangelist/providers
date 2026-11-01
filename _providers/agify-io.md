@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.5
-  scored_at: '2026-10-17'
+  score: 31.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,22 +53,19 @@ apis:
   description: Predict a person's age from their first name
   name: Agify.io Age Prediction API
   slug: agify-io-age-prediction-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Agify.io Age Prediction API
   slug: open-agify-io-age-prediction-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agify-io/refs/heads/main/plans/agify-io-plans-pricing.yml
+  href: https://artifacts.apis.io/agify-io/plans/agify-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agify-io-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agify-io/refs/heads/main/finops/agify-io-finops.yml
+  href: https://artifacts.apis.io/agify-io/finops/agify-io-finops.yml
   title: ''
   type: FinOps
   url: finops/agify-io-finops.yml
@@ -75,12 +74,12 @@ common:
   type: Website
   url: https://www.agify.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agify-io/refs/heads/main/agentic-access/agify-io-agentic-access.yml
+  href: https://artifacts.apis.io/agify-io/agentic-access/agify-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/agify-io-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agify-io/refs/heads/main/security/agify-io-domain-security.yml
+  href: https://artifacts.apis.io/agify-io/security/agify-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agify-io-domain-security.yml
@@ -125,7 +124,7 @@ finops:
 - has_sources: false
   method: generated
   name: Agify Io Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: agify-io-finops
   template: true
@@ -168,7 +167,7 @@ plans:
 - name: Agify Io Plans Pricing
   plan_count: 3
   slug: agify-io-plans-pricing
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Agify Io Rate Limits
@@ -187,7 +186,7 @@ rules:
   slug: agify-io-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 18.8
+  composite: 19.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 46.3
@@ -195,15 +194,15 @@ score:
     catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 16.5
     developer_ergonomics: 19.0
-    discoverability: 66.7
+    discoverability: 64.3
     operational_transparency: 7.9
-  previous_composite: 20.3
+  previous_composite: 19.6
   provenance:
     agentic_access: derived
     contracts:
@@ -218,14 +217,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/agify-io/refs/heads/main/screenshots/agify-io-2026-06-20T170134.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/agify-io/agify-io-2026-06-20T170134.png
 security:
 - kind: domain-security
   name: Agify Io Domain Security

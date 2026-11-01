@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-10-17'
+  score: 26.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,11 +60,8 @@ apis:
   description: The Facts API from Cat Facts API — 1 operation(s) for facts.
   name: Cat Facts API Facts API
   slug: catfact-facts-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cat Facts Breeds API
   slug: open-catfact-breeds-api
@@ -74,12 +73,12 @@ collections:
   slug: open-catfact-facts-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/catfact/refs/heads/main/agentic-access/catfact-agentic-access.yml
+  href: https://artifacts.apis.io/catfact/agentic-access/catfact-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/catfact-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/catfact/refs/heads/main/security/catfact-domain-security.yml
+  href: https://artifacts.apis.io/catfact/security/catfact-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/catfact-domain-security.yml
@@ -96,17 +95,17 @@ common:
   type: GitHubOrg
   url: https://github.com/alexwohlbruck/cat-facts
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/catfact/refs/heads/main/plans/catfact-plans-pricing.yml
+  href: https://artifacts.apis.io/catfact/plans/catfact-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/catfact-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/catfact/refs/heads/main/rate-limits/catfact-rate-limits.yml
+  href: https://artifacts.apis.io/catfact/rate-limits/catfact-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/catfact-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/catfact/refs/heads/main/finops/catfact-finops.yml
+  href: https://artifacts.apis.io/catfact/finops/catfact-finops.yml
   title: ''
   type: FinOps
   url: finops/catfact-finops.yml
@@ -169,7 +168,7 @@ plans:
 - name: Catfact Plans Pricing
   plan_count: 1
   slug: catfact-plans-pricing
-random_paper: 0
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Catfact Rate Limits
@@ -188,7 +187,7 @@ rules:
   slug: catfact-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.5
+  composite: 23.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 45.3
@@ -196,15 +195,15 @@ score:
     catalog_gap: 69.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 53.4
     developer_ergonomics: 9.5
-    discoverability: 60.0
+    discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 27.8
+  previous_composite: 23.2
   provenance:
     agentic_access: derived
     contracts:
@@ -219,14 +218,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/catfact/refs/heads/main/screenshots/catfact-2026-06-20T174051.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/catfact/catfact-2026-06-20T174051.png
 security:
 - kind: domain-security
   name: Catfact Domain Security

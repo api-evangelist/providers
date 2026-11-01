@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 24.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -61,11 +63,8 @@ apis:
   description: The models API from Poolside — 1 operation(s) for models.
   name: Poolside Models API
   slug: poolside-ai-models-api
-artifact_total: 14
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OpenAI Compatible chat API
   slug: open-poolside-ai-chat-api
@@ -74,27 +73,27 @@ collections:
   slug: open-poolside-ai-models-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/capabilities/poolside-ai-capability-edges.yml
+  href: https://artifacts.apis.io/poolside-ai/capabilities/poolside-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/poolside-ai-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/agentic-access/poolside-ai-agentic-access.yml
+  href: https://artifacts.apis.io/poolside-ai/agentic-access/poolside-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/poolside-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/security/poolside-ai-trust-center.yml
+  href: https://artifacts.apis.io/poolside-ai/security/poolside-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/poolside-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/security/poolside-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/poolside-ai/security/poolside-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/poolside-ai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/authentication/poolside-ai-authentication.yml
+  href: https://artifacts.apis.io/poolside-ai/authentication/poolside-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/poolside-ai-authentication.yml
@@ -115,17 +114,17 @@ common:
   type: Documentation
   url: https://docs.poolside.ai/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/plans/poolside-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/poolside-ai/plans/poolside-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/poolside-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/rate-limits/poolside-ai-rate-limits.yml
+  href: https://artifacts.apis.io/poolside-ai/rate-limits/poolside-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/poolside-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/finops/poolside-ai-finops.yml
+  href: https://artifacts.apis.io/poolside-ai/finops/poolside-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/poolside-ai-finops.yml
@@ -157,14 +156,14 @@ plans:
 - name: Poolside Ai Plans Pricing
   plan_count: 3
   slug: poolside-ai-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Poolside Ai Rate Limits
   slug: poolside-ai-rate-limits
 score:
-  band: emerging
-  composite: 25.3
+  band: thin
+  composite: 29.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.0
@@ -172,15 +171,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 41.9
-    developer_ergonomics: 23.8
+    developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 34.0
+    operational_transparency: 23.7
+  previous_composite: 29.2
   provenance:
     agentic_access: derived
     contracts:
@@ -194,13 +193,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/screenshots/poolside-ai-2026-10-11T112908.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/poolside-ai/poolside-ai-2026-10-11T112908.png
 security:
 - kind: authentication
   name: Poolside Ai Authentication

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Lafz direct-to-consumer storefront on Shopify, with an agent-commerce surface over the Universal Commerce Protocol (UCP) MCP server plus read-only product/collection JSON endpoints and Shopify cus
   name: Lafz Storefront (Shopify UCP)
   slug: lafz-storefront-shopify-ucp
-artifact_total: 4
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -51,42 +53,42 @@ common:
   type: Store
   url: https://lafz.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-lafz/refs/heads/main/mcp/the-lafz-mcp.yml
+  href: https://artifacts.apis.io/the-lafz/mcp/the-lafz-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/the-lafz-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-lafz/refs/heads/main/llms/the-lafz-llms.txt
+  href: https://artifacts.apis.io/the-lafz/llms/the-lafz-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-lafz-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-lafz/refs/heads/main/well-known/the-lafz-well-known.yml
+  href: https://artifacts.apis.io/the-lafz/well-known/the-lafz-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/the-lafz-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-lafz/refs/heads/main/authentication/the-lafz-authentication.yml
+  href: https://artifacts.apis.io/the-lafz/authentication/the-lafz-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-lafz-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-lafz/refs/heads/main/security/the-lafz-domain-security.yml
+  href: https://artifacts.apis.io/the-lafz/security/the-lafz-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-lafz-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-lafz/refs/heads/main/conventions/the-lafz-conventions.yml
+  href: https://artifacts.apis.io/the-lafz/conventions/the-lafz-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-lafz-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-lafz/refs/heads/main/conformance/the-lafz-conformance.yml
+  href: https://artifacts.apis.io/the-lafz/conformance/the-lafz-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-lafz-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-lafz/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/the-lafz/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -125,7 +127,7 @@ overview: 'The Lafz is listed with 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 3
 score:
   band: emerging
-  composite: 16.4
+  composite: 15.8
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -139,14 +141,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 20.8
-    discoverability: 71.7
+    discoverability: 65.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - singapore
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 16.4
+  previous_composite: 15.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -157,14 +159,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-lafz/refs/heads/main/screenshots/the-lafz-2026-09-02T163401.png
+screenshot: https://apis.io/screenshots/the-lafz/the-lafz-2026-09-02T163401.png
 security:
 - kind: authentication
   name: The Lafz Authentication
@@ -174,6 +176,10 @@ security:
   name: The Lafz Domain Security
   slug: the-lafz-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 1
+skills:
+- name: lafz-shop
+  slug: the-lafz-shop
 slug: the-lafz
 tags:
 - Company

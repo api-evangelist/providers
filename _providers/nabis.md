@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-10-17'
+  score: 27.7
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - baseURL: https://platform-api.nabis.pro
@@ -128,24 +130,24 @@ apis:
   description: The Warehouses API from Nabis — 1 operation(s) for warehouses.
   name: Nabis Warehouses API
   slug: nabis-warehouses-api
-artifact_total: 23
+artifact_total: 27
 collections:
 - collection_type: postman
   name: NABIS Platform API v2
   slug: postman-nabis-platform-api-v2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/capabilities/nabis-capability-edges.yml
+  href: https://artifacts.apis.io/nabis/capabilities/nabis-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nabis-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/overlays/nabis-platform-api-v2-overlay.yaml
+  href: https://artifacts.apis.io/nabis/overlays/nabis-platform-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nabis-platform-api-v2-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/security/nabis-domain-security.yml
+  href: https://artifacts.apis.io/nabis/security/nabis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nabis-domain-security.yml
@@ -170,7 +172,7 @@ common:
   type: GettingStarted
   url: https://developers.nabis.com/v2/docs/overview/introduction
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/authentication/nabis-authentication.yml
+  href: https://artifacts.apis.io/nabis/authentication/nabis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nabis-authentication.yml
@@ -211,72 +213,80 @@ common:
   type: StatusPage
   url: https://status.nabis.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/changelog/nabis-changelog.yml
+  href: https://artifacts.apis.io/nabis/changelog/nabis-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nabis-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/lifecycle/nabis-lifecycle.yml
+  href: https://artifacts.apis.io/nabis/lifecycle/nabis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nabis-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/rate-limits/nabis-rate-limits.yml
+  href: https://artifacts.apis.io/nabis/rate-limits/nabis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nabis-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/errors/nabis-problem-types.yml
+  href: https://artifacts.apis.io/nabis/errors/nabis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nabis-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/conventions/nabis-conventions.yml
+  href: https://artifacts.apis.io/nabis/conventions/nabis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nabis-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/data-model/nabis-data-model.yml
+  href: https://artifacts.apis.io/nabis/data-model/nabis-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nabis-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/conformance/nabis-conformance.yml
+  href: https://artifacts.apis.io/nabis/conformance/nabis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nabis-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/packages/nabis-packages.yml
+  href: https://artifacts.apis.io/nabis/packages/nabis-packages.yml
   title: ''
   type: Packages
   url: packages/nabis-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/plans/nabis-plans-pricing.yml
+  href: https://artifacts.apis.io/nabis/plans/nabis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nabis-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/mcp/nabis-mcp.yml
+  href: https://artifacts.apis.io/nabis/mcp/nabis-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nabis-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nabis/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/llms/nabis-llms.txt
+  href: https://artifacts.apis.io/nabis/llms/nabis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nabis-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/examples/nabis-examples.yml
+  href: https://artifacts.apis.io/nabis/examples/nabis-examples.yml
   title: ''
   type: Examples
   url: examples/nabis-examples.yml
 created: '2026-08-26'
 description: Nabis is a licensed cannabis wholesale distributor and B2B marketplace founded in 2018 by Vince C. Ning and Jun S. Lee, operating in California, New York and Nevada. It runs distribution and fulfillment warehouses, an ordering marketplace connecting 400+ cannabis brands to licensed retailers, an analytics layer, and Nabis Capital, an invoice-based financing product, plus Nabis BillPay and Nabis Tracker for retailers. The company reports that 99% of retailers in the three states it serves receive product through Nabis and that it fulfills 3,500+ wholesale orders a week. For developers it publishes the Nabis Platform API — a read-only, API-key-authenticated JSON REST API for brands and retailers covering inventory, inventory history, orders, invoices, retailers, warehouses and the Nabis delivery calendar, with separate California and New York route trees, and an implementation of the Universal Cannabis API labeling standard for order manifests and QR-code regulator events.
+finops:
+- has_sources: true
+  method: derived
+  name: Nabis Finops
+  primary_unit: ''
+  service_category: ''
+  slug: nabis-finops
+  template: true
 image: https://cdn.prod.website-files.com/5c253860fd28a73e98ee5416/639cbabbb5d9b23d53a27b01_nabis_ogimage.jpg
 layout: provider
 modified: '2026-09-16'
@@ -291,16 +301,16 @@ plans:
 - name: Nabis Plans Pricing
   plan_count: 0
   slug: nabis-plans-pricing
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Nabis Rate Limits
   slug: nabis-rate-limits
 score:
   band: developing
-  composite: 50.0
+  composite: 50.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -314,7 +324,7 @@ score:
     developer_ergonomics: 63.7
     discoverability: 71.4
     operational_transparency: 63.2
-  previous_composite: 50.0
+  previous_composite: 50.8
   provenance:
     conformance: first-party
     contracts:
@@ -330,13 +340,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/screenshots/nabis-2026-09-02T150717.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nabis/nabis-2026-09-02T150717.png
 security:
 - kind: authentication
   name: Nabis Authentication
@@ -346,6 +357,14 @@ security:
   name: Nabis Domain Security
   slug: nabis-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: nabis-reconcile-orders-invoices
+  slug: nabis-reconcile-orders-invoices
+- name: nabis-sync-inventory
+  slug: nabis-sync-inventory
+- name: nabis-trace-order-manifest
+  slug: nabis-trace-order-manifest
 slug: nabis
 tags:
 - Cannabis

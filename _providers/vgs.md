@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: Vault resources on the VGS Accounts API.
   name: Very Good Security Vaults API
   slug: vgs-vaults-api
-artifact_total: 17
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Very Good Security (VGS) aliases API
   slug: open-vgs-aliases-api
@@ -95,22 +94,22 @@ common:
   type: BlogRSS
   url: https://www.verygoodsecurity.com/blog/rss.xml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/agentic-access/vgs-agentic-access.yml
+  href: https://artifacts.apis.io/vgs/agentic-access/vgs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vgs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/security/vgs-trust-center.yml
+  href: https://artifacts.apis.io/vgs/security/vgs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vgs-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/security/vgs-domain-security.yml
+  href: https://artifacts.apis.io/vgs/security/vgs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vgs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/authentication/vgs-authentication.yml
+  href: https://artifacts.apis.io/vgs/authentication/vgs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vgs-authentication.yml
@@ -131,17 +130,17 @@ common:
   type: Documentation
   url: https://docs.verygoodsecurity.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/plans/vgs-plans-pricing.yml
+  href: https://artifacts.apis.io/vgs/plans/vgs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vgs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/rate-limits/vgs-rate-limits.yml
+  href: https://artifacts.apis.io/vgs/rate-limits/vgs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vgs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/finops/vgs-finops.yml
+  href: https://artifacts.apis.io/vgs/finops/vgs-finops.yml
   title: ''
   type: FinOps
   url: finops/vgs-finops.yml
@@ -169,30 +168,30 @@ plans:
 - name: Vgs Plans Pricing
   plan_count: 3
   slug: vgs-plans-pricing
-random_paper: 6
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Vgs Rate Limits
   slug: vgs-rate-limits
 score:
   band: thin
-  composite: 29.2
+  composite: 29.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 51.9
+    contract_quality: 48.5
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 37.0
+    operational_transparency: 13.2
+  previous_composite: 29.4
   provenance:
     agentic_access: derived
     contracts:
@@ -206,13 +205,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/screenshots/vgs-2026-06-20T201107.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vgs/vgs-2026-06-20T201107.png
 security:
 - kind: authentication
   name: Vgs Authentication

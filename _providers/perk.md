@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -114,34 +116,44 @@ apis:
   description: The Service Provider Config API from Perk — 1 operation(s) for service provider config.
   name: Perk Service Provider Config API
   slug: perk-service-provider-config-api
-artifact_total: 23
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Perk Webhooks
   slug: perk-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/perk/capabilities/perk-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/perk-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/perk/plans/perk-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/perk-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/agentic-access/perk-agentic-access.yml
+  href: https://artifacts.apis.io/perk/agentic-access/perk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/perk-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/rules/perk-rules.yml
+  href: https://artifacts.apis.io/perk/rules/perk-rules.yml
   title: ''
   type: Spectral
   url: rules/perk-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/vocabulary/perk-vocabulary.yml
+  href: https://artifacts.apis.io/perk/vocabulary/perk-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/perk-vocabulary.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/hosts/perk-hosts.yml
+  href: https://artifacts.apis.io/perk/hosts/perk-hosts.yml
   title: ''
   type: Hosts
   url: hosts/perk-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/vendors/perk-vendors.yml
+  href: https://artifacts.apis.io/perk/vendors/perk-vendors.yml
   title: ''
   type: Vendors
   url: vendors/perk-vendors.yml
@@ -202,102 +214,114 @@ common:
   type: StatusPage
   url: https://status.perk.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/mcp/perk-mcp.yml
+  href: https://artifacts.apis.io/perk/mcp/perk-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/perk-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/llms/perk-llms.txt
+  href: https://artifacts.apis.io/perk/llms/perk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/perk-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/authentication/perk-authentication.yml
+  href: https://artifacts.apis.io/perk/authentication/perk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/perk-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/scopes/perk-scopes.yml
+  href: https://artifacts.apis.io/perk/scopes/perk-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/perk-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/conventions/perk-conventions.yml
+  href: https://artifacts.apis.io/perk/conventions/perk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/perk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/errors/perk-problem-types.yml
+  href: https://artifacts.apis.io/perk/errors/perk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/perk-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/lifecycle/perk-lifecycle.yml
+  href: https://artifacts.apis.io/perk/lifecycle/perk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/perk-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/lifecycle/perk-lifecycle.yml
+  href: https://artifacts.apis.io/perk/lifecycle/perk-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/perk-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/changelog/perk-changelog.yml
+  href: https://artifacts.apis.io/perk/changelog/perk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/perk-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/sandbox/perk-sandbox.yml
+  href: https://artifacts.apis.io/perk/sandbox/perk-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/perk-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/asyncapi/perk-webhooks.yml
+  href: https://artifacts.apis.io/perk/asyncapi/perk-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/perk-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/conformance/perk-conformance.yml
+  href: https://artifacts.apis.io/perk/conformance/perk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/perk-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/data-model/perk-data-model.yml
+  href: https://artifacts.apis.io/perk/data-model/perk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/perk-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/perk/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/security/perk-domain-security.yml
+  href: https://artifacts.apis.io/perk/security/perk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/perk-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/well-known/perk-well-known.yml
+  href: https://artifacts.apis.io/perk/well-known/perk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/perk-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/well-known/perk-security.txt
+  href: https://artifacts.apis.io/perk/well-known/perk-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/perk-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/security/perk-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/perk/security/perk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/perk-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/security/perk-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/perk/security/perk-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/perk-vulnerability-disclosure.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/travelperk
 created: '2026-07-17'
 description: Perk (formerly TravelPerk) is the intelligent platform for corporate travel and spend management, combining travel booking with expense, invoice, and card controls for finance teams. Founded in Barcelona in 2015, Perk serves thousands of global teams and is backed by General Catalyst, SoftBank Vision Fund, Speedinvest and others. Its developer platform exposes a Travel & Spend REST API, a SCIM 2.0 user-provisioning API, webhooks, a sandbox, a public Postman collection, and an official hosted Model Context Protocol (MCP) server for AI clients.
+finops:
+- has_sources: true
+  method: derived
+  name: Perk Finops
+  primary_unit: active user
+  service_category: ''
+  slug: perk-finops
+  template: false
 image: https://d2balr5nj4353r.cloudfront.net/favicon-192x192.png
 layout: provider
 mcp_servers:
@@ -314,8 +338,15 @@ overview: 'Perk publishes 15 API contracts indexed on the [APIs.io](https://apis
   The Perk catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Perk''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 31 more developer resources.'
-random_paper: 16
+  Perk''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 34 more developer resources.'
+plans:
+- name: Perk Plans Pricing
+  plan_count: 11
+  slug: perk-plans-pricing
+- name: Perk Price Estimates
+  plan_count: 0
+  slug: perk-price-estimates
+random_paper: 2
 rules:
 - authorship: generated
   effective_rule_count: 51
@@ -335,24 +366,24 @@ scopes:
   slug: perk-scopes
   summary_line: 5 scopes
 score:
-  band: strong
-  composite: 56.1
+  band: exemplar
+  composite: 69.1
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 45.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 69.3
+    artifact_dirs: 29
+    catalog_earned: 60.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 11.0
+  delta: 8.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 84.2
     contract_governance: 35.6
-    contract_quality: 61.9
-    developer_ergonomics: 51.8
-    discoverability: 78.3
-    operational_transparency: 57.9
-  previous_composite: 45.1
+    contract_quality: 58.6
+    developer_ergonomics: 70.8
+    discoverability: 71.7
+    operational_transparency: 63.2
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -368,14 +399,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 38.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 40.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/screenshots/perk-2026-08-17T081158.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/perk/perk-2026-08-17T081158.png
 security:
 - kind: authentication
   name: Perk Authentication
@@ -389,6 +421,12 @@ security:
   name: Perk Vulnerability Disclosure
   slug: perk-vulnerability-disclosure
   summary_line: Intigriti · security.txt · contact published
+skill_count: 2
+skills:
+- name: perk-export-expenses
+  slug: perk-export-expenses
+- name: perk-sync-trips-webhook
+  slug: perk-sync-trips-webhook
 slug: perk
 tags:
 - Company
@@ -399,5 +437,9 @@ tags:
 - Invoices
 - Fintech
 - Software-as-a-Service
+- Business Travel
+- Travel Management
+- Expenses
+- Booking
 website: https://www.perk.com/
 ---

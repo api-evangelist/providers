@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.0
-  scored_at: '2026-10-17'
+  score: 45.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 12
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 107
   slug: smithery-agentic-access
   summary_line: 107 operations · 60 acting · 12 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://api.smithery.ai
   baseurl_source: declared
@@ -91,11 +93,8 @@ apis:
   description: The tokens API from Smithery — 1 operation(s) for tokens.
   name: Smithery Tokens API
   slug: smithery-tokens-api
-artifact_total: 43
+artifact_total: 42
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Smithery Platform connect API
   slug: open-smithery-connect-api
@@ -130,23 +129,28 @@ collections:
   name: Smithery Platform API
   slug: open-smithery
 common:
+- group: other
+  href: https://artifacts.apis.io/smithery/capabilities/smithery-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/smithery-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/plans/smithery-plans-pricing.yml
+  href: https://artifacts.apis.io/smithery/plans/smithery-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/smithery-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/rate-limits/smithery-rate-limits.yml
+  href: https://artifacts.apis.io/smithery/rate-limits/smithery-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/smithery-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/finops/smithery-finops.yml
+  href: https://artifacts.apis.io/smithery/finops/smithery-finops.yml
   title: ''
   type: FinOps
   url: finops/smithery-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/vendor-facets/smithery-vendor-facets.yml
+  href: https://artifacts.apis.io/smithery/vendor-facets/smithery-vendor-facets.yml
   title: ''
   type: VendorFacets
   url: vendor-facets/smithery-vendor-facets.yml
@@ -155,17 +159,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/smithery/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/agentic-access/smithery-agentic-access.yml
+  href: https://artifacts.apis.io/smithery/agentic-access/smithery-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/smithery-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/security/smithery-domain-security.yml
+  href: https://artifacts.apis.io/smithery/security/smithery-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/smithery-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/authentication/smithery-authentication.yml
+  href: https://artifacts.apis.io/smithery/authentication/smithery-authentication.yml
   title: ''
   type: Authentication
   url: authentication/smithery-authentication.yml
@@ -301,7 +305,7 @@ finops:
 - has_sources: false
   method: generated
   name: Smithery Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: smithery-finops
   template: true
@@ -343,12 +347,12 @@ overview: 'Smithery publishes 9 API contracts indexed on the [APIs.io](https://a
   The Smithery catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Smithery''s developer surface includes authentication, documentation, CLI, engineering blog, tooling, and 29 more developer resources.'
+  Smithery''s developer surface includes authentication, documentation, CLI, engineering blog, tooling, and 30 more developer resources.'
 plans:
 - name: Smithery Plans Pricing
   plan_count: 3
   slug: smithery-plans-pricing
-random_paper: 5
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Smithery Rate Limits
@@ -379,23 +383,23 @@ rules:
   slug: smithery-rules
 score:
   band: developing
-  composite: 43.0
+  composite: 39.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 72.0
+    artifact_dirs: 23
+    catalog_earned: 69.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: -0.5
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
-    contract_quality: 64.7
+    contract_quality: 61.3
     developer_ergonomics: 53.6
-    discoverability: 80.0
+    discoverability: 71.7
     operational_transparency: 13.2
-  previous_composite: 44.0
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -410,13 +414,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/screenshots/smithery-2026-08-17T081933.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/smithery/smithery-2026-08-17T081933.png
 security:
 - kind: authentication
   name: Smithery Authentication

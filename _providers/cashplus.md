@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,15 +27,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 39.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -42,7 +45,7 @@ agentic_access:
   operation_count: 74
   slug: cashplus-agentic-access
   summary_line: 74 operations · 20 acting
-api_count: 3
+api_count: 4
 apis:
 - description: First-party partner API for authentication and registration against the Cashplus/Zempler developer platform, used to obtain credentials and tokens before calling the proprietary Accounts, Payments, Ap
   name: Cashplus Identity API
@@ -161,7 +164,17 @@ apis:
   description: First-party partner API to search and filter transactions on Cashplus/Zempler accounts, for reconciliation and reporting. Requires a direct commercial relationship with the bank.
   name: Cashplus Transactions API
   slug: cashplus-transactions-api
-artifact_total: 32
+- baseURL: https://apisandbox.zempler.tech/applications/
+  baseurl_source: spec
+  description: The Operations Applications - Application API from Cashplus Bank — 11 operation(s) for operations applications - application.
+  name: Cashplus Bank Operations Applications - Application API
+  slug: cashplus-operations-applications-application-api
+- baseURL: https://apisandbox.zempler.tech/applications/
+  baseurl_source: spec
+  description: The Operations Applications - Service Information API from Cashplus Bank — 1 operation(s) for operations applications - service information.
+  name: Cashplus Bank Operations Applications - Service Information API
+  slug: cashplus-operations-applications-service-information-api
+artifact_total: 37
 collections:
 - collection_type: open
   name: Account and Transaction API Specification
@@ -174,32 +187,32 @@ collections:
   slug: open-cashplus-payment-initiation
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/capabilities/cashplus-capability-edges.yml
+  href: https://artifacts.apis.io/cashplus/capabilities/cashplus-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cashplus-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/security/cashplus-domain-security.yml
+  href: https://artifacts.apis.io/cashplus/security/cashplus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cashplus-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/agentic-access/cashplus-agentic-access.yml
+  href: https://artifacts.apis.io/cashplus/agentic-access/cashplus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cashplus-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/scopes/cashplus-scopes.yml
+  href: https://artifacts.apis.io/cashplus/scopes/cashplus-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cashplus-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/authentication/cashplus-authentication.yml
+  href: https://artifacts.apis.io/cashplus/authentication/cashplus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cashplus-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/_original/cashplus-account-information-openapi.yml
+  href: https://artifacts.apis.io/cashplus/openapi/_original/cashplus-account-information-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/cashplus-account-information-openapi.yml
@@ -256,67 +269,67 @@ common:
   type: StatusPage
   url: https://status.zemplerbank.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/lifecycle/cashplus-lifecycle.yml
+  href: https://artifacts.apis.io/cashplus/lifecycle/cashplus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cashplus-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/conventions/cashplus-conventions.yml
+  href: https://artifacts.apis.io/cashplus/conventions/cashplus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cashplus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/conventions/cashplus-conventions.yml
+  href: https://artifacts.apis.io/cashplus/conventions/cashplus-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/cashplus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/errors/cashplus-problem-types.yml
+  href: https://artifacts.apis.io/cashplus/errors/cashplus-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cashplus-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/conformance/cashplus-conformance.yml
+  href: https://artifacts.apis.io/cashplus/conformance/cashplus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cashplus-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/data-model/cashplus-data-model.yml
+  href: https://artifacts.apis.io/cashplus/data-model/cashplus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cashplus-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/mcp/cashplus-mcp.yml
+  href: https://artifacts.apis.io/cashplus/mcp/cashplus-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cashplus-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/mcp/cashplus-tool-crosswalk.yml
+  href: https://artifacts.apis.io/cashplus/mcp/cashplus-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cashplus-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/llms/cashplus-llms.txt
+  href: https://artifacts.apis.io/cashplus/llms/cashplus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cashplus-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cashplus/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/overlays/cashplus-account-information-overlay.yaml
+  href: https://artifacts.apis.io/cashplus/overlays/cashplus-account-information-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cashplus-account-information-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/overlays/cashplus-payment-initiation-overlay.yaml
+  href: https://artifacts.apis.io/cashplus/overlays/cashplus-payment-initiation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cashplus-payment-initiation-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/overlays/cashplus-confirmation-of-funds-overlay.yaml
+  href: https://artifacts.apis.io/cashplus/overlays/cashplus-confirmation-of-funds-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cashplus-confirmation-of-funds-overlay.yaml
@@ -329,11 +342,11 @@ modified: '2026-09-16'
 name: Cashplus Bank
 nav: Providers
 network: true
-overview: 'Cashplus Bank publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Access API, Cashplus Accounts API, Balances API, and 22 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Cashplus Bank publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Access API, Cashplus Accounts API, Balances API, and 24 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Cashplus Bank''s developer surface includes authentication, documentation, engineering blog, legal docs, support, and 27 more developer resources.'
-random_paper: 9
+random_paper: 3
 scopes:
 - name: Cashplus Scopes
   scope_count: 3
@@ -341,7 +354,7 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 37.1
+  composite: 38.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 35.0
@@ -349,13 +362,13 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 44.4
+    contract_quality: 44.3
     developer_ergonomics: 47.0
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -365,15 +378,15 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 37.1
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 8.7
       derived: 0
       marker_coverage: 0.0
-      total: 21
+      total: 23
     mcp: derived
     skills: derived
   regulatory:
@@ -385,14 +398,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 44.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 50.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/screenshots/cashplus-2026-07-25T204726.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cashplus/cashplus-2026-07-25T204726.png
 security:
 - kind: authentication
   name: Cashplus Authentication
@@ -402,6 +416,14 @@ security:
   name: Cashplus Domain Security
   slug: cashplus-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Confirm funds availability (CBPII)
+  slug: cashplus-confirm-funds
+- name: Initiate a domestic payment (PIS)
+  slug: cashplus-initiate-domestic-payment
+- name: Retrieve account information (AIS)
+  slug: cashplus-retrieve-account-data
 slug: cashplus
 tags:
 - Financial Services

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.6
-  scored_at: '2026-10-17'
+  score: 21.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,11 +61,8 @@ apis:
   description: Search and retrieve article metadata from arXiv.
   name: arXiv Query API
   slug: arxiv-query-api
-artifact_total: 45
+artifact_total: 44
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: arXiv OAI-PMH API
   slug: open-arxiv-oai-pmh-api
@@ -77,6 +76,11 @@ collections:
   name: arXiv Query API
   slug: open-arxiv-query
 common:
+- group: other
+  href: https://artifacts.apis.io/arxiv/capabilities/arxiv-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/arxiv-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -94,12 +98,12 @@ common:
   type: ContributionGuide
   url: https://github.com/arXiv/.github/blob/master/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arxiv/refs/heads/main/agentic-access/arxiv-agentic-access.yml
+  href: https://artifacts.apis.io/arxiv/agentic-access/arxiv-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/arxiv-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arxiv/refs/heads/main/security/arxiv-domain-security.yml
+  href: https://artifacts.apis.io/arxiv/security/arxiv-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arxiv-domain-security.yml
@@ -144,27 +148,27 @@ common:
   type: ChangeLog
   url: https://github.com/arXiv/arxiv-docs/commits/develop
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/arxiv/refs/heads/main/plans/arxiv-plans-pricing.yml
+  href: https://artifacts.apis.io/arxiv/plans/arxiv-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/arxiv-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/arxiv/refs/heads/main/rate-limits/arxiv-rate-limits.yml
+  href: https://artifacts.apis.io/arxiv/rate-limits/arxiv-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/arxiv-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arxiv/refs/heads/main/rules/arxiv-rules.yml
+  href: https://artifacts.apis.io/arxiv/rules/arxiv-rules.yml
   title: ''
   type: SpectralRules
   url: rules/arxiv-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arxiv/refs/heads/main/vocabulary/arxiv-vocabulary.yml
+  href: https://artifacts.apis.io/arxiv/vocabulary/arxiv-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/arxiv-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arxiv/refs/heads/main/json-ld/arxiv-context.jsonld
+  href: https://artifacts.apis.io/arxiv/json-ld/arxiv-context.jsonld
   title: arXiv JSON-LD Context
   type: JSONLD
   url: json-ld/arxiv-context.jsonld
@@ -282,12 +286,12 @@ overview: 'arXiv publishes 4 API contracts indexed on the [APIs.io](https://apis
   The arXiv catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  arXiv''s developer surface includes documentation, engineering blog, support, changelog, tooling, and 28 more developer resources.'
+  arXiv''s developer surface includes documentation, engineering blog, support, changelog, tooling, and 29 more developer resources.'
 plans:
 - name: Arxiv Plans Pricing
   plan_count: 1
   slug: arxiv-plans-pricing
-random_paper: 4
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Arxiv Rate Limits
@@ -319,23 +323,23 @@ rules:
   slug: arxiv-rules
 score:
   band: developing
-  composite: 45.4
+  composite: 45.7
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 61.4
     catalog_earned_first_party: 0.0
     catalog_gap: 53.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 58.4
     developer_ergonomics: 52.4
     discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 48.1
+    operational_transparency: 36.8
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     contracts:
@@ -349,14 +353,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/arxiv/refs/heads/main/screenshots/arxiv-2026-06-20T172448.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/arxiv/arxiv-2026-06-20T172448.png
 security:
 - kind: domain-security
   name: Arxiv Domain Security

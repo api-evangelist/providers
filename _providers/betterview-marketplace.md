@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Order and retrieve property profiles (RSI, peril risks, flags, Partner Connect), manage PropertyPulse monitoring, and query PropertyNow datasets by address or coordinates. Bearer-token authenticated; '
   name: Betterview Property Intelligence API
   slug: betterview-property-intelligence-api
-artifact_total: 3
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -72,32 +74,32 @@ common:
   type: Support
   url: https://dev.betterview.com/discuss
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betterview-marketplace/refs/heads/main/authentication/betterview-marketplace-authentication.yml
+  href: https://artifacts.apis.io/betterview-marketplace/authentication/betterview-marketplace-authentication.yml
   title: ''
   type: Authentication
   url: authentication/betterview-marketplace-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/betterview-marketplace/refs/heads/main/conventions/betterview-marketplace-conventions.yml
+  href: https://artifacts.apis.io/betterview-marketplace/conventions/betterview-marketplace-conventions.yml
   title: ''
   type: Conventions
   url: conventions/betterview-marketplace-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/betterview-marketplace/refs/heads/main/llms/betterview-marketplace-llms.txt
+  href: https://artifacts.apis.io/betterview-marketplace/llms/betterview-marketplace-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/betterview-marketplace-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/betterview-marketplace/refs/heads/main/mcp/betterview-marketplace-mcp.yml
+  href: https://artifacts.apis.io/betterview-marketplace/mcp/betterview-marketplace-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/betterview-marketplace-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/betterview-marketplace/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/betterview-marketplace/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betterview-marketplace/refs/heads/main/security/betterview-marketplace-domain-security.yml
+  href: https://artifacts.apis.io/betterview-marketplace/security/betterview-marketplace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/betterview-marketplace-domain-security.yml
@@ -113,26 +115,26 @@ overview: 'BetterView Marketplace is listed with 1 API on the [APIs.io](https://
 
 
   BetterView Marketplace''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, and 7 more developer resources.'
-random_paper: 7
+random_paper: 15
 score:
   band: emerging
-  composite: 13.9
+  composite: 17.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 37.5
-    discoverability: 73.2
+    developer_ergonomics: 58.9
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 13.4
+  previous_composite: 17.5
   provenance:
     mcp: derived
     skills: derived
@@ -142,14 +144,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 10.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/betterview-marketplace/refs/heads/main/screenshots/betterview-marketplace-2026-07-25T202815.png
+screenshot: https://apis.io/screenshots/betterview-marketplace/betterview-marketplace-2026-07-25T202815.png
 security:
 - kind: authentication
   name: Betterview Marketplace Authentication
@@ -159,6 +161,10 @@ security:
   name: Betterview Marketplace Domain Security
   slug: betterview-marketplace-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: Order and retrieve a Betterview property profile
+  slug: betterview-marketplace-order-property-profile
 slug: betterview-marketplace
 tags:
 - Company

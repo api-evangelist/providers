@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: On-device Smart Data Capture SDK for barcode, MatrixScan, ID, Smart Label, Parser and Text capture, shipped as first-party client libraries for iOS, Android, Web, React Native, Flutter, Cordova, Capac
@@ -42,7 +44,7 @@ apis:
 - description: Cloud-hosted, drop-in identity-document scanning pop-up for websites with built-in phone handover, loaded via the @scandit/web-id-bolt package.
   name: Scandit ID Bolt
   slug: scandit-id-bolt
-artifact_total: 4
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -97,52 +99,52 @@ common:
   type: PrivacyPolicy
   url: https://www.scandit.com/privacy/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/scandit/refs/heads/main/packages/scandit-packages.yml
+  href: https://artifacts.apis.io/scandit/packages/scandit-packages.yml
   title: ''
   type: Packages
   url: packages/scandit-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/scandit/refs/heads/main/packages/scandit-packages.yml
+  href: https://artifacts.apis.io/scandit/packages/scandit-packages.yml
   title: ''
   type: SDKs
   url: packages/scandit-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scandit/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/scandit/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scandit/refs/heads/main/llms/scandit-llms.txt
+  href: https://artifacts.apis.io/scandit/llms/scandit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/scandit-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scandit/refs/heads/main/authentication/scandit-authentication.yml
+  href: https://artifacts.apis.io/scandit/authentication/scandit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/scandit-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scandit/refs/heads/main/security/scandit-domain-security.yml
+  href: https://artifacts.apis.io/scandit/security/scandit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/scandit-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scandit/refs/heads/main/lifecycle/scandit-lifecycle.yml
+  href: https://artifacts.apis.io/scandit/lifecycle/scandit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/scandit-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/scandit/refs/heads/main/changelog/scandit-changelog.yml
+  href: https://artifacts.apis.io/scandit/changelog/scandit-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/scandit-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scandit/refs/heads/main/conventions/scandit-conventions.yml
+  href: https://artifacts.apis.io/scandit/conventions/scandit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/scandit-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scandit/refs/heads/main/components/scandit-components.yml
+  href: https://artifacts.apis.io/scandit/components/scandit-components.yml
   title: ''
   type: Components
   url: components/scandit-components.yml
@@ -158,10 +160,10 @@ overview: 'Scandit is listed with 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Scandit''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 16 more developer resources.'
-random_paper: 16
+random_paper: 22
 score:
   band: thin
-  composite: 27.4
+  composite: 30.4
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -169,14 +171,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -185,7 +187,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 27.3
+  previous_composite: 30.4
   provenance:
     skills: first-party
   regulatory:
@@ -194,14 +196,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/scandit/refs/heads/main/screenshots/scandit-2026-09-02T154511.png
+screenshot: https://apis.io/screenshots/scandit/scandit-2026-09-02T154511.png
 security:
 - kind: authentication
   name: Scandit Authentication
@@ -211,6 +213,12 @@ security:
   name: Scandit Domain Security
   slug: scandit-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: data-capture-sdk
+  slug: scandit-data-capture-sdk
+- name: id-bolt
+  slug: scandit-id-bolt
 slug: scandit
 tags:
 - Company

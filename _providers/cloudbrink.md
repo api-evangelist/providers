@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Cloudbrink provides edge‑native Personal SASE solutions with APIs documented in the Cloudbrink documentation.
@@ -32,27 +34,27 @@ apis:
 artifact_total: 2
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cloudbrink/refs/heads/main/changelog/cloudbrink-changelog.yml
+  href: https://artifacts.apis.io/cloudbrink/changelog/cloudbrink-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cloudbrink-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudbrink/refs/heads/main/llms/cloudbrink-llms.txt
+  href: https://artifacts.apis.io/cloudbrink/llms/cloudbrink-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cloudbrink-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudbrink/refs/heads/main/well-known/cloudbrink-well-known.yml
+  href: https://artifacts.apis.io/cloudbrink/well-known/cloudbrink-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cloudbrink-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloudbrink/refs/heads/main/hosts/cloudbrink-hosts.yml
+  href: https://artifacts.apis.io/cloudbrink/hosts/cloudbrink-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cloudbrink-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloudbrink/refs/heads/main/vendors/cloudbrink-vendors.yml
+  href: https://artifacts.apis.io/cloudbrink/vendors/cloudbrink-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cloudbrink-vendors.yml
@@ -81,7 +83,7 @@ common:
   type: Documentation
   url: https://docs.cloudbrink.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudbrink/refs/heads/main/security/cloudbrink-domain-security.yml
+  href: https://artifacts.apis.io/cloudbrink/security/cloudbrink-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudbrink-domain-security.yml
@@ -112,7 +114,7 @@ overview: 'Cloudbrink is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 13
 score:
   band: emerging
-  composite: 15.6
+  composite: 14.9
   coverage:
     artifact_dirs: 7
     catalog_earned: 32.0
@@ -120,13 +122,20 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 15.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 14.9
   provenance:
     mcp: derived
   regulatory:
@@ -135,8 +144,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

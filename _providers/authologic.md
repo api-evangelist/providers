@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.0
-  scored_at: '2026-10-17'
+  score: 47.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 14
   slug: authologic-agentic-access
   summary_line: 14 operations · 4 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The Authologic Identity API enables businesses to initiate identity verification processes and receive results programmatically. Supports document verification, eID, Bank ID, and biometric liveness ch
   name: Authologic Identity API
@@ -93,24 +95,29 @@ apis:
   description: '5. Advanced: Metadata'
   name: Authologic Metadata API
   slug: authologic-metadata-api
-artifact_total: 33
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Authologic Callbacks Webhooks
   slug: authologic-callbacks-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/overlays/authologic-customer-api-overlay.yaml
+  href: https://artifacts.apis.io/authologic/capabilities/authologic-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/authologic-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/authologic/overlays/authologic-customer-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/authologic-customer-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/agentic-access/authologic-agentic-access.yml
+  href: https://artifacts.apis.io/authologic/agentic-access/authologic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/authologic-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/security/authologic-domain-security.yml
+  href: https://artifacts.apis.io/authologic/security/authologic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/authologic-domain-security.yml
@@ -147,37 +154,37 @@ common:
   type: PrivacyPolicy
   url: https://authologic.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/authentication/authologic-authentication.yml
+  href: https://artifacts.apis.io/authologic/authentication/authologic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/authologic-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/scopes/authologic-scopes.yml
+  href: https://artifacts.apis.io/authologic/scopes/authologic-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/authologic-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/conventions/authologic-conventions.yml
+  href: https://artifacts.apis.io/authologic/conventions/authologic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/authologic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/conventions/authologic-conventions.yml
+  href: https://artifacts.apis.io/authologic/conventions/authologic-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/authologic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/errors/authologic-problem-types.yml
+  href: https://artifacts.apis.io/authologic/errors/authologic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/authologic-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/errors/authologic-error-codes.yml
+  href: https://artifacts.apis.io/authologic/errors/authologic-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/authologic-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/lifecycle/authologic-lifecycle.yml
+  href: https://artifacts.apis.io/authologic/lifecycle/authologic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/authologic-lifecycle.yml
@@ -186,77 +193,77 @@ common:
   type: Deprecation
   url: https://developer.authologic.com/docs/integration/deprecations
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/conformance/authologic-conformance.yml
+  href: https://artifacts.apis.io/authologic/conformance/authologic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/authologic-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/conformance/authologic-conformance.yml
+  href: https://artifacts.apis.io/authologic/conformance/authologic-conformance.yml
   title: ''
   type: Compliance
   url: conformance/authologic-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/security/authologic-trust-center.yml
+  href: https://artifacts.apis.io/authologic/security/authologic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/authologic-trust-center.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/packages/authologic-packages.yml
+  href: https://artifacts.apis.io/authologic/packages/authologic-packages.yml
   title: ''
   type: Packages
   url: packages/authologic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/packages/authologic-packages.yml
+  href: https://artifacts.apis.io/authologic/packages/authologic-packages.yml
   title: ''
   type: SDKs
   url: packages/authologic-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/components/authologic-components.yml
+  href: https://artifacts.apis.io/authologic/components/authologic-components.yml
   title: ''
   type: Components
   url: components/authologic-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/sandbox/authologic-sandbox.yml
+  href: https://artifacts.apis.io/authologic/sandbox/authologic-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/authologic-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/asyncapi/authologic-callbacks-webhooks.yml
+  href: https://artifacts.apis.io/authologic/asyncapi/authologic-callbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/authologic-callbacks-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/well-known/authologic-well-known.yml
+  href: https://artifacts.apis.io/authologic/well-known/authologic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/authologic-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/mcp/authologic-mcp.yml
+  href: https://artifacts.apis.io/authologic/mcp/authologic-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/authologic-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/authologic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/llms/authologic-llms.txt
+  href: https://artifacts.apis.io/authologic/llms/authologic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/authologic-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/plans/authologic-plans-pricing.yml
+  href: https://artifacts.apis.io/authologic/plans/authologic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/authologic-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/rate-limits/authologic-rate-limits.yml
+  href: https://artifacts.apis.io/authologic/rate-limits/authologic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/authologic-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/finops/authologic-finops.yml
+  href: https://artifacts.apis.io/authologic/finops/authologic-finops.yml
   title: ''
   type: FinOps
   url: finops/authologic-finops.yml
@@ -292,11 +299,11 @@ features:
 - description: Compose verification workflows from modular steps combining document, biometric, data, and AML checks.
   name: Modular Workflows
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Authologic Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: authologic-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/authologic.png
@@ -315,7 +322,7 @@ overview: 'Authologic publishes 11 API contracts indexed on the [APIs.io](https:
   The Authologic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Authologic''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, signup flow, authentication, sandbox, and 31 more developer resources.'
+  Authologic''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, signup flow, authentication, sandbox, and 32 more developer resources.'
 plans:
 - name: Authologic Plans Pricing
   plan_count: 0
@@ -332,23 +339,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.6
+  composite: 54.1
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 29
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.1
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 63.1
     developer_ergonomics: 73.2
-    discoverability: 73.2
+    discoverability: 65.0
     operational_transparency: 15.8
-  previous_composite: 53.7
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -365,13 +372,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 37.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/screenshots/authologic-2026-06-20T172610.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/authologic/authologic-2026-06-20T172610.png
 security:
 - kind: authentication
   name: Authologic Authentication
@@ -385,6 +393,14 @@ security:
   name: Authologic Trust Center
   slug: authologic-trust-center
   summary_line: ISO/IEC 27001, ISO/IEC 22301, eIDAS non-qualified trust service provider (EAA issuance)
+skill_count: 3
+skills:
+- name: authologic-retrieve-bank-transactions
+  slug: authologic-retrieve-bank-transactions
+- name: authologic-run-identity-verification
+  slug: authologic-run-identity-verification
+- name: authologic-screen-aml-lists
+  slug: authologic-screen-aml-lists
 slug: authologic
 solutions:
 - description: Complete KYC solution for banks, fintechs, and payment providers with AML screening and document verification.

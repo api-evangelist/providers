@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 23
   slug: insightera-agentic-access
   summary_line: 23 operations · 22 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://nlp.insightera.co.th/api
   baseurl_source: declared
@@ -55,84 +57,84 @@ apis:
   description: The nlp API from InsightEra — 15 operation(s) for nlp.
   name: InsightEra Nlp API
   slug: insightera-nlp-api
-artifact_total: 8
+artifact_total: 11
 collections:
 - collection_type: open
   name: NLP Platform API
   slug: open-insightera-nlp-platform
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/capabilities/insightera-capability-edges.yml
+  href: https://artifacts.apis.io/insightera/capabilities/insightera-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/insightera-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/agentic-access/insightera-agentic-access.yml
+  href: https://artifacts.apis.io/insightera/agentic-access/insightera-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/insightera-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/security/insightera-domain-security.yml
+  href: https://artifacts.apis.io/insightera/security/insightera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/insightera-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/authentication/insightera-authentication.yml
+  href: https://artifacts.apis.io/insightera/authentication/insightera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/insightera-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/conventions/insightera-conventions.yml
+  href: https://artifacts.apis.io/insightera/conventions/insightera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/insightera-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/errors/insightera-problem-types.yml
+  href: https://artifacts.apis.io/insightera/errors/insightera-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/insightera-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/data-model/insightera-data-model.yml
+  href: https://artifacts.apis.io/insightera/data-model/insightera-data-model.yml
   title: ''
   type: DataModel
   url: data-model/insightera-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/conformance/insightera-conformance.yml
+  href: https://artifacts.apis.io/insightera/conformance/insightera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/insightera-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/lifecycle/insightera-lifecycle.yml
+  href: https://artifacts.apis.io/insightera/lifecycle/insightera-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/insightera-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/rate-limits/insightera-rate-limits.yml
+  href: https://artifacts.apis.io/insightera/rate-limits/insightera-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/insightera-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/plans/insightera-plans-pricing.yml
+  href: https://artifacts.apis.io/insightera/plans/insightera-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/insightera-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/packages/insightera-packages.yml
+  href: https://artifacts.apis.io/insightera/packages/insightera-packages.yml
   title: ''
   type: Packages
   url: packages/insightera-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/overlays/insightera-nlp-platform-overlay.yaml
+  href: https://artifacts.apis.io/insightera/overlays/insightera-nlp-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insightera-nlp-platform-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/llms/insightera-llms.txt
+  href: https://artifacts.apis.io/insightera/llms/insightera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/insightera-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/insightera/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -211,8 +213,8 @@ rate_limits:
   name: Insightera Rate Limits
   slug: insightera-rate-limits
 score:
-  band: emerging
-  composite: 25.7
+  band: thin
+  composite: 31.9
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -220,12 +222,12 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 43.5
-    developer_ergonomics: 30.4
+    developer_ergonomics: 44.6
     discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
@@ -235,7 +237,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 26.0
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,14 +253,15 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 22.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/screenshots/insightera-2026-08-07T170722.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/insightera/insightera-2026-08-07T170722.png
 security:
 - kind: authentication
   name: Insightera Authentication
@@ -268,6 +271,14 @@ security:
   name: Insightera Domain Security
   slug: insightera-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Analyze Thai text with the InsightEra NLP Platform
+  slug: insightera-analyze-thai-text
+- name: Extract structured Thai contact data from text and images
+  slug: insightera-extract-structured-contact-data
+- name: Train and run a custom text classifier on InsightEra
+  slug: insightera-train-and-predict-classifier
 slug: insightera
 tags:
 - Company

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.8
-  scored_at: '2026-10-17'
+  score: 23.4
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://cdr.energymadeeasy.gov.au/agl/cds-au/v1
@@ -83,7 +85,7 @@ apis:
   description: Energy Plan endpoints
   name: Australian Energy Regulator Energy Plans API
   slug: aer-energy-plans-api
-artifact_total: 15
+artifact_total: 17
 collections:
 - collection_type: open
   name: CDR Energy API
@@ -93,7 +95,7 @@ collections:
   slug: open-cds-common-api
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/security/aer-domain-security.yml
+  href: https://artifacts.apis.io/aer/security/aer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aer-domain-security.yml
@@ -186,97 +188,97 @@ common:
   type: Security
   url: https://www.aer.gov.au/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/well-known/aer-security.txt
+  href: https://artifacts.apis.io/aer/well-known/aer-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/aer-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/well-known/aer-well-known.yml
+  href: https://artifacts.apis.io/aer/well-known/aer-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aer-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/security/aer-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aer/security/aer-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aer-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/authentication/aer-authentication.yml
+  href: https://artifacts.apis.io/aer/authentication/aer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aer-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/conventions/aer-conventions.yml
+  href: https://artifacts.apis.io/aer/conventions/aer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aer-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/errors/aer-problem-types.yml
+  href: https://artifacts.apis.io/aer/errors/aer-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aer-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/lifecycle/aer-lifecycle.yml
+  href: https://artifacts.apis.io/aer/lifecycle/aer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aer-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/rate-limits/aer-rate-limits.yml
+  href: https://artifacts.apis.io/aer/rate-limits/aer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aer-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/conformance/aer-conformance.yml
+  href: https://artifacts.apis.io/aer/conformance/aer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aer-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/conformance/aer-conformance.yml
+  href: https://artifacts.apis.io/aer/conformance/aer-conformance.yml
   title: ''
   type: Compliance
   url: conformance/aer-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/changelog/aer-changelog.yml
+  href: https://artifacts.apis.io/aer/changelog/aer-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aer-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/data-model/aer-data-model.yml
+  href: https://artifacts.apis.io/aer/data-model/aer-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aer-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/mcp/aer-mcp.yml
+  href: https://artifacts.apis.io/aer/mcp/aer-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/aer-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/mcp/aer-tool-crosswalk.yml
+  href: https://artifacts.apis.io/aer/mcp/aer-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/aer-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/llms/aer-llms.txt
+  href: https://artifacts.apis.io/aer/llms/aer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aer-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/overlays/aer-cdr-energy-api-overlay.yaml
+  href: https://artifacts.apis.io/aer/overlays/aer-cdr-energy-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aer-cdr-energy-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/overlays/aer-cds-common-api-overlay.yaml
+  href: https://artifacts.apis.io/aer/overlays/aer-cds-common-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aer-cds-common-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/aer/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/openapi/_original/cds-common-api-openapi.json
+  href: https://artifacts.apis.io/aer/openapi/_original/cds-common-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/cds-common-api-openapi.json
@@ -293,14 +295,14 @@ overview: 'Australian Energy Regulator publishes 9 API contracts indexed on the 
 
 
   Australian Energy Regulator''s developer surface includes documentation, API reference, engineering blog, getting-started guide, support, authentication, changelog, and 35 more developer resources.'
-random_paper: 4
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Aer Rate Limits
   slug: aer-rate-limits
 score:
   band: developing
-  composite: 40.8
+  composite: 48.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 49.0
@@ -310,12 +312,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 44.7
-    developer_ergonomics: 35.1
+    developer_ergonomics: 49.4
     discoverability: 66.1
-    operational_transparency: 68.4
+    operational_transparency: 81.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -323,7 +325,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 40.8
+  previous_composite: 48.7
   provenance:
     conformance: first-party
     contracts:
@@ -338,14 +340,15 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 26.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/screenshots/aer-2026-08-17T121411.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aer/aer-2026-08-17T121411.png
 security:
 - kind: authentication
   name: Aer Authentication
@@ -359,6 +362,12 @@ security:
   name: Aer Vulnerability Disclosure
   slug: aer-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 2
+skills:
+- name: Compare Australian retail energy plans
+  slug: aer-compare-energy-plans
+- name: Sweep the national retail energy plan catalogue
+  slug: aer-sweep-national-plan-catalogue
 slug: aer
 tags:
 - Energy

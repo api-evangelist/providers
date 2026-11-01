@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.5
-  scored_at: '2026-10-17'
+  score: 39.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -91,7 +93,7 @@ apis:
   description: The Payment API from Helcim — 7 operation(s) for payment.
   name: Helcim Payment API
   slug: helcim-payment-api
-artifact_total: 16
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Helcim Webhooks
@@ -109,7 +111,7 @@ common:
   type: Blog
   url: https://www.helcim.com/blog/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/capabilities/helcim-capability-edges.yml
+  href: https://artifacts.apis.io/helcim/capabilities/helcim-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/helcim-capability-edges.yml
@@ -118,17 +120,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/helcim/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/agentic-access/helcim-agentic-access.yml
+  href: https://artifacts.apis.io/helcim/agentic-access/helcim-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/helcim-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/security/helcim-domain-security.yml
+  href: https://artifacts.apis.io/helcim/security/helcim-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/helcim-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/authentication/helcim-authentication.yml
+  href: https://artifacts.apis.io/helcim/authentication/helcim-authentication.yml
   title: ''
   type: Authentication
   url: authentication/helcim-authentication.yml
@@ -173,32 +175,32 @@ common:
   type: DeveloperPortal
   url: https://learn.helcim.com/api-developer-documentation
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/conventions/helcim-conventions.yml
+  href: https://artifacts.apis.io/helcim/conventions/helcim-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/helcim-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/conventions/helcim-conventions.yml
+  href: https://artifacts.apis.io/helcim/conventions/helcim-conventions.yml
   title: ''
   type: Conventions
   url: conventions/helcim-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/rate-limits/helcim-rate-limits.yml
+  href: https://artifacts.apis.io/helcim/rate-limits/helcim-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/helcim-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/errors/helcim-problem-types.yml
+  href: https://artifacts.apis.io/helcim/errors/helcim-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/helcim-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/errors/helcim-decline-codes.yml
+  href: https://artifacts.apis.io/helcim/errors/helcim-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/helcim-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/lifecycle/helcim-lifecycle.yml
+  href: https://artifacts.apis.io/helcim/lifecycle/helcim-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/helcim-lifecycle.yml
@@ -207,27 +209,27 @@ common:
   type: Deprecation
   url: https://devdocs.helcim.com/docs/api-versions-and-deprecation
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/sandbox/helcim-sandbox.yml
+  href: https://artifacts.apis.io/helcim/sandbox/helcim-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/helcim-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/changelog/helcim-changelog.yml
+  href: https://artifacts.apis.io/helcim/changelog/helcim-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/helcim-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/components/helcim-components.yml
+  href: https://artifacts.apis.io/helcim/components/helcim-components.yml
   title: ''
   type: Components
   url: components/helcim-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/data-model/helcim-data-model.yml
+  href: https://artifacts.apis.io/helcim/data-model/helcim-data-model.yml
   title: ''
   type: DataModel
   url: data-model/helcim-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/conformance/helcim-conformance.yml
+  href: https://artifacts.apis.io/helcim/conformance/helcim-conformance.yml
   title: ''
   type: Conformance
   url: conformance/helcim-conformance.yml
@@ -236,37 +238,37 @@ common:
   type: Compliance
   url: https://devdocs.helcim.com/docs/pci-compliance-scope
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/packages/helcim-packages.yml
+  href: https://artifacts.apis.io/helcim/packages/helcim-packages.yml
   title: ''
   type: Packages
   url: packages/helcim-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/mcp/helcim-mcp.yml
+  href: https://artifacts.apis.io/helcim/mcp/helcim-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/helcim-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/mcp/helcim-tool-crosswalk.yml
+  href: https://artifacts.apis.io/helcim/mcp/helcim-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/helcim-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/llms/helcim-llms.txt
+  href: https://artifacts.apis.io/helcim/llms/helcim-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/helcim-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/overlays/helcim-api-overlay.yaml
+  href: https://artifacts.apis.io/helcim/overlays/helcim-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/helcim-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/helcim/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/asyncapi/helcim-webhooks.yml
+  href: https://artifacts.apis.io/helcim/asyncapi/helcim-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/helcim-webhooks.yml
@@ -309,14 +311,14 @@ overview: 'Helcim publishes 9 API contracts indexed on the [APIs.io](https://api
 
 
   Helcim''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, sandbox, changelog, and 35 more developer resources.'
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Helcim Rate Limits
   slug: helcim-rate-limits
 score:
-  band: developing
-  composite: 53.0
+  band: strong
+  composite: 59.5
   coverage:
     artifact_dirs: 27
     catalog_earned: 49.0
@@ -324,14 +326,14 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 48.7
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 52.1
-    developer_ergonomics: 47.7
-    discoverability: 73.2
-    operational_transparency: 77.6
+    developer_ergonomics: 70.4
+    discoverability: 66.1
+    operational_transparency: 84.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -339,7 +341,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 52.5
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -355,14 +357,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 31.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 33.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/screenshots/helcim-2026-07-25T220910.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/helcim/helcim-2026-07-25T220910.png
 security:
 - kind: authentication
   name: Helcim Authentication
@@ -372,6 +375,14 @@ security:
   name: Helcim Domain Security
   slug: helcim-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Refund or reverse a Helcim payment
+  slug: helcim-refund-a-payment
+- name: Save a customer and charge a stored card
+  slug: helcim-save-customer-and-charge
+- name: Take a card payment with Helcim
+  slug: helcim-take-a-card-payment
 slug: helcim
 tags:
 - Payments

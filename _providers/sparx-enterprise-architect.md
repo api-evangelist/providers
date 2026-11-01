@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: COM-based Automation Interface providing programmatic access to Enterprise Architect repositories, models, packages, elements, diagrams, connectors, attributes, and tagged values. Supports creating, r
@@ -48,10 +50,10 @@ apis:
 - description: HTTP-based API provided by the Sparx Systems Pro Cloud Server for remote access to Enterprise Architect repositories. Enables integration with web-based clients, third-party tools, and automation syst
   name: Pro Cloud Server API
   slug: pro-cloud-server-api
-artifact_total: 28
+artifact_total: 31
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/finops/sparx-enterprise-architect-finops.yml
+  href: https://artifacts.apis.io/sparx-enterprise-architect/finops/sparx-enterprise-architect-finops.yml
   title: ''
   type: FinOps
   url: finops/sparx-enterprise-architect-finops.yml
@@ -68,7 +70,7 @@ common:
   type: Website
   url: https://sparxsystems.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/security/sparx-enterprise-architect-domain-security.yml
+  href: https://artifacts.apis.io/sparx-enterprise-architect/security/sparx-enterprise-architect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sparx-enterprise-architect-domain-security.yml
@@ -117,67 +119,67 @@ common:
   type: YouTube
   url: https://www.youtube.com/user/SparxSystems
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/mcp/sparx-enterprise-architect-mcp.yml
+  href: https://artifacts.apis.io/sparx-enterprise-architect/mcp/sparx-enterprise-architect-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sparx-enterprise-architect-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/packages/sparx-enterprise-architect-packages.yml
+  href: https://artifacts.apis.io/sparx-enterprise-architect/packages/sparx-enterprise-architect-packages.yml
   title: ''
   type: Packages
   url: packages/sparx-enterprise-architect-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/llms/sparx-enterprise-architect-llms.txt
+  href: https://artifacts.apis.io/sparx-enterprise-architect/llms/sparx-enterprise-architect-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sparx-enterprise-architect-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/authentication/sparx-enterprise-architect-authentication.yml
+  href: https://artifacts.apis.io/sparx-enterprise-architect/authentication/sparx-enterprise-architect-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sparx-enterprise-architect-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/conventions/sparx-enterprise-architect-conventions.yml
+  href: https://artifacts.apis.io/sparx-enterprise-architect/conventions/sparx-enterprise-architect-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sparx-enterprise-architect-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/conformance/sparx-enterprise-architect-conformance.yml
+  href: https://artifacts.apis.io/sparx-enterprise-architect/conformance/sparx-enterprise-architect-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sparx-enterprise-architect-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/lifecycle/sparx-enterprise-architect-lifecycle.yml
+  href: https://artifacts.apis.io/sparx-enterprise-architect/lifecycle/sparx-enterprise-architect-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sparx-enterprise-architect-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/errors/sparx-enterprise-architect-problem-types.yml
+  href: https://artifacts.apis.io/sparx-enterprise-architect/errors/sparx-enterprise-architect-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sparx-enterprise-architect-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/data-model/sparx-enterprise-architect-data-model.yml
+  href: https://artifacts.apis.io/sparx-enterprise-architect/data-model/sparx-enterprise-architect-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sparx-enterprise-architect-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/changelog/sparx-enterprise-architect-changelog.yml
+  href: https://artifacts.apis.io/sparx-enterprise-architect/changelog/sparx-enterprise-architect-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sparx-enterprise-architect-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sparx-enterprise-architect/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/plans/sparx-enterprise-architect-plans-pricing.yml
+  href: https://artifacts.apis.io/sparx-enterprise-architect/plans/sparx-enterprise-architect-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sparx-enterprise-architect-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/rate-limits/sparx-enterprise-architect-rate-limits.yml
+  href: https://artifacts.apis.io/sparx-enterprise-architect/rate-limits/sparx-enterprise-architect-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sparx-enterprise-architect-rate-limits.yml
@@ -224,7 +226,7 @@ finops:
 - has_sources: false
   method: generated
   name: Sparx Enterprise Architect Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: sparx-enterprise-architect-finops
   template: true
@@ -257,14 +259,14 @@ plans:
 - name: Sparx Enterprise Architect Plans Pricing
   plan_count: 5
   slug: sparx-enterprise-architect-plans-pricing
-random_paper: 4
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Sparx Enterprise Architect Rate Limits
   slug: sparx-enterprise-architect-rate-limits
 score:
   band: thin
-  composite: 37.6
+  composite: 37.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 47.0
@@ -272,15 +274,15 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -3.5
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 49.4
-    discoverability: 68.3
+    discoverability: 61.7
     operational_transparency: 15.8
-  previous_composite: 39.1
+  previous_composite: 40.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -291,14 +293,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/screenshots/sparx-enterprise-architect-2026-06-20T194248.png
+screenshot: https://apis.io/screenshots/sparx-enterprise-architect/sparx-enterprise-architect-2026-06-20T194248.png
 security:
 - kind: authentication
   name: Sparx Enterprise Architect Authentication
@@ -308,6 +310,14 @@ security:
   name: Sparx Enterprise Architect Domain Security
   slug: sparx-enterprise-architect-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Explore a Sparx Enterprise Architect model
+  slug: sparx-enterprise-architect-explore-model
+- name: Query and create Enterprise Architect resources over OSLC
+  slug: sparx-enterprise-architect-oslc-query-and-create
+- name: Edit a Sparx Enterprise Architect model safely
+  slug: sparx-enterprise-architect-safe-model-edit
 slug: sparx-enterprise-architect
 tags:
 - Enterprise Architecture

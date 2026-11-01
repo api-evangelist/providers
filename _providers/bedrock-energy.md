@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bedrock-energy/refs/heads/main/hosts/bedrock-energy-hosts.yml
+  href: https://artifacts.apis.io/bedrock-energy/hosts/bedrock-energy-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bedrock-energy-hosts.yml
@@ -37,7 +39,7 @@ common:
   type: PrivacyPolicy
   url: https://bedrockenergy.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bedrock-energy/refs/heads/main/security/bedrock-energy-domain-security.yml
+  href: https://artifacts.apis.io/bedrock-energy/security/bedrock-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bedrock-energy-domain-security.yml
@@ -63,7 +65,7 @@ name: Bedrock Energy
 nav: Providers
 network: true
 overview: Bedrock Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Geothermal, Energy, HVAC, and Cleantech.
-random_paper: 17
+random_paper: 9
 score:
   band: minimal
   composite: 5.8
@@ -91,14 +93,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bedrock-energy/refs/heads/main/screenshots/bedrock-energy-2026-10-11T101725.png
+screenshot: https://apis.io/screenshots/bedrock-energy/bedrock-energy-2026-10-11T101725.png
 security:
 - kind: domain-security
   name: Bedrock Energy Domain Security

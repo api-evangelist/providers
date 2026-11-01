@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-17'
+  score: 22.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: Health checks and operational status
   name: Manage BGL System API
   slug: manage-bgl-system-api
-artifact_total: 14
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Jade Diabetes REST Authentication API
   slug: open-manage-bgl-authentication-api
@@ -95,7 +94,7 @@ common:
   type: Blog
   url: https://jadediabetes.com/blog/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/agentic-access/manage-bgl-agentic-access.yml
+  href: https://artifacts.apis.io/manage-bgl/agentic-access/manage-bgl-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/manage-bgl-agentic-access.yml
@@ -144,62 +143,62 @@ common:
   type: Compliance
   url: https://jadediabetes.com/policy-hipaa-phi/index.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/authentication/manage-bgl-authentication.yml
+  href: https://artifacts.apis.io/manage-bgl/authentication/manage-bgl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/manage-bgl-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/conventions/manage-bgl-conventions.yml
+  href: https://artifacts.apis.io/manage-bgl/conventions/manage-bgl-conventions.yml
   title: ''
   type: Conventions
   url: conventions/manage-bgl-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/errors/manage-bgl-problem-types.yml
+  href: https://artifacts.apis.io/manage-bgl/errors/manage-bgl-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/manage-bgl-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/lifecycle/manage-bgl-lifecycle.yml
+  href: https://artifacts.apis.io/manage-bgl/lifecycle/manage-bgl-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/manage-bgl-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/conformance/manage-bgl-conformance.yml
+  href: https://artifacts.apis.io/manage-bgl/conformance/manage-bgl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/manage-bgl-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/mcp/manage-bgl-mcp.yml
+  href: https://artifacts.apis.io/manage-bgl/mcp/manage-bgl-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/manage-bgl-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/llms/manage-bgl-llms.txt
+  href: https://artifacts.apis.io/manage-bgl/llms/manage-bgl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/manage-bgl-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/well-known/manage-bgl-well-known.yml
+  href: https://artifacts.apis.io/manage-bgl/well-known/manage-bgl-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/manage-bgl-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/security/manage-bgl-domain-security.yml
+  href: https://artifacts.apis.io/manage-bgl/security/manage-bgl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/manage-bgl-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/data-model/manage-bgl-data-model.yml
+  href: https://artifacts.apis.io/manage-bgl/data-model/manage-bgl-data-model.yml
   title: ''
   type: DataModel
   url: data-model/manage-bgl-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/manage-bgl/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/overlays/manage-bgl-overlay.yaml
+  href: https://artifacts.apis.io/manage-bgl/overlays/manage-bgl-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/manage-bgl-overlay.yaml
@@ -215,7 +214,7 @@ overview: 'Manage BGL publishes 5 API contracts indexed on the [APIs.io](https:/
 
 
   Manage BGL''s developer surface includes engineering blog, API reference, documentation, sandbox, pricing, signup flow, support, and 18 more developer resources.'
-random_paper: 3
+random_paper: 11
 score:
   band: thin
   composite: 29.3
@@ -226,15 +225,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 54.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 28.8
+  previous_composite: 29.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -255,13 +254,14 @@ score:
     regime: Health
     regime_id: health
     score: 20.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/screenshots/manage-bgl-2026-07-25T230015.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/manage-bgl/manage-bgl-2026-07-25T230015.png
 security:
 - kind: authentication
   name: Manage Bgl Authentication
@@ -271,6 +271,12 @@ security:
   name: Manage Bgl Domain Security
   slug: manage-bgl-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Authenticate, log a reading, and extract diabetes data
+  slug: manage-bgl-log-and-extract
+- name: Retrieve blood-glucose predictions for a subscriber
+  slug: manage-bgl-predict-bgl
 slug: manage-bgl
 tags:
 - Company

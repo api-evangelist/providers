@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,18 +36,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Region-scoped HTTP API for reading, writing, and deleting cache items in a Momento cache without a gRPC client. Supports GET, PUT (set with TTL), and DELETE against a named cache, authenticated with a
   name: Momento Cache HTTP API
   slug: momento-cache-http-api
-artifact_total: 4
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Momento Webhooks
   slug: momento-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/momento/plans/momento-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/momento-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -75,77 +82,77 @@ common:
   type: GettingStarted
   url: https://docs.momentohq.com/getting-started
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/packages/momento-packages.yml
+  href: https://artifacts.apis.io/momento/packages/momento-packages.yml
   title: ''
   type: SDKs
   url: packages/momento-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/packages/momento-packages.yml
+  href: https://artifacts.apis.io/momento/packages/momento-packages.yml
   title: ''
   type: Packages
   url: packages/momento-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/cli/momento-cli.yml
+  href: https://artifacts.apis.io/momento/cli/momento-cli.yml
   title: ''
   type: CLI
   url: cli/momento-cli.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/grpc/momento-grpc.yml
+  href: https://artifacts.apis.io/momento/grpc/momento-grpc.yml
   title: ''
   type: Protobuf
   url: grpc/momento-grpc.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/authentication/momento-authentication.yml
+  href: https://artifacts.apis.io/momento/authentication/momento-authentication.yml
   title: ''
   type: Authentication
   url: authentication/momento-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/conventions/momento-conventions.yml
+  href: https://artifacts.apis.io/momento/conventions/momento-conventions.yml
   title: ''
   type: Conventions
   url: conventions/momento-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/errors/momento-error-codes.yml
+  href: https://artifacts.apis.io/momento/errors/momento-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/momento-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/data-model/momento-data-model.yml
+  href: https://artifacts.apis.io/momento/data-model/momento-data-model.yml
   title: ''
   type: DataModel
   url: data-model/momento-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/asyncapi/momento-webhooks.yml
+  href: https://artifacts.apis.io/momento/asyncapi/momento-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/momento-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/lifecycle/momento-lifecycle.yml
+  href: https://artifacts.apis.io/momento/lifecycle/momento-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/momento-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/conformance/momento-conformance.yml
+  href: https://artifacts.apis.io/momento/conformance/momento-conformance.yml
   title: ''
   type: Conformance
   url: conformance/momento-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/mcp/momento-mcp.yml
+  href: https://artifacts.apis.io/momento/mcp/momento-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/momento-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/momento/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/llms/momento-llms.txt
+  href: https://artifacts.apis.io/momento/llms/momento-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/momento-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/security/momento-domain-security.yml
+  href: https://artifacts.apis.io/momento/security/momento-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/momento-domain-security.yml
@@ -179,6 +186,14 @@ common:
   url: https://www.postman.com/gomomento
 created: '2026-07-17'
 description: Momento is a serverless data platform that provides low-latency, pay-as-you-go infrastructure without servers to provision, tune, or scale. Its core services are Momento Cache (an ephemeral serverless cache and drop-in Redis replacement), Momento Topics (a serverless publish/subscribe event bus), and Momento Leaderboards (massive, durable sorted sets). The platform is accessed over gRPC and a region-scoped HTTP API, with official SDKs for 15+ languages spanning browsers, mobile (iOS/Android/Flutter/Unity/Unreal), and 10+ server-side runtimes, plus a CLI and a Terraform provider. Authentication uses Momento API keys and short-lived disposable tokens with fine-grained permissions. Momento is backed by Bain Capital Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Momento Finops
+  primary_unit: gb-month
+  service_category: ''
+  slug: momento-finops
+  template: false
 image: https://github.com/momentohq.png
 layout: provider
 modified: '2026-10-06'
@@ -191,27 +206,34 @@ overview: 'Momento is listed with 1 API on the [APIs.io](https://apis.io/) netwo
   The Momento catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Momento''s developer surface includes engineering blog, documentation, API reference, getting-started guide, CLI, authentication, pricing, and 22 more developer resources.'
-random_paper: 19
+  Momento''s developer surface includes engineering blog, documentation, API reference, getting-started guide, CLI, authentication, pricing, and 23 more developer resources.'
+plans:
+- name: Momento Plans Pricing
+  plan_count: 15
+  slug: momento-plans-pricing
+- name: Momento Price Estimates
+  plan_count: 0
+  slug: momento-price-estimates
+random_paper: 23
 score:
   band: developing
-  composite: 40.9
+  composite: 51.5
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 21
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 31.6
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 70.8
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 40.8
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 43.6
   provenance:
     conformance: derived
     mcp: derived
@@ -222,14 +244,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/screenshots/momento-2026-08-07T184119.png
+screenshot: https://apis.io/screenshots/momento/momento-2026-08-07T184119.png
 security:
 - kind: authentication
   name: Momento Authentication
@@ -239,6 +261,14 @@ security:
   name: Momento Domain Security
   slug: momento-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Cache a value and read it back
+  slug: momento-cache-set-and-get
+- name: Maintain a leaderboard and read ranks
+  slug: momento-leaderboard-upsert-and-rank
+- name: Publish and subscribe on a Topic
+  slug: momento-topics-pub-sub
 slug: momento
 tags:
 - Company

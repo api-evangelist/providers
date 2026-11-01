@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Token-authenticated REST API over data.thinknum.com for querying Thinknum's alternative datasets. Endpoints cover dataset query (filter/group/sort/ function), historical daily and monthly feeds, compa
@@ -68,7 +70,7 @@ common:
   type: GettingStarted
   url: https://docs.thinknum.com/docs/getting-started.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thinknum/refs/heads/main/authentication/thinknum-authentication.yml
+  href: https://artifacts.apis.io/thinknum/authentication/thinknum-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thinknum-authentication.yml
@@ -97,62 +99,62 @@ common:
   type: GitHubOrganization
   url: https://github.com/thinknum
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/thinknum/refs/heads/main/packages/thinknum-packages.yml
+  href: https://artifacts.apis.io/thinknum/packages/thinknum-packages.yml
   title: ''
   type: Packages
   url: packages/thinknum-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/thinknum/refs/heads/main/packages/thinknum-packages.yml
+  href: https://artifacts.apis.io/thinknum/packages/thinknum-packages.yml
   title: ''
   type: SDKs
   url: packages/thinknum-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thinknum/refs/heads/main/llms/thinknum-llms.txt
+  href: https://artifacts.apis.io/thinknum/llms/thinknum-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thinknum-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thinknum/refs/heads/main/conventions/thinknum-conventions.yml
+  href: https://artifacts.apis.io/thinknum/conventions/thinknum-conventions.yml
   title: ''
   type: Conventions
   url: conventions/thinknum-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/thinknum/refs/heads/main/rate-limits/thinknum-rate-limits.yml
+  href: https://artifacts.apis.io/thinknum/rate-limits/thinknum-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/thinknum-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thinknum/refs/heads/main/errors/thinknum-problem-types.yml
+  href: https://artifacts.apis.io/thinknum/errors/thinknum-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/thinknum-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thinknum/refs/heads/main/lifecycle/thinknum-lifecycle.yml
+  href: https://artifacts.apis.io/thinknum/lifecycle/thinknum-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/thinknum-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/thinknum/refs/heads/main/changelog/thinknum-changelog.yml
+  href: https://artifacts.apis.io/thinknum/changelog/thinknum-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/thinknum-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thinknum/refs/heads/main/components/thinknum-components.yml
+  href: https://artifacts.apis.io/thinknum/components/thinknum-components.yml
   title: ''
   type: Components
   url: components/thinknum-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thinknum/refs/heads/main/mcp/thinknum-mcp.yml
+  href: https://artifacts.apis.io/thinknum/mcp/thinknum-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/thinknum-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thinknum/refs/heads/main/data-model/thinknum-data-model.yml
+  href: https://artifacts.apis.io/thinknum/data-model/thinknum-data-model.yml
   title: ''
   type: DataModel
   url: data-model/thinknum-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thinknum/refs/heads/main/security/thinknum-domain-security.yml
+  href: https://artifacts.apis.io/thinknum/security/thinknum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thinknum-domain-security.yml
@@ -168,30 +170,30 @@ overview: 'Thinknum is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Thinknum''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 18 more developer resources.'
-random_paper: 20
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Thinknum Rate Limits
   slug: thinknum-rate-limits
 score:
   band: thin
-  composite: 27.1
+  composite: 31.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 73.2
-    operational_transparency: 55.3
-  previous_composite: 27.0
+    developer_ergonomics: 64.3
+    discoverability: 66.1
+    operational_transparency: 57.9
+  previous_composite: 31.8
   provenance:
     mcp: derived
   regulatory:
@@ -200,14 +202,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/thinknum/refs/heads/main/screenshots/thinknum-2026-09-02T163532.png
+screenshot: https://apis.io/screenshots/thinknum/thinknum-2026-09-02T163532.png
 security:
 - kind: authentication
   name: Thinknum Authentication

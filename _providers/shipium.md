@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shipium/refs/heads/main/security/shipium-domain-security.yml
+  href: https://artifacts.apis.io/shipium/security/shipium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shipium-domain-security.yml
@@ -51,17 +53,17 @@ common:
   type: Website
   url: https://www.shipium.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shipium/refs/heads/main/plans/shipium-plans-pricing.yml
+  href: https://artifacts.apis.io/shipium/plans/shipium-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/shipium-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shipium/refs/heads/main/rate-limits/shipium-rate-limits.yml
+  href: https://artifacts.apis.io/shipium/rate-limits/shipium-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shipium-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shipium/refs/heads/main/finops/shipium-finops.yml
+  href: https://artifacts.apis.io/shipium/finops/shipium-finops.yml
   title: ''
   type: FinOps
   url: finops/shipium-finops.yml
@@ -97,7 +99,7 @@ plans:
 - name: Shipium Plans Pricing
   plan_count: 1
   slug: shipium-plans-pricing
-random_paper: 19
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Shipium Rate Limits
@@ -112,7 +114,7 @@ score:
     catalog_gap: 89.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -120,21 +122,21 @@ score:
     developer_ergonomics: 2.4
     discoverability: 46.4
     operational_transparency: 5.3
-  previous_composite: 6.2
+  previous_composite: 4.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 5.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/shipium/refs/heads/main/screenshots/shipium-2026-10-11T192618.png
+screenshot: https://apis.io/screenshots/shipium/shipium-2026-10-11T192618.png
 security:
 - kind: domain-security
   name: Shipium Domain Security

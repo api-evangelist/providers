@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.8
-  scored_at: '2026-10-17'
+  score: 23.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: The Voices API from Neuphonic — 2 operation(s) for voices.
   name: Neuphonic Voices API
   slug: neuphonic-voices-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Neuphonic Agents API
   slug: open-neuphonic-agents-api
@@ -97,17 +96,17 @@ common:
   type: Blog
   url: https://www.neuphonic.com/blog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/agentic-access/neuphonic-agentic-access.yml
+  href: https://artifacts.apis.io/neuphonic/agentic-access/neuphonic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/neuphonic-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/security/neuphonic-domain-security.yml
+  href: https://artifacts.apis.io/neuphonic/security/neuphonic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/neuphonic-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/authentication/neuphonic-authentication.yml
+  href: https://artifacts.apis.io/neuphonic/authentication/neuphonic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/neuphonic-authentication.yml
@@ -140,27 +139,27 @@ common:
   type: Playground
   url: https://app.neuphonic.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/plans/neuphonic-plans-pricing.yml
+  href: https://artifacts.apis.io/neuphonic/plans/neuphonic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/neuphonic-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/rate-limits/neuphonic-rate-limits.yml
+  href: https://artifacts.apis.io/neuphonic/rate-limits/neuphonic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/neuphonic-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/finops/neuphonic-finops.yml
+  href: https://artifacts.apis.io/neuphonic/finops/neuphonic-finops.yml
   title: ''
   type: FinOps
   url: finops/neuphonic-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/vocabulary/neuphonic-vocabulary.yml
+  href: https://artifacts.apis.io/neuphonic/vocabulary/neuphonic-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/neuphonic-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/json-ld/neuphonic-context.jsonld
+  href: https://artifacts.apis.io/neuphonic/json-ld/neuphonic-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/neuphonic-context.jsonld
@@ -219,7 +218,7 @@ plans:
 - name: Neuphonic Plans Pricing
   plan_count: 3
   slug: neuphonic-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Neuphonic Rate Limits
@@ -238,7 +237,7 @@ rules:
   slug: neuphonic-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.6
+  composite: 36.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 61.8
@@ -246,15 +245,15 @@ score:
     catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
-    contract_quality: 66.8
-    developer_ergonomics: 27.4
+    contract_quality: 63.4
+    developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 43.9
+    operational_transparency: 28.9
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -268,13 +267,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 16.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/screenshots/neuphonic-2026-06-20T190223.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/neuphonic/neuphonic-2026-06-20T190223.png
 security:
 - kind: authentication
   name: Neuphonic Authentication

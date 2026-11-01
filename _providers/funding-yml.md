@@ -27,8 +27,8 @@ overview: 'FUNDING.yml is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   FUNDING.yml''s developer surface includes documentation.'
-random_paper: 8
-screenshot: https://raw.githubusercontent.com/api-evangelist/funding-yml/refs/heads/main/screenshots/funding-yml-2026-06-20T181617.png
+random_paper: 2
+screenshot: https://apis.io/screenshots/funding-yml/funding-yml-2026-06-20T181617.png
 slug: funding-yml
 tags:
 - GitHub

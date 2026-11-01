@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.4
-  scored_at: '2026-10-17'
+  score: 34.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 140
   human_in_the_loop: 11
@@ -189,7 +191,7 @@ apis:
   description: The Webhooks API from ThoughtSpot — 5 operation(s) for webhooks.
   name: ThoughtSpot Webhooks API
   slug: thoughtspot-webhooks-api
-artifact_total: 151
+artifact_total: 155
 asyncapis:
 - description: ''
   name: Thoughtspot Webhooks
@@ -367,9 +369,6 @@ collections:
   name: ThoughtSpot Public REST 10.1.0.cl Webhooks API
   slug: postman-thoughtspot-webhooks-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: ThoughtSpot Public REST 10.1.0.cl API
   slug: open-thoughtspot-10-1-0-cl-api
 - collection_type: open
@@ -542,7 +541,7 @@ collections:
   slug: open-thoughtspot-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/plans/thoughtspot-plans-pricing.yml
+  href: https://artifacts.apis.io/thoughtspot/plans/thoughtspot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/thoughtspot-plans-pricing.yml
@@ -551,12 +550,12 @@ common:
   type: BlogRSS
   url: https://www.thoughtspot.com/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/capabilities/thoughtspot-capability-edges.yml
+  href: https://artifacts.apis.io/thoughtspot/capabilities/thoughtspot-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/thoughtspot-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/overlays/thoughtspot-rest-v2-overlay.yaml
+  href: https://artifacts.apis.io/thoughtspot/overlays/thoughtspot-rest-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thoughtspot-rest-v2-overlay.yaml
@@ -565,7 +564,7 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/thoughtspot/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/security/thoughtspot-trust-center.yml
+  href: https://artifacts.apis.io/thoughtspot/security/thoughtspot-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/thoughtspot-trust-center.yml
@@ -626,52 +625,52 @@ common:
   type: Postman
   url: https://www.postman.com/thoughtspot
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/packages/thoughtspot-packages.yml
+  href: https://artifacts.apis.io/thoughtspot/packages/thoughtspot-packages.yml
   title: ''
   type: Packages
   url: packages/thoughtspot-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/packages/thoughtspot-packages.yml
+  href: https://artifacts.apis.io/thoughtspot/packages/thoughtspot-packages.yml
   title: ''
   type: SDKs
   url: packages/thoughtspot-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/mcp/thoughtspot-mcp.yml
+  href: https://artifacts.apis.io/thoughtspot/mcp/thoughtspot-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/thoughtspot-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/llms/thoughtspot-llms.txt
+  href: https://artifacts.apis.io/thoughtspot/llms/thoughtspot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thoughtspot-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/well-known/thoughtspot-well-known.yml
+  href: https://artifacts.apis.io/thoughtspot/well-known/thoughtspot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/thoughtspot-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/authentication/thoughtspot-authentication.yml
+  href: https://artifacts.apis.io/thoughtspot/authentication/thoughtspot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thoughtspot-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/conventions/thoughtspot-conventions.yml
+  href: https://artifacts.apis.io/thoughtspot/conventions/thoughtspot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/thoughtspot-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/conventions/thoughtspot-conventions.yml
+  href: https://artifacts.apis.io/thoughtspot/conventions/thoughtspot-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/thoughtspot-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/changelog/thoughtspot-changelog.yml
+  href: https://artifacts.apis.io/thoughtspot/changelog/thoughtspot-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/thoughtspot-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/lifecycle/thoughtspot-lifecycle.yml
+  href: https://artifacts.apis.io/thoughtspot/lifecycle/thoughtspot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/thoughtspot-lifecycle.yml
@@ -680,32 +679,40 @@ common:
   type: StatusPage
   url: https://thoughtspot.statuspage.io/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/cli/thoughtspot-cli.yml
+  href: https://artifacts.apis.io/thoughtspot/cli/thoughtspot-cli.yml
   title: ''
   type: CLI
   url: cli/thoughtspot-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/components/thoughtspot-components.yml
+  href: https://artifacts.apis.io/thoughtspot/components/thoughtspot-components.yml
   title: ''
   type: Components
   url: components/thoughtspot-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/security/thoughtspot-domain-security.yml
+  href: https://artifacts.apis.io/thoughtspot/security/thoughtspot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thoughtspot-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/asyncapi/thoughtspot-webhooks.yml
+  href: https://artifacts.apis.io/thoughtspot/asyncapi/thoughtspot-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/thoughtspot-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/thoughtspot/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: ThoughtSpot is an agentic analytics and business intelligence platform that turns data into decisions using AI agents (Spotter), Search, automated insights, and embedded analytics. The ThoughtSpot Public REST API v2.0 exposes 191 operations across authentication, users, groups, roles, orgs, metadata (Liveboards, Answers, Models, Tables), search and data, AI/Spotter agents and conversations, connections, custom actions, webhooks, schedules, version control (Git/TML), security and sharing, tags, collections, and system administration. Developers also embed ThoughtSpot with the Visual Embed SDK, build custom charts with the Chart SDK, and connect agents through an official hosted MCP server. This profile was enriched by the API Evangelist pipeline from ThoughtSpot's public developer surface (developers.thoughtspot.com, docs.thoughtspot.com, the thoughtspot GitHub org, npm, and PyPI).
+finops:
+- has_sources: true
+  method: derived
+  name: Thoughtspot Finops
+  primary_unit: user
+  service_category: ''
+  slug: thoughtspot-finops
+  template: false
 image: https://raw.githubusercontent.com/thoughtspot/visual-embed-sdk/main/static/doc-images/images/TS-Logo-black-no-bg.svg
 layout: provider
 mcp_servers:
@@ -727,26 +734,34 @@ plans:
 - name: Thoughtspot Plans Pricing
   plan_count: 6
   slug: thoughtspot-plans-pricing
-random_paper: 15
+- name: Thoughtspot Price Estimates
+  plan_count: 0
+  slug: thoughtspot-price-estimates
+random_paper: 1
 score:
   band: strong
-  composite: 64.8
+  composite: 65.8
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 49.0
+    artifact_dirs: 28
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 55.6
-    developer_ergonomics: 75.6
-    discoverability: 75.0
-    operational_transparency: 42.1
-  previous_composite: 58.4
+    developer_ergonomics: 78.0
+    discoverability: 65.0
+    operational_transparency: 44.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -771,13 +786,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/screenshots/thoughtspot-2026-08-17T082344.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/thoughtspot/thoughtspot-2026-08-17T082344.png
 security:
 - kind: authentication
   name: Thoughtspot Authentication
@@ -791,6 +807,14 @@ security:
   name: Thoughtspot Trust Center
   slug: thoughtspot-trust-center
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+skill_count: 3
+skills:
+- name: Ask ThoughtSpot Spotter a data question
+  slug: thoughtspot-ask-spotter
+- name: Provision ThoughtSpot users and groups
+  slug: thoughtspot-provision-users
+- name: Export and import ThoughtSpot content as TML
+  slug: thoughtspot-tml-version-control
 slug: thoughtspot
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Crawlee JavaScript SDK is a Node.js/TypeScript library for building reliable web scrapers and crawlers. It provides a family of crawler classes - BasicCrawler, HttpCrawler, CheerioCrawler, JSDOMCr
@@ -45,17 +47,17 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/plans/crawlee-plans-pricing.yml
+  href: https://artifacts.apis.io/crawlee/plans/crawlee-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/crawlee-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/rate-limits/crawlee-rate-limits.yml
+  href: https://artifacts.apis.io/crawlee/rate-limits/crawlee-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/crawlee-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/finops/crawlee-finops.yml
+  href: https://artifacts.apis.io/crawlee/finops/crawlee-finops.yml
   title: ''
   type: FinOps
   url: finops/crawlee-finops.yml
@@ -68,7 +70,7 @@ common:
   type: ContributionGuide
   url: https://github.com/apify/crawlee/blob/master/CONTRIBUTING.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/security/crawlee-domain-security.yml
+  href: https://artifacts.apis.io/crawlee/security/crawlee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crawlee-domain-security.yml
@@ -121,52 +123,52 @@ common:
   type: DeveloperPortal
   url: https://crawlee.dev/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/llms/crawlee-llms.txt
+  href: https://artifacts.apis.io/crawlee/llms/crawlee-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crawlee-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/packages/crawlee-packages.yml
+  href: https://artifacts.apis.io/crawlee/packages/crawlee-packages.yml
   title: ''
   type: Packages
   url: packages/crawlee-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/packages/crawlee-packages.yml
+  href: https://artifacts.apis.io/crawlee/packages/crawlee-packages.yml
   title: ''
   type: SDKs
   url: packages/crawlee-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/cli/crawlee-cli.yml
+  href: https://artifacts.apis.io/crawlee/cli/crawlee-cli.yml
   title: ''
   type: CLI
   url: cli/crawlee-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/changelog/crawlee-changelog.yml
+  href: https://artifacts.apis.io/crawlee/changelog/crawlee-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/crawlee-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/lifecycle/crawlee-lifecycle.yml
+  href: https://artifacts.apis.io/crawlee/lifecycle/crawlee-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/crawlee-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/lifecycle/crawlee-lifecycle.yml
+  href: https://artifacts.apis.io/crawlee/lifecycle/crawlee-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/crawlee-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/conventions/crawlee-conventions.yml
+  href: https://artifacts.apis.io/crawlee/conventions/crawlee-conventions.yml
   title: ''
   type: Conventions
   url: conventions/crawlee-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/conformance/crawlee-conformance.yml
+  href: https://artifacts.apis.io/crawlee/conformance/crawlee-conformance.yml
   title: ''
   type: Conformance
   url: conformance/crawlee-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/crawlee/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -194,33 +196,30 @@ plans:
 - name: Crawlee Plans Pricing
   plan_count: 0
   slug: crawlee-plans-pricing
-random_paper: 13
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Crawlee Rate Limits
   slug: crawlee-rate-limits
 score:
-  band: thin
-  composite: 26.8
+  band: emerging
+  composite: 24.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 64.3
-    discoverability: 64.3
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 28.1
+    developer_ergonomics: 66.7
+    discoverability: 57.1
+    operational_transparency: 28.9
+  previous_composite: 24.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -231,14 +230,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/screenshots/crawlee-2026-06-20T175215.png
+screenshot: https://apis.io/screenshots/crawlee/crawlee-2026-06-20T175215.png
 security:
 - kind: domain-security
   name: Crawlee Domain Security

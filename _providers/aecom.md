@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: PipeInsights is AECOM's cloud-based SaaS solution for AI-powered sewer inspection analysis. It enables municipalities and utilities to upload sewer inspection footage, perform QA/QC defect coding, aut
@@ -42,7 +44,7 @@ apis:
 artifact_total: 26
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aecom/refs/heads/main/finops/aecom-finops.yml
+  href: https://artifacts.apis.io/aecom/finops/aecom-finops.yml
   title: ''
   type: FinOps
   url: finops/aecom-finops.yml
@@ -51,27 +53,27 @@ common:
   type: Website
   url: https://aecom.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aecom/refs/heads/main/security/aecom-domain-security.yml
+  href: https://artifacts.apis.io/aecom/security/aecom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aecom-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aecom/refs/heads/main/llms/aecom-llms.txt
+  href: https://artifacts.apis.io/aecom/llms/aecom-llms.txt
   title: AECOM Insights llms.txt (captured verbatim from https://insights.aecom.com/llms.txt)
   type: LLMsTxt
   url: llms/aecom-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aecom/refs/heads/main/packages/aecom-packages.yml
+  href: https://artifacts.apis.io/aecom/packages/aecom-packages.yml
   title: ''
   type: Packages
   url: packages/aecom-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aecom/refs/heads/main/plans/aecom-plans-pricing.yml
+  href: https://artifacts.apis.io/aecom/plans/aecom-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aecom-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aecom/refs/heads/main/rate-limits/aecom-rate-limits.yml
+  href: https://artifacts.apis.io/aecom/rate-limits/aecom-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aecom-rate-limits.yml
@@ -201,7 +203,7 @@ press:
 - date: ''
   title: How AECOM, Nine and Urbis are reshaping creativity with AI
   url: https://blog.adobe.com/en/publish/2025/07/17/how-aecom-nine-and-urbis-are-reshaping-creativity-with-ai
-random_paper: 11
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Aecom Rate Limits
@@ -216,7 +218,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -224,7 +226,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 21.5
+  previous_composite: 20.0
   provenance:
     mcp: derived
   regulatory:
@@ -233,14 +235,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aecom/refs/heads/main/screenshots/aecom-2026-06-20T165431.png
+screenshot: https://apis.io/screenshots/aecom/aecom-2026-06-20T165431.png
 security:
 - kind: domain-security
   name: Aecom Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -137,72 +139,72 @@ apis:
 artifact_total: 46
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/plans/meredith-plans-pricing.yml
+  href: https://artifacts.apis.io/meredith/plans/meredith-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/meredith-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/finops/meredith-finops.yml
+  href: https://artifacts.apis.io/meredith/finops/meredith-finops.yml
   title: ''
   type: FinOps
   url: finops/meredith-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/security/meredith-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/meredith/security/meredith-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/meredith-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/security/meredith-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/meredith/security/meredith-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/meredith-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/well-known/meredith-well-known.yml
+  href: https://artifacts.apis.io/meredith/well-known/meredith-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/meredith-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/well-known/meredith-security.txt
+  href: https://artifacts.apis.io/meredith/well-known/meredith-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/meredith-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/agentic-access/meredith-agentic-access.yml
+  href: https://artifacts.apis.io/meredith/agentic-access/meredith-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/meredith-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/conventions/meredith-conventions.yml
+  href: https://artifacts.apis.io/meredith/conventions/meredith-conventions.yml
   title: ''
   type: Conventions
   url: conventions/meredith-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/conformance/meredith-conformance.yml
+  href: https://artifacts.apis.io/meredith/conformance/meredith-conformance.yml
   title: ''
   type: Conformance
   url: conformance/meredith-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/errors/meredith-problem-types.yml
+  href: https://artifacts.apis.io/meredith/errors/meredith-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/meredith-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/lifecycle/meredith-lifecycle.yml
+  href: https://artifacts.apis.io/meredith/lifecycle/meredith-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/meredith-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/packages/meredith-packages.yml
+  href: https://artifacts.apis.io/meredith/packages/meredith-packages.yml
   title: ''
   type: Packages
   url: packages/meredith-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/llms/meredith-llms.txt
+  href: https://artifacts.apis.io/meredith/llms/meredith-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/meredith-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/vocabulary/meredith-vocabulary.yml
+  href: https://artifacts.apis.io/meredith/vocabulary/meredith-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/meredith-vocabulary.yml
@@ -211,7 +213,7 @@ common:
   type: IssueTracker
   url: https://github.com/api-evangelist/meredith/issues
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/security/meredith-domain-security.yml
+  href: https://artifacts.apis.io/meredith/security/meredith-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meredith-domain-security.yml
@@ -313,8 +315,8 @@ examples:
   name: People Rss Feed Example
   slug: people-rss-feed-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Meredith Finops
   primary_unit: ''
   service_category: ''
@@ -356,7 +358,7 @@ plans:
 - name: Meredith Plans Pricing
   plan_count: 8
   slug: meredith-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Meredith Rate Limits
@@ -387,7 +389,7 @@ rules:
   slug: people-inc-rss-rules
 score:
   band: developing
-  composite: 41.5
+  composite: 42.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 74.4
@@ -395,15 +397,15 @@ score:
     catalog_gap: 40.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 67.1
+    access_clarity: 71.1
     contract_governance: 45.5
     contract_quality: 17.9
     developer_ergonomics: 23.8
-    discoverability: 78.6
-    operational_transparency: 28.9
-  previous_composite: 43.0
+    discoverability: 71.4
+    operational_transparency: 31.6
+  previous_composite: 42.3
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -412,15 +414,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/screenshots/meredith-2026-08-17T124148.png
+screenshot: https://apis.io/screenshots/meredith/meredith-2026-08-17T124148.png
 security:
 - kind: domain-security
   name: Meredith Domain Security

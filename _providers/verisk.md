@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,7 +70,7 @@ apis:
   description: Insurance risk scores and rating factors
   name: Verisk Risk Scoring API
   slug: verisk-risk-scoring-api
-artifact_total: 81
+artifact_total: 80
 collections:
 - collection_type: postman
   name: Verisk Insurance Analytics Catastrophe API
@@ -82,9 +84,6 @@ collections:
 - collection_type: postman
   name: Verisk Insurance Analytics Catastrophe Risk Scoring API
   slug: postman-verisk-risk-scoring-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Verisk Insurance Analytics Catastrophe API
   slug: open-verisk-catastrophe-api
@@ -102,17 +101,17 @@ collections:
   slug: open-verisk-risk-scoring-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/plans/verisk-plans-pricing.yml
+  href: https://artifacts.apis.io/verisk/plans/verisk-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/verisk-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/rate-limits/verisk-rate-limits.yml
+  href: https://artifacts.apis.io/verisk/rate-limits/verisk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/verisk-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/finops/verisk-finops.yml
+  href: https://artifacts.apis.io/verisk/finops/verisk-finops.yml
   title: ''
   type: FinOps
   url: finops/verisk-finops.yml
@@ -121,7 +120,7 @@ common:
   type: Blog
   url: https://www.verisk.com/blog/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/capabilities/verisk-capability-edges.yml
+  href: https://artifacts.apis.io/verisk/capabilities/verisk-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/verisk-capability-edges.yml
@@ -130,17 +129,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/verisk/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/agentic-access/verisk-agentic-access.yml
+  href: https://artifacts.apis.io/verisk/agentic-access/verisk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/verisk-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/security/verisk-domain-security.yml
+  href: https://artifacts.apis.io/verisk/security/verisk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/verisk-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/authentication/verisk-authentication.yml
+  href: https://artifacts.apis.io/verisk/authentication/verisk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/verisk-authentication.yml
@@ -378,7 +377,7 @@ plans:
 - name: Verisk Plans Pricing
   plan_count: 1
   slug: verisk-plans-pricing
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Verisk Rate Limits
@@ -408,8 +407,8 @@ rules:
     warn: 19
   slug: verisk-spectral-rules
 score:
-  band: thin
-  composite: 37.5
+  band: developing
+  composite: 43.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 65.0
@@ -417,15 +416,15 @@ score:
     catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 66.6
     developer_ergonomics: 53.6
     discoverability: 57.1
-    operational_transparency: 7.9
-  previous_composite: 38.6
+    operational_transparency: 10.5
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     contracts:
@@ -438,14 +437,15 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 14.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 21.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/screenshots/verisk-2026-08-17T082751.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/verisk/verisk-2026-08-17T082751.png
 security:
 - kind: authentication
   name: Verisk Authentication

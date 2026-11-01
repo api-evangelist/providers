@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -99,11 +101,8 @@ apis:
   description: TestRail user lookup.
   name: TestRail Users API
   slug: testrail-users-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TestRail API (v2) Cases API
   slug: open-testrail-cases-api
@@ -150,17 +149,17 @@ common:
   type: BlogRSS
   url: https://www.testrail.com/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/capabilities/testrail-capability-edges.yml
+  href: https://artifacts.apis.io/testrail/capabilities/testrail-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/testrail-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/agentic-access/testrail-agentic-access.yml
+  href: https://artifacts.apis.io/testrail/agentic-access/testrail-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/testrail-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/authentication/testrail-authentication.yml
+  href: https://artifacts.apis.io/testrail/authentication/testrail-authentication.yml
   title: ''
   type: Authentication
   url: authentication/testrail-authentication.yml
@@ -177,17 +176,17 @@ common:
   type: Documentation
   url: https://support.testrail.com/hc/en-us/articles/7077083596436-Introduction-to-the-TestRail-API
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/plans/testrail-plans-pricing.yml
+  href: https://artifacts.apis.io/testrail/plans/testrail-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/testrail-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/rate-limits/testrail-rate-limits.yml
+  href: https://artifacts.apis.io/testrail/rate-limits/testrail-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/testrail-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/finops/testrail-finops.yml
+  href: https://artifacts.apis.io/testrail/finops/testrail-finops.yml
   title: ''
   type: FinOps
   url: finops/testrail-finops.yml
@@ -219,22 +218,22 @@ plans:
 - name: Testrail Plans Pricing
   plan_count: 4
   slug: testrail-plans-pricing
-random_paper: 14
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Testrail Rate Limits
   slug: testrail-rate-limits
 score:
   band: thin
-  composite: 27.7
+  composite: 28.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
@@ -242,7 +241,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 35.5
+  previous_composite: 28.4
   provenance:
     agentic_access: derived
     contracts:
@@ -256,13 +255,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/screenshots/testrail-2026-09-02T163239.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/testrail/testrail-2026-09-02T163239.png
 security:
 - kind: authentication
   name: Testrail Authentication

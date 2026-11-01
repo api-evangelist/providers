@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 54.0
-  scored_at: '2026-10-17'
+  score: 47.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 39
   slug: roboflow-agentic-access
   summary_line: 39 operations · 30 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The authoritative management interface to the Roboflow platform — workspaces, projects, dataset versions, image upload and annotation, training jobs, model evaluations, Workflows, folders, vision even
   name: Roboflow REST API
@@ -173,11 +175,8 @@ apis:
   description: The Yolo World API from Roboflow — 1 operation(s) for yolo world.
   name: Roboflow Yolo World API
   slug: roboflow-yolo-world-api
-artifact_total: 60
+artifact_total: 70
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Roboflow Inference Server Clip API
   slug: open-roboflow-clip-api
@@ -255,22 +254,22 @@ collections:
   slug: open-roboflow-yolo-world-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/plans/roboflow-plans-pricing.yml
+  href: https://artifacts.apis.io/roboflow/plans/roboflow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/roboflow-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/capabilities/roboflow-capability-edges.yml
+  href: https://artifacts.apis.io/roboflow/capabilities/roboflow-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/roboflow-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/overlays/roboflow-inference-overlay.yaml
+  href: https://artifacts.apis.io/roboflow/overlays/roboflow-inference-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/roboflow-inference-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/security/roboflow-domain-security.yml
+  href: https://artifacts.apis.io/roboflow/security/roboflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/roboflow-domain-security.yml
@@ -335,67 +334,67 @@ common:
   type: StatusPage
   url: https://status.roboflow.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/changelog/roboflow-changelog.yml
+  href: https://artifacts.apis.io/roboflow/changelog/roboflow-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/roboflow-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/lifecycle/roboflow-lifecycle.yml
+  href: https://artifacts.apis.io/roboflow/lifecycle/roboflow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/roboflow-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/authentication/roboflow-authentication.yml
+  href: https://artifacts.apis.io/roboflow/authentication/roboflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/roboflow-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/scopes/roboflow-scopes.yml
+  href: https://artifacts.apis.io/roboflow/scopes/roboflow-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/roboflow-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/well-known/roboflow-well-known.yml
+  href: https://artifacts.apis.io/roboflow/well-known/roboflow-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/roboflow-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/packages/roboflow-packages.yml
+  href: https://artifacts.apis.io/roboflow/packages/roboflow-packages.yml
   title: ''
   type: Packages
   url: packages/roboflow-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/packages/roboflow-packages.yml
+  href: https://artifacts.apis.io/roboflow/packages/roboflow-packages.yml
   title: ''
   type: SDKs
   url: packages/roboflow-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/cli/roboflow-cli.yml
+  href: https://artifacts.apis.io/roboflow/cli/roboflow-cli.yml
   title: ''
   type: CLI
   url: cli/roboflow-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/llms/roboflow-llms.txt
+  href: https://artifacts.apis.io/roboflow/llms/roboflow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/roboflow-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/conventions/roboflow-conventions.yml
+  href: https://artifacts.apis.io/roboflow/conventions/roboflow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/roboflow-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/errors/roboflow-error-codes.yml
+  href: https://artifacts.apis.io/roboflow/errors/roboflow-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/roboflow-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/rate-limits/roboflow-rate-limits.yml
+  href: https://artifacts.apis.io/roboflow/rate-limits/roboflow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/roboflow-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/conformance/roboflow-conformance.yml
+  href: https://artifacts.apis.io/roboflow/conformance/roboflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/roboflow-conformance.yml
@@ -404,27 +403,35 @@ common:
   type: Compliance
   url: https://roboflow.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/security/roboflow-trust-center.yml
+  href: https://artifacts.apis.io/roboflow/security/roboflow-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/roboflow-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/data-model/roboflow-data-model.yml
+  href: https://artifacts.apis.io/roboflow/data-model/roboflow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/roboflow-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/agentic-access/roboflow-agentic-access.yml
+  href: https://artifacts.apis.io/roboflow/agentic-access/roboflow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/roboflow-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/roboflow/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-02'
 description: Roboflow is a computer vision platform used by over one million engineers to annotate images, train custom models, and deploy them to production from the cloud to the edge. The platform spans dataset management and AI-assisted labeling, model training (RF-DETR, YOLO and NAS architectures), evaluation with mAP and confusion-matrix analysis, and low-code Workflows that compose models with logic and visualization into deployable pipelines. Deployment options include a serverless hosted inference API, dedicated deployments, batch processing, self-hosted Docker inference servers, in-browser inference, and managed edge devices. Roboflow Universe publishes a large open library of community datasets and models. Developers reach the platform through a REST API, a Python SDK and CLI, an OpenAPI-described inference server, and a hosted OAuth-protected MCP server paired with first-party Agent Skills.
+finops:
+- has_sources: true
+  method: derived
+  name: Roboflow Finops
+  primary_unit: credits
+  service_category: ''
+  slug: roboflow-finops
+  template: false
 image: https://cdn.prod.website-files.com/5f6bc60e665f54545a1e52a5/670954c541fe7e67c3d2cb01_og-logo.png
 layout: provider
 mcp_servers:
@@ -443,7 +450,10 @@ plans:
 - name: Roboflow Plans Pricing
   plan_count: 13
   slug: roboflow-plans-pricing
-random_paper: 16
+- name: Roboflow Price Estimates
+  plan_count: 0
+  slug: roboflow-price-estimates
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Roboflow Rate Limits
@@ -454,24 +464,29 @@ scopes:
   slug: roboflow-scopes
   summary_line: 67 scopes · authorizationCode
 score:
-  band: strong
-  composite: 62.2
+  band: exemplar
+  composite: 66.5
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 61.0
+    artifact_dirs: 28
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 1.6
   facets:
-    access_clarity: 78.9
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 40.0
     developer_ergonomics: 78.6
-    discoverability: 75.0
-    operational_transparency: 65.8
-  previous_composite: 55.9
+    discoverability: 65.0
+    operational_transparency: 68.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -492,13 +507,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/screenshots/roboflow-2026-08-17T081621.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/roboflow/roboflow-2026-08-17T081621.png
 security:
 - kind: authentication
   name: Roboflow Authentication
@@ -512,6 +528,26 @@ security:
   name: Roboflow Trust Center
   slug: roboflow-trust-center
   summary_line: SOC 2, HIPAA
+skill_count: 9
+skills:
+- name: roboflow-api-reference
+  slug: roboflow-api-reference
+- name: roboflow-cloud-storage
+  slug: roboflow-cloud-storage
+- name: roboflow-custom-weights-upload
+  slug: roboflow-custom-weights-upload
+- name: roboflow-data-management
+  slug: roboflow-data-management
+- name: roboflow-inference
+  slug: roboflow-inference
+- name: roboflow-plans-and-pricing
+  slug: roboflow-plans-and-pricing
+- name: roboflow-product-navigation
+  slug: roboflow-product-navigation
+- name: roboflow-training-and-evaluation
+  slug: roboflow-training-and-evaluation
+- name: roboflow-universe
+  slug: roboflow-universe
 slug: roboflow
 tags:
 - Computer Vision

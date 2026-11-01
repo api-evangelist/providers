@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Access-controlled trading API for the Figure Markets exchange (EP3 matching engine on Provenance Blockchain) covering markets, trading, and account operations. Requires authentication; no public OpenA
@@ -69,17 +71,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/figuremarkets
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/figure-markets/refs/heads/main/llms/figure-markets-llms.txt
+  href: https://artifacts.apis.io/figure-markets/llms/figure-markets-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/figure-markets-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/figure-markets/refs/heads/main/security/figure-markets-domain-security.yml
+  href: https://artifacts.apis.io/figure-markets/security/figure-markets-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/figure-markets-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/figure-markets/refs/heads/main/conformance/figure-markets-conformance.yml
+  href: https://artifacts.apis.io/figure-markets/conformance/figure-markets-conformance.yml
   title: ''
   type: Conformance
   url: conformance/figure-markets-conformance.yml
@@ -95,10 +97,10 @@ overview: 'Figure Markets is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   Figure Markets'' developer surface includes signup flow, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 16
+random_paper: 6
 score:
   band: emerging
-  composite: 15.6
+  composite: 15.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -112,9 +114,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 15.6
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 15.3
   provenance:
     conformance: derived
   regulatory:
@@ -123,14 +125,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/figure-markets/refs/heads/main/screenshots/figure-markets-2026-07-25T214442.png
+screenshot: https://apis.io/screenshots/figure-markets/figure-markets-2026-07-25T214442.png
 security:
 - kind: domain-security
   name: Figure Markets Domain Security

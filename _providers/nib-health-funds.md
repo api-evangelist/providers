@@ -31,38 +31,68 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.1
-  scored_at: '2026-10-17'
+  score: 17.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Auth0-backed OpenID Connect tenant behind nib member sign-in, issuer https://id.nib.com.au/. It is the only nib API surface with anonymously readable, machine-readable metadata: the OIDC discovery'
   name: nib Identity (OpenID Connect)
   slug: identity
-artifact_total: 5
+artifact_total: 7
 common:
+- group: other
+  href: https://artifacts.apis.io/nib-health-funds/hosts/nib-health-funds-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/nib-health-funds-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/nib-health-funds/integrations/nib-health-funds-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/nib-health-funds-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/nib-health-funds/vendors/nib-health-funds-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/nib-health-funds-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/nib-health-funds/packages/nib-health-funds-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/nib-health-funds-packages.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.nib.com.au/travel-insurance-cover/plans
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.nib.com.au/docs/fund-rules
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nib-health-funds/refs/heads/main/authentication/nib-health-funds-authentication.yml
+  href: https://artifacts.apis.io/nib-health-funds/authentication/nib-health-funds-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nib-health-funds-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nib-health-funds/refs/heads/main/scopes/nib-health-funds-scopes.yml
+  href: https://artifacts.apis.io/nib-health-funds/scopes/nib-health-funds-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nib-health-funds-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nib-health-funds/refs/heads/main/well-known/nib-health-funds-well-known.yml
+  href: https://artifacts.apis.io/nib-health-funds/well-known/nib-health-funds-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nib-health-funds-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nib-health-funds/refs/heads/main/well-known/nib-health-funds-security.txt
+  href: https://artifacts.apis.io/nib-health-funds/well-known/nib-health-funds-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/nib-health-funds-security.txt
@@ -71,31 +101,26 @@ common:
   type: Security
   url: https://www.nib.com.au/.well-known/security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nib-health-funds/refs/heads/main/conformance/nib-health-funds-conformance.yml
+  href: https://artifacts.apis.io/nib-health-funds/conformance/nib-health-funds-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nib-health-funds-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nib-health-funds/refs/heads/main/packages/nib-health-funds-packages.yml
+  href: https://artifacts.apis.io/nib-health-funds/packages/nib-health-funds-packages.yml
   title: ''
   type: Packages
   url: packages/nib-health-funds-packages.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nib-health-funds/refs/heads/main/llms/nib-health-funds-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/nib-health-funds-llms.txt
 - group: commercial
   title: ''
   type: TermsOfService
   url: https://www.nib.com.au/docs/online-terms
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nib-health-funds/refs/heads/main/security/nib-health-funds-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nib-health-funds/security/nib-health-funds-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nib-health-funds-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nib-health-funds/refs/heads/main/security/nib-health-funds-domain-security.yml
+  href: https://artifacts.apis.io/nib-health-funds/security/nib-health-funds-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nib-health-funds-domain-security.yml
@@ -147,31 +172,51 @@ common:
   title: ''
   type: OpenIDConnectDiscovery
   url: https://id.nib.com.au/.well-known/openid-configuration
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.nib.com.au/health-insurance/join/welcome
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.nib.com.au/careers
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://www.nib.com.au/shareholders
 created: '2026-07-25'
 description: 'nib holdings limited (ASX:NHF), trading as nib, is an Australian private health insurer headquartered in Newcastle, New South Wales, and one of the country''s largest health funds alongside Medibank, Bupa and HCF. Its lines of business span Australian residents health insurance, New Zealand health insurance through nib nz insurance limited, international workers and overseas student health cover (OSHC), travel insurance, and nib Thrive, its National Disability Insurance Scheme plan-management arm. As a private health insurer it is regulated by APRA and the Private Health Insurance Act rather than by an open-data mandate — Australia''s Consumer Data Right was designated to extend to general insurance and then deferred, and it never reached private health insurance at all, so there is no regulatory forcing function pushing nib toward public APIs. Its API posture reflects that exactly: nib publishes no public, self-serve developer portal and no downloadable OpenAPI definitions.
   Probes of developer.nib.com.au, developers.nib.com.au, docs.nib.com.au and api.nib.com.au do not resolve, and /developers, /api, /developer, /partners and /integrations on nib.com.au all return 404. A real AWS API Gateway host, api-gateway.nib.com.au, is referenced by nib''s own web front-end Content-Security-Policy and answers anonymously with HTTP 403 {"message":"Forbidden"}, confirming a first-party, credential-gated gateway with no public documentation. Healthcare provider integration runs through the login-walled nib HCP portal and through third-party claiming terminals — HICAPS and HealthPoint — plus Honeysuckle Health for medical network and MediGap registration, not through an nib-published API. Member identity is an Auth0-backed OpenID Connect tenant at id.nib.com.au whose discovery document is publicly readable, as is an RFC 9116 security.txt at www.nib.com.au naming security@nib.com.au. nib also publishes three first-party npm scopes (@nib, @nib-styles, @nib-components) across
   four public GitHub organisations, but they carry frontend and DevOps tooling rather than any API client library. nib is recorded here as an honest partner-gated stub.'
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://www.meshdesignsystem.com/images/brand/core/nib_RGB_PrimaryLogo_TrueGreen.svg
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-20'
 name: nib
 nav: Providers
 network: true
 overview: 'nib is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, Health Insurance, Carrier, and Claims.
 
 
-  nib''s developer surface includes authentication, engineering blog, support, and 20 more developer resources.'
-random_paper: 15
+  nib''s developer surface includes pricing, documentation, authentication, engineering blog, support, signup flow, and 25 more developer resources.'
+plans:
+- name: Nib Health Funds Plans Pricing
+  plan_count: 0
+  slug: nib-health-funds-plans-pricing
+random_paper: 17
+rate_limits:
+- limit_count: 0
+  name: Nib Health Funds Rate Limits
+  slug: nib-health-funds-rate-limits
 scopes:
 - name: Nib Health Funds Scopes
   scope_count: 14
   slug: nib-health-funds-scopes
   summary_line: 14 scopes · authorizationCode/clientCredentials/implicit/deviceCode
 score:
-  band: emerging
-  composite: 22.1
+  band: thin
+  composite: 29.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -179,12 +224,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 19.0
-    discoverability: 74.1
-    operational_transparency: 7.9
+    developer_ergonomics: 35.7
+    discoverability: 67.9
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -193,23 +238,24 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 22.1
+  previous_composite: 29.3
   provenance:
     conformance: derived
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 42.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nib-health-funds/refs/heads/main/screenshots/nib-health-funds-2026-08-07T185245.png
+screenshot: https://apis.io/screenshots/nib-health-funds/nib-health-funds-2026-08-07T185245.png
 security:
 - kind: authentication
   name: Nib Health Funds Authentication

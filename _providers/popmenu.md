@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Popmenu Developer API gives partners access to restaurant data including menus, guests, and orders for building custom integrations with the Popmenu platform. Popmenu also connects with POS and ma
@@ -47,7 +49,7 @@ apis:
 artifact_total: 27
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/popmenu/refs/heads/main/security/popmenu-domain-security.yml
+  href: https://artifacts.apis.io/popmenu/security/popmenu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/popmenu-domain-security.yml
@@ -96,52 +98,52 @@ common:
   type: StatusPage
   url: https://status.popmenu.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/popmenu/refs/heads/main/plans/popmenu-plans-pricing.yml
+  href: https://artifacts.apis.io/popmenu/plans/popmenu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/popmenu-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/popmenu/refs/heads/main/rate-limits/popmenu-rate-limits.yml
+  href: https://artifacts.apis.io/popmenu/rate-limits/popmenu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/popmenu-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/popmenu/refs/heads/main/lifecycle/popmenu-lifecycle.yml
+  href: https://artifacts.apis.io/popmenu/lifecycle/popmenu-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/popmenu-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/popmenu/refs/heads/main/conformance/popmenu-conformance.yml
+  href: https://artifacts.apis.io/popmenu/conformance/popmenu-conformance.yml
   title: ''
   type: Conformance
   url: conformance/popmenu-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/popmenu/refs/heads/main/conventions/popmenu-conventions.yml
+  href: https://artifacts.apis.io/popmenu/conventions/popmenu-conventions.yml
   title: ''
   type: Conventions
   url: conventions/popmenu-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/popmenu/refs/heads/main/errors/popmenu-problem-types.yml
+  href: https://artifacts.apis.io/popmenu/errors/popmenu-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/popmenu-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/popmenu/refs/heads/main/packages/popmenu-packages.yml
+  href: https://artifacts.apis.io/popmenu/packages/popmenu-packages.yml
   title: ''
   type: Packages
   url: packages/popmenu-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/popmenu/refs/heads/main/llms/popmenu-llms.txt
+  href: https://artifacts.apis.io/popmenu/llms/popmenu-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/popmenu-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/popmenu/refs/heads/main/well-known/popmenu-well-known.yml
+  href: https://artifacts.apis.io/popmenu/well-known/popmenu-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/popmenu-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/popmenu/refs/heads/main/mcp/popmenu-mcp.yml
+  href: https://artifacts.apis.io/popmenu/mcp/popmenu-mcp.yml
   title: ''
   type: MCPProbe
   url: mcp/popmenu-mcp.yml
@@ -206,14 +208,14 @@ plans:
 - name: Popmenu Plans Pricing
   plan_count: 4
   slug: popmenu-plans-pricing
-random_paper: 2
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Popmenu Rate Limits
   slug: popmenu-rate-limits
 score:
   band: thin
-  composite: 29.9
+  composite: 30.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 52.0
@@ -221,15 +223,15 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 69.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 64.3
-    operational_transparency: 39.5
-  previous_composite: 29.8
+    discoverability: 57.1
+    operational_transparency: 42.1
+  previous_composite: 30.8
   provenance:
     conformance: derived
     mcp: derived
@@ -239,14 +241,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/popmenu/refs/heads/main/screenshots/popmenu-2026-06-20T191922.png
+screenshot: https://apis.io/screenshots/popmenu/popmenu-2026-06-20T191922.png
 security:
 - kind: authentication
   name: Popmenu Authentication

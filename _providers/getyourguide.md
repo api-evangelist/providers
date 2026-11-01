@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,65 +28,48 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
-    spec_presence: true
+    reversibility_documented: false
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.8
-  scored_at: '2026-10-17'
+  score: 4.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
-- baseURL: https://api.getyourguide.com
-  baseurl_source: declared
-  description: The Bookings API from GetYourGuide — 2 operation(s) for bookings.
+- description: The Bookings API from GetYourGuide — 2 operation(s) for bookings.
   name: GetYourGuide Bookings API
   slug: getyourguide-bookings-api
-- baseURL: https://api.getyourguide.com
-  baseurl_source: declared
-  description: The Carts API from GetYourGuide — 2 operation(s) for carts.
+- description: The Carts API from GetYourGuide — 2 operation(s) for carts.
   name: GetYourGuide Carts API
   slug: getyourguide-carts-api
-- baseURL: https://api.getyourguide.com
-  baseurl_source: declared
-  description: The Categories API from GetYourGuide — 2 operation(s) for categories.
+- description: The Categories API from GetYourGuide — 2 operation(s) for categories.
   name: GetYourGuide Categories API
   slug: getyourguide-categories-api
-- baseURL: https://api.getyourguide.com
-  baseurl_source: declared
-  description: The Configuration API from GetYourGuide — 2 operation(s) for configuration.
+- description: The Configuration API from GetYourGuide — 2 operation(s) for configuration.
   name: GetYourGuide Configuration API
   slug: getyourguide-configuration-api
-- baseURL: https://api.getyourguide.com
-  baseurl_source: declared
-  description: The Options API from GetYourGuide — 1 operation(s) for options.
+- description: The Options API from GetYourGuide — 1 operation(s) for options.
   name: GetYourGuide Options API
   slug: getyourguide-options-api
-- baseURL: https://api.getyourguide.com
-  baseurl_source: declared
-  description: The Reviews API from GetYourGuide — 1 operation(s) for reviews.
+- description: The Reviews API from GetYourGuide — 1 operation(s) for reviews.
   name: GetYourGuide Reviews API
   slug: getyourguide-reviews-api
-- baseURL: https://api.getyourguide.com
-  baseurl_source: declared
-  description: The Suppliers API from GetYourGuide — 1 operation(s) for suppliers.
+- description: The Suppliers API from GetYourGuide — 1 operation(s) for suppliers.
   name: GetYourGuide Suppliers API
   slug: getyourguide-suppliers-api
-- baseURL: https://api.getyourguide.com
-  baseurl_source: declared
-  description: The Tours API from GetYourGuide — 5 operation(s) for tours.
+- description: The Tours API from GetYourGuide — 5 operation(s) for tours.
   name: GetYourGuide Tours API
   slug: getyourguide-tours-api
 arazzos:
 - description: Search the GetYourGuide marketplace, pick a tour option, check availability, then create and confirm a booking via the two-step cart flow.
   name: Search a tour and create a booking
   slug: getyourguide-search-and-book
-artifact_total: 20
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Partner Api Bookings API
   slug: open-getyourguide-bookings-api
@@ -109,12 +92,17 @@ collections:
   name: Partner Api Bookings Tours API
   slug: open-getyourguide-tours-api
 common:
+- group: other
+  href: https://artifacts.apis.io/getyourguide/capabilities/getyourguide-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/getyourguide-capability-edges.yml
 - group: company
   title: ''
   type: Website
   url: https://getyourguide.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/overlays/getyourguide-partner-overlay.yaml
+  href: https://artifacts.apis.io/getyourguide/overlays/getyourguide-partner-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/getyourguide-partner-overlay.yaml
@@ -163,77 +151,77 @@ common:
   type: Security
   url: https://www.getyourguide.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/security/getyourguide-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/getyourguide/security/getyourguide-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/getyourguide-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/security/getyourguide-domain-security.yml
+  href: https://artifacts.apis.io/getyourguide/security/getyourguide-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/getyourguide-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/well-known/getyourguide-security.txt
+  href: https://artifacts.apis.io/getyourguide/well-known/getyourguide-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/getyourguide-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/well-known/getyourguide-well-known.yml
+  href: https://artifacts.apis.io/getyourguide/well-known/getyourguide-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/getyourguide-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/authentication/getyourguide-authentication.yml
+  href: https://artifacts.apis.io/getyourguide/authentication/getyourguide-authentication.yml
   title: ''
   type: Authentication
   url: authentication/getyourguide-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/conventions/getyourguide-conventions.yml
+  href: https://artifacts.apis.io/getyourguide/conventions/getyourguide-conventions.yml
   title: ''
   type: Conventions
   url: conventions/getyourguide-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/errors/getyourguide-problem-types.yml
+  href: https://artifacts.apis.io/getyourguide/errors/getyourguide-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/getyourguide-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/data-model/getyourguide-data-model.yml
+  href: https://artifacts.apis.io/getyourguide/data-model/getyourguide-data-model.yml
   title: ''
   type: DataModel
   url: data-model/getyourguide-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/conformance/getyourguide-conformance.yml
+  href: https://artifacts.apis.io/getyourguide/conformance/getyourguide-conformance.yml
   title: ''
   type: Conformance
   url: conformance/getyourguide-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/lifecycle/getyourguide-lifecycle.yml
+  href: https://artifacts.apis.io/getyourguide/lifecycle/getyourguide-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/getyourguide-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/sandbox/getyourguide-sandbox.yml
+  href: https://artifacts.apis.io/getyourguide/sandbox/getyourguide-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/getyourguide-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/mcp/getyourguide-mcp.yml
+  href: https://artifacts.apis.io/getyourguide/mcp/getyourguide-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/getyourguide-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/llms/getyourguide-llms.txt
+  href: https://artifacts.apis.io/getyourguide/llms/getyourguide-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/getyourguide-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/getyourguide/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/arazzo/getyourguide-search-and-book.yml
+  href: https://artifacts.apis.io/getyourguide/arazzo/getyourguide-search-and-book.yml
   title: ''
   type: Arazzo
   url: arazzo/getyourguide-search-and-book.yml
@@ -245,29 +233,29 @@ modified: '2026-09-16'
 name: GetYourGuide
 nav: Providers
 network: true
-overview: 'GetYourGuide publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bookings API, Carts API, Categories API, and 5 more. Tagged areas include Company, Travel, Tourism, Tours and Activities, and Marketplace.
+overview: 'GetYourGuide publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Tourism, Tours and Activities, and Marketplace.
 
 
-  GetYourGuide''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 11
+  GetYourGuide''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 22 more developer resources.'
+random_paper: 13
 score:
-  band: developing
-  composite: 40.8
+  band: thin
+  composite: 30.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -10.8
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 48.8
+    contract_quality: 6.0
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 13.2
+    discoverability: 66.1
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -276,14 +264,14 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 40.7
+  previous_composite: 41.2
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 8
+      marker_coverage: 11.1
+      total: 9
     mcp: derived
     skills: derived
   regulatory:
@@ -292,13 +280,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/screenshots/getyourguide-2026-07-25T215748.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/getyourguide/getyourguide-2026-07-25T215748.png
 security:
 - kind: authentication
   name: Getyourguide Authentication
@@ -312,6 +301,12 @@ security:
   name: Getyourguide Vulnerability Disclosure
   slug: getyourguide-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 2
+skills:
+- name: Retrieve and cancel a booking
+  slug: getyourguide-manage-booking
+- name: Search a tour and create a booking
+  slug: getyourguide-search-and-book
 slug: getyourguide
 tags:
 - Company

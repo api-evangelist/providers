@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-17'
+  score: 38.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -64,11 +66,8 @@ apis:
   description: OAuth 2.0 authorization, token exchange, and revocation.
   name: Ultrahuman O Auth API
   slug: ultrahuman-oauth-api
-artifact_total: 17
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ultrahuman Partner (UltraSignal) Metrics API
   slug: open-ultrahuman-metrics-api
@@ -80,27 +79,27 @@ collections:
   slug: open-ultrahuman-user-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/agentic-access/ultrahuman-agentic-access.yml
+  href: https://artifacts.apis.io/ultrahuman/agentic-access/ultrahuman-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ultrahuman-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/security/ultrahuman-trust-center.yml
+  href: https://artifacts.apis.io/ultrahuman/security/ultrahuman-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ultrahuman-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/security/ultrahuman-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ultrahuman/security/ultrahuman-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ultrahuman-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/security/ultrahuman-domain-security.yml
+  href: https://artifacts.apis.io/ultrahuman/security/ultrahuman-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ultrahuman-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/authentication/ultrahuman-authentication.yml
+  href: https://artifacts.apis.io/ultrahuman/authentication/ultrahuman-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ultrahuman-authentication.yml
@@ -121,17 +120,17 @@ common:
   type: SignUp
   url: https://partnerships.ultrahuman.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/plans/ultrahuman-plans-pricing.yml
+  href: https://artifacts.apis.io/ultrahuman/plans/ultrahuman-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ultrahuman-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/rate-limits/ultrahuman-rate-limits.yml
+  href: https://artifacts.apis.io/ultrahuman/rate-limits/ultrahuman-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ultrahuman-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/finops/ultrahuman-finops.yml
+  href: https://artifacts.apis.io/ultrahuman/finops/ultrahuman-finops.yml
   title: ''
   type: FinOps
   url: finops/ultrahuman-finops.yml
@@ -163,14 +162,14 @@ plans:
 - name: Ultrahuman Plans Pricing
   plan_count: 4
   slug: ultrahuman-plans-pricing
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Ultrahuman Rate Limits
   slug: ultrahuman-rate-limits
 score:
   band: thin
-  composite: 30.6
+  composite: 33.8
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.0
@@ -178,15 +177,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
-    access_clarity: 22.4
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 48.6
     developer_ergonomics: 29.8
-    discoverability: 68.3
-    operational_transparency: 7.9
-  previous_composite: 38.9
+    discoverability: 66.1
+    operational_transparency: 18.4
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -201,13 +200,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/screenshots/ultrahuman-2026-09-02T164801.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ultrahuman/ultrahuman-2026-09-02T164801.png
 security:
 - kind: authentication
   name: Ultrahuman Authentication

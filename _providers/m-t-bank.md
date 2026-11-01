@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - description: Institutional payment initiation product listed in M&T's Banking and Treasury API group on the developer portal. Per-product reference is available after Entra login and Azure APIM subscription.
@@ -73,7 +75,7 @@ common:
   type: Login
   url: https://www.mtb.com/login
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/m-t-bank/refs/heads/main/security/m-t-bank-domain-security.yml
+  href: https://artifacts.apis.io/m-t-bank/security/m-t-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/m-t-bank-domain-security.yml
@@ -118,12 +120,12 @@ common:
   type: TreasuryManagement
   url: https://www.mtb.com/commercial/treasury-management
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/m-t-bank/refs/heads/main/security/m-t-bank-domain-security.yml
+  href: https://artifacts.apis.io/m-t-bank/security/m-t-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/m-t-bank-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/m-t-bank/refs/heads/main/llms/m-t-bank-llms.txt
+  href: https://artifacts.apis.io/m-t-bank/llms/m-t-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/m-t-bank-llms.txt
@@ -140,10 +142,10 @@ overview: 'M&T Bank is listed with 10 APIs on the [APIs.io](https://apis.io/) ne
 
 
   M&T Bank''s developer surface includes documentation, getting-started guide, support, engineering blog, and 10 more developer resources.'
-random_paper: 1
+random_paper: 7
 score:
   band: emerging
-  composite: 11.6
+  composite: 20.7
   coverage:
     artifact_dirs: 6
     catalog_earned: 35.0
@@ -151,13 +153,13 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 69.6
+    developer_ergonomics: 45.2
+    discoverability: 62.5
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -166,21 +168,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 11.5
+  previous_composite: 20.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/m-t-bank/refs/heads/main/screenshots/m-t-bank-2026-07-25T225807.png
+screenshot: https://apis.io/screenshots/m-t-bank/m-t-bank-2026-07-25T225807.png
 security:
 - kind: domain-security
   name: M T Bank Domain Security

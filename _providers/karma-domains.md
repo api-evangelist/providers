@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 52.3
-  scored_at: '2026-10-17'
+  score: 51.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -54,89 +56,99 @@ apis:
   description: The webhooks API from Karma.Domains — 5 operation(s) for webhooks.
   name: Karma.Domains Webhooks API
   slug: karma-domains-webhooks-api
-artifact_total: 16
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Karma Domains Webhooks
   slug: karma-domains-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/karma-domains/capabilities/karma-domains-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/karma-domains-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/karma-domains/plans/karma-domains-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/karma-domains-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/agentic-access/karma-domains-agentic-access.yml
+  href: https://artifacts.apis.io/karma-domains/agentic-access/karma-domains-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/karma-domains-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/rules/karma-domains-rules.yml
+  href: https://artifacts.apis.io/karma-domains/rules/karma-domains-rules.yml
   title: ''
   type: Spectral
   url: rules/karma-domains-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/json-ld/karma-domains-context.jsonld
+  href: https://artifacts.apis.io/karma-domains/json-ld/karma-domains-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/karma-domains-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/vocabulary/karma-domains-vocabulary.yml
+  href: https://artifacts.apis.io/karma-domains/vocabulary/karma-domains-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/karma-domains-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/karma-domains/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/asyncapi/karma-domains-webhooks.yml
+  href: https://artifacts.apis.io/karma-domains/asyncapi/karma-domains-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/karma-domains-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/data-model/karma-domains-data-model.yml
+  href: https://artifacts.apis.io/karma-domains/data-model/karma-domains-data-model.yml
   title: ''
   type: DataModel
   url: data-model/karma-domains-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/cli/karma-domains-cli.yml
+  href: https://artifacts.apis.io/karma-domains/cli/karma-domains-cli.yml
   title: ''
   type: CLI
   url: cli/karma-domains-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/errors/karma-domains-problem-types.yml
+  href: https://artifacts.apis.io/karma-domains/errors/karma-domains-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/karma-domains-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/conformance/karma-domains-conformance.yml
+  href: https://artifacts.apis.io/karma-domains/conformance/karma-domains-conformance.yml
   title: ''
   type: Conformance
   url: conformance/karma-domains-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/llms/karma-domains-llms.txt
+  href: https://artifacts.apis.io/karma-domains/llms/karma-domains-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/karma-domains-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/well-known/karma-domains-well-known.yml
+  href: https://artifacts.apis.io/karma-domains/well-known/karma-domains-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/karma-domains-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/hosts/karma-domains-hosts.yml
+  href: https://artifacts.apis.io/karma-domains/hosts/karma-domains-hosts.yml
   title: ''
   type: Hosts
   url: hosts/karma-domains-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/vendors/karma-domains-vendors.yml
+  href: https://artifacts.apis.io/karma-domains/vendors/karma-domains-vendors.yml
   title: ''
   type: Vendors
   url: vendors/karma-domains-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/packages/karma-domains-packages.yml
+  href: https://artifacts.apis.io/karma-domains/packages/karma-domains-packages.yml
   title: ''
   type: SDKs
   url: packages/karma-domains-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/packages/karma-domains-packages.yml
+  href: https://artifacts.apis.io/karma-domains/packages/karma-domains-packages.yml
   title: ''
   type: Packages
   url: packages/karma-domains-packages.yml
@@ -181,12 +193,12 @@ common:
   type: APIReference
   url: https://karma.domains/en/expired-domains-api/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/authentication/karma-domains-authentication.yml
+  href: https://artifacts.apis.io/karma-domains/authentication/karma-domains-authentication.yml
   title: ''
   type: Authentication
   url: authentication/karma-domains-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/security/karma-domains-domain-security.yml
+  href: https://artifacts.apis.io/karma-domains/security/karma-domains-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/karma-domains-domain-security.yml
@@ -196,6 +208,14 @@ common:
   url: https://karma.domains
 created: '2026-10-06'
 description: Karma.Domains provides a public REST API delivering comprehensive domain intelligence for expired and auctioned domains. Leveraging data from over 40 auction sources and 90+ SEO filters, the API returns metrics such as Ahrefs DR, Majestic TF/CF, Moz DA, SEMrush scores, SimilarWeb traffic, Wayback history, backlink counts, domain age, and more. Users can query up to 400,000+ newly expired domains daily, apply advanced filters, save annotations, and receive enriched SEO data. The service offers a Pro tier with bearer token authentication, rate‑limited to 60 requests per minute, enabling integration into SEO tools, market analysis, and competitive research workflows.
+finops:
+- has_sources: true
+  method: derived
+  name: Karma Domains Finops
+  primary_unit: 99 credits
+  service_category: ''
+  slug: karma-domains-finops
+  template: false
 image: https://karma.domains/android-chrome-384x384.png
 json_schemas:
 - name: PublicUserProfileSchema
@@ -232,8 +252,15 @@ overview: 'Karma.Domains publishes 4 API contracts indexed on the [APIs.io](http
   The Karma.Domains catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Karma.Domains'' developer surface includes CLI, support, pricing, documentation, engineering blog, API reference, authentication, and 22 more developer resources.'
-random_paper: 18
+  Karma.Domains'' developer surface includes CLI, support, pricing, documentation, engineering blog, API reference, authentication, and 24 more developer resources.'
+plans:
+- name: Karma Domains Plans Pricing
+  plan_count: 7
+  slug: karma-domains-plans-pricing
+- name: Karma Domains Price Estimates
+  plan_count: 0
+  slug: karma-domains-price-estimates
+random_paper: 20
 rules:
 - authorship: generated
   effective_rule_count: 56
@@ -249,21 +276,23 @@ rules:
   slug: karma-domains-rules
 score:
   band: strong
-  composite: 54.3
+  composite: 61.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 57.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.3
+    artifact_dirs: 23
+    catalog_earned: 72.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 42.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 35.6
-    contract_quality: 79.8
+    contract_quality: 76.4
     developer_ergonomics: 61.3
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 13.2
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -284,11 +313,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Karma Domains Authentication
@@ -298,6 +329,12 @@ security:
   name: Karma Domains Domain Security
   slug: karma-domains-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: karma-domains-manage-user-saved-filters
+  slug: karma-domains-manage-user-saved-filters
+- name: karma-domains-reports-search-and-fetch
+  slug: karma-domains-reports-search-and-fetch
 slug: karma-domains
 tags:
 - Company

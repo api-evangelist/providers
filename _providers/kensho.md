@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.1
-  scored_at: '2026-10-17'
+  score: 45.9
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Asynchronous speech-to-text transcription API that turns audio and video into text with high accuracy. Supports batch, real-time, and human-in-the-loop transcription, multipart and remote-URL submissi
@@ -80,12 +82,12 @@ common:
   type: GettingStarted
   url: https://docs.kensho.com/authentication/personal-token
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/authentication/kensho-authentication.yml
+  href: https://artifacts.apis.io/kensho/authentication/kensho-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kensho-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/scopes/kensho-scopes.yml
+  href: https://artifacts.apis.io/kensho/scopes/kensho-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kensho-scopes.yml
@@ -118,72 +120,72 @@ common:
   type: Compliance
   url: https://trust.kensho.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/mcp/kensho-mcp.yml
+  href: https://artifacts.apis.io/kensho/mcp/kensho-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kensho-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/well-known/kensho-well-known.yml
+  href: https://artifacts.apis.io/kensho/well-known/kensho-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kensho-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/well-known/kensho-well-known.yml
+  href: https://artifacts.apis.io/kensho/well-known/kensho-well-known.yml
   title: ''
   type: SecurityTxt
   url: well-known/kensho-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/packages/kensho-packages.yml
+  href: https://artifacts.apis.io/kensho/packages/kensho-packages.yml
   title: ''
   type: Packages
   url: packages/kensho-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/packages/kensho-packages.yml
+  href: https://artifacts.apis.io/kensho/packages/kensho-packages.yml
   title: ''
   type: SDKs
   url: packages/kensho-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/conventions/kensho-conventions.yml
+  href: https://artifacts.apis.io/kensho/conventions/kensho-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kensho-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/conformance/kensho-conformance.yml
+  href: https://artifacts.apis.io/kensho/conformance/kensho-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kensho-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/lifecycle/kensho-lifecycle.yml
+  href: https://artifacts.apis.io/kensho/lifecycle/kensho-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kensho-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/changelog/kensho-changelog.yml
+  href: https://artifacts.apis.io/kensho/changelog/kensho-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kensho-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/asyncapi/kensho-scribe-webhooks.yml
+  href: https://artifacts.apis.io/kensho/asyncapi/kensho-scribe-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kensho-scribe-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kensho/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/errors/kensho-problem-types.yml
+  href: https://artifacts.apis.io/kensho/errors/kensho-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kensho-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/llms/kensho-llms.txt
+  href: https://artifacts.apis.io/kensho/llms/kensho-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kensho-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/security/kensho-domain-security.yml
+  href: https://artifacts.apis.io/kensho/security/kensho-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kensho-domain-security.yml
@@ -206,7 +208,7 @@ overview: 'Kensho is listed with 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Kensho''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, signup flow, support, and 22 more developer resources.'
-random_paper: 10
+random_paper: 0
 scopes:
 - name: Kensho Scopes
   scope_count: 2
@@ -214,23 +216,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: developing
-  composite: 44.9
+  composite: 48.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 80.0
-    operational_transparency: 42.1
-  previous_composite: 44.4
+    discoverability: 70.0
+    operational_transparency: 55.3
+  previous_composite: 48.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -241,14 +243,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/screenshots/kensho-2026-07-25T223619.png
+screenshot: https://apis.io/screenshots/kensho/kensho-2026-07-25T223619.png
 security:
 - kind: authentication
   name: Kensho Authentication

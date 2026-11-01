@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: Token issuance, refresh, and introspection.
   name: ItsaCheckmate O Auth API
   slug: itsacheckmate-oauth-api
-artifact_total: 61
+artifact_total: 60
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ItsaCheckmate Marketplace for Developers Locations API
   slug: open-itsacheckmate-locations-api
@@ -86,18 +85,22 @@ collections:
   name: ItsaCheckmate Marketplace for Developers Locations Orders API
   slug: open-itsacheckmate-orders-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/itsacheckmate/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/agentic-access/itsacheckmate-agentic-access.yml
+  href: https://artifacts.apis.io/itsacheckmate/agentic-access/itsacheckmate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/itsacheckmate-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/security/itsacheckmate-domain-security.yml
+  href: https://artifacts.apis.io/itsacheckmate/security/itsacheckmate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/itsacheckmate-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/authentication/itsacheckmate-authentication.yml
+  href: https://artifacts.apis.io/itsacheckmate/authentication/itsacheckmate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/itsacheckmate-authentication.yml
@@ -134,32 +137,32 @@ common:
   type: LlmsText
   url: https://openapi-itsacheckmate.readme.io/llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/rules/itsacheckmate-spectral-rules.yml
+  href: https://artifacts.apis.io/itsacheckmate/rules/itsacheckmate-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/itsacheckmate-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/vocabulary/itsacheckmate-vocabulary.yml
+  href: https://artifacts.apis.io/itsacheckmate/vocabulary/itsacheckmate-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/itsacheckmate-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/json-ld/itsacheckmate-context.jsonld
+  href: https://artifacts.apis.io/itsacheckmate/json-ld/itsacheckmate-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/itsacheckmate-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/plans/itsacheckmate-plans-pricing.yml
+  href: https://artifacts.apis.io/itsacheckmate/plans/itsacheckmate-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/itsacheckmate-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/rate-limits/itsacheckmate-rate-limits.yml
+  href: https://artifacts.apis.io/itsacheckmate/rate-limits/itsacheckmate-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/itsacheckmate-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/finops/itsacheckmate-finops.yml
+  href: https://artifacts.apis.io/itsacheckmate/finops/itsacheckmate-finops.yml
   title: ''
   type: FinOps
   url: finops/itsacheckmate-finops.yml
@@ -319,12 +322,12 @@ overview: 'ItsaCheckmate is listed with 4 APIs on the [APIs.io](https://apis.io/
   The ItsaCheckmate catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ItsaCheckmate''s developer surface includes authentication, documentation, API reference, pricing, support, engineering blog, and 11 more developer resources.'
+  ItsaCheckmate''s developer surface includes authentication, documentation, API reference, pricing, support, engineering blog, and 12 more developer resources.'
 plans:
 - name: Itsacheckmate Plans Pricing
   plan_count: 3
   slug: itsacheckmate-plans-pricing
-random_paper: 2
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Itsacheckmate Rate Limits
@@ -355,7 +358,7 @@ rules:
   slug: itsacheckmate-spectral-rules
 score:
   band: thin
-  composite: 32.3
+  composite: 33.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 66.0
@@ -363,15 +366,15 @@ score:
     catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 22.3
-    developer_ergonomics: 40.5
+    developer_ergonomics: 52.4
     discoverability: 78.6
-    operational_transparency: 11.8
-  previous_composite: 40.6
+    operational_transparency: 15.8
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -385,13 +388,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/screenshots/itsacheckmate-2026-06-20T183633.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/itsacheckmate/itsacheckmate-2026-06-20T183633.png
 security:
 - kind: authentication
   name: Itsacheckmate Authentication

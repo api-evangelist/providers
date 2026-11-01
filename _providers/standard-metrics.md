@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.9
-  scored_at: '2026-10-17'
+  score: 48.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -114,11 +116,8 @@ apis:
   description: The whoami API from Standard Metrics — 1 operation(s) for whoami.
   name: Standard Metrics Whoami API
   slug: standard-metrics-whoami-api
-artifact_total: 36
+artifact_total: 38
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OAuth Token budgets API
   slug: open-standard-metrics-budgets-api
@@ -162,12 +161,17 @@ collections:
   name: OAuth Token budgets whoami API
   slug: open-standard-metrics-whoami-api
 common:
+- group: other
+  href: https://artifacts.apis.io/standard-metrics/capabilities/standard-metrics-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/standard-metrics-capability-edges.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://standardmetrics.io/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/overlays/standard-metrics-auth-overlay.yaml
+  href: https://artifacts.apis.io/standard-metrics/overlays/standard-metrics-auth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/standard-metrics-auth-overlay.yaml
@@ -216,62 +220,62 @@ common:
   type: ChangeLog
   url: https://docs.standardmetrics.io/changelog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/authentication/standard-metrics-authentication.yml
+  href: https://artifacts.apis.io/standard-metrics/authentication/standard-metrics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/standard-metrics-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/scopes/standard-metrics-scopes.yml
+  href: https://artifacts.apis.io/standard-metrics/scopes/standard-metrics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/standard-metrics-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/mcp/standard-metrics-mcp.yml
+  href: https://artifacts.apis.io/standard-metrics/mcp/standard-metrics-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/standard-metrics-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/llms/standard-metrics-llms.txt
+  href: https://artifacts.apis.io/standard-metrics/llms/standard-metrics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/standard-metrics-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/well-known/standard-metrics-well-known.yml
+  href: https://artifacts.apis.io/standard-metrics/well-known/standard-metrics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/standard-metrics-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/errors/standard-metrics-problem-types.yml
+  href: https://artifacts.apis.io/standard-metrics/errors/standard-metrics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/standard-metrics-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/lifecycle/standard-metrics-lifecycle.yml
+  href: https://artifacts.apis.io/standard-metrics/lifecycle/standard-metrics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/standard-metrics-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/lifecycle/standard-metrics-lifecycle.yml
+  href: https://artifacts.apis.io/standard-metrics/lifecycle/standard-metrics-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/standard-metrics-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/conventions/standard-metrics-conventions.yml
+  href: https://artifacts.apis.io/standard-metrics/conventions/standard-metrics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/standard-metrics-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/rate-limits/standard-metrics-rate-limits.yml
+  href: https://artifacts.apis.io/standard-metrics/rate-limits/standard-metrics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/standard-metrics-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/changelog/standard-metrics-changelog.yml
+  href: https://artifacts.apis.io/standard-metrics/changelog/standard-metrics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/standard-metrics-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/conformance/standard-metrics-conformance.yml
+  href: https://artifacts.apis.io/standard-metrics/conformance/standard-metrics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/standard-metrics-conformance.yml
@@ -280,27 +284,27 @@ common:
   type: Compliance
   url: https://standardmetrics.io/security/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/data-model/standard-metrics-data-model.yml
+  href: https://artifacts.apis.io/standard-metrics/data-model/standard-metrics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/standard-metrics-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/standard-metrics/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/agentic-access/standard-metrics-agentic-access.yml
+  href: https://artifacts.apis.io/standard-metrics/agentic-access/standard-metrics-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/standard-metrics-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/security/standard-metrics-trust-center.yml
+  href: https://artifacts.apis.io/standard-metrics/security/standard-metrics-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/standard-metrics-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/security/standard-metrics-domain-security.yml
+  href: https://artifacts.apis.io/standard-metrics/security/standard-metrics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/standard-metrics-domain-security.yml
@@ -319,8 +323,8 @@ network: true
 overview: 'Standard Metrics publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Budgets API, Cap Table API, Companies API, and 11 more. Tagged areas include Company, Venture Capital, Private Equity, Portfolio Management, and Financial Data.
 
 
-  Standard Metrics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 24 more developer resources.'
-random_paper: 3
+  Standard Metrics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 25 more developer resources.'
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Standard Metrics Rate Limits
@@ -331,24 +335,24 @@ scopes:
   slug: standard-metrics-scopes
   summary_line: 3 scopes
 score:
-  band: strong
-  composite: 59.0
+  band: developing
+  composite: 52.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 48.8
     developer_ergonomics: 58.9
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 44.7
-  previous_composite: 58.9
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -369,13 +373,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/screenshots/standard-metrics-2026-08-17T082103.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/standard-metrics/standard-metrics-2026-08-17T082103.png
 security:
 - kind: authentication
   name: Standard Metrics Authentication
@@ -389,6 +394,14 @@ security:
   name: Standard Metrics Trust Center
   slug: standard-metrics-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 3
+skills:
+- name: Pull portfolio company metrics
+  slug: standard-metrics-pull-portfolio-metrics
+- name: Read a company cap table
+  slug: standard-metrics-read-cap-table
+- name: Write metrics for a company
+  slug: standard-metrics-write-metrics
 slug: standard-metrics
 tags:
 - Company

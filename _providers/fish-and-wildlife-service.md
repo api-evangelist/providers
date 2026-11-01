@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Environmental Conservation Online System (ECOS) is the USFWS portal for threatened and endangered species data, critical habitat designations, recovery plans, and Section 7 consultations. ECOS exp
@@ -45,17 +47,17 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fish-and-wildlife-service/refs/heads/main/plans/fish-and-wildlife-service-plans-pricing.yml
+  href: https://artifacts.apis.io/fish-and-wildlife-service/plans/fish-and-wildlife-service-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fish-and-wildlife-service-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fish-and-wildlife-service/refs/heads/main/rate-limits/fish-and-wildlife-service-rate-limits.yml
+  href: https://artifacts.apis.io/fish-and-wildlife-service/rate-limits/fish-and-wildlife-service-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fish-and-wildlife-service-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fish-and-wildlife-service/refs/heads/main/finops/fish-and-wildlife-service-finops.yml
+  href: https://artifacts.apis.io/fish-and-wildlife-service/finops/fish-and-wildlife-service-finops.yml
   title: ''
   type: FinOps
   url: finops/fish-and-wildlife-service-finops.yml
@@ -68,7 +70,7 @@ common:
   type: BlogRSS
   url: https://www.fws.gov/news/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fish-and-wildlife-service/refs/heads/main/security/fish-and-wildlife-service-domain-security.yml
+  href: https://artifacts.apis.io/fish-and-wildlife-service/security/fish-and-wildlife-service-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fish-and-wildlife-service-domain-security.yml
@@ -106,7 +108,7 @@ finops:
 - has_sources: false
   method: generated
   name: Fish And Wildlife Service Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: fish-and-wildlife-service-finops
   template: true
@@ -124,14 +126,14 @@ plans:
 - name: Fish And Wildlife Service Plans Pricing
   plan_count: 3
   slug: fish-and-wildlife-service-plans-pricing
-random_paper: 5
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Fish And Wildlife Service Rate Limits
   slug: fish-and-wildlife-service-rate-limits
 score:
   band: minimal
-  composite: 9.9
+  composite: 10.3
   coverage:
     artifact_dirs: 7
     catalog_earned: 38.0
@@ -139,34 +141,34 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 57.1
-    operational_transparency: 10.5
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 11.1
+  previous_composite: 10.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fish-and-wildlife-service/refs/heads/main/screenshots/fish-and-wildlife-service-2026-06-20T181254.png
+screenshot: https://apis.io/screenshots/fish-and-wildlife-service/fish-and-wildlife-service-2026-06-20T181254.png
 security:
 - kind: domain-security
   name: Fish And Wildlife Service Domain Security

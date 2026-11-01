@@ -14,26 +14,28 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bluechipart/refs/heads/main/hosts/bluechipart-hosts.yml
+  href: https://artifacts.apis.io/bluechipart/hosts/bluechipart-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bluechipart-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bluechipart/refs/heads/main/security/bluechipart-domain-security.yml
+  href: https://artifacts.apis.io/bluechipart/security/bluechipart-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bluechipart-domain-security.yml
@@ -65,7 +67,7 @@ overview: 'Bluechipart is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Bluechipart''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 5
+random_paper: 19
 score:
   band: minimal
   composite: 5.3
@@ -93,8 +95,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

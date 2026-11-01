@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webloyalty/refs/heads/main/security/webloyalty-domain-security.yml
+  href: https://artifacts.apis.io/webloyalty/security/webloyalty-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/webloyalty-domain-security.yml
@@ -66,62 +68,62 @@ common:
   type: BlogRSS
   url: https://webloyalty.co.uk/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webloyalty/refs/heads/main/mcp/webloyalty-mcp.yml
+  href: https://artifacts.apis.io/webloyalty/mcp/webloyalty-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/webloyalty-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webloyalty/refs/heads/main/well-known/webloyalty-well-known.yml
+  href: https://artifacts.apis.io/webloyalty/well-known/webloyalty-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/webloyalty-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webloyalty/refs/heads/main/authentication/webloyalty-authentication.yml
+  href: https://artifacts.apis.io/webloyalty/authentication/webloyalty-authentication.yml
   title: ''
   type: Authentication
   url: authentication/webloyalty-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webloyalty/refs/heads/main/scopes/webloyalty-scopes.yml
+  href: https://artifacts.apis.io/webloyalty/scopes/webloyalty-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/webloyalty-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webloyalty/refs/heads/main/conformance/webloyalty-conformance.yml
+  href: https://artifacts.apis.io/webloyalty/conformance/webloyalty-conformance.yml
   title: ''
   type: Conformance
   url: conformance/webloyalty-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/webloyalty/refs/heads/main/packages/webloyalty-packages.yml
+  href: https://artifacts.apis.io/webloyalty/packages/webloyalty-packages.yml
   title: ''
   type: Packages
   url: packages/webloyalty-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/webloyalty/refs/heads/main/packages/webloyalty-packages.yml
+  href: https://artifacts.apis.io/webloyalty/packages/webloyalty-packages.yml
   title: ''
   type: SDKs
   url: packages/webloyalty-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webloyalty/refs/heads/main/components/webloyalty-components.yml
+  href: https://artifacts.apis.io/webloyalty/components/webloyalty-components.yml
   title: ''
   type: Components
   url: components/webloyalty-components.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/webloyalty/refs/heads/main/changelog/webloyalty-changelog.yml
+  href: https://artifacts.apis.io/webloyalty/changelog/webloyalty-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/webloyalty-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/webloyalty/refs/heads/main/plans/webloyalty-plans-pricing.yml
+  href: https://artifacts.apis.io/webloyalty/plans/webloyalty-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/webloyalty-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/webloyalty/refs/heads/main/rate-limits/webloyalty-rate-limits.yml
+  href: https://artifacts.apis.io/webloyalty/rate-limits/webloyalty-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/webloyalty-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webloyalty/refs/heads/main/llms/webloyalty-llms.txt
+  href: https://artifacts.apis.io/webloyalty/llms/webloyalty-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/webloyalty-llms.txt
@@ -146,7 +148,7 @@ plans:
 - name: Webloyalty Plans Pricing
   plan_count: 0
   slug: webloyalty-plans-pricing
-random_paper: 0
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Webloyalty Rate Limits
@@ -158,7 +160,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: emerging
-  composite: 21.7
+  composite: 21.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 27.0
@@ -172,9 +174,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 51.7
+    discoverability: 48.3
     operational_transparency: 15.8
-  previous_composite: 21.7
+  previous_composite: 21.4
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -184,14 +186,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/webloyalty/refs/heads/main/screenshots/webloyalty-2026-09-02T170530.png
+screenshot: https://apis.io/screenshots/webloyalty/webloyalty-2026-09-02T170530.png
 security:
 - kind: authentication
   name: Webloyalty Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
+  score: 19.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://app.truvideo.com
@@ -93,11 +95,8 @@ apis:
   description: The Videos API from TruVideo — 3 operation(s) for videos.
   name: TruVideo Videos API
   slug: truvideo-videos-api
-artifact_total: 25
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TruVideo Platform Authentication API
   slug: open-truvideo-authentication-api
@@ -141,72 +140,72 @@ common:
   type: Website
   url: https://truvideo.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/truvideo/refs/heads/main/security/truvideo-domain-security.yml
+  href: https://artifacts.apis.io/truvideo/security/truvideo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/truvideo-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/truvideo/refs/heads/main/packages/truvideo-packages.yml
+  href: https://artifacts.apis.io/truvideo/packages/truvideo-packages.yml
   title: ''
   type: SDKs
   url: packages/truvideo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/truvideo/refs/heads/main/packages/truvideo-packages.yml
+  href: https://artifacts.apis.io/truvideo/packages/truvideo-packages.yml
   title: ''
   type: Packages
   url: packages/truvideo-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/truvideo/refs/heads/main/authentication/truvideo-authentication.yml
+  href: https://artifacts.apis.io/truvideo/authentication/truvideo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/truvideo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truvideo/refs/heads/main/conventions/truvideo-conventions.yml
+  href: https://artifacts.apis.io/truvideo/conventions/truvideo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/truvideo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truvideo/refs/heads/main/lifecycle/truvideo-lifecycle.yml
+  href: https://artifacts.apis.io/truvideo/lifecycle/truvideo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/truvideo-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/truvideo/refs/heads/main/sandbox/truvideo-sandbox.yml
+  href: https://artifacts.apis.io/truvideo/sandbox/truvideo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/truvideo-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truvideo/refs/heads/main/conformance/truvideo-conformance.yml
+  href: https://artifacts.apis.io/truvideo/conformance/truvideo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/truvideo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truvideo/refs/heads/main/data-model/truvideo-data-model.yml
+  href: https://artifacts.apis.io/truvideo/data-model/truvideo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/truvideo-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/truvideo/refs/heads/main/overlays/truvideo-openapi-overlay.yaml
+  href: https://artifacts.apis.io/truvideo/overlays/truvideo-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/truvideo-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truvideo/refs/heads/main/well-known/truvideo-well-known.yml
+  href: https://artifacts.apis.io/truvideo/well-known/truvideo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/truvideo-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truvideo/refs/heads/main/mcp/truvideo-mcp.yml
+  href: https://artifacts.apis.io/truvideo/mcp/truvideo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/truvideo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truvideo/refs/heads/main/llms/truvideo-llms.txt
+  href: https://artifacts.apis.io/truvideo/llms/truvideo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/truvideo-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truvideo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/truvideo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -254,10 +253,10 @@ overview: 'TruVideo publishes 11 API contracts indexed on the [APIs.io](https://
 
 
   TruVideo''s developer surface includes engineering blog, authentication, sandbox, documentation, pricing, support, and 18 more developer resources.'
-random_paper: 2
+random_paper: 18
 score:
   band: thin
-  composite: 37.0
+  composite: 27.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -265,15 +264,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 46.5
+    contract_quality: 0.0
     developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 7.9
-  previous_composite: 36.4
+    discoverability: 66.1
+    operational_transparency: 10.5
+  previous_composite: 27.0
   provenance:
     conformance: derived
     contracts:
@@ -289,13 +288,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/truvideo/refs/heads/main/screenshots/truvideo-2026-09-02T164435.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/truvideo/truvideo-2026-09-02T164435.png
 security:
 - kind: authentication
   name: Truvideo Authentication
@@ -305,6 +305,14 @@ security:
   name: Truvideo Domain Security
   slug: truvideo-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Triage and reply to customer conversations
+  slug: truvideo-conversation-triage
+- name: Look up and update a repair order
+  slug: truvideo-order-lookup
+- name: Send a repair-order video to a customer
+  slug: truvideo-repair-order-video
 slug: truvideo
 tags:
 - Company

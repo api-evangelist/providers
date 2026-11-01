@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Daily Journal of the United States Government
@@ -41,12 +43,12 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/federal-register/refs/heads/main/security/federal-register-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/federal-register/security/federal-register-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/federal-register-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/federal-register/refs/heads/main/security/federal-register-domain-security.yml
+  href: https://artifacts.apis.io/federal-register/security/federal-register-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/federal-register-domain-security.yml
@@ -67,10 +69,10 @@ name: Federal Register
 nav: Providers
 network: true
 overview: Federal Register is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 9
+random_paper: 5
 score:
   band: minimal
-  composite: 4.4
+  composite: 7.7
   coverage:
     artifact_dirs: 3
     catalog_earned: 22.0
@@ -83,24 +85,24 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 9.5
     discoverability: 46.4
-    operational_transparency: 0.0
-  previous_composite: 4.4
+    operational_transparency: 10.5
+  previous_composite: 7.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/federal-register/refs/heads/main/screenshots/federal-register-2026-06-20T181127.png
+screenshot: https://apis.io/screenshots/federal-register/federal-register-2026-06-20T181127.png
 security:
 - kind: domain-security
   name: Federal Register Domain Security

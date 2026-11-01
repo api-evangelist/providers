@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Public Access to Court Electronic Records (PACER) provides online access to U.S. Federal Court case and docket information from Federal Courts including the U.S. Court of Appeals for the Federal Circu
@@ -48,22 +50,22 @@ apis:
 artifact_total: 32
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/us-court-of-appeals-for-the-federal-circuit/refs/heads/main/plans/us-court-of-appeals-for-the-federal-circuit-plans-pricing.yml
+  href: https://artifacts.apis.io/us-court-of-appeals-for-the-federal-circuit/plans/us-court-of-appeals-for-the-federal-circuit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/us-court-of-appeals-for-the-federal-circuit-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/us-court-of-appeals-for-the-federal-circuit/refs/heads/main/rate-limits/us-court-of-appeals-for-the-federal-circuit-rate-limits.yml
+  href: https://artifacts.apis.io/us-court-of-appeals-for-the-federal-circuit/rate-limits/us-court-of-appeals-for-the-federal-circuit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/us-court-of-appeals-for-the-federal-circuit-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/us-court-of-appeals-for-the-federal-circuit/refs/heads/main/finops/us-court-of-appeals-for-the-federal-circuit-finops.yml
+  href: https://artifacts.apis.io/us-court-of-appeals-for-the-federal-circuit/finops/us-court-of-appeals-for-the-federal-circuit-finops.yml
   title: ''
   type: FinOps
   url: finops/us-court-of-appeals-for-the-federal-circuit-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/us-court-of-appeals-for-the-federal-circuit/refs/heads/main/security/us-court-of-appeals-for-the-federal-circuit-domain-security.yml
+  href: https://artifacts.apis.io/us-court-of-appeals-for-the-federal-circuit/security/us-court-of-appeals-for-the-federal-circuit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/us-court-of-appeals-for-the-federal-circuit-domain-security.yml
@@ -140,7 +142,7 @@ finops:
 - has_sources: false
   method: generated
   name: Us Court Of Appeals For The Federal Circuit Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: us-court-of-appeals-for-the-federal-circuit-finops
   template: true
@@ -193,7 +195,7 @@ plans:
 - name: Us Court Of Appeals For The Federal Circuit Plans Pricing
   plan_count: 3
   slug: us-court-of-appeals-for-the-federal-circuit-plans-pricing
-random_paper: 5
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Us Court Of Appeals For The Federal Circuit Rate Limits
@@ -220,7 +222,7 @@ score:
     catalog_gap: 46.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
@@ -233,21 +235,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 25.8
+  previous_composite: 24.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/us-court-of-appeals-for-the-federal-circuit/refs/heads/main/screenshots/us-court-of-appeals-for-the-federal-circuit-2026-06-20T200611.png
+screenshot: https://apis.io/screenshots/us-court-of-appeals-for-the-federal-circuit/us-court-of-appeals-for-the-federal-circuit-2026-06-20T200611.png
 security:
 - kind: domain-security
   name: Us Court Of Appeals For The Federal Circuit Domain Security

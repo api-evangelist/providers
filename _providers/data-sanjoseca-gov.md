@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: CKAN Action API for City of San Jose, a consistent JSON-over-HTTP interface over a catalog of 170 datasets. Standard actions include package_search, package_show, package_list, organization_list, grou
@@ -42,7 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/data-sanjoseca-gov/refs/heads/main/security/data-sanjoseca-gov-domain-security.yml
+  href: https://artifacts.apis.io/data-sanjoseca-gov/security/data-sanjoseca-gov-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/data-sanjoseca-gov-domain-security.yml
@@ -55,22 +57,22 @@ common:
   type: Documentation
   url: https://docs.ckan.org/en/latest/api/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/data-sanjoseca-gov/refs/heads/main/plans/data-sanjoseca-gov-plans-pricing.yml
+  href: https://artifacts.apis.io/data-sanjoseca-gov/plans/data-sanjoseca-gov-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/data-sanjoseca-gov-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/data-sanjoseca-gov/refs/heads/main/rate-limits/data-sanjoseca-gov-rate-limits.yml
+  href: https://artifacts.apis.io/data-sanjoseca-gov/rate-limits/data-sanjoseca-gov-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/data-sanjoseca-gov-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/data-sanjoseca-gov/refs/heads/main/finops/data-sanjoseca-gov-finops.yml
+  href: https://artifacts.apis.io/data-sanjoseca-gov/finops/data-sanjoseca-gov-finops.yml
   title: ''
   type: FinOps
   url: finops/data-sanjoseca-gov-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/data-sanjoseca-gov/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/data-sanjoseca-gov/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -98,7 +100,7 @@ plans:
 - name: Data Sanjoseca Gov Plans Pricing
   plan_count: 1
   slug: data-sanjoseca-gov-plans-pricing
-random_paper: 1
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Data Sanjoseca Gov Rate Limits
@@ -107,13 +109,13 @@ score:
   band: minimal
   composite: 9.1
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -128,21 +130,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 15.2
+  previous_composite: 9.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/data-sanjoseca-gov/refs/heads/main/screenshots/data-sanjoseca-gov-2026-06-20T175614.png
+screenshot: https://apis.io/screenshots/data-sanjoseca-gov/data-sanjoseca-gov-2026-06-20T175614.png
 security:
 - kind: domain-security
   name: Data Sanjoseca Gov Domain Security

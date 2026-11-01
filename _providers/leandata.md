@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.4
-  scored_at: '2026-10-17'
+  score: 47.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -89,11 +91,8 @@ apis:
   description: The 🧠 Scheduling Inputs API from LeanData — 1 operation(s) for 🧠 scheduling inputs.
   name: LeanData 🧠 Scheduling Inputs API
   slug: leandata-scheduling-inputs-api
-artifact_total: 32
+artifact_total: 36
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LeanData BookIt 🗓️ Availability 🗓️ Availability 🗓️ Availability API
   slug: open-leandata-availability-api
@@ -132,17 +131,17 @@ collections:
   slug: open-leandata-scheduling-inputs-api
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/security/leandata-trust-center.yml
+  href: https://artifacts.apis.io/leandata/security/leandata-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/leandata-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/agentic-access/leandata-agentic-access.yml
+  href: https://artifacts.apis.io/leandata/agentic-access/leandata-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/leandata-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/security/leandata-domain-security.yml
+  href: https://artifacts.apis.io/leandata/security/leandata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leandata-domain-security.yml
@@ -179,17 +178,17 @@ common:
   type: Pricing
   url: https://www.leandata.com/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/plans/leandata-plans-pricing.yml
+  href: https://artifacts.apis.io/leandata/plans/leandata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/leandata-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/rate-limits/leandata-rate-limits.yml
+  href: https://artifacts.apis.io/leandata/rate-limits/leandata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/leandata-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/finops/leandata-finops.yml
+  href: https://artifacts.apis.io/leandata/finops/leandata-finops.yml
   title: ''
   type: FinOps
   url: finops/leandata-finops.yml
@@ -258,7 +257,7 @@ common:
   type: TrustCenter
   url: https://trust.leandata.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/security/leandata-trust-center.yml
+  href: https://artifacts.apis.io/leandata/security/leandata-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/leandata-trust-center.yml
@@ -287,7 +286,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/leandata
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/authentication/leandata-authentication.yml
+  href: https://artifacts.apis.io/leandata/authentication/leandata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/leandata-authentication.yml
@@ -320,47 +319,47 @@ common:
   type: SignUp
   url: https://www.leandata.com/demo-request/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/mcp/leandata-mcp.yml
+  href: https://artifacts.apis.io/leandata/mcp/leandata-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/leandata-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/mcp/leandata-tool-crosswalk.yml
+  href: https://artifacts.apis.io/leandata/mcp/leandata-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/leandata-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/well-known/leandata-well-known.yml
+  href: https://artifacts.apis.io/leandata/well-known/leandata-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/leandata-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/llms/leandata-llms.txt
+  href: https://artifacts.apis.io/leandata/llms/leandata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leandata-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/scopes/leandata-scopes.yml
+  href: https://artifacts.apis.io/leandata/scopes/leandata-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/leandata-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/conventions/leandata-conventions.yml
+  href: https://artifacts.apis.io/leandata/conventions/leandata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/leandata-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/errors/leandata-problem-types.yml
+  href: https://artifacts.apis.io/leandata/errors/leandata-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/leandata-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/data-model/leandata-data-model.yml
+  href: https://artifacts.apis.io/leandata/data-model/leandata-data-model.yml
   title: ''
   type: DataModel
   url: data-model/leandata-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/lifecycle/leandata-lifecycle.yml
+  href: https://artifacts.apis.io/leandata/lifecycle/leandata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/leandata-lifecycle.yml
@@ -369,12 +368,12 @@ common:
   type: StatusPage
   url: https://status.leandata.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/changelog/leandata-changelog.yml
+  href: https://artifacts.apis.io/leandata/changelog/leandata-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/leandata-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/conformance/leandata-conformance.yml
+  href: https://artifacts.apis.io/leandata/conformance/leandata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/leandata-conformance.yml
@@ -383,7 +382,7 @@ common:
   type: Compliance
   url: https://trust.leandata.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/security/leandata-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/leandata/security/leandata-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/leandata-vulnerability-disclosure.yml
@@ -392,22 +391,22 @@ common:
   type: Security
   url: https://trust.leandata.com/?itemUid=64c9680b-ef79-4c92-baa0-13b541954bef
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/packages/leandata-packages.yml
+  href: https://artifacts.apis.io/leandata/packages/leandata-packages.yml
   title: ''
   type: Packages
   url: packages/leandata-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/components/leandata-components.yml
+  href: https://artifacts.apis.io/leandata/components/leandata-components.yml
   title: ''
   type: Components
   url: components/leandata-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/leandata/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/overlays/leandata-availability-overlay.yaml
+  href: https://artifacts.apis.io/leandata/overlays/leandata-availability-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/leandata-availability-overlay.yaml
@@ -417,12 +416,12 @@ description: LeanData is a Sunnyvale, California revenue orchestration platform 
   offerings are tiered across Standard, Advanced, Premium, and Enterprise editions of Orchestration plus BookIt scheduling products and Buying Groups, with implementation services billed separately.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Leandata Finops
-  primary_unit: license
-  service_category: Sales and Marketing Software
+  primary_unit: ''
+  service_category: ''
   slug: leandata-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/leandata.png
 layout: provider
 mcp_servers:
@@ -441,7 +440,7 @@ plans:
 - name: Leandata Plans Pricing
   plan_count: 8
   slug: leandata-plans-pricing
-random_paper: 12
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Leandata Rate Limits
@@ -453,23 +452,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.7
+  composite: 62.8
   coverage:
     artifact_dirs: 26
-    catalog_earned: 63.0
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 52.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 42.3
-    developer_ergonomics: 61.3
-    discoverability: 80.8
-    operational_transparency: 50.0
-  previous_composite: 61.7
+    developer_ergonomics: 63.7
+    discoverability: 71.7
+    operational_transparency: 68.4
+  previous_composite: 64.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -492,13 +491,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/screenshots/leandata-2026-06-20T184358.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/leandata/leandata-2026-06-20T184358.png
 security:
 - kind: authentication
   name: Leandata Authentication
@@ -516,6 +516,18 @@ security:
   name: Leandata Trust Center
   slug: leandata-trust-center
   summary_line: SOC 2 Type 2, GDPR, CCPA
+skill_count: 5
+skills:
+- name: Book a meeting with LeanData BookIt
+  slug: leandata-book-a-meeting
+- name: Connect an AI client to the LeanData BookIt MCP server
+  slug: leandata-connect-bookit-mcp
+- name: Retrieve, reschedule and cancel a LeanData BookIt meeting
+  slug: leandata-manage-a-meeting
+- name: Match a lead, contact or account with the LeanData Matching API
+  slug: leandata-match-lead-to-account
+- name: Run LeanData one-time routing against a Salesforce object set
+  slug: leandata-run-one-time-routing
 slug: leandata
 tags:
 - Revenue Operations

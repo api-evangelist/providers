@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 255
   slug: front-agentic-access
   summary_line: 255 operations · 132 acting
-api_count: 4
+api_count: 2
 apis:
 - description: Build embedded UI applications that render inside the Front sidebar to surface third-party context alongside the conversation.
   name: Front Plugin SDK
@@ -234,11 +236,8 @@ apis:
   description: The Views API from Front — 4 operation(s) for views.
   name: Front Views API
   slug: front-views-api
-artifact_total: 98
+artifact_total: 97
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Channel Accounts API
   slug: open-front-accounts-api
@@ -355,37 +354,37 @@ collections:
   slug: open-front-views-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/vendor-facets/front-vendor-facets.yml
+  href: https://artifacts.apis.io/front/vendor-facets/front-vendor-facets.yml
   title: ''
   type: VendorFacets
   url: vendor-facets/front-vendor-facets.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/capabilities/front-capability-edges.yml
+  href: https://artifacts.apis.io/front/capabilities/front-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/front-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/agentic-access/front-agentic-access.yml
+  href: https://artifacts.apis.io/front/agentic-access/front-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/front-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/security/front-trust-center.yml
+  href: https://artifacts.apis.io/front/security/front-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/front-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/security/front-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/front/security/front-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/front-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/security/front-domain-security.yml
+  href: https://artifacts.apis.io/front/security/front-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/front-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/authentication/front-authentication.yml
+  href: https://artifacts.apis.io/front/authentication/front-authentication.yml
   title: ''
   type: Authentication
   url: authentication/front-authentication.yml
@@ -450,17 +449,17 @@ common:
   type: Webhooks
   url: https://dev.frontapp.com/reference/webhooks
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/plans/front-plans-pricing.yml
+  href: https://artifacts.apis.io/front/plans/front-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/front-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/rate-limits/front-rate-limits.yml
+  href: https://artifacts.apis.io/front/rate-limits/front-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/front-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/finops/front-finops.yml
+  href: https://artifacts.apis.io/front/finops/front-finops.yml
   title: ''
   type: FinOps
   url: finops/front-finops.yml
@@ -484,10 +483,10 @@ features:
 - HMAC-signed webhook deliveries
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Front Finops
-  primary_unit: ''
-  service_category: Customer Support
+  primary_unit: seat
+  service_category: ''
   slug: front-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/front.png
@@ -507,14 +506,14 @@ plans:
 - name: Front Price Estimates
   plan_count: 0
   slug: front-price-estimates
-random_paper: 3
+random_paper: 1
 rate_limits:
 - limit_count: 11
   name: Front Rate Limits
   slug: front-rate-limits
 score:
-  band: developing
-  composite: 48.9
+  band: strong
+  composite: 54.4
   coverage:
     artifact_dirs: 15
     catalog_earned: 54.0
@@ -522,15 +521,15 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 1.0
   facets:
-    access_clarity: 67.1
+    access_clarity: 92.1
     contract_governance: 0.0
-    contract_quality: 50.6
-    developer_ergonomics: 29.8
-    discoverability: 60.7
-    operational_transparency: 53.9
-  previous_composite: 49.9
+    contract_quality: 47.2
+    developer_ergonomics: 35.7
+    discoverability: 55.4
+    operational_transparency: 71.1
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     contracts:
@@ -543,14 +542,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 30.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/screenshots/front-2026-06-20T181553.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/front/front-2026-06-20T181553.png
 security:
 - kind: authentication
   name: Front Authentication

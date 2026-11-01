@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.7
-  scored_at: '2026-10-17'
+  score: 27.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -84,15 +86,12 @@ apis:
   description: Stream voice responses and synthesize speech as real-time PCM audio.
   name: Delphi Voice API
   slug: delphi-voice-api
-artifact_total: 22
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Delphi Webhooks
   slug: delphi-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Delphi Audience API
   slug: open-delphi-audience-api
@@ -119,7 +118,7 @@ collections:
   slug: open-delphi-voice-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/plans/delphi-plans-pricing.yml
+  href: https://artifacts.apis.io/delphi/plans/delphi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/delphi-plans-pricing.yml
@@ -144,22 +143,22 @@ common:
   type: GettingStarted
   url: https://docs.delphi.ai/advanced/actions/api-immortal-only
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/authentication/delphi-authentication.yml
+  href: https://artifacts.apis.io/delphi/authentication/delphi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/delphi-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/conventions/delphi-conventions.yml
+  href: https://artifacts.apis.io/delphi/conventions/delphi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/delphi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/errors/delphi-problem-types.yml
+  href: https://artifacts.apis.io/delphi/errors/delphi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/delphi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/lifecycle/delphi-lifecycle.yml
+  href: https://artifacts.apis.io/delphi/lifecycle/delphi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/delphi-lifecycle.yml
@@ -168,57 +167,57 @@ common:
   type: StatusPage
   url: https://status.delphi.ai
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/changelog/delphi-changelog.yml
+  href: https://artifacts.apis.io/delphi/changelog/delphi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/delphi-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/conformance/delphi-conformance.yml
+  href: https://artifacts.apis.io/delphi/conformance/delphi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/delphi-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/security/delphi-domain-security.yml
+  href: https://artifacts.apis.io/delphi/security/delphi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/delphi-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/agentic-access/delphi-agentic-access.yml
+  href: https://artifacts.apis.io/delphi/agentic-access/delphi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/delphi-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/mcp/delphi-mcp.yml
+  href: https://artifacts.apis.io/delphi/mcp/delphi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/delphi-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/asyncapi/delphi-webhooks.yml
+  href: https://artifacts.apis.io/delphi/asyncapi/delphi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/delphi-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/llms/delphi-llms.txt
+  href: https://artifacts.apis.io/delphi/llms/delphi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/delphi-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/data-model/delphi-data-model.yml
+  href: https://artifacts.apis.io/delphi/data-model/delphi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/delphi-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/components/delphi-components.yml
+  href: https://artifacts.apis.io/delphi/components/delphi-components.yml
   title: ''
   type: Components
   url: components/delphi-components.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/overlays/delphi-overlay.yaml
+  href: https://artifacts.apis.io/delphi/overlays/delphi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/delphi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/delphi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -252,6 +251,14 @@ common:
   url: https://delphi.ai/privacy
 created: '2026-07-17'
 description: 'Delphi is an AI platform for building "Digital Minds" — hyper-realistic AI clones trained exclusively on a person''s own content (podcasts, videos, blogs, long-form writing, live feeds) that match how they speak, write, and think. Audiences can call, text, or video-chat a clone 24/7 for Q&A, coaching, mentorship, and engagement, with omnichannel reach across websites, SMS, Telegram, Slack, and learning platforms like Kajabi and Thinkific. Delphi''s v3 REST API (Immortal plan) lets developers embed a Digital Mind directly in their own app: create conversations, stream text and voice responses, manage the audience and its contextual memory, organize contacts with tags, search the clone''s knowledge base for RAG, track per-user usage, and receive events via signed webhooks. Delphi is backed by Menlo Ventures.'
+finops:
+- has_sources: true
+  method: derived
+  name: Delphi Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: delphi-finops
+  template: false
 image: https://avatars.githubusercontent.com/u/120126721?v=4
 layout: provider
 modified: '2026-07-18'
@@ -269,26 +276,29 @@ plans:
 - name: Delphi Plans Pricing
   plan_count: 4
   slug: delphi-plans-pricing
-random_paper: 14
+- name: Delphi Price Estimates
+  plan_count: 0
+  slug: delphi-price-estimates
+random_paper: 6
 score:
   band: developing
-  composite: 44.7
+  composite: 47.9
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.0
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 22.5
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 38.7
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -305,13 +315,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/screenshots/delphi-2026-07-25T211653.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/delphi/delphi-2026-07-25T211653.png
 security:
 - kind: authentication
   name: Delphi Authentication
@@ -321,6 +332,14 @@ security:
   name: Delphi Domain Security
   slug: delphi-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Converse with a Delphi Digital Mind
+  slug: delphi-converse-with-clone
+- name: Manage a Delphi audience and its memory
+  slug: delphi-manage-audience
+- name: Search a Delphi digital mind for RAG
+  slug: delphi-search-knowledge
 slug: delphi
 tags:
 - Company

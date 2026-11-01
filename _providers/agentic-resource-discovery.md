@@ -16,15 +16,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 16.0
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: 'The publishing half of the standard — the JSON manifest a domain serves at /.well-known/ai-catalog.json declaring who the host is and what agentic resources it offers, each entry typed by media type, '
   name: AI Catalog Manifest
@@ -85,12 +87,12 @@ common:
   type: Participants
   url: https://agenticresourcediscovery.org/contributors/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/governance/agentic-resource-discovery-governance.yml
+  href: https://artifacts.apis.io/agentic-resource-discovery/governance/agentic-resource-discovery-governance.yml
   title: ''
   type: Governance
   url: governance/agentic-resource-discovery-governance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/conformance/agentic-resource-discovery-conformance.yml
+  href: https://artifacts.apis.io/agentic-resource-discovery/conformance/agentic-resource-discovery-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agentic-resource-discovery-conformance.yml
@@ -103,52 +105,52 @@ common:
   type: ReferenceImplementation
   url: https://agenticresourcediscovery.org/ref_implementations/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/adoption/agentic-resource-discovery-adoption.yml
+  href: https://artifacts.apis.io/agentic-resource-discovery/adoption/agentic-resource-discovery-adoption.yml
   title: ''
   type: Adopters
   url: adoption/agentic-resource-discovery-adoption.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/adoption/agentic-resource-discovery-adoption.yml
+  href: https://artifacts.apis.io/agentic-resource-discovery/adoption/agentic-resource-discovery-adoption.yml
   title: ''
   type: Adoption
   url: adoption/agentic-resource-discovery-adoption.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/people/agentic-resource-discovery-people.yml
+  href: https://artifacts.apis.io/agentic-resource-discovery/people/agentic-resource-discovery-people.yml
   title: ''
   type: People
   url: people/agentic-resource-discovery-people.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/companies/agentic-resource-discovery-companies.yml
+  href: https://artifacts.apis.io/agentic-resource-discovery/companies/agentic-resource-discovery-companies.yml
   title: ''
   type: Companies
   url: companies/agentic-resource-discovery-companies.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/leads/agentic-resource-discovery-new-company-leads.yml
+  href: https://artifacts.apis.io/agentic-resource-discovery/leads/agentic-resource-discovery-new-company-leads.yml
   title: ''
   type: Leads
   url: leads/agentic-resource-discovery-new-company-leads.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/repositories/agentic-resource-discovery-repositories.yml
+  href: https://artifacts.apis.io/agentic-resource-discovery/repositories/agentic-resource-discovery-repositories.yml
   title: ''
   type: Repositories
   url: repositories/agentic-resource-discovery-repositories.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/releases/agentic-resource-discovery-releases.yml
+  href: https://artifacts.apis.io/agentic-resource-discovery/releases/agentic-resource-discovery-releases.yml
   title: ''
   type: Releases
   url: releases/agentic-resource-discovery-releases.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/contributors/agentic-resource-discovery-contributors.yml
+  href: https://artifacts.apis.io/agentic-resource-discovery/contributors/agentic-resource-discovery-contributors.yml
   title: ''
   type: Contributors
   url: contributors/agentic-resource-discovery-contributors.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/working-groups/agentic-resource-discovery-working-groups.yml
+  href: https://artifacts.apis.io/agentic-resource-discovery/working-groups/agentic-resource-discovery-working-groups.yml
   title: ''
   type: WorkingGroups
   url: working-groups/agentic-resource-discovery-working-groups.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/taxonomy/agentic-resource-discovery-taxonomy.yml
+  href: https://artifacts.apis.io/agentic-resource-discovery/taxonomy/agentic-resource-discovery-taxonomy.yml
   title: ''
   type: Taxonomy
   url: taxonomy/agentic-resource-discovery-taxonomy.yml
@@ -181,10 +183,10 @@ overview: 'Agentic Resource Discovery (ARD) publishes 4 API contracts indexed on
 
 
   Agentic Resource Discovery (ARD)''s developer surface includes FAQ, getting-started guide, and 26 more developer resources.'
-random_paper: 15
+random_paper: 13
 score:
   band: emerging
-  composite: 23.6
+  composite: 24.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.4
@@ -192,15 +194,15 @@ score:
     catalog_gap: 77.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 44.7
     developer_ergonomics: 21.4
     discoverability: 57.1
-    operational_transparency: 28.9
-  previous_composite: 23.5
+    operational_transparency: 31.6
+  previous_composite: 24.6
   provenance:
     conformance: first-party
     contracts:
@@ -214,13 +216,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/screenshots/agentic-resource-discovery-2026-08-07T161030.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/agentic-resource-discovery/agentic-resource-discovery-2026-08-07T161030.png
 slug: agentic-resource-discovery
 tags:
 - Agentic Resource Discovery

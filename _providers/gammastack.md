@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Reference page describing the third-party API integrations GammaStack provides for sports betting platforms, including betting odds, live market data, and sport fixtures.
@@ -42,22 +44,22 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gammastack/refs/heads/main/plans/gammastack-plans-pricing.yml
+  href: https://artifacts.apis.io/gammastack/plans/gammastack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gammastack-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gammastack/refs/heads/main/rate-limits/gammastack-rate-limits.yml
+  href: https://artifacts.apis.io/gammastack/rate-limits/gammastack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gammastack-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gammastack/refs/heads/main/finops/gammastack-finops.yml
+  href: https://artifacts.apis.io/gammastack/finops/gammastack-finops.yml
   title: ''
   type: FinOps
   url: finops/gammastack-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gammastack/refs/heads/main/security/gammastack-domain-security.yml
+  href: https://artifacts.apis.io/gammastack/security/gammastack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gammastack-domain-security.yml
@@ -79,7 +81,7 @@ finops:
 - has_sources: false
   method: generated
   name: Gammastack Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: gammastack-finops
   template: true
@@ -97,7 +99,7 @@ plans:
 - name: Gammastack Plans Pricing
   plan_count: 3
   slug: gammastack-plans-pricing
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Gammastack Rate Limits
@@ -112,7 +114,7 @@ score:
     catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -120,21 +122,21 @@ score:
     developer_ergonomics: 11.9
     discoverability: 48.2
     operational_transparency: 7.9
-  previous_composite: 9.9
+  previous_composite: 8.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/gammastack/refs/heads/main/screenshots/gammastack-2026-06-20T181641.png
+screenshot: https://apis.io/screenshots/gammastack/gammastack-2026-06-20T181641.png
 security:
 - kind: domain-security
   name: Gammastack Domain Security

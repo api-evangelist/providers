@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -72,11 +74,8 @@ apis:
   description: Technical documentation (docs-like-code) metadata and static content. Modeled from Backstage.
   name: Roadie TechDocs API
   slug: roadie-io-techdocs-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Roadie Catalog API
   slug: open-roadie-io-catalog-api
@@ -97,17 +96,17 @@ collections:
   slug: open-roadie-io
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/capabilities/roadie-io-capability-edges.yml
+  href: https://artifacts.apis.io/roadie-io/capabilities/roadie-io-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/roadie-io-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/agentic-access/roadie-io-agentic-access.yml
+  href: https://artifacts.apis.io/roadie-io/agentic-access/roadie-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/roadie-io-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/authentication/roadie-io-authentication.yml
+  href: https://artifacts.apis.io/roadie-io/authentication/roadie-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/roadie-io-authentication.yml
@@ -124,17 +123,17 @@ common:
   type: Documentation
   url: https://roadie.io/docs/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/plans/roadie-io-plans-pricing.yml
+  href: https://artifacts.apis.io/roadie-io/plans/roadie-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/roadie-io-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/rate-limits/roadie-io-rate-limits.yml
+  href: https://artifacts.apis.io/roadie-io/rate-limits/roadie-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/roadie-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/finops/roadie-io-finops.yml
+  href: https://artifacts.apis.io/roadie-io/finops/roadie-io-finops.yml
   title: ''
   type: FinOps
   url: finops/roadie-io-finops.yml
@@ -166,14 +165,14 @@ plans:
 - name: Roadie Io Plans Pricing
   plan_count: 3
   slug: roadie-io-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Roadie Io Rate Limits
   slug: roadie-io-rate-limits
 score:
   band: emerging
-  composite: 25.8
+  composite: 24.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 43.0
@@ -181,7 +180,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -189,7 +188,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 34.1
+  previous_composite: 24.3
   provenance:
     agentic_access: derived
     contracts:
@@ -203,13 +202,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/screenshots/roadie-io-2026-09-02T153952.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/roadie-io/roadie-io-2026-09-02T153952.png
 security:
 - kind: authentication
   name: Roadie Io Authentication

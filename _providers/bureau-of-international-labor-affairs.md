@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 12.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: ILAB's datasets are served through the U.S. Department of Labor Open Data Portal API (https://apiprod.dol.gov/v4) under the agency segment 'ilab'. The catalogue route /v4/datasets answers anonymously;
@@ -46,7 +48,7 @@ apis:
 artifact_total: 8
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/finops/bureau-of-international-labor-affairs-finops.yml
+  href: https://artifacts.apis.io/bureau-of-international-labor-affairs/finops/bureau-of-international-labor-affairs-finops.yml
   title: ''
   type: FinOps
   url: finops/bureau-of-international-labor-affairs-finops.yml
@@ -55,7 +57,7 @@ common:
   type: BlogRSS
   url: https://www.dol.gov/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/security/bureau-of-international-labor-affairs-domain-security.yml
+  href: https://artifacts.apis.io/bureau-of-international-labor-affairs/security/bureau-of-international-labor-affairs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bureau-of-international-labor-affairs-domain-security.yml
@@ -108,67 +110,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/USDepartmentofLabor
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/authentication/bureau-of-international-labor-affairs-authentication.yml
+  href: https://artifacts.apis.io/bureau-of-international-labor-affairs/authentication/bureau-of-international-labor-affairs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bureau-of-international-labor-affairs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/conventions/bureau-of-international-labor-affairs-conventions.yml
+  href: https://artifacts.apis.io/bureau-of-international-labor-affairs/conventions/bureau-of-international-labor-affairs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bureau-of-international-labor-affairs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/errors/bureau-of-international-labor-affairs-problem-types.yml
+  href: https://artifacts.apis.io/bureau-of-international-labor-affairs/errors/bureau-of-international-labor-affairs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bureau-of-international-labor-affairs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/lifecycle/bureau-of-international-labor-affairs-lifecycle.yml
+  href: https://artifacts.apis.io/bureau-of-international-labor-affairs/lifecycle/bureau-of-international-labor-affairs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bureau-of-international-labor-affairs-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/conformance/bureau-of-international-labor-affairs-conformance.yml
+  href: https://artifacts.apis.io/bureau-of-international-labor-affairs/conformance/bureau-of-international-labor-affairs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bureau-of-international-labor-affairs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/data-model/bureau-of-international-labor-affairs-data-model.yml
+  href: https://artifacts.apis.io/bureau-of-international-labor-affairs/data-model/bureau-of-international-labor-affairs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bureau-of-international-labor-affairs-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/packages/bureau-of-international-labor-affairs-packages.yml
+  href: https://artifacts.apis.io/bureau-of-international-labor-affairs/packages/bureau-of-international-labor-affairs-packages.yml
   title: ''
   type: Packages
   url: packages/bureau-of-international-labor-affairs-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/llms/bureau-of-international-labor-affairs-llms.txt
+  href: https://artifacts.apis.io/bureau-of-international-labor-affairs/llms/bureau-of-international-labor-affairs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bureau-of-international-labor-affairs-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/rate-limits/bureau-of-international-labor-affairs-rate-limits.yml
+  href: https://artifacts.apis.io/bureau-of-international-labor-affairs/rate-limits/bureau-of-international-labor-affairs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bureau-of-international-labor-affairs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/plans/bureau-of-international-labor-affairs-plans-pricing.yml
+  href: https://artifacts.apis.io/bureau-of-international-labor-affairs/plans/bureau-of-international-labor-affairs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bureau-of-international-labor-affairs-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/security/bureau-of-international-labor-affairs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bureau-of-international-labor-affairs/security/bureau-of-international-labor-affairs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bureau-of-international-labor-affairs-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/security/bureau-of-international-labor-affairs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bureau-of-international-labor-affairs/security/bureau-of-international-labor-affairs-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/bureau-of-international-labor-affairs-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/mcp/bureau-of-international-labor-affairs-mcp.yml
+  href: https://artifacts.apis.io/bureau-of-international-labor-affairs/mcp/bureau-of-international-labor-affairs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bureau-of-international-labor-affairs-mcp.yml
@@ -178,7 +180,7 @@ finops:
 - has_sources: false
   method: generated
   name: Bureau Of International Labor Affairs Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: bureau-of-international-labor-affairs-finops
   template: true
@@ -202,8 +204,8 @@ rate_limits:
   name: Bureau Of International Labor Affairs Rate Limits
   slug: bureau-of-international-labor-affairs-rate-limits
 score:
-  band: thin
-  composite: 26.3
+  band: developing
+  composite: 39.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 53.0
@@ -211,21 +213,21 @@ score:
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 55.3
     contract_governance: 18.2
     contract_quality: 6.5
-    developer_ergonomics: 11.9
-    discoverability: 73.2
-    operational_transparency: 34.2
+    developer_ergonomics: 54.8
+    discoverability: 66.1
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - global
     - north-america
-  previous_composite: 27.9
+  previous_composite: 39.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -234,15 +236,15 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 30.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/screenshots/bureau-of-international-labor-affairs-2026-06-20T173810.png
+screenshot: https://apis.io/screenshots/bureau-of-international-labor-affairs/bureau-of-international-labor-affairs-2026-06-20T173810.png
 security:
 - kind: authentication
   name: Bureau Of International Labor Affairs Authentication

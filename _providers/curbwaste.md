@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: false
     agentic_commerce: false
@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.3
-  scored_at: '2026-10-17'
+  score: 47.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Partner API for CurbWaste providing endpoints for catalog and pricing lists.
@@ -50,79 +52,84 @@ apis:
   description: The Zones API from Curbwaste — 2 operation(s) for zones.
   name: Curbwaste Zones API
   slug: curbwaste-zones-api
-artifact_total: 11
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Curbwaste Webhooks
   slug: curbwaste-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/curbwaste/capabilities/curbwaste-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/curbwaste-capability-edges.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/rules/curbwaste-rules.yml
+  href: https://artifacts.apis.io/curbwaste/rules/curbwaste-rules.yml
   title: ''
   type: Spectral
   url: rules/curbwaste-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/json-ld/curbwaste-context.jsonld
+  href: https://artifacts.apis.io/curbwaste/json-ld/curbwaste-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/curbwaste-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/vocabulary/curbwaste-vocabulary.yml
+  href: https://artifacts.apis.io/curbwaste/vocabulary/curbwaste-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/curbwaste-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/curbwaste/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/asyncapi/curbwaste-webhooks.yml
+  href: https://artifacts.apis.io/curbwaste/asyncapi/curbwaste-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/curbwaste-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/data-model/curbwaste-data-model.yml
+  href: https://artifacts.apis.io/curbwaste/data-model/curbwaste-data-model.yml
   title: ''
   type: DataModel
   url: data-model/curbwaste-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/authentication/curbwaste-authentication.yml
+  href: https://artifacts.apis.io/curbwaste/authentication/curbwaste-authentication.yml
   title: ''
   type: Authentication
   url: authentication/curbwaste-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/conformance/curbwaste-conformance.yml
+  href: https://artifacts.apis.io/curbwaste/conformance/curbwaste-conformance.yml
   title: ''
   type: Conformance
   url: conformance/curbwaste-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/llms/curbwaste-llms.txt
+  href: https://artifacts.apis.io/curbwaste/llms/curbwaste-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/curbwaste-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/a2a/curbwaste-a2a.yml
+  href: https://artifacts.apis.io/curbwaste/a2a/curbwaste-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/curbwaste-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/mcp/curbwaste-mcp.yml
+  href: https://artifacts.apis.io/curbwaste/mcp/curbwaste-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/curbwaste-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/well-known/curbwaste-well-known.yml
+  href: https://artifacts.apis.io/curbwaste/well-known/curbwaste-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/curbwaste-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/hosts/curbwaste-hosts.yml
+  href: https://artifacts.apis.io/curbwaste/hosts/curbwaste-hosts.yml
   title: ''
   type: Hosts
   url: hosts/curbwaste-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/vendors/curbwaste-vendors.yml
+  href: https://artifacts.apis.io/curbwaste/vendors/curbwaste-vendors.yml
   title: ''
   type: Vendors
   url: vendors/curbwaste-vendors.yml
@@ -155,7 +162,7 @@ common:
   type: APIReference
   url: https://docs.curbwaste.com/api-reference/catalog/list-pricelists
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/security/curbwaste-domain-security.yml
+  href: https://artifacts.apis.io/curbwaste/security/curbwaste-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/curbwaste-domain-security.yml
@@ -198,8 +205,8 @@ overview: 'Curbwaste publishes 5 API contracts indexed on the [APIs.io](https://
   The Curbwaste catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Curbwaste''s developer surface includes authentication, support, engineering blog, getting-started guide, documentation, API reference, and 18 more developer resources.'
-random_paper: 8
+  Curbwaste''s developer surface includes authentication, support, engineering blog, getting-started guide, documentation, API reference, and 19 more developer resources.'
+random_paper: 16
 rules:
 - authorship: generated
   effective_rule_count: 56
@@ -215,21 +222,23 @@ rules:
   slug: curbwaste-rules
 score:
   band: developing
-  composite: 40.7
+  composite: 40.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 48.8
     catalog_earned_first_party: 0.0
     catalog_gap: 66.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 22.0
     contract_quality: 62.4
     developer_ergonomics: 49.4
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 7.9
+  previous_composite: 40.4
   provenance:
     conformance: derived
     contracts:
@@ -245,11 +254,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Curbwaste Authentication
@@ -259,6 +270,12 @@ security:
   name: Curbwaste Domain Security
   slug: curbwaste-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: curbwaste-catalog-retrieve
+  slug: curbwaste-catalog-retrieve
+- name: curbwaste-manage-customers
+  slug: curbwaste-manage-customers
 slug: curbwaste
 tags:
 - Waste

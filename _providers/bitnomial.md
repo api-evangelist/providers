@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Public HTTPS REST API for the Bitnomial exchange — products and contract specs, orders, fills, block trades, indexes, funding rates, and market statistics. HMAC-SHA256 signed authentication; cursor pa
@@ -89,77 +91,77 @@ common:
   type: GitHubOrganization
   url: https://github.com/bitnomial
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/authentication/bitnomial-authentication.yml
+  href: https://artifacts.apis.io/bitnomial/authentication/bitnomial-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bitnomial-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/conventions/bitnomial-conventions.yml
+  href: https://artifacts.apis.io/bitnomial/conventions/bitnomial-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bitnomial-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/errors/bitnomial-problem-types.yml
+  href: https://artifacts.apis.io/bitnomial/errors/bitnomial-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bitnomial-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/lifecycle/bitnomial-lifecycle.yml
+  href: https://artifacts.apis.io/bitnomial/lifecycle/bitnomial-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bitnomial-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/data-model/bitnomial-data-model.yml
+  href: https://artifacts.apis.io/bitnomial/data-model/bitnomial-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bitnomial-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/sandbox/bitnomial-sandbox.yml
+  href: https://artifacts.apis.io/bitnomial/sandbox/bitnomial-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bitnomial-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/packages/bitnomial-packages.yml
+  href: https://artifacts.apis.io/bitnomial/packages/bitnomial-packages.yml
   title: ''
   type: Packages
   url: packages/bitnomial-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/packages/bitnomial-packages.yml
+  href: https://artifacts.apis.io/bitnomial/packages/bitnomial-packages.yml
   title: ''
   type: SDKs
   url: packages/bitnomial-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/cli/bitnomial-cli.yml
+  href: https://artifacts.apis.io/bitnomial/cli/bitnomial-cli.yml
   title: ''
   type: CLI
   url: cli/bitnomial-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/llms/bitnomial-llms.txt
+  href: https://artifacts.apis.io/bitnomial/llms/bitnomial-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bitnomial-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/mcp/bitnomial-mcp.yml
+  href: https://artifacts.apis.io/bitnomial/mcp/bitnomial-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bitnomial-mcp.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/asyncapi/bitnomial-market-data-asyncapi.yml
+  href: https://artifacts.apis.io/bitnomial/asyncapi/bitnomial-market-data-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/bitnomial-market-data-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/conformance/bitnomial-conformance.yml
+  href: https://artifacts.apis.io/bitnomial/conformance/bitnomial-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bitnomial-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/security/bitnomial-domain-security.yml
+  href: https://artifacts.apis.io/bitnomial/security/bitnomial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitnomial-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/security/bitnomial-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bitnomial/security/bitnomial-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bitnomial-vulnerability-disclosure.yml
@@ -182,10 +184,10 @@ overview: 'Bitnomial is listed with 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Bitnomial''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 18 more developer resources.'
-random_paper: 13
+random_paper: 23
 score:
   band: thin
-  composite: 39.0
+  composite: 38.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -193,14 +195,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 39.6
     developer_ergonomics: 78.6
-    discoverability: 73.2
-    operational_transparency: 28.9
+    discoverability: 66.1
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -208,7 +210,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 38.9
+  previous_composite: 38.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -218,14 +220,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/screenshots/bitnomial-2026-07-25T203158.png
+screenshot: https://apis.io/screenshots/bitnomial/bitnomial-2026-07-25T203158.png
 security:
 - kind: authentication
   name: Bitnomial Authentication

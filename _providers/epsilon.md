@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-10-17'
+  score: 31.2
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Serves brand-page content modules for retailer-hosted brand landing pages. A retailer routes /brands/{slug} on its own domain, calls POST /ads/v3/brand-pages on its assigned regional Epsilon RMN ads h
@@ -77,7 +79,7 @@ apis:
   description: The Orders API from Epsilon — 2 operation(s) for orders.
   name: Epsilon Orders API
   slug: epsilon-orders-api
-artifact_total: 15
+artifact_total: 18
 collections:
 - collection_type: open
   name: CrossSellCategory API
@@ -90,27 +92,27 @@ collections:
   slug: open-epsilon-retail-media-integration
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/capabilities/epsilon-capability-edges.yml
+  href: https://artifacts.apis.io/epsilon/capabilities/epsilon-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/epsilon-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/overlays/epsilon-retail-media-integration-overlay.yaml
+  href: https://artifacts.apis.io/epsilon/overlays/epsilon-retail-media-integration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/epsilon-retail-media-integration-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/overlays/epsilon-retail-media-filter-mapping-overlay.yaml
+  href: https://artifacts.apis.io/epsilon/overlays/epsilon-retail-media-filter-mapping-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/epsilon-retail-media-filter-mapping-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/overlays/epsilon-retail-media-cross-sell-category-overlay.yaml
+  href: https://artifacts.apis.io/epsilon/overlays/epsilon-retail-media-cross-sell-category-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/epsilon-retail-media-cross-sell-category-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/security/epsilon-domain-security.yml
+  href: https://artifacts.apis.io/epsilon/security/epsilon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/epsilon-domain-security.yml
@@ -151,12 +153,12 @@ common:
   type: PrivacyPolicy
   url: https://legal.epsilon.com/global-privacy-policies
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/llms/epsilon-llms.txt
+  href: https://artifacts.apis.io/epsilon/llms/epsilon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/epsilon-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/well-known/epsilon-well-known.yml
+  href: https://artifacts.apis.io/epsilon/well-known/epsilon-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/epsilon-well-known.yml
@@ -165,57 +167,57 @@ common:
   type: APICatalog
   url: https://developers.citrusad.com/.well-known/api-catalog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/authentication/epsilon-authentication.yml
+  href: https://artifacts.apis.io/epsilon/authentication/epsilon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/epsilon-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/conventions/epsilon-conventions.yml
+  href: https://artifacts.apis.io/epsilon/conventions/epsilon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/epsilon-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/errors/epsilon-problem-types.yml
+  href: https://artifacts.apis.io/epsilon/errors/epsilon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/epsilon-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/lifecycle/epsilon-lifecycle.yml
+  href: https://artifacts.apis.io/epsilon/lifecycle/epsilon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/epsilon-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/conformance/epsilon-conformance.yml
+  href: https://artifacts.apis.io/epsilon/conformance/epsilon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/epsilon-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/data-model/epsilon-data-model.yml
+  href: https://artifacts.apis.io/epsilon/data-model/epsilon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/epsilon-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/sandbox/epsilon-sandbox.yml
+  href: https://artifacts.apis.io/epsilon/sandbox/epsilon-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/epsilon-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/packages/epsilon-packages.yml
+  href: https://artifacts.apis.io/epsilon/packages/epsilon-packages.yml
   title: ''
   type: Packages
   url: packages/epsilon-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/plans/epsilon-plans-pricing.yml
+  href: https://artifacts.apis.io/epsilon/plans/epsilon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/epsilon-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/rate-limits/epsilon-rate-limits.yml
+  href: https://artifacts.apis.io/epsilon/rate-limits/epsilon-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/epsilon-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/epsilon/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -235,14 +237,14 @@ plans:
 - name: Epsilon Plans Pricing
   plan_count: 0
   slug: epsilon-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Epsilon Rate Limits
   slug: epsilon-rate-limits
 score:
-  band: thin
-  composite: 35.7
+  band: developing
+  composite: 40.8
   coverage:
     artifact_dirs: 24
     catalog_earned: 40.0
@@ -254,11 +256,11 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 47.5
-    developer_ergonomics: 28.0
-    discoverability: 89.3
+    contract_quality: 46.4
+    developer_ergonomics: 66.1
+    discoverability: 82.1
     operational_transparency: 0.0
-  previous_composite: 35.7
+  previous_composite: 40.8
   provenance:
     conformance: first-party
     contracts:
@@ -274,13 +276,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/screenshots/epsilon-2026-09-02T145416.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/epsilon/epsilon-2026-09-02T145416.png
 security:
 - kind: authentication
   name: Epsilon Authentication
@@ -290,6 +293,14 @@ security:
   name: Epsilon Domain Security
   slug: epsilon-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: epsilon-onboard-retail-media-catalog
+  slug: epsilon-onboard-retail-media-catalog
+- name: epsilon-serve-and-attribute-ads
+  slug: epsilon-serve-and-attribute-ads
+- name: epsilon-target-audiences-and-placements
+  slug: epsilon-target-audiences-and-placements
 slug: epsilon
 tags:
 - Company

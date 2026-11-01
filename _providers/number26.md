@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.2
-  scored_at: '2026-10-17'
+  score: 22.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://xs2a.tech26.de/v1/berlin-group/v1
@@ -42,17 +44,14 @@ apis:
   description: The default API from Number26 — 9 operation(s) for default.
   name: Number26 Default API
   slug: number26-default-api
-artifact_total: 5
+artifact_total: 4
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: XS2A_N26 default API
   slug: open-number26-default-api
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/security/number26-domain-security.yml
+  href: https://artifacts.apis.io/number26/security/number26-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/number26-domain-security.yml
@@ -93,52 +92,52 @@ common:
   type: Postman
   url: https://github.com/n26/psd2-tpp-docs/tree/master/doc/assets/postman
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/authentication/number26-xs2a-authentication.yml
+  href: https://artifacts.apis.io/number26/authentication/number26-xs2a-authentication.yml
   title: ''
   type: Authentication
   url: authentication/number26-xs2a-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/conventions/number26-conventions.yml
+  href: https://artifacts.apis.io/number26/conventions/number26-conventions.yml
   title: ''
   type: Conventions
   url: conventions/number26-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/errors/number26-problem-types.yml
+  href: https://artifacts.apis.io/number26/errors/number26-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/number26-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/data-model/number26-data-model.yml
+  href: https://artifacts.apis.io/number26/data-model/number26-data-model.yml
   title: ''
   type: DataModel
   url: data-model/number26-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/conformance/number26-conformance.yml
+  href: https://artifacts.apis.io/number26/conformance/number26-conformance.yml
   title: ''
   type: Conformance
   url: conformance/number26-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/lifecycle/number26-lifecycle.yml
+  href: https://artifacts.apis.io/number26/lifecycle/number26-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/number26-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/lifecycle/number26-lifecycle.yml
+  href: https://artifacts.apis.io/number26/lifecycle/number26-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/number26-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/mcp/number26-mcp.yml
+  href: https://artifacts.apis.io/number26/mcp/number26-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/number26-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/overlays/number26-xs2a-overlay.yaml
+  href: https://artifacts.apis.io/number26/overlays/number26-xs2a-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/number26-xs2a-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/llms/number26-llms.txt
+  href: https://artifacts.apis.io/number26/llms/number26-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/number26-llms.txt
@@ -154,10 +153,10 @@ overview: 'Number26 publishes 1 API contract indexed on the [APIs.io](https://ap
 
 
   Number26''s developer surface includes engineering blog, support, documentation, API reference, authentication, and 15 more developer resources.'
-random_paper: 5
+random_paper: 9
 score:
   band: thin
-  composite: 34.0
+  composite: 34.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -165,14 +164,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 46.3
     developer_ergonomics: 40.5
-    discoverability: 73.2
-    operational_transparency: 10.5
+    discoverability: 66.1
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -181,7 +180,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 33.9
+  previous_composite: 34.3
   provenance:
     conformance: first-party
     contracts:
@@ -200,13 +199,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/screenshots/number26-2026-08-07T185726.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/number26/number26-2026-08-07T185726.png
 security:
 - kind: authentication
   name: Number26 Xs2A Authentication

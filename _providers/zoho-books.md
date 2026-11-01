@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.2
-  scored_at: '2026-10-17'
+  score: 17.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://www.zohoapis.com/books/v3
@@ -58,9 +60,6 @@ apis:
 artifact_total: 13
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Zoho Books Contacts API
   slug: open-zoho-books-contacts-api
 - collection_type: open
@@ -74,22 +73,22 @@ collections:
   slug: open-zoho-books-organizations-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-books/refs/heads/main/plans/zoho-books-plans-pricing.yml
+  href: https://artifacts.apis.io/zoho-books/plans/zoho-books-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zoho-books-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-books/refs/heads/main/capabilities/zoho-books-capability-edges.yml
+  href: https://artifacts.apis.io/zoho-books/capabilities/zoho-books-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zoho-books-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-books/refs/heads/main/security/zoho-books-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zoho-books/security/zoho-books-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zoho-books-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-books/refs/heads/main/security/zoho-books-domain-security.yml
+  href: https://artifacts.apis.io/zoho-books/security/zoho-books-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zoho-books-domain-security.yml
@@ -147,6 +146,14 @@ common:
   url: https://api-console.zoho.com/
 created: '2026-05-11'
 description: Zoho Books is online accounting software for small and growing businesses that handles invoicing, expenses, banking, projects, inventory, vendor bills, reporting, and end-to-end GST/VAT compliance. It is part of the Zoho Finance suite and integrates with the rest of the Zoho One platform alongside payment gateways, banks, and tax authorities. The Zoho Books REST API exposes the full accounting data model — contacts, invoices, estimates, expenses, bills, banking, items, taxes, and reports — using OAuth 2.0 (Zoho-oauthtoken) for authentication and per-region data center base URLs.
+finops:
+- has_sources: true
+  method: derived
+  name: Zoho Books Finops
+  primary_unit: price/org/month
+  service_category: ''
+  slug: zoho-books-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zoho-books.png
 layout: provider
 modified: '2026-05-11'
@@ -164,26 +171,26 @@ plans:
 - name: Zoho Books Price Estimates
   plan_count: 0
   slug: zoho-books-price-estimates
-random_paper: 1
+random_paper: 3
 score:
   band: developing
-  composite: 41.0
+  composite: 45.4
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 49.0
+    artifact_dirs: 10
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 0.0
-    contract_quality: 46.3
+    contract_quality: 42.9
     developer_ergonomics: 35.7
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 40.9
+    operational_transparency: 31.6
+  previous_composite: 43.9
   provenance:
     contracts:
       callable: 100.0
@@ -196,13 +203,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-books/refs/heads/main/screenshots/zoho-books-2026-06-20T201932.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zoho-books/zoho-books-2026-06-20T201932.png
 security:
 - kind: domain-security
   name: Zoho Books Domain Security

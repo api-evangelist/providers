@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.6
-  scored_at: '2026-10-17'
+  score: 20.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -92,11 +94,8 @@ apis:
 - description: Zillow Group Data feeds delivered through Bridge — parcels, assessments, transactions, and Zillow Group Econ Data (ZHVI, ZORI, market metrics) — accessible via the same OData/RESO Web API surface as M
   name: Zillow Group Data (ZG Data) API
   slug: bridge-interactive-zillow-group-data-api
-artifact_total: 30
+artifact_total: 29
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bridge API (Bridge Data Output) Agents API
   slug: open-bridge-interactive-agents-api
@@ -117,52 +116,52 @@ collections:
   slug: open-bridge-interactive
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/rules/bridge-interactive-rules.yml
+  href: https://artifacts.apis.io/bridge-interactive/rules/bridge-interactive-rules.yml
   title: ''
   type: Spectral
   url: rules/bridge-interactive-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/vocabulary/bridge-interactive-vocabulary.yml
+  href: https://artifacts.apis.io/bridge-interactive/vocabulary/bridge-interactive-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bridge-interactive-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/data-model/bridge-interactive-data-model.yml
+  href: https://artifacts.apis.io/bridge-interactive/data-model/bridge-interactive-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bridge-interactive-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/errors/bridge-interactive-problem-types.yml
+  href: https://artifacts.apis.io/bridge-interactive/errors/bridge-interactive-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bridge-interactive-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/conformance/bridge-interactive-conformance.yml
+  href: https://artifacts.apis.io/bridge-interactive/conformance/bridge-interactive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bridge-interactive-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/integrations/bridge-interactive-integration-edges.yml
+  href: https://artifacts.apis.io/bridge-interactive/integrations/bridge-interactive-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/bridge-interactive-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/capabilities/bridge-interactive-capability-edges.yml
+  href: https://artifacts.apis.io/bridge-interactive/capabilities/bridge-interactive-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bridge-interactive-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/agentic-access/bridge-interactive-agentic-access.yml
+  href: https://artifacts.apis.io/bridge-interactive/agentic-access/bridge-interactive-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bridge-interactive-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/security/bridge-interactive-domain-security.yml
+  href: https://artifacts.apis.io/bridge-interactive/security/bridge-interactive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bridge-interactive-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/authentication/bridge-interactive-authentication.yml
+  href: https://artifacts.apis.io/bridge-interactive/authentication/bridge-interactive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bridge-interactive-authentication.yml
@@ -179,17 +178,17 @@ common:
   type: Documentation
   url: https://bridgedataoutput.com/docs/platform/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/plans/bridge-interactive-plans-pricing.yml
+  href: https://artifacts.apis.io/bridge-interactive/plans/bridge-interactive-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bridge-interactive-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/rate-limits/bridge-interactive-rate-limits.yml
+  href: https://artifacts.apis.io/bridge-interactive/rate-limits/bridge-interactive-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bridge-interactive-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/finops/bridge-interactive-finops.yml
+  href: https://artifacts.apis.io/bridge-interactive/finops/bridge-interactive-finops.yml
   title: ''
   type: FinOps
   url: finops/bridge-interactive-finops.yml
@@ -261,7 +260,7 @@ rules:
   slug: bridge-interactive-rules
 score:
   band: thin
-  composite: 28.5
+  composite: 31.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 65.0
@@ -269,15 +268,15 @@ score:
     catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 19.7
-    contract_quality: 59.9
-    developer_ergonomics: 11.9
+    contract_quality: 57.1
+    developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 31.7
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -293,13 +292,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/screenshots/bridge-interactive-2026-07-25T203811.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bridge-interactive/bridge-interactive-2026-07-25T203811.png
 security:
 - kind: authentication
   name: Bridge Interactive Authentication

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -58,11 +60,8 @@ apis:
   description: The Operations API from Apache ORC — 1 operation(s) for operations.
   name: Apache ORC Operations API
   slug: apache-orc-operations-api
-artifact_total: 67
+artifact_total: 66
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apache ORC Tools Conversion API
   slug: open-apache-orc-conversion-api
@@ -74,17 +73,17 @@ collections:
   slug: open-apache-orc-operations-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/plans/apache-orc-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-orc/plans/apache-orc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-orc-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/rate-limits/apache-orc-rate-limits.yml
+  href: https://artifacts.apis.io/apache-orc/rate-limits/apache-orc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-orc-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/finops/apache-orc-finops.yml
+  href: https://artifacts.apis.io/apache-orc/finops/apache-orc-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-orc-finops.yml
@@ -93,17 +92,17 @@ common:
   type: Website
   url: https://www.apache.org/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/agentic-access/apache-orc-agentic-access.yml
+  href: https://artifacts.apis.io/apache-orc/agentic-access/apache-orc-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-orc-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/security/apache-orc-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-orc/security/apache-orc-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-orc-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/security/apache-orc-domain-security.yml
+  href: https://artifacts.apis.io/apache-orc/security/apache-orc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-orc-domain-security.yml
@@ -116,17 +115,17 @@ common:
   type: Documentation
   url: https://orc.apache.org/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/rules/apache-orc-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-orc/rules/apache-orc-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-orc-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/vocabulary/apache-orc-vocabulary.yaml
+  href: https://artifacts.apis.io/apache-orc/vocabulary/apache-orc-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-orc-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/json-ld/apache-orc-context.jsonld
+  href: https://artifacts.apis.io/apache-orc/json-ld/apache-orc-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/apache-orc-context.jsonld
@@ -190,7 +189,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Orc Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-orc-finops
   template: true
@@ -301,7 +300,7 @@ plans:
 - name: Apache Orc Plans Pricing
   plan_count: 3
   slug: apache-orc-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Apache Orc Rate Limits
@@ -332,23 +331,23 @@ rules:
   slug: apache-orc-spectral-rules
 score:
   band: emerging
-  composite: 19.2
+  composite: 21.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 61.0
     catalog_earned_first_party: 0.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 19.3
     developer_ergonomics: 11.9
     discoverability: 62.5
-    operational_transparency: 10.5
-  previous_composite: 20.7
+    operational_transparency: 23.7
+  previous_composite: 21.6
   provenance:
     agentic_access: derived
     contracts:
@@ -362,13 +361,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/screenshots/apache-orc-2026-06-20T172130.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-orc/apache-orc-2026-06-20T172130.png
 security:
 - kind: domain-security
   name: Apache Orc Domain Security

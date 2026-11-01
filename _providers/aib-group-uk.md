@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -100,74 +102,74 @@ apis:
   description: Endpoint for getting Unsecured SME Loan data
   name: AIB Group (UK) SME API
   slug: aib-group-uk-sme-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-aib-group-uk-open-data
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/capabilities/aib-group-uk-capability-edges.yml
+  href: https://artifacts.apis.io/aib-group-uk/capabilities/aib-group-uk-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/aib-group-uk-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/agentic-access/aib-group-uk-agentic-access.yml
+  href: https://artifacts.apis.io/aib-group-uk/agentic-access/aib-group-uk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aib-group-uk-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/security/aib-group-uk-domain-security.yml
+  href: https://artifacts.apis.io/aib-group-uk/security/aib-group-uk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aib-group-uk-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/authentication/aib-group-uk-authentication.yml
+  href: https://artifacts.apis.io/aib-group-uk/authentication/aib-group-uk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aib-group-uk-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/conventions/aib-group-uk-conventions.yml
+  href: https://artifacts.apis.io/aib-group-uk/conventions/aib-group-uk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aib-group-uk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/conventions/aib-group-uk-conventions.yml
+  href: https://artifacts.apis.io/aib-group-uk/conventions/aib-group-uk-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/aib-group-uk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/conformance/aib-group-uk-conformance.yml
+  href: https://artifacts.apis.io/aib-group-uk/conformance/aib-group-uk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aib-group-uk-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/errors/aib-group-uk-problem-types.yml
+  href: https://artifacts.apis.io/aib-group-uk/errors/aib-group-uk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aib-group-uk-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/lifecycle/aib-group-uk-lifecycle.yml
+  href: https://artifacts.apis.io/aib-group-uk/lifecycle/aib-group-uk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aib-group-uk-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/data-model/aib-group-uk-data-model.yml
+  href: https://artifacts.apis.io/aib-group-uk/data-model/aib-group-uk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aib-group-uk-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/llms/aib-group-uk-llms.txt
+  href: https://artifacts.apis.io/aib-group-uk/llms/aib-group-uk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aib-group-uk-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/overlays/aib-group-uk-open-data-overlay.yaml
+  href: https://artifacts.apis.io/aib-group-uk/overlays/aib-group-uk-open-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aib-group-uk-open-data-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/skills/aib-group-uk-open-data-discovery.md
+  href: https://artifacts.apis.io/aib-group-uk/skills/aib-group-uk-open-data-discovery.md
   title: ''
   type: AgentSkill
   url: skills/aib-group-uk-open-data-discovery.md
@@ -228,10 +230,10 @@ overview: 'AIB Group (UK) publishes 15 API contracts indexed on the [APIs.io](ht
 
 
   AIB Group (UK)''s developer surface includes authentication, getting-started guide, signup flow, engineering blog, documentation, support, and 18 more developer resources.'
-random_paper: 5
+random_paper: 19
 score:
   band: developing
-  composite: 40.6
+  composite: 39.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -245,7 +247,7 @@ score:
     contract_governance: 18.2
     contract_quality: 35.5
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -255,7 +257,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 40.6
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -275,14 +277,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 33.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/screenshots/aib-group-uk-2026-07-25T195342.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aib-group-uk/aib-group-uk-2026-07-25T195342.png
 security:
 - kind: authentication
   name: Aib Group Uk Authentication
@@ -292,6 +294,10 @@ security:
   name: Aib Group Uk Domain Security
   slug: aib-group-uk-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Discover AIB Group (UK) branches, ATMs, and products via Open Data
+  slug: aib-group-uk-open-data-discovery
 slug: aib-group-uk
 tags:
 - Financial Services

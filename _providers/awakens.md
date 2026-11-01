@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: OAuth 2.0 REST API for requesting a consenting user's genetic trait reports from Genomelink. A report is fetched by trait name and population (for example GET /v1/reports/eye-color/?population=europea
   name: Genomelink Developer API
   slug: genomelink-developer-api
-artifact_total: 4
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -78,77 +80,77 @@ common:
   type: GitHubOrganization
   url: https://github.com/genomelink
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/packages/awakens-packages.yml
+  href: https://artifacts.apis.io/awakens/packages/awakens-packages.yml
   title: ''
   type: Packages
   url: packages/awakens-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/packages/awakens-packages.yml
+  href: https://artifacts.apis.io/awakens/packages/awakens-packages.yml
   title: ''
   type: SDKs
   url: packages/awakens-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/authentication/awakens-authentication.yml
+  href: https://artifacts.apis.io/awakens/authentication/awakens-authentication.yml
   title: ''
   type: Authentication
   url: authentication/awakens-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/scopes/awakens-scopes.yml
+  href: https://artifacts.apis.io/awakens/scopes/awakens-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/awakens-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/well-known/awakens-well-known.yml
+  href: https://artifacts.apis.io/awakens/well-known/awakens-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/awakens-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/lifecycle/awakens-lifecycle.yml
+  href: https://artifacts.apis.io/awakens/lifecycle/awakens-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/awakens-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/conventions/awakens-conventions.yml
+  href: https://artifacts.apis.io/awakens/conventions/awakens-conventions.yml
   title: ''
   type: Conventions
   url: conventions/awakens-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/security/awakens-domain-security.yml
+  href: https://artifacts.apis.io/awakens/security/awakens-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/awakens-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/mcp/awakens-mcp.yml
+  href: https://artifacts.apis.io/awakens/mcp/awakens-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/awakens-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/awakens/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/llms/awakens-llms.txt
+  href: https://artifacts.apis.io/awakens/llms/awakens-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/awakens-llms.txt
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/sandbox/awakens-sandbox.yml
+  href: https://artifacts.apis.io/awakens/sandbox/awakens-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/awakens-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/errors/awakens-oauth-errors.yml
+  href: https://artifacts.apis.io/awakens/errors/awakens-oauth-errors.yml
   title: ''
   type: ErrorCatalog
   url: errors/awakens-oauth-errors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/conformance/awakens-conformance.yml
+  href: https://artifacts.apis.io/awakens/conformance/awakens-conformance.yml
   title: ''
   type: Conformance
   url: conformance/awakens-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/data-model/awakens-data-model.yml
+  href: https://artifacts.apis.io/awakens/data-model/awakens-data-model.yml
   title: ''
   type: DataModel
   url: data-model/awakens-data-model.yml
@@ -164,15 +166,15 @@ overview: 'AWAKENS is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   AWAKENS''s developer surface includes signup flow, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 20
+random_paper: 2
 scopes:
 - name: Awakens Scopes
   scope_count: 0
   slug: awakens-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 26.2
+  band: emerging
+  composite: 25.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 32.0
@@ -180,15 +182,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 44.6
-    discoverability: 64.3
-    operational_transparency: 2.6
-  previous_composite: 26.1
+    discoverability: 57.1
+    operational_transparency: 5.3
+  previous_composite: 25.8
   provenance:
     conformance: derived
     mcp: derived
@@ -199,14 +201,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/screenshots/awakens-2026-07-25T202019.png
+screenshot: https://apis.io/screenshots/awakens/awakens-2026-07-25T202019.png
 security:
 - kind: authentication
   name: Awakens Authentication
@@ -216,6 +218,10 @@ security:
   name: Awakens Domain Security
   slug: awakens-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: Fetch a genetic trait report from Genomelink
+  slug: awakens-fetch-report
 slug: awakens
 tags:
 - Company

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.6
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -65,7 +67,7 @@ apis:
   description: The Tags API from Amazon SQS — 1 operation(s) for tags.
   name: Amazon SQS Tags API
   slug: amazon-sqs-tags-api
-artifact_total: 100
+artifact_total: 99
 asyncapis:
 - description: AsyncAPI specification for Amazon SQS event-driven messaging patterns. Amazon SQS provides reliable, highly-scalable hosted queues for storing messages as they travel between applications or microserv
   name: Amazon Simple Queue Service (SQS) Event Source Mapping
@@ -84,9 +86,6 @@ collections:
   name: Amazon SQS Amazon Simple Queue Service (SQS) Messages Tags API
   slug: postman-amazon-sqs-tags-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Amazon SQS Amazon Simple Queue Service (SQS) Messages API
   slug: open-amazon-sqs-messages-api
 - collection_type: open
@@ -103,17 +102,17 @@ collections:
   slug: open-amazon-sqs
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/plans/amazon-sqs-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-sqs/plans/amazon-sqs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-sqs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/rate-limits/amazon-sqs-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-sqs/rate-limits/amazon-sqs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-sqs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/finops/amazon-sqs-finops.yml
+  href: https://artifacts.apis.io/amazon-sqs/finops/amazon-sqs-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-sqs-finops.yml
@@ -126,27 +125,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-sqs/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/agentic-access/amazon-sqs-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-sqs/agentic-access/amazon-sqs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-sqs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/security/amazon-sqs-trust-center.yml
+  href: https://artifacts.apis.io/amazon-sqs/security/amazon-sqs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-sqs-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/security/amazon-sqs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-sqs/security/amazon-sqs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-sqs-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/security/amazon-sqs-domain-security.yml
+  href: https://artifacts.apis.io/amazon-sqs/security/amazon-sqs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-sqs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/authentication/amazon-sqs-authentication.yml
+  href: https://artifacts.apis.io/amazon-sqs/authentication/amazon-sqs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-sqs-authentication.yml
@@ -260,11 +259,11 @@ features:
 - description: Reduced API costs and latency by allowing consumers to wait for messages to arrive before responding.
   name: Long Polling
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Sqs Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: amazon-sqs-finops
   template: true
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
@@ -414,9 +413,9 @@ overview: 'Amazon SQS publishes 4 API contracts indexed on the [APIs.io](https:/
   Amazon SQS''s developer surface includes authentication, engineering blog, developer console, support, code examples, and 14 more developer resources.'
 plans:
 - name: Amazon Sqs Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: amazon-sqs-plans-pricing
-random_paper: 0
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Amazon Sqs Rate Limits
@@ -459,23 +458,28 @@ rules:
   slug: amazon-sqs-spectral-rules
 score:
   band: strong
-  composite: 57.2
+  composite: 61.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 47.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 67.5
+    artifact_dirs: 21
+    catalog_earned: 52.5
+    catalog_earned_first_party: 8.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -2.1
   facets:
-    access_clarity: 55.3
+    access_clarity: 68.4
     contract_governance: 13.6
     contract_quality: 66.3
     developer_ergonomics: 70.2
     discoverability: 57.1
-    operational_transparency: 44.7
-  previous_composite: 58.7
+    operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 64.0
   provenance:
     agentic_access: derived
     contracts:
@@ -489,13 +493,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/screenshots/amazon-sqs-2026-06-20T171828.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-sqs/amazon-sqs-2026-06-20T171828.png
 security:
 - kind: authentication
   name: Amazon Sqs Authentication

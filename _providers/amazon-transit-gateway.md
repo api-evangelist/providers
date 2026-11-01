@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,7 +62,7 @@ apis:
   description: The VPC Attachments API from Amazon Transit Gateway — 1 operation(s) for vpc attachments.
   name: Amazon Transit Gateway VPC Attachments API
   slug: amazon-transit-gateway-vpc-attachments-api
-artifact_total: 32
+artifact_total: 31
 collections:
 - collection_type: postman
   name: Amazon Transit Gateway Route Tables API
@@ -71,9 +73,6 @@ collections:
 - collection_type: postman
   name: Amazon Transit Gateway Route Tables VPC Attachments API
   slug: postman-amazon-transit-gateway-vpc-attachments-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Transit Gateway Route Tables API
   slug: open-amazon-transit-gateway-route-tables-api
@@ -88,12 +87,12 @@ collections:
   slug: open-amazon-transit-gateway
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/rate-limits/amazon-transit-gateway-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-transit-gateway/rate-limits/amazon-transit-gateway-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-transit-gateway-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/finops/amazon-transit-gateway-finops.yml
+  href: https://artifacts.apis.io/amazon-transit-gateway/finops/amazon-transit-gateway-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-transit-gateway-finops.yml
@@ -102,12 +101,12 @@ common:
   type: Pricing
   url: https://aws.amazon.com/transit-gateway/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/plans/amazon-transit-gateway-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-transit-gateway/plans/amazon-transit-gateway-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-transit-gateway-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/capabilities/amazon-transit-gateway-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-transit-gateway/capabilities/amazon-transit-gateway-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-transit-gateway-capability-edges.yml
@@ -116,27 +115,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-transit-gateway/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/agentic-access/amazon-transit-gateway-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-transit-gateway/agentic-access/amazon-transit-gateway-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-transit-gateway-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/security/amazon-transit-gateway-trust-center.yml
+  href: https://artifacts.apis.io/amazon-transit-gateway/security/amazon-transit-gateway-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-transit-gateway-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/security/amazon-transit-gateway-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-transit-gateway/security/amazon-transit-gateway-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-transit-gateway-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/security/amazon-transit-gateway-domain-security.yml
+  href: https://artifacts.apis.io/amazon-transit-gateway/security/amazon-transit-gateway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-transit-gateway-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/authentication/amazon-transit-gateway-authentication.yml
+  href: https://artifacts.apis.io/amazon-transit-gateway/authentication/amazon-transit-gateway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-transit-gateway-authentication.yml
@@ -224,13 +223,13 @@ features:
 - description: Programmatic access to Amazon Transit Gateway resources.
   name: API Access
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Transit Gateway Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: hour / vpc attachment
+  service_category: ''
   slug: amazon-transit-gateway-finops
-  template: true
+  template: false
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: Amazon Transit Gateway
@@ -273,7 +272,7 @@ plans:
 - name: Amazon Transit Gateway Plans Pricing
   plan_count: 2
   slug: amazon-transit-gateway-plans-pricing
-random_paper: 19
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Amazon Transit Gateway Rate Limits
@@ -304,23 +303,28 @@ rules:
   slug: amazon-transit-gateway-spectral-rules
 score:
   band: strong
-  composite: 58.2
+  composite: 63.8
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 65.4
+    artifact_dirs: 20
+    catalog_earned: 68.4
     catalog_earned_first_party: 8.0
-    catalog_gap: 49.6
+    catalog_gap: 46.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.5
   facets:
-    access_clarity: 67.1
+    access_clarity: 81.6
     contract_governance: 27.3
     contract_quality: 60.5
-    developer_ergonomics: 60.7
+    developer_ergonomics: 72.6
     discoverability: 64.3
-    operational_transparency: 36.8
-  previous_composite: 59.7
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     contracts:
@@ -334,14 +338,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/screenshots/amazon-transit-gateway-2026-06-20T171838.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-transit-gateway/amazon-transit-gateway-2026-06-20T171838.png
 security:
 - kind: authentication
   name: Amazon Transit Gateway Authentication

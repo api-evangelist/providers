@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.1
-  scored_at: '2026-10-17'
+  score: 35.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -77,7 +79,7 @@ apis:
   description: Create builds for integrations from source control; a build can then be used to create a release.
   name: Pandium Builds API
   slug: pandium-builds-api
-artifact_total: 236
+artifact_total: 239
 asyncapis:
 - description: ''
   name: Pandium Webhooks
@@ -99,9 +101,6 @@ collections:
   name: Pandium Connector Calls Tenants API
   slug: postman-pandium-tenants-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Pandium Connector Calls API
   slug: open-pandium-connector-calls-api
 - collection_type: open
@@ -121,12 +120,12 @@ collections:
   slug: open-pandium-tenants-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/finops/pandium-finops.yml
+  href: https://artifacts.apis.io/pandium/finops/pandium-finops.yml
   title: ''
   type: FinOps
   url: finops/pandium-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/capabilities/pandium-capability-edges.yml
+  href: https://artifacts.apis.io/pandium/capabilities/pandium-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pandium-capability-edges.yml
@@ -135,27 +134,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/pandium/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/agentic-access/pandium-agentic-access.yml
+  href: https://artifacts.apis.io/pandium/agentic-access/pandium-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pandium-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/security/pandium-trust-center.yml
+  href: https://artifacts.apis.io/pandium/security/pandium-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pandium-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/security/pandium-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pandium/security/pandium-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pandium-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/security/pandium-domain-security.yml
+  href: https://artifacts.apis.io/pandium/security/pandium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pandium-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/authentication/pandium-authentication.yml
+  href: https://artifacts.apis.io/pandium/authentication/pandium-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pandium-authentication.yml
@@ -236,87 +235,87 @@ common:
   type: LlmsText
   url: https://docs.pandium.com/llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/packages/pandium-packages.yml
+  href: https://artifacts.apis.io/pandium/packages/pandium-packages.yml
   title: ''
   type: Packages
   url: packages/pandium-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/mcp/pandium-mcp.yml
+  href: https://artifacts.apis.io/pandium/mcp/pandium-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/pandium-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/llms/pandium-llms.txt
+  href: https://artifacts.apis.io/pandium/llms/pandium-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pandium-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/asyncapi/pandium-webhooks.yml
+  href: https://artifacts.apis.io/pandium/asyncapi/pandium-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/pandium-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pandium/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/conventions/pandium-conventions.yml
+  href: https://artifacts.apis.io/pandium/conventions/pandium-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pandium-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/errors/pandium-problem-types.yml
+  href: https://artifacts.apis.io/pandium/errors/pandium-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pandium-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/lifecycle/pandium-lifecycle.yml
+  href: https://artifacts.apis.io/pandium/lifecycle/pandium-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pandium-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/conformance/pandium-conformance.yml
+  href: https://artifacts.apis.io/pandium/conformance/pandium-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pandium-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/security/pandium-trust-center.yml
+  href: https://artifacts.apis.io/pandium/security/pandium-trust-center.yml
   title: ''
   type: Compliance
   url: security/pandium-trust-center.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/sandbox/pandium-sandbox.yml
+  href: https://artifacts.apis.io/pandium/sandbox/pandium-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/pandium-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/changelog/pandium-changelog.yml
+  href: https://artifacts.apis.io/pandium/changelog/pandium-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pandium-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/cli/pandium-cli.yml
+  href: https://artifacts.apis.io/pandium/cli/pandium-cli.yml
   title: ''
   type: CLI
   url: cli/pandium-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/components/pandium-components.yml
+  href: https://artifacts.apis.io/pandium/components/pandium-components.yml
   title: ''
   type: Components
   url: components/pandium-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/data-model/pandium-data-model.yml
+  href: https://artifacts.apis.io/pandium/data-model/pandium-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pandium-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/plans/pandium-plans-pricing.yml
+  href: https://artifacts.apis.io/pandium/plans/pandium-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pandium-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/rate-limits/pandium-rate-limits.yml
+  href: https://artifacts.apis.io/pandium/rate-limits/pandium-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pandium-rate-limits.yml
@@ -342,13 +341,13 @@ features:
 - name: Managed Authentication
 - name: Partner Portal
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Pandium Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: pandium-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pandium.png
 integrations:
 - name: Activecampaign
@@ -569,9 +568,12 @@ overview: 'Pandium publishes 6 API contracts indexed on the [APIs.io](https://ap
   Pandium''s developer surface includes authentication, engineering blog, FAQ, documentation, CLI, pricing, sandbox, and 39 more developer resources.'
 plans:
 - name: Pandium Plans Pricing
-  plan_count: 2
+  plan_count: 4
   slug: pandium-plans-pricing
-random_paper: 2
+- name: Pandium Price Estimates
+  plan_count: 0
+  slug: pandium-price-estimates
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Pandium Rate Limits
@@ -589,24 +591,24 @@ rules:
     warn: 4
   slug: pandium-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 63.2
+  band: exemplar
+  composite: 66.7
   coverage:
     artifact_dirs: 33
-    catalog_earned: 62.3
-    catalog_earned_first_party: 8.0
-    catalog_gap: 52.8
+    catalog_earned: 69.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 3.6
   facets:
-    access_clarity: 68.4
+    access_clarity: 86.8
     contract_governance: 14.4
-    contract_quality: 71.9
+    contract_quality: 68.6
     developer_ergonomics: 64.8
     discoverability: 73.2
     operational_transparency: 55.3
-  previous_composite: 64.7
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -623,13 +625,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/screenshots/pandium-2026-06-20T191334.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pandium/pandium-2026-06-20T191334.png
 security:
 - kind: authentication
   name: Pandium Authentication
@@ -647,6 +650,14 @@ security:
   name: Pandium Trust Center
   slug: pandium-trust-center
   summary_line: SOC 2
+skill_count: 3
+skills:
+- name: integration-prd-spec-writer
+  slug: pandium-integration-prd-spec-writer
+- name: integration-priority-framework
+  slug: pandium-integration-priority-framework
+- name: pandium-trigger-and-monitor-sync
+  slug: pandium-trigger-and-monitor-sync
 slug: pandium
 tags:
 - B2B

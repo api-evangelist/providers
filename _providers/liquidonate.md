@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.0
-  scored_at: '2026-10-17'
+  score: 34.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -75,15 +77,12 @@ apis:
   description: The ReturnsDirect By LiquiDonate (Beta) API from LiquiDonate — 0 operation(s) for returnsdirect by liquidonate (beta).
   name: LiquiDonate ReturnsDirect By LiquiDonate (Beta) API
   slug: liquidonate-returnsdirect-by-liquidonate-beta-api
-artifact_total: 16
+artifact_total: 22
 asyncapis:
 - description: Outbound webhook event surface for ReturnsDirect by LiquiDonate. LiquiDonate POSTs return and refund status events to the webhook URL a retailer registers, so the retailer can update its own order man
   name: ReturnsDirect by LiquiDonate - Return and Refund Events
   slug: liquidonate-returnsdirect-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MagicMatch by LiquiDonate Donate API
   slug: open-liquidonate-donate-api
@@ -100,23 +99,28 @@ collections:
   name: MagicMatch by LiquiDonate Donate Ship API
   slug: open-liquidonate-ship-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/liquidonate/plans/liquidonate-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/liquidonate-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/capabilities/liquidonate-capability-edges.yml
+  href: https://artifacts.apis.io/liquidonate/capabilities/liquidonate-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/liquidonate-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/mcp/liquidonate-mcp.yml
+  href: https://artifacts.apis.io/liquidonate/mcp/liquidonate-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/liquidonate-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/overlays/liquidonate-magicmatch-overlay.yaml
+  href: https://artifacts.apis.io/liquidonate/overlays/liquidonate-magicmatch-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/liquidonate-magicmatch-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/agentic-access/liquidonate-agentic-access.yml
+  href: https://artifacts.apis.io/liquidonate/agentic-access/liquidonate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/liquidonate-agentic-access.yml
@@ -217,27 +221,27 @@ common:
   type: Postman
   url: https://documenter.getpostman.com/view/21205794/2sA3QteBZu
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/vocabulary/liquidonate-category-types.yml
+  href: https://artifacts.apis.io/liquidonate/vocabulary/liquidonate-category-types.yml
   title: ''
   type: Vocabulary
   url: vocabulary/liquidonate-category-types.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/authentication/liquidonate-authentication.yml
+  href: https://artifacts.apis.io/liquidonate/authentication/liquidonate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/liquidonate-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/conventions/liquidonate-conventions.yml
+  href: https://artifacts.apis.io/liquidonate/conventions/liquidonate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/liquidonate-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/errors/liquidonate-problem-types.yml
+  href: https://artifacts.apis.io/liquidonate/errors/liquidonate-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/liquidonate-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/lifecycle/liquidonate-lifecycle.yml
+  href: https://artifacts.apis.io/liquidonate/lifecycle/liquidonate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/liquidonate-lifecycle.yml
@@ -246,53 +250,61 @@ common:
   type: StatusPage
   url: https://status.liquidonate.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/conformance/liquidonate-conformance.yml
+  href: https://artifacts.apis.io/liquidonate/conformance/liquidonate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/liquidonate-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/data-model/liquidonate-data-model.yml
+  href: https://artifacts.apis.io/liquidonate/data-model/liquidonate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/liquidonate-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/sandbox/liquidonate-sandbox.yml
+  href: https://artifacts.apis.io/liquidonate/sandbox/liquidonate-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/liquidonate-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/packages/liquidonate-packages.yml
+  href: https://artifacts.apis.io/liquidonate/packages/liquidonate-packages.yml
   title: ''
   type: Packages
   url: packages/liquidonate-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/well-known/liquidonate-well-known.yml
+  href: https://artifacts.apis.io/liquidonate/well-known/liquidonate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/liquidonate-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/security/liquidonate-domain-security.yml
+  href: https://artifacts.apis.io/liquidonate/security/liquidonate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/liquidonate-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/asyncapi/liquidonate-returnsdirect-asyncapi.yml
+  href: https://artifacts.apis.io/liquidonate/asyncapi/liquidonate-returnsdirect-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/liquidonate-returnsdirect-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/llms/liquidonate-llms.txt
+  href: https://artifacts.apis.io/liquidonate/llms/liquidonate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/liquidonate-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/liquidonate/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'LiquiDonate is a San Francisco based reverse-logistics and donation-disposition platform that turns retail returns, excess inventory and unsellable goods into local nonprofit donations instead of landfill or liquidation. Its matching engine pairs items with nearby nonprofits that want them, buys the shipping label, routes the parcel and generates the donation receipt, so retailers recover tax value and meet extended-producer-responsibility and sustainability obligations. The company sells three product lines - ReturnsDirect (customer-direct returns), WarehouseDirect (warehouse and 3PL excess inventory) and BoxDrop (donation boxes) - and exposes two public developer APIs: MagicMatch, a donation-as-a-service API that accepts parcel and item details and returns a nonprofit match plus a donation shipping label, and ReturnsDirect, a beta returns-management integration for non-Shopify ecommerce platforms built on pushed order data plus HMAC-signed return and refund webhooks. LiquiDonate
   integrates with Shopify, Loop, EasyPost, FedEx, Bungii, SendGrid and Rise AI, and has been recognized on TIME Best Inventions 2025 and Fast Company World Changing Ideas.'
+finops:
+- has_sources: true
+  method: derived
+  name: Liquidonate Finops
+  primary_unit: pound
+  service_category: ''
+  slug: liquidonate-finops
+  template: false
 image: https://cdn.prod.website-files.com/672dc2792e95c584b8beaaca/6739416b527eda8f246a7686_Liquidonate%20%20Webclip.png
 layout: provider
 modified: '2026-07-19'
@@ -305,27 +317,31 @@ overview: 'LiquiDonate publishes 6 API contracts indexed on the [APIs.io](https:
   The LiquiDonate catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LiquiDonate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
-random_paper: 17
+  LiquiDonate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
+plans:
+- name: Liquidonate Plans Pricing
+  plan_count: 4
+  slug: liquidonate-plans-pricing
+random_paper: 7
 score:
   band: strong
-  composite: 54.3
+  composite: 60.1
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 42.0
-    catalog_earned_first_party: 5.0
-    catalog_gap: 73.0
+    artifact_dirs: 26
+    catalog_earned: 57.0
+    catalog_earned_first_party: 17.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.8
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 19.7
-    contract_quality: 59.0
+    contract_quality: 61.9
     developer_ergonomics: 70.8
-    discoverability: 75.0
+    discoverability: 67.9
     operational_transparency: 23.7
-  previous_composite: 54.2
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -333,7 +349,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 5
     mcp: derived
     skills: derived
   regulatory:
@@ -342,13 +358,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/screenshots/liquidonate-2026-07-25T225320.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/liquidonate/liquidonate-2026-07-25T225320.png
 security:
 - kind: authentication
   name: Liquidonate Authentication
@@ -358,6 +375,18 @@ security:
   name: Liquidonate Domain Security
   slug: liquidonate-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 5
+skills:
+- name: Donate a bulky, multi-package or pickup-scheduled item
+  slug: liquidonate-donate-bulky-item
+- name: Match a return to a nonprofit and ship it
+  slug: liquidonate-match-and-ship-return
+- name: Onboard a retailer and issue API credentials
+  slug: liquidonate-onboard-retailer
+- name: Integrate ReturnsDirect order push and return webhooks
+  slug: liquidonate-returnsdirect-integration
+- name: Match a donation and attach your own shipping label
+  slug: liquidonate-self-labeled-donation
 slug: liquidonate
 tags:
 - Reverse Logistics

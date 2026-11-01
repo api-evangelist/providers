@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.0
-  scored_at: '2026-10-17'
+  score: 44.8
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'REST API for the Epsilon3 operations platform, organized into roughly twenty API families: Builds (work orders, parts, inventory, purchase and sale orders, vendors, tooling, shipments), Chat, Commandi'
@@ -50,7 +52,7 @@ apis:
 - description: 'Hosted, remote Model Context Protocol server exposing Epsilon3 procedures, runs, parts and inventory, and issues to MCP-capable assistants. Read-only in the current preview: it can search, open, query'
   name: Epsilon3 MCP Server
   slug: epsilon3-mcp-server
-artifact_total: 11
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Epsilon3 Realtime Webhooks
@@ -113,7 +115,7 @@ common:
   type: StatusPage
   url: https://status.epsilon3.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/security/epsilon3-trust-center.yml
+  href: https://artifacts.apis.io/epsilon3/security/epsilon3-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/epsilon3-trust-center.yml
@@ -122,93 +124,101 @@ common:
   type: Compliance
   url: https://www.epsilon3.io/security
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/changelog/epsilon3-changelog.yml
+  href: https://artifacts.apis.io/epsilon3/changelog/epsilon3-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/epsilon3-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/lifecycle/epsilon3-lifecycle.yml
+  href: https://artifacts.apis.io/epsilon3/lifecycle/epsilon3-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/epsilon3-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/lifecycle/epsilon3-lifecycle.yml
+  href: https://artifacts.apis.io/epsilon3/lifecycle/epsilon3-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/epsilon3-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/authentication/epsilon3-authentication.yml
+  href: https://artifacts.apis.io/epsilon3/authentication/epsilon3-authentication.yml
   title: ''
   type: Authentication
   url: authentication/epsilon3-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/scopes/epsilon3-scopes.yml
+  href: https://artifacts.apis.io/epsilon3/scopes/epsilon3-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/epsilon3-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/conventions/epsilon3-conventions.yml
+  href: https://artifacts.apis.io/epsilon3/conventions/epsilon3-conventions.yml
   title: ''
   type: Conventions
   url: conventions/epsilon3-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/rate-limits/epsilon3-rate-limits.yml
+  href: https://artifacts.apis.io/epsilon3/rate-limits/epsilon3-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/epsilon3-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/plans/epsilon3-plans-pricing.yml
+  href: https://artifacts.apis.io/epsilon3/plans/epsilon3-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/epsilon3-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/errors/epsilon3-problem-types.yml
+  href: https://artifacts.apis.io/epsilon3/errors/epsilon3-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/epsilon3-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/conformance/epsilon3-conformance.yml
+  href: https://artifacts.apis.io/epsilon3/conformance/epsilon3-conformance.yml
   title: ''
   type: Conformance
   url: conformance/epsilon3-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/well-known/epsilon3-well-known.yml
+  href: https://artifacts.apis.io/epsilon3/well-known/epsilon3-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/epsilon3-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/mcp/epsilon3-mcp.yml
+  href: https://artifacts.apis.io/epsilon3/mcp/epsilon3-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/epsilon3-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/mcp/epsilon3-tool-crosswalk.yml
+  href: https://artifacts.apis.io/epsilon3/mcp/epsilon3-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/epsilon3-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/asyncapi/epsilon3-realtime-webhooks.yml
+  href: https://artifacts.apis.io/epsilon3/asyncapi/epsilon3-realtime-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/epsilon3-realtime-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/llms/epsilon3-llms.txt
+  href: https://artifacts.apis.io/epsilon3/llms/epsilon3-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/epsilon3-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/packages/epsilon3-packages.yml
+  href: https://artifacts.apis.io/epsilon3/packages/epsilon3-packages.yml
   title: ''
   type: Packages
   url: packages/epsilon3-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/security/epsilon3-domain-security.yml
+  href: https://artifacts.apis.io/epsilon3/security/epsilon3-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/epsilon3-domain-security.yml
 created: '2026-08-12'
 description: Epsilon3 is a US-based operations software provider whose platform turns static procedures into live, executable, auditable workflows for high-reliability teams in space, defense, aerospace manufacturing, and energy. The product spans procedure authoring and execution (runs), work orders, parts and inventory, purchase and sale orders, tooling and maintenance, shipments, project schedules, issues, test and requirements management, skills, and telemetry/commanding. Its developer surface is a per-workspace API-key REST API at api.epsilon3.io/v1 documented across roughly twenty API families and 200-plus endpoints, a SocketIO and webhook realtime interface for commanding, external data, notifications and telemetry streaming, and a hosted read-only Model Context Protocol server at mcp.epsilon3.io fronted by OAuth 2.1 with dynamic client registration and fifteen published scopes. Customers include NASA, Blue Origin, Redwire, Axiom Space and AeroVironment; deployment options span multi-tenant
   cloud, UK and EU regions, on-premises, and FedRAMP High on AWS GovCloud.
+finops:
+- has_sources: true
+  method: derived
+  name: Epsilon3 Finops
+  primary_unit: user
+  service_category: ''
+  slug: epsilon3-finops
+  template: false
 image: https://static1.squarespace.com/static/602ec1c9965913605a250907/t/666747f4afb0bc6004370ebf/1785952863858/Epsilon3+Logo+2130x1200.jpg?format=1500w
 layout: provider
 mcp_servers:
@@ -230,6 +240,9 @@ plans:
 - name: Epsilon3 Plans Pricing
   plan_count: 3
   slug: epsilon3-plans-pricing
+- name: Epsilon3 Price Estimates
+  plan_count: 0
+  slug: epsilon3-price-estimates
 random_paper: 21
 rate_limits:
 - limit_count: 3
@@ -242,23 +255,23 @@ scopes:
   summary_line: 15 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.3
+  composite: 64.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 64.0
+    artifact_dirs: 20
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 78.9
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 53.6
-    discoverability: 80.0
+    developer_ergonomics: 57.1
+    discoverability: 70.0
     operational_transparency: 78.9
-  previous_composite: 60.2
+  previous_composite: 62.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -268,14 +281,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/screenshots/epsilon3-2026-08-17T080928.png
+screenshot: https://apis.io/screenshots/epsilon3/epsilon3-2026-08-17T080928.png
 security:
 - kind: authentication
   name: Epsilon3 Authentication

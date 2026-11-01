@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Multi-tenant REST API for the Cogniac computer-vision platform (CloudCore): manage tenants, applications, subjects, media, detections, EdgeFlow/CloudFlow appliances, network cameras, deployment groups'
   name: Cogniac Public API
   slug: cogniac-public-api
-artifact_total: 3
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -87,42 +89,42 @@ common:
   type: PrivacyPolicy
   url: https://cogniac.ai/privacy/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cogniac/refs/heads/main/packages/cogniac-packages.yml
+  href: https://artifacts.apis.io/cogniac/packages/cogniac-packages.yml
   title: ''
   type: Packages
   url: packages/cogniac-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cogniac/refs/heads/main/packages/cogniac-packages.yml
+  href: https://artifacts.apis.io/cogniac/packages/cogniac-packages.yml
   title: ''
   type: SDKs
   url: packages/cogniac-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cogniac/refs/heads/main/cli/cogniac-cli.yml
+  href: https://artifacts.apis.io/cogniac/cli/cogniac-cli.yml
   title: ''
   type: CLI
   url: cli/cogniac-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cogniac/refs/heads/main/authentication/cogniac-authentication.yml
+  href: https://artifacts.apis.io/cogniac/authentication/cogniac-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cogniac-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cogniac/refs/heads/main/conventions/cogniac-conventions.yml
+  href: https://artifacts.apis.io/cogniac/conventions/cogniac-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cogniac-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cogniac/refs/heads/main/errors/cogniac-error-codes.yml
+  href: https://artifacts.apis.io/cogniac/errors/cogniac-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/cogniac-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cogniac/refs/heads/main/data-model/cogniac-data-model.yml
+  href: https://artifacts.apis.io/cogniac/data-model/cogniac-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cogniac-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cogniac/refs/heads/main/conformance/cogniac-conformance.yml
+  href: https://artifacts.apis.io/cogniac/conformance/cogniac-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cogniac-conformance.yml
@@ -131,17 +133,17 @@ common:
   type: Compliance
   url: https://cogniac.ai/news/cogniac-confirmed-as-soc2-compliant/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cogniac/refs/heads/main/security/cogniac-domain-security.yml
+  href: https://artifacts.apis.io/cogniac/security/cogniac-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cogniac-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cogniac/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cogniac/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cogniac/refs/heads/main/llms/cogniac-llms.txt
+  href: https://artifacts.apis.io/cogniac/llms/cogniac-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cogniac-llms.txt
@@ -157,26 +159,26 @@ overview: 'Cogniac is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Cogniac''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 16 more developer resources.'
-random_paper: 20
+random_paper: 4
 score:
   band: thin
-  composite: 27.0
+  composite: 35.5
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 52.4
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 26.9
+    developer_ergonomics: 78.6
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 35.5
   provenance:
     conformance: first-party
     skills: first-party
@@ -185,15 +187,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cogniac/refs/heads/main/screenshots/cogniac-2026-07-25T210000.png
+screenshot: https://apis.io/screenshots/cogniac/cogniac-2026-07-25T210000.png
 security:
 - kind: authentication
   name: Cogniac Authentication
@@ -203,6 +205,10 @@ security:
   name: Cogniac Domain Security
   slug: cogniac-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: cogniac
+  slug: cogniac-platform
 slug: cogniac
 tags:
 - Company

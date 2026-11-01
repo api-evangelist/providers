@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.0
-  scored_at: '2026-10-17'
+  score: 22.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Middleware Public API provides programmatic access to observability data including metrics, logs, traces, events, alerts, and dashboards, enabling integration of monitoring and observability into '
@@ -42,32 +44,32 @@ apis:
 artifact_total: 9
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/middleware/refs/heads/main/plans/middleware-plans-pricing.yml
+  href: https://artifacts.apis.io/middleware/plans/middleware-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/middleware-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/middleware/refs/heads/main/rate-limits/middleware-rate-limits.yml
+  href: https://artifacts.apis.io/middleware/rate-limits/middleware-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/middleware-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/middleware/refs/heads/main/finops/middleware-finops.yml
+  href: https://artifacts.apis.io/middleware/finops/middleware-finops.yml
   title: ''
   type: FinOps
   url: finops/middleware-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/middleware/refs/heads/main/security/middleware-trust-center.yml
+  href: https://artifacts.apis.io/middleware/security/middleware-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/middleware-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/middleware/refs/heads/main/security/middleware-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/middleware/security/middleware-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/middleware-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/middleware/refs/heads/main/security/middleware-domain-security.yml
+  href: https://artifacts.apis.io/middleware/security/middleware-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/middleware-domain-security.yml
@@ -108,7 +110,7 @@ common:
   type: Support
   url: https://middleware.io/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/middleware/refs/heads/main/json-ld/middleware-context.jsonld
+  href: https://artifacts.apis.io/middleware/json-ld/middleware-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/middleware-context.jsonld
@@ -122,7 +124,7 @@ finops:
 - has_sources: false
   method: generated
   name: Middleware Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: middleware-finops
   template: true
@@ -152,14 +154,14 @@ plans:
 - name: Middleware Plans Pricing
   plan_count: 3
   slug: middleware-plans-pricing
-random_paper: 20
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Middleware Rate Limits
   slug: middleware-rate-limits
 score:
-  band: emerging
-  composite: 25.5
+  band: thin
+  composite: 29.0
   coverage:
     artifact_dirs: 12
     catalog_earned: 48.0
@@ -167,15 +169,15 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 6.7
-    developer_ergonomics: 31.0
-    discoverability: 75.0
-    operational_transparency: 13.2
-  previous_composite: 27.0
+    developer_ergonomics: 35.7
+    discoverability: 73.2
+    operational_transparency: 23.7
+  previous_composite: 29.0
   provenance:
     mcp: first-party
   regulatory:
@@ -184,14 +186,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/middleware/refs/heads/main/screenshots/middleware-2026-06-20T185551.png
+screenshot: https://apis.io/screenshots/middleware/middleware-2026-06-20T185551.png
 security:
 - kind: domain-security
   name: Middleware Domain Security

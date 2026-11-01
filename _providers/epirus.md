@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epirus/refs/heads/main/security/epirus-domain-security.yml
+  href: https://artifacts.apis.io/epirus/security/epirus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/epirus-domain-security.yml
@@ -122,10 +124,10 @@ overview: 'Epirus is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Epirus'' developer surface includes YouTube channel, engineering blog, and 16 more developer resources.'
-random_paper: 4
+random_paper: 16
 score:
   band: minimal
-  composite: 4.4
+  composite: 4.6
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -139,7 +141,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 50.0
+    discoverability: 51.8
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -148,21 +150,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 4.4
+  previous_composite: 4.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/epirus/refs/heads/main/screenshots/epirus-2026-06-20T180758.png
+screenshot: https://apis.io/screenshots/epirus/epirus-2026-06-20T180758.png
 security:
 - kind: domain-security
   name: Epirus Domain Security

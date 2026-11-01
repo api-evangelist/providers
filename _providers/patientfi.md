@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,17 +37,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/patientfi/refs/heads/main/rate-limits/patientfi-rate-limits.yml
+  href: https://artifacts.apis.io/patientfi/rate-limits/patientfi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/patientfi-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/patientfi/refs/heads/main/security/patientfi-domain-security.yml
+  href: https://artifacts.apis.io/patientfi/security/patientfi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/patientfi-domain-security.yml
@@ -90,17 +92,17 @@ common:
   type: TrustCenter
   url: https://trust.patientfi.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/patientfi/refs/heads/main/llms/patientfi-llms.txt
+  href: https://artifacts.apis.io/patientfi/llms/patientfi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/patientfi-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/patientfi/refs/heads/main/packages/patientfi-packages.yml
+  href: https://artifacts.apis.io/patientfi/packages/patientfi-packages.yml
   title: ''
   type: Packages
   url: packages/patientfi-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/patientfi/refs/heads/main/plans/patientfi-plans-pricing.yml
+  href: https://artifacts.apis.io/patientfi/plans/patientfi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/patientfi-plans-pricing.yml
@@ -109,7 +111,7 @@ common:
   type: Pricing
   url: https://patientfi.com/lending-partners
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/patientfi/refs/heads/main/conformance/patientfi-conformance.yml
+  href: https://artifacts.apis.io/patientfi/conformance/patientfi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/patientfi-conformance.yml
@@ -146,16 +148,16 @@ plans:
 - name: Patientfi Plans Pricing
   plan_count: 2
   slug: patientfi-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Patientfi Rate Limits
   slug: patientfi-rate-limits
 score:
   band: emerging
-  composite: 22.3
+  composite: 22.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 35.0
     catalog_earned_first_party: 8.0
     catalog_gap: 80.0
@@ -167,9 +169,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 22.3
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 22.0
   provenance:
     conformance: first-party
   regulatory:
@@ -182,14 +184,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/patientfi/refs/heads/main/screenshots/patientfi-2026-09-02T150915.png
+screenshot: https://apis.io/screenshots/patientfi/patientfi-2026-09-02T150915.png
 security:
 - kind: domain-security
   name: Patientfi Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: The Great Britain market Account Information Service (AIS) API - retrieve account details, balances, and transactions for consenting Handelsbanken UK customers. Published to the Berlin Group NextGenPS
@@ -60,7 +62,7 @@ apis:
 artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/handelsbanken-uk/refs/heads/main/security/handelsbanken-uk-domain-security.yml
+  href: https://artifacts.apis.io/handelsbanken-uk/security/handelsbanken-uk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/handelsbanken-uk-domain-security.yml
@@ -113,27 +115,27 @@ common:
   type: Compliance
   url: https://register.fca.org.uk/s/firm?id=0010X000049MNcuQAG
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/handelsbanken-uk/refs/heads/main/authentication/handelsbanken-uk-authentication.yml
+  href: https://artifacts.apis.io/handelsbanken-uk/authentication/handelsbanken-uk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/handelsbanken-uk-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/handelsbanken-uk/refs/heads/main/conventions/handelsbanken-uk-conventions.yml
+  href: https://artifacts.apis.io/handelsbanken-uk/conventions/handelsbanken-uk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/handelsbanken-uk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/handelsbanken-uk/refs/heads/main/conventions/handelsbanken-uk-conventions.yml
+  href: https://artifacts.apis.io/handelsbanken-uk/conventions/handelsbanken-uk-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/handelsbanken-uk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/handelsbanken-uk/refs/heads/main/conformance/handelsbanken-uk-conformance.yml
+  href: https://artifacts.apis.io/handelsbanken-uk/conformance/handelsbanken-uk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/handelsbanken-uk-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/handelsbanken-uk/refs/heads/main/lifecycle/handelsbanken-uk-lifecycle.yml
+  href: https://artifacts.apis.io/handelsbanken-uk/lifecycle/handelsbanken-uk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/handelsbanken-uk-lifecycle.yml
@@ -142,17 +144,17 @@ common:
   type: Deprecation
   url: https://developer.handelsbanken.com/api/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/handelsbanken-uk/refs/heads/main/changelog/handelsbanken-uk-changelog.yml
+  href: https://artifacts.apis.io/handelsbanken-uk/changelog/handelsbanken-uk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/handelsbanken-uk-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/handelsbanken-uk/refs/heads/main/sandbox/handelsbanken-uk-sandbox.yml
+  href: https://artifacts.apis.io/handelsbanken-uk/sandbox/handelsbanken-uk-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/handelsbanken-uk-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/handelsbanken-uk/refs/heads/main/llms/handelsbanken-uk-llms.txt
+  href: https://artifacts.apis.io/handelsbanken-uk/llms/handelsbanken-uk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/handelsbanken-uk-llms.txt
@@ -169,10 +171,10 @@ overview: 'Handelsbanken UK is listed with 7 APIs on the [APIs.io](https://apis.
 
 
   Handelsbanken UK''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, changelog, sandbox, and 15 more developer resources.'
-random_paper: 21
+random_paper: 19
 score:
   band: thin
-  composite: 36.1
+  composite: 35.3
   coverage:
     artifact_dirs: 13
     catalog_earned: 40.0
@@ -180,13 +182,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -196,7 +198,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 36.0
+  previous_composite: 35.3
   provenance:
     conformance: first-party
   regulatory:
@@ -213,14 +215,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 34.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/handelsbanken-uk/refs/heads/main/screenshots/handelsbanken-uk-2026-07-25T220612.png
+screenshot: https://apis.io/screenshots/handelsbanken-uk/handelsbanken-uk-2026-07-25T220612.png
 security:
 - kind: authentication
   name: Handelsbanken Uk Authentication

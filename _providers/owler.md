@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: owler-agentic-access
   summary_line: 6 operations
-api_count: 4
+api_count: 1
 apis:
 - baseURL: https://apiv2.owler.com
   baseurl_source: declared
@@ -57,10 +59,10 @@ apis:
   description: Provides Feed information
   name: Owler Feed API
   slug: owler-feed-api-api
-artifact_total: 8
+artifact_total: 12
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/capabilities/owler-capability-edges.yml
+  href: https://artifacts.apis.io/owler/capabilities/owler-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/owler-capability-edges.yml
@@ -69,12 +71,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/meltwater/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/overlays/owler-enterprise-api-overlay.yaml
+  href: https://artifacts.apis.io/owler/overlays/owler-enterprise-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/owler-enterprise-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/agentic-access/owler-agentic-access.yml
+  href: https://artifacts.apis.io/owler/agentic-access/owler-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/owler-agentic-access.yml
@@ -131,68 +133,76 @@ common:
   type: StatusPage
   url: https://status.owler.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/lifecycle/owler-lifecycle.yml
+  href: https://artifacts.apis.io/owler/lifecycle/owler-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/owler-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/plans/owler-plans-pricing.yml
+  href: https://artifacts.apis.io/owler/plans/owler-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/owler-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/rate-limits/owler-rate-limits.yml
+  href: https://artifacts.apis.io/owler/rate-limits/owler-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/owler-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/conventions/owler-conventions.yml
+  href: https://artifacts.apis.io/owler/conventions/owler-conventions.yml
   title: ''
   type: Conventions
   url: conventions/owler-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/conformance/owler-conformance.yml
+  href: https://artifacts.apis.io/owler/conformance/owler-conformance.yml
   title: ''
   type: Conformance
   url: conformance/owler-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/errors/owler-problem-types.yml
+  href: https://artifacts.apis.io/owler/errors/owler-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/owler-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/data-model/owler-data-model.yml
+  href: https://artifacts.apis.io/owler/data-model/owler-data-model.yml
   title: ''
   type: DataModel
   url: data-model/owler-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/packages/owler-packages.yml
+  href: https://artifacts.apis.io/owler/packages/owler-packages.yml
   title: ''
   type: Packages
   url: packages/owler-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/mcp/owler-mcp.yml
+  href: https://artifacts.apis.io/owler/mcp/owler-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/owler-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/llms/owler-llms.txt
+  href: https://artifacts.apis.io/owler/llms/owler-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/owler-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/owler/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/security/owler-domain-security.yml
+  href: https://artifacts.apis.io/owler/security/owler-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/owler-domain-security.yml
 created: '2026-07-17'
 description: 'Owler is a crowdsourced competitive- and business-intelligence platform that maintains real-time profiles on more than 20 million public and private companies, tracking firmographics, funding, and news across 45M+ competitive relationships contributed and validated by a community of 5M+ business professionals. It is delivered as web and mobile apps (Owler Community, Pro, and Max), a Chrome extension, and CRM and collaboration integrations (Salesforce, HubSpot, Slack, Microsoft Teams, ChatGPT). The Owler Enterprise API is a real, publicly documented REST API: a Swagger UI developer portal at developers.owler.com renders an OpenAPI 3.0.1 definition (six read operations across Company Premium, Competitor Premium and Feed, served from https://apiv2.owler.com, authenticated with an x-api-key header) that is fetchable at https://developers-v3.owler.com/apis/api3-swagger.json. Access to the data itself is sold through the data-licensing sales motion rather than self-serve signup,
   and Owler ships no first-party SDKs, CLI or MCP server. Owler was acquired by Meltwater in 2021. Added to the API Evangelist network from the Norwest Venture Partners portfolio.'
+finops:
+- has_sources: true
+  method: derived
+  name: Owler Finops
+  primary_unit: ''
+  service_category: ''
+  slug: owler-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/owler.png
 layout: provider
 modified: '2026-08-14'
@@ -207,30 +217,30 @@ plans:
 - name: Owler Plans Pricing
   plan_count: 0
   slug: owler-plans-pricing
-random_paper: 3
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Owler Rate Limits
   slug: owler-rate-limits
 score:
   band: developing
-  composite: 42.0
+  composite: 43.1
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 40.0
+    artifact_dirs: 24
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
-    access_clarity: 32.9
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 50.8
     developer_ergonomics: 54.2
-    discoverability: 78.6
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 41.4
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,14 +257,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/screenshots/owler-2026-08-07T191152.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/owler/owler-2026-08-07T191152.png
 security:
 - kind: authentication
   name: Owler Authentication
@@ -264,6 +274,14 @@ security:
   name: Owler Domain Security
   slug: owler-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Enrich a company from its domain with Owler
+  slug: owler-enrich-company-from-domain
+- name: Map a company's competitive landscape with Owler
+  slug: owler-map-competitive-landscape
+- name: Monitor company news and funding events with Owler
+  slug: owler-monitor-company-news
 slug: owler
 tags:
 - Company

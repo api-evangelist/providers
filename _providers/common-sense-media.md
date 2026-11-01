@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,27 +57,24 @@ apis:
   description: System and health endpoints.
   name: Common Sense Media System API
   slug: common-sense-media-system-api
-artifact_total: 14
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Common Sense Media reviews system API
   slug: open-common-sense-media-system-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/plans/common-sense-media-plans-pricing.yml
+  href: https://artifacts.apis.io/common-sense-media/plans/common-sense-media-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/common-sense-media-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/rate-limits/common-sense-media-rate-limits.yml
+  href: https://artifacts.apis.io/common-sense-media/rate-limits/common-sense-media-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/common-sense-media-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/finops/common-sense-media-finops.yml
+  href: https://artifacts.apis.io/common-sense-media/finops/common-sense-media-finops.yml
   title: ''
   type: FinOps
   url: finops/common-sense-media-finops.yml
@@ -84,22 +83,22 @@ common:
   type: Blog
   url: https://www.commonsensemedia.org/articles
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/capabilities/common-sense-media-capability-edges.yml
+  href: https://artifacts.apis.io/common-sense-media/capabilities/common-sense-media-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/common-sense-media-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/agentic-access/common-sense-media-agentic-access.yml
+  href: https://artifacts.apis.io/common-sense-media/agentic-access/common-sense-media-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/common-sense-media-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/security/common-sense-media-domain-security.yml
+  href: https://artifacts.apis.io/common-sense-media/security/common-sense-media-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/common-sense-media-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/authentication/common-sense-media-authentication.yml
+  href: https://artifacts.apis.io/common-sense-media/authentication/common-sense-media-authentication.yml
   title: ''
   type: Authentication
   url: authentication/common-sense-media-authentication.yml
@@ -144,17 +143,17 @@ common:
   type: PrivacyPolicy
   url: https://www.commonsensemedia.org/privacy-policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/json-ld/common-sense-media-context.jsonld
+  href: https://artifacts.apis.io/common-sense-media/json-ld/common-sense-media-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/common-sense-media-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/json-schema/common-sense-media-review-schema.json
+  href: https://artifacts.apis.io/common-sense-media/json-schema/common-sense-media-review-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/common-sense-media-review-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/rules/common-sense-media-rules.yml
+  href: https://artifacts.apis.io/common-sense-media/rules/common-sense-media-rules.yml
   title: ''
   type: Spectral
   url: rules/common-sense-media-rules.yml
@@ -164,7 +163,7 @@ finops:
 - has_sources: false
   method: generated
   name: Common Sense Media Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: common-sense-media-finops
   template: true
@@ -194,7 +193,7 @@ plans:
 - name: Common Sense Media Plans Pricing
   plan_count: 3
   slug: common-sense-media-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Common Sense Media Rate Limits
@@ -225,23 +224,23 @@ rules:
   slug: common-sense-media-rules
 score:
   band: thin
-  composite: 29.8
+  composite: 32.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 52.5
     catalog_earned_first_party: 0.0
     catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 54.5
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 30.8
+    operational_transparency: 13.2
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -254,15 +253,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 20.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/screenshots/common-sense-media-2026-06-20T174819.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/common-sense-media/common-sense-media-2026-06-20T174819.png
 security:
 - kind: authentication
   name: Common Sense Media Authentication

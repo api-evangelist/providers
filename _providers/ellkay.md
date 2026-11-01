@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.7
-  scored_at: '2026-10-17'
+  score: 33.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 114
   human_in_the_loop: 0
@@ -252,47 +254,47 @@ apis:
 artifact_total: 60
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/agentic-access/ellkay-agentic-access.yml
+  href: https://artifacts.apis.io/ellkay/agentic-access/ellkay-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ellkay-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/rules/ellkay-rules.yml
+  href: https://artifacts.apis.io/ellkay/rules/ellkay-rules.yml
   title: ''
   type: Spectral
   url: rules/ellkay-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/json-ld/ellkay-context.jsonld
+  href: https://artifacts.apis.io/ellkay/json-ld/ellkay-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/ellkay-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/vocabulary/ellkay-vocabulary.yml
+  href: https://artifacts.apis.io/ellkay/vocabulary/ellkay-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ellkay-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/data-model/ellkay-data-model.yml
+  href: https://artifacts.apis.io/ellkay/data-model/ellkay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ellkay-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/errors/ellkay-problem-types.yml
+  href: https://artifacts.apis.io/ellkay/errors/ellkay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ellkay-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/hosts/ellkay-hosts.yml
+  href: https://artifacts.apis.io/ellkay/hosts/ellkay-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ellkay-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/integrations/ellkay-integration-edges.yml
+  href: https://artifacts.apis.io/ellkay/integrations/ellkay-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/ellkay-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/vendors/ellkay-vendors.yml
+  href: https://artifacts.apis.io/ellkay/vendors/ellkay-vendors.yml
   title: ''
   type: Vendors
   url: vendors/ellkay-vendors.yml
@@ -317,12 +319,12 @@ common:
   type: APIReference
   url: https://lkcloud-api.readme.io/reference
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/authentication/ellkay-authentication.yml
+  href: https://artifacts.apis.io/ellkay/authentication/ellkay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ellkay-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/changelog/ellkay-changelog.yml
+  href: https://artifacts.apis.io/ellkay/changelog/ellkay-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ellkay-changelog.yml
@@ -343,47 +345,47 @@ common:
   type: PrivacyPolicy
   url: https://www.ellkay.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/well-known/ellkay-well-known.yml
+  href: https://artifacts.apis.io/ellkay/well-known/ellkay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ellkay-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/conventions/ellkay-conventions.yml
+  href: https://artifacts.apis.io/ellkay/conventions/ellkay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ellkay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/errors/ellkay-error-codes.yml
+  href: https://artifacts.apis.io/ellkay/errors/ellkay-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ellkay-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/rate-limits/ellkay-rate-limits.yml
+  href: https://artifacts.apis.io/ellkay/rate-limits/ellkay-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ellkay-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/lifecycle/ellkay-lifecycle.yml
+  href: https://artifacts.apis.io/ellkay/lifecycle/ellkay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ellkay-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/conformance/ellkay-conformance.yml
+  href: https://artifacts.apis.io/ellkay/conformance/ellkay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ellkay-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/sandbox/ellkay-sandbox.yml
+  href: https://artifacts.apis.io/ellkay/sandbox/ellkay-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ellkay-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/mcp/ellkay-mcp.yml
+  href: https://artifacts.apis.io/ellkay/mcp/ellkay-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ellkay-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/security/ellkay-domain-security.yml
+  href: https://artifacts.apis.io/ellkay/security/ellkay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ellkay-domain-security.yml
@@ -444,7 +446,7 @@ overview: 'ELLKAY publishes 42 API contracts indexed on the [APIs.io](https://ap
 
 
   ELLKAY''s developer surface includes documentation, API reference, authentication, changelog, engineering blog, support, sandbox, and 22 more developer resources.'
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Ellkay Rate Limits
@@ -464,7 +466,7 @@ rules:
   slug: ellkay-rules
 score:
   band: developing
-  composite: 45.9
+  composite: 47.1
   coverage:
     artifact_dirs: 24
     catalog_earned: 70.8
@@ -472,15 +474,15 @@ score:
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 18.8
+  delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 35.6
-    contract_quality: 60.5
-    developer_ergonomics: 39.3
+    contract_quality: 57.9
+    developer_ergonomics: 52.4
     discoverability: 67.9
     operational_transparency: 36.8
-  previous_composite: 27.1
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -496,13 +498,14 @@ score:
     regime: Health
     regime_id: health
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/screenshots/ellkay-2026-07-25T213153.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ellkay/ellkay-2026-07-25T213153.png
 security:
 - kind: authentication
   name: Ellkay Authentication

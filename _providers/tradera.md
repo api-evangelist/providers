@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-17'
+  score: 21.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -91,52 +93,52 @@ apis:
 artifact_total: 22
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/agentic-access/tradera-agentic-access.yml
+  href: https://artifacts.apis.io/tradera/agentic-access/tradera-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tradera-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/rules/tradera-rules.yml
+  href: https://artifacts.apis.io/tradera/rules/tradera-rules.yml
   title: ''
   type: Spectral
   url: rules/tradera-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/json-ld/tradera-context.jsonld
+  href: https://artifacts.apis.io/tradera/json-ld/tradera-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tradera-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/vocabulary/tradera-vocabulary.yml
+  href: https://artifacts.apis.io/tradera/vocabulary/tradera-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tradera-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/data-model/tradera-data-model.yml
+  href: https://artifacts.apis.io/tradera/data-model/tradera-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tradera-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/conformance/tradera-conformance.yml
+  href: https://artifacts.apis.io/tradera/conformance/tradera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tradera-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/llms/tradera-llms.txt
+  href: https://artifacts.apis.io/tradera/llms/tradera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tradera-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/well-known/tradera-well-known.yml
+  href: https://artifacts.apis.io/tradera/well-known/tradera-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tradera-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/hosts/tradera-hosts.yml
+  href: https://artifacts.apis.io/tradera/hosts/tradera-hosts.yml
   title: ''
   type: Hosts
   url: hosts/tradera-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/vendors/tradera-vendors.yml
+  href: https://artifacts.apis.io/tradera/vendors/tradera-vendors.yml
   title: ''
   type: Vendors
   url: vendors/tradera-vendors.yml
@@ -165,12 +167,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/tradera
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/authentication/tradera-authentication.yml
+  href: https://artifacts.apis.io/tradera/authentication/tradera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tradera-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/security/tradera-domain-security.yml
+  href: https://artifacts.apis.io/tradera/security/tradera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tradera-domain-security.yml
@@ -217,7 +219,7 @@ overview: 'Tradera publishes 11 API contracts indexed on the [APIs.io](https://a
 
 
   Tradera''s developer surface includes support, signup flow, API reference, authentication, and 15 more developer resources.'
-random_paper: 13
+random_paper: 19
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -233,7 +235,7 @@ rules:
   slug: tradera-rules
 score:
   band: thin
-  composite: 38.7
+  composite: 35.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 62.8
@@ -241,13 +243,23 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 22.0
     contract_quality: 51.7
     developer_ergonomics: 23.8
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 5.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - sweden
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,11 +275,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Tradera Authentication

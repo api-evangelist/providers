@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: An API for checking the context of inputs and managing contextChecks and visionAnalyses.
@@ -32,37 +34,37 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackbirdai/refs/heads/main/authentication/blackbirdai-authentication.yml
+  href: https://artifacts.apis.io/blackbirdai/authentication/blackbirdai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blackbirdai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blackbirdai/refs/heads/main/conformance/blackbirdai-conformance.yml
+  href: https://artifacts.apis.io/blackbirdai/conformance/blackbirdai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blackbirdai-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blackbirdai/refs/heads/main/overlays/blackbirdai-compass-openapi-overlay.yml
+  href: https://artifacts.apis.io/blackbirdai/overlays/blackbirdai-compass-openapi-overlay.yml
   title: ''
   type: Overlay
   url: overlays/blackbirdai-compass-openapi-overlay.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blackbirdai/refs/heads/main/llms/blackbirdai-llms.txt
+  href: https://artifacts.apis.io/blackbirdai/llms/blackbirdai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blackbirdai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blackbirdai/refs/heads/main/well-known/blackbirdai-well-known.yml
+  href: https://artifacts.apis.io/blackbirdai/well-known/blackbirdai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/blackbirdai-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blackbirdai/refs/heads/main/hosts/blackbirdai-hosts.yml
+  href: https://artifacts.apis.io/blackbirdai/hosts/blackbirdai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blackbirdai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blackbirdai/refs/heads/main/vendors/blackbirdai-vendors.yml
+  href: https://artifacts.apis.io/blackbirdai/vendors/blackbirdai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blackbirdai-vendors.yml
@@ -103,7 +105,7 @@ common:
   type: Documentation
   url: https://docs.blackbird.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackbirdai/refs/heads/main/security/blackbirdai-domain-security.yml
+  href: https://artifacts.apis.io/blackbirdai/security/blackbirdai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blackbirdai-domain-security.yml
@@ -134,10 +136,10 @@ overview: 'Blackbird.AI is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   Blackbird.AI''s developer surface includes authentication, pricing, engineering blog, getting-started guide, documentation, and 13 more developer resources.'
-random_paper: 6
+random_paper: 0
 score:
   band: emerging
-  composite: 25.4
+  composite: 24.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -145,15 +147,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 76.8
+    discoverability: 69.6
     operational_transparency: 0.0
-  previous_composite: 24.8
+  previous_composite: 24.7
   provenance:
     conformance: derived
     mcp: derived
@@ -163,8 +165,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

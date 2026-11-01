@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for programmatically managing GPU deployments across the Spheron marketplace. Covers provider and GPU-offer discovery, deployment lifecycle (create, list, get, rename, terminate, can-terminat
@@ -41,7 +43,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spheron/refs/heads/main/security/spheron-domain-security.yml
+  href: https://artifacts.apis.io/spheron/security/spheron-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spheron-domain-security.yml
@@ -162,10 +164,10 @@ overview: 'Spheron is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Spheron''s developer surface includes pricing, developer console, signup flow, documentation, API reference, engineering blog, GitHub presence, and 20 more developer resources.'
-random_paper: 19
+random_paper: 23
 score:
   band: emerging
-  composite: 20.7
+  composite: 22.6
   coverage:
     artifact_dirs: 4
     catalog_earned: 37.0
@@ -178,24 +180,24 @@ score:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 50.0
+    developer_ergonomics: 59.5
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 20.7
+  previous_composite: 22.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/spheron/refs/heads/main/screenshots/spheron-2026-06-20T194308.png
+screenshot: https://apis.io/screenshots/spheron/spheron-2026-06-20T194308.png
 security:
 - kind: domain-security
   name: Spheron Domain Security

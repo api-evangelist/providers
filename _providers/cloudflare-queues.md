@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.2
-  scored_at: '2026-10-17'
+  score: 27.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -65,7 +67,7 @@ apis:
   description: Operations for managing Cloudflare Queues and their configuration
   name: Cloudflare Queues Queue API
   slug: cloudflare-queues-queue-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: postman
   name: Cloudflare Queues Consumer API
@@ -79,9 +81,6 @@ collections:
 - collection_type: postman
   name: Cloudflare Queues Consumer Queue API
   slug: postman-cloudflare-queues-queue-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cloudflare Queues Consumer API
   slug: open-cloudflare-queues-consumer-api
@@ -124,22 +123,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/cloudflare-queues/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/agentic-access/cloudflare-queues-agentic-access.yml
+  href: https://artifacts.apis.io/cloudflare-queues/agentic-access/cloudflare-queues-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cloudflare-queues-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/security/cloudflare-queues-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cloudflare-queues/security/cloudflare-queues-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cloudflare-queues-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/security/cloudflare-queues-domain-security.yml
+  href: https://artifacts.apis.io/cloudflare-queues/security/cloudflare-queues-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudflare-queues-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/authentication/cloudflare-queues-authentication.yml
+  href: https://artifacts.apis.io/cloudflare-queues/authentication/cloudflare-queues-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloudflare-queues-authentication.yml
@@ -196,17 +195,17 @@ common:
   type: ChangeLog
   url: https://developers.cloudflare.com/changelog/product/queues/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/plans/cloudflare-queues-plans-pricing.yml
+  href: https://artifacts.apis.io/cloudflare-queues/plans/cloudflare-queues-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloudflare-queues-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/rate-limits/cloudflare-queues-rate-limits.yml
+  href: https://artifacts.apis.io/cloudflare-queues/rate-limits/cloudflare-queues-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cloudflare-queues-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/finops/cloudflare-queues-finops.yml
+  href: https://artifacts.apis.io/cloudflare-queues/finops/cloudflare-queues-finops.yml
   title: ''
   type: FinOps
   url: finops/cloudflare-queues-finops.yml
@@ -226,13 +225,13 @@ examples:
   name: Cloudflare Queues Push Message
   slug: cloudflare-queues-push-message
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Cloudflare Queues Finops
-  primary_unit: ''
+  primary_unit: operations
   service_category: ''
   slug: cloudflare-queues-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudflare-queues.png
 json_schemas:
 - name: Cloudflare Queue Consumer
@@ -265,7 +264,7 @@ plans:
 - name: Cloudflare Queues Plans Pricing
   plan_count: 2
   slug: cloudflare-queues-plans-pricing
-random_paper: 6
+random_paper: 14
 rate_limits:
 - limit_count: 20
   name: Cloudflare Queues Rate Limits
@@ -284,46 +283,44 @@ rules:
   slug: cloudflare-queues-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.8
+  composite: 47.9
   coverage:
     artifact_dirs: 17
-    catalog_earned: 53.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 61.8
+    catalog_earned: 62.3
+    catalog_earned_first_party: 8.0
+    catalog_gap: 52.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.2
+  delta: 1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 57.8
-    developer_ergonomics: 44.0
+    developer_ergonomics: 47.1
     discoverability: 66.1
     operational_transparency: 55.3
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 55.0
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/screenshots/cloudflare-queues-2026-06-20T174559.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cloudflare-queues/cloudflare-queues-2026-06-20T174559.png
 security:
 - kind: authentication
   name: Cloudflare Queues Authentication

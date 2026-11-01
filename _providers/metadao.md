@@ -19,22 +19,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 22.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://market-api.metadao.fi
   baseurl_source: declared
@@ -56,11 +58,8 @@ apis:
   description: Aggregate trading volume
   name: MetaDAO Volume API
   slug: metadao-volume-api
-artifact_total: 12
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MetaDAO Futarchy DEX Meta API
   slug: open-metadao-meta-api
@@ -99,62 +98,62 @@ common:
   type: GitHubOrganization
   url: https://github.com/metaDAOproject
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/authentication/metadao-authentication.yml
+  href: https://artifacts.apis.io/metadao/authentication/metadao-authentication.yml
   title: ''
   type: Authentication
   url: authentication/metadao-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/errors/metadao-error-codes.yml
+  href: https://artifacts.apis.io/metadao/errors/metadao-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/metadao-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/lifecycle/metadao-lifecycle.yml
+  href: https://artifacts.apis.io/metadao/lifecycle/metadao-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/metadao-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/conventions/metadao-conventions.yml
+  href: https://artifacts.apis.io/metadao/conventions/metadao-conventions.yml
   title: ''
   type: Conventions
   url: conventions/metadao-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/conformance/metadao-conformance.yml
+  href: https://artifacts.apis.io/metadao/conformance/metadao-conformance.yml
   title: ''
   type: Conformance
   url: conformance/metadao-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/security/metadao-domain-security.yml
+  href: https://artifacts.apis.io/metadao/security/metadao-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/metadao-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/data-model/metadao-data-model.yml
+  href: https://artifacts.apis.io/metadao/data-model/metadao-data-model.yml
   title: ''
   type: DataModel
   url: data-model/metadao-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/rate-limits/metadao-rate-limits.yml
+  href: https://artifacts.apis.io/metadao/rate-limits/metadao-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/metadao-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/mcp/metadao-mcp.yml
+  href: https://artifacts.apis.io/metadao/mcp/metadao-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/metadao-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/skills/metadao-market-data.md
+  href: https://artifacts.apis.io/metadao/skills/metadao-market-data.md
   title: ''
   type: AgentSkill
   url: skills/metadao-market-data.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/skills/metadao-token-supply.md
+  href: https://artifacts.apis.io/metadao/skills/metadao-token-supply.md
   title: ''
   type: AgentSkill
   url: skills/metadao-token-supply.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/llms/metadao-llms.txt
+  href: https://artifacts.apis.io/metadao/llms/metadao-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/metadao-llms.txt
@@ -166,41 +165,41 @@ modified: '2026-07-20'
 name: MetaDAO
 nav: Providers
 network: true
-overview: 'MetaDAO is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Meta API, Supply API, Tickers API, and 1 more. Tagged areas include Company, Crypto Tools, DeFi, Solana, and Decentralized Exchange.
+overview: 'MetaDAO publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Meta API, Supply API, Tickers API, and 1 more. Tagged areas include Company, Crypto Tools, DeFi, Solana, and Decentralized Exchange.
 
 
   MetaDAO''s developer surface includes documentation, API reference, getting-started guide, authentication, and 14 more developer resources.'
-random_paper: 5
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Metadao Rate Limits
   slug: metadao-rate-limits
 score:
   band: thin
-  composite: 33.8
+  composite: 32.4
   coverage:
     artifact_dirs: 16
-    catalog_earned: 48.0
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -1.1
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 44.1
+    contract_quality: 42.4
     developer_ergonomics: 51.8
-    discoverability: 78.6
-    operational_transparency: 23.7
-  previous_composite: 33.7
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 33.5
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 45.5
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 11
     mcp: derived
     skills: derived
   regulatory:
@@ -209,14 +208,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/screenshots/metadao-2026-08-07T172641.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/metadao/metadao-2026-08-07T172641.png
 security:
 - kind: authentication
   name: Metadao Authentication
@@ -226,6 +225,12 @@ security:
   name: Metadao Domain Security
   slug: metadao-domain-security
   summary_line: DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Pull MetaDAO Futarchy market data
+  slug: metadao-market-data
+- name: Look up MetaDAO token supply
+  slug: metadao-token-supply
 slug: metadao
 tags:
 - Company

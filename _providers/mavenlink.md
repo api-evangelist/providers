@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 61.3
-  scored_at: '2026-10-17'
+  score: 55.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 251
   human_in_the_loop: 11
@@ -46,7 +48,7 @@ agentic_access:
   operation_count: 419
   slug: mavenlink-agentic-access
   summary_line: 419 operations · 251 acting · 11 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: Remote Model Context Protocol server operated by Kantata on the Mavenlink API host. Advertised anonymously through RFC 9728 protected-resource metadata at https://api.mavenlink.com/.well-known/oauth-p
   name: Kantata OX MCP Server
@@ -559,24 +561,24 @@ apis:
   description: Workweeks in Kantata OX are owned by an Account. They can be used as the default for an Account or can be associated to a User through a Workweek Membership.
   name: Mavenlink Workweeks API
   slug: mavenlink-workweeks-api
-artifact_total: 114
+artifact_total: 119
 asyncapis:
 - description: ''
   name: Mavenlink Event Surface
   slug: mavenlink-event-surface
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/capabilities/mavenlink-capability-edges.yml
+  href: https://artifacts.apis.io/mavenlink/capabilities/mavenlink-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mavenlink-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/agentic-access/mavenlink-agentic-access.yml
+  href: https://artifacts.apis.io/mavenlink/agentic-access/mavenlink-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mavenlink-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/security/mavenlink-domain-security.yml
+  href: https://artifacts.apis.io/mavenlink/security/mavenlink-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mavenlink-domain-security.yml
@@ -633,7 +635,7 @@ common:
   type: PrivacyPolicy
   url: https://www.kantata.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/security/mavenlink-trust-center.yml
+  href: https://artifacts.apis.io/mavenlink/security/mavenlink-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mavenlink-trust-center.yml
@@ -642,113 +644,121 @@ common:
   type: StatusPage
   url: https://status.mavenlink.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/changelog/mavenlink-changelog.yml
+  href: https://artifacts.apis.io/mavenlink/changelog/mavenlink-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mavenlink-changelog.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/openapi/_original/mavenlink-openapi.yml
+  href: https://artifacts.apis.io/mavenlink/openapi/_original/mavenlink-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/mavenlink-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/grpc/mavenlink-connector.proto
+  href: https://artifacts.apis.io/mavenlink/grpc/mavenlink-connector.proto
   title: ''
   type: Protobuf
   url: grpc/mavenlink-connector.proto
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/llms/mavenlink-llms.txt
+  href: https://artifacts.apis.io/mavenlink/llms/mavenlink-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mavenlink-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/well-known/mavenlink-well-known.yml
+  href: https://artifacts.apis.io/mavenlink/well-known/mavenlink-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mavenlink-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/a2a/mavenlink-a2a.yml
+  href: https://artifacts.apis.io/mavenlink/a2a/mavenlink-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/mavenlink-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/mcp/mavenlink-mcp.yml
+  href: https://artifacts.apis.io/mavenlink/mcp/mavenlink-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mavenlink-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/mcp/mavenlink-tool-crosswalk.yml
+  href: https://artifacts.apis.io/mavenlink/mcp/mavenlink-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/mavenlink-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/authentication/mavenlink-authentication.yml
+  href: https://artifacts.apis.io/mavenlink/authentication/mavenlink-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mavenlink-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/scopes/mavenlink-scopes.yml
+  href: https://artifacts.apis.io/mavenlink/scopes/mavenlink-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mavenlink-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/conventions/mavenlink-conventions.yml
+  href: https://artifacts.apis.io/mavenlink/conventions/mavenlink-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mavenlink-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/lifecycle/mavenlink-lifecycle.yml
+  href: https://artifacts.apis.io/mavenlink/lifecycle/mavenlink-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mavenlink-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/conformance/mavenlink-conformance.yml
+  href: https://artifacts.apis.io/mavenlink/conformance/mavenlink-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mavenlink-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/errors/mavenlink-problem-types.yml
+  href: https://artifacts.apis.io/mavenlink/errors/mavenlink-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mavenlink-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/data-model/mavenlink-data-model.yml
+  href: https://artifacts.apis.io/mavenlink/data-model/mavenlink-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mavenlink-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/overlays/mavenlink-openapi-overlay.yaml
+  href: https://artifacts.apis.io/mavenlink/overlays/mavenlink-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mavenlink-openapi-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/packages/mavenlink-packages.yml
+  href: https://artifacts.apis.io/mavenlink/packages/mavenlink-packages.yml
   title: ''
   type: Packages
   url: packages/mavenlink-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/packages/mavenlink-packages.yml
+  href: https://artifacts.apis.io/mavenlink/packages/mavenlink-packages.yml
   title: ''
   type: SDKs
   url: packages/mavenlink-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mavenlink/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/plans/mavenlink-plans-pricing.yml
+  href: https://artifacts.apis.io/mavenlink/plans/mavenlink-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mavenlink-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/rate-limits/mavenlink-rate-limits.yml
+  href: https://artifacts.apis.io/mavenlink/rate-limits/mavenlink-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mavenlink-rate-limits.yml
 created: '2026-08-25'
 description: 'Mavenlink is the professional services automation (PSA) platform now shipped as Kantata OX, following the 2022 merger of Mavenlink and Kimble Applications that formed Kantata. It combines project management, resource management and forecasting, time and expense tracking, project accounting, invoicing, rate cards, and business intelligence for services organizations. The public REST API is still served from the original Mavenlink domain at https://api.mavenlink.com/api/v1/ and is documented as the "Kantata OX API" at developer.kantata.com: a Swagger 2.0 contract covering 419 operations across 218 paths and roughly 100 resource groups, authenticated with OAuth 2.0 authorization-code bearer tokens issued from app.mavenlink.com. Alongside REST the company operates an OAuth-gated remote MCP server at https://api.mavenlink.com/mcp, publishes an A2A agent card and an anonymous documentation MCP server on its developer portal, and ships a gRPC connector service definition that third
   parties implement to extend the Kantata Workflow Platform with custom triggers and actions.'
+finops:
+- has_sources: true
+  method: derived
+  name: Mavenlink Finops
+  primary_unit: ''
+  service_category: ''
+  slug: mavenlink-finops
+  template: true
 image: https://www.kantata.com/images/logos/Kantata.png
 layout: provider
 mcp_servers:
@@ -773,7 +783,7 @@ plans:
 - name: Mavenlink Plans Pricing
   plan_count: 0
   slug: mavenlink-plans-pricing
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Mavenlink Rate Limits
@@ -784,24 +794,24 @@ scopes:
   slug: mavenlink-scopes
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 55.2
+  band: developing
+  composite: 53.0
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 28
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 52.6
     contract_governance: 4.5
-    contract_quality: 56.1
+    contract_quality: 52.7
     developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 34.2
-  previous_composite: 55.1
+    discoverability: 71.7
+    operational_transparency: 36.8
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -818,13 +828,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/screenshots/mavenlink-2026-09-02T150445.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mavenlink/mavenlink-2026-09-02T150445.png
 security:
 - kind: authentication
   name: Mavenlink Authentication
@@ -842,6 +853,16 @@ security:
   name: Mavenlink Trust Center
   slug: mavenlink-trust-center
   summary_line: trust center published
+skill_count: 4
+skills:
+- name: mavenlink-change-feed-sync
+  slug: mavenlink-change-feed-sync
+- name: mavenlink-expense-and-invoice
+  slug: mavenlink-expense-and-invoice
+- name: mavenlink-project-setup
+  slug: mavenlink-project-setup
+- name: mavenlink-time-and-approval
+  slug: mavenlink-time-and-approval
 slug: mavenlink
 tags:
 - Professional Services Automation

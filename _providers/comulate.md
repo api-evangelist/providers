@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/comulate/refs/heads/main/rate-limits/comulate-rate-limits.yml
+  href: https://artifacts.apis.io/comulate/rate-limits/comulate-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/comulate-rate-limits.yml
@@ -74,42 +76,42 @@ common:
   type: Security
   url: https://comulate.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/comulate/refs/heads/main/security/comulate-domain-security.yml
+  href: https://artifacts.apis.io/comulate/security/comulate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/comulate-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/comulate/refs/heads/main/security/comulate-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/comulate/security/comulate-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/comulate-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/comulate/refs/heads/main/security/comulate-trust-center.yml
+  href: https://artifacts.apis.io/comulate/security/comulate-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/comulate-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/comulate/refs/heads/main/conformance/comulate-conformance.yml
+  href: https://artifacts.apis.io/comulate/conformance/comulate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/comulate-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/comulate/refs/heads/main/lifecycle/comulate-lifecycle.yml
+  href: https://artifacts.apis.io/comulate/lifecycle/comulate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/comulate-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/comulate/refs/heads/main/llms/comulate-llms.txt
+  href: https://artifacts.apis.io/comulate/llms/comulate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/comulate-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/comulate/refs/heads/main/plans/comulate-plans-pricing.yml
+  href: https://artifacts.apis.io/comulate/plans/comulate-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/comulate-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/comulate/refs/heads/main/packages/comulate-packages.yml
+  href: https://artifacts.apis.io/comulate/packages/comulate-packages.yml
   title: ''
   type: Packages
   url: packages/comulate-packages.yml
@@ -141,16 +143,16 @@ plans:
 - name: Comulate Plans Pricing
   plan_count: 0
   slug: comulate-plans-pricing
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Comulate Rate Limits
   slug: comulate-rate-limits
 score:
   band: emerging
-  composite: 20.2
+  composite: 22.8
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -158,13 +160,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 55.4
-    operational_transparency: 10.5
-  previous_composite: 20.2
+    discoverability: 48.2
+    operational_transparency: 26.3
+  previous_composite: 22.8
   provenance:
     conformance: first-party
   regulatory:
@@ -173,14 +175,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/comulate/refs/heads/main/screenshots/comulate-2026-07-25T210210.png
+screenshot: https://apis.io/screenshots/comulate/comulate-2026-07-25T210210.png
 security:
 - kind: domain-security
   name: Comulate Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -118,15 +120,12 @@ apis:
   description: User accounts that may belong to multiple organizations and flows.
   name: Flowdock (Discontinued) Users API
   slug: flowdock-users-api
-artifact_total: 59
+artifact_total: 58
 asyncapis:
 - description: 'Historical streaming surface for CA Flowdock. Long-lived HTTP connection that emitted real-time message events from one or more flows. Two content types were supported: a newline-delimited JSON stream'
   name: Flowdock Streaming API
   slug: flowdock-streaming-api-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Flowdock Push Authentication API
   slug: open-flowdock-authentication-api
@@ -177,32 +176,32 @@ collections:
   slug: open-flowdock-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/capabilities/flowdock-capability-edges.yml
+  href: https://artifacts.apis.io/flowdock/capabilities/flowdock-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/flowdock-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/agentic-access/flowdock-agentic-access.yml
+  href: https://artifacts.apis.io/flowdock/agentic-access/flowdock-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/flowdock-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/security/flowdock-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/flowdock/security/flowdock-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/flowdock-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/security/flowdock-domain-security.yml
+  href: https://artifacts.apis.io/flowdock/security/flowdock-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flowdock-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/authentication/flowdock-authentication.yml
+  href: https://artifacts.apis.io/flowdock/authentication/flowdock-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flowdock-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/scopes/flowdock-scopes.yml
+  href: https://artifacts.apis.io/flowdock/scopes/flowdock-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/flowdock-scopes.yml
@@ -239,12 +238,12 @@ common:
   type: SunsetNotice
   url: https://www.broadcom.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/vocabulary/flowdock-vocabulary.yml
+  href: https://artifacts.apis.io/flowdock/vocabulary/flowdock-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/flowdock-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/json-ld/flowdock-context.jsonld
+  href: https://artifacts.apis.io/flowdock/json-ld/flowdock-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/flowdock-context.jsonld
@@ -402,7 +401,7 @@ overview: 'Flowdock (Discontinued) publishes 15 API contracts indexed on the [AP
 
 
   Flowdock (Discontinued)''s developer surface includes authentication, developer portal, documentation, engineering blog, GitHub presence, and 31 more developer resources.'
-random_paper: 21
+random_paper: 17
 rules:
 - authorship: generated
   effective_rule_count: 32
@@ -477,13 +476,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/screenshots/flowdock-2026-06-20T181333.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/flowdock/flowdock-2026-06-20T181333.png
 security:
 - kind: authentication
   name: Flowdock Authentication

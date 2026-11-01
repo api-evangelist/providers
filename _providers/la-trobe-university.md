@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'La Trobe''s own API gateway, an Azure API Management instance published at api.latrobe.edu.au (CNAME ltu-api-prod-apim.developer.azure-api.net). It is not a public developer product: every path returns'
@@ -76,37 +78,37 @@ common:
   type: IdentityFederation
   url: https://aaf.latrobe.edu.au/idp/shibboleth
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/conformance/la-trobe-university-conformance.yml
+  href: https://artifacts.apis.io/la-trobe-university/conformance/la-trobe-university-conformance.yml
   title: ''
   type: Conformance
   url: conformance/la-trobe-university-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/json-ld/la-trobe-university-context.jsonld
+  href: https://artifacts.apis.io/la-trobe-university/json-ld/la-trobe-university-context.jsonld
   title: ''
   type: x-json-ld
   url: json-ld/la-trobe-university-context.jsonld
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/security/la-trobe-university-domain-security.yml
+  href: https://artifacts.apis.io/la-trobe-university/security/la-trobe-university-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/la-trobe-university-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/plans/la-trobe-university-plans-pricing.yml
+  href: https://artifacts.apis.io/la-trobe-university/plans/la-trobe-university-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/la-trobe-university-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/rate-limits/la-trobe-university-rate-limits.yml
+  href: https://artifacts.apis.io/la-trobe-university/rate-limits/la-trobe-university-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/la-trobe-university-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/finops/la-trobe-university-finops.yml
+  href: https://artifacts.apis.io/la-trobe-university/finops/la-trobe-university-finops.yml
   title: ''
   type: FinOps
   url: finops/la-trobe-university-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/la-trobe-university/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -137,8 +139,8 @@ coverage:
     url: https://www.latrobe.edu.au/llms.txt
   - status: 403
     url: https://www.latrobe.edu.au/.well-known/security.txt
-  reason: no_public_api
-  state: gated
+  reason: no-developer-program
+  state: none
 created: '2026-06-03'
 description: 'La Trobe University is a public research university headquartered in Bundoora, Melbourne, Victoria, Australia, founded in 1964 and ranked #217 in the QS World University Rankings 2025. La Trobe operates no public, self-service API product and publishes no OpenAPI, AsyncAPI or GraphQL description of its own. Its single institution-operated API host, api.latrobe.edu.au, is an Azure API Management developer portal (CNAME ltu-api-prod-apim.developer.azure-api.net) that redirects every unauthenticated path to /signin, with no public catalogue, documentation or sign-up. Everything else that looks programmable under the La Trobe name is a vendor platform running under an institutional tenancy: the open-access repository OPAL (opal.latrobe.edu.au, CNAME figshare.com) and its alias researchdata.latrobe.edu.au are Figshare; the course handbook (handbook.latrobe.edu.au) is CourseLoop, whose backend at cf-api-ap-southeast-2.prod.courseloop.com refuses unauthenticated calls; library discovery
   and resource management are Ex Libris Primo and Alma; the Shibboleth identity provider at aaf.latrobe.edu.au is operated by the Australian Access Federation under La Trobe''s own domain, entityID and scope. What La Trobe genuinely holds in its own name is registry identity — a DataCite membership with the DOI prefix 10.26181 over 47,824 DOIs, Crossref member 11371, ROR 01rxfrp27, and the AAF/eduGAIN SAML entity that federates its staff and students. That is the honest footprint: institutional identity and stewardship, not institutional engineering.'
@@ -169,14 +171,14 @@ plans:
 - name: La Trobe University Plans Pricing
   plan_count: 2
   slug: la-trobe-university-plans-pricing
-random_paper: 21
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: La Trobe University Rate Limits
   slug: la-trobe-university-rate-limits
 score:
   band: emerging
-  composite: 15.8
+  composite: 18.2
   coverage:
     artifact_dirs: 9
     catalog_earned: 52.0
@@ -184,12 +186,12 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 4.5
     contract_quality: 14.3
-    developer_ergonomics: 9.5
+    developer_ergonomics: 21.4
     discoverability: 71.4
     operational_transparency: 5.3
   jurisdiction:
@@ -199,7 +201,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 17.4
+  previous_composite: 18.2
   provenance:
     conformance: derived
   regulatory:
@@ -208,14 +210,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/screenshots/la-trobe-university-2026-06-20T184236.png
+screenshot: https://apis.io/screenshots/la-trobe-university/la-trobe-university-2026-06-20T184236.png
 security:
 - kind: domain-security
   name: La Trobe University Domain Security

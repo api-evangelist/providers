@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -45,12 +47,12 @@ common:
   type: Support
   url: https://www.tryastraea.com/contact
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/astraea/refs/heads/main/security/astraea-domain-security.yml
+  href: https://artifacts.apis.io/astraea/security/astraea-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/astraea-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/astraea/refs/heads/main/llms/astraea-llms.txt
+  href: https://artifacts.apis.io/astraea/llms/astraea-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/astraea-llms.txt
@@ -66,12 +68,12 @@ overview: 'Astraea is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Astraea''s developer surface includes support and 3 more developer resources.'
-random_paper: 11
+random_paper: 17
 score:
   band: minimal
-  composite: 5.3
+  composite: 4.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -83,23 +85,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 5.3
+  previous_composite: 4.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/astraea/refs/heads/main/screenshots/astraea-2026-07-25T201457.png
+screenshot: https://apis.io/screenshots/astraea/astraea-2026-07-25T201457.png
 security:
 - kind: domain-security
   name: Astraea Domain Security

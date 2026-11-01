@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Storage-less HTTP API for real-time personalized video rendering. The caller POSTs a flat JSON object of viewer personalization fields (mapped in the SundaySky Studio data library) to the player-sessi
@@ -78,7 +80,7 @@ common:
   type: Roadmap
   url: https://help.sundaysky.com/hc/en-us/articles/21123723976733-SundaySky-Product-Roadmap
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sundaysky/refs/heads/main/changelog/sundaysky-changelog.yml
+  href: https://artifacts.apis.io/sundaysky/changelog/sundaysky-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sundaysky-changelog.yml
@@ -99,67 +101,67 @@ common:
   type: TermsOfService
   url: https://sundaysky.com/terms-of-service/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sundaysky/refs/heads/main/security/sundaysky-domain-security.yml
+  href: https://artifacts.apis.io/sundaysky/security/sundaysky-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sundaysky-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sundaysky/refs/heads/main/security/sundaysky-trust-center.yml
+  href: https://artifacts.apis.io/sundaysky/security/sundaysky-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sundaysky-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sundaysky/refs/heads/main/lifecycle/sundaysky-lifecycle.yml
+  href: https://artifacts.apis.io/sundaysky/lifecycle/sundaysky-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sundaysky-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sundaysky/refs/heads/main/authentication/sundaysky-authentication.yml
+  href: https://artifacts.apis.io/sundaysky/authentication/sundaysky-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sundaysky-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sundaysky/refs/heads/main/conventions/sundaysky-conventions.yml
+  href: https://artifacts.apis.io/sundaysky/conventions/sundaysky-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sundaysky-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sundaysky/refs/heads/main/errors/sundaysky-problem-types.yml
+  href: https://artifacts.apis.io/sundaysky/errors/sundaysky-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sundaysky-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sundaysky/refs/heads/main/conformance/sundaysky-conformance.yml
+  href: https://artifacts.apis.io/sundaysky/conformance/sundaysky-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sundaysky-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sundaysky/refs/heads/main/data-model/sundaysky-data-model.yml
+  href: https://artifacts.apis.io/sundaysky/data-model/sundaysky-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sundaysky-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sundaysky/refs/heads/main/components/sundaysky-components.yml
+  href: https://artifacts.apis.io/sundaysky/components/sundaysky-components.yml
   title: ''
   type: Components
   url: components/sundaysky-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sundaysky/refs/heads/main/packages/sundaysky-packages.yml
+  href: https://artifacts.apis.io/sundaysky/packages/sundaysky-packages.yml
   title: ''
   type: Packages
   url: packages/sundaysky-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sundaysky/refs/heads/main/plans/sundaysky-plans-pricing.yml
+  href: https://artifacts.apis.io/sundaysky/plans/sundaysky-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sundaysky-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sundaysky/refs/heads/main/rate-limits/sundaysky-rate-limits.yml
+  href: https://artifacts.apis.io/sundaysky/rate-limits/sundaysky-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sundaysky-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sundaysky/refs/heads/main/llms/sundaysky-llms.txt
+  href: https://artifacts.apis.io/sundaysky/llms/sundaysky-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sundaysky-llms.txt
@@ -180,14 +182,14 @@ plans:
 - name: Sundaysky Plans Pricing
   plan_count: 0
   slug: sundaysky-plans-pricing
-random_paper: 13
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Sundaysky Rate Limits
   slug: sundaysky-rate-limits
 score:
   band: thin
-  composite: 32.7
+  composite: 33.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -195,15 +197,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 73.2
-    operational_transparency: 39.5
-  previous_composite: 33.0
+    discoverability: 66.1
+    operational_transparency: 42.1
+  previous_composite: 33.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -213,14 +215,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sundaysky/refs/heads/main/screenshots/sundaysky-2026-09-02T161136.png
+screenshot: https://apis.io/screenshots/sundaysky/sundaysky-2026-09-02T161136.png
 security:
 - kind: authentication
   name: Sundaysky Authentication

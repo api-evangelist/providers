@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 34.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 3
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 107
   slug: composio-agentic-access
   summary_line: 107 operations · 58 acting · 3 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://backend.composio.dev/api/v3
   baseurl_source: declared
@@ -170,9 +172,6 @@ collections:
   name: Composio Platform API
   slug: postman-composio-openapi-original
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Composio Platform Account Management API
   slug: open-composio-account-management-api
 - collection_type: open
@@ -291,27 +290,27 @@ collections:
   slug: open-composio-x-internal-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/plans/composio-plans-pricing.yml
+  href: https://artifacts.apis.io/composio/plans/composio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/composio-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/rate-limits/composio-rate-limits.yml
+  href: https://artifacts.apis.io/composio/rate-limits/composio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/composio-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/finops/composio-finops.yml
+  href: https://artifacts.apis.io/composio/finops/composio-finops.yml
   title: ''
   type: FinOps
   url: finops/composio-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/capabilities/composio-capability-edges.yml
+  href: https://artifacts.apis.io/composio/capabilities/composio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/composio-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/vendor-facets/composio-vendor-facets.yml
+  href: https://artifacts.apis.io/composio/vendor-facets/composio-vendor-facets.yml
   title: ''
   type: VendorFacets
   url: vendor-facets/composio-vendor-facets.yml
@@ -344,87 +343,87 @@ common:
   type: License
   url: https://github.com/ComposioHQ/composio/blob/next/LICENSE
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/packages/composio-packages.yml
+  href: https://artifacts.apis.io/composio/packages/composio-packages.yml
   title: ''
   type: Packages
   url: packages/composio-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/well-known/composio-well-known.yml
+  href: https://artifacts.apis.io/composio/well-known/composio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/composio-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/mcp/composio-mcp.yml
+  href: https://artifacts.apis.io/composio/mcp/composio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/composio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/llms/composio-llms.txt
+  href: https://artifacts.apis.io/composio/llms/composio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/composio-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/llms/composio-llms-full.txt
+  href: https://artifacts.apis.io/composio/llms/composio-llms-full.txt
   title: ''
   type: LLMsTxt
   url: llms/composio-llms-full.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/overlays/composio-openapi-original-overlay.yaml
+  href: https://artifacts.apis.io/composio/overlays/composio-openapi-original-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/composio-openapi-original-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/conformance/composio-conformance.yml
+  href: https://artifacts.apis.io/composio/conformance/composio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/composio-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/errors/composio-problem-types.yml
+  href: https://artifacts.apis.io/composio/errors/composio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/composio-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/lifecycle/composio-lifecycle.yml
+  href: https://artifacts.apis.io/composio/lifecycle/composio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/composio-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/conventions/composio-conventions.yml
+  href: https://artifacts.apis.io/composio/conventions/composio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/composio-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/changelog/composio-changelog.yml
+  href: https://artifacts.apis.io/composio/changelog/composio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/composio-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/cli/composio-cli.yml
+  href: https://artifacts.apis.io/composio/cli/composio-cli.yml
   title: ''
   type: CLI
   url: cli/composio-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/data-model/composio-data-model.yml
+  href: https://artifacts.apis.io/composio/data-model/composio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/composio-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/agentic-access/composio-agentic-access.yml
+  href: https://artifacts.apis.io/composio/agentic-access/composio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/composio-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/security/composio-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/composio/security/composio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/composio-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/security/composio-domain-security.yml
+  href: https://artifacts.apis.io/composio/security/composio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/composio-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/authentication/composio-authentication.yml
+  href: https://artifacts.apis.io/composio/authentication/composio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/composio-authentication.yml
@@ -433,57 +432,57 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/composio/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/arazzo/composio-connect-account-via-auth-config-workflow.yml
+  href: https://artifacts.apis.io/composio/arazzo/composio-connect-account-via-auth-config-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/composio-connect-account-via-auth-config-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/arazzo/composio-disable-active-trigger-workflow.yml
+  href: https://artifacts.apis.io/composio/arazzo/composio-disable-active-trigger-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/composio-disable-active-trigger-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/arazzo/composio-discover-and-execute-tool-workflow.yml
+  href: https://artifacts.apis.io/composio/arazzo/composio-discover-and-execute-tool-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/composio-discover-and-execute-tool-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/arazzo/composio-execute-tool-on-connected-account-workflow.yml
+  href: https://artifacts.apis.io/composio/arazzo/composio-execute-tool-on-connected-account-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/composio-execute-tool-on-connected-account-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/arazzo/composio-hosted-auth-link-workflow.yml
+  href: https://artifacts.apis.io/composio/arazzo/composio-hosted-auth-link-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/composio-hosted-auth-link-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/arazzo/composio-natural-language-tool-execution-workflow.yml
+  href: https://artifacts.apis.io/composio/arazzo/composio-natural-language-tool-execution-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/composio-natural-language-tool-execution-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/arazzo/composio-provision-mcp-server-workflow.yml
+  href: https://artifacts.apis.io/composio/arazzo/composio-provision-mcp-server-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/composio-provision-mcp-server-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/arazzo/composio-refresh-connected-account-workflow.yml
+  href: https://artifacts.apis.io/composio/arazzo/composio-refresh-connected-account-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/composio-refresh-connected-account-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/arazzo/composio-setup-trigger-workflow.yml
+  href: https://artifacts.apis.io/composio/arazzo/composio-setup-trigger-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/composio-setup-trigger-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/arazzo/composio-tool-router-connect-toolkit-workflow.yml
+  href: https://artifacts.apis.io/composio/arazzo/composio-tool-router-connect-toolkit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/composio-tool-router-connect-toolkit-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/arazzo/composio-tool-router-session-workflow.yml
+  href: https://artifacts.apis.io/composio/arazzo/composio-tool-router-session-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/composio-tool-router-session-workflow.yml
@@ -568,22 +567,22 @@ common:
   type: Toolkits Catalog
   url: https://composio.dev/toolkits
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/json-ld/composio-context.jsonld
+  href: https://artifacts.apis.io/composio/json-ld/composio-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/composio-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/json-schema/composio-tool-schema.json
+  href: https://artifacts.apis.io/composio/json-schema/composio-tool-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/composio-tool-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/json-schema/composio-toolkit-schema.json
+  href: https://artifacts.apis.io/composio/json-schema/composio-toolkit-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/composio-toolkit-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/json-schema/composio-connected-account-schema.json
+  href: https://artifacts.apis.io/composio/json-schema/composio-connected-account-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/composio-connected-account-schema.json
@@ -635,10 +634,10 @@ examples:
   slug: composio-posttoolroutersession-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Composio Finops
-  primary_unit: ''
-  service_category: AI Tooling / Integrations
+  primary_unit: subscription
+  service_category: ''
   slug: composio-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/composio.png
@@ -742,9 +741,12 @@ overview: 'Composio publishes 17 API contracts indexed on the [APIs.io](https://
   Composio''s developer surface includes changelog, CLI, authentication, developer portal, documentation, getting-started guide, API reference, and 59 more developer resources.'
 plans:
 - name: Composio Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: composio-plans-pricing
-random_paper: 15
+- name: Composio Price Estimates
+  plan_count: 0
+  slug: composio-price-estimates
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Composio Rate Limits
@@ -775,26 +777,23 @@ rules:
   slug: composio-rules
 score:
   band: strong
-  composite: 56.3
+  composite: 62.5
   coverage:
     artifact_dirs: 34
-    catalog_earned: 55.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    catalog_earned: 64.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.8
+  delta: 1.1
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 54.0
-    developer_ergonomics: 56.0
-    discoverability: 78.6
-    operational_transparency: 44.7
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 57.1
+    contract_quality: 52.8
+    developer_ergonomics: 67.9
+    discoverability: 71.7
+    operational_transparency: 55.3
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -810,13 +809,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/screenshots/composio-2026-06-20T174834.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/composio/composio-2026-06-20T174834.png
 security:
 - kind: authentication
   name: Composio Authentication

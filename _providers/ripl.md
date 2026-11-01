@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ripl/refs/heads/main/rate-limits/ripl-rate-limits.yml
+  href: https://artifacts.apis.io/ripl/rate-limits/ripl-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ripl-rate-limits.yml
@@ -83,17 +85,17 @@ common:
   type: PrivacyPolicy
   url: https://www.ripl.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ripl/refs/heads/main/mcp/ripl-mcp.yml
+  href: https://artifacts.apis.io/ripl/mcp/ripl-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ripl-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ripl/refs/heads/main/llms/ripl-llms.txt
+  href: https://artifacts.apis.io/ripl/llms/ripl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ripl-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ripl/refs/heads/main/security/ripl-domain-security.yml
+  href: https://artifacts.apis.io/ripl/security/ripl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ripl-domain-security.yml
@@ -102,7 +104,7 @@ common:
   type: GettingStarted
   url: https://help.ripl.com/support/solutions/16000060995
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ripl/refs/heads/main/plans/ripl-plans-pricing.yml
+  href: https://artifacts.apis.io/ripl/plans/ripl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ripl-plans-pricing.yml
@@ -129,7 +131,7 @@ description: Ripl is a social media marketing platform for small businesses, hel
 image: https://static.wixstatic.com/ficons/d8d800_48a04f46042747328480b7d817dc73f2~mv2.ico
 layout: provider
 mcp_servers:
-- description: Remote MCP server at www.ripl.com over HTTP; 9 tools listed.
+- description: Remote MCP server at www.ripl.com over HTTP; 10 tools listed.
   name: Ripl (Wix Site MCP)
   slug: ripl-wix-site
 modified: '2026-10-06'
@@ -144,14 +146,14 @@ plans:
 - name: Ripl Plans Pricing
   plan_count: 2
   slug: ripl-plans-pricing
-random_paper: 21
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Ripl Rate Limits
   slug: ripl-rate-limits
 score:
   band: emerging
-  composite: 21.3
+  composite: 21.6
   coverage:
     artifact_dirs: 11
     catalog_earned: 35.0
@@ -159,15 +161,15 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 59.2
+    access_clarity: 65.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 58.3
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 21.2
+  previous_composite: 21.6
   provenance:
     mcp: platform-generated
   regulatory:
@@ -176,14 +178,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ripl/refs/heads/main/screenshots/ripl-2026-09-02T153845.png
+screenshot: https://apis.io/screenshots/ripl/ripl-2026-09-02T153845.png
 security:
 - kind: domain-security
   name: Ripl Domain Security

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,11 +59,8 @@ apis:
   description: The Updates API from JetBrains Marketplace — 1 operation(s) for updates.
   name: JetBrains Marketplace Updates API
   slug: jetbrains-plugin-updates-api
-artifact_total: 11
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: JetBrains Marketplace Plugins API
   slug: open-jetbrains-plugin-plugins-api
@@ -77,22 +76,22 @@ common:
   type: BlogRSS
   url: https://blog.jetbrains.com/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jetbrains-plugin/refs/heads/main/agentic-access/jetbrains-plugin-agentic-access.yml
+  href: https://artifacts.apis.io/jetbrains-plugin/agentic-access/jetbrains-plugin-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/jetbrains-plugin-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jetbrains-plugin/refs/heads/main/security/jetbrains-plugin-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/jetbrains-plugin/security/jetbrains-plugin-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jetbrains-plugin-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jetbrains-plugin/refs/heads/main/security/jetbrains-plugin-domain-security.yml
+  href: https://artifacts.apis.io/jetbrains-plugin/security/jetbrains-plugin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jetbrains-plugin-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jetbrains-plugin/refs/heads/main/authentication/jetbrains-plugin-authentication.yml
+  href: https://artifacts.apis.io/jetbrains-plugin/authentication/jetbrains-plugin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jetbrains-plugin-authentication.yml
@@ -136,10 +135,10 @@ overview: 'JetBrains Marketplace publishes 3 API contracts indexed on the [APIs.
 
 
   JetBrains Marketplace''s developer surface includes authentication, documentation, signup flow, pricing, and 8 more developer resources.'
-random_paper: 12
+random_paper: 6
 score:
   band: thin
-  composite: 28.6
+  composite: 30.7
   coverage:
     artifact_dirs: 8
     catalog_earned: 32.0
@@ -154,8 +153,8 @@ score:
     contract_quality: 49.3
     developer_ergonomics: 31.0
     discoverability: 57.1
-    operational_transparency: 0.0
-  previous_composite: 28.6
+    operational_transparency: 10.5
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
@@ -169,13 +168,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/jetbrains-plugin/refs/heads/main/screenshots/jetbrains-plugin-2026-06-20T183726.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/jetbrains-plugin/jetbrains-plugin-2026-06-20T183726.png
 security:
 - kind: authentication
   name: Jetbrains Plugin Authentication

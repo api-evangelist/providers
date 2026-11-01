@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
+  score: 35.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -83,15 +85,12 @@ apis:
   description: Create various types of tickets, view all tickets, and create ticket comments.
   name: Zayo Ticketing API
   slug: zayo-ticketing-api
-artifact_total: 26
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Zayo Notifications Webhooks
   slug: zayo-notifications-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Zayo APIs Maintenance Cases API
   slug: open-zayo-maintenance-cases-api
@@ -146,47 +145,47 @@ common:
   type: Compliance
   url: https://trust.zayo.com/security-program/security-compliance/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/security/zayo-trust-center.yml
+  href: https://artifacts.apis.io/zayo/security/zayo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/zayo-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/security/zayo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zayo/security/zayo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zayo-vulnerability-disclosure.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/packages/zayo-packages.yml
+  href: https://artifacts.apis.io/zayo/packages/zayo-packages.yml
   title: ''
   type: Packages
   url: packages/zayo-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/plans/zayo-plans-pricing.yml
+  href: https://artifacts.apis.io/zayo/plans/zayo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zayo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/rate-limits/zayo-rate-limits.yml
+  href: https://artifacts.apis.io/zayo/rate-limits/zayo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zayo-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/capabilities/zayo-capability-edges.yml
+  href: https://artifacts.apis.io/zayo/capabilities/zayo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zayo-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/mcp/zayo-mcp.yml
+  href: https://artifacts.apis.io/zayo/mcp/zayo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zayo-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/overlays/zayo-openapi-overlay.yaml
+  href: https://artifacts.apis.io/zayo/overlays/zayo-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zayo-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/agentic-access/zayo-agentic-access.yml
+  href: https://artifacts.apis.io/zayo/agentic-access/zayo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zayo-agentic-access.yml
@@ -207,12 +206,12 @@ common:
   type: GettingStarted
   url: https://developer.zayo.com/docs/getting-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/authentication/zayo-authentication.yml
+  href: https://artifacts.apis.io/zayo/authentication/zayo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zayo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/conventions/zayo-conventions.yml
+  href: https://artifacts.apis.io/zayo/conventions/zayo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zayo-conventions.yml
@@ -237,27 +236,35 @@ common:
   type: SignUp
   url: https://developer.zayo.com/docs/contact
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/security/zayo-domain-security.yml
+  href: https://artifacts.apis.io/zayo/security/zayo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zayo-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/lifecycle/zayo-lifecycle.yml
+  href: https://artifacts.apis.io/zayo/lifecycle/zayo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zayo-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zayo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/llms/zayo-llms.txt
+  href: https://artifacts.apis.io/zayo/llms/zayo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zayo-llms.txt
 created: '2026-07-17'
 description: Zayo is a global communications infrastructure provider operating one of the largest independent fiber networks, delivering bandwidth, dark fiber, wavelengths, ethernet, IP, cloud connectivity and network management to carriers, enterprises, and hyperscalers. Zayo publishes a free public developer program at developer.zayo.com exposing REST APIs for network discovery (building validation, location and cloud-site lookup), quote and order management (product catalog, quoting, ordering), and service management (service inventory, ticketing, and maintenance-case notifications). The APIs are OpenAPI 3.1 described, secured with OAuth 2.0 client-credentials bearer tokens, and include a push-notification/callback surface for maintenance and ticket updates.
+finops:
+- has_sources: true
+  method: derived
+  name: Zayo Finops
+  primary_unit: ''
+  service_category: ''
+  slug: zayo-finops
+  template: true
 image: https://developer.zayo.com/img/zayo-logo.svg
 layout: provider
 modified: '2026-10-06'
@@ -275,7 +282,7 @@ plans:
 - name: Zayo Plans Pricing
   plan_count: 0
   slug: zayo-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Zayo Rate Limits
@@ -287,23 +294,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 43.8
+  composite: 50.4
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 62.1
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 7.9
-  previous_composite: 43.9
+    discoverability: 66.1
+    operational_transparency: 18.4
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -319,14 +326,15 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 37.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 44.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/screenshots/zayo-2026-08-17T083035.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zayo/zayo-2026-08-17T083035.png
 security:
 - kind: authentication
   name: Zayo Authentication
@@ -344,6 +352,14 @@ security:
   name: Zayo Trust Center
   slug: zayo-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Submit a Zayo order from an existing quote
+  slug: zayo-order-from-quote
+- name: Open a Zayo ticket and subscribe to maintenance notifications
+  slug: zayo-ticketing-and-maintenance
+- name: Validate a building and request a Zayo quote
+  slug: zayo-validate-and-quote
 slug: zayo
 tags:
 - Company

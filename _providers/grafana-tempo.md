@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.5
-  scored_at: '2026-10-17'
+  score: 38.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: The Traces API from Grafana Tempo — 1 operation(s) for traces.
   name: Grafana Tempo Traces API
   slug: grafana-tempo-traces-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Grafana Tempo HTTP Echo API
   slug: open-grafana-tempo-echo-api
@@ -102,37 +101,37 @@ collections:
   slug: open-tempo-http-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/plans/grafana-tempo-plans-pricing.yml
+  href: https://artifacts.apis.io/grafana-tempo/plans/grafana-tempo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/grafana-tempo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/rate-limits/grafana-tempo-rate-limits.yml
+  href: https://artifacts.apis.io/grafana-tempo/rate-limits/grafana-tempo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/grafana-tempo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/finops/grafana-tempo-finops.yml
+  href: https://artifacts.apis.io/grafana-tempo/finops/grafana-tempo-finops.yml
   title: ''
   type: FinOps
   url: finops/grafana-tempo-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/capabilities/grafana-tempo-capability-edges.yml
+  href: https://artifacts.apis.io/grafana-tempo/capabilities/grafana-tempo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/grafana-tempo-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/agentic-access/grafana-tempo-agentic-access.yml
+  href: https://artifacts.apis.io/grafana-tempo/agentic-access/grafana-tempo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/grafana-tempo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/security/grafana-tempo-trust-center.yml
+  href: https://artifacts.apis.io/grafana-tempo/security/grafana-tempo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/grafana-tempo-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/security/grafana-tempo-domain-security.yml
+  href: https://artifacts.apis.io/grafana-tempo/security/grafana-tempo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/grafana-tempo-domain-security.yml
@@ -170,7 +169,7 @@ finops:
 - has_sources: false
   method: generated
   name: Grafana Tempo Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: grafana-tempo-finops
   template: true
@@ -195,7 +194,7 @@ plans:
 - name: Grafana Tempo Plans Pricing
   plan_count: 3
   slug: grafana-tempo-plans-pricing
-random_paper: 16
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Grafana Tempo Rate Limits
@@ -214,7 +213,7 @@ rules:
   slug: grafana-tempo-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.9
+  composite: 30.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 46.7
@@ -222,15 +221,15 @@ score:
     catalog_gap: 68.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 44.5
     developer_ergonomics: 23.8
-    discoverability: 66.7
+    discoverability: 64.3
     operational_transparency: 13.2
-  previous_composite: 32.5
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
@@ -245,14 +244,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/screenshots/grafana-tempo-2026-06-20T182315.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/grafana-tempo/grafana-tempo-2026-06-20T182315.png
 security:
 - kind: domain-security
   name: Grafana Tempo Domain Security

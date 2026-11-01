@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Django REST Framework API behind the Flockjay platform. The API root at https://api.flockjay.com/api/ is anonymously readable and enumerates 20 collections across an unversioned v1 tree (events, quest
@@ -78,87 +80,87 @@ common:
   type: TermsOfService
   url: https://flockjay.com/legal/terms-and-conditions
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/mcp/flockjay-mcp.yml
+  href: https://artifacts.apis.io/flockjay/mcp/flockjay-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/flockjay-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/well-known/flockjay-well-known.yml
+  href: https://artifacts.apis.io/flockjay/well-known/flockjay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/flockjay-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/authentication/flockjay-authentication.yml
+  href: https://artifacts.apis.io/flockjay/authentication/flockjay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flockjay-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/scopes/flockjay-scopes.yml
+  href: https://artifacts.apis.io/flockjay/scopes/flockjay-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/flockjay-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/conventions/flockjay-conventions.yml
+  href: https://artifacts.apis.io/flockjay/conventions/flockjay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flockjay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/errors/flockjay-problem-types.yml
+  href: https://artifacts.apis.io/flockjay/errors/flockjay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/flockjay-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/data-model/flockjay-data-model.yml
+  href: https://artifacts.apis.io/flockjay/data-model/flockjay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/flockjay-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/conformance/flockjay-conformance.yml
+  href: https://artifacts.apis.io/flockjay/conformance/flockjay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flockjay-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/lifecycle/flockjay-lifecycle.yml
+  href: https://artifacts.apis.io/flockjay/lifecycle/flockjay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flockjay-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/plans/flockjay-plans-pricing.yml
+  href: https://artifacts.apis.io/flockjay/plans/flockjay-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/flockjay-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/rate-limits/flockjay-rate-limits.yml
+  href: https://artifacts.apis.io/flockjay/rate-limits/flockjay-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/flockjay-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/packages/flockjay-packages.yml
+  href: https://artifacts.apis.io/flockjay/packages/flockjay-packages.yml
   title: ''
   type: Packages
   url: packages/flockjay-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/llms/flockjay-llms.txt
+  href: https://artifacts.apis.io/flockjay/llms/flockjay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flockjay-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/security/flockjay-domain-security.yml
+  href: https://artifacts.apis.io/flockjay/security/flockjay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flockjay-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/security/flockjay-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/flockjay/security/flockjay-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/flockjay-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/security/flockjay-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/flockjay/security/flockjay-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/flockjay-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/security/flockjay-trust-center.yml
+  href: https://artifacts.apis.io/flockjay/security/flockjay-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/flockjay-trust-center.yml
@@ -187,7 +189,7 @@ plans:
 - name: Flockjay Plans Pricing
   plan_count: 0
   slug: flockjay-plans-pricing
-random_paper: 15
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Flockjay Rate Limits
@@ -199,23 +201,23 @@ scopes:
   summary_line: 2 scopes
 score:
   band: thin
-  composite: 29.4
+  composite: 30.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 42.4
     catalog_earned_first_party: 0.0
     catalog_gap: 72.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 7.2
     developer_ergonomics: 28.6
-    discoverability: 68.3
-    operational_transparency: 13.2
-  previous_composite: 29.3
+    discoverability: 65.0
+    operational_transparency: 15.8
+  previous_composite: 30.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -225,14 +227,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/screenshots/flockjay-2026-07-25T214813.png
+screenshot: https://apis.io/screenshots/flockjay/flockjay-2026-07-25T214813.png
 security:
 - kind: authentication
   name: Flockjay Authentication

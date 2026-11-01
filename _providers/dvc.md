@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: DVC ships as a CLI plus a Python API (`dvc.api`). It tracks data and model files via pointers stored in Git and pushes payloads to remote storage backends (S3, Azure, GCS, SSH, HDFS, HTTP, etc.). Ther
@@ -58,7 +60,7 @@ common:
   type: ContributionGuide
   url: https://github.com/treeverse/dvc/blob/main/CONTRIBUTING.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dvc/refs/heads/main/security/dvc-domain-security.yml
+  href: https://artifacts.apis.io/dvc/security/dvc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dvc-domain-security.yml
@@ -83,17 +85,17 @@ common:
   type: VSCodeExtension
   url: https://marketplace.visualstudio.com/items?itemName=Iterative.dvc
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dvc/refs/heads/main/plans/dvc-plans-pricing.yml
+  href: https://artifacts.apis.io/dvc/plans/dvc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dvc-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dvc/refs/heads/main/rate-limits/dvc-rate-limits.yml
+  href: https://artifacts.apis.io/dvc/rate-limits/dvc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dvc-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dvc/refs/heads/main/finops/dvc-finops.yml
+  href: https://artifacts.apis.io/dvc/finops/dvc-finops.yml
   title: ''
   type: FinOps
   url: finops/dvc-finops.yml
@@ -125,14 +127,14 @@ plans:
 - name: Dvc Plans Pricing
   plan_count: 1
   slug: dvc-plans-pricing
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Dvc Rate Limits
   slug: dvc-rate-limits
 score:
   band: emerging
-  composite: 20.2
+  composite: 15.4
   coverage:
     artifact_dirs: 8
     catalog_earned: 41.0
@@ -140,7 +142,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -148,24 +150,21 @@ score:
     developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 21.5
+  previous_composite: 15.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dvc/refs/heads/main/screenshots/dvc-2026-06-20T180328.png
+screenshot: https://apis.io/screenshots/dvc/dvc-2026-06-20T180328.png
 security:
 - kind: domain-security
   name: Dvc Domain Security

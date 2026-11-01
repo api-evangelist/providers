@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Celona Orchestrator REST API for network monitoring, event querying, device experience, system status, and audit logs. Authenticated with an X-API-Key generated in the Orchestrator.
   name: Celona API
   slug: celona-api
-artifact_total: 6
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Celona Events Webhooks
@@ -95,27 +97,27 @@ common:
   type: Deprecation
   url: http://docs.celona.io/en/articles/7828531-api-endpoints-for-events
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/celona/refs/heads/main/authentication/celona-authentication.yml
+  href: https://artifacts.apis.io/celona/authentication/celona-authentication.yml
   title: ''
   type: Authentication
   url: authentication/celona-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/celona/refs/heads/main/conventions/celona-conventions.yml
+  href: https://artifacts.apis.io/celona/conventions/celona-conventions.yml
   title: ''
   type: Conventions
   url: conventions/celona-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/celona/refs/heads/main/errors/celona-problem-types.yml
+  href: https://artifacts.apis.io/celona/errors/celona-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/celona-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/celona/refs/heads/main/lifecycle/celona-lifecycle.yml
+  href: https://artifacts.apis.io/celona/lifecycle/celona-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/celona-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/celona/refs/heads/main/conformance/celona-conformance.yml
+  href: https://artifacts.apis.io/celona/conformance/celona-conformance.yml
   title: ''
   type: Conformance
   url: conformance/celona-conformance.yml
@@ -124,7 +126,7 @@ common:
   type: Compliance
   url: https://www.celona.io/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/celona/refs/heads/main/security/celona-trust-center.yml
+  href: https://artifacts.apis.io/celona/security/celona-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/celona-trust-center.yml
@@ -133,32 +135,32 @@ common:
   type: Security
   url: https://www.celona.io/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/celona/refs/heads/main/security/celona-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/celona/security/celona-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/celona-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/celona/refs/heads/main/security/celona-domain-security.yml
+  href: https://artifacts.apis.io/celona/security/celona-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/celona-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/celona/refs/heads/main/asyncapi/celona-events-webhooks.yml
+  href: https://artifacts.apis.io/celona/asyncapi/celona-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/celona-events-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/celona/refs/heads/main/mcp/celona-mcp.yml
+  href: https://artifacts.apis.io/celona/mcp/celona-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/celona-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/celona/refs/heads/main/llms/celona-llms.txt
+  href: https://artifacts.apis.io/celona/llms/celona-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/celona-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/celona/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/celona/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -177,10 +179,10 @@ overview: 'Celona is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Celona''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 10
+random_paper: 2
 score:
   band: developing
-  composite: 46.1
+  composite: 47.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -188,15 +190,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 56.5
-    discoverability: 73.2
+    developer_ergonomics: 58.9
+    discoverability: 66.1
     operational_transparency: 42.1
-  previous_composite: 46.2
+  previous_composite: 47.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -211,14 +213,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/celona/refs/heads/main/screenshots/celona-2026-07-25T204906.png
+screenshot: https://apis.io/screenshots/celona/celona-2026-07-25T204906.png
 security:
 - kind: authentication
   name: Celona Authentication
@@ -236,6 +238,14 @@ security:
   name: Celona Trust Center
   slug: celona-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 3
+skills:
+- name: Fetch Celona account audit logs
+  slug: celona-fetch-audit-logs
+- name: Query Celona network events
+  slug: celona-query-network-events
+- name: Subscribe to Celona network alerts
+  slug: celona-subscribe-to-alerts
 slug: celona
 tags:
 - Company

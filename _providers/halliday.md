@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.0
-  scored_at: '2026-10-17'
+  score: 37.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -71,9 +73,6 @@ asyncapis:
   slug: halliday-webhooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Halliday API V2 Assets API
   slug: open-halliday-assets-api
 - collection_type: open
@@ -91,7 +90,7 @@ common:
   type: BlogRSS
   url: https://blog.halliday.xyz/rss/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/capabilities/halliday-capability-edges.yml
+  href: https://artifacts.apis.io/halliday/capabilities/halliday-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/halliday-capability-edges.yml
@@ -100,7 +99,7 @@ common:
   type: Website
   url: https://www.halliday.xyz/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/_original/halliday-openapi-original.yml
+  href: https://artifacts.apis.io/halliday/openapi/_original/halliday-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/halliday-openapi-original.yml
@@ -153,82 +152,82 @@ common:
   type: Compliance
   url: https://docs.halliday.xyz/pages/compliance-security.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/authentication/halliday-authentication.yml
+  href: https://artifacts.apis.io/halliday/authentication/halliday-authentication.yml
   title: ''
   type: Authentication
   url: authentication/halliday-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/agentic-access/halliday-agentic-access.yml
+  href: https://artifacts.apis.io/halliday/agentic-access/halliday-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/halliday-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/security/halliday-domain-security.yml
+  href: https://artifacts.apis.io/halliday/security/halliday-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/halliday-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/packages/halliday-packages.yml
+  href: https://artifacts.apis.io/halliday/packages/halliday-packages.yml
   title: ''
   type: Packages
   url: packages/halliday-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/packages/halliday-packages.yml
+  href: https://artifacts.apis.io/halliday/packages/halliday-packages.yml
   title: ''
   type: SDKs
   url: packages/halliday-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/mcp/halliday-mcp.yml
+  href: https://artifacts.apis.io/halliday/mcp/halliday-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/halliday-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/llms/halliday-llms.txt
+  href: https://artifacts.apis.io/halliday/llms/halliday-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/halliday-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/overlays/halliday-openapi-overlay.yaml
+  href: https://artifacts.apis.io/halliday/overlays/halliday-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/halliday-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/conformance/halliday-conformance.yml
+  href: https://artifacts.apis.io/halliday/conformance/halliday-conformance.yml
   title: ''
   type: Conformance
   url: conformance/halliday-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/errors/halliday-problem-types.yml
+  href: https://artifacts.apis.io/halliday/errors/halliday-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/halliday-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/lifecycle/halliday-lifecycle.yml
+  href: https://artifacts.apis.io/halliday/lifecycle/halliday-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/halliday-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/conventions/halliday-conventions.yml
+  href: https://artifacts.apis.io/halliday/conventions/halliday-conventions.yml
   title: ''
   type: Conventions
   url: conventions/halliday-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/components/halliday-components.yml
+  href: https://artifacts.apis.io/halliday/components/halliday-components.yml
   title: ''
   type: Components
   url: components/halliday-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/data-model/halliday-data-model.yml
+  href: https://artifacts.apis.io/halliday/data-model/halliday-data-model.yml
   title: ''
   type: DataModel
   url: data-model/halliday-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/asyncapi/halliday-webhooks.yml
+  href: https://artifacts.apis.io/halliday/asyncapi/halliday-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/halliday-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/halliday/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -247,12 +246,12 @@ overview: 'Halliday publishes 4 API contracts indexed on the [APIs.io](https://a
 
 
   Halliday''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, sandbox, and 25 more developer resources.'
-random_paper: 4
+random_paper: 0
 score:
   band: developing
-  composite: 48.0
+  composite: 51.6
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -260,13 +259,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 64.8
-    developer_ergonomics: 73.8
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 48.0
+    contract_quality: 63.3
+    developer_ergonomics: 78.6
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -283,13 +282,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/screenshots/halliday-2026-07-25T220546.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/halliday/halliday-2026-07-25T220546.png
 security:
 - kind: authentication
   name: Halliday Authentication
@@ -299,6 +299,10 @@ security:
   name: Halliday Domain Security
   slug: halliday-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: halliday
+  slug: halliday-payments
 slug: halliday
 tags:
 - Company

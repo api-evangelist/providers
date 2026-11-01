@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 31
   slug: setlist-fm-agentic-access
   summary_line: 31 operations
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://api.setlist.fm/rest
   baseurl_source: declared
@@ -153,11 +155,8 @@ apis:
   description: Concert venues and the setlists performed at them.
   name: setlist.fm Venues API
   slug: setlist-fm-venues-api
-artifact_total: 69
+artifact_total: 68
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: setlist.fm /1.0/artist/{mbid} /1.0/artist/{mbid} /1.0/artist/{mbid} API
   slug: open-setlist-fm-1-0-artist-mbid-api
@@ -233,12 +232,12 @@ common:
   type: Blog
   url: https://www.setlist.fm/news
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/agentic-access/setlist-fm-agentic-access.yml
+  href: https://artifacts.apis.io/setlist-fm/agentic-access/setlist-fm-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/setlist-fm-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/security/setlist-fm-domain-security.yml
+  href: https://artifacts.apis.io/setlist-fm/security/setlist-fm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/setlist-fm-domain-security.yml
@@ -271,22 +270,22 @@ common:
   type: X
   url: https://x.com/setlistfm
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/plans/setlist-fm-plans-pricing.yml
+  href: https://artifacts.apis.io/setlist-fm/plans/setlist-fm-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/setlist-fm-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/rate-limits/setlist-fm-rate-limits.yml
+  href: https://artifacts.apis.io/setlist-fm/rate-limits/setlist-fm-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/setlist-fm-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/finops/setlist-fm-finops.yml
+  href: https://artifacts.apis.io/setlist-fm/finops/setlist-fm-finops.yml
   title: ''
   type: FinOps
   url: finops/setlist-fm-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/authentication/setlist-fm-authentication.yml
+  href: https://artifacts.apis.io/setlist-fm/authentication/setlist-fm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/setlist-fm-authentication.yml
@@ -366,7 +365,7 @@ plans:
 - name: Setlist Fm Plans Pricing
   plan_count: 2
   slug: setlist-fm-plans-pricing
-random_paper: 20
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Setlist Fm Rate Limits
@@ -385,23 +384,23 @@ rules:
   slug: setlist-fm-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 27.0
+  composite: 26.7
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 45.3
+    artifact_dirs: 17
+    catalog_earned: 42.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.8
+    catalog_gap: 72.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.7
+  delta: -0.6
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 43.3
-    developer_ergonomics: 22.6
-    discoverability: 71.4
+    developer_ergonomics: 23.8
+    discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 30.7
+  previous_composite: 27.3
   provenance:
     agentic_access: derived
     contracts:
@@ -415,14 +414,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/screenshots/setlist-fm-2026-06-20T193734.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/setlist-fm/setlist-fm-2026-06-20T193734.png
 security:
 - kind: authentication
   name: Setlist Fm Authentication

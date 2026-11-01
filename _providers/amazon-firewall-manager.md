@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,15 +27,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 26.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -70,6 +72,26 @@ apis:
   description: Resource sets and tags
   name: Amazon Firewall Manager Resources API
   slug: amazon-firewall-manager-resources-api
+- baseURL: https://fms.amazonaws.com
+  baseurl_source: declared
+  description: The Firewall Manager Apps List API from Amazon Firewall Manager — 4 operation(s) for firewall manager apps list.
+  name: Amazon Firewall Manager Firewall Manager Apps List API
+  slug: amazon-firewall-manager-apps-list-api
+- baseURL: https://fms.amazonaws.com
+  baseurl_source: declared
+  description: The Firewall Manager Notification Channel API from Amazon Firewall Manager — 3 operation(s) for firewall manager notification channel.
+  name: Amazon Firewall Manager Firewall Manager Notification Channel API
+  slug: amazon-firewall-manager-notification-channel-api
+- baseURL: https://fms.amazonaws.com
+  baseurl_source: declared
+  description: The Firewall Manager Operations API from Amazon Firewall Manager — 13 operation(s) for firewall manager operations.
+  name: Amazon Firewall Manager Firewall Manager Operations API
+  slug: amazon-firewall-manager-operations-api
+- baseURL: https://fms.amazonaws.com
+  baseurl_source: declared
+  description: The Firewall Manager Protocols List API from Amazon Firewall Manager — 4 operation(s) for firewall manager protocols list.
+  name: Amazon Firewall Manager Firewall Manager Protocols List API
+  slug: amazon-firewall-manager-protocols-list-api
 arazzos:
 - description: Resolve a policy, enumerate member accounts, and pull compliance detail for a chosen account.
   name: Amazon Firewall Manager Audit Policy Compliance
@@ -95,14 +117,11 @@ arazzos:
 - description: Create a resource set and then create a policy scoped to the same resource type.
   name: Amazon Firewall Manager Resource Set Driven Policy
   slug: amazon-firewall-manager-resource-set-driven-policy-workflow
-artifact_total: 60
+artifact_total: 64
 collections:
 - collection_type: postman
   name: AWS Firewall Manager API
   slug: postman-amazon-firewall-manager
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AWS Firewall Manager Admin Accounts API
   slug: open-amazon-firewall-manager-admin-accounts-api
@@ -123,47 +142,47 @@ collections:
   slug: open-amazon-firewall-manager
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/plans/amazon-firewall-manager-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/plans/amazon-firewall-manager-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-firewall-manager-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/rate-limits/amazon-firewall-manager-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/rate-limits/amazon-firewall-manager-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-firewall-manager-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/finops/amazon-firewall-manager-finops.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/finops/amazon-firewall-manager-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-firewall-manager-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/capabilities/amazon-firewall-manager-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/capabilities/amazon-firewall-manager-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-firewall-manager-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/agentic-access/amazon-firewall-manager-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/agentic-access/amazon-firewall-manager-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-firewall-manager-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/security/amazon-firewall-manager-trust-center.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/security/amazon-firewall-manager-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-firewall-manager-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/security/amazon-firewall-manager-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/security/amazon-firewall-manager-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-firewall-manager-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/security/amazon-firewall-manager-domain-security.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/security/amazon-firewall-manager-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-firewall-manager-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/authentication/amazon-firewall-manager-authentication.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/authentication/amazon-firewall-manager-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-firewall-manager-authentication.yml
@@ -172,42 +191,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-firewall-manager/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/arazzo/amazon-firewall-manager-audit-policy-compliance-workflow.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/arazzo/amazon-firewall-manager-audit-policy-compliance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-firewall-manager-audit-policy-compliance-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/arazzo/amazon-firewall-manager-create-and-tag-resource-set-workflow.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/arazzo/amazon-firewall-manager-create-and-tag-resource-set-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-firewall-manager-create-and-tag-resource-set-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/arazzo/amazon-firewall-manager-create-and-verify-policy-workflow.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/arazzo/amazon-firewall-manager-create-and-verify-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-firewall-manager-create-and-verify-policy-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/arazzo/amazon-firewall-manager-decommission-policy-workflow.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/arazzo/amazon-firewall-manager-decommission-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-firewall-manager-decommission-policy-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/arazzo/amazon-firewall-manager-find-and-tag-policy-workflow.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/arazzo/amazon-firewall-manager-find-and-tag-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-firewall-manager-find-and-tag-policy-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/arazzo/amazon-firewall-manager-inventory-and-tag-resource-set-workflow.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/arazzo/amazon-firewall-manager-inventory-and-tag-resource-set-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-firewall-manager-inventory-and-tag-resource-set-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/arazzo/amazon-firewall-manager-onboard-admin-account-workflow.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/arazzo/amazon-firewall-manager-onboard-admin-account-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-firewall-manager-onboard-admin-account-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/arazzo/amazon-firewall-manager-resource-set-driven-policy-workflow.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/arazzo/amazon-firewall-manager-resource-set-driven-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-firewall-manager-resource-set-driven-policy-workflow.yml
@@ -264,17 +283,17 @@ common:
   type: StackOverflow
   url: https://stackoverflow.com/questions/tagged/aws-firewall-manager
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/rules/amazon-firewall-manager-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-firewall-manager/rules/amazon-firewall-manager-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-firewall-manager-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/vocabulary/amazon-firewall-manager-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-firewall-manager/vocabulary/amazon-firewall-manager-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-firewall-manager-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/json-ld/amazon-firewall-manager-context.jsonld
+  href: https://artifacts.apis.io/amazon-firewall-manager/json-ld/amazon-firewall-manager-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-firewall-manager-context.jsonld
@@ -312,13 +331,13 @@ features:
 - description: Deploy and manage third-party firewall appliances through AWS Marketplace with Firewall Manager.
   name: Third-Party Firewall Support
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Firewall Manager Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: policy per region
+  service_category: ''
   slug: amazon-firewall-manager-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-firewall-manager.png
 json_schemas:
 - name: ComplianceViolator
@@ -362,7 +381,7 @@ modified: '2026-05-19'
 name: Amazon Firewall Manager
 nav: Providers
 network: true
-overview: 'Amazon Firewall Manager publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin Accounts API, Compliance API, Member Accounts API, and 2 more. Tagged areas include Compliance, Firewall, Network Security, and Security.
+overview: 'Amazon Firewall Manager publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin Accounts API, Compliance API, Member Accounts API, and 6 more. Tagged areas include Compliance, Firewall, Network Security, and Security.
 
 
   The Amazon Firewall Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -371,9 +390,12 @@ overview: 'Amazon Firewall Manager publishes 5 API contracts indexed on the [API
   Amazon Firewall Manager''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 27 more developer resources.'
 plans:
 - name: Amazon Firewall Manager Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: amazon-firewall-manager-plans-pricing
-random_paper: 11
+- name: Amazon Firewall Manager Price Estimates
+  plan_count: 0
+  slug: amazon-firewall-manager-price-estimates
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Amazon Firewall Manager Rate Limits
@@ -404,43 +426,49 @@ rules:
   slug: amazon-firewall-manager-spectral-rules
 score:
   band: strong
-  composite: 56.1
+  composite: 64.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 67.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    artifact_dirs: 22
+    catalog_earned: 75.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 60.5
+    access_clarity: 81.6
     contract_governance: 27.3
-    contract_quality: 70.4
-    developer_ergonomics: 58.3
+    contract_quality: 70.0
+    developer_ergonomics: 65.5
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 57.6
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 5
+      marker_coverage: 44.4
+      total: 9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/screenshots/amazon-firewall-manager-2026-06-20T171659.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-firewall-manager/amazon-firewall-manager-2026-06-20T171659.png
 security:
 - kind: authentication
   name: Amazon Firewall Manager Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Cresta's production API host. https://api.cresta.com resolves and answers anonymously with a gRPC-JSON transcoding gateway error envelope ({"code":2,"httpStatus":500,"message":"the requested gRPC meth
@@ -41,22 +43,22 @@ apis:
 artifact_total: 51
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cresta/refs/heads/main/rate-limits/cresta-rate-limits.yml
+  href: https://artifacts.apis.io/cresta/rate-limits/cresta-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cresta-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cresta/refs/heads/main/security/cresta-trust-center.yml
+  href: https://artifacts.apis.io/cresta/security/cresta-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cresta-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cresta/refs/heads/main/security/cresta-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cresta/security/cresta-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cresta-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cresta/refs/heads/main/security/cresta-domain-security.yml
+  href: https://artifacts.apis.io/cresta/security/cresta-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cresta-domain-security.yml
@@ -65,17 +67,17 @@ common:
   type: Security
   url: https://cresta.com/trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cresta/refs/heads/main/conformance/cresta-conformance.yml
+  href: https://artifacts.apis.io/cresta/conformance/cresta-conformance.yml
   title: ''
   type: Compliance
   url: conformance/cresta-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cresta/refs/heads/main/conformance/cresta-conformance.yml
+  href: https://artifacts.apis.io/cresta/conformance/cresta-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cresta-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cresta/refs/heads/main/lifecycle/cresta-lifecycle.yml
+  href: https://artifacts.apis.io/cresta/lifecycle/cresta-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cresta-lifecycle.yml
@@ -84,22 +86,22 @@ common:
   type: StatusPage
   url: https://status.cresta.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cresta/refs/heads/main/well-known/cresta-well-known.yml
+  href: https://artifacts.apis.io/cresta/well-known/cresta-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cresta-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cresta/refs/heads/main/well-known/cresta-security.txt
+  href: https://artifacts.apis.io/cresta/well-known/cresta-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cresta-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cresta/refs/heads/main/llms/cresta-llms.txt
+  href: https://artifacts.apis.io/cresta/llms/cresta-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cresta-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cresta/refs/heads/main/plans/cresta-plans-pricing.yml
+  href: https://artifacts.apis.io/cresta/plans/cresta-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cresta-plans-pricing.yml
@@ -317,14 +319,14 @@ plans:
 - name: Cresta Plans Pricing
   plan_count: 0
   slug: cresta-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Cresta Rate Limits
   slug: cresta-rate-limits
 score:
   band: thin
-  composite: 31.4
+  composite: 32.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 45.0
@@ -332,15 +334,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 10.7
     developer_ergonomics: 26.2
-    discoverability: 74.1
-    operational_transparency: 28.9
-  previous_composite: 31.7
+    discoverability: 67.9
+    operational_transparency: 31.6
+  previous_composite: 32.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -350,14 +352,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cresta/refs/heads/main/screenshots/cresta-2026-06-20T175228.png
+screenshot: https://apis.io/screenshots/cresta/cresta-2026-06-20T175228.png
 security:
 - kind: domain-security
   name: Cresta Domain Security

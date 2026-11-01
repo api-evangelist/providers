@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: REST/JSON administration API for a GroupWise system, served by the GroupWise Administration Service that installs alongside the GroupWise agents. Introduced under the "Windermere" codename for GroupWi
@@ -54,42 +56,42 @@ common:
   type: APIReference
   url: https://www.novell.com/documentation/developer/groupwise_sdk/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/packages/novell-packages.yml
+  href: https://artifacts.apis.io/novell/packages/novell-packages.yml
   title: ''
   type: Packages
   url: packages/novell-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/packages/novell-packages.yml
+  href: https://artifacts.apis.io/novell/packages/novell-packages.yml
   title: ''
   type: SDKs
   url: packages/novell-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/authentication/novell-authentication.yml
+  href: https://artifacts.apis.io/novell/authentication/novell-authentication.yml
   title: ''
   type: Authentication
   url: authentication/novell-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/conformance/novell-conformance.yml
+  href: https://artifacts.apis.io/novell/conformance/novell-conformance.yml
   title: ''
   type: Conformance
   url: conformance/novell-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/conventions/novell-conventions.yml
+  href: https://artifacts.apis.io/novell/conventions/novell-conventions.yml
   title: ''
   type: Conventions
   url: conventions/novell-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/errors/novell-error-codes.yml
+  href: https://artifacts.apis.io/novell/errors/novell-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/novell-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/data-model/novell-data-model.yml
+  href: https://artifacts.apis.io/novell/data-model/novell-data-model.yml
   title: ''
   type: DataModel
   url: data-model/novell-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/lifecycle/novell-lifecycle.yml
+  href: https://artifacts.apis.io/novell/lifecycle/novell-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/novell-lifecycle.yml
@@ -98,32 +100,32 @@ common:
   type: Deprecation
   url: https://www.microfocus.com/lifecycle/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/changelog/novell-changelog.yml
+  href: https://artifacts.apis.io/novell/changelog/novell-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/novell-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/llms/novell-llms.txt
+  href: https://artifacts.apis.io/novell/llms/novell-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/novell-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/plans/novell-plans-pricing.yml
+  href: https://artifacts.apis.io/novell/plans/novell-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/novell-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/rate-limits/novell-rate-limits.yml
+  href: https://artifacts.apis.io/novell/rate-limits/novell-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/novell-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/security/novell-domain-security.yml
+  href: https://artifacts.apis.io/novell/security/novell-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/novell-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/security/novell-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/novell/security/novell-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/novell-vulnerability-disclosure.yml
@@ -152,7 +154,7 @@ plans:
 - name: Novell Plans Pricing
   plan_count: 0
   slug: novell-plans-pricing
-random_paper: 18
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Novell Rate Limits
@@ -161,13 +163,13 @@ score:
   band: emerging
   composite: 25.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -175,7 +177,7 @@ score:
     developer_ergonomics: 57.1
     discoverability: 62.5
     operational_transparency: 34.2
-  previous_composite: 25.3
+  previous_composite: 25.4
   provenance:
     conformance: first-party
   regulatory:
@@ -184,14 +186,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/screenshots/novell-2026-10-11T111650.png
+screenshot: https://apis.io/screenshots/novell/novell-2026-10-11T111650.png
 security:
 - kind: authentication
   name: Novell Authentication

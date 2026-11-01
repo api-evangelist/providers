@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A live, OAuth-protected Model Context Protocol endpoint served by CoolerX from its own apex host and discovered through the RFC 9728 protected-resource metadata document at https://coolerx.com/.well-k
@@ -45,12 +47,12 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cooler-screens/refs/heads/main/security/cooler-screens-domain-security.yml
+  href: https://artifacts.apis.io/cooler-screens/security/cooler-screens-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cooler-screens-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cooler-screens/refs/heads/main/llms/cooler-screens-llms.txt
+  href: https://artifacts.apis.io/cooler-screens/llms/cooler-screens-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cooler-screens-llms.txt
@@ -63,42 +65,42 @@ common:
   type: PrivacyPolicy
   url: https://www.coolerx.com/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cooler-screens/refs/heads/main/well-known/cooler-screens-well-known.yml
+  href: https://artifacts.apis.io/cooler-screens/well-known/cooler-screens-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cooler-screens-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cooler-screens/refs/heads/main/conformance/cooler-screens-conformance.yml
+  href: https://artifacts.apis.io/cooler-screens/conformance/cooler-screens-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cooler-screens-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cooler-screens/refs/heads/main/plans/cooler-screens-plans-pricing.yml
+  href: https://artifacts.apis.io/cooler-screens/plans/cooler-screens-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cooler-screens-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cooler-screens/refs/heads/main/rate-limits/cooler-screens-rate-limits.yml
+  href: https://artifacts.apis.io/cooler-screens/rate-limits/cooler-screens-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cooler-screens-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cooler-screens/refs/heads/main/errors/cooler-screens-problem-types.yml
+  href: https://artifacts.apis.io/cooler-screens/errors/cooler-screens-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cooler-screens-problem-types.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cooler-screens/refs/heads/main/authentication/cooler-screens-authentication.yml
+  href: https://artifacts.apis.io/cooler-screens/authentication/cooler-screens-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cooler-screens-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cooler-screens/refs/heads/main/scopes/cooler-screens-scopes.yml
+  href: https://artifacts.apis.io/cooler-screens/scopes/cooler-screens-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cooler-screens-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cooler-screens/refs/heads/main/mcp/cooler-screens-mcp.yml
+  href: https://artifacts.apis.io/cooler-screens/mcp/cooler-screens-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cooler-screens-mcp.yml
@@ -126,7 +128,7 @@ plans:
 - name: Cooler Screens Plans Pricing
   plan_count: 0
   slug: cooler-screens-plans-pricing
-random_paper: 14
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Cooler Screens Rate Limits
@@ -138,7 +140,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: emerging
-  composite: 15.9
+  composite: 16.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -151,10 +153,10 @@ score:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 14.3
-    discoverability: 68.3
+    developer_ergonomics: 16.7
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 15.9
+  previous_composite: 16.1
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -164,14 +166,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cooler-screens/refs/heads/main/screenshots/cooler-screens-2026-09-02T145143.png
+screenshot: https://apis.io/screenshots/cooler-screens/cooler-screens-2026-09-02T145143.png
 security:
 - kind: authentication
   name: Cooler Screens Authentication

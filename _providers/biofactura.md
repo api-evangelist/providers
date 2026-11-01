@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/biofactura/refs/heads/main/plans/biofactura-plans-pricing.yml
+  href: https://artifacts.apis.io/biofactura/plans/biofactura-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/biofactura-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/biofactura/refs/heads/main/hosts/biofactura-hosts.yml
+  href: https://artifacts.apis.io/biofactura/hosts/biofactura-hosts.yml
   title: ''
   type: Hosts
   url: hosts/biofactura-hosts.yml
@@ -54,7 +56,7 @@ common:
   type: Blog
   url: https://www.biofactura.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/biofactura/refs/heads/main/security/biofactura-domain-security.yml
+  href: https://artifacts.apis.io/biofactura/security/biofactura-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/biofactura-domain-security.yml
@@ -113,14 +115,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/biofactura/refs/heads/main/screenshots/biofactura-2026-10-11T102300.png
+screenshot: https://apis.io/screenshots/biofactura/biofactura-2026-10-11T102300.png
 security:
 - kind: domain-security
   name: Biofactura Domain Security

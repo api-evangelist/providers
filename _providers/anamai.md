@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,17 +25,19 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.7
-  scored_at: '2026-10-17'
+  score: 42.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -95,7 +97,17 @@ apis:
   description: The LLMs API from Anam.ai — 2 operation(s) for llms.
   name: Anam.ai LL Ms API
   slug: anamai-llms-api
-artifact_total: 37
+- baseURL: https://api.anam.ai/v1/
+  baseurl_source: declared
+  description: The Avatar Videos API from Anam.ai — 4 operation(s) for avatar videos.
+  name: Anam.ai Avatar Videos API
+  slug: anamai-avatar-videos-api
+- baseURL: https://api.anam.ai/v1/
+  baseurl_source: declared
+  description: The Pronunciation Dictionaries API from Anam.ai — 3 operation(s) for pronunciation dictionaries.
+  name: Anam.ai Pronunciation Dictionaries API
+  slug: anamai-pronunciation-dictionaries-api
+artifact_total: 44
 collections:
 - collection_type: postman
   name: Anam AI Avatars API
@@ -128,9 +140,6 @@ collections:
   name: Anam AI Avatars Voices API
   slug: postman-anamai-voices-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Anam AI Avatars API
   slug: open-anamai-avatars-api
 - collection_type: open
@@ -161,8 +170,18 @@ collections:
   name: Anam AI Avatars Voices API
   slug: open-anamai-voices-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/anamai/plans/anamai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/anamai-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/overlays/anamai-openapi-overlay.yaml
+  href: https://artifacts.apis.io/anamai/capabilities/anamai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/anamai-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/anamai/overlays/anamai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/anamai-openapi-overlay.yaml
@@ -223,7 +242,7 @@ common:
   type: StatusPage
   url: https://status.anam.ai/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/changelog/anamai-changelog.yml
+  href: https://artifacts.apis.io/anamai/changelog/anamai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/anamai-changelog.yml
@@ -236,37 +255,37 @@ common:
   type: Compliance
   url: https://trust.anam.ai/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/packages/anamai-packages.yml
+  href: https://artifacts.apis.io/anamai/packages/anamai-packages.yml
   title: ''
   type: Packages
   url: packages/anamai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/packages/anamai-packages.yml
+  href: https://artifacts.apis.io/anamai/packages/anamai-packages.yml
   title: ''
   type: SDKs
   url: packages/anamai-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/mcp/anamai-mcp.yml
+  href: https://artifacts.apis.io/anamai/mcp/anamai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/anamai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/anamai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/llms/anamai-llms.txt
+  href: https://artifacts.apis.io/anamai/llms/anamai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/anamai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/well-known/anamai-well-known.yml
+  href: https://artifacts.apis.io/anamai/well-known/anamai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/anamai-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/well-known/anamai-security.txt
+  href: https://artifacts.apis.io/anamai/well-known/anamai-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/anamai-security.txt
@@ -275,57 +294,57 @@ common:
   type: Security
   url: https://anam.ai/.well-known/security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/conformance/anamai-conformance.yml
+  href: https://artifacts.apis.io/anamai/conformance/anamai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/anamai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/errors/anamai-problem-types.yml
+  href: https://artifacts.apis.io/anamai/errors/anamai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/anamai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/lifecycle/anamai-lifecycle.yml
+  href: https://artifacts.apis.io/anamai/lifecycle/anamai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/anamai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/conventions/anamai-conventions.yml
+  href: https://artifacts.apis.io/anamai/conventions/anamai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/anamai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/data-model/anamai-data-model.yml
+  href: https://artifacts.apis.io/anamai/data-model/anamai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/anamai-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/rate-limits/anamai-rate-limits.yml
+  href: https://artifacts.apis.io/anamai/rate-limits/anamai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/anamai-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/agentic-access/anamai-agentic-access.yml
+  href: https://artifacts.apis.io/anamai/agentic-access/anamai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/anamai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/security/anamai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/anamai/security/anamai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/anamai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/security/anamai-trust-center.yml
+  href: https://artifacts.apis.io/anamai/security/anamai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/anamai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/security/anamai-domain-security.yml
+  href: https://artifacts.apis.io/anamai/security/anamai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anamai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/authentication/anamai-authentication.yml
+  href: https://artifacts.apis.io/anamai/authentication/anamai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/anamai-authentication.yml
@@ -335,40 +354,55 @@ common:
   url: https://anam.ai/
 created: '2026-07-17'
 description: Anam.ai is a real-time interactive AI avatar platform for building conversational video AI agents with photorealistic personas. Its proprietary CARA-4 avatar model streams over WebRTC with ultra-low latency (around 180ms) across 70+ languages, powering customer support, sales, tutoring, medical, and training use cases. The REST API (https://api.anam.ai/v1/) lets teams create and manage personas, avatars, voices, LLM configs, RAG knowledge groups, tools, share links, and sessions, and invite personas into Google Meet, Zoom, and Microsoft Teams calls via the Meetings API. Auth is a two-step Bearer flow (API key exchanged for a short-lived session token). Anam is HIPAA and SOC 2 certified. Surfaced as a Techstars portfolio company and enriched into the API Evangelist network.
+finops:
+- has_sources: true
+  method: derived
+  name: Anamai Finops
+  primary_unit: minute
+  service_category: ''
+  slug: anamai-finops
+  template: false
 image: https://framerusercontent.com/assets/cyASyHEg6g3WK5dCwQoOyyVbFZU.png
 layout: provider
 modified: '2026-07-17'
 name: Anam.ai
 nav: Providers
 network: true
-overview: 'Anam.ai publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Avatars API, Engine API, Knowledge API, and 7 more. Tagged areas include Company, AI Avatars, Conversational AI, Real-Time Video, and WebRTC.
+overview: 'Anam.ai publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Avatars API, Engine API, Knowledge API, and 9 more. Tagged areas include Company, AI Avatars, Conversational AI, Real-Time Video, and WebRTC.
 
 
-  Anam.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 31 more developer resources.'
-random_paper: 21
+  Anam.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 33 more developer resources.'
+plans:
+- name: Anamai Plans Pricing
+  plan_count: 6
+  slug: anamai-plans-pricing
+- name: Anamai Price Estimates
+  plan_count: 0
+  slug: anamai-price-estimates
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Anamai Rate Limits
   slug: anamai-rate-limits
 score:
-  band: developing
-  composite: 54.1
+  band: strong
+  composite: 66.1
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 27
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 55.0
+    contract_quality: 52.0
     developer_ergonomics: 67.3
-    discoverability: 73.2
-    operational_transparency: 71.1
-  previous_composite: 54.4
+    discoverability: 66.1
+    operational_transparency: 78.9
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -376,7 +410,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 10
+      total: 23
     mcp: derived
     skills: derived
   regulatory:
@@ -388,14 +422,15 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 32.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/screenshots/anamai-2026-07-25T200158.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/anamai/anamai-2026-07-25T200158.png
 security:
 - kind: authentication
   name: Anamai Authentication
@@ -413,6 +448,14 @@ security:
   name: Anamai Trust Center
   slug: anamai-trust-center
   summary_line: SOC 2, HIPAA
+skill_count: 3
+skills:
+- name: Build a RAG knowledge base for a persona
+  slug: anamai-build-knowledge-base
+- name: Create a persona and start a live avatar session
+  slug: anamai-create-persona-and-start-session
+- name: Invite a persona to a video meeting
+  slug: anamai-invite-persona-to-meeting
 slug: anamai
 tags:
 - Company

@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.6
-  scored_at: '2026-10-17'
+  score: 2.2
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -41,17 +43,17 @@ common:
   type: Website
   url: https://www.tatio.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tatio/refs/heads/main/mcp/tatio-mcp.yml
+  href: https://artifacts.apis.io/tatio/mcp/tatio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tatio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tatio/refs/heads/main/llms/tatio-llms.txt
+  href: https://artifacts.apis.io/tatio/llms/tatio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tatio-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tatio/refs/heads/main/security/tatio-domain-security.yml
+  href: https://artifacts.apis.io/tatio/security/tatio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tatio-domain-security.yml
@@ -89,8 +91,8 @@ overview: 'TaTiO is profiled on the [APIs.io](https://apis.io/) network. Tagged 
   TaTiO''s developer surface includes signup flow and 7 more developer resources.'
 random_paper: 17
 score:
-  band: emerging
-  composite: 11.9
+  band: minimal
+  composite: 10.9
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -104,25 +106,25 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 58.3
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 11.9
+  previous_composite: 10.9
   provenance:
-    mcp: first-party
+    mcp: platform-generated
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tatio/refs/heads/main/screenshots/tatio-2026-09-02T162606.png
+screenshot: https://apis.io/screenshots/tatio/tatio-2026-09-02T162606.png
 security:
 - kind: domain-security
   name: Tatio Domain Security

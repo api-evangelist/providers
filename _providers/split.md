@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -85,7 +87,7 @@ apis:
   description: Create, retrieve, update, and delete feature flags (splits) within workspaces. Feature flags represent the toggles used to control feature rollouts.
   name: Split Feature Flags API
   slug: split-feature-flags-api
-artifact_total: 122
+artifact_total: 121
 collections:
 - collection_type: postman
   name: Split Admin API
@@ -135,9 +137,6 @@ collections:
 - collection_type: postman
   name: Split Admin Workspaces API
   slug: postman-split-workspaces-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Split Admin API
   slug: open-split-admin-api
@@ -194,22 +193,22 @@ collections:
   slug: open-split-workspaces-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/plans/split-plans-pricing.yml
+  href: https://artifacts.apis.io/split/plans/split-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/split-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/rate-limits/split-rate-limits.yml
+  href: https://artifacts.apis.io/split/rate-limits/split-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/split-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/finops/split-finops.yml
+  href: https://artifacts.apis.io/split/finops/split-finops.yml
   title: ''
   type: FinOps
   url: finops/split-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/capabilities/split-capability-edges.yml
+  href: https://artifacts.apis.io/split/capabilities/split-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/split-capability-edges.yml
@@ -218,17 +217,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/split/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/agentic-access/split-agentic-access.yml
+  href: https://artifacts.apis.io/split/agentic-access/split-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/split-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/security/split-domain-security.yml
+  href: https://artifacts.apis.io/split/security/split-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/split-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/authentication/split-authentication.yml
+  href: https://artifacts.apis.io/split/authentication/split-authentication.yml
   title: ''
   type: Authentication
   url: authentication/split-authentication.yml
@@ -269,42 +268,42 @@ common:
   type: Login
   url: https://app.split.io/login
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/json-schema/split-feature-flag-schema.json
+  href: https://artifacts.apis.io/split/json-schema/split-feature-flag-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/split-feature-flag-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/json-schema/split-feature-flag-definition-schema.json
+  href: https://artifacts.apis.io/split/json-schema/split-feature-flag-definition-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/split-feature-flag-definition-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/json-schema/split-segment-schema.json
+  href: https://artifacts.apis.io/split/json-schema/split-segment-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/split-segment-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/json-structure/split-feature-flag-structure.json
+  href: https://artifacts.apis.io/split/json-structure/split-feature-flag-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/split-feature-flag-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/json-structure/split-feature-flag-definition-structure.json
+  href: https://artifacts.apis.io/split/json-structure/split-feature-flag-definition-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/split-feature-flag-definition-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/json-ld/split-context.jsonld
+  href: https://artifacts.apis.io/split/json-ld/split-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/split-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/rules/split-rules.yml
+  href: https://artifacts.apis.io/split/rules/split-rules.yml
   title: ''
   type: SpectralRules
   url: rules/split-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/vocabulary/split-vocabulary.yml
+  href: https://artifacts.apis.io/split/vocabulary/split-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/split-vocabulary.yml
@@ -520,7 +519,7 @@ plans:
 - name: Split Plans Pricing
   plan_count: 3
   slug: split-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Split Rate Limits
@@ -550,8 +549,8 @@ rules:
     warn: 5
   slug: split-rules
 score:
-  band: thin
-  composite: 36.5
+  band: developing
+  composite: 41.6
   coverage:
     artifact_dirs: 21
     catalog_earned: 55.0
@@ -559,15 +558,15 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 42.1
     contract_governance: 27.3
     contract_quality: 53.6
     developer_ergonomics: 34.5
     discoverability: 64.3
-    operational_transparency: 10.5
-  previous_composite: 38.0
+    operational_transparency: 13.2
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -580,14 +579,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/screenshots/split-2026-06-20T194330.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/split/split-2026-06-20T194330.png
 security:
 - kind: authentication
   name: Split Authentication

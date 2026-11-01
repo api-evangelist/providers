@@ -4,6 +4,6 @@ layout: provider
 name: power-tools
 nav: Providers
 network: true
-random_paper: 19
+random_paper: 11
 slug: power-tools
 ---

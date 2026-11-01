@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,41 +52,38 @@ apis:
 - description: 'United Surgical Partners International (USPI) integration APIs for ambulatory surgery center scheduling, patient registration, procedure management, and clinical data exchange. USPI operates over 600 '
   name: USPI Ambulatory Surgery Center API
   slug: uspi-ambulatory-surgery-center-api
-- baseURL: https://api.coniferhealth.com
+- baseURL: https://api.tenethealth.com/fhir/r4
   baseurl_source: declared
   description: Healthcare appointment scheduling and management (FHIR Appointment resource)
   name: Tenet Healthcare Appointments API
   slug: tenet-healthcare-appointments-api
-- baseURL: https://api.coniferhealth.com
+- baseURL: https://api.tenethealth.com/fhir/r4
   baseurl_source: declared
   description: Patient diagnoses, problems, and health concerns (FHIR Condition resource)
   name: Tenet Healthcare Conditions API
   slug: tenet-healthcare-conditions-api
-- baseURL: https://api.coniferhealth.com
+- baseURL: https://api.tenethealth.com/fhir/r4
   baseurl_source: declared
   description: Clinical document references and summaries (FHIR DocumentReference resource)
   name: Tenet Healthcare Documents API
   slug: tenet-healthcare-documents-api
-- baseURL: https://api.coniferhealth.com
+- baseURL: https://api.tenethealth.com/fhir/r4
   baseurl_source: declared
   description: Medication prescriptions and administration records (FHIR MedicationRequest resource)
   name: Tenet Healthcare Medications API
   slug: tenet-healthcare-medications-api
-- baseURL: https://api.coniferhealth.com
+- baseURL: https://api.tenethealth.com/fhir/r4
   baseurl_source: declared
   description: Clinical observations including vital signs, lab results, and assessments (FHIR Observation resource)
   name: Tenet Healthcare Observations API
   slug: tenet-healthcare-observations-api
-- baseURL: https://api.coniferhealth.com
+- baseURL: https://api.tenethealth.com/fhir/r4
   baseurl_source: declared
   description: Patient demographic and administrative information (FHIR Patient resource)
   name: Tenet Healthcare Patients API
   slug: tenet-healthcare-patients-api
-artifact_total: 31
+artifact_total: 30
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tenet Healthcare FHIR R4 Patient Appointments API
   slug: open-tenet-healthcare-appointments-api
@@ -108,37 +107,37 @@ collections:
   slug: open-tenet-healthcare-patients-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/plans/tenet-healthcare-plans-pricing.yml
+  href: https://artifacts.apis.io/tenet-healthcare/plans/tenet-healthcare-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tenet-healthcare-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/rate-limits/tenet-healthcare-rate-limits.yml
+  href: https://artifacts.apis.io/tenet-healthcare/rate-limits/tenet-healthcare-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tenet-healthcare-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/finops/tenet-healthcare-finops.yml
+  href: https://artifacts.apis.io/tenet-healthcare/finops/tenet-healthcare-finops.yml
   title: ''
   type: FinOps
   url: finops/tenet-healthcare-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/agentic-access/tenet-healthcare-agentic-access.yml
+  href: https://artifacts.apis.io/tenet-healthcare/agentic-access/tenet-healthcare-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tenet-healthcare-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/security/tenet-healthcare-domain-security.yml
+  href: https://artifacts.apis.io/tenet-healthcare/security/tenet-healthcare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tenet-healthcare-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/authentication/tenet-healthcare-authentication.yml
+  href: https://artifacts.apis.io/tenet-healthcare/authentication/tenet-healthcare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tenet-healthcare-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/scopes/tenet-healthcare-scopes.yml
+  href: https://artifacts.apis.io/tenet-healthcare/scopes/tenet-healthcare-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tenet-healthcare-scopes.yml
@@ -175,32 +174,32 @@ common:
   type: USPI
   url: https://www.uspi.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/json-ld/tenet-healthcare-context.jsonld
+  href: https://artifacts.apis.io/tenet-healthcare/json-ld/tenet-healthcare-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tenet-healthcare-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/json-schema/tenet-healthcare-patient-schema.json
+  href: https://artifacts.apis.io/tenet-healthcare/json-schema/tenet-healthcare-patient-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tenet-healthcare-patient-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/json-schema/tenet-healthcare-appointment-schema.json
+  href: https://artifacts.apis.io/tenet-healthcare/json-schema/tenet-healthcare-appointment-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tenet-healthcare-appointment-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/json-structure/tenet-healthcare-patient-structure.json
+  href: https://artifacts.apis.io/tenet-healthcare/json-structure/tenet-healthcare-patient-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/tenet-healthcare-patient-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/rules/tenet-healthcare-rules.yml
+  href: https://artifacts.apis.io/tenet-healthcare/rules/tenet-healthcare-rules.yml
   title: ''
   type: SpectralRules
   url: rules/tenet-healthcare-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/vocabulary/tenet-healthcare-vocabulary.yml
+  href: https://artifacts.apis.io/tenet-healthcare/vocabulary/tenet-healthcare-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tenet-healthcare-vocabulary.yml
@@ -270,7 +269,7 @@ press:
 - date: ''
   title: Artificial Intelligence at Tenet Healthcare
   url: https://emerj.com/artificial-intelligence-at-tenet-healthcare/
-random_paper: 2
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Tenet Healthcare Rate Limits
@@ -314,7 +313,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
@@ -322,7 +321,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 33.6
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -336,14 +335,14 @@ score:
     regime: Health
     regime_id: health
     score: 26.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/screenshots/tenet-healthcare-2026-06-20T195114.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tenet-healthcare/tenet-healthcare-2026-06-20T195114.png
 security:
 - kind: authentication
   name: Tenet Healthcare Authentication

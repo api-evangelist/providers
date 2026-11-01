@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -50,17 +52,17 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/sight-diagnostics
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sight-diagnostics/refs/heads/main/llms/sight-diagnostics-llms.txt
+  href: https://artifacts.apis.io/sight-diagnostics/llms/sight-diagnostics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sight-diagnostics-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sight-diagnostics/refs/heads/main/mcp/sight-diagnostics-mcp.yml
+  href: https://artifacts.apis.io/sight-diagnostics/mcp/sight-diagnostics-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sight-diagnostics-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sight-diagnostics/refs/heads/main/security/sight-diagnostics-domain-security.yml
+  href: https://artifacts.apis.io/sight-diagnostics/security/sight-diagnostics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sight-diagnostics-domain-security.yml
@@ -96,7 +98,7 @@ description: 'Sight Diagnostics is an Israeli medical-device and diagnostics com
 image: https://static.wixstatic.com/media/a6dc54_dcc7d9f74ab6416186ef600457ae343b~mv2.jpg/v1/fill/w_1400,h_550,al_c/a6dc54_dcc7d9f74ab6416186ef600457ae343b~mv2.jpg
 layout: provider
 mcp_servers:
-- description: Remote MCP server at www.sightdx.com over streamable HTTP; 9 tools listed.
+- description: Remote MCP server at www.sightdx.com over streamable HTTP; 10 tools listed.
   name: Sight Diagnostics Site MCP (Wix "Site Visitor Assistant")
   slug: sight-diagnostics-site-mcp-wix-site-visitor-assistant
 modified: '2026-08-27'
@@ -104,12 +106,12 @@ name: Sight Diagnostics
 nav: Providers
 network: true
 overview: Sight Diagnostics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, Diagnostics, and Hematology.
-random_paper: 4
+random_paper: 12
 score:
   band: minimal
-  composite: 5.0
+  composite: 4.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -121,8 +123,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 58.3
-    operational_transparency: 2.6
+    discoverability: 48.3
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -131,7 +133,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 5.0
+  previous_composite: 4.4
   provenance:
     mcp: platform-generated
   regulatory:
@@ -140,14 +142,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sight-diagnostics/refs/heads/main/screenshots/sight-diagnostics-2026-09-02T155419.png
+screenshot: https://apis.io/screenshots/sight-diagnostics/sight-diagnostics-2026-09-02T155419.png
 security:
 - kind: domain-security
   name: Sight Diagnostics Domain Security

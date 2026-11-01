@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 30.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -93,9 +95,6 @@ collections:
   name: AbuseIPDB APIv2
   slug: postman-abuseipdb-apiv2
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: AbuseIPDB APIv2
   slug: open-abuseipdb-apiv2
 - collection_type: open
@@ -112,22 +111,22 @@ collections:
   slug: open-abuseipdb-reputation-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/capabilities/abuseipdb-capability-edges.yml
+  href: https://artifacts.apis.io/abuseipdb/capabilities/abuseipdb-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/abuseipdb-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/agentic-access/abuseipdb-agentic-access.yml
+  href: https://artifacts.apis.io/abuseipdb/agentic-access/abuseipdb-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/abuseipdb-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/security/abuseipdb-domain-security.yml
+  href: https://artifacts.apis.io/abuseipdb/security/abuseipdb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/abuseipdb-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/authentication/abuseipdb-authentication.yml
+  href: https://artifacts.apis.io/abuseipdb/authentication/abuseipdb-authentication.yml
   title: ''
   type: Authentication
   url: authentication/abuseipdb-authentication.yml
@@ -136,37 +135,37 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/abuseipdb/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/arazzo/abuseipdb-blacklist-triage-workflow.yml
+  href: https://artifacts.apis.io/abuseipdb/arazzo/abuseipdb-blacklist-triage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/abuseipdb-blacklist-triage-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/arazzo/abuseipdb-block-scan-and-check-workflow.yml
+  href: https://artifacts.apis.io/abuseipdb/arazzo/abuseipdb-block-scan-and-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/abuseipdb-block-scan-and-check-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/arazzo/abuseipdb-bulk-report-then-verify-workflow.yml
+  href: https://artifacts.apis.io/abuseipdb/arazzo/abuseipdb-bulk-report-then-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/abuseipdb-bulk-report-then-verify-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/arazzo/abuseipdb-check-then-report-workflow.yml
+  href: https://artifacts.apis.io/abuseipdb/arazzo/abuseipdb-check-then-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/abuseipdb-check-then-report-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/arazzo/abuseipdb-clear-false-positive-workflow.yml
+  href: https://artifacts.apis.io/abuseipdb/arazzo/abuseipdb-clear-false-positive-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/abuseipdb-clear-false-positive-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/arazzo/abuseipdb-investigate-ip-workflow.yml
+  href: https://artifacts.apis.io/abuseipdb/arazzo/abuseipdb-investigate-ip-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/abuseipdb-investigate-ip-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/arazzo/abuseipdb-report-then-verify-workflow.yml
+  href: https://artifacts.apis.io/abuseipdb/arazzo/abuseipdb-report-then-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/abuseipdb-report-then-verify-workflow.yml
@@ -195,27 +194,27 @@ common:
   type: Pricing
   url: https://www.abuseipdb.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/plans/abuseipdb-plans-pricing.yml
+  href: https://artifacts.apis.io/abuseipdb/plans/abuseipdb-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/abuseipdb-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/rate-limits/abuseipdb-rate-limits.yml
+  href: https://artifacts.apis.io/abuseipdb/rate-limits/abuseipdb-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/abuseipdb-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/rules/abuseipdb-rules.yml
+  href: https://artifacts.apis.io/abuseipdb/rules/abuseipdb-rules.yml
   title: ''
   type: SpectralRules
   url: rules/abuseipdb-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/vocabulary/abuseipdb-vocabulary.yml
+  href: https://artifacts.apis.io/abuseipdb/vocabulary/abuseipdb-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/abuseipdb-vocabulary.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/finops/abuseipdb-finops.yml
+  href: https://artifacts.apis.io/abuseipdb/finops/abuseipdb-finops.yml
   title: ''
   type: FinOps
   url: finops/abuseipdb-finops.yml
@@ -315,10 +314,10 @@ features:
   name: Whitelist Awareness
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Abuseipdb Finops
-  primary_unit: ''
-  service_category: Security & Identity
+  primary_unit: subscription
+  service_category: ''
   slug: abuseipdb-finops
   template: false
 image: https://www.abuseipdb.com/img/abuseipdb-logo.svg
@@ -384,9 +383,12 @@ overview: 'AbuseIPDB publishes 4 API contracts indexed on the [APIs.io](https://
   AbuseIPDB''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, FAQ, support, and 30 more developer resources.'
 plans:
 - name: Abuseipdb Plans Pricing
-  plan_count: 4
+  plan_count: 6
   slug: abuseipdb-plans-pricing
-random_paper: 19
+- name: Abuseipdb Price Estimates
+  plan_count: 0
+  slug: abuseipdb-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 25
   name: Abuseipdb Rate Limits
@@ -416,24 +418,24 @@ rules:
     warn: 14
   slug: abuseipdb-rules
 score:
-  band: developing
-  composite: 43.2
+  band: strong
+  composite: 61.1
   coverage:
     artifact_dirs: 21
-    catalog_earned: 69.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    catalog_earned: 81.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 34.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.6
   facets:
-    access_clarity: 25.0
+    access_clarity: 84.2
     contract_governance: 27.3
     contract_quality: 66.0
-    developer_ergonomics: 51.2
+    developer_ergonomics: 70.2
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 51.5
+    operational_transparency: 13.2
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     contracts:
@@ -446,14 +448,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/screenshots/abuseipdb-2026-06-20T163451.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/abuseipdb/abuseipdb-2026-06-20T163451.png
 security:
 - kind: authentication
   name: Abuseipdb Authentication

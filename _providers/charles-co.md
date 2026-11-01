@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-17'
+  score: 9.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Token-authenticated HTTP API behind the Charles conversational commerce platform. Clients authenticate against a per-tenant "universe" host and the central api.hello-charles.com service, then work wit
@@ -47,32 +49,32 @@ common:
   type: BlogRSS
   url: https://www.hello-charles.com/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/charles-co/refs/heads/main/security/charles-co-domain-security.yml
+  href: https://artifacts.apis.io/charles-co/security/charles-co-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/charles-co-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/charles-co/refs/heads/main/packages/charles-co-packages.yml
+  href: https://artifacts.apis.io/charles-co/packages/charles-co-packages.yml
   title: ''
   type: Packages
   url: packages/charles-co-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/charles-co/refs/heads/main/packages/charles-co-packages.yml
+  href: https://artifacts.apis.io/charles-co/packages/charles-co-packages.yml
   title: ''
   type: SDKs
   url: packages/charles-co-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/charles-co/refs/heads/main/authentication/charles-co-authentication.yml
+  href: https://artifacts.apis.io/charles-co/authentication/charles-co-authentication.yml
   title: ''
   type: Authentication
   url: authentication/charles-co-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/charles-co/refs/heads/main/conventions/charles-co-conventions.yml
+  href: https://artifacts.apis.io/charles-co/conventions/charles-co-conventions.yml
   title: ''
   type: Conventions
   url: conventions/charles-co-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/charles-co/refs/heads/main/lifecycle/charles-co-lifecycle.yml
+  href: https://artifacts.apis.io/charles-co/lifecycle/charles-co-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/charles-co-lifecycle.yml
@@ -81,7 +83,7 @@ common:
   type: StatusPage
   url: https://status.hello-charles.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/charles-co/refs/heads/main/llms/charles-co-llms.txt
+  href: https://artifacts.apis.io/charles-co/llms/charles-co-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/charles-co-llms.txt
@@ -153,10 +155,10 @@ overview: 'Charles Co is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Charles Co''s developer surface includes authentication, documentation, API reference, engineering blog, support, signup flow, and 16 more developer resources.'
-random_paper: 3
+random_paper: 9
 score:
   band: emerging
-  composite: 20.4
+  composite: 25.6
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -169,9 +171,9 @@ score:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.6
-    discoverability: 75.0
-    operational_transparency: 18.4
+    developer_ergonomics: 57.1
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -180,7 +182,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 20.4
+  previous_composite: 25.6
   provenance:
     mcp: first-party
   regulatory:
@@ -189,14 +191,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/charles-co/refs/heads/main/screenshots/charles-co-2026-07-25T205103.png
+screenshot: https://apis.io/screenshots/charles-co/charles-co-2026-07-25T205103.png
 security:
 - kind: authentication
   name: Charles Co Authentication

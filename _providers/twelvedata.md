@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 60.1
-  scored_at: '2026-10-17'
+  score: 52.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 199
   slug: twelvedata-agentic-access
   summary_line: 199 operations · 1 acting
-api_count: 3
+api_count: 2
 apis:
 - baseURL: wss://ws.twelvedata.com/v1/quotes/price
   baseurl_source: declared
@@ -384,7 +386,7 @@ apis:
     question: What is the short overview of an ETF, like its name and current value?
   phrasing_ops: 8
   slug: twelvedata-etfs-api
-artifact_total: 39
+artifact_total: 43
 asyncapis:
 - description: AsyncAPI 2.6 description of Twelve Data's **real-time price WebSocket**. Unlike a one-way HTTP Server-Sent Events stream, this is a genuine, bidirectional WebSocket (`wss://`) surface. The client open
   name: Twelve Data Real-Time Price WebSocket
@@ -408,9 +410,6 @@ collections:
 - collection_type: postman
   name: Twelve Data REST Core Data Time Series API
   slug: postman-twelvedata-time-series-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Twelve Data REST Core Data API
   slug: open-twelvedata-core-data-api
@@ -438,22 +437,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/twelve-data/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/security/twelvedata-trust-center.yml
+  href: https://artifacts.apis.io/twelvedata/security/twelvedata-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/twelvedata-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/security/twelvedata-domain-security.yml
+  href: https://artifacts.apis.io/twelvedata/security/twelvedata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/twelvedata-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/agentic-access/twelvedata-agentic-access.yml
+  href: https://artifacts.apis.io/twelvedata/agentic-access/twelvedata-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/twelvedata-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/authentication/twelvedata-authentication.yml
+  href: https://artifacts.apis.io/twelvedata/authentication/twelvedata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/twelvedata-authentication.yml
@@ -470,17 +469,17 @@ common:
   type: Documentation
   url: https://twelvedata.com/docs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/plans/twelvedata-plans-pricing.yml
+  href: https://artifacts.apis.io/twelvedata/plans/twelvedata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/twelvedata-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/rate-limits/twelvedata-rate-limits.yml
+  href: https://artifacts.apis.io/twelvedata/rate-limits/twelvedata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/twelvedata-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/finops/twelvedata-finops.yml
+  href: https://artifacts.apis.io/twelvedata/finops/twelvedata-finops.yml
   title: ''
   type: FinOps
   url: finops/twelvedata-finops.yml
@@ -493,42 +492,42 @@ common:
   type: Blog
   url: https://twelvedata.com/blog
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/packages/twelvedata-packages.yml
+  href: https://artifacts.apis.io/twelvedata/packages/twelvedata-packages.yml
   title: ''
   type: Packages
   url: packages/twelvedata-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/packages/twelvedata-packages.yml
+  href: https://artifacts.apis.io/twelvedata/packages/twelvedata-packages.yml
   title: ''
   type: SDKs
   url: packages/twelvedata-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/cli/twelvedata-cli.yml
+  href: https://artifacts.apis.io/twelvedata/cli/twelvedata-cli.yml
   title: ''
   type: CLI
   url: cli/twelvedata-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/well-known/twelvedata-well-known.yml
+  href: https://artifacts.apis.io/twelvedata/well-known/twelvedata-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/twelvedata-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/mcp/twelvedata-mcp.yml
+  href: https://artifacts.apis.io/twelvedata/mcp/twelvedata-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/twelvedata-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/mcp/twelvedata-tool-crosswalk.yml
+  href: https://artifacts.apis.io/twelvedata/mcp/twelvedata-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/twelvedata-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/llms/twelvedata-llms.txt
+  href: https://artifacts.apis.io/twelvedata/llms/twelvedata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/twelvedata-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/conformance/twelvedata-conformance.yml
+  href: https://artifacts.apis.io/twelvedata/conformance/twelvedata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/twelvedata-conformance.yml
@@ -537,12 +536,12 @@ common:
   type: Compliance
   url: https://security.twelvedata.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/errors/twelvedata-problem-types.yml
+  href: https://artifacts.apis.io/twelvedata/errors/twelvedata-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/twelvedata-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/lifecycle/twelvedata-lifecycle.yml
+  href: https://artifacts.apis.io/twelvedata/lifecycle/twelvedata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/twelvedata-lifecycle.yml
@@ -555,32 +554,32 @@ common:
   type: Roadmap
   url: https://roadmap.twelvedata.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/changelog/twelvedata-changelog.yml
+  href: https://artifacts.apis.io/twelvedata/changelog/twelvedata-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/twelvedata-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/conventions/twelvedata-conventions.yml
+  href: https://artifacts.apis.io/twelvedata/conventions/twelvedata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/twelvedata-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/sandbox/twelvedata-sandbox.yml
+  href: https://artifacts.apis.io/twelvedata/sandbox/twelvedata-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/twelvedata-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/components/twelvedata-components.yml
+  href: https://artifacts.apis.io/twelvedata/components/twelvedata-components.yml
   title: ''
   type: Components
   url: components/twelvedata-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/data-model/twelvedata-data-model.yml
+  href: https://artifacts.apis.io/twelvedata/data-model/twelvedata-data-model.yml
   title: ''
   type: DataModel
   url: data-model/twelvedata-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/twelvedata/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -620,10 +619,10 @@ created: '2026-07-11'
 description: Twelve Data is a financial market data provider offering real-time and historical data for stocks, forex, cryptocurrencies, ETFs, indices, commodities, and funds through a single REST API and a real-time WebSocket. Coverage spans time series (OHLCV), quotes and prices, 100-plus technical indicators, reference and catalog data, and company fundamentals. Every request is authenticated with an apikey and metered as API credits; a free Basic plan grants 800 API credits per day. Real-time price streaming is delivered over a WebSocket at wss://ws.twelvedata.com/v1/quotes/price.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Twelvedata Finops
-  primary_unit: ''
-  service_category: Financial Market Data
+  primary_unit: add-on
+  service_category: ''
   slug: twelvedata-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/twelvedata.png
@@ -645,8 +644,11 @@ overview: 'Twelve Data publishes 15 API contracts indexed on the [APIs.io](https
   Twelve Data''s developer surface includes authentication, documentation, support, engineering blog, CLI, changelog, sandbox, and 33 more developer resources.'
 plans:
 - name: Twelvedata Plans Pricing
-  plan_count: 5
+  plan_count: 10
   slug: twelvedata-plans-pricing
+- name: Twelvedata Price Estimates
+  plan_count: 0
+  slug: twelvedata-price-estimates
 random_paper: 17
 rate_limits:
 - limit_count: 3
@@ -666,24 +668,24 @@ rules:
     warn: 7
   slug: twelvedata-asyncapi-spectral-rules
 score:
-  band: strong
-  composite: 61.2
+  band: exemplar
+  composite: 67.4
   coverage:
     artifact_dirs: 30
-    catalog_earned: 49.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 65.3
+    catalog_earned: 58.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 56.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.8
+  delta: 1.0
   facets:
-    access_clarity: 68.4
+    access_clarity: 100.0
     contract_governance: 15.9
     contract_quality: 57.3
     developer_ergonomics: 81.5
-    discoverability: 80.0
-    operational_transparency: 44.7
-  previous_composite: 69.0
+    discoverability: 65.0
+    operational_transparency: 50.0
+  previous_composite: 66.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -704,13 +706,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/screenshots/twelvedata-2026-08-17T130124.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/twelvedata/twelvedata-2026-08-17T130124.png
 security:
 - kind: authentication
   name: Twelvedata Authentication
@@ -724,6 +727,16 @@ security:
   name: Twelvedata Trust Center
   slug: twelvedata-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 4
+skills:
+- name: Research company fundamentals
+  slug: twelvedata-fundamentals-research
+- name: Screen markets and instruments
+  slug: twelvedata-market-screening
+- name: Fetch a price and its history
+  slug: twelvedata-price-and-history
+- name: Run technical analysis on a symbol
+  slug: twelvedata-technical-analysis
 slug: twelvedata
 tags:
 - Market Data

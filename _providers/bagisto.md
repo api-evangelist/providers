@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'RESTful API for managing all Bagisto e-commerce operations including products, categories, customers, orders, inventory, cart, checkout, and administrative functions. Provides separate Shop and Admin '
@@ -69,7 +71,7 @@ common:
   type: License
   url: https://github.com/bagisto/bagisto/blob/2.4/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bagisto/refs/heads/main/security/bagisto-domain-security.yml
+  href: https://artifacts.apis.io/bagisto/security/bagisto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bagisto-domain-security.yml
@@ -114,17 +116,17 @@ common:
   type: Forums
   url: https://forums.bagisto.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bagisto/refs/heads/main/plans/bagisto-plans-pricing.yml
+  href: https://artifacts.apis.io/bagisto/plans/bagisto-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bagisto-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bagisto/refs/heads/main/rate-limits/bagisto-rate-limits.yml
+  href: https://artifacts.apis.io/bagisto/rate-limits/bagisto-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bagisto-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bagisto/refs/heads/main/finops/bagisto-finops.yml
+  href: https://artifacts.apis.io/bagisto/finops/bagisto-finops.yml
   title: ''
   type: FinOps
   url: finops/bagisto-finops.yml
@@ -156,14 +158,14 @@ plans:
 - name: Bagisto Plans Pricing
   plan_count: 3
   slug: bagisto-plans-pricing
-random_paper: 19
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Bagisto Rate Limits
   slug: bagisto-rate-limits
 score:
   band: thin
-  composite: 36.4
+  composite: 29.4
   coverage:
     artifact_dirs: 10
     catalog_earned: 43.0
@@ -171,7 +173,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
@@ -179,24 +181,21 @@ score:
     developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 39.5
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 43.9
+  previous_composite: 29.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bagisto/refs/heads/main/screenshots/bagisto-2026-06-20T172936.png
+screenshot: https://apis.io/screenshots/bagisto/bagisto-2026-06-20T172936.png
 security:
 - kind: domain-security
   name: Bagisto Domain Security

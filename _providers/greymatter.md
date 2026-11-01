@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The Greymatter Platform API provides programmatic access to configure and manage the Greymatter zero trust networking platform. It enables automation of service mesh deployment, zero trust policy enfo
@@ -48,22 +50,22 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/greymatter/refs/heads/main/plans/greymatter-plans-pricing.yml
+  href: https://artifacts.apis.io/greymatter/plans/greymatter-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/greymatter-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/greymatter/refs/heads/main/rate-limits/greymatter-rate-limits.yml
+  href: https://artifacts.apis.io/greymatter/rate-limits/greymatter-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/greymatter-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/greymatter/refs/heads/main/finops/greymatter-finops.yml
+  href: https://artifacts.apis.io/greymatter/finops/greymatter-finops.yml
   title: ''
   type: FinOps
   url: finops/greymatter-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/greymatter/refs/heads/main/security/greymatter-domain-security.yml
+  href: https://artifacts.apis.io/greymatter/security/greymatter-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/greymatter-domain-security.yml
@@ -105,7 +107,7 @@ finops:
 - has_sources: false
   method: generated
   name: Greymatter Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: greymatter-finops
   template: true
@@ -123,14 +125,14 @@ plans:
 - name: Greymatter Plans Pricing
   plan_count: 3
   slug: greymatter-plans-pricing
-random_paper: 14
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Greymatter Rate Limits
   slug: greymatter-rate-limits
 score:
   band: emerging
-  composite: 16.5
+  composite: 16.9
   coverage:
     artifact_dirs: 8
     catalog_earned: 41.0
@@ -138,29 +140,29 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 62.5
-    operational_transparency: 10.5
-  previous_composite: 18.0
+    operational_transparency: 13.2
+  previous_composite: 16.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/greymatter/refs/heads/main/screenshots/greymatter-2026-06-20T182404.png
+screenshot: https://apis.io/screenshots/greymatter/greymatter-2026-06-20T182404.png
 security:
 - kind: domain-security
   name: Greymatter Domain Security

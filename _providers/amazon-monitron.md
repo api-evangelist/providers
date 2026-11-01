@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.9
-  scored_at: '2026-10-17'
+  score: 30.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,7 +62,7 @@ apis:
   description: The Tags API from Amazon Monitron — 1 operation(s) for tags.
   name: Amazon Monitron Tags API
   slug: amazon-monitron-tags-api
-artifact_total: 46
+artifact_total: 45
 collections:
 - collection_type: postman
   name: Amazon Monitron ProjectAdmins API
@@ -71,9 +73,6 @@ collections:
 - collection_type: postman
   name: Amazon Monitron ProjectAdmins Tags API
   slug: postman-amazon-monitron-tags-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Monitron ProjectAdmins API
   slug: open-amazon-monitron-projectadmins-api
@@ -89,17 +88,17 @@ common:
   type: Pricing
   url: https://aws.amazon.com/monitron/pricing/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/rate-limits/amazon-monitron-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-monitron/rate-limits/amazon-monitron-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-monitron-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/finops/amazon-monitron-finops.yml
+  href: https://artifacts.apis.io/amazon-monitron/finops/amazon-monitron-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-monitron-finops.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/plans/amazon-monitron-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-monitron/plans/amazon-monitron-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-monitron-plans-pricing.yml
@@ -112,27 +111,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-monitron/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/agentic-access/amazon-monitron-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-monitron/agentic-access/amazon-monitron-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-monitron-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/security/amazon-monitron-trust-center.yml
+  href: https://artifacts.apis.io/amazon-monitron/security/amazon-monitron-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-monitron-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/security/amazon-monitron-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-monitron/security/amazon-monitron-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-monitron-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/security/amazon-monitron-domain-security.yml
+  href: https://artifacts.apis.io/amazon-monitron/security/amazon-monitron-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-monitron-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/authentication/amazon-monitron-authentication.yml
+  href: https://artifacts.apis.io/amazon-monitron/authentication/amazon-monitron-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-monitron-authentication.yml
@@ -181,12 +180,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/rules/amazon-monitron-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-monitron/rules/amazon-monitron-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-monitron-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/vocabulary/amazon-monitron-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-monitron/vocabulary/amazon-monitron-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-monitron-vocabulary.yaml
@@ -217,13 +216,13 @@ features:
 - description: Manage project administrators and user associations with fine-grained permissions.
   name: User Access Control
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Monitron Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: pack of 5 sensors
+  service_category: ''
   slug: amazon-monitron-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-monitron.png
 integrations:
 - description: Monitron gateway connects to the cloud via AWS IoT Core.
@@ -281,7 +280,7 @@ plans:
 - name: Amazon Monitron Plans Pricing
   plan_count: 6
   slug: amazon-monitron-plans-pricing
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Amazon Monitron Rate Limits
@@ -312,23 +311,23 @@ rules:
   slug: amazon-monitron-spectral-rules
 score:
   band: developing
-  composite: 47.6
+  composite: 52.6
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 70.0
+    artifact_dirs: 19
+    catalog_earned: 73.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 45.0
+    catalog_gap: 42.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.3
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 24.3
-    developer_ergonomics: 48.8
+    contract_quality: 20.9
+    developer_ergonomics: 58.3
     discoverability: 62.5
-    operational_transparency: 26.3
-  previous_composite: 44.3
+    operational_transparency: 39.5
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     contracts:
@@ -342,13 +341,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/screenshots/amazon-monitron-2026-06-20T171745.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-monitron/amazon-monitron-2026-06-20T171745.png
 security:
 - kind: authentication
   name: Amazon Monitron Authentication

@@ -26,15 +26,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.8
-  scored_at: '2026-10-17'
-api_count: 16
+  score: 30.1
+  scored_at: '2026-10-31'
+api_count: 8
 apis:
 - baseURL: https://web.trailapp.com/api
   baseurl_source: declared
@@ -76,11 +78,8 @@ apis:
   description: The Tasks API from Trail — 1 operation(s) for tasks.
   name: Trail Tasks API
   slug: trail-tasks-api
-artifact_total: 21
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Areas API
   slug: open-trail-areas-api
@@ -106,23 +105,28 @@ collections:
   name: Areas Tasks API
   slug: open-trail-tasks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/trail/plans/trail-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/trail-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/overlays/trail-areas-overlay.yaml
+  href: https://artifacts.apis.io/trail/overlays/trail-areas-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/trail-areas-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/security/trail-domain-security.yml
+  href: https://artifacts.apis.io/trail/security/trail-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trail-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/scopes/trail-scopes.yml
+  href: https://artifacts.apis.io/trail/scopes/trail-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/trail-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/authentication/trail-authentication.yml
+  href: https://artifacts.apis.io/trail/authentication/trail-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trail-authentication.yml
@@ -183,67 +187,75 @@ common:
   type: ChangeLog
   url: https://answers.trailapp.com/en/collections/19359271-release-notes
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/changelog/trail-changelog.yml
+  href: https://artifacts.apis.io/trail/changelog/trail-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/trail-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/llms/trail-llms.txt
+  href: https://artifacts.apis.io/trail/llms/trail-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trail-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/well-known/trail-well-known.yml
+  href: https://artifacts.apis.io/trail/well-known/trail-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/trail-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/errors/trail-problem-types.yml
+  href: https://artifacts.apis.io/trail/errors/trail-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/trail-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/lifecycle/trail-lifecycle.yml
+  href: https://artifacts.apis.io/trail/lifecycle/trail-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trail-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/conformance/trail-conformance.yml
+  href: https://artifacts.apis.io/trail/conformance/trail-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trail-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/conventions/trail-conventions.yml
+  href: https://artifacts.apis.io/trail/conventions/trail-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trail-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/rate-limits/trail-rate-limits.yml
+  href: https://artifacts.apis.io/trail/rate-limits/trail-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trail-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/mcp/trail-mcp.yml
+  href: https://artifacts.apis.io/trail/mcp/trail-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/trail-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/data-model/trail-data-model.yml
+  href: https://artifacts.apis.io/trail/data-model/trail-data-model.yml
   title: ''
   type: DataModel
   url: data-model/trail-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/examples/trail-examples.yml
+  href: https://artifacts.apis.io/trail/examples/trail-examples.yml
   title: ''
   type: Examples
   url: examples/trail-examples.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/trail/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Trail is a digital checklist and work management platform for hospitality and leisure teams, now part of The Access Group (originally Trailsuite Ltd, a Seedcamp portfolio company). Trail digitises daily operations — food safety checks, brand standards, compliance logs and task management — across sites, and publishes a set of API-key-secured public APIs (Task Reports, Task Instances, Task Templates, Sites, Areas, Tags, Scores) plus an OAuth2-secured Evo API, documented with OpenAPI at web.trailapp.com/api-docs.
+finops:
+- has_sources: true
+  method: derived
+  name: Trail Finops
+  primary_unit: site
+  service_category: ''
+  slug: trail-finops
+  template: false
 image: https://cdn.prod.website-files.com/66f405a237adee7cf0668f38/67257ad8aa5f301b38dcd1af_transparent.png
 layout: provider
 modified: '2026-07-21'
@@ -253,7 +265,11 @@ network: true
 overview: 'Trail publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Areas API, Scores API, Sites API, and 5 more. Tagged areas include Company, Hospitality, Checklists, Task Management, and Compliance.
 
 
-  Trail''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
+  Trail''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
+plans:
+- name: Trail Plans Pricing
+  plan_count: 4
+  slug: trail-plans-pricing
 random_paper: 12
 rate_limits:
 - limit_count: 1
@@ -265,24 +281,24 @@ scopes:
   slug: trail-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: developing
-  composite: 44.3
+  band: strong
+  composite: 54.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 48.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    artifact_dirs: 24
+    catalog_earned: 63.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 34.2
+    access_clarity: 73.7
     contract_governance: 4.5
     contract_quality: 49.9
     developer_ergonomics: 49.4
-    discoverability: 78.6
-    operational_transparency: 39.5
-  previous_composite: 44.2
+    discoverability: 71.4
+    operational_transparency: 57.9
+  previous_composite: 46.7
   provenance:
     conformance: derived
     contracts:
@@ -298,13 +314,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/screenshots/trail-2026-08-17T082424.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/trail/trail-2026-08-17T082424.png
 security:
 - kind: authentication
   name: Trail Authentication
@@ -314,6 +331,12 @@ security:
   name: Trail Domain Security
   slug: trail-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: trail-pull-task-reports
+  slug: trail-pull-task-reports
+- name: trail-trigger-task
+  slug: trail-trigger-task
 slug: trail
 tags:
 - Company

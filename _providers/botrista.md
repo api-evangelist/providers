@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Model Context Protocol endpoint served on Botrista's Wix-hosted content site (botrista.info). It is a platform-provided site MCP — supplied by the Wix website builder rather than authored by Botri
@@ -42,22 +44,22 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/botrista/refs/heads/main/security/botrista-domain-security.yml
+  href: https://artifacts.apis.io/botrista/security/botrista-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/botrista-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/botrista/refs/heads/main/mcp/botrista-mcp.yml
+  href: https://artifacts.apis.io/botrista/mcp/botrista-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/botrista-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/botrista/refs/heads/main/llms/botrista-llms.txt
+  href: https://artifacts.apis.io/botrista/llms/botrista-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/botrista-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/botrista/refs/heads/main/conformance/botrista-conformance.yml
+  href: https://artifacts.apis.io/botrista/conformance/botrista-conformance.yml
   title: ''
   type: Conformance
   url: conformance/botrista-conformance.yml
@@ -126,10 +128,10 @@ overview: 'Botrista is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Botrista''s developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 14
+random_paper: 8
 score:
-  band: minimal
-  composite: 10.8
+  band: emerging
+  composite: 17.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -139,13 +141,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 75.0
+    developer_ergonomics: 7.1
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 10.8
+  previous_composite: 17.5
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -154,15 +156,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/botrista/refs/heads/main/screenshots/botrista-2026-08-07T162727.png
+screenshot: https://apis.io/screenshots/botrista/botrista-2026-08-07T162727.png
 security:
 - kind: domain-security
   name: Botrista Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Agent-facing Universal Commerce Protocol (UCP) shopping surface for the Hawthorne Shopify store — catalog search/lookup, cart, checkout, fulfillment, discount and order capabilities over an MCP endpoi
@@ -46,37 +48,37 @@ common:
   type: Website
   url: https://hawthorne.co/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hawthorne/refs/heads/main/well-known/hawthorne-well-known.yml
+  href: https://artifacts.apis.io/hawthorne/well-known/hawthorne-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hawthorne-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hawthorne/refs/heads/main/llms/hawthorne-llms.txt
+  href: https://artifacts.apis.io/hawthorne/llms/hawthorne-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hawthorne-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hawthorne/refs/heads/main/mcp/hawthorne-mcp.yml
+  href: https://artifacts.apis.io/hawthorne/mcp/hawthorne-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hawthorne-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hawthorne/refs/heads/main/authentication/hawthorne-authentication.yml
+  href: https://artifacts.apis.io/hawthorne/authentication/hawthorne-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hawthorne-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hawthorne/refs/heads/main/scopes/hawthorne-scopes.yml
+  href: https://artifacts.apis.io/hawthorne/scopes/hawthorne-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hawthorne-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hawthorne/refs/heads/main/conventions/hawthorne-conventions.yml
+  href: https://artifacts.apis.io/hawthorne/conventions/hawthorne-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hawthorne-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hawthorne/refs/heads/main/security/hawthorne-domain-security.yml
+  href: https://artifacts.apis.io/hawthorne/security/hawthorne-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hawthorne-domain-security.yml
@@ -104,7 +106,7 @@ overview: 'Hawthorne is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Hawthorne''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 8
+random_paper: 16
 scopes:
 - name: Hawthorne Scopes
   scope_count: 4
@@ -112,7 +114,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 16.2
+  composite: 15.2
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -126,9 +128,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 16.2
+  previous_composite: 15.2
   provenance:
     mcp: platform-generated
   regulatory:
@@ -137,14 +139,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hawthorne/refs/heads/main/screenshots/hawthorne-2026-08-07T170020.png
+screenshot: https://apis.io/screenshots/hawthorne/hawthorne-2026-08-07T170020.png
 security:
 - kind: authentication
   name: Hawthorne Authentication

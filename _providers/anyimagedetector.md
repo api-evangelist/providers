@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://imagedetector.online/v1
@@ -44,7 +46,7 @@ apis:
   description: Analyze an image and report whether it is AI-generated.
   name: AnyImageDetector Detection API
   slug: anyimagedetector-detection-api
-artifact_total: 6
+artifact_total: 7
 collections:
 - collection_type: open
   name: AI Image Detector API
@@ -55,12 +57,12 @@ common:
   type: Website
   url: https://www.imagedetector.online/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/mcp/anyimagedetector-mcp.yml
+  href: https://artifacts.apis.io/anyimagedetector/mcp/anyimagedetector-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/anyimagedetector-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/security/anyimagedetector-domain-security.yml
+  href: https://artifacts.apis.io/anyimagedetector/security/anyimagedetector-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anyimagedetector-domain-security.yml
@@ -117,52 +119,52 @@ common:
   type: About
   url: https://imagedetector.online/about
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/llms/anyimagedetector-llms.txt
+  href: https://artifacts.apis.io/anyimagedetector/llms/anyimagedetector-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/anyimagedetector-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/authentication/anyimagedetector-authentication.yml
+  href: https://artifacts.apis.io/anyimagedetector/authentication/anyimagedetector-authentication.yml
   title: ''
   type: Authentication
   url: authentication/anyimagedetector-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/errors/anyimagedetector-problem-types.yml
+  href: https://artifacts.apis.io/anyimagedetector/errors/anyimagedetector-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/anyimagedetector-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/rate-limits/anyimagedetector-rate-limits.yml
+  href: https://artifacts.apis.io/anyimagedetector/rate-limits/anyimagedetector-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/anyimagedetector-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/plans/anyimagedetector-plans-pricing.yml
+  href: https://artifacts.apis.io/anyimagedetector/plans/anyimagedetector-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/anyimagedetector-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/conventions/anyimagedetector-conventions.yml
+  href: https://artifacts.apis.io/anyimagedetector/conventions/anyimagedetector-conventions.yml
   title: ''
   type: Conventions
   url: conventions/anyimagedetector-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/lifecycle/anyimagedetector-lifecycle.yml
+  href: https://artifacts.apis.io/anyimagedetector/lifecycle/anyimagedetector-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/anyimagedetector-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/conformance/anyimagedetector-conformance.yml
+  href: https://artifacts.apis.io/anyimagedetector/conformance/anyimagedetector-conformance.yml
   title: ''
   type: Conformance
   url: conformance/anyimagedetector-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/data-model/anyimagedetector-data-model.yml
+  href: https://artifacts.apis.io/anyimagedetector/data-model/anyimagedetector-data-model.yml
   title: ''
   type: DataModel
   url: data-model/anyimagedetector-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/anyimagedetector/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -183,7 +185,7 @@ plans:
 - name: Anyimagedetector Plans Pricing
   plan_count: 5
   slug: anyimagedetector-plans-pricing
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Anyimagedetector Rate Limits
@@ -192,21 +194,21 @@ score:
   band: thin
   composite: 39.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 15.0
     developer_ergonomics: 47.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 39.4
+  previous_composite: 39.0
   provenance:
     conformance: derived
     contracts:
@@ -222,13 +224,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/screenshots/anyimagedetector-2026-08-17T080553.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/anyimagedetector/anyimagedetector-2026-08-17T080553.png
 security:
 - kind: authentication
   name: Anyimagedetector Authentication
@@ -238,6 +241,10 @@ security:
   name: Anyimagedetector Domain Security
   slug: anyimagedetector-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: anyimagedetector-detect-ai-image
+  slug: anyimagedetector-detect-ai-image
 slug: anyimagedetector
 tags:
 - AI image detection

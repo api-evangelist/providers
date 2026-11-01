@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Public external REST API for FirstLook, Pragma's playtest and community platform. Uses scoped API tokens to query players, look up or find-or-create a player, record analytics events (sessions, counte
@@ -101,52 +103,52 @@ common:
   type: StatusPage
   url: https://status.firstlook.gg
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pragma/refs/heads/main/mcp/pragma-mcp.yml
+  href: https://artifacts.apis.io/pragma/mcp/pragma-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/pragma-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pragma/refs/heads/main/llms/pragma-llms.txt
+  href: https://artifacts.apis.io/pragma/llms/pragma-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pragma-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pragma/refs/heads/main/authentication/pragma-authentication.yml
+  href: https://artifacts.apis.io/pragma/authentication/pragma-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pragma-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pragma/refs/heads/main/scopes/pragma-scopes.yml
+  href: https://artifacts.apis.io/pragma/scopes/pragma-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pragma-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pragma/refs/heads/main/conventions/pragma-conventions.yml
+  href: https://artifacts.apis.io/pragma/conventions/pragma-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pragma-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pragma/refs/heads/main/lifecycle/pragma-lifecycle.yml
+  href: https://artifacts.apis.io/pragma/lifecycle/pragma-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pragma-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pragma/refs/heads/main/conformance/pragma-conformance.yml
+  href: https://artifacts.apis.io/pragma/conformance/pragma-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pragma-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pragma/refs/heads/main/packages/pragma-packages.yml
+  href: https://artifacts.apis.io/pragma/packages/pragma-packages.yml
   title: ''
   type: Packages
   url: packages/pragma-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pragma/refs/heads/main/packages/pragma-packages.yml
+  href: https://artifacts.apis.io/pragma/packages/pragma-packages.yml
   title: ''
   type: SDKs
   url: packages/pragma-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pragma/refs/heads/main/security/pragma-domain-security.yml
+  href: https://artifacts.apis.io/pragma/security/pragma-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pragma-domain-security.yml
@@ -167,7 +169,7 @@ overview: 'Pragma is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Pragma''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 17 more developer resources.'
-random_paper: 16
+random_paper: 8
 scopes:
 - name: Pragma Scopes
   scope_count: 5
@@ -175,7 +177,7 @@ scopes:
   summary_line: 5 scopes
 score:
   band: thin
-  composite: 34.1
+  composite: 34.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -183,15 +185,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 75.0
-    operational_transparency: 10.5
-  previous_composite: 34.0
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 34.5
   provenance:
     conformance: derived
     mcp: first-party
@@ -201,14 +203,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pragma/refs/heads/main/screenshots/pragma-2026-09-02T151853.png
+screenshot: https://apis.io/screenshots/pragma/pragma-2026-09-02T151853.png
 security:
 - kind: authentication
   name: Pragma Authentication

@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 30.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 0
@@ -148,65 +150,65 @@ apis:
   description: The WorkspacesV2 API from Broad Institute — 8 operation(s) for workspacesv2.
   name: Broad Institute Workspaces V2 API
   slug: broad-institute-workspacesv2-api
-artifact_total: 35
+artifact_total: 39
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/agentic-access/broad-institute-agentic-access.yml
+  href: https://artifacts.apis.io/broad-institute/agentic-access/broad-institute-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/broad-institute-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/rules/broad-institute-rules.yml
+  href: https://artifacts.apis.io/broad-institute/rules/broad-institute-rules.yml
   title: ''
   type: Spectral
   url: rules/broad-institute-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/json-ld/broad-institute-context.jsonld
+  href: https://artifacts.apis.io/broad-institute/json-ld/broad-institute-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/broad-institute-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/vocabulary/broad-institute-vocabulary.yml
+  href: https://artifacts.apis.io/broad-institute/vocabulary/broad-institute-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/broad-institute-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/broad-institute/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/data-model/broad-institute-data-model.yml
+  href: https://artifacts.apis.io/broad-institute/data-model/broad-institute-data-model.yml
   title: ''
   type: DataModel
   url: data-model/broad-institute-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/errors/broad-institute-problem-types.yml
+  href: https://artifacts.apis.io/broad-institute/errors/broad-institute-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/broad-institute-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/conformance/broad-institute-conformance.yml
+  href: https://artifacts.apis.io/broad-institute/conformance/broad-institute-conformance.yml
   title: ''
   type: Conformance
   url: conformance/broad-institute-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/hosts/broad-institute-hosts.yml
+  href: https://artifacts.apis.io/broad-institute/hosts/broad-institute-hosts.yml
   title: ''
   type: Hosts
   url: hosts/broad-institute-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/vendors/broad-institute-vendors.yml
+  href: https://artifacts.apis.io/broad-institute/vendors/broad-institute-vendors.yml
   title: ''
   type: Vendors
   url: vendors/broad-institute-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/packages/broad-institute-packages.yml
+  href: https://artifacts.apis.io/broad-institute/packages/broad-institute-packages.yml
   title: ''
   type: SDKs
   url: packages/broad-institute-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/packages/broad-institute-packages.yml
+  href: https://artifacts.apis.io/broad-institute/packages/broad-institute-packages.yml
   title: ''
   type: Packages
   url: packages/broad-institute-packages.yml
@@ -215,17 +217,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/broadinstitute
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/scopes/broad-institute-scopes.yml
+  href: https://artifacts.apis.io/broad-institute/scopes/broad-institute-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/broad-institute-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/authentication/broad-institute-authentication.yml
+  href: https://artifacts.apis.io/broad-institute/authentication/broad-institute-authentication.yml
   title: ''
   type: Authentication
   url: authentication/broad-institute-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/security/broad-institute-domain-security.yml
+  href: https://artifacts.apis.io/broad-institute/security/broad-institute-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/broad-institute-domain-security.yml
@@ -272,7 +274,7 @@ overview: 'Broad Institute publishes 23 API contracts indexed on the [APIs.io](h
 
 
   Broad Institute''s developer surface includes authentication and 16 more developer resources.'
-random_paper: 4
+random_paper: 6
 rules:
 - authorship: generated
   effective_rule_count: 54
@@ -293,7 +295,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 29.6
+  composite: 29.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 62.8
@@ -301,13 +303,15 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
-    contract_quality: 53.4
+    contract_quality: 52.7
     developer_ergonomics: 20.8
     discoverability: 66.1
     operational_transparency: 5.3
+  previous_composite: 29.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -324,11 +328,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Broad Institute Authentication
@@ -338,6 +344,16 @@ security:
   name: Broad Institute Domain Security
   slug: broad-institute-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: broad-institute-manage-spend-report-configuration
+  slug: broad-institute-manage-spend-report-configuration
+- name: broad-institute-method-repo-list-and-get
+  slug: broad-institute-method-repo-list-and-get
+- name: broad-institute-rename-entity
+  slug: broad-institute-rename-entity
+- name: broad-institute-submission-create-monitor
+  slug: broad-institute-submission-create-monitor
 slug: broad-institute
 tags:
 - Biotechnology

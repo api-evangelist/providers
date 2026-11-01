@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'REST API for managing WebinarJam live webinars — list all webinars, retrieve one webinar''s schedules, presenters and custom registration fields, register attendees and return their unique room links, '
@@ -43,7 +45,7 @@ apis:
 - description: REST API for managing EverWebinar automated and evergreen webinars — list webinars, read one webinar's detail, register attendees against a specific session date and timezone, list registrants and att
   name: EverWebinar API
   slug: everwebinar-api
-artifact_total: 7
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Webinarjam Webhooks
@@ -110,72 +112,80 @@ common:
   type: API Key Application
   url: https://support.webinarjam.com/en/articles/15370143-apply-for-an-api-key-for-webinarjam-or-everwebinar
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/llms/webinarjam-llms.txt
+  href: https://artifacts.apis.io/webinarjam/llms/webinarjam-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/webinarjam-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/authentication/webinarjam-authentication.yml
+  href: https://artifacts.apis.io/webinarjam/authentication/webinarjam-authentication.yml
   title: ''
   type: Authentication
   url: authentication/webinarjam-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/rate-limits/webinarjam-rate-limits.yml
+  href: https://artifacts.apis.io/webinarjam/rate-limits/webinarjam-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/webinarjam-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/plans/webinarjam-plans-pricing.yml
+  href: https://artifacts.apis.io/webinarjam/plans/webinarjam-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/webinarjam-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/conventions/webinarjam-conventions.yml
+  href: https://artifacts.apis.io/webinarjam/conventions/webinarjam-conventions.yml
   title: ''
   type: Conventions
   url: conventions/webinarjam-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/errors/webinarjam-problem-types.yml
+  href: https://artifacts.apis.io/webinarjam/errors/webinarjam-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/webinarjam-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/lifecycle/webinarjam-lifecycle.yml
+  href: https://artifacts.apis.io/webinarjam/lifecycle/webinarjam-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/webinarjam-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/asyncapi/webinarjam-webhooks.yml
+  href: https://artifacts.apis.io/webinarjam/asyncapi/webinarjam-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/webinarjam-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/packages/webinarjam-packages.yml
+  href: https://artifacts.apis.io/webinarjam/packages/webinarjam-packages.yml
   title: ''
   type: Packages
   url: packages/webinarjam-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/conformance/webinarjam-conformance.yml
+  href: https://artifacts.apis.io/webinarjam/conformance/webinarjam-conformance.yml
   title: ''
   type: Conformance
   url: conformance/webinarjam-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/data-model/webinarjam-data-model.yml
+  href: https://artifacts.apis.io/webinarjam/data-model/webinarjam-data-model.yml
   title: ''
   type: DataModel
   url: data-model/webinarjam-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/webinarjam/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/security/webinarjam-domain-security.yml
+  href: https://artifacts.apis.io/webinarjam/security/webinarjam-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/webinarjam-domain-security.yml
 created: '2026-05-11'
 description: WebinarJam is a live webinar platform for marketing, training, and sales events, while its sibling product EverWebinar provides automated and evergreen webinar replays. Both are published by Genesis Digital LLC and share one REST API that lets integrators list webinars, read webinar detail including schedules, presenters and custom registration fields, register attendees, pull registrant and attendee analytics, and unsubscribe leads. Every operation is a POST carrying a single account-wide 64-character api_key form field over TLS, with separate /webinarjam and /everwebinar base paths on api.webinarjam.com. API access requires a paid subscription plus an application approved by WebinarJam. No OpenAPI, AsyncAPI, MCP server or SDK is published; the reference is a human help centre and outbound custom webhooks are the only event surface.
+finops:
+- has_sources: true
+  method: derived
+  name: Webinarjam Finops
+  primary_unit: account
+  service_category: ''
+  slug: webinarjam-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/webinarjam.png
 layout: provider
 modified: '2026-08-13'
@@ -191,8 +201,11 @@ overview: 'WebinarJam is listed with 2 APIs on the [APIs.io](https://apis.io/) n
   WebinarJam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
 plans:
 - name: Webinarjam Plans Pricing
-  plan_count: 5
+  plan_count: 9
   slug: webinarjam-plans-pricing
+- name: Webinarjam Price Estimates
+  plan_count: 0
+  slug: webinarjam-price-estimates
 random_paper: 0
 rate_limits:
 - limit_count: 1
@@ -200,23 +213,23 @@ rate_limits:
   slug: webinarjam-rate-limits
 score:
   band: strong
-  composite: 55.8
+  composite: 56.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 57.0
+    artifact_dirs: 20
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 44.7
-  previous_composite: 55.8
+  previous_composite: 55.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -227,14 +240,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/screenshots/webinarjam-2026-06-20T201333.png
+screenshot: https://apis.io/screenshots/webinarjam/webinarjam-2026-06-20T201333.png
 security:
 - kind: authentication
   name: Webinarjam Authentication
@@ -244,6 +257,12 @@ security:
   name: Webinarjam Domain Security
   slug: webinarjam-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: webinarjam-export-and-unsubscribe
+  slug: webinarjam-export-and-unsubscribe
+- name: webinarjam-register-attendee
+  slug: webinarjam-register-attendee
 slug: webinarjam
 tags:
 - Webinars

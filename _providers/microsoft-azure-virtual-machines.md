@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-17'
+  score: 21.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -76,14 +78,11 @@ apis:
   description: Operations for creating, updating, deleting, and managing the lifecycle of Azure Virtual Machines including power operations, patching, and diagnostics.
   name: Azure Virtual Machines Virtual Machines API
   slug: microsoft-azure-virtual-machines-virtual-machines-api
-artifact_total: 60
+artifact_total: 59
 collections:
 - collection_type: postman
   name: Azure REST Virtual Machines API
   slug: postman-microsoft-azure-virtual-machines-virtual-machines-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure Virtual Machines REST API
   slug: open-azure-virtual-machines
@@ -92,17 +91,17 @@ collections:
   slug: open-microsoft-azure-virtual-machines-virtual-machines-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/plans/microsoft-azure-virtual-machines-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-azure-virtual-machines/plans/microsoft-azure-virtual-machines-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-azure-virtual-machines-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/finops/microsoft-azure-virtual-machines-finops.yml
+  href: https://artifacts.apis.io/microsoft-azure-virtual-machines/finops/microsoft-azure-virtual-machines-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-azure-virtual-machines-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/capabilities/microsoft-azure-virtual-machines-capability-edges.yml
+  href: https://artifacts.apis.io/microsoft-azure-virtual-machines/capabilities/microsoft-azure-virtual-machines-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-azure-virtual-machines-capability-edges.yml
@@ -111,22 +110,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/azure-virtual-machines/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/agentic-access/microsoft-azure-virtual-machines-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-azure-virtual-machines/agentic-access/microsoft-azure-virtual-machines-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-virtual-machines-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/security/microsoft-azure-virtual-machines-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-azure-virtual-machines/security/microsoft-azure-virtual-machines-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-virtual-machines-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/authentication/microsoft-azure-virtual-machines-authentication.yml
+  href: https://artifacts.apis.io/microsoft-azure-virtual-machines/authentication/microsoft-azure-virtual-machines-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-virtual-machines-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/scopes/microsoft-azure-virtual-machines-scopes.yml
+  href: https://artifacts.apis.io/microsoft-azure-virtual-machines/scopes/microsoft-azure-virtual-machines-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-virtual-machines-scopes.yml
@@ -238,12 +237,12 @@ created: '2024-01-20'
 description: Azure Virtual Machines (VMs) is one of several types of on-demand, scalable computing resources that Azure offers. VMs give you the flexibility of virtualization without having to buy and maintain physical hardware.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Microsoft Azure Virtual Machines Finops
   primary_unit: ''
-  service_category: Cloud Compute / IaaS
+  service_category: ''
   slug: microsoft-azure-virtual-machines-finops
-  template: false
+  template: true
 image: https://azure.microsoft.com/svghandler/virtual-machines/
 json_schemas:
 - name: ApiError
@@ -375,9 +374,9 @@ overview: 'Azure Virtual Machines publishes 10 API contracts indexed on the [API
   Azure Virtual Machines'' developer surface includes authentication, developer portal, engineering blog, support, documentation, getting-started guide, pricing, and 27 more developer resources.'
 plans:
 - name: Microsoft Azure Virtual Machines Plans Pricing
-  plan_count: 10
+  plan_count: 0
   slug: microsoft-azure-virtual-machines-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 16
   name: Microsoft Azure Virtual Machines Rate Limits
@@ -401,43 +400,44 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 53.3
+  composite: 51.2
   coverage:
     artifact_dirs: 19
-    catalog_earned: 46.3
+    catalog_earned: 43.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.8
+    catalog_gap: 71.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: -6.3
   facets:
-    access_clarity: 52.6
+    access_clarity: 44.7
     contract_governance: 9.8
     contract_quality: 48.4
-    developer_ergonomics: 65.5
+    developer_ergonomics: 68.6
     discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 54.9
+    operational_transparency: 44.7
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/screenshots/microsoft-azure-virtual-machines-2026-06-20T185443.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-azure-virtual-machines/microsoft-azure-virtual-machines-2026-06-20T185443.png
 security:
 - kind: authentication
   name: Microsoft Azure Virtual Machines Authentication

@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 20.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.termscout.com
   baseurl_source: declared
@@ -47,10 +49,10 @@ apis:
   description: The Contracts API from TermScout — 9 operation(s) for contracts.
   name: TermScout Contracts API
   slug: termscout-contracts-api
-artifact_total: 8
+artifact_total: 13
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/termscout/refs/heads/main/rate-limits/termscout-rate-limits.yml
+  href: https://artifacts.apis.io/termscout/rate-limits/termscout-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/termscout-rate-limits.yml
@@ -59,17 +61,17 @@ common:
   type: BlogRSS
   url: https://blog.termscout.com/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/termscout/refs/heads/main/capabilities/termscout-capability-edges.yml
+  href: https://artifacts.apis.io/termscout/capabilities/termscout-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/termscout-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/termscout/refs/heads/main/overlays/termscout-data-overlay.yaml
+  href: https://artifacts.apis.io/termscout/overlays/termscout-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/termscout-data-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/termscout/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/termscout/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -102,7 +104,7 @@ common:
   type: PrivacyPolicy
   url: https://www.termscout.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/termscout/refs/heads/main/security/termscout-trust-center.yml
+  href: https://artifacts.apis.io/termscout/security/termscout-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/termscout-trust-center.yml
@@ -115,28 +117,36 @@ common:
   type: Security
   url: https://security.termscout.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/termscout/refs/heads/main/security/termscout-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/termscout/security/termscout-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/termscout-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/termscout/refs/heads/main/security/termscout-domain-security.yml
+  href: https://artifacts.apis.io/termscout/security/termscout-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/termscout-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/termscout/refs/heads/main/llms/termscout-llms.txt
+  href: https://artifacts.apis.io/termscout/llms/termscout-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/termscout-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/termscout/refs/heads/main/plans/termscout-plans-pricing.yml
+  href: https://artifacts.apis.io/termscout/plans/termscout-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/termscout-plans-pricing.yml
 created: '2026-07-17'
 description: 'TermScout is a contract intelligence and certification company for legal, procurement, and sales teams. Its platform analyzes and benchmarks commercial agreements against market standards, generates contract signals through Certify (AI contract analysis), and certifies contracts with TrustMark as an external, third-party signal of fairness that helps buyers and sellers close deals faster with less negotiation. TermScout was surfaced as a Techstars portfolio company and profiled in the API Evangelist network. TermScout does publish a machine-readable contract: an OpenAPI 3.0.1 definition for the "termscout-data" API is served anonymously at https://api.termscout.com/docs, covering contract upload, processing status, extracted fields, citations, predicted labels and red flags, playbook results, and aggregate market data across contract positions. The API itself is key-gated (x-api-key plus an Authorization bearer credential) and access is arranged through sales; there is no self-serve
   developer portal, SDK, or published API reference. Its end-user products are delivered through the app.termscout.com web application, which also publishes an llms.txt index of public TrustMark contract reports.'
+finops:
+- has_sources: true
+  method: derived
+  name: Termscout Finops
+  primary_unit: certified agreement
+  service_category: ''
+  slug: termscout-finops
+  template: false
 image: https://www.termscout.com/hs-fs/hubfs/Vector%20(21).png
 layout: provider
 modified: '2026-10-06'
@@ -149,32 +159,35 @@ overview: 'TermScout publishes 2 API contracts indexed on the [APIs.io](https://
   TermScout''s developer surface includes engineering blog, support, pricing, and 16 more developer resources.'
 plans:
 - name: Termscout Plans Pricing
-  plan_count: 3
+  plan_count: 7
   slug: termscout-plans-pricing
-random_paper: 8
+- name: Termscout Price Estimates
+  plan_count: 0
+  slug: termscout-price-estimates
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Termscout Rate Limits
   slug: termscout-rate-limits
 score:
   band: developing
-  composite: 44.0
+  composite: 46.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 49.0
+    artifact_dirs: 21
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 46.2
     developer_ergonomics: 20.8
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 43.9
+  previous_composite: 45.3
   provenance:
     conformance: derived
     contracts:
@@ -190,13 +203,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/termscout/refs/heads/main/screenshots/termscout-2026-08-17T082319.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/termscout/termscout-2026-08-17T082319.png
 security:
 - kind: authentication
   name: Termscout Authentication
@@ -214,6 +228,14 @@ security:
   name: Termscout Trust Center
   slug: termscout-trust-center
   summary_line: SOC 2, GDPR, CCPA
+skill_count: 3
+skills:
+- name: Analyze a contract end to end
+  slug: termscout-analyze-a-contract
+- name: Benchmark a contract term against market data
+  slug: termscout-benchmark-against-market
+- name: Review red flags and playbook results
+  slug: termscout-review-red-flags-and-playbook
 slug: termscout
 tags:
 - Company

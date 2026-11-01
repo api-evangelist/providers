@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -77,32 +79,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/adespresso
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adespresso/refs/heads/main/security/adespresso-domain-security.yml
+  href: https://artifacts.apis.io/adespresso/security/adespresso-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adespresso-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adespresso/refs/heads/main/plans/adespresso-plans-pricing.yml
+  href: https://artifacts.apis.io/adespresso/plans/adespresso-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adespresso-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adespresso/refs/heads/main/rate-limits/adespresso-rate-limits.yml
+  href: https://artifacts.apis.io/adespresso/rate-limits/adespresso-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adespresso-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adespresso/refs/heads/main/packages/adespresso-packages.yml
+  href: https://artifacts.apis.io/adespresso/packages/adespresso-packages.yml
   title: ''
   type: Packages
   url: packages/adespresso-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adespresso/refs/heads/main/well-known/adespresso-well-known.yml
+  href: https://artifacts.apis.io/adespresso/well-known/adespresso-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adespresso-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adespresso/refs/heads/main/llms/adespresso-llms.txt
+  href: https://artifacts.apis.io/adespresso/llms/adespresso-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adespresso-llms.txt
@@ -135,14 +137,14 @@ plans:
 - name: Adespresso Plans Pricing
   plan_count: 3
   slug: adespresso-plans-pricing
-random_paper: 3
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Adespresso Rate Limits
   slug: adespresso-rate-limits
 score:
   band: emerging
-  composite: 22.3
+  composite: 22.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 39.0
@@ -156,23 +158,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 22.3
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 22.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/adespresso/refs/heads/main/screenshots/adespresso-2026-07-25T181626.png
+screenshot: https://apis.io/screenshots/adespresso/adespresso-2026-07-25T181626.png
 security:
 - kind: domain-security
   name: Adespresso Domain Security

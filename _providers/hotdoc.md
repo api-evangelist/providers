@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: HotDoc's OpenID Connect / OAuth 2.0 authorization server (Rails/Doorkeeper) for clinic and partner sign-in. Discovery metadata (OIDC + RFC 8414) and a live RS256 JWKS are served publicly; authorizatio
@@ -88,22 +90,22 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/hotdoc
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hotdoc/refs/heads/main/authentication/hotdoc-authentication.yml
+  href: https://artifacts.apis.io/hotdoc/authentication/hotdoc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hotdoc-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hotdoc/refs/heads/main/scopes/hotdoc-scopes.yml
+  href: https://artifacts.apis.io/hotdoc/scopes/hotdoc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hotdoc-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hotdoc/refs/heads/main/well-known/hotdoc-well-known.yml
+  href: https://artifacts.apis.io/hotdoc/well-known/hotdoc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hotdoc-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hotdoc/refs/heads/main/conformance/hotdoc-conformance.yml
+  href: https://artifacts.apis.io/hotdoc/conformance/hotdoc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hotdoc-conformance.yml
@@ -112,17 +114,17 @@ common:
   type: Compliance
   url: https://practices.hotdoc.com.au/security/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hotdoc/refs/heads/main/lifecycle/hotdoc-lifecycle.yml
+  href: https://artifacts.apis.io/hotdoc/lifecycle/hotdoc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hotdoc-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hotdoc/refs/heads/main/security/hotdoc-domain-security.yml
+  href: https://artifacts.apis.io/hotdoc/security/hotdoc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hotdoc-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hotdoc/refs/heads/main/security/hotdoc-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hotdoc/security/hotdoc-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hotdoc-vulnerability-disclosure.yml
@@ -131,12 +133,12 @@ common:
   type: Security
   url: https://practices.hotdoc.com.au/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hotdoc/refs/heads/main/security/hotdoc-trust-center.yml
+  href: https://artifacts.apis.io/hotdoc/security/hotdoc-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/hotdoc-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hotdoc/refs/heads/main/llms/hotdoc-llms.txt
+  href: https://artifacts.apis.io/hotdoc/llms/hotdoc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hotdoc-llms.txt
@@ -153,7 +155,7 @@ overview: 'HotDoc is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   HotDoc''s developer surface includes developer portal, engineering blog, support, pricing, signup flow, authentication, and 16 more developer resources.'
-random_paper: 3
+random_paper: 17
 scopes:
 - name: Hotdoc Scopes
   scope_count: 1
@@ -161,7 +163,7 @@ scopes:
   summary_line: 1 scope · authorizationCode/implicit
 score:
   band: thin
-  composite: 36.2
+  composite: 35.8
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -169,14 +171,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 73.2
-    operational_transparency: 28.9
+    discoverability: 66.1
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -184,7 +186,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 36.1
+  previous_composite: 35.8
   provenance:
     conformance: first-party
   regulatory:
@@ -193,14 +195,14 @@ score:
     regime: Health
     regime_id: health
     score: 46.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hotdoc/refs/heads/main/screenshots/hotdoc-2026-07-25T221455.png
+screenshot: https://apis.io/screenshots/hotdoc/hotdoc-2026-07-25T221455.png
 security:
 - kind: authentication
   name: Hotdoc Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -54,7 +56,7 @@ apis:
   description: The Users API from Google Tasks — 2 operation(s) for users.
   name: Google Tasks Users API
   slug: google-tasks-users-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: postman
   name: Google Tasks Lists API
@@ -62,9 +64,6 @@ collections:
 - collection_type: postman
   name: Google Tasks Lists Users API
   slug: postman-google-tasks-users-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Tasks Lists API
   slug: open-google-tasks-lists-api
@@ -76,17 +75,17 @@ collections:
   slug: open-tasks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/plans/google-tasks-plans-pricing.yml
+  href: https://artifacts.apis.io/google-tasks/plans/google-tasks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-tasks-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/rate-limits/google-tasks-rate-limits.yml
+  href: https://artifacts.apis.io/google-tasks/rate-limits/google-tasks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-tasks-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/finops/google-tasks-finops.yml
+  href: https://artifacts.apis.io/google-tasks/finops/google-tasks-finops.yml
   title: ''
   type: FinOps
   url: finops/google-tasks-finops.yml
@@ -99,27 +98,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-tasks/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/agentic-access/google-tasks-agentic-access.yml
+  href: https://artifacts.apis.io/google-tasks/agentic-access/google-tasks-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-tasks-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/security/google-tasks-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-tasks/security/google-tasks-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-tasks-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/security/google-tasks-domain-security.yml
+  href: https://artifacts.apis.io/google-tasks/security/google-tasks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-tasks-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/authentication/google-tasks-authentication.yml
+  href: https://artifacts.apis.io/google-tasks/authentication/google-tasks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-tasks-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/scopes/google-tasks-scopes.yml
+  href: https://artifacts.apis.io/google-tasks/scopes/google-tasks-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-tasks-scopes.yml
@@ -160,7 +159,7 @@ common:
   type: Support
   url: https://developers.google.com/tasks/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/json-ld/tasks.jsonld
+  href: https://artifacts.apis.io/google-tasks/json-ld/tasks.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tasks.jsonld
@@ -174,7 +173,7 @@ finops:
 - has_sources: false
   method: generated
   name: Google Tasks Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: google-tasks-finops
   template: true
@@ -204,7 +203,7 @@ plans:
 - name: Google Tasks Plans Pricing
   plan_count: 3
   slug: google-tasks-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Google Tasks Rate Limits
@@ -228,7 +227,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.7
+  composite: 47.2
   coverage:
     artifact_dirs: 17
     catalog_earned: 59.7
@@ -236,14 +235,14 @@ score:
     catalog_gap: 55.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 61.5
+    contract_quality: 58.1
     developer_ergonomics: 51.2
     discoverability: 66.1
-    operational_transparency: 26.3
+    operational_transparency: 39.5
   previous_composite: 47.2
   provenance:
     agentic_access: derived
@@ -258,13 +257,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/screenshots/google-tasks-2026-06-20T182240.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-tasks/google-tasks-2026-06-20T182240.png
 security:
 - kind: authentication
   name: Google Tasks Authentication

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,32 +37,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/menusifu/refs/heads/main/security/menusifu-domain-security.yml
+  href: https://artifacts.apis.io/menusifu/security/menusifu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/menusifu-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/menusifu/refs/heads/main/packages/menusifu-packages.yml
+  href: https://artifacts.apis.io/menusifu/packages/menusifu-packages.yml
   title: ''
   type: Packages
   url: packages/menusifu-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/menusifu/refs/heads/main/plans/menusifu-plans-pricing.yml
+  href: https://artifacts.apis.io/menusifu/plans/menusifu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/menusifu-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/menusifu/refs/heads/main/rate-limits/menusifu-rate-limits.yml
+  href: https://artifacts.apis.io/menusifu/rate-limits/menusifu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/menusifu-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/menusifu/refs/heads/main/llms/menusifu-llms.txt
+  href: https://artifacts.apis.io/menusifu/llms/menusifu-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/menusifu-llms.txt
@@ -131,7 +133,7 @@ plans:
 - name: Menusifu Plans Pricing
   plan_count: 4
   slug: menusifu-plans-pricing
-random_paper: 18
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Menusifu Rate Limits
@@ -140,7 +142,7 @@ score:
   band: emerging
   composite: 19.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
@@ -161,14 +163,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/menusifu/refs/heads/main/screenshots/menusifu-2026-09-02T150520.png
+screenshot: https://apis.io/screenshots/menusifu/menusifu-2026-09-02T150520.png
 security:
 - kind: domain-security
   name: Menusifu Domain Security

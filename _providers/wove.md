@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.1
-  scored_at: '2026-10-17'
+  score: 32.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -96,11 +98,8 @@ apis:
   description: Webhook management for async notifications
   name: Wove Webhooks API
   slug: wove-webhooks-api
-artifact_total: 28
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Wove External Authentication API
   slug: open-wove-authentication-api
@@ -133,7 +132,7 @@ collections:
   slug: open-wove-webhooks-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/rate-limits/wove-rate-limits.yml
+  href: https://artifacts.apis.io/wove/rate-limits/wove-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wove-rate-limits.yml
@@ -142,32 +141,32 @@ common:
   type: Blog
   url: https://wove.com/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/capabilities/wove-capability-edges.yml
+  href: https://artifacts.apis.io/wove/capabilities/wove-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/wove-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/agentic-access/wove-agentic-access.yml
+  href: https://artifacts.apis.io/wove/agentic-access/wove-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wove-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/security/wove-trust-center.yml
+  href: https://artifacts.apis.io/wove/security/wove-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wove-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/security/wove-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/wove/security/wove-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wove-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/security/wove-domain-security.yml
+  href: https://artifacts.apis.io/wove/security/wove-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wove-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/authentication/wove-authentication.yml
+  href: https://artifacts.apis.io/wove/authentication/wove-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wove-authentication.yml
@@ -187,7 +186,7 @@ overview: 'Wove publishes 10 API contracts indexed on the [APIs.io](https://apis
 
 
   Wove''s developer surface includes engineering blog, authentication, and 7 more developer resources.'
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Wove Rate Limits
@@ -199,23 +198,23 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: thin
-  composite: 26.5
+  composite: 27.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 25.0
     catalog_earned_first_party: 8.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 54.6
+    contract_quality: 52.1
     developer_ergonomics: 14.3
-    discoverability: 37.5
-    operational_transparency: 21.1
-  previous_composite: 25.9
+    discoverability: 30.4
+    operational_transparency: 31.6
+  previous_composite: 27.2
   provenance:
     agentic_access: derived
     contracts:
@@ -229,13 +228,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/screenshots/wove-2026-09-02T171001.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wove/wove-2026-09-02T171001.png
 security:
 - kind: authentication
   name: Wove Authentication

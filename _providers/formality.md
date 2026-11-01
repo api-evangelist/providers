@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Formality REST API exposes the workspace contract repository so external tools and AI agents can retrieve documents and the AI-extracted metadata layer. Every path is namespaced to a workspace — /
   name: Formality API
   slug: formality-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Formality Webhooks
@@ -71,7 +73,7 @@ common:
   type: Compliance
   url: https://www.formality.com/en/index.html#security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/security/formality-trust-center.yml
+  href: https://artifacts.apis.io/formality/security/formality-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/formality-trust-center.yml
@@ -104,17 +106,17 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/formality-group/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/llms/formality-llms.txt
+  href: https://artifacts.apis.io/formality/llms/formality-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/formality-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/well-known/formality-well-known.yml
+  href: https://artifacts.apis.io/formality/well-known/formality-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/formality-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/well-known/formality-security.txt
+  href: https://artifacts.apis.io/formality/well-known/formality-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/formality-security.txt
@@ -123,67 +125,75 @@ common:
   type: Security
   url: https://www.formality.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/security/formality-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/formality/security/formality-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/formality-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/authentication/formality-authentication.yml
+  href: https://artifacts.apis.io/formality/authentication/formality-authentication.yml
   title: ''
   type: Authentication
   url: authentication/formality-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/conventions/formality-conventions.yml
+  href: https://artifacts.apis.io/formality/conventions/formality-conventions.yml
   title: ''
   type: Conventions
   url: conventions/formality-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/errors/formality-problem-types.yml
+  href: https://artifacts.apis.io/formality/errors/formality-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/formality-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/data-model/formality-data-model.yml
+  href: https://artifacts.apis.io/formality/data-model/formality-data-model.yml
   title: ''
   type: DataModel
   url: data-model/formality-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/asyncapi/formality-webhooks.yml
+  href: https://artifacts.apis.io/formality/asyncapi/formality-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/formality-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/conformance/formality-conformance.yml
+  href: https://artifacts.apis.io/formality/conformance/formality-conformance.yml
   title: ''
   type: Conformance
   url: conformance/formality-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/packages/formality-packages.yml
+  href: https://artifacts.apis.io/formality/packages/formality-packages.yml
   title: ''
   type: Packages
   url: packages/formality-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/plans/formality-plans-pricing.yml
+  href: https://artifacts.apis.io/formality/plans/formality-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/formality-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/rate-limits/formality-rate-limits.yml
+  href: https://artifacts.apis.io/formality/rate-limits/formality-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/formality-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/lifecycle/formality-lifecycle.yml
+  href: https://artifacts.apis.io/formality/lifecycle/formality-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/formality-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/security/formality-domain-security.yml
+  href: https://artifacts.apis.io/formality/security/formality-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/formality-domain-security.yml
 created: '2026-07-17'
 description: 'Formality is a Paris-based AI platform for end-to-end asset and contract intelligence, aimed at businesses that need to centralize, understand, and track their legal, administrative, and asset-related documents. The product covers the full contract lifecycle: AI-assisted creation and collaborative negotiation, electronic signature, then post-signature data extraction, deadline and obligation alerts, and natural-language analysis of the resulting document estate. Its AI is trained on corporate legal documents, works across multiple languages, and runs inside a secure perimeter with full auditability and no use of customer data for model training. Formality integrates with tools including Google Drive, SharePoint, DocuWare, Docusign, Universign, Yousign, HubSpot, Salesforce, Outlook, Teams, Slack, and Gmail, and runs on compliant hosting with ISO 27001 and SOC 2 Type II certifications and GDPR compliance. It was founded in 2023 and is backed by Partech, Serena, and Bpifrance.'
+finops:
+- has_sources: true
+  method: derived
+  name: Formality Finops
+  primary_unit: ''
+  service_category: ''
+  slug: formality-finops
+  template: true
 image: https://framerusercontent.com/images/hEwKjnYt6aQ2PnIpW5a9LjGDmG4.svg
 layout: provider
 modified: '2026-08-17'
@@ -201,29 +211,29 @@ plans:
 - name: Formality Plans Pricing
   plan_count: 0
   slug: formality-plans-pricing
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Formality Rate Limits
   slug: formality-rate-limits
 score:
   band: developing
-  composite: 40.7
+  composite: 42.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 45.2
-    discoverability: 73.2
-    operational_transparency: 28.9
+    discoverability: 66.1
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -232,7 +242,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 41.0
+  previous_composite: 42.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -246,14 +256,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/formality/refs/heads/main/screenshots/formality-2026-07-25T214945.png
+screenshot: https://apis.io/screenshots/formality/formality-2026-07-25T214945.png
 security:
 - kind: authentication
   name: Formality Authentication

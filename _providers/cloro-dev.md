@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 68.7
-  scored_at: '2026-10-17'
+  score: 67.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 17
   slug: cloro-dev-agentic-access
   summary_line: 17 operations · 12 acting
-api_count: 2
+api_count: 1
 apis:
 - description: 'Hosted Model Context Protocol server (Streamable HTTP) wrapping the sync monitor endpoints of api.cloro.dev as ten tools: scrape_chatgpt, scrape_gemini, scrape_copilot, scrape_perplexity, scrape_grok,'
   name: cloro MCP server
@@ -61,79 +63,79 @@ apis:
   description: The States API from cloro — 1 operation(s) for states.
   name: cloro States API
   slug: cloro-dev-states-api
-artifact_total: 23
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Cloro Dev Webhooks
   slug: cloro-dev-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/agentic-access/cloro-dev-agentic-access.yml
+  href: https://artifacts.apis.io/cloro-dev/agentic-access/cloro-dev-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cloro-dev-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/rate-limits/cloro-dev-rate-limits.yml
+  href: https://artifacts.apis.io/cloro-dev/rate-limits/cloro-dev-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cloro-dev-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/plans/cloro-dev-plans-pricing.yml
+  href: https://artifacts.apis.io/cloro-dev/plans/cloro-dev-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloro-dev-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/rules/cloro-dev-rules.yml
+  href: https://artifacts.apis.io/cloro-dev/rules/cloro-dev-rules.yml
   title: ''
   type: Spectral
   url: rules/cloro-dev-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/json-ld/cloro-dev-context.jsonld
+  href: https://artifacts.apis.io/cloro-dev/json-ld/cloro-dev-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cloro-dev-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/vocabulary/cloro-dev-vocabulary.yml
+  href: https://artifacts.apis.io/cloro-dev/vocabulary/cloro-dev-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cloro-dev-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cloro-dev/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/asyncapi/cloro-dev-webhooks.yml
+  href: https://artifacts.apis.io/cloro-dev/asyncapi/cloro-dev-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cloro-dev-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/data-model/cloro-dev-data-model.yml
+  href: https://artifacts.apis.io/cloro-dev/data-model/cloro-dev-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cloro-dev-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/changelog/cloro-dev-changelog.yml
+  href: https://artifacts.apis.io/cloro-dev/changelog/cloro-dev-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cloro-dev-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/conventions/cloro-dev-conventions.yml
+  href: https://artifacts.apis.io/cloro-dev/conventions/cloro-dev-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/cloro-dev-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/conventions/cloro-dev-conventions.yml
+  href: https://artifacts.apis.io/cloro-dev/conventions/cloro-dev-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cloro-dev-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/security/cloro-dev-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cloro-dev/security/cloro-dev-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/cloro-dev-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/scopes/cloro-dev-scopes.yml
+  href: https://artifacts.apis.io/cloro-dev/scopes/cloro-dev-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cloro-dev-scopes.yml
@@ -142,77 +144,77 @@ common:
   type: Deprecation
   url: https://cloro.dev/docs/guides/versioning
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/lifecycle/cloro-dev-lifecycle.yml
+  href: https://artifacts.apis.io/cloro-dev/lifecycle/cloro-dev-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cloro-dev-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/errors/cloro-dev-problem-types.yml
+  href: https://artifacts.apis.io/cloro-dev/errors/cloro-dev-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cloro-dev-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/conformance/cloro-dev-conformance.yml
+  href: https://artifacts.apis.io/cloro-dev/conformance/cloro-dev-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cloro-dev-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/overlays/cloro-dev-openapi-overlay.yaml
+  href: https://artifacts.apis.io/cloro-dev/overlays/cloro-dev-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cloro-dev-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/llms/cloro-dev-llms.txt
+  href: https://artifacts.apis.io/cloro-dev/llms/cloro-dev-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cloro-dev-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/llms/cloro-dev-docs-llms.txt
+  href: https://artifacts.apis.io/cloro-dev/llms/cloro-dev-docs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cloro-dev-docs-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/a2a/cloro-dev-a2a.yml
+  href: https://artifacts.apis.io/cloro-dev/a2a/cloro-dev-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/cloro-dev-a2a.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/mcp/cloro-dev-tool-crosswalk.yml
+  href: https://artifacts.apis.io/cloro-dev/mcp/cloro-dev-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cloro-dev-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/mcp/cloro-dev-mcp.yml
+  href: https://artifacts.apis.io/cloro-dev/mcp/cloro-dev-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cloro-dev-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/well-known/cloro-dev-security.txt
+  href: https://artifacts.apis.io/cloro-dev/well-known/cloro-dev-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cloro-dev-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/well-known/cloro-dev-well-known.yml
+  href: https://artifacts.apis.io/cloro-dev/well-known/cloro-dev-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cloro-dev-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/hosts/cloro-dev-hosts.yml
+  href: https://artifacts.apis.io/cloro-dev/hosts/cloro-dev-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cloro-dev-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/vendors/cloro-dev-vendors.yml
+  href: https://artifacts.apis.io/cloro-dev/vendors/cloro-dev-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cloro-dev-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/packages/cloro-dev-packages.yml
+  href: https://artifacts.apis.io/cloro-dev/packages/cloro-dev-packages.yml
   title: ''
   type: SDKs
   url: packages/cloro-dev-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/packages/cloro-dev-packages.yml
+  href: https://artifacts.apis.io/cloro-dev/packages/cloro-dev-packages.yml
   title: ''
   type: Packages
   url: packages/cloro-dev-packages.yml
@@ -221,17 +223,17 @@ common:
   type: Newsroom
   url: https://cloro.dev/perplexity/media/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/authentication/cloro-dev-authentication.yml
+  href: https://artifacts.apis.io/cloro-dev/authentication/cloro-dev-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloro-dev-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/security/cloro-dev-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cloro-dev/security/cloro-dev-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cloro-dev-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/security/cloro-dev-domain-security.yml
+  href: https://artifacts.apis.io/cloro-dev/security/cloro-dev-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloro-dev-domain-security.yml
@@ -309,6 +311,14 @@ common:
   url: https://github.com/cloro-dev/cloro-node
 created: '2026-10-07'
 description: 'cloro is one API for Google Search and AI answer engines: a REST surface at api.cloro.dev that submits a prompt to ChatGPT, Gemini, Perplexity, Microsoft Copilot, Grok, Google AI Mode, Google Search, Google AI Overview and Google News from a chosen country (and US state) and returns the engine''s answer as structured JSON with parsed text, markdown, cited sources, brand entities, shopping cards and ads. Sync monitor endpoints answer in-line; async tasks and batches of up to 500 run in the background with polling or signed webhooks. Credit-based subscription billing, a free tier of 500 monthly credits, a hosted MCP server at mcp.cloro.dev with OAuth, official Python and TypeScript SDKs, n8n, Zapier and LangChain integrations.'
+finops:
+- has_sources: true
+  method: derived
+  name: Cloro Dev Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: cloro-dev-finops
+  template: false
 image: https://cloro.dev/opengraph.jpg
 json_schemas:
 - name: AiModeMonitorResponse
@@ -354,7 +364,10 @@ plans:
 - name: Cloro Dev Plans Pricing
   plan_count: 11
   slug: cloro-dev-plans-pricing
-random_paper: 5
+- name: Cloro Dev Price Estimates
+  plan_count: 0
+  slug: cloro-dev-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Cloro Dev Rate Limits
@@ -379,23 +392,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: exemplar
-  composite: 74.6
+  composite: 76.6
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 82.8
+    artifact_dirs: 32
+    catalog_earned: 85.8
     catalog_earned_first_party: 20.0
-    catalog_gap: 32.3
+    catalog_gap: 29.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 35.6
     contract_quality: 74.9
     developer_ergonomics: 75.6
-    discoverability: 76.7
+    discoverability: 73.3
     operational_transparency: 84.2
-  previous_composite: 74.9
+  previous_composite: 75.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -403,7 +416,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 12
     mcp: first-party
     skills: derived
   regulatory:
@@ -412,13 +425,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/screenshots/cloro-dev-2026-10-11T103054.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cloro-dev/cloro-dev-2026-10-11T103054.png
 security:
 - kind: authentication
   name: Cloro Dev Authentication
@@ -432,6 +446,14 @@ security:
   name: Cloro Dev Vulnerability Disclosure
   slug: cloro-dev-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: google-serp-and-ai-overview
+  slug: cloro-dev-google-serp-and-ai-overview
+- name: monitor-ai-answer
+  slug: cloro-dev-monitor-ai-answer
+- name: track-prompts-async
+  slug: cloro-dev-track-prompts-async
 slug: cloro-dev
 tags:
 - Company

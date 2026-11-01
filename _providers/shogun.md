@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'GraphQL API behind the Shogun Frontend headless commerce product, used to query storefront content, pages, and integration data. Note: Shogun has announced the retirement of the Shogun Frontend produc'
@@ -89,22 +91,22 @@ common:
   type: Deprecation
   url: https://getshogun.com/learn/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shogun/refs/heads/main/packages/shogun-packages.yml
+  href: https://artifacts.apis.io/shogun/packages/shogun-packages.yml
   title: ''
   type: Packages
   url: packages/shogun-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shogun/refs/heads/main/packages/shogun-packages.yml
+  href: https://artifacts.apis.io/shogun/packages/shogun-packages.yml
   title: ''
   type: SDKs
   url: packages/shogun-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shogun/refs/heads/main/lifecycle/shogun-lifecycle.yml
+  href: https://artifacts.apis.io/shogun/lifecycle/shogun-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shogun-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shogun/refs/heads/main/security/shogun-domain-security.yml
+  href: https://artifacts.apis.io/shogun/security/shogun-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shogun-domain-security.yml
@@ -120,10 +122,10 @@ overview: 'Shogun is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Shogun''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
   band: emerging
-  composite: 19.9
+  composite: 25.8
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -133,27 +135,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 33.3
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 19.9
+    operational_transparency: 28.9
+  previous_composite: 25.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/shogun/refs/heads/main/screenshots/shogun-2026-09-02T155246.png
+screenshot: https://apis.io/screenshots/shogun/shogun-2026-09-02T155246.png
 security:
 - kind: domain-security
   name: Shogun Domain Security

@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.7
-  scored_at: '2026-10-17'
+  score: 21.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for merchant portal operations such as account management and billing.
@@ -32,17 +34,17 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/billergenie/refs/heads/main/well-known/billergenie-well-known.yml
+  href: https://artifacts.apis.io/billergenie/well-known/billergenie-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/billergenie-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/billergenie/refs/heads/main/hosts/billergenie-hosts.yml
+  href: https://artifacts.apis.io/billergenie/hosts/billergenie-hosts.yml
   title: ''
   type: Hosts
   url: hosts/billergenie-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/billergenie/refs/heads/main/vendors/billergenie-vendors.yml
+  href: https://artifacts.apis.io/billergenie/vendors/billergenie-vendors.yml
   title: ''
   type: Vendors
   url: vendors/billergenie-vendors.yml
@@ -51,7 +53,7 @@ common:
   type: SignUp
   url: https://merchant.billergenie.com/Account/Register/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/billergenie/refs/heads/main/security/billergenie-domain-security.yml
+  href: https://artifacts.apis.io/billergenie/security/billergenie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/billergenie-domain-security.yml
@@ -78,7 +80,7 @@ overview: 'Billergenie is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   Billergenie''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 10
+random_paper: 2
 score:
   band: minimal
   composite: 6.7
@@ -106,14 +108,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/billergenie/refs/heads/main/screenshots/billergenie-2026-10-11T102203.png
+screenshot: https://apis.io/screenshots/billergenie/billergenie-2026-10-11T102203.png
 security:
 - kind: domain-security
   name: Billergenie Domain Security

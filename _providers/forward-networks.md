@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.6
-  scored_at: '2026-10-17'
+  score: 30.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 2
@@ -144,11 +146,8 @@ apis:
   description: Identify network devices potentially impacted by CVEs
   name: Forward Networks Vulnerability Analysis API
   slug: forward-networks-vulnerability-analysis-api
-artifact_total: 47
+artifact_total: 51
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 'Forward Networks: Complete Aliases API'
   slug: open-forward-networks-aliases-api
@@ -210,12 +209,17 @@ collections:
   name: 'Forward Networks: Complete Aliases Vulnerability Analysis API'
   slug: open-forward-networks-vulnerability-analysis-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/forward-networks/plans/forward-networks-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/forward-networks-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.forwardnetworks.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/capabilities/forward-networks-capability-edges.yml
+  href: https://artifacts.apis.io/forward-networks/capabilities/forward-networks-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/forward-networks-capability-edges.yml
@@ -228,57 +232,57 @@ common:
   type: Documentation
   url: https://docs.fwd.app/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/mcp/forward-networks-mcp.yml
+  href: https://artifacts.apis.io/forward-networks/mcp/forward-networks-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/forward-networks-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/packages/forward-networks-packages.yml
+  href: https://artifacts.apis.io/forward-networks/packages/forward-networks-packages.yml
   title: ''
   type: Packages
   url: packages/forward-networks-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/packages/forward-networks-packages.yml
+  href: https://artifacts.apis.io/forward-networks/packages/forward-networks-packages.yml
   title: ''
   type: SDKs
   url: packages/forward-networks-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/llms/forward-networks-llms.txt
+  href: https://artifacts.apis.io/forward-networks/llms/forward-networks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/forward-networks-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/overlays/forward-networks-complete-overlay.yaml
+  href: https://artifacts.apis.io/forward-networks/overlays/forward-networks-complete-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/forward-networks-complete-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/authentication/forward-networks-authentication.yml
+  href: https://artifacts.apis.io/forward-networks/authentication/forward-networks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/forward-networks-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/conventions/forward-networks-conventions.yml
+  href: https://artifacts.apis.io/forward-networks/conventions/forward-networks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/forward-networks-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/errors/forward-networks-problem-types.yml
+  href: https://artifacts.apis.io/forward-networks/errors/forward-networks-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/forward-networks-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/lifecycle/forward-networks-lifecycle.yml
+  href: https://artifacts.apis.io/forward-networks/lifecycle/forward-networks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/forward-networks-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/data-model/forward-networks-data-model.yml
+  href: https://artifacts.apis.io/forward-networks/data-model/forward-networks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/forward-networks-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/conformance/forward-networks-conformance.yml
+  href: https://artifacts.apis.io/forward-networks/conformance/forward-networks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/forward-networks-conformance.yml
@@ -287,32 +291,32 @@ common:
   type: Compliance
   url: https://www.forwardnetworks.com/compliance/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/agentic-access/forward-networks-agentic-access.yml
+  href: https://artifacts.apis.io/forward-networks/agentic-access/forward-networks-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/forward-networks-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/forward-networks/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/well-known/forward-networks-well-known.yml
+  href: https://artifacts.apis.io/forward-networks/well-known/forward-networks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/forward-networks-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/well-known/forward-networks-security.txt
+  href: https://artifacts.apis.io/forward-networks/well-known/forward-networks-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/forward-networks-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/security/forward-networks-trust-center.yml
+  href: https://artifacts.apis.io/forward-networks/security/forward-networks-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/forward-networks-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/security/forward-networks-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/forward-networks/security/forward-networks-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/forward-networks-vulnerability-disclosure.yml
@@ -321,7 +325,7 @@ common:
   type: Security
   url: https://www.forwardnetworks.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/security/forward-networks-domain-security.yml
+  href: https://artifacts.apis.io/forward-networks/security/forward-networks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/forward-networks-domain-security.yml
@@ -355,6 +359,14 @@ common:
   url: https://www.forwardnetworks.com/
 created: '2026-07-17'
 description: Forward Networks builds network digital-twin software (Forward Enterprise) that creates a mathematically accurate, vendor-agnostic model of large hybrid and multi-cloud networks. Networking, security, cloud, and compliance teams use it to verify network behavior before and after changes, trace packet paths, run automated policy checks, analyze CVE/vulnerability exposure, and query the network as structured data through the Network Query Engine (NQE). The Forward Enterprise Complete API is an OpenAPI 3.2.0 surface of 189 operations across 108 paths — covering Networks, Snapshots, Checks, Path Search, NQE, Vulnerability Analysis, and system administration — secured with HTTP Basic authentication and complemented by a Go client, a Terraform provider, and an open-source MCP server.
+finops:
+- has_sources: true
+  method: derived
+  name: Forward Networks Finops
+  primary_unit: ''
+  service_category: ''
+  slug: forward-networks-finops
+  template: true
 image: https://www.forwardnetworks.com/wp-content/uploads/2026/04/header-logo.svg
 layout: provider
 mcp_servers:
@@ -368,27 +380,31 @@ network: true
 overview: 'Forward Networks publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Aliases API, Checks API, Classic Devices API, and 17 more. Tagged areas include Company, Networks, Network Automation, Network Digital Twin, and Network Security.
 
 
-  Forward Networks'' developer surface includes documentation, authentication, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 1
+  Forward Networks'' developer surface includes documentation, authentication, engineering blog, pricing, signup flow, and 27 more developer resources.'
+plans:
+- name: Forward Networks Plans Pricing
+  plan_count: 0
+  slug: forward-networks-plans-pricing
+random_paper: 15
 score:
   band: developing
-  composite: 43.3
+  composite: 44.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 45.6
-    developer_ergonomics: 39.9
-    discoverability: 71.7
-    operational_transparency: 7.9
-  previous_composite: 43.2
+    contract_quality: 42.6
+    developer_ergonomics: 49.4
+    discoverability: 65.0
+    operational_transparency: 15.8
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -405,13 +421,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/screenshots/forward-networks-2026-07-25T215024.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/forward-networks/forward-networks-2026-07-25T215024.png
 security:
 - kind: authentication
   name: Forward Networks Authentication
@@ -429,6 +446,14 @@ security:
   name: Forward Networks Trust Center
   slug: forward-networks-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP, GDPR
+skill_count: 3
+skills:
+- name: Trace a packet path through the network
+  slug: forward-networks-path-search
+- name: Run a Network Query Engine (NQE) query
+  slug: forward-networks-run-nqe-query
+- name: Collect a snapshot and run network checks
+  slug: forward-networks-snapshot-and-check
 slug: forward-networks
 tags:
 - Company

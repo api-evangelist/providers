@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-17'
+  score: 27.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 7
   slug: civic-agentic-access
   summary_line: 7 operations · 4 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: Civic Hub is a Model Context Protocol gateway that provides AI agents with secure, audited access to 80+ external tools and services through a single Streamable HTTP endpoint. Authentication uses 30-d
   name: Civic Hub MCP API
@@ -69,9 +71,6 @@ collections:
   name: Civic Customer pass piirequest API
   slug: postman-civic-piirequest-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Civic Customer pass API
   slug: open-civic-pass-api
 - collection_type: open
@@ -83,7 +82,7 @@ common:
   type: BlogRSS
   url: https://www.civic.com/feed.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/capabilities/civic-capability-edges.yml
+  href: https://artifacts.apis.io/civic/capabilities/civic-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/civic-capability-edges.yml
@@ -96,22 +95,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/civic/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/agentic-access/civic-agentic-access.yml
+  href: https://artifacts.apis.io/civic/agentic-access/civic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/civic-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/security/civic-domain-security.yml
+  href: https://artifacts.apis.io/civic/security/civic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/civic-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/authentication/civic-authentication.yml
+  href: https://artifacts.apis.io/civic/authentication/civic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/civic-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/scopes/civic-scopes.yml
+  href: https://artifacts.apis.io/civic/scopes/civic-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/civic-scopes.yml
@@ -140,17 +139,17 @@ common:
   type: Pricing
   url: https://www.civic.com/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/plans/civic-plans-pricing.yml
+  href: https://artifacts.apis.io/civic/plans/civic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/civic-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/rate-limits/civic-rate-limits.yml
+  href: https://artifacts.apis.io/civic/rate-limits/civic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/civic-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/finops/civic-finops.yml
+  href: https://artifacts.apis.io/civic/finops/civic-finops.yml
   title: ''
   type: FinOps
   url: finops/civic-finops.yml
@@ -194,10 +193,10 @@ examples:
   slug: civic-pii-get
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Civic Finops
-  primary_unit: ''
-  service_category: Security and Identity
+  primary_unit: identified accounts / month
+  service_category: ''
   slug: civic-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/civic.png
@@ -224,9 +223,12 @@ overview: 'Civic publishes 4 API contracts indexed on the [APIs.io](https://apis
   Civic''s developer surface includes authentication, documentation, getting-started guide, developer portal, signup flow, pricing, engineering blog, and 15 more developer resources.'
 plans:
 - name: Civic Plans Pricing
-  plan_count: 3
+  plan_count: 7
   slug: civic-plans-pricing
-random_paper: 20
+- name: Civic Price Estimates
+  plan_count: 0
+  slug: civic-price-estimates
+random_paper: 22
 rate_limits:
 - limit_count: 2
   name: Civic Rate Limits
@@ -250,23 +252,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 45.3
+  composite: 51.8
   coverage:
     artifact_dirs: 20
-    catalog_earned: 53.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 61.8
+    catalog_earned: 65.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 49.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 1.6
   facets:
-    access_clarity: 31.6
+    access_clarity: 63.2
     contract_governance: 9.8
-    contract_quality: 56.6
+    contract_quality: 53.2
     developer_ergonomics: 63.1
     discoverability: 66.1
-    operational_transparency: 34.2
-  previous_composite: 52.7
+    operational_transparency: 36.8
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
@@ -280,13 +282,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/screenshots/civic-2026-06-20T174430.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/civic/civic-2026-06-20T174430.png
 security:
 - kind: authentication
   name: Civic Authentication

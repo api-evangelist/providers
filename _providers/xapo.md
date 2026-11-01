@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xapo/refs/heads/main/security/xapo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/xapo/security/xapo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/xapo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xapo/refs/heads/main/security/xapo-domain-security.yml
+  href: https://artifacts.apis.io/xapo/security/xapo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xapo-domain-security.yml
@@ -95,32 +97,32 @@ common:
   type: Compliance
   url: https://www.xapobank.com/en/company/compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xapo/refs/heads/main/security/xapo-trust-center.yml
+  href: https://artifacts.apis.io/xapo/security/xapo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/xapo-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xapo/refs/heads/main/conformance/xapo-conformance.yml
+  href: https://artifacts.apis.io/xapo/conformance/xapo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/xapo-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xapo/refs/heads/main/well-known/xapo-well-known.yml
+  href: https://artifacts.apis.io/xapo/well-known/xapo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/xapo-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xapo/refs/heads/main/well-known/xapo-security.txt
+  href: https://artifacts.apis.io/xapo/well-known/xapo-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/xapo-security.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/xapo/refs/heads/main/packages/xapo-packages.yml
+  href: https://artifacts.apis.io/xapo/packages/xapo-packages.yml
   title: ''
   type: Packages
   url: packages/xapo-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xapo/refs/heads/main/llms/xapo-llms.txt
+  href: https://artifacts.apis.io/xapo/llms/xapo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/xapo-llms.txt
@@ -136,10 +138,10 @@ overview: 'Xapo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Xapo''s developer surface includes support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 0
+random_paper: 8
 score:
   band: emerging
-  composite: 20.1
+  composite: 23.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -149,13 +151,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 13.2
-  previous_composite: 20.1
+    operational_transparency: 15.8
+  previous_composite: 23.1
   provenance:
     conformance: first-party
   regulatory:
@@ -168,14 +170,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/xapo/refs/heads/main/screenshots/xapo-2026-09-02T171106.png
+screenshot: https://apis.io/screenshots/xapo/xapo-2026-09-02T171106.png
 security:
 - kind: domain-security
   name: Xapo Domain Security

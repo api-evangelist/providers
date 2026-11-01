@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-17'
+  score: 17.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -97,52 +99,52 @@ common:
   type: BlogRSS
   url: https://miniflux.app/feed
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/json-ld/miniflux-context.jsonld
+  href: https://artifacts.apis.io/miniflux/json-ld/miniflux-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/miniflux-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/vocabulary/miniflux-vocabulary.yml
+  href: https://artifacts.apis.io/miniflux/vocabulary/miniflux-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/miniflux-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/data-model/miniflux-data-model.yml
+  href: https://artifacts.apis.io/miniflux/data-model/miniflux-data-model.yml
   title: ''
   type: DataModel
   url: data-model/miniflux-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/agentic-access/miniflux-agentic-access.yml
+  href: https://artifacts.apis.io/miniflux/agentic-access/miniflux-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/miniflux-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/rules/miniflux-rules.yml
+  href: https://artifacts.apis.io/miniflux/rules/miniflux-rules.yml
   title: ''
   type: Spectral
   url: rules/miniflux-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/conformance/miniflux-conformance.yml
+  href: https://artifacts.apis.io/miniflux/conformance/miniflux-conformance.yml
   title: ''
   type: Conformance
   url: conformance/miniflux-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/mcp/miniflux-mcp.yml
+  href: https://artifacts.apis.io/miniflux/mcp/miniflux-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/miniflux-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/packages/miniflux-packages.yml
+  href: https://artifacts.apis.io/miniflux/packages/miniflux-packages.yml
   title: ''
   type: SDKs
   url: packages/miniflux-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/packages/miniflux-packages.yml
+  href: https://artifacts.apis.io/miniflux/packages/miniflux-packages.yml
   title: ''
   type: Packages
   url: packages/miniflux-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/security/miniflux-domain-security.yml
+  href: https://artifacts.apis.io/miniflux/security/miniflux-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/miniflux-domain-security.yml
@@ -217,7 +219,7 @@ overview: 'Miniflux is listed with 19 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Miniflux''s developer surface includes documentation, API reference, getting-started guide, support, and 13 more developer resources.'
-random_paper: 18
+random_paper: 12
 rules:
 - authorship: generated
   effective_rule_count: 48
@@ -233,7 +235,7 @@ rules:
   slug: miniflux-rules
 score:
   band: emerging
-  composite: 24.5
+  composite: 22.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 58.8
@@ -249,7 +251,7 @@ score:
     developer_ergonomics: 40.5
     discoverability: 58.9
     operational_transparency: 5.3
-  previous_composite: 24.5
+  previous_composite: 22.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -265,13 +267,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/screenshots/miniflux-2026-10-11T111125.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/miniflux/miniflux-2026-10-11T111125.png
 security:
 - kind: domain-security
   name: Miniflux Domain Security

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,52 +25,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/controlupinc/refs/heads/main/vendors/controlupinc-vendors.yml
+  href: https://artifacts.apis.io/controlupinc/vendors/controlupinc-vendors.yml
   title: ''
   type: Vendors
   url: vendors/controlupinc-vendors.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/controlupinc/refs/heads/main/changelog/controlupinc-changelog.yml
+  href: https://artifacts.apis.io/controlupinc/changelog/controlupinc-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/controlupinc-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/controlupinc/refs/heads/main/conventions/controlupinc-conventions.yml
+  href: https://artifacts.apis.io/controlupinc/conventions/controlupinc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/controlupinc-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/controlupinc/refs/heads/main/llms/controlupinc-llms.txt
+  href: https://artifacts.apis.io/controlupinc/llms/controlupinc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/controlupinc-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/controlupinc/refs/heads/main/well-known/controlupinc-status-security.txt
+  href: https://artifacts.apis.io/controlupinc/well-known/controlupinc-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/controlupinc-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/controlupinc/refs/heads/main/well-known/controlupinc-well-known.yml
+  href: https://artifacts.apis.io/controlupinc/well-known/controlupinc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/controlupinc-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/controlupinc/refs/heads/main/hosts/controlupinc-hosts.yml
+  href: https://artifacts.apis.io/controlupinc/hosts/controlupinc-hosts.yml
   title: ''
   type: Hosts
   url: hosts/controlupinc-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/controlupinc/refs/heads/main/packages/controlupinc-packages.yml
+  href: https://artifacts.apis.io/controlupinc/packages/controlupinc-packages.yml
   title: ''
   type: SDKs
   url: packages/controlupinc-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/controlupinc/refs/heads/main/packages/controlupinc-packages.yml
+  href: https://artifacts.apis.io/controlupinc/packages/controlupinc-packages.yml
   title: ''
   type: Packages
   url: packages/controlupinc-packages.yml
@@ -125,7 +127,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/controlup
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/controlupinc/refs/heads/main/security/controlupinc-domain-security.yml
+  href: https://artifacts.apis.io/controlupinc/security/controlupinc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/controlupinc-domain-security.yml
@@ -153,10 +155,10 @@ overview: 'Controlupinc is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Controlupinc''s developer surface includes changelog, support, pricing, engineering blog, getting-started guide, documentation, and 18 more developer resources.'
-random_paper: 14
+random_paper: 16
 score:
   band: thin
-  composite: 27.9
+  composite: 27.2
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -164,13 +166,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 57.1
+    discoverability: 50.0
     operational_transparency: 47.4
+  previous_composite: 27.2
   provenance:
     mcp: derived
   regulatory:
@@ -179,8 +183,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

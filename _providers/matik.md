@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://app.matik.io/api/1.0/
@@ -45,7 +47,7 @@ apis:
   description: OAuth 2.0 REST API for automating content generation with Matik — manage templates, generate presentations/documents/spreadsheets, run dynamic content queries against connected data sources, manage da
   name: Matik External API
   slug: matik-external-api
-artifact_total: 9
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Matik Webhooks
@@ -116,92 +118,100 @@ common:
   type: Compliance
   url: https://www.matik.io/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/security/matik-trust-center.yml
+  href: https://artifacts.apis.io/matik/security/matik-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/matik-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/authentication/matik-authentication.yml
+  href: https://artifacts.apis.io/matik/authentication/matik-authentication.yml
   title: ''
   type: Authentication
   url: authentication/matik-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/scopes/matik-scopes.yml
+  href: https://artifacts.apis.io/matik/scopes/matik-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/matik-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/mcp/matik-mcp.yml
+  href: https://artifacts.apis.io/matik/mcp/matik-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/matik-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/mcp/matik-tool-crosswalk.yml
+  href: https://artifacts.apis.io/matik/mcp/matik-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/matik-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/asyncapi/matik-webhooks.yml
+  href: https://artifacts.apis.io/matik/asyncapi/matik-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/matik-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/packages/matik-packages.yml
+  href: https://artifacts.apis.io/matik/packages/matik-packages.yml
   title: ''
   type: Packages
   url: packages/matik-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/errors/matik-problem-types.yml
+  href: https://artifacts.apis.io/matik/errors/matik-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/matik-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/rate-limits/matik-rate-limits.yml
+  href: https://artifacts.apis.io/matik/rate-limits/matik-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/matik-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/plans/matik-plans-pricing.yml
+  href: https://artifacts.apis.io/matik/plans/matik-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/matik-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/lifecycle/matik-lifecycle.yml
+  href: https://artifacts.apis.io/matik/lifecycle/matik-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/matik-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/conventions/matik-conventions.yml
+  href: https://artifacts.apis.io/matik/conventions/matik-conventions.yml
   title: ''
   type: Conventions
   url: conventions/matik-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/conformance/matik-conformance.yml
+  href: https://artifacts.apis.io/matik/conformance/matik-conformance.yml
   title: ''
   type: Conformance
   url: conformance/matik-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/security/matik-domain-security.yml
+  href: https://artifacts.apis.io/matik/security/matik-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/matik-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/data-model/matik-data-model.yml
+  href: https://artifacts.apis.io/matik/data-model/matik-data-model.yml
   title: ''
   type: DataModel
   url: data-model/matik-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/llms/matik-llms.txt
+  href: https://artifacts.apis.io/matik/llms/matik-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/matik-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/matik/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Matik is a data-driven content automation platform that generates personalized presentations, documents, spreadsheets, reports, and emails directly from connected data sources — BI tools, CRMs, data warehouses, spreadsheets, and REST APIs. Teams in Sales, Customer Success, and Revenue Operations use templates with dynamic content, conditional logic, and AI-generated narratives to produce on-brand content at scale across Google Slides, PowerPoint, PDF, and email. Matik exposes a REST External API (OAuth 2.0) covering templates, presentations, dynamic content, data sources, bulk generation, analytics, webhooks, and AI query building, plus a beta MCP server for agent-driven content generation.
+finops:
+- has_sources: true
+  method: derived
+  name: Matik Finops
+  primary_unit: ''
+  service_category: ''
+  slug: matik-finops
+  template: true
 image: https://cdn.prod.website-files.com/6169c25fc3b5f387dbc1b0ab/672c8fdcb72e6d3999cd7f45_Matik%20Logo%20On%20White%20Colored.png
 layout: provider
 mcp_servers:
@@ -235,23 +245,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.5
+  composite: 48.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 63.7
-    discoverability: 71.7
-    operational_transparency: 26.3
-  previous_composite: 48.4
+    discoverability: 65.0
+    operational_transparency: 28.9
+  previous_composite: 48.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -266,14 +276,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/screenshots/matik-2026-07-25T230412.png
+screenshot: https://apis.io/screenshots/matik/matik-2026-07-25T230412.png
 security:
 - kind: authentication
   name: Matik Authentication
@@ -287,6 +297,12 @@ security:
   name: Matik Trust Center
   slug: matik-trust-center
   summary_line: SOC 2 Type I, SOC 2 Type II, GDPR
+skill_count: 2
+skills:
+- name: Generate a presentation from a Matik template
+  slug: matik-generate-presentation-from-template
+- name: Run a Matik dynamic content query
+  slug: matik-run-dynamic-content
 slug: matik
 tags:
 - Company

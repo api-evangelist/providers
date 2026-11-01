@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -115,11 +117,8 @@ apis:
   description: The Timesheets API from Sage HR — 1 operation(s) for timesheets.
   name: Sage HR Timesheets API
   slug: sage-hr-timesheets-api
-artifact_total: 40
+artifact_total: 39
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sage HR Documents API
   slug: open-sage-hr-documents-api
@@ -167,7 +166,7 @@ collections:
   slug: open-sage-hr
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/capabilities/sage-hr-capability-edges.yml
+  href: https://artifacts.apis.io/sage-hr/capabilities/sage-hr-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sage-hr-capability-edges.yml
@@ -176,22 +175,22 @@ common:
   type: Website
   url: https://sage.hr
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/agentic-access/sage-hr-agentic-access.yml
+  href: https://artifacts.apis.io/sage-hr/agentic-access/sage-hr-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sage-hr-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/security/sage-hr-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sage-hr/security/sage-hr-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sage-hr-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/security/sage-hr-domain-security.yml
+  href: https://artifacts.apis.io/sage-hr/security/sage-hr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sage-hr-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/authentication/sage-hr-authentication.yml
+  href: https://artifacts.apis.io/sage-hr/authentication/sage-hr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sage-hr-authentication.yml
@@ -232,17 +231,17 @@ common:
   type: GitHub
   url: https://github.com/Sage
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/plans/sage-hr-plans-pricing.yml
+  href: https://artifacts.apis.io/sage-hr/plans/sage-hr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sage-hr-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/rate-limits/sage-hr-rate-limits.yml
+  href: https://artifacts.apis.io/sage-hr/rate-limits/sage-hr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sage-hr-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/finops/sage-hr-finops.yml
+  href: https://artifacts.apis.io/sage-hr/finops/sage-hr-finops.yml
   title: ''
   type: FinOps
   url: finops/sage-hr-finops.yml
@@ -282,7 +281,7 @@ plans:
 - name: Sage Hr Plans Pricing
   plan_count: 6
   slug: sage-hr-plans-pricing
-random_paper: 19
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Sage Hr Rate Limits
@@ -301,23 +300,23 @@ rules:
   slug: sage-hr-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.2
+  composite: 35.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 50.7
     catalog_earned_first_party: 0.0
     catalog_gap: 64.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 52.4
     developer_ergonomics: 35.7
     discoverability: 51.8
-    operational_transparency: 10.5
-  previous_composite: 40.1
+    operational_transparency: 21.1
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -331,13 +330,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/screenshots/sage-hr-2026-06-20T193324.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sage-hr/sage-hr-2026-06-20T193324.png
 security:
 - kind: authentication
   name: Sage Hr Authentication

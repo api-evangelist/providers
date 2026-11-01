@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.1
-  scored_at: '2026-10-17'
+  score: 32.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Token-authenticated WebSocket streaming API for real-time market data. Two endpoints — wss://quote.alltick.co/quote-stock-b-ws-api for equities and wss://quote.alltick.co/quote-b-ws-api for forex, cry
@@ -58,7 +60,7 @@ apis:
   description: The Suspension API from AllTick API — 3 operation(s) for suspension.
   name: AllTick API Suspension API
   slug: alltick-api-suspension-api
-artifact_total: 9
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Alltick Api Event Surface
@@ -69,12 +71,12 @@ common:
   type: Website
   url: https://www.alltick.co/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/overlays/alltick-api-openapi-overlay.yaml
+  href: https://artifacts.apis.io/alltick-api/overlays/alltick-api-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alltick-api-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/security/alltick-api-domain-security.yml
+  href: https://artifacts.apis.io/alltick-api/security/alltick-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alltick-api-domain-security.yml
@@ -143,67 +145,75 @@ common:
   type: StatusPage
   url: https://status.alltick.co/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/plans/alltick-api-plans-pricing.yml
+  href: https://artifacts.apis.io/alltick-api/plans/alltick-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/alltick-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/rate-limits/alltick-api-rate-limits.yml
+  href: https://artifacts.apis.io/alltick-api/rate-limits/alltick-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/alltick-api-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/authentication/alltick-api-authentication.yml
+  href: https://artifacts.apis.io/alltick-api/authentication/alltick-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alltick-api-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/errors/alltick-api-error-codes.yml
+  href: https://artifacts.apis.io/alltick-api/errors/alltick-api-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/alltick-api-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/conventions/alltick-api-conventions.yml
+  href: https://artifacts.apis.io/alltick-api/conventions/alltick-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alltick-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/lifecycle/alltick-api-lifecycle.yml
+  href: https://artifacts.apis.io/alltick-api/lifecycle/alltick-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alltick-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/conformance/alltick-api-conformance.yml
+  href: https://artifacts.apis.io/alltick-api/conformance/alltick-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alltick-api-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/sandbox/alltick-api-sandbox.yml
+  href: https://artifacts.apis.io/alltick-api/sandbox/alltick-api-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/alltick-api-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/packages/alltick-api-packages.yml
+  href: https://artifacts.apis.io/alltick-api/packages/alltick-api-packages.yml
   title: ''
   type: Packages
   url: packages/alltick-api-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/mcp/alltick-api-mcp.yml
+  href: https://artifacts.apis.io/alltick-api/mcp/alltick-api-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/alltick-api-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/alltick-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/llms/alltick-api-llms.txt
+  href: https://artifacts.apis.io/alltick-api/llms/alltick-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alltick-api-llms.txt
 created: '2026-08-18'
 description: AllTick (AllTick PTE. LTD., Singapore) sells real-time and historical financial market tick data through a token-authenticated HTTPS query API and two WebSocket streams, covering forex, Hong Kong / US / A-share equities, indices, precious metals, crude oil and cryptocurrencies across roughly 100,000 symbols. The HTTP surface returns candlesticks (1-minute through monthly, with ex-rights and forward-adjusted variants), latest trade ticks, order-book depth, equity reference data and SSE/NYSE/NASDAQ trading-halt listings; the WebSocket surface pushes tick-by-tick trades and order-book updates. Sold self-serve in USDT on a per-symbol-basket or whole-market basis, with a permanent free tier limited to ten demo symbols. Built for exchanges, brokers, quantitative teams, trading platforms and fintech developers.
+finops:
+- has_sources: true
+  method: derived
+  name: Alltick Api Finops
+  primary_unit: ''
+  service_category: ''
+  slug: alltick-api-finops
+  template: true
 image: https://alltick.co/images/logo.png
 layout: provider
 modified: '2026-08-18'
@@ -219,32 +229,35 @@ overview: 'AllTick API publishes 4 API contracts indexed on the [APIs.io](https:
   AllTick API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
 plans:
 - name: Alltick Api Plans Pricing
-  plan_count: 8
+  plan_count: 7
   slug: alltick-api-plans-pricing
-random_paper: 21
+- name: Alltick Api Price Estimates
+  plan_count: 0
+  slug: alltick-api-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 13
   name: Alltick Api Rate Limits
   slug: alltick-api-rate-limits
 score:
   band: strong
-  composite: 56.9
+  composite: 57.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 53.4
     developer_ergonomics: 66.1
     discoverability: 73.2
-    operational_transparency: 50.0
-  previous_composite: 56.8
+    operational_transparency: 52.6
+  previous_composite: 57.9
   provenance:
     conformance: derived
     contracts:
@@ -260,13 +273,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/screenshots/alltick-api-2026-09-02T144121.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/alltick-api/alltick-api-2026-09-02T144121.png
 security:
 - kind: authentication
   name: Alltick Api Authentication
@@ -276,6 +290,14 @@ security:
   name: Alltick Api Domain Security
   slug: alltick-api-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 3
+skills:
+- name: alltick-api-check-trading-halts
+  slug: alltick-api-check-trading-halts
+- name: alltick-api-quote-a-symbol
+  slug: alltick-api-quote-a-symbol
+- name: alltick-api-stream-realtime-ticks
+  slug: alltick-api-stream-realtime-ticks
 slug: alltick-api
 tags:
 - Financial market data

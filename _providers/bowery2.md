@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bowery2/refs/heads/main/hosts/bowery2-hosts.yml
+  href: https://artifacts.apis.io/bowery2/hosts/bowery2-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bowery2-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bowery2/refs/heads/main/vendors/bowery2-vendors.yml
+  href: https://artifacts.apis.io/bowery2/vendors/bowery2-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bowery2-vendors.yml
@@ -62,7 +64,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/boweryvaluation
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bowery2/refs/heads/main/security/bowery2-domain-security.yml
+  href: https://artifacts.apis.io/bowery2/security/bowery2-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bowery2-domain-security.yml
@@ -90,7 +92,7 @@ overview: 'Bowery2 is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bowery2''s developer surface includes sandbox, engineering blog, and 8 more developer resources.'
-random_paper: 10
+random_paper: 18
 score:
   band: emerging
   composite: 11.4
@@ -125,8 +127,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

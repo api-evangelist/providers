@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -43,7 +45,7 @@ common:
   type: Blog
   url: https://www.grainger.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ww-grainger/refs/heads/main/security/ww-grainger-domain-security.yml
+  href: https://artifacts.apis.io/ww-grainger/security/ww-grainger-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ww-grainger-domain-security.yml
@@ -56,22 +58,22 @@ common:
   type: Website
   url: https://www.grainger.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ww-grainger/refs/heads/main/conformance/ww-grainger-conformance.yml
+  href: https://artifacts.apis.io/ww-grainger/conformance/ww-grainger-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ww-grainger-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ww-grainger/refs/heads/main/llms/ww-grainger-llms.txt
+  href: https://artifacts.apis.io/ww-grainger/llms/ww-grainger-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ww-grainger-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ww-grainger/refs/heads/main/plans/ww-grainger-plans-pricing.yml
+  href: https://artifacts.apis.io/ww-grainger/plans/ww-grainger-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ww-grainger-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ww-grainger/refs/heads/main/rate-limits/ww-grainger-rate-limits.yml
+  href: https://artifacts.apis.io/ww-grainger/rate-limits/ww-grainger-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ww-grainger-rate-limits.yml
@@ -123,14 +125,14 @@ press:
 - date: ''
   title: Grainger expands AI in sales, marketing, and KeepStock ...
   url: https://www.digitalcommerce360.com/2026/02/04/grainger-ai-sales-marketing-keepstock-tools/
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Ww Grainger Rate Limits
   slug: ww-grainger-rate-limits
 score:
   band: minimal
-  composite: 7.9
+  composite: 7.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -138,15 +140,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 7.3
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 7.5
   provenance:
     conformance: first-party
   regulatory:
@@ -155,14 +157,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ww-grainger/refs/heads/main/screenshots/ww-grainger-2026-06-20T201645.png
+screenshot: https://apis.io/screenshots/ww-grainger/ww-grainger-2026-06-20T201645.png
 security:
 - kind: domain-security
   name: Ww Grainger Domain Security

@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-10-17'
+  score: 29.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -80,15 +82,12 @@ apis:
   description: Endpoints for retrieving non-fungible token data including balances, metadata, transfers, and collection information.
   name: Uniblock NF Ts API
   slug: uniblock-nfts-api
-artifact_total: 34
+artifact_total: 33
 asyncapis:
 - description: Uniblock webhooks enable real-time notifications for blockchain events without the need to poll endpoints. By configuring webhooks through the Uniblock dashboard or API, developers can receive HTTP ca
   name: Uniblock Webhook Events
   slug: uniblock-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Uniblock Direct API
   slug: open-uniblock-direct-api
@@ -118,32 +117,32 @@ collections:
   slug: open-uniblock-unified-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/plans/uniblock-plans-pricing.yml
+  href: https://artifacts.apis.io/uniblock/plans/uniblock-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/uniblock-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/rate-limits/uniblock-rate-limits.yml
+  href: https://artifacts.apis.io/uniblock/rate-limits/uniblock-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/uniblock-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/finops/uniblock-finops.yml
+  href: https://artifacts.apis.io/uniblock/finops/uniblock-finops.yml
   title: ''
   type: FinOps
   url: finops/uniblock-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/agentic-access/uniblock-agentic-access.yml
+  href: https://artifacts.apis.io/uniblock/agentic-access/uniblock-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/uniblock-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/security/uniblock-domain-security.yml
+  href: https://artifacts.apis.io/uniblock/security/uniblock-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uniblock-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/authentication/uniblock-authentication.yml
+  href: https://artifacts.apis.io/uniblock/authentication/uniblock-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uniblock-authentication.yml
@@ -152,27 +151,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/uniblock-dapp
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/json-ld/uniblock-context.jsonld
+  href: https://artifacts.apis.io/uniblock/json-ld/uniblock-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/uniblock-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/json-schema/uniblock-token-schema.json
+  href: https://artifacts.apis.io/uniblock/json-schema/uniblock-token-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/uniblock-token-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/json-schema/uniblock-nft-schema.json
+  href: https://artifacts.apis.io/uniblock/json-schema/uniblock-nft-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/uniblock-nft-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/json-schema/uniblock-transaction-schema.json
+  href: https://artifacts.apis.io/uniblock/json-schema/uniblock-transaction-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/uniblock-transaction-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/json-schema/uniblock-webhook-event-schema.json
+  href: https://artifacts.apis.io/uniblock/json-schema/uniblock-webhook-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/uniblock-webhook-event-schema.json
@@ -205,12 +204,12 @@ common:
   type: Login
   url: https://app.uniblock.dev/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/rules/uniblock-rules.yml
+  href: https://artifacts.apis.io/uniblock/rules/uniblock-rules.yml
   title: ''
   type: SpectralRules
   url: rules/uniblock-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/vocabulary/uniblock-vocabulary.yml
+  href: https://artifacts.apis.io/uniblock/vocabulary/uniblock-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/uniblock-vocabulary.yml
@@ -271,7 +270,7 @@ plans:
 - name: Uniblock Plans Pricing
   plan_count: 5
   slug: uniblock-plans-pricing
-random_paper: 19
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Uniblock Rate Limits
@@ -313,24 +312,24 @@ rules:
     warn: 4
   slug: uniblock-rules
 score:
-  band: thin
-  composite: 33.8
+  band: developing
+  composite: 40.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 52.0
     catalog_earned_first_party: 0.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 14.5
+    access_clarity: 21.1
     contract_governance: 27.3
     contract_quality: 63.5
-    developer_ergonomics: 23.8
+    developer_ergonomics: 45.2
     discoverability: 64.3
     operational_transparency: 7.9
-  previous_composite: 35.3
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -344,13 +343,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/screenshots/uniblock-2026-06-20T200030.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/uniblock/uniblock-2026-06-20T200030.png
 security:
 - kind: authentication
   name: Uniblock Authentication

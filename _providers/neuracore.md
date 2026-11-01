@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST backend for the Neuracore robot-learning platform, consumed by the official Neuracore Python SDK and CLI. Handles authentication, organizations, datasets, training runs and policy inference. Auth
@@ -42,7 +44,7 @@ apis:
 artifact_total: 4
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/neuracore/refs/heads/main/plans/neuracore-plans-pricing.yml
+  href: https://artifacts.apis.io/neuracore/plans/neuracore-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/neuracore-plans-pricing.yml
@@ -51,7 +53,7 @@ common:
   type: Blog
   url: https://www.neuracore.com/resources/articles
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/neuracore/refs/heads/main/security/neuracore-domain-security.yml
+  href: https://artifacts.apis.io/neuracore/security/neuracore-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/neuracore-domain-security.yml
@@ -84,42 +86,42 @@ common:
   type: TermsOfService
   url: https://neuracore.com/terms
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/neuracore/refs/heads/main/packages/neuracore-packages.yml
+  href: https://artifacts.apis.io/neuracore/packages/neuracore-packages.yml
   title: ''
   type: Packages
   url: packages/neuracore-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/neuracore/refs/heads/main/packages/neuracore-packages.yml
+  href: https://artifacts.apis.io/neuracore/packages/neuracore-packages.yml
   title: ''
   type: SDKs
   url: packages/neuracore-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/neuracore/refs/heads/main/cli/neuracore-cli.yml
+  href: https://artifacts.apis.io/neuracore/cli/neuracore-cli.yml
   title: ''
   type: CLI
   url: cli/neuracore-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/neuracore/refs/heads/main/authentication/neuracore-authentication.yml
+  href: https://artifacts.apis.io/neuracore/authentication/neuracore-authentication.yml
   title: ''
   type: Authentication
   url: authentication/neuracore-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neuracore/refs/heads/main/conventions/neuracore-conventions.yml
+  href: https://artifacts.apis.io/neuracore/conventions/neuracore-conventions.yml
   title: ''
   type: Conventions
   url: conventions/neuracore-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/neuracore/refs/heads/main/llms/neuracore-llms.txt
+  href: https://artifacts.apis.io/neuracore/llms/neuracore-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/neuracore-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neuracore/refs/heads/main/lifecycle/neuracore-lifecycle.yml
+  href: https://artifacts.apis.io/neuracore/lifecycle/neuracore-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/neuracore-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/neuracore/refs/heads/main/changelog/neuracore-changelog.yml
+  href: https://artifacts.apis.io/neuracore/changelog/neuracore-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/neuracore-changelog.yml
@@ -139,40 +141,40 @@ plans:
 - name: Neuracore Plans Pricing
   plan_count: 2
   slug: neuracore-plans-pricing
-random_paper: 18
+random_paper: 4
 score:
   band: thin
-  composite: 28.0
+  composite: 30.3
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.7
+  delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 55.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 23.3
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 30.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/neuracore/refs/heads/main/screenshots/neuracore-2026-08-07T185013.png
+screenshot: https://apis.io/screenshots/neuracore/neuracore-2026-08-07T185013.png
 security:
 - kind: authentication
   name: Neuracore Authentication

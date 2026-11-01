@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 27.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://app.monami.io/api
@@ -122,15 +124,12 @@ apis:
   description: The Webhooks API from Mon Ami — 2 operation(s) for webhooks.
   name: Mon Ami Webhooks API
   slug: mon-ami-webhooks-api
-artifact_total: 39
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Mon Ami Webhooks
   slug: mon-ami-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Mon Ami REST Care Plans API
   slug: open-mon-ami-care-plans-api
@@ -184,22 +183,22 @@ collections:
   slug: open-mon-ami-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mon-ami/refs/heads/main/capabilities/mon-ami-capability-edges.yml
+  href: https://artifacts.apis.io/mon-ami/capabilities/mon-ami-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mon-ami-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mon-ami/refs/heads/main/skills/mon-ami-intake-and-enroll-client.md
+  href: https://artifacts.apis.io/mon-ami/skills/mon-ami-intake-and-enroll-client.md
   title: ''
   type: AgentSkill
   url: skills/mon-ami-intake-and-enroll-client.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mon-ami/refs/heads/main/mcp/mon-ami-mcp.yml
+  href: https://artifacts.apis.io/mon-ami/mcp/mon-ami-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mon-ami-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mon-ami/refs/heads/main/overlays/mon-ami-openapi-overlay.yaml
+  href: https://artifacts.apis.io/mon-ami/overlays/mon-ami-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mon-ami-openapi-overlay.yaml
@@ -248,12 +247,12 @@ common:
   type: Blog
   url: https://www.monami.io/resources/?type=ar
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mon-ami/refs/heads/main/conformance/mon-ami-conformance.yml
+  href: https://artifacts.apis.io/mon-ami/conformance/mon-ami-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mon-ami-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mon-ami/refs/heads/main/security/mon-ami-domain-security.yml
+  href: https://artifacts.apis.io/mon-ami/security/mon-ami-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mon-ami-domain-security.yml
@@ -272,10 +271,10 @@ overview: 'Mon Ami publishes 17 API contracts indexed on the [APIs.io](https://a
 
 
   Mon Ami''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 13 more developer resources.'
-random_paper: 4
+random_paper: 14
 score:
   band: developing
-  composite: 41.0
+  composite: 46.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -285,13 +284,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 55.0
     developer_ergonomics: 54.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 41.0
+  previous_composite: 46.1
   provenance:
     conformance: first-party
     contracts:
@@ -310,14 +309,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 19.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 23.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/mon-ami/refs/heads/main/screenshots/mon-ami-2026-08-07T184127.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mon-ami/mon-ami-2026-08-07T184127.png
 security:
 - kind: authentication
   name: Mon Ami Authentication
@@ -331,6 +331,12 @@ security:
   name: Mon Ami Trust Center
   slug: mon-ami-trust-center
   summary_line: SOC 2 Type II, HIPAA, FedRAMP Ready, WCAG 2.1 AA
+skill_count: 2
+skills:
+- name: Intake and enroll a client
+  slug: mon-ami-intake-and-enroll-client
+- name: Record service delivery and subscribe to updates
+  slug: mon-ami-record-service-delivery
 slug: mon-ami
 tags:
 - Company

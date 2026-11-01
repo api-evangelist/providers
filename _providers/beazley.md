@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 32.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -142,7 +144,7 @@ apis:
   description: The Faqs API from Beazley — 2 operation(s) for faqs.
   name: Beazley Faqs API
   slug: beazley-faqs-api
-artifact_total: 39
+artifact_total: 44
 collections:
 - collection_type: open
   name: About Beazley (Sandbox)
@@ -188,67 +190,67 @@ collections:
   slug: open-beazley-simple-raters
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/capabilities/beazley-capability-edges.yml
+  href: https://artifacts.apis.io/beazley/capabilities/beazley-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/beazley-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/overlays/beazley-data-capture-v2-overlay.yaml
+  href: https://artifacts.apis.io/beazley/overlays/beazley-data-capture-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/beazley-data-capture-v2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/overlays/beazley-data-capture-v1-overlay.yaml
+  href: https://artifacts.apis.io/beazley/overlays/beazley-data-capture-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/beazley-data-capture-v1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/overlays/beazley-data-capture-v3-overlay.yaml
+  href: https://artifacts.apis.io/beazley/overlays/beazley-data-capture-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/beazley-data-capture-v3-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/overlays/beazley-compliance-overlay.yaml
+  href: https://artifacts.apis.io/beazley/overlays/beazley-compliance-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/beazley-compliance-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/overlays/beazley-marketing-v2-overlay.yaml
+  href: https://artifacts.apis.io/beazley/overlays/beazley-marketing-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/beazley-marketing-v2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/overlays/beazley-currency-exchange-overlay.yaml
+  href: https://artifacts.apis.io/beazley/overlays/beazley-currency-exchange-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/beazley-currency-exchange-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/overlays/beazley-about-beazley-overlay.yaml
+  href: https://artifacts.apis.io/beazley/overlays/beazley-about-beazley-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/beazley-about-beazley-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/overlays/beazley-fast-reader-overlay.yaml
+  href: https://artifacts.apis.io/beazley/overlays/beazley-fast-reader-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/beazley-fast-reader-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/overlays/beazley-simple-raters-overlay.yaml
+  href: https://artifacts.apis.io/beazley/overlays/beazley-simple-raters-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/beazley-simple-raters-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/agentic-access/beazley-agentic-access.yml
+  href: https://artifacts.apis.io/beazley/agentic-access/beazley-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/beazley-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/security/beazley-domain-security.yml
+  href: https://artifacts.apis.io/beazley/security/beazley-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beazley-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/authentication/beazley-authentication.yml
+  href: https://artifacts.apis.io/beazley/authentication/beazley-authentication.yml
   title: ''
   type: Authentication
   url: authentication/beazley-authentication.yml
@@ -297,67 +299,67 @@ common:
   type: Email
   url: mailto:ITArchitecture@Beazley.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/mcp/beazley-mcp.yml
+  href: https://artifacts.apis.io/beazley/mcp/beazley-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/beazley-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/mcp/beazley-tool-crosswalk.yml
+  href: https://artifacts.apis.io/beazley/mcp/beazley-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/beazley-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/llms/beazley-llms.txt
+  href: https://artifacts.apis.io/beazley/llms/beazley-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beazley-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/beazley/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/conventions/beazley-conventions.yml
+  href: https://artifacts.apis.io/beazley/conventions/beazley-conventions.yml
   title: ''
   type: Conventions
   url: conventions/beazley-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/errors/beazley-problem-types.yml
+  href: https://artifacts.apis.io/beazley/errors/beazley-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/beazley-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/lifecycle/beazley-lifecycle.yml
+  href: https://artifacts.apis.io/beazley/lifecycle/beazley-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/beazley-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/conformance/beazley-conformance.yml
+  href: https://artifacts.apis.io/beazley/conformance/beazley-conformance.yml
   title: ''
   type: Conformance
   url: conformance/beazley-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/data-model/beazley-data-model.yml
+  href: https://artifacts.apis.io/beazley/data-model/beazley-data-model.yml
   title: ''
   type: DataModel
   url: data-model/beazley-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/sandbox/beazley-sandbox.yml
+  href: https://artifacts.apis.io/beazley/sandbox/beazley-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/beazley-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/rate-limits/beazley-rate-limits.yml
+  href: https://artifacts.apis.io/beazley/rate-limits/beazley-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/beazley-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/plans/beazley-plans.yml
+  href: https://artifacts.apis.io/beazley/plans/beazley-plans.yml
   title: ''
   type: Plans
   url: plans/beazley-plans.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/security/beazley-trust-center.yml
+  href: https://artifacts.apis.io/beazley/security/beazley-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/beazley-trust-center.yml
@@ -392,6 +394,14 @@ common:
 created: '2026-07-25'
 description: Beazley plc is a London-headquartered specialty insurer and one of the largest managing agents at Lloyd's of London, underwriting through Lloyd's syndicates alongside US admitted and surplus lines carriers and a European company platform. Its book is specialty property and casualty — cyber and technology risks (where it is a global market leader), professional indemnity, management liability and directors and officers, marine, political risk, contingency, environmental, healthcare and property. Its home market is the United Kingdom, where there is no open-insurance mandate; the only market-wide data and API modernization effort is the Lloyd's Blueprint Two programme, and Beazley sat on the closed beta group that tested Lloyd's ACORD-based Core Data Record. Unusually for a carrier, Beazley operates a real first-party developer portal at developer.beazley.com — an Azure API Management portal with self-serve account signup, a publicly browsable catalog of 14 published APIs across
   nine families, sandbox environments, and machine-readable OpenAPI 3.0.1 for every one of them. The APIs are partner-and-broker oriented rather than consumer facing — risk and quote data capture into Beazley's core Record of Risk systems, broker and insured marketing data, compliance validation, currency exchange, a cyber rater, and insurance-terms reference data. Every API is behind an Azure APIM subscription key and every product carries approvalRequired, so browsing and spec download are open but actually calling the gateway requires Beazley to approve the subscription. There is no ACORD, AL3 or IVANS reference anywhere in the portal or the specs, no webhook or event catalog, no GraphQL, and no bind, issue or FNOL endpoint — bind is done by brokers through the gated myBeazley quote-and-bind portal, not through the public API surface. Beazley is subject to a recommended all-cash offer from Zurich Insurance Group announced 2 March 2026.
+finops:
+- has_sources: true
+  method: derived
+  name: Beazley Finops
+  primary_unit: ''
+  service_category: ''
+  slug: beazley-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-07-25'
@@ -406,16 +416,16 @@ plans:
 - name: Beazley Plans
   plan_count: 9
   slug: beazley-plans
-random_paper: 0
+random_paper: 4
 rate_limits:
 - limit_count: 8
   name: Beazley Rate Limits
   slug: beazley-rate-limits
 score:
   band: developing
-  composite: 48.5
+  composite: 51.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -423,12 +433,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 71.1
+    access_clarity: 81.6
     contract_governance: 4.5
     contract_quality: 43.1
     developer_ergonomics: 51.8
-    discoverability: 79.5
-    operational_transparency: 34.2
+    discoverability: 73.2
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -437,7 +447,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 48.5
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -453,14 +463,15 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 22.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 26.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/screenshots/beazley-2026-07-25T202607.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/beazley/beazley-2026-07-25T202607.png
 security:
 - kind: authentication
   name: Beazley Authentication
@@ -474,6 +485,16 @@ security:
   name: Beazley Trust Center
   slug: beazley-trust-center
   summary_line: ISO/IEC 27001, ISO/IEC 27701, SOC 2 Type 2
+skill_count: 4
+skills:
+- name: Look up Beazley reference data (FX, people, insurance terms)
+  slug: beazley-lookup-reference-data
+- name: Run a Beazley compliance check and pull its audit trail
+  slug: beazley-run-compliance-check
+- name: Submit quote and risk data to Beazley
+  slug: beazley-submit-risk-capture
+- name: Sync broker and insured marketing data
+  slug: beazley-sync-broker-marketing-data
 slug: beazley
 tags:
 - Insurance

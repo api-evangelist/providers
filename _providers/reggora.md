@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - description: Create and manage the loan records that appraisal orders are placed against - sync loan data from the LOS, retrieve loan detail, update loan fields, and receive a webhook when a loan is deleted. Endpo
@@ -63,12 +65,12 @@ apis:
 artifact_total: 13
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reggora/refs/heads/main/security/reggora-trust-center.yml
+  href: https://artifacts.apis.io/reggora/security/reggora-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/reggora-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reggora/refs/heads/main/security/reggora-domain-security.yml
+  href: https://artifacts.apis.io/reggora/security/reggora-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reggora-domain-security.yml
@@ -85,17 +87,17 @@ common:
   type: Documentation
   url: https://api.reggora.io/docs/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/reggora/refs/heads/main/plans/reggora-plans-pricing.yml
+  href: https://artifacts.apis.io/reggora/plans/reggora-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/reggora-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/reggora/refs/heads/main/rate-limits/reggora-rate-limits.yml
+  href: https://artifacts.apis.io/reggora/rate-limits/reggora-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/reggora-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/reggora/refs/heads/main/finops/reggora-finops.yml
+  href: https://artifacts.apis.io/reggora/finops/reggora-finops.yml
   title: ''
   type: FinOps
   url: finops/reggora-finops.yml
@@ -127,14 +129,14 @@ plans:
 - name: Reggora Plans Pricing
   plan_count: 2
   slug: reggora-plans-pricing
-random_paper: 17
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Reggora Rate Limits
   slug: reggora-rate-limits
 score:
   band: emerging
-  composite: 13.5
+  composite: 14.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 45.0
@@ -142,29 +144,29 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 71.4
     operational_transparency: 7.9
-  previous_composite: 20.4
+  previous_composite: 14.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/reggora/refs/heads/main/screenshots/reggora-2026-09-02T153241.png
+screenshot: https://apis.io/screenshots/reggora/reggora-2026-09-02T153241.png
 security:
 - kind: domain-security
   name: Reggora Domain Security

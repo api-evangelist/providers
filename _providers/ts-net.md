@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,14 +25,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 0
-common:
-- group: company
-  title: ''
-  type: Website
-  url: https://ts.net/
 coverage:
   checked: '2026-09-19'
   detail: The only surface this individual developer ever published, the "Star Guard" A2A agent card at localhost-0.tail351ad9.ts.net (a Tailscale Funnel hostname), is NXDOMAIN and a2aregistry.org itself records "host appears to be down or decommissioned" with 8% uptime; the harvested Website https://ts.net/ was removed because ts.net is Tailscale Inc.'s domain (whois registrant, security.txt canonical tailscale.com), already profiled at all/tailscale, and there is no first-party site to point at.
@@ -46,33 +43,43 @@ coverage:
   reason: defunct
   state: none
 created: '2026-09-19'
-description: 'xiaoyueguang is a company surfaced via the API Evangelist harvest backlog (source: a2a-registry) and added to the network as a stub for full-pipeline profiling.'
+description: xiaoyueguang (小月光) is an individual developer, not a company, who listed a single A2A agent, "Star Guard" (an x402-paid text-generation, translation, code-review, content-writing and data-analysis agent), on a2aregistry.org in August 2026. The agent was served from a Tailscale Funnel hostname (localhost-0.tail351ad9.ts.net) that no longer resolves; the registry marks the host decommissioned. The registrable domain ts.net belongs to Tailscale Inc. and is profiled separately.
 layout: provider
 modified: '2026-09-19'
 name: xiaoyueguang
 nav: Providers
 network: true
-overview: xiaoyueguang is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 9
+overview: xiaoyueguang is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, A2A, Agents, x402, and Individual Developer.
+random_paper: 3
 score:
   band: minimal
-  composite: 2.8
+  composite: 0.0
   coverage:
-    artifact_dirs: 0
-    catalog_earned: 15.0
+    artifact_dirs: 1
+    catalog_earned: 25.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 100.0
+    catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.4
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 27.8
+    discoverability: 0.0
     operational_transparency: 0.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  lifecycle: defunct
+  previous_composite: 0.4
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 0.0
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -80,5 +87,8 @@ score:
 slug: ts-net
 tags:
 - Company
-website: https://ts.net/
+- A2A
+- Agents
+- x402
+- Individual Developer
 ---

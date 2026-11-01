@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'An undocumented Model Context Protocol server operated by Apollo Global Management on its own API host. Its existence is established by two first-party discovery documents fetched on 2026-09-04: RFC 8'
@@ -41,7 +43,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apollo-global-management/refs/heads/main/security/apollo-global-management-domain-security.yml
+  href: https://artifacts.apis.io/apollo-global-management/security/apollo-global-management-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apollo-global-management-domain-security.yml
@@ -66,42 +68,42 @@ common:
   type: PrivacyPolicy
   url: https://www.apollo.com/governance/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apollo-global-management/refs/heads/main/mcp/apollo-global-management-mcp.yml
+  href: https://artifacts.apis.io/apollo-global-management/mcp/apollo-global-management-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/apollo-global-management-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apollo-global-management/refs/heads/main/well-known/apollo-global-management-well-known.yml
+  href: https://artifacts.apis.io/apollo-global-management/well-known/apollo-global-management-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apollo-global-management-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apollo-global-management/refs/heads/main/authentication/apollo-global-management-authentication.yml
+  href: https://artifacts.apis.io/apollo-global-management/authentication/apollo-global-management-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apollo-global-management-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apollo-global-management/refs/heads/main/scopes/apollo-global-management-scopes.yml
+  href: https://artifacts.apis.io/apollo-global-management/scopes/apollo-global-management-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/apollo-global-management-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apollo-global-management/refs/heads/main/conformance/apollo-global-management-conformance.yml
+  href: https://artifacts.apis.io/apollo-global-management/conformance/apollo-global-management-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apollo-global-management-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apollo-global-management/refs/heads/main/plans/apollo-global-management-plans-pricing.yml
+  href: https://artifacts.apis.io/apollo-global-management/plans/apollo-global-management-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apollo-global-management-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apollo-global-management/refs/heads/main/rate-limits/apollo-global-management-rate-limits.yml
+  href: https://artifacts.apis.io/apollo-global-management/rate-limits/apollo-global-management-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apollo-global-management-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apollo-global-management/refs/heads/main/llms/apollo-global-management-llms.txt
+  href: https://artifacts.apis.io/apollo-global-management/llms/apollo-global-management-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apollo-global-management-llms.txt
@@ -125,7 +127,7 @@ plans:
 - name: Apollo Global Management Plans Pricing
   plan_count: 0
   slug: apollo-global-management-plans-pricing
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Apollo Global Management Rate Limits
@@ -137,23 +139,23 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 20.6
+  composite: 19.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 20.5
+  previous_composite: 19.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -163,14 +165,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-global-management/refs/heads/main/screenshots/apollo-global-management-2026-06-20T172312.png
+screenshot: https://apis.io/screenshots/apollo-global-management/apollo-global-management-2026-06-20T172312.png
 security:
 - kind: authentication
   name: Apollo Global Management Authentication

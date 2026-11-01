@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
@@ -43,7 +45,7 @@ common:
   type: TermsOfService
   url: https://www.securian.com/legal-information.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/securian-financial-group/refs/heads/main/security/securian-financial-group-domain-security.yml
+  href: https://artifacts.apis.io/securian-financial-group/security/securian-financial-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/securian-financial-group-domain-security.yml
@@ -68,7 +70,7 @@ common:
   type: PrivacyPolicy
   url: https://www.securian.com/privacy-notices.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/securian-financial-group/refs/heads/main/well-known/securian-financial-group-well-known.yml
+  href: https://artifacts.apis.io/securian-financial-group/well-known/securian-financial-group-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/securian-financial-group-well-known.yml
@@ -77,37 +79,37 @@ common:
   type: OpenIDConnect
   url: https://sso.securian.com/.well-known/openid-configuration
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/securian-financial-group/refs/heads/main/authentication/securian-financial-group-authentication.yml
+  href: https://artifacts.apis.io/securian-financial-group/authentication/securian-financial-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/securian-financial-group-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/securian-financial-group/refs/heads/main/scopes/securian-financial-group-scopes.yml
+  href: https://artifacts.apis.io/securian-financial-group/scopes/securian-financial-group-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/securian-financial-group-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/securian-financial-group/refs/heads/main/conformance/securian-financial-group-conformance.yml
+  href: https://artifacts.apis.io/securian-financial-group/conformance/securian-financial-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/securian-financial-group-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/securian-financial-group/refs/heads/main/packages/securian-financial-group-packages.yml
+  href: https://artifacts.apis.io/securian-financial-group/packages/securian-financial-group-packages.yml
   title: ''
   type: Packages
   url: packages/securian-financial-group-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/securian-financial-group/refs/heads/main/plans/securian-financial-group-plans-pricing.yml
+  href: https://artifacts.apis.io/securian-financial-group/plans/securian-financial-group-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/securian-financial-group-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/securian-financial-group/refs/heads/main/rate-limits/securian-financial-group-rate-limits.yml
+  href: https://artifacts.apis.io/securian-financial-group/rate-limits/securian-financial-group-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/securian-financial-group-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/securian-financial-group/refs/heads/main/llms/securian-financial-group-llms.txt
+  href: https://artifacts.apis.io/securian-financial-group/llms/securian-financial-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/securian-financial-group-llms.txt
@@ -143,7 +145,7 @@ press:
 - date: ''
   title: Securian Financial Group
   url: https://www.cuinsight.com/companies/securian-financial-group/
-random_paper: 18
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Securian Financial Group Rate Limits
@@ -155,7 +157,7 @@ scopes:
   summary_line: 7 scopes
 score:
   band: emerging
-  composite: 16.6
+  composite: 15.9
   coverage:
     artifact_dirs: 15
     catalog_earned: 27.0
@@ -169,7 +171,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -178,7 +180,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 16.6
+  previous_composite: 15.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -188,14 +190,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/securian-financial-group/refs/heads/main/screenshots/securian-financial-group-2026-10-11T125633.png
+screenshot: https://apis.io/screenshots/securian-financial-group/securian-financial-group-2026-10-11T125633.png
 security:
 - kind: authentication
   name: Securian Financial Group Authentication

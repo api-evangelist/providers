@@ -14,26 +14,35 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 26.7
+  scored_at: '2026-10-31'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: Blink Ledger Systems Agentic Access
+  operation_count: 4
+  slug: blink-ledger-systems-agentic-access
+  summary_line: 4 operations · 2 acting
 api_count: 1
 apis:
 - description: Browser SDK exposing window.blinkSDK. Provides Login with Blink (getAuthorizationCode), subscription entitlement checks (isSubscribed, getSubscription, onSubscriptionChange), single-article charging (
@@ -57,15 +66,12 @@ apis:
   description: Blink user profile exchange.
   name: Blink Ledger Systems Users API
   slug: blink-ledger-systems-users-api
-artifact_total: 12
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Blink Ledger Systems Notifications Webhooks
   slug: blink-ledger-systems-notifications-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Blink Server-Side Authentication API
   slug: open-blink-ledger-systems-authentication-api
@@ -76,12 +82,47 @@ collections:
   name: Blink Server-Side Authentication Users API
   slug: open-blink-ledger-systems-users-api
 common:
+- group: operate
+  href: https://artifacts.apis.io/blink-ledger-systems/lifecycle/blink-ledger-systems-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/blink-ledger-systems-lifecycle.yml
+- group: agent
+  href: https://artifacts.apis.io/blink-ledger-systems/agentic-access/blink-ledger-systems-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/blink-ledger-systems-agentic-access.yml
+- group: design
+  href: https://artifacts.apis.io/blink-ledger-systems/rules/blink-ledger-systems-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/blink-ledger-systems-rules.yml
+- group: design
+  href: https://artifacts.apis.io/blink-ledger-systems/json-ld/blink-ledger-systems-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/blink-ledger-systems-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/blink-ledger-systems/vocabulary/blink-ledger-systems-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/blink-ledger-systems-vocabulary.yml
+- group: other
+  href: https://artifacts.apis.io/blink-ledger-systems/hosts/blink-ledger-systems-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/blink-ledger-systems-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/blink-ledger-systems/vendors/blink-ledger-systems-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/blink-ledger-systems-vendors.yml
 - group: company
   title: ''
   type: Blog
   url: https://blink.net/blog/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/mcp/blink-ledger-systems-mcp.yml
+  href: https://artifacts.apis.io/blink-ledger-systems/mcp/blink-ledger-systems-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/blink-ledger-systems-mcp.yml
@@ -126,88 +167,107 @@ common:
   type: StatusPage
   url: https://status.blink.net
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/openapi/_original/blink-ledger-systems-server-side-api-openapi.yml
+  href: https://artifacts.apis.io/blink-ledger-systems/openapi/_ae-authored/blink-ledger-systems-server-side-api-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/_original/blink-ledger-systems-server-side-api-openapi.yml
+  url: openapi/_ae-authored/blink-ledger-systems-server-side-api-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/overlays/blink-ledger-systems-server-side-api-overlay.yaml
+  href: https://artifacts.apis.io/blink-ledger-systems/overlays/blink-ledger-systems-server-side-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/blink-ledger-systems-server-side-api-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/packages/blink-ledger-systems-packages.yml
+  href: https://artifacts.apis.io/blink-ledger-systems/packages/blink-ledger-systems-packages.yml
   title: ''
   type: Packages
   url: packages/blink-ledger-systems-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/packages/blink-ledger-systems-packages.yml
+  href: https://artifacts.apis.io/blink-ledger-systems/packages/blink-ledger-systems-packages.yml
   title: ''
   type: SDKs
   url: packages/blink-ledger-systems-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/authentication/blink-ledger-systems-authentication.yml
+  href: https://artifacts.apis.io/blink-ledger-systems/authentication/blink-ledger-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blink-ledger-systems-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/errors/blink-ledger-systems-problem-types.yml
+  href: https://artifacts.apis.io/blink-ledger-systems/errors/blink-ledger-systems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/blink-ledger-systems-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/conventions/blink-ledger-systems-conventions.yml
+  href: https://artifacts.apis.io/blink-ledger-systems/conventions/blink-ledger-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blink-ledger-systems-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/lifecycle/blink-ledger-systems-lifecycle.yml
+  href: https://artifacts.apis.io/blink-ledger-systems/lifecycle/blink-ledger-systems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blink-ledger-systems-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/sandbox/blink-ledger-systems-sandbox.yml
+  href: https://artifacts.apis.io/blink-ledger-systems/sandbox/blink-ledger-systems-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/blink-ledger-systems-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/components/blink-ledger-systems-components.yml
+  href: https://artifacts.apis.io/blink-ledger-systems/components/blink-ledger-systems-components.yml
   title: ''
   type: Components
   url: components/blink-ledger-systems-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/data-model/blink-ledger-systems-data-model.yml
+  href: https://artifacts.apis.io/blink-ledger-systems/data-model/blink-ledger-systems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blink-ledger-systems-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/asyncapi/blink-ledger-systems-notifications-webhooks.yml
+  href: https://artifacts.apis.io/blink-ledger-systems/asyncapi/blink-ledger-systems-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/blink-ledger-systems-notifications-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/conformance/blink-ledger-systems-conformance.yml
+  href: https://artifacts.apis.io/blink-ledger-systems/conformance/blink-ledger-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blink-ledger-systems-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/blink-ledger-systems/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/llms/blink-ledger-systems-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/blink-ledger-systems-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/security/blink-ledger-systems-domain-security.yml
+  href: https://artifacts.apis.io/blink-ledger-systems/security/blink-ledger-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blink-ledger-systems-domain-security.yml
 created: '2026-07-17'
 description: Blink (Blink Ledger Systems Inc.) builds online identity and payment technologies for digital publishers. A single Blink account works across publishers, giving readers one universal login and frictionless payment so they can subscribe, donate, or buy an individual article or podcast with one click, or enable autopay for small frequent purchases. Publishers integrate three products — Blink Identity, Blink Pay and Blink Donate — through one hosted JavaScript SDK that places Blink-managed panels into the page, a dashboard-configured User Journeys rules engine, four server-side JSON endpoints for OAuth2 login, and a signed webhook notification stream covering subscription, payment and donation events. Founded 2017; incorporated in the US in 2018 and surfaced in the API Evangelist network as a Polychain portfolio company.
 image: https://blink.net/resources/favicon.png
+json_schemas:
+- name: AccessTokenRequest
+  property_count: 5
+  slug: blink-ledger-systems-access-token-request
+- name: LoginRequest
+  property_count: 2
+  slug: blink-ledger-systems-login-request
+- name: LoginToken
+  property_count: 1
+  slug: blink-ledger-systems-login-token
+- name: OAuthApplicationConfig
+  property_count: 3
+  slug: blink-ledger-systems-oauth-application-config
+- name: RegisterApplicationRequest
+  property_count: 2
+  slug: blink-ledger-systems-register-application-request
+- name: UserProfileResponse
+  property_count: 1
+  slug: blink-ledger-systems-user-profile-response
+jsonld:
+- class_count: 7
+  name: Blink Ledger Systems Context
+  property_count: 14
+  slug: blink-ledger-systems-context
 layout: provider
 modified: '2026-10-06'
 name: Blink Ledger Systems
@@ -216,37 +276,51 @@ network: true
 overview: 'Blink Ledger Systems publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, OAuth Applications API, Users API, and 2 more. Tagged areas include Company, Infrastructure, Payments, Identity, and Authentication.
 
 
-  The Blink Ledger Systems catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Blink Ledger Systems catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Blink Ledger Systems'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, authentication, and 21 more developer resources.'
-random_paper: 13
+  Blink Ledger Systems'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, authentication, and 27 more developer resources.'
+random_paper: 21
+rules:
+- authorship: generated
+  effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Blink Ledger Systems API Rules
+  rule_count: 13
+  severity_counts:
+    error: 11
+    hint: 0
+    info: 1
+    warn: 1
+  slug: blink-ledger-systems-rules
 score:
-  band: thin
-  composite: 27.6
+  band: developing
+  composite: 43.9
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
+    artifact_dirs: 29
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.5
   facets:
-    access_clarity: 0.0
-    contract_governance: 4.5
-    contract_quality: 21.0
-    developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 23.7
-  previous_composite: 27.1
+    access_clarity: 34.2
+    contract_governance: 22.0
+    contract_quality: 34.4
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 44.4
   provenance:
+    agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 3
+      derived: 4
       marker_coverage: 100.0
-      total: 3
+      total: 4
     mcp: derived
     skills: derived
   regulatory:
@@ -254,14 +328,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 22.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/screenshots/blink-ledger-systems-2026-07-25T203322.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/blink-ledger-systems/blink-ledger-systems-2026-07-25T203322.png
 security:
 - kind: authentication
   name: Blink Ledger Systems Authentication
@@ -271,6 +346,12 @@ security:
   name: Blink Ledger Systems Domain Security
   slug: blink-ledger-systems-domain-security
   summary_line: TLSv1.3
+skill_count: 2
+skills:
+- name: blink-login-with-blink
+  slug: blink-ledger-systems-login-with-blink
+- name: blink-paywall-and-payments
+  slug: blink-ledger-systems-paywall-and-payments
 slug: blink-ledger-systems
 tags:
 - Company

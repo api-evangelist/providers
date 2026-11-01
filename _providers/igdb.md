@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -85,11 +87,8 @@ apis:
   description: Cross-entity search.
   name: IGDB Search API
   slug: igdb-search-api
-artifact_total: 25
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: IGDB Companies API
   slug: open-igdb-companies-api
@@ -119,32 +118,32 @@ collections:
   slug: open-igdb
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/igdb/refs/heads/main/plans/igdb-plans-pricing.yml
+  href: https://artifacts.apis.io/igdb/plans/igdb-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/igdb-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/igdb/refs/heads/main/rate-limits/igdb-rate-limits.yml
+  href: https://artifacts.apis.io/igdb/rate-limits/igdb-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/igdb-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/igdb/refs/heads/main/finops/igdb-finops.yml
+  href: https://artifacts.apis.io/igdb/finops/igdb-finops.yml
   title: ''
   type: FinOps
   url: finops/igdb-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/igdb/refs/heads/main/agentic-access/igdb-agentic-access.yml
+  href: https://artifacts.apis.io/igdb/agentic-access/igdb-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/igdb-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/igdb/refs/heads/main/security/igdb-domain-security.yml
+  href: https://artifacts.apis.io/igdb/security/igdb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/igdb-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/igdb/refs/heads/main/authentication/igdb-authentication.yml
+  href: https://artifacts.apis.io/igdb/authentication/igdb-authentication.yml
   title: ''
   type: Authentication
   url: authentication/igdb-authentication.yml
@@ -170,7 +169,7 @@ finops:
 - has_sources: false
   method: generated
   name: Igdb Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: igdb-finops
   template: true
@@ -191,7 +190,7 @@ plans:
 - name: Igdb Plans Pricing
   plan_count: 3
   slug: igdb-plans-pricing
-random_paper: 10
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Igdb Rate Limits
@@ -209,24 +208,24 @@ rules:
     warn: 0
   slug: igdb-rules
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 29.2
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 47.4
-    developer_ergonomics: 35.7
+    developer_ergonomics: 47.6
     discoverability: 57.1
     operational_transparency: 7.9
-  previous_composite: 27.6
+  previous_composite: 29.2
   provenance:
     agentic_access: derived
     contracts:
@@ -240,13 +239,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/igdb/refs/heads/main/screenshots/igdb-2026-06-20T183218.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/igdb/igdb-2026-06-20T183218.png
 security:
 - kind: authentication
   name: Igdb Authentication

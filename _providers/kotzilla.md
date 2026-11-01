@@ -15,7 +15,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Hosted remote Model Context Protocol server that connects an AI coding assistant to the Kotzilla Platform. Fifteen tools covering app registration, SDK onboarding, telemetry, issue detection and conte
@@ -115,7 +117,7 @@ common:
   type: ChangeLog
   url: https://doc.kotzilla.io/docs/releaseNotes/changelogSDK
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kotzilla/refs/heads/main/changelog/kotzilla-changelog.yml
+  href: https://artifacts.apis.io/kotzilla/changelog/kotzilla-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kotzilla-changelog.yml
@@ -124,7 +126,7 @@ common:
   type: Deprecation
   url: https://doc.kotzilla.io/docs/releaseNotes/versionUpgrades
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kotzilla/refs/heads/main/lifecycle/kotzilla-lifecycle.yml
+  href: https://artifacts.apis.io/kotzilla/lifecycle/kotzilla-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kotzilla-lifecycle.yml
@@ -133,67 +135,67 @@ common:
   type: Sandbox
   url: https://console.kotzilla.io/sandbox-home
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kotzilla/refs/heads/main/sandbox/kotzilla-sandbox.yml
+  href: https://artifacts.apis.io/kotzilla/sandbox/kotzilla-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kotzilla-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kotzilla/refs/heads/main/packages/kotzilla-packages.yml
+  href: https://artifacts.apis.io/kotzilla/packages/kotzilla-packages.yml
   title: ''
   type: Packages
   url: packages/kotzilla-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kotzilla/refs/heads/main/packages/kotzilla-packages.yml
+  href: https://artifacts.apis.io/kotzilla/packages/kotzilla-packages.yml
   title: ''
   type: SDKs
   url: packages/kotzilla-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kotzilla/refs/heads/main/authentication/kotzilla-authentication.yml
+  href: https://artifacts.apis.io/kotzilla/authentication/kotzilla-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kotzilla-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kotzilla/refs/heads/main/scopes/kotzilla-scopes.yml
+  href: https://artifacts.apis.io/kotzilla/scopes/kotzilla-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kotzilla-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kotzilla/refs/heads/main/conformance/kotzilla-conformance.yml
+  href: https://artifacts.apis.io/kotzilla/conformance/kotzilla-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kotzilla-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kotzilla/refs/heads/main/conventions/kotzilla-conventions.yml
+  href: https://artifacts.apis.io/kotzilla/conventions/kotzilla-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kotzilla-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kotzilla/refs/heads/main/security/kotzilla-domain-security.yml
+  href: https://artifacts.apis.io/kotzilla/security/kotzilla-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kotzilla-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kotzilla/refs/heads/main/well-known/kotzilla-well-known.yml
+  href: https://artifacts.apis.io/kotzilla/well-known/kotzilla-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kotzilla-well-known.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kotzilla/refs/heads/main/plans/kotzilla-plans-pricing.yml
+  href: https://artifacts.apis.io/kotzilla/plans/kotzilla-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kotzilla-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kotzilla/refs/heads/main/rate-limits/kotzilla-rate-limits.yml
+  href: https://artifacts.apis.io/kotzilla/rate-limits/kotzilla-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kotzilla-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kotzilla/refs/heads/main/llms/kotzilla-llms.txt
+  href: https://artifacts.apis.io/kotzilla/llms/kotzilla-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kotzilla-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kotzilla/refs/heads/main/mcp/kotzilla-mcp.yml
+  href: https://artifacts.apis.io/kotzilla/mcp/kotzilla-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kotzilla-mcp.yml
@@ -217,7 +219,7 @@ plans:
 - name: Kotzilla Plans Pricing
   plan_count: 2
   slug: kotzilla-plans-pricing
-random_paper: 16
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Kotzilla Rate Limits
@@ -228,8 +230,8 @@ scopes:
   slug: kotzilla-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: thin
-  composite: 35.8
+  band: developing
+  composite: 42.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 45.0
@@ -237,14 +239,14 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 52.6
+    access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 54.8
-    discoverability: 68.3
-    operational_transparency: 18.4
+    developer_ergonomics: 71.4
+    discoverability: 65.0
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -253,7 +255,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 35.7
+  previous_composite: 42.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -263,14 +265,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kotzilla/refs/heads/main/screenshots/kotzilla-2026-09-02T150159.png
+screenshot: https://apis.io/screenshots/kotzilla/kotzilla-2026-09-02T150159.png
 security:
 - kind: authentication
   name: Kotzilla Authentication

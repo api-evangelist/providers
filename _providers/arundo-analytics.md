@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,12 +37,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arundo-analytics/refs/heads/main/security/arundo-analytics-domain-security.yml
+  href: https://artifacts.apis.io/arundo-analytics/security/arundo-analytics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arundo-analytics-domain-security.yml
@@ -85,42 +87,42 @@ common:
   type: SecondaryMarketProfile
   url: https://forgeglobal.com/arundo-analytics_stock/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arundo-analytics/refs/heads/main/lifecycle/arundo-analytics-lifecycle.yml
+  href: https://artifacts.apis.io/arundo-analytics/lifecycle/arundo-analytics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/arundo-analytics-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arundo-analytics/refs/heads/main/well-known/arundo-analytics-well-known.yml
+  href: https://artifacts.apis.io/arundo-analytics/well-known/arundo-analytics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/arundo-analytics-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arundo-analytics/refs/heads/main/authentication/arundo-analytics-authentication.yml
+  href: https://artifacts.apis.io/arundo-analytics/authentication/arundo-analytics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/arundo-analytics-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arundo-analytics/refs/heads/main/scopes/arundo-analytics-scopes.yml
+  href: https://artifacts.apis.io/arundo-analytics/scopes/arundo-analytics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/arundo-analytics-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arundo-analytics/refs/heads/main/conformance/arundo-analytics-conformance.yml
+  href: https://artifacts.apis.io/arundo-analytics/conformance/arundo-analytics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/arundo-analytics-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/arundo-analytics/refs/heads/main/packages/arundo-analytics-packages.yml
+  href: https://artifacts.apis.io/arundo-analytics/packages/arundo-analytics-packages.yml
   title: ''
   type: Packages
   url: packages/arundo-analytics-packages.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/arundo-analytics/refs/heads/main/json-schema/arundo-analytics-foundation-compute.json
+  href: https://artifacts.apis.io/arundo-analytics/json-schema/arundo-analytics-foundation-compute.json
   title: ''
   type: JSONSchema
   url: json-schema/arundo-analytics-foundation-compute.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arundo-analytics/refs/heads/main/llms/arundo-analytics-llms.txt
+  href: https://artifacts.apis.io/arundo-analytics/llms/arundo-analytics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/arundo-analytics-llms.txt
@@ -155,7 +157,7 @@ overview: 'Arundo Analytics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Arundo Analytics'' developer surface includes support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 12
+random_paper: 6
 scopes:
 - name: Arundo Analytics Scopes
   scope_count: 14
@@ -163,9 +165,9 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: emerging
-  composite: 20.6
+  composite: 23.3
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -173,13 +175,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 14.3
+    developer_ergonomics: 19.0
     discoverability: 48.2
-    operational_transparency: 18.4
-  previous_composite: 20.6
+    operational_transparency: 21.1
+  previous_composite: 23.3
   provenance:
     conformance: first-party
   regulatory:
@@ -188,14 +190,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/arundo-analytics/refs/heads/main/screenshots/arundo-analytics-2026-08-07T161747.png
+screenshot: https://apis.io/screenshots/arundo-analytics/arundo-analytics-2026-08-07T161747.png
 security:
 - kind: authentication
   name: Arundo Analytics Authentication

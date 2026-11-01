@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - baseURL: https://direct.cco.io
@@ -50,7 +52,7 @@ apis:
 artifact_total: 39
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clear-channel-outdoor/refs/heads/main/security/clear-channel-outdoor-domain-security.yml
+  href: https://artifacts.apis.io/clear-channel-outdoor/security/clear-channel-outdoor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clear-channel-outdoor-domain-security.yml
@@ -99,27 +101,27 @@ common:
   type: PrivacyPolicy
   url: https://clearchanneloutdoor.com/privacy-policy/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clear-channel-outdoor/refs/heads/main/json-ld/clear-channel-outdoor-context.jsonld
+  href: https://artifacts.apis.io/clear-channel-outdoor/json-ld/clear-channel-outdoor-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/clear-channel-outdoor-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clear-channel-outdoor/refs/heads/main/vocabulary/clear-channel-outdoor-vocabulary.yml
+  href: https://artifacts.apis.io/clear-channel-outdoor/vocabulary/clear-channel-outdoor-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/clear-channel-outdoor-vocabulary.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/clear-channel-outdoor/refs/heads/main/plans/clear-channel-outdoor-plans-pricing.yml
+  href: https://artifacts.apis.io/clear-channel-outdoor/plans/clear-channel-outdoor-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/clear-channel-outdoor-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/clear-channel-outdoor/refs/heads/main/rate-limits/clear-channel-outdoor-rate-limits.yml
+  href: https://artifacts.apis.io/clear-channel-outdoor/rate-limits/clear-channel-outdoor-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/clear-channel-outdoor-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/clear-channel-outdoor/refs/heads/main/finops/clear-channel-outdoor-finops.yml
+  href: https://artifacts.apis.io/clear-channel-outdoor/finops/clear-channel-outdoor-finops.yml
   title: ''
   type: FinOps
   url: finops/clear-channel-outdoor-finops.yml
@@ -226,7 +228,7 @@ modified: '2026-05-23'
 name: Clear Channel Outdoor
 nav: Providers
 network: true
-overview: 'Clear Channel Outdoor is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Automated Direct API, and 2 more. Tagged areas include Advertising, Out-of-Home, OOH, Programmatic, and Digital Out Of Home.
+overview: 'Clear Channel Outdoor is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Automated Direct API, and 2 more. Tagged areas include Advertising, Out-of-Home, Programmatic, Digital Out Of Home, and pDOOH.
 
 
   The Clear Channel Outdoor catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -268,7 +270,7 @@ rules:
   slug: clear-channel-outdoor-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.3
+  composite: 38.3
   coverage:
     artifact_dirs: 15
     catalog_earned: 66.8
@@ -276,15 +278,15 @@ score:
     catalog_gap: 48.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -9.1
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 15.8
     contract_governance: 23.5
     contract_quality: 63.2
     developer_ergonomics: 40.5
     discoverability: 62.5
-    operational_transparency: 7.9
-  previous_composite: 44.4
+    operational_transparency: 10.5
+  previous_composite: 38.3
   provenance:
     contracts:
       callable: 100.0
@@ -296,15 +298,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 20.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/clear-channel-outdoor/refs/heads/main/screenshots/clear-channel-outdoor-2026-06-20T174453.png
+screenshot: https://apis.io/screenshots/clear-channel-outdoor/clear-channel-outdoor-2026-06-20T174453.png
 security:
 - kind: domain-security
   name: Clear Channel Outdoor Domain Security
@@ -314,7 +316,6 @@ slug: clear-channel-outdoor
 tags:
 - Advertising
 - Out-of-Home
-- OOH
 - Programmatic
 - Digital Out Of Home
 - pDOOH

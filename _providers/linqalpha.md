@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 54.5
-  scored_at: '2026-10-17'
+  score: 50.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.linqalpha.com
@@ -87,11 +89,8 @@ apis:
   description: The Vault API from LinqAlpha — 3 operation(s) for vault.
   name: LinqAlpha Vault API
   slug: linqalpha-vault-api
-artifact_total: 27
+artifact_total: 29
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LinqAlpha Briefing API
   slug: open-linqalpha-briefing-api
@@ -144,7 +143,7 @@ common:
   type: GettingStarted
   url: https://docs.linqalpha.com/quickstart
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/_original/linqalpha-openapi-original.json
+  href: https://artifacts.apis.io/linqalpha/openapi/_original/linqalpha-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/linqalpha-openapi-original.json
@@ -169,47 +168,47 @@ common:
   type: PrivacyPolicy
   url: https://linqalpha.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/mcp/linqalpha-mcp.yml
+  href: https://artifacts.apis.io/linqalpha/mcp/linqalpha-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/linqalpha-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/linqalpha/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/llms/linqalpha-llms.txt
+  href: https://artifacts.apis.io/linqalpha/llms/linqalpha-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/linqalpha-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/authentication/linqalpha-authentication.yml
+  href: https://artifacts.apis.io/linqalpha/authentication/linqalpha-authentication.yml
   title: ''
   type: Authentication
   url: authentication/linqalpha-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/scopes/linqalpha-scopes.yml
+  href: https://artifacts.apis.io/linqalpha/scopes/linqalpha-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/linqalpha-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/conventions/linqalpha-conventions.yml
+  href: https://artifacts.apis.io/linqalpha/conventions/linqalpha-conventions.yml
   title: ''
   type: Conventions
   url: conventions/linqalpha-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/errors/linqalpha-problem-types.yml
+  href: https://artifacts.apis.io/linqalpha/errors/linqalpha-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/linqalpha-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/rate-limits/linqalpha-rate-limits.yml
+  href: https://artifacts.apis.io/linqalpha/rate-limits/linqalpha-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/linqalpha-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/lifecycle/linqalpha-lifecycle.yml
+  href: https://artifacts.apis.io/linqalpha/lifecycle/linqalpha-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/linqalpha-lifecycle.yml
@@ -218,7 +217,7 @@ common:
   type: StatusPage
   url: https://status.linqalpha.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/conformance/linqalpha-conformance.yml
+  href: https://artifacts.apis.io/linqalpha/conformance/linqalpha-conformance.yml
   title: ''
   type: Conformance
   url: conformance/linqalpha-conformance.yml
@@ -227,27 +226,27 @@ common:
   type: Compliance
   url: https://linqalpha.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/security/linqalpha-trust-center.yml
+  href: https://artifacts.apis.io/linqalpha/security/linqalpha-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/linqalpha-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/security/linqalpha-domain-security.yml
+  href: https://artifacts.apis.io/linqalpha/security/linqalpha-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/linqalpha-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/well-known/linqalpha-well-known.yml
+  href: https://artifacts.apis.io/linqalpha/well-known/linqalpha-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/linqalpha-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/data-model/linqalpha-data-model.yml
+  href: https://artifacts.apis.io/linqalpha/data-model/linqalpha-data-model.yml
   title: ''
   type: DataModel
   url: data-model/linqalpha-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/overlays/linqalpha-api-overlay.yaml
+  href: https://artifacts.apis.io/linqalpha/overlays/linqalpha-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linqalpha-api-overlay.yaml
@@ -267,7 +266,7 @@ overview: 'LinqAlpha publishes 10 API contracts indexed on the [APIs.io](https:/
 
 
   LinqAlpha''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 21 more developer resources.'
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Linqalpha Rate Limits
@@ -279,7 +278,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 47.9
+  composite: 50.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 45.0
@@ -287,15 +286,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 51.6
+    contract_quality: 50.5
     developer_ergonomics: 58.9
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 36.8
-  previous_composite: 47.8
+  previous_composite: 50.0
   provenance:
     conformance: first-party
     contracts:
@@ -311,13 +310,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 34.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/screenshots/linqalpha-2026-07-25T225300.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/linqalpha/linqalpha-2026-07-25T225300.png
 security:
 - kind: authentication
   name: Linqalpha Authentication
@@ -331,6 +331,14 @@ security:
   name: Linqalpha Trust Center
   slug: linqalpha-trust-center
   summary_line: SOC 1 Type II, SOC 2 Type II, ISO 27001
+skill_count: 3
+skills:
+- name: Run grounded LinqAlpha analytics and verify the citations
+  slug: linqalpha-grounded-research
+- name: Schedule and retrieve a LinqAlpha research briefing
+  slug: linqalpha-scheduled-briefing
+- name: Upload internal documents to LinqAlpha and make them searchable
+  slug: linqalpha-vault-ingestion
 slug: linqalpha
 tags:
 - Company

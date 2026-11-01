@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -46,17 +48,17 @@ common:
   type: Blog
   url: https://www.fabriccryptography.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fabric-cryptography/refs/heads/main/security/fabric-cryptography-domain-security.yml
+  href: https://artifacts.apis.io/fabric-cryptography/security/fabric-cryptography-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fabric-cryptography-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fabric-cryptography/refs/heads/main/llms/fabric-cryptography-llms.txt
+  href: https://artifacts.apis.io/fabric-cryptography/llms/fabric-cryptography-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fabric-cryptography-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fabric-cryptography/refs/heads/main/plans/fabric-cryptography-plans-pricing.yml
+  href: https://artifacts.apis.io/fabric-cryptography/plans/fabric-cryptography-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fabric-cryptography-plans-pricing.yml
@@ -95,7 +97,7 @@ plans:
 - name: Fabric Cryptography Plans Pricing
   plan_count: 0
   slug: fabric-cryptography-plans-pricing
-random_paper: 4
+random_paper: 16
 score:
   band: minimal
   composite: 3.9
@@ -106,7 +108,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -114,21 +116,21 @@ score:
     developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 3.8
+  previous_composite: 3.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fabric-cryptography/refs/heads/main/screenshots/fabric-cryptography-2026-09-02T145451.png
+screenshot: https://apis.io/screenshots/fabric-cryptography/fabric-cryptography-2026-09-02T145451.png
 security:
 - kind: domain-security
   name: Fabric Cryptography Domain Security

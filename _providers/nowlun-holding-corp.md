@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-17'
+  score: 17.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: OAuth-protected Model Context Protocol server exposing Nowlun freight-forwarding capabilities to agents. Requires an access token holding the "mcp" scope.
@@ -42,27 +44,27 @@ apis:
 artifact_total: 5
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nowlun-holding-corp/refs/heads/main/mcp/nowlun-holding-corp-mcp.yml
+  href: https://artifacts.apis.io/nowlun-holding-corp/mcp/nowlun-holding-corp-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nowlun-holding-corp-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nowlun-holding-corp/refs/heads/main/well-known/nowlun-holding-corp-well-known.yml
+  href: https://artifacts.apis.io/nowlun-holding-corp/well-known/nowlun-holding-corp-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nowlun-holding-corp-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nowlun-holding-corp/refs/heads/main/authentication/nowlun-holding-corp-authentication.yml
+  href: https://artifacts.apis.io/nowlun-holding-corp/authentication/nowlun-holding-corp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nowlun-holding-corp-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nowlun-holding-corp/refs/heads/main/scopes/nowlun-holding-corp-scopes.yml
+  href: https://artifacts.apis.io/nowlun-holding-corp/scopes/nowlun-holding-corp-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nowlun-holding-corp-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nowlun-holding-corp/refs/heads/main/security/nowlun-holding-corp-domain-security.yml
+  href: https://artifacts.apis.io/nowlun-holding-corp/security/nowlun-holding-corp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nowlun-holding-corp-domain-security.yml
@@ -106,7 +108,7 @@ overview: 'Nowlun is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Nowlun''s developer surface includes authentication, signup flow, engineering blog, support, and 7 more developer resources.'
-random_paper: 6
+random_paper: 22
 scopes:
 - name: Nowlun Holding Corp Scopes
   scope_count: 3
@@ -114,7 +116,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: emerging
-  composite: 16.9
+  composite: 16.6
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -128,14 +130,14 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 68.3
+    discoverability: 65.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - mena
-  previous_composite: 16.9
+  previous_composite: 16.6
   provenance:
     mcp: first-party
   regulatory:
@@ -144,14 +146,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nowlun-holding-corp/refs/heads/main/screenshots/nowlun-holding-corp-2026-08-07T185638.png
+screenshot: https://apis.io/screenshots/nowlun-holding-corp/nowlun-holding-corp-2026-08-07T185638.png
 security:
 - kind: authentication
   name: Nowlun Holding Corp Authentication

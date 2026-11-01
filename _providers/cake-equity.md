@@ -14,18 +14,20 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.4
-  scored_at: '2026-10-17'
+  score: 17.5
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
 - group: start
   title: ''
@@ -36,12 +38,12 @@ common:
   type: Documentation
   url: https://docs.cakeequity.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cake-equity/refs/heads/main/plans/cake-equity-plans-pricing.yml
+  href: https://artifacts.apis.io/cake-equity/plans/cake-equity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cake-equity-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cake-equity/refs/heads/main/changelog/cake-equity-changelog.yml
+  href: https://artifacts.apis.io/cake-equity/changelog/cake-equity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cake-equity-changelog.yml
@@ -50,27 +52,27 @@ common:
   type: Compliance
   url: https://trust.cakeequity.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cake-equity/refs/heads/main/conformance/cake-equity-conformance.yml
+  href: https://artifacts.apis.io/cake-equity/conformance/cake-equity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cake-equity-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cake-equity/refs/heads/main/llms/cake-equity-llms.txt
+  href: https://artifacts.apis.io/cake-equity/llms/cake-equity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cake-equity-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cake-equity/refs/heads/main/well-known/cake-equity-well-known.yml
+  href: https://artifacts.apis.io/cake-equity/well-known/cake-equity-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cake-equity-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cake-equity/refs/heads/main/hosts/cake-equity-hosts.yml
+  href: https://artifacts.apis.io/cake-equity/hosts/cake-equity-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cake-equity-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cake-equity/refs/heads/main/vendors/cake-equity-vendors.yml
+  href: https://artifacts.apis.io/cake-equity/vendors/cake-equity-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cake-equity-vendors.yml
@@ -83,12 +85,12 @@ common:
   type: ChangeLog
   url: https://www.cakeequity.com/changelog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cake-equity/refs/heads/main/security/cake-equity-trust-center.yml
+  href: https://artifacts.apis.io/cake-equity/security/cake-equity-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cake-equity-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cake-equity/refs/heads/main/security/cake-equity-domain-security.yml
+  href: https://artifacts.apis.io/cake-equity/security/cake-equity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cake-equity-domain-security.yml
@@ -138,13 +140,21 @@ coverage:
   state: unreadable
 created: '2026-10-06'
 description: Cake Equity provides a cap table and equity management platform for growing startups. It offers tools for accurate cap tables, compliance readiness, equity grant tracking, scenario modeling for raises, and an employee app that turns equity ownership into a performance driver. The platform supports migrations from other solutions and serves companies at all stages of growth, aiming to simplify complex equity workflows and improve decision‑making for finance and legal teams.
+finops:
+- has_sources: true
+  method: derived
+  name: Cake Equity Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: cake-equity-finops
+  template: false
 image: https://cdn.prod.website-files.com/63ca0685daa2425d2057a7a8/6a6832ced9f01e4d4b1bd43e_OG_Image.webp
 layout: provider
 modified: '2026-10-06'
 name: Cake Equity
 nav: Providers
 network: true
-overview: 'Cake Equity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Equity, CapTable, Startups, and Software-as-a-Service.
+overview: 'Cake Equity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Equity, Cap Table, Startups, and Software-as-a-Service.
 
 
   Cake Equity''s developer surface includes getting-started guide, documentation, changelog, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
@@ -152,24 +162,26 @@ plans:
 - name: Cake Equity Plans Pricing
   plan_count: 5
   slug: cake-equity-plans-pricing
-random_paper: 0
+random_paper: 18
 score:
   band: developing
-  composite: 40.3
+  composite: 41.1
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 39.0
+    artifact_dirs: 10
+    catalog_earned: 42.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 76.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 26.3
+  previous_composite: 39.6
   provenance:
     conformance: first-party
     mcp: unknown
@@ -179,8 +191,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -198,7 +211,7 @@ slug: cake-equity
 tags:
 - Company
 - Equity
-- CapTable
+- Cap Table
 - Startups
 - Software-as-a-Service
 - Finance

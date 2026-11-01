@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The 24SEVEN ACCESS customer portal enables businesses to digitally manage Brink's cash management services including tracking cash deposits, ordering change, and monitoring operations through mobile d
@@ -42,12 +44,12 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/brinks/refs/heads/main/finops/brinks-finops.yml
+  href: https://artifacts.apis.io/brinks/finops/brinks-finops.yml
   title: ''
   type: FinOps
   url: finops/brinks-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brinks/refs/heads/main/security/brinks-domain-security.yml
+  href: https://artifacts.apis.io/brinks/security/brinks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brinks-domain-security.yml
@@ -72,17 +74,17 @@ common:
   type: InvestorRelations
   url: https://investors.brinks.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/brinks/refs/heads/main/plans/brinks-plans-pricing.yml
+  href: https://artifacts.apis.io/brinks/plans/brinks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/brinks-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/brinks/refs/heads/main/rate-limits/brinks-rate-limits.yml
+  href: https://artifacts.apis.io/brinks/rate-limits/brinks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/brinks-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brinks/refs/heads/main/llms/brinks-llms.txt
+  href: https://artifacts.apis.io/brinks/llms/brinks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brinks-llms.txt
@@ -132,7 +134,7 @@ finops:
 - has_sources: true
   method: generated
   name: Brinks Finops
-  primary_unit: ''
+  primary_unit: service-contract
   service_category: Cash Management & Logistics
   slug: brinks-finops
   template: false
@@ -166,44 +168,44 @@ press:
 - date: ''
   title: Brink's Delivers Strong Second-Quarter Results Exceeding ...
   url: https://investors.brinks.com/news-releases/news-release-details/brinks-delivers-strong-second-quarter-results-exceeding-top-end/
-random_paper: 11
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Brinks Rate Limits
   slug: brinks-rate-limits
 score:
   band: emerging
-  composite: 21.7
+  composite: 24.3
   coverage:
     artifact_dirs: 12
-    catalog_earned: 40.0
+    catalog_earned: 43.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 75.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 59.2
+    access_clarity: 73.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 64.3
-    operational_transparency: 2.6
-  previous_composite: 23.2
+    discoverability: 57.1
+    operational_transparency: 5.3
+  previous_composite: 22.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/brinks/refs/heads/main/screenshots/brinks-2026-06-20T173710.png
+screenshot: https://apis.io/screenshots/brinks/brinks-2026-06-20T173710.png
 security:
 - kind: domain-security
   name: Brinks Domain Security

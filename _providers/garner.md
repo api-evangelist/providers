@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.getgarner.com
@@ -57,11 +59,8 @@ apis:
   description: The Providers API from Garner — 1 operation(s) for providers.
   name: Garner Providers API
   slug: garner-providers-api
-artifact_total: 11
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Garner Health Facilities API
   slug: open-garner-facilities-api
@@ -76,7 +75,7 @@ collections:
   slug: open-garner-providers-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/overlays/garner-openapi-overlay.yaml
+  href: https://artifacts.apis.io/garner/overlays/garner-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/garner-openapi-overlay.yaml
@@ -97,32 +96,32 @@ common:
   type: APIReference
   url: https://garnerhealth.redoc.ly
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/authentication/garner-authentication.yml
+  href: https://artifacts.apis.io/garner/authentication/garner-authentication.yml
   title: ''
   type: Authentication
   url: authentication/garner-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/mcp/garner-mcp.yml
+  href: https://artifacts.apis.io/garner/mcp/garner-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/garner-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/garner/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/llms/garner-llms.txt
+  href: https://artifacts.apis.io/garner/llms/garner-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/garner-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/security/garner-domain-security.yml
+  href: https://artifacts.apis.io/garner/security/garner-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/garner-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/conformance/garner-conformance.yml
+  href: https://artifacts.apis.io/garner/conformance/garner-conformance.yml
   title: ''
   type: Conformance
   url: conformance/garner-conformance.yml
@@ -131,7 +130,7 @@ common:
   type: Compliance
   url: https://www.getgarner.com/news/garner-completes-soc-2-type-ii-certification
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/lifecycle/garner-lifecycle.yml
+  href: https://artifacts.apis.io/garner/lifecycle/garner-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/garner-lifecycle.yml
@@ -163,26 +162,26 @@ overview: 'Garner publishes 4 API contracts indexed on the [APIs.io](https://api
 
 
   Garner''s developer surface includes documentation, API reference, authentication, engineering blog, support, and 12 more developer resources.'
-random_paper: 1
+random_paper: 15
 score:
   band: thin
   composite: 37.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 49.3
     developer_ergonomics: 47.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 37.7
+  previous_composite: 37.8
   provenance:
     conformance: first-party
     contracts:
@@ -204,13 +203,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/screenshots/garner-2026-07-25T215448.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/garner/garner-2026-07-25T215448.png
 security:
 - kind: authentication
   name: Garner Authentication
@@ -220,6 +220,12 @@ security:
   name: Garner Domain Security
   slug: garner-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Directory lookup and accuracy annotation
+  slug: garner-directory-lookup-and-annotate
+- name: Find top providers near a member
+  slug: garner-find-top-providers
 slug: garner
 tags:
 - Company

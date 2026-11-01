@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 17.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,11 +52,8 @@ apis:
   description: Enterprise IT operations
   name: Dell Technologies Enterprise IT API
   slug: dell-technologies-enterprise-it-api
-artifact_total: 15
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Dell Technologies API
   slug: open-dell-technologies-dell-api
@@ -63,37 +62,37 @@ collections:
   slug: open-dell-technologies-enterprise-it-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/plans/dell-technologies-plans-pricing.yml
+  href: https://artifacts.apis.io/dell-technologies/plans/dell-technologies-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dell-technologies-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/rate-limits/dell-technologies-rate-limits.yml
+  href: https://artifacts.apis.io/dell-technologies/rate-limits/dell-technologies-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dell-technologies-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/finops/dell-technologies-finops.yml
+  href: https://artifacts.apis.io/dell-technologies/finops/dell-technologies-finops.yml
   title: ''
   type: FinOps
   url: finops/dell-technologies-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/agentic-access/dell-technologies-agentic-access.yml
+  href: https://artifacts.apis.io/dell-technologies/agentic-access/dell-technologies-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dell-technologies-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/security/dell-technologies-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dell-technologies/security/dell-technologies-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dell-technologies-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/security/dell-technologies-domain-security.yml
+  href: https://artifacts.apis.io/dell-technologies/security/dell-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dell-technologies-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/authentication/dell-technologies-authentication.yml
+  href: https://artifacts.apis.io/dell-technologies/authentication/dell-technologies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dell-technologies-authentication.yml
@@ -122,12 +121,12 @@ common:
   type: Blog
   url: https://www.dell.com/en-us/blog/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/json-ld/dell-context.jsonld
+  href: https://artifacts.apis.io/dell-technologies/json-ld/dell-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dell-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/vocabulary/dell-vocabulary.yml
+  href: https://artifacts.apis.io/dell-technologies/vocabulary/dell-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/dell-vocabulary.yml
@@ -137,7 +136,7 @@ finops:
 - has_sources: true
   method: generated
   name: Dell Technologies Finops
-  primary_unit: ''
+  primary_unit: varies
   service_category: Enterprise IT / Infrastructure
   slug: dell-technologies-finops
   template: false
@@ -167,7 +166,7 @@ plans:
 - name: Dell Technologies Plans Pricing
   plan_count: 1
   slug: dell-technologies-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Dell Technologies Rate Limits
@@ -198,23 +197,23 @@ rules:
   slug: dell-technologies-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.2
+  composite: 38.6
   coverage:
     artifact_dirs: 16
-    catalog_earned: 60.4
+    catalog_earned: 63.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.6
+    catalog_gap: 51.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.8
+  delta: 1.6
   facets:
-    access_clarity: 5.3
+    access_clarity: 13.2
     contract_governance: 27.3
     contract_quality: 58.5
-    developer_ergonomics: 31.0
+    developer_ergonomics: 38.1
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 40.0
+    operational_transparency: 21.1
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -228,14 +227,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/screenshots/dell-technologies-2026-06-20T175900.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dell-technologies/dell-technologies-2026-06-20T175900.png
 security:
 - kind: authentication
   name: Dell Technologies Authentication

@@ -27,15 +27,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -65,11 +67,48 @@ apis:
   description: The Sessions API from Browserbase — 6 operation(s) for sessions.
   name: Browserbase Sessions API
   slug: browserbase-sessions-api
-artifact_total: 31
+- baseURL: https://api.browserbase.com
+  baseurl_source: declared
+  description: The Agents API from Browserbase — 7 operation(s) for agents.
+  name: Browserbase Agents API
+  slug: browserbase-agents-api
+- baseURL: https://api.browserbase.com
+  baseurl_source: declared
+  description: The Certificates API from Browserbase — 2 operation(s) for certificates.
+  name: Browserbase Certificates API
+  slug: browserbase-certificates-api
+- baseURL: https://api.browserbase.com
+  baseurl_source: declared
+  description: The Downloads API from Browserbase — 2 operation(s) for downloads.
+  name: Browserbase Downloads API
+  slug: browserbase-downloads-api
+- baseURL: https://api.browserbase.com
+  baseurl_source: declared
+  description: The Fetch API from Browserbase — 1 operation(s) for fetch.
+  name: Browserbase Fetch API
+  slug: browserbase-fetch-api
+- baseURL: https://api.browserbase.com
+  baseurl_source: declared
+  description: The Functions API from Browserbase — 13 operation(s) for functions.
+  name: Browserbase Functions API
+  slug: browserbase-functions-api
+- baseURL: https://api.browserbase.com
+  baseurl_source: declared
+  description: The Search API from Browserbase — 1 operation(s) for search.
+  name: Browserbase Search API
+  slug: browserbase-search-api
+- baseURL: https://api.browserbase.com
+  baseurl_source: declared
+  description: The Secrets API from Browserbase — 3 operation(s) for secrets.
+  name: Browserbase Secrets API
+  slug: browserbase-secrets-api
+- baseURL: https://api.browserbase.com
+  baseurl_source: declared
+  description: The Webhooks API from Browserbase — 3 operation(s) for webhooks.
+  name: Browserbase Webhooks API
+  slug: browserbase-webhooks-api
+artifact_total: 39
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Browserbase Contexts API
   slug: open-browserbase-contexts-api
@@ -86,18 +125,22 @@ collections:
   name: Browserbase API
   slug: open-browserbase
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/browserbase/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/plans/browserbase-plans-pricing.yml
+  href: https://artifacts.apis.io/browserbase/plans/browserbase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/browserbase-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/rate-limits/browserbase-rate-limits.yml
+  href: https://artifacts.apis.io/browserbase/rate-limits/browserbase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/browserbase-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/finops/browserbase-finops.yml
+  href: https://artifacts.apis.io/browserbase/finops/browserbase-finops.yml
   title: ''
   type: FinOps
   url: finops/browserbase-finops.yml
@@ -114,22 +157,22 @@ common:
   type: License
   url: https://github.com/browserbase/mcp-server-browserbase/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/agentic-access/browserbase-agentic-access.yml
+  href: https://artifacts.apis.io/browserbase/agentic-access/browserbase-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/browserbase-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/security/browserbase-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/browserbase/security/browserbase-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/browserbase-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/security/browserbase-domain-security.yml
+  href: https://artifacts.apis.io/browserbase/security/browserbase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/browserbase-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/authentication/browserbase-authentication.yml
+  href: https://artifacts.apis.io/browserbase/authentication/browserbase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/browserbase-authentication.yml
@@ -208,13 +251,13 @@ examples:
   name: Browserbase List Projects Example
   slug: browserbase-list-projects-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Browserbase Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: browserbase-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/browserbase.png
 json_schemas:
 - name: Browserbase Context
@@ -246,18 +289,21 @@ modified: '2026-05-25'
 name: Browserbase
 nav: Providers
 network: true
-overview: 'Browserbase publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Contexts API, Extensions API, Projects API, and 1 more. Tagged areas include Headless Browser, Browser Infrastructure, Web Automation, AI Agents, and Web Scraping.
+overview: 'Browserbase publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Contexts API, Extensions API, Projects API, and 9 more. Tagged areas include Browser Automation, Browser Infrastructure, AI Agents, Web Scraping, and Stagehand.
 
 
   The Browserbase catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Browserbase''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, changelog, signup flow, and 17 more developer resources.'
+  Browserbase''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, changelog, signup flow, and 18 more developer resources.'
 plans:
 - name: Browserbase Plans Pricing
-  plan_count: 1
+  plan_count: 4
   slug: browserbase-plans-pricing
-random_paper: 17
+- name: Browserbase Price Estimates
+  plan_count: 0
+  slug: browserbase-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Browserbase Rate Limits
@@ -287,47 +333,45 @@ rules:
     warn: 5
   slug: browserbase-rules
 score:
-  band: developing
-  composite: 49.7
+  band: strong
+  composite: 62.9
   coverage:
     artifact_dirs: 19
-    catalog_earned: 60.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 54.6
+    catalog_earned: 73.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 41.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.5
+  delta: 4.4
   facets:
-    access_clarity: 50.0
+    access_clarity: 84.2
     contract_governance: 27.3
-    contract_quality: 52.4
-    developer_ergonomics: 59.5
+    contract_quality: 51.1
+    developer_ergonomics: 67.9
     discoverability: 73.2
-    operational_transparency: 39.5
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 55.2
+    operational_transparency: 52.6
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 17
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/screenshots/browserbase-2026-06-20T173725.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/browserbase/browserbase-2026-06-20T173725.png
 security:
 - kind: authentication
   name: Browserbase Authentication
@@ -343,9 +387,8 @@ security:
   summary_line: security.txt · contact published
 slug: browserbase
 tags:
-- Headless Browser
+- Browser Automation
 - Browser Infrastructure
-- Web Automation
 - AI Agents
 - Web Scraping
 - Stagehand
@@ -357,6 +400,5 @@ tags:
 - MCP
 - Session Recording
 - Agent Identity
-- Browser Automation
 website: https://www.browserbase.com
 ---

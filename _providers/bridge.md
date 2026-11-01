@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.4
-  scored_at: '2026-10-17'
+  score: 35.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 128
   slug: bridge-agentic-access
   summary_line: 128 operations · 57 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.bridge.xyz/v0
   baseurl_source: declared
@@ -166,15 +168,12 @@ apis:
   description: The Webhooks API from Bridge — 6 operation(s) for webhooks.
   name: Bridge Webhooks API
   slug: bridge-webhooks-api
-artifact_total: 54
+artifact_total: 56
 asyncapis:
 - description: ''
   name: Bridge Webhooks
   slug: bridge-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bridge API Keys API
   slug: open-bridge-api-keys-api
@@ -249,7 +248,7 @@ collections:
   slug: open-bridge-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/capabilities/bridge-capability-edges.yml
+  href: https://artifacts.apis.io/bridge/capabilities/bridge-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bridge-capability-edges.yml
@@ -302,107 +301,107 @@ common:
   type: ChangeLog
   url: https://apidocs.bridge.xyz/changelog
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/_original/bridge-openapi-original.json
+  href: https://artifacts.apis.io/bridge/openapi/_original/bridge-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/bridge-openapi-original.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/overlays/bridge-openapi-overlay.yaml
+  href: https://artifacts.apis.io/bridge/overlays/bridge-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bridge-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/llms/bridge-llms.txt
+  href: https://artifacts.apis.io/bridge/llms/bridge-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bridge-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/well-known/bridge-well-known.yml
+  href: https://artifacts.apis.io/bridge/well-known/bridge-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bridge-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/authentication/bridge-authentication.yml
+  href: https://artifacts.apis.io/bridge/authentication/bridge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bridge-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/scopes/bridge-scopes.yml
+  href: https://artifacts.apis.io/bridge/scopes/bridge-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bridge-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/conventions/bridge-conventions.yml
+  href: https://artifacts.apis.io/bridge/conventions/bridge-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bridge-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/conventions/bridge-conventions.yml
+  href: https://artifacts.apis.io/bridge/conventions/bridge-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/bridge-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/errors/bridge-problem-types.yml
+  href: https://artifacts.apis.io/bridge/errors/bridge-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bridge-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/lifecycle/bridge-lifecycle.yml
+  href: https://artifacts.apis.io/bridge/lifecycle/bridge-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bridge-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/lifecycle/bridge-lifecycle.yml
+  href: https://artifacts.apis.io/bridge/lifecycle/bridge-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/bridge-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/changelog/bridge-changelog.yml
+  href: https://artifacts.apis.io/bridge/changelog/bridge-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bridge-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/sandbox/bridge-sandbox.yml
+  href: https://artifacts.apis.io/bridge/sandbox/bridge-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bridge-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/asyncapi/bridge-webhooks.yml
+  href: https://artifacts.apis.io/bridge/asyncapi/bridge-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bridge-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/conformance/bridge-conformance.yml
+  href: https://artifacts.apis.io/bridge/conformance/bridge-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bridge-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/data-model/bridge-data-model.yml
+  href: https://artifacts.apis.io/bridge/data-model/bridge-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bridge-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/packages/bridge-packages.yml
+  href: https://artifacts.apis.io/bridge/packages/bridge-packages.yml
   title: ''
   type: Packages
   url: packages/bridge-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/mcp/bridge-mcp.yml
+  href: https://artifacts.apis.io/bridge/mcp/bridge-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bridge-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bridge/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/agentic-access/bridge-agentic-access.yml
+  href: https://artifacts.apis.io/bridge/agentic-access/bridge-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bridge-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/security/bridge-domain-security.yml
+  href: https://artifacts.apis.io/bridge/security/bridge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bridge-domain-security.yml
@@ -421,7 +420,7 @@ overview: 'Bridge publishes 24 API contracts indexed on the [APIs.io](https://ap
 
 
   Bridge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 27 more developer resources.'
-random_paper: 5
+random_paper: 21
 scopes:
 - name: Bridge Scopes
   scope_count: 0
@@ -429,7 +428,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.8
+  composite: 47.3
   coverage:
     artifact_dirs: 25
     catalog_earned: 37.0
@@ -439,13 +438,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 60.3
+    contract_quality: 56.9
     developer_ergonomics: 66.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 31.6
-  previous_composite: 46.8
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -462,13 +461,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/screenshots/bridge-2026-07-25T203806.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bridge/bridge-2026-07-25T203806.png
 security:
 - kind: authentication
   name: Bridge Authentication
@@ -478,6 +478,14 @@ security:
   name: Bridge Domain Security
   slug: bridge-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Onboard a customer and move money
+  slug: bridge-onboard-customer-and-transfer
+- name: Issue a virtual account for deposits
+  slug: bridge-virtual-account-deposits
+- name: Custody stablecoin balances with Bridge Wallets
+  slug: bridge-wallet-custody
 slug: bridge
 tags:
 - Company

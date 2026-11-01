@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-17'
+  score: 30.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 24
@@ -70,15 +72,12 @@ apis:
   description: The Webhooks API from Luxury Presence — 3 operation(s) for webhooks.
   name: Luxury Presence Webhooks API
   slug: luxury-presence-webhooks-api
-artifact_total: 16
+artifact_total: 20
 asyncapis:
 - description: Outbound webhooks that deliver lead-activity events from Luxury Presence websites. Currently the `leads` event is supported. Subscriptions are managed through the Public API webhook endpoints (/crm/v1
   name: Luxury Presence Lead Activity Webhooks
   slug: luxury-presence-leads-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: API Documentation Agents API
   slug: open-luxury-presence-agents-api
@@ -95,12 +94,17 @@ collections:
   name: API Documentation Agents Webhooks API
   slug: open-luxury-presence-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/luxury-presence/plans/luxury-presence-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/luxury-presence-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.luxurypresence.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/overlays/luxury-presence-cms-overlay.yaml
+  href: https://artifacts.apis.io/luxury-presence/overlays/luxury-presence-cms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/luxury-presence-cms-overlay.yaml
@@ -149,77 +153,85 @@ common:
   type: PrivacyPolicy
   url: https://www.luxurypresence.com/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/llms/luxury-presence-llms.txt
+  href: https://artifacts.apis.io/luxury-presence/llms/luxury-presence-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/luxury-presence-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/mcp/luxury-presence-mcp.yml
+  href: https://artifacts.apis.io/luxury-presence/mcp/luxury-presence-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/luxury-presence-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/authentication/luxury-presence-authentication.yml
+  href: https://artifacts.apis.io/luxury-presence/authentication/luxury-presence-authentication.yml
   title: ''
   type: Authentication
   url: authentication/luxury-presence-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/agentic-access/luxury-presence-agentic-access.yml
+  href: https://artifacts.apis.io/luxury-presence/agentic-access/luxury-presence-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/luxury-presence-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/security/luxury-presence-domain-security.yml
+  href: https://artifacts.apis.io/luxury-presence/security/luxury-presence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/luxury-presence-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/conventions/luxury-presence-conventions.yml
+  href: https://artifacts.apis.io/luxury-presence/conventions/luxury-presence-conventions.yml
   title: ''
   type: Conventions
   url: conventions/luxury-presence-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/errors/luxury-presence-problem-types.yml
+  href: https://artifacts.apis.io/luxury-presence/errors/luxury-presence-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/luxury-presence-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/lifecycle/luxury-presence-lifecycle.yml
+  href: https://artifacts.apis.io/luxury-presence/lifecycle/luxury-presence-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/luxury-presence-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/sandbox/luxury-presence-sandbox.yml
+  href: https://artifacts.apis.io/luxury-presence/sandbox/luxury-presence-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/luxury-presence-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/conformance/luxury-presence-conformance.yml
+  href: https://artifacts.apis.io/luxury-presence/conformance/luxury-presence-conformance.yml
   title: ''
   type: Conformance
   url: conformance/luxury-presence-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/data-model/luxury-presence-data-model.yml
+  href: https://artifacts.apis.io/luxury-presence/data-model/luxury-presence-data-model.yml
   title: ''
   type: DataModel
   url: data-model/luxury-presence-data-model.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/asyncapi/luxury-presence-leads-asyncapi.yml
+  href: https://artifacts.apis.io/luxury-presence/asyncapi/luxury-presence-leads-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/luxury-presence-leads-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/asyncapi/luxury-presence-leads-asyncapi.yml
+  href: https://artifacts.apis.io/luxury-presence/asyncapi/luxury-presence-leads-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/luxury-presence-leads-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/luxury-presence/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Luxury Presence is the growth platform for residential real estate's top performers — real estate websites, AI CRM, SEO/GEO, paid ads management, AI lead nurture, collaborative search, and a branded client mobile app — serving 18,000+ agents, teams, and brokerages who have closed more than $450B in transaction volume. Its Public API (api.luxurypresence.com) is an API-key-secured REST CMS for managing agents, offices, teams, and their associated media, plus lead-activity webhooks signed with HMAC-SHA256. Documentation is hosted on a ReadMe developer hub that also exposes a hosted MCP server.
+finops:
+- has_sources: true
+  method: derived
+  name: Luxury Presence Finops
+  primary_unit: ''
+  service_category: ''
+  slug: luxury-presence-finops
+  template: true
 image: https://www.luxurypresence.com/favicon.ico
 layout: provider
 mcp_servers:
@@ -236,27 +248,31 @@ overview: 'Luxury Presence publishes 5 API contracts indexed on the [APIs.io](ht
   The Luxury Presence catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Luxury Presence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
+  Luxury Presence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+plans:
+- name: Luxury Presence Plans Pricing
+  plan_count: 5
+  slug: luxury-presence-plans-pricing
 random_paper: 11
 score:
   band: developing
-  composite: 42.2
+  composite: 51.4
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 31.6
+    access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 57.2
-    developer_ergonomics: 47.0
-    discoverability: 71.7
+    contract_quality: 53.9
+    developer_ergonomics: 66.1
+    discoverability: 65.0
     operational_transparency: 7.9
-  previous_composite: 42.2
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -273,13 +289,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/screenshots/luxury-presence-2026-07-25T225740.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/luxury-presence/luxury-presence-2026-07-25T225740.png
 security:
 - kind: authentication
   name: Luxury Presence Authentication
@@ -289,6 +306,14 @@ security:
   name: Luxury Presence Domain Security
   slug: luxury-presence-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Manage an office roster
+  slug: luxury-presence-manage-office-roster
+- name: Onboard agents to Luxury Presence
+  slug: luxury-presence-onboard-agents
+- name: Subscribe to lead-activity webhooks
+  slug: luxury-presence-subscribe-lead-webhooks
 slug: luxury-presence
 tags:
 - Company

@@ -4,6 +4,6 @@ layout: provider
 name: aircon
 nav: Providers
 network: true
-random_paper: 20
+random_paper: 12
 slug: aircon
 ---

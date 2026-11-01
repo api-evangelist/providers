@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -46,7 +48,7 @@ common:
   type: Successor
   url: https://www.techsmith.com/screencast/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knowmiacom/refs/heads/main/lifecycle/knowmiacom-lifecycle.yml
+  href: https://artifacts.apis.io/knowmiacom/lifecycle/knowmiacom-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/knowmiacom-lifecycle.yml
@@ -55,22 +57,22 @@ common:
   type: Deprecation
   url: https://www.techsmith.com/knowmia-education.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/knowmiacom/refs/heads/main/well-known/knowmiacom-well-known.yml
+  href: https://artifacts.apis.io/knowmiacom/well-known/knowmiacom-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/knowmiacom-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/knowmiacom/refs/heads/main/security/knowmiacom-domain-security.yml
+  href: https://artifacts.apis.io/knowmiacom/security/knowmiacom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/knowmiacom-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/knowmiacom/refs/heads/main/packages/knowmiacom-packages.yml
+  href: https://artifacts.apis.io/knowmiacom/packages/knowmiacom-packages.yml
   title: ''
   type: Packages
   url: packages/knowmiacom-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/knowmiacom/refs/heads/main/llms/knowmiacom-llms.txt
+  href: https://artifacts.apis.io/knowmiacom/llms/knowmiacom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/knowmiacom-llms.txt
@@ -110,14 +112,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/knowmiacom/refs/heads/main/screenshots/knowmiacom-2026-07-25T224018.png
+screenshot: https://apis.io/screenshots/knowmiacom/knowmiacom-2026-07-25T224018.png
 security:
 - kind: domain-security
   name: Knowmiacom Domain Security

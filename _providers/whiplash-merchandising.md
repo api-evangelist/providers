@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.8
-  scored_at: '2026-10-17'
+  score: 42.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://www.getwhiplash.com/api/v2
@@ -142,15 +144,12 @@ apis:
   description: The wholesale_items API from Whiplash Merchandising — 2 operation(s) for wholesale_items.
   name: Whiplash Merchandising Wholesale Items API
   slug: whiplash-merchandising-wholesale-items-api
-artifact_total: 46
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Whiplash Merchandising Notifications Webhooks
   slug: whiplash-merchandising-notifications-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Rydership bundle_items API
   slug: open-whiplash-merchandising-bundle-items-api
@@ -220,12 +219,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/ryder-system/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/capabilities/whiplash-merchandising-capability-edges.yml
+  href: https://artifacts.apis.io/whiplash-merchandising/capabilities/whiplash-merchandising-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/whiplash-merchandising-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/security/whiplash-merchandising-domain-security.yml
+  href: https://artifacts.apis.io/whiplash-merchandising/security/whiplash-merchandising-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/whiplash-merchandising-domain-security.yml
@@ -270,82 +269,82 @@ common:
   type: GitHubOrganization
   url: https://github.com/whiplashmerch
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/authentication/whiplash-merchandising-authentication.yml
+  href: https://artifacts.apis.io/whiplash-merchandising/authentication/whiplash-merchandising-authentication.yml
   title: ''
   type: Authentication
   url: authentication/whiplash-merchandising-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/well-known/whiplash-merchandising-oauth-authorization-server.json
+  href: https://artifacts.apis.io/whiplash-merchandising/well-known/whiplash-merchandising-oauth-authorization-server.json
   title: ''
   type: OAuthAuthorizationServer
   url: well-known/whiplash-merchandising-oauth-authorization-server.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/well-known/whiplash-merchandising-well-known.yml
+  href: https://artifacts.apis.io/whiplash-merchandising/well-known/whiplash-merchandising-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/whiplash-merchandising-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/packages/whiplash-merchandising-packages.yml
+  href: https://artifacts.apis.io/whiplash-merchandising/packages/whiplash-merchandising-packages.yml
   title: ''
   type: Packages
   url: packages/whiplash-merchandising-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/packages/whiplash-merchandising-packages.yml
+  href: https://artifacts.apis.io/whiplash-merchandising/packages/whiplash-merchandising-packages.yml
   title: ''
   type: SDKs
   url: packages/whiplash-merchandising-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/components/whiplash-merchandising-components.yml
+  href: https://artifacts.apis.io/whiplash-merchandising/components/whiplash-merchandising-components.yml
   title: ''
   type: Components
   url: components/whiplash-merchandising-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/mcp/whiplash-merchandising-mcp.yml
+  href: https://artifacts.apis.io/whiplash-merchandising/mcp/whiplash-merchandising-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/whiplash-merchandising-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/llms/whiplash-merchandising-llms.txt
+  href: https://artifacts.apis.io/whiplash-merchandising/llms/whiplash-merchandising-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/whiplash-merchandising-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/overlays/whiplash-merchandising-openapi-overlay.yaml
+  href: https://artifacts.apis.io/whiplash-merchandising/overlays/whiplash-merchandising-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/whiplash-merchandising-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/conformance/whiplash-merchandising-conformance.yml
+  href: https://artifacts.apis.io/whiplash-merchandising/conformance/whiplash-merchandising-conformance.yml
   title: ''
   type: Conformance
   url: conformance/whiplash-merchandising-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/errors/whiplash-merchandising-problem-types.yml
+  href: https://artifacts.apis.io/whiplash-merchandising/errors/whiplash-merchandising-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/whiplash-merchandising-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/lifecycle/whiplash-merchandising-lifecycle.yml
+  href: https://artifacts.apis.io/whiplash-merchandising/lifecycle/whiplash-merchandising-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/whiplash-merchandising-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/conventions/whiplash-merchandising-conventions.yml
+  href: https://artifacts.apis.io/whiplash-merchandising/conventions/whiplash-merchandising-conventions.yml
   title: ''
   type: Conventions
   url: conventions/whiplash-merchandising-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/data-model/whiplash-merchandising-data-model.yml
+  href: https://artifacts.apis.io/whiplash-merchandising/data-model/whiplash-merchandising-data-model.yml
   title: ''
   type: DataModel
   url: data-model/whiplash-merchandising-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/asyncapi/whiplash-merchandising-notifications-webhooks.yml
+  href: https://artifacts.apis.io/whiplash-merchandising/asyncapi/whiplash-merchandising-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/whiplash-merchandising-notifications-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/whiplash-merchandising/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -364,10 +363,10 @@ overview: 'Whiplash Merchandising publishes 21 API contracts indexed on the [API
 
 
   Whiplash Merchandising''s developer surface includes documentation, API reference, support, pricing, authentication, and 24 more developer resources.'
-random_paper: 15
+random_paper: 1
 score:
   band: developing
-  composite: 40.0
+  composite: 41.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -375,15 +374,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 22.4
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 55.0
+    contract_quality: 51.6
     developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 39.9
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 41.8
   provenance:
     conformance: derived
     contracts:
@@ -399,13 +398,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/screenshots/whiplash-merchandising-2026-08-17T082956.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/whiplash-merchandising/whiplash-merchandising-2026-08-17T082956.png
 security:
 - kind: authentication
   name: Whiplash Merchandising Authentication
@@ -415,6 +415,16 @@ security:
   name: Whiplash Merchandising Domain Security
   slug: whiplash-merchandising-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: Create and fulfill an order
+  slug: whiplash-merchandising-create-and-fulfill-order
+- name: Manage inventory and inbound shipments
+  slug: whiplash-merchandising-manage-inventory
+- name: Process a consumer return
+  slug: whiplash-merchandising-process-consumer-return
+- name: Subscribe to fulfillment webhooks
+  slug: whiplash-merchandising-subscribe-webhooks
 slug: whiplash-merchandising
 tags:
 - Company

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for the KASKO insurance platform. All platform functionality and data is accessible via the API, covering the Quote, Offer, Payment and Policy insurance transaction flow plus a Data API for d
@@ -88,47 +90,47 @@ common:
   type: PrivacyPolicy
   url: https://www.kasko.io/privacy-notice
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/llms/kasko-llms.txt
+  href: https://artifacts.apis.io/kasko/llms/kasko-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kasko-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/mcp/kasko-mcp.yml
+  href: https://artifacts.apis.io/kasko/mcp/kasko-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kasko-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/authentication/kasko-authentication.yml
+  href: https://artifacts.apis.io/kasko/authentication/kasko-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kasko-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/conventions/kasko-conventions.yml
+  href: https://artifacts.apis.io/kasko/conventions/kasko-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kasko-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/errors/kasko-problem-types.yml
+  href: https://artifacts.apis.io/kasko/errors/kasko-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kasko-problem-types.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/sandbox/kasko-sandbox.yml
+  href: https://artifacts.apis.io/kasko/sandbox/kasko-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kasko-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/components/kasko-components.yml
+  href: https://artifacts.apis.io/kasko/components/kasko-components.yml
   title: ''
   type: Components
   url: components/kasko-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/asyncapi/kasko-webhooks.yml
+  href: https://artifacts.apis.io/kasko/asyncapi/kasko-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kasko-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/conformance/kasko-conformance.yml
+  href: https://artifacts.apis.io/kasko/conformance/kasko-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kasko-conformance.yml
@@ -137,12 +139,12 @@ common:
   type: Compliance
   url: https://www.kasko.io
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/data-model/kasko-data-model.yml
+  href: https://artifacts.apis.io/kasko/data-model/kasko-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kasko-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/security/kasko-domain-security.yml
+  href: https://artifacts.apis.io/kasko/security/kasko-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kasko-domain-security.yml
@@ -168,7 +170,7 @@ overview: 'Kasko is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 9
 score:
   band: developing
-  composite: 40.6
+  composite: 39.6
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -176,15 +178,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 7.9
-  previous_composite: 40.5
+  previous_composite: 39.6
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -198,14 +200,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/screenshots/kasko-2026-07-25T223521.png
+screenshot: https://apis.io/screenshots/kasko/kasko-2026-07-25T223521.png
 security:
 - kind: authentication
   name: Kasko Authentication

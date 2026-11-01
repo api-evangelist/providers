@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 27.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 15
   slug: snackmagic-agentic-access
   summary_line: 15 operations · 8 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.bystadium.com/api/v2
   baseurl_source: declared
@@ -68,11 +70,8 @@ apis:
   description: User related API endpoints
   name: SnackMagic User management API
   slug: snackmagic-user-management-api
-artifact_total: 15
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Stadium Authentication API
   slug: open-snackmagic-authentication-api
@@ -89,6 +88,11 @@ collections:
   name: Stadium Authentication User management API
   slug: open-snackmagic-user-management-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/snackmagic/plans/snackmagic-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/snackmagic-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -98,17 +102,17 @@ common:
   type: BlogRSS
   url: https://www.snackmagic.com/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/capabilities/snackmagic-capability-edges.yml
+  href: https://artifacts.apis.io/snackmagic/capabilities/snackmagic-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/snackmagic-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/mcp/snackmagic-mcp.yml
+  href: https://artifacts.apis.io/snackmagic/mcp/snackmagic-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/snackmagic-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/overlays/snackmagic-stadium-overlay.yaml
+  href: https://artifacts.apis.io/snackmagic/overlays/snackmagic-stadium-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/snackmagic-stadium-overlay.yaml
@@ -133,22 +137,22 @@ common:
   type: GettingStarted
   url: https://www.bystadium.com/api-integrations
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/authentication/snackmagic-authentication.yml
+  href: https://artifacts.apis.io/snackmagic/authentication/snackmagic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/snackmagic-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/agentic-access/snackmagic-agentic-access.yml
+  href: https://artifacts.apis.io/snackmagic/agentic-access/snackmagic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/snackmagic-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/llms/snackmagic-llms.txt
+  href: https://artifacts.apis.io/snackmagic/llms/snackmagic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/snackmagic-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/security/snackmagic-domain-security.yml
+  href: https://artifacts.apis.io/snackmagic/security/snackmagic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snackmagic-domain-security.yml
@@ -161,7 +165,7 @@ common:
   type: StatusPage
   url: https://status.bystadium.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/snackmagic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -199,6 +203,14 @@ common:
   url: https://www.bystadium.com/wallet
 created: '2026-07-17'
 description: SnackMagic is a 100% customizable snack-box gifting service, now part of Stadium, that lets recipients build their own box from 500+ snacks and beverages or receive curated gifts, delivered worldwide. Companies use it for employee, client, prospect, and event gifting. SnackMagic is exposed to developers through the Stadium API (api.bystadium.com), a JSON REST API for embedding a global gift, rewards, and branded-swag catalog, placing orders funded by a pre-purchased Wallet balance, sending Stadium Shop points via treat links, and triggering webhook-automation gift orders. This profile was enriched from the provider's public OpenAPI and developer surface.
+finops:
+- has_sources: true
+  method: derived
+  name: Snackmagic Finops
+  primary_unit: ''
+  service_category: ''
+  slug: snackmagic-finops
+  template: true
 image: https://fecdn.snackmagic.com/static/media/snackmagic-logo.b9e03ebf.svg
 layout: provider
 modified: '2026-10-06'
@@ -208,27 +220,31 @@ network: true
 overview: 'SnackMagic publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Automation management API, Order management API, and 2 more. Tagged areas include Company, Consumer, Gifting, Rewards, and Swag.
 
 
-  SnackMagic''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, pricing, signup flow, and 18 more developer resources.'
-random_paper: 7
+  SnackMagic''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, pricing, signup flow, and 19 more developer resources.'
+plans:
+- name: Snackmagic Plans Pricing
+  plan_count: 5
+  slug: snackmagic-plans-pricing
+random_paper: 9
 score:
-  band: developing
-  composite: 45.2
+  band: strong
+  composite: 55.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 6.3
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 52.5
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 45.1
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,14 +260,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/screenshots/snackmagic-2026-08-17T081940.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/snackmagic/snackmagic-2026-08-17T081940.png
 security:
 - kind: authentication
   name: Snackmagic Authentication
@@ -265,6 +282,14 @@ security:
   name: Snackmagic Trust Center
   slug: snackmagic-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Trigger a webhook-automation gift order
+  slug: snackmagic-automation-gifting
+- name: Browse a store catalog and place an order
+  slug: snackmagic-place-order
+- name: Send Stadium Shop points to a recipient
+  slug: snackmagic-send-points
 slug: snackmagic
 tags:
 - Company

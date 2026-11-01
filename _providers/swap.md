@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: 'Public Gateway API for the Agentic Storefront product: conversational discovery and chat, catalog/collection browsing, cart and checkout sessions, virtual try-on, orders and shipments, user profile an'
@@ -56,14 +58,14 @@ apis:
 - description: 'Public Total Landed Cost API: compute guaranteed landed cost (duties, taxes, import fees) for single or bulk cross-border shipments, request HS-code classification, and report shipped or voided transa'
   name: Swap TLC API
   slug: swap-tlc-api
-artifact_total: 10
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Swap Webhooks
   slug: swap-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/security/swap-domain-security.yml
+  href: https://artifacts.apis.io/swap/security/swap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/swap-domain-security.yml
@@ -132,67 +134,67 @@ common:
   type: TrustCenter
   url: https://www.swap-commerce.com/security-compliance
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/llms/swap-llms.txt
+  href: https://artifacts.apis.io/swap/llms/swap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/swap-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/authentication/swap-authentication.yml
+  href: https://artifacts.apis.io/swap/authentication/swap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/swap-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/conventions/swap-conventions.yml
+  href: https://artifacts.apis.io/swap/conventions/swap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/swap-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/conventions/swap-conventions.yml
+  href: https://artifacts.apis.io/swap/conventions/swap-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/swap-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/errors/swap-problem-types.yml
+  href: https://artifacts.apis.io/swap/errors/swap-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/swap-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/lifecycle/swap-lifecycle.yml
+  href: https://artifacts.apis.io/swap/lifecycle/swap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/swap-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/changelog/swap-changelog.yml
+  href: https://artifacts.apis.io/swap/changelog/swap-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/swap-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/asyncapi/swap-webhooks.yml
+  href: https://artifacts.apis.io/swap/asyncapi/swap-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/swap-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/conformance/swap-conformance.yml
+  href: https://artifacts.apis.io/swap/conformance/swap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/swap-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/sandbox/swap-sandbox.yml
+  href: https://artifacts.apis.io/swap/sandbox/swap-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/swap-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/data-model/swap-data-model.yml
+  href: https://artifacts.apis.io/swap/data-model/swap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/swap-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/mcp/swap-mcp.yml
+  href: https://artifacts.apis.io/swap/mcp/swap-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/swap-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/swap/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -211,10 +213,10 @@ overview: 'Swap is listed with 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Swap''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, signup flow, and 23 more developer resources.'
-random_paper: 3
+random_paper: 11
 score:
   band: developing
-  composite: 47.5
+  composite: 47.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 40.0
@@ -228,9 +230,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 66.1
-    discoverability: 78.6
-    operational_transparency: 26.3
-  previous_composite: 47.5
+    discoverability: 71.4
+    operational_transparency: 28.9
+  previous_composite: 47.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -247,14 +249,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/screenshots/swap-2026-08-17T082210.png
+screenshot: https://apis.io/screenshots/swap/swap-2026-08-17T082210.png
 security:
 - kind: authentication
   name: Swap Authentication
@@ -268,6 +270,16 @@ security:
   name: Swap Trust Center
   slug: swap-trust-center
   summary_line: ISO 27001:2022
+skill_count: 4
+skills:
+- name: Swap Global cross-border checkout
+  slug: swap-global-checkout
+- name: Swap Returns and quality control
+  slug: swap-returns-processing
+- name: Swap Shipping customs-correct values and labels
+  slug: swap-shipping-values
+- name: Swap TLC guaranteed landed cost
+  slug: swap-tlc-landed-cost
 slug: swap
 tags:
 - Company

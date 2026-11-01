@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Endpoints for archiving voice and video recordings
   name: Global Relay Voice API
   slug: global-relay-voice-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Global Relay Conversation Archiving API
   slug: open-global-relay-conversation-archiving-api
@@ -104,22 +103,22 @@ collections:
   slug: open-global-relay-voice-archiving-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/plans/global-relay-plans-pricing.yml
+  href: https://artifacts.apis.io/global-relay/plans/global-relay-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/global-relay-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/rate-limits/global-relay-rate-limits.yml
+  href: https://artifacts.apis.io/global-relay/rate-limits/global-relay-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/global-relay-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/finops/global-relay-finops.yml
+  href: https://artifacts.apis.io/global-relay/finops/global-relay-finops.yml
   title: ''
   type: FinOps
   url: finops/global-relay-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/capabilities/global-relay-capability-edges.yml
+  href: https://artifacts.apis.io/global-relay/capabilities/global-relay-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/global-relay-capability-edges.yml
@@ -128,22 +127,22 @@ common:
   type: Website
   url: https://www.globalrelay.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/agentic-access/global-relay-agentic-access.yml
+  href: https://artifacts.apis.io/global-relay/agentic-access/global-relay-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/global-relay-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/security/global-relay-trust-center.yml
+  href: https://artifacts.apis.io/global-relay/security/global-relay-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/global-relay-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/security/global-relay-domain-security.yml
+  href: https://artifacts.apis.io/global-relay/security/global-relay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/global-relay-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/authentication/global-relay-authentication.yml
+  href: https://artifacts.apis.io/global-relay/authentication/global-relay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/global-relay-authentication.yml
@@ -236,7 +235,7 @@ plans:
 - name: Global Relay Plans Pricing
   plan_count: 2
   slug: global-relay-plans-pricing
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Global Relay Rate Limits
@@ -255,23 +254,23 @@ rules:
   slug: global-relay-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.3
+  composite: 34.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 53.3
     catalog_earned_first_party: 0.0
     catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 9.8
     contract_quality: 58.1
     developer_ergonomics: 33.3
     discoverability: 69.6
-    operational_transparency: 7.9
-  previous_composite: 34.8
+    operational_transparency: 10.5
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -285,13 +284,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/screenshots/global-relay-2026-06-20T181917.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/global-relay/global-relay-2026-06-20T181917.png
 security:
 - kind: authentication
   name: Global Relay Authentication

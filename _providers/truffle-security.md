@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 asyncapis:
@@ -41,7 +43,7 @@ asyncapis:
   slug: truffle-security-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/truffle-security/refs/heads/main/security/truffle-security-domain-security.yml
+  href: https://artifacts.apis.io/truffle-security/security/truffle-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/truffle-security-domain-security.yml
@@ -82,37 +84,37 @@ common:
   type: Support
   url: https://trufflesecurity.com/contact
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/truffle-security/refs/heads/main/packages/truffle-security-packages.yml
+  href: https://artifacts.apis.io/truffle-security/packages/truffle-security-packages.yml
   title: ''
   type: Packages
   url: packages/truffle-security-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/truffle-security/refs/heads/main/cli/truffle-security-cli.yml
+  href: https://artifacts.apis.io/truffle-security/cli/truffle-security-cli.yml
   title: ''
   type: CLI
   url: cli/truffle-security-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truffle-security/refs/heads/main/llms/truffle-security-llms.txt
+  href: https://artifacts.apis.io/truffle-security/llms/truffle-security-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/truffle-security-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/truffle-security/refs/heads/main/changelog/truffle-security-changelog.yml
+  href: https://artifacts.apis.io/truffle-security/changelog/truffle-security-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/truffle-security-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truffle-security/refs/heads/main/well-known/truffle-security-well-known.yml
+  href: https://artifacts.apis.io/truffle-security/well-known/truffle-security-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/truffle-security-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truffle-security/refs/heads/main/conformance/truffle-security-conformance.yml
+  href: https://artifacts.apis.io/truffle-security/conformance/truffle-security-conformance.yml
   title: ''
   type: Conformance
   url: conformance/truffle-security-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truffle-security/refs/heads/main/asyncapi/truffle-security-webhooks.yml
+  href: https://artifacts.apis.io/truffle-security/asyncapi/truffle-security-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/truffle-security-webhooks.yml
@@ -131,10 +133,10 @@ overview: 'Truffle Security is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Truffle Security''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, pricing, signup flow, support, and 10 more developer resources.'
-random_paper: 21
+random_paper: 13
 score:
   band: thin
-  composite: 34.0
+  composite: 33.6
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -148,9 +150,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 45.2
-    discoverability: 55.4
-    operational_transparency: 26.3
-  previous_composite: 34.0
+    discoverability: 48.2
+    operational_transparency: 28.9
+  previous_composite: 33.6
   provenance:
     conformance: first-party
   regulatory:
@@ -159,14 +161,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/truffle-security/refs/heads/main/screenshots/truffle-security-2026-09-02T164359.png
+screenshot: https://apis.io/screenshots/truffle-security/truffle-security-2026-09-02T164359.png
 security:
 - kind: domain-security
   name: Truffle Security Domain Security

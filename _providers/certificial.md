@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Bi-directional API for technology platforms to request insurance coverage for their customers' suppliers and receive real-time, source-verified policy data, PDF certificates of insurance and endorseme
@@ -74,22 +76,22 @@ common:
   type: Blog
   url: https://www.certificial.com/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/certificial/refs/heads/main/authentication/certificial-authentication.yml
+  href: https://artifacts.apis.io/certificial/authentication/certificial-authentication.yml
   title: ''
   type: Authentication
   url: authentication/certificial-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/certificial/refs/heads/main/conformance/certificial-conformance.yml
+  href: https://artifacts.apis.io/certificial/conformance/certificial-conformance.yml
   title: ''
   type: Conformance
   url: conformance/certificial-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/certificial/refs/heads/main/security/certificial-domain-security.yml
+  href: https://artifacts.apis.io/certificial/security/certificial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/certificial-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/certificial/refs/heads/main/llms/certificial-llms.txt
+  href: https://artifacts.apis.io/certificial/llms/certificial-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/certificial-llms.txt
@@ -119,10 +121,10 @@ overview: 'Certificial is listed with 2 APIs on the [APIs.io](https://apis.io/) 
 
 
   Certificial''s developer surface includes pricing, signup flow, support, engineering blog, authentication, and 6 more developer resources.'
-random_paper: 7
+random_paper: 23
 score:
   band: emerging
-  composite: 20.4
+  composite: 22.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -132,13 +134,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 20.4
+  previous_composite: 22.3
   provenance:
     conformance: first-party
   regulatory:
@@ -147,14 +149,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/certificial/refs/heads/main/screenshots/certificial-2026-09-02T145029.png
+screenshot: https://apis.io/screenshots/certificial/certificial-2026-09-02T145029.png
 security:
 - kind: authentication
   name: Certificial Authentication

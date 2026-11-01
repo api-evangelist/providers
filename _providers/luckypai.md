@@ -19,7 +19,7 @@ name: Luckypai
 nav: Providers
 network: true
 overview: Luckypai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Home Shopping, and Consumer.
-random_paper: 8
+random_paper: 2
 slug: luckypai
 tags:
 - Company

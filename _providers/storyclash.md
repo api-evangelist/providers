@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Enterprise REST API for the Storyclash influencer marketing platform. Three documented endpoints under https://app.storyclash.com/external-api/: GET /campaigns lists the authenticated customer''s campa'
   name: Storyclash API
   slug: storyclash-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Storyclash Webhooks
@@ -96,32 +98,32 @@ common:
   type: StatusPage
   url: https://status.storyclash.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storyclash/refs/heads/main/lifecycle/storyclash-lifecycle.yml
+  href: https://artifacts.apis.io/storyclash/lifecycle/storyclash-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/storyclash-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/storyclash/refs/heads/main/llms/storyclash-llms.txt
+  href: https://artifacts.apis.io/storyclash/llms/storyclash-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/storyclash-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storyclash/refs/heads/main/asyncapi/storyclash-webhooks.yml
+  href: https://artifacts.apis.io/storyclash/asyncapi/storyclash-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/storyclash-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/storyclash/refs/heads/main/authentication/storyclash-authentication.yml
+  href: https://artifacts.apis.io/storyclash/authentication/storyclash-authentication.yml
   title: ''
   type: Authentication
   url: authentication/storyclash-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storyclash/refs/heads/main/conventions/storyclash-conventions.yml
+  href: https://artifacts.apis.io/storyclash/conventions/storyclash-conventions.yml
   title: ''
   type: Conventions
   url: conventions/storyclash-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/storyclash/refs/heads/main/security/storyclash-domain-security.yml
+  href: https://artifacts.apis.io/storyclash/security/storyclash-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/storyclash-domain-security.yml
@@ -142,43 +144,51 @@ common:
   type: SignUp
   url: https://www.storyclash.com/request-demo
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storyclash/refs/heads/main/errors/storyclash-error-codes.yml
+  href: https://artifacts.apis.io/storyclash/errors/storyclash-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/storyclash-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/storyclash/refs/heads/main/rate-limits/storyclash-rate-limits.yml
+  href: https://artifacts.apis.io/storyclash/rate-limits/storyclash-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/storyclash-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/storyclash/refs/heads/main/plans/storyclash-plans-pricing.yml
+  href: https://artifacts.apis.io/storyclash/plans/storyclash-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/storyclash-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storyclash/refs/heads/main/data-model/storyclash-data-model.yml
+  href: https://artifacts.apis.io/storyclash/data-model/storyclash-data-model.yml
   title: ''
   type: DataModel
   url: data-model/storyclash-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/storyclash/refs/heads/main/examples/storyclash-examples.yml
+  href: https://artifacts.apis.io/storyclash/examples/storyclash-examples.yml
   title: ''
   type: Examples
   url: examples/storyclash-examples.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/storyclash/refs/heads/main/packages/storyclash-packages.yml
+  href: https://artifacts.apis.io/storyclash/packages/storyclash-packages.yml
   title: ''
   type: Packages
   url: packages/storyclash-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storyclash/refs/heads/main/conformance/storyclash-conformance.yml
+  href: https://artifacts.apis.io/storyclash/conformance/storyclash-conformance.yml
   title: ''
   type: Conformance
   url: conformance/storyclash-conformance.yml
 created: '2026-07-17'
 description: 'Storyclash is an AI-powered influencer marketing software platform used by brands and agencies to discover creators, analyze brand and competitor strategies, manage collaborations in a purpose-built CRM, and measure campaign performance and revenue ROI across Instagram, TikTok, YouTube, and Facebook. Its AI-driven creator discovery includes neural visual search over 120M+ creators, letting teams match on a reference image or product URL rather than keywords alone. Storyclash exposes an enterprise REST API with token-based authentication and real-time webhooks that streams campaign KPIs (50+ metrics per campaign), creator profiles, content performance, and revenue attribution as structured JSON into BI tools such as Power BI, Tableau, and Looker Studio. The documented API surface is small and enterprise-gated: three endpoints under https://app.storyclash.com/external-api/ authenticated by a per-customer token passed as a query parameter, with a single outbound webhook that reports
   the outcome of a bulk creator import. The company, headquartered in Linz, Austria, was surfaced as a portfolio company of Speedinvest and has since been acquired by Kolsquare, a team.blue brand, and now trades as "Storyclash by Kolsquare".'
+finops:
+- has_sources: true
+  method: derived
+  name: Storyclash Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: storyclash-finops
+  template: false
 image: https://www.storyclash.com/favicon.ico
 layout: provider
 modified: '2026-10-06'
@@ -196,29 +206,29 @@ plans:
 - name: Storyclash Plans Pricing
   plan_count: 3
   slug: storyclash-plans-pricing
-random_paper: 0
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Storyclash Rate Limits
   slug: storyclash-rate-limits
 score:
-  band: developing
-  composite: 54.1
+  band: strong
+  composite: 55.3
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 61.0
+    artifact_dirs: 19
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 45.3
     developer_ergonomics: 45.2
-    discoverability: 73.2
-    operational_transparency: 57.9
+    discoverability: 66.1
+    operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -227,7 +237,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 54.0
+  previous_composite: 53.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -241,14 +251,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/storyclash/refs/heads/main/screenshots/storyclash-2026-08-17T082126.png
+screenshot: https://apis.io/screenshots/storyclash/storyclash-2026-08-17T082126.png
 security:
 - kind: authentication
   name: Storyclash Authentication

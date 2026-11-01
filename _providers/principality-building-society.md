@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.8
-  scored_at: '2026-10-17'
+  score: 17.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The OBIE Read/Write Account and Transaction Information (AISP) standard for reading account, balance and transaction data. FAPI-secured with OAuth2/OIDC, mutual-TLS and PSD2 strong customer authentica
@@ -83,7 +85,7 @@ collections:
   slug: open-obie-open-data-swagger
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/principality-building-society/refs/heads/main/capabilities/principality-building-society-capability-edges.yml
+  href: https://artifacts.apis.io/principality-building-society/capabilities/principality-building-society-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/principality-building-society-capability-edges.yml
@@ -92,27 +94,27 @@ common:
   type: IssueTracker
   url: https://github.com/OpenBankingUK/opendata-api-spec-compiled/issues
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/principality-building-society/refs/heads/main/security/principality-building-society-domain-security.yml
+  href: https://artifacts.apis.io/principality-building-society/security/principality-building-society-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/principality-building-society-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/principality-building-society/refs/heads/main/authentication/principality-building-society-authentication.yml
+  href: https://artifacts.apis.io/principality-building-society/authentication/principality-building-society-authentication.yml
   title: ''
   type: Authentication
   url: authentication/principality-building-society-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/principality-building-society/refs/heads/main/conformance/principality-building-society-conformance.yml
+  href: https://artifacts.apis.io/principality-building-society/conformance/principality-building-society-conformance.yml
   title: ''
   type: Conformance
   url: conformance/principality-building-society-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/principality-building-society/refs/heads/main/errors/principality-building-society-problem-types.yml
+  href: https://artifacts.apis.io/principality-building-society/errors/principality-building-society-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/principality-building-society-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/principality-building-society/refs/heads/main/llms/principality-building-society-llms.txt
+  href: https://artifacts.apis.io/principality-building-society/llms/principality-building-society-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/principality-building-society-llms.txt
@@ -157,24 +159,24 @@ overview: 'Principality Building Society publishes 9 API contracts indexed on th
 
 
   Principality Building Society''s developer surface includes authentication, product news, support, and 11 more developer resources.'
-random_paper: 16
+random_paper: 8
 score:
   band: thin
-  composite: 34.6
+  composite: 26.8
   coverage:
     artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.0
-    catalog_max: 100.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 57.1
+    access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 35.5
     developer_ergonomics: 33.3
-    discoverability: 65.2
+    discoverability: 58.9
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -184,7 +186,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 34.6
+  previous_composite: 26.8
   provenance:
     conformance: derived
     contracts:
@@ -198,14 +200,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/principality-building-society/refs/heads/main/screenshots/principality-building-society-2026-09-02T152028.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/principality-building-society/principality-building-society-2026-09-02T152028.png
 security:
 - kind: authentication
   name: Principality Building Society Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.3
-  scored_at: '2026-10-17'
+  score: 25.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.sentrial.com
@@ -47,11 +49,8 @@ apis:
   description: Create and manage agent sessions.
   name: Sentrial Sessions API
   slug: sentrial-sessions-api
-artifact_total: 7
+artifact_total: 8
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sentrial SDK Events API
   slug: open-sentrial-events-api
@@ -64,12 +63,12 @@ common:
   type: Website
   url: https://www.sentrial.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/security/sentrial-domain-security.yml
+  href: https://artifacts.apis.io/sentrial/security/sentrial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sentrial-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/authentication/sentrial-authentication.yml
+  href: https://artifacts.apis.io/sentrial/authentication/sentrial-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sentrial-authentication.yml
@@ -106,67 +105,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/sentrialdev
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/packages/sentrial-packages.yml
+  href: https://artifacts.apis.io/sentrial/packages/sentrial-packages.yml
   title: ''
   type: Packages
   url: packages/sentrial-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/packages/sentrial-packages.yml
+  href: https://artifacts.apis.io/sentrial/packages/sentrial-packages.yml
   title: ''
   type: SDKs
   url: packages/sentrial-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/cli/sentrial-cli.yml
+  href: https://artifacts.apis.io/sentrial/cli/sentrial-cli.yml
   title: ''
   type: CLI
   url: cli/sentrial-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/conventions/sentrial-conventions.yml
+  href: https://artifacts.apis.io/sentrial/conventions/sentrial-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sentrial-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/errors/sentrial-error-codes.yml
+  href: https://artifacts.apis.io/sentrial/errors/sentrial-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/sentrial-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/data-model/sentrial-data-model.yml
+  href: https://artifacts.apis.io/sentrial/data-model/sentrial-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sentrial-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/conformance/sentrial-conformance.yml
+  href: https://artifacts.apis.io/sentrial/conformance/sentrial-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sentrial-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/lifecycle/sentrial-lifecycle.yml
+  href: https://artifacts.apis.io/sentrial/lifecycle/sentrial-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sentrial-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/overlays/sentrial-openapi-overlay.yaml
+  href: https://artifacts.apis.io/sentrial/overlays/sentrial-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sentrial-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/mcp/sentrial-mcp.yml
+  href: https://artifacts.apis.io/sentrial/mcp/sentrial-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sentrial-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/llms/sentrial-llms.txt
+  href: https://artifacts.apis.io/sentrial/llms/sentrial-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sentrial-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/skills/sentrial-track-agent-session.md
+  href: https://artifacts.apis.io/sentrial/skills/sentrial-track-agent-session.md
   title: ''
   type: AgentSkill
   url: skills/sentrial-track-agent-session.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/skills/sentrial-record-tool-call.md
+  href: https://artifacts.apis.io/sentrial/skills/sentrial-record-tool-call.md
   title: ''
   type: AgentSkill
   url: skills/sentrial-record-tool-call.md
@@ -182,26 +181,26 @@ overview: 'Sentrial publishes 2 API contracts indexed on the [APIs.io](https://a
 
 
   Sentrial''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, CLI, and 17 more developer resources.'
-random_paper: 8
+random_paper: 2
 score:
-  band: emerging
-  composite: 22.9
+  band: thin
+  composite: 31.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.1
   facets:
-    access_clarity: 0.0
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 14.3
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 22.8
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 31.3
   provenance:
     conformance: derived
     contracts:
@@ -216,14 +215,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 22.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/screenshots/sentrial-2026-08-17T081809.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sentrial/sentrial-2026-08-17T081809.png
 security:
 - kind: authentication
   name: Sentrial Authentication
@@ -233,6 +233,12 @@ security:
   name: Sentrial Domain Security
   slug: sentrial-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Record a tool call or decision event
+  slug: sentrial-record-tool-call
+- name: Track an agent session end-to-end
+  slug: sentrial-track-agent-session
 slug: sentrial
 tags:
 - Company

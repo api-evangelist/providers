@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -77,11 +79,8 @@ apis:
   description: The Users API from Citrix ShareFile — 2 operation(s) for users.
   name: Citrix ShareFile Users API
   slug: citrix-sharefile-users-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Citrix ShareFile REST API v3 Accounts API
   slug: open-citrix-sharefile-accounts-api
@@ -109,27 +108,27 @@ common:
   type: Blog
   url: https://www.sharefile.com/blogs
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/capabilities/citrix-sharefile-capability-edges.yml
+  href: https://artifacts.apis.io/citrix-sharefile/capabilities/citrix-sharefile-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/citrix-sharefile-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/agentic-access/citrix-sharefile-agentic-access.yml
+  href: https://artifacts.apis.io/citrix-sharefile/agentic-access/citrix-sharefile-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/citrix-sharefile-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/security/citrix-sharefile-trust-center.yml
+  href: https://artifacts.apis.io/citrix-sharefile/security/citrix-sharefile-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/citrix-sharefile-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/security/citrix-sharefile-domain-security.yml
+  href: https://artifacts.apis.io/citrix-sharefile/security/citrix-sharefile-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/citrix-sharefile-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/authentication/citrix-sharefile-authentication.yml
+  href: https://artifacts.apis.io/citrix-sharefile/authentication/citrix-sharefile-authentication.yml
   title: ''
   type: Authentication
   url: authentication/citrix-sharefile-authentication.yml
@@ -177,10 +176,10 @@ overview: 'Citrix ShareFile publishes 7 API contracts indexed on the [APIs.io](h
 
 
   Citrix ShareFile''s developer surface includes engineering blog, authentication, documentation, pricing, signup flow, and 9 more developer resources.'
-random_paper: 1
+random_paper: 19
 score:
   band: thin
-  composite: 30.8
+  composite: 30.9
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -188,15 +187,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 45.3
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 30.3
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     contracts:
@@ -210,13 +209,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/screenshots/citrix-sharefile-2026-06-20T174414.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/citrix-sharefile/citrix-sharefile-2026-06-20T174414.png
 security:
 - kind: authentication
   name: Citrix Sharefile Authentication

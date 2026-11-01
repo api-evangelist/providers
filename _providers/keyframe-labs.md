@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,17 +24,19 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 33.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -64,11 +66,18 @@ apis:
   description: The Voices API from Keyframe Labs — 2 operation(s) for voices.
   name: Keyframe Labs Voices API
   slug: keyframe-labs-voices-api
-artifact_total: 13
+- baseURL: https://api.keyframelabs.com/v1
+  baseurl_source: declared
+  description: The Avatars API from Keyframe Labs — 1 operation(s) for avatars.
+  name: Keyframe Labs Avatars API
+  slug: keyframe-labs-avatars-api
+- baseURL: https://api.keyframelabs.com/v1
+  baseurl_source: declared
+  description: The Generations API from Keyframe Labs — 3 operation(s) for generations.
+  name: Keyframe Labs Generations API
+  slug: keyframe-labs-generations-api
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sessions LLM models API
   slug: open-keyframe-labs-llm-models-api
@@ -83,82 +92,82 @@ collections:
   slug: open-keyframe-labs-voices-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/plans/keyframe-labs-plans-pricing.yml
+  href: https://artifacts.apis.io/keyframe-labs/plans/keyframe-labs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/keyframe-labs-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/agentic-access/keyframe-labs-agentic-access.yml
+  href: https://artifacts.apis.io/keyframe-labs/agentic-access/keyframe-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/keyframe-labs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/security/keyframe-labs-domain-security.yml
+  href: https://artifacts.apis.io/keyframe-labs/security/keyframe-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/keyframe-labs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/authentication/keyframe-labs-authentication.yml
+  href: https://artifacts.apis.io/keyframe-labs/authentication/keyframe-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/keyframe-labs-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/llms/keyframe-labs-llms.txt
+  href: https://artifacts.apis.io/keyframe-labs/llms/keyframe-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/keyframe-labs-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/packages/keyframe-labs-packages.yml
+  href: https://artifacts.apis.io/keyframe-labs/packages/keyframe-labs-packages.yml
   title: ''
   type: Packages
   url: packages/keyframe-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/packages/keyframe-labs-packages.yml
+  href: https://artifacts.apis.io/keyframe-labs/packages/keyframe-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/keyframe-labs-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/components/keyframe-labs-components.yml
+  href: https://artifacts.apis.io/keyframe-labs/components/keyframe-labs-components.yml
   title: ''
   type: Components
   url: components/keyframe-labs-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/mcp/keyframe-labs-mcp.yml
+  href: https://artifacts.apis.io/keyframe-labs/mcp/keyframe-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/keyframe-labs-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/overlays/keyframe-labs-sessions-overlay.yaml
+  href: https://artifacts.apis.io/keyframe-labs/overlays/keyframe-labs-sessions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/keyframe-labs-sessions-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/conformance/keyframe-labs-conformance.yml
+  href: https://artifacts.apis.io/keyframe-labs/conformance/keyframe-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/keyframe-labs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/errors/keyframe-labs-problem-types.yml
+  href: https://artifacts.apis.io/keyframe-labs/errors/keyframe-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/keyframe-labs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/lifecycle/keyframe-labs-lifecycle.yml
+  href: https://artifacts.apis.io/keyframe-labs/lifecycle/keyframe-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/keyframe-labs-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/conventions/keyframe-labs-conventions.yml
+  href: https://artifacts.apis.io/keyframe-labs/conventions/keyframe-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/keyframe-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/data-model/keyframe-labs-data-model.yml
+  href: https://artifacts.apis.io/keyframe-labs/data-model/keyframe-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/keyframe-labs-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/keyframe-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -216,13 +225,21 @@ common:
   url: https://x.com/KeyframeLabs
 created: '2026-07-17'
 description: Keyframe Labs builds real-time foundation models that turn AI voice and text agents into lifelike, emotionally expressive video calls. Its Persona-1.5-Live product lets developers add photoreal AI avatars ("personas") to their agents and applications with a few lines of embed code, at roughly 500ms latency and from $0.06 per minute. The platform exposes a REST Sessions API (create a live session, manage meeting bots for Zoom/Meet/Teams, and list voices and LLM models), JavaScript/TypeScript SDKs, and embeddable UI elements, with hosted and self-managed integration paths that plug into agent frameworks such as LiveKit Agents, ElevenLabs Agents, and OpenAI Realtime. Founded in 2025 and backed by Y Combinator (Spring 2026), Keyframe Labs is based in San Francisco.
+finops:
+- has_sources: true
+  method: derived
+  name: Keyframe Labs Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: keyframe-labs-finops
+  template: false
 image: https://platform.keyframelabs.com/og.png
 layout: provider
 modified: '2026-07-19'
 name: Keyframe Labs
 nav: Providers
 network: true
-overview: 'Keyframe Labs publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including LLM models API, Meet bots API, Sessions API, and 1 more. Tagged areas include Company, Artificial Intelligence, Avatars, Video, and Conversational AI.
+overview: 'Keyframe Labs publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including LLM models API, Meet bots API, Sessions API, and 3 more. Tagged areas include Company, Artificial Intelligence, Avatars, Video, and Conversational AI.
 
 
   Keyframe Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 22 more developer resources.'
@@ -230,25 +247,28 @@ plans:
 - name: Keyframe Labs Plans Pricing
   plan_count: 5
   slug: keyframe-labs-plans-pricing
-random_paper: 17
+- name: Keyframe Labs Price Estimates
+  plan_count: 0
+  slug: keyframe-labs-price-estimates
+random_paper: 19
 score:
   band: developing
-  composite: 40.5
+  composite: 45.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 49.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.0
+  delta: 1.8
   facets:
-    access_clarity: 42.1
+    access_clarity: 63.2
     contract_governance: 4.5
-    contract_quality: 46.9
+    contract_quality: 47.9
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -256,7 +276,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 34.5
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -264,7 +284,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 11
     mcp: derived
     skills: derived
   regulatory:
@@ -273,13 +293,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/screenshots/keyframe-labs-2026-07-25T223654.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/keyframe-labs/keyframe-labs-2026-07-25T223654.png
 security:
 - kind: authentication
   name: Keyframe Labs Authentication
@@ -289,6 +310,12 @@ security:
   name: Keyframe Labs Domain Security
   slug: keyframe-labs-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 2
+skills:
+- name: Send a Keyframe persona into a meeting
+  slug: keyframe-labs-meeting-persona-bot
+- name: Start a Keyframe persona session
+  slug: keyframe-labs-start-persona-session
 slug: keyframe-labs
 tags:
 - Company

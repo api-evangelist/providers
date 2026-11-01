@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 12
 apis:
 - description: 'Seller authorization flow: a Lazada seller grants a registered Lazada Open Platform app permission to call Lazada APIs on their shop''s behalf, issuing access and refresh tokens scoped per region.'
@@ -75,17 +77,17 @@ apis:
 artifact_total: 17
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lazada/refs/heads/main/plans/lazada-plans-pricing.yml
+  href: https://artifacts.apis.io/lazada/plans/lazada-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lazada-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lazada/refs/heads/main/rate-limits/lazada-rate-limits.yml
+  href: https://artifacts.apis.io/lazada/rate-limits/lazada-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lazada-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lazada/refs/heads/main/finops/lazada-finops.yml
+  href: https://artifacts.apis.io/lazada/finops/lazada-finops.yml
   title: ''
   type: FinOps
   url: finops/lazada-finops.yml
@@ -94,12 +96,12 @@ common:
   type: Website
   url: https://www.lazada.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lazada/refs/heads/main/security/lazada-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/lazada/security/lazada-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lazada-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lazada/refs/heads/main/security/lazada-domain-security.yml
+  href: https://artifacts.apis.io/lazada/security/lazada-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lazada-domain-security.yml
@@ -163,14 +165,14 @@ plans:
 - name: Lazada Plans Pricing
   plan_count: 1
   slug: lazada-plans-pricing
-random_paper: 5
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Lazada Rate Limits
   slug: lazada-rate-limits
 score:
   band: emerging
-  composite: 12.3
+  composite: 13.7
   coverage:
     artifact_dirs: 7
     catalog_earned: 44.0
@@ -178,34 +180,34 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 72.3
-    operational_transparency: 5.3
+    discoverability: 73.2
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 18.3
+  previous_composite: 13.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lazada/refs/heads/main/screenshots/lazada-2026-06-20T184341.png
+screenshot: https://apis.io/screenshots/lazada/lazada-2026-06-20T184341.png
 security:
 - kind: domain-security
   name: Lazada Domain Security

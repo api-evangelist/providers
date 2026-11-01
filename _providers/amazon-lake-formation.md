@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -50,6 +52,11 @@ apis:
   description: Data lake resource management
   name: Amazon Lake Formation Resources API
   slug: amazon-lake-formation-resources-api
+- baseURL: https://lakeformation.amazonaws.com
+  baseurl_source: declared
+  description: The Lake Formation Operations API from Amazon Lake Formation — 62 operation(s) for lake formation operations.
+  name: Amazon Lake Formation Lake Formation Operations API
+  slug: amazon-lake-formation-operations-api
 arazzos:
 - description: Enumerate registered data lake locations and list the permissions on a selected resource.
   name: Amazon Lake Formation Audit Resource Permissions
@@ -75,27 +82,29 @@ collections:
   name: Amazon Lake Formation API
   slug: postman-amazon-lake-formation
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Amazon Lake Formation Resources API
   slug: open-amazon-lake-formation-resources-api
 - collection_type: open
   name: Amazon Lake Formation API
   slug: open-amazon-lake-formation
 common:
+- group: other
+  href: https://artifacts.apis.io/amazon-lake-formation/capabilities/amazon-lake-formation-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-lake-formation-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/plans/amazon-lake-formation-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-lake-formation/plans/amazon-lake-formation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-lake-formation-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/rate-limits/amazon-lake-formation-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-lake-formation/rate-limits/amazon-lake-formation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-lake-formation-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/finops/amazon-lake-formation-finops.yml
+  href: https://artifacts.apis.io/amazon-lake-formation/finops/amazon-lake-formation-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-lake-formation-finops.yml
@@ -104,27 +113,27 @@ common:
   type: Website
   url: https://aws.amazon.com/lake-formation/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/agentic-access/amazon-lake-formation-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-lake-formation/agentic-access/amazon-lake-formation-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-lake-formation-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/security/amazon-lake-formation-trust-center.yml
+  href: https://artifacts.apis.io/amazon-lake-formation/security/amazon-lake-formation-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-lake-formation-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/security/amazon-lake-formation-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-lake-formation/security/amazon-lake-formation-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-lake-formation-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/security/amazon-lake-formation-domain-security.yml
+  href: https://artifacts.apis.io/amazon-lake-formation/security/amazon-lake-formation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-lake-formation-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/authentication/amazon-lake-formation-authentication.yml
+  href: https://artifacts.apis.io/amazon-lake-formation/authentication/amazon-lake-formation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-lake-formation-authentication.yml
@@ -133,32 +142,32 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-lake-formation/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/arazzo/amazon-lake-formation-audit-resource-permissions-workflow.yml
+  href: https://artifacts.apis.io/amazon-lake-formation/arazzo/amazon-lake-formation-audit-resource-permissions-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-lake-formation-audit-resource-permissions-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/arazzo/amazon-lake-formation-deregister-resource-workflow.yml
+  href: https://artifacts.apis.io/amazon-lake-formation/arazzo/amazon-lake-formation-deregister-resource-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-lake-formation-deregister-resource-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/arazzo/amazon-lake-formation-migrate-principal-permissions-workflow.yml
+  href: https://artifacts.apis.io/amazon-lake-formation/arazzo/amazon-lake-formation-migrate-principal-permissions-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-lake-formation-migrate-principal-permissions-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/arazzo/amazon-lake-formation-register-and-grant-workflow.yml
+  href: https://artifacts.apis.io/amazon-lake-formation/arazzo/amazon-lake-formation-register-and-grant-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-lake-formation-register-and-grant-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/arazzo/amazon-lake-formation-reregister-resource-role-workflow.yml
+  href: https://artifacts.apis.io/amazon-lake-formation/arazzo/amazon-lake-formation-reregister-resource-role-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-lake-formation-reregister-resource-role-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/arazzo/amazon-lake-formation-revoke-and-verify-workflow.yml
+  href: https://artifacts.apis.io/amazon-lake-formation/arazzo/amazon-lake-formation-revoke-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-lake-formation-revoke-and-verify-workflow.yml
@@ -227,12 +236,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/aws
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/rules/amazon-lake-formation-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-lake-formation/rules/amazon-lake-formation-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-lake-formation-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/vocabulary/amazon-lake-formation-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-lake-formation/vocabulary/amazon-lake-formation-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-lake-formation-vocabulary.yaml
@@ -261,11 +270,11 @@ features:
 - description: ACID transactions and automatic compaction for governed tables stored in S3.
   name: Governed Tables
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Lake Formation Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: amazon-lake-formation-finops
   template: true
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
@@ -293,16 +302,16 @@ modified: '2026-09-16'
 name: Amazon Lake Formation
 nav: Providers
 network: true
-overview: 'Amazon Lake Formation publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Resources API. Tagged areas include Access Control, Analytics, Data Governance, Data Lake, and S3.
+overview: 'Amazon Lake Formation publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Resources API and Lake Formation Operations API. Tagged areas include Access Control, Analytics, Data Governance, Data Lake, and S3.
 
 
   The Amazon Lake Formation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Lake Formation''s developer surface includes authentication, engineering blog, support, developer console, CLI, developer portal, documentation, and 28 more developer resources.'
+  Amazon Lake Formation''s developer surface includes authentication, engineering blog, support, developer console, CLI, developer portal, documentation, and 29 more developer resources.'
 plans:
 - name: Amazon Lake Formation Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: amazon-lake-formation-plans-pricing
 random_paper: 12
 rate_limits:
@@ -335,43 +344,49 @@ rules:
   slug: amazon-lake-formation-spectral-rules
 score:
   band: strong
-  composite: 58.8
+  composite: 62.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 66.0
+    artifact_dirs: 22
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: -5.7
   facets:
-    access_clarity: 68.4
+    access_clarity: 60.5
     contract_governance: 27.3
-    contract_quality: 61.0
-    developer_ergonomics: 67.9
+    contract_quality: 62.8
+    developer_ergonomics: 79.8
     discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 60.4
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 68.2
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 1
+      marker_coverage: 50.0
+      total: 2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/screenshots/amazon-lake-formation-2026-06-20T171721.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-lake-formation/amazon-lake-formation-2026-06-20T171721.png
 security:
 - kind: authentication
   name: Amazon Lake Formation Authentication

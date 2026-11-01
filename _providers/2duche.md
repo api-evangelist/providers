@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,14 +34,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 0
 common:
+- group: other
+  href: https://artifacts.apis.io/2duche/hosts/2duche-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/2duche-hosts.yml
 - group: company
   title: ''
   type: Website
   url: https://2duche.com
+coverage:
+  checked: '2026-10-27'
+  detail: Domain apex 2duche.com does not resolve, preventing any API discovery.
+  evidence:
+  - status: NXDOMAIN
+    url: https://2duche.com
+  reason: defunct
+  state: none
 created: '2026-07-17'
 description: 2Duche was a Chinese used-car marketing and trading service platform, backed by Qiming Venture Partners and recognized on the Red Herring Asia 100 in 2009. It was surfaced as a portfolio company of Qiming and added to the API Evangelist network as an enrichment lead. As of the July 2026 enrichment pass the company appears defunct — the apex domain 2duche.com does not resolve and www.2duche.com is unreachable, with no discoverable developer portal, API, documentation, SDKs, or public code repositories. No API artifacts could be produced without fabrication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/2duche.png
@@ -49,12 +64,12 @@ name: 2duche
 nav: Providers
 network: true
 overview: 2duche is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Used Cars, Automotive, Marketplace, and China.
-random_paper: 21
+random_paper: 19
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -76,12 +91,6 @@ score:
     regions:
     - greater-china
   lifecycle: defunct
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 0.0
   regulatory:
     applies: true
@@ -89,8 +98,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

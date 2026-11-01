@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'The BD Incada Connected Care Platform is a scalable, AI-enabled, cloud-based platform launched in October 2025 that unifies BD device data from infusion pumps, patient monitors, and pharmacy robotics '
@@ -45,22 +47,22 @@ apis:
 artifact_total: 23
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/plans/becton-dickinson-plans-pricing.yml
+  href: https://artifacts.apis.io/becton-dickinson/plans/becton-dickinson-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/becton-dickinson-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/rate-limits/becton-dickinson-rate-limits.yml
+  href: https://artifacts.apis.io/becton-dickinson/rate-limits/becton-dickinson-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/becton-dickinson-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/finops/becton-dickinson-finops.yml
+  href: https://artifacts.apis.io/becton-dickinson/finops/becton-dickinson-finops.yml
   title: ''
   type: FinOps
   url: finops/becton-dickinson-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/security/becton-dickinson-domain-security.yml
+  href: https://artifacts.apis.io/becton-dickinson/security/becton-dickinson-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/becton-dickinson-domain-security.yml
@@ -85,32 +87,32 @@ common:
   type: TermsOfService
   url: https://www.bd.com/en-us/about-bd/policies/terms-of-use
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/llms/becton-dickinson-llms.txt
+  href: https://artifacts.apis.io/becton-dickinson/llms/becton-dickinson-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/becton-dickinson-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/security/becton-dickinson-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/becton-dickinson/security/becton-dickinson-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/becton-dickinson-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/security/becton-dickinson-trust-center.yml
+  href: https://artifacts.apis.io/becton-dickinson/security/becton-dickinson-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/becton-dickinson-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/security/becton-dickinson-trust-center.yml
+  href: https://artifacts.apis.io/becton-dickinson/security/becton-dickinson-trust-center.yml
   title: ''
   type: Compliance
   url: security/becton-dickinson-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/conformance/becton-dickinson-conformance.yml
+  href: https://artifacts.apis.io/becton-dickinson/conformance/becton-dickinson-conformance.yml
   title: ''
   type: Conformance
   url: conformance/becton-dickinson-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/packages/becton-dickinson-packages.yml
+  href: https://artifacts.apis.io/becton-dickinson/packages/becton-dickinson-packages.yml
   title: ''
   type: Packages
   url: packages/becton-dickinson-packages.yml
@@ -141,7 +143,7 @@ finops:
 - has_sources: true
   method: generated
   name: Becton Dickinson Finops
-  primary_unit: ''
+  primary_unit: device
   service_category: Healthcare / Medical Device Connectivity
   slug: becton-dickinson-finops
   template: false
@@ -186,30 +188,30 @@ press:
 - date: ''
   title: BD Helps Scientists Advance Immunology and Cancer ...
   url: https://www.prnewswire.com/news-releases/bd-helps-scientists-advance-immunology-and-cancer-research-with-ai-powered-insights-and-automation-302668624.html
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Becton Dickinson Rate Limits
   slug: becton-dickinson-rate-limits
 score:
   band: emerging
-  composite: 24.8
+  composite: 25.7
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 36.0
+    artifact_dirs: 14
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.6
   facets:
-    access_clarity: 42.1
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 15.8
-  previous_composite: 26.4
+  previous_composite: 24.1
   provenance:
     conformance: first-party
   regulatory:
@@ -218,14 +220,14 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/screenshots/becton-dickinson-2026-06-20T173125.png
+screenshot: https://apis.io/screenshots/becton-dickinson/becton-dickinson-2026-06-20T173125.png
 security:
 - kind: domain-security
   name: Becton Dickinson Domain Security

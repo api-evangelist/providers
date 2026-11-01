@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,9 +83,6 @@ apis:
 artifact_total: 18
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-people-first-bank-banking-account-balances-api
 - collection_type: open
@@ -106,67 +105,67 @@ collections:
   slug: open-people-first-bank-banking-products-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/capabilities/people-first-bank-capability-edges.yml
+  href: https://artifacts.apis.io/people-first-bank/capabilities/people-first-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/people-first-bank-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/security/people-first-bank-domain-security.yml
+  href: https://artifacts.apis.io/people-first-bank/security/people-first-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/people-first-bank-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/authentication/people-first-bank-authentication.yml
+  href: https://artifacts.apis.io/people-first-bank/authentication/people-first-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/people-first-bank-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/agentic-access/people-first-bank-agentic-access.yml
+  href: https://artifacts.apis.io/people-first-bank/agentic-access/people-first-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/people-first-bank-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/errors/people-first-bank-problem-types.yml
+  href: https://artifacts.apis.io/people-first-bank/errors/people-first-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/people-first-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/conventions/people-first-bank-conventions.yml
+  href: https://artifacts.apis.io/people-first-bank/conventions/people-first-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/people-first-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/conformance/people-first-bank-conformance.yml
+  href: https://artifacts.apis.io/people-first-bank/conformance/people-first-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/people-first-bank-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/lifecycle/people-first-bank-lifecycle.yml
+  href: https://artifacts.apis.io/people-first-bank/lifecycle/people-first-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/people-first-bank-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/mcp/people-first-bank-mcp.yml
+  href: https://artifacts.apis.io/people-first-bank/mcp/people-first-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/people-first-bank-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/llms/people-first-bank-llms.txt
+  href: https://artifacts.apis.io/people-first-bank/llms/people-first-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/people-first-bank-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/overlays/people-first-bank-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/people-first-bank/overlays/people-first-bank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/people-first-bank-cds-banking-products-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/data-model/people-first-bank-data-model.yml
+  href: https://artifacts.apis.io/people-first-bank/data-model/people-first-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/people-first-bank-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/people-first-bank/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -222,7 +221,7 @@ overview: 'People First Bank publishes 7 API contracts indexed on the [APIs.io](
 
 
   People First Bank''s developer surface includes authentication, documentation, getting-started guide, API reference, engineering blog, support, and 17 more developer resources.'
-random_paper: 5
+random_paper: 19
 score:
   band: thin
   composite: 34.2
@@ -239,7 +238,7 @@ score:
     contract_governance: 4.5
     contract_quality: 44.7
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -269,13 +268,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/screenshots/people-first-bank-2026-07-21T114746.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/people-first-bank/people-first-bank-2026-07-21T114746.png
 security:
 - kind: authentication
   name: People First Bank Authentication
@@ -285,6 +285,10 @@ security:
   name: People First Bank Domain Security
   slug: people-first-bank-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: Look up People First Bank banking products
+  slug: people-first-bank-product-lookup
 slug: people-first-bank
 tags:
 - Finance

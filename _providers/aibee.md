@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The hosted map-data surface behind Aibee's indoor map and wayfinding products. It is not documented as a public API and has no published reference or specification; it is recorded here because Aibee's
@@ -35,7 +37,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aibee/refs/heads/main/security/aibee-domain-security.yml
+  href: https://artifacts.apis.io/aibee/security/aibee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aibee-domain-security.yml
@@ -56,52 +58,52 @@ common:
   type: GettingStarted
   url: https://map.aibee.cn/sdk-docs/pages/guide/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aibee/refs/heads/main/packages/aibee-packages.yml
+  href: https://artifacts.apis.io/aibee/packages/aibee-packages.yml
   title: ''
   type: Packages
   url: packages/aibee-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aibee/refs/heads/main/packages/aibee-packages.yml
+  href: https://artifacts.apis.io/aibee/packages/aibee-packages.yml
   title: ''
   type: SDKs
   url: packages/aibee-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aibee/refs/heads/main/components/aibee-components.yml
+  href: https://artifacts.apis.io/aibee/components/aibee-components.yml
   title: ''
   type: Components
   url: components/aibee-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aibee/refs/heads/main/conventions/aibee-conventions.yml
+  href: https://artifacts.apis.io/aibee/conventions/aibee-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aibee-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aibee/refs/heads/main/errors/aibee-error-codes.yml
+  href: https://artifacts.apis.io/aibee/errors/aibee-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/aibee-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aibee/refs/heads/main/lifecycle/aibee-lifecycle.yml
+  href: https://artifacts.apis.io/aibee/lifecycle/aibee-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aibee-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aibee/refs/heads/main/conformance/aibee-conformance.yml
+  href: https://artifacts.apis.io/aibee/conformance/aibee-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aibee-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aibee/refs/heads/main/plans/aibee-plans-pricing.yml
+  href: https://artifacts.apis.io/aibee/plans/aibee-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aibee-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aibee/refs/heads/main/rate-limits/aibee-rate-limits.yml
+  href: https://artifacts.apis.io/aibee/rate-limits/aibee-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aibee-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aibee/refs/heads/main/llms/aibee-llms.txt
+  href: https://artifacts.apis.io/aibee/llms/aibee-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aibee-llms.txt
@@ -133,7 +135,7 @@ plans:
 - name: Aibee Plans Pricing
   plan_count: 0
   slug: aibee-plans-pricing
-random_paper: 18
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Aibee Rate Limits
@@ -148,7 +150,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -163,7 +165,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 18.7
+  previous_composite: 18.8
   provenance:
     conformance: first-party
   regulatory:
@@ -172,14 +174,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aibee/refs/heads/main/screenshots/aibee-2026-10-11T093233.png
+screenshot: https://apis.io/screenshots/aibee/aibee-2026-10-11T093233.png
 security:
 - kind: domain-security
   name: Aibee Domain Security

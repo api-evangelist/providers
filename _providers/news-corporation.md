@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/news-corporation/refs/heads/main/security/news-corporation-domain-security.yml
+  href: https://artifacts.apis.io/news-corporation/security/news-corporation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/news-corporation-domain-security.yml
@@ -61,10 +63,10 @@ name: News Corporation
 nav: Providers
 network: true
 overview: News Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
-random_paper: 18
+random_paper: 10
 score:
   band: minimal
-  composite: 2.3
+  composite: 2.7
   coverage:
     artifact_dirs: 3
     catalog_earned: 19.0
@@ -79,16 +81,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 33.9
-    operational_transparency: 2.6
-  previous_composite: 2.3
+    operational_transparency: 5.3
+  previous_composite: 2.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

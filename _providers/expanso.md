@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.8
-  scored_at: '2026-10-17'
+  score: 27.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -52,11 +54,8 @@ apis:
   description: The Orchestrator API from Expanso — 11 operation(s) for orchestrator.
   name: Expanso Orchestrator API
   slug: expanso-orchestrator-api
-artifact_total: 8
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bacalhau Ops API
   slug: open-expanso-ops-api
@@ -65,7 +64,7 @@ collections:
   slug: open-expanso-orchestrator-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/plans/expanso-plans-pricing.yml
+  href: https://artifacts.apis.io/expanso/plans/expanso-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/expanso-plans-pricing.yml
@@ -78,7 +77,7 @@ common:
   type: Website
   url: https://www.expanso.io/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/overlays/bacalhau-overlay.yaml
+  href: https://artifacts.apis.io/expanso/overlays/bacalhau-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bacalhau-overlay.yaml
@@ -135,57 +134,65 @@ common:
   type: StatusPage
   url: https://status.expanso.io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/llms/expanso-llms.txt
+  href: https://artifacts.apis.io/expanso/llms/expanso-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/expanso-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/packages/expanso-packages.yml
+  href: https://artifacts.apis.io/expanso/packages/expanso-packages.yml
   title: ''
   type: Packages
   url: packages/expanso-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/packages/expanso-packages.yml
+  href: https://artifacts.apis.io/expanso/packages/expanso-packages.yml
   title: ''
   type: SDKs
   url: packages/expanso-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/cli/expanso-cli.yml
+  href: https://artifacts.apis.io/expanso/cli/expanso-cli.yml
   title: ''
   type: CLI
   url: cli/expanso-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/changelog/expanso-changelog.yml
+  href: https://artifacts.apis.io/expanso/changelog/expanso-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/expanso-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/lifecycle/expanso-lifecycle.yml
+  href: https://artifacts.apis.io/expanso/lifecycle/expanso-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/expanso-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/security/expanso-domain-security.yml
+  href: https://artifacts.apis.io/expanso/security/expanso-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/expanso-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/conformance/expanso-conformance.yml
+  href: https://artifacts.apis.io/expanso/conformance/expanso-conformance.yml
   title: ''
   type: Conformance
   url: conformance/expanso-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/mcp/expanso-mcp.yml
+  href: https://artifacts.apis.io/expanso/mcp/expanso-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/expanso-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/expanso/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Expanso is the company behind Bacalhau, an open-source distributed compute orchestration framework that brings compute to the data by running jobs close to where data is generated across edge, on-premise, and cloud environments. Expanso Cloud is the managed platform for deploying intelligent data pipelines at the edge - filtering, transforming, and governing data (PII/GDPR compliance, lineage) before it reaches downstream platforms like Snowflake and Databricks. The Bacalhau Orchestrator API exposes job submission, execution history, results, log streaming, and node/agent management over a versioned REST interface. Expanso is backed by General Catalyst and was named Edge AI Startup of the Year 2026.
+finops:
+- has_sources: true
+  method: derived
+  name: Expanso Finops
+  primary_unit: node
+  service_category: ''
+  slug: expanso-finops
+  template: false
 image: https://expanso.io/favicon.ico
 layout: provider
 modified: '2026-10-06'
@@ -200,26 +207,26 @@ plans:
 - name: Expanso Plans Pricing
   plan_count: 6
   slug: expanso-plans-pricing
-random_paper: 18
+random_paper: 22
 score:
   band: developing
-  composite: 46.5
+  composite: 49.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 49.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 34.0
-    developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 40.1
+    developer_ergonomics: 61.3
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,18 +243,25 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/screenshots/expanso-2026-07-25T213913.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/expanso/expanso-2026-07-25T213913.png
 security:
 - kind: domain-security
   name: Expanso Domain Security
   slug: expanso-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Inspect and manage orchestrator nodes
+  slug: expanso-manage-orchestrator-nodes
+- name: Submit and monitor a distributed compute job
+  slug: expanso-submit-and-monitor-job
 slug: expanso
 tags:
 - Company

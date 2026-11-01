@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -62,11 +64,8 @@ apis:
   description: Operations for translating text between languages
   name: Yandex Translate API Translation API
   slug: yandex-translate-translation-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Yandex Translate Language Detection API
   slug: open-yandex-translate-language-detection-api
@@ -78,22 +77,22 @@ collections:
   slug: open-yandex-translate-translation-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yandex-translate/refs/heads/main/agentic-access/yandex-translate-agentic-access.yml
+  href: https://artifacts.apis.io/yandex-translate/agentic-access/yandex-translate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/yandex-translate-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yandex-translate/refs/heads/main/security/yandex-translate-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/yandex-translate/security/yandex-translate-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/yandex-translate-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yandex-translate/refs/heads/main/security/yandex-translate-domain-security.yml
+  href: https://artifacts.apis.io/yandex-translate/security/yandex-translate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yandex-translate-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yandex-translate/refs/heads/main/authentication/yandex-translate-authentication.yml
+  href: https://artifacts.apis.io/yandex-translate/authentication/yandex-translate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/yandex-translate-authentication.yml
@@ -169,7 +168,7 @@ finops:
 - has_sources: false
   method: generated
   name: Yandex Translate Finops
-  primary_unit: ''
+  primary_unit: million characters
   service_category: API
   slug: yandex-translate-finops
   template: true
@@ -211,7 +210,7 @@ plans:
 - name: Yandex Translate Plans Pricing
   plan_count: 2
   slug: yandex-translate-plans-pricing
-random_paper: 18
+random_paper: 12
 rate_limits:
 - limit_count: 8
   name: Yandex Translate Rate Limits
@@ -230,7 +229,7 @@ rules:
   slug: yandex-translate-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.4
+  composite: 38.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 50.3
@@ -238,15 +237,15 @@ score:
     catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 56.7
     developer_ergonomics: 35.7
     discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 42.3
+    operational_transparency: 39.5
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -260,13 +259,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/yandex-translate/refs/heads/main/screenshots/yandex-translate-2026-06-20T201724.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/yandex-translate/yandex-translate-2026-06-20T201724.png
 security:
 - kind: authentication
   name: Yandex Translate Authentication

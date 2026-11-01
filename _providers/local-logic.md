@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for location intelligence — location scores, neighborhood profiles, geographies, points of interest, demographics, schools, value drivers, similar neighborhoods, location snapshot, market sta
@@ -87,17 +89,17 @@ common:
   type: GitHub
   url: https://github.com/LocalLogic
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/local-logic/refs/heads/main/authentication/local-logic-authentication.yml
+  href: https://artifacts.apis.io/local-logic/authentication/local-logic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/local-logic-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/local-logic/refs/heads/main/llms/local-logic-llms.txt
+  href: https://artifacts.apis.io/local-logic/llms/local-logic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/local-logic-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/local-logic/refs/heads/main/security/local-logic-domain-security.yml
+  href: https://artifacts.apis.io/local-logic/security/local-logic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/local-logic-domain-security.yml
@@ -113,12 +115,12 @@ overview: 'Local Logic is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   Local Logic''s developer surface includes documentation, support, engineering blog, pricing, signup flow, GitHub presence, authentication, and 7 more developer resources.'
-random_paper: 16
+random_paper: 14
 score:
   band: emerging
-  composite: 23.3
+  composite: 22.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -130,23 +132,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 23.3
+  previous_composite: 22.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/local-logic/refs/heads/main/screenshots/local-logic-2026-07-25T225422.png
+screenshot: https://apis.io/screenshots/local-logic/local-logic-2026-07-25T225422.png
 security:
 - kind: authentication
   name: Local Logic Authentication

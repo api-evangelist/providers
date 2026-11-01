@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API information is referenced on the pricing page of Avina Clean Hydrogen website.
@@ -32,17 +34,17 @@ apis:
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/avina-clean-hydrogen/refs/heads/main/plans/avina-clean-hydrogen-plans-pricing.yml
+  href: https://artifacts.apis.io/avina-clean-hydrogen/plans/avina-clean-hydrogen-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/avina-clean-hydrogen-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avina-clean-hydrogen/refs/heads/main/hosts/avina-clean-hydrogen-hosts.yml
+  href: https://artifacts.apis.io/avina-clean-hydrogen/hosts/avina-clean-hydrogen-hosts.yml
   title: ''
   type: Hosts
   url: hosts/avina-clean-hydrogen-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avina-clean-hydrogen/refs/heads/main/vendors/avina-clean-hydrogen-vendors.yml
+  href: https://artifacts.apis.io/avina-clean-hydrogen/vendors/avina-clean-hydrogen-vendors.yml
   title: ''
   type: Vendors
   url: vendors/avina-clean-hydrogen-vendors.yml
@@ -55,7 +57,7 @@ common:
   type: Newsroom
   url: https://avinah2.com/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avina-clean-hydrogen/refs/heads/main/security/avina-clean-hydrogen-domain-security.yml
+  href: https://artifacts.apis.io/avina-clean-hydrogen/security/avina-clean-hydrogen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/avina-clean-hydrogen-domain-security.yml
@@ -86,7 +88,7 @@ plans:
 - name: Avina Clean Hydrogen Plans Pricing
   plan_count: 3
   slug: avina-clean-hydrogen-plans-pricing
-random_paper: 16
+random_paper: 4
 score:
   band: emerging
   composite: 12.7
@@ -114,14 +116,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/avina-clean-hydrogen/refs/heads/main/screenshots/avina-clean-hydrogen-2026-10-11T101204.png
+screenshot: https://apis.io/screenshots/avina-clean-hydrogen/avina-clean-hydrogen-2026-10-11T101204.png
 security:
 - kind: domain-security
   name: Avina Clean Hydrogen Domain Security

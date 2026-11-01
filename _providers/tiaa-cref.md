@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: TIAA's retirement plan services for individual participants, covering 403(b), 457(b), 401(k), and IRA accounts. Products include TIAA Traditional fixed annuity, CREF variable annuities (stock, bond, m
@@ -51,22 +53,22 @@ apis:
 artifact_total: 12
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tiaa-cref/refs/heads/main/plans/tiaa-cref-plans-pricing.yml
+  href: https://artifacts.apis.io/tiaa-cref/plans/tiaa-cref-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tiaa-cref-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tiaa-cref/refs/heads/main/rate-limits/tiaa-cref-rate-limits.yml
+  href: https://artifacts.apis.io/tiaa-cref/rate-limits/tiaa-cref-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tiaa-cref-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tiaa-cref/refs/heads/main/finops/tiaa-cref-finops.yml
+  href: https://artifacts.apis.io/tiaa-cref/finops/tiaa-cref-finops.yml
   title: ''
   type: FinOps
   url: finops/tiaa-cref-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tiaa-cref/refs/heads/main/security/tiaa-cref-domain-security.yml
+  href: https://artifacts.apis.io/tiaa-cref/security/tiaa-cref-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tiaa-cref-domain-security.yml
@@ -175,7 +177,7 @@ press:
 - date: ''
   title: Participation in TIAA's Lifetime Income Solutions ...
   url: https://www.prnewswire.com/news-releases/participation-in-tiaas-lifetime-income-solutions-accelerates-as-plan-sponsors-embrace-annuity-embedded-defaults-302730672.html
-random_paper: 18
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Tiaa Cref Rate Limits
@@ -194,37 +196,37 @@ rules:
   slug: tiaa-cref-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 15.6
+  composite: 17.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 57.8
     catalog_earned_first_party: 0.0
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 11.8
+    access_clarity: 18.4
     contract_governance: 23.5
     contract_quality: 14.7
-    developer_ergonomics: 4.8
+    developer_ergonomics: 9.5
     discoverability: 62.5
     operational_transparency: 5.3
-  previous_composite: 17.2
+  previous_composite: 17.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tiaa-cref/refs/heads/main/screenshots/tiaa-cref-2026-06-20T195327.png
+screenshot: https://apis.io/screenshots/tiaa-cref/tiaa-cref-2026-06-20T195327.png
 security:
 - kind: domain-security
   name: Tiaa Cref Domain Security

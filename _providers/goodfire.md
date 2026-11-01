@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,20 +36,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Hosted mechanistic-interpretability API. OpenAI-compatible chat-completions sampling plus feature discovery (semantic/contrastive search, AutoSteer), feature inspection/context, and model-variant crea
   name: Ember API
   slug: ember-api
-artifact_total: 4
+artifact_total: 6
 common:
 - group: commercial
   title: ''
   type: Pricing
   url: https://www.goodfire.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/goodfire/refs/heads/main/plans/goodfire-plans-pricing.yml
+  href: https://artifacts.apis.io/goodfire/plans/goodfire-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/goodfire-plans-pricing.yml
@@ -104,57 +106,65 @@ common:
   type: TrustCenter
   url: https://trust.goodfire.ai/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/goodfire/refs/heads/main/packages/goodfire-packages.yml
+  href: https://artifacts.apis.io/goodfire/packages/goodfire-packages.yml
   title: ''
   type: Packages
   url: packages/goodfire-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/goodfire/refs/heads/main/packages/goodfire-packages.yml
+  href: https://artifacts.apis.io/goodfire/packages/goodfire-packages.yml
   title: ''
   type: SDKs
   url: packages/goodfire-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goodfire/refs/heads/main/authentication/goodfire-authentication.yml
+  href: https://artifacts.apis.io/goodfire/authentication/goodfire-authentication.yml
   title: ''
   type: Authentication
   url: authentication/goodfire-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodfire/refs/heads/main/conventions/goodfire-conventions.yml
+  href: https://artifacts.apis.io/goodfire/conventions/goodfire-conventions.yml
   title: ''
   type: Conventions
   url: conventions/goodfire-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodfire/refs/heads/main/lifecycle/goodfire-lifecycle.yml
+  href: https://artifacts.apis.io/goodfire/lifecycle/goodfire-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/goodfire-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/goodfire/refs/heads/main/lifecycle/goodfire-lifecycle.yml
+  href: https://artifacts.apis.io/goodfire/lifecycle/goodfire-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/goodfire-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodfire/refs/heads/main/conformance/goodfire-conformance.yml
+  href: https://artifacts.apis.io/goodfire/conformance/goodfire-conformance.yml
   title: ''
   type: Conformance
   url: conformance/goodfire-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/goodfire/refs/heads/main/changelog/goodfire-changelog.yml
+  href: https://artifacts.apis.io/goodfire/changelog/goodfire-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/goodfire-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodfire/refs/heads/main/llms/goodfire-llms.txt
+  href: https://artifacts.apis.io/goodfire/llms/goodfire-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/goodfire-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goodfire/refs/heads/main/security/goodfire-domain-security.yml
+  href: https://artifacts.apis.io/goodfire/security/goodfire-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/goodfire-domain-security.yml
 created: '2026-07-17'
 description: Goodfire is an AI interpretability research lab building tools to understand, debug, and intentionally design neural networks by surfacing the internal features (via sparse autoencoders) that drive model behavior. Its Ember API/SDK was the first hosted mechanistic-interpretability API, offering an OpenAI-compatible inference endpoint plus feature discovery, inspection, and steering over open models such as Llama 3.3 70B and Llama 3.1 8B. The company is now consolidating this interpretability work into its Silico platform, which spans large language models, life sciences, and robotics/vision. Backed by Lightspeed, Menlo Ventures, and Wing Venture Capital.
+finops:
+- has_sources: true
+  method: derived
+  name: Goodfire Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: goodfire-finops
+  template: false
 image: https://cdn.prod.website-files.com/67b4608695ee3b31a669d3a9/67f8223b7a5017e5e1e983ac_opengraph.png
 layout: provider
 modified: '2026-07-19'
@@ -169,26 +179,29 @@ plans:
 - name: Goodfire Plans Pricing
   plan_count: 2
   slug: goodfire-plans-pricing
-random_paper: 11
+- name: Goodfire Price Estimates
+  plan_count: 0
+  slug: goodfire-price-estimates
+random_paper: 7
 score:
   band: developing
-  composite: 39.3
+  composite: 40.5
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 45.0
+    artifact_dirs: 14
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 73.7
+    access_clarity: 81.6
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 32.9
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 38.9
   provenance:
     conformance: derived
   regulatory:
@@ -197,14 +210,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/goodfire/refs/heads/main/screenshots/goodfire-2026-07-25T220044.png
+screenshot: https://apis.io/screenshots/goodfire/goodfire-2026-07-25T220044.png
 security:
 - kind: authentication
   name: Goodfire Authentication

@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.5
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -41,7 +43,7 @@ common:
   type: Pricing
   url: https://www.hyperprobe.co/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hyperprobe/refs/heads/main/plans/hyperprobe-plans-pricing.yml
+  href: https://artifacts.apis.io/hyperprobe/plans/hyperprobe-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hyperprobe-plans-pricing.yml
@@ -70,42 +72,42 @@ common:
   type: SignUp
   url: https://app.hyperprobe.co
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hyperprobe/refs/heads/main/packages/hyperprobe-packages.yml
+  href: https://artifacts.apis.io/hyperprobe/packages/hyperprobe-packages.yml
   title: ''
   type: SDKs
   url: packages/hyperprobe-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hyperprobe/refs/heads/main/packages/hyperprobe-packages.yml
+  href: https://artifacts.apis.io/hyperprobe/packages/hyperprobe-packages.yml
   title: ''
   type: Packages
   url: packages/hyperprobe-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperprobe/refs/heads/main/mcp/hyperprobe-mcp.yml
+  href: https://artifacts.apis.io/hyperprobe/mcp/hyperprobe-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hyperprobe-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hyperprobe/refs/heads/main/cli/hyperprobe-cli.yml
+  href: https://artifacts.apis.io/hyperprobe/cli/hyperprobe-cli.yml
   title: ''
   type: CLI
   url: cli/hyperprobe-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperprobe/refs/heads/main/llms/hyperprobe-llms.txt
+  href: https://artifacts.apis.io/hyperprobe/llms/hyperprobe-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hyperprobe-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperprobe/refs/heads/main/well-known/hyperprobe-well-known.yml
+  href: https://artifacts.apis.io/hyperprobe/well-known/hyperprobe-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hyperprobe-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperprobe/refs/heads/main/conformance/hyperprobe-conformance.yml
+  href: https://artifacts.apis.io/hyperprobe/conformance/hyperprobe-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hyperprobe-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperprobe/refs/heads/main/security/hyperprobe-domain-security.yml
+  href: https://artifacts.apis.io/hyperprobe/security/hyperprobe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hyperprobe-domain-security.yml
@@ -130,26 +132,26 @@ plans:
 - name: Hyperprobe Plans Pricing
   plan_count: 4
   slug: hyperprobe-plans-pricing
-random_paper: 10
+random_paper: 8
 score:
   band: thin
-  composite: 27.5
+  composite: 26.8
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.9
+  delta: 0.0
   facets:
     access_clarity: 55.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 55.4
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 18.6
+  previous_composite: 26.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -159,14 +161,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hyperprobe/refs/heads/main/screenshots/hyperprobe-2026-07-25T221912.png
+screenshot: https://apis.io/screenshots/hyperprobe/hyperprobe-2026-07-25T221912.png
 security:
 - kind: domain-security
   name: Hyperprobe Domain Security

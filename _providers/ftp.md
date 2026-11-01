@@ -4,6 +4,6 @@ layout: provider
 name: ftp
 nav: Providers
 network: true
-random_paper: 0
+random_paper: 18
 slug: ftp
 ---

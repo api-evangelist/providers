@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The Binance.US REST API is the primary programmatic interface to the exchange. It exposes general system and exchange information, market and trade data (recent/aggregate/historical trades, order book
@@ -61,17 +63,17 @@ asyncapis:
   slug: binance.us-websocket-streams-asyncapi
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/security/binance.us-trust-center.yml
+  href: https://artifacts.apis.io/binance.us/security/binance.us-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/binance.us-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/security/binance.us-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/binance.us/security/binance.us-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/binance.us-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/security/binance.us-domain-security.yml
+  href: https://artifacts.apis.io/binance.us/security/binance.us-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/binance.us-domain-security.yml
@@ -140,62 +142,62 @@ common:
   type: Security
   url: https://www.binance.us/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/well-known/binance.us-security.txt
+  href: https://artifacts.apis.io/binance.us/well-known/binance.us-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/binance.us-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/well-known/binance.us-well-known.yml
+  href: https://artifacts.apis.io/binance.us/well-known/binance.us-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/binance.us-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/authentication/binance.us-authentication.yml
+  href: https://artifacts.apis.io/binance.us/authentication/binance.us-authentication.yml
   title: ''
   type: Authentication
   url: authentication/binance.us-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/conventions/binance.us-conventions.yml
+  href: https://artifacts.apis.io/binance.us/conventions/binance.us-conventions.yml
   title: ''
   type: Conventions
   url: conventions/binance.us-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/errors/binance.us-error-codes.yml
+  href: https://artifacts.apis.io/binance.us/errors/binance.us-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/binance.us-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/rate-limits/binance.us-rate-limits.yml
+  href: https://artifacts.apis.io/binance.us/rate-limits/binance.us-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/binance.us-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/lifecycle/binance.us-lifecycle.yml
+  href: https://artifacts.apis.io/binance.us/lifecycle/binance.us-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/binance.us-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/changelog/binance.us-changelog.yml
+  href: https://artifacts.apis.io/binance.us/changelog/binance.us-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/binance.us-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/conformance/binance.us-conformance.yml
+  href: https://artifacts.apis.io/binance.us/conformance/binance.us-conformance.yml
   title: ''
   type: Conformance
   url: conformance/binance.us-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/packages/binance.us-packages.yml
+  href: https://artifacts.apis.io/binance.us/packages/binance.us-packages.yml
   title: ''
   type: Packages
   url: packages/binance.us-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/llms/binance.us-llms.txt
+  href: https://artifacts.apis.io/binance.us/llms/binance.us-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/binance.us-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/asyncapi/binance.us-websocket-streams-asyncapi.yml
+  href: https://artifacts.apis.io/binance.us/asyncapi/binance.us-websocket-streams-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/binance.us-websocket-streams-asyncapi.yml
@@ -214,14 +216,14 @@ overview: 'Binance.US is listed with 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   Binance.US''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Binance.Us Rate Limits
   slug: binance.us-rate-limits
 score:
   band: developing
-  composite: 49.9
+  composite: 51.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 40.0
@@ -234,10 +236,10 @@ score:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 42.2
-    developer_ergonomics: 47.6
-    discoverability: 78.6
-    operational_transparency: 44.7
-  previous_composite: 49.9
+    developer_ergonomics: 57.1
+    discoverability: 71.4
+    operational_transparency: 47.4
+  previous_composite: 51.5
   provenance:
     conformance: first-party
   regulatory:
@@ -246,14 +248,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/screenshots/binance.us-2026-08-07T162440.png
+screenshot: https://apis.io/screenshots/binance.us/binance.us-2026-08-07T162440.png
 security:
 - kind: authentication
   name: Binance.Us Authentication

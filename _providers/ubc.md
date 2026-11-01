@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-17'
+  score: 28.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 5
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 378
   slug: ubc-agentic-access
   summary_line: 378 operations · 177 acting · 5 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
 - description: 'IIIF Presentation manifests for Open Collections items, served from UBC Library''s own host. Verified live 2026-08-19: a 10,560-byte JSON manifest returned for an item in the UBC Archives Photograph Co'
   name: UBC Library Open Collections IIIF Presentation API
@@ -69,11 +71,8 @@ apis:
   description: Collection-level metadata and item traversal.
   name: University of British Columbia Collections API
   slug: ubc-collections-api
-artifact_total: 51
+artifact_total: 50
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: UBC Abacus Dataverse Access API
   slug: open-ubc-access-api
@@ -142,7 +141,7 @@ collections:
   slug: open-ubc-workflows-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/capabilities/ubc-capability-edges.yml
+  href: https://artifacts.apis.io/ubc/capabilities/ubc-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ubc-capability-edges.yml
@@ -223,62 +222,62 @@ common:
   type: AITooling
   url: https://genai.ubc.ca/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/conformance/ubc-domain-standards-conformance.yml
+  href: https://artifacts.apis.io/ubc/conformance/ubc-domain-standards-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ubc-domain-standards-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/authentication/ubc-authentication.yml
+  href: https://artifacts.apis.io/ubc/authentication/ubc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ubc-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/scopes/ubc-scopes.yml
+  href: https://artifacts.apis.io/ubc/scopes/ubc-scopes.yml
   title: ''
   type: Scopes
   url: scopes/ubc-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/errors/ubc-errors.yml
+  href: https://artifacts.apis.io/ubc/errors/ubc-errors.yml
   title: ''
   type: Errors
   url: errors/ubc-errors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/lifecycle/ubc-lifecycle.yml
+  href: https://artifacts.apis.io/ubc/lifecycle/ubc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ubc-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/agentic-access/ubc-agentic-access.yml
+  href: https://artifacts.apis.io/ubc/agentic-access/ubc-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ubc-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/security/ubc-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ubc/security/ubc-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ubc-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/security/ubc-domain-security.yml
+  href: https://artifacts.apis.io/ubc/security/ubc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ubc-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/plans/ubc-plans-pricing.yml
+  href: https://artifacts.apis.io/ubc/plans/ubc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ubc-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/rate-limits/ubc-rate-limits.yml
+  href: https://artifacts.apis.io/ubc/rate-limits/ubc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ubc-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/finops/ubc-finops.yml
+  href: https://artifacts.apis.io/ubc/finops/ubc-finops.yml
   title: ''
   type: FinOps
   url: finops/ubc-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/ubc/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -348,7 +347,7 @@ plans:
 - name: Ubc Plans Pricing
   plan_count: 2
   slug: ubc-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Ubc Rate Limits
@@ -384,22 +383,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.0
+  composite: 48.1
   coverage:
     artifact_dirs: 23
-    catalog_earned: 70.3
+    catalog_earned: 67.3
     catalog_earned_first_party: 12.0
-    catalog_gap: 44.8
+    catalog_gap: 47.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.6
+  delta: -0.5
   facets:
     access_clarity: 39.5
     contract_governance: 17.4
-    contract_quality: 55.0
-    developer_ergonomics: 35.7
-    discoverability: 71.4
-    operational_transparency: 34.2
+    contract_quality: 52.1
+    developer_ergonomics: 45.2
+    discoverability: 66.1
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -409,7 +408,7 @@ score:
     - europe
     - north-america
     - united-kingdom-ireland
-  previous_composite: 47.6
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -424,13 +423,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/screenshots/ubc-2026-06-20T195923.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ubc/ubc-2026-06-20T195923.png
 security:
 - kind: authentication
   name: Ubc Authentication

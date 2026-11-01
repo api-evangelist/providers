@@ -4,6 +4,6 @@ layout: provider
 name: capabilities
 nav: Providers
 network: true
-random_paper: 4
+random_paper: 10
 slug: capabilities
 ---

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'Integrate the system of your choice (ERP, PIM, WMS, or webstore) with ChannelEngine. Synchronize product content and offers; retrieve, acknowledge and update orders, shipments, returns, cancellations '
@@ -47,12 +49,17 @@ apis:
 - description: Export the categories and product data attributes of your marketplace to ChannelEngine via a unified approach, so merchants can map and list against your channel's taxonomy.
   name: ChannelEngine Channel Management API
   slug: channelengine-channel-management-api
-artifact_total: 8
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Channelengine Webhooks
   slug: channelengine-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/channelengine/plans/channelengine-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/channelengine-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -62,17 +69,17 @@ common:
   type: BlogRSS
   url: https://www.channelengine.com/en/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/security/channelengine-trust-center.yml
+  href: https://artifacts.apis.io/channelengine/security/channelengine-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/channelengine-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/security/channelengine-domain-security.yml
+  href: https://artifacts.apis.io/channelengine/security/channelengine-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/channelengine-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/security/channelengine-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/channelengine/security/channelengine-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/channelengine-vulnerability-disclosure.yml
@@ -141,72 +148,72 @@ common:
   type: ChangeLog
   url: https://support.channelengine.com/hc/en-us/articles/4409484849309-ChannelEngine-release-notes
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/authentication/channelengine-authentication.yml
+  href: https://artifacts.apis.io/channelengine/authentication/channelengine-authentication.yml
   title: ''
   type: Authentication
   url: authentication/channelengine-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/packages/channelengine-packages.yml
+  href: https://artifacts.apis.io/channelengine/packages/channelengine-packages.yml
   title: ''
   type: Packages
   url: packages/channelengine-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/packages/channelengine-packages.yml
+  href: https://artifacts.apis.io/channelengine/packages/channelengine-packages.yml
   title: ''
   type: SDKs
   url: packages/channelengine-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/well-known/channelengine-well-known.yml
+  href: https://artifacts.apis.io/channelengine/well-known/channelengine-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/channelengine-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/mcp/channelengine-mcp.yml
+  href: https://artifacts.apis.io/channelengine/mcp/channelengine-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/channelengine-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/llms/channelengine-llms.txt
+  href: https://artifacts.apis.io/channelengine/llms/channelengine-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/channelengine-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/conventions/channelengine-conventions.yml
+  href: https://artifacts.apis.io/channelengine/conventions/channelengine-conventions.yml
   title: ''
   type: Conventions
   url: conventions/channelengine-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/conventions/channelengine-conventions.yml
+  href: https://artifacts.apis.io/channelengine/conventions/channelengine-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/channelengine-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/conventions/channelengine-conventions.yml
+  href: https://artifacts.apis.io/channelengine/conventions/channelengine-conventions.yml
   title: ''
   type: RateLimits
   url: conventions/channelengine-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/errors/channelengine-problem-types.yml
+  href: https://artifacts.apis.io/channelengine/errors/channelengine-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/channelengine-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/lifecycle/channelengine-lifecycle.yml
+  href: https://artifacts.apis.io/channelengine/lifecycle/channelengine-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/channelengine-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/lifecycle/channelengine-lifecycle.yml
+  href: https://artifacts.apis.io/channelengine/lifecycle/channelengine-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/channelengine-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/changelog/channelengine-changelog.yml
+  href: https://artifacts.apis.io/channelengine/changelog/channelengine-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/channelengine-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/conformance/channelengine-conformance.yml
+  href: https://artifacts.apis.io/channelengine/conformance/channelengine-conformance.yml
   title: ''
   type: Conformance
   url: conformance/channelengine-conformance.yml
@@ -219,27 +226,35 @@ common:
   type: TrustCenter
   url: https://www.channelengine.com/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/data-model/channelengine-data-model.yml
+  href: https://artifacts.apis.io/channelengine/data-model/channelengine-data-model.yml
   title: ''
   type: DataModel
   url: data-model/channelengine-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/asyncapi/channelengine-webhooks.yml
+  href: https://artifacts.apis.io/channelengine/asyncapi/channelengine-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/channelengine-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/sandbox/channelengine-sandbox.yml
+  href: https://artifacts.apis.io/channelengine/sandbox/channelengine-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/channelengine-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/channelengine/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'ChannelEngine is a marketplace integration and multichannel e-commerce platform, founded in Leiden, Netherlands and backed by General Catalyst, that lets brands, retailers, and manufacturers connect their ERP, PIM, WMS, or webstore once and sell across 1,300+ global marketplaces, social platforms, and emerging AI commerce channels. It centralizes product listing, inventory and offer synchronization, order and fulfillment management, returns, and dynamic repricing from a single dashboard, and exposes three REST APIs: the Merchant API (integrate your own systems with ChannelEngine), the Channel API (build your own marketplace on ChannelEngine), and the Channel Management API (export marketplace categories and product attributes). The APIs use API-key authentication, JSON response envelopes, page-based pagination, header-based rate limiting, and webhooks for near-real-time events.'
+finops:
+- has_sources: true
+  method: derived
+  name: Channelengine Finops
+  primary_unit: ''
+  service_category: ''
+  slug: channelengine-finops
+  template: true
 image: https://www.channelengine.com/hubfs/ChannelEngine-Logomark.png
 layout: provider
 modified: '2026-10-06'
@@ -252,26 +267,30 @@ overview: 'ChannelEngine is listed with 3 APIs on the [APIs.io](https://apis.io/
   The ChannelEngine catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ChannelEngine''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 34 more developer resources.'
-random_paper: 17
+  ChannelEngine''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 35 more developer resources.'
+plans:
+- name: Channelengine Plans Pricing
+  plan_count: 1
+  slug: channelengine-plans-pricing
+random_paper: 15
 score:
   band: strong
-  composite: 54.7
+  composite: 58.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 21
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 50.0
+    access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 73.2
-    discoverability: 78.6
-    operational_transparency: 60.5
+    discoverability: 71.4
+    operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -280,7 +299,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 54.7
+  previous_composite: 54.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -295,14 +314,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/screenshots/channelengine-2026-07-25T205043.png
+screenshot: https://apis.io/screenshots/channelengine/channelengine-2026-07-25T205043.png
 security:
 - kind: authentication
   name: Channelengine Authentication
@@ -320,6 +339,16 @@ security:
   name: Channelengine Trust Center
   slug: channelengine-trust-center
   summary_line: ISO 27001, GDPR
+skill_count: 4
+skills:
+- name: Fulfill new ChannelEngine orders
+  slug: channelengine-fulfill-orders
+- name: Handle ChannelEngine returns and cancellations
+  slug: channelengine-handle-returns
+- name: Subscribe to ChannelEngine webhooks
+  slug: channelengine-manage-webhooks
+- name: Sync product catalog and stock to ChannelEngine
+  slug: channelengine-sync-catalog
 slug: channelengine
 tags:
 - Company

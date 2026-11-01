@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 2
@@ -158,65 +160,65 @@ apis:
   description: The Workflows API from Clubhousesoftware — 2 operation(s) for workflows.
   name: Clubhousesoftware Workflows API
   slug: clubhousesoftware-workflows-api
-artifact_total: 30
+artifact_total: 31
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/agentic-access/clubhousesoftware-agentic-access.yml
+  href: https://artifacts.apis.io/clubhousesoftware/agentic-access/clubhousesoftware-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/clubhousesoftware-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/rules/clubhousesoftware-rules.yml
+  href: https://artifacts.apis.io/clubhousesoftware/rules/clubhousesoftware-rules.yml
   title: ''
   type: Spectral
   url: rules/clubhousesoftware-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/json-ld/clubhousesoftware-context.jsonld
+  href: https://artifacts.apis.io/clubhousesoftware/json-ld/clubhousesoftware-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/clubhousesoftware-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/vocabulary/clubhousesoftware-vocabulary.yml
+  href: https://artifacts.apis.io/clubhousesoftware/vocabulary/clubhousesoftware-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/clubhousesoftware-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/clubhousesoftware/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/data-model/clubhousesoftware-data-model.yml
+  href: https://artifacts.apis.io/clubhousesoftware/data-model/clubhousesoftware-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clubhousesoftware-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/errors/clubhousesoftware-problem-types.yml
+  href: https://artifacts.apis.io/clubhousesoftware/errors/clubhousesoftware-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clubhousesoftware-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/conformance/clubhousesoftware-conformance.yml
+  href: https://artifacts.apis.io/clubhousesoftware/conformance/clubhousesoftware-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clubhousesoftware-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/hosts/clubhousesoftware-hosts.yml
+  href: https://artifacts.apis.io/clubhousesoftware/hosts/clubhousesoftware-hosts.yml
   title: ''
   type: Hosts
   url: hosts/clubhousesoftware-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/vendors/clubhousesoftware-vendors.yml
+  href: https://artifacts.apis.io/clubhousesoftware/vendors/clubhousesoftware-vendors.yml
   title: ''
   type: Vendors
   url: vendors/clubhousesoftware-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/security/clubhousesoftware-domain-security.yml
+  href: https://artifacts.apis.io/clubhousesoftware/security/clubhousesoftware-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clubhousesoftware-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/authentication/clubhousesoftware-authentication.yml
+  href: https://artifacts.apis.io/clubhousesoftware/authentication/clubhousesoftware-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clubhousesoftware-authentication.yml
@@ -243,7 +245,7 @@ overview: 'Clubhousesoftware publishes 25 API contracts indexed on the [APIs.io]
 
 
   Clubhousesoftware''s developer surface includes authentication and 12 more developer resources.'
-random_paper: 19
+random_paper: 21
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -258,8 +260,8 @@ rules:
     warn: 1
   slug: clubhousesoftware-rules
 score:
-  band: thin
-  composite: 26.9
+  band: emerging
+  composite: 24.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 41.8
@@ -267,19 +269,15 @@ score:
     catalog_gap: 73.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
-    contract_quality: 59.1
+    contract_quality: 55.7
     developer_ergonomics: 13.7
     discoverability: 44.6
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: venue_as_website
+  previous_composite: 24.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -296,11 +294,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Clubhousesoftware Authentication
@@ -310,6 +310,10 @@ security:
   name: Clubhousesoftware Domain Security
   slug: clubhousesoftware-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: clubhousesoftware-create-and-link-doc
+  slug: clubhousesoftware-create-and-link-doc
 slug: clubhousesoftware
 tags:
 - Company

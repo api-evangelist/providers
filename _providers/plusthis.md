@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -44,7 +46,7 @@ asyncapis:
   slug: plusthis-webhooks
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/plusthis/refs/heads/main/rate-limits/plusthis-rate-limits.yml
+  href: https://artifacts.apis.io/plusthis/rate-limits/plusthis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/plusthis-rate-limits.yml
@@ -89,27 +91,27 @@ common:
   type: PrivacyPolicy
   url: https://www.plusthis.com/privacy
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/plusthis/refs/heads/main/plans/plusthis-plans-pricing.yml
+  href: https://artifacts.apis.io/plusthis/plans/plusthis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/plusthis-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/plusthis/refs/heads/main/llms/plusthis-llms.txt
+  href: https://artifacts.apis.io/plusthis/llms/plusthis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/plusthis-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plusthis/refs/heads/main/lifecycle/plusthis-lifecycle.yml
+  href: https://artifacts.apis.io/plusthis/lifecycle/plusthis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/plusthis-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/plusthis/refs/heads/main/packages/plusthis-packages.yml
+  href: https://artifacts.apis.io/plusthis/packages/plusthis-packages.yml
   title: ''
   type: Packages
   url: packages/plusthis-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plusthis/refs/heads/main/security/plusthis-domain-security.yml
+  href: https://artifacts.apis.io/plusthis/security/plusthis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/plusthis-domain-security.yml
@@ -151,14 +153,14 @@ plans:
 - name: Plusthis Plans Pricing
   plan_count: 7
   slug: plusthis-plans-pricing
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Plusthis Rate Limits
   slug: plusthis-rate-limits
 score:
   band: thin
-  composite: 32.6
+  composite: 33.2
   coverage:
     artifact_dirs: 12
     catalog_earned: 39.0
@@ -172,8 +174,8 @@ score:
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 16.7
-    discoverability: 55.4
-    operational_transparency: 0.0
+    discoverability: 48.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -181,21 +183,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 32.6
+  previous_composite: 33.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 11.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/plusthis/refs/heads/main/screenshots/plusthis-2026-09-02T151553.png
+screenshot: https://apis.io/screenshots/plusthis/plusthis-2026-09-02T151553.png
 security:
 - kind: domain-security
   name: Plusthis Domain Security

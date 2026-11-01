@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The OptinMonster application REST API. Versioned path segments (`/v1`, `/v2`) sit on api.optinmonster.com and cover campaigns, leads, sites, site origins, integrations, account, revenue attribution an
@@ -48,14 +50,14 @@ apis:
 - description: A client-side event API exposed by the OptinMonster embed script (served from a.omappapi.com/app/js/api.min.js). Roughly sixty documented `om.*` events fire across campaign initialization, display-rul
   name: OptinMonster JavaScript Events API
   slug: optinmonster-javascript-events-api
-artifact_total: 9
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Optinmonster Webhooks
   slug: optinmonster-webhooks
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/optinmonster/refs/heads/main/rate-limits/optinmonster-rate-limits.yml
+  href: https://artifacts.apis.io/optinmonster/rate-limits/optinmonster-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/optinmonster-rate-limits.yml
@@ -104,63 +106,71 @@ common:
   type: Security
   url: https://optinmonster.com/security/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/optinmonster/refs/heads/main/packages/optinmonster-packages.yml
+  href: https://artifacts.apis.io/optinmonster/packages/optinmonster-packages.yml
   title: ''
   type: Packages
   url: packages/optinmonster-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/optinmonster/refs/heads/main/packages/optinmonster-packages.yml
+  href: https://artifacts.apis.io/optinmonster/packages/optinmonster-packages.yml
   title: ''
   type: SDKs
   url: packages/optinmonster-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/optinmonster/refs/heads/main/llms/optinmonster-llms.txt
+  href: https://artifacts.apis.io/optinmonster/llms/optinmonster-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/optinmonster-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/optinmonster/refs/heads/main/asyncapi/optinmonster-webhooks.yml
+  href: https://artifacts.apis.io/optinmonster/asyncapi/optinmonster-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/optinmonster-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/optinmonster/refs/heads/main/changelog/optinmonster-changelog.yml
+  href: https://artifacts.apis.io/optinmonster/changelog/optinmonster-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/optinmonster-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/optinmonster/refs/heads/main/lifecycle/optinmonster-lifecycle.yml
+  href: https://artifacts.apis.io/optinmonster/lifecycle/optinmonster-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/optinmonster-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/optinmonster/refs/heads/main/plans/optinmonster-plans-pricing.yml
+  href: https://artifacts.apis.io/optinmonster/plans/optinmonster-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/optinmonster-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/optinmonster/refs/heads/main/conformance/optinmonster-conformance.yml
+  href: https://artifacts.apis.io/optinmonster/conformance/optinmonster-conformance.yml
   title: ''
   type: Conformance
   url: conformance/optinmonster-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/optinmonster/refs/heads/main/security/optinmonster-domain-security.yml
+  href: https://artifacts.apis.io/optinmonster/security/optinmonster-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/optinmonster-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/optinmonster/refs/heads/main/security/optinmonster-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/optinmonster/security/optinmonster-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/optinmonster-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/optinmonster/refs/heads/main/components/optinmonster-components.yml
+  href: https://artifacts.apis.io/optinmonster/components/optinmonster-components.yml
   title: ''
   type: Components
   url: components/optinmonster-components.yml
 created: '2026-08-12'
 description: OptinMonster is a lead-generation and conversion-optimization SaaS from Awesome Motive that serves on-site campaigns — popups, floating bars, slide-ins, fullscreen fills, inline forms and gamified spin-to-win wheels — targeted by display rules such as Exit Intent, page-level targeting, geolocation, referrer and on-site behavior. Campaigns are built in a hosted visual builder at app.optinmonster.com and rendered on customer sites by a JavaScript embed served from the a.omappapi.com CDN. The platform exposes a private-key REST API at api.optinmonster.com (v1 and v2) and a mirror at api.omwpapi.com used by the first-party WordPress plugin, covering campaigns, leads, sites, integrations, revenue attribution and templates; a client-side JavaScript Events API of roughly sixty `om.*` lifecycle events for hooking campaign display, conversion and analytics; and an outbound webhook that POSTs captured lead data to a customer endpoint. Leads are routed to more than sixty marketing platforms
   through built-in integrations.
+finops:
+- has_sources: true
+  method: derived
+  name: Optinmonster Finops
+  primary_unit: site
+  service_category: ''
+  slug: optinmonster-finops
+  template: false
 image: https://cdn.optinmonster.com/wp-content/uploads/2024/05/cropped-archie-1-192x192.png
 layout: provider
 modified: '2026-08-12'
@@ -176,8 +186,11 @@ overview: 'OptinMonster is listed with 3 APIs on the [APIs.io](https://apis.io/)
   OptinMonster''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 16 more developer resources.'
 plans:
 - name: Optinmonster Plans Pricing
-  plan_count: 4
+  plan_count: 6
   slug: optinmonster-plans-pricing
+- name: Optinmonster Price Estimates
+  plan_count: 0
+  slug: optinmonster-price-estimates
 random_paper: 10
 rate_limits:
 - limit_count: 0
@@ -185,23 +198,23 @@ rate_limits:
   slug: optinmonster-rate-limits
 score:
   band: developing
-  composite: 52.3
+  composite: 53.1
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 52.0
+    artifact_dirs: 20
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 39.5
-  previous_composite: 52.2
+  previous_composite: 51.5
   provenance:
     conformance: derived
   regulatory:
@@ -210,14 +223,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/optinmonster/refs/heads/main/screenshots/optinmonster-2026-08-17T081135.png
+screenshot: https://apis.io/screenshots/optinmonster/optinmonster-2026-08-17T081135.png
 security:
 - kind: authentication
   name: Optinmonster Authentication

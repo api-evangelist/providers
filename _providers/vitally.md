@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.2
-  scored_at: '2026-10-17'
+  score: 51.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -91,15 +93,12 @@ apis:
   description: The Users API from Vitally — 3 operation(s) for users.
   name: Vitally Users API
   slug: vitally-users-api
-artifact_total: 28
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Vitally Webhooks
   slug: vitally-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Vitally REST Accounts API
   slug: open-vitally-accounts-api
@@ -128,13 +127,17 @@ collections:
   name: Vitally REST Accounts Users API
   slug: open-vitally-users-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/vitally/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/plans/vitally-plans-pricing.yml
+  href: https://artifacts.apis.io/vitally/plans/vitally-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vitally-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/overlays/vitally-rest-overlay.yaml
+  href: https://artifacts.apis.io/vitally/overlays/vitally-rest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vitally-rest-overlay.yaml
@@ -187,47 +190,47 @@ common:
   type: StatusPage
   url: https://vitally.statuspage.io
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/changelog/vitally-changelog.yml
+  href: https://artifacts.apis.io/vitally/changelog/vitally-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vitally-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/mcp/vitally-mcp.yml
+  href: https://artifacts.apis.io/vitally/mcp/vitally-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/vitally-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/llms/vitally-llms.txt
+  href: https://artifacts.apis.io/vitally/llms/vitally-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vitally-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/authentication/vitally-authentication.yml
+  href: https://artifacts.apis.io/vitally/authentication/vitally-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vitally-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/rate-limits/vitally-rate-limits.yml
+  href: https://artifacts.apis.io/vitally/rate-limits/vitally-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vitally-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/conventions/vitally-conventions.yml
+  href: https://artifacts.apis.io/vitally/conventions/vitally-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vitally-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/errors/vitally-problem-types.yml
+  href: https://artifacts.apis.io/vitally/errors/vitally-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vitally-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/lifecycle/vitally-lifecycle.yml
+  href: https://artifacts.apis.io/vitally/lifecycle/vitally-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vitally-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/conformance/vitally-conformance.yml
+  href: https://artifacts.apis.io/vitally/conformance/vitally-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vitally-conformance.yml
@@ -240,57 +243,65 @@ common:
   type: Security
   url: https://www.vitally.io/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/security/vitally-trust-center.yml
+  href: https://artifacts.apis.io/vitally/security/vitally-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vitally-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/security/vitally-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/vitally/security/vitally-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vitally-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/security/vitally-domain-security.yml
+  href: https://artifacts.apis.io/vitally/security/vitally-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vitally-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/agentic-access/vitally-agentic-access.yml
+  href: https://artifacts.apis.io/vitally/agentic-access/vitally-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vitally-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/data-model/vitally-data-model.yml
+  href: https://artifacts.apis.io/vitally/data-model/vitally-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vitally-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vitally/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/packages/vitally-packages.yml
+  href: https://artifacts.apis.io/vitally/packages/vitally-packages.yml
   title: ''
   type: Packages
   url: packages/vitally-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/packages/vitally-packages.yml
+  href: https://artifacts.apis.io/vitally/packages/vitally-packages.yml
   title: ''
   type: SDKs
   url: packages/vitally-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/asyncapi/vitally-webhooks.yml
+  href: https://artifacts.apis.io/vitally/asyncapi/vitally-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vitally-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/components/vitally-components.yml
+  href: https://artifacts.apis.io/vitally/components/vitally-components.yml
   title: ''
   type: Components
   url: components/vitally-components.yml
 created: '2026-07-17'
 description: Vitally is an AI-powered Customer Success platform (CSP) that unifies customer data, health scores, and revenue context with workflow automation — Hubs, automated Playbooks, Docs, Projects, and NPS and custom surveys — plus Vitally AI (Copilot, Summaries, Meeting Recorder). Its public REST API exposes the core Customer Success objects (accounts, organizations, users, tasks, notes, conversations, NPS responses, custom objects) over HTTP Basic auth with cursor pagination and RateLimit headers, and an official remote MCP server (Beta) connects MCP-compatible AI clients to a Vitally workspace.
+finops:
+- has_sources: true
+  method: derived
+  name: Vitally Finops
+  primary_unit: ''
+  service_category: ''
+  slug: vitally-finops
+  template: true
 image: https://cdn.prod.website-files.com/63d3e5f547ca0a274b2e07e1/65456c4b07c63e23bfaedbea_logo-vitally.png
 layout: provider
 mcp_servers:
@@ -307,35 +318,35 @@ overview: 'Vitally is listed with 9 APIs on the [APIs.io](https://apis.io/) netw
   The Vitally catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Vitally''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Vitally''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 plans:
 - name: Vitally Plans Pricing
   plan_count: 3
   slug: vitally-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Vitally Rate Limits
   slug: vitally-rate-limits
 score:
   band: strong
-  composite: 60.0
+  composite: 56.4
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 0.2
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 24.4
-    developer_ergonomics: 56.5
-    discoverability: 80.0
+    contract_quality: 21.5
+    developer_ergonomics: 57.7
+    discoverability: 70.0
     operational_transparency: 71.1
-  previous_composite: 53.6
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -352,13 +363,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/screenshots/vitally-2026-08-17T082804.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vitally/vitally-2026-08-17T082804.png
 security:
 - kind: authentication
   name: Vitally Authentication
@@ -376,6 +388,14 @@ security:
   name: Vitally Trust Center
   slug: vitally-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 3
+skills:
+- name: Find at-risk accounts and summarize activity
+  slug: vitally-find-at-risk-accounts
+- name: Log a follow-up task on an account
+  slug: vitally-log-followup-task
+- name: Sync an account and its users
+  slug: vitally-sync-account-and-users
 slug: vitally
 tags:
 - Company

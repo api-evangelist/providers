@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
+  score: 19.5
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Hosted Model Context Protocol server that doubles as Polar's HTTP API surface; invoke tools at POST https://api.polaranalytics.com/mcp/tool/<tool_name> with a Bearer API key. Exposes 8 tools for gener
@@ -42,34 +44,34 @@ apis:
 - description: First-party, server-side tracking pixel that captures the ecommerce customer journey from the merchant's own domain and builds a graph-based Lifetime ID. Client events are reported via the @polar-anal
   name: Polar Pixel
   slug: polar-pixel
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
   type: Website
   url: https://www.polaranalytics.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/polar-analytics/refs/heads/main/mcp/polar-analytics-mcp.yml
+  href: https://artifacts.apis.io/polar-analytics/mcp/polar-analytics-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/polar-analytics-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/polar-analytics/refs/heads/main/well-known/polar-analytics-well-known.yml
+  href: https://artifacts.apis.io/polar-analytics/well-known/polar-analytics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/polar-analytics-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/polar-analytics/refs/heads/main/authentication/polar-analytics-authentication.yml
+  href: https://artifacts.apis.io/polar-analytics/authentication/polar-analytics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/polar-analytics-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/polar-analytics/refs/heads/main/conventions/polar-analytics-conventions.yml
+  href: https://artifacts.apis.io/polar-analytics/conventions/polar-analytics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/polar-analytics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/polar-analytics/refs/heads/main/conformance/polar-analytics-conformance.yml
+  href: https://artifacts.apis.io/polar-analytics/conformance/polar-analytics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/polar-analytics-conformance.yml
@@ -78,32 +80,32 @@ common:
   type: Compliance
   url: https://www.polaranalytics.com/policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/polar-analytics/refs/heads/main/llms/polar-analytics-llms.txt
+  href: https://artifacts.apis.io/polar-analytics/llms/polar-analytics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/polar-analytics-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/polar-analytics/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/polar-analytics/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/polar-analytics/refs/heads/main/security/polar-analytics-domain-security.yml
+  href: https://artifacts.apis.io/polar-analytics/security/polar-analytics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/polar-analytics-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/polar-analytics/refs/heads/main/packages/polar-analytics-packages.yml
+  href: https://artifacts.apis.io/polar-analytics/packages/polar-analytics-packages.yml
   title: ''
   type: Packages
   url: packages/polar-analytics-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/polar-analytics/refs/heads/main/packages/polar-analytics-packages.yml
+  href: https://artifacts.apis.io/polar-analytics/packages/polar-analytics-packages.yml
   title: ''
   type: SDKs
   url: packages/polar-analytics-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/polar-analytics/refs/heads/main/lifecycle/polar-analytics-lifecycle.yml
+  href: https://artifacts.apis.io/polar-analytics/lifecycle/polar-analytics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/polar-analytics-lifecycle.yml
@@ -159,10 +161,10 @@ overview: 'Polar Analytics is listed with 2 APIs on the [APIs.io](https://apis.i
 
 
   Polar Analytics'' developer surface includes authentication, documentation, support, pricing, engineering blog, and 17 more developer resources.'
-random_paper: 15
+random_paper: 19
 score:
   band: thin
-  composite: 32.4
+  composite: 33.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -170,15 +172,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 44.6
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 32.3
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 33.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -193,14 +195,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/polar-analytics/refs/heads/main/screenshots/polar-analytics-2026-09-02T151642.png
+screenshot: https://apis.io/screenshots/polar-analytics/polar-analytics-2026-09-02T151642.png
 security:
 - kind: authentication
   name: Polar Analytics Authentication
@@ -210,6 +212,10 @@ security:
   name: Polar Analytics Domain Security
   slug: polar-analytics-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Generate an ecommerce analytics report with Polar
+  slug: polar-analytics-generate-ecommerce-report
 slug: polar-analytics
 tags:
 - Company

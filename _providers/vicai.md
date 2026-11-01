@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.9
-  scored_at: '2026-10-17'
+  score: 32.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 0
@@ -210,15 +212,12 @@ apis:
   description: Webhook subscriptions control which events your system receives and where they are delivered. Each company may have one V0 subscription or multiple V2 subscriptions. You can subscribe to all events or
   name: Vic.ai Webhook Subscriptions API
   slug: vicai-webhook-subscriptions-api
-artifact_total: 74
+artifact_total: 77
 asyncapis:
 - description: ''
   name: Vicai Webhooks
   slug: vicai-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Vic.ai Accounts API
   slug: open-vicai-accounts-api
@@ -320,17 +319,17 @@ collections:
   slug: open-vicai-webhook-subscriptions-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/plans/vicai-plans-pricing.yml
+  href: https://artifacts.apis.io/vicai/plans/vicai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vicai-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/capabilities/vicai-capability-edges.yml
+  href: https://artifacts.apis.io/vicai/capabilities/vicai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vicai-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/overlays/vicai-overlay.yaml
+  href: https://artifacts.apis.io/vicai/overlays/vicai-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vicai-overlay.yaml
@@ -383,77 +382,77 @@ common:
   type: Compliance
   url: https://www.vic.ai/trust-and-security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/security/vicai-trust-center.yml
+  href: https://artifacts.apis.io/vicai/security/vicai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vicai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/security/vicai-domain-security.yml
+  href: https://artifacts.apis.io/vicai/security/vicai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vicai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/authentication/vicai-authentication.yml
+  href: https://artifacts.apis.io/vicai/authentication/vicai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vicai-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/agentic-access/vicai-agentic-access.yml
+  href: https://artifacts.apis.io/vicai/agentic-access/vicai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vicai-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/conventions/vicai-conventions.yml
+  href: https://artifacts.apis.io/vicai/conventions/vicai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vicai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/lifecycle/vicai-lifecycle.yml
+  href: https://artifacts.apis.io/vicai/lifecycle/vicai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vicai-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/changelog/vicai-changelog.yml
+  href: https://artifacts.apis.io/vicai/changelog/vicai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vicai-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/asyncapi/vicai-webhooks.yml
+  href: https://artifacts.apis.io/vicai/asyncapi/vicai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vicai-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/errors/vicai-error-codes.yml
+  href: https://artifacts.apis.io/vicai/errors/vicai-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/vicai-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/conformance/vicai-conformance.yml
+  href: https://artifacts.apis.io/vicai/conformance/vicai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vicai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/data-model/vicai-data-model.yml
+  href: https://artifacts.apis.io/vicai/data-model/vicai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vicai-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/rate-limits/vicai-rate-limits.yml
+  href: https://artifacts.apis.io/vicai/rate-limits/vicai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vicai-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/mcp/vicai-mcp.yml
+  href: https://artifacts.apis.io/vicai/mcp/vicai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vicai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/llms/vicai-llms.txt
+  href: https://artifacts.apis.io/vicai/llms/vicai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vicai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vicai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -463,6 +462,14 @@ common:
   url: https://www.vic.ai
 created: '2026-07-17'
 description: 'Vic.ai builds AI-native software for enterprise Accounts Payable and finance teams, automating the end-to-end AP workflow: invoice capture from email/SFTP/API/mobile, AI extraction of header and line-level data, GL coding, purchase-order matching, approval routing, bill pay and vendor portals, corporate-card expense management, and analytics. It integrates with major ERPs (SAP, Oracle, Microsoft Dynamics, NetSuite, Workday, Coupa). The public Vic.ai API (docs.vic.ai) is an ERP-integration surface with 173 operations across invoices, purchase orders, payments, masterdata sync, and webhooks, authenticated with client-credentials Bearer JWTs. Vic.ai holds SOC 1/SOC 2 Type II and operates on an ISO 27001 framework. Backed by Cowboy Ventures, GGV Capital, and ICONIQ Capital.'
+finops:
+- has_sources: true
+  method: derived
+  name: Vicai Finops
+  primary_unit: ''
+  service_category: ''
+  slug: vicai-finops
+  template: true
 image: https://cdn.prod.website-files.com/67284e81c67879feb155c7f7/67dc61e47defbf433781d696_Home%20Page.png
 layout: provider
 modified: '2026-07-21'
@@ -480,16 +487,16 @@ plans:
 - name: Vicai Plans Pricing
   plan_count: 0
   slug: vicai-plans-pricing
-random_paper: 18
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Vicai Rate Limits
   slug: vicai-rate-limits
 score:
-  band: strong
-  composite: 59.2
+  band: developing
+  composite: 52.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -499,11 +506,11 @@ score:
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 60.3
+    contract_quality: 57.6
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 47.4
-  previous_composite: 59.2
+    discoverability: 66.1
+    operational_transparency: 50.0
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -520,13 +527,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/screenshots/vicai-2026-08-17T082809.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vicai/vicai-2026-08-17T082809.png
 security:
 - kind: authentication
   name: Vicai Authentication
@@ -540,6 +548,14 @@ security:
   name: Vicai Trust Center
   slug: vicai-trust-center
   summary_line: SOC 1 Type II, SOC 2 Type II, ISO 27001
+skill_count: 3
+skills:
+- name: Post an approved invoice from Vic.ai to your ERP
+  slug: vicai-post-invoice-to-erp
+- name: Sync purchase orders for invoice matching
+  slug: vicai-purchase-order-matching
+- name: Sync ERP masterdata into Vic.ai
+  slug: vicai-sync-erp-masterdata
 slug: vicai
 tags:
 - Company

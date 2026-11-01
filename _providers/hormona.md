@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,12 +79,12 @@ common:
   type: GooglePlay
   url: https://play.google.com/store/apps/details?id=com.hormona.hormonaapp
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hormona/refs/heads/main/well-known/hormona-well-known.yml
+  href: https://artifacts.apis.io/hormona/well-known/hormona-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hormona-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hormona/refs/heads/main/security/hormona-domain-security.yml
+  href: https://artifacts.apis.io/hormona/security/hormona-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hormona-domain-security.yml
@@ -98,10 +100,10 @@ overview: 'Hormona is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Hormona''s developer surface includes engineering blog, support, pricing, and 9 more developer resources.'
-random_paper: 8
+random_paper: 12
 score:
   band: emerging
-  composite: 14.4
+  composite: 15.7
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -111,7 +113,7 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -125,21 +127,21 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 14.4
+  previous_composite: 15.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 15.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hormona/refs/heads/main/screenshots/hormona-2026-08-07T170337.png
+screenshot: https://apis.io/screenshots/hormona/hormona-2026-08-07T170337.png
 security:
 - kind: domain-security
   name: Hormona Domain Security

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Partner-delivered, contact-sales data API that serves PREDIK''s enriched location-intelligence products - POI data, aggregated foot-traffic and mobility data, company and commercial-area intelligence, '
@@ -49,7 +51,7 @@ common:
   type: BlogRSS
   url: https://predikdata.com/es/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/predikt-ai/refs/heads/main/security/predikt-ai-domain-security.yml
+  href: https://artifacts.apis.io/predikt-ai/security/predikt-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/predikt-ai-domain-security.yml
@@ -70,22 +72,22 @@ common:
   type: Listing
   url: https://datarade.ai/data-providers/centralamericadata/profile
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/predikt-ai/refs/heads/main/plans/predikt-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/predikt-ai/plans/predikt-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/predikt-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/predikt-ai/refs/heads/main/rate-limits/predikt-ai-rate-limits.yml
+  href: https://artifacts.apis.io/predikt-ai/rate-limits/predikt-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/predikt-ai-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/predikt-ai/refs/heads/main/llms/predikt-ai-llms.txt
+  href: https://artifacts.apis.io/predikt-ai/llms/predikt-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/predikt-ai-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/predikt-ai/refs/heads/main/well-known/predikt-ai-robots.txt
+  href: https://artifacts.apis.io/predikt-ai/well-known/predikt-ai-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/predikt-ai-robots.txt
@@ -137,14 +139,14 @@ plans:
 - name: Predikt Ai Plans Pricing
   plan_count: 0
   slug: predikt-ai-plans-pricing
-random_paper: 12
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Predikt Ai Rate Limits
   slug: predikt-ai-rate-limits
 score:
   band: emerging
-  composite: 14.7
+  composite: 14.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -152,29 +154,29 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 14.6
+  previous_composite: 14.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/predikt-ai/refs/heads/main/screenshots/predikt-ai-2026-09-02T151926.png
+screenshot: https://apis.io/screenshots/predikt-ai/predikt-ai-2026-09-02T151926.png
 security:
 - kind: domain-security
   name: Predikt Ai Domain Security
@@ -191,7 +193,7 @@ tags:
 - Location Intelligence
 - Geospatial
 - Foot Traffic
-- POI Data
+- POI
 - Mobility Data
 - Demand Forecasting
 - Site Selection

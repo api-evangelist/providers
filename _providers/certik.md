@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.4
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,11 +56,8 @@ apis:
   description: Real-time on-chain token contract security analysis.
   name: CertiK Token Scan API
   slug: certik-token-scan-api
-artifact_total: 10
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CertiK Partner (Skynet) Security Score API
   slug: open-certik-security-score-api
@@ -79,47 +78,47 @@ common:
   type: APIReference
   url: https://api.certik-skynet.com/public-docs/apis/security-score
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/authentication/certik-authentication.yml
+  href: https://artifacts.apis.io/certik/authentication/certik-authentication.yml
   title: ''
   type: Authentication
   url: authentication/certik-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/agentic-access/certik-agentic-access.yml
+  href: https://artifacts.apis.io/certik/agentic-access/certik-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/certik-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/mcp/certik-mcp.yml
+  href: https://artifacts.apis.io/certik/mcp/certik-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/certik-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/certik/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/llms/certik-llms.txt
+  href: https://artifacts.apis.io/certik/llms/certik-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/certik-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/errors/certik-problem-types.yml
+  href: https://artifacts.apis.io/certik/errors/certik-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/certik-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/conventions/certik-conventions.yml
+  href: https://artifacts.apis.io/certik/conventions/certik-conventions.yml
   title: ''
   type: Conventions
   url: conventions/certik-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/data-model/certik-data-model.yml
+  href: https://artifacts.apis.io/certik/data-model/certik-data-model.yml
   title: ''
   type: DataModel
   url: data-model/certik-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/conformance/certik-conformance.yml
+  href: https://artifacts.apis.io/certik/conformance/certik-conformance.yml
   title: ''
   type: Conformance
   url: conformance/certik-conformance.yml
@@ -128,12 +127,12 @@ common:
   type: Compliance
   url: https://www.certik.com/company/trust-and-security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/security/certik-trust-center.yml
+  href: https://artifacts.apis.io/certik/security/certik-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/certik-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/security/certik-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/certik/security/certik-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/certik-vulnerability-disclosure.yml
@@ -142,22 +141,22 @@ common:
   type: Security
   url: https://www.certik.com/company/bug-bounty
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/security/certik-domain-security.yml
+  href: https://artifacts.apis.io/certik/security/certik-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/certik-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/lifecycle/certik-lifecycle.yml
+  href: https://artifacts.apis.io/certik/lifecycle/certik-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/certik-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/changelog/certik-changelog.yml
+  href: https://artifacts.apis.io/certik/changelog/certik-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/certik-changelog.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/overlays/certik-skynet-overlay.yaml
+  href: https://artifacts.apis.io/certik/overlays/certik-skynet-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/certik-skynet-overlay.yaml
@@ -193,10 +192,10 @@ overview: 'CertiK publishes 2 API contracts indexed on the [APIs.io](https://api
 
 
   CertiK''s developer surface includes documentation, API reference, authentication, changelog, engineering blog, support, and 19 more developer resources.'
-random_paper: 4
+random_paper: 18
 score:
   band: thin
-  composite: 36.2
+  composite: 35.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -204,15 +203,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 13.9
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 36.1
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -229,14 +228,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/screenshots/certik-2026-07-25T205001.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/certik/certik-2026-07-25T205001.png
 security:
 - kind: authentication
   name: Certik Authentication
@@ -254,6 +253,12 @@ security:
   name: Certik Trust Center
   slug: certik-trust-center
   summary_line: SOC 2 Type II, ISO 27001
+skill_count: 2
+skills:
+- name: Check a project's Skynet security score
+  slug: certik-check-project-security-score
+- name: Scan a token contract for risk
+  slug: certik-scan-token-contract
 slug: certik
 tags:
 - Company

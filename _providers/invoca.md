@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-17'
+  score: 31.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://invoca.net
@@ -50,10 +52,15 @@ apis:
   description: Phone Numbers
   name: Invoca Phone Numbers API
   slug: invoca-phone-numbers-api
-artifact_total: 7
+artifact_total: 11
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/overlays/invoca-sms-messaging-overlay.yaml
+  href: https://artifacts.apis.io/invoca/capabilities/invoca-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/invoca-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/invoca/overlays/invoca-sms-messaging-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/invoca-sms-messaging-overlay.yaml
@@ -118,52 +125,52 @@ common:
   type: Compliance
   url: https://www.invoca.com/product/security-compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/authentication/invoca-authentication.yml
+  href: https://artifacts.apis.io/invoca/authentication/invoca-authentication.yml
   title: ''
   type: Authentication
   url: authentication/invoca-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/conventions/invoca-conventions.yml
+  href: https://artifacts.apis.io/invoca/conventions/invoca-conventions.yml
   title: ''
   type: Conventions
   url: conventions/invoca-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/conventions/invoca-conventions.yml
+  href: https://artifacts.apis.io/invoca/conventions/invoca-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/invoca-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/lifecycle/invoca-lifecycle.yml
+  href: https://artifacts.apis.io/invoca/lifecycle/invoca-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/invoca-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/lifecycle/invoca-lifecycle.yml
+  href: https://artifacts.apis.io/invoca/lifecycle/invoca-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/invoca-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/conformance/invoca-conformance.yml
+  href: https://artifacts.apis.io/invoca/conformance/invoca-conformance.yml
   title: ''
   type: Conformance
   url: conformance/invoca-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/errors/invoca-problem-types.yml
+  href: https://artifacts.apis.io/invoca/errors/invoca-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/invoca-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/mcp/invoca-mcp.yml
+  href: https://artifacts.apis.io/invoca/mcp/invoca-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/invoca-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/security/invoca-domain-security.yml
+  href: https://artifacts.apis.io/invoca/security/invoca-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/invoca-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/llms/invoca-llms.txt
+  href: https://artifacts.apis.io/invoca/llms/invoca-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/invoca-llms.txt
@@ -172,47 +179,55 @@ common:
   type: ChangeLog
   url: https://www.invoca.com/latest-releases
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/changelog/invoca-changelog.yml
+  href: https://artifacts.apis.io/invoca/changelog/invoca-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/invoca-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/packages/invoca-packages.yml
+  href: https://artifacts.apis.io/invoca/packages/invoca-packages.yml
   title: ''
   type: Packages
   url: packages/invoca-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/plans/invoca-plans-pricing.yml
+  href: https://artifacts.apis.io/invoca/plans/invoca-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/invoca-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/rate-limits/invoca-rate-limits.yml
+  href: https://artifacts.apis.io/invoca/rate-limits/invoca-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/invoca-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/components/invoca-components.yml
+  href: https://artifacts.apis.io/invoca/components/invoca-components.yml
   title: ''
   type: Components
   url: components/invoca-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/sandbox/invoca-sandbox.yml
+  href: https://artifacts.apis.io/invoca/sandbox/invoca-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/invoca-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/data-model/invoca-data-model.yml
+  href: https://artifacts.apis.io/invoca/data-model/invoca-data-model.yml
   title: ''
   type: DataModel
   url: data-model/invoca-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/invoca/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Invoca is an AI-powered revenue execution platform that connects marketing and sales teams by tracking and analyzing inbound phone calls across the buying journey. Its call tracking, conversation intelligence, and signal analytics attribute phone conversations back to the paid media, campaigns, and digital touchpoints that drove them, so revenue teams can optimize ad spend and improve buyer experiences. For developers, Invoca publishes a REST developer platform (developers.invoca.net) with date-versioned APIs covering call transactions, signals, call ingestion, RingPool number allocation, network integration, and pre-call insight, authenticated with self-serve Invoca API tokens or HTTP Basic.
+finops:
+- has_sources: true
+  method: derived
+  name: Invoca Finops
+  primary_unit: ''
+  service_category: ''
+  slug: invoca-finops
+  template: true
 image: https://www.invoca.com/favicon.ico
 layout: provider
 modified: '2026-08-13'
@@ -222,35 +237,35 @@ network: true
 overview: 'Invoca publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Messages API and Phone Numbers API. Tagged areas include Company, Artificial Intelligence, Call Tracking, Conversation Intelligence, and Marketing.
 
 
-  Invoca''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Invoca''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 plans:
 - name: Invoca Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: invoca-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Invoca Rate Limits
   slug: invoca-rate-limits
 score:
-  band: developing
-  composite: 53.1
+  band: strong
+  composite: 56.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 25
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 78.9
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 38.6
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 53.0
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 56.1
   provenance:
     conformance: derived
     contracts:
@@ -274,13 +289,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/screenshots/invoca-2026-07-25T222753.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/invoca/invoca-2026-07-25T222753.png
 security:
 - kind: authentication
   name: Invoca Authentication
@@ -294,6 +310,14 @@ security:
   name: Invoca Trust Center
   slug: invoca-trust-center
   summary_line: SOC 2 Type 2, ISO 27001, PCI DSS, HIPAA, GDPR, CCPA, FSQS, TRUSTe
+skill_count: 3
+skills:
+- name: Ingest an externally originated call into Invoca
+  slug: invoca-ingest-call
+- name: Report a conversion Signal against an Invoca call
+  slug: invoca-report-signal
+- name: Send and track SMS through the Invoca SMS Messaging API
+  slug: invoca-sms-messaging
 slug: invoca
 tags:
 - Company

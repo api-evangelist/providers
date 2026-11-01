@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -79,11 +81,8 @@ apis:
   description: Manage non-learner users (instructors, admins).
   name: Class (fka ClassEDU) Users API
   slug: class-fka-classedu-users-api
-artifact_total: 19
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Class Developer Classes API
   slug: open-class-fka-classedu-classes-api
@@ -111,22 +110,22 @@ common:
   type: BlogRSS
   url: https://www.class.com/blog/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/security/class-fka-classedu-trust-center.yml
+  href: https://artifacts.apis.io/class-fka-classedu/security/class-fka-classedu-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/class-fka-classedu-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/security/class-fka-classedu-domain-security.yml
+  href: https://artifacts.apis.io/class-fka-classedu/security/class-fka-classedu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/class-fka-classedu-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/agentic-access/class-fka-classedu-agentic-access.yml
+  href: https://artifacts.apis.io/class-fka-classedu/agentic-access/class-fka-classedu-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/class-fka-classedu-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/authentication/class-fka-classedu-authentication.yml
+  href: https://artifacts.apis.io/class-fka-classedu/authentication/class-fka-classedu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/class-fka-classedu-authentication.yml
@@ -175,27 +174,27 @@ common:
   type: Demo
   url: https://www.class.com/demo/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/_original/class-fka-classedu-openapi.yml
+  href: https://artifacts.apis.io/class-fka-classedu/openapi/_original/class-fka-classedu-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/class-fka-classedu-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/conventions/class-fka-classedu-conventions.yml
+  href: https://artifacts.apis.io/class-fka-classedu/conventions/class-fka-classedu-conventions.yml
   title: ''
   type: Conventions
   url: conventions/class-fka-classedu-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/errors/class-fka-classedu-problem-types.yml
+  href: https://artifacts.apis.io/class-fka-classedu/errors/class-fka-classedu-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/class-fka-classedu-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/lifecycle/class-fka-classedu-lifecycle.yml
+  href: https://artifacts.apis.io/class-fka-classedu/lifecycle/class-fka-classedu-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/class-fka-classedu-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/conformance/class-fka-classedu-conformance.yml
+  href: https://artifacts.apis.io/class-fka-classedu/conformance/class-fka-classedu-conformance.yml
   title: ''
   type: Conformance
   url: conformance/class-fka-classedu-conformance.yml
@@ -204,27 +203,27 @@ common:
   type: Compliance
   url: https://trust.class.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/mcp/class-fka-classedu-mcp.yml
+  href: https://artifacts.apis.io/class-fka-classedu/mcp/class-fka-classedu-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/class-fka-classedu-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/llms/class-fka-classedu-llms.txt
+  href: https://artifacts.apis.io/class-fka-classedu/llms/class-fka-classedu-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/class-fka-classedu-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/data-model/class-fka-classedu-data-model.yml
+  href: https://artifacts.apis.io/class-fka-classedu/data-model/class-fka-classedu-data-model.yml
   title: ''
   type: DataModel
   url: data-model/class-fka-classedu-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/overlays/class-fka-classedu-openapi-overlay.yaml
+  href: https://artifacts.apis.io/class-fka-classedu/overlays/class-fka-classedu-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/class-fka-classedu-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/class-fka-classedu/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -240,10 +239,10 @@ overview: 'Class (fka ClassEDU) publishes 7 API contracts indexed on the [APIs.i
 
 
   Class (fka ClassEDU)''s developer surface includes authentication, documentation, API reference, support, engineering blog, and 22 more developer resources.'
-random_paper: 0
+random_paper: 6
 score:
   band: thin
-  composite: 33.6
+  composite: 31.0
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -255,11 +254,11 @@ score:
   facets:
     access_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 16.9
-    developer_ergonomics: 44.6
-    discoverability: 73.2
+    contract_quality: 13.5
+    developer_ergonomics: 47.0
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 33.6
+  previous_composite: 31.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,13 +275,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/screenshots/class-fka-classedu-2026-07-25T205514.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/class-fka-classedu/class-fka-classedu-2026-07-25T205514.png
 security:
 - kind: authentication
   name: Class Fka Classedu Authentication
@@ -296,6 +296,12 @@ security:
   name: Class Fka Classedu Trust Center
   slug: class-fka-classedu-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 2
+skills:
+- name: Pull attendance and engagement reporting for a class
+  slug: class-fka-classedu-attendance-reporting
+- name: Provision a class and enroll a learner
+  slug: class-fka-classedu-provision-and-enroll
 slug: class-fka-classedu
 tags:
 - Company

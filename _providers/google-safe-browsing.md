@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,7 +67,7 @@ apis:
   description: The threatMatches:find API from Google Safe Browsing — 1 operation(s) for threatmatches:find.
   name: Google Safe Browsing Threat Matches:find API
   slug: google-safe-browsing-threatmatches-find-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: postman
   name: Google Safe Browsing fullHashes:find API
@@ -79,9 +81,6 @@ collections:
 - collection_type: postman
   name: Google Safe Browsing fullHashes:find threatMatches:find API
   slug: postman-google-safe-browsing-threatmatches-find-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Safe Browsing fullHashes:find API
   slug: open-google-safe-browsing-fullhashes-find-api
@@ -99,22 +98,22 @@ collections:
   slug: open-openapi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/plans/google-safe-browsing-plans-pricing.yml
+  href: https://artifacts.apis.io/google-safe-browsing/plans/google-safe-browsing-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-safe-browsing-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/rate-limits/google-safe-browsing-rate-limits.yml
+  href: https://artifacts.apis.io/google-safe-browsing/rate-limits/google-safe-browsing-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-safe-browsing-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/finops/google-safe-browsing-finops.yml
+  href: https://artifacts.apis.io/google-safe-browsing/finops/google-safe-browsing-finops.yml
   title: ''
   type: FinOps
   url: finops/google-safe-browsing-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/capabilities/google-safe-browsing-capability-edges.yml
+  href: https://artifacts.apis.io/google-safe-browsing/capabilities/google-safe-browsing-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-safe-browsing-capability-edges.yml
@@ -127,22 +126,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-safe-browsing/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/agentic-access/google-safe-browsing-agentic-access.yml
+  href: https://artifacts.apis.io/google-safe-browsing/agentic-access/google-safe-browsing-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-safe-browsing-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/security/google-safe-browsing-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-safe-browsing/security/google-safe-browsing-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-safe-browsing-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/security/google-safe-browsing-domain-security.yml
+  href: https://artifacts.apis.io/google-safe-browsing/security/google-safe-browsing-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-safe-browsing-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/authentication/google-safe-browsing-authentication.yml
+  href: https://artifacts.apis.io/google-safe-browsing/authentication/google-safe-browsing-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-safe-browsing-authentication.yml
@@ -183,7 +182,7 @@ common:
   type: Support
   url: https://developers.google.com/safe-browsing/v4/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/json-ld/context.jsonld
+  href: https://artifacts.apis.io/google-safe-browsing/json-ld/context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/context.jsonld
@@ -193,7 +192,7 @@ finops:
 - has_sources: false
   method: generated
   name: Google Safe Browsing Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: google-safe-browsing-finops
   template: true
@@ -223,7 +222,7 @@ plans:
 - name: Google Safe Browsing Plans Pricing
   plan_count: 3
   slug: google-safe-browsing-plans-pricing
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Google Safe Browsing Rate Limits
@@ -242,7 +241,7 @@ rules:
   slug: google-safe-browsing-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.7
+  composite: 45.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 59.7
@@ -250,15 +249,15 @@ score:
     catalog_gap: 55.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 57.2
-    developer_ergonomics: 44.0
+    developer_ergonomics: 48.8
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 43.2
+    operational_transparency: 39.5
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
@@ -272,13 +271,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/screenshots/google-safe-browsing-2026-06-20T182229.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-safe-browsing/google-safe-browsing-2026-06-20T182229.png
 security:
 - kind: authentication
   name: Google Safe Browsing Authentication

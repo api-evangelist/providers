@@ -19,7 +19,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -31,14 +31,23 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.7
-  scored_at: '2026-10-17'
+  score: 48.7
+  scored_at: '2026-10-31'
+agentic_access:
+- acting_count: 12
+  human_in_the_loop: 0
+  name: Green Check Verified Agentic Access
+  operation_count: 49
+  slug: green-check-verified-agentic-access
+  summary_line: 49 operations · 12 acting
 api_count: 1
 apis:
 - baseURL: https://prod-api.greencheckverified.com
@@ -131,24 +140,64 @@ apis:
   description: The Trace API from Green Check Verified — 1 operation(s) for trace.
   name: Green Check Verified Trace API
   slug: green-check-verified-trace-api
-artifact_total: 24
+artifact_total: 59
 common:
+- group: agent
+  href: https://artifacts.apis.io/green-check-verified/agentic-access/green-check-verified-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/green-check-verified-agentic-access.yml
+- group: design
+  href: https://artifacts.apis.io/green-check-verified/rules/green-check-verified-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/green-check-verified-rules.yml
+- group: design
+  href: https://artifacts.apis.io/green-check-verified/json-ld/green-check-verified-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/green-check-verified-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/green-check-verified/vocabulary/green-check-verified-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/green-check-verified-vocabulary.yml
+- group: operate
+  href: https://artifacts.apis.io/green-check-verified/lifecycle/green-check-verified-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/green-check-verified-lifecycle.yml
+- group: other
+  href: https://artifacts.apis.io/green-check-verified/hosts/green-check-verified-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/green-check-verified-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/green-check-verified/integrations/green-check-verified-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/green-check-verified-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/green-check-verified/vendors/green-check-verified-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/green-check-verified-vendors.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://greencheckverified.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/capabilities/green-check-verified-capability-edges.yml
+  href: https://artifacts.apis.io/green-check-verified/capabilities/green-check-verified-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/green-check-verified-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/security/green-check-verified-domain-security.yml
+  href: https://artifacts.apis.io/green-check-verified/security/green-check-verified-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/green-check-verified-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/authentication/green-check-verified-authentication.yml
+  href: https://artifacts.apis.io/green-check-verified/authentication/green-check-verified-authentication.yml
   title: ''
   type: Authentication
   url: authentication/green-check-verified-authentication.yml
@@ -201,84 +250,165 @@ common:
   type: PrivacyPolicy
   url: https://greencheckverified.com/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/well-known/green-check-verified-well-known.yml
+  href: https://artifacts.apis.io/green-check-verified/well-known/green-check-verified-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/green-check-verified-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/mcp/green-check-verified-mcp.yml
+  href: https://artifacts.apis.io/green-check-verified/mcp/green-check-verified-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/green-check-verified-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/mcp/green-check-verified-tool-crosswalk.yml
+  href: https://artifacts.apis.io/green-check-verified/mcp/green-check-verified-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/green-check-verified-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/llms/green-check-verified-llms.txt
+  href: https://artifacts.apis.io/green-check-verified/llms/green-check-verified-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/green-check-verified-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/overlays/green-check-verified-access-overlay.yaml
+  href: https://artifacts.apis.io/green-check-verified/overlays/green-check-verified-access-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/green-check-verified-access-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/conformance/green-check-verified-conformance.yml
+  href: https://artifacts.apis.io/green-check-verified/conformance/green-check-verified-conformance.yml
   title: ''
   type: Conformance
   url: conformance/green-check-verified-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/errors/green-check-verified-problem-types.yml
+  href: https://artifacts.apis.io/green-check-verified/errors/green-check-verified-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/green-check-verified-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/lifecycle/green-check-verified-lifecycle.yml
+  href: https://artifacts.apis.io/green-check-verified/lifecycle/green-check-verified-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/green-check-verified-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/scopes/green-check-verified-scopes.yml
+  href: https://artifacts.apis.io/green-check-verified/scopes/green-check-verified-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/green-check-verified-scopes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/sandbox/green-check-verified-sandbox.yml
+  href: https://artifacts.apis.io/green-check-verified/sandbox/green-check-verified-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/green-check-verified-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/conventions/green-check-verified-conventions.yml
-  title: ''
-  type: Conventions
-  url: conventions/green-check-verified-conventions.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/data-model/green-check-verified-data-model.yml
+  href: https://artifacts.apis.io/green-check-verified/data-model/green-check-verified-data-model.yml
   title: ''
   type: DataModel
   url: data-model/green-check-verified-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/green-check-verified/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
-- group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/plans/green-check-verified-plans-pricing.yml
-  title: ''
-  type: Plans
-  url: plans/green-check-verified-plans-pricing.yml
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/rate-limits/green-check-verified-rate-limits.yml
-  title: ''
-  type: RateLimits
-  url: rate-limits/green-check-verified-rate-limits.yml
 created: '2026-08-22'
 description: Green Check Verified (Green Check) is a New Haven, Connecticut specialty-banking compliance platform founded in 2017 that sits between financial institutions and the cannabis and other cash-intensive businesses they serve. Banks and credit unions use it to onboard cannabis-related businesses (CRBs), collect and review due-diligence documentation, validate that deposits trace to legally licensed sales, monitor licenses and negative news, and produce the BSA/AML oversight reporting examiners require. Its public developer product, Green Check Access, is a REST API suite that normalizes compliance, company and transactional data across more than twenty point-of-sale and seed-to-sale systems — Dutchie, Treez, Flowhub, Biotrack, Metrc, Cova, Canix, Greenbits and others — so service providers such as payroll companies, CRMs, lenders and fintechs can programmatically create and onboard CRBs and read their sales, products, inventory, customer and document data through one contract instead
   of one integration per POS.
 image: https://greencheckverified.com/wp-content/uploads/2021/06/Feature-Image.png
+json_schemas:
+- name: AddDocumentToOnboardingTemplateRequest
+  property_count: 3
+  slug: green-check-verified-add-document-to-onboarding-template-request
+- name: AddDocumentToOnboardingTemplateResponse
+  property_count: 2
+  slug: green-check-verified-add-document-to-onboarding-template-response
+- name: AddExistingDocumentToOnboardingTemplateRequest
+  property_count: 1
+  slug: green-check-verified-add-existing-document-to-onboarding-template-request
+- name: AuthResponse
+  property_count: 6
+  slug: green-check-verified-auth-response
+- name: CrbCreationParams
+  property_count: 4
+  slug: green-check-verified-crb-creation-params
+- name: CRB
+  property_count: 23
+  slug: green-check-verified-crb
+- name: Customer
+  property_count: 34
+  slug: green-check-verified-customer
+- name: Customers
+  property_count: 0
+  slug: green-check-verified-customers
+- name: DocumentDownload
+  property_count: 9
+  slug: green-check-verified-document-download
+- name: DocumentRequirementResponse
+  property_count: 11
+  slug: green-check-verified-document-requirement-response
+- name: Document
+  property_count: 7
+  slug: green-check-verified-document
+- name: ExpandedInventory
+  property_count: 14
+  slug: green-check-verified-expanded-inventory
+- name: Inventory
+  property_count: 13
+  slug: green-check-verified-inventory
+- name: Location
+  property_count: 10
+  slug: green-check-verified-location
+- name: OnboardingTemplateResponse
+  property_count: 17
+  slug: green-check-verified-onboarding-template-response
+- name: OnboardingTemplate
+  property_count: 12
+  slug: green-check-verified-onboarding-template
+- name: PagedCustomers
+  property_count: 2
+  slug: green-check-verified-paged-customers
+- name: PagedInventory
+  property_count: 2
+  slug: green-check-verified-paged-inventory
+- name: PagedLocationInventory
+  property_count: 2
+  slug: green-check-verified-paged-location-inventory
+- name: PagedLocations
+  property_count: 2
+  slug: green-check-verified-paged-locations
+- name: PagedProducts
+  property_count: 2
+  slug: green-check-verified-paged-products
+- name: PagedSales
+  property_count: 2
+  slug: green-check-verified-paged-sales
+- name: PosCredentialInformation
+  property_count: 19
+  slug: green-check-verified-pos-credential-information
+- name: Product
+  property_count: 23
+  slug: green-check-verified-product
+- name: ServiceProviderCRB
+  property_count: 29
+  slug: green-check-verified-service-provider-crb
+- name: ServiceProvider
+  property_count: 12
+  slug: green-check-verified-service-provider
+- name: ThinCrbInfo
+  property_count: 10
+  slug: green-check-verified-thin-crb-info
+- name: TokenRequestBody
+  property_count: 4
+  slug: green-check-verified-token-request-body
+- name: UpdateCrbInput
+  property_count: 20
+  slug: green-check-verified-update-crb-input
+- name: UpdateDocumentRequest
+  property_count: 1
+  slug: green-check-verified-update-document-request
+jsonld:
+- class_count: 114
+  name: Green Check Verified Context
+  property_count: 278
+  slug: green-check-verified-context
 layout: provider
 mcp_servers:
 - description: 'Green Check runs a live, anonymously reachable remote MCP server on its developer-portal host. It is the Redocly-portal documentation MCP: six tools that let an agent enumerate the APIs, list endpoint'
@@ -291,16 +421,32 @@ network: true
 overview: 'Green Check Verified publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, CRB API, CRB Customers API, and 15 more. Tagged areas include Company, Cannabis, Compliance, Banking, and Financial Services.
 
 
-  Green Check Verified''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 24 more developer resources.'
+  The Green Check Verified catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Green Check Verified''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 29 more developer resources.'
 plans:
 - name: Green Check Verified Plans Pricing
   plan_count: 0
   slug: green-check-verified-plans-pricing
-random_paper: 17
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Green Check Verified Rate Limits
   slug: green-check-verified-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Green Check Verified API Rules
+  rule_count: 13
+  severity_counts:
+    error: 11
+    hint: 0
+    info: 1
+    warn: 1
+  slug: green-check-verified-rules
 scopes:
 - name: Green Check Verified Scopes
   scope_count: 10
@@ -308,24 +454,25 @@ scopes:
   summary_line: 10 scopes · client_credentials
 score:
   band: developing
-  composite: 42.4
+  composite: 48.1
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
+    artifact_dirs: 30
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 51.1
+    contract_governance: 22.0
+    contract_quality: 61.3
     developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 42.4
+    discoverability: 65.0
+    operational_transparency: 13.2
+  previous_composite: 48.1
   provenance:
+    agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
@@ -340,22 +487,29 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 33.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/screenshots/green-check-verified-2026-09-02T145630.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/green-check-verified/green-check-verified-2026-09-02T145630.png
 security:
 - kind: authentication
   name: Green Check Verified Authentication
   slug: green-check-verified-authentication
-  summary_line: oauth2/apiKey · 1 scheme
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Green Check Verified Domain Security
   slug: green-check-verified-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: green-check-verified-onboard-crb
+  slug: green-check-verified-onboard-crb
+- name: green-check-verified-pull-sales-data
+  slug: green-check-verified-pull-sales-data
 slug: green-check-verified
 tags:
 - Company

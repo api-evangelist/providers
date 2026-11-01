@@ -24,29 +24,31 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.3
-  scored_at: '2026-10-17'
+  score: 31.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for transaction management, payment authorization, agents, spending rules, analytics, and phone verification. Bearer-token authenticated; JSON envelope with cursor pagination.
   name: Sapiom REST API
   slug: sapiom-rest-api
-artifact_total: 6
+artifact_total: 9
 common:
 - group: commercial
   title: ''
   type: Pricing
   url: https://www.sapiom.ai/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/plans/sapiom-plans-pricing.yml
+  href: https://artifacts.apis.io/sapiom/plans/sapiom-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sapiom-plans-pricing.yml
@@ -99,82 +101,82 @@ common:
   type: PrivacyPolicy
   url: https://docs.sapiom.ai/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/llms/sapiom-llms.txt
+  href: https://artifacts.apis.io/sapiom/llms/sapiom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sapiom-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/mcp/sapiom-mcp.yml
+  href: https://artifacts.apis.io/sapiom/mcp/sapiom-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sapiom-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/packages/sapiom-packages.yml
+  href: https://artifacts.apis.io/sapiom/packages/sapiom-packages.yml
   title: ''
   type: Packages
   url: packages/sapiom-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/packages/sapiom-packages.yml
+  href: https://artifacts.apis.io/sapiom/packages/sapiom-packages.yml
   title: ''
   type: SDKs
   url: packages/sapiom-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/cli/sapiom-cli.yml
+  href: https://artifacts.apis.io/sapiom/cli/sapiom-cli.yml
   title: ''
   type: CLI
   url: cli/sapiom-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sapiom/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/well-known/sapiom-well-known.yml
+  href: https://artifacts.apis.io/sapiom/well-known/sapiom-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sapiom-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/authentication/sapiom-authentication.yml
+  href: https://artifacts.apis.io/sapiom/authentication/sapiom-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sapiom-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/conventions/sapiom-conventions.yml
+  href: https://artifacts.apis.io/sapiom/conventions/sapiom-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sapiom-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/errors/sapiom-problem-types.yml
+  href: https://artifacts.apis.io/sapiom/errors/sapiom-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sapiom-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/rate-limits/sapiom-rate-limits.yml
+  href: https://artifacts.apis.io/sapiom/rate-limits/sapiom-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sapiom-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/lifecycle/sapiom-lifecycle.yml
+  href: https://artifacts.apis.io/sapiom/lifecycle/sapiom-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sapiom-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/conformance/sapiom-conformance.yml
+  href: https://artifacts.apis.io/sapiom/conformance/sapiom-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sapiom-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/security/sapiom-domain-security.yml
+  href: https://artifacts.apis.io/sapiom/security/sapiom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sapiom-domain-security.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/sandbox/sapiom-sandbox.yml
+  href: https://artifacts.apis.io/sapiom/sandbox/sapiom-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sapiom-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/data-model/sapiom-data-model.yml
+  href: https://artifacts.apis.io/sapiom/data-model/sapiom-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sapiom-data-model.yml
@@ -198,14 +200,14 @@ plans:
 - name: Sapiom Plans Pricing
   plan_count: 0
   slug: sapiom-plans-pricing
-random_paper: 11
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Sapiom Rate Limits
   slug: sapiom-rate-limits
 score:
   band: thin
-  composite: 38.3
+  composite: 38.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 45.0
@@ -213,15 +215,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 82.1
-    discoverability: 75.0
-    operational_transparency: 23.7
-  previous_composite: 36.2
+    developer_ergonomics: 85.7
+    discoverability: 65.0
+    operational_transparency: 26.3
+  previous_composite: 38.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -232,14 +234,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/screenshots/sapiom-2026-09-02T154410.png
+screenshot: https://apis.io/screenshots/sapiom/sapiom-2026-09-02T154410.png
 security:
 - kind: authentication
   name: Sapiom Authentication
@@ -249,6 +251,14 @@ security:
   name: Sapiom Domain Security
   slug: sapiom-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: sapiom-agent-builder
+  slug: sapiom-agent-builder
+- name: sapiom-deploy
+  slug: sapiom-deploy
+- name: use-sapiom
+  slug: sapiom-use-sapiom
 slug: sapiom
 tags:
 - Company

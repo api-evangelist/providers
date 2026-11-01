@@ -24,7 +24,7 @@ name: Agenovir
 nav: Providers
 network: true
 overview: Agenovir is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, CRISPR, and Gene Editing.
-random_paper: 1
+random_paper: 19
 slug: agenovir
 tags:
 - Company

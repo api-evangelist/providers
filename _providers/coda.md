@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.2
-  scored_at: '2026-10-17'
+  score: 24.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -142,9 +144,6 @@ asyncapis:
   slug: coda-automations-asyncapi
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Coda Account API
   slug: open-coda-account-api
 - collection_type: open
@@ -203,32 +202,32 @@ collections:
   slug: open-coda
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/capabilities/coda-capability-edges.yml
+  href: https://artifacts.apis.io/coda/capabilities/coda-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/coda-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/agentic-access/coda-agentic-access.yml
+  href: https://artifacts.apis.io/coda/agentic-access/coda-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/coda-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/security/coda-trust-center.yml
+  href: https://artifacts.apis.io/coda/security/coda-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/coda-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/security/coda-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/coda/security/coda-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/coda-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/security/coda-domain-security.yml
+  href: https://artifacts.apis.io/coda/security/coda-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coda-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/authentication/coda-authentication.yml
+  href: https://artifacts.apis.io/coda/authentication/coda-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coda-authentication.yml
@@ -253,17 +252,17 @@ common:
   type: GitHub
   url: https://github.com/coda
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/plans/coda-plans-pricing.yml
+  href: https://artifacts.apis.io/coda/plans/coda-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/coda-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/rate-limits/coda-rate-limits.yml
+  href: https://artifacts.apis.io/coda/rate-limits/coda-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/coda-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/finops/coda-finops.yml
+  href: https://artifacts.apis.io/coda/finops/coda-finops.yml
   title: ''
   type: FinOps
   url: finops/coda-finops.yml
@@ -275,10 +274,10 @@ created: '2026-05-08'
 description: Coda is an all-in-one doc platform combining documents, spreadsheets, and apps. The Coda API exposes docs, pages, tables, rows, columns, controls, formulas, automations, packs, permissions, and analytics for programmatic integration.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Coda Finops
-  primary_unit: ''
-  service_category: Productivity
+  primary_unit: doc maker, billed annually
+  service_category: ''
   slug: coda-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coda.png
@@ -298,7 +297,10 @@ plans:
 - name: Coda Plans Pricing
   plan_count: 4
   slug: coda-plans-pricing
-random_paper: 11
+- name: Coda Price Estimates
+  plan_count: 0
+  slug: coda-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Coda Rate Limits
@@ -318,23 +320,23 @@ rules:
   slug: coda-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 39.5
+  composite: 44.8
   coverage:
     artifact_dirs: 15
-    catalog_earned: 46.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 68.3
+    catalog_earned: 58.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 56.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 57.9
     contract_governance: 11.4
-    contract_quality: 62.7
+    contract_quality: 59.4
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 41.0
+    operational_transparency: 23.7
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -348,13 +350,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/screenshots/coda-2026-06-20T174651.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/coda/coda-2026-06-20T174651.png
 security:
 - kind: authentication
   name: Coda Authentication
@@ -379,5 +382,6 @@ tags:
 - No-Code
 - Collaboration
 - Database
+- Knowledge Management
 website: https://coda.io/
 ---

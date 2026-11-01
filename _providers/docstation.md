@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,9 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Docstation Webhooks
@@ -97,47 +99,47 @@ common:
   type: Compliance
   url: https://docstation.co/platform
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docstation/refs/heads/main/llms/docstation-llms.txt
+  href: https://artifacts.apis.io/docstation/llms/docstation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/docstation-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docstation/refs/heads/main/lifecycle/docstation-lifecycle.yml
+  href: https://artifacts.apis.io/docstation/lifecycle/docstation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/docstation-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docstation/refs/heads/main/conformance/docstation-conformance.yml
+  href: https://artifacts.apis.io/docstation/conformance/docstation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/docstation-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docstation/refs/heads/main/security/docstation-domain-security.yml
+  href: https://artifacts.apis.io/docstation/security/docstation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/docstation-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docstation/refs/heads/main/security/docstation-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/docstation/security/docstation-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/docstation-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docstation/refs/heads/main/security/docstation-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/docstation/security/docstation-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/docstation-vulnerability-disclosure.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/docstation/refs/heads/main/changelog/docstation-changelog.yml
+  href: https://artifacts.apis.io/docstation/changelog/docstation-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/docstation-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/docstation/refs/heads/main/plans/docstation-plans-pricing.yml
+  href: https://artifacts.apis.io/docstation/plans/docstation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/docstation-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/docstation/refs/heads/main/rate-limits/docstation-rate-limits.yml
+  href: https://artifacts.apis.io/docstation/rate-limits/docstation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/docstation-rate-limits.yml
@@ -155,6 +157,14 @@ coverage:
   state: none
 created: '2026-07-17'
 description: DocStation is a unified pharmacy care and medical billing platform that helps community and clinical pharmacies move beyond prescription dispensing to bill insurance for the clinical services they already provide — vaccines, MTM, point-of-care testing, consultations, and DME. The platform consolidates 360-degree patient records, automated medical claims generation and resubmission, smart scheduling with public booking links, connected SMS and organization-to-organization messaging, workflow automation, and live revenue analytics into a single system. It integrates with pharmacy management systems (PioneerRx, Liberty, DRX), 1,000+ health plans, clearinghouses, and state immunization registries. DocStation is HIPAA compliant and SOC 2 Type II audited. Backed by Techstars; added to the API Evangelist network and enriched from its public surface. No public developer API is documented at this time.
+finops:
+- has_sources: true
+  method: derived
+  name: Docstation Finops
+  primary_unit: location
+  service_category: ''
+  slug: docstation-finops
+  template: false
 image: https://docstation.co/api/og?title=Pharmacy+Beyond+Pills.&label=DocStation&accent=blue
 layout: provider
 modified: '2026-08-10'
@@ -170,32 +180,35 @@ overview: 'DocStation is profiled on the [APIs.io](https://apis.io/) network. Ta
   DocStation''s developer surface includes support, documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, and 16 more developer resources.'
 plans:
 - name: Docstation Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: docstation-plans-pricing
-random_paper: 2
+- name: Docstation Price Estimates
+  plan_count: 0
+  slug: docstation-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Docstation Rate Limits
   slug: docstation-rate-limits
 score:
   band: developing
-  composite: 49.1
+  composite: 50.3
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 39.0
+    artifact_dirs: 14
+    catalog_earned: 42.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 76.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 28.6
-    discoverability: 55.4
-    operational_transparency: 44.7
-  previous_composite: 49.1
+    discoverability: 48.2
+    operational_transparency: 47.4
+  previous_composite: 48.8
   provenance:
     conformance: first-party
   regulatory:
@@ -208,14 +221,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/docstation/refs/heads/main/screenshots/docstation-2026-07-25T212211.png
+screenshot: https://apis.io/screenshots/docstation/docstation-2026-07-25T212211.png
 security:
 - kind: domain-security
   name: Docstation Domain Security

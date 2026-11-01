@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.1
-  scored_at: '2026-10-17'
+  score: 30.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -91,29 +93,29 @@ arazzos:
 - description: From a latitude/longitude, find the nearest licensed transmitter sites, pull the frequency assignments in a band and postcode range around them, and attribute an assignment back to its licensee.
   name: ACMA — spectrum survey by location
   slug: acma-spectrum-survey-by-location
-artifact_total: 28
+artifact_total: 34
 collections:
 - collection_type: open
   name: ACMA Spectrum Licensing API
   slug: open-acma-spectrum-licensing
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/capabilities/acma-capability-edges.yml
+  href: https://artifacts.apis.io/acma/capabilities/acma-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/acma-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/overlays/acma-spectrum-licensing-overlay.yaml
+  href: https://artifacts.apis.io/acma/overlays/acma-spectrum-licensing-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/acma-spectrum-licensing-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/mcp/acma-mcp.yml
+  href: https://artifacts.apis.io/acma/mcp/acma-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/acma-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/acma/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -166,52 +168,52 @@ common:
   type: Security
   url: https://www.acma.gov.au/vulnerability-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/security/acma-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/acma/security/acma-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/acma-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/security/acma-domain-security.yml
+  href: https://artifacts.apis.io/acma/security/acma-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/acma-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/authentication/acma-authentication.yml
+  href: https://artifacts.apis.io/acma/authentication/acma-authentication.yml
   title: ''
   type: Authentication
   url: authentication/acma-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/conventions/acma-conventions.yml
+  href: https://artifacts.apis.io/acma/conventions/acma-conventions.yml
   title: ''
   type: Conventions
   url: conventions/acma-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/conformance/acma-conformance.yml
+  href: https://artifacts.apis.io/acma/conformance/acma-conformance.yml
   title: ''
   type: Conformance
   url: conformance/acma-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/lifecycle/acma-lifecycle.yml
+  href: https://artifacts.apis.io/acma/lifecycle/acma-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/acma-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/rate-limits/acma-rate-limits.yml
+  href: https://artifacts.apis.io/acma/rate-limits/acma-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/acma-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/plans/acma-plans.yml
+  href: https://artifacts.apis.io/acma/plans/acma-plans.yml
   title: ''
   type: Plans
   url: plans/acma-plans.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/packages/acma-packages.yml
+  href: https://artifacts.apis.io/acma/packages/acma-packages.yml
   title: ''
   type: Packages
   url: packages/acma-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/llms/acma-llms.txt
+  href: https://artifacts.apis.io/acma/llms/acma-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/acma-llms.txt
@@ -272,6 +274,14 @@ examples:
 - key_count: 1
   name: Acma Site Search
   slug: acma-site-search
+finops:
+- has_sources: true
+  method: derived
+  name: Acma Finops
+  primary_unit: wash credits
+  service_category: ''
+  slug: acma-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-07-25'
@@ -284,31 +294,34 @@ overview: 'ACMA publishes 8 API contracts indexed on the [APIs.io](https://apis.
   ACMA''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 24 more developer resources.'
 plans:
 - name: Acma Plans
-  plan_count: 9
+  plan_count: 8
   slug: acma-plans
-random_paper: 6
+- name: Acma Price Estimates
+  plan_count: 0
+  slug: acma-price-estimates
+random_paper: 18
 rate_limits:
 - limit_count: 6
   name: Acma Rate Limits
   slug: acma-rate-limits
 score:
-  band: developing
-  composite: 47.9
+  band: strong
+  composite: 56.4
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 61.0
+    artifact_dirs: 26
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 65.8
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 52.3
-    developer_ergonomics: 35.1
-    discoverability: 73.2
-    operational_transparency: 36.8
+    developer_ergonomics: 56.5
+    discoverability: 66.1
+    operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -316,7 +329,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 47.9
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -332,15 +345,15 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 30.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/screenshots/acma-2026-08-17T082235.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/acma/acma-2026-08-17T082235.png
 security:
 - kind: authentication
   name: Acma Authentication
@@ -354,6 +367,16 @@ security:
   name: Acma Vulnerability Disclosure
   slug: acma-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 4
+skills:
+- name: Browse the spectrum licence register by category
+  slug: acma-browse-the-spectrum-licence-register
+- name: Find every radiocommunications licence held by an organisation
+  slug: acma-find-licences-for-an-organisation
+- name: Survey licensed spectrum near a location
+  slug: acma-survey-spectrum-near-a-location
+- name: Wash a contact list against the Do Not Call Register
+  slug: acma-wash-numbers-do-not-call-register
 slug: acma
 tags:
 - Telecommunications

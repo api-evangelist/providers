@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -32,32 +34,32 @@ common:
   type: Blog
   url: https://www.altoira.com/insights
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alto/refs/heads/main/llms/alto-llms.txt
+  href: https://artifacts.apis.io/alto/llms/alto-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alto-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alto/refs/heads/main/plans/alto-plans-pricing.yml
+  href: https://artifacts.apis.io/alto/plans/alto-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/alto-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alto/refs/heads/main/well-known/alto-status-security.txt
+  href: https://artifacts.apis.io/alto/well-known/alto-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/alto-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alto/refs/heads/main/well-known/alto-well-known.yml
+  href: https://artifacts.apis.io/alto/well-known/alto-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alto-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alto/refs/heads/main/hosts/alto-hosts.yml
+  href: https://artifacts.apis.io/alto/hosts/alto-hosts.yml
   title: ''
   type: Hosts
   url: hosts/alto-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alto/refs/heads/main/vendors/alto-vendors.yml
+  href: https://artifacts.apis.io/alto/vendors/alto-vendors.yml
   title: ''
   type: Vendors
   url: vendors/alto-vendors.yml
@@ -86,7 +88,7 @@ common:
   type: Newsroom
   url: https://www.altoira.com/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alto/refs/heads/main/security/alto-domain-security.yml
+  href: https://artifacts.apis.io/alto/security/alto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alto-domain-security.yml
@@ -109,26 +111,26 @@ plans:
 - name: Alto Plans Pricing
   plan_count: 2
   slug: alto-plans-pricing
-random_paper: 14
+random_paper: 0
 score:
   band: emerging
-  composite: 19.1
+  composite: 19.8
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 33.0
     catalog_earned_first_party: 8.0
     catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 53.6
-    operational_transparency: 15.8
-  previous_composite: 18.6
+    discoverability: 46.4
+    operational_transparency: 26.3
+  previous_composite: 19.8
   provenance:
     mcp: unknown
   regulatory:
@@ -137,14 +139,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alto/refs/heads/main/screenshots/alto-2026-10-11T093743.png
+screenshot: https://apis.io/screenshots/alto/alto-2026-10-11T093743.png
 security:
 - kind: domain-security
   name: Alto Domain Security

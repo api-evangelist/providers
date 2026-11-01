@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: unknown
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.6
-  scored_at: '2026-10-17'
+  score: 45.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -395,7 +397,7 @@ arazzos:
 - description: Inspect existing webhook subscriptions, subscribe to an event, and confirm registration.
   name: Salla Webhook Subscription Setup
   slug: salla-webhook-subscription-workflow
-artifact_total: 98
+artifact_total: 97
 collections:
 - collection_type: postman
   name: Salla Apps API
@@ -403,9 +405,6 @@ collections:
 - collection_type: postman
   name: Salla Shipping and Fulfillment API
   slug: postman-salla-shipping-fulfillment-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Salla Apps API
   slug: open-salla-apps-api
@@ -472,27 +471,27 @@ common:
   type: Website
   url: https://salla.dev
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/capabilities/salla-capability-edges.yml
+  href: https://artifacts.apis.io/salla/capabilities/salla-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/salla-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/agentic-access/salla-agentic-access.yml
+  href: https://artifacts.apis.io/salla/agentic-access/salla-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/salla-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/security/salla-domain-security.yml
+  href: https://artifacts.apis.io/salla/security/salla-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/salla-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/authentication/salla-authentication.yml
+  href: https://artifacts.apis.io/salla/authentication/salla-authentication.yml
   title: ''
   type: Authentication
   url: authentication/salla-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/scopes/salla-scopes.yml
+  href: https://artifacts.apis.io/salla/scopes/salla-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/salla-scopes.yml
@@ -501,57 +500,57 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/salla/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-abandoned-cart-recovery-workflow.yml
+  href: https://artifacts.apis.io/salla/arazzo/salla-abandoned-cart-recovery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-abandoned-cart-recovery-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-catalog-taxonomy-setup-workflow.yml
+  href: https://artifacts.apis.io/salla/arazzo/salla-catalog-taxonomy-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-catalog-taxonomy-setup-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-customer-upsert-workflow.yml
+  href: https://artifacts.apis.io/salla/arazzo/salla-customer-upsert-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-customer-upsert-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-oauth-token-exchange-workflow.yml
+  href: https://artifacts.apis.io/salla/arazzo/salla-oauth-token-exchange-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-oauth-token-exchange-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-order-fulfillment-workflow.yml
+  href: https://artifacts.apis.io/salla/arazzo/salla-order-fulfillment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-order-fulfillment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-order-monitor-workflow.yml
+  href: https://artifacts.apis.io/salla/arazzo/salla-order-monitor-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-order-monitor-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-product-create-verify-workflow.yml
+  href: https://artifacts.apis.io/salla/arazzo/salla-product-create-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-product-create-verify-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-product-upsert-workflow.yml
+  href: https://artifacts.apis.io/salla/arazzo/salla-product-upsert-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-product-upsert-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-shipment-lifecycle-workflow.yml
+  href: https://artifacts.apis.io/salla/arazzo/salla-shipment-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-shipment-lifecycle-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-shipping-zone-setup-workflow.yml
+  href: https://artifacts.apis.io/salla/arazzo/salla-shipping-zone-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-shipping-zone-setup-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-webhook-subscription-workflow.yml
+  href: https://artifacts.apis.io/salla/arazzo/salla-webhook-subscription-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-webhook-subscription-workflow.yml
@@ -680,27 +679,27 @@ common:
   type: Forums
   url: https://t.me/sallaDevelopers
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/rules/salla-rules.yml
+  href: https://artifacts.apis.io/salla/rules/salla-rules.yml
   title: ''
   type: SpectralRules
   url: rules/salla-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/vocabulary/salla-vocabulary.yml
+  href: https://artifacts.apis.io/salla/vocabulary/salla-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/salla-vocabulary.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/plans/salla-plans-pricing.yml
+  href: https://artifacts.apis.io/salla/plans/salla-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/salla-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/rate-limits/salla-rate-limits.yml
+  href: https://artifacts.apis.io/salla/rate-limits/salla-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/salla-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/finops/salla-finops.yml
+  href: https://artifacts.apis.io/salla/finops/salla-finops.yml
   title: ''
   type: FinOps
   url: finops/salla-finops.yml
@@ -797,7 +796,7 @@ plans:
 - name: Salla Plans Pricing
   plan_count: 5
   slug: salla-plans-pricing
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Salla Rate Limits
@@ -833,7 +832,7 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.6
+  composite: 61.5
   coverage:
     artifact_dirs: 24
     catalog_earned: 67.0
@@ -841,13 +840,13 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 27.3
-    contract_quality: 65.6
+    contract_quality: 63.5
     developer_ergonomics: 82.1
-    discoverability: 65.0
+    discoverability: 62.5
     operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -857,7 +856,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 68.3
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     contracts:
@@ -872,13 +871,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/screenshots/salla-2026-06-20T193358.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/salla/salla-2026-06-20T193358.png
 security:
 - kind: authentication
   name: Salla Authentication

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The public UI APIs available in the o9 platform, used to access the GraphCube server data and its model in order to query and visualize planning data. The API reference is published in the o9 Guide bu
@@ -46,18 +48,55 @@ apis:
   slug: ref-model-api
 artifact_total: 7
 common:
+- group: operate
+  href: https://artifacts.apis.io/o9-solutions/lifecycle/o9-solutions-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/o9-solutions-lifecycle.yml
+- group: agent
+  href: https://artifacts.apis.io/o9-solutions/well-known/o9-solutions-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/o9-solutions-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/o9-solutions/hosts/o9-solutions-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/o9-solutions-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/o9-solutions/integrations/o9-solutions-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/o9-solutions-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/o9-solutions/vendors/o9-solutions-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/o9-solutions-vendors.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://o9solutions.com/articles/pricing-management-and-tariff-led-inflation
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://o9solutions.com/newsroom
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/o9Solutions
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/o9-solutions/refs/heads/main/security/o9-solutions-trust-center.yml
+  href: https://artifacts.apis.io/o9-solutions/security/o9-solutions-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/o9-solutions-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/o9-solutions/refs/heads/main/security/o9-solutions-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/o9-solutions/security/o9-solutions-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/o9-solutions-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/o9-solutions/refs/heads/main/security/o9-solutions-domain-security.yml
+  href: https://artifacts.apis.io/o9-solutions/security/o9-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/o9-solutions-domain-security.yml
@@ -110,27 +149,27 @@ common:
   type: Compliance
   url: https://o9solutions.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/o9-solutions/refs/heads/main/llms/o9-solutions-llms.txt
+  href: https://artifacts.apis.io/o9-solutions/llms/o9-solutions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/o9-solutions-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/o9-solutions/refs/heads/main/authentication/o9-solutions-authentication.yml
+  href: https://artifacts.apis.io/o9-solutions/authentication/o9-solutions-authentication.yml
   title: ''
   type: Authentication
   url: authentication/o9-solutions-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/o9-solutions/refs/heads/main/scopes/o9-solutions-scopes.yml
+  href: https://artifacts.apis.io/o9-solutions/scopes/o9-solutions-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/o9-solutions-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/o9-solutions/refs/heads/main/conformance/o9-solutions-conformance.yml
+  href: https://artifacts.apis.io/o9-solutions/conformance/o9-solutions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/o9-solutions-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/o9-solutions/refs/heads/main/lifecycle/o9-solutions-lifecycle.yml
+  href: https://artifacts.apis.io/o9-solutions/lifecycle/o9-solutions-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/o9-solutions-lifecycle.yml
@@ -138,6 +177,18 @@ common:
   title: ''
   type: Forge
   url: https://forgeglobal.com/o9-solutions_stock/
+coverage:
+  checked: '2026-10-19'
+  detail: Both API references (guide.o9solutions.com/Resources/ApiDocs and /RefModelApiDoc) redirect to the guide.o9solutions.com OAuthServer preauthorize customer/partner login, so no contract is publicly readable.
+  evidence:
+  - status: 200
+    url: https://guide.o9solutions.com/Resources/ApiDocs
+  - status: 200
+    url: https://guide.o9solutions.com/Resources/RefModelApiDoc
+  - status: 200
+    url: https://o9solutions.com
+  reason: customer-only-docs
+  state: gated
 created: '2026-07-31'
 description: o9 Solutions is an enterprise AI platform for integrated planning and decision-making, founded in 2009 by Sanjiv Sidhu (previously founder of i2 Technologies) and Chakri Gottemukkala, and headquartered in Dallas, Texas. Its o9 Digital Brain platform unifies supply chain, commercial and financial planning on a patented Enterprise Knowledge Graph (EKG) — an always-on digital twin of the enterprise — supporting demand planning, AI/ML forecasting, supply chain master planning, control tower, multi-echelon inventory optimization, supplier relationship management, revenue growth management, merchandise planning and ESG planning. The platform ingests enterprise data via SFTP batch, REST API, SOAP XML and streaming, with connectors to SAP, Oracle, Snowflake, Databricks and Google BigQuery. o9 publishes two API surfaces — the o9 Platform API (public UI APIs over the GraphCube server) and the o9 Reference Model API (SAP and inbound staging batch integration) — but both API references
   sit behind the customer/partner OAuth login at guide.o9solutions.com, so no machine-readable contract is publicly available.
@@ -150,8 +201,8 @@ network: true
 overview: 'o9 Solutions is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Supply Chain Planning, Integrated Business Planning, and Demand Planning.
 
 
-  o9 Solutions'' developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 11
+  o9 Solutions'' developer surface includes pricing, documentation, API reference, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
+random_paper: 21
 scopes:
 - name: O9 Solutions Scopes
   scope_count: 3
@@ -159,22 +210,22 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 32.6
+  composite: 36.3
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 13
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 50.0
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 42.9
-    discoverability: 64.3
-    operational_transparency: 10.5
+    developer_ergonomics: 45.2
+    discoverability: 58.9
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -182,7 +233,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 32.5
+  previous_composite: 36.3
   provenance:
     conformance: first-party
   regulatory:
@@ -197,14 +248,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/o9-solutions/refs/heads/main/screenshots/o9-solutions-2026-08-07T185839.png
+screenshot: https://apis.io/screenshots/o9-solutions/o9-solutions-2026-08-07T185839.png
 security:
 - kind: authentication
   name: O9 Solutions Authentication
@@ -217,11 +268,11 @@ security:
 - kind: vulnerability-disclosure
   name: O9 Solutions Vulnerability Disclosure
   slug: o9-solutions-vulnerability-disclosure
-  summary_line: Hackerone · contact published
+  summary_line: no policy recorded
 - kind: trust-center
   name: O9 Solutions Trust Center
   slug: o9-solutions-trust-center
-  summary_line: ISO/IEC 27001, ISO/IEC 27017, SOC 1, SOC 2, BSI C5, TISAX, NIST CSF 1.1
+  summary_line: SOC 2, ISO 27001, ISO 27017, GDPR
 slug: o9-solutions
 tags:
 - Company

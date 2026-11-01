@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,16 +35,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 5
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Datasaur Webhooks
   slug: datasaur-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/plans/datasaur-plans-pricing.yml
+  href: https://artifacts.apis.io/datasaur/plans/datasaur-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/datasaur-plans-pricing.yml
@@ -103,7 +105,7 @@ common:
   type: StatusPage
   url: https://status.datasaur.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/security/datasaur-trust-center.yml
+  href: https://artifacts.apis.io/datasaur/security/datasaur-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/datasaur-trust-center.yml
@@ -112,77 +114,85 @@ common:
   type: Compliance
   url: https://datasaur.ai/studio/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/security/datasaur-domain-security.yml
+  href: https://artifacts.apis.io/datasaur/security/datasaur-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datasaur-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/authentication/datasaur-authentication.yml
+  href: https://artifacts.apis.io/datasaur/authentication/datasaur-authentication.yml
   title: ''
   type: Authentication
   url: authentication/datasaur-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/packages/datasaur-packages.yml
+  href: https://artifacts.apis.io/datasaur/packages/datasaur-packages.yml
   title: ''
   type: Packages
   url: packages/datasaur-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/cli/datasaur-cli.yml
+  href: https://artifacts.apis.io/datasaur/cli/datasaur-cli.yml
   title: ''
   type: CLI
   url: cli/datasaur-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/mcp/datasaur-mcp.yml
+  href: https://artifacts.apis.io/datasaur/mcp/datasaur-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/datasaur-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/llms/datasaur-llms.txt
+  href: https://artifacts.apis.io/datasaur/llms/datasaur-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/datasaur-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/conformance/datasaur-conformance.yml
+  href: https://artifacts.apis.io/datasaur/conformance/datasaur-conformance.yml
   title: ''
   type: Conformance
   url: conformance/datasaur-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/lifecycle/datasaur-lifecycle.yml
+  href: https://artifacts.apis.io/datasaur/lifecycle/datasaur-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/datasaur-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/lifecycle/datasaur-lifecycle.yml
+  href: https://artifacts.apis.io/datasaur/lifecycle/datasaur-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/datasaur-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/changelog/datasaur-changelog.yml
+  href: https://artifacts.apis.io/datasaur/changelog/datasaur-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/datasaur-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/conventions/datasaur-conventions.yml
+  href: https://artifacts.apis.io/datasaur/conventions/datasaur-conventions.yml
   title: ''
   type: Conventions
   url: conventions/datasaur-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/data-model/datasaur-data-model.yml
+  href: https://artifacts.apis.io/datasaur/data-model/datasaur-data-model.yml
   title: ''
   type: DataModel
   url: data-model/datasaur-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/asyncapi/datasaur-webhooks.yml
+  href: https://artifacts.apis.io/datasaur/asyncapi/datasaur-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/datasaur-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/datasaur/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Datasaur is an enterprise AI lab that builds private, secure LLM and data solutions deployed on a customer's own infrastructure. Its Data Studio is a collaborative data-labeling platform (span, row, document, bounding-box, conversational and audio tasks) with ML-assisted labeling, while LLM Labs covers sandboxing, deployment, knowledge bases, model integrations and evaluation. Products include an enterprise chatbot, document intelligence, PII/PHI redaction and private agents, serving legal, healthcare, finance, insurance, eCommerce and government. Developers integrate through a GraphQL API (OAuth2 client credentials) at app.datasaur.ai/graphql, the Robosaur CLI, webhooks, and SAML/SCIM for workspace SSO.
+finops:
+- has_sources: true
+  method: derived
+  name: Datasaur Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: datasaur-finops
+  template: false
 image: https://cdn.prod.website-files.com/623952e7f678f73f3096fd25/66c5ad5767cd845864d963b5_webclip.jpg
 layout: provider
 modified: '2026-07-18'
@@ -200,26 +210,29 @@ plans:
 - name: Datasaur Plans Pricing
   plan_count: 4
   slug: datasaur-plans-pricing
-random_paper: 17
+- name: Datasaur Price Estimates
+  plan_count: 0
+  slug: datasaur-price-estimates
+random_paper: 13
 score:
   band: strong
-  composite: 55.1
+  composite: 58.6
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 39.0
+    artifact_dirs: 19
+    catalog_earned: 42.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 76.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.5
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 66.1
-    discoverability: 55.4
-    operational_transparency: 42.1
-  previous_composite: 48.7
+    discoverability: 48.2
+    operational_transparency: 52.6
+  previous_composite: 57.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -236,14 +249,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/screenshots/datasaur-2026-07-25T211356.png
+screenshot: https://apis.io/screenshots/datasaur/datasaur-2026-07-25T211356.png
 security:
 - kind: authentication
   name: Datasaur Authentication
@@ -257,6 +270,12 @@ security:
   name: Datasaur Trust Center
   slug: datasaur-trust-center
   summary_line: SOC 2, HIPAA, GDPR
+skill_count: 2
+skills:
+- name: Create a Datasaur labeling project
+  slug: datasaur-create-project
+- name: Export Datasaur projects and manage tags
+  slug: datasaur-export-and-tag
 slug: datasaur
 tags:
 - Company

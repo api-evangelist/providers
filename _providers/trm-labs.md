@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 27.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,11 +62,8 @@ apis:
   description: The Sanctions Screening API from TRM Labs — 1 operation(s) for sanctions screening.
   name: TRM Labs Sanctions Screening API
   slug: trm-labs-sanctions-screening-api
-artifact_total: 13
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Chainabuse Public Reports API
   slug: open-trm-labs-reports-api
@@ -84,22 +83,22 @@ common:
   type: BlogRSS
   url: https://www.trmlabs.com/resources/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/capabilities/trm-labs-capability-edges.yml
+  href: https://artifacts.apis.io/trm-labs/capabilities/trm-labs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/trm-labs-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/overlays/trm-labs-chainabuse-overlay.yaml
+  href: https://artifacts.apis.io/trm-labs/overlays/trm-labs-chainabuse-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/trm-labs-chainabuse-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/agentic-access/trm-labs-agentic-access.yml
+  href: https://artifacts.apis.io/trm-labs/agentic-access/trm-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trm-labs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/security/trm-labs-trust-center.yml
+  href: https://artifacts.apis.io/trm-labs/security/trm-labs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/trm-labs-trust-center.yml
@@ -108,7 +107,7 @@ common:
   type: Compliance
   url: https://trust.trmlabs.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/security/trm-labs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/trm-labs/security/trm-labs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/trm-labs-vulnerability-disclosure.yml
@@ -117,32 +116,32 @@ common:
   type: Security
   url: https://www.trmlabs.com/responsible-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/security/trm-labs-domain-security.yml
+  href: https://artifacts.apis.io/trm-labs/security/trm-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trm-labs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/authentication/trm-labs-authentication.yml
+  href: https://artifacts.apis.io/trm-labs/authentication/trm-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trm-labs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/errors/trm-labs-problem-types.yml
+  href: https://artifacts.apis.io/trm-labs/errors/trm-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/trm-labs-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/rate-limits/trm-labs-rate-limits.yml
+  href: https://artifacts.apis.io/trm-labs/rate-limits/trm-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trm-labs-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/conventions/trm-labs-conventions.yml
+  href: https://artifacts.apis.io/trm-labs/conventions/trm-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trm-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/lifecycle/trm-labs-lifecycle.yml
+  href: https://artifacts.apis.io/trm-labs/lifecycle/trm-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trm-labs-lifecycle.yml
@@ -151,27 +150,27 @@ common:
   type: StatusPage
   url: https://status.trmlabs.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/conformance/trm-labs-conformance.yml
+  href: https://artifacts.apis.io/trm-labs/conformance/trm-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trm-labs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/data-model/trm-labs-data-model.yml
+  href: https://artifacts.apis.io/trm-labs/data-model/trm-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/trm-labs-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/mcp/trm-labs-mcp.yml
+  href: https://artifacts.apis.io/trm-labs/mcp/trm-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/trm-labs-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/llms/trm-labs-llms.txt
+  href: https://artifacts.apis.io/trm-labs/llms/trm-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trm-labs-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/trm-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -230,7 +229,7 @@ rate_limits:
   slug: trm-labs-rate-limits
 score:
   band: developing
-  composite: 48.1
+  composite: 48.4
   coverage:
     artifact_dirs: 23
     catalog_earned: 49.0
@@ -238,15 +237,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 4.5
     contract_quality: 51.4
     developer_ergonomics: 49.4
-    discoverability: 73.2
-    operational_transparency: 60.5
-  previous_composite: 48.0
+    discoverability: 66.1
+    operational_transparency: 63.2
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -267,13 +266,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/screenshots/trm-labs-2026-08-17T082443.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/trm-labs/trm-labs-2026-08-17T082443.png
 security:
 - kind: authentication
   name: Trm Labs Authentication
@@ -291,6 +291,12 @@ security:
   name: Trm Labs Trust Center
   slug: trm-labs-trust-center
   summary_line: SOC 2, ISO 27001, FedRAMP
+skill_count: 2
+skills:
+- name: Look up and contribute Chainabuse scam reports
+  slug: trm-labs-scam-reports
+- name: Screen a blockchain address for sanctions exposure
+  slug: trm-labs-screen-sanctions
 slug: trm-labs
 tags:
 - Company

@@ -1,0 +1,201 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.1
+  scored_at: '2026-10-31'
+api_count: 0
+artifact_total: 2
+common:
+- group: auth
+  href: https://artifacts.apis.io/minoanexperience-com/security/minoanexperience-com-vulnerability-disclosure.yml
+  title: ''
+  type: Security
+  url: security/minoanexperience-com-vulnerability-disclosure.yml
+- group: agent
+  href: https://artifacts.apis.io/minoanexperience-com/llms/minoanexperience-com-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/minoanexperience-com-llms.txt
+- group: auth
+  href: https://artifacts.apis.io/minoanexperience-com/well-known/minoanexperience-com-minoan-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/minoanexperience-com-minoan-security.txt
+- group: agent
+  href: https://artifacts.apis.io/minoanexperience-com/well-known/minoanexperience-com-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/minoanexperience-com-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/minoanexperience-com/hosts/minoanexperience-com-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/minoanexperience-com-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/minoanexperience-com/vendors/minoanexperience-com-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/minoanexperience-com-vendors.yml
+- group: auth
+  href: https://artifacts.apis.io/minoanexperience-com/security/minoanexperience-com-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/minoanexperience-com-vulnerability-disclosure.yml
+- group: auth
+  href: https://artifacts.apis.io/minoanexperience-com/security/minoanexperience-com-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/minoanexperience-com-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.minoanexperience.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://minoan.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://minoan.com/about-us
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://minoan.com/join-us
+- group: operate
+  title: ''
+  type: Support
+  url: https://my.minoan.com/auth/login
+- group: company
+  title: ''
+  type: Blog
+  url: https://minoan.com/blog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://minoan.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://minoan.com/privacy
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://minoan.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://minoan.com/about-us
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://minoan.com/join-us
+- group: operate
+  title: ''
+  type: Support
+  url: https://my.minoan.com/auth/login
+- group: company
+  title: ''
+  type: Blog
+  url: https://minoan.com/blog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://minoan.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://minoan.com/privacy
+coverage:
+  checked: '2026-10-25'
+  detail: API reference page https://minoan.com/api-docs returns a JavaScript-rendered HTML shell with no machine-readable spec.
+  evidence:
+  - status: 404
+    url: https://minoan.com/api-docs
+  reason: js-rendered-docs
+  state: unreadable
+created: '2026-10-25'
+description: Minoan provides a shoppable hospitality platform that enables property hosts and hospitality professionals to furnish and restock their spaces at insider prices. By aggregating premium brands and offering deep discounts, Minoan streamlines procurement, order tracking, and delivery, allowing users to earn commissions on showroom sales. The service is free to use with no membership fees, targeting Airbnb hosts, property managers, interior designers, and hotels seeking cost-effective furnishing solutions.
+image: https://storage.googleapis.com/minoan-images/minoan%20website%20redesign/hero_image.webp
+layout: provider
+modified: '2026-10-25'
+name: Minoan
+nav: Providers
+network: true
+overview: 'Minoan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Procurement, E-commerce, and Property Management.
+
+
+  Minoan''s developer surface includes documentation, getting-started guide, support, engineering blog, and 19 more developer resources.'
+random_paper: 6
+score:
+  band: emerging
+  composite: 18.7
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 38.1
+    discoverability: 48.2
+    operational_transparency: 10.5
+  provenance:
+    mcp: unknown
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 19.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Minoanexperience Com Domain Security
+  slug: minoanexperience-com-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Minoanexperience Com Vulnerability Disclosure
+  slug: minoanexperience-com-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: minoanexperience-com
+tags:
+- Company
+- Hospitality
+- Procurement
+- E-commerce
+- Property Management
+website: https://www.minoanexperience.com/
+---

@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 28.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ arazzos:
 - description: Pull the first page of Opportunities, Accounts, and Forecast Submissions out of the Boostup / Terret Export API in one run, ready to page through with limit/skip.
   name: Export all Boostup revenue data
   slug: boostup-export-all-revenue-data
-artifact_total: 11
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Boostup Export API
   slug: open-boostup-export-api
@@ -69,97 +68,97 @@ common:
   type: BlogRSS
   url: https://www.terret.ai/resources/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/capabilities/boostup-capability-edges.yml
+  href: https://artifacts.apis.io/boostup/capabilities/boostup-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/boostup-capability-edges.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/arazzo/boostup-export-all-revenue-data.yml
+  href: https://artifacts.apis.io/boostup/arazzo/boostup-export-all-revenue-data.yml
   title: ''
   type: Arazzo
   url: arazzo/boostup-export-all-revenue-data.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/boostup/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/overlays/boostup-export-overlay.yaml
+  href: https://artifacts.apis.io/boostup/overlays/boostup-export-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/boostup-export-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/llms/boostup-llms.txt
+  href: https://artifacts.apis.io/boostup/llms/boostup-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/boostup-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/mcp/boostup-mcp.yml
+  href: https://artifacts.apis.io/boostup/mcp/boostup-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/boostup-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/data-model/boostup-data-model.yml
+  href: https://artifacts.apis.io/boostup/data-model/boostup-data-model.yml
   title: ''
   type: DataModel
   url: data-model/boostup-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/conventions/boostup-conventions.yml
+  href: https://artifacts.apis.io/boostup/conventions/boostup-conventions.yml
   title: ''
   type: Conventions
   url: conventions/boostup-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/lifecycle/boostup-lifecycle.yml
+  href: https://artifacts.apis.io/boostup/lifecycle/boostup-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/boostup-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/conformance/boostup-conformance.yml
+  href: https://artifacts.apis.io/boostup/conformance/boostup-conformance.yml
   title: ''
   type: Conformance
   url: conformance/boostup-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/errors/boostup-problem-types.yml
+  href: https://artifacts.apis.io/boostup/errors/boostup-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/boostup-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/agentic-access/boostup-agentic-access.yml
+  href: https://artifacts.apis.io/boostup/agentic-access/boostup-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/boostup-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/security/boostup-trust-center.yml
+  href: https://artifacts.apis.io/boostup/security/boostup-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/boostup-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/security/boostup-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/boostup/security/boostup-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/boostup-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/security/boostup-domain-security.yml
+  href: https://artifacts.apis.io/boostup/security/boostup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/boostup-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/authentication/boostup-authentication.yml
+  href: https://artifacts.apis.io/boostup/authentication/boostup-authentication.yml
   title: ''
   type: Authentication
   url: authentication/boostup-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/packages/boostup-packages.yml
+  href: https://artifacts.apis.io/boostup/packages/boostup-packages.yml
   title: ''
   type: Packages
   url: packages/boostup-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/plans/boostup-plans-pricing.yml
+  href: https://artifacts.apis.io/boostup/plans/boostup-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/boostup-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/rate-limits/boostup-rate-limits.yml
+  href: https://artifacts.apis.io/boostup/rate-limits/boostup-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/boostup-rate-limits.yml
@@ -217,6 +216,14 @@ common:
   url: https://www.terret.ai/vulnerability-disclosure-policy/
 created: '2026-07-17'
 description: Boostup (now operating as Terret, terret.ai) is an AI-powered revenue intelligence platform that connects data across a company's revenue systems to analyze sales performance, forecast pipeline, and translate insights into real-time execution guidance for sales teams. Its products include Terret Nexus (an answer-to-action revenue engine that generates playbooks), Terret Forecast (pipeline forecasting), and Terret Conversation Intelligence (call analysis). For developers, Boostup exposes a public REST data-export API at app.boostup.ai/export that lets customers programmatically pull their Opportunities, Accounts, and Forecast Submissions out of the platform for in-house analysis and reporting. The API is authenticated with API keys passed in the Authorization header, returns JSON paginated in batches of up to 1000 records, and supports date-based filtering on close/create/update times. The company was surfaced as a portfolio company of Canaan Partners.
+finops:
+- has_sources: true
+  method: derived
+  name: Boostup Finops
+  primary_unit: ''
+  service_category: ''
+  slug: boostup-finops
+  template: true
 image: https://terret.ai/images/nexus-og-logo-only.jpg
 layout: provider
 modified: '2026-10-06'
@@ -231,30 +238,30 @@ plans:
 - name: Boostup Plans Pricing
   plan_count: 0
   slug: boostup-plans-pricing
-random_paper: 10
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Boostup Rate Limits
   slug: boostup-rate-limits
 score:
   band: developing
-  composite: 42.1
+  composite: 44.7
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 47.8
     developer_ergonomics: 37.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 42.0
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -271,13 +278,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/screenshots/boostup-2026-07-25T203626.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/boostup/boostup-2026-07-25T203626.png
 security:
 - kind: authentication
   name: Boostup Authentication
@@ -295,6 +303,10 @@ security:
   name: Boostup Trust Center
   slug: boostup-trust-center
   summary_line: SOC 2, CSA STAR, FIPS 140
+skill_count: 1
+skills:
+- name: Export Boostup revenue data
+  slug: boostup-export-revenue-data
 slug: boostup
 tags:
 - Company

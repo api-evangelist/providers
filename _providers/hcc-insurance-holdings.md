@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hcc-insurance-holdings/refs/heads/main/security/hcc-insurance-holdings-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hcc-insurance-holdings/security/hcc-insurance-holdings-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hcc-insurance-holdings-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hcc-insurance-holdings/refs/heads/main/security/hcc-insurance-holdings-domain-security.yml
+  href: https://artifacts.apis.io/hcc-insurance-holdings/security/hcc-insurance-holdings-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hcc-insurance-holdings-domain-security.yml
@@ -83,10 +85,10 @@ press:
 - date: ''
   title: Tokio Marine to buy HCC Insurance for $7.5 billion
   url: https://www.reuters.com/article/business/tokio-marine-to-buy-hcc-insurance-for-75-billion-idUSKBN0OQ0KU/
-random_paper: 16
+random_paper: 8
 score:
   band: minimal
-  composite: 3.0
+  composite: 4.4
   coverage:
     artifact_dirs: 6
     catalog_earned: 22.0
@@ -101,22 +103,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 39.3
-    operational_transparency: 0.0
-  previous_composite: 3.0
+    operational_transparency: 10.5
+  previous_composite: 4.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 10.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hcc-insurance-holdings/refs/heads/main/screenshots/hcc-insurance-holdings-2026-06-20T182549.png
+screenshot: https://apis.io/screenshots/hcc-insurance-holdings/hcc-insurance-holdings-2026-06-20T182549.png
 security:
 - kind: domain-security
   name: Hcc Insurance Holdings Domain Security

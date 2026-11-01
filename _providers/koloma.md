@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A Model Context Protocol (MCP) endpoint served from the Koloma California regional website at https://www.kolomacalifornia.com/_api/mcp and advertised in that host's own llms.txt. The endpoint is prov
@@ -75,37 +77,37 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/kolomainc/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/koloma/refs/heads/main/mcp/koloma-mcp.yml
+  href: https://artifacts.apis.io/koloma/mcp/koloma-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/koloma-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/koloma/refs/heads/main/llms/koloma-llms.txt
+  href: https://artifacts.apis.io/koloma/llms/koloma-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/koloma-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/koloma/refs/heads/main/well-known/koloma-well-known.yml
+  href: https://artifacts.apis.io/koloma/well-known/koloma-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/koloma-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/koloma/refs/heads/main/authentication/koloma-authentication.yml
+  href: https://artifacts.apis.io/koloma/authentication/koloma-authentication.yml
   title: ''
   type: Authentication
   url: authentication/koloma-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koloma/refs/heads/main/conformance/koloma-conformance.yml
+  href: https://artifacts.apis.io/koloma/conformance/koloma-conformance.yml
   title: ''
   type: Conformance
   url: conformance/koloma-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/koloma/refs/heads/main/security/koloma-domain-security.yml
+  href: https://artifacts.apis.io/koloma/security/koloma-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/koloma-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/koloma/refs/heads/main/packages/koloma-packages.yml
+  href: https://artifacts.apis.io/koloma/packages/koloma-packages.yml
   title: ''
   type: Packages
   url: packages/koloma-packages.yml
@@ -119,7 +121,7 @@ description: Koloma is a Denver, Colorado based natural (geologic) hydrogen expl
 image: https://www.koloma.com/wp-content/uploads/2025/06/koloma-logo.svg
 layout: provider
 mcp_servers:
-- description: Remote MCP server at www.kolomacalifornia.com over HTTP; 9 tools listed.
+- description: Remote MCP server at www.kolomacalifornia.com over HTTP; 10 tools listed.
   name: Koloma MCP Server
   slug: koloma-california-site
 modified: '2026-08-01'
@@ -130,10 +132,10 @@ overview: 'Koloma is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Koloma''s developer surface includes engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 5
+random_paper: 19
 score:
   band: emerging
-  composite: 16.2
+  composite: 15.2
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -147,9 +149,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 16.2
+  previous_composite: 15.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -159,14 +161,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 17.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/koloma/refs/heads/main/screenshots/koloma-2026-08-07T171318.png
+screenshot: https://apis.io/screenshots/koloma/koloma-2026-08-07T171318.png
 security:
 - kind: authentication
   name: Koloma Authentication

@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.5
-  scored_at: '2026-10-17'
+  score: 43.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -80,7 +82,7 @@ apis:
   description: OAuth2 authorization code flow for obtaining access tokens
   name: FormAssembly O Auth2 API
   slug: formassembly-oauth2-api
-artifact_total: 42
+artifact_total: 41
 collections:
 - collection_type: postman
   name: FormAssembly REST Admin API
@@ -106,9 +108,6 @@ collections:
 - collection_type: postman
   name: FormAssembly REST Admin Themes API
   slug: postman-formassembly-themes-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: FormAssembly REST Admin API
   slug: open-formassembly-admin-api
@@ -139,27 +138,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/formassembly/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/agentic-access/formassembly-agentic-access.yml
+  href: https://artifacts.apis.io/formassembly/agentic-access/formassembly-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/formassembly-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/security/formassembly-trust-center.yml
+  href: https://artifacts.apis.io/formassembly/security/formassembly-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/formassembly-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/security/formassembly-domain-security.yml
+  href: https://artifacts.apis.io/formassembly/security/formassembly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/formassembly-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/authentication/formassembly-authentication.yml
+  href: https://artifacts.apis.io/formassembly/authentication/formassembly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/formassembly-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/scopes/formassembly-scopes.yml
+  href: https://artifacts.apis.io/formassembly/scopes/formassembly-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/formassembly-scopes.yml
@@ -196,27 +195,27 @@ common:
   type: X
   url: https://twitter.com/FormAssembly
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/plans/formassembly-plans-pricing.yml
+  href: https://artifacts.apis.io/formassembly/plans/formassembly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/formassembly-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/rate-limits/formassembly-rate-limits.yml
+  href: https://artifacts.apis.io/formassembly/rate-limits/formassembly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/formassembly-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/finops/formassembly-finops.yml
+  href: https://artifacts.apis.io/formassembly/finops/formassembly-finops.yml
   title: ''
   type: FinOps
   url: finops/formassembly-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/vocabulary/formassembly-vocabulary.yml
+  href: https://artifacts.apis.io/formassembly/vocabulary/formassembly-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/formassembly-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/json-ld/formassembly-context.jsonld
+  href: https://artifacts.apis.io/formassembly/json-ld/formassembly-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/formassembly-context.jsonld
@@ -233,8 +232,8 @@ examples:
   name: Formassembly Response Export Example
   slug: formassembly-response-export-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Formassembly Finops
   primary_unit: ''
   service_category: ''
@@ -279,7 +278,7 @@ plans:
 - name: Formassembly Plans Pricing
   plan_count: 4
   slug: formassembly-plans-pricing
-random_paper: 2
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Formassembly Rate Limits
@@ -303,23 +302,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 40.1
+  composite: 45.3
   coverage:
     artifact_dirs: 21
-    catalog_earned: 61.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.3
+    catalog_earned: 70.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.4
+  delta: 0.0
   facets:
-    access_clarity: 26.3
+    access_clarity: 50.0
     contract_governance: 23.5
     contract_quality: 54.8
     developer_ergonomics: 28.6
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 48.5
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     contracts:
@@ -334,13 +333,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/screenshots/formassembly-2026-06-20T181430.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/formassembly/formassembly-2026-06-20T181430.png
 security:
 - kind: authentication
   name: Formassembly Authentication

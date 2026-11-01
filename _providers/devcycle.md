@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.8
-  scored_at: '2026-10-17'
+  score: 50.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 60
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 112
   slug: devcycle-agentic-access
   summary_line: 112 operations · 65 acting · 60 human-in-the-loop
-api_count: 4
+api_count: 2
 apis:
 - baseURL: https://api.devcycle.com/v1
   baseurl_source: declared
@@ -176,7 +178,7 @@ arazzos:
 - description: Fetch all variables and features for a user context and report an event.
   name: DevCycle - evaluate feature flags for a user (Bucketing API)
   slug: devcycle-evaluate-flags
-artifact_total: 85
+artifact_total: 88
 asyncapis:
 - description: ''
   name: Devcycle Webhooks
@@ -258,9 +260,6 @@ collections:
   name: DevCycle Bucketing Audiences Webhooks API
   slug: postman-devcycle-webhooks-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: DevCycle Bucketing Audiences API
   slug: open-devcycle-audiences-api
 - collection_type: open
@@ -336,17 +335,22 @@ collections:
   name: DevCycle Bucketing Audiences Webhooks API
   slug: open-devcycle-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/devcycle/plans/devcycle-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/devcycle-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://blog.devcycle.com/rss/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/capabilities/devcycle-capability-edges.yml
+  href: https://artifacts.apis.io/devcycle/capabilities/devcycle-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/devcycle-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/overlays/devcycle-bucketing-overlay.yaml
+  href: https://artifacts.apis.io/devcycle/overlays/devcycle-bucketing-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/devcycle-bucketing-overlay.yaml
@@ -419,92 +423,92 @@ common:
   type: Website
   url: https://www.devcycle.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/packages/devcycle-packages.yml
+  href: https://artifacts.apis.io/devcycle/packages/devcycle-packages.yml
   title: ''
   type: Packages
   url: packages/devcycle-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/packages/devcycle-packages.yml
+  href: https://artifacts.apis.io/devcycle/packages/devcycle-packages.yml
   title: ''
   type: SDKs
   url: packages/devcycle-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/cli/devcycle-cli.yml
+  href: https://artifacts.apis.io/devcycle/cli/devcycle-cli.yml
   title: ''
   type: CLI
   url: cli/devcycle-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/mcp/devcycle-mcp.yml
+  href: https://artifacts.apis.io/devcycle/mcp/devcycle-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/devcycle-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/devcycle/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/asyncapi/devcycle-webhooks.yml
+  href: https://artifacts.apis.io/devcycle/asyncapi/devcycle-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/devcycle-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/well-known/devcycle-well-known.yml
+  href: https://artifacts.apis.io/devcycle/well-known/devcycle-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/devcycle-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/well-known/devcycle-security.txt
+  href: https://artifacts.apis.io/devcycle/well-known/devcycle-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/devcycle-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/llms/devcycle-llms.txt
+  href: https://artifacts.apis.io/devcycle/llms/devcycle-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/devcycle-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/authentication/devcycle-authentication.yml
+  href: https://artifacts.apis.io/devcycle/authentication/devcycle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/devcycle-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/conventions/devcycle-conventions.yml
+  href: https://artifacts.apis.io/devcycle/conventions/devcycle-conventions.yml
   title: ''
   type: Conventions
   url: conventions/devcycle-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/errors/devcycle-problem-types.yml
+  href: https://artifacts.apis.io/devcycle/errors/devcycle-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/devcycle-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/lifecycle/devcycle-lifecycle.yml
+  href: https://artifacts.apis.io/devcycle/lifecycle/devcycle-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/devcycle-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/data-model/devcycle-data-model.yml
+  href: https://artifacts.apis.io/devcycle/data-model/devcycle-data-model.yml
   title: ''
   type: DataModel
   url: data-model/devcycle-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/conformance/devcycle-conformance.yml
+  href: https://artifacts.apis.io/devcycle/conformance/devcycle-conformance.yml
   title: ''
   type: Conformance
   url: conformance/devcycle-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/agentic-access/devcycle-agentic-access.yml
+  href: https://artifacts.apis.io/devcycle/agentic-access/devcycle-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/devcycle-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/security/devcycle-domain-security.yml
+  href: https://artifacts.apis.io/devcycle/security/devcycle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/devcycle-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/security/devcycle-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/devcycle/security/devcycle-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/devcycle-vulnerability-disclosure.yml
@@ -513,22 +517,30 @@ common:
   type: Security
   url: https://github.com/DevCycleHQ/.github/blob/main/.github/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/security/devcycle-trust-center.yml
+  href: https://artifacts.apis.io/devcycle/security/devcycle-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/devcycle-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/arazzo/devcycle-create-feature.yml
+  href: https://artifacts.apis.io/devcycle/arazzo/devcycle-create-feature.yml
   title: ''
   type: Arazzo
   url: arazzo/devcycle-create-feature.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/arazzo/devcycle-evaluate-flags.yml
+  href: https://artifacts.apis.io/devcycle/arazzo/devcycle-evaluate-flags.yml
   title: ''
   type: Arazzo
   url: arazzo/devcycle-evaluate-flags.yml
 created: '2026-07-17'
 description: DevCycle is an OpenFeature-native feature flag and feature management platform (a Dynatrace company) for creating, targeting, rolling out, and cleaning up feature flags without disrupting developer workflow. It exposes a Management API for administering projects, environments, features, variables, variations, and audiences, and a Bucketing API for server-side flag evaluation, backed by client and server SDKs across every major language, OpenFeature providers, a `dvc` CLI, a Terraform provider, and an official hosted MCP server for AI coding agents.
+finops:
+- has_sources: true
+  method: derived
+  name: Devcycle Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: devcycle-finops
+  template: false
 image: https://devcycle.com/social-default.png
 layout: provider
 mcp_servers:
@@ -545,27 +557,34 @@ overview: 'DevCycle publishes 25 API contracts indexed on the [APIs.io](https://
   The DevCycle catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  DevCycle''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 35 more developer resources.'
-random_paper: 11
+  DevCycle''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 36 more developer resources.'
+plans:
+- name: Devcycle Plans Pricing
+  plan_count: 4
+  slug: devcycle-plans-pricing
+- name: Devcycle Price Estimates
+  plan_count: 0
+  slug: devcycle-price-estimates
+random_paper: 7
 score:
-  band: strong
-  composite: 60.7
+  band: exemplar
+  composite: 67.8
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 31
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 7.4
   facets:
-    access_clarity: 53.9
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 56.0
+    contract_quality: 54.3
     developer_ergonomics: 79.8
-    discoverability: 80.0
-    operational_transparency: 52.6
-  previous_composite: 60.1
+    discoverability: 65.0
+    operational_transparency: 63.2
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -586,13 +605,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/screenshots/devcycle-2026-07-25T211810.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/devcycle/devcycle-2026-07-25T211810.png
 security:
 - kind: authentication
   name: Devcycle Authentication
@@ -610,6 +630,10 @@ security:
   name: Devcycle Trust Center
   slug: devcycle-trust-center
   summary_line: SOC 2 Type II, GDPR
+skill_count: 1
+skills:
+- name: Create and roll out a DevCycle feature flag
+  slug: devcycle-create-feature-flag
 slug: devcycle
 tags:
 - Company

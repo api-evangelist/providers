@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,12 +75,12 @@ common:
   type: Twitter
   url: https://x.com/kobold_metals
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kobold-metals/refs/heads/main/security/kobold-metals-domain-security.yml
+  href: https://artifacts.apis.io/kobold-metals/security/kobold-metals-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kobold-metals-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kobold-metals/refs/heads/main/llms/kobold-metals-llms.txt
+  href: https://artifacts.apis.io/kobold-metals/llms/kobold-metals-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kobold-metals-llms.txt
@@ -98,9 +100,9 @@ overview: 'KoBold Metals is profiled on the [APIs.io](https://apis.io/) network.
 random_paper: 6
 score:
   band: minimal
-  composite: 10.9
+  composite: 10.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -112,23 +114,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 56.3
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 10.9
+  previous_composite: 10.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kobold-metals/refs/heads/main/screenshots/kobold-metals-2026-07-25T224036.png
+screenshot: https://apis.io/screenshots/kobold-metals/kobold-metals-2026-07-25T224036.png
 security:
 - kind: domain-security
   name: Kobold Metals Domain Security

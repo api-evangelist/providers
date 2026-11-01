@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Boku Direct is Boku's payment gateway API for accepting local payment methods — mobile wallets, account-to-account transfers, and direct carrier billing — with support for one-off charges, subscriptio
@@ -49,12 +51,12 @@ common:
   type: BlogRSS
   url: https://www.boku.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boku/refs/heads/main/security/boku-domain-security.yml
+  href: https://artifacts.apis.io/boku/security/boku-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/boku-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boku/refs/heads/main/security/boku-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/boku/security/boku-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/boku-vulnerability-disclosure.yml
@@ -95,7 +97,7 @@ common:
   type: PrivacyPolicy
   url: https://www.boku.com/payments-privacy-notice
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boku/refs/heads/main/llms/boku-llms.txt
+  href: https://artifacts.apis.io/boku/llms/boku-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/boku-llms.txt
@@ -111,12 +113,12 @@ overview: 'Boku is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Boku''s developer surface includes engineering blog, documentation, API reference, support, and 10 more developer resources.'
-random_paper: 15
+random_paper: 1
 score:
   band: emerging
-  composite: 16.5
+  composite: 17.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -127,24 +129,24 @@ score:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.8
-    discoverability: 64.3
+    developer_ergonomics: 33.3
+    discoverability: 57.1
     operational_transparency: 10.5
-  previous_composite: 16.5
+  previous_composite: 17.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/boku/refs/heads/main/screenshots/boku-2026-07-25T203528.png
+screenshot: https://apis.io/screenshots/boku/boku-2026-07-25T203528.png
 security:
 - kind: domain-security
   name: Boku Domain Security

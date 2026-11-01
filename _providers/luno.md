@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.luno.com
@@ -43,7 +45,7 @@ apis:
   description: REST API for Luno market data, accounts, trading, transfers and withdrawals, plus a WebSocket market-data stream. Legacy API under /api/1/ and the newer Exchange API under /api/exchange/{1,2,3}/.
   name: Luno API
   slug: luno-api
-artifact_total: 8
+artifact_total: 10
 asyncapis:
 - description: 'Real-time market data stream for the Luno Exchange. A client opens one WebSocket connection per trading pair, authenticates with its API key pair, receives an initial full order book snapshot, then a '
   name: Luno Streaming API
@@ -98,7 +100,7 @@ common:
   type: StatusPage
   url: https://status.luno.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/security/luno-trust-center.yml
+  href: https://artifacts.apis.io/luno/security/luno-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/luno-trust-center.yml
@@ -107,77 +109,77 @@ common:
   type: Security
   url: https://www.luno.com/.well-known/security.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/packages/luno-packages.yml
+  href: https://artifacts.apis.io/luno/packages/luno-packages.yml
   title: ''
   type: Packages
   url: packages/luno-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/packages/luno-packages.yml
+  href: https://artifacts.apis.io/luno/packages/luno-packages.yml
   title: ''
   type: SDKs
   url: packages/luno-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/mcp/luno-mcp.yml
+  href: https://artifacts.apis.io/luno/mcp/luno-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/luno-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/luno/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/llms/luno-llms.txt
+  href: https://artifacts.apis.io/luno/llms/luno-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/luno-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/well-known/luno-well-known.yml
+  href: https://artifacts.apis.io/luno/well-known/luno-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/luno-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/well-known/luno-security.txt
+  href: https://artifacts.apis.io/luno/well-known/luno-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/luno-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/authentication/luno-authentication.yml
+  href: https://artifacts.apis.io/luno/authentication/luno-authentication.yml
   title: ''
   type: Authentication
   url: authentication/luno-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/conventions/luno-conventions.yml
+  href: https://artifacts.apis.io/luno/conventions/luno-conventions.yml
   title: ''
   type: Conventions
   url: conventions/luno-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/errors/luno-error-codes.yml
+  href: https://artifacts.apis.io/luno/errors/luno-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/luno-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/rate-limits/luno-rate-limits.yml
+  href: https://artifacts.apis.io/luno/rate-limits/luno-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/luno-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/lifecycle/luno-lifecycle.yml
+  href: https://artifacts.apis.io/luno/lifecycle/luno-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/luno-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/conformance/luno-conformance.yml
+  href: https://artifacts.apis.io/luno/conformance/luno-conformance.yml
   title: ''
   type: Conformance
   url: conformance/luno-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/security/luno-domain-security.yml
+  href: https://artifacts.apis.io/luno/security/luno-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/luno-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/security/luno-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/luno/security/luno-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/luno-vulnerability-disclosure.yml
@@ -200,14 +202,14 @@ overview: 'Luno is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Luno''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 6
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Luno Rate Limits
   slug: luno-rate-limits
 score:
   band: developing
-  composite: 49.9
+  composite: 49.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 45.0
@@ -221,9 +223,9 @@ score:
     contract_governance: 18.2
     contract_quality: 35.4
     developer_ergonomics: 61.3
-    discoverability: 71.7
-    operational_transparency: 57.9
-  previous_composite: 49.9
+    discoverability: 65.0
+    operational_transparency: 60.5
+  previous_composite: 49.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -234,14 +236,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/screenshots/luno-2026-07-25T225732.png
+screenshot: https://apis.io/screenshots/luno/luno-2026-07-25T225732.png
 security:
 - kind: authentication
   name: Luno Authentication
@@ -259,6 +261,12 @@ security:
   name: Luno Trust Center
   slug: luno-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 2
+skills:
+- name: Review Luno balances and account transactions
+  slug: luno-check-balances-and-transactions
+- name: Check the market and place a trade on Luno
+  slug: luno-check-market-and-trade
 slug: luno
 tags:
 - Company

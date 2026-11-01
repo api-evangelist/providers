@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.6
-  scored_at: '2026-10-17'
+  score: 6.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Identity and access management API (no machine-readable spec found)
@@ -32,7 +34,7 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/avatier/refs/heads/main/plans/avatier-plans-pricing.yml
+  href: https://artifacts.apis.io/avatier/plans/avatier-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/avatier-plans-pricing.yml
@@ -41,37 +43,37 @@ common:
   type: Compliance
   url: https://trust.avatier.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avatier/refs/heads/main/security/avatier-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/avatier/security/avatier-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/avatier-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/avatier/refs/heads/main/llms/avatier-llms.txt
+  href: https://artifacts.apis.io/avatier/llms/avatier-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/avatier-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avatier/refs/heads/main/well-known/avatier-security.txt
+  href: https://artifacts.apis.io/avatier/well-known/avatier-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/avatier-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avatier/refs/heads/main/well-known/avatier-identitychallengecard-security.txt
+  href: https://artifacts.apis.io/avatier/well-known/avatier-identitychallengecard-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/avatier-identitychallengecard-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/avatier/refs/heads/main/well-known/avatier-well-known.yml
+  href: https://artifacts.apis.io/avatier/well-known/avatier-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/avatier-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avatier/refs/heads/main/hosts/avatier-hosts.yml
+  href: https://artifacts.apis.io/avatier/hosts/avatier-hosts.yml
   title: ''
   type: Hosts
   url: hosts/avatier-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avatier/refs/heads/main/vendors/avatier-vendors.yml
+  href: https://artifacts.apis.io/avatier/vendors/avatier-vendors.yml
   title: ''
   type: Vendors
   url: vendors/avatier-vendors.yml
@@ -108,17 +110,17 @@ common:
   type: Blog
   url: https://www.avatier.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avatier/refs/heads/main/security/avatier-trust-center.yml
+  href: https://artifacts.apis.io/avatier/security/avatier-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/avatier-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avatier/refs/heads/main/security/avatier-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/avatier/security/avatier-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/avatier-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avatier/refs/heads/main/security/avatier-domain-security.yml
+  href: https://artifacts.apis.io/avatier/security/avatier-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/avatier-domain-security.yml
@@ -150,26 +152,26 @@ plans:
 - name: Avatier Plans Pricing
   plan_count: 4
   slug: avatier-plans-pricing
-random_paper: 0
+random_paper: 4
 score:
   band: thin
-  composite: 29.1
+  composite: 28.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 44.0
     catalog_earned_first_party: 12.0
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 67.9
+    discoverability: 60.7
     operational_transparency: 10.5
-  previous_composite: 22.7
+  previous_composite: 28.4
   provenance:
     mcp: unknown
   regulatory:
@@ -178,14 +180,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/avatier/refs/heads/main/screenshots/avatier-2026-10-11T101104.png
+screenshot: https://apis.io/screenshots/avatier/avatier-2026-10-11T101104.png
 security:
 - kind: domain-security
   name: Avatier Domain Security

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quibim/refs/heads/main/security/quibim-domain-security.yml
+  href: https://artifacts.apis.io/quibim/security/quibim-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quibim-domain-security.yml
@@ -74,12 +76,12 @@ common:
   type: Compliance
   url: https://quibim.ai/security-measures/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quibim/refs/heads/main/conformance/quibim-conformance.yml
+  href: https://artifacts.apis.io/quibim/conformance/quibim-conformance.yml
   title: ''
   type: Conformance
   url: conformance/quibim-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quibim/refs/heads/main/security/quibim-trust-center.yml
+  href: https://artifacts.apis.io/quibim/security/quibim-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/quibim-trust-center.yml
@@ -95,7 +97,7 @@ overview: 'QUIBIM is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   QUIBIM''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 9
+random_paper: 23
 score:
   band: emerging
   composite: 16.6
@@ -129,14 +131,14 @@ score:
     regime: Health
     regime_id: health
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/quibim/refs/heads/main/screenshots/quibim-2026-09-02T152648.png
+screenshot: https://apis.io/screenshots/quibim/quibim-2026-09-02T152648.png
 security:
 - kind: domain-security
   name: Quibim Domain Security

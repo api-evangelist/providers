@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.4
-  scored_at: '2026-10-17'
+  score: 17.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Soundful provides AI-generated music and audio tracks via its platform.
@@ -32,22 +34,22 @@ apis:
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/soundful/refs/heads/main/plans/soundful-plans-pricing.yml
+  href: https://artifacts.apis.io/soundful/plans/soundful-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/soundful-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soundful/refs/heads/main/well-known/soundful-well-known.yml
+  href: https://artifacts.apis.io/soundful/well-known/soundful-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/soundful-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/soundful/refs/heads/main/hosts/soundful-hosts.yml
+  href: https://artifacts.apis.io/soundful/hosts/soundful-hosts.yml
   title: ''
   type: Hosts
   url: hosts/soundful-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/soundful/refs/heads/main/vendors/soundful-vendors.yml
+  href: https://artifacts.apis.io/soundful/vendors/soundful-vendors.yml
   title: ''
   type: Vendors
   url: vendors/soundful-vendors.yml
@@ -56,7 +58,7 @@ common:
   type: Newsroom
   url: https://soundful.com/category/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soundful/refs/heads/main/security/soundful-domain-security.yml
+  href: https://artifacts.apis.io/soundful/security/soundful-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/soundful-domain-security.yml
@@ -119,7 +121,7 @@ plans:
 - name: Soundful Plans Pricing
   plan_count: 3
   slug: soundful-plans-pricing
-random_paper: 0
+random_paper: 16
 score:
   band: emerging
   composite: 23.6
@@ -147,14 +149,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/soundful/refs/heads/main/screenshots/soundful-2026-10-11T130121.png
+screenshot: https://apis.io/screenshots/soundful/soundful-2026-10-11T130121.png
 security:
 - kind: domain-security
   name: Soundful Domain Security

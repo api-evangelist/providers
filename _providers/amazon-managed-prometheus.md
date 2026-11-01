@@ -27,15 +27,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-17'
+  score: 34.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -55,7 +57,37 @@ apis:
   description: The Workspaces API from Amazon Managed Service for Prometheus — 7 operation(s) for workspaces.
   name: Amazon Managed Service for Prometheus Workspaces API
   slug: amazon-managed-prometheus-workspaces-api
-artifact_total: 266
+- baseURL: https://aps.amazonaws.com
+  baseurl_source: declared
+  description: The Managed Prometheus Anomalydetectors API from Amazon Managed Service for Prometheus — 2 operation(s) for managed prometheus anomalydetectors.
+  name: Amazon Managed Service for Prometheus Managed Prometheus Anomalydetectors API
+  slug: amazon-managed-prometheus-anomalydetectors-api
+- baseURL: https://aps.amazonaws.com
+  baseurl_source: declared
+  description: The Managed Prometheus Logging API from Amazon Managed Service for Prometheus — 1 operation(s) for managed prometheus logging.
+  name: Amazon Managed Service for Prometheus Managed Prometheus Logging API
+  slug: amazon-managed-prometheus-logging-api
+- baseURL: https://aps.amazonaws.com
+  baseurl_source: declared
+  description: The Managed Prometheus Logging Configuration API from Amazon Managed Service for Prometheus — 1 operation(s) for managed prometheus logging configuration.
+  name: Amazon Managed Service for Prometheus Managed Prometheus Logging Configuration API
+  slug: amazon-managed-prometheus-logging-configuration-api
+- baseURL: https://aps.amazonaws.com
+  baseurl_source: declared
+  description: The Managed Prometheus Operations API from Amazon Managed Service for Prometheus — 2 operation(s) for managed prometheus operations.
+  name: Amazon Managed Service for Prometheus Managed Prometheus Operations API
+  slug: amazon-managed-prometheus-operations-api
+- baseURL: https://aps.amazonaws.com
+  baseurl_source: declared
+  description: The Managed Prometheus Policy API from Amazon Managed Service for Prometheus — 1 operation(s) for managed prometheus policy.
+  name: Amazon Managed Service for Prometheus Managed Prometheus Policy API
+  slug: amazon-managed-prometheus-policy-api
+- baseURL: https://aps.amazonaws.com
+  baseurl_source: declared
+  description: The Managed Prometheus Scrapers API from Amazon Managed Service for Prometheus — 2 operation(s) for managed prometheus scrapers.
+  name: Amazon Managed Service for Prometheus Managed Prometheus Scrapers API
+  slug: amazon-managed-prometheus-scrapers-api
+artifact_total: 271
 collections:
 - collection_type: postman
   name: Amazon Prometheus Service Tags API
@@ -64,9 +96,6 @@ collections:
   name: Amazon Prometheus Service Tags Workspaces API
   slug: postman-amazon-managed-prometheus-workspaces-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Amazon Prometheus Service Tags API
   slug: open-amazon-managed-prometheus-tags-api
 - collection_type: open
@@ -74,22 +103,22 @@ collections:
   slug: open-amazon-managed-prometheus-workspaces-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/plans/amazon-managed-prometheus-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-managed-prometheus/plans/amazon-managed-prometheus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-managed-prometheus-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/rate-limits/amazon-managed-prometheus-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-managed-prometheus/rate-limits/amazon-managed-prometheus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-managed-prometheus-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/finops/amazon-managed-prometheus-finops.yml
+  href: https://artifacts.apis.io/amazon-managed-prometheus/finops/amazon-managed-prometheus-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-managed-prometheus-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/capabilities/amazon-managed-prometheus-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-managed-prometheus/capabilities/amazon-managed-prometheus-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-managed-prometheus-capability-edges.yml
@@ -102,27 +131,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-managed-service-for-prometheus/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/agentic-access/amazon-managed-prometheus-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-managed-prometheus/agentic-access/amazon-managed-prometheus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-managed-prometheus-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/security/amazon-managed-prometheus-trust-center.yml
+  href: https://artifacts.apis.io/amazon-managed-prometheus/security/amazon-managed-prometheus-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-managed-prometheus-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/security/amazon-managed-prometheus-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-managed-prometheus/security/amazon-managed-prometheus-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-managed-prometheus-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/security/amazon-managed-prometheus-domain-security.yml
+  href: https://artifacts.apis.io/amazon-managed-prometheus/security/amazon-managed-prometheus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-managed-prometheus-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/authentication/amazon-managed-prometheus-authentication.yml
+  href: https://artifacts.apis.io/amazon-managed-prometheus/authentication/amazon-managed-prometheus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-managed-prometheus-authentication.yml
@@ -175,12 +204,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/rules/amazon-managed-prometheus-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-managed-prometheus/rules/amazon-managed-prometheus-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-managed-prometheus-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/vocabulary/amazon-managed-prometheus-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-managed-prometheus/vocabulary/amazon-managed-prometheus-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-managed-prometheus-vocabulary.yaml
@@ -438,13 +467,13 @@ features:
 - description: Use standard Prometheus remote write and query APIs with existing tooling and clients.
   name: Prometheus-Compatible APIs
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Managed Prometheus Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: billion query samples processed
+  service_category: ''
   slug: amazon-managed-prometheus-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-managed-prometheus.png
 json_schemas:
 - name: AccessDeniedException
@@ -932,7 +961,7 @@ modified: '2026-09-16'
 name: Amazon Managed Service for Prometheus
 nav: Providers
 network: true
-overview: 'Amazon Managed Service for Prometheus publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Tags API and Workspaces API. Tagged areas include Containers, Monitoring, Observability, and Prometheus.
+overview: 'Amazon Managed Service for Prometheus publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Tags API, Workspaces API, Managed Prometheus Anomalydetectors API, and 5 more. Tagged areas include Containers, Monitoring, Observability, and Prometheus.
 
 
   The Amazon Managed Service for Prometheus catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -941,9 +970,9 @@ overview: 'Amazon Managed Service for Prometheus publishes 2 API contracts index
   Amazon Managed Service for Prometheus'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 18 more developer resources.'
 plans:
 - name: Amazon Managed Prometheus Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: amazon-managed-prometheus-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Amazon Managed Prometheus Rate Limits
@@ -973,44 +1002,45 @@ rules:
     warn: 10
   slug: amazon-managed-prometheus-spectral-rules
 score:
-  band: developing
-  composite: 50.0
+  band: strong
+  composite: 63.1
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 63.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.6
+    artifact_dirs: 21
+    catalog_earned: 75.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 39.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 2.3
   facets:
-    access_clarity: 53.9
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 60.7
-    developer_ergonomics: 46.4
+    contract_quality: 63.6
+    developer_ergonomics: 58.3
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 51.5
+    operational_transparency: 39.5
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 2
+      marker_coverage: 75.0
+      total: 8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/screenshots/amazon-managed-prometheus-2026-06-20T171735.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-managed-prometheus/amazon-managed-prometheus-2026-06-20T171735.png
 security:
 - kind: authentication
   name: Amazon Managed Prometheus Authentication

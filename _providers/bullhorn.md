@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API over the Bullhorn Staffing Object Model — CRUD, query, Lucene search, mass update, resume parsing, and file attachments across Candidate, JobOrder, Placement, ClientCorporation, ClientContact
@@ -94,52 +96,52 @@ common:
   type: PrivacyPolicy
   url: https://www.bullhorn.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bullhorn/refs/heads/main/authentication/bullhorn-authentication.yml
+  href: https://artifacts.apis.io/bullhorn/authentication/bullhorn-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bullhorn-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bullhorn/refs/heads/main/conventions/bullhorn-conventions.yml
+  href: https://artifacts.apis.io/bullhorn/conventions/bullhorn-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bullhorn-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bullhorn/refs/heads/main/errors/bullhorn-error-codes.yml
+  href: https://artifacts.apis.io/bullhorn/errors/bullhorn-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/bullhorn-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bullhorn/refs/heads/main/lifecycle/bullhorn-lifecycle.yml
+  href: https://artifacts.apis.io/bullhorn/lifecycle/bullhorn-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bullhorn-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bullhorn/refs/heads/main/packages/bullhorn-packages.yml
+  href: https://artifacts.apis.io/bullhorn/packages/bullhorn-packages.yml
   title: ''
   type: Packages
   url: packages/bullhorn-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bullhorn/refs/heads/main/packages/bullhorn-packages.yml
+  href: https://artifacts.apis.io/bullhorn/packages/bullhorn-packages.yml
   title: ''
   type: SDKs
   url: packages/bullhorn-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bullhorn/refs/heads/main/cli/bullhorn-cli.yml
+  href: https://artifacts.apis.io/bullhorn/cli/bullhorn-cli.yml
   title: ''
   type: CLI
   url: cli/bullhorn-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bullhorn/refs/heads/main/components/bullhorn-components.yml
+  href: https://artifacts.apis.io/bullhorn/components/bullhorn-components.yml
   title: ''
   type: Components
   url: components/bullhorn-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bullhorn/refs/heads/main/data-model/bullhorn-data-model.yml
+  href: https://artifacts.apis.io/bullhorn/data-model/bullhorn-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bullhorn-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bullhorn/refs/heads/main/conformance/bullhorn-conformance.yml
+  href: https://artifacts.apis.io/bullhorn/conformance/bullhorn-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bullhorn-conformance.yml
@@ -148,17 +150,17 @@ common:
   type: Compliance
   url: https://www.bullhorn.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bullhorn/refs/heads/main/security/bullhorn-trust-center.yml
+  href: https://artifacts.apis.io/bullhorn/security/bullhorn-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bullhorn-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bullhorn/refs/heads/main/security/bullhorn-domain-security.yml
+  href: https://artifacts.apis.io/bullhorn/security/bullhorn-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bullhorn-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bullhorn/refs/heads/main/llms/bullhorn-llms.txt
+  href: https://artifacts.apis.io/bullhorn/llms/bullhorn-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bullhorn-llms.txt
@@ -174,10 +176,10 @@ overview: 'Bullhorn is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Bullhorn''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 12
+random_paper: 6
 score:
-  band: thin
-  composite: 39.2
+  band: developing
+  composite: 40.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -190,10 +192,10 @@ score:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 61.9
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 39.2
+    developer_ergonomics: 71.4
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 40.7
   provenance:
     conformance: first-party
   regulatory:
@@ -206,14 +208,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 37.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bullhorn/refs/heads/main/screenshots/bullhorn-2026-07-25T204058.png
+screenshot: https://apis.io/screenshots/bullhorn/bullhorn-2026-07-25T204058.png
 security:
 - kind: authentication
   name: Bullhorn Authentication

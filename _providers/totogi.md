@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Totogi Charging-as-a-Service is a serverless, multi-tenant 5G Standalone and 5G Advanced converged charging system delivered as SaaS on AWS, with built-in policy control. Its account-management surfac
@@ -45,14 +47,14 @@ apis:
 - description: Whoosh! is Totogi's Application-to-Person (A2P) messaging API, launched in September 2023 and positioned as a drop-in replacement for Twilio's A2P APIs that network operators can resell to keep enterp
   name: Whoosh Programmable Messaging API
   slug: whoosh-programmable-messaging-api
-artifact_total: 6
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Totogi Whoosh Webhooks
   slug: totogi-whoosh-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/mcp/totogi-mcp.yml
+  href: https://artifacts.apis.io/totogi/mcp/totogi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/totogi-mcp.yml
@@ -117,7 +119,7 @@ common:
   type: LLMsTxt
   url: https://totogi.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/llms/totogi-llms.txt
+  href: https://artifacts.apis.io/totogi/llms/totogi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/totogi-llms.txt
@@ -134,77 +136,77 @@ common:
   type: Glossary
   url: https://totogi.com/glossary.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/packages/totogi-packages.yml
+  href: https://artifacts.apis.io/totogi/packages/totogi-packages.yml
   title: ''
   type: Packages
   url: packages/totogi-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/packages/totogi-packages.yml
+  href: https://artifacts.apis.io/totogi/packages/totogi-packages.yml
   title: ''
   type: SDKs
   url: packages/totogi-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/authentication/totogi-authentication.yml
+  href: https://artifacts.apis.io/totogi/authentication/totogi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/totogi-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/scopes/totogi-scopes.yml
+  href: https://artifacts.apis.io/totogi/scopes/totogi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/totogi-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/conventions/totogi-conventions.yml
+  href: https://artifacts.apis.io/totogi/conventions/totogi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/totogi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/conventions/totogi-conventions.yml
+  href: https://artifacts.apis.io/totogi/conventions/totogi-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/totogi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/errors/totogi-error-catalog.yml
+  href: https://artifacts.apis.io/totogi/errors/totogi-error-catalog.yml
   title: ''
   type: ErrorCatalog
   url: errors/totogi-error-catalog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/data-model/totogi-data-model.yml
+  href: https://artifacts.apis.io/totogi/data-model/totogi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/totogi-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/lifecycle/totogi-lifecycle.yml
+  href: https://artifacts.apis.io/totogi/lifecycle/totogi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/totogi-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/lifecycle/totogi-lifecycle.yml
+  href: https://artifacts.apis.io/totogi/lifecycle/totogi-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/totogi-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/changelog/totogi-changelog.yml
+  href: https://artifacts.apis.io/totogi/changelog/totogi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/totogi-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/conformance/totogi-conformance.yml
+  href: https://artifacts.apis.io/totogi/conformance/totogi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/totogi-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/conformance/totogi-conformance.yml
+  href: https://artifacts.apis.io/totogi/conformance/totogi-conformance.yml
   title: ''
   type: Compliance
   url: conformance/totogi-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/totogi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/security/totogi-domain-security.yml
+  href: https://artifacts.apis.io/totogi/security/totogi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/totogi-domain-security.yml
@@ -224,7 +226,7 @@ overview: 'Totogi is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Totogi''s developer surface includes FAQ, engineering blog, support, YouTube channel, authentication, changelog, and 29 more developer resources.'
-random_paper: 2
+random_paper: 14
 scopes:
 - name: Totogi Scopes
   scope_count: 0
@@ -232,9 +234,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.5
+  composite: 51.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -246,8 +248,8 @@ score:
     contract_governance: 18.2
     contract_quality: 51.0
     developer_ergonomics: 73.2
-    discoverability: 74.1
-    operational_transparency: 34.2
+    discoverability: 75.0
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -255,7 +257,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 50.5
+  previous_composite: 51.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -265,15 +267,15 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 42.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 44.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/screenshots/totogi-2026-08-17T082413.png
+screenshot: https://apis.io/screenshots/totogi/totogi-2026-08-17T082413.png
 security:
 - kind: authentication
   name: Totogi Authentication
@@ -283,6 +285,18 @@ security:
   name: Totogi Domain Security
   slug: totogi-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Design, deploy and make a Totogi rate plan assignable
+  slug: totogi-design-and-deploy-plan
+- name: Manage Totogi API client credentials
+  slug: totogi-manage-api-clients
+- name: Top up and adjust Totogi account balances idempotently
+  slug: totogi-manage-balances
+- name: Page through Totogi event data records (EDRs)
+  slug: totogi-page-usage-records
+- name: Provision a Totogi subscriber and put them on a plan
+  slug: totogi-provision-subscriber
 slug: totogi
 tags:
 - Telecommunications

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/helloverify/refs/heads/main/security/helloverify-domain-security.yml
+  href: https://artifacts.apis.io/helloverify/security/helloverify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/helloverify-domain-security.yml
@@ -70,12 +72,12 @@ common:
   type: LinkedIn
   url: https://linkedin.com/company/helloverify
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/helloverify/refs/heads/main/llms/helloverify-llms.txt
+  href: https://artifacts.apis.io/helloverify/llms/helloverify-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/helloverify-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/helloverify/refs/heads/main/conformance/helloverify-conformance.yml
+  href: https://artifacts.apis.io/helloverify/conformance/helloverify-conformance.yml
   title: ''
   type: Conformance
   url: conformance/helloverify-conformance.yml
@@ -84,7 +86,7 @@ common:
   type: Compliance
   url: https://www.helloverify.com/en/technology
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/helloverify/refs/heads/main/security/helloverify-trust-center.yml
+  href: https://artifacts.apis.io/helloverify/security/helloverify-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/helloverify-trust-center.yml
@@ -100,10 +102,10 @@ overview: 'HelloVerify is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   HelloVerify''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 5
+random_paper: 17
 score:
   band: emerging
-  composite: 17.2
+  composite: 16.5
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -117,9 +119,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 17.2
+  previous_composite: 16.5
   provenance:
     conformance: first-party
   regulatory:
@@ -128,14 +130,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/helloverify/refs/heads/main/screenshots/helloverify-2026-07-25T220943.png
+screenshot: https://apis.io/screenshots/helloverify/helloverify-2026-07-25T220943.png
 security:
 - kind: domain-security
   name: Helloverify Domain Security

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.5
-  scored_at: '2026-10-17'
+  score: 32.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 1
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 197
   slug: shoplazza-agentic-access
   summary_line: 197 operations · 95 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://developer.myshoplaza.com/openapi/2022-01
   baseurl_source: declared
@@ -143,15 +145,12 @@ apis:
   description: The Webhook API from Shoplazza — 3 operation(s) for webhook.
   name: Shoplazza Webhook API
   slug: shoplazza-webhook-api
-artifact_total: 47
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Shoplazza Webhooks
   slug: shoplazza-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SPZ Admin Access API
   slug: open-shoplazza-access-api
@@ -222,17 +221,17 @@ common:
   type: Website
   url: https://shoplazza.dev
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/capabilities/shoplazza-capability-edges.yml
+  href: https://artifacts.apis.io/shoplazza/capabilities/shoplazza-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/shoplazza-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/overlays/shoplazza-admin-overlay.yaml
+  href: https://artifacts.apis.io/shoplazza/overlays/shoplazza-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shoplazza-admin-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/security/shoplazza-domain-security.yml
+  href: https://artifacts.apis.io/shoplazza/security/shoplazza-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shoplazza-domain-security.yml
@@ -297,92 +296,92 @@ common:
   type: AppStore
   url: https://appstore.shoplazza.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/asyncapi/shoplazza-webhooks.yml
+  href: https://artifacts.apis.io/shoplazza/asyncapi/shoplazza-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/shoplazza-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/authentication/shoplazza-authentication.yml
+  href: https://artifacts.apis.io/shoplazza/authentication/shoplazza-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shoplazza-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/scopes/shoplazza-scopes.yml
+  href: https://artifacts.apis.io/shoplazza/scopes/shoplazza-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/shoplazza-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/packages/shoplazza-packages.yml
+  href: https://artifacts.apis.io/shoplazza/packages/shoplazza-packages.yml
   title: ''
   type: Packages
   url: packages/shoplazza-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/packages/shoplazza-packages.yml
+  href: https://artifacts.apis.io/shoplazza/packages/shoplazza-packages.yml
   title: ''
   type: SDKs
   url: packages/shoplazza-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/cli/shoplazza-cli.yml
+  href: https://artifacts.apis.io/shoplazza/cli/shoplazza-cli.yml
   title: ''
   type: CLI
   url: cli/shoplazza-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/mcp/shoplazza-mcp.yml
+  href: https://artifacts.apis.io/shoplazza/mcp/shoplazza-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/shoplazza-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/llms/shoplazza-llms.txt
+  href: https://artifacts.apis.io/shoplazza/llms/shoplazza-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shoplazza-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/conformance/shoplazza-conformance.yml
+  href: https://artifacts.apis.io/shoplazza/conformance/shoplazza-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shoplazza-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/errors/shoplazza-problem-types.yml
+  href: https://artifacts.apis.io/shoplazza/errors/shoplazza-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/shoplazza-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/lifecycle/shoplazza-lifecycle.yml
+  href: https://artifacts.apis.io/shoplazza/lifecycle/shoplazza-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shoplazza-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/conventions/shoplazza-conventions.yml
+  href: https://artifacts.apis.io/shoplazza/conventions/shoplazza-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shoplazza-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/changelog/shoplazza-changelog.yml
+  href: https://artifacts.apis.io/shoplazza/changelog/shoplazza-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/shoplazza-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/components/shoplazza-components.yml
+  href: https://artifacts.apis.io/shoplazza/components/shoplazza-components.yml
   title: ''
   type: Components
   url: components/shoplazza-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/data-model/shoplazza-data-model.yml
+  href: https://artifacts.apis.io/shoplazza/data-model/shoplazza-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shoplazza-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/rate-limits/shoplazza-rate-limits.yml
+  href: https://artifacts.apis.io/shoplazza/rate-limits/shoplazza-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shoplazza-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/shoplazza/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/agentic-access/shoplazza-agentic-access.yml
+  href: https://artifacts.apis.io/shoplazza/agentic-access/shoplazza-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shoplazza-agentic-access.yml
@@ -401,7 +400,7 @@ overview: 'Shoplazza publishes 20 API contracts indexed on the [APIs.io](https:/
 
 
   Shoplazza''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, signup flow, and 31 more developer resources.'
-random_paper: 20
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Shoplazza Rate Limits
@@ -413,7 +412,7 @@ scopes:
   summary_line: 29 scopes
 score:
   band: developing
-  composite: 50.3
+  composite: 52.4
   coverage:
     artifact_dirs: 26
     catalog_earned: 49.0
@@ -425,11 +424,11 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 57.8
-    developer_ergonomics: 61.3
+    contract_quality: 54.4
+    developer_ergonomics: 70.8
     discoverability: 66.1
-    operational_transparency: 65.8
-  previous_composite: 50.3
+    operational_transparency: 68.4
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -446,13 +445,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/screenshots/shoplazza-2026-08-17T081837.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/shoplazza/shoplazza-2026-08-17T081837.png
 security:
 - kind: authentication
   name: Shoplazza Authentication
@@ -462,6 +462,14 @@ security:
   name: Shoplazza Domain Security
   slug: shoplazza-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 3
+skills:
+- name: Process Shoplazza orders (fulfill, cancel, refund)
+  slug: shoplazza-fulfill-and-refund-orders
+- name: Manage Shoplazza products and variants
+  slug: shoplazza-manage-products
+- name: Subscribe to Shoplazza store events with webhooks
+  slug: shoplazza-subscribe-webhooks
 slug: shoplazza
 tags:
 - Company

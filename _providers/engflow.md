@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,21 +26,28 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.4
-  scored_at: '2026-10-17'
+  score: 3.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The EngFlow cluster gRPC / Protocol Buffers API surface — cluster info, IAM (roles/policies/users/groups), authentication, event store and result store build-event streaming, secret management, and no
   name: EngFlow Cluster API (gRPC)
   slug: engflow-cluster-api-grpc
-artifact_total: 3
+artifact_total: 7
 common:
+- group: commercial
+  href: https://artifacts.apis.io/engflow/plans/engflow-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/engflow-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -58,7 +65,7 @@ common:
   type: License
   url: https://github.com/EngFlow/engflowapis/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/security/engflow-domain-security.yml
+  href: https://artifacts.apis.io/engflow/security/engflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/engflow-domain-security.yml
@@ -115,27 +122,27 @@ common:
   type: SourceCode
   url: https://github.com/EngFlow/engflowapis
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/packages/engflow-packages.yml
+  href: https://artifacts.apis.io/engflow/packages/engflow-packages.yml
   title: ''
   type: Packages
   url: packages/engflow-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/packages/engflow-packages.yml
+  href: https://artifacts.apis.io/engflow/packages/engflow-packages.yml
   title: ''
   type: SDKs
   url: packages/engflow-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/cli/engflow-cli.yml
+  href: https://artifacts.apis.io/engflow/cli/engflow-cli.yml
   title: ''
   type: CLI
   url: cli/engflow-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/authentication/engflow-authentication.yml
+  href: https://artifacts.apis.io/engflow/authentication/engflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/engflow-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/conformance/engflow-conformance.yml
+  href: https://artifacts.apis.io/engflow/conformance/engflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/engflow-conformance.yml
@@ -144,42 +151,50 @@ common:
   type: Compliance
   url: https://docs.engflow.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/conventions/engflow-conventions.yml
+  href: https://artifacts.apis.io/engflow/conventions/engflow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/engflow-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/lifecycle/engflow-lifecycle.yml
+  href: https://artifacts.apis.io/engflow/lifecycle/engflow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/engflow-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/data-model/engflow-data-model.yml
+  href: https://artifacts.apis.io/engflow/data-model/engflow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/engflow-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/mcp/engflow-mcp.yml
+  href: https://artifacts.apis.io/engflow/mcp/engflow-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/engflow-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/well-known/engflow-well-known.yml
+  href: https://artifacts.apis.io/engflow/well-known/engflow-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/engflow-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/llms/engflow-llms.txt
+  href: https://artifacts.apis.io/engflow/llms/engflow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/engflow-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/engflow/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: EngFlow provides remote build execution, remote caching, CI runners, and a Build & Test UI that accelerate large-scale software builds for Bazel, BuildStream, Goma, Pants, Soong, CMake, and Buck2. EngFlow clusters expose a gRPC / Protocol Buffers API surface — the open Remote Execution API (REAPI v2) and Remote Asset API, plus EngFlow's own cluster, IAM, authentication, event store, result store, secret, notification, and resource-usage services, all published as Protocol Buffer interface definitions in the EngFlow/engflowapis repository. Clusters authenticate via mTLS, cluster-issued JWT bearer tokens, OIDC federation, SAML, GitHub tokens, and basic auth, and provision users over SCIM 2.0. EngFlow was founded by former Google/Bazel engineers and is backed by a16z.
+finops:
+- has_sources: true
+  method: derived
+  name: Engflow Finops
+  primary_unit: ''
+  service_category: ''
+  slug: engflow-finops
+  template: true
 image: https://avatars.githubusercontent.com/u/61729484?v=4
 layout: provider
 modified: '2026-10-06'
@@ -189,30 +204,31 @@ network: true
 overview: 'EngFlow is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Remote Execution, Remote Caching, Build Systems, and Bazel.
 
 
-  EngFlow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
-random_paper: 6
+  EngFlow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 25 more developer resources.'
+plans:
+- name: Engflow Plans Pricing
+  plan_count: 2
+  slug: engflow-plans-pricing
+random_paper: 10
 score:
   band: developing
-  composite: 43.4
+  composite: 43.1
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 19
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.3
   facets:
-    access_clarity: 52.6
+    access_clarity: 73.7
     contract_governance: 18.2
-    contract_quality: 24.0
+    contract_quality: 0.0
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 18.4
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 43.3
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 38.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -223,14 +239,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/screenshots/engflow-2026-07-25T213344.png
+screenshot: https://apis.io/screenshots/engflow/engflow-2026-07-25T213344.png
 security:
 - kind: authentication
   name: Engflow Authentication
@@ -240,6 +256,12 @@ security:
   name: Engflow Domain Security
   slug: engflow-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Manage EngFlow IAM roles
+  slug: engflow-manage-iam-roles
+- name: Stream EngFlow build and invocation events
+  slug: engflow-stream-build-events
 slug: engflow
 tags:
 - Company

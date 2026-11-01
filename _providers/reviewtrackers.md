@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for the ReviewTrackers online reputation management platform. Provides access to review data from 100+ review sites, enables automated review responses, supports review solicitation campaigns
@@ -46,7 +48,7 @@ asyncapis:
   slug: reviewtrackers-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/security/reviewtrackers-domain-security.yml
+  href: https://artifacts.apis.io/reviewtrackers/security/reviewtrackers-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reviewtrackers-domain-security.yml
@@ -83,17 +85,17 @@ common:
   type: X
   url: https://twitter.com/reviewtrackers
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/plans/reviewtrackers-plans-pricing.yml
+  href: https://artifacts.apis.io/reviewtrackers/plans/reviewtrackers-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/reviewtrackers-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/rate-limits/reviewtrackers-rate-limits.yml
+  href: https://artifacts.apis.io/reviewtrackers/rate-limits/reviewtrackers-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/reviewtrackers-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/finops/reviewtrackers-finops.yml
+  href: https://artifacts.apis.io/reviewtrackers/finops/reviewtrackers-finops.yml
   title: ''
   type: FinOps
   url: finops/reviewtrackers-finops.yml
@@ -126,60 +128,60 @@ common:
   type: Compliance
   url: https://www.reviewtrackers.com/terms-service/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/authentication/reviewtrackers-authentication.yml
+  href: https://artifacts.apis.io/reviewtrackers/authentication/reviewtrackers-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reviewtrackers-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/conventions/reviewtrackers-conventions.yml
+  href: https://artifacts.apis.io/reviewtrackers/conventions/reviewtrackers-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reviewtrackers-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/errors/reviewtrackers-problem-types.yml
+  href: https://artifacts.apis.io/reviewtrackers/errors/reviewtrackers-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/reviewtrackers-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/data-model/reviewtrackers-data-model.yml
+  href: https://artifacts.apis.io/reviewtrackers/data-model/reviewtrackers-data-model.yml
   title: ''
   type: DataModel
   url: data-model/reviewtrackers-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/lifecycle/reviewtrackers-lifecycle.yml
+  href: https://artifacts.apis.io/reviewtrackers/lifecycle/reviewtrackers-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reviewtrackers-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/conformance/reviewtrackers-conformance.yml
+  href: https://artifacts.apis.io/reviewtrackers/conformance/reviewtrackers-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reviewtrackers-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/security/reviewtrackers-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/reviewtrackers/security/reviewtrackers-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/reviewtrackers-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/asyncapi/reviewtrackers-webhooks.yml
+  href: https://artifacts.apis.io/reviewtrackers/asyncapi/reviewtrackers-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/reviewtrackers-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/changelog/reviewtrackers-changelog.yml
+  href: https://artifacts.apis.io/reviewtrackers/changelog/reviewtrackers-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/reviewtrackers-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/llms/reviewtrackers-llms.txt
+  href: https://artifacts.apis.io/reviewtrackers/llms/reviewtrackers-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reviewtrackers-llms.txt
 created: '2026-06-13'
 description: ReviewTrackers is an online reputation management platform that enables businesses to monitor reviews across 100+ review sites, respond to customer feedback, generate new reviews, and track sentiment analytics. The REST API allows organizations to download review data, sync with CRM and POS systems, automate review responses, and build custom applications on top of ReviewTrackers data.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Reviewtrackers Finops
   primary_unit: ''
   service_category: ''
@@ -207,14 +209,14 @@ plans:
 - name: Reviewtrackers Plans Pricing
   plan_count: 3
   slug: reviewtrackers-plans-pricing
-random_paper: 3
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Reviewtrackers Rate Limits
   slug: reviewtrackers-rate-limits
 score:
   band: strong
-  composite: 55.9
+  composite: 58.6
   coverage:
     artifact_dirs: 21
     catalog_earned: 65.0
@@ -222,15 +224,15 @@ score:
     catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 77.6
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 49.4
-    developer_ergonomics: 33.3
+    developer_ergonomics: 38.1
     discoverability: 66.1
-    operational_transparency: 73.7
-  previous_composite: 57.4
+    operational_transparency: 76.3
+  previous_composite: 58.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -240,14 +242,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/reviewtrackers/refs/heads/main/screenshots/reviewtrackers-2026-06-20T193050.png
+screenshot: https://apis.io/screenshots/reviewtrackers/reviewtrackers-2026-06-20T193050.png
 security:
 - kind: authentication
   name: Reviewtrackers Authentication

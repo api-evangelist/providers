@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Public REST API for the Session AI (ZineOne) platform. Documented operations cover sending events into the platform from any channel, retrieving hosted content, calling customer-authored microservices
@@ -43,7 +45,7 @@ apis:
 - description: 'Remote Model Context Protocol server operated by Session AI at https://sessionai.com/mcp. The endpoint answers with an RFC 9728 OAuth challenge (WWW-Authenticate: Bearer realm="mcp") and publishes pro'
   name: Session AI MCP Server
   slug: session-ai-mcp-server
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Sessionai Webhooks
@@ -98,93 +100,101 @@ common:
   type: Compliance
   url: https://sessionai.com/capabilities/privacy-and-fairness
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/mcp/sessionai-mcp.yml
+  href: https://artifacts.apis.io/sessionai/mcp/sessionai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sessionai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/llms/sessionai-llms.txt
+  href: https://artifacts.apis.io/sessionai/llms/sessionai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sessionai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/well-known/sessionai-well-known.yml
+  href: https://artifacts.apis.io/sessionai/well-known/sessionai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sessionai-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/authentication/sessionai-authentication.yml
+  href: https://artifacts.apis.io/sessionai/authentication/sessionai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sessionai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/scopes/sessionai-scopes.yml
+  href: https://artifacts.apis.io/sessionai/scopes/sessionai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sessionai-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/conventions/sessionai-conventions.yml
+  href: https://artifacts.apis.io/sessionai/conventions/sessionai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sessionai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/errors/sessionai-problem-types.yml
+  href: https://artifacts.apis.io/sessionai/errors/sessionai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sessionai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/lifecycle/sessionai-lifecycle.yml
+  href: https://artifacts.apis.io/sessionai/lifecycle/sessionai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sessionai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/conformance/sessionai-conformance.yml
+  href: https://artifacts.apis.io/sessionai/conformance/sessionai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sessionai-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/packages/sessionai-packages.yml
+  href: https://artifacts.apis.io/sessionai/packages/sessionai-packages.yml
   title: ''
   type: Packages
   url: packages/sessionai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/packages/sessionai-packages.yml
+  href: https://artifacts.apis.io/sessionai/packages/sessionai-packages.yml
   title: ''
   type: SDKs
   url: packages/sessionai-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/components/sessionai-components.yml
+  href: https://artifacts.apis.io/sessionai/components/sessionai-components.yml
   title: ''
   type: Components
   url: components/sessionai-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/sandbox/sessionai-sandbox.yml
+  href: https://artifacts.apis.io/sessionai/sandbox/sessionai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sessionai-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/asyncapi/sessionai-webhooks.yml
+  href: https://artifacts.apis.io/sessionai/asyncapi/sessionai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sessionai-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/rate-limits/sessionai-rate-limits.yml
+  href: https://artifacts.apis.io/sessionai/rate-limits/sessionai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sessionai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/plans/sessionai-plans-pricing.yml
+  href: https://artifacts.apis.io/sessionai/plans/sessionai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sessionai-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/security/sessionai-domain-security.yml
+  href: https://artifacts.apis.io/sessionai/security/sessionai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sessionai-domain-security.yml
 created: '2026-07-17'
 description: Session AI (formerly ZineOne) is an ecommerce AI platform that uses agentic decisioning to optimize promotions and customer experiences in real time. Its Session Marketing Agent predicts in-session visitor intent and behavior, then delivers personalized offers, nudges, and messages to maximize revenue, conversions, and profit margins for retail, travel and hospitality, and telecom brands. The platform integrates via tag managers (Google Tag Manager, Tealium), a CDN-delivered HTML5/JavaScript SDK, Android and iOS SDKs, server-to-server REST calls, and prebuilt plugins/cartridges, advertising sub-50ms decision latency, no PII in scope, and SOC 2 aligned controls. Session AI publishes a public developer guide and REST API reference under its legacy ZineOne domain covering nine documented operations — send events, retrieve content, call microservices, stream and cube queries, CCPA profile opt-in/opt-out, and profile and activity retrieval — authenticated with an apikey header. It
   also operates an OAuth-protected remote MCP server at https://sessionai.com/mcp for agent access.
+finops:
+- has_sources: true
+  method: derived
+  name: Sessionai Finops
+  primary_unit: ''
+  service_category: ''
+  slug: sessionai-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sessionai.png
 layout: provider
 mcp_servers:
@@ -206,7 +216,7 @@ plans:
 - name: Sessionai Plans Pricing
   plan_count: 0
   slug: sessionai-plans-pricing
-random_paper: 6
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Sessionai Rate Limits
@@ -218,23 +228,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.3
+  composite: 47.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 52.4
-    discoverability: 75.0
+    developer_ergonomics: 71.4
+    discoverability: 65.0
     operational_transparency: 23.7
-  previous_composite: 43.2
+  previous_composite: 47.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -250,14 +260,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sessionai/refs/heads/main/screenshots/sessionai-2026-08-17T081818.png
+screenshot: https://apis.io/screenshots/sessionai/sessionai-2026-08-17T081818.png
 security:
 - kind: authentication
   name: Sessionai Authentication

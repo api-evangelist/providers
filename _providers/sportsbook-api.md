@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,11 +62,8 @@ apis:
   description: The Reference API from Sportsbook API — 2 operation(s) for reference.
   name: Sportsbook API Reference API
   slug: sportsbook-api-reference-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sportsbook Betting Analysis API
   slug: open-sportsbook-api-betting-analysis-api
@@ -79,32 +78,32 @@ collections:
   slug: open-sportsbook-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/plans/sportsbook-api-plans-pricing.yml
+  href: https://artifacts.apis.io/sportsbook-api/plans/sportsbook-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sportsbook-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/rate-limits/sportsbook-api-rate-limits.yml
+  href: https://artifacts.apis.io/sportsbook-api/rate-limits/sportsbook-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sportsbook-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/finops/sportsbook-api-finops.yml
+  href: https://artifacts.apis.io/sportsbook-api/finops/sportsbook-api-finops.yml
   title: ''
   type: FinOps
   url: finops/sportsbook-api-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/agentic-access/sportsbook-api-agentic-access.yml
+  href: https://artifacts.apis.io/sportsbook-api/agentic-access/sportsbook-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sportsbook-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/security/sportsbook-api-domain-security.yml
+  href: https://artifacts.apis.io/sportsbook-api/security/sportsbook-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sportsbook-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/authentication/sportsbook-api-authentication.yml
+  href: https://artifacts.apis.io/sportsbook-api/authentication/sportsbook-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sportsbook-api-authentication.yml
@@ -137,7 +136,7 @@ finops:
 - has_sources: false
   method: generated
   name: Sportsbook Api Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: sportsbook-api-finops
   template: true
@@ -174,7 +173,7 @@ plans:
 - name: Sportsbook Api Plans Pricing
   plan_count: 3
   slug: sportsbook-api-plans-pricing
-random_paper: 17
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Sportsbook Api Rate Limits
@@ -205,7 +204,7 @@ rules:
   slug: sportsbook-api-rules
 score:
   band: thin
-  composite: 28.7
+  composite: 32.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 50.5
@@ -213,15 +212,15 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 55.2
-    developer_ergonomics: 23.8
+    developer_ergonomics: 33.3
     discoverability: 57.1
     operational_transparency: 7.9
-  previous_composite: 30.3
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     contracts:
@@ -235,14 +234,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/screenshots/sportsbook-api-2026-06-20T194345.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sportsbook-api/sportsbook-api-2026-06-20T194345.png
 security:
 - kind: authentication
   name: Sportsbook Api Authentication

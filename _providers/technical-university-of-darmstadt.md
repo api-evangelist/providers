@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - description: 'REST API of TUdatalib, the institutional research-data repository of TU Darmstadt. Verified live 2026-09-01: the API root returns HAL/JSON with dspaceName "TUdatalib System", dspaceVersion "DSpace 9.3'
@@ -81,7 +83,7 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/tu-darmstadt/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/technical-university-of-darmstadt/refs/heads/main/authentication/technical-university-of-darmstadt-authentication.yml
+  href: https://artifacts.apis.io/technical-university-of-darmstadt/authentication/technical-university-of-darmstadt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/technical-university-of-darmstadt-authentication.yml
@@ -122,37 +124,37 @@ common:
   type: Blog
   url: https://www.tu-darmstadt.de/universitaet/aktuelles_meldungen/index.en.jsp
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/technical-university-of-darmstadt/refs/heads/main/conformance/technical-university-of-darmstadt-conformance.yml
+  href: https://artifacts.apis.io/technical-university-of-darmstadt/conformance/technical-university-of-darmstadt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/technical-university-of-darmstadt-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/technical-university-of-darmstadt/refs/heads/main/security/technical-university-of-darmstadt-domain-security.yml
+  href: https://artifacts.apis.io/technical-university-of-darmstadt/security/technical-university-of-darmstadt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/technical-university-of-darmstadt-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/technical-university-of-darmstadt/refs/heads/main/plans/technical-university-of-darmstadt-plans-pricing.yml
+  href: https://artifacts.apis.io/technical-university-of-darmstadt/plans/technical-university-of-darmstadt-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/technical-university-of-darmstadt-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/technical-university-of-darmstadt/refs/heads/main/rate-limits/technical-university-of-darmstadt-rate-limits.yml
+  href: https://artifacts.apis.io/technical-university-of-darmstadt/rate-limits/technical-university-of-darmstadt-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/technical-university-of-darmstadt-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/technical-university-of-darmstadt/refs/heads/main/finops/technical-university-of-darmstadt-finops.yml
+  href: https://artifacts.apis.io/technical-university-of-darmstadt/finops/technical-university-of-darmstadt-finops.yml
   title: ''
   type: FinOps
   url: finops/technical-university-of-darmstadt-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/technical-university-of-darmstadt/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/technical-university-of-darmstadt/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/technical-university-of-darmstadt/refs/heads/main/json-ld/technical-university-of-darmstadt-context.jsonld
+  href: https://artifacts.apis.io/technical-university-of-darmstadt/json-ld/technical-university-of-darmstadt-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/technical-university-of-darmstadt-context.jsonld
@@ -189,7 +191,7 @@ plans:
 - name: Technical University Of Darmstadt Plans Pricing
   plan_count: 2
   slug: technical-university-of-darmstadt-plans-pricing
-random_paper: 7
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Technical University Of Darmstadt Rate Limits
@@ -204,7 +206,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
@@ -220,7 +222,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 30.0
+  previous_composite: 24.0
   provenance:
     conformance: first-party
   regulatory:
@@ -229,14 +231,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/technical-university-of-darmstadt/refs/heads/main/screenshots/technical-university-of-darmstadt-2026-06-20T195009.png
+screenshot: https://apis.io/screenshots/technical-university-of-darmstadt/technical-university-of-darmstadt-2026-06-20T195009.png
 security:
 - kind: authentication
   name: Technical University Of Darmstadt Authentication

@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-10-17'
+  score: 12.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.externalintegration.payex.com
@@ -34,47 +36,47 @@ apis:
 artifact_total: 3
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swedbank-pay/refs/heads/main/rules/swedbank-pay-rules.yml
+  href: https://artifacts.apis.io/swedbank-pay/rules/swedbank-pay-rules.yml
   title: ''
   type: Spectral
   url: rules/swedbank-pay-rules.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/swedbank-pay/refs/heads/main/sandbox/swedbank-pay-sandbox.yml
+  href: https://artifacts.apis.io/swedbank-pay/sandbox/swedbank-pay-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/swedbank-pay-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swedbank-pay/refs/heads/main/conformance/swedbank-pay-conformance.yml
+  href: https://artifacts.apis.io/swedbank-pay/conformance/swedbank-pay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/swedbank-pay-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swedbank-pay/refs/heads/main/well-known/swedbank-pay-status-security.txt
+  href: https://artifacts.apis.io/swedbank-pay/well-known/swedbank-pay-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/swedbank-pay-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/swedbank-pay/refs/heads/main/well-known/swedbank-pay-well-known.yml
+  href: https://artifacts.apis.io/swedbank-pay/well-known/swedbank-pay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/swedbank-pay-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/swedbank-pay/refs/heads/main/hosts/swedbank-pay-hosts.yml
+  href: https://artifacts.apis.io/swedbank-pay/hosts/swedbank-pay-hosts.yml
   title: ''
   type: Hosts
   url: hosts/swedbank-pay-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/swedbank-pay/refs/heads/main/vendors/swedbank-pay-vendors.yml
+  href: https://artifacts.apis.io/swedbank-pay/vendors/swedbank-pay-vendors.yml
   title: ''
   type: Vendors
   url: vendors/swedbank-pay-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/swedbank-pay/refs/heads/main/packages/swedbank-pay-packages.yml
+  href: https://artifacts.apis.io/swedbank-pay/packages/swedbank-pay-packages.yml
   title: ''
   type: SDKs
   url: packages/swedbank-pay-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/swedbank-pay/refs/heads/main/packages/swedbank-pay-packages.yml
+  href: https://artifacts.apis.io/swedbank-pay/packages/swedbank-pay-packages.yml
   title: ''
   type: Packages
   url: packages/swedbank-pay-packages.yml
@@ -103,7 +105,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/SwedbankPay
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swedbank-pay/refs/heads/main/security/swedbank-pay-domain-security.yml
+  href: https://artifacts.apis.io/swedbank-pay/security/swedbank-pay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/swedbank-pay-domain-security.yml
@@ -145,7 +147,7 @@ overview: 'Swedbank Pay is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   Swedbank Pay''s developer surface includes sandbox, pricing, changelog, getting-started guide, documentation, support, engineering blog, and 13 more developer resources.'
-random_paper: 12
+random_paper: 22
 rules:
 - authorship: generated
   effective_rule_count: 50
@@ -161,7 +163,7 @@ rules:
   slug: swedbank-pay-rules
 score:
   band: thin
-  composite: 26.2
+  composite: 28.3
   coverage:
     artifact_dirs: 11
     catalog_earned: 34.5
@@ -169,13 +171,21 @@ score:
     catalog_gap: 80.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 10.7
     developer_ergonomics: 42.9
     discoverability: 53.6
-    operational_transparency: 36.8
+    operational_transparency: 47.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  previous_composite: 28.3
   provenance:
     conformance: derived
     contracts:
@@ -190,11 +200,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 13.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Swedbank Pay Domain Security

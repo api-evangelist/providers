@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/biotree/refs/heads/main/security/biotree-domain-security.yml
+  href: https://artifacts.apis.io/biotree/security/biotree-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/biotree-domain-security.yml
@@ -65,7 +67,7 @@ overview: 'Biotree is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Biotree''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 20
+random_paper: 2
 score:
   band: minimal
   composite: 5.1
@@ -98,14 +100,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/biotree/refs/heads/main/screenshots/biotree-2026-07-25T203242.png
+screenshot: https://apis.io/screenshots/biotree/biotree-2026-07-25T203242.png
 security:
 - kind: domain-security
   name: Biotree Domain Security

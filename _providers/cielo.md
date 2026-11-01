@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 13
 apis:
 - description: The Cielo E-commerce API (also known as Cielo API 3.0) is the company's flagship online payment processing API. It accepts credit cards from Visa, Mastercard, Amex, Elo, Aura, JCB, Diners, Discover, a
@@ -77,7 +79,7 @@ apis:
 artifact_total: 54
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cielo/refs/heads/main/security/cielo-domain-security.yml
+  href: https://artifacts.apis.io/cielo/security/cielo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cielo-domain-security.yml
@@ -279,7 +281,7 @@ overview: 'Cielo is listed with 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Cielo''s developer surface includes developer portal, documentation, developer console, signup flow, pricing, getting-started guide, API reference, and 32 more developer resources.'
-random_paper: 18
+random_paper: 20
 score:
   band: thin
   composite: 32.7
@@ -312,14 +314,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cielo/refs/heads/main/screenshots/cielo-2026-06-20T174344.png
+screenshot: https://apis.io/screenshots/cielo/cielo-2026-06-20T174344.png
 security:
 - kind: domain-security
   name: Cielo Domain Security

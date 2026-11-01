@@ -4,6 +4,6 @@ layout: provider
 name: activitypub
 nav: Providers
 network: true
-random_paper: 16
+random_paper: 4
 slug: activitypub
 ---

@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Player proposition odds
   name: Wager API Props API
   slug: wager-api-props-api
-artifact_total: 25
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Wager Futures API
   slug: open-wager-api-futures-api
@@ -95,32 +94,32 @@ collections:
   slug: open-wager-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/plans/wager-api-plans-pricing.yml
+  href: https://artifacts.apis.io/wager-api/plans/wager-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wager-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/rate-limits/wager-api-rate-limits.yml
+  href: https://artifacts.apis.io/wager-api/rate-limits/wager-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wager-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/finops/wager-api-finops.yml
+  href: https://artifacts.apis.io/wager-api/finops/wager-api-finops.yml
   title: ''
   type: FinOps
   url: finops/wager-api-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/agentic-access/wager-api-agentic-access.yml
+  href: https://artifacts.apis.io/wager-api/agentic-access/wager-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wager-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/security/wager-api-domain-security.yml
+  href: https://artifacts.apis.io/wager-api/security/wager-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wager-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/authentication/wager-api-authentication.yml
+  href: https://artifacts.apis.io/wager-api/authentication/wager-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wager-api-authentication.yml
@@ -145,7 +144,7 @@ finops:
 - has_sources: false
   method: generated
   name: Wager Api Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: wager-api-finops
   template: true
@@ -179,7 +178,7 @@ plans:
 - name: Wager Api Plans Pricing
   plan_count: 3
   slug: wager-api-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Wager Api Rate Limits
@@ -218,7 +217,7 @@ score:
     catalog_gap: 54.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
@@ -226,7 +225,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 31.6
+  previous_composite: 30.1
   provenance:
     agentic_access: derived
     contracts:
@@ -240,14 +239,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/screenshots/wager-api-2026-06-20T201159.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wager-api/wager-api-2026-06-20T201159.png
 security:
 - kind: authentication
   name: Wager Api Authentication

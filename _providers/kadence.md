@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.5
-  scored_at: '2026-10-17'
+  score: 28.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -98,11 +100,8 @@ apis:
   description: The Visitor API from Kadence — 2 operation(s) for visitor.
   name: Kadence Visitor API
   slug: kadence-visitor-api
-artifact_total: 28
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kadence Public Bookable Day API
   slug: open-kadence-bookable-day-api
@@ -137,6 +136,11 @@ collections:
   name: Kadence Public Bookable Day Visitor API
   slug: open-kadence-visitor-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/kadence/plans/kadence-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kadence-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -146,12 +150,12 @@ common:
   type: BlogRSS
   url: https://kadence.co/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/capabilities/kadence-capability-edges.yml
+  href: https://artifacts.apis.io/kadence/capabilities/kadence-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kadence-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/overlays/kadence-public-api-overlay.yaml
+  href: https://artifacts.apis.io/kadence/overlays/kadence-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kadence-public-api-overlay.yaml
@@ -216,82 +220,90 @@ common:
   type: Compliance
   url: https://kadence.co/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/security/kadence-trust-center.yml
+  href: https://artifacts.apis.io/kadence/security/kadence-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kadence-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/authentication/kadence-authentication.yml
+  href: https://artifacts.apis.io/kadence/authentication/kadence-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kadence-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/scopes/kadence-scopes.yml
+  href: https://artifacts.apis.io/kadence/scopes/kadence-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kadence-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/conventions/kadence-conventions.yml
+  href: https://artifacts.apis.io/kadence/conventions/kadence-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kadence-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/errors/kadence-problem-types.yml
+  href: https://artifacts.apis.io/kadence/errors/kadence-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kadence-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/conformance/kadence-conformance.yml
+  href: https://artifacts.apis.io/kadence/conformance/kadence-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kadence-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/lifecycle/kadence-lifecycle.yml
+  href: https://artifacts.apis.io/kadence/lifecycle/kadence-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kadence-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/data-model/kadence-data-model.yml
+  href: https://artifacts.apis.io/kadence/data-model/kadence-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kadence-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/mcp/kadence-mcp.yml
+  href: https://artifacts.apis.io/kadence/mcp/kadence-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kadence-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/llms/kadence-llms.txt
+  href: https://artifacts.apis.io/kadence/llms/kadence-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kadence-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/well-known/kadence-well-known.yml
+  href: https://artifacts.apis.io/kadence/well-known/kadence-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kadence-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/packages/kadence-packages.yml
+  href: https://artifacts.apis.io/kadence/packages/kadence-packages.yml
   title: ''
   type: Packages
   url: packages/kadence-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kadence/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/agentic-access/kadence-agentic-access.yml
+  href: https://artifacts.apis.io/kadence/agentic-access/kadence-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kadence-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/security/kadence-domain-security.yml
+  href: https://artifacts.apis.io/kadence/security/kadence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kadence-domain-security.yml
 created: '2026-07-17'
 description: Kadence is a workplace management platform for hybrid work, helping organizations coordinate people, spaces, and workplace strategy through desk and room booking, visitor management, space management, and workplace analytics. Its Public API (OpenAPI 3.1, v1.2.0) lets applications read and manage buildings, floors, neighborhoods, spaces, bookings, check-ins and check-outs, users, visits, and visitors. The API is an API Platform (Hydra / JSON-LD) service secured with OAuth 2.0 client-credentials (scope "public"), with production hosts at api.onkadence.co and api.us.onkadence.co. Kadence was surfaced as a Techstars portfolio company and enriched into the API Evangelist network from its public developer surface.
+finops:
+- has_sources: true
+  method: derived
+  name: Kadence Finops
+  primary_unit: ''
+  service_category: ''
+  slug: kadence-finops
+  template: true
 image: https://kadence.co/wp-content/uploads/2025/05/kadence-social-share-image.png
 layout: provider
 modified: '2026-10-06'
@@ -301,32 +313,36 @@ network: true
 overview: 'Kadence publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bookable Day API, Bookable Onsite Pass API, Bookable Space API, and 8 more. Tagged areas include Company, Workplace, Hybrid Work, Desk Booking, and Room Booking.
 
 
-  Kadence''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 27 more developer resources.'
-random_paper: 11
+  Kadence''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 28 more developer resources.'
+plans:
+- name: Kadence Plans Pricing
+  plan_count: 4
+  slug: kadence-plans-pricing
+random_paper: 19
 scopes:
 - name: Kadence Scopes
   scope_count: 1
   slug: kadence-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: developing
-  composite: 41.8
+  band: strong
+  composite: 58.3
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 6.3
   facets:
-    access_clarity: 47.4
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 51.8
-    developer_ergonomics: 28.0
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 41.7
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -349,13 +365,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/screenshots/kadence-2026-07-25T223408.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kadence/kadence-2026-07-25T223408.png
 security:
 - kind: authentication
   name: Kadence Authentication
@@ -369,6 +386,14 @@ security:
   name: Kadence Trust Center
   slug: kadence-trust-center
   summary_line: SOC 2 Type II, ISO 27001, Cyber Essentials, GDPR, CCPA, OWASP MASVS
+skill_count: 3
+skills:
+- name: Check a user into their desk booking
+  slug: kadence-check-in-user
+- name: Create and cancel a desk booking
+  slug: kadence-manage-booking
+- name: Read workplace occupancy and space inventory
+  slug: kadence-workplace-occupancy
 slug: kadence
 tags:
 - Company

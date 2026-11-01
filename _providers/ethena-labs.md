@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Public request-for-quote (RFQ) minting and redemption API for USDe. Whitelisted participants check asset availability, request a firm 15-minute quote, fetch the fee schedule, sign the order with EIP-7
@@ -86,77 +88,77 @@ common:
   type: Support
   url: https://docs.ethena.fi
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/llms/ethena-labs-llms.txt
+  href: https://artifacts.apis.io/ethena-labs/llms/ethena-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ethena-labs-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/packages/ethena-labs-packages.yml
+  href: https://artifacts.apis.io/ethena-labs/packages/ethena-labs-packages.yml
   title: ''
   type: Packages
   url: packages/ethena-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/packages/ethena-labs-packages.yml
+  href: https://artifacts.apis.io/ethena-labs/packages/ethena-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/ethena-labs-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/authentication/ethena-labs-authentication.yml
+  href: https://artifacts.apis.io/ethena-labs/authentication/ethena-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ethena-labs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/errors/ethena-labs-error-codes.yml
+  href: https://artifacts.apis.io/ethena-labs/errors/ethena-labs-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ethena-labs-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/conventions/ethena-labs-conventions.yml
+  href: https://artifacts.apis.io/ethena-labs/conventions/ethena-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ethena-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/conventions/ethena-labs-conventions.yml
+  href: https://artifacts.apis.io/ethena-labs/conventions/ethena-labs-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ethena-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/lifecycle/ethena-labs-lifecycle.yml
+  href: https://artifacts.apis.io/ethena-labs/lifecycle/ethena-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ethena-labs-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/lifecycle/ethena-labs-lifecycle.yml
+  href: https://artifacts.apis.io/ethena-labs/lifecycle/ethena-labs-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/ethena-labs-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/changelog/ethena-labs-changelog.yml
+  href: https://artifacts.apis.io/ethena-labs/changelog/ethena-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ethena-labs-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/conformance/ethena-labs-conformance.yml
+  href: https://artifacts.apis.io/ethena-labs/conformance/ethena-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ethena-labs-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/security/ethena-labs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ethena-labs/security/ethena-labs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ethena-labs-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/security/ethena-labs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ethena-labs/security/ethena-labs-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/ethena-labs-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/security/ethena-labs-domain-security.yml
+  href: https://artifacts.apis.io/ethena-labs/security/ethena-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ethena-labs-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/mcp/ethena-labs-mcp.yml
+  href: https://artifacts.apis.io/ethena-labs/mcp/ethena-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ethena-labs-mcp.yml
@@ -172,10 +174,10 @@ overview: 'Ethena Labs is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   Ethena Labs'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, changelog, and 19 more developer resources.'
-random_paper: 14
+random_paper: 12
 score:
   band: thin
-  composite: 34.3
+  composite: 35.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -183,15 +185,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 44.7
-  previous_composite: 33.7
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 35.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -201,14 +203,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/screenshots/ethena-labs-2026-07-25T213648.png
+screenshot: https://apis.io/screenshots/ethena-labs/ethena-labs-2026-07-25T213648.png
 security:
 - kind: authentication
   name: Ethena Labs Authentication

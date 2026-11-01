@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,10 +34,41 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
+- group: other
+  href: https://artifacts.apis.io/vendavo/hosts/vendavo-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/vendavo-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/vendavo/integrations/vendavo-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/vendavo-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/vendavo/vendors/vendavo-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/vendavo-vendors.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.vendavo.com/security/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.vendavo.com/platform/pricing
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.vendavo.com/company/press/
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.vendavo.com/company/leadership/
 - group: company
   title: ''
   type: Website
@@ -57,12 +90,12 @@ common:
   type: PrivacyPolicy
   url: https://www.vendavo.com/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vendavo/refs/heads/main/llms/vendavo-llms.txt
+  href: https://artifacts.apis.io/vendavo/llms/vendavo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vendavo-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vendavo/refs/heads/main/security/vendavo-domain-security.yml
+  href: https://artifacts.apis.io/vendavo/security/vendavo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vendavo-domain-security.yml
@@ -71,44 +104,40 @@ common:
   type: GitHubOrganization
   url: https://github.com/vendavo
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vendavo/refs/heads/main/security/vendavo-trust-center.yml
+  href: https://artifacts.apis.io/vendavo/security/vendavo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vendavo-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vendavo/refs/heads/main/security/vendavo-trust-center.yml
+  href: https://artifacts.apis.io/vendavo/security/vendavo-trust-center.yml
   title: ''
   type: Compliance
   url: security/vendavo-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vendavo/refs/heads/main/conformance/vendavo-conformance.yml
+  href: https://artifacts.apis.io/vendavo/conformance/vendavo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vendavo-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vendavo/refs/heads/main/plans/vendavo-plans-pricing.yml
+  href: https://artifacts.apis.io/vendavo/plans/vendavo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vendavo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vendavo/refs/heads/main/rate-limits/vendavo-rate-limits.yml
+  href: https://artifacts.apis.io/vendavo/rate-limits/vendavo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vendavo-rate-limits.yml
 coverage:
-  checked: '2026-08-13'
-  detail: Vendavo's only product documentation portal, one.vendavo.com, 301s to vendavoinc.atlassian.net/wiki/spaces/doc/overview which then 302s to an Atlassian ID login, and the support portal 302s to a Salesforce Community login, so the API reference behind Vendavo's marketed "real-time APIs" is readable only with an active tenant.
+  checked: '2026-10-20'
+  detail: Vendavo's documentation portal one.vendavo.com still 301s to an Atlassian ID-gated Confluence space, api.vendavo.com does not resolve, and the only MCP-shaped path (info.vendavo.com/api/mcp) is a Marketo endpoint answering 401 Access Denied, so its marketed real-time APIs are documented only for tenants.
   evidence:
   - status: 301
     url: https://one.vendavo.com/
-  - status: 302
-    url: https://vendavoinc.atlassian.net/wiki/spaces/doc/overview
-  - status: 301
-    url: https://support.vendavo.com/
-  - status: 404
-    url: https://www.vendavo.com/openapi.json
-  - status: 404
-    url: https://www.vendavo.com/.well-known/agent-card.json
+  - status: 401
+    url: https://info.vendavo.com/api/mcp
+  - status: 200
+    url: https://www.vendavo.com/llms.txt
   reason: customer-only-docs
   state: gated
 created: '2026-07-17'
@@ -116,28 +145,28 @@ description: 'Vendavo is an enterprise B2B commercial-excellence software compan
   SOC 1 and SOC 2 Type 2 audits, a CSA STAR CAIQ self-assessment and a Trust Center at trustvault.vendavo.com. This profile was seeded as a portfolio lead of DCM Ventures and Sapphire Ventures.'
 image: https://www.vendavo.com/wp-content/uploads/2026/04/Image-2-1024x431.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-10-20'
 name: Vendavo
 nav: Providers
 network: true
 overview: 'Vendavo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Pricing, CPQ, and Quoting.
 
 
-  Vendavo''s developer surface includes engineering blog, support, and 11 more developer resources.'
+  Vendavo''s developer surface includes pricing, engineering blog, support, and 17 more developer resources.'
 plans:
 - name: Vendavo Plans Pricing
   plan_count: 0
   slug: vendavo-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Vendavo Rate Limits
   slug: vendavo-rate-limits
 score:
   band: emerging
-  composite: 17.8
+  composite: 21.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 12
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -145,13 +174,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 17.8
+    discoverability: 51.8
+    operational_transparency: 15.8
+  previous_composite: 21.3
   provenance:
     conformance: first-party
   regulatory:
@@ -166,14 +195,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vendavo/refs/heads/main/screenshots/vendavo-2026-09-02T165629.png
+screenshot: https://apis.io/screenshots/vendavo/vendavo-2026-09-02T165629.png
 security:
 - kind: domain-security
   name: Vendavo Domain Security

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
+  score: 18.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://screendoor.dobt.co/api
@@ -77,11 +79,8 @@ apis:
   description: Manage the status workflow stages for a project's responses.
   name: Department of Better Technology Statuses API
   slug: department-of-better-technology-statuses-api
-artifact_total: 19
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Screendoor Files API
   slug: open-department-of-better-technology-files-api
@@ -148,67 +147,67 @@ common:
   type: PrivacyPolicy
   url: https://dashboard.dobt.co/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/authentication/department-of-better-technology-authentication.yml
+  href: https://artifacts.apis.io/department-of-better-technology/authentication/department-of-better-technology-authentication.yml
   title: ''
   type: Authentication
   url: authentication/department-of-better-technology-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/conventions/department-of-better-technology-conventions.yml
+  href: https://artifacts.apis.io/department-of-better-technology/conventions/department-of-better-technology-conventions.yml
   title: ''
   type: Conventions
   url: conventions/department-of-better-technology-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/errors/department-of-better-technology-problem-types.yml
+  href: https://artifacts.apis.io/department-of-better-technology/errors/department-of-better-technology-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/department-of-better-technology-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/lifecycle/department-of-better-technology-lifecycle.yml
+  href: https://artifacts.apis.io/department-of-better-technology/lifecycle/department-of-better-technology-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/department-of-better-technology-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/data-model/department-of-better-technology-data-model.yml
+  href: https://artifacts.apis.io/department-of-better-technology/data-model/department-of-better-technology-data-model.yml
   title: ''
   type: DataModel
   url: data-model/department-of-better-technology-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/conformance/department-of-better-technology-conformance.yml
+  href: https://artifacts.apis.io/department-of-better-technology/conformance/department-of-better-technology-conformance.yml
   title: ''
   type: Conformance
   url: conformance/department-of-better-technology-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/packages/department-of-better-technology-packages.yml
+  href: https://artifacts.apis.io/department-of-better-technology/packages/department-of-better-technology-packages.yml
   title: ''
   type: Packages
   url: packages/department-of-better-technology-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/mcp/department-of-better-technology-mcp.yml
+  href: https://artifacts.apis.io/department-of-better-technology/mcp/department-of-better-technology-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/department-of-better-technology-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/well-known/department-of-better-technology-well-known.yml
+  href: https://artifacts.apis.io/department-of-better-technology/well-known/department-of-better-technology-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/department-of-better-technology-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/llms/department-of-better-technology-llms.txt
+  href: https://artifacts.apis.io/department-of-better-technology/llms/department-of-better-technology-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/department-of-better-technology-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/overlays/department-of-better-technology-screendoor-overlay.yaml
+  href: https://artifacts.apis.io/department-of-better-technology/overlays/department-of-better-technology-screendoor-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/department-of-better-technology-screendoor-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/department-of-better-technology/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/security/department-of-better-technology-domain-security.yml
+  href: https://artifacts.apis.io/department-of-better-technology/security/department-of-better-technology-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/department-of-better-technology-domain-security.yml
@@ -224,12 +223,12 @@ overview: 'Department of Better Technology publishes 8 API contracts indexed on 
 
 
   Department of Better Technology''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 8
+random_paper: 10
 score:
   band: thin
-  composite: 28.1
+  composite: 29.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -241,9 +240,9 @@ score:
     contract_governance: 4.5
     contract_quality: 13.2
     developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 28.1
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 29.8
   provenance:
     conformance: derived
     contracts:
@@ -259,13 +258,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/screenshots/department-of-better-technology-2026-07-25T211725.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/department-of-better-technology/department-of-better-technology-2026-07-25T211725.png
 security:
 - kind: authentication
   name: Department Of Better Technology Authentication
@@ -275,6 +275,14 @@ security:
   name: Department Of Better Technology Domain Security
   slug: department-of-better-technology-domain-security
   summary_line: TLSv1.3
+skill_count: 3
+skills:
+- name: Assign and review a submission
+  slug: department-of-better-technology-assign-and-review
+- name: Build a Screendoor form
+  slug: department-of-better-technology-build-a-form
+- name: Collect and triage submissions
+  slug: department-of-better-technology-collect-and-triage-submissions
 slug: department-of-better-technology
 tags:
 - Company

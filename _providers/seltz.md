@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.9
-  scored_at: '2026-10-17'
+  score: 41.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.seltz.ai
@@ -48,11 +50,8 @@ apis:
   description: Search operations
   name: Seltz Search API
   slug: seltz-search-api
-artifact_total: 10
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Seltz answer API
   slug: open-seltz-answer-api
@@ -61,7 +60,7 @@ collections:
   slug: open-seltz-search-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/plans/seltz-plans-pricing.yml
+  href: https://artifacts.apis.io/seltz/plans/seltz-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/seltz-plans-pricing.yml
@@ -70,12 +69,12 @@ common:
   type: Website
   url: https://www.seltz.ai/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/overlays/seltz-openapi-overlay.yaml
+  href: https://artifacts.apis.io/seltz/overlays/seltz-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seltz-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/security/seltz-domain-security.yml
+  href: https://artifacts.apis.io/seltz/security/seltz-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/seltz-domain-security.yml
@@ -128,32 +127,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/seltz-ai
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/packages/seltz-packages.yml
+  href: https://artifacts.apis.io/seltz/packages/seltz-packages.yml
   title: ''
   type: Packages
   url: packages/seltz-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/packages/seltz-packages.yml
+  href: https://artifacts.apis.io/seltz/packages/seltz-packages.yml
   title: ''
   type: SDKs
   url: packages/seltz-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/mcp/seltz-mcp.yml
+  href: https://artifacts.apis.io/seltz/mcp/seltz-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/seltz-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/llms/seltz-llms.txt
+  href: https://artifacts.apis.io/seltz/llms/seltz-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/seltz-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/well-known/seltz-well-known.yml
+  href: https://artifacts.apis.io/seltz/well-known/seltz-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/seltz-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/conformance/seltz-conformance.yml
+  href: https://artifacts.apis.io/seltz/conformance/seltz-conformance.yml
   title: ''
   type: Conformance
   url: conformance/seltz-conformance.yml
@@ -162,27 +161,35 @@ common:
   type: Compliance
   url: https://trust.seltz.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/security/seltz-trust-center.yml
+  href: https://artifacts.apis.io/seltz/security/seltz-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/seltz-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/lifecycle/seltz-lifecycle.yml
+  href: https://artifacts.apis.io/seltz/lifecycle/seltz-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/seltz-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/changelog/seltz-changelog.yml
+  href: https://artifacts.apis.io/seltz/changelog/seltz-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/seltz-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/seltz/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'Seltz is a San Francisco-based AI infrastructure company building the web retrieval and knowledge layer for the agentic internet. Its Web Knowledge API gives LLMs, RAG pipelines, and autonomous agents real-time, context-engineered web data through a single call: POST /v1/search returns ranked, cleaned source documents, POST /v1/answer returns a direct RAG answer with citations, and an OpenAI-compatible /v1/chat/completions endpoint serves web-grounded chat. Rather than returning raw snippets like a traditional search API, Seltz shapes web content to maximize usefulness for machine reasoning. Founded in 2025 by Antonio Mallia (Amazon, Pinecone) and backed by Speedinvest and B Capital, Seltz ships official Python and TypeScript SDKs, a hosted MCP server, and integrations for OpenAI, Anthropic, Mistral, LlamaIndex, Agno, Langroid, Dify, n8n, and Zapier.'
+finops:
+- has_sources: true
+  method: derived
+  name: Seltz Finops
+  primary_unit: 1,000 requests
+  service_category: ''
+  slug: seltz-finops
+  template: false
 image: https://seltz.ai/favicon.ico
 layout: provider
 mcp_servers:
@@ -201,25 +208,28 @@ plans:
 - name: Seltz Plans Pricing
   plan_count: 7
   slug: seltz-plans-pricing
-random_paper: 12
+- name: Seltz Price Estimates
+  plan_count: 0
+  slug: seltz-price-estimates
+random_paper: 10
 score:
-  band: developing
-  composite: 49.0
+  band: strong
+  composite: 57.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 49.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 75.0
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 45.9
-    developer_ergonomics: 56.5
-    discoverability: 75.0
-    operational_transparency: 18.4
+    developer_ergonomics: 73.2
+    discoverability: 65.0
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -227,7 +237,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 42.6
+  previous_composite: 56.1
   provenance:
     conformance: derived
     contracts:
@@ -242,14 +252,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/screenshots/seltz-2026-08-17T081806.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/seltz/seltz-2026-08-17T081806.png
 security:
 - kind: authentication
   name: Seltz Authentication
@@ -263,6 +274,12 @@ security:
   name: Seltz Trust Center
   slug: seltz-trust-center
   summary_line: trust center published
+skill_count: 2
+skills:
+- name: Get a cited answer grounded in live web search
+  slug: seltz-answer-with-citations
+- name: Search the live web for agent context
+  slug: seltz-web-search
 slug: seltz
 tags:
 - Company

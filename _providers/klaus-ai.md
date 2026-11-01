@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Klaus platform API at api.klausai.com is a tRPC RPC surface used by the first-party @klausai/cli command-line client to manage OpenClaw instances, agents, integrations, models, and chat sessions, '
@@ -46,7 +48,7 @@ asyncapis:
   slug: klaus-ai-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/klaus-ai/refs/heads/main/mcp/klaus-ai-mcp.yml
+  href: https://artifacts.apis.io/klaus-ai/mcp/klaus-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/klaus-ai-mcp.yml
@@ -95,62 +97,62 @@ common:
   type: PrivacyPolicy
   url: https://klausai.com/privacy/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/klaus-ai/refs/heads/main/packages/klaus-ai-packages.yml
+  href: https://artifacts.apis.io/klaus-ai/packages/klaus-ai-packages.yml
   title: ''
   type: Packages
   url: packages/klaus-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/klaus-ai/refs/heads/main/packages/klaus-ai-packages.yml
+  href: https://artifacts.apis.io/klaus-ai/packages/klaus-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/klaus-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/klaus-ai/refs/heads/main/cli/klaus-ai-cli.yml
+  href: https://artifacts.apis.io/klaus-ai/cli/klaus-ai-cli.yml
   title: ''
   type: CLI
   url: cli/klaus-ai-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klaus-ai/refs/heads/main/authentication/klaus-ai-authentication.yml
+  href: https://artifacts.apis.io/klaus-ai/authentication/klaus-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/klaus-ai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klaus-ai/refs/heads/main/conventions/klaus-ai-conventions.yml
+  href: https://artifacts.apis.io/klaus-ai/conventions/klaus-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/klaus-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klaus-ai/refs/heads/main/errors/klaus-ai-problem-types.yml
+  href: https://artifacts.apis.io/klaus-ai/errors/klaus-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/klaus-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klaus-ai/refs/heads/main/asyncapi/klaus-ai-webhooks.yml
+  href: https://artifacts.apis.io/klaus-ai/asyncapi/klaus-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/klaus-ai-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klaus-ai/refs/heads/main/conformance/klaus-ai-conformance.yml
+  href: https://artifacts.apis.io/klaus-ai/conformance/klaus-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/klaus-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klaus-ai/refs/heads/main/lifecycle/klaus-ai-lifecycle.yml
+  href: https://artifacts.apis.io/klaus-ai/lifecycle/klaus-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/klaus-ai-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/klaus-ai/refs/heads/main/well-known/klaus-ai-well-known.yml
+  href: https://artifacts.apis.io/klaus-ai/well-known/klaus-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/klaus-ai-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klaus-ai/refs/heads/main/security/klaus-ai-domain-security.yml
+  href: https://artifacts.apis.io/klaus-ai/security/klaus-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/klaus-ai-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/klaus-ai/refs/heads/main/llms/klaus-ai-llms.txt
+  href: https://artifacts.apis.io/klaus-ai/llms/klaus-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/klaus-ai-llms.txt
@@ -170,26 +172,26 @@ overview: 'Klaus AI is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Klaus AI''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, CLI, and 17 more developer resources.'
-random_paper: 21
+random_paper: 23
 score:
-  band: thin
-  composite: 35.9
+  band: developing
+  composite: 40.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 59.5
-    discoverability: 73.2
+    developer_ergonomics: 64.3
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 35.8
+  previous_composite: 40.9
   provenance:
     conformance: derived
     mcp: derived
@@ -199,14 +201,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/klaus-ai/refs/heads/main/screenshots/klaus-ai-2026-07-25T223940.png
+screenshot: https://apis.io/screenshots/klaus-ai/klaus-ai-2026-07-25T223940.png
 security:
 - kind: authentication
   name: Klaus Ai Authentication

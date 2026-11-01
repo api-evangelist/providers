@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: AI-powered Google Ads management platform providing automated campaign analysis, optimization recommendations, and direct implementation via 50+ specialized AI agents. Supports agencies managing multi
@@ -42,27 +44,27 @@ apis:
 artifact_total: 27
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blobr/refs/heads/main/plans/blobr-plans-pricing.yml
+  href: https://artifacts.apis.io/blobr/plans/blobr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blobr-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blobr/refs/heads/main/rate-limits/blobr-rate-limits.yml
+  href: https://artifacts.apis.io/blobr/rate-limits/blobr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blobr-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blobr/refs/heads/main/finops/blobr-finops.yml
+  href: https://artifacts.apis.io/blobr/finops/blobr-finops.yml
   title: ''
   type: FinOps
   url: finops/blobr-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blobr/refs/heads/main/security/blobr-domain-security.yml
+  href: https://artifacts.apis.io/blobr/security/blobr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blobr-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blobr/refs/heads/main/lifecycle/blobr-lifecycle.yml
+  href: https://artifacts.apis.io/blobr/lifecycle/blobr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blobr-lifecycle.yml
@@ -103,12 +105,12 @@ common:
   type: PrivacyPolicy
   url: https://www.blobr.io/privacy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blobr/refs/heads/main/rules/blobr-spectral-rules.yml
+  href: https://artifacts.apis.io/blobr/rules/blobr-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/blobr-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blobr/refs/heads/main/vocabulary/blobr-vocabulary.yaml
+  href: https://artifacts.apis.io/blobr/vocabulary/blobr-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/blobr-vocabulary.yaml
@@ -154,7 +156,7 @@ finops:
 - has_sources: false
   method: generated
   name: Blobr Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: blobr-finops
   template: true
@@ -228,8 +230,8 @@ rules:
     warn: 5
   slug: blobr-spectral-rules
 score:
-  band: emerging
-  composite: 16.8
+  band: thin
+  composite: 28.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 56.8
@@ -237,29 +239,29 @@ score:
     catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 44.7
     contract_governance: 23.5
     contract_quality: 29.2
-    developer_ergonomics: 0.0
+    developer_ergonomics: 11.9
     discoverability: 57.1
-    operational_transparency: 2.6
-  previous_composite: 18.3
+    operational_transparency: 5.3
+  previous_composite: 28.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/blobr/refs/heads/main/screenshots/blobr-2026-10-11T183605.png
+screenshot: https://apis.io/screenshots/blobr/blobr-2026-10-11T183605.png
 security:
 - kind: domain-security
   name: Blobr Domain Security

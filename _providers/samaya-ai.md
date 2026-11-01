@@ -31,14 +31,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.4
-  scored_at: '2026-10-17'
+  score: 44.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Hosted remote MCP server at https://mcp.samaya.ai/mcp that connects ChatGPT, Claude and other AI applications to Samaya''s expert financial research capabilities. Live and reachable: an anonymous tools'
@@ -62,7 +64,7 @@ apis:
   description: The Users API from Samaya AI — 1 operation(s) for users.
   name: Samaya AI Users API
   slug: samaya-ai-users-api
-artifact_total: 12
+artifact_total: 14
 common:
 - group: company
   title: ''
@@ -109,7 +111,7 @@ common:
   type: TrustCenter
   url: https://trust.samaya.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/security/samaya-ai-trust-center.yml
+  href: https://artifacts.apis.io/samaya-ai/security/samaya-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/samaya-ai-trust-center.yml
@@ -118,77 +120,77 @@ common:
   type: Compliance
   url: https://trust.samaya.ai/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/llms/samaya-ai-llms.txt
+  href: https://artifacts.apis.io/samaya-ai/llms/samaya-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/samaya-ai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/mcp/samaya-ai-mcp.yml
+  href: https://artifacts.apis.io/samaya-ai/mcp/samaya-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/samaya-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/well-known/samaya-ai-well-known.yml
+  href: https://artifacts.apis.io/samaya-ai/well-known/samaya-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/samaya-ai-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/authentication/samaya-ai-authentication.yml
+  href: https://artifacts.apis.io/samaya-ai/authentication/samaya-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/samaya-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/scopes/samaya-ai-scopes.yml
+  href: https://artifacts.apis.io/samaya-ai/scopes/samaya-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/samaya-ai-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/conventions/samaya-ai-conventions.yml
+  href: https://artifacts.apis.io/samaya-ai/conventions/samaya-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/samaya-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/lifecycle/samaya-ai-lifecycle.yml
+  href: https://artifacts.apis.io/samaya-ai/lifecycle/samaya-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/samaya-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/conformance/samaya-ai-conformance.yml
+  href: https://artifacts.apis.io/samaya-ai/conformance/samaya-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/samaya-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/errors/samaya-ai-problem-types.yml
+  href: https://artifacts.apis.io/samaya-ai/errors/samaya-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/samaya-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/data-model/samaya-ai-data-model.yml
+  href: https://artifacts.apis.io/samaya-ai/data-model/samaya-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/samaya-ai-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/security/samaya-ai-domain-security.yml
+  href: https://artifacts.apis.io/samaya-ai/security/samaya-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/samaya-ai-domain-security.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/rate-limits/samaya-ai-rate-limits.yml
+  href: https://artifacts.apis.io/samaya-ai/rate-limits/samaya-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/samaya-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/plans/samaya-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/samaya-ai/plans/samaya-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/samaya-ai-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/samaya-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/overlays/samaya-ai-public-api-overlay.yaml
+  href: https://artifacts.apis.io/samaya-ai/overlays/samaya-ai-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/samaya-ai-public-api-overlay.yaml
@@ -216,7 +218,7 @@ plans:
 - name: Samaya Ai Plans Pricing
   plan_count: 0
   slug: samaya-ai-plans-pricing
-random_paper: 3
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Samaya Ai Rate Limits
@@ -228,23 +230,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 35.1
+  composite: 37.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 26.3
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 41.0
     developer_ergonomics: 28.0
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 35.0
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 37.8
   provenance:
     conformance: first-party
     contracts:
@@ -260,13 +262,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/screenshots/samaya-ai-2026-10-11T125547.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/samaya-ai/samaya-ai-2026-10-11T125547.png
 security:
 - kind: authentication
   name: Samaya Ai Authentication
@@ -280,6 +283,12 @@ security:
   name: Samaya Ai Trust Center
   slug: samaya-ai-trust-center
   summary_line: SOC 2
+skill_count: 2
+skills:
+- name: samaya-ai-audit-org-users
+  slug: samaya-ai-audit-org-users
+- name: samaya-ai-provision-team-membership
+  slug: samaya-ai-provision-team-membership
 slug: samaya-ai
 tags:
 - Artificial Intelligence

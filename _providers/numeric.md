@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-17'
+  score: 25.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: OAuth-protected Model Context Protocol server exposing Numeric's close-automation toolkit to AI agents. Streamable-HTTP MCP endpoint at api.numeric.io/mcp, guarded by OAuth 2.0 / OIDC (auth.numeric.io
@@ -78,42 +80,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/numeric-io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/numeric/refs/heads/main/mcp/numeric-mcp.yml
+  href: https://artifacts.apis.io/numeric/mcp/numeric-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/numeric-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/numeric/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/numeric/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/numeric/refs/heads/main/authentication/numeric-authentication.yml
+  href: https://artifacts.apis.io/numeric/authentication/numeric-authentication.yml
   title: ''
   type: Authentication
   url: authentication/numeric-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/numeric/refs/heads/main/scopes/numeric-scopes.yml
+  href: https://artifacts.apis.io/numeric/scopes/numeric-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/numeric-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/numeric/refs/heads/main/well-known/numeric-well-known.yml
+  href: https://artifacts.apis.io/numeric/well-known/numeric-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/numeric-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/numeric/refs/heads/main/conformance/numeric-conformance.yml
+  href: https://artifacts.apis.io/numeric/conformance/numeric-conformance.yml
   title: ''
   type: Conformance
   url: conformance/numeric-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/numeric/refs/heads/main/llms/numeric-llms.txt
+  href: https://artifacts.apis.io/numeric/llms/numeric-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/numeric-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/numeric/refs/heads/main/security/numeric-domain-security.yml
+  href: https://artifacts.apis.io/numeric/security/numeric-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/numeric-domain-security.yml
@@ -133,7 +135,7 @@ overview: 'Numeric is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Numeric''s developer surface includes documentation, engineering blog, pricing, authentication, and 13 more developer resources.'
-random_paper: 7
+random_paper: 11
 scopes:
 - name: Numeric Scopes
   scope_count: 4
@@ -141,9 +143,9 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode
 score:
   band: thin
-  composite: 26.7
+  composite: 27.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -151,13 +153,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 31.0
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 26.7
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 27.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -168,14 +170,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/numeric/refs/heads/main/screenshots/numeric-2026-08-07T185732.png
+screenshot: https://apis.io/screenshots/numeric/numeric-2026-08-07T185732.png
 security:
 - kind: authentication
   name: Numeric Authentication

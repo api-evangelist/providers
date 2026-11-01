@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.9
-  scored_at: '2026-10-17'
+  score: 26.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -91,11 +93,8 @@ arazzos:
 - description: Score the same instances against a pinned candidate version and the default version to measure rollout drift.
   name: TensorFlow Serving Compare a Candidate Version Against the Default
   slug: tensorflow-version-canary-compare-workflow
-artifact_total: 33
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TensorFlow Serving REST Inference API
   slug: open-tensorflow-inference-api
@@ -107,22 +106,22 @@ collections:
   slug: open-tensorflow-serving
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/plans/tensorflow-plans-pricing.yml
+  href: https://artifacts.apis.io/tensorflow/plans/tensorflow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tensorflow-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/rate-limits/tensorflow-rate-limits.yml
+  href: https://artifacts.apis.io/tensorflow/rate-limits/tensorflow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tensorflow-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/finops/tensorflow-finops.yml
+  href: https://artifacts.apis.io/tensorflow/finops/tensorflow-finops.yml
   title: ''
   type: FinOps
   url: finops/tensorflow-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/capabilities/tensorflow-capability-edges.yml
+  href: https://artifacts.apis.io/tensorflow/capabilities/tensorflow-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tensorflow-capability-edges.yml
@@ -131,122 +130,122 @@ common:
   type: Website
   url: https://tensorflow.org
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/agentic-access/tensorflow-agentic-access.yml
+  href: https://artifacts.apis.io/tensorflow/agentic-access/tensorflow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tensorflow-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/security/tensorflow-domain-security.yml
+  href: https://artifacts.apis.io/tensorflow/security/tensorflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tensorflow-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/packages/tensorflow-packages.yml
+  href: https://artifacts.apis.io/tensorflow/packages/tensorflow-packages.yml
   title: ''
   type: Packages
   url: packages/tensorflow-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/mcp/tensorflow-mcp.yml
+  href: https://artifacts.apis.io/tensorflow/mcp/tensorflow-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tensorflow-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/llms/tensorflow-llms.txt
+  href: https://artifacts.apis.io/tensorflow/llms/tensorflow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tensorflow-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/overlays/tensorflow-serving-overlay.yaml
+  href: https://artifacts.apis.io/tensorflow/overlays/tensorflow-serving-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tensorflow-serving-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/grpc/tensorflow-prediction-service.proto
+  href: https://artifacts.apis.io/tensorflow/grpc/tensorflow-prediction-service.proto
   title: ''
   type: Protobuf
   url: grpc/tensorflow-prediction-service.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/grpc/tensorflow-model-service.proto
+  href: https://artifacts.apis.io/tensorflow/grpc/tensorflow-model-service.proto
   title: ''
   type: Protobuf
   url: grpc/tensorflow-model-service.proto
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/conformance/tensorflow-conformance.yml
+  href: https://artifacts.apis.io/tensorflow/conformance/tensorflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tensorflow-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/errors/tensorflow-problem-types.yml
+  href: https://artifacts.apis.io/tensorflow/errors/tensorflow-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tensorflow-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/lifecycle/tensorflow-lifecycle.yml
+  href: https://artifacts.apis.io/tensorflow/lifecycle/tensorflow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tensorflow-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/authentication/tensorflow-authentication.yml
+  href: https://artifacts.apis.io/tensorflow/authentication/tensorflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tensorflow-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/sandbox/tensorflow-sandbox.yml
+  href: https://artifacts.apis.io/tensorflow/sandbox/tensorflow-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tensorflow-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/conventions/tensorflow-conventions.yml
+  href: https://artifacts.apis.io/tensorflow/conventions/tensorflow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tensorflow-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/changelog/tensorflow-changelog.yml
+  href: https://artifacts.apis.io/tensorflow/changelog/tensorflow-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tensorflow-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/cli/tensorflow-cli.yml
+  href: https://artifacts.apis.io/tensorflow/cli/tensorflow-cli.yml
   title: ''
   type: CLI
   url: cli/tensorflow-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/data-model/tensorflow-data-model.yml
+  href: https://artifacts.apis.io/tensorflow/data-model/tensorflow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tensorflow-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/arazzo/tensorflow-predict-preflight-workflow.yml
+  href: https://artifacts.apis.io/tensorflow/arazzo/tensorflow-predict-preflight-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tensorflow-predict-preflight-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/arazzo/tensorflow-classify-preflight-workflow.yml
+  href: https://artifacts.apis.io/tensorflow/arazzo/tensorflow-classify-preflight-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tensorflow-classify-preflight-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/arazzo/tensorflow-regress-preflight-workflow.yml
+  href: https://artifacts.apis.io/tensorflow/arazzo/tensorflow-regress-preflight-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tensorflow-regress-preflight-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/arazzo/tensorflow-version-canary-compare-workflow.yml
+  href: https://artifacts.apis.io/tensorflow/arazzo/tensorflow-version-canary-compare-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tensorflow-version-canary-compare-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/arazzo/tensorflow-label-routed-inference-workflow.yml
+  href: https://artifacts.apis.io/tensorflow/arazzo/tensorflow-label-routed-inference-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tensorflow-label-routed-inference-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/arazzo/tensorflow-pinned-example-scoring-workflow.yml
+  href: https://artifacts.apis.io/tensorflow/arazzo/tensorflow-pinned-example-scoring-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tensorflow-pinned-example-scoring-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/arazzo/tensorflow-rollout-readiness-workflow.yml
+  href: https://artifacts.apis.io/tensorflow/arazzo/tensorflow-rollout-readiness-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tensorflow-rollout-readiness-workflow.yml
@@ -343,7 +342,7 @@ plans:
 - name: Tensorflow Plans Pricing
   plan_count: 1
   slug: tensorflow-plans-pricing
-random_paper: 7
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Tensorflow Rate Limits
@@ -375,7 +374,7 @@ rules:
   slug: tensorflow-serving-rules
 score:
   band: thin
-  composite: 35.1
+  composite: 35.8
   coverage:
     artifact_dirs: 33
     catalog_earned: 53.0
@@ -383,7 +382,7 @@ score:
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 31.8
@@ -391,7 +390,7 @@ score:
     developer_ergonomics: 42.9
     discoverability: 57.1
     operational_transparency: 26.3
-  previous_composite: 36.6
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -407,13 +406,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/screenshots/tensorflow-2026-06-20T195120.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tensorflow/tensorflow-2026-06-20T195120.png
 security:
 - kind: authentication
   name: Tensorflow Authentication

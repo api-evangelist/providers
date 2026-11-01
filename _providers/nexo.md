@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'REST and WebSocket API for advanced crypto trading on Nexo Pro. Supports spot trading, futures, TWAP orders, account balances, order placement, order cancellation, trade history, and futures position '
@@ -45,12 +47,12 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nexo/refs/heads/main/security/nexo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nexo/security/nexo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nexo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nexo/refs/heads/main/security/nexo-domain-security.yml
+  href: https://artifacts.apis.io/nexo/security/nexo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nexo-domain-security.yml
@@ -87,17 +89,17 @@ common:
   type: X
   url: https://x.com/Nexo
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nexo/refs/heads/main/plans/nexo-plans-pricing.yml
+  href: https://artifacts.apis.io/nexo/plans/nexo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nexo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nexo/refs/heads/main/rate-limits/nexo-rate-limits.yml
+  href: https://artifacts.apis.io/nexo/rate-limits/nexo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nexo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nexo/refs/heads/main/finops/nexo-finops.yml
+  href: https://artifacts.apis.io/nexo/finops/nexo-finops.yml
   title: ''
   type: FinOps
   url: finops/nexo-finops.yml
@@ -133,14 +135,14 @@ plans:
 - name: Nexo Plans Pricing
   plan_count: 4
   slug: nexo-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Nexo Rate Limits
   slug: nexo-rate-limits
 score:
   band: emerging
-  composite: 21.0
+  composite: 25.5
   coverage:
     artifact_dirs: 8
     catalog_earned: 50.0
@@ -148,29 +150,29 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 34.7
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 28.4
+    operational_transparency: 36.8
+  previous_composite: 25.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nexo/refs/heads/main/screenshots/nexo-2026-06-20T190254.png
+screenshot: https://apis.io/screenshots/nexo/nexo-2026-06-20T190254.png
 security:
 - kind: domain-security
   name: Nexo Domain Security

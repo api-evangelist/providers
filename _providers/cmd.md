@@ -28,8 +28,8 @@ name: Cmd *
 nav: Providers
 network: true
 overview: Cmd * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Security, Cybersecurity, and Linux.
-random_paper: 0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cmd/refs/heads/main/screenshots/cmd-2026-07-25T205753.png
+random_paper: 20
+screenshot: https://apis.io/screenshots/cmd/cmd-2026-07-25T205753.png
 slug: cmd
 tags:
 - Company

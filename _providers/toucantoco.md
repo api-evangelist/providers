@@ -24,25 +24,27 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.0
-  scored_at: '2026-10-17'
+  score: 8.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The developer surface of the Toucan AI cloud - server-side token generation (POST /embed/generate-token with an x-api-key header), embed delivery via web components loaded from /embed/embed.js, and an
   name: Toucan AI Platform API
   slug: toucan-ai-platform-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/toucantoco/refs/heads/main/plans/toucantoco-plans-pricing.yml
+  href: https://artifacts.apis.io/toucantoco/plans/toucantoco-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/toucantoco-plans-pricing.yml
@@ -107,52 +109,52 @@ common:
   type: StatusPage
   url: https://status.toucantoco.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/toucantoco/refs/heads/main/changelog/toucantoco-changelog.yml
+  href: https://artifacts.apis.io/toucantoco/changelog/toucantoco-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/toucantoco-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toucantoco/refs/heads/main/lifecycle/toucantoco-lifecycle.yml
+  href: https://artifacts.apis.io/toucantoco/lifecycle/toucantoco-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/toucantoco-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/toucantoco/refs/heads/main/authentication/toucantoco-authentication.yml
+  href: https://artifacts.apis.io/toucantoco/authentication/toucantoco-authentication.yml
   title: ''
   type: Authentication
   url: authentication/toucantoco-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/toucantoco/refs/heads/main/sandbox/toucantoco-sandbox.yml
+  href: https://artifacts.apis.io/toucantoco/sandbox/toucantoco-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/toucantoco-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/toucantoco/refs/heads/main/mcp/toucantoco-mcp.yml
+  href: https://artifacts.apis.io/toucantoco/mcp/toucantoco-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/toucantoco-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/toucantoco/refs/heads/main/llms/toucantoco-llms.txt
+  href: https://artifacts.apis.io/toucantoco/llms/toucantoco-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/toucantoco-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/toucantoco/refs/heads/main/llms/toucantoco-toucanai-llms.txt
+  href: https://artifacts.apis.io/toucantoco/llms/toucantoco-toucanai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/toucantoco-toucanai-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/toucantoco/refs/heads/main/packages/toucantoco-packages.yml
+  href: https://artifacts.apis.io/toucantoco/packages/toucantoco-packages.yml
   title: ''
   type: Packages
   url: packages/toucantoco-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/toucantoco/refs/heads/main/packages/toucantoco-packages.yml
+  href: https://artifacts.apis.io/toucantoco/packages/toucantoco-packages.yml
   title: ''
   type: SDKs
   url: packages/toucantoco-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toucantoco/refs/heads/main/conformance/toucantoco-conformance.yml
+  href: https://artifacts.apis.io/toucantoco/conformance/toucantoco-conformance.yml
   title: ''
   type: Conformance
   url: conformance/toucantoco-conformance.yml
@@ -161,22 +163,30 @@ common:
   type: Compliance
   url: https://www.toucantoco.com/en/product/govern-secure
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toucantoco/refs/heads/main/errors/toucantoco-error-codes.yml
+  href: https://artifacts.apis.io/toucantoco/errors/toucantoco-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/toucantoco-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toucantoco/refs/heads/main/components/toucantoco-components.yml
+  href: https://artifacts.apis.io/toucantoco/components/toucantoco-components.yml
   title: ''
   type: Components
   url: components/toucantoco-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/toucantoco/refs/heads/main/security/toucantoco-domain-security.yml
+  href: https://artifacts.apis.io/toucantoco/security/toucantoco-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/toucantoco-domain-security.yml
 created: '2026-07-17'
 description: Toucan Toco is a Paris-founded embedded analytics and data storytelling platform used by ISVs and SaaS products to ship white-label, customer-facing dashboards and conversational analytics without building BI infrastructure in-house. Its current-generation Toucan AI cloud (toucanai.cloud) pairs guided dashboards and a semantic layer with an AI analytics assistant, embeds via framework-agnostic web components (tc-dashboard, tc-ai-assistant), authenticates embeds with server-side generated JWT tokens carrying row-level-security attributes, and exposes its typed analytics tools to any MCP-compatible agent at toucanai.cloud/api/mcp. Trusted by 350+ companies; backed by Balderton Capital.
+finops:
+- has_sources: true
+  method: derived
+  name: Toucantoco Finops
+  primary_unit: session
+  service_category: ''
+  slug: toucantoco-finops
+  template: false
 image: https://www.toucantoco.com/hubfs/Embedded%20Analytics%20your%20users%20will%20love!.png
 layout: provider
 mcp_servers:
@@ -195,26 +205,29 @@ plans:
 - name: Toucantoco Plans Pricing
   plan_count: 7
   slug: toucantoco-plans-pricing
-random_paper: 9
+- name: Toucantoco Price Estimates
+  plan_count: 0
+  slug: toucantoco-price-estimates
+random_paper: 7
 score:
   band: developing
-  composite: 43.4
+  composite: 48.0
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 49.0
+    artifact_dirs: 18
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 71.1
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 75.0
-    operational_transparency: 26.3
-  previous_composite: 37.0
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 46.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -228,14 +241,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/toucantoco/refs/heads/main/screenshots/toucantoco-2026-09-02T163946.png
+screenshot: https://apis.io/screenshots/toucantoco/toucantoco-2026-09-02T163946.png
 security:
 - kind: authentication
   name: Toucantoco Authentication

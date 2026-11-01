@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: Website
   url: https://studysoup.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/studysoup/refs/heads/main/security/studysoup-domain-security.yml
+  href: https://artifacts.apis.io/studysoup/security/studysoup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/studysoup-domain-security.yml
@@ -54,12 +56,12 @@ name: StudySoup
 nav: Providers
 network: true
 overview: StudySoup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Study Tools, and Students.
-random_paper: 12
+random_paper: 16
 score:
   band: minimal
   composite: 2.9
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -80,8 +82,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

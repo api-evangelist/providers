@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 52.6
-  scored_at: '2026-10-17'
+  score: 48.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.openworklabs.com
@@ -224,15 +226,12 @@ apis:
   description: Worker lifecycle, billing, and runtime routes.
   name: Openwork Workers API
   slug: openwork-workers-api
-artifact_total: 84
+artifact_total: 86
 asyncapis:
 - description: ''
   name: Openwork Webhooks
   slug: openwork-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Den Admin API
   slug: open-openwork-admin-api
@@ -346,12 +345,12 @@ collections:
   slug: open-openwork-workers-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/plans/openwork-plans-pricing.yml
+  href: https://artifacts.apis.io/openwork/plans/openwork-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/openwork-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/capabilities/openwork-capability-edges.yml
+  href: https://artifacts.apis.io/openwork/capabilities/openwork-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/openwork-capability-edges.yml
@@ -372,22 +371,22 @@ common:
   type: ContributionGuide
   url: https://github.com/different-ai/openwork/blob/dev/CONTRIBUTING.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/overlays/openwork-den-overlay.yaml
+  href: https://artifacts.apis.io/openwork/overlays/openwork-den-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openwork-den-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/security/openwork-trust-center.yml
+  href: https://artifacts.apis.io/openwork/security/openwork-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/openwork-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/security/openwork-domain-security.yml
+  href: https://artifacts.apis.io/openwork/security/openwork-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openwork-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/authentication/openwork-authentication.yml
+  href: https://artifacts.apis.io/openwork/authentication/openwork-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openwork-authentication.yml
@@ -440,77 +439,77 @@ common:
   type: ChangeLog
   url: https://github.com/different-ai/openwork/releases
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/llms/openwork-llms.txt
+  href: https://artifacts.apis.io/openwork/llms/openwork-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openwork-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/well-known/openwork-well-known.yml
+  href: https://artifacts.apis.io/openwork/well-known/openwork-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/openwork-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/scopes/openwork-scopes.yml
+  href: https://artifacts.apis.io/openwork/scopes/openwork-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/openwork-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/mcp/openwork-mcp.yml
+  href: https://artifacts.apis.io/openwork/mcp/openwork-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/openwork-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/conformance/openwork-conformance.yml
+  href: https://artifacts.apis.io/openwork/conformance/openwork-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openwork-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/security/openwork-trust-center.yml
+  href: https://artifacts.apis.io/openwork/security/openwork-trust-center.yml
   title: ''
   type: Compliance
   url: security/openwork-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/errors/openwork-problem-types.yml
+  href: https://artifacts.apis.io/openwork/errors/openwork-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/openwork-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/lifecycle/openwork-lifecycle.yml
+  href: https://artifacts.apis.io/openwork/lifecycle/openwork-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openwork-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/conventions/openwork-conventions.yml
+  href: https://artifacts.apis.io/openwork/conventions/openwork-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openwork-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/data-model/openwork-data-model.yml
+  href: https://artifacts.apis.io/openwork/data-model/openwork-data-model.yml
   title: ''
   type: DataModel
   url: data-model/openwork-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/packages/openwork-packages.yml
+  href: https://artifacts.apis.io/openwork/packages/openwork-packages.yml
   title: ''
   type: Packages
   url: packages/openwork-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/packages/openwork-packages.yml
+  href: https://artifacts.apis.io/openwork/packages/openwork-packages.yml
   title: ''
   type: SDKs
   url: packages/openwork-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/changelog/openwork-changelog.yml
+  href: https://artifacts.apis.io/openwork/changelog/openwork-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openwork-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/asyncapi/openwork-webhooks.yml
+  href: https://artifacts.apis.io/openwork/asyncapi/openwork-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/openwork-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/openwork/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -520,6 +519,14 @@ common:
   url: https://github.com/different-ai/openwork/blob/70c948c2abfc9b875c2971c6306c1603ac62f587/.spectral.yaml
 created: '2026-07-17'
 description: OpenWork is an open-source, enterprise-ready alternative to Claude Cowork — a desktop application and agent runtime, built as a GUI for OpenCode, that lets people work on their local files with AI agents using any of 50+ model providers and their own keys. Teams package skills, MCP servers, plugins, and configs into shareable one-click setups, and administer rollout, SSO, audit, and policy through OpenWork Den, the cloud control plane. The Den API (OpenAPI 3.1, 214 operations) exposes organizations, members, roles, SSO and SCIM provisioning, connectors, capability sources, LLM providers, workers, marketplaces, plugins, and MCP connections, secured by session bearer tokens and organization API keys with an OAuth 2.0 / OIDC authorization server.
+finops:
+- has_sources: true
+  method: derived
+  name: Openwork Finops
+  primary_unit: up to 5 users
+  service_category: ''
+  slug: openwork-finops
+  template: false
 image: https://openworklabs.com/og-image-clean.png
 layout: provider
 mcp_servers:
@@ -544,7 +551,7 @@ plans:
 - name: Openwork Price Estimates
   plan_count: 0
   slug: openwork-price-estimates
-random_paper: 5
+random_paper: 21
 rules:
 - authorship: provider
   effective_rule_count: 46
@@ -565,23 +572,23 @@ scopes:
   summary_line: 6 scopes
 score:
   band: strong
-  composite: 64.1
+  composite: 62.5
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 64.0
+    artifact_dirs: 25
+    catalog_earned: 67.0
     catalog_earned_first_party: 27.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.6
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 50.0
-    contract_quality: 58.9
+    contract_quality: 54.8
     developer_ergonomics: 37.5
-    discoverability: 75.0
-    operational_transparency: 36.8
-  previous_composite: 58.5
+    discoverability: 65.0
+    operational_transparency: 39.5
+  previous_composite: 60.9
   provenance:
     conformance: derived
     contracts:
@@ -597,13 +604,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/screenshots/openwork-2026-08-17T124245.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openwork/openwork-2026-08-17T124245.png
 security:
 - kind: authentication
   name: Openwork Authentication
@@ -617,6 +625,12 @@ security:
   name: Openwork Trust Center
   slug: openwork-trust-center
   summary_line: SOC 2
+skill_count: 2
+skills:
+- name: openwork-connect-external-mcp
+  slug: openwork-connect-external-mcp
+- name: openwork-manage-org-members
+  slug: openwork-manage-org-members
 slug: openwork
 tags:
 - Company

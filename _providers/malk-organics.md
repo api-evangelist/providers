@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,85 +38,85 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: MALK Organics's agent-facing commerce API, implemented via the Shopify Universal Commerce Protocol (UCP) over MCP and served from MALK's own host. Agents can search and look up the MALK product catalo
   name: MALK Organics Storefront Commerce (UCP / MCP)
   slug: malk-organics-storefront-commerce-ucp-mcp
-artifact_total: 7
+artifact_total: 9
 common:
 - group: company
   title: ''
   type: Website
   url: https://malkorganics.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/mcp/malk-organics-mcp.yml
+  href: https://artifacts.apis.io/malk-organics/mcp/malk-organics-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/malk-organics-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/llms/malk-organics-llms.txt
+  href: https://artifacts.apis.io/malk-organics/llms/malk-organics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/malk-organics-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/malk-organics/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/well-known/malk-organics-well-known.yml
+  href: https://artifacts.apis.io/malk-organics/well-known/malk-organics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/malk-organics-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/authentication/malk-organics-authentication.yml
+  href: https://artifacts.apis.io/malk-organics/authentication/malk-organics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/malk-organics-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/scopes/malk-organics-scopes.yml
+  href: https://artifacts.apis.io/malk-organics/scopes/malk-organics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/malk-organics-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/conformance/malk-organics-conformance.yml
+  href: https://artifacts.apis.io/malk-organics/conformance/malk-organics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/malk-organics-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/conventions/malk-organics-conventions.yml
+  href: https://artifacts.apis.io/malk-organics/conventions/malk-organics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/malk-organics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/conventions/malk-organics-conventions.yml
+  href: https://artifacts.apis.io/malk-organics/conventions/malk-organics-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/malk-organics-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/rate-limits/malk-organics-rate-limits.yml
+  href: https://artifacts.apis.io/malk-organics/rate-limits/malk-organics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/malk-organics-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/plans/malk-organics-plans-pricing.yml
+  href: https://artifacts.apis.io/malk-organics/plans/malk-organics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/malk-organics-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/security/malk-organics-domain-security.yml
+  href: https://artifacts.apis.io/malk-organics/security/malk-organics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/malk-organics-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/lifecycle/malk-organics-lifecycle.yml
+  href: https://artifacts.apis.io/malk-organics/lifecycle/malk-organics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/malk-organics-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/data-model/malk-organics-data-model.yml
+  href: https://artifacts.apis.io/malk-organics/data-model/malk-organics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/malk-organics-data-model.yml
@@ -174,7 +176,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.1
+  composite: 28.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 45.0
@@ -188,9 +190,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.0
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 21.1
-  previous_composite: 29.1
+  previous_composite: 28.1
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -201,14 +203,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/screenshots/malk-organics-2026-09-02T150422.png
+screenshot: https://apis.io/screenshots/malk-organics/malk-organics-2026-09-02T150422.png
 security:
 - kind: authentication
   name: Malk Organics Authentication
@@ -218,6 +220,12 @@ security:
   name: Malk Organics Domain Security
   slug: malk-organics-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: malk-organics-buyer-approved-checkout
+  slug: malk-organics-buyer-approved-checkout
+- name: malk-organics-catalog-discovery
+  slug: malk-organics-catalog-discovery
 slug: malk-organics
 tags:
 - Company

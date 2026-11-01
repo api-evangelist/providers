@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-10-17'
+  score: 24.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 52
   slug: datafold-agentic-access
   summary_line: 52 operations · 29 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://app.datafold.com/api/v1/
   baseurl_source: declared
@@ -109,11 +111,8 @@ apis:
   description: The Monitors API from Datafold — 11 operation(s) for monitors.
   name: Datafold Monitors API
   slug: datafold-monitors-api
-artifact_total: 38
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Datafold Audit Logs API
   slug: open-datafold-audit-logs-api
@@ -155,27 +154,27 @@ collections:
   slug: open-datafold-monitors-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/capabilities/datafold-capability-edges.yml
+  href: https://artifacts.apis.io/datafold/capabilities/datafold-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/datafold-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/agentic-access/datafold-agentic-access.yml
+  href: https://artifacts.apis.io/datafold/agentic-access/datafold-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/datafold-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/security/datafold-trust-center.yml
+  href: https://artifacts.apis.io/datafold/security/datafold-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/datafold-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/security/datafold-domain-security.yml
+  href: https://artifacts.apis.io/datafold/security/datafold-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datafold-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/authentication/datafold-authentication.yml
+  href: https://artifacts.apis.io/datafold/authentication/datafold-authentication.yml
   title: ''
   type: Authentication
   url: authentication/datafold-authentication.yml
@@ -212,17 +211,17 @@ common:
   type: X
   url: https://x.com/datafoldcom
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/plans/datafold-plans-pricing.yml
+  href: https://artifacts.apis.io/datafold/plans/datafold-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/datafold-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/rate-limits/datafold-rate-limits.yml
+  href: https://artifacts.apis.io/datafold/rate-limits/datafold-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/datafold-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/finops/datafold-finops.yml
+  href: https://artifacts.apis.io/datafold/finops/datafold-finops.yml
   title: ''
   type: FinOps
   url: finops/datafold-finops.yml
@@ -266,7 +265,7 @@ plans:
 - name: Datafold Plans Pricing
   plan_count: 3
   slug: datafold-plans-pricing
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Datafold Rate Limits
@@ -285,7 +284,7 @@ rules:
   slug: datafold-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.2
+  composite: 35.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 54.3
@@ -293,15 +292,15 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 57.7
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 39.8
+    operational_transparency: 21.1
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -315,13 +314,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/screenshots/datafold-2026-06-20T175639.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/datafold/datafold-2026-06-20T175639.png
 security:
 - kind: authentication
   name: Datafold Authentication

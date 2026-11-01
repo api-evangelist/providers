@@ -4,6 +4,6 @@ layout: provider
 name: database-schema-design
 nav: Providers
 network: true
-random_paper: 14
+random_paper: 10
 slug: database-schema-design
 ---

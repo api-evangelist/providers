@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.3
-  scored_at: '2026-10-17'
+  score: 51.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 82
   slug: omnisend-agentic-access
   summary_line: 82 operations · 54 acting · 2 human-in-the-loop
-api_count: 21
+api_count: 19
 apis:
 - baseURL: https://api.omnisend.com/api
   baseurl_source: declared
@@ -410,7 +412,7 @@ arazzos:
 - description: Look up a contact by id and update it if it exists, otherwise create or update it by email.
   name: Omnisend Upsert a Contact
   slug: omnisend-upsert-contact-workflow
-artifact_total: 79
+artifact_total: 85
 asyncapis:
 - description: ''
   name: Omnisend Webhooks
@@ -419,9 +421,6 @@ collections:
 - collection_type: postman
   name: Omnisend REST API
   slug: postman-omnisend
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Analytics API
   slug: open-omnisend-analytics-api
@@ -472,32 +471,32 @@ collections:
   slug: open-omnisend
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/capabilities/omnisend-capability-edges.yml
+  href: https://artifacts.apis.io/omnisend/capabilities/omnisend-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/omnisend-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/agentic-access/omnisend-agentic-access.yml
+  href: https://artifacts.apis.io/omnisend/agentic-access/omnisend-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/omnisend-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/security/omnisend-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/omnisend/security/omnisend-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/omnisend-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/security/omnisend-domain-security.yml
+  href: https://artifacts.apis.io/omnisend/security/omnisend-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/omnisend-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/authentication/omnisend-authentication.yml
+  href: https://artifacts.apis.io/omnisend/authentication/omnisend-authentication.yml
   title: ''
   type: Authentication
   url: authentication/omnisend-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/scopes/omnisend-scopes.yml
+  href: https://artifacts.apis.io/omnisend/scopes/omnisend-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/omnisend-scopes.yml
@@ -506,67 +505,67 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/omnisend/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/arazzo/omnisend-copy-and-send-campaign-workflow.yml
+  href: https://artifacts.apis.io/omnisend/arazzo/omnisend-copy-and-send-campaign-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/omnisend-copy-and-send-campaign-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/arazzo/omnisend-create-and-send-campaign-workflow.yml
+  href: https://artifacts.apis.io/omnisend/arazzo/omnisend-create-and-send-campaign-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/omnisend-create-and-send-campaign-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/arazzo/omnisend-create-and-verify-category-workflow.yml
+  href: https://artifacts.apis.io/omnisend/arazzo/omnisend-create-and-verify-category-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/omnisend-create-and-verify-category-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/arazzo/omnisend-create-and-verify-contact-workflow.yml
+  href: https://artifacts.apis.io/omnisend/arazzo/omnisend-create-and-verify-contact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/omnisend-create-and-verify-contact-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/arazzo/omnisend-create-and-verify-product-workflow.yml
+  href: https://artifacts.apis.io/omnisend/arazzo/omnisend-create-and-verify-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/omnisend-create-and-verify-product-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/arazzo/omnisend-create-segment-and-stats-workflow.yml
+  href: https://artifacts.apis.io/omnisend/arazzo/omnisend-create-segment-and-stats-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/omnisend-create-segment-and-stats-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/arazzo/omnisend-replace-product-workflow.yml
+  href: https://artifacts.apis.io/omnisend/arazzo/omnisend-replace-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/omnisend-replace-product-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/arazzo/omnisend-subscribe-and-welcome-workflow.yml
+  href: https://artifacts.apis.io/omnisend/arazzo/omnisend-subscribe-and-welcome-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/omnisend-subscribe-and-welcome-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/arazzo/omnisend-tag-contact-workflow.yml
+  href: https://artifacts.apis.io/omnisend/arazzo/omnisend-tag-contact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/omnisend-tag-contact-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/arazzo/omnisend-track-cart-event-workflow.yml
+  href: https://artifacts.apis.io/omnisend/arazzo/omnisend-track-cart-event-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/omnisend-track-cart-event-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/arazzo/omnisend-track-order-event-workflow.yml
+  href: https://artifacts.apis.io/omnisend/arazzo/omnisend-track-order-event-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/omnisend-track-order-event-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/arazzo/omnisend-update-category-workflow.yml
+  href: https://artifacts.apis.io/omnisend/arazzo/omnisend-update-category-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/omnisend-update-category-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/arazzo/omnisend-upsert-contact-workflow.yml
+  href: https://artifacts.apis.io/omnisend/arazzo/omnisend-upsert-contact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/omnisend-upsert-contact-workflow.yml
@@ -611,17 +610,17 @@ common:
   type: Pricing
   url: https://www.omnisend.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/plans/omnisend-plans-pricing.yml
+  href: https://artifacts.apis.io/omnisend/plans/omnisend-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/omnisend-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/rate-limits/omnisend-rate-limits.yml
+  href: https://artifacts.apis.io/omnisend/rate-limits/omnisend-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/omnisend-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/finops/omnisend-finops.yml
+  href: https://artifacts.apis.io/omnisend/finops/omnisend-finops.yml
   title: ''
   type: FinOps
   url: finops/omnisend-finops.yml
@@ -698,67 +697,67 @@ common:
   type: AppMarket
   url: https://www.omnisend.com/app-market
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/packages/omnisend-packages.yml
+  href: https://artifacts.apis.io/omnisend/packages/omnisend-packages.yml
   title: ''
   type: Packages
   url: packages/omnisend-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/well-known/omnisend-well-known.yml
+  href: https://artifacts.apis.io/omnisend/well-known/omnisend-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/omnisend-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/well-known/omnisend-security.txt
+  href: https://artifacts.apis.io/omnisend/well-known/omnisend-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/omnisend-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/mcp/omnisend-mcp.yml
+  href: https://artifacts.apis.io/omnisend/mcp/omnisend-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/omnisend-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/mcp/omnisend-tool-crosswalk.yml
+  href: https://artifacts.apis.io/omnisend/mcp/omnisend-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/omnisend-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/llms/omnisend-llms.txt
+  href: https://artifacts.apis.io/omnisend/llms/omnisend-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/omnisend-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/conformance/omnisend-conformance.yml
+  href: https://artifacts.apis.io/omnisend/conformance/omnisend-conformance.yml
   title: ''
   type: Conformance
   url: conformance/omnisend-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/errors/omnisend-problem-types.yml
+  href: https://artifacts.apis.io/omnisend/errors/omnisend-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/omnisend-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/lifecycle/omnisend-lifecycle.yml
+  href: https://artifacts.apis.io/omnisend/lifecycle/omnisend-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/omnisend-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/lifecycle/omnisend-lifecycle.yml
+  href: https://artifacts.apis.io/omnisend/lifecycle/omnisend-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/omnisend-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/security/omnisend-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/omnisend/security/omnisend-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/omnisend-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/conventions/omnisend-conventions.yml
+  href: https://artifacts.apis.io/omnisend/conventions/omnisend-conventions.yml
   title: ''
   type: Conventions
   url: conventions/omnisend-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/changelog/omnisend-changelog.yml
+  href: https://artifacts.apis.io/omnisend/changelog/omnisend-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/omnisend-changelog.yml
@@ -767,22 +766,22 @@ common:
   type: Roadmap
   url: https://www.omnisend.com/changelog/#roadmap
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/components/omnisend-components.yml
+  href: https://artifacts.apis.io/omnisend/components/omnisend-components.yml
   title: ''
   type: Components
   url: components/omnisend-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/data-model/omnisend-data-model.yml
+  href: https://artifacts.apis.io/omnisend/data-model/omnisend-data-model.yml
   title: ''
   type: DataModel
   url: data-model/omnisend-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/asyncapi/omnisend-webhooks.yml
+  href: https://artifacts.apis.io/omnisend/asyncapi/omnisend-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/omnisend-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/omnisend/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -791,77 +790,77 @@ common:
   type: DeveloperPortal
   url: https://api-docs.omnisend.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/overlays/omnisend-analytics-api-overlay.yaml
+  href: https://artifacts.apis.io/omnisend/overlays/omnisend-analytics-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/omnisend-analytics-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/overlays/omnisend-automations-api-overlay.yaml
+  href: https://artifacts.apis.io/omnisend/overlays/omnisend-automations-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/omnisend-automations-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/overlays/omnisend-batches-api-overlay.yaml
+  href: https://artifacts.apis.io/omnisend/overlays/omnisend-batches-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/omnisend-batches-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/overlays/omnisend-brands-api-overlay.yaml
+  href: https://artifacts.apis.io/omnisend/overlays/omnisend-brands-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/omnisend-brands-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/overlays/omnisend-campaigns-api-overlay.yaml
+  href: https://artifacts.apis.io/omnisend/overlays/omnisend-campaigns-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/omnisend-campaigns-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/overlays/omnisend-contacts-api-overlay.yaml
+  href: https://artifacts.apis.io/omnisend/overlays/omnisend-contacts-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/omnisend-contacts-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/overlays/omnisend-emailcontent-api-overlay.yaml
+  href: https://artifacts.apis.io/omnisend/overlays/omnisend-emailcontent-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/omnisend-emailcontent-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/overlays/omnisend-emailtemplates-api-overlay.yaml
+  href: https://artifacts.apis.io/omnisend/overlays/omnisend-emailtemplates-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/omnisend-emailtemplates-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/overlays/omnisend-emailuniversallayouts-api-overlay.yaml
+  href: https://artifacts.apis.io/omnisend/overlays/omnisend-emailuniversallayouts-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/omnisend-emailuniversallayouts-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/overlays/omnisend-event-metadata-api-overlay.yaml
+  href: https://artifacts.apis.io/omnisend/overlays/omnisend-event-metadata-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/omnisend-event-metadata-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/overlays/omnisend-events-api-overlay.yaml
+  href: https://artifacts.apis.io/omnisend/overlays/omnisend-events-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/omnisend-events-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/overlays/omnisend-images-api-overlay.yaml
+  href: https://artifacts.apis.io/omnisend/overlays/omnisend-images-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/omnisend-images-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/overlays/omnisend-productcategories-api-overlay.yaml
+  href: https://artifacts.apis.io/omnisend/overlays/omnisend-productcategories-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/omnisend-productcategories-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/overlays/omnisend-products-api-overlay.yaml
+  href: https://artifacts.apis.io/omnisend/overlays/omnisend-products-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/omnisend-products-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/overlays/omnisend-segments-api-overlay.yaml
+  href: https://artifacts.apis.io/omnisend/overlays/omnisend-segments-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/omnisend-segments-api-overlay.yaml
@@ -889,10 +888,10 @@ features:
 - Free plan for up to 250 contacts and 500 emails/month
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Omnisend Finops
-  primary_unit: contact
-  service_category: Marketing and Commerce
+  primary_unit: sms
+  service_category: ''
   slug: omnisend-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/omnisend.png
@@ -926,9 +925,12 @@ overview: 'Omnisend publishes 16 API contracts indexed on the [APIs.io](https://
   Omnisend''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, changelog, pricing, and 78 more developer resources.'
 plans:
 - name: Omnisend Plans Pricing
-  plan_count: 4
+  plan_count: 9
   slug: omnisend-plans-pricing
-random_paper: 3
+- name: Omnisend Price Estimates
+  plan_count: 0
+  slug: omnisend-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 7
   name: Omnisend Rate Limits
@@ -952,7 +954,7 @@ scopes:
   summary_line: 20 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 73.0
+  composite: 75.1
   coverage:
     artifact_dirs: 33
     catalog_earned: 84.3
@@ -960,15 +962,15 @@ score:
     catalog_gap: 30.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 77.6
+    access_clarity: 84.2
     contract_governance: 28.0
-    contract_quality: 68.6
-    developer_ergonomics: 49.4
-    discoverability: 80.0
-    operational_transparency: 97.4
-  previous_composite: 72.9
+    contract_quality: 65.2
+    developer_ergonomics: 70.8
+    discoverability: 76.7
+    operational_transparency: 100.0
+  previous_composite: 75.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -985,13 +987,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/screenshots/omnisend-2026-06-20T190706.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/omnisend/omnisend-2026-06-20T190706.png
 security:
 - kind: authentication
   name: Omnisend Authentication
@@ -1005,6 +1008,20 @@ security:
   name: Omnisend Vulnerability Disclosure
   slug: omnisend-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 6
+skills:
+- name: omnisend-automation-webhook
+  slug: omnisend-automation-webhook
+- name: omnisend-build-segment
+  slug: omnisend-build-segment
+- name: omnisend-send-email-campaign
+  slug: omnisend-send-email-campaign
+- name: omnisend-sync-contact
+  slug: omnisend-sync-contact
+- name: omnisend-sync-product-catalog
+  slug: omnisend-sync-product-catalog
+- name: omnisend-track-ecommerce-events
+  slug: omnisend-track-ecommerce-events
 slug: omnisend
 tags:
 - Email Marketing

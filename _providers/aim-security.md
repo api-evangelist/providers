@@ -24,7 +24,7 @@ name: Aim Security
 nav: Providers
 network: true
 overview: Aim Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, AI Security, Generative AI, and LLM Security.
-random_paper: 12
+random_paper: 20
 slug: aim-security
 tags:
 - Company

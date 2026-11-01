@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'REST API for takers/aggregators: discover market makers, query indicative price levels, request signed executable RFQ quotes, and check trader rate-limit restrictions. Quotes settle on-chain via Hashf'
@@ -43,7 +45,7 @@ apis:
 - description: 'REST API for market makers: publish price levels, receive RFQs, sign quotes, and manage restrictions on the Hashflow exchange.'
   name: Hashflow Market Maker API v3
   slug: hashflow-market-maker-api-v3
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -90,67 +92,67 @@ common:
   type: Pricing
   url: https://docs.hashflow.com/hashflow/hashflow/protocol-fees-and-revenue-share
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hashflow/refs/heads/main/llms/hashflow-llms.txt
+  href: https://artifacts.apis.io/hashflow/llms/hashflow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hashflow-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hashflow/refs/heads/main/packages/hashflow-packages.yml
+  href: https://artifacts.apis.io/hashflow/packages/hashflow-packages.yml
   title: ''
   type: Packages
   url: packages/hashflow-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hashflow/refs/heads/main/packages/hashflow-packages.yml
+  href: https://artifacts.apis.io/hashflow/packages/hashflow-packages.yml
   title: ''
   type: SDKs
   url: packages/hashflow-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hashflow/refs/heads/main/authentication/hashflow-authentication.yml
+  href: https://artifacts.apis.io/hashflow/authentication/hashflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hashflow-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hashflow/refs/heads/main/conventions/hashflow-conventions.yml
+  href: https://artifacts.apis.io/hashflow/conventions/hashflow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hashflow-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hashflow/refs/heads/main/errors/hashflow-error-codes.yml
+  href: https://artifacts.apis.io/hashflow/errors/hashflow-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/hashflow-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hashflow/refs/heads/main/data-model/hashflow-data-model.yml
+  href: https://artifacts.apis.io/hashflow/data-model/hashflow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hashflow-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hashflow/refs/heads/main/lifecycle/hashflow-lifecycle.yml
+  href: https://artifacts.apis.io/hashflow/lifecycle/hashflow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hashflow-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hashflow/refs/heads/main/conformance/hashflow-conformance.yml
+  href: https://artifacts.apis.io/hashflow/conformance/hashflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hashflow-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hashflow/refs/heads/main/mcp/hashflow-mcp.yml
+  href: https://artifacts.apis.io/hashflow/mcp/hashflow-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hashflow-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hashflow/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hashflow/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hashflow/refs/heads/main/security/hashflow-domain-security.yml
+  href: https://artifacts.apis.io/hashflow/security/hashflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hashflow-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hashflow/refs/heads/main/security/hashflow-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hashflow/security/hashflow-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hashflow-vulnerability-disclosure.yml
@@ -170,10 +172,10 @@ overview: 'Hashflow is listed with 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Hashflow''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, support, pricing, and 18 more developer resources.'
-random_paper: 2
+random_paper: 20
 score:
   band: thin
-  composite: 26.7
+  composite: 27.3
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -181,15 +183,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 61.3
-    discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 26.6
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 27.3
   provenance:
     conformance: derived
     mcp: derived
@@ -200,14 +202,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hashflow/refs/heads/main/screenshots/hashflow-2026-07-25T220747.png
+screenshot: https://apis.io/screenshots/hashflow/hashflow-2026-07-25T220747.png
 security:
 - kind: authentication
   name: Hashflow Authentication
@@ -221,6 +223,10 @@ security:
   name: Hashflow Vulnerability Disclosure
   slug: hashflow-vulnerability-disclosure
   summary_line: disclosure policy published
+skill_count: 1
+skills:
+- name: Get an RFQ quote and execute a swap on Hashflow
+  slug: hashflow-quote-and-swap
 slug: hashflow
 tags:
 - Company

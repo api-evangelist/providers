@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/risk-ledger/refs/heads/main/security/risk-ledger-domain-security.yml
+  href: https://artifacts.apis.io/risk-ledger/security/risk-ledger-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/risk-ledger-domain-security.yml
@@ -70,7 +72,7 @@ common:
   type: ChangeLog
   url: https://riskledger.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/risk-ledger/refs/heads/main/changelog/risk-ledger-changelog.yml
+  href: https://artifacts.apis.io/risk-ledger/changelog/risk-ledger-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/risk-ledger-changelog.yml
@@ -91,12 +93,12 @@ common:
   type: Security
   url: https://riskledger.com/responsible-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/risk-ledger/refs/heads/main/security/risk-ledger-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/risk-ledger/security/risk-ledger-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/risk-ledger-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/risk-ledger/refs/heads/main/security/risk-ledger-trust-center.yml
+  href: https://artifacts.apis.io/risk-ledger/security/risk-ledger-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/risk-ledger-trust-center.yml
@@ -116,10 +118,10 @@ overview: 'Risk Ledger is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Risk Ledger''s developer surface includes documentation, support, engineering blog, changelog, signup flow, and 11 more developer resources.'
-random_paper: 13
+random_paper: 9
 score:
   band: emerging
-  composite: 20.6
+  composite: 21.0
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -134,7 +136,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 48.2
-    operational_transparency: 28.9
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -143,21 +145,21 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 20.6
+  previous_composite: 21.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/risk-ledger/refs/heads/main/screenshots/risk-ledger-2026-10-11T192505.png
+screenshot: https://apis.io/screenshots/risk-ledger/risk-ledger-2026-10-11T192505.png
 security:
 - kind: domain-security
   name: Risk Ledger Domain Security

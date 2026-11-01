@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 0
 common:
@@ -69,7 +71,7 @@ press:
 - date: ''
   title: Annual Report for Fiscal Year Ending December 31, 2024 ...
   url: https://www.publicnow.com/view/52A756E10F4C61184DE58E0B543465DBF9749AB8?1739310479
-random_paper: 14
+random_paper: 18
 score:
   band: minimal
   composite: 1.4
@@ -88,12 +90,6 @@ score:
     developer_ergonomics: 0.0
     discoverability: 39.3
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 1.4
   regulatory:
     applies: true
@@ -101,8 +97,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

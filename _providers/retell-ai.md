@@ -12,7 +12,7 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-17'
+  score: 25.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -435,15 +437,12 @@ apis:
   description: The Update Test Case Definition API from Retell AI — 1 operation(s) for update test case definition.
   name: Retell AI Update Test Case Definition API
   slug: retell-ai-update-test-case-definition-api
-artifact_total: 168
+artifact_total: 167
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Retell AI''s publicly documented WebSocket surfaces. All events are sourced from the official Retell AI documentation (https://docs.retellai.com) and cover: * Custom LLM Web'
   name: Retell AI WebSocket APIs
   slug: retell-ai-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Retell SDK Add Community Voice API
   slug: open-retell-ai-add-community-voice-api
@@ -687,22 +686,22 @@ common:
   type: Pricing
   url: https://www.retellai.com/pricing
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/retell-ai/refs/heads/main/capabilities/retell-ai-capability-edges.yml
+  href: https://artifacts.apis.io/retell-ai/capabilities/retell-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/retell-ai-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/retell-ai/refs/heads/main/agentic-access/retell-ai-agentic-access.yml
+  href: https://artifacts.apis.io/retell-ai/agentic-access/retell-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/retell-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/retell-ai/refs/heads/main/security/retell-ai-domain-security.yml
+  href: https://artifacts.apis.io/retell-ai/security/retell-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/retell-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/retell-ai/refs/heads/main/authentication/retell-ai-authentication.yml
+  href: https://artifacts.apis.io/retell-ai/authentication/retell-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/retell-ai-authentication.yml
@@ -723,22 +722,22 @@ common:
   type: Documentation
   url: https://docs.retellai.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/retell-ai/refs/heads/main/openapi/_original/retell-ai-openapi.yml
+  href: https://artifacts.apis.io/retell-ai/openapi/_original/retell-ai-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/retell-ai-openapi.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/retell-ai/refs/heads/main/plans/retell-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/retell-ai/plans/retell-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/retell-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/retell-ai/refs/heads/main/rate-limits/retell-ai-rate-limits.yml
+  href: https://artifacts.apis.io/retell-ai/rate-limits/retell-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/retell-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/retell-ai/refs/heads/main/finops/retell-ai-finops.yml
+  href: https://artifacts.apis.io/retell-ai/finops/retell-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/retell-ai-finops.yml
@@ -784,7 +783,7 @@ plans:
 - name: Retell Ai Price Estimates
   plan_count: 0
   slug: retell-ai-price-estimates
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Retell Ai Rate Limits
@@ -803,8 +802,8 @@ rules:
     warn: 6
   slug: retell-ai-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 38.5
+  band: developing
+  composite: 39.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 55.8
@@ -812,15 +811,15 @@ score:
     catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 55.3
     contract_governance: 11.4
     contract_quality: 56.8
     developer_ergonomics: 23.8
-    discoverability: 75.0
-    operational_transparency: 10.5
-  previous_composite: 40.4
+    discoverability: 73.2
+    operational_transparency: 13.2
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -835,13 +834,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/retell-ai/refs/heads/main/screenshots/retell-ai-2026-06-20T193039.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/retell-ai/retell-ai-2026-06-20T193039.png
 security:
 - kind: authentication
   name: Retell Ai Authentication

@@ -27,15 +27,17 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-17'
+  score: 35.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -75,15 +77,32 @@ apis:
   description: Public API endpoints for approved brokerages to list supported webhook event types, subscribe endpoints to event types, and send test deliveries. Subscriptions created through these public APIs delive
   name: Augment Webhook Event Subscriptions API
   slug: augment-webhook-event-subscriptions-api
-artifact_total: 20
+- baseURL: https://api.prod.goaugment.com
+  baseurl_source: declared
+  description: Public API endpoint for submitting CSV files for asynchronous ingestion into Augment.
+  name: Augment CSV Imports API
+  slug: augment-csv-imports-api
+- baseURL: https://api.prod.goaugment.com
+  baseurl_source: declared
+  description: Public API endpoints for creating and updating facilities.
+  name: Augment Facility Management API
+  slug: augment-facility-management-api
+- baseURL: https://api.prod.goaugment.com
+  baseurl_source: declared
+  description: API endpoints for creating and retrieving purchase orders together with their line items.
+  name: Augment Purchase Order Management API
+  slug: augment-purchase-order-management-api
+- baseURL: https://api.prod.goaugment.com
+  baseurl_source: declared
+  description: 'Rate quoting. This is the one endpoint in this reference implemented by the rate provider and called by Augment: Augment submits a shipment, the provider prices it and returns the applicable rates. Au'
+  name: Augment Quote Management API
+  slug: augment-quote-management-api
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Augment Webhooks
   slug: augment-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Augment API Key API
   slug: open-augment-api-key-api
@@ -108,12 +127,12 @@ common:
   type: Pricing
   url: https://www.goaugment.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/plans/augment-plans-pricing.yml
+  href: https://artifacts.apis.io/augment/plans/augment-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/augment-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/capabilities/augment-capability-edges.yml
+  href: https://artifacts.apis.io/augment/capabilities/augment-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/augment-capability-edges.yml
@@ -162,52 +181,52 @@ common:
   type: GitHubOrganization
   url: https://github.com/goaugment
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/authentication/augment-authentication.yml
+  href: https://artifacts.apis.io/augment/authentication/augment-authentication.yml
   title: ''
   type: Authentication
   url: authentication/augment-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/_original/augment-openapi-original.json
+  href: https://artifacts.apis.io/augment/openapi/_original/augment-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/augment-openapi-original.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/overlays/augment-openapi-overlay.yaml
+  href: https://artifacts.apis.io/augment/overlays/augment-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/augment-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/mcp/augment-mcp.yml
+  href: https://artifacts.apis.io/augment/mcp/augment-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/augment-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/llms/augment-llms.txt
+  href: https://artifacts.apis.io/augment/llms/augment-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/augment-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/augment/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/agentic-access/augment-agentic-access.yml
+  href: https://artifacts.apis.io/augment/agentic-access/augment-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/augment-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/conventions/augment-conventions.yml
+  href: https://artifacts.apis.io/augment/conventions/augment-conventions.yml
   title: ''
   type: Conventions
   url: conventions/augment-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/errors/augment-problem-types.yml
+  href: https://artifacts.apis.io/augment/errors/augment-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/augment-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/lifecycle/augment-lifecycle.yml
+  href: https://artifacts.apis.io/augment/lifecycle/augment-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/augment-lifecycle.yml
@@ -216,22 +235,22 @@ common:
   type: Deprecation
   url: https://apidocs.goaugment.com/guide/start-developing/migration-guide
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/rate-limits/augment-rate-limits.yml
+  href: https://artifacts.apis.io/augment/rate-limits/augment-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/augment-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/asyncapi/augment-webhooks.yml
+  href: https://artifacts.apis.io/augment/asyncapi/augment-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/augment-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/data-model/augment-data-model.yml
+  href: https://artifacts.apis.io/augment/data-model/augment-data-model.yml
   title: ''
   type: DataModel
   url: data-model/augment-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/conformance/augment-conformance.yml
+  href: https://artifacts.apis.io/augment/conformance/augment-conformance.yml
   title: ''
   type: Conformance
   url: conformance/augment-conformance.yml
@@ -240,24 +259,32 @@ common:
   type: Compliance
   url: https://trust.goaugment.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/security/augment-trust-center.yml
+  href: https://artifacts.apis.io/augment/security/augment-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/augment-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/security/augment-domain-security.yml
+  href: https://artifacts.apis.io/augment/security/augment-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/augment-domain-security.yml
 created: '2026-07-17'
 description: Augment (Augie) is an AI productivity platform for the freight and logistics industry, automating complex supply-chain workflows for brokerages, carriers, and distributors — quoting, booking, load building, capacity sourcing, track & trace, carrier support, and order-to-cash — while integrating with existing TMS, ERP, email, and messaging systems. Its public REST API (api.prod.goaugment.com) lets partner systems manage loads and route stops, upsert and archive carriers, post tracking events, report carrier issues, and configure webhook endpoints and event subscriptions across nine event types. Authentication is HTTP Basic with an API key; the company is SOC 2 Type II certified. Augment is backed by 8VC, Lightspeed Venture Partners, and Redpoint Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Augment Finops
+  primary_unit: ''
+  service_category: ''
+  slug: augment-finops
+  template: true
 image: https://framerusercontent.com/assets/hYTkXfUxYj558HcJLnhl8l2ogig.png
 layout: provider
 modified: '2026-07-18'
 name: Augment
 nav: Providers
 network: true
-overview: 'Augment publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Key API, Carrier Management API, Carrier Support API, and 3 more. Tagged areas include Company, Logistics, Freight, Supply Chain, and Transportation.
+overview: 'Augment publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Key API, Carrier Management API, Carrier Support API, and 7 more. Tagged areas include Company, Logistics, Freight, Supply Chain, and Transportation.
 
 
   The Augment catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -268,16 +295,16 @@ plans:
 - name: Augment Plans Pricing
   plan_count: 0
   slug: augment-plans-pricing
-random_paper: 5
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Augment Rate Limits
   slug: augment-rate-limits
 score:
-  band: strong
-  composite: 59.0
+  band: developing
+  composite: 53.7
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -287,11 +314,11 @@ score:
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 60.7
+    contract_quality: 58.8
     developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 31.6
-  previous_composite: 58.9
+    discoverability: 66.1
+    operational_transparency: 42.1
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -299,7 +326,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 17
     mcp: derived
     skills: derived
   regulatory:
@@ -312,13 +339,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/screenshots/augment-2026-07-25T201709.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/augment/augment-2026-07-25T201709.png
 security:
 - kind: authentication
   name: Augment Authentication
@@ -332,6 +360,14 @@ security:
   name: Augment Trust Center
   slug: augment-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 3
+skills:
+- name: Configure webhook endpoints and subscriptions
+  slug: augment-configure-webhooks
+- name: Create a load and post tracking updates
+  slug: augment-create-load-and-track
+- name: Onboard and manage carriers
+  slug: augment-onboard-carrier
 slug: augment
 tags:
 - Company

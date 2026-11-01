@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for Botamedi services
@@ -32,12 +34,12 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/botamedi/refs/heads/main/hosts/botamedi-hosts.yml
+  href: https://artifacts.apis.io/botamedi/hosts/botamedi-hosts.yml
   title: ''
   type: Hosts
   url: hosts/botamedi-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/botamedi/refs/heads/main/security/botamedi-domain-security.yml
+  href: https://artifacts.apis.io/botamedi/security/botamedi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/botamedi-domain-security.yml
@@ -72,7 +74,7 @@ overview: 'Botamedi is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Botamedi''s developer surface includes support and 4 more developer resources.'
-random_paper: 1
+random_paper: 21
 score:
   band: minimal
   composite: 7.6
@@ -100,8 +102,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

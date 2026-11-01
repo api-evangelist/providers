@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Low-latency, near-time market data query API delivered as a streaming WebSockets service so clients can process arbitrarily-sized result sets frame-by-frame without pagination. Publicly documented onl
@@ -45,37 +47,37 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maystreet/refs/heads/main/security/maystreet-domain-security.yml
+  href: https://artifacts.apis.io/maystreet/security/maystreet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/maystreet-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maystreet/refs/heads/main/authentication/maystreet-authentication.yml
+  href: https://artifacts.apis.io/maystreet/authentication/maystreet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/maystreet-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maystreet/refs/heads/main/conventions/maystreet-conventions.yml
+  href: https://artifacts.apis.io/maystreet/conventions/maystreet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/maystreet-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maystreet/refs/heads/main/errors/maystreet-problem-types.yml
+  href: https://artifacts.apis.io/maystreet/errors/maystreet-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/maystreet-problem-types.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/maystreet/refs/heads/main/sandbox/maystreet-sandbox.yml
+  href: https://artifacts.apis.io/maystreet/sandbox/maystreet-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/maystreet-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maystreet/refs/heads/main/lifecycle/maystreet-lifecycle.yml
+  href: https://artifacts.apis.io/maystreet/lifecycle/maystreet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/maystreet-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maystreet/refs/heads/main/llms/maystreet-llms.txt
+  href: https://artifacts.apis.io/maystreet/llms/maystreet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/maystreet-llms.txt
@@ -103,10 +105,10 @@ overview: 'MayStreet is listed with 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   MayStreet''s developer surface includes authentication, sandbox, and 8 more developer resources.'
-random_paper: 0
+random_paper: 6
 score:
   band: minimal
-  composite: 10.3
+  composite: 10.7
   coverage:
     artifact_dirs: 10
     catalog_earned: 32.0
@@ -121,22 +123,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 57.1
-    operational_transparency: 2.6
-  previous_composite: 10.3
+    operational_transparency: 5.3
+  previous_composite: 10.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 11.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/maystreet/refs/heads/main/screenshots/maystreet-2026-07-22T202504.png
+screenshot: https://apis.io/screenshots/maystreet/maystreet-2026-07-22T202504.png
 security:
 - kind: authentication
   name: Maystreet Authentication

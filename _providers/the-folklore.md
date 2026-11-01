@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Agent-driven commerce surface for The Folklore's Shopify storefront, implementing the Universal Commerce Protocol over an MCP endpoint with buyer-approved checkout, plus read-only storefront JSON endp
@@ -86,47 +88,47 @@ common:
   type: PrivacyPolicy
   url: https://thefolklore.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-folklore/refs/heads/main/llms/the-folklore-llms.txt
+  href: https://artifacts.apis.io/the-folklore/llms/the-folklore-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-folklore-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-folklore/refs/heads/main/well-known/the-folklore-well-known.yml
+  href: https://artifacts.apis.io/the-folklore/well-known/the-folklore-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/the-folklore-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-folklore/refs/heads/main/mcp/the-folklore-mcp.yml
+  href: https://artifacts.apis.io/the-folklore/mcp/the-folklore-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/the-folklore-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-folklore/refs/heads/main/authentication/the-folklore-authentication.yml
+  href: https://artifacts.apis.io/the-folklore/authentication/the-folklore-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-folklore-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-folklore/refs/heads/main/scopes/the-folklore-scopes.yml
+  href: https://artifacts.apis.io/the-folklore/scopes/the-folklore-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/the-folklore-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-folklore/refs/heads/main/conformance/the-folklore-conformance.yml
+  href: https://artifacts.apis.io/the-folklore/conformance/the-folklore-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-folklore-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-folklore/refs/heads/main/conventions/the-folklore-conventions.yml
+  href: https://artifacts.apis.io/the-folklore/conventions/the-folklore-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-folklore-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-folklore/refs/heads/main/security/the-folklore-domain-security.yml
+  href: https://artifacts.apis.io/the-folklore/security/the-folklore-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-folklore-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-folklore/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/the-folklore/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -146,7 +148,7 @@ overview: 'The Folklore is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   The Folklore''s developer surface includes engineering blog, documentation, support, pricing, signup flow, authentication, and 14 more developer resources.'
-random_paper: 18
+random_paper: 4
 scopes:
 - name: The Folklore Scopes
   scope_count: 4
@@ -154,7 +156,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.6
+  composite: 27.6
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -168,9 +170,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 28.6
+  previous_composite: 27.6
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -181,14 +183,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-folklore/refs/heads/main/screenshots/the-folklore-2026-09-02T163345.png
+screenshot: https://apis.io/screenshots/the-folklore/the-folklore-2026-09-02T163345.png
 security:
 - kind: authentication
   name: The Folklore Authentication

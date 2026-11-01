@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Outbound webhook that Ko-fi HTTP POSTs to a URL you configure whenever a payment happens on your Ko-fi page. The single POST body is form-encoded with a "data" field containing a JSON payload; a "type
@@ -46,7 +48,7 @@ asyncapis:
   slug: ko-fi-asyncapi
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ko-fi/refs/heads/main/security/ko-fi-domain-security.yml
+  href: https://artifacts.apis.io/ko-fi/security/ko-fi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ko-fi-domain-security.yml
@@ -63,17 +65,17 @@ common:
   type: Documentation
   url: https://help.ko-fi.com/hc/en-us/articles/360004162298-Does-Ko-fi-have-an-API-or-webhook
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ko-fi/refs/heads/main/plans/ko-fi-plans-pricing.yml
+  href: https://artifacts.apis.io/ko-fi/plans/ko-fi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ko-fi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ko-fi/refs/heads/main/rate-limits/ko-fi-rate-limits.yml
+  href: https://artifacts.apis.io/ko-fi/rate-limits/ko-fi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ko-fi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ko-fi/refs/heads/main/finops/ko-fi-finops.yml
+  href: https://artifacts.apis.io/ko-fi/finops/ko-fi-finops.yml
   title: ''
   type: FinOps
   url: finops/ko-fi-finops.yml
@@ -108,7 +110,7 @@ plans:
 - name: Ko Fi Plans Pricing
   plan_count: 2
   slug: ko-fi-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Ko Fi Rate Limits
@@ -136,7 +138,7 @@ score:
     catalog_gap: 75.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 11.4
@@ -144,21 +146,21 @@ score:
     developer_ergonomics: 19.0
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 26.7
+  previous_composite: 20.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ko-fi/refs/heads/main/screenshots/ko-fi-2026-07-25T224019.png
+screenshot: https://apis.io/screenshots/ko-fi/ko-fi-2026-07-25T224019.png
 security:
 - kind: domain-security
   name: Ko Fi Domain Security

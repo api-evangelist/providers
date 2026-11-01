@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 23.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.havenly.com
@@ -91,14 +93,11 @@ apis:
   description: The Vendor Variants API from Havenly — 1 operation(s) for vendor variants.
   name: Havenly Vendor Variants API
   slug: havenly-vendor-variants-api
-artifact_total: 27
+artifact_total: 28
 collections:
 - collection_type: postman
   name: Havenly API
   slug: postman-havenly-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Havenly Addresses API
   slug: open-havenly-addresses-api
@@ -134,22 +133,22 @@ collections:
   slug: open-havenly-vendor-variants-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/havenly/refs/heads/main/capabilities/havenly-capability-edges.yml
+  href: https://artifacts.apis.io/havenly/capabilities/havenly-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/havenly-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/havenly/refs/heads/main/mcp/havenly-mcp.yml
+  href: https://artifacts.apis.io/havenly/mcp/havenly-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/havenly-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/havenly/refs/heads/main/overlays/havenly-openapi-overlay.yaml
+  href: https://artifacts.apis.io/havenly/overlays/havenly-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/havenly-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/havenly/refs/heads/main/scopes/havenly-scopes.yml
+  href: https://artifacts.apis.io/havenly/scopes/havenly-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/havenly-scopes.yml
@@ -198,17 +197,17 @@ common:
   type: HelpCenter
   url: https://help.havenly.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/havenly/refs/heads/main/llms/havenly-llms.txt
+  href: https://artifacts.apis.io/havenly/llms/havenly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/havenly-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/havenly/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/havenly/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/havenly/refs/heads/main/security/havenly-domain-security.yml
+  href: https://artifacts.apis.io/havenly/security/havenly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/havenly-domain-security.yml
@@ -224,7 +223,7 @@ overview: 'Havenly publishes 11 API contracts indexed on the [APIs.io](https://a
 
 
   Havenly''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, and 12 more developer resources.'
-random_paper: 11
+random_paper: 15
 scopes:
 - name: Havenly Scopes
   scope_count: 0
@@ -246,7 +245,7 @@ score:
     contract_governance: 0.0
     contract_quality: 47.3
     developer_ergonomics: 38.7
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   previous_composite: 36.9
   provenance:
@@ -263,13 +262,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/havenly/refs/heads/main/screenshots/havenly-2026-07-25T220807.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/havenly/havenly-2026-07-25T220807.png
 security:
 - kind: authentication
   name: Havenly Authentication
@@ -279,6 +279,12 @@ security:
   name: Havenly Domain Security
   slug: havenly-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Add a vendor product to a design board
+  slug: havenly-add-product-to-board
+- name: Authenticate and browse the Havenly vendor catalog
+  slug: havenly-authenticate-and-list-catalog
 slug: havenly
 tags:
 - Company

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
+  score: 18.2
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - baseURL: https://dashboard.pepperdata.com/pepperdata-demonstration/api
@@ -52,11 +54,8 @@ apis:
   description: Retrieve time-series metrics, series, and filters.
   name: Pepperdata Metrics API
   slug: pepperdata-metrics-api
-artifact_total: 9
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Pepperdata REST Alarms API
   slug: open-pepperdata-alarms-api
@@ -76,57 +75,57 @@ common:
   type: BlogRSS
   url: https://www.pepperdata.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/overlays/pepperdata-rest-api-overlay.yaml
+  href: https://artifacts.apis.io/pepperdata/overlays/pepperdata-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pepperdata-rest-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/authentication/pepperdata-authentication.yml
+  href: https://artifacts.apis.io/pepperdata/authentication/pepperdata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pepperdata-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/conventions/pepperdata-conventions.yml
+  href: https://artifacts.apis.io/pepperdata/conventions/pepperdata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pepperdata-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/errors/pepperdata-problem-types.yml
+  href: https://artifacts.apis.io/pepperdata/errors/pepperdata-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pepperdata-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/conformance/pepperdata-conformance.yml
+  href: https://artifacts.apis.io/pepperdata/conformance/pepperdata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pepperdata-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/data-model/pepperdata-data-model.yml
+  href: https://artifacts.apis.io/pepperdata/data-model/pepperdata-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pepperdata-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/packages/pepperdata-packages.yml
+  href: https://artifacts.apis.io/pepperdata/packages/pepperdata-packages.yml
   title: ''
   type: Packages
   url: packages/pepperdata-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/mcp/pepperdata-mcp.yml
+  href: https://artifacts.apis.io/pepperdata/mcp/pepperdata-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/pepperdata-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/llms/pepperdata-llms.txt
+  href: https://artifacts.apis.io/pepperdata/llms/pepperdata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pepperdata-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pepperdata/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/security/pepperdata-domain-security.yml
+  href: https://artifacts.apis.io/pepperdata/security/pepperdata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pepperdata-domain-security.yml
@@ -193,7 +192,7 @@ overview: 'Pepperdata is listed with 3 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 6
 score:
   band: thin
-  composite: 31.3
+  composite: 31.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 40.0
@@ -201,15 +200,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 17.7
-    developer_ergonomics: 42.3
-    discoverability: 78.6
-    operational_transparency: 2.6
-  previous_composite: 31.2
+    contract_quality: 14.3
+    developer_ergonomics: 47.0
+    discoverability: 71.4
+    operational_transparency: 5.3
+  previous_composite: 31.7
   provenance:
     conformance: derived
     contracts:
@@ -225,13 +224,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/screenshots/pepperdata-2026-08-17T081155.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pepperdata/pepperdata-2026-08-17T081155.png
 security:
 - kind: authentication
   name: Pepperdata Authentication
@@ -241,6 +241,14 @@ security:
   name: Pepperdata Domain Security
   slug: pepperdata-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Pull Pepperdata job tuning recommendations
+  slug: pepperdata-analyze-job-recommendations
+- name: Create a Pepperdata metric alarm
+  slug: pepperdata-create-alarm
+- name: Query Pepperdata time-series metrics
+  slug: pepperdata-query-metrics
 slug: pepperdata
 tags:
 - Company

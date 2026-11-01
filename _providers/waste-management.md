@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -79,11 +81,8 @@ apis:
   description: Retrieve disposal tickets and summaries.
   name: Waste Management Tickets API
   slug: waste-management-tickets-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Waste Management Customer Cases API
   slug: open-waste-management-cases-api
@@ -110,37 +109,37 @@ collections:
   slug: open-waste-management-tickets-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/plans/waste-management-plans-pricing.yml
+  href: https://artifacts.apis.io/waste-management/plans/waste-management-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/waste-management-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/rate-limits/waste-management-rate-limits.yml
+  href: https://artifacts.apis.io/waste-management/rate-limits/waste-management-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/waste-management-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/finops/waste-management-finops.yml
+  href: https://artifacts.apis.io/waste-management/finops/waste-management-finops.yml
   title: ''
   type: FinOps
   url: finops/waste-management-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/capabilities/waste-management-capability-edges.yml
+  href: https://artifacts.apis.io/waste-management/capabilities/waste-management-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/waste-management-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/agentic-access/waste-management-agentic-access.yml
+  href: https://artifacts.apis.io/waste-management/agentic-access/waste-management-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/waste-management-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/security/waste-management-domain-security.yml
+  href: https://artifacts.apis.io/waste-management/security/waste-management-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/waste-management-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/authentication/waste-management-authentication.yml
+  href: https://artifacts.apis.io/waste-management/authentication/waste-management-authentication.yml
   title: ''
   type: Authentication
   url: authentication/waste-management-authentication.yml
@@ -157,37 +156,37 @@ common:
   type: Portal
   url: https://api.wm.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/openapi/_original/waste-management-customer-api-openapi.yml
+  href: https://artifacts.apis.io/waste-management/openapi/_original/waste-management-customer-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/waste-management-customer-api-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/rules/waste-management-rules.yml
+  href: https://artifacts.apis.io/waste-management/rules/waste-management-rules.yml
   title: ''
   type: SpectralRules
   url: rules/waste-management-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/json-schema/waste-management-service-schema.json
+  href: https://artifacts.apis.io/waste-management/json-schema/waste-management-service-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/waste-management-service-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/json-schema/waste-management-invoice-schema.json
+  href: https://artifacts.apis.io/waste-management/json-schema/waste-management-invoice-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/waste-management-invoice-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/json-structure/waste-management-service-structure.json
+  href: https://artifacts.apis.io/waste-management/json-structure/waste-management-service-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/waste-management-service-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/json-ld/waste-management-context.jsonld
+  href: https://artifacts.apis.io/waste-management/json-ld/waste-management-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/waste-management-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/vocabulary/waste-management-vocabulary.yml
+  href: https://artifacts.apis.io/waste-management/vocabulary/waste-management-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/waste-management-vocabulary.yml
@@ -263,7 +262,7 @@ press:
 - date: ''
   title: WM Announces New, Modernized High-Tech Recycling and ...
   url: https://investors.wm.com/news-releases/news-release-details/wm-announces-new-modernized-high-tech-recycling-and-renewable
-random_paper: 18
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Waste Management Rate Limits
@@ -295,7 +294,7 @@ rules:
   slug: waste-management-rules
 score:
   band: thin
-  composite: 32.0
+  composite: 32.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 56.0
@@ -303,7 +302,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
@@ -311,7 +310,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 64.3
     operational_transparency: 5.3
-  previous_composite: 33.5
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     contracts:
@@ -325,13 +324,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/screenshots/waste-management-2026-06-20T201242.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/waste-management/waste-management-2026-06-20T201242.png
 security:
 - kind: authentication
   name: Waste Management Authentication

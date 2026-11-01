@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: 'Read-only REST API over calls that have finished processing on the Allo-Media platform — transcription, redaction, analysis and tagging complete. Three operations: list calls with date/status filters '
@@ -51,7 +53,7 @@ apis:
 - description: First-party browser JavaScript that performs dynamic number insertion so an inbound phone call can be attributed back to a web session — the mechanism behind the Vocal Cookie lead-attribution product.
   name: Allo-Media Hermes Call Tracking
   slug: allo-media-hermes
-artifact_total: 11
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Allo Media Events
@@ -110,87 +112,87 @@ common:
   type: TermsOfService
   url: https://uh.live/en/legal-notices/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/authentication/allo-media-authentication.yml
+  href: https://artifacts.apis.io/allo-media/authentication/allo-media-authentication.yml
   title: ''
   type: Authentication
   url: authentication/allo-media-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/scopes/allo-media-scopes.yml
+  href: https://artifacts.apis.io/allo-media/scopes/allo-media-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/allo-media-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/well-known/allo-media-openid-configuration.json
+  href: https://artifacts.apis.io/allo-media/well-known/allo-media-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/allo-media-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/conventions/allo-media-conventions.yml
+  href: https://artifacts.apis.io/allo-media/conventions/allo-media-conventions.yml
   title: ''
   type: Conventions
   url: conventions/allo-media-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/errors/allo-media-error-codes.yml
+  href: https://artifacts.apis.io/allo-media/errors/allo-media-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/allo-media-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/lifecycle/allo-media-lifecycle.yml
+  href: https://artifacts.apis.io/allo-media/lifecycle/allo-media-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/allo-media-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/changelog/allo-media-changelog.yml
+  href: https://artifacts.apis.io/allo-media/changelog/allo-media-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/allo-media-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/rate-limits/allo-media-rate-limits.yml
+  href: https://artifacts.apis.io/allo-media/rate-limits/allo-media-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/allo-media-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/plans/allo-media-plans-pricing.yml
+  href: https://artifacts.apis.io/allo-media/plans/allo-media-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/allo-media-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/data-model/allo-media-data-model.yml
+  href: https://artifacts.apis.io/allo-media/data-model/allo-media-data-model.yml
   title: ''
   type: DataModel
   url: data-model/allo-media-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/components/allo-media-components.yml
+  href: https://artifacts.apis.io/allo-media/components/allo-media-components.yml
   title: ''
   type: Components
   url: components/allo-media-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/conformance/allo-media-conformance.yml
+  href: https://artifacts.apis.io/allo-media/conformance/allo-media-conformance.yml
   title: ''
   type: Conformance
   url: conformance/allo-media-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/asyncapi/allo-media-events.yml
+  href: https://artifacts.apis.io/allo-media/asyncapi/allo-media-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/allo-media-events.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/packages/allo-media-packages.yml
+  href: https://artifacts.apis.io/allo-media/packages/allo-media-packages.yml
   title: ''
   type: Packages
   url: packages/allo-media-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/packages/allo-media-packages.yml
+  href: https://artifacts.apis.io/allo-media/packages/allo-media-packages.yml
   title: ''
   type: SDKs
   url: packages/allo-media-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/llms/allo-media-llms.txt
+  href: https://artifacts.apis.io/allo-media/llms/allo-media-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/allo-media-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/well-known/allo-media-well-known.yml
+  href: https://artifacts.apis.io/allo-media/well-known/allo-media-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/allo-media-well-known.yml
@@ -199,7 +201,7 @@ common:
   type: SecurityTxt
   url: https://uh.live/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/security/allo-media-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/allo-media/security/allo-media-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/allo-media-vulnerability-disclosure.yml
@@ -208,12 +210,20 @@ common:
   type: Security
   url: https://uh.live/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/security/allo-media-domain-security.yml
+  href: https://artifacts.apis.io/allo-media/security/allo-media-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/allo-media-domain-security.yml
 created: '2026-08-17'
 description: 'Allo-Media, which now trades as uh!ive, is a French conversational-voice-AI company that transcribes and analyses telephone conversations in real time and in batch. Its platform pairs speech-to-text tuned for 8kHz telephony with named entity recognition and redaction, speech analytics (intent, emotion and compliance tagging) and call tracking, hosted in France. Developers integrate through four surfaces: a read-only Activate REST API over processed calls and their transcripts, a WebSocket Stream API for live human-to-human conversations, an MRCP/WebSocket Stream API for voicebots, and a browser call-tracking script (Hermes), plus SFTP batch ingestion (JUpload) and an HMAC-signed webhook. Authentication is OAuth 2.0 client_credentials against a Keycloak realm; credentials are issued by an account manager rather than self-service.'
+finops:
+- has_sources: true
+  method: derived
+  name: Allo Media Finops
+  primary_unit: ''
+  service_category: ''
+  slug: allo-media-finops
+  template: true
 image: https://avatars.githubusercontent.com/u/30897478?v=4
 layout: provider
 modified: '2026-08-17'
@@ -231,7 +241,7 @@ plans:
 - name: Allo Media Plans Pricing
   plan_count: 0
   slug: allo-media-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Allo Media Rate Limits
@@ -243,22 +253,22 @@ scopes:
   summary_line: 19 scopes · clientCredentials/authorizationCode/deviceCode/password/refreshToken/tokenExchange/jwtBearer/uma/ciba
 score:
   band: developing
-  composite: 50.6
+  composite: 52.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 64.3
-    discoverability: 89.3
-    operational_transparency: 92.1
+    developer_ergonomics: 73.8
+    discoverability: 82.1
+    operational_transparency: 100.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -267,7 +277,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 50.9
+  previous_composite: 52.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -277,14 +287,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 36.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/allo-media/refs/heads/main/screenshots/allo-media-2026-09-02T144117.png
+screenshot: https://apis.io/screenshots/allo-media/allo-media-2026-09-02T144117.png
 security:
 - kind: authentication
   name: Allo Media Authentication

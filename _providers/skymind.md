@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,8 +36,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
-api_count: 2
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.pathmind.com
   baseurl_source: declared
@@ -49,9 +51,6 @@ apis:
   slug: skymind-projects-api
 artifact_total: 7
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Pathmind Model Upload API
   slug: open-skymind-model-upload-api
@@ -68,12 +67,12 @@ common:
   type: Releases
   url: https://github.com/PathmindAI/pathmind-webapp/releases
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skymind/refs/heads/main/skills/skymind-upload-anylogic-model.md
+  href: https://artifacts.apis.io/skymind/skills/skymind-upload-anylogic-model.md
   title: ''
   type: AgentSkill
   url: skills/skymind-upload-anylogic-model.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skymind/refs/heads/main/overlays/skymind-pathmind-overlay.yaml
+  href: https://artifacts.apis.io/skymind/overlays/skymind-pathmind-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/skymind-pathmind-overlay.yaml
@@ -102,42 +101,42 @@ common:
   type: APIReference
   url: https://github.com/PathmindAI/pathmind-webapp/blob/dev/pathmind-api/src/main/resources/openapi.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/skymind/refs/heads/main/packages/skymind-packages.yml
+  href: https://artifacts.apis.io/skymind/packages/skymind-packages.yml
   title: ''
   type: Packages
   url: packages/skymind-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/skymind/refs/heads/main/packages/skymind-packages.yml
+  href: https://artifacts.apis.io/skymind/packages/skymind-packages.yml
   title: ''
   type: SDKs
   url: packages/skymind-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skymind/refs/heads/main/well-known/skymind-well-known.yml
+  href: https://artifacts.apis.io/skymind/well-known/skymind-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/skymind-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skymind/refs/heads/main/llms/skymind-llms.txt
+  href: https://artifacts.apis.io/skymind/llms/skymind-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/skymind-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skymind/refs/heads/main/conformance/skymind-conformance.yml
+  href: https://artifacts.apis.io/skymind/conformance/skymind-conformance.yml
   title: ''
   type: Conformance
   url: conformance/skymind-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skymind/refs/heads/main/lifecycle/skymind-lifecycle.yml
+  href: https://artifacts.apis.io/skymind/lifecycle/skymind-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/skymind-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/skymind/refs/heads/main/changelog/skymind-changelog.yml
+  href: https://artifacts.apis.io/skymind/changelog/skymind-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/skymind-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skymind/refs/heads/main/security/skymind-domain-security.yml
+  href: https://artifacts.apis.io/skymind/security/skymind-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skymind-domain-security.yml
@@ -158,7 +157,7 @@ overview: 'Pathmind publishes 2 API contracts indexed on the [APIs.io](https://a
 
 
   Pathmind''s developer surface includes documentation, API reference, changelog, and 16 more developer resources.'
-random_paper: 19
+random_paper: 23
 score:
   band: minimal
   composite: 0.0
@@ -178,9 +177,6 @@ score:
     discoverability: 0.0
     operational_transparency: 0.0
   lifecycle: defunct
-  open_source:
-    applies: true
-    score: 0.0
   previous_composite: 0.0
   provenance:
     conformance: derived
@@ -196,13 +192,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/skymind/refs/heads/main/screenshots/skymind-2026-09-02T155819.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/skymind/skymind-2026-09-02T155819.png
 security:
 - kind: authentication
   name: Skymind Authentication
@@ -212,6 +209,10 @@ security:
   name: Skymind Domain Security
   slug: skymind-domain-security
   summary_line: TLSv1.3
+skill_count: 1
+skills:
+- name: Upload an AnyLogic model to Pathmind
+  slug: skymind-upload-anylogic-model
 slug: skymind
 tags:
 - Company

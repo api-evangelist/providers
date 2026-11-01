@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,6 +72,31 @@ apis:
   description: Operations for registering and deregistering targets
   name: Amazon Elastic Load Balancing Targets API
   slug: amazon-elastic-load-balancing-targets-api
+- baseURL: https://elasticloadbalancing.amazonaws.com
+  baseurl_source: declared
+  description: The Elastic Load Balancing Listener Certificate API from Amazon Elastic Load Balancing — 3 operation(s) for elastic load balancing listener certificate.
+  name: Amazon Elastic Load Balancing Elastic Load Balancing Listener Certificate API
+  slug: amazon-elastic-load-balancing-listener-certificate-api
+- baseURL: https://elasticloadbalancing.amazonaws.com
+  baseurl_source: declared
+  description: The Elastic Load Balancing Operations API from Amazon Elastic Load Balancing — 21 operation(s) for elastic load balancing operations.
+  name: Amazon Elastic Load Balancing Elastic Load Balancing Operations API
+  slug: amazon-elastic-load-balancing-operations-api
+- baseURL: https://elasticloadbalancing.amazonaws.com
+  baseurl_source: declared
+  description: The Elastic Load Balancing Tag API from Amazon Elastic Load Balancing — 3 operation(s) for elastic load balancing tag.
+  name: Amazon Elastic Load Balancing Elastic Load Balancing Tag API
+  slug: amazon-elastic-load-balancing-tag-api
+- baseURL: https://elasticloadbalancing.amazonaws.com
+  baseurl_source: declared
+  description: The Elastic Load Balancing Trust Store API from Amazon Elastic Load Balancing — 4 operation(s) for elastic load balancing trust store.
+  name: Amazon Elastic Load Balancing Elastic Load Balancing Trust Store API
+  slug: amazon-elastic-load-balancing-trust-store-api
+- baseURL: https://elasticloadbalancing.amazonaws.com
+  baseurl_source: declared
+  description: The Elastic Load Balancing Trust Store Revocation API from Amazon Elastic Load Balancing — 3 operation(s) for elastic load balancing trust store revocation.
+  name: Amazon Elastic Load Balancing Elastic Load Balancing Trust Store Revocation API
+  slug: amazon-elastic-load-balancing-trust-store-revocation-api
 arazzos:
 - description: Create a target group and attach a host-header rule to an existing listener.
   name: Amazon Elastic Load Balancing Add a Host-Based Routing Rule
@@ -104,14 +131,11 @@ arazzos:
 - description: Resolve a load balancer by name and apply an attribute change.
   name: Amazon Elastic Load Balancing Tune Load Balancer Attributes
   slug: amazon-elastic-load-balancing-tune-load-balancer-attributes-workflow
-artifact_total: 92
+artifact_total: 96
 collections:
 - collection_type: postman
   name: Amazon Elastic Load Balancing v2 API
   slug: postman-amazon-elastic-load-balancing
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Elastic Load Balancing v2 Listeners API
   slug: open-amazon-elastic-load-balancing-listeners-api
@@ -132,12 +156,12 @@ collections:
   slug: open-amazon-elastic-load-balancing
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/rate-limits/amazon-elastic-load-balancing-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/rate-limits/amazon-elastic-load-balancing-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-elastic-load-balancing-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/finops/amazon-elastic-load-balancing-finops.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/finops/amazon-elastic-load-balancing-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-elastic-load-balancing-finops.yml
@@ -146,7 +170,7 @@ common:
   type: Pricing
   url: https://aws.amazon.com/elasticloadbalancing/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/plans/amazon-elastic-load-balancing-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/plans/amazon-elastic-load-balancing-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-elastic-load-balancing-plans-pricing.yml
@@ -155,32 +179,32 @@ common:
   type: Website
   url: https://aws.amazon.com/elasticloadbalancing/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/capabilities/amazon-elastic-load-balancing-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/capabilities/amazon-elastic-load-balancing-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-elastic-load-balancing-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/agentic-access/amazon-elastic-load-balancing-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/agentic-access/amazon-elastic-load-balancing-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-elastic-load-balancing-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/security/amazon-elastic-load-balancing-trust-center.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/security/amazon-elastic-load-balancing-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-elastic-load-balancing-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/security/amazon-elastic-load-balancing-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/security/amazon-elastic-load-balancing-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-elastic-load-balancing-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/security/amazon-elastic-load-balancing-domain-security.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/security/amazon-elastic-load-balancing-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-elastic-load-balancing-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/authentication/amazon-elastic-load-balancing-authentication.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/authentication/amazon-elastic-load-balancing-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-elastic-load-balancing-authentication.yml
@@ -189,57 +213,57 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-elastic-load-balancing/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/arazzo/amazon-elastic-load-balancing-add-host-based-routing-rule-workflow.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/arazzo/amazon-elastic-load-balancing-add-host-based-routing-rule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-elastic-load-balancing-add-host-based-routing-rule-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/arazzo/amazon-elastic-load-balancing-add-listener-to-existing-load-balancer-workflow.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/arazzo/amazon-elastic-load-balancing-add-listener-to-existing-load-balancer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-elastic-load-balancing-add-listener-to-existing-load-balancer-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/arazzo/amazon-elastic-load-balancing-add-path-maintenance-rule-workflow.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/arazzo/amazon-elastic-load-balancing-add-path-maintenance-rule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-elastic-load-balancing-add-path-maintenance-rule-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/arazzo/amazon-elastic-load-balancing-audit-load-balancer-configuration-workflow.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/arazzo/amazon-elastic-load-balancing-audit-load-balancer-configuration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-elastic-load-balancing-audit-load-balancer-configuration-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/arazzo/amazon-elastic-load-balancing-decommission-load-balancer-workflow.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/arazzo/amazon-elastic-load-balancing-decommission-load-balancer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-elastic-load-balancing-decommission-load-balancer-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/arazzo/amazon-elastic-load-balancing-drain-and-deregister-target-workflow.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/arazzo/amazon-elastic-load-balancing-drain-and-deregister-target-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-elastic-load-balancing-drain-and-deregister-target-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/arazzo/amazon-elastic-load-balancing-poll-target-health-until-healthy-workflow.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/arazzo/amazon-elastic-load-balancing-poll-target-health-until-healthy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-elastic-load-balancing-poll-target-health-until-healthy-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/arazzo/amazon-elastic-load-balancing-provision-application-load-balancer-workflow.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/arazzo/amazon-elastic-load-balancing-provision-application-load-balancer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-elastic-load-balancing-provision-application-load-balancer-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/arazzo/amazon-elastic-load-balancing-provision-network-load-balancer-workflow.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/arazzo/amazon-elastic-load-balancing-provision-network-load-balancer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-elastic-load-balancing-provision-network-load-balancer-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/arazzo/amazon-elastic-load-balancing-register-targets-and-check-health-workflow.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/arazzo/amazon-elastic-load-balancing-register-targets-and-check-health-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-elastic-load-balancing-register-targets-and-check-health-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/arazzo/amazon-elastic-load-balancing-tune-load-balancer-attributes-workflow.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/arazzo/amazon-elastic-load-balancing-tune-load-balancer-attributes-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-elastic-load-balancing-tune-load-balancer-attributes-workflow.yml
@@ -320,12 +344,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/rules/amazon-elastic-load-balancing-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/rules/amazon-elastic-load-balancing-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-elastic-load-balancing-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/vocabulary/amazon-elastic-load-balancing-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-elastic-load-balancing/vocabulary/amazon-elastic-load-balancing-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-elastic-load-balancing-vocabulary.yaml
@@ -392,13 +416,13 @@ features:
 - description: Offload SSL/TLS decryption from application servers
   name: SSL/TLS Termination
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Elastic Load Balancing Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: load balancer-hour
+  service_category: ''
   slug: amazon-elastic-load-balancing-finops
-  template: true
+  template: false
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: Action
@@ -508,7 +532,7 @@ modified: '2026-09-16'
 name: Amazon Elastic Load Balancing
 nav: Providers
 network: true
-overview: 'Amazon Elastic Load Balancing publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Listeners API, Load Balancers API, Rules API, and 2 more. Tagged areas include Amazon Web Services, High Availability, Load Balancing, Networking, and Scalability.
+overview: 'Amazon Elastic Load Balancing publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Listeners API, Load Balancers API, Rules API, and 7 more. Tagged areas include Amazon Web Services, High Availability, Load Balancing, Networking, and Scalability.
 
 
   The Amazon Elastic Load Balancing catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -519,7 +543,7 @@ plans:
 - name: Amazon Elastic Load Balancing Plans Pricing
   plan_count: 9
   slug: amazon-elastic-load-balancing-plans-pricing
-random_paper: 5
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Amazon Elastic Load Balancing Rate Limits
@@ -549,45 +573,50 @@ rules:
     warn: 14
   slug: amazon-elastic-load-balancing-spectral-rules
 score:
-  band: strong
-  composite: 64.3
+  band: exemplar
+  composite: 68.0
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 75.0
+    artifact_dirs: 22
+    catalog_earned: 78.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 40.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.5
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 27.3
-    contract_quality: 62.8
+    contract_quality: 64.4
     developer_ergonomics: 65.5
     discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 65.8
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 5
+      marker_coverage: 50.0
+      total: 10
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/screenshots/amazon-elastic-load-balancing-2026-06-20T171649.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-elastic-load-balancing/amazon-elastic-load-balancing-2026-06-20T171649.png
 security:
 - kind: authentication
   name: Amazon Elastic Load Balancing Authentication

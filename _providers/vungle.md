@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: 'Automated access to Vungle/Liftoff campaign performance reports — impressions, clicks, installs, and in-app events — with configurable groupings, metrics, and cohort (look-back window) analysis. HTTP '
@@ -59,7 +61,7 @@ asyncapis:
   slug: vungle-s2s-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vungle/refs/heads/main/security/vungle-domain-security.yml
+  href: https://artifacts.apis.io/vungle/security/vungle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vungle-domain-security.yml
@@ -80,67 +82,67 @@ common:
   type: GettingStarted
   url: https://docs.liftoff.io/advertiser
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vungle/refs/heads/main/authentication/vungle-authentication.yml
+  href: https://artifacts.apis.io/vungle/authentication/vungle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vungle-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vungle/refs/heads/main/conventions/vungle-conventions.yml
+  href: https://artifacts.apis.io/vungle/conventions/vungle-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vungle-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vungle/refs/heads/main/errors/vungle-error-codes.yml
+  href: https://artifacts.apis.io/vungle/errors/vungle-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/vungle-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vungle/refs/heads/main/rate-limits/vungle-rate-limits.yml
+  href: https://artifacts.apis.io/vungle/rate-limits/vungle-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vungle-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vungle/refs/heads/main/lifecycle/vungle-lifecycle.yml
+  href: https://artifacts.apis.io/vungle/lifecycle/vungle-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vungle-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/vungle/refs/heads/main/sandbox/vungle-sandbox.yml
+  href: https://artifacts.apis.io/vungle/sandbox/vungle-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/vungle-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vungle/refs/heads/main/packages/vungle-packages.yml
+  href: https://artifacts.apis.io/vungle/packages/vungle-packages.yml
   title: ''
   type: Packages
   url: packages/vungle-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vungle/refs/heads/main/packages/vungle-packages.yml
+  href: https://artifacts.apis.io/vungle/packages/vungle-packages.yml
   title: ''
   type: SDKs
   url: packages/vungle-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vungle/refs/heads/main/mcp/vungle-mcp.yml
+  href: https://artifacts.apis.io/vungle/mcp/vungle-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vungle-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vungle/refs/heads/main/llms/vungle-llms.txt
+  href: https://artifacts.apis.io/vungle/llms/vungle-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vungle-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vungle/refs/heads/main/conformance/vungle-conformance.yml
+  href: https://artifacts.apis.io/vungle/conformance/vungle-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vungle-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vungle/refs/heads/main/data-model/vungle-data-model.yml
+  href: https://artifacts.apis.io/vungle/data-model/vungle-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vungle-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vungle/refs/heads/main/asyncapi/vungle-s2s-webhooks.yml
+  href: https://artifacts.apis.io/vungle/asyncapi/vungle-s2s-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vungle-s2s-webhooks.yml
@@ -175,14 +177,14 @@ overview: 'Vungle is listed with 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Vungle''s developer surface includes documentation, getting-started guide, authentication, sandbox, engineering blog, and 17 more developer resources.'
-random_paper: 19
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Vungle Rate Limits
   slug: vungle-rate-limits
 score:
   band: developing
-  composite: 39.8
+  composite: 39.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 48.0
@@ -190,15 +192,15 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 59.5
-    discoverability: 78.6
-    operational_transparency: 31.6
-  previous_composite: 39.7
+    discoverability: 71.4
+    operational_transparency: 34.2
+  previous_composite: 39.4
   provenance:
     conformance: derived
     mcp: derived
@@ -212,14 +214,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vungle/refs/heads/main/screenshots/vungle-2026-09-02T170329.png
+screenshot: https://apis.io/screenshots/vungle/vungle-2026-09-02T170329.png
 security:
 - kind: authentication
   name: Vungle Authentication

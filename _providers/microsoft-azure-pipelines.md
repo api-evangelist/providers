@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -120,9 +122,6 @@ collections:
   name: Azure Pipelines Build REST Artifacts Runs API
   slug: postman-microsoft-azure-pipelines-runs-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Azure Pipelines Build REST API
   slug: open-azure-pipelines-build-api
 - collection_type: open
@@ -154,22 +153,22 @@ collections:
   slug: open-microsoft-azure-pipelines-runs-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/plans/microsoft-azure-pipelines-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-azure-pipelines/plans/microsoft-azure-pipelines-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-azure-pipelines-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/rate-limits/microsoft-azure-pipelines-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-azure-pipelines/rate-limits/microsoft-azure-pipelines-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-azure-pipelines-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/finops/microsoft-azure-pipelines-finops.yml
+  href: https://artifacts.apis.io/microsoft-azure-pipelines/finops/microsoft-azure-pipelines-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-azure-pipelines-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/capabilities/microsoft-azure-pipelines-capability-edges.yml
+  href: https://artifacts.apis.io/microsoft-azure-pipelines/capabilities/microsoft-azure-pipelines-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-azure-pipelines-capability-edges.yml
@@ -190,17 +189,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/azure-pipelines/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/agentic-access/microsoft-azure-pipelines-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-azure-pipelines/agentic-access/microsoft-azure-pipelines-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-pipelines-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/security/microsoft-azure-pipelines-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-azure-pipelines/security/microsoft-azure-pipelines-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-pipelines-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/authentication/microsoft-azure-pipelines-authentication.yml
+  href: https://artifacts.apis.io/microsoft-azure-pipelines/authentication/microsoft-azure-pipelines-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-pipelines-authentication.yml
@@ -292,10 +291,10 @@ created: '2024'
 description: Azure Pipelines is a cloud service that you can use to automatically build and test your code project and make it available to other users. It works with just about any language or project type.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Microsoft Azure Pipelines Finops
-  primary_unit: ''
-  service_category: Developer Tools / CI-CD
+  primary_unit: parallel job
+  service_category: ''
   slug: microsoft-azure-pipelines-finops
   template: false
 image: https://azure.microsoft.com/svghandler/devops/?width=600&height=315
@@ -310,32 +309,35 @@ overview: 'Azure Pipelines publishes 11 API contracts indexed on the [APIs.io](h
   Azure Pipelines'' developer surface includes authentication, getting-started guide, developer portal, pricing, engineering blog, documentation, signup flow, and 25 more developer resources.'
 plans:
 - name: Microsoft Azure Pipelines Plans Pricing
-  plan_count: 6
+  plan_count: 7
   slug: microsoft-azure-pipelines-plans-pricing
-random_paper: 18
+- name: Microsoft Azure Pipelines Price Estimates
+  plan_count: 0
+  slug: microsoft-azure-pipelines-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Pipelines Rate Limits
   slug: microsoft-azure-pipelines-rate-limits
 score:
-  band: developing
-  composite: 48.4
+  band: strong
+  composite: 55.8
   coverage:
     artifact_dirs: 14
-    catalog_earned: 38.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_earned: 50.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 0.0
     contract_quality: 51.9
     developer_ergonomics: 58.3
     discoverability: 64.3
-    operational_transparency: 52.6
-  previous_composite: 49.9
+    operational_transparency: 55.3
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     contracts:
@@ -349,13 +351,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/screenshots/microsoft-azure-pipelines-2026-06-20T185430.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-azure-pipelines/microsoft-azure-pipelines-2026-06-20T185430.png
 security:
 - kind: authentication
   name: Microsoft Azure Pipelines Authentication

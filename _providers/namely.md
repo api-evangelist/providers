@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.3
-  scored_at: '2026-10-17'
+  score: 25.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://{company}.namely.com/api/v1
@@ -135,19 +137,19 @@ apis:
   description: The Teams API from Namely — 1 operation(s) for teams.
   name: Namely Teams API
   slug: namely-teams-api
-artifact_total: 23
+artifact_total: 26
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://namely.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/capabilities/namely-capability-edges.yml
+  href: https://artifacts.apis.io/namely/capabilities/namely-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/namely-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/security/namely-domain-security.yml
+  href: https://artifacts.apis.io/namely/security/namely-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/namely-domain-security.yml
@@ -172,7 +174,7 @@ common:
   type: GettingStarted
   url: https://developers.namely.com/docs/namely-api/72f9086e4f0e7-introduction
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/authentication/namely-authentication.yml
+  href: https://artifacts.apis.io/namely/authentication/namely-authentication.yml
   title: ''
   type: Authentication
   url: authentication/namely-authentication.yml
@@ -209,72 +211,72 @@ common:
   type: StatusPage
   url: https://status.namely.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/changelog/namely-changelog.yml
+  href: https://artifacts.apis.io/namely/changelog/namely-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/namely-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/lifecycle/namely-lifecycle.yml
+  href: https://artifacts.apis.io/namely/lifecycle/namely-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/namely-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/conventions/namely-conventions.yml
+  href: https://artifacts.apis.io/namely/conventions/namely-conventions.yml
   title: ''
   type: Conventions
   url: conventions/namely-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/conformance/namely-conformance.yml
+  href: https://artifacts.apis.io/namely/conformance/namely-conformance.yml
   title: ''
   type: Conformance
   url: conformance/namely-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/data-model/namely-data-model.yml
+  href: https://artifacts.apis.io/namely/data-model/namely-data-model.yml
   title: ''
   type: DataModel
   url: data-model/namely-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/errors/namely-problem-types.yml
+  href: https://artifacts.apis.io/namely/errors/namely-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/namely-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/rate-limits/namely-rate-limits.yml
+  href: https://artifacts.apis.io/namely/rate-limits/namely-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/namely-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/plans/namely-plans-pricing.yml
+  href: https://artifacts.apis.io/namely/plans/namely-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/namely-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/packages/namely-packages.yml
+  href: https://artifacts.apis.io/namely/packages/namely-packages.yml
   title: ''
   type: Packages
   url: packages/namely-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/packages/namely-packages.yml
+  href: https://artifacts.apis.io/namely/packages/namely-packages.yml
   title: ''
   type: SDKs
   url: packages/namely-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/sandbox/namely-sandbox.yml
+  href: https://artifacts.apis.io/namely/sandbox/namely-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/namely-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/mcp/namely-mcp.yml
+  href: https://artifacts.apis.io/namely/mcp/namely-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/namely-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/namely/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/overlays/namely-api-overlay.yaml
+  href: https://artifacts.apis.io/namely/overlays/namely-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/namely-api-overlay.yaml
@@ -283,13 +285,21 @@ common:
   type: LLMsTxt
   url: https://namely.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/llms/namely-llms.txt
+  href: https://artifacts.apis.io/namely/llms/namely-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/namely-llms.txt
 created: '2026-08-26'
 description: Namely is a mid-market Human Capital Management (HCM) platform combining HR, payroll, onboarding, benefits administration, time and attendance, performance management and applicant tracking, delivered as a multi-tenant SaaS on customer subdomains. It publishes a public developer portal on Stoplight carrying a Swagger 2.0 contract for its REST API v1 (39 paths, 54 operations, 95 schemas) covering employee profiles, the tenant-specific profile field schema, groups and teams, job titles and tiers, company resources, the social home feed, notifications and reports. Alongside the REST API, Namely runs a SCIM 2.0 provisioning surface acting as the source of record for identity providers such as Okta, and supports SAML 2.0 single sign-on as a service provider. Authentication is either a 3-legged OAuth 2.0 authorization code grant for partner integrations or a Personal Access Token for a customer's own integrations, both minted inside the customer's own tenant. Namely merged into the
   combined Vensure Employer Solutions / PrismHR organisation in September 2022.
+finops:
+- has_sources: true
+  method: derived
+  name: Namely Finops
+  primary_unit: employee
+  service_category: ''
+  slug: namely-finops
+  template: false
 image: https://namely.com/wp-content/uploads/2023/11/Namely.svg
 layout: provider
 modified: '2026-10-06'
@@ -304,30 +314,35 @@ plans:
 - name: Namely Plans Pricing
   plan_count: 4
   slug: namely-plans-pricing
-random_paper: 8
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Namely Rate Limits
   slug: namely-rate-limits
 score:
   band: strong
-  composite: 56.4
+  composite: 59.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 57.0
+    artifact_dirs: 24
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 43.9
+    contract_quality: 39.5
     developer_ergonomics: 73.2
     discoverability: 73.2
-    operational_transparency: 55.3
-  previous_composite: 56.4
+    operational_transparency: 57.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 57.7
   provenance:
     conformance: first-party
     contracts:
@@ -343,13 +358,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/screenshots/namely-2026-09-02T150721.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/namely/namely-2026-09-02T150721.png
 security:
 - kind: authentication
   name: Namely Authentication
@@ -359,6 +375,12 @@ security:
   name: Namely Domain Security
   slug: namely-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: namely-employee-directory-sync
+  slug: namely-employee-directory-sync
+- name: namely-profile-schema-management
+  slug: namely-profile-schema-management
 slug: namely
 tags:
 - Human Resources

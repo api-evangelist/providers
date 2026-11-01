@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Neptune REST API backs the Neptune Python client. It exposes runs, projects, fields, and metadata logging. Authentication uses an API token from the user profile.
@@ -65,7 +67,7 @@ common:
   type: License
   url: https://github.com/neptune-ai/neptune-client/blob/master/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/neptune-ai/refs/heads/main/security/neptune-ai-domain-security.yml
+  href: https://artifacts.apis.io/neptune-ai/security/neptune-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/neptune-ai-domain-security.yml
@@ -86,17 +88,17 @@ common:
   type: SourceCode
   url: https://github.com/neptune-ai/neptune-client
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/neptune-ai/refs/heads/main/plans/neptune-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/neptune-ai/plans/neptune-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/neptune-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/neptune-ai/refs/heads/main/rate-limits/neptune-ai-rate-limits.yml
+  href: https://artifacts.apis.io/neptune-ai/rate-limits/neptune-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/neptune-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/neptune-ai/refs/heads/main/finops/neptune-ai-finops.yml
+  href: https://artifacts.apis.io/neptune-ai/finops/neptune-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/neptune-ai-finops.yml
@@ -121,47 +123,44 @@ plans:
 - name: Neptune Ai Plans Pricing
   plan_count: 1
   slug: neptune-ai-plans-pricing
-random_paper: 2
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Neptune Ai Rate Limits
   slug: neptune-ai-rate-limits
 score:
   band: emerging
-  composite: 14.6
+  composite: 13.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
+    developer_ergonomics: 16.7
     discoverability: 66.1
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 40.0
-  previous_composite: 16.4
+  previous_composite: 13.9
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/neptune-ai/refs/heads/main/screenshots/neptune-ai-2026-06-20T190137.png
+screenshot: https://apis.io/screenshots/neptune-ai/neptune-ai-2026-06-20T190137.png
 security:
 - kind: domain-security
   name: Neptune Ai Domain Security

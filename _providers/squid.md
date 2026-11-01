@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,11 +75,8 @@ apis:
   description: Cache operational commands
   name: Squid Operations API
   slug: squid-operations-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Squid Cache Manager API
   slug: open-squid-cache-manager
@@ -98,32 +97,32 @@ collections:
   slug: open-squid-operations-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/plans/squid-plans-pricing.yml
+  href: https://artifacts.apis.io/squid/plans/squid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/squid-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/rate-limits/squid-rate-limits.yml
+  href: https://artifacts.apis.io/squid/rate-limits/squid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/squid-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/finops/squid-finops.yml
+  href: https://artifacts.apis.io/squid/finops/squid-finops.yml
   title: ''
   type: FinOps
   url: finops/squid-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/agentic-access/squid-agentic-access.yml
+  href: https://artifacts.apis.io/squid/agentic-access/squid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/squid-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/security/squid-domain-security.yml
+  href: https://artifacts.apis.io/squid/security/squid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/squid-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/authentication/squid-authentication.yml
+  href: https://artifacts.apis.io/squid/authentication/squid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/squid-authentication.yml
@@ -188,7 +187,7 @@ finops:
 - has_sources: false
   method: generated
   name: Squid Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: squid-finops
   template: true
@@ -222,7 +221,7 @@ plans:
 - name: Squid Plans Pricing
   plan_count: 3
   slug: squid-plans-pricing
-random_paper: 0
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Squid Rate Limits
@@ -253,7 +252,7 @@ rules:
   slug: squid-rules
 score:
   band: thin
-  composite: 34.2
+  composite: 34.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 60.4
@@ -261,15 +260,15 @@ score:
     catalog_gap: 54.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 53.2
     developer_ergonomics: 33.3
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 35.7
+    operational_transparency: 28.9
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -283,14 +282,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/screenshots/squid-2026-06-20T194428.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/squid/squid-2026-06-20T194428.png
 security:
 - kind: authentication
   name: Squid Authentication

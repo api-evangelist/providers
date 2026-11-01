@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/juno-journey/refs/heads/main/plans/juno-journey-plans-pricing.yml
+  href: https://artifacts.apis.io/juno-journey/plans/juno-journey-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/juno-journey-plans-pricing.yml
@@ -82,7 +84,7 @@ common:
   type: Compliance
   url: https://trust.junojourney.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/juno-journey/refs/heads/main/security/juno-journey-trust-center.yml
+  href: https://artifacts.apis.io/juno-journey/security/juno-journey-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/juno-journey-trust-center.yml
@@ -102,40 +104,40 @@ plans:
 - name: Juno Journey Plans Pricing
   plan_count: 7
   slug: juno-journey-plans-pricing
-random_paper: 15
+random_paper: 21
 score:
   band: emerging
-  composite: 23.4
+  composite: 25.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 0.0
   facets:
-    access_clarity: 85.5
+    access_clarity: 92.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 7.9
-  previous_composite: 17.0
+    operational_transparency: 15.8
+  previous_composite: 25.7
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Education & Research
     regime_id: education
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/juno-journey/refs/heads/main/screenshots/juno-journey-2026-07-25T223331.png
+screenshot: https://apis.io/screenshots/juno-journey/juno-journey-2026-07-25T223331.png
 security:
 - kind: trust-center
   name: Juno Journey Trust Center

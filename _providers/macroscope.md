@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.6
-  scored_at: '2026-10-17'
+  score: 30.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://hooks.macroscope.com
@@ -49,9 +51,6 @@ asyncapis:
   slug: macroscope-webhooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Macroscope Agent Webhook Workspaces API
   slug: open-macroscope-workspaces-api
 common:
@@ -64,17 +63,17 @@ common:
   type: Website
   url: https://www.macroscope.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/mcp/macroscope-mcp.yml
+  href: https://artifacts.apis.io/macroscope/mcp/macroscope-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/macroscope-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/overlays/macroscope-webhook-api-overlay.yaml
+  href: https://artifacts.apis.io/macroscope/overlays/macroscope-webhook-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/macroscope-webhook-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/security/macroscope-domain-security.yml
+  href: https://artifacts.apis.io/macroscope/security/macroscope-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/macroscope-domain-security.yml
@@ -115,37 +114,37 @@ common:
   type: ChangeLog
   url: https://docs.macroscope.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/changelog/macroscope-changelog.yml
+  href: https://artifacts.apis.io/macroscope/changelog/macroscope-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/macroscope-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/lifecycle/macroscope-lifecycle.yml
+  href: https://artifacts.apis.io/macroscope/lifecycle/macroscope-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/macroscope-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/llms/macroscope-llms.txt
+  href: https://artifacts.apis.io/macroscope/llms/macroscope-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/macroscope-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/packages/macroscope-packages.yml
+  href: https://artifacts.apis.io/macroscope/packages/macroscope-packages.yml
   title: ''
   type: Packages
   url: packages/macroscope-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/cli/macroscope-cli.yml
+  href: https://artifacts.apis.io/macroscope/cli/macroscope-cli.yml
   title: ''
   type: CLI
   url: cli/macroscope-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/well-known/macroscope-well-known.yml
+  href: https://artifacts.apis.io/macroscope/well-known/macroscope-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/macroscope-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/skills/macroscope-weekly-changes-digest.md
+  href: https://artifacts.apis.io/macroscope/skills/macroscope-weekly-changes-digest.md
   title: ''
   type: AgentSkill
   url: skills/macroscope-weekly-changes-digest.md
@@ -167,23 +166,23 @@ overview: 'Macroscope publishes 1 API contract indexed on the [APIs.io](https://
 random_paper: 12
 score:
   band: thin
-  composite: 34.3
+  composite: 34.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 22.1
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 33.7
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 34.6
   provenance:
     conformance: derived
     contracts:
@@ -199,13 +198,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/screenshots/macroscope-2026-07-25T225824.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/macroscope/macroscope-2026-07-25T225824.png
 security:
 - kind: authentication
   name: Macroscope Authentication
@@ -215,6 +215,10 @@ security:
   name: Macroscope Domain Security
   slug: macroscope-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: macroscope-weekly-changes-digest
+  slug: macroscope-weekly-changes-digest
 slug: macroscope
 tags:
 - Company

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evenup/refs/heads/main/security/evenup-trust-center.yml
+  href: https://artifacts.apis.io/evenup/security/evenup-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/evenup-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evenup/refs/heads/main/security/evenup-domain-security.yml
+  href: https://artifacts.apis.io/evenup/security/evenup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/evenup-domain-security.yml
@@ -94,10 +96,10 @@ overview: 'EvenUp is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   EvenUp''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 21
+random_paper: 11
 score:
   band: minimal
-  composite: 6.4
+  composite: 6.5
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -111,23 +113,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 49.1
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 6.4
+  previous_composite: 6.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/evenup/refs/heads/main/screenshots/evenup-2026-06-20T180904.png
+screenshot: https://apis.io/screenshots/evenup/evenup-2026-06-20T180904.png
 security:
 - kind: domain-security
   name: Evenup Domain Security

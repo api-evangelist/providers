@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 60.2
-  scored_at: '2026-10-17'
+  score: 55.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -46,7 +48,7 @@ agentic_access:
   operation_count: 57
   slug: memo-bank-agentic-access
   summary_line: 57 operations · 24 acting
-api_count: 5
+api_count: 3
 apis:
 - baseURL: https://api.memo.bank
   baseurl_source: declared
@@ -123,49 +125,49 @@ apis:
   description: OAuth2 token management endpoints.
   name: Memo Bank O Auth2 API
   slug: memo-bank-oauth2-api
-artifact_total: 70
+artifact_total: 79
 asyncapis:
 - description: ''
   name: Memo Bank Webhooks
   slug: memo-bank-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/agentic-access/memo-bank-agentic-access.yml
+  href: https://artifacts.apis.io/memo-bank/agentic-access/memo-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/memo-bank-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/rules/memo-bank-rules.yml
+  href: https://artifacts.apis.io/memo-bank/rules/memo-bank-rules.yml
   title: ''
   type: Spectral
   url: rules/memo-bank-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/json-ld/memo-bank-context.jsonld
+  href: https://artifacts.apis.io/memo-bank/json-ld/memo-bank-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/memo-bank-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/vocabulary/memo-bank-vocabulary.yml
+  href: https://artifacts.apis.io/memo-bank/vocabulary/memo-bank-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/memo-bank-vocabulary.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/security/memo-bank-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/memo-bank/security/memo-bank-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/memo-bank-vulnerability-disclosure.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/hosts/memo-bank-hosts.yml
+  href: https://artifacts.apis.io/memo-bank/hosts/memo-bank-hosts.yml
   title: ''
   type: Hosts
   url: hosts/memo-bank-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/integrations/memo-bank-integration-edges.yml
+  href: https://artifacts.apis.io/memo-bank/integrations/memo-bank-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/memo-bank-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/vendors/memo-bank-vendors.yml
+  href: https://artifacts.apis.io/memo-bank/vendors/memo-bank-vendors.yml
   title: ''
   type: Vendors
   url: vendors/memo-bank-vendors.yml
@@ -174,27 +176,27 @@ common:
   type: Newsroom
   url: https://memo.bank/en/news/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/capabilities/memo-bank-capability-edges.yml
+  href: https://artifacts.apis.io/memo-bank/capabilities/memo-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/memo-bank-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/overlays/memo-bank-premium-bank-api-overlay.yaml
+  href: https://artifacts.apis.io/memo-bank/overlays/memo-bank-premium-bank-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/memo-bank-premium-bank-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/overlays/memo-bank-marketplace-api-overlay.yaml
+  href: https://artifacts.apis.io/memo-bank/overlays/memo-bank-marketplace-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/memo-bank-marketplace-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/overlays/memo-bank-nextgenpsd2-api-overlay.yaml
+  href: https://artifacts.apis.io/memo-bank/overlays/memo-bank-nextgenpsd2-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/memo-bank-nextgenpsd2-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/security/memo-bank-domain-security.yml
+  href: https://artifacts.apis.io/memo-bank/security/memo-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/memo-bank-domain-security.yml
@@ -263,52 +265,52 @@ common:
   type: ChangeLog
   url: https://docs.api.memo.bank/changes
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/mcp/memo-bank-mcp.yml
+  href: https://artifacts.apis.io/memo-bank/mcp/memo-bank-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/memo-bank-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/llms/memo-bank-llms.txt
+  href: https://artifacts.apis.io/memo-bank/llms/memo-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/memo-bank-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/well-known/memo-bank-well-known.yml
+  href: https://artifacts.apis.io/memo-bank/well-known/memo-bank-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/memo-bank-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/authentication/memo-bank-authentication.yml
+  href: https://artifacts.apis.io/memo-bank/authentication/memo-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/memo-bank-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/scopes/memo-bank-scopes.yml
+  href: https://artifacts.apis.io/memo-bank/scopes/memo-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/memo-bank-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/conventions/memo-bank-conventions.yml
+  href: https://artifacts.apis.io/memo-bank/conventions/memo-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/memo-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/conventions/memo-bank-conventions.yml
+  href: https://artifacts.apis.io/memo-bank/conventions/memo-bank-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/memo-bank-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/rate-limits/memo-bank-rate-limits.yml
+  href: https://artifacts.apis.io/memo-bank/rate-limits/memo-bank-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/memo-bank-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/plans/memo-bank-plans-pricing.yml
+  href: https://artifacts.apis.io/memo-bank/plans/memo-bank-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/memo-bank-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/lifecycle/memo-bank-lifecycle.yml
+  href: https://artifacts.apis.io/memo-bank/lifecycle/memo-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/memo-bank-lifecycle.yml
@@ -317,57 +319,65 @@ common:
   type: Deprecation
   url: https://docs.api.memo.bank/topic/topic-versioning-and-backwards-compatibility
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/conformance/memo-bank-conformance.yml
+  href: https://artifacts.apis.io/memo-bank/conformance/memo-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/memo-bank-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/errors/memo-bank-problem-types.yml
+  href: https://artifacts.apis.io/memo-bank/errors/memo-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/memo-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/data-model/memo-bank-data-model.yml
+  href: https://artifacts.apis.io/memo-bank/data-model/memo-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/memo-bank-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/sandbox/memo-bank-sandbox.yml
+  href: https://artifacts.apis.io/memo-bank/sandbox/memo-bank-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/memo-bank-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/asyncapi/memo-bank-webhooks.yml
+  href: https://artifacts.apis.io/memo-bank/asyncapi/memo-bank-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/memo-bank-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/memo-bank/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/mcp/memo-bank-tool-crosswalk.yml
+  href: https://artifacts.apis.io/memo-bank/mcp/memo-bank-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/memo-bank-tool-crosswalk.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/changelog/memo-bank-changelog.yml
+  href: https://artifacts.apis.io/memo-bank/changelog/memo-bank-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/memo-bank-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/errors/memo-bank-decline-codes.yml
+  href: https://artifacts.apis.io/memo-bank/errors/memo-bank-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/memo-bank-decline-codes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/security/memo-bank-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/memo-bank/security/memo-bank-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/memo-bank-vulnerability-disclosure.yml
 created: '2026-08-17'
 description: Memo Bank is an independent French commercial bank, accredited as a credit institution by the European Central Bank and supervised by the ACPR, that serves small and mid-sized companies with current accounts, loans, savings and an API-first payments platform. Its Premium Bank API is a REST/JSON contract authenticated with RS256-signed JWT/JWS request tokens, covering accounts, transactions, bi-directional virtual IBANs, SEPA credit transfers, SEPA Direct Debit collections and mandate signature requests, SWIFT/RTGS wire transfers, bulk payment batches, attachments and account assessments, with 34 webhook event types for asynchronous reconciliation. A Marketplace API adds an OAuth 2.0 layer so third-party developers can act on customer resources, a NextGenPSD2 API implements the Berlin Group AIS/PIS interface for licensed third-party providers, and a hosted MCP server exposes read-only banking data plus attachment upload to AI assistants.
+finops:
+- has_sources: true
+  method: derived
+  name: Memo Bank Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: memo-bank-finops
+  template: false
 image: https://media.memo.bank/home_hero_602cdab270/home_hero_602cdab270.jpg
 json_schemas:
 - name: AccountPage
@@ -527,7 +537,10 @@ plans:
 - name: Memo Bank Plans Pricing
   plan_count: 2
   slug: memo-bank-plans-pricing
-random_paper: 7
+- name: Memo Bank Price Estimates
+  plan_count: 0
+  slug: memo-bank-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Memo Bank Rate Limits
@@ -552,22 +565,22 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 68.6
+  composite: 71.3
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 73.8
+    artifact_dirs: 33
+    catalog_earned: 76.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 41.3
+    catalog_gap: 38.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.0
+  delta: 1.6
   facets:
-    access_clarity: 73.7
+    access_clarity: 81.6
     contract_governance: 35.6
-    contract_quality: 67.8
+    contract_quality: 68.1
     developer_ergonomics: 66.1
-    discoverability: 81.7
-    operational_transparency: 52.6
+    discoverability: 71.7
+    operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -576,7 +589,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 61.6
+  previous_composite: 69.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -603,13 +616,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/screenshots/memo-bank-2026-09-02T150506.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/memo-bank/memo-bank-2026-09-02T150506.png
 security:
 - kind: authentication
   name: Memo Bank Authentication
@@ -623,6 +637,22 @@ security:
   name: Memo Bank Vulnerability Disclosure
   slug: memo-bank-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 7
+skills:
+- name: memo-bank-authenticate-a-request
+  slug: memo-bank-authenticate-a-request
+- name: memo-bank-collect-by-sepa-direct-debit
+  slug: memo-bank-collect-by-sepa-direct-debit
+- name: memo-bank-handle-webhook-events
+  slug: memo-bank-handle-webhook-events
+- name: memo-bank-initiate-a-sepa-transfer
+  slug: memo-bank-initiate-a-sepa-transfer
+- name: memo-bank-reconcile-with-virtual-ibans
+  slug: memo-bank-reconcile-with-virtual-ibans
+- name: memo-bank-run-a-bulk-payment-batch
+  slug: memo-bank-run-a-bulk-payment-batch
+- name: memo-bank-send-a-wire-transfer
+  slug: memo-bank-send-a-wire-transfer
 slug: memo-bank
 tags:
 - Company

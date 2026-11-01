@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.5
-  scored_at: '2026-10-17'
+  score: 22.0
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The HAL+JSON REST API of ANU's self-hosted DSpace 7.6.7 repository, reachable anonymously at /server/api for the root and discovery resources; /server/api/core/items returns 401, so the surface is gen
@@ -132,82 +134,82 @@ common:
   type: Policies
   url: https://policies.anu.edu.au/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/_original/anu-quantum-numbers-openapi.yml
+  href: https://artifacts.apis.io/anu/openapi/_original/anu-quantum-numbers-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/anu-quantum-numbers-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/json-schema/anu-quantum-numbers-response-schema.json
+  href: https://artifacts.apis.io/anu/json-schema/anu-quantum-numbers-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/anu-quantum-numbers-response-schema.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/examples/anu-qrng-legacy-uint8-example.json
+  href: https://artifacts.apis.io/anu/examples/anu-qrng-legacy-uint8-example.json
   title: ''
   type: Examples
   url: examples/anu-qrng-legacy-uint8-example.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/rules/anu-rules.yml
+  href: https://artifacts.apis.io/anu/rules/anu-rules.yml
   title: ''
   type: Rules
   url: rules/anu-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/vocabulary/anu-vocabulary.yml
+  href: https://artifacts.apis.io/anu/vocabulary/anu-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/anu-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/json-ld/anu-context.jsonld
+  href: https://artifacts.apis.io/anu/json-ld/anu-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/anu-context.jsonld
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/authentication/anu-authentication.yml
+  href: https://artifacts.apis.io/anu/authentication/anu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/anu-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/scopes/anu-scopes.yml
+  href: https://artifacts.apis.io/anu/scopes/anu-scopes.yml
   title: ''
   type: Scopes
   url: scopes/anu-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/errors/anu-problem-types.yml
+  href: https://artifacts.apis.io/anu/errors/anu-problem-types.yml
   title: ''
   type: Errors
   url: errors/anu-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/conformance/anu-conformance.yml
+  href: https://artifacts.apis.io/anu/conformance/anu-conformance.yml
   title: ''
   type: Conformance
   url: conformance/anu-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/lifecycle/anu-lifecycle.yml
+  href: https://artifacts.apis.io/anu/lifecycle/anu-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/anu-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/security/anu-domain-security.yml
+  href: https://artifacts.apis.io/anu/security/anu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anu-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/plans/anu-plans-pricing.yml
+  href: https://artifacts.apis.io/anu/plans/anu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/anu-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/rate-limits/anu-rate-limits.yml
+  href: https://artifacts.apis.io/anu/rate-limits/anu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/anu-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/finops/anu-finops.yml
+  href: https://artifacts.apis.io/anu/finops/anu-finops.yml
   title: ''
   type: FinOps
   url: finops/anu-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/anu/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -261,7 +263,7 @@ plans:
 - name: Anu Plans Pricing
   plan_count: 3
   slug: anu-plans-pricing
-random_paper: 16
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Anu Rate Limits
@@ -284,23 +286,23 @@ scopes:
   slug: anu-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 39.0
+  band: developing
+  composite: 40.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 59.3
     catalog_earned_first_party: 0.0
     catalog_gap: 55.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.9
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 11.4
     contract_quality: 41.4
-    developer_ergonomics: 28.6
+    developer_ergonomics: 35.7
     discoverability: 71.4
-    operational_transparency: 18.4
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -308,7 +310,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 47.9
+  previous_composite: 40.7
   provenance:
     conformance: first-party
     contracts:
@@ -322,14 +324,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 42.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/screenshots/anu-2026-06-20T172029.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/anu/anu-2026-06-20T172029.png
 security:
 - kind: authentication
   name: Anu Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Anime Database
@@ -41,12 +43,12 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anidb/refs/heads/main/security/anidb-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/anidb/security/anidb-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/anidb-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anidb/refs/heads/main/security/anidb-domain-security.yml
+  href: https://artifacts.apis.io/anidb/security/anidb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anidb-domain-security.yml
@@ -67,12 +69,12 @@ name: AniDB
 nav: Providers
 network: true
 overview: AniDB is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anime and Public APIs.
-random_paper: 4
+random_paper: 6
 score:
   band: minimal
-  composite: 6.0
+  composite: 7.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -85,16 +87,16 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 46.4
-    operational_transparency: 0.0
-  previous_composite: 6.0
+    operational_transparency: 10.5
+  previous_composite: 7.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

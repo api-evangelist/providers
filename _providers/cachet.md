@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -68,11 +70,8 @@ arazzos:
 - description: Register a gig-worker on the Cachet Platform (Verify) API, then report a completed task event for that worker. Requires x-api-key and x-api-username headers issued by the Cachet IT team.
   name: Cachet gig-worker onboarding and task reporting
   slug: cachet-gig-onboarding
-artifact_total: 13
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cachet Parking Connect API
   slug: open-cachet-connect-api
@@ -87,7 +86,7 @@ collections:
   slug: open-cachet-vehicle-events-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/overlays/cachet-parking-overlay.yaml
+  href: https://artifacts.apis.io/cachet/overlays/cachet-parking-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cachet-parking-overlay.yaml
@@ -132,67 +131,67 @@ common:
   type: PrivacyPolicy
   url: https://cachet.me/en/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/authentication/cachet-authentication.yml
+  href: https://artifacts.apis.io/cachet/authentication/cachet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cachet-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/mcp/cachet-mcp.yml
+  href: https://artifacts.apis.io/cachet/mcp/cachet-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cachet-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/llms/cachet-llms.txt
+  href: https://artifacts.apis.io/cachet/llms/cachet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cachet-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/conventions/cachet-conventions.yml
+  href: https://artifacts.apis.io/cachet/conventions/cachet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cachet-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/conformance/cachet-conformance.yml
+  href: https://artifacts.apis.io/cachet/conformance/cachet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cachet-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/errors/cachet-problem-types.yml
+  href: https://artifacts.apis.io/cachet/errors/cachet-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cachet-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/lifecycle/cachet-lifecycle.yml
+  href: https://artifacts.apis.io/cachet/lifecycle/cachet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cachet-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/sandbox/cachet-sandbox.yml
+  href: https://artifacts.apis.io/cachet/sandbox/cachet-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cachet-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/data-model/cachet-data-model.yml
+  href: https://artifacts.apis.io/cachet/data-model/cachet-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cachet-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cachet/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/arazzo/cachet-gig-onboarding.yml
+  href: https://artifacts.apis.io/cachet/arazzo/cachet-gig-onboarding.yml
   title: ''
   type: Arazzo
   url: arazzo/cachet-gig-onboarding.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/security/cachet-domain-security.yml
+  href: https://artifacts.apis.io/cachet/security/cachet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cachet-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/agentic-access/cachet-agentic-access.yml
+  href: https://artifacts.apis.io/cachet/agentic-access/cachet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cachet-agentic-access.yml
@@ -208,10 +207,10 @@ overview: 'Cachet publishes 4 API contracts indexed on the [APIs.io](https://api
 
 
   Cachet''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 0
+random_paper: 16
 score:
-  band: thin
-  composite: 38.5
+  band: developing
+  composite: 41.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -221,18 +220,18 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 51.4
     developer_ergonomics: 54.2
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - estonia
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 38.5
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,13 +248,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/screenshots/cachet-2026-07-25T204205.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cachet/cachet-2026-07-25T204205.png
 security:
 - kind: authentication
   name: Cachet Authentication
@@ -265,6 +265,14 @@ security:
   name: Cachet Domain Security
   slug: cachet-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Onboard a gig worker and record a task event
+  slug: cachet-onboard-gig-worker
+- name: Generate a prefilled Cachet onboarding link
+  slug: cachet-partner-connect
+- name: Report a car-sharing vehicle event for parking
+  slug: cachet-report-parking-event
 slug: cachet
 tags:
 - Company

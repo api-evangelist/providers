@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,32 +51,29 @@ apis:
   description: The Teams API from Tettra — 2 operation(s) for teams.
   name: Tettra Teams API
   slug: tettra-teams-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tettra REST Teams API
   slug: open-tettra-teams-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tettra/refs/heads/main/capabilities/tettra-capability-edges.yml
+  href: https://artifacts.apis.io/tettra/capabilities/tettra-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tettra-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tettra/refs/heads/main/agentic-access/tettra-agentic-access.yml
+  href: https://artifacts.apis.io/tettra/agentic-access/tettra-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tettra-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tettra/refs/heads/main/security/tettra-domain-security.yml
+  href: https://artifacts.apis.io/tettra/security/tettra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tettra-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tettra/refs/heads/main/authentication/tettra-authentication.yml
+  href: https://artifacts.apis.io/tettra/authentication/tettra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tettra-authentication.yml
@@ -111,17 +110,17 @@ common:
   type: GitHub
   url: https://github.com/Tettra
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tettra/refs/heads/main/plans/tettra-plans-pricing.yml
+  href: https://artifacts.apis.io/tettra/plans/tettra-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tettra-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tettra/refs/heads/main/rate-limits/tettra-rate-limits.yml
+  href: https://artifacts.apis.io/tettra/rate-limits/tettra-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tettra-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tettra/refs/heads/main/finops/tettra-finops.yml
+  href: https://artifacts.apis.io/tettra/finops/tettra-finops.yml
   title: ''
   type: FinOps
   url: finops/tettra-finops.yml
@@ -174,7 +173,7 @@ plans:
 - name: Tettra Plans Pricing
   plan_count: 2
   slug: tettra-plans-pricing
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Tettra Rate Limits
@@ -193,23 +192,23 @@ rules:
   slug: tettra-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.8
+  composite: 33.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 53.3
     catalog_earned_first_party: 0.0
     catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 56.9
-    developer_ergonomics: 2.4
+    developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 35.7
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -223,13 +222,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tettra/refs/heads/main/screenshots/tettra-2026-06-20T195201.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tettra/tettra-2026-06-20T195201.png
 security:
 - kind: authentication
   name: Tettra Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: Signed server-to-server callbacks for screening status updates.
   name: Certn Webhooks API
   slug: certn-webhooks-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Certn Applications API
   slug: open-certn-applications-api
@@ -107,27 +106,27 @@ common:
   type: BlogRSS
   url: https://certn.co/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/capabilities/certn-capability-edges.yml
+  href: https://artifacts.apis.io/certn/capabilities/certn-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/certn-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/agentic-access/certn-agentic-access.yml
+  href: https://artifacts.apis.io/certn/agentic-access/certn-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/certn-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/security/certn-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/certn/security/certn-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/certn-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/security/certn-domain-security.yml
+  href: https://artifacts.apis.io/certn/security/certn-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/certn-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/authentication/certn-authentication.yml
+  href: https://artifacts.apis.io/certn/authentication/certn-authentication.yml
   title: ''
   type: Authentication
   url: authentication/certn-authentication.yml
@@ -148,17 +147,17 @@ common:
   type: Documentation
   url: https://docs.certn.co/api
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/plans/certn-plans-pricing.yml
+  href: https://artifacts.apis.io/certn/plans/certn-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/certn-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/rate-limits/certn-rate-limits.yml
+  href: https://artifacts.apis.io/certn/rate-limits/certn-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/certn-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/finops/certn-finops.yml
+  href: https://artifacts.apis.io/certn/finops/certn-finops.yml
   title: ''
   type: FinOps
   url: finops/certn-finops.yml
@@ -197,7 +196,7 @@ rate_limits:
   slug: certn-rate-limits
 score:
   band: emerging
-  composite: 23.5
+  composite: 25.9
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.0
@@ -205,20 +204,20 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 33.6
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 10.5
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - canada
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 31.8
+  previous_composite: 25.9
   provenance:
     agentic_access: derived
     contracts:
@@ -232,13 +231,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/screenshots/certn-2026-07-25T205011.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/certn/certn-2026-07-25T205011.png
 security:
 - kind: authentication
   name: Certn Authentication

@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: derived
     idempotency: false
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.9
-  scored_at: '2026-10-17'
+  score: 24.1
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Elium's single GraphQL endpoint, served per tenant at https://{platform}.elium.com/graphql. 17 queries, 206 mutations and 18 subscriptions over 1128 type definitions, covering stories (content), space
@@ -46,7 +48,7 @@ apis:
 - description: A remote Model Context Protocol server, announced 3 June 2026, served per tenant at https://{platform}.elium.com/services/mcp with OAuth 2.0 authorization and optional Dynamic Client Registration. Thr
   name: Elium MCP Server
   slug: elium-mcp-server
-artifact_total: 11
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Elium Events
@@ -109,7 +111,7 @@ common:
   type: ChangeLog
   url: https://elium.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/changelog/elium-changelog.yml
+  href: https://artifacts.apis.io/elium/changelog/elium-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/elium-changelog.yml
@@ -122,88 +124,96 @@ common:
   type: Compliance
   url: https://elium.com/trust
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/mcp/elium-mcp.yml
+  href: https://artifacts.apis.io/elium/mcp/elium-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/elium-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/llms/elium-llms.txt
+  href: https://artifacts.apis.io/elium/llms/elium-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/elium-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/elium/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/authentication/elium-authentication.yml
+  href: https://artifacts.apis.io/elium/authentication/elium-authentication.yml
   title: ''
   type: Authentication
   url: authentication/elium-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/scopes/elium-scopes.yml
+  href: https://artifacts.apis.io/elium/scopes/elium-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/elium-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/conventions/elium-conventions.yml
+  href: https://artifacts.apis.io/elium/conventions/elium-conventions.yml
   title: ''
   type: Conventions
   url: conventions/elium-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/errors/elium-error-codes.yml
+  href: https://artifacts.apis.io/elium/errors/elium-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/elium-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/lifecycle/elium-lifecycle.yml
+  href: https://artifacts.apis.io/elium/lifecycle/elium-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/elium-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/conformance/elium-conformance.yml
+  href: https://artifacts.apis.io/elium/conformance/elium-conformance.yml
   title: ''
   type: Conformance
   url: conformance/elium-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/data-model/elium-data-model.yml
+  href: https://artifacts.apis.io/elium/data-model/elium-data-model.yml
   title: ''
   type: DataModel
   url: data-model/elium-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/packages/elium-packages.yml
+  href: https://artifacts.apis.io/elium/packages/elium-packages.yml
   title: ''
   type: Packages
   url: packages/elium-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/plans/elium-plans-pricing.yml
+  href: https://artifacts.apis.io/elium/plans/elium-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/elium-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/rate-limits/elium-rate-limits.yml
+  href: https://artifacts.apis.io/elium/rate-limits/elium-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/elium-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/security/elium-trust-center.yml
+  href: https://artifacts.apis.io/elium/security/elium-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/elium-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/security/elium-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/elium/security/elium-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/elium-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/security/elium-domain-security.yml
+  href: https://artifacts.apis.io/elium/security/elium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/elium-domain-security.yml
 created: '2026-08-17'
 description: 'Elium is a European enterprise knowledge-management SaaS platform, founded in 2007 as Knowledge Plaza and renamed Elium in 2017, headquartered in Louvain-la-Neuve, Belgium. Teams capture, validate and govern company knowledge as structured articles - which Elium calls "stories" - inside spaces, using templates, multi-step approval, expiration management, duplicate and gap detection, and in-place multilingual translation. The same governed corpus is then served to people and to AI agents through AI search, smart assistants, external portals and integrations. Programmatically Elium is a GraphQL provider, not a REST one: each customer platform serves its own per-tenant GraphQL endpoint with 17 queries, 206 mutations and 18 subscriptions, documented in a fully published SpectaQL reference, secured with OAuth 2.0 on a single apiv1 scope. In June 2026 Elium added a per-tenant remote Model Context Protocol server exposing three read-only knowledge tools to ChatGPT, Claude and custom
   agents. API and MCP access are Enterprise-plan only. Elium is ISO/IEC 27001:2022 certified and SecNumCloud-qualified, with EU-default and sovereign French hosting options.'
+finops:
+- has_sources: true
+  method: derived
+  name: Elium Finops
+  primary_unit: user
+  service_category: ''
+  slug: elium-finops
+  template: false
 image: https://elium.com/logos/elium-logo.svg
 layout: provider
 mcp_servers:
@@ -225,6 +235,9 @@ plans:
 - name: Elium Plans Pricing
   plan_count: 3
   slug: elium-plans-pricing
+- name: Elium Price Estimates
+  plan_count: 0
+  slug: elium-price-estimates
 random_paper: 12
 rate_limits:
 - limit_count: 0
@@ -236,22 +249,22 @@ scopes:
   slug: elium-scopes
   summary_line: 1 scope · authorizationCode/password
 score:
-  band: developing
-  composite: 53.9
+  band: strong
+  composite: 60.2
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 49.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 33.9
-    discoverability: 68.3
+    developer_ergonomics: 58.9
+    discoverability: 65.0
     operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -260,7 +273,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 53.9
+  previous_composite: 58.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -271,14 +284,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/screenshots/elium-2026-09-02T145347.png
+screenshot: https://apis.io/screenshots/elium/elium-2026-09-02T145347.png
 security:
 - kind: authentication
   name: Elium Authentication
@@ -296,6 +309,14 @@ security:
   name: Elium Trust Center
   slug: elium-trust-center
   summary_line: ISO/IEC 27001:2022, SecNumCloud, GDPR, EU AI Act, EcoVadis Silver
+skill_count: 3
+skills:
+- name: Connect an AI assistant to Elium over MCP
+  slug: elium-connect-an-ai-assistant
+- name: Publish and update an Elium story
+  slug: elium-publish-a-story
+- name: Search the Elium knowledge base and read an article
+  slug: elium-search-knowledge-base
 slug: elium
 tags:
 - Company

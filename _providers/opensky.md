@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.5
-  scored_at: '2026-10-17'
+  score: 28.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,11 +65,8 @@ apis:
   description: Endpoints for retrieving aircraft trajectory tracks with detailed waypoint data.
   name: OpenSky Network Tracks API
   slug: opensky-tracks-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OpenSky Network REST Flights API
   slug: open-opensky-flights-api
@@ -79,12 +78,12 @@ collections:
   slug: open-opensky-tracks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/plans/opensky-rest-api.yml
+  href: https://artifacts.apis.io/opensky/plans/opensky-rest-api.yml
   title: ''
   type: Plans
   url: plans/opensky-rest-api.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/rate-limits/opensky-rest-api.yml
+  href: https://artifacts.apis.io/opensky/rate-limits/opensky-rest-api.yml
   title: ''
   type: RateLimits
   url: rate-limits/opensky-rest-api.yml
@@ -93,7 +92,7 @@ common:
   type: Website
   url: https://opensky-network.org/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/capabilities/opensky-capability-edges.yml
+  href: https://artifacts.apis.io/opensky/capabilities/opensky-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/opensky-capability-edges.yml
@@ -106,17 +105,17 @@ common:
   type: License
   url: https://github.com/openskynetwork/opensky-api/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/agentic-access/opensky-agentic-access.yml
+  href: https://artifacts.apis.io/opensky/agentic-access/opensky-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/opensky-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/security/opensky-domain-security.yml
+  href: https://artifacts.apis.io/opensky/security/opensky-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opensky-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/authentication/opensky-authentication.yml
+  href: https://artifacts.apis.io/opensky/authentication/opensky-authentication.yml
   title: ''
   type: Authentication
   url: authentication/opensky-authentication.yml
@@ -216,7 +215,7 @@ plans:
 - name: Opensky Trino Api
   plan_count: 2
   slug: opensky-trino-api
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Opensky Rest Api
@@ -238,7 +237,7 @@ rules:
   slug: opensky-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.5
+  composite: 36.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 54.3
@@ -246,18 +245,15 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 31.6
     contract_governance: 9.8
     contract_quality: 57.3
     developer_ergonomics: 26.2
     discoverability: 66.1
     operational_transparency: 13.2
-  open_source:
-    applies: true
-    score: 0.0
-  previous_composite: 38.9
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -271,14 +267,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/screenshots/opensky-2026-08-17T081130.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/opensky/opensky-2026-08-17T081130.png
 security:
 - kind: authentication
   name: Opensky Authentication

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for managing Skytap environments (configurations), VMs, networks, templates, users, projects, assets and webhooks. v2 adds filtering, sorting and pagination; v1 remains for operations not yet
@@ -88,42 +90,42 @@ common:
   type: Support
   url: https://help.skytap.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/skytap/refs/heads/main/packages/skytap-packages.yml
+  href: https://artifacts.apis.io/skytap/packages/skytap-packages.yml
   title: ''
   type: Packages
   url: packages/skytap-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/skytap/refs/heads/main/packages/skytap-packages.yml
+  href: https://artifacts.apis.io/skytap/packages/skytap-packages.yml
   title: ''
   type: SDKs
   url: packages/skytap-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skytap/refs/heads/main/authentication/skytap-authentication.yml
+  href: https://artifacts.apis.io/skytap/authentication/skytap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/skytap-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skytap/refs/heads/main/conventions/skytap-conventions.yml
+  href: https://artifacts.apis.io/skytap/conventions/skytap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/skytap-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skytap/refs/heads/main/errors/skytap-error-codes.yml
+  href: https://artifacts.apis.io/skytap/errors/skytap-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/skytap-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skytap/refs/heads/main/lifecycle/skytap-lifecycle.yml
+  href: https://artifacts.apis.io/skytap/lifecycle/skytap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/skytap-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skytap/refs/heads/main/data-model/skytap-data-model.yml
+  href: https://artifacts.apis.io/skytap/data-model/skytap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/skytap-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skytap/refs/heads/main/conformance/skytap-conformance.yml
+  href: https://artifacts.apis.io/skytap/conformance/skytap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/skytap-conformance.yml
@@ -132,27 +134,27 @@ common:
   type: Compliance
   url: https://www.skytap.com/blog/skytap-offers-pci-and-iso-27001-compliance-for-ibm-power-workloads-in-azure/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skytap/refs/heads/main/security/skytap-domain-security.yml
+  href: https://artifacts.apis.io/skytap/security/skytap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skytap-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skytap/refs/heads/main/asyncapi/skytap-webhooks.yml
+  href: https://artifacts.apis.io/skytap/asyncapi/skytap-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/skytap-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skytap/refs/heads/main/well-known/skytap-well-known.yml
+  href: https://artifacts.apis.io/skytap/well-known/skytap-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/skytap-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skytap/refs/heads/main/mcp/skytap-mcp.yml
+  href: https://artifacts.apis.io/skytap/mcp/skytap-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/skytap-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skytap/refs/heads/main/llms/skytap-llms.txt
+  href: https://artifacts.apis.io/skytap/llms/skytap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/skytap-llms.txt
@@ -171,12 +173,12 @@ overview: 'Skytap is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Skytap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 8
+random_paper: 20
 score:
-  band: thin
-  composite: 37.8
+  band: developing
+  composite: 40.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -184,13 +186,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 61.9
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 37.8
+    developer_ergonomics: 64.3
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 40.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -199,15 +201,15 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 13.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.0
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/skytap/refs/heads/main/screenshots/skytap-2026-09-02T155821.png
+screenshot: https://apis.io/screenshots/skytap/skytap-2026-09-02T155821.png
 security:
 - kind: authentication
   name: Skytap Authentication

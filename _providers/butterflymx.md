@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.7
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 36.1
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.butterflymx.com
   baseurl_source: declared
@@ -109,15 +111,12 @@ apis:
   description: The Virtual Keys API from ButterflyMX — 2 operation(s) for virtual keys.
   name: ButterflyMX Virtual Keys API
   slug: butterflymx-virtual-keys-api
-artifact_total: 34
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Butterflymx Webhooks
   slug: butterflymx-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ButterflyMX Access groups API
   slug: open-butterflymx-access-groups-api
@@ -161,18 +160,23 @@ collections:
   name: ButterflyMX Virtual Keys API
   slug: open-butterflymx-virtual-keys-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/butterflymx/plans/butterflymx-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/butterflymx-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/capabilities/butterflymx-capability-edges.yml
+  href: https://artifacts.apis.io/butterflymx/capabilities/butterflymx-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/butterflymx-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/mcp/butterflymx-mcp.yml
+  href: https://artifacts.apis.io/butterflymx/mcp/butterflymx-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/butterflymx-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/overlays/butterflymx-api-overlay.yaml
+  href: https://artifacts.apis.io/butterflymx/overlays/butterflymx-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/butterflymx-api-overlay.yaml
@@ -237,93 +241,101 @@ common:
   type: TrustCenter
   url: https://trust.butterflymx.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/llms/butterflymx-llms.txt
+  href: https://artifacts.apis.io/butterflymx/llms/butterflymx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/butterflymx-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/well-known/butterflymx-well-known.yml
+  href: https://artifacts.apis.io/butterflymx/well-known/butterflymx-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/butterflymx-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/authentication/butterflymx-authentication.yml
+  href: https://artifacts.apis.io/butterflymx/authentication/butterflymx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/butterflymx-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/scopes/butterflymx-scopes.yml
+  href: https://artifacts.apis.io/butterflymx/scopes/butterflymx-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/butterflymx-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/conventions/butterflymx-conventions.yml
+  href: https://artifacts.apis.io/butterflymx/conventions/butterflymx-conventions.yml
   title: ''
   type: Conventions
   url: conventions/butterflymx-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/errors/butterflymx-problem-types.yml
+  href: https://artifacts.apis.io/butterflymx/errors/butterflymx-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/butterflymx-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/lifecycle/butterflymx-lifecycle.yml
+  href: https://artifacts.apis.io/butterflymx/lifecycle/butterflymx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/butterflymx-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/conformance/butterflymx-conformance.yml
+  href: https://artifacts.apis.io/butterflymx/conformance/butterflymx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/butterflymx-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/security/butterflymx-domain-security.yml
+  href: https://artifacts.apis.io/butterflymx/security/butterflymx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/butterflymx-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/security/butterflymx-trust-center.yml
+  href: https://artifacts.apis.io/butterflymx/security/butterflymx-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/butterflymx-trust-center.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/packages/butterflymx-packages.yml
+  href: https://artifacts.apis.io/butterflymx/packages/butterflymx-packages.yml
   title: ''
   type: Packages
   url: packages/butterflymx-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/packages/butterflymx-packages.yml
+  href: https://artifacts.apis.io/butterflymx/packages/butterflymx-packages.yml
   title: ''
   type: SDKs
   url: packages/butterflymx-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/data-model/butterflymx-data-model.yml
+  href: https://artifacts.apis.io/butterflymx/data-model/butterflymx-data-model.yml
   title: ''
   type: DataModel
   url: data-model/butterflymx-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/asyncapi/butterflymx-webhooks.yml
+  href: https://artifacts.apis.io/butterflymx/asyncapi/butterflymx-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/butterflymx-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/sandbox/butterflymx-sandbox.yml
+  href: https://artifacts.apis.io/butterflymx/sandbox/butterflymx-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/butterflymx-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/changelog/butterflymx-changelog.yml
+  href: https://artifacts.apis.io/butterflymx/changelog/butterflymx-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/butterflymx-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/butterflymx/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-08'
 description: 'ButterflyMX is a property-access technology company whose smart video intercoms, keypads, smart locks, elevator controls, vehicle-access readers, package rooms and front-desk stations are installed in more than 20,000 multifamily, commercial, gated-community, student-housing and senior-living buildings. Its public ButterflyMX API (v4) exposes the same access-control core to partners and property-technology platforms: buildings, units, tenants, access points, devices, access groups, permanent access tools (PINs and RFID tags), keychains and virtual keys for visitor passes, door-release requests for programmatic swipe-to-open, and access and video-call logs. Real-time delivery is handled by building- and tenant-scoped webhook integrations, and native iOS and Android SDKs add in-app video-call handling on top of the REST surface. Authorization is OAuth 2.0 authorization-code, issued by an OpenID-Connect-discoverable authorization server at accounts.butterflymx.com, with a full
   sandbox replica for pre-production testing.'
+finops:
+- has_sources: true
+  method: derived
+  name: Butterflymx Finops
+  primary_unit: device
+  service_category: ''
+  slug: butterflymx-finops
+  template: false
 image: https://butterflymx.com/wp-content/uploads/2023/10/gated-community-intercom.webp
 layout: provider
 modified: '2026-08-08'
@@ -336,32 +348,36 @@ overview: 'ButterflyMX publishes 14 API contracts indexed on the [APIs.io](https
   The ButterflyMX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ButterflyMX''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 28 more developer resources.'
-random_paper: 12
+  ButterflyMX''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 29 more developer resources.'
+plans:
+- name: Butterflymx Plans Pricing
+  plan_count: 5
+  slug: butterflymx-plans-pricing
+random_paper: 22
 scopes:
 - name: Butterflymx Scopes
   scope_count: 6
   slug: butterflymx-scopes
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 42.9
+  band: strong
+  composite: 63.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 14.5
+    access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 55.2
-    developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 42.8
+    contract_quality: 54.1
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 55.3
   provenance:
     conformance: derived
     contracts:
@@ -376,14 +392,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 39.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/screenshots/butterflymx-2026-08-17T080748.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/butterflymx/butterflymx-2026-08-17T080748.png
 security:
 - kind: authentication
   name: Butterflymx Authentication
@@ -397,6 +414,16 @@ security:
   name: Butterflymx Trust Center
   slug: butterflymx-trust-center
   summary_line: trust center published
+skill_count: 4
+skills:
+- name: Issue a ButterflyMX visitor pass
+  slug: butterflymx-issue-visitor-pass
+- name: Manage ButterflyMX resident access credentials
+  slug: butterflymx-manage-resident-access
+- name: Open a ButterflyMX door programmatically
+  slug: butterflymx-open-a-door
+- name: Subscribe to ButterflyMX access and call events
+  slug: butterflymx-subscribe-to-events
 slug: butterflymx
 tags:
 - Access Control

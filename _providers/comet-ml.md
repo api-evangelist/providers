@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.6
-  scored_at: '2026-10-17'
+  score: 13.4
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'The Comet REST API exposes read endpoints (workspace, project, experiment data), write endpoints (data submission), and Model Production Monitoring (MPM) endpoints. Authentication uses an API key via '
@@ -61,12 +63,12 @@ common:
   type: License
   url: https://github.com/comet-ml/opik/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/comet-ml/refs/heads/main/security/comet-ml-trust-center.yml
+  href: https://artifacts.apis.io/comet-ml/security/comet-ml-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/comet-ml-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/comet-ml/refs/heads/main/security/comet-ml-domain-security.yml
+  href: https://artifacts.apis.io/comet-ml/security/comet-ml-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/comet-ml-domain-security.yml
@@ -91,17 +93,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/comet-ml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/comet-ml/refs/heads/main/plans/comet-ml-plans-pricing.yml
+  href: https://artifacts.apis.io/comet-ml/plans/comet-ml-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/comet-ml-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/comet-ml/refs/heads/main/rate-limits/comet-ml-rate-limits.yml
+  href: https://artifacts.apis.io/comet-ml/rate-limits/comet-ml-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/comet-ml-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/comet-ml/refs/heads/main/finops/comet-ml-finops.yml
+  href: https://artifacts.apis.io/comet-ml/finops/comet-ml-finops.yml
   title: ''
   type: FinOps
   url: finops/comet-ml-finops.yml
@@ -154,27 +156,24 @@ rate_limits:
   name: Comet Ml Rate Limits
   slug: comet-ml-rate-limits
 score:
-  band: thin
-  composite: 26.3
+  band: emerging
+  composite: 23.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 46.9
-    discoverability: 68.3
-    operational_transparency: 23.7
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 28.0
+    discoverability: 65.0
+    operational_transparency: 26.3
+  previous_composite: 23.7
   provenance:
     mcp: first-party
   regulatory:
@@ -183,14 +182,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/comet-ml/refs/heads/main/screenshots/comet-ml-2026-06-20T174806.png
+screenshot: https://apis.io/screenshots/comet-ml/comet-ml-2026-06-20T174806.png
 security:
 - kind: domain-security
   name: Comet Ml Domain Security

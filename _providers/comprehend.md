@@ -25,7 +25,7 @@ nav: Providers
 network: true
 overview: Comprehend is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Clinical Trials, Healthcare, Life Sciences, and Clinical Data Management.
 random_paper: 5
-screenshot: https://raw.githubusercontent.com/api-evangelist/comprehend/refs/heads/main/screenshots/comprehend-2026-07-25T210201.png
+screenshot: https://apis.io/screenshots/comprehend/comprehend-2026-07-25T210201.png
 slug: comprehend
 tags:
 - Company

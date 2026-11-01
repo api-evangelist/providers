@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.2
-  scored_at: '2026-10-17'
+  score: 27.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -114,11 +116,8 @@ apis:
   description: The Table Management API from Cloudflare R2 — 1 operation(s) for table management.
   name: Cloudflare R2 Table Management API
   slug: cloudflare-r2-table-management-api
-artifact_total: 48
+artifact_total: 47
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cloudflare R2 Cloudflare Buckets API
   slug: open-cloudflare-r2-buckets-api
@@ -167,7 +166,7 @@ common:
   type: ParentCompany
   url: https://www.cloudflare.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/capabilities/cloudflare-r2-capability-edges.yml
+  href: https://artifacts.apis.io/cloudflare-r2/capabilities/cloudflare-r2-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cloudflare-r2-capability-edges.yml
@@ -188,22 +187,22 @@ common:
   type: License
   url: https://github.com/cloudflare/api-schemas/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/agentic-access/cloudflare-r2-agentic-access.yml
+  href: https://artifacts.apis.io/cloudflare-r2/agentic-access/cloudflare-r2-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cloudflare-r2-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/security/cloudflare-r2-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cloudflare-r2/security/cloudflare-r2-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cloudflare-r2-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/security/cloudflare-r2-domain-security.yml
+  href: https://artifacts.apis.io/cloudflare-r2/security/cloudflare-r2-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudflare-r2-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/authentication/cloudflare-r2-authentication.yml
+  href: https://artifacts.apis.io/cloudflare-r2/authentication/cloudflare-r2-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloudflare-r2-authentication.yml
@@ -244,17 +243,17 @@ common:
   type: X
   url: https://x.com/cloudflare
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/plans/cloudflare-r2-plans-pricing.yml
+  href: https://artifacts.apis.io/cloudflare-r2/plans/cloudflare-r2-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloudflare-r2-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/rate-limits/cloudflare-r2-rate-limits.yml
+  href: https://artifacts.apis.io/cloudflare-r2/rate-limits/cloudflare-r2-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cloudflare-r2-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/finops/cloudflare-r2-finops.yml
+  href: https://artifacts.apis.io/cloudflare-r2/finops/cloudflare-r2-finops.yml
   title: ''
   type: FinOps
   url: finops/cloudflare-r2-finops.yml
@@ -322,7 +321,7 @@ plans:
 - name: Cloudflare R2 Plans Pricing
   plan_count: 3
   slug: cloudflare-r2-plans-pricing
-random_paper: 12
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Cloudflare R2 Rate Limits
@@ -341,7 +340,7 @@ rules:
   slug: cloudflare-r2-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.0
+  composite: 37.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 54.3
@@ -349,38 +348,36 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 58.1
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 40.0
-  previous_composite: 42.5
+    operational_transparency: 39.5
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 14
+      total: 24
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/screenshots/cloudflare-r2-2026-06-20T174556.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cloudflare-r2/cloudflare-r2-2026-06-20T174556.png
 security:
 - kind: authentication
   name: Cloudflare R2 Authentication

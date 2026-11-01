@@ -14,26 +14,28 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/branch-energy/refs/heads/main/hosts/branch-energy-hosts.yml
+  href: https://artifacts.apis.io/branch-energy/hosts/branch-energy-hosts.yml
   title: ''
   type: Hosts
   url: hosts/branch-energy-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/branch-energy/refs/heads/main/vendors/branch-energy-vendors.yml
+  href: https://artifacts.apis.io/branch-energy/vendors/branch-energy-vendors.yml
   title: ''
   type: Vendors
   url: vendors/branch-energy-vendors.yml
@@ -42,7 +44,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/branchenergy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/branch-energy/refs/heads/main/security/branch-energy-domain-security.yml
+  href: https://artifacts.apis.io/branch-energy/security/branch-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/branch-energy-domain-security.yml
@@ -86,11 +88,11 @@ modified: '2026-10-03'
 name: Branch Energy
 nav: Providers
 network: true
-overview: 'Branch Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electricity, BatteryStorage, Texas, and Retail.
+overview: 'Branch Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electricity, Battery Storage, Texas, and Retail.
 
 
   Branch Energy''s developer surface includes documentation, support, and 8 more developer resources.'
-random_paper: 19
+random_paper: 21
 score:
   band: emerging
   composite: 13.9
@@ -125,8 +127,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
@@ -141,7 +143,7 @@ slug: branch-energy
 tags:
 - Energy
 - Electricity
-- BatteryStorage
+- Battery Storage
 - Texas
 - Retail
 website: https://branchenergy.com

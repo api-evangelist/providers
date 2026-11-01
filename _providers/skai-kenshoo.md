@@ -26,17 +26,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.7
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 41.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: First-party hosted, remote Model Context Protocol servers exposing the Skai platform to AI assistants. The Reporting MCP is read-only and publishes five tools — fetch_report, relevant_columns, get_tod
   name: Skai MCP Servers
@@ -286,14 +288,14 @@ apis:
   description: The Token API from Skai (Kenshoo) — 1 operation(s) for token.
   name: Skai (Kenshoo) Token API
   slug: skai-kenshoo-token-api
-artifact_total: 59
+artifact_total: 65
 collections:
 - collection_type: open
   name: Skai API
   slug: open-skai-kenshoo-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/capabilities/skai-kenshoo-capability-edges.yml
+  href: https://artifacts.apis.io/skai-kenshoo/capabilities/skai-kenshoo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/skai-kenshoo-capability-edges.yml
@@ -362,103 +364,111 @@ common:
   type: Security
   url: https://skai.io/skai-information-security-and-privacy-center/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/conformance/skai-kenshoo-conformance.yml
+  href: https://artifacts.apis.io/skai-kenshoo/conformance/skai-kenshoo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/skai-kenshoo-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/security/skai-kenshoo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/skai-kenshoo/security/skai-kenshoo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/skai-kenshoo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/security/skai-kenshoo-domain-security.yml
+  href: https://artifacts.apis.io/skai-kenshoo/security/skai-kenshoo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skai-kenshoo-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/lifecycle/skai-kenshoo-lifecycle.yml
+  href: https://artifacts.apis.io/skai-kenshoo/lifecycle/skai-kenshoo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/skai-kenshoo-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/authentication/skai-kenshoo-authentication.yml
+  href: https://artifacts.apis.io/skai-kenshoo/authentication/skai-kenshoo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/skai-kenshoo-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/scopes/skai-kenshoo-scopes.yml
+  href: https://artifacts.apis.io/skai-kenshoo/scopes/skai-kenshoo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/skai-kenshoo-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/conventions/skai-kenshoo-conventions.yml
+  href: https://artifacts.apis.io/skai-kenshoo/conventions/skai-kenshoo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/skai-kenshoo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/errors/skai-kenshoo-problem-types.yml
+  href: https://artifacts.apis.io/skai-kenshoo/errors/skai-kenshoo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/skai-kenshoo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/data-model/skai-kenshoo-data-model.yml
+  href: https://artifacts.apis.io/skai-kenshoo/data-model/skai-kenshoo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/skai-kenshoo-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/rate-limits/skai-kenshoo-rate-limits.yml
+  href: https://artifacts.apis.io/skai-kenshoo/rate-limits/skai-kenshoo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/skai-kenshoo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/plans/skai-kenshoo-plans-pricing.yml
+  href: https://artifacts.apis.io/skai-kenshoo/plans/skai-kenshoo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/skai-kenshoo-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/packages/skai-kenshoo-packages.yml
+  href: https://artifacts.apis.io/skai-kenshoo/packages/skai-kenshoo-packages.yml
   title: ''
   type: Packages
   url: packages/skai-kenshoo-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/components/skai-kenshoo-components.yml
+  href: https://artifacts.apis.io/skai-kenshoo/components/skai-kenshoo-components.yml
   title: ''
   type: Components
   url: components/skai-kenshoo-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/well-known/skai-kenshoo-well-known.yml
+  href: https://artifacts.apis.io/skai-kenshoo/well-known/skai-kenshoo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/skai-kenshoo-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/llms/skai-kenshoo-llms.txt
+  href: https://artifacts.apis.io/skai-kenshoo/llms/skai-kenshoo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/skai-kenshoo-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/mcp/skai-kenshoo-mcp.yml
+  href: https://artifacts.apis.io/skai-kenshoo/mcp/skai-kenshoo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/skai-kenshoo-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/mcp/skai-kenshoo-tool-crosswalk.yml
+  href: https://artifacts.apis.io/skai-kenshoo/mcp/skai-kenshoo-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/skai-kenshoo-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/skai-kenshoo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/overlays/skai-kenshoo-api-overlay.yaml
+  href: https://artifacts.apis.io/skai-kenshoo/overlays/skai-kenshoo-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/skai-kenshoo-api-overlay.yaml
 created: '2026-07-17'
 description: Skai (formerly Kenshoo) is an AI-powered commerce media platform that helps brands and agencies centralize retail media, paid search, and paid social data, then plan, activate, optimize, and measure omnichannel marketing campaigns across Amazon, Google, Microsoft, Meta, Walmart, Instacart, Kroger, Target and 120+ other publishers and marketplaces. Skai publishes a real, anonymously readable OpenAPI 3.0.0 contract — 117 paths, 158 operations, 155 schemas — served through a Redoc developer hub at developers.skai.io and callable at services.kenshoo.com, covering reporting (synchronous and asynchronous), bulk entity management, campaigns, ad groups, ads, portfolios, product groups, custom columns, incrementality testing and budget pacing. Alongside the REST API, Skai runs first-party hosted MCP servers at mcp.kenshoo.com — a read-only Reporting MCP and a write-access Operations MCP for bid, budget and status changes with preview and approval — authenticated with OAuth 2.0 or a 90-day
   personal access token. Products include Celeste AI (a GenAI commerce-media agent), the Skai Data Hub, Retail Media, Search & Social, Omnichannel Planning, and Digital Shelf Optimization.
+finops:
+- has_sources: true
+  method: derived
+  name: Skai Kenshoo Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: skai-kenshoo-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skai-kenshoo.png
 layout: provider
 mcp_servers:
@@ -477,7 +487,10 @@ plans:
 - name: Skai Kenshoo Plans Pricing
   plan_count: 5
   slug: skai-kenshoo-plans-pricing
-random_paper: 18
+- name: Skai Kenshoo Price Estimates
+  plan_count: 0
+  slug: skai-kenshoo-price-estimates
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Skai Kenshoo Rate Limits
@@ -489,23 +502,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.3
+  composite: 62.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 57.0
+    artifact_dirs: 25
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 42.0
-    developer_ergonomics: 53.0
-    discoverability: 68.3
-    operational_transparency: 50.0
-  previous_composite: 60.2
+    contract_quality: 41.5
+    developer_ergonomics: 58.9
+    discoverability: 65.0
+    operational_transparency: 52.6
+  previous_composite: 60.6
   provenance:
     conformance: first-party
     contracts:
@@ -521,13 +534,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/skai-kenshoo/refs/heads/main/screenshots/skai-kenshoo-2026-08-17T081910.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/skai-kenshoo/skai-kenshoo-2026-08-17T081910.png
 security:
 - kind: authentication
   name: Skai Kenshoo Authentication
@@ -545,6 +559,16 @@ security:
   name: Skai Kenshoo Trust Center
   slug: skai-kenshoo-trust-center
   summary_line: ISO/IEC 27001:2013, SOC 2 Type 2, ISO 9001:2015
+skill_count: 4
+skills:
+- name: skai-authenticate
+  slug: skai-kenshoo-authenticate
+- name: skai-bulk-update-entities
+  slug: skai-kenshoo-bulk-update-entities
+- name: skai-connect-mcp
+  slug: skai-kenshoo-connect-mcp
+- name: skai-pull-performance-report
+  slug: skai-kenshoo-pull-performance-report
 slug: skai-kenshoo
 tags:
 - Company

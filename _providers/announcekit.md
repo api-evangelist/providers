@@ -25,44 +25,46 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.2
-  scored_at: '2026-10-17'
+  score: 47.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The AnnounceKit API provides GraphQL and REST endpoints for programmatically creating and updating posts, syncing user data, managing widgets, and automating product changelog workflows. Supports 11 w
   name: AnnounceKit API
   slug: announcekit-api
-artifact_total: 11
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Announcekit Webhooks
   slug: announcekit-webhooks
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/rate-limits/announcekit-rate-limits.yml
+  href: https://artifacts.apis.io/announcekit/rate-limits/announcekit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/announcekit-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/finops/announcekit-finops.yml
+  href: https://artifacts.apis.io/announcekit/finops/announcekit-finops.yml
   title: ''
   type: FinOps
   url: finops/announcekit-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/security/announcekit-trust-center.yml
+  href: https://artifacts.apis.io/announcekit/security/announcekit-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/announcekit-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/security/announcekit-domain-security.yml
+  href: https://artifacts.apis.io/announcekit/security/announcekit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/announcekit-domain-security.yml
@@ -107,47 +109,47 @@ common:
   type: Blog
   url: https://announcekit.app/blog/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/packages/announcekit-packages.yml
+  href: https://artifacts.apis.io/announcekit/packages/announcekit-packages.yml
   title: ''
   type: Packages
   url: packages/announcekit-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/packages/announcekit-packages.yml
+  href: https://artifacts.apis.io/announcekit/packages/announcekit-packages.yml
   title: ''
   type: SDKs
   url: packages/announcekit-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/well-known/announcekit-well-known.yml
+  href: https://artifacts.apis.io/announcekit/well-known/announcekit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/announcekit-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/llms/announcekit-llms.txt
+  href: https://artifacts.apis.io/announcekit/llms/announcekit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/announcekit-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/announcekit/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/changelog/announcekit-changelog.yml
+  href: https://artifacts.apis.io/announcekit/changelog/announcekit-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/announcekit-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/components/announcekit-components.yml
+  href: https://artifacts.apis.io/announcekit/components/announcekit-components.yml
   title: ''
   type: Components
   url: components/announcekit-components.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/plans/announcekit-plans-pricing.yml
+  href: https://artifacts.apis.io/announcekit/plans/announcekit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/announcekit-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/security/announcekit-trust-center.yml
+  href: https://artifacts.apis.io/announcekit/security/announcekit-trust-center.yml
   title: ''
   type: Compliance
   url: security/announcekit-trust-center.yml
@@ -178,13 +180,13 @@ common:
 created: '2026-03-29'
 description: AnnounceKit is a product communication platform providing changelog management, in-app notification widgets, feature request boards, roadmaps, and NPS surveys. It enables product teams to communicate updates to users via 10+ widget display modes, email digests, Slack, webhooks, and RSS, with GraphQL and REST APIs for programmatic integration.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Announcekit Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: add-on
+  service_category: ''
   slug: announcekit-finops
-  template: true
+  template: false
 graphqls:
 - description: 'generated: ''2026-09-02'''
   name: AnnounceKit GraphQL API
@@ -208,9 +210,12 @@ overview: 'AnnounceKit is listed with 1 API on the [APIs.io](https://apis.io/) n
   AnnounceKit''s developer surface includes documentation, pricing, changelog, code examples, engineering blog, support, signup flow, and 22 more developer resources.'
 plans:
 - name: Announcekit Plans Pricing
-  plan_count: 5
+  plan_count: 17
   slug: announcekit-plans-pricing
-random_paper: 17
+- name: Announcekit Price Estimates
+  plan_count: 0
+  slug: announcekit-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Announcekit Rate Limits
@@ -222,23 +227,23 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 62.9
+  composite: 63.5
   coverage:
     artifact_dirs: 24
-    catalog_earned: 57.0
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 52.0
     developer_ergonomics: 44.6
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 71.1
-  previous_composite: 64.4
+  previous_composite: 61.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -249,14 +254,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/screenshots/announcekit-2026-06-20T172011.png
+screenshot: https://apis.io/screenshots/announcekit/announcekit-2026-06-20T172011.png
 security:
 - kind: authentication
   name: Announcekit Authentication
@@ -270,6 +275,14 @@ security:
   name: Announcekit Trust Center
   slug: announcekit-trust-center
   summary_line: SOC 2 Type II, GDPR
+skill_count: 3
+skills:
+- name: announcekit-publish-release-note
+  slug: announcekit-publish-release-note
+- name: announcekit-report-post-performance
+  slug: announcekit-report-post-performance
+- name: announcekit-triage-feature-requests
+  slug: announcekit-triage-feature-requests
 slug: announcekit
 tags:
 - Changelog

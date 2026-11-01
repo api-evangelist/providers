@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'RESTful HTTP API for the Zenput operations-execution platform — retrieve activity/form submissions (including large-batch paged retrieval), manage locations, users, user roles, teams, tasks, sensors, '
@@ -49,7 +51,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/crunchtime/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenput/refs/heads/main/security/zenput-domain-security.yml
+  href: https://artifacts.apis.io/zenput/security/zenput-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zenput-domain-security.yml
@@ -82,42 +84,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/zenput
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenput/refs/heads/main/authentication/zenput-authentication.yml
+  href: https://artifacts.apis.io/zenput/authentication/zenput-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zenput-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenput/refs/heads/main/llms/zenput-llms.txt
+  href: https://artifacts.apis.io/zenput/llms/zenput-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zenput-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenput/refs/heads/main/well-known/zenput-well-known.yml
+  href: https://artifacts.apis.io/zenput/well-known/zenput-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zenput-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenput/refs/heads/main/conventions/zenput-conventions.yml
+  href: https://artifacts.apis.io/zenput/conventions/zenput-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zenput-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenput/refs/heads/main/lifecycle/zenput-lifecycle.yml
+  href: https://artifacts.apis.io/zenput/lifecycle/zenput-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zenput-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zenput/refs/heads/main/changelog/zenput-changelog.yml
+  href: https://artifacts.apis.io/zenput/changelog/zenput-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zenput-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/zenput/refs/heads/main/sandbox/zenput-sandbox.yml
+  href: https://artifacts.apis.io/zenput/sandbox/zenput-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zenput-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenput/refs/heads/main/mcp/zenput-mcp.yml
+  href: https://artifacts.apis.io/zenput/mcp/zenput-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zenput-mcp.yml
@@ -133,10 +135,10 @@ overview: 'Zenput is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Zenput''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 10 more developer resources.'
-random_paper: 18
+random_paper: 6
 score:
   band: emerging
-  composite: 17.8
+  composite: 21.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -144,15 +146,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 42.9
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 17.7
+    developer_ergonomics: 61.9
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 21.2
   provenance:
     mcp: derived
   regulatory:
@@ -161,14 +163,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/zenput/refs/heads/main/screenshots/zenput-2026-09-02T171616.png
+screenshot: https://apis.io/screenshots/zenput/zenput-2026-09-02T171616.png
 security:
 - kind: authentication
   name: Zenput Authentication

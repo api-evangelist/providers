@@ -21,7 +21,7 @@ modified: '2026-10-06'
 name: HV Capital
 nav: Providers
 network: true
-random_paper: 11
+random_paper: 17
 slug: hv-capital
 tags:
 - Venture Capital

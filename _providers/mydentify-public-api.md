@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 34.4
-  scored_at: '2026-10-17'
+  score: 34.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 14
   slug: mydentify-public-api-agentic-access
   summary_line: 14 operations · 6 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://mydentify.com
   baseurl_source: spec
@@ -75,11 +77,8 @@ apis:
   description: The Product Categories.json API from Mydentify Public API — 1 operation(s) for product categories.json.
   name: Mydentify Public API Product Categories.json API
   slug: mydentify-public-api-product-categories-json-api
-artifact_total: 20
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Mydentify Public Directories API
   slug: open-mydentify-public-api-directories-api
@@ -99,23 +98,28 @@ collections:
   name: Mydentify Public Product Categories.json API
   slug: open-mydentify-public-api-product-categories-json-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/mydentify-public-api/plans/mydentify-public-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mydentify-public-api-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/mcp/mydentify-public-api-mcp.yml
+  href: https://artifacts.apis.io/mydentify-public-api/mcp/mydentify-public-api-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mydentify-public-api-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/overlays/mydentify-public-api-overlay.yaml
+  href: https://artifacts.apis.io/mydentify-public-api/overlays/mydentify-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mydentify-public-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/agentic-access/mydentify-public-api-agentic-access.yml
+  href: https://artifacts.apis.io/mydentify-public-api/agentic-access/mydentify-public-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mydentify-public-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/security/mydentify-public-api-domain-security.yml
+  href: https://artifacts.apis.io/mydentify-public-api/security/mydentify-public-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mydentify-public-api-domain-security.yml
@@ -172,12 +176,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/mitdralla
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/well-known/mydentify-public-api-well-known.yml
+  href: https://artifacts.apis.io/mydentify-public-api/well-known/mydentify-public-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mydentify-public-api-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/well-known/mydentify-public-api-api-catalog.json
+  href: https://artifacts.apis.io/mydentify-public-api/well-known/mydentify-public-api-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/mydentify-public-api-api-catalog.json
@@ -186,7 +190,7 @@ common:
   type: ContentSignal
   url: https://mydentify.com/robots.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/well-known/mydentify-public-api-ai.txt
+  href: https://artifacts.apis.io/mydentify-public-api/well-known/mydentify-public-api-ai.txt
   title: ''
   type: AcceptableUsePolicy
   url: well-known/mydentify-public-api-ai.txt
@@ -195,17 +199,17 @@ common:
   type: APIsJson
   url: https://mydentify.com/apis.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mydentify-public-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/lifecycle/mydentify-public-api-lifecycle.yml
+  href: https://artifacts.apis.io/mydentify-public-api/lifecycle/mydentify-public-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mydentify-public-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/conformance/mydentify-public-api-conformance.yml
+  href: https://artifacts.apis.io/mydentify-public-api/conformance/mydentify-public-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mydentify-public-api-conformance.yml
@@ -224,6 +228,14 @@ examples:
 - key_count: 3
   name: Mydentify Public Api Product Categories Response
   slug: mydentify-public-api-product-categories-response
+finops:
+- has_sources: true
+  method: derived
+  name: Mydentify Public Api Finops
+  primary_unit: product listing
+  service_category: ''
+  slug: mydentify-public-api-finops
+  template: false
 image: https://mydentify.com/favicon.svg
 layout: provider
 modified: '2026-08-09'
@@ -233,27 +245,34 @@ network: true
 overview: 'Mydentify Public API publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Directories API, Directories.json API, Imports API, and 3 more. Tagged areas include Product Discovery, startup directories, Leaderboards, Research, and Software-as-a-Service.
 
 
-  Mydentify Public API''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, engineering blog, and 19 more developer resources.'
-random_paper: 4
+  Mydentify Public API''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, engineering blog, and 20 more developer resources.'
+plans:
+- name: Mydentify Public Api Plans Pricing
+  plan_count: 6
+  slug: mydentify-public-api-plans-pricing
+- name: Mydentify Public Api Price Estimates
+  plan_count: 0
+  slug: mydentify-public-api-price-estimates
+random_paper: 12
 score:
   band: developing
-  composite: 41.7
+  composite: 51.0
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 32.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    artifact_dirs: 22
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 43.4
     developer_ergonomics: 64.3
-    discoverability: 64.3
-    operational_transparency: 10.5
-  previous_composite: 41.6
+    discoverability: 57.1
+    operational_transparency: 21.1
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,13 +289,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/screenshots/mydentify-public-api-2026-09-02T150703.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mydentify-public-api/mydentify-public-api-2026-09-02T150703.png
 security:
 - kind: authentication
   name: Mydentify Public Api Authentication
@@ -286,6 +306,16 @@ security:
   name: Mydentify Public Api Domain Security
   slug: mydentify-public-api-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: submit-to-mydentify
+  slug: mydentify-public-api-diagnostic-first
+- name: find-products-by-intent
+  slug: mydentify-public-api-find-products-by-intent
+- name: research-product-directories
+  slug: mydentify-public-api-research-product-directories
+- name: submit-to-mydentify
+  slug: mydentify-public-api-submit-to-mydentify
 slug: mydentify-public-api
 tags:
 - Product Discovery

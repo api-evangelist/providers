@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: The Users API from Nextcloud — 2 operation(s) for users.
   name: Nextcloud Users API
   slug: nextcloud-users-api
-artifact_total: 17
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nextcloud OCS Autocomplete API
   slug: open-nextcloud-autocomplete-api
@@ -92,27 +91,27 @@ collections:
   slug: open-nextcloud
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/agentic-access/nextcloud-agentic-access.yml
+  href: https://artifacts.apis.io/nextcloud/agentic-access/nextcloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nextcloud-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/security/nextcloud-trust-center.yml
+  href: https://artifacts.apis.io/nextcloud/security/nextcloud-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nextcloud-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/security/nextcloud-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nextcloud/security/nextcloud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nextcloud-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/security/nextcloud-domain-security.yml
+  href: https://artifacts.apis.io/nextcloud/security/nextcloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nextcloud-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/authentication/nextcloud-authentication.yml
+  href: https://artifacts.apis.io/nextcloud/authentication/nextcloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nextcloud-authentication.yml
@@ -172,10 +171,10 @@ overview: 'Nextcloud publishes 6 API contracts indexed on the [APIs.io](https://
 
 
   Nextcloud''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
-random_paper: 14
+random_paper: 22
 score:
   band: thin
-  composite: 29.9
+  composite: 32.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -190,8 +189,8 @@ score:
     contract_quality: 42.2
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 29.9
+    operational_transparency: 15.8
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -205,13 +204,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/screenshots/nextcloud-2026-06-20T190256.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nextcloud/nextcloud-2026-06-20T190256.png
 security:
 - kind: authentication
   name: Nextcloud Authentication

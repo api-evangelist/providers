@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: BNP Paribas Corporate and Institutional Banking (CIB) API platform provides programmatic access to capital markets, payment services, securities services, advisory, finance, and treasury solutions for
@@ -45,22 +47,22 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bnp-paribas/refs/heads/main/plans/bnp-paribas-plans-pricing.yml
+  href: https://artifacts.apis.io/bnp-paribas/plans/bnp-paribas-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bnp-paribas-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bnp-paribas/refs/heads/main/rate-limits/bnp-paribas-rate-limits.yml
+  href: https://artifacts.apis.io/bnp-paribas/rate-limits/bnp-paribas-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bnp-paribas-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bnp-paribas/refs/heads/main/finops/bnp-paribas-finops.yml
+  href: https://artifacts.apis.io/bnp-paribas/finops/bnp-paribas-finops.yml
   title: ''
   type: FinOps
   url: finops/bnp-paribas-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bnp-paribas/refs/heads/main/security/bnp-paribas-domain-security.yml
+  href: https://artifacts.apis.io/bnp-paribas/security/bnp-paribas-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bnp-paribas-domain-security.yml
@@ -102,7 +104,7 @@ finops:
 - has_sources: false
   method: generated
   name: Bnp Paribas Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: bnp-paribas-finops
   template: true
@@ -120,14 +122,14 @@ plans:
 - name: Bnp Paribas Plans Pricing
   plan_count: 3
   slug: bnp-paribas-plans-pricing
-random_paper: 3
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Bnp Paribas Rate Limits
   slug: bnp-paribas-rate-limits
 score:
-  band: minimal
-  composite: 10.6
+  band: emerging
+  composite: 13.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 38.0
@@ -135,29 +137,29 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 33.3
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 12.1
+    operational_transparency: 13.2
+  previous_composite: 13.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bnp-paribas/refs/heads/main/screenshots/bnp-paribas-2026-06-20T173543.png
+screenshot: https://apis.io/screenshots/bnp-paribas/bnp-paribas-2026-06-20T173543.png
 security:
 - kind: domain-security
   name: Bnp Paribas Domain Security

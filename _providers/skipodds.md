@@ -15,7 +15,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,17 +28,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.7
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 36.0
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: Hosted Model Context Protocol server exposing the SkipOdds Index to AI assistants — stateless streamable-http at https://skipodds.com/mcp, protocol version 2025-06-18, five read-only tools (list_fixtu
   name: SkipOdds MCP Server
@@ -64,7 +65,7 @@ apis:
   description: The Outrights API from SkipOdds — 1 operation(s) for outrights.
   name: SkipOdds Outrights API
   slug: skipodds-outrights-api
-artifact_total: 12
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Skipodds Webhooks
@@ -111,97 +112,105 @@ common:
   type: Support
   url: mailto:hello@skipodds.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/mcp/skipodds-mcp.yml
+  href: https://artifacts.apis.io/skipodds/mcp/skipodds-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/skipodds-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/mcp/skipodds-tool-crosswalk.yml
+  href: https://artifacts.apis.io/skipodds/mcp/skipodds-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/skipodds-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/llms/skipodds-llms.txt
+  href: https://artifacts.apis.io/skipodds/llms/skipodds-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/skipodds-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/skipodds/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/authentication/skipodds-authentication.yml
+  href: https://artifacts.apis.io/skipodds/authentication/skipodds-authentication.yml
   title: ''
   type: Authentication
   url: authentication/skipodds-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/conventions/skipodds-conventions.yml
+  href: https://artifacts.apis.io/skipodds/conventions/skipodds-conventions.yml
   title: ''
   type: Conventions
   url: conventions/skipodds-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/errors/skipodds-problem-types.yml
+  href: https://artifacts.apis.io/skipodds/errors/skipodds-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/skipodds-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/data-model/skipodds-data-model.yml
+  href: https://artifacts.apis.io/skipodds/data-model/skipodds-data-model.yml
   title: ''
   type: DataModel
   url: data-model/skipodds-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/lifecycle/skipodds-lifecycle.yml
+  href: https://artifacts.apis.io/skipodds/lifecycle/skipodds-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/skipodds-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/conformance/skipodds-conformance.yml
+  href: https://artifacts.apis.io/skipodds/conformance/skipodds-conformance.yml
   title: ''
   type: Conformance
   url: conformance/skipodds-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/packages/skipodds-packages.yml
+  href: https://artifacts.apis.io/skipodds/packages/skipodds-packages.yml
   title: ''
   type: Packages
   url: packages/skipodds-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/components/skipodds-components.yml
+  href: https://artifacts.apis.io/skipodds/components/skipodds-components.yml
   title: ''
   type: Components
   url: components/skipodds-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/sandbox/skipodds-sandbox.yml
+  href: https://artifacts.apis.io/skipodds/sandbox/skipodds-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/skipodds-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/plans/skipodds-plans-pricing.yml
+  href: https://artifacts.apis.io/skipodds/plans/skipodds-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/skipodds-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/rate-limits/skipodds-rate-limits.yml
+  href: https://artifacts.apis.io/skipodds/rate-limits/skipodds-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/skipodds-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/asyncapi/skipodds-webhooks.yml
+  href: https://artifacts.apis.io/skipodds/asyncapi/skipodds-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/skipodds-webhooks.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/overlays/skipodds-openapi-overlay.yaml
+  href: https://artifacts.apis.io/skipodds/overlays/skipodds-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/skipodds-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/security/skipodds-domain-security.yml
+  href: https://artifacts.apis.io/skipodds/security/skipodds-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skipodds-domain-security.yml
 created: '2026-07-17'
 description: 'SkipOdds is a sports-odds data API from SkipSeek Inc. that publishes de-vigged consensus win probabilities — the SkipOdds Index — across 13 sports: soccer, American football, basketball, baseball, hockey, college football, college basketball, tennis, golf, cricket, rugby, MMA and boxing. Every surveyed bookmaker price for a market is averaged and stripped of its margin so the returned probabilities sum to exactly 100%, with fair decimal odds, the number of books surveyed, and the margin removed carried alongside. The surface covers fixtures, tournament outrights, line movement over a configurable window, and threshold-triggered webhook alerts, and is offered three ways: a public OpenAPI 3.0.3 REST contract, an anonymous streamable-http MCP server, and a keyless embeddable widget. Data is informational only — no bets are taken, no funds held, and no bookmaker names exposed.'
+finops:
+- has_sources: true
+  method: derived
+  name: Skipodds Finops
+  primary_unit: ''
+  service_category: ''
+  slug: skipodds-finops
+  template: true
 image: https://skipodds.com/favicon.png
 layout: provider
 mcp_servers:
@@ -223,16 +232,16 @@ plans:
 - name: Skipodds Plans Pricing
   plan_count: 6
   slug: skipodds-plans-pricing
-random_paper: 7
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Skipodds Rate Limits
   slug: skipodds-rate-limits
 score:
   band: developing
-  composite: 49.5
+  composite: 52.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 56.0
     catalog_earned_first_party: 24.0
     catalog_gap: 59.0
@@ -240,13 +249,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 64.5
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 56.4
     developer_ergonomics: 51.8
-    discoverability: 60.0
+    discoverability: 56.7
     operational_transparency: 39.5
-  previous_composite: 49.5
+  previous_composite: 52.3
   provenance:
     conformance: derived
     contracts:
@@ -262,13 +271,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/screenshots/skipodds-2026-08-17T081914.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/skipodds/skipodds-2026-08-17T081914.png
 security:
 - kind: authentication
   name: Skipodds Authentication
@@ -278,6 +288,14 @@ security:
   name: Skipodds Domain Security
   slug: skipodds-domain-security
   summary_line: TLSv1.3
+skill_count: 3
+skills:
+- name: skipodds-read-fair-probabilities
+  slug: skipodds-read-fair-probabilities
+- name: skipodds-tournament-outrights
+  slug: skipodds-tournament-outrights
+- name: skipodds-track-line-movement
+  slug: skipodds-track-line-movement
 slug: skipodds
 tags:
 - Sports

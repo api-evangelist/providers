@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,11 +51,8 @@ apis:
   description: The Organization API from Polyteia — 1 operation(s) for organization.
   name: Polyteia Organization API
   slug: polyteia-organization-api
-artifact_total: 11
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Polyteia Platform Dataset API
   slug: open-polyteia-dataset-api
@@ -67,6 +66,11 @@ collections:
   name: Polyteia Platform Dataset Workspace API
   slug: open-polyteia-workspace-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/polyteia/plans/polyteia-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/polyteia-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -88,7 +92,7 @@ common:
   type: GettingStarted
   url: https://docs.polyteia.com/readme/erste-schritte.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/authentication/polyteia-authentication.yml
+  href: https://artifacts.apis.io/polyteia/authentication/polyteia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/polyteia-authentication.yml
@@ -117,47 +121,47 @@ common:
   type: Blog
   url: https://www.polyteia.com/about/news
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/changelog/polyteia-changelog.yml
+  href: https://artifacts.apis.io/polyteia/changelog/polyteia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/polyteia-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/mcp/polyteia-mcp.yml
+  href: https://artifacts.apis.io/polyteia/mcp/polyteia-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/polyteia-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/llms/polyteia-llms.txt
+  href: https://artifacts.apis.io/polyteia/llms/polyteia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/polyteia-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/conventions/polyteia-conventions.yml
+  href: https://artifacts.apis.io/polyteia/conventions/polyteia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/polyteia-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/errors/polyteia-problem-types.yml
+  href: https://artifacts.apis.io/polyteia/errors/polyteia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/polyteia-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/data-model/polyteia-data-model.yml
+  href: https://artifacts.apis.io/polyteia/data-model/polyteia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/polyteia-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/lifecycle/polyteia-lifecycle.yml
+  href: https://artifacts.apis.io/polyteia/lifecycle/polyteia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/polyteia-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/overlays/polyteia-platform-overlay.yaml
+  href: https://artifacts.apis.io/polyteia/overlays/polyteia-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/polyteia-platform-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/conformance/polyteia-conformance.yml
+  href: https://artifacts.apis.io/polyteia/conformance/polyteia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/polyteia-conformance.yml
@@ -166,12 +170,12 @@ common:
   type: Compliance
   url: https://trustcenter.polyteia.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/security/polyteia-trust-center.yml
+  href: https://artifacts.apis.io/polyteia/security/polyteia-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/polyteia-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/security/polyteia-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/polyteia/security/polyteia-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/polyteia-vulnerability-disclosure.yml
@@ -180,22 +184,30 @@ common:
   type: Security
   url: https://www.polyteia.com/resources/data-security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/security/polyteia-domain-security.yml
+  href: https://artifacts.apis.io/polyteia/security/polyteia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/polyteia-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/polyteia/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/agentic-access/polyteia-agentic-access.yml
+  href: https://artifacts.apis.io/polyteia/agentic-access/polyteia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/polyteia-agentic-access.yml
 created: '2026-07-17'
 description: Polyteia is a Berlin-based govtech company offering a data platform for the German and European public sector. It lets public administrations connect existing systems, harmonize fragmented data, and use it in AI-supported workflows for forms, case processing, statistical evaluation, and reporting. The platform ships pre-built Solutions for common public-sector use cases (social-service planning, budget controlling, crisis response, kindergarten demand forecasting) plus a no-code/low-code Studio. It serves 80+ government entities in Germany, including the states of Schleswig-Holstein and Saarland. The platform is fully driveable through an RPC-style API (command/query over a single POST endpoint) authenticated with Personal Access Keys, backed by a Trust Center and GDPR/BSI/C5 compliance. Founded by Faruk Tuncer, Taisia Antonova, and Lukas Rambold; backed by HV Capital and DvH Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Polyteia Finops
+  primary_unit: ''
+  service_category: ''
+  slug: polyteia-finops
+  template: true
 image: https://cdn.prod.website-files.com/64f07393c02984e046baf5f8/6833060d76c3b033ca002dff_Social%20Sharing.png
 layout: provider
 modified: '2026-07-20'
@@ -205,25 +217,29 @@ network: true
 overview: 'Polyteia publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Organization API. Tagged areas include Company, Ai Enterprise Software, GovTech, Public Sector, and Data Platform.
 
 
-  Polyteia''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, pricing, support, and 21 more developer resources.'
-random_paper: 13
+  Polyteia''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, pricing, support, and 22 more developer resources.'
+plans:
+- name: Polyteia Plans Pricing
+  plan_count: 0
+  slug: polyteia-plans-pricing
+random_paper: 7
 score:
   band: developing
-  composite: 47.9
+  composite: 52.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 53.9
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -233,7 +249,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 48.0
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -253,14 +269,15 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/screenshots/polyteia-2026-08-17T081321.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/polyteia/polyteia-2026-08-17T081321.png
 security:
 - kind: authentication
   name: Polyteia Authentication
@@ -278,6 +295,12 @@ security:
   name: Polyteia Trust Center
   slug: polyteia-trust-center
   summary_line: GDPR, BSI IT-Grundschutz, BSI C5, ISO 27001 (in progress)
+skill_count: 2
+skills:
+- name: Find and read a Polyteia dataset
+  slug: polyteia-find-and-read-dataset
+- name: Provision a Polyteia solution and load a dataset
+  slug: polyteia-provision-solution-and-dataset
 slug: polyteia
 tags:
 - Company

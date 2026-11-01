@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.4
-  scored_at: '2026-10-17'
+  score: 34.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 17
   slug: fundrise-agentic-access
   summary_line: 17 operations · 7 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://sandbox.fundrise.com
   baseurl_source: declared
@@ -96,11 +98,8 @@ arazzos:
 - description: 'The primary Fundrise Connect flow, modelled from the sequence Fundrise publishes under the "Workflow Example" tag of its own OpenAPI: create a Client, exchange the issued refresh token for a Client ac'
   name: Fundrise Connect — onboard a Client and place an Investment
   slug: fundrise-onboard-client-and-invest
-artifact_total: 26
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Fundrise Connect (External API) Acknowledgments API
   slug: open-fundrise-acknowledgments-api
@@ -130,22 +129,22 @@ collections:
   slug: open-fundrise-transactions-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/rate-limits/fundrise-rate-limits.yml
+  href: https://artifacts.apis.io/fundrise/rate-limits/fundrise-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fundrise-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/capabilities/fundrise-capability-edges.yml
+  href: https://artifacts.apis.io/fundrise/capabilities/fundrise-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fundrise-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/mcp/fundrise-mcp.yml
+  href: https://artifacts.apis.io/fundrise/mcp/fundrise-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fundrise-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/overlays/fundrise-connect-overlay.yaml
+  href: https://artifacts.apis.io/fundrise/overlays/fundrise-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fundrise-connect-overlay.yaml
@@ -206,37 +205,37 @@ common:
   type: Security
   url: https://fundrise.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/well-known/fundrise-security.txt
+  href: https://artifacts.apis.io/fundrise/well-known/fundrise-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/fundrise-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/well-known/fundrise-well-known.yml
+  href: https://artifacts.apis.io/fundrise/well-known/fundrise-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fundrise-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/security/fundrise-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/fundrise/security/fundrise-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fundrise-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/security/fundrise-domain-security.yml
+  href: https://artifacts.apis.io/fundrise/security/fundrise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fundrise-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/well-known/fundrise-openid-configuration.json
+  href: https://artifacts.apis.io/fundrise/well-known/fundrise-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/fundrise-openid-configuration.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/llms/fundrise-llms.txt
+  href: https://artifacts.apis.io/fundrise/llms/fundrise-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fundrise-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fundrise/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -253,7 +252,7 @@ overview: 'Fundrise publishes 9 API contracts indexed on the [APIs.io](https://a
 
 
   Fundrise''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 19 more developer resources.'
-random_paper: 6
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Fundrise Rate Limits
@@ -264,24 +263,24 @@ scopes:
   slug: fundrise-scopes
   summary_line: 2 scopes
 score:
-  band: thin
-  composite: 38.6
+  band: developing
+  composite: 47.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 52.4
-    developer_ergonomics: 51.8
+    developer_ergonomics: 66.1
     discoverability: 66.1
-    operational_transparency: 15.8
-  previous_composite: 38.5
+    operational_transparency: 23.7
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -297,14 +296,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 36.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 40.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/screenshots/fundrise-2026-08-17T123444.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fundrise/fundrise-2026-08-17T123444.png
 security:
 - kind: authentication
   name: Fundrise Authentication
@@ -318,6 +318,14 @@ security:
   name: Fundrise Vulnerability Disclosure
   slug: fundrise-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Request and manage a Fundrise share liquidation
+  slug: fundrise-liquidate-shares
+- name: Onboard a Fundrise Client and place an Investment
+  slug: fundrise-onboard-client-and-invest
+- name: Read a Fundrise Client's portfolio, transactions and tax forms
+  slug: fundrise-read-portfolio-and-tax
 slug: fundrise
 tags:
 - Company

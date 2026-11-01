@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -43,7 +45,7 @@ common:
   type: BlogRSS
   url: https://blog.royallepage.ca/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/royal-lepage/refs/heads/main/security/royal-lepage-domain-security.yml
+  href: https://artifacts.apis.io/royal-lepage/security/royal-lepage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/royal-lepage-domain-security.yml
@@ -120,22 +122,22 @@ common:
   type: GitHubProfile
   url: https://github.com/RoyalLePage
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/royal-lepage/refs/heads/main/llms/royal-lepage-llms.txt
+  href: https://artifacts.apis.io/royal-lepage/llms/royal-lepage-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/royal-lepage-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/royal-lepage/refs/heads/main/conformance/royal-lepage-conformance.yml
+  href: https://artifacts.apis.io/royal-lepage/conformance/royal-lepage-conformance.yml
   title: ''
   type: Conformance
   url: conformance/royal-lepage-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/royal-lepage/refs/heads/main/json-ld/royal-lepage-organization.jsonld
+  href: https://artifacts.apis.io/royal-lepage/json-ld/royal-lepage-organization.jsonld
   title: ''
   type: JSONLD
   url: json-ld/royal-lepage-organization.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/royal-lepage/refs/heads/main/packages/royal-lepage-packages.yml
+  href: https://artifacts.apis.io/royal-lepage/packages/royal-lepage-packages.yml
   title: ''
   type: Packages
   url: packages/royal-lepage-packages.yml
@@ -160,10 +162,10 @@ overview: 'Royal LePage is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Royal LePage''s developer surface includes developer portal, support, YouTube channel, and 21 more developer resources.'
-random_paper: 8
+random_paper: 18
 score:
   band: emerging
-  composite: 15.4
+  composite: 15.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 32.0
@@ -177,7 +179,7 @@ score:
     contract_governance: 18.2
     contract_quality: 6.7
     developer_ergonomics: 14.3
-    discoverability: 49.1
+    discoverability: 50.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -186,7 +188,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 15.4
+  previous_composite: 15.5
   provenance:
     conformance: first-party
   regulatory:
@@ -195,14 +197,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/royal-lepage/refs/heads/main/screenshots/royal-lepage-2026-09-02T154148.png
+screenshot: https://apis.io/screenshots/royal-lepage/royal-lepage-2026-09-02T154148.png
 security:
 - kind: domain-security
   name: Royal Lepage Domain Security

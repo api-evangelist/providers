@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 32.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -117,15 +119,12 @@ apis:
     question: How do I download the weights of a model I fine-tuned?
   phrasing_ops: 6
   slug: segmind-fine-tuning-api
-artifact_total: 21
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Segmind Webhooks
   slug: segmind-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Segmind Account API
   slug: open-segmind-account-api
@@ -143,7 +142,7 @@ collections:
   slug: open-segmind
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/capabilities/segmind-capability-edges.yml
+  href: https://artifacts.apis.io/segmind/capabilities/segmind-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/segmind-capability-edges.yml
@@ -192,107 +191,107 @@ common:
   type: StatusPage
   url: https://status.segmind.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/changelog/segmind-changelog.yml
+  href: https://artifacts.apis.io/segmind/changelog/segmind-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/segmind-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/lifecycle/segmind-lifecycle.yml
+  href: https://artifacts.apis.io/segmind/lifecycle/segmind-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/segmind-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/lifecycle/segmind-lifecycle.yml
+  href: https://artifacts.apis.io/segmind/lifecycle/segmind-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/segmind-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/plans/segmind-plans-pricing.yml
+  href: https://artifacts.apis.io/segmind/plans/segmind-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/segmind-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/rate-limits/segmind-rate-limits.yml
+  href: https://artifacts.apis.io/segmind/rate-limits/segmind-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/segmind-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/finops/segmind-finops.yml
+  href: https://artifacts.apis.io/segmind/finops/segmind-finops.yml
   title: ''
   type: FinOps
   url: finops/segmind-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/agentic-access/segmind-agentic-access.yml
+  href: https://artifacts.apis.io/segmind/agentic-access/segmind-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/segmind-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/security/segmind-domain-security.yml
+  href: https://artifacts.apis.io/segmind/security/segmind-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/segmind-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/authentication/segmind-authentication.yml
+  href: https://artifacts.apis.io/segmind/authentication/segmind-authentication.yml
   title: ''
   type: Authentication
   url: authentication/segmind-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/scopes/segmind-scopes.yml
+  href: https://artifacts.apis.io/segmind/scopes/segmind-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/segmind-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/conventions/segmind-conventions.yml
+  href: https://artifacts.apis.io/segmind/conventions/segmind-conventions.yml
   title: ''
   type: Conventions
   url: conventions/segmind-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/errors/segmind-error-codes.yml
+  href: https://artifacts.apis.io/segmind/errors/segmind-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/segmind-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/conformance/segmind-conformance.yml
+  href: https://artifacts.apis.io/segmind/conformance/segmind-conformance.yml
   title: ''
   type: Conformance
   url: conformance/segmind-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/conformance/segmind-conformance.yml
+  href: https://artifacts.apis.io/segmind/conformance/segmind-conformance.yml
   title: ''
   type: Compliance
   url: conformance/segmind-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/data-model/segmind-data-model.yml
+  href: https://artifacts.apis.io/segmind/data-model/segmind-data-model.yml
   title: ''
   type: DataModel
   url: data-model/segmind-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/packages/segmind-packages.yml
+  href: https://artifacts.apis.io/segmind/packages/segmind-packages.yml
   title: ''
   type: Packages
   url: packages/segmind-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/packages/segmind-packages.yml
+  href: https://artifacts.apis.io/segmind/packages/segmind-packages.yml
   title: ''
   type: SDKs
   url: packages/segmind-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/sandbox/segmind-sandbox.yml
+  href: https://artifacts.apis.io/segmind/sandbox/segmind-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/segmind-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/segmind/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/asyncapi/segmind-webhooks.yml
+  href: https://artifacts.apis.io/segmind/asyncapi/segmind-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/segmind-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/llms/segmind-llms.txt
+  href: https://artifacts.apis.io/segmind/llms/segmind-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/segmind-llms.txt
@@ -315,13 +314,13 @@ common:
 created: '2025-03-01'
 description: Segmind is a serverless GPU inference platform that puts 200+ generative AI models — image, video, audio, 3D and LLM — behind one REST gateway with a single API key. Calls are metered per GPU-second or per generation against a prepaid credit balance, with the cost of every request reported inline on the response. The v2 asynchronous API is a submit-poll-fetch job contract built for long-running video and upscaling work, while the v1 synchronous route remains for fast models. Alongside the gateway, PixelFlow is a visual workflow builder that chains models on a canvas and publishes any workflow as its own production REST API, and dedicated endpoints run a chosen model on reserved GPUs with autoscaling. A first-party Python SDK, a browser playground, media-editing endpoints and a weekly dated changelog round out the developer surface.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Segmind Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: hour
+  service_category: ''
   slug: segmind-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/segmind.png
 layout: provider
 modified: '2026-08-27'
@@ -337,9 +336,12 @@ overview: 'Segmind publishes 7 API contracts indexed on the [APIs.io](https://ap
   Segmind''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, changelog, and 30 more developer resources.'
 plans:
 - name: Segmind Plans Pricing
-  plan_count: 5
+  plan_count: 15
   slug: segmind-plans-pricing
-random_paper: 17
+- name: Segmind Price Estimates
+  plan_count: 0
+  slug: segmind-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 7
   name: Segmind Rate Limits
@@ -351,23 +353,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 66.9
+  composite: 70.6
   coverage:
     artifact_dirs: 28
-    catalog_earned: 61.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.9
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 52.8
     developer_ergonomics: 78.6
     discoverability: 73.2
-    operational_transparency: 73.7
-  previous_composite: 68.8
+    operational_transparency: 84.2
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -384,13 +386,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/screenshots/segmind-2026-06-20T193634.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/segmind/segmind-2026-06-20T193634.png
 security:
 - kind: authentication
   name: Segmind Authentication
@@ -400,6 +403,10 @@ security:
   name: Segmind Domain Security
   slug: segmind-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: segmind-async-inference
+  slug: segmind-async-inference
 slug: segmind
 tags:
 - Artificial Intelligence

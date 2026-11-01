@@ -21,22 +21,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: documented
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 54.0
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 44.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://mcp-server.metadata.io
   baseurl_source: declared
@@ -48,19 +50,19 @@ apis:
   description: The Mcp API from Metadata — 1 operation(s) for mcp.
   name: Metadata MCP API
   slug: metadata-mcp-api
-artifact_total: 10
+artifact_total: 14
 collections:
 - collection_type: open
   name: MCP Metadata Server
   slug: open-metadata-mcp-server
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/plans/metadata-plans-pricing.yml
+  href: https://artifacts.apis.io/metadata/plans/metadata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/metadata-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/rate-limits/metadata-rate-limits.yml
+  href: https://artifacts.apis.io/metadata/rate-limits/metadata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/metadata-rate-limits.yml
@@ -69,17 +71,17 @@ common:
   type: BlogRSS
   url: https://metadata.io/feed.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/overlays/metadata-mcp-server-overlay.yaml
+  href: https://artifacts.apis.io/metadata/overlays/metadata-mcp-server-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/metadata-mcp-server-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/mcp/metadata-mcp.yml
+  href: https://artifacts.apis.io/metadata/mcp/metadata-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/metadata-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/metadata/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -112,7 +114,7 @@ common:
   type: TermsOfService
   url: https://metadata.io/terms-of-use/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/security/metadata-trust-center.yml
+  href: https://artifacts.apis.io/metadata/security/metadata-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/metadata-trust-center.yml
@@ -121,7 +123,7 @@ common:
   type: Compliance
   url: https://metadata.io/trust-compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/security/metadata-domain-security.yml
+  href: https://artifacts.apis.io/metadata/security/metadata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/metadata-domain-security.yml
@@ -146,18 +148,26 @@ common:
   type: StatusPage
   url: https://metadata.io/developers/status.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/llms/metadata-llms.txt
+  href: https://artifacts.apis.io/metadata/llms/metadata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/metadata-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/well-known/metadata-well-known.yml
+  href: https://artifacts.apis.io/metadata/well-known/metadata-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/metadata-well-known.yml
 created: '2026-07-17'
 description: 'Metadata (metadata.io) is a B2B marketing automation and demand-generation platform that uses AI agents to plan, execute, and optimize paid advertising campaigns across LinkedIn, Meta (Facebook and Instagram), Google Search and Display, Reddit, and Bing. Its core products are Metadata Campaigns (automated full-funnel paid campaign execution), Metadata Audiences with the patented MetaMatch B2B audience engine for precision targeting, and Metadata Insights for real-time, revenue-focused performance analytics. The platform connects to ad channels, CRMs (Salesforce, HubSpot), and marketing automation platforms (Marketo, Pardot) to run multivariate campaign testing at scale and optimize for pipeline and revenue rather than lead volume. Backed by 500 Global and Partech. Metadata publishes no public REST API. Its developer surface is MCP-native: the MetadataONE MCP server at mcp-server.metadata.io/mcp exposes 141 documented tools across audiences, campaigns, creatives, offers, keywords,
   ad extensions, analytics and integrations, so an agent can build an audience, generate on-brand creative, assemble a campaign and launch real paid spend without a REST client or an SDK. Developer docs, a quickstart, an authentication and scopes reference and the full tool catalog are published at metadata.io/developers/.'
+finops:
+- has_sources: true
+  method: derived
+  name: Metadata Finops
+  primary_unit: ''
+  service_category: ''
+  slug: metadata-finops
+  template: true
 image: https://metadata.io/wp-content/uploads/2025/06/IMG-20250618-WA0007.webp
 layout: provider
 mcp_servers:
@@ -176,7 +186,7 @@ plans:
 - name: Metadata Plans Pricing
   plan_count: 0
   slug: metadata-plans-pricing
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Metadata Rate Limits
@@ -188,23 +198,23 @@ scopes:
   summary_line: 7 scopes
 score:
   band: developing
-  composite: 45.2
+  composite: 45.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 37.3
     developer_ergonomics: 58.9
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 15.8
-  previous_composite: 45.1
+  previous_composite: 45.5
   provenance:
     conformance: derived
     contracts:
@@ -220,14 +230,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/screenshots/metadata-2026-08-07T172641.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/metadata/metadata-2026-08-07T172641.png
 security:
 - kind: authentication
   name: Metadata Authentication
@@ -241,6 +251,14 @@ security:
   name: Metadata Trust Center
   slug: metadata-trust-center
   summary_line: SOC 2 Type II, ISO/IEC 27001, ISO/IEC 27701, GDPR, CCPA, CSA STAR
+skill_count: 3
+skills:
+- name: metadata-audience-build-and-estimate
+  slug: metadata-audience-build-and-estimate
+- name: metadata-launch-multichannel-campaign
+  slug: metadata-launch-multichannel-campaign
+- name: metadata-performance-and-pipeline-reporting
+  slug: metadata-performance-and-pipeline-reporting
 slug: metadata
 tags:
 - Company

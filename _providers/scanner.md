@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.4
-  scored_at: '2026-10-17'
+  score: 30.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -74,15 +76,12 @@ apis:
   description: Upload, manage, and download lookup table files for enrichment.
   name: Scanner Lookup Tables API
   slug: scanner-lookup-tables-api
-artifact_total: 19
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Scanner Webhooks
   slug: scanner-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Scanner Ad Hoc Queries API
   slug: open-scanner-ad-hoc-queries-api
@@ -102,6 +101,11 @@ collections:
   name: Scanner Ad Hoc Queries Lookup Tables API
   slug: open-scanner-lookup-tables-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/scanner/plans/scanner-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/scanner-plans-pricing.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -147,57 +151,57 @@ common:
   type: ChangeLog
   url: https://scanner.dev/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/changelog/scanner-changelog.yml
+  href: https://artifacts.apis.io/scanner/changelog/scanner-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/scanner-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/authentication/scanner-authentication.yml
+  href: https://artifacts.apis.io/scanner/authentication/scanner-authentication.yml
   title: ''
   type: Authentication
   url: authentication/scanner-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/mcp/scanner-mcp.yml
+  href: https://artifacts.apis.io/scanner/mcp/scanner-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/scanner-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/scanner/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/cli/scanner-cli.yml
+  href: https://artifacts.apis.io/scanner/cli/scanner-cli.yml
   title: ''
   type: CLI
   url: cli/scanner-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/packages/scanner-packages.yml
+  href: https://artifacts.apis.io/scanner/packages/scanner-packages.yml
   title: ''
   type: Packages
   url: packages/scanner-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/conventions/scanner-conventions.yml
+  href: https://artifacts.apis.io/scanner/conventions/scanner-conventions.yml
   title: ''
   type: Conventions
   url: conventions/scanner-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/errors/scanner-problem-types.yml
+  href: https://artifacts.apis.io/scanner/errors/scanner-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/scanner-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/lifecycle/scanner-lifecycle.yml
+  href: https://artifacts.apis.io/scanner/lifecycle/scanner-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/scanner-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/data-model/scanner-data-model.yml
+  href: https://artifacts.apis.io/scanner/data-model/scanner-data-model.yml
   title: ''
   type: DataModel
   url: data-model/scanner-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/conformance/scanner-conformance.yml
+  href: https://artifacts.apis.io/scanner/conformance/scanner-conformance.yml
   title: ''
   type: Conformance
   url: conformance/scanner-conformance.yml
@@ -206,32 +210,32 @@ common:
   type: Compliance
   url: https://scanner.dev/trust
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/asyncapi/scanner-webhooks.yml
+  href: https://artifacts.apis.io/scanner/asyncapi/scanner-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/scanner-webhooks.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/overlays/scanner-overlay.yaml
+  href: https://artifacts.apis.io/scanner/overlays/scanner-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/scanner-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/llms/scanner-llms.txt
+  href: https://artifacts.apis.io/scanner/llms/scanner-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/scanner-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/agentic-access/scanner-agentic-access.yml
+  href: https://artifacts.apis.io/scanner/agentic-access/scanner-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/scanner-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/security/scanner-trust-center.yml
+  href: https://artifacts.apis.io/scanner/security/scanner-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/scanner-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/security/scanner-domain-security.yml
+  href: https://artifacts.apis.io/scanner/security/scanner-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/scanner-domain-security.yml
@@ -241,6 +245,14 @@ common:
   url: https://scanner.dev/
 created: '2026-07-17'
 description: Scanner is a cloud-native security data platform that indexes security logs directly in Amazon S3 to deliver full-text search across petabytes, continuous streaming threat detection, and programmatic and agent-native access to security data — an alternative to traditional SIEMs and data lakes. Its REST API (v1) covers searchable indexes, detection rules, event sinks, lookup tables, ad hoc queries, and query-capacity info, and it ships a hosted Model Context Protocol (MCP) server plus a detection-rules-as-code CLI (scanner-cli). Authentication is a Scanner API key presented as an HTTP Bearer token; console SSO is brokered by Stytch (Okta, Google Workspace, Microsoft Entra, SCIM). SOC 2 Type II certified and GDPR compliant. Backed by CRV.
+finops:
+- has_sources: true
+  method: derived
+  name: Scanner Finops
+  primary_unit: 250–500 gb daily log volume
+  service_category: ''
+  slug: scanner-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scanner.png
 layout: provider
 mcp_servers:
@@ -257,27 +269,34 @@ overview: 'Scanner publishes 6 API contracts indexed on the [APIs.io](https://ap
   The Scanner catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Scanner''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 23 more developer resources.'
-random_paper: 20
+  Scanner''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 24 more developer resources.'
+plans:
+- name: Scanner Plans Pricing
+  plan_count: 3
+  slug: scanner-plans-pricing
+- name: Scanner Price Estimates
+  plan_count: 0
+  slug: scanner-price-estimates
+random_paper: 2
 score:
   band: developing
-  composite: 39.8
+  composite: 51.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 39.5
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 28.4
+    contract_quality: 22.3
     developer_ergonomics: 61.3
-    discoverability: 66.1
+    discoverability: 65.0
     operational_transparency: 23.7
-  previous_composite: 39.8
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -297,14 +316,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/screenshots/scanner-2026-08-17T081732.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/scanner/scanner-2026-08-17T081732.png
 security:
 - kind: authentication
   name: Scanner Authentication
@@ -318,6 +338,14 @@ security:
   name: Scanner Trust Center
   slug: scanner-trust-center
   summary_line: SOC 2 Type II, GDPR
+skill_count: 3
+skills:
+- name: Create and manage a Scanner detection rule
+  slug: scanner-manage-detection-rule
+- name: Route Scanner alerts to Slack, PagerDuty, or a webhook
+  slug: scanner-route-alerts
+- name: Run a Scanner threat-hunt query
+  slug: scanner-threat-hunt-query
 slug: scanner
 tags:
 - Company

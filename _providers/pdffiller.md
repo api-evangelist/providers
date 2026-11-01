@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-17'
+  score: 23.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -99,11 +101,8 @@ apis:
   description: Retrieve current user information
   name: PDFfiller Users API
   slug: pdffiller-users-api
-artifact_total: 38
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PDFfiller REST Applications API
   slug: open-pdffiller-applications-api
@@ -139,27 +138,27 @@ collections:
   slug: open-pdffiller-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/capabilities/pdffiller-capability-edges.yml
+  href: https://artifacts.apis.io/pdffiller/capabilities/pdffiller-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pdffiller-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/agentic-access/pdffiller-agentic-access.yml
+  href: https://artifacts.apis.io/pdffiller/agentic-access/pdffiller-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pdffiller-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/security/pdffiller-domain-security.yml
+  href: https://artifacts.apis.io/pdffiller/security/pdffiller-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pdffiller-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/authentication/pdffiller-authentication.yml
+  href: https://artifacts.apis.io/pdffiller/authentication/pdffiller-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pdffiller-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/scopes/pdffiller-scopes.yml
+  href: https://artifacts.apis.io/pdffiller/scopes/pdffiller-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pdffiller-scopes.yml
@@ -196,17 +195,17 @@ common:
   type: X
   url: https://x.com/pdf_filler
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/plans/pdffiller-plans-pricing.yml
+  href: https://artifacts.apis.io/pdffiller/plans/pdffiller-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pdffiller-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/rate-limits/pdffiller-rate-limits.yml
+  href: https://artifacts.apis.io/pdffiller/rate-limits/pdffiller-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pdffiller-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/finops/pdffiller-finops.yml
+  href: https://artifacts.apis.io/pdffiller/finops/pdffiller-finops.yml
   title: ''
   type: FinOps
   url: finops/pdffiller-finops.yml
@@ -262,7 +261,7 @@ plans:
 - name: Pdffiller Plans Pricing
   plan_count: 3
   slug: pdffiller-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Pdffiller Rate Limits
@@ -286,7 +285,7 @@ scopes:
   summary_line: 2 scopes · password/clientCredentials
 score:
   band: thin
-  composite: 33.7
+  composite: 34.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 51.3
@@ -294,15 +293,15 @@ score:
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
-    contract_quality: 57.3
-    developer_ergonomics: 31.0
+    contract_quality: 53.9
+    developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 39.3
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -316,13 +315,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/screenshots/pdffiller-2026-06-20T191529.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pdffiller/pdffiller-2026-06-20T191529.png
 security:
 - kind: authentication
   name: Pdffiller Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.0
-  scored_at: '2026-10-17'
+  score: 42.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -149,11 +151,8 @@ apis:
   description: The Transactions API from NatWest Group — 3 operation(s) for transactions.
   name: NatWest Group Transactions API
   slug: natwest-transactions-api
-artifact_total: 48
+artifact_total: 50
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Account and Transaction API Specification Account Access API
   slug: open-natwest-account-access-api
@@ -218,23 +217,27 @@ collections:
   name: Account and Transaction API Specification Account Access Transactions API
   slug: open-natwest-transactions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/natwest-group/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/capabilities/natwest-capability-edges.yml
+  href: https://artifacts.apis.io/natwest/capabilities/natwest-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/natwest-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/well-known/natwest-well-known.yml
+  href: https://artifacts.apis.io/natwest/well-known/natwest-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/natwest-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/well-known/natwest-security.txt
+  href: https://artifacts.apis.io/natwest/well-known/natwest-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/natwest-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/lifecycle/natwest-lifecycle.yml
+  href: https://artifacts.apis.io/natwest/lifecycle/natwest-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/natwest-lifecycle.yml
@@ -247,12 +250,12 @@ common:
   type: Deprecation
   url: https://www.bankofapis.com/updates-and-releases
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/changelog/natwest-changelog.yml
+  href: https://artifacts.apis.io/natwest/changelog/natwest-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/natwest-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/conformance/natwest-conformance.yml
+  href: https://artifacts.apis.io/natwest/conformance/natwest-conformance.yml
   title: ''
   type: Conformance
   url: conformance/natwest-conformance.yml
@@ -261,57 +264,57 @@ common:
   type: Compliance
   url: https://www.bankofapis.com/products/natwest-group-open-banking/fca-service-metrics
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/errors/natwest-error-codes.yml
+  href: https://artifacts.apis.io/natwest/errors/natwest-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/natwest-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/conventions/natwest-conventions.yml
+  href: https://artifacts.apis.io/natwest/conventions/natwest-conventions.yml
   title: ''
   type: Conventions
   url: conventions/natwest-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/conventions/natwest-conventions.yml
+  href: https://artifacts.apis.io/natwest/conventions/natwest-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/natwest-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/data-model/natwest-data-model.yml
+  href: https://artifacts.apis.io/natwest/data-model/natwest-data-model.yml
   title: ''
   type: DataModel
   url: data-model/natwest-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/sandbox/natwest-sandbox.yml
+  href: https://artifacts.apis.io/natwest/sandbox/natwest-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/natwest-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/mcp/natwest-mcp.yml
+  href: https://artifacts.apis.io/natwest/mcp/natwest-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/natwest-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/llms/natwest-llms.txt
+  href: https://artifacts.apis.io/natwest/llms/natwest-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/natwest-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/natwest/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/overlays/natwest-account-transaction-overlay.yaml
+  href: https://artifacts.apis.io/natwest/overlays/natwest-account-transaction-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/natwest-account-transaction-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/overlays/natwest-payment-initiation-overlay.yaml
+  href: https://artifacts.apis.io/natwest/overlays/natwest-payment-initiation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/natwest-payment-initiation-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/overlays/natwest-confirmation-of-funds-overlay.yaml
+  href: https://artifacts.apis.io/natwest/overlays/natwest-confirmation-of-funds-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/natwest-confirmation-of-funds-overlay.yaml
@@ -320,27 +323,27 @@ common:
   type: Security
   url: https://bugcrowd.com/natwest-vdp
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/security/natwest-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/natwest/security/natwest-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/natwest-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/security/natwest-domain-security.yml
+  href: https://artifacts.apis.io/natwest/security/natwest-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/natwest-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/agentic-access/natwest-agentic-access.yml
+  href: https://artifacts.apis.io/natwest/agentic-access/natwest-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/natwest-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/scopes/natwest-scopes.yml
+  href: https://artifacts.apis.io/natwest/scopes/natwest-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/natwest-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/authentication/natwest-authentication.yml
+  href: https://artifacts.apis.io/natwest/authentication/natwest-authentication.yml
   title: ''
   type: Authentication
   url: authentication/natwest-authentication.yml
@@ -403,16 +406,16 @@ network: true
 overview: 'NatWest Group publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Access API, Accounts API, Balances API, and 18 more. Tagged areas include Banking, Open Banking, Financial Services, Payments, and PSD2.
 
 
-  NatWest Group''s developer surface includes changelog, sandbox, authentication, documentation, getting-started guide, engineering blog, support, and 31 more developer resources.'
-random_paper: 4
+  NatWest Group''s developer surface includes changelog, sandbox, authentication, documentation, getting-started guide, engineering blog, support, and 32 more developer resources.'
+random_paper: 6
 scopes:
 - name: Natwest Scopes
   scope_count: 5
   slug: natwest-scopes
   summary_line: 5 scopes
 score:
-  band: thin
-  composite: 28.3
+  band: developing
+  composite: 53.4
   coverage:
     artifact_dirs: 23
     catalog_earned: 40.0
@@ -420,15 +423,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
-    access_clarity: 0.0
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 44.4
-    developer_ergonomics: 8.9
-    discoverability: 78.6
-    operational_transparency: 28.9
-  previous_composite: 28.3
+    developer_ergonomics: 67.3
+    discoverability: 71.4
+    operational_transparency: 55.3
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -444,14 +447,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 36.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 46.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/screenshots/natwest-2026-08-07T184715.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/natwest/natwest-2026-08-07T184715.png
 security:
 - kind: authentication
   name: Natwest Authentication
@@ -465,6 +469,14 @@ security:
   name: Natwest Vulnerability Disclosure
   slug: natwest-vulnerability-disclosure
   summary_line: Bugcrowd · security.txt · contact published
+skill_count: 3
+skills:
+- name: Retrieve NatWest account information (AISP)
+  slug: natwest-account-information
+- name: Confirm funds availability (CBPII)
+  slug: natwest-confirmation-of-funds
+- name: Initiate a NatWest domestic payment (PISP)
+  slug: natwest-domestic-payment
 slug: natwest
 tags:
 - Banking

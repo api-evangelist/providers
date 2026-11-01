@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-10-17'
+  score: 31.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://console.zenadmin.ai/api/external
@@ -67,15 +69,12 @@ apis:
   description: The Webhooks API from ZenAdmin — 4 operation(s) for webhooks.
   name: ZenAdmin Webhooks API
   slug: zenadmin-webhooks-api
-artifact_total: 16
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Zenadmin Webhooks
   slug: zenadmin-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ZenAdmin External Catalog API
   slug: open-zenadmin-catalog-api
@@ -96,17 +95,17 @@ collections:
   slug: open-zenadmin-webhooks-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/skills/zenadmin-inventory-devices-employees.md
+  href: https://artifacts.apis.io/zenadmin/skills/zenadmin-inventory-devices-employees.md
   title: ''
   type: AgentSkill
   url: skills/zenadmin-inventory-devices-employees.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/mcp/zenadmin-mcp.yml
+  href: https://artifacts.apis.io/zenadmin/mcp/zenadmin-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zenadmin-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/overlays/zenadmin-external-api-overlay.yaml
+  href: https://artifacts.apis.io/zenadmin/overlays/zenadmin-external-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zenadmin-external-api-overlay.yaml
@@ -143,17 +142,17 @@ common:
   type: PrivacyPolicy
   url: https://www.zenadmin.ai/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/llms/zenadmin-llms.txt
+  href: https://artifacts.apis.io/zenadmin/llms/zenadmin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zenadmin-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/security/zenadmin-domain-security.yml
+  href: https://artifacts.apis.io/zenadmin/security/zenadmin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zenadmin-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/well-known/zenadmin-well-known.yml
+  href: https://artifacts.apis.io/zenadmin/well-known/zenadmin-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zenadmin-well-known.yml
@@ -172,26 +171,26 @@ overview: 'ZenAdmin publishes 6 API contracts indexed on the [APIs.io](https://a
 
 
   ZenAdmin''s developer surface includes documentation, API reference, engineering blog, and 11 more developer resources.'
-random_paper: 18
+random_paper: 14
 score:
   band: thin
-  composite: 29.8
+  composite: 30.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 24.9
+    contract_quality: 21.5
     developer_ergonomics: 42.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 29.7
+  previous_composite: 30.3
   provenance:
     conformance: derived
     contracts:
@@ -207,13 +206,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/screenshots/zenadmin-2026-09-02T171553.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zenadmin/zenadmin-2026-09-02T171553.png
 security:
 - kind: authentication
   name: Zenadmin Authentication
@@ -223,6 +223,16 @@ security:
   name: Zenadmin Domain Security
   slug: zenadmin-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: inventory-devices-employees
+  slug: zenadmin-inventory-devices-employees
+- name: manage-webhooks
+  slug: zenadmin-manage-webhooks
+- name: order-hardware
+  slug: zenadmin-order-hardware
+- name: track-and-cancel-order
+  slug: zenadmin-track-and-cancel-order
 slug: zenadmin
 tags:
 - Company

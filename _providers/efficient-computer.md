@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -97,12 +99,12 @@ common:
   type: Bluesky
   url: https://bsky.app/profile/efficientcomputer.bsky.social
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/efficient-computer/refs/heads/main/llms/efficient-computer-llms.txt
+  href: https://artifacts.apis.io/efficient-computer/llms/efficient-computer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/efficient-computer-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/efficient-computer/refs/heads/main/security/efficient-computer-domain-security.yml
+  href: https://artifacts.apis.io/efficient-computer/security/efficient-computer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/efficient-computer-domain-security.yml
@@ -121,7 +123,7 @@ overview: 'Efficient Computer is profiled on the [APIs.io](https://apis.io/) net
 random_paper: 17
 score:
   band: emerging
-  composite: 13.2
+  composite: 18.5
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -134,9 +136,9 @@ score:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
-    discoverability: 55.4
-    operational_transparency: 2.6
+    developer_ergonomics: 45.2
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -144,21 +146,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 13.2
+  previous_composite: 18.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/efficient-computer/refs/heads/main/screenshots/efficient-computer-2026-07-25T213043.png
+screenshot: https://apis.io/screenshots/efficient-computer/efficient-computer-2026-07-25T213043.png
 security:
 - kind: domain-security
   name: Efficient Computer Domain Security

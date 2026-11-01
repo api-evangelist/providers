@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: The AutoRest Core package (@autorest/core) is the central engine that orchestrates code generation from OpenAPI specifications. It handles input processing, configuration resolution, pipeline manageme
@@ -57,17 +59,17 @@ apis:
 artifact_total: 21
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/plans/autorest-plans-pricing.yml
+  href: https://artifacts.apis.io/autorest/plans/autorest-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/autorest-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/rate-limits/autorest-rate-limits.yml
+  href: https://artifacts.apis.io/autorest/rate-limits/autorest-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/autorest-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/finops/autorest-finops.yml
+  href: https://artifacts.apis.io/autorest/finops/autorest-finops.yml
   title: ''
   type: FinOps
   url: finops/autorest-finops.yml
@@ -120,22 +122,22 @@ common:
   type: License
   url: https://github.com/Azure/autorest/blob/main/LICENSE
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/packages/autorest-packages.yml
+  href: https://artifacts.apis.io/autorest/packages/autorest-packages.yml
   title: ''
   type: Packages
   url: packages/autorest-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/packages/autorest-packages.yml
+  href: https://artifacts.apis.io/autorest/packages/autorest-packages.yml
   title: First-party npm packages and language generators
   type: SDKs
   url: packages/autorest-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/cli/autorest-cli.yml
+  href: https://artifacts.apis.io/autorest/cli/autorest-cli.yml
   title: ''
   type: CLI
   url: cli/autorest-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/lifecycle/autorest-lifecycle.yml
+  href: https://artifacts.apis.io/autorest/lifecycle/autorest-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/autorest-lifecycle.yml
@@ -144,12 +146,12 @@ common:
   type: Deprecation
   url: https://github.com/Azure/autorest/issues/5175
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/changelog/autorest-changelog.yml
+  href: https://artifacts.apis.io/autorest/changelog/autorest-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/autorest-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/security/autorest-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/autorest/security/autorest-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/autorest-vulnerability-disclosure.yml
@@ -158,17 +160,17 @@ common:
   type: Security
   url: https://github.com/Azure/autorest/blob/main/SECURITY.md
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/vocabulary/autorest-openapi-extensions.yml
+  href: https://artifacts.apis.io/autorest/vocabulary/autorest-openapi-extensions.yml
   title: AutoRest x-ms-* extensions for OpenAPI 2.0
   type: Vocabulary
   url: vocabulary/autorest-openapi-extensions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/conformance/autorest-conformance.yml
+  href: https://artifacts.apis.io/autorest/conformance/autorest-conformance.yml
   title: ''
   type: Conformance
   url: conformance/autorest-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/llms/autorest-llms.txt
+  href: https://artifacts.apis.io/autorest/llms/autorest-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/autorest-llms.txt
@@ -189,7 +191,7 @@ finops:
 - has_sources: false
   method: generated
   name: Autorest Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: autorest-finops
   template: true
@@ -214,14 +216,14 @@ plans:
 - name: Autorest Plans Pricing
   plan_count: 3
   slug: autorest-plans-pricing
-random_paper: 7
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Autorest Rate Limits
   slug: autorest-rate-limits
 score:
   band: thin
-  composite: 34.7
+  composite: 27.7
   coverage:
     artifact_dirs: 13
     catalog_earned: 46.0
@@ -229,18 +231,15 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 33.3
     contract_quality: 0.0
     developer_ergonomics: 47.6
     discoverability: 62.5
-    operational_transparency: 44.7
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 36.0
+    operational_transparency: 47.4
+  previous_composite: 27.7
   provenance:
     conformance: first-party
   regulatory:
@@ -249,14 +248,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/screenshots/autorest-2026-06-20T172707.png
+screenshot: https://apis.io/screenshots/autorest/autorest-2026-06-20T172707.png
 security:
 - kind: vulnerability-disclosure
   name: Autorest Vulnerability Disclosure

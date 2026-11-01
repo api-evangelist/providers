@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -205,11 +207,8 @@ apis:
   description: Manage virtual node groups (launch specifications) within Ocean clusters.
   name: Spot Virtual Node Groups API
   slug: flexera-virtual-node-groups-api
-artifact_total: 360
+artifact_total: 359
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Spot Administration Access Policies API
   slug: open-flexera-access-policies-api
@@ -323,42 +322,42 @@ collections:
   slug: open-spot-ocean-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/plans/flexera-plans-pricing.yml
+  href: https://artifacts.apis.io/flexera/plans/flexera-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/flexera-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/rate-limits/flexera-rate-limits.yml
+  href: https://artifacts.apis.io/flexera/rate-limits/flexera-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/flexera-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/finops/flexera-finops.yml
+  href: https://artifacts.apis.io/flexera/finops/flexera-finops.yml
   title: ''
   type: FinOps
   url: finops/flexera-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/capabilities/flexera-capability-edges.yml
+  href: https://artifacts.apis.io/flexera/capabilities/flexera-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/flexera-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/agentic-access/flexera-agentic-access.yml
+  href: https://artifacts.apis.io/flexera/agentic-access/flexera-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/flexera-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/security/flexera-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/flexera/security/flexera-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/flexera-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/security/flexera-domain-security.yml
+  href: https://artifacts.apis.io/flexera/security/flexera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flexera-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/authentication/flexera-authentication.yml
+  href: https://artifacts.apis.io/flexera/authentication/flexera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flexera-authentication.yml
@@ -1242,7 +1241,7 @@ plans:
 - name: Spot Plans Pricing
   plan_count: 1
   slug: spot-plans-pricing
-random_paper: 17
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Flexera Rate Limits
@@ -1287,7 +1286,7 @@ rules:
   slug: spot-spectral-rules
 score:
   band: thin
-  composite: 34.0
+  composite: 38.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 63.5
@@ -1295,15 +1294,15 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 13.6
-    contract_quality: 64.2
+    contract_quality: 60.8
     developer_ergonomics: 31.0
     discoverability: 71.4
-    operational_transparency: 7.9
-  previous_composite: 35.5
+    operational_transparency: 21.1
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1316,14 +1315,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 26.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/screenshots/flexera-2026-06-20T181307.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/flexera/flexera-2026-06-20T181307.png
 security:
 - kind: authentication
   name: Flexera Authentication

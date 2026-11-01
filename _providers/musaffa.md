@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,20 +38,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API returning Shariah-compliance screening for stocks and ETFs — a compliance status and 0-5 ranking per ticker, a full screening report with revenue breakdown and interest-bearing securities/deb
   name: Musaffa B2B Shariah Compliance API
   slug: musaffa-b2b-shariah-compliance-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Musaffa Screening Webhooks
   slug: musaffa-screening-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/security/musaffa-domain-security.yml
+  href: https://artifacts.apis.io/musaffa/security/musaffa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/musaffa-domain-security.yml
@@ -98,62 +100,70 @@ common:
   type: Blog
   url: https://musaffa.com/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/authentication/musaffa-authentication.yml
+  href: https://artifacts.apis.io/musaffa/authentication/musaffa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/musaffa-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/rate-limits/musaffa-rate-limits.yml
+  href: https://artifacts.apis.io/musaffa/rate-limits/musaffa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/musaffa-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/plans/musaffa-plans-pricing.yml
+  href: https://artifacts.apis.io/musaffa/plans/musaffa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/musaffa-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/errors/musaffa-problem-types.yml
+  href: https://artifacts.apis.io/musaffa/errors/musaffa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/musaffa-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/conventions/musaffa-conventions.yml
+  href: https://artifacts.apis.io/musaffa/conventions/musaffa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/musaffa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/conformance/musaffa-conformance.yml
+  href: https://artifacts.apis.io/musaffa/conformance/musaffa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/musaffa-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/lifecycle/musaffa-lifecycle.yml
+  href: https://artifacts.apis.io/musaffa/lifecycle/musaffa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/musaffa-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/asyncapi/musaffa-screening-webhooks.yml
+  href: https://artifacts.apis.io/musaffa/asyncapi/musaffa-screening-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/musaffa-screening-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/data-model/musaffa-data-model.yml
+  href: https://artifacts.apis.io/musaffa/data-model/musaffa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/musaffa-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/packages/musaffa-packages.yml
+  href: https://artifacts.apis.io/musaffa/packages/musaffa-packages.yml
   title: ''
   type: Packages
   url: packages/musaffa-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/llms/musaffa-llms.txt
+  href: https://artifacts.apis.io/musaffa/llms/musaffa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/musaffa-llms.txt
 created: '2026-08-26'
 description: 'Musaffa is a New York-headquartered Islamic fintech that operates a halal investing platform and sells its underlying Shariah-compliance dataset to other businesses as the Musaffa B2B API. The company screens 120,000+ stocks and ETFs across 70+ global exchanges against an AAOIFI-based methodology and exposes the results — compliance status, a 0-5 compliance ranking, revenue breakdown, interest-bearing securities and debt ratios, dividend purification amounts and related securities — through a versioned REST API at platform.musaffa.com, plus an outbound webhook that pushes compliance-status changes to a subscriber URL. The B2B API is documented publicly at api.musaffa.com (v1, v2 and the current v3) but the API itself is sold through a demo/sales process: credentials are a client ID plus a shared secret issued per client, and there is no self-service signup for the API.'
+finops:
+- has_sources: true
+  method: derived
+  name: Musaffa Finops
+  primary_unit: ''
+  service_category: ''
+  slug: musaffa-finops
+  template: true
 image: https://musaffa.com/assets/images/header/musaffa-logo-black.webp
 layout: provider
 modified: '2026-08-26'
@@ -169,18 +179,18 @@ overview: 'Musaffa is listed with 1 API on the [APIs.io](https://apis.io/) netwo
   Musaffa''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, authentication, and 16 more developer resources.'
 plans:
 - name: Musaffa Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: musaffa-plans-pricing
-random_paper: 13
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Musaffa Rate Limits
   slug: musaffa-rate-limits
 score:
   band: developing
-  composite: 44.8
+  composite: 49.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -191,9 +201,9 @@ score:
     access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 28.6
+    developer_ergonomics: 45.2
     discoverability: 66.1
-    operational_transparency: 31.6
+    operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -201,7 +211,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 44.8
+  previous_composite: 49.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -211,14 +221,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/screenshots/musaffa-2026-09-02T150701.png
+screenshot: https://apis.io/screenshots/musaffa/musaffa-2026-09-02T150701.png
 security:
 - kind: authentication
   name: Musaffa Authentication

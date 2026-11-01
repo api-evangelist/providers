@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Altus Group publishes no public API, OpenAPI or developer program for ARGUS Developer. Probed 2026-09-06: no spec on any Altus host, no developer or docs subdomain resolves, and cloud.altusplatform.co'
@@ -43,12 +45,12 @@ apis:
 artifact_total: 23
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/argus-developer/refs/heads/main/finops/argus-developer-finops.yml
+  href: https://artifacts.apis.io/argus-developer/finops/argus-developer-finops.yml
   title: ''
   type: FinOps
   url: finops/argus-developer-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/argus-developer/refs/heads/main/security/argus-developer-domain-security.yml
+  href: https://artifacts.apis.io/argus-developer/security/argus-developer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/argus-developer-domain-security.yml
@@ -89,52 +91,52 @@ common:
   type: GitHubOrganization
   url: https://github.com/AltusGroup
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/argus-developer/refs/heads/main/well-known/argus-developer-well-known.yml
+  href: https://artifacts.apis.io/argus-developer/well-known/argus-developer-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/argus-developer-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/argus-developer/refs/heads/main/security/argus-developer-trust-center.yml
+  href: https://artifacts.apis.io/argus-developer/security/argus-developer-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/argus-developer-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/argus-developer/refs/heads/main/security/argus-developer-trust-center.yml
+  href: https://artifacts.apis.io/argus-developer/security/argus-developer-trust-center.yml
   title: ''
   type: Compliance
   url: security/argus-developer-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/argus-developer/refs/heads/main/conformance/argus-developer-conformance.yml
+  href: https://artifacts.apis.io/argus-developer/conformance/argus-developer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/argus-developer-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/argus-developer/refs/heads/main/lifecycle/argus-developer-lifecycle.yml
+  href: https://artifacts.apis.io/argus-developer/lifecycle/argus-developer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/argus-developer-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/argus-developer/refs/heads/main/lifecycle/argus-developer-lifecycle.yml
+  href: https://artifacts.apis.io/argus-developer/lifecycle/argus-developer-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/argus-developer-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/argus-developer/refs/heads/main/changelog/argus-developer-changelog.yml
+  href: https://artifacts.apis.io/argus-developer/changelog/argus-developer-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/argus-developer-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/argus-developer/refs/heads/main/llms/argus-developer-llms.txt
+  href: https://artifacts.apis.io/argus-developer/llms/argus-developer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/argus-developer-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/argus-developer/refs/heads/main/plans/argus-developer-plans-pricing.yml
+  href: https://artifacts.apis.io/argus-developer/plans/argus-developer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/argus-developer-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/argus-developer/refs/heads/main/rate-limits/argus-developer-rate-limits.yml
+  href: https://artifacts.apis.io/argus-developer/rate-limits/argus-developer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/argus-developer-rate-limits.yml
@@ -161,7 +163,7 @@ finops:
 - has_sources: false
   method: generated
   name: Argus Developer Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: argus-developer-finops
   template: true
@@ -188,14 +190,14 @@ plans:
 - name: Argus Developer Plans Pricing
   plan_count: 0
   slug: argus-developer-plans-pricing
-random_paper: 17
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Argus Developer Rate Limits
   slug: argus-developer-rate-limits
 score:
-  band: thin
-  composite: 26.5
+  band: emerging
+  composite: 26.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 32.0
@@ -203,15 +205,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 64.3
-    operational_transparency: 26.3
-  previous_composite: 28.0
+    discoverability: 57.1
+    operational_transparency: 28.9
+  previous_composite: 26.1
   provenance:
     conformance: first-party
   regulatory:
@@ -220,14 +222,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/argus-developer/refs/heads/main/screenshots/argus-developer-2026-06-20T172427.png
+screenshot: https://apis.io/screenshots/argus-developer/argus-developer-2026-06-20T172427.png
 security:
 - kind: domain-security
   name: Argus Developer Domain Security

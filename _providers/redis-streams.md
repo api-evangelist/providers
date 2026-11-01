@@ -4,6 +4,6 @@ layout: provider
 name: redis-streams
 nav: Providers
 network: true
-random_paper: 5
+random_paper: 3
 slug: redis-streams
 ---

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -32,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The authentication, session, organization and admin API behind the Nickelytics / R-Ads Ad Manager. It is a Better Auth instance whose auto-generated OpenAPI 3.1.1 document is served publicly at /api/a
   name: Nickelytics R-Ads Platform Authentication API
   slug: nickelytics-r-ads-platform-authentication-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: other
   title: ''
@@ -73,47 +75,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/Nickelytics
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nickelytics/refs/heads/main/security/nickelytics-domain-security.yml
+  href: https://artifacts.apis.io/nickelytics/security/nickelytics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nickelytics-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nickelytics/refs/heads/main/well-known/nickelytics-well-known.yml
+  href: https://artifacts.apis.io/nickelytics/well-known/nickelytics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nickelytics-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nickelytics/refs/heads/main/llms/nickelytics-llms.txt
+  href: https://artifacts.apis.io/nickelytics/llms/nickelytics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nickelytics-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nickelytics/refs/heads/main/conformance/nickelytics-conformance.yml
+  href: https://artifacts.apis.io/nickelytics/conformance/nickelytics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nickelytics-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nickelytics/refs/heads/main/lifecycle/nickelytics-lifecycle.yml
+  href: https://artifacts.apis.io/nickelytics/lifecycle/nickelytics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nickelytics-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nickelytics/refs/heads/main/packages/nickelytics-packages.yml
+  href: https://artifacts.apis.io/nickelytics/packages/nickelytics-packages.yml
   title: ''
   type: Packages
   url: packages/nickelytics-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nickelytics/refs/heads/main/plans/nickelytics-plans-pricing.yml
+  href: https://artifacts.apis.io/nickelytics/plans/nickelytics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nickelytics-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nickelytics/refs/heads/main/rate-limits/nickelytics-rate-limits.yml
+  href: https://artifacts.apis.io/nickelytics/rate-limits/nickelytics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nickelytics-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nickelytics/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nickelytics/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -126,7 +128,7 @@ modified: '2026-08-12'
 name: Nickelytics
 nav: Providers
 network: true
-overview: 'Nickelytics is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, OOH, Digital Out Of Home, and Programmatic Advertising.
+overview: 'Nickelytics is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Out-of-Home, Digital Out Of Home, and Programmatic Advertising.
 
 
   Nickelytics'' developer surface includes support, signup flow, engineering blog, and 14 more developer resources.'
@@ -134,14 +136,14 @@ plans:
 - name: Nickelytics Plans Pricing
   plan_count: 0
   slug: nickelytics-plans-pricing
-random_paper: 20
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Nickelytics Rate Limits
   slug: nickelytics-rate-limits
 score:
   band: emerging
-  composite: 20.6
+  composite: 20.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -149,15 +151,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 20.8
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 20.5
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 20.2
   provenance:
     conformance: derived
     mcp: derived
@@ -168,14 +170,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nickelytics/refs/heads/main/screenshots/nickelytics-2026-08-07T185252.png
+screenshot: https://apis.io/screenshots/nickelytics/nickelytics-2026-08-07T185252.png
 security:
 - kind: authentication
   name: Nickelytics Authentication
@@ -185,11 +187,17 @@ security:
   name: Nickelytics Domain Security
   slug: nickelytics-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Authenticate to the R-Ads platform and scope a session to an advertiser
+  slug: nickelytics-authenticate-and-scope-session
+- name: Manage an R-Ads advertiser organization and its members
+  slug: nickelytics-manage-advertiser-organization
 slug: nickelytics
 tags:
 - Company
 - Advertising
-- OOH
+- Out-of-Home
 - Digital Out Of Home
 - Programmatic Advertising
 - Mobility

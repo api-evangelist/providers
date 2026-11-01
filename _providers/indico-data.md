@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
+  score: 18.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://app.indico.io/restapi
@@ -62,11 +64,8 @@ apis:
   description: Document processing workflows
   name: Indico Data Workflows API
   slug: indico-data-workflows-api
-artifact_total: 15
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Indico REST Authentication API
   slug: open-indico-data-authentication-api
@@ -83,17 +82,22 @@ collections:
   name: Indico REST Authentication Workflows API
   slug: open-indico-data-workflows-api
 common:
+- group: other
+  href: https://artifacts.apis.io/indico-data/capabilities/indico-data-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/indico-data-capability-edges.yml
 - group: commercial
   title: ''
   type: Pricing
   url: https://indicodata.ai/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/plans/indico-data-plans-pricing.yml
+  href: https://artifacts.apis.io/indico-data/plans/indico-data-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/indico-data-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/overlays/indico-data-openapi-overlay.yaml
+  href: https://artifacts.apis.io/indico-data/overlays/indico-data-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/indico-data-openapi-overlay.yaml
@@ -150,62 +154,70 @@ common:
   type: Compliance
   url: https://app.carbidesecure.com/trust/indico
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/changelog/indico-data-changelog.yml
+  href: https://artifacts.apis.io/indico-data/changelog/indico-data-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/indico-data-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/authentication/indico-data-authentication.yml
+  href: https://artifacts.apis.io/indico-data/authentication/indico-data-authentication.yml
   title: ''
   type: Authentication
   url: authentication/indico-data-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/conventions/indico-data-conventions.yml
+  href: https://artifacts.apis.io/indico-data/conventions/indico-data-conventions.yml
   title: ''
   type: Conventions
   url: conventions/indico-data-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/conformance/indico-data-conformance.yml
+  href: https://artifacts.apis.io/indico-data/conformance/indico-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/indico-data-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/lifecycle/indico-data-lifecycle.yml
+  href: https://artifacts.apis.io/indico-data/lifecycle/indico-data-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/indico-data-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/packages/indico-data-packages.yml
+  href: https://artifacts.apis.io/indico-data/packages/indico-data-packages.yml
   title: ''
   type: Packages
   url: packages/indico-data-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/packages/indico-data-packages.yml
+  href: https://artifacts.apis.io/indico-data/packages/indico-data-packages.yml
   title: ''
   type: SDKs
   url: packages/indico-data-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/llms/indico-data-llms.txt
+  href: https://artifacts.apis.io/indico-data/llms/indico-data-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/indico-data-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/mcp/indico-data-mcp.yml
+  href: https://artifacts.apis.io/indico-data/mcp/indico-data-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/indico-data-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/indico-data/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/security/indico-data-domain-security.yml
+  href: https://artifacts.apis.io/indico-data/security/indico-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/indico-data-domain-security.yml
 created: '2026-07-17'
 description: Indico Data is an enterprise intelligent document processing (IDP) and intelligent process automation (IPA) company that turns unstructured content — documents, emails, images, and free text — into structured, usable data. Its Agents & Workflows platform lets teams build extraction and classification models from as few as ~200 sample documents (no rules or templates) and deploy them as document-processing pipelines. Developers integrate via a REST API and a companion GraphQL API, authenticating with an API token exchanged for a short-lived JWT, and via first-party Python, C#, and Java client libraries. The platform is commonly deployed on a dedicated per-customer cluster and is used to automate high-volume unstructured-data workflows across insurance, financial services, and other document-heavy industries.
+finops:
+- has_sources: true
+  method: derived
+  name: Indico Data Finops
+  primary_unit: ''
+  service_category: ''
+  slug: indico-data-finops
+  template: true
 image: https://indicodata.ai/wp-content/uploads/2023/01/indico-data-logo.png
 layout: provider
 modified: '2026-07-19'
@@ -215,31 +227,31 @@ network: true
 overview: 'Indico Data publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Datasets API, Storage API, and 2 more. Tagged areas include Company, Intelligent Document Processing, Intelligent Process Automation, Document AI, and Machine Learning.
 
 
-  Indico Data''s developer surface includes pricing, documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 20 more developer resources.'
+  Indico Data''s developer surface includes pricing, documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 21 more developer resources.'
 plans:
 - name: Indico Data Plans Pricing
   plan_count: 0
   slug: indico-data-plans-pricing
-random_paper: 7
+random_paper: 5
 score:
-  band: developing
-  composite: 42.1
+  band: thin
+  composite: 36.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.1
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 48.4
-    developer_ergonomics: 42.3
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 40.0
+    contract_quality: 0.0
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 36.4
   provenance:
     conformance: derived
     contracts:
@@ -255,13 +267,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/screenshots/indico-data-2026-07-25T222311.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/indico-data/indico-data-2026-07-25T222311.png
 security:
 - kind: authentication
   name: Indico Data Authentication
@@ -275,6 +288,12 @@ security:
   name: Indico Data Trust Center
   slug: indico-data-trust-center
   summary_line: SOC 2 Type II
+skill_count: 2
+skills:
+- name: List, review, and retry submissions
+  slug: indico-data-review-and-retry
+- name: Submit a document and retrieve results
+  slug: indico-data-submit-and-retrieve
 slug: indico-data
 tags:
 - Company

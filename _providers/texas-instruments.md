@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-17'
+  score: 27.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: Advanced Ship Notice (ASN) retrieval
   name: Texas Instruments Shipments API
   slug: texas-instruments-shipments-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Texas Instruments Product Information Financial API
   slug: open-texas-instruments-financial-api
@@ -104,43 +103,47 @@ collections:
   name: Texas Instruments Store API
   slug: open-texas-instruments-store
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/texas-instruments/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/plans/texas-instruments-plans-pricing.yml
+  href: https://artifacts.apis.io/texas-instruments/plans/texas-instruments-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/texas-instruments-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/rate-limits/texas-instruments-rate-limits.yml
+  href: https://artifacts.apis.io/texas-instruments/rate-limits/texas-instruments-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/texas-instruments-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/finops/texas-instruments-finops.yml
+  href: https://artifacts.apis.io/texas-instruments/finops/texas-instruments-finops.yml
   title: ''
   type: FinOps
   url: finops/texas-instruments-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/capabilities/texas-instruments-capability-edges.yml
+  href: https://artifacts.apis.io/texas-instruments/capabilities/texas-instruments-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/texas-instruments-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/agentic-access/texas-instruments-agentic-access.yml
+  href: https://artifacts.apis.io/texas-instruments/agentic-access/texas-instruments-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/texas-instruments-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/security/texas-instruments-domain-security.yml
+  href: https://artifacts.apis.io/texas-instruments/security/texas-instruments-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/texas-instruments-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/authentication/texas-instruments-authentication.yml
+  href: https://artifacts.apis.io/texas-instruments/authentication/texas-instruments-authentication.yml
   title: ''
   type: Authentication
   url: authentication/texas-instruments-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/scopes/texas-instruments-scopes.yml
+  href: https://artifacts.apis.io/texas-instruments/scopes/texas-instruments-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/texas-instruments-scopes.yml
@@ -177,27 +180,27 @@ common:
   type: FAQ
   url: https://api-portal.ti.com/faq
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/openapi/_original/texas-instruments-store-openapi.yml
+  href: https://artifacts.apis.io/texas-instruments/openapi/_original/texas-instruments-store-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/texas-instruments-store-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/openapi/_original/texas-instruments-product-information-openapi.yml
+  href: https://artifacts.apis.io/texas-instruments/openapi/_original/texas-instruments-product-information-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/texas-instruments-product-information-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/json-schema/ti-product-schema.json
+  href: https://artifacts.apis.io/texas-instruments/json-schema/ti-product-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/ti-product-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/json-ld/texas-instruments-context.jsonld
+  href: https://artifacts.apis.io/texas-instruments/json-ld/texas-instruments-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/texas-instruments-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/vocabulary/texas-instruments-vocabulary.yml
+  href: https://artifacts.apis.io/texas-instruments/vocabulary/texas-instruments-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/texas-instruments-vocabulary.yml
@@ -214,7 +217,7 @@ finops:
 - has_sources: false
   method: generated
   name: Texas Instruments Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: texas-instruments-finops
   template: true
@@ -243,7 +246,7 @@ overview: 'Texas Instruments publishes 6 API contracts indexed on the [APIs.io](
   The Texas Instruments catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Texas Instruments'' developer surface includes authentication, documentation, getting-started guide, support, FAQ, and 16 more developer resources.'
+  Texas Instruments'' developer surface includes authentication, documentation, getting-started guide, support, FAQ, and 17 more developer resources.'
 plans:
 - name: Texas Instruments Plans Pricing
   plan_count: 3
@@ -264,7 +267,7 @@ press:
 - date: ''
   title: TI's new power-management solutions enable scalable AI ...
   url: https://www.ti.com/about-ti/newsroom/news-releases/2025/tis-new-power-management-solutions-enable-scalable-ai-infrastructures.html
-random_paper: 18
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Texas Instruments Rate Limits
@@ -300,28 +303,28 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 37.2
+  composite: 38.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.3
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 55.3
-    developer_ergonomics: 47.6
+    developer_ergonomics: 48.8
     discoverability: 66.1
-    operational_transparency: 10.5
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 38.7
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -335,13 +338,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/screenshots/texas-instruments-2026-06-20T195203.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/texas-instruments/texas-instruments-2026-06-20T195203.png
 security:
 - kind: authentication
   name: Texas Instruments Authentication

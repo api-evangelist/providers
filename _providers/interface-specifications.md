@@ -4,6 +4,6 @@ layout: provider
 name: interface-specifications
 nav: Providers
 network: true
-random_paper: 18
+random_paper: 10
 slug: interface-specifications
 ---

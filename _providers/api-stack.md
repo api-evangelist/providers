@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The API Stack Directory is a searchable catalog of 213+ API tools and services organized into 50+ categories. Each listing includes descriptions, features, pricing, screenshots, and external links to '
@@ -42,42 +44,42 @@ apis:
 artifact_total: 15
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/api-stack/refs/heads/main/plans/api-stack-plans-pricing.yml
+  href: https://artifacts.apis.io/api-stack/plans/api-stack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/api-stack-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/api-stack/refs/heads/main/rate-limits/api-stack-rate-limits.yml
+  href: https://artifacts.apis.io/api-stack/rate-limits/api-stack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/api-stack-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/api-stack/refs/heads/main/finops/api-stack-finops.yml
+  href: https://artifacts.apis.io/api-stack/finops/api-stack-finops.yml
   title: ''
   type: FinOps
   url: finops/api-stack-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/api-stack/refs/heads/main/security/api-stack-domain-security.yml
+  href: https://artifacts.apis.io/api-stack/security/api-stack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/api-stack-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-stack/refs/heads/main/conformance/api-stack-conformance.yml
+  href: https://artifacts.apis.io/api-stack/conformance/api-stack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/api-stack-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/api-stack/refs/heads/main/well-known/api-stack-well-known.yml
+  href: https://artifacts.apis.io/api-stack/well-known/api-stack-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/api-stack-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/api-stack/refs/heads/main/packages/api-stack-packages.yml
+  href: https://artifacts.apis.io/api-stack/packages/api-stack-packages.yml
   title: ''
   type: Packages
   url: packages/api-stack-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/api-stack/refs/heads/main/llms/api-stack-llms.txt
+  href: https://artifacts.apis.io/api-stack/llms/api-stack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/api-stack-llms.txt
@@ -164,7 +166,7 @@ finops:
 - has_sources: false
   method: generated
   name: Api Stack Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: api-stack-finops
   template: true
@@ -182,7 +184,7 @@ plans:
 - name: Api Stack Plans Pricing
   plan_count: 0
   slug: api-stack-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Api Stack Rate Limits
@@ -191,13 +193,13 @@ score:
   band: emerging
   composite: 12.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 18.2
@@ -205,7 +207,7 @@ score:
     developer_ergonomics: 0.0
     discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 14.1
+  previous_composite: 12.6
   provenance:
     conformance: first-party
   regulatory:
@@ -214,14 +216,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/api-stack/refs/heads/main/screenshots/api-stack-2026-06-20T172221.png
+screenshot: https://apis.io/screenshots/api-stack/api-stack-2026-06-20T172221.png
 security:
 - kind: domain-security
   name: Api Stack Domain Security

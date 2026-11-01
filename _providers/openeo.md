@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.3
-  scored_at: '2026-10-17'
+  score: 30.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 51
   slug: openeo-agentic-access
   summary_line: 51 operations · 20 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 4
 apis:
 - baseURL_template: https://openeo.example/api/{version}
   baseurl_source: spec_template
@@ -88,115 +90,115 @@ apis:
   description: Management of User Workspaces
   name: openEO Workspaces API
   slug: openeo-workspaces-api
-artifact_total: 35
+artifact_total: 42
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/agentic-access/openeo-agentic-access.yml
+  href: https://artifacts.apis.io/openeo/agentic-access/openeo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openeo-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/rules/openeo-rules.yml
+  href: https://artifacts.apis.io/openeo/rules/openeo-rules.yml
   title: ''
   type: Spectral
   url: rules/openeo-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/rules/openeo-openeo-api-spectral-rules.yml
+  href: https://artifacts.apis.io/openeo/rules/openeo-openeo-api-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/openeo-openeo-api-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/json-ld/openeo-context.jsonld
+  href: https://artifacts.apis.io/openeo/json-ld/openeo-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/openeo-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/vocabulary/openeo-vocabulary.yml
+  href: https://artifacts.apis.io/openeo/vocabulary/openeo-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/openeo-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/openeo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/data-model/openeo-data-model.yml
+  href: https://artifacts.apis.io/openeo/data-model/openeo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/openeo-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/cli/openeo-cli.yml
+  href: https://artifacts.apis.io/openeo/cli/openeo-cli.yml
   title: ''
   type: CLI
   url: cli/openeo-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/changelog/openeo-changelog.yml
+  href: https://artifacts.apis.io/openeo/changelog/openeo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openeo-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/conventions/openeo-conventions.yml
+  href: https://artifacts.apis.io/openeo/conventions/openeo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openeo-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/lifecycle/openeo-lifecycle.yml
+  href: https://artifacts.apis.io/openeo/lifecycle/openeo-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/openeo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/lifecycle/openeo-lifecycle.yml
+  href: https://artifacts.apis.io/openeo/lifecycle/openeo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openeo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/errors/openeo-error-codes.yml
+  href: https://artifacts.apis.io/openeo/errors/openeo-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/openeo-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/errors/openeo-problem-types.yml
+  href: https://artifacts.apis.io/openeo/errors/openeo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/openeo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/conformance/openeo-conformance.yml
+  href: https://artifacts.apis.io/openeo/conformance/openeo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openeo-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/overlays/openeo-commercial-data-overlay.yaml
+  href: https://artifacts.apis.io/openeo/overlays/openeo-commercial-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openeo-commercial-data-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/well-known/openeo-bsky-security.txt
+  href: https://artifacts.apis.io/openeo/well-known/openeo-bsky-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/openeo-bsky-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/well-known/openeo-well-known.yml
+  href: https://artifacts.apis.io/openeo/well-known/openeo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/openeo-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/hosts/openeo-hosts.yml
+  href: https://artifacts.apis.io/openeo/hosts/openeo-hosts.yml
   title: ''
   type: Hosts
   url: hosts/openeo-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/vendors/openeo-vendors.yml
+  href: https://artifacts.apis.io/openeo/vendors/openeo-vendors.yml
   title: ''
   type: Vendors
   url: vendors/openeo-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/packages/openeo-packages.yml
+  href: https://artifacts.apis.io/openeo/packages/openeo-packages.yml
   title: ''
   type: SDKs
   url: packages/openeo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/packages/openeo-packages.yml
+  href: https://artifacts.apis.io/openeo/packages/openeo-packages.yml
   title: ''
   type: Packages
   url: packages/openeo-packages.yml
@@ -205,12 +207,12 @@ common:
   type: ChangeLog
   url: https://github.com/radiantearth/stac-spec/releases
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/authentication/openeo-authentication.yml
+  href: https://artifacts.apis.io/openeo/authentication/openeo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openeo-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/security/openeo-domain-security.yml
+  href: https://artifacts.apis.io/openeo/security/openeo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openeo-domain-security.yml
@@ -359,7 +361,7 @@ plans:
 - name: Openeo Plans Pricing
   plan_count: 0
   slug: openeo-plans-pricing
-random_paper: 8
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Openeo Rate Limits
@@ -391,23 +393,23 @@ rules:
   slug: openeo-rules
 score:
   band: developing
-  composite: 47.1
+  composite: 47.2
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 60.8
     catalog_earned_first_party: 0.0
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 35.6
-    contract_quality: 70.1
+    contract_quality: 66.7
     developer_ergonomics: 73.2
     discoverability: 62.5
-    operational_transparency: 28.9
-  previous_composite: 50.7
+    operational_transparency: 39.5
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -424,13 +426,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/screenshots/openeo-2026-10-11T112048.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openeo/openeo-2026-10-11T112048.png
 security:
 - kind: authentication
   name: Openeo Authentication
@@ -440,6 +443,22 @@ security:
   name: Openeo Domain Security
   slug: openeo-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 7
+skills:
+- name: openeo-authenticate
+  slug: openeo-authenticate
+- name: openeo-batch-job
+  slug: openeo-batch-job
+- name: openeo-discover-backend
+  slug: openeo-discover-backend
+- name: openeo-file-workspace
+  slug: openeo-file-workspace
+- name: openeo-secondary-services
+  slug: openeo-secondary-services
+- name: openeo-synchronous-processing
+  slug: openeo-synchronous-processing
+- name: openeo-user-defined-processes
+  slug: openeo-user-defined-processes
 slug: openeo
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ossia/refs/heads/main/security/ossia-domain-security.yml
+  href: https://artifacts.apis.io/ossia/security/ossia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ossia-domain-security.yml
@@ -123,12 +125,12 @@ common:
   type: Facebook
   url: https://www.facebook.com/OssiaInc/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ossia/refs/heads/main/plans/ossia-plans-pricing.yml
+  href: https://artifacts.apis.io/ossia/plans/ossia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ossia-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ossia/refs/heads/main/llms/ossia-llms.txt
+  href: https://artifacts.apis.io/ossia/llms/ossia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ossia-llms.txt
@@ -180,7 +182,7 @@ plans:
 random_paper: 15
 score:
   band: minimal
-  composite: 6.7
+  composite: 6.8
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -194,23 +196,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 49.1
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 6.7
+  previous_composite: 6.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ossia/refs/heads/main/screenshots/ossia-2026-09-02T150859.png
+screenshot: https://apis.io/screenshots/ossia/ossia-2026-09-02T150859.png
 security:
 - kind: domain-security
   name: Ossia Domain Security

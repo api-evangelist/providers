@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.2
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,11 +51,8 @@ apis:
   description: Validate and verify a phone number and return carrier, line type, and location.
   name: Abstract API Phone Validation Phone Validation API
   slug: abstractapi-phone-phone-validation-api
-artifact_total: 10
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Abstract API Phone Validation API
   slug: open-abstractapi-phone-phone-validation-api
@@ -62,17 +61,17 @@ collections:
   slug: open-abstractapi-phone
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/agentic-access/abstractapi-phone-agentic-access.yml
+  href: https://artifacts.apis.io/abstractapi-phone/agentic-access/abstractapi-phone-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/abstractapi-phone-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/security/abstractapi-phone-domain-security.yml
+  href: https://artifacts.apis.io/abstractapi-phone/security/abstractapi-phone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/abstractapi-phone-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/authentication/abstractapi-phone-authentication.yml
+  href: https://artifacts.apis.io/abstractapi-phone/authentication/abstractapi-phone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/abstractapi-phone-authentication.yml
@@ -93,17 +92,17 @@ common:
   type: Documentation
   url: https://www.abstractapi.com/api/phone-validation-api
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/plans/abstractapi-phone-plans-pricing.yml
+  href: https://artifacts.apis.io/abstractapi-phone/plans/abstractapi-phone-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/abstractapi-phone-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/rate-limits/abstractapi-phone-rate-limits.yml
+  href: https://artifacts.apis.io/abstractapi-phone/rate-limits/abstractapi-phone-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/abstractapi-phone-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/finops/abstractapi-phone-finops.yml
+  href: https://artifacts.apis.io/abstractapi-phone/finops/abstractapi-phone-finops.yml
   title: ''
   type: FinOps
   url: finops/abstractapi-phone-finops.yml
@@ -131,14 +130,14 @@ plans:
 - name: Abstractapi Phone Plans Pricing
   plan_count: 3
   slug: abstractapi-phone-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Abstractapi Phone Rate Limits
   slug: abstractapi-phone-rate-limits
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 26.4
   coverage:
     artifact_dirs: 11
     catalog_earned: 42.0
@@ -146,15 +145,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 50.8
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 7.9
-  previous_composite: 33.6
+    operational_transparency: 10.5
+  previous_composite: 26.4
   provenance:
     agentic_access: derived
     contracts:
@@ -168,14 +167,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/screenshots/abstractapi-phone-2026-07-25T181408.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/abstractapi-phone/abstractapi-phone-2026-07-25T181408.png
 security:
 - kind: authentication
   name: Abstractapi Phone Authentication

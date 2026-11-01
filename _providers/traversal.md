@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.1
-  scored_at: '2026-10-17'
+  score: 33.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.traversal.com
@@ -45,14 +47,11 @@ apis:
 artifact_total: 8
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Traversal Sessions API
   slug: open-traversal-sessions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/capabilities/traversal-capability-edges.yml
+  href: https://artifacts.apis.io/traversal/capabilities/traversal-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/traversal-capability-edges.yml
@@ -85,52 +84,52 @@ common:
   type: SignUp
   url: https://app.traversal.com/login
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/openapi/_original/traversal-sessions-openapi.yaml
+  href: https://artifacts.apis.io/traversal/openapi/_original/traversal-sessions-openapi.yaml
   title: ''
   type: OpenAPI
   url: openapi/_original/traversal-sessions-openapi.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/overlays/traversal-sessions-overlay.yaml
+  href: https://artifacts.apis.io/traversal/overlays/traversal-sessions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/traversal-sessions-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/mcp/traversal-mcp.yml
+  href: https://artifacts.apis.io/traversal/mcp/traversal-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/traversal-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/llms/traversal-llms.txt
+  href: https://artifacts.apis.io/traversal/llms/traversal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/traversal-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/traversal/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/conventions/traversal-conventions.yml
+  href: https://artifacts.apis.io/traversal/conventions/traversal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/traversal-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/conventions/traversal-conventions.yml
+  href: https://artifacts.apis.io/traversal/conventions/traversal-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/traversal-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/errors/traversal-problem-types.yml
+  href: https://artifacts.apis.io/traversal/errors/traversal-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/traversal-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/lifecycle/traversal-lifecycle.yml
+  href: https://artifacts.apis.io/traversal/lifecycle/traversal-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/traversal-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/changelog/traversal-changelog.yml
+  href: https://artifacts.apis.io/traversal/changelog/traversal-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/traversal-changelog.yml
@@ -139,42 +138,42 @@ common:
   type: StatusPage
   url: https://status.traversal.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/conformance/traversal-conformance.yml
+  href: https://artifacts.apis.io/traversal/conformance/traversal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/traversal-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/security/traversal-trust-center.yml
+  href: https://artifacts.apis.io/traversal/security/traversal-trust-center.yml
   title: ''
   type: Compliance
   url: security/traversal-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/data-model/traversal-data-model.yml
+  href: https://artifacts.apis.io/traversal/data-model/traversal-data-model.yml
   title: ''
   type: DataModel
   url: data-model/traversal-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/authentication/traversal-authentication.yml
+  href: https://artifacts.apis.io/traversal/authentication/traversal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/traversal-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/security/traversal-trust-center.yml
+  href: https://artifacts.apis.io/traversal/security/traversal-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/traversal-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/security/traversal-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/traversal/security/traversal-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/traversal-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/security/traversal-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/traversal/security/traversal-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/traversal-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/security/traversal-domain-security.yml
+  href: https://artifacts.apis.io/traversal/security/traversal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/traversal-domain-security.yml
@@ -194,10 +193,10 @@ overview: 'Traversal publishes 1 API contract indexed on the [APIs.io](https://a
 
 
   Traversal''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 20 more developer resources.'
-random_paper: 12
+random_paper: 20
 score:
   band: developing
-  composite: 43.2
+  composite: 42.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -205,20 +204,20 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 28.9
     contract_governance: 4.5
     contract_quality: 52.0
     developer_ergonomics: 49.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 43.1
+  previous_composite: 42.7
   provenance:
     conformance: derived
     contracts:
@@ -240,13 +239,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/screenshots/traversal-2026-08-17T082630.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/traversal/traversal-2026-08-17T082630.png
 security:
 - kind: authentication
   name: Traversal Authentication
@@ -264,6 +264,10 @@ security:
   name: Traversal Trust Center
   slug: traversal-trust-center
   summary_line: SOC 2 Type II, GDPR, HIPAA
+skill_count: 1
+skills:
+- name: traversal-investigate-incident
+  slug: traversal-investigate-incident
 slug: traversal
 tags:
 - Company

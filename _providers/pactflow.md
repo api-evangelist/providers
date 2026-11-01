@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 16.9
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - baseURL: https://download.pactflow.io
@@ -66,44 +68,44 @@ apis:
   description: The Test API from PactFlow — 2 operation(s) for test.
   name: PactFlow Test API
   slug: pactflow-test-api
-artifact_total: 20
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Pactflow Webhooks
   slug: pactflow-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/plans/pactflow-plans-pricing.yml
+  href: https://artifacts.apis.io/pactflow/plans/pactflow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pactflow-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/rules/pactflow-rules.yml
+  href: https://artifacts.apis.io/pactflow/rules/pactflow-rules.yml
   title: ''
   type: Spectral
   url: rules/pactflow-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/json-ld/pactflow-context.jsonld
+  href: https://artifacts.apis.io/pactflow/json-ld/pactflow-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/pactflow-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/vocabulary/pactflow-vocabulary.yml
+  href: https://artifacts.apis.io/pactflow/vocabulary/pactflow-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/pactflow-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/asyncapi/pactflow-webhooks.yml
+  href: https://artifacts.apis.io/pactflow/asyncapi/pactflow-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/pactflow-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/data-model/pactflow-data-model.yml
+  href: https://artifacts.apis.io/pactflow/data-model/pactflow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pactflow-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/changelog/pactflow-changelog.yml
+  href: https://artifacts.apis.io/pactflow/changelog/pactflow-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pactflow-changelog.yml
@@ -112,37 +114,37 @@ common:
   type: Compliance
   url: https://pactflow.io/security/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/conformance/pactflow-conformance.yml
+  href: https://artifacts.apis.io/pactflow/conformance/pactflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pactflow-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/well-known/pactflow-status-security.txt
+  href: https://artifacts.apis.io/pactflow/well-known/pactflow-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/pactflow-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/well-known/pactflow-well-known.yml
+  href: https://artifacts.apis.io/pactflow/well-known/pactflow-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pactflow-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/hosts/pactflow-hosts.yml
+  href: https://artifacts.apis.io/pactflow/hosts/pactflow-hosts.yml
   title: ''
   type: Hosts
   url: hosts/pactflow-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/vendors/pactflow-vendors.yml
+  href: https://artifacts.apis.io/pactflow/vendors/pactflow-vendors.yml
   title: ''
   type: Vendors
   url: vendors/pactflow-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/packages/pactflow-packages.yml
+  href: https://artifacts.apis.io/pactflow/packages/pactflow-packages.yml
   title: ''
   type: SDKs
   url: packages/pactflow-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/packages/pactflow-packages.yml
+  href: https://artifacts.apis.io/pactflow/packages/pactflow-packages.yml
   title: ''
   type: Packages
   url: packages/pactflow-packages.yml
@@ -171,12 +173,12 @@ common:
   type: PrivacyPolicy
   url: https://pactflow.io/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/security/pactflow-trust-center.yml
+  href: https://artifacts.apis.io/pactflow/security/pactflow-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pactflow-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/security/pactflow-domain-security.yml
+  href: https://artifacts.apis.io/pactflow/security/pactflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pactflow-domain-security.yml
@@ -210,6 +212,14 @@ coverage:
   state: unreadable
 created: '2026-10-03'
 description: PactFlow provides a comprehensive contract testing platform that enables developers and QA teams to create, verify, and maintain consumer-driven contracts for APIs and microservices. Built on the Pact framework and backed by SmartBear, PactFlow offers hosted Pact Broker services, CI/CD integrations, detailed reporting, and enterprise features such as role‑based access, audit logs, and compliance support. It helps organizations ensure reliable API interactions, reduce integration bugs, and accelerate delivery pipelines.
+finops:
+- has_sources: true
+  method: derived
+  name: Pactflow Finops
+  primary_unit: seat
+  service_category: ''
+  slug: pactflow-finops
+  template: false
 image: https://pactflow.io/assets/img/pactflow/pactflow-og.png
 json_schemas:
 - name: GetProductIdResponse
@@ -251,7 +261,10 @@ plans:
 - name: Pactflow Plans Pricing
   plan_count: 4
   slug: pactflow-plans-pricing
-random_paper: 6
+- name: Pactflow Price Estimates
+  plan_count: 0
+  slug: pactflow-price-estimates
+random_paper: 0
 rules:
 - authorship: generated
   effective_rule_count: 51
@@ -267,23 +280,23 @@ rules:
   slug: pactflow-rules
 score:
   band: developing
-  composite: 47.7
+  composite: 50.0
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 77.8
+    artifact_dirs: 17
+    catalog_earned: 80.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 37.3
+    catalog_gap: 34.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -10.3
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 22.0
     contract_quality: 32.0
     developer_ergonomics: 19.0
     discoverability: 71.4
     operational_transparency: 55.3
-  previous_composite: 58.0
+  previous_composite: 48.4
   provenance:
     conformance: derived
     contracts:
@@ -298,12 +311,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Pactflow Domain Security

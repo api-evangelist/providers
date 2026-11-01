@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -82,11 +84,8 @@ apis:
   description: RESO Property resource (listings; Media is nested).
   name: Perchwell Property API
   slug: perchwell-property-api
-artifact_total: 19
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Perchwell JSON Listings API
   slug: open-perchwell-listings-api
@@ -110,12 +109,12 @@ collections:
   slug: open-perchwell-property-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/capabilities/perchwell-capability-edges.yml
+  href: https://artifacts.apis.io/perchwell/capabilities/perchwell-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/perchwell-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/agentic-access/perchwell-agentic-access.yml
+  href: https://artifacts.apis.io/perchwell/agentic-access/perchwell-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/perchwell-agentic-access.yml
@@ -168,67 +167,67 @@ common:
   type: HelpCenter
   url: http://support.perchwell.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/llms/perchwell-llms.txt
+  href: https://artifacts.apis.io/perchwell/llms/perchwell-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/perchwell-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/authentication/perchwell-authentication.yml
+  href: https://artifacts.apis.io/perchwell/authentication/perchwell-authentication.yml
   title: ''
   type: Authentication
   url: authentication/perchwell-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/conventions/perchwell-conventions.yml
+  href: https://artifacts.apis.io/perchwell/conventions/perchwell-conventions.yml
   title: ''
   type: Conventions
   url: conventions/perchwell-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/conformance/perchwell-conformance.yml
+  href: https://artifacts.apis.io/perchwell/conformance/perchwell-conformance.yml
   title: ''
   type: Conformance
   url: conformance/perchwell-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/conformance/perchwell-conformance.yml
+  href: https://artifacts.apis.io/perchwell/conformance/perchwell-conformance.yml
   title: ''
   type: Compliance
   url: conformance/perchwell-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/data-model/perchwell-data-model.yml
+  href: https://artifacts.apis.io/perchwell/data-model/perchwell-data-model.yml
   title: ''
   type: DataModel
   url: data-model/perchwell-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/lifecycle/perchwell-lifecycle.yml
+  href: https://artifacts.apis.io/perchwell/lifecycle/perchwell-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/perchwell-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/errors/perchwell-problem-types.yml
+  href: https://artifacts.apis.io/perchwell/errors/perchwell-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/perchwell-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/mcp/perchwell-mcp.yml
+  href: https://artifacts.apis.io/perchwell/mcp/perchwell-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/perchwell-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/perchwell/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/overlays/perchwell-json-api-overlay.yaml
+  href: https://artifacts.apis.io/perchwell/overlays/perchwell-json-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/perchwell-json-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/overlays/perchwell-reso-web-api-overlay.yaml
+  href: https://artifacts.apis.io/perchwell/overlays/perchwell-reso-web-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/perchwell-reso-web-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/security/perchwell-domain-security.yml
+  href: https://artifacts.apis.io/perchwell/security/perchwell-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/perchwell-domain-security.yml
@@ -244,10 +243,10 @@ overview: 'Perchwell publishes 8 API contracts indexed on the [APIs.io](https://
 
 
   Perchwell''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 21 more developer resources.'
-random_paper: 20
+random_paper: 6
 score:
-  band: thin
-  composite: 34.7
+  band: developing
+  composite: 43.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -255,20 +254,20 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 48.6
-    developer_ergonomics: 20.8
-    discoverability: 73.2
-    operational_transparency: 2.6
+    contract_quality: 45.8
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 34.6
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -285,13 +284,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/screenshots/perchwell-2026-08-17T081157.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/perchwell/perchwell-2026-08-17T081157.png
 security:
 - kind: authentication
   name: Perchwell Authentication
@@ -301,6 +301,14 @@ security:
   name: Perchwell Domain Security
   slug: perchwell-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Publish a listing to the RESO Web API
+  slug: perchwell-publish-listing
+- name: Search and read RESO Property records
+  slug: perchwell-search-reso-property
+- name: Sync real estate listings from Perchwell
+  slug: perchwell-sync-listings
 slug: perchwell
 tags:
 - Company

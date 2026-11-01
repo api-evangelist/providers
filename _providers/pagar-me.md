@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-17'
+  score: 31.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -158,60 +160,60 @@ apis:
   description: The Tokens API from Pagar.me — 1 operation(s) for tokens.
   name: Pagar.me Tokens API
   slug: pagar-me-tokens-api
-artifact_total: 74
+artifact_total: 75
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/rules/pagar-me-rules.yml
+  href: https://artifacts.apis.io/pagar-me/rules/pagar-me-rules.yml
   title: ''
   type: Spectral
   url: rules/pagar-me-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/json-ld/pagar-me-context.jsonld
+  href: https://artifacts.apis.io/pagar-me/json-ld/pagar-me-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/pagar-me-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/vocabulary/pagar-me-vocabulary.yml
+  href: https://artifacts.apis.io/pagar-me/vocabulary/pagar-me-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/pagar-me-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/data-model/pagar-me-data-model.yml
+  href: https://artifacts.apis.io/pagar-me/data-model/pagar-me-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pagar-me-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/errors/pagar-me-problem-types.yml
+  href: https://artifacts.apis.io/pagar-me/errors/pagar-me-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pagar-me-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/conformance/pagar-me-conformance.yml
+  href: https://artifacts.apis.io/pagar-me/conformance/pagar-me-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pagar-me-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/llms/pagar-me-llms.txt
+  href: https://artifacts.apis.io/pagar-me/llms/pagar-me-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pagar-me-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/well-known/pagar-me-well-known.yml
+  href: https://artifacts.apis.io/pagar-me/well-known/pagar-me-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pagar-me-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/hosts/pagar-me-hosts.yml
+  href: https://artifacts.apis.io/pagar-me/hosts/pagar-me-hosts.yml
   title: ''
   type: Hosts
   url: hosts/pagar-me-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/vendors/pagar-me-vendors.yml
+  href: https://artifacts.apis.io/pagar-me/vendors/pagar-me-vendors.yml
   title: ''
   type: Vendors
   url: vendors/pagar-me-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/packages/pagar-me-packages.yml
+  href: https://artifacts.apis.io/pagar-me/packages/pagar-me-packages.yml
   title: ''
   type: Packages
   url: packages/pagar-me-packages.yml
@@ -220,12 +222,12 @@ common:
   type: StatusPage
   url: https://status.pagar.me/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/authentication/pagar-me-authentication.yml
+  href: https://artifacts.apis.io/pagar-me/authentication/pagar-me-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pagar-me-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/agentic-access/pagar-me-agentic-access.yml
+  href: https://artifacts.apis.io/pagar-me/agentic-access/pagar-me-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pagar-me-agentic-access.yml
@@ -238,17 +240,17 @@ common:
   type: Website
   url: https://pagar.me
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/plans/pagar-me-plans-pricing.yml
+  href: https://artifacts.apis.io/pagar-me/plans/pagar-me-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pagar-me-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/finops/pagar-me-finops.yml
+  href: https://artifacts.apis.io/pagar-me/finops/pagar-me-finops.yml
   title: ''
   type: FinOps
   url: finops/pagar-me-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/security/pagar-me-domain-security.yml
+  href: https://artifacts.apis.io/pagar-me/security/pagar-me-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pagar-me-domain-security.yml
@@ -388,10 +390,10 @@ features:
   name: AI-assistant-friendly docs
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Pagar Me Finops
-  primary_unit: ''
-  service_category: Payments and Financial Services
+  primary_unit: à vista
+  service_category: ''
   slug: pagar-me-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pagar-me.png
@@ -441,9 +443,12 @@ overview: 'Pagar.me publishes 30 API contracts indexed on the [APIs.io](https://
   Pagar.me''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, developer console, signup flow, and 38 more developer resources.'
 plans:
 - name: Pagar Me Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: pagar-me-plans-pricing
-random_paper: 8
+- name: Pagar Me Price Estimates
+  plan_count: 0
+  slug: pagar-me-price-estimates
+random_paper: 10
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -458,22 +463,22 @@ rules:
     warn: 6
   slug: pagar-me-rules
 score:
-  band: developing
-  composite: 49.6
+  band: strong
+  composite: 55.6
   coverage:
     artifact_dirs: 23
-    catalog_earned: 65.2
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.9
+    catalog_earned: 77.2
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 14.9
+  delta: 1.6
   facets:
-    access_clarity: 31.6
+    access_clarity: 63.2
     contract_governance: 22.0
-    contract_quality: 60.7
+    contract_quality: 59.6
     developer_ergonomics: 81.0
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -482,7 +487,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 34.7
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -498,13 +503,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/screenshots/pagar-me-2026-06-20T191321.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pagar-me/pagar-me-2026-06-20T191321.png
 security:
 - kind: authentication
   name: Pagar Me Authentication

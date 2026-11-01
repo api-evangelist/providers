@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fidelity-national-financial/refs/heads/main/security/fidelity-national-financial-domain-security.yml
+  href: https://artifacts.apis.io/fidelity-national-financial/security/fidelity-national-financial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fidelity-national-financial-domain-security.yml
@@ -86,7 +88,7 @@ press:
 - date: ''
   title: Fidelity National Financial Names Jason Nadeau As Chief ...
   url: https://nationalmortgageprofessional.com/news/fidelity-national-financial-names-jason-nadeau-chief-artificial-intelligence-officer
-random_paper: 7
+random_paper: 23
 score:
   band: minimal
   composite: 3.1
@@ -112,14 +114,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fidelity-national-financial/refs/heads/main/screenshots/fidelity-national-financial-2026-06-20T181150.png
+screenshot: https://apis.io/screenshots/fidelity-national-financial/fidelity-national-financial-2026-06-20T181150.png
 security:
 - kind: domain-security
   name: Fidelity National Financial Domain Security

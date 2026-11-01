@@ -30,7 +30,7 @@ overview: 'ISSUE_TEMPLATE.md is profiled on the [APIs.io](https://apis.io/) netw
 
 
   ISSUE_TEMPLATE.md''s developer surface includes documentation.'
-random_paper: 18
+random_paper: 8
 rules:
 - authorship: unmarked
   effective_rule_count: 0
@@ -43,7 +43,7 @@ rules:
     info: 0
     warn: 0
   slug: issue-template-md-rules
-screenshot: https://raw.githubusercontent.com/api-evangelist/issue-template-md/refs/heads/main/screenshots/issue-template-md-2026-06-20T183624.png
+screenshot: https://apis.io/screenshots/issue-template-md/issue-template-md-2026-06-20T183624.png
 slug: issue-template-md
 tags:
 - Collaboration

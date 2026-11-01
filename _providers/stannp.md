@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -47,7 +49,7 @@ agentic_access:
   summary_line: 32 operations · 20 acting
 api_count: 1
 apis:
-- baseURL: https://api-eu1.stannp.com/v1/
+- baseURL: https://api-us1.stannp.com/v1
   baseurl_source: declared
   description: Account balance and user information
   name: Stannp Account API
@@ -63,7 +65,7 @@ apis:
     question: Which user is my API key authenticated as?
   phrasing_ops: 3
   slug: stannp-account-api
-- baseURL: https://api-eu1.stannp.com/v1/
+- baseURL: https://api-us1.stannp.com/v1
   baseurl_source: declared
   description: Manage batch direct mail campaigns
   name: Stannp Campaigns API
@@ -94,7 +96,7 @@ apis:
     question: How do I schedule an approved campaign to go out on a specific day?
   phrasing_ops: 9
   slug: stannp-campaigns-api
-- baseURL: https://api-eu1.stannp.com/v1/
+- baseURL: https://api-us1.stannp.com/v1
   baseurl_source: declared
   description: Record recipient engagement and conversion events
   name: Stannp Events API
@@ -104,7 +106,7 @@ apis:
     question: How do I log that a mail recipient made a purchase after receiving a mailpiece?
   phrasing_ops: 1
   slug: stannp-events-api
-- baseURL: https://api-eu1.stannp.com/v1/
+- baseURL: https://api-us1.stannp.com/v1
   baseurl_source: declared
   description: Manage recipient groups
   name: Stannp Groups API
@@ -132,7 +134,7 @@ apis:
     question: How do I delete a mailing group I no longer need?
   phrasing_ops: 7
   slug: stannp-groups-api
-- baseURL: https://api-eu1.stannp.com/v1/
+- baseURL: https://api-us1.stannp.com/v1
   baseurl_source: declared
   description: Create, post, retrieve, and cancel letter mailpieces
   name: Stannp Letters API
@@ -151,7 +153,7 @@ apis:
     question: Can I stop a letter from going out if it hasn't been dispatched yet?
   phrasing_ops: 4
   slug: stannp-letters-api
-- baseURL: https://api-eu1.stannp.com/v1/
+- baseURL: https://api-us1.stannp.com/v1
   baseurl_source: declared
   description: Create, retrieve, and cancel postcard mailpieces
   name: Stannp Postcards API
@@ -167,7 +169,7 @@ apis:
     question: Can I cancel a postcard that hasn't been dispatched yet?
   phrasing_ops: 3
   slug: stannp-postcards-api
-- baseURL: https://api-eu1.stannp.com/v1/
+- baseURL: https://api-us1.stannp.com/v1
   baseurl_source: declared
   description: Manage individual recipients and bulk imports
   name: Stannp Recipients API
@@ -189,15 +191,12 @@ apis:
     question: Can I upload a CSV or Excel file of addresses instead of adding them one by one?
   phrasing_ops: 5
   slug: stannp-recipients-api
-artifact_total: 32
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Stannp Webhooks
   slug: stannp-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Stannp Direct Mail Account API
   slug: open-stannp-account-api
@@ -220,18 +219,22 @@ collections:
   name: Stannp Direct Mail Account Recipients API
   slug: open-stannp-recipients-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/stannp/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/capabilities/stannp-capability-edges.yml
+  href: https://artifacts.apis.io/stannp/capabilities/stannp-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/stannp-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/agentic-access/stannp-agentic-access.yml
+  href: https://artifacts.apis.io/stannp/agentic-access/stannp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stannp-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/security/stannp-trust-center.yml
+  href: https://artifacts.apis.io/stannp/security/stannp-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/stannp-trust-center.yml
@@ -240,12 +243,12 @@ common:
   type: Compliance
   url: https://www.stannp.com/us/accreditations
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/security/stannp-domain-security.yml
+  href: https://artifacts.apis.io/stannp/security/stannp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stannp-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/security/stannp-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/stannp/security/stannp-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/stannp-vulnerability-disclosure.yml
@@ -254,37 +257,37 @@ common:
   type: Security
   url: https://www.stannp.com/us/trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/authentication/stannp-authentication.yml
+  href: https://artifacts.apis.io/stannp/authentication/stannp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stannp-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/conventions/stannp-conventions.yml
+  href: https://artifacts.apis.io/stannp/conventions/stannp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stannp-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/conventions/stannp-conventions.yml
+  href: https://artifacts.apis.io/stannp/conventions/stannp-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/stannp-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/errors/stannp-problem-types.yml
+  href: https://artifacts.apis.io/stannp/errors/stannp-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/stannp-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/data-model/stannp-data-model.yml
+  href: https://artifacts.apis.io/stannp/data-model/stannp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stannp-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/conformance/stannp-conformance.yml
+  href: https://artifacts.apis.io/stannp/conformance/stannp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stannp-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/lifecycle/stannp-lifecycle.yml
+  href: https://artifacts.apis.io/stannp/lifecycle/stannp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stannp-lifecycle.yml
@@ -293,37 +296,37 @@ common:
   type: StatusPage
   url: https://status.stannp.com/
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/sandbox/stannp-sandbox.yml
+  href: https://artifacts.apis.io/stannp/sandbox/stannp-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/stannp-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/asyncapi/stannp-webhooks.yml
+  href: https://artifacts.apis.io/stannp/asyncapi/stannp-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/stannp-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/packages/stannp-packages.yml
+  href: https://artifacts.apis.io/stannp/packages/stannp-packages.yml
   title: ''
   type: Packages
   url: packages/stannp-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/packages/stannp-packages.yml
+  href: https://artifacts.apis.io/stannp/packages/stannp-packages.yml
   title: ''
   type: SDKs
   url: packages/stannp-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/mcp/stannp-mcp.yml
+  href: https://artifacts.apis.io/stannp/mcp/stannp-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/stannp-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/stannp/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/llms/stannp-llms.txt
+  href: https://artifacts.apis.io/stannp/llms/stannp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stannp-llms.txt
@@ -376,7 +379,7 @@ common:
   type: Pricing
   url: https://www.stannp.com/us/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/plans/stannp-plans-pricing.yml
+  href: https://artifacts.apis.io/stannp/plans/stannp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stannp-plans-pricing.yml
@@ -397,12 +400,12 @@ common:
   type: PrivacyPolicy
   url: https://www.stannp.com/us/privacy-policy
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/rate-limits/stannp-rate-limits.yml
+  href: https://artifacts.apis.io/stannp/rate-limits/stannp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stannp-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/finops/stannp-finops.yml
+  href: https://artifacts.apis.io/stannp/finops/stannp-finops.yml
   title: ''
   type: FinOps
   url: finops/stannp-finops.yml
@@ -419,13 +422,13 @@ examples:
   name: Webhook Payload
   slug: webhook-payload
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Stannp Finops
-  primary_unit: ''
+  primary_unit: mail piece | includes print & postage
   service_category: ''
   slug: stannp-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stannp.png
 json_schemas:
 - name: Campaign
@@ -453,12 +456,15 @@ overview: 'Stannp publishes 7 API contracts indexed on the [APIs.io](https://api
   The Stannp catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Stannp''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 34 more developer resources.'
+  Stannp''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 35 more developer resources.'
 plans:
 - name: Stannp Plans Pricing
-  plan_count: 5
+  plan_count: 2
   slug: stannp-plans-pricing
-random_paper: 0
+- name: Stannp Price Estimates
+  plan_count: 0
+  slug: stannp-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Stannp Rate Limits
@@ -477,23 +483,23 @@ rules:
   slug: stannp-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 74.5
+  composite: 73.1
   coverage:
     artifact_dirs: 31
-    catalog_earned: 85.8
-    catalog_earned_first_party: 24.0
-    catalog_gap: 29.3
+    catalog_earned: 84.8
+    catalog_earned_first_party: 20.0
+    catalog_gap: 30.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: -0.3
   facets:
-    access_clarity: 85.5
+    access_clarity: 89.5
     contract_governance: 41.7
     contract_quality: 69.5
-    developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 68.4
-  previous_composite: 76.1
+    developer_ergonomics: 74.4
+    discoverability: 66.1
+    operational_transparency: 71.1
+  previous_composite: 73.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -510,13 +516,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/screenshots/stannp-2026-06-20T194506.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/stannp/stannp-2026-06-20T194506.png
 security:
 - kind: authentication
   name: Stannp Authentication
@@ -534,6 +541,16 @@ security:
   name: Stannp Trust Center
   slug: stannp-trust-center
   summary_line: HIPAA, ISO 27001, ISO 9001, GDPR, ICO registration ZA134992 (UK Data Processor), USPS CASS certification, Royal Mail PAF accreditation, Royal Mail Mail Made Easy partner, SecurityScorecard A rating
+skill_count: 4
+skills:
+- name: Build, price and book a Stannp campaign
+  slug: stannp-build-and-book-a-campaign
+- name: Send a single Stannp postcard
+  slug: stannp-send-a-single-postcard
+- name: Send a transactional Stannp letter
+  slug: stannp-send-a-transactional-letter
+- name: Sync recipients into Stannp and track engagement
+  slug: stannp-sync-recipients-and-track-engagement
 slug: stannp
 tags:
 - Direct Mail

@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 30.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 14
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 263
   slug: elhub-agentic-access
   summary_line: 263 operations · 80 acting · 14 human-in-the-loop
-api_count: 16
+api_count: 14
 apis:
 - baseURL: https://api.elhub.no
   baseurl_source: declared
@@ -493,125 +495,125 @@ apis:
   description: Endpoints under development and not yet part of the stable API contract.
   name: Elhub Work in Progress API
   slug: elhub-work-in-progress-api
-artifact_total: 149
+artifact_total: 156
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/capabilities/elhub-capability-edges.yml
+  href: https://artifacts.apis.io/elhub/capabilities/elhub-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/elhub-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/agentic-access/elhub-agentic-access.yml
+  href: https://artifacts.apis.io/elhub/agentic-access/elhub-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/elhub-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/rate-limits/elhub-rate-limits.yml
+  href: https://artifacts.apis.io/elhub/rate-limits/elhub-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/elhub-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/rules/elhub-rules.yml
+  href: https://artifacts.apis.io/elhub/rules/elhub-rules.yml
   title: ''
   type: Spectral
   url: rules/elhub-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/rules/elhub-flex-information-system-spectral-rules.yml
+  href: https://artifacts.apis.io/elhub/rules/elhub-flex-information-system-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/elhub-flex-information-system-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/json-ld/elhub-context.jsonld
+  href: https://artifacts.apis.io/elhub/json-ld/elhub-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/elhub-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/vocabulary/elhub-vocabulary.yml
+  href: https://artifacts.apis.io/elhub/vocabulary/elhub-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/elhub-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/elhub/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/data-model/elhub-data-model.yml
+  href: https://artifacts.apis.io/elhub/data-model/elhub-data-model.yml
   title: ''
   type: DataModel
   url: data-model/elhub-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/changelog/elhub-changelog.yml
+  href: https://artifacts.apis.io/elhub/changelog/elhub-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/elhub-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/conventions/elhub-conventions.yml
+  href: https://artifacts.apis.io/elhub/conventions/elhub-conventions.yml
   title: ''
   type: Conventions
   url: conventions/elhub-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/sandbox/elhub-sandbox.yml
+  href: https://artifacts.apis.io/elhub/sandbox/elhub-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/elhub-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/scopes/elhub-scopes.yml
+  href: https://artifacts.apis.io/elhub/scopes/elhub-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/elhub-scopes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/lifecycle/elhub-lifecycle.yml
+  href: https://artifacts.apis.io/elhub/lifecycle/elhub-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/elhub-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/lifecycle/elhub-lifecycle.yml
+  href: https://artifacts.apis.io/elhub/lifecycle/elhub-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/elhub-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/errors/elhub-problem-types.yml
+  href: https://artifacts.apis.io/elhub/errors/elhub-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/elhub-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/conformance/elhub-conformance.yml
+  href: https://artifacts.apis.io/elhub/conformance/elhub-conformance.yml
   title: ''
   type: Conformance
   url: conformance/elhub-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/overlays/elhub-access-api-overlay.yaml
+  href: https://artifacts.apis.io/elhub/overlays/elhub-access-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elhub-access-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/hosts/elhub-hosts.yml
+  href: https://artifacts.apis.io/elhub/hosts/elhub-hosts.yml
   title: ''
   type: Hosts
   url: hosts/elhub-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/vendors/elhub-vendors.yml
+  href: https://artifacts.apis.io/elhub/vendors/elhub-vendors.yml
   title: ''
   type: Vendors
   url: vendors/elhub-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/packages/elhub-packages.yml
+  href: https://artifacts.apis.io/elhub/packages/elhub-packages.yml
   title: ''
   type: SDKs
   url: packages/elhub-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/packages/elhub-packages.yml
+  href: https://artifacts.apis.io/elhub/packages/elhub-packages.yml
   title: ''
   type: Packages
   url: packages/elhub-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/authentication/elhub-authentication.yml
+  href: https://artifacts.apis.io/elhub/authentication/elhub-authentication.yml
   title: ''
   type: Authentication
   url: authentication/elhub-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/security/elhub-domain-security.yml
+  href: https://artifacts.apis.io/elhub/security/elhub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/elhub-domain-security.yml
@@ -873,19 +875,19 @@ scopes:
   summary_line: 117 scopes
 score:
   band: developing
-  composite: 53.4
+  composite: 53.3
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 30
     catalog_earned: 73.8
     catalog_earned_first_party: 8.0
     catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 35.6
-    contract_quality: 61.9
+    contract_quality: 58.5
     developer_ergonomics: 66.1
     discoverability: 71.4
     operational_transparency: 71.1
@@ -897,7 +899,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 58.2
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -914,13 +916,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 31.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/screenshots/elhub-2026-10-11T104116.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/elhub/elhub-2026-10-11T104116.png
 security:
 - kind: authentication
   name: Elhub Authentication
@@ -930,6 +933,22 @@ security:
   name: Elhub Domain Security
   slug: elhub-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 7
+skills:
+- name: elhub-explore-energy-data
+  slug: elhub-explore-energy-data
+- name: elhub-export-energy-data
+  slug: elhub-export-energy-data
+- name: elhub-manage-contracts
+  slug: elhub-manage-contracts
+- name: elhub-manage-virtual-calculation
+  slug: elhub-manage-virtual-calculation
+- name: elhub-register-flexible-resource
+  slug: elhub-register-flexible-resource
+- name: elhub-request-customer-authorization
+  slug: elhub-request-customer-authorization
+- name: elhub-sign-authorization-document
+  slug: elhub-sign-authorization-document
 slug: elhub
 tags:
 - Company

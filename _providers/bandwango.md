@@ -14,36 +14,38 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bandwango/refs/heads/main/well-known/bandwango-help-security.txt
+  href: https://artifacts.apis.io/bandwango/well-known/bandwango-help-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bandwango-help-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bandwango/refs/heads/main/well-known/bandwango-well-known.yml
+  href: https://artifacts.apis.io/bandwango/well-known/bandwango-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bandwango-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bandwango/refs/heads/main/hosts/bandwango-hosts.yml
+  href: https://artifacts.apis.io/bandwango/hosts/bandwango-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bandwango-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bandwango/refs/heads/main/vendors/bandwango-vendors.yml
+  href: https://artifacts.apis.io/bandwango/vendors/bandwango-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bandwango-vendors.yml
@@ -56,7 +58,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/bandwango
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bandwango/refs/heads/main/security/bandwango-domain-security.yml
+  href: https://artifacts.apis.io/bandwango/security/bandwango-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bandwango-domain-security.yml
@@ -106,10 +108,10 @@ overview: 'Bandwango is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Bandwango''s developer surface includes support, documentation, engineering blog, getting-started guide, and 9 more developer resources.'
-random_paper: 21
+random_paper: 9
 score:
   band: emerging
-  composite: 15.2
+  composite: 16.6
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -124,8 +126,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 48.2
-    operational_transparency: 5.3
-  previous_composite: 15.2
+    operational_transparency: 15.8
+  previous_composite: 16.6
   provenance:
     mcp: unknown
   regulatory:
@@ -134,14 +136,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bandwango/refs/heads/main/screenshots/bandwango-2026-10-11T101518.png
+screenshot: https://apis.io/screenshots/bandwango/bandwango-2026-10-11T101518.png
 security:
 - kind: domain-security
   name: Bandwango Domain Security

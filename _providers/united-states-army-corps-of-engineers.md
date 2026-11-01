@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -95,11 +97,8 @@ apis:
   description: API version information
   name: United States Army Corps of Engineers Version API
   slug: united-states-army-corps-of-engineers-version-api
-artifact_total: 38
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CWMS Data API
   slug: open-cwms-data-api
@@ -135,17 +134,17 @@ collections:
   slug: open-united-states-army-corps-of-engineers-version-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/plans/united-states-army-corps-of-engineers-plans-pricing.yml
+  href: https://artifacts.apis.io/united-states-army-corps-of-engineers/plans/united-states-army-corps-of-engineers-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/united-states-army-corps-of-engineers-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/rate-limits/united-states-army-corps-of-engineers-rate-limits.yml
+  href: https://artifacts.apis.io/united-states-army-corps-of-engineers/rate-limits/united-states-army-corps-of-engineers-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/united-states-army-corps-of-engineers-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/finops/united-states-army-corps-of-engineers-finops.yml
+  href: https://artifacts.apis.io/united-states-army-corps-of-engineers/finops/united-states-army-corps-of-engineers-finops.yml
   title: ''
   type: FinOps
   url: finops/united-states-army-corps-of-engineers-finops.yml
@@ -166,17 +165,17 @@ common:
   type: License
   url: https://github.com/USACE/cwms-data-api/blob/develop/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/agentic-access/united-states-army-corps-of-engineers-agentic-access.yml
+  href: https://artifacts.apis.io/united-states-army-corps-of-engineers/agentic-access/united-states-army-corps-of-engineers-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/united-states-army-corps-of-engineers-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/security/united-states-army-corps-of-engineers-domain-security.yml
+  href: https://artifacts.apis.io/united-states-army-corps-of-engineers/security/united-states-army-corps-of-engineers-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/united-states-army-corps-of-engineers-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/authentication/united-states-army-corps-of-engineers-authentication.yml
+  href: https://artifacts.apis.io/united-states-army-corps-of-engineers/authentication/united-states-army-corps-of-engineers-authentication.yml
   title: ''
   type: Authentication
   url: authentication/united-states-army-corps-of-engineers-authentication.yml
@@ -228,7 +227,7 @@ finops:
 - has_sources: false
   method: generated
   name: United States Army Corps Of Engineers Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: united-states-army-corps-of-engineers-finops
   template: true
@@ -299,7 +298,7 @@ rules:
   slug: united-states-army-corps-of-engineers-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.7
+  composite: 31.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 55.5
@@ -307,11 +306,11 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
-    contract_quality: 56.9
+    contract_quality: 53.5
     developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 28.9
@@ -320,10 +319,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 39.0
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     contracts:
@@ -337,13 +333,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/screenshots/united-states-army-corps-of-engineers-2026-06-20T200046.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/united-states-army-corps-of-engineers/united-states-army-corps-of-engineers-2026-06-20T200046.png
 security:
 - kind: authentication
   name: United States Army Corps Of Engineers Authentication

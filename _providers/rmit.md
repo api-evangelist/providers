@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -47,11 +49,8 @@ apis:
 - description: The RMIT Research Repository is RMIT University's open access research portal, powered by Clarivate's Esploro research information management platform. It provides public web-based discovery of RMIT p
   name: RMIT Research Repository (Esploro)
   slug: research-repository
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Figshare altmetric API
   slug: open-rmit-altmetric-api
@@ -84,17 +83,17 @@ collections:
   slug: open-rmit-symplectic-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/agentic-access/rmit-agentic-access.yml
+  href: https://artifacts.apis.io/rmit/agentic-access/rmit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rmit-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/security/rmit-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/rmit/security/rmit-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/rmit-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/security/rmit-domain-security.yml
+  href: https://artifacts.apis.io/rmit/security/rmit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rmit-domain-security.yml
@@ -115,22 +114,22 @@ common:
   type: Twitter
   url: https://twitter.com/RMIT
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/plans/rmit-plans-pricing.yml
+  href: https://artifacts.apis.io/rmit/plans/rmit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rmit-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/rate-limits/rmit-rate-limits.yml
+  href: https://artifacts.apis.io/rmit/rate-limits/rmit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rmit-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/finops/rmit-finops.yml
+  href: https://artifacts.apis.io/rmit/finops/rmit-finops.yml
   title: ''
   type: FinOps
   url: finops/rmit-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/rmit/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -166,14 +165,14 @@ plans:
 - name: Rmit Plans Pricing
   plan_count: 2
   slug: rmit-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Rmit Rate Limits
   slug: rmit-rate-limits
 score:
   band: emerging
-  composite: 11.4
+  composite: 12.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 36.0
@@ -181,14 +180,14 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 7.4
     developer_ergonomics: 11.9
     discoverability: 57.1
-    operational_transparency: 10.5
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -196,7 +195,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 17.4
+  previous_composite: 12.8
   provenance:
     agentic_access: derived
   regulatory:
@@ -205,14 +204,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/screenshots/rmit-2026-06-20T193137.png
+screenshot: https://apis.io/screenshots/rmit/rmit-2026-06-20T193137.png
 security:
 - kind: domain-security
   name: Rmit Domain Security

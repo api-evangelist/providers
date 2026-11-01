@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: CKAN Action API for GovData Germany, a consistent JSON-over-HTTP interface over a catalog of 151,707 datasets. Standard actions include package_search, package_show, package_list, organization_list, g
@@ -42,7 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ckan-govdata-de/refs/heads/main/security/ckan-govdata-de-domain-security.yml
+  href: https://artifacts.apis.io/ckan-govdata-de/security/ckan-govdata-de-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ckan-govdata-de-domain-security.yml
@@ -55,22 +57,22 @@ common:
   type: Documentation
   url: https://docs.ckan.org/en/latest/api/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ckan-govdata-de/refs/heads/main/plans/ckan-govdata-de-plans-pricing.yml
+  href: https://artifacts.apis.io/ckan-govdata-de/plans/ckan-govdata-de-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ckan-govdata-de-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ckan-govdata-de/refs/heads/main/rate-limits/ckan-govdata-de-rate-limits.yml
+  href: https://artifacts.apis.io/ckan-govdata-de/rate-limits/ckan-govdata-de-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ckan-govdata-de-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ckan-govdata-de/refs/heads/main/finops/ckan-govdata-de-finops.yml
+  href: https://artifacts.apis.io/ckan-govdata-de/finops/ckan-govdata-de-finops.yml
   title: ''
   type: FinOps
   url: finops/ckan-govdata-de-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ckan-govdata-de/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/ckan-govdata-de/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -98,7 +100,7 @@ plans:
 - name: Ckan Govdata De Plans Pricing
   plan_count: 1
   slug: ckan-govdata-de-plans-pricing
-random_paper: 16
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Ckan Govdata De Rate Limits
@@ -113,7 +115,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -129,21 +131,21 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 15.2
+  previous_composite: 9.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ckan-govdata-de/refs/heads/main/screenshots/ckan-govdata-de-2026-06-20T174432.png
+screenshot: https://apis.io/screenshots/ckan-govdata-de/ckan-govdata-de-2026-06-20T174432.png
 security:
 - kind: domain-security
   name: Ckan Govdata De Domain Security

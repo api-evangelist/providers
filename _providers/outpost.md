@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: REST API that automates tax registration, calculation, and filing while the merchant keeps their own checkout and PSP. Server-to-server, OAuth2 client-credentials. Covers tax calculations, tax transac
@@ -85,62 +87,62 @@ common:
   type: PrivacyPolicy
   url: https://outpostnow.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/authentication/outpost-authentication.yml
+  href: https://artifacts.apis.io/outpost/authentication/outpost-authentication.yml
   title: ''
   type: Authentication
   url: authentication/outpost-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/conventions/outpost-conventions.yml
+  href: https://artifacts.apis.io/outpost/conventions/outpost-conventions.yml
   title: ''
   type: Conventions
   url: conventions/outpost-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/conventions/outpost-conventions.yml
+  href: https://artifacts.apis.io/outpost/conventions/outpost-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/outpost-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/errors/outpost-problem-types.yml
+  href: https://artifacts.apis.io/outpost/errors/outpost-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/outpost-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/asyncapi/outpost-merchant-of-record-webhooks.yml
+  href: https://artifacts.apis.io/outpost/asyncapi/outpost-merchant-of-record-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/outpost-merchant-of-record-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/lifecycle/outpost-lifecycle.yml
+  href: https://artifacts.apis.io/outpost/lifecycle/outpost-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/outpost-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/sandbox/outpost-sandbox.yml
+  href: https://artifacts.apis.io/outpost/sandbox/outpost-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/outpost-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/data-model/outpost-data-model.yml
+  href: https://artifacts.apis.io/outpost/data-model/outpost-data-model.yml
   title: ''
   type: DataModel
   url: data-model/outpost-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/conformance/outpost-conformance.yml
+  href: https://artifacts.apis.io/outpost/conformance/outpost-conformance.yml
   title: ''
   type: Conformance
   url: conformance/outpost-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/mcp/outpost-mcp.yml
+  href: https://artifacts.apis.io/outpost/mcp/outpost-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/outpost-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/llms/outpost-llms.txt
+  href: https://artifacts.apis.io/outpost/llms/outpost-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/outpost-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/security/outpost-domain-security.yml
+  href: https://artifacts.apis.io/outpost/security/outpost-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/outpost-domain-security.yml
@@ -162,7 +164,7 @@ overview: 'Outpost is listed with 3 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 6
 score:
   band: thin
-  composite: 35.9
+  composite: 35.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 40.0
@@ -176,9 +178,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 52.4
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 7.9
-  previous_composite: 35.9
+  previous_composite: 35.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -188,14 +190,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/screenshots/outpost-2026-08-07T191059.png
+screenshot: https://apis.io/screenshots/outpost/outpost-2026-08-07T191059.png
 security:
 - kind: authentication
   name: Outpost Authentication

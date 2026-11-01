@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://app.blacksmith.sh
@@ -58,32 +60,29 @@ apis:
 - description: 'Web dashboard at app.blacksmith.sh for organization setup, runner and cache management, and observability - CI analytics, run history, logs, machine metrics, monitors, SSH access, and test analytics. '
   name: Blacksmith Dashboard and Observability
   slug: dashboard
-artifact_total: 14
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Blacksmith
   slug: open-blacksmith-sh
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/security/blacksmith-sh-trust-center.yml
+  href: https://artifacts.apis.io/blacksmith-sh/security/blacksmith-sh-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/blacksmith-sh-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/security/blacksmith-sh-domain-security.yml
+  href: https://artifacts.apis.io/blacksmith-sh/security/blacksmith-sh-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blacksmith-sh-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/authentication/blacksmith-sh-authentication.yml
+  href: https://artifacts.apis.io/blacksmith-sh/authentication/blacksmith-sh-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blacksmith-sh-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/scopes/blacksmith-sh-scopes.yml
+  href: https://artifacts.apis.io/blacksmith-sh/scopes/blacksmith-sh-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/blacksmith-sh-scopes.yml
@@ -112,17 +111,17 @@ common:
   type: Status
   url: https://status.blacksmith.sh
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/plans/blacksmith-sh-plans-pricing.yml
+  href: https://artifacts.apis.io/blacksmith-sh/plans/blacksmith-sh-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blacksmith-sh-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/rate-limits/blacksmith-sh-rate-limits.yml
+  href: https://artifacts.apis.io/blacksmith-sh/rate-limits/blacksmith-sh-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blacksmith-sh-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/finops/blacksmith-sh-finops.yml
+  href: https://artifacts.apis.io/blacksmith-sh/finops/blacksmith-sh-finops.yml
   title: ''
   type: FinOps
   url: finops/blacksmith-sh-finops.yml
@@ -165,8 +164,8 @@ scopes:
   slug: blacksmith-sh-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 25.3
+  band: thin
+  composite: 28.8
   coverage:
     artifact_dirs: 12
     catalog_earned: 43.0
@@ -174,29 +173,29 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 25.1
-    developer_ergonomics: 31.0
+    contract_quality: 32.1
+    developer_ergonomics: 38.1
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 33.6
+    operational_transparency: 13.2
+  previous_composite: 28.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/screenshots/blacksmith-sh-2026-06-20T173338.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/blacksmith-sh/blacksmith-sh-2026-06-20T173338.png
 security:
 - kind: authentication
   name: Blacksmith Sh Authentication

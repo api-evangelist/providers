@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-10-17'
-api_count: 18
+  score: 27.7
+  scored_at: '2026-10-31'
+api_count: 6
 apis:
 - description: RESTful service for accessing business information and performing actions against DexCare-managed healthcare environments. The umbrella reference covering the Patient and Reporting surfaces, which are
   name: DexCare REST API
@@ -135,40 +137,40 @@ apis:
   description: The waittimes API from DexCare — 2 operation(s) for waittimes.
   name: DexCare Waittimes API
   slug: dexcare-waittimes-api
-artifact_total: 24
+artifact_total: 29
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/capabilities/dexcare-capability-edges.yml
+  href: https://artifacts.apis.io/dexcare/capabilities/dexcare-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dexcare-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/overlays/dexcare-visit-service-overlay.yaml
+  href: https://artifacts.apis.io/dexcare/overlays/dexcare-visit-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dexcare-visit-service-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/overlays/dexcare-care-options-overlay.yaml
+  href: https://artifacts.apis.io/dexcare/overlays/dexcare-care-options-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dexcare-care-options-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/overlays/dexcare-slots-availability-overlay.yaml
+  href: https://artifacts.apis.io/dexcare/overlays/dexcare-slots-availability-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dexcare-slots-availability-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/overlays/dexcare-visit-booking-overlay.yaml
+  href: https://artifacts.apis.io/dexcare/overlays/dexcare-visit-booking-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dexcare-visit-booking-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/overlays/dexcare-omni-search-overlay.yaml
+  href: https://artifacts.apis.io/dexcare/overlays/dexcare-omni-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dexcare-omni-search-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/overlays/dexcare-provider-data-management-overlay.yaml
+  href: https://artifacts.apis.io/dexcare/overlays/dexcare-provider-data-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dexcare-provider-data-management-overlay.yaml
@@ -213,32 +215,32 @@ common:
   type: Support
   url: https://developers.dexcarehealth.com/home/support
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/packages/dexcare-packages.yml
+  href: https://artifacts.apis.io/dexcare/packages/dexcare-packages.yml
   title: ''
   type: Packages
   url: packages/dexcare-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/packages/dexcare-packages.yml
+  href: https://artifacts.apis.io/dexcare/packages/dexcare-packages.yml
   title: ''
   type: SDKs
   url: packages/dexcare-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/authentication/dexcare-authentication.yml
+  href: https://artifacts.apis.io/dexcare/authentication/dexcare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dexcare-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/conventions/dexcare-conventions.yml
+  href: https://artifacts.apis.io/dexcare/conventions/dexcare-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dexcare-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/errors/dexcare-problem-types.yml
+  href: https://artifacts.apis.io/dexcare/errors/dexcare-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dexcare-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/lifecycle/dexcare-lifecycle.yml
+  href: https://artifacts.apis.io/dexcare/lifecycle/dexcare-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dexcare-lifecycle.yml
@@ -247,12 +249,12 @@ common:
   type: Deprecation
   url: https://developers.dexcarehealth.com/home/support
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/sandbox/dexcare-sandbox.yml
+  href: https://artifacts.apis.io/dexcare/sandbox/dexcare-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dexcare-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/conformance/dexcare-conformance.yml
+  href: https://artifacts.apis.io/dexcare/conformance/dexcare-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dexcare-conformance.yml
@@ -261,48 +263,56 @@ common:
   type: Compliance
   url: https://dexcare.com/privacy-policy/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/changelog/dexcare-changelog.yml
+  href: https://artifacts.apis.io/dexcare/changelog/dexcare-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dexcare-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/llms/dexcare-llms.txt
+  href: https://artifacts.apis.io/dexcare/llms/dexcare-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dexcare-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/security/dexcare-domain-security.yml
+  href: https://artifacts.apis.io/dexcare/security/dexcare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dexcare-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/data-model/dexcare-data-model.yml
+  href: https://artifacts.apis.io/dexcare/data-model/dexcare-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dexcare-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/rate-limits/dexcare-rate-limits.yml
+  href: https://artifacts.apis.io/dexcare/rate-limits/dexcare-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dexcare-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/plans/dexcare-plans-pricing.yml
+  href: https://artifacts.apis.io/dexcare/plans/dexcare-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dexcare-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/mcp/dexcare-mcp.yml
+  href: https://artifacts.apis.io/dexcare/mcp/dexcare-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dexcare-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dexcare/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'DexCare is a healthcare navigation and care-orchestration platform, launched from within Providence Health, that connects patients to available care across fragmented health systems while helping providers fill capacity and reduce wait times. Its products span Search & Schedule, Virtual On Demand, Provider Data Management (PDM+), Optimize AI, and Acquire. DexCare publishes six OpenAPI definitions on its own developer portal covering 27 operations across the Visit Service, Visit Booking, Care Options, Slots Availability, Omni Search and Provider Data Management services, alongside prose references for the Patient and Reporting APIs and native iOS, Android and JavaScript SDKs. There is no shared base URL: every health system is provisioned its own UAT and production hosts, and the published specifications use templated or per-tenant servers. Public directory, availability and search endpoints are open, while PHI/PII endpoints require an OAuth 2.0-issued JWT bearer token and server-to-server
   services require a DexCare-issued x-api-key. DexCare operates as a HIPAA business associate. This profile was enriched from DexCare''s public developer surface as part of the API Evangelist network (originally surfaced as an ICONIQ Capital portfolio lead).'
+finops:
+- has_sources: true
+  method: derived
+  name: Dexcare Finops
+  primary_unit: ''
+  service_category: ''
+  slug: dexcare-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dexcare.png
 layout: provider
 modified: '2026-08-15'
@@ -317,16 +327,16 @@ plans:
 - name: Dexcare Plans Pricing
   plan_count: 0
   slug: dexcare-plans-pricing
-random_paper: 6
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Dexcare Rate Limits
   slug: dexcare-rate-limits
 score:
   band: developing
-  composite: 47.3
+  composite: 47.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -338,9 +348,9 @@ score:
     contract_governance: 18.2
     contract_quality: 49.7
     developer_ergonomics: 73.2
-    discoverability: 78.6
-    operational_transparency: 26.3
-  previous_composite: 47.3
+    discoverability: 71.4
+    operational_transparency: 28.9
+  previous_composite: 47.6
   provenance:
     conformance: first-party
     contracts:
@@ -360,13 +370,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/screenshots/dexcare-2026-07-25T211834.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dexcare/dexcare-2026-07-25T211834.png
 security:
 - kind: authentication
   name: Dexcare Authentication
@@ -376,6 +387,16 @@ security:
   name: Dexcare Domain Security
   slug: dexcare-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: dexcare-create-virtual-visit
+  slug: dexcare-create-virtual-visit
+- name: dexcare-export-provider-data
+  slug: dexcare-export-provider-data
+- name: dexcare-find-and-book-in-person-care
+  slug: dexcare-find-and-book-in-person-care
+- name: dexcare-omni-search-care
+  slug: dexcare-omni-search-care
 slug: dexcare
 tags:
 - Company

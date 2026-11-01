@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Programmatic access to the exe.dev command surface. POST the command exactly as typed in the ssh exe.dev REPL to https://exe.dev/exec with an exe1. bearer token; supported commands return JSON via --j
   name: exe.dev HTTPS API
   slug: exedev-https-api
-artifact_total: 4
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -91,87 +93,87 @@ common:
   type: PrivacyPolicy
   url: https://exe.dev/docs/privacy-notice.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/llms/exedev-llms.txt
+  href: https://artifacts.apis.io/exedev/llms/exedev-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/exedev-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/well-known/exedev-well-known.yml
+  href: https://artifacts.apis.io/exedev/well-known/exedev-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/exedev-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/authentication/exedev-authentication.yml
+  href: https://artifacts.apis.io/exedev/authentication/exedev-authentication.yml
   title: ''
   type: Authentication
   url: authentication/exedev-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/security/exedev-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/exedev/security/exedev-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/exedev-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/security/exedev-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/exedev/security/exedev-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/exedev-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/security/exedev-domain-security.yml
+  href: https://artifacts.apis.io/exedev/security/exedev-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/exedev-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/conventions/exedev-conventions.yml
+  href: https://artifacts.apis.io/exedev/conventions/exedev-conventions.yml
   title: ''
   type: Conventions
   url: conventions/exedev-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/errors/exedev-problem-types.yml
+  href: https://artifacts.apis.io/exedev/errors/exedev-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/exedev-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/lifecycle/exedev-lifecycle.yml
+  href: https://artifacts.apis.io/exedev/lifecycle/exedev-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/exedev-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/changelog/exedev-changelog.yml
+  href: https://artifacts.apis.io/exedev/changelog/exedev-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/exedev-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/cli/exedev-cli.yml
+  href: https://artifacts.apis.io/exedev/cli/exedev-cli.yml
   title: ''
   type: CLI
   url: cli/exedev-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/packages/exedev-packages.yml
+  href: https://artifacts.apis.io/exedev/packages/exedev-packages.yml
   title: ''
   type: Packages
   url: packages/exedev-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/mcp/exedev-mcp.yml
+  href: https://artifacts.apis.io/exedev/mcp/exedev-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/exedev-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/conformance/exedev-conformance.yml
+  href: https://artifacts.apis.io/exedev/conformance/exedev-conformance.yml
   title: ''
   type: Conformance
   url: conformance/exedev-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/data-model/exedev-data-model.yml
+  href: https://artifacts.apis.io/exedev/data-model/exedev-data-model.yml
   title: ''
   type: DataModel
   url: data-model/exedev-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/components/exedev-components.yml
+  href: https://artifacts.apis.io/exedev/components/exedev-components.yml
   title: ''
   type: Components
   url: components/exedev-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/skills/exedev-using-exe-dev.md
+  href: https://artifacts.apis.io/exedev/skills/exedev-using-exe-dev.md
   title: ''
   type: AgentSkill
   url: skills/exedev-using-exe-dev.md
@@ -187,12 +189,12 @@ overview: 'exe.dev is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   exe.dev''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, authentication, and 22 more developer resources.'
-random_paper: 3
+random_paper: 17
 score:
   band: thin
-  composite: 33.1
+  composite: 33.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -203,10 +205,10 @@ score:
     access_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 69.0
-    discoverability: 64.3
-    operational_transparency: 28.9
-  previous_composite: 33.1
+    developer_ergonomics: 71.4
+    discoverability: 57.1
+    operational_transparency: 31.6
+  previous_composite: 33.3
   provenance:
     conformance: derived
     mcp: derived
@@ -217,14 +219,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/screenshots/exedev-2026-07-25T213854.png
+screenshot: https://apis.io/screenshots/exedev/exedev-2026-07-25T213854.png
 security:
 - kind: authentication
   name: Exedev Authentication
@@ -238,6 +240,10 @@ security:
   name: Exedev Vulnerability Disclosure
   slug: exedev-vulnerability-disclosure
   summary_line: contact published
+skill_count: 1
+skills:
+- name: using-exe-dev
+  slug: exedev-using-exe-dev
 slug: exedev
 tags:
 - Company

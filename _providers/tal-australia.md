@@ -31,6 +31,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -38,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: TAL's partner-facing OpenID Connect identity tenant (Okta org talpartner-au.okta.com), and the only machine-readable API contract TAL serves anonymously. Full OIDC discovery and RFC 8414 authorization
@@ -53,7 +55,7 @@ apis:
 artifact_total: 6
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tal-australia/refs/heads/main/well-known/tal-australia-well-known.yml
+  href: https://artifacts.apis.io/tal-australia/well-known/tal-australia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tal-australia-well-known.yml
@@ -62,52 +64,52 @@ common:
   type: OpenIDConnect
   url: https://login.talpartner.tal.com.au/.well-known/openid-configuration
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tal-australia/refs/heads/main/authentication/tal-australia-authentication.yml
+  href: https://artifacts.apis.io/tal-australia/authentication/tal-australia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tal-australia-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tal-australia/refs/heads/main/scopes/tal-australia-scopes.yml
+  href: https://artifacts.apis.io/tal-australia/scopes/tal-australia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tal-australia-scopes.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tal-australia/refs/heads/main/graphql/tal-australia-ure-graphql.yml
+  href: https://artifacts.apis.io/tal-australia/graphql/tal-australia-ure-graphql.yml
   title: ''
   type: GraphQL
   url: graphql/tal-australia-ure-graphql.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tal-australia/refs/heads/main/conformance/tal-australia-conformance.yml
+  href: https://artifacts.apis.io/tal-australia/conformance/tal-australia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tal-australia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tal-australia/refs/heads/main/errors/tal-australia-error-codes.yml
+  href: https://artifacts.apis.io/tal-australia/errors/tal-australia-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/tal-australia-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tal-australia/refs/heads/main/conventions/tal-australia-conventions.yml
+  href: https://artifacts.apis.io/tal-australia/conventions/tal-australia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tal-australia-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tal-australia/refs/heads/main/lifecycle/tal-australia-lifecycle.yml
+  href: https://artifacts.apis.io/tal-australia/lifecycle/tal-australia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tal-australia-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tal-australia/refs/heads/main/packages/tal-australia-packages.yml
+  href: https://artifacts.apis.io/tal-australia/packages/tal-australia-packages.yml
   title: ''
   type: Packages
   url: packages/tal-australia-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tal-australia/refs/heads/main/llms/tal-australia-llms.txt
+  href: https://artifacts.apis.io/tal-australia/llms/tal-australia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tal-australia-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tal-australia/refs/heads/main/security/tal-australia-domain-security.yml
+  href: https://artifacts.apis.io/tal-australia/security/tal-australia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tal-australia-domain-security.yml
@@ -192,7 +194,7 @@ scopes:
   summary_line: 7 scopes · authorizationCode/deviceCode
 score:
   band: emerging
-  composite: 19.6
+  composite: 20.3
   coverage:
     artifact_dirs: 14
     catalog_earned: 40.0
@@ -202,11 +204,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 79.5
+    discoverability: 73.2
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -215,7 +217,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 19.6
+  previous_composite: 20.3
   provenance:
     conformance: derived
   regulatory:
@@ -224,14 +226,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 33.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tal-australia/refs/heads/main/screenshots/tal-australia-2026-09-02T162444.png
+screenshot: https://apis.io/screenshots/tal-australia/tal-australia-2026-09-02T162444.png
 security:
 - kind: authentication
   name: Tal Australia Authentication

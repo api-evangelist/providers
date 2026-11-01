@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-17'
+  score: 28.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -76,15 +78,12 @@ apis:
 - description: REST API for the Revel Systems iPad POS platform, covering orders, payments, products, inventory, customers, employees, scheduling, cash management, discounts, tax, tables, purchase orders, house acco
   name: Revel Systems API
   slug: revel-api
-artifact_total: 93
+artifact_total: 92
 asyncapis:
 - description: 'Revel Systems delivers event notifications to partner-registered HTTPS endpoints via webhooks. Each event type is delivered by HTTP POST with a JSON body. Requests carry an HMAC-SHA1 signature in the '
   name: Revel Webhooks
   slug: revel-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Revel Open API
   slug: open-revel-open-api
@@ -105,17 +104,17 @@ collections:
   slug: open-revel-systems-scheduling-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/agentic-access/revel-systems-agentic-access.yml
+  href: https://artifacts.apis.io/revel-systems/agentic-access/revel-systems-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/revel-systems-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/security/revel-systems-domain-security.yml
+  href: https://artifacts.apis.io/revel-systems/security/revel-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/revel-systems-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/authentication/revel-systems-authentication.yml
+  href: https://artifacts.apis.io/revel-systems/authentication/revel-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/revel-systems-authentication.yml
@@ -140,27 +139,27 @@ common:
   type: FAQ
   url: https://developer.revelsystems.com/revelsystems/docs/frequently-asked-questions
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/rules/revel-systems-rules.yml
+  href: https://artifacts.apis.io/revel-systems/rules/revel-systems-rules.yml
   title: ''
   type: SpectralRules
   url: rules/revel-systems-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/vocabulary/revel-systems-vocabulary.yml
+  href: https://artifacts.apis.io/revel-systems/vocabulary/revel-systems-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/revel-systems-vocabulary.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/plans/revel-systems-plans-pricing.yml
+  href: https://artifacts.apis.io/revel-systems/plans/revel-systems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/revel-systems-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/rate-limits/revel-systems-rate-limits.yml
+  href: https://artifacts.apis.io/revel-systems/rate-limits/revel-systems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/revel-systems-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/finops/revel-systems-finops.yml
+  href: https://artifacts.apis.io/revel-systems/finops/revel-systems-finops.yml
   title: ''
   type: FinOps
   url: finops/revel-systems-finops.yml
@@ -387,7 +386,7 @@ plans:
 - name: Revel Systems Plans Pricing
   plan_count: 1
   slug: revel-systems-plans-pricing
-random_paper: 15
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Revel Systems Rate Limits
@@ -429,8 +428,8 @@ rules:
     warn: 18
   slug: revel-systems-rules
 score:
-  band: emerging
-  composite: 20.5
+  band: thin
+  composite: 31.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 63.0
@@ -438,15 +437,15 @@ score:
     catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 39.9
-    developer_ergonomics: 1.2
+    developer_ergonomics: 42.9
     discoverability: 53.6
-    operational_transparency: 7.9
-  previous_composite: 22.0
+    operational_transparency: 26.3
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     contracts:
@@ -460,13 +459,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/screenshots/revel-systems-2026-06-20T193052.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/revel-systems/revel-systems-2026-06-20T193052.png
 security:
 - kind: authentication
   name: Revel Systems Authentication

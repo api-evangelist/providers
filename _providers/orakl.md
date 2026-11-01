@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 30.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -92,9 +94,6 @@ apis:
 artifact_total: 22
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Orakl Oncology public website CommonContent API
   slug: open-orakl-commoncontent-api
 - collection_type: open
@@ -123,12 +122,12 @@ collections:
   slug: open-orakl-webresponse-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/overlays/orakl-website-overlay.yaml
+  href: https://artifacts.apis.io/orakl/overlays/orakl-website-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/orakl-website-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/security/orakl-domain-security.yml
+  href: https://artifacts.apis.io/orakl/security/orakl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/orakl-domain-security.yml
@@ -157,32 +156,32 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/orakloncology/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/agentic-access/orakl-agentic-access.yml
+  href: https://artifacts.apis.io/orakl/agentic-access/orakl-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/orakl-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/authentication/orakl-authentication.yml
+  href: https://artifacts.apis.io/orakl/authentication/orakl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/orakl-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/well-known/orakl-well-known.yml
+  href: https://artifacts.apis.io/orakl/well-known/orakl-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/orakl-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/mcp/orakl-mcp.yml
+  href: https://artifacts.apis.io/orakl/mcp/orakl-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/orakl-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/llms/orakl-llms.txt
+  href: https://artifacts.apis.io/orakl/llms/orakl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/orakl-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/orakl/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -201,7 +200,7 @@ overview: 'Orakl publishes 9 API contracts indexed on the [APIs.io](https://apis
 random_paper: 9
 score:
   band: thin
-  composite: 28.8
+  composite: 29.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 32.0
@@ -214,8 +213,8 @@ score:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 49.1
-    developer_ergonomics: 25.6
-    discoverability: 64.3
+    developer_ergonomics: 30.4
+    discoverability: 57.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -225,7 +224,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 28.8
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,13 +241,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/screenshots/orakl-2026-08-07T190829.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/orakl/orakl-2026-08-07T190829.png
 security:
 - kind: authentication
   name: Orakl Authentication
@@ -258,6 +258,10 @@ security:
   name: Orakl Domain Security
   slug: orakl-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 1
+skills:
+- name: Fetch Orakl Oncology website page content
+  slug: orakl-fetch-page-content
 slug: orakl
 tags:
 - Company

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Subscribe to VCC event notifications delivered over HTTPS and signed with a Vonage-Signature header.
@@ -71,32 +73,32 @@ common:
   type: GettingStarted
   url: https://docs-vcc.atlassian.net/wiki/spaces/VCCA/pages/3599630337/Trying+out+Vonage+Contact+Center+APIs
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/newvoicemedia/refs/heads/main/authentication/newvoicemedia-authentication.yml
+  href: https://artifacts.apis.io/newvoicemedia/authentication/newvoicemedia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/newvoicemedia-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/newvoicemedia/refs/heads/main/scopes/newvoicemedia-scopes.yml
+  href: https://artifacts.apis.io/newvoicemedia/scopes/newvoicemedia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/newvoicemedia-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/newvoicemedia/refs/heads/main/conventions/newvoicemedia-conventions.yml
+  href: https://artifacts.apis.io/newvoicemedia/conventions/newvoicemedia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/newvoicemedia-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/newvoicemedia/refs/heads/main/asyncapi/newvoicemedia-webhooks.yml
+  href: https://artifacts.apis.io/newvoicemedia/asyncapi/newvoicemedia-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/newvoicemedia-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/newvoicemedia/refs/heads/main/security/newvoicemedia-domain-security.yml
+  href: https://artifacts.apis.io/newvoicemedia/security/newvoicemedia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/newvoicemedia-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/newvoicemedia/refs/heads/main/llms/newvoicemedia-llms.txt
+  href: https://artifacts.apis.io/newvoicemedia/llms/newvoicemedia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/newvoicemedia-llms.txt
@@ -123,7 +125,7 @@ overview: 'NewVoiceMedia is listed with 1 API on the [APIs.io](https://apis.io/)
 
 
   NewVoiceMedia''s developer surface includes engineering blog, documentation, getting-started guide, authentication, and 10 more developer resources.'
-random_paper: 12
+random_paper: 8
 scopes:
 - name: Newvoicemedia Scopes
   scope_count: 10
@@ -131,7 +133,7 @@ scopes:
   summary_line: 10 scopes · clientCredentials
 score:
   band: thin
-  composite: 28.6
+  composite: 28.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -139,29 +141,29 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 47.6
-    discoverability: 73.2
+    developer_ergonomics: 50.0
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 28.0
+  previous_composite: 28.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/newvoicemedia/refs/heads/main/screenshots/newvoicemedia-2026-08-07T185150.png
+screenshot: https://apis.io/screenshots/newvoicemedia/newvoicemedia-2026-08-07T185150.png
 security:
 - kind: authentication
   name: Newvoicemedia Authentication

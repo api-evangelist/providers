@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,22 +35,22 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allorion-therapeutics/refs/heads/main/security/allorion-therapeutics-domain-security.yml
+  href: https://artifacts.apis.io/allorion-therapeutics/security/allorion-therapeutics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/allorion-therapeutics-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allorion-therapeutics/refs/heads/main/well-known/allorion-therapeutics-well-known.yml
+  href: https://artifacts.apis.io/allorion-therapeutics/well-known/allorion-therapeutics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/allorion-therapeutics-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allorion-therapeutics/refs/heads/main/llms/allorion-therapeutics-llms.txt
+  href: https://artifacts.apis.io/allorion-therapeutics/llms/allorion-therapeutics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/allorion-therapeutics-llms.txt
@@ -124,12 +126,12 @@ overview: 'Allorion Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   Allorion Therapeutics'' developer surface includes product news and 13 more developer resources.'
-random_paper: 6
+random_paper: 22
 score:
   band: minimal
-  composite: 4.5
+  composite: 3.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -141,23 +143,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 56.3
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 4.5
+  previous_composite: 3.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/allorion-therapeutics/refs/heads/main/screenshots/allorion-therapeutics-2026-08-07T161224.png
+screenshot: https://apis.io/screenshots/allorion-therapeutics/allorion-therapeutics-2026-08-07T161224.png
 security:
 - kind: domain-security
   name: Allorion Therapeutics Domain Security

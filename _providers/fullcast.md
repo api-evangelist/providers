@@ -26,17 +26,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.8
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 49.7
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: 'Fullcast''s remote Model Context Protocol server, exposing go-to-market planning, territory and team hierarchy, coverage, targets, reporting, commissions and document operations to external AI clients '
   name: Fullcast MCP Server
@@ -64,7 +66,7 @@ apis:
   description: The oauth API from Fullcast — 5 operation(s) for oauth.
   name: Fullcast OAUTH API
   slug: fullcast-oauth-api
-artifact_total: 14
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Fullcast Copy Ai Webhooks
@@ -75,7 +77,7 @@ common:
   type: BlogRSS
   url: https://www.fullcast.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/authentication/fullcast-authentication.yml
+  href: https://artifacts.apis.io/fullcast/authentication/fullcast-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fullcast-authentication.yml
@@ -116,62 +118,62 @@ common:
   type: Compliance
   url: https://www.fullcast.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/security/fullcast-trust-center.yml
+  href: https://artifacts.apis.io/fullcast/security/fullcast-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fullcast-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/conformance/fullcast-conformance.yml
+  href: https://artifacts.apis.io/fullcast/conformance/fullcast-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fullcast-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/security/fullcast-domain-security.yml
+  href: https://artifacts.apis.io/fullcast/security/fullcast-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fullcast-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/llms/fullcast-llms.txt
+  href: https://artifacts.apis.io/fullcast/llms/fullcast-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fullcast-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/mcp/fullcast-mcp.yml
+  href: https://artifacts.apis.io/fullcast/mcp/fullcast-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/fullcast-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/mcp/fullcast-tool-crosswalk.yml
+  href: https://artifacts.apis.io/fullcast/mcp/fullcast-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/fullcast-tool-crosswalk.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/_original/fullcast-assistant-openapi-original.json
+  href: https://artifacts.apis.io/fullcast/openapi/_original/fullcast-assistant-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/fullcast-assistant-openapi-original.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/well-known/fullcast-well-known.yml
+  href: https://artifacts.apis.io/fullcast/well-known/fullcast-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fullcast-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/conventions/fullcast-conventions.yml
+  href: https://artifacts.apis.io/fullcast/conventions/fullcast-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fullcast-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/errors/fullcast-problem-types.yml
+  href: https://artifacts.apis.io/fullcast/errors/fullcast-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fullcast-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/data-model/fullcast-data-model.yml
+  href: https://artifacts.apis.io/fullcast/data-model/fullcast-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fullcast-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/lifecycle/fullcast-lifecycle.yml
+  href: https://artifacts.apis.io/fullcast/lifecycle/fullcast-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fullcast-lifecycle.yml
@@ -180,42 +182,42 @@ common:
   type: StatusPage
   url: https://status.fullcast.io
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/changelog/fullcast-changelog.yml
+  href: https://artifacts.apis.io/fullcast/changelog/fullcast-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fullcast-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/asyncapi/fullcast-copy-ai-webhooks.yml
+  href: https://artifacts.apis.io/fullcast/asyncapi/fullcast-copy-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fullcast-copy-ai-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/packages/fullcast-packages.yml
+  href: https://artifacts.apis.io/fullcast/packages/fullcast-packages.yml
   title: ''
   type: Packages
   url: packages/fullcast-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fullcast/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/overlays/fullcast-assistant-overlay.yaml
+  href: https://artifacts.apis.io/fullcast/overlays/fullcast-assistant-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fullcast-assistant-overlay.yaml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/plans/fullcast-plans-pricing.yml
+  href: https://artifacts.apis.io/fullcast/plans/fullcast-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fullcast-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/rate-limits/fullcast-rate-limits.yml
+  href: https://artifacts.apis.io/fullcast/rate-limits/fullcast-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fullcast-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/sandbox/fullcast-sandbox.yml
+  href: https://artifacts.apis.io/fullcast/sandbox/fullcast-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fullcast-sandbox.yml
@@ -236,12 +238,20 @@ common:
   type: GitHubOrganization
   url: https://github.com/copy-ai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/scopes/fullcast-scopes.yml
+  href: https://artifacts.apis.io/fullcast/scopes/fullcast-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fullcast-scopes.yml
 created: '2026-07-17'
 description: Fullcast is a revenue orchestration platform for go-to-market teams that unifies sales planning and execution into one continuous engine. Its products — Fullcast Plan (territory, quota and headcount management with dynamic territory design and instant lead and account routing), Fullcast Revenue Intelligence (AI-validated forecasting that parses buying signals), and Fullcast Pay (real-time incentive and commission management) — share a single data model and are increasingly delivered through agentic orchestration that automates RevOps tasks. Fullcast integrates with Salesforce, Microsoft Dynamics, HubSpot, Workday, major data warehouses and billing systems through a RESTful integration layer, and is SOC 2 Type 2 and GDPR compliant. Backed by Cowboy Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Fullcast Finops
+  primary_unit: ''
+  service_category: ''
+  slug: fullcast-finops
+  template: true
 image: https://www.fullcast.com/wp-content/uploads/2026/07/Fullcast-plan-to-pay-1024x576.png
 layout: provider
 mcp_servers:
@@ -263,7 +273,7 @@ plans:
 - name: Fullcast Plans Pricing
   plan_count: 3
   slug: fullcast-plans-pricing
-random_paper: 4
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Fullcast Rate Limits
@@ -274,10 +284,10 @@ scopes:
   slug: fullcast-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: developing
-  composite: 50.9
+  band: strong
+  composite: 62.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -285,13 +295,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 51.3
-    developer_ergonomics: 63.7
-    discoverability: 75.0
-    operational_transparency: 42.1
-  previous_composite: 50.9
+    contract_quality: 49.9
+    developer_ergonomics: 66.1
+    discoverability: 65.0
+    operational_transparency: 44.7
+  previous_composite: 62.2
   provenance:
     conformance: first-party
     contracts:
@@ -310,14 +320,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 39.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/screenshots/fullcast-2026-07-25T215257.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fullcast/fullcast-2026-07-25T215257.png
 security:
 - kind: authentication
   name: Fullcast Authentication
@@ -331,6 +342,16 @@ security:
   name: Fullcast Trust Center
   slug: fullcast-trust-center
   summary_line: SOC 2 Type 2, GDPR
+skill_count: 4
+skills:
+- name: Connect an AI client to the Fullcast MCP server
+  slug: fullcast-connect-an-mcp-client
+- name: Explore a Fullcast go-to-market plan read-only
+  slug: fullcast-explore-a-gtm-plan
+- name: Move an account, person or product safely in Fullcast
+  slug: fullcast-move-a-record-safely
+- name: Run a Fullcast Copy.ai workflow and collect the result
+  slug: fullcast-run-a-copy-ai-workflow
 slug: fullcast
 tags:
 - Company

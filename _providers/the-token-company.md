@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 21.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.thetokencompany.com
@@ -47,11 +49,8 @@ apis:
   description: Compressed web search
   name: The Token Company Search API
   slug: the-token-company-search-api
-artifact_total: 9
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: The Token Company Compression API
   slug: open-the-token-company-compression-api
@@ -60,7 +59,7 @@ collections:
   slug: open-the-token-company-search-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/plans/the-token-company-plans-pricing.yml
+  href: https://artifacts.apis.io/the-token-company/plans/the-token-company-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/the-token-company-plans-pricing.yml
@@ -69,12 +68,12 @@ common:
   type: Website
   url: https://www.thetokencompany.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/overlays/the-token-company-overlay.yaml
+  href: https://artifacts.apis.io/the-token-company/overlays/the-token-company-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/the-token-company-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/security/the-token-company-domain-security.yml
+  href: https://artifacts.apis.io/the-token-company/security/the-token-company-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-token-company-domain-security.yml
@@ -135,67 +134,75 @@ common:
   type: Compliance
   url: https://trust.thetokencompany.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/packages/the-token-company-packages.yml
+  href: https://artifacts.apis.io/the-token-company/packages/the-token-company-packages.yml
   title: ''
   type: Packages
   url: packages/the-token-company-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/packages/the-token-company-packages.yml
+  href: https://artifacts.apis.io/the-token-company/packages/the-token-company-packages.yml
   title: ''
   type: SDKs
   url: packages/the-token-company-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/authentication/the-token-company-authentication.yml
+  href: https://artifacts.apis.io/the-token-company/authentication/the-token-company-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-token-company-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/errors/the-token-company-problem-types.yml
+  href: https://artifacts.apis.io/the-token-company/errors/the-token-company-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/the-token-company-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/conventions/the-token-company-conventions.yml
+  href: https://artifacts.apis.io/the-token-company/conventions/the-token-company-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-token-company-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/lifecycle/the-token-company-lifecycle.yml
+  href: https://artifacts.apis.io/the-token-company/lifecycle/the-token-company-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/the-token-company-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/changelog/the-token-company-changelog.yml
+  href: https://artifacts.apis.io/the-token-company/changelog/the-token-company-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/the-token-company-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/mcp/the-token-company-mcp.yml
+  href: https://artifacts.apis.io/the-token-company/mcp/the-token-company-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/the-token-company-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/llms/the-token-company-llms.txt
+  href: https://artifacts.apis.io/the-token-company/llms/the-token-company-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-token-company-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/conformance/the-token-company-conformance.yml
+  href: https://artifacts.apis.io/the-token-company/conformance/the-token-company-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-token-company-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/data-model/the-token-company-data-model.yml
+  href: https://artifacts.apis.io/the-token-company/data-model/the-token-company-data-model.yml
   title: ''
   type: DataModel
   url: data-model/the-token-company-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/the-token-company/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: The Token Company builds LLM input-compression middleware. A single API call runs a prompt, a full chat conversation, or web-search results through their bear compression models (bear-2 latest, plus bear-1.2/1.1/1) to strip low-signal tokens before the text reaches a language model, cutting cost and latency while preserving output quality. It ships drop-in Python and Node.js SDKs that wrap the OpenAI, Anthropic, Vercel AI SDK, and OpenRouter clients so existing apps compress automatically, plus content-protection (ttc_safe) tags, per-app usage tagging, and a zero-data-retention policy. A Y Combinator (W26) company based in San Francisco.
+finops:
+- has_sources: true
+  method: derived
+  name: The Token Company Finops
+  primary_unit: ''
+  service_category: ''
+  slug: the-token-company-finops
+  template: true
 image: https://thetokencompany.com/favicon.ico
 layout: provider
 modified: '2026-07-21'
@@ -210,25 +217,25 @@ plans:
 - name: The Token Company Plans Pricing
   plan_count: 2
   slug: the-token-company-plans-pricing
-random_paper: 21
+random_paper: 11
 score:
   band: developing
-  composite: 41.9
+  composite: 43.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.3
+  delta: 0.0
   facets:
     access_clarity: 81.6
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 26.3
+    discoverability: 66.1
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -236,7 +243,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 37.6
+  previous_composite: 43.3
   provenance:
     conformance: derived
     contracts:
@@ -256,13 +263,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/screenshots/the-token-company-2026-08-17T082339.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/the-token-company/the-token-company-2026-08-17T082339.png
 security:
 - kind: authentication
   name: The Token Company Authentication
@@ -276,6 +284,12 @@ security:
   name: The Token Company Trust Center
   slug: the-token-company-trust-center
   summary_line: HIPAA
+skill_count: 2
+skills:
+- name: Compress a chat conversation in one request
+  slug: the-token-company-compress-chat
+- name: Compress a prompt before an LLM call
+  slug: the-token-company-compress-prompt
 slug: the-token-company
 tags:
 - Company

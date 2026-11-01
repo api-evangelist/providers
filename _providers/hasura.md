@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -97,7 +99,7 @@ apis:
   description: The Graph QL API from Hasura — 2 operation(s) for graph ql.
   name: Hasura Graph QL API
   slug: hasura-graph-ql-api
-artifact_total: 46
+artifact_total: 45
 asyncapis:
 - description: AsyncAPI definition for Hasura GraphQL Engine real-time subscriptions delivered over WebSocket at the `/v1/graphql` endpoint. Hasura supports two WebSocket subprotocols, negotiated via the `Sec-WebSoc
   name: Hasura GraphQL Subscriptions over WebSocket
@@ -128,9 +130,6 @@ collections:
   name: Hasura Engine HTTP APIs Graphql Version API
   slug: postman-hasura-version-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Hasura Engine HTTP APIs Graphql API
   slug: open-hasura-graphql-api
 - collection_type: open
@@ -158,13 +157,18 @@ collections:
   name: Hasura GraphQL Engine HTTP APIs
   slug: open-hasura
 common:
+- group: commercial
+  href: https://artifacts.apis.io/hasura/plans/hasura-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hasura-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/rate-limits/hasura-rate-limits.yml
+  href: https://artifacts.apis.io/hasura/rate-limits/hasura-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hasura-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/finops/hasura-finops.yml
+  href: https://artifacts.apis.io/hasura/finops/hasura-finops.yml
   title: ''
   type: FinOps
   url: finops/hasura-finops.yml
@@ -173,27 +177,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/hasura/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/agentic-access/hasura-agentic-access.yml
+  href: https://artifacts.apis.io/hasura/agentic-access/hasura-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hasura-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/security/hasura-trust-center.yml
+  href: https://artifacts.apis.io/hasura/security/hasura-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/hasura-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/security/hasura-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hasura/security/hasura-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hasura-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/security/hasura-domain-security.yml
+  href: https://artifacts.apis.io/hasura/security/hasura-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hasura-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/authentication/hasura-authentication.yml
+  href: https://artifacts.apis.io/hasura/authentication/hasura-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hasura-authentication.yml
@@ -405,13 +409,13 @@ features:
 - name: Data Access Layer
 - name: API gateway
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Hasura Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: active model
+  service_category: ''
   slug: hasura-finops
-  template: true
+  template: false
 graphqls:
 - description: The Hasura GraphQL Engine v2 provides instant realtime GraphQL APIs on your data with fine-grained access control. Supports GraphQL queries, mutations, and subscriptions at the /v1/graphql endpoint, a
   name: Hasura GraphQL API
@@ -432,12 +436,12 @@ overview: 'Hasura publishes 12 API contracts indexed on the [APIs.io](https://ap
   The Hasura catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Hasura''s developer surface includes authentication, getting-started guide, CLI, support, FAQ, engineering blog, pricing, and 51 more developer resources.'
+  Hasura''s developer surface includes authentication, getting-started guide, CLI, support, FAQ, engineering blog, pricing, and 52 more developer resources.'
 plans:
 - name: Hasura Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: hasura-plans-pricing
-random_paper: 6
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Hasura Rate Limits
@@ -456,24 +460,24 @@ rules:
     warn: 5
   slug: hasura-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 51.4
+  band: strong
+  composite: 58.4
   coverage:
     artifact_dirs: 17
-    catalog_earned: 31.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 83.3
+    catalog_earned: 43.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 71.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 11.4
     contract_quality: 53.1
     developer_ergonomics: 56.0
     discoverability: 46.7
     operational_transparency: 55.3
-  previous_composite: 52.9
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     contracts:
@@ -487,13 +491,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/screenshots/hasura-2026-06-20T182534.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hasura/hasura-2026-06-20T182534.png
 security:
 - kind: authentication
   name: Hasura Authentication

@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 31.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,11 +59,8 @@ apis:
   description: Full-text search across the joke corpus.
   name: chucknorris.io Search API
   slug: chucknorris-io-search-api
-artifact_total: 52
+artifact_total: 51
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Chuck Norris Jokes Categories API
   slug: open-chucknorris-io-categories-api
@@ -80,12 +79,12 @@ common:
   type: IssueTracker
   url: https://github.com/chucknorris-io/chuck-api/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/agentic-access/chucknorris-io-agentic-access.yml
+  href: https://artifacts.apis.io/chucknorris-io/agentic-access/chucknorris-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/chucknorris-io-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/security/chucknorris-io-domain-security.yml
+  href: https://artifacts.apis.io/chucknorris-io/security/chucknorris-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chucknorris-io-domain-security.yml
@@ -110,12 +109,12 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/rules/chucknorris-io-rules.yml
+  href: https://artifacts.apis.io/chucknorris-io/rules/chucknorris-io-rules.yml
   title: ''
   type: SpectralRules
   url: rules/chucknorris-io-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/vocabulary/chucknorris-io-vocabulary.yml
+  href: https://artifacts.apis.io/chucknorris-io/vocabulary/chucknorris-io-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/chucknorris-io-vocabulary.yml
@@ -160,17 +159,17 @@ common:
   type: X
   url: https://twitter.com/MatChilling
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/plans/chucknorris-io-plans-pricing.yml
+  href: https://artifacts.apis.io/chucknorris-io/plans/chucknorris-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chucknorris-io-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/rate-limits/chucknorris-io-rate-limits.yml
+  href: https://artifacts.apis.io/chucknorris-io/rate-limits/chucknorris-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chucknorris-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/finops/chucknorris-io-finops.yml
+  href: https://artifacts.apis.io/chucknorris-io/finops/chucknorris-io-finops.yml
   title: ''
   type: FinOps
   url: finops/chucknorris-io-finops.yml
@@ -297,7 +296,7 @@ plans:
 - name: Chucknorris Io Plans Pricing
   plan_count: 1
   slug: chucknorris-io-plans-pricing
-random_paper: 4
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Chucknorris Io Rate Limits
@@ -328,7 +327,7 @@ rules:
   slug: chucknorris-io-rules
 score:
   band: thin
-  composite: 36.9
+  composite: 38.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 60.0
@@ -336,15 +335,15 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 27.3
     contract_quality: 64.9
     developer_ergonomics: 31.0
     discoverability: 64.3
-    operational_transparency: 10.5
-  previous_composite: 41.1
+    operational_transparency: 21.1
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -358,14 +357,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/screenshots/chucknorris-io-2026-06-20T174333.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/chucknorris-io/chucknorris-io-2026-06-20T174333.png
 security:
 - kind: domain-security
   name: Chucknorris Io Domain Security

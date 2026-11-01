@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.3
-  scored_at: '2026-10-17'
+  score: 24.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -84,11 +86,8 @@ apis:
   description: Member types and statuses.
   name: MemberClicks Reference Data API
   slug: memberclicks-reference-data-api
-artifact_total: 25
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MemberClicks MC Professional Attributes API
   slug: open-memberclicks-attributes-api
@@ -126,27 +125,27 @@ common:
   type: BlogRSS
   url: https://memberclicks.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/capabilities/memberclicks-capability-edges.yml
+  href: https://artifacts.apis.io/memberclicks/capabilities/memberclicks-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/memberclicks-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/agentic-access/memberclicks-agentic-access.yml
+  href: https://artifacts.apis.io/memberclicks/agentic-access/memberclicks-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/memberclicks-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/security/memberclicks-domain-security.yml
+  href: https://artifacts.apis.io/memberclicks/security/memberclicks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/memberclicks-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/authentication/memberclicks-authentication.yml
+  href: https://artifacts.apis.io/memberclicks/authentication/memberclicks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/memberclicks-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/scopes/memberclicks-scopes.yml
+  href: https://artifacts.apis.io/memberclicks/scopes/memberclicks-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/memberclicks-scopes.yml
@@ -167,17 +166,17 @@ common:
   type: SignUp
   url: https://help.memberclicks.com/hc/en-us/articles/18581108667021-API-Management
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/plans/memberclicks-plans-pricing.yml
+  href: https://artifacts.apis.io/memberclicks/plans/memberclicks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/memberclicks-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/rate-limits/memberclicks-rate-limits.yml
+  href: https://artifacts.apis.io/memberclicks/rate-limits/memberclicks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/memberclicks-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/finops/memberclicks-finops.yml
+  href: https://artifacts.apis.io/memberclicks/finops/memberclicks-finops.yml
   title: ''
   type: FinOps
   url: finops/memberclicks-finops.yml
@@ -205,7 +204,7 @@ plans:
 - name: Memberclicks Plans Pricing
   plan_count: 3
   slug: memberclicks-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Memberclicks Rate Limits
@@ -217,7 +216,7 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 31.0
+  composite: 31.7
   coverage:
     artifact_dirs: 14
     catalog_earned: 43.0
@@ -225,7 +224,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -233,7 +232,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 38.7
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     contracts:
@@ -247,13 +246,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/screenshots/memberclicks-2026-08-07T172453.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/memberclicks/memberclicks-2026-08-07T172453.png
 security:
 - kind: authentication
   name: Memberclicks Authentication

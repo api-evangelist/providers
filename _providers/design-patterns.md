@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Rules, capabilities, vocabulary, and linked-data description covering classic Gang of Four patterns and key API design patterns.
@@ -42,17 +44,17 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/design-patterns/refs/heads/main/plans/design-patterns-plans-pricing.yml
+  href: https://artifacts.apis.io/design-patterns/plans/design-patterns-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/design-patterns-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/design-patterns/refs/heads/main/rate-limits/design-patterns-rate-limits.yml
+  href: https://artifacts.apis.io/design-patterns/rate-limits/design-patterns-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/design-patterns-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/design-patterns/refs/heads/main/finops/design-patterns-finops.yml
+  href: https://artifacts.apis.io/design-patterns/finops/design-patterns-finops.yml
   title: ''
   type: FinOps
   url: finops/design-patterns-finops.yml
@@ -74,7 +76,7 @@ finops:
 - has_sources: false
   method: generated
   name: Design Patterns Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: design-patterns-finops
   template: true
@@ -97,7 +99,7 @@ plans:
 - name: Design Patterns Plans Pricing
   plan_count: 3
   slug: design-patterns-plans-pricing
-random_paper: 20
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Design Patterns Rate Limits
@@ -116,7 +118,7 @@ rules:
   slug: design-patterns-rules
 score:
   band: emerging
-  composite: 11.0
+  composite: 11.3
   coverage:
     artifact_dirs: 7
     catalog_earned: 42.5
@@ -124,35 +126,29 @@ score:
     catalog_gap: 72.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 6.7
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 10.5
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
-  previous_composite: 12.5
+    operational_transparency: 13.2
+  previous_composite: 11.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/design-patterns/refs/heads/main/screenshots/design-patterns-2026-06-20T175933.png
+screenshot: https://apis.io/screenshots/design-patterns/design-patterns-2026-06-20T175933.png
 slug: design-patterns
 tags:
 - Best Practices

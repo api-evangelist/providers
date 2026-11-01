@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Utah Web API for geocoding Utah addresses
@@ -41,7 +43,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/utah-agrc/refs/heads/main/security/utah-agrc-domain-security.yml
+  href: https://artifacts.apis.io/utah-agrc/security/utah-agrc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/utah-agrc-domain-security.yml
@@ -69,7 +71,7 @@ overview: 'Utah AGRC is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Utah AGRC''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: minimal
   composite: 5.6
@@ -95,14 +97,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/utah-agrc/refs/heads/main/screenshots/utah-agrc-2026-06-20T200725.png
+screenshot: https://apis.io/screenshots/utah-agrc/utah-agrc-2026-06-20T200725.png
 security:
 - kind: domain-security
   name: Utah Agrc Domain Security

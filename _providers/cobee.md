@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.7
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -53,11 +55,8 @@ apis:
   description: The Oauth API from Cobee by Pluxee — 1 operation(s) for oauth.
   name: Cobee by Pluxee OAUTH API
   slug: cobee-oauth-api
-artifact_total: 9
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Public Companies API
   slug: open-cobee-companies-api
@@ -65,17 +64,22 @@ collections:
   name: Public Companies Oauth API
   slug: open-cobee-oauth-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/cobee/plans/cobee-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cobee-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://cobee.io/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/capabilities/cobee-capability-edges.yml
+  href: https://artifacts.apis.io/cobee/capabilities/cobee-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cobee-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/overlays/cobee-public-api-overlay.yaml
+  href: https://artifacts.apis.io/cobee/overlays/cobee-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cobee-public-api-overlay.yaml
@@ -124,72 +128,80 @@ common:
   type: PrivacyPolicy
   url: https://cobee.io/en/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/llms/cobee-llms.txt
+  href: https://artifacts.apis.io/cobee/llms/cobee-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cobee-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/authentication/cobee-authentication.yml
+  href: https://artifacts.apis.io/cobee/authentication/cobee-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cobee-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/conventions/cobee-conventions.yml
+  href: https://artifacts.apis.io/cobee/conventions/cobee-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cobee-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/errors/cobee-problem-types.yml
+  href: https://artifacts.apis.io/cobee/errors/cobee-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cobee-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/lifecycle/cobee-lifecycle.yml
+  href: https://artifacts.apis.io/cobee/lifecycle/cobee-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cobee-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/data-model/cobee-data-model.yml
+  href: https://artifacts.apis.io/cobee/data-model/cobee-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cobee-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/sandbox/cobee-sandbox.yml
+  href: https://artifacts.apis.io/cobee/sandbox/cobee-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cobee-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/mcp/cobee-mcp.yml
+  href: https://artifacts.apis.io/cobee/mcp/cobee-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cobee-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/conformance/cobee-conformance.yml
+  href: https://artifacts.apis.io/cobee/conformance/cobee-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cobee-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/security/cobee-trust-center.yml
+  href: https://artifacts.apis.io/cobee/security/cobee-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cobee-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cobee/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/agentic-access/cobee-agentic-access.yml
+  href: https://artifacts.apis.io/cobee/agentic-access/cobee-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cobee-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/security/cobee-domain-security.yml
+  href: https://artifacts.apis.io/cobee/security/cobee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cobee-domain-security.yml
 created: '2026-07-17'
 description: Cobee is a Madrid-based flexible employee benefits and compensation platform, acquired by Pluxee (Sodexo group) in 2024. It lets companies manage a modular multi-benefit program (meal, transport, training, health and life insurance, wellbeing and employee discounts) from a single dashboard, delivered to employees through a Cobee VISA card and mobile app. Cobee exposes a REST Public API (v3, OpenAPI 3.0.1) for HR and payroll integrations, covering companies, employees, benefit models, payroll cycles, and benefit consumptions, with OAuth 2.0 client-credentials (Auth0-issued JWT) auth and a separate staging sandbox. The Public API is currently available to Spanish customers, with credentials issued by the customer's Customer Success Manager.
+finops:
+- has_sources: true
+  method: derived
+  name: Cobee Finops
+  primary_unit: ''
+  service_category: ''
+  slug: cobee-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cobee.png
 layout: provider
 modified: '2026-10-06'
@@ -199,25 +211,29 @@ network: true
 overview: 'Cobee by Pluxee publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Companies API and OAUTH API. Tagged areas include Company, Employee Benefits, Compensation, Human Resources, and Payroll.
 
 
-  Cobee by Pluxee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 20 more developer resources.'
-random_paper: 4
+  Cobee by Pluxee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 21 more developer resources.'
+plans:
+- name: Cobee Plans Pricing
+  plan_count: 3
+  slug: cobee-plans-pricing
+random_paper: 6
 score:
   band: developing
-  composite: 44.7
+  composite: 52.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 46.1
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 47.4
     developer_ergonomics: 66.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -227,7 +243,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 44.7
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -244,13 +260,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/screenshots/cobee-2026-07-25T205844.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cobee/cobee-2026-07-25T205844.png
 security:
 - kind: authentication
   name: Cobee Authentication
@@ -264,6 +281,14 @@ security:
   name: Cobee Trust Center
   slug: cobee-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Authenticate with the Cobee Public API
+  slug: cobee-authenticate
+- name: Onboard and invite an employee
+  slug: cobee-onboard-employee
+- name: Reconcile consumptions and close a payroll cycle
+  slug: cobee-payroll-and-consumptions
 slug: cobee
 tags:
 - Company

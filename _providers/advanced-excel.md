@@ -4,6 +4,6 @@ layout: provider
 name: advanced-excel
 nav: Providers
 network: true
-random_paper: 10
+random_paper: 4
 slug: advanced-excel
 ---

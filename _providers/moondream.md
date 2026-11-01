@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 4
@@ -54,11 +56,8 @@ apis:
   description: Moondream vision Skills — query, caption, detect, point, segment.
   name: Moondream Skills API
   slug: moondream-skills-api
-artifact_total: 9
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Moondream Cloud OpenAI Compatibility API
   slug: open-moondream-openai-compatibility-api
@@ -67,32 +66,32 @@ collections:
   slug: open-moondream-skills-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/plans/moondream-plans-pricing.yml
+  href: https://artifacts.apis.io/moondream/plans/moondream-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/moondream-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/authentication/moondream-authentication.yml
+  href: https://artifacts.apis.io/moondream/authentication/moondream-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moondream-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/conventions/moondream-conventions.yml
+  href: https://artifacts.apis.io/moondream/conventions/moondream-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moondream-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/errors/moondream-problem-types.yml
+  href: https://artifacts.apis.io/moondream/errors/moondream-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/moondream-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/lifecycle/moondream-lifecycle.yml
+  href: https://artifacts.apis.io/moondream/lifecycle/moondream-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moondream-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/conformance/moondream-conformance.yml
+  href: https://artifacts.apis.io/moondream/conformance/moondream-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moondream-conformance.yml
@@ -101,57 +100,57 @@ common:
   type: Compliance
   url: https://moondream.ai/pricing
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/data-model/moondream-data-model.yml
+  href: https://artifacts.apis.io/moondream/data-model/moondream-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moondream-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/overlays/moondream-openapi-overlay.yaml
+  href: https://artifacts.apis.io/moondream/overlays/moondream-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moondream-openapi-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/packages/moondream-packages.yml
+  href: https://artifacts.apis.io/moondream/packages/moondream-packages.yml
   title: ''
   type: Packages
   url: packages/moondream-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/packages/moondream-packages.yml
+  href: https://artifacts.apis.io/moondream/packages/moondream-packages.yml
   title: ''
   type: SDKs
   url: packages/moondream-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/mcp/moondream-mcp.yml
+  href: https://artifacts.apis.io/moondream/mcp/moondream-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/moondream-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/moondream/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/llms/moondream-llms.txt
+  href: https://artifacts.apis.io/moondream/llms/moondream-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moondream-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/well-known/moondream-well-known.yml
+  href: https://artifacts.apis.io/moondream/well-known/moondream-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/moondream-well-known.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/changelog/moondream-changelog.yml
+  href: https://artifacts.apis.io/moondream/changelog/moondream-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/moondream-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/security/moondream-domain-security.yml
+  href: https://artifacts.apis.io/moondream/security/moondream-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moondream-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/agentic-access/moondream-agentic-access.yml
+  href: https://artifacts.apis.io/moondream/agentic-access/moondream-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/moondream-agentic-access.yml
@@ -209,6 +208,14 @@ common:
   url: mailto:sales@moondream.ai
 created: '2026-07-17'
 description: Moondream is a fast, efficient open vision language model (VLM) from M87 Labs. The Moondream Cloud API turns images into structured output through five Skills — Query (visual question answering), Caption, Detect (bounding boxes), Point (center coordinates), and Segment (SVG path masks) — plus an OpenAI-compatible chat endpoint, an asynchronous Batch API, and cloud finetuning (Lens). Model weights are open and downloadable from Hugging Face; hosted inference is pay-per-token with HIPAA and SOC 2 available. Official Python and Node.js SDKs are published.
+finops:
+- has_sources: true
+  method: derived
+  name: Moondream Finops
+  primary_unit: 1m output tokens
+  service_category: ''
+  slug: moondream-finops
+  template: false
 image: https://moondream.ai/apple-touch-icon.png
 layout: provider
 modified: '2026-07-20'
@@ -223,26 +230,29 @@ plans:
 - name: Moondream Plans Pricing
   plan_count: 13
   slug: moondream-plans-pricing
-random_paper: 16
+- name: Moondream Price Estimates
+  plan_count: 0
+  slug: moondream-price-estimates
+random_paper: 2
 score:
   band: developing
-  composite: 46.7
+  composite: 50.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 14.5
-    developer_ergonomics: 69.6
+    developer_ergonomics: 73.2
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 40.3
+    operational_transparency: 21.1
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -263,13 +273,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/screenshots/moondream-2026-08-07T184237.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/moondream/moondream-2026-08-07T184237.png
 security:
 - kind: authentication
   name: Moondream Authentication
@@ -279,6 +290,14 @@ security:
   name: Moondream Domain Security
   slug: moondream-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Caption an image
+  slug: moondream-caption-image
+- name: Detect and locate objects in an image
+  slug: moondream-detect-and-point
+- name: Ask questions about an image
+  slug: moondream-visual-qa
 slug: moondream
 tags:
 - Company

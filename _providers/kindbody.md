@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kindbody/refs/heads/main/security/kindbody-trust-center.yml
+  href: https://artifacts.apis.io/kindbody/security/kindbody-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kindbody-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kindbody/refs/heads/main/security/kindbody-domain-security.yml
+  href: https://artifacts.apis.io/kindbody/security/kindbody-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kindbody-domain-security.yml
@@ -94,7 +96,7 @@ overview: 'Kindbody is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Kindbody''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 16
+random_paper: 12
 score:
   band: minimal
   composite: 5.8
@@ -120,14 +122,14 @@ score:
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kindbody/refs/heads/main/screenshots/kindbody-2026-06-20T184038.png
+screenshot: https://apis.io/screenshots/kindbody/kindbody-2026-06-20T184038.png
 security:
 - kind: domain-security
   name: Kindbody Domain Security

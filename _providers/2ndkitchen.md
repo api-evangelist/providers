@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.0
-  scored_at: '2026-10-17'
-api_count: 18
+  score: 26.4
+  scored_at: '2026-10-31'
+api_count: 9
 apis:
 - baseURL: https://auth-staging.2ndkitchen.com
   baseurl_source: declared
@@ -98,11 +100,8 @@ apis:
   description: The Users API from 2ndKitchen — 4 operation(s) for users.
   name: 2ndKitchen Users API
   slug: 2ndkitchen-users-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 2ndKitchen - Service Authentication API
   slug: open-2ndkitchen-authentication-api
@@ -141,22 +140,22 @@ collections:
   slug: open-2ndkitchen-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/capabilities/2ndkitchen-capability-edges.yml
+  href: https://artifacts.apis.io/2ndkitchen/capabilities/2ndkitchen-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/2ndkitchen-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/security/2ndkitchen-domain-security.yml
+  href: https://artifacts.apis.io/2ndkitchen/security/2ndkitchen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/2ndkitchen-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/authentication/2ndkitchen-authentication.yml
+  href: https://artifacts.apis.io/2ndkitchen/authentication/2ndkitchen-authentication.yml
   title: ''
   type: Authentication
   url: authentication/2ndkitchen-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/data-model/2ndkitchen-data-model.yml
+  href: https://artifacts.apis.io/2ndkitchen/data-model/2ndkitchen-data-model.yml
   title: ''
   type: DataModel
   url: data-model/2ndkitchen-data-model.yml
@@ -184,10 +183,10 @@ overview: '2ndKitchen publishes 12 API contracts indexed on the [APIs.io](https:
 
 
   2ndKitchen''s developer surface includes authentication, documentation, API reference, and 4 more developer resources.'
-random_paper: 12
+random_paper: 18
 score:
   band: emerging
-  composite: 24.2
+  composite: 22.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 40.0
@@ -210,7 +209,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 24.2
+  previous_composite: 22.1
   provenance:
     contracts:
       callable: 0.0
@@ -223,13 +222,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/screenshots/2ndkitchen-2026-07-25T181134.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/2ndkitchen/2ndkitchen-2026-07-25T181134.png
 security:
 - kind: authentication
   name: 2Ndkitchen Authentication

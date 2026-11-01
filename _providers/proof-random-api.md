@@ -9,21 +9,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.8
-  scored_at: '2026-10-17'
+  score: 13.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://proof-random-api.pn-26f.workers.dev
@@ -34,32 +36,32 @@ apis:
 artifact_total: 3
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proof-random-api/refs/heads/main/rules/proof-random-api-rules.yml
+  href: https://artifacts.apis.io/proof-random-api/rules/proof-random-api-rules.yml
   title: ''
   type: Spectral
   url: rules/proof-random-api-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proof-random-api/refs/heads/main/errors/proof-random-api-problem-types.yml
+  href: https://artifacts.apis.io/proof-random-api/errors/proof-random-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/proof-random-api-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proof-random-api/refs/heads/main/conformance/proof-random-api-conformance.yml
+  href: https://artifacts.apis.io/proof-random-api/conformance/proof-random-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/proof-random-api-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/proof-random-api/refs/heads/main/hosts/proof-random-api-hosts.yml
+  href: https://artifacts.apis.io/proof-random-api/hosts/proof-random-api-hosts.yml
   title: ''
   type: Hosts
   url: hosts/proof-random-api-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/proof-random-api/refs/heads/main/vendors/proof-random-api-vendors.yml
+  href: https://artifacts.apis.io/proof-random-api/vendors/proof-random-api-vendors.yml
   title: ''
   type: Vendors
   url: vendors/proof-random-api-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/proof-random-api/refs/heads/main/security/proof-random-api-domain-security.yml
+  href: https://artifacts.apis.io/proof-random-api/security/proof-random-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/proof-random-api-domain-security.yml
@@ -111,8 +113,8 @@ score:
     artifact_dirs: 11
     catalog_earned: 31.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.5
-    catalog_max: 100.0
+    catalog_gap: 83.5
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
@@ -137,14 +139,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/proof-random-api/refs/heads/main/screenshots/proof-random-api-2026-10-11T112842.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/proof-random-api/proof-random-api-2026-10-11T112842.png
 security:
 - kind: domain-security
   name: Proof Random Api Domain Security

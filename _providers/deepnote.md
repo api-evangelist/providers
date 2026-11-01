@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-17'
+  score: 38.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: Notebook executions.
   name: Deepnote Runs API
   slug: deepnote-runs-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Deepnote Public Execute (v1) Execute (v1) Execute (v1) API
   slug: open-deepnote-execute-v1-api
@@ -99,22 +98,22 @@ collections:
   slug: open-deepnote
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/agentic-access/deepnote-agentic-access.yml
+  href: https://artifacts.apis.io/deepnote/agentic-access/deepnote-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/deepnote-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/security/deepnote-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/deepnote/security/deepnote-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/deepnote-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/security/deepnote-domain-security.yml
+  href: https://artifacts.apis.io/deepnote/security/deepnote-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/deepnote-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/authentication/deepnote-authentication.yml
+  href: https://artifacts.apis.io/deepnote/authentication/deepnote-authentication.yml
   title: ''
   type: Authentication
   url: authentication/deepnote-authentication.yml
@@ -135,17 +134,17 @@ common:
   type: Documentation
   url: https://deepnote.com/docs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/plans/deepnote-plans-pricing.yml
+  href: https://artifacts.apis.io/deepnote/plans/deepnote-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/deepnote-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/rate-limits/deepnote-rate-limits.yml
+  href: https://artifacts.apis.io/deepnote/rate-limits/deepnote-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/deepnote-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/finops/deepnote-finops.yml
+  href: https://artifacts.apis.io/deepnote/finops/deepnote-finops.yml
   title: ''
   type: FinOps
   url: finops/deepnote-finops.yml
@@ -181,14 +180,14 @@ plans:
 - name: Deepnote Plans Pricing
   plan_count: 3
   slug: deepnote-plans-pricing
-random_paper: 16
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Deepnote Rate Limits
   slug: deepnote-rate-limits
 score:
   band: thin
-  composite: 27.4
+  composite: 29.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 38.0
@@ -196,15 +195,15 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 49.5
     developer_ergonomics: 32.1
-    discoverability: 60.0
-    operational_transparency: 10.5
-  previous_composite: 35.7
+    discoverability: 57.1
+    operational_transparency: 23.7
+  previous_composite: 29.5
   provenance:
     agentic_access: derived
     contracts:
@@ -219,13 +218,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/screenshots/deepnote-2026-10-11T103645.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/deepnote/deepnote-2026-10-11T103645.png
 security:
 - kind: authentication
   name: Deepnote Authentication

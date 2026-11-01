@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for managing voyages and workflows on the Voyager Portal maritime operations platform. Resources include voyages (schedules, cargoes, documents, categories, models), claims and claim port-cal
@@ -88,62 +90,62 @@ common:
   type: SourceCode
   url: https://gitlab.com/voyager-portal
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voyager-portal/refs/heads/main/authentication/voyager-portal-authentication.yml
+  href: https://artifacts.apis.io/voyager-portal/authentication/voyager-portal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/voyager-portal-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyager-portal/refs/heads/main/conventions/voyager-portal-conventions.yml
+  href: https://artifacts.apis.io/voyager-portal/conventions/voyager-portal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/voyager-portal-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyager-portal/refs/heads/main/errors/voyager-portal-problem-types.yml
+  href: https://artifacts.apis.io/voyager-portal/errors/voyager-portal-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/voyager-portal-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyager-portal/refs/heads/main/lifecycle/voyager-portal-lifecycle.yml
+  href: https://artifacts.apis.io/voyager-portal/lifecycle/voyager-portal-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/voyager-portal-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyager-portal/refs/heads/main/asyncapi/voyager-portal-webhooks.yml
+  href: https://artifacts.apis.io/voyager-portal/asyncapi/voyager-portal-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/voyager-portal-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voyager-portal/refs/heads/main/well-known/voyager-portal-well-known.yml
+  href: https://artifacts.apis.io/voyager-portal/well-known/voyager-portal-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/voyager-portal-well-known.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/voyager-portal/refs/heads/main/sandbox/voyager-portal-sandbox.yml
+  href: https://artifacts.apis.io/voyager-portal/sandbox/voyager-portal-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/voyager-portal-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voyager-portal/refs/heads/main/llms/voyager-portal-llms.txt
+  href: https://artifacts.apis.io/voyager-portal/llms/voyager-portal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/voyager-portal-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voyager-portal/refs/heads/main/mcp/voyager-portal-mcp.yml
+  href: https://artifacts.apis.io/voyager-portal/mcp/voyager-portal-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/voyager-portal-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyager-portal/refs/heads/main/conformance/voyager-portal-conformance.yml
+  href: https://artifacts.apis.io/voyager-portal/conformance/voyager-portal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/voyager-portal-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyager-portal/refs/heads/main/data-model/voyager-portal-data-model.yml
+  href: https://artifacts.apis.io/voyager-portal/data-model/voyager-portal-data-model.yml
   title: ''
   type: DataModel
   url: data-model/voyager-portal-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voyager-portal/refs/heads/main/security/voyager-portal-domain-security.yml
+  href: https://artifacts.apis.io/voyager-portal/security/voyager-portal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voyager-portal-domain-security.yml
@@ -162,10 +164,10 @@ overview: 'Voyager Portal is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   Voyager Portal''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 16 more developer resources.'
-random_paper: 16
+random_paper: 4
 score:
   band: thin
-  composite: 38.3
+  composite: 38.9
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -173,15 +175,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 50.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 38.2
+  previous_composite: 38.9
   provenance:
     conformance: derived
     mcp: derived
@@ -191,14 +193,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/voyager-portal/refs/heads/main/screenshots/voyager-portal-2026-09-02T170305.png
+screenshot: https://apis.io/screenshots/voyager-portal/voyager-portal-2026-09-02T170305.png
 security:
 - kind: authentication
   name: Voyager Portal Authentication

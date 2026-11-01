@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'RESTful API for remotely configuring and controlling a Corelight Sensor and Fleet Manager. Device-local and account-gated (no public OpenAPI); driven by the official open-source corelight-client CLI. '
@@ -83,32 +85,32 @@ common:
   type: PrivacyPolicy
   url: https://corelight.com/legal/privacy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/corelight/refs/heads/main/packages/corelight-packages.yml
+  href: https://artifacts.apis.io/corelight/packages/corelight-packages.yml
   title: ''
   type: Packages
   url: packages/corelight-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/corelight/refs/heads/main/packages/corelight-packages.yml
+  href: https://artifacts.apis.io/corelight/packages/corelight-packages.yml
   title: ''
   type: SDKs
   url: packages/corelight-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/corelight/refs/heads/main/cli/corelight-cli.yml
+  href: https://artifacts.apis.io/corelight/cli/corelight-cli.yml
   title: ''
   type: CLI
   url: cli/corelight-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/corelight/refs/heads/main/authentication/corelight-authentication.yml
+  href: https://artifacts.apis.io/corelight/authentication/corelight-authentication.yml
   title: ''
   type: Authentication
   url: authentication/corelight-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/corelight/refs/heads/main/security/corelight-domain-security.yml
+  href: https://artifacts.apis.io/corelight/security/corelight-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/corelight-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/corelight/refs/heads/main/security/corelight-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/corelight/security/corelight-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/corelight-vulnerability-disclosure.yml
@@ -117,7 +119,7 @@ common:
   type: Security
   url: https://corelight.com/support/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/corelight/refs/heads/main/security/corelight-trust-center.yml
+  href: https://artifacts.apis.io/corelight/security/corelight-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/corelight-trust-center.yml
@@ -126,12 +128,12 @@ common:
   type: Compliance
   url: https://corelight.com/trust-and-compliance
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/corelight/refs/heads/main/conformance/corelight-conformance.yml
+  href: https://artifacts.apis.io/corelight/conformance/corelight-conformance.yml
   title: ''
   type: Conformance
   url: conformance/corelight-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/corelight/refs/heads/main/llms/corelight-llms.txt
+  href: https://artifacts.apis.io/corelight/llms/corelight-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/corelight-llms.txt
@@ -143,14 +145,14 @@ modified: '2026-10-06'
 name: Corelight
 nav: Providers
 network: true
-overview: 'Corelight is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Network Detection and Response, NDR, and Network Security.
+overview: 'Corelight is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Network Detection and Response, Network Security, and Threat Detection.
 
 
   Corelight''s developer surface includes documentation, engineering blog, support, pricing, CLI, authentication, and 15 more developer resources.'
-random_paper: 15
+random_paper: 1
 score:
   band: thin
-  composite: 34.2
+  composite: 33.8
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -158,15 +160,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 34.1
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 33.8
   provenance:
     conformance: first-party
   regulatory:
@@ -181,14 +183,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/corelight/refs/heads/main/screenshots/corelight-2026-07-25T210426.png
+screenshot: https://apis.io/screenshots/corelight/corelight-2026-07-25T210426.png
 security:
 - kind: authentication
   name: Corelight Authentication
@@ -211,7 +213,6 @@ tags:
 - Company
 - Cybersecurity
 - Network Detection and Response
-- NDR
 - Network Security
 - Threat Detection
 - Zeek

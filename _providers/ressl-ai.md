@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://simulation.ressl.ai
@@ -50,9 +52,6 @@ apis:
 artifact_total: 7
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Ressl Platform Providers API
   slug: open-ressl-ai-providers-api
 - collection_type: open
@@ -64,67 +63,67 @@ common:
   type: Website
   url: https://www.ressl.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/security/ressl-ai-domain-security.yml
+  href: https://artifacts.apis.io/ressl-ai/security/ressl-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ressl-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/authentication/ressl-ai-authentication.yml
+  href: https://artifacts.apis.io/ressl-ai/authentication/ressl-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ressl-ai-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/openapi/_original/ressl-ai-platform-openapi.yml
+  href: https://artifacts.apis.io/ressl-ai/openapi/_original/ressl-ai-platform-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/ressl-ai-platform-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/overlays/ressl-ai-platform-overlay.yaml
+  href: https://artifacts.apis.io/ressl-ai/overlays/ressl-ai-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ressl-ai-platform-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/errors/ressl-ai-problem-types.yml
+  href: https://artifacts.apis.io/ressl-ai/errors/ressl-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ressl-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/conventions/ressl-ai-conventions.yml
+  href: https://artifacts.apis.io/ressl-ai/conventions/ressl-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ressl-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/lifecycle/ressl-ai-lifecycle.yml
+  href: https://artifacts.apis.io/ressl-ai/lifecycle/ressl-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ressl-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/conformance/ressl-ai-conformance.yml
+  href: https://artifacts.apis.io/ressl-ai/conformance/ressl-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ressl-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/data-model/ressl-ai-data-model.yml
+  href: https://artifacts.apis.io/ressl-ai/data-model/ressl-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ressl-ai-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/well-known/ressl-ai-well-known.yml
+  href: https://artifacts.apis.io/ressl-ai/well-known/ressl-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ressl-ai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/mcp/ressl-ai-mcp.yml
+  href: https://artifacts.apis.io/ressl-ai/mcp/ressl-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ressl-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/skills/ressl-ai-skill.md
+  href: https://artifacts.apis.io/ressl-ai/skills/ressl-ai-skill.md
   title: ''
   type: AgentSkill
   url: skills/ressl-ai-skill.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/llms/ressl-ai-llms.txt
+  href: https://artifacts.apis.io/ressl-ai/llms/ressl-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ressl-ai-llms.txt
@@ -175,23 +174,23 @@ overview: 'Ressl publishes 2 API contracts indexed on the [APIs.io](https://apis
 random_paper: 8
 score:
   band: thin
-  composite: 26.5
+  composite: 26.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 15.0
     developer_ergonomics: 61.9
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 26.4
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 26.8
   provenance:
     conformance: derived
     contracts:
@@ -207,13 +206,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ressl-ai/refs/heads/main/screenshots/ressl-ai-2026-09-02T153606.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ressl-ai/ressl-ai-2026-09-02T153606.png
 security:
 - kind: authentication
   name: Ressl Ai Authentication
@@ -223,6 +223,10 @@ security:
   name: Ressl Ai Domain Security
   slug: ressl-ai-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: ressl
+  slug: ressl-ai-skill
 slug: ressl-ai
 tags:
 - Mock APIs

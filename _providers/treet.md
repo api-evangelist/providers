@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/treet/refs/heads/main/security/treet-domain-security.yml
+  href: https://artifacts.apis.io/treet/security/treet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/treet-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/treet/refs/heads/main/well-known/treet-well-known.yml
+  href: https://artifacts.apis.io/treet/well-known/treet-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/treet-well-known.yml
@@ -109,14 +111,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/treet/refs/heads/main/screenshots/treet-2026-09-02T164219.png
+screenshot: https://apis.io/screenshots/treet/treet-2026-09-02T164219.png
 security:
 - kind: domain-security
   name: Treet Domain Security

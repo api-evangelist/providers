@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 31.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 547
   human_in_the_loop: 265
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 978
   slug: eventscom-agentic-access
   summary_line: 978 operations · 547 acting · 265 human-in-the-loop
-api_count: 8
+api_count: 3
 apis:
 - description: Hosted Model Context Protocol server for the DataGol workbook surface, reachable at the /mcp, /sse and /messages transport paths. Connections are gated on workspace_id, workbook_id and token query par
   name: DataGol MCP Server
@@ -607,15 +609,12 @@ apis:
   description: The workspace-template-controller API from Events.com — 2 operation(s) for workspace-template-controller.
   name: Events.com Workspace Template Controller API
   slug: eventscom-workspace-template-controller-api
-artifact_total: 236
+artifact_total: 241
 asyncapis:
 - description: ''
   name: Eventscom Webhooks
   slug: eventscom-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Saasxl-api doc Agent Config Controller API
   slug: open-eventscom-agent-config-controller-api
@@ -963,17 +962,17 @@ collections:
   slug: open-eventscom-workspace-template-controller-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/plans/eventscom-plans-pricing.yml
+  href: https://artifacts.apis.io/eventscom/plans/eventscom-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eventscom-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/capabilities/eventscom-capability-edges.yml
+  href: https://artifacts.apis.io/eventscom/capabilities/eventscom-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/eventscom-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/overlays/eventscom-datagol-ai-overlay.yaml
+  href: https://artifacts.apis.io/eventscom/overlays/eventscom-datagol-ai-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/eventscom-datagol-ai-overlay.yaml
@@ -1018,72 +1017,80 @@ common:
   type: PrivacyPolicy
   url: https://events.com/privacy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/mcp/eventscom-mcp.yml
+  href: https://artifacts.apis.io/eventscom/mcp/eventscom-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/eventscom-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/asyncapi/eventscom-webhooks.yml
+  href: https://artifacts.apis.io/eventscom/asyncapi/eventscom-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/eventscom-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/eventscom/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/authentication/eventscom-authentication.yml
+  href: https://artifacts.apis.io/eventscom/authentication/eventscom-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eventscom-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/conventions/eventscom-conventions.yml
+  href: https://artifacts.apis.io/eventscom/conventions/eventscom-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eventscom-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/conformance/eventscom-conformance.yml
+  href: https://artifacts.apis.io/eventscom/conformance/eventscom-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eventscom-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/errors/eventscom-problem-types.yml
+  href: https://artifacts.apis.io/eventscom/errors/eventscom-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eventscom-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/lifecycle/eventscom-lifecycle.yml
+  href: https://artifacts.apis.io/eventscom/lifecycle/eventscom-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eventscom-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/data-model/eventscom-data-model.yml
+  href: https://artifacts.apis.io/eventscom/data-model/eventscom-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eventscom-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/packages/eventscom-packages.yml
+  href: https://artifacts.apis.io/eventscom/packages/eventscom-packages.yml
   title: ''
   type: Packages
   url: packages/eventscom-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/llms/eventscom-llms.txt
+  href: https://artifacts.apis.io/eventscom/llms/eventscom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eventscom-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/agentic-access/eventscom-agentic-access.yml
+  href: https://artifacts.apis.io/eventscom/agentic-access/eventscom-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eventscom-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/security/eventscom-domain-security.yml
+  href: https://artifacts.apis.io/eventscom/security/eventscom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eventscom-domain-security.yml
 created: '2026-08-04'
 description: Events.com is a La Jolla, California event-technology company founded by Mitch Thrower (co-founder of Active.com / The Active Network) that operates an end-to-end platform for creating, promoting, selling, and discovering events. Its organizer-facing products span ticketing and registration (Sell), digital event marketing (Promote), sponsorship management (Sponsor), on-site check-in and execution (Execute), analytics (Insights), virtual and hybrid events (Virtual), and an embeddable event calendar, alongside a consumer event-discovery destination. Events.com does not publish a public developer program, but its internal DataGol / Saasxl AI and data platform exposes three anonymously reachable OpenAPI 3.x contracts and a hosted Model Context Protocol server on production hosts, covering no-code data tables, ETL and orchestration, BI dashboards, knowledge graphs, custom agents, agent skills, and MCP connectors.
+finops:
+- has_sources: true
+  method: derived
+  name: Eventscom Finops
+  primary_unit: ticket
+  service_category: ''
+  slug: eventscom-finops
+  template: false
 image: https://events.com/wp-content/uploads/2023/09/events-featured-logo.jpg
 layout: provider
 mcp_servers:
@@ -1108,26 +1115,26 @@ plans:
 - name: Eventscom Price Estimates
   plan_count: 0
   slug: eventscom-price-estimates
-random_paper: 12
+random_paper: 20
 score:
   band: developing
-  composite: 48.6
+  composite: 46.0
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 52.0
+    artifact_dirs: 24
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 54.8
+    contract_quality: 52.8
     developer_ergonomics: 28.0
-    discoverability: 80.0
-    operational_transparency: 10.5
-  previous_composite: 48.5
+    discoverability: 70.0
+    operational_transparency: 13.2
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1144,13 +1151,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/screenshots/eventscom-2026-08-07T165031.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/eventscom/eventscom-2026-08-07T165031.png
 security:
 - kind: authentication
   name: Eventscom Authentication
@@ -1160,6 +1168,18 @@ security:
   name: Eventscom Domain Security
   slug: eventscom-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 5
+skills:
+- name: Authorize a DataGol MCP connector and execute a tool
+  slug: eventscom-connect-mcp-connector
+- name: Configure and test a DataGol table webhook
+  slug: eventscom-manage-table-webhooks
+- name: Query a DataGol workbook table
+  slug: eventscom-query-workbook-table
+- name: Run a streaming DataGol AI conversation
+  slug: eventscom-run-ai-conversation
+- name: Train and predict with a DataGol dashboard ML model
+  slug: eventscom-train-and-predict-model
 slug: eventscom
 tags:
 - Event Management

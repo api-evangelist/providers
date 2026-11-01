@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 17.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,11 +62,8 @@ apis:
   description: Decode VINs into vehicle attributes
   name: LicensePlateData VIN API
   slug: licenseplatedata-vin-api
-artifact_total: 14
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LicensePlateData Images API
   slug: open-licenseplatedata-images-api
@@ -79,17 +78,17 @@ collections:
   slug: open-licenseplatedata
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/plans/licenseplatedata-plans-pricing.yml
+  href: https://artifacts.apis.io/licenseplatedata/plans/licenseplatedata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/licenseplatedata-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/rate-limits/licenseplatedata-rate-limits.yml
+  href: https://artifacts.apis.io/licenseplatedata/rate-limits/licenseplatedata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/licenseplatedata-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/finops/licenseplatedata-finops.yml
+  href: https://artifacts.apis.io/licenseplatedata/finops/licenseplatedata-finops.yml
   title: ''
   type: FinOps
   url: finops/licenseplatedata-finops.yml
@@ -98,17 +97,17 @@ common:
   type: Website
   url: https://licenseplatedata.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/agentic-access/licenseplatedata-agentic-access.yml
+  href: https://artifacts.apis.io/licenseplatedata/agentic-access/licenseplatedata-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/licenseplatedata-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/security/licenseplatedata-domain-security.yml
+  href: https://artifacts.apis.io/licenseplatedata/security/licenseplatedata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/licenseplatedata-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/authentication/licenseplatedata-authentication.yml
+  href: https://artifacts.apis.io/licenseplatedata/authentication/licenseplatedata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/licenseplatedata-authentication.yml
@@ -122,7 +121,7 @@ finops:
 - has_sources: false
   method: generated
   name: Licenseplatedata Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: licenseplatedata-finops
   template: true
@@ -140,7 +139,7 @@ plans:
 - name: Licenseplatedata Plans Pricing
   plan_count: 3
   slug: licenseplatedata-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Licenseplatedata Rate Limits
@@ -155,7 +154,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -163,7 +162,7 @@ score:
     developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 28.5
+  previous_composite: 27.0
   provenance:
     agentic_access: derived
     contracts:
@@ -177,14 +176,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/screenshots/licenseplatedata-2026-06-20T184505.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/licenseplatedata/licenseplatedata-2026-06-20T184505.png
 security:
 - kind: authentication
   name: Licenseplatedata Authentication

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 29.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -98,7 +100,7 @@ apis:
   description: The Webhooks API from FastDOL — 1 operation(s) for webhooks.
   name: FastDOL Webhooks API
   slug: fastdol-webhooks-api
-artifact_total: 137
+artifact_total: 136
 collections:
 - collection_type: postman
   name: FastDOL Auth API
@@ -133,9 +135,6 @@ collections:
 - collection_type: postman
   name: FastDOL Auth Webhooks API
   slug: postman-fastdol-webhooks-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: FastDOL Auth API
   slug: open-fastdol-auth-api
@@ -178,12 +177,12 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/fastdol/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/agentic-access/fastdol-agentic-access.yml
+  href: https://artifacts.apis.io/fastdol/agentic-access/fastdol-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fastdol-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/security/fastdol-domain-security.yml
+  href: https://artifacts.apis.io/fastdol/security/fastdol-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fastdol-domain-security.yml
@@ -216,7 +215,7 @@ common:
   type: Pricing
   url: https://fastdol.com/enterprise
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/plans/fastdol-plans-pricing.yml
+  href: https://artifacts.apis.io/fastdol/plans/fastdol-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fastdol-plans-pricing.yml
@@ -225,22 +224,22 @@ common:
   type: PricingPage
   url: https://fastdol.com/enterprise
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/rate-limits/fastdol-rate-limits.yml
+  href: https://artifacts.apis.io/fastdol/rate-limits/fastdol-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fastdol-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/finops/fastdol-finops.yml
+  href: https://artifacts.apis.io/fastdol/finops/fastdol-finops.yml
   title: ''
   type: FinOps
   url: finops/fastdol-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/rules/fastdol-rules.yml
+  href: https://artifacts.apis.io/fastdol/rules/fastdol-rules.yml
   title: ''
   type: SpectralRules
   url: rules/fastdol-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/vocabulary/fastdol-vocabulary.yml
+  href: https://artifacts.apis.io/fastdol/vocabulary/fastdol-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/fastdol-vocabulary.yml
@@ -538,7 +537,7 @@ plans:
 - name: Fastdol Plans Pricing
   plan_count: 2
   slug: fastdol-plans-pricing
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 10
   name: Fastdol Rate Limits
@@ -568,8 +567,8 @@ rules:
     warn: 18
   slug: fastdol-rules
 score:
-  band: thin
-  composite: 37.3
+  band: developing
+  composite: 46.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 67.4
@@ -577,15 +576,15 @@ score:
     catalog_gap: 47.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 50.0
     contract_governance: 27.3
     contract_quality: 61.9
-    developer_ergonomics: 25.0
+    developer_ergonomics: 44.0
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 44.3
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     contracts:
@@ -598,14 +597,15 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/screenshots/fastdol-2026-06-20T181047.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fastdol/fastdol-2026-06-20T181047.png
 security:
 - kind: domain-security
   name: Fastdol Domain Security

@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: derived
     idempotency: false
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-10-17'
+  score: 32.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -208,9 +210,6 @@ collections:
   name: WooCommerce Store API
   slug: postman-woocommerce-store-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: WooCommerce REST Cart API
   slug: open-woocommerce-cart-api
 - collection_type: open
@@ -272,207 +271,207 @@ collections:
   slug: open-woocommerce-webhooks-api
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/rules/woocommerce-spectral-rules.yml
+  href: https://artifacts.apis.io/woocommerce/rules/woocommerce-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/woocommerce-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/rules/woocommerce-rules.yml
+  href: https://artifacts.apis.io/woocommerce/rules/woocommerce-rules.yml
   title: ''
   type: Spectral
   url: rules/woocommerce-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/rules/woocommerce-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/woocommerce/rules/woocommerce-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/woocommerce-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/rules/woocommerce-asyncapi-spectral-rules.yml
+  href: https://artifacts.apis.io/woocommerce/rules/woocommerce-asyncapi-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/woocommerce-asyncapi-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-webhook-schema.json-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-webhook-schema.json-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-webhook-schema.json-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-store-product-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-store-api-store-product-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-store-api-store-product-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-store-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-store-api-store-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-store-api-store-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-product-collection-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-store-api-product-collection-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-store-api-product-collection-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-store-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-store-api-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-checkout-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-store-api-checkout-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-store-api-checkout-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-cart-shipping-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-store-api-cart-shipping-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-store-api-cart-shipping-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-cart-customer-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-store-api-cart-customer-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-store-api-cart-customer-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-cart-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-store-api-cart-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-store-api-cart-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-attribute-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-store-api-attribute-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-store-api-attribute-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-add-cart-item-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-store-api-add-cart-item-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-store-api-add-cart-item-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-webhook-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-webhook-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-webhook-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-tax-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-tax-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-tax-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-system-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-system-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-system-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-shipping-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-shipping-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-shipping-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-sales-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-sales-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-sales-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-product-variation-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-product-variation-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-product-variation-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-product-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-product-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-product-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-product-category-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-product-category-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-product-category-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-payment-gateway-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-payment-gateway-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-payment-gateway-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-payment-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-payment-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-payment-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-order-refund-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-order-refund-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-order-refund-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-order-note-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-order-note-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-order-note-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-order-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-order-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-order-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-meta-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-meta-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-meta-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-line-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-line-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-line-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-customer-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-customer-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-customer-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-coupon-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-coupon-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-coupon-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-batch-product-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-rest-api-batch-product-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-rest-api-batch-product-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-product-schema.json-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-product-schema.json-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-product-schema.json-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-order-schema.json-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-order-schema.json-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-order-schema.json-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/vocabulary/woocommerce-vocabulary.yml
+  href: https://artifacts.apis.io/woocommerce/vocabulary/woocommerce-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/woocommerce-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/asyncapi/woocommerce-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/woocommerce/asyncapi/woocommerce-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/woocommerce-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/data-model/woocommerce-data-model.yml
+  href: https://artifacts.apis.io/woocommerce/data-model/woocommerce-data-model.yml
   title: ''
   type: DataModel
   url: data-model/woocommerce-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/conventions/woocommerce-conventions.yml
+  href: https://artifacts.apis.io/woocommerce/conventions/woocommerce-conventions.yml
   title: ''
   type: Conventions
   url: conventions/woocommerce-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/security/woocommerce-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/woocommerce/security/woocommerce-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/woocommerce-vulnerability-disclosure.yml
@@ -481,47 +480,47 @@ common:
   type: Deprecation
   url: https://developer.woocommerce.com/docs/features/mcp/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/lifecycle/woocommerce-lifecycle.yml
+  href: https://artifacts.apis.io/woocommerce/lifecycle/woocommerce-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/woocommerce-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/errors/woocommerce-problem-types.yml
+  href: https://artifacts.apis.io/woocommerce/errors/woocommerce-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/woocommerce-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/conformance/woocommerce-conformance.yml
+  href: https://artifacts.apis.io/woocommerce/conformance/woocommerce-conformance.yml
   title: ''
   type: Conformance
   url: conformance/woocommerce-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/llms/woocommerce-llms.txt
+  href: https://artifacts.apis.io/woocommerce/llms/woocommerce-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/woocommerce-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/well-known/woocommerce-wordpress-security.txt
+  href: https://artifacts.apis.io/woocommerce/well-known/woocommerce-wordpress-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/woocommerce-wordpress-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/well-known/woocommerce-well-known.yml
+  href: https://artifacts.apis.io/woocommerce/well-known/woocommerce-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/woocommerce-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/hosts/woocommerce-hosts.yml
+  href: https://artifacts.apis.io/woocommerce/hosts/woocommerce-hosts.yml
   title: ''
   type: Hosts
   url: hosts/woocommerce-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/integrations/woocommerce-integration-edges.yml
+  href: https://artifacts.apis.io/woocommerce/integrations/woocommerce-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/woocommerce-integration-edges.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/packages/woocommerce-packages.yml
+  href: https://artifacts.apis.io/woocommerce/packages/woocommerce-packages.yml
   title: ''
   type: Packages
   url: packages/woocommerce-packages.yml
@@ -542,42 +541,42 @@ common:
   type: Newsroom
   url: https://woocommerce.com/newsroom/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/plans/woocommerce-plans-pricing.yml
+  href: https://artifacts.apis.io/woocommerce/plans/woocommerce-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/woocommerce-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/rate-limits/woocommerce-rate-limits.yml
+  href: https://artifacts.apis.io/woocommerce/rate-limits/woocommerce-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/woocommerce-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/finops/woocommerce-finops.yml
+  href: https://artifacts.apis.io/woocommerce/finops/woocommerce-finops.yml
   title: ''
   type: FinOps
   url: finops/woocommerce-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/capabilities/woocommerce-capability-edges.yml
+  href: https://artifacts.apis.io/woocommerce/capabilities/woocommerce-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/woocommerce-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/agentic-access/woocommerce-agentic-access.yml
+  href: https://artifacts.apis.io/woocommerce/agentic-access/woocommerce-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/woocommerce-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/security/woocommerce-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/woocommerce/security/woocommerce-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/woocommerce-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/security/woocommerce-domain-security.yml
+  href: https://artifacts.apis.io/woocommerce/security/woocommerce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/woocommerce-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/authentication/woocommerce-authentication.yml
+  href: https://artifacts.apis.io/woocommerce/authentication/woocommerce-authentication.yml
   title: ''
   type: Authentication
   url: authentication/woocommerce-authentication.yml
@@ -586,82 +585,82 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/woocommerce/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/arazzo/woocommerce-category-variable-product-variation-workflow.yml
+  href: https://artifacts.apis.io/woocommerce/arazzo/woocommerce-category-variable-product-variation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/woocommerce-category-variable-product-variation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/arazzo/woocommerce-create-category-and-product-workflow.yml
+  href: https://artifacts.apis.io/woocommerce/arazzo/woocommerce-create-category-and-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/woocommerce-create-category-and-product-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/arazzo/woocommerce-create-customer-and-order-workflow.yml
+  href: https://artifacts.apis.io/woocommerce/arazzo/woocommerce-create-customer-and-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/woocommerce-create-customer-and-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/arazzo/woocommerce-create-customer-with-billing-order-workflow.yml
+  href: https://artifacts.apis.io/woocommerce/arazzo/woocommerce-create-customer-with-billing-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/woocommerce-create-customer-with-billing-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/arazzo/woocommerce-create-nested-category-product-workflow.yml
+  href: https://artifacts.apis.io/woocommerce/arazzo/woocommerce-create-nested-category-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/woocommerce-create-nested-category-product-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/arazzo/woocommerce-create-order-and-refund-workflow.yml
+  href: https://artifacts.apis.io/woocommerce/arazzo/woocommerce-create-order-and-refund-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/woocommerce-create-order-and-refund-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/arazzo/woocommerce-create-order-with-note-workflow.yml
+  href: https://artifacts.apis.io/woocommerce/arazzo/woocommerce-create-order-with-note-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/woocommerce-create-order-with-note-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/arazzo/woocommerce-create-product-coupon-workflow.yml
+  href: https://artifacts.apis.io/woocommerce/arazzo/woocommerce-create-product-coupon-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/woocommerce-create-product-coupon-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/arazzo/woocommerce-create-variable-product-with-variation-workflow.yml
+  href: https://artifacts.apis.io/woocommerce/arazzo/woocommerce-create-variable-product-with-variation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/woocommerce-create-variable-product-with-variation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/arazzo/woocommerce-customer-order-refund-lifecycle-workflow.yml
+  href: https://artifacts.apis.io/woocommerce/arazzo/woocommerce-customer-order-refund-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/woocommerce-customer-order-refund-lifecycle-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/arazzo/woocommerce-guest-order-note-refund-workflow.yml
+  href: https://artifacts.apis.io/woocommerce/arazzo/woocommerce-guest-order-note-refund-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/woocommerce-guest-order-note-refund-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/arazzo/woocommerce-register-order-webhook-workflow.yml
+  href: https://artifacts.apis.io/woocommerce/arazzo/woocommerce-register-order-webhook-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/woocommerce-register-order-webhook-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/arazzo/woocommerce-upsert-category-workflow.yml
+  href: https://artifacts.apis.io/woocommerce/arazzo/woocommerce-upsert-category-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/woocommerce-upsert-category-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/arazzo/woocommerce-upsert-coupon-by-code-workflow.yml
+  href: https://artifacts.apis.io/woocommerce/arazzo/woocommerce-upsert-coupon-by-code-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/woocommerce-upsert-coupon-by-code-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/arazzo/woocommerce-upsert-customer-by-email-workflow.yml
+  href: https://artifacts.apis.io/woocommerce/arazzo/woocommerce-upsert-customer-by-email-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/woocommerce-upsert-customer-by-email-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/arazzo/woocommerce-upsert-product-by-sku-workflow.yml
+  href: https://artifacts.apis.io/woocommerce/arazzo/woocommerce-upsert-product-by-sku-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/woocommerce-upsert-product-by-sku-workflow.yml
@@ -710,17 +709,17 @@ common:
   type: ReleaseNotes
   url: https://developer.woocommerce.com/changelog/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-context.jsonld
+  href: https://artifacts.apis.io/woocommerce/json-ld/woocommerce-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/woocommerce-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/rules/woocommerce-spectral-rules.yml
+  href: https://artifacts.apis.io/woocommerce/rules/woocommerce-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/woocommerce-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/vocabulary/woocommerce-vocabulary.yaml
+  href: https://artifacts.apis.io/woocommerce/vocabulary/woocommerce-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/woocommerce-vocabulary.yaml
@@ -945,12 +944,12 @@ features:
 - Run multiple gateways simultaneously
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Woocommerce Finops
   primary_unit: ''
-  service_category: E-Commerce
+  service_category: ''
   slug: woocommerce-finops
-  template: false
+  template: true
 graphqls:
 - description: WooCommerce provides GraphQL support via the **WPGraphQL WooCommerce** extension (also known as **WooGraphQL**). This is an open-source WordPress plugin that exposes WooCommerce store data through a G
   name: WooCommerce GraphQL
@@ -1468,7 +1467,10 @@ plans:
 - name: Woocommerce Plans Pricing
   plan_count: 2
   slug: woocommerce-plans-pricing
-random_paper: 18
+- name: Woocommerce Price Estimates
+  plan_count: 0
+  slug: woocommerce-price-estimates
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Woocommerce Rate Limits
@@ -1523,7 +1525,7 @@ rules:
   slug: woocommerce-spectral-rules
 score:
   band: strong
-  composite: 60.7
+  composite: 55.2
   coverage:
     artifact_dirs: 34
     catalog_earned: 77.0
@@ -1531,22 +1533,27 @@ score:
     catalog_gap: 38.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 11.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 31.8
-    contract_quality: 74.4
+    contract_quality: 42.7
     developer_ergonomics: 65.5
-    discoverability: 61.7
-    operational_transparency: 73.7
-  previous_composite: 49.2
+    discoverability: 65.0
+    operational_transparency: 84.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 19
+      marker_coverage: 100.0
       total: 19
     mcp: first-party
   regulatory:
@@ -1555,13 +1562,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/screenshots/woocommerce-2026-06-20T201543.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/woocommerce/woocommerce-2026-06-20T201543.png
 security:
 - kind: authentication
   name: Woocommerce Authentication

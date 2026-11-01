@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fluid-truck/refs/heads/main/security/fluid-truck-domain-security.yml
+  href: https://artifacts.apis.io/fluid-truck/security/fluid-truck-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fluid-truck-domain-security.yml
@@ -51,12 +53,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/fluidtruck
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fluid-truck/refs/heads/main/packages/fluid-truck-packages.yml
+  href: https://artifacts.apis.io/fluid-truck/packages/fluid-truck-packages.yml
   title: ''
   type: Packages
   url: packages/fluid-truck-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fluid-truck/refs/heads/main/llms/fluid-truck-llms.txt
+  href: https://artifacts.apis.io/fluid-truck/llms/fluid-truck-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fluid-truck-llms.txt
@@ -84,12 +86,12 @@ name: Fluid Truck
 nav: Providers
 network: true
 overview: Fluid Truck is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Transportation, Logistics, Vehicle Rental, and Fleet Management.
-random_paper: 8
+random_paper: 2
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -111,8 +113,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

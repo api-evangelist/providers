@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Real-time WebSocket session API used by the Web SDK to connect a browser client to a Digital Person running on the Soul Machines session server. A session is authenticated with either an API key (conf
@@ -42,19 +44,19 @@ apis:
 - description: REST/callback contract for building web services ("skills") that respond to a Digital Person's conversational user input — NLP-adapter skills, intent matching, and pre/post processing stages. Skills a
   name: Soul Machines Skills API
   slug: soul-machines-skills-api
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Soul Machines Skills Webhooks
   slug: soul-machines-skills-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/soul-machines/refs/heads/main/plans/soul-machines-plans-pricing.yml
+  href: https://artifacts.apis.io/soul-machines/plans/soul-machines-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/soul-machines-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soul-machines/refs/heads/main/security/soul-machines-domain-security.yml
+  href: https://artifacts.apis.io/soul-machines/security/soul-machines-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/soul-machines-domain-security.yml
@@ -111,57 +113,65 @@ common:
   type: Compliance
   url: https://www.soulmachines.com/trust-safety
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/soul-machines/refs/heads/main/packages/soul-machines-packages.yml
+  href: https://artifacts.apis.io/soul-machines/packages/soul-machines-packages.yml
   title: ''
   type: Packages
   url: packages/soul-machines-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/soul-machines/refs/heads/main/packages/soul-machines-packages.yml
+  href: https://artifacts.apis.io/soul-machines/packages/soul-machines-packages.yml
   title: ''
   type: SDKs
   url: packages/soul-machines-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soul-machines/refs/heads/main/authentication/soul-machines-authentication.yml
+  href: https://artifacts.apis.io/soul-machines/authentication/soul-machines-authentication.yml
   title: ''
   type: Authentication
   url: authentication/soul-machines-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soul-machines/refs/heads/main/conventions/soul-machines-conventions.yml
+  href: https://artifacts.apis.io/soul-machines/conventions/soul-machines-conventions.yml
   title: ''
   type: Conventions
   url: conventions/soul-machines-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soul-machines/refs/heads/main/components/soul-machines-components.yml
+  href: https://artifacts.apis.io/soul-machines/components/soul-machines-components.yml
   title: ''
   type: Components
   url: components/soul-machines-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soul-machines/refs/heads/main/lifecycle/soul-machines-lifecycle.yml
+  href: https://artifacts.apis.io/soul-machines/lifecycle/soul-machines-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/soul-machines-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/soul-machines/refs/heads/main/changelog/soul-machines-changelog.yml
+  href: https://artifacts.apis.io/soul-machines/changelog/soul-machines-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/soul-machines-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soul-machines/refs/heads/main/asyncapi/soul-machines-skills-webhooks.yml
+  href: https://artifacts.apis.io/soul-machines/asyncapi/soul-machines-skills-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/soul-machines-skills-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soul-machines/refs/heads/main/mcp/soul-machines-mcp.yml
+  href: https://artifacts.apis.io/soul-machines/mcp/soul-machines-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/soul-machines-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soul-machines/refs/heads/main/llms/soul-machines-llms.txt
+  href: https://artifacts.apis.io/soul-machines/llms/soul-machines-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/soul-machines-llms.txt
 created: '2026-07-17'
 description: Soul Machines builds autonomously animated "Digital People" — AI-driven interactive avatars that combine a real-time facial/gesture animation engine with conversational AI so brands can deploy human-like agents for customer experience, sales, education, and health. Developers integrate Digital People through the Web SDK (a JavaScript library that renders and drives a Digital Person in the browser over a WebSocket session to the dh.soulmachines.cloud session server) and the Skills API (a REST/callback contract for building web services that supply the conversational responses a Digital Person speaks). Personas, API keys, and content are configured in DDNA Studio. Soul Machines was founded in Auckland, New Zealand and is a portfolio company of the SoftBank Vision Fund.
+finops:
+- has_sources: true
+  method: derived
+  name: Soul Machines Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: soul-machines-finops
+  template: false
 image: https://github.com/soulmachines.png
 layout: provider
 mcp_servers:
@@ -183,26 +193,29 @@ plans:
 - name: Soul Machines Plans Pricing
   plan_count: 9
   slug: soul-machines-plans-pricing
+- name: Soul Machines Price Estimates
+  plan_count: 0
+  slug: soul-machines-price-estimates
 random_paper: 16
 score:
   band: developing
-  composite: 41.9
+  composite: 53.1
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 49.0
+    artifact_dirs: 15
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.9
+  delta: 1.6
   facets:
-    access_clarity: 78.9
+    access_clarity: 100.0
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 23.8
-    discoverability: 75.0
-    operational_transparency: 26.3
-  previous_composite: 36.0
+    developer_ergonomics: 61.9
+    discoverability: 65.0
+    operational_transparency: 28.9
+  previous_composite: 51.5
   provenance:
     mcp: platform-generated
   regulatory:
@@ -211,14 +224,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/soul-machines/refs/heads/main/screenshots/soul-machines-2026-08-17T082005.png
+screenshot: https://apis.io/screenshots/soul-machines/soul-machines-2026-08-17T082005.png
 security:
 - kind: authentication
   name: Soul Machines Authentication

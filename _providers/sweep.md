@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.5
-  scored_at: '2026-10-17'
+  score: 46.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 358
   human_in_the_loop: 358
@@ -391,14 +393,14 @@ apis:
   description: The workflows API from Sweep — 2 operation(s) for workflows.
   name: Sweep Workflows API
   slug: sweep-workflows-api
-artifact_total: 78
+artifact_total: 84
 asyncapis:
 - description: ''
   name: Sweep Event Surface
   slug: sweep-event-surface
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/capabilities/sweep-capability-edges.yml
+  href: https://artifacts.apis.io/sweep/capabilities/sweep-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sweep-capability-edges.yml
@@ -435,22 +437,22 @@ common:
   type: Compliance
   url: https://www.sweep.io/security-compliance-governance
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/mcp/sweep-mcp.yml
+  href: https://artifacts.apis.io/sweep/mcp/sweep-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sweep-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/llms/sweep-llms.txt
+  href: https://artifacts.apis.io/sweep/llms/sweep-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sweep-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/conformance/sweep-conformance.yml
+  href: https://artifacts.apis.io/sweep/conformance/sweep-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sweep-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/security/sweep-domain-security.yml
+  href: https://artifacts.apis.io/sweep/security/sweep-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sweep-domain-security.yml
@@ -467,82 +469,90 @@ common:
   type: APIReference
   url: https://api.sweep.io/api
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/openapi/_original/sweep-api-openapi.yml
+  href: https://artifacts.apis.io/sweep/openapi/_original/sweep-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/sweep-api-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/authentication/sweep-authentication.yml
+  href: https://artifacts.apis.io/sweep/authentication/sweep-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sweep-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/conventions/sweep-conventions.yml
+  href: https://artifacts.apis.io/sweep/conventions/sweep-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sweep-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/data-model/sweep-data-model.yml
+  href: https://artifacts.apis.io/sweep/data-model/sweep-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sweep-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/errors/sweep-problem-types.yml
+  href: https://artifacts.apis.io/sweep/errors/sweep-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sweep-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/lifecycle/sweep-lifecycle.yml
+  href: https://artifacts.apis.io/sweep/lifecycle/sweep-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sweep-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/overlays/sweep-api-overlay.yaml
+  href: https://artifacts.apis.io/sweep/overlays/sweep-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sweep-api-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/packages/sweep-packages.yml
+  href: https://artifacts.apis.io/sweep/packages/sweep-packages.yml
   title: ''
   type: Packages
   url: packages/sweep-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/plans/sweep-plans-pricing.yml
+  href: https://artifacts.apis.io/sweep/plans/sweep-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sweep-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/rate-limits/sweep-rate-limits.yml
+  href: https://artifacts.apis.io/sweep/rate-limits/sweep-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sweep-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/agentic-access/sweep-agentic-access.yml
+  href: https://artifacts.apis.io/sweep/agentic-access/sweep-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sweep-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sweep/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/mcp/sweep-tool-crosswalk.yml
+  href: https://artifacts.apis.io/sweep/mcp/sweep-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/sweep-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/security/sweep-trust-center.yml
+  href: https://artifacts.apis.io/sweep/security/sweep-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sweep-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/well-known/sweep-well-known.yml
+  href: https://artifacts.apis.io/sweep/well-known/sweep-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sweep-well-known.yml
 created: '2026-07-17'
 description: Sweep is the agentic layer for enterprise systems. By connecting to platforms like Salesforce, Snowflake, ServiceNow, and HubSpot, Sweep reads live metadata and gives AI agents the context they need to understand, plan, and govern changes safely across complex systems. It unifies discovery, design, and build into one continuous workflow — auto-generating living documentation of every flow, field, and rule; visualizing end-to-end business processes; running metadata agents that audit and optimize org configuration; and shipping Salesforce automations, lead routing, alerts, and deduplication without custom code. Sweep also publishes an official Model Context Protocol (MCP) server that connects Salesforce context to AI assistants such as Claude and ChatGPT. Sweep is backed by Bessemer Venture Partners, Homebrew, and Insight Partners.
+finops:
+- has_sources: true
+  method: derived
+  name: Sweep Finops
+  primary_unit: user
+  service_category: ''
+  slug: sweep-finops
+  template: false
 image: https://cdn.sanity.io/images/9eu1m6zu/production/374242d70c2b95ec76d45f450e2ef6fe33024c38-4320x1951.png
 layout: provider
 mcp_servers:
@@ -562,8 +572,11 @@ overview: 'Sweep publishes 70 API contracts indexed on the [APIs.io](https://api
   Sweep''s developer surface includes engineering blog, pricing, support, documentation, getting-started guide, API reference, authentication, and 24 more developer resources.'
 plans:
 - name: Sweep Plans Pricing
-  plan_count: 4
+  plan_count: 13
   slug: sweep-plans-pricing
+- name: Sweep Price Estimates
+  plan_count: 0
+  slug: sweep-price-estimates
 random_paper: 20
 rate_limits:
 - limit_count: 0
@@ -571,23 +584,23 @@ rate_limits:
   slug: sweep-rate-limits
 score:
   band: developing
-  composite: 52.8
+  composite: 53.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 51.1
+    contract_quality: 49.4
     developer_ergonomics: 49.4
-    discoverability: 71.7
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 52.7
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -604,13 +617,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/screenshots/sweep-2026-08-17T082224.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sweep/sweep-2026-08-17T082224.png
 security:
 - kind: authentication
   name: Sweep Authentication
@@ -624,6 +638,16 @@ security:
   name: Sweep Trust Center
   slug: sweep-trust-center
   summary_line: SOC 2
+skill_count: 4
+skills:
+- name: Audit automations before deploying one
+  slug: sweep-audit-automations
+- name: Connect a Salesforce org and inventory its metadata
+  slug: sweep-connect-and-inventory-a-salesforce-org
+- name: Govern outbound MCP connectors and tool policies
+  slug: sweep-govern-mcp-connectors
+- name: Trace a metadata element and its blast radius
+  slug: sweep-trace-metadata-dependencies
 slug: sweep
 tags:
 - Company

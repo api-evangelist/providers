@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-17'
+  score: 29.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 4
   slug: amazon-cloud9-agentic-access
   summary_line: 4 operations · 2 acting
-api_count: 2
+api_count: 4
 apis:
 - description: API for creating and managing Cloud9 development environments — browser-based IDEs running on EC2 instances or SSH-connected servers.
   name: Amazon Cloud9 API
@@ -52,37 +54,53 @@ apis:
   description: Operations for managing Cloud9 development environments
   name: Amazon Cloud9 Environments API
   slug: amazon-cloud9-environments-api
-artifact_total: 41
+- baseURL: https://cloud9.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud9 Environment Membership API from Amazon Cloud9 — 4 operation(s) for cloud9 environment membership.
+  name: Amazon Cloud9 Cloud9 Environment Membership API
+  slug: amazon-cloud9-environment-membership-api
+- baseURL: https://cloud9.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud9 Operations API from Amazon Cloud9 — 5 operation(s) for cloud9 operations.
+  name: Amazon Cloud9 Cloud9 Operations API
+  slug: amazon-cloud9-operations-api
+artifact_total: 45
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Cloud9 Environments API
   slug: open-amazon-cloud9-environments-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/amazon-cloud9/plans/amazon-cloud9-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-cloud9-plans-pricing.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-cloud9/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/agentic-access/amazon-cloud9-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-cloud9/agentic-access/amazon-cloud9-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-cloud9-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/security/amazon-cloud9-trust-center.yml
+  href: https://artifacts.apis.io/amazon-cloud9/security/amazon-cloud9-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-cloud9-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/security/amazon-cloud9-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-cloud9/security/amazon-cloud9-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-cloud9-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/security/amazon-cloud9-domain-security.yml
+  href: https://artifacts.apis.io/amazon-cloud9/security/amazon-cloud9-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-cloud9-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/authentication/amazon-cloud9-authentication.yml
+  href: https://artifacts.apis.io/amazon-cloud9/authentication/amazon-cloud9-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-cloud9-authentication.yml
@@ -147,52 +165,52 @@ common:
   type: Compliance
   url: https://aws.amazon.com/compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/rules/amazon-cloud9-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-cloud9/rules/amazon-cloud9-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-cloud9-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/vocabulary/amazon-cloud9-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-cloud9/vocabulary/amazon-cloud9-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-cloud9-vocabulary.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/packages/amazon-cloud9-packages.yml
+  href: https://artifacts.apis.io/amazon-cloud9/packages/amazon-cloud9-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-cloud9-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/well-known/amazon-cloud9-well-known.yml
+  href: https://artifacts.apis.io/amazon-cloud9/well-known/amazon-cloud9-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-cloud9-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/well-known/amazon-cloud9-security.txt
+  href: https://artifacts.apis.io/amazon-cloud9/well-known/amazon-cloud9-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-cloud9-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/mcp/amazon-cloud9-mcp.yml
+  href: https://artifacts.apis.io/amazon-cloud9/mcp/amazon-cloud9-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-cloud9-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/llms/amazon-cloud9-llms.txt
+  href: https://artifacts.apis.io/amazon-cloud9/llms/amazon-cloud9-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-cloud9-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/conformance/amazon-cloud9-conformance.yml
+  href: https://artifacts.apis.io/amazon-cloud9/conformance/amazon-cloud9-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-cloud9-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/errors/amazon-cloud9-problem-types.yml
+  href: https://artifacts.apis.io/amazon-cloud9/errors/amazon-cloud9-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amazon-cloud9-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/lifecycle/amazon-cloud9-lifecycle.yml
+  href: https://artifacts.apis.io/amazon-cloud9/lifecycle/amazon-cloud9-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-cloud9-lifecycle.yml
@@ -225,6 +243,14 @@ features:
   name: 40+ Language Support
 - description: Integrated local testing environment for AWS Lambda serverless functions.
   name: Serverless Development
+finops:
+- has_sources: true
+  method: derived
+  name: Amazon Cloud9 Finops
+  primary_unit: t2.micro linux instance hour
+  service_category: ''
+  slug: amazon-cloud9-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-cloud9.png
 integrations:
 - description: Develop and test serverless functions with integrated Lambda tooling.
@@ -279,14 +305,21 @@ modified: '2026-06-20'
 name: Amazon Cloud9
 nav: Providers
 network: true
-overview: 'Amazon Cloud9 is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including Environments API, and 1 more. Tagged areas include Cloud9, IDE, Development, Browser-Based, and Developer Tools.
+overview: 'Amazon Cloud9 is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Environments API, Cloud9 Environment Membership API, Cloud9 Operations API, and 1 more. Tagged areas include Cloud9, IDE, Development, Browser-Based, and Developer Tools.
 
 
   The Amazon Cloud9 catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Cloud9''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
-random_paper: 7
+  Amazon Cloud9''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 25 more developer resources.'
+plans:
+- name: Amazon Cloud9 Plans Pricing
+  plan_count: 4
+  slug: amazon-cloud9-plans-pricing
+- name: Amazon Cloud9 Price Estimates
+  plan_count: 0
+  slug: amazon-cloud9-price-estimates
+random_paper: 11
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -312,32 +345,32 @@ rules:
     warn: 10
   slug: amazon-cloud9-spectral-rules
 score:
-  band: developing
-  composite: 47.9
+  band: strong
+  composite: 65.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 57.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 58.0
+    artifact_dirs: 26
+    catalog_earned: 75.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.6
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 31.8
-    contract_quality: 22.8
-    developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 47.9
+    contract_quality: 52.7
+    developer_ergonomics: 72.6
+    discoverability: 71.4
+    operational_transparency: 31.6
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 2
-      marker_coverage: 100.0
-      total: 2
+      derived: 1
+      marker_coverage: 75.0
+      total: 4
     mcp: derived
   regulatory:
     applies: true
@@ -345,13 +378,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/screenshots/amazon-cloud9-2026-07-25T195945.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-cloud9/amazon-cloud9-2026-07-25T195945.png
 security:
 - kind: authentication
   name: Amazon Cloud9 Authentication

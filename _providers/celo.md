@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Ethereum-compatible JSON-RPC API for the Celo Layer 2 network, served over the public Forno endpoints. Supports the standard eth_* / net_* / web3_* method set for reading chain state, submitting trans
@@ -49,7 +51,7 @@ common:
   type: Whitepaper
   url: https://celo.org/papers
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/celo/refs/heads/main/sandbox/celo-sandbox.yml
+  href: https://artifacts.apis.io/celo/sandbox/celo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/celo-sandbox.yml
@@ -98,47 +100,47 @@ common:
   type: StatusPage
   url: https://status.celo.org
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/celo/refs/heads/main/packages/celo-packages.yml
+  href: https://artifacts.apis.io/celo/packages/celo-packages.yml
   title: ''
   type: Packages
   url: packages/celo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/celo/refs/heads/main/packages/celo-packages.yml
+  href: https://artifacts.apis.io/celo/packages/celo-packages.yml
   title: ''
   type: SDKs
   url: packages/celo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/celo/refs/heads/main/cli/celo-cli.yml
+  href: https://artifacts.apis.io/celo/cli/celo-cli.yml
   title: ''
   type: CLI
   url: cli/celo-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/celo/refs/heads/main/mcp/celo-mcp.yml
+  href: https://artifacts.apis.io/celo/mcp/celo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/celo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/celo/refs/heads/main/llms/celo-llms.txt
+  href: https://artifacts.apis.io/celo/llms/celo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/celo-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/celo/refs/heads/main/well-known/celo-well-known.yml
+  href: https://artifacts.apis.io/celo/well-known/celo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/celo-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/celo/refs/heads/main/well-known/celo-security.txt
+  href: https://artifacts.apis.io/celo/well-known/celo-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/celo-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/celo/refs/heads/main/security/celo-domain-security.yml
+  href: https://artifacts.apis.io/celo/security/celo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/celo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/celo/refs/heads/main/security/celo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/celo/security/celo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/celo-vulnerability-disclosure.yml
@@ -147,17 +149,17 @@ common:
   type: Security
   url: https://celo.org/.well-known/security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/celo/refs/heads/main/lifecycle/celo-lifecycle.yml
+  href: https://artifacts.apis.io/celo/lifecycle/celo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/celo-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/celo/refs/heads/main/lifecycle/celo-lifecycle.yml
+  href: https://artifacts.apis.io/celo/lifecycle/celo-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/celo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/celo/refs/heads/main/conformance/celo-conformance.yml
+  href: https://artifacts.apis.io/celo/conformance/celo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/celo-conformance.yml
@@ -177,12 +179,12 @@ overview: 'Celo is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Celo''s developer surface includes sandbox, documentation, API reference, getting-started guide, engineering blog, support, CLI, and 20 more developer resources.'
-random_paper: 1
+random_paper: 11
 score:
   band: thin
-  composite: 30.4
+  composite: 31.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -194,9 +196,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.7
-    discoverability: 71.7
-    operational_transparency: 23.7
-  previous_composite: 30.4
+    discoverability: 65.0
+    operational_transparency: 39.5
+  previous_composite: 31.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -206,14 +208,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/celo/refs/heads/main/screenshots/celo-2026-07-25T204901.png
+screenshot: https://apis.io/screenshots/celo/celo-2026-07-25T204901.png
 security:
 - kind: domain-security
   name: Celo Domain Security

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The comma connect API is a JWT-authenticated REST API for comma / openpilot users and devices. It exposes the authenticated user profile and device list, per-device operations (info, location, stats, '
@@ -47,7 +49,7 @@ common:
   type: BlogRSS
   url: https://blog.comma.ai/feed.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/commaai/refs/heads/main/security/commaai-domain-security.yml
+  href: https://artifacts.apis.io/commaai/security/commaai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/commaai-domain-security.yml
@@ -100,52 +102,52 @@ common:
   type: Website
   url: https://comma.ai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/commaai/refs/heads/main/authentication/commaai-authentication.yml
+  href: https://artifacts.apis.io/commaai/authentication/commaai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/commaai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commaai/refs/heads/main/conventions/commaai-conventions.yml
+  href: https://artifacts.apis.io/commaai/conventions/commaai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/commaai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commaai/refs/heads/main/lifecycle/commaai-lifecycle.yml
+  href: https://artifacts.apis.io/commaai/lifecycle/commaai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/commaai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commaai/refs/heads/main/data-model/commaai-data-model.yml
+  href: https://artifacts.apis.io/commaai/data-model/commaai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/commaai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commaai/refs/heads/main/conformance/commaai-conformance.yml
+  href: https://artifacts.apis.io/commaai/conformance/commaai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/commaai-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/commaai/refs/heads/main/changelog/commaai-changelog.yml
+  href: https://artifacts.apis.io/commaai/changelog/commaai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/commaai-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/commaai/refs/heads/main/mcp/commaai-mcp.yml
+  href: https://artifacts.apis.io/commaai/mcp/commaai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/commaai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/commaai/refs/heads/main/llms/commaai-llms.txt
+  href: https://artifacts.apis.io/commaai/llms/commaai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/commaai-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/commaai/refs/heads/main/packages/commaai-packages.yml
+  href: https://artifacts.apis.io/commaai/packages/commaai-packages.yml
   title: ''
   type: Packages
   url: packages/commaai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/commaai/refs/heads/main/packages/commaai-packages.yml
+  href: https://artifacts.apis.io/commaai/packages/commaai-packages.yml
   title: ''
   type: SDKs
   url: packages/commaai-packages.yml
@@ -161,26 +163,26 @@ overview: 'Comma.ai is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Comma.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 17 more developer resources.'
-random_paper: 1
+random_paper: 7
 score:
   band: thin
-  composite: 31.9
+  composite: 32.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 31.8
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 32.8
   provenance:
     conformance: derived
     mcp: derived
@@ -190,14 +192,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/commaai/refs/heads/main/screenshots/commaai-2026-07-25T210118.png
+screenshot: https://apis.io/screenshots/commaai/commaai-2026-07-25T210118.png
 security:
 - kind: authentication
   name: Commaai Authentication

@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-17'
+  score: 8.5
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: HTTP surface exposed by the AgentSea NestJS module (@lov3kaizen/agentsea-nestjs) when enableRestApi/enableWebSocket are set. Documented operations are GET /agents, GET /agents/:name, POST /agents/:nam
@@ -47,7 +49,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agentsea/refs/heads/main/security/agentsea-domain-security.yml
+  href: https://artifacts.apis.io/agentsea/security/agentsea-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agentsea-domain-security.yml
@@ -92,62 +94,62 @@ common:
   type: License
   url: https://github.com/lovekaizen/agentsea/blob/main/LICENSE
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/agentsea/refs/heads/main/packages/agentsea-packages.yml
+  href: https://artifacts.apis.io/agentsea/packages/agentsea-packages.yml
   title: ''
   type: Packages
   url: packages/agentsea-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/agentsea/refs/heads/main/packages/agentsea-packages.yml
+  href: https://artifacts.apis.io/agentsea/packages/agentsea-packages.yml
   title: ''
   type: SDKs
   url: packages/agentsea-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/agentsea/refs/heads/main/cli/agentsea-cli.yml
+  href: https://artifacts.apis.io/agentsea/cli/agentsea-cli.yml
   title: ''
   type: CLI
   url: cli/agentsea-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentsea/refs/heads/main/components/agentsea-components.yml
+  href: https://artifacts.apis.io/agentsea/components/agentsea-components.yml
   title: ''
   type: Components
   url: components/agentsea-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agentsea/refs/heads/main/llms/agentsea-llms.txt
+  href: https://artifacts.apis.io/agentsea/llms/agentsea-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agentsea-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agentsea/refs/heads/main/authentication/agentsea-authentication.yml
+  href: https://artifacts.apis.io/agentsea/authentication/agentsea-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agentsea-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentsea/refs/heads/main/conventions/agentsea-conventions.yml
+  href: https://artifacts.apis.io/agentsea/conventions/agentsea-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agentsea-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentsea/refs/heads/main/conformance/agentsea-conformance.yml
+  href: https://artifacts.apis.io/agentsea/conformance/agentsea-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agentsea-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentsea/refs/heads/main/lifecycle/agentsea-lifecycle.yml
+  href: https://artifacts.apis.io/agentsea/lifecycle/agentsea-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agentsea-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agentsea/refs/heads/main/changelog/agentsea-changelog.yml
+  href: https://artifacts.apis.io/agentsea/changelog/agentsea-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/agentsea-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agentsea/refs/heads/main/plans/agentsea-plans-pricing.yml
+  href: https://artifacts.apis.io/agentsea/plans/agentsea-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agentsea-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agentsea/refs/heads/main/rate-limits/agentsea-rate-limits.yml
+  href: https://artifacts.apis.io/agentsea/rate-limits/agentsea-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agentsea-rate-limits.yml
@@ -167,14 +169,14 @@ plans:
 - name: Agentsea Plans Pricing
   plan_count: 0
   slug: agentsea-plans-pricing
-random_paper: 4
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Agentsea Rate Limits
   slug: agentsea-rate-limits
 score:
   band: emerging
-  composite: 25.0
+  composite: 25.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -189,8 +191,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 69.0
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 25.0
+    operational_transparency: 21.1
+  previous_composite: 25.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -200,14 +202,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/agentsea/refs/heads/main/screenshots/agentsea-2026-09-02T144115.png
+screenshot: https://apis.io/screenshots/agentsea/agentsea-2026-09-02T144115.png
 security:
 - kind: authentication
   name: Agentsea Authentication

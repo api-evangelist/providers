@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.0
-  scored_at: '2026-10-17'
+  score: 22.8
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Generates a Lovable application from a shareable URL or prompt. Programmatic entry point for creating apps and sharing links without revealing implementation details. Early release; more endpoints pla
@@ -49,17 +51,17 @@ common:
   type: BlogRSS
   url: https://lovable.dev/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lovable/refs/heads/main/security/lovable-trust-center.yml
+  href: https://artifacts.apis.io/lovable/security/lovable-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lovable-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lovable/refs/heads/main/security/lovable-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/lovable/security/lovable-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lovable-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lovable/refs/heads/main/security/lovable-domain-security.yml
+  href: https://artifacts.apis.io/lovable/security/lovable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lovable-domain-security.yml
@@ -84,17 +86,17 @@ common:
   type: Pricing
   url: https://lovable.dev/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lovable/refs/heads/main/plans/lovable-plans-pricing.yml
+  href: https://artifacts.apis.io/lovable/plans/lovable-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lovable-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lovable/refs/heads/main/rate-limits/lovable-rate-limits.yml
+  href: https://artifacts.apis.io/lovable/rate-limits/lovable-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lovable-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lovable/refs/heads/main/finops/lovable-finops.yml
+  href: https://artifacts.apis.io/lovable/finops/lovable-finops.yml
   title: ''
   type: FinOps
   url: finops/lovable-finops.yml
@@ -130,14 +132,14 @@ plans:
 - name: Lovable Plans Pricing
   plan_count: 1
   slug: lovable-plans-pricing
-random_paper: 15
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Lovable Rate Limits
   slug: lovable-rate-limits
 score:
   band: emerging
-  composite: 15.2
+  composite: 16.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 36.0
@@ -145,14 +147,14 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 66.7
-    operational_transparency: 7.9
+    discoverability: 64.3
+    operational_transparency: 21.1
   previous_composite: 16.7
   provenance:
     mcp: first-party
@@ -162,14 +164,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lovable/refs/heads/main/screenshots/lovable-2026-06-20T184733.png
+screenshot: https://apis.io/screenshots/lovable/lovable-2026-06-20T184733.png
 security:
 - kind: domain-security
   name: Lovable Domain Security

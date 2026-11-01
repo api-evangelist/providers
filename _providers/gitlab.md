@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.0
-  scored_at: '2026-10-17'
+  score: 41.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -505,7 +507,7 @@ arazzos:
 - description: Look up an instance CI variable and update it or create it if missing.
   name: GitLab Upsert an Instance-Level CI Variable
   slug: gitlab-upsert-instance-ci-variable-workflow
-artifact_total: 331
+artifact_total: 333
 asyncapis:
 - description: GitLab Webhooks deliver HTTP POST payloads to a configured URL whenever specified events occur in a GitLab project or group, such as pushes, merge requests, issues, pipeline status changes, and deploy
   name: GitLab Webhooks
@@ -550,9 +552,6 @@ collections:
 - collection_type: postman
   name: GitLab Webhooks API
   slug: postman-gitlab-webhooks
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: GitLab api/v4/ Admin API
   slug: open-gitlab-admin-api
@@ -609,42 +608,42 @@ collections:
   slug: open-gitlab-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/finops/gitlab-finops.yml
+  href: https://artifacts.apis.io/gitlab/finops/gitlab-finops.yml
   title: ''
   type: FinOps
   url: finops/gitlab-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/rules/gitlab-spectral-rules.yml
+  href: https://artifacts.apis.io/gitlab/rules/gitlab-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/gitlab-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/rules/gitlab-rules.yml
+  href: https://artifacts.apis.io/gitlab/rules/gitlab-rules.yml
   title: ''
   type: Spectral
   url: rules/gitlab-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/rules/gitlab-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/gitlab/rules/gitlab-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/gitlab-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/rules/gitlab-asyncapi-spectral-rules.yml
+  href: https://artifacts.apis.io/gitlab/rules/gitlab-asyncapi-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/gitlab-asyncapi-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/vocabulary/gitlab-vocabulary.yml
+  href: https://artifacts.apis.io/gitlab/vocabulary/gitlab-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/gitlab-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/gitlab/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/asyncapi/gitlab-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/gitlab/asyncapi/gitlab-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/gitlab-webhooks-asyncapi.yml
@@ -653,12 +652,12 @@ common:
   type: Compliance
   url: https://trust.gitlab.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/hosts/gitlab-hosts.yml
+  href: https://artifacts.apis.io/gitlab/hosts/gitlab-hosts.yml
   title: ''
   type: Hosts
   url: hosts/gitlab-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/vendors/gitlab-vendors.yml
+  href: https://artifacts.apis.io/gitlab/vendors/gitlab-vendors.yml
   title: ''
   type: Vendors
   url: vendors/gitlab-vendors.yml
@@ -687,112 +686,112 @@ common:
   type: Leadership
   url: https://handbook.gitlab.com/handbook/leadership/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/rate-limits/gitlab-rate-limits.yml
+  href: https://artifacts.apis.io/gitlab/rate-limits/gitlab-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gitlab-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/plans/gitlab-plans-pricing.yml
+  href: https://artifacts.apis.io/gitlab/plans/gitlab-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gitlab-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/capabilities/gitlab-capability-edges.yml
+  href: https://artifacts.apis.io/gitlab/capabilities/gitlab-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gitlab-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/overlays/gitlab-api-v4-admin-openapi-search.yml
+  href: https://artifacts.apis.io/gitlab/overlays/gitlab-api-v4-admin-openapi-search.yml
   title: ''
   type: Overlay
   url: overlays/gitlab-api-v4-admin-openapi-search.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/agentic-access/gitlab-agentic-access.yml
+  href: https://artifacts.apis.io/gitlab/agentic-access/gitlab-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gitlab-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/security/gitlab-domain-security.yml
+  href: https://artifacts.apis.io/gitlab/security/gitlab-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gitlab-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/security/gitlab-trust-center.yml
+  href: https://artifacts.apis.io/gitlab/security/gitlab-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gitlab-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/security/gitlab-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/gitlab/security/gitlab-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gitlab-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/authentication/gitlab-authentication.yml
+  href: https://artifacts.apis.io/gitlab/authentication/gitlab-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gitlab-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/scopes/gitlab-scopes.yml
+  href: https://artifacts.apis.io/gitlab/scopes/gitlab-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/gitlab-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/packages/gitlab-packages.yml
+  href: https://artifacts.apis.io/gitlab/packages/gitlab-packages.yml
   title: ''
   type: Packages
   url: packages/gitlab-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/well-known/gitlab-well-known.yml
+  href: https://artifacts.apis.io/gitlab/well-known/gitlab-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gitlab-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/well-known/gitlab-security.txt
+  href: https://artifacts.apis.io/gitlab/well-known/gitlab-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/gitlab-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/mcp/gitlab-mcp.yml
+  href: https://artifacts.apis.io/gitlab/mcp/gitlab-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/gitlab-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/llms/gitlab-llms.txt
+  href: https://artifacts.apis.io/gitlab/llms/gitlab-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gitlab-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/conformance/gitlab-conformance.yml
+  href: https://artifacts.apis.io/gitlab/conformance/gitlab-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gitlab-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/errors/gitlab-problem-types.yml
+  href: https://artifacts.apis.io/gitlab/errors/gitlab-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gitlab-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/lifecycle/gitlab-lifecycle.yml
+  href: https://artifacts.apis.io/gitlab/lifecycle/gitlab-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gitlab-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/conventions/gitlab-conventions.yml
+  href: https://artifacts.apis.io/gitlab/conventions/gitlab-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gitlab-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/changelog/gitlab-changelog.yml
+  href: https://artifacts.apis.io/gitlab/changelog/gitlab-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gitlab-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/cli/gitlab-cli.yml
+  href: https://artifacts.apis.io/gitlab/cli/gitlab-cli.yml
   title: ''
   type: CLI
   url: cli/gitlab-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/data-model/gitlab-data-model.yml
+  href: https://artifacts.apis.io/gitlab/data-model/gitlab-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gitlab-data-model.yml
@@ -801,122 +800,122 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/gitlab/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-add-group-badge-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-add-group-badge-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-add-group-badge-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-add-project-badge-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-add-project-badge-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-add-project-badge-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-approve-group-access-request-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-approve-group-access-request-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-approve-group-access-request-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-approve-project-access-request-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-approve-project-access-request-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-approve-project-access-request-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-attach-alert-metric-image-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-attach-alert-metric-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-attach-alert-metric-image-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-cleanup-merged-branch-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-cleanup-merged-branch-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-cleanup-merged-branch-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-create-and-protect-branch-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-create-and-protect-branch-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-create-and-protect-branch-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-create-branch-from-default-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-create-branch-from-default-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-create-branch-from-default-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-ensure-branch-exists-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-ensure-branch-exists-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-ensure-branch-exists-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-find-and-run-manual-job-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-find-and-run-manual-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-find-and-run-manual-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-inspect-failed-jobs-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-inspect-failed-jobs-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-inspect-failed-jobs-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-prune-stale-branches-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-prune-stale-branches-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-prune-stale-branches-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-publish-broadcast-message-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-publish-broadcast-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-publish-broadcast-message-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-register-instance-cluster-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-register-instance-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-register-instance-cluster-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-request-and-self-approve-project-access-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-request-and-self-approve-project-access-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-request-and-self-approve-project-access-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-retire-instance-ci-variable-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-retire-instance-ci-variable-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-retire-instance-ci-variable-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-retire-project-badge-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-retire-project-badge-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-retire-project-badge-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-rotate-broadcast-message-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-rotate-broadcast-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-rotate-broadcast-message-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-rotate-project-badge-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-rotate-project-badge-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-rotate-project-badge-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-start-migration-and-poll-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-start-migration-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-start-migration-and-poll-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-track-migration-entities-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-track-migration-entities-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-track-migration-entities-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-trigger-manual-job-and-poll-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-trigger-manual-job-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-trigger-manual-job-and-poll-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-update-broadcast-message-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-update-broadcast-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-update-broadcast-message-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/arazzo/gitlab-upsert-instance-ci-variable-workflow.yml
+  href: https://artifacts.apis.io/gitlab/arazzo/gitlab-upsert-instance-ci-variable-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gitlab-upsert-instance-ci-variable-workflow.yml
@@ -1025,27 +1024,27 @@ common:
   type: RateLimits
   url: https://docs.gitlab.com/security/rate_limits/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/json-ld/gitlab-context.jsonld
+  href: https://artifacts.apis.io/gitlab/json-ld/gitlab-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/gitlab-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/json-schema/gitlab-project-schema.json
+  href: https://artifacts.apis.io/gitlab/json-schema/gitlab-project-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/gitlab-project-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/json-schema/gitlab-merge-request-schema.json
+  href: https://artifacts.apis.io/gitlab/json-schema/gitlab-merge-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/gitlab-merge-request-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/json-schema/gitlab-issue-schema.json
+  href: https://artifacts.apis.io/gitlab/json-schema/gitlab-issue-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/gitlab-issue-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/json-schema/gitlab-pipeline-schema.json
+  href: https://artifacts.apis.io/gitlab/json-schema/gitlab-pipeline-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/gitlab-pipeline-schema.json
@@ -1267,10 +1266,10 @@ features:
 - 'Application Security Testing (Ultimate): SAST, DAST, secret detection'
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Gitlab Finops
-  primary_unit: ''
-  service_category: DevOps Platform
+  primary_unit: user
+  service_category: ''
   slug: gitlab-finops
   template: false
 graphqls:
@@ -1707,7 +1706,7 @@ plans:
 - name: Gitlab Price Estimates
   plan_count: 0
   slug: gitlab-price-estimates
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Gitlab Rate Limits
@@ -1767,23 +1766,28 @@ scopes:
   summary_line: 25 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: exemplar
-  composite: 81.0
+  composite: 82.6
   coverage:
     artifact_dirs: 40
-    catalog_earned: 80.0
+    catalog_earned: 83.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 35.0
+    catalog_gap: 32.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.8
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 45.5
-    contract_quality: 69.6
+    contract_quality: 67.0
     developer_ergonomics: 81.5
-    discoverability: 83.3
-    operational_transparency: 86.8
-  previous_composite: 81.8
+    discoverability: 80.0
+    operational_transparency: 89.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 81.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1800,13 +1804,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/screenshots/gitlab-2026-06-20T181844.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gitlab/gitlab-2026-06-20T181844.png
 security:
 - kind: authentication
   name: Gitlab Authentication
@@ -1824,6 +1829,14 @@ security:
   name: Gitlab Trust Center
   slug: gitlab-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, GDPR, CSA STAR
+skill_count: 3
+skills:
+- name: gitlab-create-protect-branch
+  slug: gitlab-create-protect-branch
+- name: gitlab-manage-group-badges
+  slug: gitlab-manage-group-badges
+- name: gitlab-manage-project-webhooks
+  slug: gitlab-manage-project-webhooks
 slug: gitlab
 solutions:
 - description: Core DevOps platform with unlimited repositories, CI/CD, issue tracking, and API access.

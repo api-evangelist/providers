@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-17'
+  score: 24.0
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://www.oeb.ca
@@ -97,7 +99,7 @@ apis:
   description: The machine-readable query vocabulary the RDS search form itself loads.
   name: Ontario Energy Board Search Metadata API
   slug: ontario-energy-board-search-metadata-api
-artifact_total: 20
+artifact_total: 23
 collections:
 - collection_type: open
   name: OEB Open Data
@@ -107,37 +109,42 @@ collections:
   slug: open-ontario-energy-board-rds
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/overlays/ontario-energy-board-open-data-overlay.yaml
+  href: https://artifacts.apis.io/ontario-energy-board/capabilities/ontario-energy-board-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ontario-energy-board-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/ontario-energy-board/overlays/ontario-energy-board-open-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ontario-energy-board-open-data-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/skills/ontario-energy-board-pull-open-data.md
+  href: https://artifacts.apis.io/ontario-energy-board/skills/ontario-energy-board-pull-open-data.md
   title: ''
   type: AgentSkill
   url: skills/ontario-energy-board-pull-open-data.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/overlays/ontario-energy-board-rds-overlay.yaml
+  href: https://artifacts.apis.io/ontario-energy-board/overlays/ontario-energy-board-rds-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ontario-energy-board-rds-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/skills/ontario-energy-board-track-case-filings.md
+  href: https://artifacts.apis.io/ontario-energy-board/skills/ontario-energy-board-track-case-filings.md
   title: ''
   type: AgentSkill
   url: skills/ontario-energy-board-track-case-filings.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/skills/ontario-energy-board-verify-green-button-mandate.md
+  href: https://artifacts.apis.io/ontario-energy-board/skills/ontario-energy-board-verify-green-button-mandate.md
   title: ''
   type: AgentSkill
   url: skills/ontario-energy-board-verify-green-button-mandate.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/mcp/ontario-energy-board-mcp.yml
+  href: https://artifacts.apis.io/ontario-energy-board/mcp/ontario-energy-board-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ontario-energy-board-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/security/ontario-energy-board-domain-security.yml
+  href: https://artifacts.apis.io/ontario-energy-board/security/ontario-energy-board-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ontario-energy-board-domain-security.yml
@@ -194,52 +201,52 @@ common:
   type: Reference
   url: https://www.oeb.ca/about-oeb/mission-and-mandate
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/authentication/ontario-energy-board-authentication.yml
+  href: https://artifacts.apis.io/ontario-energy-board/authentication/ontario-energy-board-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ontario-energy-board-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/conventions/ontario-energy-board-conventions.yml
+  href: https://artifacts.apis.io/ontario-energy-board/conventions/ontario-energy-board-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ontario-energy-board-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/conformance/ontario-energy-board-conformance.yml
+  href: https://artifacts.apis.io/ontario-energy-board/conformance/ontario-energy-board-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ontario-energy-board-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/lifecycle/ontario-energy-board-lifecycle.yml
+  href: https://artifacts.apis.io/ontario-energy-board/lifecycle/ontario-energy-board-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ontario-energy-board-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/changelog/ontario-energy-board-changelog.yml
+  href: https://artifacts.apis.io/ontario-energy-board/changelog/ontario-energy-board-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ontario-energy-board-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/errors/ontario-energy-board-problem-types.yml
+  href: https://artifacts.apis.io/ontario-energy-board/errors/ontario-energy-board-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ontario-energy-board-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/data-model/ontario-energy-board-data-model.yml
+  href: https://artifacts.apis.io/ontario-energy-board/data-model/ontario-energy-board-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ontario-energy-board-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/vocabulary/ontario-energy-board-rds-search-clauses.yml
+  href: https://artifacts.apis.io/ontario-energy-board/vocabulary/ontario-energy-board-rds-search-clauses.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ontario-energy-board-rds-search-clauses.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ontario-energy-board/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/llms/ontario-energy-board-llms.txt
+  href: https://artifacts.apis.io/ontario-energy-board/llms/ontario-energy-board-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ontario-energy-board-llms.txt
@@ -282,21 +289,21 @@ network: true
 overview: 'Ontario Energy Board publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications before the OEB API, Current Electricity Rates (General Service < 50 kW Rate Class) API, Current Electricity Rates (Residential Rate Class) API, and 9 more. Tagged areas include Energy, Canada, Ontario, Utilities, and Electricity.
 
 
-  Ontario Energy Board''s developer surface includes documentation, developer portal, support, engineering blog, authentication, changelog, and 27 more developer resources.'
-random_paper: 0
+  Ontario Energy Board''s developer surface includes documentation, developer portal, support, engineering blog, authentication, changelog, and 28 more developer resources.'
+random_paper: 8
 score:
   band: developing
-  composite: 43.8
+  composite: 40.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 42.4
     catalog_earned_first_party: 5.0
-    catalog_gap: 57.6
-    catalog_max: 100.0
+    catalog_gap: 72.6
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 28.6
+    access_clarity: 10.5
     contract_governance: 33.3
     contract_quality: 51.6
     developer_ergonomics: 58.9
@@ -309,7 +316,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 43.7
+  previous_composite: 40.1
   provenance:
     conformance: first-party
     contracts:
@@ -325,14 +332,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/screenshots/ontario-energy-board-2026-08-07T190420.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ontario-energy-board/ontario-energy-board-2026-08-07T190420.png
 security:
 - kind: authentication
   name: Ontario Energy Board Authentication
@@ -342,6 +349,14 @@ security:
   name: Ontario Energy Board Domain Security
   slug: ontario-energy-board-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: ontario-energy-board-pull-open-data
+  slug: ontario-energy-board-pull-open-data
+- name: ontario-energy-board-track-case-filings
+  slug: ontario-energy-board-track-case-filings
+- name: ontario-energy-board-verify-green-button-mandate
+  slug: ontario-energy-board-verify-green-button-mandate
 slug: ontario-energy-board
 tags:
 - Energy

@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -17,14 +16,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.0
-  scored_at: '2026-10-17'
+  score: 34.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -32,7 +33,7 @@ agentic_access:
   operation_count: 50
   slug: bigone-agentic-access
   summary_line: 50 operations · 13 acting
-api_count: 10
+api_count: 5
 apis:
 - description: Real-time spot market data and private order/account streams at wss://api.big.one/ws/v2 (JSON or protobuf messages, defined in the published websocket.proto), plus contract streams at wss://api.big.on
   name: BigONE WebSocket API
@@ -112,105 +113,105 @@ apis:
   description: Wallet Withdrawals
   name: BigONE Withdrawal API
   slug: bigone-withdrawal-api
-artifact_total: 44
+artifact_total: 46
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bigone/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/overlays/bigone-contract-overlay.yaml
+  href: https://artifacts.apis.io/bigone/overlays/bigone-contract-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bigone-contract-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/agentic-access/bigone-agentic-access.yml
+  href: https://artifacts.apis.io/bigone/agentic-access/bigone-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bigone-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/rate-limits/bigone-rate-limits.yml
+  href: https://artifacts.apis.io/bigone/rate-limits/bigone-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bigone-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/rules/bigone-rules.yml
+  href: https://artifacts.apis.io/bigone/rules/bigone-rules.yml
   title: ''
   type: Spectral
   url: rules/bigone-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/json-ld/bigone-context.jsonld
+  href: https://artifacts.apis.io/bigone/json-ld/bigone-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bigone-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/vocabulary/bigone-vocabulary.yml
+  href: https://artifacts.apis.io/bigone/vocabulary/bigone-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bigone-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/data-model/bigone-data-model.yml
+  href: https://artifacts.apis.io/bigone/data-model/bigone-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bigone-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/changelog/bigone-changelog.yml
+  href: https://artifacts.apis.io/bigone/changelog/bigone-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bigone-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/conventions/bigone-conventions.yml
+  href: https://artifacts.apis.io/bigone/conventions/bigone-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/bigone-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/conventions/bigone-conventions.yml
+  href: https://artifacts.apis.io/bigone/conventions/bigone-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bigone-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/errors/bigone-error-codes.yml
+  href: https://artifacts.apis.io/bigone/errors/bigone-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/bigone-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/errors/bigone-problem-types.yml
+  href: https://artifacts.apis.io/bigone/errors/bigone-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bigone-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/conformance/bigone-conformance.yml
+  href: https://artifacts.apis.io/bigone/conformance/bigone-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bigone-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/hosts/bigone-hosts.yml
+  href: https://artifacts.apis.io/bigone/hosts/bigone-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bigone-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/vendors/bigone-vendors.yml
+  href: https://artifacts.apis.io/bigone/vendors/bigone-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bigone-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/packages/bigone-packages.yml
+  href: https://artifacts.apis.io/bigone/packages/bigone-packages.yml
   title: ''
   type: SDKs
   url: packages/bigone-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/packages/bigone-packages.yml
+  href: https://artifacts.apis.io/bigone/packages/bigone-packages.yml
   title: ''
   type: Packages
   url: packages/bigone-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/authentication/bigone-authentication.yml
+  href: https://artifacts.apis.io/bigone/authentication/bigone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bigone-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bigone/refs/heads/main/security/bigone-domain-security.yml
+  href: https://artifacts.apis.io/bigone/security/bigone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bigone-domain-security.yml
@@ -349,7 +350,7 @@ overview: 'BigONE publishes 16 API contracts indexed on the [APIs.io](https://ap
 
 
   BigONE''s developer surface includes changelog, authentication, documentation, getting-started guide, support, YouTube channel, and 26 more developer resources.'
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Bigone Rate Limits
@@ -369,7 +370,7 @@ rules:
   slug: bigone-rules
 score:
   band: developing
-  composite: 40.7
+  composite: 41.4
   coverage:
     artifact_dirs: 23
     catalog_earned: 73.8
@@ -377,6 +378,7 @@ score:
     catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.2
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
@@ -384,6 +386,7 @@ score:
     developer_ergonomics: 56.5
     discoverability: 71.4
     operational_transparency: 42.1
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -400,11 +403,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Bigone Authentication
@@ -414,6 +419,12 @@ security:
   name: Bigone Domain Security
   slug: bigone-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: bigone-place-spot-order
+  slug: bigone-place-spot-order
+- name: bigone-withdraw-asset
+  slug: bigone-withdraw-asset
 slug: bigone
 tags:
 - Company

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-17'
+  score: 30.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 2
@@ -159,11 +161,8 @@ apis:
   description: The Uploads API from Capmo — 3 operation(s) for uploads.
   name: Capmo Uploads API
   slug: capmo-uploads-api
-artifact_total: 52
+artifact_total: 55
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Capmo REST Organisation Companies API
   slug: open-capmo-organisation-companies-api
@@ -238,12 +237,12 @@ collections:
   slug: open-capmo-webhook-api-openapi-original
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/plans/capmo-plans-pricing.yml
+  href: https://artifacts.apis.io/capmo/plans/capmo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/capmo-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/capabilities/capmo-capability-edges.yml
+  href: https://artifacts.apis.io/capmo/capabilities/capmo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/capmo-capability-edges.yml
@@ -304,82 +303,90 @@ common:
   type: StatusPage
   url: https://statuspage.capmo.de/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-webhook-api-openapi-original.json
+  href: https://artifacts.apis.io/capmo/openapi/capmo-webhook-api-openapi-original.json
   title: ''
   type: Webhooks
   url: openapi/capmo-webhook-api-openapi-original.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/llms/capmo-llms.txt
+  href: https://artifacts.apis.io/capmo/llms/capmo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/capmo-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/packages/capmo-packages.yml
+  href: https://artifacts.apis.io/capmo/packages/capmo-packages.yml
   title: ''
   type: Packages
   url: packages/capmo-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/well-known/capmo-well-known.yml
+  href: https://artifacts.apis.io/capmo/well-known/capmo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/capmo-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/mcp/capmo-mcp.yml
+  href: https://artifacts.apis.io/capmo/mcp/capmo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/capmo-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/overlays/capmo-rest-api-overlay.yaml
+  href: https://artifacts.apis.io/capmo/overlays/capmo-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/capmo-rest-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/conformance/capmo-conformance.yml
+  href: https://artifacts.apis.io/capmo/conformance/capmo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/capmo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/errors/capmo-problem-types.yml
+  href: https://artifacts.apis.io/capmo/errors/capmo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/capmo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/lifecycle/capmo-lifecycle.yml
+  href: https://artifacts.apis.io/capmo/lifecycle/capmo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/capmo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/conventions/capmo-conventions.yml
+  href: https://artifacts.apis.io/capmo/conventions/capmo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/capmo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/data-model/capmo-data-model.yml
+  href: https://artifacts.apis.io/capmo/data-model/capmo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/capmo-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/capmo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/security/capmo-domain-security.yml
+  href: https://artifacts.apis.io/capmo/security/capmo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/capmo-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/agentic-access/capmo-agentic-access.yml
+  href: https://artifacts.apis.io/capmo/agentic-access/capmo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/capmo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/authentication/capmo-authentication.yml
+  href: https://artifacts.apis.io/capmo/authentication/capmo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/capmo-authentication.yml
 created: '2026-07-17'
 description: Capmo is a Munich-based construction project management platform ("Bauprojektmanagement-Software") for the DACH market, backed by Bessemer Venture Partners. Its web and mobile apps cover defect and task management (tickets), site journals (Bautagebuch), plans, documents, change orders, project and organisation contact books, and reporting for construction teams. Capmo exposes a public REST API (api.capmo.de, /api/v1) documented on ReadMe, with API-key authentication, cursor pagination, a 600 requests/minute rate limit, HMAC-signed webhooks for change-order events, and downloadable OpenAPI specifications for both the REST and Webhook surfaces.
+finops:
+- has_sources: true
+  method: derived
+  name: Capmo Finops
+  primary_unit: ''
+  service_category: ''
+  slug: capmo-finops
+  template: true
 image: https://cdn.prod.website-files.com/620fb9c4a7a29bb3b2650350/652667d7d817b5862140ee97_Capmo_2310_Webclip.png
 layout: provider
 modified: '2026-07-18'
@@ -397,22 +404,22 @@ plans:
 random_paper: 0
 score:
   band: developing
-  composite: 45.9
+  composite: 50.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 59.2
+    access_clarity: 65.8
     contract_governance: 4.5
-    contract_quality: 53.7
-    developer_ergonomics: 39.9
-    discoverability: 73.2
-    operational_transparency: 31.6
+    contract_quality: 50.3
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -421,7 +428,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 45.8
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -438,13 +445,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/screenshots/capmo-2026-07-25T204431.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/capmo/capmo-2026-07-25T204431.png
 security:
 - kind: authentication
   name: Capmo Authentication
@@ -454,6 +462,14 @@ security:
   name: Capmo Domain Security
   slug: capmo-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Create a project and invite a member
+  slug: capmo-create-project-and-invite
+- name: File a defect ticket with a photo attachment
+  slug: capmo-file-ticket-with-attachment
+- name: Record a daily site journal
+  slug: capmo-record-site-journal
 slug: capmo
 tags:
 - Company

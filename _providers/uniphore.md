@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'The Business AI Cloud platform API. The publicly documented surface is the customer-deployed BAIC distribution: a machine-to-machine token exchange at POST /auth/m2m-token, a retrieval-augmented quest'
@@ -48,7 +50,7 @@ apis:
 - description: The U-Capture compliance conversation-recording platform (Red Box heritage) publishes an anonymous, unauthenticated API reference on Uniphore's own documentation portal at support-rb.uniphore.com — fi
   name: Uniphore U-Capture REST APIs
   slug: uniphore-u-capture-rest-apis
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Uniphore Ucapture Webhooks
@@ -115,7 +117,7 @@ common:
   type: ServiceLevelAgreement
   url: https://www.uniphore.com/legal/sla/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/security/uniphore-trust-center.yml
+  href: https://artifacts.apis.io/uniphore/security/uniphore-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/uniphore-trust-center.yml
@@ -124,42 +126,42 @@ common:
   type: Compliance
   url: https://trust.uniphore.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/conformance/uniphore-conformance.yml
+  href: https://artifacts.apis.io/uniphore/conformance/uniphore-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uniphore-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/authentication/uniphore-authentication.yml
+  href: https://artifacts.apis.io/uniphore/authentication/uniphore-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uniphore-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/scopes/uniphore-scopes.yml
+  href: https://artifacts.apis.io/uniphore/scopes/uniphore-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/uniphore-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/well-known/uniphore-well-known.yml
+  href: https://artifacts.apis.io/uniphore/well-known/uniphore-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/uniphore-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/llms/uniphore-llms.txt
+  href: https://artifacts.apis.io/uniphore/llms/uniphore-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uniphore-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/packages/uniphore-packages.yml
+  href: https://artifacts.apis.io/uniphore/packages/uniphore-packages.yml
   title: ''
   type: Packages
   url: packages/uniphore-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/packages/uniphore-packages.yml
+  href: https://artifacts.apis.io/uniphore/packages/uniphore-packages.yml
   title: ''
   type: SDKs
   url: packages/uniphore-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/lifecycle/uniphore-lifecycle.yml
+  href: https://artifacts.apis.io/uniphore/lifecycle/uniphore-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/uniphore-lifecycle.yml
@@ -168,17 +170,17 @@ common:
   type: Deprecation
   url: https://www.uniphore.com/legal/sla/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/changelog/uniphore-changelog.yml
+  href: https://artifacts.apis.io/uniphore/changelog/uniphore-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/uniphore-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/conventions/uniphore-conventions.yml
+  href: https://artifacts.apis.io/uniphore/conventions/uniphore-conventions.yml
   title: ''
   type: Conventions
   url: conventions/uniphore-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/security/uniphore-domain-security.yml
+  href: https://artifacts.apis.io/uniphore/security/uniphore-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uniphore-domain-security.yml
@@ -187,27 +189,27 @@ common:
   type: APIReference
   url: https://support-rb.uniphore.com/conversa/DevelopConversa/DevelopUCaptureV2.0/DevelopUCapture/DevelopUCapture.htm
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/asyncapi/uniphore-ucapture-webhooks.yml
+  href: https://artifacts.apis.io/uniphore/asyncapi/uniphore-ucapture-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/uniphore-ucapture-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/data-model/uniphore-ucapture-data-model.yml
+  href: https://artifacts.apis.io/uniphore/data-model/uniphore-ucapture-data-model.yml
   title: ''
   type: DataModel
   url: data-model/uniphore-ucapture-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/plans/uniphore-plans-pricing.yml
+  href: https://artifacts.apis.io/uniphore/plans/uniphore-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/uniphore-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/rate-limits/uniphore-rate-limits.yml
+  href: https://artifacts.apis.io/uniphore/rate-limits/uniphore-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/uniphore-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/components/uniphore-components.yml
+  href: https://artifacts.apis.io/uniphore/components/uniphore-components.yml
   title: ''
   type: Components
   url: components/uniphore-components.yml
@@ -222,6 +224,14 @@ common:
 created: '2026-08-02'
 description: 'Uniphore is an enterprise AI company — "The Business AI Company" — founded in 2008 and headquartered in Palo Alto, California. Its flagship platform, the Business AI Cloud (BAIC), is a sovereign, composable and secure AI platform organised into four layers: a Data Layer for zero-copy access to enterprise data, a Knowledge Layer for retrieval and grounding, a Model Layer for serving and fine-tuning small and large language models without vendor lock-in, and an Agentic Layer for no-code, BPMN-based agent orchestration. Products span Marketing AI (CDP Agent), Sales AI, People AI and Customer Service AI (real-time guidance, self-service, conversation insights and communication recording agents). The platform ships as a managed multi-region cloud service and as a customer-deployed Kubernetes/Helm distribution of 13 microservices with a documented machine-to-machine token exchange, a /v1 question-answering API and an OpenAI-compatible LLM inference proxy. Uniphore serves 2,000+ enterprises,
   raised a $260M Series F from NVIDIA, AMD, Snowflake and Databricks, and has acquired Orby AI, Autonom8, ActionIQ, Infosum and Jacada. Its one anonymous API reference sits apart from uniphore.com, on the U-Capture documentation portal at support-rb.uniphore.com, which documents fifteen REST API families plus a webhook/SNMP health-alert surface without publishing a machine-readable contract.'
+finops:
+- has_sources: true
+  method: derived
+  name: Uniphore Finops
+  primary_unit: ''
+  service_category: ''
+  slug: uniphore-finops
+  template: true
 image: https://www.uniphore.com/wp-content/uploads/2025/12/cropped-Uniphore–Bug–Gradient–Light-192x192.webp
 layout: provider
 modified: '2026-08-14'
@@ -239,7 +249,7 @@ plans:
 - name: Uniphore Plans Pricing
   plan_count: 0
   slug: uniphore-plans-pricing
-random_paper: 16
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Uniphore Rate Limits
@@ -251,22 +261,22 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: developing
-  composite: 48.7
+  composite: 49.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.7
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 69.6
-    operational_transparency: 34.2
+    discoverability: 62.5
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -274,7 +284,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 48.0
+  previous_composite: 49.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -292,14 +302,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 43.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/screenshots/uniphore-2026-08-17T082608.png
+screenshot: https://apis.io/screenshots/uniphore/uniphore-2026-08-17T082608.png
 security:
 - kind: authentication
   name: Uniphore Authentication

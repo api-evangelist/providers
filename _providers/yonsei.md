@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Yonsei University operates its own SAML 2.0 Identity Provider for KAFE, the Korean Access FEderation, on its own registrable domain. The entity is registered by kafe.kreonet.net and exported to eduGAI
@@ -88,32 +90,32 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/yonsei/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yonsei/refs/heads/main/conformance/yonsei-conformance.yml
+  href: https://artifacts.apis.io/yonsei/conformance/yonsei-conformance.yml
   title: ''
   type: Conformance
   url: conformance/yonsei-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yonsei/refs/heads/main/security/yonsei-domain-security.yml
+  href: https://artifacts.apis.io/yonsei/security/yonsei-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yonsei-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yonsei/refs/heads/main/plans/yonsei-plans-pricing.yml
+  href: https://artifacts.apis.io/yonsei/plans/yonsei-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/yonsei-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yonsei/refs/heads/main/rate-limits/yonsei-rate-limits.yml
+  href: https://artifacts.apis.io/yonsei/rate-limits/yonsei-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/yonsei-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yonsei/refs/heads/main/finops/yonsei-finops.yml
+  href: https://artifacts.apis.io/yonsei/finops/yonsei-finops.yml
   title: ''
   type: FinOps
   url: finops/yonsei-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yonsei/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/yonsei/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -153,8 +155,8 @@ coverage:
   - note: Library website; robots.txt disallows all but a handful of notice-board paths. No API found.
     status: 200
     url: https://library.yonsei.ac.kr/
-  reason: tenant_only
-  state: gated
+  reason: tenant-only
+  state: none
 created: '2026-06-03'
 description: 'Yonsei University (연세대학교) is a private research university in Seoul, South Korea, founded in 1885 and one of the "SKY" institutions. Its programmable footprint is small, and most of what previously appeared under its name was not its own engineering: the Yonsei Research Information portal at yonsei.elsevierpure.com is an Elsevier Pure (CRIS) tenancy whose OpenAPI is authored by Elsevier — info.title "Pure API", contact pure-support@elsevier.com — and whose data endpoints and OAI-PMH feed both return HTTP 401 to the public. That relationship is recorded here as a tenant surface; the contract itself belongs to Elsevier and has been removed from this repo. What Yonsei genuinely operates is narrower and more interesting: a SAML 2.0 Identity Provider on its own domain (kafe.yonsei.ac.kr) registered in the Korean Access FEderation and exported to eduGAIN with the scope yonsei.ac.kr and a Sirtfi declaration; a DSpace 5.5 medical-library repository (YUHSpace) at ir.ymlib.yonsei.ac.kr
   serving public RSS 2.0 and Atom 1.0 feeds from behind a JavaScript bot challenge, with no OAI-PMH deployed; and a members-only Yonsei Data Portal at data.yonsei.ac.kr that ships no public API. There is no central developer portal, no institution-operated REST API, and no official institutional GitHub organization — the only GitHub presence is GDGoC Yonsei, a student Google Developer Group. The institutional AI posture is a governance document, not an API, and it exists only on the Korean surface.'
@@ -177,7 +179,7 @@ plans:
 - name: Yonsei Plans Pricing
   plan_count: 2
   slug: yonsei-plans-pricing
-random_paper: 3
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Yonsei Rate Limits
@@ -192,7 +194,7 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -207,7 +209,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 16.6
+  previous_composite: 10.5
   provenance:
     conformance: first-party
   regulatory:
@@ -216,14 +218,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/yonsei/refs/heads/main/screenshots/yonsei-2026-06-20T201758.png
+screenshot: https://apis.io/screenshots/yonsei/yonsei-2026-06-20T201758.png
 security:
 - kind: domain-security
   name: Yonsei Domain Security

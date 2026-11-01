@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: Agent2Agent agent at https://publicdata-agent.songt50.us — a JSON-RPC 2.0 endpoint at the host root (POST only) with an A2A 0.3.0 agent card at /.well-known/agent-card.json and the legacy /.well-known
@@ -71,12 +73,12 @@ common:
   type: YouTube
   url: https://www.youtube.com/channel/UCSHxaZHNDOrp0h0Ux8_6CVQ
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/songt50-us/refs/heads/main/a2a/songt50-us-a2a.yml
+  href: https://artifacts.apis.io/songt50-us/a2a/songt50-us-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/songt50-us-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/songt50-us/refs/heads/main/mcp/songt50-us-mcp.yml
+  href: https://artifacts.apis.io/songt50-us/mcp/songt50-us-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/songt50-us-mcp.yml
@@ -85,62 +87,62 @@ common:
   type: MCPServer
   url: https://registry.modelcontextprotocol.io/v0/servers?search=io.github.SongT-50
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/songt50-us/refs/heads/main/well-known/songt50-us-well-known.yml
+  href: https://artifacts.apis.io/songt50-us/well-known/songt50-us-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/songt50-us-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/songt50-us/refs/heads/main/llms/songt50-us-llms.txt
+  href: https://artifacts.apis.io/songt50-us/llms/songt50-us-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/songt50-us-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/songt50-us/refs/heads/main/packages/songt50-us-packages.yml
+  href: https://artifacts.apis.io/songt50-us/packages/songt50-us-packages.yml
   title: ''
   type: Packages
   url: packages/songt50-us-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/songt50-us/refs/heads/main/conformance/songt50-us-conformance.yml
+  href: https://artifacts.apis.io/songt50-us/conformance/songt50-us-conformance.yml
   title: ''
   type: Conformance
   url: conformance/songt50-us-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/songt50-us/refs/heads/main/lifecycle/songt50-us-lifecycle.yml
+  href: https://artifacts.apis.io/songt50-us/lifecycle/songt50-us-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/songt50-us-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/songt50-us/refs/heads/main/authentication/songt50-us-authentication.yml
+  href: https://artifacts.apis.io/songt50-us/authentication/songt50-us-authentication.yml
   title: ''
   type: Authentication
   url: authentication/songt50-us-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/songt50-us/refs/heads/main/conventions/songt50-us-conventions.yml
+  href: https://artifacts.apis.io/songt50-us/conventions/songt50-us-conventions.yml
   title: ''
   type: Conventions
   url: conventions/songt50-us-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/songt50-us/refs/heads/main/errors/songt50-us-problem-types.yml
+  href: https://artifacts.apis.io/songt50-us/errors/songt50-us-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/songt50-us-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/songt50-us/refs/heads/main/rate-limits/songt50-us-rate-limits.yml
+  href: https://artifacts.apis.io/songt50-us/rate-limits/songt50-us-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/songt50-us-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/songt50-us/refs/heads/main/plans/songt50-us-plans-pricing.yml
+  href: https://artifacts.apis.io/songt50-us/plans/songt50-us-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/songt50-us-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/songt50-us/refs/heads/main/regulatory/songt50-us-regulatory-posture.yml
+  href: https://artifacts.apis.io/songt50-us/regulatory/songt50-us-regulatory-posture.yml
   title: ''
   type: X-RegulatoryPosture
   url: regulatory/songt50-us-regulatory-posture.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/songt50-us/refs/heads/main/security/songt50-us-domain-security.yml
+  href: https://artifacts.apis.io/songt50-us/security/songt50-us-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/songt50-us-domain-security.yml
@@ -189,14 +191,14 @@ plans:
 - name: Songt50 Us Plans Pricing
   plan_count: 3
   slug: songt50-us-plans-pricing
-random_paper: 9
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Songt50 Us Rate Limits
   slug: songt50-us-rate-limits
 score:
   band: emerging
-  composite: 25.8
+  composite: 25.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 52.0
@@ -204,13 +206,13 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 73.3
+    discoverability: 70.0
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -219,7 +221,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 23.7
+  previous_composite: 25.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -229,14 +231,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/songt50-us/refs/heads/main/screenshots/songt50-us-2026-10-11T130207.png
+screenshot: https://apis.io/screenshots/songt50-us/songt50-us-2026-10-11T130207.png
 security:
 - kind: authentication
   name: Songt50 Us Authentication

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -76,11 +78,8 @@ apis:
   description: Persist objects for cross-instance visibility
   name: Vineyard Persistence API
   slug: vineyard-persistence-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Vineyard Python Client Blobs API
   slug: open-vineyard-blobs-api
@@ -104,27 +103,27 @@ collections:
   slug: open-vineyard-python-client
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/plans/vineyard-plans-pricing.yml
+  href: https://artifacts.apis.io/vineyard/plans/vineyard-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vineyard-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/rate-limits/vineyard-rate-limits.yml
+  href: https://artifacts.apis.io/vineyard/rate-limits/vineyard-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vineyard-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/finops/vineyard-finops.yml
+  href: https://artifacts.apis.io/vineyard/finops/vineyard-finops.yml
   title: ''
   type: FinOps
   url: finops/vineyard-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/agentic-access/vineyard-agentic-access.yml
+  href: https://artifacts.apis.io/vineyard/agentic-access/vineyard-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vineyard-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/security/vineyard-domain-security.yml
+  href: https://artifacts.apis.io/vineyard/security/vineyard-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vineyard-domain-security.yml
@@ -153,45 +152,45 @@ common:
   type: GettingStarted
   url: https://v6d.io/notes/getting-started.html
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/json-schema/vineyard-object-schema.json
+  href: https://artifacts.apis.io/vineyard/json-schema/vineyard-object-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/vineyard-object-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/json-schema/vineyard-metadata-schema.json
+  href: https://artifacts.apis.io/vineyard/json-schema/vineyard-metadata-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/vineyard-metadata-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/json-ld/vineyard-context.jsonld
+  href: https://artifacts.apis.io/vineyard/json-ld/vineyard-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/vineyard-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/vocabulary/vineyard-vocabulary.yml
+  href: https://artifacts.apis.io/vineyard/vocabulary/vineyard-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/vineyard-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/rules/vineyard-rules.yml
+  href: https://artifacts.apis.io/vineyard/rules/vineyard-rules.yml
   title: ''
   type: SpectralRules
   url: rules/vineyard-rules.yml
 crds:
 - name: backup crd
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/crd/backup-crd.yaml
+  url: https://artifacts.apis.io/vineyard/crd/backup-crd.yaml
 - name: globalobject crd
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/crd/globalobject-crd.yaml
+  url: https://artifacts.apis.io/vineyard/crd/globalobject-crd.yaml
 - name: localobject crd
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/crd/localobject-crd.yaml
+  url: https://artifacts.apis.io/vineyard/crd/localobject-crd.yaml
 - name: operation crd
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/crd/operation-crd.yaml
+  url: https://artifacts.apis.io/vineyard/crd/operation-crd.yaml
 - name: recover crd
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/crd/recover-crd.yaml
+  url: https://artifacts.apis.io/vineyard/crd/recover-crd.yaml
 - name: sidecar crd
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/crd/sidecar-crd.yaml
+  url: https://artifacts.apis.io/vineyard/crd/sidecar-crd.yaml
 - name: vineyardd crd
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/crd/vineyardd-crd.yaml
+  url: https://artifacts.apis.io/vineyard/crd/vineyardd-crd.yaml
 created: '2025'
 description: Vineyard (v6d) is an in-memory immutable data manager developed under CNCF TAG-Storage. It provides efficient zero-copy data sharing across distributed systems for big data analytics, machine learning, and data-intensive workflows. Vineyard enables seamless object sharing between computation engines through a metadata-payload separation architecture, supporting Python, C++, Rust, and Go clients. The Vineyard Operator provides Kubernetes-native deployment with CRDs for managing clusters, sidecars, backups, and data operations.
 examples:
@@ -217,7 +216,7 @@ finops:
 - has_sources: false
   method: generated
   name: Vineyard Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: vineyard-finops
   template: true
@@ -254,7 +253,7 @@ plans:
 - name: Vineyard Plans Pricing
   plan_count: 3
   slug: vineyard-plans-pricing
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Vineyard Rate Limits
@@ -285,7 +284,7 @@ rules:
   slug: vineyard-rules
 score:
   band: thin
-  composite: 28.2
+  composite: 28.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 55.0
@@ -293,7 +292,7 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
@@ -301,7 +300,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 64.3
     operational_transparency: 13.2
-  previous_composite: 29.7
+  previous_composite: 28.9
   provenance:
     agentic_access: derived
     contracts:
@@ -315,13 +314,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/screenshots/vineyard-2026-06-20T201035.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vineyard/vineyard-2026-06-20T201035.png
 security:
 - kind: domain-security
   name: Vineyard Domain Security

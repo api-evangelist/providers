@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Banksalad provides financial data aggregation APIs as described in their customer safety documentation.
@@ -36,22 +38,22 @@ common:
   type: BlogRSS
   url: https://blog.banksalad.com/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/banksalad/refs/heads/main/hosts/banksalad-hosts.yml
+  href: https://artifacts.apis.io/banksalad/hosts/banksalad-hosts.yml
   title: ''
   type: Hosts
   url: hosts/banksalad-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/banksalad/refs/heads/main/vendors/banksalad-vendors.yml
+  href: https://artifacts.apis.io/banksalad/vendors/banksalad-vendors.yml
   title: ''
   type: Vendors
   url: vendors/banksalad-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/banksalad/refs/heads/main/packages/banksalad-packages.yml
+  href: https://artifacts.apis.io/banksalad/packages/banksalad-packages.yml
   title: ''
   type: SDKs
   url: packages/banksalad-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/banksalad/refs/heads/main/packages/banksalad-packages.yml
+  href: https://artifacts.apis.io/banksalad/packages/banksalad-packages.yml
   title: ''
   type: Packages
   url: packages/banksalad-packages.yml
@@ -60,7 +62,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/banksalad
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/banksalad/refs/heads/main/security/banksalad-domain-security.yml
+  href: https://artifacts.apis.io/banksalad/security/banksalad-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/banksalad-domain-security.yml
@@ -104,12 +106,12 @@ overview: 'Banksalad is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Banksalad''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
-random_paper: 5
+random_paper: 17
 score:
   band: emerging
   composite: 14.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -139,14 +141,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/banksalad/refs/heads/main/screenshots/banksalad-2026-10-11T101530.png
+screenshot: https://apis.io/screenshots/banksalad/banksalad-2026-10-11T101530.png
 security:
 - kind: domain-security
   name: Banksalad Domain Security

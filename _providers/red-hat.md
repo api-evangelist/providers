@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.2
-  scored_at: '2026-10-17'
+  score: 47.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -381,7 +383,7 @@ arazzos:
 - description: Find a host, review its applicable errata, and update its content view assignment.
   name: Red Hat Satellite Host Errata Remediation
   slug: red-hat-satellite-host-errata-remediation-workflow
-artifact_total: 365
+artifact_total: 368
 asyncapis:
 - description: The Red Hat Streams for Apache Kafka Bridge provides an HTTP-based interface for producing and consuming messages to and from Apache Kafka topics without requiring a native Kafka client. Deployed on O
   name: Red Hat Streams for Apache Kafka Bridge Events
@@ -408,9 +410,6 @@ collections:
 - collection_type: postman
   name: Red Hat Satellite API
   slug: postman-red-hat-satellite
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Red Hat Ansible Automation Platform Add-Ons API
   slug: open-red-hat-add-ons-api
@@ -532,23 +531,124 @@ collections:
   name: Red Hat Ansible Automation Platform Add-Ons Workflow Job Templates API
   slug: open-red-hat-workflow-job-templates-api
 common:
+- group: design
+  href: https://artifacts.apis.io/red-hat/rules/red-hat-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/red-hat-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/red-hat/rules/red-hat-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/red-hat-rules.yml
+- group: design
+  href: https://artifacts.apis.io/red-hat/rules/red-hat-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/red-hat-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/red-hat/rules/red-hat-asyncapi-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/red-hat-asyncapi-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/red-hat/json-ld/red-hat-satellite-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/red-hat-satellite-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/red-hat/json-ld/red-hat-quay-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/red-hat-quay-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/red-hat/json-ld/red-hat-openshift-cluster-manager-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/red-hat-openshift-cluster-manager-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/red-hat/json-ld/red-hat-keycloak-admin-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/red-hat-keycloak-admin-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/red-hat/json-ld/red-hat-insights-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/red-hat-insights-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/red-hat/json-ld/red-hat-ansible-automation-platform-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/red-hat-ansible-automation-platform-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/red-hat/vocabulary/red-hat-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/red-hat-vocabulary.yml
+- group: agent
+  href: https://artifacts.apis.io/red-hat/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://artifacts.apis.io/red-hat/asyncapi/red-hat-notifications-webhooks-asyncapi.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/red-hat-notifications-webhooks-asyncapi.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.redhat.com/en/trust
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/rate-limits/red-hat-rate-limits.yml
+  title: ''
+  type: Deprecation
+  url: https://access.redhat.com/support/policy/updates/errata
+- group: build
+  href: https://artifacts.apis.io/red-hat/mcp/red-hat-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/red-hat-tool-crosswalk.yml
+- group: other
+  href: https://artifacts.apis.io/red-hat/hosts/red-hat-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/red-hat-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/red-hat/integrations/red-hat-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/red-hat-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/red-hat/vendors/red-hat-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/red-hat-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.redhat.com/en/about/newsroom
+- group: other
+  title: ''
+  type: Leadership
+  url: https://access.redhat.com/management
+- group: operate
+  href: https://artifacts.apis.io/red-hat/rate-limits/red-hat-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/red-hat-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/finops/red-hat-finops.yml
+  href: https://artifacts.apis.io/red-hat/finops/red-hat-finops.yml
   title: ''
   type: FinOps
   url: finops/red-hat-finops.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/plans/red-hat-plans-pricing.yml
+  href: https://artifacts.apis.io/red-hat/plans/red-hat-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/red-hat-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/capabilities/red-hat-capability-edges.yml
+  href: https://artifacts.apis.io/red-hat/capabilities/red-hat-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/red-hat-capability-edges.yml
@@ -565,127 +665,127 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/ibm/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/agentic-access/red-hat-agentic-access.yml
+  href: https://artifacts.apis.io/red-hat/agentic-access/red-hat-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/red-hat-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/security/red-hat-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/red-hat/security/red-hat-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/red-hat-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/security/red-hat-trust-center.yml
+  href: https://artifacts.apis.io/red-hat/security/red-hat-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/red-hat-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/security/red-hat-domain-security.yml
+  href: https://artifacts.apis.io/red-hat/security/red-hat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/red-hat-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/authentication/red-hat-authentication.yml
+  href: https://artifacts.apis.io/red-hat/authentication/red-hat-authentication.yml
   title: ''
   type: Authentication
   url: authentication/red-hat-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/packages/red-hat-packages.yml
+  href: https://artifacts.apis.io/red-hat/packages/red-hat-packages.yml
   title: ''
   type: Packages
   url: packages/red-hat-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/well-known/red-hat-well-known.yml
+  href: https://artifacts.apis.io/red-hat/well-known/red-hat-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/red-hat-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/well-known/red-hat-security.txt
+  href: https://artifacts.apis.io/red-hat/well-known/red-hat-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/red-hat-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/mcp/red-hat-mcp.yml
+  href: https://artifacts.apis.io/red-hat/mcp/red-hat-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/red-hat-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/llms/red-hat-llms.txt
+  href: https://artifacts.apis.io/red-hat/llms/red-hat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/red-hat-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/conformance/red-hat-conformance.yml
+  href: https://artifacts.apis.io/red-hat/conformance/red-hat-conformance.yml
   title: ''
   type: Conformance
   url: conformance/red-hat-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/errors/red-hat-problem-types.yml
+  href: https://artifacts.apis.io/red-hat/errors/red-hat-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/red-hat-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/lifecycle/red-hat-lifecycle.yml
+  href: https://artifacts.apis.io/red-hat/lifecycle/red-hat-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/red-hat-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/conventions/red-hat-conventions.yml
+  href: https://artifacts.apis.io/red-hat/conventions/red-hat-conventions.yml
   title: ''
   type: Conventions
   url: conventions/red-hat-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/changelog/red-hat-changelog.yml
+  href: https://artifacts.apis.io/red-hat/changelog/red-hat-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/red-hat-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/cli/red-hat-cli.yml
+  href: https://artifacts.apis.io/red-hat/cli/red-hat-cli.yml
   title: ''
   type: CLI
   url: cli/red-hat-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/components/red-hat-components.yml
+  href: https://artifacts.apis.io/red-hat/components/red-hat-components.yml
   title: ''
   type: Components
   url: components/red-hat-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/data-model/red-hat-data-model.yml
+  href: https://artifacts.apis.io/red-hat/data-model/red-hat-data-model.yml
   title: ''
   type: DataModel
   url: data-model/red-hat-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/sandbox/red-hat-sandbox.yml
+  href: https://artifacts.apis.io/red-hat/sandbox/red-hat-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/red-hat-sandbox.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/overlays/red-hat-openshift-cluster-manager-overlay.yaml
+  href: https://artifacts.apis.io/red-hat/overlays/red-hat-openshift-cluster-manager-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/red-hat-openshift-cluster-manager-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/overlays/red-hat-ansible-automation-platform-overlay.yaml
+  href: https://artifacts.apis.io/red-hat/overlays/red-hat-ansible-automation-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/red-hat-ansible-automation-platform-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/overlays/red-hat-keycloak-admin-overlay.yaml
+  href: https://artifacts.apis.io/red-hat/overlays/red-hat-keycloak-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/red-hat-keycloak-admin-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/overlays/red-hat-insights-overlay.yaml
+  href: https://artifacts.apis.io/red-hat/overlays/red-hat-insights-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/red-hat-insights-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/overlays/red-hat-quay-overlay.yaml
+  href: https://artifacts.apis.io/red-hat/overlays/red-hat-quay-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/red-hat-quay-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/overlays/red-hat-satellite-overlay.yaml
+  href: https://artifacts.apis.io/red-hat/overlays/red-hat-satellite-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/red-hat-satellite-overlay.yaml
@@ -698,97 +798,97 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/red-hat/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-aap-build-inventory-and-template-workflow.yml
+  href: https://artifacts.apis.io/red-hat/arazzo/red-hat-aap-build-inventory-and-template-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-aap-build-inventory-and-template-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-aap-launch-monitor-cancel-job-workflow.yml
+  href: https://artifacts.apis.io/red-hat/arazzo/red-hat-aap-launch-monitor-cancel-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-aap-launch-monitor-cancel-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-aap-provision-and-run-job-workflow.yml
+  href: https://artifacts.apis.io/red-hat/arazzo/red-hat-aap-provision-and-run-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-aap-provision-and-run-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-insights-inspect-system-workflow.yml
+  href: https://artifacts.apis.io/red-hat/arazzo/red-hat-insights-inspect-system-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-insights-inspect-system-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-insights-rule-affected-systems-workflow.yml
+  href: https://artifacts.apis.io/red-hat/arazzo/red-hat-insights-rule-affected-systems-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-insights-rule-affected-systems-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-keycloak-provision-role-and-user-workflow.yml
+  href: https://artifacts.apis.io/red-hat/arazzo/red-hat-keycloak-provision-role-and-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-keycloak-provision-role-and-user-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-keycloak-upsert-user-workflow.yml
+  href: https://artifacts.apis.io/red-hat/arazzo/red-hat-keycloak-upsert-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-keycloak-upsert-user-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-openshift-configure-cluster-identity-workflow.yml
+  href: https://artifacts.apis.io/red-hat/arazzo/red-hat-openshift-configure-cluster-identity-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-openshift-configure-cluster-identity-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-openshift-provision-cluster-workflow.yml
+  href: https://artifacts.apis.io/red-hat/arazzo/red-hat-openshift-provision-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-openshift-provision-cluster-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-quay-audit-repository-tags-workflow.yml
+  href: https://artifacts.apis.io/red-hat/arazzo/red-hat-quay-audit-repository-tags-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-quay-audit-repository-tags-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-quay-create-repo-tag-and-scan-workflow.yml
+  href: https://artifacts.apis.io/red-hat/arazzo/red-hat-quay-create-repo-tag-and-scan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-quay-create-repo-tag-and-scan-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-quay-provision-org-robot-repo-workflow.yml
+  href: https://artifacts.apis.io/red-hat/arazzo/red-hat-quay-provision-org-robot-repo-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-quay-provision-org-robot-repo-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-satellite-create-content-view-workflow.yml
+  href: https://artifacts.apis.io/red-hat/arazzo/red-hat-satellite-create-content-view-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-satellite-create-content-view-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-satellite-host-errata-remediation-workflow.yml
+  href: https://artifacts.apis.io/red-hat/arazzo/red-hat-satellite-host-errata-remediation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-satellite-host-errata-remediation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-ld/red-hat-context.jsonld
+  href: https://artifacts.apis.io/red-hat/json-ld/red-hat-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/red-hat-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-schema/red-hat-openshift-cluster-schema.json
+  href: https://artifacts.apis.io/red-hat/json-schema/red-hat-openshift-cluster-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/red-hat-openshift-cluster-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-schema/red-hat-ansible-job-schema.json
+  href: https://artifacts.apis.io/red-hat/json-schema/red-hat-ansible-job-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/red-hat-ansible-job-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-schema/red-hat-insights-advisory-schema.json
+  href: https://artifacts.apis.io/red-hat/json-schema/red-hat-insights-advisory-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/red-hat-insights-advisory-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-schema/red-hat-quay-repository-schema.json
+  href: https://artifacts.apis.io/red-hat/json-schema/red-hat-quay-repository-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/red-hat-quay-repository-schema.json
@@ -796,10 +896,6 @@ common:
   title: ''
   type: Portal
   url: https://developers.redhat.com
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://developers.redhat.com/get-started
 - group: docs
   title: ''
   type: Documentation
@@ -852,10 +948,6 @@ common:
   title: ''
   type: SDKs
   url: https://github.com/openshift/client-go
-- group: build
-  title: ''
-  type: CLI
-  url: https://docs.openshift.com/container-platform/latest/cli_reference/openshift_cli/getting-started-cli.html
 - group: build
   title: ''
   type: GitHubRepository
@@ -932,8 +1024,16 @@ common:
   title: ''
   type: Pricing
   url: https://www.redhat.com/en/store
+coverage:
+  checked: '2026-10-22'
+  detail: Red Hat developer docs are heavily JavaScript-rendered, preventing machine‑readable spec extraction.
+  evidence:
+  - status: 200
+    url: https://developers.redhat.com
+  reason: js-rendered-docs
+  state: unreadable
 created: '2024-01-15'
-description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.
+description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies. Red Hat delivers hybrid cloud solutions, open source platforms, and enterprise support, enabling organizations to build, deploy, and manage applications across on‑premises, public cloud, and edge environments with a focus on security, automation, and scalability.
 examples:
 - key_count: 1
   name: Red Hat Ansible Automation Platform Error Example
@@ -1093,10 +1193,10 @@ examples:
   slug: red-hat-satellite-paginated-repository-list-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Red Hat Finops
-  primary_unit: ''
-  service_category: Enterprise Software Subscription
+  primary_unit: subscription
+  service_category: ''
   slug: red-hat-finops
   template: false
 image: https://www.redhat.com/cms/managed-files/Logo-Red_Hat-A-Standard-RGB.svg
@@ -1611,12 +1711,12 @@ overview: 'Red Hat publishes 75 API contracts indexed on the [APIs.io](https://a
   The Red Hat catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 7 JSON-LD contexts, and 4 Spectral governance rulesets.
 
 
-  Red Hat''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, getting-started guide, documentation, and 81 more developer resources.'
+  Red Hat''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, documentation, engineering blog, and 100 more developer resources.'
 plans:
 - name: Red Hat Plans Pricing
   plan_count: 3
   slug: red-hat-plans-pricing
-random_paper: 17
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Red Hat Rate Limits
@@ -1671,31 +1771,31 @@ rules:
   slug: red-hat-spectral-rules
 score:
   band: strong
-  composite: 62.6
+  composite: 65.7
   coverage:
-    artifact_dirs: 40
-    catalog_earned: 51.5
+    artifact_dirs: 41
+    catalog_earned: 64.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.5
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.9
+  delta: 8.1
   facets:
-    access_clarity: 77.6
-    contract_governance: 18.2
-    contract_quality: 67.9
-    developer_ergonomics: 67.3
-    discoverability: 55.0
-    operational_transparency: 34.2
-  previous_composite: 71.5
+    access_clarity: 100.0
+    contract_governance: 31.8
+    contract_quality: 31.8
+    developer_ergonomics: 81.5
+    discoverability: 56.7
+    operational_transparency: 68.4
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 52.9
-      derived: 0
-      marker_coverage: 0.0
-      total: 34
+      callable: 52.5
+      derived: 40
+      marker_coverage: 100.0
+      total: 40
     mcp: first-party
     skills: derived
   regulatory:
@@ -1704,13 +1804,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/screenshots/red-hat-2026-06-20T192726.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/red-hat/red-hat-2026-06-20T192726.png
 security:
 - kind: authentication
   name: Red Hat Authentication
@@ -1728,6 +1829,16 @@ security:
   name: Red Hat Trust Center
   slug: red-hat-trust-center
   summary_line: SOC 2 Type 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, PCI DSS 4.0, FIPS 140-2, FIPS 140-3, Common Criteria, FedRAMP High
+skill_count: 4
+skills:
+- name: red-hat-cancel-job
+  slug: red-hat-cancel-job
+- name: clusters
+  slug: red-hat-clusters-skill
+- name: red-hat-create-client
+  slug: red-hat-create-client
+- name: red-hat-inventory-management
+  slug: red-hat-inventory-management
 slug: red-hat
 tags:
 - Red Hat

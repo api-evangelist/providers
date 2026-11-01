@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -65,42 +67,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/peppercontent
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pepper-content/refs/heads/main/security/pepper-content-domain-security.yml
+  href: https://artifacts.apis.io/pepper-content/security/pepper-content-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pepper-content-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pepper-content/refs/heads/main/conventions/pepper-content-conventions.yml
+  href: https://artifacts.apis.io/pepper-content/conventions/pepper-content-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pepper-content-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pepper-content/refs/heads/main/errors/pepper-content-problem-types.yml
+  href: https://artifacts.apis.io/pepper-content/errors/pepper-content-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pepper-content-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pepper-content/refs/heads/main/lifecycle/pepper-content-lifecycle.yml
+  href: https://artifacts.apis.io/pepper-content/lifecycle/pepper-content-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pepper-content-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pepper-content/refs/heads/main/conformance/pepper-content-conformance.yml
+  href: https://artifacts.apis.io/pepper-content/conformance/pepper-content-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pepper-content-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pepper-content/refs/heads/main/plans/pepper-content-plans-pricing.yml
+  href: https://artifacts.apis.io/pepper-content/plans/pepper-content-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pepper-content-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pepper-content/refs/heads/main/rate-limits/pepper-content-rate-limits.yml
+  href: https://artifacts.apis.io/pepper-content/rate-limits/pepper-content-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pepper-content-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pepper-content/refs/heads/main/llms/pepper-content-llms.txt
+  href: https://artifacts.apis.io/pepper-content/llms/pepper-content-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pepper-content-llms.txt
@@ -135,14 +137,14 @@ plans:
 - name: Pepper Content Plans Pricing
   plan_count: 0
   slug: pepper-content-plans-pricing
-random_paper: 8
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Pepper Content Rate Limits
   slug: pepper-content-rate-limits
 score:
   band: emerging
-  composite: 15.0
+  composite: 15.3
   coverage:
     artifact_dirs: 14
     catalog_earned: 27.0
@@ -150,15 +152,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 15.1
+    operational_transparency: 5.3
+  previous_composite: 15.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -168,14 +170,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pepper-content/refs/heads/main/screenshots/pepper-content-2026-09-02T151021.png
+screenshot: https://apis.io/screenshots/pepper-content/pepper-content-2026-09-02T151021.png
 security:
 - kind: domain-security
   name: Pepper Content Domain Security

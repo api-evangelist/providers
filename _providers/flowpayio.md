@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Flowpay's REST partner API for the Fully Embedded (Native) lending flow - customer onboarding and service activation, open-banking account and transaction ingestion, offer request/recalculation/retrie
@@ -49,7 +51,7 @@ asyncapis:
   slug: flowpayio-webhooks-asyncapi
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/security/flowpayio-domain-security.yml
+  href: https://artifacts.apis.io/flowpayio/security/flowpayio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flowpayio-domain-security.yml
@@ -102,72 +104,72 @@ common:
   type: GitHubOrganization
   url: https://github.com/flowpay-io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/authentication/flowpayio-authentication.yml
+  href: https://artifacts.apis.io/flowpayio/authentication/flowpayio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flowpayio-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/conventions/flowpayio-conventions.yml
+  href: https://artifacts.apis.io/flowpayio/conventions/flowpayio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flowpayio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/errors/flowpayio-problem-types.yml
+  href: https://artifacts.apis.io/flowpayio/errors/flowpayio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/flowpayio-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/lifecycle/flowpayio-lifecycle.yml
+  href: https://artifacts.apis.io/flowpayio/lifecycle/flowpayio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flowpayio-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/sandbox/flowpayio-sandbox.yml
+  href: https://artifacts.apis.io/flowpayio/sandbox/flowpayio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/flowpayio-sandbox.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/asyncapi/flowpayio-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/flowpayio/asyncapi/flowpayio-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/flowpayio-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/asyncapi/flowpayio-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/flowpayio/asyncapi/flowpayio-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/flowpayio-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/data-model/flowpayio-data-model.yml
+  href: https://artifacts.apis.io/flowpayio/data-model/flowpayio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/flowpayio-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/conformance/flowpayio-conformance.yml
+  href: https://artifacts.apis.io/flowpayio/conformance/flowpayio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flowpayio-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/packages/flowpayio-packages.yml
+  href: https://artifacts.apis.io/flowpayio/packages/flowpayio-packages.yml
   title: ''
   type: Packages
   url: packages/flowpayio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/packages/flowpayio-packages.yml
+  href: https://artifacts.apis.io/flowpayio/packages/flowpayio-packages.yml
   title: ''
   type: SDKs
   url: packages/flowpayio-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/components/flowpayio-components.yml
+  href: https://artifacts.apis.io/flowpayio/components/flowpayio-components.yml
   title: ''
   type: Components
   url: components/flowpayio-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/mcp/flowpayio-mcp.yml
+  href: https://artifacts.apis.io/flowpayio/mcp/flowpayio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/flowpayio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/llms/flowpayio-llms.txt
+  href: https://artifacts.apis.io/flowpayio/llms/flowpayio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flowpayio-llms.txt
@@ -186,10 +188,10 @@ overview: 'flowpay.io is listed with 2 APIs on the [APIs.io](https://apis.io/) n
 
 
   flowpay.io''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 18
+random_paper: 2
 score:
-  band: thin
-  composite: 38.7
+  band: developing
+  composite: 39.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -197,15 +199,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 38.6
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 39.6
   provenance:
     conformance: derived
     mcp: derived
@@ -215,14 +217,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/screenshots/flowpayio-2026-07-25T214838.png
+screenshot: https://apis.io/screenshots/flowpayio/flowpayio-2026-07-25T214838.png
 security:
 - kind: authentication
   name: Flowpayio Authentication

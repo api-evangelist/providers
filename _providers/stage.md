@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,9 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: operate
   title: ''
@@ -45,7 +47,7 @@ common:
   type: License
   url: https://github.com/ReviewStage/stage-cli/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stage/refs/heads/main/security/stage-domain-security.yml
+  href: https://artifacts.apis.io/stage/security/stage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stage-domain-security.yml
@@ -82,17 +84,17 @@ common:
   type: Twitter
   url: https://x.com/StageReviewApp
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stage/refs/heads/main/cli/stage-cli.yml
+  href: https://artifacts.apis.io/stage/cli/stage-cli.yml
   title: ''
   type: CLI
   url: cli/stage-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stage/refs/heads/main/packages/stage-packages.yml
+  href: https://artifacts.apis.io/stage/packages/stage-packages.yml
   title: ''
   type: Packages
   url: packages/stage-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stage/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/stage/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -110,10 +112,10 @@ overview: 'Stage is profiled on the [APIs.io](https://apis.io/) network. Tagged 
   Stage''s developer surface includes documentation, engineering blog, support, code examples, CLI, and 9 more developer resources.'
 random_paper: 4
 score:
-  band: minimal
-  composite: 9.4
+  band: emerging
+  composite: 12.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -124,13 +126,10 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 6.5
-    developer_ergonomics: 26.2
+    developer_ergonomics: 31.0
     discoverability: 48.2
-    operational_transparency: 2.6
-  open_source:
-    applies: true
-    score: 0.0
-  previous_composite: 9.4
+    operational_transparency: 5.3
+  previous_composite: 12.0
   provenance:
     skills: first-party
   regulatory:
@@ -139,19 +138,23 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/stage/refs/heads/main/screenshots/stage-2026-09-02T160717.png
+screenshot: https://apis.io/screenshots/stage/stage-2026-09-02T160717.png
 security:
 - kind: domain-security
   name: Stage Domain Security
   slug: stage-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: stage-chapters
+  slug: stage-chapters
 slug: stage
 tags:
 - Company
@@ -160,7 +163,7 @@ tags:
 - CLI
 - AI Coding Agents
 - Pull Requests
-- Git
+- Version Control
 - Software Development
 website: https://stagereview.app/
 ---

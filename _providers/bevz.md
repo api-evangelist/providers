@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://api.bevz.com/integrator-service
@@ -82,29 +84,29 @@ apis:
   description: The Webhooks API from Bevz — 0 operation(s) for webhooks.
   name: Bevz Webhooks API
   slug: bevz-webhooks-api
-artifact_total: 15
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Bevz Webhooks
   slug: bevz-webhooks
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/rate-limits/bevz-rate-limits.yml
+  href: https://artifacts.apis.io/bevz/rate-limits/bevz-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bevz-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/capabilities/bevz-capability-edges.yml
+  href: https://artifacts.apis.io/bevz/capabilities/bevz-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bevz-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/overlays/bevz-integrator-service-overlay.yaml
+  href: https://artifacts.apis.io/bevz/overlays/bevz-integrator-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bevz-integrator-service-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/security/bevz-domain-security.yml
+  href: https://artifacts.apis.io/bevz/security/bevz-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bevz-domain-security.yml
@@ -129,32 +131,32 @@ common:
   type: GettingStarted
   url: https://docs.bevz.com/#tag/Getting-Started
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/changelog/bevz-changelog.yml
+  href: https://artifacts.apis.io/bevz/changelog/bevz-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bevz-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/mcp/bevz-mcp.yml
+  href: https://artifacts.apis.io/bevz/mcp/bevz-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bevz-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/mcp/bevz-tool-crosswalk.yml
+  href: https://artifacts.apis.io/bevz/mcp/bevz-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/bevz-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/llms/bevz-llms.txt
+  href: https://artifacts.apis.io/bevz/llms/bevz-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bevz-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bevz/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/plans/bevz-plans-pricing.yml
+  href: https://artifacts.apis.io/bevz/plans/bevz-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bevz-plans-pricing.yml
@@ -189,6 +191,14 @@ common:
 created: '2026-07-17'
 description: 'Bevz is a delivery-management platform built for liquor stores and convenience retailers that consolidates multiple third-party delivery apps (DoorDash, Uber Eats, GrubHub) into a single dashboard. Its products cover menu management across platforms (Connect), AI-powered marketing and local promotion on Yelp, Google, and Facebook (Reach), cross-platform performance analytics (Reporting+), and a white-label direct-delivery storefront for restricted items (Shop.Bevz). Bevz bundles an iPad plus software, access to a 215,000+ product catalog, barcode scanning, onboarding, and training. Behind the merchant product Bevz operates a real partner API: the Bevz Integrator Service, a REST API documented with a published OpenAPI 3.0.3 contract covering 30 operations across store provisioning, menu upload and sync, product catalog maintenance, order lifecycle management, order adjustments and delivery-service onboarding for DoorDash, Grubhub and Uber Eats, plus three outbound webhooks.
   It is aimed at POS vendors and third-party integrators, is credentialed by Bevz rather than self-serve, and runs a separate sandbox environment with a formal certification path to production. Bevz is a Techstars-backed company.'
+finops:
+- has_sources: true
+  method: derived
+  name: Bevz Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: bevz-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bevz.png
 layout: provider
 mcp_servers:
@@ -210,30 +220,33 @@ plans:
 - name: Bevz Plans Pricing
   plan_count: 3
   slug: bevz-plans-pricing
-random_paper: 21
+- name: Bevz Price Estimates
+  plan_count: 0
+  slug: bevz-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Bevz Rate Limits
   slug: bevz-rate-limits
 score:
-  band: developing
-  composite: 52.5
+  band: strong
+  composite: 55.5
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 53.7
-    developer_ergonomics: 60.1
-    discoverability: 75.0
+    contract_quality: 55.6
+    developer_ergonomics: 66.1
+    discoverability: 65.0
     operational_transparency: 23.7
-  previous_composite: 52.5
+  previous_composite: 53.9
   provenance:
     conformance: derived
     contracts:
@@ -249,13 +262,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/screenshots/bevz-2026-07-25T202827.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bevz/bevz-2026-07-25T202827.png
 security:
 - kind: authentication
   name: Bevz Authentication
@@ -265,6 +279,16 @@ security:
   name: Bevz Domain Security
   slug: bevz-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: bevz-manage-menu-and-products
+  slug: bevz-manage-menu-and-products
+- name: bevz-onboard-store
+  slug: bevz-onboard-store
+- name: bevz-onboard-ubereats
+  slug: bevz-onboard-ubereats
+- name: bevz-process-orders
+  slug: bevz-process-orders
 slug: bevz
 tags:
 - Company

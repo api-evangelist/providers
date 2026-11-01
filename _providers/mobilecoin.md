@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,13 +38,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: JSON-RPC 2.0 wallet backend for the MobileCoin network - manage accounts and addresses, build and submit transactions, read balances, and query the ledger and network status. Self-hosted; runs locally
   name: MobileCoin Full-Service Wallet API
   slug: mobilecoin-full-service-wallet-api
-artifact_total: 4
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -85,57 +87,57 @@ common:
   type: PrivacyPolicy
   url: https://www.sentz.com/legal/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/llms/mobilecoin-llms.txt
+  href: https://artifacts.apis.io/mobilecoin/llms/mobilecoin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mobilecoin-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/well-known/mobilecoin-well-known.yml
+  href: https://artifacts.apis.io/mobilecoin/well-known/mobilecoin-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mobilecoin-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/well-known/mobilecoin-security.txt
+  href: https://artifacts.apis.io/mobilecoin/well-known/mobilecoin-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/mobilecoin-security.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/packages/mobilecoin-packages.yml
+  href: https://artifacts.apis.io/mobilecoin/packages/mobilecoin-packages.yml
   title: ''
   type: Packages
   url: packages/mobilecoin-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/packages/mobilecoin-packages.yml
+  href: https://artifacts.apis.io/mobilecoin/packages/mobilecoin-packages.yml
   title: ''
   type: SDKs
   url: packages/mobilecoin-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/cli/mobilecoin-cli.yml
+  href: https://artifacts.apis.io/mobilecoin/cli/mobilecoin-cli.yml
   title: ''
   type: CLI
   url: cli/mobilecoin-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/authentication/mobilecoin-authentication.yml
+  href: https://artifacts.apis.io/mobilecoin/authentication/mobilecoin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mobilecoin-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/conventions/mobilecoin-conventions.yml
+  href: https://artifacts.apis.io/mobilecoin/conventions/mobilecoin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mobilecoin-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/conformance/mobilecoin-conformance.yml
+  href: https://artifacts.apis.io/mobilecoin/conformance/mobilecoin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mobilecoin-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/errors/mobilecoin-problem-types.yml
+  href: https://artifacts.apis.io/mobilecoin/errors/mobilecoin-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mobilecoin-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/lifecycle/mobilecoin-lifecycle.yml
+  href: https://artifacts.apis.io/mobilecoin/lifecycle/mobilecoin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mobilecoin-lifecycle.yml
@@ -144,32 +146,32 @@ common:
   type: Deprecation
   url: https://mobilecoin.gitbook.io/full-service-api/api-endpoints/v1
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/changelog/mobilecoin-changelog.yml
+  href: https://artifacts.apis.io/mobilecoin/changelog/mobilecoin-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mobilecoin-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/mcp/mobilecoin-mcp.yml
+  href: https://artifacts.apis.io/mobilecoin/mcp/mobilecoin-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mobilecoin-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/data-model/mobilecoin-data-model.yml
+  href: https://artifacts.apis.io/mobilecoin/data-model/mobilecoin-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mobilecoin-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/sandbox/mobilecoin-sandbox.yml
+  href: https://artifacts.apis.io/mobilecoin/sandbox/mobilecoin-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/mobilecoin-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/security/mobilecoin-domain-security.yml
+  href: https://artifacts.apis.io/mobilecoin/security/mobilecoin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mobilecoin-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/security/mobilecoin-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mobilecoin/security/mobilecoin-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mobilecoin-vulnerability-disclosure.yml
@@ -178,12 +180,12 @@ common:
   type: Security
   url: https://www.sentz.com/developers/bug-bounties
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/skills/mobilecoin-create-account-and-receive.md
+  href: https://artifacts.apis.io/mobilecoin/skills/mobilecoin-create-account-and-receive.md
   title: ''
   type: AgentSkill
   url: skills/mobilecoin-create-account-and-receive.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/skills/mobilecoin-send-payment.md
+  href: https://artifacts.apis.io/mobilecoin/skills/mobilecoin-send-payment.md
   title: ''
   type: AgentSkill
   url: skills/mobilecoin-send-payment.md
@@ -202,7 +204,7 @@ overview: 'Mobilecoin is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 1
 score:
   band: thin
-  composite: 34.2
+  composite: 33.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -210,15 +212,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 80.4
-    discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 34.1
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 33.8
   provenance:
     conformance: derived
     mcp: derived
@@ -229,14 +231,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/screenshots/mobilecoin-2026-08-07T183847.png
+screenshot: https://apis.io/screenshots/mobilecoin/mobilecoin-2026-08-07T183847.png
 security:
 - kind: authentication
   name: Mobilecoin Authentication
@@ -250,6 +252,12 @@ security:
   name: Mobilecoin Vulnerability Disclosure
   slug: mobilecoin-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 2
+skills:
+- name: Create an account and receive MobileCoin
+  slug: mobilecoin-create-account-and-receive
+- name: Send a MobileCoin payment
+  slug: mobilecoin-send-payment
 slug: mobilecoin
 tags:
 - Company

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 26.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 1
@@ -114,7 +116,7 @@ apis:
   description: The RefillOrder API from MedAdvisor — 14 operation(s) for refillorder.
   name: MedAdvisor Refill Order API
   slug: medadvisor-refillorder-api
-artifact_total: 20
+artifact_total: 23
 collections:
 - collection_type: open
   name: Pharmacy Unified API v2.0
@@ -124,52 +126,52 @@ collections:
   slug: open-medadvisor-pharmacy-unified
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/capabilities/medadvisor-capability-edges.yml
+  href: https://artifacts.apis.io/medadvisor/capabilities/medadvisor-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/medadvisor-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/agentic-access/medadvisor-agentic-access.yml
+  href: https://artifacts.apis.io/medadvisor/agentic-access/medadvisor-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/medadvisor-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/security/medadvisor-domain-security.yml
+  href: https://artifacts.apis.io/medadvisor/security/medadvisor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/medadvisor-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/authentication/medadvisor-authentication.yml
+  href: https://artifacts.apis.io/medadvisor/authentication/medadvisor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/medadvisor-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/_original/medadvisor-pharmacy-unified-v2-openapi.json
+  href: https://artifacts.apis.io/medadvisor/openapi/_original/medadvisor-pharmacy-unified-v2-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/medadvisor-pharmacy-unified-v2-openapi.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/conventions/medadvisor-conventions.yml
+  href: https://artifacts.apis.io/medadvisor/conventions/medadvisor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/medadvisor-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/errors/medadvisor-problem-types.yml
+  href: https://artifacts.apis.io/medadvisor/errors/medadvisor-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/medadvisor-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/lifecycle/medadvisor-lifecycle.yml
+  href: https://artifacts.apis.io/medadvisor/lifecycle/medadvisor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/medadvisor-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/data-model/medadvisor-data-model.yml
+  href: https://artifacts.apis.io/medadvisor/data-model/medadvisor-data-model.yml
   title: ''
   type: DataModel
   url: data-model/medadvisor-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/conformance/medadvisor-conformance.yml
+  href: https://artifacts.apis.io/medadvisor/conformance/medadvisor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/medadvisor-conformance.yml
@@ -178,47 +180,47 @@ common:
   type: Compliance
   url: https://www.medadvisorsolutions.com/en-au/data-and-privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/security/medadvisor-trust-center.yml
+  href: https://artifacts.apis.io/medadvisor/security/medadvisor-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/medadvisor-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/mcp/medadvisor-mcp.yml
+  href: https://artifacts.apis.io/medadvisor/mcp/medadvisor-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/medadvisor-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/mcp/medadvisor-tool-crosswalk.yml
+  href: https://artifacts.apis.io/medadvisor/mcp/medadvisor-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/medadvisor-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/llms/medadvisor-llms.txt
+  href: https://artifacts.apis.io/medadvisor/llms/medadvisor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/medadvisor-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/overlays/medadvisor-pharmacy-unified-v1-overlay.yaml
+  href: https://artifacts.apis.io/medadvisor/overlays/medadvisor-pharmacy-unified-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/medadvisor-pharmacy-unified-v1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/overlays/medadvisor-pharmacy-unified-v2-overlay.yaml
+  href: https://artifacts.apis.io/medadvisor/overlays/medadvisor-pharmacy-unified-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/medadvisor-pharmacy-unified-v2-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/skills/medadvisor-third-party-escript-integration.md
+  href: https://artifacts.apis.io/medadvisor/skills/medadvisor-third-party-escript-integration.md
   title: ''
   type: AgentSkill
   url: skills/medadvisor-third-party-escript-integration.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/skills/medadvisor-book-pharmacy-service.md
+  href: https://artifacts.apis.io/medadvisor/skills/medadvisor-book-pharmacy-service.md
   title: ''
   type: AgentSkill
   url: skills/medadvisor-book-pharmacy-service.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/skills/medadvisor-fulfil-refill-order.md
+  href: https://artifacts.apis.io/medadvisor/skills/medadvisor-fulfil-refill-order.md
   title: ''
   type: AgentSkill
   url: skills/medadvisor-fulfil-refill-order.md
@@ -269,8 +271,8 @@ overview: 'MedAdvisor publishes 14 API contracts indexed on the [APIs.io](https:
   MedAdvisor''s developer surface includes authentication, API reference, documentation, support, and 24 more developer resources.'
 random_paper: 14
 score:
-  band: developing
-  composite: 46.4
+  band: thin
+  composite: 36.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -282,9 +284,9 @@ score:
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 41.1
+    contract_quality: 41.2
     developer_ergonomics: 35.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -293,7 +295,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 46.4
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -301,7 +303,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 14
+      total: 24
     mcp: derived
     skills: derived
   regulatory:
@@ -316,13 +318,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 100.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/screenshots/medadvisor-2026-08-07T172313.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/medadvisor/medadvisor-2026-08-07T172313.png
 security:
 - kind: authentication
   name: Medadvisor Authentication
@@ -336,6 +339,14 @@ security:
   name: Medadvisor Trust Center
   slug: medadvisor-trust-center
   summary_line: ISO 27001, HIPAA, GDPR, Australian Privacy Principles
+skill_count: 3
+skills:
+- name: Book a pharmacy clinical service
+  slug: medadvisor-book-pharmacy-service
+- name: Fulfil a medication refill order
+  slug: medadvisor-fulfil-refill-order
+- name: Third-party eScript & order integration
+  slug: medadvisor-third-party-escript-integration
 slug: medadvisor
 tags:
 - Healthcare

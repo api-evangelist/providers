@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,15 +27,17 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-17'
+  score: 28.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -142,15 +144,12 @@ apis:
   description: Structured targets endpoints
   name: Kalshi Structured Targets API
   slug: kalshi-structured-targets-api
-artifact_total: 48
+artifact_total: 47
 asyncapis:
 - description: Real-time WebSocket streaming feed for the Kalshi CFTC-regulated event contracts exchange. Publishes orderbook updates, public trades, market tickers, user orders, user fills, market positions, market
   name: Kalshi WebSocket Streaming API
   slug: kalshi-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kalshi Trade API Manual Endpoints account API
   slug: open-kalshi-account-api
@@ -207,37 +206,37 @@ collections:
   slug: open-kalshi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/plans/kalshi-plans-pricing.yml
+  href: https://artifacts.apis.io/kalshi/plans/kalshi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kalshi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/rate-limits/kalshi-rate-limits.yml
+  href: https://artifacts.apis.io/kalshi/rate-limits/kalshi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kalshi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/finops/kalshi-finops.yml
+  href: https://artifacts.apis.io/kalshi/finops/kalshi-finops.yml
   title: ''
   type: FinOps
   url: finops/kalshi-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/capabilities/kalshi-capability-edges.yml
+  href: https://artifacts.apis.io/kalshi/capabilities/kalshi-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kalshi-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/agentic-access/kalshi-agentic-access.yml
+  href: https://artifacts.apis.io/kalshi/agentic-access/kalshi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kalshi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/security/kalshi-domain-security.yml
+  href: https://artifacts.apis.io/kalshi/security/kalshi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kalshi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/authentication/kalshi-authentication.yml
+  href: https://artifacts.apis.io/kalshi/authentication/kalshi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kalshi-authentication.yml
@@ -300,7 +299,7 @@ plans:
 - name: Kalshi Plans Pricing
   plan_count: 1
   slug: kalshi-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Kalshi Rate Limits
@@ -320,7 +319,7 @@ rules:
   slug: kalshi-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 29.5
+  composite: 30.1
   coverage:
     artifact_dirs: 15
     catalog_earned: 44.8
@@ -328,35 +327,36 @@ score:
     catalog_gap: 70.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 11.4
-    contract_quality: 55.7
+    contract_quality: 55.5
     developer_ergonomics: 28.6
     discoverability: 73.2
     operational_transparency: 10.5
-  previous_composite: 35.5
+  previous_composite: 30.1
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 17
+      total: 35
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/screenshots/kalshi-2026-06-20T183909.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kalshi/kalshi-2026-06-20T183909.png
 security:
 - kind: authentication
   name: Kalshi Authentication

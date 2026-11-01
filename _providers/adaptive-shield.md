@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Adaptive Shield REST API v1 provides programmatic access to SaaS security posture data including alerts, user and device inventory, integration configurations, security check results, violations, '
@@ -43,27 +45,27 @@ apis:
 artifact_total: 28
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/rate-limits/adaptive-shield-rate-limits.yml
+  href: https://artifacts.apis.io/adaptive-shield/rate-limits/adaptive-shield-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adaptive-shield-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/finops/adaptive-shield-finops.yml
+  href: https://artifacts.apis.io/adaptive-shield/finops/adaptive-shield-finops.yml
   title: ''
   type: FinOps
   url: finops/adaptive-shield-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/security/adaptive-shield-trust-center.yml
+  href: https://artifacts.apis.io/adaptive-shield/security/adaptive-shield-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/adaptive-shield-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/security/adaptive-shield-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/adaptive-shield/security/adaptive-shield-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adaptive-shield-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/security/adaptive-shield-domain-security.yml
+  href: https://artifacts.apis.io/adaptive-shield/security/adaptive-shield-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adaptive-shield-domain-security.yml
@@ -96,42 +98,42 @@ common:
   type: Support
   url: https://supportportal.crowdstrike.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/well-known/adaptive-shield-well-known.yml
+  href: https://artifacts.apis.io/adaptive-shield/well-known/adaptive-shield-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adaptive-shield-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/well-known/adaptive-shield-security.txt
+  href: https://artifacts.apis.io/adaptive-shield/well-known/adaptive-shield-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/adaptive-shield-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/security/adaptive-shield-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/adaptive-shield/security/adaptive-shield-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/adaptive-shield-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/security/adaptive-shield-trust-center.yml
+  href: https://artifacts.apis.io/adaptive-shield/security/adaptive-shield-trust-center.yml
   title: ''
   type: Compliance
   url: security/adaptive-shield-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/conformance/adaptive-shield-conformance.yml
+  href: https://artifacts.apis.io/adaptive-shield/conformance/adaptive-shield-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adaptive-shield-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/packages/adaptive-shield-packages.yml
+  href: https://artifacts.apis.io/adaptive-shield/packages/adaptive-shield-packages.yml
   title: ''
   type: Packages
   url: packages/adaptive-shield-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/llms/adaptive-shield-llms.txt
+  href: https://artifacts.apis.io/adaptive-shield/llms/adaptive-shield-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adaptive-shield-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/plans/adaptive-shield-plans-pricing.yml
+  href: https://artifacts.apis.io/adaptive-shield/plans/adaptive-shield-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adaptive-shield-plans-pricing.yml
@@ -164,7 +166,7 @@ finops:
 - has_sources: false
   method: generated
   name: Adaptive Shield Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: adaptive-shield-finops
   template: true
@@ -199,14 +201,14 @@ plans:
 - name: Adaptive Shield Plans Pricing
   plan_count: 0
   slug: adaptive-shield-plans-pricing
-random_paper: 6
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Adaptive Shield Rate Limits
   slug: adaptive-shield-rate-limits
 score:
   band: thin
-  composite: 28.4
+  composite: 28.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -214,15 +216,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 73.2
-    operational_transparency: 21.1
-  previous_composite: 29.9
+    discoverability: 66.1
+    operational_transparency: 23.7
+  previous_composite: 28.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -238,14 +240,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/screenshots/adaptive-shield-2026-06-20T164619.png
+screenshot: https://apis.io/screenshots/adaptive-shield/adaptive-shield-2026-06-20T164619.png
 security:
 - kind: authentication
   name: Adaptive Shield Authentication

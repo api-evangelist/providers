@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -94,7 +96,7 @@ apis:
   description: Create and manipulate text frames, including point text, area text, and text on a path, with full typography control.
   name: Adobe Illustrator Text Frames API
   slug: adobe-illustrator-text-frames-api
-artifact_total: 103
+artifact_total: 102
 collections:
 - collection_type: postman
   name: Adobe Illustrator Scripting Application API
@@ -124,9 +126,6 @@ collections:
   name: Adobe Illustrator Scripting Application Text Frames API
   slug: postman-adobe-illustrator-text-frames-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Adobe Illustrator Scripting Application API
   slug: open-adobe-illustrator-application-api
 - collection_type: open
@@ -155,17 +154,17 @@ collections:
   slug: open-adobe-illustrator-text-frames-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/plans/adobe-illustrator-plans-pricing.yml
+  href: https://artifacts.apis.io/adobe-illustrator/plans/adobe-illustrator-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adobe-illustrator-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/rate-limits/adobe-illustrator-rate-limits.yml
+  href: https://artifacts.apis.io/adobe-illustrator/rate-limits/adobe-illustrator-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adobe-illustrator-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/finops/adobe-illustrator-finops.yml
+  href: https://artifacts.apis.io/adobe-illustrator/finops/adobe-illustrator-finops.yml
   title: ''
   type: FinOps
   url: finops/adobe-illustrator-finops.yml
@@ -174,17 +173,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/adobe-illustrator/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/agentic-access/adobe-illustrator-agentic-access.yml
+  href: https://artifacts.apis.io/adobe-illustrator/agentic-access/adobe-illustrator-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adobe-illustrator-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/security/adobe-illustrator-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/adobe-illustrator/security/adobe-illustrator-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adobe-illustrator-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/security/adobe-illustrator-domain-security.yml
+  href: https://artifacts.apis.io/adobe-illustrator/security/adobe-illustrator-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adobe-illustrator-domain-security.yml
@@ -471,7 +470,7 @@ plans:
 - name: Adobe Illustrator Plans Pricing
   plan_count: 3
   slug: adobe-illustrator-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Adobe Illustrator Rate Limits
@@ -502,7 +501,7 @@ rules:
   slug: adobe-illustrator-spectral-rules
 score:
   band: developing
-  composite: 43.5
+  composite: 44.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 53.5
@@ -510,7 +509,7 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     contract_governance: 13.6
@@ -518,7 +517,7 @@ score:
     developer_ergonomics: 27.4
     discoverability: 57.1
     operational_transparency: 55.3
-  previous_composite: 45.0
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     contracts:
@@ -532,13 +531,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/screenshots/adobe-illustrator-2026-06-20T164935.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/adobe-illustrator/adobe-illustrator-2026-06-20T164935.png
 security:
 - kind: domain-security
   name: Adobe Illustrator Domain Security

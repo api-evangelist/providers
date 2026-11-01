@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superconductive/refs/heads/main/security/superconductive-domain-security.yml
+  href: https://artifacts.apis.io/superconductive/security/superconductive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/superconductive-domain-security.yml
@@ -90,7 +92,7 @@ common:
   type: ChangeLog
   url: https://docs.greatexpectations.io/docs/changelog/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/superconductive/refs/heads/main/changelog/superconductive-changelog.yml
+  href: https://artifacts.apis.io/superconductive/changelog/superconductive-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/superconductive-changelog.yml
@@ -99,22 +101,22 @@ common:
   type: Deprecation
   url: https://docs.greatexpectations.io/docs/changelog/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/superconductive/refs/heads/main/packages/superconductive-packages.yml
+  href: https://artifacts.apis.io/superconductive/packages/superconductive-packages.yml
   title: ''
   type: Packages
   url: packages/superconductive-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/superconductive/refs/heads/main/packages/superconductive-packages.yml
+  href: https://artifacts.apis.io/superconductive/packages/superconductive-packages.yml
   title: ''
   type: SDKs
   url: packages/superconductive-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superconductive/refs/heads/main/lifecycle/superconductive-lifecycle.yml
+  href: https://artifacts.apis.io/superconductive/lifecycle/superconductive-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/superconductive-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superconductive/refs/heads/main/llms/superconductive-llms.txt
+  href: https://artifacts.apis.io/superconductive/llms/superconductive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/superconductive-llms.txt
@@ -130,10 +132,10 @@ overview: 'Superconductive is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Superconductive''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 12 more developer resources.'
-random_paper: 7
+random_paper: 3
 score:
   band: emerging
-  composite: 25.5
+  composite: 25.2
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -147,23 +149,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 55.4
-    operational_transparency: 26.3
-  previous_composite: 25.5
+    discoverability: 48.2
+    operational_transparency: 28.9
+  previous_composite: 25.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/superconductive/refs/heads/main/screenshots/superconductive-2026-09-02T161222.png
+screenshot: https://apis.io/screenshots/superconductive/superconductive-2026-09-02T161222.png
 security:
 - kind: domain-security
   name: Superconductive Domain Security

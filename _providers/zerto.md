@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API exposed by the Zerto Virtual Manager / Zerto Cloud Appliance for programmatic disaster-recovery management — VPGs, failover, checkpoints, VRAs, peer sites, alerts, events, tasks, and long-ter
   name: Zerto ZVM REST API
   slug: zerto-zvm-rest-api
-artifact_total: 3
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -62,57 +64,57 @@ common:
   type: GettingStarted
   url: https://github.com/ZertoPublic/zerto-api-quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zerto/refs/heads/main/authentication/zerto-authentication.yml
+  href: https://artifacts.apis.io/zerto/authentication/zerto-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zerto-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zerto/refs/heads/main/conventions/zerto-conventions.yml
+  href: https://artifacts.apis.io/zerto/conventions/zerto-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zerto-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zerto/refs/heads/main/changelog/zerto-changelog.yml
+  href: https://artifacts.apis.io/zerto/changelog/zerto-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zerto-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zerto/refs/heads/main/lifecycle/zerto-lifecycle.yml
+  href: https://artifacts.apis.io/zerto/lifecycle/zerto-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zerto-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zerto/refs/heads/main/data-model/zerto-data-model.yml
+  href: https://artifacts.apis.io/zerto/data-model/zerto-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zerto-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zerto/refs/heads/main/mcp/zerto-mcp.yml
+  href: https://artifacts.apis.io/zerto/mcp/zerto-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zerto-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zerto/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zerto/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zerto/refs/heads/main/llms/zerto-llms.txt
+  href: https://artifacts.apis.io/zerto/llms/zerto-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zerto-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zerto/refs/heads/main/packages/zerto-packages.yml
+  href: https://artifacts.apis.io/zerto/packages/zerto-packages.yml
   title: ''
   type: Packages
   url: packages/zerto-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zerto/refs/heads/main/packages/zerto-packages.yml
+  href: https://artifacts.apis.io/zerto/packages/zerto-packages.yml
   title: ''
   type: SDKs
   url: packages/zerto-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zerto/refs/heads/main/security/zerto-domain-security.yml
+  href: https://artifacts.apis.io/zerto/security/zerto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zerto-domain-security.yml
@@ -156,26 +158,26 @@ overview: 'Zerto is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Zerto''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 16 more developer resources.'
-random_paper: 14
+random_paper: 12
 score:
   band: thin
-  composite: 26.8
+  composite: 29.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 11.8
+    access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 69.6
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 26.7
+    developer_ergonomics: 70.8
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 29.0
   provenance:
     conformance: derived
     mcp: derived
@@ -186,14 +188,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/zerto/refs/heads/main/screenshots/zerto-2026-09-02T171653.png
+screenshot: https://apis.io/screenshots/zerto/zerto-2026-09-02T171653.png
 security:
 - kind: authentication
   name: Zerto Authentication
@@ -203,6 +205,16 @@ security:
   name: Zerto Domain Security
   slug: zerto-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Authenticate to the Zerto API
+  slug: zerto-authenticate
+- name: Run a non-disruptive failover test
+  slug: zerto-run-failover-test
+- name: Triage and dismiss alerts
+  slug: zerto-triage-alerts
+- name: Report every VPG and its RPO
+  slug: zerto-vpg-rpo-report
 slug: zerto
 tags:
 - Company

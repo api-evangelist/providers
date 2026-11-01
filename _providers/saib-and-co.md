@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: OAuth 2.0 / OpenID Connect storefront surface for the SAIB & Co. mall on the Cafe24 Unified Commerce Platform (UCP). Advertised via the mall's live OpenID Connect discovery document; supports authoriz
@@ -62,22 +64,22 @@ common:
   type: Support
   url: https://saibnco.com/board/faq2.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/saib-and-co/refs/heads/main/well-known/saib-and-co-well-known.yml
+  href: https://artifacts.apis.io/saib-and-co/well-known/saib-and-co-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/saib-and-co-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/saib-and-co/refs/heads/main/authentication/saib-and-co-authentication.yml
+  href: https://artifacts.apis.io/saib-and-co/authentication/saib-and-co-authentication.yml
   title: ''
   type: Authentication
   url: authentication/saib-and-co-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/saib-and-co/refs/heads/main/scopes/saib-and-co-scopes.yml
+  href: https://artifacts.apis.io/saib-and-co/scopes/saib-and-co-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/saib-and-co-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/saib-and-co/refs/heads/main/security/saib-and-co-domain-security.yml
+  href: https://artifacts.apis.io/saib-and-co/security/saib-and-co-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/saib-and-co-domain-security.yml
@@ -93,7 +95,7 @@ overview: 'SAIB & Co. is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   SAIB & Co.''s developer surface includes support, authentication, and 7 more developer resources.'
-random_paper: 10
+random_paper: 14
 scopes:
 - name: Saib And Co Scopes
   scope_count: 6
@@ -109,7 +111,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -124,21 +126,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 16.2
+  previous_composite: 16.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/saib-and-co/refs/heads/main/screenshots/saib-and-co-2026-09-02T154305.png
+screenshot: https://apis.io/screenshots/saib-and-co/saib-and-co-2026-09-02T154305.png
 security:
 - kind: authentication
   name: Saib And Co Authentication

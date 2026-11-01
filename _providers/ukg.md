@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -125,7 +127,7 @@ arazzos:
 - description: Resolve an employee, pull their timecards, and branch on approval status.
   name: UKG Pro WFM Timecard Period Review
   slug: ukg-timecard-period-review-workflow
-artifact_total: 122
+artifact_total: 121
 collections:
 - collection_type: postman
   name: UKG Pro HCM API
@@ -133,9 +135,6 @@ collections:
 - collection_type: postman
   name: UKG Pro Workforce Management API
   slug: postman-ukg-pro-wfm
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: UKG Pro HCM Accruals API
   slug: open-ukg-accruals-api
@@ -168,32 +167,32 @@ collections:
   slug: open-ukg-timekeeping-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/plans/ukg-plans-pricing.yml
+  href: https://artifacts.apis.io/ukg/plans/ukg-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ukg-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/rate-limits/ukg-rate-limits.yml
+  href: https://artifacts.apis.io/ukg/rate-limits/ukg-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ukg-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/finops/ukg-finops.yml
+  href: https://artifacts.apis.io/ukg/finops/ukg-finops.yml
   title: ''
   type: FinOps
   url: finops/ukg-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/agentic-access/ukg-agentic-access.yml
+  href: https://artifacts.apis.io/ukg/agentic-access/ukg-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ukg-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/security/ukg-domain-security.yml
+  href: https://artifacts.apis.io/ukg/security/ukg-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ukg-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/authentication/ukg-authentication.yml
+  href: https://artifacts.apis.io/ukg/authentication/ukg-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ukg-authentication.yml
@@ -202,62 +201,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/ukg/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/arazzo/ukg-benefits-enrollment-audit-workflow.yml
+  href: https://artifacts.apis.io/ukg/arazzo/ukg-benefits-enrollment-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ukg-benefits-enrollment-audit-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/arazzo/ukg-clock-in-and-verify-workflow.yml
+  href: https://artifacts.apis.io/ukg/arazzo/ukg-clock-in-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ukg-clock-in-and-verify-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/arazzo/ukg-cross-system-employee-reconcile-workflow.yml
+  href: https://artifacts.apis.io/ukg/arazzo/ukg-cross-system-employee-reconcile-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ukg-cross-system-employee-reconcile-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/arazzo/ukg-daily-attendance-reconcile-workflow.yml
+  href: https://artifacts.apis.io/ukg/arazzo/ukg-daily-attendance-reconcile-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ukg-daily-attendance-reconcile-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/arazzo/ukg-employee-360-profile-workflow.yml
+  href: https://artifacts.apis.io/ukg/arazzo/ukg-employee-360-profile-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ukg-employee-360-profile-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/arazzo/ukg-employee-roster-bootstrap-workflow.yml
+  href: https://artifacts.apis.io/ukg/arazzo/ukg-employee-roster-bootstrap-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ukg-employee-roster-bootstrap-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/arazzo/ukg-new-hire-org-placement-workflow.yml
+  href: https://artifacts.apis.io/ukg/arazzo/ukg-new-hire-org-placement-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ukg-new-hire-org-placement-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/arazzo/ukg-payroll-statement-review-workflow.yml
+  href: https://artifacts.apis.io/ukg/arazzo/ukg-payroll-statement-review-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ukg-payroll-statement-review-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/arazzo/ukg-pto-balance-and-schedule-workflow.yml
+  href: https://artifacts.apis.io/ukg/arazzo/ukg-pto-balance-and-schedule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ukg-pto-balance-and-schedule-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/arazzo/ukg-schedule-coverage-check-workflow.yml
+  href: https://artifacts.apis.io/ukg/arazzo/ukg-schedule-coverage-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ukg-schedule-coverage-check-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/arazzo/ukg-submit-personnel-change-workflow.yml
+  href: https://artifacts.apis.io/ukg/arazzo/ukg-submit-personnel-change-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ukg-submit-personnel-change-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/arazzo/ukg-timecard-period-review-workflow.yml
+  href: https://artifacts.apis.io/ukg/arazzo/ukg-timecard-period-review-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ukg-timecard-period-review-workflow.yml
@@ -314,12 +313,12 @@ common:
   type: Signup
   url: https://www.ukg.com/contact-us
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/rules/ukg-spectral-rules.yml
+  href: https://artifacts.apis.io/ukg/rules/ukg-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/ukg-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/vocabulary/ukg-vocabulary.yaml
+  href: https://artifacts.apis.io/ukg/vocabulary/ukg-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/ukg-vocabulary.yaml
@@ -554,7 +553,7 @@ plans:
 - name: Ukg Plans Pricing
   plan_count: 1
   slug: ukg-plans-pricing
-random_paper: 19
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Ukg Rate Limits
@@ -584,8 +583,8 @@ rules:
     warn: 15
   slug: ukg-spectral-rules
 score:
-  band: thin
-  composite: 30.5
+  band: developing
+  composite: 41.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 73.0
@@ -593,15 +592,15 @@ score:
     catalog_gap: 42.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 50.0
     contract_governance: 27.3
     contract_quality: 30.5
-    developer_ergonomics: 44.0
+    developer_ergonomics: 58.3
     discoverability: 71.4
-    operational_transparency: 7.9
-  previous_composite: 32.1
+    operational_transparency: 10.5
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -614,14 +613,15 @@ score:
     matched_via: tags
     regime: Employment & Payroll
     regime_id: employment_payroll
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/screenshots/ukg-2026-06-20T200004.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ukg/ukg-2026-06-20T200004.png
 security:
 - kind: authentication
   name: Ukg Authentication

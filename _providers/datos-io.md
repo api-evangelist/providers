@@ -20,12 +20,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/datosio
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datos-io/refs/heads/main/lifecycle/datos-io-lifecycle.yml
+  href: https://artifacts.apis.io/datos-io/lifecycle/datos-io-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/datos-io-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datos-io/refs/heads/main/llms/datos-io-llms.txt
+  href: https://artifacts.apis.io/datos-io/llms/datos-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/datos-io-llms.txt
@@ -39,7 +39,7 @@ nav: Providers
 network: true
 overview: Datos Io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Management, Backup and Recovery, Data Protection, and Cloud Databases.
 random_paper: 8
-screenshot: https://raw.githubusercontent.com/api-evangelist/datos-io/refs/heads/main/screenshots/datos-io-2026-07-25T211417.png
+screenshot: https://apis.io/screenshots/datos-io/datos-io-2026-07-25T211417.png
 slug: datos-io
 tags:
 - Company

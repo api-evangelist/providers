@@ -26,15 +26,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-17'
+  score: 25.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 2
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 26
   slug: amazon-application-discovery-service-agentic-access
   summary_line: 26 operations · 23 acting · 2 human-in-the-loop
-api_count: 6
+api_count: 7
 apis:
 - baseURL: https://discovery.us-east-1.amazonaws.com
   baseurl_source: declared
@@ -74,11 +76,13 @@ apis:
   description: Operations for managing configuration item tags
   name: Amazon Application Discovery Service Tags API
   slug: amazon-application-discovery-service-tags-api
+- baseURL: https://discovery.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Application Discovery Service Operations API from Amazon Application Discovery Service — 9 operation(s) for application discovery service operations.
+  name: Amazon Application Discovery Service Application Discovery Service Operations API
+  slug: amazon-application-discovery-service-operations-api
 artifact_total: 244
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Application Discovery Service Agents API
   slug: open-amazon-application-discovery-service-agents-api
@@ -103,52 +107,52 @@ common:
   type: Website
   url: https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/mcp/amazon-application-discovery-service-mcp.yml
+  href: https://artifacts.apis.io/amazon-application-discovery-service/mcp/amazon-application-discovery-service-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-application-discovery-service-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/overlays/amazon-application-discovery-service-openapi-overlay.yaml
+  href: https://artifacts.apis.io/amazon-application-discovery-service/overlays/amazon-application-discovery-service-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-application-discovery-service-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/agentic-access/amazon-application-discovery-service-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-application-discovery-service/agentic-access/amazon-application-discovery-service-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-application-discovery-service-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/security/amazon-application-discovery-service-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-application-discovery-service/security/amazon-application-discovery-service-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-application-discovery-service-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/security/amazon-application-discovery-service-domain-security.yml
+  href: https://artifacts.apis.io/amazon-application-discovery-service/security/amazon-application-discovery-service-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-application-discovery-service-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/authentication/amazon-application-discovery-service-authentication.yml
+  href: https://artifacts.apis.io/amazon-application-discovery-service/authentication/amazon-application-discovery-service-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-application-discovery-service-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/packages/amazon-application-discovery-service-packages.yml
+  href: https://artifacts.apis.io/amazon-application-discovery-service/packages/amazon-application-discovery-service-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-application-discovery-service-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/llms/amazon-application-discovery-service-llms.txt
+  href: https://artifacts.apis.io/amazon-application-discovery-service/llms/amazon-application-discovery-service-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-application-discovery-service-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/well-known/amazon-application-discovery-service-well-known.yml
+  href: https://artifacts.apis.io/amazon-application-discovery-service/well-known/amazon-application-discovery-service-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-application-discovery-service-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/well-known/amazon-application-discovery-service-security.txt
+  href: https://artifacts.apis.io/amazon-application-discovery-service/well-known/amazon-application-discovery-service-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-application-discovery-service-security.txt
@@ -784,14 +788,14 @@ modified: '2026-09-16'
 name: Amazon Application Discovery Service
 nav: Providers
 network: true
-overview: 'Amazon Application Discovery Service is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Applications API, Configurations API, and 3 more. Tagged areas include Amazon Application Discovery Service, Migration, Discovery, and Infrastructure.
+overview: 'Amazon Application Discovery Service is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Applications API, Configurations API, and 4 more. Tagged areas include Amazon Application Discovery Service, Migration, Discovery, and Infrastructure.
 
 
   The Amazon Application Discovery Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
   Amazon Application Discovery Service''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 16
+random_paper: 18
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -817,32 +821,32 @@ rules:
     warn: 12
   slug: amazon-application-discovery-service-spectral-rules
 score:
-  band: emerging
-  composite: 21.5
+  band: thin
+  composite: 31.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 64.0
     catalog_earned_first_party: 0.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.3
   facets:
     access_clarity: 0.0
     contract_governance: 31.8
-    contract_quality: 31.8
+    contract_quality: 65.3
     developer_ergonomics: 11.9
-    discoverability: 69.6
-    operational_transparency: 0.0
-  previous_composite: 21.4
+    discoverability: 62.5
+    operational_transparency: 10.5
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 7
-      marker_coverage: 100.0
-      total: 7
+      derived: 1
+      marker_coverage: 25.0
+      total: 8
     mcp: derived
   regulatory:
     applies: true
@@ -850,13 +854,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/screenshots/amazon-application-discovery-service-2026-07-25T195925.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-application-discovery-service/amazon-application-discovery-service-2026-07-25T195925.png
 security:
 - kind: authentication
   name: Amazon Application Discovery Service Authentication

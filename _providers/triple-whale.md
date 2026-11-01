@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 59.2
-  scored_at: '2026-10-17'
+  score: 55.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 17
   slug: triple-whale-agentic-access
   summary_line: 17 operations · 13 acting
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://api.triplewhale.com
   baseurl_source: declared
@@ -124,7 +126,7 @@ apis:
     question: What are the average BI metrics for stores in my category?
   phrasing_ops: 1
   slug: triple-whale-bi-api
-artifact_total: 27
+artifact_total: 29
 collections:
 - collection_type: postman
   name: Triple Whale API Keys API
@@ -139,9 +141,6 @@ collections:
   name: Triple Whale API Keys Data Out API
   slug: postman-triple-whale-data-out-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Triple Whale API Keys API
   slug: open-triple-whale-api-keys-api
 - collection_type: open
@@ -155,7 +154,7 @@ collections:
   slug: open-triple-whale-data-out-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/capabilities/triple-whale-capability-edges.yml
+  href: https://artifacts.apis.io/triple-whale/capabilities/triple-whale-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/triple-whale-capability-edges.yml
@@ -164,7 +163,7 @@ common:
   type: IssueTracker
   url: https://github.com/Triple-Whale/triple-whale-public-apis/issues
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/overlays/triple-whale-bi-benchmarks-overlay.yaml
+  href: https://artifacts.apis.io/triple-whale/overlays/triple-whale-bi-benchmarks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/triple-whale-bi-benchmarks-overlay.yaml
@@ -173,22 +172,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/triple-whale/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/agentic-access/triple-whale-agentic-access.yml
+  href: https://artifacts.apis.io/triple-whale/agentic-access/triple-whale-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/triple-whale-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/security/triple-whale-trust-center.yml
+  href: https://artifacts.apis.io/triple-whale/security/triple-whale-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/triple-whale-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/security/triple-whale-domain-security.yml
+  href: https://artifacts.apis.io/triple-whale/security/triple-whale-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/triple-whale-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/authentication/triple-whale-authentication.yml
+  href: https://artifacts.apis.io/triple-whale/authentication/triple-whale-authentication.yml
   title: ''
   type: Authentication
   url: authentication/triple-whale-authentication.yml
@@ -225,22 +224,22 @@ common:
   type: X
   url: https://x.com/triplewhale
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/plans/triple-whale-plans-pricing.yml
+  href: https://artifacts.apis.io/triple-whale/plans/triple-whale-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/triple-whale-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/rate-limits/triple-whale-rate-limits.yml
+  href: https://artifacts.apis.io/triple-whale/rate-limits/triple-whale-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/triple-whale-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/finops/triple-whale-finops.yml
+  href: https://artifacts.apis.io/triple-whale/finops/triple-whale-finops.yml
   title: ''
   type: FinOps
   url: finops/triple-whale-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/json-ld/triple-whale-context.jsonld
+  href: https://artifacts.apis.io/triple-whale/json-ld/triple-whale-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/triple-whale-context.jsonld
@@ -281,72 +280,72 @@ common:
   type: GitHubRepository
   url: https://github.com/Triple-Whale/triple-whale-public-apis
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/packages/triple-whale-packages.yml
+  href: https://artifacts.apis.io/triple-whale/packages/triple-whale-packages.yml
   title: ''
   type: Packages
   url: packages/triple-whale-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/packages/triple-whale-packages.yml
+  href: https://artifacts.apis.io/triple-whale/packages/triple-whale-packages.yml
   title: ''
   type: SDKs
   url: packages/triple-whale-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/cli/triple-whale-cli.yml
+  href: https://artifacts.apis.io/triple-whale/cli/triple-whale-cli.yml
   title: ''
   type: CLI
   url: cli/triple-whale-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/mcp/triple-whale-mcp.yml
+  href: https://artifacts.apis.io/triple-whale/mcp/triple-whale-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/triple-whale-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/mcp/triple-whale-tool-crosswalk.yml
+  href: https://artifacts.apis.io/triple-whale/mcp/triple-whale-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/triple-whale-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/llms/triple-whale-llms.txt
+  href: https://artifacts.apis.io/triple-whale/llms/triple-whale-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/triple-whale-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/well-known/triple-whale-well-known.yml
+  href: https://artifacts.apis.io/triple-whale/well-known/triple-whale-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/triple-whale-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/scopes/triple-whale-scopes.yml
+  href: https://artifacts.apis.io/triple-whale/scopes/triple-whale-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/triple-whale-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/conventions/triple-whale-conventions.yml
+  href: https://artifacts.apis.io/triple-whale/conventions/triple-whale-conventions.yml
   title: ''
   type: Conventions
   url: conventions/triple-whale-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/conventions/triple-whale-conventions.yml
+  href: https://artifacts.apis.io/triple-whale/conventions/triple-whale-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/triple-whale-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/errors/triple-whale-problem-types.yml
+  href: https://artifacts.apis.io/triple-whale/errors/triple-whale-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/triple-whale-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/lifecycle/triple-whale-lifecycle.yml
+  href: https://artifacts.apis.io/triple-whale/lifecycle/triple-whale-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/triple-whale-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/changelog/triple-whale-changelog.yml
+  href: https://artifacts.apis.io/triple-whale/changelog/triple-whale-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/triple-whale-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/conformance/triple-whale-conformance.yml
+  href: https://artifacts.apis.io/triple-whale/conformance/triple-whale-conformance.yml
   title: ''
   type: Conformance
   url: conformance/triple-whale-conformance.yml
@@ -355,40 +354,40 @@ common:
   type: Compliance
   url: https://trust.triplewhale.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/data-model/triple-whale-data-model.yml
+  href: https://artifacts.apis.io/triple-whale/data-model/triple-whale-data-model.yml
   title: ''
   type: DataModel
   url: data-model/triple-whale-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/triple-whale/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/overlays/triple-whale-api-keys-api-overlay.yaml
+  href: https://artifacts.apis.io/triple-whale/overlays/triple-whale-api-keys-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/triple-whale-api-keys-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/overlays/triple-whale-compliance-api-overlay.yaml
+  href: https://artifacts.apis.io/triple-whale/overlays/triple-whale-compliance-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/triple-whale-compliance-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/overlays/triple-whale-data-in-api-overlay.yaml
+  href: https://artifacts.apis.io/triple-whale/overlays/triple-whale-data-in-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/triple-whale-data-in-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/overlays/triple-whale-data-out-api-overlay.yaml
+  href: https://artifacts.apis.io/triple-whale/overlays/triple-whale-data-out-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/triple-whale-data-out-api-overlay.yaml
 created: '2026-06-13'
 description: E-commerce analytics and attribution platform for Shopify brands with a REST API for accessing pixel data, cohort analytics, creative metrics, and blended ROAS. Offers a two-way data highway with Data-In and Data-Out APIs supporting OAuth2 and API key authentication.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Triple Whale Finops
   primary_unit: ''
   service_category: ''
@@ -427,7 +426,7 @@ plans:
 - name: Triple Whale Plans Pricing
   plan_count: 4
   slug: triple-whale-plans-pricing
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Triple Whale Rate Limits
@@ -451,23 +450,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 67.2
+  composite: 69.5
   coverage:
     artifact_dirs: 33
-    catalog_earned: 84.3
+    catalog_earned: 81.3
     catalog_earned_first_party: 24.0
-    catalog_gap: 30.8
+    catalog_gap: 33.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: -0.5
   facets:
-    access_clarity: 78.9
+    access_clarity: 92.1
     contract_governance: 14.4
     contract_quality: 61.9
-    developer_ergonomics: 60.1
-    discoverability: 80.0
-    operational_transparency: 65.8
-  previous_composite: 68.8
+    developer_ergonomics: 74.4
+    discoverability: 65.0
+    operational_transparency: 68.4
+  previous_composite: 70.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -488,13 +487,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/screenshots/triple-whale-2026-06-20T195726.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/triple-whale/triple-whale-2026-06-20T195726.png
 security:
 - kind: authentication
   name: Triple Whale Authentication
@@ -508,6 +508,14 @@ security:
   name: Triple Whale Trust Center
   slug: triple-whale-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 3
+skills:
+- name: Ingest orders from a custom sales platform into Triple Whale
+  slug: triple-whale-ingest-custom-sales-platform
+- name: Send offline pixel events and handle PII deletion requests
+  slug: triple-whale-offline-events-and-compliance
+- name: Query Triple Whale analytics with SQL, Moby or the Summary Page
+  slug: triple-whale-query-analytics
 slug: triple-whale
 tags:
 - E-Commerce

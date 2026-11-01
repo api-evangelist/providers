@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -73,9 +75,6 @@ apis:
 artifact_total: 25
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: SOAX Proxy Management Ecommerce Data API
   slug: open-soax-ecommerce-data-api
 - collection_type: open
@@ -95,37 +94,37 @@ collections:
   slug: open-soax-web-data-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/plans/soax-plans-pricing.yml
+  href: https://artifacts.apis.io/soax/plans/soax-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/soax-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/rate-limits/soax-rate-limits.yml
+  href: https://artifacts.apis.io/soax/rate-limits/soax-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/soax-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/finops/soax-finops.yml
+  href: https://artifacts.apis.io/soax/finops/soax-finops.yml
   title: ''
   type: FinOps
   url: finops/soax-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/agentic-access/soax-agentic-access.yml
+  href: https://artifacts.apis.io/soax/agentic-access/soax-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/soax-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/security/soax-trust-center.yml
+  href: https://artifacts.apis.io/soax/security/soax-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/soax-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/security/soax-domain-security.yml
+  href: https://artifacts.apis.io/soax/security/soax-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/soax-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/authentication/soax-authentication.yml
+  href: https://artifacts.apis.io/soax/authentication/soax-authentication.yml
   title: ''
   type: Authentication
   url: authentication/soax-authentication.yml
@@ -158,22 +157,22 @@ common:
   type: Blog
   url: https://soax.com/blog/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/rules/soax-rules.yml
+  href: https://artifacts.apis.io/soax/rules/soax-rules.yml
   title: ''
   type: SpectralRules
   url: rules/soax-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/vocabulary/soax-vocabulary.yml
+  href: https://artifacts.apis.io/soax/vocabulary/soax-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/soax-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/json-ld/soax-context.jsonld
+  href: https://artifacts.apis.io/soax/json-ld/soax-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/soax-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/examples/soax-fetch-content-example.json
+  href: https://artifacts.apis.io/soax/examples/soax-fetch-content-example.json
   title: ''
   type: Examples
   url: examples/soax-fetch-content-example.json
@@ -184,13 +183,13 @@ examples:
   name: Soax Fetch Content Example
   slug: soax-fetch-content-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Soax Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: soax-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/soax.png
 json_schemas:
 - name: SOAX Fetch Content Request
@@ -219,9 +218,12 @@ overview: 'SOAX publishes 5 API contracts indexed on the [APIs.io](https://apis.
   SOAX''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, code examples, and 12 more developer resources.'
 plans:
 - name: Soax Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: soax-plans-pricing
-random_paper: 3
+- name: Soax Price Estimates
+  plan_count: 0
+  slug: soax-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Soax Rate Limits
@@ -252,23 +254,23 @@ rules:
   slug: soax-rules
 score:
   band: developing
-  composite: 39.7
+  composite: 49.1
   coverage:
     artifact_dirs: 17
-    catalog_earned: 60.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 54.6
+    catalog_earned: 72.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 42.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 27.3
     contract_quality: 63.1
-    developer_ergonomics: 28.6
+    developer_ergonomics: 40.5
     discoverability: 57.1
     operational_transparency: 7.9
-  previous_composite: 41.2
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -282,13 +284,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/screenshots/soax-2026-06-20T194119.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/soax/soax-2026-06-20T194119.png
 security:
 - kind: authentication
   name: Soax Authentication

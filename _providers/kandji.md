@@ -13,6 +13,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,16 +27,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-10-17'
+  score: 38.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 10
@@ -121,7 +124,7 @@ apis:
 - description: 'REST/JSON API for the Iru (formerly Kandji) endpoint management platform: read fleet data and run device actions, manage apps, Library items, Library uploads, Blueprints, tenant activity, and Automate'
   name: Iru Endpoint Management API
   slug: iru-endpoint-management-api
-artifact_total: 27
+artifact_total: 35
 collections:
 - collection_type: open
   name: Iru Endpoint Management API
@@ -130,27 +133,32 @@ collections:
   name: Upload to S3
   slug: open-kandji-upload-to-s3
 common:
+- group: commercial
+  href: https://artifacts.apis.io/kandji/plans/kandji-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kandji-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.iru.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/capabilities/kandji-capability-edges.yml
+  href: https://artifacts.apis.io/kandji/capabilities/kandji-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kandji-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/agentic-access/kandji-agentic-access.yml
+  href: https://artifacts.apis.io/kandji/agentic-access/kandji-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kandji-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/security/kandji-trust-center.yml
+  href: https://artifacts.apis.io/kandji/security/kandji-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kandji-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/security/kandji-domain-security.yml
+  href: https://artifacts.apis.io/kandji/security/kandji-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kandji-domain-security.yml
@@ -223,7 +231,7 @@ common:
   type: ChangeLogRSS
   url: https://updates.iru.com/feed-en
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/changelog/kandji-changelog.yml
+  href: https://artifacts.apis.io/kandji/changelog/kandji-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kandji-changelog.yml
@@ -240,67 +248,67 @@ common:
   type: SecondaryMarketListing
   url: https://forgeglobal.com/kandji_stock/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/_original/kandji-endpoint-management-openapi.json
+  href: https://artifacts.apis.io/kandji/openapi/_original/kandji-endpoint-management-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/kandji-endpoint-management-openapi.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/mcp/kandji-mcp.yml
+  href: https://artifacts.apis.io/kandji/mcp/kandji-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kandji-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/mcp/kandji-tool-crosswalk.yml
+  href: https://artifacts.apis.io/kandji/mcp/kandji-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/kandji-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/packages/kandji-packages.yml
+  href: https://artifacts.apis.io/kandji/packages/kandji-packages.yml
   title: ''
   type: Packages
   url: packages/kandji-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/cli/kandji-cli.yml
+  href: https://artifacts.apis.io/kandji/cli/kandji-cli.yml
   title: ''
   type: CLI
   url: cli/kandji-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/llms/kandji-llms.txt
+  href: https://artifacts.apis.io/kandji/llms/kandji-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kandji-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/well-known/kandji-well-known.yml
+  href: https://artifacts.apis.io/kandji/well-known/kandji-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kandji-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/authentication/kandji-authentication.yml
+  href: https://artifacts.apis.io/kandji/authentication/kandji-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kandji-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/conventions/kandji-conventions.yml
+  href: https://artifacts.apis.io/kandji/conventions/kandji-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kandji-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/rate-limits/kandji-rate-limits.yml
+  href: https://artifacts.apis.io/kandji/rate-limits/kandji-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kandji-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/errors/kandji-problem-types.yml
+  href: https://artifacts.apis.io/kandji/errors/kandji-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kandji-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/data-model/kandji-data-model.yml
+  href: https://artifacts.apis.io/kandji/data-model/kandji-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kandji-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/lifecycle/kandji-lifecycle.yml
+  href: https://artifacts.apis.io/kandji/lifecycle/kandji-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kandji-lifecycle.yml
@@ -309,27 +317,35 @@ common:
   type: ReleaseStages
   url: https://docs.iru.com/en/iru/platform-overview/iru-release-stages
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/conformance/kandji-conformance.yml
+  href: https://artifacts.apis.io/kandji/conformance/kandji-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kandji-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/security/kandji-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kandji/security/kandji-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kandji-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kandji/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/overlays/kandji-endpoint-management-overlay.yaml
+  href: https://artifacts.apis.io/kandji/overlays/kandji-endpoint-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kandji-endpoint-management-overlay.yaml
 created: '2026-08-01'
 description: Iru (formerly Kandji) is a San Francisco based endpoint management and security company whose AI-powered platform unifies workforce identity and access, cross-platform endpoint management for macOS, iOS, iPadOS, tvOS, visionOS, Windows and Android, endpoint detection and response, vulnerability management, compliance automation and a customer-facing trust center behind a single agent. The company rebranded from Kandji to Iru on 22 October 2025; the product surface, the developer documentation and the API hostnames still carry the kandji.io domain. The Iru Endpoint Management API is a tenant-scoped REST API published as OpenAPI 3.0.0 and as a public Postman collection, covering devices and device actions, Blueprints, Library Items, Prism inventory reporting, Automated Device Enrollment, tags, users, threats and vulnerabilities, and it also backs a hosted, tenant-scoped Model Context Protocol server for AI assistants.
+finops:
+- has_sources: true
+  method: derived
+  name: Kandji Finops
+  primary_unit: ''
+  service_category: ''
+  slug: kandji-finops
+  template: true
 image: https://www.iru.com/hubfs/assets/favicons/og-image.png
 layout: provider
 mcp_servers:
@@ -343,8 +359,12 @@ network: true
 overview: 'Iru publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audit API, Behavioral Detections API, Blueprints API, and 13 more. Tagged areas include Company, Device Management, Mobile Device Management, apple-management, and Endpoint Security.
 
 
-  Iru''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
-random_paper: 9
+  Iru''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 38 more developer resources.'
+plans:
+- name: Kandji Plans Pricing
+  plan_count: 1
+  slug: kandji-plans-pricing
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Iru Rate Limits
@@ -354,23 +374,28 @@ rate_limits:
   slug: kandji-rate-limits
 score:
   band: strong
-  composite: 59.6
+  composite: 63.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 25
+    catalog_earned: 53.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.2
   facets:
-    access_clarity: 60.5
+    access_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 51.8
+    contract_quality: 48.4
     developer_ergonomics: 70.8
-    discoverability: 73.2
-    operational_transparency: 65.8
-  previous_composite: 59.5
+    discoverability: 65.0
+    operational_transparency: 68.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 59.0
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -391,13 +416,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/screenshots/kandji-2026-08-07T171059.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kandji/kandji-2026-08-07T171059.png
 security:
 - kind: authentication
   name: Iru Authentication
@@ -419,6 +445,20 @@ security:
   name: Kandji Trust Center
   slug: kandji-trust-center
   summary_line: SOC 2 Type II, ISO 27001
+skill_count: 6
+skills:
+- name: Export fleet inventory from Prism
+  slug: kandji-export-fleet-inventory
+- name: Find a device and read its posture
+  slug: kandji-find-a-device
+- name: Publish a Custom App and assign it to a Blueprint
+  slug: kandji-publish-a-custom-app
+- name: Renew an Automated Device Enrollment token before it expires
+  slug: kandji-renew-ade-token
+- name: Run a device action safely
+  slug: kandji-run-a-device-action
+- name: Triage a CVE across the fleet
+  slug: kandji-triage-vulnerabilities
 slug: kandji
 tags:
 - Company

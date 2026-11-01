@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -100,11 +102,8 @@ apis:
   description: The Refunds API from Paytm — 1 operation(s) for refunds.
   name: Paytm Refunds API
   slug: paytm-refunds-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Paytm Payment Gateway Payments API
   slug: open-paytm-payments-api
@@ -116,32 +115,32 @@ collections:
   slug: open-paytm
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/paytm/refs/heads/main/plans/paytm-plans-pricing.yml
+  href: https://artifacts.apis.io/paytm/plans/paytm-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/paytm-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/paytm/refs/heads/main/rate-limits/paytm-rate-limits.yml
+  href: https://artifacts.apis.io/paytm/rate-limits/paytm-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/paytm-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/paytm/refs/heads/main/finops/paytm-finops.yml
+  href: https://artifacts.apis.io/paytm/finops/paytm-finops.yml
   title: ''
   type: FinOps
   url: finops/paytm-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paytm/refs/heads/main/agentic-access/paytm-agentic-access.yml
+  href: https://artifacts.apis.io/paytm/agentic-access/paytm-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/paytm-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paytm/refs/heads/main/security/paytm-domain-security.yml
+  href: https://artifacts.apis.io/paytm/security/paytm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paytm-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paytm/refs/heads/main/authentication/paytm-authentication.yml
+  href: https://artifacts.apis.io/paytm/authentication/paytm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paytm-authentication.yml
@@ -193,14 +192,14 @@ plans:
 - name: Paytm Plans Pricing
   plan_count: 1
   slug: paytm-plans-pricing
-random_paper: 5
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Paytm Rate Limits
   slug: paytm-rate-limits
 score:
   band: emerging
-  composite: 23.9
+  composite: 24.6
   coverage:
     artifact_dirs: 13
     catalog_earned: 38.0
@@ -208,7 +207,7 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -223,7 +222,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 30.0
+  previous_composite: 24.6
   provenance:
     agentic_access: derived
     contracts:
@@ -237,13 +236,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/paytm/refs/heads/main/screenshots/paytm-2026-06-20T191508.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/paytm/paytm-2026-06-20T191508.png
 security:
 - kind: authentication
   name: Paytm Authentication

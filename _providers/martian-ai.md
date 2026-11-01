@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-17'
+  score: 21.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,15 +62,12 @@ apis:
   description: The Models API from Martian — 1 operation(s) for models.
   name: Martian Models API
   slug: martian-ai-models-api
-artifact_total: 16
+artifact_total: 15
 asyncapis:
 - description: AsyncAPI 2.6 description of the Martian Gateway's **chat completion streaming** surface. Martian does not publish a WebSocket API. The Martian Gateway is an OpenAI-compatible model router; its only as
   name: Martian Gateway Chat Completions Streaming (HTTP + SSE)
   slug: martian-ai-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Martian Gateway Chat Completions API
   slug: open-martian-ai-chat-completions-api
@@ -82,18 +81,23 @@ collections:
   name: Martian Gateway API
   slug: open-martian-ai
 common:
+- group: other
+  href: https://artifacts.apis.io/martian-ai/capabilities/martian-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/martian-ai-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/agentic-access/martian-ai-agentic-access.yml
+  href: https://artifacts.apis.io/martian-ai/agentic-access/martian-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/martian-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/security/martian-ai-domain-security.yml
+  href: https://artifacts.apis.io/martian-ai/security/martian-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/martian-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/authentication/martian-ai-authentication.yml
+  href: https://artifacts.apis.io/martian-ai/authentication/martian-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/martian-ai-authentication.yml
@@ -114,17 +118,17 @@ common:
   type: Documentation
   url: https://docs.withmartian.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/plans/martian-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/martian-ai/plans/martian-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/martian-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/rate-limits/martian-ai-rate-limits.yml
+  href: https://artifacts.apis.io/martian-ai/rate-limits/martian-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/martian-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/finops/martian-ai-finops.yml
+  href: https://artifacts.apis.io/martian-ai/finops/martian-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/martian-ai-finops.yml
@@ -161,47 +165,47 @@ common:
   type: StatusPage
   url: https://status.withmartian.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/packages/martian-ai-packages.yml
+  href: https://artifacts.apis.io/martian-ai/packages/martian-ai-packages.yml
   title: ''
   type: Packages
   url: packages/martian-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/packages/martian-ai-packages.yml
+  href: https://artifacts.apis.io/martian-ai/packages/martian-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/martian-ai-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/conventions/martian-ai-conventions.yml
+  href: https://artifacts.apis.io/martian-ai/conventions/martian-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/martian-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/errors/martian-ai-error-codes.yml
+  href: https://artifacts.apis.io/martian-ai/errors/martian-ai-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/martian-ai-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/lifecycle/martian-ai-lifecycle.yml
+  href: https://artifacts.apis.io/martian-ai/lifecycle/martian-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/martian-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/conformance/martian-ai-conformance.yml
+  href: https://artifacts.apis.io/martian-ai/conformance/martian-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/martian-ai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/well-known/martian-ai-well-known.yml
+  href: https://artifacts.apis.io/martian-ai/well-known/martian-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/martian-ai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/mcp/martian-ai-mcp.yml
+  href: https://artifacts.apis.io/martian-ai/mcp/martian-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/martian-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/llms/martian-ai-llms.txt
+  href: https://artifacts.apis.io/martian-ai/llms/martian-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/martian-ai-llms.txt
@@ -227,12 +231,12 @@ overview: 'Martian publishes 3 API contracts indexed on the [APIs.io](https://ap
   The Martian catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Martian''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, signup flow, and 20 more developer resources.'
+  Martian''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, signup flow, and 21 more developer resources.'
 plans:
 - name: Martian Ai Plans Pricing
   plan_count: 3
   slug: martian-ai-plans-pricing
-random_paper: 5
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Martian Ai Rate Limits
@@ -252,23 +256,23 @@ rules:
   slug: martian-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 44.3
+  composite: 45.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 46.8
     catalog_earned_first_party: 0.0
     catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 29.5
     contract_quality: 57.6
     developer_ergonomics: 65.5
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 52.6
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -284,13 +288,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/screenshots/martian-ai-2026-07-25T230258.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/martian-ai/martian-ai-2026-07-25T230258.png
 security:
 - kind: authentication
   name: Martian Ai Authentication

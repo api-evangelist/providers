@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-17'
+  score: 28.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -64,9 +66,6 @@ collections:
 - collection_type: postman
   name: Laminar Configuration Stores Workflows API
   slug: postman-minicor-workflows-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Laminar Configuration Stores API
   slug: open-minicor-configuration-stores-api
@@ -98,7 +97,7 @@ common:
   type: GettingStarted
   url: https://docs.laminar.run/getting-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/authentication/minicor-authentication.yml
+  href: https://artifacts.apis.io/minicor/authentication/minicor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/minicor-authentication.yml
@@ -135,57 +134,57 @@ common:
   type: ChangeLog
   url: https://docs.laminar.run/get-in-touch/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/changelog/minicor-changelog.yml
+  href: https://artifacts.apis.io/minicor/changelog/minicor-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/minicor-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/lifecycle/minicor-lifecycle.yml
+  href: https://artifacts.apis.io/minicor/lifecycle/minicor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/minicor-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/mcp/minicor-mcp.yml
+  href: https://artifacts.apis.io/minicor/mcp/minicor-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/minicor-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/packages/minicor-packages.yml
+  href: https://artifacts.apis.io/minicor/packages/minicor-packages.yml
   title: ''
   type: Packages
   url: packages/minicor-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/cli/minicor-cli.yml
+  href: https://artifacts.apis.io/minicor/cli/minicor-cli.yml
   title: ''
   type: CLI
   url: cli/minicor-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/llms/minicor-llms.txt
+  href: https://artifacts.apis.io/minicor/llms/minicor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/minicor-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/well-known/minicor-well-known.yml
+  href: https://artifacts.apis.io/minicor/well-known/minicor-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/minicor-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/well-known/minicor-security.txt
+  href: https://artifacts.apis.io/minicor/well-known/minicor-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/minicor-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/security/minicor-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/minicor/security/minicor-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/minicor-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/security/minicor-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/minicor/security/minicor-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/minicor-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/security/minicor-domain-security.yml
+  href: https://artifacts.apis.io/minicor/security/minicor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/minicor-domain-security.yml
@@ -198,42 +197,42 @@ common:
   type: Compliance
   url: https://app.mycroft.io/trust/laminar
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/conformance/minicor-conformance.yml
+  href: https://artifacts.apis.io/minicor/conformance/minicor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/minicor-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/conventions/minicor-conventions.yml
+  href: https://artifacts.apis.io/minicor/conventions/minicor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/minicor-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/errors/minicor-problem-types.yml
+  href: https://artifacts.apis.io/minicor/errors/minicor-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/minicor-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/data-model/minicor-data-model.yml
+  href: https://artifacts.apis.io/minicor/data-model/minicor-data-model.yml
   title: ''
   type: DataModel
   url: data-model/minicor-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/overlays/minicor-overlay.yaml
+  href: https://artifacts.apis.io/minicor/overlays/minicor-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/minicor-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/asyncapi/minicor-webhooks.yml
+  href: https://artifacts.apis.io/minicor/asyncapi/minicor-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/minicor-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/minicor/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/agentic-access/minicor-agentic-access.yml
+  href: https://artifacts.apis.io/minicor/agentic-access/minicor-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/minicor-agentic-access.yml
@@ -256,10 +255,10 @@ overview: 'Minicor publishes 1 API contract indexed on the [APIs.io](https://api
 
 
   Minicor''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 28 more developer resources.'
-random_paper: 5
+random_paper: 9
 score:
-  band: developing
-  composite: 53.8
+  band: strong
+  composite: 56.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -267,15 +266,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 57.6
     developer_ergonomics: 67.3
-    discoverability: 71.7
-    operational_transparency: 44.7
-  previous_composite: 53.7
+    discoverability: 65.0
+    operational_transparency: 55.3
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -295,14 +294,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 24.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 28.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/screenshots/minicor-2026-08-07T172954.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/minicor/minicor-2026-08-07T172954.png
 security:
 - kind: authentication
   name: Minicor Authentication
@@ -320,6 +320,10 @@ security:
   name: Minicor Trust Center
   slug: minicor-trust-center
   summary_line: SOC 2 Type II, HIPAA
+skill_count: 1
+skills:
+- name: Execute a Minicor desktop-automation workflow
+  slug: minicor-execute-workflow
 slug: minicor
 tags:
 - Company

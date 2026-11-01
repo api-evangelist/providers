@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -72,11 +74,8 @@ apis:
   description: The Wallet Transactions API from Monta — 3 operation(s) for wallet transactions.
   name: Monta Wallet Transactions API
   slug: monta-wallet-transactions-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Monta Public Authentication API
   slug: open-monta-authentication-api
@@ -101,22 +100,22 @@ common:
   type: Blog
   url: https://monta.com/en/blog/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/capabilities/monta-capability-edges.yml
+  href: https://artifacts.apis.io/monta/capabilities/monta-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/monta-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/agentic-access/monta-agentic-access.yml
+  href: https://artifacts.apis.io/monta/agentic-access/monta-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/monta-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/security/monta-domain-security.yml
+  href: https://artifacts.apis.io/monta/security/monta-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/monta-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/authentication/monta-authentication.yml
+  href: https://artifacts.apis.io/monta/authentication/monta-authentication.yml
   title: ''
   type: Authentication
   url: authentication/monta-authentication.yml
@@ -137,17 +136,17 @@ common:
   type: Documentation
   url: https://docs.public-api.monta.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/plans/monta-plans-pricing.yml
+  href: https://artifacts.apis.io/monta/plans/monta-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/monta-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/rate-limits/monta-rate-limits.yml
+  href: https://artifacts.apis.io/monta/rate-limits/monta-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/monta-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/finops/monta-finops.yml
+  href: https://artifacts.apis.io/monta/finops/monta-finops.yml
   title: ''
   type: FinOps
   url: finops/monta-finops.yml
@@ -167,7 +166,7 @@ modified: '2026-10-06'
 name: Monta
 nav: Providers
 network: true
-overview: 'Monta publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Charge Points API, Charges API, and 3 more. Tagged areas include EV Charging, Electric Vehicles, Charge Points, Energy, and Mobility.
+overview: 'Monta publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Charge Points API, Charges API, and 3 more. Tagged areas include EV Charging, Electric Vehicles, Energy, and Mobility.
 
 
   Monta''s developer surface includes engineering blog, authentication, documentation, and 9 more developer resources.'
@@ -181,24 +180,24 @@ rate_limits:
   name: Monta Rate Limits
   slug: monta-rate-limits
 score:
-  band: emerging
-  composite: 24.6
+  band: thin
+  composite: 26.4
   coverage:
     artifact_dirs: 13
-    catalog_earned: 42.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.5
+  delta: -0.9
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 48.2
-    developer_ergonomics: 23.8
-    discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 31.1
+    developer_ergonomics: 32.1
+    discoverability: 57.1
+    operational_transparency: 13.2
+  previous_composite: 27.3
   provenance:
     agentic_access: derived
     contracts:
@@ -212,13 +211,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/screenshots/monta-2026-08-07T184221.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/monta/monta-2026-08-07T184221.png
 security:
 - kind: authentication
   name: Monta Authentication
@@ -232,7 +232,6 @@ slug: monta
 tags:
 - EV Charging
 - Electric Vehicles
-- Charge Points
 - Energy
 - Mobility
 website: https://www.monta.com

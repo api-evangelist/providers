@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/petfolk/refs/heads/main/security/petfolk-domain-security.yml
+  href: https://artifacts.apis.io/petfolk/security/petfolk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/petfolk-domain-security.yml
@@ -87,12 +89,12 @@ common:
   type: PrivacyPolicy
   url: https://petfolk.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/petfolk/refs/heads/main/llms/petfolk-llms.txt
+  href: https://artifacts.apis.io/petfolk/llms/petfolk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/petfolk-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/petfolk/refs/heads/main/well-known/petfolk-well-known.yml
+  href: https://artifacts.apis.io/petfolk/well-known/petfolk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/petfolk-well-known.yml
@@ -113,10 +115,10 @@ overview: 'Petfolk is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Petfolk''s developer surface includes signup flow, support, FAQ, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 9
+random_paper: 13
 score:
   band: emerging
-  composite: 15.7
+  composite: 15.0
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -130,23 +132,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 15.7
+  previous_composite: 15.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/petfolk/refs/heads/main/screenshots/petfolk-2026-09-02T151114.png
+screenshot: https://apis.io/screenshots/petfolk/petfolk-2026-09-02T151114.png
 security:
 - kind: domain-security
   name: Petfolk Domain Security

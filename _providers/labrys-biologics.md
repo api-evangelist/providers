@@ -12,7 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/labrys-biologics/refs/heads/main/security/labrys-biologics-domain-security.yml
+  href: https://artifacts.apis.io/labrys-biologics/security/labrys-biologics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/labrys-biologics-domain-security.yml
@@ -25,7 +25,7 @@ name: Labrys Biologics
 nav: Providers
 network: true
 overview: Labrys Biologics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Life Sciences, and Therapeutics.
-random_paper: 3
+random_paper: 21
 security:
 - kind: domain-security
   name: Labrys Biologics Domain Security

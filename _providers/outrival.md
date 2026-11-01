@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.2
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 52
@@ -169,15 +171,12 @@ apis:
   description: The Workflows API from OutRival — 5 operation(s) for workflows.
   name: OutRival Workflows API
   slug: outrival-workflows-api
-artifact_total: 57
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Outrival Webhooks
   slug: outrival-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OutRival Ai Chat Sessions API
   slug: open-outrival-ai-chat-sessions-api
@@ -255,7 +254,12 @@ collections:
   slug: open-outrival-workflows-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/overlays/outrival-v1-overlay.yaml
+  href: https://artifacts.apis.io/outrival/capabilities/outrival-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/outrival-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/outrival/overlays/outrival-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/outrival-v1-overlay.yaml
@@ -304,67 +308,67 @@ common:
   type: PrivacyPolicy
   url: https://privacy.outrival.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/authentication/outrival-authentication.yml
+  href: https://artifacts.apis.io/outrival/authentication/outrival-authentication.yml
   title: ''
   type: Authentication
   url: authentication/outrival-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/llms/outrival-llms.txt
+  href: https://artifacts.apis.io/outrival/llms/outrival-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/outrival-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/packages/outrival-packages.yml
+  href: https://artifacts.apis.io/outrival/packages/outrival-packages.yml
   title: ''
   type: Packages
   url: packages/outrival-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/packages/outrival-packages.yml
+  href: https://artifacts.apis.io/outrival/packages/outrival-packages.yml
   title: ''
   type: SDKs
   url: packages/outrival-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/components/outrival-components.yml
+  href: https://artifacts.apis.io/outrival/components/outrival-components.yml
   title: ''
   type: Components
   url: components/outrival-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/asyncapi/outrival-webhooks.yml
+  href: https://artifacts.apis.io/outrival/asyncapi/outrival-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/outrival-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/outrival/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/mcp/outrival-mcp.yml
+  href: https://artifacts.apis.io/outrival/mcp/outrival-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/outrival-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/errors/outrival-problem-types.yml
+  href: https://artifacts.apis.io/outrival/errors/outrival-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/outrival-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/conventions/outrival-conventions.yml
+  href: https://artifacts.apis.io/outrival/conventions/outrival-conventions.yml
   title: ''
   type: Conventions
   url: conventions/outrival-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/data-model/outrival-data-model.yml
+  href: https://artifacts.apis.io/outrival/data-model/outrival-data-model.yml
   title: ''
   type: DataModel
   url: data-model/outrival-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/lifecycle/outrival-lifecycle.yml
+  href: https://artifacts.apis.io/outrival/lifecycle/outrival-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/outrival-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/conformance/outrival-conformance.yml
+  href: https://artifacts.apis.io/outrival/conformance/outrival-conformance.yml
   title: ''
   type: Conformance
   url: conformance/outrival-conformance.yml
@@ -373,7 +377,7 @@ common:
   type: Compliance
   url: https://outrival.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/agentic-access/outrival-agentic-access.yml
+  href: https://artifacts.apis.io/outrival/agentic-access/outrival-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/outrival-agentic-access.yml
@@ -382,17 +386,17 @@ common:
   type: Security
   url: https://outrival.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/security/outrival-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/outrival/security/outrival-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/outrival-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/security/outrival-trust-center.yml
+  href: https://artifacts.apis.io/outrival/security/outrival-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/outrival-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/security/outrival-domain-security.yml
+  href: https://artifacts.apis.io/outrival/security/outrival-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/outrival-domain-security.yml
@@ -410,13 +414,13 @@ overview: 'OutRival publishes 25 API contracts indexed on the [APIs.io](https://
   The OutRival catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  OutRival''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 6
+  OutRival''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 26 more developer resources.'
+random_paper: 22
 score:
   band: developing
-  composite: 49.7
+  composite: 46.4
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -426,11 +430,11 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 53.1
+    contract_quality: 49.7
     developer_ergonomics: 61.3
-    discoverability: 73.2
-    operational_transparency: 21.1
-  previous_composite: 49.7
+    discoverability: 66.1
+    operational_transparency: 23.7
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -447,13 +451,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/screenshots/outrival-2026-08-07T191105.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/outrival/outrival-2026-08-07T191105.png
 security:
 - kind: authentication
   name: Outrival Authentication
@@ -471,6 +476,14 @@ security:
   name: Outrival Trust Center
   slug: outrival-trust-center
   summary_line: SOC 2
+skill_count: 3
+skills:
+- name: Build and deploy a companion workflow
+  slug: outrival-build-and-deploy-workflow
+- name: Create and configure an OutRival companion
+  slug: outrival-create-and-configure-companion
+- name: Initiate an outbound phone call
+  slug: outrival-initiate-phone-call
 slug: outrival
 tags:
 - Company

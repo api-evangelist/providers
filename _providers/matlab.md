@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 13
 apis:
 - description: Call MATLAB from Python, allowing Python programs to start MATLAB, execute MATLAB functions, and exchange data between Python and MATLAB.
@@ -82,12 +84,12 @@ asyncapis:
   slug: matlab-thingspeak-events
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/hosts/matlab-hosts.yml
+  href: https://artifacts.apis.io/matlab/hosts/matlab-hosts.yml
   title: ''
   type: Hosts
   url: hosts/matlab-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/vendors/matlab-vendors.yml
+  href: https://artifacts.apis.io/matlab/vendors/matlab-vendors.yml
   title: ''
   type: Vendors
   url: vendors/matlab-vendors.yml
@@ -96,7 +98,7 @@ common:
   type: Website
   url: https://www.mathworks.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/security/matlab-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/matlab/security/matlab-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/matlab-vulnerability-disclosure.yml
@@ -113,7 +115,7 @@ common:
   type: SecurityPolicy
   url: https://github.com/mathworks/matlab-engine-for-python/blob/R2026a/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/security/matlab-domain-security.yml
+  href: https://artifacts.apis.io/matlab/security/matlab-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/matlab-domain-security.yml
@@ -162,112 +164,112 @@ common:
   type: Login
   url: https://www.mathworks.com/login
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/packages/matlab-packages.yml
+  href: https://artifacts.apis.io/matlab/packages/matlab-packages.yml
   title: ''
   type: Packages
   url: packages/matlab-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/packages/matlab-packages.yml
+  href: https://artifacts.apis.io/matlab/packages/matlab-packages.yml
   title: ''
   type: SDKs
   url: packages/matlab-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/mcp/matlab-mcp.yml
+  href: https://artifacts.apis.io/matlab/mcp/matlab-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/matlab-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/matlab/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/llms/matlab-llms.txt
+  href: https://artifacts.apis.io/matlab/llms/matlab-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/matlab-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/well-known/matlab-well-known.yml
+  href: https://artifacts.apis.io/matlab/well-known/matlab-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/matlab-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/well-known/matlab-security.txt
+  href: https://artifacts.apis.io/matlab/well-known/matlab-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/matlab-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/security/matlab-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/matlab/security/matlab-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/matlab-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/security/matlab-trust-center.yml
+  href: https://artifacts.apis.io/matlab/security/matlab-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/matlab-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/security/matlab-trust-center.yml
+  href: https://artifacts.apis.io/matlab/security/matlab-trust-center.yml
   title: ''
   type: Compliance
   url: security/matlab-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/conformance/matlab-conformance.yml
+  href: https://artifacts.apis.io/matlab/conformance/matlab-conformance.yml
   title: ''
   type: Conformance
   url: conformance/matlab-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/errors/matlab-problem-types.yml
+  href: https://artifacts.apis.io/matlab/errors/matlab-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/matlab-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/lifecycle/matlab-lifecycle.yml
+  href: https://artifacts.apis.io/matlab/lifecycle/matlab-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/matlab-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/lifecycle/matlab-lifecycle.yml
+  href: https://artifacts.apis.io/matlab/lifecycle/matlab-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/matlab-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/authentication/matlab-authentication.yml
+  href: https://artifacts.apis.io/matlab/authentication/matlab-authentication.yml
   title: ''
   type: Authentication
   url: authentication/matlab-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/conventions/matlab-conventions.yml
+  href: https://artifacts.apis.io/matlab/conventions/matlab-conventions.yml
   title: ''
   type: Conventions
   url: conventions/matlab-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/changelog/matlab-changelog.yml
+  href: https://artifacts.apis.io/matlab/changelog/matlab-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/matlab-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/cli/matlab-cli.yml
+  href: https://artifacts.apis.io/matlab/cli/matlab-cli.yml
   title: ''
   type: CLI
   url: cli/matlab-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/asyncapi/matlab-thingspeak-events.yml
+  href: https://artifacts.apis.io/matlab/asyncapi/matlab-thingspeak-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/matlab-thingspeak-events.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/plans/matlab-plans-pricing.yml
+  href: https://artifacts.apis.io/matlab/plans/matlab-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/matlab-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/rate-limits/matlab-rate-limits.yml
+  href: https://artifacts.apis.io/matlab/rate-limits/matlab-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/matlab-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/finops/matlab-finops.yml
+  href: https://artifacts.apis.io/matlab/finops/matlab-finops.yml
   title: ''
   type: FinOps
   url: finops/matlab-finops.yml
@@ -286,13 +288,13 @@ common:
 created: '2025'
 description: 'MATLAB is the MathWorks programming platform for engineers and scientists, and its interface surface is unusually split. Most of it is in-process language bindings — the MATLAB Engine APIs for Python, Java, C++, C, Fortran and .NET, the MEX API, the C++ Data API and the Compiler SDK — which embed MATLAB into other programs rather than exposing it over HTTP. Two surfaces are callable over the network: the ThingSpeak REST and MQTT APIs for IoT channel data, hosted by MathWorks, and the MATLAB Production Server RESTful API, which customers run themselves. On top of both sits a large first-party agent layer: the official MATLAB MCP Server and 212 published Agent Skills.'
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Matlab Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: matlab-finops
-  template: true
+  template: false
 image: https://www.mathworks.com/etc/designs/mathworks/img/pic-header-mathworks-logo2.svg
 layout: provider
 mcp_servers:
@@ -314,30 +316,30 @@ plans:
 - name: Matlab Plans Pricing
   plan_count: 12
   slug: matlab-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 11
   name: Matlab Rate Limits
   slug: matlab-rate-limits
 score:
   band: exemplar
-  composite: 70.8
+  composite: 72.1
   coverage:
     artifact_dirs: 24
-    catalog_earned: 64.0
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 45.3
     developer_ergonomics: 88.1
-    discoverability: 83.3
-    operational_transparency: 92.1
-  previous_composite: 72.4
+    discoverability: 76.7
+    operational_transparency: 94.7
+  previous_composite: 70.5
   provenance:
     conformance: derived
     mcp: first-party
@@ -348,14 +350,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/screenshots/matlab-2026-06-20T185035.png
+screenshot: https://apis.io/screenshots/matlab/matlab-2026-06-20T185035.png
 security:
 - kind: authentication
   name: Matlab Authentication

@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 26.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Retrieve dataset metadata and schema information.
   name: AmeriCorps Metadata API
   slug: americorps-metadata-api
-artifact_total: 29
+artifact_total: 30
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AmeriCorps Open Data Catalog API
   slug: open-americorps-catalog-api
@@ -83,22 +82,22 @@ collections:
   slug: open-americorps
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/finops/americorps-finops.yml
+  href: https://artifacts.apis.io/americorps/finops/americorps-finops.yml
   title: ''
   type: FinOps
   url: finops/americorps-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/agentic-access/americorps-agentic-access.yml
+  href: https://artifacts.apis.io/americorps/agentic-access/americorps-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/americorps-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/security/americorps-domain-security.yml
+  href: https://artifacts.apis.io/americorps/security/americorps-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/americorps-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/authentication/americorps-authentication.yml
+  href: https://artifacts.apis.io/americorps/authentication/americorps-authentication.yml
   title: ''
   type: Authentication
   url: authentication/americorps-authentication.yml
@@ -135,37 +134,37 @@ common:
   type: PrivacyPolicy
   url: https://www.americorps.gov/about/agency-overview/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/packages/americorps-packages.yml
+  href: https://artifacts.apis.io/americorps/packages/americorps-packages.yml
   title: ''
   type: Packages
   url: packages/americorps-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/well-known/americorps-well-known.yml
+  href: https://artifacts.apis.io/americorps/well-known/americorps-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/americorps-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/mcp/americorps-mcp.yml
+  href: https://artifacts.apis.io/americorps/mcp/americorps-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/americorps-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/llms/americorps-llms.txt
+  href: https://artifacts.apis.io/americorps/llms/americorps-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/americorps-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/conformance/americorps-conformance.yml
+  href: https://artifacts.apis.io/americorps/conformance/americorps-conformance.yml
   title: ''
   type: Conformance
   url: conformance/americorps-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/errors/americorps-problem-types.yml
+  href: https://artifacts.apis.io/americorps/errors/americorps-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/americorps-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/lifecycle/americorps-lifecycle.yml
+  href: https://artifacts.apis.io/americorps/lifecycle/americorps-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/americorps-lifecycle.yml
@@ -174,37 +173,37 @@ common:
   type: StatusPage
   url: https://status.socrata.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/conventions/americorps-conventions.yml
+  href: https://artifacts.apis.io/americorps/conventions/americorps-conventions.yml
   title: ''
   type: Conventions
   url: conventions/americorps-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/data-model/americorps-data-model.yml
+  href: https://artifacts.apis.io/americorps/data-model/americorps-data-model.yml
   title: ''
   type: DataModel
   url: data-model/americorps-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/security/americorps-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/americorps/security/americorps-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/americorps-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/security/americorps-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/americorps/security/americorps-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/americorps-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/americorps/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/plans/americorps-plans-pricing.yml
+  href: https://artifacts.apis.io/americorps/plans/americorps-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/americorps-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/rate-limits/americorps-rate-limits.yml
+  href: https://artifacts.apis.io/americorps/rate-limits/americorps-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/americorps-rate-limits.yml
@@ -227,7 +226,7 @@ finops:
 - has_sources: false
   method: generated
   name: Americorps Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: americorps-finops
   template: true
@@ -259,7 +258,7 @@ rate_limits:
   slug: americorps-rate-limits
 score:
   band: thin
-  composite: 38.1
+  composite: 37.8
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -267,20 +266,20 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 50.6
     developer_ergonomics: 44.6
-    discoverability: 73.2
-    operational_transparency: 28.9
+    discoverability: 66.1
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 39.7
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -297,14 +296,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/screenshots/americorps-2026-06-20T171928.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/americorps/americorps-2026-06-20T171928.png
 security:
 - kind: authentication
   name: Americorps Authentication
@@ -318,6 +317,12 @@ security:
   name: Americorps Vulnerability Disclosure
   slug: americorps-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 2
+skills:
+- name: americorps-find-a-dataset
+  slug: americorps-find-a-dataset
+- name: americorps-query-a-dataset
+  slug: americorps-query-a-dataset
 slug: americorps
 tags:
 - Federal Government

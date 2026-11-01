@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 11.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: AmerisourceBergen (now Cencora) is one of the largest global pharmaceutical distributors, serving pharmaceutical manufacturers, healthcare providers, and patients worldwide. The company does not curre
@@ -45,17 +47,17 @@ apis:
 artifact_total: 26
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amerisourcebergen/refs/heads/main/plans/amerisourcebergen-plans-pricing.yml
+  href: https://artifacts.apis.io/amerisourcebergen/plans/amerisourcebergen-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amerisourcebergen-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amerisourcebergen/refs/heads/main/rate-limits/amerisourcebergen-rate-limits.yml
+  href: https://artifacts.apis.io/amerisourcebergen/rate-limits/amerisourcebergen-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amerisourcebergen-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amerisourcebergen/refs/heads/main/finops/amerisourcebergen-finops.yml
+  href: https://artifacts.apis.io/amerisourcebergen/finops/amerisourcebergen-finops.yml
   title: ''
   type: FinOps
   url: finops/amerisourcebergen-finops.yml
@@ -64,32 +66,32 @@ common:
   type: Blog
   url: https://www.cencora.com/stories
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amerisourcebergen/refs/heads/main/security/amerisourcebergen-domain-security.yml
+  href: https://artifacts.apis.io/amerisourcebergen/security/amerisourcebergen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amerisourcebergen-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amerisourcebergen/refs/heads/main/llms/amerisourcebergen-llms.txt
+  href: https://artifacts.apis.io/amerisourcebergen/llms/amerisourcebergen-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amerisourcebergen-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amerisourcebergen/refs/heads/main/authentication/amerisourcebergen-authentication.yml
+  href: https://artifacts.apis.io/amerisourcebergen/authentication/amerisourcebergen-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amerisourcebergen-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amerisourcebergen/refs/heads/main/scopes/amerisourcebergen-scopes.yml
+  href: https://artifacts.apis.io/amerisourcebergen/scopes/amerisourcebergen-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/amerisourcebergen-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amerisourcebergen/refs/heads/main/conformance/amerisourcebergen-conformance.yml
+  href: https://artifacts.apis.io/amerisourcebergen/conformance/amerisourcebergen-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amerisourcebergen-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amerisourcebergen/refs/heads/main/security/amerisourcebergen-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amerisourcebergen/security/amerisourcebergen-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amerisourcebergen-vulnerability-disclosure.yml
@@ -203,7 +205,7 @@ press:
 - date: ''
   title: Artificial Intelligence at Cencora
   url: https://emerj.com/artificial-intelligence-at-cencora/
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Amerisourcebergen Rate Limits
@@ -215,23 +217,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.7
+  composite: 23.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 10.5
-  previous_composite: 24.8
+  previous_composite: 23.0
   provenance:
     conformance: first-party
   regulatory:
@@ -240,14 +242,14 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/amerisourcebergen/refs/heads/main/screenshots/amerisourcebergen-2026-06-20T171929.png
+screenshot: https://apis.io/screenshots/amerisourcebergen/amerisourcebergen-2026-06-20T171929.png
 security:
 - kind: authentication
   name: Amerisourcebergen Authentication

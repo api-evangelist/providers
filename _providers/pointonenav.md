@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: GraphQL interface for Point One workflow and data management, authenticated with an API key issued from app.pointonenav.com.
@@ -98,62 +100,62 @@ common:
   type: GitHubOrganization
   url: https://github.com/PointOneNav
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pointonenav/refs/heads/main/lifecycle/pointonenav-lifecycle.yml
+  href: https://artifacts.apis.io/pointonenav/lifecycle/pointonenav-lifecycle.yml
   title: ''
   type: StatusPage
   url: lifecycle/pointonenav-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pointonenav/refs/heads/main/lifecycle/pointonenav-lifecycle.yml
+  href: https://artifacts.apis.io/pointonenav/lifecycle/pointonenav-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/pointonenav-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pointonenav/refs/heads/main/lifecycle/pointonenav-lifecycle.yml
+  href: https://artifacts.apis.io/pointonenav/lifecycle/pointonenav-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pointonenav-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pointonenav/refs/heads/main/packages/pointonenav-packages.yml
+  href: https://artifacts.apis.io/pointonenav/packages/pointonenav-packages.yml
   title: ''
   type: SDKs
   url: packages/pointonenav-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pointonenav/refs/heads/main/packages/pointonenav-packages.yml
+  href: https://artifacts.apis.io/pointonenav/packages/pointonenav-packages.yml
   title: ''
   type: Packages
   url: packages/pointonenav-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pointonenav/refs/heads/main/cli/pointonenav-cli.yml
+  href: https://artifacts.apis.io/pointonenav/cli/pointonenav-cli.yml
   title: ''
   type: CLI
   url: cli/pointonenav-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pointonenav/refs/heads/main/authentication/pointonenav-authentication.yml
+  href: https://artifacts.apis.io/pointonenav/authentication/pointonenav-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pointonenav-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pointonenav/refs/heads/main/conventions/pointonenav-conventions.yml
+  href: https://artifacts.apis.io/pointonenav/conventions/pointonenav-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pointonenav-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pointonenav/refs/heads/main/conformance/pointonenav-conformance.yml
+  href: https://artifacts.apis.io/pointonenav/conformance/pointonenav-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pointonenav-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pointonenav/refs/heads/main/changelog/pointonenav-changelog.yml
+  href: https://artifacts.apis.io/pointonenav/changelog/pointonenav-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pointonenav-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pointonenav/refs/heads/main/security/pointonenav-domain-security.yml
+  href: https://artifacts.apis.io/pointonenav/security/pointonenav-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pointonenav-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pointonenav/refs/heads/main/llms/pointonenav-llms.txt
+  href: https://artifacts.apis.io/pointonenav/llms/pointonenav-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pointonenav-llms.txt
@@ -169,10 +171,10 @@ overview: 'Pointonenav is listed with 2 APIs on the [APIs.io](https://apis.io/) 
 
 
   Pointonenav''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 18 more developer resources.'
-random_paper: 13
+random_paper: 1
 score:
-  band: emerging
-  composite: 22.6
+  band: thin
+  composite: 30.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -180,18 +182,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 33.3
-    discoverability: 73.2
-    operational_transparency: 42.1
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 22.1
+    developer_ergonomics: 61.9
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 30.3
   provenance:
     conformance: derived
   regulatory:
@@ -200,14 +199,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pointonenav/refs/heads/main/screenshots/pointonenav-2026-09-02T151636.png
+screenshot: https://apis.io/screenshots/pointonenav/pointonenav-2026-09-02T151636.png
 security:
 - kind: authentication
   name: Pointonenav Authentication

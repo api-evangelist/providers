@@ -1,0 +1,164 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: unknown
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.2
+  scored_at: '2026-10-31'
+api_count: 1
+apis:
+- description: Documentation, Instruction Manuals & Guides
+  name: Te Pari API
+  slug: te-pari-api
+artifact_total: 4
+common:
+- group: agent
+  href: https://artifacts.apis.io/te-pari/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  href: https://artifacts.apis.io/te-pari/hosts/te-pari-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/te-pari-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/te-pari/vendors/te-pari-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/te-pari-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.tepari.com/nz/pages/terms-and-conditions/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.tepari.com/nz/pages/privacy-policy/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.tepari.com/nz/media/
+- group: auth
+  href: https://artifacts.apis.io/te-pari/security/te-pari-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/te-pari-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tepari.com/nz/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.tepari.com/nz/docs/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tepari.com/nz/blog/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.tepari.com/nz/contact/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.tepari.com/nz/
+coverage:
+  checked: '2026-10-28'
+  detail: The public documentation at https://www.tepari.com/nz/docs/ provides manuals but no machine‑readable API specification.
+  evidence:
+  - status: 200
+    url: https://www.tepari.com/nz/docs/
+  reason: no-machine-readable-spec
+  state: unreadable
+created: '2026-10-28'
+description: Te Pari designs and manufactures world‑leading livestock handling equipment in Oamaru, New Zealand. Their product range includes cattle yards, crushes, sheep handling systems, dosing guns, EID readers and weighing platforms, offering integrated solutions that improve safety, efficiency and profitability for farms. With over four decades of experience, Te Pari combines robust hot‑dip galvanised steel construction with modern technology to deliver durable, reliable equipment for the global agricultural sector.
+image: https://f7gh3hsz.twic.pics/images/cms/images/00-System/handbook.png
+layout: provider
+modified: '2026-10-28'
+name: Te Pari
+nav: Providers
+network: true
+overview: 'Te Pari is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Livestock, Equipment, New Zealand, and Agriculture.
+
+
+  Te Pari''s developer surface includes documentation, engineering blog, support, getting-started guide, and 8 more developer resources.'
+random_paper: 18
+scopes:
+- name: Te Pari Scopes
+  scope_count: 0
+  slug: te-pari-scopes
+  summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 18.4
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 35.0
+    discoverability: 58.9
+    operational_transparency: 0.0
+  provenance:
+    conformance: unknown
+    mcp: derived
+    skills: unknown
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 23.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: authentication
+  name: Te Pari Authentication
+  slug: te-pari-authentication
+  summary_line: 0 schemes
+- kind: domain-security
+  name: Te Pari Domain Security
+  slug: te-pari-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: te-pari
+tags:
+- Company
+- Livestock
+- Equipment
+- New Zealand
+- Agriculture
+website: https://www.tepari.com/nz/
+---

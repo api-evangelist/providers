@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.6
-  scored_at: '2026-10-17'
+  score: 19.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -49,17 +51,14 @@ apis:
   description: The Store products API from Vori — 7 operation(s) for store products.
   name: Vori Store products API
   slug: vori-store-products-api
-artifact_total: 6
+artifact_total: 7
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Vori Store products API
   slug: open-vori-store-products-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/capabilities/vori-capability-edges.yml
+  href: https://artifacts.apis.io/vori/capabilities/vori-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vori-capability-edges.yml
@@ -104,67 +103,67 @@ common:
   type: PrivacyPolicy
   url: https://www.vori.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/authentication/vori-authentication.yml
+  href: https://artifacts.apis.io/vori/authentication/vori-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vori-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/security/vori-domain-security.yml
+  href: https://artifacts.apis.io/vori/security/vori-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vori-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/agentic-access/vori-agentic-access.yml
+  href: https://artifacts.apis.io/vori/agentic-access/vori-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vori-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/packages/vori-packages.yml
+  href: https://artifacts.apis.io/vori/packages/vori-packages.yml
   title: ''
   type: Packages
   url: packages/vori-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/mcp/vori-mcp.yml
+  href: https://artifacts.apis.io/vori/mcp/vori-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vori-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/llms/vori-llms.txt
+  href: https://artifacts.apis.io/vori/llms/vori-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vori-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/overlays/vori-store-products-overlay.yaml
+  href: https://artifacts.apis.io/vori/overlays/vori-store-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vori-store-products-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/conformance/vori-conformance.yml
+  href: https://artifacts.apis.io/vori/conformance/vori-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vori-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/errors/vori-problem-types.yml
+  href: https://artifacts.apis.io/vori/errors/vori-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vori-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/lifecycle/vori-lifecycle.yml
+  href: https://artifacts.apis.io/vori/lifecycle/vori-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vori-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/conventions/vori-conventions.yml
+  href: https://artifacts.apis.io/vori/conventions/vori-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vori-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/data-model/vori-data-model.yml
+  href: https://artifacts.apis.io/vori/data-model/vori-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vori-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vori/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -180,10 +179,10 @@ overview: 'Vori publishes 1 API contract indexed on the [APIs.io](https://apis.i
 
 
   Vori''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 8
+random_paper: 16
 score:
   band: thin
-  composite: 34.8
+  composite: 36.5
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -193,13 +192,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 45.9
     developer_ergonomics: 49.4
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 34.8
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -216,13 +215,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/vori/refs/heads/main/screenshots/vori-2026-09-02T170242.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vori/vori-2026-09-02T170242.png
 security:
 - kind: authentication
   name: Vori Authentication
@@ -232,6 +232,12 @@ security:
   name: Vori Domain Security
   slug: vori-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Search and audit Vori product changes
+  slug: vori-audit-product-changes
+- name: Manage Vori store products
+  slug: vori-manage-store-products
 slug: vori
 tags:
 - Company

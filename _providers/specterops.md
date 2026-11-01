@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://bloodhoundenterprise.io/api/v2
@@ -252,11 +254,8 @@ apis:
   description: The Tasks API from SpecterOps — 9 operation(s) for tasks.
   name: SpecterOps Tasks API
   slug: specterops-tasks-api
-artifact_total: 93
+artifact_total: 95
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: BloodHound AD Base Entities API
   slug: open-specterops-ad-base-entities-api
@@ -398,7 +397,7 @@ common:
   type: BlogRSS
   url: https://specterops.io/feed/podcast/the-state-of-apm/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/capabilities/specterops-capability-edges.yml
+  href: https://artifacts.apis.io/specterops/capabilities/specterops-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/specterops-capability-edges.yml
@@ -443,37 +442,37 @@ common:
   type: PrivacyPolicy
   url: https://specterops.io/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/authentication/specterops-authentication.yml
+  href: https://artifacts.apis.io/specterops/authentication/specterops-authentication.yml
   title: ''
   type: Authentication
   url: authentication/specterops-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/packages/specterops-packages.yml
+  href: https://artifacts.apis.io/specterops/packages/specterops-packages.yml
   title: ''
   type: Packages
   url: packages/specterops-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/packages/specterops-packages.yml
+  href: https://artifacts.apis.io/specterops/packages/specterops-packages.yml
   title: ''
   type: SDKs
   url: packages/specterops-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/mcp/specterops-mcp.yml
+  href: https://artifacts.apis.io/specterops/mcp/specterops-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/specterops-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/llms/specterops-llms.txt
+  href: https://artifacts.apis.io/specterops/llms/specterops-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/specterops-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/overlays/specterops-bloodhound-overlay.yaml
+  href: https://artifacts.apis.io/specterops/overlays/specterops-bloodhound-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/specterops-bloodhound-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/conformance/specterops-conformance.yml
+  href: https://artifacts.apis.io/specterops/conformance/specterops-conformance.yml
   title: ''
   type: Conformance
   url: conformance/specterops-conformance.yml
@@ -482,42 +481,42 @@ common:
   type: Compliance
   url: https://trust.specterops.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/errors/specterops-problem-types.yml
+  href: https://artifacts.apis.io/specterops/errors/specterops-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/specterops-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/lifecycle/specterops-lifecycle.yml
+  href: https://artifacts.apis.io/specterops/lifecycle/specterops-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/specterops-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/lifecycle/specterops-lifecycle.yml
+  href: https://artifacts.apis.io/specterops/lifecycle/specterops-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/specterops-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/changelog/specterops-changelog.yml
+  href: https://artifacts.apis.io/specterops/changelog/specterops-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/specterops-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/conventions/specterops-conventions.yml
+  href: https://artifacts.apis.io/specterops/conventions/specterops-conventions.yml
   title: ''
   type: Conventions
   url: conventions/specterops-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/data-model/specterops-data-model.yml
+  href: https://artifacts.apis.io/specterops/data-model/specterops-data-model.yml
   title: ''
   type: DataModel
   url: data-model/specterops-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/security/specterops-domain-security.yml
+  href: https://artifacts.apis.io/specterops/security/specterops-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/specterops-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/security/specterops-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/specterops/security/specterops-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/specterops-vulnerability-disclosure.yml
@@ -530,7 +529,7 @@ common:
   type: TrustCenter
   url: https://trust.specterops.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/specterops/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -550,10 +549,10 @@ overview: 'SpecterOps publishes 43 API contracts indexed on the [APIs.io](https:
 
 
   SpecterOps'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 25 more developer resources.'
-random_paper: 18
+random_paper: 16
 score:
   band: developing
-  composite: 53.2
+  composite: 50.7
   coverage:
     artifact_dirs: 26
     catalog_earned: 37.0
@@ -561,15 +560,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 51.2
+    contract_quality: 48.7
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 53.1
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 50.7
   provenance:
     conformance: derived
     contracts:
@@ -585,13 +584,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/screenshots/specterops-2026-08-17T082020.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/specterops/specterops-2026-08-17T082020.png
 security:
 - kind: authentication
   name: Specterops Authentication
@@ -609,6 +609,14 @@ security:
   name: Specterops Trust Center
   slug: specterops-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, FedRAMP, GDPR
+skill_count: 3
+skills:
+- name: Ingest collection data and run analysis
+  slug: specterops-ingest-and-analyze
+- name: Create and manage API tokens
+  slug: specterops-manage-api-tokens
+- name: Run a Cypher query against the BloodHound graph
+  slug: specterops-run-cypher-query
 slug: specterops
 tags:
 - Company

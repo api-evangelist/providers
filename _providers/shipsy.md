@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -38,39 +40,39 @@ apis:
   description: AI assistant endpoints for the shipsy.ai website. Not the logistics platform API.
   name: Shipsy Website AI API
   slug: shipsy-website-ai-api
-artifact_total: 7
+artifact_total: 8
 common:
 - group: commercial
   title: ''
   type: TermsOfService
   url: https://www.shipsy.ai/terms-and-conditions
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/heads/main/agentic-access/shipsy-agentic-access.yml
+  href: https://artifacts.apis.io/shipsy/agentic-access/shipsy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shipsy-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/heads/main/rules/shipsy-rules.yml
+  href: https://artifacts.apis.io/shipsy/rules/shipsy-rules.yml
   title: ''
   type: Spectral
   url: rules/shipsy-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/heads/main/json-ld/shipsy-context.jsonld
+  href: https://artifacts.apis.io/shipsy/json-ld/shipsy-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/shipsy-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/heads/main/vocabulary/shipsy-vocabulary.yml
+  href: https://artifacts.apis.io/shipsy/vocabulary/shipsy-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/shipsy-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/shipsy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/heads/main/data-model/shipsy-data-model.yml
+  href: https://artifacts.apis.io/shipsy/data-model/shipsy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shipsy-data-model.yml
@@ -79,32 +81,32 @@ common:
   type: Compliance
   url: https://trust.shipsy.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/heads/main/authentication/shipsy-authentication.yml
+  href: https://artifacts.apis.io/shipsy/authentication/shipsy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shipsy-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/heads/main/errors/shipsy-problem-types.yml
+  href: https://artifacts.apis.io/shipsy/errors/shipsy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/shipsy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/heads/main/conformance/shipsy-conformance.yml
+  href: https://artifacts.apis.io/shipsy/conformance/shipsy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shipsy-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/heads/main/llms/shipsy-llms.txt
+  href: https://artifacts.apis.io/shipsy/llms/shipsy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shipsy-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/heads/main/hosts/shipsy-hosts.yml
+  href: https://artifacts.apis.io/shipsy/hosts/shipsy-hosts.yml
   title: ''
   type: Hosts
   url: hosts/shipsy-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/heads/main/vendors/shipsy-vendors.yml
+  href: https://artifacts.apis.io/shipsy/vendors/shipsy-vendors.yml
   title: ''
   type: Vendors
   url: vendors/shipsy-vendors.yml
@@ -117,12 +119,12 @@ common:
   type: GettingStarted
   url: https://knowledge.shipsy.ai/help/core-platform/how-to-enable-and-disable-app-user--xcgbwdmu
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/heads/main/security/shipsy-trust-center.yml
+  href: https://artifacts.apis.io/shipsy/security/shipsy-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/shipsy-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/heads/main/security/shipsy-domain-security.yml
+  href: https://artifacts.apis.io/shipsy/security/shipsy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shipsy-domain-security.yml
@@ -166,7 +168,7 @@ overview: 'Shipsy publishes 1 API contract indexed on the [APIs.io](https://apis
 
 
   Shipsy''s developer surface includes authentication, getting-started guide, documentation, signup flow, and 19 more developer resources.'
-random_paper: 12
+random_paper: 0
 rules:
 - authorship: generated
   effective_rule_count: 57
@@ -190,13 +192,15 @@ score:
     catalog_gap: 67.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 22.0
     contract_quality: 51.8
     developer_ergonomics: 49.3
-    discoverability: 75.0
+    discoverability: 67.9
     operational_transparency: 0.0
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -213,11 +217,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Shipsy Authentication
@@ -231,6 +237,10 @@ security:
   name: Shipsy Trust Center
   slug: shipsy-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
+skill_count: 1
+skills:
+- name: iris-chat
+  slug: shipsy-iris-chat
 slug: shipsy
 tags:
 - Logistics

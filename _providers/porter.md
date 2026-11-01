@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -76,11 +78,8 @@ apis:
   description: Operations for querying the history of bundle action executions and their outputs.
   name: Porter Runs API
   slug: porter-runs-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Porter Bundle API
   slug: open-porter-bundle
@@ -101,22 +100,22 @@ collections:
   slug: open-porter-runs-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/plans/porter-plans-pricing.yml
+  href: https://artifacts.apis.io/porter/plans/porter-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/porter-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/rate-limits/porter-rate-limits.yml
+  href: https://artifacts.apis.io/porter/rate-limits/porter-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/porter-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/finops/porter-finops.yml
+  href: https://artifacts.apis.io/porter/finops/porter-finops.yml
   title: ''
   type: FinOps
   url: finops/porter-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/capabilities/porter-capability-edges.yml
+  href: https://artifacts.apis.io/porter/capabilities/porter-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/porter-capability-edges.yml
@@ -145,17 +144,17 @@ common:
   type: License
   url: https://github.com/getporter/porter/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/agentic-access/porter-agentic-access.yml
+  href: https://artifacts.apis.io/porter/agentic-access/porter-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/porter-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/security/porter-domain-security.yml
+  href: https://artifacts.apis.io/porter/security/porter-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/porter-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/authentication/porter-authentication.yml
+  href: https://artifacts.apis.io/porter/authentication/porter-authentication.yml
   title: ''
   type: Authentication
   url: authentication/porter-authentication.yml
@@ -168,12 +167,12 @@ common:
   type: Website
   url: https://porter.sh/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/json-ld/porter-context.jsonld
+  href: https://artifacts.apis.io/porter/json-ld/porter-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/porter-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/json-schema/porter-manifest-schema.json
+  href: https://artifacts.apis.io/porter/json-schema/porter-manifest-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/porter-manifest-schema.json
@@ -237,7 +236,7 @@ plans:
 - name: Porter Plans Pricing
   plan_count: 1
   slug: porter-plans-pricing
-random_paper: 8
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Porter Rate Limits
@@ -255,8 +254,8 @@ rules:
     warn: 4
   slug: porter-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 41.0
+  band: thin
+  composite: 35.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 44.7
@@ -264,18 +263,15 @@ score:
     catalog_gap: 70.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 9.8
-    contract_quality: 57.7
-    developer_ergonomics: 45.2
+    contract_quality: 54.3
+    developer_ergonomics: 47.6
     discoverability: 48.2
-    operational_transparency: 34.2
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 42.4
+    operational_transparency: 36.8
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -289,13 +285,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/screenshots/porter-2026-06-20T191932.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/porter/porter-2026-06-20T191932.png
 security:
 - kind: authentication
   name: Porter Authentication

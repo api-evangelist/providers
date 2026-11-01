@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -99,9 +101,6 @@ apis:
 artifact_total: 30
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Fast Calls API
   slug: open-weights-and-biases-calls-api
 - collection_type: open
@@ -132,6 +131,11 @@ collections:
   name: FastAPI
   slug: open-weights-and-biases
 common:
+- group: other
+  href: https://artifacts.apis.io/weights-and-biases/capabilities/weights-and-biases-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/weights-and-biases-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -157,22 +161,22 @@ common:
   type: License
   url: https://github.com/wandb/wandb/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/agentic-access/weights-and-biases-agentic-access.yml
+  href: https://artifacts.apis.io/weights-and-biases/agentic-access/weights-and-biases-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/weights-and-biases-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/security/weights-and-biases-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/weights-and-biases/security/weights-and-biases-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/weights-and-biases-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/security/weights-and-biases-domain-security.yml
+  href: https://artifacts.apis.io/weights-and-biases/security/weights-and-biases-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/weights-and-biases-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/authentication/weights-and-biases-authentication.yml
+  href: https://artifacts.apis.io/weights-and-biases/authentication/weights-and-biases-authentication.yml
   title: ''
   type: Authentication
   url: authentication/weights-and-biases-authentication.yml
@@ -193,17 +197,17 @@ common:
   type: SourceCode
   url: https://github.com/wandb/wandb
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/plans/weights-and-biases-plans-pricing.yml
+  href: https://artifacts.apis.io/weights-and-biases/plans/weights-and-biases-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/weights-and-biases-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/rate-limits/weights-and-biases-rate-limits.yml
+  href: https://artifacts.apis.io/weights-and-biases/rate-limits/weights-and-biases-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/weights-and-biases-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/finops/weights-and-biases-finops.yml
+  href: https://artifacts.apis.io/weights-and-biases/finops/weights-and-biases-finops.yml
   title: ''
   type: FinOps
   url: finops/weights-and-biases-finops.yml
@@ -211,10 +215,10 @@ created: '2026-05-08'
 description: Weights & Biases is the ML developer platform for experiment tracking, model registry, artifact management, sweeps, reports, and (Weave) GenAI evaluation. The W&B API is primarily a GraphQL endpoint, surfaced through a Python `wandb.Api` SDK.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Weights And Biases Finops
-  primary_unit: ''
-  service_category: ML
+  primary_unit: subscription
+  service_category: ''
   slug: weights-and-biases-finops
   template: false
 graphqls:
@@ -230,38 +234,38 @@ network: true
 overview: 'Weights & Biases publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calls API, Costs API, Feedback API, and 8 more. Tagged areas include Machine Learning, MLOps, Experiment Tracking, Model Registry, and Generative AI.
 
 
-  Weights & Biases'' developer surface includes authentication, developer portal, pricing, and 14 more developer resources.'
+  Weights & Biases'' developer surface includes authentication, developer portal, pricing, and 15 more developer resources.'
 plans:
 - name: Weights And Biases Plans Pricing
   plan_count: 4
   slug: weights-and-biases-plans-pricing
-random_paper: 9
+- name: Weights And Biases Price Estimates
+  plan_count: 0
+  slug: weights-and-biases-price-estimates
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Weights And Biases Rate Limits
   slug: weights-and-biases-rate-limits
 score:
   band: developing
-  composite: 44.3
+  composite: 40.5
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 51.0
+    artifact_dirs: 12
+    catalog_earned: 54.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 64.0
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.0
+  delta: 1.6
   facets:
-    access_clarity: 42.1
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 46.7
     developer_ergonomics: 38.1
     discoverability: 66.1
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 41.3
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -275,13 +279,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 16.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/screenshots/weights-and-biases-2026-06-20T201349.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/weights-and-biases/weights-and-biases-2026-06-20T201349.png
 security:
 - kind: authentication
   name: Weights And Biases Authentication

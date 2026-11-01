@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
-    openapi_examples: false
+    mcp_server: documented
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-17'
+  score: 47.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -100,11 +102,78 @@ apis:
   description: The Workspaces API from Blaxel — 3 operation(s) for workspaces.
   name: Blaxel Workspaces API
   slug: blaxel-workspaces-api
-artifact_total: 31
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The applications API from Blaxel — 3 operation(s) for applications.
+  name: Blaxel Applications API
+  slug: blaxel-applications-api
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The changelog API from Blaxel — 1 operation(s) for changelog.
+  name: Blaxel Changelog API
+  slug: blaxel-changelog-api
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The configurations API from Blaxel — 1 operation(s) for configurations.
+  name: Blaxel Configurations API
+  slug: blaxel-configurations-api
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The customdomains API from Blaxel — 6 operation(s) for customdomains.
+  name: Blaxel Customdomains API
+  slug: blaxel-customdomains-api
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The drives API from Blaxel — 6 operation(s) for drives.
+  name: Blaxel Drives API
+  slug: blaxel-drives-api
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The featureFlags API from Blaxel — 1 operation(s) for featureflags.
+  name: Blaxel Feature Flags API
+  slug: blaxel-featureflags-api
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The images API from Blaxel — 9 operation(s) for images.
+  name: Blaxel Images API
+  slug: blaxel-images-api
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The mcphub API from Blaxel — 1 operation(s) for mcphub.
+  name: Blaxel Mcphub API
+  slug: blaxel-mcphub-api
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The publicIps:list API from Blaxel — 1 operation(s) for publicips:list.
+  name: Blaxel Public Ips:list API
+  slug: blaxel-publicips-list-api
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The sandboxhub API from Blaxel — 1 operation(s) for sandboxhub.
+  name: Blaxel Sandboxhub API
+  slug: blaxel-sandboxhub-api
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The secrets API from Blaxel — 2 operation(s) for secrets.
+  name: Blaxel Secrets API
+  slug: blaxel-secrets-api
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The templates API from Blaxel — 2 operation(s) for templates.
+  name: Blaxel Templates API
+  slug: blaxel-templates-api
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The volumeTemplates API from Blaxel — 3 operation(s) for volumetemplates.
+  name: Blaxel Volume Templates API
+  slug: blaxel-volumetemplates-api
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The vpcs API from Blaxel — 9 operation(s) for vpcs.
+  name: Blaxel Vpcs API
+  slug: blaxel-vpcs-api
+artifact_total: 44
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Blaxel Control Plane Agents API
   slug: open-blaxel-agents-api
@@ -147,22 +216,22 @@ common:
   type: Pricing
   url: https://blaxel.ai/pricing
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/capabilities/blaxel-capability-edges.yml
+  href: https://artifacts.apis.io/blaxel/capabilities/blaxel-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/blaxel-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/agentic-access/blaxel-agentic-access.yml
+  href: https://artifacts.apis.io/blaxel/agentic-access/blaxel-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/blaxel-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/security/blaxel-domain-security.yml
+  href: https://artifacts.apis.io/blaxel/security/blaxel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blaxel-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/authentication/blaxel-authentication.yml
+  href: https://artifacts.apis.io/blaxel/authentication/blaxel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blaxel-authentication.yml
@@ -183,17 +252,17 @@ common:
   type: Documentation
   url: https://docs.blaxel.ai/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/plans/blaxel-plans-pricing.yml
+  href: https://artifacts.apis.io/blaxel/plans/blaxel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blaxel-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/rate-limits/blaxel-rate-limits.yml
+  href: https://artifacts.apis.io/blaxel/rate-limits/blaxel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blaxel-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/finops/blaxel-finops.yml
+  href: https://artifacts.apis.io/blaxel/finops/blaxel-finops.yml
   title: ''
   type: FinOps
   url: finops/blaxel-finops.yml
@@ -221,7 +290,7 @@ modified: '2026-07-01'
 name: Blaxel
 nav: Providers
 network: true
-overview: 'Blaxel publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Compute API, Functions API, and 8 more. Tagged areas include Artificial Intelligence, Agents, Infrastructure, Sandbox, and MCP.
+overview: 'Blaxel publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Compute API, Functions API, and 22 more. Tagged areas include Artificial Intelligence, Agents, Infrastructure, Sandbox, and MCP.
 
 
   Blaxel''s developer surface includes pricing, authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -229,14 +298,14 @@ plans:
 - name: Blaxel Plans Pricing
   plan_count: 14
   slug: blaxel-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Blaxel Rate Limits
   slug: blaxel-rate-limits
 score:
   band: thin
-  composite: 32.5
+  composite: 33.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 49.0
@@ -244,22 +313,22 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.5
+  delta: -0.2
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
-    contract_quality: 47.5
+    contract_quality: 48.7
     developer_ergonomics: 32.1
-    discoverability: 68.3
-    operational_transparency: 2.6
-  previous_composite: 35.0
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 37
     mcp: first-party
   regulatory:
     applies: true
@@ -267,13 +336,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/screenshots/blaxel-2026-07-25T203304.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/blaxel/blaxel-2026-07-25T203304.png
 security:
 - kind: authentication
   name: Blaxel Authentication

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Avenda Health provides healthcare data services.
@@ -32,12 +34,12 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avenda-health/refs/heads/main/hosts/avenda-health-hosts.yml
+  href: https://artifacts.apis.io/avenda-health/hosts/avenda-health-hosts.yml
   title: ''
   type: Hosts
   url: hosts/avenda-health-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avenda-health/refs/heads/main/security/avenda-health-domain-security.yml
+  href: https://artifacts.apis.io/avenda-health/security/avenda-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/avenda-health-domain-security.yml
@@ -72,12 +74,12 @@ name: Avenda Health
 nav: Providers
 network: true
 overview: Avenda Health is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Oncology, and Technology.
-random_paper: 0
+random_paper: 2
 score:
   band: minimal
   composite: 4.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
@@ -103,14 +105,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/avenda-health/refs/heads/main/screenshots/avenda-health-2026-10-11T101124.png
+screenshot: https://apis.io/screenshots/avenda-health/avenda-health-2026-10-11T101124.png
 security:
 - kind: domain-security
   name: Avenda Health Domain Security

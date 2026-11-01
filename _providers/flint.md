@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.4
-  scored_at: '2026-10-17'
+  score: 51.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,21 +56,18 @@ apis:
 - description: Flint's official hosted remote MCP server. Four tools — list_sites, run_background_agent, check_background_agent_status and publish_site — let an MCP client discover Flint sites, run background design
   name: Flint MCP Server
   slug: flint-mcp-server
-artifact_total: 14
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Flint Webhooks
   slug: flint-webhooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Flint Agent Tasks API
   slug: open-flint-agent-tasks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/capabilities/flint-capability-edges.yml
+  href: https://artifacts.apis.io/flint/capabilities/flint-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/flint-capability-edges.yml
@@ -77,17 +76,17 @@ common:
   type: License
   url: https://github.com/tryflint/claude-code-plugin/blob/main/LICENSE
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/overlays/flint-agent-tasks-overlay.yaml
+  href: https://artifacts.apis.io/flint/overlays/flint-agent-tasks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/flint-agent-tasks-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/security/flint-domain-security.yml
+  href: https://artifacts.apis.io/flint/security/flint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flint-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/agentic-access/flint-agentic-access.yml
+  href: https://artifacts.apis.io/flint/agentic-access/flint-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/flint-agentic-access.yml
@@ -136,62 +135,62 @@ common:
   type: PrivacyPolicy
   url: https://www.flint.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/mcp/flint-mcp.yml
+  href: https://artifacts.apis.io/flint/mcp/flint-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/flint-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/authentication/flint-authentication.yml
+  href: https://artifacts.apis.io/flint/authentication/flint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flint-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/scopes/flint-scopes.yml
+  href: https://artifacts.apis.io/flint/scopes/flint-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/flint-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/asyncapi/flint-webhooks.yml
+  href: https://artifacts.apis.io/flint/asyncapi/flint-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/flint-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/conventions/flint-conventions.yml
+  href: https://artifacts.apis.io/flint/conventions/flint-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flint-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/lifecycle/flint-lifecycle.yml
+  href: https://artifacts.apis.io/flint/lifecycle/flint-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flint-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/errors/flint-problem-types.yml
+  href: https://artifacts.apis.io/flint/errors/flint-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/flint-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/conformance/flint-conformance.yml
+  href: https://artifacts.apis.io/flint/conformance/flint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flint-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/data-model/flint-data-model.yml
+  href: https://artifacts.apis.io/flint/data-model/flint-data-model.yml
   title: ''
   type: DataModel
   url: data-model/flint-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/well-known/flint-well-known.yml
+  href: https://artifacts.apis.io/flint/well-known/flint-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/flint-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/well-known/flint-security.txt
+  href: https://artifacts.apis.io/flint/well-known/flint-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/flint-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/security/flint-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/flint/security/flint-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/flint-vulnerability-disclosure.yml
@@ -200,42 +199,42 @@ common:
   type: Security
   url: https://www.flint.com/security/vdp
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/security/flint-trust-center.yml
+  href: https://artifacts.apis.io/flint/security/flint-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/flint-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/flint/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/llms/flint-llms.txt
+  href: https://artifacts.apis.io/flint/llms/flint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flint-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/mcp/flint-tool-crosswalk.yml
+  href: https://artifacts.apis.io/flint/mcp/flint-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/flint-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/packages/flint-packages.yml
+  href: https://artifacts.apis.io/flint/packages/flint-packages.yml
   title: ''
   type: Packages
   url: packages/flint-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/plans/flint-plans-pricing.yml
+  href: https://artifacts.apis.io/flint/plans/flint-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/flint-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/rate-limits/flint-rate-limits.yml
+  href: https://artifacts.apis.io/flint/rate-limits/flint-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/flint-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/changelog/flint-changelog.yml
+  href: https://artifacts.apis.io/flint/changelog/flint-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/flint-changelog.yml
@@ -277,6 +276,14 @@ common:
   url: https://www.flint.com/careers
 created: '2026-07-17'
 description: Flint (Flint Technologies Inc., tryflint.com / flint.com) is an AI web platform for marketing teams that programmatically generates on-brand, high-converting landing pages and runs autonomous agents — including a Google Ad agent — to keep ad accounts optimized. Its products are Pages (AI-generated landing pages), Agents (autonomous campaign upkeep), and an Agent Tasks REST API plus a hosted MCP server that let developers create, modify, and publish pages from Claude, Clay, Relay.app, or any HTTP client. Backed by Accel. This profile was enriched from Flint's public developer documentation, MCP OAuth discovery metadata, and security surface.
+finops:
+- has_sources: true
+  method: derived
+  name: Flint Finops
+  primary_unit: ''
+  service_category: ''
+  slug: flint-finops
+  template: true
 image: https://www.flint.com/images/favicon-144x144.png
 layout: provider
 mcp_servers:
@@ -298,6 +305,9 @@ plans:
 - name: Flint Plans Pricing
   plan_count: 3
   slug: flint-plans-pricing
+- name: Flint Price Estimates
+  plan_count: 0
+  slug: flint-price-estimates
 random_paper: 13
 rate_limits:
 - limit_count: 0
@@ -310,23 +320,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.5
+  composite: 65.9
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 28
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 85.5
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 58.8
     developer_ergonomics: 64.3
-    discoverability: 75.0
-    operational_transparency: 52.6
-  previous_composite: 64.4
+    discoverability: 65.0
+    operational_transparency: 55.3
+  previous_composite: 65.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -347,13 +357,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/screenshots/flint-2026-07-25T214758.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/flint/flint-2026-07-25T214758.png
 security:
 - kind: authentication
   name: Flint Authentication
@@ -371,6 +382,14 @@ security:
   name: Flint Trust Center
   slug: flint-trust-center
   summary_line: SOC 2 Type II
+skill_count: 3
+skills:
+- name: edit-site
+  slug: flint-edit-site
+- name: Generate on-brand landing pages from a template
+  slug: flint-generate-landing-pages
+- name: Modify a Flint site with a prompt agent
+  slug: flint-prompt-edit-site
 slug: flint
 tags:
 - Company

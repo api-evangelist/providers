@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://prd.kr-ccapi.kia.com
@@ -51,47 +53,47 @@ common:
   type: Pricing
   url: https://www.kia.com/kr/vehicles/k9/price
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kia/refs/heads/main/rules/kia-rules.yml
+  href: https://artifacts.apis.io/kia/rules/kia-rules.yml
   title: ''
   type: Spectral
   url: rules/kia-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kia/refs/heads/main/asyncapi/kia-webhooks.yml
+  href: https://artifacts.apis.io/kia/asyncapi/kia-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kia-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kia/refs/heads/main/security/kia-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kia/security/kia-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/kia-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kia/refs/heads/main/errors/kia-problem-types.yml
+  href: https://artifacts.apis.io/kia/errors/kia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kia-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kia/refs/heads/main/conformance/kia-conformance.yml
+  href: https://artifacts.apis.io/kia/conformance/kia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kia-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kia/refs/heads/main/well-known/kia-security.txt
+  href: https://artifacts.apis.io/kia/well-known/kia-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/kia-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kia/refs/heads/main/well-known/kia-well-known.yml
+  href: https://artifacts.apis.io/kia/well-known/kia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kia-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kia/refs/heads/main/hosts/kia-hosts.yml
+  href: https://artifacts.apis.io/kia/hosts/kia-hosts.yml
   title: ''
   type: Hosts
   url: hosts/kia-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kia/refs/heads/main/vendors/kia-vendors.yml
+  href: https://artifacts.apis.io/kia/vendors/kia-vendors.yml
   title: ''
   type: Vendors
   url: vendors/kia-vendors.yml
@@ -100,12 +102,12 @@ common:
   type: Documentation
   url: https://developer.kia.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kia/refs/heads/main/security/kia-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kia/security/kia-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kia-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kia/refs/heads/main/security/kia-domain-security.yml
+  href: https://artifacts.apis.io/kia/security/kia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kia-domain-security.yml
@@ -157,7 +159,7 @@ overview: 'Kia is listed with 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Kia''s developer surface includes pricing, documentation, FAQ, support, and 16 more developer resources.'
-random_paper: 1
+random_paper: 21
 rules:
 - authorship: generated
   effective_rule_count: 56
@@ -173,7 +175,7 @@ rules:
   slug: kia-rules
 score:
   band: thin
-  composite: 32.8
+  composite: 33.5
   coverage:
     artifact_dirs: 11
     catalog_earned: 41.5
@@ -181,6 +183,7 @@ score:
     catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
@@ -188,6 +191,14 @@ score:
     developer_ergonomics: 35.7
     discoverability: 66.1
     operational_transparency: 34.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - south-korea
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - japan-korea
+  previous_composite: 33.5
   provenance:
     conformance: derived
     contracts:
@@ -202,11 +213,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Kia Domain Security

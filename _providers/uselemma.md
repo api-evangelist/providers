@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.0
-  scored_at: '2026-10-17'
+  score: 32.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.uselemma.ai
@@ -57,15 +59,12 @@ apis:
   description: The Traces API from Lemma — 17 operation(s) for traces.
   name: Lemma Traces API
   slug: uselemma-traces-api
-artifact_total: 14
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Uselemma Webhooks
   slug: uselemma-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Lemma Platform Artifacts API
   slug: open-uselemma-artifacts-api
@@ -80,12 +79,12 @@ collections:
   slug: open-uselemma-traces-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/capabilities/uselemma-capability-edges.yml
+  href: https://artifacts.apis.io/uselemma/capabilities/uselemma-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/uselemma-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/overlays/uselemma-platform-overlay.yaml
+  href: https://artifacts.apis.io/uselemma/overlays/uselemma-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/uselemma-platform-overlay.yaml
@@ -110,7 +109,7 @@ common:
   type: ChangeLog
   url: https://www.uselemma.ai/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/changelog/uselemma-changelog.yml
+  href: https://artifacts.apis.io/uselemma/changelog/uselemma-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/uselemma-changelog.yml
@@ -131,77 +130,77 @@ common:
   type: TrustCenter
   url: https://trust.uselemma.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/security/uselemma-trust-center.yml
+  href: https://artifacts.apis.io/uselemma/security/uselemma-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/uselemma-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/mcp/uselemma-mcp.yml
+  href: https://artifacts.apis.io/uselemma/mcp/uselemma-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/uselemma-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/uselemma/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/llms/uselemma-llms.txt
+  href: https://artifacts.apis.io/uselemma/llms/uselemma-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uselemma-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/packages/uselemma-packages.yml
+  href: https://artifacts.apis.io/uselemma/packages/uselemma-packages.yml
   title: ''
   type: Packages
   url: packages/uselemma-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/packages/uselemma-packages.yml
+  href: https://artifacts.apis.io/uselemma/packages/uselemma-packages.yml
   title: ''
   type: SDKs
   url: packages/uselemma-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/asyncapi/uselemma-webhooks.yml
+  href: https://artifacts.apis.io/uselemma/asyncapi/uselemma-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/uselemma-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/conventions/uselemma-conventions.yml
+  href: https://artifacts.apis.io/uselemma/conventions/uselemma-conventions.yml
   title: ''
   type: Conventions
   url: conventions/uselemma-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/conventions/uselemma-conventions.yml
+  href: https://artifacts.apis.io/uselemma/conventions/uselemma-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/uselemma-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/errors/uselemma-problem-types.yml
+  href: https://artifacts.apis.io/uselemma/errors/uselemma-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/uselemma-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/lifecycle/uselemma-lifecycle.yml
+  href: https://artifacts.apis.io/uselemma/lifecycle/uselemma-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/uselemma-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/conformance/uselemma-conformance.yml
+  href: https://artifacts.apis.io/uselemma/conformance/uselemma-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uselemma-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/authentication/uselemma-authentication.yml
+  href: https://artifacts.apis.io/uselemma/authentication/uselemma-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uselemma-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/security/uselemma-domain-security.yml
+  href: https://artifacts.apis.io/uselemma/security/uselemma-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uselemma-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/data-model/uselemma-data-model.yml
+  href: https://artifacts.apis.io/uselemma/data-model/uselemma-data-model.yml
   title: ''
   type: DataModel
   url: data-model/uselemma-data-model.yml
@@ -224,12 +223,12 @@ overview: 'Lemma publishes 4 API contracts indexed on the [APIs.io](https://apis
 
 
   Lemma''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, authentication, and 21 more developer resources.'
-random_paper: 21
+random_paper: 17
 score:
   band: developing
-  composite: 42.5
+  composite: 42.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -241,9 +240,9 @@ score:
     contract_governance: 4.5
     contract_quality: 56.4
     developer_ergonomics: 61.9
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 28.9
-  previous_composite: 42.5
+  previous_composite: 42.2
   provenance:
     conformance: derived
     contracts:
@@ -259,13 +258,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/screenshots/uselemma-2026-08-17T082716.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/uselemma/uselemma-2026-08-17T082716.png
 security:
 - kind: authentication
   name: Uselemma Authentication
@@ -279,6 +279,14 @@ security:
   name: Uselemma Trust Center
   slug: uselemma-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: uselemma-debug-agent-traces
+  slug: uselemma-debug-agent-traces
+- name: lemma-tracing
+  slug: uselemma-lemma-tracing
+- name: uselemma-triage-production-issues
+  slug: uselemma-triage-production-issues
 slug: uselemma
 tags:
 - Company

@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.0
-  scored_at: '2026-10-17'
+  score: 44.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 272
   slug: decisiv-agentic-access
   summary_line: 272 operations · 108 acting
-api_count: 21
+api_count: 7
 apis:
 - description: The original XML Platform API for service providers and dealer systems, covering the lifecycle of a service case — assets, cases, estimates and line items, parts, VMRS, notes, attachments and estimate
   name: Decisiv Platform API
@@ -394,7 +396,7 @@ apis:
   description: The Webhooks Events API from Decisiv — 1 operation(s) for webhooks events.
   name: Decisiv Webhooks Events API
   slug: decisiv-webhooks-events-api
-artifact_total: 84
+artifact_total: 89
 asyncapis:
 - description: ''
   name: Decisiv Srm Gateway Webhooks
@@ -420,47 +422,47 @@ collections:
   slug: open-decisiv-telematics
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/capabilities/decisiv-capability-edges.yml
+  href: https://artifacts.apis.io/decisiv/capabilities/decisiv-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/decisiv-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/overlays/decisiv-account-management-overlay.yaml
+  href: https://artifacts.apis.io/decisiv/overlays/decisiv-account-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/decisiv-account-management-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/overlays/decisiv-asset-management-overlay.yaml
+  href: https://artifacts.apis.io/decisiv/overlays/decisiv-asset-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/decisiv-asset-management-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/overlays/decisiv-service-management-overlay.yaml
+  href: https://artifacts.apis.io/decisiv/overlays/decisiv-service-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/decisiv-service-management-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/overlays/decisiv-telematics-overlay.yaml
+  href: https://artifacts.apis.io/decisiv/overlays/decisiv-telematics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/decisiv-telematics-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/overlays/decisiv-global-assets-overlay.yaml
+  href: https://artifacts.apis.io/decisiv/overlays/decisiv-global-assets-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/decisiv-global-assets-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/overlays/decisiv-service-provider-overlay.yaml
+  href: https://artifacts.apis.io/decisiv/overlays/decisiv-service-provider-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/decisiv-service-provider-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/agentic-access/decisiv-agentic-access.yml
+  href: https://artifacts.apis.io/decisiv/agentic-access/decisiv-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/decisiv-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/security/decisiv-trust-center.yml
+  href: https://artifacts.apis.io/decisiv/security/decisiv-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/decisiv-trust-center.yml
@@ -525,108 +527,116 @@ common:
   type: Marketplace
   url: https://www.decisivmarketplace.com/solutions-center/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/authentication/decisiv-authentication.yml
+  href: https://artifacts.apis.io/decisiv/authentication/decisiv-authentication.yml
   title: ''
   type: Authentication
   url: authentication/decisiv-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/scopes/decisiv-scopes.yml
+  href: https://artifacts.apis.io/decisiv/scopes/decisiv-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/decisiv-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/conventions/decisiv-conventions.yml
+  href: https://artifacts.apis.io/decisiv/conventions/decisiv-conventions.yml
   title: ''
   type: Conventions
   url: conventions/decisiv-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/conventions/decisiv-conventions.yml
+  href: https://artifacts.apis.io/decisiv/conventions/decisiv-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/decisiv-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/errors/decisiv-problem-types.yml
+  href: https://artifacts.apis.io/decisiv/errors/decisiv-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/decisiv-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/errors/decisiv-error-codes.yml
+  href: https://artifacts.apis.io/decisiv/errors/decisiv-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/decisiv-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/lifecycle/decisiv-lifecycle.yml
+  href: https://artifacts.apis.io/decisiv/lifecycle/decisiv-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/decisiv-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/changelog/decisiv-changelog.yml
+  href: https://artifacts.apis.io/decisiv/changelog/decisiv-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/decisiv-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/conformance/decisiv-conformance.yml
+  href: https://artifacts.apis.io/decisiv/conformance/decisiv-conformance.yml
   title: ''
   type: Conformance
   url: conformance/decisiv-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/data-model/decisiv-data-model.yml
+  href: https://artifacts.apis.io/decisiv/data-model/decisiv-data-model.yml
   title: ''
   type: DataModel
   url: data-model/decisiv-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/asyncapi/decisiv-srm-gateway-webhooks.yml
+  href: https://artifacts.apis.io/decisiv/asyncapi/decisiv-srm-gateway-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/decisiv-srm-gateway-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/well-known/decisiv-well-known.yml
+  href: https://artifacts.apis.io/decisiv/well-known/decisiv-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/decisiv-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/llms/decisiv-llms.txt
+  href: https://artifacts.apis.io/decisiv/llms/decisiv-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/decisiv-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/packages/decisiv-packages.yml
+  href: https://artifacts.apis.io/decisiv/packages/decisiv-packages.yml
   title: ''
   type: Packages
   url: packages/decisiv-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/components/decisiv-components.yml
+  href: https://artifacts.apis.io/decisiv/components/decisiv-components.yml
   title: ''
   type: Components
   url: components/decisiv-components.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/plans/decisiv-plans-pricing.yml
+  href: https://artifacts.apis.io/decisiv/plans/decisiv-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/decisiv-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/rate-limits/decisiv-rate-limits.yml
+  href: https://artifacts.apis.io/decisiv/rate-limits/decisiv-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/decisiv-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/security/decisiv-domain-security.yml
+  href: https://artifacts.apis.io/decisiv/security/decisiv-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/decisiv-domain-security.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/sandbox/decisiv-sandbox.yml
+  href: https://artifacts.apis.io/decisiv/sandbox/decisiv-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/decisiv-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/decisiv/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-12'
 description: 'Decisiv is the Reston, Virginia company behind the commercial vehicle industry''s Service Relationship Management (SRM) platform — a cloud service that connects fleets, asset owners, OEMs, dealers, independent service providers and component suppliers around a single service event. The platform orchestrates the whole repair lifecycle: asset registration and VIN-based identification, service requests, case creation, estimates and line items with VMRS coding, parts, labor and additional charges, technician time tasks, notes, attachments, approvals, sublet work between shops, and telematics-driven fault codes and diagnostic readings. Decisiv exposes this through the SRM Gateway APIs — four JSON:API-shaped OpenAPI 3.1 modules (Account Management, Asset Management, Service Management, Telematics) — plus the older Global Assets and Service Provider Swagger 2.0 APIs and the XML Platform API. Access is OAuth 2.0 and provisioned per account; documentation is public but credentials come
   through sales.'
+finops:
+- has_sources: true
+  method: derived
+  name: Decisiv Finops
+  primary_unit: ''
+  service_category: ''
+  slug: decisiv-finops
+  template: true
 image: https://www.decisiv.com/wp-content/uploads/2019/08/cropped-decisiv-favicon-1.png
 layout: provider
 modified: '2026-08-12'
@@ -644,7 +654,7 @@ plans:
 - name: Decisiv Plans Pricing
   plan_count: 0
   slug: decisiv-plans-pricing
-random_paper: 17
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Decisiv Rate Limits
@@ -656,22 +666,22 @@ scopes:
   summary_line: 5 scopes · authorizationCode/password
 score:
   band: developing
-  composite: 52.2
+  composite: 52.1
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 29
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 58.6
-    developer_ergonomics: 56.5
+    contract_quality: 55.2
+    developer_ergonomics: 66.1
     discoverability: 71.4
-    operational_transparency: 26.3
+    operational_transparency: 28.9
   previous_composite: 52.1
   provenance:
     agentic_access: derived
@@ -688,13 +698,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/screenshots/decisiv-2026-08-17T080849.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/decisiv/decisiv-2026-08-17T080849.png
 security:
 - kind: authentication
   name: Decisiv Authentication
@@ -708,6 +719,16 @@ security:
   name: Decisiv Trust Center
   slug: decisiv-trust-center
   summary_line: ISO 27001, GDPR
+skill_count: 4
+skills:
+- name: Request service on a fleet asset and respond to the estimate
+  slug: decisiv-fleet-request-service
+- name: Open a service case for a customer asset and build the repair order
+  slug: decisiv-service-provider-open-and-bill-a-case
+- name: Subscribe to Decisiv SRM webhook events
+  slug: decisiv-subscribe-to-service-events
+- name: Push a telematics fault into SRM and turn it into service
+  slug: decisiv-telematics-fault-to-service
 slug: decisiv
 tags:
 - Company

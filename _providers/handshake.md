@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Read-only, institution-scoped EDU API for career-services data: applications, appointments, career fairs, jobs, postings, qualifications, and meetings. Authenticates via x-api-key header; supports pag'
@@ -95,27 +97,27 @@ common:
   type: StatusPage
   url: https://status.joinhandshake.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/handshake/refs/heads/main/changelog/handshake-changelog.yml
+  href: https://artifacts.apis.io/handshake/changelog/handshake-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/handshake-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/handshake/refs/heads/main/lifecycle/handshake-lifecycle.yml
+  href: https://artifacts.apis.io/handshake/lifecycle/handshake-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/handshake-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/handshake/refs/heads/main/authentication/handshake-authentication.yml
+  href: https://artifacts.apis.io/handshake/authentication/handshake-authentication.yml
   title: ''
   type: Authentication
   url: authentication/handshake-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/handshake/refs/heads/main/conventions/handshake-conventions.yml
+  href: https://artifacts.apis.io/handshake/conventions/handshake-conventions.yml
   title: ''
   type: Conventions
   url: conventions/handshake-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/handshake/refs/heads/main/security/handshake-trust-center.yml
+  href: https://artifacts.apis.io/handshake/security/handshake-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/handshake-trust-center.yml
@@ -128,17 +130,17 @@ common:
   type: Security
   url: https://joinhandshake.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/handshake/refs/heads/main/security/handshake-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/handshake/security/handshake-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/handshake-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/handshake/refs/heads/main/security/handshake-domain-security.yml
+  href: https://artifacts.apis.io/handshake/security/handshake-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/handshake-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/handshake/refs/heads/main/llms/handshake-llms.txt
+  href: https://artifacts.apis.io/handshake/llms/handshake-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/handshake-llms.txt
@@ -154,10 +156,10 @@ overview: 'Handshake is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Handshake''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, changelog, and 16 more developer resources.'
-random_paper: 11
+random_paper: 23
 score:
   band: thin
-  composite: 36.0
+  composite: 35.3
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -171,23 +173,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 42.1
-  previous_composite: 36.0
+  previous_composite: 35.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/handshake/refs/heads/main/screenshots/handshake-2026-07-25T220619.png
+screenshot: https://apis.io/screenshots/handshake/handshake-2026-07-25T220619.png
 security:
 - kind: authentication
   name: Handshake Authentication

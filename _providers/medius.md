@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/medius/refs/heads/main/vendors/medius-vendors.yml
+  href: https://artifacts.apis.io/medius/vendors/medius-vendors.yml
   title: ''
   type: Vendors
   url: vendors/medius-vendors.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/medius/refs/heads/main/plans/medius-plans-pricing.yml
+  href: https://artifacts.apis.io/medius/plans/medius-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/medius-plans-pricing.yml
@@ -42,37 +44,37 @@ common:
   type: Compliance
   url: https://trust.medius.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medius/refs/heads/main/security/medius-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/medius/security/medius-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/medius-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medius/refs/heads/main/llms/medius-llms.txt
+  href: https://artifacts.apis.io/medius/llms/medius-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/medius-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medius/refs/heads/main/well-known/medius-status-security.txt
+  href: https://artifacts.apis.io/medius/well-known/medius-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/medius-status-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medius/refs/heads/main/well-known/medius-security.txt
+  href: https://artifacts.apis.io/medius/well-known/medius-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/medius-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medius/refs/heads/main/well-known/medius-medius-security.txt
+  href: https://artifacts.apis.io/medius/well-known/medius-medius-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/medius-medius-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medius/refs/heads/main/well-known/medius-well-known.yml
+  href: https://artifacts.apis.io/medius/well-known/medius-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/medius-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/medius/refs/heads/main/hosts/medius-hosts.yml
+  href: https://artifacts.apis.io/medius/hosts/medius-hosts.yml
   title: ''
   type: Hosts
   url: hosts/medius-hosts.yml
@@ -101,17 +103,17 @@ common:
   type: GettingStarted
   url: https://www.medius.com/solutions/supplier-onboarding/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medius/refs/heads/main/security/medius-trust-center.yml
+  href: https://artifacts.apis.io/medius/security/medius-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/medius-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medius/refs/heads/main/security/medius-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/medius/security/medius-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/medius-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medius/refs/heads/main/security/medius-domain-security.yml
+  href: https://artifacts.apis.io/medius/security/medius-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/medius-domain-security.yml
@@ -151,10 +153,10 @@ plans:
 - name: Medius Plans Pricing
   plan_count: 1
   slug: medius-plans-pricing
-random_paper: 9
+random_paper: 23
 score:
   band: emerging
-  composite: 25.1
+  composite: 24.4
   coverage:
     artifact_dirs: 6
     catalog_earned: 35.0
@@ -162,21 +164,24 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 58.9
+    discoverability: 51.8
     operational_transparency: 26.3
+  previous_composite: 24.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

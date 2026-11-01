@@ -4,6 +4,6 @@ layout: provider
 name: defense-in-depth
 nav: Providers
 network: true
-random_paper: 6
+random_paper: 8
 slug: defense-in-depth
 ---

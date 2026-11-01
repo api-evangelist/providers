@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-17'
+  score: 12.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The fastest continuous integration and continuous delivery platform
@@ -42,17 +44,17 @@ apis:
 artifact_total: 4
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/buddy/refs/heads/main/a2a/buddy-a2a.yml
+  href: https://artifacts.apis.io/buddy/a2a/buddy-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/buddy-a2a.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/buddy/refs/heads/main/security/buddy-trust-center.yml
+  href: https://artifacts.apis.io/buddy/security/buddy-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/buddy-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/buddy/refs/heads/main/security/buddy-domain-security.yml
+  href: https://artifacts.apis.io/buddy/security/buddy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/buddy-domain-security.yml
@@ -90,7 +92,7 @@ overview: 'Buddy is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 8
 score:
   band: minimal
-  composite: 8.9
+  composite: 8.6
   coverage:
     artifact_dirs: 7
     catalog_earned: 20.0
@@ -104,9 +106,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 46.7
+    discoverability: 42.9
     operational_transparency: 0.0
-  previous_composite: 8.9
+  previous_composite: 8.6
   provenance:
     mcp: first-party
   regulatory:
@@ -115,14 +117,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/buddy/refs/heads/main/screenshots/buddy-2026-06-20T173742.png
+screenshot: https://apis.io/screenshots/buddy/buddy-2026-06-20T173742.png
 security:
 - kind: domain-security
   name: Buddy Domain Security

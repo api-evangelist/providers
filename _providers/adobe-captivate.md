@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.8
-  scored_at: '2026-10-17'
+  score: 38.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -135,7 +137,7 @@ arazzos:
 - description: Find a learner's enrollment in a course, confirm it, and remove it if present.
   name: Adobe Learning Manager Unenroll a Learner from a Course
   slug: adobe-captivate-unenroll-learner-workflow
-artifact_total: 241
+artifact_total: 240
 asyncapis:
 - description: The Adobe Learning Manager Webhooks API enables real-time event notifications for learning management activities. When configured, Adobe Learning Manager sends HTTP POST requests to registered webhook
   name: Adobe Learning Manager Webhooks API
@@ -144,9 +146,6 @@ collections:
 - collection_type: postman
   name: Adobe Captivate Prime API (Learning Manager)
   slug: postman-adobe-captivate-prime-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Adobe Captivate Prime API (Learning Manager) Account API
   slug: open-adobe-captivate-account-api
@@ -188,47 +187,47 @@ collections:
   slug: open-adobe-captivate-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/plans/adobe-captivate-plans-pricing.yml
+  href: https://artifacts.apis.io/adobe-captivate/plans/adobe-captivate-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adobe-captivate-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/rate-limits/adobe-captivate-rate-limits.yml
+  href: https://artifacts.apis.io/adobe-captivate/rate-limits/adobe-captivate-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adobe-captivate-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/finops/adobe-captivate-finops.yml
+  href: https://artifacts.apis.io/adobe-captivate/finops/adobe-captivate-finops.yml
   title: ''
   type: FinOps
   url: finops/adobe-captivate-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/capabilities/adobe-captivate-capability-edges.yml
+  href: https://artifacts.apis.io/adobe-captivate/capabilities/adobe-captivate-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/adobe-captivate-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/agentic-access/adobe-captivate-agentic-access.yml
+  href: https://artifacts.apis.io/adobe-captivate/agentic-access/adobe-captivate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adobe-captivate-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/security/adobe-captivate-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/adobe-captivate/security/adobe-captivate-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adobe-captivate-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/security/adobe-captivate-domain-security.yml
+  href: https://artifacts.apis.io/adobe-captivate/security/adobe-captivate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adobe-captivate-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/authentication/adobe-captivate-authentication.yml
+  href: https://artifacts.apis.io/adobe-captivate/authentication/adobe-captivate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adobe-captivate-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/scopes/adobe-captivate-scopes.yml
+  href: https://artifacts.apis.io/adobe-captivate/scopes/adobe-captivate-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/adobe-captivate-scopes.yml
@@ -237,32 +236,32 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/adobe-captivate/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/arazzo/adobe-captivate-activate-and-enroll-user-workflow.yml
+  href: https://artifacts.apis.io/adobe-captivate/arazzo/adobe-captivate-activate-and-enroll-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-captivate-activate-and-enroll-user-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/arazzo/adobe-captivate-enroll-learner-in-course-workflow.yml
+  href: https://artifacts.apis.io/adobe-captivate/arazzo/adobe-captivate-enroll-learner-in-course-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-captivate-enroll-learner-in-course-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/arazzo/adobe-captivate-learner-progress-report-workflow.yml
+  href: https://artifacts.apis.io/adobe-captivate/arazzo/adobe-captivate-learner-progress-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-captivate-learner-progress-report-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/arazzo/adobe-captivate-run-bulk-job-workflow.yml
+  href: https://artifacts.apis.io/adobe-captivate/arazzo/adobe-captivate-run-bulk-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-captivate-run-bulk-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/arazzo/adobe-captivate-search-and-enroll-workflow.yml
+  href: https://artifacts.apis.io/adobe-captivate/arazzo/adobe-captivate-search-and-enroll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-captivate-search-and-enroll-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/arazzo/adobe-captivate-unenroll-learner-workflow.yml
+  href: https://artifacts.apis.io/adobe-captivate/arazzo/adobe-captivate-unenroll-learner-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-captivate-unenroll-learner-workflow.yml
@@ -335,32 +334,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/adobe
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/json-schema/adobe-captivate-learning-object-schema.json
+  href: https://artifacts.apis.io/adobe-captivate/json-schema/adobe-captivate-learning-object-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/adobe-captivate-learning-object-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/json-ld/adobe-captivate-context.jsonld
+  href: https://artifacts.apis.io/adobe-captivate/json-ld/adobe-captivate-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adobe-captivate-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/rules/adobe-captivate-spectral-rules.yml
+  href: https://artifacts.apis.io/adobe-captivate/rules/adobe-captivate-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/adobe-captivate-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/vocabulary/adobe-captivate-vocabulary.yaml
+  href: https://artifacts.apis.io/adobe-captivate/vocabulary/adobe-captivate-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/adobe-captivate-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/json-ld/adobe-captivate-learning-manager-webhooks-context.jsonld
+  href: https://artifacts.apis.io/adobe-captivate/json-ld/adobe-captivate-learning-manager-webhooks-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adobe-captivate-learning-manager-webhooks-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/json-ld/adobe-captivate-prime-api-context.jsonld
+  href: https://artifacts.apis.io/adobe-captivate/json-ld/adobe-captivate-prime-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adobe-captivate-prime-api-context.jsonld
@@ -937,7 +936,7 @@ plans:
 - name: Adobe Captivate Plans Pricing
   plan_count: 2
   slug: adobe-captivate-plans-pricing
-random_paper: 17
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Adobe Captivate Rate Limits
@@ -983,8 +982,8 @@ scopes:
   slug: adobe-captivate-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 47.0
+  band: strong
+  composite: 57.1
   coverage:
     artifact_dirs: 23
     catalog_earned: 60.0
@@ -992,15 +991,15 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 27.3
     contract_quality: 74.5
-    developer_ergonomics: 45.2
+    developer_ergonomics: 61.9
     discoverability: 48.2
-    operational_transparency: 15.8
-  previous_composite: 48.5
+    operational_transparency: 52.6
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1014,13 +1013,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/screenshots/adobe-captivate-2026-06-20T164834.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/adobe-captivate/adobe-captivate-2026-06-20T164834.png
 security:
 - kind: authentication
   name: Adobe Captivate Authentication

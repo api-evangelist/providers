@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.7
-  scored_at: '2026-10-17'
+  score: 32.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 2
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 150
   slug: qwiet-ai-agentic-access
   summary_line: 150 operations · 58 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://app.shiftleft.io/api/v4
   baseurl_source: declared
@@ -179,15 +181,12 @@ apis:
   description: The endpoints to manage the Wiz integration.
   name: Qwiet Ai Wiz API
   slug: qwiet-ai-wiz-api
-artifact_total: 60
+artifact_total: 66
 asyncapis:
 - description: ''
   name: Qwiet Ai Alerting Webhooks
   slug: qwiet-ai-alerting-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: alerting API
   slug: open-qwiet-ai-alerting-api
@@ -270,8 +269,13 @@ collections:
   name: alerting wiz API
   slug: open-qwiet-ai-wiz-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/qwiet-ai/plans/qwiet-ai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/qwiet-ai-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/capabilities/qwiet-ai-capability-edges.yml
+  href: https://artifacts.apis.io/qwiet-ai/capabilities/qwiet-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/qwiet-ai-capability-edges.yml
@@ -320,77 +324,77 @@ common:
   type: PrivacyPolicy
   url: https://www.harness.io/legal/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/authentication/qwiet-ai-authentication.yml
+  href: https://artifacts.apis.io/qwiet-ai/authentication/qwiet-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qwiet-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/security/qwiet-ai-domain-security.yml
+  href: https://artifacts.apis.io/qwiet-ai/security/qwiet-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qwiet-ai-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/lifecycle/qwiet-ai-lifecycle.yml
+  href: https://artifacts.apis.io/qwiet-ai/lifecycle/qwiet-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qwiet-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/conventions/qwiet-ai-conventions.yml
+  href: https://artifacts.apis.io/qwiet-ai/conventions/qwiet-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qwiet-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/errors/qwiet-ai-problem-types.yml
+  href: https://artifacts.apis.io/qwiet-ai/errors/qwiet-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qwiet-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/data-model/qwiet-ai-data-model.yml
+  href: https://artifacts.apis.io/qwiet-ai/data-model/qwiet-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qwiet-ai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/conformance/qwiet-ai-conformance.yml
+  href: https://artifacts.apis.io/qwiet-ai/conformance/qwiet-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qwiet-ai-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/overlays/qwiet-ai-openapi-overlay.yaml
+  href: https://artifacts.apis.io/qwiet-ai/overlays/qwiet-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/qwiet-ai-openapi-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/packages/qwiet-ai-packages.yml
+  href: https://artifacts.apis.io/qwiet-ai/packages/qwiet-ai-packages.yml
   title: ''
   type: Packages
   url: packages/qwiet-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/packages/qwiet-ai-packages.yml
+  href: https://artifacts.apis.io/qwiet-ai/packages/qwiet-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/qwiet-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/cli/qwiet-ai-cli.yml
+  href: https://artifacts.apis.io/qwiet-ai/cli/qwiet-ai-cli.yml
   title: ''
   type: CLI
   url: cli/qwiet-ai-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/mcp/qwiet-ai-mcp.yml
+  href: https://artifacts.apis.io/qwiet-ai/mcp/qwiet-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/qwiet-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/qwiet-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/asyncapi/qwiet-ai-alerting-webhooks.yml
+  href: https://artifacts.apis.io/qwiet-ai/asyncapi/qwiet-ai-alerting-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/qwiet-ai-alerting-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/llms/qwiet-ai-llms.txt
+  href: https://artifacts.apis.io/qwiet-ai/llms/qwiet-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qwiet-ai-llms.txt
@@ -407,17 +411,25 @@ common:
   type: StatusPage
   url: https://status.shiftleft.io
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/lifecycle/qwiet-ai-lifecycle.yml
+  href: https://artifacts.apis.io/qwiet-ai/lifecycle/qwiet-ai-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/qwiet-ai-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/agentic-access/qwiet-ai-agentic-access.yml
+  href: https://artifacts.apis.io/qwiet-ai/agentic-access/qwiet-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/qwiet-ai-agentic-access.yml
 created: '2026-07-17'
 description: Qwiet AI (by Harness, formerly ShiftLeft) is an application security testing platform that unifies SAST, SCA, secrets, IaC, and container scanning with AI-assisted AutoFix remediation. The Qwiet AI API v4 (https://app.shiftleft.io/api/v4) lets teams programmatically manage applications, run and read code scans, work with findings and source-to-sink data flows, request and apply AutoFix recommendations, look up package CVEs (Intelligent SCA), manage RBAC/teams/tokens, and configure alerting webhooks and Slack notifications. Qwiet also ships a first-party CLI (`sl`), a published MCP server (harness-code-security-mcp), and packaged agent skills, making its code-security workflows agent-ready. Surfaced as a portfolio company of Mayfield and enriched from the provider's public developer surface.
+finops:
+- has_sources: true
+  method: derived
+  name: Qwiet Ai Finops
+  primary_unit: ''
+  service_category: ''
+  slug: qwiet-ai-finops
+  template: true
 image: https://docs.shiftleft.io/img/sl-logo.svg
 layout: provider
 mcp_servers:
@@ -434,27 +446,31 @@ overview: 'Qwiet Ai publishes 27 API contracts indexed on the [APIs.io](https://
   The Qwiet Ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Qwiet Ai''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 25 more developer resources.'
+  Qwiet Ai''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 26 more developer resources.'
+plans:
+- name: Qwiet Ai Plans Pricing
+  plan_count: 3
+  slug: qwiet-ai-plans-pricing
 random_paper: 9
 score:
-  band: developing
-  composite: 52.7
+  band: strong
+  composite: 58.5
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 38.2
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 53.4
     developer_ergonomics: 83.3
-    discoverability: 71.7
-    operational_transparency: 34.2
-  previous_composite: 52.7
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -471,13 +487,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/screenshots/qwiet-ai-2026-08-17T081438.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/qwiet-ai/qwiet-ai-2026-08-17T081438.png
 security:
 - kind: authentication
   name: Qwiet Ai Authentication
@@ -487,6 +504,18 @@ security:
   name: Qwiet Ai Domain Security
   slug: qwiet-ai-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: autofix-vuln
+  slug: qwiet-ai-autofix-vuln
+- name: run-security-scan
+  slug: qwiet-ai-run-security-scan
+- name: setup-harness-code-security-mcp
+  slug: qwiet-ai-setup-harness-code-security-mcp
+- name: setup-harness-code-security-mcp
+  slug: qwiet-ai-setup-mcp
+- name: triage-vuln
+  slug: qwiet-ai-triage-vuln
 slug: qwiet-ai
 tags:
 - Company

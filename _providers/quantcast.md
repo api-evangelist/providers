@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'The Quantcast Platform GraphQL API (v2) is the primary programmatic interface to the Quantcast advertising platform. It exposes queries and mutations for reporting, campaign and line item management, '
@@ -44,10 +46,10 @@ apis:
 - description: 'Quantcast Measure is the company''s free audience measurement product. Publishers and advertisers integrate the Quantcast Live Tag (Q Pixel) on web properties, or the Measure SDKs on iOS, Android, and '
   name: Quantcast Measure (Live Tag)
   slug: quantcast-measure-tag
-artifact_total: 9
+artifact_total: 13
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/security/quantcast-domain-security.yml
+  href: https://artifacts.apis.io/quantcast/security/quantcast-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quantcast-domain-security.yml
@@ -168,88 +170,96 @@ common:
   type: Acquisition
   url: https://www.quantcast.com/press-release/inmobi-acquires-quantcast-choice-to-enhance-frictionless-consent-management-for-publishers/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/packages/quantcast-packages.yml
+  href: https://artifacts.apis.io/quantcast/packages/quantcast-packages.yml
   title: ''
   type: Packages
   url: packages/quantcast-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/packages/quantcast-packages.yml
+  href: https://artifacts.apis.io/quantcast/packages/quantcast-packages.yml
   title: ''
   type: SDKs
   url: packages/quantcast-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/well-known/quantcast-well-known.yml
+  href: https://artifacts.apis.io/quantcast/well-known/quantcast-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/quantcast-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/authentication/quantcast-authentication.yml
+  href: https://artifacts.apis.io/quantcast/authentication/quantcast-authentication.yml
   title: ''
   type: Authentication
   url: authentication/quantcast-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/scopes/quantcast-scopes.yml
+  href: https://artifacts.apis.io/quantcast/scopes/quantcast-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/quantcast-scopes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/rate-limits/quantcast-rate-limits.yml
+  href: https://artifacts.apis.io/quantcast/rate-limits/quantcast-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/quantcast-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/plans/quantcast-plans-pricing.yml
+  href: https://artifacts.apis.io/quantcast/plans/quantcast-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/quantcast-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/conventions/quantcast-conventions.yml
+  href: https://artifacts.apis.io/quantcast/conventions/quantcast-conventions.yml
   title: ''
   type: Conventions
   url: conventions/quantcast-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/errors/quantcast-problem-types.yml
+  href: https://artifacts.apis.io/quantcast/errors/quantcast-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/quantcast-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/lifecycle/quantcast-lifecycle.yml
+  href: https://artifacts.apis.io/quantcast/lifecycle/quantcast-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/quantcast-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/conformance/quantcast-conformance.yml
+  href: https://artifacts.apis.io/quantcast/conformance/quantcast-conformance.yml
   title: ''
   type: Conformance
   url: conformance/quantcast-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/data-model/quantcast-data-model.yml
+  href: https://artifacts.apis.io/quantcast/data-model/quantcast-data-model.yml
   title: ''
   type: DataModel
   url: data-model/quantcast-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/components/quantcast-components.yml
+  href: https://artifacts.apis.io/quantcast/components/quantcast-components.yml
   title: ''
   type: Components
   url: components/quantcast-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/mcp/quantcast-mcp.yml
+  href: https://artifacts.apis.io/quantcast/mcp/quantcast-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/quantcast-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/quantcast/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/llms/quantcast-llms.txt
+  href: https://artifacts.apis.io/quantcast/llms/quantcast-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/quantcast-llms.txt
 created: '2026-05-25'
 description: Quantcast is a San Francisco-headquartered digital advertising and audience intelligence company founded in 2006. Its flagship offering is the Quantcast Platform, an AI-driven demand-side platform (DSP) for programmatic display, video, CTV, audio, mobile, and native advertising, powered by the company's proprietary Audience Graph and Ara AI engine. Quantcast also operates Quantcast Measure, a free audience measurement product that has tagged millions of digital properties to produce demographic, psychographic, and cross-device audience insights. For programmatic access, Quantcast exposes a developer portal at developers.quantcast.com built around a GraphQL API (v2) for reporting, campaign management, and audience operations on the Quantcast Platform, secured via OAuth 2.0 client credentials. A server-to-server Conversion API augments the browser-side Live Tag for offline and signal-loss-resilient conversion tracking. Quantcast Choice, the company's IAB TCF v2-compliant Consent
   Management Platform, was acquired by InMobi in August 2023 and is now operated as part of InMobi CMP; legacy Quantcast Choice mobile SDKs remain published under the quantcast GitHub organization for reference. Quantcast also open-sources the Quantcast File System (QFS), a C++ distributed file system, and mobile/Roku measurement SDKs.
+finops:
+- has_sources: true
+  method: derived
+  name: Quantcast Finops
+  primary_unit: ''
+  service_category: ''
+  slug: quantcast-finops
+  template: true
 graphqls:
 - description: <!--
   name: Quantcast GraphQL API
@@ -268,7 +278,7 @@ plans:
 - name: Quantcast Plans Pricing
   plan_count: 0
   slug: quantcast-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Quantcast Rate Limits
@@ -280,22 +290,22 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 43.4
+  composite: 41.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 5.3
+    contract_quality: 0.0
     developer_ergonomics: 80.4
-    discoverability: 79.5
-    operational_transparency: 50.0
+    discoverability: 73.2
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -303,7 +313,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 43.3
+  previous_composite: 41.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -314,14 +324,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/screenshots/quantcast-2026-06-20T192410.png
+screenshot: https://apis.io/screenshots/quantcast/quantcast-2026-06-20T192410.png
 security:
 - kind: authentication
   name: Quantcast Authentication
@@ -331,6 +341,14 @@ security:
   name: Quantcast Domain Security
   slug: quantcast-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Authenticate against the Quantcast Platform and run your first query
+  slug: quantcast-authenticate-and-query
+- name: Pull a Quantcast account metrics report
+  slug: quantcast-pull-a-metrics-report
+- name: Report offline conversions to Quantcast server-to-server
+  slug: quantcast-report-offline-conversions
 slug: quantcast
 tags:
 - Advertising

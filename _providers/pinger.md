@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -43,7 +45,7 @@ common:
   type: BlogRSS
   url: https://www.pinger.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pinger/refs/heads/main/security/pinger-domain-security.yml
+  href: https://artifacts.apis.io/pinger/security/pinger-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pinger-domain-security.yml
@@ -84,17 +86,17 @@ common:
   type: Product
   url: https://getindex.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pinger/refs/heads/main/llms/pinger-sideline-llms.txt
+  href: https://artifacts.apis.io/pinger/llms/pinger-sideline-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pinger-sideline-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pinger/refs/heads/main/plans/pinger-plans-pricing.yml
+  href: https://artifacts.apis.io/pinger/plans/pinger-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pinger-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pinger/refs/heads/main/rate-limits/pinger-rate-limits.yml
+  href: https://artifacts.apis.io/pinger/rate-limits/pinger-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pinger-rate-limits.yml
@@ -129,14 +131,14 @@ plans:
 - name: Pinger Plans Pricing
   plan_count: 0
   slug: pinger-plans-pricing
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Pinger Rate Limits
   slug: pinger-rate-limits
 score:
   band: minimal
-  composite: 9.4
+  composite: 8.7
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -150,23 +152,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 9.4
+  previous_composite: 8.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 11.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pinger/refs/heads/main/screenshots/pinger-2026-09-02T151301.png
+screenshot: https://apis.io/screenshots/pinger/pinger-2026-09-02T151301.png
 security:
 - kind: domain-security
   name: Pinger Domain Security

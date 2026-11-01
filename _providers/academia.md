@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/academia/refs/heads/main/security/academia-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/academia/security/academia-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/academia-vulnerability-disclosure.yml
@@ -47,7 +49,7 @@ common:
   type: Security
   url: https://www.academia.edu/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/academia/refs/heads/main/security/academia-domain-security.yml
+  href: https://artifacts.apis.io/academia/security/academia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/academia-domain-security.yml
@@ -72,17 +74,17 @@ common:
   type: PrivacyPolicy
   url: https://www.academia.edu/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/academia/refs/heads/main/well-known/academia-security.txt
+  href: https://artifacts.apis.io/academia/well-known/academia-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/academia-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/academia/refs/heads/main/well-known/academia-well-known.yml
+  href: https://artifacts.apis.io/academia/well-known/academia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/academia-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/academia/refs/heads/main/llms/academia-llms.txt
+  href: https://artifacts.apis.io/academia/llms/academia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/academia-llms.txt
@@ -119,7 +121,7 @@ overview: 'Academia is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 13
 score:
   band: emerging
-  composite: 12.6
+  composite: 12.2
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -133,23 +135,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 55.4
-    operational_transparency: 13.2
-  previous_composite: 12.6
+    discoverability: 48.2
+    operational_transparency: 15.8
+  previous_composite: 12.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/academia/refs/heads/main/screenshots/academia-2026-08-07T160744.png
+screenshot: https://apis.io/screenshots/academia/academia-2026-08-07T160744.png
 security:
 - kind: domain-security
   name: Academia Domain Security

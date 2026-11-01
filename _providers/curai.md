@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 2
   slug: curai-agentic-access
   summary_line: 2 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://gateway.curaihealth.com/partner
   baseurl_source: declared
@@ -53,9 +55,6 @@ apis:
 artifact_total: 6
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Curai Partner API
   slug: open-curai-partner-api
 common:
@@ -64,12 +63,12 @@ common:
   type: Blog
   url: https://www.curaihealth.com/blogs
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/capabilities/curai-capability-edges.yml
+  href: https://artifacts.apis.io/curai/capabilities/curai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/curai-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/overlays/curai-partner-overlay.yaml
+  href: https://artifacts.apis.io/curai/overlays/curai-partner-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/curai-partner-overlay.yaml
@@ -98,82 +97,82 @@ common:
   type: TermsOfService
   url: https://www.curaihealth.com/terms-of-use
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/packages/curai-packages.yml
+  href: https://artifacts.apis.io/curai/packages/curai-packages.yml
   title: ''
   type: Packages
   url: packages/curai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/packages/curai-packages.yml
+  href: https://artifacts.apis.io/curai/packages/curai-packages.yml
   title: ''
   type: SDKs
   url: packages/curai-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/components/curai-components.yml
+  href: https://artifacts.apis.io/curai/components/curai-components.yml
   title: ''
   type: Components
   url: components/curai-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/well-known/curai-well-known.yml
+  href: https://artifacts.apis.io/curai/well-known/curai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/curai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/mcp/curai-mcp.yml
+  href: https://artifacts.apis.io/curai/mcp/curai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/curai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/llms/curai-llms.txt
+  href: https://artifacts.apis.io/curai/llms/curai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/curai-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/conformance/curai-conformance.yml
+  href: https://artifacts.apis.io/curai/conformance/curai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/curai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/errors/curai-problem-types.yml
+  href: https://artifacts.apis.io/curai/errors/curai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/curai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/lifecycle/curai-lifecycle.yml
+  href: https://artifacts.apis.io/curai/lifecycle/curai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/curai-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/authentication/curai-authentication.yml
+  href: https://artifacts.apis.io/curai/authentication/curai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/curai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/security/curai-domain-security.yml
+  href: https://artifacts.apis.io/curai/security/curai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/curai-domain-security.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/sandbox/curai-sandbox.yml
+  href: https://artifacts.apis.io/curai/sandbox/curai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/curai-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/conventions/curai-conventions.yml
+  href: https://artifacts.apis.io/curai/conventions/curai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/curai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/data-model/curai-data-model.yml
+  href: https://artifacts.apis.io/curai/data-model/curai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/curai-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/curai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/agentic-access/curai-agentic-access.yml
+  href: https://artifacts.apis.io/curai/agentic-access/curai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/curai-agentic-access.yml
@@ -192,7 +191,7 @@ overview: 'Curai publishes 1 API contract indexed on the [APIs.io](https://apis.
 random_paper: 4
 score:
   band: thin
-  composite: 35.0
+  composite: 35.3
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -200,15 +199,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 44.1
     developer_ergonomics: 68.5
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 34.4
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,13 +224,14 @@ score:
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/screenshots/curai-2026-07-25T210929.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/curai/curai-2026-07-25T210929.png
 security:
 - kind: authentication
   name: Curai Authentication
@@ -241,6 +241,10 @@ security:
   name: Curai Domain Security
   slug: curai-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Register a Curai patient and launch the embedded experience
+  slug: curai-register-patient
 slug: curai
 tags:
 - Company

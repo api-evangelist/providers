@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The RALS (Remote Automated Laboratory Systems) platform provides point-of-care device management and data integration capabilities. RALS connects point-of-care testing devices to laboratory informatio
@@ -42,22 +44,22 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alere/refs/heads/main/security/alere-domain-security.yml
+  href: https://artifacts.apis.io/alere/security/alere-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alere-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alere/refs/heads/main/well-known/alere-well-known.yml
+  href: https://artifacts.apis.io/alere/well-known/alere-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alere-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alere/refs/heads/main/llms/alere-llms.txt
+  href: https://artifacts.apis.io/alere/llms/alere-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alere-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alere/refs/heads/main/conformance/alere-conformance.yml
+  href: https://artifacts.apis.io/alere/conformance/alere-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alere-conformance.yml
@@ -81,10 +83,10 @@ name: Alere
 nav: Providers
 network: true
 overview: Alere is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Diagnostics, Point of Care, Healthcare, Laboratory, and Medical Devices.
-random_paper: 15
+random_paper: 17
 score:
   band: minimal
-  composite: 8.7
+  composite: 8.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 34.0
@@ -98,14 +100,14 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 67.9
+    discoverability: 60.7
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 8.7
+  previous_composite: 8.0
   provenance:
     conformance: derived
   regulatory:
@@ -114,14 +116,14 @@ score:
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alere/refs/heads/main/screenshots/alere-2026-07-25T195556.png
+screenshot: https://apis.io/screenshots/alere/alere-2026-07-25T195556.png
 security:
 - kind: domain-security
   name: Alere Domain Security

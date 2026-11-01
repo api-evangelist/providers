@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Hosted public REST API (the block-explorer and faucet backend) exposing blocks, transactions, and network data with a list/object JSON envelope and cursor-style pagination. No authentication required '
@@ -90,42 +92,42 @@ common:
   type: Whitepaper
   url: https://ironfish.network/learn/whitepaper
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/iron-fish/refs/heads/main/packages/iron-fish-packages.yml
+  href: https://artifacts.apis.io/iron-fish/packages/iron-fish-packages.yml
   title: ''
   type: Packages
   url: packages/iron-fish-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/iron-fish/refs/heads/main/packages/iron-fish-packages.yml
+  href: https://artifacts.apis.io/iron-fish/packages/iron-fish-packages.yml
   title: ''
   type: SDKs
   url: packages/iron-fish-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/iron-fish/refs/heads/main/cli/iron-fish-cli.yml
+  href: https://artifacts.apis.io/iron-fish/cli/iron-fish-cli.yml
   title: ''
   type: CLI
   url: cli/iron-fish-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/iron-fish/refs/heads/main/authentication/iron-fish-authentication.yml
+  href: https://artifacts.apis.io/iron-fish/authentication/iron-fish-authentication.yml
   title: ''
   type: Authentication
   url: authentication/iron-fish-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iron-fish/refs/heads/main/conventions/iron-fish-conventions.yml
+  href: https://artifacts.apis.io/iron-fish/conventions/iron-fish-conventions.yml
   title: ''
   type: Conventions
   url: conventions/iron-fish-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/iron-fish/refs/heads/main/changelog/iron-fish-changelog.yml
+  href: https://artifacts.apis.io/iron-fish/changelog/iron-fish-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/iron-fish-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/iron-fish/refs/heads/main/llms/iron-fish-llms.txt
+  href: https://artifacts.apis.io/iron-fish/llms/iron-fish-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/iron-fish-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/iron-fish/refs/heads/main/security/iron-fish-domain-security.yml
+  href: https://artifacts.apis.io/iron-fish/security/iron-fish-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/iron-fish-domain-security.yml
@@ -141,12 +143,12 @@ overview: 'Iron Fish is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Iron Fish''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 13 more developer resources.'
-random_paper: 9
+random_paper: 23
 score:
   band: thin
-  composite: 27.0
+  composite: 27.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -157,24 +159,24 @@ score:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 66.7
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 27.0
+    developer_ergonomics: 71.4
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 27.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/iron-fish/refs/heads/main/screenshots/iron-fish-2026-07-25T222911.png
+screenshot: https://apis.io/screenshots/iron-fish/iron-fish-2026-07-25T222911.png
 security:
 - kind: authentication
   name: Iron Fish Authentication

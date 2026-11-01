@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -41,7 +43,7 @@ common:
   type: BlogRSS
   url: https://www.hireart.com/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hireart/refs/heads/main/security/hireart-trust-center.yml
+  href: https://artifacts.apis.io/hireart/security/hireart-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/hireart-trust-center.yml
@@ -74,12 +76,12 @@ common:
   type: PrivacyPolicy
   url: https://www.hireart.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hireart/refs/heads/main/security/hireart-domain-security.yml
+  href: https://artifacts.apis.io/hireart/security/hireart-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hireart-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hireart/refs/heads/main/llms/hireart-llms.txt
+  href: https://artifacts.apis.io/hireart/llms/hireart-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hireart-llms.txt
@@ -95,12 +97,12 @@ overview: 'HireArt is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   HireArt''s developer surface includes engineering blog, changelog, support, and 8 more developer resources.'
-random_paper: 3
+random_paper: 7
 score:
   band: emerging
-  composite: 16.3
+  composite: 15.6
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -112,23 +114,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 15.8
-  previous_composite: 16.3
+  previous_composite: 15.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hireart/refs/heads/main/screenshots/hireart-2026-07-25T221248.png
+screenshot: https://apis.io/screenshots/hireart/hireart-2026-07-25T221248.png
 security:
 - kind: domain-security
   name: Hireart Domain Security

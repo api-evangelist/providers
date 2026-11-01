@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Programmatic access to Efflux asset-intelligence data — export, download, and share the assets, scans, and attributions Efflux collects. The API host is live but access-gated (early access / waitlist)
@@ -41,7 +43,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/efflux-systems/refs/heads/main/security/efflux-systems-domain-security.yml
+  href: https://artifacts.apis.io/efflux-systems/security/efflux-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/efflux-systems-domain-security.yml
@@ -62,7 +64,7 @@ common:
   type: Support
   url: https://efflux.io/contact
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/efflux-systems/refs/heads/main/llms/efflux-systems-llms.txt
+  href: https://artifacts.apis.io/efflux-systems/llms/efflux-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/efflux-systems-llms.txt
@@ -78,12 +80,12 @@ overview: 'Efflux Systems is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   Efflux Systems'' developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 13
+random_paper: 23
 score:
   band: emerging
-  composite: 12.2
+  composite: 11.5
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -95,23 +97,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 12.2
+  previous_composite: 11.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/efflux-systems/refs/heads/main/screenshots/efflux-systems-2026-07-25T212942.png
+screenshot: https://apis.io/screenshots/efflux-systems/efflux-systems-2026-07-25T212942.png
 security:
 - kind: domain-security
   name: Efflux Systems Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: REST API to programmatically create and manage Firebase projects, apps (Web, Android, Apple), and their configuration.
@@ -48,15 +50,20 @@ apis:
 - description: REST API to send notification and data messages to devices via Firebase Cloud Messaging (FCM).
   name: Firebase Cloud Messaging HTTP v1 API
   slug: firebase-cloud-messaging-http-v1-api
-artifact_total: 9
+artifact_total: 11
 common:
+- group: commercial
+  href: https://artifacts.apis.io/firebase/plans/firebase-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/firebase-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/security/firebase-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/firebase/security/firebase-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/firebase-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/security/firebase-domain-security.yml
+  href: https://artifacts.apis.io/firebase/security/firebase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/firebase-domain-security.yml
@@ -137,72 +144,80 @@ common:
   type: Security
   url: https://g.co/vrp
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/packages/firebase-packages.yml
+  href: https://artifacts.apis.io/firebase/packages/firebase-packages.yml
   title: ''
   type: Packages
   url: packages/firebase-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/packages/firebase-packages.yml
+  href: https://artifacts.apis.io/firebase/packages/firebase-packages.yml
   title: ''
   type: SDKs
   url: packages/firebase-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/cli/firebase-cli.yml
+  href: https://artifacts.apis.io/firebase/cli/firebase-cli.yml
   title: ''
   type: CLI
   url: cli/firebase-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/mcp/firebase-mcp.yml
+  href: https://artifacts.apis.io/firebase/mcp/firebase-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/firebase-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/authentication/firebase-authentication.yml
+  href: https://artifacts.apis.io/firebase/authentication/firebase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/firebase-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/scopes/firebase-scopes.yml
+  href: https://artifacts.apis.io/firebase/scopes/firebase-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/firebase-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/conventions/firebase-conventions.yml
+  href: https://artifacts.apis.io/firebase/conventions/firebase-conventions.yml
   title: ''
   type: Conventions
   url: conventions/firebase-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/lifecycle/firebase-lifecycle.yml
+  href: https://artifacts.apis.io/firebase/lifecycle/firebase-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/firebase-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/changelog/firebase-changelog.yml
+  href: https://artifacts.apis.io/firebase/changelog/firebase-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/firebase-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/components/firebase-components.yml
+  href: https://artifacts.apis.io/firebase/components/firebase-components.yml
   title: ''
   type: Components
   url: components/firebase-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/well-known/firebase-well-known.yml
+  href: https://artifacts.apis.io/firebase/well-known/firebase-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/firebase-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/well-known/firebase-security.txt
+  href: https://artifacts.apis.io/firebase/well-known/firebase-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/firebase-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/llms/firebase-llms.txt
+  href: https://artifacts.apis.io/firebase/llms/firebase-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/firebase-llms.txt
 created: '2026-07-17'
 description: Firebase is Google's app development platform — a backend-as-a-service (BaaS) suite for building, running, and growing web and mobile apps. It bundles managed backend products including Authentication, Cloud Firestore, Realtime Database, Cloud Storage, Cloud Functions, Hosting and App Hosting, Cloud Messaging (FCM), Remote Config, Crashlytics, Performance Monitoring, App Distribution, Test Lab, A/B Testing, App Check, Firebase AI Logic, and Extensions. Firebase exposes Google-hosted REST APIs (Management, Firestore, Realtime Database, FCM, Remote Config, Identity Toolkit) plus first-party client and Admin SDKs for Apple, Android, Web, Flutter, Unity, C++, Node.js, Python, Java, Go, and .NET, a cross-platform CLI (firebase-tools), a local Emulator Suite, and an official MCP server for agent-driven workflows.
+finops:
+- has_sources: true
+  method: derived
+  name: Firebase Finops
+  primary_unit: ''
+  service_category: ''
+  slug: firebase-finops
+  template: true
 image: https://firebase.google.com/downloads/brand-guidelines/PNG/logo-logomark.png
 layout: provider
 mcp_servers:
@@ -216,8 +231,12 @@ network: true
 overview: 'Firebase is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backend-as-a-Service, Application Development, Mobile, and Web.
 
 
-  Firebase''s developer surface includes documentation, API reference, getting-started guide, developer console, signup flow, pricing, engineering blog, and 27 more developer resources.'
-random_paper: 19
+  Firebase''s developer surface includes documentation, API reference, getting-started guide, developer console, signup flow, pricing, engineering blog, and 28 more developer resources.'
+plans:
+- name: Firebase Plans Pricing
+  plan_count: 2
+  slug: firebase-plans-pricing
+random_paper: 17
 scopes:
 - name: Firebase Scopes
   scope_count: 8
@@ -225,23 +244,23 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.1
+  composite: 50.0
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 18
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.2
   facets:
-    access_clarity: 60.5
+    access_clarity: 81.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 78.6
-    discoverability: 76.7
-    operational_transparency: 52.6
-  previous_composite: 46.0
+    discoverability: 70.0
+    operational_transparency: 55.3
+  previous_composite: 45.8
   provenance:
     mcp: first-party
   regulatory:
@@ -250,14 +269,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/screenshots/firebase-2026-07-25T214552.png
+screenshot: https://apis.io/screenshots/firebase/firebase-2026-07-25T214552.png
 security:
 - kind: authentication
   name: Firebase Authentication

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API documentation not publicly available; no machine-readable contract discovered.
@@ -36,12 +38,12 @@ common:
   type: BlogRSS
   url: https://bluewillow.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bluewillow-biologics/refs/heads/main/hosts/bluewillow-biologics-hosts.yml
+  href: https://artifacts.apis.io/bluewillow-biologics/hosts/bluewillow-biologics-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bluewillow-biologics-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bluewillow-biologics/refs/heads/main/security/bluewillow-biologics-domain-security.yml
+  href: https://artifacts.apis.io/bluewillow-biologics/security/bluewillow-biologics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bluewillow-biologics-domain-security.yml
@@ -81,18 +83,18 @@ overview: 'BlueWillow Biologics is listed with 1 API on the [APIs.io](https://ap
 
 
   BlueWillow Biologics'' developer surface includes product news and 6 more developer resources.'
-random_paper: 4
+random_paper: 6
 score:
   band: minimal
   composite: 4.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -100,7 +102,7 @@ score:
     developer_ergonomics: 0.0
     discoverability: 58.9
     operational_transparency: 0.0
-  previous_composite: 4.7
+  previous_composite: 4.8
   provenance:
     mcp: derived
   regulatory:
@@ -109,14 +111,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bluewillow-biologics/refs/heads/main/screenshots/bluewillow-biologics-2026-10-11T102515.png
+screenshot: https://apis.io/screenshots/bluewillow-biologics/bluewillow-biologics-2026-10-11T102515.png
 security:
 - kind: domain-security
   name: Bluewillow Biologics Domain Security

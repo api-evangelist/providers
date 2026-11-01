@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: 'API-driven Interac e-Transfer for Canadian money movement, supporting Send Money, Request Money, Receive AutoDeposit, and Receive Question-and-Answer flows so program managers and fintech clients can '
@@ -54,7 +56,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/peoples-group/refs/heads/main/security/peoples-group-domain-security.yml
+  href: https://artifacts.apis.io/peoples-group/security/peoples-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/peoples-group-domain-security.yml
@@ -99,12 +101,12 @@ common:
   type: Blog
   url: https://www.peoplesgroup.com/about-us/news-insights/press-releases
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peoples-group/refs/heads/main/conformance/peoples-group-conformance.yml
+  href: https://artifacts.apis.io/peoples-group/conformance/peoples-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/peoples-group-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/peoples-group/refs/heads/main/llms/peoples-group-llms.txt
+  href: https://artifacts.apis.io/peoples-group/llms/peoples-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/peoples-group-llms.txt
@@ -121,10 +123,10 @@ overview: 'Peoples Group is listed with 5 APIs on the [APIs.io](https://apis.io/
 
 
   Peoples Group''s developer surface includes documentation, support, engineering blog, and 10 more developer resources.'
-random_paper: 20
+random_paper: 18
 score:
   band: emerging
-  composite: 20.1
+  composite: 20.7
   coverage:
     artifact_dirs: 6
     catalog_earned: 35.0
@@ -132,13 +134,13 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -147,7 +149,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 20.0
+  previous_composite: 20.7
   provenance:
     conformance: first-party
   regulatory:
@@ -156,14 +158,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/peoples-group/refs/heads/main/screenshots/peoples-group-2026-09-02T151017.png
+screenshot: https://apis.io/screenshots/peoples-group/peoples-group-2026-09-02T151017.png
 security:
 - kind: domain-security
   name: Peoples Group Domain Security

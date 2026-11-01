@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.0
-  scored_at: '2026-10-17'
+  score: 35.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -82,7 +84,7 @@ apis:
   description: Airway bill tracking
   name: Komerce Tracking API
   slug: komerce-tracking-api
-artifact_total: 28
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Komerce Webhooks
@@ -109,9 +111,6 @@ collections:
 - collection_type: postman
   name: Komerce Payment Service Cost Tracking API
   slug: postman-komerce-tracking-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Komerce Payment Service Cost API
   slug: open-komerce-cost-api
@@ -143,7 +142,7 @@ common:
   type: BlogRSS
   url: https://komerce.id/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/overlays/komerce-payment-overlay.yaml
+  href: https://artifacts.apis.io/komerce/overlays/komerce-payment-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/komerce-payment-overlay.yaml
@@ -152,12 +151,12 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/komerce/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/agentic-access/komerce-agentic-access.yml
+  href: https://artifacts.apis.io/komerce/agentic-access/komerce-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/komerce-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/security/komerce-domain-security.yml
+  href: https://artifacts.apis.io/komerce/security/komerce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/komerce-domain-security.yml
@@ -218,97 +217,105 @@ common:
   type: Postman
   url: https://rajaongkir.com/docs/shipping-cost/getting_started/postman_collection
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/authentication/komerce-authentication.yml
+  href: https://artifacts.apis.io/komerce/authentication/komerce-authentication.yml
   title: ''
   type: Authentication
   url: authentication/komerce-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/conventions/komerce-conventions.yml
+  href: https://artifacts.apis.io/komerce/conventions/komerce-conventions.yml
   title: ''
   type: Conventions
   url: conventions/komerce-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/errors/komerce-problem-types.yml
+  href: https://artifacts.apis.io/komerce/errors/komerce-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/komerce-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/errors/komerce-error-codes.yml
+  href: https://artifacts.apis.io/komerce/errors/komerce-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/komerce-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/lifecycle/komerce-lifecycle.yml
+  href: https://artifacts.apis.io/komerce/lifecycle/komerce-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/komerce-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/sandbox/komerce-sandbox.yml
+  href: https://artifacts.apis.io/komerce/sandbox/komerce-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/komerce-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/rate-limits/komerce-rate-limits.yml
+  href: https://artifacts.apis.io/komerce/rate-limits/komerce-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/komerce-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/plans/komerce-plans.yml
+  href: https://artifacts.apis.io/komerce/plans/komerce-plans.yml
   title: ''
   type: Plans
   url: plans/komerce-plans.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/asyncapi/komerce-webhooks.yml
+  href: https://artifacts.apis.io/komerce/asyncapi/komerce-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/komerce-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/packages/komerce-packages.yml
+  href: https://artifacts.apis.io/komerce/packages/komerce-packages.yml
   title: ''
   type: Packages
   url: packages/komerce-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/components/komerce-components.yml
+  href: https://artifacts.apis.io/komerce/components/komerce-components.yml
   title: ''
   type: Components
   url: components/komerce-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/vocabulary/komerce-couriers.yml
+  href: https://artifacts.apis.io/komerce/vocabulary/komerce-couriers.yml
   title: ''
   type: Vocabulary
   url: vocabulary/komerce-couriers.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/data-model/komerce-data-model.yml
+  href: https://artifacts.apis.io/komerce/data-model/komerce-data-model.yml
   title: ''
   type: DataModel
   url: data-model/komerce-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/conformance/komerce-conformance.yml
+  href: https://artifacts.apis.io/komerce/conformance/komerce-conformance.yml
   title: ''
   type: Conformance
   url: conformance/komerce-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/examples/komerce-examples.yml
+  href: https://artifacts.apis.io/komerce/examples/komerce-examples.yml
   title: ''
   type: Examples
   url: examples/komerce-examples.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/mcp/komerce-mcp.yml
+  href: https://artifacts.apis.io/komerce/mcp/komerce-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/komerce-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/llms/komerce-llms.txt
+  href: https://artifacts.apis.io/komerce/llms/komerce-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/komerce-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/komerce/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'Komerce is an Indonesian end-to-end e-commerce enabler serving more than 50,000 online sellers and SMEs with an integrated suite covering fulfilment, logistics, marketplace operations, CRM, advertising and payments — Komship, Kompack, Komplace, Komchat, Komcards, Komtim, Komads and Komclass. Its developer surface is published under the RajaOngkir brand and exposes four APIs: Shipping Cost (Cek Ongkir) for domestic and international rate lookup and airway-bill tracking across 17 Indonesian couriers, Shipping Delivery (Komship) for creating orders, requesting pickup, printing labels and tracking shipments, Payment Service for Virtual Account and QRIS transactions with signed callbacks, and QRISLY for turning a static QRIS into dynamic per-transaction QRIS codes. All four authenticate with a per-product header API key issued from the Collaborator dashboard, and the delivery, payment and QRIS products run a full isolated sandbox.'
+finops:
+- has_sources: true
+  method: derived
+  name: Komerce Finops
+  primary_unit: transaction amount
+  service_category: ''
+  slug: komerce-finops
+  template: false
 image: https://komerce.id/img/komerce.png
 layout: provider
 modified: '2026-10-06'
@@ -324,30 +331,33 @@ overview: 'Komerce publishes 7 API contracts indexed on the [APIs.io](https://ap
   Komerce''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, pricing, support, and 31 more developer resources.'
 plans:
 - name: Komerce Plans
-  plan_count: 3
+  plan_count: 4
   slug: komerce-plans
-random_paper: 16
+- name: Komerce Price Estimates
+  plan_count: 0
+  slug: komerce-price-estimates
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Komerce Rate Limits
   slug: komerce-rate-limits
 score:
   band: developing
-  composite: 45.9
+  composite: 54.0
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 69.0
+    artifact_dirs: 29
+    catalog_earned: 72.0
     catalog_earned_first_party: 29.0
-    catalog_gap: 46.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 48.7
+    access_clarity: 84.2
     contract_governance: 19.7
     contract_quality: 23.7
     developer_ergonomics: 70.8
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -356,7 +366,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 45.9
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -372,14 +382,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 22.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/screenshots/komerce-2026-07-25T224133.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/komerce/komerce-2026-07-25T224133.png
 security:
 - kind: authentication
   name: Komerce Authentication
@@ -389,6 +400,16 @@ security:
   name: Komerce Domain Security
   slug: komerce-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: Collect a payment with the Komerce Payment Service
+  slug: komerce-collect-payment
+- name: Create a Komship delivery order and ship it
+  slug: komerce-create-and-ship-order
+- name: Generate a dynamic QRIS with QRISLY
+  slug: komerce-generate-dynamic-qris
+- name: Quote domestic shipping with RajaOngkir
+  slug: komerce-quote-domestic-shipping
 slug: komerce
 tags:
 - Company

@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.6
-  scored_at: '2026-10-17'
+  score: 29.9
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://api.compactif.ai
@@ -69,15 +71,20 @@ apis:
   description: The responses API from Multiverse Computing — 2 operation(s) for responses.
   name: Multiverse Computing Responses API
   slug: multiverse-computing-responses-api
-artifact_total: 10
+artifact_total: 15
 common:
+- group: other
+  href: https://artifacts.apis.io/multiverse-computing/capabilities/multiverse-computing-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/multiverse-computing-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/security/multiverse-computing-domain-security.yml
+  href: https://artifacts.apis.io/multiverse-computing/security/multiverse-computing-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/multiverse-computing-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/authentication/multiverse-computing-authentication.yml
+  href: https://artifacts.apis.io/multiverse-computing/authentication/multiverse-computing-authentication.yml
   title: ''
   type: Authentication
   url: authentication/multiverse-computing-authentication.yml
@@ -138,62 +145,62 @@ common:
   type: StatusPage
   url: https://status.compactif.ai/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/packages/multiverse-computing-packages.yml
+  href: https://artifacts.apis.io/multiverse-computing/packages/multiverse-computing-packages.yml
   title: ''
   type: Packages
   url: packages/multiverse-computing-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/llms/multiverse-computing-llms.txt
+  href: https://artifacts.apis.io/multiverse-computing/llms/multiverse-computing-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/multiverse-computing-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/overlays/multiverse-computing-compactifai-overlay.yaml
+  href: https://artifacts.apis.io/multiverse-computing/overlays/multiverse-computing-compactifai-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/multiverse-computing-compactifai-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/conformance/multiverse-computing-conformance.yml
+  href: https://artifacts.apis.io/multiverse-computing/conformance/multiverse-computing-conformance.yml
   title: ''
   type: Conformance
   url: conformance/multiverse-computing-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/errors/multiverse-computing-problem-types.yml
+  href: https://artifacts.apis.io/multiverse-computing/errors/multiverse-computing-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/multiverse-computing-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/lifecycle/multiverse-computing-lifecycle.yml
+  href: https://artifacts.apis.io/multiverse-computing/lifecycle/multiverse-computing-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/multiverse-computing-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/conventions/multiverse-computing-conventions.yml
+  href: https://artifacts.apis.io/multiverse-computing/conventions/multiverse-computing-conventions.yml
   title: ''
   type: Conventions
   url: conventions/multiverse-computing-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/changelog/multiverse-computing-changelog.yml
+  href: https://artifacts.apis.io/multiverse-computing/changelog/multiverse-computing-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/multiverse-computing-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/data-model/multiverse-computing-data-model.yml
+  href: https://artifacts.apis.io/multiverse-computing/data-model/multiverse-computing-data-model.yml
   title: ''
   type: DataModel
   url: data-model/multiverse-computing-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/plans/multiverse-computing-plans-pricing.yml
+  href: https://artifacts.apis.io/multiverse-computing/plans/multiverse-computing-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/multiverse-computing-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/rate-limits/multiverse-computing-rate-limits.yml
+  href: https://artifacts.apis.io/multiverse-computing/rate-limits/multiverse-computing-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/multiverse-computing-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/multiverse-computing/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -202,17 +209,25 @@ common:
   type: ReleaseNotes
   url: https://docs.compactif.ai/changelog/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/examples/multiverse-computing-compactifai-examples.yml
+  href: https://artifacts.apis.io/multiverse-computing/examples/multiverse-computing-compactifai-examples.yml
   title: ''
   type: Examples
   url: examples/multiverse-computing-compactifai-examples.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/openapi/_original/multiverse-computing-compactifai-openapi.yml
+  href: https://artifacts.apis.io/multiverse-computing/openapi/_original/multiverse-computing-compactifai-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/multiverse-computing-compactifai-openapi.yml
 created: '2026-08-26'
 description: Multiverse Computing, S.L. is a Donostia-San Sebastian (Spain) quantum- and AI-software company whose commercial developer surface is the CompactifAI API — an OpenAI-compatible LLM inference service serving tensor-network-compressed versions of frontier open models (Hypernova 60B, Carina 60B, Mistral Small 3.1 Slim, Whisper Large V3 Turbo Slim) alongside uncompressed third-party models (GPT-OSS 120B, GLM 5.1/5.2, Quasar 438B, Qwen 3.6 27B, Nemotron 3 Nano Omni). The API is published at api.compactif.ai with regional EU and US endpoints, documented at docs.compactif.ai, billed pay-as-you-go per million tokens, and also sold through the AWS Marketplace. The company additionally sells Singularity, a quantum and quantum-inspired optimization product for finance, energy and manufacturing, which has no public developer documentation.
+finops:
+- has_sources: true
+  method: derived
+  name: Multiverse Computing Finops
+  primary_unit: 1m input tokens
+  service_category: ''
+  slug: multiverse-computing-finops
+  template: false
 image: https://multiversecomputing.com/icon.png
 layout: provider
 modified: '2026-09-16'
@@ -222,11 +237,14 @@ network: true
 overview: 'Multiverse Computing publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audio API, Batches API, Completions API, and 3 more. Tagged areas include Artificial Intelligence, Machine Learning, Inference, Model Compression, and Quantum Computing.
 
 
-  Multiverse Computing''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
+  Multiverse Computing''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 25 more developer resources.'
 plans:
 - name: Multiverse Computing Plans Pricing
-  plan_count: 2
+  plan_count: 7
   slug: multiverse-computing-plans-pricing
+- name: Multiverse Computing Price Estimates
+  plan_count: 0
+  slug: multiverse-computing-price-estimates
 random_paper: 19
 rate_limits:
 - limit_count: 0
@@ -234,21 +252,21 @@ rate_limits:
   slug: multiverse-computing-rate-limits
 score:
   band: developing
-  composite: 48.0
+  composite: 53.0
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 3.7
   facets:
-    access_clarity: 59.2
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 48.0
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -258,7 +276,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 47.9
+  previous_composite: 49.3
   provenance:
     conformance: derived
     contracts:
@@ -274,13 +292,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/screenshots/multiverse-computing-2026-09-02T150656.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/multiverse-computing/multiverse-computing-2026-09-02T150656.png
 security:
 - kind: authentication
   name: Multiverse Computing Authentication
@@ -290,6 +309,14 @@ security:
   name: Multiverse Computing Domain Security
   slug: multiverse-computing-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: compactifai-audio-transcription
+  slug: multiverse-computing-audio-transcription
+- name: compactifai-batch-inference
+  slug: multiverse-computing-batch-inference
+- name: compactifai-chat-completion
+  slug: multiverse-computing-chat-completion
 slug: multiverse-computing
 tags:
 - Artificial Intelligence

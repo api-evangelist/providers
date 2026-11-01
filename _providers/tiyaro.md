@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tiyaro/refs/heads/main/security/tiyaro-domain-security.yml
+  href: https://artifacts.apis.io/tiyaro/security/tiyaro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tiyaro-domain-security.yml
@@ -66,37 +68,37 @@ common:
   type: GitHubOrganization
   url: https://github.com/tiyaro
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tiyaro/refs/heads/main/packages/tiyaro-packages.yml
+  href: https://artifacts.apis.io/tiyaro/packages/tiyaro-packages.yml
   title: ''
   type: Packages
   url: packages/tiyaro-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tiyaro/refs/heads/main/packages/tiyaro-packages.yml
+  href: https://artifacts.apis.io/tiyaro/packages/tiyaro-packages.yml
   title: ''
   type: SDKs
   url: packages/tiyaro-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tiyaro/refs/heads/main/cli/tiyaro-cli.yml
+  href: https://artifacts.apis.io/tiyaro/cli/tiyaro-cli.yml
   title: ''
   type: CLI
   url: cli/tiyaro-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tiyaro/refs/heads/main/lifecycle/tiyaro-lifecycle.yml
+  href: https://artifacts.apis.io/tiyaro/lifecycle/tiyaro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tiyaro-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tiyaro/refs/heads/main/llms/tiyaro-llms.txt
+  href: https://artifacts.apis.io/tiyaro/llms/tiyaro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tiyaro-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tiyaro/refs/heads/main/plans/tiyaro-plans-pricing.yml
+  href: https://artifacts.apis.io/tiyaro/plans/tiyaro-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tiyaro-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tiyaro/refs/heads/main/rate-limits/tiyaro-rate-limits.yml
+  href: https://artifacts.apis.io/tiyaro/rate-limits/tiyaro-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tiyaro-rate-limits.yml
@@ -134,14 +136,14 @@ plans:
 - name: Tiyaro Plans Pricing
   plan_count: 0
   slug: tiyaro-plans-pricing
-random_paper: 4
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Tiyaro Rate Limits
   slug: tiyaro-rate-limits
 score:
-  band: minimal
-  composite: 7.9
+  band: emerging
+  composite: 12.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 27.0
@@ -149,29 +151,29 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 14.3
+    developer_ergonomics: 16.7
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 7.8
+    operational_transparency: 5.3
+  previous_composite: 12.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 7.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 12.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tiyaro/refs/heads/main/screenshots/tiyaro-2026-09-02T163826.png
+screenshot: https://apis.io/screenshots/tiyaro/tiyaro-2026-09-02T163826.png
 security:
 - kind: domain-security
   name: Tiyaro Domain Security

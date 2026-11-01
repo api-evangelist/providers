@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.1
-  scored_at: '2026-10-17'
+  score: 39.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 4
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 69
   slug: h-company-agentic-access
   summary_line: 69 operations · 43 acting · 4 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: OpenAI-compatible inference API serving the Holo3 and Holo3.1 vision-language models for computer use — chat completions with structured outputs, reasoning, and image inputs, plus runtime model discov
   name: H Company Holo Models API
@@ -92,15 +94,12 @@ apis:
   description: The Webhooks API from H Company — 5 operation(s) for webhooks.
   name: H Company Webhooks API
   slug: h-company-webhooks-api
-artifact_total: 26
+artifact_total: 30
 asyncapis:
 - description: ''
   name: H Company Webhooks
   slug: h-company-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Computer-Use Agents API
   slug: open-h-company-agents-api
@@ -130,17 +129,17 @@ collections:
   slug: open-h-company-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/plans/h-company-plans-pricing.yml
+  href: https://artifacts.apis.io/h-company/plans/h-company-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/h-company-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/capabilities/h-company-capability-edges.yml
+  href: https://artifacts.apis.io/h-company/capabilities/h-company-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/h-company-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/overlays/h-company-computer-use-agents-overlay.yaml
+  href: https://artifacts.apis.io/h-company/overlays/h-company-computer-use-agents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/h-company-computer-use-agents-overlay.yaml
@@ -193,62 +192,62 @@ common:
   type: PrivacyPolicy
   url: https://hcompany.ai/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/authentication/h-company-authentication.yml
+  href: https://artifacts.apis.io/h-company/authentication/h-company-authentication.yml
   title: ''
   type: Authentication
   url: authentication/h-company-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/agentic-access/h-company-agentic-access.yml
+  href: https://artifacts.apis.io/h-company/agentic-access/h-company-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/h-company-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/security/h-company-domain-security.yml
+  href: https://artifacts.apis.io/h-company/security/h-company-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/h-company-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/packages/h-company-packages.yml
+  href: https://artifacts.apis.io/h-company/packages/h-company-packages.yml
   title: ''
   type: Packages
   url: packages/h-company-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/packages/h-company-packages.yml
+  href: https://artifacts.apis.io/h-company/packages/h-company-packages.yml
   title: ''
   type: SDKs
   url: packages/h-company-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/cli/h-company-cli.yml
+  href: https://artifacts.apis.io/h-company/cli/h-company-cli.yml
   title: ''
   type: CLI
   url: cli/h-company-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/mcp/h-company-mcp.yml
+  href: https://artifacts.apis.io/h-company/mcp/h-company-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/h-company-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/llms/h-company-llms.txt
+  href: https://artifacts.apis.io/h-company/llms/h-company-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/h-company-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/conventions/h-company-conventions.yml
+  href: https://artifacts.apis.io/h-company/conventions/h-company-conventions.yml
   title: ''
   type: Conventions
   url: conventions/h-company-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/conventions/h-company-conventions.yml
+  href: https://artifacts.apis.io/h-company/conventions/h-company-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/h-company-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/errors/h-company-problem-types.yml
+  href: https://artifacts.apis.io/h-company/errors/h-company-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/h-company-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/lifecycle/h-company-lifecycle.yml
+  href: https://artifacts.apis.io/h-company/lifecycle/h-company-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/h-company-lifecycle.yml
@@ -257,32 +256,40 @@ common:
   type: Deprecation
   url: https://hub.hcompany.ai/models
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/changelog/h-company-changelog.yml
+  href: https://artifacts.apis.io/h-company/changelog/h-company-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/h-company-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/conformance/h-company-conformance.yml
+  href: https://artifacts.apis.io/h-company/conformance/h-company-conformance.yml
   title: ''
   type: Conformance
   url: conformance/h-company-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/data-model/h-company-data-model.yml
+  href: https://artifacts.apis.io/h-company/data-model/h-company-data-model.yml
   title: ''
   type: DataModel
   url: data-model/h-company-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/asyncapi/h-company-webhooks.yml
+  href: https://artifacts.apis.io/h-company/asyncapi/h-company-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/h-company-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/h-company/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'H Company (hcompany.ai) is a Paris-based AI lab, backed by Accel and Creandum, that builds the Holo family of vision-language models and a Computer-Use Agents platform for automating work on browsers and desktops. It ships two public APIs: the Computer-Use Agents API (agp, /api/v2) for launching, steering, scheduling, and observing autonomous agent sessions — with reusable agents, skills, environments, browser profiles, vaults, and signed webhooks — and the OpenAI-compatible Holo Models API (/v1) serving the Holo3 and Holo3.1 models. Typed Python and TypeScript SDKs (hai-agents), a hai CLI, an official MCP server, and idempotent, region-isolated (EU/US) REST round out an agent-native developer surface.'
+finops:
+- has_sources: true
+  method: derived
+  name: H Company Finops
+  primary_unit: 1m input tokens
+  service_category: ''
+  slug: h-company-finops
+  template: false
 image: https://framerusercontent.com/assets/Xk8HZOz0eejLsPdcyokpuQJa3c.png
 layout: provider
 mcp_servers:
@@ -304,25 +311,25 @@ plans:
 - name: H Company Plans Pricing
   plan_count: 9
   slug: h-company-plans-pricing
-random_paper: 6
+random_paper: 20
 score:
   band: strong
-  composite: 57.7
+  composite: 58.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.9
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 61.3
+    contract_quality: 58.0
     developer_ergonomics: 73.2
-    discoverability: 75.0
-    operational_transparency: 34.2
+    discoverability: 65.0
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -331,7 +338,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 51.8
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -348,13 +355,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/screenshots/h-company-2026-07-25T220500.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/h-company/h-company-2026-07-25T220500.png
 security:
 - kind: authentication
   name: H Company Authentication
@@ -364,6 +372,16 @@ security:
   name: H Company Domain Security
   slug: h-company-domain-security
   summary_line: TLSv1.2 · DMARC
+skill_count: 4
+skills:
+- name: Define reusable agents, skills, and environments
+  slug: h-company-define-agents-and-environments
+- name: hai-agents
+  slug: h-company-hai-agents-published-SKILL
+- name: Run a browser agent to completion
+  slug: h-company-run-a-browser-agent
+- name: Schedule sessions and receive webhook notifications
+  slug: h-company-schedule-and-webhook-sessions
 slug: h-company
 tags:
 - Artificial Intelligence

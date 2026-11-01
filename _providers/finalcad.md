@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.7
-  scored_at: '2026-10-17'
+  score: 35.4
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - baseURL: https://developer.finalcad.cloud/api
@@ -165,44 +167,44 @@ apis:
   description: The Workspaces API from Finalcad — 17 operation(s) for workspaces.
   name: Finalcad Workspaces API
   slug: finalcad-workspaces-api
-artifact_total: 30
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Finalcad Webhooks
   slug: finalcad-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/capabilities/finalcad-capability-edges.yml
+  href: https://artifacts.apis.io/finalcad/capabilities/finalcad-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/finalcad-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/overlays/finalcad-projects-overlay.yaml
+  href: https://artifacts.apis.io/finalcad/overlays/finalcad-projects-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/finalcad-projects-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/overlays/finalcad-organizations-overlay.yaml
+  href: https://artifacts.apis.io/finalcad/overlays/finalcad-organizations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/finalcad-organizations-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/overlays/finalcad-medias-overlay.yaml
+  href: https://artifacts.apis.io/finalcad/overlays/finalcad-medias-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/finalcad-medias-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/overlays/finalcad-webhooks-overlay.yaml
+  href: https://artifacts.apis.io/finalcad/overlays/finalcad-webhooks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/finalcad-webhooks-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/overlays/finalcad-libraries-overlay.yaml
+  href: https://artifacts.apis.io/finalcad/overlays/finalcad-libraries-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/finalcad-libraries-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/overlays/finalcad-authentication-overlay.yaml
+  href: https://artifacts.apis.io/finalcad/overlays/finalcad-authentication-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/finalcad-authentication-overlay.yaml
@@ -231,7 +233,7 @@ common:
   type: Postman
   url: https://developer.finalcad.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/collections/finalcad.postman_collection.json
+  href: https://artifacts.apis.io/finalcad/collections/finalcad.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/finalcad.postman_collection.json
@@ -268,83 +270,91 @@ common:
   type: Blog
   url: https://www.orisha.com/fr/construction/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/authentication/finalcad-authentication.yml
+  href: https://artifacts.apis.io/finalcad/authentication/finalcad-authentication.yml
   title: ''
   type: Authentication
   url: authentication/finalcad-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/conventions/finalcad-conventions.yml
+  href: https://artifacts.apis.io/finalcad/conventions/finalcad-conventions.yml
   title: ''
   type: Conventions
   url: conventions/finalcad-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/errors/finalcad-problem-types.yml
+  href: https://artifacts.apis.io/finalcad/errors/finalcad-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/finalcad-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/lifecycle/finalcad-lifecycle.yml
+  href: https://artifacts.apis.io/finalcad/lifecycle/finalcad-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/finalcad-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/changelog/finalcad-changelog.yml
+  href: https://artifacts.apis.io/finalcad/changelog/finalcad-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/finalcad-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/data-model/finalcad-data-model.yml
+  href: https://artifacts.apis.io/finalcad/data-model/finalcad-data-model.yml
   title: ''
   type: DataModel
   url: data-model/finalcad-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/conformance/finalcad-conformance.yml
+  href: https://artifacts.apis.io/finalcad/conformance/finalcad-conformance.yml
   title: ''
   type: Conformance
   url: conformance/finalcad-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/asyncapi/finalcad-webhooks.yml
+  href: https://artifacts.apis.io/finalcad/asyncapi/finalcad-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/finalcad-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/sandbox/finalcad-sandbox.yml
+  href: https://artifacts.apis.io/finalcad/sandbox/finalcad-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/finalcad-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/plans/finalcad-plans-pricing.yml
+  href: https://artifacts.apis.io/finalcad/plans/finalcad-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/finalcad-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/rate-limits/finalcad-rate-limits.yml
+  href: https://artifacts.apis.io/finalcad/rate-limits/finalcad-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/finalcad-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/packages/finalcad-packages.yml
+  href: https://artifacts.apis.io/finalcad/packages/finalcad-packages.yml
   title: ''
   type: Packages
   url: packages/finalcad-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/finalcad/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/llms/finalcad-llms.txt
+  href: https://artifacts.apis.io/finalcad/llms/finalcad-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/finalcad-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/security/finalcad-domain-security.yml
+  href: https://artifacts.apis.io/finalcad/security/finalcad-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/finalcad-domain-security.yml
 created: '2026-08-17'
 description: Finalcad is a French construction-technology company, founded in Paris in 2011, whose Finalcad One platform digitizes work on building sites — punch lists and defects ("observations"), quality and safety inspection forms, site meetings, plans and BIM models, documents, phases and subcontractor companies — across iOS and Android field apps, a web app (EU and APAC instances), an AutoCAD plugin and the Finalcad One API. The API is a REST surface of 201 published operations spanning organization and workspace administration, project setup and libraries, observations, forms and form answers, locations (folders, plans, IFC/RVT upload), documents, media upload, webhooks, XLSX/PDF exports and a daily Parquet dataset feed for Power BI. Access is restricted to organizations on the Enterprise licence, authenticated with an organization API key plus a per-caller authorization token. Finalcad merged with Wizzcad to form Advae, and Orisha acquired Advae in March 2025; Finalcad is now a solution
   of Orisha Construction, though the developer portal, the API host and the help centre remain live on the Finalcad domains.
+finops:
+- has_sources: true
+  method: derived
+  name: Finalcad Finops
+  primary_unit: ''
+  service_category: ''
+  slug: finalcad-finops
+  template: true
 image: https://res.cloudinary.com/postman/image/upload/t_team_logo_pubdoc/v1/team/7ab6f429a9b1c16b8650531c70d19d77d2e28100973615e0de9f1663a5faf6b7
 layout: provider
 modified: '2026-08-17'
@@ -362,35 +372,35 @@ plans:
 - name: Finalcad Plans Pricing
   plan_count: 0
   slug: finalcad-plans-pricing
-random_paper: 4
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Finalcad Rate Limits
   slug: finalcad-rate-limits
 score:
   band: developing
-  composite: 51.6
+  composite: 51.1
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 63.3
+    contract_quality: 60.7
     developer_ergonomics: 70.8
     discoverability: 71.4
-    operational_transparency: 42.1
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - france
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 51.5
+  previous_composite: 51.1
   provenance:
     conformance: derived
     contracts:
@@ -406,13 +416,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/screenshots/finalcad-2026-09-02T145528.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/finalcad/finalcad-2026-09-02T145528.png
 security:
 - kind: authentication
   name: Finalcad Authentication
@@ -422,6 +433,16 @@ security:
   name: Finalcad Domain Security
   slug: finalcad-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: finalcad-export-datasets-to-bi
+  slug: finalcad-export-datasets-to-bi
+- name: finalcad-onboard-project
+  slug: finalcad-onboard-project
+- name: finalcad-sync-observations
+  slug: finalcad-sync-observations
+- name: finalcad-upload-plans-and-documents
+  slug: finalcad-upload-plans-and-documents
 slug: finalcad
 tags:
 - Company

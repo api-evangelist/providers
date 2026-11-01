@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-10-17'
+  score: 28.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.autopass.xyz
@@ -51,15 +53,12 @@ apis:
   description: In-progress parking sessions
   name: Autopass Sessions API
   slug: autopass-sessions-api
-artifact_total: 11
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Autopass Webhooks
   slug: autopass-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Autopass Service Authorization Locations API
   slug: open-autopass-locations-api
@@ -71,12 +70,12 @@ collections:
   slug: open-autopass-sessions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/overlays/autopass-overlay.yaml
+  href: https://artifacts.apis.io/autopass/overlays/autopass-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autopass-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/security/autopass-domain-security.yml
+  href: https://artifacts.apis.io/autopass/security/autopass-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autopass-domain-security.yml
@@ -97,52 +96,52 @@ common:
   type: APIReference
   url: https://docs.autopass.xyz/llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/authentication/autopass-authentication.yml
+  href: https://artifacts.apis.io/autopass/authentication/autopass-authentication.yml
   title: ''
   type: Authentication
   url: authentication/autopass-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/scopes/autopass-scopes.yml
+  href: https://artifacts.apis.io/autopass/scopes/autopass-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/autopass-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/well-known/autopass-well-known.yml
+  href: https://artifacts.apis.io/autopass/well-known/autopass-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/autopass-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/llms/autopass-llms.txt
+  href: https://artifacts.apis.io/autopass/llms/autopass-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/autopass-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/conventions/autopass-conventions.yml
+  href: https://artifacts.apis.io/autopass/conventions/autopass-conventions.yml
   title: ''
   type: Conventions
   url: conventions/autopass-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/data-model/autopass-data-model.yml
+  href: https://artifacts.apis.io/autopass/data-model/autopass-data-model.yml
   title: ''
   type: DataModel
   url: data-model/autopass-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/lifecycle/autopass-lifecycle.yml
+  href: https://artifacts.apis.io/autopass/lifecycle/autopass-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/autopass-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/asyncapi/autopass-webhooks.yml
+  href: https://artifacts.apis.io/autopass/asyncapi/autopass-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/autopass-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/mcp/autopass-mcp.yml
+  href: https://artifacts.apis.io/autopass/mcp/autopass-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/autopass-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/autopass/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -169,7 +168,7 @@ overview: 'Autopass publishes 3 API contracts indexed on the [APIs.io](https://a
 
 
   Autopass'' developer surface includes documentation, API reference, authentication, and 15 more developer resources.'
-random_paper: 0
+random_paper: 16
 scopes:
 - name: Autopass Scopes
   scope_count: 1
@@ -177,9 +176,9 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 35.7
+  composite: 35.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -191,7 +190,7 @@ score:
     contract_governance: 0.0
     contract_quality: 56.4
     developer_ergonomics: 39.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -200,7 +199,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 35.7
+  previous_composite: 35.0
   provenance:
     contracts:
       callable: 100.0
@@ -215,14 +214,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/screenshots/autopass-2026-07-25T201842.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/autopass/autopass-2026-07-25T201842.png
 security:
 - kind: authentication
   name: Autopass Authentication
@@ -232,6 +231,12 @@ security:
   name: Autopass Domain Security
   slug: autopass-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Show Autopass partner parking locations
+  slug: autopass-show-parking-locations
+- name: Track an Autopass parking session and settle the order
+  slug: autopass-track-session-and-order
 slug: autopass
 tags:
 - Company

@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
+  score: 23.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://ext.jodo.in
@@ -69,7 +71,7 @@ apis:
   description: Register ERP/institute users and mint short-lived tokens for Jodo-hosted flows.
   name: Jodo Users API
   slug: jodo-users-api
-artifact_total: 11
+artifact_total: 15
 asyncapis:
 - description: Jodo delivers state changes for students, manual payments, Flex instalment plans, Pay collections and Cred education loans as HTTP POST webhooks to a URL the institute registers per event_code. PROVEN
   name: Jodo Webhooks
@@ -80,7 +82,7 @@ common:
   type: BlogRSS
   url: https://www.jodo.in/feed.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/overlays/jodo-integrations-overlay.yaml
+  href: https://artifacts.apis.io/jodo/overlays/jodo-integrations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/jodo-integrations-overlay.yaml
@@ -105,12 +107,12 @@ common:
   type: GettingStarted
   url: https://docs.jodo.in/getting-started/introduction/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/authentication/jodo-authentication.yml
+  href: https://artifacts.apis.io/jodo/authentication/jodo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jodo-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/sandbox/jodo-sandbox.yml
+  href: https://artifacts.apis.io/jodo/sandbox/jodo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/jodo-sandbox.yml
@@ -119,67 +121,67 @@ common:
   type: StatusPage
   url: https://status.jodo.in/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/lifecycle/jodo-lifecycle.yml
+  href: https://artifacts.apis.io/jodo/lifecycle/jodo-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/jodo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/lifecycle/jodo-lifecycle.yml
+  href: https://artifacts.apis.io/jodo/lifecycle/jodo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jodo-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/rate-limits/jodo-rate-limits.yml
+  href: https://artifacts.apis.io/jodo/rate-limits/jodo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jodo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/plans/jodo-plans-pricing.yml
+  href: https://artifacts.apis.io/jodo/plans/jodo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jodo-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/errors/jodo-error-codes.yml
+  href: https://artifacts.apis.io/jodo/errors/jodo-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/jodo-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/conventions/jodo-conventions.yml
+  href: https://artifacts.apis.io/jodo/conventions/jodo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jodo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/data-model/jodo-data-model.yml
+  href: https://artifacts.apis.io/jodo/data-model/jodo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/jodo-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/conformance/jodo-conformance.yml
+  href: https://artifacts.apis.io/jodo/conformance/jodo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jodo-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/packages/jodo-packages.yml
+  href: https://artifacts.apis.io/jodo/packages/jodo-packages.yml
   title: ''
   type: Packages
   url: packages/jodo-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/mcp/jodo-mcp.yml
+  href: https://artifacts.apis.io/jodo/mcp/jodo-mcp.yml
   title: ''
   type: MCPCandidate
   url: mcp/jodo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/llms/jodo-llms.txt
+  href: https://artifacts.apis.io/jodo/llms/jodo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jodo-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/jodo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/security/jodo-domain-security.yml
+  href: https://artifacts.apis.io/jodo/security/jodo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jodo-domain-security.yml
@@ -231,14 +233,14 @@ plans:
 - name: Jodo Plans Pricing
   plan_count: 0
   slug: jodo-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Jodo Rate Limits
   slug: jodo-rate-limits
 score:
-  band: thin
-  composite: 38.5
+  band: developing
+  composite: 42.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -248,12 +250,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 24.7
     developer_ergonomics: 66.1
     discoverability: 66.1
-    operational_transparency: 34.2
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -261,7 +263,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 38.5
+  previous_composite: 42.2
   provenance:
     conformance: derived
     contracts:
@@ -277,13 +279,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/screenshots/jodo-2026-09-02T145951.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/jodo/jodo-2026-09-02T145951.png
 security:
 - kind: authentication
   name: Jodo Authentication
@@ -293,6 +296,16 @@ security:
   name: Jodo Domain Security
   slug: jodo-domain-security
   summary_line: TLSv1.3
+skill_count: 4
+skills:
+- name: jodo-collect-adhoc-payment
+  slug: jodo-collect-adhoc-payment
+- name: jodo-flex-instalment-plan
+  slug: jodo-flex-instalment-plan
+- name: jodo-onboard-student-push
+  slug: jodo-onboard-student-push
+- name: jodo-receive-webhooks
+  slug: jodo-receive-webhooks
 slug: jodo
 tags:
 - Company

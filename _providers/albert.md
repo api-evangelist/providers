@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +79,7 @@ common:
   type: Press
   url: https://www.albertinvent.com/press
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/albert/refs/heads/main/security/albert-domain-security.yml
+  href: https://artifacts.apis.io/albert/security/albert-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/albert-domain-security.yml
@@ -93,10 +95,10 @@ overview: 'Albert is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Albert''s developer surface includes engineering blog, signup flow, support, and 8 more developer resources.'
-random_paper: 18
+random_paper: 10
 score:
   band: emerging
-  composite: 12.9
+  composite: 13.0
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -110,7 +112,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 49.1
+    discoverability: 50.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -119,21 +121,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 12.9
+  previous_composite: 13.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 10.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/albert/refs/heads/main/screenshots/albert-2026-07-25T195540.png
+screenshot: https://apis.io/screenshots/albert/albert-2026-07-25T195540.png
 security:
 - kind: domain-security
   name: Albert Domain Security

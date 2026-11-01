@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -113,9 +115,6 @@ collections:
   name: Alteryx Server API V3 Collections Workflows API
   slug: postman-alteryx-workflows-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Alteryx Server API V3 Collections API
   slug: open-alteryx-collections-api
 - collection_type: open
@@ -137,18 +136,23 @@ collections:
   name: Alteryx Server API V3 Collections Workflows API
   slug: open-alteryx-workflows-api
 common:
+- group: other
+  href: https://artifacts.apis.io/alteryx/capabilities/alteryx-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/alteryx-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/plans/alteryx-plans-pricing.yml
+  href: https://artifacts.apis.io/alteryx/plans/alteryx-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/alteryx-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/rate-limits/alteryx-rate-limits.yml
+  href: https://artifacts.apis.io/alteryx/rate-limits/alteryx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/alteryx-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/finops/alteryx-finops.yml
+  href: https://artifacts.apis.io/alteryx/finops/alteryx-finops.yml
   title: ''
   type: FinOps
   url: finops/alteryx-finops.yml
@@ -161,32 +165,32 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/alteryx/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/agentic-access/alteryx-agentic-access.yml
+  href: https://artifacts.apis.io/alteryx/agentic-access/alteryx-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/alteryx-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/security/alteryx-trust-center.yml
+  href: https://artifacts.apis.io/alteryx/security/alteryx-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/alteryx-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/security/alteryx-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/alteryx/security/alteryx-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/alteryx-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/security/alteryx-domain-security.yml
+  href: https://artifacts.apis.io/alteryx/security/alteryx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alteryx-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/authentication/alteryx-authentication.yml
+  href: https://artifacts.apis.io/alteryx/authentication/alteryx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alteryx-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/scopes/alteryx-scopes.yml
+  href: https://artifacts.apis.io/alteryx/scopes/alteryx-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/alteryx-scopes.yml
@@ -336,10 +340,10 @@ features:
   name: Cloud Data Preparation
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Alteryx Finops
-  primary_unit: ''
-  service_category: Analytics Platform
+  primary_unit: user
+  service_category: ''
   slug: alteryx-finops
   template: false
 image: https://www.alteryx.com/sites/default/files/alteryx-logo-2021.svg
@@ -598,12 +602,15 @@ overview: 'Alteryx publishes 12 API contracts indexed on the [APIs.io](https://a
   The Alteryx catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Alteryx''s developer surface includes authentication, getting-started guide, support, engineering blog, pricing, legal docs, and 19 more developer resources.'
+  Alteryx''s developer surface includes authentication, getting-started guide, support, engineering blog, pricing, legal docs, and 20 more developer resources.'
 plans:
 - name: Alteryx Plans Pricing
   plan_count: 3
   slug: alteryx-plans-pricing
-random_paper: 7
+- name: Alteryx Price Estimates
+  plan_count: 0
+  slug: alteryx-price-estimates
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Alteryx Rate Limits
@@ -638,24 +645,24 @@ scopes:
   slug: alteryx-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 46.1
+  band: strong
+  composite: 57.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 46.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 68.5
+    artifact_dirs: 21
+    catalog_earned: 58.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 78.9
     contract_governance: 13.6
-    contract_quality: 53.0
-    developer_ergonomics: 53.6
+    contract_quality: 49.6
+    developer_ergonomics: 65.5
     discoverability: 57.1
-    operational_transparency: 15.8
-  previous_composite: 47.7
+    operational_transparency: 36.8
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     contracts:
@@ -669,13 +676,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/screenshots/alteryx-2026-06-20T171552.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/alteryx/alteryx-2026-06-20T171552.png
 security:
 - kind: authentication
   name: Alteryx Authentication

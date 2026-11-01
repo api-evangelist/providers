@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.2
-  scored_at: '2026-10-17'
+  score: 20.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -88,9 +90,6 @@ collections:
   name: Currencylayer Change Time Frame API
   slug: postman-currencylayer-time-frame-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Currencylayer Change API
   slug: open-currencylayer-change-api
 - collection_type: open
@@ -109,6 +108,11 @@ collections:
   name: Currencylayer API
   slug: open-currencylayer
 common:
+- group: other
+  href: https://artifacts.apis.io/currencylayer/capabilities/currencylayer-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/currencylayer-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -118,17 +122,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/currencylayer/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/agentic-access/currencylayer-agentic-access.yml
+  href: https://artifacts.apis.io/currencylayer/agentic-access/currencylayer-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/currencylayer-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/security/currencylayer-domain-security.yml
+  href: https://artifacts.apis.io/currencylayer/security/currencylayer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/currencylayer-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/authentication/currencylayer-authentication.yml
+  href: https://artifacts.apis.io/currencylayer/authentication/currencylayer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/currencylayer-authentication.yml
@@ -185,27 +189,27 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/rules/currencylayer-rules.yml
+  href: https://artifacts.apis.io/currencylayer/rules/currencylayer-rules.yml
   title: ''
   type: SpectralRules
   url: rules/currencylayer-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/vocabulary/currencylayer-vocabulary.yml
+  href: https://artifacts.apis.io/currencylayer/vocabulary/currencylayer-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/currencylayer-vocabulary.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/plans/currencylayer-plans-pricing.yml
+  href: https://artifacts.apis.io/currencylayer/plans/currencylayer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/currencylayer-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/rate-limits/currencylayer-rate-limits.yml
+  href: https://artifacts.apis.io/currencylayer/rate-limits/currencylayer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/currencylayer-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/finops/currencylayer-finops.yml
+  href: https://artifacts.apis.io/currencylayer/finops/currencylayer-finops.yml
   title: ''
   type: FinOps
   url: finops/currencylayer-finops.yml
@@ -256,13 +260,13 @@ features:
 - description: Aggregated from 15+ commercial-grade providers, suitable for finance and treasury workloads.
   name: Bank-Grade Data Sourcing
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Currencylayer Finops
-  primary_unit: ''
+  primary_unit: requests
   service_category: ''
   slug: currencylayer-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/currencylayer.png
 integrations:
 - description: Currencylayer is distributed via the APILayer hub; signup, billing, and key management share the marketplace.
@@ -328,12 +332,15 @@ overview: 'Currencylayer publishes 5 API contracts indexed on the [APIs.io](http
   The Currencylayer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Currencylayer''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 17 more developer resources.'
+  Currencylayer''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 18 more developer resources.'
 plans:
 - name: Currencylayer Plans Pricing
-  plan_count: 6
+  plan_count: 8
   slug: currencylayer-plans-pricing
-random_paper: 8
+- name: Currencylayer Price Estimates
+  plan_count: 0
+  slug: currencylayer-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Currencylayer Rate Limits
@@ -363,24 +370,24 @@ rules:
     warn: 8
   slug: currencylayer-rules
 score:
-  band: developing
-  composite: 50.7
+  band: strong
+  composite: 59.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 69.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    artifact_dirs: 19
+    catalog_earned: 81.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 34.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.7
+  delta: 1.6
   facets:
-    access_clarity: 46.1
+    access_clarity: 84.2
     contract_governance: 27.3
     contract_quality: 65.3
-    developer_ergonomics: 64.3
+    developer_ergonomics: 65.5
     discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 56.4
+    operational_transparency: 5.3
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     contracts:
@@ -394,14 +401,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/screenshots/currencylayer-2026-06-20T175338.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/currencylayer/currencylayer-2026-06-20T175338.png
 security:
 - kind: authentication
   name: Currencylayer Authentication

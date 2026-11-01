@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.3
-  scored_at: '2026-10-17'
+  score: 41.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 134
   human_in_the_loop: 0
@@ -227,49 +229,59 @@ apis:
   description: The Views API from FrontApp — 4 operation(s) for views.
   name: FrontApp Views API
   slug: frontapp-views-api
-artifact_total: 59
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Frontapp Webhooks
   slug: frontapp-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/frontapp/capabilities/frontapp-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/frontapp-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/frontapp/plans/frontapp-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/frontapp-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/agentic-access/frontapp-agentic-access.yml
+  href: https://artifacts.apis.io/frontapp/agentic-access/frontapp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/frontapp-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/rules/frontapp-rules.yml
+  href: https://artifacts.apis.io/frontapp/rules/frontapp-rules.yml
   title: ''
   type: Spectral
   url: rules/frontapp-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/json-ld/frontapp-context.jsonld
+  href: https://artifacts.apis.io/frontapp/json-ld/frontapp-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/frontapp-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/vocabulary/frontapp-vocabulary.yml
+  href: https://artifacts.apis.io/frontapp/vocabulary/frontapp-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/frontapp-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/data-model/frontapp-data-model.yml
+  href: https://artifacts.apis.io/frontapp/data-model/frontapp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/frontapp-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/errors/frontapp-problem-types.yml
+  href: https://artifacts.apis.io/frontapp/errors/frontapp-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/frontapp-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/hosts/frontapp-hosts.yml
+  href: https://artifacts.apis.io/frontapp/hosts/frontapp-hosts.yml
   title: ''
   type: Hosts
   url: hosts/frontapp-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/vendors/frontapp-vendors.yml
+  href: https://artifacts.apis.io/frontapp/vendors/frontapp-vendors.yml
   title: ''
   type: Vendors
   url: vendors/frontapp-vendors.yml
@@ -334,17 +346,17 @@ common:
   type: StatusPage
   url: https://status.frontapp.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/llms/frontapp-llms.txt
+  href: https://artifacts.apis.io/frontapp/llms/frontapp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/frontapp-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/well-known/frontapp-well-known.yml
+  href: https://artifacts.apis.io/frontapp/well-known/frontapp-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/frontapp-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/well-known/frontapp-security.txt
+  href: https://artifacts.apis.io/frontapp/well-known/frontapp-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/frontapp-security.txt
@@ -353,67 +365,67 @@ common:
   type: MCPServer
   url: https://mcp.frontapp.com/mcp
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/authentication/frontapp-authentication.yml
+  href: https://artifacts.apis.io/frontapp/authentication/frontapp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/frontapp-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/scopes/frontapp-scopes.yml
+  href: https://artifacts.apis.io/frontapp/scopes/frontapp-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/frontapp-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/conventions/frontapp-conventions.yml
+  href: https://artifacts.apis.io/frontapp/conventions/frontapp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/frontapp-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/lifecycle/frontapp-lifecycle.yml
+  href: https://artifacts.apis.io/frontapp/lifecycle/frontapp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/frontapp-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/changelog/frontapp-changelog.yml
+  href: https://artifacts.apis.io/frontapp/changelog/frontapp-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/frontapp-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/rate-limits/frontapp-rate-limits.yml
+  href: https://artifacts.apis.io/frontapp/rate-limits/frontapp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/frontapp-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/asyncapi/frontapp-webhooks.yml
+  href: https://artifacts.apis.io/frontapp/asyncapi/frontapp-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/frontapp-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/packages/frontapp-packages.yml
+  href: https://artifacts.apis.io/frontapp/packages/frontapp-packages.yml
   title: ''
   type: Packages
   url: packages/frontapp-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/packages/frontapp-packages.yml
+  href: https://artifacts.apis.io/frontapp/packages/frontapp-packages.yml
   title: ''
   type: SDKs
   url: packages/frontapp-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/components/frontapp-components.yml
+  href: https://artifacts.apis.io/frontapp/components/frontapp-components.yml
   title: ''
   type: Components
   url: components/frontapp-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/conformance/frontapp-conformance.yml
+  href: https://artifacts.apis.io/frontapp/conformance/frontapp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/frontapp-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/security/frontapp-domain-security.yml
+  href: https://artifacts.apis.io/frontapp/security/frontapp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/frontapp-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/security/frontapp-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/frontapp/security/frontapp-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/frontapp-vulnerability-disclosure.yml
@@ -422,7 +434,7 @@ common:
   type: Security
   url: https://front.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/security/frontapp-trust-center.yml
+  href: https://artifacts.apis.io/frontapp/security/frontapp-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/frontapp-trust-center.yml
@@ -432,6 +444,14 @@ common:
   url: https://trust.front.com/
 created: '2026-07-17'
 description: Front is a customer service and communication platform that combines the efficiency of a help desk with the familiarity of email, giving teams a shared inbox across email, SMS, chat, and social channels. The Front Core API is a REST API (base https://api2.frontapp.com) exposing 340+ endpoints across conversations, messages, drafts, comments, contacts, accounts, inboxes, channels, tags, teammates, teams, knowledge bases, shifts, analytics, links, message templates, and signatures. It supports API-token and OAuth 2.0 authentication with 50+ granular scopes, cursor pagination, per-company rate limiting with standard headers, webhooks and application triggers for events, and an official hosted MCP server for AI agents. Front is a portfolio company of Battery Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Frontapp Finops
+  primary_unit: seat
+  service_category: ''
+  slug: frontapp-finops
+  template: false
 image: https://avatars.githubusercontent.com/frontapp
 json_schemas:
 - name: ApplicationMessageTemplateEditBlob
@@ -487,8 +507,15 @@ overview: 'FrontApp publishes 37 API contracts indexed on the [APIs.io](https://
   The FrontApp catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  FrontApp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 36 more developer resources.'
-random_paper: 16
+  FrontApp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 38 more developer resources.'
+plans:
+- name: Frontapp Plans Pricing
+  plan_count: 7
+  slug: frontapp-plans-pricing
+- name: Frontapp Price Estimates
+  plan_count: 0
+  slug: frontapp-price-estimates
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Frontapp Rate Limits
@@ -512,24 +539,24 @@ scopes:
   slug: frontapp-scopes
   summary_line: 57 scopes · authorizationCode
 score:
-  band: strong
-  composite: 61.8
+  band: exemplar
+  composite: 72.9
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 62.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    artifact_dirs: 31
+    catalog_earned: 77.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 38.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 11.9
+  delta: 7.9
   facets:
-    access_clarity: 46.1
+    access_clarity: 100.0
     contract_governance: 33.3
-    contract_quality: 70.9
-    developer_ergonomics: 53.6
-    discoverability: 75.0
-    operational_transparency: 52.6
-  previous_composite: 49.9
+    contract_quality: 67.5
+    developer_ergonomics: 69.0
+    discoverability: 65.0
+    operational_transparency: 55.3
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -548,14 +575,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 45.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/screenshots/frontapp-2026-07-25T215228.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/frontapp/frontapp-2026-07-25T215228.png
 security:
 - kind: authentication
   name: Frontapp Authentication

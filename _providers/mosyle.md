@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for the Mosyle Business Apple device management platform. Requests are POSTed to operation endpoints under https://businessapi.mosyle.com/v1 (e.g. listdevices, listusers) with a JSON body and
@@ -43,7 +45,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mosyle/refs/heads/main/security/mosyle-domain-security.yml
+  href: https://artifacts.apis.io/mosyle/security/mosyle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mosyle-domain-security.yml
@@ -84,37 +86,37 @@ common:
   type: Compliance
   url: https://business.mosyle.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mosyle/refs/heads/main/authentication/mosyle-authentication.yml
+  href: https://artifacts.apis.io/mosyle/authentication/mosyle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mosyle-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mosyle/refs/heads/main/conventions/mosyle-conventions.yml
+  href: https://artifacts.apis.io/mosyle/conventions/mosyle-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mosyle-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mosyle/refs/heads/main/lifecycle/mosyle-lifecycle.yml
+  href: https://artifacts.apis.io/mosyle/lifecycle/mosyle-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mosyle-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mosyle/refs/heads/main/errors/mosyle-error-codes.yml
+  href: https://artifacts.apis.io/mosyle/errors/mosyle-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/mosyle-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mosyle/refs/heads/main/conformance/mosyle-conformance.yml
+  href: https://artifacts.apis.io/mosyle/conformance/mosyle-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mosyle-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mosyle/refs/heads/main/security/mosyle-trust-center.yml
+  href: https://artifacts.apis.io/mosyle/security/mosyle-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mosyle-trust-center.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mosyle/refs/heads/main/packages/mosyle-packages.yml
+  href: https://artifacts.apis.io/mosyle/packages/mosyle-packages.yml
   title: ''
   type: Packages
   url: packages/mosyle-packages.yml
@@ -130,10 +132,10 @@ overview: 'Mosyle is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Mosyle''s developer surface includes developer portal, pricing, engineering blog, signup flow, support, authentication, and 11 more developer resources.'
-random_paper: 5
+random_paper: 17
 score:
   band: emerging
-  composite: 22.4
+  composite: 25.4
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -141,15 +143,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 22.3
+  previous_composite: 25.4
   provenance:
     conformance: first-party
   regulatory:
@@ -162,14 +164,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mosyle/refs/heads/main/screenshots/mosyle-2026-08-07T184321.png
+screenshot: https://apis.io/screenshots/mosyle/mosyle-2026-08-07T184321.png
 security:
 - kind: authentication
   name: Mosyle Authentication

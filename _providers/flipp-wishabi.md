@@ -19,22 +19,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.5
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 25.3
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.flipp.com/flyerkit/v4.0
   baseurl_source: declared
@@ -61,7 +63,7 @@ apis:
   description: The stores API from Flipp (Wishabi) — 1 operation(s) for stores.
   name: Flipp (Wishabi) Stores API
   slug: flipp-wishabi-stores-api
-artifact_total: 10
+artifact_total: 13
 collections:
 - collection_type: open
   name: FlyerKit
@@ -72,7 +74,7 @@ common:
   type: BlogRSS
   url: https://blog.flipp.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/overlays/flipp-wishabi-flyerkit-overlay.yaml
+  href: https://artifacts.apis.io/flipp-wishabi/overlays/flipp-wishabi-flyerkit-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/flipp-wishabi-flyerkit-overlay.yaml
@@ -117,77 +119,77 @@ common:
   type: APIReference
   url: https://api.flipp.com/flyerkit/v4.0/documentation
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/security/flipp-wishabi-domain-security.yml
+  href: https://artifacts.apis.io/flipp-wishabi/security/flipp-wishabi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flipp-wishabi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/authentication/flipp-wishabi-authentication.yml
+  href: https://artifacts.apis.io/flipp-wishabi/authentication/flipp-wishabi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flipp-wishabi-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/conventions/flipp-wishabi-conventions.yml
+  href: https://artifacts.apis.io/flipp-wishabi/conventions/flipp-wishabi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flipp-wishabi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/lifecycle/flipp-wishabi-lifecycle.yml
+  href: https://artifacts.apis.io/flipp-wishabi/lifecycle/flipp-wishabi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flipp-wishabi-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/conformance/flipp-wishabi-conformance.yml
+  href: https://artifacts.apis.io/flipp-wishabi/conformance/flipp-wishabi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flipp-wishabi-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/packages/flipp-wishabi-packages.yml
+  href: https://artifacts.apis.io/flipp-wishabi/packages/flipp-wishabi-packages.yml
   title: ''
   type: Packages
   url: packages/flipp-wishabi-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/packages/flipp-wishabi-packages.yml
+  href: https://artifacts.apis.io/flipp-wishabi/packages/flipp-wishabi-packages.yml
   title: ''
   type: SDKs
   url: packages/flipp-wishabi-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/llms/flipp-wishabi-llms.txt
+  href: https://artifacts.apis.io/flipp-wishabi/llms/flipp-wishabi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flipp-wishabi-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/flipp-wishabi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/components/flipp-wishabi-components.yml
+  href: https://artifacts.apis.io/flipp-wishabi/components/flipp-wishabi-components.yml
   title: ''
   type: Components
   url: components/flipp-wishabi-components.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/changelog/flipp-wishabi-changelog.yml
+  href: https://artifacts.apis.io/flipp-wishabi/changelog/flipp-wishabi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/flipp-wishabi-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/data-model/flipp-wishabi-data-model.yml
+  href: https://artifacts.apis.io/flipp-wishabi/data-model/flipp-wishabi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/flipp-wishabi-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/errors/flipp-wishabi-problem-types.yml
+  href: https://artifacts.apis.io/flipp-wishabi/errors/flipp-wishabi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/flipp-wishabi-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/rate-limits/flipp-wishabi-rate-limits.yml
+  href: https://artifacts.apis.io/flipp-wishabi/rate-limits/flipp-wishabi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/flipp-wishabi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/plans/flipp-wishabi-plans-pricing.yml
+  href: https://artifacts.apis.io/flipp-wishabi/plans/flipp-wishabi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/flipp-wishabi-plans-pricing.yml
@@ -219,22 +221,22 @@ rate_limits:
   slug: flipp-wishabi-rate-limits
 score:
   band: thin
-  composite: 32.2
+  composite: 34.7
   coverage:
     artifact_dirs: 23
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
-    access_clarity: 10.5
+    access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 41.1
     developer_ergonomics: 44.6
-    discoverability: 71.4
-    operational_transparency: 18.4
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -242,7 +244,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 31.6
+  previous_composite: 35.2
   provenance:
     conformance: derived
     contracts:
@@ -257,15 +259,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/screenshots/flipp-wishabi-2026-07-25T214802.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/flipp-wishabi/flipp-wishabi-2026-07-25T214802.png
 security:
 - kind: authentication
   name: Flipp Wishabi Authentication
@@ -275,6 +277,14 @@ security:
   name: Flipp Wishabi Domain Security
   slug: flipp-wishabi-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: browse-retailer-circular
+  slug: flipp-wishabi-browse-retailer-circular
+- name: locate-store-and-inventory
+  slug: flipp-wishabi-locate-store-and-inventory
+- name: pull-circular-offers
+  slug: flipp-wishabi-pull-circular-offers
 slug: flipp-wishabi
 tags:
 - Company

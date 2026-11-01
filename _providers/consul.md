@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -116,11 +118,8 @@ apis:
   description: Atomic key/value transactions
   name: HashiCorp Consul Transaction API
   slug: consul-transaction-api
-artifact_total: 41
+artifact_total: 40
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: HashiCorp Consul HTTP ACL API
   slug: open-consul-acl-api
@@ -167,23 +166,27 @@ collections:
   name: HashiCorp Consul HTTP ACL Transaction API
   slug: open-consul-transaction-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/hashicorp-consul/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/plans/consul-plans-pricing.yml
+  href: https://artifacts.apis.io/consul/plans/consul-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/consul-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/rate-limits/consul-rate-limits.yml
+  href: https://artifacts.apis.io/consul/rate-limits/consul-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/consul-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/finops/consul-finops.yml
+  href: https://artifacts.apis.io/consul/finops/consul-finops.yml
   title: ''
   type: FinOps
   url: finops/consul-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/capabilities/consul-capability-edges.yml
+  href: https://artifacts.apis.io/consul/capabilities/consul-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/consul-capability-edges.yml
@@ -200,17 +203,17 @@ common:
   type: ContributionGuide
   url: https://github.com/hashicorp/consul/blob/main/.github/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/agentic-access/consul-agentic-access.yml
+  href: https://artifacts.apis.io/consul/agentic-access/consul-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/consul-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/security/consul-domain-security.yml
+  href: https://artifacts.apis.io/consul/security/consul-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/consul-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/authentication/consul-authentication.yml
+  href: https://artifacts.apis.io/consul/authentication/consul-authentication.yml
   title: ''
   type: Authentication
   url: authentication/consul-authentication.yml
@@ -263,22 +266,22 @@ common:
   type: PrivacyPolicy
   url: https://www.hashicorp.com/privacy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/json-ld/consul-context.jsonld
+  href: https://artifacts.apis.io/consul/json-ld/consul-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/consul-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/json-schema/consul-service-schema.json
+  href: https://artifacts.apis.io/consul/json-schema/consul-service-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/consul-service-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/json-schema/consul-kv-schema.json
+  href: https://artifacts.apis.io/consul/json-schema/consul-kv-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/consul-kv-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/rules/consul-rules.yml
+  href: https://artifacts.apis.io/consul/rules/consul-rules.yml
   title: ''
   type: Spectral
   url: rules/consul-rules.yml
@@ -288,7 +291,7 @@ finops:
 - has_sources: false
   method: generated
   name: Consul Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: consul-finops
   template: true
@@ -310,18 +313,18 @@ modified: '2026-05-19'
 name: HashiCorp Consul
 nav: Providers
 network: true
-overview: 'HashiCorp Consul publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including ACL API, Agent API, Catalog API, and 11 more. Tagged areas include ACL, Configuration, Health Checking, Key-Value Store, and Multi-Datacenter.
+overview: 'HashiCorp Consul publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including ACL API, Agent API, Catalog API, and 11 more. Tagged areas include ACL, Configuration, Health Checks, Key-Value Store, and Multi-Datacenter.
 
 
   The HashiCorp Consul catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  HashiCorp Consul''s developer surface includes authentication, documentation, getting-started guide, changelog, engineering blog, and 21 more developer resources.'
+  HashiCorp Consul''s developer surface includes authentication, documentation, getting-started guide, changelog, engineering blog, and 22 more developer resources.'
 plans:
 - name: Consul Plans Pricing
   plan_count: 3
   slug: consul-plans-pricing
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Consul Rate Limits
@@ -352,7 +355,7 @@ rules:
   slug: consul-rules
 score:
   band: thin
-  composite: 35.5
+  composite: 37.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 47.5
@@ -360,15 +363,15 @@ score:
     catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.2
   facets:
-    access_clarity: 18.4
+    access_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 45.9
-    developer_ergonomics: 36.9
+    developer_ergonomics: 41.7
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 37.0
+    operational_transparency: 28.9
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -381,14 +384,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 16.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 19.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/screenshots/consul-2026-06-20T174916.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/consul/consul-2026-06-20T174916.png
 security:
 - kind: authentication
   name: Consul Authentication
@@ -402,7 +406,7 @@ slug: consul
 tags:
 - ACL
 - Configuration
-- Health Checking
+- Health Checks
 - Key-Value Store
 - Multi-Datacenter
 - Open Source

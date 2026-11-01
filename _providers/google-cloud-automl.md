@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-17'
+  score: 21.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,14 +50,11 @@ apis:
   description: The Projects API from Google Cloud AutoML — 4 operation(s) for projects.
   name: Google Cloud AutoML Projects API
   slug: google-cloud-automl-projects-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: postman
   name: Google Cloud AutoML Projects API
   slug: postman-google-cloud-automl-projects-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Cloud AutoML Projects API
   slug: open-google-cloud-automl-projects-api
@@ -64,17 +63,17 @@ collections:
   slug: open-openapi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-automl/refs/heads/main/finops/google-cloud-automl-finops.yml
+  href: https://artifacts.apis.io/google-cloud-automl/finops/google-cloud-automl-finops.yml
   title: ''
   type: FinOps
   url: finops/google-cloud-automl-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-automl/refs/heads/main/rate-limits/google-cloud-automl-rate-limits.yml
+  href: https://artifacts.apis.io/google-cloud-automl/rate-limits/google-cloud-automl-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-cloud-automl-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-automl/refs/heads/main/plans/google-cloud-automl-plans-pricing.yml
+  href: https://artifacts.apis.io/google-cloud-automl/plans/google-cloud-automl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-cloud-automl-plans-pricing.yml
@@ -83,7 +82,7 @@ common:
   type: Website
   url: https://www.google.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-automl/refs/heads/main/capabilities/google-cloud-automl-capability-edges.yml
+  href: https://artifacts.apis.io/google-cloud-automl/capabilities/google-cloud-automl-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-cloud-automl-capability-edges.yml
@@ -92,17 +91,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-cloud-automl/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-automl/refs/heads/main/agentic-access/google-cloud-automl-agentic-access.yml
+  href: https://artifacts.apis.io/google-cloud-automl/agentic-access/google-cloud-automl-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-cloud-automl-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-automl/refs/heads/main/security/google-cloud-automl-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-cloud-automl/security/google-cloud-automl-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-cloud-automl-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-automl/refs/heads/main/security/google-cloud-automl-domain-security.yml
+  href: https://artifacts.apis.io/google-cloud-automl/security/google-cloud-automl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-cloud-automl-domain-security.yml
@@ -147,7 +146,7 @@ common:
   type: Support
   url: https://cloud.google.com/automl/docs/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-automl/refs/heads/main/json-ld/context.jsonld
+  href: https://artifacts.apis.io/google-cloud-automl/json-ld/context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/context.jsonld
@@ -158,13 +157,13 @@ common:
 created: '2026-03-13'
 description: Google Cloud AutoML enables developers with limited machine learning expertise to train high-quality custom models. It provides a suite of products for training custom ML models for translation, natural language, vision, video intelligence, and tabular data using transfer learning and neural architecture search.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Google Cloud Automl Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: image
+  service_category: ''
   slug: google-cloud-automl-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-automl.png
 json_schemas:
 - name: AutoML Model
@@ -194,7 +193,7 @@ plans:
 - name: Google Cloud Automl Price Estimates
   plan_count: 0
   slug: google-cloud-automl-price-estimates
-random_paper: 6
+random_paper: 0
 rate_limits:
 - limit_count: 28
   name: Google Cloud Automl Rate Limits
@@ -212,24 +211,24 @@ rules:
     warn: 3
   slug: google-cloud-automl-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 51.9
+  band: strong
+  composite: 55.9
   coverage:
     artifact_dirs: 15
-    catalog_earned: 77.7
+    catalog_earned: 80.7
     catalog_earned_first_party: 24.0
-    catalog_gap: 37.4
+    catalog_gap: 34.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 71.1
     contract_governance: 9.8
     contract_quality: 53.8
     developer_ergonomics: 51.2
     discoverability: 66.1
-    operational_transparency: 50.0
-  previous_composite: 53.4
+    operational_transparency: 63.2
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     contracts:
@@ -243,13 +242,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-automl/refs/heads/main/screenshots/google-cloud-automl-2026-06-20T182043.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-cloud-automl/google-cloud-automl-2026-06-20T182043.png
 security:
 - kind: domain-security
   name: Google Cloud Automl Domain Security

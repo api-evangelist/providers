@@ -15,16 +15,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: unknown
     idempotency: verified
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.7
-  scored_at: '2026-10-17'
+  score: 52.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 4
@@ -104,50 +106,55 @@ apis:
   description: The Team API from Ads Lighthouse — 5 operation(s) for team.
   name: Ads Lighthouse Team API
   slug: adslighthouse-team-api
-artifact_total: 22
+artifact_total: 27
 common:
+- group: other
+  href: https://artifacts.apis.io/adslighthouse/capabilities/adslighthouse-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/adslighthouse-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/agentic-access/adslighthouse-agentic-access.yml
+  href: https://artifacts.apis.io/adslighthouse/agentic-access/adslighthouse-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adslighthouse-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/plans/adslighthouse-plans-pricing.yml
+  href: https://artifacts.apis.io/adslighthouse/plans/adslighthouse-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adslighthouse-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/rules/adslighthouse-rules.yml
+  href: https://artifacts.apis.io/adslighthouse/rules/adslighthouse-rules.yml
   title: ''
   type: Spectral
   url: rules/adslighthouse-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/json-ld/adslighthouse-context.jsonld
+  href: https://artifacts.apis.io/adslighthouse/json-ld/adslighthouse-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adslighthouse-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/vocabulary/adslighthouse-vocabulary.yml
+  href: https://artifacts.apis.io/adslighthouse/vocabulary/adslighthouse-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/adslighthouse-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/adslighthouse/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/data-model/adslighthouse-data-model.yml
+  href: https://artifacts.apis.io/adslighthouse/data-model/adslighthouse-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adslighthouse-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/conventions/adslighthouse-conventions.yml
+  href: https://artifacts.apis.io/adslighthouse/conventions/adslighthouse-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/adslighthouse-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/conventions/adslighthouse-conventions.yml
+  href: https://artifacts.apis.io/adslighthouse/conventions/adslighthouse-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adslighthouse-conventions.yml
@@ -156,37 +163,37 @@ common:
   type: Compliance
   url: https://adslighthouse.com/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/errors/adslighthouse-problem-types.yml
+  href: https://artifacts.apis.io/adslighthouse/errors/adslighthouse-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adslighthouse-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/conformance/adslighthouse-conformance.yml
+  href: https://artifacts.apis.io/adslighthouse/conformance/adslighthouse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adslighthouse-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/overlays/adslighthouse-openapi-overlay.yaml
+  href: https://artifacts.apis.io/adslighthouse/overlays/adslighthouse-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/adslighthouse-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/llms/adslighthouse-llms.txt
+  href: https://artifacts.apis.io/adslighthouse/llms/adslighthouse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adslighthouse-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/well-known/adslighthouse-well-known.yml
+  href: https://artifacts.apis.io/adslighthouse/well-known/adslighthouse-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adslighthouse-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/hosts/adslighthouse-hosts.yml
+  href: https://artifacts.apis.io/adslighthouse/hosts/adslighthouse-hosts.yml
   title: ''
   type: Hosts
   url: hosts/adslighthouse-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/vendors/adslighthouse-vendors.yml
+  href: https://artifacts.apis.io/adslighthouse/vendors/adslighthouse-vendors.yml
   title: ''
   type: Vendors
   url: vendors/adslighthouse-vendors.yml
@@ -203,22 +210,22 @@ common:
   type: ChangeLog
   url: https://adslighthouse.com/changelog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/authentication/adslighthouse-authentication.yml
+  href: https://artifacts.apis.io/adslighthouse/authentication/adslighthouse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adslighthouse-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/security/adslighthouse-trust-center.yml
+  href: https://artifacts.apis.io/adslighthouse/security/adslighthouse-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/adslighthouse-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/security/adslighthouse-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/adslighthouse/security/adslighthouse-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adslighthouse-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adslighthouse/refs/heads/main/security/adslighthouse-domain-security.yml
+  href: https://artifacts.apis.io/adslighthouse/security/adslighthouse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adslighthouse-domain-security.yml
@@ -275,6 +282,14 @@ coverage:
   state: unreadable
 created: '2026-10-12'
 description: Ads Lighthouse provides brand search ad monitoring for Google and Bing, offering tools for advertisers, agencies, and affiliates to track brand appearances, compliance, and competition. The platform includes integrations with Slack, webhooks, email, and Google connections, delivering real‑time alerts, reports, and templates to help users manage paid‑search campaigns effectively.
+finops:
+- has_sources: true
+  method: derived
+  name: Adslighthouse Finops
+  primary_unit: seat
+  service_category: ''
+  slug: adslighthouse-finops
+  template: false
 image: https://adslighthouse.com/og-image.png
 jsonld:
 - class_count: 1
@@ -292,12 +307,15 @@ overview: 'Ads Lighthouse publishes 14 API contracts indexed on the [APIs.io](ht
   The Ads Lighthouse catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ads Lighthouse''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 28 more developer resources.'
+  Ads Lighthouse''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 29 more developer resources.'
 plans:
 - name: Adslighthouse Plans Pricing
   plan_count: 5
   slug: adslighthouse-plans-pricing
-random_paper: 10
+- name: Adslighthouse Price Estimates
+  plan_count: 0
+  slug: adslighthouse-price-estimates
+random_paper: 4
 rules:
 - authorship: generated
   effective_rule_count: 58
@@ -313,21 +331,23 @@ rules:
   slug: adslighthouse-rules
 score:
   band: strong
-  composite: 62.1
+  composite: 58.9
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 54.0
+    artifact_dirs: 23
+    catalog_earned: 57.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 61.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 19.7
-    contract_quality: 57.3
+    contract_quality: 54.0
     developer_ergonomics: 49.4
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 34.2
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,11 +364,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 38.9
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Adslighthouse Authentication
@@ -366,6 +388,14 @@ security:
   name: Adslighthouse Trust Center
   slug: adslighthouse-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 3
+skills:
+- name: adslighthouse-create-and-view-project
+  slug: adslighthouse-create-and-view-project
+- name: adslighthouse-create-report-pdf
+  slug: adslighthouse-create-report-pdf
+- name: adslighthouse-view-account-overview
+  slug: adslighthouse-view-account-overview
 slug: adslighthouse
 tags:
 - Company

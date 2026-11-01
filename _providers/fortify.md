@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.5
-  scored_at: '2026-10-17'
+  score: 22.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 1
@@ -255,7 +257,7 @@ apis:
   description: Access and manage vulnerability findings
   name: Fortify Vulnerabilities API
   slug: fortify-vulnerabilities-api
-artifact_total: 254
+artifact_total: 253
 collections:
 - collection_type: postman
   name: Fortify on Demand Alert Definitions API
@@ -383,9 +385,6 @@ collections:
 - collection_type: postman
   name: Fortify on Demand Alert Definitions Vulnerabilities API
   slug: postman-fortify-vulnerabilities-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Fortify on Demand Alert Definitions API
   slug: open-fortify-alert-definitions-api
@@ -523,52 +522,52 @@ collections:
   slug: open-fortify-vulnerabilities-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/finops/fortify-finops.yml
+  href: https://artifacts.apis.io/fortify/finops/fortify-finops.yml
   title: ''
   type: FinOps
   url: finops/fortify-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/rate-limits/fortify-rate-limits.yml
+  href: https://artifacts.apis.io/fortify/rate-limits/fortify-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fortify-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/rules/fortify-rules.yml
+  href: https://artifacts.apis.io/fortify/rules/fortify-rules.yml
   title: ''
   type: Spectral
   url: rules/fortify-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/rules/fortify-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/fortify/rules/fortify-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/fortify-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/json-ld/fortify-context.jsonld
+  href: https://artifacts.apis.io/fortify/json-ld/fortify-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/fortify-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/vocabulary/fortify-vocabulary.yml
+  href: https://artifacts.apis.io/fortify/vocabulary/fortify-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/fortify-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/data-model/fortify-data-model.yml
+  href: https://artifacts.apis.io/fortify/data-model/fortify-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fortify-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/errors/fortify-problem-types.yml
+  href: https://artifacts.apis.io/fortify/errors/fortify-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fortify-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/hosts/fortify-hosts.yml
+  href: https://artifacts.apis.io/fortify/hosts/fortify-hosts.yml
   title: ''
   type: Hosts
   url: hosts/fortify-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/vendors/fortify-vendors.yml
+  href: https://artifacts.apis.io/fortify/vendors/fortify-vendors.yml
   title: ''
   type: Vendors
   url: vendors/fortify-vendors.yml
@@ -577,12 +576,12 @@ common:
   type: Pricing
   url: https://cybersecurity.opentext.com/products/saas-backup/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/plans/fortify-plans-pricing.yml
+  href: https://artifacts.apis.io/fortify/plans/fortify-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fortify-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/overlays/fortify-fod-overlay.yaml
+  href: https://artifacts.apis.io/fortify/overlays/fortify-fod-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fortify-fod-overlay.yaml
@@ -595,47 +594,47 @@ common:
   type: APIReference
   url: https://api.ams.fortify.com/swagger/ui/index
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/mcp/fortify-mcp.yml
+  href: https://artifacts.apis.io/fortify/mcp/fortify-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fortify-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/packages/fortify-packages.yml
+  href: https://artifacts.apis.io/fortify/packages/fortify-packages.yml
   title: ''
   type: Packages
   url: packages/fortify-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/cli/fortify-cli.yml
+  href: https://artifacts.apis.io/fortify/cli/fortify-cli.yml
   title: ''
   type: CLI
   url: cli/fortify-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/well-known/fortify-well-known.yml
+  href: https://artifacts.apis.io/fortify/well-known/fortify-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fortify-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/well-known/fortify-well-known.yml
+  href: https://artifacts.apis.io/fortify/well-known/fortify-well-known.yml
   title: ''
   type: SecurityTxt
   url: well-known/fortify-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/llms/fortify-llms.txt
+  href: https://artifacts.apis.io/fortify/llms/fortify-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fortify-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/conformance/fortify-conformance.yml
+  href: https://artifacts.apis.io/fortify/conformance/fortify-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fortify-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/lifecycle/fortify-lifecycle.yml
+  href: https://artifacts.apis.io/fortify/lifecycle/fortify-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fortify-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/security/fortify-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/fortify/security/fortify-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fortify-vulnerability-disclosure.yml
@@ -644,17 +643,17 @@ common:
   type: Security
   url: https://www.opentext.com/about/security-acknowledgements
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/conventions/fortify-conventions.yml
+  href: https://artifacts.apis.io/fortify/conventions/fortify-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fortify-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fortify/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/capabilities/fortify-capability-edges.yml
+  href: https://artifacts.apis.io/fortify/capabilities/fortify-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fortify-capability-edges.yml
@@ -663,17 +662,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/fortify/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/agentic-access/fortify-agentic-access.yml
+  href: https://artifacts.apis.io/fortify/agentic-access/fortify-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fortify-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/security/fortify-domain-security.yml
+  href: https://artifacts.apis.io/fortify/security/fortify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fortify-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/authentication/fortify-authentication.yml
+  href: https://artifacts.apis.io/fortify/authentication/fortify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fortify-authentication.yml
@@ -742,32 +741,32 @@ common:
   type: SDKs
   url: https://github.com/fortify/fortify-client-api
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/json-ld/fortify-context.jsonld
+  href: https://artifacts.apis.io/fortify/json-ld/fortify-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/fortify-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/json-schema/fortify-application-schema.json
+  href: https://artifacts.apis.io/fortify/json-schema/fortify-application-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/fortify-application-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/json-schema/fortify-vulnerability-schema.json
+  href: https://artifacts.apis.io/fortify/json-schema/fortify-vulnerability-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/fortify-vulnerability-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/json-schema/fortify-scan-schema.json
+  href: https://artifacts.apis.io/fortify/json-schema/fortify-scan-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/fortify-scan-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/json-schema/fortify-release-schema.json
+  href: https://artifacts.apis.io/fortify/json-schema/fortify-release-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/fortify-release-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/json-schema/fortify-project-version-schema.json
+  href: https://artifacts.apis.io/fortify/json-schema/fortify-project-version-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/fortify-project-version-schema.json
@@ -779,12 +778,12 @@ created: '2024-01-15'
 description: Fortify is a comprehensive application security platform from OpenText that provides static application security testing (SAST), dynamic application security testing (DAST), and software composition analysis (SCA) capabilities. It helps organizations identify and remediate vulnerabilities across the software development lifecycle.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Fortify Finops
   primary_unit: ''
-  service_category: Application Security
+  service_category: ''
   slug: fortify-finops
-  template: false
+  template: true
 image: https://www.microfocus.com/brand/fortify-logo.png
 json_schemas:
 - name: AlertDefinitionListResponse
@@ -1129,7 +1128,7 @@ plans:
 - name: Fortify Plans Pricing
   plan_count: 0
   slug: fortify-plans-pricing
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Fortify Rate Limits
@@ -1160,7 +1159,7 @@ rules:
   slug: fortify-rules
 score:
   band: strong
-  composite: 57.4
+  composite: 59.4
   coverage:
     artifact_dirs: 32
     catalog_earned: 64.8
@@ -1168,15 +1167,20 @@ score:
     catalog_gap: 50.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 22.0
-    contract_quality: 67.2
-    developer_ergonomics: 72.0
-    discoverability: 85.7
-    operational_transparency: 34.2
-  previous_composite: 60.1
+    contract_quality: 63.8
+    developer_ergonomics: 74.4
+    discoverability: 78.6
+    operational_transparency: 52.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1193,13 +1197,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/screenshots/fortify-2026-08-17T123433.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fortify/fortify-2026-08-17T123433.png
 security:
 - kind: authentication
   name: Fortify Authentication

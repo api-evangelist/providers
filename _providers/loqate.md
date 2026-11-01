@@ -1,8 +1,8 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-17'
+  score: 32.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -38,80 +40,80 @@ apis:
   description: The Plants API from Loqate — 2 operation(s) for plants.
   name: Loqate Plants API
   slug: loqate-plants-api
-artifact_total: 9
+artifact_total: 10
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loqate/refs/heads/main/agentic-access/loqate-agentic-access.yml
+  href: https://artifacts.apis.io/loqate/agentic-access/loqate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/loqate-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/loqate/refs/heads/main/plans/loqate-plans-pricing.yml
+  href: https://artifacts.apis.io/loqate/plans/loqate-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/loqate-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loqate/refs/heads/main/rules/loqate-rules.yml
+  href: https://artifacts.apis.io/loqate/rules/loqate-rules.yml
   title: ''
   type: Spectral
   url: rules/loqate-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loqate/refs/heads/main/json-ld/loqate-context.jsonld
+  href: https://artifacts.apis.io/loqate/json-ld/loqate-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/loqate-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loqate/refs/heads/main/vocabulary/loqate-vocabulary.yml
+  href: https://artifacts.apis.io/loqate/vocabulary/loqate-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/loqate-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loqate/refs/heads/main/data-model/loqate-data-model.yml
+  href: https://artifacts.apis.io/loqate/data-model/loqate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/loqate-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/loqate/refs/heads/main/cli/loqate-cli.yml
+  href: https://artifacts.apis.io/loqate/cli/loqate-cli.yml
   title: ''
   type: CLI
   url: cli/loqate-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/loqate/refs/heads/main/changelog/loqate-changelog.yml
+  href: https://artifacts.apis.io/loqate/changelog/loqate-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/loqate-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loqate/refs/heads/main/authentication/loqate-authentication.yml
+  href: https://artifacts.apis.io/loqate/authentication/loqate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/loqate-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loqate/refs/heads/main/errors/loqate-problem-types.yml
+  href: https://artifacts.apis.io/loqate/errors/loqate-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/loqate-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loqate/refs/heads/main/conformance/loqate-conformance.yml
+  href: https://artifacts.apis.io/loqate/conformance/loqate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/loqate-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loqate/refs/heads/main/llms/loqate-llms.txt
+  href: https://artifacts.apis.io/loqate/llms/loqate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/loqate-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/loqate/refs/heads/main/a2a/loqate-a2a.yml
+  href: https://artifacts.apis.io/loqate/a2a/loqate-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/loqate-a2a.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/loqate/refs/heads/main/hosts/loqate-hosts.yml
+  href: https://artifacts.apis.io/loqate/hosts/loqate-hosts.yml
   title: ''
   type: Hosts
   url: hosts/loqate-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/loqate/refs/heads/main/vendors/loqate-vendors.yml
+  href: https://artifacts.apis.io/loqate/vendors/loqate-vendors.yml
   title: ''
   type: Vendors
   url: vendors/loqate-vendors.yml
@@ -156,7 +158,7 @@ common:
   type: APIReference
   url: https://docs.loqate.com/llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loqate/refs/heads/main/security/loqate-domain-security.yml
+  href: https://artifacts.apis.io/loqate/security/loqate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/loqate-domain-security.yml
@@ -186,6 +188,14 @@ coverage:
   state: unreadable
 created: '2026-10-13'
 description: Loqate provides global address validation, capture, and data enrichment services, offering APIs for address verification, email, phone, and bank validation, as well as geocoding and store finder solutions. It serves enterprises across e‑commerce, fintech, travel, and logistics with scalable, secure, and compliant data quality tools.
+finops:
+- has_sources: true
+  method: derived
+  name: Loqate Finops
+  primary_unit: seat
+  service_category: ''
+  slug: loqate-finops
+  template: false
 image: https://www.loqate.com/media/ugzjtvos/opengraph.png
 json_schemas:
 - name: NewPlant
@@ -215,7 +225,7 @@ plans:
 - name: Loqate Plans Pricing
   plan_count: 3
   slug: loqate-plans-pricing
-random_paper: 8
+random_paper: 22
 rules:
 - authorship: generated
   effective_rule_count: 53
@@ -231,21 +241,23 @@ rules:
   slug: loqate-rules
 score:
   band: developing
-  composite: 51.0
+  composite: 52.6
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 68.8
+    artifact_dirs: 21
+    catalog_earned: 71.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 46.3
+    catalog_gap: 43.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 71.1
     contract_governance: 22.0
     contract_quality: 54.2
     developer_ergonomics: 59.5
-    discoverability: 75.0
+    discoverability: 67.9
     operational_transparency: 15.8
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -261,11 +273,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Loqate Authentication

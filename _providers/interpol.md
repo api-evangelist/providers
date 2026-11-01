@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,18 +43,15 @@ agentic_access:
   operation_count: 9
   slug: interpol-agentic-access
   summary_line: 9 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://ws-public.interpol.int/notices/v1/
   baseurl_source: declared
   description: The Notices API from Interpol — 9 operation(s) for notices.
   name: Interpol Notices API
   slug: interpol-notices-api
-artifact_total: 10
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Interpol Notices API
   slug: open-interpol-notices-api
@@ -61,32 +60,32 @@ collections:
   slug: open-interpol
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/interpol/refs/heads/main/plans/interpol-plans-pricing.yml
+  href: https://artifacts.apis.io/interpol/plans/interpol-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/interpol-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/interpol/refs/heads/main/rate-limits/interpol-rate-limits.yml
+  href: https://artifacts.apis.io/interpol/rate-limits/interpol-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/interpol-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/interpol/refs/heads/main/finops/interpol-finops.yml
+  href: https://artifacts.apis.io/interpol/finops/interpol-finops.yml
   title: ''
   type: FinOps
   url: finops/interpol-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/interpol/refs/heads/main/capabilities/interpol-capability-edges.yml
+  href: https://artifacts.apis.io/interpol/capabilities/interpol-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/interpol-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/interpol/refs/heads/main/agentic-access/interpol-agentic-access.yml
+  href: https://artifacts.apis.io/interpol/agentic-access/interpol-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/interpol-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/interpol/refs/heads/main/security/interpol-domain-security.yml
+  href: https://artifacts.apis.io/interpol/security/interpol-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/interpol-domain-security.yml
@@ -108,7 +107,7 @@ finops:
 - has_sources: false
   method: generated
   name: Interpol Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: interpol-finops
   template: true
@@ -126,7 +125,7 @@ plans:
 - name: Interpol Plans Pricing
   plan_count: 3
   slug: interpol-plans-pricing
-random_paper: 19
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Interpol Rate Limits
@@ -153,7 +152,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -167,7 +166,7 @@ score:
     regions:
     - global
     - north-america
-  previous_composite: 18.9
+  previous_composite: 20.4
   provenance:
     agentic_access: derived
     contracts:
@@ -181,14 +180,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/interpol/refs/heads/main/screenshots/interpol-2026-06-20T183505.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/interpol/interpol-2026-06-20T183505.png
 security:
 - kind: domain-security
   name: Interpol Domain Security

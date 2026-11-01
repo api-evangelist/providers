@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.1
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 471
   human_in_the_loop: 9
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 989
   slug: cesnet-agentic-access
   summary_line: 989 operations · 471 acting · 9 human-in-the-loop
-api_count: 4
+api_count: 2
 apis:
 - baseURL: https://api-dev.perun-aai.org/ba/rpc
   baseurl_source: declared
@@ -168,60 +170,60 @@ apis:
   description: VosManager RPC API in Perun
   name: CESNET Vos Manager API
   slug: cesnet-vosmanager-api
-artifact_total: 42
+artifact_total: 46
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/well-known/cesnet-csirt-security.txt
+  href: https://artifacts.apis.io/cesnet/well-known/cesnet-csirt-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cesnet-csirt-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/agentic-access/cesnet-agentic-access.yml
+  href: https://artifacts.apis.io/cesnet/agentic-access/cesnet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cesnet-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/rules/cesnet-rules.yml
+  href: https://artifacts.apis.io/cesnet/rules/cesnet-rules.yml
   title: ''
   type: Spectral
   url: rules/cesnet-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/rules/cesnet-perun-spectral-rules.yml
+  href: https://artifacts.apis.io/cesnet/rules/cesnet-perun-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/cesnet-perun-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/json-ld/cesnet-context.jsonld
+  href: https://artifacts.apis.io/cesnet/json-ld/cesnet-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cesnet-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/vocabulary/cesnet-vocabulary.yml
+  href: https://artifacts.apis.io/cesnet/vocabulary/cesnet-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cesnet-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cesnet/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/data-model/cesnet-data-model.yml
+  href: https://artifacts.apis.io/cesnet/data-model/cesnet-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cesnet-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/cli/cesnet-cli.yml
+  href: https://artifacts.apis.io/cesnet/cli/cesnet-cli.yml
   title: ''
   type: CLI
   url: cli/cesnet-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/changelog/cesnet-changelog.yml
+  href: https://artifacts.apis.io/cesnet/changelog/cesnet-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cesnet-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/conventions/cesnet-conventions.yml
+  href: https://artifacts.apis.io/cesnet/conventions/cesnet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cesnet-conventions.yml
@@ -230,77 +232,77 @@ common:
   type: Security
   url: https://csirt.cesnet.cz/en/vulnerability_report
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/lifecycle/cesnet-lifecycle.yml
+  href: https://artifacts.apis.io/cesnet/lifecycle/cesnet-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/cesnet-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/lifecycle/cesnet-lifecycle.yml
+  href: https://artifacts.apis.io/cesnet/lifecycle/cesnet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cesnet-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/errors/cesnet-error-codes.yml
+  href: https://artifacts.apis.io/cesnet/errors/cesnet-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/cesnet-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/errors/cesnet-problem-types.yml
+  href: https://artifacts.apis.io/cesnet/errors/cesnet-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cesnet-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/conformance/cesnet-conformance.yml
+  href: https://artifacts.apis.io/cesnet/conformance/cesnet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cesnet-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/overlays/cesnet-exafs-overlay.yaml
+  href: https://artifacts.apis.io/cesnet/overlays/cesnet-exafs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cesnet-exafs-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/well-known/cesnet-vidcon-security.txt
+  href: https://artifacts.apis.io/cesnet/well-known/cesnet-vidcon-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cesnet-vidcon-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/well-known/cesnet-security.txt
+  href: https://artifacts.apis.io/cesnet/well-known/cesnet-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cesnet-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/well-known/cesnet-perun-aai-security.txt
+  href: https://artifacts.apis.io/cesnet/well-known/cesnet-perun-aai-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cesnet-perun-aai-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/well-known/cesnet-du-security.txt
+  href: https://artifacts.apis.io/cesnet/well-known/cesnet-du-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cesnet-du-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/well-known/cesnet-api-dev-security.txt
+  href: https://artifacts.apis.io/cesnet/well-known/cesnet-api-dev-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cesnet-api-dev-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/well-known/cesnet-well-known.yml
+  href: https://artifacts.apis.io/cesnet/well-known/cesnet-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cesnet-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/hosts/cesnet-hosts.yml
+  href: https://artifacts.apis.io/cesnet/hosts/cesnet-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cesnet-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/packages/cesnet-packages.yml
+  href: https://artifacts.apis.io/cesnet/packages/cesnet-packages.yml
   title: ''
   type: SDKs
   url: packages/cesnet-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/packages/cesnet-packages.yml
+  href: https://artifacts.apis.io/cesnet/packages/cesnet-packages.yml
   title: ''
   type: Packages
   url: packages/cesnet-packages.yml
@@ -313,17 +315,17 @@ common:
   type: Documentation
   url: https://docs.du.cesnet.cz/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/authentication/cesnet-authentication.yml
+  href: https://artifacts.apis.io/cesnet/authentication/cesnet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cesnet-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/security/cesnet-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cesnet/security/cesnet-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cesnet-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/security/cesnet-domain-security.yml
+  href: https://artifacts.apis.io/cesnet/security/cesnet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cesnet-domain-security.yml
@@ -414,7 +416,7 @@ plans:
 - name: Cesnet Plans Pricing
   plan_count: 0
   slug: cesnet-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Cesnet Rate Limits
@@ -447,23 +449,23 @@ rules:
   slug: cesnet-rules
 score:
   band: developing
-  composite: 50.7
+  composite: 48.1
   coverage:
     artifact_dirs: 27
-    catalog_earned: 65.8
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.3
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.8
+  delta: -0.5
   facets:
     access_clarity: 34.2
     contract_governance: 22.0
     contract_quality: 56.2
     developer_ergonomics: 54.2
-    discoverability: 73.2
+    discoverability: 67.9
     operational_transparency: 39.5
-  previous_composite: 53.5
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -480,13 +482,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/cesnet/refs/heads/main/screenshots/cesnet-2026-10-11T102831.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cesnet/cesnet-2026-10-11T102831.png
 security:
 - kind: authentication
   name: Cesnet Authentication
@@ -500,6 +503,16 @@ security:
   name: Cesnet Vulnerability Disclosure
   slug: cesnet-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 4
+skills:
+- name: cesnet-perun-add-user-to-group
+  slug: cesnet-perun-add-user-to-group
+- name: cesnet-perun-check-my-access
+  slug: cesnet-perun-check-my-access
+- name: cesnet-perun-grant-group-access-to-facility
+  slug: cesnet-perun-grant-group-access-to-facility
+- name: cesnet-perun-propagate-facility-services
+  slug: cesnet-perun-propagate-facility-services
 slug: cesnet
 tags:
 - Company

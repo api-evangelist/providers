@@ -24,25 +24,27 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 22.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Programmatic access to Stilla's capabilities. The REST API and the remote MCP server are protected by OAuth 2.0 / OIDC (WorkOS AuthKit). The OpenAPI document is served at api.stilla.ai/openapi.json bu
   name: Stilla API
   slug: stilla-api
-artifact_total: 7
+artifact_total: 8
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stilla/refs/heads/main/plans/stilla-plans-pricing.yml
+  href: https://artifacts.apis.io/stilla/plans/stilla-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stilla-plans-pricing.yml
@@ -71,7 +73,7 @@ common:
   type: Blog
   url: https://stilla.ai/blog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stilla/refs/heads/main/changelog/stilla-changelog.yml
+  href: https://artifacts.apis.io/stilla/changelog/stilla-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/stilla-changelog.yml
@@ -112,37 +114,37 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/stillaai
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stilla/refs/heads/main/mcp/stilla-mcp.yml
+  href: https://artifacts.apis.io/stilla/mcp/stilla-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/stilla-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stilla/refs/heads/main/authentication/stilla-authentication.yml
+  href: https://artifacts.apis.io/stilla/authentication/stilla-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stilla-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stilla/refs/heads/main/scopes/stilla-scopes.yml
+  href: https://artifacts.apis.io/stilla/scopes/stilla-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/stilla-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stilla/refs/heads/main/well-known/stilla-well-known.yml
+  href: https://artifacts.apis.io/stilla/well-known/stilla-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stilla-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stilla/refs/heads/main/well-known/stilla-well-known.yml
+  href: https://artifacts.apis.io/stilla/well-known/stilla-well-known.yml
   title: ''
   type: SecurityTxt
   url: well-known/stilla-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stilla/refs/heads/main/llms/stilla-llms.txt
+  href: https://artifacts.apis.io/stilla/llms/stilla-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stilla-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stilla/refs/heads/main/conformance/stilla-conformance.yml
+  href: https://artifacts.apis.io/stilla/conformance/stilla-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stilla-conformance.yml
@@ -151,7 +153,7 @@ common:
   type: Compliance
   url: https://stilla.ai/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stilla/refs/heads/main/security/stilla-trust-center.yml
+  href: https://artifacts.apis.io/stilla/security/stilla-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/stilla-trust-center.yml
@@ -160,22 +162,30 @@ common:
   type: Trust
   url: https://trust.stilla.ai
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stilla/refs/heads/main/lifecycle/stilla-lifecycle.yml
+  href: https://artifacts.apis.io/stilla/lifecycle/stilla-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stilla-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stilla/refs/heads/main/conventions/stilla-conventions.yml
+  href: https://artifacts.apis.io/stilla/conventions/stilla-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stilla-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stilla/refs/heads/main/security/stilla-domain-security.yml
+  href: https://artifacts.apis.io/stilla/security/stilla-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stilla-domain-security.yml
 created: '2026-07-17'
 description: 'Stilla is an AI teammate for the whole company — an AI agent that connects to a team''s tools (Slack, Microsoft Teams, GitHub, Linear, Notion, Google Workspace and 3,000+ more) and turns chats, meetings, and conversations into finished work: ads, code, reports, tasks, and documents. Team members mention @Stilla to delegate work, and reusable agents configured in natural language search across connected tools, take actions, transcribe meetings, and persist context in collaborative canvases. Stilla exposes a REST API and an official remote Model Context Protocol (MCP) server so external AI tools (Claude Code, Cursor, and other MCP clients) can access a workspace''s notes, decisions, and workflow outputs. Built by the team behind Shop Pay at Shopify, Stilla is SOC 2 Type II certified, GDPR compliant, and CASA Tier 2 assessed. Backed by General Catalyst.'
+finops:
+- has_sources: true
+  method: derived
+  name: Stilla Finops
+  primary_unit: org
+  service_category: ''
+  slug: stilla-finops
+  template: false
 image: https://stilla.ai/favicon.svg
 layout: provider
 mcp_servers:
@@ -194,7 +204,7 @@ plans:
 - name: Stilla Plans Pricing
   plan_count: 2
   slug: stilla-plans-pricing
-random_paper: 11
+random_paper: 1
 scopes:
 - name: Stilla Scopes
   scope_count: 4
@@ -202,23 +212,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode
 score:
   band: developing
-  composite: 40.0
+  composite: 45.9
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 45.0
+    artifact_dirs: 17
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.3
+  delta: 1.5
   facets:
-    access_clarity: 63.2
+    access_clarity: 89.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 75.0
-    operational_transparency: 34.2
-  previous_composite: 35.7
+    discoverability: 65.0
+    operational_transparency: 47.4
+  previous_composite: 44.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -228,14 +238,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/stilla/refs/heads/main/screenshots/stilla-2026-09-02T160859.png
+screenshot: https://apis.io/screenshots/stilla/stilla-2026-09-02T160859.png
 security:
 - kind: authentication
   name: Stilla Authentication

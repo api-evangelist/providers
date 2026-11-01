@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 34
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wynn-resorts/refs/heads/main/security/wynn-resorts-domain-security.yml
+  href: https://artifacts.apis.io/wynn-resorts/security/wynn-resorts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wynn-resorts-domain-security.yml
@@ -146,20 +148,20 @@ press:
   url: https://www.prnewswire.com/news-releases/wynn-resorts-limited-reports-first-quarter-2026-results-302766038.html
 - date: ''
   title: Wynn Collaborates with UNU Macau to Launch AI Education ...
-  url: https://www.newsroom.wynnresorts.com/en/wynnmacau/
+  url: https://www.newsroom.wynnresorts.com/en/wynnmacau/--------------------------/s/998da7ad-858e-4890-95b5-7cfd3cfc6ed2
 - date: ''
   title: 'Wynn Resorts: 6 Reasons to Ante Up for the Stock'
   url: https://www.marketbeat.com/stock-ideas/wynn-resorts-6-reasons-to-ante-up-for-the-stock/
 - date: ''
   title: Wynn Partners with LinkedIn to Promote Talent Development ...
-  url: https://www.newsroom.wynnresorts.com/en/wynnmacau/
+  url: https://www.newsroom.wynnresorts.com/en/wynnmacau/---linkedln----------------/s/0c11c08d-b235-4ff3-bd54-4be4746ba186
 - date: ''
   title: Former Wynn Resorts Ltd. CEO Steve Wynn has been ...
   url: https://www.facebook.com/reviewjournal/posts/former-wynn-resorts-ltd-ceo-steve-wynn-has-been-approached-to-finance-a-mobile-t/1080950244073986/
-random_paper: 15
+random_paper: 19
 score:
   band: minimal
-  composite: 9.7
+  composite: 10.2
   coverage:
     artifact_dirs: 6
     catalog_earned: 19.0
@@ -167,29 +169,29 @@ score:
     catalog_gap: 96.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 33.9
     operational_transparency: 0.0
-  previous_composite: 9.6
+  previous_composite: 10.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wynn-resorts/refs/heads/main/screenshots/wynn-resorts-2026-06-20T201646.png
+screenshot: https://apis.io/screenshots/wynn-resorts/wynn-resorts-2026-06-20T201646.png
 security:
 - kind: domain-security
   name: Wynn Resorts Domain Security

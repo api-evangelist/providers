@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for managing Jimdo website content, blog posts, online store products, orders, and customer data for small business websites built on the Jimdo platform.
@@ -50,12 +52,12 @@ common:
   type: BlogRSS
   url: https://www.jimdo.com/blog/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jimdo/refs/heads/main/security/jimdo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/jimdo/security/jimdo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jimdo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jimdo/refs/heads/main/security/jimdo-domain-security.yml
+  href: https://artifacts.apis.io/jimdo/security/jimdo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jimdo-domain-security.yml
@@ -92,17 +94,17 @@ common:
   type: X
   url: https://x.com/jimdo
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jimdo/refs/heads/main/plans/jimdo-plans-pricing.yml
+  href: https://artifacts.apis.io/jimdo/plans/jimdo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jimdo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jimdo/refs/heads/main/rate-limits/jimdo-rate-limits.yml
+  href: https://artifacts.apis.io/jimdo/rate-limits/jimdo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jimdo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jimdo/refs/heads/main/finops/jimdo-finops.yml
+  href: https://artifacts.apis.io/jimdo/finops/jimdo-finops.yml
   title: ''
   type: FinOps
   url: finops/jimdo-finops.yml
@@ -137,7 +139,7 @@ rate_limits:
   slug: jimdo-rate-limits
 score:
   band: emerging
-  composite: 19.9
+  composite: 22.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 40.0
@@ -145,29 +147,29 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 25.5
+    operational_transparency: 31.6
+  previous_composite: 22.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jimdo/refs/heads/main/screenshots/jimdo-2026-06-20T183734.png
+screenshot: https://apis.io/screenshots/jimdo/jimdo-2026-06-20T183734.png
 security:
 - kind: domain-security
   name: Jimdo Domain Security

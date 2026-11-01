@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.5
-  scored_at: '2026-10-17'
+  score: 24.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The API surface behind the Klarys tenant application at klarys.app. Klarys markets API and EDI integration with customer ERP, accounting and product-reference systems, and the application serves an an
@@ -46,7 +48,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klarys/refs/heads/main/security/klarys-domain-security.yml
+  href: https://artifacts.apis.io/klarys/security/klarys-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/klarys-domain-security.yml
@@ -115,57 +117,57 @@ common:
   type: Youtube
   url: https://www.youtube.com/@klarys_io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/klarys/refs/heads/main/well-known/klarys-well-known.yml
+  href: https://artifacts.apis.io/klarys/well-known/klarys-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/klarys-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klarys/refs/heads/main/authentication/klarys-authentication.yml
+  href: https://artifacts.apis.io/klarys/authentication/klarys-authentication.yml
   title: ''
   type: Authentication
   url: authentication/klarys-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klarys/refs/heads/main/scopes/klarys-scopes.yml
+  href: https://artifacts.apis.io/klarys/scopes/klarys-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/klarys-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klarys/refs/heads/main/conformance/klarys-conformance.yml
+  href: https://artifacts.apis.io/klarys/conformance/klarys-conformance.yml
   title: ''
   type: Conformance
   url: conformance/klarys-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klarys/refs/heads/main/errors/klarys-problem-types.yml
+  href: https://artifacts.apis.io/klarys/errors/klarys-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/klarys-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klarys/refs/heads/main/conventions/klarys-conventions.yml
+  href: https://artifacts.apis.io/klarys/conventions/klarys-conventions.yml
   title: ''
   type: Conventions
   url: conventions/klarys-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klarys/refs/heads/main/lifecycle/klarys-lifecycle.yml
+  href: https://artifacts.apis.io/klarys/lifecycle/klarys-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/klarys-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/klarys/refs/heads/main/packages/klarys-packages.yml
+  href: https://artifacts.apis.io/klarys/packages/klarys-packages.yml
   title: ''
   type: Packages
   url: packages/klarys-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/klarys/refs/heads/main/llms/klarys-llms.txt
+  href: https://artifacts.apis.io/klarys/llms/klarys-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/klarys-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/klarys/refs/heads/main/plans/klarys-plans-pricing.yml
+  href: https://artifacts.apis.io/klarys/plans/klarys-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/klarys-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/klarys/refs/heads/main/rate-limits/klarys-rate-limits.yml
+  href: https://artifacts.apis.io/klarys/rate-limits/klarys-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/klarys-rate-limits.yml
@@ -200,7 +202,7 @@ plans:
 - name: Klarys Plans Pricing
   plan_count: 0
   slug: klarys-plans-pricing
-random_paper: 2
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Klarys Rate Limits
@@ -212,7 +214,7 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 23.5
+  composite: 25.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -220,14 +222,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 67.0
-    operational_transparency: 18.4
+    discoverability: 67.9
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -236,7 +238,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 23.4
+  previous_composite: 25.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -246,14 +248,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/klarys/refs/heads/main/screenshots/klarys-2026-09-02T150110.png
+screenshot: https://apis.io/screenshots/klarys/klarys-2026-09-02T150110.png
 security:
 - kind: authentication
   name: Klarys Authentication

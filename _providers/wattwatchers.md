@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 31.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -65,24 +67,24 @@ apis:
   description: Operations related to Short Energy (SE)
   name: Wattwatchers Short Energy API
   slug: wattwatchers-short-energy-api
-artifact_total: 10
+artifact_total: 13
 collections:
 - collection_type: open
   name: Wattwatchers API
   slug: open-wattwatchers-rest-api-v3
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/agentic-access/wattwatchers-agentic-access.yml
+  href: https://artifacts.apis.io/wattwatchers/agentic-access/wattwatchers-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wattwatchers-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/security/wattwatchers-domain-security.yml
+  href: https://artifacts.apis.io/wattwatchers/security/wattwatchers-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wattwatchers-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/authentication/wattwatchers-authentication.yml
+  href: https://artifacts.apis.io/wattwatchers/authentication/wattwatchers-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wattwatchers-authentication.yml
@@ -147,67 +149,67 @@ common:
   type: Roadmap
   url: https://docs.wattwatchers.com.au/api/roadmap.html
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/packages/wattwatchers-packages.yml
+  href: https://artifacts.apis.io/wattwatchers/packages/wattwatchers-packages.yml
   title: ''
   type: Packages
   url: packages/wattwatchers-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/errors/wattwatchers-error-codes.yml
+  href: https://artifacts.apis.io/wattwatchers/errors/wattwatchers-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/wattwatchers-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/conventions/wattwatchers-conventions.yml
+  href: https://artifacts.apis.io/wattwatchers/conventions/wattwatchers-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wattwatchers-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/rate-limits/wattwatchers-rate-limits.yml
+  href: https://artifacts.apis.io/wattwatchers/rate-limits/wattwatchers-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wattwatchers-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/lifecycle/wattwatchers-lifecycle.yml
+  href: https://artifacts.apis.io/wattwatchers/lifecycle/wattwatchers-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wattwatchers-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/changelog/wattwatchers-changelog.yml
+  href: https://artifacts.apis.io/wattwatchers/changelog/wattwatchers-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/wattwatchers-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/conformance/wattwatchers-conformance.yml
+  href: https://artifacts.apis.io/wattwatchers/conformance/wattwatchers-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wattwatchers-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/data-model/wattwatchers-data-model.yml
+  href: https://artifacts.apis.io/wattwatchers/data-model/wattwatchers-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wattwatchers-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/mcp/wattwatchers-mcp.yml
+  href: https://artifacts.apis.io/wattwatchers/mcp/wattwatchers-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wattwatchers-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/llms/wattwatchers-llms.txt
+  href: https://artifacts.apis.io/wattwatchers/llms/wattwatchers-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wattwatchers-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/wattwatchers/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/examples/wattwatchers-rest-api-v3-examples.json
+  href: https://artifacts.apis.io/wattwatchers/examples/wattwatchers-rest-api-v3-examples.json
   title: ''
   type: Examples
   url: examples/wattwatchers-rest-api-v3-examples.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/overlays/wattwatchers-rest-api-v3-overlay.yaml
+  href: https://artifacts.apis.io/wattwatchers/overlays/wattwatchers-rest-api-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wattwatchers-rest-api-v3-overlay.yaml
@@ -228,14 +230,14 @@ overview: 'Wattwatchers publishes 4 API contracts indexed on the [APIs.io](https
 
 
   Wattwatchers'' developer surface includes authentication, documentation, changelog, support, API reference, getting-started guide, code examples, and 24 more developer resources.'
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Wattwatchers Rate Limits
   slug: wattwatchers-rate-limits
 score:
-  band: thin
-  composite: 38.9
+  band: developing
+  composite: 39.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 45.0
@@ -250,7 +252,7 @@ score:
     contract_quality: 54.5
     developer_ergonomics: 56.5
     discoverability: 66.1
-    operational_transparency: 44.7
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -258,7 +260,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 38.9
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,13 +277,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 24.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/screenshots/wattwatchers-2026-09-02T170454.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wattwatchers/wattwatchers-2026-09-02T170454.png
 security:
 - kind: authentication
   name: Wattwatchers Authentication
@@ -291,6 +294,14 @@ security:
   name: Wattwatchers Domain Security
   slug: wattwatchers-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Pull interval energy data for a device
+  slug: wattwatchers-pull-interval-energy
+- name: Switch a circuit on or off
+  slug: wattwatchers-switch-a-circuit
+- name: Continuously sync a fleet's energy data
+  slug: wattwatchers-sync-fleet-data
 slug: wattwatchers
 tags:
 - Energy

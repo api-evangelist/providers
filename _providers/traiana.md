@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -95,11 +97,8 @@ apis:
   description: The Utilization API from Traiana — 1 operation(s) for utilization.
   name: Traiana Utilization API
   slug: traiana-utilization-api
-artifact_total: 42
+artifact_total: 41
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Traiana Harmony CreditLink Allocations API
   slug: open-traiana-allocations-api
@@ -141,17 +140,17 @@ collections:
   slug: open-traiana-utilization-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/plans/traiana-plans-pricing.yml
+  href: https://artifacts.apis.io/traiana/plans/traiana-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/traiana-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/rate-limits/traiana-rate-limits.yml
+  href: https://artifacts.apis.io/traiana/rate-limits/traiana-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/traiana-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/finops/traiana-finops.yml
+  href: https://artifacts.apis.io/traiana/finops/traiana-finops.yml
   title: ''
   type: FinOps
   url: finops/traiana-finops.yml
@@ -164,17 +163,17 @@ common:
   type: Website
   url: https://www.osttra.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/agentic-access/traiana-agentic-access.yml
+  href: https://artifacts.apis.io/traiana/agentic-access/traiana-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/traiana-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/security/traiana-domain-security.yml
+  href: https://artifacts.apis.io/traiana/security/traiana-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/traiana-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/authentication/traiana-authentication.yml
+  href: https://artifacts.apis.io/traiana/authentication/traiana-authentication.yml
   title: ''
   type: Authentication
   url: authentication/traiana-authentication.yml
@@ -199,12 +198,12 @@ common:
   type: Support
   url: https://osttra.com/support/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/rules/traiana-rules.yml
+  href: https://artifacts.apis.io/traiana/rules/traiana-rules.yml
   title: ''
   type: Spectral
   url: rules/traiana-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/vocabulary/traiana-vocabulary.yml
+  href: https://artifacts.apis.io/traiana/vocabulary/traiana-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/traiana-vocabulary.yml
@@ -270,7 +269,7 @@ plans:
 - name: Traiana Plans Pricing
   plan_count: 1
   slug: traiana-plans-pricing
-random_paper: 10
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Traiana Rate Limits
@@ -300,7 +299,7 @@ rules:
   slug: traiana-rules
 score:
   band: thin
-  composite: 29.6
+  composite: 31.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 61.8
@@ -308,15 +307,15 @@ score:
     catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 23.5
     contract_quality: 60.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 28.6
     discoverability: 53.6
-    operational_transparency: 7.9
-  previous_composite: 30.6
+    operational_transparency: 10.5
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -330,13 +329,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/screenshots/traiana-2026-06-20T195541.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/traiana/traiana-2026-06-20T195541.png
 security:
 - kind: authentication
   name: Traiana Authentication

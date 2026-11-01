@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 21.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -100,7 +102,7 @@ apis:
   description: Identifier generation and other helpers.
   name: Giphy Utilities API
   slug: giphy-utilities-api
-artifact_total: 96
+artifact_total: 95
 collections:
 - collection_type: postman
   name: GIPHY Analytics API
@@ -135,9 +137,6 @@ collections:
 - collection_type: postman
   name: GIPHY Analytics Utilities API
   slug: postman-giphy-utilities-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: GIPHY Analytics API
   slug: open-giphy-analytics-api
@@ -175,8 +174,13 @@ collections:
   name: GIPHY API
   slug: open-giphy
 common:
+- group: other
+  href: https://artifacts.apis.io/giphy/capabilities/giphy-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/giphy-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/finops/giphy-finops.yml
+  href: https://artifacts.apis.io/giphy/finops/giphy-finops.yml
   title: ''
   type: FinOps
   url: finops/giphy-finops.yml
@@ -189,27 +193,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/giphy/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/agentic-access/giphy-agentic-access.yml
+  href: https://artifacts.apis.io/giphy/agentic-access/giphy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/giphy-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/security/giphy-trust-center.yml
+  href: https://artifacts.apis.io/giphy/security/giphy-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/giphy-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/security/giphy-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/giphy/security/giphy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/giphy-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/security/giphy-domain-security.yml
+  href: https://artifacts.apis.io/giphy/security/giphy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/giphy-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/authentication/giphy-authentication.yml
+  href: https://artifacts.apis.io/giphy/authentication/giphy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/giphy-authentication.yml
@@ -282,32 +286,32 @@ common:
   type: Tools
   url: https://github.com/Giphy/fastly-compute-ref-implementation
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/rules/giphy-rules.yml
+  href: https://artifacts.apis.io/giphy/rules/giphy-rules.yml
   title: ''
   type: SpectralRules
   url: rules/giphy-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/vocabulary/giphy-vocabulary.yml
+  href: https://artifacts.apis.io/giphy/vocabulary/giphy-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/giphy-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/json-ld/giphy-context.jsonld
+  href: https://artifacts.apis.io/giphy/json-ld/giphy-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/giphy-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/plans/giphy-plans-pricing.yml
+  href: https://artifacts.apis.io/giphy/plans/giphy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/giphy-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/rate-limits/giphy-rate-limits.yml
+  href: https://artifacts.apis.io/giphy/rate-limits/giphy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/giphy-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/finops/giphy-finops.yml
+  href: https://artifacts.apis.io/giphy/finops/giphy-finops.yml
   title: FinOps Cost Tracking Profile
   type: Resources
   url: finops/giphy-finops.yml
@@ -452,7 +456,7 @@ overview: 'Giphy publishes 11 API contracts indexed on the [APIs.io](https://api
   The Giphy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Giphy''s developer surface includes authentication, documentation, developer console, signup flow, support, engineering blog, tooling, and 24 more developer resources.'
+  Giphy''s developer surface includes authentication, documentation, developer console, signup flow, support, engineering blog, tooling, and 25 more developer resources.'
 plans:
 - name: Giphy Plans Pricing
   plan_count: 3
@@ -487,24 +491,24 @@ rules:
     warn: 3
   slug: giphy-rules
 score:
-  band: developing
-  composite: 54.2
+  band: strong
+  composite: 60.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 69.0
     catalog_earned_first_party: 0.0
     catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 60.5
     contract_governance: 27.3
     contract_quality: 65.7
     developer_ergonomics: 82.1
     discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 59.8
+    operational_transparency: 15.8
+  previous_composite: 60.6
   provenance:
     agentic_access: derived
     contracts:
@@ -517,14 +521,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/screenshots/giphy-2026-06-20T181827.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/giphy/giphy-2026-06-20T181827.png
 security:
 - kind: authentication
   name: Giphy Authentication

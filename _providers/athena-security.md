@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/athena-security/refs/heads/main/well-known/athena-security-clarity-security.txt
+  href: https://artifacts.apis.io/athena-security/well-known/athena-security-clarity-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/athena-security-clarity-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/athena-security/refs/heads/main/well-known/athena-security-well-known.yml
+  href: https://artifacts.apis.io/athena-security/well-known/athena-security-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/athena-security-well-known.yml
@@ -42,17 +44,17 @@ common:
   type: Security
   url: https://clarity.com/vdp
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/athena-security/refs/heads/main/llms/athena-security-llms.txt
+  href: https://artifacts.apis.io/athena-security/llms/athena-security-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/athena-security-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/athena-security/refs/heads/main/hosts/athena-security-hosts.yml
+  href: https://artifacts.apis.io/athena-security/hosts/athena-security-hosts.yml
   title: ''
   type: Hosts
   url: hosts/athena-security-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/athena-security/refs/heads/main/vendors/athena-security-vendors.yml
+  href: https://artifacts.apis.io/athena-security/vendors/athena-security-vendors.yml
   title: ''
   type: Vendors
   url: vendors/athena-security-vendors.yml
@@ -85,12 +87,12 @@ common:
   type: Blog
   url: https://www.athena-security.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/athena-security/refs/heads/main/security/athena-security-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/athena-security/security/athena-security-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/athena-security-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/athena-security/refs/heads/main/security/athena-security-domain-security.yml
+  href: https://artifacts.apis.io/athena-security/security/athena-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/athena-security-domain-security.yml
@@ -118,10 +120,10 @@ overview: 'Athena Security is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Athena Security''s developer surface includes support, engineering blog, and 14 more developer resources.'
-random_paper: 18
+random_paper: 22
 score:
   band: emerging
-  composite: 15.4
+  composite: 14.7
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -129,15 +131,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 58.9
+    discoverability: 51.8
     operational_transparency: 26.3
-  previous_composite: 15.3
+  previous_composite: 14.7
   provenance:
     mcp: derived
   regulatory:
@@ -146,14 +148,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/athena-security/refs/heads/main/screenshots/athena-security-2026-10-11T100653.png
+screenshot: https://apis.io/screenshots/athena-security/athena-security-2026-10-11T100653.png
 security:
 - kind: domain-security
   name: Athena Security Domain Security

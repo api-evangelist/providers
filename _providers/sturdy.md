@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -45,7 +47,7 @@ common:
   type: Documentation
   url: https://docs.sturdy.finance/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sturdy/refs/heads/main/llms/sturdy-llms.txt
+  href: https://artifacts.apis.io/sturdy/llms/sturdy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sturdy-llms.txt
@@ -62,7 +64,7 @@ common:
   type: Support
   url: https://discord.com/invite/tRVHp6Vx5N
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sturdy/refs/heads/main/security/sturdy-domain-security.yml
+  href: https://artifacts.apis.io/sturdy/security/sturdy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sturdy-domain-security.yml
@@ -78,10 +80,10 @@ overview: 'Sturdy is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sturdy''s developer surface includes documentation, engineering blog, support, and 4 more developer resources.'
-random_paper: 1
+random_paper: 11
 score:
   band: minimal
-  composite: 7.8
+  composite: 7.5
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -95,23 +97,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 7.8
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 7.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sturdy/refs/heads/main/screenshots/sturdy-2026-09-02T161042.png
+screenshot: https://apis.io/screenshots/sturdy/sturdy-2026-09-02T161042.png
 security:
 - kind: domain-security
   name: Sturdy Domain Security

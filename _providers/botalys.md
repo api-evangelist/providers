@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,22 +25,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/botalys/refs/heads/main/hosts/botalys-hosts.yml
+  href: https://artifacts.apis.io/botalys/hosts/botalys-hosts.yml
   title: ''
   type: Hosts
   url: hosts/botalys-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/botalys/refs/heads/main/vendors/botalys-vendors.yml
+  href: https://artifacts.apis.io/botalys/vendors/botalys-vendors.yml
   title: ''
   type: Vendors
   url: vendors/botalys-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/botalys/refs/heads/main/security/botalys-domain-security.yml
+  href: https://artifacts.apis.io/botalys/security/botalys-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/botalys-domain-security.yml
@@ -75,7 +77,7 @@ name: Botalys
 nav: Providers
 network: true
 overview: Botalys is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Agriculture, Nutraceuticals, and Cosmetics.
-random_paper: 18
+random_paper: 22
 score:
   band: minimal
   composite: 6.1
@@ -103,8 +105,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

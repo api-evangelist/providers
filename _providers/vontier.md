@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: BlogRSS
   url: https://www.vontier.com/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vontier/refs/heads/main/security/vontier-domain-security.yml
+  href: https://artifacts.apis.io/vontier/security/vontier-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vontier-domain-security.yml
@@ -66,10 +68,10 @@ name: Vontier
 nav: Providers
 network: true
 overview: Vontier is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Mobility, Fueling, Fleet Management, EV Charging, and Automotive.
-random_paper: 5
+random_paper: 7
 score:
   band: minimal
-  composite: 3.4
+  composite: 3.7
   coverage:
     artifact_dirs: 4
     catalog_earned: 24.0
@@ -84,22 +86,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 42.9
-    operational_transparency: 2.6
-  previous_composite: 3.4
+    operational_transparency: 5.3
+  previous_composite: 3.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vontier/refs/heads/main/screenshots/vontier-2026-06-20T201135.png
+screenshot: https://apis.io/screenshots/vontier/vontier-2026-06-20T201135.png
 security:
 - kind: domain-security
   name: Vontier Domain Security

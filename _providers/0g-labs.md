@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 31.0
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: Ethereum-compatible JSON-RPC endpoint for the 0G Chain mainnet ("Aristotle", chain ID 16661), an AI-focused Layer 1 with sub-second finality. Standard EVM methods (eth_chainId, eth_call, eth_sendRawTr
   name: 0G Chain JSON-RPC
@@ -78,11 +80,8 @@ apis:
   description: The Service Types API from 0G Labs — 1 operation(s) for service types.
   name: 0G Labs Service Types API
   slug: 0g-labs-service-types-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 0G Router Account API
   slug: open-0g-labs-account-api
@@ -107,7 +106,7 @@ common:
   type: BlogRSS
   url: https://0g.ai/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/capabilities/0g-labs-capability-edges.yml
+  href: https://artifacts.apis.io/0g-labs/capabilities/0g-labs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/0g-labs-capability-edges.yml
@@ -176,122 +175,122 @@ common:
   type: PrivacyPolicy
   url: https://0g.ai/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/llms/0g-labs-llms.txt
+  href: https://artifacts.apis.io/0g-labs/llms/0g-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/0g-labs-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/openapi/_original/0g-labs-router-openapi.yml
+  href: https://artifacts.apis.io/0g-labs/openapi/_original/0g-labs-router-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/0g-labs-router-openapi.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/packages/0g-labs-packages.yml
+  href: https://artifacts.apis.io/0g-labs/packages/0g-labs-packages.yml
   title: ''
   type: Packages
   url: packages/0g-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/packages/0g-labs-packages.yml
+  href: https://artifacts.apis.io/0g-labs/packages/0g-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/0g-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/cli/0g-labs-cli.yml
+  href: https://artifacts.apis.io/0g-labs/cli/0g-labs-cli.yml
   title: ''
   type: CLI
   url: cli/0g-labs-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/authentication/0g-labs-authentication.yml
+  href: https://artifacts.apis.io/0g-labs/authentication/0g-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/0g-labs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/conventions/0g-labs-conventions.yml
+  href: https://artifacts.apis.io/0g-labs/conventions/0g-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/0g-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/conventions/0g-labs-conventions.yml
+  href: https://artifacts.apis.io/0g-labs/conventions/0g-labs-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/0g-labs-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/rate-limits/0g-labs-rate-limits.yml
+  href: https://artifacts.apis.io/0g-labs/rate-limits/0g-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/0g-labs-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/errors/0g-labs-problem-types.yml
+  href: https://artifacts.apis.io/0g-labs/errors/0g-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/0g-labs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/lifecycle/0g-labs-lifecycle.yml
+  href: https://artifacts.apis.io/0g-labs/lifecycle/0g-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/0g-labs-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/lifecycle/0g-labs-lifecycle.yml
+  href: https://artifacts.apis.io/0g-labs/lifecycle/0g-labs-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/0g-labs-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/conformance/0g-labs-conformance.yml
+  href: https://artifacts.apis.io/0g-labs/conformance/0g-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/0g-labs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/data-model/0g-labs-data-model.yml
+  href: https://artifacts.apis.io/0g-labs/data-model/0g-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/0g-labs-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/sandbox/0g-labs-sandbox.yml
+  href: https://artifacts.apis.io/0g-labs/sandbox/0g-labs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/0g-labs-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/well-known/0g-labs-well-known.yml
+  href: https://artifacts.apis.io/0g-labs/well-known/0g-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/0g-labs-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/security/0g-labs-domain-security.yml
+  href: https://artifacts.apis.io/0g-labs/security/0g-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/0g-labs-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/0g-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/mcp/0g-labs-mcp.yml
+  href: https://artifacts.apis.io/0g-labs/mcp/0g-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/0g-labs-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/mcp/0g-labs-tool-crosswalk.yml
+  href: https://artifacts.apis.io/0g-labs/mcp/0g-labs-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/0g-labs-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/overlays/0g-labs-router-overlay.yaml
+  href: https://artifacts.apis.io/0g-labs/overlays/0g-labs-router-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/0g-labs-router-overlay.yaml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/changelog/0g-labs-changelog.yml
+  href: https://artifacts.apis.io/0g-labs/changelog/0g-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/0g-labs-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/components/0g-labs-components.yml
+  href: https://artifacts.apis.io/0g-labs/components/0g-labs-components.yml
   title: ''
   type: Components
   url: components/0g-labs-components.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/grpc/0g-labs-da-disperser.proto
+  href: https://artifacts.apis.io/0g-labs/grpc/0g-labs-da-disperser.proto
   title: ''
   type: Protobuf
   url: grpc/0g-labs-da-disperser.proto
@@ -320,7 +319,7 @@ overview: '0G Labs publishes 9 API contracts indexed on the [APIs.io](https://ap
 
 
   0G Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 38 more developer resources.'
-random_paper: 20
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: 0G Labs Rate Limits
@@ -335,15 +334,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 47.6
+    contract_quality: 46.5
     developer_ergonomics: 85.7
-    discoverability: 64.3
-    operational_transparency: 42.1
-  previous_composite: 48.7
+    discoverability: 57.1
+    operational_transparency: 44.7
+  previous_composite: 48.8
   provenance:
     conformance: derived
     contracts:
@@ -359,13 +358,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/screenshots/0g-labs-2026-08-07T160641.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/0g-labs/0g-labs-2026-08-07T160641.png
 security:
 - kind: authentication
   name: 0G Labs Authentication

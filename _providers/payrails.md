@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Payrails' REST API for payment orchestration — executions and payment actions (authorize, confirm, capture, cancel, refund, payout), instruments and tokens, the PCI vault, providers and workflow confi
   name: Payrails API
   slug: payrails-api
-artifact_total: 6
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Payrails Notifications Webhooks
@@ -90,32 +92,32 @@ common:
   type: StatusPage
   url: https://status.payrails.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/authentication/payrails-authentication.yml
+  href: https://artifacts.apis.io/payrails/authentication/payrails-authentication.yml
   title: ''
   type: Authentication
   url: authentication/payrails-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/conventions/payrails-conventions.yml
+  href: https://artifacts.apis.io/payrails/conventions/payrails-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/payrails-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/conventions/payrails-conventions.yml
+  href: https://artifacts.apis.io/payrails/conventions/payrails-conventions.yml
   title: ''
   type: Conventions
   url: conventions/payrails-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/errors/payrails-problem-types.yml
+  href: https://artifacts.apis.io/payrails/errors/payrails-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/payrails-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/errors/payrails-decline-codes.yml
+  href: https://artifacts.apis.io/payrails/errors/payrails-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/payrails-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/lifecycle/payrails-lifecycle.yml
+  href: https://artifacts.apis.io/payrails/lifecycle/payrails-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/payrails-lifecycle.yml
@@ -128,47 +130,47 @@ common:
   type: ChangeLog
   url: https://docs.payrails.com/docs/v6-migration-guide
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/sandbox/payrails-sandbox.yml
+  href: https://artifacts.apis.io/payrails/sandbox/payrails-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/payrails-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/asyncapi/payrails-notifications-webhooks.yml
+  href: https://artifacts.apis.io/payrails/asyncapi/payrails-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/payrails-notifications-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/packages/payrails-packages.yml
+  href: https://artifacts.apis.io/payrails/packages/payrails-packages.yml
   title: ''
   type: Packages
   url: packages/payrails-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/packages/payrails-packages.yml
+  href: https://artifacts.apis.io/payrails/packages/payrails-packages.yml
   title: ''
   type: SDKs
   url: packages/payrails-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/components/payrails-components.yml
+  href: https://artifacts.apis.io/payrails/components/payrails-components.yml
   title: ''
   type: Components
   url: components/payrails-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/mcp/payrails-mcp.yml
+  href: https://artifacts.apis.io/payrails/mcp/payrails-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/payrails-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/payrails/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/data-model/payrails-data-model.yml
+  href: https://artifacts.apis.io/payrails/data-model/payrails-data-model.yml
   title: ''
   type: DataModel
   url: data-model/payrails-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/conformance/payrails-conformance.yml
+  href: https://artifacts.apis.io/payrails/conformance/payrails-conformance.yml
   title: ''
   type: Conformance
   url: conformance/payrails-conformance.yml
@@ -177,17 +179,17 @@ common:
   type: Compliance
   url: https://www.payrails.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/well-known/payrails-well-known.yml
+  href: https://artifacts.apis.io/payrails/well-known/payrails-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/payrails-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/security/payrails-domain-security.yml
+  href: https://artifacts.apis.io/payrails/security/payrails-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/payrails-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/security/payrails-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/payrails/security/payrails-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/payrails-vulnerability-disclosure.yml
@@ -196,12 +198,12 @@ common:
   type: Security
   url: https://www.payrails.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/security/payrails-trust-center.yml
+  href: https://artifacts.apis.io/payrails/security/payrails-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/payrails-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/llms/payrails-llms.txt
+  href: https://artifacts.apis.io/payrails/llms/payrails-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/payrails-llms.txt
@@ -220,12 +222,12 @@ overview: 'Payrails is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Payrails'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 28 more developer resources.'
-random_paper: 11
+random_paper: 5
 score:
   band: developing
-  composite: 48.7
+  composite: 52.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -236,10 +238,10 @@ score:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 60.1
-    discoverability: 73.2
-    operational_transparency: 48.7
-  previous_composite: 48.7
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 63.2
+  previous_composite: 52.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -254,14 +256,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 44.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/screenshots/payrails-2026-08-07T191653.png
+screenshot: https://apis.io/screenshots/payrails/payrails-2026-08-07T191653.png
 security:
 - kind: authentication
   name: Payrails Authentication
@@ -279,6 +281,16 @@ security:
   name: Payrails Trust Center
   slug: payrails-trust-center
   summary_line: PCI DSS, GDPR
+skill_count: 4
+skills:
+- name: Accept a card payment
+  slug: payrails-accept-a-card-payment
+- name: Defend a dispute
+  slug: payrails-defend-a-dispute
+- name: Refund a payment
+  slug: payrails-refund-a-payment
+- name: Tokenize and vault a card
+  slug: payrails-tokenize-a-card
 slug: payrails
 tags:
 - Company

@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.2
-  scored_at: '2026-10-17'
+  score: 42.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -184,11 +186,13 @@ apis:
   description: The WeightUnits API from Canix — 1 operation(s) for weightunits.
   name: Canix Weight Units API
   slug: canix-weightunits-api
-artifact_total: 61
+- baseURL: https://api.canix.com/mcp
+  baseurl_source: declared
+  description: The Incoming Transfers API from Canix — 2 operation(s) for incoming transfers.
+  name: Canix Incoming Transfers API
+  slug: canix-incoming-transfers-api
+artifact_total: 64
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Canix Audited Actions API
   slug: open-canix-audited-actions-api
@@ -272,17 +276,17 @@ collections:
   slug: open-canix-weightunits-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/capabilities/canix-capability-edges.yml
+  href: https://artifacts.apis.io/canix/capabilities/canix-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/canix-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/agentic-access/canix-agentic-access.yml
+  href: https://artifacts.apis.io/canix/agentic-access/canix-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/canix-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/security/canix-domain-security.yml
+  href: https://artifacts.apis.io/canix/security/canix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/canix-domain-security.yml
@@ -327,87 +331,87 @@ common:
   type: StatusPage
   url: https://status.canix.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/openapi/_original/canix-openapi-original.yml
+  href: https://artifacts.apis.io/canix/openapi/_original/canix-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/canix-openapi-original.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/mcp/canix-mcp.yml
+  href: https://artifacts.apis.io/canix/mcp/canix-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/canix-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/mcp/canix-tool-crosswalk.yml
+  href: https://artifacts.apis.io/canix/mcp/canix-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/canix-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/well-known/canix-well-known.yml
+  href: https://artifacts.apis.io/canix/well-known/canix-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/canix-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/authentication/canix-authentication.yml
+  href: https://artifacts.apis.io/canix/authentication/canix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/canix-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/scopes/canix-scopes.yml
+  href: https://artifacts.apis.io/canix/scopes/canix-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/canix-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/conventions/canix-conventions.yml
+  href: https://artifacts.apis.io/canix/conventions/canix-conventions.yml
   title: ''
   type: Conventions
   url: conventions/canix-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/errors/canix-problem-types.yml
+  href: https://artifacts.apis.io/canix/errors/canix-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/canix-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/lifecycle/canix-lifecycle.yml
+  href: https://artifacts.apis.io/canix/lifecycle/canix-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/canix-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/conformance/canix-conformance.yml
+  href: https://artifacts.apis.io/canix/conformance/canix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/canix-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/data-model/canix-data-model.yml
+  href: https://artifacts.apis.io/canix/data-model/canix-data-model.yml
   title: ''
   type: DataModel
   url: data-model/canix-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/overlays/canix-openapi-overlay.yaml
+  href: https://artifacts.apis.io/canix/overlays/canix-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/canix-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/llms/canix-llms.txt
+  href: https://artifacts.apis.io/canix/llms/canix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/canix-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/canix/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/skills/canix-create-and-fulfill-sales-order.md
+  href: https://artifacts.apis.io/canix/skills/canix-create-and-fulfill-sales-order.md
   title: ''
   type: AgentSkill
   url: skills/canix-create-and-fulfill-sales-order.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/skills/canix-sync-inventory-and-compliance.md
+  href: https://artifacts.apis.io/canix/skills/canix-sync-inventory-and-compliance.md
   title: ''
   type: AgentSkill
   url: skills/canix-sync-inventory-and-compliance.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/skills/canix-purchasing-and-manufacturing-costs.md
+  href: https://artifacts.apis.io/canix/skills/canix-purchasing-and-manufacturing-costs.md
   title: ''
   type: AgentSkill
   url: skills/canix-purchasing-and-manufacturing-costs.md
@@ -423,7 +427,7 @@ modified: '2026-08-09'
 name: Canix
 nav: Providers
 network: true
-overview: 'Canix publishes 28 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audited Actions API, Bill of Materials API, Brands API, and 25 more. Tagged areas include Cannabis, ERP, Seed-to-Sale, Compliance, and Inventory.
+overview: 'Canix publishes 29 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audited Actions API, Bill of Materials API, Brands API, and 26 more. Tagged areas include Cannabis, ERP, Seed-to-Sale, Compliance, and Inventory.
 
 
   Canix''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
@@ -435,7 +439,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 41.4
+  composite: 41.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -443,15 +447,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 54.2
+    contract_quality: 51.6
     developer_ergonomics: 47.0
-    discoverability: 68.3
+    discoverability: 65.0
     operational_transparency: 15.8
-  previous_composite: 41.3
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -459,7 +463,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 27
+      total: 56
     mcp: first-party
     skills: derived
   regulatory:
@@ -468,13 +472,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/screenshots/canix-2026-08-17T080801.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/canix/canix-2026-08-17T080801.png
 security:
 - kind: authentication
   name: Canix Authentication
@@ -484,6 +489,14 @@ security:
   name: Canix Domain Security
   slug: canix-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Create and fulfill a Canix sales order
+  slug: canix-create-and-fulfill-sales-order
+- name: Run Canix purchasing and roll up manufacturing costs
+  slug: canix-purchasing-and-manufacturing-costs
+- name: Sync Canix inventory and compliance records
+  slug: canix-sync-inventory-and-compliance
 slug: canix
 tags:
 - Cannabis

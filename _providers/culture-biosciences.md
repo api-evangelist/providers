@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: BlogRSS
   url: https://www.culturebiosciences.com/resources/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/culture-biosciences/refs/heads/main/security/culture-biosciences-domain-security.yml
+  href: https://artifacts.apis.io/culture-biosciences/security/culture-biosciences-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/culture-biosciences-domain-security.yml
@@ -74,7 +76,7 @@ common:
   type: SignUp
   url: https://www.culturebiosciences.com/request-demo
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/culture-biosciences/refs/heads/main/llms/culture-biosciences-llms.txt
+  href: https://artifacts.apis.io/culture-biosciences/llms/culture-biosciences-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/culture-biosciences-llms.txt
@@ -91,10 +93,10 @@ overview: 'Culture Biosciences is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Culture Biosciences'' developer surface includes engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 18
+random_paper: 8
 score:
   band: emerging
-  composite: 13.0
+  composite: 12.6
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -108,23 +110,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 13.0
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 12.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/culture-biosciences/refs/heads/main/screenshots/culture-biosciences-2026-07-25T210921.png
+screenshot: https://apis.io/screenshots/culture-biosciences/culture-biosciences-2026-07-25T210921.png
 security:
 - kind: domain-security
   name: Culture Biosciences Domain Security

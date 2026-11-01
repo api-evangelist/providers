@@ -12,7 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cerexa/refs/heads/main/security/cerexa-domain-security.yml
+  href: https://artifacts.apis.io/cerexa/security/cerexa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cerexa-domain-security.yml
@@ -26,7 +26,7 @@ name: Cerexa
 nav: Providers
 network: true
 overview: Cerexa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Anti-Infectives, and Antibiotics.
-random_paper: 16
+random_paper: 8
 security:
 - kind: domain-security
   name: Cerexa Domain Security

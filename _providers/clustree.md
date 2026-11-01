@@ -19,7 +19,7 @@ name: Clustree
 nav: Providers
 network: true
 overview: Clustree is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Human Resources, Talent Management, and Skills.
-random_paper: 13
+random_paper: 7
 slug: clustree
 tags:
 - Company

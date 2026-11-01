@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Access information on the FBI Wanted program
@@ -41,7 +43,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fbi-wanted/refs/heads/main/security/fbi-wanted-domain-security.yml
+  href: https://artifacts.apis.io/fbi-wanted/security/fbi-wanted-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fbi-wanted-domain-security.yml
@@ -62,10 +64,10 @@ name: FBI Wanted
 nav: Providers
 network: true
 overview: FBI Wanted is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 3
+random_paper: 9
 score:
   band: minimal
-  composite: 4.5
+  composite: 5.4
   coverage:
     artifact_dirs: 3
     catalog_earned: 22.0
@@ -78,24 +80,24 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 9.5
     discoverability: 46.4
     operational_transparency: 0.0
-  previous_composite: 4.5
+  previous_composite: 5.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fbi-wanted/refs/heads/main/screenshots/fbi-wanted-2026-06-20T181059.png
+screenshot: https://apis.io/screenshots/fbi-wanted/fbi-wanted-2026-06-20T181059.png
 security:
 - kind: domain-security
   name: Fbi Wanted Domain Security

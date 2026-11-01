@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 26.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 5
@@ -134,11 +136,8 @@ arazzos:
 - description: Creates a serverless Astra DB database, waits for it to become active, adds a keyspace, downloads the secure-connect bundle, and issues an application token scoped to the org roles — all against the A
   name: Provision an Astra database and issue a scoped token
   slug: datastax-provision-database
-artifact_total: 42
+artifact_total: 45
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Astra DevOps Access List API
   slug: open-datastax-access-list-api
@@ -192,12 +191,12 @@ collections:
   slug: open-datastax-vpc-peering-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/plans/datastax-plans-pricing.yml
+  href: https://artifacts.apis.io/datastax/plans/datastax-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/datastax-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/capabilities/datastax-capability-edges.yml
+  href: https://artifacts.apis.io/datastax/capabilities/datastax-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/datastax-capability-edges.yml
@@ -262,97 +261,105 @@ common:
   type: Postman
   url: https://www.postman.com/datastax
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/packages/datastax-packages.yml
+  href: https://artifacts.apis.io/datastax/packages/datastax-packages.yml
   title: ''
   type: Packages
   url: packages/datastax-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/packages/datastax-packages.yml
+  href: https://artifacts.apis.io/datastax/packages/datastax-packages.yml
   title: ''
   type: SDKs
   url: packages/datastax-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/cli/datastax-cli.yml
+  href: https://artifacts.apis.io/datastax/cli/datastax-cli.yml
   title: ''
   type: CLI
   url: cli/datastax-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/mcp/datastax-mcp.yml
+  href: https://artifacts.apis.io/datastax/mcp/datastax-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/datastax-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/llms/datastax-llms.txt
+  href: https://artifacts.apis.io/datastax/llms/datastax-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/datastax-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/authentication/datastax-authentication.yml
+  href: https://artifacts.apis.io/datastax/authentication/datastax-authentication.yml
   title: ''
   type: Authentication
   url: authentication/datastax-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/scopes/datastax-scopes.yml
+  href: https://artifacts.apis.io/datastax/scopes/datastax-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/datastax-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/security/datastax-domain-security.yml
+  href: https://artifacts.apis.io/datastax/security/datastax-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datastax-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/conventions/datastax-conventions.yml
+  href: https://artifacts.apis.io/datastax/conventions/datastax-conventions.yml
   title: ''
   type: Conventions
   url: conventions/datastax-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/errors/datastax-problem-types.yml
+  href: https://artifacts.apis.io/datastax/errors/datastax-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/datastax-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/lifecycle/datastax-lifecycle.yml
+  href: https://artifacts.apis.io/datastax/lifecycle/datastax-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/datastax-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/changelog/datastax-changelog.yml
+  href: https://artifacts.apis.io/datastax/changelog/datastax-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/datastax-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/conformance/datastax-conformance.yml
+  href: https://artifacts.apis.io/datastax/conformance/datastax-conformance.yml
   title: ''
   type: Conformance
   url: conformance/datastax-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/data-model/datastax-data-model.yml
+  href: https://artifacts.apis.io/datastax/data-model/datastax-data-model.yml
   title: ''
   type: DataModel
   url: data-model/datastax-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/overlays/datastax-devops-overlay.yaml
+  href: https://artifacts.apis.io/datastax/overlays/datastax-devops-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/datastax-devops-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/agentic-access/datastax-agentic-access.yml
+  href: https://artifacts.apis.io/datastax/agentic-access/datastax-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/datastax-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/datastax/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/arazzo/datastax-provision-database.yml
+  href: https://artifacts.apis.io/datastax/arazzo/datastax-provision-database.yml
   title: ''
   type: Arazzo
   url: arazzo/datastax-provision-database.yml
 created: '2026-07-17'
 description: DataStax is the company behind Astra DB, a serverless, multi-cloud database and vector-search platform built on Apache Cassandra, along with Langflow, RAGStack, and the Astra Streaming (Apache Pulsar) event platform for building generative-AI and real-time applications. Developers interact with Astra DB through the Data API (JSON document, table, and vector operations), the legacy REST, Document, and GraphQL APIs, and the Astra DevOps API for programmatic administration of databases, keyspaces, access lists, roles, users, tokens, private links, and CDC. DataStax publishes official client SDKs (Python astrapy, TypeScript astra-db-ts, Go astra-db-go), the Java-based Astra CLI, and an official Astra DB Model Context Protocol (MCP) server for agentic access. DataStax was acquired by IBM in 2025 and its Astra products are now part of the IBM watsonx data portfolio, while the developer surface remains hosted on datastax.com, docs.datastax.com, astra.datastax.com, and github.com/datastax.
+finops:
+- has_sources: true
+  method: derived
+  name: Datastax Finops
+  primary_unit: resource unit
+  service_category: ''
+  slug: datastax-finops
+  template: false
 image: https://www.datastax.com/favicon.ico
 layout: provider
 mcp_servers:
@@ -363,7 +370,7 @@ modified: '2026-07-18'
 name: DataStax
 nav: Providers
 network: true
-overview: 'DataStax publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access List API, Authentication API, Clone API, and 14 more. Tagged areas include Company, Enterprise, Database, Vector Database, and Cassandra.
+overview: 'DataStax publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access List API, Authentication API, Clone API, and 14 more. Tagged areas include Company, Enterprise, Database, Vector Search, and Cassandra.
 
 
   DataStax''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, engineering blog, and 28 more developer resources.'
@@ -371,31 +378,34 @@ plans:
 - name: Datastax Plans Pricing
   plan_count: 4
   slug: datastax-plans-pricing
-random_paper: 0
+- name: Datastax Price Estimates
+  plan_count: 0
+  slug: datastax-price-estimates
+random_paper: 18
 scopes:
 - name: Datastax Scopes
   scope_count: 15
   slug: datastax-scopes
   summary_line: 15 scopes
 score:
-  band: developing
-  composite: 52.8
+  band: strong
+  composite: 57.3
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 49.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 54.8
-    developer_ergonomics: 70.8
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 46.4
+    contract_quality: 50.3
+    developer_ergonomics: 78.0
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -411,14 +421,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+    score: 31.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/screenshots/datastax-2026-07-25T211402.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/datastax/datastax-2026-07-25T211402.png
 security:
 - kind: authentication
   name: Datastax Authentication
@@ -428,18 +439,23 @@ security:
   name: Datastax Domain Security
   slug: datastax-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Manage Astra organization access — tokens, roles, and users
+  slug: datastax-manage-access
+- name: Provision an Astra database and download its secure bundle
+  slug: datastax-provision-database
 slug: datastax
 tags:
 - Company
 - Enterprise
 - Database
-- Vector Database
+- Vector Search
 - Cassandra
 - Artificial Intelligence
 - RAG
 - Serverless
 - Streaming
 - Developer Tools
-- Vector Search
 website: https://www.datastax.com
 ---

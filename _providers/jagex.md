@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: Read-only JSON endpoints for the RuneScape (RS3) Grand Exchange item database - item detail (price, trend, 30/90/180-day movement), category listings, and daily price-history graphs. Unauthenticated G
@@ -81,17 +83,17 @@ common:
   type: PrivacyPolicy
   url: https://legal.jagex.com/docs/policies/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jagex/refs/heads/main/well-known/jagex-security.txt
+  href: https://artifacts.apis.io/jagex/well-known/jagex-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/jagex-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jagex/refs/heads/main/well-known/jagex-well-known.yml
+  href: https://artifacts.apis.io/jagex/well-known/jagex-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jagex-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jagex/refs/heads/main/security/jagex-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/jagex/security/jagex-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jagex-vulnerability-disclosure.yml
@@ -100,12 +102,12 @@ common:
   type: Security
   url: https://www.jagex.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jagex/refs/heads/main/security/jagex-domain-security.yml
+  href: https://artifacts.apis.io/jagex/security/jagex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jagex-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jagex/refs/heads/main/llms/jagex-llms.txt
+  href: https://artifacts.apis.io/jagex/llms/jagex-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jagex-llms.txt
@@ -121,10 +123,10 @@ overview: 'Jagex is listed with 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Jagex''s developer surface includes documentation, engineering blog, and 11 more developer resources.'
-random_paper: 21
+random_paper: 23
 score:
   band: emerging
-  composite: 18.4
+  composite: 17.7
   coverage:
     artifact_dirs: 6
     catalog_earned: 40.0
@@ -132,34 +134,34 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-kingdom
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 18.3
+  previous_composite: 17.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jagex/refs/heads/main/screenshots/jagex-2026-07-25T223038.png
+screenshot: https://apis.io/screenshots/jagex/jagex-2026-07-25T223038.png
 security:
 - kind: domain-security
   name: Jagex Domain Security

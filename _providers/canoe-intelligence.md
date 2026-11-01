@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 102
   slug: canoe-intelligence-agentic-access
   summary_line: 102 operations · 52 acting
-api_count: 4
+api_count: 2
 apis:
 - baseURL: https://api.canoesoftware.com
   baseurl_source: declared
@@ -94,11 +96,8 @@ apis:
   description: The Introduction API from Canoe Intelligence — 2 operation(s) for introduction.
   name: Canoe Intelligence Introduction API
   slug: canoe-intelligence-introduction-api
-artifact_total: 26
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Canoe API v1 Allocations API
   slug: open-canoe-intelligence-allocations-api
@@ -128,12 +127,12 @@ collections:
   slug: open-canoe-intelligence-user-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/agentic-access/canoe-intelligence-agentic-access.yml
+  href: https://artifacts.apis.io/canoe-intelligence/agentic-access/canoe-intelligence-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/canoe-intelligence-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/security/canoe-intelligence-domain-security.yml
+  href: https://artifacts.apis.io/canoe-intelligence/security/canoe-intelligence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/canoe-intelligence-domain-security.yml
@@ -186,7 +185,7 @@ common:
   type: Compliance
   url: https://canoeintelligence.com/implementation-data-security/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/llms/canoe-intelligence-llms.txt
+  href: https://artifacts.apis.io/canoe-intelligence/llms/canoe-intelligence-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/canoe-intelligence-llms.txt
@@ -195,62 +194,62 @@ common:
   type: LLMsTxt
   url: https://canoeintelligence.com/llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/authentication/canoe-intelligence-authentication.yml
+  href: https://artifacts.apis.io/canoe-intelligence/authentication/canoe-intelligence-authentication.yml
   title: ''
   type: Authentication
   url: authentication/canoe-intelligence-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/scopes/canoe-intelligence-scopes.yml
+  href: https://artifacts.apis.io/canoe-intelligence/scopes/canoe-intelligence-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/canoe-intelligence-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/conventions/canoe-intelligence-conventions.yml
+  href: https://artifacts.apis.io/canoe-intelligence/conventions/canoe-intelligence-conventions.yml
   title: ''
   type: Conventions
   url: conventions/canoe-intelligence-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/errors/canoe-intelligence-problem-types.yml
+  href: https://artifacts.apis.io/canoe-intelligence/errors/canoe-intelligence-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/canoe-intelligence-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/lifecycle/canoe-intelligence-lifecycle.yml
+  href: https://artifacts.apis.io/canoe-intelligence/lifecycle/canoe-intelligence-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/canoe-intelligence-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/conformance/canoe-intelligence-conformance.yml
+  href: https://artifacts.apis.io/canoe-intelligence/conformance/canoe-intelligence-conformance.yml
   title: ''
   type: Conformance
   url: conformance/canoe-intelligence-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/data-model/canoe-intelligence-data-model.yml
+  href: https://artifacts.apis.io/canoe-intelligence/data-model/canoe-intelligence-data-model.yml
   title: ''
   type: DataModel
   url: data-model/canoe-intelligence-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/well-known/canoe-intelligence-well-known.yml
+  href: https://artifacts.apis.io/canoe-intelligence/well-known/canoe-intelligence-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/canoe-intelligence-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/mcp/canoe-intelligence-tool-crosswalk.yml
+  href: https://artifacts.apis.io/canoe-intelligence/mcp/canoe-intelligence-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/canoe-intelligence-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/canoe-intelligence/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/overlays/canoe-intelligence-api-overlay.yaml
+  href: https://artifacts.apis.io/canoe-intelligence/overlays/canoe-intelligence-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/canoe-intelligence-api-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/examples/canoe-intelligence-examples.yml
+  href: https://artifacts.apis.io/canoe-intelligence/examples/canoe-intelligence-examples.yml
   title: ''
   type: Examples
   url: examples/canoe-intelligence-examples.yml
@@ -266,7 +265,7 @@ overview: 'Canoe Intelligence publishes 10 API contracts indexed on the [APIs.io
 
 
   Canoe Intelligence''s developer surface includes documentation, API reference, support, engineering blog, authentication, code examples, and 22 more developer resources.'
-random_paper: 4
+random_paper: 6
 scopes:
 - name: Canoe Intelligence Scopes
   scope_count: 0
@@ -274,23 +273,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.2
+  composite: 42.9
   coverage:
     artifact_dirs: 20
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.5
   facets:
-    access_clarity: 35.5
+    access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 49.1
+    contract_quality: 47.9
     developer_ergonomics: 47.0
-    discoverability: 78.6
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 41.1
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,13 +306,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/screenshots/canoe-intelligence-2026-08-17T080804.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/canoe-intelligence/canoe-intelligence-2026-08-17T080804.png
 security:
 - kind: authentication
   name: Canoe Intelligence Authentication
@@ -331,6 +331,14 @@ security:
   name: Canoe Intelligence Trust Center
   slug: canoe-intelligence-trust-center
   summary_line: SOC 2 Type II
+skill_count: 3
+skills:
+- name: Onboard an LP allocation
+  slug: canoe-intelligence-onboard-an-allocation
+- name: Pull extracted document data for a fund
+  slug: canoe-intelligence-pull-extracted-fund-data
+- name: Upload and tag a document
+  slug: canoe-intelligence-upload-and-tag-a-document
 slug: canoe-intelligence
 tags:
 - Alternative Investments

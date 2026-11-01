@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/western-midstream-partners/refs/heads/main/security/western-midstream-partners-domain-security.yml
+  href: https://artifacts.apis.io/western-midstream-partners/security/western-midstream-partners-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/western-midstream-partners-domain-security.yml
@@ -69,7 +71,7 @@ overview: 'Western Midstream Partners is profiled on the [APIs.io](https://apis.
 
 
   Western Midstream Partners'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 5
+random_paper: 23
 score:
   band: minimal
   composite: 3.5
@@ -95,14 +97,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/western-midstream-partners/refs/heads/main/screenshots/western-midstream-partners-2026-06-20T201407.png
+screenshot: https://apis.io/screenshots/western-midstream-partners/western-midstream-partners-2026-06-20T201407.png
 security:
 - kind: domain-security
   name: Western Midstream Partners Domain Security

@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
-    mcp_server: false
+    idempotency: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.1
-  scored_at: '2026-10-17'
+  score: 19.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +42,7 @@ agentic_access:
   operation_count: 3
   slug: getvocal-agentic-access
   summary_line: 3 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://www.getvocal.ai
   baseurl_source: spec
@@ -57,11 +59,8 @@ apis:
   description: The .well Known API from GetVocal — 1 operation(s) for .well known.
   name: GetVocal .well Known API
   slug: getvocal-well-known-api
-artifact_total: 11
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: GetVocal Agent Contact API
   slug: open-getvocal-contact-api
@@ -73,42 +72,42 @@ collections:
   slug: open-getvocal-well-known-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/overlays/getvocal-openapi-overlay.yaml
+  href: https://artifacts.apis.io/getvocal/overlays/getvocal-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/getvocal-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/mcp/getvocal-mcp.yml
+  href: https://artifacts.apis.io/getvocal/mcp/getvocal-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/getvocal-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/llms/getvocal-llms.txt
+  href: https://artifacts.apis.io/getvocal/llms/getvocal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/getvocal-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/well-known/getvocal-well-known.yml
+  href: https://artifacts.apis.io/getvocal/well-known/getvocal-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/getvocal-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/agentic-access/getvocal-agentic-access.yml
+  href: https://artifacts.apis.io/getvocal/agentic-access/getvocal-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/getvocal-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/getvocal/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/conventions/getvocal-conventions.yml
+  href: https://artifacts.apis.io/getvocal/conventions/getvocal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/getvocal-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/conformance/getvocal-conformance.yml
+  href: https://artifacts.apis.io/getvocal/conformance/getvocal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/getvocal-conformance.yml
@@ -117,12 +116,12 @@ common:
   type: Compliance
   url: https://trust.getvocal.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/security/getvocal-trust-center.yml
+  href: https://artifacts.apis.io/getvocal/security/getvocal-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/getvocal-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/security/getvocal-domain-security.yml
+  href: https://artifacts.apis.io/getvocal/security/getvocal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/getvocal-domain-security.yml
@@ -170,10 +169,10 @@ overview: 'GetVocal publishes 3 API contracts indexed on the [APIs.io](https://a
 
 
   GetVocal''s developer surface includes documentation, engineering blog, signup flow, and 15 more developer resources.'
-random_paper: 17
+random_paper: 13
 score:
   band: thin
-  composite: 32.3
+  composite: 34.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 32.0
@@ -181,15 +180,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.8
+  delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 44.7
     developer_ergonomics: 13.7
-    discoverability: 64.3
-    operational_transparency: 2.6
-  previous_composite: 31.5
+    discoverability: 56.7
+    operational_transparency: 5.3
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -213,15 +212,15 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/screenshots/getvocal-2026-07-25T215750.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/getvocal/getvocal-2026-07-25T215750.png
 security:
 - kind: domain-security
   name: Getvocal Domain Security
@@ -231,6 +230,12 @@ security:
   name: Getvocal Trust Center
   slug: getvocal-trust-center
   summary_line: SOC 2, ISO 27001, HIPAA
+skill_count: 2
+skills:
+- name: Book a GetVocal demo
+  slug: getvocal-book-demo
+- name: Discover GetVocal for AI agents
+  slug: getvocal-discover
 slug: getvocal
 tags:
 - Company

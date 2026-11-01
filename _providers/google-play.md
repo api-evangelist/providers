@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,11 +51,8 @@ apis:
   description: The Androidpublisher API from Google Play Developer — 4 operation(s) for androidpublisher.
   name: Google Play Developer Androidpublisher API
   slug: google-play-androidpublisher-api
-artifact_total: 13
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Play Developer Androidpublisher API
   slug: open-google-play-androidpublisher-api
@@ -62,17 +61,17 @@ collections:
   slug: open-openapi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-play/refs/heads/main/plans/google-play-plans-pricing.yml
+  href: https://artifacts.apis.io/google-play/plans/google-play-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-play-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-play/refs/heads/main/rate-limits/google-play-rate-limits.yml
+  href: https://artifacts.apis.io/google-play/rate-limits/google-play-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-play-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-play/refs/heads/main/finops/google-play-finops.yml
+  href: https://artifacts.apis.io/google-play/finops/google-play-finops.yml
   title: ''
   type: FinOps
   url: finops/google-play-finops.yml
@@ -81,27 +80,27 @@ common:
   type: Website
   url: https://www.google.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-play/refs/heads/main/agentic-access/google-play-agentic-access.yml
+  href: https://artifacts.apis.io/google-play/agentic-access/google-play-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-play-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-play/refs/heads/main/security/google-play-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-play/security/google-play-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-play-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-play/refs/heads/main/security/google-play-domain-security.yml
+  href: https://artifacts.apis.io/google-play/security/google-play-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-play-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-play/refs/heads/main/authentication/google-play-authentication.yml
+  href: https://artifacts.apis.io/google-play/authentication/google-play-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-play-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-play/refs/heads/main/scopes/google-play-scopes.yml
+  href: https://artifacts.apis.io/google-play/scopes/google-play-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-play-scopes.yml
@@ -122,7 +121,7 @@ common:
   type: Pricing
   url: https://play.google.com/console/about/pricing/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-play/refs/heads/main/json-ld/json-ld.yml
+  href: https://artifacts.apis.io/google-play/json-ld/json-ld.yml
   title: ''
   type: JSONLD
   url: json-ld/json-ld.yml
@@ -132,7 +131,7 @@ finops:
 - has_sources: false
   method: generated
   name: Google Play Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: google-play-finops
   template: true
@@ -153,7 +152,7 @@ plans:
 - name: Google Play Plans Pricing
   plan_count: 3
   slug: google-play-plans-pricing
-random_paper: 20
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Google Play Rate Limits
@@ -177,23 +176,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 30.3
+  composite: 34.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 51.7
     catalog_earned_first_party: 0.0
     catalog_gap: 63.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 54.5
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 31.8
+    operational_transparency: 23.7
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -207,13 +206,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-play/refs/heads/main/screenshots/google-play-2026-06-20T182225.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-play/google-play-2026-06-20T182225.png
 security:
 - kind: authentication
   name: Google Play Authentication

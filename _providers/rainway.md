@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 2
   slug: rainway-agentic-access
   summary_line: 2 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://hub-api.rainway.com/v0
   baseurl_source: declared
@@ -51,9 +53,6 @@ apis:
   slug: rainway-peers-api
 artifact_total: 6
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Rainway Hub Peers API
   slug: open-rainway-peers-api
@@ -91,72 +90,72 @@ common:
   type: StatusPage
   url: https://rainway.statuspage.io
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/packages/rainway-packages.yml
+  href: https://artifacts.apis.io/rainway/packages/rainway-packages.yml
   title: ''
   type: Packages
   url: packages/rainway-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/packages/rainway-packages.yml
+  href: https://artifacts.apis.io/rainway/packages/rainway-packages.yml
   title: ''
   type: SDKs
   url: packages/rainway-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/authentication/rainway-authentication.yml
+  href: https://artifacts.apis.io/rainway/authentication/rainway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rainway-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/conventions/rainway-conventions.yml
+  href: https://artifacts.apis.io/rainway/conventions/rainway-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rainway-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/errors/rainway-problem-types.yml
+  href: https://artifacts.apis.io/rainway/errors/rainway-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rainway-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/data-model/rainway-data-model.yml
+  href: https://artifacts.apis.io/rainway/data-model/rainway-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rainway-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/lifecycle/rainway-lifecycle.yml
+  href: https://artifacts.apis.io/rainway/lifecycle/rainway-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rainway-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/conformance/rainway-conformance.yml
+  href: https://artifacts.apis.io/rainway/conformance/rainway-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rainway-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/mcp/rainway-mcp.yml
+  href: https://artifacts.apis.io/rainway/mcp/rainway-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rainway-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/overlays/rainway-hub-api-overlay.yaml
+  href: https://artifacts.apis.io/rainway/overlays/rainway-hub-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rainway-hub-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rainway/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/llms/rainway-llms.txt
+  href: https://artifacts.apis.io/rainway/llms/rainway-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rainway-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/security/rainway-domain-security.yml
+  href: https://artifacts.apis.io/rainway/security/rainway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rainway-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/agentic-access/rainway-agentic-access.yml
+  href: https://artifacts.apis.io/rainway/agentic-access/rainway-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rainway-agentic-access.yml
@@ -172,12 +171,12 @@ overview: 'Rainway publishes 1 API contract indexed on the [APIs.io](https://api
 
 
   Rainway''s developer surface includes documentation, getting-started guide, API reference, signup flow, authentication, and 17 more developer resources.'
-random_paper: 15
+random_paper: 19
 score:
   band: emerging
-  composite: 20.7
+  composite: 24.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -185,13 +184,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 44.6
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 20.7
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 24.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,14 +207,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/screenshots/rainway-2026-09-02T152822.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rainway/rainway-2026-09-02T152822.png
 security:
 - kind: authentication
   name: Rainway Authentication
@@ -225,6 +224,10 @@ security:
   name: Rainway Domain Security
   slug: rainway-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC
+skill_count: 1
+skills:
+- name: List Rainway network peers
+  slug: rainway-list-network-peers
 slug: rainway
 tags:
 - Company

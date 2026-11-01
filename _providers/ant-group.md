@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-17'
+  score: 12.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Antom (Ant Group Global) AMS REST API for online payments, tokenized and subscription payments, refunds, captures, disputes, payouts and 3-D Secure 2 authentication across global payment methods. RSA2
@@ -84,57 +86,57 @@ common:
   type: TermsOfService
   url: https://render.alipay.com/p/f/agreementcenter/antom_service.html
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ant-group/refs/heads/main/packages/ant-group-packages.yml
+  href: https://artifacts.apis.io/ant-group/packages/ant-group-packages.yml
   title: ''
   type: Packages
   url: packages/ant-group-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ant-group/refs/heads/main/packages/ant-group-packages.yml
+  href: https://artifacts.apis.io/ant-group/packages/ant-group-packages.yml
   title: ''
   type: SDKs
   url: packages/ant-group-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ant-group/refs/heads/main/authentication/ant-group-authentication.yml
+  href: https://artifacts.apis.io/ant-group/authentication/ant-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ant-group-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ant-group/refs/heads/main/conventions/ant-group-conventions.yml
+  href: https://artifacts.apis.io/ant-group/conventions/ant-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ant-group-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ant-group/refs/heads/main/conventions/ant-group-conventions.yml
+  href: https://artifacts.apis.io/ant-group/conventions/ant-group-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ant-group-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ant-group/refs/heads/main/sandbox/ant-group-sandbox.yml
+  href: https://artifacts.apis.io/ant-group/sandbox/ant-group-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ant-group-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ant-group/refs/heads/main/changelog/ant-group-changelog.yml
+  href: https://artifacts.apis.io/ant-group/changelog/ant-group-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ant-group-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ant-group/refs/heads/main/conformance/ant-group-conformance.yml
+  href: https://artifacts.apis.io/ant-group/conformance/ant-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ant-group-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ant-group/refs/heads/main/security/ant-group-domain-security.yml
+  href: https://artifacts.apis.io/ant-group/security/ant-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ant-group-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ant-group/refs/heads/main/well-known/ant-group-well-known.yml
+  href: https://artifacts.apis.io/ant-group/well-known/ant-group-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ant-group-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ant-group/refs/heads/main/llms/ant-group-llms.txt
+  href: https://artifacts.apis.io/ant-group/llms/ant-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ant-group-llms.txt
@@ -154,10 +156,10 @@ overview: 'Ant Group is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Ant Group''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, sandbox, and 14 more developer resources.'
-random_paper: 1
+random_paper: 13
 score:
-  band: emerging
-  composite: 25.6
+  band: thin
+  composite: 32.9
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -165,14 +167,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.7
-    discoverability: 75.0
-    operational_transparency: 18.4
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -180,7 +182,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 25.5
+  previous_composite: 32.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -189,15 +191,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ant-group/refs/heads/main/screenshots/ant-group-2026-07-25T200357.png
+screenshot: https://apis.io/screenshots/ant-group/ant-group-2026-07-25T200357.png
 security:
 - kind: authentication
   name: Ant Group Authentication

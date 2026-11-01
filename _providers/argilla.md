@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -120,11 +122,8 @@ apis:
   description: The workspaces API from Argilla — 5 operation(s) for workspaces.
   name: Argilla Workspaces API
   slug: argilla-workspaces-api
-artifact_total: 53
+artifact_total: 52
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Argilla v1 Authentication API
   slug: open-argilla-authentication-api
@@ -172,22 +171,22 @@ collections:
   slug: open-argilla-workspaces-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/capabilities/argilla-capability-edges.yml
+  href: https://artifacts.apis.io/argilla/capabilities/argilla-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/argilla-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/agentic-access/argilla-agentic-access.yml
+  href: https://artifacts.apis.io/argilla/agentic-access/argilla-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/argilla-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/security/argilla-domain-security.yml
+  href: https://artifacts.apis.io/argilla/security/argilla-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/argilla-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/authentication/argilla-authentication.yml
+  href: https://artifacts.apis.io/argilla/authentication/argilla-authentication.yml
   title: ''
   type: Authentication
   url: authentication/argilla-authentication.yml
@@ -220,27 +219,27 @@ common:
   type: Pricing
   url: https://argilla.io/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/plans/argilla-plans-pricing.yml
+  href: https://artifacts.apis.io/argilla/plans/argilla-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/argilla-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/rate-limits/argilla-rate-limits.yml
+  href: https://artifacts.apis.io/argilla/rate-limits/argilla-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/argilla-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/finops/argilla-finops.yml
+  href: https://artifacts.apis.io/argilla/finops/argilla-finops.yml
   title: ''
   type: FinOps
   url: finops/argilla-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/vocabulary/argilla-vocabulary.yml
+  href: https://artifacts.apis.io/argilla/vocabulary/argilla-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/argilla-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/json-ld/argilla-context.jsonld
+  href: https://artifacts.apis.io/argilla/json-ld/argilla-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/argilla-context.jsonld
@@ -320,7 +319,7 @@ plans:
 - name: Argilla Plans Pricing
   plan_count: 2
   slug: argilla-plans-pricing
-random_paper: 6
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Argilla Rate Limits
@@ -339,7 +338,7 @@ rules:
   slug: argilla-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.3
+  composite: 31.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 54.8
@@ -347,15 +346,15 @@ score:
     catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 15.8
     contract_governance: 23.5
-    contract_quality: 58.1
+    contract_quality: 54.7
     developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 7.9
-  previous_composite: 40.3
+    operational_transparency: 10.5
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -369,13 +368,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/screenshots/argilla-2026-06-20T172416.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/argilla/argilla-2026-06-20T172416.png
 security:
 - kind: authentication
   name: Argilla Authentication

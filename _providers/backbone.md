@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -62,27 +64,27 @@ common:
   type: PrivacyPolicy
   url: https://backbone.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/backbone/refs/heads/main/llms/backbone-llms.txt
+  href: https://artifacts.apis.io/backbone/llms/backbone-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/backbone-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/backbone/refs/heads/main/well-known/backbone-well-known.yml
+  href: https://artifacts.apis.io/backbone/well-known/backbone-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/backbone-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/backbone/refs/heads/main/mcp/backbone-mcp.yml
+  href: https://artifacts.apis.io/backbone/mcp/backbone-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/backbone-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/backbone/refs/heads/main/authentication/backbone-authentication.yml
+  href: https://artifacts.apis.io/backbone/authentication/backbone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/backbone-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/backbone/refs/heads/main/security/backbone-domain-security.yml
+  href: https://artifacts.apis.io/backbone/security/backbone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/backbone-domain-security.yml
@@ -102,10 +104,10 @@ overview: 'Backbone is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Backbone''s developer surface includes engineering blog, support, authentication, and 8 more developer resources.'
-random_paper: 7
+random_paper: 5
 score:
   band: emerging
-  composite: 14.5
+  composite: 13.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -113,15 +115,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 58.3
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 14.0
+  previous_composite: 13.5
   provenance:
     mcp: platform-generated
   regulatory:
@@ -130,14 +132,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/backbone/refs/heads/main/screenshots/backbone-2026-08-07T162110.png
+screenshot: https://apis.io/screenshots/backbone/backbone-2026-08-07T162110.png
 security:
 - kind: authentication
   name: Backbone Authentication

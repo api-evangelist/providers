@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Customer-facing REST API for the Alcatraz Admin Portal, used by third-party projects and applications to administer Rock devices, users, profiles and events. Access is authorized with an API key gener
@@ -43,7 +45,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alcatraz-ai/refs/heads/main/security/alcatraz-ai-domain-security.yml
+  href: https://artifacts.apis.io/alcatraz-ai/security/alcatraz-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alcatraz-ai-domain-security.yml
@@ -80,7 +82,7 @@ common:
   type: PrivacyPolicy
   url: https://www.alcatraz.ai/utilities/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alcatraz-ai/refs/heads/main/security/alcatraz-ai-trust-center.yml
+  href: https://artifacts.apis.io/alcatraz-ai/security/alcatraz-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/alcatraz-ai-trust-center.yml
@@ -89,22 +91,22 @@ common:
   type: Compliance
   url: https://www.alcatraz.ai/resources/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alcatraz-ai/refs/heads/main/llms/alcatraz-ai-llms.txt
+  href: https://artifacts.apis.io/alcatraz-ai/llms/alcatraz-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alcatraz-ai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alcatraz-ai/refs/heads/main/authentication/alcatraz-ai-authentication.yml
+  href: https://artifacts.apis.io/alcatraz-ai/authentication/alcatraz-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alcatraz-ai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alcatraz-ai/refs/heads/main/conformance/alcatraz-ai-conformance.yml
+  href: https://artifacts.apis.io/alcatraz-ai/conformance/alcatraz-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alcatraz-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alcatraz-ai/refs/heads/main/lifecycle/alcatraz-ai-lifecycle.yml
+  href: https://artifacts.apis.io/alcatraz-ai/lifecycle/alcatraz-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alcatraz-ai-lifecycle.yml
@@ -132,10 +134,10 @@ overview: 'Alcatraz AI is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   Alcatraz AI''s developer surface includes documentation, support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 19
+random_paper: 17
 score:
   band: emerging
-  composite: 24.2
+  composite: 23.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -143,15 +145,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 24.7
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 23.8
   provenance:
     conformance: first-party
   regulatory:
@@ -166,14 +168,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 26.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alcatraz-ai/refs/heads/main/screenshots/alcatraz-ai-2026-08-07T161150.png
+screenshot: https://apis.io/screenshots/alcatraz-ai/alcatraz-ai-2026-08-07T161150.png
 security:
 - kind: authentication
   name: Alcatraz Ai Authentication

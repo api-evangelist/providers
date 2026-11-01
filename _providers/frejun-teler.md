@@ -15,17 +15,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.9
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 50.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.frejun.ai
   baseurl_source: declared
@@ -87,12 +89,17 @@ apis:
   description: Higher-level, multi-step operations on a live call, such as transferring it to a new destination.
   name: FreJun Teler Voice / Operations API
   slug: frejun-teler-voice-operations-api
-artifact_total: 18
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Frejun Teler Webhooks
   slug: frejun-teler-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/frejun-teler/capabilities/frejun-teler-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/frejun-teler-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -146,102 +153,110 @@ common:
   type: LLMsTxt
   url: https://www.frejun.ai/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/well-known/frejun-teler-well-known.yml
+  href: https://artifacts.apis.io/frejun-teler/well-known/frejun-teler-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/frejun-teler-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/authentication/frejun-teler-authentication.yml
+  href: https://artifacts.apis.io/frejun-teler/authentication/frejun-teler-authentication.yml
   title: ''
   type: Authentication
   url: authentication/frejun-teler-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/security/frejun-teler-domain-security.yml
+  href: https://artifacts.apis.io/frejun-teler/security/frejun-teler-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/frejun-teler-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/conventions/frejun-teler-conventions.yml
+  href: https://artifacts.apis.io/frejun-teler/conventions/frejun-teler-conventions.yml
   title: ''
   type: Conventions
   url: conventions/frejun-teler-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/lifecycle/frejun-teler-lifecycle.yml
+  href: https://artifacts.apis.io/frejun-teler/lifecycle/frejun-teler-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/frejun-teler-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/lifecycle/frejun-teler-lifecycle.yml
+  href: https://artifacts.apis.io/frejun-teler/lifecycle/frejun-teler-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/frejun-teler-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/conformance/frejun-teler-conformance.yml
+  href: https://artifacts.apis.io/frejun-teler/conformance/frejun-teler-conformance.yml
   title: ''
   type: Conformance
   url: conformance/frejun-teler-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/mcp/frejun-teler-mcp.yml
+  href: https://artifacts.apis.io/frejun-teler/mcp/frejun-teler-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/frejun-teler-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/frejun-teler/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/packages/frejun-teler-packages.yml
+  href: https://artifacts.apis.io/frejun-teler/packages/frejun-teler-packages.yml
   title: ''
   type: Packages
   url: packages/frejun-teler-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/packages/frejun-teler-packages.yml
+  href: https://artifacts.apis.io/frejun-teler/packages/frejun-teler-packages.yml
   title: ''
   type: SDKs
   url: packages/frejun-teler-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/components/frejun-teler-components.yml
+  href: https://artifacts.apis.io/frejun-teler/components/frejun-teler-components.yml
   title: ''
   type: Components
   url: components/frejun-teler-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/asyncapi/frejun-teler-webhooks.yml
+  href: https://artifacts.apis.io/frejun-teler/asyncapi/frejun-teler-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/frejun-teler-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/data-model/frejun-teler-data-model.yml
+  href: https://artifacts.apis.io/frejun-teler/data-model/frejun-teler-data-model.yml
   title: ''
   type: DataModel
   url: data-model/frejun-teler-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/errors/frejun-teler-problem-types.yml
+  href: https://artifacts.apis.io/frejun-teler/errors/frejun-teler-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/frejun-teler-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/overlays/frejun-teler-openapi-overlay.yaml
+  href: https://artifacts.apis.io/frejun-teler/overlays/frejun-teler-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/frejun-teler-openapi-overlay.yaml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/sandbox/frejun-teler-sandbox.yml
+  href: https://artifacts.apis.io/frejun-teler/sandbox/frejun-teler-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/frejun-teler-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/rate-limits/frejun-teler-rate-limits.yml
+  href: https://artifacts.apis.io/frejun-teler/rate-limits/frejun-teler-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/frejun-teler-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/plans/frejun-teler-plans-pricing.yml
+  href: https://artifacts.apis.io/frejun-teler/plans/frejun-teler-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/frejun-teler-plans-pricing.yml
 created: '2026-09-15'
 description: FreJun Teler is a developer-first programmable voice/telephony API (CPaaS) that handles carriers, phone numbers, and real-time audio streaming so developers can connect AI models (STT/LLM/TTS) to live phone calls. It offers real-time bidirectional audio over WebSocket (L16/8000 Hz, sub-250ms latency) and programmable SIP trunking, with webhook event delivery and official Python (teler) and Node (@frejun/teler) SDKs.
+finops:
+- has_sources: true
+  method: derived
+  name: Frejun Teler Finops
+  primary_unit: ''
+  service_category: ''
+  slug: frejun-teler-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
@@ -258,35 +273,35 @@ overview: 'FreJun Teler publishes 12 API contracts indexed on the [APIs.io](http
   The FreJun Teler catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  FreJun Teler''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, sandbox, and 25 more developer resources.'
+  FreJun Teler''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, sandbox, and 26 more developer resources.'
 plans:
 - name: Frejun Teler Plans Pricing
   plan_count: 0
   slug: frejun-teler-plans-pricing
-random_paper: 3
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Frejun Teler Rate Limits
   slug: frejun-teler-rate-limits
 score:
   band: developing
-  composite: 41.3
+  composite: 47.9
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 40.0
+    artifact_dirs: 24
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.5
   facets:
-    access_clarity: 22.4
+    access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 64.0
-    developer_ergonomics: 45.8
-    discoverability: 78.6
-    operational_transparency: 34.2
-  previous_composite: 40.8
+    contract_quality: 60.6
+    developer_ergonomics: 56.5
+    discoverability: 71.7
+    operational_transparency: 36.8
+  previous_composite: 48.4
   provenance:
     conformance: derived
     contracts:
@@ -301,14 +316,15 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 17.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 20.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/frejun-teler/refs/heads/main/screenshots/frejun-teler-2026-10-11T104700.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/frejun-teler/frejun-teler-2026-10-11T104700.png
 security:
 - kind: authentication
   name: Frejun Teler Authentication
@@ -318,6 +334,12 @@ security:
   name: Frejun Teler Domain Security
   slug: frejun-teler-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: place-and-control-a-voice-call
+  slug: place-and-control-a-voice-call
+- name: provision-sip-trunking
+  slug: provision-sip-trunking
 slug: frejun-teler
 tags:
 - programmable voice API

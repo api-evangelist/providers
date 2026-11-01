@@ -12,30 +12,32 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-17'
+  score: 15.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Uptake's customer-provisioned REST API. The gateway is live at api.uptake.com (AWS API Gateway behind Cloudflare) and answers every anonymous request with HTTP 403 ForbiddenException; a sibling gatewa
@@ -43,8 +45,28 @@ apis:
   slug: uptake-platform-api
 artifact_total: 4
 common:
+- group: other
+  href: https://artifacts.apis.io/uptake/hosts/uptake-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/uptake-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/uptake/integrations/uptake-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/uptake-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/uptake/vendors/uptake-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/uptake-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/uptake/packages/uptake-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/uptake-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uptake/refs/heads/main/security/uptake-domain-security.yml
+  href: https://artifacts.apis.io/uptake/security/uptake-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uptake-domain-security.yml
@@ -81,37 +103,32 @@ common:
   type: PrivacyPolicy
   url: https://uptake.com/privacy-notice/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uptake/refs/heads/main/well-known/uptake-well-known.yml
+  href: https://artifacts.apis.io/uptake/well-known/uptake-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/uptake-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uptake/refs/heads/main/authentication/uptake-authentication.yml
+  href: https://artifacts.apis.io/uptake/authentication/uptake-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uptake-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uptake/refs/heads/main/scopes/uptake-scopes.yml
+  href: https://artifacts.apis.io/uptake/scopes/uptake-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/uptake-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uptake/refs/heads/main/conformance/uptake-conformance.yml
+  href: https://artifacts.apis.io/uptake/conformance/uptake-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uptake-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uptake/refs/heads/main/packages/uptake-packages.yml
+  href: https://artifacts.apis.io/uptake/packages/uptake-packages.yml
   title: ''
   type: Packages
   url: packages/uptake-packages.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uptake/refs/heads/main/llms/uptake-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/uptake-llms.txt
 coverage:
-  checked: '2026-08-05'
+  checked: '2026-10-20'
   detail: Uptake's former developer portal at developer.uptake.com now returns nginx 404 and its user guide and release notes are Google Sites that 302 to a Google account sign-in, so the only anonymous machine-readable surface left on the estate is the Okta OIDC discovery document at start.uptake.com; the live gateway at api.uptake.com answers 403 ForbiddenException on every path with no WWW-Authenticate challenge, and integration partners are told to hand their token to an Uptake account representative rather than read a spec.
   evidence:
   - status: 404
@@ -135,18 +152,18 @@ network: true
 overview: 'Uptake is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Industrial AI, Predictive Maintenance, Asset Performance Management, and Fleet Management.
 
 
-  Uptake''s developer surface includes engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 12
+  Uptake''s developer surface includes engineering blog, support, authentication, and 15 more developer resources.'
+random_paper: 2
 scopes:
 - name: Uptake Scopes
-  scope_count: 0
+  scope_count: 7
   slug: uptake-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 7 scopes
 score:
   band: emerging
-  composite: 16.0
+  composite: 24.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -154,12 +171,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 11.8
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 14.3
+    developer_ergonomics: 26.2
     discoverability: 66.1
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -167,7 +184,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 16.0
+  previous_composite: 24.1
   provenance:
     conformance: first-party
   regulatory:
@@ -175,15 +192,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 31.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/uptake/refs/heads/main/screenshots/uptake-2026-09-02T165127.png
+screenshot: https://apis.io/screenshots/uptake/uptake-2026-09-02T165127.png
 security:
 - kind: authentication
   name: Uptake Authentication

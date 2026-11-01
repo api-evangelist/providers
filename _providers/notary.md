@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The Notary Project specification defines the signature envelope format, trust store and trust policy for container image signing and verification. It supports multiple signature formats and integrates
@@ -51,17 +53,17 @@ apis:
 artifact_total: 14
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/notary/refs/heads/main/plans/notary-plans-pricing.yml
+  href: https://artifacts.apis.io/notary/plans/notary-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/notary-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/notary/refs/heads/main/rate-limits/notary-rate-limits.yml
+  href: https://artifacts.apis.io/notary/rate-limits/notary-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/notary-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/notary/refs/heads/main/finops/notary-finops.yml
+  href: https://artifacts.apis.io/notary/finops/notary-finops.yml
   title: ''
   type: FinOps
   url: finops/notary-finops.yml
@@ -86,7 +88,7 @@ common:
   type: License
   url: https://github.com/notaryproject/specifications/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/notary/refs/heads/main/security/notary-domain-security.yml
+  href: https://artifacts.apis.io/notary/security/notary-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/notary-domain-security.yml
@@ -123,27 +125,27 @@ common:
   type: ChangeLog
   url: https://github.com/notaryproject/notation/releases
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/notary/refs/heads/main/json-schema/notary-trust-policy-schema.json
+  href: https://artifacts.apis.io/notary/json-schema/notary-trust-policy-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/notary-trust-policy-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/notary/refs/heads/main/json-schema/notary-plugin-schema.json
+  href: https://artifacts.apis.io/notary/json-schema/notary-plugin-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/notary-plugin-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/notary/refs/heads/main/json-schema/notary-plugin-protocol-schema.json
+  href: https://artifacts.apis.io/notary/json-schema/notary-plugin-protocol-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/notary-plugin-protocol-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/notary/refs/heads/main/json-schema/notary-signature-envelope-schema.json
+  href: https://artifacts.apis.io/notary/json-schema/notary-signature-envelope-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/notary-signature-envelope-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/notary/refs/heads/main/json-ld/notary-context.jsonld
+  href: https://artifacts.apis.io/notary/json-ld/notary-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/notary-context.jsonld
@@ -153,7 +155,7 @@ finops:
 - has_sources: false
   method: generated
   name: Notary Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: notary-finops
   template: true
@@ -192,7 +194,7 @@ plans:
 - name: Notary Plans Pricing
   plan_count: 3
   slug: notary-plans-pricing
-random_paper: 9
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Notary Rate Limits
@@ -210,8 +212,8 @@ rules:
     warn: 4
   slug: notary-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.8
+  band: emerging
+  composite: 25.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 64.3
@@ -219,32 +221,29 @@ score:
     catalog_gap: 50.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 26.7
     developer_ergonomics: 31.0
     discoverability: 69.6
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 34.1
+    operational_transparency: 28.9
+  previous_composite: 25.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/notary/refs/heads/main/screenshots/notary-2026-06-20T190421.png
+screenshot: https://apis.io/screenshots/notary/notary-2026-06-20T190421.png
 security:
 - kind: domain-security
   name: Notary Domain Security

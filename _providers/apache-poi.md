@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 16.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -63,11 +65,8 @@ apis:
   description: The Word API from Apache POI — 2 operation(s) for word.
   name: Apache POI Word API
   slug: apache-poi-word-api
-artifact_total: 81
+artifact_total: 80
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apache POI Conversion API
   slug: open-apache-poi-conversion-api
@@ -82,17 +81,17 @@ collections:
   slug: open-apache-poi-word-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/plans/apache-poi-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-poi/plans/apache-poi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-poi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/rate-limits/apache-poi-rate-limits.yml
+  href: https://artifacts.apis.io/apache-poi/rate-limits/apache-poi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-poi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/finops/apache-poi-finops.yml
+  href: https://artifacts.apis.io/apache-poi/finops/apache-poi-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-poi-finops.yml
@@ -101,17 +100,17 @@ common:
   type: Website
   url: https://apache.org
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/agentic-access/apache-poi-agentic-access.yml
+  href: https://artifacts.apis.io/apache-poi/agentic-access/apache-poi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-poi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/security/apache-poi-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-poi/security/apache-poi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-poi-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/security/apache-poi-domain-security.yml
+  href: https://artifacts.apis.io/apache-poi/security/apache-poi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-poi-domain-security.yml
@@ -124,17 +123,17 @@ common:
   type: Documentation
   url: https://poi.apache.org/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/rules/apache-poi-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-poi/rules/apache-poi-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-poi-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/vocabulary/apache-poi-vocabulary.yaml
+  href: https://artifacts.apis.io/apache-poi/vocabulary/apache-poi-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-poi-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/json-ld/apache-poi-context.jsonld
+  href: https://artifacts.apis.io/apache-poi/json-ld/apache-poi-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/apache-poi-context.jsonld
@@ -208,7 +207,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Poi Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-poi-finops
   template: true
@@ -341,7 +340,7 @@ plans:
 - name: Apache Poi Plans Pricing
   plan_count: 3
   slug: apache-poi-plans-pricing
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Apache Poi Rate Limits
@@ -371,24 +370,24 @@ rules:
     warn: 5
   slug: apache-poi-spectral-rules
 score:
-  band: emerging
-  composite: 25.5
+  band: thin
+  composite: 27.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 48.4
     developer_ergonomics: 9.5
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 27.0
+    operational_transparency: 23.7
+  previous_composite: 27.9
   provenance:
     agentic_access: derived
     contracts:
@@ -402,13 +401,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/screenshots/apache-poi-2026-06-20T172135.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-poi/apache-poi-2026-06-20T172135.png
 security:
 - kind: domain-security
   name: Apache Poi Domain Security

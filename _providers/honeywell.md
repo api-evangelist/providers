@@ -10,49 +10,119 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.6
-  scored_at: '2026-10-17'
+  score: 15.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Honeywell Forge is the connected enterprise platform that provides developer integration capabilities for building automation, industrial IoT, aerospace data, and connected building management. Access
   name: Honeywell Forge
   slug: honeywell-forge
-artifact_total: 6
+artifact_total: 8
 common:
+- group: design
+  href: https://artifacts.apis.io/honeywell/json-ld/honeywell-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/honeywell-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/honeywell/vocabulary/honeywell-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/honeywell-vocabulary.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.honeywell.com/us/en/company/trust
+- group: auth
+  href: https://artifacts.apis.io/honeywell/security/honeywell-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/honeywell-trust-center.yml
+- group: auth
+  href: https://artifacts.apis.io/honeywell/security/honeywell-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/honeywell-vulnerability-disclosure.yml
+- group: agent
+  href: https://artifacts.apis.io/honeywell/well-known/honeywell-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/honeywell-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/honeywell/hosts/honeywell-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/honeywell-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/honeywell/integrations/honeywell-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/honeywell-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/honeywell/vendors/honeywell-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/honeywell-vendors.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://www.honeywell.com/us/en/company/trust
+- group: start
+  title: ''
+  type: SignUp
+  url: https://buildings.honeywell.com/us/en/home/my-hbt/register
+- group: auth
+  title: ''
+  type: Security
+  url: https://buildings.honeywell.com/us/en/solutions/security
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.honeywell.com/us/en/news
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.honeywell.com/us/en/company/leadership
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.honeywell.com/us/en/news/press-releases/2024/07/industrial-ai-uptake-is-just-getting-started-but-majority-of-sector-is-uncovering-new-use-cases-finds-honeywell-research
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/honeywell/refs/heads/main/plans/honeywell-plans-pricing.yml
+  href: https://artifacts.apis.io/honeywell/plans/honeywell-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/honeywell-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/honeywell/refs/heads/main/rate-limits/honeywell-rate-limits.yml
+  href: https://artifacts.apis.io/honeywell/rate-limits/honeywell-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/honeywell-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/honeywell/refs/heads/main/finops/honeywell-finops.yml
+  href: https://artifacts.apis.io/honeywell/finops/honeywell-finops.yml
   title: ''
   type: FinOps
   url: finops/honeywell-finops.yml
@@ -61,7 +131,7 @@ common:
   type: Blog
   url: https://www.honeywell.com/us/en/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/honeywell/refs/heads/main/security/honeywell-domain-security.yml
+  href: https://artifacts.apis.io/honeywell/security/honeywell-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/honeywell-domain-security.yml
@@ -77,17 +147,36 @@ common:
   title: ''
   type: Website
   url: https://www.honeywell.com
-- group: start
+- group: commercial
   title: ''
-  type: DeveloperPortal
-  url: https://developer.honeywell.com/
+  type: TermsOfService
+  url: https://www.honeywell.com/us/en/legal/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.honeywell.com/us/en/legal/privacy-statement
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.honeywell.com/us/en/support
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.honeywell.com/us/en/insights/research/guides
+coverage:
+  detail: the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - status: 200
+    url: https://www.honeywell.com
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-03-21'
 description: Honeywell is a Fortune 100 technology company that delivers industry-specific solutions including aerospace products and services, control technologies, performance materials, and safety and productivity solutions. Honeywell Forge is the company's connected platform for building automation, industrial IoT, and aerospace data integration.
 finops:
 - has_sources: true
   method: generated
   name: Honeywell Finops
-  primary_unit: ''
+  primary_unit: asset
   service_category: Industrial IoT / Building Automation / Aerospace
   slug: honeywell-finops
   template: false
@@ -108,7 +197,7 @@ overview: 'Honeywell is listed with 1 API on the [APIs.io](https://apis.io/) net
   The Honeywell catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Honeywell''s developer surface includes engineering blog and 8 more developer resources.'
+  Honeywell''s developer surface includes signup flow, getting-started guide, engineering blog, support, documentation, and 22 more developer resources.'
 plans:
 - name: Honeywell Plans Pricing
   plan_count: 1
@@ -129,49 +218,57 @@ press:
 - date: ''
   title: 'Industrial AI Insights: Key Findings from Honeywell'
   url: https://www.honeywell.com/us/en/ai/research
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Honeywell Rate Limits
   slug: honeywell-rate-limits
 score:
-  band: emerging
-  composite: 15.1
+  band: thin
+  composite: 34.3
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 47.0
+    artifact_dirs: 16
+    catalog_earned: 51.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.0
+    catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 1.5
   facets:
-    access_clarity: 5.3
-    contract_governance: 0.0
+    access_clarity: 63.2
+    contract_governance: 3.8
     contract_quality: 14.7
-    developer_ergonomics: 21.4
-    discoverability: 57.1
-    operational_transparency: 7.9
-  previous_composite: 16.1
+    developer_ergonomics: 28.6
+    discoverability: 60.7
+    operational_transparency: 21.1
+  previous_composite: 32.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/honeywell/refs/heads/main/screenshots/honeywell-2026-06-20T182823.png
+screenshot: https://apis.io/screenshots/honeywell/honeywell-2026-06-20T182823.png
 security:
 - kind: domain-security
   name: Honeywell Domain Security
   slug: honeywell-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Honeywell Vulnerability Disclosure
+  slug: honeywell-vulnerability-disclosure
+  summary_line: contact published
+- kind: trust-center
+  name: Honeywell Trust Center
+  slug: honeywell-trust-center
+  summary_line: ISO/IEC 27001, ISO/IEC 27001 (Connected Logistics), ISA/IEC 62443 SDLA (secure development lifecycle), ISO/IEC 20000-1 (Managed Security Services, Houston TX), CSA STAR registry entry (Honeywell Forge)
 slug: honeywell
 tags:
 - Aerospace
@@ -180,5 +277,6 @@ tags:
 - Manufacturing
 - Fortune 100
 - Industrial
+- Cybersecurity
 website: https://www.honeywell.com
 ---

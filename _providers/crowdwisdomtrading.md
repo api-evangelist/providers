@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-10-17'
+  score: 26.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -61,80 +63,80 @@ apis:
   description: The Socialmap Preview API from CrowdWisdom Signals API — 1 operation(s) for socialmap preview.
   name: CrowdWisdom Signals API Socialmap Preview API
   slug: crowdwisdomtrading-socialmap-preview-api
-artifact_total: 13
+artifact_total: 14
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crowdwisdomtrading/refs/heads/main/agentic-access/crowdwisdomtrading-agentic-access.yml
+  href: https://artifacts.apis.io/crowdwisdomtrading/agentic-access/crowdwisdomtrading-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/crowdwisdomtrading-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/crowdwisdomtrading/refs/heads/main/plans/crowdwisdomtrading-plans-pricing.yml
+  href: https://artifacts.apis.io/crowdwisdomtrading/plans/crowdwisdomtrading-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/crowdwisdomtrading-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crowdwisdomtrading/refs/heads/main/rules/crowdwisdomtrading-rules.yml
+  href: https://artifacts.apis.io/crowdwisdomtrading/rules/crowdwisdomtrading-rules.yml
   title: ''
   type: Spectral
   url: rules/crowdwisdomtrading-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crowdwisdomtrading/refs/heads/main/json-ld/crowdwisdomtrading-context.jsonld
+  href: https://artifacts.apis.io/crowdwisdomtrading/json-ld/crowdwisdomtrading-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/crowdwisdomtrading-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crowdwisdomtrading/refs/heads/main/vocabulary/crowdwisdomtrading-vocabulary.yml
+  href: https://artifacts.apis.io/crowdwisdomtrading/vocabulary/crowdwisdomtrading-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/crowdwisdomtrading-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crowdwisdomtrading/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/crowdwisdomtrading/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crowdwisdomtrading/refs/heads/main/data-model/crowdwisdomtrading-data-model.yml
+  href: https://artifacts.apis.io/crowdwisdomtrading/data-model/crowdwisdomtrading-data-model.yml
   title: ''
   type: DataModel
   url: data-model/crowdwisdomtrading-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crowdwisdomtrading/refs/heads/main/errors/crowdwisdomtrading-problem-types.yml
+  href: https://artifacts.apis.io/crowdwisdomtrading/errors/crowdwisdomtrading-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/crowdwisdomtrading-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crowdwisdomtrading/refs/heads/main/conformance/crowdwisdomtrading-conformance.yml
+  href: https://artifacts.apis.io/crowdwisdomtrading/conformance/crowdwisdomtrading-conformance.yml
   title: ''
   type: Conformance
   url: conformance/crowdwisdomtrading-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crowdwisdomtrading/refs/heads/main/llms/crowdwisdomtrading-llms.txt
+  href: https://artifacts.apis.io/crowdwisdomtrading/llms/crowdwisdomtrading-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crowdwisdomtrading-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crowdwisdomtrading/refs/heads/main/a2a/crowdwisdomtrading-a2a.yml
+  href: https://artifacts.apis.io/crowdwisdomtrading/a2a/crowdwisdomtrading-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/crowdwisdomtrading-a2a.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crowdwisdomtrading/refs/heads/main/hosts/crowdwisdomtrading-hosts.yml
+  href: https://artifacts.apis.io/crowdwisdomtrading/hosts/crowdwisdomtrading-hosts.yml
   title: ''
   type: Hosts
   url: hosts/crowdwisdomtrading-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crowdwisdomtrading/refs/heads/main/vendors/crowdwisdomtrading-vendors.yml
+  href: https://artifacts.apis.io/crowdwisdomtrading/vendors/crowdwisdomtrading-vendors.yml
   title: ''
   type: Vendors
   url: vendors/crowdwisdomtrading-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crowdwisdomtrading/refs/heads/main/authentication/crowdwisdomtrading-authentication.yml
+  href: https://artifacts.apis.io/crowdwisdomtrading/authentication/crowdwisdomtrading-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crowdwisdomtrading-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crowdwisdomtrading/refs/heads/main/security/crowdwisdomtrading-domain-security.yml
+  href: https://artifacts.apis.io/crowdwisdomtrading/security/crowdwisdomtrading-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crowdwisdomtrading-domain-security.yml
@@ -205,7 +207,7 @@ plans:
 - name: Crowdwisdomtrading Plans
   plan_count: 0
   slug: crowdwisdomtrading-plans
-random_paper: 11
+random_paper: 3
 rules:
 - authorship: generated
   effective_rule_count: 51
@@ -229,15 +231,15 @@ score:
     catalog_gap: 72.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 22.0
     contract_quality: 42.1
     developer_ergonomics: 49.4
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 44.7
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,12 +256,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Crowdwisdomtrading Authentication
@@ -269,6 +272,10 @@ security:
   name: Crowdwisdomtrading Domain Security
   slug: crowdwisdomtrading-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: crowdwisdomtrading-fetch-top-signals
+  slug: crowdwisdomtrading-fetch-top-signals
 slug: crowdwisdomtrading
 tags:
 - Finance

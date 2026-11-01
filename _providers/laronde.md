@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/laronde/refs/heads/main/security/laronde-domain-security.yml
+  href: https://artifacts.apis.io/laronde/security/laronde-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/laronde-domain-security.yml
@@ -96,22 +98,22 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/laronde_stock/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/laronde/refs/heads/main/llms/laronde-llms.txt
+  href: https://artifacts.apis.io/laronde/llms/laronde-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/laronde-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/laronde/refs/heads/main/packages/laronde-packages.yml
+  href: https://artifacts.apis.io/laronde/packages/laronde-packages.yml
   title: ''
   type: Packages
   url: packages/laronde-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/laronde/refs/heads/main/plans/laronde-plans-pricing.yml
+  href: https://artifacts.apis.io/laronde/plans/laronde-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/laronde-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/laronde/refs/heads/main/rate-limits/laronde-rate-limits.yml
+  href: https://artifacts.apis.io/laronde/rate-limits/laronde-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/laronde-rate-limits.yml
@@ -154,7 +156,7 @@ plans:
 - name: Laronde Plans Pricing
   plan_count: 0
   slug: laronde-plans-pricing
-random_paper: 15
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Laronde Rate Limits
@@ -184,14 +186,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/laronde/refs/heads/main/screenshots/laronde-2026-09-02T150209.png
+screenshot: https://apis.io/screenshots/laronde/laronde-2026-09-02T150209.png
 security:
 - kind: domain-security
   name: Laronde Domain Security

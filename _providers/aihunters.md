@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 0
 common:
@@ -40,7 +42,7 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/aihunters
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aihunters/refs/heads/main/lifecycle/aihunters-lifecycle.yml
+  href: https://artifacts.apis.io/aihunters/lifecycle/aihunters-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aihunters-lifecycle.yml
@@ -70,10 +72,10 @@ name: AIHunters
 nav: Providers
 network: true
 overview: AIHunters is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Computer Vision, Video, Media, and Entertainment.
-random_paper: 11
+random_paper: 19
 score:
   band: minimal
-  composite: 2.5
+  composite: 2.9
   coverage:
     artifact_dirs: 5
     catalog_earned: 25.0
@@ -88,22 +90,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 44.6
-    operational_transparency: 2.6
-  previous_composite: 2.5
+    operational_transparency: 5.3
+  previous_composite: 2.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aihunters/refs/heads/main/screenshots/aihunters-2026-10-11T093304.png
+screenshot: https://apis.io/screenshots/aihunters/aihunters-2026-10-11T093304.png
 slug: aihunters
 tags:
 - Artificial Intelligence

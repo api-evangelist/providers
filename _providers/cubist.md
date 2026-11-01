@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.1
-  scored_at: '2026-10-17'
+  score: 30.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 122
   human_in_the_loop: 13
@@ -193,11 +195,8 @@ apis:
   description: The OAuth2 API from Cubist — 7 operation(s) for oauth2.
   name: Cubist O Auth2 API
   slug: cubist-oauth2-api
-artifact_total: 66
+artifact_total: 67
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CubeSigner Account API
   slug: open-cubist-account-api
@@ -290,12 +289,12 @@ collections:
   slug: open-cubist-users-in-role-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/capabilities/cubist-capability-edges.yml
+  href: https://artifacts.apis.io/cubist/capabilities/cubist-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cubist-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/overlays/cubist-cubesigner-overlay.yaml
+  href: https://artifacts.apis.io/cubist/overlays/cubist-cubesigner-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cubist-cubesigner-overlay.yaml
@@ -340,97 +339,97 @@ common:
   type: TrustCenter
   url: https://cubist.dev/information-security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/authentication/cubist-authentication.yml
+  href: https://artifacts.apis.io/cubist/authentication/cubist-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cubist-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/scopes/cubist-scopes.yml
+  href: https://artifacts.apis.io/cubist/scopes/cubist-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cubist-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/conventions/cubist-conventions.yml
+  href: https://artifacts.apis.io/cubist/conventions/cubist-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cubist-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/errors/cubist-error-codes.yml
+  href: https://artifacts.apis.io/cubist/errors/cubist-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/cubist-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/data-model/cubist-data-model.yml
+  href: https://artifacts.apis.io/cubist/data-model/cubist-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cubist-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/lifecycle/cubist-lifecycle.yml
+  href: https://artifacts.apis.io/cubist/lifecycle/cubist-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cubist-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/conformance/cubist-conformance.yml
+  href: https://artifacts.apis.io/cubist/conformance/cubist-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cubist-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/sandbox/cubist-sandbox.yml
+  href: https://artifacts.apis.io/cubist/sandbox/cubist-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cubist-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/cli/cubist-cli.yml
+  href: https://artifacts.apis.io/cubist/cli/cubist-cli.yml
   title: ''
   type: CLI
   url: cli/cubist-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/components/cubist-components.yml
+  href: https://artifacts.apis.io/cubist/components/cubist-components.yml
   title: ''
   type: Components
   url: components/cubist-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/packages/cubist-packages.yml
+  href: https://artifacts.apis.io/cubist/packages/cubist-packages.yml
   title: ''
   type: Packages
   url: packages/cubist-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/packages/cubist-packages.yml
+  href: https://artifacts.apis.io/cubist/packages/cubist-packages.yml
   title: ''
   type: SDKs
   url: packages/cubist-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/mcp/cubist-mcp.yml
+  href: https://artifacts.apis.io/cubist/mcp/cubist-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cubist-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/skills/cubist-create-key-and-sign-evm.md
+  href: https://artifacts.apis.io/cubist/skills/cubist-create-key-and-sign-evm.md
   title: ''
   type: AgentSkill
   url: skills/cubist-create-key-and-sign-evm.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/skills/cubist-scoped-role-with-policy.md
+  href: https://artifacts.apis.io/cubist/skills/cubist-scoped-role-with-policy.md
   title: ''
   type: AgentSkill
   url: skills/cubist-scoped-role-with-policy.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/llms/cubist-llms.txt
+  href: https://artifacts.apis.io/cubist/llms/cubist-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cubist-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/agentic-access/cubist-agentic-access.yml
+  href: https://artifacts.apis.io/cubist/agentic-access/cubist-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cubist-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/security/cubist-domain-security.yml
+  href: https://artifacts.apis.io/cubist/security/cubist-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cubist-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/security/cubist-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cubist/security/cubist-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cubist-vulnerability-disclosure.yml
@@ -446,7 +445,7 @@ overview: 'Cubist publishes 30 API contracts indexed on the [APIs.io](https://ap
 
 
   Cubist''s developer surface includes documentation, engineering blog, support, authentication, sandbox, CLI, and 25 more developer resources.'
-random_paper: 12
+random_paper: 2
 scopes:
 - name: Cubist Scopes
   scope_count: 135
@@ -454,23 +453,23 @@ scopes:
   summary_line: 135 scopes
 score:
   band: developing
-  composite: 43.3
+  composite: 43.6
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 47.3
     developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 43.2
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -487,13 +486,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 41.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/screenshots/cubist-2026-07-25T210859.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cubist/cubist-2026-07-25T210859.png
 security:
 - kind: authentication
   name: Cubist Authentication
@@ -507,6 +507,12 @@ security:
   name: Cubist Vulnerability Disclosure
   slug: cubist-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 2
+skills:
+- name: Create a key and sign an EVM transaction
+  slug: cubist-create-key-and-sign-evm
+- name: Set up a scoped role with a policy and session
+  slug: cubist-scoped-role-with-policy
 slug: cubist
 tags:
 - Company

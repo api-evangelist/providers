@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/banco-de-mexico/refs/heads/main/hosts/banco-de-mexico-hosts.yml
+  href: https://artifacts.apis.io/banco-de-mexico/hosts/banco-de-mexico-hosts.yml
   title: ''
   type: Hosts
   url: hosts/banco-de-mexico-hosts.yml
@@ -37,7 +39,7 @@ common:
   type: Blog
   url: https://blog.banxico.org.mx/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/banco-de-mexico/refs/heads/main/security/banco-de-mexico-domain-security.yml
+  href: https://artifacts.apis.io/banco-de-mexico/security/banco-de-mexico-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/banco-de-mexico-domain-security.yml
@@ -64,7 +66,7 @@ overview: 'Banco de Mexico is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Banco de Mexico''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 21
+random_paper: 11
 score:
   band: minimal
   composite: 2.8
@@ -75,6 +77,7 @@ score:
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -82,6 +85,15 @@ score:
     developer_ergonomics: 2.4
     discoverability: 44.6
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - mexico
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+    - north-america
+  previous_composite: 2.8
   provenance:
     mcp: derived
   regulatory:
@@ -90,8 +102,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -30,16 +30,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.2
-  scored_at: '2026-10-17'
+  score: 47.0
+  scored_at: '2026-10-31'
 api_count: 9
 apis:
 - description: The core REST service behind the AdRoll and AdRoll ABM dashboards. Create and manage organizations, advertisables, campaigns, ad groups, ads, pixels, rules, segments, product feeds, marketplace deals,
@@ -69,14 +71,14 @@ apis:
 - description: NextRoll's Model Context Protocol server (open beta, launched May 2026), exposing supported AdRoll and AdRoll ABM data and tools to MCP-compatible AI clients such as Claude, ChatGPT, Cursor, n8n and M
   name: AdRoll MCP Server
   slug: adroll-mcp-server
-artifact_total: 19
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Nextroll S2S Events
   slug: nextroll-s2s-events
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/security/nextroll-trust-center.yml
+  href: https://artifacts.apis.io/nextroll/security/nextroll-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nextroll-trust-center.yml
@@ -157,112 +159,112 @@ common:
   type: FAQ
   url: https://apidocs.nextroll.com/faq.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/authentication/nextroll-authentication.yml
+  href: https://artifacts.apis.io/nextroll/authentication/nextroll-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nextroll-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/scopes/nextroll-scopes.yml
+  href: https://artifacts.apis.io/nextroll/scopes/nextroll-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nextroll-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/conventions/nextroll-conventions.yml
+  href: https://artifacts.apis.io/nextroll/conventions/nextroll-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nextroll-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/errors/nextroll-error-codes.yml
+  href: https://artifacts.apis.io/nextroll/errors/nextroll-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/nextroll-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/lifecycle/nextroll-lifecycle.yml
+  href: https://artifacts.apis.io/nextroll/lifecycle/nextroll-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nextroll-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/lifecycle/nextroll-lifecycle.yml
+  href: https://artifacts.apis.io/nextroll/lifecycle/nextroll-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/nextroll-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/conformance/nextroll-conformance.yml
+  href: https://artifacts.apis.io/nextroll/conformance/nextroll-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nextroll-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/security/nextroll-domain-security.yml
+  href: https://artifacts.apis.io/nextroll/security/nextroll-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nextroll-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/security/nextroll-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nextroll/security/nextroll-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nextroll-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/well-known/nextroll-well-known.yml
+  href: https://artifacts.apis.io/nextroll/well-known/nextroll-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nextroll-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/packages/nextroll-packages.yml
+  href: https://artifacts.apis.io/nextroll/packages/nextroll-packages.yml
   title: ''
   type: Packages
   url: packages/nextroll-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/llms/nextroll-llms.txt
+  href: https://artifacts.apis.io/nextroll/llms/nextroll-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nextroll-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/rate-limits/nextroll-rate-limits.yml
+  href: https://artifacts.apis.io/nextroll/rate-limits/nextroll-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nextroll-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/plans/nextroll-plans.yml
+  href: https://artifacts.apis.io/nextroll/plans/nextroll-plans.yml
   title: ''
   type: Plans
   url: plans/nextroll-plans.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/data-model/nextroll-data-model.yml
+  href: https://artifacts.apis.io/nextroll/data-model/nextroll-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nextroll-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/components/nextroll-components.yml
+  href: https://artifacts.apis.io/nextroll/components/nextroll-components.yml
   title: ''
   type: Components
   url: components/nextroll-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/sandbox/nextroll-sandbox.yml
+  href: https://artifacts.apis.io/nextroll/sandbox/nextroll-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nextroll-sandbox.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/asyncapi/nextroll-s2s-events.yml
+  href: https://artifacts.apis.io/nextroll/asyncapi/nextroll-s2s-events.yml
   title: ''
   type: EventCatalog
   url: asyncapi/nextroll-s2s-events.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nextroll/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/mcp/nextroll-mcp.yml
+  href: https://artifacts.apis.io/nextroll/mcp/nextroll-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nextroll-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/mcp/nextroll-tool-crosswalk.yml
+  href: https://artifacts.apis.io/nextroll/mcp/nextroll-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/nextroll-tool-crosswalk.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/graphql/nextroll-graphql-reporting-schema.md
+  href: https://artifacts.apis.io/nextroll/graphql/nextroll-graphql-reporting-schema.md
   title: ''
   type: GraphQL
   url: graphql/nextroll-graphql-reporting-schema.md
@@ -273,6 +275,14 @@ common:
 created: '2026-08-01'
 description: 'NextRoll, Inc. is a San Francisco-based marketing technology company that operates two brands on a shared machine-learning and identity platform: AdRoll, a cross-channel digital advertising and retargeting platform for ecommerce and D2C marketers, and AdRoll ABM (formerly RollWorks), an account-based marketing platform for B2B demand generation and sales teams. The NextRoll API is the single developer surface behind both brands, served from https://services.adroll.com and split into focused services: a REST CRUD API for organizations, advertisables, campaigns, ad groups, ads, pixels, segments and product feeds; a GraphQL Reporting API that replaces the legacy per-object report endpoints; an Audience API for CRM, custom, composite, lookalike and target-account segments; Prospecting, Geotargeting and User Lists APIs; an ABM Activate/Playbooks API; and a Server-to-Server event API for conversion and engagement events. Developers register applications at developers.nextroll.com
   and authenticate with OAuth 2.0 or a Personal Access Token plus an application API key. In May 2026 NextRoll launched the AdRoll MCP Server, an OAuth 2.1 protected Model Context Protocol endpoint that exposes AdRoll reporting, draft-first campaign creation and ABM account intelligence to AI assistants and agents.'
+finops:
+- has_sources: true
+  method: derived
+  name: Nextroll Finops
+  primary_unit: ''
+  service_category: ''
+  slug: nextroll-finops
+  template: true
 graphqls:
 - description: <a id="graphql-reporting-api-schema"></a>
   name: GraphQL Reporting API Schema
@@ -296,9 +306,9 @@ overview: 'NextRoll is listed with 9 APIs on the [APIs.io](https://apis.io/) net
   NextRoll''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
 plans:
 - name: Nextroll Plans
-  plan_count: 2
+  plan_count: 7
   slug: nextroll-plans
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Nextroll Rate Limits
@@ -310,22 +320,22 @@ scopes:
   summary_line: 2 scopes · authorizationCode/implicit/password
 score:
   band: strong
-  composite: 59.7
+  composite: 64.5
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 56.0
-    catalog_earned_first_party: 16.0
-    catalog_gap: 59.0
+    artifact_dirs: 24
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 81.6
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 45.3
-    developer_ergonomics: 49.4
-    discoverability: 80.0
-    operational_transparency: 57.9
+    developer_ergonomics: 66.1
+    discoverability: 70.0
+    operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -333,7 +343,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 59.7
+  previous_composite: 62.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -344,14 +354,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/screenshots/nextroll-2026-08-07T185216.png
+screenshot: https://apis.io/screenshots/nextroll/nextroll-2026-08-07T185216.png
 security:
 - kind: authentication
   name: Nextroll Authentication
@@ -369,6 +379,18 @@ security:
   name: Nextroll Trust Center
   slug: nextroll-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
+skill_count: 5
+skills:
+- name: Authenticate to the NextRoll API and resolve your Advertisable EID
+  slug: nextroll-authenticate-and-first-call
+- name: Create and populate a CRM audience segment
+  slug: nextroll-create-crm-audience
+- name: Manage an AdRoll ABM Target Account List
+  slug: nextroll-manage-target-account-list
+- name: Report campaign performance with the GraphQL Reporting API
+  slug: nextroll-report-campaign-performance
+- name: Send conversions with the Server-to-Server Event API
+  slug: nextroll-send-server-to-server-events
 slug: nextroll
 tags:
 - Company

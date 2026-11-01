@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chegg/refs/heads/main/security/chegg-domain-security.yml
+  href: https://artifacts.apis.io/chegg/security/chegg-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chegg-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chegg/refs/heads/main/security/chegg-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/chegg/security/chegg-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/chegg-vulnerability-disclosure.yml
@@ -82,7 +84,7 @@ overview: 'Chegg is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Chegg''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 4
+random_paper: 6
 score:
   band: emerging
   composite: 12.0
@@ -115,14 +117,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/chegg/refs/heads/main/screenshots/chegg-2026-10-11T184228.png
+screenshot: https://apis.io/screenshots/chegg/chegg-2026-10-11T184228.png
 security:
 - kind: domain-security
   name: Chegg Domain Security

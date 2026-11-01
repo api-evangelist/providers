@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -69,12 +71,12 @@ common:
   type: Compliance
   url: https://trust.donut.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/donut/refs/heads/main/security/donut-trust-center.yml
+  href: https://artifacts.apis.io/donut/security/donut-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/donut-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/donut/refs/heads/main/security/donut-domain-security.yml
+  href: https://artifacts.apis.io/donut/security/donut-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/donut-domain-security.yml
@@ -90,10 +92,10 @@ overview: 'Donut is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Donut''s developer surface includes support, engineering blog, pricing, and 7 more developer resources.'
-random_paper: 4
+random_paper: 2
 score:
   band: emerging
-  composite: 16.0
+  composite: 16.4
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -108,22 +110,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 16.0
+    operational_transparency: 5.3
+  previous_composite: 16.4
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/donut/refs/heads/main/screenshots/donut-2026-07-25T212257.png
+screenshot: https://apis.io/screenshots/donut/donut-2026-07-25T212257.png
 security:
 - kind: domain-security
   name: Donut Domain Security

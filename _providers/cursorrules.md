@@ -48,8 +48,8 @@ name: .cursorrules
 nav: Providers
 network: true
 overview: .cursorrules is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, AI Copilot, Coding Standards, Configuration, and Cursor.
-random_paper: 15
-screenshot: https://raw.githubusercontent.com/api-evangelist/cursorrules/refs/heads/main/screenshots/cursorrules-2026-06-20T175345.png
+random_paper: 1
+screenshot: https://apis.io/screenshots/cursorrules/cursorrules-2026-06-20T175345.png
 slug: cursorrules
 tags:
 - AI Agents

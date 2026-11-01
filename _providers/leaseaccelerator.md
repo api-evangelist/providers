@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-10-17'
+  score: 26.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://www.leaseaccelerator.com/lease_accelerator/api/LeaseAccelerator
@@ -81,11 +83,8 @@ apis:
   description: The User Provisioning API from LeaseAccelerator — 3 operation(s) for user provisioning.
   name: LeaseAccelerator User Provisioning API
   slug: leaseaccelerator-user-provisioning-api
-artifact_total: 23
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LeaseAccelerator Documents API
   slug: open-leaseaccelerator-documents-api
@@ -115,22 +114,22 @@ collections:
   slug: open-leaseaccelerator-user-provisioning-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/plans/leaseaccelerator-plans-pricing.yml
+  href: https://artifacts.apis.io/leaseaccelerator/plans/leaseaccelerator-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/leaseaccelerator-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/capabilities/leaseaccelerator-capability-edges.yml
+  href: https://artifacts.apis.io/leaseaccelerator/capabilities/leaseaccelerator-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/leaseaccelerator-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/overlays/leaseaccelerator-api-overlay.yaml
+  href: https://artifacts.apis.io/leaseaccelerator/overlays/leaseaccelerator-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/leaseaccelerator-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/security/leaseaccelerator-domain-security.yml
+  href: https://artifacts.apis.io/leaseaccelerator/security/leaseaccelerator-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leaseaccelerator-domain-security.yml
@@ -195,82 +194,90 @@ common:
   type: TrustCenter
   url: https://trust.insightsoftware.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/security/leaseaccelerator-trust-center.yml
+  href: https://artifacts.apis.io/leaseaccelerator/security/leaseaccelerator-trust-center.yml
   title: ''
   type: Compliance
   url: security/leaseaccelerator-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/authentication/leaseaccelerator-authentication.yml
+  href: https://artifacts.apis.io/leaseaccelerator/authentication/leaseaccelerator-authentication.yml
   title: ''
   type: Authentication
   url: authentication/leaseaccelerator-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/conventions/leaseaccelerator-conventions.yml
+  href: https://artifacts.apis.io/leaseaccelerator/conventions/leaseaccelerator-conventions.yml
   title: ''
   type: Conventions
   url: conventions/leaseaccelerator-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/conventions/leaseaccelerator-conventions.yml
+  href: https://artifacts.apis.io/leaseaccelerator/conventions/leaseaccelerator-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/leaseaccelerator-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/errors/leaseaccelerator-problem-types.yml
+  href: https://artifacts.apis.io/leaseaccelerator/errors/leaseaccelerator-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/leaseaccelerator-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/lifecycle/leaseaccelerator-lifecycle.yml
+  href: https://artifacts.apis.io/leaseaccelerator/lifecycle/leaseaccelerator-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/leaseaccelerator-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/lifecycle/leaseaccelerator-lifecycle.yml
+  href: https://artifacts.apis.io/leaseaccelerator/lifecycle/leaseaccelerator-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/leaseaccelerator-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/changelog/leaseaccelerator-changelog.yml
+  href: https://artifacts.apis.io/leaseaccelerator/changelog/leaseaccelerator-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/leaseaccelerator-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/conformance/leaseaccelerator-conformance.yml
+  href: https://artifacts.apis.io/leaseaccelerator/conformance/leaseaccelerator-conformance.yml
   title: ''
   type: Conformance
   url: conformance/leaseaccelerator-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/data-model/leaseaccelerator-data-model.yml
+  href: https://artifacts.apis.io/leaseaccelerator/data-model/leaseaccelerator-data-model.yml
   title: ''
   type: DataModel
   url: data-model/leaseaccelerator-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/packages/leaseaccelerator-packages.yml
+  href: https://artifacts.apis.io/leaseaccelerator/packages/leaseaccelerator-packages.yml
   title: ''
   type: Packages
   url: packages/leaseaccelerator-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/well-known/leaseaccelerator-well-known.yml
+  href: https://artifacts.apis.io/leaseaccelerator/well-known/leaseaccelerator-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/leaseaccelerator-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/mcp/leaseaccelerator-mcp.yml
+  href: https://artifacts.apis.io/leaseaccelerator/mcp/leaseaccelerator-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/leaseaccelerator-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/llms/leaseaccelerator-llms.txt
+  href: https://artifacts.apis.io/leaseaccelerator/llms/leaseaccelerator-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leaseaccelerator-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/leaseaccelerator/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: LeaseAccelerator is an enterprise lease lifecycle automation platform for equipment and real estate leases, now part of insightsoftware. It combines lease accounting, lease administration, and asset lifecycle intelligence in a single purpose-built platform, automating compliance with ASC 842, IFRS 16, and GASB 87 through a full lease sub-ledger that protects the general ledger, automated classification and booking, roll-forward analytics with drill-down transparency, and deep ERP integrations. The platform exposes a SAML2-secured API that combines REST-addressed operations with XML Remote Procedure Call payloads, covering portfolio and deal import, asset and event recording, master and reference data synchronization, disbursements and FX rates, report generation and retrieval, search across deals, assets and contacts, and Single Sign-On user provisioning.
+finops:
+- has_sources: true
+  method: derived
+  name: Leaseaccelerator Finops
+  primary_unit: ''
+  service_category: ''
+  slug: leaseaccelerator-finops
+  template: true
 image: https://insightsoftware.com/wp-content/uploads/2025/12/img_LeaseAccelerator_feat.png
 layout: provider
 modified: '2026-07-19'
@@ -285,26 +292,26 @@ plans:
 - name: Leaseaccelerator Plans Pricing
   plan_count: 0
   slug: leaseaccelerator-plans-pricing
-random_paper: 7
+random_paper: 23
 score:
   band: developing
-  composite: 50.1
+  composite: 52.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 52.6
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 49.7
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 50.0
+  previous_composite: 52.4
   provenance:
     conformance: first-party
     contracts:
@@ -325,14 +332,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/screenshots/leaseaccelerator-2026-07-25T224805.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/leaseaccelerator/leaseaccelerator-2026-07-25T224805.png
 security:
 - kind: authentication
   name: Leaseaccelerator Authentication
@@ -346,6 +354,16 @@ security:
   name: Leaseaccelerator Trust Center
   slug: leaseaccelerator-trust-center
   summary_line: SOC 2 Type 2, SOC 1 Type 2, ISO 27001, ISO 9001
+skill_count: 4
+skills:
+- name: leaseaccelerator-generate-and-retrieve-reports
+  slug: leaseaccelerator-generate-and-retrieve-reports
+- name: leaseaccelerator-import-lease-portfolio
+  slug: leaseaccelerator-import-lease-portfolio
+- name: leaseaccelerator-record-lease-events
+  slug: leaseaccelerator-record-lease-events
+- name: leaseaccelerator-sync-reference-data
+  slug: leaseaccelerator-sync-reference-data
 slug: leaseaccelerator
 tags:
 - Company

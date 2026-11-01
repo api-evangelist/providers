@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.5
-  scored_at: '2026-10-17'
+  score: 31.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 53
   slug: qminder-agentic-access
   summary_line: 53 operations · 41 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.qminder.com
   baseurl_source: declared
@@ -80,15 +82,12 @@ apis:
   description: Manage webhook subscriptions
   name: Qminder Webhooks API
   slug: qminder-webhooks-api
-artifact_total: 21
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Qminder Events Webhooks
   slug: qminder-events-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Qminder Appointments API
   slug: open-qminder-appointments-api
@@ -111,8 +110,13 @@ collections:
   name: Qminder Appointments Webhooks API
   slug: open-qminder-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/qminder/plans/qminder-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/qminder-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/capabilities/qminder-capability-edges.yml
+  href: https://artifacts.apis.io/qminder/capabilities/qminder-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/qminder-capability-edges.yml
@@ -133,72 +137,72 @@ common:
   type: GettingStarted
   url: https://developer.qminder.com/reference/overview
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/openapi/_original/qminder-openapi-original.json
+  href: https://artifacts.apis.io/qminder/openapi/_original/qminder-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/qminder-openapi-original.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/llms/qminder-llms.txt
+  href: https://artifacts.apis.io/qminder/llms/qminder-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qminder-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/authentication/qminder-authentication.yml
+  href: https://artifacts.apis.io/qminder/authentication/qminder-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qminder-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/packages/qminder-packages.yml
+  href: https://artifacts.apis.io/qminder/packages/qminder-packages.yml
   title: ''
   type: SDKs
   url: packages/qminder-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/packages/qminder-packages.yml
+  href: https://artifacts.apis.io/qminder/packages/qminder-packages.yml
   title: ''
   type: Packages
   url: packages/qminder-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/mcp/qminder-mcp.yml
+  href: https://artifacts.apis.io/qminder/mcp/qminder-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/qminder-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/qminder/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/agentic-access/qminder-agentic-access.yml
+  href: https://artifacts.apis.io/qminder/agentic-access/qminder-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/qminder-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/asyncapi/qminder-events-webhooks.yml
+  href: https://artifacts.apis.io/qminder/asyncapi/qminder-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/qminder-events-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/rate-limits/qminder-rate-limits.yml
+  href: https://artifacts.apis.io/qminder/rate-limits/qminder-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qminder-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/errors/qminder-problem-types.yml
+  href: https://artifacts.apis.io/qminder/errors/qminder-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qminder-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/conventions/qminder-conventions.yml
+  href: https://artifacts.apis.io/qminder/conventions/qminder-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qminder-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/data-model/qminder-data-model.yml
+  href: https://artifacts.apis.io/qminder/data-model/qminder-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qminder-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/conformance/qminder-conformance.yml
+  href: https://artifacts.apis.io/qminder/conformance/qminder-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qminder-conformance.yml
@@ -207,22 +211,22 @@ common:
   type: Compliance
   url: https://www.qminder.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/security/qminder-trust-center.yml
+  href: https://artifacts.apis.io/qminder/security/qminder-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/qminder-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/security/qminder-domain-security.yml
+  href: https://artifacts.apis.io/qminder/security/qminder-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qminder-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/overlays/qminder-openapi-overlay.yaml
+  href: https://artifacts.apis.io/qminder/overlays/qminder-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/qminder-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/lifecycle/qminder-lifecycle.yml
+  href: https://artifacts.apis.io/qminder/lifecycle/qminder-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qminder-lifecycle.yml
@@ -268,6 +272,14 @@ common:
   url: https://www.qminder.com
 created: '2026-07-17'
 description: Qminder is a cloud-based queue management and appointment scheduling platform that helps retail, healthcare, government, and education organizations manage visitor flow, virtual queues, and service points across physical locations. Its developer platform exposes a REST API and a GraphQL API (with real-time subscriptions) at api.qminder.com for creating tickets, calling and serving visitors, scheduling appointments, managing locations, lines, desks, users, and custom input fields, plus webhooks for ticket, line, and location events. An official JavaScript/TypeScript SDK (qminder-api) is published to npm.
+finops:
+- has_sources: true
+  method: derived
+  name: Qminder Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: qminder-finops
+  template: false
 image: https://www.qminder.com/favicon.ico
 layout: provider
 modified: '2026-07-20'
@@ -280,31 +292,35 @@ overview: 'Qminder publishes 7 API contracts indexed on the [APIs.io](https://ap
   The Qminder catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Qminder''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 27 more developer resources.'
-random_paper: 4
+  Qminder''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 28 more developer resources.'
+plans:
+- name: Qminder Plans Pricing
+  plan_count: 7
+  slug: qminder-plans-pricing
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Qminder Rate Limits
   slug: qminder-rate-limits
 score:
-  band: developing
-  composite: 53.8
+  band: strong
+  composite: 64.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 24
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 53.9
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 54.5
-    developer_ergonomics: 61.3
-    discoverability: 73.2
-    operational_transparency: 47.4
-  previous_composite: 53.7
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 50.0
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -327,13 +343,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/qminder/refs/heads/main/screenshots/qminder-2026-08-17T081418.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/qminder/qminder-2026-08-17T081418.png
 security:
 - kind: authentication
   name: Qminder Authentication
@@ -347,6 +364,14 @@ security:
   name: Qminder Trust Center
   slug: qminder-trust-center
   summary_line: SOC 2, HIPAA, GDPR
+skill_count: 3
+skills:
+- name: Check a visitor into a queue and serve them
+  slug: qminder-check-in-and-serve
+- name: Register and manage webhook listeners
+  slug: qminder-manage-webhooks
+- name: Schedule and check in an appointment
+  slug: qminder-schedule-appointment
 slug: qminder
 tags:
 - Company

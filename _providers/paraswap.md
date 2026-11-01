@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-17'
+  score: 27.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -67,11 +69,8 @@ apis:
   description: Build parameters for a transaction
   name: ParaSwap Transactions API
   slug: paraswap-transactions-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ParaSwap Market API v5 prices API
   slug: open-paraswap-prices-api
@@ -83,12 +82,12 @@ collections:
   slug: open-paraswap-transactions-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/agentic-access/paraswap-agentic-access.yml
+  href: https://artifacts.apis.io/paraswap/agentic-access/paraswap-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/paraswap-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/security/paraswap-domain-security.yml
+  href: https://artifacts.apis.io/paraswap/security/paraswap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paraswap-domain-security.yml
@@ -196,7 +195,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 5
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -214,8 +213,8 @@ rules:
     warn: 4
   slug: paraswap-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 25.4
+  band: thin
+  composite: 26.2
   coverage:
     artifact_dirs: 17
     catalog_earned: 43.3
@@ -223,15 +222,15 @@ score:
     catalog_gap: 71.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 47.4
     developer_ergonomics: 28.6
-    discoverability: 68.3
-    operational_transparency: 2.6
-  previous_composite: 31.0
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 26.2
   provenance:
     agentic_access: derived
     contracts:
@@ -246,13 +245,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/screenshots/paraswap-2026-06-20T191402.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/paraswap/paraswap-2026-06-20T191402.png
 security:
 - kind: domain-security
   name: Paraswap Domain Security

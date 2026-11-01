@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-10-17'
+  score: 33.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -269,7 +271,7 @@ apis:
     question: How do I get rid of a saved segment I don't use anymore?
   phrasing_ops: 5
   slug: swetrix-views-api
-artifact_total: 58
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Swetrix Alerts Webhooks
@@ -311,9 +313,6 @@ collections:
 - collection_type: postman
   name: Swetrix Admin Annotations Views API
   slug: postman-swetrix-views-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Swetrix Admin API
   slug: open-swetrix-admin-api
@@ -361,7 +360,7 @@ collections:
   slug: open-swetrix-views-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/capabilities/swetrix-capability-edges.yml
+  href: https://artifacts.apis.io/swetrix/capabilities/swetrix-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/swetrix-capability-edges.yml
@@ -370,22 +369,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/swetrix/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/agentic-access/swetrix-agentic-access.yml
+  href: https://artifacts.apis.io/swetrix/agentic-access/swetrix-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/swetrix-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/security/swetrix-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/swetrix/security/swetrix-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/swetrix-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/security/swetrix-domain-security.yml
+  href: https://artifacts.apis.io/swetrix/security/swetrix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/swetrix-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/authentication/swetrix-authentication.yml
+  href: https://artifacts.apis.io/swetrix/authentication/swetrix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/swetrix-authentication.yml
@@ -458,42 +457,42 @@ common:
   type: LlmsText
   url: https://swetrix.com/llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/packages/swetrix-packages.yml
+  href: https://artifacts.apis.io/swetrix/packages/swetrix-packages.yml
   title: ''
   type: Packages
   url: packages/swetrix-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/packages/swetrix-packages.yml
+  href: https://artifacts.apis.io/swetrix/packages/swetrix-packages.yml
   title: ''
   type: SDKs
   url: packages/swetrix-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/llms/swetrix-llms.txt
+  href: https://artifacts.apis.io/swetrix/llms/swetrix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/swetrix-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/conventions/swetrix-conventions.yml
+  href: https://artifacts.apis.io/swetrix/conventions/swetrix-conventions.yml
   title: ''
   type: Conventions
   url: conventions/swetrix-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/conventions/swetrix-conventions.yml
+  href: https://artifacts.apis.io/swetrix/conventions/swetrix-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/swetrix-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/errors/swetrix-problem-types.yml
+  href: https://artifacts.apis.io/swetrix/errors/swetrix-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/swetrix-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/lifecycle/swetrix-lifecycle.yml
+  href: https://artifacts.apis.io/swetrix/lifecycle/swetrix-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/swetrix-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/changelog/swetrix-changelog.yml
+  href: https://artifacts.apis.io/swetrix/changelog/swetrix-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/swetrix-changelog.yml
@@ -502,7 +501,7 @@ common:
   type: ChangeLog
   url: https://github.com/Swetrix/swetrix/releases
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/conformance/swetrix-conformance.yml
+  href: https://artifacts.apis.io/swetrix/conformance/swetrix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/swetrix-conformance.yml
@@ -515,92 +514,92 @@ common:
   type: Security
   url: https://swetrix.com/security
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/sandbox/swetrix-sandbox.yml
+  href: https://artifacts.apis.io/swetrix/sandbox/swetrix-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/swetrix-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/components/swetrix-components.yml
+  href: https://artifacts.apis.io/swetrix/components/swetrix-components.yml
   title: ''
   type: Components
   url: components/swetrix-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/data-model/swetrix-data-model.yml
+  href: https://artifacts.apis.io/swetrix/data-model/swetrix-data-model.yml
   title: ''
   type: DataModel
   url: data-model/swetrix-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/asyncapi/swetrix-alerts-webhooks.yml
+  href: https://artifacts.apis.io/swetrix/asyncapi/swetrix-alerts-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/swetrix-alerts-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/swetrix/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/rate-limits/swetrix-rate-limits.yml
+  href: https://artifacts.apis.io/swetrix/rate-limits/swetrix-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/swetrix-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/plans/swetrix-plans-pricing.yml
+  href: https://artifacts.apis.io/swetrix/plans/swetrix-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/swetrix-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/finops/swetrix-finops.yml
+  href: https://artifacts.apis.io/swetrix/finops/swetrix-finops.yml
   title: ''
   type: FinOps
   url: finops/swetrix-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/vocabulary/swetrix-vocabulary.yml
+  href: https://artifacts.apis.io/swetrix/vocabulary/swetrix-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/swetrix-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/rules/swetrix-rules.yml
+  href: https://artifacts.apis.io/swetrix/rules/swetrix-rules.yml
   title: ''
   type: SpectralRules
   url: rules/swetrix-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/rules/swetrix-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/swetrix/rules/swetrix-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/swetrix-jsonschema-spectral-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/json-schema/swetrix-project-schema.json
+  href: https://artifacts.apis.io/swetrix/json-schema/swetrix-project-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/swetrix-project-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/json-schema/swetrix-session-schema.json
+  href: https://artifacts.apis.io/swetrix/json-schema/swetrix-session-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/swetrix-session-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/json-structure/swetrix-project-structure.json
+  href: https://artifacts.apis.io/swetrix/json-structure/swetrix-project-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/swetrix-project-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/json-ld/swetrix-context.jsonld
+  href: https://artifacts.apis.io/swetrix/json-ld/swetrix-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/swetrix-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/examples/swetrix-create-project-example.json
+  href: https://artifacts.apis.io/swetrix/examples/swetrix-create-project-example.json
   title: ''
   type: Examples
   url: examples/swetrix-create-project-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/examples/swetrix-record-pageview-example.json
+  href: https://artifacts.apis.io/swetrix/examples/swetrix-record-pageview-example.json
   title: ''
   type: Examples
   url: examples/swetrix-record-pageview-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/examples/swetrix-get-traffic-log-example.json
+  href: https://artifacts.apis.io/swetrix/examples/swetrix-get-traffic-log-example.json
   title: ''
   type: Examples
   url: examples/swetrix-get-traffic-log-example.json
@@ -646,10 +645,10 @@ examples:
   slug: swetrix-record-pageview-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Swetrix Finops
-  primary_unit: ''
-  service_category: Web Analytics
+  primary_unit: subscription
+  service_category: ''
   slug: swetrix-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swetrix.png
@@ -685,7 +684,10 @@ plans:
 - name: Swetrix Plans Pricing
   plan_count: 3
   slug: swetrix-plans-pricing
-random_paper: 20
+- name: Swetrix Price Estimates
+  plan_count: 0
+  slug: swetrix-price-estimates
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Swetrix Rate Limits
@@ -716,23 +718,23 @@ rules:
   slug: swetrix-rules
 score:
   band: exemplar
-  composite: 75.5
+  composite: 79.9
   coverage:
-    artifact_dirs: 34
-    catalog_earned: 78.0
+    artifact_dirs: 35
+    catalog_earned: 81.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 37.0
+    catalog_gap: 34.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 77.6
+    access_clarity: 92.1
     contract_governance: 45.5
-    contract_quality: 69.8
+    contract_quality: 67.6
     developer_ergonomics: 83.9
     discoverability: 73.2
-    operational_transparency: 81.6
-  previous_composite: 77.0
+    operational_transparency: 92.1
+  previous_composite: 78.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -753,13 +755,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/screenshots/swetrix-2026-06-20T194812.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/swetrix/swetrix-2026-06-20T194812.png
 security:
 - kind: authentication
   name: Swetrix Authentication
@@ -773,6 +776,16 @@ security:
   name: Swetrix Vulnerability Disclosure
   slug: swetrix-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 4
+skills:
+- name: Instrument a site and send events to Swetrix
+  slug: swetrix-instrument-a-site
+- name: Manage Swetrix projects, organisations, funnels, views and annotations
+  slug: swetrix-manage-projects-and-teams
+- name: Pull traffic, performance and session analytics from Swetrix
+  slug: swetrix-pull-traffic-analytics
+- name: Record revenue transactions in Swetrix idempotently
+  slug: swetrix-record-revenue-idempotently
 slug: swetrix
 tags:
 - Analytics

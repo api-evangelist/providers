@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The machine-consumable surface of the Grubbly Farms Shopify storefront: a hosted Storefront MCP server for agentic product discovery and cart/checkout, plus a Customer Account OpenID Connect / OAuth 2'
@@ -74,37 +76,37 @@ common:
   type: PrivacyPolicy
   url: https://grubblyfarms.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grubbly-farms/refs/heads/main/mcp/grubbly-farms-mcp.yml
+  href: https://artifacts.apis.io/grubbly-farms/mcp/grubbly-farms-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/grubbly-farms-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grubbly-farms/refs/heads/main/well-known/grubbly-farms-well-known.yml
+  href: https://artifacts.apis.io/grubbly-farms/well-known/grubbly-farms-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/grubbly-farms-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grubbly-farms/refs/heads/main/authentication/grubbly-farms-authentication.yml
+  href: https://artifacts.apis.io/grubbly-farms/authentication/grubbly-farms-authentication.yml
   title: ''
   type: Authentication
   url: authentication/grubbly-farms-authentication.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/grubbly-farms/refs/heads/main/well-known/grubbly-farms-openid-configuration.json
+  href: https://artifacts.apis.io/grubbly-farms/well-known/grubbly-farms-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/grubbly-farms-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grubbly-farms/refs/heads/main/scopes/grubbly-farms-scopes.yml
+  href: https://artifacts.apis.io/grubbly-farms/scopes/grubbly-farms-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/grubbly-farms-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grubbly-farms/refs/heads/main/conformance/grubbly-farms-conformance.yml
+  href: https://artifacts.apis.io/grubbly-farms/conformance/grubbly-farms-conformance.yml
   title: ''
   type: Conformance
   url: conformance/grubbly-farms-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grubbly-farms/refs/heads/main/security/grubbly-farms-domain-security.yml
+  href: https://artifacts.apis.io/grubbly-farms/security/grubbly-farms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/grubbly-farms-domain-security.yml
@@ -132,7 +134,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.5
+  composite: 22.2
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -146,9 +148,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 68.3
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 22.5
+  previous_composite: 22.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -158,14 +160,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/grubbly-farms/refs/heads/main/screenshots/grubbly-farms-2026-08-07T165848.png
+screenshot: https://apis.io/screenshots/grubbly-farms/grubbly-farms-2026-08-07T165848.png
 security:
 - kind: authentication
   name: Grubbly Farms Authentication

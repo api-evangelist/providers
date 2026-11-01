@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deserve/refs/heads/main/security/deserve-domain-security.yml
+  href: https://artifacts.apis.io/deserve/security/deserve-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/deserve-domain-security.yml
@@ -54,7 +56,7 @@ name: Deserve
 nav: Providers
 network: true
 overview: Deserve is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fintech, Credit Cards, and Card Issuing.
-random_paper: 2
+random_paper: 6
 score:
   band: minimal
   composite: 2.7
@@ -80,14 +82,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/deserve/refs/heads/main/screenshots/deserve-2026-07-25T211754.png
+screenshot: https://apis.io/screenshots/deserve/deserve-2026-07-25T211754.png
 security:
 - kind: domain-security
   name: Deserve Domain Security

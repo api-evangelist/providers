@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Integrately platform connects 1500+ SaaS applications through a catalog of 20 million+ pre-built one-click automations covering common business workflows such as lead capture, CRM sync, marketing '
   name: Integrately Platform
   slug: platform
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Integrately Webhooks
@@ -50,7 +52,7 @@ common:
   type: Website
   url: https://www.integrately.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/integrately/refs/heads/main/security/integrately-domain-security.yml
+  href: https://artifacts.apis.io/integrately/security/integrately-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/integrately-domain-security.yml
@@ -107,75 +109,75 @@ common:
   type: Community
   url: https://www.facebook.com/groups/integraters
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/integrately/refs/heads/main/plans/integrately-plans-pricing.yml
+  href: https://artifacts.apis.io/integrately/plans/integrately-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/integrately-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/integrately/refs/heads/main/rate-limits/integrately-rate-limits.yml
+  href: https://artifacts.apis.io/integrately/rate-limits/integrately-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/integrately-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/integrately/refs/heads/main/finops/integrately-finops.yml
+  href: https://artifacts.apis.io/integrately/finops/integrately-finops.yml
   title: ''
   type: FinOps
   url: finops/integrately-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/integrately/refs/heads/main/rules/integrately-rules.yml
+  href: https://artifacts.apis.io/integrately/rules/integrately-rules.yml
   title: ''
   type: SpectralRules
   url: rules/integrately-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/integrately/refs/heads/main/asyncapi/integrately-webhooks.yml
+  href: https://artifacts.apis.io/integrately/asyncapi/integrately-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/integrately-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/integrately/refs/heads/main/components/integrately-components.yml
+  href: https://artifacts.apis.io/integrately/components/integrately-components.yml
   title: ''
   type: Components
   url: components/integrately-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/integrately/refs/heads/main/data-model/integrately-data-model.yml
+  href: https://artifacts.apis.io/integrately/data-model/integrately-data-model.yml
   title: ''
   type: DataModel
   url: data-model/integrately-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/integrately/refs/heads/main/conventions/integrately-conventions.yml
+  href: https://artifacts.apis.io/integrately/conventions/integrately-conventions.yml
   title: ''
   type: Conventions
   url: conventions/integrately-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/integrately/refs/heads/main/conformance/integrately-conformance.yml
+  href: https://artifacts.apis.io/integrately/conformance/integrately-conformance.yml
   title: ''
   type: Conformance
   url: conformance/integrately-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/integrately/refs/heads/main/lifecycle/integrately-lifecycle.yml
+  href: https://artifacts.apis.io/integrately/lifecycle/integrately-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/integrately-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/integrately/refs/heads/main/packages/integrately-packages.yml
+  href: https://artifacts.apis.io/integrately/packages/integrately-packages.yml
   title: ''
   type: Packages
   url: packages/integrately-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/integrately/refs/heads/main/llms/integrately-llms.txt
+  href: https://artifacts.apis.io/integrately/llms/integrately-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/integrately-llms.txt
 created: '2026-03-27'
 description: Integrately is a one-click workflow automation platform offering 20 million+ ready-to-use automations across 1500+ applications. It positions itself as a no-code, lower-cost alternative to other iPaaS and workflow tools, using SmartConnect technology to auto-detect connections between apps and bundle expert-built automations at no extra cost.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Integrately Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: tasks
+  service_category: ''
   slug: integrately-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/integrately.png
 layout: provider
 modified: '2026-09-13'
@@ -193,7 +195,10 @@ plans:
 - name: Integrately Plans Pricing
   plan_count: 5
   slug: integrately-plans-pricing
-random_paper: 4
+- name: Integrately Price Estimates
+  plan_count: 0
+  slug: integrately-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 10
   name: Integrately Rate Limits
@@ -212,23 +217,23 @@ rules:
   slug: integrately-rules
 score:
   band: developing
-  composite: 44.1
+  composite: 46.8
   coverage:
     artifact_dirs: 18
-    catalog_earned: 61.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 26.2
-    discoverability: 73.2
+    developer_ergonomics: 28.6
+    discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 45.6
+  previous_composite: 45.2
   provenance:
     conformance: first-party
   regulatory:
@@ -237,14 +242,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/integrately/refs/heads/main/screenshots/integrately-2026-06-20T183428.png
+screenshot: https://apis.io/screenshots/integrately/integrately-2026-06-20T183428.png
 security:
 - kind: domain-security
   name: Integrately Domain Security

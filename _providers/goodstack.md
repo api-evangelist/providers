@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.5
-  scored_at: '2026-10-17'
+  score: 41.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -150,15 +152,117 @@ apis:
   description: The Webhook Subscriptions API from Goodstack — 2 operation(s) for webhook subscriptions.
   name: Goodstack Webhook Subscriptions API
   slug: goodstack-webhook-subscriptions-api
-artifact_total: 47
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: Webhook events triggered during the agent verification process, from pending states to final approval or rejection.
+  name: Goodstack Agent Verification Events API
+  slug: goodstack-agent-verification-events-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Budgets API from Goodstack — 1 operation(s) for budgets.
+  name: Goodstack Budgets API
+  slug: goodstack-budgets-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Campaigns API from Goodstack — 1 operation(s) for campaigns.
+  name: Goodstack Campaigns API
+  slug: goodstack-campaigns-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: Webhook events triggered when a country compliance check result is stored or re-evaluated for an organisation in your program.
+  name: Goodstack Country Compliance Check Events API
+  slug: goodstack-country-compliance-check-events-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: Webhook events triggered throughout the donation lifecycle, from payment receipt to final disbursement or cancellation.
+  name: Goodstack Donation Events API
+  slug: goodstack-donation-events-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Donation Match Request API from Goodstack — 1 operation(s) for donation match request.
+  name: Goodstack Donation Match Request API
+  slug: goodstack-donation-match-request-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Donation Wallets API from Goodstack — 1 operation(s) for donation wallets.
+  name: Goodstack Donation Wallets API
+  slug: goodstack-donation-wallets-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: Webhook events triggered when eligibility subscription status changes, including activity tag confirmations.
+  name: Goodstack Eligibility Subscription Events API
+  slug: goodstack-eligibility-subscription-events-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Employees API from Goodstack — 1 operation(s) for employees.
+  name: Goodstack Employees API
+  slug: goodstack-employees-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Experience API from Goodstack — 2 operation(s) for experience.
+  name: Goodstack Experience API
+  slug: goodstack-experience-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Fundraising API from Goodstack — 1 operation(s) for fundraising.
+  name: Goodstack Fundraising API
+  slug: goodstack-fundraising-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Gamification API from Goodstack — 1 operation(s) for gamification.
+  name: Goodstack Gamification API
+  slug: goodstack-gamification-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Giving Donations API from Goodstack — 1 operation(s) for giving donations.
+  name: Goodstack Giving Donations API
+  slug: goodstack-giving-donations-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: Webhook events triggered during the monetary donation verification lifecycle, from receiving a new verification to status changes as checks progress.
+  name: Goodstack Monetary Donation Verification Events API
+  slug: goodstack-monetary-donation-verification-events-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: Monetary Donation Verification is a check used to confirm whether a given organisation is eligible to receive monetary donations.
+  name: Goodstack Monetary Donation Verifications API
+  slug: goodstack-monetary-donation-verifications-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: Webhook events triggered when monitoring subscription status changes, including compliance check results.
+  name: Goodstack Monitoring Subscription Events API
+  slug: goodstack-monitoring-subscription-events-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Organisation Branding API from Goodstack — 1 operation(s) for organisation branding.
+  name: Goodstack Organisation Branding API
+  slug: goodstack-organisation-branding-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: SCIM 2.0 compliant API for provisioning and managing users. All `/scim/v2` endpoints authenticate with a partner SCIM API key as a bearer token and require the partner's `scim_api` scope. Responses us
+  name: Goodstack SCIM API
+  slug: goodstack-scim-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: Webhook events triggered when validation requests are approved or rejected by Goodstack.
+  name: Goodstack Validation Request Events API
+  slug: goodstack-validation-request-events-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: Webhook events triggered throughout the validation submission lifecycle, from creation to completion or failure.
+  name: Goodstack Validation Submission Events API
+  slug: goodstack-validation-submission-events-api
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Volunteering API from Goodstack — 3 operation(s) for volunteering.
+  name: Goodstack Volunteering API
+  slug: goodstack-volunteering-api
+artifact_total: 73
 asyncapis:
 - description: ''
   name: Goodstack Webhooks
   slug: goodstack-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Goodstack Services Activities API
   slug: open-goodstack-activities-api
@@ -223,8 +327,17 @@ collections:
   name: Goodstack Services Activities Webhook Subscriptions API
   slug: open-goodstack-webhook-subscriptions-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/goodstack/plans/goodstack-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/goodstack-plans-pricing.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/goodstack/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/capabilities/goodstack-capability-edges.yml
+  href: https://artifacts.apis.io/goodstack/capabilities/goodstack-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/goodstack-capability-edges.yml
@@ -233,82 +346,82 @@ common:
   type: Website
   url: https://www.goodstack.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/goodstack/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/asyncapi/goodstack-webhooks.yml
+  href: https://artifacts.apis.io/goodstack/asyncapi/goodstack-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/goodstack-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/data-model/goodstack-data-model.yml
+  href: https://artifacts.apis.io/goodstack/data-model/goodstack-data-model.yml
   title: ''
   type: DataModel
   url: data-model/goodstack-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/sandbox/goodstack-sandbox.yml
+  href: https://artifacts.apis.io/goodstack/sandbox/goodstack-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/goodstack-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/conformance/goodstack-conformance.yml
+  href: https://artifacts.apis.io/goodstack/conformance/goodstack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/goodstack-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/overlays/goodstack-overlay.yaml
+  href: https://artifacts.apis.io/goodstack/overlays/goodstack-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/goodstack-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/llms/goodstack-llms.txt
+  href: https://artifacts.apis.io/goodstack/llms/goodstack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/goodstack-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/mcp/goodstack-mcp.yml
+  href: https://artifacts.apis.io/goodstack/mcp/goodstack-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/goodstack-mcp.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/changelog/goodstack-changelog.yml
+  href: https://artifacts.apis.io/goodstack/changelog/goodstack-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/goodstack-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/lifecycle/goodstack-lifecycle.yml
+  href: https://artifacts.apis.io/goodstack/lifecycle/goodstack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/goodstack-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/errors/goodstack-problem-types.yml
+  href: https://artifacts.apis.io/goodstack/errors/goodstack-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/goodstack-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/conventions/goodstack-conventions.yml
+  href: https://artifacts.apis.io/goodstack/conventions/goodstack-conventions.yml
   title: ''
   type: Conventions
   url: conventions/goodstack-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/conventions/goodstack-conventions.yml
+  href: https://artifacts.apis.io/goodstack/conventions/goodstack-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/goodstack-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/authentication/goodstack-authentication.yml
+  href: https://artifacts.apis.io/goodstack/authentication/goodstack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/goodstack-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/agentic-access/goodstack-agentic-access.yml
+  href: https://artifacts.apis.io/goodstack/agentic-access/goodstack-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/goodstack-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/security/goodstack-domain-security.yml
+  href: https://artifacts.apis.io/goodstack/security/goodstack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/goodstack-domain-security.yml
@@ -366,39 +479,54 @@ common:
   url: https://trust.goodstack.io/
 created: '2026-07-17'
 description: Goodstack (formerly Percent) is an impact platform whose REST API lets businesses build charitable giving, nonprofit verification, and fund disbursement into their own products. The Goodstack Services API covers monetary donations (direct and via a hosted donation gateway), a global registry of verified nonprofit and educational organisations, organisation name search, eligibility and monitoring subscriptions, agent verifications, validation requests and submissions, Gift Aid declarations, categories, and webhook subscriptions. Goodstack handles the vetting, validation, and timely disbursement of donations to good causes across multiple countries and currencies. The API is organised around REST, uses API-key authentication (publishable pk_ and secret sk_ keys), returns JSON with standard HTTP status codes, and offers a sandbox environment.
+finops:
+- has_sources: true
+  method: derived
+  name: Goodstack Finops
+  primary_unit: donation
+  service_category: ''
+  slug: goodstack-finops
+  template: false
 image: https://goodstack.io/favicon.ico
 layout: provider
 modified: '2026-07-19'
 name: Goodstack
 nav: Providers
 network: true
-overview: 'Goodstack publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Agent Verifications API, Categories API, and 18 more. Tagged areas include Company, Non-Profit, Donations, Charitable Giving, and Fundraising.
+overview: 'Goodstack publishes 42 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Agent Verifications API, Categories API, and 39 more. Tagged areas include Company, Non-Profit, Donations, Charitable Giving, and Fundraising.
 
 
   The Goodstack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Goodstack''s developer surface includes sandbox, changelog, authentication, documentation, API reference, getting-started guide, support, and 24 more developer resources.'
-random_paper: 13
+  Goodstack''s developer surface includes sandbox, changelog, authentication, documentation, API reference, getting-started guide, support, and 26 more developer resources.'
+plans:
+- name: Goodstack Plans Pricing
+  plan_count: 4
+  slug: goodstack-plans-pricing
+- name: Goodstack Price Estimates
+  plan_count: 0
+  slug: goodstack-price-estimates
+random_paper: 23
 score:
-  band: developing
-  composite: 49.5
+  band: strong
+  composite: 59.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.3
   facets:
-    access_clarity: 44.7
+    access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 58.7
-    developer_ergonomics: 66.1
-    discoverability: 73.2
+    contract_quality: 57.8
+    developer_ergonomics: 67.3
+    discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 49.5
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -406,7 +534,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 21
+      total: 64
     mcp: derived
     skills: derived
   regulatory:
@@ -414,14 +542,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 26.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/screenshots/goodstack-2026-07-25T220057.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/goodstack/goodstack-2026-07-25T220057.png
 security:
 - kind: authentication
   name: Goodstack Authentication
@@ -431,6 +560,14 @@ security:
   name: Goodstack Domain Security
   slug: goodstack-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Search a nonprofit and create a donation
+  slug: goodstack-search-and-donate
+- name: Subscribe to donation and verification webhooks
+  slug: goodstack-subscribe-webhooks
+- name: Verify a nonprofit organisation
+  slug: goodstack-verify-nonprofit
 slug: goodstack
 tags:
 - Company

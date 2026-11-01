@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.5
-  scored_at: '2026-10-17'
+  score: 26.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 1
@@ -127,11 +129,8 @@ apis:
   description: The Ws API from IOTA — 1 operation(s) for ws.
   name: IOTA Ws API
   slug: iota-ws-api
-artifact_total: 59
+artifact_total: 58
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Wasp auth API
   slug: open-iota-auth-api
@@ -185,7 +184,7 @@ collections:
   slug: open-iota-ws-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/capabilities/iota-capability-edges.yml
+  href: https://artifacts.apis.io/iota/capabilities/iota-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/iota-capability-edges.yml
@@ -210,17 +209,17 @@ common:
   type: License
   url: https://github.com/iotaledger/iota/blob/develop/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/agentic-access/iota-agentic-access.yml
+  href: https://artifacts.apis.io/iota/agentic-access/iota-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/iota-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/security/iota-domain-security.yml
+  href: https://artifacts.apis.io/iota/security/iota-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/iota-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/authentication/iota-authentication.yml
+  href: https://artifacts.apis.io/iota/authentication/iota-authentication.yml
   title: ''
   type: Authentication
   url: authentication/iota-authentication.yml
@@ -297,42 +296,42 @@ common:
   type: PrivacyPolicy
   url: https://www.iota.org/privacy-policy
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/rate-limits/iota-rate-limits.yml
+  href: https://artifacts.apis.io/iota/rate-limits/iota-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/iota-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/plans/iota-plans.yml
+  href: https://artifacts.apis.io/iota/plans/iota-plans.yml
   title: ''
   type: Plans
   url: plans/iota-plans.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/finops/iota-finops.yml
+  href: https://artifacts.apis.io/iota/finops/iota-finops.yml
   title: ''
   type: FinOps
   url: finops/iota-finops.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/_original/iota-jsonrpc-openapi.json
+  href: https://artifacts.apis.io/iota/openapi/_original/iota-jsonrpc-openapi.json
   title: IOTA JSON-RPC OpenAPI 3.0 (75 methods, derived from OpenRPC)
   type: OpenAPI
   url: openapi/_original/iota-jsonrpc-openapi.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/_original/iota-evm-wasp-openapi.yaml
+  href: https://artifacts.apis.io/iota/openapi/_original/iota-evm-wasp-openapi.yaml
   title: IOTA EVM WASP Node REST API OpenAPI 3.0 (59 paths)
   type: OpenAPI
   url: openapi/_original/iota-evm-wasp-openapi.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/openapi/iota-openrpc.json
+  href: https://artifacts.apis.io/iota/openapi/iota-openrpc.json
   title: IOTA JSON-RPC OpenRPC Specification (source)
   type: OpenRPC
   url: openapi/iota-openrpc.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/json-ld/iota-context.jsonld
+  href: https://artifacts.apis.io/iota/json-ld/iota-context.jsonld
   title: IOTA JSON-LD Context
   type: JSONLDContext
   url: json-ld/iota-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/graphql/iota-graphql.md
+  href: https://artifacts.apis.io/iota/graphql/iota-graphql.md
   title: IOTA GraphQL RPC Schema and Docs
   type: GraphQL
   url: graphql/iota-graphql.md
@@ -359,7 +358,7 @@ finops:
 - has_sources: true
   method: generated
   name: Iota Finops
-  primary_unit: ''
+  primary_unit: transaction / request
   service_category: Blockchain Infrastructure
   slug: iota-finops
   template: false
@@ -389,33 +388,30 @@ plans:
 - name: Iota Plans
   plan_count: 3
   slug: iota-plans
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Iota Rate Limits
   slug: iota-rate-limits
 score:
   band: developing
-  composite: 45.5
+  composite: 49.2
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 51.0
+    artifact_dirs: 15
+    catalog_earned: 54.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.0
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.5
+  delta: 1.6
   facets:
-    access_clarity: 7.9
+    access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 53.8
     developer_ergonomics: 76.2
     discoverability: 66.1
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 85.0
-  previous_composite: 53.0
+    operational_transparency: 39.5
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -428,14 +424,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/screenshots/iota-2026-06-20T183535.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/iota/iota-2026-06-20T183535.png
 security:
 - kind: authentication
   name: Iota Authentication

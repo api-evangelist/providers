@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,22 +25,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/affy-medtech/refs/heads/main/plans/affy-medtech-plans-pricing.yml
+  href: https://artifacts.apis.io/affy-medtech/plans/affy-medtech-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/affy-medtech-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/affy-medtech/refs/heads/main/rate-limits/affy-medtech-rate-limits.yml
+  href: https://artifacts.apis.io/affy-medtech/rate-limits/affy-medtech-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/affy-medtech-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/affy-medtech/refs/heads/main/security/affy-medtech-domain-security.yml
+  href: https://artifacts.apis.io/affy-medtech/security/affy-medtech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/affy-medtech-domain-security.yml
@@ -47,12 +49,12 @@ common:
   type: Website
   url: https://affymedtech.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affy-medtech/refs/heads/main/conformance/affy-medtech-conformance.yml
+  href: https://artifacts.apis.io/affy-medtech/conformance/affy-medtech-conformance.yml
   title: ''
   type: Conformance
   url: conformance/affy-medtech-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/affy-medtech/refs/heads/main/llms/affy-medtech-llms.txt
+  href: https://artifacts.apis.io/affy-medtech/llms/affy-medtech-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/affy-medtech-llms.txt
@@ -86,14 +88,14 @@ plans:
 - name: Affy Medtech Plans Pricing
   plan_count: 0
   slug: affy-medtech-plans-pricing
-random_paper: 9
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Affy Medtech Rate Limits
   slug: affy-medtech-rate-limits
 score:
   band: minimal
-  composite: 5.0
+  composite: 4.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -107,7 +109,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -118,7 +120,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 5.0
+  previous_composite: 4.3
   provenance:
     conformance: first-party
   regulatory:
@@ -127,14 +129,14 @@ score:
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/affy-medtech/refs/heads/main/screenshots/affy-medtech-2026-10-11T093028.png
+screenshot: https://apis.io/screenshots/affy-medtech/affy-medtech-2026-10-11T093028.png
 security:
 - kind: domain-security
   name: Affy Medtech Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Client-facing REST API for PremiaLab's portfolio analytics, quantitative strategy database, and risk reporting platform. Protected by OAuth2/OpenID Connect; access is provisioned for institutional cli
@@ -42,22 +44,22 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/premialab/refs/heads/main/security/premialab-domain-security.yml
+  href: https://artifacts.apis.io/premialab/security/premialab-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/premialab-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/premialab/refs/heads/main/authentication/premialab-authentication.yml
+  href: https://artifacts.apis.io/premialab/authentication/premialab-authentication.yml
   title: ''
   type: Authentication
   url: authentication/premialab-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/premialab/refs/heads/main/scopes/premialab-scopes.yml
+  href: https://artifacts.apis.io/premialab/scopes/premialab-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/premialab-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/premialab/refs/heads/main/well-known/premialab-well-known.yml
+  href: https://artifacts.apis.io/premialab/well-known/premialab-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/premialab-well-known.yml
@@ -94,7 +96,7 @@ overview: 'PremiaLab is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   PremiaLab''s developer surface includes authentication, engineering blog, support, and 6 more developer resources.'
-random_paper: 17
+random_paper: 5
 scopes:
 - name: Premialab Scopes
   scope_count: 7
@@ -104,13 +106,13 @@ score:
   band: emerging
   composite: 16.8
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -118,21 +120,21 @@ score:
     developer_ergonomics: 19.0
     discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 16.7
+  previous_composite: 16.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/premialab/refs/heads/main/screenshots/premialab-2026-09-02T151927.png
+screenshot: https://apis.io/screenshots/premialab/premialab-2026-09-02T151927.png
 security:
 - kind: authentication
   name: Premialab Authentication

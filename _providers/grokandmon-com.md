@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'Agent2Agent (A2A) protocol surface: an agent card served from https://grokandmon.com/.well-known/agent-card.json (protocolVersion 0.3.0, JSONRPC transport, version 2.1.0, graded conformant on shape) a'
@@ -62,67 +64,67 @@ common:
   type: Telegram
   url: https://t.me/ganjamonai
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/grokandmon-com/refs/heads/main/a2a/grokandmon-com-a2a.yml
+  href: https://artifacts.apis.io/grokandmon-com/a2a/grokandmon-com-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/grokandmon-com-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grokandmon-com/refs/heads/main/mcp/grokandmon-com-mcp.yml
+  href: https://artifacts.apis.io/grokandmon-com/mcp/grokandmon-com-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/grokandmon-com-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grokandmon-com/refs/heads/main/well-known/grokandmon-com-well-known.yml
+  href: https://artifacts.apis.io/grokandmon-com/well-known/grokandmon-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/grokandmon-com-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grokandmon-com/refs/heads/main/llms/grokandmon-com-llms.txt
+  href: https://artifacts.apis.io/grokandmon-com/llms/grokandmon-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/grokandmon-com-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grokandmon-com/refs/heads/main/authentication/grokandmon-com-authentication.yml
+  href: https://artifacts.apis.io/grokandmon-com/authentication/grokandmon-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/grokandmon-com-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grokandmon-com/refs/heads/main/conventions/grokandmon-com-conventions.yml
+  href: https://artifacts.apis.io/grokandmon-com/conventions/grokandmon-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/grokandmon-com-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grokandmon-com/refs/heads/main/errors/grokandmon-com-problem-types.yml
+  href: https://artifacts.apis.io/grokandmon-com/errors/grokandmon-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/grokandmon-com-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/grokandmon-com/refs/heads/main/rate-limits/grokandmon-com-rate-limits.yml
+  href: https://artifacts.apis.io/grokandmon-com/rate-limits/grokandmon-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/grokandmon-com-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/grokandmon-com/refs/heads/main/plans/grokandmon-com-plans-pricing.yml
+  href: https://artifacts.apis.io/grokandmon-com/plans/grokandmon-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/grokandmon-com-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grokandmon-com/refs/heads/main/conformance/grokandmon-com-conformance.yml
+  href: https://artifacts.apis.io/grokandmon-com/conformance/grokandmon-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/grokandmon-com-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grokandmon-com/refs/heads/main/lifecycle/grokandmon-com-lifecycle.yml
+  href: https://artifacts.apis.io/grokandmon-com/lifecycle/grokandmon-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/grokandmon-com-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grokandmon-com/refs/heads/main/security/grokandmon-com-domain-security.yml
+  href: https://artifacts.apis.io/grokandmon-com/security/grokandmon-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/grokandmon-com-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/grokandmon-com/refs/heads/main/regulatory/grokandmon-com-regulatory-posture.yml
+  href: https://artifacts.apis.io/grokandmon-com/regulatory/grokandmon-com-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/grokandmon-com-regulatory-posture.yml
@@ -146,14 +148,14 @@ plans:
 - name: Grokandmon Com Plans Pricing
   plan_count: 18
   slug: grokandmon-com-plans-pricing
-random_paper: 6
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Grokandmon Com Rate Limits
   slug: grokandmon-com-rate-limits
 score:
   band: emerging
-  composite: 25.7
+  composite: 25.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 60.0
@@ -161,15 +163,15 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 73.3
+    discoverability: 70.0
     operational_transparency: 21.1
-  previous_composite: 25.1
+  previous_composite: 25.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -179,8 +181,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

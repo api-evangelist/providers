@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for accepting card payments (NON-3DS and 3D Secure), hosted CheckoutForm and Pay with iyzico flows, iyzico Link, subscriptions, marketplace submerchant payments and payouts, card storage/toke
@@ -106,82 +108,82 @@ common:
   type: StatusPage
   url: https://iyzico.statuspage.io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/llms/iyzico-llms.txt
+  href: https://artifacts.apis.io/iyzico/llms/iyzico-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/iyzico-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/packages/iyzico-packages.yml
+  href: https://artifacts.apis.io/iyzico/packages/iyzico-packages.yml
   title: ''
   type: Packages
   url: packages/iyzico-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/packages/iyzico-packages.yml
+  href: https://artifacts.apis.io/iyzico/packages/iyzico-packages.yml
   title: ''
   type: SDKs
   url: packages/iyzico-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/authentication/iyzico-authentication.yml
+  href: https://artifacts.apis.io/iyzico/authentication/iyzico-authentication.yml
   title: ''
   type: Authentication
   url: authentication/iyzico-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/sandbox/iyzico-sandbox.yml
+  href: https://artifacts.apis.io/iyzico/sandbox/iyzico-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/iyzico-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/rate-limits/iyzico-rate-limits.yml
+  href: https://artifacts.apis.io/iyzico/rate-limits/iyzico-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/iyzico-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/errors/iyzico-error-codes.yml
+  href: https://artifacts.apis.io/iyzico/errors/iyzico-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/iyzico-error-codes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/errors/iyzico-decline-codes.yml
+  href: https://artifacts.apis.io/iyzico/errors/iyzico-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/iyzico-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/asyncapi/iyzico-webhooks.yml
+  href: https://artifacts.apis.io/iyzico/asyncapi/iyzico-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/iyzico-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/conventions/iyzico-conventions.yml
+  href: https://artifacts.apis.io/iyzico/conventions/iyzico-conventions.yml
   title: ''
   type: Conventions
   url: conventions/iyzico-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/components/iyzico-components.yml
+  href: https://artifacts.apis.io/iyzico/components/iyzico-components.yml
   title: ''
   type: Components
   url: components/iyzico-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/conformance/iyzico-conformance.yml
+  href: https://artifacts.apis.io/iyzico/conformance/iyzico-conformance.yml
   title: ''
   type: Conformance
   url: conformance/iyzico-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/lifecycle/iyzico-lifecycle.yml
+  href: https://artifacts.apis.io/iyzico/lifecycle/iyzico-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/iyzico-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/lifecycle/iyzico-lifecycle.yml
+  href: https://artifacts.apis.io/iyzico/lifecycle/iyzico-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/iyzico-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/mcp/iyzico-mcp.yml
+  href: https://artifacts.apis.io/iyzico/mcp/iyzico-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/iyzico-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/security/iyzico-domain-security.yml
+  href: https://artifacts.apis.io/iyzico/security/iyzico-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/iyzico-domain-security.yml
@@ -200,29 +202,29 @@ overview: 'Iyzico is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Iyzico''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 24 more developer resources.'
-random_paper: 3
+random_paper: 15
 rate_limits:
 - limit_count: 6
   name: Iyzico Rate Limits
   slug: iyzico-rate-limits
 score:
   band: developing
-  composite: 48.8
+  composite: 49.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 72.6
-    discoverability: 73.2
-    operational_transparency: 65.8
+    developer_ergonomics: 76.2
+    discoverability: 66.1
+    operational_transparency: 68.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -231,7 +233,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 48.7
+  previous_composite: 49.1
   provenance:
     conformance: derived
     mcp: derived
@@ -241,14 +243,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/screenshots/iyzico-2026-07-25T223026.png
+screenshot: https://apis.io/screenshots/iyzico/iyzico-2026-07-25T223026.png
 security:
 - kind: authentication
   name: Iyzico Authentication

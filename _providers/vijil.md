@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.1
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 2
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 149
   slug: vijil-agentic-access
   summary_line: 149 operations · 68 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://console-api.vijil.ai
   baseurl_source: declared
@@ -69,11 +71,8 @@ apis:
   description: Authentication, users, and team management
   name: Vijil Teams API
   slug: vijil-teams-api
-artifact_total: 40
+artifact_total: 43
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Vijil Console API (Combined) agent-configurations API
   slug: open-vijil-agent-configurations-api
@@ -164,12 +163,12 @@ common:
   type: Pricing
   url: https://www.vijil.ai/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/plans/vijil-plans-pricing.yml
+  href: https://artifacts.apis.io/vijil/plans/vijil-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vijil-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/capabilities/vijil-capability-edges.yml
+  href: https://artifacts.apis.io/vijil/capabilities/vijil-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vijil-capability-edges.yml
@@ -214,7 +213,7 @@ common:
   type: PrivacyPolicy
   url: https://vijil.ai/policies/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/security/vijil-trust-center.yml
+  href: https://artifacts.apis.io/vijil/security/vijil-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vijil-trust-center.yml
@@ -227,47 +226,47 @@ common:
   type: SourceCode
   url: https://huggingface.co/vijil
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/packages/vijil-packages.yml
+  href: https://artifacts.apis.io/vijil/packages/vijil-packages.yml
   title: ''
   type: Packages
   url: packages/vijil-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/packages/vijil-packages.yml
+  href: https://artifacts.apis.io/vijil/packages/vijil-packages.yml
   title: ''
   type: SDKs
   url: packages/vijil-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/cli/vijil-cli.yml
+  href: https://artifacts.apis.io/vijil/cli/vijil-cli.yml
   title: ''
   type: CLI
   url: cli/vijil-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/mcp/vijil-mcp.yml
+  href: https://artifacts.apis.io/vijil/mcp/vijil-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/vijil-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/llms/vijil-llms.txt
+  href: https://artifacts.apis.io/vijil/llms/vijil-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vijil-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/authentication/vijil-authentication.yml
+  href: https://artifacts.apis.io/vijil/authentication/vijil-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vijil-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/conventions/vijil-conventions.yml
+  href: https://artifacts.apis.io/vijil/conventions/vijil-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vijil-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/errors/vijil-problem-types.yml
+  href: https://artifacts.apis.io/vijil/errors/vijil-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vijil-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/lifecycle/vijil-lifecycle.yml
+  href: https://artifacts.apis.io/vijil/lifecycle/vijil-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vijil-lifecycle.yml
@@ -276,42 +275,42 @@ common:
   type: Deprecation
   url: https://docs.vijil.ai/developer-guide/reference/sdk-migration-guide
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/conformance/vijil-conformance.yml
+  href: https://artifacts.apis.io/vijil/conformance/vijil-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vijil-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/data-model/vijil-data-model.yml
+  href: https://artifacts.apis.io/vijil/data-model/vijil-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vijil-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/overlays/vijil-openapi-overlay.yaml
+  href: https://artifacts.apis.io/vijil/overlays/vijil-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vijil-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/skills/vijil-evaluate-agent-trust.md
+  href: https://artifacts.apis.io/vijil/skills/vijil-evaluate-agent-trust.md
   title: ''
   type: AgentSkill
   url: skills/vijil-evaluate-agent-trust.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/skills/vijil-protect-agent-dome.md
+  href: https://artifacts.apis.io/vijil/skills/vijil-protect-agent-dome.md
   title: ''
   type: AgentSkill
   url: skills/vijil-protect-agent-dome.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/skills/vijil-red-team-campaign.md
+  href: https://artifacts.apis.io/vijil/skills/vijil-red-team-campaign.md
   title: ''
   type: AgentSkill
   url: skills/vijil-red-team-campaign.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/agentic-access/vijil-agentic-access.yml
+  href: https://artifacts.apis.io/vijil/agentic-access/vijil-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vijil-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/security/vijil-domain-security.yml
+  href: https://artifacts.apis.io/vijil/security/vijil-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vijil-domain-security.yml
@@ -321,6 +320,14 @@ common:
   url: https://vijil.ai
 created: '2026-07-17'
 description: 'Vijil is an AI agent trust platform (Mayfield-backed, ~$23M raised) that helps enterprises make AI agents reliable, secure, and safe for production. Its Console API and CLI span four products across the agent lifecycle: Diamond (pre-deployment red-team evaluation that returns a Trust Score across reliability, security, and safety), Dome (runtime Guardrails, Guards, and Detectors that defend agent inputs/outputs), Darwin (reinforcement-learning evolution that continuously improves agents), and Depot (hardened models and a secure MCP proxy). The platform is programmable via a JWT-authenticated REST API, the `vijil` CLI, an official `vijil-mcp` MCP server, and Python SDKs.'
+finops:
+- has_sources: true
+  method: derived
+  name: Vijil Finops
+  primary_unit: ''
+  service_category: ''
+  slug: vijil-finops
+  template: true
 image: https://cdn.prod.website-files.com/691dbb7207c690a0037cbb28/69bd58689ec57361822b8672_VIJIL-OG.png
 layout: provider
 mcp_servers:
@@ -341,24 +348,24 @@ plans:
   slug: vijil-plans-pricing
 random_paper: 14
 score:
-  band: strong
-  composite: 56.5
+  band: developing
+  composite: 54.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.5
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 44.2
-    developer_ergonomics: 68.5
-    discoverability: 71.7
+    contract_quality: 41.6
+    developer_ergonomics: 73.2
+    discoverability: 65.0
     operational_transparency: 13.2
-  previous_composite: 48.0
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -375,13 +382,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/screenshots/vijil-2026-08-17T082750.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vijil/vijil-2026-08-17T082750.png
 security:
 - kind: authentication
   name: Vijil Authentication
@@ -395,6 +403,14 @@ security:
   name: Vijil Trust Center
   slug: vijil-trust-center
   summary_line: SOC 2
+skill_count: 3
+skills:
+- name: Evaluate an agent's trust score with Vijil
+  slug: vijil-evaluate-agent-trust
+- name: Protect an agent at runtime with Vijil Dome
+  slug: vijil-protect-agent-dome
+- name: Run an adversarial red-team campaign with Vijil
+  slug: vijil-red-team-campaign
 slug: vijil
 tags:
 - Company

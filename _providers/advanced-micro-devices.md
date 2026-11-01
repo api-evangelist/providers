@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.1
-  scored_at: '2026-10-17'
+  score: 33.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -85,7 +87,7 @@ apis:
   description: Performance counters and profiling data
   name: Advanced Micro Devices Performance API
   slug: advanced-micro-devices-performance-api
-artifact_total: 103
+artifact_total: 102
 collections:
 - collection_type: postman
   name: AMD Developer Cloud Configuration API
@@ -111,9 +113,6 @@ collections:
 - collection_type: postman
   name: AMD Developer Cloud Configuration Performance API
   slug: postman-advanced-micro-devices-performance-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AMD Developer Cloud Configuration API
   slug: open-advanced-micro-devices-configuration-api
@@ -146,12 +145,12 @@ collections:
   slug: open-amd-rocm-management-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/finops/advanced-micro-devices-finops.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/finops/advanced-micro-devices-finops.yml
   title: ''
   type: FinOps
   url: finops/advanced-micro-devices-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/capabilities/advanced-micro-devices-capability-edges.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/capabilities/advanced-micro-devices-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/advanced-micro-devices-capability-edges.yml
@@ -160,17 +159,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/advanced-micro-devices/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/agentic-access/advanced-micro-devices-agentic-access.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/agentic-access/advanced-micro-devices-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/advanced-micro-devices-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/security/advanced-micro-devices-domain-security.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/security/advanced-micro-devices-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/advanced-micro-devices-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/authentication/advanced-micro-devices-authentication.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/authentication/advanced-micro-devices-authentication.yml
   title: ''
   type: Authentication
   url: authentication/advanced-micro-devices-authentication.yml
@@ -227,92 +226,92 @@ common:
   type: APIReference
   url: https://rocm.docs.amd.com/en/latest/components/core.html
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/grpc/advanced-micro-devices-rdc.proto
+  href: https://artifacts.apis.io/advanced-micro-devices/grpc/advanced-micro-devices-rdc.proto
   title: ''
   type: Protobuf
   url: grpc/advanced-micro-devices-rdc.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/grpc/advanced-micro-devices-device-metrics-gpu.proto
+  href: https://artifacts.apis.io/advanced-micro-devices/grpc/advanced-micro-devices-device-metrics-gpu.proto
   title: ''
   type: Protobuf
   url: grpc/advanced-micro-devices-device-metrics-gpu.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/grpc/advanced-micro-devices-device-metrics-nic.proto
+  href: https://artifacts.apis.io/advanced-micro-devices/grpc/advanced-micro-devices-device-metrics-nic.proto
   title: ''
   type: Protobuf
   url: grpc/advanced-micro-devices-device-metrics-nic.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/grpc/advanced-micro-devices-device-metrics-exporterconfig.proto
+  href: https://artifacts.apis.io/advanced-micro-devices/grpc/advanced-micro-devices-device-metrics-exporterconfig.proto
   title: ''
   type: Protobuf
   url: grpc/advanced-micro-devices-device-metrics-exporterconfig.proto
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/mcp/advanced-micro-devices-mcp.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/mcp/advanced-micro-devices-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/advanced-micro-devices-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/llms/advanced-micro-devices-llms.txt
+  href: https://artifacts.apis.io/advanced-micro-devices/llms/advanced-micro-devices-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/advanced-micro-devices-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/packages/advanced-micro-devices-packages.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/packages/advanced-micro-devices-packages.yml
   title: ''
   type: Packages
   url: packages/advanced-micro-devices-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/packages/advanced-micro-devices-packages.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/packages/advanced-micro-devices-packages.yml
   title: ''
   type: SDKs
   url: packages/advanced-micro-devices-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/cli/advanced-micro-devices-cli.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/cli/advanced-micro-devices-cli.yml
   title: ''
   type: CLI
   url: cli/advanced-micro-devices-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/security/advanced-micro-devices-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/security/advanced-micro-devices-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/advanced-micro-devices-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/security/advanced-micro-devices-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/security/advanced-micro-devices-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/advanced-micro-devices-vulnerability-disclosure.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/changelog/advanced-micro-devices-changelog.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/changelog/advanced-micro-devices-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/advanced-micro-devices-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/lifecycle/advanced-micro-devices-lifecycle.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/lifecycle/advanced-micro-devices-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/advanced-micro-devices-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/conventions/advanced-micro-devices-conventions.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/conventions/advanced-micro-devices-conventions.yml
   title: ''
   type: Conventions
   url: conventions/advanced-micro-devices-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/errors/advanced-micro-devices-problem-types.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/errors/advanced-micro-devices-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/advanced-micro-devices-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/conformance/advanced-micro-devices-conformance.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/conformance/advanced-micro-devices-conformance.yml
   title: ''
   type: Conformance
   url: conformance/advanced-micro-devices-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/plans/advanced-micro-devices-plans-pricing.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/plans/advanced-micro-devices-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/advanced-micro-devices-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/rate-limits/advanced-micro-devices-rate-limits.yml
+  href: https://artifacts.apis.io/advanced-micro-devices/rate-limits/advanced-micro-devices-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/advanced-micro-devices-rate-limits.yml
@@ -533,7 +532,7 @@ press:
 - date: ''
   title: Advanced Micro Devices, Inc. (AMD) Stock Price, News ...
   url: https://finance.yahoo.com/quote/AMD/
-random_paper: 11
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Advanced Micro Devices Rate Limits
@@ -574,8 +573,8 @@ rules:
     warn: 11
   slug: amd-spectral-rules
 score:
-  band: developing
-  composite: 52.6
+  band: strong
+  composite: 56.3
   coverage:
     artifact_dirs: 33
     catalog_earned: 64.4
@@ -583,15 +582,15 @@ score:
     catalog_gap: 50.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 42.1
     contract_governance: 45.5
     contract_quality: 58.7
-    developer_ergonomics: 69.0
-    discoverability: 71.7
-    operational_transparency: 34.2
-  previous_composite: 54.1
+    developer_ergonomics: 72.6
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -606,14 +605,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 28.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/screenshots/advanced-micro-devices-2026-06-20T165331.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/advanced-micro-devices/advanced-micro-devices-2026-06-20T165331.png
 security:
 - kind: authentication
   name: Advanced Micro Devices Authentication

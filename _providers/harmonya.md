@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,12 +37,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/harmonya/refs/heads/main/rate-limits/harmonya-rate-limits.yml
+  href: https://artifacts.apis.io/harmonya/rate-limits/harmonya-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/harmonya-rate-limits.yml
@@ -69,22 +71,22 @@ common:
   type: PrivacyPolicy
   url: https://www.harmonya.com/legal/privacy-policy
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/harmonya/refs/heads/main/authentication/harmonya-authentication.yml
+  href: https://artifacts.apis.io/harmonya/authentication/harmonya-authentication.yml
   title: ''
   type: OpenIDConnect
   url: authentication/harmonya-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/harmonya/refs/heads/main/security/harmonya-domain-security.yml
+  href: https://artifacts.apis.io/harmonya/security/harmonya-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/harmonya-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/harmonya/refs/heads/main/llms/harmonya-llms.txt
+  href: https://artifacts.apis.io/harmonya/llms/harmonya-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/harmonya-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/harmonya/refs/heads/main/plans/harmonya-plans-pricing.yml
+  href: https://artifacts.apis.io/harmonya/plans/harmonya-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/harmonya-plans-pricing.yml
@@ -124,7 +126,7 @@ plans:
 - name: Harmonya Plans Pricing
   plan_count: 0
   slug: harmonya-plans-pricing
-random_paper: 5
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Harmonya Rate Limits
@@ -162,14 +164,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/harmonya/refs/heads/main/screenshots/harmonya-2026-09-02T145705.png
+screenshot: https://apis.io/screenshots/harmonya/harmonya-2026-09-02T145705.png
 security:
 - kind: authentication
   name: Harmonya Authentication

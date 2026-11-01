@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,16 +37,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Launchable (CloudBees Smart Tests) service API that the Launchable CLI calls to record builds, create test sessions, upload test results, request predictive test subsets and split subsets for para
   name: Launchable API
   slug: launchable-api
-artifact_total: 6
+artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/launchable/refs/heads/main/plans/launchable-plans-pricing.yml
+  href: https://artifacts.apis.io/launchable/plans/launchable-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/launchable-plans-pricing.yml
@@ -101,32 +103,32 @@ common:
   type: PrivacyPolicy
   url: https://www.cloudbees.com/legal/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/launchable/refs/heads/main/packages/launchable-packages.yml
+  href: https://artifacts.apis.io/launchable/packages/launchable-packages.yml
   title: ''
   type: Packages
   url: packages/launchable-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/launchable/refs/heads/main/cli/launchable-cli.yml
+  href: https://artifacts.apis.io/launchable/cli/launchable-cli.yml
   title: ''
   type: CLI
   url: cli/launchable-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/launchable/refs/heads/main/well-known/launchable-well-known.yml
+  href: https://artifacts.apis.io/launchable/well-known/launchable-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/launchable-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/launchable/refs/heads/main/well-known/launchable-security.txt
+  href: https://artifacts.apis.io/launchable/well-known/launchable-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/launchable-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/launchable/refs/heads/main/llms/launchable-llms.txt
+  href: https://artifacts.apis.io/launchable/llms/launchable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/launchable-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/launchable/refs/heads/main/conformance/launchable-conformance.yml
+  href: https://artifacts.apis.io/launchable/conformance/launchable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/launchable-conformance.yml
@@ -135,17 +137,17 @@ common:
   type: Compliance
   url: https://www.cloudbees.com/company/trust-center
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/launchable/refs/heads/main/security/launchable-trust-center.yml
+  href: https://artifacts.apis.io/launchable/security/launchable-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/launchable-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/launchable/refs/heads/main/security/launchable-domain-security.yml
+  href: https://artifacts.apis.io/launchable/security/launchable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/launchable-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/launchable/refs/heads/main/security/launchable-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/launchable/security/launchable-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/launchable-vulnerability-disclosure.yml
@@ -154,7 +156,7 @@ common:
   type: Security
   url: https://www.cloudbees.com/legal/security-policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/launchable/refs/heads/main/lifecycle/launchable-lifecycle.yml
+  href: https://artifacts.apis.io/launchable/lifecycle/launchable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/launchable-lifecycle.yml
@@ -163,28 +165,36 @@ common:
   type: StatusPage
   url: https://www.cloudbeesstatus.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/launchable/refs/heads/main/changelog/launchable-changelog.yml
+  href: https://artifacts.apis.io/launchable/changelog/launchable-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/launchable-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/launchable/refs/heads/main/conventions/launchable-conventions.yml
+  href: https://artifacts.apis.io/launchable/conventions/launchable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/launchable-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/launchable/refs/heads/main/authentication/launchable-authentication.yml
+  href: https://artifacts.apis.io/launchable/authentication/launchable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/launchable-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/launchable/refs/heads/main/sandbox/launchable-sandbox.yml
+  href: https://artifacts.apis.io/launchable/sandbox/launchable-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/launchable-sandbox.yml
 created: '2026-07-17'
 description: 'Launchable is a software development intelligence platform for continuous integration that applies machine learning to CI and test data to speed up software delivery. Its flagship capability, Predictive Test Selection, records builds, test sessions and test results from a team''s CI pipeline and returns a prioritized subset of tests most likely to fail for a given change, letting teams run a fraction of a suite while retaining most of its failure-detection power. The platform also provides test suite parallelization, flaky/unhealthy test detection, trends and test reporting, and Slack and GitHub notifications. Access is CLI-mediated: the open-source Launchable CLI (now the CloudBees Smart Tests CLI) wraps the service REST API and integrates with more than twenty test runners and build tools across Java, Python, Ruby, Go, JavaScript, .NET and Perl. Launchable was founded by Jenkins creator Kohsuke Kawaguchi and is now part of CloudBees, where the product ships as CloudBees Smart
   Tests.'
+finops:
+- has_sources: true
+  method: derived
+  name: Launchable Finops
+  primary_unit: ''
+  service_category: ''
+  slug: launchable-finops
+  template: true
 image: https://cdn.prod.website-files.com/695e1939655d6c0175b126da/69a531b363ec7c7abb4b8a30_OG-Smart-Tests.png
 layout: provider
 modified: '2026-07-19'
@@ -199,26 +209,26 @@ plans:
 - name: Launchable Plans Pricing
   plan_count: 1
   slug: launchable-plans-pricing
-random_paper: 5
+random_paper: 7
 score:
   band: developing
-  composite: 46.3
+  composite: 45.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.3
+  delta: 0.0
   facets:
     access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 47.4
-  previous_composite: 42.0
+  previous_composite: 45.6
   provenance:
     conformance: first-party
   regulatory:
@@ -227,14 +237,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/launchable/refs/heads/main/screenshots/launchable-2026-07-25T224613.png
+screenshot: https://apis.io/screenshots/launchable/launchable-2026-07-25T224613.png
 security:
 - kind: authentication
   name: Launchable Authentication

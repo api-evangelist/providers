@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -96,82 +98,82 @@ common:
   type: DataFusion
   url: https://cloud.google.com/data-fusion
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/packages/cask-data-packages.yml
+  href: https://artifacts.apis.io/cask-data/packages/cask-data-packages.yml
   title: ''
   type: Packages
   url: packages/cask-data-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/packages/cask-data-packages.yml
+  href: https://artifacts.apis.io/cask-data/packages/cask-data-packages.yml
   title: ''
   type: SDKs
   url: packages/cask-data-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/cli/cask-data-cli.yml
+  href: https://artifacts.apis.io/cask-data/cli/cask-data-cli.yml
   title: ''
   type: CLI
   url: cli/cask-data-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/sandbox/cask-data-sandbox.yml
+  href: https://artifacts.apis.io/cask-data/sandbox/cask-data-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cask-data-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/changelog/cask-data-changelog.yml
+  href: https://artifacts.apis.io/cask-data/changelog/cask-data-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cask-data-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/lifecycle/cask-data-lifecycle.yml
+  href: https://artifacts.apis.io/cask-data/lifecycle/cask-data-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cask-data-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/authentication/cask-data-authentication.yml
+  href: https://artifacts.apis.io/cask-data/authentication/cask-data-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cask-data-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/security/cask-data-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cask-data/security/cask-data-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cask-data-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/security/cask-data-domain-security.yml
+  href: https://artifacts.apis.io/cask-data/security/cask-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cask-data-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/conventions/cask-data-conventions.yml
+  href: https://artifacts.apis.io/cask-data/conventions/cask-data-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cask-data-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/data-model/cask-data-data-model.yml
+  href: https://artifacts.apis.io/cask-data/data-model/cask-data-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cask-data-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/errors/cask-data-problem-types.yml
+  href: https://artifacts.apis.io/cask-data/errors/cask-data-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cask-data-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/conformance/cask-data-conformance.yml
+  href: https://artifacts.apis.io/cask-data/conformance/cask-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cask-data-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/well-known/cask-data-well-known.yml
+  href: https://artifacts.apis.io/cask-data/well-known/cask-data-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cask-data-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/mcp/cask-data-mcp.yml
+  href: https://artifacts.apis.io/cask-data/mcp/cask-data-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cask-data-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/llms/cask-data-llms.txt
+  href: https://artifacts.apis.io/cask-data/llms/cask-data-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cask-data-llms.txt
@@ -187,12 +189,12 @@ overview: 'Cask Data is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cask Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, sandbox, and 23 more developer resources.'
-random_paper: 15
+random_paper: 9
 score:
   band: emerging
-  composite: 24.0
+  composite: 24.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -203,10 +205,10 @@ score:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 65.5
-    discoverability: 55.4
-    operational_transparency: 28.9
-  previous_composite: 24.0
+    developer_ergonomics: 69.0
+    discoverability: 48.2
+    operational_transparency: 31.6
+  previous_composite: 24.4
   provenance:
     conformance: derived
     mcp: derived
@@ -216,14 +218,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/screenshots/cask-data-2026-07-25T204727.png
+screenshot: https://apis.io/screenshots/cask-data/cask-data-2026-07-25T204727.png
 security:
 - kind: authentication
   name: Cask Data Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 29.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -75,7 +77,7 @@ apis:
   description: Current, forecast, and historical weather data
   name: Agromonitoring Weather API
   slug: agromonitoring-weather-api
-artifact_total: 78
+artifact_total: 77
 collections:
 - collection_type: postman
   name: Agromonitoring Agro NDVI History API
@@ -95,9 +97,6 @@ collections:
 - collection_type: postman
   name: Agromonitoring Agro NDVI History Weather API
   slug: postman-agromonitoring-weather-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Agromonitoring Agro NDVI History API
   slug: open-agromonitoring-ndvi-history-api
@@ -121,17 +120,17 @@ collections:
   slug: open-agromonitoring
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/plans/agromonitoring-plans-pricing.yml
+  href: https://artifacts.apis.io/agromonitoring/plans/agromonitoring-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agromonitoring-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/rate-limits/agromonitoring-rate-limits.yml
+  href: https://artifacts.apis.io/agromonitoring/rate-limits/agromonitoring-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agromonitoring-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/finops/agromonitoring-finops.yml
+  href: https://artifacts.apis.io/agromonitoring/finops/agromonitoring-finops.yml
   title: ''
   type: FinOps
   url: finops/agromonitoring-finops.yml
@@ -144,17 +143,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/agromonitoring/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/agentic-access/agromonitoring-agentic-access.yml
+  href: https://artifacts.apis.io/agromonitoring/agentic-access/agromonitoring-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/agromonitoring-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/security/agromonitoring-domain-security.yml
+  href: https://artifacts.apis.io/agromonitoring/security/agromonitoring-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agromonitoring-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/authentication/agromonitoring-authentication.yml
+  href: https://artifacts.apis.io/agromonitoring/authentication/agromonitoring-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agromonitoring-authentication.yml
@@ -191,17 +190,17 @@ common:
   type: PrivacyPolicy
   url: https://agromonitoring.com/privacy/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/json-ld/agromonitoring-context.jsonld
+  href: https://artifacts.apis.io/agromonitoring/json-ld/agromonitoring-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/agromonitoring-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/rules/agromonitoring-spectral-rules.yml
+  href: https://artifacts.apis.io/agromonitoring/rules/agromonitoring-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/agromonitoring-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/vocabulary/agromonitoring-vocabulary.yaml
+  href: https://artifacts.apis.io/agromonitoring/vocabulary/agromonitoring-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/agromonitoring-vocabulary.yaml
@@ -260,7 +259,7 @@ finops:
 - has_sources: false
   method: generated
   name: Agromonitoring Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: agromonitoring-finops
   template: true
@@ -361,7 +360,7 @@ plans:
 - name: Agromonitoring Plans Pricing
   plan_count: 3
   slug: agromonitoring-plans-pricing
-random_paper: 1
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Agromonitoring Rate Limits
@@ -392,7 +391,7 @@ rules:
   slug: agromonitoring-spectral-rules
 score:
   band: thin
-  composite: 32.1
+  composite: 37.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 67.0
@@ -400,15 +399,15 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 39.5
     contract_governance: 27.3
     contract_quality: 28.7
-    developer_ergonomics: 39.3
+    developer_ergonomics: 51.2
     discoverability: 62.5
     operational_transparency: 7.9
-  previous_composite: 33.6
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -422,13 +421,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/screenshots/agromonitoring-2026-06-20T170453.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/agromonitoring/agromonitoring-2026-06-20T170453.png
 security:
 - kind: authentication
   name: Agromonitoring Authentication

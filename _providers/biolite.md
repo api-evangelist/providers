@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Biolite exposes a GraphQL API via Shopify storefront, but ownership could not be verified.
@@ -32,22 +34,22 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biolite/refs/heads/main/llms/biolite-llms.txt
+  href: https://artifacts.apis.io/biolite/llms/biolite-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/biolite-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biolite/refs/heads/main/well-known/biolite-well-known.yml
+  href: https://artifacts.apis.io/biolite/well-known/biolite-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/biolite-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/biolite/refs/heads/main/hosts/biolite-hosts.yml
+  href: https://artifacts.apis.io/biolite/hosts/biolite-hosts.yml
   title: ''
   type: Hosts
   url: hosts/biolite-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/biolite/refs/heads/main/vendors/biolite-vendors.yml
+  href: https://artifacts.apis.io/biolite/vendors/biolite-vendors.yml
   title: ''
   type: Vendors
   url: vendors/biolite-vendors.yml
@@ -76,7 +78,7 @@ common:
   type: Documentation
   url: https://help.bioliteenergy.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/biolite/refs/heads/main/security/biolite-domain-security.yml
+  href: https://artifacts.apis.io/biolite/security/biolite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/biolite-domain-security.yml
@@ -96,10 +98,10 @@ overview: 'Biolite is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Biolite''s developer surface includes support, engineering blog, documentation, and 9 more developer resources.'
-random_paper: 18
+random_paper: 0
 score:
   band: emerging
-  composite: 13.9
+  composite: 13.2
   coverage:
     artifact_dirs: 8
     catalog_earned: 32.0
@@ -113,7 +115,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -122,21 +124,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 13.9
+  previous_composite: 13.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/biolite/refs/heads/main/screenshots/biolite-2026-10-11T102317.png
+screenshot: https://apis.io/screenshots/biolite/biolite-2026-10-11T102317.png
 security:
 - kind: domain-security
   name: Biolite Domain Security

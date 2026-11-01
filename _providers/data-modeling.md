@@ -4,6 +4,6 @@ layout: provider
 name: data-modeling
 nav: Providers
 network: true
-random_paper: 4
+random_paper: 6
 slug: data-modeling
 ---

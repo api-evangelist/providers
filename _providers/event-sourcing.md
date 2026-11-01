@@ -4,6 +4,6 @@ layout: provider
 name: event-sourcing
 nav: Providers
 network: true
-random_paper: 13
+random_paper: 1
 slug: event-sourcing
 ---

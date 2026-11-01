@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'Disburse money programmatically to any Indonesian bank account or e-wallet. Create single and bulk disbursements, inquire bank accounts, list bank codes, and receive callbacks on disbursement status. '
@@ -54,7 +56,7 @@ asyncapis:
   slug: flip-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flip/refs/heads/main/security/flip-domain-security.yml
+  href: https://artifacts.apis.io/flip/security/flip-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flip-domain-security.yml
@@ -119,47 +121,47 @@ common:
   type: ChangeLog
   url: https://docs.flip.id/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flip/refs/heads/main/changelog/flip-changelog.yml
+  href: https://artifacts.apis.io/flip/changelog/flip-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/flip-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flip/refs/heads/main/authentication/flip-authentication.yml
+  href: https://artifacts.apis.io/flip/authentication/flip-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flip-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flip/refs/heads/main/conventions/flip-conventions.yml
+  href: https://artifacts.apis.io/flip/conventions/flip-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flip-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flip/refs/heads/main/conventions/flip-conventions.yml
+  href: https://artifacts.apis.io/flip/conventions/flip-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/flip-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/flip/refs/heads/main/sandbox/flip-sandbox.yml
+  href: https://artifacts.apis.io/flip/sandbox/flip-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/flip-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flip/refs/heads/main/asyncapi/flip-webhooks.yml
+  href: https://artifacts.apis.io/flip/asyncapi/flip-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/flip-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flip/refs/heads/main/lifecycle/flip-lifecycle.yml
+  href: https://artifacts.apis.io/flip/lifecycle/flip-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flip-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flip/refs/heads/main/packages/flip-packages.yml
+  href: https://artifacts.apis.io/flip/packages/flip-packages.yml
   title: ''
   type: Packages
   url: packages/flip-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flip/refs/heads/main/packages/flip-packages.yml
+  href: https://artifacts.apis.io/flip/packages/flip-packages.yml
   title: ''
   type: SDKs
   url: packages/flip-packages.yml
@@ -178,12 +180,12 @@ overview: 'Flip is listed with 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Flip''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 18 more developer resources.'
-random_paper: 9
+random_paper: 19
 score:
-  band: thin
-  composite: 39.2
+  band: developing
+  composite: 42.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -191,12 +193,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 64.3
     discoverability: 71.4
-    operational_transparency: 26.3
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -204,21 +206,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 39.2
+  previous_composite: 42.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/flip/refs/heads/main/screenshots/flip-2026-07-25T214801.png
+screenshot: https://apis.io/screenshots/flip/flip-2026-07-25T214801.png
 security:
 - kind: authentication
   name: Flip Authentication

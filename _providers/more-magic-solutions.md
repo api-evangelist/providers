@@ -19,7 +19,7 @@ name: More Magic Solutions
 nav: Providers
 network: true
 overview: More Magic Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile Payments, Mobile Money, Mobile Commerce, and Fintech.
-random_paper: 0
+random_paper: 6
 slug: more-magic-solutions
 tags:
 - Company

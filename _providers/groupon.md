@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'Groupon''s own public API gateway. Live and Groupon-operated (responses carry x-brand: groupon and Envoy/GCP upstream headers), but gated: every path, including /v2/deals.json, /graphql and /.well-know'
@@ -97,67 +99,67 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/groupon
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groupon/refs/heads/main/llms/groupon-llms.txt
+  href: https://artifacts.apis.io/groupon/llms/groupon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/groupon-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/groupon/refs/heads/main/well-known/groupon-robots.txt
+  href: https://artifacts.apis.io/groupon/well-known/groupon-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/groupon-robots.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groupon/refs/heads/main/authentication/groupon-authentication.yml
+  href: https://artifacts.apis.io/groupon/authentication/groupon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/groupon-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groupon/refs/heads/main/errors/groupon-problem-types.yml
+  href: https://artifacts.apis.io/groupon/errors/groupon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/groupon-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groupon/refs/heads/main/conventions/groupon-conventions.yml
+  href: https://artifacts.apis.io/groupon/conventions/groupon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/groupon-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groupon/refs/heads/main/lifecycle/groupon-lifecycle.yml
+  href: https://artifacts.apis.io/groupon/lifecycle/groupon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/groupon-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/groupon/refs/heads/main/packages/groupon-packages.yml
+  href: https://artifacts.apis.io/groupon/packages/groupon-packages.yml
   title: ''
   type: Packages
   url: packages/groupon-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/groupon/refs/heads/main/plans/groupon-plans-pricing.yml
+  href: https://artifacts.apis.io/groupon/plans/groupon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/groupon-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/groupon/refs/heads/main/rate-limits/groupon-rate-limits.yml
+  href: https://artifacts.apis.io/groupon/rate-limits/groupon-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/groupon-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groupon/refs/heads/main/conformance/groupon-conformance.yml
+  href: https://artifacts.apis.io/groupon/conformance/groupon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/groupon-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groupon/refs/heads/main/security/groupon-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/groupon/security/groupon-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/groupon-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groupon/refs/heads/main/security/groupon-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/groupon/security/groupon-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/groupon-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groupon/refs/heads/main/security/groupon-domain-security.yml
+  href: https://artifacts.apis.io/groupon/security/groupon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/groupon-domain-security.yml
@@ -193,14 +195,14 @@ press:
 - date: ''
   title: Groupon, Inc. - Press Releases
   url: https://investor.groupon.com/press-releases/default.aspx
-random_paper: 8
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Groupon Rate Limits
   slug: groupon-rate-limits
 score:
   band: thin
-  composite: 26.4
+  composite: 28.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 35.0
@@ -208,15 +210,15 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 69.6
-    operational_transparency: 13.2
-  previous_composite: 26.3
+    discoverability: 62.5
+    operational_transparency: 15.8
+  previous_composite: 28.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -225,15 +227,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 30.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/groupon/refs/heads/main/screenshots/groupon-2026-06-20T182418.png
+screenshot: https://apis.io/screenshots/groupon/groupon-2026-06-20T182418.png
 security:
 - kind: authentication
   name: Groupon Authentication

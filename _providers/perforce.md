@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.9
-  scored_at: '2026-10-17'
+  score: 30.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -98,7 +100,7 @@ apis:
   description: Endpoints for retrieving Swarm server version information.
   name: Perforce Version API
   slug: perforce-version-api
-artifact_total: 97
+artifact_total: 96
 collections:
 - collection_type: postman
   name: Perforce Helix Swarm Activity API
@@ -119,9 +121,6 @@ collections:
   name: Perforce Helix Swarm Activity Version API
   slug: postman-perforce-version-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Perforce Helix Swarm Activity API
   slug: open-perforce-activity-api
 - collection_type: open
@@ -141,22 +140,22 @@ collections:
   slug: open-perforce-version-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/plans/perforce-plans-pricing.yml
+  href: https://artifacts.apis.io/perforce/plans/perforce-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/perforce-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/rate-limits/perforce-rate-limits.yml
+  href: https://artifacts.apis.io/perforce/rate-limits/perforce-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/perforce-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/finops/perforce-finops.yml
+  href: https://artifacts.apis.io/perforce/finops/perforce-finops.yml
   title: ''
   type: FinOps
   url: finops/perforce-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/capabilities/perforce-capability-edges.yml
+  href: https://artifacts.apis.io/perforce/capabilities/perforce-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/perforce-capability-edges.yml
@@ -185,17 +184,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/perforce/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/agentic-access/perforce-agentic-access.yml
+  href: https://artifacts.apis.io/perforce/agentic-access/perforce-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/perforce-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/security/perforce-domain-security.yml
+  href: https://artifacts.apis.io/perforce/security/perforce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/perforce-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/authentication/perforce-authentication.yml
+  href: https://artifacts.apis.io/perforce/authentication/perforce-authentication.yml
   title: ''
   type: Authentication
   url: authentication/perforce-authentication.yml
@@ -448,7 +447,7 @@ plans:
 - name: Perforce Plans Pricing
   plan_count: 5
   slug: perforce-plans-pricing
-random_paper: 18
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Perforce Rate Limits
@@ -479,7 +478,7 @@ rules:
   slug: perforce-spectral-rules
 score:
   band: developing
-  composite: 46.8
+  composite: 48.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 51.9
@@ -487,18 +486,15 @@ score:
     catalog_gap: 63.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 13.6
-    contract_quality: 59.2
+    contract_quality: 57.5
     developer_ergonomics: 65.5
     discoverability: 63.3
-    operational_transparency: 39.5
-  open_source:
-    applies: true
-    score: 40.0
-  previous_composite: 48.2
+    operational_transparency: 42.1
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     contracts:
@@ -512,13 +508,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/screenshots/perforce-2026-06-20T191608.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/perforce/perforce-2026-06-20T191608.png
 security:
 - kind: authentication
   name: Perforce Authentication

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,22 +25,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blinker/refs/heads/main/hosts/blinker-hosts.yml
+  href: https://artifacts.apis.io/blinker/hosts/blinker-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blinker-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blinker/refs/heads/main/vendors/blinker-vendors.yml
+  href: https://artifacts.apis.io/blinker/vendors/blinker-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blinker-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blinker/refs/heads/main/security/blinker-domain-security.yml
+  href: https://artifacts.apis.io/blinker/security/blinker-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blinker-domain-security.yml
@@ -61,8 +63,8 @@ modified: '2026-09-29'
 name: Blinker
 nav: Providers
 network: true
-overview: Blinker is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AutoWarranty, CallCenter, Software-as-a-Service, Platform, and Insurance.
-random_paper: 17
+overview: Blinker is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AutoWarranty, Call Center, Software-as-a-Service, Platform, and Insurance.
+random_paper: 23
 score:
   band: minimal
   composite: 2.8
@@ -81,12 +83,6 @@ score:
     developer_ergonomics: 0.0
     discoverability: 44.6
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: venue_as_website
   previous_composite: 2.8
   provenance:
     mcp: derived
@@ -96,8 +92,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
@@ -111,7 +107,7 @@ security:
 slug: blinker
 tags:
 - AutoWarranty
-- CallCenter
+- Call Center
 - Software-as-a-Service
 - Platform
 - Insurance

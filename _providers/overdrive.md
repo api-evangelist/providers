@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Discovery APIs to search and find information about titles in a library's OverDrive collection — Library Account, Search, Metadata, and Library Availability.
@@ -76,7 +78,7 @@ common:
   type: GettingStarted
   url: https://developer.overdrive.com/getting-started/api-overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/overdrive/refs/heads/main/authentication/overdrive-authentication.yml
+  href: https://artifacts.apis.io/overdrive/authentication/overdrive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/overdrive-authentication.yml
@@ -93,37 +95,37 @@ common:
   type: StatusPage
   url: https://status.overdrive.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/overdrive/refs/heads/main/lifecycle/overdrive-lifecycle.yml
+  href: https://artifacts.apis.io/overdrive/lifecycle/overdrive-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/overdrive-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/overdrive/refs/heads/main/conventions/overdrive-conventions.yml
+  href: https://artifacts.apis.io/overdrive/conventions/overdrive-conventions.yml
   title: ''
   type: Conventions
   url: conventions/overdrive-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/overdrive/refs/heads/main/conformance/overdrive-conformance.yml
+  href: https://artifacts.apis.io/overdrive/conformance/overdrive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/overdrive-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/overdrive/refs/heads/main/well-known/overdrive-well-known.yml
+  href: https://artifacts.apis.io/overdrive/well-known/overdrive-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/overdrive-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/overdrive/refs/heads/main/well-known/overdrive-security.txt
+  href: https://artifacts.apis.io/overdrive/well-known/overdrive-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/overdrive-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/overdrive/refs/heads/main/security/overdrive-domain-security.yml
+  href: https://artifacts.apis.io/overdrive/security/overdrive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/overdrive-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/overdrive/refs/heads/main/security/overdrive-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/overdrive/security/overdrive-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/overdrive-vulnerability-disclosure.yml
@@ -132,12 +134,12 @@ common:
   type: Security
   url: https://developer.overdrive.com/.well-known/security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/overdrive/refs/heads/main/mcp/overdrive-mcp.yml
+  href: https://artifacts.apis.io/overdrive/mcp/overdrive-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/overdrive-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/overdrive/refs/heads/main/llms/overdrive-llms.txt
+  href: https://artifacts.apis.io/overdrive/llms/overdrive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/overdrive-llms.txt
@@ -153,7 +155,7 @@ overview: 'OverDrive is listed with 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   OverDrive''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, support, signup flow, and 14 more developer resources.'
-random_paper: 14
+random_paper: 22
 score:
   band: emerging
   composite: 25.8
@@ -164,15 +166,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 78.6
-    operational_transparency: 21.1
-  previous_composite: 25.3
+    discoverability: 71.4
+    operational_transparency: 26.3
+  previous_composite: 25.8
   provenance:
     conformance: derived
     mcp: derived
@@ -182,14 +184,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/overdrive/refs/heads/main/screenshots/overdrive-2026-08-07T191124.png
+screenshot: https://apis.io/screenshots/overdrive/overdrive-2026-08-07T191124.png
 security:
 - kind: authentication
   name: Overdrive Authentication

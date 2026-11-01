@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Reforge Launch delivers feature flags, live configuration, dynamic log levels, and experiments through first-party SDKs and a CLI. SDKs fetch configuration from a global delivery network and evaluate '
@@ -43,7 +45,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reforge/refs/heads/main/security/reforge-domain-security.yml
+  href: https://artifacts.apis.io/reforge/security/reforge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reforge-domain-security.yml
@@ -92,47 +94,47 @@ common:
   type: PrivacyPolicy
   url: https://www.reforge.com/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/reforge/refs/heads/main/packages/reforge-packages.yml
+  href: https://artifacts.apis.io/reforge/packages/reforge-packages.yml
   title: ''
   type: Packages
   url: packages/reforge-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/reforge/refs/heads/main/packages/reforge-packages.yml
+  href: https://artifacts.apis.io/reforge/packages/reforge-packages.yml
   title: ''
   type: SDKs
   url: packages/reforge-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/reforge/refs/heads/main/cli/reforge-cli.yml
+  href: https://artifacts.apis.io/reforge/cli/reforge-cli.yml
   title: ''
   type: CLI
   url: cli/reforge-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reforge/refs/heads/main/mcp/reforge-mcp.yml
+  href: https://artifacts.apis.io/reforge/mcp/reforge-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/reforge-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reforge/refs/heads/main/authentication/reforge-authentication.yml
+  href: https://artifacts.apis.io/reforge/authentication/reforge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reforge-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reforge/refs/heads/main/conventions/reforge-conventions.yml
+  href: https://artifacts.apis.io/reforge/conventions/reforge-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reforge-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reforge/refs/heads/main/lifecycle/reforge-lifecycle.yml
+  href: https://artifacts.apis.io/reforge/lifecycle/reforge-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reforge-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reforge/refs/heads/main/conformance/reforge-conformance.yml
+  href: https://artifacts.apis.io/reforge/conformance/reforge-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reforge-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reforge/refs/heads/main/llms/reforge-llms.txt
+  href: https://artifacts.apis.io/reforge/llms/reforge-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reforge-llms.txt
@@ -152,12 +154,12 @@ overview: 'Reforge is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Reforge''s developer surface includes documentation, getting-started guide, engineering blog, pricing, CLI, authentication, and 15 more developer resources.'
-random_paper: 20
+random_paper: 2
 score:
   band: thin
-  composite: 30.0
+  composite: 32.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -165,13 +167,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 71.7
-    operational_transparency: 10.5
-  previous_composite: 30.0
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 32.0
   provenance:
     conformance: derived
     mcp: first-party
@@ -181,14 +183,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/reforge/refs/heads/main/screenshots/reforge-2026-09-02T153231.png
+screenshot: https://apis.io/screenshots/reforge/reforge-2026-09-02T153231.png
 security:
 - kind: authentication
   name: Reforge Authentication

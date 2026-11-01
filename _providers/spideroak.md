@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,13 +38,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Aranya Client API is the library interface an application uses to talk to the Aranya daemon. It covers team creation, device onboarding and removal, role and permission management (including custo
   name: Aranya Client API
   slug: spideroak-aranya-client
-artifact_total: 6
+artifact_total: 7
 common:
 - group: commercial
   title: ''
@@ -117,82 +119,90 @@ common:
   type: ChangeLog
   url: https://github.com/aranya-project/aranya/releases
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spideroak/refs/heads/main/vocabulary/spideroak-vocabulary.yml
+  href: https://artifacts.apis.io/spideroak/vocabulary/spideroak-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/spideroak-vocabulary.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spideroak/refs/heads/main/packages/spideroak-packages.yml
+  href: https://artifacts.apis.io/spideroak/packages/spideroak-packages.yml
   title: ''
   type: Packages
   url: packages/spideroak-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spideroak/refs/heads/main/packages/spideroak-packages.yml
+  href: https://artifacts.apis.io/spideroak/packages/spideroak-packages.yml
   title: ''
   type: SDKs
   url: packages/spideroak-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spideroak/refs/heads/main/llms/spideroak-llms.txt
+  href: https://artifacts.apis.io/spideroak/llms/spideroak-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spideroak-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spideroak/refs/heads/main/conformance/spideroak-conformance.yml
+  href: https://artifacts.apis.io/spideroak/conformance/spideroak-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spideroak-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spideroak/refs/heads/main/errors/spideroak-error-codes.yml
+  href: https://artifacts.apis.io/spideroak/errors/spideroak-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/spideroak-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spideroak/refs/heads/main/lifecycle/spideroak-lifecycle.yml
+  href: https://artifacts.apis.io/spideroak/lifecycle/spideroak-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spideroak-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spideroak/refs/heads/main/authentication/spideroak-authentication.yml
+  href: https://artifacts.apis.io/spideroak/authentication/spideroak-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spideroak-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spideroak/refs/heads/main/conventions/spideroak-conventions.yml
+  href: https://artifacts.apis.io/spideroak/conventions/spideroak-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spideroak-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spideroak/refs/heads/main/data-model/spideroak-data-model.yml
+  href: https://artifacts.apis.io/spideroak/data-model/spideroak-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spideroak-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spideroak/refs/heads/main/changelog/spideroak-changelog.yml
+  href: https://artifacts.apis.io/spideroak/changelog/spideroak-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/spideroak-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spideroak/refs/heads/main/plans/spideroak-plans-pricing.yml
+  href: https://artifacts.apis.io/spideroak/plans/spideroak-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spideroak-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spideroak/refs/heads/main/rate-limits/spideroak-rate-limits.yml
+  href: https://artifacts.apis.io/spideroak/rate-limits/spideroak-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spideroak-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spideroak/refs/heads/main/security/spideroak-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/spideroak/security/spideroak-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/spideroak-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spideroak/refs/heads/main/security/spideroak-domain-security.yml
+  href: https://artifacts.apis.io/spideroak/security/spideroak-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spideroak-domain-security.yml
 created: '2026-08-29'
 description: 'SpiderOak (SpiderOak, Inc. / SpiderOak Mission Systems) builds zero-trust access governance and secure data exchange software for defense, aerospace and commercial operators working in contested, disconnected, degraded, intermittent and low-bandwidth (DDIL) environments. Its developer surface is Aranya, the open-source access-governance and secure-data-exchange platform that also powers the commercial OrbitSecure product: a Rust client library, a long-running daemon, a domain-specific policy language with its own compiler and virtual machine, and Aranya Fast Channels (AFC) for buffer-based encryption without a transport. Aranya ships a public C API (a cbindgen-generated header with 111 public functions) and a Rust API published as 31 crates on crates.io, with documentation, specifications and a 57-term glossary on the Aranya Project docs site. SpiderOak also operates the legacy SpiderOak ONE no-knowledge encrypted backup product and Tactical Edge Cyber Services (TECS) consulting.'
+finops:
+- has_sources: true
+  method: derived
+  name: Spideroak Finops
+  primary_unit: ''
+  service_category: ''
+  slug: spideroak-finops
+  template: true
 image: https://spideroak.com/wp-content/uploads/2024/09/SpiderOak-Logo-v202409-white.png
 layout: provider
 modified: '2026-08-29'
@@ -207,30 +217,30 @@ plans:
 - name: Spideroak Plans Pricing
   plan_count: 2
   slug: spideroak-plans-pricing
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Spideroak Rate Limits
   slug: spideroak-rate-limits
 score:
   band: developing
-  composite: 44.8
+  composite: 44.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 45.0
     catalog_earned_first_party: 13.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 73.7
     contract_governance: 33.3
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 64.3
-    operational_transparency: 28.9
-  previous_composite: 44.7
+    discoverability: 57.1
+    operational_transparency: 31.6
+  previous_composite: 44.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -246,14 +256,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/spideroak/refs/heads/main/screenshots/spideroak-2026-09-02T160426.png
+screenshot: https://apis.io/screenshots/spideroak/spideroak-2026-09-02T160426.png
 security:
 - kind: authentication
   name: Spideroak Authentication

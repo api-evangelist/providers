@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-17'
+  score: 29.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,56 +48,56 @@ agentic_access:
   summary_line: 27 operations
 api_count: 2
 apis:
-- baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
-  baseurl_source: declared
-  description: Data Holder Customer endpoints
+- baseURL: https://mtls.dh.example.com/cds-au/v1
+  baseurl_source: spec
+  description: Data Holder Customer endpoints. Contract is the Consumer Data Standards (Data Standards Body, dsb.gov.au) specification that Red Energy implements as a CDR energy data holder (CDR Register brand 39230
   name: Red Energy Data Holder Customers API
   slug: red-energy-data-holder-customers-api
-- baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
+- baseURL: https://public.cdr.redenergy.com.au/cds-au/v1
   baseurl_source: declared
-  description: Data Holder Operations endpoints
+  description: Data Holder Operations endpoints. Contract is the Consumer Data Standards (Data Standards Body, dsb.gov.au) specification that Red Energy implements as a CDR energy data holder (CDR Register brand 392
   name: Red Energy Data Holder Operations API
   slug: red-energy-data-holder-operations-api
-- baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
-  baseurl_source: declared
-  description: Distributed Energy Resource endpoints
+- baseURL: https://mtls.dh.example.com/cds-au/v1
+  baseurl_source: spec
+  description: Distributed Energy Resource endpoints. Contract is the Consumer Data Standards (Data Standards Body, dsb.gov.au) specification that Red Energy implements as a CDR energy data holder (CDR Register bran
   name: Red Energy Distributed Energy Resources API
   slug: red-energy-distributed-energy-resources-api
-- baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
-  baseurl_source: declared
-  description: Electricity Service Point endpoints
+- baseURL: https://mtls.dh.example.com/cds-au/v1
+  baseurl_source: spec
+  description: 'Electricity Service Point endpoints. Contract is the Consumer Data Standards (Data Standards Body, dsb.gov.au) specification that Red Energy implements as a CDR energy data holder (CDR Register brand '
   name: Red Energy Electricity Service Points API
   slug: red-energy-electricity-service-points-api
-- baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
-  baseurl_source: declared
-  description: Electricity Usage endpoints
+- baseURL: https://mtls.dh.example.com/cds-au/v1
+  baseurl_source: spec
+  description: Electricity Usage endpoints. Contract is the Consumer Data Standards (Data Standards Body, dsb.gov.au) specification that Red Energy implements as a CDR energy data holder (CDR Register brand 39230258
   name: Red Energy Electricity Usage API
   slug: red-energy-electricity-usage-api
-- baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
-  baseurl_source: declared
-  description: Energy Account Balance endpoints
+- baseURL: https://mtls.dh.example.com/cds-au/v1
+  baseurl_source: spec
+  description: Energy Account Balance endpoints. Contract is the Consumer Data Standards (Data Standards Body, dsb.gov.au) specification that Red Energy implements as a CDR energy data holder (CDR Register brand 392
   name: Red Energy Account Balances API
   slug: red-energy-energy-account-balances-api
-- baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
-  baseurl_source: declared
-  description: Energy Account Billing endpoints
+- baseURL: https://mtls.dh.example.com/cds-au/v1
+  baseurl_source: spec
+  description: Energy Account Billing endpoints. Contract is the Consumer Data Standards (Data Standards Body, dsb.gov.au) specification that Red Energy implements as a CDR energy data holder (CDR Register brand 392
   name: Red Energy Account Billing API
   slug: red-energy-energy-account-billing-api
-- baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
-  baseurl_source: declared
-  description: Energy Account endpoints
+- baseURL: https://mtls.dh.example.com/cds-au/v1
+  baseurl_source: spec
+  description: Energy Account endpoints. Contract is the Consumer Data Standards (Data Standards Body, dsb.gov.au) specification that Red Energy implements as a CDR energy data holder (CDR Register brand 39230258-a5
   name: Red Energy Accounts API
   slug: red-energy-energy-accounts-api
 - baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
   baseurl_source: declared
-  description: Energy Plan endpoints
+  description: Energy Plan endpoints. Contract is the Consumer Data Standards (Data Standards Body, dsb.gov.au) specification that Red Energy implements as a CDR energy data holder (CDR Register brand 39230258-a56c-
   name: Red Energy Plans API
   slug: red-energy-energy-plans-api
 arazzos:
 - description: Check that Red Energy's CDR implementation is available, then list its published electricity plans and pull the full tariff detail for one of them. Every step is unauthenticated — no API key, no signu
   name: Compare Red Energy tariff plans
   slug: red-energy-compare-plans-workflow
-artifact_total: 24
+artifact_total: 49
 collections:
 - collection_type: open
   name: CDR Common API
@@ -104,68 +106,93 @@ collections:
   name: CDR Energy API
   slug: open-red-energy-cds-energy
 common:
+- group: design
+  href: https://artifacts.apis.io/red-energy/rules/red-energy-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/red-energy-rules.yml
+- group: design
+  href: https://artifacts.apis.io/red-energy/json-ld/red-energy-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/red-energy-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/red-energy/vocabulary/red-energy-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/red-energy-vocabulary.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/capabilities/red-energy-capability-edges.yml
+  href: https://artifacts.apis.io/red-energy/overlays/red-energy-data-holder-customers-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/red-energy-data-holder-customers-api-overlay.yaml
+- group: other
+  href: https://artifacts.apis.io/red-energy/hosts/red-energy-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/red-energy-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/red-energy/integrations/red-energy-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/red-energy-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/red-energy/vendors/red-energy-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/red-energy-vendors.yml
+- group: other
+  href: https://artifacts.apis.io/red-energy/capabilities/red-energy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/red-energy-capability-edges.yml
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/overlays/red-energy-cds-energy-overlay.yaml
-  title: ''
-  type: Overlay
-  url: overlays/red-energy-cds-energy-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/skills/red-energy-compare-energy-plans.md
+  href: https://artifacts.apis.io/red-energy/skills/red-energy-compare-energy-plans.md
   title: ''
   type: AgentSkill
   url: skills/red-energy-compare-energy-plans.md
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/overlays/red-energy-cds-common-overlay.yaml
-  title: ''
-  type: Overlay
-  url: overlays/red-energy-cds-common-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/skills/red-energy-check-cdr-availability.md
+  href: https://artifacts.apis.io/red-energy/skills/red-energy-check-cdr-availability.md
   title: ''
   type: AgentSkill
   url: skills/red-energy-check-cdr-availability.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/skills/red-energy-share-consumer-energy-data.md
+  href: https://artifacts.apis.io/red-energy/skills/red-energy-share-consumer-energy-data.md
   title: ''
   type: AgentSkill
   url: skills/red-energy-share-consumer-energy-data.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/agentic-access/red-energy-agentic-access.yml
+  href: https://artifacts.apis.io/red-energy/agentic-access/red-energy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/red-energy-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/security/red-energy-domain-security.yml
+  href: https://artifacts.apis.io/red-energy/security/red-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/red-energy-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/authentication/red-energy-authentication.yml
+  href: https://artifacts.apis.io/red-energy/authentication/red-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/red-energy-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/scopes/red-energy-scopes.yml
+  href: https://artifacts.apis.io/red-energy/scopes/red-energy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/red-energy-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/conventions/red-energy-conventions.yml
+  href: https://artifacts.apis.io/red-energy/conventions/red-energy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/red-energy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/errors/red-energy-problem-types.yml
+  href: https://artifacts.apis.io/red-energy/errors/red-energy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/red-energy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/lifecycle/red-energy-lifecycle.yml
+  href: https://artifacts.apis.io/red-energy/lifecycle/red-energy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/red-energy-lifecycle.yml
@@ -182,17 +209,17 @@ common:
   type: Roadmap
   url: https://consumerdatastandardsaustralia.github.io/standards/#future-dated-obligations
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/changelog/red-energy-changelog.yml
+  href: https://artifacts.apis.io/red-energy/changelog/red-energy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/red-energy-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/rate-limits/red-energy-rate-limits.yml
+  href: https://artifacts.apis.io/red-energy/rate-limits/red-energy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/red-energy-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/conformance/red-energy-conformance.yml
+  href: https://artifacts.apis.io/red-energy/conformance/red-energy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/red-energy-conformance.yml
@@ -201,42 +228,42 @@ common:
   type: Compliance
   url: https://www.redenergy.com.au/docs/Red-Energy-Consumer-Data-Right-Policy.pdf
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/data-model/red-energy-data-model.yml
+  href: https://artifacts.apis.io/red-energy/data-model/red-energy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/red-energy-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/packages/red-energy-packages.yml
+  href: https://artifacts.apis.io/red-energy/packages/red-energy-packages.yml
   title: ''
   type: Packages
   url: packages/red-energy-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/mcp/red-energy-mcp.yml
+  href: https://artifacts.apis.io/red-energy/mcp/red-energy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/red-energy-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/mcp/red-energy-tool-crosswalk.yml
+  href: https://artifacts.apis.io/red-energy/mcp/red-energy-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/red-energy-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/red-energy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/examples/
+  href: https://artifacts.apis.io/red-energy/examples/
   title: ''
   type: Examples
   url: examples/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/llms/red-energy-llms.txt
+  href: https://artifacts.apis.io/red-energy/llms/red-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/red-energy-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/arazzo/red-energy-compare-plans-workflow.yml
+  href: https://artifacts.apis.io/red-energy/arazzo/red-energy-compare-plans-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-energy-compare-plans-workflow.yml
@@ -322,43 +349,126 @@ examples:
   name: Red Energy List Energy Plans Example
   slug: red-energy-list-energy-plans-example
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/red-energy.png
+json_schemas:
+- name: EnergyAccountDetailResponseV4
+  property_count: 3
+  slug: red-energy-energy-account-detail-response-v4
+- name: EnergyAccountListResponseV2
+  property_count: 3
+  slug: red-energy-energy-account-list-response-v2
+- name: EnergyBalanceListResponse
+  property_count: 3
+  slug: red-energy-energy-balance-list-response
+- name: EnergyBalanceResponse
+  property_count: 3
+  slug: red-energy-energy-balance-response
+- name: EnergyBillingListResponseV3
+  property_count: 3
+  slug: red-energy-energy-billing-list-response-v3
+- name: EnergyConcessionsResponse
+  property_count: 3
+  slug: red-energy-energy-concessions-response
+- name: EnergyDerDetailResponse
+  property_count: 3
+  slug: red-energy-energy-der-detail-response
+- name: EnergyDerListResponse
+  property_count: 3
+  slug: red-energy-energy-der-list-response
+- name: EnergyInvoiceListResponse
+  property_count: 3
+  slug: red-energy-energy-invoice-list-response
+- name: EnergyPaymentScheduleResponse
+  property_count: 3
+  slug: red-energy-energy-payment-schedule-response
+- name: EnergyPlanListResponse
+  property_count: 3
+  slug: red-energy-energy-plan-list-response
+- name: EnergyPlanResponseV3
+  property_count: 3
+  slug: red-energy-energy-plan-response-v3
+- name: EnergyServicePointDetailResponseV2
+  property_count: 3
+  slug: red-energy-energy-service-point-detail-response-v2
+- name: EnergyServicePointListResponseV2
+  property_count: 3
+  slug: red-energy-energy-service-point-list-response-v2
+- name: EnergyUsageListResponse
+  property_count: 3
+  slug: red-energy-energy-usage-list-response
+- name: ResponseCommonCustomerDetailV2
+  property_count: 3
+  slug: red-energy-response-common-customer-detail-v2
+- name: ResponseCommonCustomer
+  property_count: 3
+  slug: red-energy-response-common-customer
+- name: ResponseCommonDiscoveryStatus
+  property_count: 3
+  slug: red-energy-response-common-discovery-status
+- name: ResponseDiscoveryOutagesList
+  property_count: 3
+  slug: red-energy-response-discovery-outages-list
+jsonld:
+- class_count: 120
+  name: Red Energy Context
+  property_count: 299
+  slug: red-energy-context
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-21'
 name: Red Energy
 nav: Providers
 network: true
 overview: 'Red Energy publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Data Holder Customers API, Data Holder Operations API, Distributed Energy Resources API, and 6 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
 
 
-  Red Energy''s developer surface includes authentication, changelog, code examples, status page, documentation, API reference, support, and 35 more developer resources.'
-random_paper: 20
+  The Red Energy catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Red Energy''s developer surface includes authentication, changelog, code examples, status page, documentation, API reference, support, and 40 more developer resources.'
+plans:
+- name: Red Energy Plans Pricing
+  plan_count: 0
+  slug: red-energy-plans-pricing
+random_paper: 2
 rate_limits:
 - limit_count: 15
   name: Red Energy Rate Limits
   slug: red-energy-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Red Energy API Rules
+  rule_count: 16
+  severity_counts:
+    error: 15
+    hint: 0
+    info: 1
+    warn: 0
+  slug: red-energy-rules
 scopes:
 - name: Red Energy Scopes
   scope_count: 11
   slug: red-energy-scopes
   summary_line: 11 scopes · authorizationCode
 score:
-  band: developing
-  composite: 50.6
+  band: strong
+  composite: 56.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.0
+    artifact_dirs: 33
+    catalog_earned: 69.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 52.6
-    contract_governance: 18.2
-    contract_quality: 49.3
+    contract_governance: 33.3
+    contract_quality: 62.9
     developer_ergonomics: 35.1
-    discoverability: 66.1
-    operational_transparency: 68.4
+    discoverability: 57.1
+    operational_transparency: 76.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -366,7 +476,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 50.6
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -383,13 +493,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 38.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/screenshots/red-energy-2026-10-11T193404.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/red-energy/red-energy-2026-10-11T193404.png
 security:
 - kind: authentication
   name: Red Energy Authentication
@@ -398,7 +509,15 @@ security:
 - kind: domain-security
   name: Red Energy Domain Security
   slug: red-energy-domain-security
-  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: red-energy-check-cdr-availability
+  slug: red-energy-check-cdr-availability
+- name: red-energy-compare-energy-plans
+  slug: red-energy-compare-energy-plans
+- name: red-energy-share-consumer-energy-data
+  slug: red-energy-share-consumer-energy-data
 slug: red-energy
 tags:
 - Energy

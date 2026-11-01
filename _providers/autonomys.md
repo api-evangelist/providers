@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.8
-  scored_at: '2026-10-17'
+  score: 18.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://mainnet.auto-drive.autonomys.xyz
@@ -47,11 +49,8 @@ apis:
   description: The Auto Drive Download Gateway API from Autonomys — 6 operation(s) for auto drive download gateway.
   name: Autonomys Auto Drive Download Gateway API
   slug: autonomys-auto-drive-download-gateway-api
-artifact_total: 7
+artifact_total: 8
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Auto Drive APIs Auto Drive API API
   slug: open-autonomys-auto-drive-api-api
@@ -59,52 +58,57 @@ collections:
   name: Auto Drive APIs Auto Drive API Auto Drive Download Gateway API
   slug: open-autonomys-auto-drive-download-gateway-api
 common:
+- group: other
+  href: https://artifacts.apis.io/autonomys/capabilities/autonomys-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/autonomys-capability-edges.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://medium.com/feed/@autonomysnetwork
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/mcp/autonomys-mcp.yml
+  href: https://artifacts.apis.io/autonomys/mcp/autonomys-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/autonomys-mcp.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/openapi/_original/autonomys-auto-drive-openapi.json
+  href: https://artifacts.apis.io/autonomys/openapi/_original/autonomys-auto-drive-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/autonomys-auto-drive-openapi.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/overlays/autonomys-auto-drive-overlay.yaml
+  href: https://artifacts.apis.io/autonomys/overlays/autonomys-auto-drive-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autonomys-auto-drive-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/authentication/autonomys-authentication.yml
+  href: https://artifacts.apis.io/autonomys/authentication/autonomys-authentication.yml
   title: ''
   type: Authentication
   url: authentication/autonomys-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/conventions/autonomys-conventions.yml
+  href: https://artifacts.apis.io/autonomys/conventions/autonomys-conventions.yml
   title: ''
   type: Conventions
   url: conventions/autonomys-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/errors/autonomys-problem-types.yml
+  href: https://artifacts.apis.io/autonomys/errors/autonomys-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/autonomys-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/data-model/autonomys-data-model.yml
+  href: https://artifacts.apis.io/autonomys/data-model/autonomys-data-model.yml
   title: ''
   type: DataModel
   url: data-model/autonomys-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/conformance/autonomys-conformance.yml
+  href: https://artifacts.apis.io/autonomys/conformance/autonomys-conformance.yml
   title: ''
   type: Conformance
   url: conformance/autonomys-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/lifecycle/autonomys-lifecycle.yml
+  href: https://artifacts.apis.io/autonomys/lifecycle/autonomys-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/autonomys-lifecycle.yml
@@ -113,27 +117,27 @@ common:
   type: StatusPage
   url: https://telemetry.subspace.foundation
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/packages/autonomys-packages.yml
+  href: https://artifacts.apis.io/autonomys/packages/autonomys-packages.yml
   title: ''
   type: Packages
   url: packages/autonomys-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/packages/autonomys-packages.yml
+  href: https://artifacts.apis.io/autonomys/packages/autonomys-packages.yml
   title: ''
   type: SDKs
   url: packages/autonomys-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/autonomys/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/llms/autonomys-llms.txt
+  href: https://artifacts.apis.io/autonomys/llms/autonomys-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/autonomys-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/security/autonomys-domain-security.yml
+  href: https://artifacts.apis.io/autonomys/security/autonomys-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autonomys-domain-security.yml
@@ -192,13 +196,13 @@ network: true
 overview: 'Autonomys publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Auto Drive API and Auto Drive Download Gateway API. Tagged areas include Company, Cryptocurrency, Blockchain, Web3, and Decentralized Storage.
 
 
-  Autonomys'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 17
+  Autonomys'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 21 more developer resources.'
+random_paper: 23
 score:
   band: developing
-  composite: 40.7
+  composite: 41.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -210,9 +214,9 @@ score:
     contract_governance: 4.5
     contract_quality: 38.9
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 40.7
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 41.1
   provenance:
     conformance: derived
     contracts:
@@ -228,13 +232,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/screenshots/autonomys-2026-07-25T201843.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/autonomys/autonomys-2026-07-25T201843.png
 security:
 - kind: authentication
   name: Autonomys Authentication
@@ -244,6 +249,12 @@ security:
   name: Autonomys Domain Security
   slug: autonomys-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Purchase Auto Drive storage credits with AI3
+  slug: autonomys-purchase-storage-credits
+- name: Upload a file to Auto Drive and retrieve it by CID
+  slug: autonomys-upload-and-retrieve
 slug: autonomys
 tags:
 - Company

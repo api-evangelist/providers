@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 31.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -124,11 +126,8 @@ apis:
   description: The oauth API from SmartNews — 2 operation(s) for oauth.
   name: SmartNews OAUTH API
   slug: smartnews-oauth-api
-artifact_total: 38
+artifact_total: 41
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SmartNews Marketing ad API
   slug: open-smartnews-ad-api
@@ -176,17 +175,17 @@ collections:
   slug: open-smartnews-smart-view-article-keyword-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/capabilities/smartnews-capability-edges.yml
+  href: https://artifacts.apis.io/smartnews/capabilities/smartnews-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/smartnews-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/overlays/smartnews-marketing-overlay.yaml
+  href: https://artifacts.apis.io/smartnews/overlays/smartnews-marketing-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/smartnews-marketing-overlay.yaml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/rate-limits/smartnews-rate-limits.yml
+  href: https://artifacts.apis.io/smartnews/rate-limits/smartnews-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/smartnews-rate-limits.yml
@@ -195,32 +194,32 @@ common:
   type: Security
   url: https://www.smartnews.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/well-known/smartnews-security.txt
+  href: https://artifacts.apis.io/smartnews/well-known/smartnews-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/smartnews-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/well-known/smartnews-well-known.yml
+  href: https://artifacts.apis.io/smartnews/well-known/smartnews-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/smartnews-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/security/smartnews-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/smartnews/security/smartnews-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/smartnews-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/security/smartnews-domain-security.yml
+  href: https://artifacts.apis.io/smartnews/security/smartnews-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/smartnews-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/agentic-access/smartnews-agentic-access.yml
+  href: https://artifacts.apis.io/smartnews/agentic-access/smartnews-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/smartnews-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/authentication/smartnews-authentication.yml
+  href: https://artifacts.apis.io/smartnews/authentication/smartnews-authentication.yml
   title: ''
   type: Authentication
   url: authentication/smartnews-authentication.yml
@@ -261,72 +260,72 @@ common:
   type: SignUp
   url: https://ads.smartnews.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/_original/smartnews-marketing-openapi.json
+  href: https://artifacts.apis.io/smartnews/openapi/_original/smartnews-marketing-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/smartnews-marketing-openapi.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/conventions/smartnews-conventions.yml
+  href: https://artifacts.apis.io/smartnews/conventions/smartnews-conventions.yml
   title: ''
   type: Conventions
   url: conventions/smartnews-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/errors/smartnews-problem-types.yml
+  href: https://artifacts.apis.io/smartnews/errors/smartnews-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/smartnews-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/lifecycle/smartnews-lifecycle.yml
+  href: https://artifacts.apis.io/smartnews/lifecycle/smartnews-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/smartnews-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/changelog/smartnews-changelog.yml
+  href: https://artifacts.apis.io/smartnews/changelog/smartnews-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/smartnews-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/conformance/smartnews-conformance.yml
+  href: https://artifacts.apis.io/smartnews/conformance/smartnews-conformance.yml
   title: ''
   type: Conformance
   url: conformance/smartnews-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/data-model/smartnews-data-model.yml
+  href: https://artifacts.apis.io/smartnews/data-model/smartnews-data-model.yml
   title: ''
   type: DataModel
   url: data-model/smartnews-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/mcp/smartnews-mcp.yml
+  href: https://artifacts.apis.io/smartnews/mcp/smartnews-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/smartnews-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/packages/smartnews-packages.yml
+  href: https://artifacts.apis.io/smartnews/packages/smartnews-packages.yml
   title: ''
   type: Packages
   url: packages/smartnews-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/llms/smartnews-llms.txt
+  href: https://artifacts.apis.io/smartnews/llms/smartnews-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/smartnews-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/smartnews/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/sandbox/smartnews-sandbox.yml
+  href: https://artifacts.apis.io/smartnews/sandbox/smartnews-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/smartnews-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/plans/smartnews-plans-pricing.yml
+  href: https://artifacts.apis.io/smartnews/plans/smartnews-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/smartnews-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/vocabulary/smartnews-conversion-events.yml
+  href: https://artifacts.apis.io/smartnews/vocabulary/smartnews-conversion-events.yml
   title: ''
   type: Vocabulary
   url: vocabulary/smartnews-conversion-events.yml
@@ -348,6 +347,14 @@ common:
   url: https://developer.smartnews.com/blog/feed
 created: '2026-07-17'
 description: SmartNews is a news-discovery company whose consumer app ranks and delivers news to tens of millions of readers in Japan and the United States. For developers it operates the SmartNews Ads platform and publishes the SmartNews Marketing API (v3) — a REST API for programmatically managing advertising campaigns, ad groups, ads, media files, custom audiences, conversion pixels, and Business Manager product catalogs, plus an Insights API for performance reporting. The API uses OAuth 2.0 bearer (JWT) access tokens and is documented with a public OpenAPI 3.0 reference and an official API-spec repository.
+finops:
+- has_sources: true
+  method: derived
+  name: Smartnews Finops
+  primary_unit: ''
+  service_category: ''
+  slug: smartnews-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smartnews.png
 layout: provider
 modified: '2026-08-13'
@@ -362,16 +369,16 @@ plans:
 - name: Smartnews Plans Pricing
   plan_count: 0
   slug: smartnews-plans-pricing
-random_paper: 6
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Smartnews Rate Limits
   slug: smartnews-rate-limits
 score:
   band: developing
-  composite: 51.0
+  composite: 52.5
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 50.0
     catalog_earned_first_party: 13.0
     catalog_gap: 65.0
@@ -382,10 +389,10 @@ score:
     access_clarity: 34.2
     contract_governance: 19.7
     contract_quality: 53.4
-    developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 52.6
-  previous_composite: 51.0
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 60.5
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -402,13 +409,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/screenshots/smartnews-2026-08-17T081937.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/smartnews/smartnews-2026-08-17T081937.png
 security:
 - kind: authentication
   name: Smartnews Authentication
@@ -422,6 +430,14 @@ security:
   name: Smartnews Vulnerability Disclosure
   slug: smartnews-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Build and target a SmartNews custom audience
+  slug: smartnews-custom-audience
+- name: Launch a SmartNews ad campaign
+  slug: smartnews-launch-campaign
+- name: Report on SmartNews ad performance
+  slug: smartnews-report-insights
 slug: smartnews
 tags:
 - Company

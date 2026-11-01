@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,12 +37,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bigfoot-biomedical/refs/heads/main/security/bigfoot-biomedical-domain-security.yml
+  href: https://artifacts.apis.io/bigfoot-biomedical/security/bigfoot-biomedical-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bigfoot-biomedical-domain-security.yml
@@ -77,32 +79,32 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/bigfoot-biomedical_stock/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bigfoot-biomedical/refs/heads/main/security/bigfoot-biomedical-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bigfoot-biomedical/security/bigfoot-biomedical-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bigfoot-biomedical-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bigfoot-biomedical/refs/heads/main/well-known/bigfoot-biomedical-well-known.yml
+  href: https://artifacts.apis.io/bigfoot-biomedical/well-known/bigfoot-biomedical-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bigfoot-biomedical-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bigfoot-biomedical/refs/heads/main/authentication/bigfoot-biomedical-authentication.yml
+  href: https://artifacts.apis.io/bigfoot-biomedical/authentication/bigfoot-biomedical-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bigfoot-biomedical-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bigfoot-biomedical/refs/heads/main/scopes/bigfoot-biomedical-scopes.yml
+  href: https://artifacts.apis.io/bigfoot-biomedical/scopes/bigfoot-biomedical-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bigfoot-biomedical-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bigfoot-biomedical/refs/heads/main/conformance/bigfoot-biomedical-conformance.yml
+  href: https://artifacts.apis.io/bigfoot-biomedical/conformance/bigfoot-biomedical-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bigfoot-biomedical-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bigfoot-biomedical/refs/heads/main/llms/bigfoot-biomedical-llms.txt
+  href: https://artifacts.apis.io/bigfoot-biomedical/llms/bigfoot-biomedical-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bigfoot-biomedical-llms.txt
@@ -134,7 +136,7 @@ overview: 'Bigfoot Biomedical is profiled on the [APIs.io](https://apis.io/) net
 
 
   Bigfoot Biomedical''s developer surface includes engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 20
+random_paper: 0
 scopes:
 - name: Bigfoot Biomedical Scopes
   scope_count: 36
@@ -142,9 +144,9 @@ scopes:
   summary_line: 36 scopes · authorizationCode/implicit
 score:
   band: emerging
-  composite: 18.9
+  composite: 19.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -157,8 +159,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 48.2
-    operational_transparency: 13.2
-  previous_composite: 18.9
+    operational_transparency: 15.8
+  previous_composite: 19.2
   provenance:
     conformance: derived
   regulatory:
@@ -167,14 +169,14 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bigfoot-biomedical/refs/heads/main/screenshots/bigfoot-biomedical-2026-08-07T162422.png
+screenshot: https://apis.io/screenshots/bigfoot-biomedical/bigfoot-biomedical-2026-08-07T162422.png
 security:
 - kind: authentication
   name: Bigfoot Biomedical Authentication

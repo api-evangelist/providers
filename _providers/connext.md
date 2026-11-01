@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.everclear.org
@@ -77,11 +79,8 @@ apis:
   description: The Tron API from Everclear — 1 operation(s) for tron.
   name: Everclear Tron API
   slug: connext-tron-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Chimera Batched Intents API
   slug: open-connext-batched-intents-api
@@ -108,7 +107,7 @@ collections:
   slug: open-connext-tron-api
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/connext/refs/heads/main/security/connext-domain-security.yml
+  href: https://artifacts.apis.io/connext/security/connext-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/connext-domain-security.yml
@@ -145,67 +144,67 @@ common:
   type: Blog
   url: https://blog.connext.network/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/connext/refs/heads/main/openapi/_original/connext-everclear-openapi.yml
+  href: https://artifacts.apis.io/connext/openapi/_original/connext-everclear-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/connext-everclear-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/connext/refs/heads/main/overlays/connext-everclear-overlay.yaml
+  href: https://artifacts.apis.io/connext/overlays/connext-everclear-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/connext-everclear-overlay.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/connext/refs/heads/main/graphql/connext-everclear-subgraph.graphql
+  href: https://artifacts.apis.io/connext/graphql/connext-everclear-subgraph.graphql
   title: ''
   type: GraphQL
   url: graphql/connext-everclear-subgraph.graphql
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/connext/refs/heads/main/llms/connext-llms.txt
+  href: https://artifacts.apis.io/connext/llms/connext-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/connext-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/connext/refs/heads/main/packages/connext-packages.yml
+  href: https://artifacts.apis.io/connext/packages/connext-packages.yml
   title: ''
   type: Packages
   url: packages/connext-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/connext/refs/heads/main/packages/connext-packages.yml
+  href: https://artifacts.apis.io/connext/packages/connext-packages.yml
   title: ''
   type: SDKs
   url: packages/connext-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/connext/refs/heads/main/well-known/connext-well-known.yml
+  href: https://artifacts.apis.io/connext/well-known/connext-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/connext-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/connext/refs/heads/main/authentication/connext-authentication.yml
+  href: https://artifacts.apis.io/connext/authentication/connext-authentication.yml
   title: ''
   type: Authentication
   url: authentication/connext-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connext/refs/heads/main/errors/connext-problem-types.yml
+  href: https://artifacts.apis.io/connext/errors/connext-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/connext-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connext/refs/heads/main/conventions/connext-conventions.yml
+  href: https://artifacts.apis.io/connext/conventions/connext-conventions.yml
   title: ''
   type: Conventions
   url: conventions/connext-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connext/refs/heads/main/data-model/connext-data-model.yml
+  href: https://artifacts.apis.io/connext/data-model/connext-data-model.yml
   title: ''
   type: DataModel
   url: data-model/connext-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connext/refs/heads/main/lifecycle/connext-lifecycle.yml
+  href: https://artifacts.apis.io/connext/lifecycle/connext-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/connext-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connext/refs/heads/main/conformance/connext-conformance.yml
+  href: https://artifacts.apis.io/connext/conformance/connext-conformance.yml
   title: ''
   type: Conformance
   url: conformance/connext-conformance.yml
@@ -222,7 +221,7 @@ overview: 'Everclear publishes 8 API contracts indexed on the [APIs.io](https://
 
 
   Everclear''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 19
+random_paper: 23
 score:
   band: minimal
   composite: 0.0
@@ -256,13 +255,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/connext/refs/heads/main/screenshots/connext-2026-09-02T145135.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/connext/connext-2026-09-02T145135.png
 security:
 - kind: authentication
   name: Connext Authentication

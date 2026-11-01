@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.5
-  scored_at: '2026-10-17'
+  score: 28.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
@@ -146,11 +148,8 @@ apis:
   description: Users in Yokoy reflect the fundamental roles of submitter, approver, and finance user. Mandatory user information depends on the specific organization requirements and Yokoy features enabled. Email ad
   name: Yokoy User API
   slug: yokoy-user-api
-artifact_total: 50
+artifact_total: 52
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Yokoy Card account API
   slug: open-yokoy-card-account-api
@@ -223,12 +222,12 @@ common:
   type: Blog
   url: https://www.perk.com/blog/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/capabilities/yokoy-capability-edges.yml
+  href: https://artifacts.apis.io/yokoy/capabilities/yokoy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/yokoy-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/overlays/yokoy-openapi-overlay.yaml
+  href: https://artifacts.apis.io/yokoy/overlays/yokoy-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/yokoy-openapi-overlay.yaml
@@ -261,7 +260,7 @@ common:
   type: StatusPage
   url: https://status.perk.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/lifecycle/yokoy-lifecycle.yml
+  href: https://artifacts.apis.io/yokoy/lifecycle/yokoy-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/yokoy-lifecycle.yml
@@ -278,57 +277,57 @@ common:
   type: Security
   url: https://yokoy.io/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/security/yokoy-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/yokoy/security/yokoy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/yokoy-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/well-known/yokoy-security.txt
+  href: https://artifacts.apis.io/yokoy/well-known/yokoy-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/yokoy-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/well-known/yokoy-well-known.yml
+  href: https://artifacts.apis.io/yokoy/well-known/yokoy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/yokoy-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/security/yokoy-domain-security.yml
+  href: https://artifacts.apis.io/yokoy/security/yokoy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yokoy-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/authentication/yokoy-authentication.yml
+  href: https://artifacts.apis.io/yokoy/authentication/yokoy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/yokoy-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/conventions/yokoy-conventions.yml
+  href: https://artifacts.apis.io/yokoy/conventions/yokoy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/yokoy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/lifecycle/yokoy-lifecycle.yml
+  href: https://artifacts.apis.io/yokoy/lifecycle/yokoy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/yokoy-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/packages/yokoy-packages.yml
+  href: https://artifacts.apis.io/yokoy/packages/yokoy-packages.yml
   title: ''
   type: Packages
   url: packages/yokoy-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/mcp/yokoy-mcp.yml
+  href: https://artifacts.apis.io/yokoy/mcp/yokoy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/yokoy-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/llms/yokoy-llms.txt
+  href: https://artifacts.apis.io/yokoy/llms/yokoy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/yokoy-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/yokoy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -348,15 +347,15 @@ overview: 'Yokoy publishes 22 API contracts indexed on the [APIs.io](https://api
 
 
   Yokoy''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, changelog, authentication, and 19 more developer resources.'
-random_paper: 21
+random_paper: 19
 scopes:
 - name: Yokoy Scopes
   scope_count: 0
   slug: yokoy-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 38.8
+  band: developing
+  composite: 45.8
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -364,15 +363,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 18.2
-    contract_quality: 50.2
-    developer_ergonomics: 28.0
-    discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 38.3
+    contract_quality: 47.7
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 50.0
+  previous_composite: 45.8
   provenance:
     conformance: first-party
     contracts:
@@ -392,13 +391,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/screenshots/yokoy-2026-08-17T083017.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/yokoy/yokoy-2026-08-17T083017.png
 security:
 - kind: authentication
   name: Yokoy Authentication
@@ -416,6 +416,14 @@ security:
   name: Yokoy Trust Center
   slug: yokoy-trust-center
   summary_line: ISO 27001, SOC 2, Cyber Essentials, GDPR
+skill_count: 3
+skills:
+- name: Export approved expenses to a finance system
+  slug: yokoy-export-expenses
+- name: Ingest and export supplier invoices
+  slug: yokoy-ingest-invoices
+- name: Sync users and cost-center master data
+  slug: yokoy-sync-master-data
 slug: yokoy
 tags:
 - Company

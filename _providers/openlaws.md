@@ -13,7 +13,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,21 +21,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.4
-  scored_at: '2026-10-17'
+  score: 35.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +45,7 @@ agentic_access:
   operation_count: 28
   slug: openlaws-agentic-access
   summary_line: 28 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.openlaws.us
   baseurl_source: declared
@@ -71,11 +72,8 @@ apis:
   description: Opinions represent published and unpublished case law opinions. Opinions belong to a Court and Jurisdiction.
   name: OpenLaws Opinions API
   slug: openlaws-opinions-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OpenLaws API Documentation Courts API
   slug: open-openlaws-courts-api
@@ -95,18 +93,23 @@ collections:
   name: OpenLaws API Documentation
   slug: open-openlaws
 common:
+- group: other
+  href: https://artifacts.apis.io/openlaws/capabilities/openlaws-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/openlaws-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/agentic-access/openlaws-agentic-access.yml
+  href: https://artifacts.apis.io/openlaws/agentic-access/openlaws-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openlaws-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/security/openlaws-domain-security.yml
+  href: https://artifacts.apis.io/openlaws/security/openlaws-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openlaws-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/authentication/openlaws-authentication.yml
+  href: https://artifacts.apis.io/openlaws/authentication/openlaws-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openlaws-authentication.yml
@@ -139,17 +142,17 @@ common:
   type: ContactEmail
   url: mailto:team@openlaws.us
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/plans/openlaws-plans-pricing.yml
+  href: https://artifacts.apis.io/openlaws/plans/openlaws-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/openlaws-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/rate-limits/openlaws-rate-limits.yml
+  href: https://artifacts.apis.io/openlaws/rate-limits/openlaws-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/openlaws-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/finops/openlaws-finops.yml
+  href: https://artifacts.apis.io/openlaws/finops/openlaws-finops.yml
   title: ''
   type: FinOps
   url: finops/openlaws-finops.yml
@@ -159,7 +162,7 @@ finops:
 - has_sources: false
   method: generated
   name: Openlaws Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: openlaws-finops
   template: true
@@ -176,35 +179,35 @@ network: true
 overview: 'OpenLaws publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Courts API, Jurisdictions API, Law Divisions API, and 2 more. Tagged areas include Legal, Law, Statutes, Regulations, and Constitutions.
 
 
-  OpenLaws'' developer surface includes authentication, documentation, getting-started guide, signup flow, changelog, and 8 more developer resources.'
+  OpenLaws'' developer surface includes authentication, documentation, getting-started guide, signup flow, changelog, and 9 more developer resources.'
 plans:
 - name: Openlaws Plans Pricing
   plan_count: 3
   slug: openlaws-plans-pricing
-random_paper: 15
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Openlaws Rate Limits
   slug: openlaws-rate-limits
 score:
   band: thin
-  composite: 31.4
+  composite: 35.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 50.3
-    developer_ergonomics: 21.4
-    discoverability: 68.3
-    operational_transparency: 7.9
-  previous_composite: 33.0
+    developer_ergonomics: 33.3
+    discoverability: 66.1
+    operational_transparency: 23.7
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -219,14 +222,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/screenshots/openlaws-2026-06-20T191009.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openlaws/openlaws-2026-06-20T191009.png
 security:
 - kind: authentication
   name: Openlaws Authentication

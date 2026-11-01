@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 54.9
-  scored_at: '2026-10-17'
+  score: 49.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://data.useplinth.com/api
@@ -66,10 +68,15 @@ apis:
   description: Ad-hoc read-only SQL over the warehouse. Paid keys only.
   name: Plinth US Grants Data SQL API
   slug: plinth-us-grants-data-sql-api
-artifact_total: 13
+artifact_total: 19
 common:
+- group: other
+  href: https://artifacts.apis.io/plinth-us-grants-data/capabilities/plinth-us-grants-data-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/plinth-us-grants-data-capability-edges.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/rate-limits/plinth-us-grants-data-rate-limits.yml
+  href: https://artifacts.apis.io/plinth-us-grants-data/rate-limits/plinth-us-grants-data-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/plinth-us-grants-data-rate-limits.yml
@@ -82,12 +89,12 @@ common:
   type: MCPServer
   url: https://data.useplinth.com/api/connector/mcp
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/mcp/plinth-us-grants-data-mcp.yml
+  href: https://artifacts.apis.io/plinth-us-grants-data/mcp/plinth-us-grants-data-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/plinth-us-grants-data-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/overlays/plinth-us-grants-data-grants-api-overlay.yaml
+  href: https://artifacts.apis.io/plinth-us-grants-data/overlays/plinth-us-grants-data-grants-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/plinth-us-grants-data-grants-api-overlay.yaml
@@ -136,77 +143,85 @@ common:
   type: PrivacyPolicy
   url: https://www.useplinth.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/authentication/plinth-us-grants-data-authentication.yml
+  href: https://artifacts.apis.io/plinth-us-grants-data/authentication/plinth-us-grants-data-authentication.yml
   title: ''
   type: Authentication
   url: authentication/plinth-us-grants-data-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/scopes/plinth-us-grants-data-scopes.yml
+  href: https://artifacts.apis.io/plinth-us-grants-data/scopes/plinth-us-grants-data-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/plinth-us-grants-data-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/security/plinth-us-grants-data-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/plinth-us-grants-data/security/plinth-us-grants-data-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/plinth-us-grants-data-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/security/plinth-us-grants-data-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/plinth-us-grants-data/security/plinth-us-grants-data-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/plinth-us-grants-data-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/security/plinth-us-grants-data-domain-security.yml
+  href: https://artifacts.apis.io/plinth-us-grants-data/security/plinth-us-grants-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/plinth-us-grants-data-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/well-known/plinth-us-grants-data-well-known.yml
+  href: https://artifacts.apis.io/plinth-us-grants-data/well-known/plinth-us-grants-data-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/plinth-us-grants-data-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/well-known/plinth-us-grants-data-security.txt
+  href: https://artifacts.apis.io/plinth-us-grants-data/well-known/plinth-us-grants-data-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/plinth-us-grants-data-security.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/well-known/plinth-us-grants-data-api-catalog.json
+  href: https://artifacts.apis.io/plinth-us-grants-data/well-known/plinth-us-grants-data-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/plinth-us-grants-data-api-catalog.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/conformance/plinth-us-grants-data-conformance.yml
+  href: https://artifacts.apis.io/plinth-us-grants-data/conformance/plinth-us-grants-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/plinth-us-grants-data-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/lifecycle/plinth-us-grants-data-lifecycle.yml
+  href: https://artifacts.apis.io/plinth-us-grants-data/lifecycle/plinth-us-grants-data-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/plinth-us-grants-data-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/vocabulary/plinth-us-grants-data-vocabulary.yml
+  href: https://artifacts.apis.io/plinth-us-grants-data/vocabulary/plinth-us-grants-data-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/plinth-us-grants-data-vocabulary.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/plans/plinth-us-grants-data-plans-pricing.yml
+  href: https://artifacts.apis.io/plinth-us-grants-data/plans/plinth-us-grants-data-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/plinth-us-grants-data-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/packages/plinth-us-grants-data-packages.yml
+  href: https://artifacts.apis.io/plinth-us-grants-data/packages/plinth-us-grants-data-packages.yml
   title: ''
   type: Packages
   url: packages/plinth-us-grants-data-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/plinth-us-grants-data/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-13'
 description: 'A JSON API over the entire US grantmaking universe — about 205,000 grantmaking foundations and 17.9 million grants, read from public IRS Form 990, 990-EZ and 990-PF e-file filings and the IRS Business Master File. The funder-grantee graph traverses in both directions: filter by funder_id for everything a foundation funded, or by recip_id for every funder behind a nonprofit. Offers REST endpoints for grants, organization profiles, an IRS compliance and OFAC screen, an ad-hoc read-only SQL endpoint over a 31-table warehouse, and a hosted OAuth 2.1 MCP connector for AI agents. Entity resolution is free and unmetered. Published by Plinth, trading name of Time to Spare Ltd (UK Companies House 11530023), which also operates plinth.org.uk in the UK.'
+finops:
+- has_sources: true
+  method: derived
+  name: Plinth Us Grants Data Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: plinth-us-grants-data-finops
+  template: false
 image: https://data.useplinth.com/plinth-logo.svg
 layout: provider
 mcp_servers:
@@ -223,12 +238,15 @@ overview: 'Plinth US Grants Data publishes 5 API contracts indexed on the [APIs.
   The Plinth US Grants Data catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Plinth US Grants Data''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 23 more developer resources.'
+  Plinth US Grants Data''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 24 more developer resources.'
 plans:
 - name: Plinth Us Grants Data Plans Pricing
   plan_count: 4
   slug: plinth-us-grants-data-plans-pricing
-random_paper: 19
+- name: Plinth Us Grants Data Price Estimates
+  plan_count: 0
+  slug: plinth-us-grants-data-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Plinth Us Grants Data Rate Limits
@@ -253,23 +271,23 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 57.0
+  composite: 58.9
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 57.8
+    artifact_dirs: 23
+    catalog_earned: 60.8
     catalog_earned_first_party: 17.0
-    catalog_gap: 57.3
+    catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.5
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 44.7
     contract_quality: 51.4
     developer_ergonomics: 56.5
-    discoverability: 75.0
+    discoverability: 71.7
     operational_transparency: 10.5
-  previous_composite: 60.5
+  previous_composite: 57.3
   provenance:
     conformance: first-party
     contracts:
@@ -285,13 +303,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/screenshots/plinth-us-grants-data-2026-08-17T081307.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/plinth-us-grants-data/plinth-us-grants-data-2026-08-17T081307.png
 security:
 - kind: authentication
   name: Plinth Us Grants Data Authentication
@@ -305,6 +324,16 @@ security:
   name: Plinth Us Grants Data Vulnerability Disclosure
   slug: plinth-us-grants-data-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 4
+skills:
+- name: Profile a grantmaking foundation
+  slug: plinth-us-grants-data-profile-a-funder
+- name: Query the grants warehouse with SQL
+  slug: plinth-us-grants-data-query-the-warehouse
+- name: Resolve an organization name to an EIN
+  slug: plinth-us-grants-data-resolve-an-organization
+- name: Find who funds a nonprofit
+  slug: plinth-us-grants-data-who-funds-this-nonprofit
 slug: plinth-us-grants-data
 tags:
 - Philanthropy

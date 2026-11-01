@@ -1,8 +1,9 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -16,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-10-17'
+  score: 42.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -88,100 +91,100 @@ apis:
   description: working-time-arrangements
   name: Lucca Working Time Arrangements API
   slug: lucca-working-time-arrangements-api
-artifact_total: 24
+artifact_total: 29
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/agentic-access/lucca-agentic-access.yml
+  href: https://artifacts.apis.io/lucca/agentic-access/lucca-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lucca-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/rules/lucca-rules.yml
+  href: https://artifacts.apis.io/lucca/rules/lucca-rules.yml
   title: ''
   type: Spectral
   url: rules/lucca-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/json-ld/lucca-context.jsonld
+  href: https://artifacts.apis.io/lucca/json-ld/lucca-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/lucca-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/vocabulary/lucca-vocabulary.yml
+  href: https://artifacts.apis.io/lucca/vocabulary/lucca-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/lucca-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lucca/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/data-model/lucca-data-model.yml
+  href: https://artifacts.apis.io/lucca/data-model/lucca-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lucca-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/changelog/lucca-changelog.yml
+  href: https://artifacts.apis.io/lucca/changelog/lucca-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lucca-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/conventions/lucca-conventions.yml
+  href: https://artifacts.apis.io/lucca/conventions/lucca-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lucca-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/authentication/lucca-authentication.yml
+  href: https://artifacts.apis.io/lucca/authentication/lucca-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lucca-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/lifecycle/lucca-lifecycle.yml
+  href: https://artifacts.apis.io/lucca/lifecycle/lucca-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/lucca-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/lifecycle/lucca-lifecycle.yml
+  href: https://artifacts.apis.io/lucca/lifecycle/lucca-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lucca-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/errors/lucca-problem-types.yml
+  href: https://artifacts.apis.io/lucca/errors/lucca-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lucca-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/conformance/lucca-conformance.yml
+  href: https://artifacts.apis.io/lucca/conformance/lucca-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lucca-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/llms/lucca-llms.txt
+  href: https://artifacts.apis.io/lucca/llms/lucca-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lucca-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/a2a/lucca-a2a.yml
+  href: https://artifacts.apis.io/lucca/a2a/lucca-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/lucca-a2a.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/well-known/lucca-status-security.txt
+  href: https://artifacts.apis.io/lucca/well-known/lucca-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/lucca-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/well-known/lucca-well-known.yml
+  href: https://artifacts.apis.io/lucca/well-known/lucca-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lucca-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/hosts/lucca-hosts.yml
+  href: https://artifacts.apis.io/lucca/hosts/lucca-hosts.yml
   title: ''
   type: Hosts
   url: hosts/lucca-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/vendors/lucca-vendors.yml
+  href: https://artifacts.apis.io/lucca/vendors/lucca-vendors.yml
   title: ''
   type: Vendors
   url: vendors/lucca-vendors.yml
@@ -214,12 +217,12 @@ common:
   type: APIReference
   url: https://developers.luccasoftware.com/llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/scopes/lucca-scopes.yml
+  href: https://artifacts.apis.io/lucca/scopes/lucca-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lucca-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/security/lucca-domain-security.yml
+  href: https://artifacts.apis.io/lucca/security/lucca-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lucca-domain-security.yml
@@ -278,7 +281,7 @@ overview: 'Lucca publishes 11 API contracts indexed on the [APIs.io](https://api
 
 
   Lucca''s developer surface includes changelog, authentication, getting-started guide, documentation, API reference, and 24 more developer resources.'
-random_paper: 14
+random_paper: 16
 rules:
 - authorship: generated
   effective_rule_count: 59
@@ -299,7 +302,7 @@ scopes:
   summary_line: 36 scopes · clientCredentials
 score:
   band: developing
-  composite: 46.1
+  composite: 46.6
   coverage:
     artifact_dirs: 22
     catalog_earned: 62.8
@@ -307,13 +310,15 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 22.0
-    contract_quality: 67.5
+    contract_quality: 64.2
     developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 44.7
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -330,11 +335,13 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Lucca Authentication
@@ -344,6 +351,18 @@ security:
   name: Lucca Domain Security
   slug: lucca-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 5
+skills:
+- name: lucca-create-and-retrieve-employee
+  slug: lucca-create-and-retrieve-employee
+- name: lucca-create-and-retrieve-employment
+  slug: lucca-create-and-retrieve-employment
+- name: lucca-create-and-test-webhook
+  slug: lucca-create-and-test-webhook
+- name: lucca-create-update-department
+  slug: lucca-create-update-department
+- name: lucca-files-upload-and-retrieve
+  slug: lucca-files-upload-and-retrieve
 slug: lucca
 tags:
 - Company

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 27.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: Supported crypto trading pairs and their constraints.
   name: Robinhood Trading Pairs API
   slug: robinhood-trading-pairs-api
-artifact_total: 15
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Robinhood Crypto Trading Account API
   slug: open-robinhood-account-api
@@ -91,12 +90,12 @@ collections:
   slug: open-robinhood-trading-pairs-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/capabilities/robinhood-capability-edges.yml
+  href: https://artifacts.apis.io/robinhood/capabilities/robinhood-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/robinhood-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/security/robinhood-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/robinhood/security/robinhood-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/robinhood-vulnerability-disclosure.yml
@@ -105,7 +104,7 @@ common:
   type: Security
   url: https://hackerone.com/robinhood
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/security/robinhood-domain-security.yml
+  href: https://artifacts.apis.io/robinhood/security/robinhood-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/robinhood-domain-security.yml
@@ -154,72 +153,72 @@ common:
   type: PrivacyPolicy
   url: https://robinhood.com/us/en/about/legal/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/authentication/robinhood-authentication.yml
+  href: https://artifacts.apis.io/robinhood/authentication/robinhood-authentication.yml
   title: ''
   type: Authentication
   url: authentication/robinhood-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/conventions/robinhood-conventions.yml
+  href: https://artifacts.apis.io/robinhood/conventions/robinhood-conventions.yml
   title: ''
   type: Conventions
   url: conventions/robinhood-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/conventions/robinhood-conventions.yml
+  href: https://artifacts.apis.io/robinhood/conventions/robinhood-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/robinhood-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/errors/robinhood-problem-types.yml
+  href: https://artifacts.apis.io/robinhood/errors/robinhood-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/robinhood-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/lifecycle/robinhood-lifecycle.yml
+  href: https://artifacts.apis.io/robinhood/lifecycle/robinhood-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/robinhood-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/well-known/robinhood-well-known.yml
+  href: https://artifacts.apis.io/robinhood/well-known/robinhood-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/robinhood-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/well-known/robinhood-security.txt
+  href: https://artifacts.apis.io/robinhood/well-known/robinhood-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/robinhood-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/mcp/robinhood-mcp.yml
+  href: https://artifacts.apis.io/robinhood/mcp/robinhood-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/robinhood-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/llms/robinhood-llms.txt
+  href: https://artifacts.apis.io/robinhood/llms/robinhood-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/robinhood-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/overlays/robinhood-crypto-trading-overlay.yaml
+  href: https://artifacts.apis.io/robinhood/overlays/robinhood-crypto-trading-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/robinhood-crypto-trading-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/conformance/robinhood-conformance.yml
+  href: https://artifacts.apis.io/robinhood/conformance/robinhood-conformance.yml
   title: ''
   type: Conformance
   url: conformance/robinhood-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/data-model/robinhood-data-model.yml
+  href: https://artifacts.apis.io/robinhood/data-model/robinhood-data-model.yml
   title: ''
   type: DataModel
   url: data-model/robinhood-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/agentic-access/robinhood-agentic-access.yml
+  href: https://artifacts.apis.io/robinhood/agentic-access/robinhood-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/robinhood-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/robinhood/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -235,10 +234,10 @@ overview: 'Robinhood publishes 5 API contracts indexed on the [APIs.io](https://
 
 
   Robinhood''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 18
+random_paper: 4
 score:
   band: developing
-  composite: 41.2
+  composite: 41.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -252,9 +251,9 @@ score:
     contract_governance: 4.5
     contract_quality: 52.3
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 41.2
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,13 +270,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/screenshots/robinhood-2026-08-17T081615.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/robinhood/robinhood-2026-08-17T081615.png
 security:
 - kind: authentication
   name: Robinhood Authentication
@@ -291,6 +291,12 @@ security:
   name: Robinhood Vulnerability Disclosure
   slug: robinhood-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 2
+skills:
+- name: Place a Robinhood crypto order
+  slug: robinhood-place-crypto-order
+- name: Review Robinhood crypto holdings and open orders
+  slug: robinhood-review-portfolio
 slug: robinhood
 tags:
 - Company

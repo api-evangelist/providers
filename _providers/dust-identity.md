@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.7
-  scored_at: '2026-10-17'
+  score: 42.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 1
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 177
   slug: dust-identity-agentic-access
   summary_line: 177 operations · 103 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: The DUST account service — organizations, users, sessions, Service Accounts and OpenID Connect. Issues the short-lived JWTs the DUST API consumes, via an API-key exchange (GET /api/auth/token with x-a
   name: DUST AuthD
@@ -165,7 +167,37 @@ apis:
   description: Manage user accounts and profiles
   name: Dust Identity Users API
   slug: dust-identity-users-api
-artifact_total: 32
+- baseURL: https://authd.dustid.io
+  baseurl_source: declared
+  description: Enroll physical Labels and organize them into Reels
+  name: Dust Identity Composite Tags API
+  slug: dust-identity-composite-tags-api
+- baseURL: https://authd.dustid.io
+  baseurl_source: declared
+  description: Query thread data fields (Field Search support surfaces)
+  name: Dust Identity Fields API
+  slug: dust-identity-fields-api
+- baseURL: https://authd.dustid.io
+  baseurl_source: declared
+  description: Author reusable public page layouts and freeze them as immutable Design Versions
+  name: Dust Identity Public Page Designs API
+  slug: dust-identity-public-page-designs-api
+- baseURL: https://authd.dustid.io
+  baseurl_source: declared
+  description: Reserve, bind, and resolve public product pages
+  name: Dust Identity Public Pages API
+  slug: dust-identity-public-pages-api
+- baseURL: https://authd.dustid.io
+  baseurl_source: declared
+  description: 'Compare an identifier''s current scan against the reference captured when it was bound, and record what a person concluded. The platform reports measurements only — it never states, scores, or implies '
+  name: Dust Identity Tamper API
+  slug: dust-identity-tamper-api
+- baseURL: https://authd.dustid.io
+  baseurl_source: declared
+  description: Reserve and manage stable redirect links
+  name: Dust Identity Vlinks API
+  slug: dust-identity-vlinks-api
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Dust Identity Events
@@ -176,17 +208,17 @@ collections:
   slug: open-dust-identity-apid
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/agentic-access/dust-identity-agentic-access.yml
+  href: https://artifacts.apis.io/dust-identity/agentic-access/dust-identity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dust-identity-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/security/dust-identity-domain-security.yml
+  href: https://artifacts.apis.io/dust-identity/security/dust-identity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dust-identity-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/authentication/dust-identity-authentication.yml
+  href: https://artifacts.apis.io/dust-identity/authentication/dust-identity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dust-identity-authentication.yml
@@ -231,42 +263,42 @@ common:
   type: PrivacyPolicy
   url: https://www.dustidentity.com/legal-pages/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/llms/dust-identity-llms.txt
+  href: https://artifacts.apis.io/dust-identity/llms/dust-identity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dust-identity-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dust-identity/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/packages/dust-identity-packages.yml
+  href: https://artifacts.apis.io/dust-identity/packages/dust-identity-packages.yml
   title: ''
   type: Packages
   url: packages/dust-identity-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/packages/dust-identity-packages.yml
+  href: https://artifacts.apis.io/dust-identity/packages/dust-identity-packages.yml
   title: ''
   type: SDKs
   url: packages/dust-identity-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/well-known/dust-identity-well-known.yml
+  href: https://artifacts.apis.io/dust-identity/well-known/dust-identity-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dust-identity-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/conventions/dust-identity-conventions.yml
+  href: https://artifacts.apis.io/dust-identity/conventions/dust-identity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dust-identity-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/errors/dust-identity-problem-types.yml
+  href: https://artifacts.apis.io/dust-identity/errors/dust-identity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dust-identity-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/lifecycle/dust-identity-lifecycle.yml
+  href: https://artifacts.apis.io/dust-identity/lifecycle/dust-identity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dust-identity-lifecycle.yml
@@ -275,52 +307,52 @@ common:
   type: Deprecation
   url: https://docs.dustid.io/api/compatibility/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/scopes/dust-identity-scopes.yml
+  href: https://artifacts.apis.io/dust-identity/scopes/dust-identity-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/dust-identity-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/well-known/dust-identity-openid-configuration.json
+  href: https://artifacts.apis.io/dust-identity/well-known/dust-identity-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/dust-identity-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/conformance/dust-identity-conformance.yml
+  href: https://artifacts.apis.io/dust-identity/conformance/dust-identity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dust-identity-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/data-model/dust-identity-data-model.yml
+  href: https://artifacts.apis.io/dust-identity/data-model/dust-identity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dust-identity-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/components/dust-identity-components.yml
+  href: https://artifacts.apis.io/dust-identity/components/dust-identity-components.yml
   title: ''
   type: Components
   url: components/dust-identity-components.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/overlays/dust-identity-apid-overlay.yaml
+  href: https://artifacts.apis.io/dust-identity/overlays/dust-identity-apid-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dust-identity-apid-overlay.yaml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/plans/dust-identity-plans-pricing.yml
+  href: https://artifacts.apis.io/dust-identity/plans/dust-identity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dust-identity-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/rate-limits/dust-identity-rate-limits.yml
+  href: https://artifacts.apis.io/dust-identity/rate-limits/dust-identity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dust-identity-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/skills/dust-identity-dice-api-integration.md
+  href: https://artifacts.apis.io/dust-identity/skills/dust-identity-dice-api-integration.md
   title: ''
   type: AgentSkill
   url: skills/dust-identity-dice-api-integration.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/skills/dust-identity-dust-go-connect-integration.md
+  href: https://artifacts.apis.io/dust-identity/skills/dust-identity-dust-go-connect-integration.md
   title: ''
   type: AgentSkill
   url: skills/dust-identity-dust-go-connect-integration.md
@@ -329,19 +361,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/dustid
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/examples/dust-identity-examples.yml
+  href: https://artifacts.apis.io/dust-identity/examples/dust-identity-examples.yml
   title: ''
   type: Examples
   url: examples/dust-identity-examples.yml
 created: '2026-08-12'
 description: 'DUST Identity (Newton, Massachusetts; founded 2018 as an MIT spinout) binds physical objects to trusted digital records using the Diamond Unclonable Security Tag — an applied coating of engineered nano-diamonds in a polymer matrix that forms an unclonable optical fingerprint. The DUST Platform (DICE) tracks each marked item as a "Thread": a digital record carrying typed fields, files, physical identifiers (DUST, QR, barcode, Data Matrix, NFC), an immutable event history, and Fabric lineage across slices, shipments and organization boundaries. It is used for aerospace and defense raw-material traceability, secure electronics, certified-pre-owned authentication, return-fraud detection, security labeling and high-value asset identity. The company publishes a public OpenAPI 3.1 contract for the DUST API (apid) covering 177 operations, a Starlight documentation site, llms.txt, and two provider-authored agent skills.'
+finops:
+- has_sources: true
+  method: derived
+  name: Dust Identity Finops
+  primary_unit: ''
+  service_category: ''
+  slug: dust-identity-finops
+  template: true
 image: https://cdn.prod.website-files.com/696a1cb647f26194e423aba4/6980a035011540d3493bf124_Webclip%20Dust%20Identity.png
 layout: provider
 modified: '2026-08-12'
 name: Dust Identity
 nav: Providers
 network: true
-overview: 'Dust Identity publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Bundles API, Certificate Forms API, and 21 more. Tagged areas include Authentication, Identity, Supply Chain, Traceability, and Provenance.
+overview: 'Dust Identity publishes 30 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Bundles API, Certificate Forms API, and 27 more. Tagged areas include Authentication, Identity, Supply Chain, Traceability, and Provenance.
 
 
   The Dust Identity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -352,7 +392,7 @@ plans:
 - name: Dust Identity Plans Pricing
   plan_count: 0
   slug: dust-identity-plans-pricing
-random_paper: 3
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Dust Identity Rate Limits
@@ -364,9 +404,9 @@ scopes:
   summary_line: 6 scopes · authorizationCode/refreshToken/clientCredentials
 score:
   band: developing
-  composite: 45.7
+  composite: 47.4
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -374,13 +414,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.1
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 58.6
+    contract_quality: 58.0
     developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 45.6
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -388,7 +428,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 23
+      total: 54
     mcp: derived
     skills: first-party
   regulatory:
@@ -397,13 +437,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/screenshots/dust-identity-2026-08-17T080906.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dust-identity/dust-identity-2026-08-17T080906.png
 security:
 - kind: authentication
   name: Dust Identity Authentication
@@ -413,6 +454,12 @@ security:
   name: Dust Identity Domain Security
   slug: dust-identity-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: dice-api-integration
+  slug: dust-identity-dice-api-integration
+- name: dust-go-connect-integration
+  slug: dust-identity-dust-go-connect-integration
 slug: dust-identity
 tags:
 - Authentication

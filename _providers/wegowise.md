@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -94,11 +96,8 @@ apis:
   description: Manage automated utility data import credentials
   name: WegoWise Utility Logins API
   slug: wegowise-utility-logins-api
-artifact_total: 35
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: WegoWise Apartments API
   slug: open-wegowise-apartments-api
@@ -128,32 +127,32 @@ collections:
   slug: open-wegowise
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/plans/wegowise-plans-pricing.yml
+  href: https://artifacts.apis.io/wegowise/plans/wegowise-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wegowise-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/rate-limits/wegowise-rate-limits.yml
+  href: https://artifacts.apis.io/wegowise/rate-limits/wegowise-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wegowise-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/finops/wegowise-finops.yml
+  href: https://artifacts.apis.io/wegowise/finops/wegowise-finops.yml
   title: ''
   type: FinOps
   url: finops/wegowise-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/agentic-access/wegowise-agentic-access.yml
+  href: https://artifacts.apis.io/wegowise/agentic-access/wegowise-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wegowise-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/security/wegowise-domain-security.yml
+  href: https://artifacts.apis.io/wegowise/security/wegowise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wegowise-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/authentication/wegowise-authentication.yml
+  href: https://artifacts.apis.io/wegowise/authentication/wegowise-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wegowise-authentication.yml
@@ -190,17 +189,17 @@ common:
   type: Blog
   url: http://blog.wegowise.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/rules/wegowise-rules.yml
+  href: https://artifacts.apis.io/wegowise/rules/wegowise-rules.yml
   title: ''
   type: SpectralRules
   url: rules/wegowise-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/vocabulary/wegowise-vocabulary.yml
+  href: https://artifacts.apis.io/wegowise/vocabulary/wegowise-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/wegowise-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/json-ld/wegowise-context.jsonld
+  href: https://artifacts.apis.io/wegowise/json-ld/wegowise-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/wegowise-context.jsonld
@@ -254,7 +253,7 @@ plans:
 - name: Wegowise Plans Pricing
   plan_count: 1
   slug: wegowise-plans-pricing
-random_paper: 16
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Wegowise Rate Limits
@@ -285,7 +284,7 @@ rules:
   slug: wegowise-rules
 score:
   band: thin
-  composite: 33.7
+  composite: 34.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 62.0
@@ -293,15 +292,15 @@ score:
     catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 27.3
-    contract_quality: 66.1
-    developer_ergonomics: 22.6
+    contract_quality: 62.7
+    developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 7.9
-  previous_composite: 35.3
+    operational_transparency: 10.5
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -315,13 +314,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/screenshots/wegowise-2026-06-20T201345.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wegowise/wegowise-2026-06-20T201345.png
 security:
 - kind: authentication
   name: Wegowise Authentication

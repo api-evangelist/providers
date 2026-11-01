@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 30.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 29
   slug: parseur-agentic-access
   summary_line: 29 operations · 19 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.parseur.com
   baseurl_source: declared
@@ -74,11 +76,8 @@ apis:
   description: The Webhook API from Parseur — 2 operation(s) for webhook.
   name: Parseur Webhook API
   slug: parseur-webhook-api
-artifact_total: 18
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Parseur async API
   slug: open-parseur-async-api
@@ -101,23 +100,28 @@ collections:
   name: Parseur
   slug: open-parseur
 common:
+- group: commercial
+  href: https://artifacts.apis.io/parseur/plans/parseur-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/parseur-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/agentic-access/parseur-agentic-access.yml
+  href: https://artifacts.apis.io/parseur/agentic-access/parseur-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/parseur-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/security/parseur-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/parseur/security/parseur-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/parseur-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/security/parseur-domain-security.yml
+  href: https://artifacts.apis.io/parseur/security/parseur-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/parseur-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/authentication/parseur-authentication.yml
+  href: https://artifacts.apis.io/parseur/authentication/parseur-authentication.yml
   title: ''
   type: Authentication
   url: authentication/parseur-authentication.yml
@@ -220,6 +224,14 @@ common:
 created: '2026-05-25'
 description: Parseur is an AI-powered document and email parsing platform headquartered in Singapore that automatically extracts structured data from PDFs, emails, scanned documents, and arbitrary file uploads, then routes the resulting JSON, CSV, or Excel records into downstream systems via webhooks, native integrations, or its REST API. The platform combines Vision AI, Text AI, template-based extraction, OCR, normalization, and field validation behind a forwarding email address per mailbox, and connects to more than 1,000 applications including Zapier, Make, n8n, Power Automate, Google Sheets, Airtable, Salesforce, Excel, and Slack. Parseur exposes a public REST API at https://api.parseur.com with an OpenAPI 3.1 specification covering mailbox (parser) management, document upload and lifecycle, templates, custom export configurations, and webhook subscriptions, secured with a per-account Token-based Authorization header. Pricing is volume-based on pages processed, with a permanent free
   tier (20 pages/month) and Base, Scale, and Enterprise tiers that scale up to 10 million pages per month.
+finops:
+- has_sources: true
+  method: derived
+  name: Parseur Finops
+  primary_unit: page
+  service_category: ''
+  slug: parseur-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/parseur.png
 layout: provider
 modified: '2026-05-25'
@@ -229,23 +241,30 @@ network: true
 overview: 'Parseur publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Async API, Bootstrap API, Document API, and 3 more. Tagged areas include Artificial Intelligence, Document Parsing, Document Processing, Document Extraction, and Email Parsing.
 
 
-  Parseur''s developer surface includes authentication, developer portal, signup flow, documentation, engineering blog, pricing, GitHub presence, and 21 more developer resources.'
-random_paper: 0
+  Parseur''s developer surface includes authentication, developer portal, signup flow, documentation, engineering blog, pricing, GitHub presence, and 22 more developer resources.'
+plans:
+- name: Parseur Plans Pricing
+  plan_count: 18
+  slug: parseur-plans-pricing
+- name: Parseur Price Estimates
+  plan_count: 0
+  slug: parseur-price-estimates
+random_paper: 2
 score:
   band: developing
-  composite: 40.8
+  composite: 49.9
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 11
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 38.2
+    access_clarity: 84.2
     contract_governance: 0.0
-    contract_quality: 51.0
+    contract_quality: 47.6
     developer_ergonomics: 40.5
     discoverability: 66.1
     operational_transparency: 39.5
@@ -254,7 +273,7 @@ score:
     countries:
     - singapore
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 40.7
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -268,13 +287,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/screenshots/parseur-2026-06-20T191421.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/parseur/parseur-2026-06-20T191421.png
 security:
 - kind: authentication
   name: Parseur Authentication

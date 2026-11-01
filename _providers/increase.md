@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-10-17'
+  score: 33.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 1
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 238
   slug: increase-agentic-access
   summary_line: 238 operations · 132 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.increase.com
   baseurl_source: declared
@@ -330,11 +332,8 @@ apis:
   description: The Oauth API from Increase — 1 operation(s) for oauth.
   name: Increase OAUTH API
   slug: increase-oauth-api
-artifact_total: 123
+artifact_total: 122
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Increase Account Numbers API
   slug: open-increase-account-numbers-api
@@ -512,7 +511,7 @@ common:
   type: Pricing
   url: https://increase.com/fees
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/capabilities/increase-capability-edges.yml
+  href: https://artifacts.apis.io/increase/capabilities/increase-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/increase-capability-edges.yml
@@ -545,22 +544,22 @@ common:
   type: TermsOfService
   url: https://increase.com/terms
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/agentic-access/increase-agentic-access.yml
+  href: https://artifacts.apis.io/increase/agentic-access/increase-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/increase-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/security/increase-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/increase/security/increase-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/increase-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/security/increase-domain-security.yml
+  href: https://artifacts.apis.io/increase/security/increase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/increase-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/authentication/increase-authentication.yml
+  href: https://artifacts.apis.io/increase/authentication/increase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/increase-authentication.yml
@@ -577,17 +576,17 @@ common:
   type: Website
   url: https://increase.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/plans/increase-plans-pricing.yml
+  href: https://artifacts.apis.io/increase/plans/increase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/increase-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/rate-limits/increase-rate-limits.yml
+  href: https://artifacts.apis.io/increase/rate-limits/increase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/increase-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/finops/increase-finops.yml
+  href: https://artifacts.apis.io/increase/finops/increase-finops.yml
   title: ''
   type: FinOps
   url: finops/increase-finops.yml
@@ -603,10 +602,10 @@ created: '2026-05-08'
 description: Increase is a banking and payments API providing direct ACH, wire, RTP, FedNow, check, and card programs. Bank-direct connectivity (no aggregator middle layer).
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Increase Finops
-  primary_unit: ''
-  service_category: Fintech
+  primary_unit: transaction
+  service_category: ''
   slug: increase-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/increase.png
@@ -626,50 +625,51 @@ plans:
 - name: Increase Price Estimates
   plan_count: 0
   slug: increase-price-estimates
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Increase Rate Limits
   slug: increase-rate-limits
 score:
   band: developing
-  composite: 46.5
+  composite: 49.2
   coverage:
     artifact_dirs: 14
-    catalog_earned: 52.0
+    catalog_earned: 55.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.5
   facets:
-    access_clarity: 71.1
+    access_clarity: 78.9
     contract_governance: 0.0
-    contract_quality: 47.5
+    contract_quality: 47.8
     developer_ergonomics: 38.1
     discoverability: 64.3
-    operational_transparency: 50.0
-  previous_composite: 48.1
+    operational_transparency: 52.6
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 57
+      total: 56
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/screenshots/increase-2026-06-20T183309.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/increase/increase-2026-06-20T183309.png
 security:
 - kind: authentication
   name: Increase Authentication

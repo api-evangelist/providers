@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/helloworld-travel/refs/heads/main/security/helloworld-travel-domain-security.yml
+  href: https://artifacts.apis.io/helloworld-travel/security/helloworld-travel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/helloworld-travel-domain-security.yml
@@ -99,22 +101,22 @@ common:
   type: Announcements
   url: https://www.helloworldlimited.com.au/asx-announcements/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/helloworld-travel/refs/heads/main/well-known/helloworld-travel-well-known.yml
+  href: https://artifacts.apis.io/helloworld-travel/well-known/helloworld-travel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/helloworld-travel-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/helloworld-travel/refs/heads/main/conformance/helloworld-travel-conformance.yml
+  href: https://artifacts.apis.io/helloworld-travel/conformance/helloworld-travel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/helloworld-travel-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/helloworld-travel/refs/heads/main/lifecycle/helloworld-travel-lifecycle.yml
+  href: https://artifacts.apis.io/helloworld-travel/lifecycle/helloworld-travel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/helloworld-travel-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/helloworld-travel/refs/heads/main/llms/helloworld-travel-llms.txt
+  href: https://artifacts.apis.io/helloworld-travel/llms/helloworld-travel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/helloworld-travel-llms.txt
@@ -131,7 +133,7 @@ overview: 'Helloworld Travel is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Helloworld Travel''s developer surface includes engineering blog and 18 more developer resources.'
-random_paper: 1
+random_paper: 7
 score:
   band: emerging
   composite: 12.2
@@ -167,14 +169,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/helloworld-travel/refs/heads/main/screenshots/helloworld-travel-2026-08-07T170103.png
+screenshot: https://apis.io/screenshots/helloworld-travel/helloworld-travel-2026-08-07T170103.png
 security:
 - kind: domain-security
   name: Helloworld Travel Domain Security

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-17'
+  score: 26.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://www.comet.com/opik/api/v1
@@ -231,11 +233,8 @@ apis:
   description: Workspace related resources
   name: Opik Workspaces API
   slug: opik-workspaces-api
-artifact_total: 93
+artifact_total: 92
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Opik REST Agent Configs API
   slug: open-opik-agent-configs-api
@@ -354,8 +353,12 @@ collections:
   name: Opik REST Workspaces API
   slug: open-opik-workspaces-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/opik/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/capabilities/opik-capability-edges.yml
+  href: https://artifacts.apis.io/opik/capabilities/opik-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/opik-capability-edges.yml
@@ -376,12 +379,12 @@ common:
   type: License
   url: https://github.com/comet-ml/opik/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/security/opik-trust-center.yml
+  href: https://artifacts.apis.io/opik/security/opik-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/opik-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/security/opik-domain-security.yml
+  href: https://artifacts.apis.io/opik/security/opik-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opik-domain-security.yml
@@ -434,42 +437,42 @@ common:
   type: Slack
   url: https://chat.comet.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/plans/opik-plans-pricing.yml
+  href: https://artifacts.apis.io/opik/plans/opik-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/opik-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/rate-limits/opik-rate-limits.yml
+  href: https://artifacts.apis.io/opik/rate-limits/opik-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/opik-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/finops/opik-finops.yml
+  href: https://artifacts.apis.io/opik/finops/opik-finops.yml
   title: ''
   type: FinOps
   url: finops/opik-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/vocabulary/opik-vocabulary.yml
+  href: https://artifacts.apis.io/opik/vocabulary/opik-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/opik-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/json-ld/opik-context.jsonld
+  href: https://artifacts.apis.io/opik/json-ld/opik-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/opik-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/json-schema/opik-trace.json
+  href: https://artifacts.apis.io/opik/json-schema/opik-trace.json
   title: ''
   type: JSONSchema
   url: json-schema/opik-trace.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/json-schema/opik-span.json
+  href: https://artifacts.apis.io/opik/json-schema/opik-span.json
   title: ''
   type: JSONSchema
   url: json-schema/opik-span.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/json-schema/opik-experiment.json
+  href: https://artifacts.apis.io/opik/json-schema/opik-experiment.json
   title: ''
   type: JSONSchema
   url: json-schema/opik-experiment.json
@@ -486,13 +489,13 @@ examples:
   name: Opik Trace Example
   slug: opik-trace-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Opik Finops
-  primary_unit: ''
+  primary_unit: user
   service_category: ''
   slug: opik-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opik.png
 json_schemas:
 - name: Experiment
@@ -520,7 +523,7 @@ overview: 'Opik publishes 39 API contracts indexed on the [APIs.io](https://apis
   The Opik catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Opik''s developer surface includes documentation, engineering blog, pricing, changelog, and 23 more developer resources.'
+  Opik''s developer surface includes documentation, engineering blog, pricing, changelog, and 24 more developer resources.'
 plans:
 - name: Opik Plans Pricing
   plan_count: 7
@@ -528,7 +531,7 @@ plans:
 - name: Opik Price Estimates
   plan_count: 0
   slug: opik-price-estimates
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 15
   name: Opik Rate Limits
@@ -547,26 +550,23 @@ rules:
   slug: opik-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.1
+  composite: 45.5
   coverage:
     artifact_dirs: 16
-    catalog_earned: 76.8
+    catalog_earned: 79.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 38.3
+    catalog_gap: 35.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 1.8
   facets:
-    access_clarity: 50.0
+    access_clarity: 57.9
     contract_governance: 23.5
-    contract_quality: 49.3
-    developer_ergonomics: 16.7
+    contract_quality: 48.4
+    developer_ergonomics: 17.9
     discoverability: 66.1
     operational_transparency: 68.4
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 48.5
+  previous_composite: 43.7
   provenance:
     contracts:
       callable: 100.0
@@ -579,13 +579,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/screenshots/opik-2026-06-20T191101.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/opik/opik-2026-06-20T191101.png
 security:
 - kind: domain-security
   name: Opik Domain Security

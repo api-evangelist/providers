@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.0
-  scored_at: '2026-10-17'
+  score: 36.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -110,15 +112,12 @@ apis:
   description: The Subscriptions API from Neon Commerce — 4 operation(s) for subscriptions.
   name: Neon Commerce Subscriptions API
   slug: neon-commerce-subscriptions-api
-artifact_total: 32
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Neon Commerce Webhooks Asyncapi
   slug: neon-commerce-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Account API
   slug: open-neon-commerce-account-api
@@ -160,27 +159,27 @@ collections:
   slug: open-neon-commerce-subscriptions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/capabilities/neon-commerce-capability-edges.yml
+  href: https://artifacts.apis.io/neon-commerce/capabilities/neon-commerce-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/neon-commerce-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/overlays/neon-commerce-account-overlay.yaml
+  href: https://artifacts.apis.io/neon-commerce/overlays/neon-commerce-account-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/neon-commerce-account-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/security/neon-commerce-domain-security.yml
+  href: https://artifacts.apis.io/neon-commerce/security/neon-commerce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/neon-commerce-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/agentic-access/neon-commerce-agentic-access.yml
+  href: https://artifacts.apis.io/neon-commerce/agentic-access/neon-commerce-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/neon-commerce-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/authentication/neon-commerce-authentication.yml
+  href: https://artifacts.apis.io/neon-commerce/authentication/neon-commerce-authentication.yml
   title: ''
   type: Authentication
   url: authentication/neon-commerce-authentication.yml
@@ -241,82 +240,82 @@ common:
   type: ChangeLog
   url: https://docs.neonpay.com/changelog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/llms/neon-commerce-llms.txt
+  href: https://artifacts.apis.io/neon-commerce/llms/neon-commerce-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/neon-commerce-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/conventions/neon-commerce-conventions.yml
+  href: https://artifacts.apis.io/neon-commerce/conventions/neon-commerce-conventions.yml
   title: ''
   type: Conventions
   url: conventions/neon-commerce-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/errors/neon-commerce-problem-types.yml
+  href: https://artifacts.apis.io/neon-commerce/errors/neon-commerce-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/neon-commerce-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/errors/neon-commerce-decline-codes.yml
+  href: https://artifacts.apis.io/neon-commerce/errors/neon-commerce-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/neon-commerce-decline-codes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/sandbox/neon-commerce-sandbox.yml
+  href: https://artifacts.apis.io/neon-commerce/sandbox/neon-commerce-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/neon-commerce-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/changelog/neon-commerce-changelog.yml
+  href: https://artifacts.apis.io/neon-commerce/changelog/neon-commerce-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/neon-commerce-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/lifecycle/neon-commerce-lifecycle.yml
+  href: https://artifacts.apis.io/neon-commerce/lifecycle/neon-commerce-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/neon-commerce-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/lifecycle/neon-commerce-lifecycle.yml
+  href: https://artifacts.apis.io/neon-commerce/lifecycle/neon-commerce-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/neon-commerce-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/asyncapi/neon-commerce-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/neon-commerce/asyncapi/neon-commerce-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/neon-commerce-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/data-model/neon-commerce-data-model.yml
+  href: https://artifacts.apis.io/neon-commerce/data-model/neon-commerce-data-model.yml
   title: ''
   type: DataModel
   url: data-model/neon-commerce-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/mcp/neon-commerce-mcp.yml
+  href: https://artifacts.apis.io/neon-commerce/mcp/neon-commerce-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/neon-commerce-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/packages/neon-commerce-packages.yml
+  href: https://artifacts.apis.io/neon-commerce/packages/neon-commerce-packages.yml
   title: ''
   type: Packages
   url: packages/neon-commerce-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/packages/neon-commerce-packages.yml
+  href: https://artifacts.apis.io/neon-commerce/packages/neon-commerce-packages.yml
   title: ''
   type: SDKs
   url: packages/neon-commerce-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/components/neon-commerce-components.yml
+  href: https://artifacts.apis.io/neon-commerce/components/neon-commerce-components.yml
   title: ''
   type: Components
   url: components/neon-commerce-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/conformance/neon-commerce-conformance.yml
+  href: https://artifacts.apis.io/neon-commerce/conformance/neon-commerce-conformance.yml
   title: ''
   type: Conformance
   url: conformance/neon-commerce-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/neon-commerce/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -342,7 +341,7 @@ overview: 'Neon Commerce publishes 13 API contracts indexed on the [APIs.io](htt
 random_paper: 0
 score:
   band: developing
-  composite: 49.9
+  composite: 51.5
   coverage:
     artifact_dirs: 24
     catalog_earned: 40.0
@@ -355,10 +354,10 @@ score:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 56.2
-    developer_ergonomics: 64.9
-    discoverability: 78.6
+    developer_ergonomics: 73.2
+    discoverability: 70.0
     operational_transparency: 36.8
-  previous_composite: 49.9
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -375,13 +374,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/screenshots/neon-commerce-2026-08-17T082605.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/neon-commerce/neon-commerce-2026-08-17T082605.png
 security:
 - kind: authentication
   name: Neon Commerce Authentication
@@ -391,6 +391,14 @@ security:
   name: Neon Commerce Domain Security
   slug: neon-commerce-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Refund and reconcile a Neon purchase
+  slug: neon-commerce-refund-and-reconcile
+- name: Sell a game item with Neon Checkout
+  slug: neon-commerce-sell-via-checkout
+- name: Set up a Neon storefront catalog
+  slug: neon-commerce-setup-storefront
 slug: neon-commerce
 tags:
 - Commerce

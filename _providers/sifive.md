@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The OAuth 2.0 authorization server that fronts the SiFive Cloud Services (SCS) portal at scs.sifive.com, where SiFive Core Designer and the rest of the SiFive development tooling are delivered. It pub
@@ -44,7 +46,7 @@ apis:
 artifact_total: 7
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sifive/refs/heads/main/mcp/sifive-mcp.yml
+  href: https://artifacts.apis.io/sifive/mcp/sifive-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sifive-mcp.yml
@@ -101,77 +103,77 @@ common:
   type: Security
   url: https://www.sifive.com/psirt-report-vulnerability
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sifive/refs/heads/main/security/sifive-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sifive/security/sifive-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sifive-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sifive/refs/heads/main/security/sifive-domain-security.yml
+  href: https://artifacts.apis.io/sifive/security/sifive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sifive-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sifive/refs/heads/main/well-known/sifive-well-known.yml
+  href: https://artifacts.apis.io/sifive/well-known/sifive-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sifive-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sifive/refs/heads/main/authentication/sifive-authentication.yml
+  href: https://artifacts.apis.io/sifive/authentication/sifive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sifive-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sifive/refs/heads/main/scopes/sifive-scopes.yml
+  href: https://artifacts.apis.io/sifive/scopes/sifive-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sifive-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sifive/refs/heads/main/packages/sifive-packages.yml
+  href: https://artifacts.apis.io/sifive/packages/sifive-packages.yml
   title: ''
   type: Packages
   url: packages/sifive-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sifive/refs/heads/main/packages/sifive-packages.yml
+  href: https://artifacts.apis.io/sifive/packages/sifive-packages.yml
   title: ''
   type: SDKs
   url: packages/sifive-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sifive/refs/heads/main/cli/sifive-cli.yml
+  href: https://artifacts.apis.io/sifive/cli/sifive-cli.yml
   title: ''
   type: CLI
   url: cli/sifive-cli.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sifive/refs/heads/main/json-schema/sifive-duh-schema.json
+  href: https://artifacts.apis.io/sifive/json-schema/sifive-duh-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/sifive-duh-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sifive/refs/heads/main/data-model/sifive-data-model.yml
+  href: https://artifacts.apis.io/sifive/data-model/sifive-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sifive-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sifive/refs/heads/main/errors/sifive-problem-types.yml
+  href: https://artifacts.apis.io/sifive/errors/sifive-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sifive-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sifive/refs/heads/main/conformance/sifive-conformance.yml
+  href: https://artifacts.apis.io/sifive/conformance/sifive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sifive-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sifive/refs/heads/main/conventions/sifive-conventions.yml
+  href: https://artifacts.apis.io/sifive/conventions/sifive-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sifive-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sifive/refs/heads/main/lifecycle/sifive-lifecycle.yml
+  href: https://artifacts.apis.io/sifive/lifecycle/sifive-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sifive-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sifive/refs/heads/main/llms/sifive-llms.txt
+  href: https://artifacts.apis.io/sifive/llms/sifive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sifive-llms.txt
@@ -196,7 +198,7 @@ overview: 'SiFive is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   SiFive''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, CLI, and 22 more developer resources.'
-random_paper: 8
+random_paper: 22
 scopes:
 - name: Sifive Scopes
   scope_count: 3
@@ -204,23 +206,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.4
+  composite: 34.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 61.9
+    developer_ergonomics: 64.3
     discoverability: 65.0
-    operational_transparency: 13.2
-  previous_composite: 33.3
+    operational_transparency: 15.8
+  previous_composite: 34.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -230,14 +232,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sifive/refs/heads/main/screenshots/sifive-2026-09-02T155410.png
+screenshot: https://apis.io/screenshots/sifive/sifive-2026-09-02T155410.png
 security:
 - kind: authentication
   name: Sifive Authentication

@@ -16,15 +16,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 26.2
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: API for creating video renders, managing projects, templates, and teams.
   name: Edit Square API
@@ -54,79 +56,79 @@ apis:
   description: The people on a team. `GET /v1/me` resolves the user an API key acts as - the quickest way to see what a key can reach.
   name: Edit Square Users API
   slug: editsquare-users-api
-artifact_total: 18
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Editsquare Webhooks
   slug: editsquare-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/plans/editsquare-plans-pricing.yml
+  href: https://artifacts.apis.io/editsquare/plans/editsquare-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/editsquare-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/rules/editsquare-rules.yml
+  href: https://artifacts.apis.io/editsquare/rules/editsquare-rules.yml
   title: ''
   type: Spectral
   url: rules/editsquare-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/json-ld/editsquare-context.jsonld
+  href: https://artifacts.apis.io/editsquare/json-ld/editsquare-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/editsquare-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/vocabulary/editsquare-vocabulary.yml
+  href: https://artifacts.apis.io/editsquare/vocabulary/editsquare-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/editsquare-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/asyncapi/editsquare-webhooks.yml
+  href: https://artifacts.apis.io/editsquare/asyncapi/editsquare-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/editsquare-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/data-model/editsquare-data-model.yml
+  href: https://artifacts.apis.io/editsquare/data-model/editsquare-data-model.yml
   title: ''
   type: DataModel
   url: data-model/editsquare-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/conventions/editsquare-conventions.yml
+  href: https://artifacts.apis.io/editsquare/conventions/editsquare-conventions.yml
   title: ''
   type: Conventions
   url: conventions/editsquare-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/authentication/editsquare-authentication.yml
+  href: https://artifacts.apis.io/editsquare/authentication/editsquare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/editsquare-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/errors/editsquare-problem-types.yml
+  href: https://artifacts.apis.io/editsquare/errors/editsquare-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/editsquare-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/conformance/editsquare-conformance.yml
+  href: https://artifacts.apis.io/editsquare/conformance/editsquare-conformance.yml
   title: ''
   type: Conformance
   url: conformance/editsquare-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/overlays/editsquare-openapi-overlay.yaml
+  href: https://artifacts.apis.io/editsquare/overlays/editsquare-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/editsquare-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/llms/editsquare-llms.txt
+  href: https://artifacts.apis.io/editsquare/llms/editsquare-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/editsquare-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/hosts/editsquare-hosts.yml
+  href: https://artifacts.apis.io/editsquare/hosts/editsquare-hosts.yml
   title: ''
   type: Hosts
   url: hosts/editsquare-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/vendors/editsquare-vendors.yml
+  href: https://artifacts.apis.io/editsquare/vendors/editsquare-vendors.yml
   title: ''
   type: Vendors
   url: vendors/editsquare-vendors.yml
@@ -151,7 +153,7 @@ common:
   type: APIReference
   url: https://docs.editsquare.com/llms-full.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/security/editsquare-domain-security.yml
+  href: https://artifacts.apis.io/editsquare/security/editsquare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/editsquare-domain-security.yml
@@ -173,6 +175,14 @@ common:
   url: https://dashboard.editsquare.com/login
 created: '2026-10-02'
 description: Edit Square provides a browser‑based motion graphics editor that lets users create, template, and automate animated video at scale. Through a simple API, developers can generate renders by sending data to templates, retrieve finished videos, and integrate video creation into their applications. The platform offers a free tier for basic editing and paid plans with higher resolution, watermark‑free exports, cloud rendering, and team collaboration features. Edit Square aims to democratize video production for marketers, developers, and creators without requiring design expertise.
+finops:
+- has_sources: true
+  method: derived
+  name: Editsquare Finops
+  primary_unit: seat
+  service_category: ''
+  slug: editsquare-finops
+  template: false
 json_schemas:
 - name: ProjectList
   property_count: 3
@@ -213,7 +223,10 @@ plans:
 - name: Editsquare Plans Pricing
   plan_count: 4
   slug: editsquare-plans-pricing
-random_paper: 1
+- name: Editsquare Price Estimates
+  plan_count: 0
+  slug: editsquare-price-estimates
+random_paper: 23
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -229,23 +242,23 @@ rules:
   slug: editsquare-rules
 score:
   band: developing
-  composite: 49.7
+  composite: 51.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 67.8
+    artifact_dirs: 23
+    catalog_earned: 70.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 47.3
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 63.2
+    access_clarity: 71.1
     contract_governance: 22.0
     contract_quality: 70.2
     developer_ergonomics: 45.2
-    discoverability: 60.7
+    discoverability: 53.6
     operational_transparency: 7.9
-  previous_composite: 49.6
+  previous_composite: 49.7
   provenance:
     conformance: derived
     contracts:
@@ -260,13 +273,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/editsquare/refs/heads/main/screenshots/editsquare-2026-10-11T104032.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/editsquare/editsquare-2026-10-11T104032.png
 security:
 - kind: authentication
   name: Editsquare Authentication

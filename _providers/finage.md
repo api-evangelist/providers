@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: derived
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.finage.co.uk
@@ -97,7 +99,7 @@ apis:
   description: The ETFs API from Finage — 3 operation(s) for etfs.
   name: Finage ET Fs API
   slug: finage-etfs-api
-artifact_total: 18
+artifact_total: 23
 asyncapis:
 - description: 'Finage streams real-time market prices (US stocks, global stocks, forex, crypto, CFD indices, and ETFs) over WebSocket. Each customer is assigned a dedicated WebSocket URL (subdomain + port) shown in '
   name: Finage WebSocket Market Data Stream
@@ -108,22 +110,22 @@ collections:
   slug: open-finage
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/overlays/finage-openapi-overlay.yaml
+  href: https://artifacts.apis.io/finage/overlays/finage-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/finage-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/mcp/finage-mcp.yml
+  href: https://artifacts.apis.io/finage/mcp/finage-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/finage-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/authentication/finage-authentication.yml
+  href: https://artifacts.apis.io/finage/authentication/finage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/finage-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/security/finage-domain-security.yml
+  href: https://artifacts.apis.io/finage/security/finage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/finage-domain-security.yml
@@ -136,67 +138,67 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/packages/finage-packages.yml
+  href: https://artifacts.apis.io/finage/packages/finage-packages.yml
   title: ''
   type: Packages
   url: packages/finage-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/well-known/finage-well-known.yml
+  href: https://artifacts.apis.io/finage/well-known/finage-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/finage-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/llms/finage-llms.txt
+  href: https://artifacts.apis.io/finage/llms/finage-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/finage-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/conformance/finage-conformance.yml
+  href: https://artifacts.apis.io/finage/conformance/finage-conformance.yml
   title: ''
   type: Conformance
   url: conformance/finage-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/errors/finage-problem-types.yml
+  href: https://artifacts.apis.io/finage/errors/finage-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/finage-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/lifecycle/finage-lifecycle.yml
+  href: https://artifacts.apis.io/finage/lifecycle/finage-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/finage-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/conventions/finage-conventions.yml
+  href: https://artifacts.apis.io/finage/conventions/finage-conventions.yml
   title: ''
   type: Conventions
   url: conventions/finage-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/components/finage-components.yml
+  href: https://artifacts.apis.io/finage/components/finage-components.yml
   title: ''
   type: Components
   url: components/finage-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/data-model/finage-data-model.yml
+  href: https://artifacts.apis.io/finage/data-model/finage-data-model.yml
   title: ''
   type: DataModel
   url: data-model/finage-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/plans/finage-plans.yml
+  href: https://artifacts.apis.io/finage/plans/finage-plans.yml
   title: ''
   type: Plans
   url: plans/finage-plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/rate-limits/finage-rate-limits.yml
+  href: https://artifacts.apis.io/finage/rate-limits/finage-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/finage-rate-limits.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/asyncapi/finage-websocket-asyncapi.yml
+  href: https://artifacts.apis.io/finage/asyncapi/finage-websocket-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/finage-websocket-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/finage/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -254,6 +256,14 @@ common:
   url: https://www.youtube.com/channel/UCRUuqo17XKUVxPODKLsRvmA
 created: '2026-05-28'
 description: Finage is a London-based real-time and historical market data provider covering US and global stocks, forex, cryptocurrencies, CFD indices, ETFs, bonds, and company fundamentals. Data is delivered through a read-only REST API (api.finage.co.uk, API-key auth, 72 documented endpoints spanning quotes, trades, OHLCV aggregates, snapshots, financial statements, calendars, news, and technical indicators), dedicated per-customer WebSocket streams on finage.ws for real-time trades and quotes, and embeddable website widgets served from cdn.finage.co.uk. Plans range from a free 1,000 request/month tier through Basic API packages to Professional unlimited WebSocket feeds, with a 3-day free trial across all markets.
+finops:
+- has_sources: true
+  method: derived
+  name: Finage Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: finage-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/finage.png
 layout: provider
 modified: '2026-07-22'
@@ -269,31 +279,34 @@ overview: 'Finage publishes 12 API contracts indexed on the [APIs.io](https://ap
   Finage''s developer surface includes authentication, developer portal, signup flow, documentation, API reference, pricing, engineering blog, and 25 more developer resources.'
 plans:
 - name: Finage Plans
-  plan_count: 23
+  plan_count: 3
   slug: finage-plans
-random_paper: 2
+- name: Finage Price Estimates
+  plan_count: 0
+  slug: finage-price-estimates
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Finage Rate Limits
   slug: finage-rate-limits
 score:
   band: developing
-  composite: 44.3
+  composite: 46.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 61.0
+    artifact_dirs: 24
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 24.3
     developer_ergonomics: 47.0
     discoverability: 73.2
-    operational_transparency: 34.2
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -302,7 +315,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 44.2
+  previous_composite: 44.6
   provenance:
     conformance: derived
     contracts:
@@ -318,14 +331,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/screenshots/finage-2026-06-20T181209.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/finage/finage-2026-06-20T181209.png
 security:
 - kind: authentication
   name: Finage Authentication
@@ -335,6 +348,14 @@ security:
   name: Finage Domain Security
   slug: finage-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Research company fundamentals with Finage
+  slug: finage-company-fundamentals
+- name: Pull historical OHLCV aggregates from Finage
+  slug: finage-historical-aggregates
+- name: Get real-time prices from Finage
+  slug: finage-realtime-prices
 slug: finage
 tags:
 - Finance

@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 60.2
-  scored_at: '2026-10-17'
+  score: 51.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1210
   human_in_the_loop: 20
@@ -1968,7 +1970,7 @@ apis:
   description: The oauth2 API from Automattic — 1 operation(s) for oauth2.
   name: Automattic Oauth2 API
   slug: automattic-oauth2-api
-artifact_total: 399
+artifact_total: 407
 asyncapis:
 - description: ''
   name: Automattic Wordpress Com Webhooks
@@ -1993,6 +1995,11 @@ collections:
   name: WordPress.com REST API — wpcom/v2 namespace
   slug: open-automattic-wordpress-com-wpcom-v2
 common:
+- group: commercial
+  href: https://artifacts.apis.io/automattic/plans/automattic-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/automattic-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -2002,37 +2009,37 @@ common:
   type: BlogRSS
   url: https://automattic.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/overlays/automattic-wordpress-com-rest-v1-1-overlay.yaml
+  href: https://artifacts.apis.io/automattic/overlays/automattic-wordpress-com-rest-v1-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/automattic-wordpress-com-rest-v1-1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/overlays/automattic-wordpress-com-rest-v1-2-overlay.yaml
+  href: https://artifacts.apis.io/automattic/overlays/automattic-wordpress-com-rest-v1-2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/automattic-wordpress-com-rest-v1-2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/overlays/automattic-wordpress-com-rest-v1-3-overlay.yaml
+  href: https://artifacts.apis.io/automattic/overlays/automattic-wordpress-com-rest-v1-3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/automattic-wordpress-com-rest-v1-3-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/overlays/automattic-wordpress-com-wp-v2-overlay.yaml
+  href: https://artifacts.apis.io/automattic/overlays/automattic-wordpress-com-wp-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/automattic-wordpress-com-wp-v2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/overlays/automattic-wordpress-com-wpcom-v2-overlay.yaml
+  href: https://artifacts.apis.io/automattic/overlays/automattic-wordpress-com-wpcom-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/automattic-wordpress-com-wpcom-v2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/overlays/automattic-akismet-overlay.yaml
+  href: https://artifacts.apis.io/automattic/overlays/automattic-akismet-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/automattic-akismet-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/overlays/automattic-jetpack-ai-plugin-overlay.yaml
+  href: https://artifacts.apis.io/automattic/overlays/automattic-jetpack-ai-plugin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/automattic-jetpack-ai-plugin-overlay.yaml
@@ -2105,7 +2112,7 @@ common:
   type: Security
   url: https://automattic.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/security/automattic-trust-center.yml
+  href: https://artifacts.apis.io/automattic/security/automattic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/automattic-trust-center.yml
@@ -2114,62 +2121,62 @@ common:
   type: Compliance
   url: https://wpvip.com/trust/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/authentication/automattic-authentication.yml
+  href: https://artifacts.apis.io/automattic/authentication/automattic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/automattic-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/scopes/automattic-scopes.yml
+  href: https://artifacts.apis.io/automattic/scopes/automattic-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/automattic-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/well-known/automattic-openid-configuration.json
+  href: https://artifacts.apis.io/automattic/well-known/automattic-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/automattic-openid-configuration.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/well-known/automattic-well-known.yml
+  href: https://artifacts.apis.io/automattic/well-known/automattic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/automattic-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/well-known/automattic-security.txt
+  href: https://artifacts.apis.io/automattic/well-known/automattic-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/automattic-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/security/automattic-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/automattic/security/automattic-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/automattic-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/security/automattic-domain-security.yml
+  href: https://artifacts.apis.io/automattic/security/automattic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/automattic-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/conformance/automattic-conformance.yml
+  href: https://artifacts.apis.io/automattic/conformance/automattic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/automattic-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/conventions/automattic-conventions.yml
+  href: https://artifacts.apis.io/automattic/conventions/automattic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/automattic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/errors/automattic-problem-types.yml
+  href: https://artifacts.apis.io/automattic/errors/automattic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/automattic-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/lifecycle/automattic-lifecycle.yml
+  href: https://artifacts.apis.io/automattic/lifecycle/automattic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/automattic-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/changelog/automattic-changelog.yml
+  href: https://artifacts.apis.io/automattic/changelog/automattic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/automattic-changelog.yml
@@ -2178,32 +2185,32 @@ common:
   type: ReleaseNotes
   url: https://developer.wordpress.com/changelog/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/data-model/automattic-data-model.yml
+  href: https://artifacts.apis.io/automattic/data-model/automattic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/automattic-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/packages/automattic-packages.yml
+  href: https://artifacts.apis.io/automattic/packages/automattic-packages.yml
   title: ''
   type: Packages
   url: packages/automattic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/packages/automattic-packages.yml
+  href: https://artifacts.apis.io/automattic/packages/automattic-packages.yml
   title: ''
   type: SDKs
   url: packages/automattic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/cli/automattic-cli.yml
+  href: https://artifacts.apis.io/automattic/cli/automattic-cli.yml
   title: ''
   type: CLI
   url: cli/automattic-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/components/automattic-components.yml
+  href: https://artifacts.apis.io/automattic/components/automattic-components.yml
   title: ''
   type: Components
   url: components/automattic-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/sandbox/automattic-sandbox.yml
+  href: https://artifacts.apis.io/automattic/sandbox/automattic-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/automattic-sandbox.yml
@@ -2212,32 +2219,32 @@ common:
   type: Console
   url: https://developer.wordpress.com/docs/api/console/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/asyncapi/automattic-wordpress-com-webhooks.yml
+  href: https://artifacts.apis.io/automattic/asyncapi/automattic-wordpress-com-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/automattic-wordpress-com-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/automattic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/agentic-access/automattic-agentic-access.yml
+  href: https://artifacts.apis.io/automattic/agentic-access/automattic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/automattic-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/llms/automattic-llms.txt
+  href: https://artifacts.apis.io/automattic/llms/automattic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/automattic-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/mcp/automattic-mcp.yml
+  href: https://artifacts.apis.io/automattic/mcp/automattic-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/automattic-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/mcp/automattic-tool-crosswalk.yml
+  href: https://artifacts.apis.io/automattic/mcp/automattic-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/automattic-tool-crosswalk.yml
@@ -2248,6 +2255,14 @@ common:
 created: '2026-07-31'
 description: Automattic is the company behind WordPress.com, Jetpack, WooCommerce, Tumblr, Gravatar, Akismet, WordPress VIP, Pocket Casts, Day One, Beeper and Simplenote. Its developer platform centres on the WordPress.com REST API at public-api.wordpress.com, which serves three parallel namespaces — the WordPress.com-native /rest/v1.x family, the WordPress-core-compatible /wp/v2 family, and the WordPress.com and Jetpack platform extensions in /wpcom/v2 — all behind a single OAuth 2.1 and OpenID Connect authorization server with PKCE, dynamic client registration and resource indicators. Every /rest/ version publishes a machine-readable help document and every /wp/ and /wpcom/ namespace publishes a route index, so the whole surface is self-describing even though Automattic does not ship OpenAPI for it. Automattic also runs a hosted Model Context Protocol server for WordPress.com, publishes OpenAPI for Akismet and for the Jetpack ai-plugin surface, and exposes a GraphQL Platform API for the
   enterprise WordPress VIP product.
+finops:
+- has_sources: true
+  method: derived
+  name: Automattic Finops
+  primary_unit: site
+  service_category: ''
+  slug: automattic-finops
+  template: false
 image: https://automattic.com/wp-content/uploads/2024/11/cropped-automattic-logo-square.png
 layout: provider
 mcp_servers:
@@ -2264,8 +2279,15 @@ overview: 'Automattic publishes 385 API contracts indexed on the [APIs.io](https
   The Automattic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Automattic''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 48 more developer resources.'
-random_paper: 5
+  Automattic''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 49 more developer resources.'
+plans:
+- name: Automattic Plans Pricing
+  plan_count: 6
+  slug: automattic-plans-pricing
+- name: Automattic Price Estimates
+  plan_count: 0
+  slug: automattic-price-estimates
+random_paper: 3
 scopes:
 - name: Automattic Scopes
   scope_count: 21
@@ -2273,23 +2295,28 @@ scopes:
   summary_line: 21 scopes · authorizationCode/refreshToken/clientCredentials
 score:
   band: strong
-  composite: 54.5
+  composite: 61.7
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 29
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 23.9
+    contract_quality: 20.8
     developer_ergonomics: 80.4
-    discoverability: 75.0
-    operational_transparency: 52.6
-  previous_composite: 54.4
+    discoverability: 65.0
+    operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -2306,13 +2333,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/screenshots/automattic-2026-08-07T161958.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/automattic/automattic-2026-08-07T161958.png
 security:
 - kind: authentication
   name: Automattic Authentication
@@ -2330,6 +2358,18 @@ security:
   name: Automattic Trust Center
   slug: automattic-trust-center
   summary_line: FedRAMP Moderate, SOC 2 Type I, ISO 27001, SOC 1, GovRAMP, TX-RAMP
+skill_count: 5
+skills:
+- name: Classify content with Akismet and train the model
+  slug: automattic-akismet-spam-check
+- name: Triage and moderate comments
+  slug: automattic-moderate-comments
+- name: Publish a post to a WordPress.com site
+  slug: automattic-publish-post
+- name: Read a WordPress.com site's traffic stats
+  slug: automattic-read-site-stats
+- name: Upload media and attach it to a post
+  slug: automattic-upload-media
 slug: automattic
 tags:
 - Company

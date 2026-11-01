@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.9
-  scored_at: '2026-10-17'
+  score: 33.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.starkbank.com
@@ -193,15 +195,12 @@ apis:
   description: Workspaces are bank accounts. They have independent balances, statements, operations and permissions. The only property that is shared between your workspaces is the link they have to your organizatio
   name: Stark Bank Workspace API
   slug: stark-bank-workspace-api
-artifact_total: 68
+artifact_total: 72
 asyncapis:
 - description: ''
   name: Stark Bank Events Webhooks
   slug: stark-bank-events-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Stark Bank Balance API
   slug: open-stark-bank-balance-api
@@ -298,17 +297,17 @@ common:
   type: BlogRSS
   url: https://blog.starkbank.com/feed/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/plans/stark-bank-plans-pricing.yml
+  href: https://artifacts.apis.io/stark-bank/plans/stark-bank-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stark-bank-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/capabilities/stark-bank-capability-edges.yml
+  href: https://artifacts.apis.io/stark-bank/capabilities/stark-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/stark-bank-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/overlays/stark-bank-openapi-overlay.yaml
+  href: https://artifacts.apis.io/stark-bank/overlays/stark-bank-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/stark-bank-openapi-overlay.yaml
@@ -357,97 +356,105 @@ common:
   type: Support
   url: mailto:help@starkbank.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/postman/stark-bank-postman.json
+  href: https://artifacts.apis.io/stark-bank/postman/stark-bank-postman.json
   title: ''
   type: Postman
   url: postman/stark-bank-postman.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/llms/stark-bank-llms.txt
+  href: https://artifacts.apis.io/stark-bank/llms/stark-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stark-bank-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/packages/stark-bank-packages.yml
+  href: https://artifacts.apis.io/stark-bank/packages/stark-bank-packages.yml
   title: ''
   type: Packages
   url: packages/stark-bank-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/packages/stark-bank-packages.yml
+  href: https://artifacts.apis.io/stark-bank/packages/stark-bank-packages.yml
   title: ''
   type: SDKs
   url: packages/stark-bank-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/mcp/stark-bank-mcp.yml
+  href: https://artifacts.apis.io/stark-bank/mcp/stark-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/stark-bank-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/stark-bank/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/authentication/stark-bank-authentication.yml
+  href: https://artifacts.apis.io/stark-bank/authentication/stark-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stark-bank-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/conventions/stark-bank-conventions.yml
+  href: https://artifacts.apis.io/stark-bank/conventions/stark-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stark-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/conventions/stark-bank-conventions.yml
+  href: https://artifacts.apis.io/stark-bank/conventions/stark-bank-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/stark-bank-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/sandbox/stark-bank-sandbox.yml
+  href: https://artifacts.apis.io/stark-bank/sandbox/stark-bank-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/stark-bank-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/lifecycle/stark-bank-lifecycle.yml
+  href: https://artifacts.apis.io/stark-bank/lifecycle/stark-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stark-bank-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/errors/stark-bank-problem-types.yml
+  href: https://artifacts.apis.io/stark-bank/errors/stark-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/stark-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/data-model/stark-bank-data-model.yml
+  href: https://artifacts.apis.io/stark-bank/data-model/stark-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stark-bank-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/asyncapi/stark-bank-events-webhooks.yml
+  href: https://artifacts.apis.io/stark-bank/asyncapi/stark-bank-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/stark-bank-events-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/conformance/stark-bank-conformance.yml
+  href: https://artifacts.apis.io/stark-bank/conformance/stark-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stark-bank-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/conformance/stark-bank-conformance.yml
+  href: https://artifacts.apis.io/stark-bank/conformance/stark-bank-conformance.yml
   title: ''
   type: Compliance
   url: conformance/stark-bank-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/security/stark-bank-trust-center.yml
+  href: https://artifacts.apis.io/stark-bank/security/stark-bank-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/stark-bank-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/security/stark-bank-domain-security.yml
+  href: https://artifacts.apis.io/stark-bank/security/stark-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stark-bank-domain-security.yml
 created: '2026-07-17'
 description: Stark Bank is a regulated Brazilian financial institution (authorized by the Banco Central do Brasil, not a payment service provider) that exposes end-to-end money movement through a single RESTful JSON API. Businesses collect money with Pix Invoices, Pix QR codes, Pix subscriptions, Boletos, card payments and marketplace split receivables, and pay out with Pix/TED Transfers, Boleto, BR Code, utility, tax and DARF payments plus approval-gated Payment Requests. Received funds land directly in the account balance with no wallet or payout step. The v2 OpenAPI 3.1 API (143 operations) authenticates with ECDSA request signing rather than API keys or OAuth, offers a production-identical sandbox, cursor pagination, externalId idempotency and signed webhook events, and ships nine official SDKs (Python, Node, Go, Java, Ruby, PHP, .NET, Elixir, Clojure).
+finops:
+- has_sources: true
+  method: derived
+  name: Stark Bank Finops
+  primary_unit: card
+  service_category: ''
+  slug: stark-bank-finops
+  template: false
 image: https://www.starkbank.com/static/icon.png
 layout: provider
 modified: '2026-10-06'
@@ -468,25 +475,25 @@ plans:
 - name: Stark Bank Price Estimates
   plan_count: 0
   slug: stark-bank-price-estimates
-random_paper: 16
+random_paper: 22
 score:
-  band: developing
-  composite: 52.5
+  band: strong
+  composite: 56.8
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 49.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
-    access_clarity: 47.4
+    access_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 56.4
-    developer_ergonomics: 72.0
-    discoverability: 73.2
-    operational_transparency: 26.3
+    developer_ergonomics: 74.4
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -494,7 +501,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 52.5
+  previous_composite: 55.9
   provenance:
     conformance: first-party
     contracts:
@@ -510,13 +517,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/screenshots/stark-bank-2026-08-17T082105.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/stark-bank/stark-bank-2026-08-17T082105.png
 security:
 - kind: authentication
   name: Stark Bank Authentication
@@ -530,6 +538,16 @@ security:
   name: Stark Bank Trust Center
   slug: stark-bank-trust-center
   summary_line: PCI DSS 4.0.1, SOC 2, ISO 27001, Bacen Pix Grade A
+skill_count: 4
+skills:
+- name: Subscribe to and process Stark Bank webhook events
+  slug: stark-bank-handle-webhooks
+- name: Pay a Pix BR Code or Boleto with Stark Bank
+  slug: stark-bank-pay-brcode-boleto
+- name: Receive a Pix payment with a Stark Bank Invoice
+  slug: stark-bank-receive-pix-invoice
+- name: Send money with a Stark Bank Transfer
+  slug: stark-bank-send-transfer
 slug: stark-bank
 tags:
 - Company

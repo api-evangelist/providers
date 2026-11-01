@@ -23,21 +23,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: documented
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.4
-  scored_at: '2026-10-17'
+  score: 40.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 29
   slug: cyclecalcs-agentic-access
   summary_line: 29 operations
-api_count: 2
+api_count: 1
 apis:
 - description: Hosted stateless Streamable HTTP MCP server exposing 11 astronomy tools backed by the v2 REST endpoints. Tool calls work without a key up to 50 a day per network address; a RapidAPI key (Basic plan fr
   name: CycleCalcs MCP Server
@@ -205,11 +207,8 @@ arazzos:
 - description: Resolve a place name, take the whole-sky snapshot, then find the dark moonless observing window for the next week.
   name: Tonight's sky for a place
   slug: cyclecalcs-tonights-sky
-artifact_total: 86
+artifact_total: 92
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CycleCalcs Astronomy Apsides API
   slug: open-cyclecalcs-apsides-api
@@ -302,32 +301,32 @@ collections:
   slug: open-cyclecalcs-v2-discovery
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/plans/cyclecalcs-plans-pricing.yml
+  href: https://artifacts.apis.io/cyclecalcs/plans/cyclecalcs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cyclecalcs-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/rules/cyclecalcs-rules.yml
+  href: https://artifacts.apis.io/cyclecalcs/rules/cyclecalcs-rules.yml
   title: ''
   type: Spectral
   url: rules/cyclecalcs-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/json-ld/cyclecalcs-context.jsonld
+  href: https://artifacts.apis.io/cyclecalcs/json-ld/cyclecalcs-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cyclecalcs-context.jsonld
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/changelog/cyclecalcs-changelog.yml
+  href: https://artifacts.apis.io/cyclecalcs/changelog/cyclecalcs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cyclecalcs-changelog.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/hosts/cyclecalcs-hosts.yml
+  href: https://artifacts.apis.io/cyclecalcs/hosts/cyclecalcs-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cyclecalcs-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/vendors/cyclecalcs-vendors.yml
+  href: https://artifacts.apis.io/cyclecalcs/vendors/cyclecalcs-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cyclecalcs-vendors.yml
@@ -336,22 +335,22 @@ common:
   type: Website
   url: https://www.cyclecalcs.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/overlays/cyclecalcs-astronomy-overlay.yaml
+  href: https://artifacts.apis.io/cyclecalcs/overlays/cyclecalcs-astronomy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cyclecalcs-astronomy-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/agentic-access/cyclecalcs-agentic-access.yml
+  href: https://artifacts.apis.io/cyclecalcs/agentic-access/cyclecalcs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cyclecalcs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/security/cyclecalcs-domain-security.yml
+  href: https://artifacts.apis.io/cyclecalcs/security/cyclecalcs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cyclecalcs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/authentication/cyclecalcs-authentication.yml
+  href: https://artifacts.apis.io/cyclecalcs/authentication/cyclecalcs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cyclecalcs-authentication.yml
@@ -400,32 +399,32 @@ common:
   type: Deprecation
   url: https://www.cyclecalcs.com/api/versioning.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/lifecycle/cyclecalcs-lifecycle.yml
+  href: https://artifacts.apis.io/cyclecalcs/lifecycle/cyclecalcs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cyclecalcs-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/conventions/cyclecalcs-conventions.yml
+  href: https://artifacts.apis.io/cyclecalcs/conventions/cyclecalcs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cyclecalcs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/conventions/cyclecalcs-conventions.yml
+  href: https://artifacts.apis.io/cyclecalcs/conventions/cyclecalcs-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/cyclecalcs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/errors/cyclecalcs-problem-types.yml
+  href: https://artifacts.apis.io/cyclecalcs/errors/cyclecalcs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cyclecalcs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/conformance/cyclecalcs-conformance.yml
+  href: https://artifacts.apis.io/cyclecalcs/conformance/cyclecalcs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cyclecalcs-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/well-known/cyclecalcs-well-known.yml
+  href: https://artifacts.apis.io/cyclecalcs/well-known/cyclecalcs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cyclecalcs-well-known.yml
@@ -434,67 +433,67 @@ common:
   type: APICatalog
   url: https://www.cyclecalcs.com/.well-known/api-catalog
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/packages/cyclecalcs-packages.yml
+  href: https://artifacts.apis.io/cyclecalcs/packages/cyclecalcs-packages.yml
   title: ''
   type: Packages
   url: packages/cyclecalcs-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/vocabulary/cyclecalcs-vocabulary.yml
+  href: https://artifacts.apis.io/cyclecalcs/vocabulary/cyclecalcs-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cyclecalcs-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/data-model/cyclecalcs-data-model.yml
+  href: https://artifacts.apis.io/cyclecalcs/data-model/cyclecalcs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cyclecalcs-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/sandbox/cyclecalcs-sandbox.yml
+  href: https://artifacts.apis.io/cyclecalcs/sandbox/cyclecalcs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cyclecalcs-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/components/cyclecalcs-components.yml
+  href: https://artifacts.apis.io/cyclecalcs/components/cyclecalcs-components.yml
   title: ''
   type: Components
   url: components/cyclecalcs-components.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/rate-limits/cyclecalcs-rate-limits.yml
+  href: https://artifacts.apis.io/cyclecalcs/rate-limits/cyclecalcs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cyclecalcs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/plans/cyclecalcs-plans.yml
+  href: https://artifacts.apis.io/cyclecalcs/plans/cyclecalcs-plans.yml
   title: ''
   type: Plans
   url: plans/cyclecalcs-plans.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/cyclecalcs/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/llms/cyclecalcs-llms.txt
+  href: https://artifacts.apis.io/cyclecalcs/llms/cyclecalcs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cyclecalcs-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cyclecalcs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/arazzo/cyclecalcs-tonights-sky.yml
+  href: https://artifacts.apis.io/cyclecalcs/arazzo/cyclecalcs-tonights-sky.yml
   title: ''
   type: Arazzo
   url: arazzo/cyclecalcs-tonights-sky.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/arazzo/cyclecalcs-eclipse-visibility.yml
+  href: https://artifacts.apis.io/cyclecalcs/arazzo/cyclecalcs-eclipse-visibility.yml
   title: ''
   type: Arazzo
   url: arazzo/cyclecalcs-eclipse-visibility.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/arazzo/cyclecalcs-sun-moon-calendar.yml
+  href: https://artifacts.apis.io/cyclecalcs/arazzo/cyclecalcs-sun-moon-calendar.yml
   title: ''
   type: Arazzo
   url: arazzo/cyclecalcs-sun-moon-calendar.yml
@@ -538,6 +537,14 @@ examples:
 - key_count: 9
   name: Cyclecalcs V2 Today Example
   slug: cyclecalcs-v2-today-example
+finops:
+- has_sources: true
+  method: derived
+  name: Cyclecalcs Finops
+  primary_unit: requests
+  service_category: ''
+  slug: cyclecalcs-finops
+  template: false
 image: https://www.cyclecalcs.com/assets/og-card.png?v=2
 json_schemas:
 - name: Envelope
@@ -566,12 +573,15 @@ overview: 'CycleCalcs publishes 30 API contracts indexed on the [APIs.io](https:
   CycleCalcs'' developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, pricing, and 35 more developer resources.'
 plans:
 - name: Cyclecalcs Plans Pricing
-  plan_count: 1
+  plan_count: 4
   slug: cyclecalcs-plans-pricing
 - name: Cyclecalcs Plans
   plan_count: 4
   slug: cyclecalcs-plans
-random_paper: 12
+- name: Cyclecalcs Price Estimates
+  plan_count: 0
+  slug: cyclecalcs-price-estimates
+random_paper: 14
 rate_limits:
 - limit_count: 15
   name: Cyclecalcs Rate Limits
@@ -591,23 +601,23 @@ rules:
   slug: cyclecalcs-rules
 score:
   band: exemplar
-  composite: 67.1
+  composite: 70.4
   coverage:
-    artifact_dirs: 33
-    catalog_earned: 79.9
-    catalog_earned_first_party: 25.0
-    catalog_gap: 35.1
+    artifact_dirs: 34
+    catalog_earned: 86.9
+    catalog_earned_first_party: 29.0
+    catalog_gap: 28.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 3.6
   facets:
-    access_clarity: 65.8
+    access_clarity: 84.2
     contract_governance: 47.0
     contract_quality: 65.6
     developer_ergonomics: 63.7
-    discoverability: 85.0
+    discoverability: 81.7
     operational_transparency: 71.1
-  previous_composite: 67.0
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -624,14 +634,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/screenshots/cyclecalcs-2026-08-17T080843.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cyclecalcs/cyclecalcs-2026-08-17T080843.png
 security:
 - kind: authentication
   name: Cyclecalcs Authentication
@@ -641,6 +651,18 @@ security:
   name: Cyclecalcs Domain Security
   slug: cyclecalcs-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 5
+skills:
+- name: discover-the-cyclecalcs-contract
+  slug: cyclecalcs-discover-the-contract
+- name: eclipse-visibility
+  slug: cyclecalcs-eclipse-visibility
+- name: planet-visibility
+  slug: cyclecalcs-planet-visibility
+- name: sun-and-moon-calendar
+  slug: cyclecalcs-sun-and-moon-calendar
+- name: tonights-sky
+  slug: cyclecalcs-tonights-sky
 slug: cyclecalcs
 tags:
 - Astronomy

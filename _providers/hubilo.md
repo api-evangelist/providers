@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-17'
+  score: 32.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -81,15 +83,12 @@ apis:
   description: The User API from hubilo — 9 operation(s) for user.
   name: hubilo User API
   slug: hubilo-user-api
-artifact_total: 20
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Hubilo Webhooks
   slug: hubilo-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Hubilo (Virtual PRO) Public Event API
   slug: open-hubilo-event-api
@@ -112,6 +111,11 @@ collections:
   name: Hubilo (Virtual PRO) Public Event User API
   slug: open-hubilo-user-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/hubilo/plans/hubilo-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hubilo-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -153,87 +157,95 @@ common:
   type: Support
   url: https://support.brandlive.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/openapi/_original/hubilo-openapi.yml
+  href: https://artifacts.apis.io/hubilo/openapi/_original/hubilo-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/hubilo-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/authentication/hubilo-authentication.yml
+  href: https://artifacts.apis.io/hubilo/authentication/hubilo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hubilo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/conventions/hubilo-conventions.yml
+  href: https://artifacts.apis.io/hubilo/conventions/hubilo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hubilo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/errors/hubilo-problem-types.yml
+  href: https://artifacts.apis.io/hubilo/errors/hubilo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hubilo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/data-model/hubilo-data-model.yml
+  href: https://artifacts.apis.io/hubilo/data-model/hubilo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hubilo-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/rate-limits/hubilo-rate-limits.yml
+  href: https://artifacts.apis.io/hubilo/rate-limits/hubilo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hubilo-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/lifecycle/hubilo-lifecycle.yml
+  href: https://artifacts.apis.io/hubilo/lifecycle/hubilo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hubilo-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/changelog/hubilo-changelog.yml
+  href: https://artifacts.apis.io/hubilo/changelog/hubilo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hubilo-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/conformance/hubilo-conformance.yml
+  href: https://artifacts.apis.io/hubilo/conformance/hubilo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hubilo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/asyncapi/hubilo-webhooks.yml
+  href: https://artifacts.apis.io/hubilo/asyncapi/hubilo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hubilo-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/mcp/hubilo-mcp.yml
+  href: https://artifacts.apis.io/hubilo/mcp/hubilo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hubilo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hubilo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/llms/hubilo-llms.txt
+  href: https://artifacts.apis.io/hubilo/llms/hubilo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hubilo-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/overlays/hubilo-openapi-overlay.yaml
+  href: https://artifacts.apis.io/hubilo/overlays/hubilo-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hubilo-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/agentic-access/hubilo-agentic-access.yml
+  href: https://artifacts.apis.io/hubilo/agentic-access/hubilo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hubilo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/security/hubilo-domain-security.yml
+  href: https://artifacts.apis.io/hubilo/security/hubilo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hubilo-domain-security.yml
 created: '2026-07-17'
 description: 'Hubilo (now branded Virtual PRO) is an enterprise virtual, hybrid, and in-person event platform used by conference producers and corporate event teams to create, promote, run, and analyze multi-session, multi-day events. Its Public API v1.2 lets organisers manage events, agenda sessions and tracks, speakers, attendees (users) and member groups, exhibitor booths, the organiser profile, and media uploads, plus a webhooks surface for activity notifications. Authentication is an organiser-level Access Token (Authorization: Bearer) and the API enforces a combined limit of 20 requests per second per organiser. Hubilo is a portfolio company of Balderton Capital.'
+finops:
+- has_sources: true
+  method: derived
+  name: Hubilo Finops
+  primary_unit: audience cap upgrade
+  service_category: ''
+  slug: hubilo-finops
+  template: false
 image: https://framerusercontent.com/images/WwfBR1oRs750Jqr5sx6xqvIOc.png
 layout: provider
 modified: '2026-07-19'
@@ -246,31 +258,38 @@ overview: 'hubilo publishes 7 API contracts indexed on the [APIs.io](https://api
   The hubilo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  hubilo''s developer surface includes documentation, API reference, pricing, signup flow, support, authentication, changelog, and 19 more developer resources.'
-random_paper: 5
+  hubilo''s developer surface includes documentation, API reference, pricing, signup flow, support, authentication, changelog, and 20 more developer resources.'
+plans:
+- name: Hubilo Plans Pricing
+  plan_count: 15
+  slug: hubilo-plans-pricing
+- name: Hubilo Price Estimates
+  plan_count: 0
+  slug: hubilo-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Hubilo Rate Limits
   slug: hubilo-rate-limits
 score:
   band: developing
-  composite: 40.8
+  composite: 46.5
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 26
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 21.5
     developer_ergonomics: 49.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 44.7
-  previous_composite: 40.7
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -287,13 +306,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/screenshots/hubilo-2026-07-25T221615.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hubilo/hubilo-2026-07-25T221615.png
 security:
 - kind: authentication
   name: Hubilo Authentication
@@ -303,6 +323,12 @@ security:
   name: Hubilo Domain Security
   slug: hubilo-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Build an event agenda in Hubilo
+  slug: hubilo-build-agenda
+- name: Sync event attendees into Hubilo
+  slug: hubilo-sync-attendees
 slug: hubilo
 tags:
 - Company

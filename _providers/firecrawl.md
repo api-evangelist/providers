@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.2
-  scored_at: '2026-10-17'
+  score: 32.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -98,9 +100,6 @@ apis:
 artifact_total: 30
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Firecrawl Account API
   slug: open-firecrawl-account-api
 - collection_type: open
@@ -134,33 +133,38 @@ collections:
   name: Firecrawl Account Search API
   slug: open-firecrawl-search-api
 common:
+- group: other
+  href: https://artifacts.apis.io/firecrawl/capabilities/firecrawl-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/firecrawl-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/plans/firecrawl-plans-pricing.yml
+  href: https://artifacts.apis.io/firecrawl/plans/firecrawl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/firecrawl-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/finops/firecrawl-finops.yml
+  href: https://artifacts.apis.io/firecrawl/finops/firecrawl-finops.yml
   title: ''
   type: FinOps
   url: finops/firecrawl-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/agentic-access/firecrawl-agentic-access.yml
+  href: https://artifacts.apis.io/firecrawl/agentic-access/firecrawl-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/firecrawl-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/security/firecrawl-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/firecrawl/security/firecrawl-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/firecrawl-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/security/firecrawl-domain-security.yml
+  href: https://artifacts.apis.io/firecrawl/security/firecrawl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/firecrawl-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/authentication/firecrawl-authentication.yml
+  href: https://artifacts.apis.io/firecrawl/authentication/firecrawl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/firecrawl-authentication.yml
@@ -231,13 +235,13 @@ common:
 created: '2025-02-12'
 description: Empower your AI apps with clean data from any website. Featuring advanced scraping, crawling, and data extraction capabilities. Firecrawl is an API service that takes a URL, crawls it, and converts it into clean markdown or structured data. We crawl all accessible subpages and give you clean data for each. No sitemap required.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Firecrawl Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: credits
+  service_category: ''
   slug: firecrawl-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/firecrawl.png
 layout: provider
 mcp_servers:
@@ -251,35 +255,38 @@ network: true
 overview: 'Firecrawl publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Agent API, Billing API, and 7 more. Tagged areas include Crawling, Data Extraction, Web Scraping, URLs, and Artificial Intelligence.
 
 
-  Firecrawl''s developer surface includes authentication, documentation, API reference, pricing, changelog, engineering blog, support, and 15 more developer resources.'
+  Firecrawl''s developer surface includes authentication, documentation, API reference, pricing, changelog, engineering blog, support, and 16 more developer resources.'
 plans:
 - name: Firecrawl Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: firecrawl-plans-pricing
-random_paper: 13
+- name: Firecrawl Price Estimates
+  plan_count: 0
+  slug: firecrawl-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Firecrawl Rate Limits
   slug: firecrawl-rate-limits
 score:
   band: developing
-  composite: 40.2
+  composite: 49.4
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 43.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    artifact_dirs: 14
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 0.0
     contract_quality: 48.7
-    developer_ergonomics: 46.4
-    discoverability: 68.3
-    operational_transparency: 26.3
-  previous_composite: 41.7
+    developer_ergonomics: 50.0
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     contracts:
@@ -294,13 +301,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/screenshots/firecrawl-2026-06-20T181259.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/firecrawl/firecrawl-2026-06-20T181259.png
 security:
 - kind: authentication
   name: Firecrawl Authentication

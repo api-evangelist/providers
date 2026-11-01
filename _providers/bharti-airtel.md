@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.7
-  scored_at: '2026-10-17'
+  score: 28.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 68
   slug: bharti-airtel-agentic-access
   summary_line: 68 operations · 35 acting
-api_count: 8
+api_count: 5
 apis:
 - description: Airtel's original partner developer programme, launched in 2017 and now an unmaintained legacy portal (the site still carries a 2017 copyright). Its public documentation still describes real OAuth 2.0
   name: Airtel Smart API (legacy)
@@ -144,7 +146,7 @@ apis:
   description: The Whitelisting APIs API from Bharti Airtel — 1 operation(s) for whitelisting apis.
   name: Bharti Airtel Whitelisting APIs API
   slug: bharti-airtel-whitelisting-apis-api
-artifact_total: 30
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Bharti Airtel Webhooks
@@ -163,133 +165,138 @@ collections:
   name: Locate API Catalog
   slug: open-bharti-airtel-locate
 common:
+- group: commercial
+  href: https://artifacts.apis.io/bharti-airtel/plans/bharti-airtel-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bharti-airtel-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/capabilities/bharti-airtel-capability-edges.yml
+  href: https://artifacts.apis.io/bharti-airtel/capabilities/bharti-airtel-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bharti-airtel-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/overlays/bharti-airtel-iq-sms-overlay.yaml
+  href: https://artifacts.apis.io/bharti-airtel/overlays/bharti-airtel-iq-sms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bharti-airtel-iq-sms-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/overlays/bharti-airtel-iq-reporting-overlay.yaml
+  href: https://artifacts.apis.io/bharti-airtel/overlays/bharti-airtel-iq-reporting-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bharti-airtel-iq-reporting-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/overlays/bharti-airtel-iot-overlay.yaml
+  href: https://artifacts.apis.io/bharti-airtel/overlays/bharti-airtel-iot-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bharti-airtel-iot-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/overlays/bharti-airtel-locate-overlay.yaml
+  href: https://artifacts.apis.io/bharti-airtel/overlays/bharti-airtel-locate-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bharti-airtel-locate-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/agentic-access/bharti-airtel-agentic-access.yml
+  href: https://artifacts.apis.io/bharti-airtel/agentic-access/bharti-airtel-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bharti-airtel-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/security/bharti-airtel-domain-security.yml
+  href: https://artifacts.apis.io/bharti-airtel/security/bharti-airtel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bharti-airtel-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/security/bharti-airtel-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bharti-airtel/security/bharti-airtel-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bharti-airtel-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/authentication/bharti-airtel-authentication.yml
+  href: https://artifacts.apis.io/bharti-airtel/authentication/bharti-airtel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bharti-airtel-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/scopes/bharti-airtel-scopes.yml
+  href: https://artifacts.apis.io/bharti-airtel/scopes/bharti-airtel-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bharti-airtel-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/conventions/bharti-airtel-conventions.yml
+  href: https://artifacts.apis.io/bharti-airtel/conventions/bharti-airtel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bharti-airtel-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/errors/bharti-airtel-problem-types.yml
+  href: https://artifacts.apis.io/bharti-airtel/errors/bharti-airtel-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bharti-airtel-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/lifecycle/bharti-airtel-lifecycle.yml
+  href: https://artifacts.apis.io/bharti-airtel/lifecycle/bharti-airtel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bharti-airtel-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/conformance/bharti-airtel-conformance.yml
+  href: https://artifacts.apis.io/bharti-airtel/conformance/bharti-airtel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bharti-airtel-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/data-model/bharti-airtel-data-model.yml
+  href: https://artifacts.apis.io/bharti-airtel/data-model/bharti-airtel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bharti-airtel-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/sandbox/bharti-airtel-sandbox.yml
+  href: https://artifacts.apis.io/bharti-airtel/sandbox/bharti-airtel-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bharti-airtel-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/asyncapi/bharti-airtel-webhooks.yml
+  href: https://artifacts.apis.io/bharti-airtel/asyncapi/bharti-airtel-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bharti-airtel-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/mcp/bharti-airtel-mcp.yml
+  href: https://artifacts.apis.io/bharti-airtel/mcp/bharti-airtel-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bharti-airtel-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/packages/bharti-airtel-packages.yml
+  href: https://artifacts.apis.io/bharti-airtel/packages/bharti-airtel-packages.yml
   title: ''
   type: Packages
   url: packages/bharti-airtel-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/well-known/bharti-airtel-well-known.yml
+  href: https://artifacts.apis.io/bharti-airtel/well-known/bharti-airtel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bharti-airtel-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/llms/bharti-airtel-llms.txt
+  href: https://artifacts.apis.io/bharti-airtel/llms/bharti-airtel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bharti-airtel-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/llms/bharti-airtel-apis-llms.txt
+  href: https://artifacts.apis.io/bharti-airtel/llms/bharti-airtel-apis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bharti-airtel-apis-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bharti-airtel/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/skills/bharti-airtel-send-compliant-sms.md
+  href: https://artifacts.apis.io/bharti-airtel/skills/bharti-airtel-send-compliant-sms.md
   title: ''
   type: AgentSkill
   url: skills/bharti-airtel-send-compliant-sms.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/skills/bharti-airtel-locate-device-with-consent.md
+  href: https://artifacts.apis.io/bharti-airtel/skills/bharti-airtel-locate-device-with-consent.md
   title: ''
   type: AgentSkill
   url: skills/bharti-airtel-locate-device-with-consent.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/skills/bharti-airtel-manage-iot-sim-lifecycle.md
+  href: https://artifacts.apis.io/bharti-airtel/skills/bharti-airtel-manage-iot-sim-lifecycle.md
   title: ''
   type: AgentSkill
   url: skills/bharti-airtel-manage-iot-sim-lifecycle.md
@@ -360,6 +367,14 @@ common:
 created: '2026-07-25'
 description: 'Bharti Airtel Limited is an Indian multinational telecommunications operator headquartered in New Delhi, and one of the two dominant mobile network operators in its home market of India alongside Reliance Jio. It runs mobile (2G/4G/5G), fixed broadband, DTH television, enterprise connectivity, data centre (Nxtra) and payments-bank businesses across India, South Asia and — through the separately listed Airtel Africa — fourteen African countries. In the telecom value chain Airtel is an access-network owner: it holds the spectrum, the SIM estate, the subscriber identity and the network signalling that the rest of the industry resells. Its API posture is split in two, and the split is the whole story. The connectivity-product side is genuinely API-native and publicly documented: Airtel IQ, the operator''s CPaaS suite, publishes open Swagger for its SMS and CDR reporting APIs and offers a self-serve trial account, while the Airtel IoT and Airtel Locate developer portals publish
   complete OpenAPI 3.0 catalogues (43 and 19 operations) as Redoc pages that need no login. The network-API side — the CAMARA and GSMA Open Gateway surface that defines this sector — is the opposite: Airtel is a GSMA Open Gateway signatory, a founding operator shareholder in Aduna (the Ericsson-led network-API joint venture), and has commercially launched a CAMARA SIM Swap API to Indian banks through a federated Jio/Vi/Airtel channel, yet it publishes no CAMARA endpoint, no CAMARA specification, no CIBA authorization surface and no network-API developer portal of its own. Developers reach Airtel''s network capabilities only through aggregators — Aduna, and Nokia''s Network as Code platform — never directly. Its own "Airtel API Marketplace" at developers.airtel.in is a login wall, and its original 2017 Smart API partner programme at openapi.airtel.in/smartapi survives as an unmaintained legacy portal.'
+finops:
+- has_sources: true
+  method: derived
+  name: Bharti Airtel Finops
+  primary_unit: ''
+  service_category: ''
+  slug: bharti-airtel-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-09-16'
@@ -372,7 +387,11 @@ overview: 'Bharti Airtel publishes 20 API contracts indexed on the [APIs.io](htt
   The Bharti Airtel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bharti Airtel''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, signup flow, developer console, and 35 more developer resources.'
+  Bharti Airtel''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, signup flow, developer console, and 36 more developer resources.'
+plans:
+- name: Bharti Airtel Plans Pricing
+  plan_count: 0
+  slug: bharti-airtel-plans-pricing
 random_paper: 0
 scopes:
 - name: Bharti Airtel Scopes
@@ -381,9 +400,9 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode/implicit
 score:
   band: developing
-  composite: 45.4
+  composite: 48.7
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 26
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -394,9 +413,9 @@ score:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 52.0
-    developer_ergonomics: 56.5
-    discoverability: 69.6
-    operational_transparency: 7.9
+    developer_ergonomics: 66.1
+    discoverability: 62.5
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -404,7 +423,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 45.4
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -421,13 +440,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 49.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/screenshots/bharti-airtel-2026-08-07T162406.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bharti-airtel/bharti-airtel-2026-08-07T162406.png
 security:
 - kind: authentication
   name: Bharti Airtel Authentication
@@ -441,6 +461,14 @@ security:
   name: Bharti Airtel Vulnerability Disclosure
   slug: bharti-airtel-vulnerability-disclosure
   summary_line: Hackerone · security.txt
+skill_count: 3
+skills:
+- name: Locate a device with subscriber consent using Airtel Locate
+  slug: bharti-airtel-locate-device-with-consent
+- name: Manage the Airtel IoT SIM lifecycle
+  slug: bharti-airtel-manage-iot-sim-lifecycle
+- name: Send a DLT-compliant SMS with Airtel IQ
+  slug: bharti-airtel-send-compliant-sms
 slug: bharti-airtel
 tags:
 - Telecommunications

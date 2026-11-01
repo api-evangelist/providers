@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Calypso Workstation is the end-user desktop application for the Nasdaq Calypso platform. It delivers real-time market data, trade entry, order management, risk monitoring, P&L, scenario analysis, and '
@@ -42,22 +44,22 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/calypso-workstation/refs/heads/main/plans/calypso-workstation-plans-pricing.yml
+  href: https://artifacts.apis.io/calypso-workstation/plans/calypso-workstation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/calypso-workstation-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/calypso-workstation/refs/heads/main/rate-limits/calypso-workstation-rate-limits.yml
+  href: https://artifacts.apis.io/calypso-workstation/rate-limits/calypso-workstation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/calypso-workstation-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/calypso-workstation/refs/heads/main/finops/calypso-workstation-finops.yml
+  href: https://artifacts.apis.io/calypso-workstation/finops/calypso-workstation-finops.yml
   title: ''
   type: FinOps
   url: finops/calypso-workstation-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calypso-workstation/refs/heads/main/security/calypso-workstation-domain-security.yml
+  href: https://artifacts.apis.io/calypso-workstation/security/calypso-workstation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/calypso-workstation-domain-security.yml
@@ -82,17 +84,17 @@ common:
   type: TrustCenter
   url: https://www.nasdaq.com/trust-center
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calypso-workstation/refs/heads/main/security/calypso-workstation-trust-center.yml
+  href: https://artifacts.apis.io/calypso-workstation/security/calypso-workstation-trust-center.yml
   title: ''
   type: Compliance
   url: security/calypso-workstation-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calypso-workstation/refs/heads/main/security/calypso-workstation-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/calypso-workstation/security/calypso-workstation-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/calypso-workstation-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calypso-workstation/refs/heads/main/security/calypso-workstation-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/calypso-workstation/security/calypso-workstation-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/calypso-workstation-vulnerability-disclosure.yml
@@ -101,7 +103,7 @@ common:
   type: Learning
   url: https://learncalypso.nasdaq.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/calypso-workstation/refs/heads/main/llms/calypso-workstation-llms.txt
+  href: https://artifacts.apis.io/calypso-workstation/llms/calypso-workstation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/calypso-workstation-llms.txt
@@ -125,7 +127,7 @@ finops:
 - has_sources: false
   method: generated
   name: Calypso Workstation Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: calypso-workstation-finops
   template: true
@@ -143,14 +145,14 @@ plans:
 - name: Calypso Workstation Plans Pricing
   plan_count: 0
   slug: calypso-workstation-plans-pricing
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Calypso Workstation Rate Limits
   slug: calypso-workstation-rate-limits
 score:
   band: emerging
-  composite: 13.9
+  composite: 17.5
   coverage:
     artifact_dirs: 8
     catalog_earned: 32.0
@@ -158,29 +160,29 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 22.4
+    access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 64.3
+    developer_ergonomics: 4.8
+    discoverability: 57.1
     operational_transparency: 10.5
-  previous_composite: 15.4
+  previous_composite: 17.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 34.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/calypso-workstation/refs/heads/main/screenshots/calypso-workstation-2026-06-20T173905.png
+screenshot: https://apis.io/screenshots/calypso-workstation/calypso-workstation-2026-06-20T173905.png
 security:
 - kind: domain-security
   name: Calypso Workstation Domain Security

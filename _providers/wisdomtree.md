@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.0
-  scored_at: '2026-10-17'
+  score: 32.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -76,72 +78,72 @@ apis:
 artifact_total: 20
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/agentic-access/wisdomtree-agentic-access.yml
+  href: https://artifacts.apis.io/wisdomtree/agentic-access/wisdomtree-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wisdomtree-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/rules/wisdomtree-rules.yml
+  href: https://artifacts.apis.io/wisdomtree/rules/wisdomtree-rules.yml
   title: ''
   type: Spectral
   url: rules/wisdomtree-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/json-ld/wisdomtree-context.jsonld
+  href: https://artifacts.apis.io/wisdomtree/json-ld/wisdomtree-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/wisdomtree-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/vocabulary/wisdomtree-vocabulary.yml
+  href: https://artifacts.apis.io/wisdomtree/vocabulary/wisdomtree-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/wisdomtree-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/data-model/wisdomtree-data-model.yml
+  href: https://artifacts.apis.io/wisdomtree/data-model/wisdomtree-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wisdomtree-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/conventions/wisdomtree-conventions.yml
+  href: https://artifacts.apis.io/wisdomtree/conventions/wisdomtree-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/wisdomtree-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/conventions/wisdomtree-conventions.yml
+  href: https://artifacts.apis.io/wisdomtree/conventions/wisdomtree-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wisdomtree-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/errors/wisdomtree-problem-types.yml
+  href: https://artifacts.apis.io/wisdomtree/errors/wisdomtree-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wisdomtree-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/conformance/wisdomtree-conformance.yml
+  href: https://artifacts.apis.io/wisdomtree/conformance/wisdomtree-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wisdomtree-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/hosts/wisdomtree-hosts.yml
+  href: https://artifacts.apis.io/wisdomtree/hosts/wisdomtree-hosts.yml
   title: ''
   type: Hosts
   url: hosts/wisdomtree-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/vendors/wisdomtree-vendors.yml
+  href: https://artifacts.apis.io/wisdomtree/vendors/wisdomtree-vendors.yml
   title: ''
   type: Vendors
   url: vendors/wisdomtree-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/scopes/wisdomtree-scopes.yml
+  href: https://artifacts.apis.io/wisdomtree/scopes/wisdomtree-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/wisdomtree-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/authentication/wisdomtree-authentication.yml
+  href: https://artifacts.apis.io/wisdomtree/authentication/wisdomtree-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wisdomtree-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/security/wisdomtree-domain-security.yml
+  href: https://artifacts.apis.io/wisdomtree/security/wisdomtree-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wisdomtree-domain-security.yml
@@ -195,7 +197,7 @@ overview: 'WisdomTree publishes 8 API contracts indexed on the [APIs.io](https:/
 
 
   WisdomTree''s developer surface includes authentication, documentation, and 15 more developer resources.'
-random_paper: 13
+random_paper: 11
 rules:
 - authorship: generated
   effective_rule_count: 53
@@ -216,7 +218,7 @@ scopes:
   summary_line: 3 scopes · password
 score:
   band: thin
-  composite: 30.4
+  composite: 30.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 60.8
@@ -224,18 +226,20 @@ score:
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.3
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
-    contract_quality: 51.9
+    contract_quality: 49.9
     developer_ergonomics: 42.9
     discoverability: 62.5
     operational_transparency: 0.0
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 22.2
       derived: 2
       marker_coverage: 22.2
       total: 9
@@ -246,11 +250,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Wisdomtree Authentication

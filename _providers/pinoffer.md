@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'The one API surface Convertedin hosts itself. A merchant''s storefront (Magento, Salla, or a custom platform) POSTs commerce events into Convertedin — orders, customers, products, collections, and app '
@@ -47,7 +49,7 @@ apis:
 - description: A second merchant-implemented contract, aimed at loyalty and point-of-sale vendors. GET endpoints for /api/store-info, /api/products, /api/orders and /api/customers on the vendor's own host, authentic
   name: Convertedin Loyalty & POS Integration API
   slug: convertedin-loyalty-pos-integration-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Pinoffer Webhooks
@@ -106,78 +108,86 @@ common:
   type: StatusPage
   url: https://status.converted.in/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/heads/main/lifecycle/pinoffer-lifecycle.yml
+  href: https://artifacts.apis.io/pinoffer/lifecycle/pinoffer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pinoffer-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/heads/main/authentication/pinoffer-authentication.yml
+  href: https://artifacts.apis.io/pinoffer/authentication/pinoffer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pinoffer-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/heads/main/conventions/pinoffer-conventions.yml
+  href: https://artifacts.apis.io/pinoffer/conventions/pinoffer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pinoffer-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/heads/main/errors/pinoffer-problem-types.yml
+  href: https://artifacts.apis.io/pinoffer/errors/pinoffer-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pinoffer-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/heads/main/packages/pinoffer-packages.yml
+  href: https://artifacts.apis.io/pinoffer/packages/pinoffer-packages.yml
   title: ''
   type: Packages
   url: packages/pinoffer-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/heads/main/packages/pinoffer-packages.yml
+  href: https://artifacts.apis.io/pinoffer/packages/pinoffer-packages.yml
   title: ''
   type: SDKs
   url: packages/pinoffer-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/heads/main/asyncapi/pinoffer-webhooks.yml
+  href: https://artifacts.apis.io/pinoffer/asyncapi/pinoffer-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/pinoffer-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/heads/main/llms/pinoffer-llms.txt
+  href: https://artifacts.apis.io/pinoffer/llms/pinoffer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pinoffer-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/heads/main/conformance/pinoffer-conformance.yml
+  href: https://artifacts.apis.io/pinoffer/conformance/pinoffer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pinoffer-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/heads/main/data-model/pinoffer-data-model.yml
+  href: https://artifacts.apis.io/pinoffer/data-model/pinoffer-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pinoffer-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/heads/main/components/pinoffer-components.yml
+  href: https://artifacts.apis.io/pinoffer/components/pinoffer-components.yml
   title: ''
   type: Components
   url: components/pinoffer-components.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/heads/main/plans/pinoffer-plans-pricing.yml
+  href: https://artifacts.apis.io/pinoffer/plans/pinoffer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pinoffer-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/heads/main/rate-limits/pinoffer-rate-limits.yml
+  href: https://artifacts.apis.io/pinoffer/rate-limits/pinoffer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pinoffer-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/heads/main/security/pinoffer-domain-security.yml
+  href: https://artifacts.apis.io/pinoffer/security/pinoffer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pinoffer-domain-security.yml
 created: '2026-07-17'
 description: 'Pinoffer is the API Evangelist network profile for Convertedin (converted.in / convertedin.com), the MENA-focused marketing operating system for e-commerce founded in Cairo in 2019 by Mohamed Fergany, Mohamed Atef and Mustafa Raslan. "PinOffer" is the company''s former name and is still the identifier used by 500 Global, Crunchbase, MAGNiTT and LinkedIn, which is why the network entry carries it. Backed by Merak Capital, 500 Global and MSAS, Convertedin operates across Egypt, Saudi Arabia, the UAE and Brazil, and sells a unified growth platform covering store analytics, a commerce pixel, segmentation, SMS and email automation, and multi-channel ad buying on Meta, TikTok, Snapchat and Google — plus the Converted Pay, Flyerz, Leads and Orders products. Convertedin DOES run a public developer program at developer.converted.in, contrary to the earlier enrichment pass on this repo: it publishes an llms.txt-indexed documentation set covering a live webhook ingest API at app.converted.in,
   two merchant-implemented data-sync contracts (Store Connector and Loyalty/POS), a browser pixel SDK, first-party Android and iOS SDKs, and a Flyerz DSP iframe embed. What it does not publish is any machine-readable contract — no OpenAPI, AsyncAPI, GraphQL schema, MCP server or agent card exists on any Convertedin host.'
+finops:
+- has_sources: true
+  method: derived
+  name: Pinoffer Finops
+  primary_unit: ''
+  service_category: ''
+  slug: pinoffer-finops
+  template: true
 image: https://framerusercontent.com/images/mru1tCz0BzvuFna3W9s3gStqS5A.png
 layout: provider
 modified: '2026-08-12'
@@ -195,16 +205,16 @@ plans:
 - name: Pinoffer Plans Pricing
   plan_count: 3
   slug: pinoffer-plans-pricing
-random_paper: 21
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Pinoffer Rate Limits
   slug: pinoffer-rate-limits
 score:
   band: developing
-  composite: 49.3
+  composite: 49.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -216,14 +226,14 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 78.6
-    operational_transparency: 18.4
+    discoverability: 71.4
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - mena
-  previous_composite: 49.3
+  previous_composite: 49.9
   provenance:
     conformance: first-party
   regulatory:
@@ -232,14 +242,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pinoffer/refs/heads/main/screenshots/pinoffer-2026-08-17T081239.png
+screenshot: https://apis.io/screenshots/pinoffer/pinoffer-2026-08-17T081239.png
 security:
 - kind: authentication
   name: Pinoffer Authentication

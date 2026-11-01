@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for BenchPrep platform, described in the Getting Started page.
@@ -36,32 +38,32 @@ common:
   type: BlogRSS
   url: https://blog.benchprep.com/rss.xml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/benchprep/refs/heads/main/plans/benchprep-plans-pricing.yml
+  href: https://artifacts.apis.io/benchprep/plans/benchprep-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/benchprep-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/benchprep/refs/heads/main/conformance/benchprep-conformance.yml
+  href: https://artifacts.apis.io/benchprep/conformance/benchprep-conformance.yml
   title: ''
   type: Conformance
   url: conformance/benchprep-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/benchprep/refs/heads/main/well-known/benchprep-status-security.txt
+  href: https://artifacts.apis.io/benchprep/well-known/benchprep-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/benchprep-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/benchprep/refs/heads/main/well-known/benchprep-well-known.yml
+  href: https://artifacts.apis.io/benchprep/well-known/benchprep-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/benchprep-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/benchprep/refs/heads/main/hosts/benchprep-hosts.yml
+  href: https://artifacts.apis.io/benchprep/hosts/benchprep-hosts.yml
   title: ''
   type: Hosts
   url: hosts/benchprep-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/benchprep/refs/heads/main/vendors/benchprep-vendors.yml
+  href: https://artifacts.apis.io/benchprep/vendors/benchprep-vendors.yml
   title: ''
   type: Vendors
   url: vendors/benchprep-vendors.yml
@@ -90,7 +92,7 @@ common:
   type: GettingStarted
   url: https://blog.benchprep.com/getting-started-with-benchpreps-zoom-meetings-integration
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/benchprep/refs/heads/main/security/benchprep-domain-security.yml
+  href: https://artifacts.apis.io/benchprep/security/benchprep-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/benchprep-domain-security.yml
@@ -138,7 +140,7 @@ plans:
 - name: Benchprep Plans Pricing
   plan_count: 1
   slug: benchprep-plans-pricing
-random_paper: 5
+random_paper: 15
 score:
   band: thin
   composite: 28.3
@@ -166,14 +168,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/benchprep/refs/heads/main/screenshots/benchprep-2026-10-11T101857.png
+screenshot: https://apis.io/screenshots/benchprep/benchprep-2026-10-11T101857.png
 security:
 - kind: domain-security
   name: Benchprep Domain Security

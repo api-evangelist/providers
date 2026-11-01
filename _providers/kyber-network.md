@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -27,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 40.1
-  scored_at: '2026-10-17'
+  score: 38.3
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - baseURL: https://aggregator-api.kyberswap.com
@@ -62,11 +63,8 @@ apis:
   description: The Taker API from Kyber Network — 4 operation(s) for taker.
   name: Kyber Network Taker API
   slug: kyber-network-taker-api
-artifact_total: 15
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: KyberSwap Aggregator General API
   slug: open-kyber-network-general-api
@@ -84,7 +82,7 @@ collections:
   slug: open-kyber-network-taker-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/overlays/kyber-network-aggregator-overlay.yaml
+  href: https://artifacts.apis.io/kyber-network/overlays/kyber-network-aggregator-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kyber-network-aggregator-overlay.yaml
@@ -129,102 +127,102 @@ common:
   type: Pricing
   url: https://docs.kyberswap.com/getting-started/fee-schedule
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/lifecycle/kyber-network-lifecycle.yml
+  href: https://artifacts.apis.io/kyber-network/lifecycle/kyber-network-lifecycle.yml
   title: ''
   type: StatusPage
   url: lifecycle/kyber-network-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/lifecycle/kyber-network-lifecycle.yml
+  href: https://artifacts.apis.io/kyber-network/lifecycle/kyber-network-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/kyber-network-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/lifecycle/kyber-network-lifecycle.yml
+  href: https://artifacts.apis.io/kyber-network/lifecycle/kyber-network-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kyber-network-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/rate-limits/kyber-network-rate-limits.yml
+  href: https://artifacts.apis.io/kyber-network/rate-limits/kyber-network-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kyber-network-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/authentication/kyber-network-authentication.yml
+  href: https://artifacts.apis.io/kyber-network/authentication/kyber-network-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kyber-network-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/conventions/kyber-network-conventions.yml
+  href: https://artifacts.apis.io/kyber-network/conventions/kyber-network-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kyber-network-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/errors/kyber-network-error-codes.yml
+  href: https://artifacts.apis.io/kyber-network/errors/kyber-network-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kyber-network-error-codes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/packages/kyber-network-packages.yml
+  href: https://artifacts.apis.io/kyber-network/packages/kyber-network-packages.yml
   title: ''
   type: Packages
   url: packages/kyber-network-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/packages/kyber-network-packages.yml
+  href: https://artifacts.apis.io/kyber-network/packages/kyber-network-packages.yml
   title: ''
   type: SDKs
   url: packages/kyber-network-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/components/kyber-network-components.yml
+  href: https://artifacts.apis.io/kyber-network/components/kyber-network-components.yml
   title: ''
   type: Components
   url: components/kyber-network-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/mcp/kyber-network-mcp.yml
+  href: https://artifacts.apis.io/kyber-network/mcp/kyber-network-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kyber-network-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kyber-network/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/llms/kyber-network-llms.txt
+  href: https://artifacts.apis.io/kyber-network/llms/kyber-network-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kyber-network-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/well-known/kyber-network-well-known.yml
+  href: https://artifacts.apis.io/kyber-network/well-known/kyber-network-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kyber-network-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/well-known/kyber-network-api-catalog.json
+  href: https://artifacts.apis.io/kyber-network/well-known/kyber-network-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/kyber-network-api-catalog.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/well-known/kyber-network-content-signals.txt
+  href: https://artifacts.apis.io/kyber-network/well-known/kyber-network-content-signals.txt
   title: ''
   type: ContentSignal
   url: well-known/kyber-network-content-signals.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/grpc/kyber-network-zaas.proto
+  href: https://artifacts.apis.io/kyber-network/grpc/kyber-network-zaas.proto
   title: ''
   type: Protobuf
   url: grpc/kyber-network-zaas.proto
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/conformance/kyber-network-conformance.yml
+  href: https://artifacts.apis.io/kyber-network/conformance/kyber-network-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kyber-network-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/conformance/kyber-network-conformance.yml
+  href: https://artifacts.apis.io/kyber-network/conformance/kyber-network-conformance.yml
   title: ''
   type: Compliance
   url: conformance/kyber-network-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/security/kyber-network-domain-security.yml
+  href: https://artifacts.apis.io/kyber-network/security/kyber-network-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kyber-network-domain-security.yml
@@ -244,14 +242,14 @@ overview: 'Kyber Network publishes 5 API contracts indexed on the [APIs.io](http
 
 
   Kyber Network''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 24 more developer resources.'
-random_paper: 0
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Kyber Network Rate Limits
   slug: kyber-network-rate-limits
 score:
   band: developing
-  composite: 48.1
+  composite: 48.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 52.0
@@ -265,9 +263,9 @@ score:
     contract_governance: 18.2
     contract_quality: 43.6
     developer_ergonomics: 71.4
-    discoverability: 76.7
-    operational_transparency: 57.9
-  previous_composite: 48.1
+    discoverability: 70.0
+    operational_transparency: 60.5
+  previous_composite: 48.5
   provenance:
     conformance: first-party
     contracts:
@@ -283,13 +281,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/screenshots/kyber-network-2026-07-25T224353.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kyber-network/kyber-network-2026-07-25T224353.png
 security:
 - kind: authentication
   name: Kyber Network Authentication
@@ -299,6 +298,16 @@ security:
   name: Kyber Network Domain Security
   slug: kyber-network-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: cancel-limit-order
+  slug: kyber-network-cancel-limit-order
+- name: place-limit-order
+  slug: kyber-network-place-limit-order
+- name: swap-with-aggregator
+  slug: kyber-network-swap-with-aggregator
+- name: zap-into-liquidity
+  slug: kyber-network-zap-into-liquidity
 slug: kyber-network
 tags:
 - Company

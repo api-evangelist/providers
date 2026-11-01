@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 35.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -109,7 +111,7 @@ arazzos:
 - description: Create a sandbox test customer, set eligibility, create an order, and approve it.
   name: Simulate an approved order in the sandbox
   slug: slope-sandbox-approve-order
-artifact_total: 31
+artifact_total: 34
 asyncapis:
 - description: Generated event surface for Slope webhooks. Payload schemas documented at https://developers.slopepay.com/docs/schema. Signed via the Slope-Signature header (HMAC-SHA256).
   name: Slope Webhook Events
@@ -118,9 +120,6 @@ asyncapis:
   name: Slope Webhooks
   slug: slope-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Slope v4 Auth API
   slug: open-slope-auth-api
@@ -153,7 +152,7 @@ collections:
   slug: open-slope-user-links-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/capabilities/slope-capability-edges.yml
+  href: https://artifacts.apis.io/slope/capabilities/slope-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/slope-capability-edges.yml
@@ -206,117 +205,117 @@ common:
   type: Deprecation
   url: https://developers.slopepay.com/docs/rfc-v4-api
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/llms/slope-llms.txt
+  href: https://artifacts.apis.io/slope/llms/slope-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/slope-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/mcp/slope-mcp.yml
+  href: https://artifacts.apis.io/slope/mcp/slope-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/slope-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/overlays/slope-v4-overlay.yaml
+  href: https://artifacts.apis.io/slope/overlays/slope-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/slope-v4-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/conformance/slope-conformance.yml
+  href: https://artifacts.apis.io/slope/conformance/slope-conformance.yml
   title: ''
   type: Conformance
   url: conformance/slope-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/errors/slope-error-codes.yml
+  href: https://artifacts.apis.io/slope/errors/slope-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/slope-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/lifecycle/slope-lifecycle.yml
+  href: https://artifacts.apis.io/slope/lifecycle/slope-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/slope-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/sandbox/slope-sandbox.yml
+  href: https://artifacts.apis.io/slope/sandbox/slope-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/slope-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/conventions/slope-conventions.yml
+  href: https://artifacts.apis.io/slope/conventions/slope-conventions.yml
   title: ''
   type: Conventions
   url: conventions/slope-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/conventions/slope-conventions.yml
+  href: https://artifacts.apis.io/slope/conventions/slope-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/slope-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/rate-limits/slope-rate-limits.yml
+  href: https://artifacts.apis.io/slope/rate-limits/slope-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/slope-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/changelog/slope-changelog.yml
+  href: https://artifacts.apis.io/slope/changelog/slope-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/slope-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/components/slope-components.yml
+  href: https://artifacts.apis.io/slope/components/slope-components.yml
   title: ''
   type: Components
   url: components/slope-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/data-model/slope-data-model.yml
+  href: https://artifacts.apis.io/slope/data-model/slope-data-model.yml
   title: ''
   type: DataModel
   url: data-model/slope-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/asyncapi/slope-webhooks.yml
+  href: https://artifacts.apis.io/slope/asyncapi/slope-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/slope-webhooks.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/asyncapi/slope-events-asyncapi.yml
+  href: https://artifacts.apis.io/slope/asyncapi/slope-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/slope-events-asyncapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/authentication/slope-authentication.yml
+  href: https://artifacts.apis.io/slope/authentication/slope-authentication.yml
   title: ''
   type: Authentication
   url: authentication/slope-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/security/slope-domain-security.yml
+  href: https://artifacts.apis.io/slope/security/slope-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/slope-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/agentic-access/slope-agentic-access.yml
+  href: https://artifacts.apis.io/slope/agentic-access/slope-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/slope-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/slope/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/arazzo/slope-create-order-and-finalize.yml
+  href: https://artifacts.apis.io/slope/arazzo/slope-create-order-and-finalize.yml
   title: ''
   type: Arazzo
   url: arazzo/slope-create-order-and-finalize.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/arazzo/slope-refund-order.yml
+  href: https://artifacts.apis.io/slope/arazzo/slope-refund-order.yml
   title: ''
   type: Arazzo
   url: arazzo/slope-refund-order.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/arazzo/slope-repay-order.yml
+  href: https://artifacts.apis.io/slope/arazzo/slope-repay-order.yml
   title: ''
   type: Arazzo
   url: arazzo/slope-repay-order.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/arazzo/slope-sandbox-approve-order.yml
+  href: https://artifacts.apis.io/slope/arazzo/slope-sandbox-approve-order.yml
   title: ''
   type: Arazzo
   url: arazzo/slope-sandbox-approve-order.yml
@@ -342,7 +341,7 @@ rate_limits:
   slug: slope-rate-limits
 score:
   band: developing
-  composite: 45.5
+  composite: 48.1
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -350,15 +349,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 58.2
-    developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 43.4
-  previous_composite: 45.4
+    contract_quality: 57.4
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 47.4
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -375,13 +374,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/screenshots/slope-2026-08-17T081924.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/slope/slope-2026-08-17T081924.png
 security:
 - kind: authentication
   name: Slope Authentication
@@ -391,6 +391,16 @@ security:
   name: Slope Domain Security
   slug: slope-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Create a Slope order and drive checkout
+  slug: slope-create-order-and-checkout
+- name: Refund or partially cancel a Slope order
+  slug: slope-refund-order
+- name: Estimate and repay a Slope order
+  slug: slope-repay-order
+- name: Simulate an approved order end-to-end in the Slope sandbox
+  slug: slope-sandbox-test-order-flow
 slug: slope
 tags:
 - Company

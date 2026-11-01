@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.9
-  scored_at: '2026-10-17'
+  score: 45.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 133
   human_in_the_loop: 3
@@ -868,7 +870,7 @@ apis:
     question: What URL and payload does a specific webhook send?
   phrasing_ops: 2
   slug: talon-one-webhooks-api
-artifact_total: 57
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Talon One Webhooks
@@ -894,37 +896,37 @@ collections:
   slug: open-talon-one
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/capabilities/talon-one-capability-edges.yml
+  href: https://artifacts.apis.io/talon-one/capabilities/talon-one-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/talon-one-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/overlays/talon-one-management-api-overlay.yaml
+  href: https://artifacts.apis.io/talon-one/overlays/talon-one-management-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/talon-one-management-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/overlays/talon-one-third-party-api-overlay.yaml
+  href: https://artifacts.apis.io/talon-one/overlays/talon-one-third-party-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/talon-one-third-party-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/overlays/talon-one-shopify-integration-api-overlay.yaml
+  href: https://artifacts.apis.io/talon-one/overlays/talon-one-shopify-integration-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/talon-one-shopify-integration-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/agentic-access/talon-one-agentic-access.yml
+  href: https://artifacts.apis.io/talon-one/agentic-access/talon-one-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/talon-one-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/security/talon-one-domain-security.yml
+  href: https://artifacts.apis.io/talon-one/security/talon-one-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/talon-one-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/authentication/talon-one-authentication.yml
+  href: https://artifacts.apis.io/talon-one/authentication/talon-one-authentication.yml
   title: ''
   type: Authentication
   url: authentication/talon-one-authentication.yml
@@ -949,17 +951,17 @@ common:
   type: SignUp
   url: https://www.talon.one/book-a-demo
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/plans/talon-one-plans-pricing.yml
+  href: https://artifacts.apis.io/talon-one/plans/talon-one-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/talon-one-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/rate-limits/talon-one-rate-limits.yml
+  href: https://artifacts.apis.io/talon-one/rate-limits/talon-one-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/talon-one-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/finops/talon-one-finops.yml
+  href: https://artifacts.apis.io/talon-one/finops/talon-one-finops.yml
   title: ''
   type: FinOps
   url: finops/talon-one-finops.yml
@@ -968,57 +970,57 @@ common:
   type: Blog
   url: https://www.talon.one/blog
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/packages/talon-one-packages.yml
+  href: https://artifacts.apis.io/talon-one/packages/talon-one-packages.yml
   title: ''
   type: Packages
   url: packages/talon-one-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/packages/talon-one-packages.yml
+  href: https://artifacts.apis.io/talon-one/packages/talon-one-packages.yml
   title: ''
   type: SDKs
   url: packages/talon-one-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/mcp/talon-one-mcp.yml
+  href: https://artifacts.apis.io/talon-one/mcp/talon-one-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/talon-one-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/mcp/talon-one-tool-crosswalk.yml
+  href: https://artifacts.apis.io/talon-one/mcp/talon-one-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/talon-one-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/llms/talon-one-llms.txt
+  href: https://artifacts.apis.io/talon-one/llms/talon-one-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/talon-one-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/talon-one/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/conformance/talon-one-conformance.yml
+  href: https://artifacts.apis.io/talon-one/conformance/talon-one-conformance.yml
   title: ''
   type: Conformance
   url: conformance/talon-one-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/security/talon-one-trust-center.yml
+  href: https://artifacts.apis.io/talon-one/security/talon-one-trust-center.yml
   title: ''
   type: Compliance
   url: security/talon-one-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/security/talon-one-trust-center.yml
+  href: https://artifacts.apis.io/talon-one/security/talon-one-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/talon-one-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/errors/talon-one-problem-types.yml
+  href: https://artifacts.apis.io/talon-one/errors/talon-one-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/talon-one-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/lifecycle/talon-one-lifecycle.yml
+  href: https://artifacts.apis.io/talon-one/lifecycle/talon-one-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/talon-one-lifecycle.yml
@@ -1027,22 +1029,22 @@ common:
   type: StatusPage
   url: https://status.talon.one/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/lifecycle/talon-one-lifecycle.yml
+  href: https://artifacts.apis.io/talon-one/lifecycle/talon-one-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/talon-one-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/conventions/talon-one-conventions.yml
+  href: https://artifacts.apis.io/talon-one/conventions/talon-one-conventions.yml
   title: ''
   type: Conventions
   url: conventions/talon-one-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/conventions/talon-one-conventions.yml
+  href: https://artifacts.apis.io/talon-one/conventions/talon-one-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/talon-one-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/changelog/talon-one-changelog.yml
+  href: https://artifacts.apis.io/talon-one/changelog/talon-one-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/talon-one-changelog.yml
@@ -1051,22 +1053,22 @@ common:
   type: ChangeLog
   url: https://docs.talon.one/whats-new
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/sandbox/talon-one-sandbox.yml
+  href: https://artifacts.apis.io/talon-one/sandbox/talon-one-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/talon-one-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/data-model/talon-one-data-model.yml
+  href: https://artifacts.apis.io/talon-one/data-model/talon-one-data-model.yml
   title: ''
   type: DataModel
   url: data-model/talon-one-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/asyncapi/talon-one-webhooks.yml
+  href: https://artifacts.apis.io/talon-one/asyncapi/talon-one-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/talon-one-webhooks.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/overlays/talon-one-integration-api-overlay.yaml
+  href: https://artifacts.apis.io/talon-one/overlays/talon-one-integration-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/talon-one-integration-api-overlay.yaml
@@ -1106,12 +1108,12 @@ created: '2026-07-10'
 description: Talon.One is an enterprise promotion, loyalty, and incentives engine that lets teams build and run coupons, discounts, referrals, bundles, giveaways, and multi-tier loyalty programs from a single rules-based platform. It exposes two primary REST APIs. The Integration API pushes real-time customer sessions, profiles, and events into the rules engine and returns the effects (discounts, awarded loyalty points, accepted coupons) to apply in the calling application. The Management API programmatically administers applications, campaigns, rulesets, coupons, loyalty programs, audiences, custom attributes, collections, and analytics exports that back the Campaign Manager. Talon.One is delivered as a managed, per-customer deployment; each account calls its own base URL (https://yourbaseurl.talon.one) and authenticates with an API key whose prefix distinguishes the Integration key (ApiKey-v1) from the Management key (ManagementKey-v1).
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Talon One Finops
   primary_unit: ''
-  service_category: Marketing and Promotions
+  service_category: ''
   slug: talon-one-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/talon-one.png
 layout: provider
 mcp_servers:
@@ -1133,14 +1135,14 @@ plans:
 - name: Talon One Plans Pricing
   plan_count: 3
   slug: talon-one-plans-pricing
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Talon One Rate Limits
   slug: talon-one-rate-limits
 score:
   band: exemplar
-  composite: 73.3
+  composite: 70.8
   coverage:
     artifact_dirs: 27
     catalog_earned: 64.0
@@ -1148,15 +1150,15 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 61.8
-    developer_ergonomics: 81.0
-    discoverability: 73.3
-    operational_transparency: 81.6
-  previous_composite: 74.8
+    contract_quality: 60.2
+    developer_ergonomics: 83.3
+    discoverability: 70.0
+    operational_transparency: 84.2
+  previous_composite: 70.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1177,13 +1179,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/screenshots/talon-one-2026-08-17T080429.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/talon-one/talon-one-2026-08-17T080429.png
 security:
 - kind: authentication
   name: Talon One Authentication
@@ -1197,6 +1200,18 @@ security:
   name: Talon One Trust Center
   slug: talon-one-trust-center
   summary_line: ISO 27001, SOC 2, GDPR
+skill_count: 5
+skills:
+- name: talon-account-admin
+  slug: talon-account-admin
+- name: talon-integration-engineer
+  slug: talon-integration-engineer
+- name: talon-loyalty-manager
+  slug: talon-loyalty-manager
+- name: talon-marketing-manager
+  slug: talon-marketing-manager
+- name: talon-support-agent
+  slug: talon-support-agent
 slug: talon-one
 tags:
 - Promotions

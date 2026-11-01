@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -42,32 +44,32 @@ common:
   type: Website
   url: https://livsndesigns.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/livsn-designs/refs/heads/main/mcp/livsn-designs-mcp.yml
+  href: https://artifacts.apis.io/livsn-designs/mcp/livsn-designs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/livsn-designs-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/livsn-designs/refs/heads/main/well-known/livsn-designs-well-known.yml
+  href: https://artifacts.apis.io/livsn-designs/well-known/livsn-designs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/livsn-designs-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/livsn-designs/refs/heads/main/llms/livsn-designs-llms.txt
+  href: https://artifacts.apis.io/livsn-designs/llms/livsn-designs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/livsn-designs-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/livsn-designs/refs/heads/main/authentication/livsn-designs-authentication.yml
+  href: https://artifacts.apis.io/livsn-designs/authentication/livsn-designs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/livsn-designs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/livsn-designs/refs/heads/main/conventions/livsn-designs-conventions.yml
+  href: https://artifacts.apis.io/livsn-designs/conventions/livsn-designs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/livsn-designs-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/livsn-designs/refs/heads/main/security/livsn-designs-domain-security.yml
+  href: https://artifacts.apis.io/livsn-designs/security/livsn-designs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/livsn-designs-domain-security.yml
@@ -95,10 +97,10 @@ overview: 'Livsn Designs is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Livsn Designs'' developer surface includes authentication and 8 more developer resources.'
-random_paper: 8
+random_paper: 6
 score:
   band: emerging
-  composite: 13.1
+  composite: 12.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -106,15 +108,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 58.3
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 13.0
+  previous_composite: 12.1
   provenance:
     mcp: platform-generated
   regulatory:
@@ -123,14 +125,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/livsn-designs/refs/heads/main/screenshots/livsn-designs-2026-08-07T171741.png
+screenshot: https://apis.io/screenshots/livsn-designs/livsn-designs-2026-08-07T171741.png
 security:
 - kind: authentication
   name: Livsn Designs Authentication

@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 28.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -78,95 +80,100 @@ apis:
   description: 'Webhook endpoint management (register, list, rotate signing secret). What arrives at your URL is the `WebhookDelivery` schema: the envelope, the fields on each event, the retry schedule, and how to ve'
   name: Brightfield Software Webhooks API
   slug: distyra-webhooks-api
-artifact_total: 16
+artifact_total: 20
 common:
+- group: other
+  href: https://artifacts.apis.io/distyra/capabilities/distyra-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/distyra-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/agentic-access/distyra-agentic-access.yml
+  href: https://artifacts.apis.io/distyra/agentic-access/distyra-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/distyra-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/plans/distyra-plans-pricing.yml
+  href: https://artifacts.apis.io/distyra/plans/distyra-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/distyra-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/rules/distyra-rules.yml
+  href: https://artifacts.apis.io/distyra/rules/distyra-rules.yml
   title: ''
   type: Spectral
   url: rules/distyra-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/json-ld/distyra-context.jsonld
+  href: https://artifacts.apis.io/distyra/json-ld/distyra-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/distyra-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/vocabulary/distyra-vocabulary.yml
+  href: https://artifacts.apis.io/distyra/vocabulary/distyra-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/distyra-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/distyra/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/data-model/distyra-data-model.yml
+  href: https://artifacts.apis.io/distyra/data-model/distyra-data-model.yml
   title: ''
   type: DataModel
   url: data-model/distyra-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/changelog/distyra-changelog.yml
+  href: https://artifacts.apis.io/distyra/changelog/distyra-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/distyra-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/lifecycle/distyra-lifecycle.yml
+  href: https://artifacts.apis.io/distyra/lifecycle/distyra-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/distyra-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/lifecycle/distyra-lifecycle.yml
+  href: https://artifacts.apis.io/distyra/lifecycle/distyra-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/distyra-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/errors/distyra-problem-types.yml
+  href: https://artifacts.apis.io/distyra/errors/distyra-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/distyra-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/conformance/distyra-conformance.yml
+  href: https://artifacts.apis.io/distyra/conformance/distyra-conformance.yml
   title: ''
   type: Conformance
   url: conformance/distyra-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/well-known/distyra-security.txt
+  href: https://artifacts.apis.io/distyra/well-known/distyra-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/distyra-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/well-known/distyra-distyra-security.txt
+  href: https://artifacts.apis.io/distyra/well-known/distyra-distyra-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/distyra-distyra-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/well-known/distyra-well-known.yml
+  href: https://artifacts.apis.io/distyra/well-known/distyra-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/distyra-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/hosts/distyra-hosts.yml
+  href: https://artifacts.apis.io/distyra/hosts/distyra-hosts.yml
   title: ''
   type: Hosts
   url: hosts/distyra-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/packages/distyra-packages.yml
+  href: https://artifacts.apis.io/distyra/packages/distyra-packages.yml
   title: ''
   type: SDKs
   url: packages/distyra-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/packages/distyra-packages.yml
+  href: https://artifacts.apis.io/distyra/packages/distyra-packages.yml
   title: ''
   type: Packages
   url: packages/distyra-packages.yml
@@ -179,17 +186,17 @@ common:
   type: ChangeLog
   url: https://www.distyra.eu/changelog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/authentication/distyra-authentication.yml
+  href: https://artifacts.apis.io/distyra/authentication/distyra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/distyra-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/security/distyra-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/distyra/security/distyra-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/distyra-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/security/distyra-domain-security.yml
+  href: https://artifacts.apis.io/distyra/security/distyra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/distyra-domain-security.yml
@@ -231,6 +238,14 @@ common:
   url: https://www.distyra.eu/contact
 created: '2026-10-16'
 description: Brightfield Software, operating under the Distyra brand, provides European bank data APIs that deliver raw transaction information distilled into actionable signals. Their platform offers products for data enrichment, underwriting, and compliance, tailored to European payment formats and regulations. Built in the EU, Distyra ensures data residency and privacy, supporting developers with comprehensive documentation, pricing plans, and a status page. The service aims to simplify access to bank data for fintech applications, offering a free tier and enterprise options.
+finops:
+- has_sources: true
+  method: derived
+  name: Distyra Finops
+  primary_unit: ''
+  service_category: ''
+  slug: distyra-finops
+  template: true
 image: https://www.distyra.eu/assets/og/distyra-og.png
 jsonld:
 - class_count: 1
@@ -248,12 +263,15 @@ overview: 'Brightfield Software publishes 9 API contracts indexed on the [APIs.i
   The Brightfield Software catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Brightfield Software''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, pricing, support, and 25 more developer resources.'
+  Brightfield Software''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, pricing, support, and 26 more developer resources.'
 plans:
 - name: Distyra Plans Pricing
   plan_count: 7
   slug: distyra-plans-pricing
-random_paper: 20
+- name: Distyra Price Estimates
+  plan_count: 0
+  slug: distyra-price-estimates
+random_paper: 0
 rules:
 - authorship: generated
   effective_rule_count: 59
@@ -269,21 +287,30 @@ rules:
   slug: distyra-rules
 score:
   band: strong
-  composite: 54.7
+  composite: 55.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 57.8
     catalog_earned_first_party: 12.0
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 35.6
-    contract_quality: 56.0
+    contract_quality: 55.4
     developer_ergonomics: 54.2
     discoverability: 57.1
     operational_transparency: 50.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - netherlands
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -306,11 +333,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Distyra Authentication
@@ -324,6 +353,12 @@ security:
   name: Distyra Vulnerability Disclosure
   slug: distyra-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 2
+skills:
+- name: distyra-connect-open-and-fetch-accounts
+  slug: distyra-connect-open-and-fetch-accounts
+- name: distyra-feedback-submit-correction-and-confirmation
+  slug: distyra-feedback-submit-correction-and-confirmation
 slug: distyra
 tags:
 - Company

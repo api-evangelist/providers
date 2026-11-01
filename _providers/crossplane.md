@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -80,7 +82,7 @@ apis:
   description: Providers are Crossplane packages that install controllers and CRDs for managing resources on a specific infrastructure platform such as AWS, GCP, or Azure.
   name: Crossplane Providers API
   slug: crossplane-providers-api
-artifact_total: 35
+artifact_total: 34
 collections:
 - collection_type: postman
   name: Crossplane Kubernetes CompositeResourceDefinitions API
@@ -103,9 +105,6 @@ collections:
 - collection_type: postman
   name: Crossplane Kubernetes CompositeResourceDefinitions Providers API
   slug: postman-crossplane-providers-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Crossplane Kubernetes CompositeResourceDefinitions API
   slug: open-crossplane-compositeresourcedefinitions-api
@@ -132,22 +131,22 @@ collections:
   slug: open-crossplane-providers-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/plans/crossplane-plans-pricing.yml
+  href: https://artifacts.apis.io/crossplane/plans/crossplane-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/crossplane-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/rate-limits/crossplane-rate-limits.yml
+  href: https://artifacts.apis.io/crossplane/rate-limits/crossplane-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/crossplane-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/finops/crossplane-finops.yml
+  href: https://artifacts.apis.io/crossplane/finops/crossplane-finops.yml
   title: ''
   type: FinOps
   url: finops/crossplane-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/capabilities/crossplane-capability-edges.yml
+  href: https://artifacts.apis.io/crossplane/capabilities/crossplane-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/crossplane-capability-edges.yml
@@ -172,17 +171,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/crossplane/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/agentic-access/crossplane-agentic-access.yml
+  href: https://artifacts.apis.io/crossplane/agentic-access/crossplane-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/crossplane-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/security/crossplane-domain-security.yml
+  href: https://artifacts.apis.io/crossplane/security/crossplane-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crossplane-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/authentication/crossplane-authentication.yml
+  href: https://artifacts.apis.io/crossplane/authentication/crossplane-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crossplane-authentication.yml
@@ -191,27 +190,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/crossplane
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/json-schema/crossplane-composition-schema.json
+  href: https://artifacts.apis.io/crossplane/json-schema/crossplane-composition-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/crossplane-composition-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/json-schema/crossplane-xrd-schema.json
+  href: https://artifacts.apis.io/crossplane/json-schema/crossplane-xrd-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/crossplane-xrd-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/json-schema/crossplane-provider-schema.json
+  href: https://artifacts.apis.io/crossplane/json-schema/crossplane-provider-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/crossplane-provider-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/json-ld/crossplane-context.jsonld
+  href: https://artifacts.apis.io/crossplane/json-ld/crossplane-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/crossplane-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/vocabulary/crossplane-vocabulary.yml
+  href: https://artifacts.apis.io/crossplane/vocabulary/crossplane-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/crossplane-vocabulary.yml
@@ -269,7 +268,7 @@ finops:
 - has_sources: false
   method: generated
   name: Crossplane Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: crossplane-finops
   template: true
@@ -305,7 +304,7 @@ plans:
 - name: Crossplane Plans Pricing
   plan_count: 3
   slug: crossplane-plans-pricing
-random_paper: 4
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Crossplane Rate Limits
@@ -336,7 +335,7 @@ rules:
   slug: crossplane-kubernetes-api-rules
 score:
   band: developing
-  composite: 45.8
+  composite: 42.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 72.0
@@ -344,18 +343,15 @@ score:
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
-    contract_quality: 66.7
-    developer_ergonomics: 36.9
+    contract_quality: 63.3
+    developer_ergonomics: 48.8
     discoverability: 66.1
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 47.2
+    operational_transparency: 39.5
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -369,13 +365,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/screenshots/crossplane-2026-08-17T082555.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/crossplane/crossplane-2026-08-17T082555.png
 security:
 - kind: authentication
   name: Crossplane Authentication

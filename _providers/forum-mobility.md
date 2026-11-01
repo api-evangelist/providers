@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +71,7 @@ common:
   type: YouTube
   url: https://www.youtube.com/@ForumMobility-ih5fn
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forum-mobility/refs/heads/main/security/forum-mobility-domain-security.yml
+  href: https://artifacts.apis.io/forum-mobility/security/forum-mobility-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/forum-mobility-domain-security.yml
@@ -81,11 +83,11 @@ modified: '2026-07-19'
 name: Forum Mobility
 nav: Providers
 network: true
-overview: 'Forum Mobility is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electric Vehicles, Trucking, Fleet, and Charging Infrastructure.
+overview: 'Forum Mobility is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electric Vehicles, Trucking, Fleet Management, and Charging Infrastructure.
 
 
   Forum Mobility''s developer surface includes engineering blog, support, YouTube channel, and 6 more developer resources.'
-random_paper: 19
+random_paper: 7
 score:
   band: minimal
   composite: 10.2
@@ -111,14 +113,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/forum-mobility/refs/heads/main/screenshots/forum-mobility-2026-07-25T215022.png
+screenshot: https://apis.io/screenshots/forum-mobility/forum-mobility-2026-07-25T215022.png
 security:
 - kind: domain-security
   name: Forum Mobility Domain Security
@@ -129,7 +131,7 @@ tags:
 - Company
 - Electric Vehicles
 - Trucking
-- Fleet
+- Fleet Management
 - Charging Infrastructure
 - Zero Emission
 - Clean Energy

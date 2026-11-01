@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.0
-  scored_at: '2026-10-17'
+  score: 50.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -155,15 +157,12 @@ apis:
   description: The Reference Data - Virtual Asset Serivce Providers API from Lukka — 1 operation(s) for reference data - virtual asset serivce providers.
   name: Lukka Reference Data - Virtual Asset Serivce Providers API
   slug: lukka-reference-data-virtual-asset-serivce-providers-api
-artifact_total: 110
+artifact_total: 109
 asyncapis:
 - description: 'Lukka''s WebSocket streaming surface for institutional digital-asset market data: executed trades, Level-1 order-book quotes, Lukka Prime pricing, Lukka Index valuations, Standard and Median Reference '
   name: Lukka Market Data Streaming API
   slug: lukka-market-data-streaming-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Lukka Analytics Analytics - Analytics API API
   slug: open-lukka-analytics-analytics-api-api
@@ -226,12 +225,12 @@ collections:
   slug: open-lukka-reference-data-virtual-asset-serivce-providers-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/capabilities/lukka-capability-edges.yml
+  href: https://artifacts.apis.io/lukka/capabilities/lukka-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lukka-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/overlays/lukka-analytics-overlay.yaml
+  href: https://artifacts.apis.io/lukka/overlays/lukka-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lukka-analytics-overlay.yaml
@@ -296,102 +295,102 @@ common:
   type: Security
   url: https://github.com/lukkatech/lukka-plugin-claude/blob/main/lukka/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/security/lukka-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/lukka/security/lukka-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lukka-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/security/lukka-domain-security.yml
+  href: https://artifacts.apis.io/lukka/security/lukka-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lukka-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/authentication/lukka-authentication.yml
+  href: https://artifacts.apis.io/lukka/authentication/lukka-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lukka-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/scopes/lukka-scopes.yml
+  href: https://artifacts.apis.io/lukka/scopes/lukka-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lukka-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/well-known/lukka-well-known.yml
+  href: https://artifacts.apis.io/lukka/well-known/lukka-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lukka-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/conventions/lukka-conventions.yml
+  href: https://artifacts.apis.io/lukka/conventions/lukka-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lukka-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/conformance/lukka-conformance.yml
+  href: https://artifacts.apis.io/lukka/conformance/lukka-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lukka-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/errors/lukka-problem-types.yml
+  href: https://artifacts.apis.io/lukka/errors/lukka-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lukka-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/lifecycle/lukka-lifecycle.yml
+  href: https://artifacts.apis.io/lukka/lifecycle/lukka-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lukka-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/changelog/lukka-changelog.yml
+  href: https://artifacts.apis.io/lukka/changelog/lukka-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lukka-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/rate-limits/lukka-rate-limits.yml
+  href: https://artifacts.apis.io/lukka/rate-limits/lukka-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lukka-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/data-model/lukka-data-model.yml
+  href: https://artifacts.apis.io/lukka/data-model/lukka-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lukka-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/packages/lukka-packages.yml
+  href: https://artifacts.apis.io/lukka/packages/lukka-packages.yml
   title: ''
   type: Packages
   url: packages/lukka-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/lukka/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/mcp/lukka-mcp.yml
+  href: https://artifacts.apis.io/lukka/mcp/lukka-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lukka-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/mcp/lukka-tool-crosswalk.yml
+  href: https://artifacts.apis.io/lukka/mcp/lukka-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/lukka-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lukka/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/agentic-access/lukka-agentic-access.yml
+  href: https://artifacts.apis.io/lukka/agentic-access/lukka-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lukka-agentic-access.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/asyncapi/lukka-market-data-streaming-asyncapi.yml
+  href: https://artifacts.apis.io/lukka/asyncapi/lukka-market-data-streaming-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/lukka-market-data-streaming-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/llms/lukka-llms.txt
+  href: https://artifacts.apis.io/lukka/llms/lukka-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lukka-llms.txt
@@ -609,8 +608,8 @@ scopes:
   slug: lukka-scopes
   summary_line: 9 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 53.5
+  band: strong
+  composite: 57.9
   coverage:
     artifact_dirs: 26
     catalog_earned: 48.0
@@ -618,15 +617,15 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 59.1
-    developer_ergonomics: 53.6
-    discoverability: 80.0
-    operational_transparency: 50.0
-  previous_composite: 53.4
+    developer_ergonomics: 69.0
+    discoverability: 70.0
+    operational_transparency: 52.6
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -643,13 +642,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 42.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/screenshots/lukka-2026-08-07T171825.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lukka/lukka-2026-08-07T171825.png
 security:
 - kind: authentication
   name: Lukka Authentication

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,16 +37,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The HTTP API each Norish instance serves under /api/v1, covering a public health check plus authenticated recipe read/search/create/import, grocery list management, stores, and planned recipes for tod
   name: Norish Recipe API
   slug: norish-recipe-api
-artifact_total: 5
+artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/security/norish-domain-security.yml
+  href: https://artifacts.apis.io/norish/security/norish-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/norish-domain-security.yml
@@ -77,37 +79,37 @@ common:
   type: License
   url: https://github.com/norish-recipes/norish/blob/main/LICENSE
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/packages/norish-packages.yml
+  href: https://artifacts.apis.io/norish/packages/norish-packages.yml
   title: ''
   type: Packages
   url: packages/norish-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/lifecycle/norish-lifecycle.yml
+  href: https://artifacts.apis.io/norish/lifecycle/norish-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/norish-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/changelog/norish-changelog.yml
+  href: https://artifacts.apis.io/norish/changelog/norish-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/norish-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/conformance/norish-conformance.yml
+  href: https://artifacts.apis.io/norish/conformance/norish-conformance.yml
   title: ''
   type: Conformance
   url: conformance/norish-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/plans/norish-plans-pricing.yml
+  href: https://artifacts.apis.io/norish/plans/norish-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/norish-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/llms/norish-llms.txt
+  href: https://artifacts.apis.io/norish/llms/norish-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/norish-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/mcp/norish-mcp.yml
+  href: https://artifacts.apis.io/norish/mcp/norish-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/norish-mcp.yml
@@ -120,32 +122,32 @@ common:
   type: APIReference
   url: https://docs.norish.dev/reference/api
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/authentication/norish-authentication.yml
+  href: https://artifacts.apis.io/norish/authentication/norish-authentication.yml
   title: ''
   type: Authentication
   url: authentication/norish-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/conventions/norish-conventions.yml
+  href: https://artifacts.apis.io/norish/conventions/norish-conventions.yml
   title: ''
   type: Conventions
   url: conventions/norish-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/conventions/norish-conventions.yml
+  href: https://artifacts.apis.io/norish/conventions/norish-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/norish-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/rate-limits/norish-rate-limits.yml
+  href: https://artifacts.apis.io/norish/rate-limits/norish-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/norish-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/data-model/norish-data-model.yml
+  href: https://artifacts.apis.io/norish/data-model/norish-data-model.yml
   title: ''
   type: DataModel
   url: data-model/norish-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/norish/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -165,14 +167,14 @@ plans:
 - name: Norish Plans Pricing
   plan_count: 0
   slug: norish-plans-pricing
-random_paper: 21
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Norish Rate Limits
   slug: norish-rate-limits
 score:
   band: emerging
-  composite: 24.5
+  composite: 24.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 45.0
@@ -186,9 +188,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 56.5
-    discoverability: 73.2
-    operational_transparency: 39.5
-  previous_composite: 24.5
+    discoverability: 66.1
+    operational_transparency: 42.1
+  previous_composite: 24.2
   provenance:
     conformance: derived
     mcp: derived
@@ -199,14 +201,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/screenshots/norish-2026-09-02T150800.png
+screenshot: https://apis.io/screenshots/norish/norish-2026-09-02T150800.png
 security:
 - kind: authentication
   name: Norish Authentication
@@ -216,6 +218,14 @@ security:
   name: Norish Domain Security
   slug: norish-domain-security
   summary_line: TLSv1.3
+skill_count: 3
+skills:
+- name: norish-import-a-recipe
+  slug: norish-import-a-recipe
+- name: norish-plan-the-week
+  slug: norish-plan-the-week
+- name: norish-stock-the-grocery-list
+  slug: norish-stock-the-grocery-list
 slug: norish
 tags:
 - Company

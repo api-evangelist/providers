@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: Resurface captures complete API request and response data in real time, providing full-payload API call logging with no sampling. Security teams use it to detect threats, identify data leaks, and ensu
@@ -55,22 +57,22 @@ apis:
 artifact_total: 13
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/resurface/refs/heads/main/plans/resurface-plans-pricing.yml
+  href: https://artifacts.apis.io/resurface/plans/resurface-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/resurface-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/resurface/refs/heads/main/rate-limits/resurface-rate-limits.yml
+  href: https://artifacts.apis.io/resurface/rate-limits/resurface-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/resurface-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/resurface/refs/heads/main/finops/resurface-finops.yml
+  href: https://artifacts.apis.io/resurface/finops/resurface-finops.yml
   title: ''
   type: FinOps
   url: finops/resurface-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/resurface/refs/heads/main/security/resurface-domain-security.yml
+  href: https://artifacts.apis.io/resurface/security/resurface-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/resurface-domain-security.yml
@@ -128,7 +130,7 @@ finops:
 - has_sources: false
   method: generated
   name: Resurface Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: resurface-finops
   template: true
@@ -162,7 +164,7 @@ plans:
 - name: Resurface Plans Pricing
   plan_count: 3
   slug: resurface-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Resurface Rate Limits
@@ -180,38 +182,38 @@ rules:
     warn: 4
   slug: resurface-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 20.4
+  band: thin
+  composite: 27.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 65.2
     catalog_earned_first_party: 0.0
     catalog_gap: 49.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 14.5
+    access_clarity: 31.6
     contract_governance: 23.5
     contract_quality: 21.9
-    developer_ergonomics: 9.5
+    developer_ergonomics: 28.6
     discoverability: 62.5
     operational_transparency: 13.2
-  previous_composite: 21.9
+  previous_composite: 27.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/resurface/refs/heads/main/screenshots/resurface-2026-06-20T193038.png
+screenshot: https://apis.io/screenshots/resurface/resurface-2026-06-20T193038.png
 security:
 - kind: domain-security
   name: Resurface Domain Security

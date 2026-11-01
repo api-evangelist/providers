@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-10-17'
+  score: 36.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -99,11 +101,8 @@ apis:
   description: Operations for retrieving PingOne directory total identity reports
   name: Ping Identity Total Identities API
   slug: ping-identity-total-identities-api
-artifact_total: 84
+artifact_total: 86
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PingOne Platform Configuration Management API
   slug: open-ping-identity-configuration-management-api
@@ -158,42 +157,42 @@ common:
   type: Pricing
   url: https://www.pingidentity.com/en/platform/pricing.html
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/finops/ping-identity-finops.yml
+  href: https://artifacts.apis.io/ping-identity/finops/ping-identity-finops.yml
   title: ''
   type: FinOps
   url: finops/ping-identity-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/rate-limits/ping-identity-rate-limits.yml
+  href: https://artifacts.apis.io/ping-identity/rate-limits/ping-identity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ping-identity-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/plans/ping-identity-plans-pricing.yml
+  href: https://artifacts.apis.io/ping-identity/plans/ping-identity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ping-identity-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/rules/ping-identity-rules.yml
+  href: https://artifacts.apis.io/ping-identity/rules/ping-identity-rules.yml
   title: ''
   type: Spectral
   url: rules/ping-identity-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/json-ld/ping-identity-context.jsonld
+  href: https://artifacts.apis.io/ping-identity/json-ld/ping-identity-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/ping-identity-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/vocabulary/ping-identity-vocabulary.yml
+  href: https://artifacts.apis.io/ping-identity/vocabulary/ping-identity-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ping-identity-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ping-identity/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/data-model/ping-identity-data-model.yml
+  href: https://artifacts.apis.io/ping-identity/data-model/ping-identity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ping-identity-data-model.yml
@@ -202,47 +201,47 @@ common:
   type: Compliance
   url: https://www.pingidentity.com/en-us/docs/legal/security-exhibit
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/security/ping-identity-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ping-identity/security/ping-identity-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/ping-identity-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/errors/ping-identity-problem-types.yml
+  href: https://artifacts.apis.io/ping-identity/errors/ping-identity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ping-identity-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/conformance/ping-identity-conformance.yml
+  href: https://artifacts.apis.io/ping-identity/conformance/ping-identity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ping-identity-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/llms/ping-identity-llms.txt
+  href: https://artifacts.apis.io/ping-identity/llms/ping-identity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ping-identity-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/well-known/ping-identity-uptime-security.txt
+  href: https://artifacts.apis.io/ping-identity/well-known/ping-identity-uptime-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ping-identity-uptime-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/well-known/ping-identity-status-security.txt
+  href: https://artifacts.apis.io/ping-identity/well-known/ping-identity-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ping-identity-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/well-known/ping-identity-well-known.yml
+  href: https://artifacts.apis.io/ping-identity/well-known/ping-identity-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ping-identity-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/hosts/ping-identity-hosts.yml
+  href: https://artifacts.apis.io/ping-identity/hosts/ping-identity-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ping-identity-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/vendors/ping-identity-vendors.yml
+  href: https://artifacts.apis.io/ping-identity/vendors/ping-identity-vendors.yml
   title: ''
   type: Vendors
   url: vendors/ping-identity-vendors.yml
@@ -271,32 +270,32 @@ common:
   type: License
   url: https://github.com/pingidentity/pingone-openapi-specifications/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/agentic-access/ping-identity-agentic-access.yml
+  href: https://artifacts.apis.io/ping-identity/agentic-access/ping-identity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ping-identity-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/security/ping-identity-trust-center.yml
+  href: https://artifacts.apis.io/ping-identity/security/ping-identity-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ping-identity-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/security/ping-identity-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ping-identity/security/ping-identity-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ping-identity-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/security/ping-identity-domain-security.yml
+  href: https://artifacts.apis.io/ping-identity/security/ping-identity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ping-identity-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/authentication/ping-identity-authentication.yml
+  href: https://artifacts.apis.io/ping-identity/authentication/ping-identity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ping-identity-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/scopes/ping-identity-scopes.yml
+  href: https://artifacts.apis.io/ping-identity/scopes/ping-identity-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ping-identity-scopes.yml
@@ -337,7 +336,7 @@ common:
   type: PrivacyPolicy
   url: https://www.pingidentity.com/en/legal/privacy.html
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/capabilities/ping-identity-capability-edges.yml
+  href: https://artifacts.apis.io/ping-identity/capabilities/ping-identity-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ping-identity-capability-edges.yml
@@ -348,13 +347,13 @@ common:
 created: '2025-02-08'
 description: Identity for enterprises - flawless user experience with fortified enterprise protection. Ping Identity's PingOne platform provides cloud-based identity and access management with REST APIs covering authentication, authorization, user and population management, applications, MFA, risk, verification, and more.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Ping Identity Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: user
+  service_category: ''
   slug: ping-identity-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ping-identity.png
 json_schemas:
 - name: PingOne Application DaVinci Flow Policy
@@ -511,9 +510,12 @@ overview: 'Ping Identity publishes 11 API contracts indexed on the [APIs.io](htt
   Ping Identity''s developer surface includes pricing, support, changelog, getting-started guide, authentication, documentation, engineering blog, and 35 more developer resources.'
 plans:
 - name: Ping Identity Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: ping-identity-plans-pricing
-random_paper: 7
+- name: Ping Identity Price Estimates
+  plan_count: 0
+  slug: ping-identity-price-estimates
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Ping Identity Rate Limits
@@ -537,27 +539,24 @@ scopes:
   slug: ping-identity-scopes
   summary_line: 26 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 49.5
+  band: strong
+  composite: 62.1
   coverage:
     artifact_dirs: 30
-    catalog_earned: 68.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.3
+    catalog_earned: 80.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 34.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.6
   facets:
-    access_clarity: 44.7
+    access_clarity: 86.8
     contract_governance: 22.0
-    contract_quality: 64.1
+    contract_quality: 60.7
     developer_ergonomics: 42.3
-    discoverability: 75.0
+    discoverability: 67.9
     operational_transparency: 55.3
-  open_source:
-    applies: true
-    score: 0.0
-  previous_composite: 57.8
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -574,13 +573,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/screenshots/ping-identity-2026-06-20T191712.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ping-identity/ping-identity-2026-06-20T191712.png
 security:
 - kind: authentication
   name: Ping Identity Authentication
@@ -598,6 +598,12 @@ security:
   name: Ping Identity Trust Center
   slug: ping-identity-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 2
+skills:
+- name: ping-identity-create-and-retrieve-connector-instance
+  slug: ping-identity-create-and-retrieve-connector-instance
+- name: ping-identity-manage-davinci-admin-variables
+  slug: ping-identity-manage-davinci-admin-variables
 slug: ping-identity
 tags:
 - Identity
@@ -606,5 +612,7 @@ tags:
 - SSO
 - MFA
 - Identity Federation
+- OpenID Connect
+- Identity and Access Management
 website: https://www.pingidentity.com/en.html
 ---

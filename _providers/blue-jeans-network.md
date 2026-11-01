@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 0
 common:
@@ -41,12 +43,12 @@ common:
   type: Website
   url: http://www.bluejeans.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blue-jeans-network/refs/heads/main/packages/blue-jeans-network-packages.yml
+  href: https://artifacts.apis.io/blue-jeans-network/packages/blue-jeans-network-packages.yml
   title: ''
   type: Packages
   url: packages/blue-jeans-network-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blue-jeans-network/refs/heads/main/packages/blue-jeans-network-packages.yml
+  href: https://artifacts.apis.io/blue-jeans-network/packages/blue-jeans-network-packages.yml
   title: ''
   type: SDKs
   url: packages/blue-jeans-network-packages.yml
@@ -59,12 +61,12 @@ name: Blue Jeans Network
 nav: Providers
 network: true
 overview: Blue Jeans Network is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Video Conferencing, Communications, and WebRTC.
-random_paper: 17
+random_paper: 21
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -79,12 +81,6 @@ score:
     discoverability: 0.0
     operational_transparency: 0.0
   lifecycle: defunct
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 0.0
   regulatory:
     applies: true
@@ -92,8 +88,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

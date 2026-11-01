@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-10-17'
+  score: 28.5
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'Programmatic access to Tracxn''s private-market database. Version 3.0 is current and version 2.2 is formally announced for deprecation. A uniform JSON-over-HTTPS contract: every data endpoint is a POST'
@@ -42,10 +44,10 @@ apis:
 - description: 'Tracxn''s official first-party remote Model Context Protocol server, exposing the private-market database to any MCP-compatible AI client — Claude, ChatGPT, Cursor, Gemini CLI, Perplexity, or anything '
   name: Tracxn MCP Server
   slug: tracxn-mcp-server
-artifact_total: 8
+artifact_total: 12
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/security/tracxn-domain-security.yml
+  href: https://artifacts.apis.io/tracxn/security/tracxn-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tracxn-domain-security.yml
@@ -110,87 +112,87 @@ common:
   type: Postman
   url: https://www.postman.com/tracxnapi/tracxn-api/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/mcp/tracxn-mcp.yml
+  href: https://artifacts.apis.io/tracxn/mcp/tracxn-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tracxn-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/llms/tracxn-llms.txt
+  href: https://artifacts.apis.io/tracxn/llms/tracxn-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tracxn-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/authentication/tracxn-authentication.yml
+  href: https://artifacts.apis.io/tracxn/authentication/tracxn-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tracxn-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/sandbox/tracxn-sandbox.yml
+  href: https://artifacts.apis.io/tracxn/sandbox/tracxn-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tracxn-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/conventions/tracxn-conventions.yml
+  href: https://artifacts.apis.io/tracxn/conventions/tracxn-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tracxn-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/errors/tracxn-problem-types.yml
+  href: https://artifacts.apis.io/tracxn/errors/tracxn-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tracxn-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/lifecycle/tracxn-lifecycle.yml
+  href: https://artifacts.apis.io/tracxn/lifecycle/tracxn-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tracxn-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/conformance/tracxn-conformance.yml
+  href: https://artifacts.apis.io/tracxn/conformance/tracxn-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tracxn-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/data-model/tracxn-data-model.yml
+  href: https://artifacts.apis.io/tracxn/data-model/tracxn-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tracxn-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/mcp/tracxn-tool-crosswalk.yml
+  href: https://artifacts.apis.io/tracxn/mcp/tracxn-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tracxn-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/scopes/tracxn-scopes.yml
+  href: https://artifacts.apis.io/tracxn/scopes/tracxn-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tracxn-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/well-known/tracxn-well-known.yml
+  href: https://artifacts.apis.io/tracxn/well-known/tracxn-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tracxn-well-known.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/rate-limits/tracxn-rate-limits.yml
+  href: https://artifacts.apis.io/tracxn/rate-limits/tracxn-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tracxn-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/plans/tracxn-plans-pricing.yml
+  href: https://artifacts.apis.io/tracxn/plans/tracxn-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tracxn-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/packages/tracxn-packages.yml
+  href: https://artifacts.apis.io/tracxn/packages/tracxn-packages.yml
   title: ''
   type: Packages
   url: packages/tracxn-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tracxn/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/lifecycle/tracxn-lifecycle.yml
+  href: https://artifacts.apis.io/tracxn/lifecycle/tracxn-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/tracxn-lifecycle.yml
@@ -200,6 +202,14 @@ common:
   url: https://www.postman.com/tracxnapi/tracxn-api/folder/gg9mglv/companies-search-3-0
 created: '2026-07-17'
 description: 'Tracxn is a market intelligence platform for private company data, tracking 7.7M+ companies worldwide across 2,000+ sectors, 3K+ feeds and 55K+ taxonomies for venture capital funds, private equity, investment banks, corporate M&A and innovation teams. Alongside the platform it sells Data Solutions for programmatic access: the Tracxn API (JSON over HTTPS at platform.tracxn.com/api/2.2 with companies, investors, funding transactions and acquisition endpoints, plus a rate-limited Playground sandbox), an official Tracxn MCP server for AI assistants such as Claude, ChatGPT and Cursor, scheduled SFTP dumps, and Snowflake and BigQuery data-share integrations. Founded in Bengaluru by Neha Singh and Abhishek Goyal and backed by Accel, Tracxn is listed on the Indian stock exchanges (NSE: TRACXN).'
+finops:
+- has_sources: true
+  method: derived
+  name: Tracxn Finops
+  primary_unit: ''
+  service_category: ''
+  slug: tracxn-finops
+  template: true
 image: https://avatars.githubusercontent.com/u/12694738?v=4
 layout: provider
 mcp_servers:
@@ -216,9 +226,9 @@ overview: 'Tracxn is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
   Tracxn''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, FAQ, engineering blog, and 27 more developer resources.'
 plans:
 - name: Tracxn Plans Pricing
-  plan_count: 0
+  plan_count: 3
   slug: tracxn-plans-pricing
-random_paper: 18
+random_paper: 8
 rate_limits:
 - limit_count: 9
   name: Tracxn Rate Limits
@@ -230,23 +240,23 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 40.0
+  composite: 46.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 22
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 6.3
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 64.9
-    discoverability: 75.0
-    operational_transparency: 42.1
-  previous_composite: 39.9
+    developer_ergonomics: 70.8
+    discoverability: 65.0
+    operational_transparency: 44.7
+  previous_composite: 40.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -257,14 +267,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/screenshots/tracxn-2026-09-02T164035.png
+screenshot: https://apis.io/screenshots/tracxn/tracxn-2026-09-02T164035.png
 security:
 - kind: authentication
   name: Tracxn Authentication
@@ -274,6 +284,14 @@ security:
   name: Tracxn Domain Security
   slug: tracxn-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Research a private company on Tracxn
+  slug: tracxn-company-research
+- name: Connect an AI client to the Tracxn MCP server
+  slug: tracxn-mcp-connect
+- name: Map a sector landscape and its funding activity on Tracxn
+  slug: tracxn-sector-landscape
 slug: tracxn
 tags:
 - Company

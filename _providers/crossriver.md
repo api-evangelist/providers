@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -70,17 +72,17 @@ apis:
 artifact_total: 14
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/crossriver/refs/heads/main/plans/cross-river-bank-plans-pricing.yml
+  href: https://artifacts.apis.io/crossriver/plans/cross-river-bank-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cross-river-bank-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crossriver/refs/heads/main/rate-limits/cross-river-bank-rate-limits.yml
+  href: https://artifacts.apis.io/crossriver/rate-limits/cross-river-bank-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cross-river-bank-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/crossriver/refs/heads/main/finops/cross-river-bank-finops.yml
+  href: https://artifacts.apis.io/crossriver/finops/cross-river-bank-finops.yml
   title: ''
   type: FinOps
   url: finops/cross-river-bank-finops.yml
@@ -101,12 +103,12 @@ common:
   type: GettingStarted
   url: https://docs.crossriver.com/get-started/quickstart
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crossriver/refs/heads/main/agentic-access/cross-river-bank-agentic-access.yml
+  href: https://artifacts.apis.io/crossriver/agentic-access/cross-river-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cross-river-bank-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crossriver/refs/heads/main/authentication/cross-river-bank-authentication.yml
+  href: https://artifacts.apis.io/crossriver/authentication/cross-river-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cross-river-bank-authentication.yml
@@ -115,7 +117,7 @@ common:
   type: Signup
   url: https://www.crossriver.com/contact
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crossriver/refs/heads/main/security/cross-river-bank-domain-security.yml
+  href: https://artifacts.apis.io/crossriver/security/cross-river-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cross-river-bank-domain-security.yml
@@ -175,7 +177,7 @@ plans:
 - name: Cross River Bank Plans Pricing
   plan_count: 1
   slug: cross-river-bank-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Cross River Bank Rate Limits
@@ -190,7 +192,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
@@ -198,7 +200,7 @@ score:
     developer_ergonomics: 50.0
     discoverability: 78.6
     operational_transparency: 5.3
-  previous_composite: 29.6
+  previous_composite: 23.5
   provenance:
     agentic_access: derived
   regulatory:
@@ -207,14 +209,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 14.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/crossriver/refs/heads/main/screenshots/cross-river-bank-2026-06-20T175244.png
+screenshot: https://apis.io/screenshots/crossriver/cross-river-bank-2026-06-20T175244.png
 security:
 - kind: authentication
   name: Cross River Bank Authentication

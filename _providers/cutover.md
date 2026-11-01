@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,20 +36,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Cutover Core API is a RESTful, JSON:API-style interface for programmatically managing workspaces, runbooks, tasks, teams, and users in the Cutover collaborative automation platform. It uses predic
   name: Cutover Core API
   slug: cutover-core-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Cutover Events Webhooks
   slug: cutover-events-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/cutover/plans/cutover-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cutover-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cutover/refs/heads/main/security/cutover-trust-center.yml
+  href: https://artifacts.apis.io/cutover/security/cutover-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cutover-trust-center.yml
@@ -104,42 +111,42 @@ common:
   type: ChangeLog
   url: https://developer.cutover.com/updates
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cutover/refs/heads/main/changelog/cutover-changelog.yml
+  href: https://artifacts.apis.io/cutover/changelog/cutover-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cutover-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cutover/refs/heads/main/mcp/cutover-mcp.yml
+  href: https://artifacts.apis.io/cutover/mcp/cutover-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cutover-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cutover/refs/heads/main/authentication/cutover-authentication.yml
+  href: https://artifacts.apis.io/cutover/authentication/cutover-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cutover-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cutover/refs/heads/main/conventions/cutover-conventions.yml
+  href: https://artifacts.apis.io/cutover/conventions/cutover-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cutover-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cutover/refs/heads/main/errors/cutover-problem-types.yml
+  href: https://artifacts.apis.io/cutover/errors/cutover-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cutover-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cutover/refs/heads/main/lifecycle/cutover-lifecycle.yml
+  href: https://artifacts.apis.io/cutover/lifecycle/cutover-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cutover-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cutover/refs/heads/main/data-model/cutover-data-model.yml
+  href: https://artifacts.apis.io/cutover/data-model/cutover-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cutover-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cutover/refs/heads/main/conformance/cutover-conformance.yml
+  href: https://artifacts.apis.io/cutover/conformance/cutover-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cutover-conformance.yml
@@ -152,22 +159,30 @@ common:
   type: Security
   url: https://cutover.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cutover/refs/heads/main/security/cutover-domain-security.yml
+  href: https://artifacts.apis.io/cutover/security/cutover-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cutover-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cutover/refs/heads/main/asyncapi/cutover-events-webhooks.yml
+  href: https://artifacts.apis.io/cutover/asyncapi/cutover-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cutover-events-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cutover/refs/heads/main/llms/cutover-llms.txt
+  href: https://artifacts.apis.io/cutover/llms/cutover-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cutover-llms.txt
 created: '2026-07-17'
 description: Cutover is a collaborative automation and IT resilience platform that codifies operational work as task-led runbooks for IT disaster recovery, application recovery, major incident management, and complex change and release events. The platform combines automated runbooks, real-time dashboards, immutable audit trails, and AI-assisted orchestration to reduce mean time to resolution and meet recovery time objectives across hybrid and multi-cloud estates. Cutover exposes a RESTful Core API (JSON:API-style envelopes, bearer User App Token authentication) for programmatically managing workspaces, runbooks, tasks, teams, and users, plus outbound event/webhook integrations, an open-source MCP server, and a broad third-party integration suite (ServiceNow, Jira, Datadog, AWS, Ansible, Jenkins, Slack, Microsoft Teams and more).
+finops:
+- has_sources: true
+  method: derived
+  name: Cutover Finops
+  primary_unit: ''
+  service_category: ''
+  slug: cutover-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cutover.png
 layout: provider
 mcp_servers:
@@ -184,27 +199,31 @@ overview: 'Cutover is listed with 1 API on the [APIs.io](https://apis.io/) netwo
   The Cutover catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cutover''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 20 more developer resources.'
-random_paper: 6
+  Cutover''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 21 more developer resources.'
+plans:
+- name: Cutover Plans Pricing
+  plan_count: 1
+  slug: cutover-plans-pricing
+random_paper: 8
 score:
   band: developing
-  composite: 46.9
+  composite: 50.8
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 17
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 47.4
+    access_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 71.7
-    operational_transparency: 36.8
-  previous_composite: 46.9
+    discoverability: 65.0
+    operational_transparency: 39.5
+  previous_composite: 46.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -218,14 +237,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cutover/refs/heads/main/screenshots/cutover-2026-07-25T211011.png
+screenshot: https://apis.io/screenshots/cutover/cutover-2026-07-25T211011.png
 security:
 - kind: authentication
   name: Cutover Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.1
-  scored_at: '2026-10-17'
+  score: 28.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 65
   slug: brl-agentic-access
   summary_line: 65 operations · 27 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://app.crown-brlv.com
   baseurl_source: declared
@@ -100,15 +102,12 @@ apis:
   description: The Crown API & Webhooks API from BRL — 0 operation(s) for crown api & webhooks.
   name: BRL Crown API & Webhooks API
   slug: brl-crown-api-webhooks-api
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Brl Webhooks
   slug: brl-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Crown API & Webhooks Accounts API
   slug: open-brl-accounts-api
@@ -145,12 +144,12 @@ common:
   type: Blog
   url: https://www.crown-brlv.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/security/brl-domain-security.yml
+  href: https://artifacts.apis.io/brl/security/brl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brl-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/authentication/brl-authentication.yml
+  href: https://artifacts.apis.io/brl/authentication/brl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/brl-authentication.yml
@@ -191,57 +190,57 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/crown-brl/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/_original/brl-openapi-original.json
+  href: https://artifacts.apis.io/brl/openapi/_original/brl-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/brl-openapi-original.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/llms/brl-llms.txt
+  href: https://artifacts.apis.io/brl/llms/brl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brl-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/asyncapi/brl-webhooks.yml
+  href: https://artifacts.apis.io/brl/asyncapi/brl-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/brl-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/conventions/brl-conventions.yml
+  href: https://artifacts.apis.io/brl/conventions/brl-conventions.yml
   title: ''
   type: Conventions
   url: conventions/brl-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/errors/brl-problem-types.yml
+  href: https://artifacts.apis.io/brl/errors/brl-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/brl-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/lifecycle/brl-lifecycle.yml
+  href: https://artifacts.apis.io/brl/lifecycle/brl-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brl-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/conformance/brl-conformance.yml
+  href: https://artifacts.apis.io/brl/conformance/brl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/brl-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/data-model/brl-data-model.yml
+  href: https://artifacts.apis.io/brl/data-model/brl-data-model.yml
   title: ''
   type: DataModel
   url: data-model/brl-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/mcp/brl-mcp.yml
+  href: https://artifacts.apis.io/brl/mcp/brl-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/brl-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/overlays/brl-openapi-overlay.yaml
+  href: https://artifacts.apis.io/brl/overlays/brl-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/brl-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/agentic-access/brl-agentic-access.yml
+  href: https://artifacts.apis.io/brl/agentic-access/brl-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/brl-agentic-access.yml
@@ -261,10 +260,10 @@ overview: 'BRL publishes 11 API contracts indexed on the [APIs.io](https://apis.
 
 
   BRL''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, signup flow, and 17 more developer resources.'
-random_paper: 12
+random_paper: 8
 score:
   band: thin
-  composite: 37.0
+  composite: 37.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -272,13 +271,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.1
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 55.0
+    contract_quality: 56.6
     developer_ergonomics: 52.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -287,7 +286,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 36.5
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,7 +294,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 10
     mcp: derived
   regulatory:
     applies: true
@@ -303,13 +302,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/screenshots/brl-2026-07-25T203938.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/brl/brl-2026-07-25T203938.png
 security:
 - kind: authentication
   name: Brl Authentication

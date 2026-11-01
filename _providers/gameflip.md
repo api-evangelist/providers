@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.8
-  scored_at: '2026-10-17'
+  score: 26.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://production-gameflip.fingershock.com/api/v1
@@ -69,11 +71,8 @@ apis:
   description: Escrow Steam items.
   name: Gameflip Steam Escrow API
   slug: gameflip-steam-escrow-api
-artifact_total: 16
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Gameflip API (GFAPI) Account API
   slug: open-gameflip-account-api
@@ -94,22 +93,22 @@ collections:
   slug: open-gameflip-steam-escrow-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/rate-limits/gameflip-rate-limits.yml
+  href: https://artifacts.apis.io/gameflip/rate-limits/gameflip-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gameflip-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/skills/gameflip-create-and-sell.md
+  href: https://artifacts.apis.io/gameflip/skills/gameflip-create-and-sell.md
   title: ''
   type: AgentSkill
   url: skills/gameflip-create-and-sell.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/mcp/gameflip-mcp.yml
+  href: https://artifacts.apis.io/gameflip/mcp/gameflip-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/gameflip-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/overlays/gameflip-gfapi-overlay.yaml
+  href: https://artifacts.apis.io/gameflip/overlays/gameflip-gfapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gameflip-gfapi-overlay.yaml
@@ -130,12 +129,12 @@ common:
   type: APIReference
   url: https://gameflip.github.io/gfapi/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/packages/gameflip-packages.yml
+  href: https://artifacts.apis.io/gameflip/packages/gameflip-packages.yml
   title: ''
   type: SDKs
   url: packages/gameflip-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/packages/gameflip-packages.yml
+  href: https://artifacts.apis.io/gameflip/packages/gameflip-packages.yml
   title: ''
   type: Packages
   url: packages/gameflip-packages.yml
@@ -164,22 +163,22 @@ common:
   type: PrivacyPolicy
   url: https://gameflip.com/about/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/authentication/gameflip-authentication.yml
+  href: https://artifacts.apis.io/gameflip/authentication/gameflip-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gameflip-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/conventions/gameflip-conventions.yml
+  href: https://artifacts.apis.io/gameflip/conventions/gameflip-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gameflip-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/security/gameflip-domain-security.yml
+  href: https://artifacts.apis.io/gameflip/security/gameflip-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gameflip-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/llms/gameflip-llms.txt
+  href: https://artifacts.apis.io/gameflip/llms/gameflip-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gameflip-llms.txt
@@ -195,14 +194,14 @@ overview: 'Gameflip publishes 6 API contracts indexed on the [APIs.io](https://a
 
 
   Gameflip''s developer surface includes getting-started guide, documentation, API reference, support, engineering blog, signup flow, authentication, and 13 more developer resources.'
-random_paper: 1
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Gameflip Rate Limits
   slug: gameflip-rate-limits
 score:
   band: thin
-  composite: 34.4
+  composite: 33.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 45.0
@@ -214,11 +213,11 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 16.7
+    contract_quality: 13.3
     developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 23.7
-  previous_composite: 34.4
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 33.9
   provenance:
     conformance: derived
     contracts:
@@ -234,13 +233,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/screenshots/gameflip-2026-07-25T215417.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gameflip/gameflip-2026-07-25T215417.png
 security:
 - kind: authentication
   name: Gameflip Authentication
@@ -250,6 +250,12 @@ security:
   name: Gameflip Domain Security
   slug: gameflip-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Create a listing and put it up for sale
+  slug: gameflip-create-and-sell
+- name: Search the marketplace and buy via an exchange
+  slug: gameflip-search-and-buy
 slug: gameflip
 tags:
 - Company

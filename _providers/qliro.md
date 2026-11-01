@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -11,49 +11,87 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 2.9
-  scored_at: '2026-10-17'
-api_count: 0
-artifact_total: 1
+  score: 23.2
+  scored_at: '2026-10-31'
+api_count: 7
+apis:
+- baseURL: https://pago.qit.nu/checkout/merchantapi
+  baseurl_source: declared
+  description: The BackwardsCompatibilityCheck API from Qliro — 1 operation(s) for backwardscompatibilitycheck.
+  name: Qliro Backwards Compatibility Check API
+  slug: qliro-backwardscompatibilitycheck-api
+- baseURL: https://pago.qit.nu/checkout/merchantapi
+  baseurl_source: declared
+  description: The CreditCheckInformation API from Qliro — 1 operation(s) for creditcheckinformation.
+  name: Qliro Credit Check Information API
+  slug: qliro-creditcheckinformation-api
+- baseURL: https://pago.qit.nu/checkout/merchantapi
+  baseurl_source: declared
+  description: The InStore API from Qliro — 2 operation(s) for instore.
+  name: Qliro In Store API
+  slug: qliro-instore-api
+- baseURL: https://pago.qit.nu/checkout/merchantapi
+  baseurl_source: declared
+  description: The MerchantCreditCard API from Qliro — 2 operation(s) for merchantcreditcard.
+  name: Qliro Merchant Credit Card API
+  slug: qliro-merchantcreditcard-api
+- baseURL: https://pago.qit.nu/checkout/merchantapi
+  baseurl_source: declared
+  description: The PaymentOptions API from Qliro — 1 operation(s) for paymentoptions.
+  name: Qliro Payment Options API
+  slug: qliro-paymentoptions-api
+- baseURL: https://pago.qit.nu/checkout/merchantapi
+  baseurl_source: declared
+  description: The PaymentWidget API from Qliro — 2 operation(s) for paymentwidget.
+  name: Qliro Payment Widget API
+  slug: qliro-paymentwidget-api
+- baseURL: https://pago.qit.nu/checkout/merchantapi
+  baseurl_source: declared
+  description: The Upsell API from Qliro — 1 operation(s) for upsell.
+  name: Qliro Upsell API
+  slug: qliro-upsell-api
+artifact_total: 8
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qliro/refs/heads/main/llms/qliro-llms.txt
+  href: https://artifacts.apis.io/qliro/llms/qliro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qliro-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qliro/refs/heads/main/well-known/qliro-status-security.txt
+  href: https://artifacts.apis.io/qliro/well-known/qliro-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/qliro-status-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qliro/refs/heads/main/well-known/qliro-se-support-security.txt
+  href: https://artifacts.apis.io/qliro/well-known/qliro-se-support-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/qliro-se-support-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qliro/refs/heads/main/well-known/qliro-well-known.yml
+  href: https://artifacts.apis.io/qliro/well-known/qliro-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/qliro-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qliro/refs/heads/main/hosts/qliro-hosts.yml
+  href: https://artifacts.apis.io/qliro/hosts/qliro-hosts.yml
   title: ''
   type: Hosts
   url: hosts/qliro-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qliro/refs/heads/main/vendors/qliro-vendors.yml
+  href: https://artifacts.apis.io/qliro/vendors/qliro-vendors.yml
   title: ''
   type: Vendors
   url: vendors/qliro-vendors.yml
@@ -74,7 +112,7 @@ common:
   type: DeveloperPortal
   url: https://developers.qliro.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qliro/refs/heads/main/security/qliro-domain-security.yml
+  href: https://artifacts.apis.io/qliro/security/qliro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qliro-domain-security.yml
@@ -113,29 +151,36 @@ modified: '2026-10-15'
 name: Qliro
 nav: Providers
 network: true
-overview: 'Qliro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, BuyNowPayLater, and E-Commerce.
+overview: 'Qliro is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Backwards Compatibility Check API, Credit Check Information API, In Store API, and 4 more. Tagged areas include Company, Payments, Fintech, Buy Now Pay Later, and E-Commerce.
 
 
   Qliro''s developer surface includes pricing, documentation, and 13 more developer resources.'
-random_paper: 1
+random_paper: 23
 score:
-  band: emerging
-  composite: 17.4
+  band: thin
+  composite: 30.4
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 27.0
+    artifact_dirs: 8
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 10.9
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 0.0
+    contract_quality: 44.0
     developer_ergonomics: 19.0
-    discoverability: 55.4
-    operational_transparency: 21.1
+    discoverability: 62.5
+    operational_transparency: 31.6
+  previous_composite: 19.5
   provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
     mcp: derived
   regulatory:
     applies: true
@@ -143,8 +188,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -159,7 +205,7 @@ tags:
 - Company
 - Payments
 - Fintech
-- BuyNowPayLater
+- Buy Now Pay Later
 - E-Commerce
 website: https://qliro.com/
 ---

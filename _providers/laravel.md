@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.0
-  scored_at: '2026-10-17'
+  score: 38.8
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The legacy v1 Laravel Forge REST API, documented at forge.laravel.com/api-documentation. Laravel has marked this version deprecated and states it will be discontinued on July 31, 2026; integrators are
@@ -76,21 +78,6 @@ apis:
   description: The Background Processes API from Laravel — 5 operation(s) for background processes.
   name: Laravel Background Processes API
   phrasing_intents:
-  - id: public.instances.background-processes.index
-    intent: List background processes on a Cloud instance
-    question: What background processes are running on one of my Laravel Cloud instances?
-  - id: public.instances.background-processes.store
-    intent: Add a background process to a Cloud instance
-    question: How do I add a queue worker to a Cloud instance?
-  - id: public.background-processes.show
-    intent: Get a Cloud background process
-    question: What command and process count does a Cloud background process use?
-  - id: public.background-processes.update
-    intent: Update a Cloud background process
-    question: Can I change the number of processes a Cloud worker runs?
-  - id: public.background-processes.destroy
-    intent: Delete a Cloud background process
-    question: How do I stop and remove a worker from a Laravel Cloud instance?
   - id: organizations.servers.background-processes.index
     intent: List background processes on a Forge server
     question: Which supervisor daemons are running on my Forge server?
@@ -100,6 +87,21 @@ apis:
   - id: organizations.servers.background-processes.show
     intent: Get a background process on a Forge server
     question: What are the settings of one daemon on my Forge server?
+  - id: organizations.servers.background-processes.update
+    intent: Update a daemon's supervisor configuration
+    question: How do I edit the supervisor config of a daemon on my server?
+  - id: organizations.servers.background-processes.destroy
+    intent: Delete a daemon from a Forge server
+    question: How do I remove a supervisor daemon from my server?
+  - id: organizations.servers.background-processes.log.show
+    intent: Read a daemon's log output
+    question: Why does my daemon keep restarting? Can I read its log?
+  - id: public.instances.background-processes.index
+    intent: List background processes on a Cloud instance
+    question: What background processes are running on one of my Laravel Cloud instances?
+  - id: public.instances.background-processes.store
+    intent: Add a background process to a Cloud instance
+    question: How do I add a queue worker to a Cloud instance?
   phrasing_ops: 11
   slug: laravel-background-processes-api
 - baseURL: https://forge.laravel.com/api
@@ -188,15 +190,6 @@ apis:
   description: The Commands API from Laravel — 5 operation(s) for commands.
   name: Laravel Commands API
   phrasing_intents:
-  - id: public.environments.commands.index
-    intent: List commands run on a Cloud environment
-    question: Which commands have been run against my Laravel Cloud environment?
-  - id: public.environments.commands.store
-    intent: Run a command on a Cloud environment
-    question: How do I run php artisan migrate on a cloud environment?
-  - id: public.commands.show
-    intent: Get a Cloud command run's details
-    question: Did the cloud command I ran finish successfully?
   - id: organizations.servers.sites.commands.index
     intent: List command runs on a Forge site
     question: Which commands have been run on my Forge site?
@@ -212,6 +205,15 @@ apis:
   - id: organizations.servers.sites.commands.output.show
     intent: Read the output of a site command run
     question: What did a command print when it ran on my site?
+  - id: public.environments.commands.index
+    intent: List commands run on a Cloud environment
+    question: Which commands have been run against my Laravel Cloud environment?
+  - id: public.environments.commands.store
+    intent: Run a command on a Cloud environment
+    question: How do I run php artisan migrate on a cloud environment?
+  - id: public.commands.show
+    intent: Get a Cloud command run's details
+    question: Did the cloud command I ran finish successfully?
   phrasing_ops: 8
   slug: laravel-commands-api
 - baseURL: https://forge.laravel.com/api
@@ -276,18 +278,6 @@ apis:
   description: The Databases API from Laravel — 8 operation(s) for databases.
   name: Laravel Databases API
   phrasing_intents:
-  - id: public.databases.clusters.databases.index
-    intent: List databases in a Cloud database cluster
-    question: Which databases live inside my Laravel Cloud database cluster?
-  - id: public.databases.clusters.databases.store
-    intent: Create a database in a Cloud cluster
-    question: How do I add a new database to an existing managed database cluster?
-  - id: public.databases.clusters.databases.show
-    intent: Get a database in a Cloud cluster
-    question: What are the details of one database inside my cloud cluster?
-  - id: public.databases.clusters.databases.destroy
-    intent: Delete a database from a Cloud cluster
-    question: Can I drop one database from a cloud cluster without deleting the whole cluster?
   - id: organizations.servers.database.schemas.index
     intent: List database schemas on a Forge server
     question: Which databases exist on my Forge server?
@@ -300,6 +290,18 @@ apis:
   - id: organizations.servers.database.schemas.destroy
     intent: Delete a database schema from a server
     question: How do I remove a database schema I no longer need from my server?
+  - id: organizations.servers.database.schemas.synchronizations.store
+    intent: Sync database schemas from a server
+    question: I created databases directly on the server — can I sync them into Forge?
+  - id: organizations.servers.database.users.index
+    intent: List database users on a server
+    question: Which database users exist on my server?
+  - id: organizations.servers.database.users.store
+    intent: Create a database user on a server
+    question: How do I add a read-only database user for reporting?
+  - id: organizations.servers.database.users.show
+    intent: Get a database user on a server
+    question: Which databases can a given database user access?
   phrasing_ops: 15
   slug: laravel-databases-api
 - baseURL: https://forge.laravel.com/api
@@ -339,18 +341,6 @@ apis:
   description: The Deployments API from Laravel — 13 operation(s) for deployments.
   name: Laravel Deployments API
   phrasing_intents:
-  - id: public.environments.deployments.index
-    intent: List deployments for a Cloud environment
-    question: Which deployments have run against my Laravel Cloud environment?
-  - id: public.environments.deployments.store
-    intent: Deploy a Cloud environment
-    question: How do I kick off a new deployment of a cloud environment?
-  - id: public.deployments.show
-    intent: Get a Cloud deployment's details
-    question: What is the status of a specific cloud deployment I started?
-  - id: public.deployments.logs
-    intent: Read build and deploy logs for a Cloud deployment
-    question: Where can I see the build logs for a cloud deployment that failed?
   - id: organizations.servers.sites.webhooks.index
     intent: List deployment webhooks for a Forge site
     question: Which webhook URLs get notified when my Forge site deploys?
@@ -363,6 +353,18 @@ apis:
   - id: organizations.servers.sites.webhooks.destroy
     intent: Remove a deployment webhook from a site
     question: How do I stop a site from calling an old webhook URL after deploys?
+  - id: organizations.servers.sites.deployments.index
+    intent: List recent deployments of a Forge site
+    question: What were the recent deployments of my Forge site?
+  - id: organizations.servers.sites.deployments.store
+    intent: Trigger a deployment of a Forge site
+    question: How do I deploy the latest code to a site on my server?
+  - id: organizations.servers.sites.deployments.status.show
+    intent: Check a site's current deployment state
+    question: Is a deployment currently running on my site right now?
+  - id: organizations.servers.sites.deployments.status.destroy
+    intent: Reset a site's stuck deployment state
+    question: My site says it's still deploying but nothing is happening — can I reset that?
   phrasing_ops: 23
   slug: laravel-deployments-api
 - baseURL: https://forge.laravel.com/api
@@ -1013,7 +1015,22 @@ apis:
     question: How many connections and messages is my WebSocket cluster handling?
   phrasing_ops: 6
   slug: laravel-websocket-clusters-api
-artifact_total: 133
+- baseURL: https://forge.laravel.com/api/v1
+  baseurl_source: declared
+  description: The Edge Networks API from Laravel — 1 operation(s) for edge networks.
+  name: Laravel Edge Networks API
+  slug: laravel-edge-networks-api
+- baseURL: https://forge.laravel.com/api/v1
+  baseurl_source: declared
+  description: The Email API from Laravel — 3 operation(s) for email.
+  name: Laravel Email API
+  slug: laravel-email-api
+- baseURL: https://forge.laravel.com/api/v1
+  baseurl_source: declared
+  description: The Secrets API from Laravel — 3 operation(s) for secrets.
+  name: Laravel Secrets API
+  slug: laravel-secrets-api
+artifact_total: 139
 asyncapis:
 - description: ''
   name: Laravel Webhooks
@@ -1140,9 +1157,6 @@ collections:
   name: Laravel Cloud Applications WebSocket Clusters API
   slug: postman-laravel-websocket-clusters-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Laravel Cloud Applications API
   slug: open-laravel-applications-api
 - collection_type: open
@@ -1268,17 +1282,17 @@ common:
   type: BlogRSS
   url: https://laravel.com/feed
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/rate-limits/laravel-rate-limits.yml
+  href: https://artifacts.apis.io/laravel/rate-limits/laravel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/laravel-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/plans/laravel-plans-pricing.yml
+  href: https://artifacts.apis.io/laravel/plans/laravel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/laravel-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/capabilities/laravel-capability-edges.yml
+  href: https://artifacts.apis.io/laravel/capabilities/laravel-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/laravel-capability-edges.yml
@@ -1287,12 +1301,12 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/laravel/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/security/laravel-domain-security.yml
+  href: https://artifacts.apis.io/laravel/security/laravel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/laravel-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/authentication/laravel-authentication.yml
+  href: https://artifacts.apis.io/laravel/authentication/laravel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/laravel-authentication.yml
@@ -1353,7 +1367,7 @@ common:
   type: PrivacyPolicy
   url: https://laravel.com/legal/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/security/laravel-trust-center.yml
+  href: https://artifacts.apis.io/laravel/security/laravel-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/laravel-trust-center.yml
@@ -1370,107 +1384,115 @@ common:
   type: StatusPage
   url: https://status.laravel.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/lifecycle/laravel-lifecycle.yml
+  href: https://artifacts.apis.io/laravel/lifecycle/laravel-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/laravel-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/lifecycle/laravel-lifecycle.yml
+  href: https://artifacts.apis.io/laravel/lifecycle/laravel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/laravel-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/changelog/laravel-changelog.yml
+  href: https://artifacts.apis.io/laravel/changelog/laravel-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/laravel-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/packages/laravel-packages.yml
+  href: https://artifacts.apis.io/laravel/packages/laravel-packages.yml
   title: ''
   type: Packages
   url: packages/laravel-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/packages/laravel-packages.yml
+  href: https://artifacts.apis.io/laravel/packages/laravel-packages.yml
   title: ''
   type: SDKs
   url: packages/laravel-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/cli/laravel-cli.yml
+  href: https://artifacts.apis.io/laravel/cli/laravel-cli.yml
   title: ''
   type: CLI
   url: cli/laravel-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/mcp/laravel-mcp.yml
+  href: https://artifacts.apis.io/laravel/mcp/laravel-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/laravel-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/laravel/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/llms/laravel-forge-llms.txt
+  href: https://artifacts.apis.io/laravel/llms/laravel-forge-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/laravel-forge-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/llms/laravel-cloud-llms.txt
+  href: https://artifacts.apis.io/laravel/llms/laravel-cloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/laravel-cloud-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/security/laravel-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/laravel/security/laravel-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/laravel-vulnerability-disclosure.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/overlays/laravel-forge-overlay.yaml
+  href: https://artifacts.apis.io/laravel/overlays/laravel-forge-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/laravel-forge-overlay.yaml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/conventions/laravel-conventions.yml
+  href: https://artifacts.apis.io/laravel/conventions/laravel-conventions.yml
   title: ''
   type: RateLimits
   url: conventions/laravel-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/well-known/laravel-well-known.yml
+  href: https://artifacts.apis.io/laravel/well-known/laravel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/laravel-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/scopes/laravel-scopes.yml
+  href: https://artifacts.apis.io/laravel/scopes/laravel-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/laravel-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/conventions/laravel-conventions.yml
+  href: https://artifacts.apis.io/laravel/conventions/laravel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/laravel-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/errors/laravel-problem-types.yml
+  href: https://artifacts.apis.io/laravel/errors/laravel-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/laravel-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/conformance/laravel-conformance.yml
+  href: https://artifacts.apis.io/laravel/conformance/laravel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/laravel-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/data-model/laravel-data-model.yml
+  href: https://artifacts.apis.io/laravel/data-model/laravel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/laravel-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/asyncapi/laravel-webhooks.yml
+  href: https://artifacts.apis.io/laravel/asyncapi/laravel-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/laravel-webhooks.yml
 created: '2026-07-17'
 description: 'Laravel is the company behind the Laravel PHP framework and a suite of commercial developer infrastructure products: Laravel Cloud (a fully managed PaaS for deploying and scaling Laravel and Symfony applications), Laravel Forge (server provisioning and application deployment across DigitalOcean, AWS, Hetzner, Vultr, Akamai/Linode and custom VPS), Envoyer (zero-downtime PHP deployments), Vapor (serverless deployment on AWS Lambda), Nightwatch (application monitoring) and Nova (an administration panel). Both Laravel Cloud and the current Laravel Forge API publish machine-readable OpenAPI 3.1 descriptions and follow JSON:API-style conventions with cursor pagination, sparse filtering, sorting and relationship includes. Laravel also ships Laravel Boost, a first-party MCP server and Agent Skills bundle that gives AI coding agents structured access to Laravel ecosystem context and documentation.'
+finops:
+- has_sources: true
+  method: derived
+  name: Laravel Finops
+  primary_unit: 1 vcpu / 512 mib
+  service_category: ''
+  slug: laravel-finops
+  template: false
 image: https://laravel.com/images/og/laravel-home.png
 layout: provider
 mcp_servers:
@@ -1481,7 +1503,7 @@ modified: '2026-10-06'
 name: Laravel
 nav: Providers
 network: true
-overview: 'Laravel publishes 42 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Background Processes API, Backups API, and 39 more. Tagged areas include Company, Cloud Saas, PHP, Developer Tools, and Platform-as-a-Service.
+overview: 'Laravel publishes 45 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Background Processes API, Backups API, and 42 more. Tagged areas include Company, Cloud Saas, PHP, Developer Tools, and Platform-as-a-Service.
 
 
   The Laravel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -1495,7 +1517,7 @@ plans:
 - name: Laravel Price Estimates
   plan_count: 0
   slug: laravel-price-estimates
-random_paper: 17
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Laravel Rate Limits
@@ -1507,30 +1529,30 @@ scopes:
   summary_line: 62 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.6
+  composite: 71.9
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 57.0
+    artifact_dirs: 28
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 61.3
+    contract_quality: 58.1
     developer_ergonomics: 74.4
-    discoverability: 73.2
-    operational_transparency: 81.6
-  previous_composite: 69.5
+    discoverability: 65.0
+    operational_transparency: 84.2
+  previous_composite: 70.3
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 40
+      total: 60
     mcp: first-party
     skills: derived
   regulatory:
@@ -1539,13 +1561,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/screenshots/laravel-2026-07-25T224538.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/laravel/laravel-2026-07-25T224538.png
 security:
 - kind: authentication
   name: Laravel Authentication
@@ -1563,6 +1586,14 @@ security:
   name: Laravel Trust Center
   slug: laravel-trust-center
   summary_line: SOC 2 Type 2, HIPAA
+skill_count: 3
+skills:
+- name: laravel-cloud-deploy-application
+  slug: laravel-cloud-deploy-application
+- name: laravel-forge-provision-and-deploy
+  slug: laravel-forge-provision-and-deploy
+- name: laravel-forge-tls-and-webhooks
+  slug: laravel-forge-tls-and-webhooks
 slug: laravel
 tags:
 - Company

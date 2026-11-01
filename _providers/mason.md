@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-17'
+  score: 31.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -83,15 +85,12 @@ apis:
   description: The Webhooks API from Mason — 2 operation(s) for webhooks.
   name: Mason Webhooks API
   slug: mason-webhooks-api
-artifact_total: 24
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Mason Webhooks
   slug: mason-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Mason Apps API
   slug: open-mason-apps-api
@@ -118,22 +117,22 @@ collections:
   slug: open-mason-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/plans/mason-plans-pricing.yml
+  href: https://artifacts.apis.io/mason/plans/mason-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mason-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/capabilities/mason-capability-edges.yml
+  href: https://artifacts.apis.io/mason/capabilities/mason-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mason-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/overlays/mason-apps-overlay.yaml
+  href: https://artifacts.apis.io/mason/overlays/mason-apps-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mason-apps-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/security/mason-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mason/security/mason-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mason-vulnerability-disclosure.yml
@@ -142,22 +141,22 @@ common:
   type: Security
   url: https://getmason.io/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/security/mason-domain-security.yml
+  href: https://artifacts.apis.io/mason/security/mason-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mason-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/agentic-access/mason-agentic-access.yml
+  href: https://artifacts.apis.io/mason/agentic-access/mason-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mason-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/scopes/mason-scopes.yml
+  href: https://artifacts.apis.io/mason/scopes/mason-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mason-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/authentication/mason-authentication.yml
+  href: https://artifacts.apis.io/mason/authentication/mason-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mason-authentication.yml
@@ -210,62 +209,70 @@ common:
   type: GitHubOrganization
   url: https://github.com/kubric
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/llms/mason-llms.txt
+  href: https://artifacts.apis.io/mason/llms/mason-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mason-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/errors/mason-problem-types.yml
+  href: https://artifacts.apis.io/mason/errors/mason-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mason-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/conventions/mason-conventions.yml
+  href: https://artifacts.apis.io/mason/conventions/mason-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mason-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/data-model/mason-data-model.yml
+  href: https://artifacts.apis.io/mason/data-model/mason-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mason-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/asyncapi/mason-webhooks.yml
+  href: https://artifacts.apis.io/mason/asyncapi/mason-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mason-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/mcp/mason-mcp.yml
+  href: https://artifacts.apis.io/mason/mcp/mason-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mason-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/conformance/mason-conformance.yml
+  href: https://artifacts.apis.io/mason/conformance/mason-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mason-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/well-known/mason-well-known.yml
+  href: https://artifacts.apis.io/mason/well-known/mason-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mason-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/lifecycle/mason-lifecycle.yml
+  href: https://artifacts.apis.io/mason/lifecycle/mason-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mason-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/changelog/mason-changelog.yml
+  href: https://artifacts.apis.io/mason/changelog/mason-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mason-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mason/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Mason (getmason.io), the company behind the ModeMagic Shopify app, is an AI-powered "agentic shopping engine" for ecommerce brands. Built by Kubric, the platform pairs merchandising, promotion, conversion and gamification AI agents with a developer platform for programmatic creative generation and commerce automation. Its public developer hub at getmason.dev documents a REST API (OAuth2 bearer, base host https://api.getmason.io) spanning app provisioning, template-driven image/creative generation (Genie), long-running creative tasks, asset search, webhook subscriptions, and a promotion/discount engine (Scrooge) for tiered, bulk and Buy-X-Get-Y discounts, plus a custom-checkout integration contract. Surfaced as a portfolio company of Accel, GGV Capital, Point Nine and Y Combinator; this profile was enriched by the API Evangelist pipeline from Mason's published OpenAPI, llms.txt and developer documentation.
+finops:
+- has_sources: true
+  method: derived
+  name: Mason Finops
+  primary_unit: orders
+  service_category: ''
+  slug: mason-finops
+  template: false
 image: https://media.getmason.io/api/assetlib/e5067013-1809-44f3-8847-8d66857625c7.png
 layout: provider
 modified: '2026-07-20'
@@ -283,6 +290,9 @@ plans:
 - name: Mason Plans Pricing
   plan_count: 3
   slug: mason-plans-pricing
+- name: Mason Price Estimates
+  plan_count: 0
+  slug: mason-price-estimates
 random_paper: 14
 scopes:
 - name: Mason Scopes
@@ -290,24 +300,24 @@ scopes:
   slug: mason-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 49.2
+  band: strong
+  composite: 57.3
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.0
+    artifact_dirs: 25
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 53.8
-    developer_ergonomics: 35.1
-    discoverability: 78.6
-    operational_transparency: 28.9
-  previous_composite: 42.8
+    developer_ergonomics: 54.2
+    discoverability: 71.4
+    operational_transparency: 39.5
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -324,13 +334,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/screenshots/mason-2026-07-25T230331.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mason/mason-2026-07-25T230331.png
 security:
 - kind: authentication
   name: Mason Authentication
@@ -344,6 +355,14 @@ security:
   name: Mason Vulnerability Disclosure
   slug: mason-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 3
+skills:
+- name: Create and clean up store discounts
+  slug: mason-create-store-discounts
+- name: Generate a creative image from a template
+  slug: mason-generate-creative-image
+- name: Subscribe to Mason events with webhooks
+  slug: mason-manage-webhooks
 slug: mason
 tags:
 - Company

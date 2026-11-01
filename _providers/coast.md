@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Coast's stable v2 REST API for programmatic access to fleet and fuel expense data — cards, drivers, vehicles, transactions, receipts, and spending controls. The API reference is served via a gated (OI
@@ -93,12 +95,12 @@ common:
   type: StatusPage
   url: https://status.coastpay.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coast/refs/heads/main/lifecycle/coast-lifecycle.yml
+  href: https://artifacts.apis.io/coast/lifecycle/coast-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/coast-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coast/refs/heads/main/security/coast-domain-security.yml
+  href: https://artifacts.apis.io/coast/security/coast-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coast-domain-security.yml
@@ -110,14 +112,14 @@ modified: '2026-07-18'
 name: Coast
 nav: Providers
 network: true
-overview: 'Coast is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Fleet, and Fuel Cards.
+overview: 'Coast is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Fleet Management, and Fuel Cards.
 
 
   Coast''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 9 more developer resources.'
 random_paper: 10
 score:
   band: emerging
-  composite: 18.7
+  composite: 23.2
   coverage:
     artifact_dirs: 6
     catalog_earned: 37.0
@@ -127,27 +129,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 18.7
+  previous_composite: 23.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/coast/refs/heads/main/screenshots/coast-2026-07-25T205831.png
+screenshot: https://apis.io/screenshots/coast/coast-2026-07-25T205831.png
 security:
 - kind: domain-security
   name: Coast Domain Security
@@ -158,7 +160,7 @@ tags:
 - Company
 - Payments
 - Fintech
-- Fleet
+- Fleet Management
 - Fuel Cards
 - Corporate Cards
 - Expense Management

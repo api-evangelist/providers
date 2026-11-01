@@ -26,15 +26,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.8
-  scored_at: '2026-10-17'
-api_count: 2
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://quotes.eco.com
   baseurl_source: declared
@@ -51,11 +53,8 @@ apis:
   description: The Quotes V3 API from Eco — 9 operation(s) for quotes v3.
   name: Eco Quotes V3 API
   slug: eco-quotes-v3-api
-artifact_total: 9
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Eco Routes Quotes V1 API
   slug: open-eco-quotes-v1-api
@@ -75,7 +74,7 @@ common:
   type: BlogRSS
   url: https://eco.com/blog/rss/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/security/eco-domain-security.yml
+  href: https://artifacts.apis.io/eco/security/eco-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eco-domain-security.yml
@@ -120,72 +119,72 @@ common:
   type: PrivacyPolicy
   url: https://www.eco.com/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/packages/eco-packages.yml
+  href: https://artifacts.apis.io/eco/packages/eco-packages.yml
   title: ''
   type: Packages
   url: packages/eco-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/packages/eco-packages.yml
+  href: https://artifacts.apis.io/eco/packages/eco-packages.yml
   title: ''
   type: SDKs
   url: packages/eco-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/cli/eco-cli.yml
+  href: https://artifacts.apis.io/eco/cli/eco-cli.yml
   title: ''
   type: CLI
   url: cli/eco-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/llms/eco-llms.txt
+  href: https://artifacts.apis.io/eco/llms/eco-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eco-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/mcp/eco-mcp.yml
+  href: https://artifacts.apis.io/eco/mcp/eco-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/eco-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/overlays/eco-routes-overlay.yaml
+  href: https://artifacts.apis.io/eco/overlays/eco-routes-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/eco-routes-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/conformance/eco-conformance.yml
+  href: https://artifacts.apis.io/eco/conformance/eco-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eco-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/errors/eco-problem-types.yml
+  href: https://artifacts.apis.io/eco/errors/eco-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eco-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/lifecycle/eco-lifecycle.yml
+  href: https://artifacts.apis.io/eco/lifecycle/eco-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eco-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/conventions/eco-conventions.yml
+  href: https://artifacts.apis.io/eco/conventions/eco-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eco-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/data-model/eco-data-model.yml
+  href: https://artifacts.apis.io/eco/data-model/eco-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eco-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/authentication/eco-authentication.yml
+  href: https://artifacts.apis.io/eco/authentication/eco-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eco-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/sandbox/eco-sandbox.yml
+  href: https://artifacts.apis.io/eco/sandbox/eco-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/eco-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/eco/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -202,12 +201,12 @@ overview: 'Eco publishes 3 API contracts indexed on the [APIs.io](https://apis.i
 
 
   Eco''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, CLI, authentication, and 20 more developer resources.'
-random_paper: 3
+random_paper: 23
 score:
   band: thin
-  composite: 37.9
+  composite: 38.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -219,9 +218,9 @@ score:
     contract_governance: 4.5
     contract_quality: 38.8
     developer_ergonomics: 80.4
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 37.9
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 38.3
   provenance:
     conformance: derived
     contracts:
@@ -237,13 +236,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/screenshots/eco-2026-07-25T212742.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/eco/eco-2026-07-25T212742.png
 security:
 - kind: authentication
   name: Eco Authentication
@@ -253,6 +253,12 @@ security:
   name: Eco Domain Security
   slug: eco-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Quote and move a stablecoin cross-chain
+  slug: eco-quote-and-move-stablecoin
+- name: Track cross-chain intents
+  slug: eco-track-intents
 slug: eco
 tags:
 - Company

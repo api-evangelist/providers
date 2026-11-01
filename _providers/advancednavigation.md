@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,16 +25,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: HTTP/JSON API for Advanced Navigation's Kinematica cloud GNSS/INS post-processing kinematic (PPK) service. Eleven documented calls let a customer application create a data set, upload primary and seco
   name: Kinematica API
   slug: advancednavigation-kinematica
-artifact_total: 5
+artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/security/advancednavigation-domain-security.yml
+  href: https://artifacts.apis.io/advancednavigation/security/advancednavigation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/advancednavigation-domain-security.yml
@@ -85,72 +87,80 @@ common:
   type: SignUp
   url: https://hq.advancednavigation.com.au/kinematica/home.jsp
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/packages/advancednavigation-packages.yml
+  href: https://artifacts.apis.io/advancednavigation/packages/advancednavigation-packages.yml
   title: ''
   type: Packages
   url: packages/advancednavigation-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/packages/advancednavigation-packages.yml
+  href: https://artifacts.apis.io/advancednavigation/packages/advancednavigation-packages.yml
   title: ''
   type: SDKs
   url: packages/advancednavigation-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/authentication/advancednavigation-authentication.yml
+  href: https://artifacts.apis.io/advancednavigation/authentication/advancednavigation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/advancednavigation-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/rate-limits/advancednavigation-rate-limits.yml
+  href: https://artifacts.apis.io/advancednavigation/rate-limits/advancednavigation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/advancednavigation-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/plans/advancednavigation-plans-pricing.yml
+  href: https://artifacts.apis.io/advancednavigation/plans/advancednavigation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/advancednavigation-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/errors/advancednavigation-problem-types.yml
+  href: https://artifacts.apis.io/advancednavigation/errors/advancednavigation-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/advancednavigation-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/lifecycle/advancednavigation-lifecycle.yml
+  href: https://artifacts.apis.io/advancednavigation/lifecycle/advancednavigation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/advancednavigation-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/lifecycle/advancednavigation-lifecycle.yml
+  href: https://artifacts.apis.io/advancednavigation/lifecycle/advancednavigation-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/advancednavigation-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/conventions/advancednavigation-conventions.yml
+  href: https://artifacts.apis.io/advancednavigation/conventions/advancednavigation-conventions.yml
   title: ''
   type: Conventions
   url: conventions/advancednavigation-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/changelog/advancednavigation-changelog.yml
+  href: https://artifacts.apis.io/advancednavigation/changelog/advancednavigation-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/advancednavigation-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/data-model/advancednavigation-data-model.yml
+  href: https://artifacts.apis.io/advancednavigation/data-model/advancednavigation-data-model.yml
   title: ''
   type: DataModel
   url: data-model/advancednavigation-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/conformance/advancednavigation-conformance.yml
+  href: https://artifacts.apis.io/advancednavigation/conformance/advancednavigation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/advancednavigation-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/llms/advancednavigation-llms.txt
+  href: https://artifacts.apis.io/advancednavigation/llms/advancednavigation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/advancednavigation-llms.txt
 created: '2026-09-09'
 description: Advanced Navigation is an Australian navigation and robotics manufacturer (Sydney, NSW) building inertial navigation systems (INS), IMU/AHRS, GNSS compasses, acoustic/USBL subsea positioning and underwater robotics for air, land, sea and space — the Boreas FOG and Certus MEMS GNSS/INS families, Motus, GNSS Compass, Subsonus USBL, Subsonus Tag and the Hydrus micro-AUV, plus the Chimera laser velocity sensor and Air Data Unit aiding accessories. Its devices speak the proprietary binary Advanced Navigation Packet Protocol (ANPP), documented in per-product reference manuals and implemented by first-party C SDKs, a Python SDK on PyPI and ROS 1 / ROS 2 drivers. Its one public web API is the Kinematica API — an HTTP/JSON interface to the Kinematica cloud GNSS/INS post-processing (PPK) service, documented as a versioned PDF reference manual rather than a machine-readable specification.
+finops:
+- has_sources: true
+  method: derived
+  name: Advancednavigation Finops
+  primary_unit: minute of data processed
+  service_category: ''
+  slug: advancednavigation-finops
+  template: false
 image: https://www.advancednavigation.com/wp-content/uploads/2024/08/adnav_logo_420x91-colour.webp
 layout: provider
 modified: '2026-09-09'
@@ -165,35 +175,38 @@ plans:
 - name: Advancednavigation Plans Pricing
   plan_count: 3
   slug: advancednavigation-plans-pricing
-random_paper: 2
+- name: Advancednavigation Price Estimates
+  plan_count: 0
+  slug: advancednavigation-price-estimates
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Advancednavigation Rate Limits
   slug: advancednavigation-rate-limits
 score:
   band: developing
-  composite: 42.3
+  composite: 44.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 57.0
+    artifact_dirs: 19
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 50.0
-    discoverability: 73.2
-    operational_transparency: 47.4
+    developer_ergonomics: 52.4
+    discoverability: 66.1
+    operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - australia
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 42.3
+  previous_composite: 42.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -203,14 +216,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/screenshots/advancednavigation-2026-10-11T092854.png
+screenshot: https://apis.io/screenshots/advancednavigation/advancednavigation-2026-10-11T092854.png
 security:
 - kind: authentication
   name: Advancednavigation Authentication

@@ -20,22 +20,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 21.0
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://public-api.cloverhealth.com
   baseurl_source: declared
@@ -47,11 +49,8 @@ apis:
   description: The FHIR R4 ProviderDirectory API API from Clover Health — 17 operation(s) for fhir r4 providerdirectory api.
   name: Clover Health FHIR R4 ProviderDirectory API
   slug: clover-health-fhir-r4-providerdirectory-api-api
-artifact_total: 8
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: FHIR fhir-r4-formulary-api API
   slug: open-clover-health-fhir-r4-formulary-api-api
@@ -96,67 +95,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/CloverHealth
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/openapi/_original/clover-health-fhir-openapi-original.yml
+  href: https://artifacts.apis.io/clover-health/openapi/_original/clover-health-fhir-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/clover-health-fhir-openapi-original.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/overlays/clover-health-fhir-overlay.yaml
+  href: https://artifacts.apis.io/clover-health/overlays/clover-health-fhir-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clover-health-fhir-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/authentication/clover-health-authentication.yml
+  href: https://artifacts.apis.io/clover-health/authentication/clover-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clover-health-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/conventions/clover-health-conventions.yml
+  href: https://artifacts.apis.io/clover-health/conventions/clover-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clover-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/data-model/clover-health-data-model.yml
+  href: https://artifacts.apis.io/clover-health/data-model/clover-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clover-health-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/conformance/clover-health-conformance.yml
+  href: https://artifacts.apis.io/clover-health/conformance/clover-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clover-health-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/lifecycle/clover-health-lifecycle.yml
+  href: https://artifacts.apis.io/clover-health/lifecycle/clover-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clover-health-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/mcp/clover-health-mcp.yml
+  href: https://artifacts.apis.io/clover-health/mcp/clover-health-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/clover-health-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/llms/clover-health-llms.txt
+  href: https://artifacts.apis.io/clover-health/llms/clover-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clover-health-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/clover-health/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/well-known/clover-health-well-known.yml
+  href: https://artifacts.apis.io/clover-health/well-known/clover-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/clover-health-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/well-known/clover-health-security.txt
+  href: https://artifacts.apis.io/clover-health/well-known/clover-health-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/clover-health-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/security/clover-health-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/clover-health/security/clover-health-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/clover-health-vulnerability-disclosure.yml
@@ -165,7 +164,7 @@ common:
   type: Security
   url: https://www.cloverhealth.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/security/clover-health-domain-security.yml
+  href: https://artifacts.apis.io/clover-health/security/clover-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clover-health-domain-security.yml
@@ -188,7 +187,7 @@ overview: 'Clover Health publishes 2 API contracts indexed on the [APIs.io](http
 random_paper: 6
 score:
   band: developing
-  composite: 39.6
+  composite: 40.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -196,15 +195,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 44.7
     developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 7.9
-  previous_composite: 39.1
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 40.0
   provenance:
     conformance: derived
     contracts:
@@ -220,14 +219,14 @@ score:
     regime: Health
     regime_id: health
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/screenshots/clover-health-2026-07-25T205721.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/clover-health/clover-health-2026-07-25T205721.png
 security:
 - kind: authentication
   name: Clover Health Authentication
@@ -241,6 +240,12 @@ security:
   name: Clover Health Vulnerability Disclosure
   slug: clover-health-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 2
+skills:
+- name: Check drug coverage in the Clover Health formulary
+  slug: clover-health-formulary-lookup
+- name: Find an in-network provider (Clover Health)
+  slug: clover-health-provider-directory-search
 slug: clover-health
 tags:
 - Company

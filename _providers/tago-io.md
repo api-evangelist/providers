@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-17'
+  score: 28.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -224,9 +226,6 @@ collections:
   name: TagoIO Access Management Widgets API
   slug: postman-tago-io-widgets-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: TagoIO Access Management API
   slug: open-tago-io-access-management-api
 - collection_type: open
@@ -293,27 +292,32 @@ collections:
   name: TagoIO Access Management Widgets API
   slug: open-tago-io-widgets-api
 common:
+- group: other
+  href: https://artifacts.apis.io/tago-io/capabilities/tago-io-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tago-io-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/tagoio/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/agentic-access/tago-io-agentic-access.yml
+  href: https://artifacts.apis.io/tago-io/agentic-access/tago-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tago-io-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/security/tago-io-trust-center.yml
+  href: https://artifacts.apis.io/tago-io/security/tago-io-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tago-io-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/security/tago-io-domain-security.yml
+  href: https://artifacts.apis.io/tago-io/security/tago-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tago-io-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/authentication/tago-io-authentication.yml
+  href: https://artifacts.apis.io/tago-io/authentication/tago-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tago-io-authentication.yml
@@ -399,13 +403,13 @@ examples:
   name: Tago Io Send Device Data Example
   slug: tago-io-send-device-data-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Tago Io Finops
-  primary_unit: ''
+  primary_unit: subscription
   service_category: ''
   slug: tago-io-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tago-io.png
 json_schemas:
 - name: TagoIO Device Data Item
@@ -430,12 +434,15 @@ overview: 'TagoIO publishes 22 API contracts indexed on the [APIs.io](https://ap
   The TagoIO catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  TagoIO''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, CLI, and 17 more developer resources.'
+  TagoIO''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, CLI, and 18 more developer resources.'
 plans:
 - name: Tago Io Plans Pricing
-  plan_count: 4
+  plan_count: 7
   slug: tago-io-plans-pricing
-random_paper: 6
+- name: Tago Io Price Estimates
+  plan_count: 0
+  slug: tago-io-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 7
   name: Tago Io Rate Limits
@@ -454,23 +461,23 @@ rules:
   slug: tago-io-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.7
+  composite: 50.3
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 70.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 44.3
+    artifact_dirs: 18
+    catalog_earned: 82.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 32.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 57.9
     contract_governance: 23.5
-    contract_quality: 67.9
+    contract_quality: 64.5
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 49.0
+    operational_transparency: 44.7
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     contracts:
@@ -484,13 +491,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/screenshots/tago-io-2026-06-20T194853.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tago-io/tago-io-2026-06-20T194853.png
 security:
 - kind: authentication
   name: Tago Io Authentication

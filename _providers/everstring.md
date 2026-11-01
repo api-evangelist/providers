@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The EverString Enrichment API exposed EverString's data cloud, AI, and machine-learning components as a micro-service - similar-company discovery, ML-generated keywords, industry classification, and f
@@ -42,7 +44,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/everstring/refs/heads/main/security/everstring-domain-security.yml
+  href: https://artifacts.apis.io/everstring/security/everstring-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/everstring-domain-security.yml
@@ -55,12 +57,12 @@ common:
   type: DeveloperPortal
   url: https://developer.everstring.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/everstring/refs/heads/main/packages/everstring-packages.yml
+  href: https://artifacts.apis.io/everstring/packages/everstring-packages.yml
   title: ''
   type: Packages
   url: packages/everstring-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/everstring/refs/heads/main/llms/everstring-llms.txt
+  href: https://artifacts.apis.io/everstring/llms/everstring-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/everstring-llms.txt
@@ -73,10 +75,10 @@ name: Everstring
 nav: Providers
 network: true
 overview: Everstring is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Predictive Marketing, Sales Intelligence, Data Enrichment, and Firmographics.
-random_paper: 19
+random_paper: 17
 score:
   band: minimal
-  composite: 6.8
+  composite: 7.1
   coverage:
     artifact_dirs: 5
     catalog_earned: 37.0
@@ -89,24 +91,24 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
-    discoverability: 73.2
+    developer_ergonomics: 9.5
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 6.8
+  previous_composite: 7.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/everstring/refs/heads/main/screenshots/everstring-2026-07-25T213759.png
+screenshot: https://apis.io/screenshots/everstring/everstring-2026-07-25T213759.png
 security:
 - kind: domain-security
   name: Everstring Domain Security

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 24.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 21
   slug: litmus-agentic-access
   summary_line: 21 operations · 5 acting
-api_count: 3
+api_count: 4
 apis:
 - baseURL: https://instant-api.litmus.com/v1
   baseurl_source: declared
@@ -75,11 +77,13 @@ apis:
   description: Email test creation and management
   name: Litmus Tests API
   slug: litmus-tests-api
+- baseURL: https://instant-api.litmus.com/v1
+  baseurl_source: declared
+  description: The FtpSites API from Litmus — 1 operation(s) for ftpsites.
+  name: Litmus Ftp Sites API
+  slug: litmus-ftpsites-api
 artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Litmus Email Analytics API
   slug: open-litmus-analytics-api
@@ -103,42 +107,42 @@ collections:
   slug: open-litmus-tests-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/plans/litmus-plans-pricing.yml
+  href: https://artifacts.apis.io/litmus/plans/litmus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/litmus-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/rate-limits/litmus-rate-limits.yml
+  href: https://artifacts.apis.io/litmus/rate-limits/litmus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/litmus-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/finops/litmus-finops.yml
+  href: https://artifacts.apis.io/litmus/finops/litmus-finops.yml
   title: ''
   type: FinOps
   url: finops/litmus-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/capabilities/litmus-capability-edges.yml
+  href: https://artifacts.apis.io/litmus/capabilities/litmus-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/litmus-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/agentic-access/litmus-agentic-access.yml
+  href: https://artifacts.apis.io/litmus/agentic-access/litmus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/litmus-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/security/litmus-trust-center.yml
+  href: https://artifacts.apis.io/litmus/security/litmus-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/litmus-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/security/litmus-domain-security.yml
+  href: https://artifacts.apis.io/litmus/security/litmus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/litmus-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/authentication/litmus-authentication.yml
+  href: https://artifacts.apis.io/litmus/authentication/litmus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/litmus-authentication.yml
@@ -179,12 +183,12 @@ common:
   type: Authentication
   url: https://docs.litmus.com/oauth/web-application-flow
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/json-schema/litmus-email-test-schema.json
+  href: https://artifacts.apis.io/litmus/json-schema/litmus-email-test-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/litmus-email-test-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/json-ld/litmus-context.jsonld
+  href: https://artifacts.apis.io/litmus/json-ld/litmus-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/litmus-context.jsonld
@@ -213,7 +217,7 @@ modified: '2026-05-19'
 name: Litmus
 nav: Providers
 network: true
-overview: 'Litmus publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Campaigns API, Clients API, and 3 more. Tagged areas include Developer Tools, Email Testing, Marketing Tools, Quality Assurance, and Email.
+overview: 'Litmus publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Campaigns API, Clients API, and 4 more. Tagged areas include Developer Tools, Email Testing, Marketing Tools, Quality Assurance, and Email.
 
 
   The Litmus catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -224,7 +228,7 @@ plans:
 - name: Litmus Plans Pricing
   plan_count: 7
   slug: litmus-plans-pricing
-random_paper: 10
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Litmus Rate Limits
@@ -243,22 +247,22 @@ rules:
   slug: litmus-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.1
+  composite: 36.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 55.3
     catalog_earned_first_party: 0.0
     catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -0.2
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 59.2
+    contract_quality: 60.0
     developer_ergonomics: 40.5
     discoverability: 62.5
-    operational_transparency: 10.5
+    operational_transparency: 13.2
   previous_composite: 36.6
   provenance:
     agentic_access: derived
@@ -266,20 +270,21 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/screenshots/litmus-2026-06-20T184609.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/litmus/litmus-2026-06-20T184609.png
 security:
 - kind: authentication
   name: Litmus Authentication

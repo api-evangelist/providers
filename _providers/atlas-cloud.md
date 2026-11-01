@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.1
-  scored_at: '2026-10-17'
+  score: 33.5
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - baseURL: https://api.atlascloud.ai
@@ -76,119 +78,119 @@ apis:
   description: The Chat Completions API from Atlas Cloud — 2 operation(s) for chat completions.
   name: Atlas Cloud Chat Completions API
   slug: atlas-cloud-chat-completions-api
-artifact_total: 24
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Atlas Cloud Webhooks
   slug: atlas-cloud-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/authentication/atlas-cloud-authentication.yml
+  href: https://artifacts.apis.io/atlas-cloud/authentication/atlas-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/atlas-cloud-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/rate-limits/atlas-cloud-rate-limits.yml
+  href: https://artifacts.apis.io/atlas-cloud/rate-limits/atlas-cloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/atlas-cloud-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/plans/atlas-cloud-plans-pricing.yml
+  href: https://artifacts.apis.io/atlas-cloud/plans/atlas-cloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/atlas-cloud-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/rules/atlas-cloud-rules.yml
+  href: https://artifacts.apis.io/atlas-cloud/rules/atlas-cloud-rules.yml
   title: ''
   type: Spectral
   url: rules/atlas-cloud-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/json-ld/atlas-cloud-context.jsonld
+  href: https://artifacts.apis.io/atlas-cloud/json-ld/atlas-cloud-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/atlas-cloud-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/vocabulary/atlas-cloud-vocabulary.yml
+  href: https://artifacts.apis.io/atlas-cloud/vocabulary/atlas-cloud-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/atlas-cloud-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/atlas-cloud/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/asyncapi/atlas-cloud-webhooks.yml
+  href: https://artifacts.apis.io/atlas-cloud/asyncapi/atlas-cloud-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/atlas-cloud-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/data-model/atlas-cloud-data-model.yml
+  href: https://artifacts.apis.io/atlas-cloud/data-model/atlas-cloud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/atlas-cloud-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/cli/atlas-cloud-cli.yml
+  href: https://artifacts.apis.io/atlas-cloud/cli/atlas-cloud-cli.yml
   title: ''
   type: CLI
   url: cli/atlas-cloud-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/changelog/atlas-cloud-changelog.yml
+  href: https://artifacts.apis.io/atlas-cloud/changelog/atlas-cloud-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/atlas-cloud-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/conventions/atlas-cloud-conventions.yml
+  href: https://artifacts.apis.io/atlas-cloud/conventions/atlas-cloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/atlas-cloud-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/errors/atlas-cloud-error-codes.yml
+  href: https://artifacts.apis.io/atlas-cloud/errors/atlas-cloud-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/atlas-cloud-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/conformance/atlas-cloud-conformance.yml
+  href: https://artifacts.apis.io/atlas-cloud/conformance/atlas-cloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/atlas-cloud-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/llms/atlas-cloud-llms.txt
+  href: https://artifacts.apis.io/atlas-cloud/llms/atlas-cloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/atlas-cloud-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/mcp/atlas-cloud-tool-crosswalk.yml
+  href: https://artifacts.apis.io/atlas-cloud/mcp/atlas-cloud-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/atlas-cloud-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/mcp/atlas-cloud-mcp.yml
+  href: https://artifacts.apis.io/atlas-cloud/mcp/atlas-cloud-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/atlas-cloud-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/hosts/atlas-cloud-hosts.yml
+  href: https://artifacts.apis.io/atlas-cloud/hosts/atlas-cloud-hosts.yml
   title: ''
   type: Hosts
   url: hosts/atlas-cloud-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/integrations/atlas-cloud-integration-edges.yml
+  href: https://artifacts.apis.io/atlas-cloud/integrations/atlas-cloud-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/atlas-cloud-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/vendors/atlas-cloud-vendors.yml
+  href: https://artifacts.apis.io/atlas-cloud/vendors/atlas-cloud-vendors.yml
   title: ''
   type: Vendors
   url: vendors/atlas-cloud-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/packages/atlas-cloud-packages.yml
+  href: https://artifacts.apis.io/atlas-cloud/packages/atlas-cloud-packages.yml
   title: ''
   type: SDKs
   url: packages/atlas-cloud-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/packages/atlas-cloud-packages.yml
+  href: https://artifacts.apis.io/atlas-cloud/packages/atlas-cloud-packages.yml
   title: ''
   type: Packages
   url: packages/atlas-cloud-packages.yml
@@ -197,7 +199,7 @@ common:
   type: Sandbox
   url: https://www.atlascloud.ai/console
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/atlas-cloud/refs/heads/main/security/atlas-cloud-domain-security.yml
+  href: https://artifacts.apis.io/atlas-cloud/security/atlas-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/atlas-cloud-domain-security.yml
@@ -266,6 +268,14 @@ coverage:
   state: none
 created: '2026-10-13'
 description: 'Atlas Cloud is an AI inference platform that serves 300+ third-party LLM, image, video, audio and 3D models through one API: an OpenAI-compatible chat completions surface at https://api.atlascloud.ai/v1 (plus Anthropic Messages and Gemini protocols), asynchronous image and video generation with prediction polling and signed webhooks at https://api.atlascloud.ai/api/v1, and a Billing Public API for balance, usage and cost at https://api.atlascloud.ai/public/v1. It also sells GPU cloud, bare-metal servers and storage, and ships an official MCP server, CLI and agent skills.'
+finops:
+- has_sources: true
+  method: derived
+  name: Atlas Cloud Finops
+  primary_unit: ''
+  service_category: ''
+  slug: atlas-cloud-finops
+  template: true
 image: https://www.atlascloud.ai/favicon.ico
 json_schemas:
 - name: GetApiV1WebhooksJwksJsonResponse
@@ -311,7 +321,7 @@ plans:
 - name: Atlas Cloud Plans Pricing
   plan_count: 2
   slug: atlas-cloud-plans-pricing
-random_paper: 13
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Atlas Cloud Rate Limits
@@ -331,21 +341,23 @@ rules:
   slug: atlas-cloud-rules
 score:
   band: strong
-  composite: 54.5
+  composite: 54.6
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 81.8
     catalog_earned_first_party: 16.0
     catalog_gap: 33.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 22.0
     contract_quality: 33.3
     developer_ergonomics: 80.4
-    discoverability: 78.3
+    discoverability: 71.7
     operational_transparency: 50.0
+  previous_composite: 54.6
   provenance:
     conformance: derived
     contracts:
@@ -361,11 +373,13 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Atlas Cloud Authentication
@@ -375,6 +389,12 @@ security:
   name: Atlas Cloud Domain Security
   slug: atlas-cloud-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: atlas-cloud-audit-spend
+  slug: atlas-cloud-audit-spend
+- name: atlas-cloud-generate-media
+  slug: atlas-cloud-generate-media
 slug: atlas-cloud
 tags:
 - Company

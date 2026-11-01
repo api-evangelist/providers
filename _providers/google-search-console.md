@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-10-17'
+  score: 37.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -120,7 +122,7 @@ apis:
   description: The urlTestingTools API from Google Search Console — 1 operation(s) for urltestingtools.
   name: Google Search Console URL Testing Tools API
   slug: google-search-console-urltestingtools-api
-artifact_total: 110
+artifact_total: 113
 collections:
 - collection_type: postman
   name: Google Search Console Search Analytics API
@@ -134,9 +136,6 @@ collections:
 - collection_type: postman
   name: Google Search Console Search Analytics URL Inspection API
   slug: postman-google-search-console-url-inspection-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Search Console API
   slug: open-google-search-console-api
@@ -164,107 +163,107 @@ common:
   type: Website
   url: https://www.google.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/capabilities/google-search-console-capability-edges.yml
+  href: https://artifacts.apis.io/google-search-console/capabilities/google-search-console-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-search-console-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/overlays/google-search-console-url-testing-tools-api-overlay.yaml
+  href: https://artifacts.apis.io/google-search-console/overlays/google-search-console-url-testing-tools-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-search-console-url-testing-tools-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/overlays/google-search-console-indexing-api-overlay.yaml
+  href: https://artifacts.apis.io/google-search-console/overlays/google-search-console-indexing-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-search-console-indexing-api-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/packages/google-search-console-packages.yml
+  href: https://artifacts.apis.io/google-search-console/packages/google-search-console-packages.yml
   title: ''
   type: Packages
   url: packages/google-search-console-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/packages/google-search-console-packages.yml
+  href: https://artifacts.apis.io/google-search-console/packages/google-search-console-packages.yml
   title: First-party client libraries with published versions and release dates
   type: SDKs
   url: packages/google-search-console-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/well-known/google-search-console-well-known.yml
+  href: https://artifacts.apis.io/google-search-console/well-known/google-search-console-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/google-search-console-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/well-known/google-search-console-security.txt
+  href: https://artifacts.apis.io/google-search-console/well-known/google-search-console-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/google-search-console-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/security/google-search-console-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-search-console/security/google-search-console-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/google-search-console-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/mcp/google-search-console-mcp.yml
+  href: https://artifacts.apis.io/google-search-console/mcp/google-search-console-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/google-search-console-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/llms/google-search-console-llms.txt
+  href: https://artifacts.apis.io/google-search-console/llms/google-search-console-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/google-search-console-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/google-search-console/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/conformance/google-search-console-conformance.yml
+  href: https://artifacts.apis.io/google-search-console/conformance/google-search-console-conformance.yml
   title: ''
   type: Conformance
   url: conformance/google-search-console-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/errors/google-search-console-problem-types.yml
+  href: https://artifacts.apis.io/google-search-console/errors/google-search-console-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/google-search-console-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/lifecycle/google-search-console-lifecycle.yml
+  href: https://artifacts.apis.io/google-search-console/lifecycle/google-search-console-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/google-search-console-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/conventions/google-search-console-conventions.yml
+  href: https://artifacts.apis.io/google-search-console/conventions/google-search-console-conventions.yml
   title: ''
   type: Conventions
   url: conventions/google-search-console-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/data-model/google-search-console-data-model.yml
+  href: https://artifacts.apis.io/google-search-console/data-model/google-search-console-data-model.yml
   title: ''
   type: DataModel
   url: data-model/google-search-console-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/changelog/google-search-console-changelog.yml
+  href: https://artifacts.apis.io/google-search-console/changelog/google-search-console-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/google-search-console-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/plans/google-search-console-plans-pricing.yml
+  href: https://artifacts.apis.io/google-search-console/plans/google-search-console-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-search-console-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/rate-limits/google-search-console-rate-limits.yml
+  href: https://artifacts.apis.io/google-search-console/rate-limits/google-search-console-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-search-console-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/finops/google-search-console-finops.yml
+  href: https://artifacts.apis.io/google-search-console/finops/google-search-console-finops.yml
   title: ''
   type: FinOps
   url: finops/google-search-console-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/rules/google-search-console-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/google-search-console/rules/google-search-console-jsonschema-spectral-rules.yml
   title: JSON Schema Spectral Rules
   type: SpectralRules
   url: rules/google-search-console-jsonschema-spectral-rules.yml
@@ -301,27 +300,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-search-console/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/agentic-access/google-search-console-agentic-access.yml
+  href: https://artifacts.apis.io/google-search-console/agentic-access/google-search-console-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-search-console-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/security/google-search-console-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-search-console/security/google-search-console-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-search-console-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/security/google-search-console-domain-security.yml
+  href: https://artifacts.apis.io/google-search-console/security/google-search-console-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-search-console-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/authentication/google-search-console-authentication.yml
+  href: https://artifacts.apis.io/google-search-console/authentication/google-search-console-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-search-console-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/scopes/google-search-console-scopes.yml
+  href: https://artifacts.apis.io/google-search-console/scopes/google-search-console-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-search-console-scopes.yml
@@ -370,7 +369,7 @@ common:
   type: Console
   url: https://console.cloud.google.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/rules/google-search-console-spectral-rules.yml
+  href: https://artifacts.apis.io/google-search-console/rules/google-search-console-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/google-search-console-spectral-rules.yml
@@ -457,12 +456,12 @@ features:
   name: Site Verification
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Google Search Console Finops
   primary_unit: ''
-  service_category: SEO / Search Tools
+  service_category: ''
   slug: google-search-console-finops
-  template: false
+  template: true
 image: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
 integrations:
 - description: Combine Search Console data with Google Analytics for comprehensive website performance analysis.
@@ -663,23 +662,28 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 67.2
+  composite: 69.9
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 33
     catalog_earned: 74.9
     catalog_earned_first_party: 20.0
     catalog_gap: 40.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 63.4
-    developer_ergonomics: 75.6
+    developer_ergonomics: 83.9
     discoverability: 78.6
-    operational_transparency: 76.3
-  previous_composite: 68.7
+    operational_transparency: 78.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 69.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -696,13 +700,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/screenshots/google-search-console-2026-06-20T182231.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-search-console/google-search-console-2026-06-20T182231.png
 security:
 - kind: authentication
   name: Google Search Console Authentication
@@ -716,6 +721,16 @@ security:
   name: Google Search Console Vulnerability Disclosure
   slug: google-search-console-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 4
+skills:
+- name: audit-search-performance
+  slug: google-search-console-audit-search-performance
+- name: diagnose-url-indexing
+  slug: google-search-console-diagnose-url-indexing
+- name: manage-sitemaps
+  slug: google-search-console-manage-sitemaps
+- name: notify-google-of-url-changes
+  slug: google-search-console-notify-google-of-url-changes
 slug: google-search-console
 tags:
 - Analytics

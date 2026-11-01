@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Token-authenticated REST API behind the AccuKnox SaaS console, serving asset inventory, security findings, AI/ML model risk (ModelKnox) and tenant configuration under an /api/v1/ path prefix. Served p
@@ -38,14 +40,14 @@ apis:
 - description: First-party Model Context Protocol server published by AccuKnox that exposes the SaaS Platform API to agents as MCP tools for asset search, finding retrieval, finding filters and funnels, and AI/ML mo
   name: AccuKnox MCP Server
   slug: accuknox-mcp-server
-artifact_total: 12
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Accuknox Webhooks
   slug: accuknox-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/accuknox/refs/heads/main/security/accuknox-domain-security.yml
+  href: https://artifacts.apis.io/accuknox/security/accuknox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/accuknox-domain-security.yml
@@ -110,72 +112,72 @@ common:
   type: SourceCode
   url: https://accuknox.com/open-source-repos
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/accuknox/refs/heads/main/llms/accuknox-llms.txt
+  href: https://artifacts.apis.io/accuknox/llms/accuknox-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/accuknox-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/accuknox/refs/heads/main/packages/accuknox-packages.yml
+  href: https://artifacts.apis.io/accuknox/packages/accuknox-packages.yml
   title: ''
   type: Packages
   url: packages/accuknox-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/accuknox/refs/heads/main/cli/accuknox-cli.yml
+  href: https://artifacts.apis.io/accuknox/cli/accuknox-cli.yml
   title: ''
   type: CLI
   url: cli/accuknox-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/accuknox/refs/heads/main/mcp/accuknox-mcp.yml
+  href: https://artifacts.apis.io/accuknox/mcp/accuknox-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/accuknox-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/accuknox/refs/heads/main/authentication/accuknox-authentication.yml
+  href: https://artifacts.apis.io/accuknox/authentication/accuknox-authentication.yml
   title: ''
   type: Authentication
   url: authentication/accuknox-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accuknox/refs/heads/main/conventions/accuknox-conventions.yml
+  href: https://artifacts.apis.io/accuknox/conventions/accuknox-conventions.yml
   title: ''
   type: Conventions
   url: conventions/accuknox-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accuknox/refs/heads/main/errors/accuknox-error-codes.yml
+  href: https://artifacts.apis.io/accuknox/errors/accuknox-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/accuknox-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accuknox/refs/heads/main/lifecycle/accuknox-lifecycle.yml
+  href: https://artifacts.apis.io/accuknox/lifecycle/accuknox-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/accuknox-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/accuknox/refs/heads/main/changelog/accuknox-changelog.yml
+  href: https://artifacts.apis.io/accuknox/changelog/accuknox-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/accuknox-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accuknox/refs/heads/main/conformance/accuknox-conformance.yml
+  href: https://artifacts.apis.io/accuknox/conformance/accuknox-conformance.yml
   title: ''
   type: Conformance
   url: conformance/accuknox-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accuknox/refs/heads/main/asyncapi/accuknox-webhooks.yml
+  href: https://artifacts.apis.io/accuknox/asyncapi/accuknox-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/accuknox-webhooks.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/accuknox/refs/heads/main/plans/accuknox-plans-pricing.yml
+  href: https://artifacts.apis.io/accuknox/plans/accuknox-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/accuknox-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/accuknox/refs/heads/main/rate-limits/accuknox-rate-limits.yml
+  href: https://artifacts.apis.io/accuknox/rate-limits/accuknox-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/accuknox-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/accuknox/refs/heads/main/security/accuknox-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/accuknox/security/accuknox-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/accuknox-vulnerability-disclosure.yml
@@ -185,6 +187,14 @@ common:
   url: https://accuknox.com/security-advisories
 created: '2026-09-06'
 description: AccuKnox is a cloud-native application protection platform (CNAPP) vendor built on a Zero Trust model, covering cloud security posture management (CSPM), workload and Kubernetes runtime security (CWPP), application security posture management (ASPM), AI/ML model security (AI-SPM / ModelKnox) and API security. It originated the open source KubeArmor eBPF/LSM runtime enforcement engine (a CNCF project) and publishes the Discovery Engine and SentryFlow gRPC services, a knoxctl CLI, a Terraform provider, a first-party Model Context Protocol server, and a token-authenticated REST API on per-tenant cspm.*.accuknox.com hosts.
+finops:
+- has_sources: true
+  method: derived
+  name: Accuknox Finops
+  primary_unit: ''
+  service_category: ''
+  slug: accuknox-finops
+  template: true
 image: https://accuknox.com/wp-content/uploads/accuknox-logo-2.png
 layout: provider
 mcp_servers:
@@ -204,9 +214,9 @@ overview: 'AccuKnox is listed with 4 APIs on the [APIs.io](https://apis.io/) net
   AccuKnox''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 24 more developer resources.'
 plans:
 - name: Accuknox Plans Pricing
-  plan_count: 0
+  plan_count: 1
   slug: accuknox-plans-pricing
-random_paper: 2
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Accuknox Rate Limits
@@ -218,23 +228,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.7
+  composite: 53.6
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 35.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    artifact_dirs: 22
+    catalog_earned: 43.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 44.7
+    access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 68.3
-    operational_transparency: 52.6
-  previous_composite: 49.7
+    discoverability: 61.7
+    operational_transparency: 55.3
+  previous_composite: 49.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -244,14 +254,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/accuknox/refs/heads/main/screenshots/accuknox-2026-10-11T092545.png
+screenshot: https://apis.io/screenshots/accuknox/accuknox-2026-10-11T092545.png
 security:
 - kind: authentication
   name: Accuknox Authentication

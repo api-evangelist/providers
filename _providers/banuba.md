@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The Banuba Face AR SDK provides AR face effects, beauty filters, and face tracking for mobile (iOS/Android), web, and desktop applications. The SDK includes real-time face detection, 3D face tracking,
@@ -54,12 +56,12 @@ apis:
 artifact_total: 44
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/finops/banuba-finops.yml
+  href: https://artifacts.apis.io/banuba/finops/banuba-finops.yml
   title: ''
   type: FinOps
   url: finops/banuba-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/security/banuba-domain-security.yml
+  href: https://artifacts.apis.io/banuba/security/banuba-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/banuba-domain-security.yml
@@ -96,17 +98,17 @@ common:
   type: PrivacyPolicy
   url: https://www.banuba.com/privacy-policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/rules/banuba-spectral-rules.yml
+  href: https://artifacts.apis.io/banuba/rules/banuba-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/banuba-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/vocabulary/banuba-vocabulary.yaml
+  href: https://artifacts.apis.io/banuba/vocabulary/banuba-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/banuba-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/json-ld/banuba-context.jsonld
+  href: https://artifacts.apis.io/banuba/json-ld/banuba-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/banuba-context.jsonld
@@ -115,72 +117,72 @@ common:
   type: LlmsText
   url: https://docs.banuba.com/llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/packages/banuba-packages.yml
+  href: https://artifacts.apis.io/banuba/packages/banuba-packages.yml
   title: ''
   type: Packages
   url: packages/banuba-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/packages/banuba-packages.yml
+  href: https://artifacts.apis.io/banuba/packages/banuba-packages.yml
   title: ''
   type: SDKs
   url: packages/banuba-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/cli/banuba-cli.yml
+  href: https://artifacts.apis.io/banuba/cli/banuba-cli.yml
   title: ''
   type: CLI
   url: cli/banuba-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/components/banuba-components.yml
+  href: https://artifacts.apis.io/banuba/components/banuba-components.yml
   title: ''
   type: Components
   url: components/banuba-components.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/changelog/banuba-changelog.yml
+  href: https://artifacts.apis.io/banuba/changelog/banuba-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/banuba-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/lifecycle/banuba-lifecycle.yml
+  href: https://artifacts.apis.io/banuba/lifecycle/banuba-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/banuba-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/authentication/banuba-authentication.yml
+  href: https://artifacts.apis.io/banuba/authentication/banuba-authentication.yml
   title: ''
   type: Authentication
   url: authentication/banuba-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/conventions/banuba-conventions.yml
+  href: https://artifacts.apis.io/banuba/conventions/banuba-conventions.yml
   title: ''
   type: Conventions
   url: conventions/banuba-conventions.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/plans/banuba-plans-pricing.yml
+  href: https://artifacts.apis.io/banuba/plans/banuba-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/banuba-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/rate-limits/banuba-rate-limits.yml
+  href: https://artifacts.apis.io/banuba/rate-limits/banuba-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/banuba-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/sandbox/banuba-sandbox.yml
+  href: https://artifacts.apis.io/banuba/sandbox/banuba-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/banuba-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/banuba/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/llms/banuba-llms.txt
+  href: https://artifacts.apis.io/banuba/llms/banuba-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/banuba-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/llms/banuba-www-llms.txt
+  href: https://artifacts.apis.io/banuba/llms/banuba-www-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/banuba-www-llms.txt
@@ -263,11 +265,11 @@ features:
 - description: Banuba Effect Player for creating custom AR effects without coding.
   name: Custom Effects Builder
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Banuba Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: banuba-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/banuba.png
@@ -303,7 +305,7 @@ plans:
 - name: Banuba Plans Pricing
   plan_count: 6
   slug: banuba-plans-pricing
-random_paper: 1
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Banuba Rate Limits
@@ -333,7 +335,7 @@ rules:
   slug: banuba-spectral-rules
 score:
   band: developing
-  composite: 48.1
+  composite: 48.5
   coverage:
     artifact_dirs: 26
     catalog_earned: 62.8
@@ -341,15 +343,15 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 23.5
     contract_quality: 10.7
     developer_ergonomics: 85.7
     discoverability: 69.6
-    operational_transparency: 18.4
-  previous_composite: 50.2
+    operational_transparency: 21.1
+  previous_composite: 48.5
   provenance:
     skills: first-party
   regulatory:
@@ -358,14 +360,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/screenshots/banuba-2026-06-20T172957.png
+screenshot: https://apis.io/screenshots/banuba/banuba-2026-06-20T172957.png
 security:
 - kind: authentication
   name: Banuba Authentication

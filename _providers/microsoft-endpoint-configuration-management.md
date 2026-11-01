@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -229,9 +231,6 @@ collections:
   name: Microsoft Endpoint Configuration Management Intune Reporting Export API
   slug: postman-microsoft-endpoint-configuration-management-intune-reporting-export-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications API
   slug: open-microsoft-endpoint-configuration-management-applications-api
 - collection_type: open
@@ -305,47 +304,47 @@ collections:
   slug: open-microsoft-endpoint-configuration-management-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/plans/microsoft-endpoint-configuration-management-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/plans/microsoft-endpoint-configuration-management-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-endpoint-configuration-management-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/rate-limits/microsoft-endpoint-configuration-management-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/rate-limits/microsoft-endpoint-configuration-management-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-endpoint-configuration-management-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/finops/microsoft-endpoint-configuration-management-finops.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/finops/microsoft-endpoint-configuration-management-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-endpoint-configuration-management-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/capabilities/microsoft-endpoint-configuration-management-capability-edges.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/capabilities/microsoft-endpoint-configuration-management-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-endpoint-configuration-management-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/agentic-access/microsoft-endpoint-configuration-management-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/agentic-access/microsoft-endpoint-configuration-management-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-endpoint-configuration-management-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/security/microsoft-endpoint-configuration-management-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/security/microsoft-endpoint-configuration-management-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-endpoint-configuration-management-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/security/microsoft-endpoint-configuration-management-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/security/microsoft-endpoint-configuration-management-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-endpoint-configuration-management-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/authentication/microsoft-endpoint-configuration-management-authentication.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/authentication/microsoft-endpoint-configuration-management-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-endpoint-configuration-management-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/scopes/microsoft-endpoint-configuration-management-scopes.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/scopes/microsoft-endpoint-configuration-management-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-endpoint-configuration-management-scopes.yml
@@ -354,92 +353,92 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-endpoint-configuration-management/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-configmgr-create-application-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-configmgr-create-application-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-configmgr-create-application-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-configmgr-create-collection-review-deployments-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-configmgr-create-collection-review-deployments-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-configmgr-create-collection-review-deployments-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-configmgr-device-lookup-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-configmgr-device-lookup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-configmgr-device-lookup-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-configmgr-update-compliance-review-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-configmgr-update-compliance-review-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-configmgr-update-compliance-review-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-create-assign-compliance-policy-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-create-assign-compliance-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-create-assign-compliance-policy-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-create-assign-device-configuration-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-create-assign-device-configuration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-create-assign-device-configuration-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-decommission-device-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-decommission-device-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-decommission-device-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-deploy-mobile-app-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-deploy-mobile-app-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-deploy-mobile-app-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-device-compliance-triage-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-device-compliance-triage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-device-compliance-triage-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-lost-device-lockdown-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-lost-device-lockdown-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-lost-device-lockdown-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-noncompliance-report-drilldown-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-noncompliance-report-drilldown-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-noncompliance-report-drilldown-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-report-export-job-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-report-export-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-report-export-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-retire-unpublished-app-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-retire-unpublished-app-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-retire-unpublished-app-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-tenant-compliance-posture-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-tenant-compliance-posture-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-tenant-compliance-posture-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-update-reassign-compliance-policy-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-update-reassign-compliance-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-update-reassign-compliance-policy-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-user-device-inventory-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-user-device-inventory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-user-device-inventory-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-warehouse-app-install-analytics-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-warehouse-app-install-analytics-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-warehouse-app-install-analytics-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/arazzo/microsoft-endpoint-configuration-management-warehouse-policy-compliance-analytics-workflow.yml
+  href: https://artifacts.apis.io/microsoft-endpoint-configuration-management/arazzo/microsoft-endpoint-configuration-management-warehouse-policy-compliance-analytics-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-endpoint-configuration-management-warehouse-policy-compliance-analytics-workflow.yml
@@ -515,10 +514,10 @@ created: '2024'
 description: Microsoft Endpoint Configuration Management (formerly System Center Configuration Manager) provides comprehensive management of devices and applications across an enterprise. It enables IT administrators to manage PCs, servers, and mobile devices, deploy software, manage compliance, and protect data.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Microsoft Endpoint Configuration Management Finops
-  primary_unit: ''
-  service_category: Endpoint Management
+  primary_unit: user
+  service_category: ''
   slug: microsoft-endpoint-configuration-management-finops
   template: false
 image: https://docs.microsoft.com/en-us/mem/configmgr/core/media/configmgr-logo.png
@@ -648,9 +647,12 @@ overview: 'Microsoft Endpoint Configuration Management publishes 25 API contract
   Microsoft Endpoint Configuration Management''s developer surface includes authentication, developer portal, developer console, documentation, getting-started guide, engineering blog, support, and 38 more developer resources.'
 plans:
 - name: Microsoft Endpoint Configuration Management Plans Pricing
-  plan_count: 3
+  plan_count: 12
   slug: microsoft-endpoint-configuration-management-plans-pricing
-random_paper: 13
+- name: Microsoft Endpoint Configuration Management Price Estimates
+  plan_count: 0
+  slug: microsoft-endpoint-configuration-management-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Microsoft Endpoint Configuration Management Rate Limits
@@ -674,23 +676,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.8
+  composite: 65.6
   coverage:
     artifact_dirs: 21
-    catalog_earned: 58.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 56.8
+    catalog_earned: 70.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 44.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 9.8
-    contract_quality: 63.5
-    developer_ergonomics: 73.8
+    contract_quality: 57.6
+    developer_ergonomics: 76.2
     discoverability: 69.6
-    operational_transparency: 42.1
-  previous_composite: 59.3
+    operational_transparency: 55.3
+  previous_composite: 64.0
   provenance:
     agentic_access: derived
     contracts:
@@ -704,13 +706,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/screenshots/microsoft-endpoint-configuration-management-2026-06-20T185457.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-endpoint-configuration-management/microsoft-endpoint-configuration-management-2026-06-20T185457.png
 security:
 - kind: authentication
   name: Microsoft Endpoint Configuration Management Authentication

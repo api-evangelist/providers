@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -90,11 +92,8 @@ apis:
   description: Operations for legal hold task management
   name: RelativityOne Tasks API
   slug: relativityone-tasks-api
-artifact_total: 52
+artifact_total: 51
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: RelativityOne Legal Hold Communications API
   slug: open-relativityone-communications-api
@@ -118,47 +117,47 @@ collections:
   slug: open-relativityone-tasks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/plans/relativityone-plans-pricing.yml
+  href: https://artifacts.apis.io/relativityone/plans/relativityone-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/relativityone-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/rate-limits/relativityone-rate-limits.yml
+  href: https://artifacts.apis.io/relativityone/rate-limits/relativityone-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/relativityone-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/finops/relativityone-finops.yml
+  href: https://artifacts.apis.io/relativityone/finops/relativityone-finops.yml
   title: ''
   type: FinOps
   url: finops/relativityone-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/capabilities/relativityone-capability-edges.yml
+  href: https://artifacts.apis.io/relativityone/capabilities/relativityone-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/relativityone-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/agentic-access/relativityone-agentic-access.yml
+  href: https://artifacts.apis.io/relativityone/agentic-access/relativityone-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/relativityone-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/security/relativityone-trust-center.yml
+  href: https://artifacts.apis.io/relativityone/security/relativityone-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/relativityone-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/security/relativityone-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/relativityone/security/relativityone-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/relativityone-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/security/relativityone-domain-security.yml
+  href: https://artifacts.apis.io/relativityone/security/relativityone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/relativityone-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/authentication/relativityone-authentication.yml
+  href: https://artifacts.apis.io/relativityone/authentication/relativityone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/relativityone-authentication.yml
@@ -307,7 +306,7 @@ plans:
 - name: Relativityone Plans Pricing
   plan_count: 1
   slug: relativityone-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Relativityone Rate Limits
@@ -337,8 +336,8 @@ rules:
     warn: 5
   slug: relativityone-rules
 score:
-  band: thin
-  composite: 37.5
+  band: developing
+  composite: 39.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 67.0
@@ -346,15 +345,15 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 27.3
     contract_quality: 58.2
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 39.0
+    operational_transparency: 36.8
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     contracts:
@@ -368,13 +367,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/screenshots/relativityone-2026-06-20T192820.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/relativityone/relativityone-2026-06-20T192820.png
 security:
 - kind: authentication
   name: Relativityone Authentication

@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -65,17 +67,17 @@ common:
   type: CompanyProfile
   url: https://www.ycombinator.com/companies/lato
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lato/refs/heads/main/well-known/lato-security.txt
+  href: https://artifacts.apis.io/lato/well-known/lato-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/lato-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lato/refs/heads/main/well-known/lato-well-known.yml
+  href: https://artifacts.apis.io/lato/well-known/lato-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lato-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lato/refs/heads/main/security/lato-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/lato/security/lato-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lato-vulnerability-disclosure.yml
@@ -84,12 +86,12 @@ common:
   type: Security
   url: https://www.latolabs.io/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lato/refs/heads/main/security/lato-domain-security.yml
+  href: https://artifacts.apis.io/lato/security/lato-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lato-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lato/refs/heads/main/llms/lato-llms.txt
+  href: https://artifacts.apis.io/lato/llms/lato-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lato-llms.txt
@@ -110,12 +112,12 @@ overview: 'Lato is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Lato''s developer surface includes support and 12 more developer resources.'
-random_paper: 14
+random_paper: 0
 score:
   band: emerging
-  composite: 12.8
+  composite: 11.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -127,9 +129,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 58.3
+    discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 12.8
+  previous_composite: 11.8
   provenance:
     mcp: first-party
   regulatory:
@@ -138,14 +140,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lato/refs/heads/main/screenshots/lato-2026-10-11T191528.png
+screenshot: https://apis.io/screenshots/lato/lato-2026-10-11T191528.png
 security:
 - kind: domain-security
   name: Lato Domain Security

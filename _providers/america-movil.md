@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -107,7 +109,7 @@ arazzos:
 - description: 'Before trusting a phone number as an authentication factor, ask Claro Brasil two questions: has the SIM pairing changed recently, and where is the device on the network? Step one is the decision gate '
   name: Account-takeover check for a Brazilian mobile line
   slug: america-movil-account-takeover-check
-artifact_total: 26
+artifact_total: 29
 asyncapis:
 - description: ''
   name: America Movil Webhooks
@@ -121,47 +123,47 @@ collections:
   slug: open-america-movil-claro-sim-swap
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/capabilities/america-movil-capability-edges.yml
+  href: https://artifacts.apis.io/america-movil/capabilities/america-movil-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/america-movil-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/overlays/america-movil-claro-sim-swap-overlay.yaml
+  href: https://artifacts.apis.io/america-movil/overlays/america-movil-claro-sim-swap-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/america-movil-claro-sim-swap-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/skills/america-movil-sim-swap-fraud-check.md
+  href: https://artifacts.apis.io/america-movil/skills/america-movil-sim-swap-fraud-check.md
   title: ''
   type: AgentSkill
   url: skills/america-movil-sim-swap-fraud-check.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/overlays/america-movil-claro-device-location-overlay.yaml
+  href: https://artifacts.apis.io/america-movil/overlays/america-movil-claro-device-location-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/america-movil-claro-device-location-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/skills/america-movil-device-location-lookup.md
+  href: https://artifacts.apis.io/america-movil/skills/america-movil-device-location-lookup.md
   title: ''
   type: AgentSkill
   url: skills/america-movil-device-location-lookup.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/agentic-access/america-movil-agentic-access.yml
+  href: https://artifacts.apis.io/america-movil/agentic-access/america-movil-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/america-movil-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/security/america-movil-domain-security.yml
+  href: https://artifacts.apis.io/america-movil/security/america-movil-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/america-movil-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/scopes/america-movil-scopes.yml
+  href: https://artifacts.apis.io/america-movil/scopes/america-movil-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/america-movil-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/authentication/america-movil-authentication.yml
+  href: https://artifacts.apis.io/america-movil/authentication/america-movil-authentication.yml
   title: ''
   type: Authentication
   url: authentication/america-movil-authentication.yml
@@ -222,92 +224,92 @@ common:
   type: Blog
   url: https://www.claro.com.br/blog
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/packages/america-movil-packages.yml
+  href: https://artifacts.apis.io/america-movil/packages/america-movil-packages.yml
   title: ''
   type: Packages
   url: packages/america-movil-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/mcp/america-movil-mcp.yml
+  href: https://artifacts.apis.io/america-movil/mcp/america-movil-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/america-movil-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/llms/america-movil-llms.txt
+  href: https://artifacts.apis.io/america-movil/llms/america-movil-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/america-movil-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/llms/america-movil-claro-llms.txt
+  href: https://artifacts.apis.io/america-movil/llms/america-movil-claro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/america-movil-claro-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/conformance/america-movil-conformance.yml
+  href: https://artifacts.apis.io/america-movil/conformance/america-movil-conformance.yml
   title: ''
   type: Conformance
   url: conformance/america-movil-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/errors/america-movil-error-codes.yml
+  href: https://artifacts.apis.io/america-movil/errors/america-movil-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/america-movil-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/errors/america-movil-problem-types.yml
+  href: https://artifacts.apis.io/america-movil/errors/america-movil-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/america-movil-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/lifecycle/america-movil-lifecycle.yml
+  href: https://artifacts.apis.io/america-movil/lifecycle/america-movil-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/america-movil-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/conventions/america-movil-conventions.yml
+  href: https://artifacts.apis.io/america-movil/conventions/america-movil-conventions.yml
   title: ''
   type: Conventions
   url: conventions/america-movil-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/changelog/america-movil-changelog.yml
+  href: https://artifacts.apis.io/america-movil/changelog/america-movil-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/america-movil-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/sandbox/america-movil-sandbox.yml
+  href: https://artifacts.apis.io/america-movil/sandbox/america-movil-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/america-movil-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/plans/america-movil-plans.yml
+  href: https://artifacts.apis.io/america-movil/plans/america-movil-plans.yml
   title: ''
   type: Plans
   url: plans/america-movil-plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/rate-limits/america-movil-rate-limits.yml
+  href: https://artifacts.apis.io/america-movil/rate-limits/america-movil-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/america-movil-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/data-model/america-movil-data-model.yml
+  href: https://artifacts.apis.io/america-movil/data-model/america-movil-data-model.yml
   title: ''
   type: DataModel
   url: data-model/america-movil-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/asyncapi/america-movil-webhooks.yml
+  href: https://artifacts.apis.io/america-movil/asyncapi/america-movil-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/america-movil-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/america-movil/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/arazzo/america-movil-account-takeover-check.yml
+  href: https://artifacts.apis.io/america-movil/arazzo/america-movil-account-takeover-check.yml
   title: ''
   type: Arazzo
   url: arazzo/america-movil-account-takeover-check.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/examples/america-movil-examples.yml
+  href: https://artifacts.apis.io/america-movil/examples/america-movil-examples.yml
   title: ''
   type: Examples
   url: examples/america-movil-examples.yml
@@ -331,6 +333,14 @@ created: '2026-07-25'
 description: 'América Móvil, S.A.B. de C.V. is the largest telecommunications group in Latin America, headquartered in Mexico City and controlled by the Slim family. It serves roughly 331 million wireless subscribers and 79 million fixed revenue-generating units across 23 countries (2025 Form 20-F), operating as Telcel and Telmex in its home market of Mexico, as Claro across most of Latin America and the Caribbean, and as the majority owner of A1 Telekom Austria Group in Central and Eastern Europe. In the value chain it is a mobile network operator and fixed-line carrier — it owns the spectrum, the radio access network, the SIM estate and the subscriber identity records that network APIs monetize, and it does not resell anyone else''s connectivity. Its API posture is the classic carrier posture: there is no corporate developer portal at americamovil.com (the domain is an investor-relations site and returns 403 to non-browser clients; developer.*, developers.*, docs.*, api.* and opengateway.*
   subdomains do not resolve), and the only real API surface in the group sits inside one operating company — Claro Brasil''s "Claro Insight" marketplace at claroinsight.com.br, a registration-gated catalog of 14 network and identity APIs including CAMARA-aligned SIM Swap, Number Verification and Device Location. In Mexico, Telcel launched GSMA Open Gateway on 28 May 2025 alongside Altán Redes, AT&T Mexico and Telefónica Mexico with three APIs — SIM Swap, Number Verification and Device Location — but publishes no portal, no specification and no sandbox, only a business sales contact form. América Móvil is a GSMA Open Gateway participant and was named in Ericsson''s September 2024 launch of the Aduna network-API joint venture, but it is absent from the final twelve-CSP equity structure completed in July 2025; in Brazil its CAMARA APIs reach developers through the CPaaS aggregator Infobip. Outside the Brazilian marketplace, América Móvil is partner-gated and sales-led, and is reachable by most
   developers only through an aggregator rather than directly.'
+finops:
+- has_sources: true
+  method: derived
+  name: America Movil Finops
+  primary_unit: ''
+  service_category: ''
+  slug: america-movil-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-07-25'
@@ -348,7 +358,7 @@ plans:
 - name: America Movil Plans
   plan_count: 2
   slug: america-movil-plans
-random_paper: 20
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: America Movil Rate Limits
@@ -359,22 +369,22 @@ scopes:
   slug: america-movil-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: strong
-  composite: 55.7
+  band: developing
+  composite: 53.0
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 30
     catalog_earned: 55.0
     catalog_earned_first_party: 20.0
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 56.5
     developer_ergonomics: 54.2
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -383,7 +393,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 55.8
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -400,13 +410,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/screenshots/america-movil-2026-08-07T161348.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/america-movil/america-movil-2026-08-07T161348.png
 security:
 - kind: authentication
   name: America Movil Authentication
@@ -416,6 +427,12 @@ security:
   name: America Movil Domain Security
   slug: america-movil-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Look up the network location of a device on the Claro network
+  slug: america-movil-device-location-lookup
+- name: Check a Brazilian mobile line for a recent SIM swap
+  slug: america-movil-sim-swap-fraud-check
 slug: america-movil
 tags:
 - Telecommunications

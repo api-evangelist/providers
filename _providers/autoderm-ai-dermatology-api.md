@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 17
   slug: autoderm-ai-dermatology-api-agentic-access
   summary_line: 17 operations · 5 acting
-api_count: 4
+api_count: 1
 apis:
 - baseURL: https://api.autoderm.ai
   baseurl_source: declared
@@ -66,11 +68,8 @@ apis:
   description: The utils API from Autoderm – AI Dermatology API — 1 operation(s) for utils.
   name: Autoderm – AI Dermatology API Utils API
   slug: autoderm-ai-dermatology-api-utils-api
-artifact_total: 36
+artifact_total: 40
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Autoderm Device API
   slug: open-autoderm-ai-dermatology-api-device-api
@@ -84,12 +83,17 @@ collections:
   name: Autoderm Utils API
   slug: open-autoderm-ai-dermatology-api-utils-api
 common:
+- group: other
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/capabilities/autoderm-ai-dermatology-api-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/autoderm-ai-dermatology-api-capability-edges.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://autoderm.ai/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/mcp/autoderm-ai-dermatology-api-mcp.yml
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/mcp/autoderm-ai-dermatology-api-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/autoderm-ai-dermatology-api-mcp.yml
@@ -158,87 +162,87 @@ common:
   type: Versioning
   url: https://docs.autoderm.ai/en/support/api-versioning
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/authentication/autoderm-ai-dermatology-api-authentication.yml
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/authentication/autoderm-ai-dermatology-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/autoderm-ai-dermatology-api-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/conventions/autoderm-ai-dermatology-api-conventions.yml
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/conventions/autoderm-ai-dermatology-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/autoderm-ai-dermatology-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/errors/autoderm-ai-dermatology-api-problem-types.yml
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/errors/autoderm-ai-dermatology-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/autoderm-ai-dermatology-api-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/lifecycle/autoderm-ai-dermatology-api-lifecycle.yml
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/lifecycle/autoderm-ai-dermatology-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/autoderm-ai-dermatology-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/conformance/autoderm-ai-dermatology-api-conformance.yml
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/conformance/autoderm-ai-dermatology-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/autoderm-ai-dermatology-api-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/data-model/autoderm-ai-dermatology-api-data-model.yml
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/data-model/autoderm-ai-dermatology-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/autoderm-ai-dermatology-api-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/rate-limits/autoderm-ai-dermatology-api-rate-limits.yml
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/rate-limits/autoderm-ai-dermatology-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/autoderm-ai-dermatology-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/plans/autoderm-ai-dermatology-api-plans.yml
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/plans/autoderm-ai-dermatology-api-plans.yml
   title: ''
   type: Plans
   url: plans/autoderm-ai-dermatology-api-plans.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/packages/autoderm-ai-dermatology-api-packages.yml
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/packages/autoderm-ai-dermatology-api-packages.yml
   title: ''
   type: Packages
   url: packages/autoderm-ai-dermatology-api-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/packages/autoderm-ai-dermatology-api-packages.yml
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/packages/autoderm-ai-dermatology-api-packages.yml
   title: ''
   type: SDKs
   url: packages/autoderm-ai-dermatology-api-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/json-schema/
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/json-schema/
   title: ''
   type: JSONSchema
   url: json-schema/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/overlays/autoderm-ai-dermatology-api-openapi-overlay.yaml
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/overlays/autoderm-ai-dermatology-api-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autoderm-ai-dermatology-api-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/llms/autoderm-ai-dermatology-api-llms.txt
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/llms/autoderm-ai-dermatology-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/autoderm-ai-dermatology-api-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/agentic-access/autoderm-ai-dermatology-api-agentic-access.yml
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/agentic-access/autoderm-ai-dermatology-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/autoderm-ai-dermatology-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/security/autoderm-ai-dermatology-api-domain-security.yml
+  href: https://artifacts.apis.io/autoderm-ai-dermatology-api/security/autoderm-ai-dermatology-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autoderm-ai-dermatology-api-domain-security.yml
@@ -258,6 +262,14 @@ examples:
 - key_count: 2
   name: Autoderm Ai Dermatology Api Get Version 200
   slug: autoderm-ai-dermatology-api-get-version-200
+finops:
+- has_sources: true
+  method: derived
+  name: Autoderm Ai Dermatology Api Finops
+  primary_unit: detections
+  service_category: ''
+  slug: autoderm-ai-dermatology-api-finops
+  template: false
 image: https://autoderm.ai/wp-content/uploads/2026/05/autoderm-logo.svg
 json_schemas:
 - name: AgeModelResponse
@@ -322,35 +334,38 @@ network: true
 overview: 'Autoderm – AI Dermatology API publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Device API, Inference API, System API, and 1 more. Tagged areas include dermatology-api, ai-dermatology, Medical Imaging, Telehealth, and skin-analysis.
 
 
-  Autoderm – AI Dermatology API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Autoderm – AI Dermatology API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 plans:
 - name: Autoderm Ai Dermatology Api Plans
   plan_count: 3
   slug: autoderm-ai-dermatology-api-plans
-random_paper: 1
+- name: Autoderm Ai Dermatology Api Price Estimates
+  plan_count: 0
+  slug: autoderm-ai-dermatology-api-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Autoderm Ai Dermatology Api Rate Limits
   slug: autoderm-ai-dermatology-api-rate-limits
 score:
   band: strong
-  composite: 61.1
+  composite: 62.4
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 27
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 1.0
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 50.6
     developer_ergonomics: 66.1
-    discoverability: 78.6
-    operational_transparency: 57.9
-  previous_composite: 60.5
+    discoverability: 66.1
+    operational_transparency: 60.5
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -367,13 +382,14 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/screenshots/autoderm-ai-dermatology-api-2026-08-17T080622.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/autoderm-ai-dermatology-api/autoderm-ai-dermatology-api-2026-08-17T080622.png
 security:
 - kind: authentication
   name: Autoderm Ai Dermatology Api Authentication
@@ -383,6 +399,14 @@ security:
   name: Autoderm Ai Dermatology Api Domain Security
   slug: autoderm-ai-dermatology-api-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Detect a skin condition from an image
+  slug: autoderm-ai-dermatology-api-detect-skin-condition
+- name: Screen an image for quality and content safety before inference
+  slug: autoderm-ai-dermatology-api-screen-image-quality-and-safety
+- name: Verify the Autoderm device identity and API version
+  slug: autoderm-ai-dermatology-api-verify-device-and-version
 slug: autoderm-ai-dermatology-api
 tags:
 - dermatology-api

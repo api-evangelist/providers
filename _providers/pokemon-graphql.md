@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Hasura-powered GraphQL interface to the complete PokéAPI dataset, providing flexible queries over Pokémon species, moves, abilities, items, evolutions, encounters, and game version data via a single e
@@ -65,7 +67,7 @@ common:
   type: License
   url: https://github.com/PokeAPI/pokeapi/blob/master/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pokemon-graphql/refs/heads/main/security/pokemon-graphql-domain-security.yml
+  href: https://artifacts.apis.io/pokemon-graphql/security/pokemon-graphql-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pokemon-graphql-domain-security.yml
@@ -90,17 +92,17 @@ common:
   type: About
   url: https://pokeapi.co/about
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pokemon-graphql/refs/heads/main/plans/pokemon-graphql-plans.md
+  href: https://artifacts.apis.io/pokemon-graphql/plans/pokemon-graphql-plans.md
   title: ''
   type: Plans
   url: plans/pokemon-graphql-plans.md
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pokemon-graphql/refs/heads/main/rate-limits/pokemon-graphql-rate-limits.md
+  href: https://artifacts.apis.io/pokemon-graphql/rate-limits/pokemon-graphql-rate-limits.md
   title: ''
   type: RateLimits
   url: rate-limits/pokemon-graphql-rate-limits.md
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pokemon-graphql/refs/heads/main/finops/pokemon-graphql-finops.md
+  href: https://artifacts.apis.io/pokemon-graphql/finops/pokemon-graphql-finops.md
   title: ''
   type: FinOps
   url: finops/pokemon-graphql-finops.md
@@ -120,10 +122,10 @@ overview: 'PokéAPI GraphQL is listed with 1 API on the [APIs.io](https://apis.i
 
 
   PokéAPI GraphQL''s developer surface includes documentation and 14 more developer resources.'
-random_paper: 17
+random_paper: 21
 score:
-  band: thin
-  composite: 27.0
+  band: emerging
+  composite: 19.4
   coverage:
     artifact_dirs: 7
     catalog_earned: 32.0
@@ -138,25 +140,22 @@ score:
     contract_quality: 35.1
     developer_ergonomics: 9.5
     discoverability: 57.1
-    operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 27.0
+    operational_transparency: 31.6
+  previous_composite: 19.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pokemon-graphql/refs/heads/main/screenshots/pokemon-graphql-2026-06-20T191846.png
+screenshot: https://apis.io/screenshots/pokemon-graphql/pokemon-graphql-2026-06-20T191846.png
 security:
 - kind: domain-security
   name: Pokemon Graphql Domain Security

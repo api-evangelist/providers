@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-10-17'
+  score: 25.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 95
   slug: sentinel-hub-agentic-access
   summary_line: 95 operations · 34 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: OGC-standard web services (WMS, WCS, WFS, WMTS) for integrating Sentinel Hub satellite imagery into GIS applications such as QGIS, ArcGIS, OpenLayers, and Google Earth. Authentication uses a configura
   name: Sentinel Hub OGC Services
@@ -172,11 +174,8 @@ apis:
   description: The zarr_collection API from Sentinel Hub — 3 operation(s) for zarr_collection.
   name: Sentinel Hub Zarr Collection API
   slug: sentinel-hub-zarr-collection-api
-artifact_total: 343
+artifact_total: 342
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: API Reference async_process API
   slug: open-sentinel-hub-async-process-api
@@ -254,22 +253,22 @@ collections:
   slug: open-sentinel-hub-zarr-collection-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/agentic-access/sentinel-hub-agentic-access.yml
+  href: https://artifacts.apis.io/sentinel-hub/agentic-access/sentinel-hub-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sentinel-hub-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/security/sentinel-hub-domain-security.yml
+  href: https://artifacts.apis.io/sentinel-hub/security/sentinel-hub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sentinel-hub-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/authentication/sentinel-hub-authentication.yml
+  href: https://artifacts.apis.io/sentinel-hub/authentication/sentinel-hub-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sentinel-hub-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/scopes/sentinel-hub-scopes.yml
+  href: https://artifacts.apis.io/sentinel-hub/scopes/sentinel-hub-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sentinel-hub-scopes.yml
@@ -310,17 +309,17 @@ common:
   type: Dashboard
   url: https://apps.sentinel-hub.com/dashboard/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/plans/sentinel-hub-plans-pricing.yml
+  href: https://artifacts.apis.io/sentinel-hub/plans/sentinel-hub-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sentinel-hub-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/rate-limits/sentinel-hub-rate-limits.yml
+  href: https://artifacts.apis.io/sentinel-hub/rate-limits/sentinel-hub-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sentinel-hub-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/finops/sentinel-hub-finops.yml
+  href: https://artifacts.apis.io/sentinel-hub/finops/sentinel-hub-finops.yml
   title: ''
   type: FinOps
   url: finops/sentinel-hub-finops.yml
@@ -1205,7 +1204,7 @@ plans:
 - name: Sentinel Hub Plans Pricing
   plan_count: 2
   slug: sentinel-hub-plans-pricing
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Sentinel Hub Rate Limits
@@ -1229,7 +1228,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 34.2
+  composite: 32.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 53.3
@@ -1237,15 +1236,15 @@ score:
     catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 9.8
-    contract_quality: 59.6
+    contract_quality: 55.1
     developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 13.2
-  previous_composite: 41.1
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1259,13 +1258,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/sentinel-hub/refs/heads/main/screenshots/sentinel-hub-2026-06-20T193707.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sentinel-hub/sentinel-hub-2026-06-20T193707.png
 security:
 - kind: authentication
   name: Sentinel Hub Authentication

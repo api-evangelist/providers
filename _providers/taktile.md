@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,27 +83,27 @@ common:
   type: Security
   url: https://www.taktile.com/security-governance
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taktile/refs/heads/main/conformance/taktile-conformance.yml
+  href: https://artifacts.apis.io/taktile/conformance/taktile-conformance.yml
   title: ''
   type: Conformance
   url: conformance/taktile-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taktile/refs/heads/main/security/taktile-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/taktile/security/taktile-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/taktile-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taktile/refs/heads/main/security/taktile-domain-security.yml
+  href: https://artifacts.apis.io/taktile/security/taktile-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/taktile-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taktile/refs/heads/main/lifecycle/taktile-lifecycle.yml
+  href: https://artifacts.apis.io/taktile/lifecycle/taktile-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/taktile-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taktile/refs/heads/main/llms/taktile-llms.txt
+  href: https://artifacts.apis.io/taktile/llms/taktile-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/taktile-llms.txt
@@ -117,10 +119,10 @@ overview: 'taktile is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   taktile''s developer surface includes documentation, engineering blog, changelog, and 13 more developer resources.'
-random_paper: 2
+random_paper: 6
 score:
   band: emerging
-  composite: 15.3
+  composite: 21.8
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -133,10 +135,10 @@ score:
     access_clarity: 18.4
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 55.4
-    operational_transparency: 21.1
-  previous_composite: 15.3
+    developer_ergonomics: 21.4
+    discoverability: 48.2
+    operational_transparency: 47.4
+  previous_composite: 21.8
   provenance:
     conformance: first-party
   regulatory:
@@ -149,14 +151,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/taktile/refs/heads/main/screenshots/taktile-2026-09-02T162439.png
+screenshot: https://apis.io/screenshots/taktile/taktile-2026-09-02T162439.png
 security:
 - kind: domain-security
   name: Taktile Domain Security

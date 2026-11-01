@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-17'
+  score: 25.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: SLayer is Motley's open-core, agent-first semantic layer and query engine. Agents and applications describe measures, dimensions, and filters and SLayer compiles and runs the correct SQL across many d
@@ -122,72 +124,72 @@ common:
   type: SourceCode
   url: https://github.com/MotleyAI/slayer
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/packages/motley-packages.yml
+  href: https://artifacts.apis.io/motley/packages/motley-packages.yml
   title: ''
   type: Packages
   url: packages/motley-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/packages/motley-packages.yml
+  href: https://artifacts.apis.io/motley/packages/motley-packages.yml
   title: ''
   type: SDKs
   url: packages/motley-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/mcp/motley-mcp.yml
+  href: https://artifacts.apis.io/motley/mcp/motley-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/motley-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/motley/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/cli/motley-cli.yml
+  href: https://artifacts.apis.io/motley/cli/motley-cli.yml
   title: ''
   type: CLI
   url: cli/motley-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/changelog/motley-changelog.yml
+  href: https://artifacts.apis.io/motley/changelog/motley-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/motley-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/authentication/motley-authentication.yml
+  href: https://artifacts.apis.io/motley/authentication/motley-authentication.yml
   title: ''
   type: Authentication
   url: authentication/motley-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/scopes/motley-scopes.yml
+  href: https://artifacts.apis.io/motley/scopes/motley-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/motley-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/well-known/motley-well-known.yml
+  href: https://artifacts.apis.io/motley/well-known/motley-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/motley-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/conventions/motley-conventions.yml
+  href: https://artifacts.apis.io/motley/conventions/motley-conventions.yml
   title: ''
   type: Conventions
   url: conventions/motley-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/conformance/motley-conformance.yml
+  href: https://artifacts.apis.io/motley/conformance/motley-conformance.yml
   title: ''
   type: Conformance
   url: conformance/motley-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/sandbox/motley-sandbox.yml
+  href: https://artifacts.apis.io/motley/sandbox/motley-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/motley-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/llms/motley-llms.txt
+  href: https://artifacts.apis.io/motley/llms/motley-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/motley-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/security/motley-domain-security.yml
+  href: https://artifacts.apis.io/motley/security/motley-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/motley-domain-security.yml
@@ -207,7 +209,7 @@ overview: 'Motley is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Motley''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, signup flow, support, and 27 more developer resources.'
-random_paper: 6
+random_paper: 18
 scopes:
 - name: Motley Scopes
   scope_count: 7
@@ -215,22 +217,22 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.4
+  composite: 38.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 85.7
-    discoverability: 75.0
-    operational_transparency: 18.4
+    discoverability: 65.0
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -239,10 +241,7 @@ score:
     regions:
     - dach
     - europe
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 38.3
+  previous_composite: 38.7
   provenance:
     conformance: derived
     mcp: first-party
@@ -253,14 +252,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/screenshots/motley-2026-08-07T184333.png
+screenshot: https://apis.io/screenshots/motley/motley-2026-08-07T184333.png
 security:
 - kind: authentication
   name: Motley Authentication

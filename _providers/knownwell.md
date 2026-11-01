@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-17'
+  score: 28.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 25
   slug: knownwell-agentic-access
   summary_line: 25 operations · 2 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.knownwell.com/ci/v1
   baseurl_source: declared
@@ -96,11 +98,8 @@ apis:
   description: The topics API from Knownwell — 1 operation(s) for topics.
   name: Knownwell Topics API
   slug: knownwell-topics-api
-artifact_total: 27
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Knownwell api-keys API
   slug: open-knownwell-api-keys-api
@@ -134,17 +133,17 @@ common:
   type: BlogRSS
   url: https://knownwell.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/overlays/knownwell-ci-overlay.yaml
+  href: https://artifacts.apis.io/knownwell/overlays/knownwell-ci-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/knownwell-ci-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/agentic-access/knownwell-agentic-access.yml
+  href: https://artifacts.apis.io/knownwell/agentic-access/knownwell-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/knownwell-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/security/knownwell-domain-security.yml
+  href: https://artifacts.apis.io/knownwell/security/knownwell-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/knownwell-domain-security.yml
@@ -205,7 +204,7 @@ common:
   type: StatusPage
   url: https://status.knownwell.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/security/knownwell-trust-center.yml
+  href: https://artifacts.apis.io/knownwell/security/knownwell-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/knownwell-trust-center.yml
@@ -218,78 +217,86 @@ common:
   type: Security
   url: https://knownwell.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/security/knownwell-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/knownwell/security/knownwell-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/knownwell-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/llms/knownwell-llms.txt
+  href: https://artifacts.apis.io/knownwell/llms/knownwell-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/knownwell-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/authentication/knownwell-authentication.yml
+  href: https://artifacts.apis.io/knownwell/authentication/knownwell-authentication.yml
   title: ''
   type: Authentication
   url: authentication/knownwell-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/conventions/knownwell-conventions.yml
+  href: https://artifacts.apis.io/knownwell/conventions/knownwell-conventions.yml
   title: ''
   type: Conventions
   url: conventions/knownwell-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/rate-limits/knownwell-rate-limits.yml
+  href: https://artifacts.apis.io/knownwell/rate-limits/knownwell-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/knownwell-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/errors/knownwell-problem-types.yml
+  href: https://artifacts.apis.io/knownwell/errors/knownwell-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/knownwell-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/lifecycle/knownwell-lifecycle.yml
+  href: https://artifacts.apis.io/knownwell/lifecycle/knownwell-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/knownwell-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/conformance/knownwell-conformance.yml
+  href: https://artifacts.apis.io/knownwell/conformance/knownwell-conformance.yml
   title: ''
   type: Conformance
   url: conformance/knownwell-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/data-model/knownwell-data-model.yml
+  href: https://artifacts.apis.io/knownwell/data-model/knownwell-data-model.yml
   title: ''
   type: DataModel
   url: data-model/knownwell-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/examples/knownwell-code-examples.yml
+  href: https://artifacts.apis.io/knownwell/examples/knownwell-code-examples.yml
   title: ''
   type: Examples
   url: examples/knownwell-code-examples.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/mcp/knownwell-mcp.yml
+  href: https://artifacts.apis.io/knownwell/mcp/knownwell-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/knownwell-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/knownwell/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/plans/knownwell-plans-pricing.yml
+  href: https://artifacts.apis.io/knownwell/plans/knownwell-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/knownwell-plans-pricing.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/sandbox/knownwell-sandbox.yml
+  href: https://artifacts.apis.io/knownwell/sandbox/knownwell-sandbox.yml
   title: ''
   type: Console
   url: sandbox/knownwell-sandbox.yml
 created: '2026-07-17'
 description: Knownwell is an AI-powered commercial intelligence platform for B2B professional services firms, built around client retention and expansion rather than new-logo acquisition. The platform ingests communications, CRM records, and enterprise data through connectors to Microsoft 365, Google Workspace, Salesforce, HubSpot, Slack, Teams, and conversation intelligence tools, then synthesizes an objective Knownwell score for every client relationship. Teams use it to detect churn risk before a renewal conversation, surface growth opportunities across a portfolio, and track relationship health over time without manual data entry. Knownwell publishes a read-only public REST API at api.knownwell.com/ci/v1 that exposes client scores, score history, portfolios, streams, topics, priorities, notes, key people, and the weekly Red/Amber/Green alignment reads a client team files by hand, authenticated with an X-API-Key header. Platform pricing is published as a live per-client volume calculator
   rather than named tiers, with a 30-day trial and no per-seat charge. Knownwell was acquired by 2X to form a human-agentic GTM services company.
+finops:
+- has_sources: true
+  method: derived
+  name: Knownwell Finops
+  primary_unit: ''
+  service_category: ''
+  slug: knownwell-finops
+  template: true
 image: https://knownwell.com/wp-content/uploads/2023/08/favicon21.svg
 layout: provider
 modified: '2026-10-06'
@@ -304,30 +311,30 @@ plans:
 - name: Knownwell Plans Pricing
   plan_count: 0
   slug: knownwell-plans-pricing
-random_paper: 3
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Knownwell Rate Limits
   slug: knownwell-rate-limits
 score:
   band: strong
-  composite: 55.4
+  composite: 56.4
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 44.7
     developer_ergonomics: 70.8
-    discoverability: 73.2
-    operational_transparency: 50.0
-  previous_composite: 55.3
+    discoverability: 66.1
+    operational_transparency: 57.9
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -344,13 +351,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/screenshots/knownwell-2026-07-25T224012.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/knownwell/knownwell-2026-07-25T224012.png
 security:
 - kind: authentication
   name: Knownwell Authentication
@@ -368,6 +376,16 @@ security:
   name: Knownwell Trust Center
   slug: knownwell-trust-center
   summary_line: SOC 2, Data Privacy Framework
+skill_count: 4
+skills:
+- name: Reconcile Knownwell alignment reads against the score
+  slug: knownwell-alignment-reconciliation
+- name: Run a Knownwell portfolio health review
+  slug: knownwell-portfolio-health-review
+- name: Drill into a Knownwell client's streams
+  slug: knownwell-stream-drilldown
+- name: Triage at-risk Knownwell clients
+  slug: knownwell-triage-at-risk-clients
 slug: knownwell
 tags:
 - Company

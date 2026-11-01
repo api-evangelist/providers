@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 18
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/security/abbott-laboratories-domain-security.yml
+  href: https://artifacts.apis.io/abbott-laboratories/security/abbott-laboratories-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/abbott-laboratories-domain-security.yml
@@ -70,57 +72,57 @@ common:
   type: Blog
   url: https://www.abbott.com/corpnewsroom.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/well-known/abbott-laboratories-well-known.yml
+  href: https://artifacts.apis.io/abbott-laboratories/well-known/abbott-laboratories-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/abbott-laboratories-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/well-known/abbott-laboratories-security.txt
+  href: https://artifacts.apis.io/abbott-laboratories/well-known/abbott-laboratories-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/abbott-laboratories-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/llms/abbott-laboratories-llms.txt
+  href: https://artifacts.apis.io/abbott-laboratories/llms/abbott-laboratories-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/abbott-laboratories-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/security/abbott-laboratories-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/abbott-laboratories/security/abbott-laboratories-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/abbott-laboratories-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/security/abbott-laboratories-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/abbott-laboratories/security/abbott-laboratories-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/abbott-laboratories-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/security/abbott-laboratories-trust-center.yml
+  href: https://artifacts.apis.io/abbott-laboratories/security/abbott-laboratories-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/abbott-laboratories-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/conformance/abbott-laboratories-conformance.yml
+  href: https://artifacts.apis.io/abbott-laboratories/conformance/abbott-laboratories-conformance.yml
   title: ''
   type: Conformance
   url: conformance/abbott-laboratories-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/conformance/abbott-laboratories-conformance.yml
+  href: https://artifacts.apis.io/abbott-laboratories/conformance/abbott-laboratories-conformance.yml
   title: ''
   type: Compliance
   url: conformance/abbott-laboratories-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/packages/abbott-laboratories-packages.yml
+  href: https://artifacts.apis.io/abbott-laboratories/packages/abbott-laboratories-packages.yml
   title: ''
   type: Packages
   url: packages/abbott-laboratories-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/plans/abbott-laboratories-plans-pricing.yml
+  href: https://artifacts.apis.io/abbott-laboratories/plans/abbott-laboratories-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/abbott-laboratories-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/rate-limits/abbott-laboratories-rate-limits.yml
+  href: https://artifacts.apis.io/abbott-laboratories/rate-limits/abbott-laboratories-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/abbott-laboratories-rate-limits.yml
@@ -190,14 +192,14 @@ press:
 - date: ''
   title: Abbott Reports First-Quarter 2026 Results; Updates ...
   url: https://www.prnewswire.com/news-releases/abbott-reports-first-quarter-2026-results-updates-guidance-to-reflect-acquisition-of-exact-sciences-302744652.html
-random_paper: 10
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Abbott Laboratories Rate Limits
   slug: abbott-laboratories-rate-limits
 score:
   band: emerging
-  composite: 19.4
+  composite: 18.7
   coverage:
     artifact_dirs: 14
     catalog_earned: 27.0
@@ -211,9 +213,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 19.4
+  previous_composite: 18.7
   provenance:
     conformance: first-party
   regulatory:
@@ -222,14 +224,14 @@ score:
     regime: Health
     regime_id: health
     score: 28.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/screenshots/abbott-laboratories-2026-06-20T163122.png
+screenshot: https://apis.io/screenshots/abbott-laboratories/abbott-laboratories-2026-06-20T163122.png
 security:
 - kind: domain-security
   name: Abbott Laboratories Domain Security

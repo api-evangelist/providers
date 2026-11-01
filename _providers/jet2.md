@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,12 +38,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jet2/refs/heads/main/security/jet2-domain-security.yml
+  href: https://artifacts.apis.io/jet2/security/jet2-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jet2-domain-security.yml
@@ -114,17 +116,17 @@ common:
   type: SourceCode
   url: https://jet2tfs.visualstudio.com/Jet2Digital
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jet2/refs/heads/main/packages/jet2-packages.yml
+  href: https://artifacts.apis.io/jet2/packages/jet2-packages.yml
   title: ''
   type: Packages
   url: packages/jet2-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jet2/refs/heads/main/components/jet2-components.yml
+  href: https://artifacts.apis.io/jet2/components/jet2-components.yml
   title: ''
   type: Components
   url: components/jet2-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jet2/refs/heads/main/llms/jet2-llms.txt
+  href: https://artifacts.apis.io/jet2/llms/jet2-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jet2-llms.txt
@@ -144,10 +146,10 @@ overview: 'Jet2 is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Jet2''s developer surface includes engineering blog and 20 more developer resources.'
-random_paper: 21
+random_paper: 13
 score:
   band: minimal
-  composite: 7.0
+  composite: 6.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -161,7 +163,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -171,21 +173,21 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 7.0
+  previous_composite: 6.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jet2/refs/heads/main/screenshots/jet2-2026-08-07T171005.png
+screenshot: https://apis.io/screenshots/jet2/jet2-2026-08-07T171005.png
 security:
 - kind: domain-security
   name: Jet2 Domain Security

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 26.7
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://partner-subdomain.embed.unmade.com
@@ -68,11 +70,8 @@ apis:
   description: The Unmade Editor API from Unmade — 2 operation(s) for unmade editor.
   name: Unmade Editor API
   slug: unmade-unmade-editor-api
-artifact_total: 15
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Unmade Integration Reference Design API API
   slug: open-unmade-design-api-api
@@ -118,72 +117,72 @@ common:
   type: PrivacyPolicy
   url: https://www.unmade.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/authentication/unmade-authentication.yml
+  href: https://artifacts.apis.io/unmade/authentication/unmade-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unmade-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/security/unmade-domain-security.yml
+  href: https://artifacts.apis.io/unmade/security/unmade-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unmade-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/llms/unmade-llms.txt
+  href: https://artifacts.apis.io/unmade/llms/unmade-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unmade-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/well-known/unmade-well-known.yml
+  href: https://artifacts.apis.io/unmade/well-known/unmade-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/unmade-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/mcp/unmade-mcp.yml
+  href: https://artifacts.apis.io/unmade/mcp/unmade-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/unmade-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/conformance/unmade-conformance.yml
+  href: https://artifacts.apis.io/unmade/conformance/unmade-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unmade-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/errors/unmade-problem-types.yml
+  href: https://artifacts.apis.io/unmade/errors/unmade-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/unmade-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/lifecycle/unmade-lifecycle.yml
+  href: https://artifacts.apis.io/unmade/lifecycle/unmade-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unmade-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/conventions/unmade-conventions.yml
+  href: https://artifacts.apis.io/unmade/conventions/unmade-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unmade-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/components/unmade-components.yml
+  href: https://artifacts.apis.io/unmade/components/unmade-components.yml
   title: ''
   type: Components
   url: components/unmade-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/data-model/unmade-data-model.yml
+  href: https://artifacts.apis.io/unmade/data-model/unmade-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unmade-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/overlays/unmade-embed-v2-overlay.yaml
+  href: https://artifacts.apis.io/unmade/overlays/unmade-embed-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/unmade-embed-v2-overlay.yaml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/rate-limits/unmade-rate-limits.yml
+  href: https://artifacts.apis.io/unmade/rate-limits/unmade-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/unmade-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/unmade/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -199,14 +198,14 @@ overview: 'Unmade publishes 6 API contracts indexed on the [APIs.io](https://api
 
 
   Unmade''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Unmade Rate Limits
   slug: unmade-rate-limits
 score:
   band: emerging
-  composite: 22.5
+  composite: 22.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -214,15 +213,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 12.6
     developer_ergonomics: 44.6
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 22.4
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 22.8
   provenance:
     conformance: derived
     contracts:
@@ -238,13 +237,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/screenshots/unmade-2026-09-02T164940.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/unmade/unmade-2026-09-02T164940.png
 security:
 - kind: authentication
   name: Unmade Authentication
@@ -254,6 +254,14 @@ security:
   name: Unmade Domain Security
   slug: unmade-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Render design previews across products
+  slug: unmade-design-previews
+- name: Embed the Unmade Editor and create an order from a saved design
+  slug: unmade-embed-editor-and-create-order
+- name: Fulfil production orders through the Factory API
+  slug: unmade-factory-fulfillment
 slug: unmade
 tags:
 - Fashion

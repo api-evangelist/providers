@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -57,17 +59,17 @@ common:
   type: PrivacyPolicy
   url: https://thruster.gitbook.io/thruster/informational/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thruster/refs/heads/main/llms/thruster-llms.txt
+  href: https://artifacts.apis.io/thruster/llms/thruster-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thruster-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thruster/refs/heads/main/security/thruster-domain-security.yml
+  href: https://artifacts.apis.io/thruster/security/thruster-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thruster-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thruster/refs/heads/main/security/thruster-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/thruster/security/thruster-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/thruster-vulnerability-disclosure.yml
@@ -87,10 +89,10 @@ overview: 'Thruster is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Thruster''s developer surface includes documentation and 8 more developer resources.'
-random_paper: 17
+random_paper: 9
 score:
   band: emerging
-  composite: 13.1
+  composite: 12.7
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -98,23 +100,23 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 55.4
-    operational_transparency: 13.2
-  previous_composite: 14.0
+    discoverability: 48.2
+    operational_transparency: 15.8
+  previous_composite: 12.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

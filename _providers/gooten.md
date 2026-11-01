@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: Shipping option lookup and order price estimates for a cart.
   name: Gooten Shipping API
   slug: gooten-shipping-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Gooten Orders API
   slug: open-gooten-orders-api
@@ -91,22 +90,22 @@ common:
   type: BlogRSS
   url: https://www.gooten.com/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/capabilities/gooten-capability-edges.yml
+  href: https://artifacts.apis.io/gooten/capabilities/gooten-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gooten-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/agentic-access/gooten-agentic-access.yml
+  href: https://artifacts.apis.io/gooten/agentic-access/gooten-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gooten-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/security/gooten-domain-security.yml
+  href: https://artifacts.apis.io/gooten/security/gooten-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gooten-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/authentication/gooten-authentication.yml
+  href: https://artifacts.apis.io/gooten/authentication/gooten-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gooten-authentication.yml
@@ -127,17 +126,17 @@ common:
   type: SupportCenter
   url: https://help.gooten.com/hc/en-us
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/plans/gooten-plans-pricing.yml
+  href: https://artifacts.apis.io/gooten/plans/gooten-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gooten-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/rate-limits/gooten-rate-limits.yml
+  href: https://artifacts.apis.io/gooten/rate-limits/gooten-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gooten-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/finops/gooten-finops.yml
+  href: https://artifacts.apis.io/gooten/finops/gooten-finops.yml
   title: ''
   type: FinOps
   url: finops/gooten-finops.yml
@@ -169,14 +168,14 @@ plans:
 - name: Gooten Plans Pricing
   plan_count: 2
   slug: gooten-plans-pricing
-random_paper: 14
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Gooten Rate Limits
   slug: gooten-rate-limits
 score:
-  band: thin
-  composite: 26.4
+  band: emerging
+  composite: 14.6
   coverage:
     artifact_dirs: 13
     catalog_earned: 42.0
@@ -184,15 +183,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
-    contract_quality: 49.9
+    contract_quality: 0.0
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 33.3
+  previous_composite: 14.6
   provenance:
     agentic_access: derived
     contracts:
@@ -206,13 +205,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/screenshots/gooten-2026-07-25T220114.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gooten/gooten-2026-07-25T220114.png
 security:
 - kind: authentication
   name: Gooten Authentication

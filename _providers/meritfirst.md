@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: documented
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 15.8
-  scored_at: '2026-10-17'
+  score: 10.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Hosted, authenticated Model Context Protocol server for managing assessments, reviewing candidates, and analyzing hiring data. Streamable-HTTP transport; Bearer MeritFirst API key (mf_) required.
@@ -43,7 +45,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meritfirst/refs/heads/main/security/meritfirst-domain-security.yml
+  href: https://artifacts.apis.io/meritfirst/security/meritfirst-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meritfirst-domain-security.yml
@@ -64,32 +66,32 @@ common:
   type: Security
   url: https://www.meritfirst.us/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meritfirst/refs/heads/main/mcp/meritfirst-mcp.yml
+  href: https://artifacts.apis.io/meritfirst/mcp/meritfirst-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/meritfirst-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meritfirst/refs/heads/main/well-known/meritfirst-well-known.yml
+  href: https://artifacts.apis.io/meritfirst/well-known/meritfirst-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/meritfirst-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meritfirst/refs/heads/main/well-known/meritfirst-security.txt
+  href: https://artifacts.apis.io/meritfirst/well-known/meritfirst-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/meritfirst-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meritfirst/refs/heads/main/authentication/meritfirst-authentication.yml
+  href: https://artifacts.apis.io/meritfirst/authentication/meritfirst-authentication.yml
   title: ''
   type: Authentication
   url: authentication/meritfirst-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meritfirst/refs/heads/main/security/meritfirst-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/meritfirst/security/meritfirst-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/meritfirst-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meritfirst/refs/heads/main/llms/meritfirst-llms.txt
+  href: https://artifacts.apis.io/meritfirst/llms/meritfirst-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/meritfirst-llms.txt
@@ -109,10 +111,10 @@ overview: 'Meritfirst is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Meritfirst''s developer surface includes signup flow, authentication, and 9 more developer resources.'
-random_paper: 19
+random_paper: 17
 score:
   band: emerging
-  composite: 12.9
+  composite: 13.3
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -122,13 +124,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 10.5
-  previous_composite: 12.9
+  previous_composite: 13.3
   provenance:
     mcp: first-party
   regulatory:
@@ -137,14 +139,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/meritfirst/refs/heads/main/screenshots/meritfirst-2026-08-07T172605.png
+screenshot: https://apis.io/screenshots/meritfirst/meritfirst-2026-08-07T172605.png
 security:
 - kind: authentication
   name: Meritfirst Authentication

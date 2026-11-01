@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,17 +36,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/capsovision/refs/heads/main/plans/capsovision-plans-pricing.yml
+  href: https://artifacts.apis.io/capsovision/plans/capsovision-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/capsovision-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/capsovision/refs/heads/main/rate-limits/capsovision-rate-limits.yml
+  href: https://artifacts.apis.io/capsovision/rate-limits/capsovision-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/capsovision-rate-limits.yml
@@ -73,17 +75,17 @@ common:
   type: Blog
   url: https://capsovision.com/news/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/capsovision/refs/heads/main/packages/capsovision-packages.yml
+  href: https://artifacts.apis.io/capsovision/packages/capsovision-packages.yml
   title: ''
   type: Packages
   url: packages/capsovision-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/capsovision/refs/heads/main/llms/capsovision-llms.txt
+  href: https://artifacts.apis.io/capsovision/llms/capsovision-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/capsovision-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/capsovision/refs/heads/main/security/capsovision-domain-security.yml
+  href: https://artifacts.apis.io/capsovision/security/capsovision-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/capsovision-domain-security.yml
@@ -123,16 +125,16 @@ plans:
 - name: Capsovision Plans Pricing
   plan_count: 0
   slug: capsovision-plans-pricing
-random_paper: 10
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Capsovision Rate Limits
   slug: capsovision-rate-limits
 score:
-  band: minimal
-  composite: 5.3
+  band: emerging
+  composite: 11.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -140,12 +142,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -153,21 +155,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 5.3
+  previous_composite: 11.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 4.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 7.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/capsovision/refs/heads/main/screenshots/capsovision-2026-09-02T145013.png
+screenshot: https://apis.io/screenshots/capsovision/capsovision-2026-09-02T145013.png
 security:
 - kind: domain-security
   name: Capsovision Domain Security

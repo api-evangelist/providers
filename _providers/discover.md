@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 17
 apis:
 - description: Discover HCE Wallet Services offers a secure and convenient way for customers to add their Discover card to their mobile devices for contactless payments. By utilizing Host Card Emulation (HCE) techno
@@ -126,7 +128,7 @@ common:
   type: Website
   url: https://www.discover.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/security/discover-domain-security.yml
+  href: https://artifacts.apis.io/discover/security/discover-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/discover-domain-security.yml
@@ -187,93 +189,93 @@ common:
   type: Security
   url: https://www.discover.com/responsible-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/security/discover-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/discover/security/discover-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/discover-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/authentication/discover-authentication.yml
+  href: https://artifacts.apis.io/discover/authentication/discover-authentication.yml
   title: ''
   type: Authentication
   url: authentication/discover-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/scopes/discover-scopes.yml
+  href: https://artifacts.apis.io/discover/scopes/discover-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/discover-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/conventions/discover-conventions.yml
+  href: https://artifacts.apis.io/discover/conventions/discover-conventions.yml
   title: ''
   type: Conventions
   url: conventions/discover-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/errors/discover-problem-types.yml
+  href: https://artifacts.apis.io/discover/errors/discover-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/discover-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/errors/discover-error-codes.yml
+  href: https://artifacts.apis.io/discover/errors/discover-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/discover-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/lifecycle/discover-lifecycle.yml
+  href: https://artifacts.apis.io/discover/lifecycle/discover-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/discover-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/conformance/discover-conformance.yml
+  href: https://artifacts.apis.io/discover/conformance/discover-conformance.yml
   title: ''
   type: Conformance
   url: conformance/discover-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/sandbox/discover-sandbox.yml
+  href: https://artifacts.apis.io/discover/sandbox/discover-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/discover-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/packages/discover-packages.yml
+  href: https://artifacts.apis.io/discover/packages/discover-packages.yml
   title: ''
   type: Packages
   url: packages/discover-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/well-known/discover-well-known.yml
+  href: https://artifacts.apis.io/discover/well-known/discover-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/discover-well-known.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/rate-limits/discover-rate-limits.yml
+  href: https://artifacts.apis.io/discover/rate-limits/discover-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/discover-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/plans/discover-plans-pricing.yml
+  href: https://artifacts.apis.io/discover/plans/discover-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/discover-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/asyncapi/discover-webhooks.yml
+  href: https://artifacts.apis.io/discover/asyncapi/discover-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/discover-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/llms/discover-llms.txt
+  href: https://artifacts.apis.io/discover/llms/discover-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/discover-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/finops/discover-finops.yml
+  href: https://artifacts.apis.io/discover/finops/discover-finops.yml
   title: ''
   type: FinOps
   url: finops/discover-finops.yml
 created: '2024-11-15T00:00:00.000Z'
 description: 'Discover Financial Services is a US consumer bank and payments network - credit cards, personal loans, student loans, home equity loans, and online savings and checking accounts - and, through Discover Global Network, one of the four global card acceptance networks, alongside the Diners Club International and PULSE brands. Its developer-facing business is the network side: issuers, acquirers, processors, wallet providers and token requestors integrate through the Discover Partner Product Portal and the invitation-only Discover Developer Center for tokenization, account updating, IIN/BIN lookup, fraud alerts, enhanced decisioning and a set of travel and acceptance tools. Discover''s footer now reads "Discover, a division of Capital One, N.A., Member FDIC".'
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Discover Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: discover-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/discover.png
@@ -293,7 +295,7 @@ plans:
 - name: Discover Plans Pricing
   plan_count: 0
   slug: discover-plans-pricing
-random_paper: 5
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Discover Rate Limits
@@ -305,7 +307,7 @@ scopes:
   summary_line: 8 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 43.5
+  composite: 44.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 35.0
@@ -313,15 +315,15 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 61.9
+    developer_ergonomics: 64.3
     discoverability: 62.5
-    operational_transparency: 21.1
-  previous_composite: 45.1
+    operational_transparency: 23.7
+  previous_composite: 44.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -331,14 +333,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/screenshots/discover-2026-06-20T180039.png
+screenshot: https://apis.io/screenshots/discover/discover-2026-06-20T180039.png
 security:
 - kind: authentication
   name: Discover Authentication

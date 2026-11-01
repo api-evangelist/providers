@@ -31,17 +31,38 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-17'
-api_count: 0
-artifact_total: 3
+  score: 5.0
+  scored_at: '2026-10-31'
+api_count: 1
+apis:
+- description: Bupa HI Pty Ltd's Azure API Management developer portal ("Discover Bupa APIs"). The portal lists no APIs or products to anonymous visitors; its Get Started page says partners must contact the Bupa Int
+  name: Bupa Australia Developer Portal APIs
+  slug: bupa-australia-developer-portal-apis
+artifact_total: 6
 common:
+- group: other
+  href: https://artifacts.apis.io/bupa-australia/hosts/bupa-australia-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/bupa-australia-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/bupa-australia/integrations/bupa-australia-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/bupa-australia-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/bupa-australia/vendors/bupa-australia-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/bupa-australia-vendors.yml
 - group: company
   title: ''
   type: Website
@@ -102,43 +123,55 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.bupa.com.au/privacy
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/bupaaustralia
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/BupaAustralia
+- group: company
+  title: ''
+  type: Facebook
+  url: https://www.facebook.com/BupaAustralia
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bupa-australia/refs/heads/main/authentication/bupa-australia-authentication.yml
+  href: https://artifacts.apis.io/bupa-australia/authentication/bupa-australia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bupa-australia-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bupa-australia/refs/heads/main/scopes/bupa-australia-scopes.yml
+  href: https://artifacts.apis.io/bupa-australia/scopes/bupa-australia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bupa-australia-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bupa-australia/refs/heads/main/well-known/bupa-australia-well-known.yml
+  href: https://artifacts.apis.io/bupa-australia/well-known/bupa-australia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bupa-australia-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bupa-australia/refs/heads/main/conformance/bupa-australia-conformance.yml
+  href: https://artifacts.apis.io/bupa-australia/conformance/bupa-australia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bupa-australia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bupa-australia/refs/heads/main/lifecycle/bupa-australia-lifecycle.yml
+  href: https://artifacts.apis.io/bupa-australia/lifecycle/bupa-australia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bupa-australia-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bupa-australia/refs/heads/main/packages/bupa-australia-packages.yml
+  href: https://artifacts.apis.io/bupa-australia/packages/bupa-australia-packages.yml
   title: ''
   type: Packages
   url: packages/bupa-australia-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bupa-australia/refs/heads/main/security/bupa-australia-domain-security.yml
+  href: https://artifacts.apis.io/bupa-australia/security/bupa-australia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bupa-australia-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bupa-australia/refs/heads/main/llms/bupa-australia-llms.txt
+  href: https://artifacts.apis.io/bupa-australia/llms/bupa-australia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bupa-australia-llms.txt
@@ -146,39 +179,47 @@ created: '2026-07-25'
 description: 'Bupa Australia is the Australian market unit of the UK-headquartered Bupa group and one of the country''s largest private health insurers, trading as Bupa HI Pty Ltd (ABN 81 000 057 590). It writes private health insurance — hospital and ancillary "extras" cover, overseas visitor and overseas student health cover, and corporate health plans — and, unusually for a carrier, also owns the provision that consumes those benefits through Bupa Dental, Bupa Optical, Bupa Medical Visa Services and Bupa Aged Care. Its lines of business are health and care rather than property and casualty or life, so the ACORD data standards that shape most of the insurance sector are entirely absent from its published surface; no reference to ACORD, AL3, ACORD XML or NGDS appears anywhere on its public web estate. Australia gives it no forcing function either: the Consumer Data Right was designated to extend to general insurance and then deferred, and a first-hand query of the CDR participant register
   at api.cdr.gov.au on 2026-07-25 returned 203 data-holder brands drawn only from banking and energy, with no insurance sector and no Bupa brand present. Bupa Australia''s API posture is accordingly partner-gated. It does run a genuine first-party developer portal at portal.api.bupa.com.au — an Azure API Management managed portal whose meta author tag names Bupa HI Pty Ltd — but the portal returns HTTP 200 while listing nothing: its /apis and /products routes render empty "APIs: List" and "Products: List" headings to anonymous visitors, its config.json points at an internal-only management host, and its Get Started page routes every onboarding step through the "Bupa Integration Fabric Team" before any API specification is released. No public OpenAPI or Swagger definition, Postman collection, GraphQL schema, gRPC service or webhook catalog could be confirmed, and none of the four insurance verbs — quote, bind, issue or FNOL — is exposed to unauthenticated developers. The real integration
   surface for Bupa Australia''s counterparties is not an API at all: ancillary providers claim through HICAPS and HealthPoint terminals, hospital providers check patient eligibility and lodge claims through ECLIPSE, the national Services Australia claiming channel reached via Civica''s ECF web front-end, and access to the Bupa Partner Portal at partner.bupa.com.au is requested by downloading and returning a PDF form.'
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://www.bupa.com.au/-/media/dotcom/images/bupa-logos/bupa-apple-touch-icon-precomposed-180x180.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-21'
 name: Bupa Australia
 nav: Providers
 network: true
-overview: 'Bupa Australia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, Health Insurance, Private Health Insurance, and Carrier.
+overview: 'Bupa Australia is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, Health Insurance, Private Health Insurance, and Carrier.
 
 
-  Bupa Australia''s developer surface includes documentation, getting-started guide, API reference, signup flow, support, engineering blog, pricing, and 16 more developer resources.'
-random_paper: 5
+  Bupa Australia''s developer surface includes documentation, getting-started guide, API reference, signup flow, support, engineering blog, pricing, and 22 more developer resources.'
+plans:
+- name: Bupa Australia Plans Pricing
+  plan_count: 0
+  slug: bupa-australia-plans-pricing
+random_paper: 19
+rate_limits:
+- limit_count: 0
+  name: Bupa Australia Rate Limits
+  slug: bupa-australia-rate-limits
 scopes:
 - name: Bupa Australia Scopes
   scope_count: 4
   slug: bupa-australia-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 22.3
+  band: thin
+  composite: 31.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 27.0
+    artifact_dirs: 19
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 50.0
-    discoverability: 55.4
+    developer_ergonomics: 57.1
+    discoverability: 57.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -187,23 +228,24 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 22.3
+  previous_composite: 31.3
   provenance:
     conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 29.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 36.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bupa-australia/refs/heads/main/screenshots/bupa-australia-2026-07-25T204113.png
+screenshot: https://apis.io/screenshots/bupa-australia/bupa-australia-2026-07-25T204113.png
 security:
 - kind: authentication
   name: Bupa Australia Authentication

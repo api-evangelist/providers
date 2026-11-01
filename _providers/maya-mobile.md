@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: Real-time eSIM status and data-usage reporting.
   name: Maya Mobile Usage API
   slug: maya-mobile-usage-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Maya Mobile Connect+ Connectivity eSIMs API
   slug: open-maya-mobile-esims-api
@@ -87,22 +86,22 @@ collections:
   slug: open-maya-mobile
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/capabilities/maya-mobile-capability-edges.yml
+  href: https://artifacts.apis.io/maya-mobile/capabilities/maya-mobile-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/maya-mobile-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/agentic-access/maya-mobile-agentic-access.yml
+  href: https://artifacts.apis.io/maya-mobile/agentic-access/maya-mobile-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/maya-mobile-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/security/maya-mobile-domain-security.yml
+  href: https://artifacts.apis.io/maya-mobile/security/maya-mobile-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/maya-mobile-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/authentication/maya-mobile-authentication.yml
+  href: https://artifacts.apis.io/maya-mobile/authentication/maya-mobile-authentication.yml
   title: ''
   type: Authentication
   url: authentication/maya-mobile-authentication.yml
@@ -119,17 +118,17 @@ common:
   type: Documentation
   url: https://maya.net/business/esim-api
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/plans/maya-mobile-plans-pricing.yml
+  href: https://artifacts.apis.io/maya-mobile/plans/maya-mobile-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/maya-mobile-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/rate-limits/maya-mobile-rate-limits.yml
+  href: https://artifacts.apis.io/maya-mobile/rate-limits/maya-mobile-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/maya-mobile-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/finops/maya-mobile-finops.yml
+  href: https://artifacts.apis.io/maya-mobile/finops/maya-mobile-finops.yml
   title: ''
   type: FinOps
   url: finops/maya-mobile-finops.yml
@@ -157,14 +156,14 @@ plans:
 - name: Maya Mobile Plans Pricing
   plan_count: 2
   slug: maya-mobile-plans-pricing
-random_paper: 1
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Maya Mobile Rate Limits
   slug: maya-mobile-rate-limits
 score:
   band: emerging
-  composite: 21.0
+  composite: 23.6
   coverage:
     artifact_dirs: 11
     catalog_earned: 42.0
@@ -172,15 +171,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 47.8
-    developer_ergonomics: 13.1
+    developer_ergonomics: 22.6
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 28.0
+  previous_composite: 23.6
   provenance:
     agentic_access: derived
     contracts:
@@ -194,13 +193,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/screenshots/maya-mobile-2026-07-25T230448.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/maya-mobile/maya-mobile-2026-07-25T230448.png
 security:
 - kind: authentication
   name: Maya Mobile Authentication

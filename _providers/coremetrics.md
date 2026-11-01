@@ -24,7 +24,7 @@ name: Coremetrics
 nav: Providers
 network: true
 overview: Coremetrics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Web Analytics, Digital Marketing, and Marketing Analytics.
-random_paper: 18
+random_paper: 8
 slug: coremetrics
 tags:
 - Company

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,29 +37,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Qover''s REST API for embedded insurance: a Claims API (file, retrieve, track status history, and download claim reports), a Policy API (manage policies and dynamically add/remove risk items), and a Do'
   name: Qover Embedded Insurance API
   slug: qover-embedded-insurance-api
-artifact_total: 5
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Qover Webhooks
   slug: qover-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/qover/plans/qover-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/qover-plans-pricing.yml
 - group: company
   title: ''
   type: Website
   url: https://www.qover.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qover/refs/heads/main/security/qover-trust-center.yml
+  href: https://artifacts.apis.io/qover/security/qover-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/qover-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qover/refs/heads/main/security/qover-domain-security.yml
+  href: https://artifacts.apis.io/qover/security/qover-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qover-domain-security.yml
@@ -114,27 +121,35 @@ common:
   type: Compliance
   url: https://trust.qover.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qover/refs/heads/main/lifecycle/qover-lifecycle.yml
+  href: https://artifacts.apis.io/qover/lifecycle/qover-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qover-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qover/refs/heads/main/conformance/qover-conformance.yml
+  href: https://artifacts.apis.io/qover/conformance/qover-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qover-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qover/refs/heads/main/authentication/qover-authentication.yml
+  href: https://artifacts.apis.io/qover/authentication/qover-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qover-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qover/refs/heads/main/llms/qover-llms.txt
+  href: https://artifacts.apis.io/qover/llms/qover-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qover-llms.txt
 created: '2026-07-17'
 description: Qover is a Brussels-based insurtech providing an API-first embedded insurance orchestration platform used across 32 European countries. Its modular platform lets brands, fintechs and insurers configure and distribute insurance products (travel, mobility, bike, purchase protection, accident, property) and run the full lifecycle from policy configuration and issuance through AI-assisted claims and multilingual customer care. Qover exposes REST APIs - a Claims API, a Policy API and a Document Asset Management API - secured with API keys, with a sandbox environment, configurable webhooks for claim status changes, and per-partner product configuration. Founded in 2016, Qover reports serving 440+ brands and insurers covering millions of people, and is an ISO-certified company with a Vanta-hosted trust center.
+finops:
+- has_sources: true
+  method: derived
+  name: Qover Finops
+  primary_unit: ''
+  service_category: ''
+  slug: qover-finops
+  template: true
 image: https://qover.com/favicon.ico
 layout: provider
 modified: '2026-07-20'
@@ -147,13 +162,17 @@ overview: 'Qover is listed with 1 API on the [APIs.io](https://apis.io/) network
   The Qover catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Qover''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 13 more developer resources.'
-random_paper: 7
+  Qover''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 14 more developer resources.'
+plans:
+- name: Qover Plans Pricing
+  plan_count: 0
+  slug: qover-plans-pricing
+random_paper: 5
 score:
   band: developing
-  composite: 49.0
+  composite: 49.3
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -165,8 +184,8 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 70.8
-    discoverability: 73.2
-    operational_transparency: 15.8
+    discoverability: 66.1
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -175,7 +194,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 49.0
+  previous_composite: 49.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -190,14 +209,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/qover/refs/heads/main/screenshots/qover-2026-08-17T081419.png
+screenshot: https://apis.io/screenshots/qover/qover-2026-08-17T081419.png
 security:
 - kind: authentication
   name: Qover Authentication
@@ -211,6 +230,10 @@ security:
   name: Qover Trust Center
   slug: qover-trust-center
   summary_line: ISO 27001
+skill_count: 1
+skills:
+- name: File and track a Qover insurance claim
+  slug: qover-file-a-claim
 slug: qover
 tags:
 - Company

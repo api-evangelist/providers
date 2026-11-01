@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-17'
+  score: 21.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: The Models API from Not Diamond — 1 operation(s) for models.
   name: Not Diamond Models API
   slug: notdiamond-models-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Not Diamond Custom Routers API
   slug: open-notdiamond-custom-routers-api
@@ -91,22 +90,22 @@ common:
   type: Pricing
   url: https://www.notdiamond.ai/pricing
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/capabilities/notdiamond-capability-edges.yml
+  href: https://artifacts.apis.io/notdiamond/capabilities/notdiamond-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/notdiamond-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/agentic-access/notdiamond-agentic-access.yml
+  href: https://artifacts.apis.io/notdiamond/agentic-access/notdiamond-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/notdiamond-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/security/notdiamond-domain-security.yml
+  href: https://artifacts.apis.io/notdiamond/security/notdiamond-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/notdiamond-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/authentication/notdiamond-authentication.yml
+  href: https://artifacts.apis.io/notdiamond/authentication/notdiamond-authentication.yml
   title: ''
   type: Authentication
   url: authentication/notdiamond-authentication.yml
@@ -131,17 +130,17 @@ common:
   type: Documentation
   url: https://docs.notdiamond.ai
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/plans/notdiamond-plans-pricing.yml
+  href: https://artifacts.apis.io/notdiamond/plans/notdiamond-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/notdiamond-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/rate-limits/notdiamond-rate-limits.yml
+  href: https://artifacts.apis.io/notdiamond/rate-limits/notdiamond-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/notdiamond-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/finops/notdiamond-finops.yml
+  href: https://artifacts.apis.io/notdiamond/finops/notdiamond-finops.yml
   title: ''
   type: FinOps
   url: finops/notdiamond-finops.yml
@@ -176,7 +175,7 @@ rate_limits:
   slug: notdiamond-rate-limits
 score:
   band: thin
-  composite: 31.8
+  composite: 34.5
   coverage:
     artifact_dirs: 13
     catalog_earned: 53.0
@@ -189,10 +188,10 @@ score:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 49.6
-    developer_ergonomics: 23.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 31.8
+    operational_transparency: 26.3
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -206,13 +205,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/screenshots/notdiamond-2026-06-20T190525.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/notdiamond/notdiamond-2026-06-20T190525.png
 security:
 - kind: authentication
   name: Notdiamond Authentication

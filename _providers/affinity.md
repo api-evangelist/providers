@@ -13,7 +13,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.6
-  scored_at: '2026-10-17'
+  score: 38.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -99,11 +100,8 @@ apis:
   description: Operations about persons
   name: Affinity Persons API
   slug: affinity-persons-api
-artifact_total: 47
+artifact_total: 46
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Affinity API v2 auth API
   slug: open-affinity-auth-api
@@ -135,28 +133,32 @@ collections:
   name: Affinity API v2 auth persons API
   slug: open-affinity-persons-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/affinity/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/capabilities/affinity-capability-edges.yml
+  href: https://artifacts.apis.io/affinity/capabilities/affinity-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/affinity-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/agentic-access/affinity-agentic-access.yml
+  href: https://artifacts.apis.io/affinity/agentic-access/affinity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/affinity-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/security/affinity-trust-center.yml
+  href: https://artifacts.apis.io/affinity/security/affinity-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/affinity-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/security/affinity-domain-security.yml
+  href: https://artifacts.apis.io/affinity/security/affinity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/affinity-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/authentication/affinity-authentication.yml
+  href: https://artifacts.apis.io/affinity/authentication/affinity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/affinity-authentication.yml
@@ -193,27 +195,27 @@ common:
   type: X
   url: https://x.com/affinity
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/plans/affinity-plans-pricing.yml
+  href: https://artifacts.apis.io/affinity/plans/affinity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/affinity-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/rate-limits/affinity-rate-limits.yml
+  href: https://artifacts.apis.io/affinity/rate-limits/affinity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/affinity-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/finops/affinity-finops.yml
+  href: https://artifacts.apis.io/affinity/finops/affinity-finops.yml
   title: ''
   type: FinOps
   url: finops/affinity-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/vocabulary/affinity-vocabulary.yml
+  href: https://artifacts.apis.io/affinity/vocabulary/affinity-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/affinity-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/json-ld/affinity-context.jsonld
+  href: https://artifacts.apis.io/affinity/json-ld/affinity-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/affinity-context.jsonld
@@ -295,12 +297,12 @@ overview: 'Affinity publishes 11 API contracts indexed on the [APIs.io](https://
   The Affinity catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Affinity''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
+  Affinity''s developer surface includes authentication, documentation, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Affinity Plans Pricing
   plan_count: 4
   slug: affinity-plans-pricing
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Affinity Rate Limits
@@ -319,7 +321,7 @@ rules:
   slug: affinity-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.5
+  composite: 39.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 61.8
@@ -327,15 +329,15 @@ score:
     catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.2
   facets:
     access_clarity: 26.3
     contract_governance: 23.5
     contract_quality: 59.1
-    developer_ergonomics: 23.8
-    discoverability: 68.3
+    developer_ergonomics: 25.0
+    discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 46.8
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -350,13 +352,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/screenshots/affinity-2026-06-20T165626.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/affinity/affinity-2026-06-20T165626.png
 security:
 - kind: authentication
   name: Affinity Authentication

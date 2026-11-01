@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/candel-therapeutics/refs/heads/main/plans/candel-therapeutics-plans-pricing.yml
+  href: https://artifacts.apis.io/candel-therapeutics/plans/candel-therapeutics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/candel-therapeutics-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/candel-therapeutics/refs/heads/main/rate-limits/candel-therapeutics-rate-limits.yml
+  href: https://artifacts.apis.io/candel-therapeutics/rate-limits/candel-therapeutics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/candel-therapeutics-rate-limits.yml
@@ -66,12 +68,12 @@ common:
   type: InvestorRelations
   url: https://ir.candeltx.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/candel-therapeutics/refs/heads/main/security/candel-therapeutics-domain-security.yml
+  href: https://artifacts.apis.io/candel-therapeutics/security/candel-therapeutics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/candel-therapeutics-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/candel-therapeutics/refs/heads/main/llms/candel-therapeutics-llms.txt
+  href: https://artifacts.apis.io/candel-therapeutics/llms/candel-therapeutics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/candel-therapeutics-llms.txt
@@ -105,16 +107,16 @@ plans:
 - name: Candel Therapeutics Plans Pricing
   plan_count: 0
   slug: candel-therapeutics-plans-pricing
-random_paper: 21
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Candel Therapeutics Rate Limits
   slug: candel-therapeutics-rate-limits
 score:
   band: minimal
-  composite: 8.4
+  composite: 7.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -126,7 +128,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -135,21 +137,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 8.4
+  previous_composite: 7.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/candel-therapeutics/refs/heads/main/screenshots/candel-therapeutics-2026-10-11T102700.png
+screenshot: https://apis.io/screenshots/candel-therapeutics/candel-therapeutics-2026-10-11T102700.png
 security:
 - kind: domain-security
   name: Candel Therapeutics Domain Security

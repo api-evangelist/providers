@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -59,7 +61,7 @@ apis:
   description: The Key Rings API from Google Cloud KMS — 2 operation(s) for key rings.
   name: Google Cloud KMS Key Rings API
   slug: google-cloud-kms-key-rings-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: postman
   name: Google Cloud KMS Crypto Keys API
@@ -70,9 +72,6 @@ collections:
 - collection_type: postman
   name: Google Cloud KMS Crypto Keys Key Rings API
   slug: postman-google-cloud-kms-key-rings-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Cloud KMS Crypto Keys API
   slug: open-google-cloud-kms-crypto-keys-api
@@ -87,22 +86,22 @@ collections:
   slug: open-openapi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/plans/google-cloud-kms-plans-pricing.yml
+  href: https://artifacts.apis.io/google-cloud-kms/plans/google-cloud-kms-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-cloud-kms-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/rate-limits/google-cloud-kms-rate-limits.yml
+  href: https://artifacts.apis.io/google-cloud-kms/rate-limits/google-cloud-kms-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-cloud-kms-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/finops/google-cloud-kms-finops.yml
+  href: https://artifacts.apis.io/google-cloud-kms/finops/google-cloud-kms-finops.yml
   title: ''
   type: FinOps
   url: finops/google-cloud-kms-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/capabilities/google-cloud-kms-capability-edges.yml
+  href: https://artifacts.apis.io/google-cloud-kms/capabilities/google-cloud-kms-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-cloud-kms-capability-edges.yml
@@ -115,27 +114,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-cloud-kms/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/agentic-access/google-cloud-kms-agentic-access.yml
+  href: https://artifacts.apis.io/google-cloud-kms/agentic-access/google-cloud-kms-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-cloud-kms-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/security/google-cloud-kms-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-cloud-kms/security/google-cloud-kms-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-cloud-kms-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/security/google-cloud-kms-domain-security.yml
+  href: https://artifacts.apis.io/google-cloud-kms/security/google-cloud-kms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-cloud-kms-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/authentication/google-cloud-kms-authentication.yml
+  href: https://artifacts.apis.io/google-cloud-kms/authentication/google-cloud-kms-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-cloud-kms-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/scopes/google-cloud-kms-scopes.yml
+  href: https://artifacts.apis.io/google-cloud-kms/scopes/google-cloud-kms-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-cloud-kms-scopes.yml
@@ -180,20 +179,20 @@ common:
   type: Support
   url: https://cloud.google.com/kms/docs/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/json-ld/context.jsonld
+  href: https://artifacts.apis.io/google-cloud-kms/json-ld/context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/context.jsonld
 created: '2026-03-13'
 description: Google Cloud Key Management Service (KMS) allows you to create, import, and manage cryptographic keys and perform cryptographic operations in a central cloud service. It supports encryption, decryption, signing, and verification using symmetric and asymmetric keys for securing data and workloads.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Google Cloud Kms Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: active key version per hour
+  service_category: ''
   slug: google-cloud-kms-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-kms.png
 json_schemas:
 - name: CryptoKey
@@ -218,7 +217,7 @@ overview: 'Google Cloud KMS publishes 3 API contracts indexed on the [APIs.io](h
   Google Cloud KMS''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 16 more developer resources.'
 plans:
 - name: Google Cloud Kms Plans Pricing
-  plan_count: 3
+  plan_count: 9
   slug: google-cloud-kms-plans-pricing
 random_paper: 9
 rate_limits:
@@ -244,23 +243,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.5
+  composite: 54.2
   coverage:
     artifact_dirs: 16
-    catalog_earned: 56.7
-    catalog_earned_first_party: 0.0
-    catalog_gap: 58.4
+    catalog_earned: 68.7
+    catalog_earned_first_party: 12.0
+    catalog_gap: 46.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 9.8
     contract_quality: 54.2
     developer_ergonomics: 48.8
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 47.0
+    operational_transparency: 39.5
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     contracts:
@@ -274,13 +273,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/screenshots/google-cloud-kms-2026-06-20T182123.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-cloud-kms/google-cloud-kms-2026-06-20T182123.png
 security:
 - kind: authentication
   name: Google Cloud Kms Authentication

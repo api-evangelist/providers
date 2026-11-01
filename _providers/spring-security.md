@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -96,11 +98,8 @@ apis:
   description: The Token API from Spring Security — 3 operation(s) for token.
   name: Spring Security Token API
   slug: spring-security-token-api
-artifact_total: 36
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Spring Authorization Server API
   slug: open-spring-authorization-server
@@ -133,22 +132,22 @@ collections:
   slug: open-spring-security-token-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/plans/spring-security-plans-pricing.yml
+  href: https://artifacts.apis.io/spring-security/plans/spring-security-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spring-security-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/rate-limits/spring-security-rate-limits.yml
+  href: https://artifacts.apis.io/spring-security/rate-limits/spring-security-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spring-security-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/finops/spring-security-finops.yml
+  href: https://artifacts.apis.io/spring-security/finops/spring-security-finops.yml
   title: ''
   type: FinOps
   url: finops/spring-security-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/capabilities/spring-security-capability-edges.yml
+  href: https://artifacts.apis.io/spring-security/capabilities/spring-security-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/spring-security-capability-edges.yml
@@ -169,22 +168,22 @@ common:
   type: ContributionGuide
   url: https://github.com/spring-projects/spring-security/blob/main/CONTRIBUTING.adoc
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/agentic-access/spring-security-agentic-access.yml
+  href: https://artifacts.apis.io/spring-security/agentic-access/spring-security-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spring-security-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/security/spring-security-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/spring-security/security/spring-security-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/spring-security-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/security/spring-security-domain-security.yml
+  href: https://artifacts.apis.io/spring-security/security/spring-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spring-security-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/authentication/spring-security-authentication.yml
+  href: https://artifacts.apis.io/spring-security/authentication/spring-security-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spring-security-authentication.yml
@@ -295,7 +294,7 @@ rules:
   slug: spring-security-rules
 score:
   band: thin
-  composite: 36.4
+  composite: 36.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 51.5
@@ -303,18 +302,15 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 46.8
-    developer_ergonomics: 42.9
+    developer_ergonomics: 47.6
     discoverability: 64.3
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 37.8
+    operational_transparency: 36.8
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -328,13 +324,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/screenshots/spring-security-2026-06-20T194415.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spring-security/spring-security-2026-06-20T194415.png
 security:
 - kind: authentication
   name: Spring Security Authentication

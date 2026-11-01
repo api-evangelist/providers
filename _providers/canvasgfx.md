@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Manufacturing Work Instructions Platform
@@ -32,37 +34,37 @@ apis:
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/canvasgfx/refs/heads/main/plans/canvasgfx-plans-pricing.yml
+  href: https://artifacts.apis.io/canvasgfx/plans/canvasgfx-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/canvasgfx-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/canvasgfx/refs/heads/main/conformance/canvasgfx-conformance.yml
+  href: https://artifacts.apis.io/canvasgfx/conformance/canvasgfx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/canvasgfx-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/canvasgfx/refs/heads/main/llms/canvasgfx-llms.txt
+  href: https://artifacts.apis.io/canvasgfx/llms/canvasgfx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/canvasgfx-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/canvasgfx/refs/heads/main/hosts/canvasgfx-hosts.yml
+  href: https://artifacts.apis.io/canvasgfx/hosts/canvasgfx-hosts.yml
   title: ''
   type: Hosts
   url: hosts/canvasgfx-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/canvasgfx/refs/heads/main/vendors/canvasgfx-vendors.yml
+  href: https://artifacts.apis.io/canvasgfx/vendors/canvasgfx-vendors.yml
   title: ''
   type: Vendors
   url: vendors/canvasgfx-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/canvasgfx/refs/heads/main/packages/canvasgfx-packages.yml
+  href: https://artifacts.apis.io/canvasgfx/packages/canvasgfx-packages.yml
   title: ''
   type: SDKs
   url: packages/canvasgfx-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/canvasgfx/refs/heads/main/packages/canvasgfx-packages.yml
+  href: https://artifacts.apis.io/canvasgfx/packages/canvasgfx-packages.yml
   title: ''
   type: Packages
   url: packages/canvasgfx-packages.yml
@@ -79,7 +81,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/canvasgfx
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/canvasgfx/refs/heads/main/security/canvasgfx-domain-security.yml
+  href: https://artifacts.apis.io/canvasgfx/security/canvasgfx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/canvasgfx-domain-security.yml
@@ -143,10 +145,10 @@ plans:
 - name: Canvasgfx Plans Pricing
   plan_count: 2
   slug: canvasgfx-plans-pricing
-random_paper: 15
+random_paper: 1
 score:
   band: thin
-  composite: 32.0
+  composite: 31.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 40.0
@@ -154,13 +156,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 15.8
+  previous_composite: 31.3
   provenance:
     conformance: first-party
     mcp: unknown
@@ -170,8 +174,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

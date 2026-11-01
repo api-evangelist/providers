@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: unknown
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 54.4
-  scored_at: '2026-10-17'
+  score: 46.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -98,11 +100,8 @@ arazzos:
 - description: Clip a video, generate social copy, and publish a clip to a connected social account.
   name: OpusClip — clip a video and publish to social
   slug: opus-clip-and-publish
-artifact_total: 30
+artifact_total: 33
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Clip brand-templates API
   slug: open-opus-brand-templates-api
@@ -137,33 +136,38 @@ collections:
   name: Clip brand-templates transcripts API
   slug: open-opus-transcripts-api
 common:
+- group: other
+  href: https://artifacts.apis.io/opus/capabilities/opus-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/opus-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/plans/opus-plans-pricing.yml
+  href: https://artifacts.apis.io/opus/plans/opus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/opus-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/overlays/opus-openapi-overlay.yaml
+  href: https://artifacts.apis.io/opus/overlays/opus-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/opus-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/agentic-access/opus-agentic-access.yml
+  href: https://artifacts.apis.io/opus/agentic-access/opus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/opus-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/security/opus-trust-center.yml
+  href: https://artifacts.apis.io/opus/security/opus-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/opus-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/security/opus-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/opus/security/opus-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/opus-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/well-known/opus-security.txt
+  href: https://artifacts.apis.io/opus/well-known/opus-security.txt
   title: ''
   type: Security
   url: well-known/opus-security.txt
@@ -172,7 +176,7 @@ common:
   type: Compliance
   url: https://trust.opus.pro/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/security/opus-domain-security.yml
+  href: https://artifacts.apis.io/opus/security/opus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opus-domain-security.yml
@@ -241,87 +245,95 @@ common:
   type: StatusPage
   url: https://status.opus.pro
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/mcp/opus-mcp.yml
+  href: https://artifacts.apis.io/opus/mcp/opus-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/opus-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/opus/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/llms/opus-llms.txt
+  href: https://artifacts.apis.io/opus/llms/opus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/opus-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/packages/opus-packages.yml
+  href: https://artifacts.apis.io/opus/packages/opus-packages.yml
   title: ''
   type: Packages
   url: packages/opus-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/well-known/opus-well-known.yml
+  href: https://artifacts.apis.io/opus/well-known/opus-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/opus-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/well-known/opus-security.txt
+  href: https://artifacts.apis.io/opus/well-known/opus-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/opus-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/conventions/opus-conventions.yml
+  href: https://artifacts.apis.io/opus/conventions/opus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/opus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/errors/opus-problem-types.yml
+  href: https://artifacts.apis.io/opus/errors/opus-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/opus-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/lifecycle/opus-lifecycle.yml
+  href: https://artifacts.apis.io/opus/lifecycle/opus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/opus-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/data-model/opus-data-model.yml
+  href: https://artifacts.apis.io/opus/data-model/opus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/opus-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/conformance/opus-conformance.yml
+  href: https://artifacts.apis.io/opus/conformance/opus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/opus-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/sandbox/opus-sandbox.yml
+  href: https://artifacts.apis.io/opus/sandbox/opus-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/opus-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/conventions/opus-conventions.yml
+  href: https://artifacts.apis.io/opus/conventions/opus-conventions.yml
   title: ''
   type: RateLimits
   url: conventions/opus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/arazzo/opus-clip-and-export.yml
+  href: https://artifacts.apis.io/opus/arazzo/opus-clip-and-export.yml
   title: ''
   type: Arazzo
   url: arazzo/opus-clip-and-export.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/arazzo/opus-clip-and-publish.yml
+  href: https://artifacts.apis.io/opus/arazzo/opus-clip-and-publish.yml
   title: ''
   type: Arazzo
   url: arazzo/opus-clip-and-publish.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/ai-catalog/opus-ai-catalog.yml
+  href: https://artifacts.apis.io/opus/ai-catalog/opus-ai-catalog.yml
   title: ''
   type: AICatalog
   url: ai-catalog/opus-ai-catalog.yml
 created: '2026-07-17'
 description: OpusClip (Opus) is an AI video platform that turns long-form videos into short-form, viral clips and publishes them to social platforms. The OpusClip API lets developers submit a source video by URL or upload, create a clipping project, tune curation/import/render preferences, apply brand templates, retrieve exportable clips and transcripts, organize clips into collections, run censor and generative thumbnail jobs, and generate, publish, or schedule social posts to connected accounts. The API is REST over JSON at https://api.opus.pro, authenticated with a bearer API key, with HMAC-signed webhooks, page-based pagination, and a hosted MCP server plus an Agent Skill for agent-native access. API access is available on the Pro (Beta), Max, and Business plans.
+finops:
+- has_sources: true
+  method: derived
+  name: Opus Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: opus-finops
+  template: false
 image: https://cdn.prod.website-files.com/6388604483b03a9ecb34d695/6435197bfb1d6e486e04c37b_webclip.png
 layout: provider
 mcp_servers:
@@ -335,31 +347,34 @@ network: true
 overview: 'Opus publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Brand Templates API, Censor Jobs API, Clip Project API, and 6 more. Tagged areas include Company, Frontier Tech, Video, Artificial Intelligence, and Video Editing.
 
 
-  Opus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
+  Opus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
 plans:
 - name: Opus Plans Pricing
   plan_count: 4
   slug: opus-plans-pricing
-random_paper: 15
+- name: Opus Price Estimates
+  plan_count: 0
+  slug: opus-price-estimates
+random_paper: 23
 score:
-  band: developing
-  composite: 54.1
+  band: strong
+  composite: 59.0
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 49.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.5
   facets:
-    access_clarity: 84.2
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 44.0
     developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 28.9
-  previous_composite: 47.7
+    discoverability: 65.0
+    operational_transparency: 39.5
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -379,14 +394,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+    score: 32.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/screenshots/opus-2026-08-07T190821.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/opus/opus-2026-08-07T190821.png
 security:
 - kind: authentication
   name: Opus Authentication
@@ -404,6 +420,12 @@ security:
   name: Opus Trust Center
   slug: opus-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 2
+skills:
+- name: Clip a long video and export the best clips
+  slug: opus-clip-and-export
+- name: Clip a video and publish it to social accounts
+  slug: opus-clip-and-publish-social
 slug: opus
 tags:
 - Company

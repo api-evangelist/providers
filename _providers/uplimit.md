@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 23.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://uplimit.com/api/organization
@@ -62,11 +64,8 @@ apis:
   description: The User API from Uplimit — 10 operation(s) for user.
   name: Uplimit User API
   slug: uplimit-user-api
-artifact_total: 14
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Uplimit Organization Course API
   slug: open-uplimit-course-api
@@ -87,12 +86,12 @@ collections:
   slug: open-uplimit-user-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/capabilities/uplimit-capability-edges.yml
+  href: https://artifacts.apis.io/uplimit/capabilities/uplimit-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/uplimit-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/security/uplimit-domain-security.yml
+  href: https://artifacts.apis.io/uplimit/security/uplimit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uplimit-domain-security.yml
@@ -129,47 +128,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/uplimit
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/packages/uplimit-packages.yml
+  href: https://artifacts.apis.io/uplimit/packages/uplimit-packages.yml
   title: ''
   type: Packages
   url: packages/uplimit-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/packages/uplimit-packages.yml
+  href: https://artifacts.apis.io/uplimit/packages/uplimit-packages.yml
   title: ''
   type: SDKs
   url: packages/uplimit-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/well-known/uplimit-well-known.yml
+  href: https://artifacts.apis.io/uplimit/well-known/uplimit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/uplimit-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/mcp/uplimit-mcp.yml
+  href: https://artifacts.apis.io/uplimit/mcp/uplimit-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/uplimit-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/llms/uplimit-llms.txt
+  href: https://artifacts.apis.io/uplimit/llms/uplimit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uplimit-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/overlays/uplimit-organization-overlay.yaml
+  href: https://artifacts.apis.io/uplimit/overlays/uplimit-organization-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/uplimit-organization-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/conformance/uplimit-conformance.yml
+  href: https://artifacts.apis.io/uplimit/conformance/uplimit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uplimit-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/errors/uplimit-problem-types.yml
+  href: https://artifacts.apis.io/uplimit/errors/uplimit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/uplimit-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/lifecycle/uplimit-lifecycle.yml
+  href: https://artifacts.apis.io/uplimit/lifecycle/uplimit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/uplimit-lifecycle.yml
@@ -178,22 +177,22 @@ common:
   type: StatusPage
   url: https://status.uplimit.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/authentication/uplimit-authentication.yml
+  href: https://artifacts.apis.io/uplimit/authentication/uplimit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uplimit-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/conventions/uplimit-conventions.yml
+  href: https://artifacts.apis.io/uplimit/conventions/uplimit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/uplimit-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/data-model/uplimit-data-model.yml
+  href: https://artifacts.apis.io/uplimit/data-model/uplimit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/uplimit-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/uplimit/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -209,10 +208,10 @@ overview: 'Uplimit publishes 5 API contracts indexed on the [APIs.io](https://ap
 
 
   Uplimit''s developer surface includes engineering blog, authentication, and 22 more developer resources.'
-random_paper: 2
+random_paper: 4
 score:
   band: thin
-  composite: 32.8
+  composite: 33.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -227,8 +226,8 @@ score:
     contract_quality: 52.2
     developer_ergonomics: 30.4
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 32.8
+    operational_transparency: 21.1
+  previous_composite: 33.9
   provenance:
     conformance: derived
     contracts:
@@ -244,13 +243,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/screenshots/uplimit-2026-09-02T165038.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/uplimit/uplimit-2026-09-02T165038.png
 security:
 - kind: authentication
   name: Uplimit Authentication
@@ -260,6 +260,14 @@ security:
   name: Uplimit Domain Security
   slug: uplimit-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Export learner activity
+  slug: uplimit-export-learner-activity
+- name: Manage user lifecycle and SSO
+  slug: uplimit-manage-user-lifecycle
+- name: Onboard a user and enroll them into a course or session
+  slug: uplimit-onboard-and-enroll-user
 slug: uplimit
 tags:
 - Company

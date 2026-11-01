@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kraft-heinz/refs/heads/main/security/kraft-heinz-domain-security.yml
+  href: https://artifacts.apis.io/kraft-heinz/security/kraft-heinz-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kraft-heinz-domain-security.yml
@@ -93,12 +95,12 @@ press:
 - date: ''
   title: Kraft Heinz and TheNotCompany Partner to Accelerate AI ...
   url: https://www.delimarketnews.com/culture/kraft-heinz-and-thenotcompany-partner-accelerate-ai-driven-plant-based-innovation-miguel-patricio-and-matias-muchnick-detail/anne-allen/mon-02282022-0850/13144
-random_paper: 1
+random_paper: 19
 score:
   band: minimal
-  composite: 3.5
+  composite: 3.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -110,23 +112,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 49.1
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 3.5
+  previous_composite: 3.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kraft-heinz/refs/heads/main/screenshots/kraft-heinz-2026-06-20T184146.png
+screenshot: https://apis.io/screenshots/kraft-heinz/kraft-heinz-2026-06-20T184146.png
 security:
 - kind: domain-security
   name: Kraft Heinz Domain Security

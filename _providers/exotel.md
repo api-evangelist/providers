@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -75,15 +77,12 @@ apis:
   description: Place and control outbound voice calls.
   name: Exotel Voice API
   slug: exotel-voice-api
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: Exotel AgentStream (also surfaced through the Voicebot and Stream applets) is a documented public WebSocket API for real-time voice media streaming during a call. When a call hits a Voicebot/Stream ap
   name: Exotel AgentStream Voice Streaming API
   slug: exotel-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Exotel Call Details API
   slug: open-exotel-call-details-api
@@ -104,17 +103,17 @@ collections:
   slug: open-exotel
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/agentic-access/exotel-agentic-access.yml
+  href: https://artifacts.apis.io/exotel/agentic-access/exotel-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/exotel-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/security/exotel-domain-security.yml
+  href: https://artifacts.apis.io/exotel/security/exotel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/exotel-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/authentication/exotel-authentication.yml
+  href: https://artifacts.apis.io/exotel/authentication/exotel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/exotel-authentication.yml
@@ -131,17 +130,17 @@ common:
   type: Documentation
   url: https://developer.exotel.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/plans/exotel-plans-pricing.yml
+  href: https://artifacts.apis.io/exotel/plans/exotel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/exotel-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/rate-limits/exotel-rate-limits.yml
+  href: https://artifacts.apis.io/exotel/rate-limits/exotel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/exotel-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/finops/exotel-finops.yml
+  href: https://artifacts.apis.io/exotel/finops/exotel-finops.yml
   title: ''
   type: FinOps
   url: finops/exotel-finops.yml
@@ -176,7 +175,7 @@ plans:
 - name: Exotel Plans Pricing
   plan_count: 4
   slug: exotel-plans-pricing
-random_paper: 19
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Exotel Rate Limits
@@ -195,8 +194,8 @@ rules:
     warn: 4
   slug: exotel-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 28.8
+  band: emerging
+  composite: 18.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 46.8
@@ -204,11 +203,11 @@ score:
     catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 11.4
-    contract_quality: 56.4
+    contract_quality: 12.5
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
@@ -219,7 +218,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 37.2
+  previous_composite: 18.6
   provenance:
     agentic_access: derived
     contracts:
@@ -233,13 +232,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/screenshots/exotel-2026-07-25T213905.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/exotel/exotel-2026-07-25T213905.png
 security:
 - kind: authentication
   name: Exotel Authentication

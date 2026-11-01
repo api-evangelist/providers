@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Prime Roots Shopify storefront''s agent-facing commerce surface: a UCP merchant profile, a hosted MCP endpoint for catalog/cart/checkout, and read-only storefront JSON endpoints.'
@@ -65,22 +67,22 @@ common:
   type: TermsOfService
   url: https://www.primeroots.com/policies/terms-of-service
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prime-roots/refs/heads/main/llms/prime-roots-llms.txt
+  href: https://artifacts.apis.io/prime-roots/llms/prime-roots-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/prime-roots-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prime-roots/refs/heads/main/mcp/prime-roots-mcp.yml
+  href: https://artifacts.apis.io/prime-roots/mcp/prime-roots-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/prime-roots-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prime-roots/refs/heads/main/well-known/prime-roots-well-known.yml
+  href: https://artifacts.apis.io/prime-roots/well-known/prime-roots-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/prime-roots-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prime-roots/refs/heads/main/security/prime-roots-domain-security.yml
+  href: https://artifacts.apis.io/prime-roots/security/prime-roots-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prime-roots-domain-security.yml
@@ -100,10 +102,10 @@ overview: 'Prime Roots is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   Prime Roots'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: emerging
-  composite: 12.0
+  composite: 11.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 32.0
@@ -117,9 +119,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 0.0
-  previous_composite: 12.0
+  previous_composite: 11.0
   provenance:
     mcp: platform-generated
   regulatory:
@@ -128,14 +130,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/prime-roots/refs/heads/main/screenshots/prime-roots-2026-09-02T152018.png
+screenshot: https://apis.io/screenshots/prime-roots/prime-roots-2026-09-02T152018.png
 security:
 - kind: domain-security
   name: Prime Roots Domain Security

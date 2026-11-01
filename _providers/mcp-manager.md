@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,18 +35,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Control-plane surface that lets an agent or script manage MCP Manager configuration — servers, gateways, identities, hosts, teams, roles, logs, and integrations — with the same actions as the app, sco
   name: MCP Manager Admin API
   slug: mcp-manager-admin-api
-artifact_total: 6
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Mcp Manager Webhooks
   slug: mcp-manager-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/mcp-manager/plans/mcp-manager-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mcp-manager-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -98,77 +105,85 @@ common:
   type: StatusPage
   url: https://status.mcpmanager.ai/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/mcp/mcp-manager-mcp.yml
+  href: https://artifacts.apis.io/mcp-manager/mcp/mcp-manager-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mcp-manager-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/skills/mcp-manager-skill.md
+  href: https://artifacts.apis.io/mcp-manager/skills/mcp-manager-skill.md
   title: ''
   type: AgentSkill
   url: skills/mcp-manager-skill.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/llms/mcp-manager-llms.txt
+  href: https://artifacts.apis.io/mcp-manager/llms/mcp-manager-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mcp-manager-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/authentication/mcp-manager-authentication.yml
+  href: https://artifacts.apis.io/mcp-manager/authentication/mcp-manager-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mcp-manager-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/conventions/mcp-manager-conventions.yml
+  href: https://artifacts.apis.io/mcp-manager/conventions/mcp-manager-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mcp-manager-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/conventions/mcp-manager-conventions.yml
+  href: https://artifacts.apis.io/mcp-manager/conventions/mcp-manager-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/mcp-manager-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/errors/mcp-manager-problem-types.yml
+  href: https://artifacts.apis.io/mcp-manager/errors/mcp-manager-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mcp-manager-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/conformance/mcp-manager-conformance.yml
+  href: https://artifacts.apis.io/mcp-manager/conformance/mcp-manager-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mcp-manager-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/security/mcp-manager-trust-center.yml
+  href: https://artifacts.apis.io/mcp-manager/security/mcp-manager-trust-center.yml
   title: ''
   type: Compliance
   url: security/mcp-manager-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/security/mcp-manager-trust-center.yml
+  href: https://artifacts.apis.io/mcp-manager/security/mcp-manager-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mcp-manager-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/security/mcp-manager-domain-security.yml
+  href: https://artifacts.apis.io/mcp-manager/security/mcp-manager-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mcp-manager-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/lifecycle/mcp-manager-lifecycle.yml
+  href: https://artifacts.apis.io/mcp-manager/lifecycle/mcp-manager-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mcp-manager-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/data-model/mcp-manager-data-model.yml
+  href: https://artifacts.apis.io/mcp-manager/data-model/mcp-manager-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mcp-manager-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/asyncapi/mcp-manager-webhooks.yml
+  href: https://artifacts.apis.io/mcp-manager/asyncapi/mcp-manager-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mcp-manager-webhooks.yml
 created: '2026-07-17'
 description: MCP Manager, by Usercentrics, is an enterprise governance and security layer for the Model Context Protocol (MCP). It sits as a governed gateway between AI clients (Claude, ChatGPT, Cursor, and custom agents) and MCP servers — SaaS tools, internal databases, and custom servers — authenticating every request, brokering per-user or shared identities, inspecting traffic against gateway rules (regex, Microsoft Presidio, and custom rule engines) for PII and prompt-injection defense, provisioning tool allowlists, and logging every call with full attribution plus OpenTelemetry export to any SIEM. It ships an Admin API and MCP server (closed beta) that manage servers, gateways, identities, hosts, teams, roles, and logs over both MCP tools and a REST twin.
+finops:
+- has_sources: true
+  method: derived
+  name: Mcp Manager Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: mcp-manager-finops
+  template: false
 image: https://mcpmanager.ai/wp-content/uploads/mcp-manager-og-share-image.png
 layout: provider
 mcp_servers:
@@ -185,27 +200,34 @@ overview: 'MCP Manager is listed with 1 API on the [APIs.io](https://apis.io/) n
   The MCP Manager catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MCP Manager''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 18
+  MCP Manager''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
+plans:
+- name: Mcp Manager Plans Pricing
+  plan_count: 4
+  slug: mcp-manager-plans-pricing
+- name: Mcp Manager Price Estimates
+  plan_count: 0
+  slug: mcp-manager-price-estimates
+random_paper: 16
 score:
-  band: developing
-  composite: 49.0
+  band: strong
+  composite: 56.2
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 16
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 59.5
-    discoverability: 71.7
+    discoverability: 65.0
     operational_transparency: 28.9
-  previous_composite: 48.9
+  previous_composite: 48.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -216,14 +238,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/screenshots/mcp-manager-2026-08-07T172245.png
+screenshot: https://apis.io/screenshots/mcp-manager/mcp-manager-2026-08-07T172245.png
 security:
 - kind: authentication
   name: Mcp Manager Authentication
@@ -237,6 +259,10 @@ security:
   name: Mcp Manager Trust Center
   slug: mcp-manager-trust-center
   summary_line: SOC 2 Type 2, HIPAA, ISO 27001:2022, ISO 27701:2019, TISAX Level 3
+skill_count: 1
+skills:
+- name: Mcpmanager
+  slug: mcp-manager-skill
 slug: mcp-manager
 tags:
 - Company

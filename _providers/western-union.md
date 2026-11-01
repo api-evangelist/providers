@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.1
-  scored_at: '2026-10-17'
+  score: 26.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -82,11 +84,8 @@ apis:
   description: FX rate and payment quote generation.
   name: western-union Quotes API
   slug: western-union-quotes-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Western Union Mass Payments Balances API
   slug: open-western-union-balances-api
@@ -113,37 +112,37 @@ collections:
   slug: open-western-union-quotes-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/plans/western-union-plans-pricing.yml
+  href: https://artifacts.apis.io/western-union/plans/western-union-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/western-union-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/rate-limits/western-union-rate-limits.yml
+  href: https://artifacts.apis.io/western-union/rate-limits/western-union-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/western-union-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/finops/western-union-finops.yml
+  href: https://artifacts.apis.io/western-union/finops/western-union-finops.yml
   title: ''
   type: FinOps
   url: finops/western-union-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/capabilities/western-union-capability-edges.yml
+  href: https://artifacts.apis.io/western-union/capabilities/western-union-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/western-union-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/agentic-access/western-union-agentic-access.yml
+  href: https://artifacts.apis.io/western-union/agentic-access/western-union-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/western-union-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/security/western-union-domain-security.yml
+  href: https://artifacts.apis.io/western-union/security/western-union-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/western-union-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/authentication/western-union-authentication.yml
+  href: https://artifacts.apis.io/western-union/authentication/western-union-authentication.yml
   title: ''
   type: Authentication
   url: authentication/western-union-authentication.yml
@@ -251,7 +250,7 @@ press:
 - date: ''
   title: Western Union Builds on Accelerator Momentum with New ...
   url: https://ir.westernunion.com/news/archived-press-releases/press-release-details/2019/Western-Union-Builds-on-Accelerator-Momentum-with-New-Artificial-Intelligence-Projects/default.aspx
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Western Union Rate Limits
@@ -282,7 +281,7 @@ rules:
   slug: western-union-rules
 score:
   band: thin
-  composite: 34.9
+  composite: 37.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 50.5
@@ -290,14 +289,14 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 57.5
-    developer_ergonomics: 36.9
+    developer_ergonomics: 42.9
     discoverability: 60.7
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -305,7 +304,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 36.5
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -319,13 +318,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/screenshots/western-union-2026-06-20T201410.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/western-union/western-union-2026-06-20T201410.png
 security:
 - kind: authentication
   name: Western Union Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -104,15 +106,12 @@ apis:
   description: The Lambda Support Ticketing API is currently in beta. Contact support to enable access.
   name: Lambda Support Tickets API
   slug: lambda-labs-support-tickets-api
-artifact_total: 42
+artifact_total: 41
 asyncapis:
 - description: AsyncAPI 2.6 description of the Lambda (formerly Lambda Labs) **Inference API** chat completion streaming surface. The Lambda Inference API is an OpenAI-compatible REST gateway hosted at `https://api.
   name: Lambda Inference API Chat Completions Streaming (HTTP + SSE)
   slug: lambda-labs-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Lambda Cloud Audit Events API
   slug: open-lambda-labs-audit-events-api
@@ -144,48 +143,52 @@ collections:
   name: Lambda Cloud API
   slug: open-lambda-labs
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/lambda/overview
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/rate-limits/lambda-labs-rate-limits.yml
+  href: https://artifacts.apis.io/lambda-labs/rate-limits/lambda-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lambda-labs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/finops/lambda-labs-finops.yml
+  href: https://artifacts.apis.io/lambda-labs/finops/lambda-labs-finops.yml
   title: ''
   type: FinOps
   url: finops/lambda-labs-finops.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/plans/lambda-labs-plans-pricing.yml
+  href: https://artifacts.apis.io/lambda-labs/plans/lambda-labs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lambda-labs-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/capabilities/lambda-labs-capability-edges.yml
+  href: https://artifacts.apis.io/lambda-labs/capabilities/lambda-labs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lambda-labs-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/agentic-access/lambda-labs-agentic-access.yml
+  href: https://artifacts.apis.io/lambda-labs/agentic-access/lambda-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lambda-labs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/security/lambda-labs-trust-center.yml
+  href: https://artifacts.apis.io/lambda-labs/security/lambda-labs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lambda-labs-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/security/lambda-labs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/lambda-labs/security/lambda-labs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lambda-labs-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/security/lambda-labs-domain-security.yml
+  href: https://artifacts.apis.io/lambda-labs/security/lambda-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lambda-labs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/authentication/lambda-labs-authentication.yml
+  href: https://artifacts.apis.io/lambda-labs/authentication/lambda-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lambda-labs-authentication.yml
@@ -263,13 +266,13 @@ features:
 - description: Persistent, sharable storage attached to on-demand instances for datasets and checkpoints.
   name: Filesystems
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Lambda Labs Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: gpu per hour
+  service_category: ''
   slug: lambda-labs-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lambda-labs.png
 integrations:
 - description: Reference workflows and templates for serving and training Hugging Face models on Lambda Cloud.
@@ -289,7 +292,7 @@ overview: 'Lambda publishes 13 API contracts indexed on the [APIs.io](https://ap
   The Lambda catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Lambda''s developer surface includes authentication, documentation, developer portal, signup flow, pricing, engineering blog, support, and 16 more developer resources.'
+  Lambda''s developer surface includes authentication, documentation, developer portal, signup flow, pricing, engineering blog, support, and 17 more developer resources.'
 plans:
 - name: Lambda Labs Plans Pricing
   plan_count: 16
@@ -314,23 +317,23 @@ rules:
   slug: lambda-labs-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 48.4
+  composite: 53.7
   coverage:
     artifact_dirs: 15
-    catalog_earned: 49.8
+    catalog_earned: 52.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 65.3
+    catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.3
+  delta: 1.8
   facets:
-    access_clarity: 77.6
+    access_clarity: 92.1
     contract_governance: 11.4
-    contract_quality: 58.1
-    developer_ergonomics: 45.2
+    contract_quality: 56.9
+    developer_ergonomics: 46.4
     discoverability: 57.1
-    operational_transparency: 7.9
-  previous_composite: 51.7
+    operational_transparency: 21.1
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     contracts:
@@ -344,13 +347,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/screenshots/lambda-labs-2026-06-20T184251.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lambda-labs/lambda-labs-2026-06-20T184251.png
 security:
 - kind: authentication
   name: Lambda Labs Authentication

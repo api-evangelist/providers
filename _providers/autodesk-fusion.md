@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.2
-  scored_at: '2026-10-17'
+  score: 33.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 3
@@ -223,11 +225,8 @@ apis:
   description: The Versions API from Autodesk Fusion — 8 operation(s) for versions.
   name: Autodesk Fusion Versions API
   slug: autodesk-fusion-versions-api
-artifact_total: 80
+artifact_total: 79
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Construction.Account.Admin Account Management API
   slug: open-autodesk-fusion-account-management-api
@@ -332,27 +331,27 @@ collections:
   slug: open-autodesk-fusion-versions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autodesk-fusion/refs/heads/main/capabilities/autodesk-fusion-capability-edges.yml
+  href: https://artifacts.apis.io/autodesk-fusion/capabilities/autodesk-fusion-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/autodesk-fusion-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autodesk-fusion/refs/heads/main/agentic-access/autodesk-fusion-agentic-access.yml
+  href: https://artifacts.apis.io/autodesk-fusion/agentic-access/autodesk-fusion-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/autodesk-fusion-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autodesk-fusion/refs/heads/main/security/autodesk-fusion-domain-security.yml
+  href: https://artifacts.apis.io/autodesk-fusion/security/autodesk-fusion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autodesk-fusion-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autodesk-fusion/refs/heads/main/authentication/autodesk-fusion-authentication.yml
+  href: https://artifacts.apis.io/autodesk-fusion/authentication/autodesk-fusion-authentication.yml
   title: ''
   type: Authentication
   url: authentication/autodesk-fusion-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autodesk-fusion/refs/heads/main/scopes/autodesk-fusion-scopes.yml
+  href: https://artifacts.apis.io/autodesk-fusion/scopes/autodesk-fusion-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/autodesk-fusion-scopes.yml
@@ -393,17 +392,17 @@ common:
   type: X
   url: https://x.com/autodeskaps
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autodesk-fusion/refs/heads/main/plans/autodesk-fusion-plans-pricing.yml
+  href: https://artifacts.apis.io/autodesk-fusion/plans/autodesk-fusion-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/autodesk-fusion-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/autodesk-fusion/refs/heads/main/rate-limits/autodesk-fusion-rate-limits.yml
+  href: https://artifacts.apis.io/autodesk-fusion/rate-limits/autodesk-fusion-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/autodesk-fusion-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autodesk-fusion/refs/heads/main/finops/autodesk-fusion-finops.yml
+  href: https://artifacts.apis.io/autodesk-fusion/finops/autodesk-fusion-finops.yml
   title: ''
   type: FinOps
   url: finops/autodesk-fusion-finops.yml
@@ -447,7 +446,7 @@ plans:
 - name: Autodesk Fusion Plans Pricing
   plan_count: 5
   slug: autodesk-fusion-plans-pricing
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Autodesk Fusion Rate Limits
@@ -459,7 +458,7 @@ scopes:
   summary_line: 14 scopes · clientCredentials/implicit/authorizationCode
 score:
   band: thin
-  composite: 34.9
+  composite: 33.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 45.0
@@ -467,15 +466,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
-    contract_quality: 50.0
+    contract_quality: 48.5
     developer_ergonomics: 28.6
     discoverability: 71.4
     operational_transparency: 26.3
-  previous_composite: 42.3
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -489,13 +488,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-fusion/refs/heads/main/screenshots/autodesk-fusion-2026-06-20T172708.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/autodesk-fusion/autodesk-fusion-2026-06-20T172708.png
 security:
 - kind: authentication
   name: Autodesk Fusion Authentication

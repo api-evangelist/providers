@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: BlogRSS
   url: https://blog.motorway.co.uk/feed
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/motorway/refs/heads/main/security/motorway-domain-security.yml
+  href: https://artifacts.apis.io/motorway/security/motorway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/motorway-domain-security.yml
@@ -50,7 +52,7 @@ common:
   type: Website
   url: https://motorway.co.uk/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/motorway/refs/heads/main/llms/motorway-llms.txt
+  href: https://artifacts.apis.io/motorway/llms/motorway-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/motorway-llms.txt
@@ -82,12 +84,12 @@ overview: 'Motorway is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Motorway''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 18
+random_paper: 10
 score:
   band: minimal
-  composite: 10.1
+  composite: 9.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -99,7 +101,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -109,21 +111,21 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 10.1
+  previous_composite: 9.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/motorway/refs/heads/main/screenshots/motorway-2026-08-07T184338.png
+screenshot: https://apis.io/screenshots/motorway/motorway-2026-08-07T184338.png
 security:
 - kind: domain-security
   name: Motorway Domain Security

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.6
-  scored_at: '2026-10-17'
+  score: 30.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 119
@@ -204,11 +206,8 @@ apis:
   description: The widgets API from VersusGame — 5 operation(s) for widgets.
   name: VersusGame Widgets API
   slug: versusgame-widgets-api
-artifact_total: 69
+artifact_total: 71
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Versusgame Achievements API
   slug: open-versusgame-achievements-api
@@ -310,82 +309,82 @@ collections:
   slug: open-versusgame-widgets-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/capabilities/versusgame-capability-edges.yml
+  href: https://artifacts.apis.io/versusgame/capabilities/versusgame-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/versusgame-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/mcp/versusgame-mcp.yml
+  href: https://artifacts.apis.io/versusgame/mcp/versusgame-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/versusgame-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/agentic-access/versusgame-agentic-access.yml
+  href: https://artifacts.apis.io/versusgame/agentic-access/versusgame-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/versusgame-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/security/versusgame-domain-security.yml
+  href: https://artifacts.apis.io/versusgame/security/versusgame-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/versusgame-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/authentication/versusgame-authentication.yml
+  href: https://artifacts.apis.io/versusgame/authentication/versusgame-authentication.yml
   title: ''
   type: Authentication
   url: authentication/versusgame-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/conventions/versusgame-conventions.yml
+  href: https://artifacts.apis.io/versusgame/conventions/versusgame-conventions.yml
   title: ''
   type: Conventions
   url: conventions/versusgame-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/conventions/versusgame-conventions.yml
+  href: https://artifacts.apis.io/versusgame/conventions/versusgame-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/versusgame-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/errors/versusgame-problem-types.yml
+  href: https://artifacts.apis.io/versusgame/errors/versusgame-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/versusgame-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/lifecycle/versusgame-lifecycle.yml
+  href: https://artifacts.apis.io/versusgame/lifecycle/versusgame-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/versusgame-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/conformance/versusgame-conformance.yml
+  href: https://artifacts.apis.io/versusgame/conformance/versusgame-conformance.yml
   title: ''
   type: Conformance
   url: conformance/versusgame-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/data-model/versusgame-data-model.yml
+  href: https://artifacts.apis.io/versusgame/data-model/versusgame-data-model.yml
   title: ''
   type: DataModel
   url: data-model/versusgame-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/components/versusgame-components.yml
+  href: https://artifacts.apis.io/versusgame/components/versusgame-components.yml
   title: ''
   type: Components
   url: components/versusgame-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/packages/versusgame-packages.yml
+  href: https://artifacts.apis.io/versusgame/packages/versusgame-packages.yml
   title: ''
   type: Packages
   url: packages/versusgame-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/overlays/versusgame-api-overlay.yaml
+  href: https://artifacts.apis.io/versusgame/overlays/versusgame-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/versusgame-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/llms/versusgame-llms.txt
+  href: https://artifacts.apis.io/versusgame/llms/versusgame-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/versusgame-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/versusgame/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -433,10 +432,10 @@ overview: 'VersusGame publishes 32 API contracts indexed on the [APIs.io](https:
 
 
   VersusGame''s developer surface includes authentication and 23 more developer resources.'
-random_paper: 12
+random_paper: 10
 score:
-  band: thin
-  composite: 28.2
+  band: emerging
+  composite: 26.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -444,15 +443,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 39.2
+    contract_quality: 37.9
     developer_ergonomics: 20.8
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 28.1
+    operational_transparency: 5.3
+  previous_composite: 26.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -469,13 +468,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/screenshots/versusgame-2026-09-02T165753.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/versusgame/versusgame-2026-09-02T165753.png
 security:
 - kind: authentication
   name: Versusgame Authentication
@@ -485,6 +485,14 @@ security:
   name: Versusgame Domain Security
   slug: versusgame-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Turn an article into prediction games with autogame
+  slug: versusgame-autogame-article-to-games
+- name: Create and settle a VersusGame prediction game
+  slug: versusgame-create-and-settle-a-game
+- name: Play a VersusGame game and claim the reward
+  slug: versusgame-play-and-claim-rewards
 slug: versusgame
 tags:
 - Company

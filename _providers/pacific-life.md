@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pacific-life/refs/heads/main/security/pacific-life-domain-security.yml
+  href: https://artifacts.apis.io/pacific-life/security/pacific-life-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pacific-life-domain-security.yml
@@ -74,12 +76,12 @@ press:
 - date: ''
   title: Press room | Deloitte Asia Pacific
   url: https://www.deloitte.com/ap/en/about/press-room.html
-random_paper: 14
+random_paper: 4
 score:
   band: minimal
   composite: 3.1
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -105,14 +107,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pacific-life/refs/heads/main/screenshots/pacific-life-2026-06-20T191309.png
+screenshot: https://apis.io/screenshots/pacific-life/pacific-life-2026-06-20T191309.png
 security:
 - kind: domain-security
   name: Pacific Life Domain Security

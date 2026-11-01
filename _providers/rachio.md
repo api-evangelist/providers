@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
+  score: 30.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 11
@@ -83,39 +85,44 @@ apis:
   description: The WebhookService API from Rachio — 7 operation(s) for webhookservice.
   name: Rachio Webhook Service API
   slug: rachio-webhookservice-api
-artifact_total: 36
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Rachio Webhooks
   slug: rachio-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/rachio/capabilities/rachio-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/rachio-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/agentic-access/rachio-agentic-access.yml
+  href: https://artifacts.apis.io/rachio/agentic-access/rachio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rachio-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/rules/rachio-rules.yml
+  href: https://artifacts.apis.io/rachio/rules/rachio-rules.yml
   title: ''
   type: Spectral
   url: rules/rachio-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/json-ld/rachio-context.jsonld
+  href: https://artifacts.apis.io/rachio/json-ld/rachio-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/rachio-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/vocabulary/rachio-vocabulary.yml
+  href: https://artifacts.apis.io/rachio/vocabulary/rachio-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/rachio-vocabulary.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/hosts/rachio-hosts.yml
+  href: https://artifacts.apis.io/rachio/hosts/rachio-hosts.yml
   title: ''
   type: Hosts
   url: hosts/rachio-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/vendors/rachio-vendors.yml
+  href: https://artifacts.apis.io/rachio/vendors/rachio-vendors.yml
   title: ''
   type: Vendors
   url: vendors/rachio-vendors.yml
@@ -172,62 +179,62 @@ common:
   type: PrivacyPolicy
   url: https://rachio.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/authentication/rachio-authentication.yml
+  href: https://artifacts.apis.io/rachio/authentication/rachio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rachio-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/conventions/rachio-conventions.yml
+  href: https://artifacts.apis.io/rachio/conventions/rachio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rachio-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/rate-limits/rachio-rate-limits.yml
+  href: https://artifacts.apis.io/rachio/rate-limits/rachio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rachio-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/asyncapi/rachio-webhooks.yml
+  href: https://artifacts.apis.io/rachio/asyncapi/rachio-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/rachio-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/errors/rachio-problem-types.yml
+  href: https://artifacts.apis.io/rachio/errors/rachio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rachio-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/data-model/rachio-data-model.yml
+  href: https://artifacts.apis.io/rachio/data-model/rachio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rachio-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/lifecycle/rachio-lifecycle.yml
+  href: https://artifacts.apis.io/rachio/lifecycle/rachio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rachio-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/conformance/rachio-conformance.yml
+  href: https://artifacts.apis.io/rachio/conformance/rachio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rachio-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/mcp/rachio-mcp.yml
+  href: https://artifacts.apis.io/rachio/mcp/rachio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rachio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/llms/rachio-llms.txt
+  href: https://artifacts.apis.io/rachio/llms/rachio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rachio-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rachio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/security/rachio-domain-security.yml
+  href: https://artifacts.apis.io/rachio/security/rachio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rachio-domain-security.yml
@@ -314,8 +321,8 @@ overview: 'Rachio publishes 8 API contracts indexed on the [APIs.io](https://api
   The Rachio catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Rachio''s developer surface includes signup flow, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
-random_paper: 14
+  Rachio''s developer surface includes signup flow, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 25 more developer resources.'
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Rachio Rate Limits
@@ -335,23 +342,23 @@ rules:
   slug: rachio-rules
 score:
   band: strong
-  composite: 57.8
+  composite: 55.0
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 73.8
     catalog_earned_first_party: 8.0
     catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 17.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 22.0
     contract_quality: 68.5
     developer_ergonomics: 58.9
-    discoverability: 80.4
+    discoverability: 73.2
     operational_transparency: 44.7
-  previous_composite: 40.8
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -368,13 +375,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/screenshots/rachio-2026-08-17T081438.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rachio/rachio-2026-08-17T081438.png
 security:
 - kind: authentication
   name: Rachio Authentication
@@ -384,6 +392,12 @@ security:
   name: Rachio Domain Security
   slug: rachio-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Subscribe to device and schedule events
+  slug: rachio-subscribe-to-events
+- name: Start and stop watering a zone
+  slug: rachio-water-a-zone
 slug: rachio
 tags:
 - Company

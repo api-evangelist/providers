@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: The foundational specification of the Zero Trust security model. Defines the seven tenets, the PDP/PEP/PA logical components, and the deployment variants (enhanced identity governance, microsegmentati
@@ -54,27 +56,27 @@ apis:
 artifact_total: 30
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/plans/zero-trust-security-model-plans-pricing.yml
+  href: https://artifacts.apis.io/zero-trust-security-model/plans/zero-trust-security-model-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zero-trust-security-model-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/rate-limits/zero-trust-security-model-rate-limits.yml
+  href: https://artifacts.apis.io/zero-trust-security-model/rate-limits/zero-trust-security-model-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zero-trust-security-model-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/finops/zero-trust-security-model-finops.yml
+  href: https://artifacts.apis.io/zero-trust-security-model/finops/zero-trust-security-model-finops.yml
   title: ''
   type: FinOps
   url: finops/zero-trust-security-model-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/security/zero-trust-security-model-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zero-trust-security-model/security/zero-trust-security-model-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zero-trust-security-model-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/security/zero-trust-security-model-domain-security.yml
+  href: https://artifacts.apis.io/zero-trust-security-model/security/zero-trust-security-model-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zero-trust-security-model-domain-security.yml
@@ -131,32 +133,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/open-policy-agent
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/json-schema/zero-trust-security-model-pillar-schema.json
+  href: https://artifacts.apis.io/zero-trust-security-model/json-schema/zero-trust-security-model-pillar-schema.json
   title: Zero Trust Pillar Schema
   type: JSONSchema
   url: json-schema/zero-trust-security-model-pillar-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/json-schema/zero-trust-security-model-maturity-schema.json
+  href: https://artifacts.apis.io/zero-trust-security-model/json-schema/zero-trust-security-model-maturity-schema.json
   title: Zero Trust Maturity Assessment Schema
   type: JSONSchema
   url: json-schema/zero-trust-security-model-maturity-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/json-structure/zero-trust-security-model-pillar-structure.json
+  href: https://artifacts.apis.io/zero-trust-security-model/json-structure/zero-trust-security-model-pillar-structure.json
   title: Zero Trust Pillar Structure
   type: JSONStructure
   url: json-structure/zero-trust-security-model-pillar-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/json-ld/zero-trust-security-model-context.jsonld
+  href: https://artifacts.apis.io/zero-trust-security-model/json-ld/zero-trust-security-model-context.jsonld
   title: Zero Trust Security Model JSON-LD Context
   type: JSONLD
   url: json-ld/zero-trust-security-model-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/examples/zero-trust-security-model-maturity-example.json
+  href: https://artifacts.apis.io/zero-trust-security-model/examples/zero-trust-security-model-maturity-example.json
   title: Zero Trust Maturity Assessment Example
   type: CodeExamples
   url: examples/zero-trust-security-model-maturity-example.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/vocabulary/zero-trust-security-model-vocabulary.yaml
+  href: https://artifacts.apis.io/zero-trust-security-model/vocabulary/zero-trust-security-model-vocabulary.yaml
   title: Zero Trust Security Model Vocabulary
   type: Resources
   url: vocabulary/zero-trust-security-model-vocabulary.yaml
@@ -187,7 +189,7 @@ finops:
 - has_sources: false
   method: generated
   name: Zero Trust Security Model Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: zero-trust-security-model-finops
   template: true
@@ -224,7 +226,7 @@ plans:
 - name: Zero Trust Security Model Plans Pricing
   plan_count: 3
   slug: zero-trust-security-model-plans-pricing
-random_paper: 4
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Zero Trust Security Model Rate Limits
@@ -243,7 +245,7 @@ rules:
   slug: zero-trust-security-model-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.8
+  composite: 25.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 52.3
@@ -251,29 +253,29 @@ score:
     catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 17.2
     developer_ergonomics: 26.2
     discoverability: 69.6
-    operational_transparency: 13.2
-  previous_composite: 25.4
+    operational_transparency: 23.7
+  previous_composite: 25.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/screenshots/zero-trust-security-model-2026-06-20T201831.png
+screenshot: https://apis.io/screenshots/zero-trust-security-model/zero-trust-security-model-2026-06-20T201831.png
 security:
 - kind: domain-security
   name: Zero Trust Security Model Domain Security

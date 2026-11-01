@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +63,7 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/qlaris-bio-inc/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qlaris-bio/refs/heads/main/security/qlaris-bio-domain-security.yml
+  href: https://artifacts.apis.io/qlaris-bio/security/qlaris-bio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qlaris-bio-domain-security.yml
@@ -77,12 +79,12 @@ overview: 'Qlaris Bio is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Qlaris Bio''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 21
+random_paper: 3
 score:
   band: minimal
   composite: 9.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -103,14 +105,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/qlaris-bio/refs/heads/main/screenshots/qlaris-bio-2026-09-02T152516.png
+screenshot: https://apis.io/screenshots/qlaris-bio/qlaris-bio-2026-09-02T152516.png
 security:
 - kind: domain-security
   name: Qlaris Bio Domain Security

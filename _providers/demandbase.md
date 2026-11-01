@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 60.6
-  scored_at: '2026-10-17'
+  score: 54.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 54
   slug: demandbase-agentic-access
   summary_line: 54 operations · 19 acting
-api_count: 16
+api_count: 8
 apis:
 - description: Hosted remote Model Context Protocol server exposing Demandbase account, person, intent, buying-group, account-brief, global company/contact and reference capabilities to AI assistants. OAuth 2.1 auth
   name: Demandbase MCP Server
@@ -131,7 +133,7 @@ apis:
   description: The User Management API from Demandbase — 3 operation(s) for user management.
   name: Demandbase User Management API
   slug: demandbase-user-management-api
-artifact_total: 36
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Demandbase Webhooks
@@ -162,8 +164,12 @@ collections:
   name: Usage API
   slug: open-demandbase-usage
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/demandbase/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/capabilities/demandbase-capability-edges.yml
+  href: https://artifacts.apis.io/demandbase/capabilities/demandbase-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/demandbase-capability-edges.yml
@@ -172,62 +178,62 @@ common:
   type: Website
   url: https://www.demandbase.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/overlays/demandbase-b2b-overlay.yaml
+  href: https://artifacts.apis.io/demandbase/overlays/demandbase-b2b-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demandbase-b2b-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/overlays/demandbase-data-export-overlay.yaml
+  href: https://artifacts.apis.io/demandbase/overlays/demandbase-data-export-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demandbase-data-export-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/overlays/demandbase-data-import-overlay.yaml
+  href: https://artifacts.apis.io/demandbase/overlays/demandbase-data-import-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demandbase-data-import-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/overlays/demandbase-intent-overlay.yaml
+  href: https://artifacts.apis.io/demandbase/overlays/demandbase-intent-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demandbase-intent-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/overlays/demandbase-admin-overlay.yaml
+  href: https://artifacts.apis.io/demandbase/overlays/demandbase-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demandbase-admin-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/overlays/demandbase-usage-overlay.yaml
+  href: https://artifacts.apis.io/demandbase/overlays/demandbase-usage-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demandbase-usage-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/overlays/demandbase-custom-sources-overlay.yaml
+  href: https://artifacts.apis.io/demandbase/overlays/demandbase-custom-sources-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demandbase-custom-sources-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/overlays/demandbase-auth-overlay.yaml
+  href: https://artifacts.apis.io/demandbase/overlays/demandbase-auth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demandbase-auth-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/agentic-access/demandbase-agentic-access.yml
+  href: https://artifacts.apis.io/demandbase/agentic-access/demandbase-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/demandbase-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/security/demandbase-trust-center.yml
+  href: https://artifacts.apis.io/demandbase/security/demandbase-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/demandbase-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/security/demandbase-domain-security.yml
+  href: https://artifacts.apis.io/demandbase/security/demandbase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/demandbase-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/authentication/demandbase-authentication.yml
+  href: https://artifacts.apis.io/demandbase/authentication/demandbase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/demandbase-authentication.yml
@@ -280,42 +286,42 @@ common:
   type: Signup
   url: https://www.demandbase.com/products/data/api-integration/api-trial/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/vocabulary/demandbase-vocabulary.yml
+  href: https://artifacts.apis.io/demandbase/vocabulary/demandbase-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/demandbase-vocabulary.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/packages/demandbase-packages.yml
+  href: https://artifacts.apis.io/demandbase/packages/demandbase-packages.yml
   title: ''
   type: Packages
   url: packages/demandbase-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/packages/demandbase-packages.yml
+  href: https://artifacts.apis.io/demandbase/packages/demandbase-packages.yml
   title: ''
   type: SDKs
   url: packages/demandbase-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/well-known/demandbase-well-known.yml
+  href: https://artifacts.apis.io/demandbase/well-known/demandbase-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/demandbase-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/mcp/demandbase-mcp.yml
+  href: https://artifacts.apis.io/demandbase/mcp/demandbase-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/demandbase-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/mcp/demandbase-tool-crosswalk.yml
+  href: https://artifacts.apis.io/demandbase/mcp/demandbase-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/demandbase-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/llms/demandbase-llms.txt
+  href: https://artifacts.apis.io/demandbase/llms/demandbase-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/demandbase-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/conformance/demandbase-conformance.yml
+  href: https://artifacts.apis.io/demandbase/conformance/demandbase-conformance.yml
   title: ''
   type: Conformance
   url: conformance/demandbase-conformance.yml
@@ -324,17 +330,17 @@ common:
   type: Compliance
   url: https://trust.demandbase.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/errors/demandbase-error-codes.yml
+  href: https://artifacts.apis.io/demandbase/errors/demandbase-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/demandbase-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/errors/demandbase-problem-types.yml
+  href: https://artifacts.apis.io/demandbase/errors/demandbase-problem-types.yml
   title: ''
   type: ErrorCodes
   url: errors/demandbase-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/lifecycle/demandbase-lifecycle.yml
+  href: https://artifacts.apis.io/demandbase/lifecycle/demandbase-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/demandbase-lifecycle.yml
@@ -343,47 +349,47 @@ common:
   type: Deprecation
   url: https://developer.demandbase.com/docs/migrating-from-legacy-tokens-to-api-keysets
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/scopes/demandbase-scopes.yml
+  href: https://artifacts.apis.io/demandbase/scopes/demandbase-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/demandbase-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/conventions/demandbase-conventions.yml
+  href: https://artifacts.apis.io/demandbase/conventions/demandbase-conventions.yml
   title: ''
   type: Conventions
   url: conventions/demandbase-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/changelog/demandbase-changelog.yml
+  href: https://artifacts.apis.io/demandbase/changelog/demandbase-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/demandbase-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/data-model/demandbase-data-model.yml
+  href: https://artifacts.apis.io/demandbase/data-model/demandbase-data-model.yml
   title: ''
   type: DataModel
   url: data-model/demandbase-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/asyncapi/demandbase-webhooks.yml
+  href: https://artifacts.apis.io/demandbase/asyncapi/demandbase-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/demandbase-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/demandbase/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/rate-limits/demandbase-rate-limits.yml
+  href: https://artifacts.apis.io/demandbase/rate-limits/demandbase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/demandbase-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/plans/demandbase-plans-pricing.yml
+  href: https://artifacts.apis.io/demandbase/plans/demandbase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/demandbase-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/finops/demandbase-finops.yml
+  href: https://artifacts.apis.io/demandbase/finops/demandbase-finops.yml
   title: ''
   type: FinOps
   url: finops/demandbase-finops.yml
@@ -431,12 +437,12 @@ created: '2024-01-20'
 description: Demandbase is a B2B go-to-market platform that unifies account intelligence, intent data, advertising, orchestration, personalization and sales intelligence into a single pipeline engine. Its developer surface is eight OpenAPI-documented REST APIs on uapi.demandbase.com — B2B company/contact intelligence, Data Export, Data Import, Admin, Intent (beta), Usage, Custom Sources and Auth — plus a hosted, OAuth-protected Model Context Protocol server that exposes account, person, intent, buying-group and account-brief capabilities to AI assistants, an official Python SDK, and a change-subscription webhook surface.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Demandbase Finops
   primary_unit: ''
-  service_category: B2B Marketing / Sales Intelligence
+  service_category: ''
   slug: demandbase-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/demandbase.png
 layout: provider
 mcp_servers:
@@ -453,12 +459,12 @@ overview: 'Demandbase publishes 18 API contracts indexed on the [APIs.io](https:
   The Demandbase catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Demandbase''s developer surface includes authentication, support, engineering blog, developer portal, signup flow, changelog, documentation, and 51 more developer resources.'
+  Demandbase''s developer surface includes authentication, support, engineering blog, developer portal, signup flow, changelog, documentation, and 52 more developer resources.'
 plans:
 - name: Demandbase Plans Pricing
   plan_count: 0
   slug: demandbase-plans-pricing
-random_paper: 16
+random_paper: 20
 rate_limits:
 - limit_count: 15
   name: Demandbase Rate Limits
@@ -470,7 +476,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.5
+  composite: 64.1
   coverage:
     artifact_dirs: 28
     catalog_earned: 53.3
@@ -478,15 +484,20 @@ score:
     catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.3
   facets:
     access_clarity: 60.5
     contract_governance: 22.0
-    contract_quality: 58.8
-    developer_ergonomics: 50.6
-    discoverability: 80.0
-    operational_transparency: 69.7
-  previous_composite: 66.0
+    contract_quality: 57.3
+    developer_ergonomics: 67.3
+    discoverability: 70.0
+    operational_transparency: 84.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -503,13 +514,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/screenshots/demandbase-2026-06-20T175908.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/demandbase/demandbase-2026-06-20T175908.png
 security:
 - kind: authentication
   name: Demandbase Authentication
@@ -523,6 +535,16 @@ security:
   name: Demandbase Trust Center
   slug: demandbase-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 4
+skills:
+- name: Enrich a company and its contacts with Demandbase
+  slug: demandbase-enrich-company-and-contacts
+- name: Export Demandbase platform data
+  slug: demandbase-export-platform-data
+- name: Run a bulk match or bulk retrieval job on Demandbase
+  slug: demandbase-run-a-bulk-match-job
+- name: Subscribe to Demandbase company and person changes
+  slug: demandbase-subscribe-to-company-changes
 slug: demandbase
 tags:
 - Account Based Marketing

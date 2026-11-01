@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Describes authentication required (`client_credentials` OAuth 2) and refund requests performed by Switchfly application to 3rd party service to cancel redemption components.
@@ -45,11 +47,8 @@ apis:
 - description: Information about requests performed by Switchfly system to 3rd party service to fetch Loyalty profile data and redeem points from the customer account.
   name: Switchfly Shopping Flow API
   slug: switchfly-shopping-flow-api
-artifact_total: 9
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Switchfly Loyalty Machine to Machine (OAuth2 & Refund) Machine to Machine (OAuth2 & Refund) Machine to Machine (OAuth2 & Refund) API
   slug: open-switchfly-machine-to-machine-oauth2-refund-api
@@ -69,22 +68,22 @@ common:
   type: Website
   url: https://www.switchfly.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/capabilities/switchfly-capability-edges.yml
+  href: https://artifacts.apis.io/switchfly/capabilities/switchfly-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/switchfly-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/mcp/switchfly-mcp.yml
+  href: https://artifacts.apis.io/switchfly/mcp/switchfly-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/switchfly-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/overlays/switchfly-loyalty-overlay.yaml
+  href: https://artifacts.apis.io/switchfly/overlays/switchfly-loyalty-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/switchfly-loyalty-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/security/switchfly-domain-security.yml
+  href: https://artifacts.apis.io/switchfly/security/switchfly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/switchfly-domain-security.yml
@@ -117,47 +116,47 @@ common:
   type: SignUp
   url: https://www.switchfly.com/contact-us
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/llms/switchfly-llms.txt
+  href: https://artifacts.apis.io/switchfly/llms/switchfly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/switchfly-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/authentication/switchfly-authentication.yml
+  href: https://artifacts.apis.io/switchfly/authentication/switchfly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/switchfly-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/conventions/switchfly-conventions.yml
+  href: https://artifacts.apis.io/switchfly/conventions/switchfly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/switchfly-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/conformance/switchfly-conformance.yml
+  href: https://artifacts.apis.io/switchfly/conformance/switchfly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/switchfly-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/lifecycle/switchfly-lifecycle.yml
+  href: https://artifacts.apis.io/switchfly/lifecycle/switchfly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/switchfly-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/components/switchfly-components.yml
+  href: https://artifacts.apis.io/switchfly/components/switchfly-components.yml
   title: ''
   type: Components
   url: components/switchfly-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/packages/switchfly-packages.yml
+  href: https://artifacts.apis.io/switchfly/packages/switchfly-packages.yml
   title: ''
   type: Packages
   url: packages/switchfly-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/packages/switchfly-packages.yml
+  href: https://artifacts.apis.io/switchfly/packages/switchfly-packages.yml
   title: ''
   type: SDKs
   url: packages/switchfly-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/switchfly/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -173,7 +172,7 @@ overview: 'Switchfly publishes 3 API contracts indexed on the [APIs.io](https://
 
 
   Switchfly''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 21
+random_paper: 5
 score:
   band: thin
   composite: 33.8
@@ -184,13 +183,13 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 44.5
     developer_ergonomics: 54.2
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -199,7 +198,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 33.7
+  previous_composite: 33.8
   provenance:
     conformance: derived
     contracts:
@@ -215,13 +214,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/screenshots/switchfly-2026-09-02T161418.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/switchfly/switchfly-2026-09-02T161418.png
 security:
 - kind: authentication
   name: Switchfly Authentication
@@ -231,6 +231,12 @@ security:
   name: Switchfly Domain Security
   slug: switchfly-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: switchfly-redeem-points
+  slug: switchfly-redeem-points
+- name: switchfly-refund-booking
+  slug: switchfly-refund-booking
 slug: switchfly
 tags:
 - Company

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/every/refs/heads/main/security/every-domain-security.yml
+  href: https://artifacts.apis.io/every/security/every-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/every-domain-security.yml
@@ -89,10 +91,10 @@ overview: 'Every is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Every''s developer surface includes engineering blog, support, pricing, signup flow, and 6 more developer resources.'
-random_paper: 5
+random_paper: 3
 score:
   band: emerging
-  composite: 14.1
+  composite: 14.5
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -107,22 +109,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 14.1
+    operational_transparency: 5.3
+  previous_composite: 14.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/every/refs/heads/main/screenshots/every-2026-07-25T213744.png
+screenshot: https://apis.io/screenshots/every/every-2026-07-25T213744.png
 security:
 - kind: domain-security
   name: Every Domain Security

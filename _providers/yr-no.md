@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Service metadata endpoints
   name: Yr Metadata API
   slug: yr-no-metadata-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Locationforecast alerts API
   slug: open-yr-no-alerts-api
@@ -80,17 +79,17 @@ collections:
   slug: open-yr-no-metadata-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/agentic-access/yr-no-agentic-access.yml
+  href: https://artifacts.apis.io/yr-no/agentic-access/yr-no-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/yr-no-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/security/yr-no-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/yr-no/security/yr-no-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/yr-no-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/security/yr-no-domain-security.yml
+  href: https://artifacts.apis.io/yr-no/security/yr-no-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yr-no-domain-security.yml
@@ -147,17 +146,17 @@ common:
   type: GettingStarted
   url: https://developer.yr.no/doc/GettingStarted/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/plans/yr-no-plans-pricing.yml
+  href: https://artifacts.apis.io/yr-no/plans/yr-no-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/yr-no-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/rate-limits/yr-no-rate-limits.yml
+  href: https://artifacts.apis.io/yr-no/rate-limits/yr-no-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/yr-no-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/finops/yr-no-finops.yml
+  href: https://artifacts.apis.io/yr-no/finops/yr-no-finops.yml
   title: ''
   type: FinOps
   url: finops/yr-no-finops.yml
@@ -213,7 +212,7 @@ plans:
 - name: Yr No Plans Pricing
   plan_count: 1
   slug: yr-no-plans-pricing
-random_paper: 17
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Yr No Rate Limits
@@ -232,7 +231,7 @@ rules:
   slug: yr-no-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.2
+  composite: 37.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 56.3
@@ -240,14 +239,14 @@ score:
     catalog_gap: 58.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 9.8
     contract_quality: 53.5
     developer_ergonomics: 23.8
     discoverability: 71.4
-    operational_transparency: 5.3
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -256,7 +255,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 39.0
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -270,14 +269,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/screenshots/yr-no-2026-06-20T201749.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/yr-no/yr-no-2026-06-20T201749.png
 security:
 - kind: domain-security
   name: Yr No Domain Security

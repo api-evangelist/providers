@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-17'
+  score: 24.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Genspark's hosted (remote) Model Context Protocol server, exposing Genspark's AI agent tools, resources, and prompts to MCP-capable clients over HTTP under OAuth 2.1.
@@ -42,7 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/a2a/genspark-a2a.yml
+  href: https://artifacts.apis.io/genspark/a2a/genspark-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/genspark-a2a.yml
@@ -51,37 +53,37 @@ common:
   type: Website
   url: https://www.genspark.ai
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/mcp/genspark-mcp.yml
+  href: https://artifacts.apis.io/genspark/mcp/genspark-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/genspark-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/authentication/genspark-authentication.yml
+  href: https://artifacts.apis.io/genspark/authentication/genspark-authentication.yml
   title: ''
   type: Authentication
   url: authentication/genspark-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/scopes/genspark-scopes.yml
+  href: https://artifacts.apis.io/genspark/scopes/genspark-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/genspark-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/well-known/genspark-well-known.yml
+  href: https://artifacts.apis.io/genspark/well-known/genspark-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/genspark-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/conformance/genspark-conformance.yml
+  href: https://artifacts.apis.io/genspark/conformance/genspark-conformance.yml
   title: ''
   type: Conformance
   url: conformance/genspark-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/security/genspark-domain-security.yml
+  href: https://artifacts.apis.io/genspark/security/genspark-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/genspark-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/llms/genspark-llms.txt
+  href: https://artifacts.apis.io/genspark/llms/genspark-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/genspark-llms.txt
@@ -121,7 +123,7 @@ overview: 'Genspark is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Genspark''s developer surface includes authentication, engineering blog, support, and 11 more developer resources.'
-random_paper: 1
+random_paper: 19
 scopes:
 - name: Genspark Scopes
   scope_count: 4
@@ -129,9 +131,9 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.0
+  composite: 19.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -143,9 +145,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 73.2
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 20.0
+  previous_composite: 19.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -155,14 +157,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/screenshots/genspark-2026-07-25T215631.png
+screenshot: https://apis.io/screenshots/genspark/genspark-2026-07-25T215631.png
 security:
 - kind: authentication
   name: Genspark Authentication

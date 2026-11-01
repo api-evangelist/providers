@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
-    mcp_server: false
+    idempotency: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 20.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,11 +78,8 @@ apis:
   description: The Root API from Octopus Deploy — 1 operation(s) for root.
   name: Octopus Deploy Root API
   slug: octopus-deploy-root-api
-artifact_total: 25
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Octopus Deploy REST Accounts API
   slug: open-octopus-deploy-accounts-api
@@ -104,27 +103,27 @@ collections:
   slug: open-octopus-deploy
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/well-known/octopus-deploy-status-security.txt
+  href: https://artifacts.apis.io/octopus-deploy/well-known/octopus-deploy-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/octopus-deploy-status-security.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/rate-limits/octopus-deploy-rate-limits.yml
+  href: https://artifacts.apis.io/octopus-deploy/rate-limits/octopus-deploy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/octopus-deploy-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/plans/octopus-deploy-plans-pricing.yml
+  href: https://artifacts.apis.io/octopus-deploy/plans/octopus-deploy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/octopus-deploy-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/rules/octopus-deploy-rules.yml
+  href: https://artifacts.apis.io/octopus-deploy/rules/octopus-deploy-rules.yml
   title: ''
   type: Spectral
   url: rules/octopus-deploy-rules.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/cli/octopus-deploy-cli.yml
+  href: https://artifacts.apis.io/octopus-deploy/cli/octopus-deploy-cli.yml
   title: ''
   type: CLI
   url: cli/octopus-deploy-cli.yml
@@ -133,32 +132,32 @@ common:
   type: Compliance
   url: https://octopus.com/company/trust
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/conformance/octopus-deploy-conformance.yml
+  href: https://artifacts.apis.io/octopus-deploy/conformance/octopus-deploy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/octopus-deploy-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/llms/octopus-deploy-llms.txt
+  href: https://artifacts.apis.io/octopus-deploy/llms/octopus-deploy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/octopus-deploy-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/well-known/octopus-deploy-security.txt
+  href: https://artifacts.apis.io/octopus-deploy/well-known/octopus-deploy-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/octopus-deploy-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/well-known/octopus-deploy-well-known.yml
+  href: https://artifacts.apis.io/octopus-deploy/well-known/octopus-deploy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/octopus-deploy-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/hosts/octopus-deploy-hosts.yml
+  href: https://artifacts.apis.io/octopus-deploy/hosts/octopus-deploy-hosts.yml
   title: ''
   type: Hosts
   url: hosts/octopus-deploy-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/packages/octopus-deploy-packages.yml
+  href: https://artifacts.apis.io/octopus-deploy/packages/octopus-deploy-packages.yml
   title: ''
   type: Packages
   url: packages/octopus-deploy-packages.yml
@@ -195,32 +194,32 @@ common:
   type: GettingStarted
   url: https://octopus.com/docs/octopus-ai/claude-agent-step/getting-started
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/agentic-access/octopus-deploy-agentic-access.yml
+  href: https://artifacts.apis.io/octopus-deploy/agentic-access/octopus-deploy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/octopus-deploy-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/security/octopus-deploy-trust-center.yml
+  href: https://artifacts.apis.io/octopus-deploy/security/octopus-deploy-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/octopus-deploy-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/security/octopus-deploy-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/octopus-deploy/security/octopus-deploy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/octopus-deploy-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/security/octopus-deploy-domain-security.yml
+  href: https://artifacts.apis.io/octopus-deploy/security/octopus-deploy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/octopus-deploy-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/authentication/octopus-deploy-authentication.yml
+  href: https://artifacts.apis.io/octopus-deploy/authentication/octopus-deploy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/octopus-deploy-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/scopes/octopus-deploy-scopes.yml
+  href: https://artifacts.apis.io/octopus-deploy/scopes/octopus-deploy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/octopus-deploy-scopes.yml
@@ -277,7 +276,7 @@ common:
   type: LlmsText
   url: https://octopus.com/llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/capabilities/octopus-deploy-capability-edges.yml
+  href: https://artifacts.apis.io/octopus-deploy/capabilities/octopus-deploy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/octopus-deploy-capability-edges.yml
@@ -291,6 +290,14 @@ coverage:
   state: unreadable
 created: '2026-05-11'
 description: Octopus Deploy is a continuous delivery and release orchestration platform for managing deployments across development, test, and production environments to virtual machines, containers, Kubernetes, and cloud services. The platform handles environments, tenants, runbooks, release promotion, and approvals for both regulated and high-velocity teams. The Octopus REST API provides programmatic access to projects, environments, releases, deployments, runbooks, variables, accounts, and tasks via API-key authentication.
+finops:
+- has_sources: true
+  method: derived
+  name: Octopus Deploy Finops
+  primary_unit: seat
+  service_category: ''
+  slug: octopus-deploy-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/octopus-deploy.png
 layout: provider
 mcp_servers:
@@ -312,7 +319,10 @@ plans:
 - name: Octopus Deploy Plans Pricing
   plan_count: 3
   slug: octopus-deploy-plans-pricing
-random_paper: 5
+- name: Octopus Deploy Price Estimates
+  plan_count: 0
+  slug: octopus-deploy-price-estimates
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Octopus Deploy Rate Limits
@@ -336,23 +346,23 @@ scopes:
   slug: octopus-deploy-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: strong
-  composite: 61.8
+  band: exemplar
+  composite: 67.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 61.5
+    artifact_dirs: 24
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 53.5
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.0
+  delta: 1.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 31.8
     contract_quality: 40.4
-    developer_ergonomics: 50.0
-    discoverability: 76.8
-    operational_transparency: 65.8
+    developer_ergonomics: 61.9
+    discoverability: 75.0
+    operational_transparency: 68.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -360,7 +370,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 64.8
+  previous_composite: 65.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -382,14 +392,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/screenshots/octopus-deploy-2026-06-20T190613.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/octopus-deploy/octopus-deploy-2026-06-20T190613.png
 security:
 - kind: authentication
   name: Octopus Deploy Authentication

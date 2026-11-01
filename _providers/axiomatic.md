@@ -14,31 +14,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.4
-  scored_at: '2026-10-17'
+  score: 17.5
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/axiomatic/refs/heads/main/well-known/axiomatic-well-known.yml
+  href: https://artifacts.apis.io/axiomatic/well-known/axiomatic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/axiomatic-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/axiomatic/refs/heads/main/hosts/axiomatic-hosts.yml
+  href: https://artifacts.apis.io/axiomatic/hosts/axiomatic-hosts.yml
   title: ''
   type: Hosts
   url: hosts/axiomatic-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/axiomatic/refs/heads/main/vendors/axiomatic-vendors.yml
+  href: https://artifacts.apis.io/axiomatic/vendors/axiomatic-vendors.yml
   title: ''
   type: Vendors
   url: vendors/axiomatic-vendors.yml
@@ -63,7 +65,7 @@ common:
   type: Blog
   url: https://www.axiomatic.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/axiomatic/refs/heads/main/security/axiomatic-domain-security.yml
+  href: https://artifacts.apis.io/axiomatic/security/axiomatic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/axiomatic-domain-security.yml
@@ -89,7 +91,7 @@ overview: 'aXiomatic is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   aXiomatic''s developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 13
+random_paper: 23
 score:
   band: minimal
   composite: 10.8
@@ -100,7 +102,7 @@ score:
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -108,7 +110,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 46.4
     operational_transparency: 0.0
-  previous_composite: 10.7
+  previous_composite: 10.8
   provenance:
     mcp: unknown
   regulatory:
@@ -117,14 +119,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/axiomatic/refs/heads/main/screenshots/axiomatic-2026-10-11T101239.png
+screenshot: https://apis.io/screenshots/axiomatic/axiomatic-2026-10-11T101239.png
 security:
 - kind: domain-security
   name: Axiomatic Domain Security

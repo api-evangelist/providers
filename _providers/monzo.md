@@ -24,29 +24,31 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-17'
+  score: 27.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Monzo API is a REST interface over a user's Monzo account. It exposes accounts, balance, savings pots (with deposit/withdraw), transactions (list, retrieve, annotate with metadata, expand merchant
   name: Monzo API
   slug: monzo-api
-artifact_total: 6
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Monzo Webhooks
   slug: monzo-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/security/monzo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/monzo/security/monzo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/monzo-vulnerability-disclosure.yml
@@ -55,77 +57,77 @@ common:
   type: Security
   url: https://monzo.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/security/monzo-domain-security.yml
+  href: https://artifacts.apis.io/monzo/security/monzo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/monzo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/well-known/monzo-security.txt
+  href: https://artifacts.apis.io/monzo/well-known/monzo-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/monzo-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/well-known/monzo-well-known.yml
+  href: https://artifacts.apis.io/monzo/well-known/monzo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/monzo-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/authentication/monzo-authentication.yml
+  href: https://artifacts.apis.io/monzo/authentication/monzo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/monzo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/conventions/monzo-conventions.yml
+  href: https://artifacts.apis.io/monzo/conventions/monzo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/monzo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/conventions/monzo-conventions.yml
+  href: https://artifacts.apis.io/monzo/conventions/monzo-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/monzo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/errors/monzo-problem-types.yml
+  href: https://artifacts.apis.io/monzo/errors/monzo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/monzo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/lifecycle/monzo-lifecycle.yml
+  href: https://artifacts.apis.io/monzo/lifecycle/monzo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/monzo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/conformance/monzo-conformance.yml
+  href: https://artifacts.apis.io/monzo/conformance/monzo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/monzo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/data-model/monzo-data-model.yml
+  href: https://artifacts.apis.io/monzo/data-model/monzo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/monzo-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/sandbox/monzo-sandbox.yml
+  href: https://artifacts.apis.io/monzo/sandbox/monzo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/monzo-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/mcp/monzo-mcp.yml
+  href: https://artifacts.apis.io/monzo/mcp/monzo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/monzo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/llms/monzo-llms.txt
+  href: https://artifacts.apis.io/monzo/llms/monzo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/monzo-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/asyncapi/monzo-webhooks.yml
+  href: https://artifacts.apis.io/monzo/asyncapi/monzo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/monzo-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/monzo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -192,10 +194,10 @@ overview: 'Monzo is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Monzo''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, engineering blog, support, and 21 more developer resources.'
-random_paper: 13
+random_paper: 11
 score:
   band: developing
-  composite: 40.8
+  composite: 40.0
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -209,14 +211,14 @@ score:
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 66.1
-    discoverability: 73.2
+    discoverability: 65.0
     operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-kingdom
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 40.8
+  previous_composite: 40.0
   provenance:
     conformance: derived
     mcp: derived
@@ -227,14 +229,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/screenshots/monzo-2026-08-07T184225.png
+screenshot: https://apis.io/screenshots/monzo/monzo-2026-08-07T184225.png
 security:
 - kind: authentication
   name: Monzo Authentication
@@ -248,6 +250,14 @@ security:
   name: Monzo Vulnerability Disclosure
   slug: monzo-vulnerability-disclosure
   summary_line: Intigriti · security.txt · contact published
+skill_count: 3
+skills:
+- name: Move money between an account and savings pots
+  slug: monzo-manage-savings-pots
+- name: Receive real-time transaction notifications via webhooks
+  slug: monzo-realtime-webhooks
+- name: List, retrieve and annotate transactions
+  slug: monzo-track-transactions
 slug: monzo
 tags:
 - Company

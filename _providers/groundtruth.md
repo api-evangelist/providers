@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.6
-  scored_at: '2026-10-17'
+  score: 31.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 318
   slug: groundtruth-agentic-access
   summary_line: 318 operations · 42 acting
-api_count: 6
+api_count: 3
 apis:
 - description: Model Context Protocol endpoint served on the GroundTruth developer documentation host. It answers MCP JSON-RPC on /mcp but returns error -32001 "Authorization required" to anonymous initialize and to
   name: GroundTruth Documentation MCP Server
@@ -137,7 +139,17 @@ apis:
   description: The Users API from GroundTruth — 4 operation(s) for users.
   name: GroundTruth Users API
   slug: groundtruth-users-api
-artifact_total: 27
+- baseURL: https://docs.groundtruth.com/mcp
+  baseurl_source: declared
+  description: The Location Groups API from GroundTruth — 20 operation(s) for location groups.
+  name: GroundTruth Location Groups API
+  slug: groundtruth-location-groups-api
+- baseURL: https://docs.groundtruth.com/mcp
+  baseurl_source: declared
+  description: The POIs API from GroundTruth — 1 operation(s) for pois.
+  name: GroundTruth POIs API
+  slug: groundtruth-pois-api
+artifact_total: 33
 collections:
 - collection_type: open
   name: Ads Manager API
@@ -151,17 +163,17 @@ common:
   type: BlogRSS
   url: https://www.groundtruth.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/capabilities/groundtruth-capability-edges.yml
+  href: https://artifacts.apis.io/groundtruth/capabilities/groundtruth-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/groundtruth-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/security/groundtruth-domain-security.yml
+  href: https://artifacts.apis.io/groundtruth/security/groundtruth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/groundtruth-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/well-known/groundtruth-well-known.yml
+  href: https://artifacts.apis.io/groundtruth/well-known/groundtruth-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/groundtruth-well-known.yml
@@ -214,77 +226,77 @@ common:
   type: GettingStarted
   url: https://www.groundtruth.com/get-started/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/authentication/groundtruth-authentication.yml
+  href: https://artifacts.apis.io/groundtruth/authentication/groundtruth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/groundtruth-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/conventions/groundtruth-conventions.yml
+  href: https://artifacts.apis.io/groundtruth/conventions/groundtruth-conventions.yml
   title: ''
   type: Conventions
   url: conventions/groundtruth-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/errors/groundtruth-problem-types.yml
+  href: https://artifacts.apis.io/groundtruth/errors/groundtruth-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/groundtruth-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/data-model/groundtruth-data-model.yml
+  href: https://artifacts.apis.io/groundtruth/data-model/groundtruth-data-model.yml
   title: ''
   type: DataModel
   url: data-model/groundtruth-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/lifecycle/groundtruth-lifecycle.yml
+  href: https://artifacts.apis.io/groundtruth/lifecycle/groundtruth-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/groundtruth-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/conformance/groundtruth-conformance.yml
+  href: https://artifacts.apis.io/groundtruth/conformance/groundtruth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/groundtruth-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/rate-limits/groundtruth-rate-limits.yml
+  href: https://artifacts.apis.io/groundtruth/rate-limits/groundtruth-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/groundtruth-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/plans/groundtruth-plans-pricing.yml
+  href: https://artifacts.apis.io/groundtruth/plans/groundtruth-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/groundtruth-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/packages/groundtruth-packages.yml
+  href: https://artifacts.apis.io/groundtruth/packages/groundtruth-packages.yml
   title: ''
   type: Packages
   url: packages/groundtruth-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/llms/groundtruth-llms.txt
+  href: https://artifacts.apis.io/groundtruth/llms/groundtruth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/groundtruth-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/mcp/groundtruth-mcp.yml
+  href: https://artifacts.apis.io/groundtruth/mcp/groundtruth-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/groundtruth-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/agentic-access/groundtruth-agentic-access.yml
+  href: https://artifacts.apis.io/groundtruth/agentic-access/groundtruth-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/groundtruth-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/groundtruth/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/overlays/groundtruth-ads-manager-overlay.yaml
+  href: https://artifacts.apis.io/groundtruth/overlays/groundtruth-ads-manager-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/groundtruth-ads-manager-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/overlays/groundtruth-reporting-overlay.yaml
+  href: https://artifacts.apis.io/groundtruth/overlays/groundtruth-reporting-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/groundtruth-reporting-overlay.yaml
@@ -301,7 +313,7 @@ modified: '2026-10-06'
 name: GroundTruth
 nav: Providers
 network: true
-overview: 'GroundTruth publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Ad Groups API, Audiences API, and 16 more. Tagged areas include Company, MarTech, Advertising, Location Intelligence, and Marketing.
+overview: 'GroundTruth publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Ad Groups API, Audiences API, and 18 more. Tagged areas include Company, MarTech, Advertising, Location Intelligence, and Marketing.
 
 
   GroundTruth''s developer surface includes documentation, API reference, signup flow, engineering blog, support, getting-started guide, authentication, and 24 more developer resources.'
@@ -309,14 +321,14 @@ plans:
 - name: Groundtruth Plans Pricing
   plan_count: 0
   slug: groundtruth-plans-pricing
-random_paper: 12
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Groundtruth Rate Limits
   slug: groundtruth-rate-limits
 score:
-  band: thin
-  composite: 38.8
+  band: developing
+  composite: 40.3
   coverage:
     artifact_dirs: 23
     catalog_earned: 40.0
@@ -324,23 +336,23 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 46.1
-    developer_ergonomics: 57.7
-    discoverability: 76.7
+    contract_quality: 45.1
+    developer_ergonomics: 66.1
+    discoverability: 70.0
     operational_transparency: 0.0
-  previous_composite: 38.7
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 2.6
       derived: 0
       marker_coverage: 0.0
-      total: 18
+      total: 39
     mcp: first-party
     skills: derived
   regulatory:
@@ -349,13 +361,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/screenshots/groundtruth-2026-07-25T220343.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/groundtruth/groundtruth-2026-07-25T220343.png
 security:
 - kind: authentication
   name: Groundtruth Authentication
@@ -365,6 +378,16 @@ security:
   name: Groundtruth Domain Security
   slug: groundtruth-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: groundtruth-bulk-jobs-and-uploads
+  slug: groundtruth-bulk-jobs-and-uploads
+- name: groundtruth-launch-campaign
+  slug: groundtruth-launch-campaign
+- name: groundtruth-pull-campaign-performance
+  slug: groundtruth-pull-campaign-performance
+- name: groundtruth-search-locations-and-audiences
+  slug: groundtruth-search-locations-and-audiences
 slug: groundtruth
 tags:
 - Company

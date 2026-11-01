@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -24,21 +24,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-17'
+  score: 25.8
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 6
+artifact_total: 10
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/codspeed/refs/heads/main/plans/codspeed-plans-pricing.yml
+  href: https://artifacts.apis.io/codspeed/plans/codspeed-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/codspeed-plans-pricing.yml
@@ -107,47 +109,47 @@ common:
   type: ChangeLog
   url: https://codspeed.io/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/codspeed/refs/heads/main/changelog/codspeed-changelog.yml
+  href: https://artifacts.apis.io/codspeed/changelog/codspeed-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/codspeed-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/codspeed/refs/heads/main/mcp/codspeed-mcp.yml
+  href: https://artifacts.apis.io/codspeed/mcp/codspeed-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/codspeed-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/codspeed/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/codspeed/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/codspeed/refs/heads/main/packages/codspeed-packages.yml
+  href: https://artifacts.apis.io/codspeed/packages/codspeed-packages.yml
   title: ''
   type: Packages
   url: packages/codspeed-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/codspeed/refs/heads/main/packages/codspeed-packages.yml
+  href: https://artifacts.apis.io/codspeed/packages/codspeed-packages.yml
   title: ''
   type: SDKs
   url: packages/codspeed-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/codspeed/refs/heads/main/cli/codspeed-cli.yml
+  href: https://artifacts.apis.io/codspeed/cli/codspeed-cli.yml
   title: ''
   type: CLI
   url: cli/codspeed-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/codspeed/refs/heads/main/llms/codspeed-llms.txt
+  href: https://artifacts.apis.io/codspeed/llms/codspeed-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/codspeed-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/codspeed/refs/heads/main/authentication/codspeed-authentication.yml
+  href: https://artifacts.apis.io/codspeed/authentication/codspeed-authentication.yml
   title: ''
   type: Authentication
   url: authentication/codspeed-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codspeed/refs/heads/main/conformance/codspeed-conformance.yml
+  href: https://artifacts.apis.io/codspeed/conformance/codspeed-conformance.yml
   title: ''
   type: Conformance
   url: conformance/codspeed-conformance.yml
@@ -164,17 +166,25 @@ common:
   type: Security
   url: https://codspeed.io/docs/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/codspeed/refs/heads/main/security/codspeed-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/codspeed/security/codspeed-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/codspeed-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/codspeed/refs/heads/main/security/codspeed-domain-security.yml
+  href: https://artifacts.apis.io/codspeed/security/codspeed-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/codspeed-domain-security.yml
 created: '2026-07-17'
 description: CodSpeed is a continuous performance testing and optimization platform that automatically detects performance regressions in pull requests and proposes autonomous optimizations. It runs benchmarks with sub-1% variance inside CI (GitHub Actions, GitLab CI, Buildkite), generates differential flamegraphs to pinpoint the exact lines that degraded, and gates PRs that fail performance standards. CodSpeed supports Rust, C++, Go, Java, Python, and Node.js via first-party harnesses (pytest-codspeed, cargo-codspeed / codspeed-rust, google_benchmark, JMH, vitest, tinybench, benchmark.js), CPU-simulation, walltime, and memory instruments, plus MongoDB database instrumentation. It ships an open-source CLI, a GitHub Action, a hosted MCP server, and packaged Agent Skills so AI coding assistants can investigate regressions and optimize code directly. CodSpeed is a Techstars-backed company.
+finops:
+- has_sources: true
+  method: derived
+  name: Codspeed Finops
+  primary_unit: user
+  service_category: ''
+  slug: codspeed-finops
+  template: false
 image: https://codspeed.io/logo.svg
 layout: provider
 mcp_servers:
@@ -193,26 +203,29 @@ plans:
 - name: Codspeed Plans Pricing
   plan_count: 3
   slug: codspeed-plans-pricing
-random_paper: 3
+- name: Codspeed Price Estimates
+  plan_count: 0
+  slug: codspeed-price-estimates
+random_paper: 23
 score:
   band: developing
-  composite: 41.9
+  composite: 49.5
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 39.0
+    artifact_dirs: 16
+    catalog_earned: 42.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 76.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 64.3
-    discoverability: 58.3
-    operational_transparency: 28.9
-  previous_composite: 35.5
+    developer_ergonomics: 78.6
+    discoverability: 48.3
+    operational_transparency: 31.6
+  previous_composite: 47.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -222,15 +235,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+    score: 32.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/codspeed/refs/heads/main/screenshots/codspeed-2026-07-25T205952.png
+screenshot: https://apis.io/screenshots/codspeed/codspeed-2026-07-25T205952.png
 security:
 - kind: authentication
   name: Codspeed Authentication
@@ -248,6 +261,12 @@ security:
   name: Codspeed Trust Center
   slug: codspeed-trust-center
   summary_line: SOC 2 Type II
+skill_count: 2
+skills:
+- name: codspeed-optimize
+  slug: codspeed-optimize
+- name: codspeed-setup-harness
+  slug: codspeed-setup-harness
 slug: codspeed
 tags:
 - Company

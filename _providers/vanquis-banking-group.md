@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 34.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -152,30 +154,30 @@ apis:
   description: The Transactions API from Vanquis Banking Group — 3 operation(s) for transactions.
   name: Vanquis Banking Group Transactions API
   slug: vanquis-banking-group-transactions-api
-artifact_total: 26
+artifact_total: 28
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/capabilities/vanquis-banking-group-capability-edges.yml
+  href: https://artifacts.apis.io/vanquis-banking-group/capabilities/vanquis-banking-group-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vanquis-banking-group-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/security/vanquis-banking-group-domain-security.yml
+  href: https://artifacts.apis.io/vanquis-banking-group/security/vanquis-banking-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vanquis-banking-group-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/agentic-access/vanquis-banking-group-agentic-access.yml
+  href: https://artifacts.apis.io/vanquis-banking-group/agentic-access/vanquis-banking-group-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vanquis-banking-group-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/scopes/vanquis-banking-group-scopes.yml
+  href: https://artifacts.apis.io/vanquis-banking-group/scopes/vanquis-banking-group-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vanquis-banking-group-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/authentication/vanquis-banking-group-authentication.yml
+  href: https://artifacts.apis.io/vanquis-banking-group/authentication/vanquis-banking-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vanquis-banking-group-authentication.yml
@@ -220,72 +222,72 @@ common:
   type: Contact
   url: https://www.vanquis.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/errors/vanquis-banking-group-problem-types.yml
+  href: https://artifacts.apis.io/vanquis-banking-group/errors/vanquis-banking-group-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vanquis-banking-group-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/conformance/vanquis-banking-group-conformance.yml
+  href: https://artifacts.apis.io/vanquis-banking-group/conformance/vanquis-banking-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vanquis-banking-group-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/lifecycle/vanquis-banking-group-lifecycle.yml
+  href: https://artifacts.apis.io/vanquis-banking-group/lifecycle/vanquis-banking-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vanquis-banking-group-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/lifecycle/vanquis-banking-group-lifecycle.yml
+  href: https://artifacts.apis.io/vanquis-banking-group/lifecycle/vanquis-banking-group-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/vanquis-banking-group-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/conventions/vanquis-banking-group-conventions.yml
+  href: https://artifacts.apis.io/vanquis-banking-group/conventions/vanquis-banking-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vanquis-banking-group-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/conventions/vanquis-banking-group-conventions.yml
+  href: https://artifacts.apis.io/vanquis-banking-group/conventions/vanquis-banking-group-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/vanquis-banking-group-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/mcp/vanquis-banking-group-mcp.yml
+  href: https://artifacts.apis.io/vanquis-banking-group/mcp/vanquis-banking-group-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vanquis-banking-group-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/llms/vanquis-banking-group-llms.txt
+  href: https://artifacts.apis.io/vanquis-banking-group/llms/vanquis-banking-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vanquis-banking-group-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/overlays/vanquis-banking-group-aisp-overlay.yaml
+  href: https://artifacts.apis.io/vanquis-banking-group/overlays/vanquis-banking-group-aisp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vanquis-banking-group-aisp-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/overlays/vanquis-banking-group-pisp-overlay.yaml
+  href: https://artifacts.apis.io/vanquis-banking-group/overlays/vanquis-banking-group-pisp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vanquis-banking-group-pisp-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/overlays/vanquis-banking-group-cbpii-overlay.yaml
+  href: https://artifacts.apis.io/vanquis-banking-group/overlays/vanquis-banking-group-cbpii-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vanquis-banking-group-cbpii-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/data-model/vanquis-banking-group-data-model.yml
+  href: https://artifacts.apis.io/vanquis-banking-group/data-model/vanquis-banking-group-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vanquis-banking-group-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/skills/vanquis-read-account-transactions.md
+  href: https://artifacts.apis.io/vanquis-banking-group/skills/vanquis-read-account-transactions.md
   title: ''
   type: AgentSkill
   url: skills/vanquis-read-account-transactions.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/skills/vanquis-initiate-domestic-payment.md
+  href: https://artifacts.apis.io/vanquis-banking-group/skills/vanquis-initiate-domestic-payment.md
   title: ''
   type: AgentSkill
   url: skills/vanquis-initiate-domestic-payment.md
@@ -302,7 +304,7 @@ overview: 'Vanquis Banking Group publishes 22 API contracts indexed on the [APIs
 
 
   Vanquis Banking Group''s developer surface includes authentication, documentation, signup flow, support, and 25 more developer resources.'
-random_paper: 18
+random_paper: 16
 scopes:
 - name: Vanquis Banking Group Scopes
   scope_count: 3
@@ -324,7 +326,7 @@ score:
     contract_governance: 4.5
     contract_quality: 44.4
     developer_ergonomics: 44.6
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -355,13 +357,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/screenshots/vanquis-banking-group-2026-09-02T165416.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vanquis-banking-group/vanquis-banking-group-2026-09-02T165416.png
 security:
 - kind: authentication
   name: Vanquis Banking Group Authentication
@@ -371,6 +374,12 @@ security:
   name: Vanquis Banking Group Domain Security
   slug: vanquis-banking-group-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Initiate a domestic payment from Vanquis (PIS)
+  slug: vanquis-initiate-domestic-payment
+- name: Read Vanquis account and transaction data (AIS)
+  slug: vanquis-read-account-transactions
 slug: vanquis-banking-group
 tags:
 - Financial Services

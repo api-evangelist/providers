@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 31.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://public.sofy.ai
@@ -47,15 +49,12 @@ apis:
   description: Trigger, monitor, and abort scheduled test runs.
   name: SOFY Scheduled Runs API
   slug: sofy-scheduled-runs-api
-artifact_total: 8
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Sofy Webhooks
   slug: sofy-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SOFY Public Applications API
   slug: open-sofy-applications-api
@@ -63,13 +62,18 @@ collections:
   name: SOFY Public Applications Scheduled Runs API
   slug: open-sofy-scheduled-runs-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/sofy/plans/sofy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sofy-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/capabilities/sofy-capability-edges.yml
+  href: https://artifacts.apis.io/sofy/capabilities/sofy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sofy-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/security/sofy-domain-security.yml
+  href: https://artifacts.apis.io/sofy/security/sofy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sofy-domain-security.yml
@@ -94,72 +98,72 @@ common:
   type: GettingStarted
   url: https://docs.sofy.ai/getting-started
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/openapi/_original/sofy-public-api-openapi.yml
+  href: https://artifacts.apis.io/sofy/openapi/_original/sofy-public-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/sofy-public-api-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/authentication/sofy-authentication.yml
+  href: https://artifacts.apis.io/sofy/authentication/sofy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sofy-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/conventions/sofy-conventions.yml
+  href: https://artifacts.apis.io/sofy/conventions/sofy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sofy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/errors/sofy-problem-types.yml
+  href: https://artifacts.apis.io/sofy/errors/sofy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sofy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/asyncapi/sofy-webhooks.yml
+  href: https://artifacts.apis.io/sofy/asyncapi/sofy-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sofy-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/changelog/sofy-changelog.yml
+  href: https://artifacts.apis.io/sofy/changelog/sofy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sofy-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/lifecycle/sofy-lifecycle.yml
+  href: https://artifacts.apis.io/sofy/lifecycle/sofy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sofy-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/conformance/sofy-conformance.yml
+  href: https://artifacts.apis.io/sofy/conformance/sofy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sofy-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/data-model/sofy-data-model.yml
+  href: https://artifacts.apis.io/sofy/data-model/sofy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sofy-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/mcp/sofy-mcp.yml
+  href: https://artifacts.apis.io/sofy/mcp/sofy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sofy-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/skills/sofy-upload-and-run-tests.md
+  href: https://artifacts.apis.io/sofy/skills/sofy-upload-and-run-tests.md
   title: ''
   type: AgentSkill
   url: skills/sofy-upload-and-run-tests.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/skills/sofy-monitor-and-abort-run.md
+  href: https://artifacts.apis.io/sofy/skills/sofy-monitor-and-abort-run.md
   title: ''
   type: AgentSkill
   url: skills/sofy-monitor-and-abort-run.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/overlays/sofy-public-api-overlay.yaml
+  href: https://artifacts.apis.io/sofy/overlays/sofy-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sofy-public-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/llms/sofy-llms.txt
+  href: https://artifacts.apis.io/sofy/llms/sofy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sofy-llms.txt
@@ -189,6 +193,14 @@ common:
   url: https://sofy.ai/privacy-policy/
 created: '2026-07-17'
 description: 'SOFY is an AI-powered software testing platform that autonomously writes, executes, and maintains no-code tests across mobile, web, API, and enterprise applications. Testers describe intent in natural language and SOFY''s AI agents generate and self-heal the automation as the app changes, running against 2,000+ real devices in the cloud plus web and ERP surfaces (SAP, Dynamics 365). SOFY exposes a public REST API at https://public.sofy.ai for CI/CD automation (GitHub Actions, GitLab, Jenkins, Azure DevOps): upload application builds, trigger scheduled test runs, poll status, and abort runs, with outbound webhooks on run completion. SOFY is a portfolio company of 500 Global.'
+finops:
+- has_sources: true
+  method: derived
+  name: Sofy Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: sofy-finops
+  template: false
 image: https://web.sofy.ai/assets/icons/sofy-icon.svg
 layout: provider
 modified: '2026-07-21'
@@ -201,27 +213,34 @@ overview: 'SOFY publishes 2 API contracts indexed on the [APIs.io](https://apis.
   The SOFY catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  SOFY''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 20 more developer resources.'
-random_paper: 9
+  SOFY''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
+plans:
+- name: Sofy Plans Pricing
+  plan_count: 6
+  slug: sofy-plans-pricing
+- name: Sofy Price Estimates
+  plan_count: 0
+  slug: sofy-price-estimates
+random_paper: 17
 score:
-  band: developing
-  composite: 44.6
+  band: strong
+  composite: 55.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 31.6
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 59.4
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 23.7
-  previous_composite: 44.5
+  previous_composite: 47.2
   provenance:
     conformance: derived
     contracts:
@@ -237,13 +256,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/screenshots/sofy-2026-08-17T081948.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sofy/sofy-2026-08-17T081948.png
 security:
 - kind: authentication
   name: Sofy Authentication
@@ -253,6 +273,12 @@ security:
   name: Sofy Domain Security
   slug: sofy-domain-security
   summary_line: TLSv1.3
+skill_count: 2
+skills:
+- name: Monitor and abort a scheduled run
+  slug: sofy-monitor-and-abort-run
+- name: Upload a build and run scheduled tests
+  slug: sofy-upload-and-run-tests
 slug: sofy
 tags:
 - Company

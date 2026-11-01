@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,16 +35,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Asynchronous REST API for deepfake and manipulated-media detection. Request a pre-signed upload URL or submit a social-media URL, then poll for an ensemble detection verdict across image, video, audio
   name: Reality Defender Detection API
   slug: reality-defender-detection-api
-artifact_total: 4
+artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reality-defender/refs/heads/main/security/reality-defender-domain-security.yml
+  href: https://artifacts.apis.io/reality-defender/security/reality-defender-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reality-defender-domain-security.yml
@@ -99,62 +101,62 @@ common:
   type: TrustCenter
   url: https://trust.realitydefender.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/reality-defender/refs/heads/main/packages/reality-defender-packages.yml
+  href: https://artifacts.apis.io/reality-defender/packages/reality-defender-packages.yml
   title: ''
   type: Packages
   url: packages/reality-defender-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/reality-defender/refs/heads/main/packages/reality-defender-packages.yml
+  href: https://artifacts.apis.io/reality-defender/packages/reality-defender-packages.yml
   title: ''
   type: SDKs
   url: packages/reality-defender-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reality-defender/refs/heads/main/mcp/reality-defender-mcp.yml
+  href: https://artifacts.apis.io/reality-defender/mcp/reality-defender-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/reality-defender-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reality-defender/refs/heads/main/llms/reality-defender-llms.txt
+  href: https://artifacts.apis.io/reality-defender/llms/reality-defender-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reality-defender-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reality-defender/refs/heads/main/well-known/reality-defender-well-known.yml
+  href: https://artifacts.apis.io/reality-defender/well-known/reality-defender-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/reality-defender-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reality-defender/refs/heads/main/authentication/reality-defender-authentication.yml
+  href: https://artifacts.apis.io/reality-defender/authentication/reality-defender-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reality-defender-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reality-defender/refs/heads/main/conventions/reality-defender-conventions.yml
+  href: https://artifacts.apis.io/reality-defender/conventions/reality-defender-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reality-defender-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reality-defender/refs/heads/main/errors/reality-defender-problem-types.yml
+  href: https://artifacts.apis.io/reality-defender/errors/reality-defender-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/reality-defender-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reality-defender/refs/heads/main/lifecycle/reality-defender-lifecycle.yml
+  href: https://artifacts.apis.io/reality-defender/lifecycle/reality-defender-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reality-defender-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reality-defender/refs/heads/main/conformance/reality-defender-conformance.yml
+  href: https://artifacts.apis.io/reality-defender/conformance/reality-defender-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reality-defender-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reality-defender/refs/heads/main/data-model/reality-defender-data-model.yml
+  href: https://artifacts.apis.io/reality-defender/data-model/reality-defender-data-model.yml
   title: ''
   type: DataModel
   url: data-model/reality-defender-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reality-defender/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/reality-defender/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -174,10 +176,10 @@ overview: 'Reality Defender is listed with 1 API on the [APIs.io](https://apis.i
 
 
   Reality Defender''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 8
+random_paper: 4
 score:
   band: thin
-  composite: 27.4
+  composite: 30.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -185,15 +187,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 66.1
-    discoverability: 71.7
-    operational_transparency: 2.6
-  previous_composite: 27.9
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 30.6
   provenance:
     conformance: derived
     mcp: first-party
@@ -203,15 +205,15 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 26.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/reality-defender/refs/heads/main/screenshots/reality-defender-2026-09-02T153059.png
+screenshot: https://apis.io/screenshots/reality-defender/reality-defender-2026-09-02T153059.png
 security:
 - kind: authentication
   name: Reality Defender Authentication
@@ -221,6 +223,10 @@ security:
   name: Reality Defender Domain Security
   slug: reality-defender-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Detect a deepfake in a media file
+  slug: reality-defender-detect-media
 slug: reality-defender
 tags:
 - Company

@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.1
-  scored_at: '2026-10-17'
+  score: 26.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 120
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 206
   slug: epicdirectories-agentic-access
   summary_line: 206 operations · 120 acting · 120 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.epicdirectories.com
   baseurl_source: declared
@@ -188,70 +190,70 @@ apis:
   description: The webhooks API from EpicDirectories — 3 operation(s) for webhooks.
   name: EpicDirectories Webhooks API
   slug: epicdirectories-webhooks-api
-artifact_total: 42
+artifact_total: 44
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/capabilities/epicdirectories-capability-edges.yml
+  href: https://artifacts.apis.io/epicdirectories/capabilities/epicdirectories-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/epicdirectories-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/agentic-access/epicdirectories-agentic-access.yml
+  href: https://artifacts.apis.io/epicdirectories/agentic-access/epicdirectories-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/epicdirectories-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/rules/epicdirectories-rules.yml
+  href: https://artifacts.apis.io/epicdirectories/rules/epicdirectories-rules.yml
   title: ''
   type: Spectral
   url: rules/epicdirectories-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/json-ld/epicdirectories-context.jsonld
+  href: https://artifacts.apis.io/epicdirectories/json-ld/epicdirectories-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/epicdirectories-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/vocabulary/epicdirectories-vocabulary.yml
+  href: https://artifacts.apis.io/epicdirectories/vocabulary/epicdirectories-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/epicdirectories-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/epicdirectories/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/data-model/epicdirectories-data-model.yml
+  href: https://artifacts.apis.io/epicdirectories/data-model/epicdirectories-data-model.yml
   title: ''
   type: DataModel
   url: data-model/epicdirectories-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/conventions/epicdirectories-conventions.yml
+  href: https://artifacts.apis.io/epicdirectories/conventions/epicdirectories-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/epicdirectories-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/conventions/epicdirectories-conventions.yml
+  href: https://artifacts.apis.io/epicdirectories/conventions/epicdirectories-conventions.yml
   title: ''
   type: Conventions
   url: conventions/epicdirectories-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/errors/epicdirectories-problem-types.yml
+  href: https://artifacts.apis.io/epicdirectories/errors/epicdirectories-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/epicdirectories-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/conformance/epicdirectories-conformance.yml
+  href: https://artifacts.apis.io/epicdirectories/conformance/epicdirectories-conformance.yml
   title: ''
   type: Conformance
   url: conformance/epicdirectories-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/hosts/epicdirectories-hosts.yml
+  href: https://artifacts.apis.io/epicdirectories/hosts/epicdirectories-hosts.yml
   title: ''
   type: Hosts
   url: hosts/epicdirectories-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/vendors/epicdirectories-vendors.yml
+  href: https://artifacts.apis.io/epicdirectories/vendors/epicdirectories-vendors.yml
   title: ''
   type: Vendors
   url: vendors/epicdirectories-vendors.yml
@@ -264,12 +266,12 @@ common:
   type: Newsroom
   url: https://epicdirectories.com/press/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/authentication/epicdirectories-authentication.yml
+  href: https://artifacts.apis.io/epicdirectories/authentication/epicdirectories-authentication.yml
   title: ''
   type: Authentication
   url: authentication/epicdirectories-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/security/epicdirectories-domain-security.yml
+  href: https://artifacts.apis.io/epicdirectories/security/epicdirectories-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/epicdirectories-domain-security.yml
@@ -339,8 +341,8 @@ rules:
     warn: 2
   slug: epicdirectories-rules
 score:
-  band: developing
-  composite: 39.5
+  band: thin
+  composite: 33.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 62.8
@@ -348,15 +350,15 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 22.0
-    contract_quality: 60.9
+    contract_quality: 57.5
     developer_ergonomics: 32.7
     discoverability: 67.9
     operational_transparency: 0.0
-  previous_composite: 39.4
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -373,13 +375,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/screenshots/epicdirectories-2026-10-11T104237.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/epicdirectories/epicdirectories-2026-10-11T104237.png
 security:
 - kind: authentication
   name: Epicdirectories Authentication
@@ -389,6 +392,12 @@ security:
   name: Epicdirectories Domain Security
   slug: epicdirectories-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: epicdirectories-payments-start-checkout
+  slug: epicdirectories-payments-start-checkout
+- name: epicdirectories-webhook-create-and-test
+  slug: epicdirectories-webhook-create-and-test
 slug: epicdirectories
 tags:
 - Company

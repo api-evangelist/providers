@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: CAMARA-compliant, production-ready Network APIs exposing 5G core and RAN functions through standardized northbound interfaces. Includes Quality on Demand, Device Location (Verification, Retrieval), Ge
@@ -56,12 +58,12 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nokia-corp/refs/heads/main/security/nokia-corp-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nokia-corp/security/nokia-corp-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nokia-corp-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nokia-corp/refs/heads/main/security/nokia-corp-domain-security.yml
+  href: https://artifacts.apis.io/nokia-corp/security/nokia-corp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nokia-corp-domain-security.yml
@@ -226,10 +228,10 @@ overview: 'Nokia is listed with 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Nokia''s developer surface includes developer portal, documentation, getting-started guide, signup flow, tooling, engineering blog, YouTube channel, and 32 more developer resources.'
-random_paper: 21
+random_paper: 3
 score:
   band: emerging
-  composite: 21.1
+  composite: 22.9
   coverage:
     artifact_dirs: 5
     catalog_earned: 35.0
@@ -243,8 +245,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 63.4
-    operational_transparency: 2.6
+    discoverability: 64.3
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -253,21 +255,21 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 21.1
+  previous_composite: 22.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nokia-corp/refs/heads/main/screenshots/nokia-corp-2026-06-20T190352.png
+screenshot: https://apis.io/screenshots/nokia-corp/nokia-corp-2026-06-20T190352.png
 security:
 - kind: domain-security
   name: Nokia Corp Domain Security

@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.4
-  scored_at: '2026-10-17'
+  score: 41.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Resource-oriented REST API (v1.0) for Runrun.it work and project management: tasks, projects, boards, clients, teams, users, comments, documents, evaluations, and time-worked reporting. JSON, ISO 8601'
@@ -79,72 +81,72 @@ common:
   type: PrivacyPolicy
   url: https://runrun.it/en-US/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/authentication/nova-lima-authentication.yml
+  href: https://artifacts.apis.io/nova-lima/authentication/nova-lima-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nova-lima-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/scopes/nova-lima-scopes.yml
+  href: https://artifacts.apis.io/nova-lima/scopes/nova-lima-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nova-lima-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/conventions/nova-lima-conventions.yml
+  href: https://artifacts.apis.io/nova-lima/conventions/nova-lima-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nova-lima-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/rate-limits/nova-lima-rate-limits.yml
+  href: https://artifacts.apis.io/nova-lima/rate-limits/nova-lima-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nova-lima-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/asyncapi/nova-lima-webhooks.yml
+  href: https://artifacts.apis.io/nova-lima/asyncapi/nova-lima-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/nova-lima-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/mcp/nova-lima-mcp.yml
+  href: https://artifacts.apis.io/nova-lima/mcp/nova-lima-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nova-lima-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/packages/nova-lima-packages.yml
+  href: https://artifacts.apis.io/nova-lima/packages/nova-lima-packages.yml
   title: ''
   type: Packages
   url: packages/nova-lima-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/lifecycle/nova-lima-lifecycle.yml
+  href: https://artifacts.apis.io/nova-lima/lifecycle/nova-lima-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nova-lima-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/conformance/nova-lima-conformance.yml
+  href: https://artifacts.apis.io/nova-lima/conformance/nova-lima-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nova-lima-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/errors/nova-lima-problem-types.yml
+  href: https://artifacts.apis.io/nova-lima/errors/nova-lima-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nova-lima-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/well-known/nova-lima-well-known.yml
+  href: https://artifacts.apis.io/nova-lima/well-known/nova-lima-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nova-lima-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/data-model/nova-lima-data-model.yml
+  href: https://artifacts.apis.io/nova-lima/data-model/nova-lima-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nova-lima-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/llms/nova-lima-llms.txt
+  href: https://artifacts.apis.io/nova-lima/llms/nova-lima-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nova-lima-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/security/nova-lima-domain-security.yml
+  href: https://artifacts.apis.io/nova-lima/security/nova-lima-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nova-lima-domain-security.yml
@@ -167,7 +169,7 @@ overview: 'Nova Lima is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Nova Lima''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Nova Lima Rate Limits
@@ -179,7 +181,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 35.6
+  composite: 36.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 45.0
@@ -187,14 +189,14 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 38.1
-    discoverability: 75.0
-    operational_transparency: 31.6
+    developer_ergonomics: 45.2
+    discoverability: 65.0
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -202,7 +204,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 35.5
+  previous_composite: 36.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -212,14 +214,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/screenshots/nova-lima-2026-08-07T185626.png
+screenshot: https://apis.io/screenshots/nova-lima/nova-lima-2026-08-07T185626.png
 security:
 - kind: authentication
   name: Nova Lima Authentication

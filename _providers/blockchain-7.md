@@ -16,15 +16,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 29.1
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 30.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: Provides blockchain explorer data such as asset prices, charts, and network statistics.
   name: Explorer API
@@ -65,32 +67,32 @@ common:
   type: Compliance
   url: https://www.blockchain.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blockchain-7/refs/heads/main/authentication/blockchain-7-authentication.yml
+  href: https://artifacts.apis.io/blockchain-7/authentication/blockchain-7-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blockchain-7-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blockchain-7/refs/heads/main/llms/blockchain-7-llms.txt
+  href: https://artifacts.apis.io/blockchain-7/llms/blockchain-7-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blockchain-7-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blockchain-7/refs/heads/main/well-known/blockchain-7-security.txt
+  href: https://artifacts.apis.io/blockchain-7/well-known/blockchain-7-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/blockchain-7-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blockchain-7/refs/heads/main/well-known/blockchain-7-well-known.yml
+  href: https://artifacts.apis.io/blockchain-7/well-known/blockchain-7-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/blockchain-7-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blockchain-7/refs/heads/main/hosts/blockchain-7-hosts.yml
+  href: https://artifacts.apis.io/blockchain-7/hosts/blockchain-7-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blockchain-7-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blockchain-7/refs/heads/main/vendors/blockchain-7-vendors.yml
+  href: https://artifacts.apis.io/blockchain-7/vendors/blockchain-7-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blockchain-7-vendors.yml
@@ -111,17 +113,17 @@ common:
   type: Login
   url: https://www.blockchain.com/login
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blockchain-7/refs/heads/main/security/blockchain-7-trust-center.yml
+  href: https://artifacts.apis.io/blockchain-7/security/blockchain-7-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/blockchain-7-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blockchain-7/refs/heads/main/security/blockchain-7-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/blockchain-7/security/blockchain-7-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/blockchain-7-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blockchain-7/refs/heads/main/security/blockchain-7-domain-security.yml
+  href: https://artifacts.apis.io/blockchain-7/security/blockchain-7-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blockchain-7-domain-security.yml
@@ -173,7 +175,7 @@ overview: 'Blockchain.com publishes 6 API contracts indexed on the [APIs.io](htt
 
 
   Blockchain.com''s developer surface includes documentation, authentication, pricing, API reference, support, engineering blog, and 16 more developer resources.'
-random_paper: 16
+random_paper: 10
 score:
   band: developing
   composite: 42.4
@@ -184,15 +186,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 52.0
     developer_ergonomics: 35.7
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 31.6
-  previous_composite: 40.6
+  previous_composite: 42.4
   provenance:
     contracts:
       callable: 100.0
@@ -206,12 +208,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Blockchain 7 Authentication

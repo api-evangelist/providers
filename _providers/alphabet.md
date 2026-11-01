@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alphabet/refs/heads/main/security/alphabet-domain-security.yml
+  href: https://artifacts.apis.io/alphabet/security/alphabet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alphabet-domain-security.yml
@@ -90,12 +92,12 @@ press:
 - date: ''
   title: Governor Newsom submits request to President Trump for emergency declaration to support response efforts in Orange County - California State Portal | CA.gov
   url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxPcDV5VnYxMjhYaWJ3cFFvMl9iaXAwV0FUWFFsRVRkZ293LU1ERkdrVTAwQkVOaVlZclBvbmxkbGxnODhNWG1PV2VncUVSdEVBbUVldlRlbFhOb21wb3FialZDVExoMjNSZ2NNTTRaYkNraVRXVDdYaFE2XzlsUDlFSS13dTJUdkVYbFo2eEw2aGVVMXBtRnlhZ0lkZjVSMUlaQl9Qcm5YU0x0ZktZN05EaVJiOU9LeG9PRHZFSFllRmtJeWpzb1Q3REVRdHAxVHJWd1NVM3o2T3NNbk5nOVZWNmtyRFQ4M3RlWGd1RQ?oc=5
-random_paper: 19
+random_paper: 17
 score:
   band: minimal
   composite: 3.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 24.0
     catalog_earned_first_party: 0.0
     catalog_gap: 91.0
@@ -116,14 +118,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alphabet/refs/heads/main/screenshots/alphabet-2026-07-25T195755.png
+screenshot: https://apis.io/screenshots/alphabet/alphabet-2026-07-25T195755.png
 security:
 - kind: domain-security
   name: Alphabet Domain Security

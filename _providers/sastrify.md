@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Sastrify platform provides SaaS management capabilities including software discovery, license optimization, vendor negotiations, and benchmark insights. It offers native integrations with accounti
@@ -42,22 +44,22 @@ apis:
 artifact_total: 9
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sastrify/refs/heads/main/plans/sastrify-plans-pricing.yml
+  href: https://artifacts.apis.io/sastrify/plans/sastrify-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sastrify-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sastrify/refs/heads/main/rate-limits/sastrify-rate-limits.yml
+  href: https://artifacts.apis.io/sastrify/rate-limits/sastrify-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sastrify-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sastrify/refs/heads/main/finops/sastrify-finops.yml
+  href: https://artifacts.apis.io/sastrify/finops/sastrify-finops.yml
   title: ''
   type: FinOps
   url: finops/sastrify-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sastrify/refs/heads/main/security/sastrify-domain-security.yml
+  href: https://artifacts.apis.io/sastrify/security/sastrify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sastrify-domain-security.yml
@@ -106,22 +108,22 @@ common:
   type: Signup
   url: https://www.sastrify.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sastrify/refs/heads/main/vocabulary/sastrify-vocabulary.yml
+  href: https://artifacts.apis.io/sastrify/vocabulary/sastrify-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sastrify-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sastrify/refs/heads/main/json-ld/sastrify-context.jsonld
+  href: https://artifacts.apis.io/sastrify/json-ld/sastrify-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/sastrify-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sastrify/refs/heads/main/json-schema/sastrify-saas-subscription-schema.json
+  href: https://artifacts.apis.io/sastrify/json-schema/sastrify-saas-subscription-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/sastrify-saas-subscription-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sastrify/refs/heads/main/json-structure/sastrify-saas-subscription-structure.json
+  href: https://artifacts.apis.io/sastrify/json-structure/sastrify-saas-subscription-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/sastrify-saas-subscription-structure.json
@@ -135,7 +137,7 @@ finops:
 - has_sources: false
   method: generated
   name: Sastrify Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: sastrify-finops
   template: true
@@ -169,7 +171,7 @@ plans:
 - name: Sastrify Plans Pricing
   plan_count: 3
   slug: sastrify-plans-pricing
-random_paper: 5
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Sastrify Rate Limits
@@ -188,7 +190,7 @@ rules:
   slug: sastrify-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 24.7
+  composite: 26.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 56.8
@@ -196,29 +198,29 @@ score:
     catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 31.6
     contract_governance: 23.5
     contract_quality: 14.7
     developer_ergonomics: 28.6
     discoverability: 64.3
     operational_transparency: 13.2
-  previous_composite: 26.2
+  previous_composite: 26.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sastrify/refs/heads/main/screenshots/sastrify-2026-06-20T193441.png
+screenshot: https://apis.io/screenshots/sastrify/sastrify-2026-06-20T193441.png
 security:
 - kind: domain-security
   name: Sastrify Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The CIOC publishes its charter, leadership roster, committee output, playbooks (e.g., Cloud Smart, Modular Contracting, IT Modernization), and federal IT guidance through cio.gov and councils.gov. The
@@ -42,32 +44,32 @@ apis:
 artifact_total: 21
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/chief-information-officers-council/refs/heads/main/rate-limits/chief-information-officers-council-rate-limits.yml
+  href: https://artifacts.apis.io/chief-information-officers-council/rate-limits/chief-information-officers-council-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chief-information-officers-council-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chief-information-officers-council/refs/heads/main/security/chief-information-officers-council-domain-security.yml
+  href: https://artifacts.apis.io/chief-information-officers-council/security/chief-information-officers-council-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chief-information-officers-council-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chief-information-officers-council/refs/heads/main/llms/chief-information-officers-council-llms.txt
+  href: https://artifacts.apis.io/chief-information-officers-council/llms/chief-information-officers-council-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chief-information-officers-council-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chief-information-officers-council/refs/heads/main/lifecycle/chief-information-officers-council-lifecycle.yml
+  href: https://artifacts.apis.io/chief-information-officers-council/lifecycle/chief-information-officers-council-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chief-information-officers-council-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chief-information-officers-council/refs/heads/main/plans/chief-information-officers-council-plans-pricing.yml
+  href: https://artifacts.apis.io/chief-information-officers-council/plans/chief-information-officers-council-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chief-information-officers-council-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chief-information-officers-council/refs/heads/main/finops/chief-information-officers-council-finops.yml
+  href: https://artifacts.apis.io/chief-information-officers-council/finops/chief-information-officers-council-finops.yml
   title: ''
   type: FinOps
   url: finops/chief-information-officers-council-finops.yml
@@ -204,8 +206,8 @@ rate_limits:
   name: Chief Information Officers Council Rate Limits
   slug: chief-information-officers-council-rate-limits
 score:
-  band: minimal
-  composite: 10.1
+  band: emerging
+  composite: 11.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 32.0
@@ -213,34 +215,34 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 58.9
-    operational_transparency: 5.3
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 11.7
+  previous_composite: 11.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/chief-information-officers-council/refs/heads/main/screenshots/chief-information-officers-council-2026-06-20T174309.png
+screenshot: https://apis.io/screenshots/chief-information-officers-council/chief-information-officers-council-2026-06-20T174309.png
 security:
 - kind: domain-security
   name: Chief Information Officers Council Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: The university's own SAML 2.0 identity provider metadata document, served from its own domain. It declares entityID https://login.ualberta.ca/saml2/idp/metadata.php, an IDPSSODescriptor with SingleSig
@@ -93,7 +95,7 @@ common:
   type: AITooling
   url: https://www.ualberta.ca/en/artificial-intelligence/index.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-alberta/refs/heads/main/conformance/university-of-alberta-conformance.yml
+  href: https://artifacts.apis.io/university-of-alberta/conformance/university-of-alberta-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-alberta-conformance.yml
@@ -122,27 +124,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-alberta/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-alberta/refs/heads/main/security/university-of-alberta-domain-security.yml
+  href: https://artifacts.apis.io/university-of-alberta/security/university-of-alberta-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-alberta-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-alberta/refs/heads/main/plans/university-of-alberta-plans-pricing.yml
+  href: https://artifacts.apis.io/university-of-alberta/plans/university-of-alberta-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-alberta-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-alberta/refs/heads/main/rate-limits/university-of-alberta-rate-limits.yml
+  href: https://artifacts.apis.io/university-of-alberta/rate-limits/university-of-alberta-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-alberta-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-alberta/refs/heads/main/finops/university-of-alberta-finops.yml
+  href: https://artifacts.apis.io/university-of-alberta/finops/university-of-alberta-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-alberta-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-alberta/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/university-of-alberta/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -182,7 +184,7 @@ coverage:
     url: https://library.ualberta.ca/peel/api
   - status: 404
     url: https://login.ualberta.ca/idp/shibboleth
-  reason: tenant_only
+  reason: tenant-only
   state: none
 created: '2026-06-03'
 description: 'The University of Alberta is a public research university in Edmonton, Alberta, Canada, and a member of the U15 Group of Canadian Research Universities. It operates no public API product. Its central developer site, api.ualberta.ca, is a live placeholder that says only that the university "is currently working to improve the way data is cataloged, shared, and governed" and gives an email address; there is no portal, no key issuance and no catalog behind it. The one machine-readable contract the institution itself publishes and runs is its SAML 2.0 identity provider metadata at login.ualberta.ca, which is institution-operated by definition and is the only surface in this profile whose operator is the university. Everything else that looks like a University of Alberta API is a tenancy on someone else''s platform: ERA, the institutional repository, migrated off the library''s own Jupiter application at era.library.ualberta.ca onto Scholaris, the OCUL/Scholars Portal national DSpace
@@ -209,14 +211,14 @@ plans:
 - name: University Of Alberta Plans Pricing
   plan_count: 2
   slug: university-of-alberta-plans-pricing
-random_paper: 0
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: University Of Alberta Rate Limits
   slug: university-of-alberta-rate-limits
 score:
   band: emerging
-  composite: 24.6
+  composite: 24.9
   coverage:
     artifact_dirs: 9
     catalog_earned: 39.0
@@ -224,14 +226,14 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 4.4
     developer_ergonomics: 33.3
     discoverability: 62.5
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -239,7 +241,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 26.1
+  previous_composite: 24.9
   provenance:
     conformance: first-party
   regulatory:
@@ -248,14 +250,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-alberta/refs/heads/main/screenshots/university-of-alberta-2026-10-11T131440.png
+screenshot: https://apis.io/screenshots/university-of-alberta/university-of-alberta-2026-10-11T131440.png
 security:
 - kind: domain-security
   name: University Of Alberta Domain Security

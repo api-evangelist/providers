@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Placeholder entry — FTI Consulting publishes no public API. The scaffolded hosts developer.fticonsulting.com and api.fticonsulting.com do not resolve (DNS NXDOMAIN, probed 2026-09-17), so the former D
@@ -43,22 +45,22 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fti-consulting/refs/heads/main/plans/fti-consulting-plans-pricing.yml
+  href: https://artifacts.apis.io/fti-consulting/plans/fti-consulting-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fti-consulting-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fti-consulting/refs/heads/main/rate-limits/fti-consulting-rate-limits.yml
+  href: https://artifacts.apis.io/fti-consulting/rate-limits/fti-consulting-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fti-consulting-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fti-consulting/refs/heads/main/finops/fti-consulting-finops.yml
+  href: https://artifacts.apis.io/fti-consulting/finops/fti-consulting-finops.yml
   title: ''
   type: FinOps
   url: finops/fti-consulting-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fti-consulting/refs/heads/main/security/fti-consulting-domain-security.yml
+  href: https://artifacts.apis.io/fti-consulting/security/fti-consulting-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fti-consulting-domain-security.yml
@@ -75,7 +77,7 @@ common:
   type: Blog
   url: https://www.fticonsulting.com/insights
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fti-consulting/refs/heads/main/llms/fti-consulting-llms.txt
+  href: https://artifacts.apis.io/fti-consulting/llms/fti-consulting-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fti-consulting-llms.txt
@@ -129,44 +131,44 @@ plans:
 - name: Fti Consulting Plans Pricing
   plan_count: 1
   slug: fti-consulting-plans-pricing
-random_paper: 10
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Fti Consulting Rate Limits
   slug: fti-consulting-rate-limits
 score:
   band: emerging
-  composite: 13.5
+  composite: 12.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 15.0
+  previous_composite: 12.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fti-consulting/refs/heads/main/screenshots/fti-consulting-2026-06-20T181607.png
+screenshot: https://apis.io/screenshots/fti-consulting/fti-consulting-2026-06-20T181607.png
 security:
 - kind: domain-security
   name: Fti Consulting Domain Security

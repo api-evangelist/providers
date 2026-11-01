@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,9 +83,6 @@ apis:
 artifact_total: 19
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-bank-first-banking-account-balances-api
 - collection_type: open
@@ -106,17 +105,17 @@ collections:
   slug: open-bank-first-banking-products-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/capabilities/bank-first-capability-edges.yml
+  href: https://artifacts.apis.io/bank-first/capabilities/bank-first-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bank-first-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/agentic-access/bank-first-agentic-access.yml
+  href: https://artifacts.apis.io/bank-first/agentic-access/bank-first-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bank-first-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/security/bank-first-domain-security.yml
+  href: https://artifacts.apis.io/bank-first/security/bank-first-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bank-first-domain-security.yml
@@ -161,67 +160,67 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/bank-first
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/authentication/bank-first-authentication.yml
+  href: https://artifacts.apis.io/bank-first/authentication/bank-first-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bank-first-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/scopes/bank-first-scopes.yml
+  href: https://artifacts.apis.io/bank-first/scopes/bank-first-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bank-first-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/conventions/bank-first-conventions.yml
+  href: https://artifacts.apis.io/bank-first/conventions/bank-first-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bank-first-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/errors/bank-first-problem-types.yml
+  href: https://artifacts.apis.io/bank-first/errors/bank-first-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bank-first-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/lifecycle/bank-first-lifecycle.yml
+  href: https://artifacts.apis.io/bank-first/lifecycle/bank-first-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bank-first-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/lifecycle/bank-first-lifecycle.yml
+  href: https://artifacts.apis.io/bank-first/lifecycle/bank-first-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/bank-first-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/conformance/bank-first-conformance.yml
+  href: https://artifacts.apis.io/bank-first/conformance/bank-first-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bank-first-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/security/bank-first-domain-security.yml
+  href: https://artifacts.apis.io/bank-first/security/bank-first-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bank-first-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/data-model/bank-first-data-model.yml
+  href: https://artifacts.apis.io/bank-first/data-model/bank-first-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bank-first-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/mcp/bank-first-mcp.yml
+  href: https://artifacts.apis.io/bank-first/mcp/bank-first-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bank-first-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/llms/bank-first-llms.txt
+  href: https://artifacts.apis.io/bank-first/llms/bank-first-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bank-first-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/overlays/bank-first-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/bank-first/overlays/bank-first-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bank-first-cds-banking-products-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bank-first/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -237,7 +236,7 @@ overview: 'Bank First publishes 7 API contracts indexed on the [APIs.io](https:/
 
 
   Bank First''s developer surface includes documentation, support, getting-started guide, authentication, and 22 more developer resources.'
-random_paper: 19
+random_paper: 1
 scopes:
 - name: Bank First Scopes
   scope_count: 7
@@ -259,7 +258,7 @@ score:
     contract_governance: 18.2
     contract_quality: 44.7
     developer_ergonomics: 56.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -289,13 +288,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/screenshots/bank-first-2026-07-21T114722.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bank-first/bank-first-2026-07-21T114722.png
 security:
 - kind: authentication
   name: Bank First Authentication
@@ -305,6 +305,10 @@ security:
   name: Bank First Domain Security
   slug: bank-first-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: Look up Bank First banking products
+  slug: bank-first-lookup-products
 slug: bank-first
 tags:
 - Finance

@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
-    openapi_examples: verified
+    mcp_server: documented
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.3
-  scored_at: '2026-10-17'
+  score: 48.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -120,11 +122,23 @@ apis:
   description: The Users API from Aptly — 2 operation(s) for users.
   name: Aptly Users API
   slug: aptly-users-api
-artifact_total: 35
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The Docs API from Aptly — 1 operation(s) for docs.
+  name: Aptly Docs API
+  slug: aptly-docs-api
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The Tours API from Aptly — 2 operation(s) for tours.
+  name: Aptly Tours API
+  slug: aptly-tours-api
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The WebForms API from Aptly — 1 operation(s) for webforms.
+  name: Aptly Web Forms API
+  slug: aptly-webforms-api
+artifact_total: 43
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Aptly App API
   slug: open-aptly-app-api
@@ -171,6 +185,16 @@ collections:
   name: Aptly App Users API
   slug: open-aptly-users-api
 common:
+- group: other
+  href: https://artifacts.apis.io/aptly/capabilities/aptly-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/aptly-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/aptly/plans/aptly-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/aptly-plans-pricing.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -212,87 +236,87 @@ common:
   type: GitHubOrganization
   url: https://github.com/getaptly
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/_original/aptly-openapi-original.yml
+  href: https://artifacts.apis.io/aptly/openapi/_original/aptly-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/aptly-openapi-original.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/mcp/aptly-mcp.yml
+  href: https://artifacts.apis.io/aptly/mcp/aptly-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aptly-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/llms/aptly-llms.txt
+  href: https://artifacts.apis.io/aptly/llms/aptly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aptly-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/authentication/aptly-authentication.yml
+  href: https://artifacts.apis.io/aptly/authentication/aptly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aptly-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/agentic-access/aptly-agentic-access.yml
+  href: https://artifacts.apis.io/aptly/agentic-access/aptly-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aptly-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/conventions/aptly-conventions.yml
+  href: https://artifacts.apis.io/aptly/conventions/aptly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aptly-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/conventions/aptly-conventions.yml
+  href: https://artifacts.apis.io/aptly/conventions/aptly-conventions.yml
   title: ''
   type: RateLimits
   url: conventions/aptly-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/errors/aptly-problem-types.yml
+  href: https://artifacts.apis.io/aptly/errors/aptly-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aptly-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/lifecycle/aptly-lifecycle.yml
+  href: https://artifacts.apis.io/aptly/lifecycle/aptly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aptly-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/lifecycle/aptly-lifecycle.yml
+  href: https://artifacts.apis.io/aptly/lifecycle/aptly-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/aptly-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/changelog/aptly-changelog.yml
+  href: https://artifacts.apis.io/aptly/changelog/aptly-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aptly-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/conformance/aptly-conformance.yml
+  href: https://artifacts.apis.io/aptly/conformance/aptly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aptly-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/components/aptly-components.yml
+  href: https://artifacts.apis.io/aptly/components/aptly-components.yml
   title: ''
   type: Components
   url: components/aptly-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/data-model/aptly-data-model.yml
+  href: https://artifacts.apis.io/aptly/data-model/aptly-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aptly-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/overlays/aptly-openapi-overlay.yaml
+  href: https://artifacts.apis.io/aptly/overlays/aptly-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aptly-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/security/aptly-domain-security.yml
+  href: https://artifacts.apis.io/aptly/security/aptly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aptly-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/aptly/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -302,6 +326,14 @@ common:
   url: https://www.getaptly.com
 created: '2026-07-17'
 description: Aptly is the AI operations layer for property management, built by Invisible Apps, Inc. It unifies resident and owner communication (calls, texts, emails, and chat) with board-based workflows, automation, and AI agents that handle leasing inquiries, maintenance requests, and around-the-clock resident communication, and it syncs bidirectionally with property management systems including Yardi, RealPage, Entrata, and AppFolio. The Aptly Core API (https://core-api.getaptly.com) gives external systems and AI agents direct read/write access to boards, cards, contacts, tasks, inboxes, calendars, files, and knowledge documents using a per-company API key, and Aptly ships an official hosted MCP server (https://mcp.getaptly.com/mcp) as the recommended way to connect LLMs. A separate Portal API powers the rental-application screening portal.
+finops:
+- has_sources: true
+  method: derived
+  name: Aptly Finops
+  primary_unit: ''
+  service_category: ''
+  slug: aptly-finops
+  template: true
 image: https://www.getaptly.com/images/aptly-logo-light.png
 layout: provider
 mcp_servers:
@@ -312,30 +344,34 @@ modified: '2026-07-18'
 name: Aptly
 nav: Providers
 network: true
-overview: 'Aptly publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including App API, Board API, Boards API, and 12 more. Tagged areas include Company, Cloud Saas, Property Management, Real Estate, and PropTech.
+overview: 'Aptly publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including App API, Board API, Boards API, and 15 more. Tagged areas include Company, Cloud Saas, Property Management, Real Estate, and PropTech.
 
 
-  Aptly''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 4
+  Aptly''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
+plans:
+- name: Aptly Plans Pricing
+  plan_count: 0
+  slug: aptly-plans-pricing
+random_paper: 2
 score:
   band: developing
-  composite: 47.6
+  composite: 44.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.2
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 49.2
+    contract_quality: 49.0
     developer_ergonomics: 54.2
-    discoverability: 75.0
-    operational_transparency: 26.3
-  previous_composite: 47.5
+    discoverability: 65.0
+    operational_transparency: 28.9
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -343,7 +379,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 15
+      total: 34
     mcp: first-party
     skills: derived
   regulatory:
@@ -352,13 +388,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/screenshots/aptly-2026-07-25T200942.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aptly/aptly-2026-07-25T200942.png
 security:
 - kind: authentication
   name: Aptly Authentication
@@ -368,6 +405,16 @@ security:
   name: Aptly Domain Security
   slug: aptly-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: Create and update an Aptly card
+  slug: aptly-create-and-update-card
+- name: Look up and upsert Aptly contacts
+  slug: aptly-manage-contacts
+- name: Draft and send Aptly email
+  slug: aptly-send-email
+- name: Search and manage Aptly tasks
+  slug: aptly-track-tasks
 slug: aptly
 tags:
 - Company

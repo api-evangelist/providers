@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: flavored
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 54.3
-  scored_at: '2026-10-17'
+  score: 51.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 9
   slug: antimetal-agentic-access
   summary_line: 9 operations · 3 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Remote Model Context Protocol server exposing Antimetal's investigation, root-cause analysis and remediation capabilities to MCP-compatible clients such as Claude Code, Cursor, VS Code, Windsurf and C
   name: Antimetal MCP Server
@@ -67,11 +69,8 @@ apis:
   description: The Query API from Antimetal — 1 operation(s) for query.
   name: Antimetal Query API
   slug: antimetal-query-api
-artifact_total: 16
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Antimetal External Artifacts API
   slug: open-antimetal-artifacts-api
@@ -83,12 +82,12 @@ collections:
   slug: open-antimetal-query-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/capabilities/antimetal-capability-edges.yml
+  href: https://artifacts.apis.io/antimetal/capabilities/antimetal-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/antimetal-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/overlays/antimetal-external-api-overlay.yaml
+  href: https://artifacts.apis.io/antimetal/overlays/antimetal-external-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antimetal-external-api-overlay.yaml
@@ -97,17 +96,17 @@ common:
   type: IssueTracker
   url: https://github.com/antimetal/apis/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/agentic-access/antimetal-agentic-access.yml
+  href: https://artifacts.apis.io/antimetal/agentic-access/antimetal-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/antimetal-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/security/antimetal-domain-security.yml
+  href: https://artifacts.apis.io/antimetal/security/antimetal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/antimetal-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/authentication/antimetal-authentication.yml
+  href: https://artifacts.apis.io/antimetal/authentication/antimetal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/antimetal-authentication.yml
@@ -168,82 +167,82 @@ common:
   type: Security
   url: https://docs.antimetal.com/admin/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/llms/antimetal-llms.txt
+  href: https://artifacts.apis.io/antimetal/llms/antimetal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/antimetal-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/well-known/antimetal-well-known.yml
+  href: https://artifacts.apis.io/antimetal/well-known/antimetal-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/antimetal-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/well-known/antimetal-api-catalog.json
+  href: https://artifacts.apis.io/antimetal/well-known/antimetal-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/antimetal-api-catalog.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/a2a/antimetal-a2a.yml
+  href: https://artifacts.apis.io/antimetal/a2a/antimetal-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/antimetal-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/antimetal/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/packages/antimetal-packages.yml
+  href: https://artifacts.apis.io/antimetal/packages/antimetal-packages.yml
   title: ''
   type: Packages
   url: packages/antimetal-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/packages/antimetal-packages.yml
+  href: https://artifacts.apis.io/antimetal/packages/antimetal-packages.yml
   title: ''
   type: SDKs
   url: packages/antimetal-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/conformance/antimetal-conformance.yml
+  href: https://artifacts.apis.io/antimetal/conformance/antimetal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/antimetal-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/errors/antimetal-problem-types.yml
+  href: https://artifacts.apis.io/antimetal/errors/antimetal-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/antimetal-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/lifecycle/antimetal-lifecycle.yml
+  href: https://artifacts.apis.io/antimetal/lifecycle/antimetal-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/antimetal-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/conventions/antimetal-conventions.yml
+  href: https://artifacts.apis.io/antimetal/conventions/antimetal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/antimetal-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/changelog/antimetal-changelog.yml
+  href: https://artifacts.apis.io/antimetal/changelog/antimetal-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/antimetal-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/data-model/antimetal-data-model.yml
+  href: https://artifacts.apis.io/antimetal/data-model/antimetal-data-model.yml
   title: ''
   type: DataModel
   url: data-model/antimetal-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/security/antimetal-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/antimetal/security/antimetal-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/antimetal-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/security/antimetal-trust-center.yml
+  href: https://artifacts.apis.io/antimetal/security/antimetal-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/antimetal-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/scopes/antimetal-scopes.yml
+  href: https://artifacts.apis.io/antimetal/scopes/antimetal-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/antimetal-scopes.yml
@@ -268,15 +267,15 @@ overview: 'Antimetal publishes 5 API contracts indexed on the [APIs.io](https://
 
 
   Antimetal''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 30 more developer resources.'
-random_paper: 13
+random_paper: 23
 scopes:
 - name: Antimetal Scopes
   scope_count: 4
   slug: antimetal-scopes
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
-  band: developing
-  composite: 52.5
+  band: strong
+  composite: 55.4
   coverage:
     artifact_dirs: 25
     catalog_earned: 37.0
@@ -284,15 +283,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 52.4
+    contract_quality: 49.0
     developer_ergonomics: 71.4
-    discoverability: 75.0
-    operational_transparency: 36.8
-  previous_composite: 52.4
+    discoverability: 65.0
+    operational_transparency: 47.4
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -309,13 +308,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/screenshots/antimetal-2026-08-07T161424.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/antimetal/antimetal-2026-08-07T161424.png
 security:
 - kind: authentication
   name: Antimetal Authentication
@@ -333,6 +333,16 @@ security:
   name: Antimetal Trust Center
   slug: antimetal-trust-center
   summary_line: SOC 2 Type II, HIPAA
+skill_count: 4
+skills:
+- name: fix
+  slug: antimetal-fix
+- name: investigate
+  slug: antimetal-investigate
+- name: antimetal-mcp-setup
+  slug: antimetal-mcp-setup
+- name: Antimetal
+  slug: antimetal-published-skill
 slug: antimetal
 tags:
 - Company

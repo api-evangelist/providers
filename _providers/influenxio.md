@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -83,22 +85,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/Influenxio
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/influenxio/refs/heads/main/security/influenxio-domain-security.yml
+  href: https://artifacts.apis.io/influenxio/security/influenxio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/influenxio-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/influenxio/refs/heads/main/plans/influenxio-plans-pricing.yml
+  href: https://artifacts.apis.io/influenxio/plans/influenxio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/influenxio-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/influenxio/refs/heads/main/rate-limits/influenxio-rate-limits.yml
+  href: https://artifacts.apis.io/influenxio/rate-limits/influenxio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/influenxio-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/influenxio/refs/heads/main/llms/influenxio-llms.txt
+  href: https://artifacts.apis.io/influenxio/llms/influenxio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/influenxio-llms.txt
@@ -132,14 +134,14 @@ plans:
 - name: Influenxio Plans Pricing
   plan_count: 2
   slug: influenxio-plans-pricing
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Influenxio Rate Limits
   slug: influenxio-rate-limits
 score:
   band: emerging
-  composite: 19.5
+  composite: 19.9
   coverage:
     artifact_dirs: 9
     catalog_earned: 35.0
@@ -154,22 +156,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 19.5
+    operational_transparency: 5.3
+  previous_composite: 19.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/influenxio/refs/heads/main/screenshots/influenxio-2026-07-25T222414.png
+screenshot: https://apis.io/screenshots/influenxio/influenxio-2026-07-25T222414.png
 security:
 - kind: domain-security
   name: Influenxio Domain Security

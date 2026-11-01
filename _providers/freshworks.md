@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.6
-  scored_at: '2026-10-17'
+  score: 21.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -261,15 +263,12 @@ apis:
   description: Manage vendor records for IT procurement and contracts.
   name: freshworks Vendors API
   slug: freshworks-vendors-api
-artifact_total: 198
+artifact_total: 197
 asyncapis:
 - description: Freshworks products support webhook callbacks that notify external applications when specific events occur within the helpdesk, service desk, CRM, and messaging platforms. Webhooks are configured thro
   name: Freshworks Webhook Events
   slug: freshworks-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Freshworks Freshcaller Accounts API
   slug: open-freshworks-accounts-api
@@ -416,12 +415,12 @@ collections:
   slug: open-freshworks-vendors-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/finops/freshworks-finops.yml
+  href: https://artifacts.apis.io/freshworks/finops/freshworks-finops.yml
   title: ''
   type: FinOps
   url: finops/freshworks-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/rate-limits/freshworks-rate-limits.yml
+  href: https://artifacts.apis.io/freshworks/rate-limits/freshworks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/freshworks-rate-limits.yml
@@ -430,7 +429,7 @@ common:
   type: Pricing
   url: https://www.freshworks.com/freshservice/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/plans/freshworks-plans-pricing.yml
+  href: https://artifacts.apis.io/freshworks/plans/freshworks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/freshworks-plans-pricing.yml
@@ -439,22 +438,22 @@ common:
   type: Website
   url: https://freshworks.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/capabilities/freshworks-capability-edges.yml
+  href: https://artifacts.apis.io/freshworks/capabilities/freshworks-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/freshworks-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/agentic-access/freshworks-agentic-access.yml
+  href: https://artifacts.apis.io/freshworks/agentic-access/freshworks-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/freshworks-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/security/freshworks-domain-security.yml
+  href: https://artifacts.apis.io/freshworks/security/freshworks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/freshworks-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/authentication/freshworks-authentication.yml
+  href: https://artifacts.apis.io/freshworks/authentication/freshworks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/freshworks-authentication.yml
@@ -467,22 +466,22 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/freshworks-inc
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/asyncapi/freshworks-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/freshworks/asyncapi/freshworks-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/freshworks-webhooks-asyncapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/json-schema/freshworks-ticket-schema.json
+  href: https://artifacts.apis.io/freshworks/json-schema/freshworks-ticket-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/freshworks-ticket-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/json-schema/freshworks-contact-schema.json
+  href: https://artifacts.apis.io/freshworks/json-schema/freshworks-contact-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/freshworks-contact-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/json-ld/freshworks-context.jsonld
+  href: https://artifacts.apis.io/freshworks/json-ld/freshworks-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/freshworks-context.jsonld
@@ -506,10 +505,10 @@ features:
 - Audit logs and skills-based routing on Enterprise
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Freshworks Finops
-  primary_unit: ''
-  service_category: Customer Support / CRM
+  primary_unit: agent
+  service_category: ''
   slug: freshworks-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freshworks.png
@@ -773,7 +772,7 @@ plans:
 - name: Freshworks Price Estimates
   plan_count: 0
   slug: freshworks-price-estimates
-random_paper: 2
+random_paper: 22
 rate_limits:
 - limit_count: 22
   name: Freshworks Rate Limits
@@ -804,23 +803,23 @@ rules:
   slug: freshworks-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.3
+  composite: 42.1
   coverage:
     artifact_dirs: 19
-    catalog_earned: 65.5
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 49.5
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 42.1
+    access_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 65.2
+    contract_quality: 61.9
     developer_ergonomics: 21.4
     discoverability: 57.1
-    operational_transparency: 34.2
-  previous_composite: 41.8
+    operational_transparency: 36.8
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -834,13 +833,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/screenshots/freshworks-2026-06-20T181551.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/freshworks/freshworks-2026-06-20T181551.png
 security:
 - kind: authentication
   name: Freshworks Authentication

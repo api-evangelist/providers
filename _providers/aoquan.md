@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Agentic AI platform API (no public machine‑readable contract discovered)
@@ -32,22 +34,22 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aoquan/refs/heads/main/vendors/aoquan-vendors.yml
+  href: https://artifacts.apis.io/aoquan/vendors/aoquan-vendors.yml
   title: ''
   type: Vendors
   url: vendors/aoquan-vendors.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aoquan/refs/heads/main/llms/aoquan-llms.txt
+  href: https://artifacts.apis.io/aoquan/llms/aoquan-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aoquan-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aoquan/refs/heads/main/hosts/aoquan-hosts.yml
+  href: https://artifacts.apis.io/aoquan/hosts/aoquan-hosts.yml
   title: ''
   type: Hosts
   url: hosts/aoquan-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aoquan/refs/heads/main/security/aoquan-domain-security.yml
+  href: https://artifacts.apis.io/aoquan/security/aoquan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aoquan-domain-security.yml
@@ -71,12 +73,12 @@ name: Aoquan
 nav: Providers
 network: true
 overview: Aoquan is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Finance, Artificial Intelligence, Automation, and Institutional.
-random_paper: 7
+random_paper: 21
 score:
   band: minimal
-  composite: 4.6
+  composite: 3.9
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
@@ -88,15 +90,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 60.7
+    discoverability: 53.6
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: venue_as_website
-  previous_composite: 4.6
+  previous_composite: 3.9
   provenance:
     mcp: unknown
   regulatory:
@@ -105,14 +101,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aoquan/refs/heads/main/screenshots/aoquan-2026-10-11T095840.png
+screenshot: https://apis.io/screenshots/aoquan/aoquan-2026-10-11T095840.png
 security:
 - kind: domain-security
   name: Aoquan Domain Security

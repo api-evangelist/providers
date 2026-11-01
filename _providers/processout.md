@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-17'
+  score: 46.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -96,15 +98,12 @@ apis:
   description: The Uploads API from ProcessOut — 3 operation(s) for uploads.
   name: ProcessOut Uploads API
   slug: processout-uploads-api
-artifact_total: 28
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Processout Webhooks
   slug: processout-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ProcessOut Balances API
   slug: open-processout-balances-api
@@ -137,112 +136,112 @@ collections:
   slug: open-processout-uploads-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/rate-limits/processout-rate-limits.yml
+  href: https://artifacts.apis.io/processout/rate-limits/processout-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/processout-rate-limits.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/openapi/_original/processout-openapi.json
+  href: https://artifacts.apis.io/processout/openapi/_original/processout-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/processout-openapi.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/overlays/processout-openapi-overlay.yaml
+  href: https://artifacts.apis.io/processout/overlays/processout-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/processout-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/mcp/processout-mcp.yml
+  href: https://artifacts.apis.io/processout/mcp/processout-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/processout-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/llms/processout-llms.txt
+  href: https://artifacts.apis.io/processout/llms/processout-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/processout-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/agentic-access/processout-agentic-access.yml
+  href: https://artifacts.apis.io/processout/agentic-access/processout-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/processout-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/processout/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/packages/processout-packages.yml
+  href: https://artifacts.apis.io/processout/packages/processout-packages.yml
   title: ''
   type: Packages
   url: packages/processout-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/packages/processout-packages.yml
+  href: https://artifacts.apis.io/processout/packages/processout-packages.yml
   title: ''
   type: SDKs
   url: packages/processout-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/components/processout-components.yml
+  href: https://artifacts.apis.io/processout/components/processout-components.yml
   title: ''
   type: Components
   url: components/processout-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/authentication/processout-authentication.yml
+  href: https://artifacts.apis.io/processout/authentication/processout-authentication.yml
   title: ''
   type: Authentication
   url: authentication/processout-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/conventions/processout-conventions.yml
+  href: https://artifacts.apis.io/processout/conventions/processout-conventions.yml
   title: ''
   type: Conventions
   url: conventions/processout-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/conventions/processout-conventions.yml
+  href: https://artifacts.apis.io/processout/conventions/processout-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/processout-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/rate-limits/processout-rate-limits.yml
+  href: https://artifacts.apis.io/processout/rate-limits/processout-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/processout-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/errors/processout-problem-types.yml
+  href: https://artifacts.apis.io/processout/errors/processout-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/processout-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/errors/processout-decline-codes.yml
+  href: https://artifacts.apis.io/processout/errors/processout-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/processout-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/data-model/processout-data-model.yml
+  href: https://artifacts.apis.io/processout/data-model/processout-data-model.yml
   title: ''
   type: DataModel
   url: data-model/processout-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/sandbox/processout-sandbox.yml
+  href: https://artifacts.apis.io/processout/sandbox/processout-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/processout-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/lifecycle/processout-lifecycle.yml
+  href: https://artifacts.apis.io/processout/lifecycle/processout-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/processout-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/conformance/processout-conformance.yml
+  href: https://artifacts.apis.io/processout/conformance/processout-conformance.yml
   title: ''
   type: Conformance
   url: conformance/processout-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/asyncapi/processout-webhooks.yml
+  href: https://artifacts.apis.io/processout/asyncapi/processout-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/processout-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/security/processout-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/processout/security/processout-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/processout-vulnerability-disclosure.yml
@@ -251,7 +250,7 @@ common:
   type: Security
   url: https://www.processout.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/security/processout-domain-security.yml
+  href: https://artifacts.apis.io/processout/security/processout-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/processout-domain-security.yml
@@ -260,7 +259,7 @@ common:
   type: Compliance
   url: https://www.processout.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/well-known/processout-well-known.yml
+  href: https://artifacts.apis.io/processout/well-known/processout-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/processout-well-known.yml
@@ -343,16 +342,16 @@ overview: 'ProcessOut publishes 10 API contracts indexed on the [APIs.io](https:
 
 
   ProcessOut''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 34 more developer resources.'
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Processout Rate Limits
   slug: processout-rate-limits
 score:
-  band: developing
-  composite: 50.8
+  band: strong
+  composite: 57.8
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -360,13 +359,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 57.6
-    developer_ergonomics: 51.8
-    discoverability: 71.7
+    developer_ergonomics: 73.2
+    discoverability: 65.0
     operational_transparency: 60.5
-  previous_composite: 50.8
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -387,13 +386,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 44.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/screenshots/processout-2026-08-17T081342.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/processout/processout-2026-08-17T081342.png
 security:
 - kind: authentication
   name: Processout Authentication
@@ -407,6 +407,16 @@ security:
   name: Processout Vulnerability Disclosure
   slug: processout-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 4
+skills:
+- name: Accept a card payment
+  slug: processout-accept-card-payment
+- name: Handle a webhook event
+  slug: processout-handle-webhook-event
+- name: Reconcile payouts and reports
+  slug: processout-reconcile-payouts
+- name: Save a token and charge for future payments
+  slug: processout-save-token-and-charge
 slug: processout
 tags:
 - Payments

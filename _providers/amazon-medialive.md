@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,15 +27,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 4
@@ -50,30 +52,72 @@ apis:
   description: The Prod API from Amazon MediaLive — 38 operation(s) for prod.
   name: Amazon MediaLive Prod API
   slug: amazon-medialive-prod-api
-artifact_total: 1885
+- baseURL: http://medialive.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Medialive Alerts API from Amazon MediaLive — 3 operation(s) for medialive alerts.
+  name: Amazon MediaLive Medialive Alerts API
+  slug: amazon-medialive-alerts-api
+- baseURL: http://medialive.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Medialive Channelplacementgroups API from Amazon MediaLive — 2 operation(s) for medialive channelplacementgroups.
+  name: Amazon MediaLive Medialive Channelplacementgroups API
+  slug: amazon-medialive-channelplacementgroups-api
+- baseURL: http://medialive.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Medialive Nodes API from Amazon MediaLive — 2 operation(s) for medialive nodes.
+  name: Amazon MediaLive Medialive Nodes API
+  slug: amazon-medialive-nodes-api
+- baseURL: http://medialive.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Medialive Operations API from Amazon MediaLive — 15 operation(s) for medialive operations.
+  name: Amazon MediaLive Medialive Operations API
+  slug: amazon-medialive-operations-api
+- baseURL: http://medialive.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Medialive Programs API from Amazon MediaLive — 2 operation(s) for medialive programs.
+  name: Amazon MediaLive Medialive Programs API
+  slug: amazon-medialive-programs-api
+- baseURL: http://medialive.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Medialive Schedule API from Amazon MediaLive — 1 operation(s) for medialive schedule.
+  name: Amazon MediaLive Medialive Schedule API
+  slug: amazon-medialive-schedule-api
+- baseURL: http://medialive.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Medialive Start API from Amazon MediaLive — 3 operation(s) for medialive start.
+  name: Amazon MediaLive Medialive Start API
+  slug: amazon-medialive-start-api
+- baseURL: http://medialive.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Medialive Stop API from Amazon MediaLive — 3 operation(s) for medialive stop.
+  name: Amazon MediaLive Medialive Stop API
+  slug: amazon-medialive-stop-api
+artifact_total: 1892
 collections:
 - collection_type: postman
   name: AWS Elemental MediaLive Prod API
   slug: postman-amazon-medialive-prod-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: AWS Elemental MediaLive Prod API
   slug: open-amazon-medialive-prod-api
 common:
+- group: other
+  href: https://artifacts.apis.io/amazon-medialive/capabilities/amazon-medialive-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-medialive-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/plans/amazon-medialive-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-medialive/plans/amazon-medialive-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-medialive-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/rate-limits/amazon-medialive-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-medialive/rate-limits/amazon-medialive-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-medialive-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/finops/amazon-medialive-finops.yml
+  href: https://artifacts.apis.io/amazon-medialive/finops/amazon-medialive-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-medialive-finops.yml
@@ -86,27 +130,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-medialive/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/agentic-access/amazon-medialive-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-medialive/agentic-access/amazon-medialive-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-medialive-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/security/amazon-medialive-trust-center.yml
+  href: https://artifacts.apis.io/amazon-medialive/security/amazon-medialive-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-medialive-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/security/amazon-medialive-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-medialive/security/amazon-medialive-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-medialive-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/security/amazon-medialive-domain-security.yml
+  href: https://artifacts.apis.io/amazon-medialive/security/amazon-medialive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-medialive-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/authentication/amazon-medialive-authentication.yml
+  href: https://artifacts.apis.io/amazon-medialive/authentication/amazon-medialive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-medialive-authentication.yml
@@ -155,12 +199,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/rules/amazon-medialive-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-medialive/rules/amazon-medialive-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-medialive-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/vocabulary/amazon-medialive-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-medialive/vocabulary/amazon-medialive-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-medialive-vocabulary.yaml
@@ -2041,13 +2085,13 @@ features:
 - description: Dynamically switch between input sources during a live event without interruption.
   name: Input Switching
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Medialive Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: hour
+  service_category: ''
   slug: amazon-medialive-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-medialive.png
 json_schemas:
 - name: AacCodingMode
@@ -5781,18 +5825,18 @@ modified: '2026-09-16'
 name: Amazon MediaLive
 nav: Providers
 network: true
-overview: 'Amazon MediaLive publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Prod API. Tagged areas include Broadcasting, Media Processing, and Media.
+overview: 'Amazon MediaLive publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Prod API, Medialive Alerts API, Medialive Channelplacementgroups API, and 6 more. Tagged areas include Broadcasting, Media Processing, and Media.
 
 
   The Amazon MediaLive catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MediaLive''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 16 more developer resources.'
+  Amazon MediaLive''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 17 more developer resources.'
 plans:
 - name: Amazon Medialive Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: amazon-medialive-plans-pricing
-random_paper: 7
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Amazon Medialive Rate Limits
@@ -5822,44 +5866,45 @@ rules:
     warn: 12
   slug: amazon-medialive-spectral-rules
 score:
-  band: developing
-  composite: 53.3
+  band: strong
+  composite: 61.2
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 53.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 62.0
+    artifact_dirs: 21
+    catalog_earned: 65.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 62.9
+    contract_quality: 59.5
     developer_ergonomics: 58.3
     discoverability: 48.2
-    operational_transparency: 26.3
-  previous_composite: 54.8
+    operational_transparency: 39.5
+  previous_composite: 59.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 1
+      marker_coverage: 88.9
+      total: 9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/screenshots/amazon-medialive-2026-06-20T171741.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-medialive/amazon-medialive-2026-06-20T171741.png
 security:
 - kind: authentication
   name: Amazon Medialive Authentication

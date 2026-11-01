@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -42,7 +44,7 @@ common:
   type: Blog
   url: https://www.scopely.com/en/news
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/scopely/refs/heads/main/a2a/scopely-a2a.yml
+  href: https://artifacts.apis.io/scopely/a2a/scopely-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/scopely-a2a.yml
@@ -61,7 +63,7 @@ overview: 'Scopely is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Scopely''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 19
+random_paper: 23
 score:
   band: minimal
   composite: 1.8
@@ -72,7 +74,7 @@ score:
     catalog_gap: 95.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -80,21 +82,21 @@ score:
     developer_ergonomics: 2.4
     discoverability: 35.7
     operational_transparency: 0.0
-  previous_composite: 1.2
+  previous_composite: 1.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/scopely/refs/heads/main/screenshots/scopely-2026-09-02T154559.png
+screenshot: https://apis.io/screenshots/scopely/scopely-2026-09-02T154559.png
 security:
 - kind: domain-security
   name: Scopely Domain Security

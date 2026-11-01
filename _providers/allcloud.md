@@ -14,31 +14,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allcloud/refs/heads/main/llms/allcloud-llms.txt
+  href: https://artifacts.apis.io/allcloud/llms/allcloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/allcloud-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/allcloud/refs/heads/main/hosts/allcloud-hosts.yml
+  href: https://artifacts.apis.io/allcloud/hosts/allcloud-hosts.yml
   title: ''
   type: Hosts
   url: hosts/allcloud-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/allcloud/refs/heads/main/vendors/allcloud-vendors.yml
+  href: https://artifacts.apis.io/allcloud/vendors/allcloud-vendors.yml
   title: ''
   type: Vendors
   url: vendors/allcloud-vendors.yml
@@ -63,12 +65,12 @@ common:
   type: Blog
   url: https://allcloud.io/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allcloud/refs/heads/main/security/allcloud-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/allcloud/security/allcloud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/allcloud-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allcloud/refs/heads/main/security/allcloud-domain-security.yml
+  href: https://artifacts.apis.io/allcloud/security/allcloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/allcloud-domain-security.yml
@@ -96,12 +98,12 @@ overview: 'Allcloud is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Allcloud''s developer surface includes getting-started guide, engineering blog, and 9 more developer resources.'
-random_paper: 12
+random_paper: 8
 score:
   band: emerging
-  composite: 12.1
+  composite: 11.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -113,9 +115,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 57.1
+    discoverability: 50.0
     operational_transparency: 10.5
-  previous_composite: 12.1
+  previous_composite: 11.4
   provenance:
     mcp: unknown
   regulatory:
@@ -124,14 +126,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/allcloud/refs/heads/main/screenshots/allcloud-2026-10-11T093642.png
+screenshot: https://apis.io/screenshots/allcloud/allcloud-2026-10-11T093642.png
 security:
 - kind: domain-security
   name: Allcloud Domain Security

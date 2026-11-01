@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,11 +58,8 @@ apis:
   description: The Job Management API from Apache Giraph — 2 operation(s) for job management.
   name: Apache Giraph Job Management API
   slug: apache-giraph-job-management-api
-artifact_total: 46
+artifact_total: 45
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apache Giraph Job Monitoring Cluster API
   slug: open-apache-giraph-cluster-api
@@ -72,17 +71,17 @@ collections:
   slug: open-apache-giraph-job
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/plans/apache-giraph-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-giraph/plans/apache-giraph-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-giraph-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/rate-limits/apache-giraph-rate-limits.yml
+  href: https://artifacts.apis.io/apache-giraph/rate-limits/apache-giraph-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-giraph-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/finops/apache-giraph-finops.yml
+  href: https://artifacts.apis.io/apache-giraph/finops/apache-giraph-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-giraph-finops.yml
@@ -99,17 +98,17 @@ common:
   type: License
   url: https://github.com/apache/giraph/blob/trunk/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/agentic-access/apache-giraph-agentic-access.yml
+  href: https://artifacts.apis.io/apache-giraph/agentic-access/apache-giraph-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-giraph-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/security/apache-giraph-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-giraph/security/apache-giraph-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-giraph-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/security/apache-giraph-domain-security.yml
+  href: https://artifacts.apis.io/apache-giraph/security/apache-giraph-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-giraph-domain-security.yml
@@ -130,12 +129,12 @@ common:
   type: GitHubRepository
   url: https://github.com/apache/giraph
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/rules/apache-giraph-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-giraph/rules/apache-giraph-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-giraph-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/vocabulary/apache-giraph-vocabulary.yaml
+  href: https://artifacts.apis.io/apache-giraph/vocabulary/apache-giraph-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-giraph-vocabulary.yaml
@@ -175,7 +174,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Giraph Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-giraph-finops
   template: true
@@ -238,7 +237,7 @@ plans:
 - name: Apache Giraph Plans Pricing
   plan_count: 3
   slug: apache-giraph-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Apache Giraph Rate Limits
@@ -269,23 +268,23 @@ rules:
   slug: apache-giraph-spectral-rules
 score:
   band: thin
-  composite: 30.8
+  composite: 32.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 63.4
     catalog_earned_first_party: 0.0
     catalog_gap: 51.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 51.6
     developer_ergonomics: 28.6
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 29.1
+    operational_transparency: 23.7
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -299,14 +298,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/screenshots/apache-giraph-2026-06-20T172100.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-giraph/apache-giraph-2026-06-20T172100.png
 security:
 - kind: domain-security
   name: Apache Giraph Domain Security

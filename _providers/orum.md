@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.8
-  scored_at: '2026-10-17'
+  score: 38.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -129,15 +130,12 @@ apis:
   description: The Verify API from Orum — 4 operation(s) for verify.
   name: Orum Verify API
   slug: orum-verify-api
-artifact_total: 42
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Orum Webhooks
   slug: orum-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Orum Authentication API
   slug: open-orum-authentication-api
@@ -191,7 +189,7 @@ collections:
   slug: open-orum-verify-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/capabilities/orum-capability-edges.yml
+  href: https://artifacts.apis.io/orum/capabilities/orum-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/orum-capability-edges.yml
@@ -224,87 +222,87 @@ common:
   type: GitHubOrganization
   url: https://github.com/orum-io
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/_original/orum-openapi-original.yml
+  href: https://artifacts.apis.io/orum/openapi/_original/orum-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/orum-openapi-original.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/overlays/orum-openapi-overlay.yaml
+  href: https://artifacts.apis.io/orum/overlays/orum-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/orum-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/authentication/orum-authentication.yml
+  href: https://artifacts.apis.io/orum/authentication/orum-authentication.yml
   title: ''
   type: Authentication
   url: authentication/orum-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/scopes/orum-scopes.yml
+  href: https://artifacts.apis.io/orum/scopes/orum-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/orum-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/mcp/orum-mcp.yml
+  href: https://artifacts.apis.io/orum/mcp/orum-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/orum-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/llms/orum-llms.txt
+  href: https://artifacts.apis.io/orum/llms/orum-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/orum-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/orum/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/agentic-access/orum-agentic-access.yml
+  href: https://artifacts.apis.io/orum/agentic-access/orum-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/orum-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/packages/orum-packages.yml
+  href: https://artifacts.apis.io/orum/packages/orum-packages.yml
   title: ''
   type: Packages
   url: packages/orum-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/conventions/orum-conventions.yml
+  href: https://artifacts.apis.io/orum/conventions/orum-conventions.yml
   title: ''
   type: Conventions
   url: conventions/orum-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/data-model/orum-data-model.yml
+  href: https://artifacts.apis.io/orum/data-model/orum-data-model.yml
   title: ''
   type: DataModel
   url: data-model/orum-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/errors/orum-problem-types.yml
+  href: https://artifacts.apis.io/orum/errors/orum-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/orum-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/conformance/orum-conformance.yml
+  href: https://artifacts.apis.io/orum/conformance/orum-conformance.yml
   title: ''
   type: Conformance
   url: conformance/orum-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/lifecycle/orum-lifecycle.yml
+  href: https://artifacts.apis.io/orum/lifecycle/orum-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/orum-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/lifecycle/orum-lifecycle.yml
+  href: https://artifacts.apis.io/orum/lifecycle/orum-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/orum-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/changelog/orum-changelog.yml
+  href: https://artifacts.apis.io/orum/changelog/orum-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/orum-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/sandbox/orum-sandbox.yml
+  href: https://artifacts.apis.io/orum/sandbox/orum-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/orum-sandbox.yml
@@ -313,17 +311,17 @@ common:
   type: RateLimits
   url: https://docs.orum.io/guides/deliver/rate-limits
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/asyncapi/orum-webhooks.yml
+  href: https://artifacts.apis.io/orum/asyncapi/orum-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/orum-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/security/orum-domain-security.yml
+  href: https://artifacts.apis.io/orum/security/orum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/orum-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/security/orum-trust-center.yml
+  href: https://artifacts.apis.io/orum/security/orum-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/orum-trust-center.yml
@@ -346,7 +344,7 @@ overview: 'Orum publishes 17 API contracts indexed on the [APIs.io](https://apis
 
 
   Orum''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 22 more developer resources.'
-random_paper: 11
+random_paper: 19
 scopes:
 - name: Orum Scopes
   scope_count: 29
@@ -354,7 +352,7 @@ scopes:
   summary_line: 29 scopes · clientCredentials
 score:
   band: developing
-  composite: 41.8
+  composite: 41.6
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -366,11 +364,11 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 4.5
-    contract_quality: 58.0
+    contract_quality: 55.6
     developer_ergonomics: 63.7
-    discoverability: 71.7
-    operational_transparency: 34.2
-  previous_composite: 41.8
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -387,13 +385,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 30.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/screenshots/orum-2026-08-07T191005.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/orum/orum-2026-08-07T191005.png
 security:
 - kind: authentication
   name: Orum Authentication
@@ -407,6 +406,14 @@ security:
   name: Orum Trust Center
   slug: orum-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Configure and secure Orum webhooks
+  slug: orum-configure-webhooks
+- name: Send a payment with Orum Deliver
+  slug: orum-send-a-payment
+- name: Verify a bank account with Orum Verify
+  slug: orum-verify-a-bank-account
 slug: orum
 tags:
 - Company

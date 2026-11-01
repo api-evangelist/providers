@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.4
-  scored_at: '2026-10-17'
+  score: 22.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,18 +44,15 @@ agentic_access:
   operation_count: 6
   slug: collectors-agentic-access
   summary_line: 6 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.psacard.com/publicapi
   baseurl_source: declared
   description: The PSA Public API Methods API from Collectors — 6 operation(s) for psa public api methods.
   name: Collectors PSA Public API Methods API
   slug: collectors-psa-public-api-methods-api
-artifact_total: 6
+artifact_total: 8
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PSA Public PSA Public API Methods API
   slug: open-collectors-psa-public-api-methods-api
@@ -95,62 +94,62 @@ common:
   type: PrivacyPolicy
   url: https://app.collectors.com/privacypolicy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/authentication/collectors-authentication.yml
+  href: https://artifacts.apis.io/collectors/authentication/collectors-authentication.yml
   title: ''
   type: Authentication
   url: authentication/collectors-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/conventions/collectors-conventions.yml
+  href: https://artifacts.apis.io/collectors/conventions/collectors-conventions.yml
   title: ''
   type: Conventions
   url: conventions/collectors-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/errors/collectors-problem-types.yml
+  href: https://artifacts.apis.io/collectors/errors/collectors-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/collectors-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/data-model/collectors-data-model.yml
+  href: https://artifacts.apis.io/collectors/data-model/collectors-data-model.yml
   title: ''
   type: DataModel
   url: data-model/collectors-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/lifecycle/collectors-lifecycle.yml
+  href: https://artifacts.apis.io/collectors/lifecycle/collectors-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/collectors-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/conformance/collectors-conformance.yml
+  href: https://artifacts.apis.io/collectors/conformance/collectors-conformance.yml
   title: ''
   type: Conformance
   url: conformance/collectors-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/mcp/collectors-mcp.yml
+  href: https://artifacts.apis.io/collectors/mcp/collectors-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/collectors-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/llms/collectors-llms.txt
+  href: https://artifacts.apis.io/collectors/llms/collectors-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/collectors-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/overlays/collectors-psa-overlay.yaml
+  href: https://artifacts.apis.io/collectors/overlays/collectors-psa-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/collectors-psa-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/collectors/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/agentic-access/collectors-agentic-access.yml
+  href: https://artifacts.apis.io/collectors/agentic-access/collectors-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/collectors-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/security/collectors-domain-security.yml
+  href: https://artifacts.apis.io/collectors/security/collectors-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/collectors-domain-security.yml
@@ -166,10 +165,10 @@ overview: 'Collectors publishes 1 API contract indexed on the [APIs.io](https://
 
 
   Collectors'' developer surface includes documentation, API reference, signup flow, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 4
+random_paper: 2
 score:
   band: thin
-  composite: 33.2
+  composite: 32.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -183,9 +182,9 @@ score:
     contract_governance: 4.5
     contract_quality: 38.6
     developer_ergonomics: 42.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 33.2
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -202,14 +201,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/screenshots/collectors-2026-07-25T210048.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/collectors/collectors-2026-07-25T210048.png
 security:
 - kind: authentication
   name: Collectors Authentication
@@ -219,6 +218,14 @@ security:
   name: Collectors Domain Security
   slug: collectors-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Read a PSA population report
+  slug: collectors-population-report
+- name: Track a PSA grading order
+  slug: collectors-track-order
+- name: Verify a PSA certificate
+  slug: collectors-verify-certificate
 slug: collectors
 tags:
 - Company

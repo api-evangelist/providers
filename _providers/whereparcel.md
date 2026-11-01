@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Unified parcel tracking API across 60+ carriers worldwide (USPS, FedEx, UPS, DHL, etc.)
@@ -41,7 +43,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/whereparcel/refs/heads/main/security/whereparcel-domain-security.yml
+  href: https://artifacts.apis.io/whereparcel/security/whereparcel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/whereparcel-domain-security.yml
@@ -69,7 +71,7 @@ overview: 'WhereParcel is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   WhereParcel''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 4
+random_paper: 18
 score:
   band: minimal
   composite: 5.6
@@ -95,14 +97,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 5.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/whereparcel/refs/heads/main/screenshots/whereparcel-2026-06-20T201434.png
+screenshot: https://apis.io/screenshots/whereparcel/whereparcel-2026-06-20T201434.png
 security:
 - kind: domain-security
   name: Whereparcel Domain Security

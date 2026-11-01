@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GraphQL API for requesting delivery quotes, booking on-demand and scheduled deliveries, managing and canceling deliveries, and tracking drivers in real time via webhooks or long polling.
   name: Curri GraphQL API
   slug: curri-graphql-api
-artifact_total: 5
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Curri Webhooks
@@ -96,57 +98,57 @@ common:
   type: TrustCenter
   url: https://trust.curri.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curri/refs/heads/main/llms/curri-llms.txt
+  href: https://artifacts.apis.io/curri/llms/curri-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/curri-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/curri/refs/heads/main/authentication/curri-authentication.yml
+  href: https://artifacts.apis.io/curri/authentication/curri-authentication.yml
   title: ''
   type: Authentication
   url: authentication/curri-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curri/refs/heads/main/asyncapi/curri-webhooks.yml
+  href: https://artifacts.apis.io/curri/asyncapi/curri-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/curri-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/curri/refs/heads/main/sandbox/curri-sandbox.yml
+  href: https://artifacts.apis.io/curri/sandbox/curri-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/curri-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curri/refs/heads/main/conventions/curri-conventions.yml
+  href: https://artifacts.apis.io/curri/conventions/curri-conventions.yml
   title: ''
   type: Conventions
   url: conventions/curri-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curri/refs/heads/main/errors/curri-problem-types.yml
+  href: https://artifacts.apis.io/curri/errors/curri-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/curri-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curri/refs/heads/main/lifecycle/curri-lifecycle.yml
+  href: https://artifacts.apis.io/curri/lifecycle/curri-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/curri-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curri/refs/heads/main/conformance/curri-conformance.yml
+  href: https://artifacts.apis.io/curri/conformance/curri-conformance.yml
   title: ''
   type: Conformance
   url: conformance/curri-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curri/refs/heads/main/mcp/curri-mcp.yml
+  href: https://artifacts.apis.io/curri/mcp/curri-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/curri-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curri/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/curri/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/curri/refs/heads/main/security/curri-domain-security.yml
+  href: https://artifacts.apis.io/curri/security/curri-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/curri-domain-security.yml
@@ -168,7 +170,7 @@ overview: 'Curri is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 21
 score:
   band: developing
-  composite: 43.4
+  composite: 43.8
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -182,9 +184,9 @@ score:
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 15.8
-  previous_composite: 43.4
+    discoverability: 66.1
+    operational_transparency: 23.7
+  previous_composite: 43.8
   provenance:
     conformance: derived
     mcp: derived
@@ -195,14 +197,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/curri/refs/heads/main/screenshots/curri-2026-07-25T210950.png
+screenshot: https://apis.io/screenshots/curri/curri-2026-07-25T210950.png
 security:
 - kind: authentication
   name: Curri Authentication
@@ -216,6 +218,10 @@ security:
   name: Curri Trust Center
   slug: curri-trust-center
   summary_line: trust center published
+skill_count: 1
+skills:
+- name: Book a Curri delivery
+  slug: curri-book-a-delivery
 slug: curri
 tags:
 - Company

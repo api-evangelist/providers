@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,35 +24,37 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.3
-  scored_at: '2026-10-17'
+  score: 24.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Workspace-scoped REST API to list templates, create presentations from templates, generate presentations from a prompt (asynchronous, poll-to-complete), upload reference files to ground generation, fe
   name: Chronicle API
   slug: chronicle-api
-artifact_total: 8
+artifact_total: 12
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/plans/chronicle-plans-pricing.yml
+  href: https://artifacts.apis.io/chronicle/plans/chronicle-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chronicle-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/security/chronicle-trust-center.yml
+  href: https://artifacts.apis.io/chronicle/security/chronicle-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/chronicle-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/security/chronicle-domain-security.yml
+  href: https://artifacts.apis.io/chronicle/security/chronicle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chronicle-domain-security.yml
@@ -117,82 +119,90 @@ common:
   type: Compliance
   url: https://security.chroniclehq.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/mcp/chronicle-mcp.yml
+  href: https://artifacts.apis.io/chronicle/mcp/chronicle-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/chronicle-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/llms/chronicle-llms.txt
+  href: https://artifacts.apis.io/chronicle/llms/chronicle-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chronicle-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/well-known/chronicle-well-known.yml
+  href: https://artifacts.apis.io/chronicle/well-known/chronicle-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/chronicle-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/well-known/chronicle-security.txt
+  href: https://artifacts.apis.io/chronicle/well-known/chronicle-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/chronicle-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/authentication/chronicle-authentication.yml
+  href: https://artifacts.apis.io/chronicle/authentication/chronicle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chronicle-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/errors/chronicle-error-codes.yml
+  href: https://artifacts.apis.io/chronicle/errors/chronicle-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/chronicle-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/rate-limits/chronicle-rate-limits.yml
+  href: https://artifacts.apis.io/chronicle/rate-limits/chronicle-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chronicle-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/conventions/chronicle-conventions.yml
+  href: https://artifacts.apis.io/chronicle/conventions/chronicle-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chronicle-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/lifecycle/chronicle-lifecycle.yml
+  href: https://artifacts.apis.io/chronicle/lifecycle/chronicle-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chronicle-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/changelog/chronicle-changelog.yml
+  href: https://artifacts.apis.io/chronicle/changelog/chronicle-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/chronicle-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/conformance/chronicle-conformance.yml
+  href: https://artifacts.apis.io/chronicle/conformance/chronicle-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chronicle-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/data-model/chronicle-data-model.yml
+  href: https://artifacts.apis.io/chronicle/data-model/chronicle-data-model.yml
   title: ''
   type: DataModel
   url: data-model/chronicle-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/security/chronicle-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/chronicle/security/chronicle-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/chronicle-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/well-known/chronicle-security.txt
+  href: https://artifacts.apis.io/chronicle/well-known/chronicle-security.txt
   title: ''
   type: Security
   url: well-known/chronicle-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/chronicle/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'Chronicle is an AI presentation platform (chroniclehq.com) that turns documents, notes, data, and business context into beautiful, fully editable, on-brand presentations, using templates from designers at Apple, McKinsey, BCG, and IDEO. Beyond the web app, Chronicle ships a developer surface: a workspace-scoped REST API at api.chroniclehq.com/api/v1 for listing templates, creating and generating presentations, uploading reference files, and polling asynchronous generation jobs; and a hosted, OAuth-secured MCP server at mcp.chroniclehq.com that lets AI agents (Claude, ChatGPT, Gemini) create presentations directly. Chronicle is used by teams including OpenAI, Ramp, Vercel, Notion, Figma, and Meta, and is backed by Accel.'
+finops:
+- has_sources: true
+  method: derived
+  name: Chronicle Finops
+  primary_unit: user / month (annual)
+  service_category: ''
+  slug: chronicle-finops
+  template: false
 image: https://cms.chroniclehq.com/wp-content/uploads/2026/02/og.jpg
 layout: provider
 mcp_servers:
@@ -211,30 +221,33 @@ plans:
 - name: Chronicle Plans Pricing
   plan_count: 5
   slug: chronicle-plans-pricing
-random_paper: 5
+- name: Chronicle Price Estimates
+  plan_count: 0
+  slug: chronicle-price-estimates
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Chronicle Rate Limits
   slug: chronicle-rate-limits
 score:
   band: developing
-  composite: 47.7
+  composite: 49.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 57.0
+    artifact_dirs: 19
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.5
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 58.9
-    discoverability: 75.0
-    operational_transparency: 50.0
-  previous_composite: 41.3
+    discoverability: 65.0
+    operational_transparency: 52.6
+  previous_composite: 48.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -245,14 +258,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/screenshots/chronicle-2026-07-25T205309.png
+screenshot: https://apis.io/screenshots/chronicle/chronicle-2026-07-25T205309.png
 security:
 - kind: authentication
   name: Chronicle Authentication
@@ -270,6 +283,12 @@ security:
   name: Chronicle Trust Center
   slug: chronicle-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 2
+skills:
+- name: Create a Chronicle presentation from a template
+  slug: chronicle-create-from-template
+- name: Generate a Chronicle presentation from a prompt
+  slug: chronicle-generate-presentation
 slug: chronicle
 tags:
 - Company

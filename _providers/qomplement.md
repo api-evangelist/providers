@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 29.4
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://developer-api.qomplement.com/v1
   baseurl_source: declared
@@ -73,15 +75,12 @@ apis:
   description: The Usage API from Qomplement — 1 operation(s) for usage.
   name: Qomplement Usage API
   slug: qomplement-usage-api
-artifact_total: 19
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Qomplement Webhooks
   slug: qomplement-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: StructDatafy API Keys API
   slug: open-qomplement-api-keys-api
@@ -125,92 +124,92 @@ common:
   type: GettingStarted
   url: https://docs.qomplement.com/api/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/authentication/qomplement-authentication.yml
+  href: https://artifacts.apis.io/qomplement/authentication/qomplement-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qomplement-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/openapi/_original/qomplement-openapi-original.json
+  href: https://artifacts.apis.io/qomplement/openapi/_original/qomplement-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/qomplement-openapi-original.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/packages/qomplement-packages.yml
+  href: https://artifacts.apis.io/qomplement/packages/qomplement-packages.yml
   title: ''
   type: Packages
   url: packages/qomplement-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/packages/qomplement-packages.yml
+  href: https://artifacts.apis.io/qomplement/packages/qomplement-packages.yml
   title: ''
   type: SDKs
   url: packages/qomplement-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/mcp/qomplement-mcp.yml
+  href: https://artifacts.apis.io/qomplement/mcp/qomplement-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/qomplement-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/llms/qomplement-llms.txt
+  href: https://artifacts.apis.io/qomplement/llms/qomplement-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qomplement-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/overlays/qomplement-overlay.yaml
+  href: https://artifacts.apis.io/qomplement/overlays/qomplement-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/qomplement-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/conformance/qomplement-conformance.yml
+  href: https://artifacts.apis.io/qomplement/conformance/qomplement-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qomplement-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/errors/qomplement-problem-types.yml
+  href: https://artifacts.apis.io/qomplement/errors/qomplement-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qomplement-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/lifecycle/qomplement-lifecycle.yml
+  href: https://artifacts.apis.io/qomplement/lifecycle/qomplement-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qomplement-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/conventions/qomplement-conventions.yml
+  href: https://artifacts.apis.io/qomplement/conventions/qomplement-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qomplement-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/data-model/qomplement-data-model.yml
+  href: https://artifacts.apis.io/qomplement/data-model/qomplement-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qomplement-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/well-known/qomplement-well-known.yml
+  href: https://artifacts.apis.io/qomplement/well-known/qomplement-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/qomplement-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/security/qomplement-domain-security.yml
+  href: https://artifacts.apis.io/qomplement/security/qomplement-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qomplement-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/asyncapi/qomplement-webhooks.yml
+  href: https://artifacts.apis.io/qomplement/asyncapi/qomplement-webhooks.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/qomplement-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/asyncapi/qomplement-webhooks.yml
+  href: https://artifacts.apis.io/qomplement/asyncapi/qomplement-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/qomplement-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/rate-limits/qomplement-rate-limits.yml
+  href: https://artifacts.apis.io/qomplement/rate-limits/qomplement-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qomplement-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/qomplement/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -257,29 +256,29 @@ overview: 'Qomplement publishes 7 API contracts indexed on the [APIs.io](https:/
 
 
   Qomplement''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, support, and 23 more developer resources.'
-random_paper: 12
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Qomplement Rate Limits
   slug: qomplement-rate-limits
 score:
   band: developing
-  composite: 44.1
+  composite: 44.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 46.6
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 31.6
+    discoverability: 66.1
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -287,7 +286,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 44.0
+  previous_composite: 44.4
   provenance:
     conformance: derived
     contracts:
@@ -303,13 +302,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/qomplement/refs/heads/main/screenshots/qomplement-2026-08-17T081421.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/qomplement/qomplement-2026-08-17T081421.png
 security:
 - kind: authentication
   name: Qomplement Authentication
@@ -319,6 +319,12 @@ security:
   name: Qomplement Domain Security
   slug: qomplement-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Extract structured data from a document
+  slug: qomplement-extract-document
+- name: Fill a PDF form or Excel template
+  slug: qomplement-fill-form
 slug: qomplement
 tags:
 - Company

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A live, anonymous Model Context Protocol endpoint served from aetherAI's own host. It exposes nine tools over JSON-RPC 2.0 (streamable HTTP) for reading business details, searching site content, brows
@@ -36,7 +38,7 @@ common:
   type: BlogRSS
   url: https://www.aetherai.com/blog-feed.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aetherai/refs/heads/main/security/aetherai-domain-security.yml
+  href: https://artifacts.apis.io/aetherai/security/aetherai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aetherai-domain-security.yml
@@ -45,47 +47,47 @@ common:
   type: Website
   url: https://www.aetherai.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aetherai/refs/heads/main/mcp/aetherai-mcp.yml
+  href: https://artifacts.apis.io/aetherai/mcp/aetherai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aetherai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aetherai/refs/heads/main/llms/aetherai-llms.txt
+  href: https://artifacts.apis.io/aetherai/llms/aetherai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aetherai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aetherai/refs/heads/main/authentication/aetherai-authentication.yml
+  href: https://artifacts.apis.io/aetherai/authentication/aetherai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aetherai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aetherai/refs/heads/main/conventions/aetherai-conventions.yml
+  href: https://artifacts.apis.io/aetherai/conventions/aetherai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aetherai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aetherai/refs/heads/main/conformance/aetherai-conformance.yml
+  href: https://artifacts.apis.io/aetherai/conformance/aetherai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aetherai-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aetherai/refs/heads/main/conformance/aetherai-conformance.yml
+  href: https://artifacts.apis.io/aetherai/conformance/aetherai-conformance.yml
   title: ''
   type: Compliance
   url: conformance/aetherai-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aetherai/refs/heads/main/packages/aetherai-packages.yml
+  href: https://artifacts.apis.io/aetherai/packages/aetherai-packages.yml
   title: ''
   type: Packages
   url: packages/aetherai-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aetherai/refs/heads/main/plans/aetherai-plans-pricing.yml
+  href: https://artifacts.apis.io/aetherai/plans/aetherai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aetherai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aetherai/refs/heads/main/rate-limits/aetherai-rate-limits.yml
+  href: https://artifacts.apis.io/aetherai/rate-limits/aetherai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aetherai-rate-limits.yml
@@ -150,14 +152,14 @@ plans:
 - name: Aetherai Plans Pricing
   plan_count: 0
   slug: aetherai-plans-pricing
-random_paper: 21
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Aetherai Rate Limits
   slug: aetherai-rate-limits
 score:
   band: emerging
-  composite: 19.9
+  composite: 21.2
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -165,14 +167,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.0
-    operational_transparency: 2.6
+    discoverability: 71.7
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -180,7 +182,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 19.8
+  previous_composite: 21.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -190,14 +192,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aetherai/refs/heads/main/screenshots/aetherai-2026-10-11T093004.png
+screenshot: https://apis.io/screenshots/aetherai/aetherai-2026-10-11T093004.png
 security:
 - kind: authentication
   name: Aetherai Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 46.8
-  scored_at: '2026-10-17'
+  score: 47.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -153,11 +155,8 @@ apis:
     question: Can I export logs that match a filter to BigQuery, Cloud Storage or Pub/Sub?
   phrasing_ops: 2
   slug: google-cloud-logging-sinks-api
-artifact_total: 30
+artifact_total: 33
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Cloud Logging Bucket API
   slug: open-google-cloud-logging-bucket-api
@@ -189,33 +188,37 @@ collections:
   name: Google Cloud Logging API
   slug: open-google-cloud-logging
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-logging/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/capabilities/google-cloud-logging-capability-edges.yml
+  href: https://artifacts.apis.io/google-cloud-logging/capabilities/google-cloud-logging-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-cloud-logging-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/agentic-access/google-cloud-logging-agentic-access.yml
+  href: https://artifacts.apis.io/google-cloud-logging/agentic-access/google-cloud-logging-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-cloud-logging-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/security/google-cloud-logging-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-cloud-logging/security/google-cloud-logging-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-cloud-logging-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/security/google-cloud-logging-domain-security.yml
+  href: https://artifacts.apis.io/google-cloud-logging/security/google-cloud-logging-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-cloud-logging-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/authentication/google-cloud-logging-authentication.yml
+  href: https://artifacts.apis.io/google-cloud-logging/authentication/google-cloud-logging-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-cloud-logging-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/scopes/google-cloud-logging-scopes.yml
+  href: https://artifacts.apis.io/google-cloud-logging/scopes/google-cloud-logging-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-cloud-logging-scopes.yml
@@ -304,92 +307,92 @@ common:
   type: Security
   url: https://g.co/vrp
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/discovery/google-cloud-logging-discovery-v2.json
+  href: https://artifacts.apis.io/google-cloud-logging/discovery/google-cloud-logging-discovery-v2.json
   title: ''
   type: Discovery
   url: discovery/google-cloud-logging-discovery-v2.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/grpc/google-cloud-logging-logging.proto
+  href: https://artifacts.apis.io/google-cloud-logging/grpc/google-cloud-logging-logging.proto
   title: ''
   type: Protobuf
   url: grpc/google-cloud-logging-logging.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/grpc/google-cloud-logging-logging-config.proto
+  href: https://artifacts.apis.io/google-cloud-logging/grpc/google-cloud-logging-logging-config.proto
   title: ''
   type: Protobuf
   url: grpc/google-cloud-logging-logging-config.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/grpc/google-cloud-logging-logging-metrics.proto
+  href: https://artifacts.apis.io/google-cloud-logging/grpc/google-cloud-logging-logging-metrics.proto
   title: ''
   type: Protobuf
   url: grpc/google-cloud-logging-logging-metrics.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/grpc/google-cloud-logging-log-entry.proto
+  href: https://artifacts.apis.io/google-cloud-logging/grpc/google-cloud-logging-log-entry.proto
   title: ''
   type: Protobuf
   url: grpc/google-cloud-logging-log-entry.proto
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/mcp/google-cloud-logging-mcp.yml
+  href: https://artifacts.apis.io/google-cloud-logging/mcp/google-cloud-logging-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/google-cloud-logging-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/mcp/google-cloud-logging-tool-crosswalk.yml
+  href: https://artifacts.apis.io/google-cloud-logging/mcp/google-cloud-logging-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/google-cloud-logging-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/packages/google-cloud-logging-packages.yml
+  href: https://artifacts.apis.io/google-cloud-logging/packages/google-cloud-logging-packages.yml
   title: ''
   type: Packages
   url: packages/google-cloud-logging-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/packages/google-cloud-logging-packages.yml
+  href: https://artifacts.apis.io/google-cloud-logging/packages/google-cloud-logging-packages.yml
   title: ''
   type: SDKs
   url: packages/google-cloud-logging-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/cli/google-cloud-logging-cli.yml
+  href: https://artifacts.apis.io/google-cloud-logging/cli/google-cloud-logging-cli.yml
   title: ''
   type: CLI
   url: cli/google-cloud-logging-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/well-known/google-cloud-logging-well-known.yml
+  href: https://artifacts.apis.io/google-cloud-logging/well-known/google-cloud-logging-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/google-cloud-logging-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/well-known/google-cloud-logging-security.txt
+  href: https://artifacts.apis.io/google-cloud-logging/well-known/google-cloud-logging-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/google-cloud-logging-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/llms/google-cloud-logging-llms.txt
+  href: https://artifacts.apis.io/google-cloud-logging/llms/google-cloud-logging-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/google-cloud-logging-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/google-cloud-logging/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/conventions/google-cloud-logging-conventions.yml
+  href: https://artifacts.apis.io/google-cloud-logging/conventions/google-cloud-logging-conventions.yml
   title: ''
   type: Conventions
   url: conventions/google-cloud-logging-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/conventions/google-cloud-logging-conventions.yml
+  href: https://artifacts.apis.io/google-cloud-logging/conventions/google-cloud-logging-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/google-cloud-logging-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/errors/google-cloud-logging-problem-types.yml
+  href: https://artifacts.apis.io/google-cloud-logging/errors/google-cloud-logging-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/google-cloud-logging-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/lifecycle/google-cloud-logging-lifecycle.yml
+  href: https://artifacts.apis.io/google-cloud-logging/lifecycle/google-cloud-logging-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/google-cloud-logging-lifecycle.yml
@@ -398,7 +401,7 @@ common:
   type: Deprecation
   url: https://cloud.google.com/terms/deprecation
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/conformance/google-cloud-logging-conformance.yml
+  href: https://artifacts.apis.io/google-cloud-logging/conformance/google-cloud-logging-conformance.yml
   title: ''
   type: Conformance
   url: conformance/google-cloud-logging-conformance.yml
@@ -407,50 +410,50 @@ common:
   type: Compliance
   url: https://cloud.google.com/security/compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/security/google-cloud-logging-trust-center.yml
+  href: https://artifacts.apis.io/google-cloud-logging/security/google-cloud-logging-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/google-cloud-logging-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/data-model/google-cloud-logging-data-model.yml
+  href: https://artifacts.apis.io/google-cloud-logging/data-model/google-cloud-logging-data-model.yml
   title: ''
   type: DataModel
   url: data-model/google-cloud-logging-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/sandbox/google-cloud-logging-sandbox.yml
+  href: https://artifacts.apis.io/google-cloud-logging/sandbox/google-cloud-logging-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/google-cloud-logging-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/changelog/google-cloud-logging-changelog.yml
+  href: https://artifacts.apis.io/google-cloud-logging/changelog/google-cloud-logging-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/google-cloud-logging-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/rate-limits/google-cloud-logging-rate-limits.yml
+  href: https://artifacts.apis.io/google-cloud-logging/rate-limits/google-cloud-logging-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-cloud-logging-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/plans/google-cloud-logging-plans-pricing.yml
+  href: https://artifacts.apis.io/google-cloud-logging/plans/google-cloud-logging-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-cloud-logging-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/finops/google-cloud-logging-finops.yml
+  href: https://artifacts.apis.io/google-cloud-logging/finops/google-cloud-logging-finops.yml
   title: ''
   type: FinOps
   url: finops/google-cloud-logging-finops.yml
 created: '2024-01-01'
 description: Google Cloud Logging is a fully managed, real-time log management service that ingests, stores, searches, analyzes, routes and alerts on application and system log data at scale across Google Cloud, AWS and on-premises environments. The v2 API writes log entries and manages the configuration surface behind them — log buckets and views, Log Router sinks and exclusions, logs-based metrics, log scopes, linked BigQuery datasets and CMEK settings. Google publishes it as a Discovery document with 254 methods, as first-party gRPC service definitions, through seven official client libraries and the gcloud logging command group, and — since April 2026 — through a fully managed remote MCP server at logging.googleapis.com/mcp that exposes six read-only tools to agents.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Google Cloud Logging Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: million samples
+  service_category: ''
   slug: google-cloud-logging-finops
-  template: true
+  template: false
 layout: provider
 mcp_servers:
 - description: Remote MCP server at logging.googleapis.com over HTTP requiring OAuth; 6 tools listed.
@@ -463,12 +466,15 @@ network: true
 overview: 'Google Cloud Logging publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bucket API, Buckets API, Entries:copy API, and 6 more. Tagged areas include Cloud, Logging, Monitoring, Observability, and Telemetry.
 
 
-  Google Cloud Logging''s developer surface includes authentication, developer portal, getting-started guide, support, engineering blog, changelog, documentation, and 48 more developer resources.'
+  Google Cloud Logging''s developer surface includes authentication, developer portal, getting-started guide, support, engineering blog, changelog, documentation, and 49 more developer resources.'
 plans:
 - name: Google Cloud Logging Plans Pricing
-  plan_count: 1
+  plan_count: 18
   slug: google-cloud-logging-plans-pricing
-random_paper: 3
+- name: Google Cloud Logging Price Estimates
+  plan_count: 0
+  slug: google-cloud-logging-price-estimates
+random_paper: 13
 rate_limits:
 - limit_count: 8
   name: Google Cloud Logging Rate Limits
@@ -479,24 +485,24 @@ scopes:
   slug: google-cloud-logging-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: strong
-  composite: 65.9
+  band: exemplar
+  composite: 73.9
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 55.0
-    catalog_earned_first_party: 20.0
-    catalog_gap: 60.0
+    artifact_dirs: 30
+    catalog_earned: 62.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 3.9
   facets:
-    access_clarity: 68.4
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 46.2
-    developer_ergonomics: 82.7
-    discoverability: 71.7
-    operational_transparency: 84.2
-  previous_composite: 67.4
+    developer_ergonomics: 91.1
+    discoverability: 61.7
+    operational_transparency: 86.8
+  previous_composite: 70.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -513,13 +519,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/screenshots/google-cloud-logging-2026-08-17T083131.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-cloud-logging/google-cloud-logging-2026-08-17T083131.png
 security:
 - kind: authentication
   name: Google Cloud Logging Authentication
@@ -537,6 +544,14 @@ security:
   name: Google Cloud Logging Trust Center
   slug: google-cloud-logging-trust-center
   summary_line: SOC 1, SOC 2, SOC 3, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO/IEC 27701, ISO 22301, PCI DSS, HIPAA, FedRAMP, CSA STAR, BSI C5, IRAP
+skill_count: 3
+skills:
+- name: Query Cloud Logging from an agent over MCP
+  slug: google-cloud-logging-query-logs-with-mcp
+- name: Route logs to a destination with a Log Router sink
+  slug: google-cloud-logging-route-logs-with-a-sink
+- name: Write and query Cloud Logging entries
+  slug: google-cloud-logging-write-and-query-logs
 slug: google-cloud-logging
 tags:
 - Cloud

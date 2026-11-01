@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: JSON reporting API that lets Remerge advertisers pull daily (or hourly) campaign performance for their active campaigns into their own BI systems. A POST to /report with a start_date and end_date retu
@@ -41,7 +43,7 @@ apis:
 - description: Server-to-server ingestion API that Remerge clients and measurement partners use to forward data into the Remerge platform. A single GET endpoint at remerge.events/event accepts four documented payloa
   name: Remerge Event Tracking API
   slug: remerge-event-tracking-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Remerge Webhooks
@@ -72,7 +74,7 @@ common:
   type: TermsOfService
   url: https://www.remerge.io/terms-and-conditions
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/remerge/refs/heads/main/security/remerge-trust-center.yml
+  href: https://artifacts.apis.io/remerge/security/remerge-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/remerge-trust-center.yml
@@ -81,7 +83,7 @@ common:
   type: Compliance
   url: https://trust.remerge.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/remerge/refs/heads/main/security/remerge-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/remerge/security/remerge-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/remerge-vulnerability-disclosure.yml
@@ -90,12 +92,12 @@ common:
   type: Security
   url: https://www.remerge.io/remerge-vulnerability-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/remerge/refs/heads/main/security/remerge-domain-security.yml
+  href: https://artifacts.apis.io/remerge/security/remerge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/remerge-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/remerge/refs/heads/main/llms/remerge-llms.txt
+  href: https://artifacts.apis.io/remerge/llms/remerge-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/remerge-llms.txt
@@ -116,57 +118,65 @@ common:
   type: Login
   url: https://admin.remerge.io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/remerge/refs/heads/main/authentication/remerge-authentication.yml
+  href: https://artifacts.apis.io/remerge/authentication/remerge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/remerge-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/remerge/refs/heads/main/rate-limits/remerge-rate-limits.yml
+  href: https://artifacts.apis.io/remerge/rate-limits/remerge-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/remerge-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/remerge/refs/heads/main/errors/remerge-problem-types.yml
+  href: https://artifacts.apis.io/remerge/errors/remerge-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/remerge-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/remerge/refs/heads/main/conventions/remerge-conventions.yml
+  href: https://artifacts.apis.io/remerge/conventions/remerge-conventions.yml
   title: ''
   type: Conventions
   url: conventions/remerge-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/remerge/refs/heads/main/data-model/remerge-data-model.yml
+  href: https://artifacts.apis.io/remerge/data-model/remerge-data-model.yml
   title: ''
   type: DataModel
   url: data-model/remerge-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/remerge/refs/heads/main/lifecycle/remerge-lifecycle.yml
+  href: https://artifacts.apis.io/remerge/lifecycle/remerge-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/remerge-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/remerge/refs/heads/main/packages/remerge-packages.yml
+  href: https://artifacts.apis.io/remerge/packages/remerge-packages.yml
   title: ''
   type: Packages
   url: packages/remerge-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/remerge/refs/heads/main/conformance/remerge-conformance.yml
+  href: https://artifacts.apis.io/remerge/conformance/remerge-conformance.yml
   title: ''
   type: Conformance
   url: conformance/remerge-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/remerge/refs/heads/main/plans/remerge-plans-pricing.yml
+  href: https://artifacts.apis.io/remerge/plans/remerge-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/remerge-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/remerge/refs/heads/main/asyncapi/remerge-webhooks.yml
+  href: https://artifacts.apis.io/remerge/asyncapi/remerge-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/remerge-webhooks.yml
 created: '2026-07-17'
 description: 'Remerge is a mobile demand-side platform (DSP) specializing in app retargeting, re-engagement, and user acquisition for mobile apps. The Berlin-based company (Remerge GmbH) helps advertisers in gaming, e-commerce, and delivery build in-app audience segments, run programmatic re-engagement and acquisition campaigns across millions of ad placements, and validate results with incrementality measurement. Onboarding is account-managed rather than self-service, but Remerge does publish two documented HTTP APIs: a JSON Reporting API at api.remerge.io for pulling daily campaign performance into a client''s BI stack, and an Event Tracking API at remerge.events for forwarding in-app event, attribution, BI and SKAdNetwork data into Remerge. It operates an ISO/IEC 27001:2022-aligned ISMS and publishes a public Trust Center and vulnerability disclosure policy.'
+finops:
+- has_sources: true
+  method: derived
+  name: Remerge Finops
+  primary_unit: ''
+  service_category: ''
+  slug: remerge-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/remerge.png
 layout: provider
 modified: '2026-08-12'
@@ -184,16 +194,16 @@ plans:
 - name: Remerge Plans Pricing
   plan_count: 0
   slug: remerge-plans-pricing
-random_paper: 17
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Remerge Rate Limits
   slug: remerge-rate-limits
 score:
   band: developing
-  composite: 46.8
+  composite: 47.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -201,13 +211,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 45.2
-    discoverability: 73.2
-    operational_transparency: 52.6
-  previous_composite: 46.8
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 47.8
   provenance:
     conformance: first-party
   regulatory:
@@ -216,14 +226,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/remerge/refs/heads/main/screenshots/remerge-2026-08-17T081511.png
+screenshot: https://apis.io/screenshots/remerge/remerge-2026-08-17T081511.png
 security:
 - kind: authentication
   name: Remerge Authentication

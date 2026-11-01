@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -85,11 +87,8 @@ apis:
   description: The Virtual Accounts API from Fincra — 4 operation(s) for virtual accounts.
   name: Fincra Virtual Accounts API
   slug: fincra-virtual-accounts-api
-artifact_total: 24
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Fincra Account Resolution API
   slug: open-fincra-account-resolution-api
@@ -119,17 +118,17 @@ collections:
   slug: open-fincra
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/agentic-access/fincra-agentic-access.yml
+  href: https://artifacts.apis.io/fincra/agentic-access/fincra-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fincra-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/security/fincra-domain-security.yml
+  href: https://artifacts.apis.io/fincra/security/fincra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fincra-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/authentication/fincra-authentication.yml
+  href: https://artifacts.apis.io/fincra/authentication/fincra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fincra-authentication.yml
@@ -146,17 +145,17 @@ common:
   type: Documentation
   url: https://docs.fincra.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/plans/fincra-plans-pricing.yml
+  href: https://artifacts.apis.io/fincra/plans/fincra-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fincra-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/rate-limits/fincra-rate-limits.yml
+  href: https://artifacts.apis.io/fincra/rate-limits/fincra-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fincra-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/finops/fincra-finops.yml
+  href: https://artifacts.apis.io/fincra/finops/fincra-finops.yml
   title: ''
   type: FinOps
   url: finops/fincra-finops.yml
@@ -188,14 +187,14 @@ plans:
 - name: Fincra Plans Pricing
   plan_count: 2
   slug: fincra-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Fincra Rate Limits
   slug: fincra-rate-limits
 score:
   band: emerging
-  composite: 25.1
+  composite: 25.8
   coverage:
     artifact_dirs: 11
     catalog_earned: 42.0
@@ -203,7 +202,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -216,7 +215,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 32.1
+  previous_composite: 25.8
   provenance:
     agentic_access: derived
     contracts:
@@ -230,13 +229,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/screenshots/fincra-2026-07-25T214519.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fincra/fincra-2026-07-25T214519.png
 security:
 - kind: authentication
   name: Fincra Authentication

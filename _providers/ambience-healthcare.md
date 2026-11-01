@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'Partner-facing integration APIs for EHRs, telehealth platforms and healthcare applications, covering medical encounter transcription, clinical note generation, integrated CDI with ICD-10 suggestions, '
@@ -71,42 +73,42 @@ common:
   type: Twitter
   url: https://twitter.com/AmbienceHQ
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/authentication/ambience-healthcare-authentication.yml
+  href: https://artifacts.apis.io/ambience-healthcare/authentication/ambience-healthcare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ambience-healthcare-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/scopes/ambience-healthcare-scopes.yml
+  href: https://artifacts.apis.io/ambience-healthcare/scopes/ambience-healthcare-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ambience-healthcare-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/well-known/ambience-healthcare-well-known.yml
+  href: https://artifacts.apis.io/ambience-healthcare/well-known/ambience-healthcare-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ambience-healthcare-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/conformance/ambience-healthcare-conformance.yml
+  href: https://artifacts.apis.io/ambience-healthcare/conformance/ambience-healthcare-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ambience-healthcare-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/packages/ambience-healthcare-packages.yml
+  href: https://artifacts.apis.io/ambience-healthcare/packages/ambience-healthcare-packages.yml
   title: ''
   type: Packages
   url: packages/ambience-healthcare-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/llms/ambience-healthcare-llms.txt
+  href: https://artifacts.apis.io/ambience-healthcare/llms/ambience-healthcare-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ambience-healthcare-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/security/ambience-healthcare-trust-center.yml
+  href: https://artifacts.apis.io/ambience-healthcare/security/ambience-healthcare-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ambience-healthcare-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/security/ambience-healthcare-domain-security.yml
+  href: https://artifacts.apis.io/ambience-healthcare/security/ambience-healthcare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ambience-healthcare-domain-security.yml
@@ -175,7 +177,7 @@ overview: 'Ambience Healthcare is listed with 2 APIs on the [APIs.io](https://ap
 
 
   Ambience Healthcare''s developer surface includes authentication, documentation, engineering blog, signup flow, and 23 more developer resources.'
-random_paper: 14
+random_paper: 10
 scopes:
 - name: Ambience Healthcare Scopes
   scope_count: 14
@@ -183,7 +185,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: thin
-  composite: 30.5
+  composite: 30.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 32.0
@@ -197,9 +199,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 64.3
-    operational_transparency: 2.6
-  previous_composite: 30.5
+    discoverability: 57.1
+    operational_transparency: 5.3
+  previous_composite: 30.2
   provenance:
     conformance: first-party
   regulatory:
@@ -214,14 +216,14 @@ score:
     regime: Health
     regime_id: health
     score: 44.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/screenshots/ambience-healthcare-2026-08-07T161310.png
+screenshot: https://apis.io/screenshots/ambience-healthcare/ambience-healthcare-2026-08-07T161310.png
 security:
 - kind: authentication
   name: Ambience Healthcare Authentication

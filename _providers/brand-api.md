@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: flavored
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.3
-  scored_at: '2026-10-17'
-api_count: 3
+  score: 52.2
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: Hosted, remote, streamable-HTTP MCP server exposing seven Brandfetch tools — brand_search, get_brand, get_brand_context, enrich_transaction, build_logo_urls, get_asset_base64 and send_feedback — to an
   name: Brandfetch MCP Server
@@ -69,19 +71,26 @@ apis:
   description: The viewer API from Brand API (Brandfetch) — 1 operation(s) for viewer.
   name: Brand API (Brandfetch) Viewer API
   slug: brand-api-viewer-api
-artifact_total: 19
+- baseURL: https://mcp.brandfetch.io/mcp
+  baseurl_source: declared
+  description: The agents API from Brand API (Brandfetch) — 1 operation(s) for agents.
+  name: Brand API (Brandfetch) Agents API
+  slug: brand-api-agents-api
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Brand Api Webhooks
   slug: brand-api-webhooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Brandfetch Brand Brands API
   slug: open-brand-api-brands-api
 common:
+- group: other
+  href: https://artifacts.apis.io/brand-api/capabilities/brand-api-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/brand-api-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -91,27 +100,27 @@ common:
   type: License
   url: https://github.com/Brandfetch/brandfetch-mcp-server/blob/main/LICENSE
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/overlays/brand-api-brandfetch-overlay.yaml
+  href: https://artifacts.apis.io/brand-api/overlays/brand-api-brandfetch-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/brand-api-brandfetch-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/authentication/brand-api-authentication.yml
+  href: https://artifacts.apis.io/brand-api/authentication/brand-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/brand-api-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/scopes/brand-api-scopes.yml
+  href: https://artifacts.apis.io/brand-api/scopes/brand-api-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/brand-api-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/security/brand-api-domain-security.yml
+  href: https://artifacts.apis.io/brand-api/security/brand-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brand-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/security/brand-api-trust-center.yml
+  href: https://artifacts.apis.io/brand-api/security/brand-api-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/brand-api-trust-center.yml
@@ -120,52 +129,52 @@ common:
   type: Compliance
   url: https://trust.brandfetch.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/conformance/brand-api-conformance.yml
+  href: https://artifacts.apis.io/brand-api/conformance/brand-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/brand-api-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/a2a/brand-api-a2a.yml
+  href: https://artifacts.apis.io/brand-api/a2a/brand-api-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/brand-api-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/brand-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/well-known/brand-api-well-known.yml
+  href: https://artifacts.apis.io/brand-api/well-known/brand-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/brand-api-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/llms/brand-api-llms.txt
+  href: https://artifacts.apis.io/brand-api/llms/brand-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brand-api-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/packages/brand-api-packages.yml
+  href: https://artifacts.apis.io/brand-api/packages/brand-api-packages.yml
   title: ''
   type: Packages
   url: packages/brand-api-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/conventions/brand-api-conventions.yml
+  href: https://artifacts.apis.io/brand-api/conventions/brand-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/brand-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/errors/brand-api-problem-types.yml
+  href: https://artifacts.apis.io/brand-api/errors/brand-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/brand-api-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/data-model/brand-api-data-model.yml
+  href: https://artifacts.apis.io/brand-api/data-model/brand-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/brand-api-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/lifecycle/brand-api-lifecycle.yml
+  href: https://artifacts.apis.io/brand-api/lifecycle/brand-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brand-api-lifecycle.yml
@@ -174,22 +183,22 @@ common:
   type: StatusPage
   url: https://status.brandfetch.io
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/plans/brand-api-plans-pricing.yml
+  href: https://artifacts.apis.io/brand-api/plans/brand-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/brand-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/rate-limits/brand-api-rate-limits.yml
+  href: https://artifacts.apis.io/brand-api/rate-limits/brand-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/brand-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/finops/brand-api-finops.yml
+  href: https://artifacts.apis.io/brand-api/finops/brand-api-finops.yml
   title: ''
   type: FinOps
   url: finops/brand-api-finops.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/sandbox/brand-api-sandbox.yml
+  href: https://artifacts.apis.io/brand-api/sandbox/brand-api-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/brand-api-sandbox.yml
@@ -226,7 +235,7 @@ common:
   type: Pricing
   url: https://brandfetch.com/developers/pricing
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/asyncapi/brand-api-webhooks.yml
+  href: https://artifacts.apis.io/brand-api/asyncapi/brand-api-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/brand-api-webhooks.yml
@@ -247,7 +256,7 @@ common:
   type: Issues
   url: https://docs.brandfetch.com/support/report-inaccuracies
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/changelog/brand-api-changelog.yml
+  href: https://artifacts.apis.io/brand-api/changelog/brand-api-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/brand-api-changelog.yml
@@ -279,10 +288,10 @@ created: '2024-03-30'
 description: Brandfetch provides programmatic access to brand assets and company data through a suite of APIs. The Brand API retrieves logos, color schemes, fonts, images, and firmographic information for any company via domain, stock ticker, ISIN code, or crypto symbol. The Logo Link API serves logos via CDN with support for multiple formats, themes, and sizes. The Brand Search API enables autocomplete experiences by matching brand names to their domains and identifiers. The Brand Context API returns an LLM-ready narrative profile — identity, positioning, voice and visual style — for grounding agents, and the Transaction API resolves raw payment descriptors into merchant identity. A hosted MCP server at mcp.brandfetch.io exposes the same capabilities as seven agent tools over OAuth, and an Enterprise GraphQL endpoint carries the account, webhook and brand-monitoring plane. REST authenticates with Bearer API keys; the Logo and Search APIs use a public, embeddable Client ID.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Brand Api Finops
-  primary_unit: ''
-  service_category: Brand Data API
+  primary_unit: subscription
+  service_category: ''
   slug: brand-api-finops
   template: false
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/brand-api-create-branded-experiences.png
@@ -295,18 +304,21 @@ modified: '2026-08-14'
 name: Brand API (Brandfetch)
 nav: Providers
 network: true
-overview: 'Brand API (Brandfetch) publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Brands API, Context API, Search API, and 5 more. Tagged areas include Brands, Logo, Brand Assets, Company Data, and Firmographics.
+overview: 'Brand API (Brandfetch) publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Brands API, Context API, Search API, and 6 more. Tagged areas include Brands, Logo, Brand Assets, Company Data, and Firmographics.
 
 
   The Brand API (Brandfetch) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Brand API (Brandfetch)''s developer surface includes authentication, sandbox, API reference, getting-started guide, engineering blog, pricing, support, and 36 more developer resources.'
+  Brand API (Brandfetch)''s developer surface includes authentication, sandbox, API reference, getting-started guide, engineering blog, pricing, support, and 37 more developer resources.'
 plans:
 - name: Brand Api Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: brand-api-plans-pricing
-random_paper: 20
+- name: Brand Api Price Estimates
+  plan_count: 0
+  slug: brand-api-price-estimates
+random_paper: 14
 rate_limits:
 - limit_count: 6
   name: Brand Api Rate Limits
@@ -317,31 +329,31 @@ scopes:
   slug: brand-api-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 61.9
+  band: exemplar
+  composite: 69.2
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 55.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    artifact_dirs: 31
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.0
   facets:
-    access_clarity: 57.9
+    access_clarity: 89.5
     contract_governance: 18.2
-    contract_quality: 64.3
+    contract_quality: 63.3
     developer_ergonomics: 71.4
-    discoverability: 80.0
-    operational_transparency: 65.8
-  previous_composite: 63.4
+    discoverability: 71.7
+    operational_transparency: 76.3
+  previous_composite: 68.2
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 12
     mcp: first-party
     skills: first-party
   regulatory:
@@ -350,13 +362,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/screenshots/brand-api-2026-06-20T173632.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/brand-api/brand-api-2026-06-20T173632.png
 security:
 - kind: authentication
   name: Brand Api Authentication
@@ -370,6 +383,10 @@ security:
   name: Brand Api Trust Center
   slug: brand-api-trust-center
   summary_line: SOC 2 Type 2
+skill_count: 1
+skills:
+- name: Brandfetch
+  slug: brand-api-brandfetch
 slug: brand-api
 tags:
 - Brands

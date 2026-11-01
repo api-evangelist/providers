@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -150,11 +152,8 @@ apis:
   description: The Ichibaranking API from Rakuten — 1 operation(s) for ichibaranking.
   name: Rakuten Ichibaranking API
   slug: rakuten-ichibaranking-api
-artifact_total: 44
+artifact_total: 43
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Rakuten Web Services Ichibagt API
   slug: open-rakuten-ichibagt-api
@@ -169,32 +168,32 @@ collections:
   slug: open-rakuten
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/plans/rakuten-plans-pricing.yml
+  href: https://artifacts.apis.io/rakuten/plans/rakuten-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rakuten-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/rate-limits/rakuten-rate-limits.yml
+  href: https://artifacts.apis.io/rakuten/rate-limits/rakuten-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rakuten-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/finops/rakuten-finops.yml
+  href: https://artifacts.apis.io/rakuten/finops/rakuten-finops.yml
   title: ''
   type: FinOps
   url: finops/rakuten-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/agentic-access/rakuten-agentic-access.yml
+  href: https://artifacts.apis.io/rakuten/agentic-access/rakuten-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rakuten-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/security/rakuten-domain-security.yml
+  href: https://artifacts.apis.io/rakuten/security/rakuten-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rakuten-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/authentication/rakuten-authentication.yml
+  href: https://artifacts.apis.io/rakuten/authentication/rakuten-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rakuten-authentication.yml
@@ -282,14 +281,14 @@ plans:
 - name: Rakuten Plans Pricing
   plan_count: 1
   slug: rakuten-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Rakuten Rate Limits
   slug: rakuten-rate-limits
 score:
   band: thin
-  composite: 28.2
+  composite: 28.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 41.0
@@ -297,13 +296,13 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 47.1
     developer_ergonomics: 31.0
-    discoverability: 67.0
+    discoverability: 67.9
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -312,7 +311,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 34.3
+  previous_composite: 28.3
   provenance:
     agentic_access: derived
     contracts:
@@ -326,14 +325,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/screenshots/rakuten-2026-06-20T192542.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rakuten/rakuten-2026-06-20T192542.png
 security:
 - kind: authentication
   name: Rakuten Authentication

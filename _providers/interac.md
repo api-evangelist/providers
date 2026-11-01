@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,20 +38,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Interac Hub is an HTTP API that simplifies digital identity verification. Relying parties obtain verified identity data through financial-institution authentication (Interac Verification Service, '
   name: Interac Hub Verification API
   slug: interac-hub-verification-api
-artifact_total: 4
+artifact_total: 5
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.interac.ca/en/content-category/news/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/security/interac-domain-security.yml
+  href: https://artifacts.apis.io/interac/security/interac-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/interac-domain-security.yml
@@ -94,52 +96,52 @@ common:
   type: Support
   url: https://innovation.interac.ca/support/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/well-known/interac-well-known.yml
+  href: https://artifacts.apis.io/interac/well-known/interac-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/interac-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/authentication/interac-authentication.yml
+  href: https://artifacts.apis.io/interac/authentication/interac-authentication.yml
   title: ''
   type: Authentication
   url: authentication/interac-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/scopes/interac-scopes.yml
+  href: https://artifacts.apis.io/interac/scopes/interac-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/interac-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/conformance/interac-conformance.yml
+  href: https://artifacts.apis.io/interac/conformance/interac-conformance.yml
   title: ''
   type: Conformance
   url: conformance/interac-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/errors/interac-problem-types.yml
+  href: https://artifacts.apis.io/interac/errors/interac-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/interac-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/lifecycle/interac-lifecycle.yml
+  href: https://artifacts.apis.io/interac/lifecycle/interac-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/interac-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/conventions/interac-conventions.yml
+  href: https://artifacts.apis.io/interac/conventions/interac-conventions.yml
   title: ''
   type: Conventions
   url: conventions/interac-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/sandbox/interac-sandbox.yml
+  href: https://artifacts.apis.io/interac/sandbox/interac-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/interac-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/interac/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/llms/interac-llms.txt
+  href: https://artifacts.apis.io/interac/llms/interac-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/interac-llms.txt
@@ -156,7 +158,7 @@ overview: 'Interac is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Interac''s developer surface includes documentation, engineering blog, getting-started guide, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 16
+random_paper: 22
 scopes:
 - name: Interac Scopes
   scope_count: 3
@@ -164,7 +166,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 27.0
+  composite: 29.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -177,9 +179,9 @@ score:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 2.6
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -187,7 +189,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 27.0
+  previous_composite: 29.5
   provenance:
     conformance: first-party
     skills: derived
@@ -197,14 +199,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/screenshots/interac-2026-07-25T222655.png
+screenshot: https://apis.io/screenshots/interac/interac-2026-07-25T222655.png
 security:
 - kind: authentication
   name: Interac Authentication
@@ -214,6 +216,10 @@ security:
   name: Interac Domain Security
   slug: interac-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Verify a user's identity with the Interac Hub
+  slug: interac-verify-identity
 slug: interac
 tags:
 - Financial Services

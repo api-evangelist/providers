@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: REST API for creating and managing payment jobs and payments — create, retrieve, and cancel payment jobs; capture, refund, and cancel individual payments; card tokenisation; and recurring payments. Pa
@@ -50,18 +52,23 @@ apis:
 - description: Standalone REST API for PCI-PTS secure Kinetic payment devices, served locally from the terminal (default http://127.0.0.1:8080) under /api/v2 — device info, ping/status, settings, transactions, scree
   name: Cashflows In-Person Payments API
   slug: cashflows-in-person-payments-api
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Cashflows Gateway Webhooks
   slug: cashflows-gateway-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/cashflows/plans/cashflows-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cashflows-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.cashflows.com/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/security/cashflows-domain-security.yml
+  href: https://artifacts.apis.io/cashflows/security/cashflows-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cashflows-domain-security.yml
@@ -118,83 +125,91 @@ common:
   type: GitHubOrganization
   url: https://github.com/cashflows
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/authentication/cashflows-authentication.yml
+  href: https://artifacts.apis.io/cashflows/authentication/cashflows-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cashflows-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/conventions/cashflows-conventions.yml
+  href: https://artifacts.apis.io/cashflows/conventions/cashflows-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cashflows-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/errors/cashflows-problem-types.yml
+  href: https://artifacts.apis.io/cashflows/errors/cashflows-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cashflows-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/errors/cashflows-decline-codes.yml
+  href: https://artifacts.apis.io/cashflows/errors/cashflows-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/cashflows-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/asyncapi/cashflows-gateway-webhooks.yml
+  href: https://artifacts.apis.io/cashflows/asyncapi/cashflows-gateway-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cashflows-gateway-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/packages/cashflows-packages.yml
+  href: https://artifacts.apis.io/cashflows/packages/cashflows-packages.yml
   title: ''
   type: Packages
   url: packages/cashflows-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/packages/cashflows-packages.yml
+  href: https://artifacts.apis.io/cashflows/packages/cashflows-packages.yml
   title: ''
   type: SDKs
   url: packages/cashflows-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/lifecycle/cashflows-lifecycle.yml
+  href: https://artifacts.apis.io/cashflows/lifecycle/cashflows-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cashflows-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/sandbox/cashflows-sandbox.yml
+  href: https://artifacts.apis.io/cashflows/sandbox/cashflows-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cashflows-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/components/cashflows-components.yml
+  href: https://artifacts.apis.io/cashflows/components/cashflows-components.yml
   title: ''
   type: Components
   url: components/cashflows-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/conformance/cashflows-conformance.yml
+  href: https://artifacts.apis.io/cashflows/conformance/cashflows-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cashflows-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/data-model/cashflows-data-model.yml
+  href: https://artifacts.apis.io/cashflows/data-model/cashflows-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cashflows-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/well-known/cashflows-well-known.yml
+  href: https://artifacts.apis.io/cashflows/well-known/cashflows-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cashflows-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/mcp/cashflows-mcp.yml
+  href: https://artifacts.apis.io/cashflows/mcp/cashflows-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cashflows-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/llms/cashflows-llms.txt
+  href: https://artifacts.apis.io/cashflows/llms/cashflows-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cashflows-llms.txt
 created: '2026-07-24'
 description: Cashflows is a United Kingdom payment gateway and card acquirer, headquartered in London and a principal member of Visa and Mastercard, that helps businesses accept, process, and manage card payments across online, in-app, and in-person channels. Its product family spans a REST Cashflows Gateway (payment jobs, captures, refunds, tokenisation, recurring payments, and webhooks), hosted and embedded checkout, a cardholder-not-present Payments API with 3-D Secure, a Remote Authentication API for connecting to the acquiring network, and an In-Person Payments API served locally from Kinetic PCI-PTS terminals. Cashflows ships a genuine self-serve developer portal at developer.cashflows.com with reference documentation, a dedicated integration/sandbox environment, and webhook-based payment notifications, but it does not publish a downloadable OpenAPI/Swagger definition or a public Postman collection; its API reference is hand-authored HTML. Authentication is header-based (ConfigurationId
   plus a SHA-512 request hash for the Gateway, and auth_id/auth_pass for Remote Authentication) rather than OAuth.
+finops:
+- has_sources: true
+  method: derived
+  name: Cashflows Finops
+  primary_unit: ''
+  service_category: ''
+  slug: cashflows-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-10-06'
@@ -207,13 +222,17 @@ overview: 'Cashflows is listed with 4 APIs on the [APIs.io](https://apis.io/) ne
   The Cashflows catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cashflows'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, authentication, and 23 more developer resources.'
-random_paper: 2
+  Cashflows'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, authentication, and 24 more developer resources.'
+plans:
+- name: Cashflows Plans Pricing
+  plan_count: 0
+  slug: cashflows-plans-pricing
+random_paper: 10
 score:
   band: developing
-  composite: 46.5
+  composite: 47.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 20
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -221,12 +240,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 69.6
-    operational_transparency: 26.3
+    discoverability: 62.5
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -235,7 +254,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 46.5
+  previous_composite: 47.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -249,14 +268,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/screenshots/cashflows-2026-07-25T204721.png
+screenshot: https://apis.io/screenshots/cashflows/cashflows-2026-07-25T204721.png
 security:
 - kind: authentication
   name: Cashflows Authentication

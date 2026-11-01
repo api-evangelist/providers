@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 6
 common:
@@ -44,47 +46,47 @@ common:
   type: Support
   url: https://www.veradermics.com/contact-us/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/veradermics/refs/heads/main/mcp/veradermics-mcp.yml
+  href: https://artifacts.apis.io/veradermics/mcp/veradermics-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/veradermics-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veradermics/refs/heads/main/authentication/veradermics-authentication.yml
+  href: https://artifacts.apis.io/veradermics/authentication/veradermics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/veradermics-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veradermics/refs/heads/main/scopes/veradermics-scopes.yml
+  href: https://artifacts.apis.io/veradermics/scopes/veradermics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/veradermics-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/veradermics/refs/heads/main/well-known/veradermics-well-known.yml
+  href: https://artifacts.apis.io/veradermics/well-known/veradermics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/veradermics-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/veradermics/refs/heads/main/conformance/veradermics-conformance.yml
+  href: https://artifacts.apis.io/veradermics/conformance/veradermics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/veradermics-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veradermics/refs/heads/main/security/veradermics-domain-security.yml
+  href: https://artifacts.apis.io/veradermics/security/veradermics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/veradermics-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/veradermics/refs/heads/main/llms/veradermics-llms.txt
+  href: https://artifacts.apis.io/veradermics/llms/veradermics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/veradermics-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/veradermics/refs/heads/main/plans/veradermics-plans-pricing.yml
+  href: https://artifacts.apis.io/veradermics/plans/veradermics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/veradermics-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/veradermics/refs/heads/main/rate-limits/veradermics-rate-limits.yml
+  href: https://artifacts.apis.io/veradermics/rate-limits/veradermics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/veradermics-rate-limits.yml
@@ -108,7 +110,7 @@ plans:
 - name: Veradermics Plans Pricing
   plan_count: 0
   slug: veradermics-plans-pricing
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Veradermics Rate Limits
@@ -120,9 +122,9 @@ scopes:
   summary_line: 1 scope
 score:
   band: emerging
-  composite: 18.0
+  composite: 17.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -134,7 +136,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 51.7
+    discoverability: 48.3
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -143,7 +145,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 18.0
+  previous_composite: 17.7
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -153,14 +155,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/veradermics/refs/heads/main/screenshots/veradermics-2026-10-11T132827.png
+screenshot: https://apis.io/screenshots/veradermics/veradermics-2026-10-11T132827.png
 security:
 - kind: authentication
   name: Veradermics Authentication

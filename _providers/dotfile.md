@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 31.1
-  scored_at: '2026-10-17'
+  score: 33.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 100
   slug: dotfile-agentic-access
   summary_line: 100 operations · 57 acting
-api_count: 28
+api_count: 27
 apis:
 - baseURL: https://api.dotfile.com/v1
   baseurl_source: declared
@@ -177,14 +179,14 @@ apis:
   description: The Webhooks API from Dotfile — 3 operation(s) for webhooks.
   name: Dotfile Webhooks API
   slug: dotfile-webhooks-api
-artifact_total: 33
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Dotfile Webhooks
   slug: dotfile-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/capabilities/dotfile-capability-edges.yml
+  href: https://artifacts.apis.io/dotfile/capabilities/dotfile-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dotfile-capability-edges.yml
@@ -233,42 +235,42 @@ common:
   type: PrivacyPolicy
   url: https://www.dotfile.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/llms/dotfile-llms.txt
+  href: https://artifacts.apis.io/dotfile/llms/dotfile-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dotfile-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/well-known/dotfile-well-known.yml
+  href: https://artifacts.apis.io/dotfile/well-known/dotfile-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dotfile-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/well-known/dotfile-api-catalog.json
+  href: https://artifacts.apis.io/dotfile/well-known/dotfile-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/dotfile-api-catalog.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/authentication/dotfile-authentication.yml
+  href: https://artifacts.apis.io/dotfile/authentication/dotfile-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dotfile-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/conventions/dotfile-conventions.yml
+  href: https://artifacts.apis.io/dotfile/conventions/dotfile-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dotfile-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/errors/dotfile-problem-types.yml
+  href: https://artifacts.apis.io/dotfile/errors/dotfile-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dotfile-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/data-model/dotfile-data-model.yml
+  href: https://artifacts.apis.io/dotfile/data-model/dotfile-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dotfile-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/lifecycle/dotfile-lifecycle.yml
+  href: https://artifacts.apis.io/dotfile/lifecycle/dotfile-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dotfile-lifecycle.yml
@@ -281,22 +283,22 @@ common:
   type: Deprecation
   url: https://docs.dotfile.com/reference/api-release-changes
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/changelog/dotfile-changelog.yml
+  href: https://artifacts.apis.io/dotfile/changelog/dotfile-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dotfile-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/rate-limits/dotfile-rate-limits.yml
+  href: https://artifacts.apis.io/dotfile/rate-limits/dotfile-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dotfile-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/plans/dotfile-plans-pricing.yml
+  href: https://artifacts.apis.io/dotfile/plans/dotfile-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dotfile-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/conformance/dotfile-conformance.yml
+  href: https://artifacts.apis.io/dotfile/conformance/dotfile-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dotfile-conformance.yml
@@ -305,42 +307,50 @@ common:
   type: Compliance
   url: https://trust.dotfile.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/security/dotfile-trust-center.yml
+  href: https://artifacts.apis.io/dotfile/security/dotfile-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/dotfile-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/security/dotfile-domain-security.yml
+  href: https://artifacts.apis.io/dotfile/security/dotfile-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dotfile-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/asyncapi/dotfile-webhooks.yml
+  href: https://artifacts.apis.io/dotfile/asyncapi/dotfile-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/dotfile-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dotfile/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/overlays/dotfile-api-overlay.yaml
+  href: https://artifacts.apis.io/dotfile/overlays/dotfile-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dotfile-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/components/dotfile-components.yml
+  href: https://artifacts.apis.io/dotfile/components/dotfile-components.yml
   title: ''
   type: Components
   url: components/dotfile-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/agentic-access/dotfile-agentic-access.yml
+  href: https://artifacts.apis.io/dotfile/agentic-access/dotfile-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dotfile-agentic-access.yml
 created: '2026-08-17'
 description: 'Dotfile is a French (Paris-based) end-to-end business verification platform that automates KYB, KYC and AML compliance for regulated and high-growth companies. A single REST API and a case-management console act on the same data: a case holds the companies and individuals under verification, the checks run on them, and the decision that closes it. Nine check types are exposed — document, id_document, id_verification, ekyc, aml, company_monitoring, electronic_signature, fraud_database and online_reputation — alongside company-data search and fetch against official registries, document ordering, risk scoring, periodic review, templates, tables, custom properties, white-label client portals, tags, activities and an autonomous "Autonomy" agent routine trigger. The API is 100 operations over 82 paths, keyed with an X-DOTFILE-API-KEY header, and reports check outcomes asynchronously through 46 subscribable webhook events.'
+finops:
+- has_sources: true
+  method: derived
+  name: Dotfile Finops
+  primary_unit: ''
+  service_category: ''
+  slug: dotfile-finops
+  template: true
 image: https://cdn.sanity.io/images/cfd7mhkz/production/be810f412f56503cdfcd6aa0e33debc99b73f00b-14528x7688.png?rect=0,31,14528,7627&w=1200&h=630
 layout: provider
 modified: '2026-08-17'
@@ -358,29 +368,29 @@ plans:
 - name: Dotfile Plans Pricing
   plan_count: 0
   slug: dotfile-plans-pricing
-random_paper: 17
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Dotfile Rate Limits
   slug: dotfile-rate-limits
 score:
-  band: developing
-  composite: 51.2
+  band: strong
+  composite: 55.5
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 60.3
-    developer_ergonomics: 47.0
-    discoverability: 78.6
-    operational_transparency: 59.2
+    contract_quality: 57.3
+    developer_ergonomics: 58.9
+    discoverability: 71.4
+    operational_transparency: 73.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -389,7 +399,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 51.1
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -409,14 +419,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/screenshots/dotfile-2026-09-02T145309.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dotfile/dotfile-2026-09-02T145309.png
 security:
 - kind: authentication
   name: Dotfile Authentication
@@ -430,6 +441,16 @@ security:
   name: Dotfile Trust Center
   slug: dotfile-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 4
+skills:
+- name: Consume Dotfile webhooks and drive check review
+  slug: dotfile-handle-check-review-webhooks
+- name: Search registries and order company documents on Dotfile
+  slug: dotfile-order-company-data-and-documents
+- name: Run a KYB verification on Dotfile
+  slug: dotfile-run-kyb-verification
+- name: Run a KYC verification on Dotfile
+  slug: dotfile-run-kyc-verification
 slug: dotfile
 tags:
 - KYB

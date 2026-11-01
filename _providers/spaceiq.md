@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: SpaceIQ's (SiQ) GraphQL API. A single endpoint at https://api.spaceiq.com/queries accepts POST requests with a JSON query body and an access-token bearer header. Read operations cover companies, build
   name: SiQ GraphQL API
   slug: siq-graphql-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -51,7 +53,7 @@ common:
   type: BlogRSS
   url: https://eptura.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spaceiq/refs/heads/main/security/spaceiq-trust-center.yml
+  href: https://artifacts.apis.io/spaceiq/security/spaceiq-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/spaceiq-trust-center.yml
@@ -108,62 +110,62 @@ common:
   type: Security
   url: https://security.eptura.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spaceiq/refs/heads/main/authentication/spaceiq-authentication.yml
+  href: https://artifacts.apis.io/spaceiq/authentication/spaceiq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spaceiq-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spaceiq/refs/heads/main/conventions/spaceiq-conventions.yml
+  href: https://artifacts.apis.io/spaceiq/conventions/spaceiq-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spaceiq-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spaceiq/refs/heads/main/errors/spaceiq-problem-types.yml
+  href: https://artifacts.apis.io/spaceiq/errors/spaceiq-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spaceiq-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spaceiq/refs/heads/main/data-model/spaceiq-data-model.yml
+  href: https://artifacts.apis.io/spaceiq/data-model/spaceiq-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spaceiq-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spaceiq/refs/heads/main/lifecycle/spaceiq-lifecycle.yml
+  href: https://artifacts.apis.io/spaceiq/lifecycle/spaceiq-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spaceiq-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spaceiq/refs/heads/main/conformance/spaceiq-conformance.yml
+  href: https://artifacts.apis.io/spaceiq/conformance/spaceiq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spaceiq-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spaceiq/refs/heads/main/mcp/spaceiq-mcp.yml
+  href: https://artifacts.apis.io/spaceiq/mcp/spaceiq-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/spaceiq-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spaceiq/refs/heads/main/llms/spaceiq-llms.txt
+  href: https://artifacts.apis.io/spaceiq/llms/spaceiq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spaceiq-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spaceiq/refs/heads/main/well-known/spaceiq-well-known.yml
+  href: https://artifacts.apis.io/spaceiq/well-known/spaceiq-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/spaceiq-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spaceiq/refs/heads/main/security/spaceiq-domain-security.yml
+  href: https://artifacts.apis.io/spaceiq/security/spaceiq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spaceiq-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spaceiq/refs/heads/main/security/spaceiq-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/spaceiq/security/spaceiq-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/spaceiq-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spaceiq/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/spaceiq/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -179,10 +181,10 @@ overview: 'SpaceIQ is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   SpaceIQ''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, support, authentication, and 21 more developer resources.'
-random_paper: 16
+random_paper: 22
 score:
   band: thin
-  composite: 35.6
+  composite: 34.9
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -190,15 +192,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 35.5
+  previous_composite: 34.9
   provenance:
     conformance: derived
     mcp: derived
@@ -209,14 +211,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/spaceiq/refs/heads/main/screenshots/spaceiq-2026-09-02T160308.png
+screenshot: https://apis.io/screenshots/spaceiq/spaceiq-2026-09-02T160308.png
 security:
 - kind: authentication
   name: Spaceiq Authentication
@@ -234,6 +236,12 @@ security:
   name: Spaceiq Trust Center
   slug: spaceiq-trust-center
   summary_line: ISO 27001, FedRAMP, GDPR
+skill_count: 2
+skills:
+- name: Book a meeting room
+  slug: spaceiq-book-meeting-room
+- name: Explore the workplace hierarchy and find people
+  slug: spaceiq-explore-workplace
 slug: spaceiq
 tags:
 - Company

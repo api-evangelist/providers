@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-17'
+  score: 26.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,11 +54,8 @@ apis:
   description: Random cat trivia, individually or in paginated lists.
   name: Cat Facts (catfact.ninja) Facts API
   slug: cat-facts-catfact-facts-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cat Facts Breeds API
   slug: open-cat-facts-catfact-breeds-api
@@ -68,12 +67,12 @@ collections:
   slug: open-cat-facts-catfact
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cat-facts-catfact/refs/heads/main/agentic-access/cat-facts-catfact-agentic-access.yml
+  href: https://artifacts.apis.io/cat-facts-catfact/agentic-access/cat-facts-catfact-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cat-facts-catfact-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cat-facts-catfact/refs/heads/main/security/cat-facts-catfact-domain-security.yml
+  href: https://artifacts.apis.io/cat-facts-catfact/security/cat-facts-catfact-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cat-facts-catfact-domain-security.yml
@@ -114,17 +113,17 @@ common:
   type: Tools
   url: https://github.com/volspan-deployments/cat-facts-mcp
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cat-facts-catfact/refs/heads/main/rules/cat-facts-catfact-rules.yml
+  href: https://artifacts.apis.io/cat-facts-catfact/rules/cat-facts-catfact-rules.yml
   title: ''
   type: SpectralRules
   url: rules/cat-facts-catfact-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cat-facts-catfact/refs/heads/main/vocabulary/cat-facts-catfact-vocabulary.yml
+  href: https://artifacts.apis.io/cat-facts-catfact/vocabulary/cat-facts-catfact-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cat-facts-catfact-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cat-facts-catfact/refs/heads/main/json-ld/cat-facts-catfact-context.jsonld
+  href: https://artifacts.apis.io/cat-facts-catfact/json-ld/cat-facts-catfact-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/cat-facts-catfact-context.jsonld
@@ -196,7 +195,7 @@ overview: 'Cat Facts (catfact.ninja) is listed with 2 APIs on the [APIs.io](http
 
 
   Cat Facts (catfact.ninja)''s developer surface includes authentication, tooling, and 12 more developer resources.'
-random_paper: 7
+random_paper: 1
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -228,10 +227,10 @@ score:
     artifact_dirs: 12
     catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
-    catalog_max: 100.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 27.3
@@ -239,7 +238,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 64.3
     operational_transparency: 0.0
-  previous_composite: 19.4
+  previous_composite: 19.5
   provenance:
     agentic_access: derived
     contracts:
@@ -253,14 +252,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/cat-facts-catfact/refs/heads/main/screenshots/cat-facts-catfact-2026-06-20T174040.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cat-facts-catfact/cat-facts-catfact-2026-06-20T174040.png
 security:
 - kind: domain-security
   name: Cat Facts Catfact Domain Security

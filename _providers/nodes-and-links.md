@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Production API for the Nodes & Links project-controls platform, served from AWS API Gateway with OAuth bearer-token authentication. The full API reference is served inside the authenticated developer '
@@ -82,32 +84,32 @@ common:
   type: Compliance
   url: https://nodeslinks.com/security-faq/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nodes-and-links/refs/heads/main/authentication/nodes-and-links-authentication.yml
+  href: https://artifacts.apis.io/nodes-and-links/authentication/nodes-and-links-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nodes-and-links-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nodes-and-links/refs/heads/main/security/nodes-and-links-domain-security.yml
+  href: https://artifacts.apis.io/nodes-and-links/security/nodes-and-links-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nodes-and-links-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nodes-and-links/refs/heads/main/security/nodes-and-links-trust-center.yml
+  href: https://artifacts.apis.io/nodes-and-links/security/nodes-and-links-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nodes-and-links-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nodes-and-links/refs/heads/main/conformance/nodes-and-links-conformance.yml
+  href: https://artifacts.apis.io/nodes-and-links/conformance/nodes-and-links-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nodes-and-links-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nodes-and-links/refs/heads/main/lifecycle/nodes-and-links-lifecycle.yml
+  href: https://artifacts.apis.io/nodes-and-links/lifecycle/nodes-and-links-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nodes-and-links-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nodes-and-links/refs/heads/main/llms/nodes-and-links-llms.txt
+  href: https://artifacts.apis.io/nodes-and-links/llms/nodes-and-links-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nodes-and-links-llms.txt
@@ -123,10 +125,10 @@ overview: 'Nodes and Links is listed with 1 API on the [APIs.io](https://apis.io
 
 
   Nodes and Links'' developer surface includes documentation, signup flow, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: thin
-  composite: 26.6
+  composite: 31.5
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -134,15 +136,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 14.3
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 26.5
+    developer_ergonomics: 40.5
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 31.5
   provenance:
     conformance: first-party
   regulatory:
@@ -151,14 +153,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nodes-and-links/refs/heads/main/screenshots/nodes-and-links-2026-08-07T185424.png
+screenshot: https://apis.io/screenshots/nodes-and-links/nodes-and-links-2026-08-07T185424.png
 security:
 - kind: authentication
   name: Nodes And Links Authentication

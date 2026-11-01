@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-10-17'
+  score: 31.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 6
@@ -95,7 +97,7 @@ apis:
   description: The Webhooks API from MetaMap — 1 operation(s) for webhooks.
   name: MetaMap Webhooks API
   slug: metamap-webhooks-api
-artifact_total: 88
+artifact_total: 87
 collections:
 - collection_type: postman
   name: MetaMap Authentication API
@@ -127,9 +129,6 @@ collections:
 - collection_type: postman
   name: MetaMap Authentication Webhooks API
   slug: postman-metamap-webhooks-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MetaMap Authentication API
   slug: open-metamap-authentication-api
@@ -164,6 +163,11 @@ collections:
   name: MetaMap API
   slug: open-metamap
 common:
+- group: other
+  href: https://artifacts.apis.io/metamap/capabilities/metamap-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/metamap-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -173,17 +177,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/metamap/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/agentic-access/metamap-agentic-access.yml
+  href: https://artifacts.apis.io/metamap/agentic-access/metamap-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/metamap-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/security/metamap-domain-security.yml
+  href: https://artifacts.apis.io/metamap/security/metamap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/metamap-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/authentication/metamap-authentication.yml
+  href: https://artifacts.apis.io/metamap/authentication/metamap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/metamap-authentication.yml
@@ -496,17 +500,17 @@ common:
   type: Forums
   url: https://docs.metamap.com/discuss
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/plans/metamap-plans-pricing.yml
+  href: https://artifacts.apis.io/metamap/plans/metamap-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/metamap-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/rate-limits/metamap-rate-limits.yml
+  href: https://artifacts.apis.io/metamap/rate-limits/metamap-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/metamap-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/finops/metamap-finops.yml
+  href: https://artifacts.apis.io/metamap/finops/metamap-finops.yml
   title: ''
   type: FinOps
   url: finops/metamap-finops.yml
@@ -648,12 +652,12 @@ overview: 'MetaMap publishes 10 API contracts indexed on the [APIs.io](https://a
   The MetaMap catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  MetaMap''s developer surface includes authentication, developer portal, documentation, signup flow, getting-started guide, FAQ, changelog, and 89 more developer resources.'
+  MetaMap''s developer surface includes authentication, developer portal, documentation, signup flow, getting-started guide, FAQ, changelog, and 90 more developer resources.'
 plans:
 - name: Metamap Plans Pricing
   plan_count: 2
   slug: metamap-plans-pricing
-random_paper: 15
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Metamap Rate Limits
@@ -683,21 +687,21 @@ rules:
     warn: 4
   slug: metamap-rules
 score:
-  band: developing
-  composite: 51.8
+  band: strong
+  composite: 56.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 54.5
     catalog_earned_first_party: 0.0
     catalog_gap: 60.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.2
+  delta: 0.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 55.3
     contract_governance: 13.6
     contract_quality: 59.8
-    developer_ergonomics: 67.9
+    developer_ergonomics: 75.0
     discoverability: 67.9
     operational_transparency: 44.7
   jurisdiction:
@@ -706,7 +710,7 @@ score:
     regions:
     - africa
     - latin-america
-  previous_composite: 55.0
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     contracts:
@@ -719,14 +723,15 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 19.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/screenshots/metamap-2026-06-20T185250.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/metamap/metamap-2026-06-20T185250.png
 security:
 - kind: authentication
   name: Metamap Authentication
@@ -744,7 +749,7 @@ tags:
 - Compliance
 - Biometrics
 - Document Verification
-- Face Match
+- Face Matching
 - Liveness
 - GovCheck
 - Watchlist

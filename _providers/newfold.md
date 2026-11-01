@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.0
-  scored_at: '2026-10-17'
+  score: 12.3
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The Newfold Labs WordPress MCP module (wp-module-mcp) registers an MCP server, id blu-mcp, on the WordPress REST route /wp-json/blu/mcp of every site running a Newfold brand plugin. It exposes WordPre
@@ -46,14 +48,14 @@ apis:
 - description: 'HUAPI is Newfold''s internal hosting control-plane API, versioned under /v1, covering account, hosting, sites, domains, addons (backup, CodeGuard, SiteLock, Xcitium, Cloudflare, SpamExperts, Jetpack), '
   name: HUAPI (Hosting Unified API)
   slug: huapi
-artifact_total: 10
+artifact_total: 13
 common:
 - group: company
   title: ''
   type: Blog
   url: https://newfold.com/newsroom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/security/newfold-domain-security.yml
+  href: https://artifacts.apis.io/newfold/security/newfold-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/newfold-domain-security.yml
@@ -90,7 +92,7 @@ common:
   type: Security
   url: https://newfold.com/disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/security/newfold-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/newfold/security/newfold-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/newfold-vulnerability-disclosure.yml
@@ -99,82 +101,82 @@ common:
   type: Compliance
   url: https://newfold.com/privacy-center/information-security-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/packages/newfold-packages.yml
+  href: https://artifacts.apis.io/newfold/packages/newfold-packages.yml
   title: ''
   type: Packages
   url: packages/newfold-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/packages/newfold-packages.yml
+  href: https://artifacts.apis.io/newfold/packages/newfold-packages.yml
   title: ''
   type: SDKs
   url: packages/newfold-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/mcp/newfold-mcp.yml
+  href: https://artifacts.apis.io/newfold/mcp/newfold-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/newfold-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/newfold/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/llms/newfold-llms.txt
+  href: https://artifacts.apis.io/newfold/llms/newfold-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/newfold-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/authentication/newfold-authentication.yml
+  href: https://artifacts.apis.io/newfold/authentication/newfold-authentication.yml
   title: ''
   type: Authentication
   url: authentication/newfold-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/conventions/newfold-conventions.yml
+  href: https://artifacts.apis.io/newfold/conventions/newfold-conventions.yml
   title: ''
   type: Conventions
   url: conventions/newfold-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/errors/newfold-problem-types.yml
+  href: https://artifacts.apis.io/newfold/errors/newfold-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/newfold-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/conformance/newfold-conformance.yml
+  href: https://artifacts.apis.io/newfold/conformance/newfold-conformance.yml
   title: ''
   type: Conformance
   url: conformance/newfold-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/lifecycle/newfold-lifecycle.yml
+  href: https://artifacts.apis.io/newfold/lifecycle/newfold-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/newfold-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/changelog/newfold-changelog.yml
+  href: https://artifacts.apis.io/newfold/changelog/newfold-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/newfold-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/cli/newfold-cli.yml
+  href: https://artifacts.apis.io/newfold/cli/newfold-cli.yml
   title: ''
   type: CLI
   url: cli/newfold-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/components/newfold-components.yml
+  href: https://artifacts.apis.io/newfold/components/newfold-components.yml
   title: ''
   type: Components
   url: components/newfold-components.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/plans/newfold-plans-pricing.yml
+  href: https://artifacts.apis.io/newfold/plans/newfold-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/newfold-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/rate-limits/newfold-rate-limits.yml
+  href: https://artifacts.apis.io/newfold/rate-limits/newfold-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/newfold-rate-limits.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/json-schema/newfold-standards-frontmatter.schema.json
+  href: https://artifacts.apis.io/newfold/json-schema/newfold-standards-frontmatter.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/newfold-standards-frontmatter.schema.json
@@ -203,7 +205,7 @@ plans:
 - name: Newfold Plans Pricing
   plan_count: 0
   slug: newfold-plans-pricing
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Newfold Rate Limits
@@ -218,15 +220,15 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 63.7
-    discoverability: 65.0
-    operational_transparency: 28.9
-  previous_composite: 30.8
+    discoverability: 61.7
+    operational_transparency: 31.6
+  previous_composite: 31.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -237,14 +239,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/newfold/refs/heads/main/screenshots/newfold-2026-08-07T185102.png
+screenshot: https://apis.io/screenshots/newfold/newfold-2026-08-07T185102.png
 security:
 - kind: authentication
   name: Newfold Authentication
@@ -258,6 +260,14 @@ security:
   name: Newfold Vulnerability Disclosure
   slug: newfold-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 3
+skills:
+- name: newfold-mcp-gateway-session
+  slug: newfold-mcp-gateway-session
+- name: newfold-woocommerce-store-operations
+  slug: newfold-woocommerce-store-operations
+- name: newfold-wordpress-content-publishing
+  slug: newfold-wordpress-content-publishing
 slug: newfold
 tags:
 - Company

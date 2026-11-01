@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.8
-  scored_at: '2026-10-17'
+  score: 23.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 22
   slug: stainless-agentic-access
   summary_line: 22 operations · 10 acting · 1 human-in-the-loop
-api_count: 7
+api_count: 2
 apis:
 - description: Generate production-ready SDKs in TypeScript, Python, Go, Java, Kotlin, Ruby, C#, PHP, and Terraform from an OpenAPI specification. Stainless handles HTTP requests, retries with exponential backoff, s
   name: Stainless SDK Generator
@@ -95,11 +97,8 @@ apis:
   description: The Open API API from Stainless — 1 operation(s) for open api.
   name: Stainless Open API
   slug: stainless-open-api-api
-artifact_total: 38
+artifact_total: 39
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Stainless Platform Build Target Outputs API
   slug: open-stainless-build-target-outputs-api
@@ -120,97 +119,97 @@ collections:
   slug: open-stainless
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/finops/stainless-finops.yml
+  href: https://artifacts.apis.io/stainless/finops/stainless-finops.yml
   title: ''
   type: FinOps
   url: finops/stainless-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/rate-limits/stainless-rate-limits.yml
+  href: https://artifacts.apis.io/stainless/rate-limits/stainless-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stainless-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/plans/stainless-plans-pricing.yml
+  href: https://artifacts.apis.io/stainless/plans/stainless-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stainless-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/rules/stainless-rules.yml
+  href: https://artifacts.apis.io/stainless/rules/stainless-rules.yml
   title: ''
   type: Spectral
   url: rules/stainless-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/json-ld/stainless-context.jsonld
+  href: https://artifacts.apis.io/stainless/json-ld/stainless-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/stainless-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/vocabulary/stainless-vocabulary.yml
+  href: https://artifacts.apis.io/stainless/vocabulary/stainless-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/stainless-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/stainless/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/data-model/stainless-data-model.yml
+  href: https://artifacts.apis.io/stainless/data-model/stainless-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stainless-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/cli/stainless-cli.yml
+  href: https://artifacts.apis.io/stainless/cli/stainless-cli.yml
   title: ''
   type: CLI
   url: cli/stainless-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/conventions/stainless-conventions.yml
+  href: https://artifacts.apis.io/stainless/conventions/stainless-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stainless-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/security/stainless-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/stainless/security/stainless-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/stainless-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/conformance/stainless-conformance.yml
+  href: https://artifacts.apis.io/stainless/conformance/stainless-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stainless-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/llms/stainless-llms.txt
+  href: https://artifacts.apis.io/stainless/llms/stainless-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stainless-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/well-known/stainless-security.txt
+  href: https://artifacts.apis.io/stainless/well-known/stainless-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/stainless-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/well-known/stainless-app-security.txt
+  href: https://artifacts.apis.io/stainless/well-known/stainless-app-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/stainless-app-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/well-known/stainless-api-security.txt
+  href: https://artifacts.apis.io/stainless/well-known/stainless-api-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/stainless-api-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/well-known/stainless-well-known.yml
+  href: https://artifacts.apis.io/stainless/well-known/stainless-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stainless-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/hosts/stainless-hosts.yml
+  href: https://artifacts.apis.io/stainless/hosts/stainless-hosts.yml
   title: ''
   type: Hosts
   url: hosts/stainless-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/vendors/stainless-vendors.yml
+  href: https://artifacts.apis.io/stainless/vendors/stainless-vendors.yml
   title: ''
   type: Vendors
   url: vendors/stainless-vendors.yml
@@ -227,12 +226,12 @@ common:
   type: GettingStarted
   url: https://www.stainless.com/docs/quickstart-studio
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/capabilities/stainless-capability-edges.yml
+  href: https://artifacts.apis.io/stainless/capabilities/stainless-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/stainless-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/vendor-facets/stainless-vendor-facets.yml
+  href: https://artifacts.apis.io/stainless/vendor-facets/stainless-vendor-facets.yml
   title: ''
   type: VendorFacets
   url: vendor-facets/stainless-vendor-facets.yml
@@ -241,22 +240,22 @@ common:
   type: Website
   url: https://www.stainless.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/agentic-access/stainless-agentic-access.yml
+  href: https://artifacts.apis.io/stainless/agentic-access/stainless-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stainless-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/security/stainless-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/stainless/security/stainless-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/stainless-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/security/stainless-domain-security.yml
+  href: https://artifacts.apis.io/stainless/security/stainless-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stainless-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/authentication/stainless-authentication.yml
+  href: https://artifacts.apis.io/stainless/authentication/stainless-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stainless-authentication.yml
@@ -323,13 +322,13 @@ examples:
   name: Stainless Sdk Generation Example
   slug: stainless-sdk-generation-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Stainless Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: generator
+  service_category: ''
   slug: stainless-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stainless.png
 json_schemas:
 - name: BuildDiagnostic
@@ -378,9 +377,9 @@ overview: 'Stainless publishes 12 API contracts indexed on the [APIs.io](https:/
   Stainless'' developer surface includes CLI, support, API reference, getting-started guide, authentication, developer portal, documentation, and 34 more developer resources.'
 plans:
 - name: Stainless Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: stainless-plans-pricing
-random_paper: 14
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Stainless Rate Limits
@@ -399,24 +398,24 @@ rules:
     warn: 2
   slug: stainless-rules
 score:
-  band: developing
-  composite: 50.1
+  band: strong
+  composite: 55.8
   coverage:
     artifact_dirs: 32
-    catalog_earned: 63.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.3
+    catalog_earned: 72.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 42.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 18.8
+  delta: 1.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 73.7
     contract_governance: 22.0
     contract_quality: 50.7
     developer_ergonomics: 66.1
-    discoverability: 69.6
+    discoverability: 57.1
     operational_transparency: 39.5
-  previous_composite: 31.3
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -433,13 +432,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/screenshots/stainless-2026-06-20T194453.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/stainless/stainless-2026-06-20T194453.png
 security:
 - kind: authentication
   name: Stainless Authentication
@@ -453,6 +453,12 @@ security:
   name: Stainless Vulnerability Disclosure
   slug: stainless-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 2
+skills:
+- name: stainless-builds-diagnostics
+  slug: stainless-builds-diagnostics
+- name: stainless-create-and-list-projects
+  slug: stainless-create-and-list-projects
 slug: stainless
 tags:
 - Code Generation

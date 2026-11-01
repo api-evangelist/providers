@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: HTTP ingestion API for sending LLM/agent conversation events to Moda. Accepts batched events (conversation_id, role, message, plus token/model/trace metadata) over a single POST endpoint, authenticate
@@ -43,10 +45,10 @@ apis:
 - description: 'Read-only analytics API for programmatic access to Moda conversation data: overview/KPIs, conversations, world state, topic clusters, frustrations, and tool failures. Authenticated with an API key via'
   name: Moda Data API
   slug: moda-data-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moda/refs/heads/main/security/moda-domain-security.yml
+  href: https://artifacts.apis.io/moda/security/moda-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moda-domain-security.yml
@@ -103,67 +105,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/ModaLabs
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moda/refs/heads/main/packages/moda-packages.yml
+  href: https://artifacts.apis.io/moda/packages/moda-packages.yml
   title: ''
   type: Packages
   url: packages/moda-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moda/refs/heads/main/packages/moda-packages.yml
+  href: https://artifacts.apis.io/moda/packages/moda-packages.yml
   title: ''
   type: SDKs
   url: packages/moda-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moda/refs/heads/main/cli/moda-cli.yml
+  href: https://artifacts.apis.io/moda/cli/moda-cli.yml
   title: ''
   type: CLI
   url: cli/moda-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moda/refs/heads/main/mcp/moda-mcp.yml
+  href: https://artifacts.apis.io/moda/mcp/moda-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/moda-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moda/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/moda/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moda/refs/heads/main/llms/moda-llms.txt
+  href: https://artifacts.apis.io/moda/llms/moda-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moda-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moda/refs/heads/main/authentication/moda-authentication.yml
+  href: https://artifacts.apis.io/moda/authentication/moda-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moda-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moda/refs/heads/main/conventions/moda-conventions.yml
+  href: https://artifacts.apis.io/moda/conventions/moda-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moda-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moda/refs/heads/main/errors/moda-problem-types.yml
+  href: https://artifacts.apis.io/moda/errors/moda-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/moda-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moda/refs/heads/main/lifecycle/moda-lifecycle.yml
+  href: https://artifacts.apis.io/moda/lifecycle/moda-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moda-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moda/refs/heads/main/conformance/moda-conformance.yml
+  href: https://artifacts.apis.io/moda/conformance/moda-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moda-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moda/refs/heads/main/data-model/moda-data-model.yml
+  href: https://artifacts.apis.io/moda/data-model/moda-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moda-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/moda/refs/heads/main/changelog/moda-changelog.yml
+  href: https://artifacts.apis.io/moda/changelog/moda-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/moda-changelog.yml
@@ -183,26 +185,26 @@ overview: 'Moda is listed with 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Moda''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, support, and 20 more developer resources.'
-random_paper: 21
+random_paper: 9
 score:
   band: thin
-  composite: 35.7
+  composite: 36.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 78.6
-    discoverability: 63.3
-    operational_transparency: 18.4
-  previous_composite: 35.6
+    discoverability: 56.7
+    operational_transparency: 21.1
+  previous_composite: 36.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -213,14 +215,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/moda/refs/heads/main/screenshots/moda-2026-08-07T183912.png
+screenshot: https://apis.io/screenshots/moda/moda-2026-08-07T183912.png
 security:
 - kind: authentication
   name: Moda Authentication
@@ -230,6 +232,12 @@ security:
   name: Moda Domain Security
   slug: moda-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: moda-instrument-and-ingest
+  slug: moda-instrument-and-ingest
+- name: moda-setup
+  slug: moda-setup
 slug: moda
 tags:
 - Company

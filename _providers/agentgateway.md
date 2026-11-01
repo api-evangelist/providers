@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-17'
+  score: 28.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -76,11 +78,8 @@ apis:
   description: The Profiling API from AgentGateway — 2 operation(s) for profiling.
   name: AgentGateway Profiling API
   slug: agentgateway-profiling-api
-artifact_total: 59
+artifact_total: 61
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AgentGateway Admin / Debug Config API
   slug: open-agentgateway-config-api
@@ -128,12 +127,12 @@ common:
   type: JSONSchema
   url: https://agentgateway.dev/schema/config
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/json-schema/agentgateway-config-schema.json
+  href: https://artifacts.apis.io/agentgateway/json-schema/agentgateway-config-schema.json
   title: Configuration Schema (LocalConfig) - verbatim capture of https://agentgateway.dev/schema/config
   type: JSONSchema
   url: json-schema/agentgateway-config-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/json-structure/agentgateway-route-structure.json
+  href: https://artifacts.apis.io/agentgateway/json-structure/agentgateway-route-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/agentgateway-route-structure.json
@@ -142,57 +141,57 @@ common:
   type: Examples
   url: https://github.com/agentgateway/agentgateway/tree/main/examples
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/rules/agentgateway-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/agentgateway/rules/agentgateway-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/agentgateway-jsonschema-spectral-rules.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/plans/agentgateway-plans-pricing.yml
+  href: https://artifacts.apis.io/agentgateway/plans/agentgateway-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agentgateway-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/rate-limits/agentgateway-rate-limits.yml
+  href: https://artifacts.apis.io/agentgateway/rate-limits/agentgateway-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agentgateway-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/finops/agentgateway-finops.yml
+  href: https://artifacts.apis.io/agentgateway/finops/agentgateway-finops.yml
   title: ''
   type: FinOps
   url: finops/agentgateway-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/packages/agentgateway-packages.yml
+  href: https://artifacts.apis.io/agentgateway/packages/agentgateway-packages.yml
   title: ''
   type: Packages
   url: packages/agentgateway-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/cli/agentgateway-cli.yml
+  href: https://artifacts.apis.io/agentgateway/cli/agentgateway-cli.yml
   title: ''
   type: CLI
   url: cli/agentgateway-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/authentication/agentgateway-authentication.yml
+  href: https://artifacts.apis.io/agentgateway/authentication/agentgateway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agentgateway-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/conventions/agentgateway-conventions.yml
+  href: https://artifacts.apis.io/agentgateway/conventions/agentgateway-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agentgateway-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/conformance/agentgateway-conformance.yml
+  href: https://artifacts.apis.io/agentgateway/conformance/agentgateway-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agentgateway-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/errors/agentgateway-problem-types.yml
+  href: https://artifacts.apis.io/agentgateway/errors/agentgateway-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agentgateway-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/lifecycle/agentgateway-lifecycle.yml
+  href: https://artifacts.apis.io/agentgateway/lifecycle/agentgateway-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agentgateway-lifecycle.yml
@@ -201,22 +200,22 @@ common:
   type: Deprecation
   url: https://agentgateway.dev/docs/standalone/latest/reference/release-notes/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/changelog/agentgateway-changelog.yml
+  href: https://artifacts.apis.io/agentgateway/changelog/agentgateway-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/agentgateway-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/data-model/agentgateway-data-model.yml
+  href: https://artifacts.apis.io/agentgateway/data-model/agentgateway-data-model.yml
   title: ''
   type: DataModel
   url: data-model/agentgateway-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/sandbox/agentgateway-sandbox.yml
+  href: https://artifacts.apis.io/agentgateway/sandbox/agentgateway-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/agentgateway-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/webhooks/agentgateway-webhooks.yml
+  href: https://artifacts.apis.io/agentgateway/webhooks/agentgateway-webhooks.yml
   title: ''
   type: Webhooks
   url: webhooks/agentgateway-webhooks.yml
@@ -225,27 +224,27 @@ common:
   type: Security
   url: https://github.com/agentgateway/agentgateway/blob/main/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/security/agentgateway-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/agentgateway/security/agentgateway-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/agentgateway-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/agentgateway/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/llms/agentgateway-llms.txt
+  href: https://artifacts.apis.io/agentgateway/llms/agentgateway-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agentgateway-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/well-known/agentgateway-well-known.yml
+  href: https://artifacts.apis.io/agentgateway/well-known/agentgateway-well-known.yml
   title: ''
   type: WellKnown-probe
   url: well-known/agentgateway-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/mcp/agentgateway-mcp.yml
+  href: https://artifacts.apis.io/agentgateway/mcp/agentgateway-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/agentgateway-mcp.yml
@@ -270,12 +269,12 @@ common:
   type: License
   url: https://github.com/agentgateway/agentgateway/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/agentic-access/agentgateway-agentic-access.yml
+  href: https://artifacts.apis.io/agentgateway/agentic-access/agentgateway-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/agentgateway-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/security/agentgateway-domain-security.yml
+  href: https://artifacts.apis.io/agentgateway/security/agentgateway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agentgateway-domain-security.yml
@@ -361,11 +360,11 @@ features:
 - description: Supports prompt templates and enrichment for standardizing and augmenting requests before routing to LLM providers.
   name: Prompt Enrichment
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Agentgateway Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: agentgateway-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/agentgateway.png
@@ -432,7 +431,7 @@ plans:
 - name: Agentgateway Plans Pricing
   plan_count: 0
   slug: agentgateway-plans-pricing
-random_paper: 5
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Agentgateway Rate Limits
@@ -451,7 +450,7 @@ rules:
   slug: agentgateway-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.9
+  composite: 51.3
   coverage:
     artifact_dirs: 33
     catalog_earned: 56.2
@@ -459,18 +458,15 @@ score:
     catalog_gap: 58.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 41.7
     contract_quality: 51.7
     developer_ergonomics: 73.2
     discoverability: 64.3
-    operational_transparency: 44.7
-  open_source:
-    applies: true
-    score: 75.0
-  previous_composite: 54.2
+    operational_transparency: 47.4
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -487,13 +483,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/screenshots/agentgateway-2026-06-20T170015.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/agentgateway/agentgateway-2026-06-20T170015.png
 security:
 - kind: authentication
   name: Agentgateway Authentication
@@ -507,6 +504,14 @@ security:
   name: Agentgateway Vulnerability Disclosure
   slug: agentgateway-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 3
+skills:
+- name: agentgateway-change-log-level
+  slug: agentgateway-change-log-level
+- name: agentgateway-inspect-running-config
+  slug: agentgateway-inspect-running-config
+- name: agentgateway-trace-and-profile
+  slug: agentgateway-trace-and-profile
 slug: agentgateway
 tags:
 - AI Gateway

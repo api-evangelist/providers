@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -80,11 +82,8 @@ apis:
   description: The Voice API from MiniMax — 4 operation(s) for voice.
   name: MiniMax Voice API
   slug: minimax-ai-voice-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MiniMax Files API
   slug: open-minimax-ai-files-api
@@ -111,17 +110,17 @@ collections:
   slug: open-minimax-ai
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/agentic-access/minimax-ai-agentic-access.yml
+  href: https://artifacts.apis.io/minimax-ai/agentic-access/minimax-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/minimax-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/security/minimax-ai-domain-security.yml
+  href: https://artifacts.apis.io/minimax-ai/security/minimax-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/minimax-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/authentication/minimax-ai-authentication.yml
+  href: https://artifacts.apis.io/minimax-ai/authentication/minimax-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/minimax-ai-authentication.yml
@@ -142,17 +141,17 @@ common:
   type: Documentation
   url: https://platform.minimax.io/docs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/plans/minimax-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/minimax-ai/plans/minimax-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/minimax-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/rate-limits/minimax-ai-rate-limits.yml
+  href: https://artifacts.apis.io/minimax-ai/rate-limits/minimax-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/minimax-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/finops/minimax-ai-finops.yml
+  href: https://artifacts.apis.io/minimax-ai/finops/minimax-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/minimax-ai-finops.yml
@@ -191,7 +190,7 @@ plans:
 - name: Minimax Ai Plans Pricing
   plan_count: 4
   slug: minimax-ai-plans-pricing
-random_paper: 12
+random_paper: 18
 rate_limits:
 - limit_count: 8
   name: Minimax Ai Rate Limits
@@ -211,7 +210,7 @@ rules:
   slug: minimax-ai-minimax-desgin-plugin-spectral-rules
 score:
   band: thin
-  composite: 35.0
+  composite: 36.5
   coverage:
     artifact_dirs: 13
     catalog_earned: 58.0
@@ -219,20 +218,20 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 45.5
     contract_quality: 50.8
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 10.5
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - china
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 31.4
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -246,13 +245,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/screenshots/minimax-ai-2026-06-20T185605.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/minimax-ai/minimax-ai-2026-06-20T185605.png
 security:
 - kind: authentication
   name: Minimax Ai Authentication

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Hosted Platform-as-a-Service REST API for Me Protocol — the backend behind the embeddable rewards SDKs. Authenticates SDK integrations with an API key and brokers reward issuance, redemption, and cros
@@ -72,42 +74,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/Me-Protocol
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/my-ai/refs/heads/main/packages/my-ai-packages.yml
+  href: https://artifacts.apis.io/my-ai/packages/my-ai-packages.yml
   title: ''
   type: Packages
   url: packages/my-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/my-ai/refs/heads/main/packages/my-ai-packages.yml
+  href: https://artifacts.apis.io/my-ai/packages/my-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/my-ai-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/my-ai/refs/heads/main/components/my-ai-components.yml
+  href: https://artifacts.apis.io/my-ai/components/my-ai-components.yml
   title: ''
   type: Components
   url: components/my-ai-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/my-ai/refs/heads/main/authentication/my-ai-authentication.yml
+  href: https://artifacts.apis.io/my-ai/authentication/my-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/my-ai-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/my-ai/refs/heads/main/sandbox/my-ai-sandbox.yml
+  href: https://artifacts.apis.io/my-ai/sandbox/my-ai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/my-ai-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/my-ai/refs/heads/main/conventions/my-ai-conventions.yml
+  href: https://artifacts.apis.io/my-ai/conventions/my-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/my-ai-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/my-ai/refs/heads/main/llms/my-ai-llms.txt
+  href: https://artifacts.apis.io/my-ai/llms/my-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/my-ai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/my-ai/refs/heads/main/security/my-ai-domain-security.yml
+  href: https://artifacts.apis.io/my-ai/security/my-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/my-ai-domain-security.yml
@@ -123,12 +125,12 @@ overview: 'My AI is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   My AI''s developer surface includes documentation, getting-started guide, pricing, engineering blog, authentication, sandbox, and 9 more developer resources.'
-random_paper: 15
+random_paper: 21
 score:
   band: emerging
-  composite: 16.8
+  composite: 21.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -136,27 +138,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 52.4
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 16.8
+    developer_ergonomics: 66.7
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 21.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/my-ai/refs/heads/main/screenshots/my-ai-2026-08-07T184501.png
+screenshot: https://apis.io/screenshots/my-ai/my-ai-2026-08-07T184501.png
 security:
 - kind: authentication
   name: My Ai Authentication

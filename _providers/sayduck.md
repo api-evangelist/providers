@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: In-page JavaScript API exposed by the embedded Sayduck 3D viewer/configurator Web Component. Accessed via DOM CustomEvents (sayduck.api-ready) once the viewer loads, with namespaces for variants, conf
@@ -93,17 +95,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/Sayduck
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sayduck/refs/heads/main/components/sayduck-components.yml
+  href: https://artifacts.apis.io/sayduck/components/sayduck-components.yml
   title: ''
   type: Components
   url: components/sayduck-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sayduck/refs/heads/main/conventions/sayduck-conventions.yml
+  href: https://artifacts.apis.io/sayduck/conventions/sayduck-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sayduck-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sayduck/refs/heads/main/lifecycle/sayduck-lifecycle.yml
+  href: https://artifacts.apis.io/sayduck/lifecycle/sayduck-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sayduck-lifecycle.yml
@@ -112,17 +114,17 @@ common:
   type: ChangeLog
   url: https://github.com/Sayduck/sayduck-platform-release/releases
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sayduck/refs/heads/main/changelog/sayduck-changelog.yml
+  href: https://artifacts.apis.io/sayduck/changelog/sayduck-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sayduck-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sayduck/refs/heads/main/llms/sayduck-llms.txt
+  href: https://artifacts.apis.io/sayduck/llms/sayduck-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sayduck-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sayduck/refs/heads/main/security/sayduck-domain-security.yml
+  href: https://artifacts.apis.io/sayduck/security/sayduck-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sayduck-domain-security.yml
@@ -138,10 +140,10 @@ overview: 'SayDuck is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   SayDuck''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 8
+random_paper: 12
 score:
-  band: emerging
-  composite: 24.9
+  band: thin
+  composite: 27.1
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -149,29 +151,29 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 24.8
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 27.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sayduck/refs/heads/main/screenshots/sayduck-2026-09-02T154455.png
+screenshot: https://apis.io/screenshots/sayduck/sayduck-2026-09-02T154455.png
 security:
 - kind: domain-security
   name: Sayduck Domain Security

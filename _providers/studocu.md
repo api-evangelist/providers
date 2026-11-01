@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.6
-  scored_at: '2026-10-17'
+  score: 3.5
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -65,12 +67,12 @@ common:
   type: PrivacyPolicy
   url: https://www.studocu.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/studocu/refs/heads/main/well-known/studocu-well-known.yml
+  href: https://artifacts.apis.io/studocu/well-known/studocu-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/studocu-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/studocu/refs/heads/main/well-known/studocu-security.txt
+  href: https://artifacts.apis.io/studocu/well-known/studocu-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/studocu-security.txt
@@ -79,12 +81,12 @@ common:
   type: Security
   url: https://studocu.com/vdp.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/studocu/refs/heads/main/security/studocu-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/studocu/security/studocu-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/studocu-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/studocu/refs/heads/main/security/studocu-domain-security.yml
+  href: https://artifacts.apis.io/studocu/security/studocu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/studocu-domain-security.yml
@@ -93,7 +95,7 @@ description: Studocu (operated by StudeerSnel B.V., Amsterdam) is a global onlin
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/studocu.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at agent-os-mcp.alpha.studocu.com over HTTP; 1 tool listed.
+- description: Remote MCP server at agent-os-mcp.alpha.studocu.com over HTTP; 18 tools listed.
   name: Studocu MCP Server
   slug: studocu
 modified: '2026-10-06'
@@ -104,10 +106,10 @@ overview: 'Studocu is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Studocu''s developer surface includes engineering blog, support, pricing, and 9 more developer resources.'
-random_paper: 5
+random_paper: 7
 score:
-  band: minimal
-  composite: 6.8
+  band: emerging
+  composite: 13.9
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -117,13 +119,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 51.7
+    discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 6.8
+  previous_composite: 13.9
   provenance:
     mcp: first-party
   regulatory:
@@ -131,15 +133,15 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/studocu/refs/heads/main/screenshots/studocu-2026-10-11T192926.png
+screenshot: https://apis.io/screenshots/studocu/studocu-2026-10-11T192926.png
 security:
 - kind: domain-security
   name: Studocu Domain Security

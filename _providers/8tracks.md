@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Historical public REST API for the 8tracks internet-radio platform. Exposes mix discovery and search, per-session play tokens, playback control (play/next/skip/report), similar-mix recommendation, and
@@ -63,37 +65,37 @@ common:
   type: Blog
   url: https://blog.8tracks.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/8tracks/refs/heads/main/authentication/8tracks-authentication.yml
+  href: https://artifacts.apis.io/8tracks/authentication/8tracks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/8tracks-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/8tracks/refs/heads/main/conventions/8tracks-conventions.yml
+  href: https://artifacts.apis.io/8tracks/conventions/8tracks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/8tracks-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/8tracks/refs/heads/main/lifecycle/8tracks-lifecycle.yml
+  href: https://artifacts.apis.io/8tracks/lifecycle/8tracks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/8tracks-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/8tracks/refs/heads/main/lifecycle/8tracks-lifecycle.yml
+  href: https://artifacts.apis.io/8tracks/lifecycle/8tracks-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/8tracks-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/8tracks/refs/heads/main/packages/8tracks-packages.yml
+  href: https://artifacts.apis.io/8tracks/packages/8tracks-packages.yml
   title: ''
   type: Packages
   url: packages/8tracks-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/8tracks/refs/heads/main/security/8tracks-domain-security.yml
+  href: https://artifacts.apis.io/8tracks/security/8tracks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/8tracks-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/8tracks/refs/heads/main/well-known/8tracks-well-known.yml
+  href: https://artifacts.apis.io/8tracks/well-known/8tracks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/8tracks-well-known.yml
@@ -109,7 +111,7 @@ overview: '8Tracks is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   8Tracks'' developer surface includes documentation, API reference, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 0
+random_paper: 8
 score:
   band: minimal
   composite: 0.0
@@ -143,14 +145,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/8tracks/refs/heads/main/screenshots/8tracks-2026-10-11T134525.png
+screenshot: https://apis.io/screenshots/8tracks/8tracks-2026-10-11T134525.png
 security:
 - kind: authentication
   name: 8Tracks Authentication

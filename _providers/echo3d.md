@@ -26,29 +26,36 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.0
-  scored_at: '2026-10-17'
+  score: 35.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: RESTful HTTP API for storing, querying, uploading, downloading, converting, compressing, organizing, versioning, and deleting 3D content entries (targets and holograms) in echo3D collections. Requests
   name: echo3D API
   slug: echo3d-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: 'Event webhooks echo3D delivers to a subscriber-configured HTTPS endpoint when actions occur in a collection. Generated from the echo3D webhook documentation; every event shares one JSON payload shape '
   name: echo3D Webhooks
   slug: echo3d-webhooks-asyncapi
 common:
+- group: commercial
+  href: https://artifacts.apis.io/echo3d/plans/echo3d-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/echo3d-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/security/echo3d-domain-security.yml
+  href: https://artifacts.apis.io/echo3d/security/echo3d-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/echo3d-domain-security.yml
@@ -109,77 +116,85 @@ common:
   type: Webhooks
   url: https://docs.echo3d.com/web-console/automate-pages/workflows/webhooks
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/mcp/echo3d-mcp.yml
+  href: https://artifacts.apis.io/echo3d/mcp/echo3d-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/echo3d-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/llms/echo3d-llms.txt
+  href: https://artifacts.apis.io/echo3d/llms/echo3d-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/echo3d-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/well-known/echo3d-well-known.yml
+  href: https://artifacts.apis.io/echo3d/well-known/echo3d-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/echo3d-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/packages/echo3d-packages.yml
+  href: https://artifacts.apis.io/echo3d/packages/echo3d-packages.yml
   title: ''
   type: Packages
   url: packages/echo3d-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/packages/echo3d-packages.yml
+  href: https://artifacts.apis.io/echo3d/packages/echo3d-packages.yml
   title: ''
   type: SDKs
   url: packages/echo3d-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/authentication/echo3d-authentication.yml
+  href: https://artifacts.apis.io/echo3d/authentication/echo3d-authentication.yml
   title: ''
   type: Authentication
   url: authentication/echo3d-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/scopes/echo3d-scopes.yml
+  href: https://artifacts.apis.io/echo3d/scopes/echo3d-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/echo3d-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/conventions/echo3d-conventions.yml
+  href: https://artifacts.apis.io/echo3d/conventions/echo3d-conventions.yml
   title: ''
   type: Conventions
   url: conventions/echo3d-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/errors/echo3d-problem-types.yml
+  href: https://artifacts.apis.io/echo3d/errors/echo3d-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/echo3d-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/lifecycle/echo3d-lifecycle.yml
+  href: https://artifacts.apis.io/echo3d/lifecycle/echo3d-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/echo3d-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/data-model/echo3d-data-model.yml
+  href: https://artifacts.apis.io/echo3d/data-model/echo3d-data-model.yml
   title: ''
   type: DataModel
   url: data-model/echo3d-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/components/echo3d-components.yml
+  href: https://artifacts.apis.io/echo3d/components/echo3d-components.yml
   title: ''
   type: Components
   url: components/echo3d-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/conformance/echo3d-conformance.yml
+  href: https://artifacts.apis.io/echo3d/conformance/echo3d-conformance.yml
   title: ''
   type: Conformance
   url: conformance/echo3d-conformance.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/asyncapi/echo3d-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/echo3d/asyncapi/echo3d-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/echo3d-webhooks-asyncapi.yml
 created: '2026-07-17'
 description: echo3D is a cloud-based 3D digital asset management (DAM) platform that lets enterprises and development teams store, secure, optimize, convert, version, and share 3D models, animations, scans, and interactive AR/VR content across their organization and beyond. It exposes a RESTful HTTP API at api.echo3d.com for uploading, querying, downloading, converting, compressing, organizing, and deleting 3D content entries in collections, plus first-party SDKs and plugins for Unity, Unreal Engine, Swift/iOS, JavaScript/web, React, React Native, Flutter, Python, Blender, NVIDIA Omniverse, Adobe Substance 3D, and Autodesk 3ds Max. The platform adds event webhooks, an MCP server for AI clients, AI agents for deduplication and watermarking, WebAR delivery, and cross-platform 3D content optimization.
+finops:
+- has_sources: true
+  method: derived
+  name: Echo3D Finops
+  primary_unit: ''
+  service_category: ''
+  slug: echo3d-finops
+  template: true
 image: https://static.wixstatic.com/media/c42fea_29a84adfa04046e69529e73ba3417d5d~mv2.png
 layout: provider
 mcp_servers:
@@ -196,8 +211,12 @@ overview: 'echo3D is listed with 1 API on the [APIs.io](https://apis.io/) networ
   The echo3D catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  echo3D''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 22 more developer resources.'
-random_paper: 16
+  echo3D''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 23 more developer resources.'
+plans:
+- name: Echo3D Plans Pricing
+  plan_count: 2
+  slug: echo3d-plans-pricing
+random_paper: 14
 scopes:
 - name: Echo3D Scopes
   scope_count: 14
@@ -205,23 +224,23 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 43.7
+  composite: 47.4
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 19
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.2
   facets:
-    access_clarity: 44.7
+    access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 43.6
+    discoverability: 65.0
+    operational_transparency: 13.2
+  previous_composite: 43.2
   provenance:
     conformance: derived
     mcp: first-party
@@ -231,14 +250,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/screenshots/echo3d-2026-07-25T212938.png
+screenshot: https://apis.io/screenshots/echo3d/echo3d-2026-07-25T212938.png
 security:
 - kind: authentication
   name: Echo3D Authentication

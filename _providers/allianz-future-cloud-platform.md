@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-17'
+  score: 33.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,11 +70,8 @@ apis:
   description: Service registration and management operations
   name: Allianz Future Cloud Platform Services API
   slug: allianz-future-cloud-platform-services-api
-artifact_total: 71
+artifact_total: 70
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Allianz Future Cloud Platform Services Deployments API
   slug: open-allianz-future-cloud-platform-deployments-api
@@ -90,37 +89,37 @@ collections:
   slug: open-allianz-future-cloud-platform-services-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/mcp/allianz-future-cloud-platform-mcp.yml
+  href: https://artifacts.apis.io/allianz-future-cloud-platform/mcp/allianz-future-cloud-platform-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/allianz-future-cloud-platform-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/overlays/allianz-future-cloud-platform-services-overlay.yaml
+  href: https://artifacts.apis.io/allianz-future-cloud-platform/overlays/allianz-future-cloud-platform-services-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/allianz-future-cloud-platform-services-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/agentic-access/allianz-future-cloud-platform-agentic-access.yml
+  href: https://artifacts.apis.io/allianz-future-cloud-platform/agentic-access/allianz-future-cloud-platform-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/allianz-future-cloud-platform-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/security/allianz-future-cloud-platform-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/allianz-future-cloud-platform/security/allianz-future-cloud-platform-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/allianz-future-cloud-platform-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/security/allianz-future-cloud-platform-domain-security.yml
+  href: https://artifacts.apis.io/allianz-future-cloud-platform/security/allianz-future-cloud-platform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/allianz-future-cloud-platform-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/authentication/allianz-future-cloud-platform-authentication.yml
+  href: https://artifacts.apis.io/allianz-future-cloud-platform/authentication/allianz-future-cloud-platform-authentication.yml
   title: ''
   type: Authentication
   url: authentication/allianz-future-cloud-platform-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/scopes/allianz-future-cloud-platform-scopes.yml
+  href: https://artifacts.apis.io/allianz-future-cloud-platform/scopes/allianz-future-cloud-platform-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/allianz-future-cloud-platform-scopes.yml
@@ -137,12 +136,12 @@ common:
   type: Documentation
   url: https://architecture.cncf.io/architectures/allianz/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/rules/allianz-future-cloud-platform-spectral-rules.yml
+  href: https://artifacts.apis.io/allianz-future-cloud-platform/rules/allianz-future-cloud-platform-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/allianz-future-cloud-platform-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/vocabulary/allianz-future-cloud-platform-vocabulary.yaml
+  href: https://artifacts.apis.io/allianz-future-cloud-platform/vocabulary/allianz-future-cloud-platform-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/allianz-future-cloud-platform-vocabulary.yaml
@@ -151,22 +150,22 @@ common:
   type: Blog
   url: https://www.allianz.com/en/press.html
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/packages/allianz-future-cloud-platform-packages.yml
+  href: https://artifacts.apis.io/allianz-future-cloud-platform/packages/allianz-future-cloud-platform-packages.yml
   title: ''
   type: Packages
   url: packages/allianz-future-cloud-platform-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/well-known/allianz-future-cloud-platform-well-known.yml
+  href: https://artifacts.apis.io/allianz-future-cloud-platform/well-known/allianz-future-cloud-platform-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/allianz-future-cloud-platform-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/llms/allianz-future-cloud-platform-llms.txt
+  href: https://artifacts.apis.io/allianz-future-cloud-platform/llms/allianz-future-cloud-platform-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/allianz-future-cloud-platform-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/lifecycle/allianz-future-cloud-platform-lifecycle.yml
+  href: https://artifacts.apis.io/allianz-future-cloud-platform/lifecycle/allianz-future-cloud-platform-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/allianz-future-cloud-platform-lifecycle.yml
@@ -327,7 +326,7 @@ overview: 'Allianz Future Cloud Platform is listed with 5 APIs on the [APIs.io](
 
 
   Allianz Future Cloud Platform''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
-random_paper: 5
+random_paper: 1
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -358,10 +357,10 @@ scopes:
   slug: allianz-future-cloud-platform-scopes
   summary_line: 6 scopes · clientCredentials
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 28.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 69.0
     catalog_earned_first_party: 0.0
     catalog_gap: 46.0
@@ -374,8 +373,8 @@ score:
     contract_quality: 30.5
     developer_ergonomics: 23.8
     discoverability: 71.4
-    operational_transparency: 5.3
-  previous_composite: 26.1
+    operational_transparency: 15.8
+  previous_composite: 28.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -391,13 +390,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 35.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/screenshots/allianz-future-cloud-platform-2026-07-25T195701.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/allianz-future-cloud-platform/allianz-future-cloud-platform-2026-07-25T195701.png
 security:
 - kind: authentication
   name: Allianz Future Cloud Platform Authentication

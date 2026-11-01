@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -89,9 +91,6 @@ apis:
 artifact_total: 23
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Azure AI Foundry Model Inference REST Chat Completions API
   slug: open-azure-ai-foundry-chat-completions-api
 - collection_type: open
@@ -111,12 +110,12 @@ collections:
   slug: open-azure-ai-foundry
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/plans/azure-ai-foundry-plans-pricing.yml
+  href: https://artifacts.apis.io/azure-ai-foundry/plans/azure-ai-foundry-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/azure-ai-foundry-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/capabilities/azure-ai-foundry-capability-edges.yml
+  href: https://artifacts.apis.io/azure-ai-foundry/capabilities/azure-ai-foundry-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/azure-ai-foundry-capability-edges.yml
@@ -145,27 +144,27 @@ common:
   type: MCPServer
   url: https://github.com/Azure/ai-foundry-isv-mcp-agent
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/agentic-access/azure-ai-foundry-agentic-access.yml
+  href: https://artifacts.apis.io/azure-ai-foundry/agentic-access/azure-ai-foundry-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/azure-ai-foundry-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/security/azure-ai-foundry-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/azure-ai-foundry/security/azure-ai-foundry-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/azure-ai-foundry-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/security/azure-ai-foundry-domain-security.yml
+  href: https://artifacts.apis.io/azure-ai-foundry/security/azure-ai-foundry-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/azure-ai-foundry-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/authentication/azure-ai-foundry-authentication.yml
+  href: https://artifacts.apis.io/azure-ai-foundry/authentication/azure-ai-foundry-authentication.yml
   title: ''
   type: Authentication
   url: authentication/azure-ai-foundry-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/scopes/azure-ai-foundry-scopes.yml
+  href: https://artifacts.apis.io/azure-ai-foundry/scopes/azure-ai-foundry-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/azure-ai-foundry-scopes.yml
@@ -199,6 +198,14 @@ common:
   url: https://azure.microsoft.com/en-us/blog/feed/atom/
 created: '2026-05-11'
 description: Microsoft Azure AI Foundry (formerly Azure AI Studio) is an end-to-end platform for building, optimizing, evaluating, and governing AI applications and agents at scale. It provides access to Foundry Models (including Azure OpenAI and open-source models), the Foundry Agent Service, content safety, observability, and responsible AI tooling. The Foundry REST APIs and Azure SDKs use Microsoft Entra ID OAuth 2.0 bearer tokens or API keys for authentication.
+finops:
+- has_sources: true
+  method: derived
+  name: Azure Ai Foundry Finops
+  primary_unit: ''
+  service_category: ''
+  slug: azure-ai-foundry-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/azure-ai-foundry.png
 layout: provider
 mcp_servers:
@@ -217,7 +224,7 @@ plans:
 - name: Azure Ai Foundry Plans Pricing
   plan_count: 0
   slug: azure-ai-foundry-plans-pricing
-random_paper: 12
+random_paper: 10
 scopes:
 - name: Azure Ai Foundry Scopes
   scope_count: 1
@@ -225,23 +232,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 43.0
+  composite: 43.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 38.4
     developer_ergonomics: 52.4
     discoverability: 78.3
-    operational_transparency: 18.4
-  previous_composite: 45.0
+    operational_transparency: 31.6
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -255,13 +262,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/screenshots/azure-ai-foundry-2026-06-20T172847.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/azure-ai-foundry/azure-ai-foundry-2026-06-20T172847.png
 security:
 - kind: authentication
   name: Azure Ai Foundry Authentication

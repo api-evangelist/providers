@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,24 +54,21 @@ apis:
 artifact_total: 6
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Uncovr Inference (V3, Backwards Compatible) Inference (V3, Backwards Compatible) Inference (V3, Backwards Compatible) API
   slug: open-uncovr-inference-v3-backwards-compatible-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/overlays/uncovr-api-overlay.yaml
+  href: https://artifacts.apis.io/uncovr/overlays/uncovr-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/uncovr-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/agentic-access/uncovr-agentic-access.yml
+  href: https://artifacts.apis.io/uncovr/agentic-access/uncovr-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/uncovr-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/authentication/uncovr-authentication.yml
+  href: https://artifacts.apis.io/uncovr/authentication/uncovr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uncovr-authentication.yml
@@ -78,17 +77,17 @@ common:
   type: Website
   url: https://www.uncovr.ai/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/llms/uncovr-llms.txt
+  href: https://artifacts.apis.io/uncovr/llms/uncovr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uncovr-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/well-known/uncovr-well-known.yml
+  href: https://artifacts.apis.io/uncovr/well-known/uncovr-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/uncovr-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/security/uncovr-domain-security.yml
+  href: https://artifacts.apis.io/uncovr/security/uncovr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uncovr-domain-security.yml
@@ -113,32 +112,32 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/uncovr-uncover/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/mcp/uncovr-mcp.yml
+  href: https://artifacts.apis.io/uncovr/mcp/uncovr-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/uncovr-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/errors/uncovr-problem-types.yml
+  href: https://artifacts.apis.io/uncovr/errors/uncovr-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/uncovr-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/conformance/uncovr-conformance.yml
+  href: https://artifacts.apis.io/uncovr/conformance/uncovr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uncovr-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/conventions/uncovr-conventions.yml
+  href: https://artifacts.apis.io/uncovr/conventions/uncovr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/uncovr-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/data-model/uncovr-data-model.yml
+  href: https://artifacts.apis.io/uncovr/data-model/uncovr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/uncovr-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/uncovr/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -154,7 +153,7 @@ overview: 'Uncovr publishes 1 API contract indexed on the [APIs.io](https://apis
 
 
   Uncovr''s developer surface includes authentication, support, and 16 more developer resources.'
-random_paper: 9
+random_paper: 21
 score:
   band: thin
   composite: 28.5
@@ -165,15 +164,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 42.2
     developer_ergonomics: 28.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 28.4
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -190,13 +189,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/screenshots/uncovr-2026-09-02T164853.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/uncovr/uncovr-2026-09-02T164853.png
 security:
 - kind: authentication
   name: Uncovr Authentication
@@ -206,6 +206,10 @@ security:
   name: Uncovr Domain Security
   slug: uncovr-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC
+skill_count: 1
+skills:
+- name: Generate an operative report from surgical embeddings
+  slug: uncovr-generate-operative-report
 slug: uncovr
 tags:
 - Company

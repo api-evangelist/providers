@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,56 +36,56 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of Aptera Motors' branded merchandise storefront at shop.aptera.us. It is a Model Context Protocol server (protocol 2025-06-18) answering anonymously at /api/mcp with
   name: Aptera Shop Storefront Agent Commerce API
   slug: aptera-shop-storefront-agent-commerce-api
-artifact_total: 5
+artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aptera-motors/refs/heads/main/security/aptera-motors-domain-security.yml
+  href: https://artifacts.apis.io/aptera-motors/security/aptera-motors-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aptera-motors-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aptera-motors/refs/heads/main/mcp/aptera-motors-mcp.yml
+  href: https://artifacts.apis.io/aptera-motors/mcp/aptera-motors-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aptera-motors-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aptera-motors/refs/heads/main/well-known/aptera-motors-well-known.yml
+  href: https://artifacts.apis.io/aptera-motors/well-known/aptera-motors-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aptera-motors-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aptera-motors/refs/heads/main/llms/aptera-motors-shop-llms.txt
+  href: https://artifacts.apis.io/aptera-motors/llms/aptera-motors-shop-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aptera-motors-shop-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aptera-motors/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/aptera-motors/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aptera-motors/refs/heads/main/authentication/aptera-motors-authentication.yml
+  href: https://artifacts.apis.io/aptera-motors/authentication/aptera-motors-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aptera-motors-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aptera-motors/refs/heads/main/scopes/aptera-motors-scopes.yml
+  href: https://artifacts.apis.io/aptera-motors/scopes/aptera-motors-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aptera-motors-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aptera-motors/refs/heads/main/conventions/aptera-motors-conventions.yml
+  href: https://artifacts.apis.io/aptera-motors/conventions/aptera-motors-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aptera-motors-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aptera-motors/refs/heads/main/conformance/aptera-motors-conformance.yml
+  href: https://artifacts.apis.io/aptera-motors/conformance/aptera-motors-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aptera-motors-conformance.yml
@@ -163,7 +165,7 @@ overview: 'Aptera Motors is listed with 1 API on the [APIs.io](https://apis.io/)
 
 
   Aptera Motors'' developer surface includes authentication, engineering blog, support, pricing, signup flow, and 19 more developer resources.'
-random_paper: 16
+random_paper: 14
 scopes:
 - name: Aptera Motors Scopes
   scope_count: 4
@@ -171,7 +173,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.3
+  composite: 24.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -181,13 +183,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 22.6
-    discoverability: 75.0
+    developer_ergonomics: 26.2
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 22.3
+  previous_composite: 24.4
   provenance:
     conformance: derived
     mcp: platform-generated
@@ -198,14 +200,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aptera-motors/refs/heads/main/screenshots/aptera-motors-2026-08-07T161526.png
+screenshot: https://apis.io/screenshots/aptera-motors/aptera-motors-2026-08-07T161526.png
 security:
 - kind: authentication
   name: Aptera Motors Authentication
@@ -215,6 +217,10 @@ security:
   name: Aptera Motors Domain Security
   slug: aptera-motors-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Search the Aptera store and build a cart
+  slug: aptera-motors-shop-catalog-and-cart
 slug: aptera-motors
 tags:
 - Company

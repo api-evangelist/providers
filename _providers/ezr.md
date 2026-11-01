@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The EZR 开放平台 integration surface — 236 documented interfaces across 11 business domains (base data, member master data, loyalty points, coupons, sales data, WeChat mall, external mall distribution, me
@@ -43,7 +45,7 @@ apis:
 - description: 'The KOS (Key Opinion Sales) open platform — EZR''s separate integration surface for guide/associate-led social selling, documented in its own developer guide with its own hosts. It uses the same AppId '
   name: EZR KOS Open Platform
   slug: ezr-kos-open-platform
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Ezr Webhooks
@@ -82,83 +84,91 @@ common:
   type: PrivacyPolicy
   url: http://www.ezrpro.com/privacy.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/authentication/ezr-authentication.yml
+  href: https://artifacts.apis.io/ezr/authentication/ezr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ezr-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/conventions/ezr-conventions.yml
+  href: https://artifacts.apis.io/ezr/conventions/ezr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ezr-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/errors/ezr-status-codes.yml
+  href: https://artifacts.apis.io/ezr/errors/ezr-status-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ezr-status-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/asyncapi/ezr-webhooks.yml
+  href: https://artifacts.apis.io/ezr/asyncapi/ezr-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ezr-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/data-model/ezr-data-model.yml
+  href: https://artifacts.apis.io/ezr/data-model/ezr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ezr-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/rate-limits/ezr-rate-limits.yml
+  href: https://artifacts.apis.io/ezr/rate-limits/ezr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ezr-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/plans/ezr-plans-pricing.yml
+  href: https://artifacts.apis.io/ezr/plans/ezr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ezr-plans-pricing.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/sandbox/ezr-sandbox.yml
+  href: https://artifacts.apis.io/ezr/sandbox/ezr-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ezr-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/lifecycle/ezr-lifecycle.yml
+  href: https://artifacts.apis.io/ezr/lifecycle/ezr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ezr-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/changelog/ezr-changelog.yml
+  href: https://artifacts.apis.io/ezr/changelog/ezr-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ezr-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ezr/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/packages/ezr-packages.yml
+  href: https://artifacts.apis.io/ezr/packages/ezr-packages.yml
   title: ''
   type: Packages
   url: packages/ezr-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/conformance/ezr-conformance.yml
+  href: https://artifacts.apis.io/ezr/conformance/ezr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ezr-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/security/ezr-domain-security.yml
+  href: https://artifacts.apis.io/ezr/security/ezr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ezr-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/llms/ezr-llms.txt
+  href: https://artifacts.apis.io/ezr/llms/ezr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ezr-llms.txt
 created: '2026-07-17'
 description: EZR (上海驿氪 / Shanghai EasyRetailPro) is a Shanghai-based retail marketing technology company founded in 2015 that builds SCRM and new-retail CRM software for multi-store and chain brands. Its platform combines a Marketing Cloud and in-store CRM to deliver omnichannel member management, WeChat mini-program malls, guide (导购) distribution and full-staff sales tools, live-streaming commerce, points malls, and campaign automation. EZR serves 800+ brands across fashion, beauty, home goods, food, and pharmacy, and is backed by Tencent, JD.com, DCM, and Lenovo Star. The EZR Open Platform (开放平台) at open.ezrpro.com publishes a reference for 236 interfaces across 11 business domains — stores and staff, member master data, loyalty points, coupons, sales receipts, WeChat mall, gift cards, messaging and third-party platform binding — of which 31 are EZR-to-integrator push callbacks. Every interface is an HTTP POST with a form-encoded, SHA1/MD5-signed envelope carrying the business payload
   as a JSON string; there is no OpenAPI, no OAuth, no versioning scheme and no self-service onboarding. EZR does publish a packaged Agent Skill for generating integration code.
+finops:
+- has_sources: true
+  method: derived
+  name: Ezr Finops
+  primary_unit: ''
+  service_category: ''
+  slug: ezr-finops
+  template: true
 image: https://www.ezrpro.com/public/icon.png
 layout: provider
 modified: '2026-08-13'
@@ -176,7 +186,7 @@ plans:
 - name: Ezr Plans Pricing
   plan_count: 0
   slug: ezr-plans-pricing
-random_paper: 7
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Ezr Rate Limits
@@ -185,13 +195,13 @@ score:
   band: developing
   composite: 39.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
@@ -206,7 +216,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 39.8
+  previous_composite: 39.9
   provenance:
     conformance: derived
     mcp: derived
@@ -217,14 +227,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/screenshots/ezr-2026-07-25T214058.png
+screenshot: https://apis.io/screenshots/ezr/ezr-2026-07-25T214058.png
 security:
 - kind: authentication
   name: Ezr Authentication
@@ -234,6 +244,10 @@ security:
   name: Ezr Domain Security
   slug: ezr-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 1
+skills:
+- name: ezr-openapi-creator
+  slug: ezr-openapi-creator
 slug: ezr
 tags:
 - Company

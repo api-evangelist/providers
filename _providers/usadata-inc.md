@@ -23,25 +23,27 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 7.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Publicly served SOAP 1.1 / 1.2 web service behind the USADATA Leads Portal and Leads Module. The WSDL is served anonymously from the production API host and declares 24 operations covering the full li
   name: USADATA Leads Engine Service (SOAP)
   slug: leads-engine
-artifact_total: 6
+artifact_total: 9
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/rate-limits/usadata-inc-rate-limits.yml
+  href: https://artifacts.apis.io/usadata-inc/rate-limits/usadata-inc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/usadata-inc-rate-limits.yml
@@ -50,47 +52,47 @@ common:
   type: BlogRSS
   url: https://www.usadata.com/resources/news?format=rss
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/security/usadata-inc-domain-security.yml
+  href: https://artifacts.apis.io/usadata-inc/security/usadata-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/usadata-inc-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/authentication/usadata-inc-authentication.yml
+  href: https://artifacts.apis.io/usadata-inc/authentication/usadata-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/usadata-inc-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/errors/usadata-inc-error-codes.yml
+  href: https://artifacts.apis.io/usadata-inc/errors/usadata-inc-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/usadata-inc-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/conventions/usadata-inc-conventions.yml
+  href: https://artifacts.apis.io/usadata-inc/conventions/usadata-inc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/usadata-inc-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/data-model/usadata-inc-data-model.yml
+  href: https://artifacts.apis.io/usadata-inc/data-model/usadata-inc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/usadata-inc-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/lifecycle/usadata-inc-lifecycle.yml
+  href: https://artifacts.apis.io/usadata-inc/lifecycle/usadata-inc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/usadata-inc-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/plans/usadata-inc-plans-pricing.yml
+  href: https://artifacts.apis.io/usadata-inc/plans/usadata-inc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/usadata-inc-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/mcp/usadata-inc-mcp.yml
+  href: https://artifacts.apis.io/usadata-inc/mcp/usadata-inc-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/usadata-inc-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/usadata-inc/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -139,22 +141,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/usadata
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/llms/usadata-inc-llms.txt
+  href: https://artifacts.apis.io/usadata-inc/llms/usadata-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/usadata-inc-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/conformance/usadata-inc-conformance.yml
+  href: https://artifacts.apis.io/usadata-inc/conformance/usadata-inc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/usadata-inc-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/components/usadata-inc-components.yml
+  href: https://artifacts.apis.io/usadata-inc/components/usadata-inc-components.yml
   title: ''
   type: Components
   url: components/usadata-inc-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/sandbox/usadata-inc-sandbox.yml
+  href: https://artifacts.apis.io/usadata-inc/sandbox/usadata-inc-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/usadata-inc-sandbox.yml
@@ -179,14 +181,14 @@ plans:
 - name: Usadata Inc Plans Pricing
   plan_count: 0
   slug: usadata-inc-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Usadata Inc Rate Limits
   slug: usadata-inc-rate-limits
 score:
-  band: thin
-  composite: 31.5
+  band: emerging
+  composite: 24.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -194,13 +196,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 24.0
+    contract_quality: 0.0
     developer_ergonomics: 35.1
-    discoverability: 73.2
+    discoverability: 65.0
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -209,7 +211,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 31.4
+  previous_composite: 24.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -226,14 +228,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/screenshots/usadata-inc-2026-09-02T165227.png
+screenshot: https://apis.io/screenshots/usadata-inc/usadata-inc-2026-09-02T165227.png
 security:
 - kind: authentication
   name: Usadata Inc Authentication
@@ -243,6 +245,14 @@ security:
   name: Usadata Inc Domain Security
   slug: usadata-inc-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Run large USADATA counts asynchronously
+  slug: usadata-inc-async-counts
+- name: Count and order a USADATA mailing list
+  slug: usadata-inc-count-and-order-a-list
+- name: Resolve USADATA geography and addresses
+  slug: usadata-inc-geography-and-address
 slug: usadata-inc
 tags:
 - Company

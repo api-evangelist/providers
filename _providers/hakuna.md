@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -95,11 +97,8 @@ apis:
   description: Users of the account
   name: Hakuna Users API
   slug: hakuna-users-api
-artifact_total: 25
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: hakuna Time Tracking Absences API
   slug: open-hakuna-absences-api
@@ -132,67 +131,67 @@ collections:
   slug: open-hakuna-users-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hakuna/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/overlays/hakuna-openapi-overlay.yaml
+  href: https://artifacts.apis.io/hakuna/overlays/hakuna-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hakuna-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/llms/hakuna-llms.txt
+  href: https://artifacts.apis.io/hakuna/llms/hakuna-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hakuna-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/conformance/hakuna-conformance.yml
+  href: https://artifacts.apis.io/hakuna/conformance/hakuna-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hakuna-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/mcp/hakuna-mcp.yml
+  href: https://artifacts.apis.io/hakuna/mcp/hakuna-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hakuna-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/data-model/hakuna-data-model.yml
+  href: https://artifacts.apis.io/hakuna/data-model/hakuna-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hakuna-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/lifecycle/hakuna-lifecycle.yml
+  href: https://artifacts.apis.io/hakuna/lifecycle/hakuna-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hakuna-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/errors/hakuna-problem-types.yml
+  href: https://artifacts.apis.io/hakuna/errors/hakuna-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hakuna-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/conventions/hakuna-conventions.yml
+  href: https://artifacts.apis.io/hakuna/conventions/hakuna-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hakuna-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/rate-limits/hakuna-rate-limits.yml
+  href: https://artifacts.apis.io/hakuna/rate-limits/hakuna-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hakuna-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/agentic-access/hakuna-agentic-access.yml
+  href: https://artifacts.apis.io/hakuna/agentic-access/hakuna-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hakuna-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/security/hakuna-domain-security.yml
+  href: https://artifacts.apis.io/hakuna/security/hakuna-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hakuna-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/authentication/hakuna-authentication.yml
+  href: https://artifacts.apis.io/hakuna/authentication/hakuna-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hakuna-authentication.yml
@@ -252,16 +251,16 @@ overview: 'Hakuna publishes 10 API contracts indexed on the [APIs.io](https://ap
 
 
   Hakuna''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 17 more developer resources.'
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Hakuna Rate Limits
   slug: hakuna-rate-limits
 score:
   band: thin
-  composite: 33.4
+  composite: 32.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -271,9 +270,9 @@ score:
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 17.2
+    contract_quality: 13.8
     developer_ergonomics: 47.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -283,7 +282,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 33.4
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -300,13 +299,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/screenshots/hakuna-2026-07-25T220533.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hakuna/hakuna-2026-07-25T220533.png
 security:
 - kind: authentication
   name: Hakuna Authentication
@@ -316,6 +316,12 @@ security:
   name: Hakuna Domain Security
   slug: hakuna-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Manage hakuna projects and clients
+  slug: hakuna-manage-projects
+- name: Track time with hakuna
+  slug: hakuna-track-time
 slug: hakuna
 tags:
 - Company

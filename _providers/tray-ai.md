@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 62.9
-  scored_at: '2026-10-17'
+  score: 56.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 6
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 105
   slug: tray-ai-agentic-access
   summary_line: 105 operations · 64 acting · 6 human-in-the-loop
-api_count: 6
+api_count: 4
 apis:
 - baseURL: https://tray.io/graphql
   baseurl_source: declared
@@ -384,7 +386,7 @@ apis:
     question: How do I let other users access a custom connector I deployed?
   phrasing_ops: 1
   slug: tray-ai-permissions-api
-artifact_total: 119
+artifact_total: 124
 asyncapis:
 - description: ''
   name: Tray Ai Webhooks
@@ -426,9 +428,6 @@ collections:
 - collection_type: postman
   name: Tray.ai Embedded Authentication Workspaces API
   slug: postman-tray-ai-workspaces-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tray.ai Embedded Authentication API
   slug: open-tray-ai-authentication-api
@@ -473,27 +472,27 @@ collections:
   slug: open-tray-ai-workspaces-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/plans/tray-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/tray-ai/plans/tray-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tray-ai-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/rules/tray-ai-rules.yml
+  href: https://artifacts.apis.io/tray-ai/rules/tray-ai-rules.yml
   title: ''
   type: Spectral
   url: rules/tray-ai-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/rules/tray-ai-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/tray-ai/rules/tray-ai-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/tray-ai-jsonschema-spectral-rules.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/hosts/tray-ai-hosts.yml
+  href: https://artifacts.apis.io/tray-ai/hosts/tray-ai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/tray-ai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/vendors/tray-ai-vendors.yml
+  href: https://artifacts.apis.io/tray-ai/vendors/tray-ai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/tray-ai-vendors.yml
@@ -506,22 +505,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/trayai/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/agentic-access/tray-ai-agentic-access.yml
+  href: https://artifacts.apis.io/tray-ai/agentic-access/tray-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tray-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/security/tray-ai-trust-center.yml
+  href: https://artifacts.apis.io/tray-ai/security/tray-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tray-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/security/tray-ai-domain-security.yml
+  href: https://artifacts.apis.io/tray-ai/security/tray-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tray-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/authentication/tray-ai-authentication.yml
+  href: https://artifacts.apis.io/tray-ai/authentication/tray-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tray-ai-authentication.yml
@@ -534,7 +533,7 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/tray-ai
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/vocabulary/tray-ai-vocabulary.yml
+  href: https://artifacts.apis.io/tray-ai/vocabulary/tray-ai-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tray-ai-vocabulary.yml
@@ -543,17 +542,17 @@ common:
   type: Plans
   url: https://tray.ai/packages
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/plans/tray-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/tray-ai/plans/tray-ai-plans-pricing.yml
   title: ''
   type: PlansSpec
   url: plans/tray-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/rate-limits/tray-ai-rate-limits.yml
+  href: https://artifacts.apis.io/tray-ai/rate-limits/tray-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tray-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/finops/tray-ai-finops.yml
+  href: https://artifacts.apis.io/tray-ai/finops/tray-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/tray-ai-finops.yml
@@ -658,7 +657,7 @@ common:
   type: LlmsText
   url: https://tray.ai/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/llms/tray-ai-llms.txt
+  href: https://artifacts.apis.io/tray-ai/llms/tray-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tray-ai-llms.txt
@@ -695,72 +694,72 @@ common:
   type: Pricing
   url: https://tray.ai/pricing
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/packages/tray-ai-packages.yml
+  href: https://artifacts.apis.io/tray-ai/packages/tray-ai-packages.yml
   title: ''
   type: Packages
   url: packages/tray-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/packages/tray-ai-packages.yml
+  href: https://artifacts.apis.io/tray-ai/packages/tray-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/tray-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/cli/tray-ai-cli.yml
+  href: https://artifacts.apis.io/tray-ai/cli/tray-ai-cli.yml
   title: ''
   type: CLI
   url: cli/tray-ai-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/components/tray-ai-components.yml
+  href: https://artifacts.apis.io/tray-ai/components/tray-ai-components.yml
   title: ''
   type: Components
   url: components/tray-ai-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/mcp/tray-ai-mcp.yml
+  href: https://artifacts.apis.io/tray-ai/mcp/tray-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tray-ai-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/mcp/tray-ai-tool-crosswalk.yml
+  href: https://artifacts.apis.io/tray-ai/mcp/tray-ai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tray-ai-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tray-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/well-known/tray-ai-well-known.yml
+  href: https://artifacts.apis.io/tray-ai/well-known/tray-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tray-ai-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/scopes/tray-ai-scopes.yml
+  href: https://artifacts.apis.io/tray-ai/scopes/tray-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tray-ai-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/conventions/tray-ai-conventions.yml
+  href: https://artifacts.apis.io/tray-ai/conventions/tray-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tray-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/errors/tray-ai-problem-types.yml
+  href: https://artifacts.apis.io/tray-ai/errors/tray-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tray-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/data-model/tray-ai-data-model.yml
+  href: https://artifacts.apis.io/tray-ai/data-model/tray-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tray-ai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/asyncapi/tray-ai-webhooks.yml
+  href: https://artifacts.apis.io/tray-ai/asyncapi/tray-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tray-ai-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/lifecycle/tray-ai-lifecycle.yml
+  href: https://artifacts.apis.io/tray-ai/lifecycle/tray-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tray-ai-lifecycle.yml
@@ -769,7 +768,7 @@ common:
   type: Deprecation
   url: https://tray.ai/documentation/releases/deprecations/connector-builder-deprecation
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/changelog/tray-ai-changelog.yml
+  href: https://artifacts.apis.io/tray-ai/changelog/tray-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tray-ai-changelog.yml
@@ -778,27 +777,27 @@ common:
   type: ReleaseNotes
   url: https://tray.ai/documentation/releases
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/conformance/tray-ai-conformance.yml
+  href: https://artifacts.apis.io/tray-ai/conformance/tray-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tray-ai-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/security/tray-ai-trust-center.yml
+  href: https://artifacts.apis.io/tray-ai/security/tray-ai-trust-center.yml
   title: ''
   type: Compliance
   url: security/tray-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/security/tray-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tray-ai/security/tray-ai-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/tray-ai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/security/tray-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tray-ai/security/tray-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tray-ai-vulnerability-disclosure.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/capabilities/tray-ai-capability-edges.yml
+  href: https://artifacts.apis.io/tray-ai/capabilities/tray-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tray-ai-capability-edges.yml
@@ -851,13 +850,13 @@ features:
 - name: In-App Support
 - name: Dedicated Slack Channel
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Tray Ai Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: tray-ai-finops
-  template: true
+  template: false
 graphqls:
 - description: The Tray.ai Embedded API is a GraphQL-based API that allows partners and customers to present in-app embedded integration experiences. It provides programmatic access to manage users, solutions, solut
   name: Tray.ai GraphQL API
@@ -945,9 +944,12 @@ overview: 'Tray.ai publishes 15 API contracts indexed on the [APIs.io](https://a
   Tray.ai''s developer surface includes authentication, engineering blog, developer portal, code examples, tooling, documentation, API reference, and 66 more developer resources.'
 plans:
 - name: Tray Ai Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: tray-ai-plans-pricing
-random_paper: 13
+- name: Tray Ai Price Estimates
+  plan_count: 0
+  slug: tray-ai-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 7
   name: Tray Ai Rate Limits
@@ -983,23 +985,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: exemplar
-  composite: 87.8
+  composite: 87.3
   coverage:
     artifact_dirs: 40
-    catalog_earned: 90.0
+    catalog_earned: 93.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 25.0
+    catalog_gap: 22.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 45.5
-    contract_quality: 75.3
+    contract_quality: 75.1
     developer_ergonomics: 92.1
-    discoverability: 81.7
-    operational_transparency: 92.1
-  previous_composite: 89.3
+    discoverability: 78.3
+    operational_transparency: 94.7
+  previous_composite: 85.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1016,13 +1018,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/screenshots/tray-ai-2026-06-20T195639.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tray-ai/tray-ai-2026-06-20T195639.png
 security:
 - kind: authentication
   name: Tray Ai Authentication
@@ -1040,6 +1043,18 @@ security:
   name: Tray Ai Trust Center
   slug: tray-ai-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
+skill_count: 5
+skills:
+- name: tray-ai-call-connector-for-an-end-user
+  slug: tray-ai-call-connector-for-an-end-user
+- name: tray-ai-connect-an-agent-over-mcp
+  slug: tray-ai-connect-an-agent-over-mcp
+- name: tray-ai-embedded-end-user-onboarding
+  slug: tray-ai-embedded-end-user-onboarding
+- name: tray-ai-promote-a-project-between-environments
+  slug: tray-ai-promote-a-project-between-environments
+- name: tray-ai-subscribe-to-trigger-events
+  slug: tray-ai-subscribe-to-trigger-events
 slug: tray-ai
 tags:
 - Automation

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,11 +55,8 @@ apis:
   description: Web-based management interface for documentation sources, library browsing, job monitoring, and search.
   name: Grounded.tools Web UI API
   slug: grounded-tools-web-ui-api
-artifact_total: 17
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: grounded.tools Docs MCP Server API
   slug: open-grounded-tools-docs-mcp-server
@@ -69,17 +68,17 @@ collections:
   slug: open-grounded-tools-web-ui-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/plans/grounded-tools-plans-pricing.yml
+  href: https://artifacts.apis.io/grounded-tools/plans/grounded-tools-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/grounded-tools-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/rate-limits/grounded-tools-rate-limits.yml
+  href: https://artifacts.apis.io/grounded-tools/rate-limits/grounded-tools-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/grounded-tools-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/finops/grounded-tools-finops.yml
+  href: https://artifacts.apis.io/grounded-tools/finops/grounded-tools-finops.yml
   title: ''
   type: FinOps
   url: finops/grounded-tools-finops.yml
@@ -100,12 +99,12 @@ common:
   type: License
   url: https://github.com/arabold/docs-mcp-server/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/agentic-access/grounded-tools-agentic-access.yml
+  href: https://artifacts.apis.io/grounded-tools/agentic-access/grounded-tools-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/grounded-tools-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/security/grounded-tools-domain-security.yml
+  href: https://artifacts.apis.io/grounded-tools/security/grounded-tools-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/grounded-tools-domain-security.yml
@@ -119,7 +118,7 @@ finops:
 - has_sources: false
   method: generated
   name: Grounded Tools Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: grounded-tools-finops
   template: true
@@ -155,7 +154,7 @@ plans:
 - name: Grounded Tools Plans Pricing
   plan_count: 3
   slug: grounded-tools-plans-pricing
-random_paper: 10
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Grounded Tools Rate Limits
@@ -174,7 +173,7 @@ rules:
   slug: grounded-tools-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 24.9
+  composite: 23.0
   coverage:
     artifact_dirs: 12
     catalog_earned: 50.3
@@ -182,7 +181,7 @@ score:
     catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
@@ -190,10 +189,7 @@ score:
     developer_ergonomics: 0.0
     discoverability: 48.2
     operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 26.3
+  previous_composite: 23.0
   provenance:
     agentic_access: derived
     contracts:
@@ -207,13 +203,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/screenshots/grounded-tools-2026-06-20T182414.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/grounded-tools/grounded-tools-2026-06-20T182414.png
 security:
 - kind: domain-security
   name: Grounded Tools Domain Security

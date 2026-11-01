@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 34.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 38
   slug: 1factory-agentic-access
   summary_line: 38 operations · 8 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://www.1factory.com/api/v1
   baseurl_source: declared
@@ -80,11 +82,8 @@ apis:
   description: Work Orders define a list of current work order primary & secondary identifiers that may be used as identifiers on Inspections & FAIs.
   name: 1Factory Work Orders API
   slug: 1factory-work-orders-api
-artifact_total: 226
+artifact_total: 225
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 1Factory Customers API
   slug: open-1factory-customers-api
@@ -110,33 +109,37 @@ collections:
   name: 1Factory API
   slug: open-1factory
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/1factory/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/plans/1factory-plans-pricing.yml
+  href: https://artifacts.apis.io/1factory/plans/1factory-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/1factory-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/finops/1factory-finops.yml
+  href: https://artifacts.apis.io/1factory/finops/1factory-finops.yml
   title: ''
   type: FinOps
   url: finops/1factory-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/capabilities/1factory-capability-edges.yml
+  href: https://artifacts.apis.io/1factory/capabilities/1factory-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/1factory-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/agentic-access/1factory-agentic-access.yml
+  href: https://artifacts.apis.io/1factory/agentic-access/1factory-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/1factory-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/security/1factory-domain-security.yml
+  href: https://artifacts.apis.io/1factory/security/1factory-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/1factory-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/authentication/1factory-authentication.yml
+  href: https://artifacts.apis.io/1factory/authentication/1factory-authentication.yml
   title: ''
   type: Authentication
   url: authentication/1factory-authentication.yml
@@ -169,17 +172,17 @@ common:
   type: RateLimits
   url: https://www.1factory.com/api-doc/index.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/rules/1factory-spectral-rules.yml
+  href: https://artifacts.apis.io/1factory/rules/1factory-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/1factory-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/vocabulary/1factory-vocabulary.yaml
+  href: https://artifacts.apis.io/1factory/vocabulary/1factory-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/1factory-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/json-ld/1factory-context.jsonld
+  href: https://artifacts.apis.io/1factory/json-ld/1factory-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/1factory-context.jsonld
@@ -391,7 +394,7 @@ finops:
 - has_sources: false
   method: generated
   name: 1Factory Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: 1factory-finops
   template: true
@@ -793,7 +796,7 @@ overview: '1Factory publishes 7 API contracts indexed on the [APIs.io](https://a
   The 1Factory catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  1Factory''s developer surface includes authentication, documentation, support, and 13 more developer resources.'
+  1Factory''s developer surface includes authentication, documentation, support, and 14 more developer resources.'
 plans:
 - name: 1Factory Plans Pricing
   plan_count: 3
@@ -828,7 +831,7 @@ rules:
   slug: 1factory-spectral-rules
 score:
   band: thin
-  composite: 36.2
+  composite: 38.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 72.0
@@ -836,15 +839,15 @@ score:
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.3
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 66.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 27.4
     discoverability: 66.1
     operational_transparency: 18.4
-  previous_composite: 37.7
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -857,14 +860,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 20.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/screenshots/1factory-2026-06-20T162434.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/1factory/1factory-2026-06-20T162434.png
 security:
 - kind: authentication
   name: 1Factory Authentication

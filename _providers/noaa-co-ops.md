@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-17'
+  score: 18.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -107,11 +109,8 @@ apis:
   description: The Toptenwaterlevels API from NOAA CO-OPS — 1 operation(s) for toptenwaterlevels.
   name: NOAA CO-OPS Toptenwaterlevels API
   slug: noaa-co-ops-toptenwaterlevels-api
-artifact_total: 37
+artifact_total: 36
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NOAA CO-OPS Data Retrieval Benchmarks API
   slug: open-noaa-co-ops-benchmarks-api
@@ -157,12 +156,12 @@ common:
   type: Website
   url: https://www.noaa.gov/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/agentic-access/noaa-co-ops-agentic-access.yml
+  href: https://artifacts.apis.io/noaa-co-ops/agentic-access/noaa-co-ops-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/noaa-co-ops-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/security/noaa-co-ops-domain-security.yml
+  href: https://artifacts.apis.io/noaa-co-ops/security/noaa-co-ops-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/noaa-co-ops-domain-security.yml
@@ -191,52 +190,52 @@ common:
   type: StatusPage
   url: https://tidesandcurrents.noaa.gov/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/json-schema/data-point.json
+  href: https://artifacts.apis.io/noaa-co-ops/json-schema/data-point.json
   title: ''
   type: JSONSchema
   url: /json-schema/data-point.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/json-schema/station.json
+  href: https://artifacts.apis.io/noaa-co-ops/json-schema/station.json
   title: ''
   type: JSONSchema
   url: /json-schema/station.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/examples/water-level-request.json
+  href: https://artifacts.apis.io/noaa-co-ops/examples/water-level-request.json
   title: ''
   type: Examples
   url: /examples/water-level-request.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/examples/water-level-response.json
+  href: https://artifacts.apis.io/noaa-co-ops/examples/water-level-response.json
   title: ''
   type: Examples
   url: /examples/water-level-response.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/examples/tide-predictions-request.json
+  href: https://artifacts.apis.io/noaa-co-ops/examples/tide-predictions-request.json
   title: ''
   type: Examples
   url: /examples/tide-predictions-request.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/examples/station-metadata-response.json
+  href: https://artifacts.apis.io/noaa-co-ops/examples/station-metadata-response.json
   title: ''
   type: Examples
   url: /examples/station-metadata-response.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/examples/sea-level-trend-response.json
+  href: https://artifacts.apis.io/noaa-co-ops/examples/sea-level-trend-response.json
   title: ''
   type: Examples
   url: /examples/sea-level-trend-response.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/vocabulary/vocabulary.json
+  href: https://artifacts.apis.io/noaa-co-ops/vocabulary/vocabulary.json
   title: ''
   type: Vocabulary
   url: /vocabulary/vocabulary.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/json-ld/context.json
+  href: https://artifacts.apis.io/noaa-co-ops/json-ld/context.json
   title: ''
   type: JSONLDContext
   url: /json-ld/context.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/json-ld/station.json
+  href: https://artifacts.apis.io/noaa-co-ops/json-ld/station.json
   title: ''
   type: JSONLD
   url: /json-ld/station.json
@@ -278,7 +277,7 @@ overview: 'NOAA CO-OPS publishes 13 API contracts indexed on the [APIs.io](https
 
 
   NOAA CO-OPS''s developer surface includes developer portal, documentation, code examples, and 16 more developer resources.'
-random_paper: 19
+random_paper: 21
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -293,7 +292,7 @@ rules:
   slug: noaa-co-ops-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.6
+  composite: 33.3
   coverage:
     artifact_dirs: 14
     catalog_earned: 47.8
@@ -301,15 +300,15 @@ score:
     catalog_gap: 67.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 21.1
     contract_governance: 23.5
     contract_quality: 47.2
     developer_ergonomics: 19.0
     discoverability: 78.6
     operational_transparency: 15.8
-  previous_composite: 30.7
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -322,15 +321,15 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/screenshots/noaa-co-ops-2026-06-20T190339.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/noaa-co-ops/noaa-co-ops-2026-06-20T190339.png
 security:
 - kind: domain-security
   name: Noaa Co Ops Domain Security

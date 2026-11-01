@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Allbirds's agent-facing commerce API, implemented via the Shopify Universal Commerce Protocol (UCP) over MCP. Agents can search the catalog, manage a cart, read store policies/FAQs, and drive a buyer-
@@ -46,37 +48,37 @@ common:
   type: Website
   url: https://www.allbirds.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allbirds/refs/heads/main/mcp/allbirds-mcp.yml
+  href: https://artifacts.apis.io/allbirds/mcp/allbirds-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/allbirds-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allbirds/refs/heads/main/llms/allbirds-llms.txt
+  href: https://artifacts.apis.io/allbirds/llms/allbirds-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/allbirds-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allbirds/refs/heads/main/well-known/allbirds-well-known.yml
+  href: https://artifacts.apis.io/allbirds/well-known/allbirds-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/allbirds-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allbirds/refs/heads/main/authentication/allbirds-authentication.yml
+  href: https://artifacts.apis.io/allbirds/authentication/allbirds-authentication.yml
   title: ''
   type: Authentication
   url: authentication/allbirds-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allbirds/refs/heads/main/scopes/allbirds-scopes.yml
+  href: https://artifacts.apis.io/allbirds/scopes/allbirds-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/allbirds-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allbirds/refs/heads/main/conformance/allbirds-conformance.yml
+  href: https://artifacts.apis.io/allbirds/conformance/allbirds-conformance.yml
   title: ''
   type: Conformance
   url: conformance/allbirds-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allbirds/refs/heads/main/security/allbirds-domain-security.yml
+  href: https://artifacts.apis.io/allbirds/security/allbirds-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/allbirds-domain-security.yml
@@ -112,7 +114,7 @@ overview: 'Allbirds is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Allbirds'' developer surface includes authentication, support, engineering blog, and 9 more developer resources.'
-random_paper: 9
+random_paper: 5
 scopes:
 - name: Allbirds Scopes
   scope_count: 4
@@ -120,7 +122,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.6
+  composite: 20.3
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -128,15 +130,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.0
+    discoverability: 71.7
     operational_transparency: 0.0
-  previous_composite: 20.5
+  previous_composite: 20.3
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -146,14 +148,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/allbirds/refs/heads/main/screenshots/allbirds-2026-08-07T161217.png
+screenshot: https://apis.io/screenshots/allbirds/allbirds-2026-08-07T161217.png
 security:
 - kind: authentication
   name: Allbirds Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: pvfactors is an open-source Python library for modeling diffuse shading and bifacial photovoltaic (PV) irradiance. It implements 2D geometry and view-factor mathematics to account for reflections betw
@@ -48,22 +50,22 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sunpower/refs/heads/main/plans/sunpower-plans-pricing.yml
+  href: https://artifacts.apis.io/sunpower/plans/sunpower-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sunpower-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sunpower/refs/heads/main/rate-limits/sunpower-rate-limits.yml
+  href: https://artifacts.apis.io/sunpower/rate-limits/sunpower-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sunpower-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sunpower/refs/heads/main/finops/sunpower-finops.yml
+  href: https://artifacts.apis.io/sunpower/finops/sunpower-finops.yml
   title: ''
   type: FinOps
   url: finops/sunpower-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sunpower/refs/heads/main/security/sunpower-domain-security.yml
+  href: https://artifacts.apis.io/sunpower/security/sunpower-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sunpower-domain-security.yml
@@ -89,7 +91,7 @@ finops:
 - has_sources: false
   method: generated
   name: Sunpower Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: sunpower-finops
   template: true
@@ -123,14 +125,14 @@ press:
 - date: ''
   title: SunPower Adds $5M to Recent $41M Offering
   url: https://natlawreview.com/press-releases/sunpower-adds-5m-recent-41m-offering
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Sunpower Rate Limits
   slug: sunpower-rate-limits
 score:
   band: minimal
-  composite: 10.3
+  composite: 10.7
   coverage:
     artifact_dirs: 10
     catalog_earned: 41.0
@@ -138,29 +140,29 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 62.5
-    operational_transparency: 10.5
-  previous_composite: 11.9
+    operational_transparency: 13.2
+  previous_composite: 10.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sunpower/refs/heads/main/screenshots/sunpower-2026-06-20T194655.png
+screenshot: https://apis.io/screenshots/sunpower/sunpower-2026-06-20T194655.png
 security:
 - kind: domain-security
   name: Sunpower Domain Security

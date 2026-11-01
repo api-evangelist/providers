@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 24.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.emergetools.com/
@@ -87,11 +89,8 @@ apis:
   description: The UploadFromLink API from Emerge Tools — 1 operation(s) for uploadfromlink.
   name: Emerge Tools UploadFromLink API
   slug: emerge-tools-uploadfromlink-api
-artifact_total: 25
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Emerge Analysis API
   slug: open-emerge-tools-analysis-api
@@ -123,17 +122,22 @@ collections:
   name: Emerge Analysis UploadFromLink API
   slug: open-emerge-tools-uploadfromlink-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/emerge-tools/plans/emerge-tools-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/emerge-tools-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.emergetools.com/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/capabilities/emerge-tools-capability-edges.yml
+  href: https://artifacts.apis.io/emerge-tools/capabilities/emerge-tools-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/emerge-tools-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/overlays/emerge-tools-openapi-overlay.yaml
+  href: https://artifacts.apis.io/emerge-tools/overlays/emerge-tools-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emerge-tools-openapi-overlay.yaml
@@ -182,17 +186,17 @@ common:
   type: PrivacyPolicy
   url: https://www.emergetools.com/Emerge-Tools-Privacy-Policy-03_10_2024.pdf
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/authentication/emerge-tools-authentication.yml
+  href: https://artifacts.apis.io/emerge-tools/authentication/emerge-tools-authentication.yml
   title: ''
   type: Authentication
   url: authentication/emerge-tools-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/security/emerge-tools-domain-security.yml
+  href: https://artifacts.apis.io/emerge-tools/security/emerge-tools-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/emerge-tools-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/security/emerge-tools-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/emerge-tools/security/emerge-tools-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/emerge-tools-vulnerability-disclosure.yml
@@ -201,7 +205,7 @@ common:
   type: Security
   url: https://www.emergetools.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/security/emerge-tools-trust-center.yml
+  href: https://artifacts.apis.io/emerge-tools/security/emerge-tools-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/emerge-tools-trust-center.yml
@@ -210,62 +214,70 @@ common:
   type: Compliance
   url: https://www.emergetools.com/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/conformance/emerge-tools-conformance.yml
+  href: https://artifacts.apis.io/emerge-tools/conformance/emerge-tools-conformance.yml
   title: ''
   type: Conformance
   url: conformance/emerge-tools-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/packages/emerge-tools-packages.yml
+  href: https://artifacts.apis.io/emerge-tools/packages/emerge-tools-packages.yml
   title: ''
   type: Packages
   url: packages/emerge-tools-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/packages/emerge-tools-packages.yml
+  href: https://artifacts.apis.io/emerge-tools/packages/emerge-tools-packages.yml
   title: ''
   type: SDKs
   url: packages/emerge-tools-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/cli/emerge-tools-cli.yml
+  href: https://artifacts.apis.io/emerge-tools/cli/emerge-tools-cli.yml
   title: ''
   type: CLI
   url: cli/emerge-tools-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/conventions/emerge-tools-conventions.yml
+  href: https://artifacts.apis.io/emerge-tools/conventions/emerge-tools-conventions.yml
   title: ''
   type: Conventions
   url: conventions/emerge-tools-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/lifecycle/emerge-tools-lifecycle.yml
+  href: https://artifacts.apis.io/emerge-tools/lifecycle/emerge-tools-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/emerge-tools-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/lifecycle/emerge-tools-lifecycle.yml
+  href: https://artifacts.apis.io/emerge-tools/lifecycle/emerge-tools-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/emerge-tools-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/llms/emerge-tools-llms.txt
+  href: https://artifacts.apis.io/emerge-tools/llms/emerge-tools-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/emerge-tools-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/well-known/emerge-tools-well-known.yml
+  href: https://artifacts.apis.io/emerge-tools/well-known/emerge-tools-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/emerge-tools-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/mcp/emerge-tools-mcp.yml
+  href: https://artifacts.apis.io/emerge-tools/mcp/emerge-tools-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/emerge-tools-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/emerge-tools/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Emerge Tools is a mobile developer-tools platform used by teams at DoorDash, Square, and Duolingo to ship faster, smaller, better-performing iOS and Android apps. Its products include Size Analysis (monitor and reduce app size with PR alerts and competitor benchmarking), Snapshots (visual regression testing for SwiftUI and Jetpack Compose), Build Distribution (share iOS/Android builds via QR or web), Reaper (runtime dead-code detection), Launch Booster (order-file startup optimization), and Performance testing. The Emerge API (OpenAPI 3.1.0, api.emergetools.com) exposes build upload, size/PR analysis, snapshot comparison, performance results, and Reaper dead-code export, authenticated with an X-API-Token key. Emerge is joining Sentry.
+finops:
+- has_sources: true
+  method: derived
+  name: Emerge Tools Finops
+  primary_unit: ''
+  service_category: ''
+  slug: emerge-tools-finops
+  template: true
 image: https://emergeassets.s3.us-west-1.amazonaws.com/seo/default-seo.png
 layout: provider
 modified: '2026-10-06'
@@ -275,27 +287,31 @@ network: true
 overview: 'Emerge Tools publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analysis API, AppHistory API, BuildDetails API, and 7 more. Tagged areas include Company, B2B, Mobile, Developer Tools, and App Performance.
 
 
-  Emerge Tools'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 24 more developer resources.'
-random_paper: 3
+  Emerge Tools'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 25 more developer resources.'
+plans:
+- name: Emerge Tools Plans Pricing
+  plan_count: 3
+  slug: emerge-tools-plans-pricing
+random_paper: 11
 score:
-  band: developing
-  composite: 46.8
+  band: strong
+  composite: 58.6
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 53.9
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 46.4
-    developer_ergonomics: 49.4
-    discoverability: 73.2
-    operational_transparency: 21.1
-  previous_composite: 46.8
+    developer_ergonomics: 68.5
+    discoverability: 66.1
+    operational_transparency: 23.7
+  previous_composite: 52.3
   provenance:
     conformance: first-party
     contracts:
@@ -311,13 +327,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/screenshots/emerge-tools-2026-07-25T213232.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/emerge-tools/emerge-tools-2026-07-25T213232.png
 security:
 - kind: authentication
   name: Emerge Tools Authentication
@@ -335,6 +352,12 @@ security:
   name: Emerge Tools Trust Center
   slug: emerge-tools-trust-center
   summary_line: SOC 2 Type 1
+skill_count: 2
+skills:
+- name: Review snapshot differences in a PR
+  slug: emerge-tools-review-snapshot-diffs
+- name: Upload a build and read its size analysis
+  slug: emerge-tools-upload-and-analyze-build
 slug: emerge-tools
 tags:
 - Company

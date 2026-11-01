@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 30.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -97,7 +99,7 @@ arazzos:
 - description: Pull a last-7-days performance report for an ad account, list its campaigns, and pause a chosen campaign by toggling its status to OFF. Read-only steps are safe to retry; the status toggle is not idem
   name: Report on a NewsBreak ad account and pause underperforming campaigns
   slug: news-break-pause-and-report
-artifact_total: 17
+artifact_total: 20
 collections:
 - collection_type: open
   name: NewsBreak Advertising API
@@ -111,27 +113,27 @@ common:
   type: BlogRSS
   url: https://www.newsbreak.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/capabilities/news-break-capability-edges.yml
+  href: https://artifacts.apis.io/news-break/capabilities/news-break-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/news-break-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/overlays/news-break-advertising-overlay.yaml
+  href: https://artifacts.apis.io/news-break/overlays/news-break-advertising-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/news-break-advertising-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/overlays/news-break-monetization-reporting-overlay.yaml
+  href: https://artifacts.apis.io/news-break/overlays/news-break-monetization-reporting-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/news-break-monetization-reporting-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/agentic-access/news-break-agentic-access.yml
+  href: https://artifacts.apis.io/news-break/agentic-access/news-break-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/news-break-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/security/news-break-domain-security.yml
+  href: https://artifacts.apis.io/news-break/security/news-break-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/news-break-domain-security.yml
@@ -184,72 +186,72 @@ common:
   type: PrivacyPolicy
   url: https://www.newsbreak.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/authentication/news-break-authentication.yml
+  href: https://artifacts.apis.io/news-break/authentication/news-break-authentication.yml
   title: ''
   type: Authentication
   url: authentication/news-break-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/rate-limits/news-break-rate-limits.yml
+  href: https://artifacts.apis.io/news-break/rate-limits/news-break-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/news-break-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/errors/news-break-problem-types.yml
+  href: https://artifacts.apis.io/news-break/errors/news-break-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/news-break-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/conventions/news-break-conventions.yml
+  href: https://artifacts.apis.io/news-break/conventions/news-break-conventions.yml
   title: ''
   type: Conventions
   url: conventions/news-break-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/data-model/news-break-data-model.yml
+  href: https://artifacts.apis.io/news-break/data-model/news-break-data-model.yml
   title: ''
   type: DataModel
   url: data-model/news-break-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/lifecycle/news-break-lifecycle.yml
+  href: https://artifacts.apis.io/news-break/lifecycle/news-break-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/news-break-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/changelog/news-break-changelog.yml
+  href: https://artifacts.apis.io/news-break/changelog/news-break-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/news-break-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/conformance/news-break-conformance.yml
+  href: https://artifacts.apis.io/news-break/conformance/news-break-conformance.yml
   title: ''
   type: Conformance
   url: conformance/news-break-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/well-known/news-break-well-known.yml
+  href: https://artifacts.apis.io/news-break/well-known/news-break-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/news-break-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/llms/news-break-llms.txt
+  href: https://artifacts.apis.io/news-break/llms/news-break-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/news-break-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/news-break/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/mcp/news-break-mcp.yml
+  href: https://artifacts.apis.io/news-break/mcp/news-break-mcp.yml
   title: ''
   type: MCPCandidate
   url: mcp/news-break-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/arazzo/news-break-launch-campaign.yml
+  href: https://artifacts.apis.io/news-break/arazzo/news-break-launch-campaign.yml
   title: ''
   type: Arazzo
   url: arazzo/news-break-launch-campaign.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/arazzo/news-break-pause-and-report.yml
+  href: https://artifacts.apis.io/news-break/arazzo/news-break-pause-and-report.yml
   title: ''
   type: Arazzo
   url: arazzo/news-break-pause-and-report.yml
@@ -266,7 +268,7 @@ overview: 'News Break publishes 9 API contracts indexed on the [APIs.io](https:/
 
 
   News Break''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 17
+random_paper: 23
 rate_limits:
 - limit_count: 9
   name: News Break Rate Limits
@@ -281,15 +283,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 52.5
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 47.4
-  previous_composite: 46.4
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -306,13 +308,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/screenshots/news-break-2026-08-07T185122.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/news-break/news-break-2026-08-07T185122.png
 security:
 - kind: authentication
   name: News Break Authentication
@@ -322,6 +325,14 @@ security:
   name: News Break Domain Security
   slug: news-break-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Launch a NewsBreak advertising campaign
+  slug: news-break-launch-a-campaign
+- name: Manage NewsBreak ad accounts, users and spending caps
+  slug: news-break-manage-accounts-and-budgets
+- name: Report on NewsBreak ad performance
+  slug: news-break-report-on-performance
 slug: news-break
 tags:
 - Company

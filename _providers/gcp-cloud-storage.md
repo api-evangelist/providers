@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.1
-  scored_at: '2026-10-17'
+  score: 33.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 13
@@ -72,7 +74,7 @@ apis:
   description: Operations for managing objects within Cloud Storage buckets
   name: Google Cloud Storage Objects API
   slug: gcp-cloud-storage-objects-api
-artifact_total: 76
+artifact_total: 75
 collections:
 - collection_type: postman
   name: Google Cloud Storage JSON BucketAccessControls API
@@ -89,9 +91,6 @@ collections:
 - collection_type: postman
   name: Google Cloud Storage JSON BucketAccessControls Objects API
   slug: postman-gcp-cloud-storage-objects-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Cloud Storage JSON BucketAccessControls API
   slug: open-gcp-cloud-storage-bucketaccesscontrols-api
@@ -112,7 +111,7 @@ collections:
   slug: open-gcp-cloud-storage-objects-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/finops/gcp-cloud-storage-finops.yml
+  href: https://artifacts.apis.io/gcp-cloud-storage/finops/gcp-cloud-storage-finops.yml
   title: ''
   type: FinOps
   url: finops/gcp-cloud-storage-finops.yml
@@ -121,12 +120,12 @@ common:
   type: Pricing
   url: https://cloud.google.com/storage/pricing
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/rate-limits/gcp-cloud-storage-rate-limits.yml
+  href: https://artifacts.apis.io/gcp-cloud-storage/rate-limits/gcp-cloud-storage-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gcp-cloud-storage-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/plans/gcp-cloud-storage-plans-pricing.yml
+  href: https://artifacts.apis.io/gcp-cloud-storage/plans/gcp-cloud-storage-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gcp-cloud-storage-plans-pricing.yml
@@ -135,7 +134,7 @@ common:
   type: Website
   url: https://www.google.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/capabilities/gcp-cloud-storage-capability-edges.yml
+  href: https://artifacts.apis.io/gcp-cloud-storage/capabilities/gcp-cloud-storage-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gcp-cloud-storage-capability-edges.yml
@@ -144,27 +143,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-cloud-storage/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/agentic-access/gcp-cloud-storage-agentic-access.yml
+  href: https://artifacts.apis.io/gcp-cloud-storage/agentic-access/gcp-cloud-storage-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gcp-cloud-storage-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/security/gcp-cloud-storage-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/gcp-cloud-storage/security/gcp-cloud-storage-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gcp-cloud-storage-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/security/gcp-cloud-storage-domain-security.yml
+  href: https://artifacts.apis.io/gcp-cloud-storage/security/gcp-cloud-storage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gcp-cloud-storage-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/authentication/gcp-cloud-storage-authentication.yml
+  href: https://artifacts.apis.io/gcp-cloud-storage/authentication/gcp-cloud-storage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gcp-cloud-storage-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/scopes/gcp-cloud-storage-scopes.yml
+  href: https://artifacts.apis.io/gcp-cloud-storage/scopes/gcp-cloud-storage-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/gcp-cloud-storage-scopes.yml
@@ -213,12 +212,12 @@ common:
   type: CLI
   url: https://cloud.google.com/storage/docs/discover-object-storage-gsutil
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/rules/gcp-cloud-storage-spectral-rules.yml
+  href: https://artifacts.apis.io/gcp-cloud-storage/rules/gcp-cloud-storage-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/gcp-cloud-storage-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/vocabulary/gcp-cloud-storage-vocabulary.yaml
+  href: https://artifacts.apis.io/gcp-cloud-storage/vocabulary/gcp-cloud-storage-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/gcp-cloud-storage-vocabulary.yaml
@@ -282,13 +281,13 @@ features:
 - description: Lock retention policies to prevent object deletion for regulatory compliance.
   name: Retention Policies
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Gcp Cloud Storage Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: gibibyte hour
+  service_category: ''
   slug: gcp-cloud-storage-finops
-  template: true
+  template: false
 image: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png
 json_schemas:
 - name: Google Cloud Storage Bucket
@@ -389,7 +388,7 @@ plans:
 - name: Gcp Cloud Storage Price Estimates
   plan_count: 0
   slug: gcp-cloud-storage-price-estimates
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 16
   name: Gcp Cloud Storage Rate Limits
@@ -424,24 +423,29 @@ scopes:
   slug: gcp-cloud-storage-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: strong
-  composite: 63.5
+  band: exemplar
+  composite: 68.0
   coverage:
     artifact_dirs: 22
-    catalog_earned: 79.0
+    catalog_earned: 82.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 36.0
+    catalog_gap: 33.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 68.4
     contract_governance: 27.3
-    contract_quality: 65.3
-    developer_ergonomics: 67.9
+    contract_quality: 61.9
+    developer_ergonomics: 75.0
     discoverability: 64.3
-    operational_transparency: 65.8
-  previous_composite: 65.0
+    operational_transparency: 78.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     contracts:
@@ -455,13 +459,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/screenshots/gcp-cloud-storage-2026-06-20T181701.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gcp-cloud-storage/gcp-cloud-storage-2026-06-20T181701.png
 security:
 - kind: authentication
   name: Gcp Cloud Storage Authentication

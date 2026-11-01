@@ -26,17 +26,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 23.8
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://app.tadeus.net/api/integration/v1
   baseurl_source: declared
@@ -83,19 +85,19 @@ apis:
   description: The transcripts API from Tadeus API — 2 operation(s) for transcripts.
   name: Tadeus API Transcripts API
   slug: tadeus-api-transcripts-api
-artifact_total: 17
+artifact_total: 22
 collections:
 - collection_type: open
   name: Integration API
   slug: open-tadeus-api-integration
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/rate-limits/tadeus-api-rate-limits.yml
+  href: https://artifacts.apis.io/tadeus-api/rate-limits/tadeus-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tadeus-api-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/overlays/tadeus-api-integration-overlay.yaml
+  href: https://artifacts.apis.io/tadeus-api/overlays/tadeus-api-integration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tadeus-api-integration-overlay.yaml
@@ -152,77 +154,85 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/tadeus-ai/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/mcp/tadeus-api-mcp.yml
+  href: https://artifacts.apis.io/tadeus-api/mcp/tadeus-api-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tadeus-api-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/mcp/tadeus-api-tool-crosswalk.yml
+  href: https://artifacts.apis.io/tadeus-api/mcp/tadeus-api-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tadeus-api-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/llms/tadeus-api-llms.txt
+  href: https://artifacts.apis.io/tadeus-api/llms/tadeus-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tadeus-api-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tadeus-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/authentication/tadeus-api-authentication.yml
+  href: https://artifacts.apis.io/tadeus-api/authentication/tadeus-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tadeus-api-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/conventions/tadeus-api-conventions.yml
+  href: https://artifacts.apis.io/tadeus-api/conventions/tadeus-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tadeus-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/errors/tadeus-api-problem-types.yml
+  href: https://artifacts.apis.io/tadeus-api/errors/tadeus-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tadeus-api-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/lifecycle/tadeus-api-lifecycle.yml
+  href: https://artifacts.apis.io/tadeus-api/lifecycle/tadeus-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tadeus-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/data-model/tadeus-api-data-model.yml
+  href: https://artifacts.apis.io/tadeus-api/data-model/tadeus-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tadeus-api-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/plans/tadeus-api-plans-pricing.yml
+  href: https://artifacts.apis.io/tadeus-api/plans/tadeus-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tadeus-api-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/conformance/tadeus-api-conformance.yml
+  href: https://artifacts.apis.io/tadeus-api/conformance/tadeus-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tadeus-api-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/conformance/tadeus-api-conformance.yml
+  href: https://artifacts.apis.io/tadeus-api/conformance/tadeus-api-conformance.yml
   title: ''
   type: Compliance
   url: conformance/tadeus-api-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/security/tadeus-api-trust-center.yml
+  href: https://artifacts.apis.io/tadeus-api/security/tadeus-api-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tadeus-api-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/security/tadeus-api-domain-security.yml
+  href: https://artifacts.apis.io/tadeus-api/security/tadeus-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tadeus-api-domain-security.yml
 created: '2026-07-06'
 description: 'Tadeus is an AI voice agent platform for workforce platforms: one agent holds real, adaptive voice conversations with every employee at scale, in their own language, and returns structured, timestamped records to the HCM, payroll, scheduling and compliance systems people already use. It works from the transcript rather than the audio and reports comprehension and engagement signals about responses rather than inferring emotion, which is the position its published EU AI Act documentation rests on. The public Integration API is a 47-operation REST surface for creating interview templates and campaigns, inviting participants individually or in bulk, creating anonymous sessions, and retrieving transcripts, structured results with per-response quality signals, and cross-session AI insights. Tadeus went generally available on 14 July 2026 and also ships a hosted, first-party MCP server so agents can commission interviews and query results as tool calls.'
+finops:
+- has_sources: true
+  method: derived
+  name: Tadeus Api Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: tadeus-api-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tadeus-api.png
 layout: provider
 mcp_servers:
@@ -241,30 +251,33 @@ plans:
 - name: Tadeus Api Plans Pricing
   plan_count: 3
   slug: tadeus-api-plans-pricing
-random_paper: 15
+- name: Tadeus Api Price Estimates
+  plan_count: 0
+  slug: tadeus-api-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Tadeus Api Rate Limits
   slug: tadeus-api-rate-limits
 score:
   band: developing
-  composite: 47.3
+  composite: 49.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 1.1
   facets:
-    access_clarity: 80.3
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 43.2
+    contract_quality: 39.8
     developer_ergonomics: 49.4
-    discoverability: 75.0
+    discoverability: 60.0
     operational_transparency: 0.0
-  previous_composite: 46.8
+  previous_composite: 48.5
   provenance:
     conformance: first-party
     contracts:
@@ -280,13 +293,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/screenshots/tadeus-api-2026-08-17T082242.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tadeus-api/tadeus-api-2026-08-17T082242.png
 security:
 - kind: authentication
   name: Tadeus Api Authentication
@@ -304,6 +318,14 @@ security:
   name: Tadeus Api Trust Center
   slug: tadeus-api-trust-center
   summary_line: count, audited, claimed, note
+skill_count: 3
+skills:
+- name: tadeus-api-run-anonymous-pulse
+  slug: tadeus-api-run-anonymous-pulse
+- name: tadeus-api-run-interview-campaign
+  slug: tadeus-api-run-interview-campaign
+- name: tadeus-api-synthesize-campaign-insights
+  slug: tadeus-api-synthesize-campaign-insights
 slug: tadeus-api
 tags:
 - Voice AI

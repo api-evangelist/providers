@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -94,11 +96,8 @@ apis:
   description: Volunteers and volunteer roles for events.
   name: Breeze ChMS Volunteers API
   slug: breeze-chms-volunteers-api
-artifact_total: 28
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Breeze ChMS Account API
   slug: open-breeze-chms-account-api
@@ -134,17 +133,17 @@ collections:
   slug: open-breeze-chms
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/agentic-access/breeze-chms-agentic-access.yml
+  href: https://artifacts.apis.io/breeze-chms/agentic-access/breeze-chms-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/breeze-chms-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/security/breeze-chms-domain-security.yml
+  href: https://artifacts.apis.io/breeze-chms/security/breeze-chms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/breeze-chms-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/authentication/breeze-chms-authentication.yml
+  href: https://artifacts.apis.io/breeze-chms/authentication/breeze-chms-authentication.yml
   title: ''
   type: Authentication
   url: authentication/breeze-chms-authentication.yml
@@ -161,17 +160,17 @@ common:
   type: Documentation
   url: https://app.breezechms.com/api
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/plans/breeze-chms-plans-pricing.yml
+  href: https://artifacts.apis.io/breeze-chms/plans/breeze-chms-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/breeze-chms-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/rate-limits/breeze-chms-rate-limits.yml
+  href: https://artifacts.apis.io/breeze-chms/rate-limits/breeze-chms-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/breeze-chms-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/finops/breeze-chms-finops.yml
+  href: https://artifacts.apis.io/breeze-chms/finops/breeze-chms-finops.yml
   title: ''
   type: FinOps
   url: finops/breeze-chms-finops.yml
@@ -203,7 +202,7 @@ plans:
 - name: Breeze Chms Plans Pricing
   plan_count: 2
   slug: breeze-chms-plans-pricing
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Breeze Chms Rate Limits
@@ -218,7 +217,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -226,7 +225,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 32.8
+  previous_composite: 25.9
   provenance:
     agentic_access: derived
     contracts:
@@ -240,14 +239,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/screenshots/breeze-chms-2026-07-25T203746.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/breeze-chms/breeze-chms-2026-07-25T203746.png
 security:
 - kind: authentication
   name: Breeze Chms Authentication

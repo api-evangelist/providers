@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 43.2
-  scored_at: '2026-10-17'
+  score: 41.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 2
@@ -56,11 +58,8 @@ apis:
   description: The tako API from Tako — 7 operation(s) for tako.
   name: Tako API
   slug: tako-tako-api
-artifact_total: 12
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Knowledge Search agent API
   slug: open-tako-agent-api
@@ -69,7 +68,7 @@ collections:
   slug: open-tako-tako-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/plans/tako-plans-pricing.yml
+  href: https://artifacts.apis.io/tako/plans/tako-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tako-plans-pricing.yml
@@ -122,97 +121,97 @@ common:
   type: Support
   url: https://docs.tako.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/llms/tako-llms.txt
+  href: https://artifacts.apis.io/tako/llms/tako-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tako-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/mcp/tako-mcp.yml
+  href: https://artifacts.apis.io/tako/mcp/tako-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tako-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/packages/tako-packages.yml
+  href: https://artifacts.apis.io/tako/packages/tako-packages.yml
   title: ''
   type: Packages
   url: packages/tako-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/packages/tako-packages.yml
+  href: https://artifacts.apis.io/tako/packages/tako-packages.yml
   title: ''
   type: SDKs
   url: packages/tako-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/authentication/tako-authentication.yml
+  href: https://artifacts.apis.io/tako/authentication/tako-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tako-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/errors/tako-problem-types.yml
+  href: https://artifacts.apis.io/tako/errors/tako-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tako-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/conventions/tako-conventions.yml
+  href: https://artifacts.apis.io/tako/conventions/tako-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tako-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/rate-limits/tako-rate-limits.yml
+  href: https://artifacts.apis.io/tako/rate-limits/tako-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tako-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/finops/tako-finops.yml
+  href: https://artifacts.apis.io/tako/finops/tako-finops.yml
   title: ''
   type: FinOps
   url: finops/tako-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/lifecycle/tako-lifecycle.yml
+  href: https://artifacts.apis.io/tako/lifecycle/tako-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tako-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/conformance/tako-conformance.yml
+  href: https://artifacts.apis.io/tako/conformance/tako-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tako-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/data-model/tako-data-model.yml
+  href: https://artifacts.apis.io/tako/data-model/tako-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tako-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/overlays/tako-openapi-overlay.yaml
+  href: https://artifacts.apis.io/tako/overlays/tako-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tako-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/components/tako-components.yml
+  href: https://artifacts.apis.io/tako/components/tako-components.yml
   title: ''
   type: Components
   url: components/tako-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/well-known/tako-well-known.yml
+  href: https://artifacts.apis.io/tako/well-known/tako-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tako-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/well-known/tako-api-catalog.json
+  href: https://artifacts.apis.io/tako/well-known/tako-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/tako-api-catalog.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/security/tako-domain-security.yml
+  href: https://artifacts.apis.io/tako/security/tako-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tako-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/agentic-access/tako-agentic-access.yml
+  href: https://artifacts.apis.io/tako/agentic-access/tako-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tako-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tako/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -245,14 +244,17 @@ plans:
 - name: Tako Plans Pricing
   plan_count: 6
   slug: tako-plans-pricing
-random_paper: 13
+- name: Tako Price Estimates
+  plan_count: 0
+  slug: tako-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Tako Rate Limits
   slug: tako-rate-limits
 score:
   band: strong
-  composite: 54.3
+  composite: 54.8
   coverage:
     artifact_dirs: 24
     catalog_earned: 57.0
@@ -260,15 +262,20 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 51.4
-    developer_ergonomics: 75.0
-    discoverability: 75.0
+    developer_ergonomics: 78.6
+    discoverability: 65.0
     operational_transparency: 21.1
-  previous_composite: 49.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,13 +292,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/screenshots/tako-2026-08-17T082243.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tako/tako-2026-08-17T082243.png
 security:
 - kind: authentication
   name: Tako Authentication
@@ -301,6 +309,14 @@ security:
   name: Tako Domain Security
   slug: tako-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: tako-agent-deep-research
+  slug: tako-agent-deep-research
+- name: tako-answer-with-data
+  slug: tako-answer-with-data
+- name: tako-graph-agent
+  slug: tako-graph-agent
 slug: tako
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: High-performance plastic compounds, composites, masterbatches, and specialty powders for automotive, packaging, electronics, agriculture, and consumer goods applications. Products include engineered c
@@ -45,17 +47,17 @@ apis:
 artifact_total: 19
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/a-schulman/refs/heads/main/plans/a-schulman-plans-pricing.yml
+  href: https://artifacts.apis.io/a-schulman/plans/a-schulman-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/a-schulman-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/a-schulman/refs/heads/main/rate-limits/a-schulman-rate-limits.yml
+  href: https://artifacts.apis.io/a-schulman/rate-limits/a-schulman-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/a-schulman-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/a-schulman/refs/heads/main/finops/a-schulman-finops.yml
+  href: https://artifacts.apis.io/a-schulman/finops/a-schulman-finops.yml
   title: ''
   type: FinOps
   url: finops/a-schulman-finops.yml
@@ -64,12 +66,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/lyondellbasell/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/a-schulman/refs/heads/main/llms/a-schulman-llms.txt
+  href: https://artifacts.apis.io/a-schulman/llms/a-schulman-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/a-schulman-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/a-schulman/refs/heads/main/security/a-schulman-domain-security.yml
+  href: https://artifacts.apis.io/a-schulman/security/a-schulman-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/a-schulman-domain-security.yml
@@ -146,7 +148,7 @@ press:
 - date: ''
   title: Kevin A. Schulman | Stanford Graduate School of Business
   url: https://www.gsb.stanford.edu/faculty-research/faculty/kevin-schulman
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: A Schulman Rate Limits
@@ -177,14 +179,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/a-schulman/refs/heads/main/screenshots/a-schulman-2026-10-11T134835.png
+screenshot: https://apis.io/screenshots/a-schulman/a-schulman-2026-10-11T134835.png
 security:
 - kind: domain-security
   name: A Schulman Domain Security

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 26.0
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - baseURL: https://fulfillment.noyo.com
@@ -356,15 +358,12 @@ apis:
   description: The Volleys API from Noyo — 5 operation(s) for volleys.
   name: Noyo Volleys API
   slug: noyo-volleys-api
-artifact_total: 132
+artifact_total: 134
 asyncapis:
 - description: ''
   name: Noyo Webhooks
   slug: noyo-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Noyo Carrier Carrier Mapped Field API
   slug: open-noyo-carrier-mapped-field-api
@@ -559,12 +558,12 @@ collections:
   slug: open-noyo-volleys-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/capabilities/noyo-capability-edges.yml
+  href: https://artifacts.apis.io/noyo/capabilities/noyo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/noyo-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/overlays/noyo-carrier-overlay.yaml
+  href: https://artifacts.apis.io/noyo/overlays/noyo-carrier-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/noyo-carrier-overlay.yaml
@@ -613,57 +612,57 @@ common:
   type: Webhooks
   url: https://docs.noyo.com/docs/introduction/webhooks
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/llms/noyo-llms.txt
+  href: https://artifacts.apis.io/noyo/llms/noyo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/noyo-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/authentication/noyo-authentication.yml
+  href: https://artifacts.apis.io/noyo/authentication/noyo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/noyo-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/mcp/noyo-mcp.yml
+  href: https://artifacts.apis.io/noyo/mcp/noyo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/noyo-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/conformance/noyo-conformance.yml
+  href: https://artifacts.apis.io/noyo/conformance/noyo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/noyo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/errors/noyo-problem-types.yml
+  href: https://artifacts.apis.io/noyo/errors/noyo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/noyo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/lifecycle/noyo-lifecycle.yml
+  href: https://artifacts.apis.io/noyo/lifecycle/noyo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/noyo-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/sandbox/noyo-sandbox.yml
+  href: https://artifacts.apis.io/noyo/sandbox/noyo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/noyo-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/conventions/noyo-conventions.yml
+  href: https://artifacts.apis.io/noyo/conventions/noyo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/noyo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/data-model/noyo-data-model.yml
+  href: https://artifacts.apis.io/noyo/data-model/noyo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/noyo-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/security/noyo-domain-security.yml
+  href: https://artifacts.apis.io/noyo/security/noyo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/noyo-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/noyo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -682,10 +681,10 @@ overview: 'Noyo publishes 64 API contracts indexed on the [APIs.io](https://apis
 
 
   Noyo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 18 more developer resources.'
-random_paper: 13
+random_paper: 21
 score:
   band: developing
-  composite: 41.0
+  composite: 43.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -695,13 +694,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 54.8
+    contract_quality: 52.4
     developer_ergonomics: 61.3
-    discoverability: 78.6
-    operational_transparency: 7.9
-  previous_composite: 41.0
+    discoverability: 71.4
+    operational_transparency: 23.7
+  previous_composite: 43.8
   provenance:
     conformance: derived
     contracts:
@@ -717,13 +716,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/screenshots/noyo-2026-08-07T185645.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/noyo/noyo-2026-08-07T185645.png
 security:
 - kind: authentication
   name: Noyo Authentication
@@ -733,6 +733,14 @@ security:
   name: Noyo Domain Security
   slug: noyo-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Connect a group to a carrier
+  slug: noyo-connect-group
+- name: Enroll a new hire in coverage
+  slug: noyo-enroll-new-hire
+- name: Track member changes and resolve discrepancies
+  slug: noyo-track-changes
 slug: noyo
 tags:
 - Company

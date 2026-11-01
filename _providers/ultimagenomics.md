@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,12 +71,12 @@ common:
   type: TermsOfService
   url: https://www.ultimagenomics.com/terms-of-use/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ultimagenomics/refs/heads/main/security/ultimagenomics-domain-security.yml
+  href: https://artifacts.apis.io/ultimagenomics/security/ultimagenomics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ultimagenomics-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ultimagenomics/refs/heads/main/llms/ultimagenomics-llms.txt
+  href: https://artifacts.apis.io/ultimagenomics/llms/ultimagenomics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ultimagenomics-llms.txt
@@ -90,12 +92,12 @@ overview: 'Ultimagenomics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Ultimagenomics'' developer surface includes documentation, getting-started guide, support, engineering blog, and 6 more developer resources.'
-random_paper: 9
+random_paper: 17
 score:
   band: emerging
-  composite: 15.6
+  composite: 15.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -107,23 +109,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 15.6
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 15.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ultimagenomics/refs/heads/main/screenshots/ultimagenomics-2026-09-02T164758.png
+screenshot: https://apis.io/screenshots/ultimagenomics/ultimagenomics-2026-09-02T164758.png
 security:
 - kind: domain-security
   name: Ultimagenomics Domain Security

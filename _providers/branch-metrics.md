@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: Branch Metrics API provides deep linking and attribution endpoints as documented in the API Reference.
@@ -66,57 +68,57 @@ asyncapis:
   slug: branch-metrics-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/well-known/branch-metrics-status-security.txt
+  href: https://artifacts.apis.io/branch-metrics/well-known/branch-metrics-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/branch-metrics-status-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/rules/branch-metrics-rules.yml
+  href: https://artifacts.apis.io/branch-metrics/rules/branch-metrics-rules.yml
   title: ''
   type: Spectral
   url: rules/branch-metrics-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/json-ld/branch-metrics-context.jsonld
+  href: https://artifacts.apis.io/branch-metrics/json-ld/branch-metrics-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/branch-metrics-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/vocabulary/branch-metrics-vocabulary.yml
+  href: https://artifacts.apis.io/branch-metrics/vocabulary/branch-metrics-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/branch-metrics-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/asyncapi/branch-metrics-webhooks.yml
+  href: https://artifacts.apis.io/branch-metrics/asyncapi/branch-metrics-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/branch-metrics-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/data-model/branch-metrics-data-model.yml
+  href: https://artifacts.apis.io/branch-metrics/data-model/branch-metrics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/branch-metrics-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/conformance/branch-metrics-conformance.yml
+  href: https://artifacts.apis.io/branch-metrics/conformance/branch-metrics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/branch-metrics-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/llms/branch-metrics-llms.txt
+  href: https://artifacts.apis.io/branch-metrics/llms/branch-metrics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/branch-metrics-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/well-known/branch-metrics-well-known.yml
+  href: https://artifacts.apis.io/branch-metrics/well-known/branch-metrics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/branch-metrics-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/hosts/branch-metrics-hosts.yml
+  href: https://artifacts.apis.io/branch-metrics/hosts/branch-metrics-hosts.yml
   title: ''
   type: Hosts
   url: hosts/branch-metrics-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/vendors/branch-metrics-vendors.yml
+  href: https://artifacts.apis.io/branch-metrics/vendors/branch-metrics-vendors.yml
   title: ''
   type: Vendors
   url: vendors/branch-metrics-vendors.yml
@@ -141,7 +143,7 @@ common:
   type: DeveloperPortal
   url: https://developer.branch.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/branch-metrics/refs/heads/main/security/branch-metrics-domain-security.yml
+  href: https://artifacts.apis.io/branch-metrics/security/branch-metrics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/branch-metrics-domain-security.yml
@@ -218,7 +220,7 @@ overview: 'Branch Metrics is listed with 7 APIs on the [APIs.io](https://apis.io
 
 
   Branch Metrics'' developer surface includes documentation, API reference, getting-started guide, support, pricing, engineering blog, and 20 more developer resources.'
-random_paper: 18
+random_paper: 10
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -242,15 +244,15 @@ score:
     catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -11.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 22.0
     contract_quality: 30.2
     developer_ergonomics: 50.0
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 34.2
-  previous_composite: 45.9
+  previous_composite: 34.9
   provenance:
     conformance: derived
     contracts:
@@ -265,12 +267,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Branch Metrics Domain Security

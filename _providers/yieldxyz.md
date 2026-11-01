@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 12.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Non-custodial yield REST API to discover yields, construct unsigned transaction flows (enter/exit/manage), and read unified balances across 80+ networks.
@@ -45,12 +47,12 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/plans/yieldxyz-plans.yml
+  href: https://artifacts.apis.io/yieldxyz/plans/yieldxyz-plans.yml
   title: ''
   type: Plans
   url: plans/yieldxyz-plans.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/security/yieldxyz-domain-security.yml
+  href: https://artifacts.apis.io/yieldxyz/security/yieldxyz-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yieldxyz-domain-security.yml
@@ -115,67 +117,67 @@ common:
   type: TrustCenter
   url: https://trust.yield.xyz
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/llms/yieldxyz-llms.txt
+  href: https://artifacts.apis.io/yieldxyz/llms/yieldxyz-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/yieldxyz-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/mcp/yieldxyz-mcp.yml
+  href: https://artifacts.apis.io/yieldxyz/mcp/yieldxyz-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/yieldxyz-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/yieldxyz/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/packages/yieldxyz-packages.yml
+  href: https://artifacts.apis.io/yieldxyz/packages/yieldxyz-packages.yml
   title: ''
   type: Packages
   url: packages/yieldxyz-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/packages/yieldxyz-packages.yml
+  href: https://artifacts.apis.io/yieldxyz/packages/yieldxyz-packages.yml
   title: ''
   type: SDKs
   url: packages/yieldxyz-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/components/yieldxyz-components.yml
+  href: https://artifacts.apis.io/yieldxyz/components/yieldxyz-components.yml
   title: ''
   type: Components
   url: components/yieldxyz-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/authentication/yieldxyz-authentication.yml
+  href: https://artifacts.apis.io/yieldxyz/authentication/yieldxyz-authentication.yml
   title: ''
   type: Authentication
   url: authentication/yieldxyz-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/conventions/yieldxyz-conventions.yml
+  href: https://artifacts.apis.io/yieldxyz/conventions/yieldxyz-conventions.yml
   title: ''
   type: Conventions
   url: conventions/yieldxyz-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/lifecycle/yieldxyz-lifecycle.yml
+  href: https://artifacts.apis.io/yieldxyz/lifecycle/yieldxyz-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/yieldxyz-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/lifecycle/yieldxyz-lifecycle.yml
+  href: https://artifacts.apis.io/yieldxyz/lifecycle/yieldxyz-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/yieldxyz-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/rate-limits/yieldxyz-rate-limits.yml
+  href: https://artifacts.apis.io/yieldxyz/rate-limits/yieldxyz-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/yieldxyz-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/data-model/yieldxyz-data-model.yml
+  href: https://artifacts.apis.io/yieldxyz/data-model/yieldxyz-data-model.yml
   title: ''
   type: DataModel
   url: data-model/yieldxyz-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/well-known/yieldxyz-well-known.yml
+  href: https://artifacts.apis.io/yieldxyz/well-known/yieldxyz-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/yieldxyz-well-known.yml
@@ -199,16 +201,16 @@ plans:
 - name: Yieldxyz Plans
   plan_count: 3
   slug: yieldxyz-plans
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Yieldxyz Rate Limits
   slug: yieldxyz-rate-limits
 score:
-  band: thin
-  composite: 37.7
+  band: developing
+  composite: 48.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -216,13 +218,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 61.8
+    access_clarity: 84.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 47.6
-    discoverability: 75.0
-    operational_transparency: 57.9
-  previous_composite: 37.7
+    developer_ergonomics: 69.0
+    discoverability: 65.0
+    operational_transparency: 76.3
+  previous_composite: 48.5
   provenance:
     mcp: first-party
     skills: first-party
@@ -231,15 +233,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/screenshots/yieldxyz-2026-08-17T083017.png
+screenshot: https://apis.io/screenshots/yieldxyz/yieldxyz-2026-08-17T083017.png
 security:
 - kind: authentication
   name: Yieldxyz Authentication

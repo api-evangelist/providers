@@ -25,29 +25,36 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.5
-  scored_at: '2026-10-17'
+  score: 40.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The ION Factory OS GraphQL API. A single GraphQL endpoint for reading and writing manufacturing data in ION: Runs, Procedures, Parts, mBOM/aBOM, inventory, notifications, and webhook subscriptions. Au'
   name: ION GraphQL API
   slug: ion-graphql-api
-artifact_total: 6
+artifact_total: 10
 asyncapis:
 - description: ''
   name: First Resonance Webhooks
   slug: first-resonance-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/first-resonance/plans/first-resonance-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/first-resonance-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/security/first-resonance-trust-center.yml
+  href: https://artifacts.apis.io/first-resonance/security/first-resonance-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/first-resonance-trust-center.yml
@@ -76,7 +83,7 @@ common:
   type: GettingStarted
   url: https://manual.firstresonance.io/api/how-to-create-an-app-with-ion
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/authentication/first-resonance-authentication.yml
+  href: https://artifacts.apis.io/first-resonance/authentication/first-resonance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/first-resonance-authentication.yml
@@ -121,62 +128,70 @@ common:
   type: Deprecation
   url: https://manual.firstresonance.io/api/api-change-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/mcp/first-resonance-mcp.yml
+  href: https://artifacts.apis.io/first-resonance/mcp/first-resonance-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/first-resonance-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/asyncapi/first-resonance-webhooks.yml
+  href: https://artifacts.apis.io/first-resonance/asyncapi/first-resonance-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/first-resonance-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/well-known/first-resonance-well-known.yml
+  href: https://artifacts.apis.io/first-resonance/well-known/first-resonance-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/first-resonance-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/llms/first-resonance-llms.txt
+  href: https://artifacts.apis.io/first-resonance/llms/first-resonance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/first-resonance-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/lifecycle/first-resonance-lifecycle.yml
+  href: https://artifacts.apis.io/first-resonance/lifecycle/first-resonance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/first-resonance-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/conventions/first-resonance-conventions.yml
+  href: https://artifacts.apis.io/first-resonance/conventions/first-resonance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/first-resonance-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/conformance/first-resonance-conformance.yml
+  href: https://artifacts.apis.io/first-resonance/conformance/first-resonance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/first-resonance-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/sandbox/first-resonance-sandbox.yml
+  href: https://artifacts.apis.io/first-resonance/sandbox/first-resonance-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/first-resonance-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/changelog/first-resonance-changelog.yml
+  href: https://artifacts.apis.io/first-resonance/changelog/first-resonance-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/first-resonance-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/first-resonance/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/security/first-resonance-domain-security.yml
+  href: https://artifacts.apis.io/first-resonance/security/first-resonance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/first-resonance-domain-security.yml
 created: '2026-07-17'
 description: First Resonance builds ION, a modern Factory Operating System (MES) for companies manufacturing complex hardware in aerospace, defense, robotics, medical devices, and clean energy. ION provides digital work instructions (Procedures and Runs), part and inventory traceability, mBOM/aBOM management, quality and compliance workflows, production scheduling (ION AutoPlan), and analytics. For developers, ION exposes a GraphQL API (api.buildwithion.com) secured with OAuth 2.0 client-credentials API keys, cursor-based (Relay) pagination, webhook subscriptions for realtime events, and a beta hosted MCP server so AI agents can operate the factory system. This profile was enriched from First Resonance's public developer manual.
+finops:
+- has_sources: true
+  method: derived
+  name: First Resonance Finops
+  primary_unit: ''
+  service_category: ''
+  slug: first-resonance-finops
+  template: true
 image: https://www.firstresonance.io/favicon.ico
 layout: provider
 mcp_servers:
@@ -193,27 +208,31 @@ overview: 'First Resonance is listed with 1 API on the [APIs.io](https://apis.io
   The First Resonance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  First Resonance''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 15
+  First Resonance''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 23 more developer resources.'
+plans:
+- name: First Resonance Plans Pricing
+  plan_count: 3
+  slug: first-resonance-plans-pricing
+random_paper: 19
 score:
-  band: developing
-  composite: 46.8
+  band: strong
+  composite: 57.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 6.3
   facets:
-    access_clarity: 39.5
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 50.0
-  previous_composite: 46.7
+    discoverability: 65.0
+    operational_transparency: 52.6
+  previous_composite: 51.1
   provenance:
     conformance: derived
     mcp: first-party
@@ -223,15 +242,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/screenshots/first-resonance-2026-07-25T214610.png
+screenshot: https://apis.io/screenshots/first-resonance/first-resonance-2026-07-25T214610.png
 security:
 - kind: authentication
   name: First Resonance Authentication
@@ -245,6 +264,12 @@ security:
   name: First Resonance Trust Center
   slug: first-resonance-trust-center
   summary_line: SOC 2, FedRAMP, GDPR, FIPS 140
+skill_count: 2
+skills:
+- name: Authenticate to ION and run a paginated GraphQL query
+  slug: first-resonance-authenticate-and-query
+- name: Subscribe to ION realtime webhooks
+  slug: first-resonance-subscribe-to-webhooks
 slug: first-resonance
 tags:
 - Company

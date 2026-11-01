@@ -4,6 +4,6 @@ layout: provider
 name: certificate-enrolment-protocols
 nav: Providers
 network: true
-random_paper: 10
+random_paper: 6
 slug: certificate-enrolment-protocols
 ---

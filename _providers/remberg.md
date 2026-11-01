@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.7
-  scored_at: '2026-10-17'
+  score: 29.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 10
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 115
   slug: remberg-agentic-access
   summary_line: 115 operations · 65 acting · 10 human-in-the-loop
-api_count: 15
+api_count: 12
 apis:
 - baseURL: https://api.remberg.de
   baseurl_source: declared
@@ -140,15 +142,12 @@ apis:
   description: The work-requests API from Remberg — 7 operation(s) for work-requests.
   name: Remberg Work Requests API
   slug: remberg-work-requests-api
-artifact_total: 47
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Remberg Events Webhooks
   slug: remberg-events-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AI ai-chat API
   slug: open-remberg-ai-chat-api
@@ -208,17 +207,17 @@ collections:
   slug: open-remberg-work-requests-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/plans/remberg-plans-pricing.yml
+  href: https://artifacts.apis.io/remberg/plans/remberg-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/remberg-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/capabilities/remberg-capability-edges.yml
+  href: https://artifacts.apis.io/remberg/capabilities/remberg-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/remberg-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/overlays/remberg-ai-overlay.yaml
+  href: https://artifacts.apis.io/remberg/overlays/remberg-ai-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/remberg-ai-overlay.yaml
@@ -255,7 +254,7 @@ common:
   type: Website
   url: https://remberg.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/authentication/remberg-authentication.yml
+  href: https://artifacts.apis.io/remberg/authentication/remberg-authentication.yml
   title: ''
   type: Authentication
   url: authentication/remberg-authentication.yml
@@ -264,22 +263,22 @@ common:
   type: OpenAPI
   url: https://developers.remberg.de/openapi
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/conventions/remberg-conventions.yml
+  href: https://artifacts.apis.io/remberg/conventions/remberg-conventions.yml
   title: ''
   type: Conventions
   url: conventions/remberg-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/rate-limits/remberg-rate-limits.yml
+  href: https://artifacts.apis.io/remberg/rate-limits/remberg-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/remberg-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/errors/remberg-problem-types.yml
+  href: https://artifacts.apis.io/remberg/errors/remberg-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/remberg-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/lifecycle/remberg-lifecycle.yml
+  href: https://artifacts.apis.io/remberg/lifecycle/remberg-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/remberg-lifecycle.yml
@@ -288,17 +287,17 @@ common:
   type: StatusPage
   url: https://status.remberg.de
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/asyncapi/remberg-events-webhooks.yml
+  href: https://artifacts.apis.io/remberg/asyncapi/remberg-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/remberg-events-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/data-model/remberg-data-model.yml
+  href: https://artifacts.apis.io/remberg/data-model/remberg-data-model.yml
   title: ''
   type: DataModel
   url: data-model/remberg-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/conformance/remberg-conformance.yml
+  href: https://artifacts.apis.io/remberg/conformance/remberg-conformance.yml
   title: ''
   type: Conformance
   url: conformance/remberg-conformance.yml
@@ -307,59 +306,67 @@ common:
   type: Compliance
   url: https://remberg.com/trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/security/remberg-trust-center.yml
+  href: https://artifacts.apis.io/remberg/security/remberg-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/remberg-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/security/remberg-domain-security.yml
+  href: https://artifacts.apis.io/remberg/security/remberg-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/remberg-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/well-known/remberg-well-known.yml
+  href: https://artifacts.apis.io/remberg/well-known/remberg-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/remberg-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/llms/remberg-llms.txt
+  href: https://artifacts.apis.io/remberg/llms/remberg-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/remberg-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/mcp/remberg-mcp.yml
+  href: https://artifacts.apis.io/remberg/mcp/remberg-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/remberg-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/agentic-access/remberg-agentic-access.yml
+  href: https://artifacts.apis.io/remberg/agentic-access/remberg-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/remberg-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/skills/remberg-manage-assets.md
+  href: https://artifacts.apis.io/remberg/skills/remberg-manage-assets.md
   title: ''
   type: AgentSkill
   url: skills/remberg-manage-assets.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/skills/remberg-manage-work-orders.md
+  href: https://artifacts.apis.io/remberg/skills/remberg-manage-work-orders.md
   title: ''
   type: AgentSkill
   url: skills/remberg-manage-work-orders.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/skills/remberg-sync-organizations-contacts.md
+  href: https://artifacts.apis.io/remberg/skills/remberg-sync-organizations-contacts.md
   title: ''
   type: AgentSkill
   url: skills/remberg-sync-organizations-contacts.md
 created: '2026-07-17'
 description: remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventive maintenance, with an AI Copilot and a lightweight execution layer alongside SAP. remberg exposes a public REST API (api.remberg.de) across Assets, Work Orders, Work Requests, Tickets, Parts, Organizations, Contacts, Users, Files, Forms, Procedures, and AI, with API-key auth, Svix-based webhooks, documented rate limits, and ISO 27001 certification.
+finops:
+- has_sources: true
+  method: derived
+  name: Remberg Finops
+  primary_unit: user
+  service_category: ''
+  slug: remberg-finops
+  template: false
 image: https://cdn.prod.website-files.com/673f38dcff99b6e3a5b731cb/67b82bff96b78efd5092c4e4_main-hero-16-9-de-2-1024x576.png
 layout: provider
 modified: '2026-07-21'
 name: Remberg
 nav: Providers
 network: true
-overview: 'Remberg publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI Chat API, Asset Status Signals API, Asset Types API, and 16 more. Tagged areas include Maintenance, Asset Management, CMMS, EAM, and Field Service.
+overview: 'Remberg publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI Chat API, Asset Status Signals API, Asset Types API, and 16 more. Tagged areas include Maintenance, Asset Management, CMMS, EAM, and Field Service Management.
 
 
   The Remberg catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -373,29 +380,29 @@ plans:
 - name: Remberg Price Estimates
   plan_count: 0
   slug: remberg-price-estimates
-random_paper: 14
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Remberg Rate Limits
   slug: remberg-rate-limits
 score:
   band: developing
-  composite: 48.0
+  composite: 53.5
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 60.0
+    artifact_dirs: 25
+    catalog_earned: 63.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 57.9
+    access_clarity: 65.8
     contract_governance: 4.5
-    contract_quality: 59.8
-    developer_ergonomics: 39.9
-    discoverability: 78.6
-    operational_transparency: 36.8
+    contract_quality: 56.4
+    developer_ergonomics: 58.9
+    discoverability: 71.4
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -404,7 +411,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 47.9
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -425,13 +432,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/screenshots/remberg-2026-08-17T081515.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/remberg/remberg-2026-08-17T081515.png
 security:
 - kind: authentication
   name: Remberg Authentication
@@ -445,13 +453,21 @@ security:
   name: Remberg Trust Center
   slug: remberg-trust-center
   summary_line: ISO/IEC 27001, GDPR
+skill_count: 3
+skills:
+- name: Manage assets and status signals
+  slug: remberg-manage-assets
+- name: Create and track work orders
+  slug: remberg-manage-work-orders
+- name: Sync organizations and contacts
+  slug: remberg-sync-organizations-contacts
 slug: remberg
 tags:
 - Maintenance
 - Asset Management
 - CMMS
 - EAM
-- Field Service
+- Field Service Management
 - Work Orders
 - Industrial
 - Software-as-a-Service

@@ -14,7 +14,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -85,7 +87,7 @@ apis:
   description: API endpoints to manage users
   name: Human API Users API
   slug: human-api-users-api
-artifact_total: 19
+artifact_total: 24
 asyncapis:
 - description: Webhook notifications the Health Intelligence Platform pushes to a configured client endpoint. Notifications are delivered as JSON arrays of event objects. Enablement is per-client and arranged with a
   name: Human API HIP Notifications
@@ -112,17 +114,17 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/lexisnexis-risk-solutions/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/agentic-access/human-api-agentic-access.yml
+  href: https://artifacts.apis.io/human-api/agentic-access/human-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/human-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/security/human-api-domain-security.yml
+  href: https://artifacts.apis.io/human-api/security/human-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/human-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/authentication/human-api-authentication.yml
+  href: https://artifacts.apis.io/human-api/authentication/human-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/human-api-authentication.yml
@@ -167,112 +169,112 @@ common:
   type: PrivacyPolicy
   url: https://humanapi.co/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/packages/human-api-packages.yml
+  href: https://artifacts.apis.io/human-api/packages/human-api-packages.yml
   title: ''
   type: Packages
   url: packages/human-api-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/packages/human-api-packages.yml
+  href: https://artifacts.apis.io/human-api/packages/human-api-packages.yml
   title: ''
   type: SDKs
   url: packages/human-api-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/cli/human-api-cli.yml
+  href: https://artifacts.apis.io/human-api/cli/human-api-cli.yml
   title: ''
   type: CLI
   url: cli/human-api-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/components/human-api-components.yml
+  href: https://artifacts.apis.io/human-api/components/human-api-components.yml
   title: ''
   type: Components
   url: components/human-api-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/llms/human-api-llms.txt
+  href: https://artifacts.apis.io/human-api/llms/human-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/human-api-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/mcp/human-api-mcp.yml
+  href: https://artifacts.apis.io/human-api/mcp/human-api-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/human-api-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/mcp/human-api-tool-crosswalk.yml
+  href: https://artifacts.apis.io/human-api/mcp/human-api-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/human-api-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/conventions/human-api-conventions.yml
+  href: https://artifacts.apis.io/human-api/conventions/human-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/human-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/errors/human-api-problem-types.yml
+  href: https://artifacts.apis.io/human-api/errors/human-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/human-api-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/lifecycle/human-api-lifecycle.yml
+  href: https://artifacts.apis.io/human-api/lifecycle/human-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/human-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/data-model/human-api-data-model.yml
+  href: https://artifacts.apis.io/human-api/data-model/human-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/human-api-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/conformance/human-api-conformance.yml
+  href: https://artifacts.apis.io/human-api/conformance/human-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/human-api-conformance.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/asyncapi/human-api-notifications-asyncapi.yml
+  href: https://artifacts.apis.io/human-api/asyncapi/human-api-notifications-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/human-api-notifications-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/asyncapi/human-api-notifications-asyncapi.yml
+  href: https://artifacts.apis.io/human-api/asyncapi/human-api-notifications-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/human-api-notifications-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/human-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/overlays/human-api-admin-order-types-overlay.yaml
+  href: https://artifacts.apis.io/human-api/overlays/human-api-admin-order-types-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/human-api-admin-order-types-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/overlays/human-api-admin-user-reports-overlay.yaml
+  href: https://artifacts.apis.io/human-api/overlays/human-api-admin-user-reports-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/human-api-admin-user-reports-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/overlays/human-api-admin-users-list-overlay.yaml
+  href: https://artifacts.apis.io/human-api/overlays/human-api-admin-users-list-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/human-api-admin-users-list-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/overlays/human-api-auth-admin-token-overlay.yaml
+  href: https://artifacts.apis.io/human-api/overlays/human-api-auth-admin-token-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/human-api-auth-admin-token-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/overlays/human-api-auth-connect-token-overlay.yaml
+  href: https://artifacts.apis.io/human-api/overlays/human-api-auth-connect-token-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/human-api-auth-connect-token-overlay.yaml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/plans/human-api-plans-pricing.yml
+  href: https://artifacts.apis.io/human-api/plans/human-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/human-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/rate-limits/human-api-rate-limits.yml
+  href: https://artifacts.apis.io/human-api/rate-limits/human-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/human-api-rate-limits.yml
@@ -289,57 +291,65 @@ common:
   type: HelpCenter
   url: https://support.humanapi.co/hc/en-us
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/overlays/human-api-admin-user-create-overlay.yaml
+  href: https://artifacts.apis.io/human-api/overlays/human-api-admin-user-create-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/human-api-admin-user-create-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/overlays/human-api-admin-user-details-overlay.yaml
+  href: https://artifacts.apis.io/human-api/overlays/human-api-admin-user-details-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/human-api-admin-user-details-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/overlays/human-api-admin-user-actions-overlay.yaml
+  href: https://artifacts.apis.io/human-api/overlays/human-api-admin-user-actions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/human-api-admin-user-actions-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/overlays/human-api-admin-user-providers-overlay.yaml
+  href: https://artifacts.apis.io/human-api/overlays/human-api-admin-user-providers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/human-api-admin-user-providers-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/overlays/human-api-admin-subscriptions-list-overlay.yaml
+  href: https://artifacts.apis.io/human-api/overlays/human-api-admin-subscriptions-list-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/human-api-admin-subscriptions-list-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/overlays/human-api-admin-subscription-create-overlay.yaml
+  href: https://artifacts.apis.io/human-api/overlays/human-api-admin-subscription-create-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/human-api-admin-subscription-create-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/overlays/human-api-admin-subscription-details-overlay.yaml
+  href: https://artifacts.apis.io/human-api/overlays/human-api-admin-subscription-details-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/human-api-admin-subscription-details-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/overlays/human-api-admin-subscription-delete-overlay.yaml
+  href: https://artifacts.apis.io/human-api/overlays/human-api-admin-subscription-delete-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/human-api-admin-subscription-delete-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/overlays/human-api-admin-report-by-id-overlay.yaml
+  href: https://artifacts.apis.io/human-api/overlays/human-api-admin-report-by-id-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/human-api-admin-report-by-id-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/overlays/human-api-admin-consumer-link-overlay.yaml
+  href: https://artifacts.apis.io/human-api/overlays/human-api-admin-consumer-link-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/human-api-admin-consumer-link-overlay.yaml
 created: '2026-07-24'
 description: Human API is a United States health data platform, founded in 2013 and now part of LexisNexis Risk Solutions, that aggregates, normalizes, and delivers digital and clinical health data from providers, hospitals, labs, pharmacies, wearables, and apps through a single API. Its consumer-mediated Data API returns normalized wellness and medical records via user access tokens (Human Connect single sign-on), while its Health Intelligence Platform (HIP) Admin API lets enterprises order electronic health record (EHR) retrievals, manage users and subscriptions, and receive condensed clinical summary reports - primarily to accelerate life insurance underwriting by reaching 30,000+ data sources across roughly 270 million lives. The surface is a proprietary REST/JSON API secured with OAuth2-style client credentials and Bearer JWT tokens; it is not a HL7 FHIR or SMART-on-FHIR API. Access is gated behind a developer portal and partner agreement.
+finops:
+- has_sources: true
+  method: derived
+  name: Human Api Finops
+  primary_unit: ''
+  service_category: ''
+  slug: human-api-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-08-15'
@@ -357,16 +367,16 @@ plans:
 - name: Human Api Plans Pricing
   plan_count: 0
   slug: human-api-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Human Api Rate Limits
   slug: human-api-rate-limits
 score:
   band: developing
-  composite: 51.7
+  composite: 53.8
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -374,12 +384,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 57.0
-    developer_ergonomics: 67.3
-    discoverability: 78.6
-    operational_transparency: 26.3
+    developer_ergonomics: 70.8
+    discoverability: 71.4
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -387,7 +397,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 51.7
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -407,14 +417,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 36.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 38.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/screenshots/human-api-2026-07-25T221654.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/human-api/human-api-2026-07-25T221654.png
 security:
 - kind: authentication
   name: Human Api Authentication
@@ -424,6 +435,16 @@ security:
   name: Human Api Domain Security
   slug: human-api-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Connect a user and read their normalized health data
+  slug: human-api-connect-user-and-read-health-data
+- name: Subscribe case managers to Human API case notifications
+  slug: human-api-manage-case-notification-subscriptions
+- name: Order an EHR retrieval and fetch the clinical report
+  slug: human-api-order-ehr-and-fetch-reports
+- name: Submit an EHR order and track it to a terminal state
+  slug: human-api-submit-and-track-an-ehr-order
 slug: human-api
 tags:
 - Healthcare

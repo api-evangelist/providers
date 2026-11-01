@@ -9,21 +9,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
-    mcp_server: false
+    idempotency: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.6
-  scored_at: '2026-10-17'
+  score: 30.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 12
   slug: postfinder-io-agentic-access
   summary_line: 12 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.postfinder.io
   baseurl_source: declared
@@ -61,62 +63,62 @@ apis:
 artifact_total: 15
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/agentic-access/postfinder-io-agentic-access.yml
+  href: https://artifacts.apis.io/postfinder-io/agentic-access/postfinder-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/postfinder-io-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/rules/postfinder-io-rules.yml
+  href: https://artifacts.apis.io/postfinder-io/rules/postfinder-io-rules.yml
   title: ''
   type: Spectral
   url: rules/postfinder-io-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/json-ld/postfinder-io-context.jsonld
+  href: https://artifacts.apis.io/postfinder-io/json-ld/postfinder-io-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/postfinder-io-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/vocabulary/postfinder-io-vocabulary.yml
+  href: https://artifacts.apis.io/postfinder-io/vocabulary/postfinder-io-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/postfinder-io-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/data-model/postfinder-io-data-model.yml
+  href: https://artifacts.apis.io/postfinder-io/data-model/postfinder-io-data-model.yml
   title: ''
   type: DataModel
   url: data-model/postfinder-io-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/errors/postfinder-io-problem-types.yml
+  href: https://artifacts.apis.io/postfinder-io/errors/postfinder-io-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/postfinder-io-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/conformance/postfinder-io-conformance.yml
+  href: https://artifacts.apis.io/postfinder-io/conformance/postfinder-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/postfinder-io-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/llms/postfinder-io-llms.txt
+  href: https://artifacts.apis.io/postfinder-io/llms/postfinder-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/postfinder-io-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/hosts/postfinder-io-hosts.yml
+  href: https://artifacts.apis.io/postfinder-io/hosts/postfinder-io-hosts.yml
   title: ''
   type: Hosts
   url: hosts/postfinder-io-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/vendors/postfinder-io-vendors.yml
+  href: https://artifacts.apis.io/postfinder-io/vendors/postfinder-io-vendors.yml
   title: ''
   type: Vendors
   url: vendors/postfinder-io-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/packages/postfinder-io-packages.yml
+  href: https://artifacts.apis.io/postfinder-io/packages/postfinder-io-packages.yml
   title: ''
   type: SDKs
   url: packages/postfinder-io-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/packages/postfinder-io-packages.yml
+  href: https://artifacts.apis.io/postfinder-io/packages/postfinder-io-packages.yml
   title: ''
   type: Packages
   url: packages/postfinder-io-packages.yml
@@ -137,7 +139,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/postfinder
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/security/postfinder-io-domain-security.yml
+  href: https://artifacts.apis.io/postfinder-io/security/postfinder-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/postfinder-io-domain-security.yml
@@ -188,7 +190,7 @@ overview: 'Postfinder publishes 5 API contracts indexed on the [APIs.io](https:/
 
 
   Postfinder''s developer surface includes documentation and 18 more developer resources.'
-random_paper: 5
+random_paper: 3
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -203,22 +205,22 @@ rules:
     warn: 0
   slug: postfinder-io-rules
 score:
-  band: developing
-  composite: 43.1
+  band: thin
+  composite: 35.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 62.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 38.0
-    catalog_max: 100.0
+    catalog_gap: 53.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 57.1
+    access_clarity: 21.1
     contract_governance: 19.7
     contract_quality: 62.3
     developer_ergonomics: 26.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -227,7 +229,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 43.1
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -243,14 +245,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/screenshots/postfinder-io-2026-10-11T112723.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/postfinder-io/postfinder-io-2026-10-11T112723.png
 security:
 - kind: domain-security
   name: Postfinder Io Domain Security

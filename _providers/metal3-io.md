@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Metal3 extends Kubernetes with the BareMetalHost custom resource for managing physical servers. The API supports hardware inventory discovery, firmware configuration, BIOS settings, RAID configuration
@@ -42,17 +44,17 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/metal3-io/refs/heads/main/plans/metal3-io-plans-pricing.yml
+  href: https://artifacts.apis.io/metal3-io/plans/metal3-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/metal3-io-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/metal3-io/refs/heads/main/rate-limits/metal3-io-rate-limits.yml
+  href: https://artifacts.apis.io/metal3-io/rate-limits/metal3-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/metal3-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/metal3-io/refs/heads/main/finops/metal3-io-finops.yml
+  href: https://artifacts.apis.io/metal3-io/finops/metal3-io-finops.yml
   title: ''
   type: FinOps
   url: finops/metal3-io-finops.yml
@@ -61,7 +63,7 @@ common:
   type: Website
   url: https://metal3.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metal3-io/refs/heads/main/security/metal3-io-domain-security.yml
+  href: https://artifacts.apis.io/metal3-io/security/metal3-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/metal3-io-domain-security.yml
@@ -83,7 +85,7 @@ finops:
 - has_sources: false
   method: generated
   name: Metal3 Io Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: metal3-io-finops
   template: true
@@ -101,7 +103,7 @@ plans:
 - name: Metal3 Io Plans Pricing
   plan_count: 3
   slug: metal3-io-plans-pricing
-random_paper: 7
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Metal3 Io Rate Limits
@@ -116,7 +118,7 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -124,21 +126,21 @@ score:
     developer_ergonomics: 11.9
     discoverability: 64.3
     operational_transparency: 13.2
-  previous_composite: 12.2
+  previous_composite: 10.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/metal3-io/refs/heads/main/screenshots/metal3-io-2026-06-20T185242.png
+screenshot: https://apis.io/screenshots/metal3-io/metal3-io-2026-06-20T185242.png
 security:
 - kind: domain-security
   name: Metal3 Io Domain Security

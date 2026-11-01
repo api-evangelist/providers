@@ -16,15 +16,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 21.2
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 24.1
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://scopewise.youworkagent.online/api/v1
   baseurl_source: declared
@@ -43,37 +45,37 @@ common:
   type: Blog
   url: https://youworkagent.online/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/youworkagent/refs/heads/main/capabilities/youworkagent-capability-edges.yml
+  href: https://artifacts.apis.io/youworkagent/capabilities/youworkagent-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/youworkagent-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/youworkagent/refs/heads/main/well-known/youworkagent-provider-apis.json
+  href: https://artifacts.apis.io/youworkagent/well-known/youworkagent-provider-apis.json
   title: ''
   type: APIsJSON
   url: well-known/youworkagent-provider-apis.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/youworkagent/refs/heads/main/well-known/youworkagent-api-catalog.json
+  href: https://artifacts.apis.io/youworkagent/well-known/youworkagent-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/youworkagent-api-catalog.json
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/youworkagent/refs/heads/main/well-known/youworkagent-api-onboarding.json
+  href: https://artifacts.apis.io/youworkagent/well-known/youworkagent-api-onboarding.json
   title: ''
   type: Onboarding
   url: well-known/youworkagent-api-onboarding.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/youworkagent/refs/heads/main/a2a/youworkagent-agent-card.json
+  href: https://artifacts.apis.io/youworkagent/a2a/youworkagent-agent-card.json
   title: ''
   type: AgentCard
   url: a2a/youworkagent-agent-card.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/youworkagent/refs/heads/main/skills/youworkagent-agent-skills.json
+  href: https://artifacts.apis.io/youworkagent/skills/youworkagent-agent-skills.json
   title: ''
   type: AgentSkill
   url: skills/youworkagent-agent-skills.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/youworkagent/refs/heads/main/llms/youworkagent-llms.txt
+  href: https://artifacts.apis.io/youworkagent/llms/youworkagent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/youworkagent-llms.txt
@@ -104,23 +106,23 @@ overview: 'YouWork Agent publishes 2 API contracts indexed on the [APIs.io](http
 random_paper: 7
 score:
   band: emerging
-  composite: 24.9
+  composite: 24.4
   coverage:
     artifact_dirs: 9
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: -0.5
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 47.1
     developer_ergonomics: 27.9
-    discoverability: 78.6
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 23.8
+  previous_composite: 24.9
   provenance:
     contracts:
       callable: 100.0
@@ -133,13 +135,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 3.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/youworkagent/refs/heads/main/screenshots/youworkagent-2026-10-11T194000.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/youworkagent/youworkagent-2026-10-11T194000.png
 slug: youworkagent
 tags:
 - Freelance

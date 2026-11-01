@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 36.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -204,30 +206,30 @@ apis:
   description: The Transactions API from Investec — 2 operation(s) for transactions.
   name: Investec Transactions API
   slug: investec-transactions-api
-artifact_total: 38
+artifact_total: 41
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/capabilities/investec-capability-edges.yml
+  href: https://artifacts.apis.io/investec/capabilities/investec-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/investec-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/agentic-access/investec-agentic-access.yml
+  href: https://artifacts.apis.io/investec/agentic-access/investec-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/investec-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/security/investec-domain-security.yml
+  href: https://artifacts.apis.io/investec/security/investec-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/investec-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/scopes/investec-scopes.yml
+  href: https://artifacts.apis.io/investec/scopes/investec-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/investec-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/authentication/investec-authentication.yml
+  href: https://artifacts.apis.io/investec/authentication/investec-authentication.yml
   title: ''
   type: Authentication
   url: authentication/investec-authentication.yml
@@ -264,77 +266,77 @@ common:
   type: Support
   url: https://developer.investec.com/support
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/packages/investec-packages.yml
+  href: https://artifacts.apis.io/investec/packages/investec-packages.yml
   title: ''
   type: Packages
   url: packages/investec-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/conformance/investec-conformance.yml
+  href: https://artifacts.apis.io/investec/conformance/investec-conformance.yml
   title: ''
   type: Conformance
   url: conformance/investec-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/errors/investec-problem-types.yml
+  href: https://artifacts.apis.io/investec/errors/investec-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/investec-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/lifecycle/investec-lifecycle.yml
+  href: https://artifacts.apis.io/investec/lifecycle/investec-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/investec-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/sandbox/investec-sandbox.yml
+  href: https://artifacts.apis.io/investec/sandbox/investec-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/investec-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/conventions/investec-conventions.yml
+  href: https://artifacts.apis.io/investec/conventions/investec-conventions.yml
   title: ''
   type: Conventions
   url: conventions/investec-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/conventions/investec-conventions.yml
+  href: https://artifacts.apis.io/investec/conventions/investec-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/investec-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/data-model/investec-data-model.yml
+  href: https://artifacts.apis.io/investec/data-model/investec-data-model.yml
   title: ''
   type: DataModel
   url: data-model/investec-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/llms/investec-llms.txt
+  href: https://artifacts.apis.io/investec/llms/investec-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/investec-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/overlays/investec-account-info-overlay.yaml
+  href: https://artifacts.apis.io/investec/overlays/investec-account-info-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/investec-account-info-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/overlays/investec-payment-initiation-overlay.yaml
+  href: https://artifacts.apis.io/investec/overlays/investec-payment-initiation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/investec-payment-initiation-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/overlays/investec-confirmation-funds-overlay.yaml
+  href: https://artifacts.apis.io/investec/overlays/investec-confirmation-funds-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/investec-confirmation-funds-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/skills/investec-retrieve-accounts-and-transactions.md
+  href: https://artifacts.apis.io/investec/skills/investec-retrieve-accounts-and-transactions.md
   title: ''
   type: AgentSkill
   url: skills/investec-retrieve-accounts-and-transactions.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/skills/investec-initiate-domestic-payment.md
+  href: https://artifacts.apis.io/investec/skills/investec-initiate-domestic-payment.md
   title: ''
   type: AgentSkill
   url: skills/investec-initiate-domestic-payment.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/skills/investec-confirm-funds.md
+  href: https://artifacts.apis.io/investec/skills/investec-confirm-funds.md
   title: ''
   type: AgentSkill
   url: skills/investec-confirm-funds.md
@@ -363,15 +365,15 @@ overview: 'Investec publishes 34 API contracts indexed on the [APIs.io](https://
 
 
   Investec''s developer surface includes authentication, documentation, API reference, engineering blog, support, sandbox, getting-started guide, and 24 more developer resources.'
-random_paper: 7
+random_paper: 1
 scopes:
 - name: Investec Scopes
   scope_count: 4
   slug: investec-scopes
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 39.2
+  band: developing
+  composite: 40.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -384,9 +386,9 @@ score:
     access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 49.0
-    developer_ergonomics: 68.5
-    discoverability: 78.6
-    operational_transparency: 2.6
+    developer_ergonomics: 70.8
+    discoverability: 71.4
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -395,7 +397,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 39.2
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -415,13 +417,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/screenshots/investec-2026-07-25T222744.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/investec/investec-2026-07-25T222744.png
 security:
 - kind: authentication
   name: Investec Authentication
@@ -431,6 +434,14 @@ security:
   name: Investec Domain Security
   slug: investec-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Confirm funds availability (CBPII)
+  slug: investec-confirm-funds
+- name: Initiate a domestic payment (PIS)
+  slug: investec-initiate-domestic-payment
+- name: Retrieve accounts, balances and transactions (AIS)
+  slug: investec-retrieve-accounts-and-transactions
 slug: investec
 tags:
 - Financial Services

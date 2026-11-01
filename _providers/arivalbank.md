@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Arivalbank provides digital banking services; API details are not publicly documented.
@@ -32,22 +34,22 @@ apis:
 artifact_total: 3
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arivalbank/refs/heads/main/llms/arivalbank-llms.txt
+  href: https://artifacts.apis.io/arivalbank/llms/arivalbank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/arivalbank-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arivalbank/refs/heads/main/mcp/arivalbank-mcp.yml
+  href: https://artifacts.apis.io/arivalbank/mcp/arivalbank-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/arivalbank-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arivalbank/refs/heads/main/hosts/arivalbank-hosts.yml
+  href: https://artifacts.apis.io/arivalbank/hosts/arivalbank-hosts.yml
   title: ''
   type: Hosts
   url: hosts/arivalbank-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arivalbank/refs/heads/main/vendors/arivalbank-vendors.yml
+  href: https://artifacts.apis.io/arivalbank/vendors/arivalbank-vendors.yml
   title: ''
   type: Vendors
   url: vendors/arivalbank-vendors.yml
@@ -72,7 +74,7 @@ common:
   type: Documentation
   url: https://developers.arival.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arivalbank/refs/heads/main/security/arivalbank-domain-security.yml
+  href: https://artifacts.apis.io/arivalbank/security/arivalbank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arivalbank-domain-security.yml
@@ -98,7 +100,7 @@ description: Arivalbank is a digital banking platform offering global financial 
 image: https://arival.com/_gatsby/file/a7a4555ab04c405ae4cf299b99b69c2c/og-image_eng.png?u=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fark6fr17%2Fproduction%2F8bebeaa1427f46010fcaf6e3f916dc07ea940994-4800x2520.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at status.arival.com.
+- description: Remote MCP server at status.arival.com; 193 tools listed.
   name: Arivalbank MCP Server
   slug: arivalbank-mcp-yml
 modified: '2026-09-26'
@@ -109,10 +111,10 @@ overview: 'Arivalbank is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Arivalbank''s developer surface includes pricing, documentation, and 9 more developer resources.'
-random_paper: 17
+random_paper: 19
 score:
   band: emerging
-  composite: 14.8
+  composite: 13.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 32.0
@@ -126,9 +128,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 10.5
-  previous_composite: 14.8
+  previous_composite: 13.8
   provenance:
     mcp: first-party
   regulatory:
@@ -137,14 +139,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/arivalbank/refs/heads/main/screenshots/arivalbank-2026-10-11T100311.png
+screenshot: https://apis.io/screenshots/arivalbank/arivalbank-2026-10-11T100311.png
 security:
 - kind: domain-security
   name: Arivalbank Domain Security

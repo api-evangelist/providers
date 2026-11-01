@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,41 +35,41 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Orum Com Webhooks
   slug: orum-com-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/security/orum-com-trust-center.yml
+  href: https://artifacts.apis.io/orum-com/security/orum-com-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/orum-com-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/security/orum-com-domain-security.yml
+  href: https://artifacts.apis.io/orum-com/security/orum-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/orum-com-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/asyncapi/orum-com-webhooks.yml
+  href: https://artifacts.apis.io/orum-com/asyncapi/orum-com-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/orum-com-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/authentication/orum-com-authentication.yml
+  href: https://artifacts.apis.io/orum-com/authentication/orum-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/orum-com-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/conventions/orum-com-conventions.yml
+  href: https://artifacts.apis.io/orum-com/conventions/orum-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/orum-com-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/changelog/orum-com-changelog.yml
+  href: https://artifacts.apis.io/orum-com/changelog/orum-com-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/orum-com-changelog.yml
@@ -76,47 +78,47 @@ common:
   type: ChangeLog
   url: https://www.orum.com/product-updates
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/lifecycle/orum-com-lifecycle.yml
+  href: https://artifacts.apis.io/orum-com/lifecycle/orum-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/orum-com-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/security/orum-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/orum-com/security/orum-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/orum-com-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/conformance/orum-com-conformance.yml
+  href: https://artifacts.apis.io/orum-com/conformance/orum-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/orum-com-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/plans/orum-com-plans-pricing.yml
+  href: https://artifacts.apis.io/orum-com/plans/orum-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/orum-com-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/rate-limits/orum-com-rate-limits.yml
+  href: https://artifacts.apis.io/orum-com/rate-limits/orum-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/orum-com-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/sandbox/orum-com-sandbox.yml
+  href: https://artifacts.apis.io/orum-com/sandbox/orum-com-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/orum-com-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/packages/orum-com-packages.yml
+  href: https://artifacts.apis.io/orum-com/packages/orum-com-packages.yml
   title: ''
   type: Packages
   url: packages/orum-com-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/components/orum-com-components.yml
+  href: https://artifacts.apis.io/orum-com/components/orum-com-components.yml
   title: ''
   type: Components
   url: components/orum-com-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/llms/orum-com-llms.txt
+  href: https://artifacts.apis.io/orum-com/llms/orum-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/orum-com-llms.txt
@@ -211,6 +213,14 @@ common:
 created: '2026-08-04'
 description: 'Orum is an AI-powered sales calling and performance platform, marketed as "The Calling Performance System for Sales Teams" and "the AI-powered Live Conversation Platform to supercharge sales activity, connect teams, and drive more revenue." Its products are a parallel Dialer (up to 5 lines on the Launch plan, 10 on Ascend), Salesfloor for virtual co-selling, a Coaching and Enablement suite, Orum AI trained on a claimed one billion-plus sales calls, and Scout, a set of AI data agents. It positions itself as purpose-built for maximizing live conversations and explicitly distinct from the dialers built into CRMs and sales-engagement platforms, integrating instead with Salesforce, HubSpot, Outreach, Salesloft, Gong Engage and Apollo. Pricing is two named plans, Launch and Ascend, both contact-sales with a three-seat minimum and no published figures, plus a free trial capped at 500 dials; AI Coaching and Webhooks are paid add-ons. Orum publishes NO request API — no OpenAPI, no API
   reference, no developer portal, no SDKs, no CLI, no MCP server, no llms.txt, and api./docs./developers.orum.com do not resolve. Its one machine-facing contract is an outbound webhook, and contrary to the first profiling pass it IS publicly documented: a help-center article publishes the single `call-disposition-added` event, the `{event, payload, test}` envelope, HMAC-SHA256 signature verification over an `x-webhook-signature` header, a 15-second ack timeout, an 8-attempt/30-minute exponential-backoff retry policy and three egress IPs. The article is simply unlinked from any directory and reachable only from the 2025-04-14 launch blog post. Orum also publishes a dated product-update feed, a status page, a trust portal, a responsible-disclosure policy, Auth0-backed SSO (SAML/OIDC/OAuth 2.0), a Chrome extension, and SOC 2 Type 2 plus ISO 27001:2022, 27017:2015, 27018:2019 and 27701:2019 attestations.'
+finops:
+- has_sources: true
+  method: derived
+  name: Orum Com Finops
+  primary_unit: ''
+  service_category: ''
+  slug: orum-com-finops
+  template: true
 image: https://cdn.sanity.io/images/w0eqmudi/production/2b821b473a58f9c3510eb28647c02e861d32727c-2000x1050.heif
 layout: provider
 modified: '2026-08-13'
@@ -226,18 +236,18 @@ overview: 'Orum is profiled on the [APIs.io](https://apis.io/) network. Tagged a
   Orum''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, pricing, support, and 31 more developer resources.'
 plans:
 - name: Orum Com Plans Pricing
-  plan_count: 2
+  plan_count: 1
   slug: orum-com-plans-pricing
-random_paper: 1
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Orum Com Rate Limits
   slug: orum-com-rate-limits
 score:
   band: developing
-  composite: 49.4
+  composite: 49.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 35.0
     catalog_earned_first_party: 8.0
     catalog_gap: 80.0
@@ -250,8 +260,8 @@ score:
     contract_quality: 39.0
     developer_ergonomics: 47.6
     discoverability: 48.2
-    operational_transparency: 52.6
-  previous_composite: 49.4
+    operational_transparency: 55.3
+  previous_composite: 49.8
   provenance:
     conformance: first-party
   regulatory:
@@ -260,14 +270,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/screenshots/orum-com-2026-08-07T190956.png
+screenshot: https://apis.io/screenshots/orum-com/orum-com-2026-08-07T190956.png
 security:
 - kind: authentication
   name: Orum Com Authentication

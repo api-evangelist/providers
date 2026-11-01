@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/matthews-international/refs/heads/main/finops/matthews-international-finops.yml
+  href: https://artifacts.apis.io/matthews-international/finops/matthews-international-finops.yml
   title: ''
   type: FinOps
   url: finops/matthews-international-finops.yml
@@ -79,22 +81,22 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/matthews-international
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matthews-international/refs/heads/main/security/matthews-international-domain-security.yml
+  href: https://artifacts.apis.io/matthews-international/security/matthews-international-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/matthews-international-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/matthews-international/refs/heads/main/plans/matthews-international-plans-pricing.yml
+  href: https://artifacts.apis.io/matthews-international/plans/matthews-international-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/matthews-international-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/matthews-international/refs/heads/main/rate-limits/matthews-international-rate-limits.yml
+  href: https://artifacts.apis.io/matthews-international/rate-limits/matthews-international-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/matthews-international-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matthews-international/refs/heads/main/llms/matthews-international-llms.txt
+  href: https://artifacts.apis.io/matthews-international/llms/matthews-international-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/matthews-international-llms.txt
@@ -147,14 +149,14 @@ plans:
 - name: Matthews International Plans Pricing
   plan_count: 1
   slug: matthews-international-plans-pricing
-random_paper: 12
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Matthews International Rate Limits
   slug: matthews-international-rate-limits
 score:
   band: emerging
-  composite: 19.0
+  composite: 18.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 43.0
@@ -162,29 +164,29 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 21.1
-  previous_composite: 18.5
+  previous_composite: 18.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/matthews-international/refs/heads/main/screenshots/matthews-international-2026-06-20T185042.png
+screenshot: https://apis.io/screenshots/matthews-international/matthews-international-2026-06-20T185042.png
 security:
 - kind: domain-security
   name: Matthews International Domain Security

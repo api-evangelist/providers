@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 34.0
-  scored_at: '2026-10-17'
+  score: 29.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,11 +63,8 @@ apis:
   description: The Publisher Reporting API from LoopMe — 1 operation(s) for publisher reporting.
   name: LoopMe Publisher Reporting API
   slug: loopme-publisher-reporting-api
-artifact_total: 13
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LoopMe S2S Ad Request API
   slug: open-loopme-ad-serving-api
@@ -81,7 +80,7 @@ common:
   type: Website
   url: https://loopme.cool
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/agentic-access/loopme-agentic-access.yml
+  href: https://artifacts.apis.io/loopme/agentic-access/loopme-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/loopme-agentic-access.yml
@@ -118,87 +117,87 @@ common:
   type: TermsOfService
   url: https://legal.loopme.com/legal-centre/terms-of-use
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/packages/loopme-packages.yml
+  href: https://artifacts.apis.io/loopme/packages/loopme-packages.yml
   title: ''
   type: SDKs
   url: packages/loopme-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/packages/loopme-packages.yml
+  href: https://artifacts.apis.io/loopme/packages/loopme-packages.yml
   title: ''
   type: Packages
   url: packages/loopme-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/authentication/loopme-authentication.yml
+  href: https://artifacts.apis.io/loopme/authentication/loopme-authentication.yml
   title: ''
   type: Authentication
   url: authentication/loopme-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/errors/loopme-error-codes.yml
+  href: https://artifacts.apis.io/loopme/errors/loopme-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/loopme-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/conventions/loopme-conventions.yml
+  href: https://artifacts.apis.io/loopme/conventions/loopme-conventions.yml
   title: ''
   type: Conventions
   url: conventions/loopme-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/lifecycle/loopme-lifecycle.yml
+  href: https://artifacts.apis.io/loopme/lifecycle/loopme-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/loopme-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/mcp/loopme-mcp.yml
+  href: https://artifacts.apis.io/loopme/mcp/loopme-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/loopme-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/security/loopme-domain-security.yml
+  href: https://artifacts.apis.io/loopme/security/loopme-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/loopme-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/data-model/loopme-data-model.yml
+  href: https://artifacts.apis.io/loopme/data-model/loopme-data-model.yml
   title: ''
   type: DataModel
   url: data-model/loopme-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/changelog/loopme-changelog.yml
+  href: https://artifacts.apis.io/loopme/changelog/loopme-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/loopme-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/llms/loopme-llms.txt
+  href: https://artifacts.apis.io/loopme/llms/loopme-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/loopme-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/loopme/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/skills/loopme-request-ad-s2s.md
+  href: https://artifacts.apis.io/loopme/skills/loopme-request-ad-s2s.md
   title: ''
   type: AgentSkill
   url: skills/loopme-request-ad-s2s.md
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/plans/loopme-plans-pricing.yml
+  href: https://artifacts.apis.io/loopme/plans/loopme-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/loopme-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/rate-limits/loopme-rate-limits.yml
+  href: https://artifacts.apis.io/loopme/rate-limits/loopme-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/loopme-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/sandbox/loopme-sandbox.yml
+  href: https://artifacts.apis.io/loopme/sandbox/loopme-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/loopme-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/conformance/loopme-conformance.yml
+  href: https://artifacts.apis.io/loopme/conformance/loopme-conformance.yml
   title: ''
   type: Conformance
   url: conformance/loopme-conformance.yml
@@ -207,12 +206,12 @@ common:
   type: Compliance
   url: https://legal.loopme.com/privacy-center
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/security/loopme-trust-center.yml
+  href: https://artifacts.apis.io/loopme/security/loopme-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/loopme-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/components/loopme-components.yml
+  href: https://artifacts.apis.io/loopme/components/loopme-components.yml
   title: ''
   type: Components
   url: components/loopme-components.yml
@@ -236,30 +235,30 @@ plans:
 - name: Loopme Plans Pricing
   plan_count: 0
   slug: loopme-plans-pricing
-random_paper: 14
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Loopme Rate Limits
   slug: loopme-rate-limits
 score:
   band: thin
-  composite: 38.3
+  composite: 39.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 13.2
     developer_ergonomics: 61.3
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 38.2
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -276,14 +275,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/screenshots/loopme-2026-08-17T121137.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/loopme/loopme-2026-08-17T121137.png
 security:
 - kind: authentication
   name: Loopme Authentication
@@ -297,6 +296,12 @@ security:
   name: Loopme Trust Center
   slug: loopme-trust-center
   summary_line: ePrivacyseal, TAG registered (Trustworthy Accountability Group)
+skill_count: 2
+skills:
+- name: Pull LoopMe reporting statistics
+  slug: loopme-pull-reporting
+- name: Request a LoopMe ad server-to-server
+  slug: loopme-request-ad-s2s
 slug: loopme
 tags:
 - Company

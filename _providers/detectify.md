@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,18 +36,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'RESTful API (v3) for managing assets and retrieving attack-surface and scan data — surface-monitoring domains and IPs, IP addresses, technologies, ports, breaches, and cloud connectors. Authenticates '
   name: Detectify REST API
   slug: detectify-rest-api
-artifact_total: 7
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Detectify Webhooks
   slug: detectify-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/detectify/plans/detectify-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/detectify-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -111,72 +118,80 @@ common:
   type: Compliance
   url: https://docs.detectify.com/security-and-compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/authentication/detectify-authentication.yml
+  href: https://artifacts.apis.io/detectify/authentication/detectify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/detectify-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/lifecycle/detectify-lifecycle.yml
+  href: https://artifacts.apis.io/detectify/lifecycle/detectify-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/detectify-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/conventions/detectify-conventions.yml
+  href: https://artifacts.apis.io/detectify/conventions/detectify-conventions.yml
   title: ''
   type: Conventions
   url: conventions/detectify-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/conformance/detectify-conformance.yml
+  href: https://artifacts.apis.io/detectify/conformance/detectify-conformance.yml
   title: ''
   type: Conformance
   url: conformance/detectify-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/asyncapi/detectify-webhooks.yml
+  href: https://artifacts.apis.io/detectify/asyncapi/detectify-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/detectify-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/mcp/detectify-mcp.yml
+  href: https://artifacts.apis.io/detectify/mcp/detectify-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/detectify-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/llms/detectify-llms.txt
+  href: https://artifacts.apis.io/detectify/llms/detectify-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/detectify-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/well-known/detectify-well-known.yml
+  href: https://artifacts.apis.io/detectify/well-known/detectify-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/detectify-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/well-known/detectify-security.txt
+  href: https://artifacts.apis.io/detectify/well-known/detectify-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/detectify-security.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/packages/detectify-packages.yml
+  href: https://artifacts.apis.io/detectify/packages/detectify-packages.yml
   title: ''
   type: Packages
   url: packages/detectify-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/security/detectify-domain-security.yml
+  href: https://artifacts.apis.io/detectify/security/detectify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/detectify-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/security/detectify-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/detectify/security/detectify-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/detectify-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/security/detectify-trust-center.yml
+  href: https://artifacts.apis.io/detectify/security/detectify-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/detectify-trust-center.yml
 created: '2026-07-17'
 description: Detectify is an External Attack Surface Management (EASM) and Dynamic Application Security Testing (DAST) platform that continuously discovers an organization's internet-facing assets and runs real, payload-based vulnerability tests against them. Its testing engine is fuelled by Crowdsource, a network of ~400 vetted ethical hackers who contribute 1,765+ vulnerability modules at a ~99.7% true-positive rate. Detectify ships four products — Surface Monitoring (attack surface management), Application Scanning (web app DAST), API Scanning (OpenAPI-driven API security testing), and Internal Scanning — plus a REST API (v3), a remotely-hosted MCP server for AI-driven workflows, and integrations for Jira, Slack, Splunk, and CI/CD. Founded in Stockholm and backed by Balderton Capital and Insight Partners.
+finops:
+- has_sources: true
+  method: derived
+  name: Detectify Finops
+  primary_unit: platform fee
+  service_category: ''
+  slug: detectify-finops
+  template: false
 image: https://d35ayjp87i0qx4.cloudfront.net/detectify_global.png
 layout: provider
 mcp_servers:
@@ -193,27 +208,34 @@ overview: 'detectify is listed with 1 API on the [APIs.io](https://apis.io/) net
   The detectify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  detectify''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 15
+  detectify''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+plans:
+- name: Detectify Plans Pricing
+  plan_count: 4
+  slug: detectify-plans-pricing
+- name: Detectify Price Estimates
+  plan_count: 0
+  slug: detectify-price-estimates
+random_paper: 1
 score:
-  band: developing
-  composite: 41.6
+  band: strong
+  composite: 58.0
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 16
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 28.9
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 71.7
-    operational_transparency: 26.3
-  previous_composite: 41.5
+    discoverability: 65.0
+    operational_transparency: 39.5
+  previous_composite: 50.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -226,15 +248,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/screenshots/detectify-2026-07-25T211804.png
+screenshot: https://apis.io/screenshots/detectify/detectify-2026-07-25T211804.png
 security:
 - kind: authentication
   name: Detectify Authentication

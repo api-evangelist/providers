@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-17'
+  score: 28.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://loyalty.hang.xyz/partner-api
@@ -127,15 +129,67 @@ apis:
   description: The Wallet Integration API from Hang — 2 operation(s) for wallet integration.
   name: Hang Wallet Integration API
   slug: hang-wallet-integration-api
-artifact_total: 42
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The ApplicableRewards API from Hang — 1 operation(s) for applicablerewards.
+  name: Hang Applicable Rewards API
+  slug: hang-applicablerewards-api
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The BalanceCards API from Hang — 4 operation(s) for balancecards.
+  name: Hang Balance Cards API
+  slug: hang-balancecards-api
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Bingo API from Hang — 2 operation(s) for bingo.
+  name: Hang Bingo API
+  slug: hang-bingo-api
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Bingo Task API from Hang — 2 operation(s) for bingo task.
+  name: Hang Bingo Task API
+  slug: hang-bingo-task-api
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Challenges API from Hang — 5 operation(s) for challenges.
+  name: Hang Challenges API
+  slug: hang-challenges-api
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Integrations API from Hang — 3 operation(s) for integrations.
+  name: Hang Integrations API
+  slug: hang-integrations-api
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Orders API from Hang — 1 operation(s) for orders.
+  name: Hang Orders API
+  slug: hang-orders-api
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Program Segments API from Hang — 4 operation(s) for program segments.
+  name: Hang Program Segments API
+  slug: hang-program-segments-api
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Program stripe accounts API from Hang — 2 operation(s) for program stripe accounts.
+  name: Hang Program stripe accounts API
+  slug: hang-program-stripe-accounts-api
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The promotions API from Hang — 2 operation(s) for promotions.
+  name: Hang Promotions API
+  slug: hang-promotions-api
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The ToastTakeoutOrders API from Hang — 3 operation(s) for toasttakeoutorders.
+  name: Hang Toast Takeout Orders API
+  slug: hang-toasttakeoutorders-api
+artifact_total: 57
 asyncapis:
 - description: ''
   name: Hang Webhooks
   slug: hang-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Hang Partner API (params in:formData) Activities API
   slug: open-hang-activities-api
@@ -191,28 +245,33 @@ collections:
   name: Hang Partner API (params in:formData) Activities Wallet Integration API
   slug: open-hang-wallet-integration-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/hang/plans/hang-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hang-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/capabilities/hang-capability-edges.yml
+  href: https://artifacts.apis.io/hang/capabilities/hang-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hang-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/security/hang-trust-center.yml
+  href: https://artifacts.apis.io/hang/security/hang-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/hang-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/security/hang-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hang/security/hang-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hang-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/security/hang-domain-security.yml
+  href: https://artifacts.apis.io/hang/security/hang-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hang-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/authentication/hang-authentication.yml
+  href: https://artifacts.apis.io/hang/authentication/hang-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hang-authentication.yml
@@ -269,102 +328,114 @@ common:
   type: Compliance
   url: https://www.hang.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/llms/hang-llms.txt
+  href: https://artifacts.apis.io/hang/llms/hang-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hang-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/mcp/hang-mcp.yml
+  href: https://artifacts.apis.io/hang/mcp/hang-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hang-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/errors/hang-problem-types.yml
+  href: https://artifacts.apis.io/hang/errors/hang-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hang-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/conventions/hang-conventions.yml
+  href: https://artifacts.apis.io/hang/conventions/hang-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hang-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/conventions/hang-conventions.yml
+  href: https://artifacts.apis.io/hang/conventions/hang-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/hang-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/lifecycle/hang-lifecycle.yml
+  href: https://artifacts.apis.io/hang/lifecycle/hang-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hang-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/conformance/hang-conformance.yml
+  href: https://artifacts.apis.io/hang/conformance/hang-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hang-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/data-model/hang-data-model.yml
+  href: https://artifacts.apis.io/hang/data-model/hang-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hang-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/asyncapi/hang-webhooks.yml
+  href: https://artifacts.apis.io/hang/asyncapi/hang-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hang-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hang/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/overlays/hang-partner-api-overlay.yaml
+  href: https://artifacts.apis.io/hang/overlays/hang-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hang-partner-api-overlay.yaml
 created: '2026-07-17'
 description: Hang is a customer loyalty and engagement platform (originally a Paradigm-backed Web3 brand-loyalty company, now positioned as an AI-driven "autonomous marketing system") used by restaurant, beauty, apparel, and e-commerce brands to build and run tier-based membership and rewards programs. Its Partner API powers program memberships, points and activities, quests, challenges, puzzles, loot/mystery boxes, rewards and redemptions, balance/gift cards, tokenized rewards, program tiers and segments, plus point-of-sale integrations with Toast and Square and real-time webhooks. Brands can embed a white-labeled rewards portal or drive the whole loyalty experience programmatically through the REST API.
+finops:
+- has_sources: true
+  method: derived
+  name: Hang Finops
+  primary_unit: ''
+  service_category: ''
+  slug: hang-finops
+  template: true
 image: https://hang.com/og-image.png
 layout: provider
 modified: '2026-07-19'
 name: Hang
 nav: Providers
 network: true
-overview: 'Hang publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Loot Box Reward Choices API, Loot box reward probabilities API, and 15 more. Tagged areas include Company, Consumer, Loyalty, Rewards, and Membership.
+overview: 'Hang publishes 29 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Loot Box Reward Choices API, Loot box reward probabilities API, and 26 more. Tagged areas include Company, Consumer, Loyalty, Rewards, and Membership.
 
 
   The Hang catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hang''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, and 23 more developer resources.'
-random_paper: 18
+  Hang''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, and 24 more developer resources.'
+plans:
+- name: Hang Plans Pricing
+  plan_count: 0
+  slug: hang-plans-pricing
+random_paper: 6
 score:
   band: developing
-  composite: 53.4
+  composite: 50.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.1
   facets:
-    access_clarity: 55.3
+    access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 45.8
-    developer_ergonomics: 48.2
-    discoverability: 73.2
+    contract_quality: 45.5
+    developer_ergonomics: 51.8
+    discoverability: 66.1
     operational_transparency: 34.2
-  previous_composite: 53.3
+  previous_composite: 50.2
   provenance:
     conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 18
+      total: 48
     mcp: derived
     skills: derived
   regulatory:
@@ -373,13 +444,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/screenshots/hang-2026-07-25T220618.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hang/hang-2026-07-25T220618.png
 security:
 - kind: authentication
   name: Hang Authentication
@@ -397,6 +469,14 @@ security:
   name: Hang Trust Center
   slug: hang-trust-center
   summary_line: SOC 2, ISO 27001, GDPR
+skill_count: 3
+skills:
+- name: Enroll a member and record a point-earning activity
+  slug: hang-enroll-and-record-activity
+- name: Redeem a reward for a member
+  slug: hang-redeem-reward
+- name: Opt a member into a quest and claim the prize
+  slug: hang-run-quest
 slug: hang
 tags:
 - Company

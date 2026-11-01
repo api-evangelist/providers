@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,30 +25,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Buzz API is the programmable surface of the Agilix Learning Suite. It is a command-style HTTP API rather than a path-and-method REST API: every one of its 291 documented operations is issued as PO'
   name: Agilix Buzz API (DLAP / xLi)
   slug: buzz-api
-artifact_total: 8
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Agilix Datastream Webhooks
   slug: agilix-datastream-webhooks
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/rate-limits/agilix-rate-limits.yml
+  href: https://artifacts.apis.io/agilix/rate-limits/agilix-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agilix-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/security/agilix-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/agilix/security/agilix-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/agilix-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/security/agilix-domain-security.yml
+  href: https://artifacts.apis.io/agilix/security/agilix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agilix-domain-security.yml
@@ -75,12 +77,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/AgilixLabs
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/packages/agilix-packages.yml
+  href: https://artifacts.apis.io/agilix/packages/agilix-packages.yml
   title: ''
   type: SDKs
   url: packages/agilix-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/packages/agilix-packages.yml
+  href: https://artifacts.apis.io/agilix/packages/agilix-packages.yml
   title: ''
   type: Packages
   url: packages/agilix-packages.yml
@@ -105,32 +107,32 @@ common:
   type: PrivacyPolicy
   url: https://www.agilix.com/privacy
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/plans/agilix-plans-pricing.yml
+  href: https://artifacts.apis.io/agilix/plans/agilix-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agilix-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/conformance/agilix-conformance.yml
+  href: https://artifacts.apis.io/agilix/conformance/agilix-conformance.yml
   title: ''
   type: Compliance
   url: conformance/agilix-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/conformance/agilix-conformance.yml
+  href: https://artifacts.apis.io/agilix/conformance/agilix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agilix-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/well-known/agilix-well-known.yml
+  href: https://artifacts.apis.io/agilix/well-known/agilix-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agilix-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/llms/agilix-llms.txt
+  href: https://artifacts.apis.io/agilix/llms/agilix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agilix-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/lifecycle/agilix-lifecycle.yml
+  href: https://artifacts.apis.io/agilix/lifecycle/agilix-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/agilix-lifecycle.yml
@@ -147,23 +149,31 @@ common:
   type: News
   url: https://www.agilix.com/news-and-press
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/security/agilix-trust-center.yml
+  href: https://artifacts.apis.io/agilix/security/agilix-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/agilix-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/security/agilix-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/agilix/security/agilix-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/agilix-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/asyncapi/agilix-datastream-webhooks.yml
+  href: https://artifacts.apis.io/agilix/asyncapi/agilix-datastream-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/agilix-datastream-webhooks.yml
 created: '2026-09-12'
 description: Agilix Labs, Inc. is a K-12 education technology company in Orem, Utah that builds the Agilix Learning Suite — a white-label, multi-tenant set of products schools, districts, virtual and online schools and curriculum publishers use to author, deliver and assess online and blended learning. The suite is Buzz (the learning management system), TutorKit (tutoring program management), Publish Anywhere (LTI-based content distribution to any LMS), Dawn (mobile, offline-capable delivery) and BusyBee (an AI teaching assistant built into Buzz). Agilix has built learning technology for more than 25 years and reaches millions of teachers and students in 20+ languages across 200+ countries, running on AWS. Its public developer surface is the Buzz API — also called DLAP or xLi — a command-style HTTP API with 291 documented commands covering domains, users, courses, enrollments, items, questions, submissions, gradebooks, objectives, rights and licensing, plus a configurable Data Stream event
   feed with roughly 70 event types and five delivery targets including HTTPS webhooks. Buzz is a 1EdTech LTI 1.3 / LTI Advantage platform and exchanges SCORM run-time data. Authentication is OAuth 2.0 client credentials with a JWT client assertion (RFC 6749 + RFC 7523) against an Application Identity account. Agilix publishes an llms.txt for both its corporate site and its API documentation, an ai-plugin.json manifest on two API hosts, weekly dated release notes, and seven first-party sample client libraries on GitHub — but no OpenAPI, no MCP server and no agent card.
+finops:
+- has_sources: true
+  method: derived
+  name: Agilix Finops
+  primary_unit: ''
+  service_category: ''
+  slug: agilix-finops
+  template: true
 image: https://cdn.prod.website-files.com/63e3df066454cf5d1a3762bf/63fcec436021ff40163c2ad8_logo.png
 layout: provider
 modified: '2026-09-12'
@@ -181,16 +191,16 @@ plans:
 - name: Agilix Plans Pricing
   plan_count: 0
   slug: agilix-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Agilix Rate Limits
   slug: agilix-rate-limits
 score:
   band: developing
-  composite: 48.6
+  composite: 48.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -202,9 +212,9 @@ score:
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 73.2
-    discoverability: 74.1
-    operational_transparency: 76.3
-  previous_composite: 48.6
+    discoverability: 67.9
+    operational_transparency: 78.9
+  previous_composite: 48.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -215,14 +225,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 29.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/screenshots/agilix-2026-10-11T093115.png
+screenshot: https://apis.io/screenshots/agilix/agilix-2026-10-11T093115.png
 security:
 - kind: authentication
   name: Agilix Authentication
@@ -240,6 +250,12 @@ security:
   name: Agilix Trust Center
   slug: agilix-trust-center
   summary_line: SOC 2
+skill_count: 2
+skills:
+- name: agilix-buzz-data-stream-webhook
+  slug: agilix-buzz-data-stream-webhook
+- name: agilix-buzz-oauth-application-identity
+  slug: agilix-buzz-oauth-application-identity
 slug: agilix
 tags:
 - Company

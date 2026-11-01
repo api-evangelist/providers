@@ -19,7 +19,7 @@ name: Alsius
 nav: Providers
 network: true
 overview: Alsius is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Temperature Management, and Medical Technology.
-random_paper: 19
+random_paper: 9
 slug: alsius
 tags:
 - Company

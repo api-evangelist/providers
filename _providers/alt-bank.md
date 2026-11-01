@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Real-time consumer credit underwriting / risk-assessment API. Partners POST an underwriting request for a credit-card applicant and receive a Guard Score, risk band and credit-limit decision. The call
@@ -60,19 +62,16 @@ asyncapis:
   slug: alt-bank-guard-webhooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: alt.bank GUARD Underwriting API
   slug: open-alt-bank-underwriting-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/capabilities/alt-bank-capability-edges.yml
+  href: https://artifacts.apis.io/alt-bank/capabilities/alt-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/alt-bank-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/security/alt-bank-domain-security.yml
+  href: https://artifacts.apis.io/alt-bank/security/alt-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alt-bank-domain-security.yml
@@ -105,42 +104,42 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/alt-bank
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/authentication/alt-bank-authentication.yml
+  href: https://artifacts.apis.io/alt-bank/authentication/alt-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alt-bank-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/conventions/alt-bank-conventions.yml
+  href: https://artifacts.apis.io/alt-bank/conventions/alt-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alt-bank-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/sandbox/alt-bank-sandbox.yml
+  href: https://artifacts.apis.io/alt-bank/sandbox/alt-bank-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/alt-bank-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/asyncapi/alt-bank-guard-webhooks.yml
+  href: https://artifacts.apis.io/alt-bank/asyncapi/alt-bank-guard-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/alt-bank-guard-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/mcp/alt-bank-mcp.yml
+  href: https://artifacts.apis.io/alt-bank/mcp/alt-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/alt-bank-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/llms/alt-bank-llms.txt
+  href: https://artifacts.apis.io/alt-bank/llms/alt-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alt-bank-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/well-known/alt-bank-well-known.yml
+  href: https://artifacts.apis.io/alt-bank/well-known/alt-bank-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alt-bank-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/alt-bank/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -159,12 +158,12 @@ overview: 'Alt Bank publishes 4 API contracts indexed on the [APIs.io](https://a
 
 
   Alt Bank''s developer surface includes documentation, getting-started guide, API reference, support, authentication, sandbox, and 11 more developer resources.'
-random_paper: 8
+random_paper: 10
 score:
-  band: emerging
-  composite: 23.5
+  band: thin
+  composite: 32.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -175,8 +174,8 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 57.6
-    developer_ergonomics: 18.5
-    discoverability: 64.3
+    developer_ergonomics: 63.7
+    discoverability: 57.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -185,7 +184,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 23.5
+  previous_composite: 32.6
   provenance:
     contracts:
       callable: 100.0
@@ -200,13 +199,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/screenshots/alt-bank-2026-07-25T195815.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/alt-bank/alt-bank-2026-07-25T195815.png
 security:
 - kind: authentication
   name: Alt Bank Authentication
@@ -216,6 +216,10 @@ security:
   name: Alt Bank Domain Security
   slug: alt-bank-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: Submit a GUARD credit-card underwriting
+  slug: alt-bank-submit-underwriting
 slug: alt-bank
 tags:
 - Company

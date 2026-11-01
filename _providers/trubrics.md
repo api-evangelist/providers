@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,11 +56,8 @@ apis:
   description: The LLM Events API from Trubrics — 1 operation(s) for llm events.
   name: Trubrics LLM Events API
   slug: trubrics-llm-events-api
-artifact_total: 12
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Trubrics Ingestion Events API
   slug: open-trubrics-events-api
@@ -70,22 +69,22 @@ collections:
   slug: open-trubrics
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/capabilities/trubrics-capability-edges.yml
+  href: https://artifacts.apis.io/trubrics/capabilities/trubrics-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/trubrics-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/agentic-access/trubrics-agentic-access.yml
+  href: https://artifacts.apis.io/trubrics/agentic-access/trubrics-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trubrics-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/security/trubrics-domain-security.yml
+  href: https://artifacts.apis.io/trubrics/security/trubrics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trubrics-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/authentication/trubrics-authentication.yml
+  href: https://artifacts.apis.io/trubrics/authentication/trubrics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trubrics-authentication.yml
@@ -106,17 +105,17 @@ common:
   type: Documentation
   url: https://docs.trubrics.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/plans/trubrics-plans-pricing.yml
+  href: https://artifacts.apis.io/trubrics/plans/trubrics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trubrics-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/rate-limits/trubrics-rate-limits.yml
+  href: https://artifacts.apis.io/trubrics/rate-limits/trubrics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trubrics-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/finops/trubrics-finops.yml
+  href: https://artifacts.apis.io/trubrics/finops/trubrics-finops.yml
   title: ''
   type: FinOps
   url: finops/trubrics-finops.yml
@@ -144,14 +143,14 @@ plans:
 - name: Trubrics Plans Pricing
   plan_count: 3
   slug: trubrics-plans-pricing
-random_paper: 20
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Trubrics Rate Limits
   slug: trubrics-rate-limits
 score:
   band: thin
-  composite: 27.4
+  composite: 28.4
   coverage:
     artifact_dirs: 11
     catalog_earned: 43.0
@@ -159,15 +158,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 52.7
     developer_ergonomics: 29.8
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 35.6
+    operational_transparency: 13.2
+  previous_composite: 28.4
   provenance:
     agentic_access: derived
     contracts:
@@ -181,13 +180,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/screenshots/trubrics-2026-06-20T195747.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/trubrics/trubrics-2026-06-20T195747.png
 security:
 - kind: authentication
   name: Trubrics Authentication

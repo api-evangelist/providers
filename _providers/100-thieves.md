@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -54,14 +56,14 @@ apis:
 - description: The read-only JSON surface the store documents for agents that only need to browse catalog data without transacting - product JSON by handle, collection product listings, and product search. No authen
   name: 100 Thieves Storefront JSON Endpoints
   slug: 100-thieves-storefront-json
-artifact_total: 8
+artifact_total: 11
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://100thieves.com/blogs/news.atom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/security/100-thieves-domain-security.yml
+  href: https://artifacts.apis.io/100-thieves/security/100-thieves-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/100-thieves-domain-security.yml
@@ -74,62 +76,62 @@ common:
   type: Documentation
   url: https://100thieves.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/llms/100-thieves-llms.txt
+  href: https://artifacts.apis.io/100-thieves/llms/100-thieves-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/100-thieves-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/well-known/100-thieves-well-known.yml
+  href: https://artifacts.apis.io/100-thieves/well-known/100-thieves-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/100-thieves-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/authentication/100-thieves-authentication.yml
+  href: https://artifacts.apis.io/100-thieves/authentication/100-thieves-authentication.yml
   title: ''
   type: Authentication
   url: authentication/100-thieves-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/scopes/100-thieves-scopes.yml
+  href: https://artifacts.apis.io/100-thieves/scopes/100-thieves-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/100-thieves-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/well-known/100-thieves-openid-configuration.json
+  href: https://artifacts.apis.io/100-thieves/well-known/100-thieves-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/100-thieves-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/conventions/100-thieves-conventions.yml
+  href: https://artifacts.apis.io/100-thieves/conventions/100-thieves-conventions.yml
   title: ''
   type: Conventions
   url: conventions/100-thieves-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/conformance/100-thieves-conformance.yml
+  href: https://artifacts.apis.io/100-thieves/conformance/100-thieves-conformance.yml
   title: ''
   type: Conformance
   url: conformance/100-thieves-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/errors/100-thieves-problem-types.yml
+  href: https://artifacts.apis.io/100-thieves/errors/100-thieves-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/100-thieves-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/lifecycle/100-thieves-lifecycle.yml
+  href: https://artifacts.apis.io/100-thieves/lifecycle/100-thieves-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/100-thieves-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/data-model/100-thieves-data-model.yml
+  href: https://artifacts.apis.io/100-thieves/data-model/100-thieves-data-model.yml
   title: ''
   type: DataModel
   url: data-model/100-thieves-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/100-thieves/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/agentic-access/100-thieves-agentic-access.yml
+  href: https://artifacts.apis.io/100-thieves/agentic-access/100-thieves-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/100-thieves-agentic-access.yml
@@ -169,7 +171,7 @@ overview: '100 Thieves is listed with 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   100 Thieves'' developer surface includes documentation, authentication, engineering blog, support, signup flow, and 16 more developer resources.'
-random_paper: 4
+random_paper: 14
 scopes:
 - name: 100 Thieves Scopes
   scope_count: 4
@@ -177,7 +179,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 27.8
+  composite: 26.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 35.0
@@ -185,13 +187,13 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 10.4
     developer_ergonomics: 30.4
-    discoverability: 71.7
+    discoverability: 61.7
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -200,7 +202,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 27.7
+  previous_composite: 26.8
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -212,14 +214,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/screenshots/100-thieves-2026-08-07T160646.png
+screenshot: https://apis.io/screenshots/100-thieves/100-thieves-2026-08-07T160646.png
 security:
 - kind: authentication
   name: 100 Thieves Authentication
@@ -229,6 +231,14 @@ security:
   name: 100 Thieves Domain Security
   slug: 100-thieves-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Browse the 100 Thieves catalog
+  slug: 100-thieves-browse-catalog
+- name: Build and maintain a 100 Thieves cart
+  slug: 100-thieves-build-cart
+- name: Complete a 100 Thieves checkout with buyer approval
+  slug: 100-thieves-checkout-with-buyer-approval
 slug: 100-thieves
 tags:
 - Company

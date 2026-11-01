@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 17.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -81,11 +83,8 @@ apis:
   description: The Users API from Travis CI — 4 operation(s) for users.
   name: Travis CI Users API
   slug: travis-ci-users-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Travis CI REST API v3 Builds API
   slug: open-travis-ci-builds-api
@@ -109,22 +108,22 @@ collections:
   slug: open-travis-ci
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/capabilities/travis-ci-capability-edges.yml
+  href: https://artifacts.apis.io/travis-ci/capabilities/travis-ci-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/travis-ci-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/agentic-access/travis-ci-agentic-access.yml
+  href: https://artifacts.apis.io/travis-ci/agentic-access/travis-ci-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/travis-ci-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/security/travis-ci-domain-security.yml
+  href: https://artifacts.apis.io/travis-ci/security/travis-ci-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/travis-ci-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/authentication/travis-ci-authentication.yml
+  href: https://artifacts.apis.io/travis-ci/authentication/travis-ci-authentication.yml
   title: ''
   type: Authentication
   url: authentication/travis-ci-authentication.yml
@@ -153,17 +152,17 @@ common:
   type: StatusPage
   url: https://www.traviscistatus.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/plans/travis-ci-plans-pricing.yml
+  href: https://artifacts.apis.io/travis-ci/plans/travis-ci-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/travis-ci-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/rate-limits/travis-ci-rate-limits.yml
+  href: https://artifacts.apis.io/travis-ci/rate-limits/travis-ci-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/travis-ci-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/finops/travis-ci-finops.yml
+  href: https://artifacts.apis.io/travis-ci/finops/travis-ci-finops.yml
   title: ''
   type: FinOps
   url: finops/travis-ci-finops.yml
@@ -177,7 +176,7 @@ finops:
 - has_sources: true
   method: generated
   name: Travis Ci Finops
-  primary_unit: ''
+  primary_unit: build-credit
   service_category: DevOps / CI/CD
   slug: travis-ci-finops
   template: false
@@ -195,30 +194,30 @@ plans:
 - name: Travis Ci Plans Pricing
   plan_count: 6
   slug: travis-ci-plans-pricing
-random_paper: 12
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Travis Ci Rate Limits
   slug: travis-ci-rate-limits
 score:
   band: thin
-  composite: 28.9
+  composite: 31.2
   coverage:
     artifact_dirs: 13
-    catalog_earned: 43.0
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 18.4
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 30.4
+  previous_composite: 29.6
   provenance:
     agentic_access: derived
     contracts:
@@ -232,13 +231,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/screenshots/travis-ci-2026-06-20T195637.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/travis-ci/travis-ci-2026-06-20T195637.png
 security:
 - kind: authentication
   name: Travis Ci Authentication

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://www.riiid.com
@@ -57,11 +59,8 @@ apis:
   description: B2B / AI-as-a-Service (R.Inside) engagements that embed Riiid's adaptive learning and knowledge-tracing AI into partner education platforms. Access is sales-led and contract-based via partnership@socr
   name: Riiid Partner Solutions
   slug: partner-solutions
-artifact_total: 10
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Riiid API
   slug: open-riiid
@@ -71,7 +70,7 @@ common:
   type: Blog
   url: https://corp.socra.ai/stories
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/security/riiid-domain-security.yml
+  href: https://artifacts.apis.io/riiid/security/riiid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/riiid-domain-security.yml
@@ -92,17 +91,17 @@ common:
   type: Documentation
   url: https://corp.socra.ai/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/plans/riiid-plans-pricing.yml
+  href: https://artifacts.apis.io/riiid/plans/riiid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/riiid-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/rate-limits/riiid-rate-limits.yml
+  href: https://artifacts.apis.io/riiid/rate-limits/riiid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/riiid-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/finops/riiid-finops.yml
+  href: https://artifacts.apis.io/riiid/finops/riiid-finops.yml
   title: ''
   type: FinOps
   url: finops/riiid-finops.yml
@@ -137,7 +136,7 @@ rate_limits:
   slug: riiid-rate-limits
 score:
   band: emerging
-  composite: 17.1
+  composite: 19.2
   coverage:
     artifact_dirs: 9
     catalog_earned: 36.0
@@ -145,29 +144,29 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
-    contract_quality: 25.1
+    contract_quality: 32.1
     developer_ergonomics: 11.9
     discoverability: 57.1
-    operational_transparency: 7.9
-  previous_composite: 22.7
+    operational_transparency: 10.5
+  previous_composite: 19.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/screenshots/riiid-2026-09-02T153824.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/riiid/riiid-2026-09-02T153824.png
 security:
 - kind: domain-security
   name: Riiid Domain Security

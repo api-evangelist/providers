@@ -31,14 +31,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.9
-  scored_at: '2026-10-17'
+  score: 40.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -82,11 +84,8 @@ apis:
 - description: The CloudHealth Platform REST API programmatically retrieves and manages data from the CloudHealth Platform — AWS/Azure/GCP accounts, assets, perspectives, billing rules, metrics, OLAP reports, polici
   name: CloudHealth Platform API
   slug: cloudhealth-platform-api
-artifact_total: 26
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CloudHealth REST AWS Accounts API
   slug: open-cloudhealth-aws-accounts-api
@@ -107,12 +106,12 @@ collections:
   slug: open-cloudhealth
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/finops/cloudhealth-finops.yml
+  href: https://artifacts.apis.io/cloudhealth/finops/cloudhealth-finops.yml
   title: ''
   type: FinOps
   url: finops/cloudhealth-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/capabilities/cloudhealth-capability-edges.yml
+  href: https://artifacts.apis.io/cloudhealth/capabilities/cloudhealth-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cloudhealth-capability-edges.yml
@@ -121,17 +120,17 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/vmware/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/agentic-access/cloudhealth-agentic-access.yml
+  href: https://artifacts.apis.io/cloudhealth/agentic-access/cloudhealth-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cloudhealth-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/security/cloudhealth-domain-security.yml
+  href: https://artifacts.apis.io/cloudhealth/security/cloudhealth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudhealth-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/authentication/cloudhealth-authentication.yml
+  href: https://artifacts.apis.io/cloudhealth/authentication/cloudhealth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloudhealth-authentication.yml
@@ -164,12 +163,12 @@ common:
   type: PrivacyPolicy
   url: https://www.broadcom.com/company/legal/privacy/policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/json-ld/cloudhealth-context.jsonld
+  href: https://artifacts.apis.io/cloudhealth/json-ld/cloudhealth-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cloudhealth-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/rules/cloudhealth-rules.yml
+  href: https://artifacts.apis.io/cloudhealth/rules/cloudhealth-rules.yml
   title: ''
   type: Spectral
   url: rules/cloudhealth-rules.yml
@@ -202,75 +201,75 @@ common:
   type: Pricing
   url: https://aws.amazon.com/marketplace/pp/prodview-btyciyjmdewhm
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/well-known/cloudhealth-well-known.yml
+  href: https://artifacts.apis.io/cloudhealth/well-known/cloudhealth-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cloudhealth-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/mcp/cloudhealth-mcp.yml
+  href: https://artifacts.apis.io/cloudhealth/mcp/cloudhealth-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cloudhealth-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/scopes/cloudhealth-scopes.yml
+  href: https://artifacts.apis.io/cloudhealth/scopes/cloudhealth-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cloudhealth-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/conventions/cloudhealth-conventions.yml
+  href: https://artifacts.apis.io/cloudhealth/conventions/cloudhealth-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cloudhealth-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/errors/cloudhealth-problem-types.yml
+  href: https://artifacts.apis.io/cloudhealth/errors/cloudhealth-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cloudhealth-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/lifecycle/cloudhealth-lifecycle.yml
+  href: https://artifacts.apis.io/cloudhealth/lifecycle/cloudhealth-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cloudhealth-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/rate-limits/cloudhealth-rate-limits.yml
+  href: https://artifacts.apis.io/cloudhealth/rate-limits/cloudhealth-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cloudhealth-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/plans/cloudhealth-plans-pricing.yml
+  href: https://artifacts.apis.io/cloudhealth/plans/cloudhealth-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloudhealth-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/packages/cloudhealth-packages.yml
+  href: https://artifacts.apis.io/cloudhealth/packages/cloudhealth-packages.yml
   title: ''
   type: Packages
   url: packages/cloudhealth-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/conformance/cloudhealth-conformance.yml
+  href: https://artifacts.apis.io/cloudhealth/conformance/cloudhealth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cloudhealth-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/llms/cloudhealth-llms.txt
+  href: https://artifacts.apis.io/cloudhealth/llms/cloudhealth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cloudhealth-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cloudhealth/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-03-16'
 description: CloudHealth (now VMware Tanzu CloudHealth, owned by Broadcom) is a multi-cloud financial and operational management platform. It provides cost visibility, optimization recommendations, asset inventory, custom perspectives (groupings), policies, governance, and partner/MSP billing workflows across AWS, Azure, GCP, Oracle, and data center environments. The platform exposes both a REST API and a GraphQL API for programmatic access to reports, assets, accounts, perspectives, tags, metrics, and partner customer provisioning.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Cloudhealth Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: contract
+  service_category: ''
   slug: cloudhealth-finops
-  template: true
+  template: false
 graphqls:
 - description: GraphQL API exposed in the CloudHealth UI under Setup > Admin > GraphQL Explorer for programmatic interaction with the platform's reporting and asset data model.
   name: CloudHealth GraphQL API
@@ -301,7 +300,10 @@ plans:
 - name: Cloudhealth Plans Pricing
   plan_count: 3
   slug: cloudhealth-plans-pricing
-random_paper: 21
+- name: Cloudhealth Price Estimates
+  plan_count: 0
+  slug: cloudhealth-price-estimates
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Cloudhealth Rate Limits
@@ -325,24 +327,24 @@ scopes:
   slug: cloudhealth-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 52.2
+  band: strong
+  composite: 56.2
   coverage:
     artifact_dirs: 26
-    catalog_earned: 72.8
+    catalog_earned: 75.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 42.3
+    catalog_gap: 39.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.0
+  delta: 1.5
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 29.5
-    contract_quality: 57.8
-    developer_ergonomics: 31.5
-    discoverability: 73.3
-    operational_transparency: 34.2
-  previous_composite: 57.2
+    contract_quality: 54.8
+    developer_ergonomics: 37.5
+    discoverability: 70.0
+    operational_transparency: 36.8
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -359,13 +361,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/screenshots/cloudhealth-2026-06-20T174608.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cloudhealth/cloudhealth-2026-06-20T174608.png
 security:
 - kind: authentication
   name: Cloudhealth Authentication
@@ -375,6 +378,12 @@ security:
   name: Cloudhealth Domain Security
   slug: cloudhealth-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: cloudhealth-cost-history-report
+  slug: cloudhealth-cost-history-report
+- name: cloudhealth-enable-aws-account
+  slug: cloudhealth-enable-aws-account
 slug: cloudhealth
 tags:
 - Cloud Cost

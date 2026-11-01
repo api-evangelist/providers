@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Wholesale reseller API for domain-name lookup, registration, transfer, renewal, DNS-zone management and TLS/SSL certificate ordering. An XML-over-HTTPS POST protocol authenticated with a reseller user
@@ -44,7 +46,7 @@ apis:
 - description: The OpenSRS Mail API is the provisioning interface for the OpenSRS hosted email system — create, modify and delete mailboxes, aliases, domains and other aspects of the service. A stateless web service
   name: OpenSRS Email API (OMA)
   slug: opensrs-email-api-oma
-artifact_total: 5
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Tucows Opensrs Domains Events
@@ -103,67 +105,67 @@ common:
   type: TermsOfService
   url: https://opensrs.com/payment-terms/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tucows/refs/heads/main/llms/tucows-llms.txt
+  href: https://artifacts.apis.io/tucows/llms/tucows-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tucows-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tucows/refs/heads/main/authentication/tucows-authentication.yml
+  href: https://artifacts.apis.io/tucows/authentication/tucows-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tucows-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tucows/refs/heads/main/errors/tucows-problem-types.yml
+  href: https://artifacts.apis.io/tucows/errors/tucows-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tucows-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tucows/refs/heads/main/conventions/tucows-conventions.yml
+  href: https://artifacts.apis.io/tucows/conventions/tucows-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tucows-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tucows/refs/heads/main/lifecycle/tucows-lifecycle.yml
+  href: https://artifacts.apis.io/tucows/lifecycle/tucows-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tucows-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tucows/refs/heads/main/lifecycle/tucows-lifecycle.yml
+  href: https://artifacts.apis.io/tucows/lifecycle/tucows-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/tucows-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/tucows/refs/heads/main/sandbox/tucows-sandbox.yml
+  href: https://artifacts.apis.io/tucows/sandbox/tucows-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tucows-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tucows/refs/heads/main/mcp/tucows-mcp.yml
+  href: https://artifacts.apis.io/tucows/mcp/tucows-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tucows-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tucows/refs/heads/main/asyncapi/tucows-opensrs-domains-events.yml
+  href: https://artifacts.apis.io/tucows/asyncapi/tucows-opensrs-domains-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/tucows-opensrs-domains-events.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tucows/refs/heads/main/conformance/tucows-conformance.yml
+  href: https://artifacts.apis.io/tucows/conformance/tucows-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tucows-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tucows/refs/heads/main/data-model/tucows-data-model.yml
+  href: https://artifacts.apis.io/tucows/data-model/tucows-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tucows-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tucows/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tucows/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tucows/refs/heads/main/security/tucows-domain-security.yml
+  href: https://artifacts.apis.io/tucows/security/tucows-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tucows-domain-security.yml
@@ -182,26 +184,26 @@ overview: 'Tucows is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Tucows'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, authentication, and 19 more developer resources.'
-random_paper: 17
+random_paper: 5
 score:
-  band: thin
-  composite: 39.1
+  band: developing
+  composite: 43.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 38.6
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 43.9
   provenance:
     conformance: derived
     mcp: derived
@@ -212,14 +214,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tucows/refs/heads/main/screenshots/tucows-2026-08-17T082459.png
+screenshot: https://apis.io/screenshots/tucows/tucows-2026-08-17T082459.png
 security:
 - kind: authentication
   name: Tucows Authentication
@@ -229,6 +231,14 @@ security:
   name: Tucows Domain Security
   slug: tucows-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Order an SSL/TLS certificate
+  slug: tucows-order-ssl-certificate
+- name: Register a domain with OpenSRS
+  slug: tucows-register-a-domain
+- name: Find expiring domains and renew them
+  slug: tucows-renew-and-manage-domains
 slug: tucows
 tags:
 - Company

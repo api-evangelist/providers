@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.4
-  scored_at: '2026-10-17'
+  score: 28.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 26
   slug: dopesecurity-agentic-access
   summary_line: 26 operations · 17 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.flightdeck.dope.security/v1
   baseurl_source: declared
@@ -64,11 +66,8 @@ apis:
   description: Everything about your Policies
   name: dope.security Policies API
   slug: dopesecurity-policies-api
-artifact_total: 15
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Flightdeck - dope.security - Public API specification Authorization API
   slug: open-dopesecurity-authorization-api
@@ -82,13 +81,22 @@ collections:
   name: Flightdeck - dope.security - Public API specification Authorization Policies API
   slug: open-dopesecurity-policies-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/dopesecurity/plans/dopesecurity-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dopesecurity-plans-pricing.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/dopesecurity/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/capabilities/dopesecurity-capability-edges.yml
+  href: https://artifacts.apis.io/dopesecurity/capabilities/dopesecurity-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dopesecurity-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/security/dopesecurity-trust-center.yml
+  href: https://artifacts.apis.io/dopesecurity/security/dopesecurity-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/dopesecurity-trust-center.yml
@@ -153,97 +161,105 @@ common:
   type: Security
   url: https://dope.security/.well-known/security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/llms/dopesecurity-llms.txt
+  href: https://artifacts.apis.io/dopesecurity/llms/dopesecurity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dopesecurity-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/mcp/dopesecurity-mcp.yml
+  href: https://artifacts.apis.io/dopesecurity/mcp/dopesecurity-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dopesecurity-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/packages/dopesecurity-packages.yml
+  href: https://artifacts.apis.io/dopesecurity/packages/dopesecurity-packages.yml
   title: ''
   type: Packages
   url: packages/dopesecurity-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/cli/dopesecurity-cli.yml
+  href: https://artifacts.apis.io/dopesecurity/cli/dopesecurity-cli.yml
   title: ''
   type: CLI
   url: cli/dopesecurity-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/well-known/dopesecurity-well-known.yml
+  href: https://artifacts.apis.io/dopesecurity/well-known/dopesecurity-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dopesecurity-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/well-known/dopesecurity-security.txt
+  href: https://artifacts.apis.io/dopesecurity/well-known/dopesecurity-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/dopesecurity-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/authentication/dopesecurity-authentication.yml
+  href: https://artifacts.apis.io/dopesecurity/authentication/dopesecurity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dopesecurity-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/conventions/dopesecurity-conventions.yml
+  href: https://artifacts.apis.io/dopesecurity/conventions/dopesecurity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dopesecurity-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/errors/dopesecurity-problem-types.yml
+  href: https://artifacts.apis.io/dopesecurity/errors/dopesecurity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dopesecurity-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/lifecycle/dopesecurity-lifecycle.yml
+  href: https://artifacts.apis.io/dopesecurity/lifecycle/dopesecurity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dopesecurity-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/conformance/dopesecurity-conformance.yml
+  href: https://artifacts.apis.io/dopesecurity/conformance/dopesecurity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dopesecurity-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/data-model/dopesecurity-data-model.yml
+  href: https://artifacts.apis.io/dopesecurity/data-model/dopesecurity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dopesecurity-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/changelog/dopesecurity-changelog.yml
+  href: https://artifacts.apis.io/dopesecurity/changelog/dopesecurity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dopesecurity-changelog.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/overlays/dopesecurity-flightdeck-overlay.yaml
+  href: https://artifacts.apis.io/dopesecurity/overlays/dopesecurity-flightdeck-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dopesecurity-flightdeck-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/security/dopesecurity-domain-security.yml
+  href: https://artifacts.apis.io/dopesecurity/security/dopesecurity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dopesecurity-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/security/dopesecurity-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dopesecurity/security/dopesecurity-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dopesecurity-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/agentic-access/dopesecurity-agentic-access.yml
+  href: https://artifacts.apis.io/dopesecurity/agentic-access/dopesecurity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dopesecurity-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dopesecurity/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: dope.security is a cybersecurity company that builds the first fly-direct Secure Web Gateway (dope.swg) — a next-generation SWG that runs security directly on the endpoint (on-device proxy, local SSL inspection, URL and category filtering, cloud application control) instead of routing traffic through a data-center stopover, alongside AI-powered Data Loss Prevention and a neural CASB (casb.neural) for shadow IT/AI discovery and data posture. Its Flightdeck partner API lets administrators manage policies, custom URL categories, URL/application bypass lists, SSL inspection, and endpoint status programmatically, and it ships an official open-source MCP server. Founded in 2021, based in Mountain View and Cork, and backed by GV.
+finops:
+- has_sources: true
+  method: derived
+  name: Dopesecurity Finops
+  primary_unit: ''
+  service_category: ''
+  slug: dopesecurity-finops
+  template: true
 image: https://fly.dope.security/DS_192x192.png
 layout: provider
 mcp_servers:
@@ -257,26 +273,30 @@ network: true
 overview: 'dope.security publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorization API, Custom Categories API, Endpoints API, and 1 more. Tagged areas include Company, Enterprise, Security, Cybersecurity, and Secure Web Gateway.
 
 
-  dope.security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, CLI, and 28 more developer resources.'
-random_paper: 14
+  dope.security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, CLI, and 30 more developer resources.'
+plans:
+- name: Dopesecurity Plans Pricing
+  plan_count: 4
+  slug: dopesecurity-plans-pricing
+random_paper: 16
 score:
   band: strong
-  composite: 55.4
+  composite: 62.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 6.5
   facets:
-    access_clarity: 53.9
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 50.7
-    developer_ergonomics: 66.1
-    discoverability: 71.7
-    operational_transparency: 36.8
+    developer_ergonomics: 67.3
+    discoverability: 65.0
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -284,7 +304,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 55.3
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -305,13 +325,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/screenshots/dopesecurity-2026-07-25T212307.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dopesecurity/dopesecurity-2026-07-25T212307.png
 security:
 - kind: authentication
   name: Dopesecurity Authentication
@@ -329,6 +350,16 @@ security:
   name: Dopesecurity Trust Center
   slug: dopesecurity-trust-center
   summary_line: SOC 2 Type II, GDPR
+skill_count: 4
+skills:
+- name: Audit the endpoint fleet
+  slug: dopesecurity-audit-endpoints
+- name: Authenticate to the Flightdeck API
+  slug: dopesecurity-authenticate
+- name: Configure a web policy
+  slug: dopesecurity-configure-web-policy
+- name: Curate custom URL categories
+  slug: dopesecurity-manage-custom-categories
 slug: dopesecurity
 tags:
 - Company

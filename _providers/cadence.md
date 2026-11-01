@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Cadence Design Systems delivers software and IP for electronic design automation, including IC and PCB design, verification, emulation, and system analysis. The EDA product lines (Virtuoso, Allegro X,
@@ -47,8 +49,32 @@ apis:
   slug: mmds
 artifact_total: 9
 common:
+- group: operate
+  href: https://artifacts.apis.io/cadence/lifecycle/cadence-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/cadence-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/finops/cadence-finops.yml
+  title: ''
+  type: TermsOfService
+  url: https://www.cadence.com/en_US/home/terms-of-use-agreement.html
+- group: other
+  href: https://artifacts.apis.io/cadence/hosts/cadence-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/cadence-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/cadence/integrations/cadence-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/cadence-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/cadence/vendors/cadence-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/cadence-vendors.yml
+- group: commercial
+  href: https://artifacts.apis.io/cadence/finops/cadence-finops.yml
   title: ''
   type: FinOps
   url: finops/cadence-finops.yml
@@ -57,7 +83,7 @@ common:
   type: BlogRSS
   url: https://community.cadence.com/rss
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/security/cadence-domain-security.yml
+  href: https://artifacts.apis.io/cadence/security/cadence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cadence-domain-security.yml
@@ -97,62 +123,58 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.cadence.com/en_US/home/privacy-policy.html
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://www.cadence.com/en_US/home/terms-of-use.html
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/packages/cadence-packages.yml
+  href: https://artifacts.apis.io/cadence/packages/cadence-packages.yml
   title: ''
   type: Packages
   url: packages/cadence-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/packages/cadence-packages.yml
+  href: https://artifacts.apis.io/cadence/packages/cadence-packages.yml
   title: ''
   type: SDKs
   url: packages/cadence-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/cli/cadence-cli.yml
+  href: https://artifacts.apis.io/cadence/cli/cadence-cli.yml
   title: ''
   type: CLI
   url: cli/cadence-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/authentication/cadence-authentication.yml
+  href: https://artifacts.apis.io/cadence/authentication/cadence-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cadence-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/scopes/cadence-scopes.yml
+  href: https://artifacts.apis.io/cadence/scopes/cadence-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cadence-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/conventions/cadence-conventions.yml
+  href: https://artifacts.apis.io/cadence/conventions/cadence-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cadence-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/changelog/cadence-changelog.yml
+  href: https://artifacts.apis.io/cadence/changelog/cadence-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cadence-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/lifecycle/cadence-lifecycle.yml
+  href: https://artifacts.apis.io/cadence/lifecycle/cadence-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cadence-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/well-known/cadence-well-known.yml
+  href: https://artifacts.apis.io/cadence/well-known/cadence-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cadence-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/llms/cadence-llms.txt
+  href: https://artifacts.apis.io/cadence/llms/cadence-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cadence-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/conformance/cadence-conformance.yml
+  href: https://artifacts.apis.io/cadence/conformance/cadence-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cadence-conformance.yml
@@ -161,12 +183,12 @@ common:
   type: Compliance
   url: https://www.cadence.com/en_US/home/resources/technical-briefs/cloud-security-tb.html
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/plans/cadence-plans-pricing.yml
+  href: https://artifacts.apis.io/cadence/plans/cadence-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cadence-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/rate-limits/cadence-rate-limits.yml
+  href: https://artifacts.apis.io/cadence/rate-limits/cadence-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cadence-rate-limits.yml
@@ -198,13 +220,25 @@ common:
   title: ''
   type: Blog
   url: https://www.eyesopen.com/blog
+coverage:
+  checked: '2026-10-20'
+  detail: Cadence EDA tools are scripted via SKILL/Tcl inside licensed installs; the OpenEye Orion and MMDS services publish only Python client/CLI docs, and no OpenAPI is served (mmds.eyesopen.com/openapi.json and orion.eyesopen.com/openapi.json both 404).
+  evidence:
+  - status: 404
+    url: https://mmds.eyesopen.com/openapi.json
+  - status: 404
+    url: https://orion.eyesopen.com/openapi.json
+  - status: 200
+    url: https://docs.eyesopen.com/webservices/mmds/client.html
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-03-26'
 description: Cadence Design Systems is a multinational electronic design automation (EDA) software and hardware company. Cadence provides tools for designing integrated circuits, systems on chips, printed circuit boards, and pharmaceutical drugs, with a portfolio that includes Virtuoso, Spectre, Genus, Innovus, JasperGold, Xcelium, Palladium, Allegro, OrCAD, and AI tools such as Cerebrus and ChipGPT.
 finops:
 - has_sources: false
   method: generated
   name: Cadence Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: cadence-finops
   template: true
@@ -217,12 +251,12 @@ network: true
 overview: 'Cadence Design Systems is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Electronic Design Automation, EDA, Semiconductors, Chip Design, and IC Design.
 
 
-  Cadence Design Systems'' developer surface includes support, CLI, authentication, changelog, documentation, API reference, getting-started guide, and 27 more developer resources.'
+  Cadence Design Systems'' developer surface includes support, CLI, authentication, changelog, documentation, API reference, getting-started guide, and 31 more developer resources.'
 plans:
 - name: Cadence Plans Pricing
   plan_count: 0
   slug: cadence-plans-pricing
-random_paper: 3
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Cadence Rate Limits
@@ -234,23 +268,23 @@ scopes:
   summary_line: 36 scopes
 score:
   band: thin
-  composite: 35.3
+  composite: 38.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 20
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 70.5
-    operational_transparency: 18.4
-  previous_composite: 36.8
+    discoverability: 64.3
+    operational_transparency: 28.9
+  previous_composite: 38.7
   provenance:
     conformance: first-party
   regulatory:
@@ -258,15 +292,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 39.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/screenshots/cadence-2026-06-20T173836.png
+screenshot: https://apis.io/screenshots/cadence/cadence-2026-06-20T173836.png
 security:
 - kind: authentication
   name: Cadence Authentication
@@ -275,7 +309,7 @@ security:
 - kind: domain-security
   name: Cadence Domain Security
   slug: cadence-domain-security
-  summary_line: TLSv1.2 · DNSSEC · DMARC
+  summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 slug: cadence
 tags:
 - Electronic Design Automation

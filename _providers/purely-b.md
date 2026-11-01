@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -51,32 +53,32 @@ common:
   type: Website
   url: https://purelyb.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/purely-b/refs/heads/main/mcp/purely-b-mcp.yml
+  href: https://artifacts.apis.io/purely-b/mcp/purely-b-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/purely-b-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/purely-b/refs/heads/main/authentication/purely-b-authentication.yml
+  href: https://artifacts.apis.io/purely-b/authentication/purely-b-authentication.yml
   title: ''
   type: Authentication
   url: authentication/purely-b-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/purely-b/refs/heads/main/conventions/purely-b-conventions.yml
+  href: https://artifacts.apis.io/purely-b/conventions/purely-b-conventions.yml
   title: ''
   type: Conventions
   url: conventions/purely-b-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/purely-b/refs/heads/main/well-known/purely-b-well-known.yml
+  href: https://artifacts.apis.io/purely-b/well-known/purely-b-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/purely-b-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/purely-b/refs/heads/main/llms/purely-b-llms.txt
+  href: https://artifacts.apis.io/purely-b/llms/purely-b-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/purely-b-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/purely-b/refs/heads/main/security/purely-b-domain-security.yml
+  href: https://artifacts.apis.io/purely-b/security/purely-b-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/purely-b-domain-security.yml
@@ -104,10 +106,10 @@ overview: 'Purely B is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Purely B''s developer surface includes engineering blog, authentication, and 9 more developer resources.'
-random_paper: 2
+random_paper: 0
 score:
   band: emerging
-  composite: 13.3
+  composite: 12.6
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -115,15 +117,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 55.0
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 12.7
+  previous_composite: 12.6
   provenance:
     mcp: first-party
   regulatory:
@@ -132,14 +134,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/purely-b/refs/heads/main/screenshots/purely-b-2026-09-02T152348.png
+screenshot: https://apis.io/screenshots/purely-b/purely-b-2026-09-02T152348.png
 security:
 - kind: authentication
   name: Purely B Authentication

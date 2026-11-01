@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,32 +37,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alterna-savings/refs/heads/main/security/alterna-savings-domain-security.yml
+  href: https://artifacts.apis.io/alterna-savings/security/alterna-savings-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alterna-savings-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alterna-savings/refs/heads/main/well-known/alterna-savings-well-known.yml
+  href: https://artifacts.apis.io/alterna-savings/well-known/alterna-savings-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alterna-savings-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alterna-savings/refs/heads/main/authentication/alterna-savings-authentication.yml
+  href: https://artifacts.apis.io/alterna-savings/authentication/alterna-savings-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alterna-savings-authentication.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alterna-savings/refs/heads/main/well-known/alterna-savings-openid-configuration.json
+  href: https://artifacts.apis.io/alterna-savings/well-known/alterna-savings-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/alterna-savings-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alterna-savings/refs/heads/main/scopes/alterna-savings-scopes.yml
+  href: https://artifacts.apis.io/alterna-savings/scopes/alterna-savings-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/alterna-savings-scopes.yml
@@ -101,7 +103,7 @@ overview: 'Alterna Savings is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Alterna Savings'' developer surface includes authentication, support, engineering blog, and 8 more developer resources.'
-random_paper: 11
+random_paper: 15
 scopes:
 - name: Alterna Savings Scopes
   scope_count: 2
@@ -139,14 +141,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alterna-savings/refs/heads/main/screenshots/alterna-savings-2026-07-25T195822.png
+screenshot: https://apis.io/screenshots/alterna-savings/alterna-savings-2026-07-25T195822.png
 security:
 - kind: authentication
   name: Alterna Savings Authentication

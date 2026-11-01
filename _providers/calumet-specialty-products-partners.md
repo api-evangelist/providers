@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -45,7 +47,7 @@ common:
   type: Resources
   url: https://calumet.com/resources/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calumet-specialty-products-partners/refs/heads/main/security/calumet-specialty-products-partners-domain-security.yml
+  href: https://artifacts.apis.io/calumet-specialty-products-partners/security/calumet-specialty-products-partners-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/calumet-specialty-products-partners-domain-security.yml
@@ -94,17 +96,17 @@ common:
   type: Support
   url: https://calumet.com/contact-us/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/calumet-specialty-products-partners/refs/heads/main/llms/calumet-specialty-products-partners-llms.txt
+  href: https://artifacts.apis.io/calumet-specialty-products-partners/llms/calumet-specialty-products-partners-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/calumet-specialty-products-partners-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/calumet-specialty-products-partners/refs/heads/main/plans/calumet-specialty-products-partners-plans-pricing.yml
+  href: https://artifacts.apis.io/calumet-specialty-products-partners/plans/calumet-specialty-products-partners-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/calumet-specialty-products-partners-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/calumet-specialty-products-partners/refs/heads/main/rate-limits/calumet-specialty-products-partners-rate-limits.yml
+  href: https://artifacts.apis.io/calumet-specialty-products-partners/rate-limits/calumet-specialty-products-partners-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/calumet-specialty-products-partners-rate-limits.yml
@@ -165,7 +167,7 @@ press:
 - date: ''
   title: Give Your Valentine a Gift With Meaning
   url: https://calumet.com/give-your-valentine-a-gift-with-meaning/
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Calumet Specialty Products Partners Rate Limits
@@ -202,14 +204,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/calumet-specialty-products-partners/refs/heads/main/screenshots/calumet-specialty-products-partners-2026-06-20T173902.png
+screenshot: https://apis.io/screenshots/calumet-specialty-products-partners/calumet-specialty-products-partners-2026-06-20T173902.png
 security:
 - kind: domain-security
   name: Calumet Specialty Products Partners Domain Security

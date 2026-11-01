@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: Cosmos is Tetra Tech's mobile data collection platform designed for field data capture, project management, and reporting. The Cosmos API and webhook system enables integration with third-party enterp
@@ -54,22 +56,22 @@ apis:
 artifact_total: 17
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tetra-tech/refs/heads/main/plans/tetra-tech-plans-pricing.yml
+  href: https://artifacts.apis.io/tetra-tech/plans/tetra-tech-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tetra-tech-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tetra-tech/refs/heads/main/rate-limits/tetra-tech-rate-limits.yml
+  href: https://artifacts.apis.io/tetra-tech/rate-limits/tetra-tech-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tetra-tech-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tetra-tech/refs/heads/main/finops/tetra-tech-finops.yml
+  href: https://artifacts.apis.io/tetra-tech/finops/tetra-tech-finops.yml
   title: ''
   type: FinOps
   url: finops/tetra-tech-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tetra-tech/refs/heads/main/security/tetra-tech-domain-security.yml
+  href: https://artifacts.apis.io/tetra-tech/security/tetra-tech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tetra-tech-domain-security.yml
@@ -126,7 +128,7 @@ finops:
 - has_sources: false
   method: generated
   name: Tetra Tech Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: tetra-tech-finops
   template: true
@@ -182,7 +184,7 @@ press:
 - date: ''
   title: Tetra Tech acquires Halvik to expand data analytics and AI ...
   url: https://ng.investing.com/news/company-news/tetra-tech-acquires-halvik-to-expand-data-analytics-and-ai-services-93CH-2301323
-random_paper: 19
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Tetra Tech Rate Limits
@@ -203,13 +205,13 @@ score:
   band: emerging
   composite: 18.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 56.8
     catalog_earned_first_party: 0.0
     catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
@@ -224,21 +226,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 19.5
+  previous_composite: 18.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tetra-tech/refs/heads/main/screenshots/tetra-tech-2026-06-20T195157.png
+screenshot: https://apis.io/screenshots/tetra-tech/tetra-tech-2026-06-20T195157.png
 security:
 - kind: domain-security
   name: Tetra Tech Domain Security

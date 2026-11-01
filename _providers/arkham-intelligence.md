@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: Web application for searching, browsing, and analysing labelled onchain entities - wallets, exchanges, funds, projects - across supported blockchains. Powers visualisations, alerts, and watchlists use
@@ -61,22 +63,22 @@ asyncapis:
   slug: arkham-intelligence-asyncapi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/arkham-intelligence/refs/heads/main/plans/arkham-intelligence-plans-pricing.yml
+  href: https://artifacts.apis.io/arkham-intelligence/plans/arkham-intelligence-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/arkham-intelligence-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/arkham-intelligence/refs/heads/main/rate-limits/arkham-intelligence-rate-limits.yml
+  href: https://artifacts.apis.io/arkham-intelligence/rate-limits/arkham-intelligence-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/arkham-intelligence-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/arkham-intelligence/refs/heads/main/finops/arkham-intelligence-finops.yml
+  href: https://artifacts.apis.io/arkham-intelligence/finops/arkham-intelligence-finops.yml
   title: ''
   type: FinOps
   url: finops/arkham-intelligence-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arkham-intelligence/refs/heads/main/security/arkham-intelligence-domain-security.yml
+  href: https://artifacts.apis.io/arkham-intelligence/security/arkham-intelligence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arkham-intelligence-domain-security.yml
@@ -135,7 +137,7 @@ plans:
 - name: Arkham Intelligence Plans Pricing
   plan_count: 1
   slug: arkham-intelligence-plans-pricing
-random_paper: 4
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Arkham Intelligence Rate Limits
@@ -163,7 +165,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 13.6
@@ -171,21 +173,21 @@ score:
     developer_ergonomics: 11.9
     discoverability: 71.4
     operational_transparency: 5.3
-  previous_composite: 27.1
+  previous_composite: 21.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 11.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/arkham-intelligence/refs/heads/main/screenshots/arkham-intelligence-2026-06-20T172448.png
+screenshot: https://apis.io/screenshots/arkham-intelligence/arkham-intelligence-2026-06-20T172448.png
 security:
 - kind: domain-security
   name: Arkham Intelligence Domain Security

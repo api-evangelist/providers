@@ -15,7 +15,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.5
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -52,11 +54,13 @@ apis:
   description: Operations for defining and managing index fields
   name: Amazon CloudSearch Index Fields API
   slug: amazon-cloudsearch-index-fields-api
-artifact_total: 54
+- baseURL: https://cloudsearch.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudsearch Operations API from Amazon CloudSearch — 21 operation(s) for cloudsearch operations.
+  name: Amazon CloudSearch Cloudsearch Operations API
+  slug: amazon-cloudsearch-operations-api
+artifact_total: 56
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon CloudSearch Domains API
   slug: open-amazon-cloudsearch-domains-api
@@ -64,33 +68,38 @@ collections:
   name: Amazon CloudSearch Domains Index Fields API
   slug: open-amazon-cloudsearch-index-fields-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/amazon-cloudsearch/plans/amazon-cloudsearch-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-cloudsearch-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/mcp/amazon-cloudsearch-mcp.yml
+  href: https://artifacts.apis.io/amazon-cloudsearch/mcp/amazon-cloudsearch-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-cloudsearch-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/overlays/amazon-cloudsearch-openapi-overlay.yaml
+  href: https://artifacts.apis.io/amazon-cloudsearch/overlays/amazon-cloudsearch-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-cloudsearch-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/agentic-access/amazon-cloudsearch-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-cloudsearch/agentic-access/amazon-cloudsearch-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-cloudsearch-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/security/amazon-cloudsearch-trust-center.yml
+  href: https://artifacts.apis.io/amazon-cloudsearch/security/amazon-cloudsearch-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-cloudsearch-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/security/amazon-cloudsearch-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-cloudsearch/security/amazon-cloudsearch-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-cloudsearch-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/security/amazon-cloudsearch-domain-security.yml
+  href: https://artifacts.apis.io/amazon-cloudsearch/security/amazon-cloudsearch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-cloudsearch-domain-security.yml
@@ -155,42 +164,42 @@ common:
   type: Compliance
   url: https://aws.amazon.com/compliance/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/packages/amazon-cloudsearch-packages.yml
+  href: https://artifacts.apis.io/amazon-cloudsearch/packages/amazon-cloudsearch-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-cloudsearch-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/well-known/amazon-cloudsearch-well-known.yml
+  href: https://artifacts.apis.io/amazon-cloudsearch/well-known/amazon-cloudsearch-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-cloudsearch-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/well-known/amazon-cloudsearch-security.txt
+  href: https://artifacts.apis.io/amazon-cloudsearch/well-known/amazon-cloudsearch-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-cloudsearch-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/llms/amazon-cloudsearch-llms.txt
+  href: https://artifacts.apis.io/amazon-cloudsearch/llms/amazon-cloudsearch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-cloudsearch-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/conformance/amazon-cloudsearch-conformance.yml
+  href: https://artifacts.apis.io/amazon-cloudsearch/conformance/amazon-cloudsearch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-cloudsearch-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/lifecycle/amazon-cloudsearch-lifecycle.yml
+  href: https://artifacts.apis.io/amazon-cloudsearch/lifecycle/amazon-cloudsearch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-cloudsearch-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/rules/amazon-cloudsearch-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-cloudsearch/rules/amazon-cloudsearch-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-cloudsearch-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/vocabulary/amazon-cloudsearch-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-cloudsearch/vocabulary/amazon-cloudsearch-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-cloudsearch-vocabulary.yaml
@@ -237,6 +246,14 @@ features:
   name: Automatic Scaling
 - description: Distribute search traffic across multiple availability zones with Multi-AZ.
   name: High Availability
+finops:
+- has_sources: true
+  method: derived
+  name: Amazon Cloudsearch Finops
+  primary_unit: 1,000 batch upload requests
+  service_category: ''
+  slug: amazon-cloudsearch-finops
+  template: false
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 integrations:
 - description: Index documents stored in S3 buckets.
@@ -316,13 +333,17 @@ modified: '2026-06-20'
 name: Amazon CloudSearch
 nav: Providers
 network: true
-overview: 'Amazon CloudSearch publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Domains API and Index Fields API. Tagged areas include CloudSearch, Search, Full-Text Search, and Managed.
+overview: 'Amazon CloudSearch publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Domains API, Index Fields API, and Cloudsearch Operations API. Tagged areas include CloudSearch, Search, Full-Text Search, and Managed.
 
 
   The Amazon CloudSearch catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CloudSearch''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 22 more developer resources.'
+  Amazon CloudSearch''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 23 more developer resources.'
+plans:
+- name: Amazon Cloudsearch Plans Pricing
+  plan_count: 2
+  slug: amazon-cloudsearch-plans-pricing
 random_paper: 8
 rules:
 - authorship: generated
@@ -350,31 +371,36 @@ rules:
   slug: amazon-cloudsearch-spectral-rules
 score:
   band: strong
-  composite: 58.3
+  composite: 63.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 61.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    artifact_dirs: 25
+    catalog_earned: 72.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.8
   facets:
-    access_clarity: 60.5
+    access_clarity: 89.5
     contract_governance: 31.8
-    contract_quality: 62.6
+    contract_quality: 66.9
     developer_ergonomics: 59.5
-    discoverability: 71.4
-    operational_transparency: 18.4
-  previous_composite: 58.3
+    discoverability: 64.3
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 2
+      marker_coverage: 33.3
+      total: 3
     mcp: derived
   regulatory:
     applies: true
@@ -382,13 +408,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/screenshots/amazon-cloudsearch-2026-07-25T195949.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-cloudsearch/amazon-cloudsearch-2026-07-25T195949.png
 security:
 - kind: domain-security
   name: Amazon Cloudsearch Domain Security

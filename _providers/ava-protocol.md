@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.9
-  scored_at: '2026-10-17'
+  score: 34.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -95,11 +97,8 @@ apis:
   description: Workflow CRUD and lifecycle actions
   name: Ava Protocol Workflows API
   slug: ava-protocol-workflows-api
-artifact_total: 24
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ava Protocol AVS Auth API
   slug: open-ava-protocol-auth-api
@@ -132,97 +131,97 @@ collections:
   slug: open-ava-protocol-workflows-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/capabilities/ava-protocol-capability-edges.yml
+  href: https://artifacts.apis.io/ava-protocol/capabilities/ava-protocol-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ava-protocol-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/overlays/ava-protocol-avs-overlay.yaml
+  href: https://artifacts.apis.io/ava-protocol/overlays/ava-protocol-avs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ava-protocol-avs-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/agentic-access/ava-protocol-agentic-access.yml
+  href: https://artifacts.apis.io/ava-protocol/agentic-access/ava-protocol-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ava-protocol-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/authentication/ava-protocol-authentication.yml
+  href: https://artifacts.apis.io/ava-protocol/authentication/ava-protocol-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ava-protocol-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/security/ava-protocol-domain-security.yml
+  href: https://artifacts.apis.io/ava-protocol/security/ava-protocol-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ava-protocol-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/packages/ava-protocol-packages.yml
+  href: https://artifacts.apis.io/ava-protocol/packages/ava-protocol-packages.yml
   title: ''
   type: Packages
   url: packages/ava-protocol-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/packages/ava-protocol-packages.yml
+  href: https://artifacts.apis.io/ava-protocol/packages/ava-protocol-packages.yml
   title: ''
   type: SDKs
   url: packages/ava-protocol-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/mcp/ava-protocol-mcp.yml
+  href: https://artifacts.apis.io/ava-protocol/mcp/ava-protocol-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ava-protocol-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/llms/ava-protocol-llms.txt
+  href: https://artifacts.apis.io/ava-protocol/llms/ava-protocol-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ava-protocol-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/grpc/ava-protocol-avs.proto
+  href: https://artifacts.apis.io/ava-protocol/grpc/ava-protocol-avs.proto
   title: ''
   type: Protobuf
   url: grpc/ava-protocol-avs.proto
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/errors/ava-protocol-problem-types.yml
+  href: https://artifacts.apis.io/ava-protocol/errors/ava-protocol-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ava-protocol-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/conventions/ava-protocol-conventions.yml
+  href: https://artifacts.apis.io/ava-protocol/conventions/ava-protocol-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ava-protocol-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/conventions/ava-protocol-conventions.yml
+  href: https://artifacts.apis.io/ava-protocol/conventions/ava-protocol-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ava-protocol-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/conformance/ava-protocol-conformance.yml
+  href: https://artifacts.apis.io/ava-protocol/conformance/ava-protocol-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ava-protocol-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/lifecycle/ava-protocol-lifecycle.yml
+  href: https://artifacts.apis.io/ava-protocol/lifecycle/ava-protocol-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ava-protocol-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/data-model/ava-protocol-data-model.yml
+  href: https://artifacts.apis.io/ava-protocol/data-model/ava-protocol-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ava-protocol-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/sandbox/ava-protocol-sandbox.yml
+  href: https://artifacts.apis.io/ava-protocol/sandbox/ava-protocol-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ava-protocol-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/cli/ava-protocol-cli.yml
+  href: https://artifacts.apis.io/ava-protocol/cli/ava-protocol-cli.yml
   title: ''
   type: CLI
   url: cli/ava-protocol-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ava-protocol/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -294,12 +293,12 @@ overview: 'Ava Protocol publishes 10 API contracts indexed on the [APIs.io](http
 
 
   Ava Protocol''s developer surface includes authentication, sandbox, CLI, documentation, API reference, getting-started guide, engineering blog, and 26 more developer resources.'
-random_paper: 7
+random_paper: 15
 score:
   band: developing
-  composite: 43.6
+  composite: 41.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -311,9 +310,9 @@ score:
     contract_governance: 4.5
     contract_quality: 42.2
     developer_ergonomics: 80.4
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 43.6
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -330,13 +329,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/screenshots/ava-protocol-2026-07-25T201902.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ava-protocol/ava-protocol-2026-07-25T201902.png
 security:
 - kind: authentication
   name: Ava Protocol Authentication
@@ -346,6 +346,14 @@ security:
   name: Ava Protocol Domain Security
   slug: ava-protocol-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Authenticate to the Ava Protocol AVS API
+  slug: ava-protocol-authenticate
+- name: Create and monitor an onchain automation workflow
+  slug: ava-protocol-create-and-monitor-workflow
+- name: Manage an Ava Protocol smart wallet
+  slug: ava-protocol-manage-smart-wallet
 slug: ava-protocol
 tags:
 - Company

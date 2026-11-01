@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: ReDoc is an open-source API documentation renderer for OpenAPI specifications, originally created by Rebilly and now maintained by Redocly. It generates a responsive three-panel documentation layout f
@@ -43,27 +45,27 @@ apis:
 artifact_total: 12
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/redoc/refs/heads/main/plans/redoc-plans-pricing.yml
+  href: https://artifacts.apis.io/redoc/plans/redoc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/redoc-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/redoc/refs/heads/main/rate-limits/redoc-rate-limits.yml
+  href: https://artifacts.apis.io/redoc/rate-limits/redoc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/redoc-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/redoc/refs/heads/main/finops/redoc-finops.yml
+  href: https://artifacts.apis.io/redoc/finops/redoc-finops.yml
   title: ''
   type: FinOps
   url: finops/redoc-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/redoc/refs/heads/main/a2a/redoc-a2a.yml
+  href: https://artifacts.apis.io/redoc/a2a/redoc-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/redoc-a2a.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redoc/refs/heads/main/security/redoc-domain-security.yml
+  href: https://artifacts.apis.io/redoc/security/redoc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/redoc-domain-security.yml
@@ -159,7 +161,7 @@ finops:
 - has_sources: false
   method: generated
   name: Redoc Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: redoc-finops
   template: true
@@ -193,7 +195,7 @@ plans:
 - name: Redoc Plans Pricing
   plan_count: 3
   slug: redoc-plans-pricing
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Redoc Rate Limits
@@ -220,7 +222,7 @@ score:
     catalog_gap: 58.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
@@ -228,21 +230,21 @@ score:
     developer_ergonomics: 42.9
     discoverability: 57.1
     operational_transparency: 28.9
-  previous_composite: 26.8
+  previous_composite: 25.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/redoc/refs/heads/main/screenshots/redoc-2026-06-20T192730.png
+screenshot: https://apis.io/screenshots/redoc/redoc-2026-06-20T192730.png
 security:
 - kind: domain-security
   name: Redoc Domain Security

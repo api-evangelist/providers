@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Shippers Group provides third-party logistics services including warehousing, co-packaging, fulfillment, and transportation management. As a national 3PL provider operating across 12 US locations,
@@ -47,22 +49,22 @@ apis:
 artifact_total: 11
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/plans/shippers-group-plans-pricing.yml
+  href: https://artifacts.apis.io/shippers-group/plans/shippers-group-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/shippers-group-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/rate-limits/shippers-group-rate-limits.yml
+  href: https://artifacts.apis.io/shippers-group/rate-limits/shippers-group-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shippers-group-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/finops/shippers-group-finops.yml
+  href: https://artifacts.apis.io/shippers-group/finops/shippers-group-finops.yml
   title: ''
   type: FinOps
   url: finops/shippers-group-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/security/shippers-group-domain-security.yml
+  href: https://artifacts.apis.io/shippers-group/security/shippers-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shippers-group-domain-security.yml
@@ -99,27 +101,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/the-shippers-group/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/json-schema/shippers-group-warehouse-schema.json
+  href: https://artifacts.apis.io/shippers-group/json-schema/shippers-group-warehouse-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/shippers-group-warehouse-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/json-structure/shippers-group-warehouse-structure.json
+  href: https://artifacts.apis.io/shippers-group/json-structure/shippers-group-warehouse-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/shippers-group-warehouse-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/json-ld/shippers-group-context.jsonld
+  href: https://artifacts.apis.io/shippers-group/json-ld/shippers-group-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/shippers-group-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/examples/shippers-group-warehouse-example.json
+  href: https://artifacts.apis.io/shippers-group/examples/shippers-group-warehouse-example.json
   title: ''
   type: Examples
   url: examples/shippers-group-warehouse-example.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/vocabulary/shippers-group-vocabulary.yml
+  href: https://artifacts.apis.io/shippers-group/vocabulary/shippers-group-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/shippers-group-vocabulary.yml
@@ -133,7 +135,7 @@ finops:
 - has_sources: false
   method: generated
   name: Shippers Group Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: shippers-group-finops
   template: true
@@ -167,7 +169,7 @@ plans:
 - name: Shippers Group Plans Pricing
   plan_count: 3
   slug: shippers-group-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Shippers Group Rate Limits
@@ -194,7 +196,7 @@ score:
     catalog_gap: 61.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
@@ -209,21 +211,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 18.2
+  previous_composite: 16.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/screenshots/shippers-group-2026-10-11T125825.png
+screenshot: https://apis.io/screenshots/shippers-group/shippers-group-2026-10-11T125825.png
 security:
 - kind: domain-security
   name: Shippers Group Domain Security

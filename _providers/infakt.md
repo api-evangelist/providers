@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.5
-  scored_at: '2026-10-17'
+  score: 24.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: inFakt's REST API (v3) for automating invoicing and accounting. Resources are addressed with a .json extension under /api/v3/ and authenticated with a per-account API key sent in the X-inFakt-ApiKey h
@@ -52,12 +54,12 @@ common:
   type: BlogRSS
   url: https://www.infakt.pl/blog/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/security/infakt-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/infakt/security/infakt-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/infakt-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/security/infakt-domain-security.yml
+  href: https://artifacts.apis.io/infakt/security/infakt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/infakt-domain-security.yml
@@ -122,67 +124,67 @@ common:
   type: ChangeLog
   url: https://www.infakt.pl/historia-zmian-w-aplikacji-infakt/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/llms/infakt-llms.txt
+  href: https://artifacts.apis.io/infakt/llms/infakt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/infakt-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/well-known/infakt-well-known.yml
+  href: https://artifacts.apis.io/infakt/well-known/infakt-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/infakt-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/well-known/infakt-security.txt
+  href: https://artifacts.apis.io/infakt/well-known/infakt-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/infakt-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/mcp/infakt-mcp.yml
+  href: https://artifacts.apis.io/infakt/mcp/infakt-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/infakt-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/authentication/infakt-authentication.yml
+  href: https://artifacts.apis.io/infakt/authentication/infakt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/infakt-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/conventions/infakt-conventions.yml
+  href: https://artifacts.apis.io/infakt/conventions/infakt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/infakt-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/errors/infakt-problem-types.yml
+  href: https://artifacts.apis.io/infakt/errors/infakt-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/infakt-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/lifecycle/infakt-lifecycle.yml
+  href: https://artifacts.apis.io/infakt/lifecycle/infakt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/infakt-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/conformance/infakt-conformance.yml
+  href: https://artifacts.apis.io/infakt/conformance/infakt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/infakt-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/data-model/infakt-data-model.yml
+  href: https://artifacts.apis.io/infakt/data-model/infakt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/infakt-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/sandbox/infakt-sandbox.yml
+  href: https://artifacts.apis.io/infakt/sandbox/infakt-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/infakt-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/asyncapi/infakt-webhooks.yml
+  href: https://artifacts.apis.io/infakt/asyncapi/infakt-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/infakt-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/changelog/infakt-changelog.yml
+  href: https://artifacts.apis.io/infakt/changelog/infakt-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/infakt-changelog.yml
@@ -205,10 +207,10 @@ overview: 'inFakt is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   inFakt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 21
+random_paper: 13
 score:
   band: developing
-  composite: 48.2
+  composite: 47.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -216,13 +218,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
+    discoverability: 65.0
     operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -232,7 +234,7 @@ score:
     regions:
     - cee
     - europe
-  previous_composite: 48.1
+  previous_composite: 47.4
   provenance:
     conformance: derived
     mcp: first-party
@@ -246,14 +248,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/screenshots/infakt-2026-07-25T222350.png
+screenshot: https://apis.io/screenshots/infakt/infakt-2026-07-25T222350.png
 security:
 - kind: authentication
   name: Infakt Authentication

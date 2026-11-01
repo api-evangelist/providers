@@ -12,35 +12,38 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
-    protected_resource_metadata: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.8
-  scored_at: '2026-10-17'
+  score: 48.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Hashnode Public API is a GraphQL API that queries publication data, manages posts and drafts, and creates content via mutations. All requests are POSTed to a single endpoint at https://gql-beta.ha
   name: Hashnode GraphQL API
   slug: hashnode-graphql-api
-artifact_total: 9
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Hashnode Webhooks
@@ -50,6 +53,10 @@ common:
   title: ''
   type: Website
   url: https://hashnode.com
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.hashnode.com/mcp
 - group: start
   title: ''
   type: DeveloperPortal
@@ -115,121 +122,125 @@ common:
   type: ChangeLog
   url: https://hashnode.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/changelog/hashnode-changelog.yml
+  href: https://artifacts.apis.io/hashnode/changelog/hashnode-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hashnode-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/lifecycle/hashnode-lifecycle.yml
+  href: https://artifacts.apis.io/hashnode/lifecycle/hashnode-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/hashnode-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/lifecycle/hashnode-lifecycle.yml
+  href: https://artifacts.apis.io/hashnode/lifecycle/hashnode-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hashnode-lifecycle.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/graphql/hashnode-gql-api.graphql
+  href: https://artifacts.apis.io/hashnode/graphql/hashnode-gql-api.graphql
   title: ''
   type: GraphQL
   url: graphql/hashnode-gql-api.graphql
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/authentication/hashnode-authentication.yml
+  href: https://artifacts.apis.io/hashnode/authentication/hashnode-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hashnode-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/conventions/hashnode-conventions.yml
+  href: https://artifacts.apis.io/hashnode/conventions/hashnode-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hashnode-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/errors/hashnode-error-codes.yml
+  href: https://artifacts.apis.io/hashnode/errors/hashnode-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/hashnode-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/data-model/hashnode-data-model.yml
+  href: https://artifacts.apis.io/hashnode/data-model/hashnode-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hashnode-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/conformance/hashnode-conformance.yml
+  href: https://artifacts.apis.io/hashnode/conformance/hashnode-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hashnode-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/asyncapi/hashnode-webhooks.yml
+  href: https://artifacts.apis.io/hashnode/asyncapi/hashnode-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hashnode-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hashnode/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/packages/hashnode-packages.yml
+  href: https://artifacts.apis.io/hashnode/packages/hashnode-packages.yml
   title: ''
   type: Packages
   url: packages/hashnode-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/packages/hashnode-packages.yml
+  href: https://artifacts.apis.io/hashnode/packages/hashnode-packages.yml
   title: ''
   type: SDKs
   url: packages/hashnode-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/cli/hashnode-cli.yml
+  href: https://artifacts.apis.io/hashnode/cli/hashnode-cli.yml
   title: ''
   type: CLI
   url: cli/hashnode-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/components/hashnode-components.yml
+  href: https://artifacts.apis.io/hashnode/components/hashnode-components.yml
   title: ''
   type: Components
   url: components/hashnode-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/llms/hashnode-llms.txt
+  href: https://artifacts.apis.io/hashnode/llms/hashnode-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hashnode-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/plans/hashnode-plans-pricing.yml
+  href: https://artifacts.apis.io/hashnode/plans/hashnode-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hashnode-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/rate-limits/hashnode-rate-limits.yml
+  href: https://artifacts.apis.io/hashnode/rate-limits/hashnode-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hashnode-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/finops/hashnode-finops.yml
+  href: https://artifacts.apis.io/hashnode/finops/hashnode-finops.yml
   title: ''
   type: FinOps
   url: finops/hashnode-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/security/hashnode-domain-security.yml
+  href: https://artifacts.apis.io/hashnode/security/hashnode-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hashnode-domain-security.yml
 created: '2026-06-13'
 description: Hashnode is a blogging platform for developers and engineering teams, offering publications on a custom domain, a headless CMS mode, and a public GraphQL API covering posts, drafts, publications, users, tags, series, comments and documentation projects. The API is a single GraphQL endpoint with anonymous introspection; authentication is a Personal Access Token in the Authorization header, with no OAuth and no scopes. Since 13 May 2026 the API has been a paid feature - anonymous public reads still work, but every publication-scoped read and every write mutation requires the target publication to hold an active Hashnode Pro plan. Hashnode publishes no OpenAPI and no MCP server, shipping an official Agent Skill instead.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Hashnode Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: seat / per publication
+  service_category: ''
   slug: hashnode-finops
-  template: true
+  template: false
 graphqls:
 - description: The Hashnode API is a GraphQL API that allows developers to interact with the Hashnode blogging platform, manage posts, publications, and user data.
   name: Hashnode GraphQL API
   slug: hashnode-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hashnode.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: Hashnode MCP Server
+  slug: mcp
 modified: '2026-08-13'
 name: Hashnode
 nav: Providers
@@ -240,38 +251,41 @@ overview: 'Hashnode is listed with 1 API on the [APIs.io](https://apis.io/) netw
   The Hashnode catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hashnode''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 30 more developer resources.'
+  Hashnode''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Hashnode Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: hashnode-plans-pricing
-random_paper: 6
+- name: Hashnode Price Estimates
+  plan_count: 0
+  slug: hashnode-price-estimates
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Hashnode Rate Limits
   slug: hashnode-rate-limits
 score:
   band: strong
-  composite: 56.9
+  composite: 60.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 57.0
-    catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    artifact_dirs: 25
+    catalog_earned: 56.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -0.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 73.7
     contract_governance: 4.5
     contract_quality: 46.9
     developer_ergonomics: 78.6
-    discoverability: 66.1
-    operational_transparency: 63.2
-  previous_composite: 58.4
+    discoverability: 65.0
+    operational_transparency: 73.7
+  previous_composite: 60.8
   provenance:
     conformance: derived
-    mcp: derived
+    mcp: first-party
     skills: first-party
   regulatory:
     applies: true
@@ -279,14 +293,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/screenshots/hashnode-2026-08-17T083521.png
+screenshot: https://apis.io/screenshots/hashnode/hashnode-2026-08-17T083521.png
 security:
 - kind: authentication
   name: Hashnode Authentication
@@ -300,6 +314,10 @@ security:
   name: Hashnode Vulnerability Disclosure
   slug: hashnode-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 1
+skills:
+- name: gql-api
+  slug: hashnode-gql-api
 slug: hashnode
 tags:
 - Blogging

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Ximilar REST API at https://api.ximilar.com. One account token in an ''Authorization: Token'' header unlocks every service the active plan includes: fashion, home-decor and photo tagging, collectibl'
   name: Ximilar API
   slug: ximilar
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Ximilar Webhooks
@@ -126,90 +128,90 @@ common:
   type: LLMsTxt
   url: https://docs.ximilar.com/llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/plans/ximilar-plans-pricing.yml
+  href: https://artifacts.apis.io/ximilar/plans/ximilar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ximilar-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/rate-limits/ximilar-rate-limits.yml
+  href: https://artifacts.apis.io/ximilar/rate-limits/ximilar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ximilar-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/finops/ximilar-finops.yml
+  href: https://artifacts.apis.io/ximilar/finops/ximilar-finops.yml
   title: ''
   type: FinOps
   url: finops/ximilar-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/packages/ximilar-packages.yml
+  href: https://artifacts.apis.io/ximilar/packages/ximilar-packages.yml
   title: ''
   type: Packages
   url: packages/ximilar-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/packages/ximilar-packages.yml
+  href: https://artifacts.apis.io/ximilar/packages/ximilar-packages.yml
   title: ''
   type: SDKs
   url: packages/ximilar-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/mcp/ximilar-mcp.yml
+  href: https://artifacts.apis.io/ximilar/mcp/ximilar-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ximilar-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/authentication/ximilar-authentication.yml
+  href: https://artifacts.apis.io/ximilar/authentication/ximilar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ximilar-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/conventions/ximilar-conventions.yml
+  href: https://artifacts.apis.io/ximilar/conventions/ximilar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ximilar-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/conventions/ximilar-conventions.yml
+  href: https://artifacts.apis.io/ximilar/conventions/ximilar-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ximilar-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/errors/ximilar-problem-types.yml
+  href: https://artifacts.apis.io/ximilar/errors/ximilar-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ximilar-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/lifecycle/ximilar-lifecycle.yml
+  href: https://artifacts.apis.io/ximilar/lifecycle/ximilar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ximilar-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/conformance/ximilar-conformance.yml
+  href: https://artifacts.apis.io/ximilar/conformance/ximilar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ximilar-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/asyncapi/ximilar-webhooks.yml
+  href: https://artifacts.apis.io/ximilar/asyncapi/ximilar-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ximilar-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/sandbox/ximilar-sandbox.yml
+  href: https://artifacts.apis.io/ximilar/sandbox/ximilar-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ximilar-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/security/ximilar-domain-security.yml
+  href: https://artifacts.apis.io/ximilar/security/ximilar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ximilar-domain-security.yml
 created: '2025-03-01'
 description: Ximilar is a Czech visual-AI company that sells computer vision as a REST API and a no-code platform. Its api.ximilar.com surface covers image recognition and tagging (fashion, home decor, stock photo), collectibles AI (trading-card, sports-card and comic identification, AI card grading and TCG price search), visual search and similarity (reverse image search, product matching, multimodal text-to-image), OCR, background removal and image upscaling, plus a Computer Vision Platform for training custom classification, regression, detection and vision-language models and chaining them with Flows. Everything is billed in API credits against a monthly plan allowance, authenticated with a single account token, and callable synchronously or through an asynchronous request API with webhook callbacks. Ximilar also publishes a first-party Python SDK and a local MCP server exposing eleven of its services to LLM clients.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Ximilar Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: credit pack (10,000 to 5,000,000 credits)
+  service_category: ''
   slug: ximilar-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ximilar.png
 layout: provider
 mcp_servers:
@@ -229,32 +231,35 @@ overview: 'Ximilar is listed with 1 API on the [APIs.io](https://apis.io/) netwo
   Ximilar''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Ximilar Plans Pricing
-  plan_count: 16
+  plan_count: 4
   slug: ximilar-plans-pricing
-random_paper: 10
+- name: Ximilar Price Estimates
+  plan_count: 0
+  slug: ximilar-price-estimates
+random_paper: 14
 rate_limits:
 - limit_count: 9
   name: Ximilar Rate Limits
   slug: ximilar-rate-limits
 score:
   band: strong
-  composite: 57.9
+  composite: 63.1
   coverage:
     artifact_dirs: 19
-    catalog_earned: 61.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 77.6
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 45.3
-    developer_ergonomics: 61.9
+    developer_ergonomics: 71.4
     discoverability: 71.7
-    operational_transparency: 57.9
-  previous_composite: 59.4
+    operational_transparency: 60.5
+  previous_composite: 61.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -264,14 +269,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/screenshots/ximilar-2026-06-20T201703.png
+screenshot: https://apis.io/screenshots/ximilar/ximilar-2026-06-20T201703.png
 security:
 - kind: authentication
   name: Ximilar Authentication

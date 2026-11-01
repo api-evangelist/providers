@@ -14,7 +14,7 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_card: false
+    agent_card: flavored
     agent_skills: derived
     agentic_access: false
     agentic_commerce: false
@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 26.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.odin.io/
   baseurl_source: declared
@@ -68,7 +70,7 @@ apis:
   description: The Hosts API from Cyble — 9 operation(s) for hosts.
   name: Cyble Hosts API
   slug: cyble-hosts-api
-artifact_total: 13
+artifact_total: 17
 collections:
 - collection_type: open
   name: Odin
@@ -79,12 +81,12 @@ common:
   type: BlogRSS
   url: https://cyble.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/capabilities/cyble-capability-edges.yml
+  href: https://artifacts.apis.io/cyble/capabilities/cyble-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cyble-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/security/cyble-trust-center.yml
+  href: https://artifacts.apis.io/cyble/security/cyble-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cyble-trust-center.yml
@@ -157,102 +159,110 @@ common:
   type: Compliance
   url: https://trust.cyble.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/well-known/cyble-security.txt
+  href: https://artifacts.apis.io/cyble/well-known/cyble-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cyble-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/well-known/cyble-well-known.yml
+  href: https://artifacts.apis.io/cyble/well-known/cyble-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cyble-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/a2a/cyble-a2a.yml
+  href: https://artifacts.apis.io/cyble/a2a/cyble-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/cyble-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/llms/cyble-llms.txt
+  href: https://artifacts.apis.io/cyble/llms/cyble-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cyble-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/packages/cyble-packages.yml
+  href: https://artifacts.apis.io/cyble/packages/cyble-packages.yml
   title: ''
   type: Packages
   url: packages/cyble-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/packages/cyble-packages.yml
+  href: https://artifacts.apis.io/cyble/packages/cyble-packages.yml
   title: ''
   type: SDKs
   url: packages/cyble-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/cli/cyble-cli.yml
+  href: https://artifacts.apis.io/cyble/cli/cyble-cli.yml
   title: ''
   type: CLI
   url: cli/cyble-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/authentication/cyble-authentication.yml
+  href: https://artifacts.apis.io/cyble/authentication/cyble-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cyble-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/conventions/cyble-conventions.yml
+  href: https://artifacts.apis.io/cyble/conventions/cyble-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cyble-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/errors/cyble-problem-types.yml
+  href: https://artifacts.apis.io/cyble/errors/cyble-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cyble-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/lifecycle/cyble-lifecycle.yml
+  href: https://artifacts.apis.io/cyble/lifecycle/cyble-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cyble-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/conformance/cyble-conformance.yml
+  href: https://artifacts.apis.io/cyble/conformance/cyble-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cyble-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/security/cyble-domain-security.yml
+  href: https://artifacts.apis.io/cyble/security/cyble-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cyble-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/security/cyble-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cyble/security/cyble-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cyble-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/data-model/cyble-data-model.yml
+  href: https://artifacts.apis.io/cyble/data-model/cyble-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cyble-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/rate-limits/cyble-rate-limits.yml
+  href: https://artifacts.apis.io/cyble/rate-limits/cyble-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cyble-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/plans/cyble-plans-pricing.yml
+  href: https://artifacts.apis.io/cyble/plans/cyble-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cyble-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cyble/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/overlays/cyble-odin-overlay.yaml
+  href: https://artifacts.apis.io/cyble/overlays/cyble-odin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cyble-odin-overlay.yaml
 created: '2026-08-11'
 description: 'Cyble Inc. is an AI-native cyber threat intelligence company headquartered in Cupertino, California, serving enterprises, governments and federal bodies with dark-web monitoring, attack-surface management and actionable threat intelligence. Its product family includes Cyble Vision (the enterprise threat-intelligence platform, integrated with 70+ SIEM/SOAR/TIP platforms), Cyble Hawk (built for federal and government bodies), AmIBreached (dark-web exposure monitoring), The Cyber Express (its security news publication), and ODIN — a public internet-scanning search engine that indexes 254M+ IPv4 hosts, 3B+ services across 500+ ports, 789k+ exposed cloud storage buckets, 117B+ exposed files and 10B+ subdomains. ODIN is the company''s public, self-serve developer surface: a documented REST API at api.odin.io with a published OpenAPI 3.0.1 definition, first-party Go/Python/JavaScript SDKs, a Go CLI, a public Postman collection, and an llms.txt documentation index.'
+finops:
+- has_sources: true
+  method: derived
+  name: Cyble Finops
+  primary_unit: ''
+  service_category: ''
+  slug: cyble-finops
+  template: true
 image: https://search.odin.io/opengraph-image.png
 layout: provider
 modified: '2026-10-06'
@@ -267,29 +277,29 @@ plans:
 - name: Cyble Plans Pricing
   plan_count: 0
   slug: cyble-plans-pricing
-random_paper: 21
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Cyble Rate Limits
   slug: cyble-rate-limits
 score:
   band: developing
-  composite: 44.2
+  composite: 54.0
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 40.0
+    artifact_dirs: 26
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 48.0
-    developer_ergonomics: 70.8
-    discoverability: 78.6
-    operational_transparency: 21.1
+    developer_ergonomics: 78.0
+    discoverability: 66.1
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -297,7 +307,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 43.6
+  previous_composite: 54.5
   provenance:
     conformance: derived
     contracts:
@@ -312,14 +322,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/screenshots/cyble-2026-08-17T080843.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cyble/cyble-2026-08-17T080843.png
 security:
 - kind: authentication
   name: Cyble Authentication
@@ -337,6 +348,14 @@ security:
   name: Cyble Trust Center
   slug: cyble-trust-center
   summary_line: SOC 2, ISO 27001, GDPR
+skill_count: 3
+skills:
+- name: ODIN attack-surface sweep for a domain
+  slug: cyble-odin-attack-surface-sweep
+- name: ODIN CVE exposure check across an IP range or ASN
+  slug: cyble-odin-cve-exposure-check
+- name: ODIN exposed bucket and file hunt
+  slug: cyble-odin-exposed-data-hunt
 slug: cyble
 tags:
 - Threat Intelligence

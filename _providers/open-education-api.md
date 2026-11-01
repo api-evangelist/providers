@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.1
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 153
   slug: open-education-api-agentic-access
   summary_line: 153 operations · 29 acting
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://demo01.eduapi.nl/v6
   baseurl_source: spec
@@ -178,105 +180,105 @@ apis:
   description: The test components API provides information about test or assessment activities that are part of a course (or learning unit).
   name: Open Education API test components API
   slug: open-education-api-test-components-api
-artifact_total: 47
+artifact_total: 51
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/agentic-access/open-education-api-agentic-access.yml
+  href: https://artifacts.apis.io/open-education-api/agentic-access/open-education-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/open-education-api-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/rules/open-education-api-specification-spectral-rules.yml
+  href: https://artifacts.apis.io/open-education-api/rules/open-education-api-specification-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/open-education-api-specification-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/rules/open-education-api-rules.yml
+  href: https://artifacts.apis.io/open-education-api/rules/open-education-api-rules.yml
   title: ''
   type: Spectral
   url: rules/open-education-api-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/json-ld/open-education-api-context.jsonld
+  href: https://artifacts.apis.io/open-education-api/json-ld/open-education-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/open-education-api-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/vocabulary/open-education-api-vocabulary.yml
+  href: https://artifacts.apis.io/open-education-api/vocabulary/open-education-api-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/open-education-api-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/open-education-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/data-model/open-education-api-data-model.yml
+  href: https://artifacts.apis.io/open-education-api/data-model/open-education-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/open-education-api-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/changelog/open-education-api-changelog.yml
+  href: https://artifacts.apis.io/open-education-api/changelog/open-education-api-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/open-education-api-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/conventions/open-education-api-conventions.yml
+  href: https://artifacts.apis.io/open-education-api/conventions/open-education-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/open-education-api-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/lifecycle/open-education-api-lifecycle.yml
+  href: https://artifacts.apis.io/open-education-api/lifecycle/open-education-api-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/open-education-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/lifecycle/open-education-api-lifecycle.yml
+  href: https://artifacts.apis.io/open-education-api/lifecycle/open-education-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/open-education-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/errors/open-education-api-problem-types.yml
+  href: https://artifacts.apis.io/open-education-api/errors/open-education-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/open-education-api-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/conformance/open-education-api-conformance.yml
+  href: https://artifacts.apis.io/open-education-api/conformance/open-education-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/open-education-api-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/overlays/open-education-api-open-education-api-overlay.yaml
+  href: https://artifacts.apis.io/open-education-api/overlays/open-education-api-open-education-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-education-api-open-education-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/hosts/open-education-api-hosts.yml
+  href: https://artifacts.apis.io/open-education-api/hosts/open-education-api-hosts.yml
   title: ''
   type: Hosts
   url: hosts/open-education-api-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/vendors/open-education-api-vendors.yml
+  href: https://artifacts.apis.io/open-education-api/vendors/open-education-api-vendors.yml
   title: ''
   type: Vendors
   url: vendors/open-education-api-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/packages/open-education-api-packages.yml
+  href: https://artifacts.apis.io/open-education-api/packages/open-education-api-packages.yml
   title: ''
   type: SDKs
   url: packages/open-education-api-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/packages/open-education-api-packages.yml
+  href: https://artifacts.apis.io/open-education-api/packages/open-education-api-packages.yml
   title: ''
   type: Packages
   url: packages/open-education-api-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/authentication/open-education-api-authentication.yml
+  href: https://artifacts.apis.io/open-education-api/authentication/open-education-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/open-education-api-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/security/open-education-api-domain-security.yml
+  href: https://artifacts.apis.io/open-education-api/security/open-education-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/open-education-api-domain-security.yml
@@ -375,7 +377,7 @@ plans:
 - name: Open Education Api Plans Pricing
   plan_count: 0
   slug: open-education-api-plans-pricing
-random_paper: 12
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Open Education Api Rate Limits
@@ -407,21 +409,21 @@ rules:
   slug: open-education-api-specification-spectral-rules
 score:
   band: developing
-  composite: 40.3
+  composite: 40.5
   coverage:
     artifact_dirs: 25
-    catalog_earned: 60.8
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: -0.5
   facets:
     access_clarity: 0.0
     contract_governance: 35.6
     contract_quality: 64.6
     developer_ergonomics: 54.2
-    discoverability: 62.5
+    discoverability: 57.1
     operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -448,13 +450,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/screenshots/open-education-api-2026-10-11T111936.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/open-education-api/open-education-api-2026-10-11T111936.png
 security:
 - kind: authentication
   name: Open Education Api Authentication
@@ -464,6 +467,16 @@ security:
   name: Open Education Api Domain Security
   slug: open-education-api-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: browse-course-catalog
+  slug: open-education-api-browse-course-catalog
+- name: enrol-in-a-course-offering
+  slug: open-education-api-enrol-in-a-course-offering
+- name: explore-programme-structure
+  slug: open-education-api-explore-programme-structure
+- name: retrieve-student-associations-and-results
+  slug: open-education-api-retrieve-student-associations-and-results
 slug: open-education-api
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for managing customer satisfaction surveys, retrieving ratings and comments, tracking CSAT, CES, and NPS scores, and managing users, teams, and customers within the Nicereply platform.
@@ -42,7 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nicereply/refs/heads/main/security/nicereply-domain-security.yml
+  href: https://artifacts.apis.io/nicereply/security/nicereply-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nicereply-domain-security.yml
@@ -79,17 +81,17 @@ common:
   type: X
   url: https://twitter.com/nice_reply
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nicereply/refs/heads/main/plans/nicereply-plans-pricing.yml
+  href: https://artifacts.apis.io/nicereply/plans/nicereply-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nicereply-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nicereply/refs/heads/main/rate-limits/nicereply-rate-limits.yml
+  href: https://artifacts.apis.io/nicereply/rate-limits/nicereply-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nicereply-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nicereply/refs/heads/main/finops/nicereply-finops.yml
+  href: https://artifacts.apis.io/nicereply/finops/nicereply-finops.yml
   title: ''
   type: FinOps
   url: finops/nicereply-finops.yml
@@ -109,7 +111,7 @@ modified: '2026-06-13'
 name: Nicereply
 nav: Providers
 network: true
-overview: 'Nicereply is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Customer Satisfaction, CSAT, CES, NPS, and Surveys.
+overview: 'Nicereply is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CSAT, CES, NPS, Surveys, and Help Desk.
 
 
   Nicereply''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -117,7 +119,7 @@ plans:
 - name: Nicereply Plans Pricing
   plan_count: 5
   slug: nicereply-plans-pricing
-random_paper: 3
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Nicereply Rate Limits
@@ -132,7 +134,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
@@ -140,21 +142,21 @@ score:
     developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 19.6
+  previous_composite: 14.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nicereply/refs/heads/main/screenshots/nicereply-2026-06-20T190319.png
+screenshot: https://apis.io/screenshots/nicereply/nicereply-2026-06-20T190319.png
 security:
 - kind: domain-security
   name: Nicereply Domain Security
@@ -162,7 +164,6 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: nicereply
 tags:
-- Customer Satisfaction
 - CSAT
 - CES
 - NPS

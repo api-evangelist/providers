@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.9
-  scored_at: '2026-10-17'
+  score: 35.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -87,15 +89,12 @@ apis:
   description: County- and city-level outage rollups published as map and feature layers.
   name: CMS Energy Service Dashboard API
   slug: cms-energy-service-dashboard-api
-artifact_total: 26
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Cms Energy Webhooks
   slug: cms-energy-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Consumers Energy Green Button Connect My Data API (UtilityAPI) Authorizations API
   slug: open-cms-energy-authorizations-api
@@ -120,22 +119,22 @@ common:
   type: Pricing
   url: https://greenbutton.consumersenergy.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/agentic-access/cms-energy-agentic-access.yml
+  href: https://artifacts.apis.io/cms-energy/agentic-access/cms-energy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cms-energy-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/security/cms-energy-domain-security.yml
+  href: https://artifacts.apis.io/cms-energy/security/cms-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cms-energy-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/authentication/cms-energy-authentication.yml
+  href: https://artifacts.apis.io/cms-energy/authentication/cms-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cms-energy-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/scopes/cms-energy-scopes.yml
+  href: https://artifacts.apis.io/cms-energy/scopes/cms-energy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cms-energy-scopes.yml
@@ -172,97 +171,97 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/cms-energy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/well-known/cms-energy-well-known.yml
+  href: https://artifacts.apis.io/cms-energy/well-known/cms-energy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cms-energy-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/well-known/cms-energy-security.txt
+  href: https://artifacts.apis.io/cms-energy/well-known/cms-energy-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cms-energy-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/security/cms-energy-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cms-energy/security/cms-energy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cms-energy-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/security/cms-energy-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cms-energy/security/cms-energy-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/cms-energy-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/conformance/cms-energy-conformance.yml
+  href: https://artifacts.apis.io/cms-energy/conformance/cms-energy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cms-energy-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/conformance/cms-energy-conformance.yml
+  href: https://artifacts.apis.io/cms-energy/conformance/cms-energy-conformance.yml
   title: ''
   type: Compliance
   url: conformance/cms-energy-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/errors/cms-energy-problem-types.yml
+  href: https://artifacts.apis.io/cms-energy/errors/cms-energy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cms-energy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/lifecycle/cms-energy-lifecycle.yml
+  href: https://artifacts.apis.io/cms-energy/lifecycle/cms-energy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cms-energy-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/conventions/cms-energy-conventions.yml
+  href: https://artifacts.apis.io/cms-energy/conventions/cms-energy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cms-energy-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/sandbox/cms-energy-sandbox.yml
+  href: https://artifacts.apis.io/cms-energy/sandbox/cms-energy-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cms-energy-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/data-model/cms-energy-data-model.yml
+  href: https://artifacts.apis.io/cms-energy/data-model/cms-energy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cms-energy-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/packages/cms-energy-packages.yml
+  href: https://artifacts.apis.io/cms-energy/packages/cms-energy-packages.yml
   title: ''
   type: Packages
   url: packages/cms-energy-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/mcp/cms-energy-mcp.yml
+  href: https://artifacts.apis.io/cms-energy/mcp/cms-energy-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cms-energy-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/asyncapi/cms-energy-webhooks.yml
+  href: https://artifacts.apis.io/cms-energy/asyncapi/cms-energy-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cms-energy-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cms-energy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/llms/cms-energy-llms.txt
+  href: https://artifacts.apis.io/cms-energy/llms/cms-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cms-energy-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/rate-limits/cms-energy-rate-limits.yml
+  href: https://artifacts.apis.io/cms-energy/rate-limits/cms-energy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cms-energy-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/plans/cms-energy-plans-pricing.yml
+  href: https://artifacts.apis.io/cms-energy/plans/cms-energy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cms-energy-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/finops/cms-energy-finops.yml
+  href: https://artifacts.apis.io/cms-energy/finops/cms-energy-finops.yml
   title: ''
   type: FinOps
   url: finops/cms-energy-finops.yml
@@ -298,12 +297,12 @@ created: '2026-03-21'
 description: CMS Energy is an energy holding company whose primary subsidiary is Consumers Energy, an electric and natural gas utility serving customers in Michigan. Consumers Energy participates in the Green Button Connect My Data (GBCMD) program, exposing customer-authorized energy usage data to third parties via OAuth 2.0 - typically brokered through UtilityAPI - for use in energy management, demand response, EV charging, solar, and sustainability applications.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Cms Energy Finops
   primary_unit: ''
-  service_category: Energy / Utility
+  service_category: ''
   slug: cms-energy-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cms-energy.png
 layout: provider
 mcp_servers:
@@ -341,7 +340,7 @@ press:
 - date: ''
   title: CMS Energy Exceeds Earnings Guidance in 2025, Raises ...
   url: https://www.prnewswire.com/news-releases/cms-energy-exceeds-earnings-guidance-in-2025-raises-2026-adjusted-eps-guidance-302679615.html
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Cms Energy Rate Limits
@@ -353,7 +352,7 @@ scopes:
   summary_line: 10 scopes
 score:
   band: strong
-  composite: 55.3
+  composite: 56.8
   coverage:
     artifact_dirs: 29
     catalog_earned: 57.0
@@ -361,15 +360,20 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 67.1
+    access_clarity: 73.7
     contract_governance: 0.0
     contract_quality: 40.6
-    developer_ergonomics: 58.9
-    discoverability: 73.2
+    developer_ergonomics: 63.7
+    discoverability: 65.0
     operational_transparency: 50.0
-  previous_composite: 54.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -386,14 +390,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 54.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/screenshots/cms-energy-2026-06-20T174637.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cms-energy/cms-energy-2026-06-20T174637.png
 security:
 - kind: authentication
   name: Cms Energy Authentication
@@ -407,6 +411,14 @@ security:
   name: Cms Energy Vulnerability Disclosure
   slug: cms-energy-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 3
+skills:
+- name: cms-energy-check-outages
+  slug: cms-energy-check-outages
+- name: cms-energy-greenbutton-authorization
+  slug: cms-energy-greenbutton-authorization
+- name: cms-energy-pull-usage-data
+  slug: cms-energy-pull-usage-data
 slug: cms-energy
 tags:
 - Electric

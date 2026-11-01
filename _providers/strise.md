@@ -25,22 +25,24 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.5
-  scored_at: '2026-10-17'
+  score: 40.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GraphQL API for programmatic access to core Strise functionality — search companies and persons, screen for PEP/sanctions/ownership, run reviews, manage a monitoring portfolio, and subscribe to webhoo
   name: Strise Connect API
   slug: strise-connect-api
-artifact_total: 7
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Strise Webhooks
@@ -103,72 +105,72 @@ common:
   type: Security
   url: https://docs.strise.ai/technology/bug-bounty-program/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/mcp/strise-mcp.yml
+  href: https://artifacts.apis.io/strise/mcp/strise-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/strise-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/llms/strise-llms.txt
+  href: https://artifacts.apis.io/strise/llms/strise-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/strise-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/well-known/strise-well-known.yml
+  href: https://artifacts.apis.io/strise/well-known/strise-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/strise-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/authentication/strise-authentication.yml
+  href: https://artifacts.apis.io/strise/authentication/strise-authentication.yml
   title: ''
   type: Authentication
   url: authentication/strise-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/conventions/strise-conventions.yml
+  href: https://artifacts.apis.io/strise/conventions/strise-conventions.yml
   title: ''
   type: Conventions
   url: conventions/strise-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/conformance/strise-conformance.yml
+  href: https://artifacts.apis.io/strise/conformance/strise-conformance.yml
   title: ''
   type: Conformance
   url: conformance/strise-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/sandbox/strise-sandbox.yml
+  href: https://artifacts.apis.io/strise/sandbox/strise-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/strise-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/changelog/strise-changelog.yml
+  href: https://artifacts.apis.io/strise/changelog/strise-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/strise-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/asyncapi/strise-webhooks.yml
+  href: https://artifacts.apis.io/strise/asyncapi/strise-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/strise-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/lifecycle/strise-lifecycle.yml
+  href: https://artifacts.apis.io/strise/lifecycle/strise-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/strise-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/data-model/strise-data-model.yml
+  href: https://artifacts.apis.io/strise/data-model/strise-data-model.yml
   title: ''
   type: DataModel
   url: data-model/strise-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/security/strise-domain-security.yml
+  href: https://artifacts.apis.io/strise/security/strise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/strise-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/security/strise-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/strise/security/strise-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/strise-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/strise/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -191,10 +193,10 @@ overview: 'Strise is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Strise''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 6
+random_paper: 18
 score:
   band: developing
-  composite: 48.8
+  composite: 49.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -202,14 +204,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 44.7
+    discoverability: 65.0
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -218,7 +220,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 48.7
+  previous_composite: 49.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -233,14 +235,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/screenshots/strise-2026-08-17T082140.png
+screenshot: https://apis.io/screenshots/strise/strise-2026-08-17T082140.png
 security:
 - kind: authentication
   name: Strise Authentication
@@ -258,6 +260,14 @@ security:
   name: Strise Trust Center
   slug: strise-trust-center
   summary_line: SOC 2 Type II, ISO 27001, GDPR
+skill_count: 3
+skills:
+- name: Consume monitoring alerts over the Connect API
+  slug: strise-consume-monitoring-alerts
+- name: Onboard a business customer with Strise
+  slug: strise-onboard-business-customer
+- name: Run a review and fetch its PDF report
+  slug: strise-run-review-and-fetch-report
 slug: strise
 tags:
 - Company

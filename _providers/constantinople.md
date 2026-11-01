@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -65,37 +67,37 @@ common:
   type: LinkedIn
   url: https://au.linkedin.com/company/cxnplio
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/constantinople/refs/heads/main/security/constantinople-domain-security.yml
+  href: https://artifacts.apis.io/constantinople/security/constantinople-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/constantinople-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/constantinople/refs/heads/main/security/constantinople-trust-center.yml
+  href: https://artifacts.apis.io/constantinople/security/constantinople-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/constantinople-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/constantinople/refs/heads/main/security/constantinople-trust-center.yml
+  href: https://artifacts.apis.io/constantinople/security/constantinople-trust-center.yml
   title: ''
   type: Compliance
   url: security/constantinople-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/constantinople/refs/heads/main/conformance/constantinople-conformance.yml
+  href: https://artifacts.apis.io/constantinople/conformance/constantinople-conformance.yml
   title: ''
   type: Conformance
   url: conformance/constantinople-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/constantinople/refs/heads/main/packages/constantinople-packages.yml
+  href: https://artifacts.apis.io/constantinople/packages/constantinople-packages.yml
   title: ''
   type: Packages
   url: packages/constantinople-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/constantinople/refs/heads/main/well-known/constantinople-well-known.yml
+  href: https://artifacts.apis.io/constantinople/well-known/constantinople-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/constantinople-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/constantinople/refs/heads/main/llms/constantinople-llms.txt
+  href: https://artifacts.apis.io/constantinople/llms/constantinople-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/constantinople-llms.txt
@@ -111,10 +113,10 @@ overview: 'Constantinople is profiled on the [APIs.io](https://apis.io/) network
 
 
   Constantinople''s developer surface includes documentation, engineering blog, support, and 11 more developer resources.'
-random_paper: 3
+random_paper: 9
 score:
   band: emerging
-  composite: 18.2
+  composite: 17.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -128,7 +130,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -137,7 +139,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 18.2
+  previous_composite: 17.5
   provenance:
     conformance: first-party
   regulatory:
@@ -146,14 +148,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 18.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/constantinople/refs/heads/main/screenshots/constantinople-2026-07-25T210312.png
+screenshot: https://apis.io/screenshots/constantinople/constantinople-2026-07-25T210312.png
 security:
 - kind: domain-security
   name: Constantinople Domain Security

@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -32,12 +34,12 @@ common:
   type: Blog
   url: https://animab.com/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/animab/refs/heads/main/hosts/animab-hosts.yml
+  href: https://artifacts.apis.io/animab/hosts/animab-hosts.yml
   title: ''
   type: Hosts
   url: hosts/animab-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/animab/refs/heads/main/vendors/animab-vendors.yml
+  href: https://artifacts.apis.io/animab/vendors/animab-vendors.yml
   title: ''
   type: Vendors
   url: vendors/animab-vendors.yml
@@ -46,7 +48,7 @@ common:
   type: Leadership
   url: https://animab.com/team
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/animab/refs/heads/main/security/animab-domain-security.yml
+  href: https://artifacts.apis.io/animab/security/animab-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/animab-domain-security.yml
@@ -73,18 +75,18 @@ overview: 'Animab is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Animab''s developer surface includes engineering blog, documentation, and 6 more developer resources.'
-random_paper: 0
+random_paper: 16
 score:
   band: minimal
   composite: 5.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -92,7 +94,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 46.4
     operational_transparency: 0.0
-  previous_composite: 5.4
+  previous_composite: 5.9
   provenance:
     mcp: unknown
   regulatory:
@@ -101,14 +103,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/animab/refs/heads/main/screenshots/animab-2026-10-11T094053.png
+screenshot: https://apis.io/screenshots/animab/animab-2026-10-11T094053.png
 security:
 - kind: domain-security
   name: Animab Domain Security

@@ -21,7 +21,7 @@ modified: '2026-10-06'
 name: Seedcamp
 nav: Providers
 network: true
-random_paper: 20
+random_paper: 18
 slug: seedcamp
 tags:
 - Venture Capital

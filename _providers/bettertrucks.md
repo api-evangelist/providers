@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Better Trucks provides a delivery platform API (no public machine‑readable contract found).
@@ -32,12 +34,12 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bettertrucks/refs/heads/main/hosts/bettertrucks-hosts.yml
+  href: https://artifacts.apis.io/bettertrucks/hosts/bettertrucks-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bettertrucks-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bettertrucks/refs/heads/main/vendors/bettertrucks-vendors.yml
+  href: https://artifacts.apis.io/bettertrucks/vendors/bettertrucks-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bettertrucks-vendors.yml
@@ -46,7 +48,7 @@ common:
   type: StatusPage
   url: https://status.bettertrucks.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bettertrucks/refs/heads/main/security/bettertrucks-domain-security.yml
+  href: https://artifacts.apis.io/bettertrucks/security/bettertrucks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bettertrucks-domain-security.yml
@@ -100,7 +102,7 @@ overview: 'Bettertrucks is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   Bettertrucks'' developer surface includes engineering blog, documentation, getting-started guide, support, and 8 more developer resources.'
-random_paper: 16
+random_paper: 18
 score:
   band: emerging
   composite: 17.1
@@ -128,14 +130,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bettertrucks/refs/heads/main/screenshots/bettertrucks-2026-10-11T102025.png
+screenshot: https://apis.io/screenshots/bettertrucks/bettertrucks-2026-10-11T102025.png
 security:
 - kind: domain-security
   name: Bettertrucks Domain Security

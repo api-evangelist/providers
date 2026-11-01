@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Self-hosted administration REST API for Parallels RAS (Remote Application Server). Applications authenticate with administrator credentials to obtain an authToken, then manage infrastructure (agents, '
@@ -82,22 +84,22 @@ common:
   type: StatusPage
   url: https://status.parallels.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parallels/refs/heads/main/authentication/parallels-authentication.yml
+  href: https://artifacts.apis.io/parallels/authentication/parallels-authentication.yml
   title: ''
   type: Authentication
   url: authentication/parallels-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parallels/refs/heads/main/conventions/parallels-conventions.yml
+  href: https://artifacts.apis.io/parallels/conventions/parallels-conventions.yml
   title: ''
   type: Conventions
   url: conventions/parallels-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parallels/refs/heads/main/lifecycle/parallels-lifecycle.yml
+  href: https://artifacts.apis.io/parallels/lifecycle/parallels-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/parallels-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/parallels/refs/heads/main/changelog/parallels-changelog.yml
+  href: https://artifacts.apis.io/parallels/changelog/parallels-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/parallels-changelog.yml
@@ -106,32 +108,32 @@ common:
   type: Deprecation
   url: https://kb.parallels.com/en/122073
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/parallels/refs/heads/main/cli/parallels-cli.yml
+  href: https://artifacts.apis.io/parallels/cli/parallels-cli.yml
   title: ''
   type: CLI
   url: cli/parallels-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/parallels/refs/heads/main/packages/parallels-packages.yml
+  href: https://artifacts.apis.io/parallels/packages/parallels-packages.yml
   title: ''
   type: Packages
   url: packages/parallels-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/parallels/refs/heads/main/packages/parallels-packages.yml
+  href: https://artifacts.apis.io/parallels/packages/parallels-packages.yml
   title: ''
   type: SDKs
   url: packages/parallels-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parallels/refs/heads/main/well-known/parallels-well-known.yml
+  href: https://artifacts.apis.io/parallels/well-known/parallels-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/parallels-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parallels/refs/heads/main/llms/parallels-llms.txt
+  href: https://artifacts.apis.io/parallels/llms/parallels-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/parallels-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parallels/refs/heads/main/security/parallels-domain-security.yml
+  href: https://artifacts.apis.io/parallels/security/parallels-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/parallels-domain-security.yml
@@ -147,10 +149,10 @@ overview: 'Parallels is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Parallels'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 14 more developer resources.'
-random_paper: 14
+random_paper: 0
 score:
   band: thin
-  composite: 26.6
+  composite: 28.8
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -158,29 +160,29 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 26.5
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 28.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/parallels/refs/heads/main/screenshots/parallels-2026-08-07T191426.png
+screenshot: https://apis.io/screenshots/parallels/parallels-2026-08-07T191426.png
 security:
 - kind: authentication
   name: Parallels Authentication

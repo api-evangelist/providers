@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -90,87 +92,87 @@ common:
   type: TermsOfService
   url: https://www.tecovas.com/p/terms-and-conditions
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/llms/tecovas-llms.txt
+  href: https://artifacts.apis.io/tecovas/llms/tecovas-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tecovas-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/well-known/tecovas-well-known.yml
+  href: https://artifacts.apis.io/tecovas/well-known/tecovas-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tecovas-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/well-known/tecovas-api-catalog.json
+  href: https://artifacts.apis.io/tecovas/well-known/tecovas-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/tecovas-api-catalog.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/well-known/tecovas-robots.txt
+  href: https://artifacts.apis.io/tecovas/well-known/tecovas-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/tecovas-robots.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tecovas/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/mcp/tecovas-mcp.yml
+  href: https://artifacts.apis.io/tecovas/mcp/tecovas-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tecovas-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/mcp/tecovas-tool-crosswalk.yml
+  href: https://artifacts.apis.io/tecovas/mcp/tecovas-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tecovas-tool-crosswalk.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/graphql/tecovas-storefront.graphql
+  href: https://artifacts.apis.io/tecovas/graphql/tecovas-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/tecovas-storefront.graphql
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/authentication/tecovas-authentication.yml
+  href: https://artifacts.apis.io/tecovas/authentication/tecovas-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tecovas-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/scopes/tecovas-scopes.yml
+  href: https://artifacts.apis.io/tecovas/scopes/tecovas-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tecovas-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/conventions/tecovas-conventions.yml
+  href: https://artifacts.apis.io/tecovas/conventions/tecovas-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tecovas-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/conformance/tecovas-conformance.yml
+  href: https://artifacts.apis.io/tecovas/conformance/tecovas-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tecovas-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/lifecycle/tecovas-lifecycle.yml
+  href: https://artifacts.apis.io/tecovas/lifecycle/tecovas-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tecovas-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/security/tecovas-domain-security.yml
+  href: https://artifacts.apis.io/tecovas/security/tecovas-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tecovas-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/agentic-access/tecovas-agentic-access.yml
+  href: https://artifacts.apis.io/tecovas/agentic-access/tecovas-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tecovas-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/data-model/tecovas-data-model.yml
+  href: https://artifacts.apis.io/tecovas/data-model/tecovas-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tecovas-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/errors/tecovas-problem-types.yml
+  href: https://artifacts.apis.io/tecovas/errors/tecovas-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tecovas-problem-types.yml
@@ -194,7 +196,7 @@ overview: 'Tecovas is listed with 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Tecovas'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 9
+random_paper: 13
 scopes:
 - name: Tecovas Scopes
   scope_count: 4
@@ -202,7 +204,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 30.8
+  composite: 29.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
@@ -216,9 +218,9 @@ score:
     contract_governance: 18.2
     contract_quality: 10.4
     developer_ergonomics: 54.8
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 0.0
-  previous_composite: 30.8
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -230,14 +232,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tecovas/refs/heads/main/screenshots/tecovas-2026-09-02T162710.png
+screenshot: https://apis.io/screenshots/tecovas/tecovas-2026-09-02T162710.png
 security:
 - kind: authentication
   name: Tecovas Authentication

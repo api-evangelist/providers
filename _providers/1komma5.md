@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 31.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -183,11 +185,8 @@ apis:
   description: The Users API from 1KOMMA5° — 4 operation(s) for users.
   name: 1KOMMA5° Users API
   slug: 1komma5-users-api
-artifact_total: 62
+artifact_total: 64
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Offer Tool Admin - Audit Logs API
   slug: open-1komma5-admin-audit-logs-api
@@ -274,27 +273,27 @@ collections:
   slug: open-1komma5-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/capabilities/1komma5-capability-edges.yml
+  href: https://artifacts.apis.io/1komma5/capabilities/1komma5-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/1komma5-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/mcp/1komma5-mcp.yml
+  href: https://artifacts.apis.io/1komma5/mcp/1komma5-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/1komma5-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/overlays/1komma5-offer-tool-overlay.yaml
+  href: https://artifacts.apis.io/1komma5/overlays/1komma5-offer-tool-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/1komma5-offer-tool-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/agentic-access/1komma5-agentic-access.yml
+  href: https://artifacts.apis.io/1komma5/agentic-access/1komma5-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/1komma5-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/security/1komma5-domain-security.yml
+  href: https://artifacts.apis.io/1komma5/security/1komma5-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/1komma5-domain-security.yml
@@ -339,72 +338,72 @@ common:
   type: Security
   url: https://1komma5.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/well-known/1komma5-security.txt
+  href: https://artifacts.apis.io/1komma5/well-known/1komma5-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/1komma5-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/well-known/1komma5-well-known.yml
+  href: https://artifacts.apis.io/1komma5/well-known/1komma5-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/1komma5-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/well-known/1komma5-openid-configuration.json
+  href: https://artifacts.apis.io/1komma5/well-known/1komma5-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/1komma5-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/authentication/1komma5-authentication.yml
+  href: https://artifacts.apis.io/1komma5/authentication/1komma5-authentication.yml
   title: ''
   type: Authentication
   url: authentication/1komma5-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/scopes/1komma5-scopes.yml
+  href: https://artifacts.apis.io/1komma5/scopes/1komma5-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/1komma5-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/conventions/1komma5-conventions.yml
+  href: https://artifacts.apis.io/1komma5/conventions/1komma5-conventions.yml
   title: ''
   type: Conventions
   url: conventions/1komma5-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/errors/1komma5-problem-types.yml
+  href: https://artifacts.apis.io/1komma5/errors/1komma5-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/1komma5-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/lifecycle/1komma5-lifecycle.yml
+  href: https://artifacts.apis.io/1komma5/lifecycle/1komma5-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/1komma5-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/conformance/1komma5-conformance.yml
+  href: https://artifacts.apis.io/1komma5/conformance/1komma5-conformance.yml
   title: ''
   type: Conformance
   url: conformance/1komma5-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/data-model/1komma5-data-model.yml
+  href: https://artifacts.apis.io/1komma5/data-model/1komma5-data-model.yml
   title: ''
   type: DataModel
   url: data-model/1komma5-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/llms/1komma5-llms.txt
+  href: https://artifacts.apis.io/1komma5/llms/1komma5-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/1komma5-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/1komma5/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/packages/1komma5-packages.yml
+  href: https://artifacts.apis.io/1komma5/packages/1komma5-packages.yml
   title: ''
   type: Packages
   url: packages/1komma5-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/security/1komma5-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/1komma5/security/1komma5-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/1komma5-vulnerability-disclosure.yml
@@ -420,7 +419,7 @@ overview: '1KOMMA5° publishes 28 API contracts indexed on the [APIs.io](https:/
 
 
   1KOMMA5°''s developer surface includes support, engineering blog, authentication, and 26 more developer resources.'
-random_paper: 19
+random_paper: 11
 scopes:
 - name: 1Komma5 Scopes
   scope_count: 14
@@ -428,7 +427,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: thin
-  composite: 29.0
+  composite: 29.5
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -440,10 +439,10 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 35.5
+    contract_quality: 34.6
     developer_ergonomics: 20.8
-    discoverability: 73.2
-    operational_transparency: 5.3
+    discoverability: 66.1
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -452,7 +451,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 29.0
+  previous_composite: 29.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -469,13 +468,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/screenshots/1komma5-2026-08-07T160650.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/1komma5/1komma5-2026-08-07T160650.png
 security:
 - kind: authentication
   name: 1Komma5 Authentication
@@ -489,6 +489,14 @@ security:
   name: 1Komma5 Vulnerability Disclosure
   slug: 1komma5-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Administer 1KOMMA5° Offer Tool tenants, branches and users
+  slug: 1komma5-administer-tenant-users
+- name: Browse the 1KOMMA5° product catalogue and pricebook
+  slug: 1komma5-browse-product-catalogue
+- name: Build and send a 1KOMMA5° solar offer
+  slug: 1komma5-build-and-send-offer
 slug: 1komma5
 tags:
 - Company

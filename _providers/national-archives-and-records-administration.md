@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -123,11 +125,8 @@ apis:
   description: The Utilities API from National Archives and Records Administration — 1 operation(s) for utilities.
   name: National Archives and Records Administration Utilities API
   slug: national-archives-and-records-administration-utilities-api
-artifact_total: 39
+artifact_total: 38
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NextGen Catalog Accounts API
   slug: open-national-archives-and-records-administration-accounts-api
@@ -181,17 +180,17 @@ collections:
   slug: open-national-archives-and-records-administration
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/plans/national-archives-and-records-administration-plans-pricing.yml
+  href: https://artifacts.apis.io/national-archives-and-records-administration/plans/national-archives-and-records-administration-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/national-archives-and-records-administration-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/rate-limits/national-archives-and-records-administration-rate-limits.yml
+  href: https://artifacts.apis.io/national-archives-and-records-administration/rate-limits/national-archives-and-records-administration-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/national-archives-and-records-administration-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/finops/national-archives-and-records-administration-finops.yml
+  href: https://artifacts.apis.io/national-archives-and-records-administration/finops/national-archives-and-records-administration-finops.yml
   title: ''
   type: FinOps
   url: finops/national-archives-and-records-administration-finops.yml
@@ -204,12 +203,12 @@ common:
   type: IssueTracker
   url: https://github.com/usnationalarchives/Catalog-API/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/agentic-access/national-archives-and-records-administration-agentic-access.yml
+  href: https://artifacts.apis.io/national-archives-and-records-administration/agentic-access/national-archives-and-records-administration-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/national-archives-and-records-administration-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/security/national-archives-and-records-administration-domain-security.yml
+  href: https://artifacts.apis.io/national-archives-and-records-administration/security/national-archives-and-records-administration-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/national-archives-and-records-administration-domain-security.yml
@@ -231,7 +230,7 @@ finops:
 - has_sources: false
   method: generated
   name: National Archives And Records Administration Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: national-archives-and-records-administration-finops
   template: true
@@ -249,14 +248,14 @@ plans:
 - name: National Archives And Records Administration Plans Pricing
   plan_count: 3
   slug: national-archives-and-records-administration-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: National Archives And Records Administration Rate Limits
   slug: national-archives-and-records-administration-rate-limits
 score:
   band: emerging
-  composite: 25.3
+  composite: 23.4
   coverage:
     artifact_dirs: 10
     catalog_earned: 38.0
@@ -264,11 +263,11 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 45.4
+    contract_quality: 44.1
     developer_ergonomics: 19.0
     discoverability: 64.3
     operational_transparency: 13.2
@@ -277,7 +276,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 26.9
+  previous_composite: 23.4
   provenance:
     agentic_access: derived
     contracts:
@@ -291,13 +290,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/screenshots/national-archives-and-records-administration-2026-06-20T185959.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/national-archives-and-records-administration/national-archives-and-records-administration-2026-06-20T185959.png
 security:
 - kind: domain-security
   name: National Archives And Records Administration Domain Security

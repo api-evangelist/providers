@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -165,11 +167,8 @@ apis:
   description: Endpoints related to Solana blockchain
   name: Magic Eden Solana API
   slug: magic-eden-solana-api
-artifact_total: 85
+artifact_total: 84
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Magic Eden EVM Activity API
   slug: open-magic-eden-activity-api
@@ -257,22 +256,22 @@ common:
   type: IssueTracker
   url: https://github.com/magiceden/magiceden-sdk/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/agentic-access/magic-eden-agentic-access.yml
+  href: https://artifacts.apis.io/magic-eden/agentic-access/magic-eden-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/magic-eden-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/security/magic-eden-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/magic-eden/security/magic-eden-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/magic-eden-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/security/magic-eden-domain-security.yml
+  href: https://artifacts.apis.io/magic-eden/security/magic-eden-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/magic-eden-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/authentication/magic-eden-authentication.yml
+  href: https://artifacts.apis.io/magic-eden/authentication/magic-eden-authentication.yml
   title: ''
   type: Authentication
   url: authentication/magic-eden-authentication.yml
@@ -325,17 +324,17 @@ common:
   type: Discord
   url: https://discord.com/invite/magiceden
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/plans/magic-eden-plans-pricing.yml
+  href: https://artifacts.apis.io/magic-eden/plans/magic-eden-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/magic-eden-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/rate-limits/magic-eden-rate-limits.yml
+  href: https://artifacts.apis.io/magic-eden/rate-limits/magic-eden-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/magic-eden-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/finops/magic-eden-finops.yml
+  href: https://artifacts.apis.io/magic-eden/finops/magic-eden-finops.yml
   title: ''
   type: FinOps
   url: finops/magic-eden-finops.yml
@@ -360,17 +359,17 @@ common:
   type: Twitter
   url: https://twitter.com/MagicEden
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/json-ld/magic-eden-context.jsonld
+  href: https://artifacts.apis.io/magic-eden/json-ld/magic-eden-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/magic-eden-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/json-ld/magic-eden-provider.jsonld
+  href: https://artifacts.apis.io/magic-eden/json-ld/magic-eden-provider.jsonld
   title: ''
   type: JSONLDProvider
   url: json-ld/magic-eden-provider.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/json-schema/magic-eden-collection.json
+  href: https://artifacts.apis.io/magic-eden/json-schema/magic-eden-collection.json
   title: ''
   type: JSONSchema
   url: json-schema/magic-eden-collection.json
@@ -458,7 +457,7 @@ plans:
 - name: Magic Eden Plans
   plan_count: 2
   slug: magic-eden-plans
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Magic Eden Rate Limits
@@ -476,24 +475,24 @@ rules:
     warn: 3
   slug: magic-eden-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 37.5
+  band: developing
+  composite: 43.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 56.3
     catalog_earned_first_party: 0.0
     catalog_gap: 58.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 49.1
-    developer_ergonomics: 42.9
+    developer_ergonomics: 61.9
     discoverability: 78.6
-    operational_transparency: 26.3
-  previous_composite: 44.4
+    operational_transparency: 39.5
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -507,13 +506,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/screenshots/magic-eden-2026-06-20T184844.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/magic-eden/magic-eden-2026-06-20T184844.png
 security:
 - kind: authentication
   name: Magic Eden Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Substrate/Polkadot JSON-RPC interface to the Parallel Finance parachain, accessed over WebSocket with the polkadot.js API and Parallel's @parallel-finance/api SDK. Exposes chain state, extrinsics (len
@@ -49,7 +51,7 @@ common:
   type: License
   url: https://github.com/parallel-finance/parallel-js/blob/master/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parallel-finance/refs/heads/main/security/parallel-finance-domain-security.yml
+  href: https://artifacts.apis.io/parallel-finance/security/parallel-finance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/parallel-finance-domain-security.yml
@@ -62,22 +64,22 @@ common:
   type: SourceCode
   url: https://github.com/parallel-finance/parallel
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/parallel-finance/refs/heads/main/packages/parallel-finance-packages.yml
+  href: https://artifacts.apis.io/parallel-finance/packages/parallel-finance-packages.yml
   title: ''
   type: Packages
   url: packages/parallel-finance-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/parallel-finance/refs/heads/main/packages/parallel-finance-packages.yml
+  href: https://artifacts.apis.io/parallel-finance/packages/parallel-finance-packages.yml
   title: ''
   type: SDKs
   url: packages/parallel-finance-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parallel-finance/refs/heads/main/well-known/parallel-finance-well-known.yml
+  href: https://artifacts.apis.io/parallel-finance/well-known/parallel-finance-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/parallel-finance-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parallel-finance/refs/heads/main/llms/parallel-finance-llms.txt
+  href: https://artifacts.apis.io/parallel-finance/llms/parallel-finance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/parallel-finance-llms.txt
@@ -94,10 +96,10 @@ name: Parallel Finance
 nav: Providers
 network: true
 overview: Parallel Finance is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Blockchain, Polkadot, and Lending.
-random_paper: 8
+random_paper: 6
 score:
   band: minimal
-  composite: 6.8
+  composite: 7.3
   coverage:
     artifact_dirs: 5
     catalog_earned: 37.0
@@ -105,32 +107,29 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 73.2
-    operational_transparency: 2.6
-  open_source:
-    applies: true
-    score: 0.0
-  previous_composite: 6.7
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 7.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/parallel-finance/refs/heads/main/screenshots/parallel-finance-2026-08-07T191423.png
+screenshot: https://apis.io/screenshots/parallel-finance/parallel-finance-2026-08-07T191423.png
 security:
 - kind: domain-security
   name: Parallel Finance Domain Security

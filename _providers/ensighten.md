@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-17'
+  score: 27.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://manage-api.ensighten.com
@@ -100,10 +102,10 @@ apis:
   description: CRUD operations with Users. User specific fields Field Description Valid Values username Unique identifier for the user Up to 255 characters; cannot include <, >, :, ~, +, or spaces firstName User's f
   name: Ensighten Users API
   slug: ensighten-users-api
-artifact_total: 18
+artifact_total: 22
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/rate-limits/ensighten-rate-limits.yml
+  href: https://artifacts.apis.io/ensighten/rate-limits/ensighten-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ensighten-rate-limits.yml
@@ -112,7 +114,7 @@ common:
   type: BlogRSS
   url: https://cheq.ai/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/overlays/ensighten-manage-api-overlay.yaml
+  href: https://artifacts.apis.io/ensighten/overlays/ensighten-manage-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ensighten-manage-api-overlay.yaml
@@ -153,12 +155,12 @@ common:
   type: Compliance
   url: https://cheq.ai/trust/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/security/ensighten-trust-center.yml
+  href: https://artifacts.apis.io/ensighten/security/ensighten-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ensighten-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/security/ensighten-domain-security.yml
+  href: https://artifacts.apis.io/ensighten/security/ensighten-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ensighten-domain-security.yml
@@ -179,58 +181,66 @@ common:
   type: GitHubOrganization
   url: https://github.com/Ensighten
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/packages/ensighten-packages.yml
+  href: https://artifacts.apis.io/ensighten/packages/ensighten-packages.yml
   title: ''
   type: Packages
   url: packages/ensighten-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/packages/ensighten-packages.yml
+  href: https://artifacts.apis.io/ensighten/packages/ensighten-packages.yml
   title: ''
   type: SDKs
   url: packages/ensighten-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/conformance/ensighten-conformance.yml
+  href: https://artifacts.apis.io/ensighten/conformance/ensighten-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ensighten-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/lifecycle/ensighten-lifecycle.yml
+  href: https://artifacts.apis.io/ensighten/lifecycle/ensighten-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ensighten-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/lifecycle/ensighten-lifecycle.yml
+  href: https://artifacts.apis.io/ensighten/lifecycle/ensighten-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/ensighten-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/plans/ensighten-plans-pricing.yml
+  href: https://artifacts.apis.io/ensighten/plans/ensighten-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ensighten-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/changelog/ensighten-changelog.yml
+  href: https://artifacts.apis.io/ensighten/changelog/ensighten-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ensighten-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/llms/ensighten-llms.txt
+  href: https://artifacts.apis.io/ensighten/llms/ensighten-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ensighten-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ensighten/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/data-model/ensighten-data-model.yml
+  href: https://artifacts.apis.io/ensighten/data-model/ensighten-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ensighten-data-model.yml
 created: '2026-07-17'
 description: 'Ensighten is an enterprise tag management, data governance, and client-side website security platform. It gives digital, marketing, and privacy teams centralized control over the third-party tags, scripts, and vendor code that run on their web and mobile properties, enforcing consent and privacy rules (GDPR, CCPA) at the point of data collection. The platform combines server- and client-side tag management, malicious-script and data-leakage detection (client-side security), and consent management. Ensighten was acquired by CHEQ (CHEQ AI Technologies Ltd.) and is now delivered as part of CHEQ''s Control & Compliance / Go-to-Market Security suite; the ensighten.com domain 301-redirects to cheq.ai. This company profile was surfaced as an Insight Partners portfolio lead and enriched by the API Evangelist pipeline. Ensighten does publish a public REST contract: the Ensighten Manage API, documented as an API Blueprint at manageexternalapi.docs.apiary.io and served in production from
   manage-api.ensighten.com. It covers 66 operations across Spaces, Publish Paths, Deployments, Conditions, Data Definitions, Event Definitions, Labels, Users, Roles, SCIM 2.0 user/group provisioning, Git-enabled spaces, and TDN jobs. Authentication is either an X-API-Key API key or an OAuth 2.0 Resource Owner Password Credentials bearer token from /auth/token.'
+finops:
+- has_sources: true
+  method: derived
+  name: Ensighten Finops
+  primary_unit: ''
+  service_category: ''
+  slug: ensighten-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ensighten.png
 layout: provider
 modified: '2026-10-06'
@@ -245,30 +255,30 @@ plans:
 - name: Ensighten Plans Pricing
   plan_count: 0
   slug: ensighten-plans-pricing
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Ensighten Rate Limits
   slug: ensighten-rate-limits
 score:
   band: developing
-  composite: 41.5
+  composite: 43.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 18.6
-    developer_ergonomics: 55.4
-    discoverability: 73.2
-    operational_transparency: 47.4
-  previous_composite: 41.4
+    contract_quality: 12.5
+    developer_ergonomics: 63.7
+    discoverability: 66.1
+    operational_transparency: 50.0
+  previous_composite: 43.3
   provenance:
     conformance: first-party
     contracts:
@@ -284,13 +294,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/screenshots/ensighten-2026-07-25T213419.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ensighten/ensighten-2026-07-25T213419.png
 security:
 - kind: authentication
   name: Ensighten Authentication
@@ -304,6 +315,14 @@ security:
   name: Ensighten Trust Center
   slug: ensighten-trust-center
   summary_line: SOC 2 Type II, ISO 27001, ISO 27701, ISO 42001, CSA STAR Level 1, GDPR, CCPA
+skill_count: 3
+skills:
+- name: ensighten-manage-a-deployment
+  slug: ensighten-manage-a-deployment
+- name: ensighten-provision-users-scim
+  slug: ensighten-provision-users-scim
+- name: ensighten-publish-a-space
+  slug: ensighten-publish-a-space
 slug: ensighten
 tags:
 - Company

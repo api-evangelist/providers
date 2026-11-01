@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for managing Google Optimize experiments, variants, and accessing optimization data. Sunset on September 30, 2023. Migrate to Google Analytics 4 experiments or third-party A/B testing tools.
@@ -42,17 +44,17 @@ apis:
 artifact_total: 19
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-optimize/refs/heads/main/plans/google-optimize-plans-pricing.yml
+  href: https://artifacts.apis.io/google-optimize/plans/google-optimize-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-optimize-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-optimize/refs/heads/main/rate-limits/google-optimize-rate-limits.yml
+  href: https://artifacts.apis.io/google-optimize/rate-limits/google-optimize-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-optimize-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-optimize/refs/heads/main/finops/google-optimize-finops.yml
+  href: https://artifacts.apis.io/google-optimize/finops/google-optimize-finops.yml
   title: ''
   type: FinOps
   url: finops/google-optimize-finops.yml
@@ -61,12 +63,12 @@ common:
   type: Website
   url: https://www.google.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-optimize/refs/heads/main/security/google-optimize-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-optimize/security/google-optimize-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-optimize-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-optimize/refs/heads/main/security/google-optimize-domain-security.yml
+  href: https://artifacts.apis.io/google-optimize/security/google-optimize-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-optimize-domain-security.yml
@@ -91,17 +93,17 @@ common:
   type: Security
   url: https://g.co/vrp
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-optimize/refs/heads/main/well-known/google-optimize-well-known.yml
+  href: https://artifacts.apis.io/google-optimize/well-known/google-optimize-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/google-optimize-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-optimize/refs/heads/main/well-known/google-optimize-security.txt
+  href: https://artifacts.apis.io/google-optimize/well-known/google-optimize-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/google-optimize-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-optimize/refs/heads/main/lifecycle/google-optimize-lifecycle.yml
+  href: https://artifacts.apis.io/google-optimize/lifecycle/google-optimize-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/google-optimize-lifecycle.yml
@@ -110,12 +112,12 @@ common:
   type: Deprecation
   url: https://support.google.com/optimize/answer/12979939
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/google-optimize/refs/heads/main/packages/google-optimize-packages.yml
+  href: https://artifacts.apis.io/google-optimize/packages/google-optimize-packages.yml
   title: ''
   type: Packages
   url: packages/google-optimize-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-optimize/refs/heads/main/llms/google-optimize-llms.txt
+  href: https://artifacts.apis.io/google-optimize/llms/google-optimize-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/google-optimize-llms.txt
@@ -154,7 +156,7 @@ finops:
 - has_sources: false
   method: generated
   name: Google Optimize Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: google-optimize-finops
   template: true
@@ -175,7 +177,7 @@ plans:
 - name: Google Optimize Plans Pricing
   plan_count: 0
   slug: google-optimize-plans-pricing
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Google Optimize Rate Limits
@@ -218,14 +220,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-optimize/refs/heads/main/screenshots/google-optimize-2026-06-20T182219.png
+screenshot: https://apis.io/screenshots/google-optimize/google-optimize-2026-06-20T182219.png
 security:
 - kind: domain-security
   name: Google Optimize Domain Security

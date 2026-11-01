@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -44,17 +46,17 @@ common:
   type: Blog
   url: https://www.anytimeai.ai/resources/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anytime-ai/refs/heads/main/security/anytime-ai-trust-center.yml
+  href: https://artifacts.apis.io/anytime-ai/security/anytime-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/anytime-ai-trust-center.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/anytime-ai/refs/heads/main/hosts/anytime-ai-hosts.yml
+  href: https://artifacts.apis.io/anytime-ai/hosts/anytime-ai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/anytime-ai-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anytime-ai/refs/heads/main/security/anytime-ai-domain-security.yml
+  href: https://artifacts.apis.io/anytime-ai/security/anytime-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anytime-ai-domain-security.yml
@@ -98,12 +100,12 @@ overview: 'Anytime AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Anytime AI''s developer surface includes engineering blog, documentation, getting-started guide, and 9 more developer resources.'
-random_paper: 16
+random_paper: 22
 score:
   band: emerging
   composite: 19.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -126,14 +128,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/anytime-ai/refs/heads/main/screenshots/anytime-ai-2026-10-11T095824.png
+screenshot: https://apis.io/screenshots/anytime-ai/anytime-ai-2026-10-11T095824.png
 security:
 - kind: domain-security
   name: Anytime Ai Domain Security

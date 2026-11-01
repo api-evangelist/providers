@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-17'
+  score: 18.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 1
   slug: proof-of-play-agentic-access
   summary_line: 1 operation
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://staging.vrf.proofofplay.com
   baseurl_source: declared
@@ -52,9 +54,6 @@ apis:
 artifact_total: 6
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Proof of Play Public API API
   slug: open-proof-of-play-public-api-api
 common:
@@ -63,7 +62,7 @@ common:
   type: Website
   url: https://proofofplay.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/overlays/proof-of-play-vrf-overlay.yaml
+  href: https://artifacts.apis.io/proof-of-play/overlays/proof-of-play-vrf-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/proof-of-play-vrf-overlay.yaml
@@ -112,52 +111,52 @@ common:
   type: Twitter
   url: https://x.com/ProofOfPlay
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/authentication/proof-of-play-authentication.yml
+  href: https://artifacts.apis.io/proof-of-play/authentication/proof-of-play-authentication.yml
   title: ''
   type: Authentication
   url: authentication/proof-of-play-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/conventions/proof-of-play-conventions.yml
+  href: https://artifacts.apis.io/proof-of-play/conventions/proof-of-play-conventions.yml
   title: ''
   type: Conventions
   url: conventions/proof-of-play-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/lifecycle/proof-of-play-lifecycle.yml
+  href: https://artifacts.apis.io/proof-of-play/lifecycle/proof-of-play-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/proof-of-play-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/conformance/proof-of-play-conformance.yml
+  href: https://artifacts.apis.io/proof-of-play/conformance/proof-of-play-conformance.yml
   title: ''
   type: Conformance
   url: conformance/proof-of-play-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/mcp/proof-of-play-mcp.yml
+  href: https://artifacts.apis.io/proof-of-play/mcp/proof-of-play-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/proof-of-play-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/llms/proof-of-play-llms.txt
+  href: https://artifacts.apis.io/proof-of-play/llms/proof-of-play-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/proof-of-play-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/well-known/proof-of-play-well-known.yml
+  href: https://artifacts.apis.io/proof-of-play/well-known/proof-of-play-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/proof-of-play-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/proof-of-play/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/agentic-access/proof-of-play-agentic-access.yml
+  href: https://artifacts.apis.io/proof-of-play/agentic-access/proof-of-play-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/proof-of-play-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/security/proof-of-play-domain-security.yml
+  href: https://artifacts.apis.io/proof-of-play/security/proof-of-play-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/proof-of-play-domain-security.yml
@@ -173,26 +172,26 @@ overview: 'Proof of Play publishes 1 API contract indexed on the [APIs.io](https
 
 
   Proof of Play''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 15
+random_paper: 19
 score:
   band: thin
-  composite: 34.0
+  composite: 35.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 39.2
-    developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 33.9
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -209,14 +208,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/screenshots/proof-of-play-2026-09-02T152147.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/proof-of-play/proof-of-play-2026-09-02T152147.png
 security:
 - kind: authentication
   name: Proof Of Play Authentication
@@ -226,6 +225,10 @@ security:
   name: Proof Of Play Domain Security
   slug: proof-of-play-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: Get a signed vRNG message
+  slug: proof-of-play-vrf-signed-message
 slug: proof-of-play
 tags:
 - Company

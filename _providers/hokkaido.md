@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - description: Hokkaido University's own Shibboleth/SAML 2.0 identity provider, entityID https://shib-idp01.iic.hokudai.ac.jp/idp/shibboleth, scope hokudai.ac.jp, registered in the GakuNin national academic federati
@@ -113,42 +115,42 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/hokkaidouni/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hokkaido/refs/heads/main/authentication/hokkaido-saml-idp.yml
+  href: https://artifacts.apis.io/hokkaido/authentication/hokkaido-saml-idp.yml
   title: ''
   type: Authentication
   url: authentication/hokkaido-saml-idp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hokkaido/refs/heads/main/conformance/hokkaido-conformance.yml
+  href: https://artifacts.apis.io/hokkaido/conformance/hokkaido-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hokkaido-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hokkaido/refs/heads/main/json-ld/hokkaido-context.jsonld
+  href: https://artifacts.apis.io/hokkaido/json-ld/hokkaido-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/hokkaido-context.jsonld
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hokkaido/refs/heads/main/security/hokkaido-domain-security.yml
+  href: https://artifacts.apis.io/hokkaido/security/hokkaido-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hokkaido-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hokkaido/refs/heads/main/plans/hokkaido-plans-pricing.yml
+  href: https://artifacts.apis.io/hokkaido/plans/hokkaido-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hokkaido-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hokkaido/refs/heads/main/rate-limits/hokkaido-rate-limits.yml
+  href: https://artifacts.apis.io/hokkaido/rate-limits/hokkaido-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hokkaido-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hokkaido/refs/heads/main/finops/hokkaido-finops.yml
+  href: https://artifacts.apis.io/hokkaido/finops/hokkaido-finops.yml
   title: ''
   type: FinOps
   url: finops/hokkaido-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hokkaido/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/hokkaido/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -189,7 +191,7 @@ plans:
 - name: Hokkaido Plans Pricing
   plan_count: 2
   slug: hokkaido-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Hokkaido Rate Limits
@@ -204,7 +206,7 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
@@ -219,7 +221,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 21.5
+  previous_composite: 20.0
   provenance:
     conformance: first-party
   regulatory:
@@ -228,14 +230,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hokkaido/refs/heads/main/screenshots/hokkaido-2026-06-20T182813.png
+screenshot: https://apis.io/screenshots/hokkaido/hokkaido-2026-06-20T182813.png
 security:
 - kind: domain-security
   name: Hokkaido Domain Security

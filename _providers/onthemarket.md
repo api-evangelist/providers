@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: OnTheMarket's member-only feed API for estate-agency CRM software. It is modelled on the Rightmove Real Time Datafeed (RTDF/ADF) specification, with OnTheMarket-specific differences in request and res
@@ -44,27 +46,27 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onthemarket/refs/heads/main/security/onthemarket-domain-security.yml
+  href: https://artifacts.apis.io/onthemarket/security/onthemarket-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onthemarket-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onthemarket/refs/heads/main/conformance/onthemarket-conformance.yml
+  href: https://artifacts.apis.io/onthemarket/conformance/onthemarket-conformance.yml
   title: ''
   type: Conformance
   url: conformance/onthemarket-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onthemarket/refs/heads/main/lifecycle/onthemarket-lifecycle.yml
+  href: https://artifacts.apis.io/onthemarket/lifecycle/onthemarket-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/onthemarket-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/onthemarket/refs/heads/main/packages/onthemarket-packages.yml
+  href: https://artifacts.apis.io/onthemarket/packages/onthemarket-packages.yml
   title: ''
   type: Packages
   url: packages/onthemarket-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onthemarket/refs/heads/main/llms/onthemarket-llms.txt
+  href: https://artifacts.apis.io/onthemarket/llms/onthemarket-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/onthemarket-llms.txt
@@ -141,10 +143,10 @@ overview: 'OnTheMarket is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   OnTheMarket''s developer surface includes engineering blog, support, signup flow, and 17 more developer resources.'
-random_paper: 20
+random_paper: 10
 score:
   band: emerging
-  composite: 16.4
+  composite: 16.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -159,7 +161,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 73.2
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -168,7 +170,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 16.4
+  previous_composite: 16.8
   provenance:
     conformance: derived
   regulatory:
@@ -177,14 +179,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/onthemarket/refs/heads/main/screenshots/onthemarket-2026-08-07T190422.png
+screenshot: https://apis.io/screenshots/onthemarket/onthemarket-2026-08-07T190422.png
 security:
 - kind: domain-security
   name: Onthemarket Domain Security

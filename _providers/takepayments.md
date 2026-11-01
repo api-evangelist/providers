@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'A REST/JSON API hosted on Azure API Management for pairing and driving takepayments card machines (Move5000, PAX A920 Pro) from an integrated app or POS. Documented operations include Authentication, '
@@ -44,7 +46,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/takepayments/refs/heads/main/security/takepayments-domain-security.yml
+  href: https://artifacts.apis.io/takepayments/security/takepayments-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/takepayments-domain-security.yml
@@ -105,37 +107,37 @@ common:
   type: Pricing
   url: https://www.takepayments.com/card-machines/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/takepayments/refs/heads/main/authentication/takepayments-authentication.yml
+  href: https://artifacts.apis.io/takepayments/authentication/takepayments-authentication.yml
   title: ''
   type: Authentication
   url: authentication/takepayments-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/takepayments/refs/heads/main/well-known/takepayments-well-known.yml
+  href: https://artifacts.apis.io/takepayments/well-known/takepayments-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/takepayments-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/takepayments/refs/heads/main/conventions/takepayments-conventions.yml
+  href: https://artifacts.apis.io/takepayments/conventions/takepayments-conventions.yml
   title: ''
   type: Conventions
   url: conventions/takepayments-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/takepayments/refs/heads/main/sandbox/takepayments-sandbox.yml
+  href: https://artifacts.apis.io/takepayments/sandbox/takepayments-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/takepayments-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/takepayments/refs/heads/main/packages/takepayments-packages.yml
+  href: https://artifacts.apis.io/takepayments/packages/takepayments-packages.yml
   title: ''
   type: Packages
   url: packages/takepayments-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/takepayments/refs/heads/main/packages/takepayments-packages.yml
+  href: https://artifacts.apis.io/takepayments/packages/takepayments-packages.yml
   title: ''
   type: SDKs
   url: packages/takepayments-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/takepayments/refs/heads/main/conformance/takepayments-conformance.yml
+  href: https://artifacts.apis.io/takepayments/conformance/takepayments-conformance.yml
   title: ''
   type: Conformance
   url: conformance/takepayments-conformance.yml
@@ -144,22 +146,22 @@ common:
   type: Compliance
   url: https://www.takepayments.com/pci-compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/takepayments/refs/heads/main/errors/takepayments-problem-types.yml
+  href: https://artifacts.apis.io/takepayments/errors/takepayments-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/takepayments-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/takepayments/refs/heads/main/lifecycle/takepayments-lifecycle.yml
+  href: https://artifacts.apis.io/takepayments/lifecycle/takepayments-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/takepayments-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/takepayments/refs/heads/main/mcp/takepayments-mcp.yml
+  href: https://artifacts.apis.io/takepayments/mcp/takepayments-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/takepayments-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/takepayments/refs/heads/main/llms/takepayments-llms.txt
+  href: https://artifacts.apis.io/takepayments/llms/takepayments-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/takepayments-llms.txt
@@ -176,10 +178,10 @@ overview: 'takepayments is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   takepayments'' developer surface includes documentation, API reference, SDKs, engineering blog, support, pricing, authentication, and 20 more developer resources.'
-random_paper: 4
+random_paper: 6
 score:
   band: thin
-  composite: 31.8
+  composite: 31.4
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -193,8 +195,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -203,7 +205,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 31.8
+  previous_composite: 31.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -213,14 +215,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/takepayments/refs/heads/main/screenshots/takepayments-2026-09-02T162434.png
+screenshot: https://apis.io/screenshots/takepayments/takepayments-2026-09-02T162434.png
 security:
 - kind: authentication
   name: Takepayments Authentication

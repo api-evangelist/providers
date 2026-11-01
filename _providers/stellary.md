@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.3
-  scored_at: '2026-10-17'
+  score: 31.2
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Hosted remote MCP server (streamable HTTP) exposing board read/write, cockpit supervision, agent runtime, and auto-registered plugin tools. Bearer-authenticated. Listed in the official MCP registry as
@@ -46,7 +48,7 @@ apis:
 - description: 'REST API at the application root covering auth/identity, organizations/workspaces/projects, delivery (cards, comments, attachments, labels), documents, AI runtime (agents, missions, drafts), platform '
   name: Stellary REST API
   slug: stellary-rest-api
-artifact_total: 9
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -57,57 +59,57 @@ common:
   type: Website
   url: https://www.stellary.co/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/security/stellary-domain-security.yml
+  href: https://artifacts.apis.io/stellary/security/stellary-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stellary-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/well-known/stellary-well-known.yml
+  href: https://artifacts.apis.io/stellary/well-known/stellary-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stellary-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/mcp/stellary-mcp.yml
+  href: https://artifacts.apis.io/stellary/mcp/stellary-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/stellary-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/stellary/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/llms/stellary-llms.txt
+  href: https://artifacts.apis.io/stellary/llms/stellary-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stellary-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/authentication/stellary-authentication.yml
+  href: https://artifacts.apis.io/stellary/authentication/stellary-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stellary-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/scopes/stellary-scopes.yml
+  href: https://artifacts.apis.io/stellary/scopes/stellary-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/stellary-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/conventions/stellary-conventions.yml
+  href: https://artifacts.apis.io/stellary/conventions/stellary-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stellary-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/errors/stellary-problem-types.yml
+  href: https://artifacts.apis.io/stellary/errors/stellary-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/stellary-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/lifecycle/stellary-lifecycle.yml
+  href: https://artifacts.apis.io/stellary/lifecycle/stellary-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stellary-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/changelog/stellary-changelog.yml
+  href: https://artifacts.apis.io/stellary/changelog/stellary-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/stellary-changelog.yml
@@ -116,22 +118,22 @@ common:
   type: ChangeLog
   url: https://stellary.co/docs/changelog/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/plans/stellary-plans-pricing.yml
+  href: https://artifacts.apis.io/stellary/plans/stellary-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stellary-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/rate-limits/stellary-rate-limits.yml
+  href: https://artifacts.apis.io/stellary/rate-limits/stellary-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stellary-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/conformance/stellary-conformance.yml
+  href: https://artifacts.apis.io/stellary/conformance/stellary-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stellary-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/security/stellary-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/stellary/security/stellary-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/stellary-vulnerability-disclosure.yml
@@ -140,7 +142,7 @@ common:
   type: Security
   url: https://github.com/Anymfah/stellary-mcp/blob/main/SECURITY.md
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/data-model/stellary-data-model.yml
+  href: https://artifacts.apis.io/stellary/data-model/stellary-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stellary-data-model.yml
@@ -190,6 +192,14 @@ common:
   url: https://stellary.co/privacy/
 created: '2026-08-31'
 description: AI-native project-management software for teams and AI agents, offering an AI Kanban board, knowledge base, cockpit dashboards, AI agent orchestration, automations, plugins, a built-in remote MCP server, and a REST API.
+finops:
+- has_sources: true
+  method: derived
+  name: Stellary Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: stellary-finops
+  template: false
 image: https://stellary.co/logo.svg
 layout: provider
 mcp_servers:
@@ -208,7 +218,7 @@ plans:
 - name: Stellary Plans Pricing
   plan_count: 2
   slug: stellary-plans-pricing
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Stellary Rate Limits
@@ -220,23 +230,23 @@ scopes:
   summary_line: 8 scopes
 score:
   band: developing
-  composite: 43.3
+  composite: 47.6
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 53.0
+    artifact_dirs: 21
+    catalog_earned: 56.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 62.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 73.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 75.0
-    operational_transparency: 50.0
-  previous_composite: 43.3
+    discoverability: 71.7
+    operational_transparency: 52.6
+  previous_composite: 46.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -247,14 +257,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/screenshots/stellary-2026-09-02T160837.png
+screenshot: https://apis.io/screenshots/stellary/stellary-2026-09-02T160837.png
 security:
 - kind: authentication
   name: Stellary Authentication
@@ -268,6 +278,10 @@ security:
   name: Stellary Vulnerability Disclosure
   slug: stellary-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 1
+skills:
+- name: stellary-mcp
+  slug: stellary-mcp
 slug: stellary
 tags:
 - Project Management

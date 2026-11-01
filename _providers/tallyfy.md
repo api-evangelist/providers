@@ -25,27 +25,34 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.8
-  scored_at: '2026-10-17'
+  score: 42.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for Tallyfy workflow automation. Organization-scoped resources (/organizations/{org_id}/checklists, /runs, /tasks, ...) with Bearer-token auth (personal, application, or OAuth 2.0 access toke
   name: Tallyfy REST API
   slug: tallyfy-rest-api
-artifact_total: 7
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Tallyfy Webhooks
   slug: tallyfy-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/tallyfy/plans/tallyfy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tallyfy-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -71,82 +78,82 @@ common:
   type: GettingStarted
   url: https://tallyfy.com/products/pro/integrations/open-api/how-to-integrate-with-tallyfy-using-api/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/authentication/tallyfy-authentication.yml
+  href: https://artifacts.apis.io/tallyfy/authentication/tallyfy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tallyfy-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/conventions/tallyfy-conventions.yml
+  href: https://artifacts.apis.io/tallyfy/conventions/tallyfy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tallyfy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/data-model/tallyfy-data-model.yml
+  href: https://artifacts.apis.io/tallyfy/data-model/tallyfy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tallyfy-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/errors/tallyfy-problem-types.yml
+  href: https://artifacts.apis.io/tallyfy/errors/tallyfy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tallyfy-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/rate-limits/tallyfy-rate-limits.yml
+  href: https://artifacts.apis.io/tallyfy/rate-limits/tallyfy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tallyfy-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/conformance/tallyfy-conformance.yml
+  href: https://artifacts.apis.io/tallyfy/conformance/tallyfy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tallyfy-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/asyncapi/tallyfy-webhooks.yml
+  href: https://artifacts.apis.io/tallyfy/asyncapi/tallyfy-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tallyfy-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/mcp/tallyfy-mcp.yml
+  href: https://artifacts.apis.io/tallyfy/mcp/tallyfy-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tallyfy-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/cli/tallyfy-cli.yml
+  href: https://artifacts.apis.io/tallyfy/cli/tallyfy-cli.yml
   title: ''
   type: CLI
   url: cli/tallyfy-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/packages/tallyfy-packages.yml
+  href: https://artifacts.apis.io/tallyfy/packages/tallyfy-packages.yml
   title: ''
   type: Packages
   url: packages/tallyfy-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/packages/tallyfy-packages.yml
+  href: https://artifacts.apis.io/tallyfy/packages/tallyfy-packages.yml
   title: ''
   type: SDKs
   url: packages/tallyfy-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/llms/tallyfy-llms.txt
+  href: https://artifacts.apis.io/tallyfy/llms/tallyfy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tallyfy-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/well-known/tallyfy-well-known.yml
+  href: https://artifacts.apis.io/tallyfy/well-known/tallyfy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tallyfy-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/well-known/tallyfy-security.txt
+  href: https://artifacts.apis.io/tallyfy/well-known/tallyfy-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/tallyfy-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/security/tallyfy-domain-security.yml
+  href: https://artifacts.apis.io/tallyfy/security/tallyfy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tallyfy-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/security/tallyfy-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tallyfy/security/tallyfy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tallyfy-vulnerability-disclosure.yml
@@ -184,6 +191,14 @@ common:
   url: https://tallyfy.com/legal/privacy/
 created: '2026-07-17'
 description: Tallyfy is workflow and business process management software that lets teams document, launch, track, and automate repeatable processes, SOPs, approvals, and forms without code. Its REST API models templates as "checklists" and processes as "runs" and exposes tasks, form fields (captures), kick-off forms, guests, members, groups, tags, and folders. Developers and AI agents can embed Tallyfy through the REST API, outbound JSON webhooks, a public hosted MCP server (mcp.tallyfy.com), an official Go CLI, and an n8n community node.
+finops:
+- has_sources: true
+  method: derived
+  name: Tallyfy Finops
+  primary_unit: seat
+  service_category: ''
+  slug: tallyfy-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tallyfy.png
 layout: provider
 mcp_servers:
@@ -200,31 +215,38 @@ overview: 'Tallyfy is listed with 1 API on the [APIs.io](https://apis.io/) netwo
   The Tallyfy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tallyfy''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 3
+  Tallyfy''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, engineering blog, pricing, and 24 more developer resources.'
+plans:
+- name: Tallyfy Plans Pricing
+  plan_count: 5
+  slug: tallyfy-plans-pricing
+- name: Tallyfy Price Estimates
+  plan_count: 0
+  slug: tallyfy-price-estimates
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Tallyfy Rate Limits
   slug: tallyfy-rate-limits
 score:
-  band: developing
-  composite: 46.8
+  band: strong
+  composite: 56.0
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 19
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 38.2
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 75.0
-    operational_transparency: 36.8
-  previous_composite: 46.7
+    discoverability: 65.0
+    operational_transparency: 44.7
+  previous_composite: 48.1
   provenance:
     conformance: derived
     mcp: first-party
@@ -234,14 +256,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tallyfy/refs/heads/main/screenshots/tallyfy-2026-08-17T082246.png
+screenshot: https://apis.io/screenshots/tallyfy/tallyfy-2026-08-17T082246.png
 security:
 - kind: authentication
   name: Tallyfy Authentication

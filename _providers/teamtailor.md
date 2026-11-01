@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'JSON:API compliant REST API for managing candidates, jobs, applications, users, departments, and recruitment workflows in Teamtailor. Available in EU (api.teamtailor.com), NA (api.na.teamtailor.com), '
@@ -41,12 +43,12 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teamtailor/refs/heads/main/security/teamtailor-trust-center.yml
+  href: https://artifacts.apis.io/teamtailor/security/teamtailor-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/teamtailor-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teamtailor/refs/heads/main/security/teamtailor-domain-security.yml
+  href: https://artifacts.apis.io/teamtailor/security/teamtailor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teamtailor-domain-security.yml
@@ -93,7 +95,7 @@ overview: 'Teamtailor is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 18
 score:
   band: emerging
-  composite: 14.2
+  composite: 14.3
   coverage:
     artifact_dirs: 5
     catalog_earned: 37.0
@@ -107,9 +109,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 68.3
-    operational_transparency: 2.6
-  previous_composite: 14.2
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 14.3
   provenance:
     mcp: first-party
   regulatory:
@@ -118,14 +120,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/teamtailor/refs/heads/main/screenshots/teamtailor-2026-06-20T194958.png
+screenshot: https://apis.io/screenshots/teamtailor/teamtailor-2026-06-20T194958.png
 security:
 - kind: domain-security
   name: Teamtailor Domain Security

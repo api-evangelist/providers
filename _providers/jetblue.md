@@ -26,36 +26,38 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.1
-  scored_at: '2026-10-17'
+  score: 16.0
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jetblue/refs/heads/main/mcp/jetblue-mcp.yml
+  href: https://artifacts.apis.io/jetblue/mcp/jetblue-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/jetblue-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jetblue/refs/heads/main/security/jetblue-domain-security.yml
+  href: https://artifacts.apis.io/jetblue/security/jetblue-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jetblue-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jetblue/refs/heads/main/well-known/jetblue-well-known.yml
+  href: https://artifacts.apis.io/jetblue/well-known/jetblue-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jetblue-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jetblue/refs/heads/main/authentication/jetblue-authentication.yml
+  href: https://artifacts.apis.io/jetblue/authentication/jetblue-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jetblue-authentication.yml
@@ -64,12 +66,12 @@ common:
   type: OpenIDConnect
   url: https://accounts.jetblue.com/.well-known/openid-configuration
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jetblue/refs/heads/main/scopes/jetblue-scopes.yml
+  href: https://artifacts.apis.io/jetblue/scopes/jetblue-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/jetblue-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jetblue/refs/heads/main/conformance/jetblue-conformance.yml
+  href: https://artifacts.apis.io/jetblue/conformance/jetblue-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jetblue-conformance.yml
@@ -78,17 +80,17 @@ common:
   type: Security
   url: https://www.jetblue.com/legal/vulnerability-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jetblue/refs/heads/main/security/jetblue-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/jetblue/security/jetblue-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jetblue-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jetblue/refs/heads/main/llms/jetblue-llms.txt
+  href: https://artifacts.apis.io/jetblue/llms/jetblue-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jetblue-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jetblue/refs/heads/main/packages/jetblue-packages.yml
+  href: https://artifacts.apis.io/jetblue/packages/jetblue-packages.yml
   title: ''
   type: Packages
   url: packages/jetblue-packages.yml
@@ -169,7 +171,7 @@ overview: 'JetBlue is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   JetBlue''s developer surface includes authentication, documentation, legal docs, support, and 22 more developer resources.'
-random_paper: 21
+random_paper: 3
 scopes:
 - name: Jetblue Scopes
   scope_count: 7
@@ -177,7 +179,7 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit/deviceCode
 score:
   band: emerging
-  composite: 21.9
+  composite: 22.3
   coverage:
     artifact_dirs: 11
     catalog_earned: 27.0
@@ -191,8 +193,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 48.2
-    operational_transparency: 13.2
+    discoverability: 48.3
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -200,7 +202,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 21.9
+  previous_composite: 22.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -210,14 +212,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jetblue/refs/heads/main/screenshots/jetblue-2026-08-07T171000.png
+screenshot: https://apis.io/screenshots/jetblue/jetblue-2026-08-07T171000.png
 security:
 - kind: authentication
   name: Jetblue Authentication

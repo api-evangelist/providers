@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -68,7 +70,7 @@ apis:
   description: Operations for securely storing and managing secrets such as passwords, connection strings, and API keys.
   name: Azure Key Vault Secrets API
   slug: microsoft-azure-key-vault-secrets-api
-artifact_total: 226
+artifact_total: 225
 collections:
 - collection_type: postman
   name: Azure Key Vault Data Plane Certificates API
@@ -79,9 +81,6 @@ collections:
 - collection_type: postman
   name: Azure Key Vault Data Plane Certificates Secrets API
   slug: postman-microsoft-azure-key-vault-secrets-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure Key Vault Data Plane API
   slug: open-azure-key-vault-data-plane
@@ -96,22 +95,22 @@ collections:
   slug: open-microsoft-azure-key-vault-secrets-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/plans/azure-key-vault-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-azure-key-vault/plans/azure-key-vault-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/azure-key-vault-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/rate-limits/azure-key-vault-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-azure-key-vault/rate-limits/azure-key-vault-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/azure-key-vault-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/finops/azure-key-vault-finops.yml
+  href: https://artifacts.apis.io/microsoft-azure-key-vault/finops/azure-key-vault-finops.yml
   title: ''
   type: FinOps
   url: finops/azure-key-vault-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/capabilities/microsoft-azure-key-vault-capability-edges.yml
+  href: https://artifacts.apis.io/microsoft-azure-key-vault/capabilities/microsoft-azure-key-vault-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-azure-key-vault-capability-edges.yml
@@ -124,22 +123,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/azure-key-vault/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/agentic-access/microsoft-azure-key-vault-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-azure-key-vault/agentic-access/microsoft-azure-key-vault-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-key-vault-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/security/microsoft-azure-key-vault-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-azure-key-vault/security/microsoft-azure-key-vault-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-key-vault-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/authentication/microsoft-azure-key-vault-authentication.yml
+  href: https://artifacts.apis.io/microsoft-azure-key-vault/authentication/microsoft-azure-key-vault-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-key-vault-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/scopes/microsoft-azure-key-vault-scopes.yml
+  href: https://artifacts.apis.io/microsoft-azure-key-vault/scopes/microsoft-azure-key-vault-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-key-vault-scopes.yml
@@ -176,12 +175,12 @@ common:
   type: Pricing
   url: https://azure.microsoft.com/en-us/pricing/details/key-vault/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/rules/azure-key-vault-spectral-rules.yml
+  href: https://artifacts.apis.io/microsoft-azure-key-vault/rules/azure-key-vault-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/azure-key-vault-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/vocabulary/azure-key-vault-vocabulary.yaml
+  href: https://artifacts.apis.io/microsoft-azure-key-vault/vocabulary/azure-key-vault-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/azure-key-vault-vocabulary.yaml
@@ -338,12 +337,12 @@ features:
   name: Soft Delete and Purge Protection
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Azure Key Vault Finops
   primary_unit: ''
-  service_category: Security
+  service_category: ''
   slug: azure-key-vault-finops
-  template: false
+  template: true
 - has_sources: true
   method: generated
   name: Microsoft Azure Key Vault Finops
@@ -799,12 +798,12 @@ overview: 'Azure Key Vault publishes 6 API contracts indexed on the [APIs.io](ht
   Azure Key Vault''s developer surface includes authentication, engineering blog, changelog, developer portal, support, pricing, and 14 more developer resources.'
 plans:
 - name: Azure Key Vault Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: azure-key-vault-plans-pricing
 - name: Microsoft Azure Key Vault Plans Pricing
   plan_count: 3
   slug: microsoft-azure-key-vault-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 13
   name: Azure Key Vault Rate Limits
@@ -854,43 +853,44 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 54.8
+  composite: 56.0
   coverage:
     artifact_dirs: 20
-    catalog_earned: 64.0
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.8
+  delta: -6.3
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 27.3
     contract_quality: 59.9
-    developer_ergonomics: 67.9
+    developer_ergonomics: 78.1
     discoverability: 64.3
     operational_transparency: 50.0
-  previous_composite: 60.6
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: falling
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/screenshots/microsoft-azure-key-vault-2026-06-20T185418.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-azure-key-vault/microsoft-azure-key-vault-2026-06-20T185418.png
 security:
 - kind: authentication
   name: Microsoft Azure Key Vault Authentication

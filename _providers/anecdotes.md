@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.7
-  scored_at: '2026-10-17'
+  score: 36.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 4
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 61
   slug: anecdotes-agentic-access
   summary_line: 61 operations · 24 acting · 4 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
 - description: 'A hosted Model Context Protocol proxy that exposes Anecdotes GRC domains - risk, control, evidence, policy, framework, uar, analysis, comments, requirement and semantic search - to any MCP-capable AI '
   name: Anecdotes MCP Proxy
@@ -133,7 +135,7 @@ apis:
   description: Update or delete a **custom control**'s name, description, category, and implementation.
   name: anecdotes Update Control Metadata API
   slug: anecdotes-update-control-metadata-api
-artifact_total: 31
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Anecdotes Playbooks Webhooks
@@ -153,17 +155,17 @@ collections:
   slug: open-anecdotes-grc
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/plans/anecdotes-plans-pricing.yml
+  href: https://artifacts.apis.io/anecdotes/plans/anecdotes-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/anecdotes-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/capabilities/anecdotes-capability-edges.yml
+  href: https://artifacts.apis.io/anecdotes/capabilities/anecdotes-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/anecdotes-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/agentic-access/anecdotes-agentic-access.yml
+  href: https://artifacts.apis.io/anecdotes/agentic-access/anecdotes-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/anecdotes-agentic-access.yml
@@ -220,47 +222,47 @@ common:
   type: PrivacyPolicy
   url: https://www.anecdotes.ai/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/postman/anecdotes-fedramp-20x.postman_collection.json
+  href: https://artifacts.apis.io/anecdotes/postman/anecdotes-fedramp-20x.postman_collection.json
   title: ''
   type: Postman
   url: postman/anecdotes-fedramp-20x.postman_collection.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/llms/anecdotes-llms.txt
+  href: https://artifacts.apis.io/anecdotes/llms/anecdotes-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/anecdotes-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/packages/anecdotes-packages.yml
+  href: https://artifacts.apis.io/anecdotes/packages/anecdotes-packages.yml
   title: ''
   type: Packages
   url: packages/anecdotes-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/packages/anecdotes-packages.yml
+  href: https://artifacts.apis.io/anecdotes/packages/anecdotes-packages.yml
   title: ''
   type: SDKs
   url: packages/anecdotes-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/authentication/anecdotes-authentication.yml
+  href: https://artifacts.apis.io/anecdotes/authentication/anecdotes-authentication.yml
   title: ''
   type: Authentication
   url: authentication/anecdotes-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/conventions/anecdotes-conventions.yml
+  href: https://artifacts.apis.io/anecdotes/conventions/anecdotes-conventions.yml
   title: ''
   type: Conventions
   url: conventions/anecdotes-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/rate-limits/anecdotes-rate-limits.yml
+  href: https://artifacts.apis.io/anecdotes/rate-limits/anecdotes-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/anecdotes-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/errors/anecdotes-problem-types.yml
+  href: https://artifacts.apis.io/anecdotes/errors/anecdotes-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/anecdotes-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/lifecycle/anecdotes-lifecycle.yml
+  href: https://artifacts.apis.io/anecdotes/lifecycle/anecdotes-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/anecdotes-lifecycle.yml
@@ -269,17 +271,17 @@ common:
   type: StatusPage
   url: https://status.anecdotes.ai/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/changelog/anecdotes-changelog.yml
+  href: https://artifacts.apis.io/anecdotes/changelog/anecdotes-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/anecdotes-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/data-model/anecdotes-data-model.yml
+  href: https://artifacts.apis.io/anecdotes/data-model/anecdotes-data-model.yml
   title: ''
   type: DataModel
   url: data-model/anecdotes-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/conformance/anecdotes-conformance.yml
+  href: https://artifacts.apis.io/anecdotes/conformance/anecdotes-conformance.yml
   title: ''
   type: Conformance
   url: conformance/anecdotes-conformance.yml
@@ -288,17 +290,17 @@ common:
   type: Compliance
   url: https://www.anecdotes.ai/trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/security/anecdotes-trust-center.yml
+  href: https://artifacts.apis.io/anecdotes/security/anecdotes-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/anecdotes-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/security/anecdotes-domain-security.yml
+  href: https://artifacts.apis.io/anecdotes/security/anecdotes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anecdotes-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/security/anecdotes-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/anecdotes/security/anecdotes-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/anecdotes-vulnerability-disclosure.yml
@@ -307,27 +309,35 @@ common:
   type: Security
   url: https://www.anecdotes.ai/trust
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/asyncapi/anecdotes-playbooks-webhooks.yml
+  href: https://artifacts.apis.io/anecdotes/asyncapi/anecdotes-playbooks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/anecdotes-playbooks-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/anecdotes/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/overlays/anecdotes-grc-overlay.yaml
+  href: https://artifacts.apis.io/anecdotes/overlays/anecdotes-grc-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/anecdotes-grc-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/examples/anecdotes-examples.yml
+  href: https://artifacts.apis.io/anecdotes/examples/anecdotes-examples.yml
   title: ''
   type: Examples
   url: examples/anecdotes-examples.yml
 created: '2026-07-31'
 description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform, founded in 2020 and headquartered in Tel Aviv, that pairs a GRC data engine with AI agents to replace point-in-time audit cycles with continuous, evidence-backed compliance. Its Compliance OS collects evidence automatically from 230+ pre-built plugins into 1,000+ predefined artifacts, maps that evidence across 60+ frameworks at once, and drives core applications for controls, requirements, risk, policy management, findings and user access review. Developers reach the platform through a documented REST API at api.anecdotes.ai (API key exchanged for a short-lived JWT), a hosted MCP Proxy at mcp.anecdotes.ai that exposes GRC domains as agent tools, a FedRAMP 20x Trust Center API with genuinely public endpoints, SAML SSO and SCIM provisioning, and outbound event webhooks driven by Playbooks.
+finops:
+- has_sources: true
+  method: derived
+  name: Anecdotes Finops
+  primary_unit: ''
+  service_category: ''
+  slug: anecdotes-finops
+  template: true
 image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/companies/anecdotes.jpg
 layout: provider
 mcp_servers:
@@ -349,29 +359,29 @@ plans:
 - name: Anecdotes Plans Pricing
   plan_count: 1
   slug: anecdotes-plans-pricing
-random_paper: 4
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Anecdotes Rate Limits
   slug: anecdotes-rate-limits
 score:
   band: exemplar
-  composite: 68.3
+  composite: 67.1
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 56.0
+    artifact_dirs: 28
+    catalog_earned: 53.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 59.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.3
+  delta: -0.5
   facets:
     access_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 64.7
+    contract_quality: 61.9
     developer_ergonomics: 70.4
-    discoverability: 80.0
-    operational_transparency: 73.7
+    discoverability: 65.0
+    operational_transparency: 76.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -380,7 +390,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 64.0
+  previous_composite: 67.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -397,13 +407,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/screenshots/anecdotes-2026-08-07T161404.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/anecdotes/anecdotes-2026-08-07T161404.png
 security:
 - kind: authentication
   name: Anecdotes Authentication
@@ -421,6 +432,20 @@ security:
   name: Anecdotes Trust Center
   slug: anecdotes-trust-center
   summary_line: SOC 1, SOC 2, ISO 27001, ISO 27701, ISO 27032, ISO 42001, GDPR
+skill_count: 6
+skills:
+- name: Authenticate against the Anecdotes API
+  slug: anecdotes-authenticate
+- name: Triage compliance gaps from evidence analysis
+  slug: anecdotes-evidence-analysis-triage
+- name: Export framework and control posture
+  slug: anecdotes-export-framework-posture
+- name: Read the Anecdotes FedRAMP 20x trust package
+  slug: anecdotes-fedramp-trust-package
+- name: Push custom evidence into Anecdotes
+  slug: anecdotes-push-custom-evidence
+- name: Sync a risk register with Anecdotes
+  slug: anecdotes-risk-register-sync
 slug: anecdotes
 tags:
 - Company

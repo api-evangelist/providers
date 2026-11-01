@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-tricycle/refs/heads/main/security/red-tricycle-domain-security.yml
+  href: https://artifacts.apis.io/red-tricycle/security/red-tricycle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/red-tricycle-domain-security.yml
@@ -55,12 +57,12 @@ name: Red Tricycle
 nav: Providers
 network: true
 overview: Red Tricycle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Parenting, Media, Family, and Content.
-random_paper: 13
+random_paper: 23
 score:
   band: minimal
   composite: 3.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -81,14 +83,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/red-tricycle/refs/heads/main/screenshots/red-tricycle-2026-09-02T153124.png
+screenshot: https://apis.io/screenshots/red-tricycle/red-tricycle-2026-09-02T153124.png
 security:
 - kind: domain-security
   name: Red Tricycle Domain Security

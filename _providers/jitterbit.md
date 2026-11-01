@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.9
-  scored_at: '2026-10-17'
+  score: 34.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 19
   slug: jitterbit-agentic-access
   summary_line: 19 operations · 13 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: APIs for registering and managing connectors created with the Jitterbit Connector SDK — log in to Harmony, register a custom connector, list registered connectors, delete a connector registration, del
   name: Jitterbit Connector SDK REST API
@@ -128,39 +130,39 @@ apis:
     question: Can I pause a schedule without deleting it?
   phrasing_ops: 5
   slug: jitterbit-schedules-api
-artifact_total: 15
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Jitterbit Webhooks
   slug: jitterbit-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/agentic-access/jitterbit-agentic-access.yml
+  href: https://artifacts.apis.io/jitterbit/agentic-access/jitterbit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/jitterbit-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/finops/jitterbit-finops.yml
+  href: https://artifacts.apis.io/jitterbit/finops/jitterbit-finops.yml
   title: ''
   type: FinOps
   url: finops/jitterbit-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/rules/jitterbit-rules.yml
+  href: https://artifacts.apis.io/jitterbit/rules/jitterbit-rules.yml
   title: ''
   type: Spectral
   url: rules/jitterbit-rules.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/hosts/jitterbit-hosts.yml
+  href: https://artifacts.apis.io/jitterbit/hosts/jitterbit-hosts.yml
   title: ''
   type: Hosts
   url: hosts/jitterbit-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/vendors/jitterbit-vendors.yml
+  href: https://artifacts.apis.io/jitterbit/vendors/jitterbit-vendors.yml
   title: ''
   type: Vendors
   url: vendors/jitterbit-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/packages/jitterbit-packages.yml
+  href: https://artifacts.apis.io/jitterbit/packages/jitterbit-packages.yml
   title: ''
   type: SDKs
   url: packages/jitterbit-packages.yml
@@ -177,7 +179,7 @@ common:
   type: Leadership
   url: https://www.jitterbit.com/leadership/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/overlays/jitterbit-harmony-platform-overlay.yaml
+  href: https://artifacts.apis.io/jitterbit/overlays/jitterbit-harmony-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/jitterbit-harmony-platform-overlay.yaml
@@ -246,12 +248,12 @@ common:
   type: Compliance
   url: https://docs.jitterbit.com/getting-started/jitterbit-security/iso-certification/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/security/jitterbit-trust-center.yml
+  href: https://artifacts.apis.io/jitterbit/security/jitterbit-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/jitterbit-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/security/jitterbit-domain-security.yml
+  href: https://artifacts.apis.io/jitterbit/security/jitterbit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jitterbit-domain-security.yml
@@ -264,77 +266,77 @@ common:
   type: Deprecation
   url: https://docs.jitterbit.com/release-notes/end-of-life-policy/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/lifecycle/jitterbit-lifecycle.yml
+  href: https://artifacts.apis.io/jitterbit/lifecycle/jitterbit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jitterbit-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/changelog/jitterbit-changelog.yml
+  href: https://artifacts.apis.io/jitterbit/changelog/jitterbit-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/jitterbit-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/authentication/jitterbit-authentication.yml
+  href: https://artifacts.apis.io/jitterbit/authentication/jitterbit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jitterbit-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/conventions/jitterbit-conventions.yml
+  href: https://artifacts.apis.io/jitterbit/conventions/jitterbit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jitterbit-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/conformance/jitterbit-conformance.yml
+  href: https://artifacts.apis.io/jitterbit/conformance/jitterbit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jitterbit-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/errors/jitterbit-problem-types.yml
+  href: https://artifacts.apis.io/jitterbit/errors/jitterbit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/jitterbit-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/rate-limits/jitterbit-rate-limits.yml
+  href: https://artifacts.apis.io/jitterbit/rate-limits/jitterbit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jitterbit-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/plans/jitterbit-plans-pricing.yml
+  href: https://artifacts.apis.io/jitterbit/plans/jitterbit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jitterbit-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/data-model/jitterbit-data-model.yml
+  href: https://artifacts.apis.io/jitterbit/data-model/jitterbit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/jitterbit-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/packages/jitterbit-packages.yml
+  href: https://artifacts.apis.io/jitterbit/packages/jitterbit-packages.yml
   title: ''
   type: Packages
   url: packages/jitterbit-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/cli/jitterbit-cli.yml
+  href: https://artifacts.apis.io/jitterbit/cli/jitterbit-cli.yml
   title: ''
   type: CLI
   url: cli/jitterbit-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/components/jitterbit-components.yml
+  href: https://artifacts.apis.io/jitterbit/components/jitterbit-components.yml
   title: ''
   type: Components
   url: components/jitterbit-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/sandbox/jitterbit-sandbox.yml
+  href: https://artifacts.apis.io/jitterbit/sandbox/jitterbit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/jitterbit-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/asyncapi/jitterbit-webhooks.yml
+  href: https://artifacts.apis.io/jitterbit/asyncapi/jitterbit-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/jitterbit-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/jitterbit/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -342,11 +344,11 @@ created: '2026-03-16'
 description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway), EDI with AS2 and X12/EDIFACT trading-partner management, low-code application development (App Builder, formerly Vinyl), a multi-tenant Message Queue service, a connector marketplace, and an AI layer of agents, assistants and a Model Context Protocol offering. Jitterbit publishes one machine-readable contract of its own — the Harmony platform APIs, an OpenAPI 3.0.3 document covering Integration Studio projects, project variables, operation logs and schedules — alongside a prose-documented Connector SDK REST API and an asynchronous API log service. The developer surface includes a Java Connector SDK with Javadocs, a Connector Builder, downloadable recipes and process templates, and
   the jbcli command line tool.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Jitterbit Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: jitterbit-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jitterbit.png
@@ -366,7 +368,7 @@ plans:
 - name: Jitterbit Plans Pricing
   plan_count: 7
   slug: jitterbit-plans-pricing
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Jitterbit Rate Limits
@@ -386,23 +388,23 @@ rules:
   slug: jitterbit-rules
 score:
   band: exemplar
-  composite: 72.5
+  composite: 73.3
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 31
     catalog_earned: 65.5
     catalog_earned_first_party: 24.0
     catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.8
+  delta: 0.0
   facets:
-    access_clarity: 85.5
+    access_clarity: 92.1
     contract_governance: 31.8
-    contract_quality: 57.6
+    contract_quality: 54.3
     developer_ergonomics: 80.4
-    discoverability: 76.8
-    operational_transparency: 92.1
-  previous_composite: 78.3
+    discoverability: 69.6
+    operational_transparency: 94.7
+  previous_composite: 73.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -419,13 +421,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/screenshots/jitterbit-2026-06-20T183742.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/jitterbit/jitterbit-2026-06-20T183742.png
 security:
 - kind: authentication
   name: Jitterbit Authentication
@@ -439,6 +442,14 @@ security:
   name: Jitterbit Trust Center
   slug: jitterbit-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, GDPR
+skill_count: 3
+skills:
+- name: jitterbit-deploy-project
+  slug: jitterbit-deploy-project
+- name: jitterbit-manage-schedules
+  slug: jitterbit-manage-schedules
+- name: jitterbit-read-operation-logs
+  slug: jitterbit-read-operation-logs
 slug: jitterbit
 tags:
 - API Management

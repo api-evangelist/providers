@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,20 +37,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GraphQL Federation API powering the erxes XOS platform. An Apollo Router gateway federates one subgraph per plugin — core (contacts, companies, products, tags, documents, brands, organization structur
   name: Erxes GraphQL API
   slug: graphql-api
-artifact_total: 9
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Erxes Webhooks
   slug: erxes-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/security/erxes-domain-security.yml
+  href: https://artifacts.apis.io/erxes/security/erxes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/erxes-domain-security.yml
@@ -129,77 +131,77 @@ common:
   type: Security
   url: https://github.com/erxes/erxes/blob/main/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/security/erxes-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/erxes/security/erxes-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/erxes-vulnerability-disclosure.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/plans/erxes-plans.md
+  href: https://artifacts.apis.io/erxes/plans/erxes-plans.md
   title: ''
   type: Plans
   url: plans/erxes-plans.md
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/plans/erxes-plans-pricing.yml
+  href: https://artifacts.apis.io/erxes/plans/erxes-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/erxes-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/rate-limits/erxes-rate-limits.yml
+  href: https://artifacts.apis.io/erxes/rate-limits/erxes-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/erxes-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/finops/erxes-finops.md
+  href: https://artifacts.apis.io/erxes/finops/erxes-finops.md
   title: ''
   type: FinOps
   url: finops/erxes-finops.md
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/packages/erxes-packages.yml
+  href: https://artifacts.apis.io/erxes/packages/erxes-packages.yml
   title: ''
   type: Packages
   url: packages/erxes-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/packages/erxes-packages.yml
+  href: https://artifacts.apis.io/erxes/packages/erxes-packages.yml
   title: ''
   type: SDKs
   url: packages/erxes-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/cli/erxes-cli.yml
+  href: https://artifacts.apis.io/erxes/cli/erxes-cli.yml
   title: ''
   type: CLI
   url: cli/erxes-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/components/erxes-components.yml
+  href: https://artifacts.apis.io/erxes/components/erxes-components.yml
   title: ''
   type: Components
   url: components/erxes-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/authentication/erxes-authentication.yml
+  href: https://artifacts.apis.io/erxes/authentication/erxes-authentication.yml
   title: ''
   type: Authentication
   url: authentication/erxes-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/scopes/erxes-scopes.yml
+  href: https://artifacts.apis.io/erxes/scopes/erxes-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/erxes-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/conventions/erxes-conventions.yml
+  href: https://artifacts.apis.io/erxes/conventions/erxes-conventions.yml
   title: ''
   type: Conventions
   url: conventions/erxes-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/errors/erxes-error-codes.yml
+  href: https://artifacts.apis.io/erxes/errors/erxes-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/erxes-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/lifecycle/erxes-lifecycle.yml
+  href: https://artifacts.apis.io/erxes/lifecycle/erxes-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/erxes-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/changelog/erxes-changelog.yml
+  href: https://artifacts.apis.io/erxes/changelog/erxes-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/erxes-changelog.yml
@@ -208,32 +210,40 @@ common:
   type: ReleaseNotes
   url: https://github.com/erxes/erxes/blob/main/CHANGELOG.md
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/conformance/erxes-conformance.yml
+  href: https://artifacts.apis.io/erxes/conformance/erxes-conformance.yml
   title: ''
   type: Conformance
   url: conformance/erxes-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/data-model/erxes-data-model.yml
+  href: https://artifacts.apis.io/erxes/data-model/erxes-data-model.yml
   title: ''
   type: DataModel
   url: data-model/erxes-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/asyncapi/erxes-webhooks.yml
+  href: https://artifacts.apis.io/erxes/asyncapi/erxes-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/erxes-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/erxes/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/llms/erxes-llms.txt
+  href: https://artifacts.apis.io/erxes/llms/erxes-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/erxes-llms.txt
 created: 2026-06-14
 description: Open-source Experience Operating System (XOS) that unifies marketing, sales, operations and support in one self-hostable platform, positioned as a replacement for HubSpot, Zendesk, Linear and Wix. The machine surface is a GraphQL Federation API served by an Apollo Router gateway — there is no REST API and no OpenAPI — covering contacts, companies, products, tags, documents, brands, organization structure, team members and automations in the core subgraph, plus sales, frontline (inbox/tickets), operation (projects/tasks/cycles) and block plugin subgraphs. Authentication is OAuth 2.0 Device Authorization Grant with per-tenant clients and a documented 34-scope vocabulary. erxes ships the Community Edition under AGPL-3.0 alongside a proprietary Enterprise Edition, publishes its own agent plugin and agent skills, and releases roughly once per merge day.
+finops:
+- has_sources: true
+  method: derived
+  name: Erxes Finops
+  primary_unit: organization
+  service_category: ''
+  slug: erxes-finops
+  template: false
 graphqls:
 - description: 'Erxes is an open-source experience operating system (XOS) built on a GraphQL Federation architecture using Apollo Router. The API is organized as a microservices monorepo where each plugin (contacts, '
   name: Erxes GraphQL API
@@ -253,9 +263,12 @@ overview: 'Erxes is listed with 1 API on the [APIs.io](https://apis.io/) network
   Erxes'' developer surface includes documentation, getting-started guide, API reference, engineering blog, support, pricing, signup flow, and 34 more developer resources.'
 plans:
 - name: Erxes Plans Pricing
-  plan_count: 5
+  plan_count: 7
   slug: erxes-plans-pricing
-random_paper: 1
+- name: Erxes Price Estimates
+  plan_count: 0
+  slug: erxes-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Erxes Rate Limits
@@ -266,24 +279,24 @@ scopes:
   slug: erxes-scopes
   summary_line: 34 scopes · deviceCode
 score:
-  band: strong
-  composite: 65.7
+  band: exemplar
+  composite: 66.5
   coverage:
     artifact_dirs: 25
-    catalog_earned: 57.0
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 46.9
     developer_ergonomics: 78.6
-    discoverability: 80.4
+    discoverability: 73.2
     operational_transparency: 81.6
-  previous_composite: 65.6
+  previous_composite: 64.9
   provenance:
     conformance: derived
     mcp: derived
@@ -294,14 +307,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/screenshots/erxes-2026-06-20T180818.png
+screenshot: https://apis.io/screenshots/erxes/erxes-2026-06-20T180818.png
 security:
 - kind: authentication
   name: Erxes Authentication

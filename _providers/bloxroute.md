@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-10-17'
+  score: 26.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://uk.solana.dex.blxrbdn.com
@@ -43,14 +45,14 @@ apis:
   description: Low-latency Solana trading API (gRPC, HTTP/REST with per-region Swagger UI, WebSocket, and QUIC) for transaction submission, batching, sniping, bundle execution, DEX quoting/swaps (Jupiter, Raydium, P
   name: bloXroute Solana Trader API
   slug: bloxroute-solana-trader-api
-artifact_total: 6
+artifact_total: 9
 asyncapis:
 - description: Event surface for the bloXroute Blockchain Distribution Network and Solana Trader API. Captured by the API Evangelist enrichment pipeline from the provider's published stream documentation and protobu
   name: bloXroute Streams (BDN + Solana Trader API)
   slug: bloxroute-streams-asyncapi
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/security/bloxroute-domain-security.yml
+  href: https://artifacts.apis.io/bloxroute/security/bloxroute-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bloxroute-domain-security.yml
@@ -95,77 +97,77 @@ common:
   type: GitHubOrganization
   url: https://github.com/bloXroute-Labs
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/authentication/bloxroute-authentication.yml
+  href: https://artifacts.apis.io/bloxroute/authentication/bloxroute-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bloxroute-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/mcp/bloxroute-mcp.yml
+  href: https://artifacts.apis.io/bloxroute/mcp/bloxroute-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bloxroute-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/grpc/bloxroute-solana-trader.proto
+  href: https://artifacts.apis.io/bloxroute/grpc/bloxroute-solana-trader.proto
   title: ''
   type: Protobuf
   url: grpc/bloxroute-solana-trader.proto
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/packages/bloxroute-packages.yml
+  href: https://artifacts.apis.io/bloxroute/packages/bloxroute-packages.yml
   title: ''
   type: Packages
   url: packages/bloxroute-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/packages/bloxroute-packages.yml
+  href: https://artifacts.apis.io/bloxroute/packages/bloxroute-packages.yml
   title: ''
   type: SDKs
   url: packages/bloxroute-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/cli/bloxroute-cli.yml
+  href: https://artifacts.apis.io/bloxroute/cli/bloxroute-cli.yml
   title: ''
   type: CLI
   url: cli/bloxroute-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/llms/bloxroute-llms.txt
+  href: https://artifacts.apis.io/bloxroute/llms/bloxroute-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bloxroute-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/changelog/bloxroute-changelog.yml
+  href: https://artifacts.apis.io/bloxroute/changelog/bloxroute-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bloxroute-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/lifecycle/bloxroute-lifecycle.yml
+  href: https://artifacts.apis.io/bloxroute/lifecycle/bloxroute-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bloxroute-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/conventions/bloxroute-conventions.yml
+  href: https://artifacts.apis.io/bloxroute/conventions/bloxroute-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bloxroute-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/conformance/bloxroute-conformance.yml
+  href: https://artifacts.apis.io/bloxroute/conformance/bloxroute-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bloxroute-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/rate-limits/bloxroute-rate-limits.yml
+  href: https://artifacts.apis.io/bloxroute/rate-limits/bloxroute-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bloxroute-rate-limits.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/asyncapi/bloxroute-streams-asyncapi.yml
+  href: https://artifacts.apis.io/bloxroute/asyncapi/bloxroute-streams-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/bloxroute-streams-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/data-model/bloxroute-data-model.yml
+  href: https://artifacts.apis.io/bloxroute/data-model/bloxroute-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bloxroute-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bloxroute/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -188,30 +190,30 @@ overview: 'bloXroute is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   bloXroute''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, authentication, and 19 more developer resources.'
-random_paper: 6
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Bloxroute Rate Limits
   slug: bloxroute-rate-limits
 score:
-  band: thin
-  composite: 38.7
+  band: developing
+  composite: 40.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 42.7
     developer_ergonomics: 70.8
-    discoverability: 75.0
-    operational_transparency: 34.2
-  previous_composite: 38.6
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 40.7
   provenance:
     conformance: derived
     mcp: first-party
@@ -222,14 +224,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/screenshots/bloxroute-2026-07-25T203421.png
+screenshot: https://apis.io/screenshots/bloxroute/bloxroute-2026-07-25T203421.png
 security:
 - kind: authentication
   name: Bloxroute Authentication
@@ -239,6 +241,14 @@ security:
   name: Bloxroute Domain Security
   slug: bloxroute-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Quote and execute a Jupiter swap
+  slug: bloxroute-jupiter-swap
+- name: Subscribe to a bloXroute mempool or event stream
+  slug: bloxroute-stream-mempool
+- name: Submit a Solana transaction with low latency
+  slug: bloxroute-submit-solana-transaction
 slug: bloxroute
 tags:
 - Company

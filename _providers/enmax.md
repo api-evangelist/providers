@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The machine-readable grid data behind ENMAX Power's public Hosting Capacity, Load Capacity and Service Area maps. The three maps published at enmax.com/system-resources are ArcGIS Online Web AppBuilde
@@ -43,52 +45,52 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enmax/refs/heads/main/security/enmax-domain-security.yml
+  href: https://artifacts.apis.io/enmax/security/enmax-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/enmax-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enmax/refs/heads/main/authentication/enmax-authentication.yml
+  href: https://artifacts.apis.io/enmax/authentication/enmax-authentication.yml
   title: ''
   type: Authentication
   url: authentication/enmax-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enmax/refs/heads/main/conventions/enmax-conventions.yml
+  href: https://artifacts.apis.io/enmax/conventions/enmax-conventions.yml
   title: ''
   type: Conventions
   url: conventions/enmax-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enmax/refs/heads/main/errors/enmax-problem-types.yml
+  href: https://artifacts.apis.io/enmax/errors/enmax-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/enmax-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/enmax/refs/heads/main/rate-limits/enmax-rate-limits.yml
+  href: https://artifacts.apis.io/enmax/rate-limits/enmax-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/enmax-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enmax/refs/heads/main/data-model/enmax-data-model.yml
+  href: https://artifacts.apis.io/enmax/data-model/enmax-data-model.yml
   title: ''
   type: DataModel
   url: data-model/enmax-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enmax/refs/heads/main/lifecycle/enmax-lifecycle.yml
+  href: https://artifacts.apis.io/enmax/lifecycle/enmax-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/enmax-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enmax/refs/heads/main/conformance/enmax-conformance.yml
+  href: https://artifacts.apis.io/enmax/conformance/enmax-conformance.yml
   title: ''
   type: Conformance
   url: conformance/enmax-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/enmax/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/enmax/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enmax/refs/heads/main/llms/enmax-llms.txt
+  href: https://artifacts.apis.io/enmax/llms/enmax-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/enmax-llms.txt
@@ -206,14 +208,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/enmax/refs/heads/main/screenshots/enmax-2026-08-07T164928.png
+screenshot: https://apis.io/screenshots/enmax/enmax-2026-08-07T164928.png
 security:
 - kind: authentication
   name: Enmax Authentication

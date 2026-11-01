@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Skechers operates a direct-to-consumer digital commerce platform at skechers.com that enables online shopping for footwear, apparel, and accessories. The platform integrates with e-commerce infrastruc
@@ -48,27 +50,27 @@ apis:
 artifact_total: 12
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/skechers-usa/refs/heads/main/plans/skechers-usa-plans-pricing.yml
+  href: https://artifacts.apis.io/skechers-usa/plans/skechers-usa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/skechers-usa-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/skechers-usa/refs/heads/main/rate-limits/skechers-usa-rate-limits.yml
+  href: https://artifacts.apis.io/skechers-usa/rate-limits/skechers-usa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/skechers-usa-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/skechers-usa/refs/heads/main/finops/skechers-usa-finops.yml
+  href: https://artifacts.apis.io/skechers-usa/finops/skechers-usa-finops.yml
   title: ''
   type: FinOps
   url: finops/skechers-usa-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skechers-usa/refs/heads/main/security/skechers-usa-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/skechers-usa/security/skechers-usa-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/skechers-usa-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skechers-usa/refs/heads/main/security/skechers-usa-domain-security.yml
+  href: https://artifacts.apis.io/skechers-usa/security/skechers-usa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skechers-usa-domain-security.yml
@@ -89,12 +91,12 @@ common:
   type: Portal
   url: https://www.skechers.com/partners
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skechers-usa/refs/heads/main/json-ld/skechers-usa-context.jsonld
+  href: https://artifacts.apis.io/skechers-usa/json-ld/skechers-usa-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/skechers-usa-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skechers-usa/refs/heads/main/vocabulary/skechers-usa-vocabulary.yml
+  href: https://artifacts.apis.io/skechers-usa/vocabulary/skechers-usa-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/skechers-usa-vocabulary.yml
@@ -108,7 +110,7 @@ finops:
 - has_sources: false
   method: generated
   name: Skechers Usa Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: skechers-usa-finops
   template: true
@@ -158,7 +160,7 @@ press:
 - date: ''
   title: 'When IR Met AI: How the Technology Is Shaping Earnings- ...'
   url: https://www.wsj.com/articles/when-ir-met-ai-how-the-technology-is-shaping-earnings-day-prep-5054a057
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Skechers Usa Rate Limits
@@ -177,7 +179,7 @@ rules:
   slug: skechers-usa-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 16.8
+  composite: 18.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 53.8
@@ -185,14 +187,14 @@ score:
     catalog_gap: 61.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 10.7
     developer_ergonomics: 11.9
     discoverability: 57.1
-    operational_transparency: 10.5
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -200,21 +202,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 18.3
+  previous_composite: 18.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/skechers-usa/refs/heads/main/screenshots/skechers-usa-2026-06-20T194019.png
+screenshot: https://apis.io/screenshots/skechers-usa/skechers-usa-2026-06-20T194019.png
 security:
 - kind: domain-security
   name: Skechers Usa Domain Security

@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-10-17'
+  score: 35.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 8
   slug: golden-recursion-agentic-access
   summary_line: 8 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://golden.com/api/v2/public
   baseurl_source: declared
@@ -68,11 +70,8 @@ arazzos:
 - description: Resolve a saved Golden query by its permalink and page through its entity results.
   name: Golden — run a saved query by permalink
   slug: golden-recursion-saved-query
-artifact_total: 14
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Golden API v2 Entity API API
   slug: open-golden-recursion-entity-api-api
@@ -140,92 +139,92 @@ common:
   type: PrivacyPolicy
   url: https://golden.com/about/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/authentication/golden-recursion-authentication.yml
+  href: https://artifacts.apis.io/golden-recursion/authentication/golden-recursion-authentication.yml
   title: ''
   type: Authentication
   url: authentication/golden-recursion-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/conventions/golden-recursion-conventions.yml
+  href: https://artifacts.apis.io/golden-recursion/conventions/golden-recursion-conventions.yml
   title: ''
   type: Conventions
   url: conventions/golden-recursion-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/errors/golden-recursion-problem-types.yml
+  href: https://artifacts.apis.io/golden-recursion/errors/golden-recursion-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/golden-recursion-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/lifecycle/golden-recursion-lifecycle.yml
+  href: https://artifacts.apis.io/golden-recursion/lifecycle/golden-recursion-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/golden-recursion-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/conformance/golden-recursion-conformance.yml
+  href: https://artifacts.apis.io/golden-recursion/conformance/golden-recursion-conformance.yml
   title: ''
   type: Conformance
   url: conformance/golden-recursion-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/data-model/golden-recursion-data-model.yml
+  href: https://artifacts.apis.io/golden-recursion/data-model/golden-recursion-data-model.yml
   title: ''
   type: DataModel
   url: data-model/golden-recursion-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/packages/golden-recursion-packages.yml
+  href: https://artifacts.apis.io/golden-recursion/packages/golden-recursion-packages.yml
   title: ''
   type: Packages
   url: packages/golden-recursion-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/packages/golden-recursion-packages.yml
+  href: https://artifacts.apis.io/golden-recursion/packages/golden-recursion-packages.yml
   title: ''
   type: SDKs
   url: packages/golden-recursion-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/mcp/golden-recursion-mcp.yml
+  href: https://artifacts.apis.io/golden-recursion/mcp/golden-recursion-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/golden-recursion-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/llms/golden-recursion-llms.txt
+  href: https://artifacts.apis.io/golden-recursion/llms/golden-recursion-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/golden-recursion-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/overlays/golden-recursion-openapi-overlay.yaml
+  href: https://artifacts.apis.io/golden-recursion/overlays/golden-recursion-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/golden-recursion-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/golden-recursion/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/arazzo/golden-recursion-enrich-entity.yml
+  href: https://artifacts.apis.io/golden-recursion/arazzo/golden-recursion-enrich-entity.yml
   title: ''
   type: Arazzo
   url: arazzo/golden-recursion-enrich-entity.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/arazzo/golden-recursion-saved-query.yml
+  href: https://artifacts.apis.io/golden-recursion/arazzo/golden-recursion-saved-query.yml
   title: ''
   type: Arazzo
   url: arazzo/golden-recursion-saved-query.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/agentic-access/golden-recursion-agentic-access.yml
+  href: https://artifacts.apis.io/golden-recursion/agentic-access/golden-recursion-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/golden-recursion-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/security/golden-recursion-domain-security.yml
+  href: https://artifacts.apis.io/golden-recursion/security/golden-recursion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/golden-recursion-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/plans/golden-recursion-plans-pricing.yml
+  href: https://artifacts.apis.io/golden-recursion/plans/golden-recursion-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/golden-recursion-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/rate-limits/golden-recursion-rate-limits.yml
+  href: https://artifacts.apis.io/golden-recursion/rate-limits/golden-recursion-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/golden-recursion-rate-limits.yml
@@ -246,14 +245,14 @@ plans:
 - name: Golden Recursion Plans Pricing
   plan_count: 4
   slug: golden-recursion-plans-pricing
-random_paper: 14
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Golden Recursion Rate Limits
   slug: golden-recursion-rate-limits
 score:
-  band: thin
-  composite: 38.0
+  band: developing
+  composite: 54.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 61.0
@@ -261,15 +260,15 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 49.6
-    developer_ergonomics: 28.0
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 37.5
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,15 +284,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 22.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/screenshots/golden-recursion-2026-07-25T220029.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/golden-recursion/golden-recursion-2026-07-25T220029.png
 security:
 - kind: authentication
   name: Golden Recursion Authentication
@@ -303,6 +302,14 @@ security:
   name: Golden Recursion Domain Security
   slug: golden-recursion-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Enrich an entity from Golden
+  slug: golden-recursion-enrich-entity
+- name: Explore the Golden schema
+  slug: golden-recursion-explore-schema
+- name: Run a saved Golden query
+  slug: golden-recursion-run-saved-query
 slug: golden-recursion
 tags:
 - Company

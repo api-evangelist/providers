@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,12 +67,12 @@ common:
   type: Twitter
   url: https://x.com/lifemote
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lifemote/refs/heads/main/llms/lifemote-llms.txt
+  href: https://artifacts.apis.io/lifemote/llms/lifemote-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lifemote-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lifemote/refs/heads/main/security/lifemote-domain-security.yml
+  href: https://artifacts.apis.io/lifemote/security/lifemote-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lifemote-domain-security.yml
@@ -87,12 +89,12 @@ overview: 'Lifemote is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lifemote''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 17
+random_paper: 13
 score:
   band: minimal
-  composite: 7.5
+  composite: 7.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -104,8 +106,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -114,21 +116,21 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 7.5
+  previous_composite: 7.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lifemote/refs/heads/main/screenshots/lifemote-2026-07-25T225039.png
+screenshot: https://apis.io/screenshots/lifemote/lifemote-2026-07-25T225039.png
 security:
 - kind: domain-security
   name: Lifemote Domain Security

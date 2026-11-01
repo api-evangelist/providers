@@ -4,6 +4,6 @@ layout: provider
 name: data-format
 nav: Providers
 network: true
-random_paper: 4
+random_paper: 0
 slug: data-format
 ---

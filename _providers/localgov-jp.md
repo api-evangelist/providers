@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.6
-  scored_at: '2026-10-17'
+  score: 3.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Japan grants and subsidies (central J-Grants + 1,916 municipalities)
@@ -41,7 +43,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/localgov-jp/refs/heads/main/security/localgov-jp-domain-security.yml
+  href: https://artifacts.apis.io/localgov-jp/security/localgov-jp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/localgov-jp-domain-security.yml
@@ -73,10 +75,10 @@ overview: 'LocalGov.jp is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   LocalGov.jp''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 18
+random_paper: 14
 score:
   band: minimal
-  composite: 6.3
+  composite: 5.9
   coverage:
     artifact_dirs: 6
     catalog_earned: 22.0
@@ -90,9 +92,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 50.0
+    discoverability: 46.4
     operational_transparency: 0.0
-  previous_composite: 6.3
+  previous_composite: 5.9
   provenance:
     mcp: first-party
   regulatory:
@@ -101,14 +103,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/localgov-jp/refs/heads/main/screenshots/localgov-jp-2026-06-20T184633.png
+screenshot: https://apis.io/screenshots/localgov-jp/localgov-jp-2026-06-20T184633.png
 security:
 - kind: domain-security
   name: Localgov Jp Domain Security

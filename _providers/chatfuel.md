@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The only documented Chatfuel API operation as of 2026-08-13. POST https://panel.chatfuel.com/api/contacts/{automation_id}/whatsapp/ imports a batch of up to 1,000 WhatsApp phone numbers into an automa
@@ -46,7 +48,7 @@ apis:
 - description: HTTP API to programmatically create and modify bots and pages — create bots, clone bot content, generate role-based invite links, and bind/unbind bots to Facebook pages. Authenticated with a Bearer Da
   name: Chatfuel Dashboard API
   slug: chatfuel-dashboard-api
-artifact_total: 7
+artifact_total: 9
 common:
 - group: start
   title: ''
@@ -81,7 +83,7 @@ common:
   type: Pricing
   url: https://chatfuel.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/plans/chatfuel-plans-pricing.yml
+  href: https://artifacts.apis.io/chatfuel/plans/chatfuel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chatfuel-plans-pricing.yml
@@ -114,47 +116,47 @@ common:
   type: Website
   url: https://chatfuel.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/authentication/chatfuel-authentication.yml
+  href: https://artifacts.apis.io/chatfuel/authentication/chatfuel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chatfuel-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/rate-limits/chatfuel-rate-limits.yml
+  href: https://artifacts.apis.io/chatfuel/rate-limits/chatfuel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chatfuel-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/conventions/chatfuel-conventions.yml
+  href: https://artifacts.apis.io/chatfuel/conventions/chatfuel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chatfuel-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/lifecycle/chatfuel-lifecycle.yml
+  href: https://artifacts.apis.io/chatfuel/lifecycle/chatfuel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chatfuel-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/conformance/chatfuel-conformance.yml
+  href: https://artifacts.apis.io/chatfuel/conformance/chatfuel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chatfuel-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/security/chatfuel-domain-security.yml
+  href: https://artifacts.apis.io/chatfuel/security/chatfuel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chatfuel-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/packages/chatfuel-packages.yml
+  href: https://artifacts.apis.io/chatfuel/packages/chatfuel-packages.yml
   title: ''
   type: Packages
   url: packages/chatfuel-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/components/chatfuel-components.yml
+  href: https://artifacts.apis.io/chatfuel/components/chatfuel-components.yml
   title: ''
   type: Components
   url: components/chatfuel-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/llms/chatfuel-llms.txt
+  href: https://artifacts.apis.io/chatfuel/llms/chatfuel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chatfuel-llms.txt
@@ -165,6 +167,14 @@ common:
 created: '2026-07-17'
 description: 'Chatfuel is a no-code AI-powered chatbot and business-automation platform for conversational commerce across Meta-owned messaging channels — WhatsApp, Instagram, Facebook Messenger, TikTok, and an embeddable website chat widget. An official Meta Business Partner, Chatfuel lets teams build automated flows and Fuely AI agents that qualify leads, answer customer questions, take bookings, run re-engagement campaigns, and hand off to live agents. Its developer surface is deliberately small and has been shrinking: the single documented HTTP operation is a Contacts API on panel.chatfuel.com that imports up to 1,000 WhatsApp numbers into an automation with a Bearer account token. The older Broadcasting API (api.chatfuel.com) and Dashboard API (dashboard.chatfuel.com/api) still respond, but Chatfuel retired their documentation along with the whole docs.chatfuel.com help center during 2026, leaving no reference, no deprecation notice and no redirect. A live GraphQL gateway runs at panel.chatfuel.com/graphql
   with introspection disabled, and a Swagger route on the API host is walled behind Google SSO. Chatfuel publishes no OpenAPI, no AsyncAPI, no first-party SDK and no MCP server.'
+finops:
+- has_sources: true
+  method: derived
+  name: Chatfuel Finops
+  primary_unit: message
+  service_category: ''
+  slug: chatfuel-finops
+  template: false
 image: https://chatfuel.com/favicons/apple-touch-icon.png
 layout: provider
 modified: '2026-08-13'
@@ -179,30 +189,33 @@ plans:
 - name: Chatfuel Plans Pricing
   plan_count: 17
   slug: chatfuel-plans-pricing
-random_paper: 8
+- name: Chatfuel Price Estimates
+  plan_count: 0
+  slug: chatfuel-price-estimates
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Chatfuel Rate Limits
   slug: chatfuel-rate-limits
 score:
   band: developing
-  composite: 41.8
+  composite: 46.4
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 60.0
+    artifact_dirs: 17
+    catalog_earned: 63.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 1.6
   facets:
-    access_clarity: 71.1
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
     discoverability: 71.4
-    operational_transparency: 39.5
-  previous_composite: 42.2
+    operational_transparency: 42.1
+  previous_composite: 44.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -216,14 +229,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/screenshots/chatfuel-2026-07-25T205116.png
+screenshot: https://apis.io/screenshots/chatfuel/chatfuel-2026-07-25T205116.png
 security:
 - kind: authentication
   name: Chatfuel Authentication

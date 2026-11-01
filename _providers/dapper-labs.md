@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 21.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -97,15 +99,12 @@ apis:
   description: The Transactions API from Dapper Labs — 4 operation(s) for transactions.
   name: Dapper Labs Transactions API
   slug: dapper-labs-transactions-api
-artifact_total: 26
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Dapper Labs Flow Events Webhooks
   slug: dapper-labs-flow-events-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Access Accounts API
   slug: open-dapper-labs-accounts-api
@@ -141,12 +140,12 @@ collections:
   slug: open-dapper-labs-transactions-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/mcp/dapper-labs-mcp.yml
+  href: https://artifacts.apis.io/dapper-labs/mcp/dapper-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dapper-labs-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/overlays/dapper-labs-flow-access-overlay.yaml
+  href: https://artifacts.apis.io/dapper-labs/overlays/dapper-labs-flow-access-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dapper-labs-flow-access-overlay.yaml
@@ -179,32 +178,32 @@ common:
   type: Blog
   url: https://flow.com/blog
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/packages/dapper-labs-packages.yml
+  href: https://artifacts.apis.io/dapper-labs/packages/dapper-labs-packages.yml
   title: ''
   type: Packages
   url: packages/dapper-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/packages/dapper-labs-packages.yml
+  href: https://artifacts.apis.io/dapper-labs/packages/dapper-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/dapper-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/cli/dapper-labs-cli.yml
+  href: https://artifacts.apis.io/dapper-labs/cli/dapper-labs-cli.yml
   title: ''
   type: CLI
   url: cli/dapper-labs-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/sandbox/dapper-labs-sandbox.yml
+  href: https://artifacts.apis.io/dapper-labs/sandbox/dapper-labs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dapper-labs-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/well-known/dapper-labs-well-known.yml
+  href: https://artifacts.apis.io/dapper-labs/well-known/dapper-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dapper-labs-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/lifecycle/dapper-labs-lifecycle.yml
+  href: https://artifacts.apis.io/dapper-labs/lifecycle/dapper-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dapper-labs-lifecycle.yml
@@ -213,32 +212,32 @@ common:
   type: StatusPage
   url: https://status.flow.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/conformance/dapper-labs-conformance.yml
+  href: https://artifacts.apis.io/dapper-labs/conformance/dapper-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dapper-labs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/asyncapi/dapper-labs-flow-events-webhooks.yml
+  href: https://artifacts.apis.io/dapper-labs/asyncapi/dapper-labs-flow-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/dapper-labs-flow-events-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dapper-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/llms/dapper-labs-llms.txt
+  href: https://artifacts.apis.io/dapper-labs/llms/dapper-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dapper-labs-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/security/dapper-labs-domain-security.yml
+  href: https://artifacts.apis.io/dapper-labs/security/dapper-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dapper-labs-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/agentic-access/dapper-labs-agentic-access.yml
+  href: https://artifacts.apis.io/dapper-labs/agentic-access/dapper-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dapper-labs-agentic-access.yml
@@ -257,12 +256,12 @@ overview: 'Dapper Labs publishes 11 API contracts indexed on the [APIs.io](https
 
 
   Dapper Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, sandbox, and 16 more developer resources.'
-random_paper: 21
+random_paper: 19
 score:
   band: thin
-  composite: 35.7
+  composite: 36.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -274,8 +273,8 @@ score:
     contract_governance: 4.5
     contract_quality: 52.3
     developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 26.3
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -283,7 +282,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 35.7
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -300,18 +299,27 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/screenshots/dapper-labs-2026-07-25T211207.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dapper-labs/dapper-labs-2026-07-25T211207.png
 security:
 - kind: domain-security
   name: Dapper Labs Domain Security
   slug: dapper-labs-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Execute a read-only Cadence script
+  slug: dapper-labs-execute-script
+- name: Query a Flow account and its balance
+  slug: dapper-labs-query-account
+- name: Submit a Cadence transaction and check its result
+  slug: dapper-labs-submit-transaction
 slug: dapper-labs
 tags:
 - Company

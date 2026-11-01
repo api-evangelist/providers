@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Web API providing HTTP-based interfaces for accessing and manipulating SimCorp Dimension data in real time, supporting stateless RESTful operations across the investment management lifecycle. Named by
@@ -48,18 +50,61 @@ apis:
   slug: simcorp-dimension-streaming-api
 artifact_total: 26
 common:
+- group: other
+  href: https://artifacts.apis.io/simcorp-dimension/a2a/simcorp-dimension-a2a.yml
+  title: ''
+  type: AgentCard
+  url: a2a/simcorp-dimension-a2a.yml
+- group: operate
+  href: https://artifacts.apis.io/simcorp-dimension/lifecycle/simcorp-dimension-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/simcorp-dimension-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/simcorp-dimension/rules/simcorp-dimension-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/simcorp-dimension-jsonschema-spectral-rules.yml
+- group: other
+  href: https://artifacts.apis.io/simcorp-dimension/hosts/simcorp-dimension-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/simcorp-dimension-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/simcorp-dimension/integrations/simcorp-dimension-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/simcorp-dimension-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/simcorp-dimension/vendors/simcorp-dimension-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/simcorp-dimension-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/simcorp-dimension/packages/simcorp-dimension-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/simcorp-dimension-packages.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.simcorp.com/about-us/news
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.simcorp.com/about-us/who-we-are/management
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/plans/simcorp-dimension-plans-pricing.yml
+  href: https://artifacts.apis.io/simcorp-dimension/plans/simcorp-dimension-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/simcorp-dimension-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/rate-limits/simcorp-dimension-rate-limits.yml
+  href: https://artifacts.apis.io/simcorp-dimension/rate-limits/simcorp-dimension-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/simcorp-dimension-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/finops/simcorp-dimension-finops.yml
+  href: https://artifacts.apis.io/simcorp-dimension/finops/simcorp-dimension-finops.yml
   title: ''
   type: FinOps
   url: finops/simcorp-dimension-finops.yml
@@ -72,40 +117,35 @@ common:
   type: Website
   url: https://www.simcorp.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/security/simcorp-dimension-domain-security.yml
+  href: https://artifacts.apis.io/simcorp-dimension/security/simcorp-dimension-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simcorp-dimension-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/security/simcorp-dimension-trust-center.yml
+  href: https://artifacts.apis.io/simcorp-dimension/security/simcorp-dimension-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/simcorp-dimension-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/security/simcorp-dimension-trust-center.yml
+  href: https://artifacts.apis.io/simcorp-dimension/security/simcorp-dimension-trust-center.yml
   title: ''
   type: Compliance
   url: security/simcorp-dimension-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/conformance/simcorp-dimension-conformance.yml
+  href: https://artifacts.apis.io/simcorp-dimension/conformance/simcorp-dimension-conformance.yml
   title: ''
   type: Conformance
   url: conformance/simcorp-dimension-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/lifecycle/simcorp-dimension-lifecycle.yml
+  href: https://artifacts.apis.io/simcorp-dimension/lifecycle/simcorp-dimension-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/simcorp-dimension-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/packages/simcorp-dimension-packages.yml
+  href: https://artifacts.apis.io/simcorp-dimension/packages/simcorp-dimension-packages.yml
   title: ''
   type: Packages
   url: packages/simcorp-dimension-packages.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/llms/simcorp-dimension-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/simcorp-dimension-llms.txt
 - group: build
   title: ''
   type: GitHubOrganization
@@ -191,32 +231,30 @@ common:
   type: Resources
   url: https://www.simcorp.com/about-us/news/2024/simcorp-introduces-new-flagship-platform-simcorp-one
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/json-ld/simcorp-dimension-context.jsonld
+  href: https://artifacts.apis.io/simcorp-dimension/json-ld/simcorp-dimension-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/simcorp-dimension-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/json-schema/simcorp-dimension-portfolio-schema.json
+  href: https://artifacts.apis.io/simcorp-dimension/json-schema/simcorp-dimension-portfolio-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/simcorp-dimension-portfolio-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/json-schema/simcorp-dimension-instrument-schema.json
+  href: https://artifacts.apis.io/simcorp-dimension/json-schema/simcorp-dimension-instrument-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/simcorp-dimension-instrument-schema.json
 coverage:
-  checked: '2026-08-29'
+  checked: '2026-10-20'
   detail: SimCorp's own Data Model Portal at thesim.dev carries the Web API, Data Distribution API and Streaming API reference plus the Swagger documentation, and /gettingstarted/ resolves to a sign-in wall offering corporate SSO for SimCorp employees and a SimCorp-issued username and password for clients, vendors and partners — there is no registration path at all, so the contract is unreadable without an existing SimCorp relationship.
   evidence:
   - status: 200
     url: https://thesim.dev/gettingstarted/
   - status: 404
+    url: https://thesim.dev/llms.txt
+  - status: 404
     url: https://thesim.dev/openapi.json
-  - status: 0
-    url: https://developer.simcorp.com/dimension/data-api
-  - status: 0
-    url: https://api.simcorp.com/dimension/v1/openapi.json
   reason: customer-only-docs
   state: gated
 created: '2024-01-01'
@@ -235,7 +273,7 @@ finops:
 - has_sources: false
   method: generated
   name: Simcorp Dimension Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: simcorp-dimension-finops
   template: true
@@ -263,12 +301,12 @@ overview: 'SimCorp Dimension is listed with 3 APIs on the [APIs.io](https://apis
   The SimCorp Dimension catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SimCorp Dimension''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, and 31 more developer resources.'
+  SimCorp Dimension''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, and 39 more developer resources.'
 plans:
 - name: Simcorp Dimension Plans Pricing
   plan_count: 0
   slug: simcorp-dimension-plans-pricing
-random_paper: 16
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Simcorp Dimension Rate Limits
@@ -287,23 +325,23 @@ rules:
   slug: simcorp-dimension-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.1
+  composite: 31.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 19
     catalog_earned: 43.3
     catalog_earned_first_party: 0.0
     catalog_gap: 71.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 28.0
     contract_quality: 6.7
-    developer_ergonomics: 38.1
-    discoverability: 76.8
-    operational_transparency: 2.6
-  previous_composite: 30.6
+    developer_ergonomics: 45.2
+    discoverability: 73.2
+    operational_transparency: 13.2
+  previous_composite: 31.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -313,14 +351,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 27.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/screenshots/simcorp-dimension-2026-06-20T193926.png
+screenshot: https://apis.io/screenshots/simcorp-dimension/simcorp-dimension-2026-06-20T193926.png
 security:
 - kind: domain-security
   name: Simcorp Dimension Domain Security

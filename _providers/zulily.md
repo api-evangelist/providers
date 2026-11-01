@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Zulily's agent-facing commerce API implementing the Universal Commerce Protocol (UCP) over a JSON-RPC MCP endpoint — search the catalog, build a cart, and run a buyer-approved checkout.
@@ -42,54 +44,54 @@ apis:
 - description: OpenID Connect / OAuth 2.0 authentication and customer-account access for Zulily shoppers, provided by the Shopify Customer Account API, including an MCP-scoped agent surface.
   name: Zulily Customer Account API (Shopify)
   slug: zulily-customer-account-api-shopify
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
   type: Website
   url: https://www.zulily.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zulily/refs/heads/main/llms/zulily-llms.txt
+  href: https://artifacts.apis.io/zulily/llms/zulily-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zulily-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zulily/refs/heads/main/well-known/zulily-well-known.yml
+  href: https://artifacts.apis.io/zulily/well-known/zulily-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zulily-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zulily/refs/heads/main/llms/zulily-agents.md
+  href: https://artifacts.apis.io/zulily/llms/zulily-agents.md
   title: ''
   type: SecurityTxt
   url: llms/zulily-agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zulily/refs/heads/main/mcp/zulily-mcp.yml
+  href: https://artifacts.apis.io/zulily/mcp/zulily-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/zulily-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zulily/refs/heads/main/authentication/zulily-authentication.yml
+  href: https://artifacts.apis.io/zulily/authentication/zulily-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zulily-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zulily/refs/heads/main/scopes/zulily-scopes.yml
+  href: https://artifacts.apis.io/zulily/scopes/zulily-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zulily-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zulily/refs/heads/main/conformance/zulily-conformance.yml
+  href: https://artifacts.apis.io/zulily/conformance/zulily-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zulily-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zulily/refs/heads/main/conventions/zulily-conventions.yml
+  href: https://artifacts.apis.io/zulily/conventions/zulily-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zulily-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zulily/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zulily/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -117,7 +119,7 @@ overview: 'Zulily is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Zulily''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 21
+random_paper: 9
 scopes:
 - name: Zulily Scopes
   scope_count: 4
@@ -125,7 +127,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 19.7
+  composite: 20.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -133,15 +135,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.0
-    operational_transparency: 0.0
-  previous_composite: 19.6
+    discoverability: 65.0
+    operational_transparency: 10.5
+  previous_composite: 20.1
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -152,19 +154,23 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/zulily/refs/heads/main/screenshots/zulily-2026-09-02T171852.png
+screenshot: https://apis.io/screenshots/zulily/zulily-2026-09-02T171852.png
 security:
 - kind: authentication
   name: Zulily Authentication
   slug: zulily-authentication
   summary_line: oauth2/openIdConnect · 1 scheme
+skill_count: 1
+skills:
+- name: Shop Zulily as an agent (UCP)
+  slug: zulily-agent-shopping
 slug: zulily
 tags:
 - Company

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Bearer-token cloud service backing the Deltakit SDK. Exposes the compute-heavy and proprietary parts of the QEC workflow that do not run locally: leakage noise generation and simulation, decoding with'
@@ -107,62 +109,62 @@ common:
   type: SourceCode
   url: https://github.com/Deltakit/deltakit
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/riverlane/refs/heads/main/changelog/riverlane-changelog.yml
+  href: https://artifacts.apis.io/riverlane/changelog/riverlane-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/riverlane-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/riverlane/refs/heads/main/packages/riverlane-packages.yml
+  href: https://artifacts.apis.io/riverlane/packages/riverlane-packages.yml
   title: ''
   type: Packages
   url: packages/riverlane-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/riverlane/refs/heads/main/packages/riverlane-packages.yml
+  href: https://artifacts.apis.io/riverlane/packages/riverlane-packages.yml
   title: ''
   type: SDKs
   url: packages/riverlane-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riverlane/refs/heads/main/authentication/riverlane-authentication.yml
+  href: https://artifacts.apis.io/riverlane/authentication/riverlane-authentication.yml
   title: ''
   type: Authentication
   url: authentication/riverlane-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riverlane/refs/heads/main/conventions/riverlane-conventions.yml
+  href: https://artifacts.apis.io/riverlane/conventions/riverlane-conventions.yml
   title: ''
   type: Conventions
   url: conventions/riverlane-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riverlane/refs/heads/main/errors/riverlane-error-codes.yml
+  href: https://artifacts.apis.io/riverlane/errors/riverlane-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/riverlane-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riverlane/refs/heads/main/lifecycle/riverlane-lifecycle.yml
+  href: https://artifacts.apis.io/riverlane/lifecycle/riverlane-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/riverlane-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riverlane/refs/heads/main/conformance/riverlane-conformance.yml
+  href: https://artifacts.apis.io/riverlane/conformance/riverlane-conformance.yml
   title: ''
   type: Conformance
   url: conformance/riverlane-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riverlane/refs/heads/main/data-model/riverlane-data-model.yml
+  href: https://artifacts.apis.io/riverlane/data-model/riverlane-data-model.yml
   title: ''
   type: DataModel
   url: data-model/riverlane-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riverlane/refs/heads/main/components/riverlane-components.yml
+  href: https://artifacts.apis.io/riverlane/components/riverlane-components.yml
   title: ''
   type: Components
   url: components/riverlane-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/riverlane/refs/heads/main/llms/riverlane-llms.txt
+  href: https://artifacts.apis.io/riverlane/llms/riverlane-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/riverlane-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riverlane/refs/heads/main/security/riverlane-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/riverlane/security/riverlane-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/riverlane-vulnerability-disclosure.yml
@@ -171,7 +173,7 @@ common:
   type: Security
   url: https://github.com/Deltakit/deltakit/blob/main/docs/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riverlane/refs/heads/main/security/riverlane-domain-security.yml
+  href: https://artifacts.apis.io/riverlane/security/riverlane-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/riverlane-domain-security.yml
@@ -192,12 +194,12 @@ overview: 'Riverlane is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Riverlane''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 24 more developer resources.'
-random_paper: 0
+random_paper: 8
 score:
   band: thin
-  composite: 33.4
+  composite: 30.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -208,13 +210,10 @@ score:
     access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 61.9
+    developer_ergonomics: 64.3
     discoverability: 66.1
-    operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 33.4
+    operational_transparency: 31.6
+  previous_composite: 30.6
   provenance:
     conformance: derived
   regulatory:
@@ -223,14 +222,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/riverlane/refs/heads/main/screenshots/riverlane-2026-09-02T153925.png
+screenshot: https://apis.io/screenshots/riverlane/riverlane-2026-09-02T153925.png
 security:
 - kind: authentication
   name: Riverlane Authentication

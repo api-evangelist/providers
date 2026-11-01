@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST API for managing Landbot resources including channels, customers, customer fields, message hooks, webhooks, and WhatsApp templates. Token-based authentication using an agent token from account se
@@ -45,7 +47,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/landbot/refs/heads/main/security/landbot-domain-security.yml
+  href: https://artifacts.apis.io/landbot/security/landbot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/landbot-domain-security.yml
@@ -78,27 +80,27 @@ common:
   type: X
   url: https://twitter.com/landbot_io
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/landbot/refs/heads/main/plans/landbot-plans-pricing.yml
+  href: https://artifacts.apis.io/landbot/plans/landbot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/landbot-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/landbot/refs/heads/main/rate-limits/landbot-rate-limits.yml
+  href: https://artifacts.apis.io/landbot/rate-limits/landbot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/landbot-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/landbot/refs/heads/main/finops/landbot-finops.yml
+  href: https://artifacts.apis.io/landbot/finops/landbot-finops.yml
   title: ''
   type: FinOps
   url: finops/landbot-finops.yml
 - group: company
-  href: https://raw.githubusercontent.com/api-evangelist/landbot/refs/heads/main/blogs/blogs.json
+  href: https://artifacts.apis.io/landbot/blogs/blogs.json
   title: ''
   type: BlogPosts
   url: blogs/blogs.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landbot/refs/heads/main/json-ld/landbot-context.jsonld
+  href: https://artifacts.apis.io/landbot/json-ld/landbot-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/landbot-context.jsonld
@@ -134,7 +136,7 @@ plans:
 - name: Landbot Plans Pricing
   plan_count: 6
   slug: landbot-plans-pricing
-random_paper: 14
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Landbot Rate Limits
@@ -149,7 +151,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
@@ -157,21 +159,21 @@ score:
     developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 28.4
+  previous_composite: 22.3
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/landbot/refs/heads/main/screenshots/landbot-2026-06-20T184258.png
+screenshot: https://apis.io/screenshots/landbot/landbot-2026-06-20T184258.png
 security:
 - kind: domain-security
   name: Landbot Domain Security

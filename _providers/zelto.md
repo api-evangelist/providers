@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.6
-  scored_at: '2026-10-17'
+  score: 47.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -89,35 +91,40 @@ apis:
   description: Human review state for conversations.
   name: Zelto Reviews API
   slug: zelto-reviews-api
-artifact_total: 23
+artifact_total: 27
 common:
+- group: other
+  href: https://artifacts.apis.io/zelto/capabilities/zelto-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zelto-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/agentic-access/zelto-agentic-access.yml
+  href: https://artifacts.apis.io/zelto/agentic-access/zelto-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zelto-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/rules/zelto-rules.yml
+  href: https://artifacts.apis.io/zelto/rules/zelto-rules.yml
   title: ''
   type: Spectral
   url: rules/zelto-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/json-ld/zelto-context.jsonld
+  href: https://artifacts.apis.io/zelto/json-ld/zelto-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/zelto-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/vocabulary/zelto-vocabulary.yml
+  href: https://artifacts.apis.io/zelto/vocabulary/zelto-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/zelto-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zelto/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/data-model/zelto-data-model.yml
+  href: https://artifacts.apis.io/zelto/data-model/zelto-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zelto-data-model.yml
@@ -126,47 +133,47 @@ common:
   type: Compliance
   url: https://trust.inc/zelto
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/errors/zelto-problem-types.yml
+  href: https://artifacts.apis.io/zelto/errors/zelto-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zelto-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/conformance/zelto-conformance.yml
+  href: https://artifacts.apis.io/zelto/conformance/zelto-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zelto-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/llms/zelto-llms.txt
+  href: https://artifacts.apis.io/zelto/llms/zelto-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zelto-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/a2a/zelto-a2a.yml
+  href: https://artifacts.apis.io/zelto/a2a/zelto-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/zelto-a2a.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/well-known/zelto-dashboard-security.txt
+  href: https://artifacts.apis.io/zelto/well-known/zelto-dashboard-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/zelto-dashboard-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/well-known/zelto-api-security.txt
+  href: https://artifacts.apis.io/zelto/well-known/zelto-api-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/zelto-api-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/well-known/zelto-well-known.yml
+  href: https://artifacts.apis.io/zelto/well-known/zelto-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zelto-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/hosts/zelto-hosts.yml
+  href: https://artifacts.apis.io/zelto/hosts/zelto-hosts.yml
   title: ''
   type: Hosts
   url: hosts/zelto-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/vendors/zelto-vendors.yml
+  href: https://artifacts.apis.io/zelto/vendors/zelto-vendors.yml
   title: ''
   type: Vendors
   url: vendors/zelto-vendors.yml
@@ -179,17 +186,17 @@ common:
   type: GettingStarted
   url: https://docs.zelto.ai/docs/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/authentication/zelto-authentication.yml
+  href: https://artifacts.apis.io/zelto/authentication/zelto-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zelto-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/security/zelto-trust-center.yml
+  href: https://artifacts.apis.io/zelto/security/zelto-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/zelto-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/security/zelto-domain-security.yml
+  href: https://artifacts.apis.io/zelto/security/zelto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zelto-domain-security.yml
@@ -262,14 +269,14 @@ modified: '2026-10-15'
 name: Zelto
 nav: Providers
 network: true
-overview: 'Zelto publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Action checks API, Agents API, Buckets API, and 8 more. Tagged areas include Company, VoiceAI, QA, Production, and Analytics.
+overview: 'Zelto publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Action checks API, Agents API, Buckets API, and 8 more. Tagged areas include Company, Voice AI, QA, Production, and Analytics.
 
 
   The Zelto catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Zelto''s developer surface includes signup flow, getting-started guide, authentication, documentation, API reference, and 21 more developer resources.'
-random_paper: 8
+  Zelto''s developer surface includes signup flow, getting-started guide, authentication, documentation, API reference, and 22 more developer resources.'
+random_paper: 6
 rules:
 - authorship: generated
   effective_rule_count: 56
@@ -285,21 +292,23 @@ rules:
   slug: zelto-rules
 score:
   band: developing
-  composite: 53.8
+  composite: 47.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.5
   facets:
     access_clarity: 50.0
     contract_governance: 35.6
-    contract_quality: 62.5
+    contract_quality: 61.2
     developer_ergonomics: 42.3
-    discoverability: 73.2
-    operational_transparency: 0.0
+    discoverability: 66.1
+    operational_transparency: 10.5
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -311,15 +320,17 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 66.7
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Zelto Authentication
@@ -333,10 +344,20 @@ security:
   name: Zelto Trust Center
   slug: zelto-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
+skill_count: 4
+skills:
+- name: zelto-create-finding-with-conversation
+  slug: zelto-create-finding-with-conversation
+- name: zelto-fetch-conversation-transcript
+  slug: zelto-fetch-conversation-transcript
+- name: zelto-launch-experiment
+  slug: zelto-launch-experiment
+- name: zelto-list-and-get-agent
+  slug: zelto-list-and-get-agent
 slug: zelto
 tags:
 - Company
-- VoiceAI
+- Voice AI
 - QA
 - Production
 - Analytics

@@ -25,21 +25,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.7
-  scored_at: '2026-10-17'
+  score: 44.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +49,7 @@ agentic_access:
   operation_count: 5
   slug: datarails-agentic-access
   summary_line: 5 operations
-api_count: 2
+api_count: 1
 apis:
 - description: REST file-upload endpoint used to push a CSV or Excel file into a Datarails Filebox. Authenticated with HTTP Basic using a base64-encoded Datarails sync user (which must not have MFA enabled). The tar
   name: Datarails Data Gateway Service (DGS)
@@ -72,7 +74,7 @@ apis:
   description: The Oauth API from Datarails — 1 operation(s) for oauth.
   name: Datarails OAUTH API
   slug: datarails-oauth-api
-artifact_total: 14
+artifact_total: 34
 collections:
 - collection_type: open
   name: Datarails Finance OS MCP Server
@@ -83,12 +85,12 @@ common:
   type: BlogRSS
   url: https://www.datarails.com/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/mcp/datarails-mcp.yml
+  href: https://artifacts.apis.io/datarails/mcp/datarails-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/datarails-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/overlays/datarails-financeos-mcp-overlay.yaml
+  href: https://artifacts.apis.io/datarails/overlays/datarails-financeos-mcp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/datarails-financeos-mcp-overlay.yaml
@@ -161,97 +163,97 @@ common:
   type: Compliance
   url: https://trust.datarails.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/security/datarails-trust-center.yml
+  href: https://artifacts.apis.io/datarails/security/datarails-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/datarails-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/security/datarails-domain-security.yml
+  href: https://artifacts.apis.io/datarails/security/datarails-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datarails-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/authentication/datarails-authentication.yml
+  href: https://artifacts.apis.io/datarails/authentication/datarails-authentication.yml
   title: ''
   type: Authentication
   url: authentication/datarails-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/scopes/datarails-scopes.yml
+  href: https://artifacts.apis.io/datarails/scopes/datarails-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/datarails-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/well-known/datarails-well-known.yml
+  href: https://artifacts.apis.io/datarails/well-known/datarails-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/datarails-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/llms/datarails-llms.txt
+  href: https://artifacts.apis.io/datarails/llms/datarails-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/datarails-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/datarails/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/agentic-access/datarails-agentic-access.yml
+  href: https://artifacts.apis.io/datarails/agentic-access/datarails-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/datarails-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/conventions/datarails-conventions.yml
+  href: https://artifacts.apis.io/datarails/conventions/datarails-conventions.yml
   title: ''
   type: Conventions
   url: conventions/datarails-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/conformance/datarails-conformance.yml
+  href: https://artifacts.apis.io/datarails/conformance/datarails-conformance.yml
   title: ''
   type: Conformance
   url: conformance/datarails-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/errors/datarails-problem-types.yml
+  href: https://artifacts.apis.io/datarails/errors/datarails-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/datarails-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/lifecycle/datarails-lifecycle.yml
+  href: https://artifacts.apis.io/datarails/lifecycle/datarails-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/datarails-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/changelog/datarails-changelog.yml
+  href: https://artifacts.apis.io/datarails/changelog/datarails-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/datarails-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/data-model/datarails-data-model.yml
+  href: https://artifacts.apis.io/datarails/data-model/datarails-data-model.yml
   title: ''
   type: DataModel
   url: data-model/datarails-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/packages/datarails-packages.yml
+  href: https://artifacts.apis.io/datarails/packages/datarails-packages.yml
   title: ''
   type: Packages
   url: packages/datarails-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/components/datarails-components.yml
+  href: https://artifacts.apis.io/datarails/components/datarails-components.yml
   title: ''
   type: Components
   url: components/datarails-components.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/rate-limits/datarails-rate-limits.yml
+  href: https://artifacts.apis.io/datarails/rate-limits/datarails-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/datarails-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/sandbox/datarails-sandbox.yml
+  href: https://artifacts.apis.io/datarails/sandbox/datarails-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/datarails-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/plans/datarails-plans.yml
+  href: https://artifacts.apis.io/datarails/plans/datarails-plans.yml
   title: ''
   type: Plans
   url: plans/datarails-plans.yml
@@ -262,6 +264,14 @@ common:
 created: '2026-08-01'
 description: 'Datarails is an Excel-native financial planning and analysis (FP&A) platform for the office of the CFO, marketed as FinanceOS. It consolidates data from ERP, CRM, HRIS, billing and operational systems into a single finance data model, then lets finance teams budget, forecast, consolidate, report and build dashboards while continuing to work in Excel through the Datarails Flex add-in. Its API surface is deliberately narrow and unusually agent-first: the primary programmatic interface is a hosted Model Context Protocol server at mcp.datarails.com, secured with OAuth 2.1 and PKCE, exposing roughly two dozen read-only tools for discovering data models, profiling fields, running filtered queries and asynchronous aggregations, and extracting validated financials into Excel. Datarails also ships a first-party Claude Code plugin carrying nineteen published Agent Skills, plus connectors for ChatGPT, Microsoft 365 Copilot and Lovable. The only documented conventional REST operation is
   the Data Gateway Service file-upload endpoint used to push CSV and Excel files into a Filebox.'
+finops:
+- has_sources: true
+  method: derived
+  name: Datarails Finops
+  primary_unit: ''
+  service_category: ''
+  slug: datarails-finops
+  template: true
 image: https://www.datarails.com/wp-content/uploads/2024/10/datarails-logo-1.png
 layout: provider
 mcp_servers:
@@ -280,7 +290,7 @@ plans:
 - name: Datarails Plans
   plan_count: 3
   slug: datarails-plans
-random_paper: 3
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Datarails Rate Limits
@@ -292,9 +302,9 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 55.3
+  composite: 59.0
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -302,16 +312,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 85.5
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 35.2
     developer_ergonomics: 61.9
-    discoverability: 75.0
-    operational_transparency: 55.3
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 55.3
+    discoverability: 65.0
+    operational_transparency: 57.9
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -328,14 +335,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/screenshots/datarails-2026-08-07T164205.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/datarails/datarails-2026-08-07T164205.png
 security:
 - kind: authentication
   name: Datarails Authentication
@@ -349,6 +356,46 @@ security:
   name: Datarails Trust Center
   slug: datarails-trust-center
   summary_line: SOC 2 Type II, ISO 27001, GDPR
+skill_count: 19
+skills:
+- name: dr-anomalies-report
+  slug: datarails-anomalies-report
+- name: dr-anomalies
+  slug: datarails-anomalies
+- name: dr-audit
+  slug: datarails-audit
+- name: dr-dashboard
+  slug: datarails-dashboard
+- name: dr-departments
+  slug: datarails-departments
+- name: dr-drilldown
+  slug: datarails-drilldown
+- name: dr-expense-analysis
+  slug: datarails-expense-analysis
+- name: dr-extract
+  slug: datarails-extract
+- name: dr-financial-summary
+  slug: datarails-financial-summary
+- name: dr-forecast-variance
+  slug: datarails-forecast-variance
+- name: dr-get-formula
+  slug: datarails-get-formula
+- name: dr-insights
+  slug: datarails-insights
+- name: dr-intelligence
+  slug: datarails-intelligence
+- name: dr-profile
+  slug: datarails-profile
+- name: dr-query
+  slug: datarails-query
+- name: dr-reconcile
+  slug: datarails-reconciliation
+- name: dr-revenue-trends
+  slug: datarails-revenue-trends
+- name: dr-tables
+  slug: datarails-tables
+- name: dr-test
+  slug: datarails-test
 slug: datarails
 tags:
 - Company

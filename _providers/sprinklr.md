@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: RESTful APIs for integrating with the Sprinklr Unified-CXM platform, covering social listening, publishing, reporting, user provisioning, digital asset management, and webhook subscriptions across 30+
@@ -50,17 +52,17 @@ common:
   type: Pricing
   url: https://www.sprinklr.com/demo/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/security/sprinklr-trust-center.yml
+  href: https://artifacts.apis.io/sprinklr/security/sprinklr-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sprinklr-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/security/sprinklr-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sprinklr/security/sprinklr-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sprinklr-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/security/sprinklr-domain-security.yml
+  href: https://artifacts.apis.io/sprinklr/security/sprinklr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sprinklr-domain-security.yml
@@ -137,87 +139,87 @@ common:
   type: Compliance
   url: https://trust.sprinklr.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/well-known/sprinklr-well-known.yml
+  href: https://artifacts.apis.io/sprinklr/well-known/sprinklr-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sprinklr-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/well-known/sprinklr-security.txt
+  href: https://artifacts.apis.io/sprinklr/well-known/sprinklr-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sprinklr-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/llms/sprinklr-llms.txt
+  href: https://artifacts.apis.io/sprinklr/llms/sprinklr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sprinklr-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/packages/sprinklr-packages.yml
+  href: https://artifacts.apis.io/sprinklr/packages/sprinklr-packages.yml
   title: ''
   type: Packages
   url: packages/sprinklr-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/packages/sprinklr-packages.yml
+  href: https://artifacts.apis.io/sprinklr/packages/sprinklr-packages.yml
   title: ''
   type: SDKs
   url: packages/sprinklr-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/cli/sprinklr-cli.yml
+  href: https://artifacts.apis.io/sprinklr/cli/sprinklr-cli.yml
   title: ''
   type: CLI
   url: cli/sprinklr-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/mcp/sprinklr-mcp.yml
+  href: https://artifacts.apis.io/sprinklr/mcp/sprinklr-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sprinklr-mcp.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/changelog/sprinklr-changelog.yml
+  href: https://artifacts.apis.io/sprinklr/changelog/sprinklr-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sprinklr-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/errors/sprinklr-problem-types.yml
+  href: https://artifacts.apis.io/sprinklr/errors/sprinklr-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sprinklr-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/conventions/sprinklr-conventions.yml
+  href: https://artifacts.apis.io/sprinklr/conventions/sprinklr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sprinklr-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/authentication/sprinklr-authentication.yml
+  href: https://artifacts.apis.io/sprinklr/authentication/sprinklr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sprinklr-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/lifecycle/sprinklr-lifecycle.yml
+  href: https://artifacts.apis.io/sprinklr/lifecycle/sprinklr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sprinklr-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/conformance/sprinklr-conformance.yml
+  href: https://artifacts.apis.io/sprinklr/conformance/sprinklr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sprinklr-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/asyncapi/sprinklr-webhooks.yml
+  href: https://artifacts.apis.io/sprinklr/asyncapi/sprinklr-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sprinklr-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/sandbox/sprinklr-sandbox.yml
+  href: https://artifacts.apis.io/sprinklr/sandbox/sprinklr-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sprinklr-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/components/sprinklr-components.yml
+  href: https://artifacts.apis.io/sprinklr/components/sprinklr-components.yml
   title: ''
   type: Components
   url: components/sprinklr-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/data-model/sprinklr-data-model.yml
+  href: https://artifacts.apis.io/sprinklr/data-model/sprinklr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sprinklr-data-model.yml
@@ -237,7 +239,7 @@ created: '2026-06-13'
 description: Sprinklr is a unified customer experience management (Unified-CXM) platform offering REST APIs for social media management, customer service, marketing, and advertising across 30+ digital channels. APIs support listening, publishing, reporting, user provisioning, digital asset management, and webhook integrations, all secured via OAuth 2.0 and accessible to enterprise license holders.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Sprinklr Finops
   primary_unit: ''
   service_category: ''
@@ -262,32 +264,32 @@ overview: 'Sprinklr is listed with 1 API on the [APIs.io](https://apis.io/) netw
   Sprinklr''s developer surface includes pricing, documentation, getting-started guide, engineering blog, API reference, signup flow, support, and 35 more developer resources.'
 plans:
 - name: Sprinklr Plans Pricing
-  plan_count: 5
+  plan_count: 0
   slug: sprinklr-plans-pricing
-random_paper: 5
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Sprinklr Rate Limits
   slug: sprinklr-rate-limits
 score:
-  band: developing
-  composite: 50.1
+  band: strong
+  composite: 60.1
   coverage:
     artifact_dirs: 24
-    catalog_earned: 57.0
-    catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -6.4
   facets:
-    access_clarity: 78.9
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 28.6
-    discoverability: 71.7
-    operational_transparency: 50.0
-  previous_composite: 49.5
+    developer_ergonomics: 83.3
+    discoverability: 65.0
+    operational_transparency: 76.3
+  previous_composite: 66.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -297,14 +299,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/screenshots/sprinklr-2026-06-20T194419.png
+screenshot: https://apis.io/screenshots/sprinklr/sprinklr-2026-06-20T194419.png
 security:
 - kind: authentication
   name: Sprinklr Authentication
@@ -329,7 +331,7 @@ tags:
 - Customer Service
 - Marketing
 - Advertising
-- Listening
+- Social Listening
 - Publishing
 - Reporting
 - Unified CXM

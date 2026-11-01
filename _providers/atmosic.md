@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,49 +26,51 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.8
-  scored_at: '2026-10-17'
+  score: 2.9
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/atmosic/refs/heads/main/security/atmosic-domain-security.yml
+  href: https://artifacts.apis.io/atmosic/security/atmosic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/atmosic-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/atmosic/refs/heads/main/packages/atmosic-packages.yml
+  href: https://artifacts.apis.io/atmosic/packages/atmosic-packages.yml
   title: ''
   type: Packages
   url: packages/atmosic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/atmosic/refs/heads/main/packages/atmosic-packages.yml
+  href: https://artifacts.apis.io/atmosic/packages/atmosic-packages.yml
   title: ''
   type: SDKs
   url: packages/atmosic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/atmosic/refs/heads/main/cli/atmosic-cli.yml
+  href: https://artifacts.apis.io/atmosic/cli/atmosic-cli.yml
   title: ''
   type: CLI
   url: cli/atmosic-cli.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/atmosic/refs/heads/main/grpc/atmosic-atm-isp.proto
+  href: https://artifacts.apis.io/atmosic/grpc/atmosic-atm-isp.proto
   title: ''
   type: Protobuf
   url: grpc/atmosic-atm-isp.proto
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/atmosic/refs/heads/main/changelog/atmosic-changelog.yml
+  href: https://artifacts.apis.io/atmosic/changelog/atmosic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/atmosic-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atmosic/refs/heads/main/lifecycle/atmosic-lifecycle.yml
+  href: https://artifacts.apis.io/atmosic/lifecycle/atmosic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/atmosic-lifecycle.yml
@@ -77,22 +79,22 @@ common:
   type: Deprecation
   url: https://github.com/Atmosic/openair/releases
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atmosic/refs/heads/main/conformance/atmosic-conformance.yml
+  href: https://artifacts.apis.io/atmosic/conformance/atmosic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/atmosic-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atmosic/refs/heads/main/errors/atmosic-error-codes.yml
+  href: https://artifacts.apis.io/atmosic/errors/atmosic-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/atmosic-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atmosic/refs/heads/main/conventions/atmosic-conventions.yml
+  href: https://artifacts.apis.io/atmosic/conventions/atmosic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/atmosic-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/atmosic/refs/heads/main/llms/atmosic-llms.txt
+  href: https://artifacts.apis.io/atmosic/llms/atmosic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/atmosic-llms.txt
@@ -157,10 +159,10 @@ overview: 'Atmosic is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Atmosic''s developer surface includes CLI, changelog, documentation, getting-started guide, API reference, support, engineering blog, and 17 more developer resources.'
-random_paper: 4
+random_paper: 8
 score:
   band: thin
-  composite: 34.9
+  composite: 29.9
   coverage:
     artifact_dirs: 14
     catalog_earned: 27.0
@@ -170,12 +172,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 24.0
+    contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 55.4
-    operational_transparency: 26.3
+    discoverability: 48.2
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -183,7 +185,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 34.9
+  previous_composite: 29.9
   provenance:
     conformance: first-party
   regulatory:
@@ -192,14 +194,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 15.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/atmosic/refs/heads/main/screenshots/atmosic-2026-08-07T161852.png
+screenshot: https://apis.io/screenshots/atmosic/atmosic-2026-08-07T161852.png
 security:
 - kind: domain-security
   name: Atmosic Domain Security

@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 62.4
-  scored_at: '2026-10-17'
+  score: 58.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: FLORA's hosted remote Model Context Protocol server. Streamable HTTP at https://agents.flora.ai/mcp, authenticated with OAuth 2.1 + PKCE (RFC 8414 authorization-server metadata and RFC 9728 protected-
@@ -202,7 +204,7 @@ apis:
     question: Which workspaces does my API key have access to?
   phrasing_ops: 1
   slug: flora-fauna-workspaces-api
-artifact_total: 21
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Flora Fauna Webhooks
@@ -212,98 +214,103 @@ collections:
   name: Flora.ai API
   slug: open-flora-fauna-flora-api
 common:
+- group: other
+  href: https://artifacts.apis.io/flora-fauna/capabilities/flora-fauna-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/flora-fauna-capability-edges.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/_original/flora-fauna-flora-api-openapi.yml
+  href: https://artifacts.apis.io/flora-fauna/openapi/_original/flora-fauna-flora-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/flora-fauna-flora-api-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/overlays/flora-fauna-flora-api-overlay.yaml
+  href: https://artifacts.apis.io/flora-fauna/overlays/flora-fauna-flora-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/flora-fauna-flora-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/mcp/flora-fauna-mcp.yml
+  href: https://artifacts.apis.io/flora-fauna/mcp/flora-fauna-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/flora-fauna-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/mcp/flora-fauna-tool-crosswalk.yml
+  href: https://artifacts.apis.io/flora-fauna/mcp/flora-fauna-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/flora-fauna-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/flora-fauna/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/llms/flora-fauna-llms.txt
+  href: https://artifacts.apis.io/flora-fauna/llms/flora-fauna-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flora-fauna-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/packages/flora-fauna-packages.yml
+  href: https://artifacts.apis.io/flora-fauna/packages/flora-fauna-packages.yml
   title: ''
   type: Packages
   url: packages/flora-fauna-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/packages/flora-fauna-packages.yml
+  href: https://artifacts.apis.io/flora-fauna/packages/flora-fauna-packages.yml
   title: ''
   type: SDKs
   url: packages/flora-fauna-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/cli/flora-fauna-cli.yml
+  href: https://artifacts.apis.io/flora-fauna/cli/flora-fauna-cli.yml
   title: ''
   type: CLI
   url: cli/flora-fauna-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/authentication/flora-fauna-authentication.yml
+  href: https://artifacts.apis.io/flora-fauna/authentication/flora-fauna-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flora-fauna-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/scopes/flora-fauna-scopes.yml
+  href: https://artifacts.apis.io/flora-fauna/scopes/flora-fauna-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/flora-fauna-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/conventions/flora-fauna-conventions.yml
+  href: https://artifacts.apis.io/flora-fauna/conventions/flora-fauna-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flora-fauna-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/conventions/flora-fauna-conventions.yml
+  href: https://artifacts.apis.io/flora-fauna/conventions/flora-fauna-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/flora-fauna-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/errors/flora-fauna-problem-types.yml
+  href: https://artifacts.apis.io/flora-fauna/errors/flora-fauna-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/flora-fauna-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/data-model/flora-fauna-data-model.yml
+  href: https://artifacts.apis.io/flora-fauna/data-model/flora-fauna-data-model.yml
   title: ''
   type: DataModel
   url: data-model/flora-fauna-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/rate-limits/flora-fauna-rate-limits.yml
+  href: https://artifacts.apis.io/flora-fauna/rate-limits/flora-fauna-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/flora-fauna-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/asyncapi/flora-fauna-webhooks.yml
+  href: https://artifacts.apis.io/flora-fauna/asyncapi/flora-fauna-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/flora-fauna-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/lifecycle/flora-fauna-lifecycle.yml
+  href: https://artifacts.apis.io/flora-fauna/lifecycle/flora-fauna-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flora-fauna-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/changelog/flora-fauna-changelog.yml
+  href: https://artifacts.apis.io/flora-fauna/changelog/flora-fauna-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/flora-fauna-changelog.yml
@@ -312,32 +319,32 @@ common:
   type: StatusPage
   url: https://status.flora.ai
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/conformance/flora-fauna-conformance.yml
+  href: https://artifacts.apis.io/flora-fauna/conformance/flora-fauna-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flora-fauna-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/security/flora-fauna-trust-center.yml
+  href: https://artifacts.apis.io/flora-fauna/security/flora-fauna-trust-center.yml
   title: ''
   type: Compliance
   url: security/flora-fauna-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/well-known/flora-fauna-well-known.yml
+  href: https://artifacts.apis.io/flora-fauna/well-known/flora-fauna-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/flora-fauna-well-known.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/plans/flora-fauna-plans-pricing.yml
+  href: https://artifacts.apis.io/flora-fauna/plans/flora-fauna-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/flora-fauna-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/security/flora-fauna-trust-center.yml
+  href: https://artifacts.apis.io/flora-fauna/security/flora-fauna-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/flora-fauna-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/security/flora-fauna-domain-security.yml
+  href: https://artifacts.apis.io/flora-fauna/security/flora-fauna-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flora-fauna-domain-security.yml
@@ -432,6 +439,14 @@ common:
 created: '2026-05-25'
 description: 'FLORA is a Brooklyn, New York-based applied AI / HCI company building a browser-based "infinite canvas" creative workspace for professional creators. Founded in 2024 by Weber Wong out of NYU''s Interactive Telecommunications Program (ITP), FLORA unifies 50+ third-party text, image, and video AI models inside a single node-based visual workspace where designers, filmmakers, photographers, and creative agencies wire prompts, references, characters, and outputs into reusable generative workflows called Techniques. The platform integrates leading image models (FLUX.2, FLUX Kontext, Stable Diffusion 3.5, Nano Banana, Recraft, Seedream, Minimax Hailuo) and video models (Veo 3, Sora 2, Runway Gen-4 Turbo / Gen-3 Alpha / Act-Two, Pika, Kling, Luma Ray 2, Seedance, Marey) alongside reasoning models such as Gemini 3 Pro and GPT-5.4, and ships a creative agent named FAUNA for ideation, iteration, and workflow scaffolding. FLORA is used at agencies and studios including Pentagram, Milk,
   and MSCHF; the company raised a $6.5M seed led by Mike Volpi at Hanabi Capital with Menlo Ventures, a16z Games Speedrun, Long Journey Ventures, Company Ventures, Alumni Ventures, Embedding VC, and angels including Justin Kan (Twitch) and Gabe Whaley (MSCHF), and operates in-person from the Domino Refinery in Williamsburg. Beyond the canvas FLORA now ships a public developer surface: the Flora.ai REST API (OpenAPI 3.1.1, base https://app.flora.ai/api/v1) for running Techniques, one-off generations, assets, projects, canvas patches and actions programmatically; a hosted remote MCP server at https://agents.flora.ai/mcp exposing two tools (search_docs, execute) over OAuth 2.1 + PKCE; first-party TypeScript and Go SDKs and a Go CLI; signed HMAC-SHA256 run webhooks; idempotency keys; and a Stainless-generated developer portal at developer.flora.ai. API and MCP access begin on the paid Starter plan.'
+finops:
+- has_sources: true
+  method: derived
+  name: Flora Fauna Finops
+  primary_unit: seat
+  service_category: ''
+  slug: flora-fauna-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flora-fauna.png
 layout: provider
 mcp_servers:
@@ -448,12 +463,15 @@ overview: 'FLORA publishes 12 API contracts indexed on the [APIs.io](https://api
   The FLORA catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  FLORA''s developer surface includes CLI, authentication, changelog, API reference, getting-started guide, pricing, signup flow, and 41 more developer resources.'
+  FLORA''s developer surface includes CLI, authentication, changelog, API reference, getting-started guide, pricing, signup flow, and 42 more developer resources.'
 plans:
 - name: Flora Fauna Plans Pricing
   plan_count: 5
   slug: flora-fauna-plans-pricing
-random_paper: 0
+- name: Flora Fauna Price Estimates
+  plan_count: 0
+  slug: flora-fauna-price-estimates
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Flora Fauna Rate Limits
@@ -465,22 +483,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 67.3
+  composite: 66.6
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 49.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 58.8
-    developer_ergonomics: 70.8
-    discoverability: 75.0
-    operational_transparency: 42.1
+    developer_ergonomics: 73.2
+    discoverability: 65.0
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -488,7 +506,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 67.6
+  previous_composite: 65.0
   provenance:
     conformance: first-party
     contracts:
@@ -508,13 +526,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/screenshots/flora-fauna-2026-06-20T181332.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/flora-fauna/flora-fauna-2026-06-20T181332.png
 security:
 - kind: authentication
   name: Flora Fauna Authentication
@@ -528,6 +547,16 @@ security:
   name: Flora Fauna Trust Center
   slug: flora-fauna-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 4
+skills:
+- name: Generate directly from a model, without a saved Technique
+  slug: flora-fauna-generate-without-a-technique
+- name: Read and patch a FLORA project canvas
+  slug: flora-fauna-patch-a-project-canvas
+- name: Run a FLORA Technique and collect its outputs
+  slug: flora-fauna-run-a-technique
+- name: Upload a local file and use it as a Technique input
+  slug: flora-fauna-upload-and-attach-an-asset
 slug: flora-fauna
 tags:
 - Creative AI

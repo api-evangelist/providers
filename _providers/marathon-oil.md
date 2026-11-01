@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/conocophillips/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/marathon-oil/refs/heads/main/security/marathon-oil-domain-security.yml
+  href: https://artifacts.apis.io/marathon-oil/security/marathon-oil-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/marathon-oil-domain-security.yml
@@ -86,10 +88,10 @@ press:
 - date: ''
   title: Evercore's Post
   url: https://www.linkedin.com/posts/evercore-inc_conocophillips-to-acquire-marathon-oil-corporation-activity-7202023515192000512-EiVJ
-random_paper: 17
+random_paper: 3
 score:
   band: minimal
-  composite: 3.9
+  composite: 4.3
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -104,22 +106,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 3.9
+    operational_transparency: 5.3
+  previous_composite: 4.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/marathon-oil/refs/heads/main/screenshots/marathon-oil-2026-06-20T184939.png
+screenshot: https://apis.io/screenshots/marathon-oil/marathon-oil-2026-06-20T184939.png
 security:
 - kind: domain-security
   name: Marathon Oil Domain Security

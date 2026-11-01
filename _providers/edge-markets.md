@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -49,7 +51,7 @@ common:
   type: PrivacyPolicy
   url: https://edgemarkets.io/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/edge-markets/refs/heads/main/security/edge-markets-domain-security.yml
+  href: https://artifacts.apis.io/edge-markets/security/edge-markets-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/edge-markets-domain-security.yml
@@ -65,7 +67,7 @@ overview: 'Edge Markets is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Edge Markets'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 21
+random_paper: 9
 score:
   band: minimal
   composite: 5.8
@@ -91,14 +93,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 8.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/edge-markets/refs/heads/main/screenshots/edge-markets-2026-07-25T212824.png
+screenshot: https://apis.io/screenshots/edge-markets/edge-markets-2026-07-25T212824.png
 security:
 - kind: domain-security
   name: Edge Markets Domain Security

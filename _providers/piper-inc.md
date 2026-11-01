@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Agent-driven commerce for the Piper storefront over the Universal Commerce Protocol (UCP), exposed as an MCP endpoint on the store's Shopify platform (store id 9256256). Catalog search/lookup, cart, c
@@ -66,37 +68,37 @@ common:
   type: PrivacyPolicy
   url: https://www.playpiper.in/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/piper-inc/refs/heads/main/mcp/piper-inc-mcp.yml
+  href: https://artifacts.apis.io/piper-inc/mcp/piper-inc-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/piper-inc-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/piper-inc/refs/heads/main/authentication/piper-inc-authentication.yml
+  href: https://artifacts.apis.io/piper-inc/authentication/piper-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/piper-inc-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/piper-inc/refs/heads/main/scopes/piper-inc-scopes.yml
+  href: https://artifacts.apis.io/piper-inc/scopes/piper-inc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/piper-inc-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/piper-inc/refs/heads/main/well-known/piper-inc-well-known.yml
+  href: https://artifacts.apis.io/piper-inc/well-known/piper-inc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/piper-inc-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/piper-inc/refs/heads/main/llms/piper-inc-llms.txt
+  href: https://artifacts.apis.io/piper-inc/llms/piper-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/piper-inc-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/piper-inc/refs/heads/main/conformance/piper-inc-conformance.yml
+  href: https://artifacts.apis.io/piper-inc/conformance/piper-inc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/piper-inc-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/piper-inc/refs/heads/main/security/piper-inc-domain-security.yml
+  href: https://artifacts.apis.io/piper-inc/security/piper-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/piper-inc-domain-security.yml
@@ -116,7 +118,7 @@ overview: 'Piper is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Piper''s developer surface includes engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 1
+random_paper: 15
 scopes:
 - name: Piper Inc Scopes
   scope_count: 4
@@ -124,7 +126,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.1
+  composite: 19.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -138,9 +140,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 20.1
+  previous_composite: 19.1
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -150,14 +152,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/piper-inc/refs/heads/main/screenshots/piper-inc-2026-09-02T151319.png
+screenshot: https://apis.io/screenshots/piper-inc/piper-inc-2026-09-02T151319.png
 security:
 - kind: authentication
   name: Piper Inc Authentication

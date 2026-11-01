@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,9 +83,6 @@ apis:
 artifact_total: 18
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-racq-bank-banking-account-balances-api
 - collection_type: open
@@ -106,67 +105,67 @@ collections:
   slug: open-racq-bank-banking-products-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/capabilities/racq-bank-capability-edges.yml
+  href: https://artifacts.apis.io/racq-bank/capabilities/racq-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/racq-bank-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/agentic-access/racq-bank-agentic-access.yml
+  href: https://artifacts.apis.io/racq-bank/agentic-access/racq-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/racq-bank-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/security/racq-bank-domain-security.yml
+  href: https://artifacts.apis.io/racq-bank/security/racq-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/racq-bank-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/authentication/racq-bank-authentication.yml
+  href: https://artifacts.apis.io/racq-bank/authentication/racq-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/racq-bank-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/conventions/racq-bank-conventions.yml
+  href: https://artifacts.apis.io/racq-bank/conventions/racq-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/racq-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/errors/racq-bank-problem-types.yml
+  href: https://artifacts.apis.io/racq-bank/errors/racq-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/racq-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/lifecycle/racq-bank-lifecycle.yml
+  href: https://artifacts.apis.io/racq-bank/lifecycle/racq-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/racq-bank-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/conformance/racq-bank-conformance.yml
+  href: https://artifacts.apis.io/racq-bank/conformance/racq-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/racq-bank-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/data-model/racq-bank-data-model.yml
+  href: https://artifacts.apis.io/racq-bank/data-model/racq-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/racq-bank-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/mcp/racq-bank-mcp.yml
+  href: https://artifacts.apis.io/racq-bank/mcp/racq-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/racq-bank-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/llms/racq-bank-llms.txt
+  href: https://artifacts.apis.io/racq-bank/llms/racq-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/racq-bank-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/overlays/racq-bank-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/racq-bank/overlays/racq-bank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/racq-bank-cds-banking-products-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/racq-bank/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -214,7 +213,7 @@ overview: 'RACQ Bank publishes 7 API contracts indexed on the [APIs.io](https://
 
 
   RACQ Bank''s developer surface includes authentication, documentation, getting-started guide, developer portal, support, and 16 more developer resources.'
-random_paper: 0
+random_paper: 16
 score:
   band: thin
   composite: 34.4
@@ -231,7 +230,7 @@ score:
     contract_governance: 4.5
     contract_quality: 44.7
     developer_ergonomics: 56.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -257,13 +256,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/screenshots/racq-bank-2026-07-21T114746.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/racq-bank/racq-bank-2026-07-21T114746.png
 security:
 - kind: authentication
   name: Racq Bank Authentication
@@ -273,6 +273,10 @@ security:
   name: Racq Bank Domain Security
   slug: racq-bank-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Look up RACQ Bank banking products
+  slug: racq-bank-lookup-banking-products
 slug: racq-bank
 tags:
 - Finance

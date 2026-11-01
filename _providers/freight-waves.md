@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.7
-  scored_at: '2026-10-17'
+  score: 43.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -61,9 +63,6 @@ apis:
   slug: freight-waves-lookup-api
 artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: FreightWaves SONAR Authentication API
   slug: open-freight-waves-authentication-api
@@ -131,77 +130,77 @@ common:
   type: PrivacyPolicy
   url: https://firecrown.com/privacy-policy/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/overlays/freight-waves-sonar-overlay.yaml
+  href: https://artifacts.apis.io/freight-waves/overlays/freight-waves-sonar-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/freight-waves-sonar-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/mcp/freight-waves-mcp.yml
+  href: https://artifacts.apis.io/freight-waves/mcp/freight-waves-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/freight-waves-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/well-known/freight-waves-well-known.yml
+  href: https://artifacts.apis.io/freight-waves/well-known/freight-waves-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/freight-waves-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/llms/freight-waves-llms.txt
+  href: https://artifacts.apis.io/freight-waves/llms/freight-waves-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/freight-waves-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/authentication/freight-waves-authentication.yml
+  href: https://artifacts.apis.io/freight-waves/authentication/freight-waves-authentication.yml
   title: ''
   type: Authentication
   url: authentication/freight-waves-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/scopes/freight-waves-scopes.yml
+  href: https://artifacts.apis.io/freight-waves/scopes/freight-waves-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/freight-waves-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/conventions/freight-waves-conventions.yml
+  href: https://artifacts.apis.io/freight-waves/conventions/freight-waves-conventions.yml
   title: ''
   type: Conventions
   url: conventions/freight-waves-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/rate-limits/freight-waves-rate-limits.yml
+  href: https://artifacts.apis.io/freight-waves/rate-limits/freight-waves-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/freight-waves-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/errors/freight-waves-problem-types.yml
+  href: https://artifacts.apis.io/freight-waves/errors/freight-waves-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/freight-waves-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/lifecycle/freight-waves-lifecycle.yml
+  href: https://artifacts.apis.io/freight-waves/lifecycle/freight-waves-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/freight-waves-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/conformance/freight-waves-conformance.yml
+  href: https://artifacts.apis.io/freight-waves/conformance/freight-waves-conformance.yml
   title: ''
   type: Conformance
   url: conformance/freight-waves-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/security/freight-waves-domain-security.yml
+  href: https://artifacts.apis.io/freight-waves/security/freight-waves-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/freight-waves-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/data-model/freight-waves-data-model.yml
+  href: https://artifacts.apis.io/freight-waves/data-model/freight-waves-data-model.yml
   title: ''
   type: DataModel
   url: data-model/freight-waves-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/agentic-access/freight-waves-agentic-access.yml
+  href: https://artifacts.apis.io/freight-waves/agentic-access/freight-waves-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/freight-waves-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/freight-waves/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -233,7 +232,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 37.0
+  composite: 37.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 48.0
@@ -247,9 +246,9 @@ score:
     contract_governance: 4.5
     contract_quality: 14.5
     developer_ergonomics: 58.9
-    discoverability: 80.0
-    operational_transparency: 23.7
-  previous_composite: 37.0
+    discoverability: 70.0
+    operational_transparency: 26.3
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,13 +265,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/screenshots/freight-waves-2026-07-25T215152.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/freight-waves/freight-waves-2026-07-25T215152.png
 security:
 - kind: authentication
   name: Freight Waves Authentication
@@ -282,6 +282,10 @@ security:
   name: Freight Waves Domain Security
   slug: freight-waves-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: Fetch SONAR freight-market index data
+  slug: freight-waves-fetch-index-data
 slug: freight-waves
 tags:
 - Company

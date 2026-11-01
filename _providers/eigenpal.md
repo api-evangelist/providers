@@ -24,17 +24,19 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.8
-  scored_at: '2026-10-17'
+  score: 43.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -74,15 +76,37 @@ apis:
   description: Start, monitor, retry, review, and debug automation runs, including artifacts.
   name: Eigenpal Runs API
   slug: eigenpal-runs-api
-artifact_total: 16
+- baseURL: https://studio.eigenpal.com
+  baseurl_source: declared
+  description: Create and manage outbound email servers for workflow mail. Secrets are encrypted at rest and never returned.
+  name: Eigenpal Email servers API
+  slug: eigenpal-email-servers-api
+- baseURL: https://studio.eigenpal.com
+  baseurl_source: declared
+  description: Create and organize workflow and template folders. Deleting a folder unfiles contained workflows or templates and does not delete them.
+  name: Eigenpal Folders API
+  slug: eigenpal-folders-api
+- baseURL: https://studio.eigenpal.com
+  baseurl_source: declared
+  description: The Human reviews API from Eigenpal — 6 operation(s) for human reviews.
+  name: Eigenpal Human reviews API
+  slug: eigenpal-human-reviews-api
+- baseURL: https://studio.eigenpal.com
+  baseurl_source: declared
+  description: List text, vision, and OCR models configured for the current tenant environment. This is a catalog inventory, not a live provider health probe.
+  name: Eigenpal Models API
+  slug: eigenpal-models-api
+- baseURL: https://studio.eigenpal.com
+  baseurl_source: declared
+  description: Upload, inspect, version, download, and delete tenant-scoped DOCX and XLSX templates.
+  name: Eigenpal Templates API
+  slug: eigenpal-templates-api
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Eigenpal Webhooks
   slug: eigenpal-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Eigenpal Automations API
   slug: open-eigenpal-automations-api
@@ -104,22 +128,22 @@ common:
   type: Blog
   url: https://www.eigenpal.com/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/capabilities/eigenpal-capability-edges.yml
+  href: https://artifacts.apis.io/eigenpal/capabilities/eigenpal-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/eigenpal-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/agentic-access/eigenpal-agentic-access.yml
+  href: https://artifacts.apis.io/eigenpal/agentic-access/eigenpal-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eigenpal-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/security/eigenpal-domain-security.yml
+  href: https://artifacts.apis.io/eigenpal/security/eigenpal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eigenpal-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/authentication/eigenpal-authentication.yml
+  href: https://artifacts.apis.io/eigenpal/authentication/eigenpal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eigenpal-authentication.yml
@@ -152,37 +176,37 @@ common:
   type: X
   url: https://x.com/eigenpal
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/packages/eigenpal-packages.yml
+  href: https://artifacts.apis.io/eigenpal/packages/eigenpal-packages.yml
   title: ''
   type: Packages
   url: packages/eigenpal-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/packages/eigenpal-packages.yml
+  href: https://artifacts.apis.io/eigenpal/packages/eigenpal-packages.yml
   title: ''
   type: SDKs
   url: packages/eigenpal-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/cli/eigenpal-cli.yml
+  href: https://artifacts.apis.io/eigenpal/cli/eigenpal-cli.yml
   title: ''
   type: CLI
   url: cli/eigenpal-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/conventions/eigenpal-conventions.yml
+  href: https://artifacts.apis.io/eigenpal/conventions/eigenpal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eigenpal-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/conventions/eigenpal-conventions.yml
+  href: https://artifacts.apis.io/eigenpal/conventions/eigenpal-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/eigenpal-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/errors/eigenpal-problem-types.yml
+  href: https://artifacts.apis.io/eigenpal/errors/eigenpal-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eigenpal-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/lifecycle/eigenpal-lifecycle.yml
+  href: https://artifacts.apis.io/eigenpal/lifecycle/eigenpal-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eigenpal-lifecycle.yml
@@ -191,7 +215,7 @@ common:
   type: StatusPage
   url: https://status.eigenpal.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/changelog/eigenpal-changelog.yml
+  href: https://artifacts.apis.io/eigenpal/changelog/eigenpal-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/eigenpal-changelog.yml
@@ -200,37 +224,37 @@ common:
   type: ChangeLog
   url: https://docs.eigenpal.com/changelog
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/conformance/eigenpal-conformance.yml
+  href: https://artifacts.apis.io/eigenpal/conformance/eigenpal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eigenpal-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/mcp/eigenpal-mcp.yml
+  href: https://artifacts.apis.io/eigenpal/mcp/eigenpal-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/eigenpal-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/overlays/eigenpal-openapi-overlay.yaml
+  href: https://artifacts.apis.io/eigenpal/overlays/eigenpal-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/eigenpal-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/data-model/eigenpal-data-model.yml
+  href: https://artifacts.apis.io/eigenpal/data-model/eigenpal-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eigenpal-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/asyncapi/eigenpal-webhooks.yml
+  href: https://artifacts.apis.io/eigenpal/asyncapi/eigenpal-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/eigenpal-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/eigenpal/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/llms/eigenpal-llms.txt
+  href: https://artifacts.apis.io/eigenpal/llms/eigenpal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eigenpal-llms.txt
@@ -242,33 +266,33 @@ modified: '2026-10-06'
 name: Eigenpal
 nav: Providers
 network: true
-overview: 'Eigenpal publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Automations API, Evaluation API, Files API, and 3 more. Tagged areas include Company, Document Processing, Artificial Intelligence, Workflow Automation, and Machine Learning.
+overview: 'Eigenpal publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Automations API, Evaluation API, Files API, and 8 more. Tagged areas include Company, Document Processing, Artificial Intelligence, Workflow Automation, and Machine Learning.
 
 
   The Eigenpal catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Eigenpal''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, CLI, changelog, and 22 more developer resources.'
-random_paper: 1
+random_paper: 21
 score:
   band: developing
-  composite: 40.5
+  composite: 41.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 60.4
+    contract_quality: 60.5
     developer_ergonomics: 68.5
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 39.9
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,7 +300,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 18
     mcp: derived
     skills: derived
   regulatory:
@@ -285,13 +309,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/screenshots/eigenpal-2026-07-25T213002.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/eigenpal/eigenpal-2026-07-25T213002.png
 security:
 - kind: authentication
   name: Eigenpal Authentication
@@ -301,6 +326,14 @@ security:
   name: Eigenpal Domain Security
   slug: eigenpal-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Evaluate an EigenPal automation (eval-first)
+  slug: eigenpal-evaluate-an-automation
+- name: Review production runs and feed fixes back
+  slug: eigenpal-review-and-improve-runs
+- name: Run an EigenPal workflow on a document
+  slug: eigenpal-run-a-workflow
 slug: eigenpal
 tags:
 - Company

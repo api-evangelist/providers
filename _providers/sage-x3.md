@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: RESTful web service interface for Sage X3 business objects. Supports standard HTTP methods (GET, POST, PUT, DELETE) for managing entities such as customers, suppliers, sales orders, purchase orders, i
@@ -48,12 +50,12 @@ apis:
 artifact_total: 10
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sage-x3/refs/heads/main/security/sage-x3-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sage-x3/security/sage-x3-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sage-x3-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sage-x3/refs/heads/main/security/sage-x3-domain-security.yml
+  href: https://artifacts.apis.io/sage-x3/security/sage-x3-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sage-x3-domain-security.yml
@@ -94,17 +96,17 @@ common:
   type: X
   url: https://twitter.com/sageerp
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sage-x3/refs/heads/main/plans/sage-x3-plans-pricing.yml
+  href: https://artifacts.apis.io/sage-x3/plans/sage-x3-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sage-x3-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sage-x3/refs/heads/main/rate-limits/sage-x3-rate-limits.yml
+  href: https://artifacts.apis.io/sage-x3/rate-limits/sage-x3-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sage-x3-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sage-x3/refs/heads/main/finops/sage-x3-finops.yml
+  href: https://artifacts.apis.io/sage-x3/finops/sage-x3-finops.yml
   title: ''
   type: FinOps
   url: finops/sage-x3-finops.yml
@@ -144,14 +146,14 @@ plans:
 - name: Sage X3 Plans Pricing
   plan_count: 2
   slug: sage-x3-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Sage X3 Rate Limits
   slug: sage-x3-rate-limits
 score:
   band: thin
-  composite: 27.4
+  composite: 29.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 56.0
@@ -159,29 +161,29 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 46.8
     developer_ergonomics: 11.9
     discoverability: 71.4
-    operational_transparency: 21.1
-  previous_composite: 34.3
+    operational_transparency: 39.5
+  previous_composite: 29.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sage-x3/refs/heads/main/screenshots/sage-x3-2026-06-20T193329.png
+screenshot: https://apis.io/screenshots/sage-x3/sage-x3-2026-06-20T193329.png
 security:
 - kind: domain-security
   name: Sage X3 Domain Security

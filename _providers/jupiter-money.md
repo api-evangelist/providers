@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jupiter-money/refs/heads/main/security/jupiter-money-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/jupiter-money/security/jupiter-money-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jupiter-money-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jupiter-money/refs/heads/main/security/jupiter-money-domain-security.yml
+  href: https://artifacts.apis.io/jupiter-money/security/jupiter-money-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jupiter-money-domain-security.yml
@@ -171,10 +173,10 @@ overview: 'Jupiter Money is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Jupiter Money''s developer surface includes engineering blog, YouTube channel, and 28 more developer resources.'
-random_paper: 4
+random_paper: 0
 score:
   band: minimal
-  composite: 8.8
+  composite: 10.2
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -189,7 +191,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 48.2
-    operational_transparency: 0.0
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -197,21 +199,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 8.8
+  previous_composite: 10.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jupiter-money/refs/heads/main/screenshots/jupiter-money-2026-06-20T183838.png
+screenshot: https://apis.io/screenshots/jupiter-money/jupiter-money-2026-06-20T183838.png
 security:
 - kind: domain-security
   name: Jupiter Money Domain Security

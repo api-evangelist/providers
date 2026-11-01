@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 49.8
-  scored_at: '2026-10-17'
+  score: 50.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 34
@@ -94,12 +96,17 @@ apis:
   description: The User API from UptimeRobot — 3 operation(s) for user.
   name: UptimeRobot User API
   slug: uptimerobot-user-api
-artifact_total: 25
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Uptimerobot Webhooks
   slug: uptimerobot-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/uptimerobot/capabilities/uptimerobot-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/uptimerobot-capability-edges.yml
 - group: commercial
   title: ''
   type: TermsOfService
@@ -113,87 +120,87 @@ common:
   type: GettingStarted
   url: https://uptimerobot.com/quick-monitor-setup
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/agentic-access/uptimerobot-agentic-access.yml
+  href: https://artifacts.apis.io/uptimerobot/agentic-access/uptimerobot-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/uptimerobot-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/plans/uptimerobot-plans-pricing.yml
+  href: https://artifacts.apis.io/uptimerobot/plans/uptimerobot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/uptimerobot-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/rules/uptimerobot-rules.yml
+  href: https://artifacts.apis.io/uptimerobot/rules/uptimerobot-rules.yml
   title: ''
   type: Spectral
   url: rules/uptimerobot-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/json-ld/uptimerobot-context.jsonld
+  href: https://artifacts.apis.io/uptimerobot/json-ld/uptimerobot-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/uptimerobot-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/vocabulary/uptimerobot-vocabulary.yml
+  href: https://artifacts.apis.io/uptimerobot/vocabulary/uptimerobot-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/uptimerobot-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/uptimerobot/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/asyncapi/uptimerobot-webhooks.yml
+  href: https://artifacts.apis.io/uptimerobot/asyncapi/uptimerobot-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/uptimerobot-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/data-model/uptimerobot-data-model.yml
+  href: https://artifacts.apis.io/uptimerobot/data-model/uptimerobot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/uptimerobot-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/errors/uptimerobot-problem-types.yml
+  href: https://artifacts.apis.io/uptimerobot/errors/uptimerobot-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/uptimerobot-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/conformance/uptimerobot-conformance.yml
+  href: https://artifacts.apis.io/uptimerobot/conformance/uptimerobot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uptimerobot-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/llms/uptimerobot-llms.txt
+  href: https://artifacts.apis.io/uptimerobot/llms/uptimerobot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uptimerobot-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/well-known/uptimerobot-help-security.txt
+  href: https://artifacts.apis.io/uptimerobot/well-known/uptimerobot-help-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/uptimerobot-help-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/well-known/uptimerobot-well-known.yml
+  href: https://artifacts.apis.io/uptimerobot/well-known/uptimerobot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/uptimerobot-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/hosts/uptimerobot-hosts.yml
+  href: https://artifacts.apis.io/uptimerobot/hosts/uptimerobot-hosts.yml
   title: ''
   type: Hosts
   url: hosts/uptimerobot-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/vendors/uptimerobot-vendors.yml
+  href: https://artifacts.apis.io/uptimerobot/vendors/uptimerobot-vendors.yml
   title: ''
   type: Vendors
   url: vendors/uptimerobot-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/packages/uptimerobot-packages.yml
+  href: https://artifacts.apis.io/uptimerobot/packages/uptimerobot-packages.yml
   title: ''
   type: SDKs
   url: packages/uptimerobot-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/packages/uptimerobot-packages.yml
+  href: https://artifacts.apis.io/uptimerobot/packages/uptimerobot-packages.yml
   title: ''
   type: Packages
   url: packages/uptimerobot-packages.yml
@@ -210,12 +217,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/uptimerobot
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/authentication/uptimerobot-authentication.yml
+  href: https://artifacts.apis.io/uptimerobot/authentication/uptimerobot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uptimerobot-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/security/uptimerobot-domain-security.yml
+  href: https://artifacts.apis.io/uptimerobot/security/uptimerobot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uptimerobot-domain-security.yml
@@ -257,6 +264,14 @@ common:
   url: https://www.postman.com/uptimerobot/workspace/uptimerobot-api
 created: '2026-10-13'
 description: UptimeRobot provides free and paid website monitoring services, offering uptime, SSL, DNS, and keyword monitoring, as well as a robust API for developers to integrate monitoring into their applications. With over 3.4 million users, it supports multi-location checks, real‑time alerts, status pages, and extensive integrations, catering to developers, DevOps teams, marketers, and businesses.
+finops:
+- has_sources: true
+  method: derived
+  name: Uptimerobot Finops
+  primary_unit: seat
+  service_category: ''
+  slug: uptimerobot-finops
+  template: false
 image: https://uptimerobot.com/_astro/ogimage.VdCGQqWN.png
 json_schemas:
 - name: CreateApiMonitorDto
@@ -293,12 +308,12 @@ overview: 'UptimeRobot publishes 12 API contracts indexed on the [APIs.io](https
   The UptimeRobot catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  UptimeRobot''s developer surface includes getting-started guide, authentication, documentation, API reference, support, engineering blog, pricing, and 27 more developer resources.'
+  UptimeRobot''s developer surface includes getting-started guide, authentication, documentation, API reference, support, engineering blog, pricing, and 28 more developer resources.'
 plans:
 - name: Uptimerobot Plans Pricing
   plan_count: 2
   slug: uptimerobot-plans-pricing
-random_paper: 0
+random_paper: 10
 rules:
 - authorship: generated
   effective_rule_count: 54
@@ -314,21 +329,23 @@ rules:
   slug: uptimerobot-rules
 score:
   band: strong
-  composite: 61.0
+  composite: 61.7
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 70.8
+    artifact_dirs: 24
+    catalog_earned: 73.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 44.3
+    catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.6
   facets:
-    access_clarity: 65.8
+    access_clarity: 73.7
     contract_governance: 35.6
-    contract_quality: 69.9
+    contract_quality: 66.5
     developer_ergonomics: 61.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 44.7
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -349,11 +366,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Uptimerobot Authentication
@@ -363,6 +382,14 @@ security:
   name: Uptimerobot Domain Security
   slug: uptimerobot-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: uptimerobot-manage-alert-contacts
+  slug: uptimerobot-manage-alert-contacts
+- name: uptimerobot-manage-incident-comments
+  slug: uptimerobot-manage-incident-comments
+- name: uptimerobot-monitor-management
+  slug: uptimerobot-monitor-management
 slug: uptimerobot
 tags:
 - Uptime Monitoring

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: Java/JVM implementation of Cucumber supporting Java, Kotlin, Scala, and other JVM languages. Distributed via Maven Central under the io.cucumber group.
@@ -54,17 +56,17 @@ apis:
 artifact_total: 12
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cucumber/refs/heads/main/plans/cucumber-plans-pricing.yml
+  href: https://artifacts.apis.io/cucumber/plans/cucumber-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cucumber-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cucumber/refs/heads/main/rate-limits/cucumber-rate-limits.yml
+  href: https://artifacts.apis.io/cucumber/rate-limits/cucumber-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cucumber-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cucumber/refs/heads/main/finops/cucumber-finops.yml
+  href: https://artifacts.apis.io/cucumber/finops/cucumber-finops.yml
   title: ''
   type: FinOps
   url: finops/cucumber-finops.yml
@@ -93,7 +95,7 @@ common:
   type: License
   url: https://github.com/cucumber/cucumber-jvm/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cucumber/refs/heads/main/security/cucumber-domain-security.yml
+  href: https://artifacts.apis.io/cucumber/security/cucumber-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cucumber-domain-security.yml
@@ -134,17 +136,17 @@ common:
   type: YouTube
   url: https://www.youtube.com/channel/UCVhQ7ulinkFAkUx3eNvzoEg
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cucumber/refs/heads/main/json-schema/cucumber-message-schema.json
+  href: https://artifacts.apis.io/cucumber/json-schema/cucumber-message-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cucumber-message-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cucumber/refs/heads/main/json-ld/cucumber-context.jsonld
+  href: https://artifacts.apis.io/cucumber/json-ld/cucumber-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/cucumber-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cucumber/refs/heads/main/vocabulary/cucumber-vocabulary.yml
+  href: https://artifacts.apis.io/cucumber/vocabulary/cucumber-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cucumber-vocabulary.yml
@@ -158,7 +160,7 @@ finops:
 - has_sources: false
   method: generated
   name: Cucumber Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: cucumber-finops
   template: true
@@ -188,7 +190,7 @@ plans:
 - name: Cucumber Plans Pricing
   plan_count: 3
   slug: cucumber-plans-pricing
-random_paper: 18
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Cucumber Rate Limits
@@ -206,8 +208,8 @@ rules:
     warn: 3
   slug: cucumber-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 26.8
+  band: emerging
+  composite: 23.0
   coverage:
     artifact_dirs: 12
     catalog_earned: 62.2
@@ -215,32 +217,29 @@ score:
     catalog_gap: 52.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 17.9
     developer_ergonomics: 23.8
     discoverability: 62.5
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 28.2
+    operational_transparency: 28.9
+  previous_composite: 23.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cucumber/refs/heads/main/screenshots/cucumber-2026-06-20T175327.png
+screenshot: https://apis.io/screenshots/cucumber/cucumber-2026-06-20T175327.png
 security:
 - kind: domain-security
   name: Cucumber Domain Security

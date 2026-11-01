@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Joggr is a documentation platform purpose-built for software teams, helping engineering teams create and maintain technical documentation. Joggr exposes APIs and a Model Context Protocol (MCP) server '
@@ -42,22 +44,22 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/joggr/refs/heads/main/plans/joggr-plans-pricing.yml
+  href: https://artifacts.apis.io/joggr/plans/joggr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/joggr-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/joggr/refs/heads/main/rate-limits/joggr-rate-limits.yml
+  href: https://artifacts.apis.io/joggr/rate-limits/joggr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/joggr-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/joggr/refs/heads/main/finops/joggr-finops.yml
+  href: https://artifacts.apis.io/joggr/finops/joggr-finops.yml
   title: ''
   type: FinOps
   url: finops/joggr-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/joggr/refs/heads/main/security/joggr-domain-security.yml
+  href: https://artifacts.apis.io/joggr/security/joggr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/joggr-domain-security.yml
@@ -83,7 +85,7 @@ finops:
 - has_sources: false
   method: generated
   name: Joggr Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: joggr-finops
   template: true
@@ -108,7 +110,7 @@ rate_limits:
   slug: joggr-rate-limits
 score:
   band: minimal
-  composite: 8.3
+  composite: 10.2
   coverage:
     artifact_dirs: 7
     catalog_earned: 38.0
@@ -116,29 +118,29 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 9.5
     discoverability: 64.3
     operational_transparency: 13.2
-  previous_composite: 9.9
+  previous_composite: 10.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/joggr/refs/heads/main/screenshots/joggr-2026-06-20T183747.png
+screenshot: https://apis.io/screenshots/joggr/joggr-2026-06-20T183747.png
 security:
 - kind: domain-security
   name: Joggr Domain Security

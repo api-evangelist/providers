@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 26.1
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The modern Jamf Pro API, built on the OpenAPI 3.0 standard, for programmatically managing computers, mobile devices, policies, groups, inventory, and configuration on a Jamf Pro instance. Authenticate
@@ -45,23 +47,28 @@ apis:
 - description: A single, unified gateway to access any combination of Jamf APIs — Blueprints, Compliance Benchmarks, Device Management Actions, Declaration Reporting, Devices, and Device Groups — described as the lo
   name: Jamf Platform API Gateway
   slug: jamf-platform-api-gateway
-artifact_total: 9
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Jamf Webhooks
   slug: jamf-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/jamf/plans/jamf-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/jamf-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.jamf.com/blog/rss/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/security/jamf-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/jamf/security/jamf-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jamf-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/security/jamf-domain-security.yml
+  href: https://artifacts.apis.io/jamf/security/jamf-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jamf-domain-security.yml
@@ -122,67 +129,67 @@ common:
   type: ChangeLog
   url: https://developer.jamf.com/jamf-pro/changelog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/llms/jamf-llms.txt
+  href: https://artifacts.apis.io/jamf/llms/jamf-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jamf-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/well-known/jamf-well-known.yml
+  href: https://artifacts.apis.io/jamf/well-known/jamf-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jamf-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/well-known/jamf-api-catalog.json
+  href: https://artifacts.apis.io/jamf/well-known/jamf-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/jamf-api-catalog.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/well-known/jamf-security.txt
+  href: https://artifacts.apis.io/jamf/well-known/jamf-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/jamf-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/mcp/jamf-mcp.yml
+  href: https://artifacts.apis.io/jamf/mcp/jamf-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/jamf-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/asyncapi/jamf-webhooks.yml
+  href: https://artifacts.apis.io/jamf/asyncapi/jamf-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/jamf-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/authentication/jamf-authentication.yml
+  href: https://artifacts.apis.io/jamf/authentication/jamf-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jamf-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/conventions/jamf-conventions.yml
+  href: https://artifacts.apis.io/jamf/conventions/jamf-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jamf-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/lifecycle/jamf-lifecycle.yml
+  href: https://artifacts.apis.io/jamf/lifecycle/jamf-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jamf-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/lifecycle/jamf-lifecycle.yml
+  href: https://artifacts.apis.io/jamf/lifecycle/jamf-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/jamf-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/conformance/jamf-conformance.yml
+  href: https://artifacts.apis.io/jamf/conformance/jamf-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jamf-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/security/jamf-trust-center.yml
+  href: https://artifacts.apis.io/jamf/security/jamf-trust-center.yml
   title: ''
   type: Compliance
   url: security/jamf-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/security/jamf-trust-center.yml
+  href: https://artifacts.apis.io/jamf/security/jamf-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/jamf-trust-center.yml
@@ -192,6 +199,14 @@ common:
   url: https://www.jamf.com/trust-center/vulnerability-disclosure/
 created: '2026-07-17'
 description: 'Jamf is the standard in managing and securing Apple devices at scale for business, education, and government. Its cloud platform pairs Apple device management (MDM), identity, and endpoint security with a broad developer surface: the modern Jamf Pro API (OpenAPI 3.0, bearer-token and OAuth client-credential API Roles & Clients), the long-standing Classic API (/JSSResource, XML/JSON), the new unified Platform API Gateway (Blueprints, Compliance Benchmarks, Device Management Actions), plus the Jamf School, Jamf Protect, and Jamf Security APIs. Jamf publishes an llms.txt developer index, a hosted MCP server for documentation and code generation, a webhooks event catalog, and a trust center enumerating SOC 2, ISO 27001/27701, PCI DSS, HIPAA, GDPR, and NIST 800-53 posture.'
+finops:
+- has_sources: true
+  method: derived
+  name: Jamf Finops
+  primary_unit: macos device
+  service_category: ''
+  slug: jamf-finops
+  template: false
 image: https://www.jamf.com/favicon.ico
 layout: provider
 mcp_servers:
@@ -208,27 +223,31 @@ overview: 'JAMF is listed with 3 APIs on the [APIs.io](https://apis.io/) network
   The JAMF catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  JAMF''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 18
+  JAMF''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
+plans:
+- name: Jamf Plans Pricing
+  plan_count: 3
+  slug: jamf-plans-pricing
+random_paper: 6
 score:
-  band: developing
-  composite: 50.5
+  band: strong
+  composite: 61.6
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 16
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 42.9
-    discoverability: 80.0
-    operational_transparency: 52.6
-  previous_composite: 50.4
+    developer_ergonomics: 57.1
+    discoverability: 70.0
+    operational_transparency: 63.2
+  previous_composite: 53.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -238,14 +257,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/screenshots/jamf-2026-07-25T223052.png
+screenshot: https://apis.io/screenshots/jamf/jamf-2026-07-25T223052.png
 security:
 - kind: authentication
   name: Jamf Authentication

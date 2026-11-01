@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,18 +36,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST/JSON API to programmatically administer the Push platform (accounts, apps, findings, integrations) plus webhooks for real-time platform events.
   name: Push Security REST API v1
   slug: push-security-rest-api-v1
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Push Security Webhooks
   slug: push-security-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/push-security/plans/push-security-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/push-security-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -107,7 +114,7 @@ common:
   type: StatusPage
   url: https://status.pushsecurity.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/push-security/refs/heads/main/security/push-security-trust-center.yml
+  href: https://artifacts.apis.io/push-security/security/push-security-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/push-security-trust-center.yml
@@ -120,52 +127,60 @@ common:
   type: Security
   url: https://pushsecurity.com/.well-known/security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/push-security/refs/heads/main/llms/push-security-llms.txt
+  href: https://artifacts.apis.io/push-security/llms/push-security-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/push-security-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/push-security/refs/heads/main/well-known/push-security-well-known.yml
+  href: https://artifacts.apis.io/push-security/well-known/push-security-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/push-security-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/push-security/refs/heads/main/well-known/push-security-security.txt
+  href: https://artifacts.apis.io/push-security/well-known/push-security-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/push-security-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/push-security/refs/heads/main/authentication/push-security-authentication.yml
+  href: https://artifacts.apis.io/push-security/authentication/push-security-authentication.yml
   title: ''
   type: Authentication
   url: authentication/push-security-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/push-security/refs/heads/main/conventions/push-security-conventions.yml
+  href: https://artifacts.apis.io/push-security/conventions/push-security-conventions.yml
   title: ''
   type: Conventions
   url: conventions/push-security-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/push-security/refs/heads/main/lifecycle/push-security-lifecycle.yml
+  href: https://artifacts.apis.io/push-security/lifecycle/push-security-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/push-security-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/push-security/refs/heads/main/asyncapi/push-security-webhooks.yml
+  href: https://artifacts.apis.io/push-security/asyncapi/push-security-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/push-security-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/push-security/refs/heads/main/security/push-security-domain-security.yml
+  href: https://artifacts.apis.io/push-security/security/push-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/push-security-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/push-security/refs/heads/main/security/push-security-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/push-security/security/push-security-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/push-security-vulnerability-disclosure.yml
 created: '2026-07-17'
 description: Push Security is an AI-native browser security platform that deploys as a lightweight enterprise browser extension to every employee, giving security teams real-time telemetry, autonomous threat-hunting agents, and deep browser visibility across the full identity and browser attack surface. From the browser, Push tracks logins, AI-tool usage, and identity events to stop advanced identity attacks (account takeover, zero-day phishing, ClickFix, malicious OAuth integrations, session hijacking), discover shadow AI and shadow SaaS, harden unmanaged identities, and accelerate incident response. Push exposes a REST API (v1) and webhooks to programmatically administer the platform and forward events to SIEM/SOAR and ticketing systems. Backed by GV and Redpoint Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Push Security Finops
+  primary_unit: user/month
+  service_category: ''
+  slug: push-security-finops
+  template: false
 image: https://pushsecurity.com/favicon.ico
 layout: provider
 modified: '2026-07-20'
@@ -178,41 +193,45 @@ overview: 'Push Security is listed with 1 API on the [APIs.io](https://apis.io/)
   The Push Security catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Push Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 17
+  Push Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+plans:
+- name: Push Security Plans Pricing
+  plan_count: 2
+  slug: push-security-plans-pricing
+random_paper: 13
 score:
   band: developing
-  composite: 45.7
+  composite: 53.1
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 13
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 5.8
   facets:
-    access_clarity: 53.9
+    access_clarity: 89.5
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 73.2
-    operational_transparency: 31.6
-  previous_composite: 45.6
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 47.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/push-security/refs/heads/main/screenshots/push-security-2026-08-17T081406.png
+screenshot: https://apis.io/screenshots/push-security/push-security-2026-08-17T081406.png
 security:
 - kind: authentication
   name: Push Security Authentication

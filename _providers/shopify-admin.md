@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -91,15 +93,12 @@ apis:
   description: The Webhooks API from Shopify Admin API — 2 operation(s) for webhooks.
   name: Shopify Admin API Webhooks API
   slug: shopify-admin-webhooks-api
-artifact_total: 38
+artifact_total: 37
 asyncapis:
 - description: AsyncAPI 2.6 specification modeling the Shopify Admin webhook event surface. Shopify webhooks allow apps to subscribe to events that occur in a Shopify store. When a subscribed event occurs, Shopify s
   name: Shopify Admin Webhooks
   slug: shopify-admin-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Shopify Admin REST Collections API
   slug: open-shopify-admin-collections-api
@@ -129,32 +128,32 @@ collections:
   slug: open-shopify-admin-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/plans/shopify-admin-plans-pricing.yml
+  href: https://artifacts.apis.io/shopify-admin/plans/shopify-admin-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/shopify-admin-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/finops/shopify-admin-finops.yml
+  href: https://artifacts.apis.io/shopify-admin/finops/shopify-admin-finops.yml
   title: ''
   type: FinOps
   url: finops/shopify-admin-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/capabilities/shopify-admin-capability-edges.yml
+  href: https://artifacts.apis.io/shopify-admin/capabilities/shopify-admin-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/shopify-admin-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/agentic-access/shopify-admin-agentic-access.yml
+  href: https://artifacts.apis.io/shopify-admin/agentic-access/shopify-admin-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shopify-admin-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/security/shopify-admin-domain-security.yml
+  href: https://artifacts.apis.io/shopify-admin/security/shopify-admin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shopify-admin-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/authentication/shopify-admin-authentication.yml
+  href: https://artifacts.apis.io/shopify-admin/authentication/shopify-admin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shopify-admin-authentication.yml
@@ -195,47 +194,47 @@ common:
   type: GitHub
   url: https://github.com/Shopify
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/json-schema/shopify-admin-product-schema.json
+  href: https://artifacts.apis.io/shopify-admin/json-schema/shopify-admin-product-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/shopify-admin-product-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/json-schema/shopify-admin-order-schema.json
+  href: https://artifacts.apis.io/shopify-admin/json-schema/shopify-admin-order-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/shopify-admin-order-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/json-schema/shopify-admin-customer-schema.json
+  href: https://artifacts.apis.io/shopify-admin/json-schema/shopify-admin-customer-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/shopify-admin-customer-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/json-structure/shopify-admin-product-structure.json
+  href: https://artifacts.apis.io/shopify-admin/json-structure/shopify-admin-product-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/shopify-admin-product-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/json-ld/shopify-admin-context.jsonld
+  href: https://artifacts.apis.io/shopify-admin/json-ld/shopify-admin-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/shopify-admin-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/examples/shopify-admin-list-products-example.json
+  href: https://artifacts.apis.io/shopify-admin/examples/shopify-admin-list-products-example.json
   title: ''
   type: Examples
   url: examples/shopify-admin-list-products-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/examples/shopify-admin-create-order-example.json
+  href: https://artifacts.apis.io/shopify-admin/examples/shopify-admin-create-order-example.json
   title: ''
   type: Examples
   url: examples/shopify-admin-create-order-example.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/vocabulary/shopify-admin-vocabulary.yml
+  href: https://artifacts.apis.io/shopify-admin/vocabulary/shopify-admin-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/shopify-admin-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/rules/shopify-admin-rules.yml
+  href: https://artifacts.apis.io/shopify-admin/rules/shopify-admin-rules.yml
   title: ''
   type: SpectralRules
   url: rules/shopify-admin-rules.yml
@@ -342,8 +341,8 @@ rules:
     warn: 5
   slug: shopify-admin-rules
 score:
-  band: thin
-  composite: 36.3
+  band: developing
+  composite: 41.5
   coverage:
     artifact_dirs: 22
     catalog_earned: 64.0
@@ -351,15 +350,15 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
-    contract_quality: 73.4
-    developer_ergonomics: 16.7
+    contract_quality: 70.4
+    developer_ergonomics: 42.9
     discoverability: 64.3
     operational_transparency: 28.9
-  previous_composite: 37.8
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     contracts:
@@ -373,13 +372,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/screenshots/shopify-admin-2026-06-20T193830.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/shopify-admin/shopify-admin-2026-06-20T193830.png
 security:
 - kind: authentication
   name: Shopify Admin Authentication

@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.3
-  scored_at: '2026-10-17'
+  score: 53.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 13
   slug: fever-agentic-access
   summary_line: 13 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://data-reporting-api.prod.feverup.com/v1
   baseurl_source: declared
@@ -69,11 +71,8 @@ apis:
   description: 'The goal of the Session Endpoint is to provide all information about the session (or ticket types) of a plan. The delay of the data is less than 10 minutes from reality. ## Request filters `POST /v1/s'
   name: Fever Sessions API
   slug: fever-sessions-api
-artifact_total: 16
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Fever - Reporting Authentication API
   slug: open-fever-authentication-api
@@ -91,7 +90,12 @@ collections:
   slug: open-fever-sessions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/overlays/fever-reporting-api-overlay.yaml
+  href: https://artifacts.apis.io/fever/capabilities/fever-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fever-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/fever/overlays/fever-reporting-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fever-reporting-api-overlay.yaml
@@ -108,52 +112,52 @@ common:
   type: APIReference
   url: https://data-reporting-api.prod.feverup.com/v1/redoc
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/mcp/fever-mcp.yml
+  href: https://artifacts.apis.io/fever/mcp/fever-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/fever-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/well-known/fever-well-known.yml
+  href: https://artifacts.apis.io/fever/well-known/fever-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fever-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/llms/fever-llms.txt
+  href: https://artifacts.apis.io/fever/llms/fever-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fever-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/authentication/fever-authentication.yml
+  href: https://artifacts.apis.io/fever/authentication/fever-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fever-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/agentic-access/fever-agentic-access.yml
+  href: https://artifacts.apis.io/fever/agentic-access/fever-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fever-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fever/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/errors/fever-problem-types.yml
+  href: https://artifacts.apis.io/fever/errors/fever-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fever-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/conventions/fever-conventions.yml
+  href: https://artifacts.apis.io/fever/conventions/fever-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fever-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/rate-limits/fever-rate-limits.yml
+  href: https://artifacts.apis.io/fever/rate-limits/fever-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fever-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/lifecycle/fever-lifecycle.yml
+  href: https://artifacts.apis.io/fever/lifecycle/fever-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fever-lifecycle.yml
@@ -162,17 +166,17 @@ common:
   type: StatusPage
   url: https://status.data-reporting-api.prod.feverup.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/conformance/fever-conformance.yml
+  href: https://artifacts.apis.io/fever/conformance/fever-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fever-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/data-model/fever-data-model.yml
+  href: https://artifacts.apis.io/fever/data-model/fever-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fever-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/security/fever-domain-security.yml
+  href: https://artifacts.apis.io/fever/security/fever-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fever-domain-security.yml
@@ -207,7 +211,7 @@ network: true
 overview: 'Fever publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, FeverZone API, Order Items API, and 2 more. Tagged areas include Company, Consumer, Live Entertainment, Event, and Ticketing.
 
 
-  Fever''s developer surface includes documentation, API reference, authentication, support, and 18 more developer resources.'
+  Fever''s developer surface includes documentation, API reference, authentication, support, and 19 more developer resources.'
 random_paper: 8
 rate_limits:
 - limit_count: 2
@@ -215,23 +219,23 @@ rate_limits:
   slug: fever-rate-limits
 score:
   band: thin
-  composite: 33.2
+  composite: 37.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 45.3
-    developer_ergonomics: 25.6
-    discoverability: 75.0
-    operational_transparency: 28.9
-  previous_composite: 33.1
+    developer_ergonomics: 44.6
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,13 +252,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/screenshots/fever-2026-07-25T214354.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fever/fever-2026-07-25T214354.png
 security:
 - kind: authentication
   name: Fever Authentication
@@ -264,6 +269,12 @@ security:
   name: Fever Domain Security
   slug: fever-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Extract Fever order-item sales data
+  slug: fever-extract-order-items
+- name: Search Fever events via MCP
+  slug: fever-search-events-mcp
 slug: fever
 tags:
 - Company

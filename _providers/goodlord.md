@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.7
-  scored_at: '2026-10-17'
+  score: 33.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 65
   slug: goodlord-agentic-access
   summary_line: 65 operations · 36 acting
-api_count: 5
+api_count: 3
 apis:
 - baseURL: https://api.goodoverlord.com
   baseurl_source: declared
@@ -121,7 +123,7 @@ apis:
   description: A person who exists on an application.
   name: Goodlord Subject API
   slug: goodlord-subject-api
-artifact_total: 25
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Goodlord Referencing Webhooks
@@ -137,48 +139,52 @@ collections:
   name: Referencing API
   slug: open-goodlord-referencing-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/goodlord/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/plans/goodlord-plans-pricing.yml
+  href: https://artifacts.apis.io/goodlord/plans/goodlord-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/goodlord-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/capabilities/goodlord-capability-edges.yml
+  href: https://artifacts.apis.io/goodlord/capabilities/goodlord-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/goodlord-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/overlays/goodlord-referencing-api-overlay.yaml
+  href: https://artifacts.apis.io/goodlord/overlays/goodlord-referencing-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/goodlord-referencing-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/overlays/goodlord-referencing-api-sandbox-overlay.yaml
+  href: https://artifacts.apis.io/goodlord/overlays/goodlord-referencing-api-sandbox-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/goodlord-referencing-api-sandbox-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/overlays/goodlord-insurance-app-api-overlay.yaml
+  href: https://artifacts.apis.io/goodlord/overlays/goodlord-insurance-app-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/goodlord-insurance-app-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/conventions/goodlord-conventions.yml
+  href: https://artifacts.apis.io/goodlord/conventions/goodlord-conventions.yml
   title: ''
   type: Conventions
   url: conventions/goodlord-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/errors/goodlord-problem-types.yml
+  href: https://artifacts.apis.io/goodlord/errors/goodlord-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/goodlord-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/data-model/goodlord-data-model.yml
+  href: https://artifacts.apis.io/goodlord/data-model/goodlord-data-model.yml
   title: ''
   type: DataModel
   url: data-model/goodlord-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/lifecycle/goodlord-lifecycle.yml
+  href: https://artifacts.apis.io/goodlord/lifecycle/goodlord-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/goodlord-lifecycle.yml
@@ -187,7 +193,7 @@ common:
   type: StatusPage
   url: https://goodlord.statuspal.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/conformance/goodlord-conformance.yml
+  href: https://artifacts.apis.io/goodlord/conformance/goodlord-conformance.yml
   title: ''
   type: Conformance
   url: conformance/goodlord-conformance.yml
@@ -196,32 +202,32 @@ common:
   type: Compliance
   url: https://trust.goodlord.com/
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/sandbox/goodlord-sandbox.yml
+  href: https://artifacts.apis.io/goodlord/sandbox/goodlord-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/goodlord-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/well-known/goodlord-well-known.yml
+  href: https://artifacts.apis.io/goodlord/well-known/goodlord-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/goodlord-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/llms/goodlord-llms.txt
+  href: https://artifacts.apis.io/goodlord/llms/goodlord-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/goodlord-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/mcp/goodlord-mcp.yml
+  href: https://artifacts.apis.io/goodlord/mcp/goodlord-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/goodlord-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/asyncapi/goodlord-referencing-webhooks.yml
+  href: https://artifacts.apis.io/goodlord/asyncapi/goodlord-referencing-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/goodlord-referencing-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/goodlord/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -250,27 +256,27 @@ common:
   type: PrivacyPolicy
   url: https://www.goodlord.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/security/goodlord-trust-center.yml
+  href: https://artifacts.apis.io/goodlord/security/goodlord-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/goodlord-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/security/goodlord-domain-security.yml
+  href: https://artifacts.apis.io/goodlord/security/goodlord-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/goodlord-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/agentic-access/goodlord-agentic-access.yml
+  href: https://artifacts.apis.io/goodlord/agentic-access/goodlord-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/goodlord-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/scopes/goodlord-scopes.yml
+  href: https://artifacts.apis.io/goodlord/scopes/goodlord-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/goodlord-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/authentication/goodlord-authentication.yml
+  href: https://artifacts.apis.io/goodlord/authentication/goodlord-authentication.yml
   title: ''
   type: Authentication
   url: authentication/goodlord-authentication.yml
@@ -325,6 +331,14 @@ common:
 created: '2026-07-26'
 description: 'Goodlord (Oh Goodlord Limited, London) is a United Kingdom PropTech platform that digitises the pre-tenancy and tenancy lifecycle for residential letting agents, landlords and tenants — tenant referencing, e-signed tenancy contracts, rent and deposit payments, rent protection insurance, guarantors, PEPs and sanctions checks, inventories, utility switching and end-of-tenancy. It sits in the middle of the UK rental value chain, between the agency CRM (Reapit, Alto, Street, Qube) and the regulated deposit schemes, insurers and utility suppliers, rather than on the listings side controlled by the Rightmove/Zoopla portal duopoly. Its API posture is unusually open for the UK sector but is honestly split in two — the documentation is genuinely public and the machine-readable contracts are downloadable without a login from a Tyk-powered developer portal at portal.goodlord.co, yet credentials are not self-serve: the portal''s own registration page returns "Registration is not allowed"
   and requires an invite code, and Goodlord''s own getting-started guide instructs developers to obtain sandbox and production access through a Goodlord sales manager or account manager. Public contract, partner-gated keys. There is no RESO reference of any kind — RESO is a US NAR/MLS construct with no United Kingdom counterpart — and Goodlord publishes no open data.'
+finops:
+- has_sources: true
+  method: derived
+  name: Goodlord Finops
+  primary_unit: ''
+  service_category: ''
+  slug: goodlord-finops
+  template: true
 image: https://www.goodlord.com/hubfs/goodlord-logo-1.jpg
 layout: provider
 modified: '2026-07-26'
@@ -337,12 +351,12 @@ overview: 'Goodlord publishes 15 API contracts indexed on the [APIs.io](https://
   The Goodlord catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Goodlord''s developer surface includes sandbox, API reference, getting-started guide, support, authentication, documentation, engineering blog, and 34 more developer resources.'
+  Goodlord''s developer surface includes sandbox, API reference, getting-started guide, support, authentication, documentation, engineering blog, and 35 more developer resources.'
 plans:
 - name: Goodlord Plans Pricing
   plan_count: 0
   slug: goodlord-plans-pricing
-random_paper: 0
+random_paper: 18
 scopes:
 - name: Goodlord Scopes
   scope_count: 2
@@ -350,20 +364,20 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 55.9
+  composite: 55.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.8
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 61.3
-    developer_ergonomics: 66.1
+    contract_quality: 58.0
+    developer_ergonomics: 70.4
     discoverability: 71.4
     operational_transparency: 23.7
   jurisdiction:
@@ -374,7 +388,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 55.8
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -395,13 +409,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/screenshots/goodlord-2026-08-07T165804.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/goodlord/goodlord-2026-08-07T165804.png
 security:
 - kind: authentication
   name: Goodlord Authentication
@@ -415,6 +430,14 @@ security:
   name: Goodlord Trust Center
   slug: goodlord-trust-center
   summary_line: ISO 27001, GDPR
+skill_count: 3
+skills:
+- name: Collect a guarantor and clear referencing conditions
+  slug: goodlord-collect-a-guarantor
+- name: File a rent protection insurance claim with Goodlord
+  slug: goodlord-file-a-rent-protection-claim
+- name: Reference a tenant with Goodlord
+  slug: goodlord-reference-a-tenant
 slug: goodlord
 tags:
 - Real Estate

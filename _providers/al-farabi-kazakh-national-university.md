@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 18.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 183
   human_in_the_loop: 4
@@ -292,11 +294,8 @@ apis:
 - description: The institution's Research Organization Registry identifier, ror.org/03q0vrn42, cross-walked to Crossref Funder ID 501100016254, GRID grid.77184.3d, ISNI 0000 0000 8887 5266 and Wikidata Q427677. A re
   name: ROR Registration — Al-Farabi Kazakh National University
   slug: ror-registration
-artifact_total: 119
+artifact_total: 118
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Open edX agreements API
   slug: open-al-farabi-kazakh-national-university-agreements-api
@@ -440,22 +439,22 @@ collections:
   slug: open-al-farabi-kazakh-national-university-xblock-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/capabilities/al-farabi-kazakh-national-university-capability-edges.yml
+  href: https://artifacts.apis.io/al-farabi-kazakh-national-university/capabilities/al-farabi-kazakh-national-university-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/al-farabi-kazakh-national-university-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/agentic-access/al-farabi-kazakh-national-university-agentic-access.yml
+  href: https://artifacts.apis.io/al-farabi-kazakh-national-university/agentic-access/al-farabi-kazakh-national-university-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/al-farabi-kazakh-national-university-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/security/al-farabi-kazakh-national-university-domain-security.yml
+  href: https://artifacts.apis.io/al-farabi-kazakh-national-university/security/al-farabi-kazakh-national-university-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/al-farabi-kazakh-national-university-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/authentication/al-farabi-kazakh-national-university-authentication.yml
+  href: https://artifacts.apis.io/al-farabi-kazakh-national-university/authentication/al-farabi-kazakh-national-university-authentication.yml
   title: ''
   type: Authentication
   url: authentication/al-farabi-kazakh-national-university-authentication.yml
@@ -500,7 +499,7 @@ common:
   type: Support
   url: https://open.kaznu.kz/contact
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/conformance/al-farabi-kazakh-national-university-conformance.yml
+  href: https://artifacts.apis.io/al-farabi-kazakh-national-university/conformance/al-farabi-kazakh-national-university-conformance.yml
   title: ''
   type: Conformance
   url: conformance/al-farabi-kazakh-national-university-conformance.yml
@@ -513,22 +512,22 @@ common:
   type: LinkedIn
   url: https://kz.linkedin.com/school/kaznu/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/plans/al-farabi-kazakh-national-university-plans-pricing.yml
+  href: https://artifacts.apis.io/al-farabi-kazakh-national-university/plans/al-farabi-kazakh-national-university-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/al-farabi-kazakh-national-university-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/rate-limits/al-farabi-kazakh-national-university-rate-limits.yml
+  href: https://artifacts.apis.io/al-farabi-kazakh-national-university/rate-limits/al-farabi-kazakh-national-university-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/al-farabi-kazakh-national-university-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/finops/al-farabi-kazakh-national-university-finops.yml
+  href: https://artifacts.apis.io/al-farabi-kazakh-national-university/finops/al-farabi-kazakh-national-university-finops.yml
   title: ''
   type: FinOps
   url: finops/al-farabi-kazakh-national-university-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/al-farabi-kazakh-national-university/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -601,7 +600,7 @@ plans:
 - name: Al Farabi Kazakh National University Plans Pricing
   plan_count: 2
   slug: al-farabi-kazakh-national-university-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Al Farabi Kazakh National University Rate Limits
@@ -631,7 +630,7 @@ rules:
   slug: al-farabi-kazakh-national-university-rules
 score:
   band: thin
-  composite: 33.4
+  composite: 34.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 49.3
@@ -639,15 +638,15 @@ score:
     catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 26.3
     contract_governance: 9.8
-    contract_quality: 52.3
-    developer_ergonomics: 22.6
+    contract_quality: 50.7
+    developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 39.5
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -661,14 +660,15 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/screenshots/al-farabi-kazakh-national-university-2026-06-20T171458.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/al-farabi-kazakh-national-university/al-farabi-kazakh-national-university-2026-06-20T171458.png
 security:
 - kind: authentication
   name: Al Farabi Kazakh National University Authentication

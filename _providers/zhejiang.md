@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.5
-  scored_at: '2026-10-17'
+  score: 21.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Zhejiang University operates a Shibboleth SAML 2.0 Identity Provider, entityID https://idp.zju.edu.cn/idp/shibboleth, registered in CARSI (the CERNET Authentication and Resource Sharing Infrastructure
@@ -64,12 +66,12 @@ common:
   type: WebsiteChinese
   url: https://www.zju.edu.cn/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/identity-federation/zhejiang-identity-federation.yml
+  href: https://artifacts.apis.io/zhejiang/identity-federation/zhejiang-identity-federation.yml
   title: ''
   type: IdentityFederation
   url: identity-federation/zhejiang-identity-federation.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/conformance/zhejiang-education-standards.yml
+  href: https://artifacts.apis.io/zhejiang/conformance/zhejiang-education-standards.yml
   title: ''
   type: Conformance
   url: conformance/zhejiang-education-standards.yml
@@ -110,67 +112,67 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/zhejiang-university/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/authentication/zhejiang-authentication.yml
+  href: https://artifacts.apis.io/zhejiang/authentication/zhejiang-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zhejiang-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/scopes/zhejiang-scopes.yml
+  href: https://artifacts.apis.io/zhejiang/scopes/zhejiang-scopes.yml
   title: ''
   type: Scopes
   url: scopes/zhejiang-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/errors/zhejiang-errors.yml
+  href: https://artifacts.apis.io/zhejiang/errors/zhejiang-errors.yml
   title: ''
   type: Errors
   url: errors/zhejiang-errors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/rules/zhejiang-rules.yml
+  href: https://artifacts.apis.io/zhejiang/rules/zhejiang-rules.yml
   title: ''
   type: Rules
   url: rules/zhejiang-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/vocabulary/zhejiang-vocabulary.yml
+  href: https://artifacts.apis.io/zhejiang/vocabulary/zhejiang-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/zhejiang-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/lifecycle/zhejiang-lifecycle.yml
+  href: https://artifacts.apis.io/zhejiang/lifecycle/zhejiang-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zhejiang-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/json-ld/zhejiang-context.jsonld
+  href: https://artifacts.apis.io/zhejiang/json-ld/zhejiang-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/zhejiang-context.jsonld
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/security/zhejiang-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zhejiang/security/zhejiang-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zhejiang-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/security/zhejiang-domain-security.yml
+  href: https://artifacts.apis.io/zhejiang/security/zhejiang-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zhejiang-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/plans/zhejiang-plans-pricing.yml
+  href: https://artifacts.apis.io/zhejiang/plans/zhejiang-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zhejiang-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/rate-limits/zhejiang-rate-limits.yml
+  href: https://artifacts.apis.io/zhejiang/rate-limits/zhejiang-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zhejiang-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/finops/zhejiang-finops.yml
+  href: https://artifacts.apis.io/zhejiang/finops/zhejiang-finops.yml
   title: ''
   type: FinOps
   url: finops/zhejiang-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/zhejiang/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -215,7 +217,7 @@ plans:
 - name: Zhejiang Plans Pricing
   plan_count: 2
   slug: zhejiang-plans-pricing
-random_paper: 12
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Zhejiang Rate Limits
@@ -239,7 +241,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 24.4
+  composite: 26.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 51.8
@@ -247,14 +249,14 @@ score:
     catalog_gap: 63.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 3.8
     contract_quality: 26.0
     developer_ergonomics: 33.3
     discoverability: 66.1
-    operational_transparency: 7.9
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -262,7 +264,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 31.1
+  previous_composite: 26.1
   provenance:
     conformance: first-party
     contracts:
@@ -276,14 +278,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/screenshots/zhejiang-2026-06-20T201856.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zhejiang/zhejiang-2026-06-20T201856.png
 security:
 - kind: authentication
   name: Zhejiang Authentication

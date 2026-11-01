@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API reference for Apixio, part of Datavant.
@@ -36,22 +38,22 @@ common:
   type: BlogRSS
   url: https://www.datavant.com/feed
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apixio/refs/heads/main/well-known/apixio-status-security.txt
+  href: https://artifacts.apis.io/apixio/well-known/apixio-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/apixio-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apixio/refs/heads/main/well-known/apixio-well-known.yml
+  href: https://artifacts.apis.io/apixio/well-known/apixio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apixio-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apixio/refs/heads/main/hosts/apixio-hosts.yml
+  href: https://artifacts.apis.io/apixio/hosts/apixio-hosts.yml
   title: ''
   type: Hosts
   url: hosts/apixio-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apixio/refs/heads/main/vendors/apixio-vendors.yml
+  href: https://artifacts.apis.io/apixio/vendors/apixio-vendors.yml
   title: ''
   type: Vendors
   url: vendors/apixio-vendors.yml
@@ -76,7 +78,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/datavant
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apixio/refs/heads/main/security/apixio-domain-security.yml
+  href: https://artifacts.apis.io/apixio/security/apixio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apixio-domain-security.yml
@@ -116,12 +118,12 @@ overview: 'Apixio is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Apixio''s developer surface includes engineering blog, documentation, API reference, getting-started guide, and 11 more developer resources.'
-random_paper: 12
+random_paper: 2
 score:
   band: emerging
-  composite: 15.2
+  composite: 16.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -134,8 +136,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 31.0
     discoverability: 50.0
-    operational_transparency: 21.1
-  previous_composite: 15.2
+    operational_transparency: 31.6
+  previous_composite: 16.6
   provenance:
     mcp: unknown
   regulatory:
@@ -144,14 +146,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/apixio/refs/heads/main/screenshots/apixio-2026-10-11T095933.png
+screenshot: https://apis.io/screenshots/apixio/apixio-2026-10-11T095933.png
 security:
 - kind: domain-security
   name: Apixio Domain Security

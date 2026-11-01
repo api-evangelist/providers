@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -85,11 +87,8 @@ apis:
   description: Access survey template configurations
   name: Wootric Survey Templates API
   slug: wootric-survey-templates-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Wootric Declines API
   slug: open-wootric-declines-api
@@ -116,22 +115,22 @@ collections:
   slug: open-wootric-survey-templates-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/capabilities/wootric-capability-edges.yml
+  href: https://artifacts.apis.io/wootric/capabilities/wootric-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/wootric-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/agentic-access/wootric-agentic-access.yml
+  href: https://artifacts.apis.io/wootric/agentic-access/wootric-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wootric-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/security/wootric-domain-security.yml
+  href: https://artifacts.apis.io/wootric/security/wootric-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wootric-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/authentication/wootric-authentication.yml
+  href: https://artifacts.apis.io/wootric/authentication/wootric-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wootric-authentication.yml
@@ -168,17 +167,17 @@ common:
   type: X
   url: https://twitter.com/wootric
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/plans/wootric-plans-pricing.yml
+  href: https://artifacts.apis.io/wootric/plans/wootric-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wootric-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/rate-limits/wootric-rate-limits.yml
+  href: https://artifacts.apis.io/wootric/rate-limits/wootric-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wootric-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/finops/wootric-finops.yml
+  href: https://artifacts.apis.io/wootric/finops/wootric-finops.yml
   title: ''
   type: FinOps
   url: finops/wootric-finops.yml
@@ -226,7 +225,7 @@ modified: '2026-06-13'
 name: Wootric
 nav: Providers
 network: true
-overview: 'Wootric publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Declines API, Email Surveys API, End Users API, and 5 more. Tagged areas include Customer Experience, NPS, CSAT, CES, and Customer Satisfaction.
+overview: 'Wootric publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Declines API, Email Surveys API, End Users API, and 5 more. Tagged areas include Customer Experience, NPS, CSAT, CES, and Customer Effort Score.
 
 
   The Wootric catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -237,7 +236,7 @@ plans:
 - name: Wootric Plans Pricing
   plan_count: 3
   slug: wootric-plans-pricing
-random_paper: 5
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Wootric Rate Limits
@@ -256,7 +255,7 @@ rules:
   slug: wootric-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.2
+  composite: 33.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 56.3
@@ -264,15 +263,15 @@ score:
     catalog_gap: 58.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
-    contract_quality: 57.0
+    contract_quality: 54.5
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 41.5
+    operational_transparency: 26.3
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -286,13 +285,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/screenshots/wootric-2026-06-20T201542.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wootric/wootric-2026-06-20T201542.png
 security:
 - kind: authentication
   name: Wootric Authentication
@@ -308,7 +308,6 @@ tags:
 - NPS
 - CSAT
 - CES
-- Customer Satisfaction
 - Customer Effort Score
 - Surveys
 - Feedback

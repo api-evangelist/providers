@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,9 +38,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 6
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -57,7 +59,7 @@ common:
   type: GettingStarted
   url: https://shipyard.naftiko.io/ikanos/1.0.0-beta3/installation/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/naftiko/refs/heads/main/cli/naftiko-cli.yml
+  href: https://artifacts.apis.io/naftiko/cli/naftiko-cli.yml
   title: ''
   type: CLI
   url: cli/naftiko-cli.yml
@@ -66,12 +68,12 @@ common:
   type: CLI
   url: https://shipyard.naftiko.io/ikanos/1.0.0-beta3/guide/cli/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/naftiko/refs/heads/main/json-schema/naftiko-ikanos-capability-schema.json
+  href: https://artifacts.apis.io/naftiko/json-schema/naftiko-ikanos-capability-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/naftiko-ikanos-capability-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/naftiko/refs/heads/main/rules/naftiko-ikanos-ruleset.yml
+  href: https://artifacts.apis.io/naftiko/rules/naftiko-ikanos-ruleset.yml
   title: ''
   type: Rules
   url: rules/naftiko-ikanos-ruleset.yml
@@ -80,27 +82,27 @@ common:
   type: Glossary
   url: https://naftiko.io/resources/glossary
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/naftiko/refs/heads/main/packages/naftiko-packages.yml
+  href: https://artifacts.apis.io/naftiko/packages/naftiko-packages.yml
   title: ''
   type: Packages
   url: packages/naftiko-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/naftiko/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/naftiko/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/naftiko/refs/heads/main/conventions/naftiko-conventions.yml
+  href: https://artifacts.apis.io/naftiko/conventions/naftiko-conventions.yml
   title: ''
   type: Conventions
   url: conventions/naftiko-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/naftiko/refs/heads/main/conformance/naftiko-conformance.yml
+  href: https://artifacts.apis.io/naftiko/conformance/naftiko-conformance.yml
   title: ''
   type: Conformance
   url: conformance/naftiko-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/naftiko/refs/heads/main/lifecycle/naftiko-lifecycle.yml
+  href: https://artifacts.apis.io/naftiko/lifecycle/naftiko-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/naftiko-lifecycle.yml
@@ -109,7 +111,7 @@ common:
   type: Deprecation
   url: https://shipyard.naftiko.io/ikanos/1.0.0-beta3/releases/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/naftiko/refs/heads/main/changelog/naftiko-changelog.yml
+  href: https://artifacts.apis.io/naftiko/changelog/naftiko-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/naftiko-changelog.yml
@@ -122,7 +124,7 @@ common:
   type: Roadmap
   url: https://shipyard.naftiko.io/ikanos/1.0.0-beta3/roadmap/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/naftiko/refs/heads/main/plans/naftiko-plans-pricing.yml
+  href: https://artifacts.apis.io/naftiko/plans/naftiko-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/naftiko-plans-pricing.yml
@@ -131,12 +133,12 @@ common:
   type: Pricing
   url: https://naftiko.io/platform/editions/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/naftiko/refs/heads/main/rate-limits/naftiko-rate-limits.yml
+  href: https://artifacts.apis.io/naftiko/rate-limits/naftiko-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/naftiko-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/naftiko/refs/heads/main/security/naftiko-domain-security.yml
+  href: https://artifacts.apis.io/naftiko/security/naftiko-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/naftiko-domain-security.yml
@@ -208,7 +210,7 @@ plans:
 - name: Naftiko Plans Pricing
   plan_count: 4
   slug: naftiko-plans-pricing
-random_paper: 0
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Naftiko Rate Limits
@@ -238,7 +240,7 @@ rules:
   slug: naftiko-polychro-spectral-rules
 score:
   band: thin
-  composite: 35.9
+  composite: 36.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 43.5
@@ -246,15 +248,15 @@ score:
     catalog_gap: 71.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 31.8
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 48.3
-    operational_transparency: 31.6
-  previous_composite: 40.1
+    discoverability: 48.2
+    operational_transparency: 34.2
+  previous_composite: 36.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -265,19 +267,23 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/naftiko/refs/heads/main/screenshots/naftiko-2026-09-02T150721.png
+screenshot: https://apis.io/screenshots/naftiko/naftiko-2026-09-02T150721.png
 security:
 - kind: domain-security
   name: Naftiko Domain Security
   slug: naftiko-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: agents-shared skill discovery
+  slug: naftiko-agents-shared-instructions
 slug: naftiko
 tags:
 - Company

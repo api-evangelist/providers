@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 2.9
-  scored_at: '2026-10-17'
+  score: 6.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API platform for data integration and management
@@ -32,12 +34,12 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lumera/refs/heads/main/hosts/lumera-hosts.yml
+  href: https://artifacts.apis.io/lumera/hosts/lumera-hosts.yml
   title: ''
   type: Hosts
   url: hosts/lumera-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lumera/refs/heads/main/security/lumera-domain-security.yml
+  href: https://artifacts.apis.io/lumera/security/lumera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lumera-domain-security.yml
@@ -60,8 +62,8 @@ modified: '2026-10-15'
 name: Lumera
 nav: Providers
 network: true
-overview: Lumera is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Integration, API-Management, Data-Synchronization, and Enterprise.
-random_paper: 8
+overview: Lumera is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Integration, API Management, Data Synchronization, and Enterprise.
+random_paper: 22
 score:
   band: minimal
   composite: 4.0
@@ -72,6 +74,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -79,6 +82,7 @@ score:
     developer_ergonomics: 0.0
     discoverability: 53.6
     operational_transparency: 0.0
+  previous_composite: 4.0
   provenance:
     mcp: unknown
   regulatory:
@@ -87,8 +91,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -102,8 +107,8 @@ slug: lumera
 tags:
 - Company
 - Integration
-- API-Management
-- Data-Synchronization
+- API Management
+- Data Synchronization
 - Enterprise
 website: https://lumera.com/
 ---

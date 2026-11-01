@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The T3OS developer platform's GraphQL ERP API (es-erp-api). A single GraphQL endpoint served over authenticated Bearer (user-delegated OAuth2) or X-API-Key (workspace-installed) access.
   name: T3OS ERP GraphQL API
   slug: t3os-erp-graphql-api
-artifact_total: 4
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -62,7 +64,7 @@ common:
   type: ChangeLog
   url: https://updates.equipmentshare.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/equipmentshare/refs/heads/main/changelog/equipmentshare-changelog.yml
+  href: https://artifacts.apis.io/equipmentshare/changelog/equipmentshare-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/equipmentshare-changelog.yml
@@ -87,47 +89,47 @@ common:
   type: PrivacyPolicy
   url: https://www.equipmentshare.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/equipmentshare/refs/heads/main/authentication/equipmentshare-authentication.yml
+  href: https://artifacts.apis.io/equipmentshare/authentication/equipmentshare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/equipmentshare-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/equipmentshare/refs/heads/main/scopes/equipmentshare-scopes.yml
+  href: https://artifacts.apis.io/equipmentshare/scopes/equipmentshare-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/equipmentshare-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equipmentshare/refs/heads/main/conventions/equipmentshare-conventions.yml
+  href: https://artifacts.apis.io/equipmentshare/conventions/equipmentshare-conventions.yml
   title: ''
   type: Conventions
   url: conventions/equipmentshare-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equipmentshare/refs/heads/main/conformance/equipmentshare-conformance.yml
+  href: https://artifacts.apis.io/equipmentshare/conformance/equipmentshare-conformance.yml
   title: ''
   type: Conformance
   url: conformance/equipmentshare-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equipmentshare/refs/heads/main/lifecycle/equipmentshare-lifecycle.yml
+  href: https://artifacts.apis.io/equipmentshare/lifecycle/equipmentshare-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/equipmentshare-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/equipmentshare/refs/heads/main/well-known/equipmentshare-well-known.yml
+  href: https://artifacts.apis.io/equipmentshare/well-known/equipmentshare-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/equipmentshare-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/equipmentshare/refs/heads/main/security/equipmentshare-domain-security.yml
+  href: https://artifacts.apis.io/equipmentshare/security/equipmentshare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/equipmentshare-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/equipmentshare/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/equipmentshare/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/equipmentshare/refs/heads/main/llms/equipmentshare-llms.txt
+  href: https://artifacts.apis.io/equipmentshare/llms/equipmentshare-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/equipmentshare-llms.txt
@@ -143,30 +145,30 @@ overview: 'EquipmentShare is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   EquipmentShare''s developer surface includes documentation, changelog, engineering blog, support, authentication, and 15 more developer resources.'
-random_paper: 19
+random_paper: 3
 scopes:
 - name: Equipmentshare Scopes
   scope_count: 2
   slug: equipmentshare-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 25.9
+  band: thin
+  composite: 27.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 39.9
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -174,7 +176,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 25.8
+  previous_composite: 27.6
   provenance:
     conformance: derived
     skills: derived
@@ -184,14 +186,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/equipmentshare/refs/heads/main/screenshots/equipmentshare-2026-07-25T213550.png
+screenshot: https://apis.io/screenshots/equipmentshare/equipmentshare-2026-07-25T213550.png
 security:
 - kind: authentication
   name: Equipmentshare Authentication
@@ -201,6 +203,12 @@ security:
   name: Equipmentshare Domain Security
   slug: equipmentshare-domain-security
   summary_line: TLSv1.2 · DMARC
+skill_count: 2
+skills:
+- name: Connect to T3OS on behalf of a user (OAuth2 + PKCE)
+  slug: equipmentshare-connect-oauth
+- name: Install a T3OS app in a workspace (unattended API key)
+  slug: equipmentshare-install-workspace
 slug: equipmentshare
 tags:
 - Company

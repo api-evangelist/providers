@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 22.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: ThetaRay publishes an API developer portal at api.thetaray.com, hosted on Redocly Cloud. The portal root redirects to /openapi and then to an OIDC login at auth.cloud.redocly.com, so the API reference
@@ -44,7 +46,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thetaray/refs/heads/main/security/thetaray-domain-security.yml
+  href: https://artifacts.apis.io/thetaray/security/thetaray-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thetaray-domain-security.yml
@@ -85,17 +87,17 @@ common:
   type: SecondaryMarket
   url: https://www.hiive.com/securities/thetaray-stock
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thetaray/refs/heads/main/llms/thetaray-llms.txt
+  href: https://artifacts.apis.io/thetaray/llms/thetaray-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thetaray-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thetaray/refs/heads/main/conformance/thetaray-conformance.yml
+  href: https://artifacts.apis.io/thetaray/conformance/thetaray-conformance.yml
   title: ''
   type: Conformance
   url: conformance/thetaray-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thetaray/refs/heads/main/well-known/thetaray-well-known.yml
+  href: https://artifacts.apis.io/thetaray/well-known/thetaray-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/thetaray-well-known.yml
@@ -134,7 +136,7 @@ overview: 'ThetaRay is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   ThetaRay''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 8
+random_paper: 2
 scopes:
 - name: Thetaray Scopes
   scope_count: 4
@@ -142,7 +144,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 22.2
+  composite: 21.9
   coverage:
     artifact_dirs: 11
     catalog_earned: 41.5
@@ -156,9 +158,9 @@ score:
     contract_governance: 31.8
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 68.3
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 22.2
+  previous_composite: 21.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -168,14 +170,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/thetaray/refs/heads/main/screenshots/thetaray-2026-09-02T163525.png
+screenshot: https://apis.io/screenshots/thetaray/thetaray-2026-09-02T163525.png
 security:
 - kind: authentication
   name: Thetaray Authentication

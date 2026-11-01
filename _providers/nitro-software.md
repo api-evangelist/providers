@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.7
-  scored_at: '2026-10-17'
+  score: 34.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -58,15 +60,12 @@ apis:
   description: The Sign API from Nitro Software — 22 operation(s) for sign.
   name: Nitro Software Sign API
   slug: nitro-software-sign-api
-artifact_total: 13
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Nitro Software Sign Webhooks
   slug: nitro-software-sign-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nitro Sign Public Authentication API
   slug: open-nitro-software-authentication-api
@@ -77,17 +76,22 @@ collections:
   name: Nitro Public Authentication Sign API
   slug: open-nitro-software-sign-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/nitro-software/plans/nitro-software-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/nitro-software-plans-pricing.yml
 - group: company
   title: ''
   type: Website
   url: https://www.gonitro.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/agentic-access/nitro-software-agentic-access.yml
+  href: https://artifacts.apis.io/nitro-software/agentic-access/nitro-software-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nitro-software-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/authentication/nitro-software-authentication.yml
+  href: https://artifacts.apis.io/nitro-software/authentication/nitro-software-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nitro-software-authentication.yml
@@ -108,7 +112,7 @@ common:
   type: GettingStarted
   url: https://developers.gonitro.com/docs/getting-started/basic-setup
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/changelog/nitro-software-changelog.yml
+  href: https://artifacts.apis.io/nitro-software/changelog/nitro-software-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nitro-software-changelog.yml
@@ -117,12 +121,12 @@ common:
   type: StatusPage
   url: https://status.gonitro.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/lifecycle/nitro-software-lifecycle.yml
+  href: https://artifacts.apis.io/nitro-software/lifecycle/nitro-software-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/nitro-software-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/asyncapi/nitro-software-sign-webhooks.yml
+  href: https://artifacts.apis.io/nitro-software/asyncapi/nitro-software-sign-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/nitro-software-sign-webhooks.yml
@@ -131,7 +135,7 @@ common:
   type: Security
   url: https://www.gonitro.com/security-compliance/security/responsible-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/security/nitro-software-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nitro-software/security/nitro-software-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nitro-software-vulnerability-disclosure.yml
@@ -144,7 +148,7 @@ common:
   type: Compliance
   url: https://www.gonitro.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/security/nitro-software-domain-security.yml
+  href: https://artifacts.apis.io/nitro-software/security/nitro-software-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nitro-software-domain-security.yml
@@ -173,57 +177,65 @@ common:
   type: Support
   url: https://community.gonitro.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/conventions/nitro-software-conventions.yml
+  href: https://artifacts.apis.io/nitro-software/conventions/nitro-software-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/nitro-software-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/conventions/nitro-software-conventions.yml
+  href: https://artifacts.apis.io/nitro-software/conventions/nitro-software-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nitro-software-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/errors/nitro-software-problem-types.yml
+  href: https://artifacts.apis.io/nitro-software/errors/nitro-software-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nitro-software-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/lifecycle/nitro-software-lifecycle.yml
+  href: https://artifacts.apis.io/nitro-software/lifecycle/nitro-software-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nitro-software-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/data-model/nitro-software-data-model.yml
+  href: https://artifacts.apis.io/nitro-software/data-model/nitro-software-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nitro-software-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/conformance/nitro-software-conformance.yml
+  href: https://artifacts.apis.io/nitro-software/conformance/nitro-software-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nitro-software-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/mcp/nitro-software-mcp.yml
+  href: https://artifacts.apis.io/nitro-software/mcp/nitro-software-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nitro-software-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/llms/nitro-software-llms.txt
+  href: https://artifacts.apis.io/nitro-software/llms/nitro-software-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nitro-software-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/overlays/nitro-software-openapi-overlay.yaml
+  href: https://artifacts.apis.io/nitro-software/overlays/nitro-software-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nitro-software-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nitro-software/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'Nitro Software is a document productivity company (San Francisco, CA; part of the Nitro Productivity Platform) offering PDF editing, eSignature (Nitro Sign), and document intelligence. Nitro publishes a public developer platform of REST APIs at developers.gonitro.com covering two surfaces: a PDF Services / Document Intelligence Platform API (convert, extract, transform, redact, OCR, generate/fill forms) and the Nitro Sign API (envelopes, documents, participants, fields, sealing, audit trails, and signer signing URLs). The APIs use machine-to-machine OAuth 2.0 client-credentials with short-lived bearer JWTs, RFC 9457 problem+json errors, cursor pagination, asynchronous jobs with callbacks, and RFC 9421 signed Sign webhooks. API access requires a Nitro Sign Enterprise plan.'
+finops:
+- has_sources: true
+  method: derived
+  name: Nitro Software Finops
+  primary_unit: ''
+  service_category: ''
+  slug: nitro-software-finops
+  template: true
 image: https://www.gonitro.com/favicon.ico
 layout: provider
 modified: '2026-07-20'
@@ -236,27 +248,31 @@ overview: 'Nitro Software publishes 3 API contracts indexed on the [APIs.io](htt
   The Nitro Software catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Nitro Software''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 25 more developer resources.'
-random_paper: 2
+  Nitro Software''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 26 more developer resources.'
+plans:
+- name: Nitro Software Plans Pricing
+  plan_count: 6
+  slug: nitro-software-plans-pricing
+random_paper: 12
 score:
   band: strong
-  composite: 56.0
+  composite: 63.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 53.9
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 56.5
+    contract_quality: 55.1
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 57.9
-  previous_composite: 56.0
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -279,13 +295,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/screenshots/nitro-software-2026-08-07T185343.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nitro-software/nitro-software-2026-08-07T185343.png
 security:
 - kind: authentication
   name: Nitro Software Authentication
@@ -303,6 +320,14 @@ security:
   name: Nitro Software Trust Center
   slug: nitro-software-trust-center
   summary_line: SOC 2, ISO 27001, HIPAA, eIDAS QTSP, EU-U.S. Data Privacy Framework
+skill_count: 3
+skills:
+- name: Track and collect signed documents from Nitro Sign
+  slug: nitro-software-collect-signed-documents
+- name: Run an async Nitro PDF Services job
+  slug: nitro-software-pdf-services-async-job
+- name: Send an envelope for signature with Nitro Sign
+  slug: nitro-software-send-envelope-for-signature
 slug: nitro-software
 tags:
 - Company

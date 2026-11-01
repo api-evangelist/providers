@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.2
-  scored_at: '2026-10-17'
+  score: 24.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://app.visotrust.com/api/v1
@@ -97,15 +99,12 @@ apis:
   description: The client-api-webhook-rest-resource API from VISO Trust — 2 operation(s) for client-api-webhook-rest-resource.
   name: VISO Trust Client API Webhook Rest Resource API
   slug: viso-trust-client-api-webhook-rest-resource-api
-artifact_total: 29
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Viso Trust Webhooks
   slug: viso-trust-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: VISO TRUST API Documentation client-api-assessment-rest-resource API
   slug: open-viso-trust-client-api-assessment-rest-resource-api
@@ -148,12 +147,12 @@ common:
   type: BlogRSS
   url: https://visotrust.com/resource-types/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/capabilities/viso-trust-capability-edges.yml
+  href: https://artifacts.apis.io/viso-trust/capabilities/viso-trust-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/viso-trust-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/overlays/viso-trust-openapi-overlay.yaml
+  href: https://artifacts.apis.io/viso-trust/overlays/viso-trust-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/viso-trust-openapi-overlay.yaml
@@ -206,7 +205,7 @@ common:
   type: StatusPage
   url: https://status.visotrust.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/changelog/viso-trust-changelog.yml
+  href: https://artifacts.apis.io/viso-trust/changelog/viso-trust-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/viso-trust-changelog.yml
@@ -219,57 +218,57 @@ common:
   type: Security
   url: https://visotrust.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/authentication/viso-trust-authentication.yml
+  href: https://artifacts.apis.io/viso-trust/authentication/viso-trust-authentication.yml
   title: ''
   type: Authentication
   url: authentication/viso-trust-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/security/viso-trust-domain-security.yml
+  href: https://artifacts.apis.io/viso-trust/security/viso-trust-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/viso-trust-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/security/viso-trust-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/viso-trust/security/viso-trust-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/viso-trust-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/conventions/viso-trust-conventions.yml
+  href: https://artifacts.apis.io/viso-trust/conventions/viso-trust-conventions.yml
   title: ''
   type: Conventions
   url: conventions/viso-trust-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/data-model/viso-trust-data-model.yml
+  href: https://artifacts.apis.io/viso-trust/data-model/viso-trust-data-model.yml
   title: ''
   type: DataModel
   url: data-model/viso-trust-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/conformance/viso-trust-conformance.yml
+  href: https://artifacts.apis.io/viso-trust/conformance/viso-trust-conformance.yml
   title: ''
   type: Conformance
   url: conformance/viso-trust-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/lifecycle/viso-trust-lifecycle.yml
+  href: https://artifacts.apis.io/viso-trust/lifecycle/viso-trust-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/viso-trust-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/asyncapi/viso-trust-webhooks.yml
+  href: https://artifacts.apis.io/viso-trust/asyncapi/viso-trust-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/viso-trust-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/mcp/viso-trust-mcp.yml
+  href: https://artifacts.apis.io/viso-trust/mcp/viso-trust-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/viso-trust-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/viso-trust/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/llms/viso-trust-llms.txt
+  href: https://artifacts.apis.io/viso-trust/llms/viso-trust-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/viso-trust-llms.txt
@@ -291,7 +290,7 @@ overview: 'VISO Trust publishes 12 API contracts indexed on the [APIs.io](https:
 random_paper: 16
 score:
   band: developing
-  composite: 50.3
+  composite: 50.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -299,15 +298,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 51.8
-    developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 52.6
-  previous_composite: 50.2
+    contract_quality: 51.2
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 50.0
   provenance:
     conformance: derived
     contracts:
@@ -323,13 +322,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/screenshots/viso-trust-2026-08-17T082801.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/viso-trust/viso-trust-2026-08-17T082801.png
 security:
 - kind: authentication
   name: Viso Trust Authentication
@@ -343,6 +343,14 @@ security:
   name: Viso Trust Vulnerability Disclosure
   slug: viso-trust-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 3
+skills:
+- name: Monitor vendor risk with external intelligence
+  slug: viso-trust-monitor-vendor-risk
+- name: Onboard a vendor and run a risk assessment
+  slug: viso-trust-onboard-vendor-and-assess
+- name: Register a webhook for assessment and relationship events
+  slug: viso-trust-register-webhook-for-events
 slug: viso-trust
 tags:
 - Company

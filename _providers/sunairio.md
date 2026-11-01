@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -41,7 +43,7 @@ common:
   type: BlogRSS
   url: https://sunairio.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sunairio/refs/heads/main/security/sunairio-domain-security.yml
+  href: https://artifacts.apis.io/sunairio/security/sunairio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sunairio-domain-security.yml
@@ -89,10 +91,10 @@ overview: 'Sunairio is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Sunairio''s developer surface includes developer portal, pricing, support, engineering blog, and 5 more developer resources.'
-random_paper: 16
+random_paper: 10
 score:
   band: emerging
-  composite: 14.6
+  composite: 14.3
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -106,9 +108,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 51.7
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 14.6
+  previous_composite: 14.3
   provenance:
     mcp: first-party
   regulatory:
@@ -117,14 +119,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sunairio/refs/heads/main/screenshots/sunairio-2026-09-02T161127.png
+screenshot: https://apis.io/screenshots/sunairio/sunairio-2026-09-02T161127.png
 security:
 - kind: domain-security
   name: Sunairio Domain Security

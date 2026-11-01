@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onemain-holdings/refs/heads/main/security/onemain-holdings-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/onemain-holdings/security/onemain-holdings-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/onemain-holdings-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onemain-holdings/refs/heads/main/security/onemain-holdings-domain-security.yml
+  href: https://artifacts.apis.io/onemain-holdings/security/onemain-holdings-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onemain-holdings-domain-security.yml
@@ -87,10 +89,10 @@ press:
 - date: ''
   title: OneMain 2026 proxy outlines pay, buybacks, proposals
   url: https://www.stocktitan.net/sec-filings/OMF/def-14a-one-main-holdings-inc-definitive-proxy-statement-b56119e0ab68.html
-random_paper: 16
+random_paper: 12
 score:
   band: minimal
-  composite: 3.4
+  composite: 4.8
   coverage:
     artifact_dirs: 6
     catalog_earned: 22.0
@@ -105,22 +107,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 39.3
-    operational_transparency: 0.0
-  previous_composite: 3.4
+    operational_transparency: 10.5
+  previous_composite: 4.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/onemain-holdings/refs/heads/main/screenshots/onemain-holdings-2026-10-11T111916.png
+screenshot: https://apis.io/screenshots/onemain-holdings/onemain-holdings-2026-10-11T111916.png
 security:
 - kind: domain-security
   name: Onemain Holdings Domain Security

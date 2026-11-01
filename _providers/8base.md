@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The 8base GraphQL API provides auto-generated queries, mutations, and subscriptions for every data table in a workspace, covering full CRUD operations out-of-the-box. Each workspace is assigned a uniq
@@ -41,7 +43,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/8base/refs/heads/main/security/8base-domain-security.yml
+  href: https://artifacts.apis.io/8base/security/8base-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/8base-domain-security.yml
@@ -66,17 +68,17 @@ common:
   type: Pricing
   url: https://www.8base.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/8base/refs/heads/main/plans/8base-plans.md
+  href: https://artifacts.apis.io/8base/plans/8base-plans.md
   title: ''
   type: Plans
   url: plans/8base-plans.md
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/8base/refs/heads/main/rate-limits/8base-rate-limits.md
+  href: https://artifacts.apis.io/8base/rate-limits/8base-rate-limits.md
   title: ''
   type: RateLimits
   url: rate-limits/8base-rate-limits.md
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/8base/refs/heads/main/finops/8base-finops.md
+  href: https://artifacts.apis.io/8base/finops/8base-finops.md
   title: ''
   type: FinOps
   url: finops/8base-finops.md
@@ -100,7 +102,7 @@ overview: '8base is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   8base''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 5
+random_paper: 11
 score:
   band: emerging
   composite: 19.9
@@ -111,7 +113,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -119,21 +121,21 @@ score:
     developer_ergonomics: 11.9
     discoverability: 73.2
     operational_transparency: 5.3
-  previous_composite: 19.8
+  previous_composite: 19.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/8base/refs/heads/main/screenshots/8base-2026-06-20T162859.png
+screenshot: https://apis.io/screenshots/8base/8base-2026-06-20T162859.png
 security:
 - kind: domain-security
   name: 8Base Domain Security

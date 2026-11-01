@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -49,12 +51,12 @@ common:
   type: License
   url: https://github.com/google/makani/blob/master/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/makani/refs/heads/main/security/makani-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/makani/security/makani-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/makani-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/makani/refs/heads/main/security/makani-domain-security.yml
+  href: https://artifacts.apis.io/makani/security/makani-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/makani-domain-security.yml
@@ -79,17 +81,17 @@ common:
   type: Security
   url: https://g.co/vrp
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/makani/refs/heads/main/well-known/makani-well-known.yml
+  href: https://artifacts.apis.io/makani/well-known/makani-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/makani-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/makani/refs/heads/main/well-known/makani-security.txt
+  href: https://artifacts.apis.io/makani/well-known/makani-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/makani-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/makani/refs/heads/main/llms/makani-llms.txt
+  href: https://artifacts.apis.io/makani/llms/makani-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/makani-llms.txt
@@ -105,7 +107,7 @@ overview: 'Makani * is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Makani *''s developer surface includes documentation and 12 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: minimal
   composite: 0.0
@@ -125,9 +127,6 @@ score:
     discoverability: 0.0
     operational_transparency: 0.0
   lifecycle: defunct
-  open_source:
-    applies: true
-    score: 0.0
   previous_composite: 0.0
   regulatory:
     applies: true
@@ -135,14 +134,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/makani/refs/heads/main/screenshots/makani-2026-07-25T225932.png
+screenshot: https://apis.io/screenshots/makani/makani-2026-07-25T225932.png
 security:
 - kind: domain-security
   name: Makani Domain Security

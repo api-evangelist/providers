@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: S3-compatible object storage API for Akave decentralized storage; works with AWS SDKs, AWS CLI and Terraform. Credentials and a per-credential endpoint URL are issued in Akave Cloud; the documented co
@@ -40,52 +42,52 @@ apis:
 artifact_total: 13
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akave/refs/heads/main/rules/akave-rules.yml
+  href: https://artifacts.apis.io/akave/rules/akave-rules.yml
   title: ''
   type: Spectral
   url: rules/akave-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akave/refs/heads/main/json-ld/akave-context.jsonld
+  href: https://artifacts.apis.io/akave/json-ld/akave-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/akave-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akave/refs/heads/main/vocabulary/akave-vocabulary.yml
+  href: https://artifacts.apis.io/akave/vocabulary/akave-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/akave-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akave/refs/heads/main/data-model/akave-data-model.yml
+  href: https://artifacts.apis.io/akave/data-model/akave-data-model.yml
   title: ''
   type: DataModel
   url: data-model/akave-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akave/refs/heads/main/conformance/akave-conformance.yml
+  href: https://artifacts.apis.io/akave/conformance/akave-conformance.yml
   title: ''
   type: Conformance
   url: conformance/akave-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/akave/refs/heads/main/llms/akave-llms.txt
+  href: https://artifacts.apis.io/akave/llms/akave-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/akave-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/akave/refs/heads/main/mcp/akave-mcp.yml
+  href: https://artifacts.apis.io/akave/mcp/akave-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/akave-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/akave/refs/heads/main/hosts/akave-hosts.yml
+  href: https://artifacts.apis.io/akave/hosts/akave-hosts.yml
   title: ''
   type: Hosts
   url: hosts/akave-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/akave/refs/heads/main/integrations/akave-integration-edges.yml
+  href: https://artifacts.apis.io/akave/integrations/akave-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/akave-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/akave/refs/heads/main/vendors/akave-vendors.yml
+  href: https://artifacts.apis.io/akave/vendors/akave-vendors.yml
   title: ''
   type: Vendors
   url: vendors/akave-vendors.yml
@@ -98,7 +100,7 @@ common:
   type: Website
   url: https://akave.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/akave/refs/heads/main/security/akave-domain-security.yml
+  href: https://artifacts.apis.io/akave/security/akave-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/akave-domain-security.yml
@@ -184,7 +186,7 @@ overview: 'Akave is listed with 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Akave''s developer surface includes documentation, getting-started guide, engineering blog, pricing, and 17 more developer resources.'
-random_paper: 14
+random_paper: 16
 rules:
 - authorship: generated
   effective_rule_count: 51
@@ -202,19 +204,21 @@ score:
   band: thin
   composite: 31.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 62.0
     catalog_earned_first_party: 0.0
     catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 19.7
     contract_quality: 22.6
     developer_ergonomics: 33.3
-    discoverability: 76.7
+    discoverability: 70.0
     operational_transparency: 5.3
+  previous_composite: 31.8
   provenance:
     conformance: derived
     contracts:
@@ -229,11 +233,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Akave Domain Security

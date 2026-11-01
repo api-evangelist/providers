@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.3
-  scored_at: '2026-10-17'
+  score: 9.7
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Management and orchestration REST API of the Versa Director control plane — SD-WAN workflows, appliance/device management, templates and device groups, dashboard/live status, health, assets, audit log
@@ -42,7 +44,7 @@ apis:
 - description: REST API of Versa Analytics for querying network and security analytics, reporting and alarm data across the Versa estate.
   name: Versa Analytics REST API
   slug: versa-analytics-rest-api
-artifact_total: 6
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -93,62 +95,62 @@ common:
   type: Compliance
   url: https://versa-networks.com/versa-security-and-trust-center/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/versa-networks/refs/heads/main/mcp/versa-networks-mcp.yml
+  href: https://artifacts.apis.io/versa-networks/mcp/versa-networks-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/versa-networks-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/versa-networks/refs/heads/main/llms/versa-networks-llms.txt
+  href: https://artifacts.apis.io/versa-networks/llms/versa-networks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/versa-networks-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/versa-networks/refs/heads/main/packages/versa-networks-packages.yml
+  href: https://artifacts.apis.io/versa-networks/packages/versa-networks-packages.yml
   title: ''
   type: Packages
   url: packages/versa-networks-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/versa-networks/refs/heads/main/packages/versa-networks-packages.yml
+  href: https://artifacts.apis.io/versa-networks/packages/versa-networks-packages.yml
   title: ''
   type: SDKs
   url: packages/versa-networks-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/versa-networks/refs/heads/main/authentication/versa-networks-authentication.yml
+  href: https://artifacts.apis.io/versa-networks/authentication/versa-networks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/versa-networks-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versa-networks/refs/heads/main/conventions/versa-networks-conventions.yml
+  href: https://artifacts.apis.io/versa-networks/conventions/versa-networks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/versa-networks-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versa-networks/refs/heads/main/errors/versa-networks-problem-types.yml
+  href: https://artifacts.apis.io/versa-networks/errors/versa-networks-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/versa-networks-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versa-networks/refs/heads/main/lifecycle/versa-networks-lifecycle.yml
+  href: https://artifacts.apis.io/versa-networks/lifecycle/versa-networks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/versa-networks-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versa-networks/refs/heads/main/conformance/versa-networks-conformance.yml
+  href: https://artifacts.apis.io/versa-networks/conformance/versa-networks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/versa-networks-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versa-networks/refs/heads/main/data-model/versa-networks-data-model.yml
+  href: https://artifacts.apis.io/versa-networks/data-model/versa-networks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/versa-networks-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/versa-networks/refs/heads/main/security/versa-networks-domain-security.yml
+  href: https://artifacts.apis.io/versa-networks/security/versa-networks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/versa-networks-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/versa-networks/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/versa-networks/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -168,10 +170,10 @@ overview: 'Versa Networks is listed with 2 APIs on the [APIs.io](https://apis.io
 
 
   Versa Networks'' developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 9
+random_paper: 19
 score:
   band: thin
-  composite: 30.1
+  composite: 29.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -185,9 +187,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 30.1
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 29.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -198,14 +200,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/versa-networks/refs/heads/main/screenshots/versa-networks-2026-09-02T165747.png
+screenshot: https://apis.io/screenshots/versa-networks/versa-networks-2026-09-02T165747.png
 security:
 - kind: authentication
   name: Versa Networks Authentication
@@ -219,6 +221,14 @@ security:
   name: Versa Networks Trust Center
   slug: versa-networks-trust-center
   summary_line: FedRAMP, FIPS 140, SOC 2, PCI DSS, ISO 27001, ISO 27017, ISO 27018, HIPAA, GDPR, Common Criteria
+skill_count: 3
+skills:
+- name: Inventory Versa appliances
+  slug: versa-networks-inventory-appliances
+- name: Monitor Versa appliance health
+  slug: versa-networks-monitor-appliance-health
+- name: Triage Versa alarms
+  slug: versa-networks-triage-alarms
 slug: versa-networks
 tags:
 - Company

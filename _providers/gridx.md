@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: The Pricing API from GridX — 1 operation(s) for pricing.
   name: GridX Pricing API
   slug: gridx-pricing-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: GridX Enterprise Rate Platform Authentication API
   slug: open-gridx-authentication-api
@@ -90,17 +89,17 @@ common:
   type: Blog
   url: https://gridx.com/blog/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/agentic-access/gridx-agentic-access.yml
+  href: https://artifacts.apis.io/gridx/agentic-access/gridx-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gridx-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/security/gridx-domain-security.yml
+  href: https://artifacts.apis.io/gridx/security/gridx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gridx-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/authentication/gridx-authentication.yml
+  href: https://artifacts.apis.io/gridx/authentication/gridx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gridx-authentication.yml
@@ -117,17 +116,17 @@ common:
   type: Documentation
   url: https://api-calculate-docs.gridx.com/calculate-apis-gridx-docs/get-pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/plans/gridx-plans-pricing.yml
+  href: https://artifacts.apis.io/gridx/plans/gridx-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gridx-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/rate-limits/gridx-rate-limits.yml
+  href: https://artifacts.apis.io/gridx/rate-limits/gridx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gridx-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/finops/gridx-finops.yml
+  href: https://artifacts.apis.io/gridx/finops/gridx-finops.yml
   title: ''
   type: FinOps
   url: finops/gridx-finops.yml
@@ -161,8 +160,8 @@ rate_limits:
   name: Gridx Rate Limits
   slug: gridx-rate-limits
 score:
-  band: emerging
-  composite: 25.9
+  band: thin
+  composite: 26.6
   coverage:
     artifact_dirs: 11
     catalog_earned: 42.0
@@ -170,7 +169,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -178,7 +177,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 32.3
+  previous_composite: 26.6
   provenance:
     agentic_access: derived
     contracts:
@@ -192,13 +191,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/screenshots/gridx-2026-06-20T182406.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gridx/gridx-2026-06-20T182406.png
 security:
 - kind: authentication
   name: Gridx Authentication

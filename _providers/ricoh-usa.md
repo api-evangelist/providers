@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.6
-  scored_at: '2026-10-17'
+  score: 18.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,11 +59,8 @@ apis:
   description: Core OSC protocol endpoints
   name: Ricoh USA Protocol API
   slug: ricoh-usa-protocol-api
-artifact_total: 48
+artifact_total: 47
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: RICOH THETA Web Protocol API
   slug: open-ricoh-usa-protocol-api
@@ -70,12 +69,12 @@ collections:
   slug: open-theta-web-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ricoh-usa/refs/heads/main/agentic-access/ricoh-usa-agentic-access.yml
+  href: https://artifacts.apis.io/ricoh-usa/agentic-access/ricoh-usa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ricoh-usa-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ricoh-usa/refs/heads/main/security/ricoh-usa-domain-security.yml
+  href: https://artifacts.apis.io/ricoh-usa/security/ricoh-usa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ricoh-usa-domain-security.yml
@@ -120,27 +119,27 @@ common:
   type: CaseStudies
   url: https://www.ricoh-usa.com/en/insights/case-studies
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ricoh-usa/refs/heads/main/vocabulary/ricoh-usa-vocabulary.yml
+  href: https://artifacts.apis.io/ricoh-usa/vocabulary/ricoh-usa-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ricoh-usa-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ricoh-usa/refs/heads/main/json-ld/ricoh-usa-context.jsonld
+  href: https://artifacts.apis.io/ricoh-usa/json-ld/ricoh-usa-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/ricoh-usa-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ricoh-usa/refs/heads/main/plans/ricoh-usa-plans-pricing.yml
+  href: https://artifacts.apis.io/ricoh-usa/plans/ricoh-usa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ricoh-usa-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ricoh-usa/refs/heads/main/rate-limits/ricoh-usa-rate-limits.yml
+  href: https://artifacts.apis.io/ricoh-usa/rate-limits/ricoh-usa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ricoh-usa-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ricoh-usa/refs/heads/main/finops/ricoh-usa-finops.yml
+  href: https://artifacts.apis.io/ricoh-usa/finops/ricoh-usa-finops.yml
   title: ''
   type: FinOps
   url: finops/ricoh-usa-finops.yml
@@ -265,7 +264,7 @@ plans:
 - name: Ricoh Usa Plans Pricing
   plan_count: 3
   slug: ricoh-usa-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Ricoh Usa Rate Limits
@@ -295,28 +294,28 @@ rules:
   slug: theta-web-api-rules
 score:
   band: thin
-  composite: 32.6
+  composite: 34.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 64.0
     catalog_earned_first_party: 0.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 58.4
-    developer_ergonomics: 36.9
+    developer_ergonomics: 42.9
     discoverability: 57.1
-    operational_transparency: 10.5
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 40.8
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -330,13 +329,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ricoh-usa/refs/heads/main/screenshots/ricoh-usa-2026-06-20T193118.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ricoh-usa/ricoh-usa-2026-06-20T193118.png
 security:
 - kind: domain-security
   name: Ricoh Usa Domain Security

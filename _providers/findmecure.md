@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/findmecure/refs/heads/main/security/findmecure-domain-security.yml
+  href: https://artifacts.apis.io/findmecure/security/findmecure-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/findmecure-domain-security.yml
@@ -50,7 +52,7 @@ common:
   type: Blog
   url: https://www.findmecure.com/blog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/findmecure/refs/heads/main/llms/findmecure-llms.txt
+  href: https://artifacts.apis.io/findmecure/llms/findmecure-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/findmecure-llms.txt
@@ -69,7 +71,7 @@ overview: 'FindMeCure is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 2
 score:
   band: minimal
-  composite: 4.9
+  composite: 4.2
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -83,23 +85,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 4.9
+  previous_composite: 4.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/findmecure/refs/heads/main/screenshots/findmecure-2026-07-25T214514.png
+screenshot: https://apis.io/screenshots/findmecure/findmecure-2026-07-25T214514.png
 security:
 - kind: domain-security
   name: Findmecure Domain Security

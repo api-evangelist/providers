@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Sedai is an AI-driven autonomous cloud optimization platform using reinforcement learning to continuously adjust resources in real-time.
@@ -46,22 +48,22 @@ asyncapis:
   slug: sedai-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sedai/refs/heads/main/plans/sedai-plans-pricing.yml
+  href: https://artifacts.apis.io/sedai/plans/sedai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sedai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sedai/refs/heads/main/rate-limits/sedai-rate-limits.yml
+  href: https://artifacts.apis.io/sedai/rate-limits/sedai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sedai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sedai/refs/heads/main/finops/sedai-finops.yml
+  href: https://artifacts.apis.io/sedai/finops/sedai-finops.yml
   title: ''
   type: FinOps
   url: finops/sedai-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sedai/refs/heads/main/security/sedai-domain-security.yml
+  href: https://artifacts.apis.io/sedai/security/sedai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sedai-domain-security.yml
@@ -86,27 +88,27 @@ common:
   type: Blog
   url: https://sedai.io/blog
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sedai/refs/heads/main/packages/sedai-packages.yml
+  href: https://artifacts.apis.io/sedai/packages/sedai-packages.yml
   title: ''
   type: Packages
   url: packages/sedai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sedai/refs/heads/main/packages/sedai-packages.yml
+  href: https://artifacts.apis.io/sedai/packages/sedai-packages.yml
   title: ''
   type: SDKs
   url: packages/sedai-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sedai/refs/heads/main/conformance/sedai-conformance.yml
+  href: https://artifacts.apis.io/sedai/conformance/sedai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sedai-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sedai/refs/heads/main/conformance/sedai-conformance.yml
+  href: https://artifacts.apis.io/sedai/conformance/sedai-conformance.yml
   title: ''
   type: Compliance
   url: conformance/sedai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sedai/refs/heads/main/llms/sedai-llms.txt
+  href: https://artifacts.apis.io/sedai/llms/sedai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sedai-llms.txt
@@ -145,11 +147,11 @@ common:
 created: '2026-03-27'
 description: 'Sedai is an autonomous cloud and AI optimization platform. It continuously analyzes application behavior — traffic, resource utilization, latency and errors — and then adjusts cloud configuration in real time to cut cost, improve performance and protect availability, across Kubernetes, VMs, serverless, storage, databases, GPUs and AI agent workloads on AWS, Azure and GCP. It operates in three modes: Datapilot (observe only), Copilot (human approves each change) and Autopilot (fully autonomous). Sedai exposes a tenant-scoped platform API at https://{tenant}.sedai.app reached through first-party Python and TypeScript SDKs, a Terraform provider and a Helm chart for its in-cluster Smart Agent, but publishes no OpenAPI and no public API reference on its documentation site.'
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Sedai Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: sedai-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sedai.png
@@ -169,14 +171,14 @@ plans:
 - name: Sedai Plans Pricing
   plan_count: 0
   slug: sedai-plans-pricing
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Sedai Rate Limits
   slug: sedai-rate-limits
 score:
   band: developing
-  composite: 43.4
+  composite: 46.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -184,15 +186,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 54.8
     discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 44.9
+    operational_transparency: 28.9
+  previous_composite: 46.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -202,14 +204,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sedai/refs/heads/main/screenshots/sedai-2026-06-20T193631.png
+screenshot: https://apis.io/screenshots/sedai/sedai-2026-06-20T193631.png
 security:
 - kind: authentication
   name: Sedai Authentication

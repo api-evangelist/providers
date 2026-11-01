@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.3
-  scored_at: '2026-10-17'
+  score: 33.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,11 +49,8 @@ apis:
   description: Read-only operations that return one or more Ron Swanson quotes from the static quote corpus.
   name: Ron Swanson Quotes API
   slug: ron-swanson-quotes-quotes-api
-artifact_total: 33
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ron Swanson Quotes API
   slug: open-ron-swanson-quotes-quotes-api
@@ -68,12 +67,12 @@ common:
   type: Releases
   url: https://github.com/jamesseanwright/ron-swanson-quotes/releases
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ron-swanson-quotes/refs/heads/main/agentic-access/ron-swanson-quotes-agentic-access.yml
+  href: https://artifacts.apis.io/ron-swanson-quotes/agentic-access/ron-swanson-quotes-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ron-swanson-quotes-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ron-swanson-quotes/refs/heads/main/security/ron-swanson-quotes-domain-security.yml
+  href: https://artifacts.apis.io/ron-swanson-quotes/security/ron-swanson-quotes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ron-swanson-quotes-domain-security.yml
@@ -114,17 +113,17 @@ common:
   type: License
   url: https://github.com/jamesseanwright/ron-swanson-quotes/blob/master/LICENCE
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ron-swanson-quotes/refs/heads/main/rules/ron-swanson-quotes-rules.yml
+  href: https://artifacts.apis.io/ron-swanson-quotes/rules/ron-swanson-quotes-rules.yml
   title: Ron Swanson Quotes Spectral Ruleset
   type: SpectralRules
   url: rules/ron-swanson-quotes-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ron-swanson-quotes/refs/heads/main/json-ld/ron-swanson-quotes-context.jsonld
+  href: https://artifacts.apis.io/ron-swanson-quotes/json-ld/ron-swanson-quotes-context.jsonld
   title: Ron Swanson Quotes JSON-LD Context
   type: JSONLD
   url: json-ld/ron-swanson-quotes-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ron-swanson-quotes/refs/heads/main/vocabulary/ron-swanson-quotes-vocabulary.yml
+  href: https://artifacts.apis.io/ron-swanson-quotes/vocabulary/ron-swanson-quotes-vocabulary.yml
   title: Ron Swanson Quotes Vocabulary
   type: Vocabulary
   url: vocabulary/ron-swanson-quotes-vocabulary.yml
@@ -196,7 +195,7 @@ overview: 'Ron Swanson Quotes publishes 1 API contract indexed on the [APIs.io](
 
 
   Ron Swanson Quotes'' developer surface includes documentation, changelog, authentication, code examples, and 12 more developer resources.'
-random_paper: 5
+random_paper: 3
 rules:
 - authorship: generated
   effective_rule_count: 4
@@ -223,7 +222,7 @@ rules:
   slug: ron-swanson-quotes-rules
 score:
   band: thin
-  composite: 34.4
+  composite: 35.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 60.0
@@ -236,10 +235,10 @@ score:
     access_clarity: 0.0
     contract_governance: 27.3
     contract_quality: 60.6
-    developer_ergonomics: 32.1
+    developer_ergonomics: 35.7
     discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 34.4
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -253,14 +252,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/ron-swanson-quotes/refs/heads/main/screenshots/ron-swanson-quotes-2026-06-20T193218.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ron-swanson-quotes/ron-swanson-quotes-2026-06-20T193218.png
 security:
 - kind: domain-security
   name: Ron Swanson Quotes Domain Security

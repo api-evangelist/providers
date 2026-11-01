@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -131,7 +133,7 @@ apis:
   description: The Webhooks API from Pinch Payments — 2 operation(s) for webhooks.
   name: Pinch Payments Webhooks API
   slug: pinch-payments-webhooks-api
-artifact_total: 43
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Pinch Payments Webhooks
@@ -198,12 +200,17 @@ collections:
   name: pinch-api-webhooks
   slug: open-pinch-payments-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/pinch-payments/plans/pinch-payments-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/pinch-payments-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://getpinch.com.au/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/capabilities/pinch-payments-capability-edges.yml
+  href: https://artifacts.apis.io/pinch-payments/capabilities/pinch-payments-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pinch-payments-capability-edges.yml
@@ -212,22 +219,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/pinch-payments/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/scopes/pinch-payments-scopes.yml
+  href: https://artifacts.apis.io/pinch-payments/scopes/pinch-payments-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pinch-payments-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/agentic-access/pinch-payments-agentic-access.yml
+  href: https://artifacts.apis.io/pinch-payments/agentic-access/pinch-payments-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pinch-payments-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/security/pinch-payments-domain-security.yml
+  href: https://artifacts.apis.io/pinch-payments/security/pinch-payments-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pinch-payments-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/authentication/pinch-payments-authentication.yml
+  href: https://artifacts.apis.io/pinch-payments/authentication/pinch-payments-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pinch-payments-authentication.yml
@@ -288,52 +295,52 @@ common:
   type: PrivacyPolicy
   url: https://getpinch.com.au/Legal/Privacy/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/packages/pinch-payments-packages.yml
+  href: https://artifacts.apis.io/pinch-payments/packages/pinch-payments-packages.yml
   title: ''
   type: Packages
   url: packages/pinch-payments-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/packages/pinch-payments-packages.yml
+  href: https://artifacts.apis.io/pinch-payments/packages/pinch-payments-packages.yml
   title: ''
   type: SDKs
   url: packages/pinch-payments-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/mcp/pinch-payments-mcp.yml
+  href: https://artifacts.apis.io/pinch-payments/mcp/pinch-payments-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/pinch-payments-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/mcp/pinch-payments-tool-crosswalk.yml
+  href: https://artifacts.apis.io/pinch-payments/mcp/pinch-payments-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/pinch-payments-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/llms/pinch-payments-llms.txt
+  href: https://artifacts.apis.io/pinch-payments/llms/pinch-payments-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pinch-payments-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/overlays/pinch-payments-core-overlay.yaml
+  href: https://artifacts.apis.io/pinch-payments/overlays/pinch-payments-core-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pinch-payments-core-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/conformance/pinch-payments-conformance.yml
+  href: https://artifacts.apis.io/pinch-payments/conformance/pinch-payments-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pinch-payments-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/errors/pinch-payments-problem-types.yml
+  href: https://artifacts.apis.io/pinch-payments/errors/pinch-payments-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pinch-payments-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/errors/pinch-payments-decline-codes.yml
+  href: https://artifacts.apis.io/pinch-payments/errors/pinch-payments-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/pinch-payments-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/lifecycle/pinch-payments-lifecycle.yml
+  href: https://artifacts.apis.io/pinch-payments/lifecycle/pinch-payments-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pinch-payments-lifecycle.yml
@@ -342,48 +349,56 @@ common:
   type: Deprecation
   url: https://docs.getpinch.com.au/docs/versioning
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/sandbox/pinch-payments-sandbox.yml
+  href: https://artifacts.apis.io/pinch-payments/sandbox/pinch-payments-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/pinch-payments-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/conventions/pinch-payments-conventions.yml
+  href: https://artifacts.apis.io/pinch-payments/conventions/pinch-payments-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pinch-payments-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/conventions/pinch-payments-conventions.yml
+  href: https://artifacts.apis.io/pinch-payments/conventions/pinch-payments-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/pinch-payments-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/changelog/pinch-payments-changelog.yml
+  href: https://artifacts.apis.io/pinch-payments/changelog/pinch-payments-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pinch-payments-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/components/pinch-payments-components.yml
+  href: https://artifacts.apis.io/pinch-payments/components/pinch-payments-components.yml
   title: ''
   type: Components
   url: components/pinch-payments-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/data-model/pinch-payments-data-model.yml
+  href: https://artifacts.apis.io/pinch-payments/data-model/pinch-payments-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pinch-payments-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/asyncapi/pinch-payments-webhooks.yml
+  href: https://artifacts.apis.io/pinch-payments/asyncapi/pinch-payments-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/pinch-payments-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pinch-payments/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-24'
 description: 'Pinch Payments is an Australian, Brisbane-based payment orchestration and payment-facilitator platform that automates invoice collection and receivables for service businesses, bookkeepers, and software platforms across Australia and New Zealand. Marketing itself as "Aussie-Made Payments Infrastructure," Pinch lets merchants accept direct debit (bank account) and card payments (Visa, Mastercard, American Express), build payment plans and subscriptions, tokenise payment sources client-side with its CaptureJS library, and reconcile settlements back into Xero, QuickBooks, and MYOB. Its Glassbox / Managed Merchants offering is a Payfac-as-a-Service seam with KYC, compliance, and sub-merchant onboarding for platforms acting as aggregators or marketplaces. Pinch is genuinely API-first: it ships a fully documented REST API (JSON, OAuth2 client-credentials auth), a ReadMe-hosted developer portal with a live API explorer, per-product OpenAPI 3.1 definitions, a published Postman collection,
   an official .NET SDK, Zapier/n8n/viaSocket no-code connectors, webhooks for real-time events, and an llms.txt + docs MCP server for AI-assisted integration.'
+finops:
+- has_sources: true
+  method: derived
+  name: Pinch Payments Finops
+  primary_unit: transaction
+  service_category: ''
+  slug: pinch-payments-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
@@ -400,31 +415,38 @@ overview: 'Pinch Payments publishes 17 API contracts indexed on the [APIs.io](ht
   The Pinch Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Pinch Payments'' developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, and 33 more developer resources.'
-random_paper: 4
+  Pinch Payments'' developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, and 34 more developer resources.'
+plans:
+- name: Pinch Payments Plans Pricing
+  plan_count: 4
+  slug: pinch-payments-plans-pricing
+- name: Pinch Payments Price Estimates
+  plan_count: 0
+  slug: pinch-payments-price-estimates
+random_paper: 16
 scopes:
 - name: Pinch Payments Scopes
   scope_count: 1
   slug: pinch-payments-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: developing
-  composite: 52.3
+  band: strong
+  composite: 61.9
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 28
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 53.4
-    developer_ergonomics: 62.5
-    discoverability: 76.7
-    operational_transparency: 46.1
+    developer_ergonomics: 78.0
+    discoverability: 70.0
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -433,7 +455,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 52.2
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -450,13 +472,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/screenshots/pinch-payments-2026-08-17T081230.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pinch-payments/pinch-payments-2026-08-17T081230.png
 security:
 - kind: authentication
   name: Pinch Payments Authentication
@@ -466,6 +489,18 @@ security:
   name: Pinch Payments Domain Security
   slug: pinch-payments-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Set up a direct debit and reconcile settlement
+  slug: pinch-payments-direct-debit-and-reconcile
+- name: Onboard a managed (sub-) merchant
+  slug: pinch-payments-managed-merchant-onboarding
+- name: Create a plan and subscribe a payer
+  slug: pinch-payments-plan-and-subscription
+- name: Issue an idempotent refund
+  slug: pinch-payments-refund-with-nonce
+- name: Take a realtime card payment
+  slug: pinch-payments-take-card-payment
 slug: pinch-payments
 tags:
 - Payments

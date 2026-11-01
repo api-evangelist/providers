@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The enterprise REST API. Callers upload files of broker conversations for asynchronous processing and retrieve the extracted RFQs once parsing completes, or call the prediction operations synchronousl
@@ -86,72 +88,72 @@ common:
   type: Compliance
   url: https://sensestreet.com/security-compliance/certifications
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sense-street/refs/heads/main/security/sense-street-trust-center.yml
+  href: https://artifacts.apis.io/sense-street/security/sense-street-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sense-street-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sense-street/refs/heads/main/conformance/sense-street-conformance.yml
+  href: https://artifacts.apis.io/sense-street/conformance/sense-street-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sense-street-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sense-street/refs/heads/main/security/sense-street-domain-security.yml
+  href: https://artifacts.apis.io/sense-street/security/sense-street-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sense-street-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sense-street/refs/heads/main/packages/sense-street-packages.yml
+  href: https://artifacts.apis.io/sense-street/packages/sense-street-packages.yml
   title: ''
   type: Packages
   url: packages/sense-street-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sense-street/refs/heads/main/packages/sense-street-packages.yml
+  href: https://artifacts.apis.io/sense-street/packages/sense-street-packages.yml
   title: ''
   type: SDKs
   url: packages/sense-street-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sense-street/refs/heads/main/authentication/sense-street-authentication.yml
+  href: https://artifacts.apis.io/sense-street/authentication/sense-street-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sense-street-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sense-street/refs/heads/main/conventions/sense-street-conventions.yml
+  href: https://artifacts.apis.io/sense-street/conventions/sense-street-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sense-street-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sense-street/refs/heads/main/data-model/sense-street-data-model.yml
+  href: https://artifacts.apis.io/sense-street/data-model/sense-street-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sense-street-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sense-street/refs/heads/main/errors/sense-street-problem-types.yml
+  href: https://artifacts.apis.io/sense-street/errors/sense-street-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sense-street-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sense-street/refs/heads/main/lifecycle/sense-street-lifecycle.yml
+  href: https://artifacts.apis.io/sense-street/lifecycle/sense-street-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sense-street-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sense-street/refs/heads/main/plans/sense-street-plans-pricing.yml
+  href: https://artifacts.apis.io/sense-street/plans/sense-street-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sense-street-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sense-street/refs/heads/main/rate-limits/sense-street-rate-limits.yml
+  href: https://artifacts.apis.io/sense-street/rate-limits/sense-street-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sense-street-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sense-street/refs/heads/main/mcp/sense-street-mcp.yml
+  href: https://artifacts.apis.io/sense-street/mcp/sense-street-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sense-street-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sense-street/refs/heads/main/llms/sense-street-llms.txt
+  href: https://artifacts.apis.io/sense-street/llms/sense-street-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sense-street-llms.txt
@@ -172,16 +174,16 @@ plans:
 - name: Sense Street Plans Pricing
   plan_count: 0
   slug: sense-street-plans-pricing
-random_paper: 18
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Sense Street Rate Limits
   slug: sense-street-rate-limits
 score:
   band: thin
-  composite: 28.3
+  composite: 28.7
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -194,8 +196,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 64.3
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 28.3
+    operational_transparency: 5.3
+  previous_composite: 28.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -213,14 +215,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 27.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sense-street/refs/heads/main/screenshots/sense-street-2026-09-02T154849.png
+screenshot: https://apis.io/screenshots/sense-street/sense-street-2026-09-02T154849.png
 security:
 - kind: authentication
   name: Sense Street Authentication

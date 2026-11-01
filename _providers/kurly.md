@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 34.3
-  scored_at: '2026-10-17'
+  score: 31.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -71,11 +73,8 @@ arazzos:
 - description: Register a SKU, book it inbound to a Kurly fulfillment centre with an idempotency key, pull the inbound label and transaction specification, then poll request-level status, item-level status and excep
   name: Kurly fulfillment inbound receiving flow
   slug: kurly-inbound-receiving-flow
-artifact_total: 14
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kurly Logistics Services (KLS) Open API Authentication API
   slug: open-kurly-authentication-api
@@ -87,17 +86,17 @@ collections:
   slug: open-kurly-delivery-tracking-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/rate-limits/kurly-rate-limits.yml
+  href: https://artifacts.apis.io/kurly/rate-limits/kurly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kurly-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/capabilities/kurly-capability-edges.yml
+  href: https://artifacts.apis.io/kurly/capabilities/kurly-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kurly-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/overlays/kurly-auth-overlay.yaml
+  href: https://artifacts.apis.io/kurly/overlays/kurly-auth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kurly-auth-overlay.yaml
@@ -142,67 +141,67 @@ common:
   type: Console
   url: https://kls.kurly.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/authentication/kurly-authentication.yml
+  href: https://artifacts.apis.io/kurly/authentication/kurly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kurly-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/agentic-access/kurly-agentic-access.yml
+  href: https://artifacts.apis.io/kurly/agentic-access/kurly-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kurly-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/mcp/kurly-mcp.yml
+  href: https://artifacts.apis.io/kurly/mcp/kurly-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kurly-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/llms/kurly-llms.txt
+  href: https://artifacts.apis.io/kurly/llms/kurly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kurly-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kurly/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/conventions/kurly-conventions.yml
+  href: https://artifacts.apis.io/kurly/conventions/kurly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kurly-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/conventions/kurly-conventions.yml
+  href: https://artifacts.apis.io/kurly/conventions/kurly-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/kurly-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/errors/kurly-error-codes.yml
+  href: https://artifacts.apis.io/kurly/errors/kurly-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kurly-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/data-model/kurly-data-model.yml
+  href: https://artifacts.apis.io/kurly/data-model/kurly-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kurly-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/vocabulary/kurly-vocabulary.yml
+  href: https://artifacts.apis.io/kurly/vocabulary/kurly-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/kurly-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/rate-limits/kurly-rate-limits.yml
+  href: https://artifacts.apis.io/kurly/rate-limits/kurly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kurly-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/lifecycle/kurly-lifecycle.yml
+  href: https://artifacts.apis.io/kurly/lifecycle/kurly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kurly-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/changelog/kurly-changelog.yml
+  href: https://artifacts.apis.io/kurly/changelog/kurly-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kurly-changelog.yml
@@ -211,37 +210,37 @@ common:
   type: ChangeLog
   url: https://developers.kurly.com/changelog
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/conformance/kurly-conformance.yml
+  href: https://artifacts.apis.io/kurly/conformance/kurly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kurly-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/sandbox/kurly-sandbox.yml
+  href: https://artifacts.apis.io/kurly/sandbox/kurly-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kurly-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/security/kurly-domain-security.yml
+  href: https://artifacts.apis.io/kurly/security/kurly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kurly-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/well-known/kurly-well-known.yml
+  href: https://artifacts.apis.io/kurly/well-known/kurly-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kurly-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/arazzo/kurly-delivery-order-to-tracking.yml
+  href: https://artifacts.apis.io/kurly/arazzo/kurly-delivery-order-to-tracking.yml
   title: ''
   type: Arazzo
   url: arazzo/kurly-delivery-order-to-tracking.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/arazzo/kurly-inbound-receiving-flow.yml
+  href: https://artifacts.apis.io/kurly/arazzo/kurly-inbound-receiving-flow.yml
   title: ''
   type: Arazzo
   url: arazzo/kurly-inbound-receiving-flow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/arazzo/kurly-fulfillment-order-flow.yml
+  href: https://artifacts.apis.io/kurly/arazzo/kurly-fulfillment-order-flow.yml
   title: ''
   type: Arazzo
   url: arazzo/kurly-fulfillment-order-flow.yml
@@ -257,14 +256,14 @@ overview: 'Kurly publishes 3 API contracts indexed on the [APIs.io](https://apis
 
 
   Kurly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 27 more developer resources.'
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Kurly Rate Limits
   slug: kurly-rate-limits
 score:
-  band: thin
-  composite: 32.8
+  band: developing
+  composite: 40.1
   coverage:
     artifact_dirs: 25
     catalog_earned: 45.0
@@ -272,14 +271,14 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 19.7
     contract_quality: 46.9
-    developer_ergonomics: 31.5
-    discoverability: 78.6
-    operational_transparency: 18.4
+    developer_ergonomics: 66.1
+    discoverability: 71.4
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -287,7 +286,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 32.7
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,13 +303,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/screenshots/kurly-2026-07-25T224336.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kurly/kurly-2026-07-25T224336.png
 security:
 - kind: authentication
   name: Kurly Authentication
@@ -320,6 +320,16 @@ security:
   name: Kurly Domain Security
   slug: kurly-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: Send outbound orders to a Kurly fulfillment centre
+  slug: kurly-fulfillment-order
+- name: Book and track a Kurly inbound receiving request
+  slug: kurly-inbound-receiving
+- name: Register a Kurly delivery-agency order safely
+  slug: kurly-register-delivery-order
+- name: Track a Kurly Nextmile shipment
+  slug: kurly-track-shipment
 slug: kurly
 tags:
 - Company

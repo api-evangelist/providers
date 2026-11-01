@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -69,7 +71,7 @@ common:
   type: TermsOfService
   url: https://www.betterup.com/enterprise-software-as-a-service-agreement
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betterup/refs/heads/main/security/betterup-trust-center.yml
+  href: https://artifacts.apis.io/betterup/security/betterup-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/betterup-trust-center.yml
@@ -78,12 +80,12 @@ common:
   type: Compliance
   url: https://www.betterup.com/trust-and-security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betterup/refs/heads/main/security/betterup-domain-security.yml
+  href: https://artifacts.apis.io/betterup/security/betterup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/betterup-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/betterup/refs/heads/main/llms/betterup-llms.txt
+  href: https://artifacts.apis.io/betterup/llms/betterup-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/betterup-llms.txt
@@ -99,10 +101,10 @@ overview: 'BetterUp is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BetterUp''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 17
+random_paper: 11
 score:
   band: emerging
-  composite: 16.7
+  composite: 16.0
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -116,23 +118,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 16.7
+  previous_composite: 16.0
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/betterup/refs/heads/main/screenshots/betterup-2026-07-25T202815.png
+screenshot: https://apis.io/screenshots/betterup/betterup-2026-07-25T202815.png
 security:
 - kind: domain-security
   name: Betterup Domain Security

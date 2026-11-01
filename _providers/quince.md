@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -49,12 +51,12 @@ common:
   type: Careers
   url: https://www.quince.com/careers
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quince/refs/heads/main/security/quince-domain-security.yml
+  href: https://artifacts.apis.io/quince/security/quince-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quince-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quince/refs/heads/main/well-known/quince-well-known.yml
+  href: https://artifacts.apis.io/quince/well-known/quince-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/quince-well-known.yml
@@ -67,7 +69,7 @@ name: Quince
 nav: Providers
 network: true
 overview: Quince is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Direct to Consumer, and Apparel.
-random_paper: 7
+random_paper: 21
 score:
   band: minimal
   composite: 3.4
@@ -93,14 +95,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/quince/refs/heads/main/screenshots/quince-2026-09-02T152703.png
+screenshot: https://apis.io/screenshots/quince/quince-2026-09-02T152703.png
 security:
 - kind: domain-security
   name: Quince Domain Security

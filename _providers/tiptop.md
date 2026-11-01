@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Server-side order-management endpoints for the Tiptop Direct integration: request capture, void (full or partial), and refund (full or partial) of orders created through the tiptop.js checkout, addres'
@@ -48,7 +50,7 @@ common:
   type: Website
   url: https://tiptop.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tiptop/refs/heads/main/security/tiptop-domain-security.yml
+  href: https://artifacts.apis.io/tiptop/security/tiptop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tiptop-domain-security.yml
@@ -73,62 +75,62 @@ common:
   type: Blog
   url: https://blog.tiptop.xyz/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tiptop/refs/heads/main/packages/tiptop-packages.yml
+  href: https://artifacts.apis.io/tiptop/packages/tiptop-packages.yml
   title: ''
   type: Packages
   url: packages/tiptop-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tiptop/refs/heads/main/packages/tiptop-packages.yml
+  href: https://artifacts.apis.io/tiptop/packages/tiptop-packages.yml
   title: ''
   type: SDKs
   url: packages/tiptop-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tiptop/refs/heads/main/components/tiptop-components.yml
+  href: https://artifacts.apis.io/tiptop/components/tiptop-components.yml
   title: ''
   type: Components
   url: components/tiptop-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tiptop/refs/heads/main/authentication/tiptop-authentication.yml
+  href: https://artifacts.apis.io/tiptop/authentication/tiptop-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tiptop-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/tiptop/refs/heads/main/sandbox/tiptop-sandbox.yml
+  href: https://artifacts.apis.io/tiptop/sandbox/tiptop-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tiptop-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tiptop/refs/heads/main/conventions/tiptop-conventions.yml
+  href: https://artifacts.apis.io/tiptop/conventions/tiptop-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tiptop-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tiptop/refs/heads/main/errors/tiptop-problem-types.yml
+  href: https://artifacts.apis.io/tiptop/errors/tiptop-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tiptop-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tiptop/refs/heads/main/lifecycle/tiptop-lifecycle.yml
+  href: https://artifacts.apis.io/tiptop/lifecycle/tiptop-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tiptop-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tiptop/refs/heads/main/conformance/tiptop-conformance.yml
+  href: https://artifacts.apis.io/tiptop/conformance/tiptop-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tiptop-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tiptop/refs/heads/main/data-model/tiptop-data-model.yml
+  href: https://artifacts.apis.io/tiptop/data-model/tiptop-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tiptop-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tiptop/refs/heads/main/mcp/tiptop-mcp.yml
+  href: https://artifacts.apis.io/tiptop/mcp/tiptop-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tiptop-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tiptop/refs/heads/main/llms/tiptop-llms.txt
+  href: https://artifacts.apis.io/tiptop/llms/tiptop-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tiptop-llms.txt
@@ -144,10 +146,10 @@ overview: 'Tiptop is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Tiptop''s developer surface includes documentation, getting-started guide, API reference, engineering blog, authentication, sandbox, and 13 more developer resources.'
-random_paper: 12
+random_paper: 0
 score:
   band: emerging
-  composite: 18.3
+  composite: 18.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -155,15 +157,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 57.1
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 18.2
+    operational_transparency: 5.3
+  previous_composite: 18.6
   provenance:
     conformance: derived
     mcp: derived
@@ -173,14 +175,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tiptop/refs/heads/main/screenshots/tiptop-2026-09-02T163815.png
+screenshot: https://apis.io/screenshots/tiptop/tiptop-2026-09-02T163815.png
 security:
 - kind: authentication
   name: Tiptop Authentication

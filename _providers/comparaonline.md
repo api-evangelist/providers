@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +71,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/comparaonline
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/comparaonline/refs/heads/main/security/comparaonline-domain-security.yml
+  href: https://artifacts.apis.io/comparaonline/security/comparaonline-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/comparaonline-domain-security.yml
@@ -85,10 +87,10 @@ overview: 'ComparaOnline is profiled on the [APIs.io](https://apis.io/) network.
 
 
   ComparaOnline''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 20
+random_paper: 16
 score:
   band: minimal
-  composite: 3.9
+  composite: 7.9
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -98,12 +100,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
+    developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -111,21 +113,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 3.9
+  previous_composite: 7.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 5.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 8.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/comparaonline/refs/heads/main/screenshots/comparaonline-2026-07-25T210144.png
+screenshot: https://apis.io/screenshots/comparaonline/comparaonline-2026-07-25T210144.png
 security:
 - kind: domain-security
   name: Comparaonline Domain Security

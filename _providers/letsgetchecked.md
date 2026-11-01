@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: Version 1 of the LetsGetChecked Orders API. Create a pre-activated test-kit order against a client-supplied order identifier (PUT is documented as idempotent), query order status from dispatch through
@@ -120,42 +122,42 @@ common:
   type: ChangeLog
   url: https://docs.letsgetchecked.com/documentation/release-notes/release_notes/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/changelog/letsgetchecked-changelog.yml
+  href: https://artifacts.apis.io/letsgetchecked/changelog/letsgetchecked-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/letsgetchecked-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/vocabulary/letsgetchecked-glossary.yml
+  href: https://artifacts.apis.io/letsgetchecked/vocabulary/letsgetchecked-glossary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/letsgetchecked-glossary.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/authentication/letsgetchecked-authentication.yml
+  href: https://artifacts.apis.io/letsgetchecked/authentication/letsgetchecked-authentication.yml
   title: ''
   type: Authentication
   url: authentication/letsgetchecked-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/conventions/letsgetchecked-conventions.yml
+  href: https://artifacts.apis.io/letsgetchecked/conventions/letsgetchecked-conventions.yml
   title: ''
   type: Conventions
   url: conventions/letsgetchecked-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/conventions/letsgetchecked-conventions.yml
+  href: https://artifacts.apis.io/letsgetchecked/conventions/letsgetchecked-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/letsgetchecked-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/errors/letsgetchecked-problem-types.yml
+  href: https://artifacts.apis.io/letsgetchecked/errors/letsgetchecked-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/letsgetchecked-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/lifecycle/letsgetchecked-lifecycle.yml
+  href: https://artifacts.apis.io/letsgetchecked/lifecycle/letsgetchecked-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/letsgetchecked-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/conformance/letsgetchecked-conformance.yml
+  href: https://artifacts.apis.io/letsgetchecked/conformance/letsgetchecked-conformance.yml
   title: ''
   type: Conformance
   url: conformance/letsgetchecked-conformance.yml
@@ -164,12 +166,12 @@ common:
   type: Compliance
   url: https://trust.letsgetchecked.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/security/letsgetchecked-trust-center.yml
+  href: https://artifacts.apis.io/letsgetchecked/security/letsgetchecked-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/letsgetchecked-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/security/letsgetchecked-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/letsgetchecked/security/letsgetchecked-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/letsgetchecked-vulnerability-disclosure.yml
@@ -178,37 +180,37 @@ common:
   type: Security
   url: https://www.letsgetchecked.com/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/well-known/letsgetchecked-security.txt
+  href: https://artifacts.apis.io/letsgetchecked/well-known/letsgetchecked-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/letsgetchecked-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/well-known/letsgetchecked-well-known.yml
+  href: https://artifacts.apis.io/letsgetchecked/well-known/letsgetchecked-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/letsgetchecked-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/security/letsgetchecked-domain-security.yml
+  href: https://artifacts.apis.io/letsgetchecked/security/letsgetchecked-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/letsgetchecked-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/asyncapi/letsgetchecked-notifications-webhooks.yml
+  href: https://artifacts.apis.io/letsgetchecked/asyncapi/letsgetchecked-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/letsgetchecked-notifications-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/sandbox/letsgetchecked-sandbox.yml
+  href: https://artifacts.apis.io/letsgetchecked/sandbox/letsgetchecked-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/letsgetchecked-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/data-model/letsgetchecked-data-model.yml
+  href: https://artifacts.apis.io/letsgetchecked/data-model/letsgetchecked-data-model.yml
   title: ''
   type: DataModel
   url: data-model/letsgetchecked-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/llms/letsgetchecked-llms.txt
+  href: https://artifacts.apis.io/letsgetchecked/llms/letsgetchecked-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/letsgetchecked-llms.txt
@@ -227,12 +229,12 @@ overview: 'LetsGetChecked is listed with 5 APIs on the [APIs.io](https://apis.io
 
 
   LetsGetChecked''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 27 more developer resources.'
-random_paper: 19
+random_paper: 7
 score:
   band: developing
-  composite: 48.1
+  composite: 51.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 40.0
     catalog_earned_first_party: 5.0
     catalog_gap: 75.0
@@ -240,13 +242,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 50.0
     contract_governance: 33.3
     contract_quality: 39.0
     developer_ergonomics: 64.3
     discoverability: 62.5
-    operational_transparency: 31.6
-  previous_composite: 48.1
+    operational_transparency: 39.5
+  previous_composite: 51.3
   provenance:
     conformance: first-party
   regulatory:
@@ -254,15 +256,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 30.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 34.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/screenshots/letsgetchecked-2026-08-07T171554.png
+screenshot: https://apis.io/screenshots/letsgetchecked/letsgetchecked-2026-08-07T171554.png
 security:
 - kind: authentication
   name: Letsgetchecked Authentication

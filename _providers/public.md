@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-17'
+  score: 17.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for programmatic trading on Public — manage brokerage accounts, pull portfolio and transaction history, retrieve market data (quotes, bars, option chains, greeks), and place, replace, and can
@@ -42,7 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/public/refs/heads/main/security/public-domain-security.yml
+  href: https://artifacts.apis.io/public/security/public-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/public-domain-security.yml
@@ -63,7 +65,7 @@ common:
   type: GettingStarted
   url: https://public.com/api/docs/quickstart
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/public/refs/heads/main/changelog/public-changelog.yml
+  href: https://artifacts.apis.io/public/changelog/public-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/public-changelog.yml
@@ -96,57 +98,57 @@ common:
   type: GitHubOrganization
   url: https://github.com/PublicDotCom
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/public/refs/heads/main/packages/public-packages.yml
+  href: https://artifacts.apis.io/public/packages/public-packages.yml
   title: ''
   type: Packages
   url: packages/public-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/public/refs/heads/main/packages/public-packages.yml
+  href: https://artifacts.apis.io/public/packages/public-packages.yml
   title: ''
   type: SDKs
   url: packages/public-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/public/refs/heads/main/cli/public-cli.yml
+  href: https://artifacts.apis.io/public/cli/public-cli.yml
   title: ''
   type: CLI
   url: cli/public-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/public/refs/heads/main/mcp/public-mcp.yml
+  href: https://artifacts.apis.io/public/mcp/public-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/public-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/public/refs/heads/main/well-known/public-well-known.yml
+  href: https://artifacts.apis.io/public/well-known/public-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/public-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/public/refs/heads/main/llms/public-llms.txt
+  href: https://artifacts.apis.io/public/llms/public-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/public-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/public/refs/heads/main/authentication/public-authentication.yml
+  href: https://artifacts.apis.io/public/authentication/public-authentication.yml
   title: ''
   type: Authentication
   url: authentication/public-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/public/refs/heads/main/scopes/public-scopes.yml
+  href: https://artifacts.apis.io/public/scopes/public-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/public-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/public/refs/heads/main/conventions/public-conventions.yml
+  href: https://artifacts.apis.io/public/conventions/public-conventions.yml
   title: ''
   type: Conventions
   url: conventions/public-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/public/refs/heads/main/conformance/public-conformance.yml
+  href: https://artifacts.apis.io/public/conformance/public-conformance.yml
   title: ''
   type: Conformance
   url: conformance/public-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/public/refs/heads/main/lifecycle/public-lifecycle.yml
+  href: https://artifacts.apis.io/public/lifecycle/public-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/public-lifecycle.yml
@@ -170,7 +172,7 @@ overview: 'Public is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Public''s developer surface includes documentation, getting-started guide, changelog, signup flow, pricing, support, engineering blog, and 18 more developer resources.'
-random_paper: 1
+random_paper: 15
 scopes:
 - name: Public Scopes
   scope_count: 4
@@ -178,23 +180,23 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 36.6
+  composite: 35.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 69.0
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 36.5
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 35.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -204,14 +206,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/public/refs/heads/main/screenshots/public-2026-09-02T152315.png
+screenshot: https://apis.io/screenshots/public/public-2026-09-02T152315.png
 security:
 - kind: authentication
   name: Public Authentication

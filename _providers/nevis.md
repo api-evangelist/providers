@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API to automate the Nevis Authentication Cloud — passwordless registration, authentication and transaction signing (FIDO2 / passkeys, Access App, OATH TOTP, SMS OTP, recovery codes), user and aut
@@ -44,7 +46,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nevis/refs/heads/main/security/nevis-domain-security.yml
+  href: https://artifacts.apis.io/nevis/security/nevis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nevis-domain-security.yml
@@ -97,52 +99,52 @@ common:
   type: ChangeLog
   url: https://docs.nevis.net/authcloud/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nevis/refs/heads/main/changelog/nevis-changelog.yml
+  href: https://artifacts.apis.io/nevis/changelog/nevis-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nevis-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nevis/refs/heads/main/authentication/nevis-authentication.yml
+  href: https://artifacts.apis.io/nevis/authentication/nevis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nevis-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nevis/refs/heads/main/packages/nevis-packages.yml
+  href: https://artifacts.apis.io/nevis/packages/nevis-packages.yml
   title: ''
   type: Packages
   url: packages/nevis-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nevis/refs/heads/main/packages/nevis-packages.yml
+  href: https://artifacts.apis.io/nevis/packages/nevis-packages.yml
   title: ''
   type: SDKs
   url: packages/nevis-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nevis/refs/heads/main/mcp/nevis-mcp.yml
+  href: https://artifacts.apis.io/nevis/mcp/nevis-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nevis-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nevis/refs/heads/main/conventions/nevis-conventions.yml
+  href: https://artifacts.apis.io/nevis/conventions/nevis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nevis-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nevis/refs/heads/main/conformance/nevis-conformance.yml
+  href: https://artifacts.apis.io/nevis/conformance/nevis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nevis-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nevis/refs/heads/main/lifecycle/nevis-lifecycle.yml
+  href: https://artifacts.apis.io/nevis/lifecycle/nevis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nevis-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/nevis/refs/heads/main/sandbox/nevis-sandbox.yml
+  href: https://artifacts.apis.io/nevis/sandbox/nevis-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nevis-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nevis/refs/heads/main/llms/nevis-llms.txt
+  href: https://artifacts.apis.io/nevis/llms/nevis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nevis-llms.txt
@@ -161,9 +163,9 @@ overview: 'Nevis is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 21
 score:
   band: thin
-  composite: 33.9
+  composite: 33.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -175,14 +177,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.7
-    discoverability: 73.2
-    operational_transparency: 42.1
+    discoverability: 66.1
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - switzerland
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 33.9
+  previous_composite: 33.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -192,14 +194,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nevis/refs/heads/main/screenshots/nevis-2026-08-07T185048.png
+screenshot: https://apis.io/screenshots/nevis/nevis-2026-08-07T185048.png
 security:
 - kind: authentication
   name: Nevis Authentication

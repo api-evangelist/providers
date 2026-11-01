@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.8
-  scored_at: '2026-10-17'
+  score: 39.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 56
   slug: bright-data-agentic-access
   summary_line: 56 operations · 27 acting · 1 human-in-the-loop
-api_count: 11
+api_count: 10
 apis:
 - description: Bright Data's Model Context Protocol server exposes 60+ web-access tools (search, scrape, structured extraction, browser automation, datasets) to MCP-compatible clients including Claude Desktop, Claud
   name: Bright Data MCP Server
@@ -206,9 +208,6 @@ collections:
   name: Bright Data Web Unlocker API
   slug: postman-bright-data-web-unlocker-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Bright Data Account Management Access API
   slug: open-bright-data-access-api
 - collection_type: open
@@ -287,48 +286,53 @@ collections:
   name: Bright Data API (Index)
   slug: open-bright-data
 common:
+- group: other
+  href: https://artifacts.apis.io/bright-data/capabilities/bright-data-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bright-data-capability-edges.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/rules/bright-data-rules.yml
+  href: https://artifacts.apis.io/bright-data/rules/bright-data-rules.yml
   title: ''
   type: Spectral
   url: rules/bright-data-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/rules/bright-data-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/bright-data/rules/bright-data-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/bright-data-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/json-ld/bright-data-context.jsonld
+  href: https://artifacts.apis.io/bright-data/json-ld/bright-data-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bright-data-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/vocabulary/bright-data-vocabulary.yml
+  href: https://artifacts.apis.io/bright-data/vocabulary/bright-data-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bright-data-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/data-model/bright-data-data-model.yml
+  href: https://artifacts.apis.io/bright-data/data-model/bright-data-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bright-data-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/conformance/bright-data-conformance.yml
+  href: https://artifacts.apis.io/bright-data/conformance/bright-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bright-data-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/llms/bright-data-llms.txt
+  href: https://artifacts.apis.io/bright-data/llms/bright-data-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bright-data-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/mcp/bright-data-mcp.yml
+  href: https://artifacts.apis.io/bright-data/mcp/bright-data-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bright-data-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/well-known/bright-data-well-known.yml
+  href: https://artifacts.apis.io/bright-data/well-known/bright-data-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bright-data-well-known.yml
@@ -337,17 +341,17 @@ common:
   type: Website
   url: https://brightdata.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/agentic-access/bright-data-agentic-access.yml
+  href: https://artifacts.apis.io/bright-data/agentic-access/bright-data-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bright-data-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/security/bright-data-domain-security.yml
+  href: https://artifacts.apis.io/bright-data/security/bright-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bright-data-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/authentication/bright-data-authentication.yml
+  href: https://artifacts.apis.io/bright-data/authentication/bright-data-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bright-data-authentication.yml
@@ -356,67 +360,67 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/bright-data/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/arazzo/bright-data-dataset-marketplace-deliver-workflow.yml
+  href: https://artifacts.apis.io/bright-data/arazzo/bright-data-dataset-marketplace-deliver-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bright-data-dataset-marketplace-deliver-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/arazzo/bright-data-deep-lookup-enrich-workflow.yml
+  href: https://artifacts.apis.io/bright-data/arazzo/bright-data-deep-lookup-enrich-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bright-data-deep-lookup-enrich-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/arazzo/bright-data-deep-lookup-research-workflow.yml
+  href: https://artifacts.apis.io/bright-data/arazzo/bright-data-deep-lookup-research-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bright-data-deep-lookup-research-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/arazzo/bright-data-provision-unlocker-zone-and-scrape-workflow.yml
+  href: https://artifacts.apis.io/bright-data/arazzo/bright-data-provision-unlocker-zone-and-scrape-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bright-data-provision-unlocker-zone-and-scrape-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/arazzo/bright-data-provision-zone-ips-workflow.yml
+  href: https://artifacts.apis.io/bright-data/arazzo/bright-data-provision-zone-ips-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bright-data-provision-zone-ips-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/arazzo/bright-data-proxy-port-provision-workflow.yml
+  href: https://artifacts.apis.io/bright-data/arazzo/bright-data-proxy-port-provision-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bright-data-proxy-port-provision-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/arazzo/bright-data-serp-search-workflow.yml
+  href: https://artifacts.apis.io/bright-data/arazzo/bright-data-serp-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bright-data-serp-search-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/arazzo/bright-data-web-archive-search-workflow.yml
+  href: https://artifacts.apis.io/bright-data/arazzo/bright-data-web-archive-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bright-data-web-archive-search-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/arazzo/bright-data-web-scraper-deliver-workflow.yml
+  href: https://artifacts.apis.io/bright-data/arazzo/bright-data-web-scraper-deliver-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bright-data-web-scraper-deliver-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/arazzo/bright-data-web-scraper-job-workflow.yml
+  href: https://artifacts.apis.io/bright-data/arazzo/bright-data-web-scraper-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bright-data-web-scraper-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/arazzo/bright-data-web-scraper-monitor-cancel-workflow.yml
+  href: https://artifacts.apis.io/bright-data/arazzo/bright-data-web-scraper-monitor-cancel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bright-data-web-scraper-monitor-cancel-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/arazzo/bright-data-web-scraper-rerun-workflow.yml
+  href: https://artifacts.apis.io/bright-data/arazzo/bright-data-web-scraper-rerun-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bright-data-web-scraper-rerun-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/arazzo/bright-data-web-unlocker-async-workflow.yml
+  href: https://artifacts.apis.io/bright-data/arazzo/bright-data-web-unlocker-async-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bright-data-web-unlocker-async-workflow.yml
@@ -445,17 +449,17 @@ common:
   type: Pricing
   url: https://brightdata.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/plans/bright-data-plans-pricing.yml
+  href: https://artifacts.apis.io/bright-data/plans/bright-data-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bright-data-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/rate-limits/bright-data-rate-limits.yml
+  href: https://artifacts.apis.io/bright-data/rate-limits/bright-data-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bright-data-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/finops/bright-data-finops.yml
+  href: https://artifacts.apis.io/bright-data/finops/bright-data-finops.yml
   title: ''
   type: FinOps
   url: finops/bright-data-finops.yml
@@ -568,12 +572,12 @@ features:
 - Open MCP integrations with Claude Desktop, Claude Code, ChatGPT, Cursor, LangChain, LangGraph, LlamaIndex, CrewAI, n8n, Google ADK, NVIDIA NeMo, Cloudflare Agents, Snowflake Cortex, and Vapi
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Bright Data Finops
-  primary_unit: ''
-  service_category: WebData
+  primary_unit: 1k requests
+  service_category: ''
   slug: bright-data-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bright-data.png
 json_schemas:
 - name: Bright Data Proxy Port
@@ -605,12 +609,15 @@ overview: 'Bright Data publishes 17 API contracts indexed on the [APIs.io](https
   The Bright Data catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Bright Data''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 50 more developer resources.'
+  Bright Data''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 51 more developer resources.'
 plans:
 - name: Bright Data Plans Pricing
-  plan_count: 17
+  plan_count: 13
   slug: bright-data-plans-pricing
-random_paper: 17
+- name: Bright Data Price Estimates
+  plan_count: 0
+  slug: bright-data-price-estimates
+random_paper: 15
 rate_limits:
 - limit_count: 8
   name: Bright Data Rate Limits
@@ -640,29 +647,29 @@ rules:
     warn: 5
   slug: bright-data-rules
 score:
-  band: developing
-  composite: 45.8
+  band: strong
+  composite: 65.0
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 67.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    artifact_dirs: 25
+    catalog_earned: 79.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 36.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.3
+  delta: 1.5
   facets:
-    access_clarity: 25.0
+    access_clarity: 92.1
     contract_governance: 31.8
-    contract_quality: 66.6
-    developer_ergonomics: 56.0
-    discoverability: 71.7
-    operational_transparency: 18.4
+    contract_quality: 66.0
+    developer_ergonomics: 67.9
+    discoverability: 68.3
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - israel
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 50.1
+  previous_composite: 63.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -677,14 +684,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/screenshots/bright-data-2026-06-20T173659.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bright-data/bright-data-2026-06-20T173659.png
 security:
 - kind: authentication
   name: Bright Data Authentication

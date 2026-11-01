@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 13.7
-  scored_at: '2026-10-17'
+  score: 8.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: SightCall's REST API is used by application back ends to request session tokens, manage users and sessions, provision providers and pull reporting. Authentication is by API key in the Authorization he
@@ -44,7 +46,7 @@ apis:
 artifact_total: 7
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sightcall/refs/heads/main/rate-limits/sightcall-rate-limits.yml
+  href: https://artifacts.apis.io/sightcall/rate-limits/sightcall-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sightcall-rate-limits.yml
@@ -53,12 +55,12 @@ common:
   type: BlogRSS
   url: https://sightcall.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sightcall/refs/heads/main/security/sightcall-trust-center.yml
+  href: https://artifacts.apis.io/sightcall/security/sightcall-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sightcall-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sightcall/refs/heads/main/security/sightcall-domain-security.yml
+  href: https://artifacts.apis.io/sightcall/security/sightcall-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sightcall-domain-security.yml
@@ -99,42 +101,42 @@ common:
   type: StatusPage
   url: https://status.sightcall.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sightcall/refs/heads/main/llms/sightcall-llms.txt
+  href: https://artifacts.apis.io/sightcall/llms/sightcall-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sightcall-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sightcall/refs/heads/main/packages/sightcall-packages.yml
+  href: https://artifacts.apis.io/sightcall/packages/sightcall-packages.yml
   title: ''
   type: Packages
   url: packages/sightcall-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sightcall/refs/heads/main/packages/sightcall-packages.yml
+  href: https://artifacts.apis.io/sightcall/packages/sightcall-packages.yml
   title: ''
   type: SDKs
   url: packages/sightcall-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sightcall/refs/heads/main/lifecycle/sightcall-lifecycle.yml
+  href: https://artifacts.apis.io/sightcall/lifecycle/sightcall-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sightcall-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sightcall/refs/heads/main/conformance/sightcall-conformance.yml
+  href: https://artifacts.apis.io/sightcall/conformance/sightcall-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sightcall-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sightcall/refs/heads/main/conformance/sightcall-conformance.yml
+  href: https://artifacts.apis.io/sightcall/conformance/sightcall-conformance.yml
   title: ''
   type: Compliance
   url: conformance/sightcall-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sightcall/refs/heads/main/conventions/sightcall-conventions.yml
+  href: https://artifacts.apis.io/sightcall/conventions/sightcall-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sightcall-conventions.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sightcall/refs/heads/main/plans/sightcall-plans-pricing.yml
+  href: https://artifacts.apis.io/sightcall/plans/sightcall-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sightcall-plans-pricing.yml
@@ -168,7 +170,7 @@ modified: '2026-10-06'
 name: SightCall
 nav: Providers
 network: true
-overview: 'SightCall is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, WebRTC, Remote Support, and Field Service.
+overview: 'SightCall is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, WebRTC, Remote Support, and Field Service Management.
 
 
   SightCall''s developer surface includes support, engineering blog, pricing, signup flow, and 17 more developer resources.'
@@ -176,16 +178,16 @@ plans:
 - name: Sightcall Plans Pricing
   plan_count: 0
   slug: sightcall-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Sightcall Rate Limits
   slug: sightcall-rate-limits
 score:
   band: thin
-  composite: 27.4
+  composite: 27.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -197,9 +199,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 75.0
-    operational_transparency: 10.5
-  previous_composite: 27.4
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 27.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -209,14 +211,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sightcall/refs/heads/main/screenshots/sightcall-2026-09-02T155421.png
+screenshot: https://apis.io/screenshots/sightcall/sightcall-2026-09-02T155421.png
 security:
 - kind: authentication
   name: Sightcall Authentication
@@ -236,7 +238,7 @@ tags:
 - Video
 - WebRTC
 - Remote Support
-- Field Service
+- Field Service Management
 - Augmented Reality
 - Computer Vision
 - Customer Service

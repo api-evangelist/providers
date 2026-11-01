@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'The Shopify Storefront GraphQL API served on lemonperfect.com. Introspection is open anonymously: 428 types, 35 query fields and 41 mutations covering products, collections, search, carts, customer ac'
@@ -45,7 +47,7 @@ apis:
 - description: A hosted Model Context Protocol endpoint implementing the Universal Commerce Protocol dev.ucp.shopping service (version 2026-04-08) for agent-driven catalog search, cart, checkout, fulfillment and ord
   name: Lemon Perfect UCP Agentic Commerce (MCP)
   slug: lemon-perfect-ucp-agentic-commerce-mcp
-artifact_total: 7
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -96,67 +98,67 @@ common:
   type: ShippingPolicy
   url: https://lemonperfect.com/policies/shipping-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/llms/lemon-perfect-llms.txt
+  href: https://artifacts.apis.io/lemon-perfect/llms/lemon-perfect-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lemon-perfect-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/llms/lemon-perfect-agents.md
+  href: https://artifacts.apis.io/lemon-perfect/llms/lemon-perfect-agents.md
   title: ''
   type: AgentsMd
   url: llms/lemon-perfect-agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/well-known/lemon-perfect-well-known.yml
+  href: https://artifacts.apis.io/lemon-perfect/well-known/lemon-perfect-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lemon-perfect-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/authentication/lemon-perfect-authentication.yml
+  href: https://artifacts.apis.io/lemon-perfect/authentication/lemon-perfect-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lemon-perfect-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/scopes/lemon-perfect-scopes.yml
+  href: https://artifacts.apis.io/lemon-perfect/scopes/lemon-perfect-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lemon-perfect-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/well-known/lemon-perfect-openid-configuration.json
+  href: https://artifacts.apis.io/lemon-perfect/well-known/lemon-perfect-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/lemon-perfect-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/conventions/lemon-perfect-conventions.yml
+  href: https://artifacts.apis.io/lemon-perfect/conventions/lemon-perfect-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lemon-perfect-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/conventions/lemon-perfect-conventions.yml
+  href: https://artifacts.apis.io/lemon-perfect/conventions/lemon-perfect-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/lemon-perfect-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/rate-limits/lemon-perfect-rate-limits.yml
+  href: https://artifacts.apis.io/lemon-perfect/rate-limits/lemon-perfect-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lemon-perfect-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/conformance/lemon-perfect-conformance.yml
+  href: https://artifacts.apis.io/lemon-perfect/conformance/lemon-perfect-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lemon-perfect-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/lifecycle/lemon-perfect-lifecycle.yml
+  href: https://artifacts.apis.io/lemon-perfect/lifecycle/lemon-perfect-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lemon-perfect-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/security/lemon-perfect-domain-security.yml
+  href: https://artifacts.apis.io/lemon-perfect/security/lemon-perfect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lemon-perfect-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lemon-perfect/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -188,7 +190,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode/refreshToken/jwtBearer
 score:
   band: thin
-  composite: 36.0
+  composite: 35.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 49.0
@@ -196,13 +198,13 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 10.4
     developer_ergonomics: 49.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -211,7 +213,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 35.9
+  previous_composite: 35.0
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -222,14 +224,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/screenshots/lemon-perfect-2026-08-07T171544.png
+screenshot: https://apis.io/screenshots/lemon-perfect/lemon-perfect-2026-08-07T171544.png
 security:
 - kind: authentication
   name: Lemon Perfect Authentication
@@ -239,6 +241,12 @@ security:
   name: Lemon Perfect Domain Security
   slug: lemon-perfect-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Buy Lemon Perfect on a buyer's behalf (UCP/MCP)
+  slug: lemon-perfect-agentic-purchase
+- name: Browse the Lemon Perfect catalog
+  slug: lemon-perfect-browse-catalog
 slug: lemon-perfect
 tags:
 - Company

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -77,37 +79,37 @@ common:
   type: Compliance
   url: https://www.callsign.com/security-and-compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/callsign/refs/heads/main/security/callsign-trust-center.yml
+  href: https://artifacts.apis.io/callsign/security/callsign-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/callsign-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/callsign/refs/heads/main/security/callsign-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/callsign/security/callsign-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/callsign-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/callsign/refs/heads/main/security/callsign-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/callsign/security/callsign-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/callsign-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/callsign/refs/heads/main/security/callsign-domain-security.yml
+  href: https://artifacts.apis.io/callsign/security/callsign-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/callsign-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/callsign/refs/heads/main/well-known/callsign-security.txt
+  href: https://artifacts.apis.io/callsign/well-known/callsign-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/callsign-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/callsign/refs/heads/main/well-known/callsign-well-known.yml
+  href: https://artifacts.apis.io/callsign/well-known/callsign-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/callsign-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/callsign/refs/heads/main/llms/callsign-llms.txt
+  href: https://artifacts.apis.io/callsign/llms/callsign-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/callsign-llms.txt
@@ -123,10 +125,10 @@ overview: 'CallSign is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   CallSign''s developer surface includes documentation, API reference, authentication, support, engineering blog, and 12 more developer resources.'
-random_paper: 9
+random_paper: 5
 score:
   band: emerging
-  composite: 23.8
+  composite: 24.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -134,29 +136,29 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 40.5
-    discoverability: 55.4
+    developer_ergonomics: 45.2
+    discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 24.3
+  previous_composite: 24.0
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/callsign/refs/heads/main/screenshots/callsign-2026-07-25T204247.png
+screenshot: https://apis.io/screenshots/callsign/callsign-2026-07-25T204247.png
 security:
 - kind: domain-security
   name: Callsign Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: TypeScript SDK for building, invoking, and orchestrating Droids. Public source on GitHub at Factory-AI/droid-sdk-typescript.
@@ -48,27 +50,27 @@ apis:
 artifact_total: 26
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/factory-ai/refs/heads/main/plans/factory-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/factory-ai/plans/factory-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/factory-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/factory-ai/refs/heads/main/rate-limits/factory-ai-rate-limits.yml
+  href: https://artifacts.apis.io/factory-ai/rate-limits/factory-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/factory-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/factory-ai/refs/heads/main/finops/factory-ai-finops.yml
+  href: https://artifacts.apis.io/factory-ai/finops/factory-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/factory-ai-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/factory-ai/refs/heads/main/security/factory-ai-trust-center.yml
+  href: https://artifacts.apis.io/factory-ai/security/factory-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/factory-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/factory-ai/refs/heads/main/security/factory-ai-domain-security.yml
+  href: https://artifacts.apis.io/factory-ai/security/factory-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/factory-ai-domain-security.yml
@@ -223,7 +225,7 @@ plans:
 - name: Factory Ai Plans Pricing
   plan_count: 1
   slug: factory-ai-plans-pricing
-random_paper: 17
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Factory Ai Rate Limits
@@ -238,7 +240,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 57.9
     contract_governance: 0.0
@@ -246,21 +248,21 @@ score:
     developer_ergonomics: 21.4
     discoverability: 60.7
     operational_transparency: 10.5
-  previous_composite: 31.3
+  previous_composite: 25.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/factory-ai/refs/heads/main/screenshots/factory-ai-2026-06-20T181010.png
+screenshot: https://apis.io/screenshots/factory-ai/factory-ai-2026-06-20T181010.png
 security:
 - kind: domain-security
   name: Factory Ai Domain Security

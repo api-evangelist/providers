@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.0
-  scored_at: '2026-10-17'
+  score: 46.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Core REST API for Service Cloud operations: sObject CRUD over Case, CaseComment, EmailMessage, Knowledge articles and every other standard and custom object, plus SOQL query, SOSL search and composite'
@@ -122,7 +124,7 @@ apis:
 - description: REST API for building and deploying AI-powered service agents using Agentforce, enabling headless agent interactions, session management, and seamless escalation from AI agents to human service repres
   name: Agentforce Service Agent API
   slug: agentforce-service-agent-api
-artifact_total: 29
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Service Cloud Event Surface
@@ -133,12 +135,12 @@ common:
   type: License
   url: https://github.com/forcedotcom/pub-sub-api/blob/main/LICENSE
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/capabilities/service-cloud-capability-edges.yml
+  href: https://artifacts.apis.io/service-cloud/capabilities/service-cloud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/service-cloud-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/skills/service-cloud-einstein-bot-session.md
+  href: https://artifacts.apis.io/service-cloud/skills/service-cloud-einstein-bot-session.md
   title: ''
   type: AgentSkill
   url: skills/service-cloud-einstein-bot-session.md
@@ -203,32 +205,32 @@ common:
   type: PrivacyPolicy
   url: https://www.salesforce.com/company/privacy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/authentication/service-cloud-authentication.yml
+  href: https://artifacts.apis.io/service-cloud/authentication/service-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/service-cloud-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/scopes/service-cloud-scopes.yml
+  href: https://artifacts.apis.io/service-cloud/scopes/service-cloud-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/service-cloud-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/conventions/service-cloud-conventions.yml
+  href: https://artifacts.apis.io/service-cloud/conventions/service-cloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/service-cloud-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/conventions/service-cloud-conventions.yml
+  href: https://artifacts.apis.io/service-cloud/conventions/service-cloud-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/service-cloud-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/errors/service-cloud-problem-types.yml
+  href: https://artifacts.apis.io/service-cloud/errors/service-cloud-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/service-cloud-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/lifecycle/service-cloud-lifecycle.yml
+  href: https://artifacts.apis.io/service-cloud/lifecycle/service-cloud-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/service-cloud-lifecycle.yml
@@ -237,87 +239,87 @@ common:
   type: StatusPage
   url: https://status.salesforce.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/lifecycle/service-cloud-lifecycle.yml
+  href: https://artifacts.apis.io/service-cloud/lifecycle/service-cloud-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/service-cloud-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/changelog/service-cloud-changelog.yml
+  href: https://artifacts.apis.io/service-cloud/changelog/service-cloud-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/service-cloud-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/rate-limits/service-cloud-rate-limits.yml
+  href: https://artifacts.apis.io/service-cloud/rate-limits/service-cloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/service-cloud-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/plans/service-cloud-plans-pricing.yml
+  href: https://artifacts.apis.io/service-cloud/plans/service-cloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/service-cloud-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/finops/service-cloud-finops.yml
+  href: https://artifacts.apis.io/service-cloud/finops/service-cloud-finops.yml
   title: ''
   type: FinOps
   url: finops/service-cloud-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/packages/service-cloud-packages.yml
+  href: https://artifacts.apis.io/service-cloud/packages/service-cloud-packages.yml
   title: ''
   type: Packages
   url: packages/service-cloud-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/packages/service-cloud-packages.yml
+  href: https://artifacts.apis.io/service-cloud/packages/service-cloud-packages.yml
   title: ''
   type: SDKs
   url: packages/service-cloud-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/cli/service-cloud-cli.yml
+  href: https://artifacts.apis.io/service-cloud/cli/service-cloud-cli.yml
   title: ''
   type: CLI
   url: cli/service-cloud-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/sandbox/service-cloud-sandbox.yml
+  href: https://artifacts.apis.io/service-cloud/sandbox/service-cloud-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/service-cloud-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/mcp/service-cloud-mcp.yml
+  href: https://artifacts.apis.io/service-cloud/mcp/service-cloud-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/service-cloud-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/mcp/service-cloud-tool-crosswalk.yml
+  href: https://artifacts.apis.io/service-cloud/mcp/service-cloud-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/service-cloud-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/service-cloud/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/llms/service-cloud-llms.txt
+  href: https://artifacts.apis.io/service-cloud/llms/service-cloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/service-cloud-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/grpc/service-cloud-pubsub-api.proto
+  href: https://artifacts.apis.io/service-cloud/grpc/service-cloud-pubsub-api.proto
   title: ''
   type: Protobuf
   url: grpc/service-cloud-pubsub-api.proto
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/asyncapi/service-cloud-event-surface.yml
+  href: https://artifacts.apis.io/service-cloud/asyncapi/service-cloud-event-surface.yml
   title: ''
   type: Webhooks
   url: asyncapi/service-cloud-event-surface.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/data-model/service-cloud-data-model.yml
+  href: https://artifacts.apis.io/service-cloud/data-model/service-cloud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/service-cloud-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/conformance/service-cloud-conformance.yml
+  href: https://artifacts.apis.io/service-cloud/conformance/service-cloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/service-cloud-conformance.yml
@@ -326,7 +328,7 @@ common:
   type: Compliance
   url: https://compliance.salesforce.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/security/service-cloud-trust-center.yml
+  href: https://artifacts.apis.io/service-cloud/security/service-cloud-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/service-cloud-trust-center.yml
@@ -339,35 +341,35 @@ common:
   type: Security
   url: https://www.salesforce.com/company/disclosure/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/security/service-cloud-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/service-cloud/security/service-cloud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/service-cloud-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/security/service-cloud-domain-security.yml
+  href: https://artifacts.apis.io/service-cloud/security/service-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/service-cloud-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/well-known/service-cloud-well-known.yml
+  href: https://artifacts.apis.io/service-cloud/well-known/service-cloud-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/service-cloud-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/overlays/service-cloud-einstein-bots-overlay.yaml
+  href: https://artifacts.apis.io/service-cloud/overlays/service-cloud-einstein-bots-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/service-cloud-einstein-bots-overlay.yaml
 created: '2024-01-15'
 description: 'Salesforce Service Cloud is the customer-service and contact-centre product on the Salesforce Platform, and its API surface is the Salesforce Platform API applied to service objects — Case, CaseComment, Knowledge articles, LiveChatTranscript, MessagingSession, entitlements and omni-channel routing — reached through the REST, SOAP, Bulk and Composite APIs. Alongside that record layer Salesforce ships purpose-built runtimes with their own contracts: an OpenAPI 3.0 document for the Einstein Bots Runtime API, a gRPC/protobuf contract for the Pub/Sub event API, a CometD Streaming API, and generally available hosted MCP servers that expose the sObject layer to AI agents over OAuth. There is no single global API host — every call is made against the customer''s own org at the instance_url returned with the OAuth token, on API version 67.0 (Summer ''26). Authentication is OAuth 2.0 only; Salesforce issues no API keys.'
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Service Cloud Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: user
+  service_category: ''
   slug: service-cloud-finops
-  template: true
+  template: false
 image: https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/11/logo-salesforce.svg
 layout: provider
 mcp_servers:
@@ -387,8 +389,11 @@ overview: 'Salesforce Service Cloud APIs publishes 19 API contracts indexed on t
   Salesforce Service Cloud APIs'' developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 43 more developer resources.'
 plans:
 - name: Service Cloud Plans Pricing
-  plan_count: 5
+  plan_count: 7
   slug: service-cloud-plans-pricing
+- name: Service Cloud Price Estimates
+  plan_count: 0
+  slug: service-cloud-price-estimates
 random_paper: 13
 rate_limits:
 - limit_count: 6
@@ -401,23 +406,28 @@ scopes:
   summary_line: 36 scopes · authorizationCode/implicit
 score:
   band: exemplar
-  composite: 70.4
+  composite: 73.5
   coverage:
     artifact_dirs: 28
-    catalog_earned: 51.0
+    catalog_earned: 54.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 64.0
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 50.8
-    developer_ergonomics: 82.7
-    discoverability: 58.3
-    operational_transparency: 84.2
-  previous_composite: 71.9
+    developer_ergonomics: 85.1
+    discoverability: 48.3
+    operational_transparency: 94.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 72.0
   provenance:
     conformance: first-party
     contracts:
@@ -433,13 +443,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/screenshots/service-cloud-2026-06-20T193724.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/service-cloud/service-cloud-2026-06-20T193724.png
 security:
 - kind: authentication
   name: Service Cloud Authentication
@@ -457,6 +468,12 @@ security:
   name: Service Cloud Trust Center
   slug: service-cloud-trust-center
   summary_line: note, observed, unverified_in_this_pass, unverified_note
+skill_count: 2
+skills:
+- name: service-cloud-case-triage-via-mcp
+  slug: service-cloud-case-triage-via-mcp
+- name: service-cloud-einstein-bot-session
+  slug: service-cloud-einstein-bot-session
 slug: service-cloud
 tags:
 - Cloud

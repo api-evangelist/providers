@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-17'
+  score: 30.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -87,11 +89,8 @@ apis:
   description: The Workspaces API from Publer — 1 operation listing every workspace the authenticated user can reach, with owner, members, plan and picture. The workspace id it returns is required as the Publer-Work
   name: Publer Workspaces API
   slug: publer-workspaces-api
-artifact_total: 25
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Publer Accounts API
   slug: open-publer-accounts-api
@@ -121,22 +120,22 @@ collections:
   slug: open-publer
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/capabilities/publer-capability-edges.yml
+  href: https://artifacts.apis.io/publer/capabilities/publer-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/publer-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/agentic-access/publer-agentic-access.yml
+  href: https://artifacts.apis.io/publer/agentic-access/publer-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/publer-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/security/publer-domain-security.yml
+  href: https://artifacts.apis.io/publer/security/publer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/publer-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/authentication/publer-authentication.yml
+  href: https://artifacts.apis.io/publer/authentication/publer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/publer-authentication.yml
@@ -157,17 +156,17 @@ common:
   type: Documentation
   url: https://publer.com/docs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/plans/publer-plans-pricing.yml
+  href: https://artifacts.apis.io/publer/plans/publer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/publer-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/rate-limits/publer-rate-limits.yml
+  href: https://artifacts.apis.io/publer/rate-limits/publer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/publer-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/finops/publer-finops.yml
+  href: https://artifacts.apis.io/publer/finops/publer-finops.yml
   title: ''
   type: FinOps
   url: finops/publer-finops.yml
@@ -176,37 +175,37 @@ common:
   type: Blog
   url: https://publer.com/blog/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/mcp/publer-mcp.yml
+  href: https://artifacts.apis.io/publer/mcp/publer-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/publer-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/mcp/publer-tool-crosswalk.yml
+  href: https://artifacts.apis.io/publer/mcp/publer-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/publer-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/llms/publer-llms.txt
+  href: https://artifacts.apis.io/publer/llms/publer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/publer-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/packages/publer-packages.yml
+  href: https://artifacts.apis.io/publer/packages/publer-packages.yml
   title: ''
   type: Packages
   url: packages/publer-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/conventions/publer-conventions.yml
+  href: https://artifacts.apis.io/publer/conventions/publer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/publer-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/errors/publer-problem-types.yml
+  href: https://artifacts.apis.io/publer/errors/publer-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/publer-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/lifecycle/publer-lifecycle.yml
+  href: https://artifacts.apis.io/publer/lifecycle/publer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/publer-lifecycle.yml
@@ -215,22 +214,22 @@ common:
   type: StatusPage
   url: https://status.publer.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/scopes/publer-scopes.yml
+  href: https://artifacts.apis.io/publer/scopes/publer-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/publer-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/conformance/publer-conformance.yml
+  href: https://artifacts.apis.io/publer/conformance/publer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/publer-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/data-model/publer-data-model.yml
+  href: https://artifacts.apis.io/publer/data-model/publer-data-model.yml
   title: ''
   type: DataModel
   url: data-model/publer-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/publer/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -294,7 +293,7 @@ plans:
 - name: Publer Plans Pricing
   plan_count: 4
   slug: publer-plans-pricing
-random_paper: 12
+random_paper: 2
 rate_limits:
 - limit_count: 18
   name: Publer Rate Limits
@@ -305,8 +304,8 @@ scopes:
   slug: publer-scopes
   summary_line: 5 scopes
 score:
-  band: thin
-  composite: 38.9
+  band: strong
+  composite: 55.2
   coverage:
     artifact_dirs: 25
     catalog_earned: 61.0
@@ -314,15 +313,15 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 51.9
-    developer_ergonomics: 22.0
-    discoverability: 71.7
-    operational_transparency: 50.0
-  previous_composite: 40.4
+    developer_ergonomics: 60.1
+    discoverability: 66.1
+    operational_transparency: 57.9
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,14 +337,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 34.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/screenshots/publer-2026-08-17T081403.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/publer/publer-2026-08-17T081403.png
 security:
 - kind: authentication
   name: Publer Authentication
@@ -355,6 +355,16 @@ security:
   name: Publer Domain Security
   slug: publer-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: publer-manage-scheduled-content
+  slug: publer-manage-scheduled-content
+- name: publer-pull-social-analytics
+  slug: publer-pull-social-analytics
+- name: publer-schedule-a-post
+  slug: publer-schedule-a-post
+- name: publer-upload-media-and-publish
+  slug: publer-upload-media-and-publish
 slug: publer
 tags:
 - Social Media

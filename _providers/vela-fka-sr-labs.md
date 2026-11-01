@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -45,17 +47,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/tradevela
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vela-fka-sr-labs/refs/heads/main/packages/vela-fka-sr-labs-packages.yml
+  href: https://artifacts.apis.io/vela-fka-sr-labs/packages/vela-fka-sr-labs-packages.yml
   title: ''
   type: Packages
   url: packages/vela-fka-sr-labs-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vela-fka-sr-labs/refs/heads/main/llms/vela-fka-sr-labs-llms.txt
+  href: https://artifacts.apis.io/vela-fka-sr-labs/llms/vela-fka-sr-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vela-fka-sr-labs-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vela-fka-sr-labs/refs/heads/main/security/vela-fka-sr-labs-domain-security.yml
+  href: https://artifacts.apis.io/vela-fka-sr-labs/security/vela-fka-sr-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vela-fka-sr-labs-domain-security.yml
@@ -68,12 +70,12 @@ name: Vela (FKA SR Labs)
 nav: Providers
 network: true
 overview: Vela (FKA SR Labs) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Finance, Market Data, Trading, and Low Latency.
-random_paper: 16
+random_paper: 0
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -102,14 +104,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 5.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vela-fka-sr-labs/refs/heads/main/screenshots/vela-fka-sr-labs-2026-10-11T132747.png
+screenshot: https://apis.io/screenshots/vela-fka-sr-labs/vela-fka-sr-labs-2026-10-11T132747.png
 security:
 - kind: domain-security
   name: Vela Fka Sr Labs Domain Security

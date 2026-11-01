@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.6
-  scored_at: '2026-10-17'
+  score: 34.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -65,7 +67,7 @@ apis:
   description: The Tags API from Amazon Managed Blockchain — 2 operation(s) for tags.
   name: Amazon Managed Blockchain Tags API
   slug: amazon-managed-blockchain-tags-api
-artifact_total: 492
+artifact_total: 491
 collections:
 - collection_type: postman
   name: Amazon Managed Blockchain Accessors API
@@ -80,9 +82,6 @@ collections:
   name: Amazon Managed Blockchain Accessors Tags API
   slug: postman-amazon-managed-blockchain-tags-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Amazon Managed Blockchain Accessors API
   slug: open-amazon-managed-blockchain-accessors-api
 - collection_type: open
@@ -95,18 +94,23 @@ collections:
   name: Amazon Managed Blockchain Accessors Tags API
   slug: open-amazon-managed-blockchain-tags-api
 common:
+- group: other
+  href: https://artifacts.apis.io/amazon-managed-blockchain/capabilities/amazon-managed-blockchain-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-managed-blockchain-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/plans/amazon-managed-blockchain-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-managed-blockchain/plans/amazon-managed-blockchain-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-managed-blockchain-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/rate-limits/amazon-managed-blockchain-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-managed-blockchain/rate-limits/amazon-managed-blockchain-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-managed-blockchain-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/finops/amazon-managed-blockchain-finops.yml
+  href: https://artifacts.apis.io/amazon-managed-blockchain/finops/amazon-managed-blockchain-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-managed-blockchain-finops.yml
@@ -119,27 +123,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-managed-blockchain/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/agentic-access/amazon-managed-blockchain-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-managed-blockchain/agentic-access/amazon-managed-blockchain-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-managed-blockchain-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/security/amazon-managed-blockchain-trust-center.yml
+  href: https://artifacts.apis.io/amazon-managed-blockchain/security/amazon-managed-blockchain-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-managed-blockchain-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/security/amazon-managed-blockchain-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-managed-blockchain/security/amazon-managed-blockchain-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-managed-blockchain-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/security/amazon-managed-blockchain-domain-security.yml
+  href: https://artifacts.apis.io/amazon-managed-blockchain/security/amazon-managed-blockchain-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-managed-blockchain-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/authentication/amazon-managed-blockchain-authentication.yml
+  href: https://artifacts.apis.io/amazon-managed-blockchain/authentication/amazon-managed-blockchain-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-managed-blockchain-authentication.yml
@@ -188,12 +192,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/rules/amazon-managed-blockchain-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-managed-blockchain/rules/amazon-managed-blockchain-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-managed-blockchain-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/vocabulary/amazon-managed-blockchain-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-managed-blockchain/vocabulary/amazon-managed-blockchain-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-managed-blockchain-vocabulary.yaml
@@ -671,13 +675,13 @@ features:
 - description: Create and vote on proposals to manage network configuration changes.
   name: Proposal and Voting
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Managed Blockchain Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: million requests
+  service_category: ''
   slug: amazon-managed-blockchain-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-managed-blockchain.png
 json_schemas:
 - name: AccessDeniedException
@@ -1615,12 +1619,12 @@ overview: 'Amazon Managed Blockchain publishes 4 API contracts indexed on the [A
   The Amazon Managed Blockchain catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Managed Blockchain''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 17 more developer resources.'
+  Amazon Managed Blockchain''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 18 more developer resources.'
 plans:
 - name: Amazon Managed Blockchain Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: amazon-managed-blockchain-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Amazon Managed Blockchain Rate Limits
@@ -1650,24 +1654,24 @@ rules:
     warn: 11
   slug: amazon-managed-blockchain-spectral-rules
 score:
-  band: developing
-  composite: 53.7
+  band: strong
+  composite: 62.6
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 63.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.6
+    artifact_dirs: 21
+    catalog_earned: 75.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 39.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.5
   facets:
-    access_clarity: 53.9
+    access_clarity: 92.1
     contract_governance: 27.3
     contract_quality: 63.5
     developer_ergonomics: 56.0
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 55.2
+    operational_transparency: 39.5
+  previous_composite: 61.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1681,13 +1685,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/screenshots/amazon-managed-blockchain-2026-06-20T171732.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-managed-blockchain/amazon-managed-blockchain-2026-06-20T171732.png
 security:
 - kind: authentication
   name: Amazon Managed Blockchain Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,22 +35,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/greater-good-health/refs/heads/main/security/greater-good-health-domain-security.yml
+  href: https://artifacts.apis.io/greater-good-health/security/greater-good-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/greater-good-health-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/greater-good-health/refs/heads/main/conformance/greater-good-health-conformance.yml
+  href: https://artifacts.apis.io/greater-good-health/conformance/greater-good-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/greater-good-health-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/greater-good-health/refs/heads/main/conformance/greater-good-health-conformance.yml
+  href: https://artifacts.apis.io/greater-good-health/conformance/greater-good-health-conformance.yml
   title: ''
   type: Compliance
   url: conformance/greater-good-health-conformance.yml
@@ -126,7 +128,7 @@ overview: 'Greater Good Health is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Greater Good Health''s developer surface includes engineering blog, support, FAQ, YouTube channel, and 11 more developer resources.'
-random_paper: 21
+random_paper: 19
 score:
   band: emerging
   composite: 16.0
@@ -158,14 +160,14 @@ score:
     regime: Health
     regime_id: health
     score: 24.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/greater-good-health/refs/heads/main/screenshots/greater-good-health-2026-09-02T145627.png
+screenshot: https://apis.io/screenshots/greater-good-health/greater-good-health-2026-09-02T145627.png
 security:
 - kind: domain-security
   name: Greater Good Health Domain Security

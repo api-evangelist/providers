@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aktana/refs/heads/main/rate-limits/aktana-rate-limits.yml
+  href: https://artifacts.apis.io/aktana/rate-limits/aktana-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aktana-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aktana/refs/heads/main/security/aktana-domain-security.yml
+  href: https://artifacts.apis.io/aktana/security/aktana-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aktana-domain-security.yml
@@ -63,7 +65,7 @@ common:
   type: Support
   url: https://pharmaforceiq.com/contact/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aktana/refs/heads/main/security/aktana-trust-center.yml
+  href: https://artifacts.apis.io/aktana/security/aktana-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/aktana-trust-center.yml
@@ -80,12 +82,12 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/pfiq/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aktana/refs/heads/main/conformance/aktana-conformance.yml
+  href: https://artifacts.apis.io/aktana/conformance/aktana-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aktana-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aktana/refs/heads/main/plans/aktana-plans-pricing.yml
+  href: https://artifacts.apis.io/aktana/plans/aktana-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aktana-plans-pricing.yml
@@ -98,7 +100,7 @@ common:
   type: Login
   url: https://app.pharmaforceiq.com/login
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aktana/refs/heads/main/llms/aktana-llms.txt
+  href: https://artifacts.apis.io/aktana/llms/aktana-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aktana-llms.txt
@@ -133,14 +135,14 @@ plans:
 - name: Aktana Plans Pricing
   plan_count: 1
   slug: aktana-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Aktana Rate Limits
   slug: aktana-rate-limits
 score:
   band: emerging
-  composite: 21.7
+  composite: 23.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 35.0
@@ -148,15 +150,15 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
-    access_clarity: 64.5
+    access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 21.7
+  previous_composite: 25.1
   provenance:
     conformance: first-party
   regulatory:
@@ -173,14 +175,14 @@ score:
     regime: Health
     regime_id: health
     score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aktana/refs/heads/main/screenshots/aktana-2026-07-25T195518.png
+screenshot: https://apis.io/screenshots/aktana/aktana-2026-07-25T195518.png
 security:
 - kind: domain-security
   name: Aktana Domain Security

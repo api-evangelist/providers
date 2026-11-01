@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,22 +25,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/compareaimodels/refs/heads/main/plans/compareaimodels-plans-pricing.yml
+  href: https://artifacts.apis.io/compareaimodels/plans/compareaimodels-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/compareaimodels-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/compareaimodels/refs/heads/main/hosts/compareaimodels-hosts.yml
+  href: https://artifacts.apis.io/compareaimodels/hosts/compareaimodels-hosts.yml
   title: ''
   type: Hosts
   url: hosts/compareaimodels-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/compareaimodels/refs/heads/main/vendors/compareaimodels-vendors.yml
+  href: https://artifacts.apis.io/compareaimodels/vendors/compareaimodels-vendors.yml
   title: ''
   type: Vendors
   url: vendors/compareaimodels-vendors.yml
@@ -51,7 +53,7 @@ common:
   type: Pricing
   url: https://www.comparemodels.ai/pricing
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/compareaimodels/refs/heads/main/security/compareaimodels-domain-security.yml
+  href: https://artifacts.apis.io/compareaimodels/security/compareaimodels-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/compareaimodels-domain-security.yml
@@ -74,7 +76,7 @@ modified: '2026-10-16'
 name: Compare AI Models
 nav: Providers
 network: true
-overview: 'Compare AI Models is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Comparison, Platform, and LanguageModels.
+overview: 'Compare AI Models is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Comparison, Platform, and Language Models.
 
 
   Compare AI Models'' developer surface includes signup flow, pricing, and 5 more developer resources.'
@@ -85,7 +87,7 @@ plans:
 random_paper: 5
 score:
   band: emerging
-  composite: 12.3
+  composite: 11.9
   coverage:
     artifact_dirs: 6
     catalog_earned: 35.0
@@ -93,6 +95,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.4
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
@@ -100,16 +103,18 @@ score:
     developer_ergonomics: 0.0
     discoverability: 48.2
     operational_transparency: 0.0
+  previous_composite: 12.3
   provenance:
     mcp: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -125,6 +130,6 @@ tags:
 - Artificial Intelligence
 - Comparison
 - Platform
-- LanguageModels
+- Language Models
 website: https://www.comparemodels.ai/
 ---

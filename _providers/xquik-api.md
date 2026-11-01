@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 91.4
-  scored_at: '2026-10-17'
+  score: 86.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 56
@@ -491,7 +493,7 @@ apis:
     question: Can I follow an X user from a connected account?
   phrasing_ops: 19
   slug: xquik-api-x-write-api
-artifact_total: 39
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Xquik Asyncapi Provenance
@@ -505,22 +507,22 @@ collections:
   slug: open-xquik-rest-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/capabilities/xquik-api-capability-edges.yml
+  href: https://artifacts.apis.io/xquik-api/capabilities/xquik-api-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/xquik-api-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/security/xquik-api-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/xquik-api/security/xquik-api-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/xquik-api-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/security/xquik-api-domain-security.yml
+  href: https://artifacts.apis.io/xquik-api/security/xquik-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xquik-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/authentication/xquik-api-authentication.yml
+  href: https://artifacts.apis.io/xquik-api/authentication/xquik-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/xquik-api-authentication.yml
@@ -597,17 +599,17 @@ common:
   type: Sandbox
   url: https://docs.xquik.com/mcp/tools
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/collections/xquik.postman_collection.json
+  href: https://artifacts.apis.io/xquik-api/collections/xquik.postman_collection.json
   title: ''
   type: Postman
   url: collections/xquik.postman_collection.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/mcp/xquik-mcp.yml
+  href: https://artifacts.apis.io/xquik-api/mcp/xquik-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/xquik-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/xquik-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -616,7 +618,7 @@ common:
   type: Support
   url: mailto:support@xquik.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/plans/xquik-plans.yml
+  href: https://artifacts.apis.io/xquik-api/plans/xquik-plans.yml
   title: ''
   type: Plans
   url: plans/xquik-plans.yml
@@ -641,17 +643,17 @@ common:
   type: PrivacyPolicy
   url: https://xquik.com/en/privacy
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/finops/xquik-finops.yml
+  href: https://artifacts.apis.io/xquik-api/finops/xquik-finops.yml
   title: ''
   type: FinOps
   url: finops/xquik-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/security/xquik-compliance.md
+  href: https://artifacts.apis.io/xquik-api/security/xquik-compliance.md
   title: ''
   type: Compliance
   url: security/xquik-compliance.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/security/xquik-trust-center.md
+  href: https://artifacts.apis.io/xquik-api/security/xquik-trust-center.md
   title: ''
   type: TrustCenter
   url: security/xquik-trust-center.md
@@ -660,12 +662,12 @@ common:
   type: ChangeLog
   url: https://docs.xquik.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/rate-limits/xquik-rate-limits.yml
+  href: https://artifacts.apis.io/xquik-api/rate-limits/xquik-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/xquik-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/lifecycle/xquik-deprecation-policy.md
+  href: https://artifacts.apis.io/xquik-api/lifecycle/xquik-deprecation-policy.md
   title: ''
   type: Deprecation
   url: lifecycle/xquik-deprecation-policy.md
@@ -682,7 +684,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/Xquik-dev
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/roadmap/xquik-roadmap.md
+  href: https://artifacts.apis.io/xquik-api/roadmap/xquik-roadmap.md
   title: ''
   type: RoadMap
   url: roadmap/xquik-roadmap.md
@@ -691,7 +693,7 @@ common:
   type: ErrorCatalog
   url: https://docs.xquik.com/guides/error-handling
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/well-known/xquik-well-known.yml
+  href: https://artifacts.apis.io/xquik-api/well-known/xquik-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/xquik-well-known.yml
@@ -704,117 +706,117 @@ common:
   type: HTTPMessageSignatures
   url: https://xquik.com/.well-known/http-message-signatures-directory
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/llms/xquik-llms.txt
+  href: https://artifacts.apis.io/xquik-api/llms/xquik-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/xquik-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/a2a/xquik-api-a2a.yml
+  href: https://artifacts.apis.io/xquik-api/a2a/xquik-api-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/xquik-api-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/agentic-access/xquik-agentic-access.yml
+  href: https://artifacts.apis.io/xquik-api/agentic-access/xquik-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/xquik-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/rules/xquik-rules.yml
+  href: https://artifacts.apis.io/xquik-api/rules/xquik-rules.yml
   title: ''
   type: SpectralRules
   url: rules/xquik-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/vocabulary/xquik-vocabulary.yml
+  href: https://artifacts.apis.io/xquik-api/vocabulary/xquik-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/xquik-vocabulary.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/overlays/xquik-overlay.yaml
+  href: https://artifacts.apis.io/xquik-api/overlays/xquik-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/xquik-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/conformance/xquik-conformance.yml
+  href: https://artifacts.apis.io/xquik-api/conformance/xquik-conformance.yml
   title: ''
   type: Conformance
   url: conformance/xquik-conformance.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/asyncapi/xquik-asyncapi.yaml
+  href: https://artifacts.apis.io/xquik-api/asyncapi/xquik-asyncapi.yaml
   title: ''
   type: AsyncAPI
   url: asyncapi/xquik-asyncapi.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/json-ld/xquik-context.jsonld
+  href: https://artifacts.apis.io/xquik-api/json-ld/xquik-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/xquik-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/json-schema/xquik-webhook-event.schema.json
+  href: https://artifacts.apis.io/xquik-api/json-schema/xquik-webhook-event.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/xquik-webhook-event.schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/json-schema/xquik-webhook-endpoint.schema.json
+  href: https://artifacts.apis.io/xquik-api/json-schema/xquik-webhook-endpoint.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/xquik-webhook-endpoint.schema.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/packages/xquik-packages.yml
+  href: https://artifacts.apis.io/xquik-api/packages/xquik-packages.yml
   title: ''
   type: Packages
   url: packages/xquik-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/packages/xquik-packages.yml
+  href: https://artifacts.apis.io/xquik-api/packages/xquik-packages.yml
   title: ''
   type: SDKs
   url: packages/xquik-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/conventions/xquik-conventions.yml
+  href: https://artifacts.apis.io/xquik-api/conventions/xquik-conventions.yml
   title: ''
   type: Conventions
   url: conventions/xquik-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/conventions/xquik-conventions.yml
+  href: https://artifacts.apis.io/xquik-api/conventions/xquik-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/xquik-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/errors/xquik-error-codes.yml
+  href: https://artifacts.apis.io/xquik-api/errors/xquik-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/xquik-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/data-model/xquik-data-model.yml
+  href: https://artifacts.apis.io/xquik-api/data-model/xquik-data-model.yml
   title: ''
   type: DataModel
   url: data-model/xquik-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/changelog/xquik-changelog.yml
+  href: https://artifacts.apis.io/xquik-api/changelog/xquik-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/xquik-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/cli/xquik-cli.yml
+  href: https://artifacts.apis.io/xquik-api/cli/xquik-cli.yml
   title: ''
   type: CLI
   url: cli/xquik-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/sandbox/xquik-sandbox.yml
+  href: https://artifacts.apis.io/xquik-api/sandbox/xquik-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/xquik-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/scopes/xquik-scopes.yml
+  href: https://artifacts.apis.io/xquik-api/scopes/xquik-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/xquik-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/lifecycle/xquik-lifecycle.yml
+  href: https://artifacts.apis.io/xquik-api/lifecycle/xquik-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/xquik-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/well-known/xquik-security.txt
+  href: https://artifacts.apis.io/xquik-api/well-known/xquik-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/xquik-security.txt
@@ -822,10 +824,10 @@ created: '2026-04-14'
 description: Xquik is an independent third-party X data and automation platform. It provides public data reads, connected-account write actions, monitoring, signed webhooks, exports, hosted MCP servers, OAuth 2.1, API keys, 8 SDKs, a CLI, Agent Skills, and an OpenAPI 3.1 contract. Not affiliated with X Corp.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Xquik Finops
-  primary_unit: ''
-  service_category: Social Media Data
+  primary_unit: credits
+  service_category: ''
   slug: xquik-finops
   template: false
 image: https://xquik.com/logo-square.png
@@ -861,10 +863,13 @@ overview: 'Xquik publishes 22 API contracts indexed on the [APIs.io](https://api
 
   Xquik''s developer surface includes authentication, documentation, API reference, getting-started guide, SDKs, CLI, sandbox, and 62 more developer resources.'
 plans:
+- name: Xquik Api Price Estimates
+  plan_count: 0
+  slug: xquik-api-price-estimates
 - name: Xquik Plans
-  plan_count: 4
+  plan_count: 7
   slug: xquik-plans
-random_paper: 19
+random_paper: 9
 rate_limits:
 - limit_count: 7
   name: Xquik Rate Limits
@@ -888,23 +893,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 82.9
+  composite: 77.8
   coverage:
     artifact_dirs: 36
-    catalog_earned: 78.0
-    catalog_earned_first_party: 24.0
-    catalog_gap: 37.0
+    catalog_earned: 69.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.8
+  delta: -4.7
   facets:
-    access_clarity: 92.1
+    access_clarity: 68.4
     contract_governance: 45.5
-    contract_quality: 66.7
+    contract_quality: 64.9
     developer_ergonomics: 94.0
-    discoverability: 91.7
-    operational_transparency: 81.6
-  previous_composite: 88.7
+    discoverability: 81.7
+    operational_transparency: 84.2
+  previous_composite: 82.5
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -921,13 +926,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/screenshots/xquik-api-2026-08-17T075407.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/xquik-api/xquik-api-2026-08-17T075407.png
 security:
 - kind: authentication
   name: Xquik Api Authentication
@@ -941,6 +947,12 @@ security:
   name: Xquik Api Vulnerability Disclosure
   slug: xquik-api-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 2
+skills:
+- name: Use Xquik
+  slug: xquik-api
+- name: xquik
+  slug: xquik-skill
 slug: xquik-api
 tags:
 - social-media-data

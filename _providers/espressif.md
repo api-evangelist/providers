@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-17'
+  score: 5.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Developer portal for Espressif APIs and SDKs.
@@ -32,27 +34,27 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/espressif/refs/heads/main/authentication/espressif-authentication.yml
+  href: https://artifacts.apis.io/espressif/authentication/espressif-authentication.yml
   title: ''
   type: Authentication
   url: authentication/espressif-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/espressif/refs/heads/main/conformance/espressif-conformance.yml
+  href: https://artifacts.apis.io/espressif/conformance/espressif-conformance.yml
   title: ''
   type: Conformance
   url: conformance/espressif-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/espressif/refs/heads/main/hosts/espressif-hosts.yml
+  href: https://artifacts.apis.io/espressif/hosts/espressif-hosts.yml
   title: ''
   type: Hosts
   url: hosts/espressif-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/espressif/refs/heads/main/vendors/espressif-vendors.yml
+  href: https://artifacts.apis.io/espressif/vendors/espressif-vendors.yml
   title: ''
   type: Vendors
   url: vendors/espressif-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/espressif/refs/heads/main/packages/espressif-packages.yml
+  href: https://artifacts.apis.io/espressif/packages/espressif-packages.yml
   title: ''
   type: Packages
   url: packages/espressif-packages.yml
@@ -105,7 +107,7 @@ common:
   type: APIReference
   url: https://docs.agents.espressif.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/espressif/refs/heads/main/security/espressif-domain-security.yml
+  href: https://artifacts.apis.io/espressif/security/espressif-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/espressif-domain-security.yml
@@ -132,7 +134,7 @@ overview: 'Espressif Systems is listed with 1 API on the [APIs.io](https://apis.
 
 
   Espressif Systems'' developer surface includes authentication, support, signup flow, engineering blog, getting-started guide, documentation, API reference, and 12 more developer resources.'
-random_paper: 12
+random_paper: 20
 score:
   band: thin
   composite: 29.7
@@ -143,6 +145,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -150,6 +153,7 @@ score:
     developer_ergonomics: 54.8
     discoverability: 55.4
     operational_transparency: 21.1
+  previous_composite: 29.7
   provenance:
     conformance: first-party
     mcp: unknown
@@ -159,8 +163,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

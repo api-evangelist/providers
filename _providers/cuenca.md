@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'REST API for Cuenca''s banking-as-a-service platform in Mexico: SPEI / internal transfers, deposits, CLABE accounts, debit card issuing and card transactions, bill payments, balances, statements, webho'
   name: Cuenca API
   slug: cuenca-api
-artifact_total: 4
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Cuenca Webhooks
@@ -88,92 +90,92 @@ common:
   type: StatusPage
   url: https://cuenca.statuspage.io
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/packages/cuenca-packages.yml
+  href: https://artifacts.apis.io/cuenca/packages/cuenca-packages.yml
   title: ''
   type: Packages
   url: packages/cuenca-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/packages/cuenca-packages.yml
+  href: https://artifacts.apis.io/cuenca/packages/cuenca-packages.yml
   title: ''
   type: SDKs
   url: packages/cuenca-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/authentication/cuenca-authentication.yml
+  href: https://artifacts.apis.io/cuenca/authentication/cuenca-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cuenca-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/conventions/cuenca-conventions.yml
+  href: https://artifacts.apis.io/cuenca/conventions/cuenca-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cuenca-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/conventions/cuenca-conventions.yml
+  href: https://artifacts.apis.io/cuenca/conventions/cuenca-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/cuenca-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/errors/cuenca-problem-types.yml
+  href: https://artifacts.apis.io/cuenca/errors/cuenca-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cuenca-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/errors/cuenca-decline-codes.yml
+  href: https://artifacts.apis.io/cuenca/errors/cuenca-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/cuenca-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/lifecycle/cuenca-lifecycle.yml
+  href: https://artifacts.apis.io/cuenca/lifecycle/cuenca-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cuenca-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/sandbox/cuenca-sandbox.yml
+  href: https://artifacts.apis.io/cuenca/sandbox/cuenca-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cuenca-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/data-model/cuenca-data-model.yml
+  href: https://artifacts.apis.io/cuenca/data-model/cuenca-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cuenca-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/conformance/cuenca-conformance.yml
+  href: https://artifacts.apis.io/cuenca/conformance/cuenca-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cuenca-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/asyncapi/cuenca-webhooks.yml
+  href: https://artifacts.apis.io/cuenca/asyncapi/cuenca-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cuenca-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/components/cuenca-components.yml
+  href: https://artifacts.apis.io/cuenca/components/cuenca-components.yml
   title: ''
   type: Components
   url: components/cuenca-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/mcp/cuenca-mcp.yml
+  href: https://artifacts.apis.io/cuenca/mcp/cuenca-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cuenca-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cuenca/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/llms/cuenca-llms.txt
+  href: https://artifacts.apis.io/cuenca/llms/cuenca-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cuenca-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/security/cuenca-domain-security.yml
+  href: https://artifacts.apis.io/cuenca/security/cuenca-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cuenca-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/well-known/cuenca-well-known.yml
+  href: https://artifacts.apis.io/cuenca/well-known/cuenca-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cuenca-well-known.yml
@@ -192,10 +194,10 @@ overview: 'Cuenca is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Cuenca''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 21 more developer resources.'
-random_paper: 7
+random_paper: 23
 score:
-  band: developing
-  composite: 39.5
+  band: thin
+  composite: 39.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -209,8 +211,8 @@ score:
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 61.3
-    discoverability: 73.2
-    operational_transparency: 26.3
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -218,7 +220,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 39.5
+  previous_composite: 39.1
   provenance:
     conformance: derived
     mcp: derived
@@ -229,14 +231,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/screenshots/cuenca-2026-07-25T210910.png
+screenshot: https://apis.io/screenshots/cuenca/cuenca-2026-07-25T210910.png
 security:
 - kind: authentication
   name: Cuenca Authentication
@@ -246,6 +248,12 @@ security:
   name: Cuenca Domain Security
   slug: cuenca-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Register and consume webhook events
+  slug: cuenca-receive-webhook-events
+- name: Send a SPEI transfer idempotently
+  slug: cuenca-send-spei-transfer
 slug: cuenca
 tags:
 - Company

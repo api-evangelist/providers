@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 59.6
-  scored_at: '2026-10-17'
+  score: 56.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 0
@@ -640,44 +642,44 @@ apis:
     question: How do I void a customer's warranty registration?
   phrasing_ops: 3
   slug: aftership-warranty-registrations-api
-artifact_total: 118
+artifact_total: 123
 asyncapis:
 - description: ''
   name: Aftership Webhooks
   slug: aftership-webhooks
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/rules/aftership-rules.yml
+  href: https://artifacts.apis.io/aftership/rules/aftership-rules.yml
   title: ''
   type: Spectral
   url: rules/aftership-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/json-ld/aftership-context.jsonld
+  href: https://artifacts.apis.io/aftership/json-ld/aftership-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/aftership-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/vocabulary/aftership-vocabulary.yml
+  href: https://artifacts.apis.io/aftership/vocabulary/aftership-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/aftership-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/llms/aftership-api-host-llms.txt
+  href: https://artifacts.apis.io/aftership/llms/aftership-api-host-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aftership-api-host-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/hosts/aftership-hosts.yml
+  href: https://artifacts.apis.io/aftership/hosts/aftership-hosts.yml
   title: ''
   type: Hosts
   url: hosts/aftership-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/integrations/aftership-integration-edges.yml
+  href: https://artifacts.apis.io/aftership/integrations/aftership-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/aftership-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/vendors/aftership-vendors.yml
+  href: https://artifacts.apis.io/aftership/vendors/aftership-vendors.yml
   title: ''
   type: Vendors
   url: vendors/aftership-vendors.yml
@@ -690,32 +692,32 @@ common:
   type: BlogRSS
   url: https://www.aftership.com/blog/.rss
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/capabilities/aftership-capability-edges.yml
+  href: https://artifacts.apis.io/aftership/capabilities/aftership-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/aftership-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/agentic-access/aftership-agentic-access.yml
+  href: https://artifacts.apis.io/aftership/agentic-access/aftership-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aftership-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/authentication/aftership-authentication.yml
+  href: https://artifacts.apis.io/aftership/authentication/aftership-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aftership-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/security/aftership-trust-center.yml
+  href: https://artifacts.apis.io/aftership/security/aftership-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/aftership-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/security/aftership-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aftership/security/aftership-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aftership-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/security/aftership-domain-security.yml
+  href: https://artifacts.apis.io/aftership/security/aftership-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aftership-domain-security.yml
@@ -732,67 +734,67 @@ common:
   type: Website
   url: https://www.aftership.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/plans/aftership-plans-pricing.yml
+  href: https://artifacts.apis.io/aftership/plans/aftership-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aftership-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/rate-limits/aftership-rate-limits.yml
+  href: https://artifacts.apis.io/aftership/rate-limits/aftership-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aftership-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/finops/aftership-finops.yml
+  href: https://artifacts.apis.io/aftership/finops/aftership-finops.yml
   title: ''
   type: FinOps
   url: finops/aftership-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/packages/aftership-packages.yml
+  href: https://artifacts.apis.io/aftership/packages/aftership-packages.yml
   title: ''
   type: Packages
   url: packages/aftership-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/packages/aftership-packages.yml
+  href: https://artifacts.apis.io/aftership/packages/aftership-packages.yml
   title: ''
   type: SDKs
   url: packages/aftership-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/well-known/aftership-well-known.yml
+  href: https://artifacts.apis.io/aftership/well-known/aftership-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aftership-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/mcp/aftership-mcp.yml
+  href: https://artifacts.apis.io/aftership/mcp/aftership-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aftership-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/mcp/aftership-tool-crosswalk.yml
+  href: https://artifacts.apis.io/aftership/mcp/aftership-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/aftership-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/llms/aftership-llms.txt
+  href: https://artifacts.apis.io/aftership/llms/aftership-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aftership-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/conformance/aftership-conformance.yml
+  href: https://artifacts.apis.io/aftership/conformance/aftership-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aftership-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/conformance/aftership-conformance.yml
+  href: https://artifacts.apis.io/aftership/conformance/aftership-conformance.yml
   title: ''
   type: Compliance
   url: conformance/aftership-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/errors/aftership-problem-types.yml
+  href: https://artifacts.apis.io/aftership/errors/aftership-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aftership-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/lifecycle/aftership-lifecycle.yml
+  href: https://artifacts.apis.io/aftership/lifecycle/aftership-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aftership-lifecycle.yml
@@ -801,57 +803,57 @@ common:
   type: StatusPage
   url: https://www.aftershipstatus.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/lifecycle/aftership-lifecycle.yml
+  href: https://artifacts.apis.io/aftership/lifecycle/aftership-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/aftership-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/scopes/aftership-scopes.yml
+  href: https://artifacts.apis.io/aftership/scopes/aftership-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aftership-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/security/aftership-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aftership/security/aftership-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/aftership-vulnerability-disclosure.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/sandbox/aftership-sandbox.yml
+  href: https://artifacts.apis.io/aftership/sandbox/aftership-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/aftership-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/conventions/aftership-conventions.yml
+  href: https://artifacts.apis.io/aftership/conventions/aftership-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aftership-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/changelog/aftership-changelog.yml
+  href: https://artifacts.apis.io/aftership/changelog/aftership-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aftership-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/components/aftership-components.yml
+  href: https://artifacts.apis.io/aftership/components/aftership-components.yml
   title: ''
   type: Components
   url: components/aftership-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/data-model/aftership-data-model.yml
+  href: https://artifacts.apis.io/aftership/data-model/aftership-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aftership-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/asyncapi/aftership-webhooks.yml
+  href: https://artifacts.apis.io/aftership/asyncapi/aftership-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/aftership-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/aftership/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/overlays/aftership-tracking-api-overlay.yaml
+  href: https://artifacts.apis.io/aftership/overlays/aftership-tracking-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aftership-tracking-api-overlay.yaml
@@ -911,10 +913,10 @@ created: '2026-05-08'
 description: AfterShip is a post-purchase experience platform for ecommerce brands, retailers, marketplaces and 3PLs, founded in 2012 and headquartered in Hong Kong. Its products cover shipment tracking across 1,400+ carriers, branded tracking pages, AI-predicted estimated delivery dates, automated returns and exchanges, warranty and claims management, shipping-label generation and rate shopping (Postmen), shipment protection, address validation, AI email parsing, product personalization and discovery, and marketplace feed management. AfterShip publishes ten versioned, date-based REST APIs on api.aftership.com, each with a downloadable OpenAPI 3.1 description, seven first-party SDKs, webhooks, an OAuth 2.0 authorization server, and public and OAuth-gated MCP servers for AI agents.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Aftership Finops
-  primary_unit: ''
-  service_category: Shipping
+  primary_unit: subscription
+  service_category: ''
   slug: aftership-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aftership.png
@@ -1157,7 +1159,10 @@ plans:
 - name: Aftership Plans Pricing
   plan_count: 4
   slug: aftership-plans-pricing
-random_paper: 20
+- name: Aftership Price Estimates
+  plan_count: 0
+  slug: aftership-price-estimates
+random_paper: 6
 rate_limits:
 - limit_count: 20
   name: Aftership Rate Limits
@@ -1182,23 +1187,28 @@ scopes:
   summary_line: 7 scopes
 score:
   band: exemplar
-  composite: 82.6
+  composite: 81.7
   coverage:
     artifact_dirs: 34
-    catalog_earned: 89.8
+    catalog_earned: 92.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 25.3
+    catalog_gap: 22.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.0
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 35.6
-    contract_quality: 71.6
-    developer_ergonomics: 81.0
-    discoverability: 81.7
-    operational_transparency: 92.1
-  previous_composite: 78.6
+    contract_quality: 70.7
+    developer_ergonomics: 83.3
+    discoverability: 71.7
+    operational_transparency: 94.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 80.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1215,13 +1225,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 44.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/screenshots/aftership-2026-06-20T165736.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aftership/aftership-2026-06-20T165736.png
 security:
 - kind: authentication
   name: Aftership Authentication
@@ -1239,6 +1250,16 @@ security:
   name: Aftership Trust Center
   slug: aftership-trust-center
   summary_line: SOC 2 Type II, ISO 27001
+skill_count: 4
+skills:
+- name: aftership-buy-a-shipping-label
+  slug: aftership-buy-a-shipping-label
+- name: aftership-create-and-track-shipment
+  slug: aftership-create-and-track-shipment
+- name: aftership-process-a-return
+  slug: aftership-process-a-return
+- name: tracking-and-returns
+  slug: aftership-tracking-and-returns
 slug: aftership
 tags:
 - Shipping

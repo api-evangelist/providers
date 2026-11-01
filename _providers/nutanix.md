@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -137,7 +139,7 @@ apis:
   description: Manage virtual machines including creation, update, deletion, and power state operations through the intent-based API model.
   name: Nutanix V Ms API
   slug: nutanix-vms-api
-artifact_total: 97
+artifact_total: 100
 collections:
 - collection_type: postman
   name: Nutanix Prism Central API v3 Alerts API
@@ -184,9 +186,6 @@ collections:
 - collection_type: postman
   name: Nutanix Prism Central API v3 Alerts Webhooks API
   slug: postman-nutanix-webhooks-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nutanix Prism Central API v3 Alerts API
   slug: open-nutanix-alerts-api
@@ -244,67 +243,67 @@ common:
   type: PrivacyPolicy
   url: https://www.nutanix.com/trust/privacy
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/finops/nutanix-finops.yml
+  href: https://artifacts.apis.io/nutanix/finops/nutanix-finops.yml
   title: ''
   type: FinOps
   url: finops/nutanix-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/rules/nutanix-rules.yml
+  href: https://artifacts.apis.io/nutanix/rules/nutanix-rules.yml
   title: ''
   type: Spectral
   url: rules/nutanix-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/rules/nutanix-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/nutanix/rules/nutanix-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/nutanix-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/json-ld/nutanix-context.jsonld
+  href: https://artifacts.apis.io/nutanix/json-ld/nutanix-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/nutanix-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/vocabulary/nutanix-vocabulary.yml
+  href: https://artifacts.apis.io/nutanix/vocabulary/nutanix-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/nutanix-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nutanix/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/data-model/nutanix-data-model.yml
+  href: https://artifacts.apis.io/nutanix/data-model/nutanix-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nutanix-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/errors/nutanix-problem-types.yml
+  href: https://artifacts.apis.io/nutanix/errors/nutanix-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nutanix-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/conformance/nutanix-conformance.yml
+  href: https://artifacts.apis.io/nutanix/conformance/nutanix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nutanix-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/well-known/nutanix-status-security.txt
+  href: https://artifacts.apis.io/nutanix/well-known/nutanix-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/nutanix-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/well-known/nutanix-well-known.yml
+  href: https://artifacts.apis.io/nutanix/well-known/nutanix-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nutanix-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/hosts/nutanix-hosts.yml
+  href: https://artifacts.apis.io/nutanix/hosts/nutanix-hosts.yml
   title: ''
   type: Hosts
   url: hosts/nutanix-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/vendors/nutanix-vendors.yml
+  href: https://artifacts.apis.io/nutanix/vendors/nutanix-vendors.yml
   title: ''
   type: Vendors
   url: vendors/nutanix-vendors.yml
@@ -325,7 +324,7 @@ common:
   type: Leadership
   url: https://www.nutanix.com/company/leadership
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/rate-limits/nutanix-rate-limits.yml
+  href: https://artifacts.apis.io/nutanix/rate-limits/nutanix-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nutanix-rate-limits.yml
@@ -334,12 +333,12 @@ common:
   type: Pricing
   url: https://www.nutanix.com/products/nutanix-cloud-clusters/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/plans/nutanix-plans-pricing.yml
+  href: https://artifacts.apis.io/nutanix/plans/nutanix-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nutanix-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/capabilities/nutanix-capability-edges.yml
+  href: https://artifacts.apis.io/nutanix/capabilities/nutanix-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nutanix-capability-edges.yml
@@ -356,17 +355,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/nutanix/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/agentic-access/nutanix-agentic-access.yml
+  href: https://artifacts.apis.io/nutanix/agentic-access/nutanix-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nutanix-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/security/nutanix-domain-security.yml
+  href: https://artifacts.apis.io/nutanix/security/nutanix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nutanix-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/authentication/nutanix-authentication.yml
+  href: https://artifacts.apis.io/nutanix/authentication/nutanix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nutanix-authentication.yml
@@ -442,10 +441,10 @@ created: '2025-03-14'
 description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutanix Database Service (NDB), Cloud Clusters (NC2), NCM Self-Service, and the GA v4 API platform.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Nutanix Finops
-  primary_unit: ''
-  service_category: Hybrid Cloud Infrastructure
+  primary_unit: hour per node
+  service_category: ''
   slug: nutanix-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nutanix.png
@@ -575,7 +574,7 @@ plans:
 - name: Nutanix Price Estimates
   plan_count: 0
   slug: nutanix-price-estimates
-random_paper: 5
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Nutanix Rate Limits
@@ -605,23 +604,28 @@ rules:
     warn: 0
   slug: nutanix-rules
 score:
-  band: strong
-  composite: 65.9
+  band: exemplar
+  composite: 71.3
   coverage:
     artifact_dirs: 31
-    catalog_earned: 85.0
+    catalog_earned: 88.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 30.0
+    catalog_gap: 27.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.8
+  delta: 1.6
   facets:
-    access_clarity: 67.1
+    access_clarity: 92.1
     contract_governance: 31.8
-    contract_quality: 69.3
-    developer_ergonomics: 57.7
-    discoverability: 67.9
-    operational_transparency: 76.3
+    contract_quality: 66.0
+    developer_ergonomics: 67.3
+    discoverability: 66.7
+    operational_transparency: 78.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
   previous_composite: 69.7
   provenance:
     agentic_access: derived
@@ -638,14 +642,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/screenshots/nutanix-2026-06-20T190530.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nutanix/nutanix-2026-06-20T190530.png
 security:
 - kind: authentication
   name: Nutanix Authentication
@@ -655,6 +660,16 @@ security:
   name: Nutanix Domain Security
   slug: nutanix-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: nutanix-create-vm-and-power-on
+  slug: nutanix-create-vm-and-power-on
+- name: nutanix-create-webhook
+  slug: nutanix-create-webhook
+- name: nutanix-images-manage
+  slug: nutanix-images-manage
+- name: nutanix-projects-fetch-details
+  slug: nutanix-projects-fetch-details
 slug: nutanix
 tags:
 - Cloud Management

@@ -28,22 +28,24 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.5
-  scored_at: '2026-10-17'
+  score: 11.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Hosted, remote Model Context Protocol server that lets external AI clients — Claude Desktop, Cursor and other MCP clients — work with an Instant project. Documented tools list, create, edit, publish a
   name: Instant MCP Server
   slug: instant-mcp-server
-artifact_total: 6
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -106,32 +108,32 @@ common:
   type: ChangeLog
   url: https://instant.so/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/changelog/instant-commerce-changelog.yml
+  href: https://artifacts.apis.io/instant-commerce/changelog/instant-commerce-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/instant-commerce-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/packages/instant-commerce-packages.yml
+  href: https://artifacts.apis.io/instant-commerce/packages/instant-commerce-packages.yml
   title: ''
   type: Packages
   url: packages/instant-commerce-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/packages/instant-commerce-packages.yml
+  href: https://artifacts.apis.io/instant-commerce/packages/instant-commerce-packages.yml
   title: ''
   type: SDKs
   url: packages/instant-commerce-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/mcp/instant-commerce-mcp.yml
+  href: https://artifacts.apis.io/instant-commerce/mcp/instant-commerce-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/instant-commerce-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/llms/instant-commerce-llms.txt
+  href: https://artifacts.apis.io/instant-commerce/llms/instant-commerce-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/instant-commerce-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/security/instant-commerce-domain-security.yml
+  href: https://artifacts.apis.io/instant-commerce/security/instant-commerce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/instant-commerce-domain-security.yml
@@ -144,63 +146,71 @@ common:
   type: GettingStarted
   url: https://docs.instant.so/en/articles/16068139-the-getting-started-checklist
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/authentication/instant-commerce-authentication.yml
+  href: https://artifacts.apis.io/instant-commerce/authentication/instant-commerce-authentication.yml
   title: ''
   type: Authentication
   url: authentication/instant-commerce-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/conventions/instant-commerce-conventions.yml
+  href: https://artifacts.apis.io/instant-commerce/conventions/instant-commerce-conventions.yml
   title: ''
   type: Conventions
   url: conventions/instant-commerce-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/errors/instant-commerce-problem-types.yml
+  href: https://artifacts.apis.io/instant-commerce/errors/instant-commerce-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/instant-commerce-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/conformance/instant-commerce-conformance.yml
+  href: https://artifacts.apis.io/instant-commerce/conformance/instant-commerce-conformance.yml
   title: ''
   type: Conformance
   url: conformance/instant-commerce-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/lifecycle/instant-commerce-lifecycle.yml
+  href: https://artifacts.apis.io/instant-commerce/lifecycle/instant-commerce-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/instant-commerce-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/plans/instant-commerce-plans-pricing.yml
+  href: https://artifacts.apis.io/instant-commerce/plans/instant-commerce-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/instant-commerce-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/rate-limits/instant-commerce-rate-limits.yml
+  href: https://artifacts.apis.io/instant-commerce/rate-limits/instant-commerce-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/instant-commerce-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/cli/instant-commerce-cli.yml
+  href: https://artifacts.apis.io/instant-commerce/cli/instant-commerce-cli.yml
   title: ''
   type: CLI
   url: cli/instant-commerce-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/components/instant-commerce-components.yml
+  href: https://artifacts.apis.io/instant-commerce/components/instant-commerce-components.yml
   title: ''
   type: Components
   url: components/instant-commerce-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/sandbox/instant-commerce-sandbox.yml
+  href: https://artifacts.apis.io/instant-commerce/sandbox/instant-commerce-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/instant-commerce-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/data-model/instant-commerce-data-model.yml
+  href: https://artifacts.apis.io/instant-commerce/data-model/instant-commerce-data-model.yml
   title: ''
   type: DataModel
   url: data-model/instant-commerce-data-model.yml
 created: '2026-07-17'
 description: 'Instant Commerce (product: Instant, instant.so) is an Amsterdam- and Miami-based AI-native eCommerce software company that builds an AI-powered, no-code page builder for Shopify. Merchants describe what they want and Instant''s AI agents generate complete store pages — landing pages, homepages, product and collection pages, popups and cart drawers — including layouts, copy and AI-generated imagery, plus Figma-to-Shopify conversion, A/B testing and conversion-rate optimization. The platform serves roughly 25,000 brands. Instant''s agent surface is a hosted, remote Model Context Protocol (MCP) server at api.instant.so/mcp, shipped 2026-06-02 and labelled beta, which lets Claude Desktop, Cursor and other MCP clients list, create, edit, publish and unpublish landing pages and drive the AI page-builder agent using a project-scoped bearer access token issued in the dashboard. There is no OpenAPI, no public REST reference and no OAuth; an earlier generation of developer tooling —
   the @instantcommerce/sdk React block SDK, the @instantcommerce/cli and the developer docs at docs.instantcommerce.io — is still published but has had no release since 2023. The company has raised about $10M and is backed by HV Capital. Added to the API Evangelist network as a portfolio-company lead and enriched from public sources.'
+finops:
+- has_sources: true
+  method: derived
+  name: Instant Commerce Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: instant-commerce-finops
+  template: false
 image: https://instantcommerce.io/og-image.jpg
 layout: provider
 mcp_servers:
@@ -219,28 +229,31 @@ plans:
 - name: Instant Commerce Plans Pricing
   plan_count: 5
   slug: instant-commerce-plans-pricing
-random_paper: 7
+- name: Instant Commerce Price Estimates
+  plan_count: 0
+  slug: instant-commerce-price-estimates
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Instant Commerce Rate Limits
   slug: instant-commerce-rate-limits
 score:
   band: developing
-  composite: 45.8
+  composite: 46.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 49.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -249,7 +262,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 45.8
+  previous_composite: 44.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -259,14 +272,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/screenshots/instant-commerce-2026-07-25T222609.png
+screenshot: https://apis.io/screenshots/instant-commerce/instant-commerce-2026-07-25T222609.png
 security:
 - kind: authentication
   name: Instant Commerce Authentication

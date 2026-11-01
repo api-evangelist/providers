@@ -15,7 +15,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: flavored
     agent_skills: true
@@ -29,16 +28,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.8
-  scored_at: '2026-10-17'
+  score: 33.7
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Hosted MCP server exposing Apstal analytics via JSON-RPC 2.0 over Streamable HTTP. Public tools (login, register, server_info) and authenticated tools (execute_sql, get_analytics, list_projects, regis
@@ -47,7 +48,7 @@ apis:
 - description: 'Documented REST surface for programmatic access to Apstal analytics: POST /api/v1/m for batched event ingestion (max 100 events per request), POST /api/v1/stream for rrweb session-replay chunk upload,'
   name: Apstal Analytics API
   slug: apstal-analytics-api
-artifact_total: 9
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Apstal Realtime Events
@@ -58,52 +59,52 @@ common:
   type: Website
   url: https://www.apstal.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/security/apstal-domain-security.yml
+  href: https://artifacts.apis.io/apstal/security/apstal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apstal-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/well-known/apstal-well-known.yml
+  href: https://artifacts.apis.io/apstal/well-known/apstal-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apstal-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/a2a/apstal-a2a.yml
+  href: https://artifacts.apis.io/apstal/a2a/apstal-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/apstal-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/apstal/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/llms/apstal-llms.txt
+  href: https://artifacts.apis.io/apstal/llms/apstal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apstal-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/authentication/apstal-authentication.yml
+  href: https://artifacts.apis.io/apstal/authentication/apstal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apstal-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/scopes/apstal-scopes.yml
+  href: https://artifacts.apis.io/apstal/scopes/apstal-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/apstal-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/errors/apstal-problem-types.yml
+  href: https://artifacts.apis.io/apstal/errors/apstal-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/apstal-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/conventions/apstal-conventions.yml
+  href: https://artifacts.apis.io/apstal/conventions/apstal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apstal-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/lifecycle/apstal-lifecycle.yml
+  href: https://artifacts.apis.io/apstal/lifecycle/apstal-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apstal-lifecycle.yml
@@ -112,37 +113,37 @@ common:
   type: StatusPage
   url: https://status.apstal.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/plans/apstal-plans-pricing.yml
+  href: https://artifacts.apis.io/apstal/plans/apstal-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apstal-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/rate-limits/apstal-rate-limits.yml
+  href: https://artifacts.apis.io/apstal/rate-limits/apstal-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apstal-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/packages/apstal-packages.yml
+  href: https://artifacts.apis.io/apstal/packages/apstal-packages.yml
   title: ''
   type: Packages
   url: packages/apstal-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/packages/apstal-packages.yml
+  href: https://artifacts.apis.io/apstal/packages/apstal-packages.yml
   title: ''
   type: SDKs
   url: packages/apstal-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/components/apstal-components.yml
+  href: https://artifacts.apis.io/apstal/components/apstal-components.yml
   title: ''
   type: Components
   url: components/apstal-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/data-model/apstal-data-model.yml
+  href: https://artifacts.apis.io/apstal/data-model/apstal-data-model.yml
   title: ''
   type: DataModel
   url: data-model/apstal-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/conformance/apstal-conformance.yml
+  href: https://artifacts.apis.io/apstal/conformance/apstal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apstal-conformance.yml
@@ -151,7 +152,7 @@ common:
   type: Compliance
   url: https://apstal.com/dpa
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/asyncapi/apstal-realtime-events.yml
+  href: https://artifacts.apis.io/apstal/asyncapi/apstal-realtime-events.yml
   title: ''
   type: EventSurface
   url: asyncapi/apstal-realtime-events.yml
@@ -209,6 +210,14 @@ common:
   url: https://apstal.com/privacy
 created: '2026-07-22'
 description: 'AI-first website analytics and visitor tracking platform that replaces traditional dashboards with a natural-language chatbot interface, offering conversational analytics, cookieless tracking, session replays, heatmaps, funnels, error tracking, Core Web Vitals and AI-agent traffic detection. Apstal is agent-native by design: its primary programmatic surface is a hosted MCP server at https://apstal.com/api/mcp (JSON-RPC 2.0 over Streamable HTTP, protocol 2025-06-18) whose tools/list is answerable anonymously, backed by a documented REST ingestion and stats API, a WebSocket real-time stream, an SSE natural-language query endpoint, an A2A agent card, two provider-authored Agent Skills, an llms.txt, OAuth 2.0 authorization-server and protected-resource metadata, and an MCP server card. The company is based in Poland and publishes a GDPR Data Processing Agreement.'
+finops:
+- has_sources: true
+  method: derived
+  name: Apstal Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: apstal-finops
+  template: false
 image: https://apstal.com/logos/apstal-mark.svg
 layout: provider
 mcp_servers:
@@ -230,7 +239,10 @@ plans:
 - name: Apstal Plans Pricing
   plan_count: 3
   slug: apstal-plans-pricing
-random_paper: 7
+- name: Apstal Price Estimates
+  plan_count: 0
+  slug: apstal-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Apstal Rate Limits
@@ -242,28 +254,28 @@ scopes:
   summary_line: 3 scopes · authorizationCode/refreshToken
 score:
   band: strong
-  composite: 56.5
+  composite: 61.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 58.0
+    artifact_dirs: 23
+    catalog_earned: 61.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 57.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 71.1
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 70.0
-    operational_transparency: 42.1
+    discoverability: 60.0
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - poland
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 56.4
+  previous_composite: 59.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -278,14 +290,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/screenshots/apstal-2026-07-25T200912.png
+screenshot: https://apis.io/screenshots/apstal/apstal-2026-07-25T200912.png
 security:
 - kind: authentication
   name: Apstal Authentication

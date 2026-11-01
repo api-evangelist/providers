@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,12 +39,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diligent-pharma/refs/heads/main/security/diligent-pharma-domain-security.yml
+  href: https://artifacts.apis.io/diligent-pharma/security/diligent-pharma-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/diligent-pharma-domain-security.yml
@@ -71,7 +73,7 @@ common:
   type: PrivacyPolicy
   url: https://www.diligentpharma.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diligent-pharma/refs/heads/main/security/diligent-pharma-trust-center.yml
+  href: https://artifacts.apis.io/diligent-pharma/security/diligent-pharma-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/diligent-pharma-trust-center.yml
@@ -84,42 +86,42 @@ common:
   type: Contact
   url: https://www.diligentpharma.com/contact-us
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/diligent-pharma/refs/heads/main/well-known/diligent-pharma-well-known.yml
+  href: https://artifacts.apis.io/diligent-pharma/well-known/diligent-pharma-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/diligent-pharma-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diligent-pharma/refs/heads/main/authentication/diligent-pharma-authentication.yml
+  href: https://artifacts.apis.io/diligent-pharma/authentication/diligent-pharma-authentication.yml
   title: ''
   type: Authentication
   url: authentication/diligent-pharma-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diligent-pharma/refs/heads/main/scopes/diligent-pharma-scopes.yml
+  href: https://artifacts.apis.io/diligent-pharma/scopes/diligent-pharma-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/diligent-pharma-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diligent-pharma/refs/heads/main/conformance/diligent-pharma-conformance.yml
+  href: https://artifacts.apis.io/diligent-pharma/conformance/diligent-pharma-conformance.yml
   title: ''
   type: Conformance
   url: conformance/diligent-pharma-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diligent-pharma/refs/heads/main/lifecycle/diligent-pharma-lifecycle.yml
+  href: https://artifacts.apis.io/diligent-pharma/lifecycle/diligent-pharma-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/diligent-pharma-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/diligent-pharma/refs/heads/main/plans/diligent-pharma-plans-pricing.yml
+  href: https://artifacts.apis.io/diligent-pharma/plans/diligent-pharma-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/diligent-pharma-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/diligent-pharma/refs/heads/main/rate-limits/diligent-pharma-rate-limits.yml
+  href: https://artifacts.apis.io/diligent-pharma/rate-limits/diligent-pharma-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/diligent-pharma-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/diligent-pharma/refs/heads/main/llms/diligent-pharma-llms.txt
+  href: https://artifacts.apis.io/diligent-pharma/llms/diligent-pharma-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/diligent-pharma-llms.txt
@@ -156,7 +158,7 @@ plans:
 - name: Diligent Pharma Plans Pricing
   plan_count: 0
   slug: diligent-pharma-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Diligent Pharma Rate Limits
@@ -168,7 +170,7 @@ scopes:
   summary_line: 6 scopes
 score:
   band: emerging
-  composite: 19.4
+  composite: 20.7
   coverage:
     artifact_dirs: 13
     catalog_earned: 27.0
@@ -178,13 +180,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 19.4
+  previous_composite: 20.7
   provenance:
     conformance: first-party
   regulatory:
@@ -193,14 +195,14 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/diligent-pharma/refs/heads/main/screenshots/diligent-pharma-2026-09-02T145242.png
+screenshot: https://apis.io/screenshots/diligent-pharma/diligent-pharma-2026-09-02T145242.png
 security:
 - kind: authentication
   name: Diligent Pharma Authentication

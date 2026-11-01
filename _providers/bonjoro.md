@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 31.8
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://www.bonjoro.com/api/v2
   baseurl_source: declared
@@ -249,7 +251,7 @@ apis:
   description: The Users API from Bonjoro — 6 operation(s) for users.
   name: Bonjoro Users API
   slug: bonjoro-users-api
-artifact_total: 48
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Bonjoro Webhooks
@@ -260,12 +262,12 @@ collections:
   slug: open-bonjoro-api-v2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/capabilities/bonjoro-capability-edges.yml
+  href: https://artifacts.apis.io/bonjoro/capabilities/bonjoro-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bonjoro-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/overlays/bonjoro-api-v2-overlay.yaml
+  href: https://artifacts.apis.io/bonjoro/overlays/bonjoro-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bonjoro-api-v2-overlay.yaml
@@ -314,72 +316,80 @@ common:
   type: PrivacyPolicy
   url: https://www.bonjoro.com/privacy-policy
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/plans/bonjoro-plans-pricing.yml
+  href: https://artifacts.apis.io/bonjoro/plans/bonjoro-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bonjoro-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/rate-limits/bonjoro-rate-limits.yml
+  href: https://artifacts.apis.io/bonjoro/rate-limits/bonjoro-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bonjoro-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/authentication/bonjoro-authentication.yml
+  href: https://artifacts.apis.io/bonjoro/authentication/bonjoro-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bonjoro-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/conventions/bonjoro-conventions.yml
+  href: https://artifacts.apis.io/bonjoro/conventions/bonjoro-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bonjoro-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/errors/bonjoro-problem-types.yml
+  href: https://artifacts.apis.io/bonjoro/errors/bonjoro-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bonjoro-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/lifecycle/bonjoro-lifecycle.yml
+  href: https://artifacts.apis.io/bonjoro/lifecycle/bonjoro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bonjoro-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/data-model/bonjoro-data-model.yml
+  href: https://artifacts.apis.io/bonjoro/data-model/bonjoro-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bonjoro-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/conformance/bonjoro-conformance.yml
+  href: https://artifacts.apis.io/bonjoro/conformance/bonjoro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bonjoro-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/packages/bonjoro-packages.yml
+  href: https://artifacts.apis.io/bonjoro/packages/bonjoro-packages.yml
   title: ''
   type: Packages
   url: packages/bonjoro-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/asyncapi/bonjoro-webhooks.yml
+  href: https://artifacts.apis.io/bonjoro/asyncapi/bonjoro-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bonjoro-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/llms/bonjoro-llms.txt
+  href: https://artifacts.apis.io/bonjoro/llms/bonjoro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bonjoro-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bonjoro/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/security/bonjoro-domain-security.yml
+  href: https://artifacts.apis.io/bonjoro/security/bonjoro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bonjoro-domain-security.yml
 created: '2026-08-12'
 description: 'Bonjoro is a personal-video customer engagement platform operated by Vimily Pty Ltd of Sydney, Australia. Sales, marketing, customer success and education teams use it to record short one-to-one videos — "Bonjoros" — and deliver them at the moments that decide a relationship: signup, onboarding, first purchase, renewal and churn risk. Alongside the messaging product it runs a video testimonial collection surface. Bonjoro publishes a REST API (API V2, 94 paths and 123 operations) covering greets, recipient profiles, campaigns and workspaces, recordings and media, message templates, engagement results and stats, transmissions and deliverability, replies, teams and users, custom sending domains and verified signatures, and the trigger/action automation engine that wires Bonjoro into CRMs and email platforms. REST API access is published as a Company-tier entitlement; the wider integration surface runs through 18+ native connectors and a first-party Zapier app.'
+finops:
+- has_sources: true
+  method: derived
+  name: Bonjoro Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: bonjoro-finops
+  template: false
 image: https://www.bonjoro.com/apple-touch-icon-180x180.png
 layout: provider
 modified: '2026-08-12'
@@ -395,30 +405,33 @@ overview: 'Bonjoro publishes 42 API contracts indexed on the [APIs.io](https://a
   Bonjoro''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
 plans:
 - name: Bonjoro Plans Pricing
-  plan_count: 5
+  plan_count: 10
   slug: bonjoro-plans-pricing
-random_paper: 13
+- name: Bonjoro Price Estimates
+  plan_count: 0
+  slug: bonjoro-price-estimates
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Bonjoro Rate Limits
   slug: bonjoro-rate-limits
 score:
   band: developing
-  composite: 48.0
+  composite: 49.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 57.0
+    artifact_dirs: 24
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 51.8
+    contract_quality: 50.8
     developer_ergonomics: 37.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -427,7 +440,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 48.0
+  previous_composite: 47.8
   provenance:
     conformance: derived
     contracts:
@@ -443,13 +456,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/screenshots/bonjoro-2026-08-17T080658.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bonjoro/bonjoro-2026-08-17T080658.png
 security:
 - kind: authentication
   name: Bonjoro Authentication
@@ -459,6 +473,14 @@ security:
   name: Bonjoro Domain Security
   slug: bonjoro-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Automate Bonjoro greet creation from a connected service
+  slug: bonjoro-automate-greet-creation
+- name: Send a personal Bonjoro video to a new customer
+  slug: bonjoro-send-personal-video
+- name: Track engagement on sent Bonjoro videos
+  slug: bonjoro-track-video-engagement
 slug: bonjoro
 tags:
 - Video Messaging

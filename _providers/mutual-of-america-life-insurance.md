@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,52 +34,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mutual-of-america-life-insurance/refs/heads/main/rate-limits/mutual-of-america-life-insurance-rate-limits.yml
+  href: https://artifacts.apis.io/mutual-of-america-life-insurance/rate-limits/mutual-of-america-life-insurance-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mutual-of-america-life-insurance-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mutual-of-america-life-insurance/refs/heads/main/security/mutual-of-america-life-insurance-domain-security.yml
+  href: https://artifacts.apis.io/mutual-of-america-life-insurance/security/mutual-of-america-life-insurance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mutual-of-america-life-insurance-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mutual-of-america-life-insurance/refs/heads/main/well-known/mutual-of-america-life-insurance-well-known.yml
+  href: https://artifacts.apis.io/mutual-of-america-life-insurance/well-known/mutual-of-america-life-insurance-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mutual-of-america-life-insurance-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mutual-of-america-life-insurance/refs/heads/main/authentication/mutual-of-america-life-insurance-authentication.yml
+  href: https://artifacts.apis.io/mutual-of-america-life-insurance/authentication/mutual-of-america-life-insurance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mutual-of-america-life-insurance-authentication.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mutual-of-america-life-insurance/refs/heads/main/well-known/mutual-of-america-life-insurance-openid-configuration.json
+  href: https://artifacts.apis.io/mutual-of-america-life-insurance/well-known/mutual-of-america-life-insurance-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/mutual-of-america-life-insurance-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mutual-of-america-life-insurance/refs/heads/main/scopes/mutual-of-america-life-insurance-scopes.yml
+  href: https://artifacts.apis.io/mutual-of-america-life-insurance/scopes/mutual-of-america-life-insurance-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mutual-of-america-life-insurance-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mutual-of-america-life-insurance/refs/heads/main/conformance/mutual-of-america-life-insurance-conformance.yml
+  href: https://artifacts.apis.io/mutual-of-america-life-insurance/conformance/mutual-of-america-life-insurance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mutual-of-america-life-insurance-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mutual-of-america-life-insurance/refs/heads/main/llms/mutual-of-america-life-insurance-llms.txt
+  href: https://artifacts.apis.io/mutual-of-america-life-insurance/llms/mutual-of-america-life-insurance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mutual-of-america-life-insurance-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mutual-of-america-life-insurance/refs/heads/main/plans/mutual-of-america-life-insurance-plans-pricing.yml
+  href: https://artifacts.apis.io/mutual-of-america-life-insurance/plans/mutual-of-america-life-insurance-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mutual-of-america-life-insurance-plans-pricing.yml
@@ -157,7 +159,7 @@ press:
 - date: ''
   title: What are some key issues investors should keep an eye on ...
   url: https://www.facebook.com/MutualofAmerica/posts/what-are-some-key-issues-investors-should-keep-an-eye-on-in-2026-joe-gaffoglio-p/866224722689607/
-random_paper: 17
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Mutual Of America Life Insurance Rate Limits
@@ -169,17 +171,17 @@ scopes:
   summary_line: 7 scopes
 score:
   band: emerging
-  composite: 19.4
+  composite: 20.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
@@ -192,7 +194,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 19.3
+  previous_composite: 20.7
   provenance:
     conformance: first-party
   regulatory:
@@ -201,14 +203,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mutual-of-america-life-insurance/refs/heads/main/screenshots/mutual-of-america-life-insurance-2026-10-11T111329.png
+screenshot: https://apis.io/screenshots/mutual-of-america-life-insurance/mutual-of-america-life-insurance-2026-10-11T111329.png
 security:
 - kind: authentication
   name: Mutual Of America Life Insurance Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
+  score: 20.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,11 +65,8 @@ arazzos:
 - description: Screen a property, request a Homeward Offer Estimate, and fetch the full offer breakdown.
   name: Homeward cash offer — buybox to finalized estimate
   slug: homeward-cash-offer
-artifact_total: 11
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Homeward Offer Estimate Buybox API
   slug: open-homeward-buybox-api
@@ -79,12 +78,12 @@ collections:
   slug: open-homeward-offer-requests-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/capabilities/homeward-capability-edges.yml
+  href: https://artifacts.apis.io/homeward/capabilities/homeward-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/homeward-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/overlays/homeward-offer-estimate-overlay.yaml
+  href: https://artifacts.apis.io/homeward/overlays/homeward-offer-estimate-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/homeward-offer-estimate-overlay.yaml
@@ -125,67 +124,67 @@ common:
   type: Postman
   url: https://api-docs.homeward.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/authentication/homeward-authentication.yml
+  href: https://artifacts.apis.io/homeward/authentication/homeward-authentication.yml
   title: ''
   type: Authentication
   url: authentication/homeward-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/security/homeward-domain-security.yml
+  href: https://artifacts.apis.io/homeward/security/homeward-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/homeward-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/agentic-access/homeward-agentic-access.yml
+  href: https://artifacts.apis.io/homeward/agentic-access/homeward-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/homeward-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/well-known/homeward-well-known.yml
+  href: https://artifacts.apis.io/homeward/well-known/homeward-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/homeward-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/mcp/homeward-mcp.yml
+  href: https://artifacts.apis.io/homeward/mcp/homeward-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/homeward-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/llms/homeward-llms.txt
+  href: https://artifacts.apis.io/homeward/llms/homeward-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/homeward-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/conformance/homeward-conformance.yml
+  href: https://artifacts.apis.io/homeward/conformance/homeward-conformance.yml
   title: ''
   type: Conformance
   url: conformance/homeward-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/errors/homeward-problem-types.yml
+  href: https://artifacts.apis.io/homeward/errors/homeward-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/homeward-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/lifecycle/homeward-lifecycle.yml
+  href: https://artifacts.apis.io/homeward/lifecycle/homeward-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/homeward-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/conventions/homeward-conventions.yml
+  href: https://artifacts.apis.io/homeward/conventions/homeward-conventions.yml
   title: ''
   type: Conventions
   url: conventions/homeward-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/data-model/homeward-data-model.yml
+  href: https://artifacts.apis.io/homeward/data-model/homeward-data-model.yml
   title: ''
   type: DataModel
   url: data-model/homeward-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/homeward/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/arazzo/homeward-cash-offer.yml
+  href: https://artifacts.apis.io/homeward/arazzo/homeward-cash-offer.yml
   title: ''
   type: Arazzo
   url: arazzo/homeward-cash-offer.yml
@@ -201,7 +200,7 @@ overview: 'Homeward is listed with 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Homeward''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 19 more developer resources.'
-random_paper: 19
+random_paper: 15
 score:
   band: thin
   composite: 27.1
@@ -212,13 +211,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 13.6
     developer_ergonomics: 51.8
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -227,7 +226,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 27.0
+  previous_composite: 27.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,13 +243,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/screenshots/homeward-2026-07-25T221350.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/homeward/homeward-2026-07-25T221350.png
 security:
 - kind: authentication
   name: Homeward Authentication
@@ -260,6 +260,12 @@ security:
   name: Homeward Domain Security
   slug: homeward-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Check whether a property is in Homeward's buybox
+  slug: homeward-check-buybox
+- name: Request a Homeward cash offer for a seller lead
+  slug: homeward-request-cash-offer
 slug: homeward
 tags:
 - Company

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The REST and SOAP surface the Sepasoft Web Services module exposes. Endpoints are authored by the operator in the Ignition Designer and served from the customer's own Ignition Gateway, mounted beneath
@@ -43,7 +45,7 @@ apis:
 artifact_total: 8
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/finops/sepasoft-finops.yml
+  href: https://artifacts.apis.io/sepasoft/finops/sepasoft-finops.yml
   title: ''
   type: FinOps
   url: finops/sepasoft-finops.yml
@@ -84,7 +86,7 @@ common:
   type: PrivacyPolicy
   url: https://www.sepasoft.com/privacy-policy/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/changelog/sepasoft-changelog.yml
+  href: https://artifacts.apis.io/sepasoft/changelog/sepasoft-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sepasoft-changelog.yml
@@ -93,80 +95,80 @@ common:
   type: ReleaseNotes
   url: https://docs.sepasoft.com/articles/release-notes-publication/service-pack-release-notes
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/lifecycle/sepasoft-lifecycle.yml
+  href: https://artifacts.apis.io/sepasoft/lifecycle/sepasoft-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sepasoft-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/authentication/sepasoft-authentication.yml
+  href: https://artifacts.apis.io/sepasoft/authentication/sepasoft-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sepasoft-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/conventions/sepasoft-conventions.yml
+  href: https://artifacts.apis.io/sepasoft/conventions/sepasoft-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sepasoft-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/errors/sepasoft-problem-types.yml
+  href: https://artifacts.apis.io/sepasoft/errors/sepasoft-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sepasoft-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/conformance/sepasoft-conformance.yml
+  href: https://artifacts.apis.io/sepasoft/conformance/sepasoft-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sepasoft-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/security/sepasoft-trust-center.yml
+  href: https://artifacts.apis.io/sepasoft/security/sepasoft-trust-center.yml
   title: ''
   type: Compliance
   url: security/sepasoft-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/security/sepasoft-trust-center.yml
+  href: https://artifacts.apis.io/sepasoft/security/sepasoft-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sepasoft-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/security/sepasoft-domain-security.yml
+  href: https://artifacts.apis.io/sepasoft/security/sepasoft-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sepasoft-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/plans/sepasoft-plans-pricing.yml
+  href: https://artifacts.apis.io/sepasoft/plans/sepasoft-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sepasoft-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/rate-limits/sepasoft-rate-limits.yml
+  href: https://artifacts.apis.io/sepasoft/rate-limits/sepasoft-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sepasoft-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/packages/sepasoft-packages.yml
+  href: https://artifacts.apis.io/sepasoft/packages/sepasoft-packages.yml
   title: ''
   type: Packages
   url: packages/sepasoft-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/llms/sepasoft-llms.txt
+  href: https://artifacts.apis.io/sepasoft/llms/sepasoft-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sepasoft-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/vocabulary/sepasoft-vocabulary.yml
+  href: https://artifacts.apis.io/sepasoft/vocabulary/sepasoft-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sepasoft-vocabulary.yml
 created: '2025-03-01'
 description: Sepasoft builds Manufacturing Execution System (MES) software delivered as modules for the Inductive Automation Ignition platform, used to control, track and document the transformation of raw materials into finished goods in real time. The suite spans OEE and downtime tracking, track and trace, ISA-88 batch procedure control, statistical process control, settings and changeover, document management, and ERP integration through the Business Connector (B2MML / ISA-95) and an SAP interface, alongside SepaIQ for analytics, machine learning and LLM features. Its integration surface is the Web Services module, which turns a customer's own Ignition Gateway into a REST and SOAP provider and consumer rather than a hosted API Sepasoft operates.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Sepasoft Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: physical production site license
+  service_category: ''
   slug: sepasoft-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sepasoft.png
 jsonld:
 - class_count: 19
@@ -187,32 +189,32 @@ overview: 'Sepasoft is listed with 1 API on the [APIs.io](https://apis.io/) netw
   Sepasoft''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 18 more developer resources.'
 plans:
 - name: Sepasoft Plans Pricing
-  plan_count: 16
+  plan_count: 13
   slug: sepasoft-plans-pricing
-random_paper: 11
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Sepasoft Rate Limits
   slug: sepasoft-rate-limits
 score:
   band: developing
-  composite: 44.9
+  composite: 45.7
   coverage:
     artifact_dirs: 18
-    catalog_earned: 72.5
+    catalog_earned: 75.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 42.5
+    catalog_gap: 39.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 78.9
+    access_clarity: 86.8
     contract_governance: 13.6
     contract_quality: 14.7
     developer_ergonomics: 47.6
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 36.8
-  previous_composite: 46.4
+  previous_composite: 44.1
   provenance:
     conformance: first-party
   regulatory:
@@ -221,14 +223,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/screenshots/sepasoft-2026-09-02T154933.png
+screenshot: https://apis.io/screenshots/sepasoft/sepasoft-2026-09-02T154933.png
 security:
 - kind: authentication
   name: Sepasoft Authentication

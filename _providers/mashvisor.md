@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.4
-  scored_at: '2026-10-17'
+  score: 22.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Market trends and heatmaps
   name: Mashvisor Trends API
   slug: mashvisor-trends-api
-artifact_total: 14
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Mashvisor Data Investment Analysis API
   slug: open-mashvisor-investment-analysis-api
@@ -96,7 +95,7 @@ common:
   type: BlogRSS
   url: https://www.mashvisor.com/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/overlays/mashvisor-overlay.yaml
+  href: https://artifacts.apis.io/mashvisor/overlays/mashvisor-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mashvisor-overlay.yaml
@@ -141,62 +140,62 @@ common:
   type: PrivacyPolicy
   url: https://www.mashvisor.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/authentication/mashvisor-authentication.yml
+  href: https://artifacts.apis.io/mashvisor/authentication/mashvisor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mashvisor-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/agentic-access/mashvisor-agentic-access.yml
+  href: https://artifacts.apis.io/mashvisor/agentic-access/mashvisor-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mashvisor-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/security/mashvisor-domain-security.yml
+  href: https://artifacts.apis.io/mashvisor/security/mashvisor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mashvisor-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/conventions/mashvisor-conventions.yml
+  href: https://artifacts.apis.io/mashvisor/conventions/mashvisor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mashvisor-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/errors/mashvisor-problem-types.yml
+  href: https://artifacts.apis.io/mashvisor/errors/mashvisor-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mashvisor-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/lifecycle/mashvisor-lifecycle.yml
+  href: https://artifacts.apis.io/mashvisor/lifecycle/mashvisor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mashvisor-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/conformance/mashvisor-conformance.yml
+  href: https://artifacts.apis.io/mashvisor/conformance/mashvisor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mashvisor-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/data-model/mashvisor-data-model.yml
+  href: https://artifacts.apis.io/mashvisor/data-model/mashvisor-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mashvisor-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/sandbox/mashvisor-sandbox.yml
+  href: https://artifacts.apis.io/mashvisor/sandbox/mashvisor-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/mashvisor-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/mcp/mashvisor-mcp.yml
+  href: https://artifacts.apis.io/mashvisor/mcp/mashvisor-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mashvisor-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/llms/mashvisor-llms.txt
+  href: https://artifacts.apis.io/mashvisor/llms/mashvisor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mashvisor-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mashvisor/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -212,26 +211,26 @@ overview: 'Mashvisor publishes 5 API contracts indexed on the [APIs.io](https://
 
 
   Mashvisor''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 17 more developer resources.'
-random_paper: 20
+random_paper: 4
 score:
-  band: thin
-  composite: 33.5
+  band: developing
+  composite: 41.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 50.2
-    developer_ergonomics: 37.5
-    discoverability: 73.2
+    developer_ergonomics: 56.5
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 33.4
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,15 +246,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/screenshots/mashvisor-2026-07-25T230328.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mashvisor/mashvisor-2026-07-25T230328.png
 security:
 - kind: authentication
   name: Mashvisor Authentication
@@ -265,6 +264,12 @@ security:
   name: Mashvisor Domain Security
   slug: mashvisor-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Analyze a property investment with Mashvisor
+  slug: mashvisor-analyze-property-investment
+- name: Scout a rental market with Mashvisor
+  slug: mashvisor-scout-rental-market
 slug: mashvisor
 tags:
 - Company

@@ -14,26 +14,28 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/axiom-global/refs/heads/main/hosts/axiom-global-hosts.yml
+  href: https://artifacts.apis.io/axiom-global/hosts/axiom-global-hosts.yml
   title: ''
   type: Hosts
   url: hosts/axiom-global-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/axiom-global/refs/heads/main/vendors/axiom-global-vendors.yml
+  href: https://artifacts.apis.io/axiom-global/vendors/axiom-global-vendors.yml
   title: ''
   type: Vendors
   url: vendors/axiom-global-vendors.yml
@@ -46,7 +48,7 @@ common:
   type: Login
   url: https://app.axiomglobal.com/login
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/axiom-global/refs/heads/main/security/axiom-global-domain-security.yml
+  href: https://artifacts.apis.io/axiom-global/security/axiom-global-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/axiom-global-domain-security.yml
@@ -90,7 +92,7 @@ overview: 'Axiom Global is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Axiom Global''s developer surface includes documentation and 9 more developer resources.'
-random_paper: 2
+random_paper: 12
 score:
   band: minimal
   composite: 10.8
@@ -118,14 +120,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/axiom-global/refs/heads/main/screenshots/axiom-global-2026-10-11T101232.png
+screenshot: https://apis.io/screenshots/axiom-global/axiom-global-2026-10-11T101232.png
 security:
 - kind: domain-security
   name: Axiom Global Domain Security

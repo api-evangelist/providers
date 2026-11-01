@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.6
-  scored_at: '2026-10-17'
+  score: 12.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Aria API is the REST control surface for the Aria Networks Deep Networking platform. Its unauthenticated root index at https://api.arianetworks.com/ advertises version 1.0.0 and sixteen resource g
@@ -83,12 +85,12 @@ common:
   type: Twitter
   url: https://x.com/AriaNetworks
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aria-networks/refs/heads/main/security/aria-networks-domain-security.yml
+  href: https://artifacts.apis.io/aria-networks/security/aria-networks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aria-networks-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aria-networks/refs/heads/main/llms/aria-networks-llms.txt
+  href: https://artifacts.apis.io/aria-networks/llms/aria-networks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aria-networks-llms.txt
@@ -125,10 +127,10 @@ overview: 'Aria Networks is listed with 1 API on the [APIs.io](https://apis.io/)
 
 
   Aria Networks'' developer surface includes documentation, engineering blog, support, and 9 more developer resources.'
-random_paper: 9
+random_paper: 7
 score:
   band: emerging
-  composite: 19.5
+  composite: 22.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -136,15 +138,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 19.0
-    discoverability: 68.3
+    developer_ergonomics: 28.6
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 19.4
+  previous_composite: 22.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -154,14 +156,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aria-networks/refs/heads/main/screenshots/aria-networks-2026-10-11T180011.png
+screenshot: https://apis.io/screenshots/aria-networks/aria-networks-2026-10-11T180011.png
 security:
 - kind: authentication
   name: Aria Networks Authentication

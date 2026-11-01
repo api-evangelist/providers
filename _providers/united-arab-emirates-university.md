@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The university's own single sign-on service, running on UAEU's registrable domain under a certificate issued to *.uaeu.ac.ae. It is the login point for UAEU applications — Banner Self-Service at ssb.u
@@ -107,42 +109,42 @@ common:
   type: Research
   url: https://research.uaeu.ac.ae/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/united-arab-emirates-university/refs/heads/main/authentication/united-arab-emirates-university-authentication.yml
+  href: https://artifacts.apis.io/united-arab-emirates-university/authentication/united-arab-emirates-university-authentication.yml
   title: ''
   type: Authentication
   url: authentication/united-arab-emirates-university-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/united-arab-emirates-university/refs/heads/main/scopes/united-arab-emirates-university-scopes.yml
+  href: https://artifacts.apis.io/united-arab-emirates-university/scopes/united-arab-emirates-university-scopes.yml
   title: ''
   type: Scopes
   url: scopes/united-arab-emirates-university-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/united-arab-emirates-university/refs/heads/main/conformance/united-arab-emirates-university-domain-standards.yml
+  href: https://artifacts.apis.io/united-arab-emirates-university/conformance/united-arab-emirates-university-domain-standards.yml
   title: ''
   type: Conformance
   url: conformance/united-arab-emirates-university-domain-standards.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/united-arab-emirates-university/refs/heads/main/security/united-arab-emirates-university-domain-security.yml
+  href: https://artifacts.apis.io/united-arab-emirates-university/security/united-arab-emirates-university-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/united-arab-emirates-university-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/united-arab-emirates-university/refs/heads/main/plans/united-arab-emirates-university-plans-pricing.yml
+  href: https://artifacts.apis.io/united-arab-emirates-university/plans/united-arab-emirates-university-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/united-arab-emirates-university-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/united-arab-emirates-university/refs/heads/main/rate-limits/united-arab-emirates-university-rate-limits.yml
+  href: https://artifacts.apis.io/united-arab-emirates-university/rate-limits/united-arab-emirates-university-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/united-arab-emirates-university-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/united-arab-emirates-university/refs/heads/main/finops/united-arab-emirates-university-finops.yml
+  href: https://artifacts.apis.io/united-arab-emirates-university/finops/united-arab-emirates-university-finops.yml
   title: ''
   type: FinOps
   url: finops/united-arab-emirates-university-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/united-arab-emirates-university/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/united-arab-emirates-university/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -170,7 +172,7 @@ coverage:
     url: https://www.uaeu.ac.ae/.well-known/agent.json
   - status: 200
     url: https://api.github.com/orgs/uitsws/repos
-  reason: no_public_api
+  reason: no-developer-program
   state: none
 created: '2026-06-03'
 description: 'United Arab Emirates University (UAEU) is the UAE''s national public research university, founded 1976 in Al Ain, Abu Dhabi. Its machine-readable footprint is small, and almost all of what appears under its name is a vendor''s contract running on a UAEU-branded host. Exactly one surface is institution-operated: the UAEU enterprise identity service at eisprod.uaeu.ac.ae, a WSO2 Identity Server deployment on the university''s own domain and certificate, which serves unauthenticated OpenID Connect discovery, SAML 2.0 IdP metadata and a SCIM 2.0 ServiceProviderConfig. Everything else is a tenancy. Scholarworks@UAEU (scholarworks.uaeu.ac.ae) answers OAI-PMH 2.0 but CNAMEs to dcuaeu.bepress.com and reports adminEmail dc-support@elsevier.com — bepress Digital Commons. research.uaeu.ac.ae CNAMEs to uaeu.elsevierpure.com and serves a complete 827-path Elsevier "Pure API" OpenAPI at /ws/api/openapi.json; that contract is Elsevier''s and is deliberately NOT saved in this repository. The
@@ -217,7 +219,7 @@ scopes:
   summary_line: 10 scopes
 score:
   band: emerging
-  composite: 25.6
+  composite: 25.9
   coverage:
     artifact_dirs: 11
     catalog_earned: 52.0
@@ -225,14 +227,14 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 31.0
     discoverability: 71.4
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -241,7 +243,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 31.7
+  previous_composite: 25.9
   provenance:
     conformance: first-party
   regulatory:
@@ -250,14 +252,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/united-arab-emirates-university/refs/heads/main/screenshots/united-arab-emirates-university-2026-06-20T200041.png
+screenshot: https://apis.io/screenshots/united-arab-emirates-university/united-arab-emirates-university-2026-06-20T200041.png
 security:
 - kind: authentication
   name: United Arab Emirates University Authentication

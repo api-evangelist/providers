@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: The CFF schema defines the structure of a CITATION.cff file in YAML, including required cff-version, message, and authors fields plus optional version, doi, license, repository-code, preferred-citatio
@@ -57,22 +59,22 @@ apis:
 artifact_total: 14
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/citation-cff/refs/heads/main/plans/citation-cff-plans-pricing.yml
+  href: https://artifacts.apis.io/citation-cff/plans/citation-cff-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/citation-cff-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/citation-cff/refs/heads/main/rate-limits/citation-cff-rate-limits.yml
+  href: https://artifacts.apis.io/citation-cff/rate-limits/citation-cff-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/citation-cff-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/citation-cff/refs/heads/main/finops/citation-cff-finops.yml
+  href: https://artifacts.apis.io/citation-cff/finops/citation-cff-finops.yml
   title: ''
   type: FinOps
   url: finops/citation-cff-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/citation-cff/refs/heads/main/security/citation-cff-domain-security.yml
+  href: https://artifacts.apis.io/citation-cff/security/citation-cff-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/citation-cff-domain-security.yml
@@ -113,17 +115,17 @@ common:
   type: Citation
   url: https://github.com/citation-file-format/citation-file-format/blob/main/CITATION.cff
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/citation-cff/refs/heads/main/json-ld/citation-cff-context.jsonld
+  href: https://artifacts.apis.io/citation-cff/json-ld/citation-cff-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/citation-cff-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/citation-cff/refs/heads/main/json-schema/citation-cff-schema.json
+  href: https://artifacts.apis.io/citation-cff/json-schema/citation-cff-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/citation-cff-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/citation-cff/refs/heads/main/rules/citation-cff-rules.yml
+  href: https://artifacts.apis.io/citation-cff/rules/citation-cff-rules.yml
   title: ''
   type: Spectral
   url: rules/citation-cff-rules.yml
@@ -133,7 +135,7 @@ finops:
 - has_sources: false
   method: generated
   name: Citation Cff Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: citation-cff-finops
   template: true
@@ -163,7 +165,7 @@ plans:
 - name: Citation Cff Plans Pricing
   plan_count: 3
   slug: citation-cff-plans-pricing
-random_paper: 19
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Citation Cff Rate Limits
@@ -201,7 +203,7 @@ score:
     catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
@@ -209,21 +211,21 @@ score:
     developer_ergonomics: 9.5
     discoverability: 62.5
     operational_transparency: 13.2
-  previous_composite: 18.7
+  previous_composite: 17.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/citation-cff/refs/heads/main/screenshots/citation-cff-2026-06-20T174407.png
+screenshot: https://apis.io/screenshots/citation-cff/citation-cff-2026-06-20T174407.png
 security:
 - kind: domain-security
   name: Citation Cff Domain Security

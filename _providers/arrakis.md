@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arrakis/refs/heads/main/security/arrakis-domain-security.yml
+  href: https://artifacts.apis.io/arrakis/security/arrakis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arrakis-domain-security.yml
@@ -69,7 +71,7 @@ overview: 'Arrakis is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Arrakis'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 1
+random_paper: 5
 score:
   band: minimal
   composite: 5.1
@@ -95,14 +97,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/arrakis/refs/heads/main/screenshots/arrakis-2026-07-25T201246.png
+screenshot: https://apis.io/screenshots/arrakis/arrakis-2026-07-25T201246.png
 security:
 - kind: domain-security
   name: Arrakis Domain Security

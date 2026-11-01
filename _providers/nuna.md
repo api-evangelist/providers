@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nuna/refs/heads/main/security/nuna-domain-security.yml
+  href: https://artifacts.apis.io/nuna/security/nuna-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nuna-domain-security.yml
@@ -80,17 +82,17 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/nuna-inc/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nuna/refs/heads/main/security/nuna-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nuna/security/nuna-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nuna-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nuna/refs/heads/main/security/nuna-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nuna/security/nuna-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/nuna-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nuna/refs/heads/main/security/nuna-trust-center.yml
+  href: https://artifacts.apis.io/nuna/security/nuna-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nuna-trust-center.yml
@@ -99,27 +101,27 @@ common:
   type: Trust
   url: https://www.nuna.com/trust/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nuna/refs/heads/main/security/nuna-trust-center.yml
+  href: https://artifacts.apis.io/nuna/security/nuna-trust-center.yml
   title: ''
   type: Compliance
   url: security/nuna-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nuna/refs/heads/main/conformance/nuna-conformance.yml
+  href: https://artifacts.apis.io/nuna/conformance/nuna-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nuna-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nuna/refs/heads/main/packages/nuna-packages.yml
+  href: https://artifacts.apis.io/nuna/packages/nuna-packages.yml
   title: ''
   type: Packages
   url: packages/nuna-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nuna/refs/heads/main/plans/nuna-plans-pricing.yml
+  href: https://artifacts.apis.io/nuna/plans/nuna-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nuna-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nuna/refs/heads/main/llms/nuna-llms.txt
+  href: https://artifacts.apis.io/nuna/llms/nuna-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nuna-llms.txt
@@ -155,12 +157,12 @@ plans:
 - name: Nuna Plans Pricing
   plan_count: 0
   slug: nuna-plans-pricing
-random_paper: 16
+random_paper: 2
 score:
   band: emerging
-  composite: 21.6
+  composite: 22.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -173,8 +175,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 13.2
-  previous_composite: 21.6
+    operational_transparency: 15.8
+  previous_composite: 22.0
   provenance:
     conformance: first-party
   regulatory:
@@ -183,14 +185,14 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nuna/refs/heads/main/screenshots/nuna-2026-09-02T150814.png
+screenshot: https://apis.io/screenshots/nuna/nuna-2026-09-02T150814.png
 security:
 - kind: domain-security
   name: Nuna Domain Security

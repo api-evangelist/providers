@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 20.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.screenleap.com/v2
@@ -42,11 +44,8 @@ apis:
   description: Create, retrieve, list and stop screen share sessions.
   name: Screenleap Screen Shares API
   slug: screenleap-screen-shares-api
-artifact_total: 5
+artifact_total: 6
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Screenleap Screen Shares API
   slug: open-screenleap-screen-shares-api
@@ -56,7 +55,7 @@ common:
   type: Website
   url: https://www.screenleap.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/overlays/screenleap-api-overlay.yaml
+  href: https://artifacts.apis.io/screenleap/overlays/screenleap-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/screenleap-api-overlay.yaml
@@ -109,57 +108,57 @@ common:
   type: PrivacyPolicy
   url: https://www.screenleap.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/authentication/screenleap-authentication.yml
+  href: https://artifacts.apis.io/screenleap/authentication/screenleap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/screenleap-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/conventions/screenleap-conventions.yml
+  href: https://artifacts.apis.io/screenleap/conventions/screenleap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/screenleap-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/errors/screenleap-problem-types.yml
+  href: https://artifacts.apis.io/screenleap/errors/screenleap-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/screenleap-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/lifecycle/screenleap-lifecycle.yml
+  href: https://artifacts.apis.io/screenleap/lifecycle/screenleap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/screenleap-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/conformance/screenleap-conformance.yml
+  href: https://artifacts.apis.io/screenleap/conformance/screenleap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/screenleap-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/data-model/screenleap-data-model.yml
+  href: https://artifacts.apis.io/screenleap/data-model/screenleap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/screenleap-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/mcp/screenleap-mcp.yml
+  href: https://artifacts.apis.io/screenleap/mcp/screenleap-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/screenleap-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/llms/screenleap-llms.txt
+  href: https://artifacts.apis.io/screenleap/llms/screenleap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/screenleap-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/well-known/screenleap-well-known.yml
+  href: https://artifacts.apis.io/screenleap/well-known/screenleap-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/screenleap-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/security/screenleap-domain-security.yml
+  href: https://artifacts.apis.io/screenleap/security/screenleap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/screenleap-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/screenleap/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -178,9 +177,9 @@ overview: 'Screenleap publishes 1 API contract indexed on the [APIs.io](https://
 random_paper: 2
 score:
   band: thin
-  composite: 32.8
+  composite: 33.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -192,9 +191,9 @@ score:
     contract_governance: 4.5
     contract_quality: 12.9
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 32.8
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 33.2
   provenance:
     conformance: derived
     contracts:
@@ -210,13 +209,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/screenshots/screenleap-2026-08-17T081734.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/screenleap/screenleap-2026-08-17T081734.png
 security:
 - kind: authentication
   name: Screenleap Authentication
@@ -226,6 +226,12 @@ security:
   name: Screenleap Domain Security
   slug: screenleap-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Report Screenleap share usage
+  slug: screenleap-report-usage
+- name: Start and stop a Screenleap screen share
+  slug: screenleap-start-and-stop-share
 slug: screenleap
 tags:
 - Company

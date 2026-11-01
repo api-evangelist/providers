@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.6
-  scored_at: '2026-10-17'
+  score: 30.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 260
   human_in_the_loop: 8
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 487
   slug: upcloud-agentic-access
   summary_line: 487 operations · 260 acting · 8 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.upcloud.com
   baseurl_source: declared
@@ -178,90 +180,100 @@ apis:
   description: Operations for managing zones.
   name: UpCloud Zone API
   slug: upcloud-zone-api
-artifact_total: 34
+artifact_total: 37
 common:
+- group: commercial
+  href: https://artifacts.apis.io/upcloud/plans/upcloud-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/upcloud-plans-pricing.yml
+- group: other
+  href: https://artifacts.apis.io/upcloud/capabilities/upcloud-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/upcloud-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upcloud/refs/heads/main/agentic-access/upcloud-agentic-access.yml
+  href: https://artifacts.apis.io/upcloud/agentic-access/upcloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/upcloud-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upcloud/refs/heads/main/rules/upcloud-rules.yml
+  href: https://artifacts.apis.io/upcloud/rules/upcloud-rules.yml
   title: ''
   type: Spectral
   url: rules/upcloud-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upcloud/refs/heads/main/json-ld/upcloud-context.jsonld
+  href: https://artifacts.apis.io/upcloud/json-ld/upcloud-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/upcloud-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upcloud/refs/heads/main/vocabulary/upcloud-vocabulary.yml
+  href: https://artifacts.apis.io/upcloud/vocabulary/upcloud-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/upcloud-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upcloud/refs/heads/main/data-model/upcloud-data-model.yml
+  href: https://artifacts.apis.io/upcloud/data-model/upcloud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/upcloud-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/upcloud/refs/heads/main/cli/upcloud-cli.yml
+  href: https://artifacts.apis.io/upcloud/cli/upcloud-cli.yml
   title: ''
   type: CLI
   url: cli/upcloud-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upcloud/refs/heads/main/errors/upcloud-problem-types.yml
+  href: https://artifacts.apis.io/upcloud/errors/upcloud-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/upcloud-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upcloud/refs/heads/main/conformance/upcloud-conformance.yml
+  href: https://artifacts.apis.io/upcloud/conformance/upcloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/upcloud-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upcloud/refs/heads/main/llms/upcloud-llms.txt
+  href: https://artifacts.apis.io/upcloud/llms/upcloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/upcloud-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upcloud/refs/heads/main/well-known/upcloud-status-security.txt
+  href: https://artifacts.apis.io/upcloud/well-known/upcloud-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/upcloud-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upcloud/refs/heads/main/well-known/upcloud-well-known.yml
+  href: https://artifacts.apis.io/upcloud/well-known/upcloud-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/upcloud-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/upcloud/refs/heads/main/hosts/upcloud-hosts.yml
+  href: https://artifacts.apis.io/upcloud/hosts/upcloud-hosts.yml
   title: ''
   type: Hosts
   url: hosts/upcloud-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/upcloud/refs/heads/main/vendors/upcloud-vendors.yml
+  href: https://artifacts.apis.io/upcloud/vendors/upcloud-vendors.yml
   title: ''
   type: Vendors
   url: vendors/upcloud-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/upcloud/refs/heads/main/packages/upcloud-packages.yml
+  href: https://artifacts.apis.io/upcloud/packages/upcloud-packages.yml
   title: ''
   type: SDKs
   url: packages/upcloud-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/upcloud/refs/heads/main/packages/upcloud-packages.yml
+  href: https://artifacts.apis.io/upcloud/packages/upcloud-packages.yml
   title: ''
   type: Packages
   url: packages/upcloud-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upcloud/refs/heads/main/authentication/upcloud-authentication.yml
+  href: https://artifacts.apis.io/upcloud/authentication/upcloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/upcloud-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upcloud/refs/heads/main/security/upcloud-domain-security.yml
+  href: https://artifacts.apis.io/upcloud/security/upcloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upcloud-domain-security.yml
@@ -323,6 +335,14 @@ common:
   url: https://upcloud.com/terms-of-service/
 created: '2026-10-13'
 description: UpCloud is a Finnish cloud infrastructure provider offering cloud servers, block and object storage, managed databases, managed Kubernetes (UKS), load balancers and private networking from data centres in Europe, North America, Asia and Australia. Its public REST API (version 1.3, api.upcloud.com) is documented at developers.upcloud.com with a published OpenAPI 3.1 contract, and is backed by official Go, Python and PHP clients, the upctl CLI and a Terraform provider.
+finops:
+- has_sources: true
+  method: derived
+  name: Upcloud Finops
+  primary_unit: hour
+  service_category: ''
+  slug: upcloud-finops
+  template: false
 jsonld:
 - class_count: 120
   name: Upcloud Context
@@ -339,8 +359,15 @@ overview: 'UpCloud publishes 29 API contracts indexed on the [APIs.io](https://a
   The UpCloud catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  UpCloud''s developer surface includes CLI, authentication, engineering blog, changelog, documentation, getting-started guide, pricing, and 24 more developer resources.'
-random_paper: 16
+  UpCloud''s developer surface includes CLI, authentication, engineering blog, changelog, documentation, getting-started guide, pricing, and 26 more developer resources.'
+plans:
+- name: Upcloud Plans Pricing
+  plan_count: 22
+  slug: upcloud-plans-pricing
+- name: Upcloud Price Estimates
+  plan_count: 0
+  slug: upcloud-price-estimates
+random_paper: 20
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -355,22 +382,29 @@ rules:
     warn: 2
   slug: upcloud-rules
 score:
-  band: developing
-  composite: 52.4
+  band: strong
+  composite: 60.8
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 51.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 63.3
+    artifact_dirs: 21
+    catalog_earned: 66.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 48.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 22.0
-    contract_quality: 62.1
+    contract_quality: 58.7
     developer_ergonomics: 64.3
-    discoverability: 69.6
-    operational_transparency: 36.8
+    discoverability: 62.5
+    operational_transparency: 47.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - finland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -386,11 +420,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Upcloud Authentication

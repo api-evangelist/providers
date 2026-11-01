@@ -31,6 +31,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -38,17 +40,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cincinnati-financial/refs/heads/main/security/cincinnati-financial-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cincinnati-financial/security/cincinnati-financial-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cincinnati-financial-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cincinnati-financial/refs/heads/main/security/cincinnati-financial-domain-security.yml
+  href: https://artifacts.apis.io/cincinnati-financial/security/cincinnati-financial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cincinnati-financial-domain-security.yml
@@ -93,42 +95,42 @@ common:
   type: Contact
   url: https://www.cinfin.com/contact-us
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cincinnati-financial/refs/heads/main/well-known/cincinnati-financial-well-known.yml
+  href: https://artifacts.apis.io/cincinnati-financial/well-known/cincinnati-financial-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cincinnati-financial-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cincinnati-financial/refs/heads/main/well-known/cincinnati-financial-security.txt
+  href: https://artifacts.apis.io/cincinnati-financial/well-known/cincinnati-financial-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cincinnati-financial-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cincinnati-financial/refs/heads/main/security/cincinnati-financial-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cincinnati-financial/security/cincinnati-financial-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/cincinnati-financial-vulnerability-disclosure.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cincinnati-financial/refs/heads/main/plans/cincinnati-financial-plans-pricing.yml
+  href: https://artifacts.apis.io/cincinnati-financial/plans/cincinnati-financial-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cincinnati-financial-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cincinnati-financial/refs/heads/main/rate-limits/cincinnati-financial-rate-limits.yml
+  href: https://artifacts.apis.io/cincinnati-financial/rate-limits/cincinnati-financial-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cincinnati-financial-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cincinnati-financial/refs/heads/main/conformance/cincinnati-financial-conformance.yml
+  href: https://artifacts.apis.io/cincinnati-financial/conformance/cincinnati-financial-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cincinnati-financial-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cincinnati-financial/refs/heads/main/packages/cincinnati-financial-packages.yml
+  href: https://artifacts.apis.io/cincinnati-financial/packages/cincinnati-financial-packages.yml
   title: ''
   type: Packages
   url: packages/cincinnati-financial-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cincinnati-financial/refs/heads/main/llms/cincinnati-financial-llms.txt
+  href: https://artifacts.apis.io/cincinnati-financial/llms/cincinnati-financial-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cincinnati-financial-llms.txt
@@ -196,14 +198,14 @@ press:
 - date: ''
   title: News Releases
   url: https://investors.cinfin.com/2026-01-30-Cincinnati-Financial-Corporation-Increases-Regular-Quarterly-Cash-Dividend
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Cincinnati Financial Rate Limits
   slug: cincinnati-financial-rate-limits
 score:
   band: emerging
-  composite: 14.8
+  composite: 15.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 27.0
@@ -216,10 +218,10 @@ score:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 14.8
+  previous_composite: 15.2
   provenance:
     conformance: first-party
   regulatory:
@@ -228,14 +230,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cincinnati-financial/refs/heads/main/screenshots/cincinnati-financial-2026-06-20T174346.png
+screenshot: https://apis.io/screenshots/cincinnati-financial/cincinnati-financial-2026-06-20T174346.png
 security:
 - kind: domain-security
   name: Cincinnati Financial Domain Security

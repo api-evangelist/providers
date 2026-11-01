@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 31.8
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.ritten.io/v1
   baseurl_source: declared
@@ -113,14 +115,14 @@ apis:
   description: OAuth 2.0 token endpoint for obtaining access tokens. This is the recommended way to authenticate with the Ritten External API.
   name: Ritten OAUTH API
   slug: ritten-oauth-api
-artifact_total: 20
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Ritten Webhooks
   slug: ritten-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/capabilities/ritten-capability-edges.yml
+  href: https://artifacts.apis.io/ritten/capabilities/ritten-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ritten-capability-edges.yml
@@ -153,12 +155,12 @@ common:
   type: Compliance
   url: https://www.ritten.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/conformance/ritten-conformance.yml
+  href: https://artifacts.apis.io/ritten/conformance/ritten-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ritten-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/security/ritten-domain-security.yml
+  href: https://artifacts.apis.io/ritten/security/ritten-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ritten-domain-security.yml
@@ -179,68 +181,76 @@ common:
   type: GitHubOrganization
   url: https://github.com/rittenlabs
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/authentication/ritten-authentication.yml
+  href: https://artifacts.apis.io/ritten/authentication/ritten-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ritten-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/conventions/ritten-conventions.yml
+  href: https://artifacts.apis.io/ritten/conventions/ritten-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ritten-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/errors/ritten-problem-types.yml
+  href: https://artifacts.apis.io/ritten/errors/ritten-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ritten-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/rate-limits/ritten-rate-limits.yml
+  href: https://artifacts.apis.io/ritten/rate-limits/ritten-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ritten-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/lifecycle/ritten-lifecycle.yml
+  href: https://artifacts.apis.io/ritten/lifecycle/ritten-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ritten-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/plans/ritten-plans-pricing.yml
+  href: https://artifacts.apis.io/ritten/plans/ritten-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ritten-plans-pricing.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/sandbox/ritten-sandbox.yml
+  href: https://artifacts.apis.io/ritten/sandbox/ritten-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ritten-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/data-model/ritten-data-model.yml
+  href: https://artifacts.apis.io/ritten/data-model/ritten-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ritten-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/asyncapi/ritten-webhooks.yml
+  href: https://artifacts.apis.io/ritten/asyncapi/ritten-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ritten-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ritten/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/overlays/ritten-external-api-overlay.yaml
+  href: https://artifacts.apis.io/ritten/overlays/ritten-external-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ritten-external-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/llms/ritten-llms.txt
+  href: https://artifacts.apis.io/ritten/llms/ritten-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ritten-llms.txt
 created: '2026-07-17'
 description: Ritten is a cloud-based electronic medical record (EMR), CRM and revenue-cycle platform built specifically for behavioral health and substance-use treatment organizations - detox, residential, PHP/IOP, and outpatient providers. Its browser-based product covers clinical documentation (group and individual notes, AI-assisted charting), scheduling, revenue-cycle management (claims, billing, authorizations), a HIPAA-compliant patient portal, treatment planning, compliance tooling (audit trails, signature routing), and outcomes reporting. Ritten publishes a public REST contract for integrating partners - the Ritten External API - documented with an OpenAPI 3.1.0 definition covering 56 paths, 71 operations and 93 schemas across patients, contacts, CRM cases, programs, facilities, organizations, tasks, encounters, forms, insurance payers, users and a 17-operation insights and reporting family, plus six webhook events. Authentication is OAuth 2.0 client_credentials with a required X-Ritten-Tenant
   header selecting the clinic instance; credentials are provisioned by Ritten to partners rather than self-service. Ritten is built for HIPAA-regulated and 42 CFR Part 2 confidentiality requirements with role-based access controls and audit logs, and supports operational integrations for e-prescribing, labs, eligibility/billing clearinghouses, and telehealth. Backed by 8VC and Threshold Ventures; based in Philadelphia, PA.
+finops:
+- has_sources: true
+  method: derived
+  name: Ritten Finops
+  primary_unit: ''
+  service_category: ''
+  slug: ritten-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ritten.png
 layout: provider
 modified: '2026-08-15'
@@ -258,35 +268,35 @@ plans:
 - name: Ritten Plans Pricing
   plan_count: 0
   slug: ritten-plans-pricing
-random_paper: 2
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Ritten Rate Limits
   slug: ritten-rate-limits
 score:
   band: developing
-  composite: 50.3
+  composite: 48.9
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 52.0
+    artifact_dirs: 25
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 52.2
+    contract_quality: 53.4
     developer_ergonomics: 54.2
-    discoverability: 78.6
-    operational_transparency: 42.1
+    discoverability: 66.1
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 49.7
+  previous_composite: 49.4
   provenance:
     conformance: first-party
     contracts:
@@ -306,13 +316,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/screenshots/ritten-2026-08-17T081615.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ritten/ritten-2026-08-17T081615.png
 security:
 - kind: authentication
   name: Ritten Authentication
@@ -322,6 +333,16 @@ security:
   name: Ritten Domain Security
   slug: ritten-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: Admit a patient to a Ritten program
+  slug: ritten-admit-patient
+- name: Pull Ritten census and outcomes reports
+  slug: ritten-census-and-outcomes-reporting
+- name: Work the Ritten CRM admissions pipeline
+  slug: ritten-crm-intake-pipeline
+- name: Sync a Ritten patient roster
+  slug: ritten-sync-patient-roster
 slug: ritten
 tags:
 - Company

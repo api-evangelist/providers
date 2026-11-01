@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,20 +35,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Legion Platform HTTP API (v3, OpenAPI 3.1.0) for controlling and integrating data from unmanned and mission systems: entities and entity locations, feeds (message and file data) and feed definitio'
   name: Legion Platform API
   slug: legion-platform-api
-artifact_total: 6
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Picogrid Events Webhooks
   slug: picogrid-events-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/security/picogrid-domain-security.yml
+  href: https://artifacts.apis.io/picogrid/security/picogrid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/picogrid-domain-security.yml
@@ -99,27 +101,27 @@ common:
   type: Partners
   url: https://picogrid.com/partners
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/well-known/picogrid-security.txt
+  href: https://artifacts.apis.io/picogrid/well-known/picogrid-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/picogrid-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/well-known/picogrid-well-known.yml
+  href: https://artifacts.apis.io/picogrid/well-known/picogrid-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/picogrid-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/authentication/picogrid-authentication.yml
+  href: https://artifacts.apis.io/picogrid/authentication/picogrid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/picogrid-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/scopes/picogrid-scopes.yml
+  href: https://artifacts.apis.io/picogrid/scopes/picogrid-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/picogrid-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/security/picogrid-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/picogrid/security/picogrid-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/picogrid-vulnerability-disclosure.yml
@@ -128,62 +130,62 @@ common:
   type: Security
   url: https://picogrid.com/.well-known/security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/lifecycle/picogrid-lifecycle.yml
+  href: https://artifacts.apis.io/picogrid/lifecycle/picogrid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/picogrid-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/changelog/picogrid-changelog.yml
+  href: https://artifacts.apis.io/picogrid/changelog/picogrid-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/picogrid-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/errors/picogrid-problem-types.yml
+  href: https://artifacts.apis.io/picogrid/errors/picogrid-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/picogrid-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/conventions/picogrid-conventions.yml
+  href: https://artifacts.apis.io/picogrid/conventions/picogrid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/picogrid-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/data-model/picogrid-data-model.yml
+  href: https://artifacts.apis.io/picogrid/data-model/picogrid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/picogrid-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/asyncapi/picogrid-events-webhooks.yml
+  href: https://artifacts.apis.io/picogrid/asyncapi/picogrid-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/picogrid-events-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/mcp/picogrid-mcp.yml
+  href: https://artifacts.apis.io/picogrid/mcp/picogrid-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/picogrid-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/conformance/picogrid-conformance.yml
+  href: https://artifacts.apis.io/picogrid/conformance/picogrid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/picogrid-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/packages/picogrid-packages.yml
+  href: https://artifacts.apis.io/picogrid/packages/picogrid-packages.yml
   title: ''
   type: Packages
   url: packages/picogrid-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/packages/picogrid-packages.yml
+  href: https://artifacts.apis.io/picogrid/packages/picogrid-packages.yml
   title: ''
   type: SDKs
   url: packages/picogrid-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/llms/picogrid-llms.txt
+  href: https://artifacts.apis.io/picogrid/llms/picogrid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/picogrid-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/picogrid/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -202,15 +204,15 @@ overview: 'Picogrid is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Picogrid''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, authentication, and 24 more developer resources.'
-random_paper: 13
+random_paper: 9
 scopes:
 - name: Picogrid Scopes
   scope_count: 7
   slug: picogrid-scopes
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
-  band: thin
-  composite: 35.4
+  band: developing
+  composite: 41.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -218,15 +220,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 31.6
-  previous_composite: 35.3
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 41.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -237,14 +239,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/screenshots/picogrid-2026-08-17T081219.png
+screenshot: https://apis.io/screenshots/picogrid/picogrid-2026-08-17T081219.png
 security:
 - kind: authentication
   name: Picogrid Authentication
@@ -258,6 +260,14 @@ security:
   name: Picogrid Vulnerability Disclosure
   slug: picogrid-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Dispatch a tasking command to an entity
+  slug: picogrid-dispatch-tasking-command
+- name: Ingest and search Legion feed data
+  slug: picogrid-ingest-and-search-feeds
+- name: Subscribe to Legion events and receive notifications
+  slug: picogrid-subscribe-to-events
 slug: picogrid
 tags:
 - Company

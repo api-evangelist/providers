@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The CentralReach Enhanced API lets partner organizations connect securely to the CentralReach platform and integrate with third-party applications. Authentication is OAuth 2.0 client-credentials again
@@ -50,7 +52,7 @@ common:
   type: BlogRSS
   url: https://centralreach.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/centralreach/refs/heads/main/security/centralreach-domain-security.yml
+  href: https://artifacts.apis.io/centralreach/security/centralreach-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/centralreach-domain-security.yml
@@ -107,42 +109,42 @@ common:
   type: Compliance
   url: https://centralreach.com/about/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/centralreach/refs/heads/main/authentication/centralreach-authentication.yml
+  href: https://artifacts.apis.io/centralreach/authentication/centralreach-authentication.yml
   title: ''
   type: Authentication
   url: authentication/centralreach-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/centralreach/refs/heads/main/scopes/centralreach-scopes.yml
+  href: https://artifacts.apis.io/centralreach/scopes/centralreach-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/centralreach-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centralreach/refs/heads/main/conventions/centralreach-conventions.yml
+  href: https://artifacts.apis.io/centralreach/conventions/centralreach-conventions.yml
   title: ''
   type: Conventions
   url: conventions/centralreach-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centralreach/refs/heads/main/errors/centralreach-problem-types.yml
+  href: https://artifacts.apis.io/centralreach/errors/centralreach-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/centralreach-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centralreach/refs/heads/main/lifecycle/centralreach-lifecycle.yml
+  href: https://artifacts.apis.io/centralreach/lifecycle/centralreach-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/centralreach-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centralreach/refs/heads/main/conformance/centralreach-conformance.yml
+  href: https://artifacts.apis.io/centralreach/conformance/centralreach-conformance.yml
   title: ''
   type: Conformance
   url: conformance/centralreach-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/centralreach/refs/heads/main/security/centralreach-trust-center.yml
+  href: https://artifacts.apis.io/centralreach/security/centralreach-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/centralreach-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/centralreach/refs/heads/main/well-known/centralreach-well-known.yml
+  href: https://artifacts.apis.io/centralreach/well-known/centralreach-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/centralreach-well-known.yml
@@ -158,7 +160,7 @@ overview: 'CentralReach is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   CentralReach''s developer surface includes engineering blog, documentation, getting-started guide, support, signup flow, authentication, and 18 more developer resources.'
-random_paper: 6
+random_paper: 12
 scopes:
 - name: Centralreach Scopes
   scope_count: 4
@@ -166,7 +168,7 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: thin
-  composite: 36.5
+  composite: 36.6
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -179,10 +181,10 @@ score:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 54.8
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 36.5
+    developer_ergonomics: 57.1
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 36.6
   provenance:
     conformance: first-party
   regulatory:
@@ -201,14 +203,14 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/centralreach/refs/heads/main/screenshots/centralreach-2026-07-25T204931.png
+screenshot: https://apis.io/screenshots/centralreach/centralreach-2026-07-25T204931.png
 security:
 - kind: authentication
   name: Centralreach Authentication

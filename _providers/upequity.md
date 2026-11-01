@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upequity/refs/heads/main/security/upequity-domain-security.yml
+  href: https://artifacts.apis.io/upequity/security/upequity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upequity-domain-security.yml
@@ -57,17 +59,17 @@ common:
   type: Licensing
   url: https://www.upequity.com/licensing
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upequity/refs/heads/main/llms/upequity-llms.txt
+  href: https://artifacts.apis.io/upequity/llms/upequity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/upequity-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/upequity/refs/heads/main/plans/upequity-plans-pricing.yml
+  href: https://artifacts.apis.io/upequity/plans/upequity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/upequity-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/upequity/refs/heads/main/rate-limits/upequity-rate-limits.yml
+  href: https://artifacts.apis.io/upequity/rate-limits/upequity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/upequity-rate-limits.yml
@@ -101,14 +103,14 @@ plans:
 - name: Upequity Plans Pricing
   plan_count: 0
   slug: upequity-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Upequity Rate Limits
   slug: upequity-rate-limits
 score:
   band: minimal
-  composite: 9.1
+  composite: 10.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -118,27 +120,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 9.1
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 10.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 8.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/upequity/refs/heads/main/screenshots/upequity-2026-10-11T131509.png
+screenshot: https://apis.io/screenshots/upequity/upequity-2026-10-11T131509.png
 security:
 - kind: domain-security
   name: Upequity Domain Security

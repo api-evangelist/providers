@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,22 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/briza/refs/heads/main/security/briza-domain-security.yml
+  href: https://artifacts.apis.io/briza/security/briza-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/briza-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/briza/refs/heads/main/packages/briza-packages.yml
+  href: https://artifacts.apis.io/briza/packages/briza-packages.yml
   title: ''
   type: Packages
   url: packages/briza-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/briza/refs/heads/main/llms/briza-llms.txt
+  href: https://artifacts.apis.io/briza/llms/briza-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/briza-llms.txt
@@ -89,10 +91,10 @@ overview: 'Briza is profiled on the [APIs.io](https://apis.io/) network. Tagged 
   Briza''s developer surface includes engineering blog and 8 more developer resources.'
 random_paper: 8
 score:
-  band: emerging
-  composite: 11.3
+  band: minimal
+  composite: 10.9
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -104,23 +106,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
-    operational_transparency: 13.2
-  previous_composite: 11.3
+    discoverability: 48.2
+    operational_transparency: 15.8
+  previous_composite: 10.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/briza/refs/heads/main/screenshots/briza-2026-07-25T203936.png
+screenshot: https://apis.io/screenshots/briza/briza-2026-07-25T203936.png
 security:
 - kind: domain-security
   name: Briza Domain Security

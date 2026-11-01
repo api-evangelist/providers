@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hithium/refs/heads/main/security/hithium-domain-security.yml
+  href: https://artifacts.apis.io/hithium/security/hithium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hithium-domain-security.yml
@@ -67,22 +69,22 @@ common:
   type: Compliance
   url: https://www.hithium.com/about/anti_corruption.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hithium/refs/heads/main/security/hithium-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hithium/security/hithium-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hithium-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hithium/refs/heads/main/conformance/hithium-conformance.yml
+  href: https://artifacts.apis.io/hithium/conformance/hithium-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hithium-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hithium/refs/heads/main/llms/hithium-llms.txt
+  href: https://artifacts.apis.io/hithium/llms/hithium-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hithium-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hithium/refs/heads/main/plans/hithium-plans-pricing.yml
+  href: https://artifacts.apis.io/hithium/plans/hithium-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hithium-plans-pricing.yml
@@ -130,7 +132,7 @@ plans:
 - name: Hithium Plans Pricing
   plan_count: 0
   slug: hithium-plans-pricing
-random_paper: 12
+random_paper: 16
 score:
   band: emerging
   composite: 12.5
@@ -163,14 +165,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 21.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hithium/refs/heads/main/screenshots/hithium-2026-09-02T145801.png
+screenshot: https://apis.io/screenshots/hithium/hithium-2026-09-02T145801.png
 security:
 - kind: domain-security
   name: Hithium Domain Security

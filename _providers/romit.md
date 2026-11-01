@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.romit.io/v1
@@ -81,11 +83,8 @@ apis:
   description: The OAuth API from Romit — 2 operation(s) for oauth.
   name: Romit O Auth API
   slug: romit-oauth-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Romit Application API
   slug: open-romit-application-api
@@ -119,47 +118,47 @@ common:
   type: Website
   url: https://romit.io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/authentication/romit-authentication.yml
+  href: https://artifacts.apis.io/romit/authentication/romit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/romit-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/scopes/romit-scopes.yml
+  href: https://artifacts.apis.io/romit/scopes/romit-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/romit-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/errors/romit-problem-types.yml
+  href: https://artifacts.apis.io/romit/errors/romit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/romit-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/conventions/romit-conventions.yml
+  href: https://artifacts.apis.io/romit/conventions/romit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/romit-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/data-model/romit-data-model.yml
+  href: https://artifacts.apis.io/romit/data-model/romit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/romit-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/packages/romit-packages.yml
+  href: https://artifacts.apis.io/romit/packages/romit-packages.yml
   title: ''
   type: Packages
   url: packages/romit-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/sandbox/romit-sandbox.yml
+  href: https://artifacts.apis.io/romit/sandbox/romit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/romit-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/conformance/romit-conformance.yml
+  href: https://artifacts.apis.io/romit/conformance/romit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/romit-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/security/romit-domain-security.yml
+  href: https://artifacts.apis.io/romit/security/romit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/romit-domain-security.yml
@@ -175,7 +174,7 @@ overview: 'Romit publishes 9 API contracts indexed on the [APIs.io](https://apis
 
 
   Romit''s developer surface includes authentication, sandbox, and 8 more developer resources.'
-random_paper: 5
+random_paper: 3
 scopes:
 - name: Romit Scopes
   scope_count: 15
@@ -214,12 +213,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Romit Authentication

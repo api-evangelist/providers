@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-17'
+  score: 32.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -78,11 +80,8 @@ apis:
   description: Retrieve vulnerability information from Microsoft Defender Vulnerability Management. Access CVE data, severity scores, exploit information, and exposure metrics.
   name: Microsoft Defender Vulnerabilities API
   slug: microsoft-defender-vulnerabilities-api
-artifact_total: 34
+artifact_total: 33
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Microsoft Defender for Endpoint Alerts API
   slug: open-microsoft-defender-alerts-api
@@ -97,17 +96,17 @@ collections:
   slug: open-microsoft-defender-vulnerabilities-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/plans/microsoft-defender-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-defender/plans/microsoft-defender-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-defender-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/rate-limits/microsoft-defender-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-defender/rate-limits/microsoft-defender-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-defender-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/finops/microsoft-defender-finops.yml
+  href: https://artifacts.apis.io/microsoft-defender/finops/microsoft-defender-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-defender-finops.yml
@@ -116,32 +115,32 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/capabilities/microsoft-defender-capability-edges.yml
+  href: https://artifacts.apis.io/microsoft-defender/capabilities/microsoft-defender-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-defender-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/agentic-access/microsoft-defender-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-defender/agentic-access/microsoft-defender-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-defender-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/security/microsoft-defender-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/microsoft-defender/security/microsoft-defender-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-defender-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/security/microsoft-defender-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-defender/security/microsoft-defender-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-defender-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/authentication/microsoft-defender-authentication.yml
+  href: https://artifacts.apis.io/microsoft-defender/authentication/microsoft-defender-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-defender-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/scopes/microsoft-defender-scopes.yml
+  href: https://artifacts.apis.io/microsoft-defender/scopes/microsoft-defender-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-defender-scopes.yml
@@ -193,12 +192,12 @@ created: '2024-01-15'
 description: Collection of Microsoft Defender security APIs for threat protection, endpoint security, and security operations.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Microsoft Defender Finops
   primary_unit: ''
-  service_category: Security / XDR
+  service_category: ''
   slug: microsoft-defender-finops
-  template: false
+  template: true
 image: https://www.microsoft.com/favicon.ico
 json_schemas:
 - name: Microsoft Defender for Endpoint Alert
@@ -251,7 +250,7 @@ overview: 'Microsoft Defender publishes 9 API contracts indexed on the [APIs.io]
   Microsoft Defender''s developer surface includes authentication, developer portal, and 19 more developer resources.'
 plans:
 - name: Microsoft Defender Plans Pricing
-  plan_count: 17
+  plan_count: 12
   slug: microsoft-defender-plans-pricing
 random_paper: 8
 rate_limits:
@@ -276,44 +275,45 @@ scopes:
   slug: microsoft-defender-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 49.9
+  band: strong
+  composite: 56.3
   coverage:
     artifact_dirs: 19
-    catalog_earned: 41.7
-    catalog_earned_first_party: 0.0
-    catalog_gap: 73.4
+    catalog_earned: 50.7
+    catalog_earned_first_party: 12.0
+    catalog_gap: 64.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 63.2
     contract_governance: 9.8
-    contract_quality: 67.6
+    contract_quality: 64.9
     developer_ergonomics: 57.1
     discoverability: 39.3
-    operational_transparency: 42.1
-  previous_composite: 51.4
+    operational_transparency: 55.3
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/screenshots/microsoft-defender-2026-08-17T124157.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-defender/microsoft-defender-2026-08-17T124157.png
 security:
 - kind: authentication
   name: Microsoft Defender Authentication

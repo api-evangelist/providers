@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -56,7 +58,7 @@ apis:
 - description: The read-only JSON surface the store documents for agents that only need to browse catalog data without transacting — product JSON by handle, collection product listings, product search and the sitema
   name: quip Storefront JSON Endpoints
   slug: quip-nyc-storefront-json
-artifact_total: 11
+artifact_total: 14
 common:
 - group: company
   title: ''
@@ -67,7 +69,7 @@ common:
   type: BlogRSS
   url: https://www.getquip.com/blogs/mouthoff-blog.atom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/security/quip-nyc-domain-security.yml
+  href: https://artifacts.apis.io/quip-nyc/security/quip-nyc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quip-nyc-domain-security.yml
@@ -80,77 +82,77 @@ common:
   type: Documentation
   url: https://www.getquip.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/llms/quip-nyc-llms.txt
+  href: https://artifacts.apis.io/quip-nyc/llms/quip-nyc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/quip-nyc-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/well-known/quip-nyc-well-known.yml
+  href: https://artifacts.apis.io/quip-nyc/well-known/quip-nyc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/quip-nyc-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/well-known/quip-nyc-openid-configuration.json
+  href: https://artifacts.apis.io/quip-nyc/well-known/quip-nyc-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/quip-nyc-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/authentication/quip-nyc-authentication.yml
+  href: https://artifacts.apis.io/quip-nyc/authentication/quip-nyc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/quip-nyc-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/scopes/quip-nyc-scopes.yml
+  href: https://artifacts.apis.io/quip-nyc/scopes/quip-nyc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/quip-nyc-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/conventions/quip-nyc-conventions.yml
+  href: https://artifacts.apis.io/quip-nyc/conventions/quip-nyc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/quip-nyc-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/conformance/quip-nyc-conformance.yml
+  href: https://artifacts.apis.io/quip-nyc/conformance/quip-nyc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/quip-nyc-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/errors/quip-nyc-problem-types.yml
+  href: https://artifacts.apis.io/quip-nyc/errors/quip-nyc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/quip-nyc-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/lifecycle/quip-nyc-lifecycle.yml
+  href: https://artifacts.apis.io/quip-nyc/lifecycle/quip-nyc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/quip-nyc-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/data-model/quip-nyc-data-model.yml
+  href: https://artifacts.apis.io/quip-nyc/data-model/quip-nyc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/quip-nyc-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/quip-nyc/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/agentic-access/quip-nyc-agentic-access.yml
+  href: https://artifacts.apis.io/quip-nyc/agentic-access/quip-nyc-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/quip-nyc-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/rate-limits/quip-nyc-rate-limits.yml
+  href: https://artifacts.apis.io/quip-nyc/rate-limits/quip-nyc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/quip-nyc-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/plans/quip-nyc-plans-pricing.yml
+  href: https://artifacts.apis.io/quip-nyc/plans/quip-nyc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/quip-nyc-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/packages/quip-nyc-packages.yml
+  href: https://artifacts.apis.io/quip-nyc/packages/quip-nyc-packages.yml
   title: ''
   type: Packages
   url: packages/quip-nyc-packages.yml
@@ -211,7 +213,7 @@ plans:
 - name: Quip Nyc Plans Pricing
   plan_count: 0
   slug: quip-nyc-plans-pricing
-random_paper: 8
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Quip Nyc Rate Limits
@@ -223,7 +225,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.6
+  composite: 29.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -237,9 +239,9 @@ score:
     contract_governance: 18.2
     contract_quality: 15.7
     developer_ergonomics: 30.4
-    discoverability: 71.7
-    operational_transparency: 2.6
-  previous_composite: 29.6
+    discoverability: 61.7
+    operational_transparency: 5.3
+  previous_composite: 29.0
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -251,14 +253,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/screenshots/quip-nyc-2026-09-02T152706.png
+screenshot: https://apis.io/screenshots/quip-nyc/quip-nyc-2026-09-02T152706.png
 security:
 - kind: authentication
   name: Quip Nyc Authentication
@@ -268,6 +270,14 @@ security:
   name: Quip Nyc Domain Security
   slug: quip-nyc-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Browse the quip catalog
+  slug: quip-nyc-browse-catalog
+- name: Build and maintain a quip cart
+  slug: quip-nyc-build-cart
+- name: Complete a quip checkout with buyer approval
+  slug: quip-nyc-checkout-with-buyer-approval
 slug: quip-nyc
 tags:
 - Company

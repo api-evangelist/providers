@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
+  score: 21.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.opereit.com
@@ -51,11 +53,8 @@ arazzos:
 - description: Upload a contract, upload and audit an invoice against it, then read the findings.
   name: Opereit — audit a carrier invoice against a contract
   slug: opereit-audit-invoice
-artifact_total: 8
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Opereit Invoice Auditing Contracts API
   slug: open-opereit-contracts-api
@@ -64,12 +63,12 @@ collections:
   slug: open-opereit-invoice-audits-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/capabilities/opereit-capability-edges.yml
+  href: https://artifacts.apis.io/opereit/capabilities/opereit-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/opereit-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/overlays/opereit-invoice-auditing-overlay.yaml
+  href: https://artifacts.apis.io/opereit/overlays/opereit-invoice-auditing-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/opereit-invoice-auditing-overlay.yaml
@@ -102,27 +101,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/opereit
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/authentication/opereit-authentication.yml
+  href: https://artifacts.apis.io/opereit/authentication/opereit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/opereit-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/security/opereit-domain-security.yml
+  href: https://artifacts.apis.io/opereit/security/opereit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opereit-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/mcp/opereit-mcp.yml
+  href: https://artifacts.apis.io/opereit/mcp/opereit-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/opereit-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/llms/opereit-llms.txt
+  href: https://artifacts.apis.io/opereit/llms/opereit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/opereit-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/opereit/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -138,10 +137,10 @@ overview: 'Opereit publishes 2 API contracts indexed on the [APIs.io](https://ap
 
 
   Opereit''s developer surface includes documentation, API reference, getting-started guide, authentication, and 10 more developer resources.'
-random_paper: 12
+random_paper: 16
 score:
   band: thin
-  composite: 30.8
+  composite: 32.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -151,11 +150,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 47.8
     developer_ergonomics: 51.8
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -165,7 +164,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 30.8
+  previous_composite: 32.2
   provenance:
     conformance: derived
     contracts:
@@ -181,13 +180,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/screenshots/opereit-2026-08-07T190714.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/opereit/opereit-2026-08-07T190714.png
 security:
 - kind: authentication
   name: Opereit Authentication
@@ -197,6 +197,12 @@ security:
   name: Opereit Domain Security
   slug: opereit-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Audit a carrier invoice against a contract
+  slug: opereit-audit-carrier-invoice
+- name: Review extracted contract rates and surcharges
+  slug: opereit-review-contract-rates
 slug: opereit
 tags:
 - Company

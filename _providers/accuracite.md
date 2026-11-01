@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 2
   slug: accuracite-agentic-access
   summary_line: 2 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
 - description: 'Synchronous REST API for citation verification and claim-to-source lookup. Two operations, both POST and both keyed by an X-API-Key header: /api/v1/verify checks a citation string (or a bare URL, or a'
   name: AccuraCite API
@@ -59,60 +61,65 @@ apis:
   description: The Verify API from AccuraCite — 1 operation(s) for verify.
   name: AccuraCite Verify API
   slug: accuracite-verify-api
-artifact_total: 18
+- baseURL: https://accuracite.com/api/v1
+  baseurl_source: declared
+  description: The Usage API from AccuraCite — 1 operation(s) for usage.
+  name: AccuraCite Usage API
+  slug: accuracite-usage-api
+artifact_total: 22
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/json-ld/accuracite-context.jsonld
+  href: https://artifacts.apis.io/accuracite/json-ld/accuracite-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/accuracite-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/vocabulary/accuracite-vocabulary.yml
+  href: https://artifacts.apis.io/accuracite/vocabulary/accuracite-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/accuracite-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/accuracite/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/mcp/accuracite-mcp.yml
+  href: https://artifacts.apis.io/accuracite/mcp/accuracite-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/accuracite-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/packages/accuracite-packages.yml
+  href: https://artifacts.apis.io/accuracite/packages/accuracite-packages.yml
   title: ''
   type: SDKs
   url: packages/accuracite-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/packages/accuracite-packages.yml
+  href: https://artifacts.apis.io/accuracite/packages/accuracite-packages.yml
   title: ''
   type: Packages
   url: packages/accuracite-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/agentic-access/accuracite-agentic-access.yml
+  href: https://artifacts.apis.io/accuracite/agentic-access/accuracite-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/accuracite-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/rules/accuracite-rules.yml
+  href: https://artifacts.apis.io/accuracite/rules/accuracite-rules.yml
   title: ''
   type: Spectral
   url: rules/accuracite-rules.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/security/accuracite-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/accuracite/security/accuracite-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/accuracite-vulnerability-disclosure.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/hosts/accuracite-hosts.yml
+  href: https://artifacts.apis.io/accuracite/hosts/accuracite-hosts.yml
   title: ''
   type: Hosts
   url: hosts/accuracite-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/vendors/accuracite-vendors.yml
+  href: https://artifacts.apis.io/accuracite/vendors/accuracite-vendors.yml
   title: ''
   type: Vendors
   url: vendors/accuracite-vendors.yml
@@ -121,7 +128,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/AccuraCite
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/security/accuracite-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/accuracite/security/accuracite-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/accuracite-vulnerability-disclosure.yml
@@ -130,52 +137,52 @@ common:
   type: Website
   url: https://accuracite.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/security/accuracite-domain-security.yml
+  href: https://artifacts.apis.io/accuracite/security/accuracite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/accuracite-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/llms/accuracite-llms.txt
+  href: https://artifacts.apis.io/accuracite/llms/accuracite-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/accuracite-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/authentication/accuracite-authentication.yml
+  href: https://artifacts.apis.io/accuracite/authentication/accuracite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/accuracite-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/rate-limits/accuracite-rate-limits.yml
+  href: https://artifacts.apis.io/accuracite/rate-limits/accuracite-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/accuracite-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/plans/accuracite-plans-pricing.yml
+  href: https://artifacts.apis.io/accuracite/plans/accuracite-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/accuracite-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/errors/accuracite-problem-types.yml
+  href: https://artifacts.apis.io/accuracite/errors/accuracite-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/accuracite-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/conventions/accuracite-conventions.yml
+  href: https://artifacts.apis.io/accuracite/conventions/accuracite-conventions.yml
   title: ''
   type: Conventions
   url: conventions/accuracite-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/data-model/accuracite-data-model.yml
+  href: https://artifacts.apis.io/accuracite/data-model/accuracite-data-model.yml
   title: ''
   type: DataModel
   url: data-model/accuracite-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/conformance/accuracite-conformance.yml
+  href: https://artifacts.apis.io/accuracite/conformance/accuracite-conformance.yml
   title: ''
   type: Conformance
   url: conformance/accuracite-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/lifecycle/accuracite-lifecycle.yml
+  href: https://artifacts.apis.io/accuracite/lifecycle/accuracite-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/accuracite-lifecycle.yml
@@ -221,6 +228,14 @@ common:
   url: https://accuracite.com/.well-known/security.txt
 created: '2026-08-31'
 description: 'AccuraCite verifies bibliographies and finds real citations, catching AI-hallucinated references before they are published. Every citation supplied as raw text, BibTeX, RIS or an uploaded PDF is checked against eight academic indexes -- OpenAlex, Crossref, Semantic Scholar, PubMed, DBLP, arXiv, CORE and Google Scholar -- and returned as verified, mismatch or not_found, with the matched bibliographic record and a field-level list of what disagreed. A second surface runs the other direction: given a claim, it returns real papers whose abstracts actually support it rather than papers whose titles merely look related. Both are exposed over a small synchronous REST API (POST /api/v1/verify and POST /api/v1/generate) keyed by an X-API-Key header and metered from a shared monthly credit pool. AccuraCite is a solo-founder product built by a computer-science PhD after finding fabricated citations in a co-authored, partly AI-drafted paper.'
+finops:
+- has_sources: true
+  method: derived
+  name: Accuracite Finops
+  primary_unit: pass
+  service_category: ''
+  slug: accuracite-finops
+  template: false
 image: https://accuracite.com/static/img/og-image.png
 json_schemas:
 - name: GenerateRequest
@@ -255,7 +270,7 @@ modified: '2026-08-31'
 name: AccuraCite
 nav: Providers
 network: true
-overview: 'AccuraCite publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Generate API, Verify API, and 1 more. Tagged areas include Citations, Research, Bibliography, Academic, and Verification.
+overview: 'AccuraCite publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Generate API, Verify API, Usage API, and 1 more. Tagged areas include Citations, Research, Bibliography, Academic, and Verification.
 
 
   The AccuraCite catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -264,9 +279,12 @@ overview: 'AccuraCite publishes 3 API contracts indexed on the [APIs.io](https:/
   AccuraCite''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 27 more developer resources.'
 plans:
 - name: Accuracite Plans Pricing
-  plan_count: 5
+  plan_count: 7
   slug: accuracite-plans-pricing
-random_paper: 10
+- name: Accuracite Price Estimates
+  plan_count: 0
+  slug: accuracite-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Accuracite Rate Limits
@@ -286,23 +304,23 @@ rules:
   slug: accuracite-rules
 score:
   band: strong
-  composite: 59.6
+  composite: 61.6
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 82.8
+    artifact_dirs: 28
+    catalog_earned: 85.8
     catalog_earned_first_party: 20.0
-    catalog_gap: 32.3
+    catalog_gap: 29.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 35.6
-    contract_quality: 68.4
+    contract_quality: 67.3
     developer_ergonomics: 44.6
     discoverability: 81.7
     operational_transparency: 36.8
-  previous_composite: 59.6
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -310,7 +328,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 6
     mcp: first-party
     skills: derived
   regulatory:
@@ -319,13 +337,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/screenshots/accuracite-2026-09-02T144112.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/accuracite/accuracite-2026-09-02T144112.png
 security:
 - kind: authentication
   name: Accuracite Authentication
@@ -339,6 +358,10 @@ security:
   name: Accuracite Vulnerability Disclosure
   slug: accuracite-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 1
+skills:
+- name: accuracite-verify-and-generate-citations
+  slug: accuracite-verify-and-generate-citations
 slug: accuracite
 tags:
 - Citations

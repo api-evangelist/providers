@@ -26,21 +26,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.2
-  scored_at: '2026-10-17'
+  score: 6.0
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crowdhealth/refs/heads/main/security/crowdhealth-domain-security.yml
+  href: https://artifacts.apis.io/crowdhealth/security/crowdhealth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crowdhealth-domain-security.yml
@@ -93,27 +95,27 @@ common:
   type: Compliance
   url: https://www.joincrowdhealth.com/data-security
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/crowdhealth/refs/heads/main/plans/crowdhealth-plans-pricing.yml
+  href: https://artifacts.apis.io/crowdhealth/plans/crowdhealth-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/crowdhealth-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crowdhealth/refs/heads/main/rate-limits/crowdhealth-rate-limits.yml
+  href: https://artifacts.apis.io/crowdhealth/rate-limits/crowdhealth-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/crowdhealth-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crowdhealth/refs/heads/main/conformance/crowdhealth-conformance.yml
+  href: https://artifacts.apis.io/crowdhealth/conformance/crowdhealth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/crowdhealth-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crowdhealth/refs/heads/main/security/crowdhealth-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/crowdhealth/security/crowdhealth-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/crowdhealth-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crowdhealth/refs/heads/main/llms/crowdhealth-llms.txt
+  href: https://artifacts.apis.io/crowdhealth/llms/crowdhealth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crowdhealth-llms.txt
@@ -151,7 +153,7 @@ plans:
 - name: Crowdhealth Plans Pricing
   plan_count: 1
   slug: crowdhealth-plans-pricing
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Crowdhealth Rate Limits
@@ -172,8 +174,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 51.7
-    operational_transparency: 13.2
+    discoverability: 48.2
+    operational_transparency: 15.8
   previous_composite: 26.9
   provenance:
     conformance: first-party
@@ -188,14 +190,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/crowdhealth/refs/heads/main/screenshots/crowdhealth-2026-09-02T145202.png
+screenshot: https://apis.io/screenshots/crowdhealth/crowdhealth-2026-09-02T145202.png
 security:
 - kind: domain-security
   name: Crowdhealth Domain Security

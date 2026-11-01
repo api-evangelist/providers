@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for BlackBoiler contract review platform
@@ -32,22 +34,22 @@ apis:
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blackboiler/refs/heads/main/plans/blackboiler-plans-pricing.yml
+  href: https://artifacts.apis.io/blackboiler/plans/blackboiler-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blackboiler-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blackboiler/refs/heads/main/llms/blackboiler-llms.txt
+  href: https://artifacts.apis.io/blackboiler/llms/blackboiler-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blackboiler-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blackboiler/refs/heads/main/hosts/blackboiler-hosts.yml
+  href: https://artifacts.apis.io/blackboiler/hosts/blackboiler-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blackboiler-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blackboiler/refs/heads/main/vendors/blackboiler-vendors.yml
+  href: https://artifacts.apis.io/blackboiler/vendors/blackboiler-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blackboiler-vendors.yml
@@ -76,7 +78,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/BlackBoiler
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackboiler/refs/heads/main/security/blackboiler-domain-security.yml
+  href: https://artifacts.apis.io/blackboiler/security/blackboiler-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blackboiler-domain-security.yml
@@ -100,7 +102,7 @@ modified: '2026-09-29'
 name: BlackBoiler
 nav: Providers
 network: true
-overview: 'BlackBoiler is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Legal Tech, Artificial Intelligence, ContractAutomation, Software-as-a-Service, and Enterprise.
+overview: 'BlackBoiler is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Legal Tech, Artificial Intelligence, Contract Automation, Software-as-a-Service, and Enterprise.
 
 
   BlackBoiler''s developer surface includes pricing, engineering blog, and 10 more developer resources.'
@@ -108,10 +110,10 @@ plans:
 - name: Blackboiler Plans Pricing
   plan_count: 3
   slug: blackboiler-plans-pricing
-random_paper: 2
+random_paper: 18
 score:
   band: emerging
-  composite: 21.2
+  composite: 20.5
   coverage:
     artifact_dirs: 7
     catalog_earned: 44.0
@@ -119,13 +121,13 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 15.8
   previous_composite: 20.5
   provenance:
@@ -136,8 +138,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
@@ -152,7 +154,7 @@ slug: blackboiler
 tags:
 - Legal Tech
 - Artificial Intelligence
-- ContractAutomation
+- Contract Automation
 - Software-as-a-Service
 - Enterprise
 website: https://blackboiler.com/

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for the CipherTrust Manager control plane. Manages encryption keys, secrets, certificates, tokenization, users, connections, and policies. Base path /api/v1 with JWT bearer authentication obt
@@ -47,12 +49,12 @@ common:
   type: BlogRSS
   url: https://cpl.thalesgroup.com/blog/feed
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/hosts/ciphertrust-hosts.yml
+  href: https://artifacts.apis.io/ciphertrust/hosts/ciphertrust-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ciphertrust-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/vendors/ciphertrust-vendors.yml
+  href: https://artifacts.apis.io/ciphertrust/vendors/ciphertrust-vendors.yml
   title: ''
   type: Vendors
   url: vendors/ciphertrust-vendors.yml
@@ -69,12 +71,12 @@ common:
   type: GettingStarted
   url: https://docs-cybersec.thalesgroup.com/bundle/latest-cdsp-cm/page/get_started/index.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/security/ciphertrust-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ciphertrust/security/ciphertrust-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ciphertrust-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/security/ciphertrust-domain-security.yml
+  href: https://artifacts.apis.io/ciphertrust/security/ciphertrust-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ciphertrust-domain-security.yml
@@ -103,27 +105,27 @@ common:
   type: Support
   url: https://supportportal.thalesgroup.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/authentication/ciphertrust-authentication.yml
+  href: https://artifacts.apis.io/ciphertrust/authentication/ciphertrust-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ciphertrust-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/packages/ciphertrust-packages.yml
+  href: https://artifacts.apis.io/ciphertrust/packages/ciphertrust-packages.yml
   title: ''
   type: Packages
   url: packages/ciphertrust-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/packages/ciphertrust-packages.yml
+  href: https://artifacts.apis.io/ciphertrust/packages/ciphertrust-packages.yml
   title: ''
   type: SDKs
   url: packages/ciphertrust-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/well-known/ciphertrust-well-known.yml
+  href: https://artifacts.apis.io/ciphertrust/well-known/ciphertrust-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ciphertrust-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/well-known/ciphertrust-security.txt
+  href: https://artifacts.apis.io/ciphertrust/well-known/ciphertrust-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ciphertrust-security.txt
@@ -132,7 +134,7 @@ common:
   type: Security
   url: https://cpl.thalesgroup.com/technical-support/how-to-report-a-security-vulnerability
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/conformance/ciphertrust-conformance.yml
+  href: https://artifacts.apis.io/ciphertrust/conformance/ciphertrust-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ciphertrust-conformance.yml
@@ -184,10 +186,10 @@ overview: 'CipherTrust is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   CipherTrust''s developer surface includes getting-started guide, documentation, API reference, support, authentication, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 3
+random_paper: 13
 score:
   band: thin
-  composite: 38.0
+  composite: 37.7
   coverage:
     artifact_dirs: 12
     catalog_earned: 32.0
@@ -201,9 +203,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 69.0
-    discoverability: 67.9
-    operational_transparency: 13.2
-  previous_composite: 38.0
+    discoverability: 60.7
+    operational_transparency: 15.8
+  previous_composite: 37.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -213,14 +215,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/screenshots/ciphertrust-2026-07-25T205401.png
+screenshot: https://apis.io/screenshots/ciphertrust/ciphertrust-2026-07-25T205401.png
 security:
 - kind: authentication
   name: Ciphertrust Authentication

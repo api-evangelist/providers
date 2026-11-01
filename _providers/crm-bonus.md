@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 13
   slug: crm-bonus-agentic-access
   summary_line: 13 operations · 13 acting
-api_count: 4
+api_count: 1
 apis:
 - baseURL: https://data-api.otocrm.com.br
   baseurl_source: declared
@@ -109,24 +111,24 @@ apis:
   description: The Tag Interactions API from CRM Bonus — 1 operation(s) for tag interactions.
   name: CRM Bonus Tag Interactions API
   slug: crm-bonus-tag-interactions-api
-artifact_total: 19
+artifact_total: 23
 collections:
 - collection_type: open
   name: Oto Data API
   slug: open-crm-bonus-oto-data-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/capabilities/crm-bonus-capability-edges.yml
+  href: https://artifacts.apis.io/crm-bonus/capabilities/crm-bonus-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/crm-bonus-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/agentic-access/crm-bonus-agentic-access.yml
+  href: https://artifacts.apis.io/crm-bonus/agentic-access/crm-bonus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/crm-bonus-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/security/crm-bonus-domain-security.yml
+  href: https://artifacts.apis.io/crm-bonus/security/crm-bonus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crm-bonus-domain-security.yml
@@ -163,42 +165,42 @@ common:
   type: StatusPage
   url: https://status.otocrm.com.br
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/lifecycle/crm-bonus-lifecycle.yml
+  href: https://artifacts.apis.io/crm-bonus/lifecycle/crm-bonus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/crm-bonus-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/packages/crm-bonus-packages.yml
+  href: https://artifacts.apis.io/crm-bonus/packages/crm-bonus-packages.yml
   title: ''
   type: Packages
   url: packages/crm-bonus-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/packages/crm-bonus-packages.yml
+  href: https://artifacts.apis.io/crm-bonus/packages/crm-bonus-packages.yml
   title: ''
   type: SDKs
   url: packages/crm-bonus-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/components/crm-bonus-components.yml
+  href: https://artifacts.apis.io/crm-bonus/components/crm-bonus-components.yml
   title: ''
   type: Components
   url: components/crm-bonus-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/conformance/crm-bonus-conformance.yml
+  href: https://artifacts.apis.io/crm-bonus/conformance/crm-bonus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/crm-bonus-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/llms/crm-bonus-llms.txt
+  href: https://artifacts.apis.io/crm-bonus/llms/crm-bonus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crm-bonus-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/crm-bonus/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/plans/crm-bonus-plans-pricing.yml
+  href: https://artifacts.apis.io/crm-bonus/plans/crm-bonus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/crm-bonus-plans-pricing.yml
@@ -215,53 +217,61 @@ common:
   type: GettingStarted
   url: https://ajuda.otocrm.com.br/support/solutions/articles/150000031734-cadastro-r%C3%A1pido-via-api
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/authentication/crm-bonus-authentication.yml
+  href: https://artifacts.apis.io/crm-bonus/authentication/crm-bonus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crm-bonus-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/conventions/crm-bonus-conventions.yml
+  href: https://artifacts.apis.io/crm-bonus/conventions/crm-bonus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/crm-bonus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/conventions/crm-bonus-conventions.yml
+  href: https://artifacts.apis.io/crm-bonus/conventions/crm-bonus-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/crm-bonus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/errors/crm-bonus-problem-types.yml
+  href: https://artifacts.apis.io/crm-bonus/errors/crm-bonus-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/crm-bonus-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/data-model/crm-bonus-data-model.yml
+  href: https://artifacts.apis.io/crm-bonus/data-model/crm-bonus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/crm-bonus-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/rate-limits/crm-bonus-rate-limits.yml
+  href: https://artifacts.apis.io/crm-bonus/rate-limits/crm-bonus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/crm-bonus-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/sandbox/crm-bonus-sandbox.yml
+  href: https://artifacts.apis.io/crm-bonus/sandbox/crm-bonus-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/crm-bonus-sandbox.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/overlays/crm-bonus-oto-data-api-overlay.yaml
+  href: https://artifacts.apis.io/crm-bonus/overlays/crm-bonus-oto-data-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crm-bonus-oto-data-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/mcp/crm-bonus-mcp.yml
+  href: https://artifacts.apis.io/crm-bonus/mcp/crm-bonus-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/crm-bonus-mcp.yml
 created: '2026-07-17'
 description: CRM Bonus (CRMBonus) is a Brazilian retail technology platform for customer acquisition, conversion, and loyalty. Its products include Giftback cashback and rewards, the Vale Bonus consumer rewards app connecting brands to over five million shoppers, CRMBack WhatsApp-based e-commerce conversion, CRMAds retail media on WhatsApp, and Oto CRM — the physical-retail CRM platform CRMBonus acquired outright from WPP in June 2025 and now lists as a first-party retail solution. It integrates with 300+ ERP, point-of-sale, and e-commerce systems including VTEX, Shopify, Linx, TOTVS, Nuvemshop, Wake, and PagSeguro. The publicly documented machine-readable contract is the Oto Data API — an OpenAPI 3.1.0 upsert-ingestion API for customers, orders, order items, products, stores, sellers, cashback, NPS, and Oto Tags events — served at data-api.otocrm.com.br with a public ReDoc/Swagger reference. The Giftback and Vale Bonus APIs on api.crmbonus.com are partner-token gated with no public reference;
   that host answers HTTP 200 with an "OK!!" envelope for every path, including every /.well-known/* probe, so none of those 200s carry a real document.
+finops:
+- has_sources: true
+  method: derived
+  name: Crm Bonus Finops
+  primary_unit: ''
+  service_category: ''
+  slug: crm-bonus-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crm-bonus.png
 layout: provider
 modified: '2026-08-12'
@@ -276,29 +286,29 @@ plans:
 - name: Crm Bonus Plans Pricing
   plan_count: 0
   slug: crm-bonus-plans-pricing
-random_paper: 16
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Crm Bonus Rate Limits
   slug: crm-bonus-rate-limits
 score:
   band: developing
-  composite: 42.7
+  composite: 43.2
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 48.0
+    artifact_dirs: 26
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.7
+  delta: -0.5
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 48.7
     developer_ergonomics: 63.7
-    discoverability: 71.4
-    operational_transparency: 39.5
+    discoverability: 66.1
+    operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -306,7 +316,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 42.0
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -323,13 +333,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/screenshots/crm-bonus-2026-07-25T210737.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/crm-bonus/crm-bonus-2026-07-25T210737.png
 security:
 - kind: authentication
   name: Crm Bonus Authentication
@@ -339,6 +350,14 @@ security:
   name: Crm Bonus Domain Security
   slug: crm-bonus-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Load customer master data into Oto CRM
+  slug: crm-bonus-load-customer-master-data
+- name: Load loyalty, NPS and Oto Tags web behaviour into Oto CRM
+  slug: crm-bonus-load-loyalty-and-web-behaviour
+- name: Load transactions and catalog into Oto CRM
+  slug: crm-bonus-load-transactions-and-catalog
 slug: crm-bonus
 tags:
 - Company

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.proton.ai
@@ -100,11 +102,8 @@ apis:
 - description: AI REST API returning product recommendations and performing actions in the Proton.ai distributor platform. Authenticated with a static API key in the request header. Documented as a public Postman co
   name: Proton API
   slug: proton-api
-artifact_total: 30
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Proton Call Notes API
   slug: open-protonai-call-notes-api
@@ -143,32 +142,32 @@ collections:
   slug: open-protonai-tracking-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/protonai/refs/heads/main/capabilities/protonai-capability-edges.yml
+  href: https://artifacts.apis.io/protonai/capabilities/protonai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/protonai-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/protonai/refs/heads/main/skills/protonai-lead-to-opportunity.md
+  href: https://artifacts.apis.io/protonai/skills/protonai-lead-to-opportunity.md
   title: ''
   type: AgentSkill
   url: skills/protonai-lead-to-opportunity.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/protonai/refs/heads/main/mcp/protonai-mcp.yml
+  href: https://artifacts.apis.io/protonai/mcp/protonai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/protonai-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/protonai/refs/heads/main/security/protonai-domain-security.yml
+  href: https://artifacts.apis.io/protonai/security/protonai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/protonai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/protonai/refs/heads/main/authentication/protonai-authentication.yml
+  href: https://artifacts.apis.io/protonai/authentication/protonai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/protonai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/protonai/refs/heads/main/security/protonai-trust-center.yml
+  href: https://artifacts.apis.io/protonai/security/protonai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/protonai-trust-center.yml
@@ -224,7 +223,7 @@ overview: 'Proton.ai publishes 13 API contracts indexed on the [APIs.io](https:/
 
 
   Proton.ai''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 18
+random_paper: 12
 score:
   band: developing
   composite: 39.9
@@ -235,15 +234,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 48.0
     developer_ergonomics: 42.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 39.8
+  previous_composite: 39.9
   provenance:
     conformance: derived
     contracts:
@@ -259,13 +258,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/protonai/refs/heads/main/screenshots/protonai-2026-09-02T152230.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/protonai/protonai-2026-09-02T152230.png
 security:
 - kind: authentication
   name: Proton Authentication
@@ -283,6 +283,12 @@ security:
   name: Protonai Trust Center
   slug: protonai-trust-center
   summary_line: trust center published
+skill_count: 2
+skills:
+- name: Capture a lead and open a CRM opportunity
+  slug: protonai-lead-to-opportunity
+- name: Serve AI product recommendations for a distributor cart
+  slug: protonai-product-recommendations
 slug: protonai
 tags:
 - Company

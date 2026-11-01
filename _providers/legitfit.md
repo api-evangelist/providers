@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-17'
+  score: 23.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: LegitFit's Model Context Protocol server — a JSON-RPC 2.0 endpoint that exposes LegitFit resources to AI agents. Protected by OAuth 2.1 (authorization_code with PKCE S256) and gated by the mcp:read an
@@ -46,52 +48,52 @@ common:
   type: Website
   url: https://legitfit.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/legitfit/refs/heads/main/mcp/legitfit-mcp.yml
+  href: https://artifacts.apis.io/legitfit/mcp/legitfit-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/legitfit-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/legitfit/refs/heads/main/well-known/legitfit-well-known.yml
+  href: https://artifacts.apis.io/legitfit/well-known/legitfit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/legitfit-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/legitfit/refs/heads/main/authentication/legitfit-authentication.yml
+  href: https://artifacts.apis.io/legitfit/authentication/legitfit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/legitfit-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/legitfit/refs/heads/main/scopes/legitfit-scopes.yml
+  href: https://artifacts.apis.io/legitfit/scopes/legitfit-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/legitfit-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/legitfit/refs/heads/main/conventions/legitfit-conventions.yml
+  href: https://artifacts.apis.io/legitfit/conventions/legitfit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/legitfit-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/legitfit/refs/heads/main/errors/legitfit-problem-types.yml
+  href: https://artifacts.apis.io/legitfit/errors/legitfit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/legitfit-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/legitfit/refs/heads/main/conformance/legitfit-conformance.yml
+  href: https://artifacts.apis.io/legitfit/conformance/legitfit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/legitfit-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/legitfit/refs/heads/main/rate-limits/legitfit-rate-limits.yml
+  href: https://artifacts.apis.io/legitfit/rate-limits/legitfit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/legitfit-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/legitfit/refs/heads/main/security/legitfit-domain-security.yml
+  href: https://artifacts.apis.io/legitfit/security/legitfit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/legitfit-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/legitfit/refs/heads/main/llms/legitfit-llms.txt
+  href: https://artifacts.apis.io/legitfit/llms/legitfit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/legitfit-llms.txt
@@ -135,7 +137,7 @@ overview: 'LegitFit is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   LegitFit''s developer surface includes authentication, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 20
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Legitfit Rate Limits
@@ -147,7 +149,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: emerging
-  composite: 24.3
+  composite: 23.3
   coverage:
     artifact_dirs: 14
     catalog_earned: 45.0
@@ -161,7 +163,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -171,7 +173,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 24.3
+  previous_composite: 23.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -181,14 +183,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/legitfit/refs/heads/main/screenshots/legitfit-2026-07-25T224838.png
+screenshot: https://apis.io/screenshots/legitfit/legitfit-2026-07-25T224838.png
 security:
 - kind: authentication
   name: Legitfit Authentication

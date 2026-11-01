@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.2
-  scored_at: '2026-10-17'
+  score: 41.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -58,11 +61,8 @@ apis:
   description: A document contains content that Unblocked uses to answer questions. Each document is associated with a collection, so you must create a collection before adding documents. Documents used to provide a
   name: Unblocked Documents API
   slug: unblocked-documents-api
-artifact_total: 13
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Unblocked Public API Reference Answers API
   slug: open-unblocked-answers-api
@@ -73,8 +73,13 @@ collections:
   name: Unblocked Public API Reference Answers Documents API
   slug: open-unblocked-documents-api
 common:
+- group: other
+  href: https://artifacts.apis.io/unblocked/capabilities/unblocked-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/unblocked-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/plans/unblocked-plans-pricing.yml
+  href: https://artifacts.apis.io/unblocked/plans/unblocked-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/unblocked-plans-pricing.yml
@@ -83,7 +88,7 @@ common:
   type: BlogRSS
   url: https://getunblocked.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/overlays/unblocked-public-api-overlay.yaml
+  href: https://artifacts.apis.io/unblocked/overlays/unblocked-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/unblocked-public-api-overlay.yaml
@@ -136,72 +141,72 @@ common:
   type: StatusPage
   url: https://status.getunblocked.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/changelog/unblocked-changelog.yml
+  href: https://artifacts.apis.io/unblocked/changelog/unblocked-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/unblocked-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/llms/unblocked-llms.txt
+  href: https://artifacts.apis.io/unblocked/llms/unblocked-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unblocked-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/mcp/unblocked-mcp.yml
+  href: https://artifacts.apis.io/unblocked/mcp/unblocked-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/unblocked-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/unblocked/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/cli/unblocked-cli.yml
+  href: https://artifacts.apis.io/unblocked/cli/unblocked-cli.yml
   title: ''
   type: CLI
   url: cli/unblocked-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/packages/unblocked-packages.yml
+  href: https://artifacts.apis.io/unblocked/packages/unblocked-packages.yml
   title: ''
   type: Packages
   url: packages/unblocked-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/packages/unblocked-packages.yml
+  href: https://artifacts.apis.io/unblocked/packages/unblocked-packages.yml
   title: ''
   type: SDKs
   url: packages/unblocked-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/well-known/unblocked-well-known.yml
+  href: https://artifacts.apis.io/unblocked/well-known/unblocked-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/unblocked-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/authentication/unblocked-authentication.yml
+  href: https://artifacts.apis.io/unblocked/authentication/unblocked-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unblocked-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/conventions/unblocked-conventions.yml
+  href: https://artifacts.apis.io/unblocked/conventions/unblocked-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unblocked-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/conventions/unblocked-conventions.yml
+  href: https://artifacts.apis.io/unblocked/conventions/unblocked-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/unblocked-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/errors/unblocked-problem-types.yml
+  href: https://artifacts.apis.io/unblocked/errors/unblocked-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/unblocked-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/lifecycle/unblocked-lifecycle.yml
+  href: https://artifacts.apis.io/unblocked/lifecycle/unblocked-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unblocked-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/conformance/unblocked-conformance.yml
+  href: https://artifacts.apis.io/unblocked/conformance/unblocked-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unblocked-conformance.yml
@@ -210,22 +215,22 @@ common:
   type: Compliance
   url: https://trust.getunblocked.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/security/unblocked-trust-center.yml
+  href: https://artifacts.apis.io/unblocked/security/unblocked-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/unblocked-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/security/unblocked-domain-security.yml
+  href: https://artifacts.apis.io/unblocked/security/unblocked-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unblocked-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/agentic-access/unblocked-agentic-access.yml
+  href: https://artifacts.apis.io/unblocked/agentic-access/unblocked-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/unblocked-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/data-model/unblocked-data-model.yml
+  href: https://artifacts.apis.io/unblocked/data-model/unblocked-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unblocked-data-model.yml
@@ -235,6 +240,14 @@ common:
   url: https://getunblocked.com/dashboard?showIntercom=true
 created: '2026-07-17'
 description: Unblocked is an AI context engine for engineering teams that consolidates code, documentation, tickets, and conversations from sources like GitHub, Slack, Jira, Confluence, Notion, and Google Drive into grounded, cited answers for engineers and AI coding agents. The product spans developer Q&A, AI code review with risk assessment, a CI failure agent, an official MCP server (local via the Unblocked CLI and hosted remote), open-source Agent Skills, and a Public API for ingesting custom documents and asking questions programmatically. Built by Next Chapter Software Inc and backed by Amplify Partners.
+finops:
+- has_sources: true
+  method: derived
+  name: Unblocked Finops
+  primary_unit: user
+  service_category: ''
+  slug: unblocked-finops
+  template: false
 image: https://avatars.githubusercontent.com/u/91906527?s=300
 layout: provider
 mcp_servers:
@@ -248,31 +261,39 @@ network: true
 overview: 'Unblocked publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Answers API, Collections API, and Documents API. Tagged areas include Company, Developer Tools, Artificial Intelligence, Developer Experience, and Knowledge Management.
 
 
-  Unblocked''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 28 more developer resources.'
+  Unblocked''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 29 more developer resources.'
 plans:
 - name: Unblocked Plans Pricing
   plan_count: 2
   slug: unblocked-plans-pricing
-random_paper: 5
+- name: Unblocked Price Estimates
+  plan_count: 0
+  slug: unblocked-price-estimates
+random_paper: 15
 score:
   band: strong
-  composite: 60.0
+  composite: 60.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 45.0
+    artifact_dirs: 25
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.3
+  delta: 1.6
   facets:
-    access_clarity: 81.6
+    access_clarity: 89.5
     contract_governance: 18.2
-    contract_quality: 54.8
+    contract_quality: 51.4
     developer_ergonomics: 73.2
-    discoverability: 75.0
-    operational_transparency: 26.3
-  previous_composite: 55.7
+    discoverability: 65.0
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -293,13 +314,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/screenshots/unblocked-2026-08-17T082549.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/unblocked/unblocked-2026-08-17T082549.png
 security:
 - kind: authentication
   name: Unblocked Authentication
@@ -313,6 +335,12 @@ security:
   name: Unblocked Trust Center
   slug: unblocked-trust-center
   summary_line: SOC 2 Type II, SOC 3, CASA Tier 2, GDPR
+skill_count: 2
+skills:
+- name: Ask Unblocked a question and poll for the answer
+  slug: unblocked-ask-and-poll-answer
+- name: Ingest custom documents into Unblocked
+  slug: unblocked-ingest-custom-docs
 slug: unblocked
 tags:
 - Company

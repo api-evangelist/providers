@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Use your own applicant tracking or HR application to send candidate hire information to Insperity Premier Onboarding. One published operation, POST /public/Employee/Onboarding/v2, which accepts a call
@@ -88,62 +90,62 @@ common:
   type: PrivacyPolicy
   url: https://www.insperity.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/authentication/insperity-authentication.yml
+  href: https://artifacts.apis.io/insperity/authentication/insperity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/insperity-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/conventions/insperity-conventions.yml
+  href: https://artifacts.apis.io/insperity/conventions/insperity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/insperity-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/errors/insperity-problem-types.yml
+  href: https://artifacts.apis.io/insperity/errors/insperity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/insperity-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/rate-limits/insperity-rate-limits.yml
+  href: https://artifacts.apis.io/insperity/rate-limits/insperity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/insperity-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/plans/insperity-plans-pricing.yml
+  href: https://artifacts.apis.io/insperity/plans/insperity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/insperity-plans-pricing.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/sandbox/insperity-sandbox.yml
+  href: https://artifacts.apis.io/insperity/sandbox/insperity-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/insperity-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/lifecycle/insperity-lifecycle.yml
+  href: https://artifacts.apis.io/insperity/lifecycle/insperity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/insperity-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/conformance/insperity-conformance.yml
+  href: https://artifacts.apis.io/insperity/conformance/insperity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/insperity-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/data-model/insperity-data-model.yml
+  href: https://artifacts.apis.io/insperity/data-model/insperity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/insperity-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/packages/insperity-packages.yml
+  href: https://artifacts.apis.io/insperity/packages/insperity-packages.yml
   title: ''
   type: Packages
   url: packages/insperity-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/llms/insperity-llms.txt
+  href: https://artifacts.apis.io/insperity/llms/insperity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/insperity-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/security/insperity-domain-security.yml
+  href: https://artifacts.apis.io/insperity/security/insperity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/insperity-domain-security.yml
@@ -180,14 +182,14 @@ press:
 - date: ''
   title: Workday and Insperity Announce Exclusive Strategic ...
   url: https://newsroom.workday.com/2024-02-08-Workday-and-Insperity-Announce-Exclusive-Strategic-Partnership-to-Provide-Best-in-Class-HR-Service-and-Technology-to-Small-and-Midsize-Businesses
-random_paper: 9
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Insperity Rate Limits
   slug: insperity-rate-limits
 score:
   band: emerging
-  composite: 14.3
+  composite: 22.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -200,7 +202,7 @@ score:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 64.3
     discoverability: 71.4
     operational_transparency: 0.0
   jurisdiction:
@@ -210,7 +212,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 14.3
+  previous_composite: 22.9
   provenance:
     conformance: derived
     mcp: derived
@@ -220,14 +222,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/screenshots/insperity-2026-06-20T183405.png
+screenshot: https://apis.io/screenshots/insperity/insperity-2026-06-20T183405.png
 security:
 - kind: authentication
   name: Insperity Authentication

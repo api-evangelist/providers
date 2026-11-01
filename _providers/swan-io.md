@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - baseURL: https://api.swan.io/live-partner/graphql
@@ -79,12 +81,12 @@ collections:
   slug: open-swan-io
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swan-io/refs/heads/main/security/swan-io-domain-security.yml
+  href: https://artifacts.apis.io/swan-io/security/swan-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/swan-io-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swan-io/refs/heads/main/authentication/swan-io-authentication.yml
+  href: https://artifacts.apis.io/swan-io/authentication/swan-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/swan-io-authentication.yml
@@ -105,17 +107,17 @@ common:
   type: Documentation
   url: https://docs.swan.io
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/swan-io/refs/heads/main/plans/swan-io-plans-pricing.yml
+  href: https://artifacts.apis.io/swan-io/plans/swan-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/swan-io-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/swan-io/refs/heads/main/rate-limits/swan-io-rate-limits.yml
+  href: https://artifacts.apis.io/swan-io/rate-limits/swan-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/swan-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/swan-io/refs/heads/main/finops/swan-io-finops.yml
+  href: https://artifacts.apis.io/swan-io/finops/swan-io-finops.yml
   title: ''
   type: FinOps
   url: finops/swan-io-finops.yml
@@ -151,14 +153,14 @@ plans:
 - name: Swan Io Plans Pricing
   plan_count: 2
   slug: swan-io-plans-pricing
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Swan Io Rate Limits
   slug: swan-io-rate-limits
 score:
   band: emerging
-  composite: 23.9
+  composite: 24.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 44.0
@@ -166,14 +168,14 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 35.1
     developer_ergonomics: 35.2
-    discoverability: 73.3
-    operational_transparency: 7.9
+    discoverability: 71.4
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -182,7 +184,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 30.0
+  previous_composite: 24.1
   provenance:
     mcp: first-party
   regulatory:
@@ -191,14 +193,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/swan-io/refs/heads/main/screenshots/swan-io-2026-09-02T161336.png
+screenshot: https://apis.io/screenshots/swan-io/swan-io-2026-09-02T161336.png
 security:
 - kind: authentication
   name: Swan Io Authentication

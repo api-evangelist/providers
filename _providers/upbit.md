@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -82,11 +84,8 @@ apis:
   description: Public market data endpoints — no authentication required
   name: Upbit Quotation API
   slug: upbit-quotation-api
-artifact_total: 24
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Upbit REST Exchange - Account API
   slug: open-upbit-exchange-account-api
@@ -110,12 +109,12 @@ collections:
   slug: open-upbit-quotation-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/plans/upbit-plans-pricing.yml
+  href: https://artifacts.apis.io/upbit/plans/upbit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/upbit-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/finops/upbit-finops.yml
+  href: https://artifacts.apis.io/upbit/finops/upbit-finops.yml
   title: ''
   type: FinOps
   url: finops/upbit-finops.yml
@@ -124,22 +123,22 @@ common:
   type: Blog
   url: https://www.upbit.com/blog/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/agentic-access/upbit-agentic-access.yml
+  href: https://artifacts.apis.io/upbit/agentic-access/upbit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/upbit-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/security/upbit-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/upbit/security/upbit-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/upbit-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/security/upbit-domain-security.yml
+  href: https://artifacts.apis.io/upbit/security/upbit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upbit-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/authentication/upbit-authentication.yml
+  href: https://artifacts.apis.io/upbit/authentication/upbit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/upbit-authentication.yml
@@ -233,8 +232,8 @@ rate_limits:
   name: Upbit Rate Limits
   slug: upbit-rate-limits
 score:
-  band: thin
-  composite: 30.3
+  band: developing
+  composite: 42.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 47.0
@@ -242,20 +241,20 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.5
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 53.3
-    developer_ergonomics: 33.3
+    developer_ergonomics: 57.1
     discoverability: 73.2
-    operational_transparency: 13.2
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - south-korea
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 36.8
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -268,14 +267,15 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 26.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 34.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/screenshots/upbit-2026-06-20T200501.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/upbit/upbit-2026-06-20T200501.png
 security:
 - kind: authentication
   name: Upbit Authentication

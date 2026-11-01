@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - description: Configure the accounting structures that spend is coded against — departments, cost centers, cost accounts and cost dimensions, plus department addresses. Master data, so records are created with POST
@@ -74,7 +76,7 @@ asyncapis:
   slug: proactis-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/finops/proactis-finops.yml
+  href: https://artifacts.apis.io/proactis/finops/proactis-finops.yml
   title: ''
   type: FinOps
   url: finops/proactis-finops.yml
@@ -99,42 +101,42 @@ common:
   type: GettingStarted
   url: https://docs.proactis.com/introduction/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/authentication/proactis-authentication.yml
+  href: https://artifacts.apis.io/proactis/authentication/proactis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/proactis-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/scopes/proactis-scopes.yml
+  href: https://artifacts.apis.io/proactis/scopes/proactis-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/proactis-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/conventions/proactis-conventions.yml
+  href: https://artifacts.apis.io/proactis/conventions/proactis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/proactis-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/errors/proactis-problem-types.yml
+  href: https://artifacts.apis.io/proactis/errors/proactis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/proactis-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/rate-limits/proactis-rate-limits.yml
+  href: https://artifacts.apis.io/proactis/rate-limits/proactis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/proactis-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/plans/proactis-plans-pricing.yml
+  href: https://artifacts.apis.io/proactis/plans/proactis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/proactis-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/lifecycle/proactis-lifecycle.yml
+  href: https://artifacts.apis.io/proactis/lifecycle/proactis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/proactis-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/changelog/proactis-changelog.yml
+  href: https://artifacts.apis.io/proactis/changelog/proactis-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/proactis-changelog.yml
@@ -143,7 +145,7 @@ common:
   type: ReleaseNotes
   url: https://docs.proactis.com/changelog
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/conformance/proactis-conformance.yml
+  href: https://artifacts.apis.io/proactis/conformance/proactis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/proactis-conformance.yml
@@ -152,32 +154,32 @@ common:
   type: Compliance
   url: https://www.proactis.com/uk/about-us/accreditations-certifications/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/asyncapi/proactis-webhooks.yml
+  href: https://artifacts.apis.io/proactis/asyncapi/proactis-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/proactis-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/sandbox/proactis-sandbox.yml
+  href: https://artifacts.apis.io/proactis/sandbox/proactis-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/proactis-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/packages/proactis-packages.yml
+  href: https://artifacts.apis.io/proactis/packages/proactis-packages.yml
   title: ''
   type: Packages
   url: packages/proactis-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/data-model/proactis-data-model.yml
+  href: https://artifacts.apis.io/proactis/data-model/proactis-data-model.yml
   title: ''
   type: DataModel
   url: data-model/proactis-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/llms/proactis-llms.txt
+  href: https://artifacts.apis.io/proactis/llms/proactis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/proactis-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/security/proactis-domain-security.yml
+  href: https://artifacts.apis.io/proactis/security/proactis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/proactis-domain-security.yml
@@ -209,11 +211,11 @@ created: '2026-03-16'
 description: 'Proactis is a source-to-pay software provider whose platform covers eSourcing, contract management, supplier management, purchase-to-pay, marketplace and accounts payable automation for mid-market and public-sector organisations. Its developer surface is a set of ten separate REST APIs — accounting, contract, eInvoice, invoice, order, receipt, requisition, supplier, timecard and user — documented at docs.proactis.com and deployed across four regional environments (EU, NL, UK and US), each with a paired UAT and production estate. The APIs are standards-based rather than proprietary: transactional documents move as cXML, electronic invoices as UBL 2.1, identity and department master roles as SCIM 2.0, and timecards as HR-XML, all behind OAuth 2.0 client-credentials tokens paired with a fixed API key. Proactis also pushes transactional documents outbound to customer-configured endpoints. Access is gated: credentials are issued only by Proactis support, and no machine-readable
   contract is published.'
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Proactis Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: proactis-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/proactis.png
@@ -233,7 +235,7 @@ plans:
 - name: Proactis Plans Pricing
   plan_count: 0
   slug: proactis-plans-pricing
-random_paper: 11
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Proactis Rate Limits
@@ -245,7 +247,7 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: developing
-  composite: 52.5
+  composite: 50.8
   coverage:
     artifact_dirs: 22
     catalog_earned: 52.0
@@ -253,15 +255,15 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 50.5
+    contract_quality: 45.3
     developer_ergonomics: 64.3
-    discoverability: 78.6
-    operational_transparency: 57.9
-  previous_composite: 54.0
+    discoverability: 71.4
+    operational_transparency: 60.5
+  previous_composite: 50.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -271,14 +273,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/screenshots/proactis-2026-10-11T112757.png
+screenshot: https://apis.io/screenshots/proactis/proactis-2026-10-11T112757.png
 security:
 - kind: authentication
   name: Proactis Authentication

@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'Agent-facing commerce endpoint implementing the Universal Commerce Protocol (version 2026-04-08, with 2026-01-23 also supported) over MCP/JSON-RPC 2.0. Thirteen tools cover catalog search and lookup, '
@@ -45,10 +47,10 @@ apis:
 - description: 'Unauthenticated read-only product endpoints that FINESSE documents for agents in its own agents.md: a paged product feed at /products.json, per-product and per-collection JSON, product search, and a s'
   name: FINESSE Storefront JSON (read-only)
   slug: finesse-storefront-json-read-only
-artifact_total: 8
+artifact_total: 10
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/security/finesse-domain-security.yml
+  href: https://artifacts.apis.io/finesse/security/finesse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/finesse-domain-security.yml
@@ -97,72 +99,72 @@ common:
   type: PrivacyPolicy
   url: https://finesse.us/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/mcp/finesse-mcp.yml
+  href: https://artifacts.apis.io/finesse/mcp/finesse-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/finesse-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/llms/finesse-llms.txt
+  href: https://artifacts.apis.io/finesse/llms/finesse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/finesse-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/well-known/finesse-well-known.yml
+  href: https://artifacts.apis.io/finesse/well-known/finesse-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/finesse-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/finesse/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/authentication/finesse-authentication.yml
+  href: https://artifacts.apis.io/finesse/authentication/finesse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/finesse-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/scopes/finesse-scopes.yml
+  href: https://artifacts.apis.io/finesse/scopes/finesse-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/finesse-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/well-known/finesse-openid-configuration.json
+  href: https://artifacts.apis.io/finesse/well-known/finesse-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/finesse-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/conventions/finesse-conventions.yml
+  href: https://artifacts.apis.io/finesse/conventions/finesse-conventions.yml
   title: ''
   type: Conventions
   url: conventions/finesse-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/errors/finesse-problem-types.yml
+  href: https://artifacts.apis.io/finesse/errors/finesse-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/finesse-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/data-model/finesse-data-model.yml
+  href: https://artifacts.apis.io/finesse/data-model/finesse-data-model.yml
   title: ''
   type: DataModel
   url: data-model/finesse-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/lifecycle/finesse-lifecycle.yml
+  href: https://artifacts.apis.io/finesse/lifecycle/finesse-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/finesse-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/conformance/finesse-conformance.yml
+  href: https://artifacts.apis.io/finesse/conformance/finesse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/finesse-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/rate-limits/finesse-rate-limits.yml
+  href: https://artifacts.apis.io/finesse/rate-limits/finesse-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/finesse-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/plans/finesse-plans-pricing.yml
+  href: https://artifacts.apis.io/finesse/plans/finesse-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/finesse-plans-pricing.yml
@@ -186,7 +188,7 @@ plans:
 - name: Finesse Plans Pricing
   plan_count: 0
   slug: finesse-plans-pricing
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Finesse Rate Limits
@@ -198,7 +200,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 29.5
+  composite: 28.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 32.0
@@ -212,9 +214,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 54.8
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 0.0
-  previous_composite: 29.5
+  previous_composite: 28.5
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -225,14 +227,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/screenshots/finesse-2026-09-02T145514.png
+screenshot: https://apis.io/screenshots/finesse/finesse-2026-09-02T145514.png
 security:
 - kind: authentication
   name: Finesse Authentication
@@ -242,6 +244,12 @@ security:
   name: Finesse Domain Security
   slug: finesse-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: finesse-agentic-checkout
+  slug: finesse-agentic-checkout
+- name: finesse-catalog-browse
+  slug: finesse-catalog-browse
 slug: finesse
 tags:
 - Company

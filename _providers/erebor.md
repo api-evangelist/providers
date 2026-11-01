@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.6
-  scored_at: '2026-10-17'
+  score: 12.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Erebor's developer API for programmatic access to banking, money-movement, and stablecoin operations. The gateway at api.erebor.bank authenticates requests with an API key and returns a structured JSO
@@ -46,7 +48,7 @@ common:
   type: Blog
   url: https://erebor.bank/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/erebor/refs/heads/main/security/erebor-domain-security.yml
+  href: https://artifacts.apis.io/erebor/security/erebor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/erebor-domain-security.yml
@@ -79,32 +81,32 @@ common:
   type: PrivacyPolicy
   url: https://erebor.bank/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/erebor/refs/heads/main/authentication/erebor-authentication.yml
+  href: https://artifacts.apis.io/erebor/authentication/erebor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/erebor-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/erebor/refs/heads/main/errors/erebor-problem-types.yml
+  href: https://artifacts.apis.io/erebor/errors/erebor-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/erebor-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/erebor/refs/heads/main/conventions/erebor-conventions.yml
+  href: https://artifacts.apis.io/erebor/conventions/erebor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/erebor-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/erebor/refs/heads/main/sandbox/erebor-sandbox.yml
+  href: https://artifacts.apis.io/erebor/sandbox/erebor-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/erebor-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/erebor/refs/heads/main/conformance/erebor-conformance.yml
+  href: https://artifacts.apis.io/erebor/conformance/erebor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/erebor-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/erebor/refs/heads/main/llms/erebor-llms.txt
+  href: https://artifacts.apis.io/erebor/llms/erebor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/erebor-llms.txt
@@ -124,10 +126,10 @@ overview: 'Erebor is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Erebor''s developer surface includes engineering blog, documentation, API reference, signup flow, authentication, sandbox, and 9 more developer resources.'
-random_paper: 1
+random_paper: 15
 score:
   band: emerging
-  composite: 12.9
+  composite: 25.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -135,15 +137,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 75.0
+    developer_ergonomics: 47.6
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 12.4
+  previous_composite: 25.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -152,15 +154,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 13.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 19.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/erebor/refs/heads/main/screenshots/erebor-2026-07-25T213607.png
+screenshot: https://apis.io/screenshots/erebor/erebor-2026-07-25T213607.png
 security:
 - kind: authentication
   name: Erebor Authentication

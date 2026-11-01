@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,15 +27,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -60,6 +62,31 @@ apis:
   description: The Tags API from Amazon Entity Resolution — 2 operation(s) for tags.
   name: Amazon Entity Resolution Tags API
   slug: amazon-entity-resolution-tags-api
+- baseURL: https://entityresolution.amazonaws.com
+  baseurl_source: declared
+  description: The Entity Resolution Idmappingworkflows API from Amazon Entity Resolution — 2 operation(s) for entity resolution idmappingworkflows.
+  name: Amazon Entity Resolution Entity Resolution Idmappingworkflows API
+  slug: amazon-entity-resolution-idmappingworkflows-api
+- baseURL: https://entityresolution.amazonaws.com
+  baseurl_source: declared
+  description: The Entity Resolution Idnamespaces API from Amazon Entity Resolution — 2 operation(s) for entity resolution idnamespaces.
+  name: Amazon Entity Resolution Entity Resolution Idnamespaces API
+  slug: amazon-entity-resolution-idnamespaces-api
+- baseURL: https://entityresolution.amazonaws.com
+  baseurl_source: declared
+  description: The Entity Resolution Jobs API from Amazon Entity Resolution — 4 operation(s) for entity resolution jobs.
+  name: Amazon Entity Resolution Entity Resolution Jobs API
+  slug: amazon-entity-resolution-jobs-api
+- baseURL: https://entityresolution.amazonaws.com
+  baseurl_source: declared
+  description: The Entity Resolution Operations API from Amazon Entity Resolution — 5 operation(s) for entity resolution operations.
+  name: Amazon Entity Resolution Entity Resolution Operations API
+  slug: amazon-entity-resolution-operations-api
+- baseURL: https://entityresolution.amazonaws.com
+  baseurl_source: declared
+  description: The Entity Resolution Policies API from Amazon Entity Resolution — 2 operation(s) for entity resolution policies.
+  name: Amazon Entity Resolution Entity Resolution Policies API
+  slug: amazon-entity-resolution-policies-api
 arazzos:
 - description: List the jobs for a workflow and pull the full status and metrics of the most recent one.
   name: Amazon Entity Resolution Audit Latest Matching Job
@@ -79,7 +106,7 @@ arazzos:
 - description: Update an existing matching workflow's configuration, then start a fresh job and poll it.
   name: Amazon Entity Resolution Update And Rerun Matching Workflow
   slug: amazon-entity-resolution-update-and-rerun-workflow
-artifact_total: 276
+artifact_total: 280
 collections:
 - collection_type: postman
   name: AWS EntityResolution Matchingworkflows API
@@ -93,9 +120,6 @@ collections:
 - collection_type: postman
   name: AWS EntityResolution
   slug: postman-amazon-entity-resolution
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AWS EntityResolution Matchingworkflows API
   slug: open-amazon-entity-resolution-matchingworkflows-api
@@ -114,22 +138,22 @@ common:
   type: Pricing
   url: https://aws.amazon.com/entity-resolution/pricing/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/rate-limits/amazon-entity-resolution-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-entity-resolution/rate-limits/amazon-entity-resolution-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-entity-resolution-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/finops/amazon-entity-resolution-finops.yml
+  href: https://artifacts.apis.io/amazon-entity-resolution/finops/amazon-entity-resolution-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-entity-resolution-finops.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/plans/amazon-entity-resolution-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-entity-resolution/plans/amazon-entity-resolution-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-entity-resolution-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/capabilities/amazon-entity-resolution-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-entity-resolution/capabilities/amazon-entity-resolution-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-entity-resolution-capability-edges.yml
@@ -138,27 +162,27 @@ common:
   type: Website
   url: https://aws.amazon.com/entity-resolution/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/agentic-access/amazon-entity-resolution-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-entity-resolution/agentic-access/amazon-entity-resolution-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-entity-resolution-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/security/amazon-entity-resolution-trust-center.yml
+  href: https://artifacts.apis.io/amazon-entity-resolution/security/amazon-entity-resolution-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-entity-resolution-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/security/amazon-entity-resolution-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-entity-resolution/security/amazon-entity-resolution-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-entity-resolution-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/security/amazon-entity-resolution-domain-security.yml
+  href: https://artifacts.apis.io/amazon-entity-resolution/security/amazon-entity-resolution-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-entity-resolution-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/authentication/amazon-entity-resolution-authentication.yml
+  href: https://artifacts.apis.io/amazon-entity-resolution/authentication/amazon-entity-resolution-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-entity-resolution-authentication.yml
@@ -167,32 +191,32 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-entity-resolution/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/arazzo/amazon-entity-resolution-audit-latest-job-workflow.yml
+  href: https://artifacts.apis.io/amazon-entity-resolution/arazzo/amazon-entity-resolution-audit-latest-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-entity-resolution-audit-latest-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/arazzo/amazon-entity-resolution-provision-workflow-workflow.yml
+  href: https://artifacts.apis.io/amazon-entity-resolution/arazzo/amazon-entity-resolution-provision-workflow-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-entity-resolution-provision-workflow-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/arazzo/amazon-entity-resolution-resolve-record-match-id-workflow.yml
+  href: https://artifacts.apis.io/amazon-entity-resolution/arazzo/amazon-entity-resolution-resolve-record-match-id-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-entity-resolution-resolve-record-match-id-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/arazzo/amazon-entity-resolution-run-matching-pipeline-workflow.yml
+  href: https://artifacts.apis.io/amazon-entity-resolution/arazzo/amazon-entity-resolution-run-matching-pipeline-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-entity-resolution-run-matching-pipeline-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/arazzo/amazon-entity-resolution-start-and-await-job-workflow.yml
+  href: https://artifacts.apis.io/amazon-entity-resolution/arazzo/amazon-entity-resolution-start-and-await-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-entity-resolution-start-and-await-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/arazzo/amazon-entity-resolution-update-and-rerun-workflow.yml
+  href: https://artifacts.apis.io/amazon-entity-resolution/arazzo/amazon-entity-resolution-update-and-rerun-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-entity-resolution-update-and-rerun-workflow.yml
@@ -273,12 +297,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/rules/amazon-entity-resolution-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-entity-resolution/rules/amazon-entity-resolution-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-entity-resolution-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/vocabulary/amazon-entity-resolution-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-entity-resolution/vocabulary/amazon-entity-resolution-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-entity-resolution-vocabulary.yaml
@@ -459,13 +483,13 @@ features:
 - description: Enrich records with data from LiveRamp, Unified ID 2.0, and others
   name: Third-Party Data Providers
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Entity Resolution Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: 1,000 records processed
+  service_category: ''
   slug: amazon-entity-resolution-finops
-  template: true
+  template: false
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: AccessDeniedException
@@ -1031,7 +1055,7 @@ modified: '2026-09-16'
 name: Amazon Entity Resolution
 nav: Providers
 network: true
-overview: 'Amazon Entity Resolution publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Matchingworkflows API, Schemas API, and Tags API. Tagged areas include Amazon Web Services, Data Integration, Data Matching, Entity Resolution, and Machine Learning.
+overview: 'Amazon Entity Resolution publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Matchingworkflows API, Schemas API, Tags API, and 5 more. Tagged areas include Amazon Web Services, Data Integration, Data Matching, Entity Resolution, and Machine Learning.
 
 
   The Amazon Entity Resolution catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1042,7 +1066,7 @@ plans:
 - name: Amazon Entity Resolution Plans Pricing
   plan_count: 2
   slug: amazon-entity-resolution-plans-pricing
-random_paper: 5
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Amazon Entity Resolution Rate Limits
@@ -1073,43 +1097,49 @@ rules:
   slug: amazon-entity-resolution-spectral-rules
 score:
   band: strong
-  composite: 62.0
+  composite: 65.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 77.0
+    artifact_dirs: 22
+    catalog_earned: 80.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 38.0
+    catalog_gap: 35.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: 1.5
   facets:
-    access_clarity: 75.0
+    access_clarity: 89.5
     contract_governance: 27.3
-    contract_quality: 71.5
-    developer_ergonomics: 53.6
+    contract_quality: 65.6
+    developer_ergonomics: 65.5
     discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 60.9
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 64.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 3
+      marker_coverage: 62.5
+      total: 8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/screenshots/amazon-entity-resolution-2026-06-20T171643.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-entity-resolution/amazon-entity-resolution-2026-06-20T171643.png
 security:
 - kind: authentication
   name: Amazon Entity Resolution Authentication

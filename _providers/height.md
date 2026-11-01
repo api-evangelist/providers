@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -90,11 +92,8 @@ apis:
   description: The Workspace API from Height — 1 operation(s) for workspace.
   name: Height Workspace API
   slug: height-workspace-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Height APP Activities API
   slug: open-height-activities-api
@@ -124,22 +123,22 @@ collections:
   slug: open-height-workspace-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/capabilities/height-capability-edges.yml
+  href: https://artifacts.apis.io/height/capabilities/height-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/height-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/agentic-access/height-agentic-access.yml
+  href: https://artifacts.apis.io/height/agentic-access/height-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/height-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/security/height-domain-security.yml
+  href: https://artifacts.apis.io/height/security/height-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/height-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/authentication/height-authentication.yml
+  href: https://artifacts.apis.io/height/authentication/height-authentication.yml
   title: ''
   type: Authentication
   url: authentication/height-authentication.yml
@@ -176,17 +175,17 @@ common:
   type: X
   url: https://twitter.com/height_app
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/plans/height-plans-pricing.yml
+  href: https://artifacts.apis.io/height/plans/height-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/height-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/rate-limits/height-rate-limits.yml
+  href: https://artifacts.apis.io/height/rate-limits/height-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/height-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/finops/height-finops.yml
+  href: https://artifacts.apis.io/height/finops/height-finops.yml
   title: ''
   type: FinOps
   url: finops/height-finops.yml
@@ -222,7 +221,7 @@ plans:
 - name: Height Plans Pricing
   plan_count: 4
   slug: height-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Height Rate Limits
@@ -260,13 +259,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/screenshots/height-2026-06-20T182618.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/height/height-2026-06-20T182618.png
 security:
 - kind: authentication
   name: Height Authentication

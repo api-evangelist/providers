@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -73,12 +75,12 @@ common:
   type: Security
   url: https://www.datacamp.com/security/responsible-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datacamp/refs/heads/main/security/datacamp-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/datacamp/security/datacamp-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/datacamp-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datacamp/refs/heads/main/security/datacamp-trust-center.yml
+  href: https://artifacts.apis.io/datacamp/security/datacamp-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/datacamp-trust-center.yml
@@ -87,7 +89,7 @@ common:
   type: Compliance
   url: https://trust.datacamp.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datacamp/refs/heads/main/security/datacamp-domain-security.yml
+  href: https://artifacts.apis.io/datacamp/security/datacamp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datacamp-domain-security.yml
@@ -103,10 +105,10 @@ overview: 'DataCamp is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   DataCamp''s developer surface includes support, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 13
+random_paper: 11
 score:
   band: emerging
-  composite: 20.7
+  composite: 21.0
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -121,22 +123,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 13.2
-  previous_composite: 20.7
+    operational_transparency: 15.8
+  previous_composite: 21.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/datacamp/refs/heads/main/screenshots/datacamp-2026-07-25T211302.png
+screenshot: https://apis.io/screenshots/datacamp/datacamp-2026-07-25T211302.png
 security:
 - kind: domain-security
   name: Datacamp Domain Security

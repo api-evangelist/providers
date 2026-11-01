@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - description: Main REST API for the Nasdaq Calypso platform. Provides programmatic access to remotely control calls to the Calypso platform from other software, enabling regulatory analytics, current limits usage q
@@ -62,23 +64,33 @@ apis:
   slug: calypso-reserve-monetary-policy-api
 artifact_total: 12
 common:
+- group: other
+  href: https://artifacts.apis.io/calypso/hosts/calypso-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/calypso-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/calypso/vendors/calypso-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/calypso-vendors.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/calypso/refs/heads/main/plans/calypso-plans-pricing.yml
+  href: https://artifacts.apis.io/calypso/plans/calypso-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/calypso-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/calypso/refs/heads/main/rate-limits/calypso-rate-limits.yml
+  href: https://artifacts.apis.io/calypso/rate-limits/calypso-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/calypso-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/calypso/refs/heads/main/finops/calypso-finops.yml
+  href: https://artifacts.apis.io/calypso/finops/calypso-finops.yml
   title: ''
   type: FinOps
   url: finops/calypso-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calypso/refs/heads/main/security/calypso-domain-security.yml
+  href: https://artifacts.apis.io/calypso/security/calypso-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/calypso-domain-security.yml
@@ -93,7 +105,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.calypso.com/
+  url: https://www.nasdaq.com/products/fintech/calypso
 - group: operate
   title: ''
   type: Support
@@ -110,14 +122,6 @@ common:
   title: ''
   type: Training
   url: https://www.nasdaq.com/solutions/fintech/services/education-learning/nasdaq-calypso
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://www.calypso.com/Privacy
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://km.calypso.com/pages/terms
 - group: company
   title: ''
   type: LinkedIn
@@ -126,17 +130,29 @@ common:
   title: ''
   type: Wikipedia
   url: https://en.wikipedia.org/wiki/Adenza
+coverage:
+  checked: '2026-10-20'
+  detail: Nasdaq Calypso publishes no public API reference or contract; its documentation lives in the client knowledge base at km.calypso.com (which redirects to calypsoeducation.nasdaq.com) and www.calypso.com no longer answers, so only Nasdaq product pages are public.
+  evidence:
+  - status: 200
+    url: https://km.calypso.com/
+  - status: 0
+    url: https://www.calypso.com/
+  - status: 200
+    url: https://www.nasdaq.com/solutions/fintech/nasdaq-calypso
+  reason: customer-only-docs
+  state: gated
 created: '2024-01-01'
 description: APIs and developer resources for Nasdaq Calypso (formerly Adenza / Calypso Technology), a cross-asset front-to-back capital markets technology platform for trading, risk management, collateral, treasury, processing, and accounting used by banks, asset managers, central banks, and clearing houses worldwide.
 finops:
 - has_sources: false
   method: generated
   name: Calypso Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: calypso-finops
   template: true
-image: https://www.calypso.com/favicon.ico
+image: https://www.nasdaq.com/favicon.ico
 layout: provider
 modified: '2026-04-23'
 name: Calypso
@@ -150,44 +166,44 @@ plans:
 - name: Calypso Plans Pricing
   plan_count: 3
   slug: calypso-plans-pricing
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Calypso Rate Limits
   slug: calypso-rate-limits
 score:
   band: emerging
-  composite: 15.7
+  composite: 12.2
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 46.0
+    artifact_dirs: 10
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
-    discoverability: 71.4
+    developer_ergonomics: 23.8
+    discoverability: 62.5
     operational_transparency: 7.9
-  previous_composite: 17.2
+  previous_composite: 12.2
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 11.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/calypso/refs/heads/main/screenshots/calypso-2026-06-20T173858.png
+screenshot: https://apis.io/screenshots/calypso/calypso-2026-06-20T173858.png
 security:
 - kind: domain-security
   name: Calypso Domain Security
@@ -203,5 +219,5 @@ tags:
 - Risk Management
 - Trading
 - Treasury
-website: https://www.calypso.com/
+website: https://www.nasdaq.com/products/fintech/calypso
 ---

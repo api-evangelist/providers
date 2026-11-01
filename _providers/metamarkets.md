@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: HTTPS event-ingestion API for streaming batches of newline-delimited JSON, OpenRTB 2.5-based ad-tech event records (e.g. MmxAuctionSummary) to the Metamarkets platform for near-real-time dashboarding.
@@ -49,7 +51,7 @@ common:
   type: Website
   url: https://metamarkets.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/security/metamarkets-domain-security.yml
+  href: https://artifacts.apis.io/metamarkets/security/metamarkets-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/metamarkets-domain-security.yml
@@ -70,57 +72,57 @@ common:
   type: Support
   url: mailto:support@metamarkets.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/llms/metamarkets-llms.txt
+  href: https://artifacts.apis.io/metamarkets/llms/metamarkets-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/metamarkets-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/packages/metamarkets-packages.yml
+  href: https://artifacts.apis.io/metamarkets/packages/metamarkets-packages.yml
   title: ''
   type: Packages
   url: packages/metamarkets-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/packages/metamarkets-packages.yml
+  href: https://artifacts.apis.io/metamarkets/packages/metamarkets-packages.yml
   title: ''
   type: SDKs
   url: packages/metamarkets-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/cli/metamarkets-cli.yml
+  href: https://artifacts.apis.io/metamarkets/cli/metamarkets-cli.yml
   title: ''
   type: CLI
   url: cli/metamarkets-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/authentication/metamarkets-authentication.yml
+  href: https://artifacts.apis.io/metamarkets/authentication/metamarkets-authentication.yml
   title: ''
   type: Authentication
   url: authentication/metamarkets-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/errors/metamarkets-problem-types.yml
+  href: https://artifacts.apis.io/metamarkets/errors/metamarkets-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/metamarkets-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/conventions/metamarkets-conventions.yml
+  href: https://artifacts.apis.io/metamarkets/conventions/metamarkets-conventions.yml
   title: ''
   type: Conventions
   url: conventions/metamarkets-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/rate-limits/metamarkets-rate-limits.yml
+  href: https://artifacts.apis.io/metamarkets/rate-limits/metamarkets-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/metamarkets-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/sandbox/metamarkets-sandbox.yml
+  href: https://artifacts.apis.io/metamarkets/sandbox/metamarkets-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/metamarkets-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/conformance/metamarkets-conformance.yml
+  href: https://artifacts.apis.io/metamarkets/conformance/metamarkets-conformance.yml
   title: ''
   type: Conformance
   url: conformance/metamarkets-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/components/metamarkets-components.yml
+  href: https://artifacts.apis.io/metamarkets/components/metamarkets-components.yml
   title: ''
   type: Components
   url: components/metamarkets-components.yml
@@ -129,27 +131,27 @@ common:
   type: APIReference
   url: https://docs.metamarkets.com/docs/real-time-data-delivery
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/vocabulary/metamarkets-vocabulary.yml
+  href: https://artifacts.apis.io/metamarkets/vocabulary/metamarkets-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/metamarkets-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/data-model/metamarkets-data-model.yml
+  href: https://artifacts.apis.io/metamarkets/data-model/metamarkets-data-model.yml
   title: ''
   type: DataModel
   url: data-model/metamarkets-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/examples/metamarkets-rdi-examples.yml
+  href: https://artifacts.apis.io/metamarkets/examples/metamarkets-rdi-examples.yml
   title: ''
   type: Examples
   url: examples/metamarkets-rdi-examples.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/plans/metamarkets-plans-pricing.yml
+  href: https://artifacts.apis.io/metamarkets/plans/metamarkets-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/metamarkets-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/lifecycle/metamarkets-lifecycle.yml
+  href: https://artifacts.apis.io/metamarkets/lifecycle/metamarkets-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/metamarkets-lifecycle.yml
@@ -179,7 +181,7 @@ plans:
 - name: Metamarkets Plans Pricing
   plan_count: 0
   slug: metamarkets-plans-pricing
-random_paper: 16
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Metamarkets Rate Limits
@@ -212,14 +214,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/screenshots/metamarkets-2026-08-07T172649.png
+screenshot: https://apis.io/screenshots/metamarkets/metamarkets-2026-08-07T172649.png
 security:
 - kind: authentication
   name: Metamarkets Authentication

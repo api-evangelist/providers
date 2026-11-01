@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 36.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -187,7 +189,7 @@ apis:
   description: The Transactions API from Hampden & Co — 2 operation(s) for transactions.
   name: Hampden & Co Transactions API
   slug: hampden-and-co-transactions-api
-artifact_total: 36
+artifact_total: 38
 collections:
 - collection_type: open
   name: Account and Transaction API Specification
@@ -200,42 +202,42 @@ collections:
   slug: open-hampden-and-co-payment-initiation-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/capabilities/hampden-and-co-capability-edges.yml
+  href: https://artifacts.apis.io/hampden-and-co/capabilities/hampden-and-co-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hampden-and-co-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/overlays/hampden-and-co-account-information-api-overlay.yaml
+  href: https://artifacts.apis.io/hampden-and-co/overlays/hampden-and-co-account-information-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hampden-and-co-account-information-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/overlays/hampden-and-co-payment-initiation-api-overlay.yaml
+  href: https://artifacts.apis.io/hampden-and-co/overlays/hampden-and-co-payment-initiation-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hampden-and-co-payment-initiation-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/overlays/hampden-and-co-confirmation-of-funds-api-overlay.yaml
+  href: https://artifacts.apis.io/hampden-and-co/overlays/hampden-and-co-confirmation-of-funds-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hampden-and-co-confirmation-of-funds-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/security/hampden-and-co-domain-security.yml
+  href: https://artifacts.apis.io/hampden-and-co/security/hampden-and-co-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hampden-and-co-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/agentic-access/hampden-and-co-agentic-access.yml
+  href: https://artifacts.apis.io/hampden-and-co/agentic-access/hampden-and-co-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hampden-and-co-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/authentication/hampden-and-co-authentication.yml
+  href: https://artifacts.apis.io/hampden-and-co/authentication/hampden-and-co-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hampden-and-co-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/scopes/hampden-and-co-scopes.yml
+  href: https://artifacts.apis.io/hampden-and-co/scopes/hampden-and-co-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hampden-and-co-scopes.yml
@@ -284,47 +286,47 @@ common:
   type: CookiePolicy
   url: https://www.hampdenbank.com/cookie-policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/conventions/hampden-and-co-conventions.yml
+  href: https://artifacts.apis.io/hampden-and-co/conventions/hampden-and-co-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hampden-and-co-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/conventions/hampden-and-co-conventions.yml
+  href: https://artifacts.apis.io/hampden-and-co/conventions/hampden-and-co-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/hampden-and-co-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/errors/hampden-and-co-problem-types.yml
+  href: https://artifacts.apis.io/hampden-and-co/errors/hampden-and-co-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hampden-and-co-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/conformance/hampden-and-co-conformance.yml
+  href: https://artifacts.apis.io/hampden-and-co/conformance/hampden-and-co-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hampden-and-co-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/lifecycle/hampden-and-co-lifecycle.yml
+  href: https://artifacts.apis.io/hampden-and-co/lifecycle/hampden-and-co-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hampden-and-co-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/data-model/hampden-and-co-data-model.yml
+  href: https://artifacts.apis.io/hampden-and-co/data-model/hampden-and-co-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hampden-and-co-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hampden-and-co/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/mcp/hampden-and-co-mcp.yml
+  href: https://artifacts.apis.io/hampden-and-co/mcp/hampden-and-co-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hampden-and-co-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/llms/hampden-and-co-llms.txt
+  href: https://artifacts.apis.io/hampden-and-co/llms/hampden-and-co-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hampden-and-co-llms.txt
@@ -352,8 +354,8 @@ scopes:
   slug: hampden-and-co-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 38.1
+  band: developing
+  composite: 41.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -366,8 +368,8 @@ score:
     access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 49.0
-    developer_ergonomics: 28.0
-    discoverability: 78.6
+    developer_ergonomics: 47.0
+    discoverability: 71.4
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -377,7 +379,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 38.1
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -398,13 +400,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/screenshots/hampden-and-co-2026-07-25T220602.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hampden-and-co/hampden-and-co-2026-07-25T220602.png
 security:
 - kind: authentication
   name: Hampden And Co Authentication
@@ -414,6 +417,12 @@ security:
   name: Hampden And Co Domain Security
   slug: hampden-and-co-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Access Hampden & Co accounts and transactions (AIS)
+  slug: hampden-and-co-account-access
+- name: Initiate a domestic payment via Hampden & Co (PIS)
+  slug: hampden-and-co-domestic-payment
 slug: hampden-and-co
 tags:
 - Financial Services

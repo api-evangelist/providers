@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 21.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 153
   slug: golioth-agentic-access
   summary_line: 153 operations · 83 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Per-device key/value state store. Devices and cloud services read and write structured state (JSON/CBOR) that is synchronized between device and cloud over CoAP.
   name: Golioth LightDB State
@@ -246,11 +248,8 @@ apis:
   description: The Usage API from Golioth — 5 operation(s) for usage.
   name: Golioth Usage API
   slug: golioth-usage-api
-artifact_total: 100
+artifact_total: 99
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Golioth Management Access API
   slug: open-golioth-access-api
@@ -355,22 +354,22 @@ collections:
   slug: open-golioth
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/plans/golioth-plans-pricing.yml
+  href: https://artifacts.apis.io/golioth/plans/golioth-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/golioth-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/rate-limits/golioth-rate-limits.yml
+  href: https://artifacts.apis.io/golioth/rate-limits/golioth-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/golioth-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/finops/golioth-finops.yml
+  href: https://artifacts.apis.io/golioth/finops/golioth-finops.yml
   title: ''
   type: FinOps
   url: finops/golioth-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/capabilities/golioth-capability-edges.yml
+  href: https://artifacts.apis.io/golioth/capabilities/golioth-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/golioth-capability-edges.yml
@@ -395,17 +394,17 @@ common:
   type: License
   url: https://github.com/golioth/golioth-firmware-sdk/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/agentic-access/golioth-agentic-access.yml
+  href: https://artifacts.apis.io/golioth/agentic-access/golioth-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/golioth-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/security/golioth-domain-security.yml
+  href: https://artifacts.apis.io/golioth/security/golioth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/golioth-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/authentication/golioth-authentication.yml
+  href: https://artifacts.apis.io/golioth/authentication/golioth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/golioth-authentication.yml
@@ -472,13 +471,13 @@ examples:
   name: Golioth Query Stream Example
   slug: golioth-query-stream-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Golioth Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: mb
+  service_category: ''
   slug: golioth-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/golioth.png
 json_schemas:
 - name: Golioth Device
@@ -521,7 +520,7 @@ plans:
 - name: Golioth Price Estimates
   plan_count: 0
   slug: golioth-price-estimates
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Golioth Rate Limits
@@ -552,26 +551,23 @@ rules:
   slug: golioth-rules
 score:
   band: developing
-  composite: 45.5
+  composite: 46.3
   coverage:
     artifact_dirs: 20
-    catalog_earned: 77.0
+    catalog_earned: 80.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 38.0
+    catalog_gap: 35.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.0
+  delta: 1.6
   facets:
-    access_clarity: 42.1
+    access_clarity: 50.0
     contract_governance: 27.3
-    contract_quality: 62.9
-    developer_ergonomics: 28.6
+    contract_quality: 59.5
+    developer_ergonomics: 35.7
     discoverability: 73.2
     operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 48.5
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -585,13 +581,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/screenshots/golioth-2026-06-20T181951.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/golioth/golioth-2026-06-20T181951.png
 security:
 - kind: authentication
   name: Golioth Authentication

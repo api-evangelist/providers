@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kuda/refs/heads/main/security/kuda-domain-security.yml
+  href: https://artifacts.apis.io/kuda/security/kuda-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kuda-domain-security.yml
@@ -134,10 +136,10 @@ overview: 'Kuda is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Kuda''s developer surface includes documentation, GitHub presence, engineering blog, FAQ, YouTube channel, and 16 more developer resources.'
-random_paper: 3
+random_paper: 13
 score:
   band: minimal
-  composite: 7.0
+  composite: 9.0
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -150,8 +152,8 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
-    discoverability: 49.1
+    developer_ergonomics: 21.4
+    discoverability: 50.0
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -160,21 +162,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 7.0
+  previous_composite: 9.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kuda/refs/heads/main/screenshots/kuda-2026-06-20T184219.png
+screenshot: https://apis.io/screenshots/kuda/kuda-2026-06-20T184219.png
 security:
 - kind: domain-security
   name: Kuda Domain Security

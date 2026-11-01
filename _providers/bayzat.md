@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: documented
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 1.8
-  scored_at: '2026-10-17'
+  score: 4.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Bayzat provides a cloud‑based HR, payroll, benefits and spend‑management platform with an API (access gated).
@@ -44,17 +46,17 @@ common:
   type: Compliance
   url: https://www.bayzat.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bayzat/refs/heads/main/well-known/bayzat-help-security.txt
+  href: https://artifacts.apis.io/bayzat/well-known/bayzat-help-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bayzat-help-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bayzat/refs/heads/main/well-known/bayzat-well-known.yml
+  href: https://artifacts.apis.io/bayzat/well-known/bayzat-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bayzat-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bayzat/refs/heads/main/hosts/bayzat-hosts.yml
+  href: https://artifacts.apis.io/bayzat/hosts/bayzat-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bayzat-hosts.yml
@@ -79,12 +81,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/bayzat
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bayzat/refs/heads/main/security/bayzat-trust-center.yml
+  href: https://artifacts.apis.io/bayzat/security/bayzat-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bayzat-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bayzat/refs/heads/main/security/bayzat-domain-security.yml
+  href: https://artifacts.apis.io/bayzat/security/bayzat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bayzat-domain-security.yml
@@ -115,7 +117,7 @@ overview: 'Bayzat is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Bayzat''s developer surface includes engineering blog and 14 more developer resources.'
-random_paper: 13
+random_paper: 3
 score:
   band: emerging
   composite: 17.9
@@ -149,14 +151,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bayzat/refs/heads/main/screenshots/bayzat-2026-10-11T101630.png
+screenshot: https://apis.io/screenshots/bayzat/bayzat-2026-10-11T101630.png
 security:
 - kind: domain-security
   name: Bayzat Domain Security

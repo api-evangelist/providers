@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-10-17'
+  score: 36.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Consumer-permissioned banking, lending and energy data for Australia and New Zealand, through one API.
@@ -69,54 +71,59 @@ apis:
   description: The Transactions API from FISKIL — 2 operation(s) for transactions.
   name: FISKIL Transactions API
   slug: fiskil-transactions-api
-artifact_total: 16
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Fiskil Webhooks
   slug: fiskil-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/fiskil/capabilities/fiskil-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fiskil-capability-edges.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/rules/fiskil-rules.yml
+  href: https://artifacts.apis.io/fiskil/rules/fiskil-rules.yml
   title: ''
   type: Spectral
   url: rules/fiskil-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/json-ld/fiskil-context.jsonld
+  href: https://artifacts.apis.io/fiskil/json-ld/fiskil-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/fiskil-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/vocabulary/fiskil-vocabulary.yml
+  href: https://artifacts.apis.io/fiskil/vocabulary/fiskil-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/fiskil-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/conformance/fiskil-conformance.yml
+  href: https://artifacts.apis.io/fiskil/conformance/fiskil-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fiskil-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fiskil/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/asyncapi/fiskil-webhooks.yml
+  href: https://artifacts.apis.io/fiskil/asyncapi/fiskil-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fiskil-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/data-model/fiskil-data-model.yml
+  href: https://artifacts.apis.io/fiskil/data-model/fiskil-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fiskil-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/changelog/fiskil-changelog.yml
+  href: https://artifacts.apis.io/fiskil/changelog/fiskil-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fiskil-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/conventions/fiskil-conventions.yml
+  href: https://artifacts.apis.io/fiskil/conventions/fiskil-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fiskil-conventions.yml
@@ -125,27 +132,27 @@ common:
   type: Compliance
   url: https://www.fiskil.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/authentication/fiskil-authentication.yml
+  href: https://artifacts.apis.io/fiskil/authentication/fiskil-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fiskil-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/errors/fiskil-problem-types.yml
+  href: https://artifacts.apis.io/fiskil/errors/fiskil-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fiskil-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/llms/fiskil-llms.txt
+  href: https://artifacts.apis.io/fiskil/llms/fiskil-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fiskil-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/hosts/fiskil-hosts.yml
+  href: https://artifacts.apis.io/fiskil/hosts/fiskil-hosts.yml
   title: ''
   type: Hosts
   url: hosts/fiskil-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/vendors/fiskil-vendors.yml
+  href: https://artifacts.apis.io/fiskil/vendors/fiskil-vendors.yml
   title: ''
   type: Vendors
   url: vendors/fiskil-vendors.yml
@@ -174,17 +181,17 @@ common:
   type: APIReference
   url: https://docs.fiskil.com/llms-full.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/security/fiskil-trust-center.yml
+  href: https://artifacts.apis.io/fiskil/security/fiskil-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fiskil-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/security/fiskil-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/fiskil/security/fiskil-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fiskil-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/security/fiskil-domain-security.yml
+  href: https://artifacts.apis.io/fiskil/security/fiskil-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fiskil-domain-security.yml
@@ -227,8 +234,8 @@ overview: 'FISKIL publishes 9 API contracts indexed on the [APIs.io](https://api
   The FISKIL catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  FISKIL''s developer surface includes changelog, authentication, getting-started guide, documentation, API reference, support, engineering blog, and 22 more developer resources.'
-random_paper: 4
+  FISKIL''s developer surface includes changelog, authentication, getting-started guide, documentation, API reference, support, engineering blog, and 23 more developer resources.'
+random_paper: 18
 rules:
 - authorship: generated
   effective_rule_count: 56
@@ -244,21 +251,28 @@ rules:
   slug: fiskil-rules
 score:
   band: developing
-  composite: 52.7
+  composite: 52.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 53.8
     catalog_earned_first_party: 0.0
     catalog_gap: 61.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 22.0
-    contract_quality: 70.9
+    contract_quality: 68.4
     developer_ergonomics: 49.4
-    discoverability: 75.0
+    discoverability: 67.9
     operational_transparency: 34.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 52.0
   provenance:
     conformance: derived
     contracts:
@@ -274,11 +288,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 28.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Fiskil Authentication
@@ -296,6 +312,14 @@ security:
   name: Fiskil Trust Center
   slug: fiskil-trust-center
   summary_line: SOC 2
+skill_count: 3
+skills:
+- name: fiskil-get-account-overview
+  slug: fiskil-get-account-overview
+- name: fiskil-manage-end-users
+  slug: fiskil-manage-end-users
+- name: fiskil-refresh-banking-transactions
+  slug: fiskil-refresh-banking-transactions
 slug: fiskil
 tags:
 - Open Banking

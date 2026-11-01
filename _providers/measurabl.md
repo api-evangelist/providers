@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.6
-  scored_at: '2026-10-17'
-api_count: 20
+  score: 34.0
+  scored_at: '2026-10-31'
+api_count: 10
 apis:
 - baseURL: https://api.measurabl.com/core/v0
   baseurl_source: declared
@@ -159,7 +161,7 @@ apis:
   description: The Waste Meters API from Measurabl — 3 operation(s) for waste meters.
   name: Measurabl Waste Meters API
   slug: measurabl-waste-meters-api
-artifact_total: 35
+artifact_total: 39
 collections:
 - collection_type: open
   name: Measurabl Core API
@@ -178,52 +180,52 @@ collections:
   slug: open-measurabl-partners
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/capabilities/measurabl-capability-edges.yml
+  href: https://artifacts.apis.io/measurabl/capabilities/measurabl-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/measurabl-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/overlays/measurabl-core-overlay.yaml
+  href: https://artifacts.apis.io/measurabl/overlays/measurabl-core-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/measurabl-core-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/overlays/measurabl-esgx-buildings-overlay.yaml
+  href: https://artifacts.apis.io/measurabl/overlays/measurabl-esgx-buildings-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/measurabl-esgx-buildings-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/overlays/measurabl-esgx-securities-overlay.yaml
+  href: https://artifacts.apis.io/measurabl/overlays/measurabl-esgx-securities-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/measurabl-esgx-securities-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/overlays/measurabl-esgx-securities-compliance-files-overlay.yaml
+  href: https://artifacts.apis.io/measurabl/overlays/measurabl-esgx-securities-compliance-files-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/measurabl-esgx-securities-compliance-files-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/overlays/measurabl-partners-overlay.yaml
+  href: https://artifacts.apis.io/measurabl/overlays/measurabl-partners-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/measurabl-partners-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/mcp/measurabl-mcp.yml
+  href: https://artifacts.apis.io/measurabl/mcp/measurabl-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/measurabl-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/security/measurabl-domain-security.yml
+  href: https://artifacts.apis.io/measurabl/security/measurabl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/measurabl-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/scopes/measurabl-scopes.yml
+  href: https://artifacts.apis.io/measurabl/scopes/measurabl-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/measurabl-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/authentication/measurabl-authentication.yml
+  href: https://artifacts.apis.io/measurabl/authentication/measurabl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/measurabl-authentication.yml
@@ -296,57 +298,57 @@ common:
   type: Compliance
   url: https://www.measurabl.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/security/measurabl-trust-center.yml
+  href: https://artifacts.apis.io/measurabl/security/measurabl-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/measurabl-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/conformance/measurabl-conformance.yml
+  href: https://artifacts.apis.io/measurabl/conformance/measurabl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/measurabl-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/conventions/measurabl-conventions.yml
+  href: https://artifacts.apis.io/measurabl/conventions/measurabl-conventions.yml
   title: ''
   type: Conventions
   url: conventions/measurabl-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/errors/measurabl-problem-types.yml
+  href: https://artifacts.apis.io/measurabl/errors/measurabl-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/measurabl-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/rate-limits/measurabl-rate-limits.yml
+  href: https://artifacts.apis.io/measurabl/rate-limits/measurabl-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/measurabl-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/data-model/measurabl-data-model.yml
+  href: https://artifacts.apis.io/measurabl/data-model/measurabl-data-model.yml
   title: ''
   type: DataModel
   url: data-model/measurabl-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/lifecycle/measurabl-lifecycle.yml
+  href: https://artifacts.apis.io/measurabl/lifecycle/measurabl-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/measurabl-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/changelog/measurabl-changelog.yml
+  href: https://artifacts.apis.io/measurabl/changelog/measurabl-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/measurabl-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/packages/measurabl-packages.yml
+  href: https://artifacts.apis.io/measurabl/packages/measurabl-packages.yml
   title: ''
   type: Packages
   url: packages/measurabl-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/llms/measurabl-llms.txt
+  href: https://artifacts.apis.io/measurabl/llms/measurabl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/measurabl-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/measurabl/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -363,7 +365,7 @@ overview: 'Measurabl publishes 24 API contracts indexed on the [APIs.io](https:/
 
 
   Measurabl''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 31 more developer resources.'
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Measurabl Rate Limits
@@ -375,7 +377,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.6
+  composite: 49.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 52.0
@@ -385,13 +387,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 4.5
     contract_quality: 43.9
-    developer_ergonomics: 61.3
+    developer_ergonomics: 63.7
     discoverability: 71.4
-    operational_transparency: 50.0
-  previous_composite: 46.6
+    operational_transparency: 52.6
+  previous_composite: 49.4
   provenance:
     conformance: derived
     contracts:
@@ -411,13 +413,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 35.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/screenshots/measurabl-2026-08-07T172304.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/measurabl/measurabl-2026-08-07T172304.png
 security:
 - kind: authentication
   name: Measurabl Authentication
@@ -435,6 +438,16 @@ security:
   name: Measurabl Trust Center
   slug: measurabl-trust-center
   summary_line: SOC 2 Type 2, ISO 27001:2013, GDPR, Privacy Shield
+skill_count: 4
+skills:
+- name: Ingest utility meter data into a Measurabl building
+  slug: measurabl-ingest-utility-meter-data
+- name: Pull listed real estate ESG datasets and compliance files
+  slug: measurabl-pull-esgx-securities-datasets
+- name: Run ESGx energy and carbon estimates for a set of buildings
+  slug: measurabl-run-esgx-building-estimates
+- name: Track green building certifications and ratings across a portfolio
+  slug: measurabl-track-certifications-and-ratings
 slug: measurabl
 tags:
 - ESG

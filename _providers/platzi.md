@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
+  score: 18.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.escuelajs.co/api/v1
@@ -68,11 +70,8 @@ apis:
   description: The users API from Platzi — 3 operation(s) for users.
   name: Platzi Users API
   slug: platzi-users-api
-artifact_total: 15
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Platzi Fake Store auth API
   slug: open-platzi-auth-api
@@ -137,67 +136,67 @@ common:
   type: StatusPage
   url: https://status.platzi.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/llms/platzi-llms.txt
+  href: https://artifacts.apis.io/platzi/llms/platzi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/platzi-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/authentication/platzi-authentication.yml
+  href: https://artifacts.apis.io/platzi/authentication/platzi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/platzi-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/sandbox/platzi-sandbox.yml
+  href: https://artifacts.apis.io/platzi/sandbox/platzi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/platzi-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/conventions/platzi-conventions.yml
+  href: https://artifacts.apis.io/platzi/conventions/platzi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/platzi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/errors/platzi-problem-types.yml
+  href: https://artifacts.apis.io/platzi/errors/platzi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/platzi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/data-model/platzi-data-model.yml
+  href: https://artifacts.apis.io/platzi/data-model/platzi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/platzi-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/lifecycle/platzi-lifecycle.yml
+  href: https://artifacts.apis.io/platzi/lifecycle/platzi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/platzi-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/conformance/platzi-conformance.yml
+  href: https://artifacts.apis.io/platzi/conformance/platzi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/platzi-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/security/platzi-domain-security.yml
+  href: https://artifacts.apis.io/platzi/security/platzi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/platzi-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/well-known/platzi-well-known.yml
+  href: https://artifacts.apis.io/platzi/well-known/platzi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/platzi-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/mcp/platzi-mcp.yml
+  href: https://artifacts.apis.io/platzi/mcp/platzi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/platzi-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/overlays/platzi-fake-store-overlay.yaml
+  href: https://artifacts.apis.io/platzi/overlays/platzi-fake-store-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/platzi-fake-store-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/platzi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -213,10 +212,10 @@ overview: 'Platzi publishes 6 API contracts indexed on the [APIs.io](https://api
 
 
   Platzi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, sandbox, and 17 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
   band: thin
-  composite: 38.0
+  composite: 37.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -228,11 +227,11 @@ score:
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 35.9
+    contract_quality: 32.4
     developer_ergonomics: 61.3
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 38.0
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 37.5
   provenance:
     conformance: derived
     contracts:
@@ -248,13 +247,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/screenshots/platzi-2026-09-02T151437.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/platzi/platzi-2026-09-02T151437.png
 security:
 - kind: authentication
   name: Platzi Authentication
@@ -264,6 +264,14 @@ security:
   name: Platzi Domain Security
   slug: platzi-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Authenticate with JWT
+  slug: platzi-authenticate
+- name: Browse and filter products
+  slug: platzi-browse-products
+- name: Manage catalog (CRUD)
+  slug: platzi-manage-catalog
 slug: platzi
 tags:
 - Company

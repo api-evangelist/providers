@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
+  score: 18.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.unitlab.ai
@@ -47,11 +49,8 @@ apis:
   description: Annotation projects
   name: Unitlab AI Projects API
   slug: unitlab-ai-projects-api
-artifact_total: 8
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Unitlab SDK Datasets API
   slug: open-unitlab-ai-datasets-api
@@ -60,7 +59,7 @@ collections:
   slug: open-unitlab-ai-projects-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/plans/unitlab-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/unitlab-ai/plans/unitlab-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/unitlab-ai-plans-pricing.yml
@@ -69,7 +68,7 @@ common:
   type: BlogRSS
   url: https://blog.unitlab.ai/rss/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/overlays/unitlab-ai-sdk-overlay.yaml
+  href: https://artifacts.apis.io/unitlab-ai/overlays/unitlab-ai-sdk-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/unitlab-ai-sdk-overlay.yaml
@@ -118,67 +117,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/teamunitlab
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/authentication/unitlab-ai-authentication.yml
+  href: https://artifacts.apis.io/unitlab-ai/authentication/unitlab-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unitlab-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/security/unitlab-ai-domain-security.yml
+  href: https://artifacts.apis.io/unitlab-ai/security/unitlab-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unitlab-ai-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/packages/unitlab-ai-packages.yml
+  href: https://artifacts.apis.io/unitlab-ai/packages/unitlab-ai-packages.yml
   title: ''
   type: Packages
   url: packages/unitlab-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/packages/unitlab-ai-packages.yml
+  href: https://artifacts.apis.io/unitlab-ai/packages/unitlab-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/unitlab-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/cli/unitlab-ai-cli.yml
+  href: https://artifacts.apis.io/unitlab-ai/cli/unitlab-ai-cli.yml
   title: ''
   type: CLI
   url: cli/unitlab-ai-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/llms/unitlab-ai-llms.txt
+  href: https://artifacts.apis.io/unitlab-ai/llms/unitlab-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unitlab-ai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/mcp/unitlab-ai-mcp.yml
+  href: https://artifacts.apis.io/unitlab-ai/mcp/unitlab-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/unitlab-ai-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/conformance/unitlab-ai-conformance.yml
+  href: https://artifacts.apis.io/unitlab-ai/conformance/unitlab-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unitlab-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/errors/unitlab-ai-problem-types.yml
+  href: https://artifacts.apis.io/unitlab-ai/errors/unitlab-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/unitlab-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/lifecycle/unitlab-ai-lifecycle.yml
+  href: https://artifacts.apis.io/unitlab-ai/lifecycle/unitlab-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unitlab-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/conventions/unitlab-ai-conventions.yml
+  href: https://artifacts.apis.io/unitlab-ai/conventions/unitlab-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unitlab-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/data-model/unitlab-ai-data-model.yml
+  href: https://artifacts.apis.io/unitlab-ai/data-model/unitlab-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unitlab-ai-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/unitlab-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -198,26 +197,26 @@ plans:
 - name: Unitlab Ai Plans Pricing
   plan_count: 6
   slug: unitlab-ai-plans-pricing
-random_paper: 8
+random_paper: 14
 score:
-  band: thin
-  composite: 37.8
+  band: developing
+  composite: 39.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 0.0
   facets:
-    access_clarity: 69.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 13.9
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 31.5
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 39.5
   provenance:
     conformance: derived
     contracts:
@@ -233,13 +232,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/screenshots/unitlab-ai-2026-08-17T082617.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/unitlab-ai/unitlab-ai-2026-08-17T082617.png
 security:
 - kind: authentication
   name: Unitlab Ai Authentication
@@ -249,6 +249,12 @@ security:
   name: Unitlab Ai Domain Security
   slug: unitlab-ai-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Download an annotated dataset from Unitlab
+  slug: unitlab-ai-download-dataset
+- name: Upload data samples to a Unitlab annotation project
+  slug: unitlab-ai-upload-project-data
 slug: unitlab-ai
 tags:
 - Company

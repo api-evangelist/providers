@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 33.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -111,11 +113,8 @@ arazzos:
 - description: Resolve an insurance carrier, find in-network providers by specialty and location, then read the matched provider's detail record.
   name: Ribbon Health Provider Directory Search
   slug: ribbon-health-provider-search-workflow
-artifact_total: 97
+artifact_total: 99
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ribbon-health Cost Estimates API
   slug: open-ribbon-health-cost-estimates-api
@@ -148,22 +147,22 @@ collections:
   slug: open-ribbon-health-tins-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/capabilities/ribbon-health-capability-edges.yml
+  href: https://artifacts.apis.io/ribbon-health/capabilities/ribbon-health-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ribbon-health-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/agentic-access/ribbon-health-agentic-access.yml
+  href: https://artifacts.apis.io/ribbon-health/agentic-access/ribbon-health-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ribbon-health-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/security/ribbon-health-domain-security.yml
+  href: https://artifacts.apis.io/ribbon-health/security/ribbon-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ribbon-health-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/authentication/ribbon-health-authentication.yml
+  href: https://artifacts.apis.io/ribbon-health/authentication/ribbon-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ribbon-health-authentication.yml
@@ -200,17 +199,17 @@ common:
   type: X
   url: https://twitter.com/RibbonHealth
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/plans/ribbon-health-plans-pricing.yml
+  href: https://artifacts.apis.io/ribbon-health/plans/ribbon-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ribbon-health-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/rate-limits/ribbon-health-rate-limits.yml
+  href: https://artifacts.apis.io/ribbon-health/rate-limits/ribbon-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ribbon-health-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/finops/ribbon-health-finops.yml
+  href: https://artifacts.apis.io/ribbon-health/finops/ribbon-health-finops.yml
   title: ''
   type: FinOps
   url: finops/ribbon-health-finops.yml
@@ -227,47 +226,47 @@ common:
   type: BlogRSS
   url: https://h1.com/blog/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/llms/ribbon-health-llms.txt
+  href: https://artifacts.apis.io/ribbon-health/llms/ribbon-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ribbon-health-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/conventions/ribbon-health-conventions.yml
+  href: https://artifacts.apis.io/ribbon-health/conventions/ribbon-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ribbon-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/errors/ribbon-health-problem-types.yml
+  href: https://artifacts.apis.io/ribbon-health/errors/ribbon-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ribbon-health-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/lifecycle/ribbon-health-lifecycle.yml
+  href: https://artifacts.apis.io/ribbon-health/lifecycle/ribbon-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ribbon-health-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/conformance/ribbon-health-conformance.yml
+  href: https://artifacts.apis.io/ribbon-health/conformance/ribbon-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ribbon-health-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/data-model/ribbon-health-data-model.yml
+  href: https://artifacts.apis.io/ribbon-health/data-model/ribbon-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ribbon-health-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/packages/ribbon-health-packages.yml
+  href: https://artifacts.apis.io/ribbon-health/packages/ribbon-health-packages.yml
   title: ''
   type: Packages
   url: packages/ribbon-health-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ribbon-health/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/examples/
+  href: https://artifacts.apis.io/ribbon-health/examples/
   title: ''
   type: Examples
   url: examples/
@@ -463,8 +462,8 @@ examples:
   name: Putcustomspecialty
   slug: putcustomspecialty
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Ribbon Health Finops
   primary_unit: ''
   service_category: ''
@@ -527,9 +526,9 @@ overview: 'Ribbon Health publishes 11 API contracts indexed on the [APIs.io](htt
   Ribbon Health''s developer surface includes authentication, documentation, engineering blog, pricing, code examples, API reference, getting-started guide, and 27 more developer resources.'
 plans:
 - name: Ribbon Health Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: ribbon-health-plans-pricing
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 9
   name: Ribbon Health Rate Limits
@@ -548,23 +547,23 @@ rules:
   slug: ribbon-health-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.6
+  composite: 55.7
   coverage:
     artifact_dirs: 29
-    catalog_earned: 81.8
-    catalog_earned_first_party: 20.0
-    catalog_gap: 33.3
+    catalog_earned: 73.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -4.2
   facets:
-    access_clarity: 65.8
+    access_clarity: 44.7
     contract_governance: 28.0
-    contract_quality: 67.7
-    developer_ergonomics: 39.9
-    discoverability: 73.2
-    operational_transparency: 50.0
-  previous_composite: 58.1
+    contract_quality: 64.3
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -581,13 +580,14 @@ score:
     regime: Health
     regime_id: health
     score: 25.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/screenshots/ribbon-health-2026-06-20T193110.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ribbon-health/ribbon-health-2026-06-20T193110.png
 security:
 - kind: authentication
   name: Ribbon Health Authentication
@@ -597,6 +597,14 @@ security:
   name: Ribbon Health Domain Security
   slug: ribbon-health-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: ribbon-health-cost-and-eligibility
+  slug: ribbon-health-cost-and-eligibility
+- name: ribbon-health-directory-maintenance
+  slug: ribbon-health-directory-maintenance
+- name: ribbon-health-in-network-provider-search
+  slug: ribbon-health-in-network-provider-search
 slug: ribbon-health
 tags:
 - Healthcare

@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.6
-  scored_at: '2026-10-17'
+  score: 27.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -121,7 +123,7 @@ apis:
   description: Operations related to Wingspan Wallet
   name: Wingspan Wallet API
   slug: wingspan-wingspan-wallet-api
-artifact_total: 52
+artifact_total: 57
 asyncapis:
 - description: ''
   name: Wingspan Webhooks
@@ -173,9 +175,6 @@ collections:
   name: Wingspan Payments 1099 Operations Wingspan Wallet API
   slug: postman-wingspan-wingspan-wallet-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Wingspan Payments 1099 Operations API
   slug: open-wingspan-1099-operations-api
 - collection_type: open
@@ -221,8 +220,13 @@ collections:
   name: Wingspan Payments 1099 Operations Wingspan Wallet API
   slug: open-wingspan-wingspan-wallet-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/wingspan/plans/wingspan-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/wingspan-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/capabilities/wingspan-capability-edges.yml
+  href: https://artifacts.apis.io/wingspan/capabilities/wingspan-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/wingspan-capability-edges.yml
@@ -231,7 +235,7 @@ common:
   type: Website
   url: https://www.wingspan.app/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/overlays/wingspan-payments-overlay.yaml
+  href: https://artifacts.apis.io/wingspan/overlays/wingspan-payments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wingspan-payments-overlay.yaml
@@ -292,22 +296,22 @@ common:
   type: StatusPage
   url: https://status.wingspan.app/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/lifecycle/wingspan-lifecycle.yml
+  href: https://artifacts.apis.io/wingspan/lifecycle/wingspan-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wingspan-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/authentication/wingspan-authentication.yml
+  href: https://artifacts.apis.io/wingspan/authentication/wingspan-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wingspan-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/security/wingspan-domain-security.yml
+  href: https://artifacts.apis.io/wingspan/security/wingspan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wingspan-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/security/wingspan-trust-center.yml
+  href: https://artifacts.apis.io/wingspan/security/wingspan-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wingspan-trust-center.yml
@@ -316,77 +320,85 @@ common:
   type: Compliance
   url: https://www.wingspan.app/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/conformance/wingspan-conformance.yml
+  href: https://artifacts.apis.io/wingspan/conformance/wingspan-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wingspan-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/agentic-access/wingspan-agentic-access.yml
+  href: https://artifacts.apis.io/wingspan/agentic-access/wingspan-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wingspan-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/packages/wingspan-packages.yml
+  href: https://artifacts.apis.io/wingspan/packages/wingspan-packages.yml
   title: ''
   type: Packages
   url: packages/wingspan-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/packages/wingspan-packages.yml
+  href: https://artifacts.apis.io/wingspan/packages/wingspan-packages.yml
   title: ''
   type: SDKs
   url: packages/wingspan-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/mcp/wingspan-mcp.yml
+  href: https://artifacts.apis.io/wingspan/mcp/wingspan-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wingspan-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/llms/wingspan-llms.txt
+  href: https://artifacts.apis.io/wingspan/llms/wingspan-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wingspan-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/errors/wingspan-error-codes.yml
+  href: https://artifacts.apis.io/wingspan/errors/wingspan-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/wingspan-error-codes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/sandbox/wingspan-sandbox.yml
+  href: https://artifacts.apis.io/wingspan/sandbox/wingspan-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/wingspan-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/conventions/wingspan-conventions.yml
+  href: https://artifacts.apis.io/wingspan/conventions/wingspan-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wingspan-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/rate-limits/wingspan-rate-limits.yml
+  href: https://artifacts.apis.io/wingspan/rate-limits/wingspan-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wingspan-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/asyncapi/wingspan-webhooks.yml
+  href: https://artifacts.apis.io/wingspan/asyncapi/wingspan-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/wingspan-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/components/wingspan-components.yml
+  href: https://artifacts.apis.io/wingspan/components/wingspan-components.yml
   title: ''
   type: Components
   url: components/wingspan-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/data-model/wingspan-data-model.yml
+  href: https://artifacts.apis.io/wingspan/data-model/wingspan-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wingspan-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/wingspan/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Wingspan is a contractor payments and payroll platform built for the independent workforce, giving enterprises a single system to onboard 1099 contractors, collect W-9 and compliance documents, run approval-based payroll, pay collaborators by ACH or instant payout, and file 1099 tax forms. Its REST Payments API (OpenAPI 3.1) covers payables, invoicing, collaborators and groups, payable/invoice/1099 batches, deductions, eligibility requirements, custom fields, reporting, and webhooks, with embeddable onboarding and payout-settings UIs.
+finops:
+- has_sources: true
+  method: derived
+  name: Wingspan Finops
+  primary_unit: monthly active payee (map)
+  service_category: ''
+  slug: wingspan-finops
+  template: false
 image: https://www.wingspan.app/images/wingspan-logo.svg
 layout: provider
 modified: '2026-09-16'
@@ -399,31 +411,38 @@ overview: 'Wingspan publishes 15 API contracts indexed on the [APIs.io](https://
   The Wingspan catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Wingspan''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 29 more developer resources.'
-random_paper: 13
+  Wingspan''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 30 more developer resources.'
+plans:
+- name: Wingspan Plans Pricing
+  plan_count: 7
+  slug: wingspan-plans-pricing
+- name: Wingspan Price Estimates
+  plan_count: 0
+  slug: wingspan-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Wingspan Rate Limits
   slug: wingspan-rate-limits
 score:
   band: strong
-  composite: 56.5
+  composite: 65.1
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 28
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 53.9
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 58.8
-    developer_ergonomics: 55.4
-    discoverability: 73.2
-    operational_transparency: 47.4
-  previous_composite: 56.5
+    contract_quality: 55.4
+    developer_ergonomics: 74.4
+    discoverability: 66.1
+    operational_transparency: 50.0
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -444,13 +463,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/screenshots/wingspan-2026-08-17T082930.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wingspan/wingspan-2026-08-17T082930.png
 security:
 - kind: authentication
   name: Wingspan Authentication
@@ -464,6 +484,14 @@ security:
   name: Wingspan Trust Center
   slug: wingspan-trust-center
   summary_line: SOC 2, HIPAA
+skill_count: 3
+skills:
+- name: Manage 1099 tax forms for contractors
+  slug: wingspan-1099-tax-forms
+- name: Bulk-import payables with batches
+  slug: wingspan-bulk-payables-batch
+- name: Invite and pay a contractor with Wingspan
+  slug: wingspan-invite-and-pay-contractor
 slug: wingspan
 tags:
 - Company

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/equity-residential/refs/heads/main/security/equity-residential-domain-security.yml
+  href: https://artifacts.apis.io/equity-residential/security/equity-residential-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/equity-residential-domain-security.yml
@@ -74,17 +76,17 @@ common:
   type: TermsOfService
   url: https://www.equityapartments.com/terms
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/equity-residential/refs/heads/main/llms/equity-residential-llms.txt
+  href: https://artifacts.apis.io/equity-residential/llms/equity-residential-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/equity-residential-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/equity-residential/refs/heads/main/plans/equity-residential-plans-pricing.yml
+  href: https://artifacts.apis.io/equity-residential/plans/equity-residential-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/equity-residential-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/equity-residential/refs/heads/main/rate-limits/equity-residential-rate-limits.yml
+  href: https://artifacts.apis.io/equity-residential/rate-limits/equity-residential-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/equity-residential-rate-limits.yml
@@ -136,14 +138,14 @@ press:
 - date: ''
   title: eqr-def14a_20200625.htm
   url: https://www.sec.gov/Archives/edgar/data/906107/000156459020017733/eqr-def14a_20200625.htm
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Equity Residential Rate Limits
   slug: equity-residential-rate-limits
 score:
-  band: minimal
-  composite: 10.9
+  band: emerging
+  composite: 12.6
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -153,27 +155,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 10.9
+    operational_transparency: 5.3
+  previous_composite: 12.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/equity-residential/refs/heads/main/screenshots/equity-residential-2026-06-20T180807.png
+screenshot: https://apis.io/screenshots/equity-residential/equity-residential-2026-06-20T180807.png
 security:
 - kind: domain-security
   name: Equity Residential Domain Security

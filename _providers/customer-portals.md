@@ -4,6 +4,6 @@ layout: provider
 name: customer-portals
 nav: Providers
 network: true
-random_paper: 6
+random_paper: 20
 slug: customer-portals
 ---

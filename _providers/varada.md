@@ -16,22 +16,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/varadaio
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/varada/refs/heads/main/packages/varada-packages.yml
+  href: https://artifacts.apis.io/varada/packages/varada-packages.yml
   title: ''
   type: Packages
   url: packages/varada-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/varada/refs/heads/main/cli/varada-cli.yml
+  href: https://artifacts.apis.io/varada/cli/varada-cli.yml
   title: ''
   type: CLI
   url: cli/varada-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/varada/refs/heads/main/llms/varada-llms.txt
+  href: https://artifacts.apis.io/varada/llms/varada-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/varada-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/varada/refs/heads/main/security/varada-domain-security.yml
+  href: https://artifacts.apis.io/varada/security/varada-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/varada-domain-security.yml
@@ -47,7 +47,7 @@ overview: 'Varada is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Varada''s developer surface includes CLI and 4 more developer resources.'
-random_paper: 7
+random_paper: 23
 security:
 - kind: domain-security
   name: Varada Domain Security

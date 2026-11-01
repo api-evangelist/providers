@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The CrateDB Cloud REST API manages CrateDB Cloud resources — organizations, regions, projects, clusters, products, users, roles, subscriptions, and audit logs. Authentication uses HTTP Basic auth with
@@ -43,8 +45,13 @@ apis:
 - description: 'CrateDB''s native developer interface: a JSON-over-HTTP SQL endpoint. Clients POST a JSON body ({"stmt": "...", "args": [...], "bulk_args": [[...]]}) to /_sql (default port 4200) and receive cols/rows/'
   name: CrateDB HTTP SQL Endpoint
   slug: cratedb-http-sql-endpoint
-artifact_total: 7
+artifact_total: 9
 common:
+- group: commercial
+  href: https://artifacts.apis.io/crate-io/plans/crate-io-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/crate-io-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -106,57 +113,57 @@ common:
   type: StatusPage
   url: https://cratedb.statuspage.io/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/packages/crate-io-packages.yml
+  href: https://artifacts.apis.io/crate-io/packages/crate-io-packages.yml
   title: ''
   type: Packages
   url: packages/crate-io-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/packages/crate-io-packages.yml
+  href: https://artifacts.apis.io/crate-io/packages/crate-io-packages.yml
   title: ''
   type: SDKs
   url: packages/crate-io-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/cli/crate-io-cli.yml
+  href: https://artifacts.apis.io/crate-io/cli/crate-io-cli.yml
   title: ''
   type: CLI
   url: cli/crate-io-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/mcp/crate-io-mcp.yml
+  href: https://artifacts.apis.io/crate-io/mcp/crate-io-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/crate-io-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/llms/crate-io-llms.txt
+  href: https://artifacts.apis.io/crate-io/llms/crate-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crate-io-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/authentication/crate-io-authentication.yml
+  href: https://artifacts.apis.io/crate-io/authentication/crate-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crate-io-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/conventions/crate-io-conventions.yml
+  href: https://artifacts.apis.io/crate-io/conventions/crate-io-conventions.yml
   title: ''
   type: Conventions
   url: conventions/crate-io-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/errors/crate-io-error-codes.yml
+  href: https://artifacts.apis.io/crate-io/errors/crate-io-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/crate-io-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/lifecycle/crate-io-lifecycle.yml
+  href: https://artifacts.apis.io/crate-io/lifecycle/crate-io-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/crate-io-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/changelog/crate-io-changelog.yml
+  href: https://artifacts.apis.io/crate-io/changelog/crate-io-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/crate-io-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/conformance/crate-io-conformance.yml
+  href: https://artifacts.apis.io/crate-io/conformance/crate-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/crate-io-conformance.yml
@@ -165,12 +172,12 @@ common:
   type: Compliance
   url: https://cratedb.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/security/crate-io-domain-security.yml
+  href: https://artifacts.apis.io/crate-io/security/crate-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crate-io-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/security/crate-io-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/crate-io/security/crate-io-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/crate-io-vulnerability-disclosure.yml
@@ -179,12 +186,20 @@ common:
   type: Security
   url: https://github.com/crate/crate/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/security/crate-io-trust-center.yml
+  href: https://artifacts.apis.io/crate-io/security/crate-io-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/crate-io-trust-center.yml
 created: '2026-07-17'
 description: Crate.io is the company behind CrateDB, a distributed SQL database engineered for real-time analytics on large volumes of operational data. CrateDB unifies time-series, JSON/document, full-text search, vector, geospatial, and relational data behind standard SQL, is PostgreSQL wire-protocol compatible, and is built on Lucene for horizontal scalability and sub-second queries over billions of rows. Developers interact with CrateDB through an HTTP SQL endpoint (POST /_sql on port 4200) and with the managed CrateDB Cloud service through the CrateDB Cloud REST API (https://console.cratedb.cloud/api/v2), which manages organizations, projects, clusters, users, roles, subscriptions, and audit logs. Crate.io is a Speedinvest portfolio company; CrateDB Cloud is certified to ISO 27001 and SOC 2 Type II.
+finops:
+- has_sources: true
+  method: derived
+  name: Crate Io Finops
+  primary_unit: hour
+  service_category: ''
+  slug: crate-io-finops
+  template: false
 image: https://cratedb.com/hubfs/cr-featured-image-23.jpg
 layout: provider
 mcp_servers:
@@ -198,27 +213,31 @@ network: true
 overview: 'Crate Io is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Database, SQL, Distributed Database, and Analytics.
 
 
-  Crate Io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 18
+  Crate Io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+plans:
+- name: Crate Io Plans Pricing
+  plan_count: 3
+  slug: crate-io-plans-pricing
+random_paper: 20
 score:
   band: developing
-  composite: 40.1
+  composite: 52.2
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 18
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 47.4
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 61.9
-    discoverability: 71.7
-    operational_transparency: 44.7
-  previous_composite: 40.0
+    developer_ergonomics: 71.4
+    discoverability: 65.0
+    operational_transparency: 47.4
+  previous_composite: 44.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -228,14 +247,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/screenshots/crate-io-2026-07-25T210645.png
+screenshot: https://apis.io/screenshots/crate-io/crate-io-2026-07-25T210645.png
 security:
 - kind: authentication
   name: Crate Io Authentication
@@ -261,7 +280,7 @@ tags:
 - Distributed Database
 - Analytics
 - Time Series
-- Vector Database
+- Vector Search
 - IoT
 - Cloud
 - Developer Tools

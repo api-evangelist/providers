@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 23
 apis:
 - description: Endpoints for MLS listings data assembled by Anywhere's MLS Data Platform (MDP), which downloads, processes and enriches listings from multiple MLS sources. Returns listings in canonical RESO format e
@@ -109,42 +111,42 @@ apis:
 artifact_total: 27
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/authentication/anywhere-real-estate-authentication.yml
+  href: https://artifacts.apis.io/anywhere-real-estate/authentication/anywhere-real-estate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/anywhere-real-estate-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/scopes/anywhere-real-estate-scopes.yml
+  href: https://artifacts.apis.io/anywhere-real-estate/scopes/anywhere-real-estate-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/anywhere-real-estate-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/well-known/anywhere-real-estate-well-known.yml
+  href: https://artifacts.apis.io/anywhere-real-estate/well-known/anywhere-real-estate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/anywhere-real-estate-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/conventions/anywhere-real-estate-conventions.yml
+  href: https://artifacts.apis.io/anywhere-real-estate/conventions/anywhere-real-estate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/anywhere-real-estate-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/errors/anywhere-real-estate-problem-types.yml
+  href: https://artifacts.apis.io/anywhere-real-estate/errors/anywhere-real-estate-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/anywhere-real-estate-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/lifecycle/anywhere-real-estate-lifecycle.yml
+  href: https://artifacts.apis.io/anywhere-real-estate/lifecycle/anywhere-real-estate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/anywhere-real-estate-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/changelog/anywhere-real-estate-changelog.yml
+  href: https://artifacts.apis.io/anywhere-real-estate/changelog/anywhere-real-estate-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/anywhere-real-estate-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/conformance/anywhere-real-estate-conformance.yml
+  href: https://artifacts.apis.io/anywhere-real-estate/conformance/anywhere-real-estate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/anywhere-real-estate-conformance.yml
@@ -153,32 +155,32 @@ common:
   type: Compliance
   url: https://trust.anywhere.re/
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/sandbox/anywhere-real-estate-sandbox.yml
+  href: https://artifacts.apis.io/anywhere-real-estate/sandbox/anywhere-real-estate-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/anywhere-real-estate-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/packages/anywhere-real-estate-packages.yml
+  href: https://artifacts.apis.io/anywhere-real-estate/packages/anywhere-real-estate-packages.yml
   title: ''
   type: Packages
   url: packages/anywhere-real-estate-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/components/anywhere-real-estate-components.yml
+  href: https://artifacts.apis.io/anywhere-real-estate/components/anywhere-real-estate-components.yml
   title: ''
   type: Components
   url: components/anywhere-real-estate-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/llms/anywhere-real-estate-llms.txt
+  href: https://artifacts.apis.io/anywhere-real-estate/llms/anywhere-real-estate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/anywhere-real-estate-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/security/anywhere-real-estate-trust-center.yml
+  href: https://artifacts.apis.io/anywhere-real-estate/security/anywhere-real-estate-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/anywhere-real-estate-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/security/anywhere-real-estate-domain-security.yml
+  href: https://artifacts.apis.io/anywhere-real-estate/security/anywhere-real-estate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anywhere-real-estate-domain-security.yml
@@ -203,17 +205,17 @@ common:
   type: Authentication
   url: https://developers.anywhere.re/docs/realogy-oauth
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/authentication/anywhere-real-estate-okta-prod-authorization-server.json
+  href: https://artifacts.apis.io/anywhere-real-estate/authentication/anywhere-real-estate-okta-prod-authorization-server.json
   title: ''
   type: Authentication
   url: authentication/anywhere-real-estate-okta-prod-authorization-server.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/authentication/anywhere-real-estate-okta-prod-openid-configuration.json
+  href: https://artifacts.apis.io/anywhere-real-estate/authentication/anywhere-real-estate-okta-prod-openid-configuration.json
   title: ''
   type: Authentication
   url: authentication/anywhere-real-estate-okta-prod-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/authentication/anywhere-real-estate-okta-nonprod-authorization-server.json
+  href: https://artifacts.apis.io/anywhere-real-estate/authentication/anywhere-real-estate-okta-nonprod-authorization-server.json
   title: ''
   type: Authentication
   url: authentication/anywhere-real-estate-okta-nonprod-authorization-server.json
@@ -294,7 +296,7 @@ overview: 'Anywhere Real Estate is listed with 23 APIs on the [APIs.io](https://
 
 
   Anywhere Real Estate''s developer surface includes authentication, changelog, sandbox, developer portal, documentation, getting-started guide, signup flow, and 32 more developer resources.'
-random_paper: 21
+random_paper: 7
 scopes:
 - name: Anywhere Real Estate Scopes
   scope_count: 0
@@ -302,7 +304,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 38.9
+  composite: 38.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 35.0
@@ -316,8 +318,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 69.6
-    operational_transparency: 34.2
+    discoverability: 62.5
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -325,7 +327,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 38.9
+  previous_composite: 38.5
   provenance:
     conformance: first-party
   regulatory:
@@ -334,14 +336,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 37.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/screenshots/anywhere-real-estate-2026-08-07T161434.png
+screenshot: https://apis.io/screenshots/anywhere-real-estate/anywhere-real-estate-2026-08-07T161434.png
 security:
 - kind: authentication
   name: Anywhere Real Estate Authentication

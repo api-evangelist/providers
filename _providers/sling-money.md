@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -73,17 +75,17 @@ common:
   type: Compliance
   url: https://morsemoney.com/legal/regulatory-compliance
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sling-money/refs/heads/main/well-known/sling-money-well-known.yml
+  href: https://artifacts.apis.io/sling-money/well-known/sling-money-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sling-money-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sling-money/refs/heads/main/well-known/sling-money-security.txt
+  href: https://artifacts.apis.io/sling-money/well-known/sling-money-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sling-money-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sling-money/refs/heads/main/llms/sling-money-llms.txt
+  href: https://artifacts.apis.io/sling-money/llms/sling-money-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sling-money-llms.txt
@@ -92,22 +94,22 @@ common:
   type: Security
   url: https://morsemoney.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sling-money/refs/heads/main/security/sling-money-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sling-money/security/sling-money-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sling-money-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sling-money/refs/heads/main/security/sling-money-domain-security.yml
+  href: https://artifacts.apis.io/sling-money/security/sling-money-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sling-money-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sling-money/refs/heads/main/security/sling-money-trust-center.yml
+  href: https://artifacts.apis.io/sling-money/security/sling-money-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sling-money-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sling-money/refs/heads/main/conformance/sling-money-conformance.yml
+  href: https://artifacts.apis.io/sling-money/conformance/sling-money-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sling-money-conformance.yml
@@ -123,12 +125,12 @@ overview: 'Sling Money is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Sling Money''s developer surface includes engineering blog, support, pricing, and 14 more developer resources.'
-random_paper: 16
+random_paper: 10
 score:
   band: emerging
-  composite: 22.8
+  composite: 23.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -140,9 +142,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 23.7
-  previous_composite: 22.8
+    discoverability: 48.2
+    operational_transparency: 31.6
+  previous_composite: 23.1
   provenance:
     conformance: first-party
   regulatory:
@@ -151,14 +153,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sling-money/refs/heads/main/screenshots/sling-money-2026-09-02T155844.png
+screenshot: https://apis.io/screenshots/sling-money/sling-money-2026-09-02T155844.png
 security:
 - kind: domain-security
   name: Sling Money Domain Security

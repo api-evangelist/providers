@@ -16,15 +16,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-17'
-api_count: 13
+  score: 23.5
+  scored_at: '2026-10-31'
+api_count: 11
 apis:
 - baseURL: https://rz3.aeb.de/test2ici/rest
   baseurl_source: declared
@@ -398,7 +400,7 @@ collections:
   slug: open-aeb-trade-compliance-management
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aeb/refs/heads/main/capabilities/aeb-capability-edges.yml
+  href: https://artifacts.apis.io/aeb/capabilities/aeb-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/aeb-capability-edges.yml
@@ -467,10 +469,10 @@ overview: 'AEB publishes 67 API contracts indexed on the [APIs.io](https://apis.
 
 
   AEB''s developer surface includes documentation, changelog, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 10
+random_paper: 8
 score:
   band: thin
-  composite: 31.2
+  composite: 29.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 40.0
@@ -482,10 +484,10 @@ score:
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
-    contract_quality: 46.9
-    developer_ergonomics: 21.4
+    contract_quality: 46.8
+    developer_ergonomics: 31.0
     discoverability: 71.4
-    operational_transparency: 10.5
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -494,7 +496,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 31.2
+  previous_composite: 29.0
   provenance:
     contracts:
       callable: 100.0
@@ -507,13 +509,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 4.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/aeb/refs/heads/main/screenshots/aeb-2026-08-07T160936.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aeb/aeb-2026-08-07T160936.png
 slug: aeb
 tags:
 - Logistics

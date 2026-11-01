@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -87,11 +89,8 @@ apis:
   description: Retrieve user records
   name: Commusoft Users API
   slug: commusoft-users-api
-artifact_total: 35
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Commusoft Authentication API
   slug: open-commusoft-authentication-api
@@ -118,22 +117,22 @@ collections:
   slug: open-commusoft-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/capabilities/commusoft-capability-edges.yml
+  href: https://artifacts.apis.io/commusoft/capabilities/commusoft-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/commusoft-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/agentic-access/commusoft-agentic-access.yml
+  href: https://artifacts.apis.io/commusoft/agentic-access/commusoft-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/commusoft-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/security/commusoft-domain-security.yml
+  href: https://artifacts.apis.io/commusoft/security/commusoft-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/commusoft-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/authentication/commusoft-authentication.yml
+  href: https://artifacts.apis.io/commusoft/authentication/commusoft-authentication.yml
   title: ''
   type: Authentication
   url: authentication/commusoft-authentication.yml
@@ -166,17 +165,17 @@ common:
   type: X
   url: https://x.com/commusoft
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/plans/commusoft-plans-pricing.yml
+  href: https://artifacts.apis.io/commusoft/plans/commusoft-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/commusoft-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/rate-limits/commusoft-rate-limits.yml
+  href: https://artifacts.apis.io/commusoft/rate-limits/commusoft-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/commusoft-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/finops/commusoft-finops.yml
+  href: https://artifacts.apis.io/commusoft/finops/commusoft-finops.yml
   title: ''
   type: FinOps
   url: finops/commusoft-finops.yml
@@ -230,7 +229,7 @@ modified: '2026-06-13'
 name: Commusoft
 nav: Providers
 network: true
-overview: 'Commusoft publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Contacts API, Customers API, and 6 more. Tagged areas include Field Service, Job Management, HVAC, Plumbing, and Trade.
+overview: 'Commusoft publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Contacts API, Customers API, and 6 more. Tagged areas include Field Service Management, Job Management, HVAC, Plumbing, and Trade.
 
 
   The Commusoft catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -241,7 +240,7 @@ plans:
 - name: Commusoft Plans Pricing
   plan_count: 0
   slug: commusoft-plans-pricing
-random_paper: 21
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Commusoft Rate Limits
@@ -260,7 +259,7 @@ rules:
   slug: commusoft-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.9
+  composite: 29.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 48.3
@@ -268,15 +267,15 @@ score:
     catalog_gap: 66.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 9.8
-    contract_quality: 54.7
-    developer_ergonomics: 19.0
+    contract_quality: 51.3
+    developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 30.5
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     contracts:
@@ -290,13 +289,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/screenshots/commusoft-2026-06-20T174826.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/commusoft/commusoft-2026-06-20T174826.png
 security:
 - kind: authentication
   name: Commusoft Authentication
@@ -308,7 +308,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: commusoft
 tags:
-- Field Service
+- Field Service Management
 - Job Management
 - HVAC
 - Plumbing

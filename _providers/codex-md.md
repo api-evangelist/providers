@@ -51,8 +51,8 @@ overview: 'CODEX.md is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   CODEX.md''s developer surface includes engineering blog, documentation, GitHub presence, and 4 more developer resources.'
-random_paper: 15
-screenshot: https://raw.githubusercontent.com/api-evangelist/codex-md/refs/heads/main/screenshots/codex-md-2026-06-20T174708.png
+random_paper: 17
+screenshot: https://apis.io/screenshots/codex-md/codex-md-2026-06-20T174708.png
 slug: codex-md
 tags:
 - AI Agents

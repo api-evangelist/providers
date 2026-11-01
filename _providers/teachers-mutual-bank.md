@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
+  score: 26.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://ob.tmbl.com.au/tmbank/cds-au/v1/banking/products
@@ -74,9 +76,6 @@ apis:
 artifact_total: 19
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-teachers-mutual-bank-banking-account-balances-api
 - collection_type: open
@@ -99,37 +98,37 @@ collections:
   slug: open-teachers-mutual-bank-banking-products-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/capabilities/teachers-mutual-bank-capability-edges.yml
+  href: https://artifacts.apis.io/teachers-mutual-bank/capabilities/teachers-mutual-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/teachers-mutual-bank-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/security/teachers-mutual-bank-domain-security.yml
+  href: https://artifacts.apis.io/teachers-mutual-bank/security/teachers-mutual-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teachers-mutual-bank-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/authentication/teachers-mutual-bank-authentication.yml
+  href: https://artifacts.apis.io/teachers-mutual-bank/authentication/teachers-mutual-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/teachers-mutual-bank-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/conventions/teachers-mutual-bank-conventions.yml
+  href: https://artifacts.apis.io/teachers-mutual-bank/conventions/teachers-mutual-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/teachers-mutual-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/errors/teachers-mutual-bank-problem-types.yml
+  href: https://artifacts.apis.io/teachers-mutual-bank/errors/teachers-mutual-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/teachers-mutual-bank-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/rate-limits/teachers-mutual-bank-rate-limits.yml
+  href: https://artifacts.apis.io/teachers-mutual-bank/rate-limits/teachers-mutual-bank-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/teachers-mutual-bank-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/lifecycle/teachers-mutual-bank-lifecycle.yml
+  href: https://artifacts.apis.io/teachers-mutual-bank/lifecycle/teachers-mutual-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/teachers-mutual-bank-lifecycle.yml
@@ -138,37 +137,37 @@ common:
   type: Deprecation
   url: https://consumerdatastandardsaustralia.github.io/standards/#versioning
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/conformance/teachers-mutual-bank-conformance.yml
+  href: https://artifacts.apis.io/teachers-mutual-bank/conformance/teachers-mutual-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/teachers-mutual-bank-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/scopes/teachers-mutual-bank-scopes.yml
+  href: https://artifacts.apis.io/teachers-mutual-bank/scopes/teachers-mutual-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/teachers-mutual-bank-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/data-model/teachers-mutual-bank-data-model.yml
+  href: https://artifacts.apis.io/teachers-mutual-bank/data-model/teachers-mutual-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/teachers-mutual-bank-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/mcp/teachers-mutual-bank-mcp.yml
+  href: https://artifacts.apis.io/teachers-mutual-bank/mcp/teachers-mutual-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/teachers-mutual-bank-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/llms/teachers-mutual-bank-llms.txt
+  href: https://artifacts.apis.io/teachers-mutual-bank/llms/teachers-mutual-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/teachers-mutual-bank-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/overlays/teachers-mutual-bank-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/teachers-mutual-bank/overlays/teachers-mutual-bank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/teachers-mutual-bank-cds-banking-products-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/teachers-mutual-bank/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -228,7 +227,7 @@ overview: 'Teachers Mutual Bank publishes 7 API contracts indexed on the [APIs.i
 
 
   Teachers Mutual Bank''s developer surface includes authentication, API reference, getting-started guide, documentation, support, and 21 more developer resources.'
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Teachers Mutual Bank Rate Limits
@@ -254,7 +253,7 @@ score:
     contract_governance: 4.5
     contract_quality: 44.7
     developer_ergonomics: 56.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -283,13 +282,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 33.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/screenshots/teachers-mutual-bank-2026-07-21T114753.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/teachers-mutual-bank/teachers-mutual-bank-2026-07-21T114753.png
 security:
 - kind: authentication
   name: Teachers Mutual Bank Authentication
@@ -299,6 +299,10 @@ security:
   name: Teachers Mutual Bank Domain Security
   slug: teachers-mutual-bank-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: Retrieve Teachers Mutual Bank product catalogue
+  slug: teachers-mutual-bank-product-catalogue
 slug: teachers-mutual-bank
 tags:
 - Finance

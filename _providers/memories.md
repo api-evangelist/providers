@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.1
-  scored_at: '2026-10-17'
+  score: 34.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -60,15 +62,12 @@ apis:
   description: The Understand API from Memories — 2 operation(s) for understand.
   name: Memories Understand API
   slug: memories-understand-api
-artifact_total: 14
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Memories Webhooks
   slug: memories-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Memories Platform API (Docs Mapping) Serve API
   slug: open-memories-serve-api
@@ -80,7 +79,7 @@ collections:
   slug: open-memories-understand-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/plans/memories-plans-pricing.yml
+  href: https://artifacts.apis.io/memories/plans/memories-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/memories-plans-pricing.yml
@@ -89,7 +88,7 @@ common:
   type: Blog
   url: https://memories.ai/blogs
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/security/memories-trust-center.yml
+  href: https://artifacts.apis.io/memories/security/memories-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/memories-trust-center.yml
@@ -126,87 +125,87 @@ common:
   type: Compliance
   url: https://memories.ai/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/authentication/memories-authentication.yml
+  href: https://artifacts.apis.io/memories/authentication/memories-authentication.yml
   title: ''
   type: Authentication
   url: authentication/memories-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/agentic-access/memories-agentic-access.yml
+  href: https://artifacts.apis.io/memories/agentic-access/memories-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/memories-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/packages/memories-packages.yml
+  href: https://artifacts.apis.io/memories/packages/memories-packages.yml
   title: ''
   type: Packages
   url: packages/memories-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/cli/memories-cli.yml
+  href: https://artifacts.apis.io/memories/cli/memories-cli.yml
   title: ''
   type: CLI
   url: cli/memories-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/mcp/memories-mcp.yml
+  href: https://artifacts.apis.io/memories/mcp/memories-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/memories-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/llms/memories-llms.txt
+  href: https://artifacts.apis.io/memories/llms/memories-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/memories-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/memories/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/asyncapi/memories-webhooks.yml
+  href: https://artifacts.apis.io/memories/asyncapi/memories-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/memories-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/errors/memories-error-codes.yml
+  href: https://artifacts.apis.io/memories/errors/memories-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/memories-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/conventions/memories-conventions.yml
+  href: https://artifacts.apis.io/memories/conventions/memories-conventions.yml
   title: ''
   type: Conventions
   url: conventions/memories-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/rate-limits/memories-rate-limits.yml
+  href: https://artifacts.apis.io/memories/rate-limits/memories-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/memories-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/lifecycle/memories-lifecycle.yml
+  href: https://artifacts.apis.io/memories/lifecycle/memories-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/memories-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/conformance/memories-conformance.yml
+  href: https://artifacts.apis.io/memories/conformance/memories-conformance.yml
   title: ''
   type: Conformance
   url: conformance/memories-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/data-model/memories-data-model.yml
+  href: https://artifacts.apis.io/memories/data-model/memories-data-model.yml
   title: ''
   type: DataModel
   url: data-model/memories-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/security/memories-domain-security.yml
+  href: https://artifacts.apis.io/memories/security/memories-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/memories-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/well-known/memories-well-known.yml
+  href: https://artifacts.apis.io/memories/well-known/memories-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/memories-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/overlays/memories-platform-overlay.yaml
+  href: https://artifacts.apis.io/memories/overlays/memories-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/memories-platform-overlay.yaml
@@ -216,6 +215,14 @@ common:
   url: http://memories.ai
 created: '2026-07-17'
 description: 'Memories.ai (MAVI) is a video-intelligence platform that turns raw video into searchable, agent-ready understanding. It ships three products on a shared video-understanding stack: Visual Intelligence (stateless REST APIs for transcription, captioning, frame description, embeddings, social-media scraping, and real-time audio/video stream moderation via VLMs such as Gemini, Nova, and Qwen), Visual Search (an auto-indexed private and public video/image library searchable by text, image, or transcript), and Visual Agents (pre-built workflows for video search, AI video editing, and screenplay extraction). The platform authenticates with sk-mavi- API keys, bills on a unified per-endpoint credit model, and is HIPAA, SOC 2 Type 2, and GDPR compliant. It is a Seedcamp portfolio company.'
+finops:
+- has_sources: true
+  method: derived
+  name: Memories Finops
+  primary_unit: 1,000 queries
+  service_category: ''
+  slug: memories-finops
+  template: false
 image: https://mintcdn.com/memories/xyhRN3OJaXxxzcxh/logo/logo.png
 layout: provider
 modified: '2026-10-06'
@@ -233,30 +240,33 @@ plans:
 - name: Memories Plans Pricing
   plan_count: 15
   slug: memories-plans-pricing
-random_paper: 7
+- name: Memories Price Estimates
+  plan_count: 0
+  slug: memories-price-estimates
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Memories Rate Limits
   slug: memories-rate-limits
 score:
-  band: developing
-  composite: 51.3
+  band: strong
+  composite: 57.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 61.0
+    artifact_dirs: 24
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 57.9
+    access_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 55.0
-    developer_ergonomics: 57.1
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 44.9
+    developer_ergonomics: 66.7
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -279,13 +289,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 20.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/screenshots/memories-2026-08-07T172506.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/memories/memories-2026-08-07T172506.png
 security:
 - kind: authentication
   name: Memories Authentication
@@ -299,6 +310,10 @@ security:
   name: Memories Trust Center
   slug: memories-trust-center
   summary_line: SOC 2, HIPAA, GDPR
+skill_count: 1
+skills:
+- name: Video Intelligence Platform
+  slug: memories-video-intelligence-platform
 slug: memories
 tags:
 - Company

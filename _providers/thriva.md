@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.3
-  scored_at: '2026-10-17'
+  score: 40.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -93,15 +96,12 @@ apis:
   description: The Users API API from Thriva — 3 operation(s) for users api.
   name: Thriva Users API
   slug: thriva-users-api-api
-artifact_total: 26
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Thriva Webhooks
   slug: thriva-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Platform API V1 Appointments API API
   slug: open-thriva-appointments-api-api
@@ -134,12 +134,12 @@ collections:
   slug: open-thriva-users-api-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/capabilities/thriva-capability-edges.yml
+  href: https://artifacts.apis.io/thriva/capabilities/thriva-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/thriva-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/overlays/thriva-platform-api-overlay.yaml
+  href: https://artifacts.apis.io/thriva/overlays/thriva-platform-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thriva-platform-api-overlay.yaml
@@ -184,87 +184,87 @@ common:
   type: PrivacyPolicy
   url: https://thriva.co/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/authentication/thriva-authentication.yml
+  href: https://artifacts.apis.io/thriva/authentication/thriva-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thriva-authentication.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/well-known/thriva-openid-configuration.json
+  href: https://artifacts.apis.io/thriva/well-known/thriva-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/thriva-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/conventions/thriva-conventions.yml
+  href: https://artifacts.apis.io/thriva/conventions/thriva-conventions.yml
   title: ''
   type: Conventions
   url: conventions/thriva-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/conformance/thriva-conformance.yml
+  href: https://artifacts.apis.io/thriva/conformance/thriva-conformance.yml
   title: ''
   type: Conformance
   url: conformance/thriva-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/errors/thriva-problem-types.yml
+  href: https://artifacts.apis.io/thriva/errors/thriva-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/thriva-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/lifecycle/thriva-lifecycle.yml
+  href: https://artifacts.apis.io/thriva/lifecycle/thriva-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/thriva-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/sandbox/thriva-sandbox.yml
+  href: https://artifacts.apis.io/thriva/sandbox/thriva-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/thriva-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/asyncapi/thriva-webhooks.yml
+  href: https://artifacts.apis.io/thriva/asyncapi/thriva-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/thriva-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/thriva/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/mcp/thriva-mcp.yml
+  href: https://artifacts.apis.io/thriva/mcp/thriva-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/thriva-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/llms/thriva-llms.txt
+  href: https://artifacts.apis.io/thriva/llms/thriva-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thriva-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/well-known/thriva-well-known.yml
+  href: https://artifacts.apis.io/thriva/well-known/thriva-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/thriva-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/packages/thriva-packages.yml
+  href: https://artifacts.apis.io/thriva/packages/thriva-packages.yml
   title: ''
   type: Packages
   url: packages/thriva-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/components/thriva-components.yml
+  href: https://artifacts.apis.io/thriva/components/thriva-components.yml
   title: ''
   type: Components
   url: components/thriva-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/data-model/thriva-data-model.yml
+  href: https://artifacts.apis.io/thriva/data-model/thriva-data-model.yml
   title: ''
   type: DataModel
   url: data-model/thriva-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/agentic-access/thriva-agentic-access.yml
+  href: https://artifacts.apis.io/thriva/agentic-access/thriva-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/thriva-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/security/thriva-domain-security.yml
+  href: https://artifacts.apis.io/thriva/security/thriva-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thriva-domain-security.yml
@@ -287,24 +287,24 @@ overview: 'Thriva publishes 10 API contracts indexed on the [APIs.io](https://ap
 
 
   Thriva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
-random_paper: 16
+random_paper: 6
 score:
   band: developing
-  composite: 40.1
+  composite: 45.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 42.4
     catalog_earned_first_party: 0.0
     catalog_gap: 72.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 54.5
-    developer_ergonomics: 47.0
-    discoverability: 73.2
+    developer_ergonomics: 66.1
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -314,7 +314,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 40.0
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -331,13 +331,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/screenshots/thriva-2026-08-17T082348.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/thriva/thriva-2026-08-17T082348.png
 security:
 - kind: authentication
   name: Thriva Authentication
@@ -347,6 +348,14 @@ security:
   name: Thriva Domain Security
   slug: thriva-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Bulk-order kits and register samples
+  slug: thriva-bulk-order-flow
+- name: Handle clinical escalations
+  slug: thriva-handle-clinical-escalations
+- name: Order an at-home test and retrieve results
+  slug: thriva-order-test-and-get-results
 slug: thriva
 tags:
 - Company

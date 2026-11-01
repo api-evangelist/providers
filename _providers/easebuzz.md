@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST payment gateway API to initiate transactions, verify transaction status, and process refunds across 150+ payment options (cards, UPI, net banking, wallets, EMI). Requests are authenticated with a
@@ -47,7 +49,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/security/easebuzz-domain-security.yml
+  href: https://artifacts.apis.io/easebuzz/security/easebuzz-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/easebuzz-domain-security.yml
@@ -104,27 +106,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/easebuzz
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/packages/easebuzz-packages.yml
+  href: https://artifacts.apis.io/easebuzz/packages/easebuzz-packages.yml
   title: ''
   type: Packages
   url: packages/easebuzz-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/packages/easebuzz-packages.yml
+  href: https://artifacts.apis.io/easebuzz/packages/easebuzz-packages.yml
   title: ''
   type: SDKs
   url: packages/easebuzz-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/authentication/easebuzz-authentication.yml
+  href: https://artifacts.apis.io/easebuzz/authentication/easebuzz-authentication.yml
   title: ''
   type: Authentication
   url: authentication/easebuzz-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/sandbox/easebuzz-sandbox.yml
+  href: https://artifacts.apis.io/easebuzz/sandbox/easebuzz-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/easebuzz-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/conformance/easebuzz-conformance.yml
+  href: https://artifacts.apis.io/easebuzz/conformance/easebuzz-conformance.yml
   title: ''
   type: Conformance
   url: conformance/easebuzz-conformance.yml
@@ -133,7 +135,7 @@ common:
   type: Compliance
   url: https://docs.easebuzz.in/docs/payment-gateway/i849ghebwytej-payment-gateway
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/llms/easebuzz-llms.txt
+  href: https://artifacts.apis.io/easebuzz/llms/easebuzz-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/easebuzz-llms.txt
@@ -149,12 +151,12 @@ overview: 'Easebuzz is listed with 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Easebuzz''s developer surface includes documentation, API reference, signup flow, support, engineering blog, pricing, authentication, and 14 more developer resources.'
-random_paper: 15
+random_paper: 9
 score:
   band: thin
-  composite: 34.4
+  composite: 34.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -166,8 +168,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -175,7 +177,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 34.4
+  previous_composite: 34.1
   provenance:
     conformance: first-party
   regulatory:
@@ -184,14 +186,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/screenshots/easebuzz-2026-07-25T212713.png
+screenshot: https://apis.io/screenshots/easebuzz/easebuzz-2026-07-25T212713.png
 security:
 - kind: authentication
   name: Easebuzz Authentication

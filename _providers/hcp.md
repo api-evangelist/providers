@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -82,11 +84,8 @@ apis:
   description: Secret synchronization
   name: HashiCorp Cloud Platform Sync API
   slug: hcp-sync-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: HCP Vault Secrets Apps API
   slug: open-hcp-apps-api
@@ -107,37 +106,37 @@ collections:
   slug: open-hcp
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/plans/hcp-plans-pricing.yml
+  href: https://artifacts.apis.io/hcp/plans/hcp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hcp-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/rate-limits/hcp-rate-limits.yml
+  href: https://artifacts.apis.io/hcp/rate-limits/hcp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hcp-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/finops/hcp-finops.yml
+  href: https://artifacts.apis.io/hcp/finops/hcp-finops.yml
   title: ''
   type: FinOps
   url: finops/hcp-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/capabilities/hcp-capability-edges.yml
+  href: https://artifacts.apis.io/hcp/capabilities/hcp-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hcp-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/agentic-access/hcp-agentic-access.yml
+  href: https://artifacts.apis.io/hcp/agentic-access/hcp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hcp-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/security/hcp-domain-security.yml
+  href: https://artifacts.apis.io/hcp/security/hcp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hcp-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/authentication/hcp-authentication.yml
+  href: https://artifacts.apis.io/hcp/authentication/hcp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hcp-authentication.yml
@@ -175,7 +174,7 @@ finops:
 - has_sources: true
   method: generated
   name: Hcp Finops
-  primary_unit: ''
+  primary_unit: managed-resource / cluster-hour
   service_category: Cloud / Managed Infrastructure Services
   slug: hcp-finops
   template: false
@@ -209,30 +208,30 @@ press:
 - date: ''
   title: Charter HCP Announces Direct Investment Focus on ...
   url: https://www.jacksonville.com/press-release/story/990353/charter-hcp-announces-direct-investment-focus-on-financial-services-and-ai-guardrail-startups/
-random_paper: 7
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Hcp Rate Limits
   slug: hcp-rate-limits
 score:
   band: thin
-  composite: 28.5
+  composite: 31.1
   coverage:
     artifact_dirs: 14
-    catalog_earned: 46.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 7.9
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 31.0
     discoverability: 71.4
-    operational_transparency: 26.3
-  previous_composite: 30.0
+    operational_transparency: 28.9
+  previous_composite: 29.5
   provenance:
     agentic_access: derived
     contracts:
@@ -246,13 +245,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/screenshots/hcp-2026-06-20T182554.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hcp/hcp-2026-06-20T182554.png
 security:
 - kind: authentication
   name: Hcp Authentication

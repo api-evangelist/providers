@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
+  score: 20.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,17 +52,14 @@ apis:
   description: The Hyperliquid API from Hyperbeat — 6 operation(s) for hyperliquid.
   name: Hyperbeat Hyperliquid API
   slug: hyperbeat-hyperliquid-api
-artifact_total: 6
+artifact_total: 8
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Hyperbeat Staking Hyperliquid API
   slug: open-hyperbeat-hyperliquid-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/overlays/hyperbeat-staking-overlay.yaml
+  href: https://artifacts.apis.io/hyperbeat/overlays/hyperbeat-staking-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hyperbeat-staking-overlay.yaml
@@ -105,67 +104,67 @@ common:
   type: Support
   url: https://discord.gg/hyperbeat
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/authentication/hyperbeat-authentication.yml
+  href: https://artifacts.apis.io/hyperbeat/authentication/hyperbeat-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hyperbeat-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/mcp/hyperbeat-mcp.yml
+  href: https://artifacts.apis.io/hyperbeat/mcp/hyperbeat-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hyperbeat-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/llms/hyperbeat-llms.txt
+  href: https://artifacts.apis.io/hyperbeat/llms/hyperbeat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hyperbeat-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/well-known/hyperbeat-well-known.yml
+  href: https://artifacts.apis.io/hyperbeat/well-known/hyperbeat-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hyperbeat-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/errors/hyperbeat-problem-types.yml
+  href: https://artifacts.apis.io/hyperbeat/errors/hyperbeat-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hyperbeat-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/conventions/hyperbeat-conventions.yml
+  href: https://artifacts.apis.io/hyperbeat/conventions/hyperbeat-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hyperbeat-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/conformance/hyperbeat-conformance.yml
+  href: https://artifacts.apis.io/hyperbeat/conformance/hyperbeat-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hyperbeat-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/lifecycle/hyperbeat-lifecycle.yml
+  href: https://artifacts.apis.io/hyperbeat/lifecycle/hyperbeat-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hyperbeat-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/sandbox/hyperbeat-sandbox.yml
+  href: https://artifacts.apis.io/hyperbeat/sandbox/hyperbeat-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hyperbeat-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/data-model/hyperbeat-data-model.yml
+  href: https://artifacts.apis.io/hyperbeat/data-model/hyperbeat-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hyperbeat-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/agentic-access/hyperbeat-agentic-access.yml
+  href: https://artifacts.apis.io/hyperbeat/agentic-access/hyperbeat-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hyperbeat-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hyperbeat/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/security/hyperbeat-domain-security.yml
+  href: https://artifacts.apis.io/hyperbeat/security/hyperbeat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hyperbeat-domain-security.yml
@@ -185,26 +184,26 @@ overview: 'Hyperbeat publishes 1 API contract indexed on the [APIs.io](https://a
 
 
   Hyperbeat''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 18
+random_paper: 4
 score:
   band: developing
-  composite: 41.4
+  composite: 41.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 49.6
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 41.3
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -221,13 +220,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/screenshots/hyperbeat-2026-07-25T221845.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hyperbeat/hyperbeat-2026-07-25T221845.png
 security:
 - kind: authentication
   name: Hyperbeat Authentication
@@ -237,6 +237,14 @@ security:
   name: Hyperbeat Domain Security
   slug: hyperbeat-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Stake HYPE via Hyperbeat
+  slug: hyperbeat-stake-hype
+- name: Read Hyperbeat staking position
+  slug: hyperbeat-staking-info
+- name: Unstake HYPE via Hyperbeat
+  slug: hyperbeat-unstake-hype
 slug: hyperbeat
 tags:
 - Company

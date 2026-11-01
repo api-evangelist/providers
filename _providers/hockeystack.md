@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Version 1 of the HockeyStack Revenue Agents API. Attaches AI agents to companies and deals from the connected CRM, holds conversations with those agents, manages the tasks they generate, and reads the
   name: HockeyStack Revenue Agents API
   slug: hockeystack-revenue-agents-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Hockeystack Webhooks
@@ -82,102 +84,102 @@ common:
   type: TrustCenter
   url: https://security.hockeystack.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/mcp/hockeystack-mcp.yml
+  href: https://artifacts.apis.io/hockeystack/mcp/hockeystack-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hockeystack-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/llms/hockeystack-llms.txt
+  href: https://artifacts.apis.io/hockeystack/llms/hockeystack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hockeystack-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/authentication/hockeystack-authentication.yml
+  href: https://artifacts.apis.io/hockeystack/authentication/hockeystack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hockeystack-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/scopes/hockeystack-scopes.yml
+  href: https://artifacts.apis.io/hockeystack/scopes/hockeystack-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hockeystack-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/security/hockeystack-domain-security.yml
+  href: https://artifacts.apis.io/hockeystack/security/hockeystack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hockeystack-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/conformance/hockeystack-conformance.yml
+  href: https://artifacts.apis.io/hockeystack/conformance/hockeystack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hockeystack-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/conventions/hockeystack-conventions.yml
+  href: https://artifacts.apis.io/hockeystack/conventions/hockeystack-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hockeystack-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/changelog/hockeystack-changelog.yml
+  href: https://artifacts.apis.io/hockeystack/changelog/hockeystack-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hockeystack-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/packages/hockeystack-packages.yml
+  href: https://artifacts.apis.io/hockeystack/packages/hockeystack-packages.yml
   title: ''
   type: Packages
   url: packages/hockeystack-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/packages/hockeystack-packages.yml
+  href: https://artifacts.apis.io/hockeystack/packages/hockeystack-packages.yml
   title: ''
   type: SDKs
   url: packages/hockeystack-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/mcp/hockeystack-tool-crosswalk.yml
+  href: https://artifacts.apis.io/hockeystack/mcp/hockeystack-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/hockeystack-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/data-model/hockeystack-data-model.yml
+  href: https://artifacts.apis.io/hockeystack/data-model/hockeystack-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hockeystack-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/errors/hockeystack-problem-types.yml
+  href: https://artifacts.apis.io/hockeystack/errors/hockeystack-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hockeystack-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/rate-limits/hockeystack-rate-limits.yml
+  href: https://artifacts.apis.io/hockeystack/rate-limits/hockeystack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hockeystack-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/plans/hockeystack-plans-pricing.yml
+  href: https://artifacts.apis.io/hockeystack/plans/hockeystack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hockeystack-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/lifecycle/hockeystack-lifecycle.yml
+  href: https://artifacts.apis.io/hockeystack/lifecycle/hockeystack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hockeystack-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/asyncapi/hockeystack-webhooks.yml
+  href: https://artifacts.apis.io/hockeystack/asyncapi/hockeystack-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hockeystack-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/components/hockeystack-components.yml
+  href: https://artifacts.apis.io/hockeystack/components/hockeystack-components.yml
   title: ''
   type: Components
   url: components/hockeystack-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/security/hockeystack-trust-center.yml
+  href: https://artifacts.apis.io/hockeystack/security/hockeystack-trust-center.yml
   title: ''
   type: Compliance
   url: security/hockeystack-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/llms/hockeystack-agents-llms.txt
+  href: https://artifacts.apis.io/hockeystack/llms/hockeystack-agents-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hockeystack-agents-llms.txt
@@ -196,6 +198,14 @@ common:
 created: '2026-07-17'
 description: 'HockeyStack is a B2B revenue and marketing data intelligence platform that unifies marketing, sales, and product data to reveal the full buyer journey from first anonymous (cookieless) touch to closed-won. It applies multiple attribution models, account and intent scoring, lift/incrementality analysis, and no-SQL custom dashboards, and deploys AI "Revenue Agents" (via its ATLAS data foundation and the hosted "Omni" MCP server) to forecast pipeline, brief accounts, and recommend next-best actions. Data flows bidirectionally through prebuilt connectors to CRMs (Salesforce, HubSpot), ad platforms (LinkedIn, Google, Facebook, TikTok), ABM tools, data warehouses (Snowflake, BigQuery), and CDPs (Segment). Its programmatic surface is two-part: the OAuth-secured hosted "Omni" MCP server, and the Revenue Agents REST API v1 (bearer token, 30 operations across agents, conversations, tasks and credits), which is wrapped by a first-party npm MCP server but has no published OpenAPI. Backed
   by Bessemer Venture Partners.'
+finops:
+- has_sources: true
+  method: derived
+  name: Hockeystack Finops
+  primary_unit: ''
+  service_category: ''
+  slug: hockeystack-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hockeystack.png
 layout: provider
 mcp_servers:
@@ -217,7 +227,7 @@ plans:
 - name: Hockeystack Plans Pricing
   plan_count: 0
   slug: hockeystack-plans-pricing
-random_paper: 11
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Hockeystack Rate Limits
@@ -229,9 +239,9 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 43.6
+  composite: 45.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -239,13 +249,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 52.6
+    access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 45.2
-    discoverability: 75.0
-    operational_transparency: 26.3
-  previous_composite: 43.6
+    discoverability: 65.0
+    operational_transparency: 28.9
+  previous_composite: 45.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -254,15 +264,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 39.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/screenshots/hockeystack-2026-07-25T221312.png
+screenshot: https://apis.io/screenshots/hockeystack/hockeystack-2026-07-25T221312.png
 security:
 - kind: authentication
   name: Hockeystack Authentication

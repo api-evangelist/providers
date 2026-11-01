@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -61,17 +63,17 @@ common:
   type: PrivacyPolicy
   url: https://www.moviepass.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moviepass/refs/heads/main/mcp/moviepass-mcp.yml
+  href: https://artifacts.apis.io/moviepass/mcp/moviepass-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/moviepass-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moviepass/refs/heads/main/llms/moviepass-llms.txt
+  href: https://artifacts.apis.io/moviepass/llms/moviepass-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moviepass-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moviepass/refs/heads/main/security/moviepass-domain-security.yml
+  href: https://artifacts.apis.io/moviepass/security/moviepass-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moviepass-domain-security.yml
@@ -80,7 +82,7 @@ description: 'MoviePass is a consumer movie-theater subscription service that le
 image: https://static.wixstatic.com/media/f5d875_a9c258a5531b44a58f56443581eb7a9b~mv2.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at www.moviepass.com over HTTP; 7 tools listed.
+- description: Remote MCP server at www.moviepass.com over HTTP; 10 tools listed.
   name: Moviepass MCP Server
   slug: moviepass
 modified: '2026-07-20'
@@ -91,10 +93,10 @@ overview: 'Moviepass is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Moviepass'' developer surface includes signup flow, pricing, support, and 6 more developer resources.'
-random_paper: 15
+random_paper: 23
 score:
   band: emerging
-  composite: 15.5
+  composite: 14.5
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -102,15 +104,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 58.3
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 15.4
+  previous_composite: 14.5
   provenance:
     mcp: platform-generated
   regulatory:
@@ -119,14 +121,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/moviepass/refs/heads/main/screenshots/moviepass-2026-08-07T184400.png
+screenshot: https://apis.io/screenshots/moviepass/moviepass-2026-08-07T184400.png
 security:
 - kind: domain-security
   name: Moviepass Domain Security

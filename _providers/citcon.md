@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,20 +37,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Citcon''s UPI is a REST/JSON payments API for accepting 100+ global payment methods. It uses Bearer access-token authentication and exposes charge, charge-confirm, capture, refund, cancel, transaction '
   name: Citcon Universal Payment Interface (UPI) API
   slug: citcon-universal-payment-interface-upi-api
-artifact_total: 4
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Citcon Upi Webhooks
   slug: citcon-upi-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/citcon/refs/heads/main/security/citcon-domain-security.yml
+  href: https://artifacts.apis.io/citcon/security/citcon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/citcon-domain-security.yml
@@ -105,67 +107,67 @@ common:
   type: Compliance
   url: https://www.citcon.com/resources/compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/citcon/refs/heads/main/authentication/citcon-authentication.yml
+  href: https://artifacts.apis.io/citcon/authentication/citcon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/citcon-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/citcon/refs/heads/main/conventions/citcon-conventions.yml
+  href: https://artifacts.apis.io/citcon/conventions/citcon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/citcon-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/citcon/refs/heads/main/conventions/citcon-conventions.yml
+  href: https://artifacts.apis.io/citcon/conventions/citcon-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/citcon-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/citcon/refs/heads/main/errors/citcon-problem-types.yml
+  href: https://artifacts.apis.io/citcon/errors/citcon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/citcon-problem-types.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/citcon/refs/heads/main/sandbox/citcon-sandbox.yml
+  href: https://artifacts.apis.io/citcon/sandbox/citcon-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/citcon-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/citcon/refs/heads/main/lifecycle/citcon-lifecycle.yml
+  href: https://artifacts.apis.io/citcon/lifecycle/citcon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/citcon-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/citcon/refs/heads/main/conformance/citcon-conformance.yml
+  href: https://artifacts.apis.io/citcon/conformance/citcon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/citcon-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/citcon/refs/heads/main/packages/citcon-packages.yml
+  href: https://artifacts.apis.io/citcon/packages/citcon-packages.yml
   title: ''
   type: Packages
   url: packages/citcon-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/citcon/refs/heads/main/packages/citcon-packages.yml
+  href: https://artifacts.apis.io/citcon/packages/citcon-packages.yml
   title: ''
   type: SDKs
   url: packages/citcon-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/citcon/refs/heads/main/mcp/citcon-mcp.yml
+  href: https://artifacts.apis.io/citcon/mcp/citcon-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/citcon-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/citcon/refs/heads/main/asyncapi/citcon-upi-webhooks.yml
+  href: https://artifacts.apis.io/citcon/asyncapi/citcon-upi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/citcon-upi-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/citcon/refs/heads/main/llms/citcon-llms.txt
+  href: https://artifacts.apis.io/citcon/llms/citcon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/citcon-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/citcon/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/citcon/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -184,12 +186,12 @@ overview: 'Citcon is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Citcon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 2
+random_paper: 16
 score:
   band: developing
-  composite: 47.9
+  composite: 47.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -201,8 +203,8 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 26.3
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -210,7 +212,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 47.9
+  previous_composite: 47.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -221,14 +223,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/citcon/refs/heads/main/screenshots/citcon-2026-07-25T205439.png
+screenshot: https://apis.io/screenshots/citcon/citcon-2026-07-25T205439.png
 security:
 - kind: authentication
   name: Citcon Authentication
@@ -238,6 +240,10 @@ security:
   name: Citcon Domain Security
   slug: citcon-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 1
+skills:
+- name: Charge and capture a payment with Citcon UPI
+  slug: citcon-charge-and-capture
 slug: citcon
 tags:
 - Company

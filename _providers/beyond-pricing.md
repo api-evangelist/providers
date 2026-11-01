@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
-    openapi_examples: partial
+    mcp_server: documented
+    openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.5
-  scored_at: '2026-10-17'
+  score: 47.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -84,15 +86,17 @@ apis:
   description: The OAuth2 API from Beyond Pricing — 1 operation(s) for oauth2.
   name: Beyond Pricing O Auth2 API
   slug: beyond-pricing-oauth2-api
-artifact_total: 22
+- baseURL: https://developers.beyondpricing.com/api/v1
+  baseurl_source: declared
+  description: The Reservations API from Beyond Pricing — 1 operation(s) for reservations.
+  name: Beyond Pricing Reservations API
+  slug: beyond-pricing-reservations-api
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Beyond Pricing Webhooks
   slug: beyond-pricing-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Beyond Pricing Public Accounts API
   slug: open-beyond-pricing-accounts-api
@@ -115,18 +119,23 @@ collections:
   name: Beyond Pricing Public Accounts Users API
   slug: open-beyond-pricing-users-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/beyond-pricing/plans/beyond-pricing-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/beyond-pricing-plans-pricing.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/_original/beyond-pricing-openapi-original.yml
+  href: https://artifacts.apis.io/beyond-pricing/openapi/_original/beyond-pricing-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/beyond-pricing-openapi-original.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/conventions/beyond-pricing-conventions.yml
+  href: https://artifacts.apis.io/beyond-pricing/conventions/beyond-pricing-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/beyond-pricing-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/mcp/beyond-pricing-mcp.yml
+  href: https://artifacts.apis.io/beyond-pricing/mcp/beyond-pricing-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/beyond-pricing-mcp.yml
@@ -139,47 +148,47 @@ common:
   type: BlogRSS
   url: https://beyondpricing.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/capabilities/beyond-pricing-capability-edges.yml
+  href: https://artifacts.apis.io/beyond-pricing/capabilities/beyond-pricing-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/beyond-pricing-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/agentic-access/beyond-pricing-agentic-access.yml
+  href: https://artifacts.apis.io/beyond-pricing/agentic-access/beyond-pricing-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/beyond-pricing-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/well-known/beyond-pricing-well-known.yml
+  href: https://artifacts.apis.io/beyond-pricing/well-known/beyond-pricing-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/beyond-pricing-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/mcp/beyond-pricing-mcp.yml
+  href: https://artifacts.apis.io/beyond-pricing/mcp/beyond-pricing-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/beyond-pricing-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/llms/beyond-pricing-llms.txt
+  href: https://artifacts.apis.io/beyond-pricing/llms/beyond-pricing-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beyond-pricing-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/overlays/beyond-pricing-openapi-overlay.yaml
+  href: https://artifacts.apis.io/beyond-pricing/overlays/beyond-pricing-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/beyond-pricing-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/conformance/beyond-pricing-conformance.yml
+  href: https://artifacts.apis.io/beyond-pricing/conformance/beyond-pricing-conformance.yml
   title: ''
   type: Conformance
   url: conformance/beyond-pricing-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/errors/beyond-pricing-problem-types.yml
+  href: https://artifacts.apis.io/beyond-pricing/errors/beyond-pricing-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/beyond-pricing-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/lifecycle/beyond-pricing-lifecycle.yml
+  href: https://artifacts.apis.io/beyond-pricing/lifecycle/beyond-pricing-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/beyond-pricing-lifecycle.yml
@@ -188,42 +197,42 @@ common:
   type: Deprecation
   url: https://developers.beyondpricing.com/guides/versioning/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/conventions/beyond-pricing-conventions.yml
+  href: https://artifacts.apis.io/beyond-pricing/conventions/beyond-pricing-conventions.yml
   title: ''
   type: Conventions
   url: conventions/beyond-pricing-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/data-model/beyond-pricing-data-model.yml
+  href: https://artifacts.apis.io/beyond-pricing/data-model/beyond-pricing-data-model.yml
   title: ''
   type: DataModel
   url: data-model/beyond-pricing-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/asyncapi/beyond-pricing-webhooks.yml
+  href: https://artifacts.apis.io/beyond-pricing/asyncapi/beyond-pricing-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/beyond-pricing-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/beyond-pricing/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/changelog/beyond-pricing-changelog.yml
+  href: https://artifacts.apis.io/beyond-pricing/changelog/beyond-pricing-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/beyond-pricing-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/security/beyond-pricing-domain-security.yml
+  href: https://artifacts.apis.io/beyond-pricing/security/beyond-pricing-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beyond-pricing-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/scopes/beyond-pricing-scopes.yml
+  href: https://artifacts.apis.io/beyond-pricing/scopes/beyond-pricing-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/beyond-pricing-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/authentication/beyond-pricing-authentication.yml
+  href: https://artifacts.apis.io/beyond-pricing/authentication/beyond-pricing-authentication.yml
   title: ''
   type: Authentication
   url: authentication/beyond-pricing-authentication.yml
@@ -282,6 +291,14 @@ common:
 created: '2026-07-17'
 description: 'Beyond (formerly Beyond Pricing) is a revenue management platform for short-term and vacation rental businesses. Its dynamic pricing engine automatically adjusts nightly rates against real-time market demand across Airbnb, Vrbo, Booking.com and dozens of property management systems, and the platform adds market insights, direct-booking sites (Signal), payment processing (Tally), an AI pricing assistant (Neyoba) and owner reporting. The Beyond Partners API is a Bearer-protected, JSON:API (v1.1) REST API for third-party integrations: partners authenticate with OAuth2 client credentials on a confidential client (optionally narrowed to a single user or credential), while individual users automate their own accounts with personal access tokens (bpat_...). The API exposes listings, pricing calendars, listing customizations, competitive sets, recommendations, managed channel accounts, users, and market insights, with signed Standard Webhooks for real-time events, transparent rate-limit
   headers, URL-path versioning and a published deprecation policy.'
+finops:
+- has_sources: true
+  method: derived
+  name: Beyond Pricing Finops
+  primary_unit: bookings
+  service_category: ''
+  slug: beyond-pricing-finops
+  template: false
 image: https://www.beyondpricing.com/favicon.ico
 layout: provider
 mcp_servers:
@@ -292,38 +309,45 @@ modified: '2026-10-06'
 name: Beyond Pricing
 nav: Providers
 network: true
-overview: 'Beyond Pricing publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Compsets API, Customizations API, and 5 more. Tagged areas include Company, Short-Term Rental, Vacation Rentals, Revenue Management, and Dynamic Pricing.
+overview: 'Beyond Pricing publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Compsets API, Customizations API, and 6 more. Tagged areas include Company, Short-Term Rental, Vacation Rentals, Revenue Management, and Dynamic Pricing.
 
 
   The Beyond Pricing catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Beyond Pricing''s developer surface includes engineering blog, changelog, authentication, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
-random_paper: 4
+  Beyond Pricing''s developer surface includes engineering blog, changelog, authentication, documentation, API reference, getting-started guide, support, and 30 more developer resources.'
+plans:
+- name: Beyond Pricing Plans Pricing
+  plan_count: 10
+  slug: beyond-pricing-plans-pricing
+- name: Beyond Pricing Price Estimates
+  plan_count: 0
+  slug: beyond-pricing-price-estimates
+random_paper: 18
 scopes:
 - name: Beyond Pricing Scopes
   scope_count: 9
   slug: beyond-pricing-scopes
   summary_line: 9 scopes · clientCredentials
 score:
-  band: developing
-  composite: 46.6
+  band: strong
+  composite: 56.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 38.2
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 52.0
+    contract_quality: 55.8
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 65.0
     operational_transparency: 31.6
-  previous_composite: 46.5
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -331,7 +355,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 17
     mcp: derived
     skills: derived
   regulatory:
@@ -340,13 +364,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/screenshots/beyond-pricing-2026-07-25T202840.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/beyond-pricing/beyond-pricing-2026-07-25T202840.png
 security:
 - kind: authentication
   name: Beyond Pricing Authentication
@@ -356,6 +381,12 @@ security:
   name: Beyond Pricing Domain Security
   slug: beyond-pricing-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Onboard a Beyond user and connect a managed account
+  slug: beyond-pricing-onboard-managed-account
+- name: Tune a listing's dynamic pricing
+  slug: beyond-pricing-tune-listing-pricing
 slug: beyond-pricing
 tags:
 - Company

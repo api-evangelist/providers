@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: A single GraphQL endpoint exposing the Accord data model — accords, stages, steps, stakeholders, playbooks, resources, summaries, engagement and CRM sync objects. The public reference documents 461 qu
@@ -32,10 +34,10 @@ apis:
 - description: Hosted, remote Model Context Protocol server that wraps the Accord Developer API and exposes its read surface to any MCP client (Claude, Claude Code, Cursor, Gemini CLI, ChatGPT). Streamable HTTP tran
   name: Accord MCP Server
   slug: accord-mcp-server
-artifact_total: 10
+artifact_total: 14
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/security/accordacff-domain-security.yml
+  href: https://artifacts.apis.io/accordacff/security/accordacff-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/accordacff-domain-security.yml
@@ -92,87 +94,95 @@ common:
   type: GitHubOrganization
   url: https://github.com/inaccord
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/authentication/accordacff-authentication.yml
+  href: https://artifacts.apis.io/accordacff/authentication/accordacff-authentication.yml
   title: ''
   type: Authentication
   url: authentication/accordacff-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/scopes/accordacff-scopes.yml
+  href: https://artifacts.apis.io/accordacff/scopes/accordacff-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/accordacff-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/conventions/accordacff-conventions.yml
+  href: https://artifacts.apis.io/accordacff/conventions/accordacff-conventions.yml
   title: ''
   type: Conventions
   url: conventions/accordacff-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/errors/accordacff-error-codes.yml
+  href: https://artifacts.apis.io/accordacff/errors/accordacff-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/accordacff-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/data-model/accordacff-data-model.yml
+  href: https://artifacts.apis.io/accordacff/data-model/accordacff-data-model.yml
   title: ''
   type: DataModel
   url: data-model/accordacff-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/conformance/accordacff-conformance.yml
+  href: https://artifacts.apis.io/accordacff/conformance/accordacff-conformance.yml
   title: ''
   type: Conformance
   url: conformance/accordacff-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/security/accordacff-trust-center.yml
+  href: https://artifacts.apis.io/accordacff/security/accordacff-trust-center.yml
   title: ''
   type: Compliance
   url: security/accordacff-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/security/accordacff-trust-center.yml
+  href: https://artifacts.apis.io/accordacff/security/accordacff-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/accordacff-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/lifecycle/accordacff-lifecycle.yml
+  href: https://artifacts.apis.io/accordacff/lifecycle/accordacff-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/accordacff-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/plans/accordacff-plans-pricing.yml
+  href: https://artifacts.apis.io/accordacff/plans/accordacff-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/accordacff-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/rate-limits/accordacff-rate-limits.yml
+  href: https://artifacts.apis.io/accordacff/rate-limits/accordacff-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/accordacff-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/well-known/accordacff-well-known.yml
+  href: https://artifacts.apis.io/accordacff/well-known/accordacff-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/accordacff-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/mcp/accordacff-mcp.yml
+  href: https://artifacts.apis.io/accordacff/mcp/accordacff-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/accordacff-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/accordacff/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/llms/accordacff-llms.txt
+  href: https://artifacts.apis.io/accordacff/llms/accordacff-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/accordacff-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/graphql/accordacff-graphql-operations.yml
+  href: https://artifacts.apis.io/accordacff/graphql/accordacff-graphql-operations.yml
   title: ''
   type: GraphQL
   url: graphql/accordacff-graphql-operations.yml
 created: '2026-09-06'
 description: Accord is a San Francisco-based revenue excellence platform for B2B sales, onboarding and customer success teams, founded in 2020 by Ross Rich and Ryan Rich. It turns a company's winning sales process into enforceable playbooks, mutual action plans and shared buyer workspaces, with stakeholder mapping, deal reviews, execution scoring and bi-directional CRM sync. Its developer surface is a single GraphQL endpoint at api2.inaccord.com/graphql covering 20+ objects (Accords, Stages, Steps, Contacts, Members, Resources, Summaries, Engagements) behind a workspace-scoped bearer API key, plus a hosted, OAuth 2.1 + PKCE Model Context Protocol server at api.inaccord.com that exposes the same read surface to MCP clients such as Claude, Cursor and ChatGPT.
+finops:
+- has_sources: true
+  method: derived
+  name: Accordacff Finops
+  primary_unit: user
+  service_category: ''
+  slug: accordacff-finops
+  template: false
 image: https://cdn.prod.website-files.com/68d3df3714cf3a122c1640dd/6916517cbf54f093700a336d_Home%20Page_OG-min.png
 layout: provider
 mcp_servers:
@@ -191,7 +201,10 @@ plans:
 - name: Accordacff Plans Pricing
   plan_count: 3
   slug: accordacff-plans-pricing
-random_paper: 8
+- name: Accordacff Price Estimates
+  plan_count: 0
+  slug: accordacff-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Accordacff Rate Limits
@@ -203,22 +216,22 @@ scopes:
   summary_line: 2 scopes · authorization_code/refresh_token
 score:
   band: developing
-  composite: 43.2
+  composite: 44.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 49.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 58.9
-    discoverability: 68.3
-    operational_transparency: 2.6
+    discoverability: 65.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -226,7 +239,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 43.1
+  previous_composite: 43.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -237,14 +250,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/accordacff/refs/heads/main/screenshots/accordacff-2026-10-11T092521.png
+screenshot: https://apis.io/screenshots/accordacff/accordacff-2026-10-11T092521.png
 security:
 - kind: authentication
   name: Accordacff Authentication
@@ -262,6 +275,12 @@ security:
   name: Accordacff Trust Center
   slug: accordacff-trust-center
   summary_line: SOC 2 Type II, SSO Authentication, GCP Secure
+skill_count: 2
+skills:
+- name: accordacff-build-accord
+  slug: accordacff-build-accord
+- name: accordacff-load-accord
+  slug: accordacff-load-accord
 slug: accordacff
 tags:
 - Sales Enablement

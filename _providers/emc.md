@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The ECS Management REST API provides programmatic access to manage Dell EMC Elastic Cloud Storage (ECS) object storage platform. It supports namespace management, user management, storage pool configu
@@ -54,12 +56,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/dell-technologies/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/security/emc-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/emc/security/emc-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/emc-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/security/emc-domain-security.yml
+  href: https://artifacts.apis.io/emc/security/emc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/emc-domain-security.yml
@@ -84,107 +86,107 @@ common:
   type: DeveloperPortal
   url: https://developer.dell.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/packages/emc-packages.yml
+  href: https://artifacts.apis.io/emc/packages/emc-packages.yml
   title: ''
   type: Packages
   url: packages/emc-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/packages/emc-packages.yml
+  href: https://artifacts.apis.io/emc/packages/emc-packages.yml
   title: ''
   type: SDKs
   url: packages/emc-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/well-known/emc-well-known.yml
+  href: https://artifacts.apis.io/emc/well-known/emc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/emc-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/well-known/emc-security.txt
+  href: https://artifacts.apis.io/emc/well-known/emc-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/emc-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/security/emc-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/emc/security/emc-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/emc-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/security/emc-trust-center.yml
+  href: https://artifacts.apis.io/emc/security/emc-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/emc-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/conformance/emc-conformance.yml
+  href: https://artifacts.apis.io/emc/conformance/emc-conformance.yml
   title: ''
   type: Compliance
   url: conformance/emc-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/conformance/emc-conformance.yml
+  href: https://artifacts.apis.io/emc/conformance/emc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/emc-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/errors/emc-error-codes.yml
+  href: https://artifacts.apis.io/emc/errors/emc-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/emc-error-codes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/authentication/emc-authentication.yml
+  href: https://artifacts.apis.io/emc/authentication/emc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/emc-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/conventions/emc-conventions.yml
+  href: https://artifacts.apis.io/emc/conventions/emc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/emc-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/data-model/emc-data-model.yml
+  href: https://artifacts.apis.io/emc/data-model/emc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/emc-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/lifecycle/emc-lifecycle.yml
+  href: https://artifacts.apis.io/emc/lifecycle/emc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/emc-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/changelog/emc-changelog.yml
+  href: https://artifacts.apis.io/emc/changelog/emc-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/emc-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/mcp/emc-mcp.yml
+  href: https://artifacts.apis.io/emc/mcp/emc-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/emc-mcp.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/sandbox/emc-sandbox.yml
+  href: https://artifacts.apis.io/emc/sandbox/emc-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/emc-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/llms/emc-llms.txt
+  href: https://artifacts.apis.io/emc/llms/emc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/emc-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/vocabulary/emc-vocabulary.yml
+  href: https://artifacts.apis.io/emc/vocabulary/emc-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/emc-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/rate-limits/emc-rate-limits.yml
+  href: https://artifacts.apis.io/emc/rate-limits/emc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/emc-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/plans/emc-plans-pricing.yml
+  href: https://artifacts.apis.io/emc/plans/emc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/emc-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/finops/emc-finops.yml
+  href: https://artifacts.apis.io/emc/finops/emc-finops.yml
   title: ''
   type: FinOps
   url: finops/emc-finops.yml
@@ -231,7 +233,7 @@ finops:
 - has_sources: false
   method: generated
   name: Emc Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: emc-finops
   template: true
@@ -273,14 +275,14 @@ press:
 - date: ''
   title: Comparative Study of AI Methods for EMC Prediction in ...
   url: https://www.mdpi.com/2079-9292/15/1/165
-random_paper: 1
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Emc Rate Limits
   slug: emc-rate-limits
 score:
-  band: thin
-  composite: 30.4
+  band: developing
+  composite: 39.5
   coverage:
     artifact_dirs: 22
     catalog_earned: 41.5
@@ -288,15 +290,15 @@ score:
     catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 50.0
     contract_governance: 31.8
     contract_quality: 0.0
-    developer_ergonomics: 52.4
-    discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 31.9
+    developer_ergonomics: 59.5
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 39.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -305,15 +307,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/screenshots/emc-2026-06-20T180631.png
+screenshot: https://apis.io/screenshots/emc/emc-2026-06-20T180631.png
 security:
 - kind: authentication
   name: Emc Authentication

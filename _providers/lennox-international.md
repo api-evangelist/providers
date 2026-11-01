@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Community-maintained, reverse-engineered Python library for communicating with Lennox S30, S40, E30, and M30 climate controls via the Lennox cloud or local LAN. Powers the popular Home Assistant integ
@@ -47,23 +49,37 @@ apis:
   slug: lennox-icomfort-smart-home-integrations
 artifact_total: 7
 common:
+- group: other
+  href: https://artifacts.apis.io/lennox-international/hosts/lennox-international-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/lennox-international-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/lennox-international/integrations/lennox-international-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/lennox-international-integration-edges.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.lennox.com/residential/media-room/news/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lennox-international/refs/heads/main/plans/lennox-international-plans-pricing.yml
+  href: https://artifacts.apis.io/lennox-international/plans/lennox-international-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lennox-international-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lennox-international/refs/heads/main/rate-limits/lennox-international-rate-limits.yml
+  href: https://artifacts.apis.io/lennox-international/rate-limits/lennox-international-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lennox-international-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lennox-international/refs/heads/main/finops/lennox-international-finops.yml
+  href: https://artifacts.apis.io/lennox-international/finops/lennox-international-finops.yml
   title: ''
   type: FinOps
   url: finops/lennox-international-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lennox-international/refs/heads/main/security/lennox-international-domain-security.yml
+  href: https://artifacts.apis.io/lennox-international/security/lennox-international-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lennox-international-domain-security.yml
@@ -87,13 +103,37 @@ common:
   title: ''
   type: Support
   url: https://www.support.lennoxicomfort.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.lennox.com/commercial/blog
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.lennox.com/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.lennox.com/terms-and-conditions
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.lennox.com/residential/owners/register-and-review/
+coverage:
+  checked: '2026-10-20'
+  detail: Lennox publishes no developer portal or API contract; api.lennox.com, api.lennoxpros.com and api.lennoxicomfort.com returned no OpenAPI/GraphQL/MCP surface, and iComfort access exists only through partner smart-home integrations and community reverse-engineered libraries.
+  evidence:
+  - status: 200
+    url: https://www.lennox.com/
+  reason: no-developer-program
+  state: none
 created: '2026-03-24'
 description: Lennox International is a global leader in the heating, air conditioning, and refrigeration markets, providing climate control solutions for residential and commercial applications. Lennox does not publish a general developer portal for HVAC system access. Smart-home integrations with the iComfort S30, E30, and M30 thermostat product lines are delivered through partnerships (Control4, Amazon Alexa, Apple HomeKit, Google Assistant, IFTTT) and through community-maintained, reverse-engineered Python and TypeScript libraries.
 finops:
 - has_sources: false
   method: generated
   name: Lennox International Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: lennox-international-finops
   template: true
@@ -106,7 +146,7 @@ network: true
 overview: 'Lennox International is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include HVAC, Smart Home, Thermostat, IoT, and Climate Control.
 
 
-  Lennox International''s developer surface includes support and 8 more developer resources.'
+  Lennox International''s developer surface includes support, engineering blog, signup flow, and 13 more developer resources.'
 plans:
 - name: Lennox International Plans Pricing
   plan_count: 3
@@ -127,44 +167,44 @@ press:
 - date: ''
   title: Lennox International Inc. Profile
   url: https://www.bccresearch.com/company-index/profile/lennox-international-inc?srsltid=AfmBOorRBARnkkRZj2UsZOk6uoXXDrepIdMjx4-APHTr8IL-wATR43Ah
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Lennox International Rate Limits
   slug: lennox-international-rate-limits
 score:
   band: emerging
-  composite: 11.0
+  composite: 19.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 13
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 14.3
-    discoverability: 62.5
+    developer_ergonomics: 16.7
+    discoverability: 64.3
     operational_transparency: 13.2
-  previous_composite: 12.5
+  previous_composite: 19.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 13.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lennox-international/refs/heads/main/screenshots/lennox-international-2026-06-20T184421.png
+screenshot: https://apis.io/screenshots/lennox-international/lennox-international-2026-06-20T184421.png
 security:
 - kind: domain-security
   name: Lennox International Domain Security

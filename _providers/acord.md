@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-17'
+  score: 31.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Underwriting and risk assessment
   name: ACORD Underwriting API
   slug: acord-underwriting-api
-artifact_total: 85
+artifact_total: 84
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ACORD Next-Generation Digital Standards (NGDS) Claims API
   slug: open-acord-claims-api
@@ -92,32 +91,32 @@ collections:
   slug: open-acord-underwriting-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/finops/acord-finops.yml
+  href: https://artifacts.apis.io/acord/finops/acord-finops.yml
   title: ''
   type: FinOps
   url: finops/acord-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/capabilities/acord-capability-edges.yml
+  href: https://artifacts.apis.io/acord/capabilities/acord-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/acord-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/agentic-access/acord-agentic-access.yml
+  href: https://artifacts.apis.io/acord/agentic-access/acord-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/acord-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/security/acord-domain-security.yml
+  href: https://artifacts.apis.io/acord/security/acord-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/acord-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/authentication/acord-authentication.yml
+  href: https://artifacts.apis.io/acord/authentication/acord-authentication.yml
   title: ''
   type: Authentication
   url: authentication/acord-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/scopes/acord-scopes.yml
+  href: https://artifacts.apis.io/acord/scopes/acord-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/acord-scopes.yml
@@ -170,27 +169,27 @@ common:
   type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/vocabulary/acord-vocabulary.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/llms/acord-llms.txt
+  href: https://artifacts.apis.io/acord/llms/acord-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/acord-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/conformance/acord-conformance.yml
+  href: https://artifacts.apis.io/acord/conformance/acord-conformance.yml
   title: ''
   type: Conformance
   url: conformance/acord-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/conformance/acord-conformance.yml
+  href: https://artifacts.apis.io/acord/conformance/acord-conformance.yml
   title: ''
   type: Compliance
   url: conformance/acord-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/lifecycle/acord-lifecycle.yml
+  href: https://artifacts.apis.io/acord/lifecycle/acord-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/acord-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/lifecycle/acord-lifecycle.yml
+  href: https://artifacts.apis.io/acord/lifecycle/acord-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/acord-lifecycle.yml
@@ -199,27 +198,27 @@ common:
   type: StatusPage
   url: https://status.acordsolutions.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/changelog/acord-changelog.yml
+  href: https://artifacts.apis.io/acord/changelog/acord-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/acord-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/conventions/acord-conventions.yml
+  href: https://artifacts.apis.io/acord/conventions/acord-conventions.yml
   title: ''
   type: Conventions
   url: conventions/acord-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/packages/acord-packages.yml
+  href: https://artifacts.apis.io/acord/packages/acord-packages.yml
   title: ''
   type: Packages
   url: packages/acord-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/plans/acord-plans-pricing.yml
+  href: https://artifacts.apis.io/acord/plans/acord-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/acord-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/rate-limits/acord-rate-limits.yml
+  href: https://artifacts.apis.io/acord/rate-limits/acord-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/acord-rate-limits.yml
@@ -327,12 +326,12 @@ features:
   name: Reference Architecture
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Acord Finops
   primary_unit: ''
-  service_category: Insurance Standards / Data Exchange
+  service_category: ''
   slug: acord-finops
-  template: false
+  template: true
 image: /assets/icons/acord.png
 integrations:
 - description: Integration with policy administration systems (PAS) and claims management systems (CMS).
@@ -466,7 +465,7 @@ plans:
 - name: Acord Plans Pricing
   plan_count: 1
   slug: acord-plans-pricing
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Acord Rate Limits
@@ -502,7 +501,7 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 50.2
+  composite: 51.5
   coverage:
     artifact_dirs: 28
     catalog_earned: 72.0
@@ -510,15 +509,15 @@ score:
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 67.1
+    access_clarity: 73.7
     contract_governance: 27.3
     contract_quality: 27.9
     developer_ergonomics: 57.1
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 39.5
-  previous_composite: 51.7
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -534,13 +533,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/screenshots/acord-2026-08-17T121359.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/acord/acord-2026-08-17T121359.png
 security:
 - kind: authentication
   name: Acord Authentication

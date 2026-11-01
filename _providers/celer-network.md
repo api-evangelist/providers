@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,20 +26,22 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
+  score: 4.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Public gRPC-Web / REST gateway (sgn.gateway.v1.Web) for the cBridge cross-chain bridge: chain and token discovery, transfer fee estimation, transfer status, transfer history, and signed liquidity with'
   name: cBridge Gateway API
   slug: cbridge-gateway-api
-artifact_total: 4
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -70,67 +72,67 @@ common:
   type: Support
   url: https://discord.com/invite/Trhab5w
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/grpc/celer-network-gateway.proto
+  href: https://artifacts.apis.io/celer-network/grpc/celer-network-gateway.proto
   title: ''
   type: Protobuf
   url: grpc/celer-network-gateway.proto
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/packages/celer-network-packages.yml
+  href: https://artifacts.apis.io/celer-network/packages/celer-network-packages.yml
   title: ''
   type: Packages
   url: packages/celer-network-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/packages/celer-network-packages.yml
+  href: https://artifacts.apis.io/celer-network/packages/celer-network-packages.yml
   title: ''
   type: SDKs
   url: packages/celer-network-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/mcp/celer-network-mcp.yml
+  href: https://artifacts.apis.io/celer-network/mcp/celer-network-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/celer-network-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/llms/celer-network-llms.txt
+  href: https://artifacts.apis.io/celer-network/llms/celer-network-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/celer-network-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/errors/celer-network-problem-types.yml
+  href: https://artifacts.apis.io/celer-network/errors/celer-network-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/celer-network-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/conventions/celer-network-conventions.yml
+  href: https://artifacts.apis.io/celer-network/conventions/celer-network-conventions.yml
   title: ''
   type: Conventions
   url: conventions/celer-network-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/authentication/celer-network-authentication.yml
+  href: https://artifacts.apis.io/celer-network/authentication/celer-network-authentication.yml
   title: ''
   type: Authentication
   url: authentication/celer-network-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/conformance/celer-network-conformance.yml
+  href: https://artifacts.apis.io/celer-network/conformance/celer-network-conformance.yml
   title: ''
   type: Conformance
   url: conformance/celer-network-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/lifecycle/celer-network-lifecycle.yml
+  href: https://artifacts.apis.io/celer-network/lifecycle/celer-network-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/celer-network-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/data-model/celer-network-data-model.yml
+  href: https://artifacts.apis.io/celer-network/data-model/celer-network-data-model.yml
   title: ''
   type: DataModel
   url: data-model/celer-network-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/security/celer-network-domain-security.yml
+  href: https://artifacts.apis.io/celer-network/security/celer-network-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/celer-network-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/security/celer-network-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/celer-network/security/celer-network-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/celer-network-vulnerability-disclosure.yml
@@ -139,7 +141,7 @@ common:
   type: Security
   url: https://immunefi.com/bounty/celer/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/celer-network/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -155,10 +157,10 @@ overview: 'Celer Network is listed with 1 API on the [APIs.io](https://apis.io/)
 
 
   Celer Network''s developer surface includes documentation, API reference, support, authentication, and 18 more developer resources.'
-random_paper: 4
+random_paper: 2
 score:
-  band: thin
-  composite: 27.0
+  band: emerging
+  composite: 20.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -170,11 +172,11 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 24.0
+    contract_quality: 0.0
     developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 27.0
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 20.7
   provenance:
     conformance: derived
     mcp: derived
@@ -185,14 +187,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/screenshots/celer-network-2026-07-25T204846.png
+screenshot: https://apis.io/screenshots/celer-network/celer-network-2026-07-25T204846.png
 security:
 - kind: authentication
   name: Celer Network Authentication
@@ -206,6 +208,10 @@ security:
   name: Celer Network Vulnerability Disclosure
   slug: celer-network-vulnerability-disclosure
   summary_line: contact published
+skill_count: 1
+skills:
+- name: Estimate and track a cBridge cross-chain transfer
+  slug: celer-network-cross-chain-transfer
 slug: celer-network
 tags:
 - Company

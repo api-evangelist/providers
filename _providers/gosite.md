@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The GoSite developer API, marketed at developers.gosite.com in two families — Business Growth APIs (online presence, listings, lead generation) and Business Management APIs (scheduling, invoicing, pay
@@ -89,32 +91,32 @@ common:
   type: PrivacyPolicy
   url: https://www.gosite.com/privacy-policy
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gosite/refs/heads/main/plans/gosite-plans-pricing.yml
+  href: https://artifacts.apis.io/gosite/plans/gosite-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gosite-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gosite/refs/heads/main/rate-limits/gosite-rate-limits.yml
+  href: https://artifacts.apis.io/gosite/rate-limits/gosite-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gosite-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gosite/refs/heads/main/authentication/gosite-authentication.yml
+  href: https://artifacts.apis.io/gosite/authentication/gosite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gosite-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gosite/refs/heads/main/security/gosite-domain-security.yml
+  href: https://artifacts.apis.io/gosite/security/gosite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gosite-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gosite/refs/heads/main/lifecycle/gosite-lifecycle.yml
+  href: https://artifacts.apis.io/gosite/lifecycle/gosite-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gosite-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gosite/refs/heads/main/llms/gosite-llms.txt
+  href: https://artifacts.apis.io/gosite/llms/gosite-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gosite-llms.txt
@@ -149,14 +151,14 @@ plans:
 - name: Gosite Plans Pricing
   plan_count: 2
   slug: gosite-plans-pricing
-random_paper: 13
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Gosite Rate Limits
   slug: gosite-rate-limits
 score:
   band: thin
-  composite: 28.2
+  composite: 29.5
   coverage:
     artifact_dirs: 11
     catalog_earned: 45.0
@@ -166,27 +168,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 59.2
+    access_clarity: 65.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 50.0
     discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 28.2
+  previous_composite: 29.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/gosite/refs/heads/main/screenshots/gosite-2026-09-02T145626.png
+screenshot: https://apis.io/screenshots/gosite/gosite-2026-09-02T145626.png
 security:
 - kind: authentication
   name: Gosite Authentication
@@ -213,6 +215,6 @@ tags:
 - Contact Management
 - Local SEO
 - Home Services
-- Field Service
+- Field Service Management
 website: https://www.gosite.com/
 ---

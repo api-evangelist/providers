@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,27 +38,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/three-uk/refs/heads/main/security/three-uk-domain-security.yml
+  href: https://artifacts.apis.io/three-uk/security/three-uk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/three-uk-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/three-uk/refs/heads/main/well-known/three-uk-well-known.yml
+  href: https://artifacts.apis.io/three-uk/well-known/three-uk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/three-uk-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/three-uk/refs/heads/main/conformance/three-uk-conformance.yml
+  href: https://artifacts.apis.io/three-uk/conformance/three-uk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/three-uk-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/three-uk/refs/heads/main/lifecycle/three-uk-lifecycle.yml
+  href: https://artifacts.apis.io/three-uk/lifecycle/three-uk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/three-uk-lifecycle.yml
@@ -65,12 +67,12 @@ common:
   type: StatusPage
   url: https://www.three.co.uk/support/network-and-coverage/affected-areas
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/three-uk/refs/heads/main/packages/three-uk-packages.yml
+  href: https://artifacts.apis.io/three-uk/packages/three-uk-packages.yml
   title: ''
   type: Packages
   url: packages/three-uk-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/three-uk/refs/heads/main/llms/three-uk-llms.txt
+  href: https://artifacts.apis.io/three-uk/llms/three-uk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/three-uk-llms.txt
@@ -153,7 +155,7 @@ score:
   band: emerging
   composite: 19.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -184,14 +186,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/three-uk/refs/heads/main/screenshots/three-uk-2026-09-02T163620.png
+screenshot: https://apis.io/screenshots/three-uk/three-uk-2026-09-02T163620.png
 security:
 - kind: domain-security
   name: Three Uk Domain Security

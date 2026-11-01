@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'The core API gateway behind the Redaptive ONE platform, serving the account, portfolio and building-insights surfaces of the ONE web application. Access is OAuth 2.0 protected: every path returns 401 '
@@ -49,7 +51,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redaptive/refs/heads/main/security/redaptive-domain-security.yml
+  href: https://artifacts.apis.io/redaptive/security/redaptive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/redaptive-domain-security.yml
@@ -82,27 +84,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/redaptiveinc
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/redaptive/refs/heads/main/llms/redaptive-llms.txt
+  href: https://artifacts.apis.io/redaptive/llms/redaptive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/redaptive-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/redaptive/refs/heads/main/well-known/redaptive-well-known.yml
+  href: https://artifacts.apis.io/redaptive/well-known/redaptive-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/redaptive-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redaptive/refs/heads/main/authentication/redaptive-authentication.yml
+  href: https://artifacts.apis.io/redaptive/authentication/redaptive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/redaptive-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redaptive/refs/heads/main/conformance/redaptive-conformance.yml
+  href: https://artifacts.apis.io/redaptive/conformance/redaptive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/redaptive-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redaptive/refs/heads/main/lifecycle/redaptive-lifecycle.yml
+  href: https://artifacts.apis.io/redaptive/lifecycle/redaptive-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/redaptive-lifecycle.yml
@@ -132,10 +134,10 @@ overview: 'Redaptive is listed with 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Redaptive''s developer surface includes engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 18
+random_paper: 4
 score:
   band: emerging
-  composite: 19.2
+  composite: 20.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 40.0
@@ -143,15 +145,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 78.6
-    operational_transparency: 2.6
-  previous_composite: 19.1
+    discoverability: 71.4
+    operational_transparency: 5.3
+  previous_composite: 20.1
   provenance:
     conformance: derived
   regulatory:
@@ -160,14 +162,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/redaptive/refs/heads/main/screenshots/redaptive-2026-09-02T153129.png
+screenshot: https://apis.io/screenshots/redaptive/redaptive-2026-09-02T153129.png
 security:
 - kind: authentication
   name: Redaptive Authentication

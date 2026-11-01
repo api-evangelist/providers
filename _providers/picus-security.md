@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.8
-  scored_at: '2026-10-17'
+  score: 26.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 84
   slug: picus-security-agentic-access
   summary_line: 84 operations · 24 acting
-api_count: 16
+api_count: 15
 apis:
 - baseURL: https://api.picussecurity.com/
   baseurl_source: declared
@@ -115,11 +117,8 @@ apis:
   description: The Users API from Picus Security — 5 operation(s) for users.
   name: Picus Security Users API
   slug: picus-security-users-api
-artifact_total: 35
+artifact_total: 41
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Picus Customer Activity Logs API
   slug: open-picus-security-activity-logs-api
@@ -172,37 +171,37 @@ common:
   type: BlogRSS
   url: https://www.picussecurity.com/resource/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/capabilities/picus-security-capability-edges.yml
+  href: https://artifacts.apis.io/picus-security/capabilities/picus-security-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/picus-security-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/mcp/picus-security-mcp.yml
+  href: https://artifacts.apis.io/picus-security/mcp/picus-security-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/picus-security-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/overlays/picus-security-activity-logs-overlay.yaml
+  href: https://artifacts.apis.io/picus-security/overlays/picus-security-activity-logs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/picus-security-activity-logs-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/agentic-access/picus-security-agentic-access.yml
+  href: https://artifacts.apis.io/picus-security/agentic-access/picus-security-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/picus-security-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/security/picus-security-trust-center.yml
+  href: https://artifacts.apis.io/picus-security/security/picus-security-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/picus-security-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/security/picus-security-domain-security.yml
+  href: https://artifacts.apis.io/picus-security/security/picus-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/picus-security-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/authentication/picus-security-authentication.yml
+  href: https://artifacts.apis.io/picus-security/authentication/picus-security-authentication.yml
   title: ''
   type: Authentication
   url: authentication/picus-security-authentication.yml
@@ -271,7 +270,7 @@ common:
   type: LLMsTxt
   url: https://apidocs.picussecurity.com/llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/lifecycle/picus-security-lifecycle.yml
+  href: https://artifacts.apis.io/picus-security/lifecycle/picus-security-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/picus-security-lifecycle.yml
@@ -280,52 +279,52 @@ common:
   type: Deprecation
   url: https://apidocs.picussecurity.com/docs/versioning
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/changelog/picus-security-changelog.yml
+  href: https://artifacts.apis.io/picus-security/changelog/picus-security-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/picus-security-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/conventions/picus-security-conventions.yml
+  href: https://artifacts.apis.io/picus-security/conventions/picus-security-conventions.yml
   title: ''
   type: Conventions
   url: conventions/picus-security-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/rate-limits/picus-security-rate-limits.yml
+  href: https://artifacts.apis.io/picus-security/rate-limits/picus-security-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/picus-security-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/errors/picus-security-problem-types.yml
+  href: https://artifacts.apis.io/picus-security/errors/picus-security-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/picus-security-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/conformance/picus-security-conformance.yml
+  href: https://artifacts.apis.io/picus-security/conformance/picus-security-conformance.yml
   title: ''
   type: Conformance
   url: conformance/picus-security-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/data-model/picus-security-data-model.yml
+  href: https://artifacts.apis.io/picus-security/data-model/picus-security-data-model.yml
   title: ''
   type: DataModel
   url: data-model/picus-security-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/packages/picus-security-packages.yml
+  href: https://artifacts.apis.io/picus-security/packages/picus-security-packages.yml
   title: ''
   type: Packages
   url: packages/picus-security-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/security/picus-security-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/picus-security/security/picus-security-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/picus-security-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/picus-security/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/llms/picus-security-llms.txt
+  href: https://artifacts.apis.io/picus-security/llms/picus-security-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/picus-security-llms.txt
@@ -341,14 +340,14 @@ overview: 'Picus Security publishes 14 API contracts indexed on the [APIs.io](ht
 
 
   Picus Security''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, signup flow, and 30 more developer resources.'
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Picus Security Rate Limits
   slug: picus-security-rate-limits
 score:
-  band: developing
-  composite: 49.4
+  band: strong
+  composite: 55.8
   coverage:
     artifact_dirs: 23
     catalog_earned: 48.0
@@ -356,15 +355,15 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 49.1
-    developer_ergonomics: 35.1
+    contract_quality: 46.9
+    developer_ergonomics: 58.9
     discoverability: 78.6
-    operational_transparency: 59.2
-  previous_composite: 49.3
+    operational_transparency: 71.1
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -381,13 +380,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/screenshots/picus-security-2026-08-17T081225.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/picus-security/picus-security-2026-08-17T081225.png
 security:
 - kind: authentication
   name: Picus Security Authentication
@@ -405,6 +405,22 @@ security:
   name: Picus Security Trust Center
   slug: picus-security-trust-center
   summary_line: ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 22301, ISO/IEC 20000-1, SOC 2 Type 2, CSA STAR Level One
+skill_count: 7
+skills:
+- name: Authenticate to the Picus Customer API
+  slug: picus-security-authenticate
+- name: Author a custom threat in the Picus threat library
+  slug: picus-security-author-a-custom-threat
+- name: Author custom detection content for a SIEM or EDR
+  slug: picus-security-author-detection-content
+- name: Close prevention gaps with vendor mitigation signatures
+  slug: picus-security-close-mitigation-gaps
+- name: Generate and download a simulation result report
+  slug: picus-security-generate-a-report
+- name: Read simulation results with ATT&CK and detection evidence
+  slug: picus-security-read-simulation-results
+- name: Create and run a security validation simulation
+  slug: picus-security-run-a-simulation
 slug: picus-security
 tags:
 - Cybersecurity

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Heartland Express API provides access to platform services and data for enterprise integration and automation.
@@ -42,17 +44,17 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/heartland-express/refs/heads/main/plans/heartland-express-plans-pricing.yml
+  href: https://artifacts.apis.io/heartland-express/plans/heartland-express-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/heartland-express-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/heartland-express/refs/heads/main/rate-limits/heartland-express-rate-limits.yml
+  href: https://artifacts.apis.io/heartland-express/rate-limits/heartland-express-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/heartland-express-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/heartland-express/refs/heads/main/finops/heartland-express-finops.yml
+  href: https://artifacts.apis.io/heartland-express/finops/heartland-express-finops.yml
   title: ''
   type: FinOps
   url: finops/heartland-express-finops.yml
@@ -61,7 +63,7 @@ common:
   type: Blog
   url: https://www.heartlandexpress.com/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/heartland-express/refs/heads/main/security/heartland-express-domain-security.yml
+  href: https://artifacts.apis.io/heartland-express/security/heartland-express-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/heartland-express-domain-security.yml
@@ -79,7 +81,7 @@ finops:
 - has_sources: true
   method: generated
   name: Heartland Express Finops
-  primary_unit: ''
+  primary_unit: partner-agreement
   service_category: Transportation / Logistics Carrier Partner API
   slug: heartland-express-finops
   template: false
@@ -97,44 +99,44 @@ plans:
 - name: Heartland Express Plans Pricing
   plan_count: 1
   slug: heartland-express-plans-pricing
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Heartland Express Rate Limits
   slug: heartland-express-rate-limits
 score:
   band: minimal
-  composite: 8.5
+  composite: 10.0
   coverage:
     artifact_dirs: 7
-    catalog_earned: 36.0
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 1.5
   facets:
-    access_clarity: 5.3
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 9.5
+  previous_composite: 8.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/heartland-express/refs/heads/main/screenshots/heartland-express-2026-06-20T182606.png
+screenshot: https://apis.io/screenshots/heartland-express/heartland-express-2026-06-20T182606.png
 security:
 - kind: domain-security
   name: Heartland Express Domain Security

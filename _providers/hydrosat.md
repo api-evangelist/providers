@@ -26,15 +26,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 24.1
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://stac.hydrosat.com
   baseurl_source: declared
@@ -64,9 +66,6 @@ apis:
 artifact_total: 13
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Hydrosat STAC Catalog API
   slug: open-hydrosat-catalog-api
 - collection_type: open
@@ -83,12 +82,12 @@ collections:
   slug: open-hydrosat-search-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/mcp/hydrosat-mcp.yml
+  href: https://artifacts.apis.io/hydrosat/mcp/hydrosat-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hydrosat-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/overlays/hydrosat-stac-overlay.yaml
+  href: https://artifacts.apis.io/hydrosat/overlays/hydrosat-stac-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hydrosat-stac-overlay.yaml
@@ -109,17 +108,17 @@ common:
   type: GettingStarted
   url: https://satdocs.hydrosat.com/stac-api-how-to-guides
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/authentication/hydrosat-authentication.yml
+  href: https://artifacts.apis.io/hydrosat/authentication/hydrosat-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hydrosat-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/llms/hydrosat-llms.txt
+  href: https://artifacts.apis.io/hydrosat/llms/hydrosat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hydrosat-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/lifecycle/hydrosat-lifecycle.yml
+  href: https://artifacts.apis.io/hydrosat/lifecycle/hydrosat-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hydrosat-lifecycle.yml
@@ -128,12 +127,12 @@ common:
   type: StatusPage
   url: https://status.hydrosat.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/changelog/hydrosat-changelog.yml
+  href: https://artifacts.apis.io/hydrosat/changelog/hydrosat-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hydrosat-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hydrosat/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -158,7 +157,7 @@ common:
   type: PrivacyPolicy
   url: https://hydrosat.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/security/hydrosat-domain-security.yml
+  href: https://artifacts.apis.io/hydrosat/security/hydrosat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hydrosat-domain-security.yml
@@ -178,10 +177,10 @@ overview: 'Hydrosat publishes 5 API contracts indexed on the [APIs.io](https://a
 
 
   Hydrosat''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 12 more developer resources.'
-random_paper: 20
+random_paper: 14
 score:
-  band: thin
-  composite: 38.3
+  band: developing
+  composite: 39.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -189,15 +188,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 44.0
-    developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 38.2
+    contract_quality: 41.3
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 39.6
   provenance:
     conformance: derived
     contracts:
@@ -213,14 +212,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/screenshots/hydrosat-2026-07-25T221835.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hydrosat/hydrosat-2026-07-25T221835.png
 security:
 - kind: authentication
   name: Hydrosat Authentication
@@ -230,6 +229,10 @@ security:
   name: Hydrosat Domain Security
   slug: hydrosat-domain-security
   summary_line: TLSv1.2 · DMARC
+skill_count: 1
+skills:
+- name: Search Hydrosat STAC imagery
+  slug: hydrosat-search-imagery
 slug: hydrosat
 tags:
 - Company

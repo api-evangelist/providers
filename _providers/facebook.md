@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-17'
+  score: 28.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -150,7 +152,7 @@ apis:
   description: The Users API from Facebook — 4 operation(s) for users.
   name: Facebook Users API
   slug: facebook-users-api
-artifact_total: 179
+artifact_total: 178
 collections:
 - collection_type: postman
   name: Facebook Graph Ad Accounts API
@@ -216,9 +218,6 @@ collections:
   name: Facebook Graph Ad Accounts Users API
   slug: postman-facebook-users-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Facebook Graph Ad Accounts API
   slug: open-facebook-ad-accounts-api
 - collection_type: open
@@ -283,12 +282,12 @@ collections:
   slug: open-facebook-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/plans/facebook-plans-pricing.yml
+  href: https://artifacts.apis.io/facebook/plans/facebook-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/facebook-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/finops/facebook-finops.yml
+  href: https://artifacts.apis.io/facebook/finops/facebook-finops.yml
   title: ''
   type: FinOps
   url: finops/facebook-finops.yml
@@ -301,22 +300,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/facebook/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/agentic-access/facebook-agentic-access.yml
+  href: https://artifacts.apis.io/facebook/agentic-access/facebook-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/facebook-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/security/facebook-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/facebook/security/facebook-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/facebook-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/security/facebook-domain-security.yml
+  href: https://artifacts.apis.io/facebook/security/facebook-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/facebook-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/authentication/facebook-authentication.yml
+  href: https://artifacts.apis.io/facebook/authentication/facebook-authentication.yml
   title: ''
   type: Authentication
   url: authentication/facebook-authentication.yml
@@ -373,12 +372,12 @@ common:
   type: ErrorCodes
   url: https://developers.facebook.com/docs/graph-api/guides/error-handling
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/rules/facebook-spectral-rules.yml
+  href: https://artifacts.apis.io/facebook/rules/facebook-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/facebook-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/vocabulary/facebook-vocabulary.yaml
+  href: https://artifacts.apis.io/facebook/vocabulary/facebook-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/facebook-vocabulary.yaml
@@ -459,7 +458,7 @@ finops:
 - has_sources: true
   method: generated
   name: Facebook Finops
-  primary_unit: ''
+  primary_unit: varies (impression, conversation, ad-spend USD)
   service_category: Advertising / Social Media
   slug: facebook-finops
   template: false
@@ -726,7 +725,7 @@ press:
 - date: ''
   title: 'Introducing the Meta AI App: A New Way to Access Your AI ...'
   url: https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant/
-random_paper: 12
+random_paper: 10
 rate_limits:
 - limit_count: 12
   name: Facebook Rate Limits
@@ -757,23 +756,23 @@ rules:
   slug: facebook-spectral-rules
 score:
   band: developing
-  composite: 39.8
+  composite: 45.8
   coverage:
     artifact_dirs: 22
-    catalog_earned: 66.0
+    catalog_earned: 69.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 28.9
+    access_clarity: 36.8
     contract_governance: 27.3
     contract_quality: 21.9
     developer_ergonomics: 58.3
     discoverability: 85.7
-    operational_transparency: 26.3
-  previous_composite: 41.3
+    operational_transparency: 55.3
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     contracts:
@@ -787,13 +786,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/screenshots/facebook-2026-07-25T214133.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/facebook/facebook-2026-07-25T214133.png
 security:
 - kind: authentication
   name: Facebook Authentication

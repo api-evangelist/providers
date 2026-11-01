@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://evidence.dev
@@ -51,22 +53,19 @@ apis:
   description: The managed hosting and deployment platform for Evidence projects. Adds a managed query engine, multi-level caching, row-level security, scheduled data syncs, a browser-based IDE, and AI authoring ass
   name: Evidence Cloud
   slug: evidence-cloud
-artifact_total: 10
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Evidence (Framework - not a REST API)
   slug: open-evidence-dev
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/security/evidence-dev-trust-center.yml
+  href: https://artifacts.apis.io/evidence-dev/security/evidence-dev-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/evidence-dev-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/security/evidence-dev-domain-security.yml
+  href: https://artifacts.apis.io/evidence-dev/security/evidence-dev-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/evidence-dev-domain-security.yml
@@ -87,17 +86,17 @@ common:
   type: Documentation
   url: https://docs.evidence.dev/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/plans/evidence-dev-plans-pricing.yml
+  href: https://artifacts.apis.io/evidence-dev/plans/evidence-dev-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/evidence-dev-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/rate-limits/evidence-dev-rate-limits.yml
+  href: https://artifacts.apis.io/evidence-dev/rate-limits/evidence-dev-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/evidence-dev-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/finops/evidence-dev-finops.yml
+  href: https://artifacts.apis.io/evidence-dev/finops/evidence-dev-finops.yml
   title: ''
   type: FinOps
   url: finops/evidence-dev-finops.yml
@@ -129,14 +128,14 @@ plans:
 - name: Evidence Dev Plans Pricing
   plan_count: 5
   slug: evidence-dev-plans-pricing
-random_paper: 11
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Evidence Dev Rate Limits
   slug: evidence-dev-rate-limits
 score:
   band: emerging
-  composite: 19.7
+  composite: 21.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 38.0
@@ -144,29 +143,29 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 25.1
+    contract_quality: 32.1
     developer_ergonomics: 19.0
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 27.9
+    operational_transparency: 13.2
+  previous_composite: 21.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/screenshots/evidence-dev-2026-06-20T180912.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/evidence-dev/evidence-dev-2026-06-20T180912.png
 security:
 - kind: domain-security
   name: Evidence Dev Domain Security

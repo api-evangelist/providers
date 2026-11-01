@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The CKAN Action API exposes the full Data.gov catalog programmatically. It provides read access to packages (datasets), resources (file/URL distributions), organizations (publishers — federal agencies
@@ -62,7 +64,7 @@ common:
   type: SecurityPolicy
   url: https://github.com/GSA/catalog.data.gov/blob/main/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/data-gov/refs/heads/main/security/data-gov-domain-security.yml
+  href: https://artifacts.apis.io/data-gov/security/data-gov-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/data-gov-domain-security.yml
@@ -134,12 +136,12 @@ overview: 'Data.gov is listed with 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Data.gov''s developer surface includes GitHub presence, developer portal, documentation, engineering blog, privacy policy, and 13 more developer resources.'
-random_paper: 17
+random_paper: 19
 score:
   band: emerging
-  composite: 19.3
+  composite: 20.1
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 40.4
     catalog_earned_first_party: 0.0
     catalog_gap: 74.6
@@ -150,24 +152,24 @@ score:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 7.2
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 62.5
-    operational_transparency: 13.2
-  previous_composite: 19.3
+    operational_transparency: 15.8
+  previous_composite: 20.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/data-gov/refs/heads/main/screenshots/data-gov-2026-06-20T175527.png
+screenshot: https://apis.io/screenshots/data-gov/data-gov-2026-06-20T175527.png
 security:
 - kind: domain-security
   name: Data Gov Domain Security

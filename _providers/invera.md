@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.6
-  scored_at: '2026-10-17'
+  score: 3.5
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -65,7 +67,7 @@ common:
   type: YouTube
   url: https://www.youtube.com/@invera_io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/invera/refs/heads/main/security/invera-domain-security.yml
+  href: https://artifacts.apis.io/invera/security/invera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/invera-domain-security.yml
@@ -85,12 +87,12 @@ overview: 'Invera is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Invera''s developer surface includes support, YouTube channel, and 6 more developer resources.'
-random_paper: 7
+random_paper: 21
 score:
   band: minimal
   composite: 4.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -102,8 +104,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 51.7
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -120,14 +122,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 5.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/invera/refs/heads/main/screenshots/invera-2026-07-25T222738.png
+screenshot: https://apis.io/screenshots/invera/invera-2026-07-25T222738.png
 security:
 - kind: domain-security
   name: Invera Domain Security

@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.1
-  scored_at: '2026-10-17'
+  score: 51.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -117,15 +119,12 @@ apis:
     question: How do I get notified at my own endpoint when something happens in Cogny?
   phrasing_ops: 1
   slug: cogny-webhooks-api
-artifact_total: 19
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Cogny Webhooks
   slug: cogny-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cogny Reports API
   slug: open-cogny-reports-api
@@ -140,12 +139,12 @@ collections:
   slug: open-cogny-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/plans/cogny-plans-pricing.yml
+  href: https://artifacts.apis.io/cogny/plans/cogny-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cogny-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/rate-limits/cogny-rate-limits.yml
+  href: https://artifacts.apis.io/cogny/rate-limits/cogny-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cogny-rate-limits.yml
@@ -154,7 +153,7 @@ common:
   type: Pricing
   url: https://cogny.com/pricing
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/capabilities/cogny-capability-edges.yml
+  href: https://artifacts.apis.io/cogny/capabilities/cogny-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cogny-capability-edges.yml
@@ -207,142 +206,150 @@ common:
   type: PrivacyPolicy
   url: https://cogny.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/llms/cogny-llms.txt
+  href: https://artifacts.apis.io/cogny/llms/cogny-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cogny-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/well-known/cogny-well-known.yml
+  href: https://artifacts.apis.io/cogny/well-known/cogny-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cogny-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/mcp/cogny-mcp.yml
+  href: https://artifacts.apis.io/cogny/mcp/cogny-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cogny-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/mcp/cogny-tool-crosswalk.yml
+  href: https://artifacts.apis.io/cogny/mcp/cogny-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cogny-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/packages/cogny-packages.yml
+  href: https://artifacts.apis.io/cogny/packages/cogny-packages.yml
   title: ''
   type: Packages
   url: packages/cogny-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/packages/cogny-packages.yml
+  href: https://artifacts.apis.io/cogny/packages/cogny-packages.yml
   title: ''
   type: SDKs
   url: packages/cogny-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/cli/cogny-cli.yml
+  href: https://artifacts.apis.io/cogny/cli/cogny-cli.yml
   title: ''
   type: CLI
   url: cli/cogny-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/authentication/cogny-authentication.yml
+  href: https://artifacts.apis.io/cogny/authentication/cogny-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cogny-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/scopes/cogny-scopes.yml
+  href: https://artifacts.apis.io/cogny/scopes/cogny-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cogny-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/conventions/cogny-conventions.yml
+  href: https://artifacts.apis.io/cogny/conventions/cogny-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cogny-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/errors/cogny-error-codes.yml
+  href: https://artifacts.apis.io/cogny/errors/cogny-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/cogny-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/lifecycle/cogny-lifecycle.yml
+  href: https://artifacts.apis.io/cogny/lifecycle/cogny-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cogny-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/conformance/cogny-conformance.yml
+  href: https://artifacts.apis.io/cogny/conformance/cogny-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cogny-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/asyncapi/cogny-webhooks.yml
+  href: https://artifacts.apis.io/cogny/asyncapi/cogny-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cogny-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/data-model/cogny-data-model.yml
+  href: https://artifacts.apis.io/cogny/data-model/cogny-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cogny-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/sandbox/cogny-sandbox.yml
+  href: https://artifacts.apis.io/cogny/sandbox/cogny-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cogny-sandbox.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/overlays/cogny-overlay.yaml
+  href: https://artifacts.apis.io/cogny/overlays/cogny-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cogny-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cogny/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/skills/cogny-published-skills.yml
+  href: https://artifacts.apis.io/cogny/skills/cogny-published-skills.yml
   title: ''
   type: AgentSkill
   url: skills/cogny-published-skills.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/agentic-access/cogny-agentic-access.yml
+  href: https://artifacts.apis.io/cogny/agentic-access/cogny-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cogny-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/security/cogny-domain-security.yml
+  href: https://artifacts.apis.io/cogny/security/cogny-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cogny-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/plans/cogny-plans-pricing.yml
+  href: https://artifacts.apis.io/cogny/plans/cogny-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cogny-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/rate-limits/cogny-rate-limits.yml
+  href: https://artifacts.apis.io/cogny/rate-limits/cogny-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cogny-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/security/cogny-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cogny/security/cogny-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cogny-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/security/cogny-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cogny/security/cogny-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/cogny-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/security/cogny-trust-center.yml
+  href: https://artifacts.apis.io/cogny/security/cogny-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cogny-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/security/cogny-trust-center.yml
+  href: https://artifacts.apis.io/cogny/security/cogny-trust-center.yml
   title: ''
   type: Compliance
   url: security/cogny-trust-center.yml
 created: '2026-07-17'
 description: 'Cogny is a Stockholm-based AI marketing platform (Cogny AB) that runs marketing analytics and automation on autopilot for marketers and data teams. It connects ad accounts and data warehouses (Google BigQuery, Google Ads, Meta Ads, LinkedIn, GA4, Search Console, TikTok, X, Mailchimp and more) to any MCP-capable coding agent, exposing ~50 Model Context Protocol tools plus a REST API for AI-generated growth reports (with SSE streaming) and growth tickets. Cogny is deeply agent-native: a one-command install manifest (SKILL.md), an auth.md registration handshake that issues anonymous cogny_lite_* API keys with no browser bounce, an @cogny/cli, a public library of 53 first-party Agent Skills, and machine-readable llms.txt and .well-known discovery surfaces.'
+finops:
+- has_sources: true
+  method: derived
+  name: Cogny Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: cogny-finops
+  template: false
 image: https://app.cogny.com/logo512.png
 layout: provider
 mcp_servers:
@@ -362,8 +369,11 @@ overview: 'Cogny publishes 4 API contracts indexed on the [APIs.io](https://apis
   Cogny''s developer surface includes pricing, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 36 more developer resources.'
 plans:
 - name: Cogny Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: cogny-plans-pricing
+- name: Cogny Price Estimates
+  plan_count: 0
+  slug: cogny-price-estimates
 random_paper: 16
 rate_limits:
 - limit_count: 4
@@ -376,22 +386,22 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.8
+  composite: 71.4
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 61.0
+    artifact_dirs: 28
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 55.6
     developer_ergonomics: 85.7
-    discoverability: 75.0
-    operational_transparency: 52.6
+    discoverability: 65.0
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -400,7 +410,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 69.7
+  previous_composite: 69.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -417,13 +427,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/screenshots/cogny-2026-07-25T210014.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cogny/cogny-2026-07-25T210014.png
 security:
 - kind: authentication
   name: Cogny Authentication
@@ -441,6 +452,14 @@ security:
   name: Cogny Trust Center
   slug: cogny-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: cogny
+  slug: cogny-SKILL
+- name: Generate and stream a growth report
+  slug: cogny-create-and-stream-report
+- name: Triage growth tickets
+  slug: cogny-triage-growth-tickets
 slug: cogny
 tags:
 - Company

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.0
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -107,7 +109,7 @@ apis:
 artifact_total: 32
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/capabilities/ucla-capability-edges.yml
+  href: https://artifacts.apis.io/ucla/capabilities/ucla-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ucla-capability-edges.yml
@@ -192,87 +194,87 @@ common:
   type: AITooling
   url: https://dts.ucla.edu/initiatives/ai/guiding-principles-responsible-use
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/_original/ucla-sis-dictionary-openapi.yml
+  href: https://artifacts.apis.io/ucla/openapi/_original/ucla-sis-dictionary-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/ucla-sis-dictionary-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/json-schema/ucla-sis-dictionary-schemas.json
+  href: https://artifacts.apis.io/ucla/json-schema/ucla-sis-dictionary-schemas.json
   title: ''
   type: JSONSchema
   url: json-schema/ucla-sis-dictionary-schemas.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/examples/index.yml
+  href: https://artifacts.apis.io/ucla/examples/index.yml
   title: ''
   type: Examples
   url: examples/index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/rules/ucla-rules.yml
+  href: https://artifacts.apis.io/ucla/rules/ucla-rules.yml
   title: ''
   type: Rules
   url: rules/ucla-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/vocabulary/ucla-vocabulary.yml
+  href: https://artifacts.apis.io/ucla/vocabulary/ucla-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ucla-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/json-ld/ucla-context.jsonld
+  href: https://artifacts.apis.io/ucla/json-ld/ucla-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/ucla-context.jsonld
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/authentication/ucla-authentication.yml
+  href: https://artifacts.apis.io/ucla/authentication/ucla-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ucla-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/scopes/ucla-scopes.yml
+  href: https://artifacts.apis.io/ucla/scopes/ucla-scopes.yml
   title: ''
   type: Scopes
   url: scopes/ucla-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/errors/ucla-errors.yml
+  href: https://artifacts.apis.io/ucla/errors/ucla-errors.yml
   title: ''
   type: Errors
   url: errors/ucla-errors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/conformance/ucla-conformance.yml
+  href: https://artifacts.apis.io/ucla/conformance/ucla-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ucla-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/lifecycle/ucla-lifecycle.yml
+  href: https://artifacts.apis.io/ucla/lifecycle/ucla-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ucla-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/agentic-access/ucla-agentic-access.yml
+  href: https://artifacts.apis.io/ucla/agentic-access/ucla-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ucla-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/security/ucla-domain-security.yml
+  href: https://artifacts.apis.io/ucla/security/ucla-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ucla-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/plans/ucla-plans-pricing.yml
+  href: https://artifacts.apis.io/ucla/plans/ucla-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ucla-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/rate-limits/ucla-rate-limits.yml
+  href: https://artifacts.apis.io/ucla/rate-limits/ucla-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ucla-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/finops/ucla-finops.yml
+  href: https://artifacts.apis.io/ucla/finops/ucla-finops.yml
   title: ''
   type: FinOps
   url: finops/ucla-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/ucla/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -420,7 +422,7 @@ plans:
 - name: Ucla Plans Pricing
   plan_count: 2
   slug: ucla-plans-pricing
-random_paper: 3
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Ucla Rate Limits
@@ -444,7 +446,7 @@ scopes:
   summary_line: 2 scopes
 score:
   band: developing
-  composite: 41.8
+  composite: 42.8
   coverage:
     artifact_dirs: 22
     catalog_earned: 62.3
@@ -452,14 +454,14 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 3.8
     contract_quality: 58.2
     developer_ergonomics: 45.2
     discoverability: 71.4
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -467,7 +469,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 47.9
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -482,13 +484,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/screenshots/ucla-2026-06-20T195941.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ucla/ucla-2026-06-20T195941.png
 security:
 - kind: authentication
   name: Ucla Authentication

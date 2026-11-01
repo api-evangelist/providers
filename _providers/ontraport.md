@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.9
-  scored_at: '2026-10-17'
+  score: 50.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -59,15 +61,12 @@ apis:
 - description: Ontraport's first-party, hosted, remote MCP server. A streamable-HTTP endpoint an agent POSTs to directly at https://mcp.ontraport.com — there is no package to install and no local stdio process. It i
   name: Ontraport MCP Server
   slug: mcp
-artifact_total: 18
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Ontraport Webhooks
   slug: ontraport-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ontraport REST Metadata API
   slug: open-ontraport-metadata-api
@@ -79,82 +78,82 @@ collections:
   slug: open-ontraport
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/agentic-access/ontraport-agentic-access.yml
+  href: https://artifacts.apis.io/ontraport/agentic-access/ontraport-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ontraport-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/mcp/ontraport-mcp.yml
+  href: https://artifacts.apis.io/ontraport/mcp/ontraport-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ontraport-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/mcp/ontraport-tool-crosswalk.yml
+  href: https://artifacts.apis.io/ontraport/mcp/ontraport-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ontraport-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/well-known/ontraport-well-known.yml
+  href: https://artifacts.apis.io/ontraport/well-known/ontraport-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ontraport-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/scopes/ontraport-scopes.yml
+  href: https://artifacts.apis.io/ontraport/scopes/ontraport-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ontraport-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/packages/ontraport-packages.yml
+  href: https://artifacts.apis.io/ontraport/packages/ontraport-packages.yml
   title: ''
   type: Packages
   url: packages/ontraport-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/packages/ontraport-packages.yml
+  href: https://artifacts.apis.io/ontraport/packages/ontraport-packages.yml
   title: ''
   type: SDKs
   url: packages/ontraport-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/llms/ontraport-llms.txt
+  href: https://artifacts.apis.io/ontraport/llms/ontraport-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ontraport-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ontraport/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/conventions/ontraport-conventions.yml
+  href: https://artifacts.apis.io/ontraport/conventions/ontraport-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ontraport-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/conventions/ontraport-conventions.yml
+  href: https://artifacts.apis.io/ontraport/conventions/ontraport-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ontraport-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/errors/ontraport-problem-types.yml
+  href: https://artifacts.apis.io/ontraport/errors/ontraport-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ontraport-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/rate-limits/ontraport-rate-limits.yml
+  href: https://artifacts.apis.io/ontraport/rate-limits/ontraport-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ontraport-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/data-model/ontraport-data-model.yml
+  href: https://artifacts.apis.io/ontraport/data-model/ontraport-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ontraport-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/changelog/ontraport-changelog.yml
+  href: https://artifacts.apis.io/ontraport/changelog/ontraport-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ontraport-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/lifecycle/ontraport-lifecycle.yml
+  href: https://artifacts.apis.io/ontraport/lifecycle/ontraport-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ontraport-lifecycle.yml
@@ -163,47 +162,47 @@ common:
   type: StatusPage
   url: https://ontraportstatus.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/conformance/ontraport-conformance.yml
+  href: https://artifacts.apis.io/ontraport/conformance/ontraport-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ontraport-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/security/ontraport-trust-center.yml
+  href: https://artifacts.apis.io/ontraport/security/ontraport-trust-center.yml
   title: ''
   type: Compliance
   url: security/ontraport-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/security/ontraport-trust-center.yml
+  href: https://artifacts.apis.io/ontraport/security/ontraport-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ontraport-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/asyncapi/ontraport-webhooks.yml
+  href: https://artifacts.apis.io/ontraport/asyncapi/ontraport-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ontraport-webhooks.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/plans/ontraport-plans-pricing.yml
+  href: https://artifacts.apis.io/ontraport/plans/ontraport-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ontraport-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/collections/ontraport.postman_collection.json
+  href: https://artifacts.apis.io/ontraport/collections/ontraport.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/ontraport.postman_collection.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/collections/ontraport.opencollection.json
+  href: https://artifacts.apis.io/ontraport/collections/ontraport.opencollection.json
   title: ''
   type: OpenCollection
   url: collections/ontraport.opencollection.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/security/ontraport-domain-security.yml
+  href: https://artifacts.apis.io/ontraport/security/ontraport-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ontraport-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/authentication/ontraport-authentication.yml
+  href: https://artifacts.apis.io/ontraport/authentication/ontraport-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ontraport-authentication.yml
@@ -277,6 +276,14 @@ common:
   url: https://ontraport.com/careers
 created: '2026-05-11'
 description: Ontraport is a business automation platform combining CRM, marketing automation, email marketing, landing pages, ecommerce, and membership site capabilities for small businesses and entrepreneurs. The platform unifies contact management, sales pipelines, payment processing, and visual automation campaigns in a single workspace. Ontraport's REST API exposes contacts, transactions, tags, sequences, forms, landing pages, and ecommerce objects using API-Key and Api-Appid header authentication, through a generic object interface where the record type is selected by an integer object type ID rather than by a path segment. Ontraport also runs a first-party remote MCP server at https://mcp.ontraport.com, publishing 47 tools across CRUD, query, management and commerce and authorizing them with OAuth 2.1 (PKCE, dynamic client registration) under a single mcp:tools scope.
+finops:
+- has_sources: true
+  method: derived
+  name: Ontraport Finops
+  primary_unit: ''
+  service_category: ''
+  slug: ontraport-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ontraport.png
 layout: provider
 mcp_servers:
@@ -296,9 +303,9 @@ overview: 'Ontraport publishes 4 API contracts indexed on the [APIs.io](https://
   Ontraport''s developer surface includes changelog, authentication, documentation, pricing, signup flow, support, engineering blog, and 36 more developer resources.'
 plans:
 - name: Ontraport Plans Pricing
-  plan_count: 5
+  plan_count: 0
   slug: ontraport-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Ontraport Rate Limits
@@ -310,23 +317,28 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 64.2
+  composite: 58.4
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 57.0
-    catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    artifact_dirs: 26
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.3
   facets:
-    access_clarity: 85.5
+    access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 56.1
+    contract_quality: 52.8
     developer_ergonomics: 67.3
-    discoverability: 75.0
-    operational_transparency: 63.2
-  previous_composite: 64.2
+    discoverability: 65.0
+    operational_transparency: 65.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -343,13 +355,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/screenshots/ontraport-2026-06-20T190730.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ontraport/ontraport-2026-06-20T190730.png
 security:
 - kind: authentication
   name: Ontraport Authentication
@@ -367,6 +380,16 @@ security:
   name: Ontraport Trust Center
   slug: ontraport-trust-center
   summary_line: PCI DSS, GDPR
+skill_count: 4
+skills:
+- name: ontraport-connect-mcp
+  slug: ontraport-connect-mcp
+- name: ontraport-page-a-collection
+  slug: ontraport-page-a-collection
+- name: ontraport-subscribe-webhook
+  slug: ontraport-subscribe-webhook
+- name: ontraport-upsert-contact
+  slug: ontraport-upsert-contact
 slug: ontraport
 tags:
 - CRM

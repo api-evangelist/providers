@@ -19,7 +19,7 @@ name: HNC
 nav: Providers
 network: true
 overview: HNC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fraud Prevention, Predictive Analytics, Machine Learning, and Decision Management.
-random_paper: 5
+random_paper: 1
 slug: hnc
 tags:
 - Company

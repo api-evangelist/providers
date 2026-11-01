@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,17 +25,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.9
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 42.6
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - description: 'OAuth 2.0 REST API for managing Snapchat advertising: organizations, ad accounts, campaigns, ad squads, ads, creatives, media, audience segments, measurement/reporting, the Conversions API (server-to-'
   name: Snapchat Marketing API
@@ -58,18 +61,23 @@ apis:
   description: The Events API from Snap — 4 operation(s) for events.
   name: Snap Events API
   slug: snap-events-api
-artifact_total: 15
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Snap Lead Gen Webhooks
   slug: snap-lead-gen-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/snap/capabilities/snap-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/snap-capability-edges.yml
 - group: company
   title: ''
   type: Website
   url: https://www.snap.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/skills/snap-send-conversion-events.md
+  href: https://artifacts.apis.io/snap/skills/snap-send-conversion-events.md
   title: ''
   type: AgentSkill
   url: skills/snap-send-conversion-events.md
@@ -90,147 +98,147 @@ common:
   type: GettingStarted
   url: https://developers.snap.com/api/marketing-api/Ads-API/quick-start
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/authentication/snap-authentication.yml
+  href: https://artifacts.apis.io/snap/authentication/snap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/snap-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/scopes/snap-scopes.yml
+  href: https://artifacts.apis.io/snap/scopes/snap-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/snap-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/packages/snap-packages.yml
+  href: https://artifacts.apis.io/snap/packages/snap-packages.yml
   title: ''
   type: SDKs
   url: packages/snap-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/packages/snap-packages.yml
+  href: https://artifacts.apis.io/snap/packages/snap-packages.yml
   title: ''
   type: Packages
   url: packages/snap-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/conventions/snap-conventions.yml
+  href: https://artifacts.apis.io/snap/conventions/snap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/snap-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/errors/snap-error-codes.yml
+  href: https://artifacts.apis.io/snap/errors/snap-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/snap-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/lifecycle/snap-lifecycle.yml
+  href: https://artifacts.apis.io/snap/lifecycle/snap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/snap-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/lifecycle/snap-lifecycle.yml
+  href: https://artifacts.apis.io/snap/lifecycle/snap-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/snap-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/changelog/snap-changelog.yml
+  href: https://artifacts.apis.io/snap/changelog/snap-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/snap-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/conformance/snap-conformance.yml
+  href: https://artifacts.apis.io/snap/conformance/snap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/snap-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/mcp/snap-mcp.yml
+  href: https://artifacts.apis.io/snap/mcp/snap-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/snap-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/mcp/snap-tool-crosswalk.yml
+  href: https://artifacts.apis.io/snap/mcp/snap-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/snap-tool-crosswalk.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/openapi/_original/snap-conversions-api-v3-openapi.yml
+  href: https://artifacts.apis.io/snap/openapi/_original/snap-conversions-api-v3-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/snap-conversions-api-v3-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/openapi/_original/snap-conversions-api-openapi.yml
+  href: https://artifacts.apis.io/snap/openapi/_original/snap-conversions-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/snap-conversions-api-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/overlays/snap-conversions-api-v3-overlay.yaml
+  href: https://artifacts.apis.io/snap/overlays/snap-conversions-api-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/snap-conversions-api-v3-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/overlays/snap-conversions-api-overlay.yaml
+  href: https://artifacts.apis.io/snap/overlays/snap-conversions-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/snap-conversions-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/asyncapi/snap-lead-gen-webhooks.yml
+  href: https://artifacts.apis.io/snap/asyncapi/snap-lead-gen-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/snap-lead-gen-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/rate-limits/snap-rate-limits.yml
+  href: https://artifacts.apis.io/snap/rate-limits/snap-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/snap-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/plans/snap-plans-pricing.yml
+  href: https://artifacts.apis.io/snap/plans/snap-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/snap-plans-pricing.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/sandbox/snap-sandbox.yml
+  href: https://artifacts.apis.io/snap/sandbox/snap-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/snap-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/components/snap-components.yml
+  href: https://artifacts.apis.io/snap/components/snap-components.yml
   title: ''
   type: Components
   url: components/snap-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/security/snap-trust-center.yml
+  href: https://artifacts.apis.io/snap/security/snap-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/snap-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/llms/snap-llms.txt
+  href: https://artifacts.apis.io/snap/llms/snap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/snap-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/well-known/snap-well-known.yml
+  href: https://artifacts.apis.io/snap/well-known/snap-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/snap-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/security/snap-domain-security.yml
+  href: https://artifacts.apis.io/snap/security/snap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snap-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/security/snap-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/snap/security/snap-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/snap-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/security/snap-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/snap/security/snap-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/snap-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/data-model/snap-data-model.yml
+  href: https://artifacts.apis.io/snap/data-model/snap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/snap-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/snap/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -261,6 +269,14 @@ common:
 created: '2026-07-17'
 description: 'Snap Inc. is the technology company behind Snapchat, Bitmoji, Spectacles, and Lens Studio. Its Snap for Developers program exposes several public APIs and SDKs: the Snapchat Marketing API (Ads API, Ads Gallery API, Conversions API, and Public Profile API) for programmatically managing organizations, ad accounts, campaigns, ad squads, ads, creatives, audiences, measurement, and server-to-server conversion events; Snap Kit / Login Kit for OAuth 2.0 and OpenID Connect powered "Login with Snapchat", Creative Kit, and Bitmoji Kit; and Camera Kit for embedding Snap''s augmented-reality Lenses into third-party apps and web experiences. The Marketing API is an OAuth 2.0 REST API served from adsapi.snapchat.com/v1 with cursor pagination and a structured request envelope. Snap publishes first-party OpenAPI 3.0 for the Conversions API in its own Business SDK repositories, ships a hosted read-only MCP server for Snapchat Ads at mcp.snapchat.com/ads with pre-registered OAuth clients for
   five agents, and delivers lead-generation leads by HMAC-signed webhook. First-party SDKs are published for Java, Python, PHP, Ruby, Go, JavaScript (Camera Kit on npm), Android, and iOS. Snap was surfaced as a portfolio company of General Catalyst and enriched into the API Evangelist network.'
+finops:
+- has_sources: true
+  method: derived
+  name: Snap Finops
+  primary_unit: ''
+  service_category: ''
+  slug: snap-finops
+  template: true
 image: https://developers.snap.com/img/snap-developer-logo.png
 layout: provider
 mcp_servers:
@@ -277,12 +293,12 @@ overview: 'Snap publishes 6 API contracts indexed on the [APIs.io](https://apis.
   The Snap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Snap''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 34 more developer resources.'
+  Snap''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 35 more developer resources.'
 plans:
 - name: Snap Plans Pricing
   plan_count: 0
   slug: snap-plans-pricing
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Snap Rate Limits
@@ -294,23 +310,28 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.4
+  composite: 58.7
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.0
+    artifact_dirs: 27
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 48.8
     developer_ergonomics: 73.2
-    discoverability: 78.6
-    operational_transparency: 76.3
-  previous_composite: 56.3
+    discoverability: 65.0
+    operational_transparency: 78.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 59.2
   provenance:
     conformance: first-party
     contracts:
@@ -326,13 +347,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/screenshots/snap-2026-08-17T081939.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/snap/snap-2026-08-17T081939.png
 security:
 - kind: authentication
   name: Snap Authentication
@@ -350,6 +372,14 @@ security:
   name: Snap Trust Center
   slug: snap-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: snap-launch-ad
+  slug: snap-launch-ad
+- name: snap-receive-lead-webhooks
+  slug: snap-receive-lead-webhooks
+- name: snap-send-conversion-events
+  slug: snap-send-conversion-events
 slug: snap
 tags:
 - Company

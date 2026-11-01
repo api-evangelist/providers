@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -78,32 +80,32 @@ common:
   type: Twitter
   url: https://x.com/hamsafinance
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hamsa/refs/heads/main/llms/hamsa-llms.txt
+  href: https://artifacts.apis.io/hamsa/llms/hamsa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hamsa-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hamsa/refs/heads/main/authentication/hamsa-authentication.yml
+  href: https://artifacts.apis.io/hamsa/authentication/hamsa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hamsa-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hamsa/refs/heads/main/conventions/hamsa-conventions.yml
+  href: https://artifacts.apis.io/hamsa/conventions/hamsa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hamsa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hamsa/refs/heads/main/conformance/hamsa-conformance.yml
+  href: https://artifacts.apis.io/hamsa/conformance/hamsa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hamsa-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hamsa/refs/heads/main/security/hamsa-domain-security.yml
+  href: https://artifacts.apis.io/hamsa/security/hamsa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hamsa-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hamsa/refs/heads/main/well-known/hamsa-well-known.yml
+  href: https://artifacts.apis.io/hamsa/well-known/hamsa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hamsa-well-known.yml
@@ -119,10 +121,10 @@ overview: 'Hamsa is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Hamsa''s developer surface includes documentation, API reference, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 16
+random_paper: 18
 score:
   band: emerging
-  composite: 19.1
+  composite: 22.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -132,11 +134,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 27.4
-    discoverability: 55.4
+    developer_ergonomics: 40.5
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -145,7 +147,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 19.1
+  previous_composite: 22.4
   provenance:
     conformance: first-party
   regulatory:
@@ -154,14 +156,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hamsa/refs/heads/main/screenshots/hamsa-2026-07-25T220608.png
+screenshot: https://apis.io/screenshots/hamsa/hamsa-2026-07-25T220608.png
 security:
 - kind: authentication
   name: Hamsa Authentication

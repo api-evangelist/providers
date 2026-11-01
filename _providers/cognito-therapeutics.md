@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,12 +88,12 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/cognito-therapeutics_stock/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cognito-therapeutics/refs/heads/main/security/cognito-therapeutics-domain-security.yml
+  href: https://artifacts.apis.io/cognito-therapeutics/security/cognito-therapeutics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cognito-therapeutics-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cognito-therapeutics/refs/heads/main/llms/cognito-therapeutics-llms.txt
+  href: https://artifacts.apis.io/cognito-therapeutics/llms/cognito-therapeutics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cognito-therapeutics-llms.txt
@@ -104,12 +106,12 @@ name: Cognito Therapeutics
 nav: Providers
 network: true
 overview: Cognito Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, Neurotechnology, and Neuroscience.
-random_paper: 7
+random_paper: 9
 score:
   band: minimal
-  composite: 7.4
+  composite: 7.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -121,23 +123,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 56.3
-    operational_transparency: 2.6
-  previous_composite: 7.4
+    discoverability: 50.0
+    operational_transparency: 5.3
+  previous_composite: 7.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cognito-therapeutics/refs/heads/main/screenshots/cognito-therapeutics-2026-08-07T163542.png
+screenshot: https://apis.io/screenshots/cognito-therapeutics/cognito-therapeutics-2026-08-07T163542.png
 security:
 - kind: domain-security
   name: Cognito Therapeutics Domain Security

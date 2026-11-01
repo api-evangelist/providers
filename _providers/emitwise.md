@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 18.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: Aggregated Scope 3 supplier emissions data.
   name: Emitwise Suppliers API
   slug: emitwise-suppliers-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Emitwise API
   slug: open-emitwise-api
@@ -94,17 +93,17 @@ collections:
   slug: open-emitwise-suppliers-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emitwise/refs/heads/main/agentic-access/emitwise-agentic-access.yml
+  href: https://artifacts.apis.io/emitwise/agentic-access/emitwise-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/emitwise-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emitwise/refs/heads/main/security/emitwise-domain-security.yml
+  href: https://artifacts.apis.io/emitwise/security/emitwise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/emitwise-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emitwise/refs/heads/main/authentication/emitwise-authentication.yml
+  href: https://artifacts.apis.io/emitwise/authentication/emitwise-authentication.yml
   title: ''
   type: Authentication
   url: authentication/emitwise-authentication.yml
@@ -184,7 +183,7 @@ overview: 'Emitwise publishes 5 API contracts indexed on the [APIs.io](https://a
 
 
   Emitwise''s developer surface includes authentication, documentation, privacy policy, engineering blog, GitHub presence, and 10 more developer resources.'
-random_paper: 13
+random_paper: 7
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -199,9 +198,9 @@ rules:
   slug: emitwise-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.0
+  composite: 34.9
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 52.3
     catalog_earned_first_party: 0.0
     catalog_gap: 62.8
@@ -212,7 +211,7 @@ score:
     access_clarity: 34.2
     contract_governance: 9.8
     contract_quality: 59.3
-    developer_ergonomics: 17.9
+    developer_ergonomics: 23.8
     discoverability: 57.1
     operational_transparency: 5.3
   jurisdiction:
@@ -223,7 +222,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 33.0
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -237,13 +236,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 19.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/emitwise/refs/heads/main/screenshots/emitwise-2026-06-20T180633.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/emitwise/emitwise-2026-06-20T180633.png
 security:
 - kind: authentication
   name: Emitwise Authentication

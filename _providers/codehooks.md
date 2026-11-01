@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-17'
+  score: 23.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -70,9 +72,6 @@ asyncapis:
   slug: codehooks-events-asyncapi
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Codehooks Database REST API
   slug: open-codehooks-database-rest-api
 - collection_type: open
@@ -85,33 +84,37 @@ collections:
   name: Codehooks Database REST Documents Queue API
   slug: open-codehooks-queue-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/codehooks/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/plans/codehooks-plans-pricing.yml
+  href: https://artifacts.apis.io/codehooks/plans/codehooks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/codehooks-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/rate-limits/codehooks-rate-limits.yml
+  href: https://artifacts.apis.io/codehooks/rate-limits/codehooks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/codehooks-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/finops/codehooks-finops.yml
+  href: https://artifacts.apis.io/codehooks/finops/codehooks-finops.yml
   title: ''
   type: FinOps
   url: finops/codehooks-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/agentic-access/codehooks-agentic-access.yml
+  href: https://artifacts.apis.io/codehooks/agentic-access/codehooks-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/codehooks-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/security/codehooks-domain-security.yml
+  href: https://artifacts.apis.io/codehooks/security/codehooks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/codehooks-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/authentication/codehooks-authentication.yml
+  href: https://artifacts.apis.io/codehooks/authentication/codehooks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/codehooks-authentication.yml
@@ -156,27 +159,27 @@ common:
   type: PrivacyPolicy
   url: https://codehooks.io/privacy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/json-ld/codehooks-context.jsonld
+  href: https://artifacts.apis.io/codehooks/json-ld/codehooks-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/codehooks-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/json-schema/codehooks-document-schema.json
+  href: https://artifacts.apis.io/codehooks/json-schema/codehooks-document-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/codehooks-document-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/json-schema/codehooks-key-value-schema.json
+  href: https://artifacts.apis.io/codehooks/json-schema/codehooks-key-value-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/codehooks-key-value-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/json-schema/codehooks-queue-job-schema.json
+  href: https://artifacts.apis.io/codehooks/json-schema/codehooks-queue-job-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/codehooks-queue-job-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/rules/codehooks-rules.yml
+  href: https://artifacts.apis.io/codehooks/rules/codehooks-rules.yml
   title: ''
   type: Spectral
   url: rules/codehooks-rules.yml
@@ -187,13 +190,13 @@ common:
 created: '2025-02-08'
 description: Codehooks is a JavaScript-native serverless backend platform that bundles a NoSQL document database, key-value store, persistent queues with workers, CRON jobs, blob storage, frontend hosting, and an automatic CRUD REST API in a single CLI-deployable runtime. Developers write small Node.js handler files and Codehooks generates a secure REST API, OpenAPI documentation, and event hooks (onBefore/onAfter Create/Read/Update/Delete) without managing servers. The platform targets agent-native and AI backend use cases where simple, fast, MongoDB-style data access and event-driven automation matter.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Codehooks Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: codehooks-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/codehooks.png
 json_schemas:
 - name: Codehooks Document
@@ -221,12 +224,15 @@ overview: 'Codehooks publishes 4 API contracts indexed on the [APIs.io](https://
   The Codehooks catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Codehooks'' developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, GitHub presence, and 16 more developer resources.'
+  Codehooks'' developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, GitHub presence, and 17 more developer resources.'
 plans:
 - name: Codehooks Plans Pricing
   plan_count: 3
   slug: codehooks-plans-pricing
-random_paper: 13
+- name: Codehooks Price Estimates
+  plan_count: 0
+  slug: codehooks-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Codehooks Rate Limits
@@ -269,23 +275,23 @@ rules:
   slug: codehooks-rules
 score:
   band: developing
-  composite: 40.0
+  composite: 49.8
   coverage:
     artifact_dirs: 16
-    catalog_earned: 50.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 64.5
+    catalog_earned: 62.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.8
   facets:
-    access_clarity: 34.2
+    access_clarity: 71.1
     contract_governance: 13.6
     contract_quality: 62.3
-    developer_ergonomics: 35.7
+    developer_ergonomics: 44.0
     discoverability: 64.3
     operational_transparency: 13.2
-  previous_composite: 41.5
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     contracts:
@@ -299,13 +305,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/screenshots/codehooks-2026-06-20T174700.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/codehooks/codehooks-2026-06-20T174700.png
 security:
 - kind: authentication
   name: Codehooks Authentication

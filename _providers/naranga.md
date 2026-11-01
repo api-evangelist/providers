@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,12 +38,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/naranga/refs/heads/main/security/naranga-domain-security.yml
+  href: https://artifacts.apis.io/naranga/security/naranga-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/naranga-domain-security.yml
@@ -61,8 +63,8 @@ modified: '2026-07-04'
 name: Naranga
 nav: Providers
 network: true
-overview: Naranga is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Franchise Management, Franchise Operations, Lead Management, CRM, and Training.
-random_paper: 2
+overview: Naranga is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Franchise Management, Lead Management, CRM, Training, and Field Audits.
+random_paper: 8
 score:
   band: minimal
   composite: 3.4
@@ -88,8 +90,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
@@ -103,7 +105,6 @@ security:
 slug: naranga
 tags:
 - Franchise Management
-- Franchise Operations
 - Lead Management
 - CRM
 - Training

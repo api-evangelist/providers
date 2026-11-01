@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
+  score: 35.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 78
   slug: hmcts-agentic-access
   summary_line: 78 operations · 36 acting · 2 human-in-the-loop
-api_count: 10
+api_count: 7
 apis:
 - baseURL: https://api-cp-crime-hearing-results-document-subscription.net/{version}
   baseurl_source: declared
@@ -133,64 +135,64 @@ apis:
   description: The validation-rules API from HM Courts & Tribunals Service — 2 operation(s) for validation-rules.
   name: HM Courts & Tribunals Service Validation Rules API
   slug: hmcts-validation-rules-api
-artifact_total: 47
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Hmcts Webhooks
   slug: hmcts-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/agentic-access/hmcts-agentic-access.yml
+  href: https://artifacts.apis.io/hmcts/agentic-access/hmcts-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hmcts-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/rules/hmcts-rules.yml
+  href: https://artifacts.apis.io/hmcts/rules/hmcts-rules.yml
   title: ''
   type: Spectral
   url: rules/hmcts-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/rules/hmcts-api-cp-crime-hearing-results-validator-spectral-rules.yml
+  href: https://artifacts.apis.io/hmcts/rules/hmcts-api-cp-crime-hearing-results-validator-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/hmcts-api-cp-crime-hearing-results-validator-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/rules/hmcts-api-cp-crime-hearing-results-document-subscription-spectral-rules.yml
+  href: https://artifacts.apis.io/hmcts/rules/hmcts-api-cp-crime-hearing-results-document-subscription-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/hmcts-api-cp-crime-hearing-results-document-subscription-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/json-ld/hmcts-context.jsonld
+  href: https://artifacts.apis.io/hmcts/json-ld/hmcts-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/hmcts-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/vocabulary/hmcts-vocabulary.yml
+  href: https://artifacts.apis.io/hmcts/vocabulary/hmcts-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/hmcts-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hmcts/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/asyncapi/hmcts-webhooks.yml
+  href: https://artifacts.apis.io/hmcts/asyncapi/hmcts-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hmcts-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/data-model/hmcts-data-model.yml
+  href: https://artifacts.apis.io/hmcts/data-model/hmcts-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hmcts-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/components/hmcts-components.yml
+  href: https://artifacts.apis.io/hmcts/components/hmcts-components.yml
   title: ''
   type: Components
   url: components/hmcts-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/conventions/hmcts-conventions.yml
+  href: https://artifacts.apis.io/hmcts/conventions/hmcts-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hmcts-conventions.yml
@@ -199,57 +201,57 @@ common:
   type: Security
   url: https://www.gov.uk/help/report-vulnerability
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/lifecycle/hmcts-lifecycle.yml
+  href: https://artifacts.apis.io/hmcts/lifecycle/hmcts-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hmcts-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/errors/hmcts-problem-types.yml
+  href: https://artifacts.apis.io/hmcts/errors/hmcts-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hmcts-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/conformance/hmcts-conformance.yml
+  href: https://artifacts.apis.io/hmcts/conformance/hmcts-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hmcts-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/overlays/hmcts-applications-register-overlay.yaml
+  href: https://artifacts.apis.io/hmcts/overlays/hmcts-applications-register-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hmcts-applications-register-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/well-known/hmcts-security.txt
+  href: https://artifacts.apis.io/hmcts/well-known/hmcts-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/hmcts-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/well-known/hmcts-api-security.txt
+  href: https://artifacts.apis.io/hmcts/well-known/hmcts-api-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/hmcts-api-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/well-known/hmcts-well-known.yml
+  href: https://artifacts.apis.io/hmcts/well-known/hmcts-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hmcts-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/hosts/hmcts-hosts.yml
+  href: https://artifacts.apis.io/hmcts/hosts/hmcts-hosts.yml
   title: ''
   type: Hosts
   url: hosts/hmcts-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/vendors/hmcts-vendors.yml
+  href: https://artifacts.apis.io/hmcts/vendors/hmcts-vendors.yml
   title: ''
   type: Vendors
   url: vendors/hmcts-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/packages/hmcts-packages.yml
+  href: https://artifacts.apis.io/hmcts/packages/hmcts-packages.yml
   title: ''
   type: SDKs
   url: packages/hmcts-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/packages/hmcts-packages.yml
+  href: https://artifacts.apis.io/hmcts/packages/hmcts-packages.yml
   title: ''
   type: Packages
   url: packages/hmcts-packages.yml
@@ -262,17 +264,17 @@ common:
   type: Newsroom
   url: https://www.gov.uk/government/news/we-need-your-help
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/authentication/hmcts-authentication.yml
+  href: https://artifacts.apis.io/hmcts/authentication/hmcts-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hmcts-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/security/hmcts-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hmcts/security/hmcts-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hmcts-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/security/hmcts-domain-security.yml
+  href: https://artifacts.apis.io/hmcts/security/hmcts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hmcts-domain-security.yml
@@ -436,7 +438,7 @@ rules:
   slug: hmcts-rules
 score:
   band: developing
-  composite: 50.0
+  composite: 49.1
   coverage:
     artifact_dirs: 27
     catalog_earned: 65.8
@@ -444,11 +446,11 @@ score:
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 35.6
-    contract_quality: 71.9
+    contract_quality: 69.9
     developer_ergonomics: 37.5
     discoverability: 73.2
     operational_transparency: 23.7
@@ -460,7 +462,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 54.0
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -477,13 +479,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/screenshots/hmcts-2026-10-11T105332.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hmcts/hmcts-2026-10-11T105332.png
 security:
 - kind: authentication
   name: Hmcts Authentication
@@ -497,6 +500,16 @@ security:
   name: Hmcts Vulnerability Disclosure
   slug: hmcts-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 4
+skills:
+- name: hmcts-record-application-list-entries
+  slug: hmcts-record-application-list-entries
+- name: hmcts-run-applications-register-report
+  slug: hmcts-run-applications-register-report
+- name: hmcts-subscribe-to-hearing-result-documents
+  slug: hmcts-subscribe-to-hearing-result-documents
+- name: hmcts-validate-draft-hearing-results
+  slug: hmcts-validate-draft-hearing-results
 slug: hmcts
 tags:
 - Company

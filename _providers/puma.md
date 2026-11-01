@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-17'
+  score: 16.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -97,11 +99,8 @@ apis:
   description: The Thread Backtraces API from Puma — 1 operation(s) for thread backtraces.
   name: Puma Thread Backtraces API
   slug: puma-thread-backtraces-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Puma Control/Status Application Gc API
   slug: open-puma-gc-api
@@ -153,17 +152,17 @@ common:
   type: ContributionGuide
   url: https://github.com/puma/puma/blob/main/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/agentic-access/puma-agentic-access.yml
+  href: https://artifacts.apis.io/puma/agentic-access/puma-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/puma-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/security/puma-domain-security.yml
+  href: https://artifacts.apis.io/puma/security/puma-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/puma-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/authentication/puma-authentication.yml
+  href: https://artifacts.apis.io/puma/authentication/puma-authentication.yml
   title: ''
   type: Authentication
   url: authentication/puma-authentication.yml
@@ -215,10 +214,10 @@ overview: 'Puma publishes 11 API contracts indexed on the [APIs.io](https://apis
 
 
   Puma''s developer surface includes authentication, documentation, and 14 more developer resources.'
-random_paper: 17
+random_paper: 3
 score:
   band: thin
-  composite: 34.0
+  composite: 27.1
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -226,18 +225,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 46.5
     developer_ergonomics: 26.2
     discoverability: 66.1
-    operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 33.9
+    operational_transparency: 31.6
+  previous_composite: 27.1
   provenance:
     agentic_access: derived
     contracts:
@@ -251,14 +247,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/screenshots/puma-2026-06-20T192302.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/puma/puma-2026-06-20T192302.png
 security:
 - kind: authentication
   name: Puma Authentication

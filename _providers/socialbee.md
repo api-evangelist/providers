@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: SocialBee platform API for managing social media posts, content categories, scheduling, recycling evergreen content, and accessing analytics across major social networks. Currently accessible via Zapi
@@ -42,15 +44,15 @@ apis:
 - description: Undocumented but live first-party Model Context Protocol server mounted in the WordPress REST namespace of socialbee.com. Discoverable entirely through standards — an RFC 9728 protected resource metad
   name: SocialBee MCP Server
   slug: socialbee-mcp
-artifact_total: 10
+artifact_total: 11
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/security/socialbee-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/socialbee/security/socialbee-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/socialbee-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/security/socialbee-domain-security.yml
+  href: https://artifacts.apis.io/socialbee/security/socialbee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/socialbee-domain-security.yml
@@ -87,82 +89,82 @@ common:
   type: X
   url: https://twitter.com/SocialBeeHQ
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/plans/socialbee-plans-pricing.yml
+  href: https://artifacts.apis.io/socialbee/plans/socialbee-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/socialbee-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/rate-limits/socialbee-rate-limits.yml
+  href: https://artifacts.apis.io/socialbee/rate-limits/socialbee-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/socialbee-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/finops/socialbee-finops.yml
+  href: https://artifacts.apis.io/socialbee/finops/socialbee-finops.yml
   title: ''
   type: FinOps
   url: finops/socialbee-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/mcp/socialbee-mcp.yml
+  href: https://artifacts.apis.io/socialbee/mcp/socialbee-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/socialbee-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/well-known/socialbee-well-known.yml
+  href: https://artifacts.apis.io/socialbee/well-known/socialbee-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/socialbee-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/well-known/socialbee-security.txt
+  href: https://artifacts.apis.io/socialbee/well-known/socialbee-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/socialbee-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/security/socialbee-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/socialbee/security/socialbee-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/socialbee-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/authentication/socialbee-authentication.yml
+  href: https://artifacts.apis.io/socialbee/authentication/socialbee-authentication.yml
   title: ''
   type: Authentication
   url: authentication/socialbee-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/scopes/socialbee-scopes.yml
+  href: https://artifacts.apis.io/socialbee/scopes/socialbee-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/socialbee-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/conformance/socialbee-conformance.yml
+  href: https://artifacts.apis.io/socialbee/conformance/socialbee-conformance.yml
   title: ''
   type: Conformance
   url: conformance/socialbee-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/errors/socialbee-problem-types.yml
+  href: https://artifacts.apis.io/socialbee/errors/socialbee-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/socialbee-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/lifecycle/socialbee-lifecycle.yml
+  href: https://artifacts.apis.io/socialbee/lifecycle/socialbee-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/socialbee-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/conventions/socialbee-conventions.yml
+  href: https://artifacts.apis.io/socialbee/conventions/socialbee-conventions.yml
   title: ''
   type: Conventions
   url: conventions/socialbee-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/changelog/socialbee-changelog.yml
+  href: https://artifacts.apis.io/socialbee/changelog/socialbee-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/socialbee-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/packages/socialbee-packages.yml
+  href: https://artifacts.apis.io/socialbee/packages/socialbee-packages.yml
   title: ''
   type: Packages
   url: packages/socialbee-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/llms/socialbee-llms.txt
+  href: https://artifacts.apis.io/socialbee/llms/socialbee-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/socialbee-llms.txt
@@ -185,13 +187,13 @@ common:
 created: '2026-06-13'
 description: SocialBee is an AI-powered social media management platform for creating, scheduling, recycling and analyzing content across Facebook, Instagram, X (Twitter), LinkedIn, TikTok, Pinterest, YouTube, Threads, Bluesky and Google Business Profiles, built around content categories and evergreen post recycling with AI caption generation. SocialBee publishes NO public REST API — its own help center states a public API is on the long-term roadmap with no committed timeline, and programmatic access is brokered through Zapier, Make and Pabbly connectors. It does, however, operate an undocumented but fully standards-discoverable Model Context Protocol server at socialbee.com/wp-json/mcp/mcp-oauth-server, guarded by OAuth 2.1 with PKCE and advertised via RFC 8414 and RFC 9728 metadata under /.well-known/. SocialBee was acquired by WebPros in August 2024.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Socialbee Finops
-  primary_unit: ''
+  primary_unit: workspace
   service_category: ''
   slug: socialbee-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/socialbee.png
 layout: provider
 mcp_servers:
@@ -208,9 +210,12 @@ overview: 'SocialBee is listed with 2 APIs on the [APIs.io](https://apis.io/) ne
   SocialBee''s developer surface includes documentation, engineering blog, pricing, authentication, changelog, and 25 more developer resources.'
 plans:
 - name: Socialbee Plans Pricing
-  plan_count: 6
+  plan_count: 11
   slug: socialbee-plans-pricing
-random_paper: 11
+- name: Socialbee Price Estimates
+  plan_count: 0
+  slug: socialbee-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 6
   name: Socialbee Rate Limits
@@ -222,23 +227,23 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 43.0
+  composite: 45.3
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 61.0
+    artifact_dirs: 20
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 75.0
-    operational_transparency: 76.3
-  previous_composite: 44.5
+    discoverability: 65.0
+    operational_transparency: 78.9
+  previous_composite: 43.7
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -248,14 +253,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/screenshots/socialbee-2026-06-20T194123.png
+screenshot: https://apis.io/screenshots/socialbee/socialbee-2026-06-20T194123.png
 security:
 - kind: authentication
   name: Socialbee Authentication

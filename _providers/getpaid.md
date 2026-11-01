@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.0
-  scored_at: '2026-10-17'
+  score: 48.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -84,15 +86,12 @@ apis:
   description: Webhooks related to onboarding and accounts events.
   name: GetPaid Onboard sellers webhooks API
   slug: getpaid-onboard-sellers-webhooks-api
-artifact_total: 20
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Getpaid Webhooks
   slug: getpaid-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Getpaid Accounts API
   slug: open-getpaid-accounts-api
@@ -112,12 +111,22 @@ collections:
   name: Getpaid Accounts Queries API
   slug: open-getpaid-queries-api
 common:
+- group: other
+  href: https://artifacts.apis.io/getpaid/capabilities/getpaid-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/getpaid-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/getpaid/plans/getpaid-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/getpaid-plans-pricing.yml
 - group: company
   title: ''
   type: Website
   url: https://www.getpaid.io/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/overlays/getpaid-openapi-overlay.yaml
+  href: https://artifacts.apis.io/getpaid/overlays/getpaid-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/getpaid-openapi-overlay.yaml
@@ -154,82 +163,82 @@ common:
   type: Postman
   url: https://docs.getpaid.io/integration/api/postman
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/changelog/getpaid-changelog.yml
+  href: https://artifacts.apis.io/getpaid/changelog/getpaid-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/getpaid-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/authentication/getpaid-authentication.yml
+  href: https://artifacts.apis.io/getpaid/authentication/getpaid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/getpaid-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/scopes/getpaid-scopes.yml
+  href: https://artifacts.apis.io/getpaid/scopes/getpaid-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/getpaid-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/agentic-access/getpaid-agentic-access.yml
+  href: https://artifacts.apis.io/getpaid/agentic-access/getpaid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/getpaid-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/security/getpaid-domain-security.yml
+  href: https://artifacts.apis.io/getpaid/security/getpaid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/getpaid-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/well-known/getpaid-well-known.yml
+  href: https://artifacts.apis.io/getpaid/well-known/getpaid-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/getpaid-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/conventions/getpaid-conventions.yml
+  href: https://artifacts.apis.io/getpaid/conventions/getpaid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/getpaid-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/conventions/getpaid-conventions.yml
+  href: https://artifacts.apis.io/getpaid/conventions/getpaid-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/getpaid-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/errors/getpaid-problem-types.yml
+  href: https://artifacts.apis.io/getpaid/errors/getpaid-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/getpaid-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/lifecycle/getpaid-lifecycle.yml
+  href: https://artifacts.apis.io/getpaid/lifecycle/getpaid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/getpaid-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/sandbox/getpaid-sandbox.yml
+  href: https://artifacts.apis.io/getpaid/sandbox/getpaid-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/getpaid-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/data-model/getpaid-data-model.yml
+  href: https://artifacts.apis.io/getpaid/data-model/getpaid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/getpaid-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/asyncapi/getpaid-webhooks.yml
+  href: https://artifacts.apis.io/getpaid/asyncapi/getpaid-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/getpaid-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/mcp/getpaid-mcp.yml
+  href: https://artifacts.apis.io/getpaid/mcp/getpaid-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/getpaid-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/llms/getpaid-llms.txt
+  href: https://artifacts.apis.io/getpaid/llms/getpaid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/getpaid-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/conformance/getpaid-conformance.yml
+  href: https://artifacts.apis.io/getpaid/conformance/getpaid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/getpaid-conformance.yml
@@ -238,12 +247,20 @@ common:
   type: Compliance
   url: https://getpaid.io/compliance
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/getpaid/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Getpaid is a licensed European (EEA) embedded-payments platform that lets software platforms and marketplaces process payments while keeping the merchant relationship and capturing the transaction margin. It provides white-labeled hosted checkout across 30+ payment methods, atomic real-time split settlement that distributes a single transaction across sellers, the platform and agents, seller onboarding with KYC/KYB, subscriptions and invoicing with SEPA Direct Debit, and an AI-native agent-payments API with scoped authority tokens and spending limits. The v2 REST API uses OAuth 2.0 client-credentials auth, cursor pagination, RFC 7807 problem-details errors, an idempotency-key header, and 10 webhook events. Getpaid is a PCI-DSS Level 1, GDPR- and PSD2/SCA-aligned licensed payment institution with hubs in Germany, Spain and Finland.
+finops:
+- has_sources: true
+  method: derived
+  name: Getpaid Finops
+  primary_unit: ''
+  service_category: ''
+  slug: getpaid-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/getpaid.png
 layout: provider
 modified: '2026-07-19'
@@ -256,8 +273,12 @@ overview: 'GetPaid publishes 8 API contracts indexed on the [APIs.io](https://ap
   The GetPaid catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  GetPaid''s developer surface includes documentation, API reference, quickstart, signup flow, support, changelog, authentication, and 21 more developer resources.'
-random_paper: 8
+  GetPaid''s developer surface includes documentation, API reference, quickstart, signup flow, support, changelog, authentication, and 23 more developer resources.'
+plans:
+- name: Getpaid Plans Pricing
+  plan_count: 0
+  slug: getpaid-plans-pricing
+random_paper: 14
 scopes:
 - name: Getpaid Scopes
   scope_count: 4
@@ -265,28 +286,28 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 47.4
+  composite: 51.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 31.6
     contract_governance: 18.2
-    contract_quality: 57.4
+    contract_quality: 62.2
     developer_ergonomics: 68.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 47.3
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -309,13 +330,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 44.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/screenshots/getpaid-2026-07-25T215736.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/getpaid/getpaid-2026-07-25T215736.png
 security:
 - kind: authentication
   name: Getpaid Authentication
@@ -325,6 +347,14 @@ security:
   name: Getpaid Domain Security
   slug: getpaid-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Accept a payment with a hosted checkout
+  slug: getpaid-accept-a-payment
+- name: Onboard a seller
+  slug: getpaid-onboard-a-seller
+- name: Refund a captured payment
+  slug: getpaid-refund-a-payment
 slug: getpaid
 tags:
 - Company

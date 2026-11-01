@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.3
-  scored_at: '2026-10-17'
+  score: 44.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -134,9 +136,6 @@ asyncapis:
   slug: gocardless-asyncapi
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: GoCardless REST billing_request_flows API
   slug: open-gocardless-billing-request-flows-api
 - collection_type: open
@@ -189,77 +188,77 @@ collections:
   slug: open-gocardless
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/rate-limits/gocardless-rate-limits.yml
+  href: https://artifacts.apis.io/gocardless/rate-limits/gocardless-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gocardless-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/plans/gocardless-plans-pricing.yml
+  href: https://artifacts.apis.io/gocardless/plans/gocardless-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gocardless-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/capabilities/gocardless-capability-edges.yml
+  href: https://artifacts.apis.io/gocardless/capabilities/gocardless-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gocardless-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/agentic-access/gocardless-agentic-access.yml
+  href: https://artifacts.apis.io/gocardless/agentic-access/gocardless-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gocardless-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/security/gocardless-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/gocardless/security/gocardless-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gocardless-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/security/gocardless-domain-security.yml
+  href: https://artifacts.apis.io/gocardless/security/gocardless-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gocardless-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/authentication/gocardless-authentication.yml
+  href: https://artifacts.apis.io/gocardless/authentication/gocardless-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gocardless-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/security/gocardless-trust-center.yml
+  href: https://artifacts.apis.io/gocardless/security/gocardless-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gocardless-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/scopes/gocardless-scopes.yml
+  href: https://artifacts.apis.io/gocardless/scopes/gocardless-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/gocardless-scopes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/sandbox/gocardless-sandbox.yml
+  href: https://artifacts.apis.io/gocardless/sandbox/gocardless-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/gocardless-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/conventions/gocardless-conventions.yml
+  href: https://artifacts.apis.io/gocardless/conventions/gocardless-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gocardless-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/changelog/gocardless-changelog.yml
+  href: https://artifacts.apis.io/gocardless/changelog/gocardless-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gocardless-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/components/gocardless-components.yml
+  href: https://artifacts.apis.io/gocardless/components/gocardless-components.yml
   title: ''
   type: Components
   url: components/gocardless-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/data-model/gocardless-data-model.yml
+  href: https://artifacts.apis.io/gocardless/data-model/gocardless-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gocardless-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/errors/gocardless-decline-codes.yml
+  href: https://artifacts.apis.io/gocardless/errors/gocardless-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/gocardless-decline-codes.yml
@@ -305,6 +304,14 @@ common:
   url: https://gocardless.com/blog/
 created: '2026-05-11'
 description: GoCardless is a global account-to-account payments platform specializing in pull-based bank debit (UK Bacs, SEPA Direct Debit, ACH, BECS, PAD, Autogiro) and open-banking instant bank payments, used by businesses to collect recurring subscriptions, invoices, and one-off payments directly from customer bank accounts. The GoCardless REST API exposes customers, bank accounts, mandates, payments, payouts, subscriptions, refunds, events, webhooks, and verification flows. Authentication uses Bearer access tokens issued from the dashboard, with separate sandbox and live environments; every request must include a GoCardless-Version header.
+finops:
+- has_sources: true
+  method: derived
+  name: Gocardless Finops
+  primary_unit: transaction
+  service_category: ''
+  slug: gocardless-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gocardless.png
 layout: provider
 mcp_servers:
@@ -353,24 +360,24 @@ scopes:
   slug: gocardless-scopes
   summary_line: 1 scope
 score:
-  band: developing
-  composite: 49.2
+  band: strong
+  composite: 54.4
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.8
+    artifact_dirs: 25
+    catalog_earned: 55.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 62.3
+    catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 71.1
     contract_governance: 11.4
     contract_quality: 52.8
-    developer_ergonomics: 45.2
-    discoverability: 75.0
-    operational_transparency: 34.2
-  previous_composite: 49.1
+    developer_ergonomics: 52.4
+    discoverability: 73.2
+    operational_transparency: 47.4
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     contracts:
@@ -385,13 +392,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/screenshots/gocardless-2026-06-20T181944.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gocardless/gocardless-2026-06-20T181944.png
 security:
 - kind: authentication
   name: Gocardless Authentication

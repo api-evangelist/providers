@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 21.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Legacy marketplace/collections API — obtain a JWT with your API key and secret, then manage NFT collections and in-platform tokens for token checkout.
@@ -96,15 +98,12 @@ apis:
   description: The tickets API from Tweed — 1 operation(s) for tickets.
   name: Tweed Tickets API
   slug: tweed-tickets-api
-artifact_total: 27
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Tweed Webhooks
   slug: tweed-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tweed assets API
   slug: open-tweed-assets-api
@@ -140,12 +139,12 @@ collections:
   slug: open-tweed-tickets-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/capabilities/tweed-capability-edges.yml
+  href: https://artifacts.apis.io/tweed/capabilities/tweed-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tweed-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/overlays/tweed-api-v2-overlay.yaml
+  href: https://artifacts.apis.io/tweed/overlays/tweed-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tweed-api-v2-overlay.yaml
@@ -174,37 +173,37 @@ common:
   type: Pricing
   url: https://docs.paytweed.com/developer-tools/pricing
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/authentication/tweed-authentication.yml
+  href: https://artifacts.apis.io/tweed/authentication/tweed-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tweed-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/security/tweed-domain-security.yml
+  href: https://artifacts.apis.io/tweed/security/tweed-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tweed-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/packages/tweed-packages.yml
+  href: https://artifacts.apis.io/tweed/packages/tweed-packages.yml
   title: ''
   type: Packages
   url: packages/tweed-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/packages/tweed-packages.yml
+  href: https://artifacts.apis.io/tweed/packages/tweed-packages.yml
   title: ''
   type: SDKs
   url: packages/tweed-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/mcp/tweed-mcp.yml
+  href: https://artifacts.apis.io/tweed/mcp/tweed-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tweed-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/llms/tweed-llms.txt
+  href: https://artifacts.apis.io/tweed/llms/tweed-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tweed-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/conformance/tweed-conformance.yml
+  href: https://artifacts.apis.io/tweed/conformance/tweed-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tweed-conformance.yml
@@ -213,37 +212,37 @@ common:
   type: Compliance
   url: https://docs.paytweed.com/getting-started/token-checkout-or-payments/legacy-token-checkout/features/aml-and-kyc-policy-overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/lifecycle/tweed-lifecycle.yml
+  href: https://artifacts.apis.io/tweed/lifecycle/tweed-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tweed-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/asyncapi/tweed-webhooks.yml
+  href: https://artifacts.apis.io/tweed/asyncapi/tweed-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tweed-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/sandbox/tweed-sandbox.yml
+  href: https://artifacts.apis.io/tweed/sandbox/tweed-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tweed-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/conventions/tweed-conventions.yml
+  href: https://artifacts.apis.io/tweed/conventions/tweed-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tweed-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/components/tweed-components.yml
+  href: https://artifacts.apis.io/tweed/components/tweed-components.yml
   title: ''
   type: Components
   url: components/tweed-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/data-model/tweed-data-model.yml
+  href: https://artifacts.apis.io/tweed/data-model/tweed-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tweed-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tweed/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -265,9 +264,9 @@ overview: 'Tweed publishes 12 API contracts indexed on the [APIs.io](https://api
 random_paper: 9
 score:
   band: thin
-  composite: 36.7
+  composite: 36.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -277,11 +276,11 @@ score:
   facets:
     access_clarity: 18.4
     contract_governance: 4.5
-    contract_quality: 46.4
+    contract_quality: 45.5
     developer_ergonomics: 66.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 36.7
+  previous_composite: 36.5
   provenance:
     conformance: derived
     contracts:
@@ -297,13 +296,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/screenshots/tweed-2026-09-02T164612.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tweed/tweed-2026-09-02T164612.png
 security:
 - kind: authentication
   name: Tweed Authentication
@@ -313,6 +313,14 @@ security:
   name: Tweed Domain Security
   slug: tweed-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Catalog and sell a token with Tweed
+  slug: tweed-catalog-and-sell-token
+- name: Manage Tweed platform webhooks
+  slug: tweed-manage-platform-webhooks
+- name: Run a token checkout with Tweed
+  slug: tweed-run-a-checkout
 slug: tweed
 tags:
 - Company

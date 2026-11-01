@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.1
-  scored_at: '2026-10-17'
+  score: 26.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 116
   slug: sonetel-agentic-access
   summary_line: 116 operations · 58 acting
-api_count: 52
+api_count: 20
 apis:
 - baseURL: https://api.sonetel.com/SonetelAuth/beta
   baseurl_source: declared
@@ -128,120 +130,125 @@ apis:
   description: The User API from Sonetel — 1 operation(s) for user.
   name: Sonetel User API
   slug: sonetel-user-api
-artifact_total: 46
+artifact_total: 54
 common:
+- group: other
+  href: https://artifacts.apis.io/sonetel/capabilities/sonetel-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sonetel-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/agentic-access/sonetel-agentic-access.yml
+  href: https://artifacts.apis.io/sonetel/agentic-access/sonetel-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sonetel-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/plans/sonetel-plans-pricing.yml
+  href: https://artifacts.apis.io/sonetel/plans/sonetel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sonetel-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/rules/sonetel-sonetel-api-docs-spectral-rules.yml
+  href: https://artifacts.apis.io/sonetel/rules/sonetel-sonetel-api-docs-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/sonetel-sonetel-api-docs-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/rules/sonetel-rules.yml
+  href: https://artifacts.apis.io/sonetel/rules/sonetel-rules.yml
   title: ''
   type: Spectral
   url: rules/sonetel-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/json-ld/sonetel-context.jsonld
+  href: https://artifacts.apis.io/sonetel/json-ld/sonetel-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/sonetel-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/vocabulary/sonetel-vocabulary.yml
+  href: https://artifacts.apis.io/sonetel/vocabulary/sonetel-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sonetel-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sonetel/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/data-model/sonetel-data-model.yml
+  href: https://artifacts.apis.io/sonetel/data-model/sonetel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sonetel-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/conventions/sonetel-conventions.yml
+  href: https://artifacts.apis.io/sonetel/conventions/sonetel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sonetel-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/sandbox/sonetel-sandbox.yml
+  href: https://artifacts.apis.io/sonetel/sandbox/sonetel-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sonetel-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/lifecycle/sonetel-lifecycle.yml
+  href: https://artifacts.apis.io/sonetel/lifecycle/sonetel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sonetel-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/errors/sonetel-error-codes.yml
+  href: https://artifacts.apis.io/sonetel/errors/sonetel-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/sonetel-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/errors/sonetel-problem-types.yml
+  href: https://artifacts.apis.io/sonetel/errors/sonetel-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sonetel-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/conformance/sonetel-conformance.yml
+  href: https://artifacts.apis.io/sonetel/conformance/sonetel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sonetel-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/overlays/sonetel-account-overlay.yaml
+  href: https://artifacts.apis.io/sonetel/overlays/sonetel-account-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sonetel-account-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/llms/sonetel-llms.txt
+  href: https://artifacts.apis.io/sonetel/llms/sonetel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sonetel-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/hosts/sonetel-hosts.yml
+  href: https://artifacts.apis.io/sonetel/hosts/sonetel-hosts.yml
   title: ''
   type: Hosts
   url: hosts/sonetel-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/vendors/sonetel-vendors.yml
+  href: https://artifacts.apis.io/sonetel/vendors/sonetel-vendors.yml
   title: ''
   type: Vendors
   url: vendors/sonetel-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/packages/sonetel-packages.yml
+  href: https://artifacts.apis.io/sonetel/packages/sonetel-packages.yml
   title: ''
   type: SDKs
   url: packages/sonetel-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/packages/sonetel-packages.yml
+  href: https://artifacts.apis.io/sonetel/packages/sonetel-packages.yml
   title: ''
   type: Packages
   url: packages/sonetel-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/scopes/sonetel-scopes.yml
+  href: https://artifacts.apis.io/sonetel/scopes/sonetel-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sonetel-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/authentication/sonetel-authentication.yml
+  href: https://artifacts.apis.io/sonetel/authentication/sonetel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sonetel-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/security/sonetel-domain-security.yml
+  href: https://artifacts.apis.io/sonetel/security/sonetel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sonetel-domain-security.yml
@@ -307,6 +314,14 @@ common:
   url: https://www.linkedin.com/company/sonetel
 created: '2026-10-09'
 description: Sonetel provides business phone numbers and communication services for entrepreneurs and small businesses, offering local phone numbers in 78 countries that ring in the Sonetel app for iPhone and Android or forward to any phone worldwide, with SMS on some number types, call recording, AI call summaries, call scoring and suggested follow-up emails. Sonetel publishes a developer API documented at docs.sonetel.com (Stoplight-hosted), with its API docs source maintained in the Sonetel GitHub organization.
+finops:
+- has_sources: true
+  method: derived
+  name: Sonetel Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: sonetel-finops
+  template: false
 image: https://sonetel.com/images/help/home-page-featured-image.png
 json_schemas:
 - name: Account-context
@@ -379,12 +394,15 @@ overview: 'Sonetel publishes 19 API contracts indexed on the [APIs.io](https://a
   The Sonetel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sonetel''s developer surface includes sandbox, authentication, documentation, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
+  Sonetel''s developer surface includes sandbox, authentication, documentation, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
 plans:
 - name: Sonetel Plans Pricing
   plan_count: 3
   slug: sonetel-plans-pricing
-random_paper: 14
+- name: Sonetel Price Estimates
+  plan_count: 0
+  slug: sonetel-price-estimates
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Sonetel Rate Limits
@@ -422,23 +440,23 @@ scopes:
   summary_line: 2 scopes · password
 score:
   band: strong
-  composite: 58.6
+  composite: 59.8
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 77.8
+    artifact_dirs: 31
+    catalog_earned: 80.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 37.3
+    catalog_gap: 34.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.3
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 35.6
-    contract_quality: 62.2
+    contract_quality: 60.6
     developer_ergonomics: 56.5
-    discoverability: 80.4
+    discoverability: 73.2
     operational_transparency: 21.1
-  previous_composite: 58.3
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -455,13 +473,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/screenshots/sonetel-2026-10-11T130115.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sonetel/sonetel-2026-10-11T130115.png
 security:
 - kind: authentication
   name: Sonetel Authentication
@@ -471,6 +490,20 @@ security:
   name: Sonetel Domain Security
   slug: sonetel-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 6
+skills:
+- name: sonetel-buy-a-phone-number
+  slug: sonetel-buy-a-phone-number
+- name: sonetel-create-an-ivr-voice-app
+  slug: sonetel-create-an-ivr-voice-app
+- name: sonetel-get-an-access-token
+  slug: sonetel-get-an-access-token
+- name: sonetel-make-a-callback-call
+  slug: sonetel-make-a-callback-call
+- name: sonetel-manage-call-recordings
+  slug: sonetel-manage-call-recordings
+- name: sonetel-transcribe-an-audio-file
+  slug: sonetel-transcribe-an-audio-file
 slug: sonetel
 tags:
 - Company

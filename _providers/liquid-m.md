@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.1
-  scored_at: '2026-10-17'
+  score: 26.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Visual report queries across dimensions and metrics.
   name: Liquid M Reporting API
   slug: liquid-m-reporting-api
-artifact_total: 18
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LiquidM Management Ads API
   slug: open-liquid-m-ads-api
@@ -96,12 +95,12 @@ common:
   type: Blog
   url: https://www.equativ.com/blog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/agentic-access/liquid-m-agentic-access.yml
+  href: https://artifacts.apis.io/liquid-m/agentic-access/liquid-m-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/liquid-m-agentic-access.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/overlays/liquid-m-management-overlay.yaml
+  href: https://artifacts.apis.io/liquid-m/overlays/liquid-m-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/liquid-m-management-overlay.yaml
@@ -126,92 +125,92 @@ common:
   type: SignUp
   url: https://platform.liquidm.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/authentication/liquid-m-authentication.yml
+  href: https://artifacts.apis.io/liquid-m/authentication/liquid-m-authentication.yml
   title: ''
   type: Authentication
   url: authentication/liquid-m-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/conventions/liquid-m-conventions.yml
+  href: https://artifacts.apis.io/liquid-m/conventions/liquid-m-conventions.yml
   title: ''
   type: Conventions
   url: conventions/liquid-m-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/errors/liquid-m-problem-types.yml
+  href: https://artifacts.apis.io/liquid-m/errors/liquid-m-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/liquid-m-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/lifecycle/liquid-m-lifecycle.yml
+  href: https://artifacts.apis.io/liquid-m/lifecycle/liquid-m-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/liquid-m-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/conformance/liquid-m-conformance.yml
+  href: https://artifacts.apis.io/liquid-m/conformance/liquid-m-conformance.yml
   title: ''
   type: Conformance
   url: conformance/liquid-m-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/vocabulary/liquid-m-vocabulary.yml
+  href: https://artifacts.apis.io/liquid-m/vocabulary/liquid-m-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/liquid-m-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/data-model/liquid-m-data-model.yml
+  href: https://artifacts.apis.io/liquid-m/data-model/liquid-m-data-model.yml
   title: ''
   type: DataModel
   url: data-model/liquid-m-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/packages/liquid-m-packages.yml
+  href: https://artifacts.apis.io/liquid-m/packages/liquid-m-packages.yml
   title: ''
   type: Packages
   url: packages/liquid-m-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/packages/liquid-m-packages.yml
+  href: https://artifacts.apis.io/liquid-m/packages/liquid-m-packages.yml
   title: ''
   type: SDKs
   url: packages/liquid-m-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/examples/liquid-m-visual-report-response.json
+  href: https://artifacts.apis.io/liquid-m/examples/liquid-m-visual-report-response.json
   title: ''
   type: Examples
   url: examples/liquid-m-visual-report-response.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/json-schema/liquid-m-visual-report.json
+  href: https://artifacts.apis.io/liquid-m/json-schema/liquid-m-visual-report.json
   title: ''
   type: JSONSchema
   url: json-schema/liquid-m-visual-report.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/security/liquid-m-domain-security.yml
+  href: https://artifacts.apis.io/liquid-m/security/liquid-m-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/liquid-m-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/mcp/liquid-m-mcp.yml
+  href: https://artifacts.apis.io/liquid-m/mcp/liquid-m-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/liquid-m-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/liquid-m/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/llms/liquid-m-llms.txt
+  href: https://artifacts.apis.io/liquid-m/llms/liquid-m-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/liquid-m-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/overlays/liquid-m-reporting-overlay.yaml
+  href: https://artifacts.apis.io/liquid-m/overlays/liquid-m-reporting-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/liquid-m-reporting-overlay.yaml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/plans/liquid-m-plans-pricing.yml
+  href: https://artifacts.apis.io/liquid-m/plans/liquid-m-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/liquid-m-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/rate-limits/liquid-m-rate-limits.yml
+  href: https://artifacts.apis.io/liquid-m/rate-limits/liquid-m-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/liquid-m-rate-limits.yml
@@ -250,8 +249,8 @@ rate_limits:
   name: Liquid M Rate Limits
   slug: liquid-m-rate-limits
 score:
-  band: emerging
-  composite: 23.4
+  band: thin
+  composite: 26.3
   coverage:
     artifact_dirs: 25
     catalog_earned: 42.0
@@ -259,14 +258,14 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 13.2
     contract_governance: 19.7
     contract_quality: 15.7
     developer_ergonomics: 49.4
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -275,7 +274,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 22.8
+  previous_composite: 26.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -292,13 +291,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/screenshots/liquid-m-2026-07-25T225318.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/liquid-m/liquid-m-2026-07-25T225318.png
 security:
 - kind: authentication
   name: Liquid M Authentication
@@ -308,6 +308,12 @@ security:
   name: Liquid M Domain Security
   slug: liquid-m-domain-security
   summary_line: TLSv1.2
+skill_count: 2
+skills:
+- name: Launch a LiquidM campaign
+  slug: liquid-m-launch-campaign
+- name: Run a LiquidM Visual Report
+  slug: liquid-m-run-visual-report
 slug: liquid-m
 tags:
 - Company

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/welltower/refs/heads/main/security/welltower-domain-security.yml
+  href: https://artifacts.apis.io/welltower/security/welltower-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/welltower-domain-security.yml
@@ -58,12 +60,12 @@ common:
   type: GitHubOrg
   url: https://github.com/welltower
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/welltower/refs/heads/main/json-ld/welltower-context.jsonld
+  href: https://artifacts.apis.io/welltower/json-ld/welltower-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/welltower-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/welltower/refs/heads/main/vocabulary/welltower-vocabulary.yml
+  href: https://artifacts.apis.io/welltower/vocabulary/welltower-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/welltower-vocabulary.yml
@@ -103,7 +105,7 @@ press:
 - date: ''
   title: Investors Press Releases Details | ...
   url: https://welltower.com/investors/press-release-details/
-random_paper: 7
+random_paper: 13
 score:
   band: minimal
   composite: 8.7
@@ -129,14 +131,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/welltower/refs/heads/main/screenshots/welltower-2026-06-20T201351.png
+screenshot: https://apis.io/screenshots/welltower/welltower-2026-06-20T201351.png
 security:
 - kind: domain-security
   name: Welltower Domain Security

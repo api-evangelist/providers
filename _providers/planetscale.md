@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -139,15 +141,12 @@ apis:
   description: Manage webhook configurations for database event notifications.
   name: planetscale Webhooks API
   slug: planetscale-webhooks-api
-artifact_total: 89
+artifact_total: 88
 asyncapis:
 - description: PlanetScale webhooks deliver HTTP POST callbacks to a configured URL when specific events occur within a PlanetScale organization. Webhooks enable real-time notifications for database branch lifecycle
   name: PlanetScale Webhook Events
   slug: planetscale-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PlanetScale Platform Backups API
   slug: open-planetscale-backups-api
@@ -204,22 +203,22 @@ collections:
   slug: open-planetscale-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/plans/planetscale-plans-pricing.yml
+  href: https://artifacts.apis.io/planetscale/plans/planetscale-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/planetscale-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/rate-limits/planetscale-rate-limits.yml
+  href: https://artifacts.apis.io/planetscale/rate-limits/planetscale-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/planetscale-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/finops/planetscale-finops.yml
+  href: https://artifacts.apis.io/planetscale/finops/planetscale-finops.yml
   title: ''
   type: FinOps
   url: finops/planetscale-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/capabilities/planetscale-capability-edges.yml
+  href: https://artifacts.apis.io/planetscale/capabilities/planetscale-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/planetscale-capability-edges.yml
@@ -228,17 +227,17 @@ common:
   type: Website
   url: https://planetscale.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/agentic-access/planetscale-agentic-access.yml
+  href: https://artifacts.apis.io/planetscale/agentic-access/planetscale-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/planetscale-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/security/planetscale-domain-security.yml
+  href: https://artifacts.apis.io/planetscale/security/planetscale-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/planetscale-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/authentication/planetscale-authentication.yml
+  href: https://artifacts.apis.io/planetscale/authentication/planetscale-authentication.yml
   title: ''
   type: Authentication
   url: authentication/planetscale-authentication.yml
@@ -255,12 +254,12 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/planetscale
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/json-ld/planetscale-context.jsonld
+  href: https://artifacts.apis.io/planetscale/json-ld/planetscale-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/planetscale-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/json-schema/planetscale-database-schema.json
+  href: https://artifacts.apis.io/planetscale/json-schema/planetscale-database-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/planetscale-database-schema.json
@@ -386,7 +385,7 @@ plans:
 - name: Planetscale Plans Pricing
   plan_count: 5
   slug: planetscale-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Planetscale Rate Limits
@@ -417,7 +416,7 @@ rules:
   slug: planetscale-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.3
+  composite: 30.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 42.5
@@ -425,15 +424,15 @@ score:
     catalog_gap: 72.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 64.2
-    developer_ergonomics: 19.0
+    developer_ergonomics: 23.8
     discoverability: 42.9
-    operational_transparency: 10.5
-  previous_composite: 29.8
+    operational_transparency: 13.2
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -447,13 +446,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/screenshots/planetscale-2026-06-20T191803.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/planetscale/planetscale-2026-06-20T191803.png
 security:
 - kind: authentication
   name: Planetscale Authentication

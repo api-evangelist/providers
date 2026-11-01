@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-10-17'
+  score: 36.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 5
@@ -43,40 +45,40 @@ apis:
   description: The Shadow AI API from Credoai — 6 operation(s) for shadow ai.
   name: Credoai Shadow AI API
   slug: credoai-shadow-ai-api
-artifact_total: 14
+artifact_total: 15
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/agentic-access/credoai-agentic-access.yml
+  href: https://artifacts.apis.io/credoai/agentic-access/credoai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/credoai-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/rules/credoai-rules.yml
+  href: https://artifacts.apis.io/credoai/rules/credoai-rules.yml
   title: ''
   type: Spectral
   url: rules/credoai-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/json-ld/credoai-context.jsonld
+  href: https://artifacts.apis.io/credoai/json-ld/credoai-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/credoai-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/vocabulary/credoai-vocabulary.yml
+  href: https://artifacts.apis.io/credoai/vocabulary/credoai-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/credoai-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/credoai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/data-model/credoai-data-model.yml
+  href: https://artifacts.apis.io/credoai/data-model/credoai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/credoai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/conventions/credoai-conventions.yml
+  href: https://artifacts.apis.io/credoai/conventions/credoai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/credoai-conventions.yml
@@ -85,32 +87,32 @@ common:
   type: Compliance
   url: https://trust.credo.ai/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/errors/credoai-problem-types.yml
+  href: https://artifacts.apis.io/credoai/errors/credoai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/credoai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/conformance/credoai-conformance.yml
+  href: https://artifacts.apis.io/credoai/conformance/credoai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/credoai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/llms/credoai-llms.txt
+  href: https://artifacts.apis.io/credoai/llms/credoai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/credoai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/well-known/credoai-well-known.yml
+  href: https://artifacts.apis.io/credoai/well-known/credoai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/credoai-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/hosts/credoai-hosts.yml
+  href: https://artifacts.apis.io/credoai/hosts/credoai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/credoai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/vendors/credoai-vendors.yml
+  href: https://artifacts.apis.io/credoai/vendors/credoai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/credoai-vendors.yml
@@ -143,17 +145,17 @@ common:
   type: Documentation
   url: https://docs.sdk.credo.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/authentication/credoai-authentication.yml
+  href: https://artifacts.apis.io/credoai/authentication/credoai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/credoai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/security/credoai-trust-center.yml
+  href: https://artifacts.apis.io/credoai/security/credoai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/credoai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/credoai/refs/heads/main/security/credoai-domain-security.yml
+  href: https://artifacts.apis.io/credoai/security/credoai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/credoai-domain-security.yml
@@ -208,14 +210,14 @@ modified: '2026-10-11'
 name: Credoai
 nav: Providers
 network: true
-overview: 'Credoai publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Audit Logs API and Shadow AI API. Tagged areas include Company, Artificial Intelligence, Governance, Software-as-a-Service, and PaloAlto.
+overview: 'Credoai publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Audit Logs API and Shadow AI API. Tagged areas include Company, Artificial Intelligence, Governance, Software-as-a-Service, and Palo Alto.
 
 
   The Credoai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   Credoai''s developer surface includes engineering blog, getting-started guide, documentation, authentication, and 21 more developer resources.'
-random_paper: 1
+random_paper: 7
 rules:
 - authorship: generated
   effective_rule_count: 57
@@ -239,13 +241,20 @@ score:
     catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 22.0
     contract_quality: 62.1
     developer_ergonomics: 37.5
-    discoverability: 76.8
+    discoverability: 69.6
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -262,11 +271,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Credoai Authentication
@@ -280,12 +291,16 @@ security:
   name: Credoai Trust Center
   slug: credoai-trust-center
   summary_line: SOC 2
+skill_count: 1
+skills:
+- name: credoai-register-and-list-ai-tools
+  slug: credoai-register-and-list-ai-tools
 slug: credoai
 tags:
 - Company
 - Artificial Intelligence
 - Governance
 - Software-as-a-Service
-- PaloAlto
+- Palo Alto
 website: https://www.credo.ai
 ---

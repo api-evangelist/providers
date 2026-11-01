@@ -25,27 +25,34 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-17'
+  score: 39.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Server-to-server REST API for managing businesses, channels, videos, livestreams, playlists, products, business stores, and insights, plus HMAC-signed webhooks. Secured with OAuth 2.0 (client credenti
   name: Firework Public API
   slug: firework-public-api
-artifact_total: 6
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Firework Webhooks
   slug: firework-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/firework/plans/firework-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/firework-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -55,7 +62,7 @@ common:
   type: Website
   url: https://www.firework.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/security/firework-domain-security.yml
+  href: https://artifacts.apis.io/firework/security/firework-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/firework-domain-security.yml
@@ -108,72 +115,80 @@ common:
   type: StatusPage
   url: https://firework.statuspage.io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/authentication/firework-authentication.yml
+  href: https://artifacts.apis.io/firework/authentication/firework-authentication.yml
   title: ''
   type: Authentication
   url: authentication/firework-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/scopes/firework-scopes.yml
+  href: https://artifacts.apis.io/firework/scopes/firework-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/firework-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/well-known/firework-well-known.yml
+  href: https://artifacts.apis.io/firework/well-known/firework-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/firework-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/packages/firework-packages.yml
+  href: https://artifacts.apis.io/firework/packages/firework-packages.yml
   title: ''
   type: Packages
   url: packages/firework-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/packages/firework-packages.yml
+  href: https://artifacts.apis.io/firework/packages/firework-packages.yml
   title: ''
   type: SDKs
   url: packages/firework-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/components/firework-components.yml
+  href: https://artifacts.apis.io/firework/components/firework-components.yml
   title: ''
   type: Components
   url: components/firework-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/asyncapi/firework-webhooks.yml
+  href: https://artifacts.apis.io/firework/asyncapi/firework-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/firework-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/conventions/firework-conventions.yml
+  href: https://artifacts.apis.io/firework/conventions/firework-conventions.yml
   title: ''
   type: Conventions
   url: conventions/firework-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/conformance/firework-conformance.yml
+  href: https://artifacts.apis.io/firework/conformance/firework-conformance.yml
   title: ''
   type: Conformance
   url: conformance/firework-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/changelog/firework-changelog.yml
+  href: https://artifacts.apis.io/firework/changelog/firework-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/firework-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/lifecycle/firework-lifecycle.yml
+  href: https://artifacts.apis.io/firework/lifecycle/firework-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/firework-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/data-model/firework-data-model.yml
+  href: https://artifacts.apis.io/firework/data-model/firework-data-model.yml
   title: ''
   type: DataModel
   url: data-model/firework-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/llms/firework-llms.txt
+  href: https://artifacts.apis.io/firework/llms/firework-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/firework-llms.txt
 created: '2026-07-17'
 description: Firework is a video commerce platform that helps brands and retailers bring the in-store experience and human connection online through shoppable short-form video, livestream shopping, 1:1 video chat, digital showrooms, and an AI shopping agent. Operated by Loop Now Technologies and backed by SoftBank (a $150M Series C led SoftBank's investment), Firework powers 1,500+ global brands and has driven $300M+ in GMV across 2+ trillion video views. For developers it offers a Web SDK, native Android/iOS SDKs, React Native and Flutter plugins, embeddable web components (Hero Unit, Carousel, Player Deck, Storyblock, Floating Player), a server-side REST Public API (https://api.firework.com/api/v1) secured with OAuth 2.0 (client credentials and authorization-code + PKCE with dynamic client registration), HMAC-signed webhooks, and turnkey commerce-platform integrations for Shopify, Magento, WooCommerce, Salesforce Commerce Cloud, and BigCommerce.
+finops:
+- has_sources: true
+  method: derived
+  name: Firework Finops
+  primary_unit: 1k additional video views
+  service_category: ''
+  slug: firework-finops
+  template: false
 image: https://firework.com/favicon.ico
 layout: provider
 mcp_servers:
@@ -190,32 +205,39 @@ overview: 'Firework is listed with 1 API on the [APIs.io](https://apis.io/) netw
   The Firework catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Firework''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 15
+  Firework''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
+plans:
+- name: Firework Plans Pricing
+  plan_count: 9
+  slug: firework-plans-pricing
+- name: Firework Price Estimates
+  plan_count: 0
+  slug: firework-price-estimates
+random_paper: 9
 scopes:
 - name: Firework Scopes
   scope_count: 12
   slug: firework-scopes
   summary_line: 12 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 49.6
+  band: strong
+  composite: 56.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 75.0
-    operational_transparency: 42.1
-  previous_composite: 49.5
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 49.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -225,14 +247,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/screenshots/firework-2026-07-25T214557.png
+screenshot: https://apis.io/screenshots/firework/firework-2026-07-25T214557.png
 security:
 - kind: authentication
   name: Firework Authentication

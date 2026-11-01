@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.9
-  scored_at: '2026-10-17'
+  score: 24.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,9 +74,6 @@ collections:
   name: Calendarific Holiday Countries Languages API
   slug: postman-calendarific-languages-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Calendarific Holiday Countries API
   slug: open-calendarific-countries-api
 - collection_type: open
@@ -88,7 +87,7 @@ collections:
   slug: open-calendarific
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/finops/calendarific-finops.yml
+  href: https://artifacts.apis.io/calendarific/finops/calendarific-finops.yml
   title: ''
   type: FinOps
   url: finops/calendarific-finops.yml
@@ -101,17 +100,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/calendarific/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/agentic-access/calendarific-agentic-access.yml
+  href: https://artifacts.apis.io/calendarific/agentic-access/calendarific-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/calendarific-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/security/calendarific-domain-security.yml
+  href: https://artifacts.apis.io/calendarific/security/calendarific-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/calendarific-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/authentication/calendarific-authentication.yml
+  href: https://artifacts.apis.io/calendarific/authentication/calendarific-authentication.yml
   title: ''
   type: Authentication
   url: authentication/calendarific-authentication.yml
@@ -136,12 +135,12 @@ common:
   type: Pricing
   url: https://calendarific.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/plans/calendarific-plans-pricing.yml
+  href: https://artifacts.apis.io/calendarific/plans/calendarific-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/calendarific-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/rate-limits/calendarific-rate-limits.yml
+  href: https://artifacts.apis.io/calendarific/rate-limits/calendarific-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/calendarific-rate-limits.yml
@@ -198,12 +197,12 @@ common:
   type: SDKs
   url: https://github.com/Bounceapp/elixir-calendarific
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/rules/calendarific-rules.yml
+  href: https://artifacts.apis.io/calendarific/rules/calendarific-rules.yml
   title: ''
   type: SpectralRules
   url: rules/calendarific-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/vocabulary/calendarific-vocabulary.yml
+  href: https://artifacts.apis.io/calendarific/vocabulary/calendarific-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/calendarific-vocabulary.yml
@@ -239,13 +238,13 @@ features:
 - description: Multiple keys per account for environment separation.
   name: Multiple API Keys
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Calendarific Finops
-  primary_unit: ''
+  primary_unit: subscription
   service_category: ''
   slug: calendarific-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/calendarific.png
 integrations:
 - description: Imported holiday data into Google Calendar via custom calendars.
@@ -295,9 +294,12 @@ overview: 'Calendarific publishes 3 API contracts indexed on the [APIs.io](https
   Calendarific''s developer surface includes engineering blog, authentication, signup flow, pricing, support, tooling, and 23 more developer resources.'
 plans:
 - name: Calendarific Plans Pricing
-  plan_count: 4
+  plan_count: 8
   slug: calendarific-plans-pricing
-random_paper: 5
+- name: Calendarific Price Estimates
+  plan_count: 0
+  slug: calendarific-price-estimates
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Calendarific Rate Limits
@@ -327,29 +329,29 @@ rules:
     warn: 4
   slug: calendarific-rules
 score:
-  band: developing
-  composite: 49.2
+  band: strong
+  composite: 58.1
   coverage:
     artifact_dirs: 18
-    catalog_earned: 66.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_earned: 78.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.1
+  delta: 1.5
   facets:
-    access_clarity: 46.1
+    access_clarity: 84.2
     contract_governance: 27.3
     contract_quality: 63.9
-    developer_ergonomics: 58.3
+    developer_ergonomics: 63.1
     discoverability: 73.2
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - global
-  previous_composite: 54.3
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     contracts:
@@ -363,14 +365,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/screenshots/calendarific-2026-06-20T173842.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/calendarific/calendarific-2026-06-20T173842.png
 security:
 - kind: authentication
   name: Calendarific Authentication

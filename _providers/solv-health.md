@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Real-time same-day appointment availability and booking capability that lets digital-first and virtual-care partners (telehealth navigators, health plans) hand a patient off to an in-person visit at a
@@ -51,7 +53,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/solv-health/refs/heads/main/security/solv-health-domain-security.yml
+  href: https://artifacts.apis.io/solv-health/security/solv-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/solv-health-domain-security.yml
@@ -68,12 +70,12 @@ common:
   type: Documentation
   url: https://www.solvhealth.com/for-providers/integrations
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/solv-health/refs/heads/main/plans/solv-health-plans-pricing.yml
+  href: https://artifacts.apis.io/solv-health/plans/solv-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/solv-health-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/solv-health/refs/heads/main/finops/solv-health-finops.yml
+  href: https://artifacts.apis.io/solv-health/finops/solv-health-finops.yml
   title: ''
   type: FinOps
   url: finops/solv-health-finops.yml
@@ -102,7 +104,7 @@ plans:
 - name: Solv Health Plans Pricing
   plan_count: 2
   slug: solv-health-plans-pricing
-random_paper: 5
+random_paper: 23
 score:
   band: minimal
   composite: 8.1
@@ -113,7 +115,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -121,21 +123,21 @@ score:
     developer_ergonomics: 9.5
     discoverability: 62.5
     operational_transparency: 0.0
-  previous_composite: 12.4
+  previous_composite: 8.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/solv-health/refs/heads/main/screenshots/solv-health-2026-09-02T160142.png
+screenshot: https://apis.io/screenshots/solv-health/solv-health-2026-09-02T160142.png
 security:
 - kind: domain-security
   name: Solv Health Domain Security

@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: derived
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-10-17'
+  score: 29.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -63,80 +65,80 @@ apis:
   description: 'Manage webhooks that notify your server when messages are sent or received. For full details on implementing your webhook — including event types, request headers, payload structure, retry logic, and '
   name: BulkSMS Webhooks API
   slug: bulksms-webhooks-api
-artifact_total: 18
+artifact_total: 22
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/agentic-access/bulksms-agentic-access.yml
+  href: https://artifacts.apis.io/bulksms/agentic-access/bulksms-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bulksms-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/rules/bulksms-rules.yml
+  href: https://artifacts.apis.io/bulksms/rules/bulksms-rules.yml
   title: ''
   type: Spectral
   url: rules/bulksms-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/json-ld/bulksms-context.jsonld
+  href: https://artifacts.apis.io/bulksms/json-ld/bulksms-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bulksms-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/vocabulary/bulksms-vocabulary.yml
+  href: https://artifacts.apis.io/bulksms/vocabulary/bulksms-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bulksms-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bulksms/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/data-model/bulksms-data-model.yml
+  href: https://artifacts.apis.io/bulksms/data-model/bulksms-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bulksms-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/conventions/bulksms-conventions.yml
+  href: https://artifacts.apis.io/bulksms/conventions/bulksms-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/bulksms-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/conventions/bulksms-conventions.yml
+  href: https://artifacts.apis.io/bulksms/conventions/bulksms-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bulksms-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/errors/bulksms-problem-types.yml
+  href: https://artifacts.apis.io/bulksms/errors/bulksms-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bulksms-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/conformance/bulksms-conformance.yml
+  href: https://artifacts.apis.io/bulksms/conformance/bulksms-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bulksms-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/llms/bulksms-llms.txt
+  href: https://artifacts.apis.io/bulksms/llms/bulksms-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bulksms-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/hosts/bulksms-hosts.yml
+  href: https://artifacts.apis.io/bulksms/hosts/bulksms-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bulksms-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/vendors/bulksms-vendors.yml
+  href: https://artifacts.apis.io/bulksms/vendors/bulksms-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bulksms-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/packages/bulksms-packages.yml
+  href: https://artifacts.apis.io/bulksms/packages/bulksms-packages.yml
   title: ''
   type: SDKs
   url: packages/bulksms-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/packages/bulksms-packages.yml
+  href: https://artifacts.apis.io/bulksms/packages/bulksms-packages.yml
   title: ''
   type: Packages
   url: packages/bulksms-packages.yml
@@ -157,12 +159,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/BulkSMS
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/authentication/bulksms-authentication.yml
+  href: https://artifacts.apis.io/bulksms/authentication/bulksms-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bulksms-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/security/bulksms-domain-security.yml
+  href: https://artifacts.apis.io/bulksms/security/bulksms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bulksms-domain-security.yml
@@ -200,6 +202,14 @@ common:
   url: https://www.bulksms.com/account/
 created: '2026-10-13'
 description: BulkSMS provides a business SMS platform enabling companies to send, receive and manage text messages globally. With over 25 years in business messaging, they support 180+ countries, 800+ local networks, and offer features like web-to-SMS, shortcodes, long numbers, RCS messaging, and integrations via REST, legacy EAPI, and SMPP. Their API allows developers to automate notifications, alerts, and marketing campaigns, backed by robust pricing, compliance, and support resources.
+finops:
+- has_sources: true
+  method: derived
+  name: Bulksms Finops
+  primary_unit: ''
+  service_category: ''
+  slug: bulksms-finops
+  template: true
 image: https://www.bulksms.com/images/share/bulksms-social-share-2026.jpg
 json_schemas:
 - name: Message
@@ -230,7 +240,7 @@ modified: '2026-10-13'
 name: BulkSMS
 nav: Providers
 network: true
-overview: 'BulkSMS publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attachments API, Blocked Numbers API, Credits API, and 3 more. Tagged areas include SMS, Messaging, Communications, Business, and BulkSMS.
+overview: 'BulkSMS publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attachments API, Blocked Numbers API, Credits API, and 3 more. Tagged areas include SMS, Messaging, Communications, Business, and Bulk SMS.
 
 
   The BulkSMS catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -241,7 +251,7 @@ plans:
 - name: Bulksms Plans Pricing
   plan_count: 0
   slug: bulksms-plans-pricing
-random_paper: 21
+random_paper: 1
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -257,21 +267,23 @@ rules:
   slug: bulksms-rules
 score:
   band: developing
-  composite: 45.0
+  composite: 44.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 22.0
-    contract_quality: 63.0
+    contract_quality: 61.0
     developer_ergonomics: 63.7
-    discoverability: 75.0
+    discoverability: 67.9
     operational_transparency: 5.3
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -288,11 +300,13 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 17.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Bulksms Authentication
@@ -302,12 +316,20 @@ security:
   name: Bulksms Domain Security
   slug: bulksms-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: bulksms-blocked-numbers-manage
+  slug: bulksms-blocked-numbers-manage
+- name: bulksms-manage-webhooks
+  slug: bulksms-manage-webhooks
+- name: bulksms-send-message
+  slug: bulksms-send-message
 slug: bulksms
 tags:
 - SMS
 - Messaging
 - Communications
 - Business
-- BulkSMS
+- Bulk SMS
 website: https://www.bulksms.com
 ---

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Partner-facing PayCargo API for retrieving charges due, processing payments, and reconciling transactions directly from a customer's accounting or transportation-management system. Uses GET and POST c
@@ -41,7 +43,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paycargo-llc/refs/heads/main/security/paycargo-llc-domain-security.yml
+  href: https://artifacts.apis.io/paycargo-llc/security/paycargo-llc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paycargo-llc-domain-security.yml
@@ -94,12 +96,12 @@ common:
   type: ChangeLog
   url: https://support.paycargo.com/product-updates/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paycargo-llc/refs/heads/main/llms/paycargo-llc-llms.txt
+  href: https://artifacts.apis.io/paycargo-llc/llms/paycargo-llc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paycargo-llc-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paycargo-llc/refs/heads/main/conformance/paycargo-llc-conformance.yml
+  href: https://artifacts.apis.io/paycargo-llc/conformance/paycargo-llc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/paycargo-llc-conformance.yml
@@ -115,12 +117,12 @@ overview: 'PayCargo is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   PayCargo''s developer surface includes documentation, support, engineering blog, pricing, signup flow, changelog, and 9 more developer resources.'
-random_paper: 4
+random_paper: 14
 score:
-  band: thin
-  composite: 26.8
+  band: emerging
+  composite: 26.1
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -132,9 +134,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 26.8
+  previous_composite: 26.1
   provenance:
     conformance: first-party
   regulatory:
@@ -149,14 +151,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 28.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/paycargo-llc/refs/heads/main/screenshots/paycargo-llc-2026-08-07T191629.png
+screenshot: https://apis.io/screenshots/paycargo-llc/paycargo-llc-2026-08-07T191629.png
 security:
 - kind: domain-security
   name: Paycargo Llc Domain Security

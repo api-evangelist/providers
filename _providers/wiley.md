@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wiley/refs/heads/main/security/wiley-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/wiley/security/wiley-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wiley-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wiley/refs/heads/main/security/wiley-domain-security.yml
+  href: https://artifacts.apis.io/wiley/security/wiley-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wiley-domain-security.yml
@@ -67,10 +69,10 @@ name: Wiley
 nav: Providers
 network: true
 overview: Wiley is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Publishing, Education, Academic, Research, and Scholarly Publishing.
-random_paper: 4
+random_paper: 2
 score:
   band: minimal
-  composite: 3.6
+  composite: 5.4
   coverage:
     artifact_dirs: 4
     catalog_earned: 24.0
@@ -85,22 +87,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 42.9
-    operational_transparency: 2.6
-  previous_composite: 3.6
+    operational_transparency: 15.8
+  previous_composite: 5.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wiley/refs/heads/main/screenshots/wiley-2026-10-11T194728.png
+screenshot: https://apis.io/screenshots/wiley/wiley-2026-10-11T194728.png
 security:
 - kind: domain-security
   name: Wiley Domain Security

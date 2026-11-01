@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Financial Document Extraction API
@@ -32,22 +34,22 @@ apis:
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fintract/refs/heads/main/plans/fintract-plans-pricing.yml
+  href: https://artifacts.apis.io/fintract/plans/fintract-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fintract-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fintract/refs/heads/main/hosts/fintract-hosts.yml
+  href: https://artifacts.apis.io/fintract/hosts/fintract-hosts.yml
   title: ''
   type: Hosts
   url: hosts/fintract-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fintract/refs/heads/main/vendors/fintract-vendors.yml
+  href: https://artifacts.apis.io/fintract/vendors/fintract-vendors.yml
   title: ''
   type: Vendors
   url: vendors/fintract-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fintract/refs/heads/main/security/fintract-domain-security.yml
+  href: https://artifacts.apis.io/fintract/security/fintract-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fintract-domain-security.yml
@@ -95,7 +97,7 @@ modified: '2026-10-16'
 name: Fintract
 nav: Providers
 network: true
-overview: 'Fintract is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, OCR, Document-Processing, and Fintech.
+overview: 'Fintract is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, OCR, Document Processing, and Fintech.
 
 
   Fintract''s developer surface includes engineering blog, pricing, signup flow, documentation, and 7 more developer resources.'
@@ -103,7 +105,7 @@ plans:
 - name: Fintract Plans Pricing
   plan_count: 2
   slug: fintract-plans-pricing
-random_paper: 1
+random_paper: 19
 score:
   band: emerging
   composite: 20.2
@@ -114,6 +116,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 0.0
@@ -121,6 +124,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 48.2
     operational_transparency: 0.0
+  previous_composite: 20.2
   provenance:
     mcp: derived
   regulatory:
@@ -129,8 +133,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -144,7 +149,7 @@ slug: fintract
 tags:
 - Finance
 - OCR
-- Document-Processing
+- Document Processing
 - Fintech
 website: https://fintract.ai/
 ---

@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.8
-  scored_at: '2026-10-17'
+  score: 17.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Account and Transaction Information Services (AIS) as defined by the OBIE Read/Write API Standard - FAPI-secured (OAuth2/OIDC, mutual-TLS, PSD2 strong customer authentication). Represented here as the
@@ -82,12 +84,12 @@ collections:
   slug: open-obie-opendata
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/capabilities/skipton-building-society-capability-edges.yml
+  href: https://artifacts.apis.io/skipton-building-society/capabilities/skipton-building-society-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/skipton-building-society-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/security/skipton-building-society-domain-security.yml
+  href: https://artifacts.apis.io/skipton-building-society/security/skipton-building-society-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skipton-building-society-domain-security.yml
@@ -136,37 +138,37 @@ common:
   type: Standard
   url: https://github.com/OpenBankingUK/read-write-api-specs
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/authentication/skipton-building-society-authentication.yml
+  href: https://artifacts.apis.io/skipton-building-society/authentication/skipton-building-society-authentication.yml
   title: ''
   type: Authentication
   url: authentication/skipton-building-society-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/conformance/skipton-building-society-conformance.yml
+  href: https://artifacts.apis.io/skipton-building-society/conformance/skipton-building-society-conformance.yml
   title: ''
   type: Conformance
   url: conformance/skipton-building-society-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/errors/skipton-building-society-problem-types.yml
+  href: https://artifacts.apis.io/skipton-building-society/errors/skipton-building-society-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/skipton-building-society-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/conventions/skipton-building-society-conventions.yml
+  href: https://artifacts.apis.io/skipton-building-society/conventions/skipton-building-society-conventions.yml
   title: ''
   type: Conventions
   url: conventions/skipton-building-society-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/well-known/skipton-building-society-well-known.yml
+  href: https://artifacts.apis.io/skipton-building-society/well-known/skipton-building-society-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/skipton-building-society-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/llms/skipton-building-society-llms.txt
+  href: https://artifacts.apis.io/skipton-building-society/llms/skipton-building-society-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/skipton-building-society-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/overlays/skipton-building-society-obie-opendata-overlay.yaml
+  href: https://artifacts.apis.io/skipton-building-society/overlays/skipton-building-society-obie-opendata-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/skipton-building-society-obie-opendata-overlay.yaml
@@ -183,24 +185,24 @@ overview: 'Skipton Building Society publishes 9 API contracts indexed on the [AP
 
 
   Skipton Building Society''s developer surface includes support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 16
+random_paper: 8
 score:
   band: thin
-  composite: 35.7
+  composite: 27.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.0
-    catalog_max: 100.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 57.1
+    access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 35.5
     developer_ergonomics: 35.7
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -210,7 +212,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 35.6
+  previous_composite: 27.7
   provenance:
     conformance: derived
     contracts:
@@ -224,14 +226,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/screenshots/skipton-building-society-2026-09-02T155735.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/skipton-building-society/skipton-building-society-2026-09-02T155735.png
 security:
 - kind: authentication
   name: Skipton Building Society Authentication

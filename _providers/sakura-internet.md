@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.7
-  scored_at: '2026-10-17'
+  score: 33.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 313
   human_in_the_loop: 4
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 570
   slug: sakura-internet-agentic-access
   summary_line: 570 operations · 313 acting · 4 human-in-the-loop
-api_count: 40
+api_count: 20
 apis:
 - description: 'さくらのクラウドAPI1.1: the core SAKURA Cloud IaaS REST API for operating servers, disks, ISO images, bridges, routers, interfaces, appliances, icons, scripts, SSH keys, facilities, products, users/projects a'
   name: SAKURA Cloud API 1.1
@@ -251,125 +253,130 @@ apis:
   description: ユーザに関する機能
   name: SAKURA internet User API
   slug: sakura-internet-user-api
-artifact_total: 153
+artifact_total: 161
 common:
+- group: other
+  href: https://artifacts.apis.io/sakura-internet/capabilities/sakura-internet-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sakura-internet-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/agentic-access/sakura-internet-agentic-access.yml
+  href: https://artifacts.apis.io/sakura-internet/agentic-access/sakura-internet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sakura-internet-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/rate-limits/sakura-internet-rate-limits.yml
+  href: https://artifacts.apis.io/sakura-internet/rate-limits/sakura-internet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sakura-internet-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/plans/sakura-internet-plans-pricing.yml
+  href: https://artifacts.apis.io/sakura-internet/plans/sakura-internet-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sakura-internet-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/rules/sakura-internet-rules.yml
+  href: https://artifacts.apis.io/sakura-internet/rules/sakura-internet-rules.yml
   title: ''
   type: Spectral
   url: rules/sakura-internet-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/rules/sakura-internet-phy-api-go-spectral-rules.yml
+  href: https://artifacts.apis.io/sakura-internet/rules/sakura-internet-phy-api-go-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/sakura-internet-phy-api-go-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/json-ld/sakura-internet-context.jsonld
+  href: https://artifacts.apis.io/sakura-internet/json-ld/sakura-internet-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/sakura-internet-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/vocabulary/sakura-internet-vocabulary.yml
+  href: https://artifacts.apis.io/sakura-internet/vocabulary/sakura-internet-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sakura-internet-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sakura-internet/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/data-model/sakura-internet-data-model.yml
+  href: https://artifacts.apis.io/sakura-internet/data-model/sakura-internet-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sakura-internet-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/cli/sakura-internet-cli.yml
+  href: https://artifacts.apis.io/sakura-internet/cli/sakura-internet-cli.yml
   title: ''
   type: CLI
   url: cli/sakura-internet-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/conventions/sakura-internet-conventions.yml
+  href: https://artifacts.apis.io/sakura-internet/conventions/sakura-internet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sakura-internet-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/sandbox/sakura-internet-sandbox.yml
+  href: https://artifacts.apis.io/sakura-internet/sandbox/sakura-internet-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sakura-internet-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/lifecycle/sakura-internet-lifecycle.yml
+  href: https://artifacts.apis.io/sakura-internet/lifecycle/sakura-internet-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/sakura-internet-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/lifecycle/sakura-internet-lifecycle.yml
+  href: https://artifacts.apis.io/sakura-internet/lifecycle/sakura-internet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sakura-internet-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/errors/sakura-internet-problem-types.yml
+  href: https://artifacts.apis.io/sakura-internet/errors/sakura-internet-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sakura-internet-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/conformance/sakura-internet-conformance.yml
+  href: https://artifacts.apis.io/sakura-internet/conformance/sakura-internet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sakura-internet-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/overlays/sakura-internet-addon-overlay.yaml
+  href: https://artifacts.apis.io/sakura-internet/overlays/sakura-internet-addon-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sakura-internet-addon-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/mcp/sakura-internet-tool-crosswalk.yml
+  href: https://artifacts.apis.io/sakura-internet/mcp/sakura-internet-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/sakura-internet-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/mcp/sakura-internet-mcp.yml
+  href: https://artifacts.apis.io/sakura-internet/mcp/sakura-internet-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sakura-internet-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/hosts/sakura-internet-hosts.yml
+  href: https://artifacts.apis.io/sakura-internet/hosts/sakura-internet-hosts.yml
   title: ''
   type: Hosts
   url: hosts/sakura-internet-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/packages/sakura-internet-packages.yml
+  href: https://artifacts.apis.io/sakura-internet/packages/sakura-internet-packages.yml
   title: ''
   type: SDKs
   url: packages/sakura-internet-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/packages/sakura-internet-packages.yml
+  href: https://artifacts.apis.io/sakura-internet/packages/sakura-internet-packages.yml
   title: ''
   type: Packages
   url: packages/sakura-internet-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/authentication/sakura-internet-authentication.yml
+  href: https://artifacts.apis.io/sakura-internet/authentication/sakura-internet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sakura-internet-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/security/sakura-internet-domain-security.yml
+  href: https://artifacts.apis.io/sakura-internet/security/sakura-internet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sakura-internet-domain-security.yml
@@ -451,6 +458,14 @@ common:
   url: https://twitter.com/sakura_pr
 created: '2026-10-09'
 description: SAKURA internet Inc. (さくらインターネット株式会社) is a Japanese internet infrastructure company operating data centers and offering hosting, domain, SSL, CDN, IoT and cloud services. Its flagship IaaS, SAKURA Cloud (さくらのクラウド), provides servers, GPU and confidential VMs, disks, object storage, load balancers, AppRun, KMS and secrets management, all controllable through the SAKURA Cloud REST API (v1.1) documented in its API portal, with open-source SDKs, Terraform provider and tooling published on GitHub under the sacloud organization.
+finops:
+- has_sources: true
+  method: derived
+  name: Sakura Internet Finops
+  primary_unit: ''
+  service_category: ''
+  slug: sakura-internet-finops
+  template: true
 image: https://cloud.sakura.ad.jp/common/images/facebook_thumbs.gif
 json_schemas:
 - name: ActivationCreateInput
@@ -773,12 +788,12 @@ overview: 'SAKURA internet publishes 44 API contracts indexed on the [APIs.io](h
   The SAKURA internet catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SAKURA internet''s developer surface includes CLI, sandbox, authentication, documentation, API reference, pricing, signup flow, and 36 more developer resources.'
+  SAKURA internet''s developer surface includes CLI, sandbox, authentication, documentation, API reference, pricing, signup flow, and 37 more developer resources.'
 plans:
 - name: Sakura Internet Plans Pricing
   plan_count: 1
   slug: sakura-internet-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Sakura Internet Rate Limits
@@ -810,19 +825,19 @@ rules:
   slug: sakura-internet-rules
 score:
   band: strong
-  composite: 63.7
+  composite: 63.6
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 30
     catalog_earned: 81.8
     catalog_earned_first_party: 16.0
     catalog_gap: 33.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 35.6
-    contract_quality: 67.3
+    contract_quality: 63.9
     developer_ergonomics: 68.5
     discoverability: 71.7
     operational_transparency: 60.5
@@ -833,7 +848,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 68.6
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -850,13 +865,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sakura-internet/refs/heads/main/screenshots/sakura-internet-2026-10-11T125514.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sakura-internet/sakura-internet-2026-10-11T125514.png
 security:
 - kind: authentication
   name: Sakura Internet Authentication
@@ -866,6 +882,22 @@ security:
   name: Sakura Internet Domain Security
   slug: sakura-internet-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 7
+skills:
+- name: sakura-internet-answer-questions-over-documents
+  slug: sakura-internet-answer-questions-over-documents
+- name: sakura-internet-chat-completion-with-ai-engine
+  slug: sakura-internet-chat-completion-with-ai-engine
+- name: sakura-internet-deploy-an-apprun-application
+  slug: sakura-internet-deploy-an-apprun-application
+- name: sakura-internet-encrypt-data-with-kms
+  slug: sakura-internet-encrypt-data-with-kms
+- name: sakura-internet-provision-a-bucket-with-scoped-keys
+  slug: sakura-internet-provision-a-bucket-with-scoped-keys
+- name: sakura-internet-send-a-notification
+  slug: sakura-internet-send-a-notification
+- name: sakura-internet-send-and-consume-queue-messages
+  slug: sakura-internet-send-and-consume-queue-messages
 slug: sakura-internet
 tags:
 - Company

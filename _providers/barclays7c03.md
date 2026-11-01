@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,37 +25,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/barclays7c03/refs/heads/main/rate-limits/barclays7c03-rate-limits.yml
+  href: https://artifacts.apis.io/barclays7c03/rate-limits/barclays7c03-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/barclays7c03-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/barclays7c03/refs/heads/main/security/barclays7c03-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/barclays7c03/security/barclays7c03-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/barclays7c03-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/barclays7c03/refs/heads/main/well-known/barclays7c03-security.txt
+  href: https://artifacts.apis.io/barclays7c03/well-known/barclays7c03-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/barclays7c03-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/barclays7c03/refs/heads/main/well-known/barclays7c03-well-known.yml
+  href: https://artifacts.apis.io/barclays7c03/well-known/barclays7c03-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/barclays7c03-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/barclays7c03/refs/heads/main/hosts/barclays7c03-hosts.yml
+  href: https://artifacts.apis.io/barclays7c03/hosts/barclays7c03-hosts.yml
   title: ''
   type: Hosts
   url: hosts/barclays7c03-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/barclays7c03/refs/heads/main/vendors/barclays7c03-vendors.yml
+  href: https://artifacts.apis.io/barclays7c03/vendors/barclays7c03-vendors.yml
   title: ''
   type: Vendors
   url: vendors/barclays7c03-vendors.yml
@@ -78,12 +80,12 @@ common:
   type: Leadership
   url: https://home.barclays/who-we-are/structure-and-leadership/leadership/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/barclays7c03/refs/heads/main/security/barclays7c03-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/barclays7c03/security/barclays7c03-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/barclays7c03-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/barclays7c03/refs/heads/main/security/barclays7c03-domain-security.yml
+  href: https://artifacts.apis.io/barclays7c03/security/barclays7c03-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/barclays7c03-domain-security.yml
@@ -121,7 +123,7 @@ overview: 'Barclays7c03 is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Barclays7c03''s developer surface includes signup flow, documentation, API reference, and 13 more developer resources.'
-random_paper: 2
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Barclays7C03 Rate Limits
@@ -136,7 +138,7 @@ score:
     catalog_gap: 95.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -149,21 +151,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - global
-  previous_composite: 14.7
+  previous_composite: 14.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/barclays7c03/refs/heads/main/screenshots/barclays7c03-2026-10-11T101544.png
+screenshot: https://apis.io/screenshots/barclays7c03/barclays7c03-2026-10-11T101544.png
 security:
 - kind: domain-security
   name: Barclays7C03 Domain Security

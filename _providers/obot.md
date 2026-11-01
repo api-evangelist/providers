@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -42,7 +44,7 @@ common:
   type: BlogRSS
   url: https://obot.ai/blog/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/obot/refs/heads/main/security/obot-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/obot/security/obot-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/obot-vulnerability-disclosure.yml
@@ -51,7 +53,7 @@ common:
   type: Security
   url: https://github.com/obot-platform/obot/security/advisories
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/obot/refs/heads/main/security/obot-domain-security.yml
+  href: https://artifacts.apis.io/obot/security/obot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/obot-domain-security.yml
@@ -92,47 +94,47 @@ common:
   type: PrivacyPolicy
   url: https://obot.ai/privacy-policy/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/obot/refs/heads/main/packages/obot-packages.yml
+  href: https://artifacts.apis.io/obot/packages/obot-packages.yml
   title: ''
   type: Packages
   url: packages/obot-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/obot/refs/heads/main/packages/obot-packages.yml
+  href: https://artifacts.apis.io/obot/packages/obot-packages.yml
   title: ''
   type: SDKs
   url: packages/obot-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/obot/refs/heads/main/authentication/obot-authentication.yml
+  href: https://artifacts.apis.io/obot/authentication/obot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/obot-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/obot/refs/heads/main/cli/obot-cli.yml
+  href: https://artifacts.apis.io/obot/cli/obot-cli.yml
   title: ''
   type: CLI
   url: cli/obot-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/obot/refs/heads/main/mcp/obot-mcp.yml
+  href: https://artifacts.apis.io/obot/mcp/obot-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/obot-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/obot/refs/heads/main/llms/obot-llms.txt
+  href: https://artifacts.apis.io/obot/llms/obot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/obot-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/obot/refs/heads/main/conformance/obot-conformance.yml
+  href: https://artifacts.apis.io/obot/conformance/obot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/obot-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/obot/refs/heads/main/lifecycle/obot-lifecycle.yml
+  href: https://artifacts.apis.io/obot/lifecycle/obot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/obot-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/obot/refs/heads/main/changelog/obot-changelog.yml
+  href: https://artifacts.apis.io/obot/changelog/obot-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/obot-changelog.yml
@@ -152,26 +154,26 @@ overview: 'Obot is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Obot''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, authentication, CLI, and 15 more developer resources.'
-random_paper: 18
+random_paper: 4
 score:
   band: thin
-  composite: 30.8
+  composite: 30.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 55.0
-    operational_transparency: 28.9
-  previous_composite: 30.7
+    discoverability: 48.3
+    operational_transparency: 31.6
+  previous_composite: 30.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -181,14 +183,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/obot/refs/heads/main/screenshots/obot-2026-08-07T185908.png
+screenshot: https://apis.io/screenshots/obot/obot-2026-08-07T185908.png
 security:
 - kind: authentication
   name: Obot Authentication

@@ -25,27 +25,34 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-17'
+  score: 39.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Coro's REST API (v1) for managing workspaces, subscriptions, tickets, devices, protected users, portal users, usage, audit logs, and webhooks across the Coro cybersecurity platform. OAuth 2.0 client-c
   name: Coro Public REST API
   slug: coro-public-rest-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Coro Webhooks
   slug: coro-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/coro/plans/coro-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/coro-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -67,42 +74,42 @@ common:
   type: GettingStarted
   url: https://docs.coro.net/developer-portal/authentication/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/authentication/coro-authentication.yml
+  href: https://artifacts.apis.io/coro/authentication/coro-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coro-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/mcp/coro-mcp.yml
+  href: https://artifacts.apis.io/coro/mcp/coro-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/coro-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/asyncapi/coro-webhooks.yml
+  href: https://artifacts.apis.io/coro/asyncapi/coro-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/coro-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/changelog/coro-changelog.yml
+  href: https://artifacts.apis.io/coro/changelog/coro-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/coro-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/lifecycle/coro-lifecycle.yml
+  href: https://artifacts.apis.io/coro/lifecycle/coro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/coro-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/conventions/coro-conventions.yml
+  href: https://artifacts.apis.io/coro/conventions/coro-conventions.yml
   title: ''
   type: Conventions
   url: conventions/coro-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/data-model/coro-data-model.yml
+  href: https://artifacts.apis.io/coro/data-model/coro-data-model.yml
   title: ''
   type: DataModel
   url: data-model/coro-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/conformance/coro-conformance.yml
+  href: https://artifacts.apis.io/coro/conformance/coro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coro-conformance.yml
@@ -111,22 +118,22 @@ common:
   type: Compliance
   url: https://www.coro.net/compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/security/coro-trust-center.yml
+  href: https://artifacts.apis.io/coro/security/coro-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/coro-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/security/coro-domain-security.yml
+  href: https://artifacts.apis.io/coro/security/coro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coro-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/well-known/coro-well-known.yml
+  href: https://artifacts.apis.io/coro/well-known/coro-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/coro-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/llms/coro-llms.txt
+  href: https://artifacts.apis.io/coro/llms/coro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/coro-llms.txt
@@ -160,6 +167,14 @@ common:
   url: https://www.coro.net/legal/privacy
 created: '2026-07-17'
 description: Coro is a cybersecurity company that consolidates endpoint protection, email security, network protection (ZTNA, VPN, encryption), cloud app security, data protection, and security awareness training into a single AI-driven platform built for lean IT teams, growing organizations, and managed service providers (MSPs). Coro's public REST API (v1) exposes the same workspace security data through region-specific hosts (US, Canada, Germany), organized around workspaces as tenant containers with subscriptions, tickets, devices, protected users, portal users, usage metrics, audit logs, and webhook configurations. It authenticates with OAuth 2.0 client credentials and offers real-time webhooks and an official MCP server so AI tools can query Coro securely. Coro was surfaced as a portfolio company of Balderton Capital.
+finops:
+- has_sources: true
+  method: derived
+  name: Coro Finops
+  primary_unit: ''
+  service_category: ''
+  slug: coro-finops
+  template: true
 image: https://www.coro.net/wp-content/uploads/coro-opengraph.png
 layout: provider
 mcp_servers:
@@ -176,27 +191,31 @@ overview: 'Coro is listed with 1 API on the [APIs.io](https://apis.io/) network.
   The Coro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Coro''s developer surface includes documentation, getting-started guide, authentication, changelog, support, engineering blog, pricing, and 18 more developer resources.'
-random_paper: 17
+  Coro''s developer surface includes documentation, getting-started guide, authentication, changelog, support, engineering blog, pricing, and 19 more developer resources.'
+plans:
+- name: Coro Plans Pricing
+  plan_count: 4
+  slug: coro-plans-pricing
+random_paper: 3
 score:
   band: developing
-  composite: 44.1
+  composite: 52.1
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 17
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 47.4
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 50.0
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 23.7
-  previous_composite: 44.1
+  previous_composite: 45.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -212,14 +231,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/coro/refs/heads/main/screenshots/coro-2026-07-25T210437.png
+screenshot: https://apis.io/screenshots/coro/coro-2026-07-25T210437.png
 security:
 - kind: authentication
   name: Coro Authentication

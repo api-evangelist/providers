@@ -10,30 +10,32 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: false
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.9
-  scored_at: '2026-10-17'
+  score: 2.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for accessing and administrating all Chatmeter platform data including location listings, review management, social monitoring, surveys, and user administration. Uses JSON Web Token (JWT) aut
@@ -41,8 +43,40 @@ apis:
   slug: chatmeter-api
 artifact_total: 7
 common:
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.alchemer.com/help/getting-started
+- group: design
+  href: https://artifacts.apis.io/chatmeter/json-ld/chatmeter-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/chatmeter-context.jsonld
+- group: operate
+  href: https://artifacts.apis.io/chatmeter/lifecycle/chatmeter-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/chatmeter-lifecycle.yml
+- group: other
+  href: https://artifacts.apis.io/chatmeter/hosts/chatmeter-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/chatmeter-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/chatmeter/vendors/chatmeter-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/chatmeter-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.chatmeter.com/newsroom/
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.chatmeter.com/about-us/leadership/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/security/chatmeter-domain-security.yml
+  href: https://artifacts.apis.io/chatmeter/security/chatmeter-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chatmeter-domain-security.yml
@@ -71,70 +105,45 @@ common:
   type: X
   url: https://x.com/chatmeter
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/plans/chatmeter-plans-pricing.yml
+  href: https://artifacts.apis.io/chatmeter/plans/chatmeter-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chatmeter-plans-pricing.yml
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/rate-limits/chatmeter-rate-limits.yml
-  title: ''
-  type: RateLimits
-  url: rate-limits/chatmeter-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/finops/chatmeter-finops.yml
+  href: https://artifacts.apis.io/chatmeter/finops/chatmeter-finops.yml
   title: ''
   type: FinOps
   url: finops/chatmeter-finops.yml
-- group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/authentication/chatmeter-authentication.yml
-  title: ''
-  type: Authentication
-  url: authentication/chatmeter-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/conventions/chatmeter-conventions.yml
+  href: https://artifacts.apis.io/chatmeter/conventions/chatmeter-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chatmeter-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/errors/chatmeter-problem-types.yml
-  title: ''
-  type: ErrorCatalog
-  url: errors/chatmeter-problem-types.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/lifecycle/chatmeter-lifecycle.yml
+  href: https://artifacts.apis.io/chatmeter/lifecycle/chatmeter-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chatmeter-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/conformance/chatmeter-conformance.yml
+  href: https://artifacts.apis.io/chatmeter/conformance/chatmeter-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chatmeter-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/conformance/chatmeter-conformance.yml
+  href: https://artifacts.apis.io/chatmeter/conformance/chatmeter-conformance.yml
   title: ''
   type: Compliance
   url: conformance/chatmeter-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/data-model/chatmeter-data-model.yml
+  href: https://artifacts.apis.io/chatmeter/data-model/chatmeter-data-model.yml
   title: ''
   type: DataModel
   url: data-model/chatmeter-data-model.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/packages/chatmeter-packages.yml
-  title: ''
-  type: Packages
-  url: packages/chatmeter-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/mcp/chatmeter-mcp.yml
+  href: https://artifacts.apis.io/chatmeter/mcp/chatmeter-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/chatmeter-mcp.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/llms/chatmeter-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/chatmeter-llms.txt
 - group: build
   title: ''
   type: GitHubOrganization
@@ -159,6 +168,18 @@ common:
   title: ''
   type: Login
   url: https://live.chatmeter.com/
+coverage:
+  checked: '2026-10-20'
+  detail: The Chatmeter API reference lives in a Zendesk category on support.chatmeter.com that answers 401 and redirects to a customer login, live.chatmeter.com/v5 302s to sign-in, and the public Alchemer help hub carries only end-user Chatmeter articles with no API reference.
+  evidence:
+  - status: 401
+    url: https://support.chatmeter.com/hc/en-us/categories/4465860037275-Chatmeter-API
+  - status: 302
+    url: https://live.chatmeter.com/v5/openapi.json
+  - status: 200
+    url: https://help.alchemer.com/help/chatmeter
+  reason: customer-only-docs
+  state: gated
 created: '2026-06-13'
 description: Chatmeter is an AI-powered multi-location intelligence platform offering a REST API for managing business listings, monitoring and responding to reviews, tracking social mentions, running surveys, and benchmarking competitive performance across locations.
 finops:
@@ -186,35 +207,35 @@ overview: 'Chatmeter is listed with 1 API on the [APIs.io](https://apis.io/) net
   The Chatmeter catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Chatmeter''s developer surface includes documentation, engineering blog, pricing, authentication, support, and 21 more developer resources.'
+  Chatmeter''s developer surface includes getting-started guide, documentation, engineering blog, pricing, support, and 23 more developer resources.'
 plans:
 - name: Chatmeter Plans Pricing
   plan_count: 3
   slug: chatmeter-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Chatmeter Rate Limits
   slug: chatmeter-rate-limits
 score:
   band: thin
-  composite: 33.9
+  composite: 36.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 21
     catalog_earned: 54.0
     catalog_earned_first_party: 12.0
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 77.6
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 6.7
-    developer_ergonomics: 23.8
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 35.4
+    developer_ergonomics: 28.6
+    discoverability: 69.6
+    operational_transparency: 13.2
+  previous_composite: 36.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -223,15 +244,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 23.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/chatmeter/refs/heads/main/screenshots/chatmeter-2026-06-20T174238.png
+screenshot: https://apis.io/screenshots/chatmeter/chatmeter-2026-06-20T174238.png
 security:
 - kind: authentication
   name: Chatmeter Authentication

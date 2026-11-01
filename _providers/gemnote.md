@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
+  score: 23.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,9 +65,6 @@ apis:
 artifact_total: 10
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Gemnote Gifts API
   slug: open-gemnote-gifts-api
 - collection_type: open
@@ -76,17 +75,17 @@ collections:
   slug: open-gemnote-shipments-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/skills/gemnote-send-a-gift.md
+  href: https://artifacts.apis.io/gemnote/skills/gemnote-send-a-gift.md
   title: ''
   type: AgentSkill
   url: skills/gemnote-send-a-gift.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/mcp/gemnote-mcp.yml
+  href: https://artifacts.apis.io/gemnote/mcp/gemnote-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/gemnote-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/overlays/gemnote-openapi-overlay.yaml
+  href: https://artifacts.apis.io/gemnote/overlays/gemnote-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gemnote-openapi-overlay.yaml
@@ -127,17 +126,17 @@ common:
   type: Support
   url: https://support.gemnote.com/hc/en-us
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/llms/gemnote-llms.txt
+  href: https://artifacts.apis.io/gemnote/llms/gemnote-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gemnote-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/well-known/gemnote-well-known.yml
+  href: https://artifacts.apis.io/gemnote/well-known/gemnote-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gemnote-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/security/gemnote-domain-security.yml
+  href: https://artifacts.apis.io/gemnote/security/gemnote-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gemnote-domain-security.yml
@@ -153,10 +152,10 @@ overview: 'Gemnote publishes 3 API contracts indexed on the [APIs.io](https://ap
 
 
   Gemnote''s developer surface includes documentation, API reference, engineering blog, pricing, support, and 10 more developer resources.'
-random_paper: 3
+random_paper: 7
 score:
   band: thin
-  composite: 27.0
+  composite: 27.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -164,14 +163,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 14.5
     developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -179,7 +178,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 26.9
+  previous_composite: 27.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -196,13 +195,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/screenshots/gemnote-2026-07-25T215530.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gemnote/gemnote-2026-07-25T215530.png
 security:
 - kind: authentication
   name: Gemnote Authentication
@@ -212,6 +212,10 @@ security:
   name: Gemnote Domain Security
   slug: gemnote-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Send a gift with Gemnote
+  slug: gemnote-send-a-gift
 slug: gemnote
 tags:
 - Company

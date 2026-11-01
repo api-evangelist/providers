@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -14,16 +15,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.8
-  scored_at: '2026-10-17'
+  score: 39.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -31,7 +34,7 @@ agentic_access:
   operation_count: 233
   slug: madeonsol-agentic-access
   summary_line: 233 operations · 46 acting · 1 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
 - description: The primary keyed MadeOnSol REST API (Bearer msk_ API keys, free and paid tiers), version 1.20.0 with 198 operations across Solana and Robinhood Chain (78 Robinhood Chain operations under /rhc/*) - KO
   name: MadeOnSol API
@@ -131,39 +134,39 @@ apis:
   description: 'Keyless x402 pay-per-call subset of MadeOnSol for Solana: 25 operations priced per call in USDC on Solana, no API key. A separate, smaller surface than the keyed MadeOnSol API.'
   name: MadeOnSol x402 Solana API
   slug: madeonsol-x402-solana-api
-artifact_total: 27
+artifact_total: 30
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://madeonsol.com/feed.xml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/agentic-access/madeonsol-agentic-access.yml
+  href: https://artifacts.apis.io/madeonsol/agentic-access/madeonsol-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/madeonsol-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/plans/madeonsol-plans-pricing.yml
+  href: https://artifacts.apis.io/madeonsol/plans/madeonsol-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/madeonsol-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/rules/madeonsol-rules.yml
+  href: https://artifacts.apis.io/madeonsol/rules/madeonsol-rules.yml
   title: ''
   type: Spectral
   url: rules/madeonsol-rules.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/cli/madeonsol-cli.yml
+  href: https://artifacts.apis.io/madeonsol/cli/madeonsol-cli.yml
   title: ''
   type: CLI
   url: cli/madeonsol-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/changelog/madeonsol-changelog.yml
+  href: https://artifacts.apis.io/madeonsol/changelog/madeonsol-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/madeonsol-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/conventions/madeonsol-conventions.yml
+  href: https://artifacts.apis.io/madeonsol/conventions/madeonsol-conventions.yml
   title: ''
   type: Conventions
   url: conventions/madeonsol-conventions.yml
@@ -172,47 +175,47 @@ common:
   type: Compliance
   url: https://madeonsol.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/authentication/madeonsol-authentication.yml
+  href: https://artifacts.apis.io/madeonsol/authentication/madeonsol-authentication.yml
   title: ''
   type: Authentication
   url: authentication/madeonsol-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/errors/madeonsol-problem-types.yml
+  href: https://artifacts.apis.io/madeonsol/errors/madeonsol-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/madeonsol-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/conformance/madeonsol-conformance.yml
+  href: https://artifacts.apis.io/madeonsol/conformance/madeonsol-conformance.yml
   title: ''
   type: Conformance
   url: conformance/madeonsol-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/llms/madeonsol-llms.txt
+  href: https://artifacts.apis.io/madeonsol/llms/madeonsol-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/madeonsol-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/well-known/madeonsol-security.txt
+  href: https://artifacts.apis.io/madeonsol/well-known/madeonsol-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/madeonsol-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/well-known/madeonsol-well-known.yml
+  href: https://artifacts.apis.io/madeonsol/well-known/madeonsol-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/madeonsol-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/hosts/madeonsol-hosts.yml
+  href: https://artifacts.apis.io/madeonsol/hosts/madeonsol-hosts.yml
   title: ''
   type: Hosts
   url: hosts/madeonsol-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/vendors/madeonsol-vendors.yml
+  href: https://artifacts.apis.io/madeonsol/vendors/madeonsol-vendors.yml
   title: ''
   type: Vendors
   url: vendors/madeonsol-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/packages/madeonsol-packages.yml
+  href: https://artifacts.apis.io/madeonsol/packages/madeonsol-packages.yml
   title: ''
   type: Packages
   url: packages/madeonsol-packages.yml
@@ -241,17 +244,17 @@ common:
   type: ChangeLog
   url: https://madeonsol.com/changelog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/security/madeonsol-trust-center.yml
+  href: https://artifacts.apis.io/madeonsol/security/madeonsol-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/madeonsol-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/security/madeonsol-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/madeonsol/security/madeonsol-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/madeonsol-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/security/madeonsol-domain-security.yml
+  href: https://artifacts.apis.io/madeonsol/security/madeonsol-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/madeonsol-domain-security.yml
@@ -279,6 +282,10 @@ common:
   title: ''
   type: MCPDocumentation
   url: https://madeonsol.com/mcp
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://madeonsol.com/api/agent-gateway/mcp
 - group: agent
   title: ''
   type: MCPPackages
@@ -325,8 +332,20 @@ common:
   url: https://madeonsol.com/privacy
 created: '2026-09-28'
 description: MadeOnSol provides on-chain intelligence APIs for Solana and Robinhood Chain, offering real-time KOL wallet tracking, deployer reputation scoring, and all-DEX trade streams. It also hosts a directory of tools and a developer API with SDKs and a pay-per-call x402 model.
+finops:
+- has_sources: true
+  method: derived
+  name: Madeonsol Finops
+  primary_unit: ''
+  service_category: ''
+  slug: madeonsol-finops
+  template: true
 image: https://madeonsol.com/opengraph-image?v=3
 layout: provider
+mcp_servers:
+- description: ''
+  name: MadeOnSol MCP Server
+  slug: mcp
 modified: '2026-10-06'
 name: MadeOnSol
 nav: Providers
@@ -337,12 +356,15 @@ overview: 'MadeOnSol publishes 20 API contracts indexed on the [APIs.io](https:/
   The MadeOnSol catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  MadeOnSol''s developer surface includes CLI, changelog, authentication, documentation, support, engineering blog, pricing, and 36 more developer resources.'
+  MadeOnSol''s developer surface includes CLI, changelog, authentication, documentation, support, engineering blog, pricing, and 37 more developer resources.'
 plans:
 - name: Madeonsol Plans Pricing
   plan_count: 5
   slug: madeonsol-plans-pricing
-random_paper: 16
+- name: Madeonsol Price Estimates
+  plan_count: 0
+  slug: madeonsol-price-estimates
+random_paper: 2
 rules:
 - authorship: generated
   effective_rule_count: 53
@@ -358,45 +380,46 @@ rules:
   slug: madeonsol-rules
 score:
   band: strong
-  composite: 63.9
+  composite: 62.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 50.8
+    artifact_dirs: 20
+    catalog_earned: 47.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 64.3
+    catalog_gap: 67.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.1
+  delta: -0.7
   facets:
     access_clarity: 92.1
     contract_governance: 15.9
-    contract_quality: 51.8
+    contract_quality: 48.2
     developer_ergonomics: 70.7
-    discoverability: 80.4
+    discoverability: 66.7
     operational_transparency: 47.4
-  previous_composite: 55.8
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 2
-      marker_coverage: 10.5
-      total: 19
-    mcp: derived
+      marker_coverage: 11.1
+      total: 18
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/screenshots/madeonsol-2026-10-11T110633.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/madeonsol/madeonsol-2026-10-11T110633.png
 security:
 - kind: authentication
   name: Madeonsol Authentication

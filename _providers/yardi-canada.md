@@ -23,21 +23,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.7
-  scored_at: '2026-10-17'
+  score: 41.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,19 +78,24 @@ apis:
   description: Rolled-up page status
   name: Yardi Canada Status API
   slug: yardi-canada-status-api
-artifact_total: 14
+artifact_total: 17
 collections:
 - collection_type: open
   name: Yardi Systems Status API
   slug: open-yardi-canada-status
 common:
+- group: other
+  href: https://artifacts.apis.io/yardi-canada/capabilities/yardi-canada-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/yardi-canada-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/agentic-access/yardi-canada-agentic-access.yml
+  href: https://artifacts.apis.io/yardi-canada/agentic-access/yardi-canada-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/yardi-canada-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/security/yardi-canada-domain-security.yml
+  href: https://artifacts.apis.io/yardi-canada/security/yardi-canada-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yardi-canada-domain-security.yml
@@ -125,37 +132,37 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/yardi
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/mcp/yardi-canada-mcp.yml
+  href: https://artifacts.apis.io/yardi-canada/mcp/yardi-canada-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/yardi-canada-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/mcp/yardi-canada-tool-crosswalk.yml
+  href: https://artifacts.apis.io/yardi-canada/mcp/yardi-canada-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/yardi-canada-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/yardi-canada/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/authentication/yardi-canada-authentication.yml
+  href: https://artifacts.apis.io/yardi-canada/authentication/yardi-canada-authentication.yml
   title: ''
   type: Authentication
   url: authentication/yardi-canada-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/scopes/yardi-canada-scopes.yml
+  href: https://artifacts.apis.io/yardi-canada/scopes/yardi-canada-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/yardi-canada-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/well-known/yardi-canada-well-known.yml
+  href: https://artifacts.apis.io/yardi-canada/well-known/yardi-canada-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/yardi-canada-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/conformance/yardi-canada-conformance.yml
+  href: https://artifacts.apis.io/yardi-canada/conformance/yardi-canada-conformance.yml
   title: ''
   type: Conformance
   url: conformance/yardi-canada-conformance.yml
@@ -164,12 +171,12 @@ common:
   type: Compliance
   url: https://www.yardi.com/company/cloud-security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/security/yardi-canada-trust-center.yml
+  href: https://artifacts.apis.io/yardi-canada/security/yardi-canada-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/yardi-canada-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/lifecycle/yardi-canada-lifecycle.yml
+  href: https://artifacts.apis.io/yardi-canada/lifecycle/yardi-canada-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/yardi-canada-lifecycle.yml
@@ -178,32 +185,32 @@ common:
   type: StatusPage
   url: https://status.yardi.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/changelog/yardi-canada-changelog.yml
+  href: https://artifacts.apis.io/yardi-canada/changelog/yardi-canada-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/yardi-canada-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/conventions/yardi-canada-conventions.yml
+  href: https://artifacts.apis.io/yardi-canada/conventions/yardi-canada-conventions.yml
   title: ''
   type: Conventions
   url: conventions/yardi-canada-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/data-model/yardi-canada-data-model.yml
+  href: https://artifacts.apis.io/yardi-canada/data-model/yardi-canada-data-model.yml
   title: ''
   type: DataModel
   url: data-model/yardi-canada-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/packages/yardi-canada-packages.yml
+  href: https://artifacts.apis.io/yardi-canada/packages/yardi-canada-packages.yml
   title: ''
   type: Packages
   url: packages/yardi-canada-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/llms/yardi-canada-llms.txt
+  href: https://artifacts.apis.io/yardi-canada/llms/yardi-canada-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/yardi-canada-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/overlays/yardi-canada-status-overlay.yaml
+  href: https://artifacts.apis.io/yardi-canada/overlays/yardi-canada-status-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/yardi-canada-status-overlay.yaml
@@ -260,31 +267,31 @@ network: true
 overview: 'Yardi Canada publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Components API, Incidents API, Maintenance API, and 4 more. Tagged areas include Real Estate, Canada, Property Management, Rentals, and Commercial Real Estate.
 
 
-  Yardi Canada''s developer surface includes documentation, authentication, changelog, support, legal docs, engineering blog, product news, and 29 more developer resources.'
-random_paper: 16
+  Yardi Canada''s developer surface includes documentation, authentication, changelog, support, legal docs, engineering blog, product news, and 30 more developer resources.'
+random_paper: 6
 scopes:
 - name: Yardi Canada Scopes
   scope_count: 4
   slug: yardi-canada-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: strong
-  composite: 55.7
+  band: developing
+  composite: 45.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.0
-    catalog_max: 100.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 100.0
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 45.8
     developer_ergonomics: 42.3
-    discoverability: 60.8
-    operational_transparency: 34.2
+    discoverability: 58.3
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -292,7 +299,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 55.7
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -313,14 +320,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/screenshots/yardi-canada-2026-08-17T083014.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/yardi-canada/yardi-canada-2026-08-17T083014.png
 security:
 - kind: authentication
   name: Yardi Canada Authentication
@@ -334,6 +341,14 @@ security:
   name: Yardi Canada Trust Center
   slug: yardi-canada-trust-center
   summary_line: SOC 2 (annual), SOC 1 (biannual), SSAE 18, PCI, HIPAA, Sarbanes-Oxley, CSA STAR Level 2, FIPS 140-2 (key management)
+skill_count: 3
+skills:
+- name: Check Yardi Canada service health
+  slug: yardi-canada-check-canada-service-health
+- name: Connect to the Yardi Virtuoso MCP server
+  slug: yardi-canada-connect-virtuoso-mcp
+- name: Watch Yardi Canada maintenance windows
+  slug: yardi-canada-watch-canada-maintenance
 slug: yardi-canada
 tags:
 - Real Estate

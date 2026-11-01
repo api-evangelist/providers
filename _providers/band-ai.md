@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-17'
+  score: 35.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 64
   slug: band-ai-agentic-access
   summary_line: 64 operations · 36 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://app.band.ai
   baseurl_source: declared
@@ -139,15 +141,12 @@ apis:
   description: The humanApiProfile API from Band AI — 1 operation(s) for humanapiprofile.
   name: Band AI Human API Profile API
   slug: band-ai-humanapiprofile-api
-artifact_total: 45
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Band Ai Websocket Events
   slug: band-ai-websocket-events
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Request agentApiActivity API
   slug: open-band-ai-agentapiactivity-api
@@ -206,8 +205,17 @@ collections:
   name: Request agentApiActivity humanApiProfile API
   slug: open-band-ai-humanapiprofile-api
 common:
+- group: other
+  href: https://artifacts.apis.io/band-ai/capabilities/band-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/band-ai-capability-edges.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/band-ai/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/plans/band-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/band-ai/plans/band-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/band-ai-plans-pricing.yml
@@ -268,87 +276,95 @@ common:
   type: StatusPage
   url: https://status.band.ai/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/llms/band-ai-llms.txt
+  href: https://artifacts.apis.io/band-ai/llms/band-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/band-ai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/mcp/band-ai-mcp.yml
+  href: https://artifacts.apis.io/band-ai/mcp/band-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/band-ai-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/packages/band-ai-packages.yml
+  href: https://artifacts.apis.io/band-ai/packages/band-ai-packages.yml
   title: ''
   type: Packages
   url: packages/band-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/packages/band-ai-packages.yml
+  href: https://artifacts.apis.io/band-ai/packages/band-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/band-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/cli/band-ai-cli.yml
+  href: https://artifacts.apis.io/band-ai/cli/band-ai-cli.yml
   title: ''
   type: CLI
   url: cli/band-ai-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/authentication/band-ai-authentication.yml
+  href: https://artifacts.apis.io/band-ai/authentication/band-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/band-ai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/errors/band-ai-error-codes.yml
+  href: https://artifacts.apis.io/band-ai/errors/band-ai-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/band-ai-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/conventions/band-ai-conventions.yml
+  href: https://artifacts.apis.io/band-ai/conventions/band-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/band-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/data-model/band-ai-data-model.yml
+  href: https://artifacts.apis.io/band-ai/data-model/band-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/band-ai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/conformance/band-ai-conformance.yml
+  href: https://artifacts.apis.io/band-ai/conformance/band-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/band-ai-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/overlays/band-ai-openapi-overlay.yaml
+  href: https://artifacts.apis.io/band-ai/overlays/band-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/band-ai-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/lifecycle/band-ai-lifecycle.yml
+  href: https://artifacts.apis.io/band-ai/lifecycle/band-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/band-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/asyncapi/band-ai-websocket-events.yml
+  href: https://artifacts.apis.io/band-ai/asyncapi/band-ai-websocket-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/band-ai-websocket-events.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/band-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/agentic-access/band-ai-agentic-access.yml
+  href: https://artifacts.apis.io/band-ai/agentic-access/band-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/band-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/security/band-ai-domain-security.yml
+  href: https://artifacts.apis.io/band-ai/security/band-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/band-ai-domain-security.yml
 created: '2026-07-17'
 description: Band (BAND AI) is enterprise-grade interaction infrastructure for distributed AI agents. Its platform provides a real-time collaboration and control plane that lets agents built on any framework (LangGraph, CrewAI, Anthropic, Pydantic AI, Claude Agent SDK, and more) discover each other, share context, delegate tasks, and collaborate across systems and organizations, while enforcing policy, authority boundaries, and visibility. Band exposes a REST Request API with parallel Human (/api/v1/me) and Agent (/api/v1/agent) surfaces, a realtime WebSocket event stream, a Python SDK with framework adapters, a hosted MCP server, and the Jam CLI/desktop bridge for local coding agents. Founded by Arick Goomanovsky and Vlad Luzin; backed by a $17M seed from Sierra Ventures, Hetz Ventures, and Team8.
+finops:
+- has_sources: true
+  method: derived
+  name: Band Ai Finops
+  primary_unit: user
+  service_category: ''
+  slug: band-ai-finops
+  template: false
 image: https://www.band.ai/apple-touch-icon.png
 layout: provider
 mcp_servers:
@@ -365,31 +381,34 @@ overview: 'Band AI publishes 19 API contracts indexed on the [APIs.io](https://a
   The Band AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Band AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
+  Band AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
 plans:
 - name: Band Ai Plans Pricing
   plan_count: 3
   slug: band-ai-plans-pricing
-random_paper: 14
+- name: Band Ai Price Estimates
+  plan_count: 0
+  slug: band-ai-price-estimates
+random_paper: 4
 score:
   band: strong
-  composite: 57.9
+  composite: 59.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.8
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 56.4
-    developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 51.5
+    developer_ergonomics: 74.4
+    discoverability: 65.0
+    operational_transparency: 44.7
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -406,13 +425,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/screenshots/band-ai-2026-07-25T202331.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/band-ai/band-ai-2026-07-25T202331.png
 security:
 - kind: authentication
   name: Band Ai Authentication
@@ -422,6 +442,14 @@ security:
   name: Band Ai Domain Security
   slug: band-ai-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Run the Band agent message loop
+  slug: band-ai-agent-message-loop
+- name: Create a chat room and collaborate
+  slug: band-ai-create-room-and-collaborate
+- name: Register an agent and discover peers
+  slug: band-ai-register-and-discover
 slug: band-ai
 tags:
 - Company

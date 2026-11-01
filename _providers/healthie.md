@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Healthie GraphQL API is the single contract behind the entire Healthie platform — the same API that powers the Healthie web, iOS, and Android applications is available to partners building branded
   name: Healthie GraphQL API
   slug: healthie-graphql-api
-artifact_total: 27
+artifact_total: 34
 asyncapis:
 - description: Best-effort AsyncAPI 2.6 description of the Healthie **GraphQL subscription** surface — the real-time push channel, distinct from the outbound HTTP webhook surface described in `healthie-webhooks-asyn
   name: Healthie GraphQL Subscriptions (WebSocket)
@@ -55,32 +57,32 @@ common:
   type: GettingStarted
   url: https://docs.gethealthie.com/guides/quick-start
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/rules/healthie-asyncapi-spectral-rules.yml
+  href: https://artifacts.apis.io/healthie/rules/healthie-asyncapi-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/healthie-asyncapi-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/asyncapi/healthie-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/healthie/asyncapi/healthie-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/healthie-webhooks-asyncapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/asyncapi/healthie-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/healthie/asyncapi/healthie-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/healthie-webhooks-asyncapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/hosts/healthie-hosts.yml
+  href: https://artifacts.apis.io/healthie/hosts/healthie-hosts.yml
   title: ''
   type: Hosts
   url: hosts/healthie-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/integrations/healthie-integration-edges.yml
+  href: https://artifacts.apis.io/healthie/integrations/healthie-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/healthie-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/vendors/healthie-vendors.yml
+  href: https://artifacts.apis.io/healthie/vendors/healthie-vendors.yml
   title: ''
   type: Vendors
   url: vendors/healthie-vendors.yml
@@ -89,12 +91,12 @@ common:
   type: Newsroom
   url: https://www.gethealthie.com/press/will-reed
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/security/healthie-trust-center.yml
+  href: https://artifacts.apis.io/healthie/security/healthie-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/healthie-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/security/healthie-domain-security.yml
+  href: https://artifacts.apis.io/healthie/security/healthie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/healthie-domain-security.yml
@@ -103,7 +105,7 @@ common:
   type: Compliance
   url: https://www.gethealthie.com/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/conformance/healthie-conformance.yml
+  href: https://artifacts.apis.io/healthie/conformance/healthie-conformance.yml
   title: ''
   type: Conformance
   url: conformance/healthie-conformance.yml
@@ -112,37 +114,37 @@ common:
   type: APIReference
   url: https://docs.gethealthie.com/reference
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/graphql/healthie-schema.graphql
+  href: https://artifacts.apis.io/healthie/graphql/healthie-schema.graphql
   title: ''
   type: GraphQL
   url: graphql/healthie-schema.graphql
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/authentication/healthie-authentication.yml
+  href: https://artifacts.apis.io/healthie/authentication/healthie-authentication.yml
   title: ''
   type: Authentication
   url: authentication/healthie-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/conventions/healthie-conventions.yml
+  href: https://artifacts.apis.io/healthie/conventions/healthie-conventions.yml
   title: ''
   type: Conventions
   url: conventions/healthie-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/errors/healthie-error-codes.yml
+  href: https://artifacts.apis.io/healthie/errors/healthie-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/healthie-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/rate-limits/healthie-rate-limits.yml
+  href: https://artifacts.apis.io/healthie/rate-limits/healthie-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/healthie-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/data-model/healthie-data-model.yml
+  href: https://artifacts.apis.io/healthie/data-model/healthie-data-model.yml
   title: ''
   type: DataModel
   url: data-model/healthie-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/lifecycle/healthie-lifecycle.yml
+  href: https://artifacts.apis.io/healthie/lifecycle/healthie-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/healthie-lifecycle.yml
@@ -151,47 +153,47 @@ common:
   type: Deprecation
   url: https://docs.gethealthie.com/guides/api-concepts/deprecations
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/changelog/healthie-changelog.yml
+  href: https://artifacts.apis.io/healthie/changelog/healthie-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/healthie-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/sandbox/healthie-sandbox.yml
+  href: https://artifacts.apis.io/healthie/sandbox/healthie-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/healthie-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/packages/healthie-packages.yml
+  href: https://artifacts.apis.io/healthie/packages/healthie-packages.yml
   title: ''
   type: Packages
   url: packages/healthie-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/components/healthie-components.yml
+  href: https://artifacts.apis.io/healthie/components/healthie-components.yml
   title: ''
   type: Components
   url: components/healthie-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/mcp/healthie-mcp.yml
+  href: https://artifacts.apis.io/healthie/mcp/healthie-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/healthie-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/mcp/healthie-tool-crosswalk.yml
+  href: https://artifacts.apis.io/healthie/mcp/healthie-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/healthie-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/healthie/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/asyncapi/healthie-subscriptions-asyncapi.yml
+  href: https://artifacts.apis.io/healthie/asyncapi/healthie-subscriptions-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/healthie-subscriptions-asyncapi.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/plans/healthie-plans-pricing.yml
+  href: https://artifacts.apis.io/healthie/plans/healthie-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/healthie-plans-pricing.yml
@@ -318,6 +320,14 @@ features:
 - Healthie Harbor app marketplace with Google Fit, Apple Health, Fitbit, Stripe, Zoom, ClaimMD, Fullscript Labs, and Change Healthcare integrations
 - HIPAA and PCI compliant infrastructure operating ~2.5B API calls/month at 99.99% uptime
 - SMART on FHIR / interoperability and US-based data residency options for enterprise
+finops:
+- has_sources: true
+  method: derived
+  name: Healthie Finops
+  primary_unit: user
+  service_category: ''
+  slug: healthie-finops
+  template: false
 graphqls:
 - description: The Healthie GraphQL API is the single contract behind the entire Healthie platform — the same API that powers the Healthie web, iOS, and Android applications is available to partners building branded
   name: Healthie GraphQL API
@@ -343,7 +353,10 @@ plans:
 - name: Healthie Plans Pricing
   plan_count: 5
   slug: healthie-plans-pricing
-random_paper: 0
+- name: Healthie Price Estimates
+  plan_count: 0
+  slug: healthie-price-estimates
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Healthie Rate Limits
@@ -362,24 +375,24 @@ rules:
     warn: 4
   slug: healthie-asyncapi-spectral-rules
 score:
-  band: strong
-  composite: 66.1
+  band: exemplar
+  composite: 71.7
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 64.8
+    artifact_dirs: 27
+    catalog_earned: 67.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 50.3
+    catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.3
+  delta: 1.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 29.5
     contract_quality: 51.2
-    developer_ergonomics: 61.3
+    developer_ergonomics: 73.2
     discoverability: 66.7
-    operational_transparency: 86.8
-  previous_composite: 65.8
+    operational_transparency: 89.5
+  previous_composite: 70.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -390,14 +403,14 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/screenshots/healthie-2026-06-20T182600.png
+screenshot: https://apis.io/screenshots/healthie/healthie-2026-06-20T182600.png
 security:
 - kind: authentication
   name: Healthie Authentication
@@ -411,6 +424,18 @@ security:
   name: Healthie Trust Center
   slug: healthie-trust-center
   summary_line: HIPAA, GDPR
+skill_count: 5
+skills:
+- name: healthie-bill-and-claim
+  slug: healthie-bill-and-claim
+- name: healthie-book-an-appointment
+  slug: healthie-book-an-appointment
+- name: healthie-explore-the-schema
+  slug: healthie-explore-the-schema
+- name: healthie-onboard-a-client
+  slug: healthie-onboard-a-client
+- name: healthie-subscribe-to-events
+  slug: healthie-subscribe-to-events
 slug: healthie
 tags:
 - API-First

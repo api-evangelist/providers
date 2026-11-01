@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,20 +37,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GraphQL API for personalized nutrition — users, programs/diets, meal-plan generation, recipe and restaurant search, food logging (incl. AI food log), shopping lists, health trackers, lab tests/biomark
   name: Suggestic GraphQL API
   slug: suggestic-graphql-api
-artifact_total: 5
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Suggestic Webhooks
   slug: suggestic-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/plans/suggestic-plans-pricing.yml
+  href: https://artifacts.apis.io/suggestic/plans/suggestic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/suggestic-plans-pricing.yml
@@ -57,7 +59,7 @@ common:
   type: BlogRSS
   url: https://blog.suggestic.com/feed
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/security/suggestic-domain-security.yml
+  href: https://artifacts.apis.io/suggestic/security/suggestic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/suggestic-domain-security.yml
@@ -110,32 +112,32 @@ common:
   type: ChangeLog
   url: https://docs.suggestic.com/graphql/changelog/2025
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/authentication/suggestic-authentication.yml
+  href: https://artifacts.apis.io/suggestic/authentication/suggestic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/suggestic-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/packages/suggestic-packages.yml
+  href: https://artifacts.apis.io/suggestic/packages/suggestic-packages.yml
   title: ''
   type: Packages
   url: packages/suggestic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/packages/suggestic-packages.yml
+  href: https://artifacts.apis.io/suggestic/packages/suggestic-packages.yml
   title: ''
   type: SDKs
   url: packages/suggestic-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/conventions/suggestic-conventions.yml
+  href: https://artifacts.apis.io/suggestic/conventions/suggestic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/suggestic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/errors/suggestic-problem-types.yml
+  href: https://artifacts.apis.io/suggestic/errors/suggestic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/suggestic-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/lifecycle/suggestic-lifecycle.yml
+  href: https://artifacts.apis.io/suggestic/lifecycle/suggestic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/suggestic-lifecycle.yml
@@ -144,12 +146,12 @@ common:
   type: Deprecation
   url: https://docs.suggestic.com/graphql/helpful-resources/deprecated-features
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/changelog/suggestic-changelog.yml
+  href: https://artifacts.apis.io/suggestic/changelog/suggestic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/suggestic-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/conformance/suggestic-conformance.yml
+  href: https://artifacts.apis.io/suggestic/conformance/suggestic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/suggestic-conformance.yml
@@ -158,42 +160,50 @@ common:
   type: Compliance
   url: https://suggestic.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/components/suggestic-components.yml
+  href: https://artifacts.apis.io/suggestic/components/suggestic-components.yml
   title: ''
   type: Components
   url: components/suggestic-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/asyncapi/suggestic-webhooks.yml
+  href: https://artifacts.apis.io/suggestic/asyncapi/suggestic-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/suggestic-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/sandbox/suggestic-sandbox.yml
+  href: https://artifacts.apis.io/suggestic/sandbox/suggestic-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/suggestic-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/mcp/suggestic-mcp.yml
+  href: https://artifacts.apis.io/suggestic/mcp/suggestic-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/suggestic-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/data-model/suggestic-data-model.yml
+  href: https://artifacts.apis.io/suggestic/data-model/suggestic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/suggestic-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/suggestic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/llms/suggestic-llms.txt
+  href: https://artifacts.apis.io/suggestic/llms/suggestic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/suggestic-llms.txt
 created: '2026-07-17'
 description: Suggestic is a personalized-nutrition and health platform that exposes a GraphQL API for building meal-planning, food-logging, and coaching applications. Developers use the API to create users, assign nutrition programs and diets, generate personalized meal plans, search a large recipe and restaurant database, log food (including AI photo-based logging), build shopping lists, and track sleep, steps, water, weight, heart rate, symptoms, biomarkers, and supplements. The platform also powers an AI Assistant with journeys and guardrails, a Console for configuration and webhooks, and a Telehealth/Coaching Portal. Suggestic (a Techstars-backed company) markets an enterprise AI offering for regulated health verticals and is HIPAA and SOC 2 Type II certified. Authentication is via a server-side API token plus an sg-user header, or client-side JWT bearer tokens.
+finops:
+- has_sources: true
+  method: derived
+  name: Suggestic Finops
+  primary_unit: pilot to first production
+  service_category: ''
+  slug: suggestic-finops
+  template: false
 image: https://suggestic.com/assets/images/og-image.png
 layout: provider
 modified: '2026-10-06'
@@ -211,26 +221,29 @@ plans:
 - name: Suggestic Plans Pricing
   plan_count: 2
   slug: suggestic-plans-pricing
-random_paper: 6
+- name: Suggestic Price Estimates
+  plan_count: 0
+  slug: suggestic-price-estimates
+random_paper: 14
 score:
   band: developing
-  composite: 49.6
+  composite: 51.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 45.0
+    artifact_dirs: 22
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.3
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 68.5
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 45.3
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 50.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -245,14 +258,14 @@ score:
     regime: Health
     regime_id: health
     score: 16.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/screenshots/suggestic-2026-08-17T082152.png
+screenshot: https://apis.io/screenshots/suggestic/suggestic-2026-08-17T082152.png
 security:
 - kind: authentication
   name: Suggestic Authentication
@@ -262,6 +275,12 @@ security:
   name: Suggestic Domain Security
   slug: suggestic-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Onboard a user and generate a meal plan
+  slug: suggestic-create-user-and-meal-plan
+- name: Log food and read nutrition totals
+  slug: suggestic-food-logging
 slug: suggestic
 tags:
 - Company

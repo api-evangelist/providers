@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.2
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 25.5
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.fu.do/v1alpha1
   baseurl_source: declared
@@ -132,11 +134,8 @@ apis:
   description: The Users API from Fudo — 2 operation(s) for users.
   name: Fudo Users API
   slug: fudo-users-api
-artifact_total: 41
+artifact_total: 40
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Fudo Customers API
   slug: open-fudo-customers-api
@@ -196,57 +195,57 @@ collections:
   slug: open-fudo-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/capabilities/fudo-capability-edges.yml
+  href: https://artifacts.apis.io/fudo/capabilities/fudo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fudo-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/security/fudo-domain-security.yml
+  href: https://artifacts.apis.io/fudo/security/fudo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fudo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/authentication/fudo-authentication.yml
+  href: https://artifacts.apis.io/fudo/authentication/fudo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fudo-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/mcp/fudo-mcp.yml
+  href: https://artifacts.apis.io/fudo/mcp/fudo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fudo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/llms/fudo-llms.txt
+  href: https://artifacts.apis.io/fudo/llms/fudo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fudo-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/overlays/fudo-openapi-overlay.yaml
+  href: https://artifacts.apis.io/fudo/overlays/fudo-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fudo-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/conformance/fudo-conformance.yml
+  href: https://artifacts.apis.io/fudo/conformance/fudo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fudo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/errors/fudo-problem-types.yml
+  href: https://artifacts.apis.io/fudo/errors/fudo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fudo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/lifecycle/fudo-lifecycle.yml
+  href: https://artifacts.apis.io/fudo/lifecycle/fudo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fudo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/conventions/fudo-conventions.yml
+  href: https://artifacts.apis.io/fudo/conventions/fudo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fudo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/data-model/fudo-data-model.yml
+  href: https://artifacts.apis.io/fudo/data-model/fudo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fudo-data-model.yml
@@ -306,31 +305,31 @@ overview: 'Fudo publishes 19 API contracts indexed on the [APIs.io](https://apis
 
 
   Fudo''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 12
+random_paper: 22
 score:
   band: thin
-  composite: 38.1
+  composite: 37.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 50.1
+    contract_quality: 47.6
     developer_ergonomics: 45.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 38.0
+  previous_composite: 37.5
   provenance:
     conformance: derived
     contracts:
@@ -345,13 +344,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/screenshots/fudo-2026-07-25T215250.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fudo/fudo-2026-07-25T215250.png
 security:
 - kind: authentication
   name: Fudo Authentication

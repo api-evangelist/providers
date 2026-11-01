@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: Register and manage webhook subscriptions for ABC Trainerize business events.
   name: ABC Trainerize Webhooks API
   slug: trainerize-webhooks-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ABC Trainerize Client Data API
   slug: open-trainerize-client-data-api
@@ -102,22 +101,22 @@ common:
   type: BlogRSS
   url: https://www.trainerize.com/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/capabilities/trainerize-capability-edges.yml
+  href: https://artifacts.apis.io/trainerize/capabilities/trainerize-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/trainerize-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/agentic-access/trainerize-agentic-access.yml
+  href: https://artifacts.apis.io/trainerize/agentic-access/trainerize-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trainerize-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/security/trainerize-domain-security.yml
+  href: https://artifacts.apis.io/trainerize/security/trainerize-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trainerize-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/authentication/trainerize-authentication.yml
+  href: https://artifacts.apis.io/trainerize/authentication/trainerize-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trainerize-authentication.yml
@@ -134,17 +133,17 @@ common:
   type: Documentation
   url: https://help.trainerize.com/hc/en-us/articles/37082084919060-Using-API-and-Webhooks-With-ABC-Trainerize
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/plans/trainerize-plans-pricing.yml
+  href: https://artifacts.apis.io/trainerize/plans/trainerize-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trainerize-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/rate-limits/trainerize-rate-limits.yml
+  href: https://artifacts.apis.io/trainerize/rate-limits/trainerize-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trainerize-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/finops/trainerize-finops.yml
+  href: https://artifacts.apis.io/trainerize/finops/trainerize-finops.yml
   title: ''
   type: FinOps
   url: finops/trainerize-finops.yml
@@ -172,14 +171,14 @@ plans:
 - name: Trainerize Plans Pricing
   plan_count: 4
   slug: trainerize-plans-pricing
-random_paper: 7
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Trainerize Rate Limits
   slug: trainerize-rate-limits
 score:
   band: emerging
-  composite: 25.1
+  composite: 23.6
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.0
@@ -187,7 +186,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -195,7 +194,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 32.9
+  previous_composite: 23.6
   provenance:
     agentic_access: derived
     contracts:
@@ -209,13 +208,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/screenshots/trainerize-2026-09-02T164110.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/trainerize/trainerize-2026-09-02T164110.png
 security:
 - kind: authentication
   name: Trainerize Authentication

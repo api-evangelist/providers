@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-17'
+  score: 27.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -67,11 +69,8 @@ apis:
   description: The Transactions API from Fonoa — 1 operation(s) for transactions.
   name: Fonoa Transactions API
   slug: fonoa-transactions-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Fonoa E-Invoicing Lookup V2 API
   slug: open-fonoa-lookup-v2-api
@@ -86,32 +85,32 @@ collections:
   slug: open-fonoa-transactions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/capabilities/fonoa-capability-edges.yml
+  href: https://artifacts.apis.io/fonoa/capabilities/fonoa-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fonoa-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/agentic-access/fonoa-agentic-access.yml
+  href: https://artifacts.apis.io/fonoa/agentic-access/fonoa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fonoa-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/security/fonoa-trust-center.yml
+  href: https://artifacts.apis.io/fonoa/security/fonoa-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fonoa-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/security/fonoa-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/fonoa/security/fonoa-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fonoa-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/security/fonoa-domain-security.yml
+  href: https://artifacts.apis.io/fonoa/security/fonoa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fonoa-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/authentication/fonoa-authentication.yml
+  href: https://artifacts.apis.io/fonoa/authentication/fonoa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fonoa-authentication.yml
@@ -160,22 +159,22 @@ common:
   type: Security
   url: https://www.fonoa.com/resources/security
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/plans/fonoa-plans-pricing.yml
+  href: https://artifacts.apis.io/fonoa/plans/fonoa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fonoa-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/rate-limits/fonoa-rate-limits.yml
+  href: https://artifacts.apis.io/fonoa/rate-limits/fonoa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fonoa-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/finops/fonoa-finops.yml
+  href: https://artifacts.apis.io/fonoa/finops/fonoa-finops.yml
   title: ''
   type: FinOps
   url: finops/fonoa-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/json-ld/fonoa-context.jsonld
+  href: https://artifacts.apis.io/fonoa/json-ld/fonoa-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/fonoa-context.jsonld
@@ -218,7 +217,7 @@ rate_limits:
   slug: fonoa-rate-limits
 score:
   band: thin
-  composite: 36.4
+  composite: 38.1
   coverage:
     artifact_dirs: 14
     catalog_earned: 53.0
@@ -226,15 +225,15 @@ score:
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 56.6
-    developer_ergonomics: 23.8
+    developer_ergonomics: 35.7
     discoverability: 71.4
-    operational_transparency: 28.9
-  previous_composite: 43.3
+    operational_transparency: 39.5
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -248,13 +247,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/screenshots/fonoa-2026-06-20T181458.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fonoa/fonoa-2026-06-20T181458.png
 security:
 - kind: authentication
   name: Fonoa Authentication

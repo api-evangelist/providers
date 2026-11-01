@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 27.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,69 +66,69 @@ apis:
   description: Published customer testimonials.
   name: Connells Group Testimonials API
   slug: connells-testimonials-api
-artifact_total: 14
+artifact_total: 16
 collections:
 - collection_type: open
   name: Connells Website JSON API (undocumented)
   slug: open-connells-website
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/mcp/connells-mcp.yml
+  href: https://artifacts.apis.io/connells/mcp/connells-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/connells-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/agentic-access/connells-agentic-access.yml
+  href: https://artifacts.apis.io/connells/agentic-access/connells-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/connells-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/security/connells-domain-security.yml
+  href: https://artifacts.apis.io/connells/security/connells-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/connells-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/openapi/_original/connells-website-openapi.yml
+  href: https://artifacts.apis.io/connells/openapi/_original/connells-website-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/connells-website-openapi.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/connells/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/authentication/connells-authentication.yml
+  href: https://artifacts.apis.io/connells/authentication/connells-authentication.yml
   title: ''
   type: Authentication
   url: authentication/connells-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/rate-limits/connells-rate-limits.yml
+  href: https://artifacts.apis.io/connells/rate-limits/connells-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/connells-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/errors/connells-problem-types.yml
+  href: https://artifacts.apis.io/connells/errors/connells-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/connells-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/conventions/connells-conventions.yml
+  href: https://artifacts.apis.io/connells/conventions/connells-conventions.yml
   title: ''
   type: Conventions
   url: conventions/connells-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/data-model/connells-data-model.yml
+  href: https://artifacts.apis.io/connells/data-model/connells-data-model.yml
   title: ''
   type: DataModel
   url: data-model/connells-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/lifecycle/connells-lifecycle.yml
+  href: https://artifacts.apis.io/connells/lifecycle/connells-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/connells-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/conformance/connells-conformance.yml
+  href: https://artifacts.apis.io/connells/conformance/connells-conformance.yml
   title: ''
   type: Conformance
   url: conformance/connells-conformance.yml
@@ -135,17 +137,17 @@ common:
   type: Compliance
   url: https://www.connellsgroup.co.uk/required-disclosures-inc-modern-slavery-act-statement/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/packages/connells-packages.yml
+  href: https://artifacts.apis.io/connells/packages/connells-packages.yml
   title: ''
   type: Packages
   url: packages/connells-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/llms/connells-llms.txt
+  href: https://artifacts.apis.io/connells/llms/connells-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/connells-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/connells/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -248,7 +250,7 @@ overview: 'Connells Group publishes 4 API contracts indexed on the [APIs.io](htt
 
 
   Connells Group''s developer surface includes code examples, authentication, engineering blog, and 30 more developer resources.'
-random_paper: 4
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Connells Rate Limits
@@ -263,7 +265,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
@@ -279,7 +281,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 22.6
+  previous_composite: 22.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -296,14 +298,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 27.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/screenshots/connells-2026-08-07T163756.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/connells/connells-2026-08-07T163756.png
 security:
 - kind: authentication
   name: Connells Authentication
@@ -313,6 +315,12 @@ security:
   name: Connells Domain Security
   slug: connells-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Locate a Connells branch and its people
+  slug: connells-branch-locator
+- name: Assemble Connells local market presence
+  slug: connells-market-presence
 slug: connells
 tags:
 - Real Estate

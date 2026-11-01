@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.8
-  scored_at: '2026-10-17'
+  score: 50.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://app.syftdata.com/api
@@ -52,7 +54,7 @@ apis:
   description: The ingest endpoint the Syft browser tracking tag, SDK and server-side callers post behavioural and custom events to. Documented only inside the developer guide — no reference page, no published paylo
   name: Syft Data Event Collection API
   slug: syft-data-events-api
-artifact_total: 15
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Syft Data Webhooks
@@ -68,12 +70,17 @@ collections:
   name: Syft Data & Export Lookup API
   slug: open-syft-data-lookup-api
 common:
+- group: other
+  href: https://artifacts.apis.io/syft-data/capabilities/syft-data-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/syft-data-capability-edges.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://blog.syftdata.com/feed
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/overlays/syft-data-openapi-overlay.yaml
+  href: https://artifacts.apis.io/syft-data/overlays/syft-data-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/syft-data-openapi-overlay.yaml
@@ -130,97 +137,97 @@ common:
   type: PrivacyPolicy
   url: https://www.syftdata.com/privacy.html
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/packages/syft-data-packages.yml
+  href: https://artifacts.apis.io/syft-data/packages/syft-data-packages.yml
   title: ''
   type: SDKs
   url: packages/syft-data-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/packages/syft-data-packages.yml
+  href: https://artifacts.apis.io/syft-data/packages/syft-data-packages.yml
   title: ''
   type: Packages
   url: packages/syft-data-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/cli/syft-data-cli.yml
+  href: https://artifacts.apis.io/syft-data/cli/syft-data-cli.yml
   title: ''
   type: CLI
   url: cli/syft-data-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/mcp/syft-data-mcp.yml
+  href: https://artifacts.apis.io/syft-data/mcp/syft-data-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/syft-data-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/syft-data/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/well-known/syft-data-well-known.yml
+  href: https://artifacts.apis.io/syft-data/well-known/syft-data-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/syft-data-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/asyncapi/syft-data-webhooks.yml
+  href: https://artifacts.apis.io/syft-data/asyncapi/syft-data-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/syft-data-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/lifecycle/syft-data-lifecycle.yml
+  href: https://artifacts.apis.io/syft-data/lifecycle/syft-data-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/syft-data-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/security/syft-data-domain-security.yml
+  href: https://artifacts.apis.io/syft-data/security/syft-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/syft-data-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/llms/syft-data-llms.txt
+  href: https://artifacts.apis.io/syft-data/llms/syft-data-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/syft-data-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/mcp/syft-data-tool-crosswalk.yml
+  href: https://artifacts.apis.io/syft-data/mcp/syft-data-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/syft-data-tool-crosswalk.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/plans/syft-data-plans-pricing.yml
+  href: https://artifacts.apis.io/syft-data/plans/syft-data-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/syft-data-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/rate-limits/syft-data-rate-limits.yml
+  href: https://artifacts.apis.io/syft-data/rate-limits/syft-data-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/syft-data-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/components/syft-data-components.yml
+  href: https://artifacts.apis.io/syft-data/components/syft-data-components.yml
   title: ''
   type: Components
   url: components/syft-data-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/security/syft-data-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/syft-data/security/syft-data-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/syft-data-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/security/syft-data-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/syft-data/security/syft-data-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/syft-data-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/security/syft-data-trust-center.yml
+  href: https://artifacts.apis.io/syft-data/security/syft-data-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/syft-data-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/security/syft-data-trust-center.yml
+  href: https://artifacts.apis.io/syft-data/security/syft-data-trust-center.yml
   title: ''
   type: Compliance
   url: security/syft-data-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/conformance/syft-data-conformance.yml
+  href: https://artifacts.apis.io/syft-data/conformance/syft-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/syft-data-conformance.yml
@@ -230,6 +237,14 @@ common:
   url: https://www.syftdata.com/dpa
 created: '2026-07-17'
 description: Syft Data, Inc. is a B2B lead-intelligence platform that identifies and qualifies high-intent prospects from inbound website traffic and LinkedIn engagement. Its tracking pixel reveals anonymous visitors, enriches contacts, scores them against an Ideal Customer Profile, and triggers multi-channel outreach ("motions") into CRM, email, LinkedIn, and ad platforms. For developers Syft ships a schema-driven analytics SDK and CLI (npm @syftdata/*), a server-side Lookup and Export REST API secured with sk_live_ keys, outbound webhooks, and an official hosted MCP server so AI agents can query visitor data and build automations from chat.
+finops:
+- has_sources: true
+  method: derived
+  name: Syft Data Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: syft-data-finops
+  template: false
 image: https://www.syftdata.com/logo_180.png
 layout: provider
 mcp_servers:
@@ -246,12 +261,15 @@ overview: 'Syft Data publishes 3 API contracts indexed on the [APIs.io](https://
   The Syft Data catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Syft Data''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Syft Data''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 plans:
 - name: Syft Data Plans Pricing
   plan_count: 3
   slug: syft-data-plans-pricing
-random_paper: 7
+- name: Syft Data Price Estimates
+  plan_count: 0
+  slug: syft-data-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Syft Data Rate Limits
@@ -263,23 +281,23 @@ scopes:
   summary_line: 4 scopes
 score:
   band: strong
-  composite: 62.1
+  composite: 65.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 58.0
+    artifact_dirs: 29
+    catalog_earned: 61.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 57.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 64.4
-    developer_ergonomics: 64.9
-    discoverability: 75.0
-    operational_transparency: 21.1
-  previous_composite: 62.0
+    developer_ergonomics: 74.4
+    discoverability: 65.0
+    operational_transparency: 23.7
+  previous_composite: 64.0
   provenance:
     conformance: derived
     contracts:
@@ -301,13 +319,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/screenshots/syft-data-2026-08-17T082227.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/syft-data/syft-data-2026-08-17T082227.png
 security:
 - kind: authentication
   name: Syft Data Authentication
@@ -325,6 +344,12 @@ security:
   name: Syft Data Trust Center
   slug: syft-data-trust-center
   summary_line: SOC 2 Type I, SOC 2 Type II, Penetration Testing, ISO 27001
+skill_count: 2
+skills:
+- name: syft-data-export-motion-results
+  slug: syft-data-export-motion-results
+- name: syft-data-lookup-visitor-intelligence
+  slug: syft-data-lookup-visitor-intelligence
 slug: syft-data
 tags:
 - Company

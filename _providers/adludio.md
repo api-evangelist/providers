@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,29 +35,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  href: https://artifacts.apis.io/adludio/hosts/adludio-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/adludio-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/adludio/packages/adludio-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/adludio-packages.yml
+- group: start
+  title: ''
+  type: SignUp
+  url: https://permate.com/auth/partner/sign-up
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adludio/refs/heads/main/security/adludio-domain-security.yml
+  href: https://artifacts.apis.io/adludio/security/adludio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adludio-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adludio/refs/heads/main/packages/adludio-packages.yml
+  href: https://artifacts.apis.io/adludio/packages/adludio-packages.yml
   title: ''
   type: Packages
   url: packages/adludio-packages.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adludio/refs/heads/main/llms/adludio-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/adludio-llms.txt
-- group: company
-  title: ''
-  type: Website
-  url: https://adludio.com/
 coverage:
   checked: '2026-08-12'
   detail: ADLUDIO LIMITED (UK company 08227542) went into administration on 2024-08-23 and into creditors voluntary liquidation on 2025-08-28; adludio.com now 301-redirects to permate.com, a different company, and no Adludio host or developer surface survives.
@@ -81,13 +88,16 @@ modified: '2026-09-15'
 name: adludio
 nav: Providers
 network: true
-overview: adludio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Mobile Advertising, and Marketing Technology.
-random_paper: 12
+overview: 'adludio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Mobile Advertising, and Marketing Technology.
+
+
+  adludio''s developer surface includes signup flow and 4 more developer resources.'
+random_paper: 18
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -103,20 +113,22 @@ score:
     operational_transparency: 0.0
   lifecycle: defunct
   previous_composite: 0.0
+  provenance:
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/adludio/refs/heads/main/screenshots/adludio-2026-07-25T181639.png
+screenshot: https://apis.io/screenshots/adludio/adludio-2026-07-25T181639.png
 security:
 - kind: domain-security
   name: Adludio Domain Security
@@ -132,5 +144,4 @@ tags:
 - Interactive Advertising
 - Creative
 - Defunct
-website: https://adludio.com/
 ---

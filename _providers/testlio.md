@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -77,22 +79,22 @@ common:
   type: Compliance
   url: https://trust.testlio.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/testlio/refs/heads/main/security/testlio-trust-center.yml
+  href: https://artifacts.apis.io/testlio/security/testlio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/testlio-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/testlio/refs/heads/main/security/testlio-domain-security.yml
+  href: https://artifacts.apis.io/testlio/security/testlio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/testlio-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/testlio/refs/heads/main/packages/testlio-packages.yml
+  href: https://artifacts.apis.io/testlio/packages/testlio-packages.yml
   title: ''
   type: Packages
   url: packages/testlio-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/testlio/refs/heads/main/llms/testlio-llms.txt
+  href: https://artifacts.apis.io/testlio/llms/testlio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/testlio-llms.txt
@@ -112,10 +114,10 @@ overview: 'Testlio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Testlio''s developer surface includes support, documentation, engineering blog, and 11 more developer resources.'
-random_paper: 2
+random_paper: 4
 score:
   band: emerging
-  composite: 18.7
+  composite: 19.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -123,14 +125,14 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 58.3
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -138,7 +140,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 18.6
+  previous_composite: 19.4
   provenance:
     mcp: first-party
   regulatory:
@@ -147,14 +149,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/testlio/refs/heads/main/screenshots/testlio-2026-09-02T163233.png
+screenshot: https://apis.io/screenshots/testlio/testlio-2026-09-02T163233.png
 security:
 - kind: domain-security
   name: Testlio Domain Security

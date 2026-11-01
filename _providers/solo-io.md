@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.7
-  scored_at: '2026-10-17'
-api_count: 6
+  score: 34.8
+  scored_at: '2026-10-31'
+api_count: 5
 apis:
 - baseURL: https://portal.example.com/v1
   baseurl_source: declared
@@ -113,15 +115,12 @@ apis:
   description: The APIs API from Solo.io — 5 operation(s) for apis.
   name: Solo.io APIs API
   slug: solo-io-apis-api
-artifact_total: 74
+artifact_total: 77
 asyncapis:
 - description: ''
   name: Solo Io Webhooks
   slug: solo-io-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Portal Backend API Keys API
   slug: open-solo-io-api-keys-api
@@ -169,22 +168,22 @@ collections:
   slug: open-solo-io-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/plans/solo-io-plans-pricing.yml
+  href: https://artifacts.apis.io/solo-io/plans/solo-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/solo-io-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/rate-limits/solo-io-rate-limits.yml
+  href: https://artifacts.apis.io/solo-io/rate-limits/solo-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/solo-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/finops/solo-io-finops.yml
+  href: https://artifacts.apis.io/solo-io/finops/solo-io-finops.yml
   title: ''
   type: FinOps
   url: finops/solo-io-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/capabilities/solo-io-capability-edges.yml
+  href: https://artifacts.apis.io/solo-io/capabilities/solo-io-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/solo-io-capability-edges.yml
@@ -197,7 +196,7 @@ common:
   type: Releases
   url: https://github.com/solo-io/gloo-portal-idp-connect/releases
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/overlays/solo-io-ai-gateway-guardrail-webhook-overlay.yaml
+  href: https://artifacts.apis.io/solo-io/overlays/solo-io-ai-gateway-guardrail-webhook-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/solo-io-ai-gateway-guardrail-webhook-overlay.yaml
@@ -278,42 +277,42 @@ common:
   type: ChangeLog
   url: https://docs.solo.io/gateway/latest/reference/changelog/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/llms/solo-io-llms.txt
+  href: https://artifacts.apis.io/solo-io/llms/solo-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/solo-io-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/packages/solo-io-packages.yml
+  href: https://artifacts.apis.io/solo-io/packages/solo-io-packages.yml
   title: ''
   type: Packages
   url: packages/solo-io-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/packages/solo-io-packages.yml
+  href: https://artifacts.apis.io/solo-io/packages/solo-io-packages.yml
   title: ''
   type: SDKs
   url: packages/solo-io-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/cli/solo-io-cli.yml
+  href: https://artifacts.apis.io/solo-io/cli/solo-io-cli.yml
   title: ''
   type: CLI
   url: cli/solo-io-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/authentication/solo-io-authentication.yml
+  href: https://artifacts.apis.io/solo-io/authentication/solo-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/solo-io-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/conventions/solo-io-conventions.yml
+  href: https://artifacts.apis.io/solo-io/conventions/solo-io-conventions.yml
   title: ''
   type: Conventions
   url: conventions/solo-io-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/errors/solo-io-problem-types.yml
+  href: https://artifacts.apis.io/solo-io/errors/solo-io-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/solo-io-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/lifecycle/solo-io-lifecycle.yml
+  href: https://artifacts.apis.io/solo-io/lifecycle/solo-io-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/solo-io-lifecycle.yml
@@ -322,7 +321,7 @@ common:
   type: Deprecation
   url: https://docs.solo.io/gloo-mesh-enterprise/main/reference/version/versions/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/conformance/solo-io-conformance.yml
+  href: https://artifacts.apis.io/solo-io/conformance/solo-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/solo-io-conformance.yml
@@ -331,57 +330,57 @@ common:
   type: Compliance
   url: https://www.solo.io/topics/security-and-compliance/fips
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/data-model/solo-io-data-model.yml
+  href: https://artifacts.apis.io/solo-io/data-model/solo-io-data-model.yml
   title: ''
   type: DataModel
   url: data-model/solo-io-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/security/solo-io-domain-security.yml
+  href: https://artifacts.apis.io/solo-io/security/solo-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/solo-io-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/security/solo-io-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/solo-io/security/solo-io-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/solo-io-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/security/solo-io-trust-center.yml
+  href: https://artifacts.apis.io/solo-io/security/solo-io-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/solo-io-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/well-known/solo-io-well-known.yml
+  href: https://artifacts.apis.io/solo-io/well-known/solo-io-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/solo-io-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/grpc/solo-io-gloo-v1-proxy.proto
+  href: https://artifacts.apis.io/solo-io/grpc/solo-io-gloo-v1-proxy.proto
   title: ''
   type: Protobuf
   url: grpc/solo-io-gloo-v1-proxy.proto
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/asyncapi/solo-io-webhooks.yml
+  href: https://artifacts.apis.io/solo-io/asyncapi/solo-io-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/solo-io-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/solo-io/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/mcp/solo-io-mcp.yml
+  href: https://artifacts.apis.io/solo-io/mcp/solo-io-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/solo-io-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/mcp/solo-io-tool-crosswalk.yml
+  href: https://artifacts.apis.io/solo-io/mcp/solo-io-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/solo-io-tool-crosswalk.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/changelog/solo-io-changelog.yml
+  href: https://artifacts.apis.io/solo-io/changelog/solo-io-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/solo-io-changelog.yml
@@ -426,58 +425,58 @@ common:
   type: CodeExamples
   url: https://github.com/solo-io/enterprise-mcp-flow
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/json-ld/solo-io-context.jsonld
+  href: https://artifacts.apis.io/solo-io/json-ld/solo-io-context.jsonld
   title: Solo.io JSON-LD Context
   type: JSONLD
   url: json-ld/solo-io-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/vocabulary/solo-io-vocabulary.yml
+  href: https://artifacts.apis.io/solo-io/vocabulary/solo-io-vocabulary.yml
   title: Solo.io Enterprise Platform Vocabulary
   type: Vocabulary
   url: vocabulary/solo-io-vocabulary.yml
 crds:
 - name: solo io agentgateway agentgatewaybackends
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-agentgateway-agentgatewaybackends.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-agentgateway-agentgatewaybackends.yaml
 - name: solo io agentgateway agentgatewayparameters
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-agentgateway-agentgatewayparameters.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-agentgateway-agentgatewayparameters.yaml
 - name: solo io agentgateway agentgatewaypolicies
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-agentgateway-agentgatewaypolicies.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-agentgateway-agentgatewaypolicies.yaml
 - name: solo io gloo enterprise gloo solo io v1 authconfig
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-enterprise-gloo-solo-io-v1-authconfig.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-gloo-enterprise-gloo-solo-io-v1-authconfig.yaml
 - name: solo io gloo gateway gloo solo io directresponses
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-gloo-solo-io-directresponses.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-gloo-gateway-gloo-solo-io-directresponses.yaml
 - name: solo io gloo gateway gloo solo io gatewayparameters
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-gloo-solo-io-gatewayparameters.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-gloo-gateway-gloo-solo-io-gatewayparameters.yaml
 - name: solo io gloo gateway solo io v1 gateway
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-gateway.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-gloo-gateway-solo-io-v1-gateway.yaml
 - name: solo io gloo gateway solo io v1 httplisteneroption
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-httplisteneroption.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-gloo-gateway-solo-io-v1-httplisteneroption.yaml
 - name: solo io gloo gateway solo io v1 listeneroption
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-listeneroption.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-gloo-gateway-solo-io-v1-listeneroption.yaml
 - name: solo io gloo gateway solo io v1 matchablehttpgateway
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-matchablehttpgateway.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-gloo-gateway-solo-io-v1-matchablehttpgateway.yaml
 - name: solo io gloo gateway solo io v1 matchabletcpgateway
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-matchabletcpgateway.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-gloo-gateway-solo-io-v1-matchabletcpgateway.yaml
 - name: solo io gloo gateway solo io v1 routeoption
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-routeoption.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-gloo-gateway-solo-io-v1-routeoption.yaml
 - name: solo io gloo gateway solo io v1 routetable
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-routetable.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-gloo-gateway-solo-io-v1-routetable.yaml
 - name: solo io gloo gateway solo io v1 virtualhostoption
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-virtualhostoption.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-gloo-gateway-solo-io-v1-virtualhostoption.yaml
 - name: solo io gloo gateway solo io v1 virtualservice
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gateway-solo-io-v1-virtualservice.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-gloo-gateway-solo-io-v1-virtualservice.yaml
 - name: solo io gloo gloo solo io v1 proxy
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gloo-solo-io-v1-proxy.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-gloo-gloo-solo-io-v1-proxy.yaml
 - name: solo io gloo gloo solo io v1 settings
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gloo-solo-io-v1-settings.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-gloo-gloo-solo-io-v1-settings.yaml
 - name: solo io gloo gloo solo io v1 upstream
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gloo-solo-io-v1-upstream.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-gloo-gloo-solo-io-v1-upstream.yaml
 - name: solo io gloo gloo solo io v1 upstreamgroup
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-gloo-solo-io-v1-upstreamgroup.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-gloo-gloo-solo-io-v1-upstreamgroup.yaml
 - name: solo io gloo ratelimit config
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-gloo-ratelimit-config.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-gloo-ratelimit-config.yaml
 - name: solo io kgateway tcproute crd
-  url: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/crd/solo-io-kgateway-tcproute-crd.yaml
+  url: https://artifacts.apis.io/solo-io/crd/solo-io-kgateway-tcproute-crd.yaml
 created: '2026-08-02'
 description: Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an Envoy-powered Kubernetes Gateway API ingress and API gateway; Solo Enterprise for Istio (formerly Gloo Mesh), a hardened Istio service mesh with ambient mode; Agentgateway Enterprise, a Rust-based AI-native gateway for LLM, MCP, and A2A traffic; Kagent Enterprise, a Kubernetes-native agent runtime; and Agentregistry Enterprise, a registry for agents, MCP servers, and AI tools. Solo.io also ships Gloo Portal, a developer portal whose Portal Server REST API manages API products, teams, apps, subscriptions, API keys, and OAuth credentials, and contributes the kgateway, agentgateway, kagent, and Istio ambient-mesh open-source projects.
 examples:
@@ -509,11 +508,11 @@ features:
 - description: Request and response transformation, header manipulation, and content-based routing.
   name: Traffic Transformation
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Solo Io Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: solo-io-finops
   template: true
 image: https://cdn.prod.website-files.com/66dba20a96c0aa281999f399/6704540db9215a5c14c38c6c_Webclip.png
@@ -578,9 +577,9 @@ overview: 'Solo.io publishes 15 API contracts indexed on the [APIs.io](https://a
   Solo.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 53 more developer resources.'
 plans:
 - name: Solo Io Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: solo-io-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Solo Io Rate Limits
@@ -599,26 +598,23 @@ rules:
   slug: solo-io-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.6
+  composite: 64.0
   coverage:
     artifact_dirs: 34
-    catalog_earned: 58.8
+    catalog_earned: 55.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.3
+    catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: -6.3
   facets:
-    access_clarity: 57.9
+    access_clarity: 60.5
     contract_governance: 28.0
-    contract_quality: 64.5
+    contract_quality: 62.5
     developer_ergonomics: 78.6
-    discoverability: 76.7
-    operational_transparency: 52.6
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 63.0
+    discoverability: 70.0
+    operational_transparency: 55.3
+  previous_composite: 70.3
   provenance:
     conformance: derived
     contracts:
@@ -633,14 +629,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/screenshots/solo-io-2026-06-20T194151.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/solo-io/solo-io-2026-06-20T194151.png
 security:
 - kind: authentication
   name: Solo Io Authentication
@@ -658,6 +655,16 @@ security:
   name: Solo Io Trust Center
   slug: solo-io-trust-center
   summary_line: trust center published
+skill_count: 4
+skills:
+- name: solo-io-implement-ai-guardrail-webhook
+  slug: solo-io-implement-ai-guardrail-webhook
+- name: istio-report-assessment
+  slug: solo-io-istio-report-assessment
+- name: solo-io-provision-oauth-credentials
+  slug: solo-io-provision-oauth-credentials
+- name: solo-io-subscribe-app-to-api-product
+  slug: solo-io-subscribe-app-to-api-product
 slug: solo-io
 tags:
 - Company

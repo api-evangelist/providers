@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-17'
+  score: 23.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -106,11 +108,8 @@ apis:
 - description: The database itself is accessed via the PostgreSQL wire protocol (port 5432), with TimescaleDB SQL functions for hypertable management, compression, continuous aggregates and hyperfunctions. Not a RES
   name: Timescale PostgreSQL Wire Interface
   slug: timescale-postgres-wire
-artifact_total: 67
+artifact_total: 71
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Timescale Analytics API
   slug: open-timescale-analytics-api
@@ -146,32 +145,32 @@ collections:
   slug: open-timescale-vpcs-api
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/rules/timescale-rules.yml
+  href: https://artifacts.apis.io/timescale/rules/timescale-rules.yml
   title: ''
   type: Spectral
   url: rules/timescale-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/json-ld/timescale-context.jsonld
+  href: https://artifacts.apis.io/timescale/json-ld/timescale-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/timescale-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/vocabulary/timescale-vocabulary.yml
+  href: https://artifacts.apis.io/timescale/vocabulary/timescale-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/timescale-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/lifecycle/timescale-lifecycle.yml
+  href: https://artifacts.apis.io/timescale/lifecycle/timescale-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/timescale-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/llms/timescale-ghost-llms.txt
+  href: https://artifacts.apis.io/timescale/llms/timescale-ghost-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/timescale-ghost-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/integrations/timescale-integration-edges.yml
+  href: https://artifacts.apis.io/timescale/integrations/timescale-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/timescale-integration-edges.yml
@@ -180,32 +179,32 @@ common:
   type: BlogRSS
   url: https://www.tigerdata.com/blog/rss
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/capabilities/timescale-capability-edges.yml
+  href: https://artifacts.apis.io/timescale/capabilities/timescale-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/timescale-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/agentic-access/timescale-agentic-access.yml
+  href: https://artifacts.apis.io/timescale/agentic-access/timescale-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/timescale-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/security/timescale-trust-center.yml
+  href: https://artifacts.apis.io/timescale/security/timescale-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/timescale-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/security/timescale-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/timescale/security/timescale-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/timescale-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/security/timescale-domain-security.yml
+  href: https://artifacts.apis.io/timescale/security/timescale-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/timescale-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/authentication/timescale-authentication.yml
+  href: https://artifacts.apis.io/timescale/authentication/timescale-authentication.yml
   title: ''
   type: Authentication
   url: authentication/timescale-authentication.yml
@@ -218,17 +217,17 @@ common:
   type: Compliance
   url: https://www.tigerdata.com/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/conformance/timescale-conformance.yml
+  href: https://artifacts.apis.io/timescale/conformance/timescale-conformance.yml
   title: ''
   type: Conformance
   url: conformance/timescale-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/packages/timescale-packages.yml
+  href: https://artifacts.apis.io/timescale/packages/timescale-packages.yml
   title: ''
   type: Packages
   url: packages/timescale-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/packages/timescale-packages.yml
+  href: https://artifacts.apis.io/timescale/packages/timescale-packages.yml
   title: ''
   type: SDKs
   url: packages/timescale-packages.yml
@@ -245,57 +244,57 @@ common:
   type: Ruby SDK
   url: https://rubygems.org/gems/timescaledb
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/cli/timescale-cli.yml
+  href: https://artifacts.apis.io/timescale/cli/timescale-cli.yml
   title: ''
   type: CLI
   url: cli/timescale-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/mcp/timescale-mcp.yml
+  href: https://artifacts.apis.io/timescale/mcp/timescale-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/timescale-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/mcp/timescale-tool-crosswalk.yml
+  href: https://artifacts.apis.io/timescale/mcp/timescale-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/timescale-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/timescale/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/well-known/timescale-well-known.yml
+  href: https://artifacts.apis.io/timescale/well-known/timescale-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/timescale-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/well-known/timescale-security.txt
+  href: https://artifacts.apis.io/timescale/well-known/timescale-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/timescale-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/llms/timescale-llms.txt
+  href: https://artifacts.apis.io/timescale/llms/timescale-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/timescale-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/conventions/timescale-conventions.yml
+  href: https://artifacts.apis.io/timescale/conventions/timescale-conventions.yml
   title: ''
   type: Conventions
   url: conventions/timescale-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/errors/timescale-problem-types.yml
+  href: https://artifacts.apis.io/timescale/errors/timescale-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/timescale-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/data-model/timescale-data-model.yml
+  href: https://artifacts.apis.io/timescale/data-model/timescale-data-model.yml
   title: ''
   type: DataModel
   url: data-model/timescale-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/lifecycle/timescale-lifecycle.yml
+  href: https://artifacts.apis.io/timescale/lifecycle/timescale-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/timescale-lifecycle.yml
@@ -304,7 +303,7 @@ common:
   type: StatusPage
   url: https://status.tigerdata.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/changelog/timescale-changelog.yml
+  href: https://artifacts.apis.io/timescale/changelog/timescale-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/timescale-changelog.yml
@@ -313,7 +312,7 @@ common:
   type: ReleaseNotes
   url: https://www.tigerdata.com/docs/get-started/news/new
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/sandbox/timescale-sandbox.yml
+  href: https://artifacts.apis.io/timescale/sandbox/timescale-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/timescale-sandbox.yml
@@ -322,7 +321,7 @@ common:
   type: Console
   url: https://console.cloud.tigerdata.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/overlays/timescale-tiger-cloud-overlay.yaml
+  href: https://artifacts.apis.io/timescale/overlays/timescale-tiger-cloud-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/timescale-tiger-cloud-overlay.yaml
@@ -387,17 +386,17 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/timescale_stock/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/plans/timescale-plans-pricing.yml
+  href: https://artifacts.apis.io/timescale/plans/timescale-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/timescale-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/rate-limits/timescale-rate-limits.yml
+  href: https://artifacts.apis.io/timescale/rate-limits/timescale-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/timescale-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/finops/timescale-finops.yml
+  href: https://artifacts.apis.io/timescale/finops/timescale-finops.yml
   title: ''
   type: FinOps
   url: finops/timescale-finops.yml
@@ -405,10 +404,10 @@ created: '2026-08-05'
 description: Timescale — rebranded as Tiger Data in 2025 — is the PostgreSQL data platform company behind TimescaleDB, the open-source PostgreSQL extension for time-series and real-time analytics, and Tiger Cloud, a fully managed PostgreSQL cloud service on AWS and Azure. The platform adds hypertables (automatic time-based partitioning), Hypercore hybrid row-columnar storage, native columnar compression, continuous aggregates, tiered storage to S3, database forks, read replica sets and connection pooling on top of standard PostgreSQL. The company also ships pg_textsearch (BM25 full-text search in Postgres), pgvectorscale and pgai for vector and AI workloads, the Tiger Cloud REST API for programmatic service management, the Tiger CLI with a built-in MCP server, and Ghost, an agent-oriented Postgres provisioning service at ghost.build.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Timescale Finops
-  primary_unit: ''
-  service_category: Database (Time-Series)
+  primary_unit: compute
+  service_category: ''
   slug: timescale-finops
   template: false
 image: https://www.tigerdata.com/favicon.ico
@@ -529,9 +528,12 @@ overview: 'Timescale publishes 13 API contracts indexed on the [APIs.io](https:/
   Timescale''s developer surface includes authentication, CLI, changelog, release notes, sandbox, developer console, documentation, and 49 more developer resources.'
 plans:
 - name: Timescale Plans Pricing
-  plan_count: 6
+  plan_count: 3
   slug: timescale-plans-pricing
-random_paper: 5
+- name: Timescale Price Estimates
+  plan_count: 0
+  slug: timescale-price-estimates
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Timescale Rate Limits
@@ -550,24 +552,24 @@ rules:
     warn: 0
   slug: timescale-rules
 score:
-  band: strong
-  composite: 63.9
+  band: exemplar
+  composite: 73.0
   coverage:
     artifact_dirs: 33
-    catalog_earned: 68.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 47.0
+    catalog_earned: 80.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 35.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 9.0
+  delta: 1.6
   facets:
-    access_clarity: 61.8
+    access_clarity: 100.0
     contract_governance: 19.7
     contract_quality: 59.6
-    developer_ergonomics: 82.7
-    discoverability: 75.0
-    operational_transparency: 60.5
-  previous_composite: 54.9
+    developer_ergonomics: 89.9
+    discoverability: 65.0
+    operational_transparency: 63.2
+  previous_composite: 71.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -592,13 +594,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/screenshots/timescale-2026-08-17T082356.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/timescale/timescale-2026-08-17T082356.png
 security:
 - kind: authentication
   name: Timescale Authentication
@@ -616,6 +619,16 @@ security:
   name: Timescale Trust Center
   slug: timescale-trust-center
   summary_line: SOC 2, HIPAA, GDPR
+skill_count: 4
+skills:
+- name: Fork a Tiger Cloud service to get a disposable copy of production data
+  slug: timescale-fork-a-service-for-testing
+- name: Give an agent its own Ghost Postgres database
+  slug: timescale-ghost-database-for-an-agent
+- name: Read Tiger Cloud service logs and metrics
+  slug: timescale-observe-a-service
+- name: Provision a Tiger Cloud PostgreSQL service
+  slug: timescale-provision-tiger-cloud-service
 slug: timescale
 tags:
 - Company

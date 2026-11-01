@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Cell-based robot-control API for the Wandelbots NOVA platform: motion planning, controller management, motion-group state, trajectory execution (WebSocket) and program running. Path-versioned (v1 lega'
@@ -47,7 +49,7 @@ common:
   type: BlogRSS
   url: https://www.wandelbots.com/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wandelbots/refs/heads/main/security/wandelbots-domain-security.yml
+  href: https://artifacts.apis.io/wandelbots/security/wandelbots-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wandelbots-domain-security.yml
@@ -88,67 +90,67 @@ common:
   type: Support
   url: https://www.wandelbots.com/contact
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wandelbots/refs/heads/main/packages/wandelbots-packages.yml
+  href: https://artifacts.apis.io/wandelbots/packages/wandelbots-packages.yml
   title: ''
   type: SDKs
   url: packages/wandelbots-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wandelbots/refs/heads/main/packages/wandelbots-packages.yml
+  href: https://artifacts.apis.io/wandelbots/packages/wandelbots-packages.yml
   title: ''
   type: Packages
   url: packages/wandelbots-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wandelbots/refs/heads/main/cli/wandelbots-cli.yml
+  href: https://artifacts.apis.io/wandelbots/cli/wandelbots-cli.yml
   title: ''
   type: CLI
   url: cli/wandelbots-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wandelbots/refs/heads/main/components/wandelbots-components.yml
+  href: https://artifacts.apis.io/wandelbots/components/wandelbots-components.yml
   title: ''
   type: Components
   url: components/wandelbots-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wandelbots/refs/heads/main/mcp/wandelbots-mcp.yml
+  href: https://artifacts.apis.io/wandelbots/mcp/wandelbots-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/wandelbots-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wandelbots/refs/heads/main/llms/wandelbots-llms.txt
+  href: https://artifacts.apis.io/wandelbots/llms/wandelbots-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wandelbots-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wandelbots/refs/heads/main/well-known/wandelbots-well-known.yml
+  href: https://artifacts.apis.io/wandelbots/well-known/wandelbots-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wandelbots-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wandelbots/refs/heads/main/authentication/wandelbots-authentication.yml
+  href: https://artifacts.apis.io/wandelbots/authentication/wandelbots-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wandelbots-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wandelbots/refs/heads/main/conventions/wandelbots-conventions.yml
+  href: https://artifacts.apis.io/wandelbots/conventions/wandelbots-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wandelbots-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wandelbots/refs/heads/main/lifecycle/wandelbots-lifecycle.yml
+  href: https://artifacts.apis.io/wandelbots/lifecycle/wandelbots-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wandelbots-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wandelbots/refs/heads/main/lifecycle/wandelbots-lifecycle.yml
+  href: https://artifacts.apis.io/wandelbots/lifecycle/wandelbots-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/wandelbots-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wandelbots/refs/heads/main/changelog/wandelbots-changelog.yml
+  href: https://artifacts.apis.io/wandelbots/changelog/wandelbots-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/wandelbots-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wandelbots/refs/heads/main/conformance/wandelbots-conformance.yml
+  href: https://artifacts.apis.io/wandelbots/conformance/wandelbots-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wandelbots-conformance.yml
@@ -171,7 +173,7 @@ overview: 'Wandelbots is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 19
 score:
   band: emerging
-  composite: 26.0
+  composite: 25.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -179,37 +181,37 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 75.0
-    operational_transparency: 26.3
+    discoverability: 65.0
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - germany
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 25.9
+  previous_composite: 25.3
   provenance:
     conformance: derived
-    mcp: first-party
+    mcp: platform-generated
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wandelbots/refs/heads/main/screenshots/wandelbots-2026-09-02T170421.png
+screenshot: https://apis.io/screenshots/wandelbots/wandelbots-2026-09-02T170421.png
 security:
 - kind: authentication
   name: Wandelbots Authentication

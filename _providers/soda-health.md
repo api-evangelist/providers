@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://docs.evermoreoutcomes.com
@@ -57,11 +59,8 @@ apis:
   description: The health API from Soda Health — 3 operation(s) for health.
   name: Soda Health API
   slug: soda-health-health-api
-artifact_total: 11
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Evermore Portal docs API
   slug: open-soda-health-docs-api
@@ -88,62 +87,62 @@ common:
   type: APIReference
   url: https://docs.evermoreoutcomes.com/api/openapi.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/authentication/soda-health-authentication.yml
+  href: https://artifacts.apis.io/soda-health/authentication/soda-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/soda-health-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/security/soda-health-domain-security.yml
+  href: https://artifacts.apis.io/soda-health/security/soda-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/soda-health-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/errors/soda-health-problem-types.yml
+  href: https://artifacts.apis.io/soda-health/errors/soda-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/soda-health-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/conventions/soda-health-conventions.yml
+  href: https://artifacts.apis.io/soda-health/conventions/soda-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/soda-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/data-model/soda-health-data-model.yml
+  href: https://artifacts.apis.io/soda-health/data-model/soda-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/soda-health-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/mcp/soda-health-mcp.yml
+  href: https://artifacts.apis.io/soda-health/mcp/soda-health-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/soda-health-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/conformance/soda-health-conformance.yml
+  href: https://artifacts.apis.io/soda-health/conformance/soda-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/soda-health-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/lifecycle/soda-health-lifecycle.yml
+  href: https://artifacts.apis.io/soda-health/lifecycle/soda-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/soda-health-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/overlays/soda-health-docs-portal-overlay.yaml
+  href: https://artifacts.apis.io/soda-health/overlays/soda-health-docs-portal-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/soda-health-docs-portal-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/llms/soda-health-llms.txt
+  href: https://artifacts.apis.io/soda-health/llms/soda-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/soda-health-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/skills/soda-health-browse-docs.md
+  href: https://artifacts.apis.io/soda-health/skills/soda-health-browse-docs.md
   title: ''
   type: AgentSkill
   url: skills/soda-health-browse-docs.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/skills/soda-health-issue-magic-link.md
+  href: https://artifacts.apis.io/soda-health/skills/soda-health-issue-magic-link.md
   title: ''
   type: AgentSkill
   url: skills/soda-health-issue-magic-link.md
@@ -159,10 +158,10 @@ overview: 'Soda Health publishes 4 API contracts indexed on the [APIs.io](https:
 
 
   Soda Health''s developer surface includes documentation, API reference, authentication, and 12 more developer resources.'
-random_paper: 20
+random_paper: 18
 score:
   band: emerging
-  composite: 22.0
+  composite: 25.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -170,15 +169,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 41.9
-    developer_ergonomics: 20.8
-    discoverability: 73.2
+    developer_ergonomics: 39.9
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 21.9
+  previous_composite: 25.8
   provenance:
     conformance: derived
     contracts:
@@ -194,13 +193,14 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/screenshots/soda-health-2026-09-02T160055.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/soda-health/soda-health-2026-09-02T160055.png
 security:
 - kind: authentication
   name: Soda Health Authentication
@@ -210,6 +210,12 @@ security:
   name: Soda Health Domain Security
   slug: soda-health-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Browse Soda Health / Evermore product documentation
+  slug: soda-health-browse-docs
+- name: Issue a scoped Evermore docs magic link
+  slug: soda-health-issue-magic-link
 slug: soda-health
 tags:
 - Company

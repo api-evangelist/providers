@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amera/refs/heads/main/security/amera-domain-security.yml
+  href: https://artifacts.apis.io/amera/security/amera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amera-domain-security.yml
@@ -78,12 +80,12 @@ overview: 'Amera is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Amera''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 12
+random_paper: 14
 score:
   band: minimal
   composite: 9.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -111,14 +113,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/amera/refs/heads/main/screenshots/amera-2026-07-25T200037.png
+screenshot: https://apis.io/screenshots/amera/amera-2026-07-25T200037.png
 security:
 - kind: domain-security
   name: Amera Domain Security

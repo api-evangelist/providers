@@ -4,6 +4,6 @@ layout: provider
 name: service-mesh-interface
 nav: Providers
 network: true
-random_paper: 17
+random_paper: 9
 slug: service-mesh-interface
 ---

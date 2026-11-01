@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,31 +23,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.6
-  scored_at: '2026-10-17'
+  score: 3.5
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vareto/refs/heads/main/security/vareto-trust-center.yml
+  href: https://artifacts.apis.io/vareto/security/vareto-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vareto-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vareto/refs/heads/main/security/vareto-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/vareto/security/vareto-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vareto-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vareto/refs/heads/main/security/vareto-domain-security.yml
+  href: https://artifacts.apis.io/vareto/security/vareto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vareto-domain-security.yml
@@ -88,12 +90,12 @@ common:
   type: StatusPage
   url: https://status.vareto.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vareto/refs/heads/main/lifecycle/vareto-lifecycle.yml
+  href: https://artifacts.apis.io/vareto/lifecycle/vareto-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vareto-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vareto/refs/heads/main/llms/vareto-llms.txt
+  href: https://artifacts.apis.io/vareto/llms/vareto-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vareto-llms.txt
@@ -113,10 +115,10 @@ overview: 'Vareto is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Vareto''s developer surface includes pricing, engineering blog, and 12 more developer resources.'
-random_paper: 19
+random_paper: 9
 score:
   band: emerging
-  composite: 21.3
+  composite: 22.2
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -124,15 +126,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 51.7
+    discoverability: 48.2
     operational_transparency: 26.3
-  previous_composite: 21.2
+  previous_composite: 22.2
   provenance:
     mcp: first-party
   regulatory:
@@ -141,14 +143,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vareto/refs/heads/main/screenshots/vareto-2026-09-02T165442.png
+screenshot: https://apis.io/screenshots/vareto/vareto-2026-09-02T165442.png
 security:
 - kind: domain-security
   name: Vareto Domain Security

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 26.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://ae.truebiz.io
@@ -92,11 +94,8 @@ apis:
   description: Our website status endpoints help with checking to see if a provided URL is up and that it is not part of a website grouping that TrueBiz does not support.
   name: TrueBiz Website Status API
   slug: truebiz-website-status-api
-artifact_total: 21
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TrueBiz Web Presence Review Async Web Presence Review Fraud Searches API
   slug: open-truebiz-fraud-searches-api
@@ -132,57 +131,57 @@ common:
   type: APIReference
   url: https://ae.truebiz.io/api/v1/docs
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/authentication/truebiz-authentication.yml
+  href: https://artifacts.apis.io/truebiz/authentication/truebiz-authentication.yml
   title: ''
   type: Authentication
   url: authentication/truebiz-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/conventions/truebiz-conventions.yml
+  href: https://artifacts.apis.io/truebiz/conventions/truebiz-conventions.yml
   title: ''
   type: Conventions
   url: conventions/truebiz-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/errors/truebiz-problem-types.yml
+  href: https://artifacts.apis.io/truebiz/errors/truebiz-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/truebiz-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/lifecycle/truebiz-lifecycle.yml
+  href: https://artifacts.apis.io/truebiz/lifecycle/truebiz-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/truebiz-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/conformance/truebiz-conformance.yml
+  href: https://artifacts.apis.io/truebiz/conformance/truebiz-conformance.yml
   title: ''
   type: Conformance
   url: conformance/truebiz-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/data-model/truebiz-data-model.yml
+  href: https://artifacts.apis.io/truebiz/data-model/truebiz-data-model.yml
   title: ''
   type: DataModel
   url: data-model/truebiz-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/security/truebiz-domain-security.yml
+  href: https://artifacts.apis.io/truebiz/security/truebiz-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/truebiz-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/mcp/truebiz-mcp.yml
+  href: https://artifacts.apis.io/truebiz/mcp/truebiz-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/truebiz-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/truebiz/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/overlays/truebiz-openapi-overlay.yaml
+  href: https://artifacts.apis.io/truebiz/overlays/truebiz-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/truebiz-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/llms/truebiz-llms.txt
+  href: https://artifacts.apis.io/truebiz/llms/truebiz-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/truebiz-llms.txt
@@ -226,10 +225,10 @@ overview: 'TrueBiz publishes 11 API contracts indexed on the [APIs.io](https://a
 
 
   TrueBiz''s developer surface includes developer portal, documentation, API reference, authentication, engineering blog, support, and 15 more developer resources.'
-random_paper: 3
+random_paper: 5
 score:
   band: thin
-  composite: 32.9
+  composite: 36.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -239,13 +238,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 47.9
-    developer_ergonomics: 37.5
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 32.9
+    developer_ergonomics: 47.0
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 36.5
   provenance:
     conformance: derived
     contracts:
@@ -261,13 +260,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/screenshots/truebiz-2026-09-02T164340.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/truebiz/truebiz-2026-09-02T164340.png
 security:
 - kind: authentication
   name: Truebiz Authentication
@@ -277,6 +277,14 @@ security:
   name: Truebiz Domain Security
   slug: truebiz-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Manage the TrueBiz domain blocklist
+  slug: truebiz-manage-blocklist
+- name: Monitor a merchant domain with TrueBiz
+  slug: truebiz-merchant-monitoring
+- name: Run a TrueBiz Web Presence Review
+  slug: truebiz-web-presence-review
 slug: truebiz
 tags:
 - Company

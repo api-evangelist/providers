@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -88,75 +90,75 @@ apis:
   description: API endpoints to initiate the application processing
   name: Spliceforms Submission API
   slug: spliceforms-submission-api
-artifact_total: 43
+artifact_total: 47
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/agentic-access/spliceforms-agentic-access.yml
+  href: https://artifacts.apis.io/spliceforms/agentic-access/spliceforms-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spliceforms-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/rules/spliceforms-stoplight-projects-spectral-rules.yml
+  href: https://artifacts.apis.io/spliceforms/rules/spliceforms-stoplight-projects-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/spliceforms-stoplight-projects-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/rules/spliceforms-rules.yml
+  href: https://artifacts.apis.io/spliceforms/rules/spliceforms-rules.yml
   title: ''
   type: Spectral
   url: rules/spliceforms-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/json-ld/spliceforms-context.jsonld
+  href: https://artifacts.apis.io/spliceforms/json-ld/spliceforms-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/spliceforms-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/vocabulary/spliceforms-vocabulary.yml
+  href: https://artifacts.apis.io/spliceforms/vocabulary/spliceforms-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/spliceforms-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/spliceforms/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/data-model/spliceforms-data-model.yml
+  href: https://artifacts.apis.io/spliceforms/data-model/spliceforms-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spliceforms-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/conventions/spliceforms-conventions.yml
+  href: https://artifacts.apis.io/spliceforms/conventions/spliceforms-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spliceforms-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/errors/spliceforms-problem-types.yml
+  href: https://artifacts.apis.io/spliceforms/errors/spliceforms-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spliceforms-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/conformance/spliceforms-conformance.yml
+  href: https://artifacts.apis.io/spliceforms/conformance/spliceforms-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spliceforms-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/overlays/spliceforms-auth-services-overlay.yaml
+  href: https://artifacts.apis.io/spliceforms/overlays/spliceforms-auth-services-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spliceforms-auth-services-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/hosts/spliceforms-hosts.yml
+  href: https://artifacts.apis.io/spliceforms/hosts/spliceforms-hosts.yml
   title: ''
   type: Hosts
   url: hosts/spliceforms-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/vendors/spliceforms-vendors.yml
+  href: https://artifacts.apis.io/spliceforms/vendors/spliceforms-vendors.yml
   title: ''
   type: Vendors
   url: vendors/spliceforms-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/security/spliceforms-domain-security.yml
+  href: https://artifacts.apis.io/spliceforms/security/spliceforms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spliceforms-domain-security.yml
@@ -289,7 +291,7 @@ plans:
 - name: Spliceforms Plans Pricing
   plan_count: 0
   slug: spliceforms-plans-pricing
-random_paper: 3
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Spliceforms Rate Limits
@@ -321,7 +323,7 @@ rules:
   slug: spliceforms-stoplight-projects-spectral-rules
 score:
   band: thin
-  composite: 30.9
+  composite: 31.6
   coverage:
     artifact_dirs: 25
     catalog_earned: 79.3
@@ -329,7 +331,7 @@ score:
     catalog_gap: 35.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 62.9
@@ -344,7 +346,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 26.6
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -361,13 +363,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 8.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/screenshots/spliceforms-2026-10-11T130212.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spliceforms/spliceforms-2026-10-11T130212.png
 security:
 - kind: authentication
   name: Spliceforms Authentication
@@ -377,6 +380,16 @@ security:
   name: Spliceforms Domain Security
   slug: spliceforms-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 4
+skills:
+- name: spliceforms-application-form-capture
+  slug: spliceforms-application-form-capture
+- name: spliceforms-customer-verification
+  slug: spliceforms-customer-verification
+- name: spliceforms-otp-authentication
+  slug: spliceforms-otp-authentication
+- name: spliceforms-reference-data-lookup
+  slug: spliceforms-reference-data-lookup
 slug: spliceforms
 tags:
 - Company

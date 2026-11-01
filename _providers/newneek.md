@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/newneek/refs/heads/main/plans/newneek-plans-pricing.yml
+  href: https://artifacts.apis.io/newneek/plans/newneek-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/newneek-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/newneek/refs/heads/main/rate-limits/newneek-rate-limits.yml
+  href: https://artifacts.apis.io/newneek/rate-limits/newneek-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/newneek-rate-limits.yml
@@ -71,7 +73,7 @@ common:
   type: PrivacyPolicy
   url: https://newneek.co/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/newneek/refs/heads/main/security/newneek-domain-security.yml
+  href: https://artifacts.apis.io/newneek/security/newneek-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/newneek-domain-security.yml
@@ -80,7 +82,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/newneek
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/newneek/refs/heads/main/llms/newneek-llms.txt
+  href: https://artifacts.apis.io/newneek/llms/newneek-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/newneek-llms.txt
@@ -114,16 +116,16 @@ plans:
 - name: Newneek Plans Pricing
   plan_count: 0
   slug: newneek-plans-pricing
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Newneek Rate Limits
   slug: newneek-rate-limits
 score:
   band: emerging
-  composite: 13.9
+  composite: 13.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -135,8 +137,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -144,21 +146,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 13.9
+  previous_composite: 13.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/newneek/refs/heads/main/screenshots/newneek-2026-08-07T185122.png
+screenshot: https://apis.io/screenshots/newneek/newneek-2026-08-07T185122.png
 security:
 - kind: domain-security
   name: Newneek Domain Security

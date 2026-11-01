@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.6
-  scored_at: '2026-10-17'
+  score: 33.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,11 +56,8 @@ apis:
   description: Submit and manage FOIA and Privacy Act requests for Alien File records
   name: US Citizenship and Immigration Services FOIA Requests API
   slug: us-citizenship-and-immigration-services-foia-requests-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: USCIS Case Status API
   slug: open-us-citizenship-and-immigration-services-case-status-api
@@ -73,42 +72,42 @@ collections:
   slug: open-uscis-foia-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/plans/us-citizenship-and-immigration-services-plans-pricing.yml
+  href: https://artifacts.apis.io/us-citizenship-and-immigration-services/plans/us-citizenship-and-immigration-services-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/us-citizenship-and-immigration-services-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/rate-limits/us-citizenship-and-immigration-services-rate-limits.yml
+  href: https://artifacts.apis.io/us-citizenship-and-immigration-services/rate-limits/us-citizenship-and-immigration-services-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/us-citizenship-and-immigration-services-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/finops/us-citizenship-and-immigration-services-finops.yml
+  href: https://artifacts.apis.io/us-citizenship-and-immigration-services/finops/us-citizenship-and-immigration-services-finops.yml
   title: ''
   type: FinOps
   url: finops/us-citizenship-and-immigration-services-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/capabilities/us-citizenship-and-immigration-services-capability-edges.yml
+  href: https://artifacts.apis.io/us-citizenship-and-immigration-services/capabilities/us-citizenship-and-immigration-services-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/us-citizenship-and-immigration-services-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/agentic-access/us-citizenship-and-immigration-services-agentic-access.yml
+  href: https://artifacts.apis.io/us-citizenship-and-immigration-services/agentic-access/us-citizenship-and-immigration-services-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/us-citizenship-and-immigration-services-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/security/us-citizenship-and-immigration-services-domain-security.yml
+  href: https://artifacts.apis.io/us-citizenship-and-immigration-services/security/us-citizenship-and-immigration-services-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/us-citizenship-and-immigration-services-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/authentication/us-citizenship-and-immigration-services-authentication.yml
+  href: https://artifacts.apis.io/us-citizenship-and-immigration-services/authentication/us-citizenship-and-immigration-services-authentication.yml
   title: ''
   type: Authentication
   url: authentication/us-citizenship-and-immigration-services-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/scopes/us-citizenship-and-immigration-services-scopes.yml
+  href: https://artifacts.apis.io/us-citizenship-and-immigration-services/scopes/us-citizenship-and-immigration-services-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/us-citizenship-and-immigration-services-scopes.yml
@@ -129,7 +128,7 @@ finops:
 - has_sources: false
   method: generated
   name: Us Citizenship And Immigration Services Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: us-citizenship-and-immigration-services-finops
   template: true
@@ -198,7 +197,7 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 34.1
+  composite: 34.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 54.3
@@ -206,7 +205,7 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
@@ -219,7 +218,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 35.7
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -233,13 +232,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/screenshots/us-citizenship-and-immigration-services-2026-06-20T200606.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/us-citizenship-and-immigration-services/us-citizenship-and-immigration-services-2026-06-20T200606.png
 security:
 - kind: authentication
   name: Us Citizenship And Immigration Services Authentication

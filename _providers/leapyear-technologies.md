@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -55,42 +57,42 @@ common:
   type: GettingStarted
   url: https://leapyear-python-docs.readthedocs-hosted.com/en/4.1.1/tutorial.html
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/leapyear-technologies/refs/heads/main/packages/leapyear-technologies-packages.yml
+  href: https://artifacts.apis.io/leapyear-technologies/packages/leapyear-technologies-packages.yml
   title: ''
   type: Packages
   url: packages/leapyear-technologies-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/leapyear-technologies/refs/heads/main/packages/leapyear-technologies-packages.yml
+  href: https://artifacts.apis.io/leapyear-technologies/packages/leapyear-technologies-packages.yml
   title: ''
   type: SDKs
   url: packages/leapyear-technologies-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leapyear-technologies/refs/heads/main/authentication/leapyear-technologies-authentication.yml
+  href: https://artifacts.apis.io/leapyear-technologies/authentication/leapyear-technologies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/leapyear-technologies-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leapyear-technologies/refs/heads/main/errors/leapyear-technologies-error-codes.yml
+  href: https://artifacts.apis.io/leapyear-technologies/errors/leapyear-technologies-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/leapyear-technologies-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leapyear-technologies/refs/heads/main/conventions/leapyear-technologies-conventions.yml
+  href: https://artifacts.apis.io/leapyear-technologies/conventions/leapyear-technologies-conventions.yml
   title: ''
   type: Conventions
   url: conventions/leapyear-technologies-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leapyear-technologies/refs/heads/main/lifecycle/leapyear-technologies-lifecycle.yml
+  href: https://artifacts.apis.io/leapyear-technologies/lifecycle/leapyear-technologies-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/leapyear-technologies-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leapyear-technologies/refs/heads/main/security/leapyear-technologies-domain-security.yml
+  href: https://artifacts.apis.io/leapyear-technologies/security/leapyear-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leapyear-technologies-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leapyear-technologies/refs/heads/main/llms/leapyear-technologies-llms.txt
+  href: https://artifacts.apis.io/leapyear-technologies/llms/leapyear-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leapyear-technologies-llms.txt
@@ -111,10 +113,10 @@ overview: 'LeapYear Technologies is profiled on the [APIs.io](https://apis.io/) 
 
 
   LeapYear Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, and 9 more developer resources.'
-random_paper: 2
+random_paper: 20
 score:
   band: emerging
-  composite: 14.4
+  composite: 13.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -128,23 +130,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 14.4
+  previous_composite: 13.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/leapyear-technologies/refs/heads/main/screenshots/leapyear-technologies-2026-07-25T224956.png
+screenshot: https://apis.io/screenshots/leapyear-technologies/leapyear-technologies-2026-07-25T224956.png
 security:
 - kind: authentication
   name: Leapyear Technologies Authentication

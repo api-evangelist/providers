@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 22.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -95,11 +97,8 @@ apis:
   description: The Transactions API from Datanomik — 2 operation(s) for transactions.
   name: Datanomik Transactions API
   slug: datanomik-transactions-api
-artifact_total: 24
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: openbanking-api Accounts API
   slug: open-datanomik-accounts-api
@@ -132,22 +131,22 @@ collections:
   slug: open-datanomik-transactions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/capabilities/datanomik-capability-edges.yml
+  href: https://artifacts.apis.io/datanomik/capabilities/datanomik-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/datanomik-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/overlays/datanomik-openbanking-overlay.yaml
+  href: https://artifacts.apis.io/datanomik/overlays/datanomik-openbanking-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/datanomik-openbanking-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/security/datanomik-domain-security.yml
+  href: https://artifacts.apis.io/datanomik/security/datanomik-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datanomik-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/agentic-access/datanomik-agentic-access.yml
+  href: https://artifacts.apis.io/datanomik/agentic-access/datanomik-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/datanomik-agentic-access.yml
@@ -216,47 +215,47 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/datanomik/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/llms/datanomik-llms.txt
+  href: https://artifacts.apis.io/datanomik/llms/datanomik-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/datanomik-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/authentication/datanomik-authentication.yml
+  href: https://artifacts.apis.io/datanomik/authentication/datanomik-authentication.yml
   title: ''
   type: Authentication
   url: authentication/datanomik-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/conventions/datanomik-conventions.yml
+  href: https://artifacts.apis.io/datanomik/conventions/datanomik-conventions.yml
   title: ''
   type: Conventions
   url: conventions/datanomik-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/errors/datanomik-problem-types.yml
+  href: https://artifacts.apis.io/datanomik/errors/datanomik-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/datanomik-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/lifecycle/datanomik-lifecycle.yml
+  href: https://artifacts.apis.io/datanomik/lifecycle/datanomik-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/datanomik-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/sandbox/datanomik-sandbox.yml
+  href: https://artifacts.apis.io/datanomik/sandbox/datanomik-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/datanomik-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/components/datanomik-components.yml
+  href: https://artifacts.apis.io/datanomik/components/datanomik-components.yml
   title: ''
   type: Components
   url: components/datanomik-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/data-model/datanomik-data-model.yml
+  href: https://artifacts.apis.io/datanomik/data-model/datanomik-data-model.yml
   title: ''
   type: DataModel
   url: data-model/datanomik-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/conformance/datanomik-conformance.yml
+  href: https://artifacts.apis.io/datanomik/conformance/datanomik-conformance.yml
   title: ''
   type: Conformance
   url: conformance/datanomik-conformance.yml
@@ -265,17 +264,17 @@ common:
   type: Compliance
   url: https://datanomik.com/seguranca
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/mcp/datanomik-mcp.yml
+  href: https://artifacts.apis.io/datanomik/mcp/datanomik-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/datanomik-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/well-known/datanomik-well-known.yml
+  href: https://artifacts.apis.io/datanomik/well-known/datanomik-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/datanomik-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/datanomik/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -291,10 +290,10 @@ overview: 'Datanomik publishes 10 API contracts indexed on the [APIs.io](https:/
 
 
   Datanomik''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, engineering blog, and 26 more developer resources.'
-random_paper: 6
+random_paper: 16
 score:
   band: developing
-  composite: 44.9
+  composite: 46.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -304,12 +303,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 47.4
-    developer_ergonomics: 57.7
-    discoverability: 73.2
-    operational_transparency: 18.4
+    developer_ergonomics: 70.8
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -317,7 +316,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 44.9
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -338,13 +337,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/screenshots/datanomik-2026-07-25T211349.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/datanomik/datanomik-2026-07-25T211349.png
 security:
 - kind: authentication
   name: Datanomik Authentication
@@ -354,6 +354,14 @@ security:
   name: Datanomik Domain Security
   slug: datanomik-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Consolidate bank accounts and balances
+  slug: datanomik-consolidate-accounts
+- name: Reconcile payments and PIX transactions
+  slug: datanomik-reconcile-payments
+- name: Track investment holdings and movements
+  slug: datanomik-track-investments
 slug: datanomik
 tags:
 - Company

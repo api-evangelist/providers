@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.7
-  scored_at: '2026-10-17'
+  score: 20.4
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The Activities API from Platform24 — 1 operation(s) for activities.
@@ -41,32 +43,32 @@ apis:
 artifact_total: 12
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/rules/platform24-rules.yml
+  href: https://artifacts.apis.io/platform24/rules/platform24-rules.yml
   title: ''
   type: Spectral
   url: rules/platform24-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/json-ld/platform24-context.jsonld
+  href: https://artifacts.apis.io/platform24/json-ld/platform24-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/platform24-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/vocabulary/platform24-vocabulary.yml
+  href: https://artifacts.apis.io/platform24/vocabulary/platform24-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/platform24-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/platform24/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/data-model/platform24-data-model.yml
+  href: https://artifacts.apis.io/platform24/data-model/platform24-data-model.yml
   title: ''
   type: DataModel
   url: data-model/platform24-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/changelog/platform24-changelog.yml
+  href: https://artifacts.apis.io/platform24/changelog/platform24-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/platform24-changelog.yml
@@ -75,27 +77,27 @@ common:
   type: Compliance
   url: https://platform24.com/products/compliance/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/authentication/platform24-authentication.yml
+  href: https://artifacts.apis.io/platform24/authentication/platform24-authentication.yml
   title: ''
   type: Authentication
   url: authentication/platform24-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/conformance/platform24-conformance.yml
+  href: https://artifacts.apis.io/platform24/conformance/platform24-conformance.yml
   title: ''
   type: Conformance
   url: conformance/platform24-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/llms/platform24-llms.txt
+  href: https://artifacts.apis.io/platform24/llms/platform24-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/platform24-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/hosts/platform24-hosts.yml
+  href: https://artifacts.apis.io/platform24/hosts/platform24-hosts.yml
   title: ''
   type: Hosts
   url: hosts/platform24-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/vendors/platform24-vendors.yml
+  href: https://artifacts.apis.io/platform24/vendors/platform24-vendors.yml
   title: ''
   type: Vendors
   url: vendors/platform24-vendors.yml
@@ -104,12 +106,12 @@ common:
   type: Documentation
   url: https://docs.platform24.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/security/platform24-trust-center.yml
+  href: https://artifacts.apis.io/platform24/security/platform24-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/platform24-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/platform24/refs/heads/main/security/platform24-domain-security.yml
+  href: https://artifacts.apis.io/platform24/security/platform24-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/platform24-domain-security.yml
@@ -158,7 +160,7 @@ overview: 'Platform24 is listed with 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Platform24''s developer surface includes changelog, authentication, documentation, getting-started guide, support, and 14 more developer resources.'
-random_paper: 3
+random_paper: 11
 rules:
 - authorship: generated
   effective_rule_count: 51
@@ -182,13 +184,15 @@ score:
     catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 22.0
     contract_quality: 20.1
     developer_ergonomics: 44.5
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 15.8
+  previous_composite: 31.0
   provenance:
     conformance: derived
     contracts:
@@ -204,11 +208,13 @@ score:
     regime: Health
     regime_id: health
     score: 20.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Platform24 Authentication

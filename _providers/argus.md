@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: The ARGUS API is a cloud-based integration gateway that provides programmatic access to data in ARGUS Enterprise and other cloud-enabled ARGUS solutions. It enables users to extract and ingest data, t
@@ -53,13 +55,31 @@ apis:
   slug: argus-taliance
 artifact_total: 28
 common:
+- group: other
+  href: https://artifacts.apis.io/argus/hosts/argus-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/argus-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/argus/vendors/argus-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/argus-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.altusgroup.com/about-us/newsroom/
+- group: start
+  title: ''
+  type: Login
+  url: https://www.altusgroup.com/login/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/argus/refs/heads/main/finops/argus-finops.yml
+  href: https://artifacts.apis.io/argus/finops/argus-finops.yml
   title: ''
   type: FinOps
   url: finops/argus-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/argus/refs/heads/main/security/argus-domain-security.yml
+  href: https://artifacts.apis.io/argus/security/argus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/argus-domain-security.yml
@@ -112,60 +132,62 @@ common:
   type: Compliance
   url: https://www.altusgroup.com/trust-center/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/argus/refs/heads/main/security/argus-trust-center.yml
+  href: https://artifacts.apis.io/argus/security/argus-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/argus-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/argus/refs/heads/main/well-known/argus-well-known.yml
+  href: https://artifacts.apis.io/argus/well-known/argus-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/argus-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/argus/refs/heads/main/authentication/argus-authentication.yml
+  href: https://artifacts.apis.io/argus/authentication/argus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/argus-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/argus/refs/heads/main/conformance/argus-conformance.yml
+  href: https://artifacts.apis.io/argus/conformance/argus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/argus-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/argus/refs/heads/main/lifecycle/argus-lifecycle.yml
+  href: https://artifacts.apis.io/argus/lifecycle/argus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/argus-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/argus/refs/heads/main/lifecycle/argus-lifecycle.yml
+  href: https://artifacts.apis.io/argus/lifecycle/argus-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/argus-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/argus/refs/heads/main/changelog/argus-changelog.yml
+  href: https://artifacts.apis.io/argus/changelog/argus-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/argus-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/argus/refs/heads/main/plans/argus-plans-pricing.yml
+  href: https://artifacts.apis.io/argus/plans/argus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/argus-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/argus/refs/heads/main/rate-limits/argus-rate-limits.yml
+  href: https://artifacts.apis.io/argus/rate-limits/argus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/argus-rate-limits.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/argus/refs/heads/main/packages/argus-packages.yml
-  title: ''
-  type: Packages
-  url: packages/argus-packages.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/argus/refs/heads/main/llms/argus-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/argus-llms.txt
+coverage:
+  checked: '2026-10-20'
+  detail: The ARGUS API is described only in product marketing; its documentation link resolves to the downloads page, and the ARGUS Intelligence Platform host (platform.altusintelligence.com) serves an SPA shell for every path while a POST to /mcp is refused 403 at CloudFront, so no public contract exists.
+  evidence:
+  - status: 308
+    url: https://www.altusgroup.com/argus/argus-api/
+  - status: 403
+    url: https://platform.altusintelligence.com/mcp
+  - status: 404
+    url: https://www.altusgroup.com/llms.txt
+  reason: customer-only-docs
+  state: gated
 created: '2024-01-15'
 description: ARGUS is the industry-standard suite of commercial real estate software solutions by Altus Group. The ARGUS platform includes ARGUS Enterprise (property valuation and cash flow forecasting), ARGUS Developer (development feasibility and project management), ARGUS Intelligence Platform (portfolio analytics, asset management, and fund management), ARGUS EstateMaster (property development feasibility), and ARGUS Taliance (real estate fund management). ARGUS is recognized as the industry standard and taught at 200+ universities worldwide. The ARGUS API provides integration capabilities across cloud-enabled ARGUS solutions.
 features:
@@ -185,7 +207,7 @@ finops:
 - has_sources: false
   method: generated
   name: Argus Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: argus-finops
   template: true
@@ -211,7 +233,7 @@ network: true
 overview: 'ARGUS is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Altus Group, Asset Management, Commercial Real Estate, Fund Management, and Portfolio Management.
 
 
-  ARGUS''s developer surface includes engineering blog, documentation, getting-started guide, developer portal, support, training material, release notes, and 18 more developer resources.'
+  ARGUS''s developer surface includes engineering blog, documentation, getting-started guide, developer portal, support, training material, release notes, and 20 more developer resources.'
 plans:
 - name: Argus Plans Pricing
   plan_count: 0
@@ -223,23 +245,23 @@ rate_limits:
   slug: argus-rate-limits
 score:
   band: thin
-  composite: 28.7
+  composite: 31.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 17
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 26.3
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 62.5
-    operational_transparency: 26.3
-  previous_composite: 30.2
+    discoverability: 64.3
+    operational_transparency: 28.9
+  previous_composite: 31.8
   provenance:
     conformance: first-party
   regulatory:
@@ -248,14 +270,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/argus/refs/heads/main/screenshots/argus-2026-06-20T172427.png
+screenshot: https://apis.io/screenshots/argus/argus-2026-06-20T172427.png
 security:
 - kind: authentication
   name: Argus Authentication
@@ -268,7 +290,7 @@ security:
 - kind: trust-center
   name: Argus Trust Center
   slug: argus-trust-center
-  summary_line: ISO/IEC 27001, SOC 3 Type 2, SOC 3 Type 2, SOC 3 report, SOC 2 Type II
+  summary_line: ISO/IEC 27001 (Altus Group), SOC 3 Type 2 (ARGUS Cloud (2025)), SOC 3 Type 2 (ARGUS Intelligence Platform (2025)), SOC 3 report (Altus Finance Active / Fairways (2024)), SOC 2 Type II (Altus Group)
 slug: argus
 tags:
 - Altus Group

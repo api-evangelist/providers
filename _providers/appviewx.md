@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.6
-  scored_at: '2026-10-17'
+  score: 6.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API documentation is not publicly machine-readable; attempts to fetch OpenAPI specs returned 404 on both api and docs hosts.
@@ -40,17 +42,17 @@ common:
   type: Compliance
   url: https://trust.appviewx.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appviewx/refs/heads/main/well-known/appviewx-well-known.yml
+  href: https://artifacts.apis.io/appviewx/well-known/appviewx-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/appviewx-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/appviewx/refs/heads/main/hosts/appviewx-hosts.yml
+  href: https://artifacts.apis.io/appviewx/hosts/appviewx-hosts.yml
   title: ''
   type: Hosts
   url: hosts/appviewx-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/appviewx/refs/heads/main/vendors/appviewx-vendors.yml
+  href: https://artifacts.apis.io/appviewx/vendors/appviewx-vendors.yml
   title: ''
   type: Vendors
   url: vendors/appviewx-vendors.yml
@@ -79,12 +81,12 @@ common:
   type: Documentation
   url: https://docs.appviewx.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appviewx/refs/heads/main/security/appviewx-trust-center.yml
+  href: https://artifacts.apis.io/appviewx/security/appviewx-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/appviewx-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appviewx/refs/heads/main/security/appviewx-domain-security.yml
+  href: https://artifacts.apis.io/appviewx/security/appviewx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/appviewx-domain-security.yml
@@ -103,7 +105,7 @@ overview: 'Appviewx is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Appviewx''s developer surface includes getting-started guide, documentation, and 12 more developer resources.'
-random_paper: 4
+random_paper: 20
 score:
   band: emerging
   composite: 20.1
@@ -114,7 +116,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
@@ -122,7 +124,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 53.6
     operational_transparency: 21.1
-  previous_composite: 20.0
+  previous_composite: 20.1
   provenance:
     mcp: unknown
   regulatory:
@@ -131,14 +133,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/appviewx/refs/heads/main/screenshots/appviewx-2026-10-11T100025.png
+screenshot: https://apis.io/screenshots/appviewx/appviewx-2026-10-11T100025.png
 security:
 - kind: domain-security
   name: Appviewx Domain Security

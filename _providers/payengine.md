@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,25 +38,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for merchant onboarding, card and ACH transaction processing (auth, sale, capture, void, refund, offline and device sale), card and bank-account tokenization, gateway orchestration, hosted pa
   name: PayEngine Platform API
   slug: payengine-platform-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Payengine Webhooks
   slug: payengine-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/security/payengine-domain-security.yml
+  href: https://artifacts.apis.io/payengine/security/payengine-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/payengine-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/security/payengine-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/payengine/security/payengine-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/payengine-vulnerability-disclosure.yml
@@ -115,87 +117,95 @@ common:
   type: Security
   url: https://www.payengine.co/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/conformance/payengine-conformance.yml
+  href: https://artifacts.apis.io/payengine/conformance/payengine-conformance.yml
   title: ''
   type: Compliance
   url: conformance/payengine-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/conformance/payengine-conformance.yml
+  href: https://artifacts.apis.io/payengine/conformance/payengine-conformance.yml
   title: ''
   type: Conformance
   url: conformance/payengine-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/packages/payengine-packages.yml
+  href: https://artifacts.apis.io/payengine/packages/payengine-packages.yml
   title: ''
   type: Packages
   url: packages/payengine-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/packages/payengine-packages.yml
+  href: https://artifacts.apis.io/payengine/packages/payengine-packages.yml
   title: ''
   type: SDKs
   url: packages/payengine-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/llms/payengine-llms.txt
+  href: https://artifacts.apis.io/payengine/llms/payengine-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/payengine-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/authentication/payengine-authentication.yml
+  href: https://artifacts.apis.io/payengine/authentication/payengine-authentication.yml
   title: ''
   type: Authentication
   url: authentication/payengine-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/conventions/payengine-conventions.yml
+  href: https://artifacts.apis.io/payengine/conventions/payengine-conventions.yml
   title: ''
   type: Conventions
   url: conventions/payengine-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/errors/payengine-problem-types.yml
+  href: https://artifacts.apis.io/payengine/errors/payengine-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/payengine-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/errors/payengine-decline-codes.yml
+  href: https://artifacts.apis.io/payengine/errors/payengine-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/payengine-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/lifecycle/payengine-lifecycle.yml
+  href: https://artifacts.apis.io/payengine/lifecycle/payengine-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/payengine-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/sandbox/payengine-sandbox.yml
+  href: https://artifacts.apis.io/payengine/sandbox/payengine-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/payengine-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/components/payengine-components.yml
+  href: https://artifacts.apis.io/payengine/components/payengine-components.yml
   title: ''
   type: Components
   url: components/payengine-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/data-model/payengine-data-model.yml
+  href: https://artifacts.apis.io/payengine/data-model/payengine-data-model.yml
   title: ''
   type: DataModel
   url: data-model/payengine-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/asyncapi/payengine-webhooks.yml
+  href: https://artifacts.apis.io/payengine/asyncapi/payengine-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/payengine-webhooks.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/plans/payengine-plans-pricing.yml
+  href: https://artifacts.apis.io/payengine/plans/payengine-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/payengine-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/rate-limits/payengine-rate-limits.yml
+  href: https://artifacts.apis.io/payengine/rate-limits/payengine-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/payengine-rate-limits.yml
 created: '2026-08-26'
 description: 'PayEngine is an embedded-payments and payment-facilitation platform for vertical market SaaS companies, operated by Platform Factory, Inc. It lets a software company offer payments to its own customers without building an acquiring stack: PayEngine handles merchant onboarding and underwriting, PCI-scoped card and bank-account capture through hosted SecureFields and a <pay-engine> web-component library, card and ACH processing with 3-D Secure, AVS and Level 2/Level 3 interchange data, network tokenization, Tap to Pay and cloud-connected terminals, hosted payment links, subscriptions, disputes, settlement and payouts. A gateway-orchestration layer routes across multiple processors. The platform is a PCI DSS Level 1 certified Service Provider, listed in Visa''s Global Registry under Platform Factory, Inc. Integration is REST plus a signed webhook surface of 37 documented events; the REST reference itself requires a partner login.'
+finops:
+- has_sources: true
+  method: derived
+  name: Payengine Finops
+  primary_unit: ''
+  service_category: ''
+  slug: payengine-finops
+  template: true
 image: https://cdn.prod.website-files.com/64cc25b62ffdab8b077809ed/64f2c783505aa955d658014b_payengine-opengrpah.jpg
 layout: provider
 modified: '2026-08-26'
@@ -213,16 +223,16 @@ plans:
 - name: Payengine Plans Pricing
   plan_count: 0
   slug: payengine-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Payengine Rate Limits
   slug: payengine-rate-limits
 score:
   band: developing
-  composite: 45.3
+  composite: 49.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -230,13 +240,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 45.3
+    developer_ergonomics: 71.4
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 49.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -246,14 +256,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 37.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/payengine/refs/heads/main/screenshots/payengine-2026-09-02T150922.png
+screenshot: https://apis.io/screenshots/payengine/payengine-2026-09-02T150922.png
 security:
 - kind: authentication
   name: Payengine Authentication

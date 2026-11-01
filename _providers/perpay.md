@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Internal REST API that powers checkout on the Perpay Marketplace. Handles product ordering, spending-limit enforcement, and installment plan creation for approved consumers. Access is limited to Perpa
@@ -48,12 +50,12 @@ apis:
 artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perpay/refs/heads/main/security/perpay-trust-center.yml
+  href: https://artifacts.apis.io/perpay/security/perpay-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/perpay-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perpay/refs/heads/main/security/perpay-domain-security.yml
+  href: https://artifacts.apis.io/perpay/security/perpay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/perpay-domain-security.yml
@@ -82,17 +84,17 @@ common:
   type: PrivacyPolicy
   url: https://perpay.com/legal/privacy-policy
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/perpay/refs/heads/main/plans/perpay-plans-pricing.yml
+  href: https://artifacts.apis.io/perpay/plans/perpay-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/perpay-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/perpay/refs/heads/main/rate-limits/perpay-rate-limits.yml
+  href: https://artifacts.apis.io/perpay/rate-limits/perpay-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/perpay-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/perpay/refs/heads/main/finops/perpay-finops.yml
+  href: https://artifacts.apis.io/perpay/finops/perpay-finops.yml
   title: ''
   type: FinOps
   url: finops/perpay-finops.yml
@@ -101,12 +103,12 @@ common:
   type: Blog
   url: https://blog.perpay.com/
 - group: company
-  href: https://raw.githubusercontent.com/api-evangelist/perpay/refs/heads/main/blogs/blogs.json
+  href: https://artifacts.apis.io/perpay/blogs/blogs.json
   title: ''
   type: BlogPosts
   url: blogs/blogs.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perpay/refs/heads/main/json-ld/perpay-context.jsonld
+  href: https://artifacts.apis.io/perpay/json-ld/perpay-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/perpay-context.jsonld
@@ -142,7 +144,7 @@ plans:
 - name: Perpay Plans Pricing
   plan_count: 1
   slug: perpay-plans-pricing
-random_paper: 19
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Perpay Rate Limits
@@ -157,7 +159,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -165,21 +167,21 @@ score:
     developer_ergonomics: 16.7
     discoverability: 71.4
     operational_transparency: 10.5
-  previous_composite: 26.7
+  previous_composite: 20.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/perpay/refs/heads/main/screenshots/perpay-2026-06-20T191609.png
+screenshot: https://apis.io/screenshots/perpay/perpay-2026-06-20T191609.png
 security:
 - kind: domain-security
   name: Perpay Domain Security

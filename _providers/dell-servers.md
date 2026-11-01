@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -213,7 +215,7 @@ arazzos:
 - description: Discover metric reports and subscribe to telemetry events.
   name: Dell Servers Telemetry Subscription Setup
   slug: dell-servers-telemetry-subscription-workflow
-artifact_total: 103
+artifact_total: 102
 collections:
 - collection_type: postman
   name: Dell Servers Dell iDRAC Redfish REST API
@@ -221,9 +223,6 @@ collections:
 - collection_type: postman
   name: Dell Servers Dell OpenManage Enterprise API
   slug: postman-dell-servers-openmanage-enterprise
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Dell Servers Dell iDRAC Redfish REST Accounts API
   slug: open-dell-servers-accounts-api
@@ -289,17 +288,17 @@ collections:
   slug: open-dell-servers-update-service-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/plans/dell-servers-plans-pricing.yml
+  href: https://artifacts.apis.io/dell-servers/plans/dell-servers-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dell-servers-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/rate-limits/dell-servers-rate-limits.yml
+  href: https://artifacts.apis.io/dell-servers/rate-limits/dell-servers-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dell-servers-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/finops/dell-servers-finops.yml
+  href: https://artifacts.apis.io/dell-servers/finops/dell-servers-finops.yml
   title: ''
   type: FinOps
   url: finops/dell-servers-finops.yml
@@ -312,7 +311,7 @@ common:
   type: BlogRSS
   url: https://www.dell.com/en-us/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/capabilities/dell-servers-capability-edges.yml
+  href: https://artifacts.apis.io/dell-servers/capabilities/dell-servers-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dell-servers-capability-edges.yml
@@ -329,22 +328,22 @@ common:
   type: License
   url: https://github.com/dell/OpenManage-Enterprise/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/agentic-access/dell-servers-agentic-access.yml
+  href: https://artifacts.apis.io/dell-servers/agentic-access/dell-servers-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dell-servers-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/security/dell-servers-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dell-servers/security/dell-servers-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dell-servers-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/security/dell-servers-domain-security.yml
+  href: https://artifacts.apis.io/dell-servers/security/dell-servers-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dell-servers-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/authentication/dell-servers-authentication.yml
+  href: https://artifacts.apis.io/dell-servers/authentication/dell-servers-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dell-servers-authentication.yml
@@ -353,82 +352,82 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/dell-servers/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/arazzo/dell-servers-chassis-health-report-workflow.yml
+  href: https://artifacts.apis.io/dell-servers/arazzo/dell-servers-chassis-health-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dell-servers-chassis-health-report-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/arazzo/dell-servers-firmware-inventory-tasks-workflow.yml
+  href: https://artifacts.apis.io/dell-servers/arazzo/dell-servers-firmware-inventory-tasks-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dell-servers-firmware-inventory-tasks-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/arazzo/dell-servers-manager-overview-workflow.yml
+  href: https://artifacts.apis.io/dell-servers/arazzo/dell-servers-manager-overview-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dell-servers-manager-overview-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/arazzo/dell-servers-ome-alert-triage-workflow.yml
+  href: https://artifacts.apis.io/dell-servers/arazzo/dell-servers-ome-alert-triage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dell-servers-ome-alert-triage-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/arazzo/dell-servers-ome-device-inventory-workflow.yml
+  href: https://artifacts.apis.io/dell-servers/arazzo/dell-servers-ome-device-inventory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dell-servers-ome-device-inventory-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/arazzo/dell-servers-ome-discovery-workflow.yml
+  href: https://artifacts.apis.io/dell-servers/arazzo/dell-servers-ome-discovery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dell-servers-ome-discovery-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/arazzo/dell-servers-ome-firmware-compliance-workflow.yml
+  href: https://artifacts.apis.io/dell-servers/arazzo/dell-servers-ome-firmware-compliance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dell-servers-ome-firmware-compliance-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/arazzo/dell-servers-ome-firmware-update-job-workflow.yml
+  href: https://artifacts.apis.io/dell-servers/arazzo/dell-servers-ome-firmware-update-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dell-servers-ome-firmware-update-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/arazzo/dell-servers-ome-group-devices-workflow.yml
+  href: https://artifacts.apis.io/dell-servers/arazzo/dell-servers-ome-group-devices-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dell-servers-ome-group-devices-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/arazzo/dell-servers-ome-session-list-devices-workflow.yml
+  href: https://artifacts.apis.io/dell-servers/arazzo/dell-servers-ome-session-list-devices-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dell-servers-ome-session-list-devices-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/arazzo/dell-servers-ome-template-deploy-job-workflow.yml
+  href: https://artifacts.apis.io/dell-servers/arazzo/dell-servers-ome-template-deploy-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dell-servers-ome-template-deploy-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/arazzo/dell-servers-power-action-poll-workflow.yml
+  href: https://artifacts.apis.io/dell-servers/arazzo/dell-servers-power-action-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dell-servers-power-action-poll-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/arazzo/dell-servers-redfish-session-bootstrap-workflow.yml
+  href: https://artifacts.apis.io/dell-servers/arazzo/dell-servers-redfish-session-bootstrap-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dell-servers-redfish-session-bootstrap-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/arazzo/dell-servers-set-boot-and-reset-workflow.yml
+  href: https://artifacts.apis.io/dell-servers/arazzo/dell-servers-set-boot-and-reset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dell-servers-set-boot-and-reset-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/arazzo/dell-servers-system-inventory-workflow.yml
+  href: https://artifacts.apis.io/dell-servers/arazzo/dell-servers-system-inventory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dell-servers-system-inventory-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/arazzo/dell-servers-telemetry-subscription-workflow.yml
+  href: https://artifacts.apis.io/dell-servers/arazzo/dell-servers-telemetry-subscription-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dell-servers-telemetry-subscription-workflow.yml
@@ -485,12 +484,12 @@ common:
   type: Login
   url: https://developer.dell.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/json-ld/dell-servers-context.jsonld
+  href: https://artifacts.apis.io/dell-servers/json-ld/dell-servers-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dell-servers-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/vocabulary/dell-servers-vocabulary.yml
+  href: https://artifacts.apis.io/dell-servers/vocabulary/dell-servers-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/dell-servers-vocabulary.yml
@@ -603,7 +602,7 @@ plans:
 - name: Dell Servers Plans Pricing
   plan_count: 3
   slug: dell-servers-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Dell Servers Rate Limits
@@ -646,7 +645,7 @@ rules:
   slug: dell-servers-openmanage-enterprise-rules
 score:
   band: developing
-  composite: 41.7
+  composite: 48.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 58.0
@@ -654,18 +653,15 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.2
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 42.1
     contract_governance: 27.3
-    contract_quality: 58.8
-    developer_ergonomics: 53.6
+    contract_quality: 56.0
+    developer_ergonomics: 58.3
     discoverability: 57.1
-    operational_transparency: 13.2
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 46.9
+    operational_transparency: 23.7
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     contracts:
@@ -678,14 +674,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 30.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/screenshots/dell-servers-2026-06-20T175900.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dell-servers/dell-servers-2026-06-20T175900.png
 security:
 - kind: authentication
   name: Dell Servers Authentication

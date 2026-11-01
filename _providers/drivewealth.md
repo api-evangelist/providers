@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.2
-  scored_at: '2026-10-17'
+  score: 35.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 102
   slug: drivewealth-agentic-access
   summary_line: 102 operations · 28 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Financial Information Exchange (FIX) protocol API for institutional-grade connectivity to DriveWealth's trading infrastructure.
   name: DriveWealth FIX API
@@ -197,11 +199,8 @@ apis:
   description: The Withdrawals API from DriveWealth — 4 operation(s) for withdrawals.
   name: DriveWealth Withdrawals API
   slug: drivewealth-withdrawals-api
-artifact_total: 76
+artifact_total: 75
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: DriveWealth Accounts API
   slug: open-drivewealth-accounts-api
@@ -294,22 +293,22 @@ collections:
   slug: open-drivewealth-withdrawals-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/capabilities/drivewealth-capability-edges.yml
+  href: https://artifacts.apis.io/drivewealth/capabilities/drivewealth-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/drivewealth-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/agentic-access/drivewealth-agentic-access.yml
+  href: https://artifacts.apis.io/drivewealth/agentic-access/drivewealth-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/drivewealth-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/security/drivewealth-domain-security.yml
+  href: https://artifacts.apis.io/drivewealth/security/drivewealth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/drivewealth-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/authentication/drivewealth-authentication.yml
+  href: https://artifacts.apis.io/drivewealth/authentication/drivewealth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/drivewealth-authentication.yml
@@ -346,57 +345,57 @@ common:
   type: StatusPage
   url: https://status.drivewealth.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/plans/drivewealth-plans-pricing.yml
+  href: https://artifacts.apis.io/drivewealth/plans/drivewealth-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/drivewealth-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/rate-limits/drivewealth-rate-limits.yml
+  href: https://artifacts.apis.io/drivewealth/rate-limits/drivewealth-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/drivewealth-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/finops/drivewealth-finops.yml
+  href: https://artifacts.apis.io/drivewealth/finops/drivewealth-finops.yml
   title: ''
   type: FinOps
   url: finops/drivewealth-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/vocabulary/drivewealth-vocabulary.yml
+  href: https://artifacts.apis.io/drivewealth/vocabulary/drivewealth-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/drivewealth-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/json-ld/drivewealth-context.jsonld
+  href: https://artifacts.apis.io/drivewealth/json-ld/drivewealth-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/drivewealth-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/json-schema/drivewealth-account.json
+  href: https://artifacts.apis.io/drivewealth/json-schema/drivewealth-account.json
   title: ''
   type: JSONSchema
   url: json-schema/drivewealth-account.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/json-schema/drivewealth-order.json
+  href: https://artifacts.apis.io/drivewealth/json-schema/drivewealth-order.json
   title: ''
   type: JSONSchema
   url: json-schema/drivewealth-order.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/json-schema/drivewealth-instrument.json
+  href: https://artifacts.apis.io/drivewealth/json-schema/drivewealth-instrument.json
   title: ''
   type: JSONSchema
   url: json-schema/drivewealth-instrument.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/examples/drivewealth-create-account-example.json
+  href: https://artifacts.apis.io/drivewealth/examples/drivewealth-create-account-example.json
   title: ''
   type: Examples
   url: examples/drivewealth-create-account-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/examples/drivewealth-place-order-example.json
+  href: https://artifacts.apis.io/drivewealth/examples/drivewealth-place-order-example.json
   title: ''
   type: Examples
   url: examples/drivewealth-place-order-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/examples/drivewealth-deposit-example.json
+  href: https://artifacts.apis.io/drivewealth/examples/drivewealth-deposit-example.json
   title: ''
   type: Examples
   url: examples/drivewealth-deposit-example.json
@@ -452,7 +451,7 @@ plans:
 - name: Drivewealth Plans Pricing
   plan_count: 2
   slug: drivewealth-plans-pricing
-random_paper: 17
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Drivewealth Rate Limits
@@ -471,7 +470,7 @@ rules:
   slug: drivewealth-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.6
+  composite: 35.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 59.8
@@ -479,15 +478,15 @@ score:
     catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 23.5
     contract_quality: 58.9
-    developer_ergonomics: 19.0
+    developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 39.7
+    operational_transparency: 26.3
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -501,13 +500,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/screenshots/drivewealth-2026-06-20T180237.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/drivewealth/drivewealth-2026-06-20T180237.png
 security:
 - kind: authentication
   name: Drivewealth Authentication

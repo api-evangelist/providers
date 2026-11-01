@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,51 +36,51 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Amtrak''s complete national timetable published as a static General Transit Feed Specification archive, served from content.amtrak.com with no registration, no API key, no click-through licence and no '
   name: Amtrak GTFS Schedule Feed
   slug: amtrak-gtfs-schedule-feed
-artifact_total: 4
+artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amtrak/refs/heads/main/authentication/amtrak-authentication.yml
+  href: https://artifacts.apis.io/amtrak/authentication/amtrak-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amtrak-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amtrak/refs/heads/main/conventions/amtrak-conventions.yml
+  href: https://artifacts.apis.io/amtrak/conventions/amtrak-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amtrak-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amtrak/refs/heads/main/lifecycle/amtrak-lifecycle.yml
+  href: https://artifacts.apis.io/amtrak/lifecycle/amtrak-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amtrak-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amtrak/refs/heads/main/conformance/amtrak-conformance.yml
+  href: https://artifacts.apis.io/amtrak/conformance/amtrak-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amtrak-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amtrak/refs/heads/main/packages/amtrak-packages.yml
+  href: https://artifacts.apis.io/amtrak/packages/amtrak-packages.yml
   title: ''
   type: Packages
   url: packages/amtrak-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amtrak/refs/heads/main/llms/amtrak-llms.txt
+  href: https://artifacts.apis.io/amtrak/llms/amtrak-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amtrak-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amtrak/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/amtrak/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amtrak/refs/heads/main/security/amtrak-domain-security.yml
+  href: https://artifacts.apis.io/amtrak/security/amtrak-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amtrak-domain-security.yml
@@ -132,25 +134,25 @@ overview: 'Amtrak is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Amtrak''s developer surface includes authentication and 15 more developer resources.'
-random_paper: 2
+random_paper: 16
 score:
   band: emerging
-  composite: 18.7
+  composite: 18.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 42.4
     catalog_earned_first_party: 0.0
     catalog_gap: 72.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 7.2
     developer_ergonomics: 13.7
-    discoverability: 74.1
-    operational_transparency: 2.6
+    discoverability: 67.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -158,7 +160,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 18.8
+  previous_composite: 18.5
   provenance:
     conformance: derived
     skills: derived
@@ -168,14 +170,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/amtrak/refs/heads/main/screenshots/amtrak-2026-08-07T161348.png
+screenshot: https://apis.io/screenshots/amtrak/amtrak-2026-08-07T161348.png
 security:
 - kind: authentication
   name: Amtrak Authentication
@@ -185,6 +187,10 @@ security:
   name: Amtrak Domain Security
   slug: amtrak-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: amtrak-gtfs-schedule-lookup
+  slug: amtrak-gtfs-schedule-lookup
 slug: amtrak
 tags:
 - Travel

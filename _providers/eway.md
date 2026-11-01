@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,16 +37,21 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The eWAY Rapid API is a versioned HTTP payments API (v47) for processing card transactions. It exposes transaction creation (Direct Connection), AccessCode-based flows (Transparent Redirect / Responsi
   name: eWAY Rapid API
   slug: eway-rapid-api
-artifact_total: 3
+artifact_total: 6
 common:
+- group: commercial
+  href: https://artifacts.apis.io/eway/plans/eway-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/eway-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/security/eway-domain-security.yml
+  href: https://artifacts.apis.io/eway/security/eway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eway-domain-security.yml
@@ -109,78 +116,86 @@ common:
   type: Compliance
   url: https://www.eway.com.au/advanced-cybersecurity/pci-dss/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/packages/eway-packages.yml
+  href: https://artifacts.apis.io/eway/packages/eway-packages.yml
   title: ''
   type: Packages
   url: packages/eway-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/packages/eway-packages.yml
+  href: https://artifacts.apis.io/eway/packages/eway-packages.yml
   title: ''
   type: SDKs
   url: packages/eway-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/authentication/eway-authentication.yml
+  href: https://artifacts.apis.io/eway/authentication/eway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eway-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/conventions/eway-conventions.yml
+  href: https://artifacts.apis.io/eway/conventions/eway-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eway-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/lifecycle/eway-lifecycle.yml
+  href: https://artifacts.apis.io/eway/lifecycle/eway-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eway-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/changelog/eway-changelog.yml
+  href: https://artifacts.apis.io/eway/changelog/eway-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/eway-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/sandbox/eway-sandbox.yml
+  href: https://artifacts.apis.io/eway/sandbox/eway-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/eway-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/errors/eway-error-codes.yml
+  href: https://artifacts.apis.io/eway/errors/eway-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/eway-error-codes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/errors/eway-decline-codes.yml
+  href: https://artifacts.apis.io/eway/errors/eway-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/eway-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/conformance/eway-conformance.yml
+  href: https://artifacts.apis.io/eway/conformance/eway-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eway-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/components/eway-components.yml
+  href: https://artifacts.apis.io/eway/components/eway-components.yml
   title: ''
   type: Components
   url: components/eway-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/data-model/eway-data-model.yml
+  href: https://artifacts.apis.io/eway/data-model/eway-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eway-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/well-known/eway-well-known.yml
+  href: https://artifacts.apis.io/eway/well-known/eway-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/eway-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/llms/eway-llms.txt
+  href: https://artifacts.apis.io/eway/llms/eway-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eway-llms.txt
 created: '2026-07-24'
 description: eWAY (Eway) is an Australian online payment gateway founded in Sydney in 1998 and now part of Global Payments Oceania, providing card-not-present payment acceptance for e-commerce merchants across Australia, New Zealand, and Asia. Its flagship developer surface is the Rapid API, a versioned HTTP payments API (currently version 47) that processes purchases, pre-authorisations, MOTO and recurring transactions, and tokenised (stored-card) payments, offered through seven integration methods ranging from server-to-server Direct Connection to PCI-scope-reducing Transparent Redirect, Secure Fields, and the Responsive Shared Page. Merchants authenticate with an API key and password over HTTP Basic auth, and eWAY publishes open-source MIT-licensed SDKs for PHP, Java, .NET, Node.js, Ruby, Android, and iOS plus a free sandbox. The Rapid API is genuinely API-first and well documented, but eWAY does not publish a downloadable OpenAPI/Swagger definition, and no public OAuth, webhooks catalog,
   or AsyncAPI event stream is documented.
+finops:
+- has_sources: true
+  method: derived
+  name: Eway Finops
+  primary_unit: program
+  service_category: ''
+  slug: eway-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-07-24'
@@ -190,25 +205,32 @@ network: true
 overview: 'eWAY is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Australia, Payment Gateway, Payment Processing, and Card Payments.
 
 
-  eWAY''s developer surface includes documentation, API reference, pricing, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
-random_paper: 20
+  eWAY''s developer surface includes documentation, API reference, pricing, engineering blog, support, signup flow, authentication, and 24 more developer resources.'
+plans:
+- name: Eway Plans Pricing
+  plan_count: 3
+  slug: eway-plans-pricing
+- name: Eway Price Estimates
+  plan_count: 0
+  slug: eway-price-estimates
+random_paper: 6
 score:
   band: developing
-  composite: 41.1
+  composite: 48.2
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 52.6
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -217,7 +239,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 41.0
+  previous_composite: 40.3
   provenance:
     conformance: first-party
   regulatory:
@@ -226,14 +248,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/screenshots/eway-2026-07-25T213830.png
+screenshot: https://apis.io/screenshots/eway/eway-2026-07-25T213830.png
 security:
 - kind: authentication
   name: Eway Authentication

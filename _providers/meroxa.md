@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -77,62 +79,62 @@ common:
   type: PrivacyPolicy
   url: https://meroxa.com/privacy-notice/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/meroxa/refs/heads/main/packages/meroxa-packages.yml
+  href: https://artifacts.apis.io/meroxa/packages/meroxa-packages.yml
   title: ''
   type: Packages
   url: packages/meroxa-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/meroxa/refs/heads/main/packages/meroxa-packages.yml
+  href: https://artifacts.apis.io/meroxa/packages/meroxa-packages.yml
   title: ''
   type: SDKs
   url: packages/meroxa-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/meroxa/refs/heads/main/cli/meroxa-cli.yml
+  href: https://artifacts.apis.io/meroxa/cli/meroxa-cli.yml
   title: ''
   type: CLI
   url: cli/meroxa-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/meroxa/refs/heads/main/changelog/meroxa-changelog.yml
+  href: https://artifacts.apis.io/meroxa/changelog/meroxa-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/meroxa-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meroxa/refs/heads/main/lifecycle/meroxa-lifecycle.yml
+  href: https://artifacts.apis.io/meroxa/lifecycle/meroxa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/meroxa-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meroxa/refs/heads/main/llms/meroxa-llms.txt
+  href: https://artifacts.apis.io/meroxa/llms/meroxa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/meroxa-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meroxa/refs/heads/main/conformance/meroxa-conformance.yml
+  href: https://artifacts.apis.io/meroxa/conformance/meroxa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/meroxa-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meroxa/refs/heads/main/security/meroxa-trust-center.yml
+  href: https://artifacts.apis.io/meroxa/security/meroxa-trust-center.yml
   title: ''
   type: Compliance
   url: security/meroxa-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meroxa/refs/heads/main/security/meroxa-trust-center.yml
+  href: https://artifacts.apis.io/meroxa/security/meroxa-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/meroxa-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meroxa/refs/heads/main/security/meroxa-domain-security.yml
+  href: https://artifacts.apis.io/meroxa/security/meroxa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meroxa-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meroxa/refs/heads/main/security/meroxa-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/meroxa/security/meroxa-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/meroxa-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meroxa/refs/heads/main/security/meroxa-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/meroxa/security/meroxa-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/meroxa-vulnerability-disclosure.yml
@@ -148,25 +150,25 @@ overview: 'Meroxa is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Meroxa''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, CLI, changelog, and 15 more developer resources.'
-random_paper: 14
+random_paper: 4
 score:
   band: thin
-  composite: 31.7
+  composite: 31.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 55.4
-    operational_transparency: 28.9
+    discoverability: 48.2
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -174,7 +176,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 31.6
+  previous_composite: 31.3
   provenance:
     conformance: first-party
   regulatory:
@@ -183,14 +185,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/meroxa/refs/heads/main/screenshots/meroxa-2026-08-07T172612.png
+screenshot: https://apis.io/screenshots/meroxa/meroxa-2026-08-07T172612.png
 security:
 - kind: domain-security
   name: Meroxa Domain Security

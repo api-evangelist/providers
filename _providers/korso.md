@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,18 +25,20 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.4
-  scored_at: '2026-10-17'
+  score: 6.9
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 4
+artifact_total: 7
 common:
 - group: operate
   title: ''
@@ -47,52 +49,52 @@ common:
   type: ContributionGuide
   url: https://github.com/Korso-AI/Shepherd/blob/main/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/mcp/korso-mcp.yml
+  href: https://artifacts.apis.io/korso/mcp/korso-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/korso-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/packages/korso-packages.yml
+  href: https://artifacts.apis.io/korso/packages/korso-packages.yml
   title: ''
   type: Packages
   url: packages/korso-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/packages/korso-packages.yml
+  href: https://artifacts.apis.io/korso/packages/korso-packages.yml
   title: ''
   type: SDKs
   url: packages/korso-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/authentication/korso-authentication.yml
+  href: https://artifacts.apis.io/korso/authentication/korso-authentication.yml
   title: ''
   type: Authentication
   url: authentication/korso-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/conventions/korso-conventions.yml
+  href: https://artifacts.apis.io/korso/conventions/korso-conventions.yml
   title: ''
   type: Conventions
   url: conventions/korso-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/data-model/korso-data-model.yml
+  href: https://artifacts.apis.io/korso/data-model/korso-data-model.yml
   title: ''
   type: DataModel
   url: data-model/korso-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/components/korso-components.yml
+  href: https://artifacts.apis.io/korso/components/korso-components.yml
   title: ''
   type: Components
   url: components/korso-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/conformance/korso-conformance.yml
+  href: https://artifacts.apis.io/korso/conformance/korso-conformance.yml
   title: ''
   type: Conformance
   url: conformance/korso-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/lifecycle/korso-lifecycle.yml
+  href: https://artifacts.apis.io/korso/lifecycle/korso-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/korso-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/changelog/korso-changelog.yml
+  href: https://artifacts.apis.io/korso/changelog/korso-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/korso-changelog.yml
@@ -101,17 +103,17 @@ common:
   type: ChangeLog
   url: https://github.com/Korso-AI/Shepherd/blob/main/CHANGELOG.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/llms/korso-llms.txt
+  href: https://artifacts.apis.io/korso/llms/korso-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/korso-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/korso/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/security/korso-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/korso/security/korso-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/korso-vulnerability-disclosure.yml
@@ -120,7 +122,7 @@ common:
   type: Security
   url: https://github.com/Korso-AI/Shepherd/blob/main/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/security/korso-domain-security.yml
+  href: https://artifacts.apis.io/korso/security/korso-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/korso-domain-security.yml
@@ -184,26 +186,26 @@ overview: 'Korso is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Korso''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, signup flow, and 22 more developer resources.'
-random_paper: 8
+random_paper: 6
 score:
   band: thin
-  composite: 30.4
+  composite: 32.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 63.7
-    discoverability: 55.4
-    operational_transparency: 28.9
-  previous_composite: 30.3
+    discoverability: 48.3
+    operational_transparency: 31.6
+  previous_composite: 32.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -214,14 +216,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/screenshots/korso-2026-07-25T224225.png
+screenshot: https://apis.io/screenshots/korso/korso-2026-07-25T224225.png
 security:
 - kind: authentication
   name: Korso Authentication
@@ -235,6 +237,14 @@ security:
   name: Korso Vulnerability Disclosure
   slug: korso-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Announce and message across a Shepherd workspace
+  slug: korso-announce-to-workspace
+- name: Coordinate agent work in a shared Shepherd workspace
+  slug: korso-coordinate-agent-work
+- name: Opt a repository into or out of Shepherd coordination
+  slug: korso-opt-repo-in-out
 slug: korso
 tags:
 - Company

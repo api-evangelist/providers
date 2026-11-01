@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,47 +36,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lemfi/refs/heads/main/security/lemfi-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/lemfi/security/lemfi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lemfi-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lemfi/refs/heads/main/conformance/lemfi-conformance.yml
+  href: https://artifacts.apis.io/lemfi/conformance/lemfi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lemfi-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lemfi/refs/heads/main/conformance/lemfi-conformance.yml
+  href: https://artifacts.apis.io/lemfi/conformance/lemfi-conformance.yml
   title: ''
   type: Compliance
   url: conformance/lemfi-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lemfi/refs/heads/main/llms/lemfi-llms.txt
+  href: https://artifacts.apis.io/lemfi/llms/lemfi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lemfi-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lemfi/refs/heads/main/plans/lemfi-plans-pricing.yml
+  href: https://artifacts.apis.io/lemfi/plans/lemfi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lemfi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lemfi/refs/heads/main/rate-limits/lemfi-rate-limits.yml
+  href: https://artifacts.apis.io/lemfi/rate-limits/lemfi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lemfi-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lemfi/refs/heads/main/security/lemfi-trust-center.yml
+  href: https://artifacts.apis.io/lemfi/security/lemfi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lemfi-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lemfi/refs/heads/main/security/lemfi-domain-security.yml
+  href: https://artifacts.apis.io/lemfi/security/lemfi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lemfi-domain-security.yml
@@ -138,7 +140,7 @@ plans:
 - name: Lemfi Plans Pricing
   plan_count: 0
   slug: lemfi-plans-pricing
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Lemfi Rate Limits
@@ -182,14 +184,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lemfi/refs/heads/main/screenshots/lemfi-2026-10-11T191103.png
+screenshot: https://apis.io/screenshots/lemfi/lemfi-2026-10-11T191103.png
 security:
 - kind: domain-security
   name: Lemfi Domain Security

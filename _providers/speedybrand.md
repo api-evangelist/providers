@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -65,27 +67,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/SpeedyBrand
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/speedybrand/refs/heads/main/security/speedybrand-domain-security.yml
+  href: https://artifacts.apis.io/speedybrand/security/speedybrand-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/speedybrand-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/speedybrand/refs/heads/main/plans/speedybrand-plans-pricing.yml
+  href: https://artifacts.apis.io/speedybrand/plans/speedybrand-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/speedybrand-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/speedybrand/refs/heads/main/rate-limits/speedybrand-rate-limits.yml
+  href: https://artifacts.apis.io/speedybrand/rate-limits/speedybrand-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/speedybrand-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/speedybrand/refs/heads/main/llms/speedybrand-llms.txt
+  href: https://artifacts.apis.io/speedybrand/llms/speedybrand-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/speedybrand-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/speedybrand/refs/heads/main/lifecycle/speedybrand-lifecycle.yml
+  href: https://artifacts.apis.io/speedybrand/lifecycle/speedybrand-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/speedybrand-lifecycle.yml
@@ -121,14 +123,14 @@ plans:
 - name: Speedybrand Plans Pricing
   plan_count: 2
   slug: speedybrand-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Speedybrand Rate Limits
   slug: speedybrand-rate-limits
 score:
   band: emerging
-  composite: 18.4
+  composite: 18.8
   coverage:
     artifact_dirs: 10
     catalog_earned: 35.0
@@ -143,22 +145,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 18.4
+    operational_transparency: 5.3
+  previous_composite: 18.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/speedybrand/refs/heads/main/screenshots/speedybrand-2026-09-02T160405.png
+screenshot: https://apis.io/screenshots/speedybrand/speedybrand-2026-09-02T160405.png
 security:
 - kind: domain-security
   name: Speedybrand Domain Security

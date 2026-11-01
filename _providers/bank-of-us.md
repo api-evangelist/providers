@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,9 +83,6 @@ apis:
 artifact_total: 20
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-bank-of-us-banking-account-balances-api
 - collection_type: open
@@ -106,92 +105,92 @@ collections:
   slug: open-bank-of-us-banking-products-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/capabilities/bank-of-us-capability-edges.yml
+  href: https://artifacts.apis.io/bank-of-us/capabilities/bank-of-us-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bank-of-us-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/agentic-access/bank-of-us-agentic-access.yml
+  href: https://artifacts.apis.io/bank-of-us/agentic-access/bank-of-us-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bank-of-us-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/authentication/bank-of-us-authentication.yml
+  href: https://artifacts.apis.io/bank-of-us/authentication/bank-of-us-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bank-of-us-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/scopes/bank-of-us-scopes.yml
+  href: https://artifacts.apis.io/bank-of-us/scopes/bank-of-us-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bank-of-us-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/conformance/bank-of-us-conformance.yml
+  href: https://artifacts.apis.io/bank-of-us/conformance/bank-of-us-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bank-of-us-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/errors/bank-of-us-problem-types.yml
+  href: https://artifacts.apis.io/bank-of-us/errors/bank-of-us-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bank-of-us-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/lifecycle/bank-of-us-lifecycle.yml
+  href: https://artifacts.apis.io/bank-of-us/lifecycle/bank-of-us-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bank-of-us-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/lifecycle/bank-of-us-lifecycle.yml
+  href: https://artifacts.apis.io/bank-of-us/lifecycle/bank-of-us-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/bank-of-us-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/conventions/bank-of-us-conventions.yml
+  href: https://artifacts.apis.io/bank-of-us/conventions/bank-of-us-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bank-of-us-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/data-model/bank-of-us-data-model.yml
+  href: https://artifacts.apis.io/bank-of-us/data-model/bank-of-us-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bank-of-us-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/overlays/bank-of-us-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/bank-of-us/overlays/bank-of-us-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bank-of-us-cds-banking-products-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/llms/bank-of-us-llms.txt
+  href: https://artifacts.apis.io/bank-of-us/llms/bank-of-us-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bank-of-us-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/mcp/bank-of-us-mcp.yml
+  href: https://artifacts.apis.io/bank-of-us/mcp/bank-of-us-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bank-of-us-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/skills/bank-of-us-product-lookup.md
+  href: https://artifacts.apis.io/bank-of-us/skills/bank-of-us-product-lookup.md
   title: ''
   type: AgentSkill
   url: skills/bank-of-us-product-lookup.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/well-known/bank-of-us-well-known.yml
+  href: https://artifacts.apis.io/bank-of-us/well-known/bank-of-us-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bank-of-us-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/well-known/bank-of-us-security.txt
+  href: https://artifacts.apis.io/bank-of-us/well-known/bank-of-us-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bank-of-us-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/security/bank-of-us-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bank-of-us/security/bank-of-us-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bank-of-us-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/security/bank-of-us-domain-security.yml
+  href: https://artifacts.apis.io/bank-of-us/security/bank-of-us-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bank-of-us-domain-security.yml
@@ -243,7 +242,7 @@ overview: 'Bank of us publishes 7 API contracts indexed on the [APIs.io](https:/
 
 
   Bank of us'' developer surface includes authentication, documentation, API reference, engineering blog, support, and 22 more developer resources.'
-random_paper: 1
+random_paper: 11
 scopes:
 - name: Bank Of Us Scopes
   scope_count: 5
@@ -259,13 +258,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 44.7
     developer_ergonomics: 47.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -274,7 +273,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 35.0
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,13 +294,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/screenshots/bank-of-us-2026-07-21T114712.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bank-of-us/bank-of-us-2026-07-21T114712.png
 security:
 - kind: authentication
   name: Bank Of Us Authentication
@@ -315,6 +315,10 @@ security:
   name: Bank Of Us Vulnerability Disclosure
   slug: bank-of-us-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 1
+skills:
+- name: Look up Bank of us banking products
+  slug: bank-of-us-product-lookup
 slug: bank-of-us
 tags:
 - Finance

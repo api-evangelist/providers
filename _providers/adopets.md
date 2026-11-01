@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -67,11 +69,8 @@ arazzos:
 - description: Connect a staff user, look up a payment transaction by uuid, then issue a refund. Grounded in real operationIds from the Adopets External API.
   name: Refund an adoption payment transaction (Adopets External API)
   slug: adopets-refund-transaction
-artifact_total: 12
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Adopets External payment-request API
   slug: open-adopets-payment-request-api
@@ -111,72 +110,72 @@ common:
   type: GitHubOrganization
   url: https://github.com/adopets
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/overlays/adopets-external-overlay.yaml
+  href: https://artifacts.apis.io/adopets/overlays/adopets-external-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/adopets-external-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/authentication/adopets-authentication.yml
+  href: https://artifacts.apis.io/adopets/authentication/adopets-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adopets-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/conventions/adopets-conventions.yml
+  href: https://artifacts.apis.io/adopets/conventions/adopets-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adopets-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/errors/adopets-problem-types.yml
+  href: https://artifacts.apis.io/adopets/errors/adopets-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adopets-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/data-model/adopets-data-model.yml
+  href: https://artifacts.apis.io/adopets/data-model/adopets-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adopets-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/mcp/adopets-mcp.yml
+  href: https://artifacts.apis.io/adopets/mcp/adopets-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/adopets-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/agentic-access/adopets-agentic-access.yml
+  href: https://artifacts.apis.io/adopets/agentic-access/adopets-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adopets-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/security/adopets-domain-security.yml
+  href: https://artifacts.apis.io/adopets/security/adopets-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adopets-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/conformance/adopets-conformance.yml
+  href: https://artifacts.apis.io/adopets/conformance/adopets-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adopets-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/sandbox/adopets-sandbox.yml
+  href: https://artifacts.apis.io/adopets/sandbox/adopets-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/adopets-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/llms/adopets-llms.txt
+  href: https://artifacts.apis.io/adopets/llms/adopets-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adopets-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/adopets/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/arazzo/adopets-create-adoption-payment.yml
+  href: https://artifacts.apis.io/adopets/arazzo/adopets-create-adoption-payment.yml
   title: ''
   type: Arazzo
   url: arazzo/adopets-create-adoption-payment.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/arazzo/adopets-refund-transaction.yml
+  href: https://artifacts.apis.io/adopets/arazzo/adopets-refund-transaction.yml
   title: ''
   type: Arazzo
   url: arazzo/adopets-refund-transaction.yml
@@ -192,10 +191,10 @@ overview: 'Adopets is listed with 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Adopets'' developer surface includes engineering blog, documentation, API reference, authentication, sandbox, and 16 more developer resources.'
-random_paper: 4
+random_paper: 8
 score:
   band: emerging
-  composite: 21.0
+  composite: 22.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -203,15 +202,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 14.0
     developer_ergonomics: 54.2
     discoverability: 71.4
-    operational_transparency: 2.6
-  previous_composite: 20.5
+    operational_transparency: 5.3
+  previous_composite: 22.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -228,13 +227,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/screenshots/adopets-2026-07-25T181658.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/adopets/adopets-2026-07-25T181658.png
 security:
 - kind: authentication
   name: Adopets Authentication
@@ -244,6 +244,12 @@ security:
   name: Adopets Domain Security
   slug: adopets-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Collect an adoption payment with Adopets
+  slug: adopets-collect-adoption-payment
+- name: Refund an adoption payment with Adopets
+  slug: adopets-refund-transaction
 slug: adopets
 tags:
 - Pet Adoption

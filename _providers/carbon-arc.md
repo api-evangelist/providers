@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.5
-  scored_at: '2026-10-17'
+  score: 21.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 3
@@ -111,57 +113,57 @@ apis:
 artifact_total: 25
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/agentic-access/carbon-arc-agentic-access.yml
+  href: https://artifacts.apis.io/carbon-arc/agentic-access/carbon-arc-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/carbon-arc-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/rules/carbon-arc-rules.yml
+  href: https://artifacts.apis.io/carbon-arc/rules/carbon-arc-rules.yml
   title: ''
   type: Spectral
   url: rules/carbon-arc-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/json-ld/carbon-arc-context.jsonld
+  href: https://artifacts.apis.io/carbon-arc/json-ld/carbon-arc-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/carbon-arc-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/vocabulary/carbon-arc-vocabulary.yml
+  href: https://artifacts.apis.io/carbon-arc/vocabulary/carbon-arc-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/carbon-arc-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/data-model/carbon-arc-data-model.yml
+  href: https://artifacts.apis.io/carbon-arc/data-model/carbon-arc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/carbon-arc-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/errors/carbon-arc-problem-types.yml
+  href: https://artifacts.apis.io/carbon-arc/errors/carbon-arc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/carbon-arc-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/conformance/carbon-arc-conformance.yml
+  href: https://artifacts.apis.io/carbon-arc/conformance/carbon-arc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/carbon-arc-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/hosts/carbon-arc-hosts.yml
+  href: https://artifacts.apis.io/carbon-arc/hosts/carbon-arc-hosts.yml
   title: ''
   type: Hosts
   url: hosts/carbon-arc-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/packages/carbon-arc-packages.yml
+  href: https://artifacts.apis.io/carbon-arc/packages/carbon-arc-packages.yml
   title: ''
   type: SDKs
   url: packages/carbon-arc-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/packages/carbon-arc-packages.yml
+  href: https://artifacts.apis.io/carbon-arc/packages/carbon-arc-packages.yml
   title: ''
   type: Packages
   url: packages/carbon-arc-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/security/carbon-arc-domain-security.yml
+  href: https://artifacts.apis.io/carbon-arc/security/carbon-arc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/carbon-arc-domain-security.yml
@@ -204,7 +206,7 @@ overview: 'Carbon Arc publishes 15 API contracts indexed on the [APIs.io](https:
 
 
   The Carbon Arc catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 16
+random_paper: 0
 rules:
 - authorship: generated
   effective_rule_count: 53
@@ -219,8 +221,8 @@ rules:
     warn: 1
   slug: carbon-arc-rules
 score:
-  band: thin
-  composite: 26.2
+  band: emerging
+  composite: 22.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 60.8
@@ -228,13 +230,15 @@ score:
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
-    contract_quality: 53.8
+    contract_quality: 52.9
     developer_ergonomics: 7.1
     discoverability: 62.5
     operational_transparency: 0.0
+  previous_composite: 22.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,11 +254,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 38.9
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Carbon Arc Domain Security

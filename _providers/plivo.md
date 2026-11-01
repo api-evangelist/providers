@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 26.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -114,7 +116,7 @@ apis:
   description: The Plivo Message API sends and receives SMS, MMS, and WhatsApp messages, retrieves delivery status reports, and lists historical messages.
   name: Plivo Message API
   slug: plivo-message-api
-artifact_total: 38
+artifact_total: 37
 asyncapis:
 - description: The Plivo Audio Streaming API delivers near real-time raw audio from active Plivo voice calls to a customer-operated WebSocket server, and (when bidirectional streaming is enabled) accepts audio and c
   name: Plivo Audio Streaming WebSocket API
@@ -126,9 +128,6 @@ collections:
 - collection_type: postman
   name: Plivo Account Message API
   slug: postman-plivo-message-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Plivo Account API
   slug: open-plivo-account-api
@@ -144,22 +143,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/plivo/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/agentic-access/plivo-agentic-access.yml
+  href: https://artifacts.apis.io/plivo/agentic-access/plivo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/plivo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/security/plivo-trust-center.yml
+  href: https://artifacts.apis.io/plivo/security/plivo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/plivo-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/security/plivo-domain-security.yml
+  href: https://artifacts.apis.io/plivo/security/plivo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/plivo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/authentication/plivo-authentication.yml
+  href: https://artifacts.apis.io/plivo/authentication/plivo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/plivo-authentication.yml
@@ -268,17 +267,17 @@ common:
   type: YouTube
   url: https://www.youtube.com/c/Plivo
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/plans/plivo-plans-pricing.yml
+  href: https://artifacts.apis.io/plivo/plans/plivo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/plivo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/rate-limits/plivo-rate-limits.yml
+  href: https://artifacts.apis.io/plivo/rate-limits/plivo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/plivo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/finops/plivo-finops.yml
+  href: https://artifacts.apis.io/plivo/finops/plivo-finops.yml
   title: ''
   type: FinOps
   url: finops/plivo-finops.yml
@@ -317,7 +316,7 @@ plans:
 - name: Plivo Plans Pricing
   plan_count: 3
   slug: plivo-plans-pricing
-random_paper: 4
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Plivo Rate Limits
@@ -336,8 +335,8 @@ rules:
     warn: 5
   slug: plivo-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 38.9
+  band: developing
+  composite: 45.1
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.5
@@ -345,15 +344,15 @@ score:
     catalog_gap: 77.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 54.8
-    developer_ergonomics: 41.7
+    developer_ergonomics: 60.7
     discoverability: 48.3
-    operational_transparency: 42.1
-  previous_composite: 40.5
+    operational_transparency: 44.7
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
@@ -367,13 +366,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 14.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/screenshots/plivo-2026-06-20T191841.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/plivo/plivo-2026-06-20T191841.png
 security:
 - kind: authentication
   name: Plivo Authentication

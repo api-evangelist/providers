@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,14 +37,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Public GraphQL API for programmatically querying Font Awesome releases, searching icons and their metadata (family-styles, unicode, aliases, SVG path data), and — with an access token — reading accoun
   name: Font Awesome GraphQL API
   slug: font-awesome-graphql-api
-artifact_total: 8
+artifact_total: 11
 common:
+- group: commercial
+  href: https://artifacts.apis.io/font-awesome/plans/font-awesome-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/font-awesome-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -68,82 +75,82 @@ common:
   type: GettingStarted
   url: https://docs.fontawesome.com/apis/graphql/get-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/authentication/font-awesome-authentication.yml
+  href: https://artifacts.apis.io/font-awesome/authentication/font-awesome-authentication.yml
   title: ''
   type: Authentication
   url: authentication/font-awesome-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/scopes/font-awesome-scopes.yml
+  href: https://artifacts.apis.io/font-awesome/scopes/font-awesome-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/font-awesome-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/packages/font-awesome-packages.yml
+  href: https://artifacts.apis.io/font-awesome/packages/font-awesome-packages.yml
   title: ''
   type: SDKs
   url: packages/font-awesome-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/packages/font-awesome-packages.yml
+  href: https://artifacts.apis.io/font-awesome/packages/font-awesome-packages.yml
   title: ''
   type: Packages
   url: packages/font-awesome-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/cli/font-awesome-cli.yml
+  href: https://artifacts.apis.io/font-awesome/cli/font-awesome-cli.yml
   title: ''
   type: CLI
   url: cli/font-awesome-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/components/font-awesome-components.yml
+  href: https://artifacts.apis.io/font-awesome/components/font-awesome-components.yml
   title: ''
   type: Components
   url: components/font-awesome-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/font-awesome/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/mcp/font-awesome-mcp.yml
+  href: https://artifacts.apis.io/font-awesome/mcp/font-awesome-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/font-awesome-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/llms/font-awesome-llms.txt
+  href: https://artifacts.apis.io/font-awesome/llms/font-awesome-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/font-awesome-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/conventions/font-awesome-conventions.yml
+  href: https://artifacts.apis.io/font-awesome/conventions/font-awesome-conventions.yml
   title: ''
   type: Conventions
   url: conventions/font-awesome-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/data-model/font-awesome-data-model.yml
+  href: https://artifacts.apis.io/font-awesome/data-model/font-awesome-data-model.yml
   title: ''
   type: DataModel
   url: data-model/font-awesome-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/conformance/font-awesome-conformance.yml
+  href: https://artifacts.apis.io/font-awesome/conformance/font-awesome-conformance.yml
   title: ''
   type: Conformance
   url: conformance/font-awesome-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/lifecycle/font-awesome-lifecycle.yml
+  href: https://artifacts.apis.io/font-awesome/lifecycle/font-awesome-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/font-awesome-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/changelog/font-awesome-changelog.yml
+  href: https://artifacts.apis.io/font-awesome/changelog/font-awesome-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/font-awesome-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/well-known/font-awesome-well-known.yml
+  href: https://artifacts.apis.io/font-awesome/well-known/font-awesome-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/font-awesome-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/security/font-awesome-domain-security.yml
+  href: https://artifacts.apis.io/font-awesome/security/font-awesome-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/font-awesome-domain-security.yml
@@ -177,6 +184,14 @@ common:
   url: https://fontawesome.com/license
 created: '2026-07-17'
 description: Font Awesome is the web's most popular icon library and toolkit, providing thousands of SVG, font, and CSS icons across multiple styles and families for web, desktop, and mobile projects. Beyond the icon sets and framework components (React, Vue, Angular, Ember, Svelte, React Native, WordPress), Font Awesome operates a public GraphQL API at api.fontawesome.com that lets developers programmatically query releases, search icons and their metadata, resolve family-styles and unicode values, and — with an authenticated access token — read account Kits, entitlements, and download subsets. The API uses a token-exchange endpoint that resolves an account API token into a short-lived bearer access token scoped by permission (public, kits_read, svg_icons_free, svg_icons_pro, and more). Font Awesome also ships a first-party `fa` CLI and official AI agent skills for icon discovery and setup.
+finops:
+- has_sources: true
+  method: derived
+  name: Font Awesome Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: font-awesome-finops
+  template: false
 image: https://fontawesome.com/images/open-graph/default.png
 layout: provider
 modified: '2026-10-06'
@@ -186,32 +201,39 @@ network: true
 overview: 'Font Awesome is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Icons, SVG, Fonts, Web Design, and Developer Tools.
 
 
-  Font Awesome''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 22 more developer resources.'
-random_paper: 5
+  Font Awesome''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 23 more developer resources.'
+plans:
+- name: Font Awesome Plans Pricing
+  plan_count: 5
+  slug: font-awesome-plans-pricing
+- name: Font Awesome Price Estimates
+  plan_count: 0
+  slug: font-awesome-price-estimates
+random_paper: 13
 scopes:
 - name: Font Awesome Scopes
   scope_count: 8
   slug: font-awesome-scopes
   summary_line: 8 scopes
 score:
-  band: developing
-  composite: 45.8
+  band: strong
+  composite: 54.7
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 38.2
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 39.4
     developer_ergonomics: 78.6
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 45.8
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 46.8
   provenance:
     conformance: derived
     mcp: derived
@@ -222,14 +244,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/screenshots/font-awesome-2026-07-25T214913.png
+screenshot: https://apis.io/screenshots/font-awesome/font-awesome-2026-07-25T214913.png
 security:
 - kind: authentication
   name: Font Awesome Authentication

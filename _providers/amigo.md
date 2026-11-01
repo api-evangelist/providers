@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.2
-  scored_at: '2026-10-17'
+  score: 48.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 8
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 586
   slug: amigo-agentic-access
   summary_line: 586 operations · 272 acting · 8 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://api.amigo.ai
   baseurl_source: declared
@@ -403,7 +405,7 @@ apis:
   description: The World API from Amigo — 21 operation(s) for world.
   name: Amigo World API
   slug: amigo-world-api
-artifact_total: 407
+artifact_total: 409
 asyncapis:
 - description: ''
   name: Amigo Classic Webhooks
@@ -626,9 +628,6 @@ collections:
   name: Amigo Account World API
   slug: postman-amigo-world-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Amigo Account API
   slug: open-amigo-account-api
 - collection_type: open
@@ -843,7 +842,7 @@ collections:
   slug: open-amigo-world-api
 common:
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/integrations/amigo-integration-edges.yml
+  href: https://artifacts.apis.io/amigo/integrations/amigo-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/amigo-integration-edges.yml
@@ -852,42 +851,42 @@ common:
   type: TermsOfService
   url: https://www.concurrence.com/terms-of-service
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/rate-limits/amigo-rate-limits.yml
+  href: https://artifacts.apis.io/amigo/rate-limits/amigo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amigo-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/rules/amigo-rules.yml
+  href: https://artifacts.apis.io/amigo/rules/amigo-rules.yml
   title: ''
   type: Spectral
   url: rules/amigo-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/json-ld/amigo-context.jsonld
+  href: https://artifacts.apis.io/amigo/json-ld/amigo-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amigo-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/vocabulary/amigo-vocabulary.yml
+  href: https://artifacts.apis.io/amigo/vocabulary/amigo-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/amigo-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/changelog/amigo-changelog.yml
+  href: https://artifacts.apis.io/amigo/changelog/amigo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/amigo-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/lifecycle/amigo-lifecycle.yml
+  href: https://artifacts.apis.io/amigo/lifecycle/amigo-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/amigo-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/hosts/amigo-hosts.yml
+  href: https://artifacts.apis.io/amigo/hosts/amigo-hosts.yml
   title: ''
   type: Hosts
   url: hosts/amigo-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/vendors/amigo-vendors.yml
+  href: https://artifacts.apis.io/amigo/vendors/amigo-vendors.yml
   title: ''
   type: Vendors
   url: vendors/amigo-vendors.yml
@@ -904,12 +903,12 @@ common:
   type: Website
   url: https://www.amigo.ai/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/capabilities/amigo-capability-edges.yml
+  href: https://artifacts.apis.io/amigo/capabilities/amigo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amigo-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/overlays/amigo-classic-overlay.yaml
+  href: https://artifacts.apis.io/amigo/overlays/amigo-classic-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amigo-classic-overlay.yaml
@@ -918,17 +917,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amigo/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/agentic-access/amigo-agentic-access.yml
+  href: https://artifacts.apis.io/amigo/agentic-access/amigo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amigo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/security/amigo-domain-security.yml
+  href: https://artifacts.apis.io/amigo/security/amigo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amigo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/authentication/amigo-authentication.yml
+  href: https://artifacts.apis.io/amigo/authentication/amigo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amigo-authentication.yml
@@ -981,87 +980,87 @@ common:
   type: Compliance
   url: https://docs.amigo.ai/operations-and-safety/compliance.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/llms/amigo-llms.txt
+  href: https://artifacts.apis.io/amigo/llms/amigo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amigo-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/packages/amigo-packages.yml
+  href: https://artifacts.apis.io/amigo/packages/amigo-packages.yml
   title: ''
   type: Packages
   url: packages/amigo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/packages/amigo-packages.yml
+  href: https://artifacts.apis.io/amigo/packages/amigo-packages.yml
   title: ''
   type: SDKs
   url: packages/amigo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/cli/amigo-cli.yml
+  href: https://artifacts.apis.io/amigo/cli/amigo-cli.yml
   title: ''
   type: CLI
   url: cli/amigo-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/mcp/amigo-mcp.yml
+  href: https://artifacts.apis.io/amigo/mcp/amigo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/amigo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/well-known/amigo-well-known.yml
+  href: https://artifacts.apis.io/amigo/well-known/amigo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amigo-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/scopes/amigo-scopes.yml
+  href: https://artifacts.apis.io/amigo/scopes/amigo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/amigo-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/conventions/amigo-conventions.yml
+  href: https://artifacts.apis.io/amigo/conventions/amigo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amigo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/conventions/amigo-conventions.yml
+  href: https://artifacts.apis.io/amigo/conventions/amigo-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/amigo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/errors/amigo-problem-types.yml
+  href: https://artifacts.apis.io/amigo/errors/amigo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amigo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/lifecycle/amigo-lifecycle.yml
+  href: https://artifacts.apis.io/amigo/lifecycle/amigo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amigo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/conformance/amigo-conformance.yml
+  href: https://artifacts.apis.io/amigo/conformance/amigo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amigo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/data-model/amigo-data-model.yml
+  href: https://artifacts.apis.io/amigo/data-model/amigo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amigo-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/sandbox/amigo-sandbox.yml
+  href: https://artifacts.apis.io/amigo/sandbox/amigo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/amigo-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/asyncapi/amigo-classic-webhooks.yml
+  href: https://artifacts.apis.io/amigo/asyncapi/amigo-classic-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/amigo-classic-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/security/amigo-trust-center.yml
+  href: https://artifacts.apis.io/amigo/security/amigo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amigo-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/amigo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -1634,7 +1633,7 @@ plans:
 - name: Amigo Plans Pricing
   plan_count: 0
   slug: amigo-plans-pricing
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Amigo Rate Limits
@@ -1659,23 +1658,23 @@ scopes:
   summary_line: 53 scopes
 score:
   band: exemplar
-  composite: 79.3
+  composite: 71.4
   coverage:
     artifact_dirs: 35
-    catalog_earned: 77.8
+    catalog_earned: 74.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 37.3
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 15.0
+  delta: -0.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 50.0
     contract_governance: 35.6
     contract_quality: 70.4
     developer_ergonomics: 81.5
-    discoverability: 81.7
-    operational_transparency: 92.1
-  previous_composite: 64.3
+    discoverability: 66.7
+    operational_transparency: 94.7
+  previous_composite: 71.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1699,14 +1698,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+    score: 40.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 100.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/screenshots/amigo-2026-07-25T200104.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amigo/amigo-2026-07-25T200104.png
 security:
 - kind: authentication
   name: Amigo Authentication
@@ -1720,6 +1720,14 @@ security:
   name: Amigo Trust Center
   slug: amigo-trust-center
   summary_line: SOC 2 Type II, HIPAA, HITRUST, GDPR
+skill_count: 3
+skills:
+- name: amigo-configure-webhooks
+  slug: amigo-configure-webhooks
+- name: amigo-place-outbound-call
+  slug: amigo-place-outbound-call
+- name: amigo-run-a-conversation
+  slug: amigo-run-a-conversation
 slug: amigo
 tags:
 - Company

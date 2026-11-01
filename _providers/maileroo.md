@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: Manage scheduled email deliveries
   name: Maileroo Scheduled API
   slug: maileroo-scheduled-api
-artifact_total: 12
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Maileroo Email API
   slug: open-maileroo-email-api
@@ -71,17 +70,17 @@ collections:
   slug: open-maileroo-scheduled-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/plans/maileroo-plans-pricing.yml
+  href: https://artifacts.apis.io/maileroo/plans/maileroo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/maileroo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/rate-limits/maileroo-rate-limits.yml
+  href: https://artifacts.apis.io/maileroo/rate-limits/maileroo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/maileroo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/finops/maileroo-finops.yml
+  href: https://artifacts.apis.io/maileroo/finops/maileroo-finops.yml
   title: ''
   type: FinOps
   url: finops/maileroo-finops.yml
@@ -90,17 +89,17 @@ common:
   type: Website
   url: https://www.maileroo.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/agentic-access/maileroo-agentic-access.yml
+  href: https://artifacts.apis.io/maileroo/agentic-access/maileroo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/maileroo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/security/maileroo-domain-security.yml
+  href: https://artifacts.apis.io/maileroo/security/maileroo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/maileroo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/authentication/maileroo-authentication.yml
+  href: https://artifacts.apis.io/maileroo/authentication/maileroo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/maileroo-authentication.yml
@@ -146,7 +145,7 @@ finops:
 - has_sources: false
   method: generated
   name: Maileroo Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: maileroo-finops
   template: true
@@ -164,14 +163,14 @@ plans:
 - name: Maileroo Plans Pricing
   plan_count: 3
   slug: maileroo-plans-pricing
-random_paper: 20
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Maileroo Rate Limits
   slug: maileroo-rate-limits
 score:
-  band: thin
-  composite: 35.1
+  band: developing
+  composite: 39.8
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.0
@@ -179,15 +178,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 52.3
-    developer_ergonomics: 47.6
+    developer_ergonomics: 59.5
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 36.6
+    operational_transparency: 13.2
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -201,13 +200,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/screenshots/maileroo-2026-06-20T184856.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/maileroo/maileroo-2026-06-20T184856.png
 security:
 - kind: authentication
   name: Maileroo Authentication

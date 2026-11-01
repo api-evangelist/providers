@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.4
-  scored_at: '2026-10-17'
+  score: 4.7
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - description: Solana wallet provider injected at window.phantom.solana exposing connect, disconnect, signMessage, signIn (Sign-In With Solana), signTransaction, signAllTransactions, and signAndSendTransaction. Impl
@@ -80,12 +82,12 @@ common:
   type: License
   url: https://github.com/phantom/phantom-connect-sdk/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phantom/refs/heads/main/security/phantom-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/phantom/security/phantom-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/phantom-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phantom/refs/heads/main/security/phantom-domain-security.yml
+  href: https://artifacts.apis.io/phantom/security/phantom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/phantom-domain-security.yml
@@ -309,10 +311,10 @@ overview: 'Phantom is listed with 10 APIs on the [APIs.io](https://apis.io/) net
 
 
   Phantom''s developer surface includes developer portal, documentation, signup flow, GitHub presence, code examples, tooling, changelog, and 49 more developer resources.'
-random_paper: 11
+random_paper: 15
 score:
-  band: emerging
-  composite: 24.2
+  band: thin
+  composite: 29.4
   coverage:
     artifact_dirs: 5
     catalog_earned: 35.0
@@ -322,16 +324,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 6.5
     developer_ergonomics: 42.9
-    discoverability: 65.8
+    discoverability: 64.3
     operational_transparency: 47.4
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 24.2
+  previous_composite: 29.4
   provenance:
     mcp: first-party
   regulatory:
@@ -339,15 +338,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 17.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/phantom/refs/heads/main/screenshots/phantom-2026-06-20T191634.png
+screenshot: https://apis.io/screenshots/phantom/phantom-2026-06-20T191634.png
 security:
 - kind: domain-security
   name: Phantom Domain Security

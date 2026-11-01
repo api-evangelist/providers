@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,22 +36,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/commsor/refs/heads/main/plans/commsor-plans-pricing.yml
+  href: https://artifacts.apis.io/commsor/plans/commsor-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/commsor-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/commsor/refs/heads/main/rate-limits/commsor-rate-limits.yml
+  href: https://artifacts.apis.io/commsor/rate-limits/commsor-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/commsor-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/commsor/refs/heads/main/security/commsor-domain-security.yml
+  href: https://artifacts.apis.io/commsor/security/commsor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/commsor-domain-security.yml
@@ -106,27 +108,27 @@ common:
   type: Compliance
   url: https://www.commsor.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/commsor/refs/heads/main/llms/commsor-llms.txt
+  href: https://artifacts.apis.io/commsor/llms/commsor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/commsor-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commsor/refs/heads/main/lifecycle/commsor-lifecycle.yml
+  href: https://artifacts.apis.io/commsor/lifecycle/commsor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/commsor-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commsor/refs/heads/main/conformance/commsor-conformance.yml
+  href: https://artifacts.apis.io/commsor/conformance/commsor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/commsor-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/commsor/refs/heads/main/security/commsor-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/commsor/security/commsor-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/commsor-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/commsor/refs/heads/main/security/commsor-trust-center.yml
+  href: https://artifacts.apis.io/commsor/security/commsor-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/commsor-trust-center.yml
@@ -135,7 +137,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/commsor
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/commsor/refs/heads/main/packages/commsor-packages.yml
+  href: https://artifacts.apis.io/commsor/packages/commsor-packages.yml
   title: ''
   type: Packages
   url: packages/commsor-packages.yml
@@ -172,14 +174,14 @@ plans:
 - name: Commsor Plans Pricing
   plan_count: 0
   slug: commsor-plans-pricing
-random_paper: 20
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Commsor Rate Limits
   slug: commsor-rate-limits
 score:
   band: emerging
-  composite: 24.0
+  composite: 24.7
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -193,9 +195,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 21.1
-  previous_composite: 24.0
+    discoverability: 48.2
+    operational_transparency: 31.6
+  previous_composite: 24.7
   provenance:
     conformance: first-party
   regulatory:
@@ -208,14 +210,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/commsor/refs/heads/main/screenshots/commsor-2026-08-07T163708.png
+screenshot: https://apis.io/screenshots/commsor/commsor-2026-08-07T163708.png
 security:
 - kind: domain-security
   name: Commsor Domain Security

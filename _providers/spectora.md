@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -49,7 +51,7 @@ common:
   type: BlogRSS
   url: https://www.spectora.com/r/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spectora/refs/heads/main/security/spectora-domain-security.yml
+  href: https://artifacts.apis.io/spectora/security/spectora-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spectora-domain-security.yml
@@ -74,7 +76,7 @@ common:
   type: Webhooks
   url: https://support.spectora.com/en/articles/6723168-advanced-actions-choose-an-action-and-add-details
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spectora/refs/heads/main/plans/spectora-plans-pricing.yml
+  href: https://artifacts.apis.io/spectora/plans/spectora-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spectora-plans-pricing.yml
@@ -87,7 +89,7 @@ modified: '2026-10-06'
 name: Spectora
 nav: Providers
 network: true
-overview: 'Spectora is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Home Inspection, Inspection Reports, Field Service, Real Estate, and Scheduling.
+overview: 'Spectora is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Home Inspection, Inspection Reports, Field Service Management, Real Estate, and Scheduling.
 
 
   Spectora''s developer surface includes engineering blog, documentation, and 7 more developer resources.'
@@ -95,10 +97,10 @@ plans:
 - name: Spectora Plans Pricing
   plan_count: 4
   slug: spectora-plans-pricing
-random_paper: 7
+random_paper: 1
 score:
   band: minimal
-  composite: 7.4
+  composite: 8.4
   coverage:
     artifact_dirs: 5
     catalog_earned: 30.0
@@ -106,29 +108,29 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 48.2
-    operational_transparency: 0.0
-  previous_composite: 10.9
+    operational_transparency: 7.9
+  previous_composite: 8.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/spectora/refs/heads/main/screenshots/spectora-2026-09-02T160352.png
+screenshot: https://apis.io/screenshots/spectora/spectora-2026-09-02T160352.png
 security:
 - kind: domain-security
   name: Spectora Domain Security
@@ -138,7 +140,7 @@ slug: spectora
 tags:
 - Home Inspection
 - Inspection Reports
-- Field Service
+- Field Service Management
 - Real Estate
 - Scheduling
 - Webhook

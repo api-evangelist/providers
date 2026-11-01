@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,9 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 1
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -65,32 +67,32 @@ common:
   type: Support
   url: https://columnar.tech/interested/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/columnar/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/columnar/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/columnar/refs/heads/main/cli/columnar-cli.yml
+  href: https://artifacts.apis.io/columnar/cli/columnar-cli.yml
   title: ''
   type: CLI
   url: cli/columnar-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/columnar/refs/heads/main/packages/columnar-packages.yml
+  href: https://artifacts.apis.io/columnar/packages/columnar-packages.yml
   title: ''
   type: Packages
   url: packages/columnar-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/columnar/refs/heads/main/llms/columnar-llms.txt
+  href: https://artifacts.apis.io/columnar/llms/columnar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/columnar-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/columnar/refs/heads/main/changelog/columnar-changelog.yml
+  href: https://artifacts.apis.io/columnar/changelog/columnar-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/columnar-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/columnar/refs/heads/main/security/columnar-domain-security.yml
+  href: https://artifacts.apis.io/columnar/security/columnar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/columnar-domain-security.yml
@@ -118,12 +120,12 @@ overview: 'Columnar is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Columnar''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, changelog, and 10 more developer resources.'
-random_paper: 7
+random_paper: 1
 score:
   band: emerging
-  composite: 15.1
+  composite: 14.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -135,9 +137,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 55.4
-    operational_transparency: 18.4
-  previous_composite: 15.1
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 14.8
   provenance:
     skills: first-party
   regulatory:
@@ -146,19 +148,29 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/columnar/refs/heads/main/screenshots/columnar-2026-07-25T210101.png
+screenshot: https://apis.io/screenshots/columnar/columnar-2026-07-25T210101.png
 security:
 - kind: domain-security
   name: Columnar Domain Security
   slug: columnar-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: adbc
+  slug: columnar-adbc
+- name: databow
+  slug: columnar-databow
+- name: dbc
+  slug: columnar-dbc
+- name: duckdb-adbc
+  slug: columnar-duckdb-adbc
 slug: columnar
 tags:
 - Company

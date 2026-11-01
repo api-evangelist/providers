@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.7
-  scored_at: '2026-10-17'
+  score: 42.5
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: Read-only REST API for fetching reporting data across dimensions and metrics to analyze campaign performance. Write operations are deprecated; use the GraphQL API for write operations.
@@ -52,14 +54,14 @@ apis:
 - description: Model Context Protocol server enabling AI agents (Claude, ChatGPT) to interact with the StackAdapt platform programmatically via the GraphQL API.
   name: StackAdapt MCP Server
   slug: mcp-server
-artifact_total: 16
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Stackadapt Webhooks
   slug: stackadapt-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/security/stackadapt-domain-security.yml
+  href: https://artifacts.apis.io/stackadapt/security/stackadapt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stackadapt-domain-security.yml
@@ -92,17 +94,17 @@ common:
   type: X
   url: https://x.com/stackadapt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/plans/stackadapt-plans-pricing.yml
+  href: https://artifacts.apis.io/stackadapt/plans/stackadapt-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stackadapt-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/rate-limits/stackadapt-rate-limits.yml
+  href: https://artifacts.apis.io/stackadapt/rate-limits/stackadapt-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stackadapt-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/finops/stackadapt-finops.yml
+  href: https://artifacts.apis.io/stackadapt/finops/stackadapt-finops.yml
   title: ''
   type: FinOps
   url: finops/stackadapt-finops.yml
@@ -139,52 +141,52 @@ common:
   type: PrivacyPolicy
   url: https://www.stackadapt.com/legal-document-centre/platform-and-services-privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/llms/stackadapt-llms.txt
+  href: https://artifacts.apis.io/stackadapt/llms/stackadapt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stackadapt-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/mcp/stackadapt-mcp.yml
+  href: https://artifacts.apis.io/stackadapt/mcp/stackadapt-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/stackadapt-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/well-known/stackadapt-well-known.yml
+  href: https://artifacts.apis.io/stackadapt/well-known/stackadapt-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stackadapt-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/packages/stackadapt-packages.yml
+  href: https://artifacts.apis.io/stackadapt/packages/stackadapt-packages.yml
   title: ''
   type: Packages
   url: packages/stackadapt-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/packages/stackadapt-packages.yml
+  href: https://artifacts.apis.io/stackadapt/packages/stackadapt-packages.yml
   title: ''
   type: SDKs
   url: packages/stackadapt-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/authentication/stackadapt-authentication.yml
+  href: https://artifacts.apis.io/stackadapt/authentication/stackadapt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stackadapt-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/scopes/stackadapt-scopes.yml
+  href: https://artifacts.apis.io/stackadapt/scopes/stackadapt-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/stackadapt-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/conventions/stackadapt-conventions.yml
+  href: https://artifacts.apis.io/stackadapt/conventions/stackadapt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stackadapt-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/errors/stackadapt-error-codes.yml
+  href: https://artifacts.apis.io/stackadapt/errors/stackadapt-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/stackadapt-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/lifecycle/stackadapt-lifecycle.yml
+  href: https://artifacts.apis.io/stackadapt/lifecycle/stackadapt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stackadapt-lifecycle.yml
@@ -193,7 +195,7 @@ common:
   type: Deprecation
   url: https://www.stackadapt.com/legal-document-centre/api-terms-and-conditions
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/conformance/stackadapt-conformance.yml
+  href: https://artifacts.apis.io/stackadapt/conformance/stackadapt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stackadapt-conformance.yml
@@ -206,7 +208,7 @@ common:
   type: TrustCenter
   url: https://www.stackadapt.com/trust-and-security-center
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/security/stackadapt-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/stackadapt/security/stackadapt-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/stackadapt-vulnerability-disclosure.yml
@@ -215,35 +217,35 @@ common:
   type: Security
   url: https://www.stackadapt.com/trust-and-security-center
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/sandbox/stackadapt-sandbox.yml
+  href: https://artifacts.apis.io/stackadapt/sandbox/stackadapt-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/stackadapt-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/components/stackadapt-components.yml
+  href: https://artifacts.apis.io/stackadapt/components/stackadapt-components.yml
   title: ''
   type: Components
   url: components/stackadapt-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/data-model/stackadapt-data-model.yml
+  href: https://artifacts.apis.io/stackadapt/data-model/stackadapt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stackadapt-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/asyncapi/stackadapt-webhooks.yml
+  href: https://artifacts.apis.io/stackadapt/asyncapi/stackadapt-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/stackadapt-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/stackadapt/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-06-13'
 description: StackAdapt is an AI-powered programmatic advertising platform with REST and GraphQL APIs for managing campaigns, ad groups, creatives, targeting segments, pixel tracking, and performance reporting across native, display, video, connected TV, audio, and digital out-of-home channels.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Stackadapt Finops
   primary_unit: ''
   service_category: ''
@@ -286,7 +288,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 64.3
+  composite: 63.6
   coverage:
     artifact_dirs: 25
     catalog_earned: 52.0
@@ -294,15 +296,15 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 51.0
     developer_ergonomics: 73.2
-    discoverability: 80.0
-    operational_transparency: 28.9
-  previous_composite: 65.8
+    discoverability: 70.0
+    operational_transparency: 31.6
+  previous_composite: 63.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -313,14 +315,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/screenshots/stackadapt-2026-06-20T194444.png
+screenshot: https://apis.io/screenshots/stackadapt/stackadapt-2026-06-20T194444.png
 security:
 - kind: authentication
   name: Stackadapt Authentication
@@ -338,6 +340,16 @@ security:
   name: Stackadapt Trust Center
   slug: stackadapt-trust-center
   summary_line: SOC 1 Type II, SOC 2 Type II, PCI DSS, ISO/IEC 27001:2022, NIST Cybersecurity Framework (CSF)
+skill_count: 4
+skills:
+- name: Build StackAdapt audiences, pixels and event subscriptions
+  slug: stackadapt-audiences-pixels-and-webhooks
+- name: Connect an agent to StackAdapt over MCP
+  slug: stackadapt-connect-agent-via-mcp
+- name: Launch and control a StackAdapt campaign
+  slug: stackadapt-launch-and-control-a-campaign
+- name: Pull campaign performance from StackAdapt
+  slug: stackadapt-pull-campaign-performance
 slug: stackadapt
 tags:
 - Programmatic Advertising

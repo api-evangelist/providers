@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.1
-  scored_at: '2026-10-17'
+  score: 22.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -107,9 +109,6 @@ collections:
   name: DatoCMS Content Management Environments Webhooks API
   slug: postman-datocms-webhooks-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: DatoCMS Content Management API
   slug: open-datocms-content-management-api
 - collection_type: open
@@ -135,22 +134,22 @@ collections:
   slug: open-datocms-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/plans/datocms-plans-pricing.yml
+  href: https://artifacts.apis.io/datocms/plans/datocms-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/datocms-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/rate-limits/datocms-rate-limits.yml
+  href: https://artifacts.apis.io/datocms/rate-limits/datocms-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/datocms-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/finops/datocms-finops.yml
+  href: https://artifacts.apis.io/datocms/finops/datocms-finops.yml
   title: ''
   type: FinOps
   url: finops/datocms-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/capabilities/datocms-capability-edges.yml
+  href: https://artifacts.apis.io/datocms/capabilities/datocms-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/datocms-capability-edges.yml
@@ -159,22 +158,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/datocms/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/agentic-access/datocms-agentic-access.yml
+  href: https://artifacts.apis.io/datocms/agentic-access/datocms-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/datocms-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/security/datocms-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/datocms/security/datocms-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/datocms-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/security/datocms-domain-security.yml
+  href: https://artifacts.apis.io/datocms/security/datocms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datocms-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/authentication/datocms-authentication.yml
+  href: https://artifacts.apis.io/datocms/authentication/datocms-authentication.yml
   title: ''
   type: Authentication
   url: authentication/datocms-authentication.yml
@@ -223,30 +222,30 @@ common:
   type: Support
   url: https://www.datocms.com/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/json-ld/datocms-context.jsonld
+  href: https://artifacts.apis.io/datocms/json-ld/datocms-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/datocms-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/vocabulary/datocms-vocabulary.yml
+  href: https://artifacts.apis.io/datocms/vocabulary/datocms-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/datocms-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/rules/datocms-rules.yml
+  href: https://artifacts.apis.io/datocms/rules/datocms-rules.yml
   title: ''
   type: Rules
   url: rules/datocms-rules.yml
 created: '2025-01-08'
 description: DatoCMS is a headless content management system that enables users to create, manage, and deliver digital content across websites, mobile apps, and other digital experiences. The platform exposes a JSON:API-based Content Management API for content and schema, and a CDN-fronted GraphQL Content Delivery API for read-heavy client applications.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Datocms Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: datocms-finops
-  template: true
+  template: false
 graphqls:
 - description: The DatoCMS Content Delivery API is a CDN-fronted GraphQL endpoint optimized for low-latency reads of published content from client applications such as Jamstack and SSR sites.
   name: DatoCMS GraphQL API
@@ -275,9 +274,12 @@ overview: 'DatoCMS publishes 8 API contracts indexed on the [APIs.io](https://ap
   DatoCMS''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, GitHub presence, support, and 16 more developer resources.'
 plans:
 - name: Datocms Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: datocms-plans-pricing
-random_paper: 21
+- name: Datocms Price Estimates
+  plan_count: 0
+  slug: datocms-price-estimates
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Datocms Rate Limits
@@ -308,23 +310,23 @@ rules:
   slug: datocms-rules
 score:
   band: developing
-  composite: 40.0
+  composite: 49.1
   coverage:
     artifact_dirs: 20
-    catalog_earned: 62.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.6
+    catalog_earned: 74.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 40.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 25.0
+    access_clarity: 63.2
     contract_governance: 27.3
-    contract_quality: 55.0
+    contract_quality: 52.4
     developer_ergonomics: 36.2
     discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 41.5
+    operational_transparency: 39.5
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -338,13 +340,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/screenshots/datocms-2026-06-20T175706.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/datocms/datocms-2026-06-20T175706.png
 security:
 - kind: authentication
   name: Datocms Authentication

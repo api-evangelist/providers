@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -71,11 +73,8 @@ apis:
   description: System information and health
   name: AspenTech System API
   slug: aspentech-system-api
-artifact_total: 30
+artifact_total: 29
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AspenTech Inmation Web Data API
   slug: open-aspentech-data-api
@@ -93,17 +92,17 @@ collections:
   slug: open-aspentech-system-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/plans/aspentech-plans-pricing.yml
+  href: https://artifacts.apis.io/aspentech/plans/aspentech-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aspentech-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/rate-limits/aspentech-rate-limits.yml
+  href: https://artifacts.apis.io/aspentech/rate-limits/aspentech-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aspentech-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/finops/aspentech-finops.yml
+  href: https://artifacts.apis.io/aspentech/finops/aspentech-finops.yml
   title: ''
   type: FinOps
   url: finops/aspentech-finops.yml
@@ -116,17 +115,17 @@ common:
   type: Website
   url: https://www.aspentech.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/agentic-access/aspentech-agentic-access.yml
+  href: https://artifacts.apis.io/aspentech/agentic-access/aspentech-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aspentech-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/security/aspentech-domain-security.yml
+  href: https://artifacts.apis.io/aspentech/security/aspentech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aspentech-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/authentication/aspentech-authentication.yml
+  href: https://artifacts.apis.io/aspentech/authentication/aspentech-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aspentech-authentication.yml
@@ -155,17 +154,17 @@ common:
   type: Support
   url: https://esupport.aspentech.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/openapi/_original/aspentech-inmation-web-openapi.yml
+  href: https://artifacts.apis.io/aspentech/openapi/_original/aspentech-inmation-web-openapi.yml
   title: Inmation Web API OpenAPI
   type: OpenAPI
   url: openapi/_original/aspentech-inmation-web-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/json-schema/aspentech-dataitem-schema.json
+  href: https://artifacts.apis.io/aspentech/json-schema/aspentech-dataitem-schema.json
   title: Data Item JSON Schema
   type: JSONSchema
   url: json-schema/aspentech-dataitem-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/json-ld/aspentech-context.jsonld
+  href: https://artifacts.apis.io/aspentech/json-ld/aspentech-context.jsonld
   title: AspenTech JSON-LD Context
   type: JSONLD
   url: json-ld/aspentech-context.jsonld
@@ -216,7 +215,7 @@ plans:
 - name: Aspentech Plans Pricing
   plan_count: 1
   slug: aspentech-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Aspentech Rate Limits
@@ -235,7 +234,7 @@ rules:
   slug: aspentech-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.4
+  composite: 33.1
   coverage:
     artifact_dirs: 15
     catalog_earned: 54.7
@@ -243,15 +242,15 @@ score:
     catalog_gap: 60.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 53.9
-    developer_ergonomics: 45.2
+    developer_ergonomics: 50.0
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 32.6
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -265,13 +264,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/screenshots/aspentech-2026-06-20T172502.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aspentech/aspentech-2026-06-20T172502.png
 security:
 - kind: authentication
   name: Aspentech Authentication

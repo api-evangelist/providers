@@ -35,16 +35,15 @@ modified: '2026-04-28'
 name: .Gitignore
 nav: Providers
 network: true
-overview: '.Gitignore is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Configuration, Git, Repository, and Version Control.
+overview: '.Gitignore is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Configuration, Version Control, and Repository.
 
 
   .Gitignore''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gitignore/refs/heads/main/screenshots/gitignore-2026-06-20T181842.png
+random_paper: 8
+screenshot: https://apis.io/screenshots/gitignore/gitignore-2026-06-20T181842.png
 slug: gitignore
 tags:
 - Configuration
-- Git
-- Repository
 - Version Control
+- Repository
 ---

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.1
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://simcluster.ai
@@ -52,11 +54,8 @@ apis:
   description: Self-signup with an Ethereum identity keypair (SIWE)
   name: The Promenade Signup API
   slug: the-promenade-signup-api
-artifact_total: 10
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Simcluster Agent payments API
   slug: open-the-promenade-payments-api
@@ -67,8 +66,13 @@ collections:
   name: Simcluster Agent payments signup API
   slug: open-the-promenade-signup-api
 common:
+- group: other
+  href: https://artifacts.apis.io/the-promenade/capabilities/the-promenade-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/the-promenade-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/security/the-promenade-domain-security.yml
+  href: https://artifacts.apis.io/the-promenade/security/the-promenade-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-promenade-domain-security.yml
@@ -85,42 +89,42 @@ common:
   type: Support
   url: https://discord.gg/simcluster
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/mcp/the-promenade-mcp.yml
+  href: https://artifacts.apis.io/the-promenade/mcp/the-promenade-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/the-promenade-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/llms/simcluster-agent.md
+  href: https://artifacts.apis.io/the-promenade/llms/simcluster-agent.md
   title: ''
   type: LLMsTxt
   url: llms/simcluster-agent.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/authentication/the-promenade-authentication.yml
+  href: https://artifacts.apis.io/the-promenade/authentication/the-promenade-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-promenade-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/conventions/the-promenade-conventions.yml
+  href: https://artifacts.apis.io/the-promenade/conventions/the-promenade-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-promenade-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/conventions/the-promenade-conventions.yml
+  href: https://artifacts.apis.io/the-promenade/conventions/the-promenade-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/the-promenade-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/conformance/the-promenade-conformance.yml
+  href: https://artifacts.apis.io/the-promenade/conformance/the-promenade-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-promenade-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/well-known/the-promenade-well-known.yml
+  href: https://artifacts.apis.io/the-promenade/well-known/the-promenade-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/the-promenade-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/the-promenade/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -139,27 +143,27 @@ network: true
 overview: 'The Promenade publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Payments API, Session API, and Signup API. Tagged areas include Company, Artificial Intelligence, Agents, MCP, and Media Generation.
 
 
-  The Promenade''s developer surface includes documentation, support, authentication, and 9 more developer resources.'
+  The Promenade''s developer surface includes documentation, support, authentication, and 10 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 22.6
+  composite: 23.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 47.3
-    developer_ergonomics: 23.2
-    discoverability: 66.7
+    developer_ergonomics: 28.0
+    discoverability: 56.7
     operational_transparency: 0.0
-  previous_composite: 23.0
+  previous_composite: 23.3
   provenance:
     conformance: derived
     contracts:
@@ -175,13 +179,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/screenshots/the-promenade-2026-09-02T163411.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/the-promenade/the-promenade-2026-09-02T163411.png
 security:
 - kind: authentication
   name: The Promenade Authentication
@@ -191,6 +196,12 @@ security:
   name: The Promenade Domain Security
   slug: the-promenade-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: simcluster-create-and-post
+  slug: simcluster-create-and-post
+- name: simcluster-onboard-agent
+  slug: simcluster-onboard-agent
 slug: the-promenade
 tags:
 - Company

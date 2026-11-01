@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Pay-per-search web agent (version 0.1.0-alpha) served from a2a-browser.digiant.nz: a JSON-RPC 2.0 POST endpoint at the host root, an A2A agent card at the legacy /.well-known/agent.json path (the cano'
@@ -32,12 +34,12 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/digiant-nz/refs/heads/main/plans/digiant-nz-plans-pricing.yml
+  href: https://artifacts.apis.io/digiant-nz/plans/digiant-nz-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/digiant-nz-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/digiant-nz/refs/heads/main/rate-limits/digiant-nz-rate-limits.yml
+  href: https://artifacts.apis.io/digiant-nz/rate-limits/digiant-nz-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/digiant-nz-rate-limits.yml
@@ -50,27 +52,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/digiantnz
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/digiant-nz/refs/heads/main/well-known/digiant-nz-well-known.yml
+  href: https://artifacts.apis.io/digiant-nz/well-known/digiant-nz-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/digiant-nz-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/digiant-nz/refs/heads/main/llms/digiant-nz-llms.txt
+  href: https://artifacts.apis.io/digiant-nz/llms/digiant-nz-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/digiant-nz-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/digiant-nz/refs/heads/main/packages/digiant-nz-packages.yml
+  href: https://artifacts.apis.io/digiant-nz/packages/digiant-nz-packages.yml
   title: ''
   type: Packages
   url: packages/digiant-nz-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/digiant-nz/refs/heads/main/regulatory/digiant-nz-regulatory-posture.yml
+  href: https://artifacts.apis.io/digiant-nz/regulatory/digiant-nz-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/digiant-nz-regulatory-posture.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/digiant-nz/refs/heads/main/security/digiant-nz-domain-security.yml
+  href: https://artifacts.apis.io/digiant-nz/security/digiant-nz-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/digiant-nz-domain-security.yml
@@ -86,7 +88,7 @@ plans:
 - name: Digiant Nz Plans Pricing
   plan_count: 2
   slug: digiant-nz-plans-pricing
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Digiant Nz Rate Limits
@@ -101,7 +103,7 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
@@ -116,7 +118,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 20.7
+  previous_composite: 20.8
   provenance:
     conformance: first-party
   regulatory:
@@ -125,8 +127,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

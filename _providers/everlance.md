@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Enterprise data API for uni-directional data transfer into Everlance: create and update user profiles, apply user attributes (team/department/division tags), assign team structure and roles, and manag'
@@ -43,7 +45,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/everlance/refs/heads/main/security/everlance-trust-center.yml
+  href: https://artifacts.apis.io/everlance/security/everlance-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/everlance-trust-center.yml
@@ -96,22 +98,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/Everlance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/everlance/refs/heads/main/authentication/everlance-authentication.yml
+  href: https://artifacts.apis.io/everlance/authentication/everlance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/everlance-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/everlance/refs/heads/main/conventions/everlance-conventions.yml
+  href: https://artifacts.apis.io/everlance/conventions/everlance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/everlance-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/everlance/refs/heads/main/security/everlance-domain-security.yml
+  href: https://artifacts.apis.io/everlance/security/everlance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/everlance-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/everlance/refs/heads/main/llms/everlance-llms.txt
+  href: https://artifacts.apis.io/everlance/llms/everlance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/everlance-llms.txt
@@ -127,10 +129,10 @@ overview: 'Everlance is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Everlance''s developer surface includes documentation, support, pricing, signup flow, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 3
+random_paper: 13
 score:
-  band: emerging
-  composite: 24.3
+  band: thin
+  composite: 28.4
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -138,29 +140,29 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.6
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 24.2
+    developer_ergonomics: 38.1
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 28.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/everlance/refs/heads/main/screenshots/everlance-2026-07-25T213731.png
+screenshot: https://apis.io/screenshots/everlance/everlance-2026-07-25T213731.png
 security:
 - kind: authentication
   name: Everlance Authentication

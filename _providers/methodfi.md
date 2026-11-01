@@ -16,7 +16,7 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.8
-  scored_at: '2026-10-17'
+  score: 49.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -790,7 +792,7 @@ apis:
     question: Can I page through all the transactions on an account?
   phrasing_ops: 1
   slug: methodfi-transactions-api
-artifact_total: 249
+artifact_total: 252
 asyncapis:
 - description: ''
   name: Methodfi Webhooks
@@ -922,9 +924,6 @@ collections:
 - collection_type: postman
   name: Method Account Attributes Webhooks API
   slug: postman-methodfi-webhooks-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Method Financial API
   slug: open-method-fi
@@ -1062,42 +1061,42 @@ collections:
   slug: open-methodfi-webhooks-api
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/rules/methodfi-rules.yml
+  href: https://artifacts.apis.io/methodfi/rules/methodfi-rules.yml
   title: ''
   type: Spectral
   url: rules/methodfi-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/json-ld/methodfi-context.jsonld
+  href: https://artifacts.apis.io/methodfi/json-ld/methodfi-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/methodfi-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/vocabulary/methodfi-vocabulary.yml
+  href: https://artifacts.apis.io/methodfi/vocabulary/methodfi-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/methodfi-vocabulary.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/a2a/methodfi-a2a.yml
+  href: https://artifacts.apis.io/methodfi/a2a/methodfi-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/methodfi-a2a.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/mcp/methodfi-tool-crosswalk.yml
+  href: https://artifacts.apis.io/methodfi/mcp/methodfi-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/methodfi-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/mcp/methodfi-mcp.yml
+  href: https://artifacts.apis.io/methodfi/mcp/methodfi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/methodfi-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/hosts/methodfi-hosts.yml
+  href: https://artifacts.apis.io/methodfi/hosts/methodfi-hosts.yml
   title: ''
   type: Hosts
   url: hosts/methodfi-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/vendors/methodfi-vendors.yml
+  href: https://artifacts.apis.io/methodfi/vendors/methodfi-vendors.yml
   title: ''
   type: Vendors
   url: vendors/methodfi-vendors.yml
@@ -1114,12 +1113,12 @@ common:
   type: Blog
   url: https://methodfi.com/resources/newsroom
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/capabilities/methodfi-capability-edges.yml
+  href: https://artifacts.apis.io/methodfi/capabilities/methodfi-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/methodfi-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/overlays/methodfi-openapi-overlay.yaml
+  href: https://artifacts.apis.io/methodfi/overlays/methodfi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/methodfi-openapi-overlay.yaml
@@ -1128,52 +1127,52 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/methodfi/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/security/methodfi-domain-security.yml
+  href: https://artifacts.apis.io/methodfi/security/methodfi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/methodfi-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/agentic-access/methodfi-agentic-access.yml
+  href: https://artifacts.apis.io/methodfi/agentic-access/methodfi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/methodfi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/authentication/methodfi-authentication.yml
+  href: https://artifacts.apis.io/methodfi/authentication/methodfi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/methodfi-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/conventions/methodfi-conventions.yml
+  href: https://artifacts.apis.io/methodfi/conventions/methodfi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/methodfi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/conventions/methodfi-conventions.yml
+  href: https://artifacts.apis.io/methodfi/conventions/methodfi-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/methodfi-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/packages/methodfi-packages.yml
+  href: https://artifacts.apis.io/methodfi/packages/methodfi-packages.yml
   title: ''
   type: Packages
   url: packages/methodfi-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/packages/methodfi-packages.yml
+  href: https://artifacts.apis.io/methodfi/packages/methodfi-packages.yml
   title: ''
   type: SDKs
   url: packages/methodfi-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/components/methodfi-components.yml
+  href: https://artifacts.apis.io/methodfi/components/methodfi-components.yml
   title: ''
   type: Components
   url: components/methodfi-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/sandbox/methodfi-sandbox.yml
+  href: https://artifacts.apis.io/methodfi/sandbox/methodfi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/methodfi-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/lifecycle/methodfi-lifecycle.yml
+  href: https://artifacts.apis.io/methodfi/lifecycle/methodfi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/methodfi-lifecycle.yml
@@ -1182,12 +1181,12 @@ common:
   type: StatusPage
   url: https://methodfi.statuspage.io
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/lifecycle/methodfi-lifecycle.yml
+  href: https://artifacts.apis.io/methodfi/lifecycle/methodfi-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/methodfi-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/conformance/methodfi-conformance.yml
+  href: https://artifacts.apis.io/methodfi/conformance/methodfi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/methodfi-conformance.yml
@@ -1196,47 +1195,47 @@ common:
   type: Compliance
   url: https://methodfi.com/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/errors/methodfi-problem-types.yml
+  href: https://artifacts.apis.io/methodfi/errors/methodfi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/methodfi-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/errors/methodfi-decline-codes.yml
+  href: https://artifacts.apis.io/methodfi/errors/methodfi-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/methodfi-decline-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/changelog/methodfi-changelog.yml
+  href: https://artifacts.apis.io/methodfi/changelog/methodfi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/methodfi-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/data-model/methodfi-data-model.yml
+  href: https://artifacts.apis.io/methodfi/data-model/methodfi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/methodfi-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/asyncapi/methodfi-webhooks.yml
+  href: https://artifacts.apis.io/methodfi/asyncapi/methodfi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/methodfi-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/rate-limits/methodfi-rate-limits.yml
+  href: https://artifacts.apis.io/methodfi/rate-limits/methodfi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/methodfi-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/mcp/methodfi-mcp.yml
+  href: https://artifacts.apis.io/methodfi/mcp/methodfi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/methodfi-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/llms/methodfi-llms.txt
+  href: https://artifacts.apis.io/methodfi/llms/methodfi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/methodfi-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/methodfi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -1285,7 +1284,7 @@ common:
   type: PrivacyPolicy
   url: https://methodfi.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/security/methodfi-trust-center.yml
+  href: https://artifacts.apis.io/methodfi/security/methodfi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/methodfi-trust-center.yml
@@ -1294,12 +1293,12 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/methodfi
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/plans/methodfi-plans-pricing.yml
+  href: https://artifacts.apis.io/methodfi/plans/methodfi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/methodfi-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/finops/methodfi-finops.yml
+  href: https://artifacts.apis.io/methodfi/finops/methodfi-finops.yml
   title: ''
   type: FinOps
   url: finops/methodfi-finops.yml
@@ -1658,7 +1657,7 @@ plans:
 - name: Methodfi Plans Pricing
   plan_count: 2
   slug: methodfi-plans-pricing
-random_paper: 12
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Methodfi Rate Limits
@@ -1678,7 +1677,7 @@ rules:
   slug: methodfi-rules
 score:
   band: exemplar
-  composite: 69.5
+  composite: 69.7
   coverage:
     artifact_dirs: 38
     catalog_earned: 76.8
@@ -1686,15 +1685,15 @@ score:
     catalog_gap: 38.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.2
+  delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 55.3
     contract_governance: 35.6
-    contract_quality: 75.9
-    developer_ergonomics: 75.6
-    discoverability: 78.3
-    operational_transparency: 81.6
-  previous_composite: 67.3
+    contract_quality: 75.2
+    developer_ergonomics: 78.0
+    discoverability: 68.3
+    operational_transparency: 84.2
+  previous_composite: 69.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1711,13 +1710,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/screenshots/methodfi-2026-08-07T172708.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/methodfi/methodfi-2026-08-07T172708.png
 security:
 - kind: authentication
   name: Methodfi Authentication
@@ -1731,6 +1731,16 @@ security:
   name: Methodfi Trust Center
   slug: methodfi-trust-center
   summary_line: SOC 2, PCI DSS
+skill_count: 4
+skills:
+- name: enrich-cards-and-attributes
+  slug: methodfi-enrich-cards-and-attributes
+- name: monitor-with-subscriptions-and-webhooks
+  slug: methodfi-monitor-with-subscriptions-and-webhooks
+- name: onboard-and-discover-liabilities
+  slug: methodfi-onboard-and-discover-liabilities
+- name: pay-down-a-liability
+  slug: methodfi-pay-down-a-liability
 slug: methodfi
 tags:
 - Company

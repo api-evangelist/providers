@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: HL7 Da Vinci Coverage Requirements Discovery (CRD) FHIR API that lets a provider system instantly verify whether prior authorization is required and confirm service coverage at the point of care. Docu
@@ -100,52 +102,52 @@ common:
   type: Compliance
   url: https://www.coherehealth.com/news/cohere-health-earns-hitrust-r2-certification
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cohere-health/refs/heads/main/authentication/cohere-health-authentication.yml
+  href: https://artifacts.apis.io/cohere-health/authentication/cohere-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cohere-health-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cohere-health/refs/heads/main/scopes/cohere-health-scopes.yml
+  href: https://artifacts.apis.io/cohere-health/scopes/cohere-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cohere-health-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cohere-health/refs/heads/main/well-known/cohere-health-well-known.yml
+  href: https://artifacts.apis.io/cohere-health/well-known/cohere-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cohere-health-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cohere-health/refs/heads/main/conformance/cohere-health-conformance.yml
+  href: https://artifacts.apis.io/cohere-health/conformance/cohere-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cohere-health-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cohere-health/refs/heads/main/security/cohere-health-domain-security.yml
+  href: https://artifacts.apis.io/cohere-health/security/cohere-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cohere-health-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cohere-health/refs/heads/main/llms/cohere-health-llms.txt
+  href: https://artifacts.apis.io/cohere-health/llms/cohere-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cohere-health-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cohere-health/refs/heads/main/vocabulary/cohere-health-glossary.yml
+  href: https://artifacts.apis.io/cohere-health/vocabulary/cohere-health-glossary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cohere-health-glossary.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cohere-health/refs/heads/main/packages/cohere-health-packages.yml
+  href: https://artifacts.apis.io/cohere-health/packages/cohere-health-packages.yml
   title: ''
   type: Packages
   url: packages/cohere-health-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cohere-health/refs/heads/main/plans/cohere-health-plans-pricing.yml
+  href: https://artifacts.apis.io/cohere-health/plans/cohere-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cohere-health-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cohere-health/refs/heads/main/rate-limits/cohere-health-rate-limits.yml
+  href: https://artifacts.apis.io/cohere-health/rate-limits/cohere-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cohere-health-rate-limits.yml
@@ -188,7 +190,7 @@ plans:
 - name: Cohere Health Plans Pricing
   plan_count: 0
   slug: cohere-health-plans-pricing
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Cohere Health Rate Limits
@@ -200,7 +202,7 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.5
+  composite: 30.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 40.0
@@ -210,12 +212,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 33.3
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 70.5
-    operational_transparency: 2.6
+    discoverability: 64.3
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -223,7 +225,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 29.5
+  previous_composite: 30.6
   provenance:
     conformance: first-party
   regulatory:
@@ -236,14 +238,14 @@ score:
     regime: Health
     regime_id: health
     score: 47.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cohere-health/refs/heads/main/screenshots/cohere-health-2026-07-25T210019.png
+screenshot: https://apis.io/screenshots/cohere-health/cohere-health-2026-07-25T210019.png
 security:
 - kind: authentication
   name: Cohere Health Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -42,32 +44,32 @@ common:
   type: Website
   url: https://www.ecosoulhome.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ecosoul/refs/heads/main/mcp/ecosoul-mcp.yml
+  href: https://artifacts.apis.io/ecosoul/mcp/ecosoul-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ecosoul-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ecosoul/refs/heads/main/llms/ecosoul-llms.txt
+  href: https://artifacts.apis.io/ecosoul/llms/ecosoul-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ecosoul-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ecosoul/refs/heads/main/well-known/ecosoul-well-known.yml
+  href: https://artifacts.apis.io/ecosoul/well-known/ecosoul-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ecosoul-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ecosoul/refs/heads/main/authentication/ecosoul-authentication.yml
+  href: https://artifacts.apis.io/ecosoul/authentication/ecosoul-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ecosoul-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ecosoul/refs/heads/main/scopes/ecosoul-scopes.yml
+  href: https://artifacts.apis.io/ecosoul/scopes/ecosoul-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ecosoul-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ecosoul/refs/heads/main/security/ecosoul-domain-security.yml
+  href: https://artifacts.apis.io/ecosoul/security/ecosoul-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ecosoul-domain-security.yml
@@ -111,7 +113,7 @@ overview: 'EcoSoul Home is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   EcoSoul Home''s developer surface includes authentication, engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 14
+random_paper: 18
 scopes:
 - name: Ecosoul Scopes
   scope_count: 4
@@ -119,7 +121,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 18.6
+  composite: 17.6
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -127,15 +129,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 58.3
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 18.5
+  previous_composite: 17.6
   provenance:
     mcp: platform-generated
   regulatory:
@@ -144,14 +146,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ecosoul/refs/heads/main/screenshots/ecosoul-2026-08-07T164718.png
+screenshot: https://apis.io/screenshots/ecosoul/ecosoul-2026-08-07T164718.png
 security:
 - kind: authentication
   name: Ecosoul Authentication

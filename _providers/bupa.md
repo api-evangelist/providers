@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Bupa Australia API estate, published through an Azure API Management managed developer portal at portal.api.bupa.com.au and served from the api.bupa.com.au gateway host. The portal is publicly rea
@@ -81,7 +83,7 @@ common:
   type: APIReference
   url: https://portal.api.bupa.com.au/api-details
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bupa/refs/heads/main/changelog/bupa-changelog.yml
+  href: https://artifacts.apis.io/bupa/changelog/bupa-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bupa-changelog.yml
@@ -102,37 +104,37 @@ common:
   type: PrivacyPolicy
   url: https://www.bupa.com/important-notices/privacy-notices
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bupa/refs/heads/main/authentication/bupa-authentication.yml
+  href: https://artifacts.apis.io/bupa/authentication/bupa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bupa-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bupa/refs/heads/main/conformance/bupa-conformance.yml
+  href: https://artifacts.apis.io/bupa/conformance/bupa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bupa-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bupa/refs/heads/main/lifecycle/bupa-lifecycle.yml
+  href: https://artifacts.apis.io/bupa/lifecycle/bupa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bupa-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bupa/refs/heads/main/packages/bupa-packages.yml
+  href: https://artifacts.apis.io/bupa/packages/bupa-packages.yml
   title: ''
   type: Packages
   url: packages/bupa-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bupa/refs/heads/main/llms/bupa-llms.txt
+  href: https://artifacts.apis.io/bupa/llms/bupa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bupa-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bupa/refs/heads/main/security/bupa-domain-security.yml
+  href: https://artifacts.apis.io/bupa/security/bupa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bupa-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bupa/refs/heads/main/security/bupa-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bupa/security/bupa-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bupa-vulnerability-disclosure.yml
@@ -153,10 +155,10 @@ overview: 'Bupa is listed with 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Bupa''s developer surface includes engineering blog, documentation, getting-started guide, API reference, changelog, signup flow, support, and 14 more developer resources.'
-random_paper: 6
+random_paper: 16
 score:
   band: thin
-  composite: 30.5
+  composite: 32.8
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -166,12 +168,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 73.2
-    operational_transparency: 28.9
+    discoverability: 66.1
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -180,7 +182,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 30.5
+  previous_composite: 32.8
   provenance:
     conformance: first-party
   regulatory:
@@ -188,15 +190,15 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 23.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bupa/refs/heads/main/screenshots/bupa-2026-07-25T204111.png
+screenshot: https://apis.io/screenshots/bupa/bupa-2026-07-25T204111.png
 security:
 - kind: authentication
   name: Bupa Authentication

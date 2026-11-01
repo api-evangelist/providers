@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Agentic-commerce API for the Winc storefront, implemented via the Shopify-native Universal Commerce Protocol (UCP). Agents discover capabilities at /.well-known/ucp and call commerce tools over the MC
   name: Winc UCP Commerce MCP
   slug: winc-ucp-commerce-mcp
-artifact_total: 4
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -55,42 +57,42 @@ common:
   type: Website
   url: https://winc.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/winc/refs/heads/main/mcp/winc-mcp.yml
+  href: https://artifacts.apis.io/winc/mcp/winc-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/winc-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/winc/refs/heads/main/llms/winc-llms.txt
+  href: https://artifacts.apis.io/winc/llms/winc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/winc-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/winc/refs/heads/main/well-known/winc-well-known.yml
+  href: https://artifacts.apis.io/winc/well-known/winc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/winc-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/winc/refs/heads/main/authentication/winc-authentication.yml
+  href: https://artifacts.apis.io/winc/authentication/winc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/winc-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/winc/refs/heads/main/scopes/winc-scopes.yml
+  href: https://artifacts.apis.io/winc/scopes/winc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/winc-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/winc/refs/heads/main/conformance/winc-conformance.yml
+  href: https://artifacts.apis.io/winc/conformance/winc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/winc-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/winc/refs/heads/main/conventions/winc-conventions.yml
+  href: https://artifacts.apis.io/winc/conventions/winc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/winc-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/winc/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/winc/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -118,7 +120,7 @@ overview: 'Winc is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Winc''s developer surface includes engineering blog, authentication, and 11 more developer resources.'
-random_paper: 15
+random_paper: 1
 scopes:
 - name: Winc Scopes
   scope_count: 4
@@ -126,7 +128,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 18.8
+  composite: 18.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -134,15 +136,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.1
-    discoverability: 71.7
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 18.2
+  previous_composite: 18.1
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -153,19 +155,23 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/winc/refs/heads/main/screenshots/winc-2026-09-02T170754.png
+screenshot: https://apis.io/screenshots/winc/winc-2026-09-02T170754.png
 security:
 - kind: authentication
   name: Winc Authentication
   slug: winc-authentication
   summary_line: 1 scheme
+skill_count: 1
+skills:
+- name: winc-buy-wine
+  slug: winc-buy-wine
 slug: winc
 tags:
 - Company

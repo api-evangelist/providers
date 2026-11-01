@@ -19,7 +19,7 @@ name: Milo
 nav: Providers
 network: true
 overview: Milo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 15
+random_paper: 1
 slug: milo
 tags:
 - Company

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,29 +44,26 @@ agentic_access:
   operation_count: 1
   slug: runautomat-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://studio.runautomat.com
   baseurl_source: declared
   description: The extract API from Runautomat — 1 operation(s) for extract.
   name: Runautomat Extract API
   slug: runautomat-extract-api
-artifact_total: 7
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: extract API
   slug: open-runautomat-extract-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/plans/runautomat-plans-pricing.yml
+  href: https://artifacts.apis.io/runautomat/plans/runautomat-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/runautomat-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/overlays/runautomat-extract-overlay.yaml
+  href: https://artifacts.apis.io/runautomat/overlays/runautomat-extract-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/runautomat-extract-overlay.yaml
@@ -89,7 +88,7 @@ common:
   type: GettingStarted
   url: https://docs.runautomat.com/guides/getting-started/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/authentication/runautomat-authentication.yml
+  href: https://artifacts.apis.io/runautomat/authentication/runautomat-authentication.yml
   title: ''
   type: Authentication
   url: authentication/runautomat-authentication.yml
@@ -126,57 +125,65 @@ common:
   type: Compliance
   url: https://runautomat.com/enterprise
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/llms/runautomat-llms.txt
+  href: https://artifacts.apis.io/runautomat/llms/runautomat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/runautomat-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/mcp/runautomat-mcp.yml
+  href: https://artifacts.apis.io/runautomat/mcp/runautomat-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/runautomat-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/runautomat/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/errors/runautomat-problem-types.yml
+  href: https://artifacts.apis.io/runautomat/errors/runautomat-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/runautomat-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/conventions/runautomat-conventions.yml
+  href: https://artifacts.apis.io/runautomat/conventions/runautomat-conventions.yml
   title: ''
   type: Conventions
   url: conventions/runautomat-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/conformance/runautomat-conformance.yml
+  href: https://artifacts.apis.io/runautomat/conformance/runautomat-conformance.yml
   title: ''
   type: Conformance
   url: conformance/runautomat-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/lifecycle/runautomat-lifecycle.yml
+  href: https://artifacts.apis.io/runautomat/lifecycle/runautomat-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/runautomat-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/data-model/runautomat-data-model.yml
+  href: https://artifacts.apis.io/runautomat/data-model/runautomat-data-model.yml
   title: ''
   type: DataModel
   url: data-model/runautomat-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/agentic-access/runautomat-agentic-access.yml
+  href: https://artifacts.apis.io/runautomat/agentic-access/runautomat-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/runautomat-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/security/runautomat-domain-security.yml
+  href: https://artifacts.apis.io/runautomat/security/runautomat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/runautomat-domain-security.yml
 created: '2026-07-17'
 description: Runautomat (dba Automat) builds AI agents that operate computers the way people do, replacing legacy RPA tools like UiPath, Automation Anywhere, and Blue Prism with self-healing managed automations. Founded in 2022 by ex-Google engineers Lucas Ochoa and Gautam Bose and backed by Felicis, Khosla Ventures, Initialized Capital, and Y Combinator. The platform spans UI-based AI agents (Computer Use RPA), AI document extraction (IDP), API-based automations (iPaaS), and a managed forward-deployed-engineer service. Its public developer surface is the Automat Document Extraction API, a single synchronous /api/extract operation that turns PDFs and images into structured JSON matching a configured extractor, authenticated with an organization API key.
+finops:
+- has_sources: true
+  method: derived
+  name: Runautomat Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: runautomat-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/runautomat.png
 layout: provider
 modified: '2026-07-21'
@@ -191,26 +198,29 @@ plans:
 - name: Runautomat Plans Pricing
   plan_count: 2
   slug: runautomat-plans-pricing
-random_paper: 4
+- name: Runautomat Price Estimates
+  plan_count: 0
+  slug: runautomat-price-estimates
+random_paper: 0
 score:
   band: developing
-  composite: 49.1
+  composite: 52.6
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 45.0
+    artifact_dirs: 20
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.3
+  delta: 1.6
   facets:
-    access_clarity: 73.7
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 47.1
-    developer_ergonomics: 55.4
-    discoverability: 71.7
-    operational_transparency: 7.9
-  previous_composite: 44.8
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -233,13 +243,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/screenshots/runautomat-2026-08-17T081652.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/runautomat/runautomat-2026-08-17T081652.png
 security:
 - kind: authentication
   name: Runautomat Authentication
@@ -249,6 +260,10 @@ security:
   name: Runautomat Domain Security
   slug: runautomat-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: Extract structured data from a document
+  slug: runautomat-extract-document
 slug: runautomat
 tags:
 - Company

@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 22.2
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 6
 common:
@@ -76,7 +78,7 @@ common:
   type: Compliance
   url: https://trust.artificial.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/security/artificial-labs-trust-center.yml
+  href: https://artifacts.apis.io/artificial-labs/security/artificial-labs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/artificial-labs-trust-center.yml
@@ -109,47 +111,47 @@ common:
   type: OpenIDConnect
   url: https://auth.artificialos.com/.well-known/openid-configuration
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/authentication/artificial-labs-authentication.yml
+  href: https://artifacts.apis.io/artificial-labs/authentication/artificial-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/artificial-labs-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/scopes/artificial-labs-scopes.yml
+  href: https://artifacts.apis.io/artificial-labs/scopes/artificial-labs-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/artificial-labs-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/well-known/artificial-labs-well-known.yml
+  href: https://artifacts.apis.io/artificial-labs/well-known/artificial-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/artificial-labs-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/conformance/artificial-labs-conformance.yml
+  href: https://artifacts.apis.io/artificial-labs/conformance/artificial-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/artificial-labs-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/security/artificial-labs-domain-security.yml
+  href: https://artifacts.apis.io/artificial-labs/security/artificial-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/artificial-labs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/security/artificial-labs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/artificial-labs/security/artificial-labs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/artificial-labs-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/lifecycle/artificial-labs-lifecycle.yml
+  href: https://artifacts.apis.io/artificial-labs/lifecycle/artificial-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/artificial-labs-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/packages/artificial-labs-packages.yml
+  href: https://artifacts.apis.io/artificial-labs/packages/artificial-labs-packages.yml
   title: ''
   type: Packages
   url: packages/artificial-labs-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/llms/artificial-labs-llms.txt
+  href: https://artifacts.apis.io/artificial-labs/llms/artificial-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/artificial-labs-llms.txt
@@ -171,7 +173,7 @@ overview: 'Artificial Labs is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Artificial Labs'' developer surface includes documentation, engineering blog, support, authentication, and 22 more developer resources.'
-random_paper: 15
+random_paper: 23
 scopes:
 - name: Artificial Labs Scopes
   scope_count: 14
@@ -179,7 +181,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 28.6
+  composite: 29.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -189,12 +191,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 58.3
-    operational_transparency: 13.2
+    discoverability: 48.2
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -203,7 +205,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 28.6
+  previous_composite: 29.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -213,14 +215,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 46.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/screenshots/artificial-labs-2026-07-25T201337.png
+screenshot: https://apis.io/screenshots/artificial-labs/artificial-labs-2026-07-25T201337.png
 security:
 - kind: authentication
   name: Artificial Labs Authentication

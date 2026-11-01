@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.3
-  scored_at: '2026-10-17'
+  score: 31.2
+  scored_at: '2026-10-31'
 api_count: 13
 apis:
 - description: 'Token-authenticated REST endpoints under https://api.webz.io covering seven products: News, Blogs and Forums (/api/news, /api/blogs, /api/forums plus /seg_api/* segmentation), Reviews (/reviewFilter, '
@@ -79,7 +81,7 @@ apis:
 - description: Legacy unified `/filterWebContent` endpoint (GET or POST) that returned any open-web content type in one call. Deprecated in favor of the split News, Blogs & Forums APIs but still documented.
   name: Webz.io Web Content API (deprecated)
   slug: webzio-web-content-api-deprecated
-artifact_total: 20
+artifact_total: 22
 common:
 - group: operate
   title: ''
@@ -90,62 +92,62 @@ common:
   type: Website
   url: https://www.webz.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/security/webz-domain-security.yml
+  href: https://artifacts.apis.io/webz/security/webz-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/webz-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/well-known/webz-well-known.yml
+  href: https://artifacts.apis.io/webz/well-known/webz-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/webz-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/mcp/webz-mcp.yml
+  href: https://artifacts.apis.io/webz/mcp/webz-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/webz-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/webz/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/llms/webz-llms.txt
+  href: https://artifacts.apis.io/webz/llms/webz-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/webz-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/packages/webz-packages.yml
+  href: https://artifacts.apis.io/webz/packages/webz-packages.yml
   title: ''
   type: Packages
   url: packages/webz-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/packages/webz-packages.yml
+  href: https://artifacts.apis.io/webz/packages/webz-packages.yml
   title: ''
   type: SDKs
   url: packages/webz-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/conformance/webz-conformance.yml
+  href: https://artifacts.apis.io/webz/conformance/webz-conformance.yml
   title: ''
   type: Conformance
   url: conformance/webz-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/conformance/webz-conformance.yml
+  href: https://artifacts.apis.io/webz/conformance/webz-conformance.yml
   title: ''
   type: Compliance
   url: conformance/webz-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/errors/webz-error-codes.yml
+  href: https://artifacts.apis.io/webz/errors/webz-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/webz-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/lifecycle/webz-lifecycle.yml
+  href: https://artifacts.apis.io/webz/lifecycle/webz-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/webz-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/lifecycle/webz-lifecycle.yml
+  href: https://artifacts.apis.io/webz/lifecycle/webz-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/webz-lifecycle.yml
@@ -154,37 +156,37 @@ common:
   type: StatusPage
   url: https://status.webz.io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/scopes/webz-scopes.yml
+  href: https://artifacts.apis.io/webz/scopes/webz-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/webz-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/authentication/webz-authentication.yml
+  href: https://artifacts.apis.io/webz/authentication/webz-authentication.yml
   title: ''
   type: Authentication
   url: authentication/webz-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/security/webz-trust-center.yml
+  href: https://artifacts.apis.io/webz/security/webz-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/webz-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/conventions/webz-conventions.yml
+  href: https://artifacts.apis.io/webz/conventions/webz-conventions.yml
   title: ''
   type: Conventions
   url: conventions/webz-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/data-model/webz-data-model.yml
+  href: https://artifacts.apis.io/webz/data-model/webz-data-model.yml
   title: ''
   type: DataModel
   url: data-model/webz-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/plans/webz-plans-pricing.yml
+  href: https://artifacts.apis.io/webz/plans/webz-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/webz-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/rate-limits/webz-rate-limits.yml
+  href: https://artifacts.apis.io/webz/rate-limits/webz-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/webz-rate-limits.yml
@@ -238,6 +240,14 @@ common:
   url: https://webz.io/privacy/
 created: '2026-08-27'
 description: Webz.io provides structured web-data feeds and APIs covering the open, deep, and dark web for AI, cybersecurity, and intelligence use cases. Content is collected at scale, normalized, enriched with metadata, and delivered through machine-readable data feeds and token-authenticated REST APIs.
+finops:
+- has_sources: true
+  method: derived
+  name: Webz Finops
+  primary_unit: 1 api call
+  service_category: ''
+  slug: webz-finops
+  template: false
 image: https://webz.io/wp-content/uploads/2026/08/Webz.io-og-image.png
 layout: provider
 mcp_servers:
@@ -254,9 +264,9 @@ overview: 'Webz.io is listed with 13 APIs on the [APIs.io](https://apis.io/) net
   Webz.io''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
 plans:
 - name: Webz Plans Pricing
-  plan_count: 6
+  plan_count: 11
   slug: webz-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Webz Rate Limits
@@ -267,23 +277,23 @@ scopes:
   slug: webz-scopes
   summary_line: 1 scope · authorization_code/client_credentials
 score:
-  band: developing
-  composite: 54.0
+  band: strong
+  composite: 55.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 64.0
+    artifact_dirs: 20
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 80.0
-    operational_transparency: 57.9
+    discoverability: 76.7
+    operational_transparency: 60.5
   previous_composite: 54.0
   provenance:
     conformance: first-party
@@ -301,14 +311,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/screenshots/webz-2026-09-02T170544.png
+screenshot: https://apis.io/screenshots/webz/webz-2026-09-02T170544.png
 security:
 - kind: authentication
   name: Webz Authentication
@@ -322,6 +332,10 @@ security:
   name: Webz Trust Center
   slug: webz-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 1
+skills:
+- name: webz-news-search
+  slug: webz-news-search
 slug: webz
 tags:
 - News Data
@@ -331,7 +345,7 @@ tags:
 - deep-web
 - Cybersecurity
 - Threat Intelligence
-- Data Breach
+- Data Breaches
 - pii-monitoring
 - OSINT
 - reviews-data

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.2
-  scored_at: '2026-10-17'
+  score: 27.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 1
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 14
   slug: university-of-edinburgh-agentic-access
   summary_line: 14 operations · 1 human-in-the-loop
-api_count: 11
+api_count: 6
 apis:
 - baseURL: https://elm.edina.ac.uk/api/v1
   baseurl_source: declared
@@ -78,7 +80,7 @@ apis:
 artifact_total: 26
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/capabilities/university-of-edinburgh-capability-edges.yml
+  href: https://artifacts.apis.io/university-of-edinburgh/capabilities/university-of-edinburgh-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/university-of-edinburgh-capability-edges.yml
@@ -155,57 +157,57 @@ common:
   type: AITooling
   url: https://information-services.ed.ac.uk/computing/comms-and-collab/elm
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/authentication/university-of-edinburgh-authentication.yml
+  href: https://artifacts.apis.io/university-of-edinburgh/authentication/university-of-edinburgh-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-edinburgh-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/scopes/university-of-edinburgh-scopes.yml
+  href: https://artifacts.apis.io/university-of-edinburgh/scopes/university-of-edinburgh-scopes.yml
   title: ''
   type: Scopes
   url: scopes/university-of-edinburgh-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/errors/university-of-edinburgh-errors.yml
+  href: https://artifacts.apis.io/university-of-edinburgh/errors/university-of-edinburgh-errors.yml
   title: ''
   type: Errors
   url: errors/university-of-edinburgh-errors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/lifecycle/university-of-edinburgh-lifecycle.yml
+  href: https://artifacts.apis.io/university-of-edinburgh/lifecycle/university-of-edinburgh-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/university-of-edinburgh-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/conformance/university-of-edinburgh-conformance.yml
+  href: https://artifacts.apis.io/university-of-edinburgh/conformance/university-of-edinburgh-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-edinburgh-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/agentic-access/university-of-edinburgh-agentic-access.yml
+  href: https://artifacts.apis.io/university-of-edinburgh/agentic-access/university-of-edinburgh-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/university-of-edinburgh-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/security/university-of-edinburgh-domain-security.yml
+  href: https://artifacts.apis.io/university-of-edinburgh/security/university-of-edinburgh-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-edinburgh-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/plans/university-of-edinburgh-plans-pricing.yml
+  href: https://artifacts.apis.io/university-of-edinburgh/plans/university-of-edinburgh-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-edinburgh-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/rate-limits/university-of-edinburgh-rate-limits.yml
+  href: https://artifacts.apis.io/university-of-edinburgh/rate-limits/university-of-edinburgh-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-edinburgh-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/finops/university-of-edinburgh-finops.yml
+  href: https://artifacts.apis.io/university-of-edinburgh/finops/university-of-edinburgh-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-edinburgh-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/university-of-edinburgh/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -304,7 +306,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 34.0
+  composite: 34.7
   coverage:
     artifact_dirs: 23
     catalog_earned: 51.0
@@ -312,7 +314,7 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 13.6
@@ -328,7 +330,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 41.1
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -343,13 +345,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/screenshots/university-of-edinburgh-2026-06-20T200145.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/university-of-edinburgh/university-of-edinburgh-2026-06-20T200145.png
 security:
 - kind: authentication
   name: University Of Edinburgh Authentication

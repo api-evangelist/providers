@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: youki is a container runtime written in Rust that implements the OCI runtime specification, providing a memory-safe and high-performance alternative to runc. It supports rootless containers, cgroups v
@@ -45,17 +47,17 @@ apis:
 artifact_total: 101
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/youki/refs/heads/main/plans/youki-plans-pricing.yml
+  href: https://artifacts.apis.io/youki/plans/youki-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/youki-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/youki/refs/heads/main/rate-limits/youki-rate-limits.yml
+  href: https://artifacts.apis.io/youki/rate-limits/youki-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/youki-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/youki/refs/heads/main/finops/youki-finops.yml
+  href: https://artifacts.apis.io/youki/finops/youki-finops.yml
   title: ''
   type: FinOps
   url: finops/youki-finops.yml
@@ -100,7 +102,7 @@ common:
   type: Support
   url: https://youki-dev.github.io/youki/community/introduction.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/youki/refs/heads/main/vocabulary/youki-vocabulary.yaml
+  href: https://artifacts.apis.io/youki/vocabulary/youki-vocabulary.yaml
   title: Youki Vocabulary
   type: Vocabulary
   url: vocabulary/youki-vocabulary.yaml
@@ -199,7 +201,7 @@ finops:
 - has_sources: false
   method: generated
   name: Youki Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: youki-finops
   template: true
@@ -384,7 +386,7 @@ plans:
 - name: Youki Plans Pricing
   plan_count: 3
   slug: youki-plans-pricing
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Youki Rate Limits
@@ -403,7 +405,7 @@ rules:
   slug: youki-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.5
+  composite: 32.9
   coverage:
     artifact_dirs: 11
     catalog_earned: 65.8
@@ -411,32 +413,29 @@ score:
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 33.2
-    developer_ergonomics: 42.9
+    developer_ergonomics: 50.0
     discoverability: 57.1
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 75.0
-  previous_composite: 36.8
+    operational_transparency: 39.5
+  previous_composite: 32.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/youki/refs/heads/main/screenshots/youki-2026-10-11T195326.png
+screenshot: https://apis.io/screenshots/youki/youki-2026-10-11T195326.png
 slug: youki
 solutions:
 - description: Provides a CNCF sandbox container runtime for cloud-native platforms looking to adopt a memory-safe OCI runtime under containerd or CRI-O.

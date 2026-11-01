@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-17'
+  score: 16.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,11 +61,8 @@ apis:
   description: Live status lookup for a single Blink charging location.
   name: Blink Charging Status API
   slug: blink-status-api
-artifact_total: 10
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Blink Charging & Status API (BlinkMap API) Locations API
   slug: open-blink-locations-api
@@ -75,17 +74,17 @@ collections:
   slug: open-blink-status-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/agentic-access/blink-agentic-access.yml
+  href: https://artifacts.apis.io/blink/agentic-access/blink-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/blink-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/security/blink-domain-security.yml
+  href: https://artifacts.apis.io/blink/security/blink-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blink-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/authentication/blink-authentication.yml
+  href: https://artifacts.apis.io/blink/authentication/blink-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blink-authentication.yml
@@ -132,7 +131,7 @@ overview: 'Blink Charging publishes 3 API contracts indexed on the [APIs.io](htt
 random_paper: 0
 score:
   band: minimal
-  composite: 9.3
+  composite: 10.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -145,10 +144,10 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
-    discoverability: 67.0
-    operational_transparency: 2.6
-  previous_composite: 9.3
+    developer_ergonomics: 23.8
+    discoverability: 67.9
+    operational_transparency: 5.3
+  previous_composite: 10.7
   provenance:
     agentic_access: derived
     contracts:
@@ -162,14 +161,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/screenshots/blink-2026-07-25T203318.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/blink/blink-2026-07-25T203318.png
 security:
 - kind: authentication
   name: Blink Authentication

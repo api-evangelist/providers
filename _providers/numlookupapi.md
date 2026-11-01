@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 22.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: Phone number validation and lookup.
   name: NumLookupAPI Validation API
   slug: numlookupapi-validation-api
-artifact_total: 12
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NumLookup Account API
   slug: open-numlookupapi-account-api
@@ -71,17 +70,17 @@ collections:
   slug: open-numlookupapi
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/numlookupapi/refs/heads/main/agentic-access/numlookupapi-agentic-access.yml
+  href: https://artifacts.apis.io/numlookupapi/agentic-access/numlookupapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/numlookupapi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/numlookupapi/refs/heads/main/authentication/numlookupapi-authentication.yml
+  href: https://artifacts.apis.io/numlookupapi/authentication/numlookupapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/numlookupapi-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/numlookupapi/refs/heads/main/security/numlookupapi-domain-security.yml
+  href: https://artifacts.apis.io/numlookupapi/security/numlookupapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/numlookupapi-domain-security.yml
@@ -102,17 +101,17 @@ common:
   type: Documentation
   url: https://numlookupapi.com/docs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/numlookupapi/refs/heads/main/plans/numlookupapi-plans-pricing.yml
+  href: https://artifacts.apis.io/numlookupapi/plans/numlookupapi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/numlookupapi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/numlookupapi/refs/heads/main/rate-limits/numlookupapi-rate-limits.yml
+  href: https://artifacts.apis.io/numlookupapi/rate-limits/numlookupapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/numlookupapi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/numlookupapi/refs/heads/main/finops/numlookupapi-finops.yml
+  href: https://artifacts.apis.io/numlookupapi/finops/numlookupapi-finops.yml
   title: ''
   type: FinOps
   url: finops/numlookupapi-finops.yml
@@ -140,14 +139,14 @@ plans:
 - name: Numlookupapi Plans Pricing
   plan_count: 5
   slug: numlookupapi-plans-pricing
-random_paper: 18
+random_paper: 20
 rate_limits:
 - limit_count: 6
   name: Numlookupapi Rate Limits
   slug: numlookupapi-rate-limits
 score:
-  band: thin
-  composite: 26.7
+  band: emerging
+  composite: 14.3
   coverage:
     artifact_dirs: 10
     catalog_earned: 43.0
@@ -155,15 +154,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 50.8
+    contract_quality: 0.0
     developer_ergonomics: 29.8
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 35.0
+    operational_transparency: 13.2
+  previous_composite: 14.3
   provenance:
     agentic_access: derived
     contracts:
@@ -177,14 +176,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/numlookupapi/refs/heads/main/screenshots/numlookupapi-2026-08-07T185737.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/numlookupapi/numlookupapi-2026-08-07T185737.png
 security:
 - kind: authentication
   name: Numlookupapi Authentication

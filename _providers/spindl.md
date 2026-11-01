@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-10-17'
+  score: 33.5
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - baseURL: https://api.spindl.xyz/v1
@@ -53,11 +55,8 @@ apis:
   description: Publisher-facing onchain advertising API. Fetch targeted ad recommendations for a wallet address at a named placement, render the returned unit, and post impressions and clicks back to Spindl. Also se
   name: Spindl Ads API
   slug: spindl-ads-api
-artifact_total: 10
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Spindl Server-to-Server Events API
   slug: open-spindl-events-api
@@ -66,82 +65,82 @@ collections:
   slug: open-spindl-short-links-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/overlays/spindl-openapi-overlay.yaml
+  href: https://artifacts.apis.io/spindl/overlays/spindl-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spindl-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/security/spindl-domain-security.yml
+  href: https://artifacts.apis.io/spindl/security/spindl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spindl-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/authentication/spindl-authentication.yml
+  href: https://artifacts.apis.io/spindl/authentication/spindl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spindl-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/packages/spindl-packages.yml
+  href: https://artifacts.apis.io/spindl/packages/spindl-packages.yml
   title: ''
   type: Packages
   url: packages/spindl-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/packages/spindl-packages.yml
+  href: https://artifacts.apis.io/spindl/packages/spindl-packages.yml
   title: ''
   type: SDKs
   url: packages/spindl-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/mcp/spindl-mcp.yml
+  href: https://artifacts.apis.io/spindl/mcp/spindl-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/spindl-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/llms/spindl-llms.txt
+  href: https://artifacts.apis.io/spindl/llms/spindl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spindl-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/conventions/spindl-conventions.yml
+  href: https://artifacts.apis.io/spindl/conventions/spindl-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spindl-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/errors/spindl-problem-types.yml
+  href: https://artifacts.apis.io/spindl/errors/spindl-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spindl-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/lifecycle/spindl-lifecycle.yml
+  href: https://artifacts.apis.io/spindl/lifecycle/spindl-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spindl-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/conformance/spindl-conformance.yml
+  href: https://artifacts.apis.io/spindl/conformance/spindl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spindl-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/data-model/spindl-data-model.yml
+  href: https://artifacts.apis.io/spindl/data-model/spindl-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spindl-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/spindl/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/components/spindl-components.yml
+  href: https://artifacts.apis.io/spindl/components/spindl-components.yml
   title: ''
   type: Components
   url: components/spindl-components.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/plans/spindl-plans-pricing.yml
+  href: https://artifacts.apis.io/spindl/plans/spindl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spindl-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/rate-limits/spindl-rate-limits.yml
+  href: https://artifacts.apis.io/spindl/rate-limits/spindl-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spindl-rate-limits.yml
@@ -198,30 +197,30 @@ plans:
 - name: Spindl Plans Pricing
   plan_count: 0
   slug: spindl-plans-pricing
-random_paper: 12
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Spindl Rate Limits
   slug: spindl-rate-limits
 score:
   band: thin
-  composite: 27.7
+  composite: 30.7
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 14.1
     developer_ergonomics: 66.1
-    discoverability: 78.6
-    operational_transparency: 2.6
-  previous_composite: 27.6
+    discoverability: 71.4
+    operational_transparency: 5.3
+  previous_composite: 30.7
   provenance:
     conformance: derived
     contracts:
@@ -237,13 +236,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/spindl/refs/heads/main/screenshots/spindl-2026-08-17T082027.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spindl/spindl-2026-08-17T082027.png
 security:
 - kind: authentication
   name: Spindl Authentication
@@ -253,6 +253,14 @@ security:
   name: Spindl Domain Security
   slug: spindl-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Create and list Spindl tracking links
+  slug: spindl-create-tracking-link
+- name: Send server-side custom events to Spindl
+  slug: spindl-send-custom-events
+- name: Serve a Spindl ad unit and record the impression
+  slug: spindl-serve-and-track-ads
 slug: spindl
 tags:
 - Company

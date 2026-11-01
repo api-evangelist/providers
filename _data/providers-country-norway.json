@@ -1,34 +1,34 @@
 {
- "total": 23,
- "shown": 23,
+ "total": 27,
+ "shown": 27,
  "limit": 1000,
  "bands": [
   {
-   "band": "exemplar",
-   "label": "Exemplar",
-   "range": "66.5+",
-   "blurb": "Reference-quality API operations across every facet.",
-   "count": 1,
-   "shown": 1,
+   "band": "strong",
+   "label": "Strong",
+   "range": "54.3 – 66.4",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Entur",
      "slug": "entur",
      "description": "Entur AS is a Norwegian state-owned technology company (\"et statlig eid teknologiselskap\") that works to make it easier to choose public transport across Norway. It runs the national journey planner at entur.no and its app, sells tickets, and operates the national data platform for public transport. Through Entur for Developers it publishes open services (journey planner, geocoder, real-time vehicle and mobility data) and open data for free, plus partner services that require authentication.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/screenshots/entur-2026-10-11T104224.png",
-     "score": 69.6,
-     "band": "exemplar",
-     "band_label": "Exemplar",
+     "screenshot": "https://artifacts.apis.io/entur/screenshots/entur-2026-10-11T104224.png",
+     "score": 65.5,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 74.6,
+      "discoverability": 70.0,
+      "contract_quality": 72.7,
       "contract_governance": 76.5,
       "operational_transparency": 63.2,
       "developer_ergonomics": 73.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -36,12 +36,12 @@
       "score": 40.2,
       "matched_via": "tags"
      },
-     "agent_score": 46.4,
+     "agent_score": 43.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": "documented",
+      "reversibility_documented": false,
       "mcp_server": "documented",
       "auth_clarity": "bearer",
       "idempotency": "documented",
@@ -57,39 +57,82 @@
       "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": false,
+      "operation_distinctiveness": "mostly"
      },
      "rank": 1
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "strong",
-   "label": "Strong",
-   "range": "54.3 – 66.4",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
+    },
+    {
+     "name": "Atmospore Pollen Forecasts",
+     "slug": "atmospore-pollen-forecasts",
+     "description": "Atmospore is an Oslo-based provider of AI-driven global pollen and allergy forecasting. Its model combines GFS weather data with ground-truth observations from professional aerobiology networks to produce species-level forecasts on a ~28 km global grid, covering 25 individual tree, grass and weed species with multilingual metadata (English, Norwegian, Swedish) and published concentration thresholds for low/moderate/high/very-high risk. The surface is delivered three ways: a four-operation REST API at pollenapi.com with a live OpenAPI 3.0.3 contract, a hosted Model Context Protocol server at mcp.atmospore.com exposing the same capability as four agent tools, and a keyless embeddable iframe widget that consumes no API quota. Point forecasts, area averages with min/max across a radius, and severity-ranked top species are all available up to 14 days ahead; species metadata is served unauthenticated.",
+     "screenshot": "https://artifacts.apis.io/atmospore-pollen-forecasts/screenshots/atmospore-pollen-forecasts-2026-08-17T080606.png",
+     "score": 57.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 65.0,
+      "contract_quality": 52.9,
+      "contract_governance": 4.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 61.3,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 26.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": false,
+      "operation_distinctiveness": "na"
+     },
+     "rank": 2
+    },
     {
      "name": "Equinor",
      "slug": "equinor",
      "description": "Equinor ASA is an international energy company headquartered in Norway, with around 25,000 employees and offices in more than 20 countries (per equinor.com). It operates oil, gas, renewables and low-carbon businesses, runs a public Equinor API portal at api.equinor.com (built on Azure API Management) listing its APIs and products, publishes REST API guidelines in its api-strategy GitHub repository, shares open energy data, and maintains a large open-source presence at github.com/equinor.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/screenshots/equinor-2026-10-11T104250.png",
-     "score": 57.2,
+     "screenshot": "https://artifacts.apis.io/equinor/screenshots/equinor-2026-10-11T104250.png",
+     "score": 54.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 73.2,
-      "contract_quality": 63.4,
+      "contract_quality": 61.7,
       "contract_governance": 35.6,
       "operational_transparency": 39.5,
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -97,7 +140,7 @@
       "score": 39.3,
       "matched_via": "tags"
      },
-     "agent_score": 34.4,
+     "agent_score": 32.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -118,9 +161,11 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": false,
+      "operation_distinctiveness": false
      },
-     "rank": 2
+     "rank": 3
     }
    ],
    "open": true
@@ -130,77 +175,27 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 9,
-   "shown": 9,
+   "count": 7,
+   "shown": 7,
    "providers": [
-    {
-     "name": "Atmospore Pollen Forecasts",
-     "slug": "atmospore-pollen-forecasts",
-     "description": "Atmospore is an Oslo-based provider of AI-driven global pollen and allergy forecasting. Its model combines GFS weather data with ground-truth observations from professional aerobiology networks to produce species-level forecasts on a ~28 km global grid, covering 25 individual tree, grass and weed species with multilingual metadata (English, Norwegian, Swedish) and published concentration thresholds for low/moderate/high/very-high risk. The surface is delivered three ways: a four-operation REST API at pollenapi.com with a live OpenAPI 3.0.3 contract, a hosted Model Context Protocol server at mcp.atmospore.com exposing the same capability as four agent tools, and a keyless embeddable iframe widget that consumes no API quota. Point forecasts, area averages with min/max across a radius, and severity-ranked top species are all available up to 14 days ahead; species metadata is served unauthenticated.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/screenshots/atmospore-pollen-forecasts-2026-08-17T080606.png",
-     "score": 54.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.3,
-      "contract_quality": 52.9,
-      "contract_governance": 4.5,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 61.3,
-      "access_clarity": 69.7
-     },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 31.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 37.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "derived",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 3
-    },
     {
      "name": "Elhub",
      "slug": "elhub",
      "description": "Elhub is Norway's national IT platform (datahub) for collecting and distributing electricity data, owned and operated by Elhub AS, a public company owned by Statnett SF. Grid companies, electricity suppliers and service providers use Elhub to exchange metering values and customer information for more than 4 million metering points, and it handles supplier switching and settlement processes. Households and businesses use Elhub Min side to view and share their own electricity data. The Elhub API Portal (api.elhub.no) offers public open-data APIs (Energy Data API, CC BY 4.0) and Maskinporten-protected APIs including Data Export, Market Data, Access, Settlement and Metering Values APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elhub/refs/heads/main/screenshots/elhub-2026-10-11T104116.png",
-     "score": 53.4,
+     "screenshot": "https://artifacts.apis.io/elhub/screenshots/elhub-2026-10-11T104116.png",
+     "score": 53.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 71.4,
-      "contract_quality": 61.9,
+      "contract_quality": 58.5,
       "contract_governance": 35.6,
       "operational_transparency": 71.1,
       "developer_ergonomics": 66.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -208,7 +203,7 @@
       "score": 31.1,
       "matched_via": "tags"
      },
-     "agent_score": 29.0,
+     "agent_score": 30.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -229,78 +224,30 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "paginated",
+      "operation_distinctiveness": false
      },
      "rank": 4
-    },
-    {
-     "name": "Rett fra Bonden",
-     "slug": "rettfrabonden-com",
-     "description": "Rett fra Bonden (rettfrabonden.com) is an open, non-profit discovery layer for local food in Norway — a registry of 1,900+ farms, farm shops, REKO rings, farmers' markets and cooperatives that is built to be read by AI agents first. It exposes the same producer catalogue through three protocols: a REST API (natural-language and structured search, producer detail, geocoding, an ACP-conformant product feed), a remote MCP server at /mcp with 15 tools including an anonymous shopping-cart and pickup-order flow, and an A2A JSON-RPC endpoint at /a2a described by a signed agent card at /.well-known/agent-card.json. Reads are open without a key; producer registration requires an X-API-Key issued on registration. The code is MIT-licensed at github.com/slookisen/lokal and the platform is operated in Norway by Daniel Fredriksen.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/screenshots/rettfrabonden-com-2026-10-11T125158.png",
-     "score": 53.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 45.4,
-      "contract_governance": 18.2,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 52.4,
-      "access_clarity": 65.8
-     },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 36.3,
-      "matched_via": "fallback"
-     },
-     "agent_score": 42.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": "conformant",
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": "documented",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 5
     },
     {
      "name": "DIPS",
      "slug": "dips",
      "description": "DIPS AS is Norway's largest supplier of electronic health record (EHR) systems to hospitals, in operation since 1987 and headquartered in Bodø. Its DIPS Arena EHR is built on the openEHR reference model and exposes standardised HL7 FHIR R4 and openEHR REST interfaces. Through Open DIPS — a public developer portal and synthetic-data sandbox at dips.developer.azure-api.net — DIPS publishes an OpenID Connect provider (DIPS Federation Service), a FHIR Patient API and a SMART on FHIR launch surface, backed by a public FHIR R4 Implementation Guide and an openEHR archetype repository on GitHub.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/screenshots/dips-2026-10-11T103808.png",
-     "score": 51.7,
+     "screenshot": "https://artifacts.apis.io/dips/screenshots/dips-2026-10-11T103808.png",
+     "score": 52.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 71.4,
+      "discoverability": 66.1,
       "contract_quality": 42.1,
       "contract_governance": 18.2,
-      "operational_transparency": 2.6,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 73.2,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -308,7 +255,7 @@
       "score": 41.4,
       "matched_via": "tags"
      },
-     "agent_score": 30.4,
+     "agent_score": 29.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -329,28 +276,30 @@
       "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": false
      },
-     "rank": 6
+     "rank": 5
     },
     {
      "name": "Autopay",
      "slug": "autopay",
      "description": "Autopay is a Norwegian parking payment and management platform that provides APIs for parking operators, landlords, fleet managers, and third-party integrators. The platform enables automated parking permit management, payment processing, fleet tracking, and parking statistics with 13+ distinct API endpoints. All integrators must accept the Autopay API Usage Agreement before accessing the APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/screenshots/autopay-2026-06-20T172701.png",
-     "score": 50.6,
+     "screenshot": "https://artifacts.apis.io/autopay/screenshots/autopay-2026-06-20T172701.png",
+     "score": 51.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 66.1,
       "contract_quality": 53.5,
       "contract_governance": 18.2,
       "operational_transparency": 47.4,
-      "developer_ergonomics": 54.2,
+      "developer_ergonomics": 58.9,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -358,12 +307,12 @@
       "score": 46.4,
       "matched_via": "tags"
      },
-     "agent_score": 36.4,
+     "agent_score": 36.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": "documented",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "served",
       "idempotency": false,
@@ -379,89 +328,82 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "distinct"
      },
-     "rank": 7
+     "rank": 6
     },
     {
-     "name": "Opera",
-     "slug": "opera",
-     "description": "Opera is the Norway-based, Nasdaq-listed (OPRA) maker of the Opera, Opera GX, Opera Air, Opera Mini and Opera Neon web browsers, and the operator of the Opera Ads advertising and monetization platform. Opera Ads exposes six documented HTTP APIs: an advertiser Report API for daily campaign performance, a publisher Inventory Management API for apps and placements, a publisher OFP Report API for revenue and delivery, an ADX DSP Report API for exchange performance, a server-to-server Marketing API for conversion postbacks, and a TUS 1.0.0 resumable File Upload API. Around them sit Android and iOS ad SDKs with mediation adapters for AdMob, AppLovin MAX, TopOn, TradPlus and LevelPlay, an OpenRTB/ADX exchange with Prebid.js and Prebid Server adapters, a web JS ad tag, first-party Go OpenRTB and VAST libraries, and the self-serve Opera Ad Manager console. Authentication differs per API — bearer token, token query parameter, X-API-Key or HMAC signature — and every credential is issued by contacting Opera Ads.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/screenshots/opera-2026-08-17T083429.png",
-     "score": 47.2,
+     "name": "Rett fra Bonden",
+     "slug": "rettfrabonden-com",
+     "description": "Rett fra Bonden (rettfrabonden.com) is an open, non-profit discovery layer for local food in Norway — a registry of 1,900+ farms, farm shops, REKO rings, farmers' markets and cooperatives that is built to be read by AI agents first. It exposes the same producer catalogue through three protocols: a REST API (natural-language and structured search, producer detail, geocoding, an ACP-conformant product feed), a remote MCP server at /mcp with 15 tools including an anonymous shopping-cart and pickup-order flow, and an A2A JSON-RPC endpoint at /a2a described by a signed agent card at /.well-known/agent-card.json. Reads are open without a key; producer registration requires an X-API-Key issued on registration. The code is MIT-licensed at github.com/slookisen/lokal and the platform is operated in Norway by Daniel Fredriksen.",
+     "screenshot": "https://artifacts.apis.io/rettfrabonden-com/screenshots/rettfrabonden-com-2026-10-11T125158.png",
+     "score": 48.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 78.6,
-      "contract_quality": 17.6,
+      "discoverability": 71.7,
+      "contract_quality": 45.4,
       "contract_governance": 18.2,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 73.2,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 52.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 30.4,
-      "matched_via": "fallback",
-      "jurisdictions_satisfied": 2,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       },
-       {
-        "standard": "coppa",
-        "jurisdiction": "US"
-       }
-      ]
+      "score": 36.3,
+      "matched_via": "fallback"
      },
-     "agent_score": 28.9,
+     "agent_score": 43.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": "verified",
+      "error_semantics": "derived",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": "conformant",
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
+      "protected_resource_metadata": "documented",
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "distinct"
      },
-     "rank": 8
+     "rank": 7
     },
     {
      "name": "Opplevagent",
      "slug": "opplevagent-no",
      "description": "Opplevagent is an agent-native (A2A) marketplace of Norwegian experiences and activities — 547 hand-picked tours, courses, attractions and things to do from 417 providers verified against Brønnøysundregistrene, plus a gårdssalg vertical of 252 farm-sale drink producers (breweries, cideries, wineries, distilleries). Agents and humans query the same catalog through an open, read-only REST discovery API described by an OpenAPI 3.1 document, a remote Streamable-HTTP MCP server (also shipped as the opplevagent-mcp npm package for stdio clients) with five tools including a pending-only booking request, and an A2A JSON-RPC endpoint described by a signed agent card at /.well-known/agent-card.json. No authentication is required; an optional free X-API-Key raises the rate limits. Operated from Norway by Daniel Fredriksen on the same codebase as the sibling sites rettfrabonden.com and finn-tannlege.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opplevagent-no/refs/heads/main/screenshots/opplevagent-no-2026-10-11T112127.png",
-     "score": 47.0,
+     "screenshot": "https://artifacts.apis.io/opplevagent-no/screenshots/opplevagent-no-2026-10-11T112127.png",
+     "score": 46.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 71.7,
       "contract_quality": 42.1,
       "contract_governance": 18.2,
       "operational_transparency": 36.8,
       "developer_ergonomics": 47.0,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -469,7 +411,7 @@
       "score": 28.4,
       "matched_via": "tags"
      },
-     "agent_score": 35.3,
+     "agent_score": 38.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -490,7 +432,72 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "paginated",
+      "operation_distinctiveness": "distinct"
+     },
+     "rank": 8
+    },
+    {
+     "name": "Opera",
+     "slug": "opera",
+     "description": "Opera is the Norway-based, Nasdaq-listed (OPRA) maker of the Opera, Opera GX, Opera Air, Opera Mini and Opera Neon web browsers, and the operator of the Opera Ads advertising and monetization platform. Opera Ads exposes six documented HTTP APIs: an advertiser Report API for daily campaign performance, a publisher Inventory Management API for apps and placements, a publisher OFP Report API for revenue and delivery, an ADX DSP Report API for exchange performance, a server-to-server Marketing API for conversion postbacks, and a TUS 1.0.0 resumable File Upload API. Around them sit Android and iOS ad SDKs with mediation adapters for AdMob, AppLovin MAX, TopOn, TradPlus and LevelPlay, an OpenRTB/ADX exchange with Prebid.js and Prebid Server adapters, a web JS ad tag, first-party Go OpenRTB and VAST libraries, and the self-serve Opera Ad Manager console. Authentication differs per API — bearer token, token query parameter, X-API-Key or HMAC signature — and every credential is issued by contacting Opera Ads.",
+     "screenshot": "https://artifacts.apis.io/opera/screenshots/opera-2026-08-17T083429.png",
+     "score": 45.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 13.8,
+      "contract_governance": 18.2,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 73.2,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 30.4,
+      "matched_via": "fallback",
+      "jurisdictions_satisfied": 2,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       },
+       {
+        "standard": "coppa",
+        "jurisdiction": "US"
+       }
+      ]
+     },
+     "agent_score": 27.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": false,
+      "operation_distinctiveness": "distinct"
      },
      "rank": 9
     },
@@ -498,20 +505,20 @@
      "name": "Finn-tannlege",
      "slug": "finn-tannlege-com",
      "description": "Finn-tannlege.com is an independent, free directory of Norwegian dental clinics (5,447 clinics on 2026-09-19) assembled from public sources - the Brønnøysund Register Centre (Brreg), the Norwegian Health Personnel Register (HPR), the Norwegian Dental Association (NTF) and the clinics' own websites - and searchable by county (fylke), specialty, Helfo direct-billing agreement and emergency-duty (akuttvakt) availability. It is built for people and AI agents alike: an open, key-free REST API under /api/tannlege described by an OpenAPI 3.1 document, an A2A 1.0.0 agent card and JSON-RPC endpoint, a remote Streamable-HTTP MCP server plus an npm stdio package (finn-tannlege-mcp), an llms.txt and a ChatGPT Custom GPT. Operated by Daniel Fredriksen on the same Norwegian A2A agent platform as rettfrabonden.com and opplevagent.no; every clinic field is stored with its source and last-confirmed date, and the \"Verified\" badge is an editorially set status.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/screenshots/finn-tannlege-com-2026-10-11T104453.png",
-     "score": 41.1,
+     "screenshot": "https://artifacts.apis.io/finn-tannlege-com/screenshots/finn-tannlege-com-2026-10-11T104453.png",
+     "score": 40.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 65.0,
       "contract_quality": 42.6,
       "contract_governance": 18.2,
       "operational_transparency": 26.3,
       "developer_ergonomics": 39.9,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -519,7 +526,7 @@
       "score": 19.5,
       "matched_via": "tags"
      },
-     "agent_score": 33.1,
+     "agent_score": 35.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -540,28 +547,41 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "partial",
+      "operation_distinctiveness": "distinct"
      },
      "rank": 10
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 4,
+   "shown": 4,
+   "providers": [
     {
      "name": "itslearning",
      "slug": "itslearning",
      "description": "itslearning is a Norwegian learning management system (LMS) founded in 1999 and headquartered in Bergen, Norway, now part of the Sanoma Learning group. Its cloud platform serves primary, secondary, vocational, higher education, lifelong-learning and international schools across Europe and beyond, giving teachers lesson planning (\"Plans\"), assessment and quizzing, communication, an AI Toolkit, administration and reporting in one place. For integrators itslearning exposes an Organisation API (SOAP web services for courses, content, files and assessments), a Data Warehouse OData reporting API, IMS Enterprise Services and SFTP imports for user/course provisioning, and standards-based Learning Tools Interoperability (LTI 1.3 Core and LTI Advantage, with LTI 1.0/1.1 deprecated since June 2022) for third-party tool and content integration into the itslearning Library.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/screenshots/itslearning-2026-07-25T223009.png",
-     "score": 40.7,
-     "band": "developing",
-     "band_label": "Developing",
+     "screenshot": "https://artifacts.apis.io/itslearning/screenshots/itslearning-2026-07-25T223009.png",
+     "score": 38.6,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 78.6,
-      "contract_quality": 5.3,
+      "discoverability": 71.4,
+      "contract_quality": 0.0,
       "contract_governance": 18.2,
       "operational_transparency": 55.3,
       "developer_ergonomics": 45.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -597,88 +617,30 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
      "rank": 11
-    }
-   ]
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "26.2 – 39.2",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 2,
-   "shown": 2,
-   "providers": [
-    {
-     "name": "Yr",
-     "slug": "yr-no",
-     "description": "Yr is a weather service from the Norwegian Meteorological Institute (MET Norway) and the Norwegian Broadcasting Corporation (NRK), providing free, high-quality weather forecasts for locations worldwide via a simple REST interface. The MET Weather API offers a comprehensive suite of products including location-based forecasts, weather alerts, nowcasts, ocean forecasts, aviation weather, sunrise and sun event calculations, radar imagery, and historical meteorological observation data. All data is open under CC BY 4.0 and requires only a User-Agent identification header — no API key or account is needed.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/screenshots/yr-no-2026-06-20T201749.png",
-     "score": 36.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 71.4,
-      "contract_quality": 53.5,
-      "contract_governance": 9.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 24.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 20.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "derived",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 12
     },
     {
      "name": "Aquabyte",
      "slug": "aquabyte",
      "description": "Aquabyte AS is a Norwegian-American aquaculture technology company, founded in 2017 with offices in Bergen (Laksevåg), Norway, San Francisco and Chile, that applies computer vision and machine learning to salmon and trout farming. Underwater cameras (Hydra 360, Hammerhead, Atlas) stream imagery into a cloud platform that produces biomass and weight estimation, sea-lice counting, welfare scoring, swim-speed and breathing-index behaviour metrics, environmental readings and feeding decision support, from smolt through harvest. Customers reach that data either through the Aquabyte customer portal at app.aquabyte.ai or through the Aquabyte Public API — a documented, API-key-authenticated REST service at api.aquabyte.ai/v3 whose OpenAPI 3.1 definition is served publicly at api.aquabyte.ai/openapi.json and rendered with ReDoc at /v3/docs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/screenshots/aquabyte-2026-08-07T161729.png",
-     "score": 36.0,
+     "screenshot": "https://artifacts.apis.io/aquabyte/screenshots/aquabyte-2026-08-07T161729.png",
+     "score": 37.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 71.4,
+      "discoverability": 66.1,
       "contract_quality": 43.1,
       "contract_governance": 4.5,
-      "operational_transparency": 31.6,
+      "operational_transparency": 34.2,
       "developer_ergonomics": 37.5,
-      "access_clarity": 27.6
+      "access_clarity": 34.2
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -686,8 +648,8 @@
       "score": 22.7,
       "matched_via": "fallback"
      },
-     "agent_score": 26.4,
-     "agent_band": "agent-aware",
+     "agent_score": 28.7,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
@@ -707,9 +669,114 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "partial",
+      "operation_distinctiveness": "distinct"
+     },
+     "rank": 12
+    },
+    {
+     "name": "Yr",
+     "slug": "yr-no",
+     "description": "Yr is a weather service from the Norwegian Meteorological Institute (MET Norway) and the Norwegian Broadcasting Corporation (NRK), providing free, high-quality weather forecasts for locations worldwide via a simple REST interface. The MET Weather API offers a comprehensive suite of products including location-based forecasts, weather alerts, nowcasts, ocean forecasts, aviation weather, sunrise and sun event calculations, radar imagery, and historical meteorological observation data. All data is open under CC BY 4.0 and requires only a User-Agent identification header — no API key or account is needed.",
+     "screenshot": "https://artifacts.apis.io/yr-no/screenshots/yr-no-2026-06-20T201749.png",
+     "score": 37.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 53.5,
+      "contract_governance": 9.8,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 24.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "derived",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "distinct"
      },
      "rank": 13
+    },
+    {
+     "name": "Bring",
+     "slug": "bring",
+     "description": "Bring is a Norwegian logistics company offering parcel, e‑commerce and shipping services across the Nordics. It provides a comprehensive set of APIs for developers to integrate shipping, tracking, address validation, customs handling, and e‑commerce checkout solutions. The APIs are documented on a dedicated developer portal and cover services such as Shipping Guide, Pickup Point, Address, Postal Code, Booking, Bulk Split, Customer Info, Customs, Tracking, Warehousing and more, enabling businesses to automate logistics and improve customer experience.",
+     "score": 30.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 53.6,
+      "contract_quality": 26.3,
+      "contract_governance": 22.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 38.1,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 26.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 15.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
+     },
+     "rank": 14
     }
    ]
   },
@@ -718,27 +785,27 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 1,
-   "shown": 1,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Norwegian University of Science and Technology",
      "slug": "ntnu",
      "description": "The Norwegian University of Science and Technology (NTNU) is Norway's largest university, headquartered in Trondheim with campuses in Gjovik and Alesund. NTNU operates no consolidated institutional developer portal and publishes no OpenAPI, AsyncAPI or other machine-readable API contract of its own. Its one openly callable, institution-operated surface is the OAI-PMH interface of NTNU Open Access Journals at www.ntnu.no/ojs, which answers Identify, ListMetadataFormats and ListSets over sixteen NTNU-published journals. NTNU also runs an institutional API gateway at api.ntnu.no, but every path on it is behind Feide OAuth and no public documentation, contract or scope list is served without an institutional account. Everything else that looks programmable under NTNU's name is operated by somebody else and entered here as a tenant relationship, not as NTNU engineering: research data in the NTNU collection of DataverseNO (run by UiT The Arctic University of Norway on Dataverse software), research information in Cristin and the national research archive NVA (both run by Sikt), timetables in TP on educloud.no, identity in the Feide federation where NTNU exists as the scope ntnu.no on Sikt's national IdP rather than as its own eduGAIN entity, and teaching in a hosted Canvas tenant. This repo previously carried 35 OpenAPI files and 87 derived artifacts that were splits of the generic Dataverse 6.6 product contract; they were the vendor's, not NTNU's, and have been removed.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/screenshots/ntnu-2026-06-20T190500.png",
-     "score": 20.1,
+     "screenshot": "https://artifacts.apis.io/ntnu/screenshots/ntnu-2026-06-20T190500.png",
+     "score": 21.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 82.1,
       "contract_quality": 4.4,
       "contract_governance": 18.2,
-      "operational_transparency": 7.9,
+      "operational_transparency": 21.1,
       "developer_ergonomics": 23.8,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -767,9 +834,113 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 14
+     "rank": 15
+    },
+    {
+     "name": "NOBIL (Enova)",
+     "slug": "nobil",
+     "description": "NOBIL (Enova) provides a comprehensive API delivering real‑time and historical data on electric vehicle charging stations across Norway and other Nordic countries. The service offers information on station locations, availability, connector types, pricing, and operational status, supporting developers building EV navigation, fleet management, and energy‑grid applications. Data is sourced from public and private operators and is updated regularly to reflect changes in infrastructure and usage.",
+     "score": 14.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.1,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 35.7,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 23.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 5.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
+     },
+     "rank": 16
+    },
+    {
+     "name": "publifye-com",
+     "slug": "publifye-com",
+     "description": "Publifye AS is a Norwegian Bible publishing company based in Oslo, offering over 4,200 Bible editions and a suite of AI‑enhanced tools for Scripture study, publishing, document management, and Norwegian data integration. Their platform provides APIs that enable developers to access biblical texts, leverage AI for content generation, and integrate publishing workflows into applications. Publifye focuses on combining traditional publishing expertise with modern AI capabilities to serve churches, scholars, and developers worldwide.",
+     "score": 11.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 58.9,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 12.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 6.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
+     },
+     "rank": 17
     }
    ]
   },
@@ -778,14 +949,14 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 9,
-   "shown": 9,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
      "name": "Funcom",
      "slug": "funcom",
      "description": "Funcom is a Norwegian video-game developer and publisher founded in 1993, headquartered in Oslo with additional studios in Raleigh (North Carolina), Lisbon, and Bucharest. It is best known for online, open-world, and survival titles including Dune: Awakening, Conan Exiles, Age of Conan, and The Secret World / Secret World Legends, alongside published titles such as Metal: Hellsinger, Aloft, Dune: Spice Wars, and Mutant Year Zero. Funcom is majority-owned by Tencent. It was surfaced as a Northzone portfolio company and added to the API Evangelist network as a company profile; it does not currently publish a public developer API surface, so this profile captures company identity, legal/support links, and domain-security posture rather than API artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/funcom/refs/heads/main/screenshots/funcom-2026-07-25T215300.png",
+     "screenshot": "https://artifacts.apis.io/funcom/screenshots/funcom-2026-07-25T215300.png",
      "score": 9.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -797,8 +968,8 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -827,15 +998,17 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 15
+     "rank": 18
     },
     {
      "name": "Villoid",
      "slug": "villoid",
      "description": "Villoid is a Norwegian online fashion retailer (villoid.no, redirected from villoid.com) operating a Shopify-hosted boutique that curates over 250 designer and contemporary womenswear brands such as Ganni, Isabel Marant, Stella McCartney and ROTATE Birger Christensen. The store sells dresses, shoes, bags, accessories, sportswear and home goods, offering same-day delivery in Norway, easy returns, gift cards and payment via Klarna, Vipps, Visa and Mastercard. Originally surfaced as a portfolio company of 500 Global, Villoid exposes a consumer storefront and publishes no public developer or API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/villoid/refs/heads/main/screenshots/villoid-2026-09-02T165916.png",
+     "screenshot": "https://artifacts.apis.io/villoid/screenshots/villoid-2026-09-02T165916.png",
      "score": 9.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -847,8 +1020,8 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -877,15 +1050,17 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 16
+     "rank": 19
     },
     {
      "name": "KSAT",
      "slug": "ksat",
      "description": "KSAT (Kongsberg Satellite Services) provides high‑reliability satellite ground station services, data acquisition, TT&C solutions, and hosted infrastructure for a wide range of customers including small‑sat constellations, lunar missions, and launch vehicle telemetry. Operating a global network of ground stations, KSAT enables secure, low‑latency communications between space assets and ground operators, supporting both commercial and governmental space initiatives.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ksat/refs/heads/main/screenshots/ksat-2026-10-11T110243.png",
+     "screenshot": "https://artifacts.apis.io/ksat/screenshots/ksat-2026-10-11T110243.png",
      "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -897,8 +1072,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -906,13 +1081,13 @@
       "score": 9.8,
       "matched_via": "fallback"
      },
-     "agent_score": 0.0,
+     "agent_score": 3.1,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "documented",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -927,9 +1102,11 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 17
+     "rank": 20
     },
     {
      "name": "Telenor",
@@ -946,8 +1123,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -976,15 +1153,68 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 18
+     "rank": 21
+    },
+    {
+     "name": "Wirescan",
+     "slug": "wirescan",
+     "description": "Wirescan, founded in 2003 by technologist Paolo Franco Fantoni, provides digital solutions for cable monitoring using its proprietary LIRA® Technology. Based in Norway, the company offers a suite of products and services for infrastructure monitoring, data analytics, and resource management, serving utilities and industrial clients worldwide.",
+     "score": 6.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
+     },
+     "rank": 22
     },
     {
      "name": "Nextgentel",
      "slug": "nextgentel",
      "description": "NextGenTel is one of Norway's established independent internet service providers, delivering fiber and DSL broadband, TV (via RiksTV), mobile telephony, and online security services to consumers and small businesses across Norway. Surfaced as a portfolio company of Northzone and added to the API Evangelist network. An enrichment pass (2026-07-20) found a consumer-facing marketing and self-service website (www.nextgentel.no) and a customer help center (hjelp.nextgentel.no), but no public developer portal, API documentation, OpenAPI specification, or programmatic API surface — this remains a consumer telecom company with no external API program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nextgentel/refs/heads/main/screenshots/nextgentel-2026-08-07T185208.png",
+     "screenshot": "https://artifacts.apis.io/nextgentel/screenshots/nextgentel-2026-08-07T185208.png",
      "score": 3.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -996,8 +1226,8 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1026,15 +1256,17 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 19
+     "rank": 23
     },
     {
      "name": "Avida Holding",
      "slug": "avida-holding",
      "description": "Avida Holding AB operates as a holding company providing financial services including corporate and consumer lending solutions across Sweden, Norway, and Finland. Through its subsidiaries it offers mortgage loans, invoice factoring, and other credit products, aiming to enable customers to access easy financing and improve financial wellbeing. The company is backed by investors such as KKR and focuses on growth through customer‑centric, solution‑oriented culture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/avida-holding/refs/heads/main/screenshots/avida-holding-2026-10-11T101141.png",
+     "screenshot": "https://artifacts.apis.io/avida-holding/screenshots/avida-holding-2026-10-11T101141.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1046,8 +1278,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1055,13 +1287,13 @@
       "score": 5.9,
       "matched_via": "fallback"
      },
-     "agent_score": 0.0,
+     "agent_score": 3.1,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "documented",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -1076,15 +1308,17 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 20
+     "rank": 24
     },
     {
      "name": "Dimeq",
      "slug": "dimeq",
      "description": "Dimeq is a Norwegian maritime safety technology company working to prevent loss of life at sea and set new health, safety and environmental (HSE) standards for the maritime sector. Its Eye-D System is an IoT-based digital ecosystem that delivers real-time positioning of crew and passengers to one-meter accuracy during emergencies, man-overboard detection using environmental sensors, automatic mustering that registers people in seconds, and statistical analysis for accident documentation and prevention, while keeping data anonymous and GDPR-compliant outside of emergencies. The D-Router gateway supports Wi-Fi, Ethernet, PLC, fiber optics, UWB, Bluetooth, LoRa, ZigBee and MATTER connectivity. This is a hardware/IoT product company with no public developer portal, API, SDK or documentation surface at the time of enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dimeq/refs/heads/main/screenshots/dimeq-2026-07-25T212045.png",
+     "screenshot": "https://artifacts.apis.io/dimeq/screenshots/dimeq-2026-07-25T212045.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1096,8 +1330,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1126,9 +1360,11 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 21
+     "rank": 25
     },
     {
      "name": "Mamut",
@@ -1145,8 +1381,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1175,15 +1411,17 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 22
+     "rank": 26
     },
     {
      "name": "Energy Micro",
      "slug": "energy-micro",
      "description": "Energy Micro was a Norwegian fabless semiconductor company, founded in 2007 and headquartered in Oslo, best known for its EFM32 \"Gecko\" family of energy-friendly 32-bit ARM Cortex-M microcontrollers and the EFR radio products targeting low-power embedded and IoT applications. The company was acquired by Silicon Labs in 2013 and fully absorbed into that company's product lines; its former energymicro.com domain now redirects to silabs.com. It was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub. Enrichment found no independent, first-party API, developer portal, OpenAPI, SDK, or MCP surface for Energy Micro as a standalone entity — the developer tooling for its EFM32 line lives under Silicon Labs today.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-micro/refs/heads/main/screenshots/energy-micro-2026-07-25T213327.png",
+     "screenshot": "https://artifacts.apis.io/energy-micro/screenshots/energy-micro-2026-07-25T213327.png",
      "score": 2.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1195,8 +1433,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -1225,9 +1463,11 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 23
+     "rank": 27
     }
    ]
   }

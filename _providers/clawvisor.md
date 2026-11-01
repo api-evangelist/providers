@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.8
-  scored_at: '2026-10-17'
+  score: 49.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -74,15 +76,12 @@ arazzos:
 - description: Declare a read-scoped task, wait for the user to approve it, list and read messages through the gateway under scope, then complete the task. Every operationId is verified against openapi/clawvisor-gat
   name: Clawvisor — approve-scope-and-triage
   slug: clawvisor-triage-inbox
-artifact_total: 17
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Clawvisor Callbacks Webhooks
   slug: clawvisor-callbacks-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Clawvisor Gateway Auth API
   slug: open-clawvisor-auth-api
@@ -99,12 +98,17 @@ collections:
   name: Clawvisor Gateway Auth Tokens API
   slug: open-clawvisor-tokens-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/clawvisor/plans/clawvisor-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/clawvisor-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
   url: https://www.clawvisor.com/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/capabilities/clawvisor-capability-edges.yml
+  href: https://artifacts.apis.io/clawvisor/capabilities/clawvisor-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/clawvisor-capability-edges.yml
@@ -113,7 +117,7 @@ common:
   type: Website
   url: https://www.clawvisor.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/overlays/clawvisor-gateway-overlay.yaml
+  href: https://artifacts.apis.io/clawvisor/overlays/clawvisor-gateway-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clawvisor-gateway-overlay.yaml
@@ -158,82 +162,90 @@ common:
   type: PrivacyPolicy
   url: https://clawvisor.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/mcp/clawvisor-mcp.yml
+  href: https://artifacts.apis.io/clawvisor/mcp/clawvisor-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/clawvisor-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/clawvisor/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/llms/clawvisor-llms.txt
+  href: https://artifacts.apis.io/clawvisor/llms/clawvisor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clawvisor-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/well-known/clawvisor-well-known.yml
+  href: https://artifacts.apis.io/clawvisor/well-known/clawvisor-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/clawvisor-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/authentication/clawvisor-authentication.yml
+  href: https://artifacts.apis.io/clawvisor/authentication/clawvisor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clawvisor-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/conventions/clawvisor-conventions.yml
+  href: https://artifacts.apis.io/clawvisor/conventions/clawvisor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clawvisor-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/errors/clawvisor-problem-types.yml
+  href: https://artifacts.apis.io/clawvisor/errors/clawvisor-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clawvisor-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/lifecycle/clawvisor-lifecycle.yml
+  href: https://artifacts.apis.io/clawvisor/lifecycle/clawvisor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clawvisor-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/conformance/clawvisor-conformance.yml
+  href: https://artifacts.apis.io/clawvisor/conformance/clawvisor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clawvisor-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/data-model/clawvisor-data-model.yml
+  href: https://artifacts.apis.io/clawvisor/data-model/clawvisor-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clawvisor-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/asyncapi/clawvisor-callbacks-webhooks.yml
+  href: https://artifacts.apis.io/clawvisor/asyncapi/clawvisor-callbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/clawvisor-callbacks-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/packages/clawvisor-packages.yml
+  href: https://artifacts.apis.io/clawvisor/packages/clawvisor-packages.yml
   title: ''
   type: Packages
   url: packages/clawvisor-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/cli/clawvisor-cli.yml
+  href: https://artifacts.apis.io/clawvisor/cli/clawvisor-cli.yml
   title: ''
   type: CLI
   url: cli/clawvisor-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/security/clawvisor-domain-security.yml
+  href: https://artifacts.apis.io/clawvisor/security/clawvisor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clawvisor-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/agentic-access/clawvisor-agentic-access.yml
+  href: https://artifacts.apis.io/clawvisor/agentic-access/clawvisor-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/clawvisor-agentic-access.yml
 created: '2026-07-17'
 description: 'Clawvisor is the authorization layer for AI agents — a Y Combinator (Spring 2026) security gateway that sits between an AI agent and the tools it acts on (Gmail, Calendar, Drive, Contacts, GitHub, Slack, Notion, Linear, Stripe, Twilio, iMessage). Agents never hold downstream credentials: they declare a task describing their purpose and the service/action pairs they need, the user approves that scope once, and Clawvisor enforces restrictions, task scope, and LLM intent verification on every request before injecting vaulted, short-lived credentials, executing through an adapter, and writing a full audit trail. It ships open-core as a self-hostable Go daemon with a CLI, web dashboard, TUI, and an OAuth 2.1 MCP server, plus an official Claude Code plugin. Agents integrate over a plain HTTP gateway or MCP — no SDK or agent-code changes required.'
+finops:
+- has_sources: true
+  method: derived
+  name: Clawvisor Finops
+  primary_unit: calls
+  service_category: ''
+  slug: clawvisor-finops
+  template: false
 image: https://raw.githubusercontent.com/clawvisor/clawvisor/main/web/public/favicon.svg
 layout: provider
 mcp_servers:
@@ -250,27 +262,34 @@ overview: 'Clawvisor publishes 5 API contracts indexed on the [APIs.io](https://
   The Clawvisor catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Clawvisor''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 22 more developer resources.'
-random_paper: 18
+  Clawvisor''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 23 more developer resources.'
+plans:
+- name: Clawvisor Plans Pricing
+  plan_count: 9
+  slug: clawvisor-plans-pricing
+- name: Clawvisor Price Estimates
+  plan_count: 0
+  slug: clawvisor-price-estimates
+random_paper: 2
 score:
-  band: developing
-  composite: 46.2
+  band: strong
+  composite: 56.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 7.9
   facets:
-    access_clarity: 31.6
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 55.2
     developer_ergonomics: 71.4
-    discoverability: 75.0
-    operational_transparency: 10.5
-  previous_composite: 45.6
+    discoverability: 65.0
+    operational_transparency: 13.2
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -287,13 +306,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/screenshots/clawvisor-2026-07-25T205527.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/clawvisor/clawvisor-2026-07-25T205527.png
 security:
 - kind: authentication
   name: Clawvisor Authentication
@@ -303,6 +323,10 @@ security:
   name: Clawvisor Domain Security
   slug: clawvisor-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: clawvisor-triage-inbox
+  slug: clawvisor-triage-inbox
 slug: clawvisor
 tags:
 - AI Agents

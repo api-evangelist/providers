@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.2
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 35.2
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://portal-admin.ethernovia.com/api
   baseurl_source: declared
@@ -112,11 +114,8 @@ apis:
   description: Users, roles, and permissions endpoints
   name: Ethernovia Users-Permissions - Users & Roles API
   slug: ethernovia-users-permissions-users-roles-api
-artifact_total: 33
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: DOCUMENTATION Audit User Trail API
   slug: open-ethernovia-audit-user-trail-api
@@ -164,7 +163,7 @@ collections:
   slug: open-ethernovia-users-permissions-users-roles-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ethernovia/refs/heads/main/overlays/ethernovia-customer-portal-overlay.yaml
+  href: https://artifacts.apis.io/ethernovia/overlays/ethernovia-customer-portal-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ethernovia-customer-portal-overlay.yaml
@@ -233,52 +232,52 @@ common:
   type: Compliance
   url: https://www.ethernovia.com/certificates-standards/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ethernovia/refs/heads/main/authentication/ethernovia-authentication.yml
+  href: https://artifacts.apis.io/ethernovia/authentication/ethernovia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ethernovia-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ethernovia/refs/heads/main/conventions/ethernovia-conventions.yml
+  href: https://artifacts.apis.io/ethernovia/conventions/ethernovia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ethernovia-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ethernovia/refs/heads/main/errors/ethernovia-problem-types.yml
+  href: https://artifacts.apis.io/ethernovia/errors/ethernovia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ethernovia-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ethernovia/refs/heads/main/data-model/ethernovia-data-model.yml
+  href: https://artifacts.apis.io/ethernovia/data-model/ethernovia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ethernovia-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ethernovia/refs/heads/main/conformance/ethernovia-conformance.yml
+  href: https://artifacts.apis.io/ethernovia/conformance/ethernovia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ethernovia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ethernovia/refs/heads/main/lifecycle/ethernovia-lifecycle.yml
+  href: https://artifacts.apis.io/ethernovia/lifecycle/ethernovia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ethernovia-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ethernovia/refs/heads/main/well-known/ethernovia-well-known.yml
+  href: https://artifacts.apis.io/ethernovia/well-known/ethernovia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ethernovia-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ethernovia/refs/heads/main/security/ethernovia-domain-security.yml
+  href: https://artifacts.apis.io/ethernovia/security/ethernovia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ethernovia-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ethernovia/refs/heads/main/llms/ethernovia-llms.txt
+  href: https://artifacts.apis.io/ethernovia/llms/ethernovia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ethernovia-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ethernovia/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ethernovia/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -297,7 +296,7 @@ overview: 'Ethernovia publishes 15 API contracts indexed on the [APIs.io](https:
 random_paper: 21
 score:
   band: thin
-  composite: 36.3
+  composite: 36.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -309,11 +308,11 @@ score:
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 43.6
-    developer_ergonomics: 35.1
-    discoverability: 67.0
+    contract_quality: 40.2
+    developer_ergonomics: 37.5
+    discoverability: 67.9
     operational_transparency: 0.0
-  previous_composite: 36.3
+  previous_composite: 36.8
   provenance:
     conformance: first-party
     contracts:
@@ -328,13 +327,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ethernovia/refs/heads/main/screenshots/ethernovia-2026-08-07T165022.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ethernovia/ethernovia-2026-08-07T165022.png
 security:
 - kind: authentication
   name: Ethernovia Authentication
@@ -344,6 +344,12 @@ security:
   name: Ethernovia Domain Security
   slug: ethernovia-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Browse Ethernovia product documentation
+  slug: ethernovia-browse-product-documentation
+- name: Retrieve an Ethernovia software package and record the download
+  slug: ethernovia-retrieve-software-package
 slug: ethernovia
 tags:
 - Company

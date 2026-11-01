@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.4
-  scored_at: '2026-10-17'
+  score: 33.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The hosted Crawl4AI API. One key, plain JSON, one fast endpoint per job: POST /scrape turns a URL into clean Markdown or HTML, GET /search runs a browser-free multi-engine web search, GET /answer retu'
@@ -59,7 +61,7 @@ apis:
     question: Is my crawl job finished yet, and where do I get the scraped results?
   phrasing_ops: 2
   slug: crawl4ai-crawl-api
-artifact_total: 12
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Crawl4Ai Webhooks
@@ -134,140 +136,140 @@ common:
   type: StatusPage
   url: https://unclecode.github.io/crawl4ai-status/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/plans/crawl4ai-plans-pricing.yml
+  href: https://artifacts.apis.io/crawl4ai/plans/crawl4ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/crawl4ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/rate-limits/crawl4ai-rate-limits.yml
+  href: https://artifacts.apis.io/crawl4ai/rate-limits/crawl4ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/crawl4ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/finops/crawl4ai-finops.yml
+  href: https://artifacts.apis.io/crawl4ai/finops/crawl4ai-finops.yml
   title: ''
   type: FinOps
   url: finops/crawl4ai-finops.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/openapi/_original/crawl4ai-platform-gateway-openapi.json
+  href: https://artifacts.apis.io/crawl4ai/openapi/_original/crawl4ai-platform-gateway-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/crawl4ai-platform-gateway-openapi.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/overlays/crawl4ai-platform-gateway-overlay.yaml
+  href: https://artifacts.apis.io/crawl4ai/overlays/crawl4ai-platform-gateway-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crawl4ai-platform-gateway-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/llms/crawl4ai-llms.txt
+  href: https://artifacts.apis.io/crawl4ai/llms/crawl4ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crawl4ai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/mcp/crawl4ai-mcp.yml
+  href: https://artifacts.apis.io/crawl4ai/mcp/crawl4ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/crawl4ai-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/mcp/crawl4ai-tool-crosswalk.yml
+  href: https://artifacts.apis.io/crawl4ai/mcp/crawl4ai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/crawl4ai-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/crawl4ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/packages/crawl4ai-packages.yml
+  href: https://artifacts.apis.io/crawl4ai/packages/crawl4ai-packages.yml
   title: ''
   type: Packages
   url: packages/crawl4ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/packages/crawl4ai-packages.yml
+  href: https://artifacts.apis.io/crawl4ai/packages/crawl4ai-packages.yml
   title: ''
   type: SDKs
   url: packages/crawl4ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/cli/crawl4ai-cli.yml
+  href: https://artifacts.apis.io/crawl4ai/cli/crawl4ai-cli.yml
   title: ''
   type: CLI
   url: cli/crawl4ai-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/authentication/crawl4ai-authentication.yml
+  href: https://artifacts.apis.io/crawl4ai/authentication/crawl4ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crawl4ai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/errors/crawl4ai-problem-types.yml
+  href: https://artifacts.apis.io/crawl4ai/errors/crawl4ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/crawl4ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/conventions/crawl4ai-conventions.yml
+  href: https://artifacts.apis.io/crawl4ai/conventions/crawl4ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/crawl4ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/conformance/crawl4ai-conformance.yml
+  href: https://artifacts.apis.io/crawl4ai/conformance/crawl4ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/crawl4ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/lifecycle/crawl4ai-lifecycle.yml
+  href: https://artifacts.apis.io/crawl4ai/lifecycle/crawl4ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/crawl4ai-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/lifecycle/crawl4ai-lifecycle.yml
+  href: https://artifacts.apis.io/crawl4ai/lifecycle/crawl4ai-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/crawl4ai-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/changelog/crawl4ai-changelog.yml
+  href: https://artifacts.apis.io/crawl4ai/changelog/crawl4ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/crawl4ai-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/asyncapi/crawl4ai-webhooks.yml
+  href: https://artifacts.apis.io/crawl4ai/asyncapi/crawl4ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/crawl4ai-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/sandbox/crawl4ai-sandbox.yml
+  href: https://artifacts.apis.io/crawl4ai/sandbox/crawl4ai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/crawl4ai-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/data-model/crawl4ai-data-model.yml
+  href: https://artifacts.apis.io/crawl4ai/data-model/crawl4ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/crawl4ai-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/security/crawl4ai-domain-security.yml
+  href: https://artifacts.apis.io/crawl4ai/security/crawl4ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crawl4ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/security/crawl4ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/crawl4ai/security/crawl4ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/crawl4ai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/security/crawl4ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/crawl4ai/security/crawl4ai-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/crawl4ai-vulnerability-disclosure.yml
 created: '2026-03-27'
 description: Crawl4AI is an open-source, Apache-2.0 web crawler and scraper built to turn any URL into clean, LLM-ready data — Markdown, typed JSON, screenshots, PDFs, or a map of every URL on a domain. Operated by CONTEXT4AI PTE LTD of Singapore and created by Hossein Tohidi (@unclecode), the project pairs a 79,000-star Python library and self-hostable Docker API server with a hosted Cloud API at gate.crawl4ai.com that serves scrape, search, answer, extract and bulk-job endpoints from three regions, plus a live remote MCP server that exposes the same capabilities to agents as five native tools. Self-hosting is free and unmetered; the hosted tier is free at 5,000 searches and 1,000 scrapes a month.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Crawl4Ai Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: credits
+  service_category: ''
   slug: crawl4ai-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crawl4ai.png
 layout: provider
 mcp_servers:
@@ -287,32 +289,35 @@ overview: 'Crawl4AI publishes 4 API contracts indexed on the [APIs.io](https://a
   Crawl4AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 35 more developer resources.'
 plans:
 - name: Crawl4Ai Plans Pricing
-  plan_count: 4
+  plan_count: 5
   slug: crawl4ai-plans-pricing
-random_paper: 21
+- name: Crawl4Ai Price Estimates
+  plan_count: 0
+  slug: crawl4ai-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 8
   name: Crawl4Ai Rate Limits
   slug: crawl4ai-rate-limits
 score:
   band: exemplar
-  composite: 67.1
+  composite: 69.8
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 61.0
+    artifact_dirs: 25
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 71.1
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 47.3
     developer_ergonomics: 85.7
-    discoverability: 75.0
-    operational_transparency: 97.4
-  previous_composite: 68.6
+    discoverability: 65.0
+    operational_transparency: 100.0
+  previous_composite: 68.2
   provenance:
     conformance: first-party
     contracts:
@@ -328,13 +333,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/screenshots/crawl4ai-2026-06-20T175215.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/crawl4ai/crawl4ai-2026-06-20T175215.png
 security:
 - kind: authentication
   name: Crawl4Ai Authentication
@@ -348,6 +354,12 @@ security:
   name: Crawl4Ai Vulnerability Disclosure
   slug: crawl4ai-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 2
+skills:
+- name: crawl4ai-bulk-crawl-job
+  slug: crawl4ai-bulk-crawl-job
+- name: crawl4ai
+  slug: crawl4ai-crawl4ai-provider-skill
 slug: crawl4ai
 tags:
 - AI Automation

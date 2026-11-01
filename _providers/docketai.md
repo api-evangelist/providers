@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,22 +24,24 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Docket's hosted, read-only remote Model Context Protocol server. It exposes Demand Capture Agents and their performance, captured visitors and leads, engaged accounts, conversation summaries with qual
   name: Docket Demand MCP
   slug: docket-demand-mcp
-artifact_total: 8
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -90,67 +92,67 @@ common:
   type: PrivacyPolicy
   url: https://www.docket.io/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/llms/docketai-llms.txt
+  href: https://artifacts.apis.io/docketai/llms/docketai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/docketai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/llms/docketai-help-center-llms.txt
+  href: https://artifacts.apis.io/docketai/llms/docketai-help-center-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/docketai-help-center-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/mcp/docketai-mcp.yml
+  href: https://artifacts.apis.io/docketai/mcp/docketai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/docketai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/well-known/docketai-well-known.yml
+  href: https://artifacts.apis.io/docketai/well-known/docketai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/docketai-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/authentication/docketai-authentication.yml
+  href: https://artifacts.apis.io/docketai/authentication/docketai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/docketai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/scopes/docketai-scopes.yml
+  href: https://artifacts.apis.io/docketai/scopes/docketai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/docketai-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/conventions/docketai-conventions.yml
+  href: https://artifacts.apis.io/docketai/conventions/docketai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/docketai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/components/docketai-components.yml
+  href: https://artifacts.apis.io/docketai/components/docketai-components.yml
   title: ''
   type: Components
   url: components/docketai-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/errors/docketai-problem-types.yml
+  href: https://artifacts.apis.io/docketai/errors/docketai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/docketai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/lifecycle/docketai-lifecycle.yml
+  href: https://artifacts.apis.io/docketai/lifecycle/docketai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/docketai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/conformance/docketai-conformance.yml
+  href: https://artifacts.apis.io/docketai/conformance/docketai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/docketai-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/plans/docketai-plans-pricing.yml
+  href: https://artifacts.apis.io/docketai/plans/docketai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/docketai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/rate-limits/docketai-rate-limits.yml
+  href: https://artifacts.apis.io/docketai/rate-limits/docketai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/docketai-rate-limits.yml
@@ -163,18 +165,26 @@ common:
   type: Compliance
   url: https://www.docket.io/platform/security-and-trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/security/docketai-domain-security.yml
+  href: https://artifacts.apis.io/docketai/security/docketai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/docketai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/security/docketai-trust-center.yml
+  href: https://artifacts.apis.io/docketai/security/docketai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/docketai-trust-center.yml
 created: '2026-07-17'
 description: 'Docket (docket.io, formerly Docket AI on docketai.com) is an Agentic Marketing platform for B2B revenue teams. Its AI Marketing Agent engages inbound website visitors in real voice or text conversations, answers from approved product knowledge, qualifies intent in real time and produces an Agent Qualified Lead (AQL) with full conversation context. The governed Sales Knowledge Lake ingests 100+ data sources — CRM records, Gong calls, Slack, Google Drive, Notion, SharePoint, Intercom and product documentation — and the agent supports 40+ languages. Docket deploys as a per-agent JavaScript snippet with no engineering work, and syncs to the go-to-market stack through native Salesforce, HubSpot, Marketo, Microsoft Dynamics 365, Demandbase, Zoom and Google Calendar connectors. Docket publishes NO public REST API and no OpenAPI, but it does ship two real developer surfaces: the Docket Demand MCP server, a hosted read-only remote MCP endpoint at demand-mcp.app.docketai.com/mcp secured
   by OAuth 2.0 with dynamic client registration; and the window.AISeller browser JavaScript API for passing visitor context into an agent. The company raised a $15M Series A and is backed by Mayfield.'
+finops:
+- has_sources: true
+  method: derived
+  name: Docketai Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: docketai-finops
+  template: false
 image: https://www.docket.io/favicon.ico
 layout: provider
 mcp_servers:
@@ -193,7 +203,10 @@ plans:
 - name: Docketai Plans Pricing
   plan_count: 3
   slug: docketai-plans-pricing
-random_paper: 0
+- name: Docketai Price Estimates
+  plan_count: 0
+  slug: docketai-price-estimates
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Docketai Rate Limits
@@ -205,23 +218,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode
 score:
   band: developing
-  composite: 40.9
+  composite: 44.1
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 49.0
+    artifact_dirs: 19
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 1.5
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 75.0
-    operational_transparency: 10.5
-  previous_composite: 41.2
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 42.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -231,14 +244,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/docketai/refs/heads/main/screenshots/docketai-2026-07-25T212205.png
+screenshot: https://apis.io/screenshots/docketai/docketai-2026-07-25T212205.png
 security:
 - kind: authentication
   name: Docketai Authentication

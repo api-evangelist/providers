@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.7
-  scored_at: '2026-10-17'
+  score: 30.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -114,15 +116,12 @@ apis:
   description: The shipment-jobs API from Loop — 2 operation(s) for shipment-jobs.
   name: Loop Shipment Jobs API
   slug: loop-shipment-jobs-api
-artifact_total: 32
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Loop Webhooks
   slug: loop-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Loop Onboarding artifacts API
   slug: open-loop-artifacts-api
@@ -164,22 +163,22 @@ collections:
   slug: open-loop-shipment-jobs-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/capabilities/loop-capability-edges.yml
+  href: https://artifacts.apis.io/loop/capabilities/loop-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/loop-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/security/loop-domain-security.yml
+  href: https://artifacts.apis.io/loop/security/loop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/loop-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/agentic-access/loop-agentic-access.yml
+  href: https://artifacts.apis.io/loop/agentic-access/loop-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/loop-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/authentication/loop-authentication.yml
+  href: https://artifacts.apis.io/loop/authentication/loop-authentication.yml
   title: ''
   type: Authentication
   url: authentication/loop-authentication.yml
@@ -232,57 +231,57 @@ common:
   type: TrustCenter
   url: https://trust.loop.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/mcp/loop-mcp.yml
+  href: https://artifacts.apis.io/loop/mcp/loop-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/loop-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/llms/loop-llms.txt
+  href: https://artifacts.apis.io/loop/llms/loop-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/loop-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/overlays/loop-openapi-overlay.yaml
+  href: https://artifacts.apis.io/loop/overlays/loop-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/loop-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/conformance/loop-conformance.yml
+  href: https://artifacts.apis.io/loop/conformance/loop-conformance.yml
   title: ''
   type: Conformance
   url: conformance/loop-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/errors/loop-problem-types.yml
+  href: https://artifacts.apis.io/loop/errors/loop-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/loop-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/lifecycle/loop-lifecycle.yml
+  href: https://artifacts.apis.io/loop/lifecycle/loop-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/loop-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/conventions/loop-conventions.yml
+  href: https://artifacts.apis.io/loop/conventions/loop-conventions.yml
   title: ''
   type: Conventions
   url: conventions/loop-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/conventions/loop-conventions.yml
+  href: https://artifacts.apis.io/loop/conventions/loop-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/loop-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/data-model/loop-data-model.yml
+  href: https://artifacts.apis.io/loop/data-model/loop-data-model.yml
   title: ''
   type: DataModel
   url: data-model/loop-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/asyncapi/loop-webhooks.yml
+  href: https://artifacts.apis.io/loop/asyncapi/loop-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/loop-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/loop/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -302,12 +301,12 @@ overview: 'Loop publishes 14 API contracts indexed on the [APIs.io](https://apis
 
 
   Loop''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 2
+random_paper: 10
 score:
   band: developing
-  composite: 44.7
+  composite: 44.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -315,13 +314,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 54.7
     developer_ergonomics: 54.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 23.7
-  previous_composite: 44.7
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,13 +337,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/screenshots/loop-2026-07-25T225523.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/loop/loop-2026-07-25T225523.png
 security:
 - kind: authentication
   name: Loop Authentication
@@ -354,6 +354,14 @@ security:
   name: Loop Domain Security
   slug: loop-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Ingest and audit a payable invoice with Loop
+  slug: loop-ingest-and-audit-payable-invoice
+- name: Onboard an organization and set up a factoring relationship
+  slug: loop-onboard-org-and-factoring
+- name: Resolve Loop business exceptions on an entity
+  slug: loop-resolve-business-exceptions
 slug: loop
 tags:
 - Company

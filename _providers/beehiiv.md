@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 61.2
-  scored_at: '2026-10-17'
+  score: 54.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 77
   slug: beehiiv-agentic-access
   summary_line: 77 operations · 32 acting
-api_count: 7
+api_count: 3
 apis:
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
@@ -555,7 +557,7 @@ apis:
     question: Which of my newsletters is a given email subscribed to?
   phrasing_ops: 3
   slug: beehiiv-workspaces-api
-artifact_total: 96
+artifact_total: 97
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the beehiiv outbound webhook surface. beehiiv posts JSON event payloads to a customer-configured endpoint URL when selected events occur on a publication. The set of event '
   name: beehiiv Webhooks
@@ -634,9 +636,6 @@ collections:
   name: API Reference subpackage_advertisement_opportunities subpackage_workspaces API
   slug: postman-beehiiv-subpackage-workspaces-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: API Reference subpackage_advertisement_opportunities API
   slug: open-beehiiv-subpackage-advertisement-opportunities-api
 - collection_type: open
@@ -713,7 +712,7 @@ collections:
   slug: open-beehiiv
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/capabilities/beehiiv-capability-edges.yml
+  href: https://artifacts.apis.io/beehiiv/capabilities/beehiiv-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/beehiiv-capability-edges.yml
@@ -722,22 +721,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/beehiiv/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/agentic-access/beehiiv-agentic-access.yml
+  href: https://artifacts.apis.io/beehiiv/agentic-access/beehiiv-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/beehiiv-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/security/beehiiv-trust-center.yml
+  href: https://artifacts.apis.io/beehiiv/security/beehiiv-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/beehiiv-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/security/beehiiv-domain-security.yml
+  href: https://artifacts.apis.io/beehiiv/security/beehiiv-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beehiiv-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/authentication/beehiiv-authentication.yml
+  href: https://artifacts.apis.io/beehiiv/authentication/beehiiv-authentication.yml
   title: ''
   type: Authentication
   url: authentication/beehiiv-authentication.yml
@@ -774,22 +773,22 @@ common:
   type: RateLimiting
   url: https://developers.beehiiv.com/welcome/rate-limiting
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/plans/beehiiv-plans-pricing.yml
+  href: https://artifacts.apis.io/beehiiv/plans/beehiiv-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/beehiiv-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/rate-limits/beehiiv-rate-limits.yml
+  href: https://artifacts.apis.io/beehiiv/rate-limits/beehiiv-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/beehiiv-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/finops/beehiiv-finops.yml
+  href: https://artifacts.apis.io/beehiiv/finops/beehiiv-finops.yml
   title: ''
   type: FinOps
   url: finops/beehiiv-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/json-ld/beehiiv-context.jsonld
+  href: https://artifacts.apis.io/beehiiv/json-ld/beehiiv-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/beehiiv-context.jsonld
@@ -802,7 +801,7 @@ common:
   type: LlmsText
   url: https://developers.beehiiv.com/llms-full.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/mcp/beehiiv-mcp.yml
+  href: https://artifacts.apis.io/beehiiv/mcp/beehiiv-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/beehiiv-mcp.yml
@@ -827,52 +826,52 @@ common:
   type: Blog
   url: https://www.beehiiv.com/blog
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/packages/beehiiv-packages.yml
+  href: https://artifacts.apis.io/beehiiv/packages/beehiiv-packages.yml
   title: ''
   type: Packages
   url: packages/beehiiv-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/well-known/beehiiv-well-known.yml
+  href: https://artifacts.apis.io/beehiiv/well-known/beehiiv-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/beehiiv-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/well-known/beehiiv-api-catalog.json
+  href: https://artifacts.apis.io/beehiiv/well-known/beehiiv-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/beehiiv-api-catalog.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/mcp/beehiiv-tool-crosswalk.yml
+  href: https://artifacts.apis.io/beehiiv/mcp/beehiiv-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/beehiiv-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/llms/beehiiv-llms.txt
+  href: https://artifacts.apis.io/beehiiv/llms/beehiiv-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beehiiv-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/overlays/beehiiv-api-reference-overlay.yaml
+  href: https://artifacts.apis.io/beehiiv/overlays/beehiiv-api-reference-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/beehiiv-api-reference-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/conformance/beehiiv-conformance.yml
+  href: https://artifacts.apis.io/beehiiv/conformance/beehiiv-conformance.yml
   title: ''
   type: Conformance
   url: conformance/beehiiv-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/conformance/beehiiv-conformance.yml
+  href: https://artifacts.apis.io/beehiiv/conformance/beehiiv-conformance.yml
   title: ''
   type: Compliance
   url: conformance/beehiiv-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/errors/beehiiv-problem-types.yml
+  href: https://artifacts.apis.io/beehiiv/errors/beehiiv-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/beehiiv-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/lifecycle/beehiiv-lifecycle.yml
+  href: https://artifacts.apis.io/beehiiv/lifecycle/beehiiv-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/beehiiv-lifecycle.yml
@@ -881,42 +880,42 @@ common:
   type: StatusPage
   url: https://status.beehiiv.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/lifecycle/beehiiv-lifecycle.yml
+  href: https://artifacts.apis.io/beehiiv/lifecycle/beehiiv-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/beehiiv-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/scopes/beehiiv-scopes.yml
+  href: https://artifacts.apis.io/beehiiv/scopes/beehiiv-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/beehiiv-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/conventions/beehiiv-conventions.yml
+  href: https://artifacts.apis.io/beehiiv/conventions/beehiiv-conventions.yml
   title: ''
   type: Conventions
   url: conventions/beehiiv-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/changelog/beehiiv-changelog.yml
+  href: https://artifacts.apis.io/beehiiv/changelog/beehiiv-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/beehiiv-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/data-model/beehiiv-data-model.yml
+  href: https://artifacts.apis.io/beehiiv/data-model/beehiiv-data-model.yml
   title: ''
   type: DataModel
   url: data-model/beehiiv-data-model.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/asyncapi/beehiiv-asyncapi.yml
+  href: https://artifacts.apis.io/beehiiv/asyncapi/beehiiv-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/beehiiv-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/_original/beehiiv-webhook-events-openapi.yml
+  href: https://artifacts.apis.io/beehiiv/openapi/_original/beehiiv-webhook-events-openapi.yml
   title: ''
   type: Webhooks
   url: openapi/_original/beehiiv-webhook-events-openapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/beehiiv/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -948,10 +947,10 @@ created: '2026-05-08'
 description: beehiiv is a newsletter publishing platform offering email publishing, subscriber management, paid subscriptions, an ad network, referrals, polls, automations, segments, webhooks, and analytics for creators and media companies. Founded in 2021 by former Morning Brew operators and headquartered in New York City.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Beehiiv Finops
-  primary_unit: ''
-  service_category: Newsletter Publishing
+  primary_unit: publication
+  service_category: ''
   slug: beehiiv-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beehiiv.png
@@ -990,7 +989,10 @@ plans:
 - name: Beehiiv Plans Pricing
   plan_count: 4
   slug: beehiiv-plans-pricing
-random_paper: 6
+- name: Beehiiv Price Estimates
+  plan_count: 0
+  slug: beehiiv-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Beehiiv Rate Limits
@@ -1026,22 +1028,22 @@ scopes:
   summary_line: 30 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 72.1
+  composite: 75.6
   coverage:
     artifact_dirs: 31
-    catalog_earned: 78.5
+    catalog_earned: 81.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 36.5
+    catalog_gap: 33.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 31.8
     contract_quality: 65.4
-    developer_ergonomics: 72.0
-    discoverability: 80.0
-    operational_transparency: 63.2
+    developer_ergonomics: 72.6
+    discoverability: 76.7
+    operational_transparency: 73.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -1049,7 +1051,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 73.6
+  previous_composite: 74.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1066,13 +1068,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/screenshots/beehiiv-2026-06-20T173135.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/beehiiv/beehiiv-2026-06-20T173135.png
 security:
 - kind: authentication
   name: Beehiiv Authentication
@@ -1086,6 +1089,10 @@ security:
   name: Beehiiv Trust Center
   slug: beehiiv-trust-center
   summary_line: SOC 2 Type I
+skill_count: 1
+skills:
+- name: beehiiv-newsletter-advisor
+  slug: beehiiv-newsletter-advisor
 slug: beehiiv
 tags:
 - Newsletters

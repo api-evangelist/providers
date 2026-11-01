@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.2
-  scored_at: '2026-10-17'
+  score: 31.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://ondemand-api-glovoapp.deliveryhero.io/
@@ -71,15 +73,12 @@ apis:
   description: The RiderPosition API from Delivery Hero — 1 operation(s) for riderposition.
   name: Delivery Hero RiderPosition API
   slug: delivery-hero-riderposition-api
-artifact_total: 19
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Delivery Hero On Demand Rider Webhooks
   slug: delivery-hero-on-demand-rider-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: On Demand Rider Authentication API
   slug: open-delivery-hero-authentication-api
@@ -107,12 +106,12 @@ common:
   type: BlogRSS
   url: https://www.deliveryhero.com/newsroom/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/capabilities/delivery-hero-capability-edges.yml
+  href: https://artifacts.apis.io/delivery-hero/capabilities/delivery-hero-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/delivery-hero-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/overlays/delivery-hero-on-demand-rider-overlay.yaml
+  href: https://artifacts.apis.io/delivery-hero/overlays/delivery-hero-on-demand-rider-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/delivery-hero-on-demand-rider-overlay.yaml
@@ -149,72 +148,72 @@ common:
   type: Support
   url: https://developers.deliveryhero.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/authentication/delivery-hero-authentication.yml
+  href: https://artifacts.apis.io/delivery-hero/authentication/delivery-hero-authentication.yml
   title: ''
   type: Authentication
   url: authentication/delivery-hero-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/scopes/delivery-hero-scopes.yml
+  href: https://artifacts.apis.io/delivery-hero/scopes/delivery-hero-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/delivery-hero-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/conventions/delivery-hero-conventions.yml
+  href: https://artifacts.apis.io/delivery-hero/conventions/delivery-hero-conventions.yml
   title: ''
   type: Conventions
   url: conventions/delivery-hero-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/errors/delivery-hero-problem-types.yml
+  href: https://artifacts.apis.io/delivery-hero/errors/delivery-hero-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/delivery-hero-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/lifecycle/delivery-hero-lifecycle.yml
+  href: https://artifacts.apis.io/delivery-hero/lifecycle/delivery-hero-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/delivery-hero-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/conformance/delivery-hero-conformance.yml
+  href: https://artifacts.apis.io/delivery-hero/conformance/delivery-hero-conformance.yml
   title: ''
   type: Conformance
   url: conformance/delivery-hero-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/data-model/delivery-hero-data-model.yml
+  href: https://artifacts.apis.io/delivery-hero/data-model/delivery-hero-data-model.yml
   title: ''
   type: DataModel
   url: data-model/delivery-hero-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/sandbox/delivery-hero-sandbox.yml
+  href: https://artifacts.apis.io/delivery-hero/sandbox/delivery-hero-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/delivery-hero-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/mcp/delivery-hero-mcp.yml
+  href: https://artifacts.apis.io/delivery-hero/mcp/delivery-hero-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/delivery-hero-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/asyncapi/delivery-hero-on-demand-rider-webhooks.yml
+  href: https://artifacts.apis.io/delivery-hero/asyncapi/delivery-hero-on-demand-rider-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/delivery-hero-on-demand-rider-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/security/delivery-hero-domain-security.yml
+  href: https://artifacts.apis.io/delivery-hero/security/delivery-hero-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/delivery-hero-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/llms/delivery-hero-llms.txt
+  href: https://artifacts.apis.io/delivery-hero/llms/delivery-hero-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/delivery-hero-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/skills/delivery-hero-create-and-track-order.md
+  href: https://artifacts.apis.io/delivery-hero/skills/delivery-hero-create-and-track-order.md
   title: ''
   type: AgentSkill
   url: skills/delivery-hero-create-and-track-order.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/skills/delivery-hero-cancel-and-proof.md
+  href: https://artifacts.apis.io/delivery-hero/skills/delivery-hero-cancel-and-proof.md
   title: ''
   type: AgentSkill
   url: skills/delivery-hero-cancel-and-proof.md
@@ -233,7 +232,7 @@ overview: 'Delivery Hero publishes 7 API contracts indexed on the [APIs.io](http
 
 
   Delivery Hero''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 18 more developer resources.'
-random_paper: 1
+random_paper: 23
 scopes:
 - name: Delivery Hero Scopes
   scope_count: 1
@@ -241,7 +240,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: thin
-  composite: 37.7
+  composite: 38.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -249,14 +248,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 59.7
-    developer_ergonomics: 37.5
-    discoverability: 73.2
-    operational_transparency: 10.5
+    contract_quality: 58.3
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -265,7 +264,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 37.6
+  previous_composite: 38.4
   provenance:
     conformance: derived
     contracts:
@@ -281,13 +280,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/screenshots/delivery-hero-2026-07-25T211652.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/delivery-hero/delivery-hero-2026-07-25T211652.png
 security:
 - kind: authentication
   name: Delivery Hero Authentication
@@ -297,6 +297,12 @@ security:
   name: Delivery Hero Domain Security
   slug: delivery-hero-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Cancel an order and retrieve delivery proofs
+  slug: delivery-hero-cancel-and-proof
+- name: Create and track an On Demand Rider delivery
+  slug: delivery-hero-create-and-track-order
 slug: delivery-hero
 tags:
 - Company

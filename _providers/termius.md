@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: derived
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 19.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: http://localhost:8080
   baseurl_source: declared
@@ -47,11 +49,8 @@ apis:
   description: Create or Delete a host inside the vault or the group
   name: Termius Host API
   slug: termius-host-api
-artifact_total: 9
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Termius API Bridge group API
   slug: open-termius-group-api
@@ -59,8 +58,13 @@ collections:
   name: Termius API Bridge group host API
   slug: open-termius-host-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/termius/plans/termius-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/termius-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/overlays/termius-api-bridge-overlay.yaml
+  href: https://artifacts.apis.io/termius/overlays/termius-api-bridge-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/termius-api-bridge-overlay.yaml
@@ -113,7 +117,7 @@ common:
   type: StatusPage
   url: https://status.termius.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/changelog/termius-changelog.yml
+  href: https://artifacts.apis.io/termius/changelog/termius-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/termius-changelog.yml
@@ -130,87 +134,95 @@ common:
   type: Compliance
   url: https://security.termius.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/llms/termius-llms.txt
+  href: https://artifacts.apis.io/termius/llms/termius-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/termius-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/well-known/termius-well-known.yml
+  href: https://artifacts.apis.io/termius/well-known/termius-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/termius-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/well-known/termius-security.txt
+  href: https://artifacts.apis.io/termius/well-known/termius-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/termius-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/mcp/termius-mcp.yml
+  href: https://artifacts.apis.io/termius/mcp/termius-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/termius-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/conformance/termius-conformance.yml
+  href: https://artifacts.apis.io/termius/conformance/termius-conformance.yml
   title: ''
   type: Conformance
   url: conformance/termius-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/errors/termius-problem-types.yml
+  href: https://artifacts.apis.io/termius/errors/termius-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/termius-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/lifecycle/termius-lifecycle.yml
+  href: https://artifacts.apis.io/termius/lifecycle/termius-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/termius-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/authentication/termius-authentication.yml
+  href: https://artifacts.apis.io/termius/authentication/termius-authentication.yml
   title: ''
   type: Authentication
   url: authentication/termius-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/security/termius-domain-security.yml
+  href: https://artifacts.apis.io/termius/security/termius-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/termius-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/security/termius-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/termius/security/termius-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/termius-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/conventions/termius-conventions.yml
+  href: https://artifacts.apis.io/termius/conventions/termius-conventions.yml
   title: ''
   type: Conventions
   url: conventions/termius-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/conventions/termius-conventions.yml
+  href: https://artifacts.apis.io/termius/conventions/termius-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/termius-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/data-model/termius-data-model.yml
+  href: https://artifacts.apis.io/termius/data-model/termius-data-model.yml
   title: ''
   type: DataModel
   url: data-model/termius-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/cli/termius-cli.yml
+  href: https://artifacts.apis.io/termius/cli/termius-cli.yml
   title: ''
   type: CLI
   url: cli/termius-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/packages/termius-packages.yml
+  href: https://artifacts.apis.io/termius/packages/termius-packages.yml
   title: ''
   type: Packages
   url: packages/termius-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/termius/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Termius is a modern, cross-platform SSH client for DevOps professionals, network engineers, and infrastructure teams, available on Windows, macOS, Linux, iOS, iPadOS, and Android. It provides secure remote access with encrypted team vaults, shared and synced credentials, SSH keys, snippets, SFTP, port forwarding, jump hosts, and session organization. For programmatic use Termius ships the API Bridge — a self-hosted REST API (OpenAPI 3.0) that encrypts infrastructure data locally and pushes hosts and groups into a Termius Team vault — plus an official command-line client. The company also runs a Security Center with a SOC 2 report.
+finops:
+- has_sources: true
+  method: derived
+  name: Termius Finops
+  primary_unit: seat
+  service_category: ''
+  slug: termius-finops
+  template: false
 image: https://framerusercontent.com/images/JcjJ8OLLESSIHYJ4Rdi4fZmDkQw.png
 layout: provider
 modified: '2026-07-21'
@@ -220,27 +232,34 @@ network: true
 overview: 'Termius publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Group API and Host API. Tagged areas include Company, Enterprise Saas, SSH, SSH Client, and Terminal.
 
 
-  Termius'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 7
+  Termius'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+plans:
+- name: Termius Plans Pricing
+  plan_count: 5
+  slug: termius-plans-pricing
+- name: Termius Price Estimates
+  plan_count: 0
+  slug: termius-price-estimates
+random_paper: 9
 score:
-  band: developing
-  composite: 49.4
+  band: strong
+  composite: 57.5
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 32.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    artifact_dirs: 24
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 47.4
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 42.9
     developer_ergonomics: 56.5
-    discoverability: 64.3
-    operational_transparency: 44.7
-  previous_composite: 49.3
+    discoverability: 57.1
+    operational_transparency: 47.4
+  previous_composite: 49.6
   provenance:
     conformance: derived
     contracts:
@@ -256,13 +275,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/screenshots/termius-2026-08-17T082319.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/termius/termius-2026-08-17T082319.png
 security:
 - kind: authentication
   name: Termius Authentication
@@ -280,6 +300,14 @@ security:
   name: Termius Trust Center
   slug: termius-trust-center
   summary_line: SOC 2
+skill_count: 3
+skills:
+- name: Create a group and add a host to it
+  slug: termius-create-group-and-host
+- name: Create a host in a Termius vault
+  slug: termius-create-host
+- name: Delete a host from a Termius vault
+  slug: termius-delete-host
 slug: termius
 tags:
 - Company

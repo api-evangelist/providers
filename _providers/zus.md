@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.6
-  scored_at: '2026-10-17'
+  score: 31.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -84,9 +86,6 @@ asyncapis:
   slug: zus-zushooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Zus Health Auth API
   slug: open-zus-auth-api
 - collection_type: open
@@ -106,17 +105,17 @@ collections:
   slug: open-zus
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/agentic-access/zus-agentic-access.yml
+  href: https://artifacts.apis.io/zus/agentic-access/zus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zus-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/security/zus-domain-security.yml
+  href: https://artifacts.apis.io/zus/security/zus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zus-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/authentication/zus-authentication.yml
+  href: https://artifacts.apis.io/zus/authentication/zus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zus-authentication.yml
@@ -133,17 +132,17 @@ common:
   type: Documentation
   url: https://docs.zushealth.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/plans/zus-plans-pricing.yml
+  href: https://artifacts.apis.io/zus/plans/zus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zus-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/rate-limits/zus-rate-limits.yml
+  href: https://artifacts.apis.io/zus/rate-limits/zus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zus-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/finops/zus-finops.yml
+  href: https://artifacts.apis.io/zus/finops/zus-finops.yml
   title: ''
   type: FinOps
   url: finops/zus-finops.yml
@@ -208,157 +207,157 @@ common:
   type: Compliance
   url: https://zushealth.com/platform/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/llms/zus-llms.txt
+  href: https://artifacts.apis.io/zus/llms/zus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zus-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/authentication/zus-authentication.yml
+  href: https://artifacts.apis.io/zus/authentication/zus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zus-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/conventions/zus-conventions.yml
+  href: https://artifacts.apis.io/zus/conventions/zus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/conventions/zus-conventions.yml
+  href: https://artifacts.apis.io/zus/conventions/zus-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/zus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/lifecycle/zus-lifecycle.yml
+  href: https://artifacts.apis.io/zus/lifecycle/zus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zus-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/lifecycle/zus-lifecycle.yml
+  href: https://artifacts.apis.io/zus/lifecycle/zus-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/zus-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/changelog/zus-changelog.yml
+  href: https://artifacts.apis.io/zus/changelog/zus-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zus-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/asyncapi/zus-zushooks.yml
+  href: https://artifacts.apis.io/zus/asyncapi/zus-zushooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zus-zushooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/conformance/zus-conformance.yml
+  href: https://artifacts.apis.io/zus/conformance/zus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zus-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/errors/zus-problem-types.yml
+  href: https://artifacts.apis.io/zus/errors/zus-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zus-problem-types.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/security/zus-domain-security.yml
+  href: https://artifacts.apis.io/zus/security/zus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zus-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/mcp/zus-mcp.yml
+  href: https://artifacts.apis.io/zus/mcp/zus-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zus-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/data-model/zus-data-model.yml
+  href: https://artifacts.apis.io/zus/data-model/zus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zus-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/sandbox/zus-sandbox.yml
+  href: https://artifacts.apis.io/zus/sandbox/zus-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zus-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/components/zus-components.yml
+  href: https://artifacts.apis.io/zus/components/zus-components.yml
   title: ''
   type: Components
   url: components/zus-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zus/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/llms/zus-llms.txt
+  href: https://artifacts.apis.io/zus/llms/zus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zus-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/authentication/zus-authentication.yml
+  href: https://artifacts.apis.io/zus/authentication/zus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zus-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/conventions/zus-conventions.yml
+  href: https://artifacts.apis.io/zus/conventions/zus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/conventions/zus-conventions.yml
+  href: https://artifacts.apis.io/zus/conventions/zus-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/zus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/lifecycle/zus-lifecycle.yml
+  href: https://artifacts.apis.io/zus/lifecycle/zus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zus-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/lifecycle/zus-lifecycle.yml
+  href: https://artifacts.apis.io/zus/lifecycle/zus-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/zus-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/changelog/zus-changelog.yml
+  href: https://artifacts.apis.io/zus/changelog/zus-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zus-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/asyncapi/zus-zushooks.yml
+  href: https://artifacts.apis.io/zus/asyncapi/zus-zushooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zus-zushooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/conformance/zus-conformance.yml
+  href: https://artifacts.apis.io/zus/conformance/zus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zus-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/errors/zus-problem-types.yml
+  href: https://artifacts.apis.io/zus/errors/zus-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zus-problem-types.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/security/zus-domain-security.yml
+  href: https://artifacts.apis.io/zus/security/zus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zus-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/mcp/zus-mcp.yml
+  href: https://artifacts.apis.io/zus/mcp/zus-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zus-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/data-model/zus-data-model.yml
+  href: https://artifacts.apis.io/zus/data-model/zus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zus-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/sandbox/zus-sandbox.yml
+  href: https://artifacts.apis.io/zus/sandbox/zus-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zus-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/components/zus-components.yml
+  href: https://artifacts.apis.io/zus/components/zus-components.yml
   title: ''
   type: Components
   url: components/zus-components.yml
@@ -389,14 +388,14 @@ plans:
 - name: Zus Plans Pricing
   plan_count: 2
   slug: zus-plans-pricing
-random_paper: 2
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Zus Rate Limits
   slug: zus-rate-limits
 score:
   band: developing
-  composite: 50.8
+  composite: 46.5
   coverage:
     artifact_dirs: 25
     catalog_earned: 42.0
@@ -404,15 +403,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
-    access_clarity: 40.8
+    access_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 57.3
-    developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 57.9
-  previous_composite: 57.8
+    contract_quality: 14.4
+    developer_ergonomics: 70.8
+    discoverability: 66.1
+    operational_transparency: 60.5
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -429,13 +428,14 @@ score:
     regime: Health
     regime_id: health
     score: 29.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/screenshots/zus-2026-08-17T083124.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zus/zus-2026-08-17T083124.png
 security:
 - kind: authentication
   name: Zus Authentication
@@ -445,6 +445,10 @@ security:
   name: Zus Domain Security
   slug: zus-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Authenticate a backend service to the Zus API
+  slug: zus-authenticate-m2m
 slug: zus
 tags:
 - Health

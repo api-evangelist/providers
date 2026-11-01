@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/takeda-pharmaceutical-company/refs/heads/main/security/takeda-pharmaceutical-company-domain-security.yml
+  href: https://artifacts.apis.io/takeda-pharmaceutical-company/security/takeda-pharmaceutical-company-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/takeda-pharmaceutical-company-domain-security.yml
@@ -53,27 +55,27 @@ common:
   type: Blog
   url: https://www.takeda.com/newsroom/press-releases/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/takeda-pharmaceutical-company/refs/heads/main/llms/takeda-pharmaceutical-company-llms.txt
+  href: https://artifacts.apis.io/takeda-pharmaceutical-company/llms/takeda-pharmaceutical-company-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/takeda-pharmaceutical-company-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/takeda-pharmaceutical-company/refs/heads/main/conformance/takeda-pharmaceutical-company-conformance.yml
+  href: https://artifacts.apis.io/takeda-pharmaceutical-company/conformance/takeda-pharmaceutical-company-conformance.yml
   title: ''
   type: Conformance
   url: conformance/takeda-pharmaceutical-company-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/takeda-pharmaceutical-company/refs/heads/main/packages/takeda-pharmaceutical-company-packages.yml
+  href: https://artifacts.apis.io/takeda-pharmaceutical-company/packages/takeda-pharmaceutical-company-packages.yml
   title: ''
   type: Packages
   url: packages/takeda-pharmaceutical-company-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/takeda-pharmaceutical-company/refs/heads/main/plans/takeda-pharmaceutical-company-plans-pricing.yml
+  href: https://artifacts.apis.io/takeda-pharmaceutical-company/plans/takeda-pharmaceutical-company-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/takeda-pharmaceutical-company-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/takeda-pharmaceutical-company/refs/heads/main/rate-limits/takeda-pharmaceutical-company-rate-limits.yml
+  href: https://artifacts.apis.io/takeda-pharmaceutical-company/rate-limits/takeda-pharmaceutical-company-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/takeda-pharmaceutical-company-rate-limits.yml
@@ -110,16 +112,16 @@ plans:
 - name: Takeda Pharmaceutical Company Plans Pricing
   plan_count: 0
   slug: takeda-pharmaceutical-company-plans-pricing
-random_paper: 16
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Takeda Pharmaceutical Company Rate Limits
   slug: takeda-pharmaceutical-company-rate-limits
 score:
   band: emerging
-  composite: 13.4
+  composite: 12.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -131,7 +133,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 51.8
+    discoverability: 44.6
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -140,7 +142,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 13.4
+  previous_composite: 12.7
   provenance:
     conformance: first-party
   regulatory:
@@ -149,14 +151,14 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/takeda-pharmaceutical-company/refs/heads/main/screenshots/takeda-pharmaceutical-company-2026-10-11T130627.png
+screenshot: https://apis.io/screenshots/takeda-pharmaceutical-company/takeda-pharmaceutical-company-2026-10-11T130627.png
 security:
 - kind: domain-security
   name: Takeda Pharmaceutical Company Domain Security

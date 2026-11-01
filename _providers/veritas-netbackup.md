@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-17'
+  score: 31.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -115,7 +117,7 @@ apis:
   description: Create, retrieve, update, and delete backup policies. Manage policy schedules, client lists, and backup selections that define what data gets backed up, when, and how.
   name: Veritas NetBackup Policies API
   slug: veritas-netbackup-policies-api
-artifact_total: 198
+artifact_total: 197
 collections:
 - collection_type: postman
   name: Veritas NetBackup REST Clients API
@@ -132,9 +134,6 @@ collections:
 - collection_type: postman
   name: Veritas NetBackup REST Clients Policies API
   slug: postman-veritas-netbackup-policies-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Veritas NetBackup REST Clients API
   slug: open-veritas-netbackup-clients-api
@@ -155,12 +154,12 @@ collections:
   slug: open-veritas-netbackup-rest-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/plans/veritas-netbackup-plans-pricing.yml
+  href: https://artifacts.apis.io/veritas-netbackup/plans/veritas-netbackup-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/veritas-netbackup-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/finops/veritas-netbackup-finops.yml
+  href: https://artifacts.apis.io/veritas-netbackup/finops/veritas-netbackup-finops.yml
   title: ''
   type: FinOps
   url: finops/veritas-netbackup-finops.yml
@@ -169,7 +168,7 @@ common:
   type: Website
   url: https://veritas.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/capabilities/veritas-netbackup-capability-edges.yml
+  href: https://artifacts.apis.io/veritas-netbackup/capabilities/veritas-netbackup-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/veritas-netbackup-capability-edges.yml
@@ -178,22 +177,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/veritas-netbackup/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/agentic-access/veritas-netbackup-agentic-access.yml
+  href: https://artifacts.apis.io/veritas-netbackup/agentic-access/veritas-netbackup-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/veritas-netbackup-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/security/veritas-netbackup-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/veritas-netbackup/security/veritas-netbackup-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/veritas-netbackup-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/security/veritas-netbackup-domain-security.yml
+  href: https://artifacts.apis.io/veritas-netbackup/security/veritas-netbackup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/veritas-netbackup-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/authentication/veritas-netbackup-authentication.yml
+  href: https://artifacts.apis.io/veritas-netbackup/authentication/veritas-netbackup-authentication.yml
   title: ''
   type: Authentication
   url: authentication/veritas-netbackup-authentication.yml
@@ -782,7 +781,7 @@ plans:
 - name: Veritas Netbackup Plans Pricing
   plan_count: 1
   slug: veritas-netbackup-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Veritas Netbackup Rate Limits
@@ -813,7 +812,7 @@ rules:
   slug: veritas-netbackup-spectral-rules
 score:
   band: developing
-  composite: 51.3
+  composite: 50.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 48.9
@@ -821,15 +820,15 @@ score:
     catalog_gap: 66.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 13.6
-    contract_quality: 65.5
-    developer_ergonomics: 59.5
+    contract_quality: 62.1
+    developer_ergonomics: 63.1
     discoverability: 60.7
-    operational_transparency: 23.7
-  previous_composite: 52.8
+    operational_transparency: 36.8
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     contracts:
@@ -843,13 +842,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/screenshots/veritas-netbackup-2026-06-20T200933.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/veritas-netbackup/veritas-netbackup-2026-06-20T200933.png
 security:
 - kind: authentication
   name: Veritas Netbackup Authentication

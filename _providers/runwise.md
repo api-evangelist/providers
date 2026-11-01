@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runwise/refs/heads/main/security/runwise-domain-security.yml
+  href: https://artifacts.apis.io/runwise/security/runwise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/runwise-domain-security.yml
@@ -81,7 +83,7 @@ overview: 'Runwise is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Runwise''s developer surface includes signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 11
+random_paper: 13
 score:
   band: emerging
   composite: 12.8
@@ -107,14 +109,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/runwise/refs/heads/main/screenshots/runwise-2026-09-02T154214.png
+screenshot: https://apis.io/screenshots/runwise/runwise-2026-09-02T154214.png
 security:
 - kind: domain-security
   name: Runwise Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: The TUF specification defines the structure of update repositories including the root, targets, snapshot, and timestamp metadata files. Each metadata file has a defined schema with signatures, expirat
@@ -60,17 +62,17 @@ apis:
 artifact_total: 22
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads/main/plans/tuf-plans-pricing.yml
+  href: https://artifacts.apis.io/tuf/plans/tuf-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tuf-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads/main/rate-limits/tuf-rate-limits.yml
+  href: https://artifacts.apis.io/tuf/rate-limits/tuf-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tuf-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads/main/finops/tuf-finops.yml
+  href: https://artifacts.apis.io/tuf/finops/tuf-finops.yml
   title: ''
   type: FinOps
   url: finops/tuf-finops.yml
@@ -83,7 +85,7 @@ common:
   type: Releases
   url: https://github.com/theupdateframework/specification/releases
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads/main/security/tuf-domain-security.yml
+  href: https://artifacts.apis.io/tuf/security/tuf-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tuf-domain-security.yml
@@ -124,32 +126,32 @@ common:
   type: Community
   url: https://github.com/theupdateframework/community
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads/main/json-ld/tuf-context.jsonld
+  href: https://artifacts.apis.io/tuf/json-ld/tuf-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tuf-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads/main/json-schema/tuf-root-metadata-schema.json
+  href: https://artifacts.apis.io/tuf/json-schema/tuf-root-metadata-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tuf-root-metadata-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads/main/json-schema/tuf-targets-metadata-schema.json
+  href: https://artifacts.apis.io/tuf/json-schema/tuf-targets-metadata-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tuf-targets-metadata-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads/main/json-schema/tuf-snapshot-metadata-schema.json
+  href: https://artifacts.apis.io/tuf/json-schema/tuf-snapshot-metadata-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tuf-snapshot-metadata-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads/main/json-schema/tuf-timestamp-metadata-schema.json
+  href: https://artifacts.apis.io/tuf/json-schema/tuf-timestamp-metadata-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tuf-timestamp-metadata-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads/main/vocabulary/tuf-vocabulary.yml
+  href: https://artifacts.apis.io/tuf/vocabulary/tuf-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tuf-vocabulary.yml
@@ -169,7 +171,7 @@ finops:
 - has_sources: false
   method: generated
   name: Tuf Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: tuf-finops
   template: true
@@ -215,7 +217,7 @@ plans:
 - name: Tuf Plans Pricing
   plan_count: 3
   slug: tuf-plans-pricing
-random_paper: 5
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Tuf Rate Limits
@@ -234,37 +236,37 @@ rules:
   slug: tuf-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 25.0
+  composite: 25.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 65.8
     catalog_earned_first_party: 0.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 22.7
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 69.6
-    operational_transparency: 26.3
-  previous_composite: 26.6
+    operational_transparency: 28.9
+  previous_composite: 25.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads/main/screenshots/tuf-2026-06-20T195821.png
+screenshot: https://apis.io/screenshots/tuf/tuf-2026-06-20T195821.png
 security:
 - kind: domain-security
   name: Tuf Domain Security

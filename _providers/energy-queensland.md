@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 28.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -91,7 +93,7 @@ apis:
   description: Energy Plan endpoints
   name: Energy Queensland Energy Plans API
   slug: energy-queensland-energy-plans-api
-artifact_total: 16
+artifact_total: 19
 collections:
 - collection_type: open
   name: CDR Common API
@@ -101,57 +103,57 @@ collections:
   slug: open-energy-queensland-cds-energy
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/skills/energy-queensland-read-ergon-tariff-plans.md
+  href: https://artifacts.apis.io/energy-queensland/skills/energy-queensland-read-ergon-tariff-plans.md
   title: ''
   type: AgentSkill
   url: skills/energy-queensland-read-ergon-tariff-plans.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/skills/energy-queensland-check-cdr-availability.md
+  href: https://artifacts.apis.io/energy-queensland/skills/energy-queensland-check-cdr-availability.md
   title: ''
   type: AgentSkill
   url: skills/energy-queensland-check-cdr-availability.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/skills/energy-queensland-consume-accredited-energy-data.md
+  href: https://artifacts.apis.io/energy-queensland/skills/energy-queensland-consume-accredited-energy-data.md
   title: ''
   type: AgentSkill
   url: skills/energy-queensland-consume-accredited-energy-data.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/mcp/energy-queensland-mcp.yml
+  href: https://artifacts.apis.io/energy-queensland/mcp/energy-queensland-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/energy-queensland-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/agentic-access/energy-queensland-agentic-access.yml
+  href: https://artifacts.apis.io/energy-queensland/agentic-access/energy-queensland-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/energy-queensland-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/security/energy-queensland-domain-security.yml
+  href: https://artifacts.apis.io/energy-queensland/security/energy-queensland-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/energy-queensland-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/authentication/energy-queensland-authentication.yml
+  href: https://artifacts.apis.io/energy-queensland/authentication/energy-queensland-authentication.yml
   title: ''
   type: Authentication
   url: authentication/energy-queensland-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/scopes/energy-queensland-scopes.yml
+  href: https://artifacts.apis.io/energy-queensland/scopes/energy-queensland-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/energy-queensland-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/conventions/energy-queensland-conventions.yml
+  href: https://artifacts.apis.io/energy-queensland/conventions/energy-queensland-conventions.yml
   title: ''
   type: Conventions
   url: conventions/energy-queensland-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/errors/energy-queensland-problem-types.yml
+  href: https://artifacts.apis.io/energy-queensland/errors/energy-queensland-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/energy-queensland-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/lifecycle/energy-queensland-lifecycle.yml
+  href: https://artifacts.apis.io/energy-queensland/lifecycle/energy-queensland-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/energy-queensland-lifecycle.yml
@@ -164,52 +166,52 @@ common:
   type: Deprecation
   url: https://consumerdatastandardsaustralia.github.io/standards/includes/endpoint-version-schedule/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/changelog/energy-queensland-changelog.yml
+  href: https://artifacts.apis.io/energy-queensland/changelog/energy-queensland-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/energy-queensland-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/rate-limits/energy-queensland-rate-limits.yml
+  href: https://artifacts.apis.io/energy-queensland/rate-limits/energy-queensland-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/energy-queensland-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/conformance/energy-queensland-conformance.yml
+  href: https://artifacts.apis.io/energy-queensland/conformance/energy-queensland-conformance.yml
   title: ''
   type: Conformance
   url: conformance/energy-queensland-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/conformance/energy-queensland-conformance.yml
+  href: https://artifacts.apis.io/energy-queensland/conformance/energy-queensland-conformance.yml
   title: ''
   type: Compliance
   url: conformance/energy-queensland-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/data-model/energy-queensland-data-model.yml
+  href: https://artifacts.apis.io/energy-queensland/data-model/energy-queensland-data-model.yml
   title: ''
   type: DataModel
   url: data-model/energy-queensland-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/packages/energy-queensland-packages.yml
+  href: https://artifacts.apis.io/energy-queensland/packages/energy-queensland-packages.yml
   title: ''
   type: Packages
   url: packages/energy-queensland-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/llms/energy-queensland-llms.txt
+  href: https://artifacts.apis.io/energy-queensland/llms/energy-queensland-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/energy-queensland-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/energy-queensland/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/overlays/energy-queensland-cds-energy-overlay.yaml
+  href: https://artifacts.apis.io/energy-queensland/overlays/energy-queensland-cds-energy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/energy-queensland-cds-energy-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/overlays/energy-queensland-cds-common-overlay.yaml
+  href: https://artifacts.apis.io/energy-queensland/overlays/energy-queensland-cds-common-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/energy-queensland-cds-common-overlay.yaml
@@ -262,7 +264,7 @@ overview: 'Energy Queensland publishes 9 API contracts indexed on the [APIs.io](
 
 
   Energy Queensland''s developer surface includes authentication, changelog, API reference, status page, documentation, and 27 more developer resources.'
-random_paper: 7
+random_paper: 15
 rate_limits:
 - limit_count: 15
   name: Energy Queensland Rate Limits
@@ -273,8 +275,8 @@ scopes:
   slug: energy-queensland-scopes
   summary_line: 13 scopes · authorizationCode
 score:
-  band: thin
-  composite: 38.6
+  band: developing
+  composite: 40.7
   coverage:
     artifact_dirs: 21
     catalog_earned: 49.0
@@ -289,7 +291,7 @@ score:
     contract_quality: 45.9
     developer_ergonomics: 30.4
     discoverability: 66.1
-    operational_transparency: 65.8
+    operational_transparency: 76.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -297,7 +299,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 38.6
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -314,13 +316,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/screenshots/energy-queensland-2026-08-07T164903.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/energy-queensland/energy-queensland-2026-08-07T164903.png
 security:
 - kind: authentication
   name: Energy Queensland Authentication
@@ -330,6 +333,14 @@ security:
   name: Energy Queensland Domain Security
   slug: energy-queensland-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Check Ergon Energy Retail CDR availability before calling
+  slug: energy-queensland-check-cdr-availability
+- name: Consume Ergon Energy Retail consumer energy data as an accredited CDR recipient
+  slug: energy-queensland-consume-accredited-energy-data
+- name: Read Ergon Energy Retail tariff plans
+  slug: energy-queensland-read-ergon-tariff-plans
 slug: energy-queensland
 tags:
 - Energy

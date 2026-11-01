@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
@@ -60,52 +62,52 @@ common:
   type: Twitter
   url: https://twitter.com/graphite_health
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/graphitehealth/refs/heads/main/llms/graphitehealth-llms.txt
+  href: https://artifacts.apis.io/graphitehealth/llms/graphitehealth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/graphitehealth-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/graphitehealth/refs/heads/main/packages/graphitehealth-packages.yml
+  href: https://artifacts.apis.io/graphitehealth/packages/graphitehealth-packages.yml
   title: ''
   type: Packages
   url: packages/graphitehealth-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/graphitehealth/refs/heads/main/conformance/graphitehealth-conformance.yml
+  href: https://artifacts.apis.io/graphitehealth/conformance/graphitehealth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/graphitehealth-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/graphitehealth/refs/heads/main/conformance/graphitehealth-conformance.yml
+  href: https://artifacts.apis.io/graphitehealth/conformance/graphitehealth-conformance.yml
   title: ''
   type: Compliance
   url: conformance/graphitehealth-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/graphitehealth/refs/heads/main/security/graphitehealth-domain-security.yml
+  href: https://artifacts.apis.io/graphitehealth/security/graphitehealth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/graphitehealth-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/graphitehealth/refs/heads/main/security/graphitehealth-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/graphitehealth/security/graphitehealth-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/graphitehealth-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/graphitehealth/refs/heads/main/security/graphitehealth-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/graphitehealth/security/graphitehealth-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/graphitehealth-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/graphitehealth/refs/heads/main/security/graphitehealth-trust-center.yml
+  href: https://artifacts.apis.io/graphitehealth/security/graphitehealth-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/graphitehealth-trust-center.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/graphitehealth/refs/heads/main/plans/graphitehealth-plans-pricing.yml
+  href: https://artifacts.apis.io/graphitehealth/plans/graphitehealth-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/graphitehealth-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/graphitehealth/refs/heads/main/rate-limits/graphitehealth-rate-limits.yml
+  href: https://artifacts.apis.io/graphitehealth/rate-limits/graphitehealth-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/graphitehealth-rate-limits.yml
@@ -139,14 +141,14 @@ plans:
 - name: Graphitehealth Plans Pricing
   plan_count: 0
   slug: graphitehealth-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Graphitehealth Rate Limits
   slug: graphitehealth-rate-limits
 score:
   band: emerging
-  composite: 19.9
+  composite: 19.5
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -160,9 +162,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 13.2
-  previous_composite: 19.9
+    discoverability: 48.2
+    operational_transparency: 15.8
+  previous_composite: 19.5
   provenance:
     conformance: first-party
   regulatory:
@@ -171,14 +173,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/graphitehealth/refs/heads/main/screenshots/graphitehealth-2026-10-11T105017.png
+screenshot: https://apis.io/screenshots/graphitehealth/graphitehealth-2026-10-11T105017.png
 security:
 - kind: domain-security
   name: Graphitehealth Domain Security

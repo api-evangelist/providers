@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.1
-  scored_at: '2026-10-17'
+  score: 34.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 14
   slug: api-snap-agentic-access
   summary_line: 14 operations · 6 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api-snap.com/api
   baseurl_source: declared
@@ -69,7 +71,7 @@ apis:
   description: General-purpose developer utilities
   name: API Snap Utilities API
   slug: api-snap-utilities-api
-artifact_total: 71
+artifact_total: 70
 collections:
 - collection_type: postman
   name: API Snap Browser API
@@ -86,9 +88,6 @@ collections:
 - collection_type: postman
   name: API Snap Browser Utilities API
   slug: postman-api-snap-utilities-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: API Snap Browser API
   slug: open-api-snap-browser-api
@@ -113,17 +112,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/api-snap/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/agentic-access/api-snap-agentic-access.yml
+  href: https://artifacts.apis.io/api-snap/agentic-access/api-snap-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/api-snap-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/security/api-snap-domain-security.yml
+  href: https://artifacts.apis.io/api-snap/security/api-snap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/api-snap-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/authentication/api-snap-authentication.yml
+  href: https://artifacts.apis.io/api-snap/authentication/api-snap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/api-snap-authentication.yml
@@ -160,32 +159,32 @@ common:
   type: Authentication
   url: https://api-snap.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/plans/api-snap-plans-pricing.yml
+  href: https://artifacts.apis.io/api-snap/plans/api-snap-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/api-snap-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/rate-limits/api-snap-rate-limits.yml
+  href: https://artifacts.apis.io/api-snap/rate-limits/api-snap-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/api-snap-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/finops/api-snap-finops.yml
+  href: https://artifacts.apis.io/api-snap/finops/api-snap-finops.yml
   title: ''
   type: FinOps
   url: finops/api-snap-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/json-ld/api-snap-context.jsonld
+  href: https://artifacts.apis.io/api-snap/json-ld/api-snap-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/api-snap-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/rules/api-snap-spectral-rules.yml
+  href: https://artifacts.apis.io/api-snap/rules/api-snap-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/api-snap-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/vocabulary/api-snap-vocabulary.yaml
+  href: https://artifacts.apis.io/api-snap/vocabulary/api-snap-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/api-snap-vocabulary.yaml
@@ -248,7 +247,7 @@ finops:
 - has_sources: true
   method: generated
   name: Api Snap Finops
-  primary_unit: ''
+  primary_unit: month
   service_category: Developer Utilities
   slug: api-snap-finops
   template: false
@@ -355,24 +354,24 @@ rules:
     warn: 23
   slug: api-snap-spectral-rules
 score:
-  band: thin
-  composite: 38.0
+  band: developing
+  composite: 40.6
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 72.0
+    artifact_dirs: 19
+    catalog_earned: 75.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.5
   facets:
-    access_clarity: 18.4
+    access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 69.0
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 46.3
+    operational_transparency: 13.2
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -386,13 +385,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/screenshots/api-snap-2026-07-25T200604.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/api-snap/api-snap-2026-07-25T200604.png
 security:
 - kind: authentication
   name: Api Snap Authentication

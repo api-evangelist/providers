@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.2
-  scored_at: '2026-10-17'
+  score: 41.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.zenlytic.com
@@ -45,9 +47,6 @@ apis:
   slug: zenlytic-embedding-api
 artifact_total: 6
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Zenlytic Signed Embedding API
   slug: open-zenlytic-embedding-api
@@ -101,47 +100,47 @@ common:
   type: TermsOfService
   url: https://docs.zenlytic.com/legal-and-support/legal/terms-of-service-agreement
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zenlytic/refs/heads/main/changelog/zenlytic-changelog.yml
+  href: https://artifacts.apis.io/zenlytic/changelog/zenlytic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zenlytic-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenlytic/refs/heads/main/llms/zenlytic-llms.txt
+  href: https://artifacts.apis.io/zenlytic/llms/zenlytic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zenlytic-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zenlytic/refs/heads/main/packages/zenlytic-packages.yml
+  href: https://artifacts.apis.io/zenlytic/packages/zenlytic-packages.yml
   title: ''
   type: Packages
   url: packages/zenlytic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zenlytic/refs/heads/main/packages/zenlytic-packages.yml
+  href: https://artifacts.apis.io/zenlytic/packages/zenlytic-packages.yml
   title: ''
   type: SDKs
   url: packages/zenlytic-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenlytic/refs/heads/main/authentication/zenlytic-authentication.yml
+  href: https://artifacts.apis.io/zenlytic/authentication/zenlytic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zenlytic-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenlytic/refs/heads/main/security/zenlytic-domain-security.yml
+  href: https://artifacts.apis.io/zenlytic/security/zenlytic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zenlytic-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenlytic/refs/heads/main/conventions/zenlytic-conventions.yml
+  href: https://artifacts.apis.io/zenlytic/conventions/zenlytic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zenlytic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenlytic/refs/heads/main/components/zenlytic-components.yml
+  href: https://artifacts.apis.io/zenlytic/components/zenlytic-components.yml
   title: ''
   type: Components
   url: components/zenlytic-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenlytic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zenlytic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -161,10 +160,10 @@ overview: 'Zenlytic publishes 1 API contract indexed on the [APIs.io](https://ap
 
 
   Zenlytic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 14 more developer resources.'
-random_paper: 2
+random_paper: 18
 score:
   band: developing
-  composite: 41.9
+  composite: 43.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -172,15 +171,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 53.9
     developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 41.8
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 43.4
   provenance:
     contracts:
       callable: 100.0
@@ -195,13 +194,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zenlytic/refs/heads/main/screenshots/zenlytic-2026-08-17T083051.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zenlytic/zenlytic-2026-08-17T083051.png
 security:
 - kind: authentication
   name: Zenlytic Authentication
@@ -211,6 +211,10 @@ security:
   name: Zenlytic Domain Security
   slug: zenlytic-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Embed Zenlytic for an external user
+  slug: zenlytic-embed-external-user
 slug: zenlytic
 tags:
 - Company

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,19 +22,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-17'
+  score: 35.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -77,11 +79,13 @@ apis:
   description: The Tags API from AWS Batch — 1 operation(s) for tags.
   name: AWS Batch Tags API
   slug: aws-batch-tags-api
+- baseURL: https://batch.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Batch Operations API from AWS Batch — 24 operation(s) for batch operations.
+  name: AWS Batch Batch Operations API
+  slug: aws-batch-operations-api
 artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AWS Batch Compute Environments API
   slug: open-aws-batch-compute-environments-api
@@ -105,32 +109,32 @@ collections:
   slug: open-aws-batch
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/capabilities/aws-batch-capability-edges.yml
+  href: https://artifacts.apis.io/aws-batch/capabilities/aws-batch-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/aws-batch-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/agentic-access/aws-batch-agentic-access.yml
+  href: https://artifacts.apis.io/aws-batch/agentic-access/aws-batch-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aws-batch-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/security/aws-batch-trust-center.yml
+  href: https://artifacts.apis.io/aws-batch/security/aws-batch-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/aws-batch-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/security/aws-batch-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aws-batch/security/aws-batch-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aws-batch-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/security/aws-batch-domain-security.yml
+  href: https://artifacts.apis.io/aws-batch/security/aws-batch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aws-batch-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/authentication/aws-batch-authentication.yml
+  href: https://artifacts.apis.io/aws-batch/authentication/aws-batch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aws-batch-authentication.yml
@@ -158,50 +162,51 @@ modified: '2026-05-11'
 name: AWS Batch
 nav: Providers
 network: true
-overview: 'AWS Batch publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Compute Environments API, Job Definitions API, Job Queues API, and 4 more. Tagged areas include Batch Computing, Compute, HPC, Job Scheduling, and Containers.
+overview: 'AWS Batch publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Compute Environments API, Job Definitions API, Job Queues API, and 5 more. Tagged areas include Batch Computing, Compute, HPC, Job Scheduling, and Containers.
 
 
   AWS Batch''s developer surface includes authentication, documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 10
+random_paper: 2
 score:
   band: thin
-  composite: 28.3
+  composite: 33.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.1
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 42.9
+    contract_quality: 55.1
     developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 0.0
-  previous_composite: 28.3
+    operational_transparency: 10.5
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 6
+      marker_coverage: 14.3
+      total: 7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/screenshots/aws-batch-2026-06-20T172748.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aws-batch/aws-batch-2026-06-20T172748.png
 security:
 - kind: authentication
   name: Aws Batch Authentication

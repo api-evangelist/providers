@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -41,17 +43,17 @@ common:
   type: Website
   url: https://meso.network
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meso/refs/heads/main/well-known/meso-well-known.yml
+  href: https://artifacts.apis.io/meso/well-known/meso-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/meso-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meso/refs/heads/main/well-known/meso-security.txt
+  href: https://artifacts.apis.io/meso/well-known/meso-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/meso-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meso/refs/heads/main/security/meso-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/meso/security/meso-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/meso-vulnerability-disclosure.yml
@@ -60,12 +62,12 @@ common:
   type: Security
   url: https://meso.network/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meso/refs/heads/main/security/meso-domain-security.yml
+  href: https://artifacts.apis.io/meso/security/meso-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meso-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meso/refs/heads/main/llms/meso-llms.txt
+  href: https://artifacts.apis.io/meso/llms/meso-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/meso-llms.txt
@@ -78,10 +80,10 @@ name: Meso
 nav: Providers
 network: true
 overview: Meso is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Payments, Payment Infrastructure, and Fintech.
-random_paper: 18
+random_paper: 4
 score:
   band: minimal
-  composite: 5.6
+  composite: 4.9
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -95,23 +97,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 5.6
+  previous_composite: 4.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/meso/refs/heads/main/screenshots/meso-2026-10-11T191419.png
+screenshot: https://apis.io/screenshots/meso/meso-2026-10-11T191419.png
 security:
 - kind: domain-security
   name: Meso Domain Security

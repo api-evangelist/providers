@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -97,7 +99,7 @@ apis:
 artifact_total: 45
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/agentic-access/open-fda-agentic-access.yml
+  href: https://artifacts.apis.io/open-fda/agentic-access/open-fda-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/open-fda-agentic-access.yml
@@ -154,27 +156,27 @@ common:
   type: PrivacyPolicy
   url: https://www.fda.gov/about-website/website-policies
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/rules/open-fda-rules.yml
+  href: https://artifacts.apis.io/open-fda/rules/open-fda-rules.yml
   title: ''
   type: Rules
   url: rules/open-fda-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/rules/open-fda-rules.yml
+  href: https://artifacts.apis.io/open-fda/rules/open-fda-rules.yml
   title: ''
   type: SpectralRules
   url: rules/open-fda-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/vocabulary/open-fda-vocabulary.yml
+  href: https://artifacts.apis.io/open-fda/vocabulary/open-fda-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/open-fda-vocabulary.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/json-schema/open-fda-search-response-schema.json
+  href: https://artifacts.apis.io/open-fda/json-schema/open-fda-search-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/open-fda-search-response-schema.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/examples/open-fda-drug-event-example.json
+  href: https://artifacts.apis.io/open-fda/examples/open-fda-drug-event-example.json
   title: ''
   type: Examples
   url: examples/open-fda-drug-event-example.json
@@ -195,7 +197,7 @@ common:
   type: License
   url: https://github.com/FDA/openfda/blob/master/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/security/open-fda-domain-security.yml
+  href: https://artifacts.apis.io/open-fda/security/open-fda-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/open-fda-domain-security.yml
@@ -232,17 +234,17 @@ common:
   type: Authentication
   url: https://open.fda.gov/apis/authentication/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/plans/open-fda-plans-pricing.yml
+  href: https://artifacts.apis.io/open-fda/plans/open-fda-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/open-fda-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/rate-limits/open-fda-rate-limits.yml
+  href: https://artifacts.apis.io/open-fda/rate-limits/open-fda-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/open-fda-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/finops/open-fda-finops.yml
+  href: https://artifacts.apis.io/open-fda/finops/open-fda-finops.yml
   title: ''
   type: FinOps
   url: finops/open-fda-finops.yml
@@ -340,7 +342,7 @@ plans:
 - name: Open Fda Plans Pricing
   plan_count: 2
   slug: open-fda-plans-pricing
-random_paper: 8
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Open Fda Rate Limits
@@ -369,8 +371,8 @@ rules:
     warn: 0
   slug: open-fda-rules
 score:
-  band: thin
-  composite: 39.1
+  band: developing
+  composite: 42.1
   coverage:
     artifact_dirs: 13
     catalog_earned: 60.0
@@ -378,15 +380,15 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.3
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 39.5
     contract_governance: 21.2
     contract_quality: 21.2
     developer_ergonomics: 57.1
     discoverability: 71.4
-    operational_transparency: 44.7
-  previous_composite: 43.4
+    operational_transparency: 47.4
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
   regulatory:
@@ -394,15 +396,15 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/screenshots/open-fda-2026-06-20T190739.png
+screenshot: https://apis.io/screenshots/open-fda/open-fda-2026-06-20T190739.png
 security:
 - kind: domain-security
   name: Open Fda Domain Security

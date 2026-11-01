@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.5
-  scored_at: '2026-10-17'
+  score: 7.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for accessing energy data and device control
@@ -32,27 +34,27 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emporia-energy/refs/heads/main/llms/emporia-energy-llms.txt
+  href: https://artifacts.apis.io/emporia-energy/llms/emporia-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/emporia-energy-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emporia-energy/refs/heads/main/well-known/emporia-energy-help-security.txt
+  href: https://artifacts.apis.io/emporia-energy/well-known/emporia-energy-help-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/emporia-energy-help-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emporia-energy/refs/heads/main/well-known/emporia-energy-well-known.yml
+  href: https://artifacts.apis.io/emporia-energy/well-known/emporia-energy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/emporia-energy-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emporia-energy/refs/heads/main/hosts/emporia-energy-hosts.yml
+  href: https://artifacts.apis.io/emporia-energy/hosts/emporia-energy-hosts.yml
   title: ''
   type: Hosts
   url: hosts/emporia-energy-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emporia-energy/refs/heads/main/vendors/emporia-energy-vendors.yml
+  href: https://artifacts.apis.io/emporia-energy/vendors/emporia-energy-vendors.yml
   title: ''
   type: Vendors
   url: vendors/emporia-energy-vendors.yml
@@ -89,7 +91,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/emporiaenergy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emporia-energy/refs/heads/main/security/emporia-energy-domain-security.yml
+  href: https://artifacts.apis.io/emporia-energy/security/emporia-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/emporia-energy-domain-security.yml
@@ -117,10 +119,10 @@ overview: 'Emporia Energy is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   Emporia Energy''s developer surface includes support, engineering blog, getting-started guide, documentation, and 11 more developer resources.'
-random_paper: 14
+random_paper: 4
 score:
   band: emerging
-  composite: 17.0
+  composite: 17.6
   coverage:
     artifact_dirs: 6
     catalog_earned: 32.0
@@ -128,13 +130,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 66.1
-    operational_transparency: 5.3
+    discoverability: 58.9
+    operational_transparency: 15.8
+  previous_composite: 17.6
   provenance:
     mcp: unknown
   regulatory:
@@ -143,8 +147,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

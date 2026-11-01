@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 25.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 26
   slug: morning-consult-agentic-access
   summary_line: 26 operations · 5 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.morningconsult.com/v1
   baseurl_source: declared
@@ -75,39 +77,39 @@ arazzos:
 - description: Authenticate, discover an available score and the data sources it is available in, bind it to a brand entity, and request the score timeseries.
   name: Morning Consult — compute a score
   slug: morning-consult-compute-score
-artifact_total: 14
+artifact_total: 20
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://morningconsult.com/articles/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/capabilities/morning-consult-capability-edges.yml
+  href: https://artifacts.apis.io/morning-consult/capabilities/morning-consult-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/morning-consult-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/overlays/morning-consult-api-overlay.yaml
+  href: https://artifacts.apis.io/morning-consult/overlays/morning-consult-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/morning-consult-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/mcp/morning-consult-mcp.yml
+  href: https://artifacts.apis.io/morning-consult/mcp/morning-consult-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/morning-consult-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/security/morning-consult-trust-center.yml
+  href: https://artifacts.apis.io/morning-consult/security/morning-consult-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/morning-consult-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/security/morning-consult-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/morning-consult/security/morning-consult-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/morning-consult-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/security/morning-consult-domain-security.yml
+  href: https://artifacts.apis.io/morning-consult/security/morning-consult-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/morning-consult-domain-security.yml
@@ -132,7 +134,7 @@ common:
   type: GettingStarted
   url: https://api.morningconsult.com/docs/#introduction
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/authentication/morning-consult-authentication.yml
+  href: https://artifacts.apis.io/morning-consult/authentication/morning-consult-authentication.yml
   title: ''
   type: Authentication
   url: authentication/morning-consult-authentication.yml
@@ -173,42 +175,42 @@ common:
   type: Compliance
   url: https://morningconsult.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/llms/morning-consult-llms.txt
+  href: https://artifacts.apis.io/morning-consult/llms/morning-consult-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/morning-consult-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/packages/morning-consult-packages.yml
+  href: https://artifacts.apis.io/morning-consult/packages/morning-consult-packages.yml
   title: ''
   type: Packages
   url: packages/morning-consult-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/examples/morning-consult-examples.yml
+  href: https://artifacts.apis.io/morning-consult/examples/morning-consult-examples.yml
   title: ''
   type: Examples
   url: examples/morning-consult-examples.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/rate-limits/morning-consult-rate-limits.yml
+  href: https://artifacts.apis.io/morning-consult/rate-limits/morning-consult-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/morning-consult-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/errors/morning-consult-problem-types.yml
+  href: https://artifacts.apis.io/morning-consult/errors/morning-consult-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/morning-consult-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/data-model/morning-consult-data-model.yml
+  href: https://artifacts.apis.io/morning-consult/data-model/morning-consult-data-model.yml
   title: ''
   type: DataModel
   url: data-model/morning-consult-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/conventions/morning-consult-conventions.yml
+  href: https://artifacts.apis.io/morning-consult/conventions/morning-consult-conventions.yml
   title: ''
   type: Conventions
   url: conventions/morning-consult-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/lifecycle/morning-consult-lifecycle.yml
+  href: https://artifacts.apis.io/morning-consult/lifecycle/morning-consult-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/morning-consult-lifecycle.yml
@@ -217,22 +219,22 @@ common:
   type: Deprecation
   url: https://api.morningconsult.com/docs/#migration-guide
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/conformance/morning-consult-conformance.yml
+  href: https://artifacts.apis.io/morning-consult/conformance/morning-consult-conformance.yml
   title: ''
   type: Conformance
   url: conformance/morning-consult-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/morning-consult/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/arazzo/_index.yml
+  href: https://artifacts.apis.io/morning-consult/arazzo/_index.yml
   title: ''
   type: Arazzo
   url: arazzo/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/agentic-access/morning-consult-agentic-access.yml
+  href: https://artifacts.apis.io/morning-consult/agentic-access/morning-consult-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/morning-consult-agentic-access.yml
@@ -252,30 +254,35 @@ overview: 'Morning Consult publishes 4 API contracts indexed on the [APIs.io](ht
 
 
   Morning Consult''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 28 more developer resources.'
-random_paper: 21
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Morning Consult Rate Limits
   slug: morning-consult-rate-limits
 score:
   band: strong
-  composite: 54.8
+  composite: 55.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 54.4
     catalog_earned_first_party: 12.0
     catalog_gap: 60.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 59.0
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 52.6
-  previous_composite: 54.7
+    discoverability: 66.1
+    operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -292,13 +299,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/screenshots/morning-consult-2026-08-07T184308.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/morning-consult/morning-consult-2026-08-07T184308.png
 security:
 - kind: authentication
   name: Morning Consult Authentication
@@ -316,6 +324,20 @@ security:
   name: Morning Consult Trust Center
   slug: morning-consult-trust-center
   summary_line: SOC 2 Type II, GDPR, CCPA, ISO 27001, ISO 27017
+skill_count: 6
+skills:
+- name: Ask Morning Consult a natural-language question
+  slug: morning-consult-ai-resolve
+- name: Authenticate to the Morning Consult API
+  slug: morning-consult-authenticate
+- name: Pull a brand trendline from Morning Consult
+  slug: morning-consult-brand-trendline
+- name: Load Morning Consult data in bulk via Data Bridge
+  slug: morning-consult-bulk-data-bridge
+- name: Compute a Morning Consult score
+  slug: morning-consult-compute-score
+- name: Build a custom audience for a Morning Consult data request
+  slug: morning-consult-custom-audience
 slug: morning-consult
 tags:
 - Company

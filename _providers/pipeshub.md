@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.6
-  scored_at: '2026-10-17'
+  score: 46.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 227
   human_in_the_loop: 29
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 381
   slug: pipeshub-agentic-access
   summary_line: 381 operations · 227 acting · 29 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://app.pipeshub.com/api/v1
   baseurl_source: declared
@@ -289,164 +291,169 @@ apis:
   description: Manage web search providers (DuckDuckGo, Serper, Tavily, Exa) and settings for internet search.
   name: PipesHub Web Search API
   slug: pipeshub-web-search-api
-artifact_total: 68
+artifact_total: 73
 asyncapis:
 - description: ''
   name: Pipeshub Webhooks
   slug: pipeshub-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/pipeshub/capabilities/pipeshub-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pipeshub-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/agentic-access/pipeshub-agentic-access.yml
+  href: https://artifacts.apis.io/pipeshub/agentic-access/pipeshub-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pipeshub-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/rate-limits/pipeshub-rate-limits.yml
+  href: https://artifacts.apis.io/pipeshub/rate-limits/pipeshub-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pipeshub-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/plans/pipeshub-plans-pricing.yml
+  href: https://artifacts.apis.io/pipeshub/plans/pipeshub-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pipeshub-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/rules/pipeshub-rules.yml
+  href: https://artifacts.apis.io/pipeshub/rules/pipeshub-rules.yml
   title: ''
   type: Spectral
   url: rules/pipeshub-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/rules/pipeshub-pipeshub-ai-spectral-rules.yml
+  href: https://artifacts.apis.io/pipeshub/rules/pipeshub-pipeshub-ai-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/pipeshub-pipeshub-ai-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/json-ld/pipeshub-context.jsonld
+  href: https://artifacts.apis.io/pipeshub/json-ld/pipeshub-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/pipeshub-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/vocabulary/pipeshub-vocabulary.yml
+  href: https://artifacts.apis.io/pipeshub/vocabulary/pipeshub-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/pipeshub-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pipeshub/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/asyncapi/pipeshub-webhooks.yml
+  href: https://artifacts.apis.io/pipeshub/asyncapi/pipeshub-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/pipeshub-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/data-model/pipeshub-data-model.yml
+  href: https://artifacts.apis.io/pipeshub/data-model/pipeshub-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pipeshub-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/changelog/pipeshub-changelog.yml
+  href: https://artifacts.apis.io/pipeshub/changelog/pipeshub-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pipeshub-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/conventions/pipeshub-conventions.yml
+  href: https://artifacts.apis.io/pipeshub/conventions/pipeshub-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pipeshub-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/sandbox/pipeshub-sandbox.yml
+  href: https://artifacts.apis.io/pipeshub/sandbox/pipeshub-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/pipeshub-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/lifecycle/pipeshub-lifecycle.yml
+  href: https://artifacts.apis.io/pipeshub/lifecycle/pipeshub-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/pipeshub-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/lifecycle/pipeshub-lifecycle.yml
+  href: https://artifacts.apis.io/pipeshub/lifecycle/pipeshub-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pipeshub-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/errors/pipeshub-problem-types.yml
+  href: https://artifacts.apis.io/pipeshub/errors/pipeshub-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pipeshub-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/conformance/pipeshub-conformance.yml
+  href: https://artifacts.apis.io/pipeshub/conformance/pipeshub-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pipeshub-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/overlays/pipeshub-openapi-overlay.yaml
+  href: https://artifacts.apis.io/pipeshub/overlays/pipeshub-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pipeshub-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/llms/pipeshub-llms.txt
+  href: https://artifacts.apis.io/pipeshub/llms/pipeshub-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pipeshub-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/a2a/pipeshub-a2a.yml
+  href: https://artifacts.apis.io/pipeshub/a2a/pipeshub-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/pipeshub-a2a.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/mcp/pipeshub-tool-crosswalk.yml
+  href: https://artifacts.apis.io/pipeshub/mcp/pipeshub-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/pipeshub-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/mcp/pipeshub-mcp.yml
+  href: https://artifacts.apis.io/pipeshub/mcp/pipeshub-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/pipeshub-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/well-known/pipeshub-platform-security.txt
+  href: https://artifacts.apis.io/pipeshub/well-known/pipeshub-platform-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/pipeshub-platform-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/well-known/pipeshub-well-known.yml
+  href: https://artifacts.apis.io/pipeshub/well-known/pipeshub-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pipeshub-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/hosts/pipeshub-hosts.yml
+  href: https://artifacts.apis.io/pipeshub/hosts/pipeshub-hosts.yml
   title: ''
   type: Hosts
   url: hosts/pipeshub-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/vendors/pipeshub-vendors.yml
+  href: https://artifacts.apis.io/pipeshub/vendors/pipeshub-vendors.yml
   title: ''
   type: Vendors
   url: vendors/pipeshub-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/packages/pipeshub-packages.yml
+  href: https://artifacts.apis.io/pipeshub/packages/pipeshub-packages.yml
   title: ''
   type: SDKs
   url: packages/pipeshub-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/packages/pipeshub-packages.yml
+  href: https://artifacts.apis.io/pipeshub/packages/pipeshub-packages.yml
   title: ''
   type: Packages
   url: packages/pipeshub-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/scopes/pipeshub-scopes.yml
+  href: https://artifacts.apis.io/pipeshub/scopes/pipeshub-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pipeshub-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/authentication/pipeshub-authentication.yml
+  href: https://artifacts.apis.io/pipeshub/authentication/pipeshub-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pipeshub-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/security/pipeshub-domain-security.yml
+  href: https://artifacts.apis.io/pipeshub/security/pipeshub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pipeshub-domain-security.yml
@@ -524,6 +531,14 @@ common:
   url: https://www.youtube.com/@PipesHub-GenAI
 created: '2026-10-09'
 description: PipesHub is an open-source, enterprise-ready workplace AI platform positioned as an open-source alternative to Glean. It unifies scattered business data by connecting to business and enterprise apps, provides explainable, permission-aware enterprise search across them, and powers AI agents that get work done. It can be self-hosted from its public GitHub repository (pipeshub-ai/pipeshub-ai) or used as a hosted app, and documents a developer API reference for building on its enterprise context layer.
+finops:
+- has_sources: true
+  method: derived
+  name: Pipeshub Finops
+  primary_unit: ''
+  service_category: ''
+  slug: pipeshub-finops
+  template: true
 image: https://framerusercontent.com/images/87N6FTaGQx1IeB0Klbo9hPHAOus.png
 json_schemas:
 - name: AgentCreateConversationRequest
@@ -564,12 +579,12 @@ overview: 'PipesHub publishes 51 API contracts indexed on the [APIs.io](https://
   The PipesHub catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  PipesHub''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, engineering blog, and 42 more developer resources.'
+  PipesHub''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, engineering blog, and 43 more developer resources.'
 plans:
 - name: Pipeshub Plans Pricing
   plan_count: 2
   slug: pipeshub-plans-pricing
-random_paper: 6
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Pipeshub Rate Limits
@@ -606,23 +621,23 @@ scopes:
   summary_line: 43 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 72.0
+  composite: 68.0
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 34
     catalog_earned: 87.3
     catalog_earned_first_party: 26.0
     catalog_gap: 27.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.5
+  delta: -0.6
   facets:
     access_clarity: 65.8
     contract_governance: 76.5
-    contract_quality: 68.6
+    contract_quality: 66.9
     developer_ergonomics: 63.7
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 55.3
-  previous_composite: 68.5
+  previous_composite: 68.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -639,13 +654,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/pipeshub/refs/heads/main/screenshots/pipeshub-2026-10-11T112606.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pipeshub/pipeshub-2026-10-11T112606.png
 security:
 - kind: authentication
   name: Pipeshub Authentication
@@ -655,6 +671,16 @@ security:
   name: Pipeshub Domain Security
   slug: pipeshub-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: ask-a-cited-question
+  slug: pipeshub-ask-a-cited-question
+- name: browse-the-knowledge-graph
+  slug: pipeshub-browse-the-knowledge-graph
+- name: chat-with-an-agent
+  slug: pipeshub-chat-with-an-agent
+- name: find-and-read-a-document
+  slug: pipeshub-find-and-read-a-document
 slug: pipeshub
 tags:
 - Company

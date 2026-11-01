@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,27 +34,27 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carpenter-technology/refs/heads/main/security/carpenter-technology-domain-security.yml
+  href: https://artifacts.apis.io/carpenter-technology/security/carpenter-technology-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/carpenter-technology-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carpenter-technology/refs/heads/main/conformance/carpenter-technology-conformance.yml
+  href: https://artifacts.apis.io/carpenter-technology/conformance/carpenter-technology-conformance.yml
   title: ''
   type: Conformance
   url: conformance/carpenter-technology-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carpenter-technology/refs/heads/main/conformance/carpenter-technology-conformance.yml
+  href: https://artifacts.apis.io/carpenter-technology/conformance/carpenter-technology-conformance.yml
   title: ''
   type: Compliance
   url: conformance/carpenter-technology-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/carpenter-technology/refs/heads/main/llms/carpenter-technology-llms.txt
+  href: https://artifacts.apis.io/carpenter-technology/llms/carpenter-technology-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/carpenter-technology-llms.txt
@@ -154,10 +156,10 @@ press:
 - date: ''
   title: A Look At Carpenter Technology (CRS) Valuation After ...
   url: https://finance.yahoo.com/news/look-carpenter-technology-crs-valuation-151330338.html
-random_paper: 3
+random_paper: 5
 score:
   band: emerging
-  composite: 17.6
+  composite: 16.9
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -171,14 +173,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 17.6
+  previous_composite: 16.9
   provenance:
     conformance: first-party
   regulatory:
@@ -187,14 +189,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/carpenter-technology/refs/heads/main/screenshots/carpenter-technology-2026-06-20T174016.png
+screenshot: https://apis.io/screenshots/carpenter-technology/carpenter-technology-2026-06-20T174016.png
 security:
 - kind: domain-security
   name: Carpenter Technology Domain Security

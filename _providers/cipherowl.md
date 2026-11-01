@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-17'
+  score: 26.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -64,11 +66,8 @@ arazzos:
 - description: Screen a blockchain address, and when it is risky, drill down through score, breakdown, and path-level evidence, then generate an analyst-ready risk assessment. Seeded with co-sandbox test values so a
   name: CipherOwl SRR Investigation Funnel
   slug: cipherowl-srr-investigation
-artifact_total: 14
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CipherOwl Onchain Service API
   slug: open-cipherowl-onchain-service-api
@@ -79,8 +78,13 @@ collections:
   name: CipherOwl Onchain Service SRR API API
   slug: open-cipherowl-srr-api-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/cipherowl/plans/cipherowl-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cipherowl-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/capabilities/cipherowl-capability-edges.yml
+  href: https://artifacts.apis.io/cipherowl/capabilities/cipherowl-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cipherowl-capability-edges.yml
@@ -89,7 +93,7 @@ common:
   type: Website
   url: https://cipherowl.ai
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/overlays/cipherowl-openapi-overlay.yaml
+  href: https://artifacts.apis.io/cipherowl/overlays/cipherowl-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cipherowl-openapi-overlay.yaml
@@ -146,52 +150,52 @@ common:
   type: ChangeLog
   url: https://readme.cipherowl.ai/reference/release-notes
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/llms/cipherowl-llms.txt
+  href: https://artifacts.apis.io/cipherowl/llms/cipherowl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cipherowl-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/well-known/cipherowl-well-known.yml
+  href: https://artifacts.apis.io/cipherowl/well-known/cipherowl-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cipherowl-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/well-known/cipherowl-security.txt
+  href: https://artifacts.apis.io/cipherowl/well-known/cipherowl-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cipherowl-security.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/packages/cipherowl-packages.yml
+  href: https://artifacts.apis.io/cipherowl/packages/cipherowl-packages.yml
   title: ''
   type: Packages
   url: packages/cipherowl-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/cli/cipherowl-cli.yml
+  href: https://artifacts.apis.io/cipherowl/cli/cipherowl-cli.yml
   title: ''
   type: CLI
   url: cli/cipherowl-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/mcp/cipherowl-mcp.yml
+  href: https://artifacts.apis.io/cipherowl/mcp/cipherowl-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cipherowl-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cipherowl/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/lifecycle/cipherowl-lifecycle.yml
+  href: https://artifacts.apis.io/cipherowl/lifecycle/cipherowl-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cipherowl-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/lifecycle/cipherowl-lifecycle.yml
+  href: https://artifacts.apis.io/cipherowl/lifecycle/cipherowl-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/cipherowl-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/conformance/cipherowl-conformance.yml
+  href: https://artifacts.apis.io/cipherowl/conformance/cipherowl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cipherowl-conformance.yml
@@ -200,22 +204,22 @@ common:
   type: Compliance
   url: https://cipherowl.com/trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/security/cipherowl-trust-center.yml
+  href: https://artifacts.apis.io/cipherowl/security/cipherowl-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cipherowl-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/authentication/cipherowl-authentication.yml
+  href: https://artifacts.apis.io/cipherowl/authentication/cipherowl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cipherowl-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/security/cipherowl-domain-security.yml
+  href: https://artifacts.apis.io/cipherowl/security/cipherowl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cipherowl-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/security/cipherowl-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cipherowl/security/cipherowl-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cipherowl-vulnerability-disclosure.yml
@@ -224,12 +228,20 @@ common:
   type: Security
   url: https://cipherowl.com/trust
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/agentic-access/cipherowl-agentic-access.yml
+  href: https://artifacts.apis.io/cipherowl/agentic-access/cipherowl-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cipherowl-agentic-access.yml
 created: '2026-07-17'
 description: 'CipherOwl provides AI-powered security and compliance for institutional stablecoins and digital assets. Its Screening, Risk & Reporting (SRR) API turns a blockchain address into a compliance decision: real-time sanctions and risk screening, deterministic 0-100 risk scoring, categorized risk breakdowns, path-level exposure evidence (including cross-chain), and analyst-ready risk assessment, SAR, and risk-flow-graph reports across Bitcoin, EVM, Tron, Solana, XRP and more. The platform also offers an Onchain balance service and a Private Data override service, an OwlTrace research experience, a Strix AI investigation agent, and a first-party CLI (cipherowl-sr3) that doubles as a Model Context Protocol server. Authentication is OAuth 2.0 client-credentials.'
+finops:
+- has_sources: true
+  method: derived
+  name: Cipherowl Finops
+  primary_unit: credits
+  service_category: ''
+  slug: cipherowl-finops
+  template: false
 image: https://cipherowl.com/og.png
 layout: provider
 mcp_servers:
@@ -243,27 +255,34 @@ network: true
 overview: 'CipherOwl publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Onchain Service API, Private Data API, and SRR API. Tagged areas include Blockchain, Compliance, Cryptocurrency, Security, and Risk Management.
 
 
-  CipherOwl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 5
+  CipherOwl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+plans:
+- name: Cipherowl Plans Pricing
+  plan_count: 5
+  slug: cipherowl-plans-pricing
+- name: Cipherowl Price Estimates
+  plan_count: 0
+  slug: cipherowl-price-estimates
+random_paper: 13
 score:
   band: strong
-  composite: 54.9
+  composite: 65.0
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 47.4
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 45.9
-    developer_ergonomics: 51.8
-    discoverability: 71.7
-    operational_transparency: 44.7
-  previous_composite: 54.8
+    developer_ergonomics: 73.2
+    discoverability: 65.0
+    operational_transparency: 55.3
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -280,13 +299,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/screenshots/cipherowl-2026-07-25T205400.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cipherowl/cipherowl-2026-07-25T205400.png
 security:
 - kind: authentication
   name: Cipherowl Authentication
@@ -304,6 +324,16 @@ security:
   name: Cipherowl Trust Center
   slug: cipherowl-trust-center
   summary_line: SOC 2 Type II
+skill_count: 4
+skills:
+- name: Authenticate to the CipherOwl API
+  slug: cipherowl-authenticate
+- name: Investigate a risky address and generate a report
+  slug: cipherowl-investigate-and-report
+- name: Manage private-data address overrides
+  slug: cipherowl-manage-overrides
+- name: Screen a blockchain address at the gate
+  slug: cipherowl-screen-address
 slug: cipherowl
 tags:
 - Blockchain

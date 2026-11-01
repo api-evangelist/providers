@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-17'
+  score: 20.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,11 +78,8 @@ apis:
   description: News articles published on Commerce.gov
   name: US Department of Commerce News API
   slug: us-department-of-commerce-news-api
-artifact_total: 25
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Commerce.gov API
   slug: open-commerce-gov-api
@@ -95,27 +94,27 @@ collections:
   slug: open-us-department-of-commerce-news-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/plans/us-department-of-commerce-plans-pricing.yml
+  href: https://artifacts.apis.io/us-department-of-commerce/plans/us-department-of-commerce-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/us-department-of-commerce-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/rate-limits/us-department-of-commerce-rate-limits.yml
+  href: https://artifacts.apis.io/us-department-of-commerce/rate-limits/us-department-of-commerce-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/us-department-of-commerce-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/finops/us-department-of-commerce-finops.yml
+  href: https://artifacts.apis.io/us-department-of-commerce/finops/us-department-of-commerce-finops.yml
   title: ''
   type: FinOps
   url: finops/us-department-of-commerce-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/agentic-access/us-department-of-commerce-agentic-access.yml
+  href: https://artifacts.apis.io/us-department-of-commerce/agentic-access/us-department-of-commerce-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/us-department-of-commerce-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/security/us-department-of-commerce-domain-security.yml
+  href: https://artifacts.apis.io/us-department-of-commerce/security/us-department-of-commerce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/us-department-of-commerce-domain-security.yml
@@ -168,7 +167,7 @@ plans:
 - name: Us Department Of Commerce Plans Pricing
   plan_count: 1
   slug: us-department-of-commerce-plans-pricing
-random_paper: 13
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Us Department Of Commerce Rate Limits
@@ -199,7 +198,7 @@ rules:
   slug: us-department-of-commerce-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 24.1
+  composite: 24.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 49.5
@@ -207,20 +206,20 @@ score:
     catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 51.4
     developer_ergonomics: 9.5
     discoverability: 57.1
-    operational_transparency: 10.5
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 27.4
+  previous_composite: 24.5
   provenance:
     agentic_access: derived
     contracts:
@@ -234,14 +233,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/screenshots/us-department-of-commerce-2026-06-20T200620.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/us-department-of-commerce/us-department-of-commerce-2026-06-20T200620.png
 security:
 - kind: domain-security
   name: Us Department Of Commerce Domain Security

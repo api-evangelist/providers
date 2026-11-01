@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'FusionFeed is Infinite Athlete''s sports and performance data API, built on the Tempus Ex platform. It provides schedules, team rosters on a game-by-game basis, official stats delivered the moment the '
@@ -58,17 +60,17 @@ common:
   type: GettingStarted
   url: https://docs.tempus-ex.com/fusionfeed
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infinite-athlete/refs/heads/main/authentication/infinite-athlete-authentication.yml
+  href: https://artifacts.apis.io/infinite-athlete/authentication/infinite-athlete-authentication.yml
   title: ''
   type: Authentication
   url: authentication/infinite-athlete-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infinite-athlete/refs/heads/main/scopes/infinite-athlete-scopes.yml
+  href: https://artifacts.apis.io/infinite-athlete/scopes/infinite-athlete-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/infinite-athlete-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infinite-athlete/refs/heads/main/conventions/infinite-athlete-conventions.yml
+  href: https://artifacts.apis.io/infinite-athlete/conventions/infinite-athlete-conventions.yml
   title: ''
   type: Conventions
   url: conventions/infinite-athlete-conventions.yml
@@ -77,27 +79,27 @@ common:
   type: RateLimits
   url: https://docs.tempus-ex.com/fusionfeed/limits
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infinite-athlete/refs/heads/main/lifecycle/infinite-athlete-lifecycle.yml
+  href: https://artifacts.apis.io/infinite-athlete/lifecycle/infinite-athlete-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/infinite-athlete-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infinite-athlete/refs/heads/main/conformance/infinite-athlete-conformance.yml
+  href: https://artifacts.apis.io/infinite-athlete/conformance/infinite-athlete-conformance.yml
   title: ''
   type: Conformance
   url: conformance/infinite-athlete-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infinite-athlete/refs/heads/main/security/infinite-athlete-domain-security.yml
+  href: https://artifacts.apis.io/infinite-athlete/security/infinite-athlete-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/infinite-athlete-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/infinite-athlete/refs/heads/main/well-known/infinite-athlete-well-known.yml
+  href: https://artifacts.apis.io/infinite-athlete/well-known/infinite-athlete-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/infinite-athlete-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/infinite-athlete/refs/heads/main/llms/infinite-athlete-llms.txt
+  href: https://artifacts.apis.io/infinite-athlete/llms/infinite-athlete-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/infinite-athlete-llms.txt
@@ -134,15 +136,15 @@ overview: 'Infinite Athlete is listed with 1 API on the [APIs.io](https://apis.i
 
 
   Infinite Athlete''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 14
+random_paper: 10
 scopes:
 - name: Infinite Athlete Scopes
   scope_count: 7
   slug: infinite-athlete-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 24.7
+  band: thin
+  composite: 27.9
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -150,15 +152,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 23.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 52.4
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 24.6
+    developer_ergonomics: 57.1
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 27.9
   provenance:
     conformance: first-party
   regulatory:
@@ -166,15 +168,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 30.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/infinite-athlete/refs/heads/main/screenshots/infinite-athlete-2026-07-25T222606.png
+screenshot: https://apis.io/screenshots/infinite-athlete/infinite-athlete-2026-07-25T222606.png
 security:
 - kind: authentication
   name: Infinite Athlete Authentication

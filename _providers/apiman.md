@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-17'
+  score: 20.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 2
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 199
   slug: apiman-agentic-access
   summary_line: 199 operations · 69 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: Apiman is an open source API management platform with a developer portal, API gateway, and management UI supporting policies, plans, organizations, multi-tenancy, and extensible Java-based plugin arch
   name: Apiman
@@ -121,11 +123,8 @@ apis:
   description: The Users API from Apiman — 13 operation(s) for users.
   name: Apiman Users API
   slug: apiman-users-api
-artifact_total: 61
+artifact_total: 65
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: API Manager REST Actions API
   slug: open-apiman-actions-api
@@ -176,12 +175,12 @@ collections:
   slug: open-apiman
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/finops/apiman-finops.yml
+  href: https://artifacts.apis.io/apiman/finops/apiman-finops.yml
   title: ''
   type: FinOps
   url: finops/apiman-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/capabilities/apiman-capability-edges.yml
+  href: https://artifacts.apis.io/apiman/capabilities/apiman-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/apiman-capability-edges.yml
@@ -210,12 +209,12 @@ common:
   type: Support
   url: https://www.apiman.io/support.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/agentic-access/apiman-agentic-access.yml
+  href: https://artifacts.apis.io/apiman/agentic-access/apiman-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apiman-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/security/apiman-domain-security.yml
+  href: https://artifacts.apis.io/apiman/security/apiman-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apiman-domain-security.yml
@@ -252,7 +251,7 @@ common:
   type: ChangeLog
   url: https://www.apiman.io/changelog.html
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/changelog/apiman-changelog.yml
+  href: https://artifacts.apis.io/apiman/changelog/apiman-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/apiman-changelog.yml
@@ -261,77 +260,77 @@ common:
   type: Deprecation
   url: https://github.com/apiman/apiman/blob/master/SECURITY.md
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/lifecycle/apiman-lifecycle.yml
+  href: https://artifacts.apis.io/apiman/lifecycle/apiman-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apiman-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/authentication/apiman-authentication.yml
+  href: https://artifacts.apis.io/apiman/authentication/apiman-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apiman-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/conventions/apiman-conventions.yml
+  href: https://artifacts.apis.io/apiman/conventions/apiman-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apiman-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/errors/apiman-problem-types.yml
+  href: https://artifacts.apis.io/apiman/errors/apiman-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/apiman-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/data-model/apiman-data-model.yml
+  href: https://artifacts.apis.io/apiman/data-model/apiman-data-model.yml
   title: ''
   type: DataModel
   url: data-model/apiman-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/conformance/apiman-conformance.yml
+  href: https://artifacts.apis.io/apiman/conformance/apiman-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apiman-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/packages/apiman-packages.yml
+  href: https://artifacts.apis.io/apiman/packages/apiman-packages.yml
   title: ''
   type: Packages
   url: packages/apiman-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/cli/apiman-cli.yml
+  href: https://artifacts.apis.io/apiman/cli/apiman-cli.yml
   title: ''
   type: CLI
   url: cli/apiman-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/sandbox/apiman-sandbox.yml
+  href: https://artifacts.apis.io/apiman/sandbox/apiman-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/apiman-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/llms/apiman-llms.txt
+  href: https://artifacts.apis.io/apiman/llms/apiman-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apiman-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/apiman/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/mcp/apiman-mcp.yml
+  href: https://artifacts.apis.io/apiman/mcp/apiman-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/apiman-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/security/apiman-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apiman/security/apiman-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apiman-vulnerability-disclosure.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/plans/apiman-plans-pricing.yml
+  href: https://artifacts.apis.io/apiman/plans/apiman-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apiman-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/rate-limits/apiman-rate-limits.yml
+  href: https://artifacts.apis.io/apiman/rate-limits/apiman-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apiman-rate-limits.yml
@@ -366,11 +365,11 @@ features:
 - description: Configurable approval workflows for API subscriptions with notification and event support.
   name: Approval Workflows
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Apiman Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: apiman-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apiman.png
@@ -409,7 +408,7 @@ plans:
 - name: Apiman Plans Pricing
   plan_count: 0
   slug: apiman-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Apiman Rate Limits
@@ -428,7 +427,7 @@ rules:
   slug: apiman-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.2
+  composite: 40.4
   coverage:
     artifact_dirs: 32
     catalog_earned: 57.3
@@ -436,18 +435,15 @@ score:
     catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 28.0
-    contract_quality: 48.4
+    contract_quality: 45.9
     developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 75.0
-  previous_composite: 45.5
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -464,13 +460,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/screenshots/apiman-2026-06-20T172245.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apiman/apiman-2026-06-20T172245.png
 security:
 - kind: authentication
   name: Apiman Authentication
@@ -484,6 +481,18 @@ security:
   name: Apiman Vulnerability Disclosure
   slug: apiman-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 5
+skills:
+- name: Read Apiman usage metrics and audit history
+  slug: apiman-audit-usage
+- name: Govern an API with plans and policies
+  slug: apiman-govern-with-plans-and-policies
+- name: Onboard a client app and issue an API key
+  slug: apiman-onboard-a-client
+- name: Publish an API through Apiman
+  slug: apiman-publish-an-api
+- name: Retire and clean up Apiman entities safely
+  slug: apiman-retire-and-clean-up
 slug: apiman
 solutions:
 - description: Free, Apache-licensed API management platform deployable on any JVM-based infrastructure.

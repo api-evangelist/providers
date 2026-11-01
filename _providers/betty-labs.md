@@ -24,7 +24,7 @@ name: Betty Labs
 nav: Providers
 network: true
 overview: Betty Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Live Audio, Social Audio, Sports, and Consumer.
-random_paper: 3
+random_paper: 7
 slug: betty-labs
 tags:
 - Company

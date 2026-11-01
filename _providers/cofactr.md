@@ -14,6 +14,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.3
-  scored_at: '2026-10-17'
+  score: 41.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,15 +66,12 @@ arazzos:
 - description: Search the Cofactr Knowledge Graph for a part, then view its full detail.
   name: Cofactr — search and view a component
   slug: cofactr-search-and-view-product
-artifact_total: 13
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Cofactr Platform Webhooks
   slug: cofactr-platform-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cofactr Knowledge Graph batch API
   slug: open-cofactr-batch-api
@@ -120,102 +120,102 @@ common:
   type: GitHubOrganization
   url: https://github.com/Cofactr
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/authentication/cofactr-authentication.yml
+  href: https://artifacts.apis.io/cofactr/authentication/cofactr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cofactr-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/openapi/_original/cofactr-knowledge-graph-openapi-original.json
+  href: https://artifacts.apis.io/cofactr/openapi/_original/cofactr-knowledge-graph-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/cofactr-knowledge-graph-openapi-original.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/overlays/cofactr-knowledge-graph-overlay.yaml
+  href: https://artifacts.apis.io/cofactr/overlays/cofactr-knowledge-graph-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cofactr-knowledge-graph-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/packages/cofactr-packages.yml
+  href: https://artifacts.apis.io/cofactr/packages/cofactr-packages.yml
   title: ''
   type: Packages
   url: packages/cofactr-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/packages/cofactr-packages.yml
+  href: https://artifacts.apis.io/cofactr/packages/cofactr-packages.yml
   title: ''
   type: SDKs
   url: packages/cofactr-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/asyncapi/cofactr-platform-webhooks.yml
+  href: https://artifacts.apis.io/cofactr/asyncapi/cofactr-platform-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cofactr-platform-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/mcp/cofactr-mcp.yml
+  href: https://artifacts.apis.io/cofactr/mcp/cofactr-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cofactr-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cofactr/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/llms/cofactr-llms.txt
+  href: https://artifacts.apis.io/cofactr/llms/cofactr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cofactr-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/errors/cofactr-problem-types.yml
+  href: https://artifacts.apis.io/cofactr/errors/cofactr-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cofactr-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/conventions/cofactr-conventions.yml
+  href: https://artifacts.apis.io/cofactr/conventions/cofactr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cofactr-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/lifecycle/cofactr-lifecycle.yml
+  href: https://artifacts.apis.io/cofactr/lifecycle/cofactr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cofactr-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/rate-limits/cofactr-rate-limits.yml
+  href: https://artifacts.apis.io/cofactr/rate-limits/cofactr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cofactr-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/conformance/cofactr-conformance.yml
+  href: https://artifacts.apis.io/cofactr/conformance/cofactr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cofactr-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/data-model/cofactr-data-model.yml
+  href: https://artifacts.apis.io/cofactr/data-model/cofactr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cofactr-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/sandbox/cofactr-sandbox.yml
+  href: https://artifacts.apis.io/cofactr/sandbox/cofactr-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cofactr-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/arazzo/cofactr-search-and-view-product.yml
+  href: https://artifacts.apis.io/cofactr/arazzo/cofactr-search-and-view-product.yml
   title: ''
   type: Arazzo
   url: arazzo/cofactr-search-and-view-product.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/agentic-access/cofactr-agentic-access.yml
+  href: https://artifacts.apis.io/cofactr/agentic-access/cofactr-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cofactr-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/security/cofactr-domain-security.yml
+  href: https://artifacts.apis.io/cofactr/security/cofactr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cofactr-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/security/cofactr-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cofactr/security/cofactr-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cofactr-vulnerability-disclosure.yml
@@ -238,30 +238,30 @@ overview: 'Cofactr publishes 3 API contracts indexed on the [APIs.io](https://ap
 
 
   Cofactr''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 24 more developer resources.'
-random_paper: 12
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Cofactr Rate Limits
   slug: cofactr-rate-limits
 score:
   band: developing
-  composite: 45.7
+  composite: 48.7
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 60.6
     developer_ergonomics: 70.8
-    discoverability: 73.2
-    operational_transparency: 21.1
-  previous_composite: 45.6
+    discoverability: 66.1
+    operational_transparency: 23.7
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -269,7 +269,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 4
     mcp: derived
     skills: derived
   regulatory:
@@ -278,13 +278,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/screenshots/cofactr-2026-07-25T205951.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cofactr/cofactr-2026-07-25T205951.png
 security:
 - kind: authentication
   name: Cofactr Authentication
@@ -298,6 +299,12 @@ security:
   name: Cofactr Vulnerability Disclosure
   slug: cofactr-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 2
+skills:
+- name: Batch-resolve a BOM against Cofactr
+  slug: cofactr-batch-part-lookup
+- name: Find an electronic component with Cofactr
+  slug: cofactr-find-component
 slug: cofactr
 tags:
 - Company

@@ -6,7 +6,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: false
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 10.8
-  scored_at: '2026-10-17'
+  score: 8.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Worldia production REST API. An API Platform (Symfony) deployment that content-negotiates application/vnd.worldia+json, application/ld+json (Hydra) and application/problem+json. A subset of collection
@@ -31,6 +33,35 @@ apis:
   slug: worldia-api
 artifact_total: 21
 common:
+- group: agent
+  href: https://artifacts.apis.io/worldia/llms/worldia-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/worldia-llms.txt
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.worldia.com/
+- group: operate
+  href: https://artifacts.apis.io/worldia/lifecycle/worldia-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/worldia-lifecycle.yml
+- group: agent
+  href: https://artifacts.apis.io/worldia/well-known/worldia-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/worldia-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/worldia/hosts/worldia-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/worldia-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/worldia/vendors/worldia-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/worldia-vendors.yml
 - group: company
   title: ''
   type: Website
@@ -56,70 +87,62 @@ common:
   type: PrivacyPolicy
   url: https://static.worldia.com/documents/privacy-policy/GB.pdf
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/json-ld/worldia-json-ld.yml
+  href: https://artifacts.apis.io/worldia/json-ld/worldia-json-ld.yml
   title: ''
   type: JSONLD
   url: json-ld/worldia-json-ld.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/vocabulary/worldia-vocabulary.yml
+  href: https://artifacts.apis.io/worldia/vocabulary/worldia-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/worldia-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/data-model/worldia-data-model.yml
+  href: https://artifacts.apis.io/worldia/data-model/worldia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/worldia-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/conventions/worldia-conventions.yml
+  href: https://artifacts.apis.io/worldia/conventions/worldia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/worldia-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/errors/worldia-problem-types.yml
+  href: https://artifacts.apis.io/worldia/errors/worldia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/worldia-problem-types.yml
-- group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/authentication/worldia-authentication.yml
-  title: ''
-  type: Authentication
-  url: authentication/worldia-authentication.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/packages/worldia-packages.yml
-  title: ''
-  type: Packages
-  url: packages/worldia-packages.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/llms/worldia-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/worldia-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/conformance/worldia-conformance.yml
+  href: https://artifacts.apis.io/worldia/conformance/worldia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/worldia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/lifecycle/worldia-lifecycle.yml
+  href: https://artifacts.apis.io/worldia/lifecycle/worldia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/worldia-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/plans/worldia-plans-pricing.yml
+  href: https://artifacts.apis.io/worldia/plans/worldia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/worldia-plans-pricing.yml
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/rate-limits/worldia-rate-limits.yml
-  title: ''
-  type: RateLimits
-  url: rate-limits/worldia-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/security/worldia-domain-security.yml
+  href: https://artifacts.apis.io/worldia/security/worldia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/worldia-domain-security.yml
+coverage:
+  checked: '2026-10-20'
+  detail: api.worldia.com is a live API Platform deployment but serves no OpenAPI or Hydra documentation (/docs.json and /docs.jsonld return 404 problem+json) and Worldia publishes no developer docs, only a French/English traveler help center.
+  evidence:
+  - status: 404
+    url: https://api.worldia.com/docs.json
+  - status: 404
+    url: https://api.worldia.com/docs.jsonld
+  - status: 404
+    url: https://api.worldia.com/
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-09-04'
 description: Worldia is a Paris-based B2B2C travel technology company, founded in 2012 and headquartered in Montreuil, France, that lets travel distributors, retailers and agents build, price and book personalized tailor-made trips across more than 80 destinations from a single connected platform. Its product is a white-label trip-building and booking stack — a curated multi-supplier catalogue of accommodations, activities, transfers, car hire, rail and flights, combined with itinerary templates, channel-specific branding and 24/7 traveler support — delivered to each partner as a branded storefront. The platform is driven by a production REST API at api.worldia.com built on API Platform (Symfony) that content-negotiates JSON-LD and Hydra and is multi-tenanted through a required X-Channel header; Worldia publishes no developer portal, OpenAPI or public API reference, so the API is reached through commercial partnership rather than self-service signup.
 image: https://f.hubspotusercontent20.net/hubfs/9239422/WORLDIA/GENERAL/mainlogo.png
@@ -199,12 +222,12 @@ overview: 'Worldia is listed with 1 API on the [APIs.io](https://apis.io/) netwo
   The Worldia catalog on APIs.io includes 16 JSON-LD contexts.
 
 
-  Worldia''s developer surface includes support, signup flow, authentication, and 16 more developer resources.'
+  Worldia''s developer surface includes documentation, support, signup flow, and 18 more developer resources.'
 plans:
 - name: Worldia Plans Pricing
   plan_count: 0
   slug: worldia-plans-pricing
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Worldia Rate Limits
@@ -213,20 +236,20 @@ score:
   band: emerging
   composite: 24.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 19
     catalog_earned: 49.3
     catalog_earned_first_party: 0.0
     catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 22.0
     contract_quality: 14.7
-    developer_ergonomics: 16.7
+    developer_ergonomics: 14.3
     discoverability: 66.1
-    operational_transparency: 2.6
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -235,7 +258,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 24.8
+  previous_composite: 24.9
   provenance:
     conformance: first-party
   regulatory:
@@ -243,15 +266,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/screenshots/worldia-2026-10-11T195751.png
+screenshot: https://apis.io/screenshots/worldia/worldia-2026-10-11T195751.png
 security:
 - kind: authentication
   name: Worldia Authentication

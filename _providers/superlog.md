@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.7
-  scored_at: '2026-10-17'
+  score: 46.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 17
   slug: superlog-agentic-access
   summary_line: 17 operations · 8 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.superlog.sh
   baseurl_source: declared
@@ -70,15 +72,12 @@ arazzos:
 - description: Create a new Superlog project, then mint a project-scoped OTLP ingest key so a service can start sending OpenTelemetry telemetry.
   name: Provision a Superlog project and mint an ingest key
   slug: superlog-provision-project
-artifact_total: 17
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Superlog Webhooks
   slug: superlog-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Superlog Management API keys API
   slug: open-superlog-api-keys-api
@@ -92,12 +91,17 @@ collections:
   name: Superlog Management API keys Telemetry read API
   slug: open-superlog-telemetry-read-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/superlog/plans/superlog-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/superlog-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
   url: https://superlog.sh/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/capabilities/superlog-capability-edges.yml
+  href: https://artifacts.apis.io/superlog/capabilities/superlog-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/superlog-capability-edges.yml
@@ -106,12 +110,12 @@ common:
   type: Website
   url: https://www.superlog.sh/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/overlays/superlog-management-overlay.yaml
+  href: https://artifacts.apis.io/superlog/overlays/superlog-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/superlog-management-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/security/superlog-trust-center.yml
+  href: https://artifacts.apis.io/superlog/security/superlog-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/superlog-trust-center.yml
@@ -120,7 +124,7 @@ common:
   type: Compliance
   url: https://trust.superlog.sh/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/arazzo/superlog-provision-project.yml
+  href: https://artifacts.apis.io/superlog/arazzo/superlog-provision-project.yml
   title: ''
   type: Arazzo
   url: arazzo/superlog-provision-project.yml
@@ -149,77 +153,85 @@ common:
   type: SignUp
   url: https://app.superlog.sh
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/authentication/superlog-authentication.yml
+  href: https://artifacts.apis.io/superlog/authentication/superlog-authentication.yml
   title: ''
   type: Authentication
   url: authentication/superlog-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/scopes/superlog-scopes.yml
+  href: https://artifacts.apis.io/superlog/scopes/superlog-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/superlog-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/mcp/superlog-mcp.yml
+  href: https://artifacts.apis.io/superlog/mcp/superlog-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/superlog-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/packages/superlog-packages.yml
+  href: https://artifacts.apis.io/superlog/packages/superlog-packages.yml
   title: ''
   type: Packages
   url: packages/superlog-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/packages/superlog-packages.yml
+  href: https://artifacts.apis.io/superlog/packages/superlog-packages.yml
   title: ''
   type: SDKs
   url: packages/superlog-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/cli/superlog-cli.yml
+  href: https://artifacts.apis.io/superlog/cli/superlog-cli.yml
   title: ''
   type: CLI
   url: cli/superlog-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/superlog/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/well-known/superlog-well-known.yml
+  href: https://artifacts.apis.io/superlog/well-known/superlog-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/superlog-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/asyncapi/superlog-webhooks.yml
+  href: https://artifacts.apis.io/superlog/asyncapi/superlog-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/superlog-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/conventions/superlog-conventions.yml
+  href: https://artifacts.apis.io/superlog/conventions/superlog-conventions.yml
   title: ''
   type: Conventions
   url: conventions/superlog-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/conformance/superlog-conformance.yml
+  href: https://artifacts.apis.io/superlog/conformance/superlog-conformance.yml
   title: ''
   type: Conformance
   url: conformance/superlog-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/lifecycle/superlog-lifecycle.yml
+  href: https://artifacts.apis.io/superlog/lifecycle/superlog-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/superlog-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/security/superlog-domain-security.yml
+  href: https://artifacts.apis.io/superlog/security/superlog-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/superlog-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/llms/superlog-llms.txt
+  href: https://artifacts.apis.io/superlog/llms/superlog-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/superlog-llms.txt
 created: '2026-07-17'
 description: Superlog is an AI-native, open-core observability platform (Y Combinator, Spring 2026) that ingests OpenTelemetry traces, logs, and metrics over OTLP, groups noisy signals into incidents, and dispatches AI agents to investigate root causes and open fix pull requests automatically. It offers a Management REST API for provisioning projects and ingest keys, OTLP ingest endpoints, a hosted Model Context Protocol (MCP) server so coding assistants like Claude and Cursor can query telemetry and incidents, signed incident webhooks, and GitHub/Slack/Linear/AWS integrations. The Community edition is Apache-2.0 licensed and self-hostable via Docker Compose; Superlog Cloud is the managed offering.
+finops:
+- has_sources: true
+  method: derived
+  name: Superlog Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: superlog-finops
+  template: false
 image: https://media.brand.dev/b517a2c9-12a7-4caa-9afc-34d21e942292.jpg
 layout: provider
 mcp_servers:
@@ -236,32 +248,39 @@ overview: 'Superlog publishes 4 API contracts indexed on the [APIs.io](https://a
   The Superlog catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Superlog''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 20 more developer resources.'
-random_paper: 1
+  Superlog''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 21 more developer resources.'
+plans:
+- name: Superlog Plans Pricing
+  plan_count: 4
+  slug: superlog-plans-pricing
+- name: Superlog Price Estimates
+  plan_count: 0
+  slug: superlog-price-estimates
+random_paper: 17
 scopes:
 - name: Superlog Scopes
   scope_count: 3
   slug: superlog-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 42.9
+  band: strong
+  composite: 54.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 7.9
   facets:
-    access_clarity: 14.5
+    access_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 52.8
     developer_ergonomics: 73.8
-    discoverability: 75.0
-    operational_transparency: 10.5
-  previous_composite: 42.4
+    discoverability: 65.0
+    operational_transparency: 13.2
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -277,14 +296,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 31.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/screenshots/superlog-2026-08-17T082159.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/superlog/superlog-2026-08-17T082159.png
 security:
 - kind: authentication
   name: Superlog Authentication
@@ -298,6 +318,12 @@ security:
   name: Superlog Trust Center
   slug: superlog-trust-center
   summary_line: SOC 2
+skill_count: 2
+skills:
+- name: superlog-debug
+  slug: superlog-debug
+- name: superlog-onboard
+  slug: superlog-onboard
 slug: superlog
 tags:
 - Company

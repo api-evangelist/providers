@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: The Triggers API from Apache OpenWhisk — 2 operation(s) for triggers.
   name: Apache OpenWhisk Triggers API
   slug: apache-openwhisk-triggers-api
-artifact_total: 95
+artifact_total: 94
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apache OpenWhisk REST Actions API
   slug: open-apache-openwhisk-actions-api
@@ -100,17 +99,17 @@ collections:
   slug: open-apache-openwhisk-triggers-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/plans/apache-openwhisk-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-openwhisk/plans/apache-openwhisk-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-openwhisk-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/rate-limits/apache-openwhisk-rate-limits.yml
+  href: https://artifacts.apis.io/apache-openwhisk/rate-limits/apache-openwhisk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-openwhisk-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/finops/apache-openwhisk-finops.yml
+  href: https://artifacts.apis.io/apache-openwhisk/finops/apache-openwhisk-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-openwhisk-finops.yml
@@ -119,22 +118,22 @@ common:
   type: Website
   url: https://apache.org
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/agentic-access/apache-openwhisk-agentic-access.yml
+  href: https://artifacts.apis.io/apache-openwhisk/agentic-access/apache-openwhisk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-openwhisk-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/security/apache-openwhisk-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-openwhisk/security/apache-openwhisk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-openwhisk-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/security/apache-openwhisk-domain-security.yml
+  href: https://artifacts.apis.io/apache-openwhisk/security/apache-openwhisk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-openwhisk-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/authentication/apache-openwhisk-authentication.yml
+  href: https://artifacts.apis.io/apache-openwhisk/authentication/apache-openwhisk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apache-openwhisk-authentication.yml
@@ -147,17 +146,17 @@ common:
   type: Documentation
   url: https://openwhisk.apache.org/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/rules/apache-openwhisk-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-openwhisk/rules/apache-openwhisk-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-openwhisk-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/vocabulary/apache-openwhisk-vocabulary.yaml
+  href: https://artifacts.apis.io/apache-openwhisk/vocabulary/apache-openwhisk-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-openwhisk-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/json-ld/apache-openwhisk-context.jsonld
+  href: https://artifacts.apis.io/apache-openwhisk/json-ld/apache-openwhisk-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/apache-openwhisk-context.jsonld
@@ -237,7 +236,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Openwhisk Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-openwhisk-finops
   template: true
@@ -386,7 +385,7 @@ plans:
 - name: Apache Openwhisk Plans Pricing
   plan_count: 3
   slug: apache-openwhisk-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Apache Openwhisk Rate Limits
@@ -417,23 +416,23 @@ rules:
   slug: apache-openwhisk-spectral-rules
 score:
   band: emerging
-  composite: 25.6
+  composite: 24.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 61.0
     catalog_earned_first_party: 0.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 20.5
     developer_ergonomics: 21.4
     discoverability: 62.5
-    operational_transparency: 10.5
-  previous_composite: 27.1
+    operational_transparency: 23.7
+  previous_composite: 24.7
   provenance:
     agentic_access: derived
     contracts:
@@ -447,13 +446,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/screenshots/apache-openwhisk-2026-06-20T172129.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-openwhisk/apache-openwhisk-2026-06-20T172129.png
 security:
 - kind: authentication
   name: Apache Openwhisk Authentication

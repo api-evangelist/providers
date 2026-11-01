@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.7
-  scored_at: '2026-10-17'
+  score: 29.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -205,9 +207,6 @@ collections:
   name: IPinfo.io OpenAPI Specification abuse whois API
   slug: postman-ipinfo-whois-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: IPinfo.io OpenAPI Specification abuse API
   slug: open-ipinfo-abuse-api
 - collection_type: open
@@ -263,17 +262,17 @@ collections:
   slug: open-ipinfo
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/plans/ipinfo-plans-pricing.yml
+  href: https://artifacts.apis.io/ipinfo/plans/ipinfo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ipinfo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/rate-limits/ipinfo-rate-limits.yml
+  href: https://artifacts.apis.io/ipinfo/rate-limits/ipinfo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ipinfo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/finops/ipinfo-finops.yml
+  href: https://artifacts.apis.io/ipinfo/finops/ipinfo-finops.yml
   title: ''
   type: FinOps
   url: finops/ipinfo-finops.yml
@@ -282,107 +281,107 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/ipinfo/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/agentic-access/ipinfo-agentic-access.yml
+  href: https://artifacts.apis.io/ipinfo/agentic-access/ipinfo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ipinfo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/security/ipinfo-domain-security.yml
+  href: https://artifacts.apis.io/ipinfo/security/ipinfo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ipinfo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/authentication/ipinfo-authentication.yml
+  href: https://artifacts.apis.io/ipinfo/authentication/ipinfo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ipinfo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/arazzo/ipinfo-abuse-reporting-workflow.yml
+  href: https://artifacts.apis.io/ipinfo/arazzo/ipinfo-abuse-reporting-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ipinfo-abuse-reporting-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/arazzo/ipinfo-asn-prefix-recon-workflow.yml
+  href: https://artifacts.apis.io/ipinfo/arazzo/ipinfo-asn-prefix-recon-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ipinfo-asn-prefix-recon-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/arazzo/ipinfo-batch-then-detail-workflow.yml
+  href: https://artifacts.apis.io/ipinfo/arazzo/ipinfo-batch-then-detail-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ipinfo-batch-then-detail-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/arazzo/ipinfo-ip-to-company-workflow.yml
+  href: https://artifacts.apis.io/ipinfo/arazzo/ipinfo-ip-to-company-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ipinfo-ip-to-company-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/arazzo/ipinfo-my-ip-enrichment-workflow.yml
+  href: https://artifacts.apis.io/ipinfo/arazzo/ipinfo-my-ip-enrichment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ipinfo-my-ip-enrichment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/arazzo/ipinfo-summarize-and-map-workflow.yml
+  href: https://artifacts.apis.io/ipinfo/arazzo/ipinfo-summarize-and-map-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ipinfo-summarize-and-map-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/arazzo/ipinfo-threat-screening-workflow.yml
+  href: https://artifacts.apis.io/ipinfo/arazzo/ipinfo-threat-screening-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ipinfo-threat-screening-workflow.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/packages/ipinfo-packages.yml
+  href: https://artifacts.apis.io/ipinfo/packages/ipinfo-packages.yml
   title: ''
   type: Packages
   url: packages/ipinfo-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/mcp/ipinfo-mcp.yml
+  href: https://artifacts.apis.io/ipinfo/mcp/ipinfo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ipinfo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/llms/ipinfo-llms.txt
+  href: https://artifacts.apis.io/ipinfo/llms/ipinfo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ipinfo-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/well-known/ipinfo-well-known.yml
+  href: https://artifacts.apis.io/ipinfo/well-known/ipinfo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ipinfo-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/overlays/ipinfo-openapi-overlay.yaml
+  href: https://artifacts.apis.io/ipinfo/overlays/ipinfo-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ipinfo-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/conformance/ipinfo-conformance.yml
+  href: https://artifacts.apis.io/ipinfo/conformance/ipinfo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ipinfo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/errors/ipinfo-problem-types.yml
+  href: https://artifacts.apis.io/ipinfo/errors/ipinfo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ipinfo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/lifecycle/ipinfo-lifecycle.yml
+  href: https://artifacts.apis.io/ipinfo/lifecycle/ipinfo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ipinfo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/conventions/ipinfo-conventions.yml
+  href: https://artifacts.apis.io/ipinfo/conventions/ipinfo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ipinfo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/data-model/ipinfo-data-model.yml
+  href: https://artifacts.apis.io/ipinfo/data-model/ipinfo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ipinfo-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/cli/ipinfo-cli.yml
+  href: https://artifacts.apis.io/ipinfo/cli/ipinfo-cli.yml
   title: IPinfo CLI command surface
   type: CLI
   url: cli/ipinfo-cli.yml
@@ -592,10 +591,10 @@ features:
   name: 99.999% Uptime
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Ipinfo Finops
-  primary_unit: ''
-  service_category: Identity + Network Intelligence
+  primary_unit: database download
+  service_category: ''
   slug: ipinfo-finops
   template: false
 image: https://ipinfo.io/static/images/logo.svg
@@ -787,9 +786,12 @@ overview: 'IPinfo publishes 17 API contracts indexed on the [APIs.io](https://ap
   IPinfo''s developer surface includes authentication, CLI, signup flow, pricing, developer console, engineering blog, support, and 43 more developer resources.'
 plans:
 - name: Ipinfo Plans Pricing
-  plan_count: 6
+  plan_count: 5
   slug: ipinfo-plans-pricing
-random_paper: 7
+- name: Ipinfo Price Estimates
+  plan_count: 0
+  slug: ipinfo-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 9
   name: Ipinfo Rate Limits
@@ -819,24 +821,24 @@ rules:
     warn: 24
   slug: ipinfo-spectral-rules
 score:
-  band: strong
-  composite: 56.2
+  band: exemplar
+  composite: 69.8
   coverage:
     artifact_dirs: 31
-    catalog_earned: 68.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.6
+    catalog_earned: 80.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 34.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.4
+  delta: 1.5
   facets:
-    access_clarity: 46.1
+    access_clarity: 92.1
     contract_governance: 31.8
     contract_quality: 64.3
     developer_ergonomics: 89.3
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 64.6
+    discoverability: 71.7
+    operational_transparency: 44.7
+  previous_composite: 68.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -844,21 +846,22 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 17
+      total: 35
     mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 20.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 25.0
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/screenshots/ipinfo-2026-06-20T183555.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ipinfo/ipinfo-2026-06-20T183555.png
 security:
 - kind: authentication
   name: Ipinfo Authentication

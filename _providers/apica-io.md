@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -36,7 +38,7 @@ apis:
 - description: Apica observability platform API
   name: Apica API
   slug: apica-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Apica Io Webhooks
@@ -47,27 +49,27 @@ common:
   type: Pricing
   url: https://www.apica.io/cost-savings/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/plans/apica-io-plans-pricing.yml
+  href: https://artifacts.apis.io/apica-io/plans/apica-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apica-io-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/agentic-access/apica-io-agentic-access.yml
+  href: https://artifacts.apis.io/apica-io/agentic-access/apica-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apica-io-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/rules/apica-io-rules.yml
+  href: https://artifacts.apis.io/apica-io/rules/apica-io-rules.yml
   title: ''
   type: Spectral
   url: rules/apica-io-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/asyncapi/apica-io-webhooks.yml
+  href: https://artifacts.apis.io/apica-io/asyncapi/apica-io-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/apica-io-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/changelog/apica-io-changelog.yml
+  href: https://artifacts.apis.io/apica-io/changelog/apica-io-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/apica-io-changelog.yml
@@ -76,42 +78,42 @@ common:
   type: Compliance
   url: https://trust.apica.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/authentication/apica-io-authentication.yml
+  href: https://artifacts.apis.io/apica-io/authentication/apica-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apica-io-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/errors/apica-io-problem-types.yml
+  href: https://artifacts.apis.io/apica-io/errors/apica-io-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/apica-io-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/conformance/apica-io-conformance.yml
+  href: https://artifacts.apis.io/apica-io/conformance/apica-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apica-io-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/overlays/apica-io-openapi-overlay.yml
+  href: https://artifacts.apis.io/apica-io/overlays/apica-io-openapi-overlay.yml
   title: ''
   type: Overlay
   url: overlays/apica-io-openapi-overlay.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/llms/apica-io-llms.txt
+  href: https://artifacts.apis.io/apica-io/llms/apica-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apica-io-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/well-known/apica-io-well-known.yml
+  href: https://artifacts.apis.io/apica-io/well-known/apica-io-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apica-io-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/hosts/apica-io-hosts.yml
+  href: https://artifacts.apis.io/apica-io/hosts/apica-io-hosts.yml
   title: ''
   type: Hosts
   url: hosts/apica-io-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/vendors/apica-io-vendors.yml
+  href: https://artifacts.apis.io/apica-io/vendors/apica-io-vendors.yml
   title: ''
   type: Vendors
   url: vendors/apica-io-vendors.yml
@@ -152,12 +154,12 @@ common:
   type: GettingStarted
   url: https://docs.apica.io/getting-started/ascent
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/security/apica-io-trust-center.yml
+  href: https://artifacts.apis.io/apica-io/security/apica-io-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/apica-io-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/security/apica-io-domain-security.yml
+  href: https://artifacts.apis.io/apica-io/security/apica-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apica-io-domain-security.yml
@@ -175,6 +177,14 @@ common:
   url: https://apidocs.apica.io
 created: '2026-10-03'
 description: Apica provides a modern observability platform delivering telemetry pipelines, synthetic monitoring, and AI‑ready data management for enterprises. Their solutions include flow control, lake storage, real‑time metrics, synthetic checks, and AI‑driven observability, helping organizations monitor, troubleshoot, and optimize complex cloud‑native environments.
+finops:
+- has_sources: true
+  method: derived
+  name: Apica Io Finops
+  primary_unit: ''
+  service_category: ''
+  slug: apica-io-finops
+  template: true
 image: https://www.apica.io/wp-admin/admin-ajax.php?action=rank_math_overlay_thumb&id=85029&type=play&hash=e71fe055fb7e2403dd352a4fdc470303
 layout: provider
 modified: '2026-10-03'
@@ -192,7 +202,7 @@ plans:
 - name: Apica Io Plans Pricing
   plan_count: 0
   slug: apica-io-plans-pricing
-random_paper: 1
+random_paper: 3
 rules:
 - authorship: generated
   effective_rule_count: 46
@@ -208,23 +218,23 @@ rules:
   slug: apica-io-rules
 score:
   band: developing
-  composite: 44.6
+  composite: 43.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 41.5
     catalog_earned_first_party: 0.0
     catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 42.9
-    discoverability: 76.8
+    discoverability: 69.6
     operational_transparency: 39.5
-  previous_composite: 48.1
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,14 +245,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/screenshots/apica-io-2026-10-11T095921.png
+screenshot: https://apis.io/screenshots/apica-io/apica-io-2026-10-11T095921.png
 security:
 - kind: authentication
   name: Apica Io Authentication

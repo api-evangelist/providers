@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,22 +37,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mirus/refs/heads/main/plans/mirus-plans-pricing.yml
+  href: https://artifacts.apis.io/mirus/plans/mirus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mirus-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mirus/refs/heads/main/rate-limits/mirus-rate-limits.yml
+  href: https://artifacts.apis.io/mirus/rate-limits/mirus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mirus-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mirus/refs/heads/main/security/mirus-domain-security.yml
+  href: https://artifacts.apis.io/mirus/security/mirus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mirus-domain-security.yml
@@ -83,12 +85,12 @@ common:
   type: SecondaryMarketListing
   url: https://forgeglobal.com/mirus_stock/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mirus/refs/heads/main/conformance/mirus-conformance.yml
+  href: https://artifacts.apis.io/mirus/conformance/mirus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mirus-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mirus/refs/heads/main/llms/mirus-llms.txt
+  href: https://artifacts.apis.io/mirus/llms/mirus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mirus-llms.txt
@@ -124,30 +126,30 @@ plans:
 - name: Mirus Plans Pricing
   plan_count: 0
   slug: mirus-plans-pricing
-random_paper: 10
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Mirus Rate Limits
   slug: mirus-rate-limits
 score:
-  band: minimal
-  composite: 10.9
+  band: emerging
+  composite: 11.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 3.6
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 10.8
+  previous_composite: 11.6
   provenance:
     conformance: first-party
   regulatory:
@@ -156,14 +158,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mirus/refs/heads/main/screenshots/mirus-2026-09-02T150552.png
+screenshot: https://apis.io/screenshots/mirus/mirus-2026-09-02T150552.png
 security:
 - kind: authentication
   name: Mirus Authentication

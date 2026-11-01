@@ -25,29 +25,31 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 10.1
-  scored_at: '2026-10-17'
+  score: 13.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Mondoo Platform API is a GraphQL API for programmatically querying assets, configuring integrations, and fetching vulnerability, policy, and compliance reports. Authentication is token-based via s
   name: Mondoo Platform GraphQL API
   slug: mondoo-platform-graphql-api
-artifact_total: 5
+artifact_total: 12
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://mondoo.com/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mondoo/refs/heads/main/security/mondoo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mondoo/security/mondoo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mondoo-vulnerability-disclosure.yml
@@ -56,7 +58,7 @@ common:
   type: Security
   url: https://github.com/mondoohq/.github/blob/main/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mondoo/refs/heads/main/security/mondoo-domain-security.yml
+  href: https://artifacts.apis.io/mondoo/security/mondoo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mondoo-domain-security.yml
@@ -109,57 +111,57 @@ common:
   type: PrivacyPolicy
   url: https://mondoo.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mondoo/refs/heads/main/llms/mondoo-llms.txt
+  href: https://artifacts.apis.io/mondoo/llms/mondoo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mondoo-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mondoo/refs/heads/main/packages/mondoo-packages.yml
+  href: https://artifacts.apis.io/mondoo/packages/mondoo-packages.yml
   title: ''
   type: Packages
   url: packages/mondoo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mondoo/refs/heads/main/packages/mondoo-packages.yml
+  href: https://artifacts.apis.io/mondoo/packages/mondoo-packages.yml
   title: ''
   type: SDKs
   url: packages/mondoo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mondoo/refs/heads/main/cli/mondoo-cli.yml
+  href: https://artifacts.apis.io/mondoo/cli/mondoo-cli.yml
   title: ''
   type: CLI
   url: cli/mondoo-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mondoo/refs/heads/main/well-known/mondoo-well-known.yml
+  href: https://artifacts.apis.io/mondoo/well-known/mondoo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mondoo-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mondoo/refs/heads/main/mcp/mondoo-mcp.yml
+  href: https://artifacts.apis.io/mondoo/mcp/mondoo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mondoo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mondoo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mondoo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mondoo/refs/heads/main/authentication/mondoo-authentication.yml
+  href: https://artifacts.apis.io/mondoo/authentication/mondoo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mondoo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mondoo/refs/heads/main/conventions/mondoo-conventions.yml
+  href: https://artifacts.apis.io/mondoo/conventions/mondoo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mondoo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mondoo/refs/heads/main/conformance/mondoo-conformance.yml
+  href: https://artifacts.apis.io/mondoo/conformance/mondoo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mondoo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mondoo/refs/heads/main/lifecycle/mondoo-lifecycle.yml
+  href: https://artifacts.apis.io/mondoo/lifecycle/mondoo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mondoo-lifecycle.yml
@@ -168,12 +170,12 @@ common:
   type: StatusPage
   url: https://status.mondoo.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mondoo/refs/heads/main/changelog/mondoo-changelog.yml
+  href: https://artifacts.apis.io/mondoo/changelog/mondoo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mondoo-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mondoo/refs/heads/main/data-model/mondoo-data-model.yml
+  href: https://artifacts.apis.io/mondoo/data-model/mondoo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mondoo-data-model.yml
@@ -193,10 +195,10 @@ overview: 'Mondoo is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Mondoo''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, CLI, and 23 more developer resources.'
-random_paper: 14
+random_paper: 4
 score:
-  band: thin
-  composite: 38.2
+  band: developing
+  composite: 40.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -204,15 +206,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 44.7
-  previous_composite: 38.1
+    discoverability: 65.0
+    operational_transparency: 47.4
+  previous_composite: 40.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -223,14 +225,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mondoo/refs/heads/main/screenshots/mondoo-2026-08-07T184145.png
+screenshot: https://apis.io/screenshots/mondoo/mondoo-2026-08-07T184145.png
 security:
 - kind: authentication
   name: Mondoo Authentication
@@ -244,6 +246,22 @@ security:
   name: Mondoo Vulnerability Disclosure
   slug: mondoo-vulnerability-disclosure
   summary_line: contact published
+skill_count: 7
+skills:
+- name: mondoo-mql
+  slug: mondoo-mondoo-mql
+- name: secure-coding
+  slug: mondoo-secure-coding
+- name: xgrep-fix
+  slug: mondoo-xgrep-fix
+- name: xgrep-inspect
+  slug: mondoo-xgrep-inspect
+- name: xgrep-remediate
+  slug: mondoo-xgrep-remediate
+- name: xgrep-rule-creator
+  slug: mondoo-xgrep-rule-creator
+- name: xgrep-triage
+  slug: mondoo-xgrep-triage
 slug: mondoo
 tags:
 - Company

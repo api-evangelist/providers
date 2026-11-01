@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 26.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: Create, read, update, and delete recipes with nutrition analysis.
   name: Nutrical Solution Ltd Recipes API
   slug: nutrical-solution-ltd-recipes-api
-artifact_total: 16
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NutriCal Food & Nutrition Entity API
   slug: open-nutrical-solution-ltd-entity-api
@@ -100,77 +99,77 @@ collections:
   slug: open-nutrical-solution-ltd-recipes-api
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/security/nutrical-solution-ltd-domain-security.yml
+  href: https://artifacts.apis.io/nutrical-solution-ltd/security/nutrical-solution-ltd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nutrical-solution-ltd-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/authentication/nutrical-solution-ltd-authentication.yml
+  href: https://artifacts.apis.io/nutrical-solution-ltd/authentication/nutrical-solution-ltd-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nutrical-solution-ltd-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/agentic-access/nutrical-solution-ltd-agentic-access.yml
+  href: https://artifacts.apis.io/nutrical-solution-ltd/agentic-access/nutrical-solution-ltd-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nutrical-solution-ltd-agentic-access.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/_original/nutrical-solution-ltd-openapi.yml
+  href: https://artifacts.apis.io/nutrical-solution-ltd/openapi/_original/nutrical-solution-ltd-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/nutrical-solution-ltd-openapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/llms/nutrical-solution-ltd-llms.txt
+  href: https://artifacts.apis.io/nutrical-solution-ltd/llms/nutrical-solution-ltd-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nutrical-solution-ltd-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/well-known/nutrical-solution-ltd-well-known.yml
+  href: https://artifacts.apis.io/nutrical-solution-ltd/well-known/nutrical-solution-ltd-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nutrical-solution-ltd-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/conventions/nutrical-solution-ltd-conventions.yml
+  href: https://artifacts.apis.io/nutrical-solution-ltd/conventions/nutrical-solution-ltd-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nutrical-solution-ltd-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/errors/nutrical-solution-ltd-problem-types.yml
+  href: https://artifacts.apis.io/nutrical-solution-ltd/errors/nutrical-solution-ltd-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nutrical-solution-ltd-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/lifecycle/nutrical-solution-ltd-lifecycle.yml
+  href: https://artifacts.apis.io/nutrical-solution-ltd/lifecycle/nutrical-solution-ltd-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nutrical-solution-ltd-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/conformance/nutrical-solution-ltd-conformance.yml
+  href: https://artifacts.apis.io/nutrical-solution-ltd/conformance/nutrical-solution-ltd-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nutrical-solution-ltd-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/data-model/nutrical-solution-ltd-data-model.yml
+  href: https://artifacts.apis.io/nutrical-solution-ltd/data-model/nutrical-solution-ltd-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nutrical-solution-ltd-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/mcp/nutrical-solution-ltd-mcp.yml
+  href: https://artifacts.apis.io/nutrical-solution-ltd/mcp/nutrical-solution-ltd-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nutrical-solution-ltd-mcp.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/sandbox/nutrical-solution-ltd-sandbox.yml
+  href: https://artifacts.apis.io/nutrical-solution-ltd/sandbox/nutrical-solution-ltd-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nutrical-solution-ltd-sandbox.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/overlays/nutrical-solution-ltd-openapi-overlay.yaml
+  href: https://artifacts.apis.io/nutrical-solution-ltd/overlays/nutrical-solution-ltd-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nutrical-solution-ltd-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nutrical-solution-ltd/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -234,24 +233,24 @@ overview: 'Nutrical Solution publishes 6 API contracts indexed on the [APIs.io](
 
 
   Nutrical Solution''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 17
+random_paper: 13
 score:
   band: thin
-  composite: 30.3
+  composite: 32.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 17.0
+    contract_quality: 13.6
     developer_ergonomics: 54.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -259,7 +258,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 30.2
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,13 +275,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/screenshots/nutrical-solution-ltd-2026-08-07T185800.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nutrical-solution-ltd/nutrical-solution-ltd-2026-08-07T185800.png
 security:
 - kind: authentication
   name: Nutrical Solution Ltd Authentication
@@ -292,6 +292,12 @@ security:
   name: Nutrical Solution Ltd Domain Security
   slug: nutrical-solution-ltd-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Analyze a recipe's nutrition with NutriCal
+  slug: nutrical-solution-ltd-analyze-recipe
+- name: Build a customer meal plan with NutriCal
+  slug: nutrical-solution-ltd-build-meal-plan
 slug: nutrical-solution-ltd
 tags:
 - Company

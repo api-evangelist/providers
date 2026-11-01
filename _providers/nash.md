@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.1
-  scored_at: '2026-10-17'
+  score: 40.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 16
@@ -196,7 +198,7 @@ apis:
   description: Zones
   name: Nash Zones API
   slug: nash-zones-api
-artifact_total: 71
+artifact_total: 74
 asyncapis:
 - description: Real-time delivery events Nash pushes to subscriber endpoints over HTTP, delivered and signed via Svix. Each message carries `type`, `event`, and `data`. Endpoints are registered per event type in the
   name: Nash Webhooks
@@ -205,9 +207,6 @@ asyncapis:
   name: Nash Webhooks
   slug: nash-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nash AI Functions API
   slug: open-nash-ai-functions-api
@@ -300,22 +299,22 @@ collections:
   slug: open-nash-zones-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/rate-limits/nash-rate-limits.yml
+  href: https://artifacts.apis.io/nash/rate-limits/nash-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nash-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/plans/nash-plans-pricing.yml
+  href: https://artifacts.apis.io/nash/plans/nash-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nash-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/capabilities/nash-capability-edges.yml
+  href: https://artifacts.apis.io/nash/capabilities/nash-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nash-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/overlays/nash-openapi-overlay.yaml
+  href: https://artifacts.apis.io/nash/overlays/nash-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nash-openapi-overlay.yaml
@@ -388,32 +387,32 @@ common:
   type: PrivacyPolicy
   url: https://www.nash.ai/legal/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/mcp/nash-mcp.yml
+  href: https://artifacts.apis.io/nash/mcp/nash-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nash-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/llms/nash-llms.txt
+  href: https://artifacts.apis.io/nash/llms/nash-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nash-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/well-known/nash-well-known.yml
+  href: https://artifacts.apis.io/nash/well-known/nash-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nash-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/lifecycle/nash-lifecycle.yml
+  href: https://artifacts.apis.io/nash/lifecycle/nash-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nash-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/changelog/nash-changelog.yml
+  href: https://artifacts.apis.io/nash/changelog/nash-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nash-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/conformance/nash-conformance.yml
+  href: https://artifacts.apis.io/nash/conformance/nash-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nash-conformance.yml
@@ -422,37 +421,45 @@ common:
   type: Compliance
   url: https://www.nash.ai/legal/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/security/nash-trust-center.yml
+  href: https://artifacts.apis.io/nash/security/nash-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nash-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/security/nash-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nash/security/nash-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/nash-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/security/nash-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nash/security/nash-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nash-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/security/nash-domain-security.yml
+  href: https://artifacts.apis.io/nash/security/nash-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nash-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/components/nash-components.yml
+  href: https://artifacts.apis.io/nash/components/nash-components.yml
   title: ''
   type: Components
   url: components/nash-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nash/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Nash is an AI-powered last-mile delivery orchestration platform that lets retailers, restaurants, grocers, pharmacies, and logistics teams quote, dispatch, and track deliveries across a network of third-party couriers and their own internal fleets from a single API. The Nash Platform API covers orders, jobs (deliveries), quoting, dispatch strategies, route optimization, delivery windows, zones, store locations, shifts, store catalog, notifications, and signed webhooks, alongside a Fleet API for owned-fleet delivery reporting and a Nash Agent copilot exposed over a Model Context Protocol (MCP) server for agent-driven delivery operations. Backed by a16z.
+finops:
+- has_sources: true
+  method: derived
+  name: Nash Finops
+  primary_unit: ''
+  service_category: ''
+  slug: nash-finops
+  template: true
 image: https://www.nash.ai/favicon.ico
 layout: provider
 mcp_servers:
@@ -474,30 +481,30 @@ plans:
 - name: Nash Plans Pricing
   plan_count: 0
   slug: nash-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Nash Rate Limits
   slug: nash-rate-limits
 score:
   band: strong
-  composite: 61.5
+  composite: 56.5
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 29
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 56.9
+    contract_quality: 55.6
     developer_ergonomics: 66.1
-    discoverability: 71.7
-    operational_transparency: 44.7
-  previous_composite: 61.4
+    discoverability: 65.0
+    operational_transparency: 55.3
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -514,13 +521,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/screenshots/nash-2026-08-07T184639.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nash/nash-2026-08-07T184639.png
 security:
 - kind: authentication
   name: Nash Authentication
@@ -538,6 +546,14 @@ security:
   name: Nash Trust Center
   slug: nash-trust-center
   summary_line: SOC 2
+skill_count: 3
+skills:
+- name: Create and dispatch a Nash delivery order
+  slug: nash-create-and-dispatch-order
+- name: Report a Nash delivery incident and track a refund
+  slug: nash-report-incident-and-refund
+- name: Schedule a Nash order into a delivery window
+  slug: nash-schedule-delivery-window
 slug: nash
 tags:
 - Company

@@ -24,18 +24,20 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 27.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 6
@@ -90,11 +92,8 @@ apis:
   description: The Kombo API API from Kombo — 0 operation(s) for kombo api.
   name: Kombo API
   slug: kombo-kombo-api-api
-artifact_total: 671
+artifact_total: 670
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kombo AI Apply API
   slug: open-kombo-ai-apply-api
@@ -124,42 +123,42 @@ collections:
   slug: open-kombo
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/plans/kombo-plans-pricing.yml
+  href: https://artifacts.apis.io/kombo/plans/kombo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kombo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/rate-limits/kombo-rate-limits.yml
+  href: https://artifacts.apis.io/kombo/rate-limits/kombo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kombo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/finops/kombo-finops.yml
+  href: https://artifacts.apis.io/kombo/finops/kombo-finops.yml
   title: ''
   type: FinOps
   url: finops/kombo-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/capabilities/kombo-capability-edges.yml
+  href: https://artifacts.apis.io/kombo/capabilities/kombo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kombo-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/agentic-access/kombo-agentic-access.yml
+  href: https://artifacts.apis.io/kombo/agentic-access/kombo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kombo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/security/kombo-trust-center.yml
+  href: https://artifacts.apis.io/kombo/security/kombo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kombo-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/security/kombo-domain-security.yml
+  href: https://artifacts.apis.io/kombo/security/kombo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kombo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/authentication/kombo-authentication.yml
+  href: https://artifacts.apis.io/kombo/authentication/kombo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kombo-authentication.yml
@@ -2183,8 +2182,8 @@ rules:
     warn: 4
   slug: kombo-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 40.2
+  band: thin
+  composite: 35.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.3
@@ -2192,35 +2191,36 @@ score:
     catalog_gap: 74.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.2
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 49.9
+    contract_quality: 50.6
     developer_ergonomics: 47.6
     discoverability: 64.3
-    operational_transparency: 18.4
-  previous_composite: 41.8
+    operational_transparency: 21.1
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 16
   regulatory:
     applies: true
     matched_via: tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/screenshots/kombo-2026-06-20T184122.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kombo/kombo-2026-06-20T184122.png
 security:
 - kind: authentication
   name: Kombo Authentication

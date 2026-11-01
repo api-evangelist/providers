@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The primary HTTP REST API for CoinEx, providing access to spot trading, futures, perpetual contracts, account management, asset operations, market data, and referral endpoints. Authentication uses HMA
@@ -56,12 +58,12 @@ common:
   type: Website
   url: https://www.coinex.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coinex/refs/heads/main/security/coinex-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/coinex/security/coinex-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/coinex-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coinex/refs/heads/main/security/coinex-domain-security.yml
+  href: https://artifacts.apis.io/coinex/security/coinex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coinex-domain-security.yml
@@ -153,14 +155,14 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 8
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Rate Limits
   slug: rate-limits
 score:
   band: emerging
-  composite: 21.0
+  composite: 22.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 42.0
@@ -168,29 +170,29 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
     discoverability: 71.4
-    operational_transparency: 21.1
-  previous_composite: 24.8
+    operational_transparency: 31.6
+  previous_composite: 22.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 25.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/coinex/refs/heads/main/screenshots/coinex-2026-06-20T174731.png
+screenshot: https://apis.io/screenshots/coinex/coinex-2026-06-20T174731.png
 security:
 - kind: domain-security
   name: Coinex Domain Security

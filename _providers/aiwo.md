@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,36 +14,38 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.5
-  scored_at: '2026-10-17'
+  score: 7.6
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aiwo/refs/heads/main/llms/aiwo-llms.txt
+  href: https://artifacts.apis.io/aiwo/llms/aiwo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aiwo-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aiwo/refs/heads/main/well-known/aiwo-well-known.yml
+  href: https://artifacts.apis.io/aiwo/well-known/aiwo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aiwo-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aiwo/refs/heads/main/vendors/aiwo-vendors.yml
+  href: https://artifacts.apis.io/aiwo/vendors/aiwo-vendors.yml
   title: ''
   type: Vendors
   url: vendors/aiwo-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aiwo/refs/heads/main/security/aiwo-domain-security.yml
+  href: https://artifacts.apis.io/aiwo/security/aiwo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aiwo-domain-security.yml
@@ -74,10 +76,10 @@ overview: 'Aiwo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Aiwo''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 14
+random_paper: 0
 score:
   band: minimal
-  composite: 9.6
+  composite: 8.9
   coverage:
     artifact_dirs: 9
     catalog_earned: 25.0
@@ -91,9 +93,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 51.8
+    discoverability: 44.6
     operational_transparency: 0.0
-  previous_composite: 9.6
+  previous_composite: 8.9
   provenance:
     mcp: unknown
   regulatory:
@@ -102,14 +104,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aiwo/refs/heads/main/screenshots/aiwo-2026-10-11T093511.png
+screenshot: https://apis.io/screenshots/aiwo/aiwo-2026-10-11T093511.png
 security:
 - kind: domain-security
   name: Aiwo Domain Security

@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.8
-  scored_at: '2026-10-17'
+  score: 37.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.vehicles.dev
@@ -69,40 +71,40 @@ apis:
   description: The Webhooks API from Vehicles.dev — 1 operation(s) for webhooks.
   name: Vehicles.dev Webhooks API
   slug: vehicles-dev-api-webhooks-api
-artifact_total: 11
+artifact_total: 17
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/capabilities/vehicles-dev-api-capability-edges.yml
+  href: https://artifacts.apis.io/vehicles-dev-api/capabilities/vehicles-dev-api-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vehicles-dev-api-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/overlays/vehicles-dev-api-admin-api-overlay.yaml
+  href: https://artifacts.apis.io/vehicles-dev-api/overlays/vehicles-dev-api-admin-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vehicles-dev-api-admin-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/overlays/vehicles-dev-api-billing-api-overlay.yaml
+  href: https://artifacts.apis.io/vehicles-dev-api/overlays/vehicles-dev-api-billing-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vehicles-dev-api-billing-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/overlays/vehicles-dev-api-data-api-overlay.yaml
+  href: https://artifacts.apis.io/vehicles-dev-api/overlays/vehicles-dev-api-data-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vehicles-dev-api-data-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/overlays/vehicles-dev-api-reports-api-overlay.yaml
+  href: https://artifacts.apis.io/vehicles-dev-api/overlays/vehicles-dev-api-reports-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vehicles-dev-api-reports-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/security/vehicles-dev-api-domain-security.yml
+  href: https://artifacts.apis.io/vehicles-dev-api/security/vehicles-dev-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vehicles-dev-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/authentication/vehicles-dev-api-authentication.yml
+  href: https://artifacts.apis.io/vehicles-dev-api/authentication/vehicles-dev-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vehicles-dev-api-authentication.yml
@@ -147,72 +149,80 @@ common:
   type: UsageTerms
   url: https://vehicles.dev/docs#support-terms
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/plans/vehicles-dev-api-plans-pricing.yml
+  href: https://artifacts.apis.io/vehicles-dev-api/plans/vehicles-dev-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vehicles-dev-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/rate-limits/vehicles-dev-api-rate-limits.yml
+  href: https://artifacts.apis.io/vehicles-dev-api/rate-limits/vehicles-dev-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vehicles-dev-api-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/conventions/vehicles-dev-api-conventions.yml
+  href: https://artifacts.apis.io/vehicles-dev-api/conventions/vehicles-dev-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vehicles-dev-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/conventions/vehicles-dev-api-conventions.yml
+  href: https://artifacts.apis.io/vehicles-dev-api/conventions/vehicles-dev-api-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/vehicles-dev-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/errors/vehicles-dev-api-problem-types.yml
+  href: https://artifacts.apis.io/vehicles-dev-api/errors/vehicles-dev-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vehicles-dev-api-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/lifecycle/vehicles-dev-api-lifecycle.yml
+  href: https://artifacts.apis.io/vehicles-dev-api/lifecycle/vehicles-dev-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vehicles-dev-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/conformance/vehicles-dev-api-conformance.yml
+  href: https://artifacts.apis.io/vehicles-dev-api/conformance/vehicles-dev-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vehicles-dev-api-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/data-model/vehicles-dev-api-data-model.yml
+  href: https://artifacts.apis.io/vehicles-dev-api/data-model/vehicles-dev-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vehicles-dev-api-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/packages/vehicles-dev-api-packages.yml
+  href: https://artifacts.apis.io/vehicles-dev-api/packages/vehicles-dev-api-packages.yml
   title: ''
   type: Packages
   url: packages/vehicles-dev-api-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/mcp/vehicles-dev-api-mcp.yml
+  href: https://artifacts.apis.io/vehicles-dev-api/mcp/vehicles-dev-api-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/vehicles-dev-api-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/mcp/vehicles-dev-api-tool-crosswalk.yml
+  href: https://artifacts.apis.io/vehicles-dev-api/mcp/vehicles-dev-api-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/vehicles-dev-api-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vehicles-dev-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/llms/vehicles-dev-api-llms.txt
+  href: https://artifacts.apis.io/vehicles-dev-api/llms/vehicles-dev-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vehicles-dev-api-llms.txt
 created: '2026-08-15'
 description: Automotive vehicle data platform offering a live REST API for VIN decoding, specifications, recalls, market valuation, depreciation, ownership costs, listings, price history, and photos, backed by federal sources (NHTSA vPIC, NHTSA recalls, EPA) and a continuously crawled US dealer-listings store. Ships an OpenAPI 3.1 contract and a local MCP server exposing all ten endpoints as read-only tools.
+finops:
+- has_sources: true
+  method: derived
+  name: Vehicles Dev Api Finops
+  primary_unit: platform tier
+  service_category: ''
+  slug: vehicles-dev-api-finops
+  template: false
 layout: provider
 mcp_servers:
 - description: Local (stdio) MCP server requiring an API key; 10 tools listed.
@@ -230,30 +240,33 @@ plans:
 - name: Vehicles Dev Api Plans Pricing
   plan_count: 3
   slug: vehicles-dev-api-plans-pricing
-random_paper: 12
+- name: Vehicles Dev Api Price Estimates
+  plan_count: 0
+  slug: vehicles-dev-api-price-estimates
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Vehicles Dev Api Rate Limits
   slug: vehicles-dev-api-rate-limits
 score:
   band: developing
-  composite: 42.7
+  composite: 45.9
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 59.0
+    artifact_dirs: 20
+    catalog_earned: 62.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 56.0
+    catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 50.0
+    access_clarity: 63.2
     contract_governance: 4.5
-    contract_quality: 45.1
+    contract_quality: 44.3
     developer_ergonomics: 56.5
     discoverability: 61.7
     operational_transparency: 31.6
-  previous_composite: 42.7
+  previous_composite: 44.3
   provenance:
     conformance: derived
     contracts:
@@ -269,13 +282,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/screenshots/vehicles-dev-api-2026-08-17T082722.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vehicles-dev-api/vehicles-dev-api-2026-08-17T082722.png
 security:
 - kind: authentication
   name: Vehicles Dev Api Authentication
@@ -285,6 +299,16 @@ security:
   name: Vehicles Dev Api Domain Security
   slug: vehicles-dev-api-domain-security
   summary_line: TLSv1.3
+skill_count: 4
+skills:
+- name: Check safety recalls and running costs
+  slug: vehicles-dev-api-check-safety-and-running-costs
+- name: Identify and value a VIN
+  slug: vehicles-dev-api-identify-and-value-a-vin
+- name: Order a vehicle history report
+  slug: vehicles-dev-api-order-a-vehicle-history-report
+- name: Search dealer listings and read price history
+  slug: vehicles-dev-api-search-listings-and-price-history
 slug: vehicles-dev-api
 tags:
 - Automotive

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Public GraphQL API for the Cato Management Application (CMA): site and account provisioning, policy configuration, network/security analytics, entity lookup, and event streaming. Single GraphQL endpoi'
@@ -87,57 +89,57 @@ common:
   type: PrivacyPolicy
   url: https://www.catonetworks.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/authentication/cato-networks-authentication.yml
+  href: https://artifacts.apis.io/cato-networks/authentication/cato-networks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cato-networks-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/packages/cato-networks-packages.yml
+  href: https://artifacts.apis.io/cato-networks/packages/cato-networks-packages.yml
   title: ''
   type: Packages
   url: packages/cato-networks-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/packages/cato-networks-packages.yml
+  href: https://artifacts.apis.io/cato-networks/packages/cato-networks-packages.yml
   title: ''
   type: SDKs
   url: packages/cato-networks-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/cli/cato-networks-cli.yml
+  href: https://artifacts.apis.io/cato-networks/cli/cato-networks-cli.yml
   title: ''
   type: CLI
   url: cli/cato-networks-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/mcp/cato-networks-mcp.yml
+  href: https://artifacts.apis.io/cato-networks/mcp/cato-networks-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cato-networks-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/llms/cato-networks-llms.txt
+  href: https://artifacts.apis.io/cato-networks/llms/cato-networks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cato-networks-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/well-known/cato-networks-well-known.yml
+  href: https://artifacts.apis.io/cato-networks/well-known/cato-networks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cato-networks-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/conventions/cato-networks-conventions.yml
+  href: https://artifacts.apis.io/cato-networks/conventions/cato-networks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cato-networks-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/lifecycle/cato-networks-lifecycle.yml
+  href: https://artifacts.apis.io/cato-networks/lifecycle/cato-networks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cato-networks-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/lifecycle/cato-networks-lifecycle.yml
+  href: https://artifacts.apis.io/cato-networks/lifecycle/cato-networks-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/cato-networks-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/conformance/cato-networks-conformance.yml
+  href: https://artifacts.apis.io/cato-networks/conformance/cato-networks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cato-networks-conformance.yml
@@ -146,12 +148,12 @@ common:
   type: Compliance
   url: https://security.catonetworks.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/security/cato-networks-trust-center.yml
+  href: https://artifacts.apis.io/cato-networks/security/cato-networks-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cato-networks-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/security/cato-networks-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cato-networks/security/cato-networks-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cato-networks-vulnerability-disclosure.yml
@@ -160,7 +162,7 @@ common:
   type: Security
   url: https://www.catonetworks.com/responsible-disclosure/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/security/cato-networks-domain-security.yml
+  href: https://artifacts.apis.io/cato-networks/security/cato-networks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cato-networks-domain-security.yml
@@ -180,10 +182,10 @@ overview: 'Cato Networks is listed with 1 API on the [APIs.io](https://apis.io/)
 
 
   Cato Networks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 20 more developer resources.'
-random_paper: 19
+random_paper: 17
 score:
   band: thin
-  composite: 27.6
+  composite: 38.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -193,13 +195,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 64.3
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 27.6
+    developer_ergonomics: 71.4
+    discoverability: 65.0
+    operational_transparency: 39.5
+  previous_composite: 38.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -214,15 +216,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/screenshots/cato-networks-2026-07-25T204914.png
+screenshot: https://apis.io/screenshots/cato-networks/cato-networks-2026-07-25T204914.png
 security:
 - kind: authentication
   name: Cato Networks Authentication

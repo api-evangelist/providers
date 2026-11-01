@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.3
-  scored_at: '2026-10-17'
+  score: 25.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -75,11 +77,8 @@ apis:
   description: Tokenized stock deposits and withdrawals
   name: SynFutures Stock API
   slug: synfutures-stock-api
-artifact_total: 17
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SynFutures RWA Trading Cash API
   slug: open-synfutures-cash-api
@@ -104,12 +103,12 @@ common:
   type: BlogRSS
   url: https://blog.synfutures.com/rss/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/agentic-access/synfutures-agentic-access.yml
+  href: https://artifacts.apis.io/synfutures/agentic-access/synfutures-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/synfutures-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/security/synfutures-domain-security.yml
+  href: https://artifacts.apis.io/synfutures/security/synfutures-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/synfutures-domain-security.yml
@@ -142,67 +141,67 @@ common:
   type: SignUp
   url: https://app.synfutures.com
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/_original/synfutures-rwa-trading-openapi.yml
+  href: https://artifacts.apis.io/synfutures/openapi/_original/synfutures-rwa-trading-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/synfutures-rwa-trading-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/authentication/synfutures-authentication.yml
+  href: https://artifacts.apis.io/synfutures/authentication/synfutures-authentication.yml
   title: ''
   type: Authentication
   url: authentication/synfutures-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/llms/synfutures-llms.txt
+  href: https://artifacts.apis.io/synfutures/llms/synfutures-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/synfutures-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/packages/synfutures-packages.yml
+  href: https://artifacts.apis.io/synfutures/packages/synfutures-packages.yml
   title: ''
   type: Packages
   url: packages/synfutures-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/packages/synfutures-packages.yml
+  href: https://artifacts.apis.io/synfutures/packages/synfutures-packages.yml
   title: ''
   type: SDKs
   url: packages/synfutures-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/conventions/synfutures-conventions.yml
+  href: https://artifacts.apis.io/synfutures/conventions/synfutures-conventions.yml
   title: ''
   type: Conventions
   url: conventions/synfutures-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/errors/synfutures-problem-types.yml
+  href: https://artifacts.apis.io/synfutures/errors/synfutures-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/synfutures-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/rate-limits/synfutures-rate-limits.yml
+  href: https://artifacts.apis.io/synfutures/rate-limits/synfutures-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/synfutures-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/lifecycle/synfutures-lifecycle.yml
+  href: https://artifacts.apis.io/synfutures/lifecycle/synfutures-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/synfutures-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/mcp/synfutures-mcp.yml
+  href: https://artifacts.apis.io/synfutures/mcp/synfutures-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/synfutures-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/conformance/synfutures-conformance.yml
+  href: https://artifacts.apis.io/synfutures/conformance/synfutures-conformance.yml
   title: ''
   type: Conformance
   url: conformance/synfutures-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/data-model/synfutures-data-model.yml
+  href: https://artifacts.apis.io/synfutures/data-model/synfutures-data-model.yml
   title: ''
   type: DataModel
   url: data-model/synfutures-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/synfutures/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -218,16 +217,16 @@ overview: 'SynFutures publishes 6 API contracts indexed on the [APIs.io](https:/
 
 
   SynFutures'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 18 more developer resources.'
-random_paper: 6
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Synfutures Rate Limits
   slug: synfutures-rate-limits
 score:
   band: thin
-  composite: 32.9
+  composite: 35.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -235,13 +234,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 46.5
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 23.7
-  previous_composite: 32.9
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,13 +257,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/screenshots/synfutures-2026-09-02T161503.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/synfutures/synfutures-2026-09-02T161503.png
 security:
 - kind: authentication
   name: Synfutures Authentication
@@ -274,6 +274,12 @@ security:
   name: Synfutures Domain Security
   slug: synfutures-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Read SynFutures RWA market data
+  slug: synfutures-market-data
+- name: Place a SynFutures RWA order via One Click
+  slug: synfutures-place-order-one-click
 slug: synfutures
 tags:
 - Company

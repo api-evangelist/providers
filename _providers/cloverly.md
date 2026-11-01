@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Retrieve the authenticated account record including the configured currency, default offset type preferences, and the public/private API key context. Useful for confirming which environment (sandbox v
   name: Cloverly Account API
   slug: cloverly-account-api
-artifact_total: 24
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cloverly Account API
   slug: open-cloverly-account-api
@@ -82,8 +81,12 @@ collections:
   name: Cloverly Account Purchases API
   slug: open-cloverly-purchases-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cloverly/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/capabilities/cloverly-capability-edges.yml
+  href: https://artifacts.apis.io/cloverly/capabilities/cloverly-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cloverly-capability-edges.yml
@@ -92,17 +95,17 @@ common:
   type: Website
   url: https://www.cloverly.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/agentic-access/cloverly-agentic-access.yml
+  href: https://artifacts.apis.io/cloverly/agentic-access/cloverly-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cloverly-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/security/cloverly-domain-security.yml
+  href: https://artifacts.apis.io/cloverly/security/cloverly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloverly-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/authentication/cloverly-authentication.yml
+  href: https://artifacts.apis.io/cloverly/authentication/cloverly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloverly-authentication.yml
@@ -191,32 +194,32 @@ common:
   type: APIReference
   url: https://docs.cloverly.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/plans/cloverly-plans-pricing.yml
+  href: https://artifacts.apis.io/cloverly/plans/cloverly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloverly-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/rate-limits/cloverly-rate-limits.yml
+  href: https://artifacts.apis.io/cloverly/rate-limits/cloverly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cloverly-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/finops/cloverly-finops.yml
+  href: https://artifacts.apis.io/cloverly/finops/cloverly-finops.yml
   title: ''
   type: FinOps
   url: finops/cloverly-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/vocabulary/cloverly-vocabulary.yml
+  href: https://artifacts.apis.io/cloverly/vocabulary/cloverly-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cloverly-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/json-ld/cloverly-context.jsonld
+  href: https://artifacts.apis.io/cloverly/json-ld/cloverly-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cloverly-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/rules/cloverly-rules.yml
+  href: https://artifacts.apis.io/cloverly/rules/cloverly-rules.yml
   title: ''
   type: Spectral
   url: rules/cloverly-rules.yml
@@ -268,12 +271,12 @@ overview: 'Cloverly is listed with 4 APIs on the [APIs.io](https://apis.io/) net
   The Cloverly catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cloverly''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, YouTube channel, API reference, and 25 more developer resources.'
+  Cloverly''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, YouTube channel, API reference, and 26 more developer resources.'
 plans:
 - name: Cloverly Plans Pricing
   plan_count: 3
   slug: cloverly-plans-pricing
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Cloverly Rate Limits
@@ -304,7 +307,7 @@ rules:
   slug: cloverly-rules
 score:
   band: developing
-  composite: 40.7
+  composite: 41.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 67.4
@@ -312,12 +315,12 @@ score:
     catalog_gap: 47.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.9
+  delta: 0.3
   facets:
     access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 57.0
-    developer_ergonomics: 47.6
+    developer_ergonomics: 48.8
     discoverability: 71.4
     operational_transparency: 10.5
   jurisdiction:
@@ -327,7 +330,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 46.6
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -341,13 +344,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/screenshots/cloverly-2026-06-20T174623.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cloverly/cloverly-2026-06-20T174623.png
 security:
 - kind: authentication
   name: Cloverly Authentication

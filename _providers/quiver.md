@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,11 +55,8 @@ apis:
   description: The Beta API from Quiver Quantitative — 6 operation(s) for beta.
   name: Quiver Quantitative Beta API
   slug: quiver-beta-api
-artifact_total: 11
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Quiver Quantitative Beta API
   slug: open-quiver-beta-api
@@ -66,32 +65,32 @@ collections:
   slug: open-quiver
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/plans/quiver-plans-pricing.yml
+  href: https://artifacts.apis.io/quiver/plans/quiver-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/quiver-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/rate-limits/quiver-rate-limits.yml
+  href: https://artifacts.apis.io/quiver/rate-limits/quiver-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/quiver-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/finops/quiver-finops.yml
+  href: https://artifacts.apis.io/quiver/finops/quiver-finops.yml
   title: ''
   type: FinOps
   url: finops/quiver-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/agentic-access/quiver-agentic-access.yml
+  href: https://artifacts.apis.io/quiver/agentic-access/quiver-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/quiver-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/security/quiver-domain-security.yml
+  href: https://artifacts.apis.io/quiver/security/quiver-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quiver-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/authentication/quiver-authentication.yml
+  href: https://artifacts.apis.io/quiver/authentication/quiver-authentication.yml
   title: ''
   type: Authentication
   url: authentication/quiver-authentication.yml
@@ -133,7 +132,7 @@ finops:
 - has_sources: false
   method: generated
   name: Quiver Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: quiver-finops
   template: true
@@ -151,14 +150,14 @@ plans:
 - name: Quiver Plans Pricing
   plan_count: 3
   slug: quiver-plans-pricing
-random_paper: 8
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Quiver Rate Limits
   slug: quiver-rate-limits
 score:
   band: thin
-  composite: 28.9
+  composite: 34.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 43.0
@@ -166,15 +165,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 42.9
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 30.4
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -187,15 +186,15 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/screenshots/quiver-2026-06-20T192443.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/quiver/quiver-2026-06-20T192443.png
 security:
 - kind: authentication
   name: Quiver Authentication

@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 18.4
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: Standards for Carrier APIs
@@ -83,7 +85,7 @@ common:
   type: Website
   url: https://www.nmfta.org/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/capabilities/nmfta-capability-edges.yml
+  href: https://artifacts.apis.io/nmfta/capabilities/nmfta-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nmfta-capability-edges.yml
@@ -136,37 +138,37 @@ common:
   type: Contact
   url: mailto:dsdc@nmfta.org
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/governance/nmfta-governance.yml
+  href: https://artifacts.apis.io/nmfta/governance/nmfta-governance.yml
   title: ''
   type: Governance
   url: governance/nmfta-governance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/taxonomy/nmfta-taxonomy.yml
+  href: https://artifacts.apis.io/nmfta/taxonomy/nmfta-taxonomy.yml
   title: ''
   type: Taxonomy
   url: taxonomy/nmfta-taxonomy.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/companies/nmfta-companies.yml
+  href: https://artifacts.apis.io/nmfta/companies/nmfta-companies.yml
   title: ''
   type: Companies
   url: companies/nmfta-companies.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/adoption/nmfta-adoption.yml
+  href: https://artifacts.apis.io/nmfta/adoption/nmfta-adoption.yml
   title: ''
   type: Adoption
   url: adoption/nmfta-adoption.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/leads/nmfta-new-company-leads.yml
+  href: https://artifacts.apis.io/nmfta/leads/nmfta-new-company-leads.yml
   title: ''
   type: Leads
   url: leads/nmfta-new-company-leads.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/repositories/nmfta-repositories.yml
+  href: https://artifacts.apis.io/nmfta/repositories/nmfta-repositories.yml
   title: ''
   type: Repositories
   url: repositories/nmfta-repositories.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/contributors/nmfta-contributors.yml
+  href: https://artifacts.apis.io/nmfta/contributors/nmfta-contributors.yml
   title: ''
   type: Contributors
   url: contributors/nmfta-contributors.yml
@@ -197,7 +199,7 @@ overview: 'NMFTA publishes 9 API contracts indexed on the [APIs.io](https://apis
 random_paper: 6
 score:
   band: emerging
-  composite: 18.9
+  composite: 19.8
   coverage:
     artifact_dirs: 13
     catalog_earned: 35.0
@@ -205,34 +207,35 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 43.8
+    contract_quality: 42.6
     developer_ergonomics: 21.4
-    discoverability: 63.4
-    operational_transparency: 2.6
-  previous_composite: 18.4
+    discoverability: 64.3
+    operational_transparency: 5.3
+  previous_composite: 19.8
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/screenshots/nmfta-2026-08-07T185355.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nmfta/nmfta-2026-08-07T185355.png
 slug: nmfta
 tags:
 - API Standards

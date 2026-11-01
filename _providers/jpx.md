@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - description: Listed issue master, daily and morning-session OHLCV, minute bars and tick trades (add-on), earnings calendar, and weekly trading by investor type for Tokyo Stock Exchange equities, under /v2/equities
@@ -63,65 +65,65 @@ apis:
 - description: File-based delivery alongside the REST endpoints - list available bulk files (/bulk/list) and download gzipped CSV extracts (/bulk/get) for supported datasets.
   name: J-Quants Bulk Download API
   slug: j-quants-bulk-download-api
-artifact_total: 13
+artifact_total: 15
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/security/jpx-domain-security.yml
+  href: https://artifacts.apis.io/jpx/security/jpx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jpx-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/llms/jpx-llms.txt
+  href: https://artifacts.apis.io/jpx/llms/jpx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jpx-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/mcp/jpx-mcp.yml
+  href: https://artifacts.apis.io/jpx/mcp/jpx-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/jpx-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/jpx/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/packages/jpx-packages.yml
+  href: https://artifacts.apis.io/jpx/packages/jpx-packages.yml
   title: ''
   type: Packages
   url: packages/jpx-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/packages/jpx-packages.yml
+  href: https://artifacts.apis.io/jpx/packages/jpx-packages.yml
   title: ''
   type: SDKs
   url: packages/jpx-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/cli/jpx-cli.yml
+  href: https://artifacts.apis.io/jpx/cli/jpx-cli.yml
   title: ''
   type: CLI
   url: cli/jpx-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/authentication/jpx-authentication.yml
+  href: https://artifacts.apis.io/jpx/authentication/jpx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jpx-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/conventions/jpx-conventions.yml
+  href: https://artifacts.apis.io/jpx/conventions/jpx-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jpx-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/errors/jpx-problem-types.yml
+  href: https://artifacts.apis.io/jpx/errors/jpx-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/jpx-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/conformance/jpx-conformance.yml
+  href: https://artifacts.apis.io/jpx/conformance/jpx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jpx-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/lifecycle/jpx-lifecycle.yml
+  href: https://artifacts.apis.io/jpx/lifecycle/jpx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jpx-lifecycle.yml
@@ -134,7 +136,7 @@ common:
   type: Deprecation
   url: https://jpx-jquants.com/en/spec/migration-v1-v2
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/changelog/jpx-changelog.yml
+  href: https://artifacts.apis.io/jpx/changelog/jpx-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/jpx-changelog.yml
@@ -143,12 +145,12 @@ common:
   type: ReleaseNotes
   url: https://jpx-jquants.com/en/spec/release
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/rate-limits/jpx-rate-limits.yml
+  href: https://artifacts.apis.io/jpx/rate-limits/jpx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jpx-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/plans/jpx-plans.yml
+  href: https://artifacts.apis.io/jpx/plans/jpx-plans.yml
   title: ''
   type: Plans
   url: plans/jpx-plans.yml
@@ -206,6 +208,14 @@ common:
   url: https://jpx-jquants.com/en/help
 created: '2026-07-21'
 description: JPX (Japan Exchange Group) operates the Tokyo Stock Exchange, Osaka Exchange, and Tokyo Commodity Exchange, and sells Japanese market data through its JPX Market Innovation & Research arm. Its developer-facing product is the J-Quants API - a self-serve, subscription REST API (Free/Light/Standard/Premium plans, x-api-key auth, base https://api.jquants.com/v2) delivering historical equities OHLCV/minute/tick bars, indices, derivatives, financial statements, short-selling and margin data, EDINET filings, and TDnet disclosures, plus bulk CSV download, an MCP server, and a CLI - licensed to individual investors only. Institutional real-time data (FLEX Standard and FLEX MBO order-book feeds) and corporate historical data (J-Quants Pro via API/SFTP/Snowflake, J-Quants DataCube) are sales-gated services.
+finops:
+- has_sources: true
+  method: derived
+  name: Jpx Finops
+  primary_unit: add-on
+  service_category: ''
+  slug: jpx-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jpx.png
 layout: provider
 mcp_servers:
@@ -222,31 +232,31 @@ overview: 'JPX (Japan Exchange Group) is listed with 8 APIs on the [APIs.io](htt
   JPX (Japan Exchange Group)''s developer surface includes CLI, authentication, changelog, release notes, getting-started guide, API reference, developer portal, and 24 more developer resources.'
 plans:
 - name: Jpx Plans
-  plan_count: 4
+  plan_count: 6
   slug: jpx-plans
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 8
   name: Jpx Rate Limits
   slug: jpx-rate-limits
 score:
   band: developing
-  composite: 51.6
+  composite: 52.9
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 64.0
+    artifact_dirs: 20
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 78.6
-    discoverability: 76.7
-    operational_transparency: 73.7
+    discoverability: 70.0
+    operational_transparency: 76.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -254,7 +264,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 51.6
+  previous_composite: 51.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -265,14 +275,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/screenshots/jpx-2026-07-22T202441.png
+screenshot: https://apis.io/screenshots/jpx/jpx-2026-07-22T202441.png
 security:
 - kind: authentication
   name: Jpx Authentication
@@ -282,6 +292,10 @@ security:
   name: Jpx Domain Security
   slug: jpx-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: jquants-cli-usage
+  slug: jpx-jquants-cli-usage
 slug: jpx
 tags:
 - Finance

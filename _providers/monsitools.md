@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.0
-  scored_at: '2026-10-17'
+  score: 35.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 5
   slug: monsitools-agentic-access
   summary_line: 5 operations · 3 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: Remote MCP server exposing search_calculators, describe_calculator and calculate.
   name: MonsiTools MCP Server
@@ -51,75 +53,85 @@ apis:
   description: The Keys API from MonsiTools — 1 operation(s) for keys.
   name: MonsiTools Keys API
   slug: monsitools-keys-api
-artifact_total: 16
+artifact_total: 19
 common:
+- group: commercial
+  href: https://artifacts.apis.io/monsitools/plans/monsitools-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/monsitools-plans-pricing.yml
+- group: other
+  href: https://artifacts.apis.io/monsitools/capabilities/monsitools-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/monsitools-capability-edges.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/rate-limits/monsitools-rate-limits.yml
+  href: https://artifacts.apis.io/monsitools/rate-limits/monsitools-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/monsitools-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/mcp/monsitools-tool-crosswalk.yml
+  href: https://artifacts.apis.io/monsitools/mcp/monsitools-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/monsitools-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/agentic-access/monsitools-agentic-access.yml
+  href: https://artifacts.apis.io/monsitools/agentic-access/monsitools-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/monsitools-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/rules/monsitools-rules.yml
+  href: https://artifacts.apis.io/monsitools/rules/monsitools-rules.yml
   title: ''
   type: Spectral
   url: rules/monsitools-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/json-ld/monsitools-context.jsonld
+  href: https://artifacts.apis.io/monsitools/json-ld/monsitools-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/monsitools-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/vocabulary/monsitools-vocabulary.yml
+  href: https://artifacts.apis.io/monsitools/vocabulary/monsitools-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/monsitools-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/data-model/monsitools-data-model.yml
+  href: https://artifacts.apis.io/monsitools/data-model/monsitools-data-model.yml
   title: ''
   type: DataModel
   url: data-model/monsitools-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/errors/monsitools-problem-types.yml
+  href: https://artifacts.apis.io/monsitools/errors/monsitools-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/monsitools-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/conformance/monsitools-conformance.yml
+  href: https://artifacts.apis.io/monsitools/conformance/monsitools-conformance.yml
   title: ''
   type: Conformance
   url: conformance/monsitools-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/llms/monsitools-llms.txt
+  href: https://artifacts.apis.io/monsitools/llms/monsitools-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/monsitools-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/hosts/monsitools-hosts.yml
+  href: https://artifacts.apis.io/monsitools/hosts/monsitools-hosts.yml
   title: ''
   type: Hosts
   url: hosts/monsitools-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/vendors/monsitools-vendors.yml
+  href: https://artifacts.apis.io/monsitools/vendors/monsitools-vendors.yml
   title: ''
   type: Vendors
   url: vendors/monsitools-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/authentication/monsitools-authentication.yml
+  href: https://artifacts.apis.io/monsitools/authentication/monsitools-authentication.yml
   title: ''
   type: Authentication
   url: authentication/monsitools-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/security/monsitools-domain-security.yml
+  href: https://artifacts.apis.io/monsitools/security/monsitools-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/monsitools-domain-security.yml
@@ -165,6 +177,14 @@ common:
   url: https://monsitools.com/guides
 created: '2026-10-09'
 description: 'MonsiTools is a calculator and workflow builder: people build calculators by typing a formula in plain words and chain them into workflows. It ships 1262 ready-made browser calculators and data tools for business, finance, SaaS metrics, ecommerce and marketing, plus a JSON Calculation API (premium, 60 requests per minute, Bearer mt_live_ keys) and a remote MCP server at monsitools.com/mcp.'
+finops:
+- has_sources: true
+  method: derived
+  name: Monsitools Finops
+  primary_unit: week
+  service_category: ''
+  slug: monsitools-finops
+  template: false
 image: https://monsitools.com/og/default.png
 json_schemas:
 - name: ApiKeyCreated
@@ -202,8 +222,15 @@ overview: 'MonsiTools publishes 4 API contracts indexed on the [APIs.io](https:/
   The MonsiTools catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  MonsiTools'' developer surface includes authentication, documentation, changelog, signup flow, pricing, getting-started guide, and 18 more developer resources.'
-random_paper: 11
+  MonsiTools'' developer surface includes authentication, documentation, changelog, signup flow, pricing, getting-started guide, and 20 more developer resources.'
+plans:
+- name: Monsitools Plans Pricing
+  plan_count: 4
+  slug: monsitools-plans-pricing
+- name: Monsitools Price Estimates
+  plan_count: 0
+  slug: monsitools-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Monsitools Rate Limits
@@ -222,24 +249,24 @@ rules:
     warn: 1
   slug: monsitools-rules
 score:
-  band: developing
-  composite: 50.6
+  band: strong
+  composite: 56.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 70.8
-    catalog_earned_first_party: 8.0
-    catalog_gap: 44.3
+    artifact_dirs: 22
+    catalog_earned: 85.8
+    catalog_earned_first_party: 20.0
+    catalog_gap: 29.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.6
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 22.0
     contract_quality: 61.0
     developer_ergonomics: 42.9
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 36.8
-  previous_composite: 48.0
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,13 +282,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/monsitools/refs/heads/main/screenshots/monsitools-2026-10-11T111246.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/monsitools/monsitools-2026-10-11T111246.png
 security:
 - kind: authentication
   name: Monsitools Authentication

@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.6
-  scored_at: '2026-10-17'
+  score: 48.4
+  scored_at: '2026-10-31'
 api_count: 9
 apis:
 - description: Programmatic access to historical and real-time Conviva experience metrics by metric name, with optional group-by dimensions, saved or dimensional filters, KPI thresholds and sorting. Historical reque
@@ -67,7 +69,7 @@ apis:
 - description: Hosted Model Context Protocol server for the Conviva Digital Intelligence Platform, exposing /insights, /nexa, /context-center, /session-replay and /metric-query sub-services. Authenticates via Okta-b
   name: Conviva DPI MCP Server
   slug: dpi-mcp
-artifact_total: 16
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Conviva Alerts Webhooks
@@ -130,72 +132,72 @@ common:
   type: Deprecation
   url: https://docs.conviva.ai/api/whats-new-conviva-apis/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/changelog/conviva-changelog.yml
+  href: https://artifacts.apis.io/conviva/changelog/conviva-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/conviva-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/lifecycle/conviva-lifecycle.yml
+  href: https://artifacts.apis.io/conviva/lifecycle/conviva-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/conviva-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/authentication/conviva-authentication.yml
+  href: https://artifacts.apis.io/conviva/authentication/conviva-authentication.yml
   title: ''
   type: Authentication
   url: authentication/conviva-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/scopes/conviva-scopes.yml
+  href: https://artifacts.apis.io/conviva/scopes/conviva-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/conviva-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/packages/conviva-packages.yml
+  href: https://artifacts.apis.io/conviva/packages/conviva-packages.yml
   title: ''
   type: Packages
   url: packages/conviva-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/packages/conviva-packages.yml
+  href: https://artifacts.apis.io/conviva/packages/conviva-packages.yml
   title: ''
   type: SDKs
   url: packages/conviva-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/well-known/conviva-well-known.yml
+  href: https://artifacts.apis.io/conviva/well-known/conviva-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/conviva-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/llms/conviva-llms.txt
+  href: https://artifacts.apis.io/conviva/llms/conviva-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/conviva-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/conventions/conviva-conventions.yml
+  href: https://artifacts.apis.io/conviva/conventions/conviva-conventions.yml
   title: ''
   type: Conventions
   url: conventions/conviva-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/errors/conviva-error-codes.yml
+  href: https://artifacts.apis.io/conviva/errors/conviva-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/conviva-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/rate-limits/conviva-rate-limits.yml
+  href: https://artifacts.apis.io/conviva/rate-limits/conviva-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/conviva-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/asyncapi/conviva-alerts-webhooks.yml
+  href: https://artifacts.apis.io/conviva/asyncapi/conviva-alerts-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/conviva-alerts-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/conviva/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/conformance/conviva-conformance.yml
+  href: https://artifacts.apis.io/conviva/conformance/conviva-conformance.yml
   title: ''
   type: Conformance
   url: conformance/conviva-conformance.yml
@@ -204,12 +206,12 @@ common:
   type: Compliance
   url: https://www.conviva.ai/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/security/conviva-trust-center.yml
+  href: https://artifacts.apis.io/conviva/security/conviva-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/conviva-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/security/conviva-domain-security.yml
+  href: https://artifacts.apis.io/conviva/security/conviva-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/conviva-domain-security.yml
@@ -233,7 +235,7 @@ overview: 'Conviva is listed with 9 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Conviva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 24 more developer resources.'
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 6
   name: Conviva Rate Limits
@@ -245,9 +247,9 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.4
+  composite: 57.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -259,9 +261,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 80.0
-    operational_transparency: 81.6
-  previous_composite: 58.4
+    discoverability: 70.0
+    operational_transparency: 84.2
+  previous_composite: 57.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -278,14 +280,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/conviva/refs/heads/main/screenshots/conviva-2026-08-07T163806.png
+screenshot: https://apis.io/screenshots/conviva/conviva-2026-08-07T163806.png
 security:
 - kind: authentication
   name: Conviva Authentication
@@ -299,6 +301,14 @@ security:
   name: Conviva Trust Center
   slug: conviva-trust-center
   summary_line: ISO/IEC 27001:2022
+skill_count: 3
+skills:
+- name: exploring-context-center
+  slug: conviva-exploring-context-center
+- name: querying-predefined-metrics
+  slug: conviva-querying-predefined-metrics
+- name: retrieving-behavior-segment-details
+  slug: conviva-retrieving-behavior-segment-details
 slug: conviva
 tags:
 - Analytics

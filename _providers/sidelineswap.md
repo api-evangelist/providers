@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Authenticated REST API surface behind the SidelineSwap developer portal — identity (IAM), commerce and secure payments on api.sidelineswap.com, plus a partner Inventory API (developer.sidelineswap.com
@@ -41,12 +43,12 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sidelineswap/refs/heads/main/security/sidelineswap-domain-security.yml
+  href: https://artifacts.apis.io/sidelineswap/security/sidelineswap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sidelineswap-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sidelineswap/refs/heads/main/llms/sidelineswap-llms.txt
+  href: https://artifacts.apis.io/sidelineswap/llms/sidelineswap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sidelineswap-llms.txt
@@ -102,10 +104,10 @@ overview: 'SidelineSwap is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   SidelineSwap''s developer surface includes documentation, API reference, support, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 12
+random_paper: 16
 score:
   band: emerging
-  composite: 20.9
+  composite: 20.6
   coverage:
     artifact_dirs: 6
     catalog_earned: 37.0
@@ -119,23 +121,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 20.9
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 20.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sidelineswap/refs/heads/main/screenshots/sidelineswap-2026-09-02T155356.png
+screenshot: https://apis.io/screenshots/sidelineswap/sidelineswap-2026-09-02T155356.png
 security:
 - kind: domain-security
   name: Sidelineswap Domain Security

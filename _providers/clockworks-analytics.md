@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The Base container of the Clockworks REST API. Serves static asset information — clients, buildings, building types and variables, equipment, equipment classes / types / variables, points, point class
@@ -109,52 +111,52 @@ common:
   type: TrustCenter
   url: https://trust.clockworksanalytics.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/security/clockworks-analytics-trust-center.yml
+  href: https://artifacts.apis.io/clockworks-analytics/security/clockworks-analytics-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/clockworks-analytics-trust-center.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/changelog/clockworks-analytics-changelog.yml
+  href: https://artifacts.apis.io/clockworks-analytics/changelog/clockworks-analytics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/clockworks-analytics-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/authentication/clockworks-analytics-authentication.yml
+  href: https://artifacts.apis.io/clockworks-analytics/authentication/clockworks-analytics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clockworks-analytics-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/conventions/clockworks-analytics-conventions.yml
+  href: https://artifacts.apis.io/clockworks-analytics/conventions/clockworks-analytics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clockworks-analytics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/lifecycle/clockworks-analytics-lifecycle.yml
+  href: https://artifacts.apis.io/clockworks-analytics/lifecycle/clockworks-analytics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clockworks-analytics-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/conformance/clockworks-analytics-conformance.yml
+  href: https://artifacts.apis.io/clockworks-analytics/conformance/clockworks-analytics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clockworks-analytics-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/data-model/clockworks-analytics-data-model.yml
+  href: https://artifacts.apis.io/clockworks-analytics/data-model/clockworks-analytics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clockworks-analytics-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/sandbox/clockworks-analytics-sandbox.yml
+  href: https://artifacts.apis.io/clockworks-analytics/sandbox/clockworks-analytics-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/clockworks-analytics-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/security/clockworks-analytics-domain-security.yml
+  href: https://artifacts.apis.io/clockworks-analytics/security/clockworks-analytics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clockworks-analytics-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/llms/clockworks-analytics-llms.txt
+  href: https://artifacts.apis.io/clockworks-analytics/llms/clockworks-analytics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clockworks-analytics-llms.txt
@@ -170,10 +172,10 @@ overview: 'Clockworks Analytics is listed with 4 APIs on the [APIs.io](https://a
 
 
   Clockworks Analytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 17 more developer resources.'
-random_paper: 13
+random_paper: 15
 score:
   band: thin
-  composite: 35.1
+  composite: 36.4
   coverage:
     artifact_dirs: 14
     catalog_earned: 40.0
@@ -183,13 +185,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
     discoverability: 71.4
     operational_transparency: 31.6
-  previous_composite: 35.1
+  previous_composite: 36.4
   provenance:
     conformance: first-party
   regulatory:
@@ -198,14 +200,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 24.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/screenshots/clockworks-analytics-2026-09-02T145108.png
+screenshot: https://apis.io/screenshots/clockworks-analytics/clockworks-analytics-2026-09-02T145108.png
 security:
 - kind: authentication
   name: Clockworks Analytics Authentication

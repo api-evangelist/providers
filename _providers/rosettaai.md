@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rosettaai/refs/heads/main/security/rosettaai-domain-security.yml
+  href: https://artifacts.apis.io/rosettaai/security/rosettaai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rosettaai-domain-security.yml
@@ -90,47 +92,47 @@ common:
   type: ChangeLog
   url: https://rosetta-ai.gitbook.io/help-center/support/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rosettaai/refs/heads/main/changelog/rosettaai-changelog.yml
+  href: https://artifacts.apis.io/rosettaai/changelog/rosettaai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rosettaai-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rosettaai/refs/heads/main/llms/rosettaai-llms.txt
+  href: https://artifacts.apis.io/rosettaai/llms/rosettaai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rosettaai-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rosettaai/refs/heads/main/plans/rosettaai-plans-pricing.yml
+  href: https://artifacts.apis.io/rosettaai/plans/rosettaai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rosettaai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rosettaai/refs/heads/main/rate-limits/rosettaai-rate-limits.yml
+  href: https://artifacts.apis.io/rosettaai/rate-limits/rosettaai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rosettaai-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rosettaai/refs/heads/main/packages/rosettaai-packages.yml
+  href: https://artifacts.apis.io/rosettaai/packages/rosettaai-packages.yml
   title: ''
   type: Packages
   url: packages/rosettaai-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rosettaai/refs/heads/main/components/rosettaai-components.yml
+  href: https://artifacts.apis.io/rosettaai/components/rosettaai-components.yml
   title: ''
   type: Components
   url: components/rosettaai-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rosettaai/refs/heads/main/conformance/rosettaai-conformance.yml
+  href: https://artifacts.apis.io/rosettaai/conformance/rosettaai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rosettaai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rosettaai/refs/heads/main/conventions/rosettaai-conventions.yml
+  href: https://artifacts.apis.io/rosettaai/conventions/rosettaai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rosettaai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rosettaai/refs/heads/main/lifecycle/rosettaai-lifecycle.yml
+  href: https://artifacts.apis.io/rosettaai/lifecycle/rosettaai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rosettaai-lifecycle.yml
@@ -151,14 +153,14 @@ plans:
 - name: Rosettaai Plans Pricing
   plan_count: 3
   slug: rosettaai-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Rosettaai Rate Limits
   slug: rosettaai-rate-limits
 score:
-  band: emerging
-  composite: 24.9
+  band: thin
+  composite: 28.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 39.0
@@ -166,14 +168,14 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 69.7
+    access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.8
-    discoverability: 55.4
-    operational_transparency: 2.6
+    developer_ergonomics: 28.6
+    discoverability: 48.2
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -181,7 +183,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 24.8
+  previous_composite: 28.9
   provenance:
     conformance: first-party
   regulatory:
@@ -190,14 +192,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rosettaai/refs/heads/main/screenshots/rosettaai-2026-09-02T154130.png
+screenshot: https://apis.io/screenshots/rosettaai/rosettaai-2026-09-02T154130.png
 security:
 - kind: authentication
   name: Rosettaai Authentication

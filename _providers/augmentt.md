@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
-    mcp_server: false
+    idempotency: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-10-17'
+  score: 28.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Augmentt Discover provides SaaS discovery and Shadow IT detection capabilities for MSPs, identifying all cloud applications used across managed client environments.
@@ -61,20 +63,20 @@ apis:
   description: MFA, security posture, threat and summary reporting for managed tenants.
   name: Augmentt Security Reports API
   slug: augmentt-security-reports-api
-artifact_total: 26
+artifact_total: 30
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/finops/augmentt-finops.yml
+  href: https://artifacts.apis.io/augmentt/finops/augmentt-finops.yml
   title: ''
   type: FinOps
   url: finops/augmentt-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/security/augmentt-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/augmentt/security/augmentt-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/augmentt-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/security/augmentt-domain-security.yml
+  href: https://artifacts.apis.io/augmentt/security/augmentt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/augmentt-domain-security.yml
@@ -143,7 +145,7 @@ common:
   type: StatusPage
   url: https://status.augmentt.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/lifecycle/augmentt-lifecycle.yml
+  href: https://artifacts.apis.io/augmentt/lifecycle/augmentt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/augmentt-lifecycle.yml
@@ -160,62 +162,62 @@ common:
   type: TrustCenter
   url: https://trust.augmentt.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/security/augmentt-trust-center.yml
+  href: https://artifacts.apis.io/augmentt/security/augmentt-trust-center.yml
   title: ''
   type: Compliance
   url: security/augmentt-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/conformance/augmentt-conformance.yml
+  href: https://artifacts.apis.io/augmentt/conformance/augmentt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/augmentt-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/authentication/augmentt-authentication.yml
+  href: https://artifacts.apis.io/augmentt/authentication/augmentt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/augmentt-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/errors/augmentt-problem-types.yml
+  href: https://artifacts.apis.io/augmentt/errors/augmentt-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/augmentt-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/conventions/augmentt-conventions.yml
+  href: https://artifacts.apis.io/augmentt/conventions/augmentt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/augmentt-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/data-model/augmentt-data-model.yml
+  href: https://artifacts.apis.io/augmentt/data-model/augmentt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/augmentt-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/packages/augmentt-packages.yml
+  href: https://artifacts.apis.io/augmentt/packages/augmentt-packages.yml
   title: ''
   type: Packages
   url: packages/augmentt-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/rate-limits/augmentt-rate-limits.yml
+  href: https://artifacts.apis.io/augmentt/rate-limits/augmentt-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/augmentt-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/plans/augmentt-plans-pricing.yml
+  href: https://artifacts.apis.io/augmentt/plans/augmentt-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/augmentt-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/overlays/augmentt-api-overlay.yaml
+  href: https://artifacts.apis.io/augmentt/overlays/augmentt-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/augmentt-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/mcp/augmentt-mcp.yml
+  href: https://artifacts.apis.io/augmentt/mcp/augmentt-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/augmentt-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/augmentt/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -247,13 +249,13 @@ features:
 - description: Integrate discovery and optimization data with PSA platforms for automated billing and service delivery.
   name: PSA Integration
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Augmentt Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription at minimum seat volume
+  service_category: ''
   slug: augmentt-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/augmentt.png
 layout: provider
 mcp_servers:
@@ -270,37 +272,40 @@ overview: 'Augmentt publishes 6 API contracts indexed on the [APIs.io](https://a
   Augmentt''s developer surface includes engineering blog, pricing, documentation, API reference, getting-started guide, support, signup flow, and 31 more developer resources.'
 plans:
 - name: Augmentt Plans Pricing
-  plan_count: 5
+  plan_count: 6
   slug: augmentt-plans-pricing
-random_paper: 11
+- name: Augmentt Price Estimates
+  plan_count: 0
+  slug: augmentt-price-estimates
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Augmentt Rate Limits
   slug: augmentt-rate-limits
 score:
   band: developing
-  composite: 44.2
+  composite: 52.7
   coverage:
     artifact_dirs: 21
-    catalog_earned: 49.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 0.0
     contract_quality: 15.0
-    developer_ergonomics: 25.6
-    discoverability: 74.1
-    operational_transparency: 50.0
+    developer_ergonomics: 58.9
+    discoverability: 73.3
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - canada
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 45.7
+  previous_composite: 51.1
   provenance:
     conformance: first-party
     contracts:
@@ -316,14 +321,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/screenshots/augmentt-2026-07-25T201708.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/augmentt/augmentt-2026-07-25T201708.png
 security:
 - kind: authentication
   name: Augmentt Authentication
@@ -341,6 +346,14 @@ security:
   name: Augmentt Trust Center
   slug: augmentt-trust-center
   summary_line: SOC 2 Type 2, GDPR
+skill_count: 3
+skills:
+- name: augmentt-license-waste-review
+  slug: augmentt-license-waste-review
+- name: augmentt-mfa-gap-sweep
+  slug: augmentt-mfa-gap-sweep
+- name: augmentt-tenant-security-posture-brief
+  slug: augmentt-tenant-security-posture-brief
 slug: augmentt
 solutions:
 - description: Package and deliver SaaS management as a managed service offering including discovery, optimization, and security monitoring.

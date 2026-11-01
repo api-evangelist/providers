@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-17'
+  score: 23.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -86,15 +88,12 @@ apis:
   description: Read-only market metadata.
   name: Polymarket Gamma Markets API
   slug: polymarket-gamma-markets-api
-artifact_total: 25
+artifact_total: 24
 asyncapis:
 - description: 'Real-time streaming feed for Polymarket''s central-limit order book (CLOB). Two channels are exposed: a public market channel that streams order book snapshots, price level updates, tick size changes, '
   name: Polymarket CLOB WebSocket API
   slug: polymarket-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Polymarket APIs (CLOB and Gamma) CLOB Market Data API
   slug: open-polymarket-clob-market-data-api
@@ -112,17 +111,17 @@ collections:
   slug: open-polymarket
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/plans/polymarket-plans-pricing.yml
+  href: https://artifacts.apis.io/polymarket/plans/polymarket-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/polymarket-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/rate-limits/polymarket-rate-limits.yml
+  href: https://artifacts.apis.io/polymarket/rate-limits/polymarket-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/polymarket-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/finops/polymarket-finops.yml
+  href: https://artifacts.apis.io/polymarket/finops/polymarket-finops.yml
   title: ''
   type: FinOps
   url: finops/polymarket-finops.yml
@@ -155,17 +154,17 @@ common:
   type: License
   url: https://github.com/Polymarket/py-clob-client/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/agentic-access/polymarket-agentic-access.yml
+  href: https://artifacts.apis.io/polymarket/agentic-access/polymarket-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/polymarket-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/security/polymarket-domain-security.yml
+  href: https://artifacts.apis.io/polymarket/security/polymarket-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/polymarket-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/authentication/polymarket-authentication.yml
+  href: https://artifacts.apis.io/polymarket/authentication/polymarket-authentication.yml
   title: ''
   type: Authentication
   url: authentication/polymarket-authentication.yml
@@ -232,7 +231,7 @@ plans:
 - name: Polymarket Plans Pricing
   plan_count: 1
   slug: polymarket-plans-pricing
-random_paper: 18
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Polymarket Rate Limits
@@ -252,7 +251,7 @@ rules:
   slug: polymarket-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 38.8
+  composite: 32.9
   coverage:
     artifact_dirs: 14
     catalog_earned: 44.8
@@ -260,7 +259,7 @@ score:
     catalog_gap: 70.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 11.4
@@ -268,10 +267,7 @@ score:
     developer_ergonomics: 26.2
     discoverability: 73.2
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 44.2
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -285,13 +281,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/screenshots/polymarket-2026-06-20T191927.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/polymarket/polymarket-2026-06-20T191927.png
 security:
 - kind: authentication
   name: Polymarket Authentication

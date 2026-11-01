@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -46,7 +48,7 @@ common:
   type: License
   url: https://github.com/precision-neuroscience/layer7-nbme2025/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/precision-neuroscience/refs/heads/main/security/precision-neuroscience-domain-security.yml
+  href: https://artifacts.apis.io/precision-neuroscience/security/precision-neuroscience-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/precision-neuroscience-domain-security.yml
@@ -79,12 +81,12 @@ common:
   type: SourceCode
   url: https://github.com/precision-neuroscience/layer7-nbme2025
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/precision-neuroscience/refs/heads/main/llms/precision-neuroscience-llms.txt
+  href: https://artifacts.apis.io/precision-neuroscience/llms/precision-neuroscience-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/precision-neuroscience-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/precision-neuroscience/refs/heads/main/conformance/precision-neuroscience-conformance.yml
+  href: https://artifacts.apis.io/precision-neuroscience/conformance/precision-neuroscience-conformance.yml
   title: ''
   type: Conformance
   url: conformance/precision-neuroscience-conformance.yml
@@ -145,10 +147,10 @@ overview: 'Precision Neuroscience is profiled on the [APIs.io](https://apis.io/)
 
 
   Precision Neuroscience''s developer surface includes product news, engineering blog, and 17 more developer resources.'
-random_paper: 12
+random_paper: 20
 score:
-  band: minimal
-  composite: 10.5
+  band: emerging
+  composite: 11.3
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -156,18 +158,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 56.3
-    operational_transparency: 2.6
-  open_source:
-    applies: true
-    score: 0.0
-  previous_composite: 10.4
+    discoverability: 50.0
+    operational_transparency: 5.3
+  previous_composite: 11.3
   provenance:
     conformance: derived
   regulatory:
@@ -176,14 +175,14 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/precision-neuroscience/refs/heads/main/screenshots/precision-neuroscience-2026-09-02T151910.png
+screenshot: https://apis.io/screenshots/precision-neuroscience/precision-neuroscience-2026-09-02T151910.png
 security:
 - kind: domain-security
   name: Precision Neuroscience Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - description: The University of Barcelona's own SAML 2.0 identity provider, published as a signed EntityDescriptor through RedIRIS SIR — the Spanish academic identity federation — and carried into eduGAIN. entityID
@@ -93,37 +95,37 @@ common:
   type: Authentication
   url: https://sso.ub.edu/SAML2/SSOService.php
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-barcelona/refs/heads/main/conformance/university-of-barcelona-education-standards.yml
+  href: https://artifacts.apis.io/university-of-barcelona/conformance/university-of-barcelona-education-standards.yml
   title: ''
   type: Conformance
   url: conformance/university-of-barcelona-education-standards.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-barcelona/refs/heads/main/security/university-of-barcelona-domain-security.yml
+  href: https://artifacts.apis.io/university-of-barcelona/security/university-of-barcelona-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-barcelona-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-barcelona/refs/heads/main/plans/university-of-barcelona-plans-pricing.yml
+  href: https://artifacts.apis.io/university-of-barcelona/plans/university-of-barcelona-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-barcelona-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-barcelona/refs/heads/main/rate-limits/university-of-barcelona-rate-limits.yml
+  href: https://artifacts.apis.io/university-of-barcelona/rate-limits/university-of-barcelona-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-barcelona-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-barcelona/refs/heads/main/finops/university-of-barcelona-finops.yml
+  href: https://artifacts.apis.io/university-of-barcelona/finops/university-of-barcelona-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-barcelona-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-barcelona/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/university-of-barcelona/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-barcelona/refs/heads/main/json-ld/university-of-barcelona-context.jsonld
+  href: https://artifacts.apis.io/university-of-barcelona/json-ld/university-of-barcelona-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/university-of-barcelona-context.jsonld
@@ -160,7 +162,7 @@ plans:
 - name: University Of Barcelona Plans Pricing
   plan_count: 2
   slug: university-of-barcelona-plans-pricing
-random_paper: 6
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: University Of Barcelona Rate Limits
@@ -175,7 +177,7 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -191,7 +193,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 22.6
+  previous_composite: 16.5
   provenance:
     conformance: first-party
   regulatory:
@@ -200,9 +202,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

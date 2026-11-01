@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: FBS's proprietary REST API over Flexmls MLS content. Documented services include Listings (plus photos, documents, floor plans, videos, virtual tours, open houses, rooms, units, history and rules), Co
@@ -49,7 +51,7 @@ apis:
 - description: 'Outbound webhook delivery from the Spark platform. When a Property, Member or Office record changes in an upstream MLS, Spark POSTs a RESO Web API Entity Event payload over HTTPS to a subscriber URL, '
   name: Spark Webhooks
   slug: spark-webhooks
-artifact_total: 9
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Spark Platform Webhooks
@@ -59,8 +61,13 @@ collections:
   name: Spark Web API Queries
   slug: postman-spark-platform-spark-web-api-queries
 common:
+- group: commercial
+  href: https://artifacts.apis.io/spark-platform/plans/spark-platform-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spark-platform-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/security/spark-platform-domain-security.yml
+  href: https://artifacts.apis.io/spark-platform/security/spark-platform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spark-platform-domain-security.yml
@@ -113,37 +120,37 @@ common:
   type: Authentication
   url: https://sparkplatform.com/docs/authentication/authentication
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/authentication/spark-platform-authentication.yml
+  href: https://artifacts.apis.io/spark-platform/authentication/spark-platform-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spark-platform-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/scopes/spark-platform-scopes.yml
+  href: https://artifacts.apis.io/spark-platform/scopes/spark-platform-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/spark-platform-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/authentication/spark-platform-openid-configuration.json
+  href: https://artifacts.apis.io/spark-platform/authentication/spark-platform-openid-configuration.json
   title: ''
   type: OpenIDConnectDiscovery
   url: authentication/spark-platform-openid-configuration.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/authentication/spark-platform-openid-jwks.json
+  href: https://artifacts.apis.io/spark-platform/authentication/spark-platform-openid-jwks.json
   title: ''
   type: JSONWebKeySet
   url: authentication/spark-platform-openid-jwks.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/well-known/spark-platform-well-known.yml
+  href: https://artifacts.apis.io/spark-platform/well-known/spark-platform-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/spark-platform-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/packages/spark-platform-packages.yml
+  href: https://artifacts.apis.io/spark-platform/packages/spark-platform-packages.yml
   title: ''
   type: Packages
   url: packages/spark-platform-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/packages/spark-platform-packages.yml
+  href: https://artifacts.apis.io/spark-platform/packages/spark-platform-packages.yml
   title: ''
   type: SDKs
   url: packages/spark-platform-packages.yml
@@ -152,52 +159,52 @@ common:
   type: Postman
   url: https://documenter.getpostman.com/view/25548936/2s935snM26
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/postman/spark-platform-spark-web-api-queries.postman_collection.json
+  href: https://artifacts.apis.io/spark-platform/postman/spark-platform-spark-web-api-queries.postman_collection.json
   title: ''
   type: PostmanCollection
   url: postman/spark-platform-spark-web-api-queries.postman_collection.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/examples/spark-platform-request-examples.yml
+  href: https://artifacts.apis.io/spark-platform/examples/spark-platform-request-examples.yml
   title: ''
   type: Examples
   url: examples/spark-platform-request-examples.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/conventions/spark-platform-conventions.yml
+  href: https://artifacts.apis.io/spark-platform/conventions/spark-platform-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spark-platform-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/errors/spark-platform-error-codes.yml
+  href: https://artifacts.apis.io/spark-platform/errors/spark-platform-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/spark-platform-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/rate-limits/spark-platform-rate-limits.yml
+  href: https://artifacts.apis.io/spark-platform/rate-limits/spark-platform-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spark-platform-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/lifecycle/spark-platform-lifecycle.yml
+  href: https://artifacts.apis.io/spark-platform/lifecycle/spark-platform-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spark-platform-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/data-model/spark-platform-data-model.yml
+  href: https://artifacts.apis.io/spark-platform/data-model/spark-platform-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spark-platform-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/components/spark-platform-components.yml
+  href: https://artifacts.apis.io/spark-platform/components/spark-platform-components.yml
   title: ''
   type: Components
   url: components/spark-platform-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/asyncapi/spark-platform-webhooks.yml
+  href: https://artifacts.apis.io/spark-platform/asyncapi/spark-platform-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/spark-platform-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/conformance/spark-platform-conformance.yml
+  href: https://artifacts.apis.io/spark-platform/conformance/spark-platform-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spark-platform-conformance.yml
@@ -206,7 +213,7 @@ common:
   type: Compliance
   url: https://services.reso.org/orgs?showStats=true&showEndorsements=true
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/llms/spark-platform-llms.txt
+  href: https://artifacts.apis.io/spark-platform/llms/spark-platform-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spark-platform-llms.txt
@@ -229,6 +236,14 @@ common:
 created: '2026-07-26'
 description: 'Spark Platform is the MLS data platform built by FBS, a 100% employee-owned company in Fargo, North Dakota that has served the US Multiple Listing Service industry for over 30 years and operates the Flexmls MLS system for more than 120 MLS organizations. Spark sits in the distribution layer of US residential real estate: it takes MLS content out of Flexmls and exposes it to third-party developers through two documented interfaces — the proprietary Spark API (https://sparkapi.com/v1, SparkQL filtering, listings, contacts, saved searches, market statistics, portals/VOW accounts) and a RESO Web API implementation at the /Reso/OData endpoint (https://replication.sparkapi.com/Version/3/Reso/OData/) serving Property, Member, Office, Media, OpenHouse, Room, Unit, GreenVerification, PowerProduction and Lookup resources against the RESO Data Dictionary. FBS is a RESO Certified technology provider (Unique Organization Identifier T00000052, status "Certified Current") and appears as the
   certifying provider on RESO Web API Core 2.0.0 and Data Dictionary 1.7 / 2.0 endorsements for 138 MLS organizations plus one commercial board in the public RESO organizations feed; FBS itself additionally holds RESO webhooks 1.0.0 and RESO Common Format 2.0 endorsements. The API posture must be stated honestly: the documentation is genuinely public and unusually complete, developer registration is a free public form, and the endpoints are live — but they are not open. Every probed data endpoint, including the OData $metadata document, returns HTTP 401 "Invalid API key and/or request signed improperly" anonymously. Real data requires a Developer Agreement with FBS, an MLS-approved data plan purchased through the Spark Datamart under an IDX, VOW or Private role, and a per-MLS fee. Certification here is real and verifiable; reachability is licensed. Home market is the United States.'
+finops:
+- has_sources: true
+  method: derived
+  name: Spark Platform Finops
+  primary_unit: mls
+  service_category: ''
+  slug: spark-platform-finops
+  template: false
 image: https://www.sparkapi.io/wp-content/uploads/2023/07/cropped-Spark_Pin_Favicon-192x192.png
 layout: provider
 modified: '2026-07-26'
@@ -241,8 +256,15 @@ overview: 'Spark Platform is listed with 3 APIs on the [APIs.io](https://apis.io
   The Spark Platform catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Spark Platform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 30 more developer resources.'
-random_paper: 7
+  Spark Platform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 31 more developer resources.'
+plans:
+- name: Spark Platform Plans Pricing
+  plan_count: 1
+  slug: spark-platform-plans-pricing
+- name: Spark Platform Price Estimates
+  plan_count: 0
+  slug: spark-platform-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Spark Platform Rate Limits
@@ -254,22 +276,22 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 54.8
+  composite: 60.2
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 52.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    artifact_dirs: 23
+    catalog_earned: 63.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 5.8
   facets:
-    access_clarity: 52.6
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 45.3
     developer_ergonomics: 69.0
-    discoverability: 78.6
-    operational_transparency: 42.1
+    discoverability: 71.4
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -277,7 +299,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 54.7
+  previous_composite: 54.4
   provenance:
     conformance: first-party
   regulatory:
@@ -286,14 +308,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/screenshots/spark-platform-2026-08-17T082017.png
+screenshot: https://apis.io/screenshots/spark-platform/spark-platform-2026-08-17T082017.png
 security:
 - kind: authentication
   name: Spark Platform Authentication

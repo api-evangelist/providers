@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,17 +77,17 @@ common:
   type: PrivacyPolicy
   url: https://www.goodreads.com/about/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goodreads/refs/heads/main/authentication/goodreads-authentication.yml
+  href: https://artifacts.apis.io/goodreads/authentication/goodreads-authentication.yml
   title: ''
   type: Authentication
   url: authentication/goodreads-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodreads/refs/heads/main/well-known/goodreads-well-known.yml
+  href: https://artifacts.apis.io/goodreads/well-known/goodreads-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/goodreads-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodreads/refs/heads/main/lifecycle/goodreads-lifecycle.yml
+  href: https://artifacts.apis.io/goodreads/lifecycle/goodreads-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/goodreads-lifecycle.yml
@@ -94,17 +96,17 @@ common:
   type: Deprecation
   url: https://help.goodreads.com/s/article/Does-Goodreads-support-the-use-of-APIs
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodreads/refs/heads/main/conformance/goodreads-conformance.yml
+  href: https://artifacts.apis.io/goodreads/conformance/goodreads-conformance.yml
   title: ''
   type: Conformance
   url: conformance/goodreads-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goodreads/refs/heads/main/security/goodreads-domain-security.yml
+  href: https://artifacts.apis.io/goodreads/security/goodreads-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/goodreads-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodreads/refs/heads/main/llms/goodreads-llms.txt
+  href: https://artifacts.apis.io/goodreads/llms/goodreads-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/goodreads-llms.txt
@@ -120,12 +122,12 @@ overview: 'Goodreads is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Goodreads'' developer surface includes API reference, documentation, support, engineering blog, signup flow, authentication, and 10 more developer resources.'
-random_paper: 6
+random_paper: 16
 score:
   band: emerging
-  composite: 24.1
+  composite: 23.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -137,9 +139,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 7.9
-  previous_composite: 24.1
+  previous_composite: 23.4
   provenance:
     conformance: first-party
   regulatory:
@@ -148,14 +150,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/goodreads/refs/heads/main/screenshots/goodreads-2026-07-25T220056.png
+screenshot: https://apis.io/screenshots/goodreads/goodreads-2026-07-25T220056.png
 security:
 - kind: authentication
   name: Goodreads Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://app.icontact.com/icp/
@@ -40,7 +42,7 @@ apis:
   description: REST API v2.2 for managing contacts, lists, segments, campaigns, messages, sends, and reporting inside the iContact email marketing platform. Authentication uses custom HTTP headers including API-AppI
   name: iContact REST API
   slug: rest-api
-artifact_total: 7
+artifact_total: 13
 asyncapis:
 - description: 'Derived AsyncAPI description of the four contact-lifecycle webhook events iContact documents at https://help.icontact.com/customers/s/article/Web-Hooks-iContact-API. NOT A PROVIDER ARTIFACT. iContact '
   name: iContact Webhooks
@@ -50,12 +52,12 @@ asyncapis:
   slug: icontact-webhooks
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/icontact/refs/heads/main/rate-limits/icontact-rate-limits.yml
+  href: https://artifacts.apis.io/icontact/rate-limits/icontact-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/icontact-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/icontact/refs/heads/main/security/icontact-domain-security.yml
+  href: https://artifacts.apis.io/icontact/security/icontact-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/icontact-domain-security.yml
@@ -100,7 +102,7 @@ common:
   type: Pricing
   url: https://www.icontact.com/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/icontact/refs/heads/main/plans/icontact-plans-pricing.yml
+  href: https://artifacts.apis.io/icontact/plans/icontact-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/icontact-plans-pricing.yml
@@ -125,22 +127,22 @@ common:
   type: StatusPage
   url: https://status.icontact.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/icontact/refs/heads/main/packages/icontact-packages.yml
+  href: https://artifacts.apis.io/icontact/packages/icontact-packages.yml
   title: ''
   type: Packages
   url: packages/icontact-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/icontact/refs/heads/main/packages/icontact-packages.yml
+  href: https://artifacts.apis.io/icontact/packages/icontact-packages.yml
   title: ''
   type: SDKs
   url: packages/icontact-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/icontact/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/icontact/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/icontact/refs/heads/main/llms/icontact-llms.txt
+  href: https://artifacts.apis.io/icontact/llms/icontact-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/icontact-llms.txt
@@ -158,6 +160,14 @@ common:
   url: https://www.icontact.com/resources/blog/feed/
 created: '2026-05-11'
 description: iContact is an email marketing and marketing automation platform (now part of Cision) that helps small and mid-market businesses build email campaigns, manage contacts and lists, automate drip sequences, and measure engagement. The iContact REST API v2.2 provides programmatic access to contacts, lists, segments, campaigns, messages, and reporting data using a combination of HTTP headers (API-AppId, API-Version, API-Username, API-Password) for authentication.
+finops:
+- has_sources: true
+  method: derived
+  name: Icontact Finops
+  primary_unit: 500 contacts
+  service_category: ''
+  slug: icontact-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/icontact.png
 layout: provider
 modified: '2026-08-13'
@@ -173,32 +183,35 @@ overview: 'iContact is listed with 1 API on the [APIs.io](https://apis.io/) netw
   iContact''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, engineering blog, and 18 more developer resources.'
 plans:
 - name: Icontact Plans Pricing
-  plan_count: 4
+  plan_count: 12
   slug: icontact-plans-pricing
-random_paper: 17
+- name: Icontact Price Estimates
+  plan_count: 0
+  slug: icontact-price-estimates
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Icontact Rate Limits
   slug: icontact-rate-limits
 score:
-  band: developing
-  composite: 54.2
+  band: strong
+  composite: 57.4
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.6
     developer_ergonomics: 73.2
     discoverability: 66.1
-    operational_transparency: 42.1
-  previous_composite: 54.1
+    operational_transparency: 44.7
+  previous_composite: 55.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -209,14 +222,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/icontact/refs/heads/main/screenshots/icontact-2026-06-20T183200.png
+screenshot: https://apis.io/screenshots/icontact/icontact-2026-06-20T183200.png
 security:
 - kind: authentication
   name: Icontact Authentication
@@ -226,6 +239,16 @@ security:
   name: Icontact Domain Security
   slug: icontact-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: icontact-add-contact-to-list
+  slug: icontact-add-contact-to-list
+- name: icontact-create-and-send-message
+  slug: icontact-create-and-send-message
+- name: icontact-read-engagement
+  slug: icontact-read-engagement
+- name: icontact-search-contacts
+  slug: icontact-search-contacts
 slug: icontact
 tags:
 - Email Marketing

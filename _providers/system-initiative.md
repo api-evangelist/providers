@@ -24,22 +24,24 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.4
-  scored_at: '2026-10-17'
+  score: 19.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Workspace-scoped REST API (the "luminork" server) for automating System Initiative: create and apply change sets, model/discover/import components, run functions, and manage actions and secrets. Beare'
   name: System Initiative Public API
   slug: system-initiative-public-api
-artifact_total: 3
+artifact_total: 5
 common:
 - group: operate
   title: ''
@@ -90,7 +92,7 @@ common:
   type: ChangeLog
   url: https://docs.systeminit.com/changelog/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/changelog/system-initiative-changelog.yml
+  href: https://artifacts.apis.io/system-initiative/changelog/system-initiative-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/system-initiative-changelog.yml
@@ -103,47 +105,47 @@ common:
   type: SourceCode
   url: https://github.com/systeminit/si
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/authentication/system-initiative-authentication.yml
+  href: https://artifacts.apis.io/system-initiative/authentication/system-initiative-authentication.yml
   title: ''
   type: Authentication
   url: authentication/system-initiative-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/packages/system-initiative-packages.yml
+  href: https://artifacts.apis.io/system-initiative/packages/system-initiative-packages.yml
   title: ''
   type: Packages
   url: packages/system-initiative-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/packages/system-initiative-packages.yml
+  href: https://artifacts.apis.io/system-initiative/packages/system-initiative-packages.yml
   title: ''
   type: SDKs
   url: packages/system-initiative-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/mcp/system-initiative-mcp.yml
+  href: https://artifacts.apis.io/system-initiative/mcp/system-initiative-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/system-initiative-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/system-initiative/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/conventions/system-initiative-conventions.yml
+  href: https://artifacts.apis.io/system-initiative/conventions/system-initiative-conventions.yml
   title: ''
   type: Conventions
   url: conventions/system-initiative-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/lifecycle/system-initiative-lifecycle.yml
+  href: https://artifacts.apis.io/system-initiative/lifecycle/system-initiative-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/system-initiative-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/data-model/system-initiative-data-model.yml
+  href: https://artifacts.apis.io/system-initiative/data-model/system-initiative-data-model.yml
   title: ''
   type: DataModel
   url: data-model/system-initiative-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/llms/system-initiative-llms.txt
+  href: https://artifacts.apis.io/system-initiative/llms/system-initiative-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/system-initiative-llms.txt
@@ -163,12 +165,12 @@ overview: 'System Initiative is listed with 1 API on the [APIs.io](https://apis.
 
 
   System Initiative''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 18 more developer resources.'
-random_paper: 18
+random_paper: 0
 score:
   band: emerging
-  composite: 25.7
+  composite: 26.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -179,13 +181,10 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 24.0
-    developer_ergonomics: 41.1
-    discoverability: 73.2
-    operational_transparency: 10.5
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 25.7
+    developer_ergonomics: 61.3
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 26.1
   provenance:
     mcp: first-party
     skills: derived
@@ -195,8 +194,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
@@ -207,6 +206,12 @@ security:
   name: System Initiative Authentication
   slug: system-initiative-authentication
   summary_line: http · 1 scheme
+skill_count: 2
+skills:
+- name: Discover existing infrastructure and import it
+  slug: system-initiative-discover-and-import
+- name: Model infrastructure and apply a change set
+  slug: system-initiative-model-and-apply
 slug: system-initiative
 tags:
 - Company

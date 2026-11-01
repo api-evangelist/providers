@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,16 +39,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for Nav partner integrations. Partners authenticate with a Bearer token API key issued during onboarding and use it to create Nav accounts for their users, fetch account state, change an acco
   name: Nav Partner API
   slug: nav-partner-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/security/nav-domain-security.yml
+  href: https://artifacts.apis.io/nav/security/nav-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nav-domain-security.yml
@@ -103,93 +105,101 @@ common:
   type: StatusPage
   url: https://status.nav.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/lifecycle/nav-lifecycle.yml
+  href: https://artifacts.apis.io/nav/lifecycle/nav-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/nav-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/lifecycle/nav-lifecycle.yml
+  href: https://artifacts.apis.io/nav/lifecycle/nav-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nav-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/packages/nav-packages.yml
+  href: https://artifacts.apis.io/nav/packages/nav-packages.yml
   title: ''
   type: Packages
   url: packages/nav-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/packages/nav-packages.yml
+  href: https://artifacts.apis.io/nav/packages/nav-packages.yml
   title: ''
   type: SDKs
   url: packages/nav-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/components/nav-components.yml
+  href: https://artifacts.apis.io/nav/components/nav-components.yml
   title: ''
   type: Components
   url: components/nav-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/conformance/nav-conformance.yml
+  href: https://artifacts.apis.io/nav/conformance/nav-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nav-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/plans/nav-plans-pricing.yml
+  href: https://artifacts.apis.io/nav/plans/nav-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nav-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/rate-limits/nav-rate-limits.yml
+  href: https://artifacts.apis.io/nav/rate-limits/nav-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nav-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/sandbox/nav-sandbox.yml
+  href: https://artifacts.apis.io/nav/sandbox/nav-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nav-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/conventions/nav-conventions.yml
+  href: https://artifacts.apis.io/nav/conventions/nav-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nav-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/conventions/nav-conventions.yml
+  href: https://artifacts.apis.io/nav/conventions/nav-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/nav-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/authentication/nav-authentication.yml
+  href: https://artifacts.apis.io/nav/authentication/nav-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nav-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/errors/nav-problem-types.yml
+  href: https://artifacts.apis.io/nav/errors/nav-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nav-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/errors/nav-error-codes.yml
+  href: https://artifacts.apis.io/nav/errors/nav-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/nav-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/data-model/nav-data-model.yml
+  href: https://artifacts.apis.io/nav/data-model/nav-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nav-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/mcp/nav-mcp.yml
+  href: https://artifacts.apis.io/nav/mcp/nav-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nav-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/llms/nav-llms.txt
+  href: https://artifacts.apis.io/nav/llms/nav-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nav-llms.txt
 created: '2026-08-26'
 description: 'Nav Technologies, Inc. is a US financial-technology company (not a bank) that gives small business owners one place to see their business and personal credit, cash-flow health and funding eligibility, then matches them to a marketplace of financing and business credit card offers. Consumer-facing products are Nav Prime (business credit building with tradelines, five bureau scores from D&B, Experian, Equifax and TransUnion, bookkeeping and a FICO SBSS score), the Nav Credit Builder Card and a mobile app. The developer surface is the Nav Partner API — a REST API at api.nav.com used by embedded-finance platforms to create Nav accounts, change plans, end a partner relationship, resolve bureau credit visibility and mint single-use SSO tokens — together with the @navinc/widget-sdk embeddable widget SDK, which renders Nav business-credit UI inside a partner''s own application as the <nav-credit-widget> custom element. Access is partner-gated: API keys are issued during onboarding
   and there is no self-serve developer signup.'
+finops:
+- has_sources: true
+  method: derived
+  name: Nav Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: nav-finops
+  template: false
 image: https://api-docs.nav.com/img/nav-logo-on-light.svg
 layout: provider
 modified: '2026-08-26'
@@ -204,24 +214,27 @@ plans:
 - name: Nav Plans Pricing
   plan_count: 4
   slug: nav-plans-pricing
-random_paper: 17
+- name: Nav Price Estimates
+  plan_count: 0
+  slug: nav-price-estimates
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Nav Rate Limits
   slug: nav-rate-limits
 score:
   band: developing
-  composite: 42.8
+  composite: 44.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 49.0
+    artifact_dirs: 20
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
@@ -237,14 +250,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nav/refs/heads/main/screenshots/nav-2026-09-02T150726.png
+screenshot: https://apis.io/screenshots/nav/nav-2026-09-02T150726.png
 security:
 - kind: authentication
   name: Nav Authentication

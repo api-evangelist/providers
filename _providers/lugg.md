@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Lugg''s partner/developer REST API for embedding on-demand moving and delivery: OAuth2 authentication, quotes, bookings, multi-stop booking flows, schedules, and webhook endpoints, with a documented sa'
@@ -66,37 +68,37 @@ common:
   type: Blog
   url: https://lugg.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lugg/refs/heads/main/authentication/lugg-authentication.yml
+  href: https://artifacts.apis.io/lugg/authentication/lugg-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lugg-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lugg/refs/heads/main/conventions/lugg-conventions.yml
+  href: https://artifacts.apis.io/lugg/conventions/lugg-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lugg-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lugg/refs/heads/main/asyncapi/lugg-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/lugg/asyncapi/lugg-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/lugg-webhooks-asyncapi.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/lugg/refs/heads/main/sandbox/lugg-sandbox.yml
+  href: https://artifacts.apis.io/lugg/sandbox/lugg-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/lugg-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lugg/refs/heads/main/errors/lugg-problem-types.yml
+  href: https://artifacts.apis.io/lugg/errors/lugg-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lugg-problem-types.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lugg/refs/heads/main/security/lugg-domain-security.yml
+  href: https://artifacts.apis.io/lugg/security/lugg-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lugg-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lugg/refs/heads/main/llms/lugg-llms.txt
+  href: https://artifacts.apis.io/lugg/llms/lugg-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lugg-llms.txt
@@ -115,40 +117,40 @@ overview: 'Lugg is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Lugg''s developer surface includes documentation, API reference, engineering blog, authentication, sandbox, and 7 more developer resources.'
-random_paper: 13
+random_paper: 23
 score:
   band: thin
-  composite: 27.1
+  composite: 26.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 47.6
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 27.0
+  previous_composite: 26.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lugg/refs/heads/main/screenshots/lugg-2026-07-25T225649.png
+screenshot: https://apis.io/screenshots/lugg/lugg-2026-07-25T225649.png
 security:
 - kind: authentication
   name: Lugg Authentication

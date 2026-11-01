@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Hosted, remote Model Context Protocol server that lets an AI assistant create finished video and image ads from a plain-language brief. Streamable HTTP transport with browser-based OAuth 2.0 (PKCE + d
@@ -78,57 +80,57 @@ common:
   type: Blog
   url: https://www.usenotch.ai/blog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sesame-labs/refs/heads/main/mcp/sesame-labs-mcp.yml
+  href: https://artifacts.apis.io/sesame-labs/mcp/sesame-labs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sesame-labs-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sesame-labs/refs/heads/main/llms/sesame-labs-llms.txt
+  href: https://artifacts.apis.io/sesame-labs/llms/sesame-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sesame-labs-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sesame-labs/refs/heads/main/well-known/sesame-labs-well-known.yml
+  href: https://artifacts.apis.io/sesame-labs/well-known/sesame-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sesame-labs-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sesame-labs/refs/heads/main/authentication/sesame-labs-authentication.yml
+  href: https://artifacts.apis.io/sesame-labs/authentication/sesame-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sesame-labs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sesame-labs/refs/heads/main/conformance/sesame-labs-conformance.yml
+  href: https://artifacts.apis.io/sesame-labs/conformance/sesame-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sesame-labs-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sesame-labs/refs/heads/main/security/sesame-labs-domain-security.yml
+  href: https://artifacts.apis.io/sesame-labs/security/sesame-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sesame-labs-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sesame-labs/refs/heads/main/plans/sesame-labs-plans-pricing.yml
+  href: https://artifacts.apis.io/sesame-labs/plans/sesame-labs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sesame-labs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sesame-labs/refs/heads/main/rate-limits/sesame-labs-rate-limits.yml
+  href: https://artifacts.apis.io/sesame-labs/rate-limits/sesame-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sesame-labs-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sesame-labs/refs/heads/main/conventions/sesame-labs-conventions.yml
+  href: https://artifacts.apis.io/sesame-labs/conventions/sesame-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sesame-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sesame-labs/refs/heads/main/errors/sesame-labs-problem-types.yml
+  href: https://artifacts.apis.io/sesame-labs/errors/sesame-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sesame-labs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sesame-labs/refs/heads/main/lifecycle/sesame-labs-lifecycle.yml
+  href: https://artifacts.apis.io/sesame-labs/lifecycle/sesame-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sesame-labs-lifecycle.yml
@@ -152,7 +154,7 @@ plans:
 - name: Sesame Labs Plans Pricing
   plan_count: 4
   slug: sesame-labs-plans-pricing
-random_paper: 1
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Sesame Labs Rate Limits
@@ -167,15 +169,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 35.7
-    discoverability: 75.0
+    developer_ergonomics: 40.5
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 33.1
+  previous_composite: 32.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -185,14 +187,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sesame-labs/refs/heads/main/screenshots/sesame-labs-2026-09-02T155018.png
+screenshot: https://apis.io/screenshots/sesame-labs/sesame-labs-2026-09-02T155018.png
 security:
 - kind: authentication
   name: Sesame Labs Authentication

@@ -11,11 +11,11 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -27,17 +27,110 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.5
-  scored_at: '2026-10-17'
-api_count: 0
-artifact_total: 7
+  score: 34.2
+  scored_at: '2026-10-31'
+agentic_access:
+- acting_count: 20
+  human_in_the_loop: 0
+  name: Xylem Agentic Access
+  operation_count: 57
+  slug: xylem-agentic-access
+  summary_line: 57 operations · 20 acting
+api_count: 1
+apis:
+- baseURL: https://apis-dev.xylem.com
+  baseurl_source: declared
+  description: The DocView API from Xylem — 7 operation(s) for docview.
+  name: Xylem Doc View API
+  slug: xylem-docview-api
+- baseURL: https://apis-dev.xylem.com
+  baseurl_source: declared
+  description: The Infor API from Xylem — 1 operation(s) for infor.
+  name: Xylem Infor API
+  slug: xylem-infor-api
+- baseURL: https://apis-dev.xylem.com
+  baseurl_source: declared
+  description: The MES API from Xylem — 16 operation(s) for mes.
+  name: Xylem MES API
+  slug: xylem-mes-api
+- baseURL: https://apis-dev.xylem.com
+  baseurl_source: declared
+  description: The MES_v2 API from Xylem — 21 operation(s) for mes_v2.
+  name: Xylem MES V2 API
+  slug: xylem-mes-v2-api
+- baseURL: https://apis-dev.xylem.com
+  baseurl_source: declared
+  description: The NamePlate API from Xylem — 9 operation(s) for nameplate.
+  name: Xylem Name Plate API
+  slug: xylem-nameplate-api
+- baseURL: https://apis-dev.xylem.com
+  baseurl_source: declared
+  description: The SerialCard API from Xylem — 3 operation(s) for serialcard.
+  name: Xylem Serial Card API
+  slug: xylem-serialcard-api
+artifact_total: 16
 common:
+- group: other
+  href: https://artifacts.apis.io/xylem/capabilities/xylem-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/xylem-capability-edges.yml
+- group: agent
+  href: https://artifacts.apis.io/xylem/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  href: https://artifacts.apis.io/xylem/agentic-access/xylem-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/xylem-agentic-access.yml
+- group: design
+  href: https://artifacts.apis.io/xylem/rules/xylem-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/xylem-rules.yml
+- group: design
+  href: https://artifacts.apis.io/xylem/vocabulary/xylem-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/xylem-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/xylem/data-model/xylem-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/xylem-data-model.yml
+- group: operate
+  href: https://artifacts.apis.io/xylem/lifecycle/xylem-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/xylem-lifecycle.yml
+- group: other
+  href: https://artifacts.apis.io/xylem/hosts/xylem-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/xylem-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/xylem/vendors/xylem-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/xylem-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.xylem.com/en-us/about-xylem/newsroom/
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.xylem.com/en-us/about-xylem/leadership/
 - group: company
   title: ''
   type: Website
@@ -71,85 +164,70 @@ common:
   type: StatusPage
   url: https://status.xylem.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/security/xylem-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/xylem/security/xylem-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/xylem-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/security/xylem-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/xylem/security/xylem-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/xylem-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/security/xylem-trust-center.yml
+  href: https://artifacts.apis.io/xylem/security/xylem-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/xylem-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/security/xylem-trust-center.yml
+  href: https://artifacts.apis.io/xylem/security/xylem-trust-center.yml
   title: ''
   type: Compliance
   url: security/xylem-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/security/xylem-domain-security.yml
+  href: https://artifacts.apis.io/xylem/security/xylem-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xylem-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/well-known/xylem-well-known.yml
+  href: https://artifacts.apis.io/xylem/well-known/xylem-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/xylem-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/authentication/xylem-authentication.yml
+  href: https://artifacts.apis.io/xylem/authentication/xylem-authentication.yml
   title: ''
   type: Authentication
   url: authentication/xylem-authentication.yml
-- group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/scopes/xylem-scopes.yml
-  title: ''
-  type: OAuthScopes
-  url: scopes/xylem-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/conformance/xylem-conformance.yml
+  href: https://artifacts.apis.io/xylem/conformance/xylem-conformance.yml
   title: ''
   type: Conformance
   url: conformance/xylem-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/conventions/xylem-conventions.yml
+  href: https://artifacts.apis.io/xylem/conventions/xylem-conventions.yml
   title: ''
   type: Conventions
   url: conventions/xylem-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/errors/xylem-problem-types.yml
+  href: https://artifacts.apis.io/xylem/errors/xylem-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/xylem-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/lifecycle/xylem-lifecycle.yml
+  href: https://artifacts.apis.io/xylem/lifecycle/xylem-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/xylem-lifecycle.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/packages/xylem-packages.yml
-  title: ''
-  type: Packages
-  url: packages/xylem-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/plans/xylem-plans-pricing.yml
+  href: https://artifacts.apis.io/xylem/plans/xylem-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/xylem-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/rate-limits/xylem-rate-limits.yml
+  href: https://artifacts.apis.io/xylem/rate-limits/xylem-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/xylem-rate-limits.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/llms/xylem-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/xylem-llms.txt
 created: '2026-03-21'
 description: 'Xylem Inc. (NYSE: XYL) is a global water technology company that moves, treats, analyzes, monitors and returns water to the environment across the full water cycle. Its brands include Sensus smart metering and AMI networks, Xylem Vue utility operations software built with Idrica''s GoAigua platform, YSI water quality instrumentation, HYPACK hydrographic survey software, and the Flygt, Godwin, WEDECO and Aanderaa product lines. Xylem operates live, first-party API hosts for Xylem Cloud, the Xylem Vue services and its product selector, but publishes no API contract, developer portal or reference for any of them; the one machine-readable document it serves anonymously is the OpenID Connect discovery metadata for the Xylem Cloud identity realm.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xylem.png
@@ -158,10 +236,13 @@ modified: '2026-09-04'
 name: Xylem
 nav: Providers
 network: true
-overview: 'Xylem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000, Water, Water Technology, Utilities, and Smart Metering.
+overview: 'Xylem publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Doc View API, Infor API, MES API, and 3 more. Tagged areas include Fortune 1000, Water, Water Technology, Utilities, and Smart Metering.
 
 
-  Xylem''s developer surface includes engineering blog, support, authentication, and 21 more developer resources.'
+  The Xylem catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Xylem''s developer surface includes engineering blog, support, authentication, and 29 more developer resources.'
 plans:
 - name: Xylem Plans Pricing
   plan_count: 0
@@ -182,60 +263,81 @@ press:
 - date: ''
   title: '99.1'
   url: https://www.sec.gov/Archives/edgar/data/1524472/000152447226000065/xyl04282026ex991.htm
-random_paper: 9
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Xylem Rate Limits
   slug: xylem-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Xylem API Rules
+  rule_count: 7
+  severity_counts:
+    error: 5
+    hint: 0
+    info: 1
+    warn: 1
+  slug: xylem-rules
 scopes:
 - name: Xylem Scopes
-  scope_count: 14
+  scope_count: 0
   slug: xylem-scopes
-  summary_line: 14 scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 27.4
+  band: developing
+  composite: 46.0
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 27.0
+    artifact_dirs: 28
+    catalog_earned: 42.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    catalog_gap: 72.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
-    contract_governance: 18.2
-    contract_quality: 0.0
-    developer_ergonomics: 19.0
-    discoverability: 48.2
-    operational_transparency: 26.3
-  previous_composite: 27.4
+    access_clarity: 50.0
+    contract_governance: 35.6
+    contract_quality: 36.4
+    developer_ergonomics: 30.4
+    discoverability: 69.6
+    operational_transparency: 34.2
+  previous_composite: 46.0
   provenance:
+    agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 43.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 47.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/screenshots/xylem-2026-06-20T201717.png
+screenshot: https://apis.io/screenshots/xylem/xylem-2026-06-20T201717.png
 security:
 - kind: authentication
   name: Xylem Authentication
   slug: xylem-authentication
-  summary_line: 5 schemes
+  summary_line: oauth2 · 1 scheme
 - kind: domain-security
   name: Xylem Domain Security
   slug: xylem-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · DMARC
 - kind: vulnerability-disclosure
   name: Xylem Vulnerability Disclosure
   slug: xylem-vulnerability-disclosure
@@ -243,7 +345,11 @@ security:
 - kind: trust-center
   name: Xylem Trust Center
   slug: xylem-trust-center
-  summary_line: ISO 27001, SOC 2 Type II, NIST Cybersecurity Framework
+  summary_line: SOC 2, ISO 27001, GDPR
+skill_count: 1
+skills:
+- name: xylem-mes-order-lookup
+  slug: xylem-mes-order-lookup
 slug: xylem
 tags:
 - Fortune 1000

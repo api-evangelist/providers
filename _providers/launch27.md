@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 20.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -74,15 +76,12 @@ apis:
   description: Booking, reschedule, cancellation, and location policies.
   name: Launch27 Policy API
   slug: launch27-policy-api
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the one WebSocket surface Launch27 documents: an account-scoped notification channel reached via a `pubsub_url` returned by the authenticated `GET /settings` call (see the '
   name: Launch27 Account Notification Channel (WebSocket, minimally documented)
   slug: launch27-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Launch27 Account API
   slug: open-launch27-account-api
@@ -106,22 +105,22 @@ collections:
   slug: open-launch27
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/agentic-access/launch27-agentic-access.yml
+  href: https://artifacts.apis.io/launch27/agentic-access/launch27-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/launch27-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/security/launch27-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/launch27/security/launch27-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/launch27-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/security/launch27-domain-security.yml
+  href: https://artifacts.apis.io/launch27/security/launch27-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/launch27-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/authentication/launch27-authentication.yml
+  href: https://artifacts.apis.io/launch27/authentication/launch27-authentication.yml
   title: ''
   type: Authentication
   url: authentication/launch27-authentication.yml
@@ -142,17 +141,17 @@ common:
   type: APIReference
   url: https://bitbucket.org/awoo23/api-2.0/wiki/Home
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/plans/launch27-plans-pricing.yml
+  href: https://artifacts.apis.io/launch27/plans/launch27-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/launch27-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/rate-limits/launch27-rate-limits.yml
+  href: https://artifacts.apis.io/launch27/rate-limits/launch27-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/launch27-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/finops/launch27-finops.yml
+  href: https://artifacts.apis.io/launch27/finops/launch27-finops.yml
   title: ''
   type: FinOps
   url: finops/launch27-finops.yml
@@ -177,7 +176,7 @@ modified: '2026-07-04'
 name: Launch27
 nav: Providers
 network: true
-overview: 'Launch27 publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Authentication API, Booking Helpers API, and 3 more. Tagged areas include Field Service, Home Services, Cleaning Services, Booking, and Scheduling.
+overview: 'Launch27 publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Authentication API, Booking Helpers API, and 3 more. Tagged areas include Field Service Management, Home Services, Cleaning Services, Booking, and Scheduling.
 
 
   The Launch27 catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -188,7 +187,7 @@ plans:
 - name: Launch27 Plans Pricing
   plan_count: 4
   slug: launch27-plans-pricing
-random_paper: 14
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Launch27 Rate Limits
@@ -208,7 +207,7 @@ rules:
   slug: launch27-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 30.3
+  composite: 32.4
   coverage:
     artifact_dirs: 14
     catalog_earned: 46.8
@@ -216,15 +215,15 @@ score:
     catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 11.4
     contract_quality: 54.6
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 7.9
-  previous_composite: 38.6
+    operational_transparency: 18.4
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -238,13 +237,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/screenshots/launch27-2026-07-25T224614.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/launch27/launch27-2026-07-25T224614.png
 security:
 - kind: authentication
   name: Launch27 Authentication
@@ -260,7 +260,7 @@ security:
   summary_line: no policy recorded
 slug: launch27
 tags:
-- Field Service
+- Field Service Management
 - Home Services
 - Cleaning Services
 - Booking

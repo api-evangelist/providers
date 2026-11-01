@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,20 +35,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Drillster REST API (v2.1.1) lets developers integrate Drillster's adaptive learning and training platform into external applications. Roughly 180 documented endpoints and 200 response objects cove
   name: Drillster API
   slug: drillster-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Drillster Push Webhooks
   slug: drillster-push-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/finops/drillster-finops.yml
+  href: https://artifacts.apis.io/drillster/finops/drillster-finops.yml
   title: ''
   type: FinOps
   url: finops/drillster-finops.yml
@@ -71,27 +73,27 @@ common:
   type: GettingStarted
   url: https://www.drillster.com/info/developers/rest-apis/registering-your-application/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/authentication/drillster-authentication.yml
+  href: https://artifacts.apis.io/drillster/authentication/drillster-authentication.yml
   title: ''
   type: Authentication
   url: authentication/drillster-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/scopes/drillster-scopes.yml
+  href: https://artifacts.apis.io/drillster/scopes/drillster-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/drillster-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/conventions/drillster-conventions.yml
+  href: https://artifacts.apis.io/drillster/conventions/drillster-conventions.yml
   title: ''
   type: Conventions
   url: conventions/drillster-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/errors/drillster-problem-types.yml
+  href: https://artifacts.apis.io/drillster/errors/drillster-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/drillster-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/lifecycle/drillster-lifecycle.yml
+  href: https://artifacts.apis.io/drillster/lifecycle/drillster-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/drillster-lifecycle.yml
@@ -100,47 +102,47 @@ common:
   type: Deprecation
   url: https://www.drillster.com/info/developers/api/2.1.1/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/asyncapi/drillster-push-webhooks.yml
+  href: https://artifacts.apis.io/drillster/asyncapi/drillster-push-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/drillster-push-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/components/drillster-components.yml
+  href: https://artifacts.apis.io/drillster/components/drillster-components.yml
   title: ''
   type: Components
   url: components/drillster-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/conformance/drillster-conformance.yml
+  href: https://artifacts.apis.io/drillster/conformance/drillster-conformance.yml
   title: ''
   type: Conformance
   url: conformance/drillster-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/packages/drillster-packages.yml
+  href: https://artifacts.apis.io/drillster/packages/drillster-packages.yml
   title: ''
   type: Packages
   url: packages/drillster-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/plans/drillster-plans-pricing.yml
+  href: https://artifacts.apis.io/drillster/plans/drillster-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/drillster-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/rate-limits/drillster-rate-limits.yml
+  href: https://artifacts.apis.io/drillster/rate-limits/drillster-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/drillster-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/llms/drillster-llms.txt
+  href: https://artifacts.apis.io/drillster/llms/drillster-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/drillster-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/well-known/drillster-well-known.yml
+  href: https://artifacts.apis.io/drillster/well-known/drillster-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/drillster-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/well-known/drillster-security.txt
+  href: https://artifacts.apis.io/drillster/well-known/drillster-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/drillster-security.txt
@@ -149,12 +151,12 @@ common:
   type: Security
   url: https://www.drillster.com/info/reporting-security-breach/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/security/drillster-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/drillster/security/drillster-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/drillster-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/security/drillster-domain-security.yml
+  href: https://artifacts.apis.io/drillster/security/drillster-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/drillster-domain-security.yml
@@ -197,13 +199,13 @@ common:
 created: '2025-02-17'
 description: Drillster is a Utrecht-based adaptive learning platform for corporate and vocational training, built on repetition-based drills that schedule practice at the moment a learner is about to forget. Customers in aviation, healthcare, financial services, energy, railway and construction use it to keep safety- and compliance-critical knowledge reliable year-round. For developers, Drillster publishes a documented REST API (version 2.1.1, JSON over HTTPS, OAuth 2.0 with a JWT-bearer service-account grant) covering user provisioning, group and membership management, catalogs, drills, tests, objectives and results reporting; an outbound event notification service with seven webhook event types and a seven-day retry contract; an embeddable widget family with a JavaScript loader; and standards-based LMS integration through LTI 1.0/1.3, SCORM 1.2 and OpenID Connect single sign-on.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Drillster Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: user, yearly license
+  service_category: ''
   slug: drillster-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drillster.png
 layout: provider
 modified: '2026-09-06'
@@ -219,9 +221,12 @@ overview: 'Drillster is listed with 1 API on the [APIs.io](https://apis.io/) net
   Drillster''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 26 more developer resources.'
 plans:
 - name: Drillster Plans Pricing
-  plan_count: 1
+  plan_count: 2
   slug: drillster-plans-pricing
-random_paper: 13
+- name: Drillster Price Estimates
+  plan_count: 0
+  slug: drillster-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Drillster Rate Limits
@@ -233,22 +238,22 @@ scopes:
   summary_line: 1 scope · authorizationCode/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: developing
-  composite: 50.9
+  composite: 52.1
   coverage:
     artifact_dirs: 19
-    catalog_earned: 45.0
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 65.8
+    access_clarity: 73.7
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 73.2
-    operational_transparency: 28.9
+    discoverability: 66.1
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -257,7 +262,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 52.4
+  previous_composite: 50.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -267,14 +272,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/screenshots/drillster-2026-06-20T180231.png
+screenshot: https://apis.io/screenshots/drillster/drillster-2026-06-20T180231.png
 security:
 - kind: authentication
   name: Drillster Authentication

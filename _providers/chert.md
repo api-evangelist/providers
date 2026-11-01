@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Programmatic send/receive/route over iMessage — 1:1 and group chats, attachments, rich links, tapbacks, typing indicators, location pins, webhook subscriptions and events.
@@ -92,57 +94,57 @@ common:
   type: PrivacyPolicy
   url: https://www.trychert.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chert/refs/heads/main/llms/chert-llms.txt
+  href: https://artifacts.apis.io/chert/llms/chert-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chert-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chert/refs/heads/main/authentication/chert-authentication.yml
+  href: https://artifacts.apis.io/chert/authentication/chert-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chert-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chert/refs/heads/main/errors/chert-error-codes.yml
+  href: https://artifacts.apis.io/chert/errors/chert-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/chert-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chert/refs/heads/main/conventions/chert-conventions.yml
+  href: https://artifacts.apis.io/chert/conventions/chert-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chert-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chert/refs/heads/main/conventions/chert-conventions.yml
+  href: https://artifacts.apis.io/chert/conventions/chert-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/chert-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chert/refs/heads/main/asyncapi/chert-webhooks.yml
+  href: https://artifacts.apis.io/chert/asyncapi/chert-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/chert-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chert/refs/heads/main/lifecycle/chert-lifecycle.yml
+  href: https://artifacts.apis.io/chert/lifecycle/chert-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chert-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chert/refs/heads/main/mcp/chert-mcp.yml
+  href: https://artifacts.apis.io/chert/mcp/chert-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/chert-mcp.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/chert/refs/heads/main/sandbox/chert-sandbox.yml
+  href: https://artifacts.apis.io/chert/sandbox/chert-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/chert-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chert/refs/heads/main/data-model/chert-data-model.yml
+  href: https://artifacts.apis.io/chert/data-model/chert-data-model.yml
   title: ''
   type: DataModel
   url: data-model/chert-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chert/refs/heads/main/security/chert-domain-security.yml
+  href: https://artifacts.apis.io/chert/security/chert-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chert-domain-security.yml
@@ -164,23 +166,23 @@ overview: 'Chert is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 6
 score:
   band: thin
-  composite: 34.3
+  composite: 38.5
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 54.8
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 34.2
+    developer_ergonomics: 64.3
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 38.5
   provenance:
     mcp: derived
   regulatory:
@@ -189,14 +191,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/chert/refs/heads/main/screenshots/chert-2026-07-25T205203.png
+screenshot: https://apis.io/screenshots/chert/chert-2026-07-25T205203.png
 security:
 - kind: authentication
   name: Chert Authentication

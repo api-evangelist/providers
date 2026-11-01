@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: Read Applied Epic client (account) records - client lookup, benefits data such as employee counts and HIPAA compliance, and identifiers used for VoIP caller identification. Confirmed endpoint GET /crm
@@ -60,7 +62,7 @@ apis:
 artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/applied-systems/refs/heads/main/security/applied-systems-domain-security.yml
+  href: https://artifacts.apis.io/applied-systems/security/applied-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/applied-systems-domain-security.yml
@@ -81,17 +83,17 @@ common:
   type: DeveloperPortal
   url: https://devcenter.myappliedproducts.com/home
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/applied-systems/refs/heads/main/plans/applied-systems-plans-pricing.yml
+  href: https://artifacts.apis.io/applied-systems/plans/applied-systems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/applied-systems-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/applied-systems/refs/heads/main/rate-limits/applied-systems-rate-limits.yml
+  href: https://artifacts.apis.io/applied-systems/rate-limits/applied-systems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/applied-systems-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/applied-systems/refs/heads/main/finops/applied-systems-finops.yml
+  href: https://artifacts.apis.io/applied-systems/finops/applied-systems-finops.yml
   title: ''
   type: FinOps
   url: finops/applied-systems-finops.yml
@@ -119,7 +121,7 @@ plans:
 - name: Applied Systems Plans Pricing
   plan_count: 3
   slug: applied-systems-plans-pricing
-random_paper: 10
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Applied Systems Rate Limits
@@ -134,7 +136,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -142,21 +144,21 @@ score:
     developer_ergonomics: 19.0
     discoverability: 71.4
     operational_transparency: 7.9
-  previous_composite: 20.2
+  previous_composite: 11.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/applied-systems/refs/heads/main/screenshots/applied-systems-2026-07-25T200753.png
+screenshot: https://apis.io/screenshots/applied-systems/applied-systems-2026-07-25T200753.png
 security:
 - kind: domain-security
   name: Applied Systems Domain Security

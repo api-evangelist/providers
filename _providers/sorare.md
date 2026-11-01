@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint exposing Sorare cards, users, auctions, offers and real-time subscriptions across football, NBA and MLB, with JWT / OAuth 2.0 / API-key auth.
   name: Sorare GraphQL API
   slug: sorare-graphql-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Sorare Graphql Asyncapi
@@ -82,47 +84,47 @@ common:
   type: PrivacyPolicy
   url: https://sorare.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/authentication/sorare-authentication.yml
+  href: https://artifacts.apis.io/sorare/authentication/sorare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sorare-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/scopes/sorare-scopes.yml
+  href: https://artifacts.apis.io/sorare/scopes/sorare-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sorare-scopes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/rate-limits/sorare-rate-limits.yml
+  href: https://artifacts.apis.io/sorare/rate-limits/sorare-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sorare-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/conventions/sorare-conventions.yml
+  href: https://artifacts.apis.io/sorare/conventions/sorare-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sorare-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/packages/sorare-packages.yml
+  href: https://artifacts.apis.io/sorare/packages/sorare-packages.yml
   title: ''
   type: Packages
   url: packages/sorare-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/packages/sorare-packages.yml
+  href: https://artifacts.apis.io/sorare/packages/sorare-packages.yml
   title: ''
   type: SDKs
   url: packages/sorare-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/well-known/sorare-well-known.yml
+  href: https://artifacts.apis.io/sorare/well-known/sorare-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sorare-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/well-known/sorare-security.txt
+  href: https://artifacts.apis.io/sorare/well-known/sorare-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sorare-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/security/sorare-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sorare/security/sorare-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sorare-vulnerability-disclosure.yml
@@ -131,32 +133,32 @@ common:
   type: Security
   url: https://sorare.com/.well-known/security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/asyncapi/sorare-graphql-asyncapi.yml
+  href: https://artifacts.apis.io/sorare/asyncapi/sorare-graphql-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/sorare-graphql-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/lifecycle/sorare-lifecycle.yml
+  href: https://artifacts.apis.io/sorare/lifecycle/sorare-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sorare-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/conformance/sorare-conformance.yml
+  href: https://artifacts.apis.io/sorare/conformance/sorare-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sorare-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/mcp/sorare-mcp.yml
+  href: https://artifacts.apis.io/sorare/mcp/sorare-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sorare-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sorare/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/llms/sorare-llms.txt
+  href: https://artifacts.apis.io/sorare/llms/sorare-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sorare-llms.txt
@@ -175,7 +177,7 @@ overview: 'Sorare is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Sorare''s developer surface includes engineering blog, documentation, API reference, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 14
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Sorare Rate Limits
@@ -187,7 +189,7 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 40.7
+  composite: 43.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 49.0
@@ -195,15 +197,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 44.6
-    discoverability: 73.2
-    operational_transparency: 47.4
-  previous_composite: 40.1
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 43.6
   provenance:
     conformance: derived
     mcp: derived
@@ -214,14 +216,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sorare/refs/heads/main/screenshots/sorare-2026-08-17T082004.png
+screenshot: https://apis.io/screenshots/sorare/sorare-2026-08-17T082004.png
 security:
 - kind: authentication
   name: Sorare Authentication
@@ -231,6 +233,12 @@ security:
   name: Sorare Vulnerability Disclosure
   slug: sorare-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 2
+skills:
+- name: Bid on an auction or make an offer for a Sorare card
+  slug: sorare-buy-a-card
+- name: Sign in to the Sorare API and query your account
+  slug: sorare-sign-in
 slug: sorare
 tags:
 - Company

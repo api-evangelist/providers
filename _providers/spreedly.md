@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.4
-  scored_at: '2026-10-17'
+  score: 38.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -175,7 +177,7 @@ apis:
   description: The void API from Spreedly — 1 operation(s) for void.
   name: Spreedly Void API
   slug: spreedly-void-api
-artifact_total: 34
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Spreedly Webhooks
@@ -188,8 +190,13 @@ collections:
   name: Spreedly API V1
   slug: open-spreedly-api-v1
 common:
+- group: commercial
+  href: https://artifacts.apis.io/spreedly/plans/spreedly-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spreedly-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/capabilities/spreedly-capability-edges.yml
+  href: https://artifacts.apis.io/spreedly/capabilities/spreedly-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/spreedly-capability-edges.yml
@@ -198,7 +205,7 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/spreedly/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/security/spreedly-trust-center.yml
+  href: https://artifacts.apis.io/spreedly/security/spreedly-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/spreedly-trust-center.yml
@@ -207,72 +214,72 @@ common:
   type: Compliance
   url: https://www.spreedly.com/security-compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/security/spreedly-domain-security.yml
+  href: https://artifacts.apis.io/spreedly/security/spreedly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spreedly-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/agentic-access/spreedly-agentic-access.yml
+  href: https://artifacts.apis.io/spreedly/agentic-access/spreedly-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spreedly-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/authentication/spreedly-authentication.yml
+  href: https://artifacts.apis.io/spreedly/authentication/spreedly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spreedly-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/packages/spreedly-packages.yml
+  href: https://artifacts.apis.io/spreedly/packages/spreedly-packages.yml
   title: ''
   type: Packages
   url: packages/spreedly-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/packages/spreedly-packages.yml
+  href: https://artifacts.apis.io/spreedly/packages/spreedly-packages.yml
   title: ''
   type: SDKs
   url: packages/spreedly-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/mcp/spreedly-mcp.yml
+  href: https://artifacts.apis.io/spreedly/mcp/spreedly-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/spreedly-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/mcp/spreedly-tool-crosswalk.yml
+  href: https://artifacts.apis.io/spreedly/mcp/spreedly-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/spreedly-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/llms/spreedly-llms.txt
+  href: https://artifacts.apis.io/spreedly/llms/spreedly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spreedly-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/well-known/spreedly-well-known.yml
+  href: https://artifacts.apis.io/spreedly/well-known/spreedly-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/spreedly-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/overlays/spreedly-api-v1-overlay.yaml
+  href: https://artifacts.apis.io/spreedly/overlays/spreedly-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spreedly-api-v1-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/conformance/spreedly-conformance.yml
+  href: https://artifacts.apis.io/spreedly/conformance/spreedly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spreedly-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/errors/spreedly-problem-types.yml
+  href: https://artifacts.apis.io/spreedly/errors/spreedly-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spreedly-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/errors/spreedly-decline-codes.yml
+  href: https://artifacts.apis.io/spreedly/errors/spreedly-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/spreedly-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/lifecycle/spreedly-lifecycle.yml
+  href: https://artifacts.apis.io/spreedly/lifecycle/spreedly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spreedly-lifecycle.yml
@@ -281,42 +288,42 @@ common:
   type: Deprecation
   url: https://developer.spreedly.com/docs/major-changes
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/sandbox/spreedly-sandbox.yml
+  href: https://artifacts.apis.io/spreedly/sandbox/spreedly-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/spreedly-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/conventions/spreedly-conventions.yml
+  href: https://artifacts.apis.io/spreedly/conventions/spreedly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spreedly-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/conventions/spreedly-conventions.yml
+  href: https://artifacts.apis.io/spreedly/conventions/spreedly-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/spreedly-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/data-model/spreedly-data-model.yml
+  href: https://artifacts.apis.io/spreedly/data-model/spreedly-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spreedly-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/asyncapi/spreedly-webhooks.yml
+  href: https://artifacts.apis.io/spreedly/asyncapi/spreedly-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/spreedly-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/components/spreedly-components.yml
+  href: https://artifacts.apis.io/spreedly/components/spreedly-components.yml
   title: ''
   type: Components
   url: components/spreedly-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/spreedly/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/changelog/spreedly-changelog.yml
+  href: https://artifacts.apis.io/spreedly/changelog/spreedly-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/spreedly-changelog.yml
@@ -391,10 +398,18 @@ common:
 created: '2026-07-24'
 description: 'Spreedly is a United States payments orchestration platform and PCI-compliant card vault that lets merchants and platforms securely tokenize payment methods once and then transact against hundreds of payment gateways, processors, and third-party APIs through a single integration. Founded in 2008 and headquartered in Durham, North Carolina, Spreedly sits in the gateway/PSP layer of the deep, fragmented US payments market as an independent, network-agnostic intermediary rather than a card network or acquirer. Its Payments Orchestration offering combines a universal token vault, a normalized transaction API across many gateways, workflow-based routing (Composer), network tokenization, account updater (Card Refresher), 3-D Secure / SCA authentication, and Receivers for forwarding stored payment data to arbitrary third-party endpoints. Spreedly is strongly API-native: it publishes a public developer portal with complete reference documentation and a downloadable OpenAPI 3.1 specification
   for its Core Transactional API (https://core.spreedly.com/v1), authenticated with HTTP Basic auth using per-environment key/secret credentials.'
+finops:
+- has_sources: true
+  method: derived
+  name: Spreedly Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: spreedly-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
-- description: Remote MCP server at developer.spreedly.com.
+- description: Remote MCP server at developer.spreedly.com; 5 tools listed.
   name: Spreedly MCP Server
   slug: spreedly-mcp-yml
 modified: '2026-07-24'
@@ -407,26 +422,33 @@ overview: 'Spreedly publishes 26 API contracts indexed on the [APIs.io](https://
   The Spreedly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Spreedly''s developer surface includes authentication, sandbox, changelog, support, documentation, API reference, getting-started guide, and 37 more developer resources.'
-random_paper: 14
+  Spreedly''s developer surface includes authentication, sandbox, changelog, support, documentation, API reference, getting-started guide, and 38 more developer resources.'
+plans:
+- name: Spreedly Plans Pricing
+  plan_count: 2
+  slug: spreedly-plans-pricing
+- name: Spreedly Price Estimates
+  plan_count: 0
+  slug: spreedly-price-estimates
+random_paper: 8
 score:
-  band: developing
-  composite: 52.9
+  band: exemplar
+  composite: 68.0
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 29
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.8
   facets:
-    access_clarity: 42.1
+    access_clarity: 89.5
     contract_governance: 18.2
     contract_quality: 58.7
-    developer_ergonomics: 58.9
-    discoverability: 75.0
-    operational_transparency: 48.7
+    developer_ergonomics: 78.0
+    discoverability: 65.0
+    operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -434,7 +456,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 52.9
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -450,14 +472,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 37.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 39.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/screenshots/spreedly-2026-08-17T082042.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spreedly/spreedly-2026-08-17T082042.png
 security:
 - kind: authentication
   name: Spreedly Authentication
@@ -471,6 +494,16 @@ security:
   name: Spreedly Trust Center
   slug: spreedly-trust-center
   summary_line: SOC 2, PCI DSS
+skill_count: 4
+skills:
+- name: Authorize then capture a payment
+  slug: spreedly-authorize-and-capture
+- name: Run a purchase through a Composer routing workflow
+  slug: spreedly-composer-route-purchase
+- name: Refund or credit a settled transaction
+  slug: spreedly-refund-transaction
+- name: Vault a card and charge it
+  slug: spreedly-vault-and-charge
 slug: spreedly
 tags:
 - Payments

@@ -31,6 +31,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -38,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'A live, production API gateway at api.canadalife.com serving Canada Life''s partner, distributor and MGA integrations. It is fully gated: every business path probed (including /v1, /docs, /health, /ope'
@@ -106,52 +108,52 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/canada-life
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/canada-life/refs/heads/main/authentication/canada-life-authentication.yml
+  href: https://artifacts.apis.io/canada-life/authentication/canada-life-authentication.yml
   title: ''
   type: Authentication
   url: authentication/canada-life-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/canada-life/refs/heads/main/scopes/canada-life-scopes.yml
+  href: https://artifacts.apis.io/canada-life/scopes/canada-life-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/canada-life-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/canada-life/refs/heads/main/well-known/canada-life-well-known.yml
+  href: https://artifacts.apis.io/canada-life/well-known/canada-life-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/canada-life-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/canada-life/refs/heads/main/security/canada-life-domain-security.yml
+  href: https://artifacts.apis.io/canada-life/security/canada-life-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/canada-life-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/canada-life/refs/heads/main/security/canada-life-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/canada-life/security/canada-life-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/canada-life-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/canada-life/refs/heads/main/conformance/canada-life-conformance.yml
+  href: https://artifacts.apis.io/canada-life/conformance/canada-life-conformance.yml
   title: ''
   type: Conformance
   url: conformance/canada-life-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/canada-life/refs/heads/main/lifecycle/canada-life-lifecycle.yml
+  href: https://artifacts.apis.io/canada-life/lifecycle/canada-life-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/canada-life-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/canada-life/refs/heads/main/packages/canada-life-packages.yml
+  href: https://artifacts.apis.io/canada-life/packages/canada-life-packages.yml
   title: ''
   type: Packages
   url: packages/canada-life-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/canada-life/refs/heads/main/llms/canada-life-llms.txt
+  href: https://artifacts.apis.io/canada-life/llms/canada-life-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/canada-life-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/canada-life/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/canada-life/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -176,7 +178,7 @@ scopes:
   summary_line: 36 scopes · clientCredentials/authorizationCode
 score:
   band: emerging
-  composite: 22.8
+  composite: 22.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -190,7 +192,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 74.1
+    discoverability: 67.9
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -199,7 +201,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 22.8
+  previous_composite: 22.2
   provenance:
     conformance: first-party
   regulatory:
@@ -208,14 +210,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 42.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/canada-life/refs/heads/main/screenshots/canada-life-2026-07-25T204322.png
+screenshot: https://apis.io/screenshots/canada-life/canada-life-2026-07-25T204322.png
 security:
 - kind: authentication
   name: Canada Life Authentication

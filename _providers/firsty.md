@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firsty/refs/heads/main/security/firsty-domain-security.yml
+  href: https://artifacts.apis.io/firsty/security/firsty-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/firsty-domain-security.yml
@@ -81,7 +83,7 @@ overview: 'Firsty is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Firsty''s developer surface includes pricing, support, engineering blog, and 5 more developer resources.'
-random_paper: 13
+random_paper: 1
 score:
   band: emerging
   composite: 11.3
@@ -115,14 +117,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 11.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/firsty/refs/heads/main/screenshots/firsty-2026-07-25T214624.png
+screenshot: https://apis.io/screenshots/firsty/firsty-2026-07-25T214624.png
 security:
 - kind: domain-security
   name: Firsty Domain Security

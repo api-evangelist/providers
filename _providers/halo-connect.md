@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.9
-  scored_at: '2026-10-17'
+  score: 26.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -70,7 +72,7 @@ apis:
   description: Obtain authorization tokens for desktop applications to authenticate API requests.
   name: Halo Connect Tokens API
   slug: halo-connect-tokens-api
-artifact_total: 13
+artifact_total: 17
 asyncapis:
 - description: Halo Cloud delivers HTTPS POST webhook notifications when an async or a registered query completes. The payload does NOT include the query result; the integrator retrieves results via the REST API usi
   name: Halo Connect Webhooks
@@ -84,22 +86,22 @@ collections:
   slug: open-halo-connect-integrator
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/capabilities/halo-connect-capability-edges.yml
+  href: https://artifacts.apis.io/halo-connect/capabilities/halo-connect-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/halo-connect-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/agentic-access/halo-connect-agentic-access.yml
+  href: https://artifacts.apis.io/halo-connect/agentic-access/halo-connect-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/halo-connect-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/security/halo-connect-domain-security.yml
+  href: https://artifacts.apis.io/halo-connect/security/halo-connect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/halo-connect-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/authentication/halo-connect-authentication.yml
+  href: https://artifacts.apis.io/halo-connect/authentication/halo-connect-authentication.yml
   title: ''
   type: Authentication
   url: authentication/halo-connect-authentication.yml
@@ -136,12 +138,12 @@ common:
   type: Blog
   url: https://haloconnect.io/blog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/changelog/halo-connect-changelog.yml
+  href: https://artifacts.apis.io/halo-connect/changelog/halo-connect-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/halo-connect-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/lifecycle/halo-connect-lifecycle.yml
+  href: https://artifacts.apis.io/halo-connect/lifecycle/halo-connect-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/halo-connect-lifecycle.yml
@@ -150,22 +152,22 @@ common:
   type: Deprecation
   url: https://haloconnect.io/sla
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/errors/halo-connect-error-codes.yml
+  href: https://artifacts.apis.io/halo-connect/errors/halo-connect-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/halo-connect-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/conventions/halo-connect-conventions.yml
+  href: https://artifacts.apis.io/halo-connect/conventions/halo-connect-conventions.yml
   title: ''
   type: Conventions
   url: conventions/halo-connect-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/sandbox/halo-connect-sandbox.yml
+  href: https://artifacts.apis.io/halo-connect/sandbox/halo-connect-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/halo-connect-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/conformance/halo-connect-conformance.yml
+  href: https://artifacts.apis.io/halo-connect/conformance/halo-connect-conformance.yml
   title: ''
   type: Conformance
   url: conformance/halo-connect-conformance.yml
@@ -174,17 +176,17 @@ common:
   type: Compliance
   url: https://haloconnect.io/trust
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/asyncapi/halo-connect-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/halo-connect/asyncapi/halo-connect-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/halo-connect-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/asyncapi/halo-connect-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/halo-connect/asyncapi/halo-connect-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/halo-connect-webhooks-asyncapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/security/halo-connect-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/halo-connect/security/halo-connect-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/halo-connect-vulnerability-disclosure.yml
@@ -193,37 +195,37 @@ common:
   type: Security
   url: https://docs.haloconnect.io/security/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/mcp/halo-connect-mcp.yml
+  href: https://artifacts.apis.io/halo-connect/mcp/halo-connect-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/halo-connect-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/llms/halo-connect-llms.txt
+  href: https://artifacts.apis.io/halo-connect/llms/halo-connect-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/halo-connect-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/data-model/halo-connect-data-model.yml
+  href: https://artifacts.apis.io/halo-connect/data-model/halo-connect-data-model.yml
   title: ''
   type: DataModel
   url: data-model/halo-connect-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/halo-connect/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/overlays/halo-connect-integrator-overlay.yaml
+  href: https://artifacts.apis.io/halo-connect/overlays/halo-connect-integrator-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/halo-connect-integrator-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/overlays/halo-connect-desktop-overlay.yaml
+  href: https://artifacts.apis.io/halo-connect/overlays/halo-connect-desktop-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/halo-connect-desktop-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/well-known/halo-connect-well-known.yml
+  href: https://artifacts.apis.io/halo-connect/well-known/halo-connect-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/halo-connect-well-known.yml
@@ -254,10 +256,10 @@ overview: 'Halo Connect publishes 5 API contracts indexed on the [APIs.io](https
 
 
   Halo Connect''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, changelog, sandbox, and 27 more developer resources.'
-random_paper: 1
+random_paper: 11
 score:
-  band: developing
-  composite: 53.8
+  band: strong
+  composite: 54.8
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -271,8 +273,8 @@ score:
     contract_governance: 18.2
     contract_quality: 59.8
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 50.0
+    discoverability: 66.1
+    operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -280,7 +282,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 53.8
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -297,13 +299,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/screenshots/halo-connect-2026-07-25T220547.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/halo-connect/halo-connect-2026-07-25T220547.png
 security:
 - kind: authentication
   name: Halo Connect Authentication
@@ -321,6 +324,16 @@ security:
   name: Halo Connect Trust Center
   slug: halo-connect-trust-center
   summary_line: CyberCert SMB1001-2023 Level 3 (Gold), ISO 27001 (policies/procedures align to principles; not stated as certified)
+skill_count: 4
+skills:
+- name: Submit an async query and collect results
+  slug: halo-connect-async-query-and-poll
+- name: Search primary-care data with the FHIR R4 API
+  slug: halo-connect-fhir-search
+- name: Pair a site and run an immediate query
+  slug: halo-connect-pair-site-and-query
+- name: Manage registered (recurring) queries
+  slug: halo-connect-registered-query
 slug: halo-connect
 tags:
 - Healthcare

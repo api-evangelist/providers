@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.9
-  scored_at: '2026-10-17'
+  score: 30.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 4
   slug: novita-ai-agentic-access
   summary_line: 4 operations · 3 acting
-api_count: 2
+api_count: 1
 apis:
 - description: On-demand GPU instance management and templates plus serverless GPU endpoints. Create, start, stop, and delete instances; list products and templates; query usage-based and fixed-term billing.
   name: Novita AI GPU API
@@ -59,9 +61,6 @@ asyncapis:
   slug: novita-ai-asyncapi
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Novita Openai API
   slug: open-novita-ai-openai-api
 - collection_type: open
@@ -69,17 +68,22 @@ collections:
   slug: open-novita-ai
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/a2a/novita-ai-a2a.yml
+  href: https://artifacts.apis.io/novita-ai/capabilities/novita-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/novita-ai-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/novita-ai/a2a/novita-ai-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/novita-ai-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/agentic-access/novita-ai-agentic-access.yml
+  href: https://artifacts.apis.io/novita-ai/agentic-access/novita-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/novita-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/security/novita-ai-domain-security.yml
+  href: https://artifacts.apis.io/novita-ai/security/novita-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/novita-ai-domain-security.yml
@@ -168,17 +172,17 @@ common:
   type: MCPServer
   url: https://github.com/novitalabs/novita-mcp-server
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/plans/novita-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/novita-ai/plans/novita-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/novita-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/rate-limits/novita-ai-rate-limits.yml
+  href: https://artifacts.apis.io/novita-ai/rate-limits/novita-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/novita-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/finops/novita-ai-finops.yml
+  href: https://artifacts.apis.io/novita-ai/finops/novita-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/novita-ai-finops.yml
@@ -190,10 +194,10 @@ created: '2026-05-08'
 description: Novita AI is an AI inference cloud offering serverless LLM, image, video, and audio generation APIs alongside on-demand GPU rentals and serverless GPU endpoints. Hosts open-source models with both native and OpenAI-compatible chat surfaces, plus an agent sandbox and MCP server for tool-using agents.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Novita Ai Finops
-  primary_unit: ''
-  service_category: AI
+  primary_unit: million tokens input
+  service_category: ''
   slug: novita-ai-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
@@ -215,12 +219,15 @@ overview: 'Novita AI publishes 2 API contracts indexed on the [APIs.io](https://
   The Novita AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Novita AI''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, CLI, support, and 21 more developer resources.'
+  Novita AI''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, CLI, support, and 22 more developer resources.'
 plans:
 - name: Novita Ai Plans Pricing
-  plan_count: 1
+  plan_count: 9
   slug: novita-ai-plans-pricing
-random_paper: 2
+- name: Novita Ai Price Estimates
+  plan_count: 0
+  slug: novita-ai-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Novita Ai Rate Limits
@@ -240,23 +247,23 @@ rules:
   slug: novita-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 44.6
+  composite: 53.2
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 44.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 70.3
+    artifact_dirs: 17
+    catalog_earned: 57.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.9
+  delta: 3.7
   facets:
-    access_clarity: 50.0
+    access_clarity: 84.2
     contract_governance: 11.4
     contract_quality: 49.7
     developer_ergonomics: 59.5
-    discoverability: 75.0
-    operational_transparency: 15.8
-  previous_composite: 46.5
+    discoverability: 71.7
+    operational_transparency: 26.3
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -271,13 +278,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/screenshots/novita-ai-2026-06-20T190520.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/novita-ai/novita-ai-2026-06-20T190520.png
 security:
 - kind: domain-security
   name: Novita Ai Domain Security

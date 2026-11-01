@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: UTM's institutional knowledge repository, running DSpace-CRIS on utmik.utm.my (161.139.22.165, inside UTM's own APNIC allocation 161.139.0.0/16, netname UTM-MY). The OAI-PMH 2.0 endpoint answers anony
@@ -93,42 +95,42 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/universiti-teknologi-malaysia/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/utm/refs/heads/main/authentication/utm-authentication.yml
+  href: https://artifacts.apis.io/utm/authentication/utm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/utm-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/utm/refs/heads/main/conformance/utm-conformance.yml
+  href: https://artifacts.apis.io/utm/conformance/utm-conformance.yml
   title: ''
   type: Conformance
   url: conformance/utm-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/utm/refs/heads/main/json-ld/utm-context.jsonld
+  href: https://artifacts.apis.io/utm/json-ld/utm-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/utm-context.jsonld
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/utm/refs/heads/main/security/utm-domain-security.yml
+  href: https://artifacts.apis.io/utm/security/utm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/utm-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/utm/refs/heads/main/plans/utm-plans-pricing.yml
+  href: https://artifacts.apis.io/utm/plans/utm-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/utm-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/utm/refs/heads/main/rate-limits/utm-rate-limits.yml
+  href: https://artifacts.apis.io/utm/rate-limits/utm-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/utm-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/utm/refs/heads/main/finops/utm-finops.yml
+  href: https://artifacts.apis.io/utm/finops/utm-finops.yml
   title: ''
   type: FinOps
   url: finops/utm-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/utm/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/utm/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -210,7 +212,7 @@ coverage:
   - note: research-computing host resolves but does not answer; no HPC service catalog found
     status: 0
     url: https://hpc.utm.my/
-  reason: auth_required
+  reason: auth-required
   state: gated
 created: '2026-06-03'
 description: 'Universiti Teknologi Malaysia (UTM) is a public research university in Johor Bahru and Kuala Lumpur, Malaysia, one of the five institutions designated a Research University by the Ministry of Higher Education and ranked #181 in the QS World University Rankings 2025. UTM publishes no developer portal, no API documentation and no OpenAPI, AsyncAPI or JSON Schema of its own, and there is no route by which an unaffiliated developer can obtain a credential for anything it runs. Its programmable footprint is entirely made of standards it exposes rather than interfaces it designed, and every one of them sits on UTM''s own APNIC allocation (161.139.0.0/16, netname UTM-MY): the UTMIK Repository, a DSpace-CRIS institutional knowledge repository whose OAI-PMH 2.0 endpoint answers anonymously in twelve metadata formats including rioxx, etdms and an OpenAIRE CERIF-for-CRIS profile; the UTM Press journal platform, whose Open Journal Systems OAI-PMH interface has been harvestable since 2011
@@ -245,14 +247,14 @@ plans:
 - name: Utm Plans Pricing
   plan_count: 2
   slug: utm-plans-pricing
-random_paper: 12
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Utm Rate Limits
   slug: utm-rate-limits
 score:
   band: emerging
-  composite: 20.2
+  composite: 21.8
   coverage:
     artifact_dirs: 11
     catalog_earned: 52.0
@@ -260,12 +262,12 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 17.3
-    developer_ergonomics: 29.8
+    developer_ergonomics: 31.0
     discoverability: 71.4
     operational_transparency: 5.3
   jurisdiction:
@@ -275,7 +277,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 26.3
+  previous_composite: 21.8
   provenance:
     conformance: first-party
   regulatory:
@@ -283,15 +285,15 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 20.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/utm/refs/heads/main/screenshots/utm-2026-06-20T200738.png
+screenshot: https://apis.io/screenshots/utm/utm-2026-06-20T200738.png
 security:
 - kind: authentication
   name: Utm Authentication

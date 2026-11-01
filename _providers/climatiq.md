@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -136,9 +138,6 @@ collections:
   name: Climatiq Autopilot Travel API
   slug: postman-climatiq-travel-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Climatiq Autopilot API
   slug: open-climatiq-autopilot-api
 - collection_type: open
@@ -176,22 +175,22 @@ collections:
   slug: open-climatiq
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/plans/climatiq-plans-pricing.yml
+  href: https://artifacts.apis.io/climatiq/plans/climatiq-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/climatiq-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/rate-limits/climatiq-rate-limits.yml
+  href: https://artifacts.apis.io/climatiq/rate-limits/climatiq-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/climatiq-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/finops/climatiq-finops.yml
+  href: https://artifacts.apis.io/climatiq/finops/climatiq-finops.yml
   title: ''
   type: FinOps
   url: finops/climatiq-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/capabilities/climatiq-capability-edges.yml
+  href: https://artifacts.apis.io/climatiq/capabilities/climatiq-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/climatiq-capability-edges.yml
@@ -200,17 +199,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/climatiq/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/agentic-access/climatiq-agentic-access.yml
+  href: https://artifacts.apis.io/climatiq/agentic-access/climatiq-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/climatiq-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/security/climatiq-domain-security.yml
+  href: https://artifacts.apis.io/climatiq/security/climatiq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/climatiq-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/authentication/climatiq-authentication.yml
+  href: https://artifacts.apis.io/climatiq/authentication/climatiq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/climatiq-authentication.yml
@@ -279,35 +278,35 @@ common:
   type: Versioning
   url: https://www.climatiq.io/docs/changelogs/api-release
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/_original/climatiq-openapi.yml
+  href: https://artifacts.apis.io/climatiq/openapi/_original/climatiq-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/climatiq-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/json-schema/climatiq-emission-estimate-schema.json
+  href: https://artifacts.apis.io/climatiq/json-schema/climatiq-emission-estimate-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/climatiq-emission-estimate-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/json-ld/climatiq-context.jsonld
+  href: https://artifacts.apis.io/climatiq/json-ld/climatiq-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/climatiq-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/rules/climatiq-rules.yml
+  href: https://artifacts.apis.io/climatiq/rules/climatiq-rules.yml
   title: ''
   type: Spectral
   url: rules/climatiq-rules.yml
 created: '2025-02-24'
 description: Climatiq provides a developer-first API for carbon accounting and emissions calculations. The platform packages a curated emission-factor database together with calculation endpoints that turn activity or spend data into auditable CO2-equivalent estimates aligned with the GHG Protocol. Capabilities span search across the factor catalog, generic activity-based estimation, and purpose-built endpoints for travel, freight (GLEC), energy, cloud computing, procurement, and the EU Carbon Border Adjustment Mechanism. The API is keyed (Bearer token) and hosted at api.climatiq.io.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Climatiq Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: single user license
+  service_category: ''
   slug: climatiq-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/climatiq.png
 json_schemas:
 - name: Climatiq Emission Estimate
@@ -332,9 +331,12 @@ overview: 'Climatiq publishes 11 API contracts indexed on the [APIs.io](https://
   Climatiq''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 21 more developer resources.'
 plans:
 - name: Climatiq Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: climatiq-plans-pricing
-random_paper: 16
+- name: Climatiq Price Estimates
+  plan_count: 0
+  slug: climatiq-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Climatiq Rate Limits
@@ -365,23 +367,23 @@ rules:
   slug: climatiq-rules
 score:
   band: developing
-  composite: 44.2
+  composite: 53.6
   coverage:
     artifact_dirs: 17
-    catalog_earned: 55.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    catalog_earned: 67.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.5
   facets:
-    access_clarity: 32.9
+    access_clarity: 71.1
     contract_governance: 13.6
     contract_quality: 54.4
-    developer_ergonomics: 61.9
+    developer_ergonomics: 65.5
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 45.8
+    operational_transparency: 28.9
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     contracts:
@@ -395,13 +397,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/screenshots/climatiq-2026-08-17T083614.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/climatiq/climatiq-2026-08-17T083614.png
 security:
 - kind: authentication
   name: Climatiq Authentication

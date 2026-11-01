@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -69,7 +71,7 @@ common:
   type: StatusPage
   url: https://status.vetcove.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vetcove/refs/heads/main/security/vetcove-domain-security.yml
+  href: https://artifacts.apis.io/vetcove/security/vetcove-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vetcove-domain-security.yml
@@ -89,10 +91,10 @@ overview: 'Vetcove is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Vetcove''s developer surface includes signup flow, pricing, support, and 6 more developer resources.'
-random_paper: 16
+random_paper: 20
 score:
   band: emerging
-  composite: 16.9
+  composite: 16.6
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -106,9 +108,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 51.7
+    discoverability: 48.2
     operational_transparency: 15.8
-  previous_composite: 16.9
+  previous_composite: 16.6
   provenance:
     mcp: first-party
   regulatory:
@@ -117,14 +119,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vetcove/refs/heads/main/screenshots/vetcove-2026-09-02T165825.png
+screenshot: https://apis.io/screenshots/vetcove/vetcove-2026-09-02T165825.png
 security:
 - kind: domain-security
   name: Vetcove Domain Security

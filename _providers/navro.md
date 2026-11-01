@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -73,17 +75,17 @@ common:
   type: Compliance
   url: https://navro.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/navro/refs/heads/main/security/navro-domain-security.yml
+  href: https://artifacts.apis.io/navro/security/navro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/navro-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/navro/refs/heads/main/llms/navro-llms.txt
+  href: https://artifacts.apis.io/navro/llms/navro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/navro-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/navro/refs/heads/main/well-known/navro-well-known.yml
+  href: https://artifacts.apis.io/navro/well-known/navro-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/navro-well-known.yml
@@ -99,12 +101,12 @@ overview: 'Navro is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Navro''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 0
+random_paper: 22
 score:
   band: emerging
-  composite: 14.3
+  composite: 13.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -116,7 +118,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -126,21 +128,21 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 14.3
+  previous_composite: 13.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/navro/refs/heads/main/screenshots/navro-2026-08-07T184734.png
+screenshot: https://apis.io/screenshots/navro/navro-2026-08-07T184734.png
 security:
 - kind: domain-security
   name: Navro Domain Security

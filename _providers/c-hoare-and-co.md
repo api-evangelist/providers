@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 34.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -143,7 +145,7 @@ apis:
   description: The Transactions API from C. Hoare & Co. — 3 operation(s) for transactions.
   name: C. Hoare & Co. Transactions API
   slug: c-hoare-and-co-transactions-api
-artifact_total: 27
+artifact_total: 29
 collections:
 - collection_type: open
   name: Account and Transaction API Specification
@@ -164,42 +166,42 @@ common:
   type: BlogRSS
   url: https://www.hoaresbank.co.uk/taxonomy/term/11/feed
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/capabilities/c-hoare-and-co-capability-edges.yml
+  href: https://artifacts.apis.io/c-hoare-and-co/capabilities/c-hoare-and-co-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/c-hoare-and-co-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/overlays/c-hoare-and-co-account-and-transaction-api-overlay.yaml
+  href: https://artifacts.apis.io/c-hoare-and-co/overlays/c-hoare-and-co-account-and-transaction-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/c-hoare-and-co-account-and-transaction-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/overlays/c-hoare-and-co-payment-initiation-api-overlay.yaml
+  href: https://artifacts.apis.io/c-hoare-and-co/overlays/c-hoare-and-co-payment-initiation-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/c-hoare-and-co-payment-initiation-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/overlays/c-hoare-and-co-dynamic-client-registration-api-overlay.yaml
+  href: https://artifacts.apis.io/c-hoare-and-co/overlays/c-hoare-and-co-dynamic-client-registration-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/c-hoare-and-co-dynamic-client-registration-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/security/c-hoare-and-co-domain-security.yml
+  href: https://artifacts.apis.io/c-hoare-and-co/security/c-hoare-and-co-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/c-hoare-and-co-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/agentic-access/c-hoare-and-co-agentic-access.yml
+  href: https://artifacts.apis.io/c-hoare-and-co/agentic-access/c-hoare-and-co-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/c-hoare-and-co-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/scopes/c-hoare-and-co-scopes.yml
+  href: https://artifacts.apis.io/c-hoare-and-co/scopes/c-hoare-and-co-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/c-hoare-and-co-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/authentication/c-hoare-and-co-authentication.yml
+  href: https://artifacts.apis.io/c-hoare-and-co/authentication/c-hoare-and-co-authentication.yml
   title: ''
   type: Authentication
   url: authentication/c-hoare-and-co-authentication.yml
@@ -252,52 +254,52 @@ common:
   type: LinkedIn
   url: https://uk.linkedin.com/company/c-hoare-&-co
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/conventions/c-hoare-and-co-conventions.yml
+  href: https://artifacts.apis.io/c-hoare-and-co/conventions/c-hoare-and-co-conventions.yml
   title: ''
   type: Conventions
   url: conventions/c-hoare-and-co-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/conventions/c-hoare-and-co-conventions.yml
+  href: https://artifacts.apis.io/c-hoare-and-co/conventions/c-hoare-and-co-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/c-hoare-and-co-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/errors/c-hoare-and-co-problem-types.yml
+  href: https://artifacts.apis.io/c-hoare-and-co/errors/c-hoare-and-co-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/c-hoare-and-co-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/conformance/c-hoare-and-co-conformance.yml
+  href: https://artifacts.apis.io/c-hoare-and-co/conformance/c-hoare-and-co-conformance.yml
   title: ''
   type: Conformance
   url: conformance/c-hoare-and-co-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/lifecycle/c-hoare-and-co-lifecycle.yml
+  href: https://artifacts.apis.io/c-hoare-and-co/lifecycle/c-hoare-and-co-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/c-hoare-and-co-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/llms/c-hoare-and-co-llms.txt
+  href: https://artifacts.apis.io/c-hoare-and-co/llms/c-hoare-and-co-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/c-hoare-and-co-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/data-model/c-hoare-and-co-data-model.yml
+  href: https://artifacts.apis.io/c-hoare-and-co/data-model/c-hoare-and-co-data-model.yml
   title: ''
   type: DataModel
   url: data-model/c-hoare-and-co-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/c-hoare-and-co/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/mcp/c-hoare-and-co-mcp.yml
+  href: https://artifacts.apis.io/c-hoare-and-co/mcp/c-hoare-and-co-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/c-hoare-and-co-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/mcp/c-hoare-and-co-tool-crosswalk.yml
+  href: https://artifacts.apis.io/c-hoare-and-co/mcp/c-hoare-and-co-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/c-hoare-and-co-tool-crosswalk.yml
@@ -314,7 +316,7 @@ overview: 'C. Hoare & Co. publishes 20 API contracts indexed on the [APIs.io](ht
 
 
   C. Hoare & Co.''s developer surface includes engineering blog, authentication, documentation, support, legal docs, and 27 more developer resources.'
-random_paper: 2
+random_paper: 6
 scopes:
 - name: C Hoare And Co Scopes
   scope_count: 2
@@ -322,7 +324,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 41.6
+  composite: 41.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -330,13 +332,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 47.8
+    contract_quality: 47.2
     developer_ergonomics: 47.0
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -346,7 +348,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 41.1
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -363,13 +365,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/screenshots/c-hoare-and-co-2026-07-25T204150.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/c-hoare-and-co/c-hoare-and-co-2026-07-25T204150.png
 security:
 - kind: authentication
   name: C Hoare And Co Authentication
@@ -379,6 +382,12 @@ security:
   name: C Hoare And Co Domain Security
   slug: c-hoare-and-co-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Initiate a C. Hoare & Co. domestic payment (PIS)
+  slug: c-hoare-and-co-initiate-domestic-payment
+- name: Retrieve C. Hoare & Co. account information (AIS)
+  slug: c-hoare-and-co-retrieve-account-information
 slug: c-hoare-and-co
 tags:
 - Financial Services

@@ -19,7 +19,7 @@ name: Sisu Data
 nav: Providers
 network: true
 overview: Sisu Data is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Augmented Analytics, Decision Intelligence, and Business Intelligence.
-random_paper: 5
+random_paper: 19
 slug: sisu-data
 tags:
 - Company

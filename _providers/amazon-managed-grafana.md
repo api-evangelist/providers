@@ -27,15 +27,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.6
-  scored_at: '2026-10-17'
+  score: 31.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -60,7 +62,17 @@ apis:
   description: The Workspaces API from Amazon Managed Grafana — 8 operation(s) for workspaces.
   name: Amazon Managed Grafana Workspaces API
   slug: amazon-managed-grafana-workspaces-api
-artifact_total: 414
+- baseURL: https://grafana.amazonaws.com
+  baseurl_source: declared
+  description: The Managed Grafana Serviceaccounts API from Amazon Managed Grafana — 2 operation(s) for managed grafana serviceaccounts.
+  name: Amazon Managed Grafana Managed Grafana Serviceaccounts API
+  slug: amazon-managed-grafana-serviceaccounts-api
+- baseURL: https://grafana.amazonaws.com
+  baseurl_source: declared
+  description: The Managed Grafana Tokens API from Amazon Managed Grafana — 2 operation(s) for managed grafana tokens.
+  name: Amazon Managed Grafana Managed Grafana Tokens API
+  slug: amazon-managed-grafana-tokens-api
+artifact_total: 415
 collections:
 - collection_type: postman
   name: Amazon Managed Grafana Tags API
@@ -72,9 +84,6 @@ collections:
   name: Amazon Managed Grafana Tags Workspaces API
   slug: postman-amazon-managed-grafana-workspaces-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Amazon Managed Grafana Tags API
   slug: open-amazon-managed-grafana-tags-api
 - collection_type: open
@@ -85,22 +94,22 @@ collections:
   slug: open-amazon-managed-grafana-workspaces-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/plans/amazon-managed-grafana-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-managed-grafana/plans/amazon-managed-grafana-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-managed-grafana-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/rate-limits/amazon-managed-grafana-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-managed-grafana/rate-limits/amazon-managed-grafana-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-managed-grafana-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/finops/amazon-managed-grafana-finops.yml
+  href: https://artifacts.apis.io/amazon-managed-grafana/finops/amazon-managed-grafana-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-managed-grafana-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/capabilities/amazon-managed-grafana-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-managed-grafana/capabilities/amazon-managed-grafana-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-managed-grafana-capability-edges.yml
@@ -113,27 +122,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-managed-grafana/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/agentic-access/amazon-managed-grafana-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-managed-grafana/agentic-access/amazon-managed-grafana-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-managed-grafana-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/security/amazon-managed-grafana-trust-center.yml
+  href: https://artifacts.apis.io/amazon-managed-grafana/security/amazon-managed-grafana-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-managed-grafana-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/security/amazon-managed-grafana-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-managed-grafana/security/amazon-managed-grafana-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-managed-grafana-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/security/amazon-managed-grafana-domain-security.yml
+  href: https://artifacts.apis.io/amazon-managed-grafana/security/amazon-managed-grafana-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-managed-grafana-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/authentication/amazon-managed-grafana-authentication.yml
+  href: https://artifacts.apis.io/amazon-managed-grafana/authentication/amazon-managed-grafana-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-managed-grafana-authentication.yml
@@ -186,12 +195,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/rules/amazon-managed-grafana-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-managed-grafana/rules/amazon-managed-grafana-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-managed-grafana-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/vocabulary/amazon-managed-grafana-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-managed-grafana/vocabulary/amazon-managed-grafana-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-managed-grafana-vocabulary.yaml
@@ -589,13 +598,13 @@ features:
 - description: Manage user and group permissions within Grafana workspaces using role assignments.
   name: Role-Based Access Control
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Managed Grafana Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: active user per workspace
+  service_category: ''
   slug: amazon-managed-grafana-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-managed-grafana.png
 integrations:
 - description: Visualize CloudWatch metrics and logs natively in Grafana dashboards.
@@ -1372,7 +1381,7 @@ modified: '2026-09-16'
 name: Amazon Managed Grafana
 nav: Providers
 network: true
-overview: 'Amazon Managed Grafana publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Tags API, Versions API, and Workspaces API. Tagged areas include Dashboards, Monitoring, Observability, Visualization, and Data Visualization.
+overview: 'Amazon Managed Grafana publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Tags API, Versions API, Workspaces API, and 2 more. Tagged areas include Dashboards, Monitoring, Observability, Visualization, and Data Visualization.
 
 
   The Amazon Managed Grafana catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1381,9 +1390,9 @@ overview: 'Amazon Managed Grafana publishes 3 API contracts indexed on the [APIs
   Amazon Managed Grafana''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 18 more developer resources.'
 plans:
 - name: Amazon Managed Grafana Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: amazon-managed-grafana-plans-pricing
-random_paper: 17
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Amazon Managed Grafana Rate Limits
@@ -1413,44 +1422,45 @@ rules:
     warn: 11
   slug: amazon-managed-grafana-spectral-rules
 score:
-  band: developing
-  composite: 52.4
+  band: strong
+  composite: 63.9
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 68.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.6
+    artifact_dirs: 21
+    catalog_earned: 80.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 34.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.7
   facets:
-    access_clarity: 53.9
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 66.7
-    developer_ergonomics: 46.4
+    contract_quality: 63.2
+    developer_ergonomics: 58.3
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 53.9
+    operational_transparency: 39.5
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 3
+      marker_coverage: 40.0
+      total: 5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/screenshots/amazon-managed-grafana-2026-06-20T171733.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-managed-grafana/amazon-managed-grafana-2026-06-20T171733.png
 security:
 - kind: authentication
   name: Amazon Managed Grafana Authentication

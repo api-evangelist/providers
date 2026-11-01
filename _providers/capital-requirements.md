@@ -4,6 +4,6 @@ layout: provider
 name: capital-requirements
 nav: Providers
 network: true
-random_paper: 5
+random_paper: 7
 slug: capital-requirements
 ---

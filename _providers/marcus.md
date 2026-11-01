@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Marcus by Goldman Sachs does not publish a first-party consumer developer API. Consumer-permissioned account data is available only through third-party open-finance aggregators. Plaid supports Marcus '
@@ -42,7 +44,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/marcus/refs/heads/main/security/marcus-domain-security.yml
+  href: https://artifacts.apis.io/marcus/security/marcus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/marcus-domain-security.yml
@@ -79,7 +81,7 @@ overview: 'Marcus by Goldman Sachs is listed with 1 API on the [APIs.io](https:/
 
 
   Marcus by Goldman Sachs'' developer surface includes support and 5 more developer resources.'
-random_paper: 13
+random_paper: 3
 score:
   band: emerging
   composite: 11.4
@@ -112,8 +114,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

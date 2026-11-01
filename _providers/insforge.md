@@ -26,15 +26,17 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.7
-  scored_at: '2026-10-17'
-api_count: 25
+  score: 55.0
+  scored_at: '2026-10-31'
+api_count: 14
 apis:
 - baseURL: https://api.insforge.dev
   baseurl_source: declared
@@ -91,11 +93,8 @@ apis:
   description: Stripe Checkout, Billing Portal, catalog, sync, customer, subscription, and transaction routes
   name: Insforge Stripe Payments API
   slug: insforge-stripe-payments-api
-artifact_total: 28
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Insforge AI Admin API
   slug: open-insforge-admin-api
@@ -130,13 +129,18 @@ collections:
   name: Insforge AI Admin Stripe Payments API
   slug: open-insforge-stripe-payments-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/insforge/plans/insforge-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/insforge-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/capabilities/insforge-capability-edges.yml
+  href: https://artifacts.apis.io/insforge/capabilities/insforge-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/insforge-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/overlays/insforge-auth-overlay.yaml
+  href: https://artifacts.apis.io/insforge/overlays/insforge-auth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insforge-auth-overlay.yaml
@@ -193,107 +197,115 @@ common:
   type: ChangeLog
   url: https://insforge.dev/changelogs
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/changelog/insforge-changelog.yml
+  href: https://artifacts.apis.io/insforge/changelog/insforge-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/insforge-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/mcp/insforge-mcp.yml
+  href: https://artifacts.apis.io/insforge/mcp/insforge-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/insforge-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/llms/insforge-llms.txt
+  href: https://artifacts.apis.io/insforge/llms/insforge-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/insforge-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/packages/insforge-packages.yml
+  href: https://artifacts.apis.io/insforge/packages/insforge-packages.yml
   title: ''
   type: Packages
   url: packages/insforge-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/packages/insforge-packages.yml
+  href: https://artifacts.apis.io/insforge/packages/insforge-packages.yml
   title: ''
   type: SDKs
   url: packages/insforge-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/cli/insforge-cli.yml
+  href: https://artifacts.apis.io/insforge/cli/insforge-cli.yml
   title: ''
   type: CLI
   url: cli/insforge-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/insforge/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/well-known/insforge-well-known.yml
+  href: https://artifacts.apis.io/insforge/well-known/insforge-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/insforge-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/well-known/insforge-security.txt
+  href: https://artifacts.apis.io/insforge/well-known/insforge-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/insforge-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/scopes/insforge-scopes.yml
+  href: https://artifacts.apis.io/insforge/scopes/insforge-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/insforge-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/authentication/insforge-authentication.yml
+  href: https://artifacts.apis.io/insforge/authentication/insforge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/insforge-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/conventions/insforge-conventions.yml
+  href: https://artifacts.apis.io/insforge/conventions/insforge-conventions.yml
   title: ''
   type: Conventions
   url: conventions/insforge-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/conventions/insforge-conventions.yml
+  href: https://artifacts.apis.io/insforge/conventions/insforge-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/insforge-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/errors/insforge-problem-types.yml
+  href: https://artifacts.apis.io/insforge/errors/insforge-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/insforge-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/conformance/insforge-conformance.yml
+  href: https://artifacts.apis.io/insforge/conformance/insforge-conformance.yml
   title: ''
   type: Conformance
   url: conformance/insforge-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/lifecycle/insforge-lifecycle.yml
+  href: https://artifacts.apis.io/insforge/lifecycle/insforge-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/insforge-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/data-model/insforge-data-model.yml
+  href: https://artifacts.apis.io/insforge/data-model/insforge-data-model.yml
   title: ''
   type: DataModel
   url: data-model/insforge-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/security/insforge-domain-security.yml
+  href: https://artifacts.apis.io/insforge/security/insforge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/insforge-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/security/insforge-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/insforge/security/insforge-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/insforge-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/well-known/insforge-security.txt
+  href: https://artifacts.apis.io/insforge/well-known/insforge-security.txt
   title: ''
   type: Security
   url: well-known/insforge-security.txt
 created: '2026-07-17'
 description: InsForge is an open-source (Apache-2.0), agent-native cloud infrastructure platform built so that AI coding agents can provision and operate an entire backend end to end through a CLI and packaged agent skills instead of a human clicking through a dashboard. A single project bundles a Postgres database with schema management and row-level security, authentication (users, sessions, OAuth, JWT), S3-compatible object storage, Deno-based edge functions with cron, a unified AI model gateway, realtime subscriptions and webhooks, long-lived custom compute, frontend hosting via Vercel, transactional email, and payments via Stripe and Razorpay. The REST API is documented as fourteen OpenAPI 3.0 service specifications and is driven by an official TypeScript SDK, CLI, and hosted MCP server. InsForge is a Y Combinator company.
+finops:
+- has_sources: true
+  method: derived
+  name: Insforge Finops
+  primary_unit: 2 vcpu 0.5 gb ram
+  service_category: ''
+  slug: insforge-finops
+  template: false
 image: https://insforge.dev/logo.png
 layout: provider
 mcp_servers:
@@ -307,32 +319,39 @@ network: true
 overview: 'Insforge publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Channels API, Client API, and 8 more. Tagged areas include Company, Backend-as-a-Service, Agent-Native, Cloud Infrastructure, and Database.
 
 
-  Insforge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 28 more developer resources.'
-random_paper: 3
+  Insforge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 29 more developer resources.'
+plans:
+- name: Insforge Plans Pricing
+  plan_count: 14
+  slug: insforge-plans-pricing
+- name: Insforge Price Estimates
+  plan_count: 0
+  slug: insforge-price-estimates
+random_paper: 21
 scopes:
 - name: Insforge Scopes
   scope_count: 11
   slug: insforge-scopes
   summary_line: 11 scopes · authorizationCode/deviceCode
 score:
-  band: developing
-  composite: 53.4
+  band: strong
+  composite: 58.1
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 25
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 46.5
+    contract_quality: 45.4
     developer_ergonomics: 78.6
-    discoverability: 76.7
-    operational_transparency: 28.9
-  previous_composite: 53.4
+    discoverability: 70.0
+    operational_transparency: 31.6
+  previous_composite: 50.2
   provenance:
     conformance: derived
     contracts:
@@ -348,13 +367,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 36.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/screenshots/insforge-2026-07-25T222527.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/insforge/insforge-2026-07-25T222527.png
 security:
 - kind: authentication
   name: Insforge Authentication
@@ -368,6 +388,10 @@ security:
   name: Insforge Vulnerability Disclosure
   slug: insforge-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 1
+skills:
+- name: insforge-agent-guide
+  slug: insforge-agent-guide
 slug: insforge
 tags:
 - Company

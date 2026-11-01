@@ -26,38 +26,56 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
-    rate_limit_signal: derived
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.6
-  scored_at: '2026-10-17'
+  score: 2.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
-- description: The Syneos Health API provides access to platform services and data for enterprise integration and automation.
+- description: Syneos Health's API gateway at api.syneoshealth.com (WSO2 API Manager). No public documentation or contract is published; access is customer-only.
   name: Syneos Health API
   slug: syneos-health-api
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/syneos-health/refs/heads/main/plans/syneos-health-plans-pricing.yml
   title: ''
-  type: Plans
-  url: plans/syneos-health-plans-pricing.yml
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/syneos-health/refs/heads/main/rate-limits/syneos-health-rate-limits.yml
-  title: ''
-  type: RateLimits
-  url: rate-limits/syneos-health-rate-limits.yml
+  type: PrivacyPolicy
+  url: https://www.syneoshealth.com/insights-hub/2021-health-trends/privacy-and-convenience
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/syneos-health/refs/heads/main/finops/syneos-health-finops.yml
+  title: ''
+  type: Pricing
+  url: https://www.syneoshealth.com/news/releases/pricing-politics-and-ai-take-center-stage-2024
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.syneoshealth.com/news/releases/ai-trends-2023
+- group: other
+  href: https://artifacts.apis.io/syneos-health/hosts/syneos-health-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/syneos-health-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/syneos-health/vendors/syneos-health-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/syneos-health-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.syneoshealth.com/news
+- group: commercial
+  href: https://artifacts.apis.io/syneos-health/finops/syneos-health-finops.yml
   title: ''
   type: FinOps
   url: finops/syneos-health-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/syneos-health/refs/heads/main/security/syneos-health-domain-security.yml
+  href: https://artifacts.apis.io/syneos-health/security/syneos-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/syneos-health-domain-security.yml
@@ -73,8 +91,28 @@ common:
   title: ''
   type: Website
   url: https://www.syneoshealth.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.syneoshealth.com/legal
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.syneoshealth.com/contact-us
+coverage:
+  checked: '2026-10-20'
+  detail: api.syneoshealth.com answers as a WSO2 API Manager gateway ("Welcome to APIM") with no public spec paths, and the developer.syneoshealth.com portal named in the record does not resolve in DNS, so any API is reachable only within customer engagements.
+  evidence:
+  - status: 200
+    url: https://api.syneoshealth.com
+  - status: 404
+    url: https://api.syneoshealth.com/openapi.json
+  - status: 0
+    url: https://developer.syneoshealth.com
+  reason: customer-only-docs
+  state: gated
 created: '2026-04-19'
-description: Syneos Health is a major US corporation and Fortune 1000 company. The Syneos Health API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
+description: Syneos Health is a fully integrated biopharmaceutical solutions organization (contract research and commercial services) headquartered in Morrisville, North Carolina. It runs a WSO2 API Manager gateway at api.syneoshealth.com, but publishes no public developer portal, API documentation or machine-readable contract; integrations are scoped inside customer engagements.
 finops:
 - has_sources: true
   method: generated
@@ -85,53 +123,61 @@ finops:
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/syneos-health.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-10-20'
 name: Syneos Health
 nav: Providers
 network: true
-overview: Syneos Health is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Clinical Research and Biopharmaceutical.
+overview: 'Syneos Health is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Clinical Research, Biopharmaceutical, Contract Research Organization, Life Sciences, and Healthcare.
+
+
+  Syneos Health''s developer surface includes pricing, changelog, support, and 10 more developer resources.'
 plans:
 - name: Syneos Health Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: syneos-health-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Syneos Health Rate Limits
   slug: syneos-health-rate-limits
 score:
-  band: minimal
-  composite: 8.6
+  band: emerging
+  composite: 16.6
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 36.0
+    artifact_dirs: 10
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 57.1
-    operational_transparency: 7.9
-  previous_composite: 14.6
+    developer_ergonomics: 4.8
+    discoverability: 67.9
+    operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 16.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 10.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/syneos-health/refs/heads/main/screenshots/syneos-health-2026-06-20T194827.png
+screenshot: https://apis.io/screenshots/syneos-health/syneos-health-2026-06-20T194827.png
 security:
 - kind: domain-security
   name: Syneos Health Domain Security
@@ -141,5 +187,9 @@ slug: syneos-health
 tags:
 - Clinical Research
 - Biopharmaceutical
+- Contract Research Organization
+- Life Sciences
+- Healthcare
+- Commercialization
 website: https://www.syneoshealth.com
 ---

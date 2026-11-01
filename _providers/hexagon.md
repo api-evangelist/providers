@@ -14,7 +14,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -26,20 +26,31 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
-    rate_limit_signal: derived
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.9
-  scored_at: '2026-10-17'
-api_count: 5
+  score: 23.6
+  scored_at: '2026-10-31'
+agentic_access:
+- acting_count: 1
+  human_in_the_loop: 0
+  name: Hexagon Agentic Access
+  operation_count: 1
+  slug: hexagon-agentic-access
+  summary_line: 1 operation · 1 acting
+api_count: 1
 apis:
 - description: REST APIs for the Nexus digital reality platform enabling manufacturers to build connected workflows integrating metrology, quality inspection, and production monitoring data. All endpoints are authen
   name: Hexagon Nexus API
   slug: nexus-api
-- description: Enterprise Asset Management REST API providing programmatic access to asset lifecycle data including equipment management, work orders, preventive maintenance, document attachments, and service reques
+- baseURL: https://docs.hexagonali.com
+  baseurl_source: declared
+  description: Enterprise Asset Management REST API providing programmatic access to asset lifecycle data including equipment management, work orders, preventive maintenance, document attachments, and service reques
   name: HxGN EAM REST API
   slug: hxgn-eam-api
 - description: Smart Digital eXchange API Services enabling integration with Hexagon's engineering data management platform for plant design, document control, and digital twin workflows in process and power industr
@@ -51,20 +62,46 @@ apis:
 - description: A remote Model Context Protocol endpoint served from the Hexagon GeoCloud web property and discoverable through RFC 9728 protected-resource metadata and RFC 8414 authorization-server metadata on the s
   name: Hexagon GeoCloud MCP Server
   slug: geocloud-mcp
-artifact_total: 13
+artifact_total: 15
 common:
-- group: docs
+- group: start
   title: ''
-  type: APIReference
-  url: https://rcdocs.leica-geosystems.com/en/hexagon-geocloud/latest.md
+  type: GettingStarted
+  url: https://docs.hexagon.com/hxmap/5.0.0/getting-started
+- group: agent
+  href: https://artifacts.apis.io/hexagon/agentic-access/hexagon-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/hexagon-agentic-access.yml
+- group: design
+  href: https://artifacts.apis.io/hexagon/rules/hexagon-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/hexagon-rules.yml
+- group: design
+  href: https://artifacts.apis.io/hexagon/vocabulary/hexagon-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/hexagon-vocabulary.yml
+- group: other
+  href: https://artifacts.apis.io/hexagon/hosts/hexagon-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/hexagon-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/hexagon/integrations/hexagon-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/hexagon-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/hexagon/vendors/hexagon-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/hexagon-vendors.yml
 - group: start
   title: ''
   type: DeveloperPortal
   url: https://nexus.hexagon.com/developerportal
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://rcdocs.leica-geosystems.com/en/hexagon-geocloud/latest/getting-started.md
 - group: operate
   title: ''
   type: Support
@@ -86,37 +123,37 @@ common:
   type: PrivacyPolicy
   url: https://hexagon.com/legal/privacy-notice
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/changelog/hexagon-changelog.yml
+  href: https://artifacts.apis.io/hexagon/changelog/hexagon-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hexagon-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/lifecycle/hexagon-lifecycle.yml
+  href: https://artifacts.apis.io/hexagon/lifecycle/hexagon-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/hexagon-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/lifecycle/hexagon-lifecycle.yml
+  href: https://artifacts.apis.io/hexagon/lifecycle/hexagon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hexagon-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/authentication/hexagon-authentication.yml
+  href: https://artifacts.apis.io/hexagon/authentication/hexagon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hexagon-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/scopes/hexagon-scopes.yml
+  href: https://artifacts.apis.io/hexagon/scopes/hexagon-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hexagon-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/well-known/hexagon-well-known.yml
+  href: https://artifacts.apis.io/hexagon/well-known/hexagon-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hexagon-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/conformance/hexagon-conformance.yml
+  href: https://artifacts.apis.io/hexagon/conformance/hexagon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hexagon-conformance.yml
@@ -125,31 +162,26 @@ common:
   type: Compliance
   url: https://geocloud.hexagon.com/security-compliance/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/security/hexagon-trust-center.yml
+  href: https://artifacts.apis.io/hexagon/security/hexagon-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/hexagon-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/llms/hexagon-llms.txt
+  href: https://artifacts.apis.io/hexagon/llms/hexagon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hexagon-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/mcp/hexagon-mcp.yml
+  href: https://artifacts.apis.io/hexagon/mcp/hexagon-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hexagon-mcp.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/packages/hexagon-packages.yml
-  title: ''
-  type: Packages
-  url: packages/hexagon-packages.yml
 - group: operate
   title: ''
   type: FAQ
   url: https://geocloud.hexagon.com/faq/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hexagon/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -158,7 +190,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/hexagon-oss
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/security/hexagon-domain-security.yml
+  href: https://artifacts.apis.io/hexagon/security/hexagon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hexagon-domain-security.yml
@@ -195,25 +227,20 @@ common:
   type: X
   url: https://x.com/hexagonab
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/plans/hexagon-plans-pricing.yml
+  href: https://artifacts.apis.io/hexagon/plans/hexagon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hexagon-plans-pricing.yml
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/rate-limits/hexagon-rate-limits.yml
-  title: ''
-  type: RateLimits
-  url: rate-limits/hexagon-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/finops/hexagon-finops.yml
+  href: https://artifacts.apis.io/hexagon/finops/hexagon-finops.yml
   title: ''
   type: FinOps
   url: finops/hexagon-finops.yml
 created: '2026-06-13'
 description: Hexagon is a global leader in digital reality solutions, combining sensor, software and autonomous technologies. Through the Nexus platform and product APIs, Hexagon delivers manufacturing intelligence capabilities spanning metrology, quality inspection, production monitoring, and digital factory solutions. The Nexus Developer Portal provides REST APIs authenticated via OAuth 2.0, enabling manufacturers and third-party developers to build connected, collaborative workflows integrating measurement data, quality processes, and industrial automation across the smart factory lifecycle.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Hexagon Finops
   primary_unit: ''
   service_category: ''
@@ -229,45 +256,67 @@ modified: '2026-06-13'
 name: Hexagon
 nav: Providers
 network: true
-overview: 'Hexagon is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Nexus API, and 4 more. Tagged areas include Manufacturing, Metrology, Quality Inspection, Digital Factory, and Production Monitoring.
+overview: 'Hexagon publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Nexus API, HxGN EAM REST API, and 3 more. Tagged areas include Manufacturing, Metrology, Quality Inspection, Digital Factory, and Production Monitoring.
 
 
-  Hexagon''s developer surface includes API reference, getting-started guide, support, signup flow, changelog, authentication, FAQ, and 28 more developer resources.'
+  The Hexagon catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Hexagon''s developer surface includes getting-started guide, support, signup flow, changelog, authentication, FAQ, documentation, and 31 more developer resources.'
 plans:
 - name: Hexagon Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: hexagon-plans-pricing
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Hexagon Rate Limits
   slug: hexagon-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: Hexagon API Rules
+  rule_count: 7
+  severity_counts:
+    error: 5
+    hint: 0
+    info: 1
+    warn: 1
+  slug: hexagon-rules
 scopes:
 - name: Hexagon Scopes
-  scope_count: 0
+  scope_count: 18
   slug: hexagon-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 18 scopes
 score:
   band: strong
-  composite: 54.6
+  composite: 58.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 43.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    artifact_dirs: 29
+    catalog_earned: 50.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 64.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: -2.1
   facets:
-    access_clarity: 68.4
-    contract_governance: 18.2
-    contract_quality: 39.4
-    developer_ergonomics: 58.9
-    discoverability: 80.0
-    operational_transparency: 42.1
-  previous_composite: 60.2
+    access_clarity: 81.6
+    contract_governance: 35.6
+    contract_quality: 46.1
+    developer_ergonomics: 51.8
+    discoverability: 65.0
+    operational_transparency: 44.7
+  previous_composite: 60.5
   provenance:
+    agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
     mcp: site-plugin
     skills: derived
   regulatory:
@@ -276,14 +325,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/screenshots/hexagon-2026-06-20T182709.png
+screenshot: https://apis.io/screenshots/hexagon/hexagon-2026-06-20T182709.png
 security:
 - kind: authentication
   name: Hexagon Authentication

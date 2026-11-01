@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The Shopify Storefront GraphQL API as served from AG1's own storefront host, shop.drinkag1.com. Anonymous schema introspection succeeds, exposing 35 query fields, 41 mutations and 416 types covering p
@@ -50,10 +52,10 @@ apis:
 - description: Model Context Protocol server on AG1's customer account host exposing four order-management tools - get_most_recent_order_status, get_order_status, get_store_credit_balances and request_return. tools/
   name: AG1 Customer Account MCP Server
   slug: athletic-greens-customer-account-mcp
-artifact_total: 8
+artifact_total: 11
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/security/athletic-greens-domain-security.yml
+  href: https://artifacts.apis.io/athletic-greens/security/athletic-greens-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/athletic-greens-domain-security.yml
@@ -90,72 +92,72 @@ common:
   type: Documentation
   url: https://shop.drinkag1.com/agents.md
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/graphql/athletic-greens-storefront.graphql
+  href: https://artifacts.apis.io/athletic-greens/graphql/athletic-greens-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/athletic-greens-storefront.graphql
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/mcp/athletic-greens-mcp.yml
+  href: https://artifacts.apis.io/athletic-greens/mcp/athletic-greens-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/athletic-greens-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/mcp/athletic-greens-tool-crosswalk.yml
+  href: https://artifacts.apis.io/athletic-greens/mcp/athletic-greens-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/athletic-greens-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/well-known/athletic-greens-well-known.yml
+  href: https://artifacts.apis.io/athletic-greens/well-known/athletic-greens-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/athletic-greens-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/well-known/athletic-greens-openid-configuration.json
+  href: https://artifacts.apis.io/athletic-greens/well-known/athletic-greens-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/athletic-greens-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/authentication/athletic-greens-authentication.yml
+  href: https://artifacts.apis.io/athletic-greens/authentication/athletic-greens-authentication.yml
   title: ''
   type: Authentication
   url: authentication/athletic-greens-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/scopes/athletic-greens-scopes.yml
+  href: https://artifacts.apis.io/athletic-greens/scopes/athletic-greens-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/athletic-greens-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/conformance/athletic-greens-conformance.yml
+  href: https://artifacts.apis.io/athletic-greens/conformance/athletic-greens-conformance.yml
   title: ''
   type: Conformance
   url: conformance/athletic-greens-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/conventions/athletic-greens-conventions.yml
+  href: https://artifacts.apis.io/athletic-greens/conventions/athletic-greens-conventions.yml
   title: ''
   type: Conventions
   url: conventions/athletic-greens-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/errors/athletic-greens-problem-types.yml
+  href: https://artifacts.apis.io/athletic-greens/errors/athletic-greens-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/athletic-greens-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/lifecycle/athletic-greens-lifecycle.yml
+  href: https://artifacts.apis.io/athletic-greens/lifecycle/athletic-greens-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/athletic-greens-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/data-model/athletic-greens-data-model.yml
+  href: https://artifacts.apis.io/athletic-greens/data-model/athletic-greens-data-model.yml
   title: ''
   type: DataModel
   url: data-model/athletic-greens-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/llms/athletic-greens-llms.txt
+  href: https://artifacts.apis.io/athletic-greens/llms/athletic-greens-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/athletic-greens-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/athletic-greens/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -176,15 +178,15 @@ overview: 'AG1 is listed with 4 APIs on the [APIs.io](https://apis.io/) network.
 
 
   AG1''s developer surface includes FAQ, support, signup flow, documentation, authentication, and 18 more developer resources.'
-random_paper: 17
+random_paper: 23
 scopes:
 - name: Athletic Greens Scopes
   scope_count: 4
   slug: athletic-greens-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 24.4
+  band: thin
+  composite: 27.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 40.0
@@ -194,18 +196,18 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 10.4
     developer_ergonomics: 28.0
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 24.4
+  previous_composite: 27.3
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -215,15 +217,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 29.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 32.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/screenshots/athletic-greens-2026-08-07T161847.png
+screenshot: https://apis.io/screenshots/athletic-greens/athletic-greens-2026-08-07T161847.png
 security:
 - kind: authentication
   name: Athletic Greens Authentication
@@ -233,6 +235,14 @@ security:
   name: Athletic Greens Domain Security
   slug: athletic-greens-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Build an AG1 cart and hand off for buyer approval
+  slug: athletic-greens-build-cart-and-hand-off
+- name: Find and price AG1 products
+  slug: athletic-greens-find-and-price-products
+- name: Check an AG1 order and request a return
+  slug: athletic-greens-order-status-and-returns
 slug: athletic-greens
 tags:
 - Company

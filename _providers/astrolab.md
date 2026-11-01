@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API documentation is behind Cloudflare Access login, no machine-readable spec discovered.
@@ -40,32 +42,32 @@ common:
   type: BlogRSS
   url: https://www.astrolab.space/category/news/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/astrolab/refs/heads/main/security/astrolab-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/astrolab/security/astrolab-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/astrolab-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/astrolab/refs/heads/main/well-known/astrolab-security.txt
+  href: https://artifacts.apis.io/astrolab/well-known/astrolab-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/astrolab-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/astrolab/refs/heads/main/well-known/astrolab-docs-security.txt
+  href: https://artifacts.apis.io/astrolab/well-known/astrolab-docs-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/astrolab-docs-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/astrolab/refs/heads/main/well-known/astrolab-well-known.yml
+  href: https://artifacts.apis.io/astrolab/well-known/astrolab-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/astrolab-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/astrolab/refs/heads/main/hosts/astrolab-hosts.yml
+  href: https://artifacts.apis.io/astrolab/hosts/astrolab-hosts.yml
   title: ''
   type: Hosts
   url: hosts/astrolab-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/astrolab/refs/heads/main/vendors/astrolab-vendors.yml
+  href: https://artifacts.apis.io/astrolab/vendors/astrolab-vendors.yml
   title: ''
   type: Vendors
   url: vendors/astrolab-vendors.yml
@@ -74,12 +76,12 @@ common:
   type: Login
   url: https://www.astrolab.space/login/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/astrolab/refs/heads/main/security/astrolab-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/astrolab/security/astrolab-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/astrolab-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/astrolab/refs/heads/main/security/astrolab-domain-security.yml
+  href: https://artifacts.apis.io/astrolab/security/astrolab-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/astrolab-domain-security.yml
@@ -125,7 +127,7 @@ overview: 'AstroLab is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   AstroLab''s developer surface includes engineering blog, documentation, support, and 14 more developer resources.'
-random_paper: 20
+random_paper: 16
 score:
   band: emerging
   composite: 18.5
@@ -136,7 +138,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -144,21 +146,21 @@ score:
     developer_ergonomics: 16.7
     discoverability: 53.6
     operational_transparency: 10.5
-  previous_composite: 18.4
+  previous_composite: 18.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/astrolab/refs/heads/main/screenshots/astrolab-2026-10-11T100629.png
+screenshot: https://apis.io/screenshots/astrolab/astrolab-2026-10-11T100629.png
 security:
 - kind: domain-security
   name: Astrolab Domain Security

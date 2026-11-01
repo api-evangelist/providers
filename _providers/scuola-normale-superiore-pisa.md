@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 0
 common:
@@ -47,7 +49,7 @@ name: Scuola Normale Superiore di Pisa
 nav: Providers
 network: true
 overview: Scuola Normale Superiore di Pisa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Italy.
-random_paper: 3
+random_paper: 23
 score:
   band: minimal
   composite: 1.7
@@ -74,12 +76,6 @@ score:
     regions:
     - europe
     - italy-southern-europe
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 1.7
   regulatory:
     applies: true
@@ -87,14 +83,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/scuola-normale-superiore-pisa/refs/heads/main/screenshots/scuola-normale-superiore-pisa-2026-09-02T154621.png
+screenshot: https://apis.io/screenshots/scuola-normale-superiore-pisa/scuola-normale-superiore-pisa-2026-09-02T154621.png
 slug: scuola-normale-superiore-pisa
 tags:
 - Education

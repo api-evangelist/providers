@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-17'
+  score: 20.6
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - baseURL: https://api.sommelier.finance
@@ -53,9 +55,6 @@ apis:
   slug: sommelier-vault-data-api
 artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sommelier Finance Integrations API
   slug: open-sommelier-integrations-api
@@ -79,47 +78,47 @@ common:
   type: DeveloperPortal
   url: https://api.sommelier.finance/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/security/sommelier-domain-security.yml
+  href: https://artifacts.apis.io/sommelier/security/sommelier-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sommelier-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/authentication/sommelier-authentication.yml
+  href: https://artifacts.apis.io/sommelier/authentication/sommelier-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sommelier-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/conventions/sommelier-conventions.yml
+  href: https://artifacts.apis.io/sommelier/conventions/sommelier-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sommelier-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/data-model/sommelier-data-model.yml
+  href: https://artifacts.apis.io/sommelier/data-model/sommelier-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sommelier-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/conformance/sommelier-conformance.yml
+  href: https://artifacts.apis.io/sommelier/conformance/sommelier-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sommelier-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/mcp/sommelier-mcp.yml
+  href: https://artifacts.apis.io/sommelier/mcp/sommelier-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sommelier-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/llms/sommelier-llms.txt
+  href: https://artifacts.apis.io/sommelier/llms/sommelier-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sommelier-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/overlays/sommelier-api-overlay.yaml
+  href: https://artifacts.apis.io/sommelier/overlays/sommelier-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sommelier-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sommelier/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -135,26 +134,26 @@ overview: 'Sommelier is listed with 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Sommelier''s developer surface includes engineering blog, authentication, and 10 more developer resources.'
-random_paper: 5
+random_paper: 13
 score:
   band: thin
-  composite: 27.9
+  composite: 27.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
-    catalog_max: 100.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 43.3
     developer_ergonomics: 42.3
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 0.0
-  previous_composite: 27.4
+  previous_composite: 27.2
   provenance:
     conformance: derived
     contracts:
@@ -170,14 +169,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/sommelier/refs/heads/main/screenshots/sommelier-2026-09-02T160153.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sommelier/sommelier-2026-09-02T160153.png
 security:
 - kind: authentication
   name: Sommelier Authentication
@@ -187,6 +186,10 @@ security:
   name: Sommelier Domain Security
   slug: sommelier-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC
+skill_count: 1
+skills:
+- name: Track Sommelier vault performance
+  slug: sommelier-vault-performance
 slug: sommelier
 tags:
 - Company

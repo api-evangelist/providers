@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/homes-com/refs/heads/main/security/homes-com-domain-security.yml
+  href: https://artifacts.apis.io/homes-com/security/homes-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/homes-com-domain-security.yml
@@ -46,7 +48,7 @@ common:
   type: TrustCenter
   url: https://trust.costargroup.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/homes-com/refs/heads/main/security/homes-com-trust-center.yml
+  href: https://artifacts.apis.io/homes-com/security/homes-com-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/homes-com-trust-center.yml
@@ -55,7 +57,7 @@ common:
   type: Compliance
   url: https://trust.costargroup.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/homes-com/refs/heads/main/security/homes-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/homes-com/security/homes-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/homes-com-vulnerability-disclosure.yml
@@ -64,17 +66,17 @@ common:
   type: Security
   url: https://trust.costargroup.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/homes-com/refs/heads/main/conformance/homes-com-conformance.yml
+  href: https://artifacts.apis.io/homes-com/conformance/homes-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/homes-com-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/homes-com/refs/heads/main/lifecycle/homes-com-lifecycle.yml
+  href: https://artifacts.apis.io/homes-com/lifecycle/homes-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/homes-com-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/homes-com/refs/heads/main/llms/homes-com-llms.txt
+  href: https://artifacts.apis.io/homes-com/llms/homes-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/homes-com-llms.txt
@@ -167,10 +169,10 @@ overview: 'Homes.com is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Homes.com''s developer surface includes support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 2
+random_paper: 16
 score:
   band: emerging
-  composite: 24.0
+  composite: 23.7
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -184,8 +186,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 13.2
+    discoverability: 48.2
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -193,7 +195,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 24.0
+  previous_composite: 23.7
   provenance:
     conformance: first-party
   regulatory:
@@ -202,14 +204,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 27.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/homes-com/refs/heads/main/screenshots/homes-com-2026-08-07T170252.png
+screenshot: https://apis.io/screenshots/homes-com/homes-com-2026-08-07T170252.png
 security:
 - kind: domain-security
   name: Homes Com Domain Security

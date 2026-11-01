@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,29 +24,31 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.3
-  scored_at: '2026-10-17'
+  score: 35.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Definite REST API for programmatic access to the Definite data platform: stream JSON ingestion into DuckLake, signed-URL file uploads to Definite Drive, webhook-triggered Python pipelines, push-ba'
   name: Definite API
   slug: definite-api
-artifact_total: 8
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Definite Webhooks
   slug: definite-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/plans/definite-plans-pricing.yml
+  href: https://artifacts.apis.io/definite/plans/definite-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/definite-plans-pricing.yml
@@ -56,12 +57,12 @@ common:
   type: BlogRSS
   url: https://www.definite.app/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/security/definite-trust-center.yml
+  href: https://artifacts.apis.io/definite/security/definite-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/definite-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/security/definite-domain-security.yml
+  href: https://artifacts.apis.io/definite/security/definite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/definite-domain-security.yml
@@ -126,77 +127,85 @@ common:
   type: Compliance
   url: https://www.definite.app/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/mcp/definite-mcp.yml
+  href: https://artifacts.apis.io/definite/mcp/definite-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/definite-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/llms/definite-llms.txt
+  href: https://artifacts.apis.io/definite/llms/definite-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/definite-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/packages/definite-packages.yml
+  href: https://artifacts.apis.io/definite/packages/definite-packages.yml
   title: ''
   type: Packages
   url: packages/definite-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/packages/definite-packages.yml
+  href: https://artifacts.apis.io/definite/packages/definite-packages.yml
   title: ''
   type: SDKs
   url: packages/definite-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/cli/definite-cli.yml
+  href: https://artifacts.apis.io/definite/cli/definite-cli.yml
   title: ''
   type: CLI
   url: cli/definite-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/authentication/definite-authentication.yml
+  href: https://artifacts.apis.io/definite/authentication/definite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/definite-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/scopes/definite-scopes.yml
+  href: https://artifacts.apis.io/definite/scopes/definite-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/definite-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/well-known/definite-well-known.yml
+  href: https://artifacts.apis.io/definite/well-known/definite-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/definite-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/conventions/definite-conventions.yml
+  href: https://artifacts.apis.io/definite/conventions/definite-conventions.yml
   title: ''
   type: Conventions
   url: conventions/definite-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/lifecycle/definite-lifecycle.yml
+  href: https://artifacts.apis.io/definite/lifecycle/definite-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/definite-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/conformance/definite-conformance.yml
+  href: https://artifacts.apis.io/definite/conformance/definite-conformance.yml
   title: ''
   type: Conformance
   url: conformance/definite-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/components/definite-components.yml
+  href: https://artifacts.apis.io/definite/components/definite-components.yml
   title: ''
   type: Components
   url: components/definite-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/asyncapi/definite-webhooks.yml
+  href: https://artifacts.apis.io/definite/asyncapi/definite-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/definite-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/definite/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Definite is an all-in-one, AI-native data platform that consolidates data integration, warehouse storage, a semantic layer, BI dashboards, and AI agents into a single product. It ships 500+ managed data connectors, a DuckDB / DuckLake lakehouse, a Cube-based semantic layer, and Fi, a natural-language AI data analyst that builds complete data apps rather than just dashboards. Definite speaks the Model Context Protocol natively, exposing 40+ tools across six categories so Claude, Cursor, or any agent can query data, manage syncs, update semantic models, and build dashboards directly. The whole stack is self-hostable into a customer's own cloud account (BYOC) or on-prem, including the AI analyst, so data never leaves the environment. Its REST API supports stream ingestion into DuckLake, signed-URL file uploads, webhook-triggered Python pipelines, and embedding of Docs and data apps in external web apps.
+finops:
+- has_sources: true
+  method: derived
+  name: Definite Finops
+  primary_unit: add-on
+  service_category: ''
+  slug: definite-finops
+  template: false
 image: https://www.definite.app/favicon.ico
 layout: provider
 mcp_servers:
@@ -218,7 +227,10 @@ plans:
 - name: Definite Plans Pricing
   plan_count: 4
   slug: definite-plans-pricing
-random_paper: 4
+- name: Definite Price Estimates
+  plan_count: 0
+  slug: definite-price-estimates
+random_paper: 0
 scopes:
 - name: Definite Scopes
   scope_count: 1
@@ -226,23 +238,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 59.2
+  composite: 61.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 49.0
+    artifact_dirs: 20
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 78.6
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 52.8
+    discoverability: 65.0
+    operational_transparency: 28.9
+  previous_composite: 59.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -261,14 +273,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/screenshots/definite-2026-07-25T211622.png
+screenshot: https://apis.io/screenshots/definite/definite-2026-07-25T211622.png
 security:
 - kind: authentication
   name: Definite Authentication
@@ -282,6 +294,10 @@ security:
   name: Definite Trust Center
   slug: definite-trust-center
   summary_line: SOC 2
+skill_count: 1
+skills:
+- name: Operate the Definite data platform via MCP
+  slug: definite-data-platform
 slug: definite
 tags:
 - Company

@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'Narrowly scoped official API that returns public Substack profile data for a given LinkedIn handle. Access requires accepting the Developer API Terms of Use, applying via form, and generating a token '
@@ -44,15 +46,15 @@ apis:
 - description: Per-publication public RSS feeds available at https://{publication}.substack.com/feed for syndication and read-only access to posts. RSS 2.0 with the content, dc, atom and itunes namespaces; no creden
   name: Substack RSS Feeds
   slug: substack-rss-feeds
-artifact_total: 10
+artifact_total: 12
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/security/substack-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/substack/security/substack-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/substack-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/security/substack-domain-security.yml
+  href: https://artifacts.apis.io/substack/security/substack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/substack-domain-security.yml
@@ -61,42 +63,42 @@ common:
   type: Security
   url: https://substack.com/vulnerability-disclosure
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/mcp/substack-mcp.yml
+  href: https://artifacts.apis.io/substack/mcp/substack-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/substack-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/well-known/substack-well-known.yml
+  href: https://artifacts.apis.io/substack/well-known/substack-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/substack-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/authentication/substack-authentication.yml
+  href: https://artifacts.apis.io/substack/authentication/substack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/substack-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/scopes/substack-scopes.yml
+  href: https://artifacts.apis.io/substack/scopes/substack-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/substack-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/conformance/substack-conformance.yml
+  href: https://artifacts.apis.io/substack/conformance/substack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/substack-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/errors/substack-problem-types.yml
+  href: https://artifacts.apis.io/substack/errors/substack-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/substack-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/conventions/substack-conventions.yml
+  href: https://artifacts.apis.io/substack/conventions/substack-conventions.yml
   title: ''
   type: Conventions
   url: conventions/substack-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/lifecycle/substack-lifecycle.yml
+  href: https://artifacts.apis.io/substack/lifecycle/substack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/substack-lifecycle.yml
@@ -105,32 +107,32 @@ common:
   type: StatusPage
   url: https://status.substack.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/changelog/substack-changelog.yml
+  href: https://artifacts.apis.io/substack/changelog/substack-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/substack-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/rate-limits/substack-rate-limits.yml
+  href: https://artifacts.apis.io/substack/rate-limits/substack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/substack-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/plans/substack-plans-pricing.yml
+  href: https://artifacts.apis.io/substack/plans/substack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/substack-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/packages/substack-packages.yml
+  href: https://artifacts.apis.io/substack/packages/substack-packages.yml
   title: ''
   type: Packages
   url: packages/substack-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/components/substack-components.yml
+  href: https://artifacts.apis.io/substack/components/substack-components.yml
   title: ''
   type: Components
   url: components/substack-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/llms/substack-llms.txt
+  href: https://artifacts.apis.io/substack/llms/substack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/substack-llms.txt
@@ -225,6 +227,14 @@ common:
 created: '2026-05-08'
 description: Substack is an independent newsletter and media platform that lets writers, podcasters, video creators, and other culture makers publish directly to readers and monetize through paid subscriptions. Founded in 2017 by Chris Best (CEO), Jairaj Sethi (CTO), and Hamish McKenzie (CWO) and headquartered in San Francisco with a New York City office, Substack provides built-in subscription billing, paid posts, podcasting, chat, video, Notes, and a cross-publication recommendations network. Creators keep 90 percent of subscription revenue (less credit card fees) and own their mailing lists and content. The platform reports more than five million paid subscriptions and tens of millions of weekly active readers. Substack does not offer a general-purpose public REST API for managing publications, posts, or subscribers. It does publish a narrowly scoped official Developer API (released April 2026) that allows token-authenticated lookup of public Substack profiles by LinkedIn handle, gated
   by an application and Terms-of-Use process. Substack also runs an official remote MCP server at https://mcp.substack.com/api/v1/mcp, documented August 2026, which gives an MCP-capable AI assistant read-only access to publication analytics under OAuth 2.1 with the mcp:read scope, gated to Admins of Bestseller publications. Read access to public content is otherwise available via per-publication RSS feeds, and the broader integration ecosystem relies on reverse-engineered, unofficial JSON endpoints used by the Substack web application. Substack publishes no OpenAPI, no AsyncAPI, no webhooks and no first-party SDK in any package registry.
+finops:
+- has_sources: true
+  method: derived
+  name: Substack Finops
+  primary_unit: payment
+  service_category: ''
+  slug: substack-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/substack.png
 layout: provider
 mcp_servers:
@@ -241,9 +251,12 @@ overview: 'Substack is listed with 3 APIs on the [APIs.io](https://apis.io/) net
   Substack''s developer surface includes authentication, changelog, documentation, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
 plans:
 - name: Substack Plans Pricing
-  plan_count: 2
+  plan_count: 9
   slug: substack-plans-pricing
-random_paper: 6
+- name: Substack Price Estimates
+  plan_count: 0
+  slug: substack-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Substack Rate Limits
@@ -255,22 +268,22 @@ scopes:
   summary_line: 8 scopes · authorizationCode/deviceCode/implicit
 score:
   band: developing
-  composite: 39.9
+  composite: 44.6
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 43.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 72.0
+    artifact_dirs: 19
+    catalog_earned: 50.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 3.6
   facets:
-    access_clarity: 65.8
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 65.0
-    operational_transparency: 36.8
+    discoverability: 61.7
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -278,7 +291,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 39.8
+  previous_composite: 41.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -288,14 +301,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/screenshots/substack-2026-06-20T194631.png
+screenshot: https://apis.io/screenshots/substack/substack-2026-06-20T194631.png
 security:
 - kind: authentication
   name: Substack Authentication

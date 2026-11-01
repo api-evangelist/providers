@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://app-api.hilberts.ai/api/v1
@@ -43,17 +45,17 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hilberts-ai/refs/heads/main/plans/hilberts-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/hilberts-ai/plans/hilberts-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hilberts-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hilberts-ai/refs/heads/main/rate-limits/hilberts-ai-rate-limits.yml
+  href: https://artifacts.apis.io/hilberts-ai/rate-limits/hilberts-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hilberts-ai-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hilberts-ai/refs/heads/main/security/hilberts-ai-domain-security.yml
+  href: https://artifacts.apis.io/hilberts-ai/security/hilberts-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hilberts-ai-domain-security.yml
@@ -82,17 +84,17 @@ common:
   type: Compliance
   url: https://hilberts.ai
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hilberts-ai/refs/heads/main/well-known/hilberts-ai-well-known.yml
+  href: https://artifacts.apis.io/hilberts-ai/well-known/hilberts-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hilberts-ai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hilberts-ai/refs/heads/main/llms/hilberts-ai-llms.txt
+  href: https://artifacts.apis.io/hilberts-ai/llms/hilberts-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hilberts-ai-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hilberts-ai/refs/heads/main/packages/hilberts-ai-packages.yml
+  href: https://artifacts.apis.io/hilberts-ai/packages/hilberts-ai-packages.yml
   title: ''
   type: Packages
   url: packages/hilberts-ai-packages.yml
@@ -117,7 +119,7 @@ plans:
 - name: Hilberts Ai Plans Pricing
   plan_count: 0
   slug: hilberts-ai-plans-pricing
-random_paper: 8
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Hilberts Ai Rate Limits
@@ -129,23 +131,23 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: thin
-  composite: 34.9
+  composite: 36.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 28.8
+    contract_quality: 36.8
     developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 34.8
+  previous_composite: 36.9
   provenance:
     conformance: derived
     contracts:
@@ -159,14 +161,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/hilberts-ai/refs/heads/main/screenshots/hilberts-ai-2026-07-25T221242.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hilberts-ai/hilberts-ai-2026-07-25T221242.png
 security:
 - kind: authentication
   name: Hilberts Ai Authentication

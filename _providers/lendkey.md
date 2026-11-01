@@ -26,17 +26,19 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.1
-  scored_at: '2026-10-17'
+  score: 34.5
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
-- baseURL: https://proxy.kong.lkeyprod.com/integration/
+- baseURL: https://api.lendkey.com/esign
   baseurl_source: declared
   description: Endpoints for creating and managing loan application contracts
   name: LendKey Application Contracts API
@@ -51,7 +53,7 @@ apis:
   description: The auth API from LendKey — 1 operation(s) for auth.
   name: LendKey Auth API
   slug: lendkey-auth-api
-- baseURL: https://proxy.kong.lkeyprod.com/integration/
+- baseURL: https://api.lendkey.com/esign
   baseurl_source: declared
   description: OAuth2 authentication endpoints
   name: LendKey Authentication API
@@ -61,7 +63,7 @@ apis:
   description: The Credit Risk API from LendKey — 4 operation(s) for credit risk.
   name: LendKey Credit Risk API
   slug: lendkey-credit-risk-api
-- baseURL: https://proxy.kong.lkeyprod.com/integration/
+- baseURL: https://api.lendkey.com/TreasuryMgmt
   baseurl_source: declared
   description: Disbursement processing and cancellation
   name: LendKey Disbursements API
@@ -71,7 +73,7 @@ apis:
   description: The email API from LendKey — 2 operation(s) for email.
   name: LendKey Email API
   slug: lendkey-email-api
-- baseURL: https://proxy.kong.lkeyprod.com/integration/
+- baseURL: https://api.lendkey.com/lo_partnerintegrationinternalapi
   baseurl_source: declared
   description: Internal API operations for request logging
   name: LendKey Internal API
@@ -81,17 +83,17 @@ apis:
   description: The leads API from LendKey — 1 operation(s) for leads.
   name: LendKey Leads API
   slug: lendkey-leads-api
-- baseURL: https://proxy.kong.lkeyprod.com/integration/
+- baseURL: https://api.lendkey.com/TreasuryMgmt
   baseurl_source: declared
   description: Capital ledger operations
   name: LendKey Ledger Management API
   slug: lendkey-ledger-management-api
-- baseURL: https://proxy.kong.lkeyprod.com/integration/
+- baseURL: https://api.lendkey.com/esign
   baseurl_source: declared
   description: Manage DocuSign template assignments for lenders
   name: LendKey Lender Templates API
   slug: lendkey-lender-templates-api
-- baseURL: https://proxy.kong.lkeyprod.com/integration/
+- baseURL: https://api.lendkey.com/TreasuryMgmt
   baseurl_source: declared
   description: Loan creation and management
   name: LendKey Loans API
@@ -101,25 +103,22 @@ apis:
   description: The onboarding API from LendKey — 1 operation(s) for onboarding.
   name: LendKey Onboarding API
   slug: lendkey-onboarding-api
-- baseURL: https://proxy.kong.lkeyprod.com/integration/
+- baseURL: https://api.lendkey.com/TreasuryMgmt
   baseurl_source: declared
   description: Payment and remittance processing
   name: LendKey Payments API
   slug: lendkey-payments-api
-- baseURL: https://proxy.kong.lkeyprod.com/integration/
+- baseURL: https://api.lendkey.com/esign
   baseurl_source: declared
   description: Endpoints for receiving DocuSign webhook notifications
   name: LendKey Webhooks API
   slug: lendkey-webhooks-api
-artifact_total: 35
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Lendkey Webhooks
   slug: lendkey-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LendKey E-Sign API (via Kong Gateway) Application Contracts API
   slug: open-lendkey-application-contracts-api
@@ -171,12 +170,12 @@ common:
   type: BlogRSS
   url: https://www.lendkey.com/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/capabilities/lendkey-capability-edges.yml
+  href: https://artifacts.apis.io/lendkey/capabilities/lendkey-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lendkey-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/overlays/lendkey-esign-overlay.yaml
+  href: https://artifacts.apis.io/lendkey/overlays/lendkey-esign-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lendkey-esign-overlay.yaml
@@ -225,62 +224,62 @@ common:
   type: PrivacyPolicy
   url: https://www.lendkey.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/authentication/lendkey-authentication.yml
+  href: https://artifacts.apis.io/lendkey/authentication/lendkey-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lendkey-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/scopes/lendkey-scopes.yml
+  href: https://artifacts.apis.io/lendkey/scopes/lendkey-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lendkey-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/security/lendkey-domain-security.yml
+  href: https://artifacts.apis.io/lendkey/security/lendkey-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lendkey-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/conventions/lendkey-conventions.yml
+  href: https://artifacts.apis.io/lendkey/conventions/lendkey-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lendkey-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/errors/lendkey-problem-types.yml
+  href: https://artifacts.apis.io/lendkey/errors/lendkey-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lendkey-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/lifecycle/lendkey-lifecycle.yml
+  href: https://artifacts.apis.io/lendkey/lifecycle/lendkey-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lendkey-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/conformance/lendkey-conformance.yml
+  href: https://artifacts.apis.io/lendkey/conformance/lendkey-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lendkey-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/data-model/lendkey-data-model.yml
+  href: https://artifacts.apis.io/lendkey/data-model/lendkey-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lendkey-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/sandbox/lendkey-sandbox.yml
+  href: https://artifacts.apis.io/lendkey/sandbox/lendkey-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/lendkey-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/mcp/lendkey-mcp.yml
+  href: https://artifacts.apis.io/lendkey/mcp/lendkey-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/lendkey-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lendkey/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/llms/lendkey-llms.txt
+  href: https://artifacts.apis.io/lendkey/llms/lendkey-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lendkey-llms.txt
@@ -299,7 +298,7 @@ overview: 'LendKey publishes 15 API contracts indexed on the [APIs.io](https://a
 
 
   LendKey''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 0
+random_paper: 4
 scopes:
 - name: Lendkey Scopes
   scope_count: 0
@@ -307,7 +306,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.6
+  composite: 43.4
   coverage:
     artifact_dirs: 23
     catalog_earned: 40.0
@@ -315,15 +314,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 55.3
     developer_ergonomics: 54.2
-    discoverability: 78.6
-    operational_transparency: 2.6
-  previous_composite: 44.5
+    discoverability: 71.4
+    operational_transparency: 5.3
+  previous_composite: 43.4
   provenance:
     conformance: derived
     contracts:
@@ -339,13 +338,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/screenshots/lendkey-2026-07-25T224904.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lendkey/lendkey-2026-07-25T224904.png
 security:
 - kind: authentication
   name: Lendkey Authentication
@@ -355,6 +355,14 @@ security:
   name: Lendkey Domain Security
   slug: lendkey-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: LendKey E-Sign contract flow
+  slug: lendkey-esign-contract-flow
+- name: LendKey origination intake — lead, credit, score, board
+  slug: lendkey-origination-intake
+- name: LendKey Treasury loan ledger operations
+  slug: lendkey-treasury-loan-ledger
 slug: lendkey
 tags:
 - Company

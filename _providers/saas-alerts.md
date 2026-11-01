@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,7 +57,7 @@ apis:
   description: Security event report generation
   name: SaaS Alerts Reports API
   slug: saas-alerts-reports-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: postman
   name: SaaS Alerts Events API
@@ -63,9 +65,6 @@ collections:
 - collection_type: postman
   name: SaaS Alerts Events Reports API
   slug: postman-saas-alerts-reports-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SaaS Alerts Events API
   slug: open-saas-alerts-events-api
@@ -77,17 +76,17 @@ collections:
   slug: open-saas-alerts
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/plans/saas-alerts-plans-pricing.yml
+  href: https://artifacts.apis.io/saas-alerts/plans/saas-alerts-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/saas-alerts-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/rate-limits/saas-alerts-rate-limits.yml
+  href: https://artifacts.apis.io/saas-alerts/rate-limits/saas-alerts-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/saas-alerts-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/finops/saas-alerts-finops.yml
+  href: https://artifacts.apis.io/saas-alerts/finops/saas-alerts-finops.yml
   title: ''
   type: FinOps
   url: finops/saas-alerts-finops.yml
@@ -100,7 +99,7 @@ common:
   type: BlogRSS
   url: https://saasalerts.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/capabilities/saas-alerts-capability-edges.yml
+  href: https://artifacts.apis.io/saas-alerts/capabilities/saas-alerts-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/saas-alerts-capability-edges.yml
@@ -113,17 +112,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/saas-alerts/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/agentic-access/saas-alerts-agentic-access.yml
+  href: https://artifacts.apis.io/saas-alerts/agentic-access/saas-alerts-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/saas-alerts-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/security/saas-alerts-domain-security.yml
+  href: https://artifacts.apis.io/saas-alerts/security/saas-alerts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/saas-alerts-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/authentication/saas-alerts-authentication.yml
+  href: https://artifacts.apis.io/saas-alerts/authentication/saas-alerts-authentication.yml
   title: ''
   type: Authentication
   url: authentication/saas-alerts-authentication.yml
@@ -180,7 +179,7 @@ finops:
 - has_sources: false
   method: generated
   name: Saas Alerts Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: saas-alerts-finops
   template: true
@@ -217,7 +216,7 @@ plans:
 - name: Saas Alerts Plans Pricing
   plan_count: 3
   slug: saas-alerts-plans-pricing
-random_paper: 20
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Saas Alerts Rate Limits
@@ -248,7 +247,7 @@ rules:
   slug: saas-alerts-spectral-rules
 score:
   band: developing
-  composite: 39.7
+  composite: 41.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 55.5
@@ -256,15 +255,15 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 52.6
     contract_governance: 13.6
     contract_quality: 53.5
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 41.2
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -278,14 +277,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/screenshots/saas-alerts-2026-08-17T083027.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/saas-alerts/saas-alerts-2026-08-17T083027.png
 security:
 - kind: authentication
   name: Saas Alerts Authentication

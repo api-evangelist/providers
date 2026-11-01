@@ -21,7 +21,7 @@ modified: '2026-10-06'
 name: Mayfield Fund
 nav: Providers
 network: true
-random_paper: 7
+random_paper: 3
 slug: mayfield
 tags:
 - Venture Capital

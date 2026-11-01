@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,22 +75,22 @@ common:
   type: Compliance
   url: https://hdvi.com/newsroom/hdvi-soc2/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hdvi/refs/heads/main/llms/hdvi-llms.txt
+  href: https://artifacts.apis.io/hdvi/llms/hdvi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hdvi-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hdvi/refs/heads/main/security/hdvi-domain-security.yml
+  href: https://artifacts.apis.io/hdvi/security/hdvi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hdvi-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hdvi/refs/heads/main/conformance/hdvi-conformance.yml
+  href: https://artifacts.apis.io/hdvi/conformance/hdvi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hdvi-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hdvi/refs/heads/main/well-known/hdvi-well-known.yml
+  href: https://artifacts.apis.io/hdvi/well-known/hdvi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hdvi-well-known.yml
@@ -104,10 +106,10 @@ overview: 'HDVI (High Definition Vehicle Insurance) is profiled on the [APIs.io]
 
 
   HDVI (High Definition Vehicle Insurance)''s developer surface includes engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 9
+random_paper: 19
 score:
   band: emerging
-  composite: 18.2
+  composite: 17.5
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -121,7 +123,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -130,7 +132,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 18.2
+  previous_composite: 17.5
   provenance:
     conformance: first-party
   regulatory:
@@ -139,14 +141,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hdvi/refs/heads/main/screenshots/hdvi-2026-07-25T220815.png
+screenshot: https://apis.io/screenshots/hdvi/hdvi-2026-07-25T220815.png
 security:
 - kind: domain-security
   name: Hdvi Domain Security

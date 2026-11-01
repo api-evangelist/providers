@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Contains D.C. government public datasets, including crime, GIS, financial data, and so on
@@ -41,12 +43,12 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/district-of-columbia-open-data/refs/heads/main/security/district-of-columbia-open-data-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/district-of-columbia-open-data/security/district-of-columbia-open-data-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/district-of-columbia-open-data-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/district-of-columbia-open-data/refs/heads/main/security/district-of-columbia-open-data-domain-security.yml
+  href: https://artifacts.apis.io/district-of-columbia-open-data/security/district-of-columbia-open-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/district-of-columbia-open-data-domain-security.yml
@@ -67,12 +69,12 @@ name: District of Columbia Open Data
 nav: Providers
 network: true
 overview: District of Columbia Open Data is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 3
+random_paper: 23
 score:
   band: minimal
-  composite: 4.4
+  composite: 7.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -83,24 +85,24 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 9.5
     discoverability: 46.4
-    operational_transparency: 0.0
-  previous_composite: 4.4
+    operational_transparency: 10.5
+  previous_composite: 7.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/district-of-columbia-open-data/refs/heads/main/screenshots/district-of-columbia-open-data-2026-06-20T180053.png
+screenshot: https://apis.io/screenshots/district-of-columbia-open-data/district-of-columbia-open-data-2026-06-20T180053.png
 security:
 - kind: domain-security
   name: District Of Columbia Open Data Domain Security

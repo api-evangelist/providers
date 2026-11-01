@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-17'
+  score: 16.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,11 +60,8 @@ apis:
   description: Fatality Analysis Reporting System datasets and queries
   name: NHTSA Crash API FARS API
   slug: nhtsa-crash-api-fars-api
-artifact_total: 13
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NHTSA Crash Data Cases API
   slug: open-nhtsa-crash-api-cases-api
@@ -77,27 +76,27 @@ collections:
   slug: open-nhtsa-crash-api-nhtsa-crash-data-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/plans/nhtsa-crash-api-plans-pricing.yml
+  href: https://artifacts.apis.io/nhtsa-crash-api/plans/nhtsa-crash-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nhtsa-crash-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/rate-limits/nhtsa-crash-api-rate-limits.yml
+  href: https://artifacts.apis.io/nhtsa-crash-api/rate-limits/nhtsa-crash-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nhtsa-crash-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/finops/nhtsa-crash-api-finops.yml
+  href: https://artifacts.apis.io/nhtsa-crash-api/finops/nhtsa-crash-api-finops.yml
   title: ''
   type: FinOps
   url: finops/nhtsa-crash-api-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/agentic-access/nhtsa-crash-api-agentic-access.yml
+  href: https://artifacts.apis.io/nhtsa-crash-api/agentic-access/nhtsa-crash-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nhtsa-crash-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/security/nhtsa-crash-api-domain-security.yml
+  href: https://artifacts.apis.io/nhtsa-crash-api/security/nhtsa-crash-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nhtsa-crash-api-domain-security.yml
@@ -119,7 +118,7 @@ finops:
 - has_sources: false
   method: generated
   name: Nhtsa Crash Api Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: nhtsa-crash-api-finops
   template: true
@@ -137,7 +136,7 @@ plans:
 - name: Nhtsa Crash Api Plans Pricing
   plan_count: 3
   slug: nhtsa-crash-api-plans-pricing
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Nhtsa Crash Api Rate Limits
@@ -152,7 +151,7 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -160,7 +159,7 @@ score:
     developer_ergonomics: 14.3
     discoverability: 57.1
     operational_transparency: 7.9
-  previous_composite: 19.7
+  previous_composite: 21.2
   provenance:
     agentic_access: derived
     contracts:
@@ -174,14 +173,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/screenshots/nhtsa-crash-api-2026-06-20T190316.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nhtsa-crash-api/nhtsa-crash-api-2026-06-20T190316.png
 security:
 - kind: domain-security
   name: Nhtsa Crash Api Domain Security

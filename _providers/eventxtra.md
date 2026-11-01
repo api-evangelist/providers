@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.2
-  scored_at: '2026-10-17'
+  score: 35.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 58
   slug: eventxtra-agentic-access
   summary_line: 58 operations · 33 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://esaas-api.eventx.io
   baseurl_source: declared
@@ -120,24 +122,24 @@ apis:
   description: The Ticket Class API from EventX — 3 operation(s) for ticket class.
   name: EventX Ticket Class API
   slug: eventxtra-ticket-class-api
-artifact_total: 23
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Eventxtra Webhooks
   slug: eventxtra-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/capabilities/eventxtra-capability-edges.yml
+  href: https://artifacts.apis.io/eventxtra/capabilities/eventxtra-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/eventxtra-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/agentic-access/eventxtra-agentic-access.yml
+  href: https://artifacts.apis.io/eventxtra/agentic-access/eventxtra-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eventxtra-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/authentication/eventxtra-authentication.yml
+  href: https://artifacts.apis.io/eventxtra/authentication/eventxtra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eventxtra-authentication.yml
@@ -186,27 +188,27 @@ common:
   type: Compliance
   url: https://eventx.io/data-protection-and-security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/mcp/eventxtra-mcp.yml
+  href: https://artifacts.apis.io/eventxtra/mcp/eventxtra-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/eventxtra-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/llms/eventxtra-llms.txt
+  href: https://artifacts.apis.io/eventxtra/llms/eventxtra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eventxtra-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/conformance/eventxtra-conformance.yml
+  href: https://artifacts.apis.io/eventxtra/conformance/eventxtra-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eventxtra-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/security/eventxtra-trust-center.yml
+  href: https://artifacts.apis.io/eventxtra/security/eventxtra-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/eventxtra-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/security/eventxtra-domain-security.yml
+  href: https://artifacts.apis.io/eventxtra/security/eventxtra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eventxtra-domain-security.yml
@@ -227,73 +229,81 @@ common:
   type: StatusPage
   url: https://status.eventx.io/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/_original/eventxtra-public-api-openapi.json
+  href: https://artifacts.apis.io/eventxtra/openapi/_original/eventxtra-public-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/eventxtra-public-api-openapi.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/asyncapi/eventxtra-webhooks.yml
+  href: https://artifacts.apis.io/eventxtra/asyncapi/eventxtra-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/eventxtra-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/eventxtra/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/mcp/eventxtra-tool-crosswalk.yml
+  href: https://artifacts.apis.io/eventxtra/mcp/eventxtra-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/eventxtra-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/conventions/eventxtra-conventions.yml
+  href: https://artifacts.apis.io/eventxtra/conventions/eventxtra-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eventxtra-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/errors/eventxtra-problem-types.yml
+  href: https://artifacts.apis.io/eventxtra/errors/eventxtra-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eventxtra-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/lifecycle/eventxtra-lifecycle.yml
+  href: https://artifacts.apis.io/eventxtra/lifecycle/eventxtra-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eventxtra-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/data-model/eventxtra-data-model.yml
+  href: https://artifacts.apis.io/eventxtra/data-model/eventxtra-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eventxtra-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/overlays/eventxtra-public-api-overlay.yaml
+  href: https://artifacts.apis.io/eventxtra/overlays/eventxtra-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/eventxtra-public-api-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/packages/eventxtra-packages.yml
+  href: https://artifacts.apis.io/eventxtra/packages/eventxtra-packages.yml
   title: ''
   type: Packages
   url: packages/eventxtra-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/plans/eventxtra-plans-pricing.yml
+  href: https://artifacts.apis.io/eventxtra/plans/eventxtra-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eventxtra-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/rate-limits/eventxtra-rate-limits.yml
+  href: https://artifacts.apis.io/eventxtra/rate-limits/eventxtra-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eventxtra-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/llms/eventxtra-knowledge-base-llms.txt
+  href: https://artifacts.apis.io/eventxtra/llms/eventxtra-knowledge-base-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eventxtra-knowledge-base-llms.txt
 created: '2026-07-17'
 description: EventX (EventXtra Limited) is an AI-powered, all-in-one event management and marketing platform for in-person, virtual, and hybrid events, headquartered in Hong Kong with offices across APAC. It provides event registration and RSVP, QR-code check-in and badge printing, ticketing and payment with 0% platform fees, AI Lead Finder, event website building, virtual event hosting, sponsor and exhibitor management, lead capture, and WhatsApp/email marketing. EventX serves 5,600+ brands and is ISO 27001 certified and GDPR compliant. It also offers an official hosted MCP server that lets AI assistants query live event data (registrations, sessions, ticket sales, attendance) in natural language, provisioned one-click from the EventX dashboard and compatible with Claude, ChatGPT, Cursor, and OpenCode. EventX publishes a REST Public API documented as an OpenAPI 3.2.0 contract (46 paths, 58 operations) at esaas-api.eventx.io, covering events, attendees, custom fields, ticket classes, orders,
   invoices, media, registration forms and outreach, plus a per-event webhook subscription API delivering five attendee lifecycle actions. Added to the API Evangelist network as a portfolio company of 500 Global and enriched via the pipeline.
+finops:
+- has_sources: true
+  method: derived
+  name: Eventxtra Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: eventxtra-finops
+  template: false
 image: https://eventx.io/images/og/index-b41677e1.png
 layout: provider
 mcp_servers:
@@ -315,35 +325,40 @@ plans:
 - name: Eventxtra Plans Pricing
   plan_count: 4
   slug: eventxtra-plans-pricing
-random_paper: 3
+- name: Eventxtra Price Estimates
+  plan_count: 0
+  slug: eventxtra-price-estimates
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Eventxtra Rate Limits
   slug: eventxtra-rate-limits
 score:
   band: strong
-  composite: 56.1
+  composite: 59.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 57.0
+    artifact_dirs: 24
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 54.3
-    developer_ergonomics: 32.7
-    discoverability: 71.7
-    operational_transparency: 47.4
+    contract_quality: 51.0
+    developer_ergonomics: 49.4
+    discoverability: 65.0
+    operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 56.0
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -364,13 +379,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/screenshots/eventxtra-2026-07-25T213718.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/eventxtra/eventxtra-2026-07-25T213718.png
 security:
 - kind: authentication
   name: Eventxtra Authentication
@@ -384,6 +400,18 @@ security:
   name: Eventxtra Trust Center
   slug: eventxtra-trust-center
   summary_line: ISO 27001, GDPR
+skill_count: 5
+skills:
+- name: Authenticate against EventX and read events
+  slug: eventxtra-authenticate-and-read-events
+- name: Bulk import and maintain EventX attendees
+  slug: eventxtra-bulk-import-attendees
+- name: Look up an EventX attendee at the door
+  slug: eventxtra-onsite-checkin-lookup
+- name: Quote, place and reconcile EventX ticketing orders
+  slug: eventxtra-sell-tickets-and-reconcile-orders
+- name: Subscribe to EventX attendee webhooks
+  slug: eventxtra-subscribe-to-attendee-webhooks
 slug: eventxtra
 tags:
 - Company

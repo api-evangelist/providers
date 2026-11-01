@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Interactive engineering tools for bearing selection, bearing life calculation, tolerance lookup, lubrication, gear force calculations, and precision bearing selection. Accessible through Timken's engi
@@ -42,17 +44,17 @@ apis:
 artifact_total: 10
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/timken/refs/heads/main/plans/timken-plans-pricing.yml
+  href: https://artifacts.apis.io/timken/plans/timken-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/timken-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/timken/refs/heads/main/rate-limits/timken-rate-limits.yml
+  href: https://artifacts.apis.io/timken/rate-limits/timken-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/timken-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/timken/refs/heads/main/finops/timken-finops.yml
+  href: https://artifacts.apis.io/timken/finops/timken-finops.yml
   title: ''
   type: FinOps
   url: finops/timken-finops.yml
@@ -61,7 +63,7 @@ common:
   type: BlogRSS
   url: https://news.timken.com/news-releases?pagetemplate=rss
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/timken/refs/heads/main/security/timken-domain-security.yml
+  href: https://artifacts.apis.io/timken/security/timken-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/timken-domain-security.yml
@@ -111,7 +113,7 @@ finops:
 - has_sources: false
   method: generated
   name: Timken Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: timken-finops
   template: true
@@ -161,7 +163,7 @@ press:
 - date: ''
   title: The Timken Company
   url: https://www.facebook.com/timken/?locale=ro_RO
-random_paper: 10
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Timken Rate Limits
@@ -188,7 +190,7 @@ score:
     catalog_gap: 50.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
@@ -196,21 +198,21 @@ score:
     developer_ergonomics: 9.5
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 19.3
+  previous_composite: 17.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/timken/refs/heads/main/screenshots/timken-2026-06-20T195401.png
+screenshot: https://apis.io/screenshots/timken/timken-2026-06-20T195401.png
 security:
 - kind: domain-security
   name: Timken Domain Security

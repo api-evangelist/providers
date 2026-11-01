@@ -26,15 +26,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
+  score: 23.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,11 +56,23 @@ apis:
   description: The Disputes API from Casap — 4 operation(s) for disputes.
   name: Casap Disputes API
   slug: casap-disputes-api
-artifact_total: 8
+- baseURL: https://api.casaphq.com
+  baseurl_source: declared
+  description: The Accounts API from Casap — 1 operation(s) for accounts.
+  name: Casap Accounts API
+  slug: casap-accounts-api
+- baseURL: https://api.casaphq.com
+  baseurl_source: declared
+  description: The Intakes API from Casap — 1 operation(s) for intakes.
+  name: Casap Intakes API
+  slug: casap-intakes-api
+- baseURL: https://api.casaphq.com
+  baseurl_source: declared
+  description: The Organizations API from Casap — 3 operation(s) for organizations.
+  name: Casap Organizations API
+  slug: casap-organizations-api
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Casap Auth API
   slug: open-casap-auth-api
@@ -67,72 +81,72 @@ collections:
   slug: open-casap-disputes-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/capabilities/casap-capability-edges.yml
+  href: https://artifacts.apis.io/casap/capabilities/casap-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/casap-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/well-known/casap-well-known.yml
+  href: https://artifacts.apis.io/casap/well-known/casap-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/casap-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/llms/casap-llms.txt
+  href: https://artifacts.apis.io/casap/llms/casap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/casap-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/casap/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/lifecycle/casap-lifecycle.yml
+  href: https://artifacts.apis.io/casap/lifecycle/casap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/casap-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/overlays/casap-openapi-overlay.yaml
+  href: https://artifacts.apis.io/casap/overlays/casap-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/casap-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/conformance/casap-conformance.yml
+  href: https://artifacts.apis.io/casap/conformance/casap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/casap-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/mcp/casap-mcp.yml
+  href: https://artifacts.apis.io/casap/mcp/casap-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/casap-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/data-model/casap-data-model.yml
+  href: https://artifacts.apis.io/casap/data-model/casap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/casap-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/conventions/casap-conventions.yml
+  href: https://artifacts.apis.io/casap/conventions/casap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/casap-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/errors/casap-problem-types.yml
+  href: https://artifacts.apis.io/casap/errors/casap-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/casap-problem-types.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/security/casap-domain-security.yml
+  href: https://artifacts.apis.io/casap/security/casap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/casap-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/agentic-access/casap-agentic-access.yml
+  href: https://artifacts.apis.io/casap/agentic-access/casap-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/casap-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/authentication/casap-authentication.yml
+  href: https://artifacts.apis.io/casap/authentication/casap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/casap-authentication.yml
@@ -192,14 +206,14 @@ modified: '2026-07-18'
 name: Casap
 nav: Providers
 network: true
-overview: 'Casap publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Auth API and Disputes API. Tagged areas include Company, Fintech, Disputes, Chargebacks, and Fraud Prevention.
+overview: 'Casap publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Disputes API, Accounts API, and 2 more. Tagged areas include Company, Fintech, Disputes, Chargebacks, and Fraud Prevention.
 
 
   Casap''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 20 more developer resources.'
-random_paper: 14
+random_paper: 16
 score:
   band: developing
-  composite: 39.5
+  composite: 39.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -207,23 +221,23 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 43.8
+    contract_quality: 39.0
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 39.5
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 37.5
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 8
     mcp: derived
     skills: derived
   regulatory:
@@ -232,13 +246,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/screenshots/casap-2026-07-25T204712.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/casap/casap-2026-07-25T204712.png
 security:
 - kind: authentication
   name: Casap Authentication
@@ -248,6 +263,12 @@ security:
   name: Casap Domain Security
   slug: casap-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Create a payment dispute
+  slug: casap-create-dispute
+- name: Track and manage a dispute
+  slug: casap-track-and-manage-dispute
 slug: casap
 tags:
 - Company

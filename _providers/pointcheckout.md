@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.2
-  scored_at: '2026-10-17'
+  score: 35.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.paymennt.com/mer/v2.0/
@@ -58,15 +60,12 @@ apis:
   description: API endpoints for webhook management.
   name: PointCheckout Webhooks API
   slug: pointcheckout-webhooks-api
-artifact_total: 13
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Pointcheckout Webhooks
   slug: pointcheckout-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Merchant Branches API
   slug: open-pointcheckout-branches-api
@@ -81,97 +80,97 @@ collections:
   slug: open-pointcheckout-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/capabilities/pointcheckout-capability-edges.yml
+  href: https://artifacts.apis.io/pointcheckout/capabilities/pointcheckout-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pointcheckout-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/overlays/pointcheckout-merchant-api-overlay.yaml
+  href: https://artifacts.apis.io/pointcheckout/overlays/pointcheckout-merchant-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pointcheckout-merchant-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/security/pointcheckout-domain-security.yml
+  href: https://artifacts.apis.io/pointcheckout/security/pointcheckout-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pointcheckout-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/security/pointcheckout-trust-center.yml
+  href: https://artifacts.apis.io/pointcheckout/security/pointcheckout-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pointcheckout-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/security/pointcheckout-trust-center.yml
+  href: https://artifacts.apis.io/pointcheckout/security/pointcheckout-trust-center.yml
   title: ''
   type: Compliance
   url: security/pointcheckout-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/authentication/pointcheckout-authentication.yml
+  href: https://artifacts.apis.io/pointcheckout/authentication/pointcheckout-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pointcheckout-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/conventions/pointcheckout-conventions.yml
+  href: https://artifacts.apis.io/pointcheckout/conventions/pointcheckout-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pointcheckout-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/errors/pointcheckout-problem-types.yml
+  href: https://artifacts.apis.io/pointcheckout/errors/pointcheckout-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pointcheckout-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/lifecycle/pointcheckout-lifecycle.yml
+  href: https://artifacts.apis.io/pointcheckout/lifecycle/pointcheckout-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pointcheckout-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/conformance/pointcheckout-conformance.yml
+  href: https://artifacts.apis.io/pointcheckout/conformance/pointcheckout-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pointcheckout-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/data-model/pointcheckout-data-model.yml
+  href: https://artifacts.apis.io/pointcheckout/data-model/pointcheckout-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pointcheckout-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/sandbox/pointcheckout-sandbox.yml
+  href: https://artifacts.apis.io/pointcheckout/sandbox/pointcheckout-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/pointcheckout-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/asyncapi/pointcheckout-webhooks.yml
+  href: https://artifacts.apis.io/pointcheckout/asyncapi/pointcheckout-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/pointcheckout-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/mcp/pointcheckout-mcp.yml
+  href: https://artifacts.apis.io/pointcheckout/mcp/pointcheckout-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/pointcheckout-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/llms/pointcheckout-llms.txt
+  href: https://artifacts.apis.io/pointcheckout/llms/pointcheckout-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pointcheckout-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/packages/pointcheckout-packages.yml
+  href: https://artifacts.apis.io/pointcheckout/packages/pointcheckout-packages.yml
   title: ''
   type: Packages
   url: packages/pointcheckout-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/packages/pointcheckout-packages.yml
+  href: https://artifacts.apis.io/pointcheckout/packages/pointcheckout-packages.yml
   title: ''
   type: SDKs
   url: packages/pointcheckout-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/well-known/pointcheckout-well-known.yml
+  href: https://artifacts.apis.io/pointcheckout/well-known/pointcheckout-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pointcheckout-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pointcheckout/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -234,10 +233,10 @@ overview: 'PointCheckout publishes 4 API contracts indexed on the [APIs.io](http
 
 
   PointCheckout''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, quickstart, support, and 23 more developer resources.'
-random_paper: 0
+random_paper: 16
 score:
   band: developing
-  composite: 48.3
+  composite: 48.6
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -245,20 +244,20 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 55.8
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 10.5
+    discoverability: 66.1
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - mena
-  previous_composite: 48.2
+  previous_composite: 48.6
   provenance:
     conformance: first-party
     contracts:
@@ -274,13 +273,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/screenshots/pointcheckout-2026-08-17T081313.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pointcheckout/pointcheckout-2026-08-17T081313.png
 security:
 - kind: authentication
   name: Pointcheckout Authentication
@@ -294,6 +294,12 @@ security:
   name: Pointcheckout Trust Center
   slug: pointcheckout-trust-center
   summary_line: PCI DSS
+skill_count: 2
+skills:
+- name: Accept a payment with PointCheckout
+  slug: pointcheckout-accept-payment
+- name: Manage recurring subscriptions with PointCheckout
+  slug: pointcheckout-manage-subscriptions
 slug: pointcheckout
 tags:
 - Company

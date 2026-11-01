@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-17'
+  score: 32.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -210,7 +212,7 @@ apis:
   description: Configure working hours for providers
   name: NexHealth Working Hours API
   slug: nexhealth-working-hours-api
-artifact_total: 106
+artifact_total: 109
 asyncapis:
 - description: ''
   name: Nexhealth Webhooks
@@ -315,9 +317,6 @@ collections:
 - collection_type: postman
   name: NexHealth Adjustment Types Working Hours API
   slug: postman-nexhealth-working-hours-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NexHealth Adjustment Types API
   slug: open-nexhealth-adjustment-types-api
@@ -427,12 +426,12 @@ common:
   type: BlogRSS
   url: https://www.nexhealth.com/resources/rss.xml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/plans/nexhealth-plans-pricing.yml
+  href: https://artifacts.apis.io/nexhealth/plans/nexhealth-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nexhealth-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/capabilities/nexhealth-capability-edges.yml
+  href: https://artifacts.apis.io/nexhealth/capabilities/nexhealth-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nexhealth-capability-edges.yml
@@ -441,32 +440,32 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/nexhealth/overview
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/openapi/_original/nexhealth-openapi-original.json
+  href: https://artifacts.apis.io/nexhealth/openapi/_original/nexhealth-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/nexhealth-openapi-original.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/authentication/nexhealth-authentication.yml
+  href: https://artifacts.apis.io/nexhealth/authentication/nexhealth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nexhealth-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/agentic-access/nexhealth-agentic-access.yml
+  href: https://artifacts.apis.io/nexhealth/agentic-access/nexhealth-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nexhealth-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/conventions/nexhealth-conventions.yml
+  href: https://artifacts.apis.io/nexhealth/conventions/nexhealth-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nexhealth-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/errors/nexhealth-problem-types.yml
+  href: https://artifacts.apis.io/nexhealth/errors/nexhealth-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nexhealth-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/lifecycle/nexhealth-lifecycle.yml
+  href: https://artifacts.apis.io/nexhealth/lifecycle/nexhealth-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nexhealth-lifecycle.yml
@@ -479,67 +478,67 @@ common:
   type: Deprecation
   url: https://docs.nexhealth.com/docs/api-v2-to-v20240412-migration-guide
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/changelog/nexhealth-changelog.yml
+  href: https://artifacts.apis.io/nexhealth/changelog/nexhealth-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nexhealth-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/sandbox/nexhealth-sandbox.yml
+  href: https://artifacts.apis.io/nexhealth/sandbox/nexhealth-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nexhealth-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/data-model/nexhealth-data-model.yml
+  href: https://artifacts.apis.io/nexhealth/data-model/nexhealth-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nexhealth-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/conformance/nexhealth-conformance.yml
+  href: https://artifacts.apis.io/nexhealth/conformance/nexhealth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nexhealth-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/security/nexhealth-trust-center.yml
+  href: https://artifacts.apis.io/nexhealth/security/nexhealth-trust-center.yml
   title: ''
   type: Compliance
   url: security/nexhealth-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/security/nexhealth-trust-center.yml
+  href: https://artifacts.apis.io/nexhealth/security/nexhealth-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nexhealth-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/security/nexhealth-domain-security.yml
+  href: https://artifacts.apis.io/nexhealth/security/nexhealth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nexhealth-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/mcp/nexhealth-mcp.yml
+  href: https://artifacts.apis.io/nexhealth/mcp/nexhealth-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nexhealth-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/llms/nexhealth-llms.txt
+  href: https://artifacts.apis.io/nexhealth/llms/nexhealth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nexhealth-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/overlays/nexhealth-openapi-overlay.yaml
+  href: https://artifacts.apis.io/nexhealth/overlays/nexhealth-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nexhealth-openapi-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/packages/nexhealth-packages.yml
+  href: https://artifacts.apis.io/nexhealth/packages/nexhealth-packages.yml
   title: ''
   type: Packages
   url: packages/nexhealth-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/asyncapi/nexhealth-webhooks.yml
+  href: https://artifacts.apis.io/nexhealth/asyncapi/nexhealth-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/nexhealth-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nexhealth/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -597,6 +596,14 @@ common:
   url: https://www.nexhealth.com
 created: '2026-07-17'
 description: NexHealth is a universal, real-time API for healthcare that lets developers read from and write to dozens of electronic health record (EHR) and practice management systems through a single standardized interface. The NexHealth Synchronizer API covers patients, providers, locations, scheduling and available slots, appointments, working hours, clinical notes, treatment plans, documents, insurance (plans, coverages, claims, balances), and practice financials (charges, payments, adjustments, fee schedules), with signed webhooks for real-time events. It is used across dental and medical practices and by health-tech companies building scheduling, billing, and patient-engagement products.
+finops:
+- has_sources: true
+  method: derived
+  name: Nexhealth Finops
+  primary_unit: ''
+  service_category: ''
+  slug: nexhealth-finops
+  template: true
 image: https://files.readme.io/85735db-Full_Logo_White.svg
 layout: provider
 modified: '2026-10-06'
@@ -614,26 +621,26 @@ plans:
 - name: Nexhealth Plans Pricing
   plan_count: 1
   slug: nexhealth-plans-pricing
-random_paper: 15
+random_paper: 1
 score:
-  band: developing
-  composite: 51.9
+  band: strong
+  composite: 60.8
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 68.4
+    access_clarity: 81.6
     contract_governance: 4.5
-    contract_quality: 61.8
-    developer_ergonomics: 44.6
-    discoverability: 73.2
-    operational_transparency: 38.2
-  previous_composite: 51.8
+    contract_quality: 58.5
+    developer_ergonomics: 70.8
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -654,13 +661,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/screenshots/nexhealth-2026-08-07T185152.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nexhealth/nexhealth-2026-08-07T185152.png
 security:
 - kind: authentication
   name: Nexhealth Authentication
@@ -674,6 +682,14 @@ security:
   name: Nexhealth Trust Center
   slug: nexhealth-trust-center
   summary_line: SOC 2, HIPAA
+skill_count: 3
+skills:
+- name: Book a patient appointment
+  slug: nexhealth-book-an-appointment
+- name: Register webhooks and subscribe to practice events
+  slug: nexhealth-setup-webhooks
+- name: Sync patients and appointments from a practice
+  slug: nexhealth-sync-patient-data
 slug: nexhealth
 tags:
 - Company

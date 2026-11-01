@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: CRUD operations on records within an object
   name: Stacker Records API
   slug: stacker-records-api
-artifact_total: 24
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Stacker Accounts API
   slug: open-stacker-accounts-api
@@ -87,32 +86,32 @@ collections:
   slug: open-stacker
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/plans/stacker-plans-pricing.yml
+  href: https://artifacts.apis.io/stacker/plans/stacker-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stacker-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/rate-limits/stacker-rate-limits.yml
+  href: https://artifacts.apis.io/stacker/rate-limits/stacker-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stacker-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/finops/stacker-finops.yml
+  href: https://artifacts.apis.io/stacker/finops/stacker-finops.yml
   title: ''
   type: FinOps
   url: finops/stacker-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/agentic-access/stacker-agentic-access.yml
+  href: https://artifacts.apis.io/stacker/agentic-access/stacker-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stacker-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/security/stacker-domain-security.yml
+  href: https://artifacts.apis.io/stacker/security/stacker-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stacker-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/authentication/stacker-authentication.yml
+  href: https://artifacts.apis.io/stacker/authentication/stacker-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stacker-authentication.yml
@@ -165,7 +164,7 @@ finops:
 - has_sources: false
   method: generated
   name: Stacker Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: stacker-finops
   template: true
@@ -202,7 +201,7 @@ plans:
 - name: Stacker Plans Pricing
   plan_count: 3
   slug: stacker-plans-pricing
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Stacker Rate Limits
@@ -232,7 +231,7 @@ rules:
   slug: stacker-rules
 score:
   band: thin
-  composite: 37.0
+  composite: 36.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 54.3
@@ -240,15 +239,15 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 31.6
     contract_governance: 9.8
     contract_quality: 54.3
     developer_ergonomics: 35.7
     discoverability: 73.2
     operational_transparency: 7.9
-  previous_composite: 38.5
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
@@ -262,13 +261,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/screenshots/stacker-2026-06-20T194549.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/stacker/stacker-2026-06-20T194549.png
 security:
 - kind: authentication
   name: Stacker Authentication

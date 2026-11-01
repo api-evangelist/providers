@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.reactor.inc
@@ -43,7 +45,7 @@ apis:
   description: 'Real-time generative video platform. A REST token endpoint mints session-scoped JWTs; a WebRTC data channel carries the command/event interface that controls model generation and streams video frames '
   name: Reactor Realtime Video API
   slug: reactor-realtime-video-api
-artifact_total: 4
+artifact_total: 9
 asyncapis:
 - description: 'Real-time video generation control channel for Reactor''s Helios model, exchanged over a WebRTC data channel after a session reaches "ready". Clients send commands; the model emits state and lifecycle '
   name: Reactor Helios Realtime API
@@ -102,77 +104,77 @@ common:
   type: ChangeLog
   url: https://docs.reactor.inc/changelog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/llms/reactor-llms.txt
+  href: https://artifacts.apis.io/reactor/llms/reactor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reactor-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/packages/reactor-packages.yml
+  href: https://artifacts.apis.io/reactor/packages/reactor-packages.yml
   title: ''
   type: Packages
   url: packages/reactor-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/packages/reactor-packages.yml
+  href: https://artifacts.apis.io/reactor/packages/reactor-packages.yml
   title: ''
   type: SDKs
   url: packages/reactor-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/cli/reactor-cli.yml
+  href: https://artifacts.apis.io/reactor/cli/reactor-cli.yml
   title: ''
   type: CLI
   url: cli/reactor-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/components/reactor-components.yml
+  href: https://artifacts.apis.io/reactor/components/reactor-components.yml
   title: ''
   type: Components
   url: components/reactor-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/mcp/reactor-mcp.yml
+  href: https://artifacts.apis.io/reactor/mcp/reactor-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/reactor-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/reactor/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/authentication/reactor-authentication.yml
+  href: https://artifacts.apis.io/reactor/authentication/reactor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reactor-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/conventions/reactor-conventions.yml
+  href: https://artifacts.apis.io/reactor/conventions/reactor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reactor-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/errors/reactor-problem-types.yml
+  href: https://artifacts.apis.io/reactor/errors/reactor-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/reactor-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/lifecycle/reactor-lifecycle.yml
+  href: https://artifacts.apis.io/reactor/lifecycle/reactor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reactor-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/conformance/reactor-conformance.yml
+  href: https://artifacts.apis.io/reactor/conformance/reactor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reactor-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/sandbox/reactor-sandbox.yml
+  href: https://artifacts.apis.io/reactor/sandbox/reactor-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/reactor-sandbox.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/asyncapi/reactor-helios-asyncapi.yml
+  href: https://artifacts.apis.io/reactor/asyncapi/reactor-helios-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/reactor-helios-asyncapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/security/reactor-domain-security.yml
+  href: https://artifacts.apis.io/reactor/security/reactor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reactor-domain-security.yml
@@ -191,26 +193,26 @@ overview: 'Reactor is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Reactor''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 21 more developer resources.'
-random_paper: 4
+random_paper: 8
 score:
   band: developing
-  composite: 46.0
+  composite: 46.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 39.6
-    developer_ergonomics: 81.0
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 46.3
+    developer_ergonomics: 85.7
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 46.5
   provenance:
     conformance: derived
     mcp: derived
@@ -221,14 +223,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/screenshots/reactor-2026-08-17T081450.png
+screenshot: https://apis.io/screenshots/reactor/reactor-2026-08-17T081450.png
 security:
 - kind: authentication
   name: Reactor Authentication
@@ -238,6 +240,18 @@ security:
   name: Reactor Domain Security
   slug: reactor-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: helios-prompts
+  slug: reactor-helios-prompts
+- name: lingbot-world-2-prompts
+  slug: reactor-lingbot-world-2-prompts
+- name: lingbot-world
+  slug: reactor-lingbot-world
+- name: reactor-sdk
+  slug: reactor-reactor-sdk
+- name: sana-streaming-prompts
+  slug: reactor-sana-streaming-prompts
 slug: reactor
 tags:
 - Company

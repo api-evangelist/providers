@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.4
-  scored_at: '2026-10-17'
+  score: 17.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Auris provides payroll and HR APIs documented at the resources page.
@@ -32,37 +34,37 @@ apis:
 artifact_total: 4
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/auris/refs/heads/main/llms/auris-llms.txt
+  href: https://artifacts.apis.io/auris/llms/auris-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/auris-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/auris/refs/heads/main/well-known/auris-security.txt
+  href: https://artifacts.apis.io/auris/well-known/auris-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/auris-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/auris/refs/heads/main/well-known/auris-well-known.yml
+  href: https://artifacts.apis.io/auris/well-known/auris-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/auris-well-known.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/auris/refs/heads/main/plans/auris-plans-pricing.yml
+  href: https://artifacts.apis.io/auris/plans/auris-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/auris-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/auris/refs/heads/main/security/auris-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/auris/security/auris-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/auris-vulnerability-disclosure.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/auris/refs/heads/main/hosts/auris-hosts.yml
+  href: https://artifacts.apis.io/auris/hosts/auris-hosts.yml
   title: ''
   type: Hosts
   url: hosts/auris-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/auris/refs/heads/main/vendors/auris-vendors.yml
+  href: https://artifacts.apis.io/auris/vendors/auris-vendors.yml
   title: ''
   type: Vendors
   url: vendors/auris-vendors.yml
@@ -79,12 +81,12 @@ common:
   type: Leadership
   url: https://www.auris.io/about-us/leadership/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/auris/refs/heads/main/security/auris-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/auris/security/auris-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/auris-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/auris/refs/heads/main/security/auris-domain-security.yml
+  href: https://artifacts.apis.io/auris/security/auris-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/auris-domain-security.yml
@@ -147,7 +149,7 @@ plans:
 random_paper: 20
 score:
   band: thin
-  composite: 30.1
+  composite: 29.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 44.0
@@ -161,9 +163,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 67.9
+    discoverability: 60.7
     operational_transparency: 10.5
-  previous_composite: 30.1
+  previous_composite: 29.4
   provenance:
     mcp: unknown
   regulatory:
@@ -172,14 +174,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/auris/refs/heads/main/screenshots/auris-2026-10-11T100857.png
+screenshot: https://apis.io/screenshots/auris/auris-2026-10-11T100857.png
 security:
 - kind: domain-security
   name: Auris Domain Security

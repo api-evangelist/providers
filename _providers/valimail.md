@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.7
-  scored_at: '2026-10-17'
+  score: 30.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 57
   slug: valimail-agentic-access
   summary_line: 57 operations · 29 acting · 1 human-in-the-loop
-api_count: 4
+api_count: 3
 apis:
 - description: Retrieve email authentication metrics, sender reports, and unidentified sender reports for compliance dashboards and security insights. Documented for customers in the Valimail help center; credential
   name: Valimail Reporting Data API
@@ -134,15 +136,12 @@ apis:
   description: The Teams API from Valimail — 2 operation(s) for teams.
   name: Valimail Teams API
   slug: valimail-teams-api
-artifact_total: 42
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Valimail Webhooks
   slug: valimail-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Account Management Accounts API
   slug: open-valimail-accounts-api
@@ -189,23 +188,27 @@ collections:
   name: Account Management Accounts Webhooks API
   slug: open-valimail-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/valimail/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/capabilities/valimail-capability-edges.yml
+  href: https://artifacts.apis.io/valimail/capabilities/valimail-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/valimail-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/overlays/valimail-account-overlay.yaml
+  href: https://artifacts.apis.io/valimail/overlays/valimail-account-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/valimail-account-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/overlays/valimail-config-overlay.yaml
+  href: https://artifacts.apis.io/valimail/overlays/valimail-config-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/valimail-config-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/overlays/valimail-partner-overlay.yaml
+  href: https://artifacts.apis.io/valimail/overlays/valimail-partner-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/valimail-partner-overlay.yaml
@@ -270,17 +273,17 @@ common:
   type: StatusPage
   url: https://status.valimail.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/changelog/valimail-changelog.yml
+  href: https://artifacts.apis.io/valimail/changelog/valimail-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/valimail-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/lifecycle/valimail-lifecycle.yml
+  href: https://artifacts.apis.io/valimail/lifecycle/valimail-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/valimail-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/authentication/valimail-authentication.yml
+  href: https://artifacts.apis.io/valimail/authentication/valimail-authentication.yml
   title: ''
   type: Authentication
   url: authentication/valimail-authentication.yml
@@ -289,12 +292,12 @@ common:
   type: Security
   url: https://security.valimail.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/security/valimail-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/valimail/security/valimail-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/valimail-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/security/valimail-trust-center.yml
+  href: https://artifacts.apis.io/valimail/security/valimail-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/valimail-trust-center.yml
@@ -303,72 +306,72 @@ common:
   type: Compliance
   url: https://security.valimail.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/security/valimail-domain-security.yml
+  href: https://artifacts.apis.io/valimail/security/valimail-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/valimail-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/conformance/valimail-conformance.yml
+  href: https://artifacts.apis.io/valimail/conformance/valimail-conformance.yml
   title: ''
   type: Conformance
   url: conformance/valimail-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/errors/valimail-problem-types.yml
+  href: https://artifacts.apis.io/valimail/errors/valimail-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/valimail-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/conventions/valimail-conventions.yml
+  href: https://artifacts.apis.io/valimail/conventions/valimail-conventions.yml
   title: ''
   type: Conventions
   url: conventions/valimail-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/sandbox/valimail-sandbox.yml
+  href: https://artifacts.apis.io/valimail/sandbox/valimail-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/valimail-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/packages/valimail-packages.yml
+  href: https://artifacts.apis.io/valimail/packages/valimail-packages.yml
   title: ''
   type: Packages
   url: packages/valimail-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/mcp/valimail-mcp.yml
+  href: https://artifacts.apis.io/valimail/mcp/valimail-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/valimail-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/llms/valimail-llms.txt
+  href: https://artifacts.apis.io/valimail/llms/valimail-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/valimail-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/plans/valimail-plans-pricing.yml
+  href: https://artifacts.apis.io/valimail/plans/valimail-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/valimail-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/rate-limits/valimail-rate-limits.yml
+  href: https://artifacts.apis.io/valimail/rate-limits/valimail-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/valimail-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/asyncapi/valimail-webhooks.yml
+  href: https://artifacts.apis.io/valimail/asyncapi/valimail-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/valimail-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/data-model/valimail-data-model.yml
+  href: https://artifacts.apis.io/valimail/data-model/valimail-data-model.yml
   title: ''
   type: DataModel
   url: data-model/valimail-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/valimail/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/agentic-access/valimail-agentic-access.yml
+  href: https://artifacts.apis.io/valimail/agentic-access/valimail-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/valimail-agentic-access.yml
@@ -378,6 +381,14 @@ common:
   url: https://www.valimail.com/api-terms-of-use/
 created: '2026-07-17'
 description: Valimail is an email authentication platform that automates DMARC enforcement to stop phishing, spoofing, and brand impersonation. Its Monitor, Enforce, Amplify, and Align products give organizations visibility into every service sending on their domains and manage SPF, DKIM, DMARC, BIMI, MTA-STS, and TLS-RPT at scale. Valimail publishes REST APIs — a DMARC Configuration API, a partner Account Management API, and a Reporting Data API — secured with bearer tokens, plus SCIM 2.0 user provisioning and Ed25519-signed webhooks. The platform is FedRAMP LI-SaaS authorized and SOC 2 Type II certified.
+finops:
+- has_sources: true
+  method: derived
+  name: Valimail Finops
+  primary_unit: ''
+  service_category: ''
+  slug: valimail-finops
+  template: true
 image: https://api.valimail.com/images/sites/valimail/favicon_64.png
 layout: provider
 modified: '2026-08-14'
@@ -390,35 +401,38 @@ overview: 'Valimail publishes 18 API contracts indexed on the [APIs.io](https://
   The Valimail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Valimail''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
+  Valimail''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 35 more developer resources.'
 plans:
 - name: Valimail Plans Pricing
   plan_count: 5
   slug: valimail-plans-pricing
-random_paper: 11
+- name: Valimail Price Estimates
+  plan_count: 0
+  slug: valimail-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Valimail Rate Limits
   slug: valimail-rate-limits
 score:
   band: strong
-  composite: 64.2
+  composite: 63.3
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 60.1
-    developer_ergonomics: 66.1
-    discoverability: 78.6
-    operational_transparency: 52.6
-  previous_composite: 64.2
+    contract_quality: 54.1
+    developer_ergonomics: 67.3
+    discoverability: 71.4
+    operational_transparency: 55.3
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -439,13 +453,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/screenshots/valimail-2026-08-17T082710.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/valimail/valimail-2026-08-17T082710.png
 security:
 - kind: authentication
   name: Valimail Authentication
@@ -463,6 +478,14 @@ security:
   name: Valimail Trust Center
   slug: valimail-trust-center
   summary_line: SOC 2 Type II, SOC 3, FedRAMP LI-SaaS
+skill_count: 3
+skills:
+- name: Roll out hosted MTA-STS and TLS-RPT for a domain
+  slug: valimail-mta-sts-tls-rpt-rollout
+- name: Onboard a domain and manage its DMARC policy
+  slug: valimail-onboard-domain-to-dmarc-enforcement
+- name: Provision a customer account as a Valimail partner
+  slug: valimail-partner-account-provisioning
 slug: valimail
 tags:
 - Email Authentication

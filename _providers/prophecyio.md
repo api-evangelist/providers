@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 23.8
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - baseURL: https://app.prophecy.io/api
@@ -62,11 +64,8 @@ apis:
   description: The Secrets API from Prophecy.io — 2 operation(s) for secrets.
   name: Prophecy.io Secrets API
   slug: prophecyio-secrets-api
-artifact_total: 15
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Prophecy Connections API
   slug: open-prophecyio-connections-api
@@ -84,22 +83,22 @@ collections:
   slug: open-prophecyio-secrets-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/plans/prophecyio-plans-pricing.yml
+  href: https://artifacts.apis.io/prophecyio/plans/prophecyio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/prophecyio-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/capabilities/prophecyio-capability-edges.yml
+  href: https://artifacts.apis.io/prophecyio/capabilities/prophecyio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/prophecyio-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/security/prophecyio-trust-center.yml
+  href: https://artifacts.apis.io/prophecyio/security/prophecyio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/prophecyio-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/security/prophecyio-domain-security.yml
+  href: https://artifacts.apis.io/prophecyio/security/prophecyio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prophecyio-domain-security.yml
@@ -148,42 +147,42 @@ common:
   type: Support
   url: https://docs.prophecy.ai/administration/getting-help/get-in-touch
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/authentication/prophecyio-authentication.yml
+  href: https://artifacts.apis.io/prophecyio/authentication/prophecyio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/prophecyio-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/openapi/_original/prophecyio-connections-openapi.json
+  href: https://artifacts.apis.io/prophecyio/openapi/_original/prophecyio-connections-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/prophecyio-connections-openapi.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/llms/prophecyio-llms.txt
+  href: https://artifacts.apis.io/prophecyio/llms/prophecyio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/prophecyio-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/packages/prophecyio-packages.yml
+  href: https://artifacts.apis.io/prophecyio/packages/prophecyio-packages.yml
   title: ''
   type: Packages
   url: packages/prophecyio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/packages/prophecyio-packages.yml
+  href: https://artifacts.apis.io/prophecyio/packages/prophecyio-packages.yml
   title: ''
   type: SDKs
   url: packages/prophecyio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/cli/prophecyio-cli.yml
+  href: https://artifacts.apis.io/prophecyio/cli/prophecyio-cli.yml
   title: ''
   type: CLI
   url: cli/prophecyio-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/mcp/prophecyio-mcp.yml
+  href: https://artifacts.apis.io/prophecyio/mcp/prophecyio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/prophecyio-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/lifecycle/prophecyio-lifecycle.yml
+  href: https://artifacts.apis.io/prophecyio/lifecycle/prophecyio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/prophecyio-lifecycle.yml
@@ -192,17 +191,17 @@ common:
   type: Deprecation
   url: https://docs.prophecy.ai/releases/version-support
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/changelog/prophecyio-changelog.yml
+  href: https://artifacts.apis.io/prophecyio/changelog/prophecyio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/prophecyio-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/errors/prophecyio-problem-types.yml
+  href: https://artifacts.apis.io/prophecyio/errors/prophecyio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/prophecyio-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/conformance/prophecyio-conformance.yml
+  href: https://artifacts.apis.io/prophecyio/conformance/prophecyio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/prophecyio-conformance.yml
@@ -211,27 +210,35 @@ common:
   type: Compliance
   url: https://trust.prophecy.ai/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/conventions/prophecyio-conventions.yml
+  href: https://artifacts.apis.io/prophecyio/conventions/prophecyio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/prophecyio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/data-model/prophecyio-data-model.yml
+  href: https://artifacts.apis.io/prophecyio/data-model/prophecyio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/prophecyio-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/overlays/prophecyio-connections-overlay.yaml
+  href: https://artifacts.apis.io/prophecyio/overlays/prophecyio-connections-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/prophecyio-connections-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/prophecyio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Prophecy is an AI-native, low-code data engineering and analytics platform for building, running, and managing data pipelines across SQL and Apache Spark environments on Databricks, Snowflake, and BigQuery. Data teams compose pipelines visually with gems (or natural language via the AI Copilot), and Prophecy generates clean Spark/SQL code committed to Git. The platform exposes a REST API (the Prophecy Orchestration/Deployment API) for programmatically managing fabrics, connections, secrets, deploying projects, and triggering pipeline runs and data tests, authenticated with per-user Personal Access Tokens. A companion CLI, the Prophecy Build Tool (PBT), integrates Prophecy projects into external CI/CD such as GitHub Actions and Jenkins.
+finops:
+- has_sources: true
+  method: derived
+  name: Prophecyio Finops
+  primary_unit: user
+  service_category: ''
+  slug: prophecyio-finops
+  template: false
 image: https://www.prophecy.io/favicon.ico
 layout: provider
 modified: '2026-07-20'
@@ -246,26 +253,29 @@ plans:
 - name: Prophecyio Plans Pricing
   plan_count: 4
   slug: prophecyio-plans-pricing
-random_paper: 12
+- name: Prophecyio Price Estimates
+  plan_count: 0
+  slug: prophecyio-price-estimates
+random_paper: 10
 score:
-  band: developing
-  composite: 47.0
+  band: strong
+  composite: 54.3
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 52.0
+    artifact_dirs: 24
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 57.9
+    access_clarity: 78.9
     contract_governance: 4.5
-    contract_quality: 41.1
-    developer_ergonomics: 61.3
-    discoverability: 78.6
-    operational_transparency: 34.2
-  previous_composite: 40.6
+    contract_quality: 38.6
+    developer_ergonomics: 73.2
+    discoverability: 71.4
+    operational_transparency: 44.7
+  previous_composite: 52.7
   provenance:
     conformance: derived
     contracts:
@@ -285,13 +295,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/screenshots/prophecyio-2026-08-17T081352.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/prophecyio/prophecyio-2026-08-17T081352.png
 security:
 - kind: authentication
   name: Prophecyio Authentication
@@ -305,6 +316,12 @@ security:
   name: Prophecyio Trust Center
   slug: prophecyio-trust-center
   summary_line: SOC 2, ISO 27001, GDPR
+skill_count: 2
+skills:
+- name: Deploy a Prophecy project and run its pipeline
+  slug: prophecyio-deploy-and-run-pipeline
+- name: Provision a Prophecy fabric with a connection and secret
+  slug: prophecyio-provision-fabric
 slug: prophecyio
 tags:
 - Company

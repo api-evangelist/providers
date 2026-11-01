@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 24
   slug: spicyapi-agentic-access
   summary_line: 24 operations · 14 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.spicyapi.ai
   baseurl_source: declared
@@ -58,108 +60,113 @@ apis:
   description: The Tasks API from SpicyAPI — 7 operation(s) for tasks.
   name: SpicyAPI Tasks API
   slug: spicyapi-tasks-api
-artifact_total: 21
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Spicyapi Webhooks
   slug: spicyapi-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/spicyapi/capabilities/spicyapi-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/spicyapi-capability-edges.yml
 - group: auth
   title: ''
   type: Security
   url: https://spicyapi.ai/legal/reporting
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/agentic-access/spicyapi-agentic-access.yml
+  href: https://artifacts.apis.io/spicyapi/agentic-access/spicyapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spicyapi-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/rate-limits/spicyapi-rate-limits.yml
+  href: https://artifacts.apis.io/spicyapi/rate-limits/spicyapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spicyapi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/plans/spicyapi-plans-pricing.yml
+  href: https://artifacts.apis.io/spicyapi/plans/spicyapi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spicyapi-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/rules/spicyapi-rules.yml
+  href: https://artifacts.apis.io/spicyapi/rules/spicyapi-rules.yml
   title: ''
   type: Spectral
   url: rules/spicyapi-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/json-ld/spicyapi-context.jsonld
+  href: https://artifacts.apis.io/spicyapi/json-ld/spicyapi-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/spicyapi-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/vocabulary/spicyapi-vocabulary.yml
+  href: https://artifacts.apis.io/spicyapi/vocabulary/spicyapi-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/spicyapi-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/asyncapi/spicyapi-webhooks.yml
+  href: https://artifacts.apis.io/spicyapi/asyncapi/spicyapi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/spicyapi-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/data-model/spicyapi-data-model.yml
+  href: https://artifacts.apis.io/spicyapi/data-model/spicyapi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spicyapi-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/conventions/spicyapi-conventions.yml
+  href: https://artifacts.apis.io/spicyapi/conventions/spicyapi-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/spicyapi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/conventions/spicyapi-conventions.yml
+  href: https://artifacts.apis.io/spicyapi/conventions/spicyapi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spicyapi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/errors/spicyapi-problem-types.yml
+  href: https://artifacts.apis.io/spicyapi/errors/spicyapi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spicyapi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/conformance/spicyapi-conformance.yml
+  href: https://artifacts.apis.io/spicyapi/conformance/spicyapi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spicyapi-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/llms/spicyapi-llms.txt
+  href: https://artifacts.apis.io/spicyapi/llms/spicyapi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spicyapi-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/mcp/spicyapi-mcp.yml
+  href: https://artifacts.apis.io/spicyapi/mcp/spicyapi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/spicyapi-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/well-known/spicyapi-security.txt
+  href: https://artifacts.apis.io/spicyapi/well-known/spicyapi-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/spicyapi-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/well-known/spicyapi-well-known.yml
+  href: https://artifacts.apis.io/spicyapi/well-known/spicyapi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/spicyapi-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/hosts/spicyapi-hosts.yml
+  href: https://artifacts.apis.io/spicyapi/hosts/spicyapi-hosts.yml
   title: ''
   type: Hosts
   url: hosts/spicyapi-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/vendors/spicyapi-vendors.yml
+  href: https://artifacts.apis.io/spicyapi/vendors/spicyapi-vendors.yml
   title: ''
   type: Vendors
   url: vendors/spicyapi-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/packages/spicyapi-packages.yml
+  href: https://artifacts.apis.io/spicyapi/packages/spicyapi-packages.yml
   title: ''
   type: Packages
   url: packages/spicyapi-packages.yml
@@ -176,17 +183,17 @@ common:
   type: SDKs
   url: https://www.npmjs.com/package/@spicyapi/sdk
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/authentication/spicyapi-authentication.yml
+  href: https://artifacts.apis.io/spicyapi/authentication/spicyapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spicyapi-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/security/spicyapi-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/spicyapi/security/spicyapi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/spicyapi-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/security/spicyapi-domain-security.yml
+  href: https://artifacts.apis.io/spicyapi/security/spicyapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spicyapi-domain-security.yml
@@ -248,6 +255,14 @@ common:
   url: https://status.spicyapi.ai
 created: '2026-10-09'
 description: SpicyAPI is a pay-as-you-go aggregator for generative media and chat models. One API key reaches image, video, audio and LLM models through an async jobs API (quote, create task, poll, stream, retry) plus OpenAI-, Anthropic- and Gemini-compatible endpoints (chat completions, responses, messages, generateContent, videos), with a model catalog, usage and credit endpoints, signed upload/download URLs, webhooks and first-party SDKs.
+finops:
+- has_sources: true
+  method: derived
+  name: Spicyapi Finops
+  primary_unit: image
+  service_category: ''
+  slug: spicyapi-finops
+  template: false
 image: https://spicyapi.ai/opengraph-image
 json_schemas:
 - name: ChatCompletionRequest
@@ -288,12 +303,12 @@ overview: 'SpicyAPI publishes 5 API contracts indexed on the [APIs.io](https://a
   The SpicyAPI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  SpicyAPI''s developer surface includes sandbox, authentication, documentation, API reference, engineering blog, changelog, getting-started guide, and 33 more developer resources.'
+  SpicyAPI''s developer surface includes sandbox, authentication, documentation, API reference, engineering blog, changelog, getting-started guide, and 34 more developer resources.'
 plans:
 - name: Spicyapi Plans Pricing
-  plan_count: 1
+  plan_count: 7
   slug: spicyapi-plans-pricing
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Spicyapi Rate Limits
@@ -313,23 +328,23 @@ rules:
   slug: spicyapi-rules
 score:
   band: exemplar
-  composite: 68.3
+  composite: 72.0
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 82.8
-    catalog_earned_first_party: 20.0
-    catalog_gap: 32.3
+    artifact_dirs: 26
+    catalog_earned: 89.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 25.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 3.7
   facets:
-    access_clarity: 73.7
+    access_clarity: 92.1
     contract_governance: 22.0
     contract_quality: 70.5
     developer_ergonomics: 66.7
-    discoverability: 71.7
+    discoverability: 65.0
     operational_transparency: 86.8
-  previous_composite: 68.7
+  previous_composite: 68.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -345,13 +360,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/screenshots/spicyapi-2026-10-11T130144.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spicyapi/spicyapi-2026-10-11T130144.png
 security:
 - kind: authentication
   name: Spicyapi Authentication

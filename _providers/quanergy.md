@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The QORTEX DTC API is the integration surface of Quanergy's detect-track-classify perception server. A gRPC service on port 17177 (Protocol Buffers 3) covers zone, counter-line, rule, PTZ camera, sett
@@ -47,7 +49,7 @@ asyncapis:
   slug: quanergy-qortex-dtc-events
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quanergy/refs/heads/main/security/quanergy-domain-security.yml
+  href: https://artifacts.apis.io/quanergy/security/quanergy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quanergy-domain-security.yml
@@ -124,62 +126,62 @@ common:
   type: Twitter
   url: https://twitter.com/quanergy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quanergy/refs/heads/main/llms/quanergy-llms.txt
+  href: https://artifacts.apis.io/quanergy/llms/quanergy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/quanergy-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/quanergy/refs/heads/main/packages/quanergy-packages.yml
+  href: https://artifacts.apis.io/quanergy/packages/quanergy-packages.yml
   title: ''
   type: Packages
   url: packages/quanergy-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/quanergy/refs/heads/main/packages/quanergy-packages.yml
+  href: https://artifacts.apis.io/quanergy/packages/quanergy-packages.yml
   title: ''
   type: SDKs
   url: packages/quanergy-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/quanergy/refs/heads/main/cli/quanergy-cli.yml
+  href: https://artifacts.apis.io/quanergy/cli/quanergy-cli.yml
   title: ''
   type: CLI
   url: cli/quanergy-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quanergy/refs/heads/main/authentication/quanergy-authentication.yml
+  href: https://artifacts.apis.io/quanergy/authentication/quanergy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/quanergy-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quanergy/refs/heads/main/conventions/quanergy-conventions.yml
+  href: https://artifacts.apis.io/quanergy/conventions/quanergy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/quanergy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quanergy/refs/heads/main/errors/quanergy-problem-types.yml
+  href: https://artifacts.apis.io/quanergy/errors/quanergy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/quanergy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quanergy/refs/heads/main/data-model/quanergy-data-model.yml
+  href: https://artifacts.apis.io/quanergy/data-model/quanergy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/quanergy-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quanergy/refs/heads/main/lifecycle/quanergy-lifecycle.yml
+  href: https://artifacts.apis.io/quanergy/lifecycle/quanergy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/quanergy-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quanergy/refs/heads/main/conformance/quanergy-conformance.yml
+  href: https://artifacts.apis.io/quanergy/conformance/quanergy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/quanergy-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quanergy/refs/heads/main/conformance/quanergy-conformance.yml
+  href: https://artifacts.apis.io/quanergy/conformance/quanergy-conformance.yml
   title: ''
   type: Compliance
   url: conformance/quanergy-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/quanergy/refs/heads/main/asyncapi/quanergy-qortex-dtc-events.yml
+  href: https://artifacts.apis.io/quanergy/asyncapi/quanergy-qortex-dtc-events.yml
   title: ''
   type: EventCatalog
   url: asyncapi/quanergy-qortex-dtc-events.yml
@@ -198,10 +200,10 @@ overview: 'Quanergy is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Quanergy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, YouTube channel, CLI, and 24 more developer resources.'
-random_paper: 18
+random_paper: 12
 score:
   band: developing
-  composite: 39.9
+  composite: 39.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -209,15 +211,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 61.9
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 39.8
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 39.5
   provenance:
     conformance: first-party
   regulatory:
@@ -226,14 +228,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/quanergy/refs/heads/main/screenshots/quanergy-2026-09-02T152608.png
+screenshot: https://apis.io/screenshots/quanergy/quanergy-2026-09-02T152608.png
 security:
 - kind: authentication
   name: Quanergy Authentication

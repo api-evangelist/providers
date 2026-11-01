@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-17'
+  score: 22.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -60,11 +62,8 @@ apis:
   description: Manage galleries and the subjects/face templates enrolled in them.
   name: Kairos AR Galleries API
   slug: kairos-ar-galleries-api
-artifact_total: 11
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kairos Face Recognition & Emotion Analysis API
   slug: open-kairos-ar-emotion-analysis-api
@@ -76,12 +75,12 @@ collections:
   slug: open-kairos-ar-galleries-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/plans/kairos-ar-plans-pricing.yml
+  href: https://artifacts.apis.io/kairos-ar/plans/kairos-ar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kairos-ar-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/overlays/kairos-ar-openapi-overlay.yaml
+  href: https://artifacts.apis.io/kairos-ar/overlays/kairos-ar-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kairos-ar-openapi-overlay.yaml
@@ -146,52 +145,60 @@ common:
   type: Postman
   url: https://documenter.getpostman.com/view/566316/SVYnSMHo
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/mcp/kairos-ar-mcp.yml
+  href: https://artifacts.apis.io/kairos-ar/mcp/kairos-ar-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kairos-ar-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/llms/kairos-ar-llms.txt
+  href: https://artifacts.apis.io/kairos-ar/llms/kairos-ar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kairos-ar-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/packages/kairos-ar-packages.yml
+  href: https://artifacts.apis.io/kairos-ar/packages/kairos-ar-packages.yml
   title: ''
   type: Packages
   url: packages/kairos-ar-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/packages/kairos-ar-packages.yml
+  href: https://artifacts.apis.io/kairos-ar/packages/kairos-ar-packages.yml
   title: ''
   type: SDKs
   url: packages/kairos-ar-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/lifecycle/kairos-ar-lifecycle.yml
+  href: https://artifacts.apis.io/kairos-ar/lifecycle/kairos-ar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kairos-ar-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/sandbox/kairos-ar-sandbox.yml
+  href: https://artifacts.apis.io/kairos-ar/sandbox/kairos-ar-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kairos-ar-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/changelog/kairos-ar-changelog.yml
+  href: https://artifacts.apis.io/kairos-ar/changelog/kairos-ar-changelog.yml
   title: ''
   type: Changelog
   url: changelog/kairos-ar-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/security/kairos-ar-domain-security.yml
+  href: https://artifacts.apis.io/kairos-ar/security/kairos-ar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kairos-ar-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kairos-ar/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Kairos AR, Inc. is a Miami-based human-analytics company providing face recognition, facial detection, and emotion analysis as a REST API. The platform lets developers enroll, verify, and recognize faces against galleries they create, detect faces and facial features (age, gender, ethnicity, glasses, landmarks) in photos, and analyze emotion, demographics and attention across images and video. Requests and responses are JSON and every call is authenticated with an app_id + app_key header pair. Kairos ships official SDKs for JavaScript, PHP, Android, and .NET, publishes an Apiary-hosted API reference with a live sandbox console, and offers a free tier plus usage-based pricing and an on-premise biometric offering. The company was surfaced as a 500 Global portfolio company and is enriched here into the API Evangelist network.
+finops:
+- has_sources: true
+  method: derived
+  name: Kairos Ar Finops
+  primary_unit: api call
+  service_category: ''
+  slug: kairos-ar-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kairos-ar.png
 layout: provider
 modified: '2026-07-19'
@@ -206,25 +213,28 @@ plans:
 - name: Kairos Ar Plans Pricing
   plan_count: 4
   slug: kairos-ar-plans-pricing
-random_paper: 3
+- name: Kairos Ar Price Estimates
+  plan_count: 0
+  slug: kairos-ar-price-estimates
+random_paper: 17
 score:
   band: developing
-  composite: 43.4
+  composite: 48.4
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.8
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 13.6
-    developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 18.4
+    developer_ergonomics: 78.0
+    discoverability: 66.1
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -232,7 +242,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 37.6
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,13 +259,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/screenshots/kairos-ar-2026-08-17T123941.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kairos-ar/kairos-ar-2026-08-17T123941.png
 security:
 - kind: authentication
   name: Kairos Ar Authentication
@@ -265,6 +276,16 @@ security:
   name: Kairos Ar Domain Security
   slug: kairos-ar-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: Detect faces and facial attributes in a photo
+  slug: kairos-ar-detect-faces
+- name: Analyze emotion and attention in media
+  slug: kairos-ar-emotion-analysis
+- name: Enroll faces and recognize them against a gallery
+  slug: kairos-ar-enroll-and-recognize
+- name: Verify a photo against a known subject
+  slug: kairos-ar-verify-identity
 slug: kairos-ar
 tags:
 - Company

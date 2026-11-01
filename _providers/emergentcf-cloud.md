@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,31 +25,44 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
-- group: company
+- group: auth
+  href: https://artifacts.apis.io/emergentcf-cloud/security/emergentcf-cloud-domain-security.yml
   title: ''
-  type: Website
-  url: https://emergentcf.cloud/
+  type: DomainSecurity
+  url: security/emergentcf-cloud-domain-security.yml
+coverage:
+  checked: '2026-09-19'
+  detail: emergentcf.cloud has no A record (it is Emergent's wildcard preview-cluster domain, not a company site), the //HERE agent card the registry recorded at oversight-hub-12.preview.emergentagent.com returns 404, and its cluster origin answers 403 on every path - the agent surface is gone and the dead Website pointer was removed rather than left as a claim.
+  evidence:
+  - status: 0
+    url: https://emergentcf.cloud/
+  - status: 404
+    url: https://oversight-hub-12.preview.emergentagent.com/api/.well-known/agent-card.json
+  - status: 403
+    url: https://oversight-hub-12.cluster-12.preview.emergentcf.cloud/.well-known/here-agent.json
+  reason: defunct
+  state: none
 created: '2026-09-19'
-description: '//HERE is a company surfaced via the API Evangelist harvest backlog (source: a2a-registry) and added to the network as a stub for full-pipeline profiling.'
+description: //HERE is an A2A agent listed on a2aregistry.org (registered 2026-09-17) that describes itself as an "autonomous machine-native economy" in which agents register, take paid work, own finite land, trade resources and settle in USDC on Base via x402. It was deployed to a preview slot on Emergent (emergent.sh), an AI app-building platform; emergentcf.cloud is Emergent's wildcard preview/deploy cluster domain and has no website of its own. The agent card the registry recorded now returns 404 and the cluster origin answers 403, so no public API surface is reachable.
 layout: provider
 modified: '2026-09-19'
 name: //HERE
 nav: Providers
 network: true
-overview: //HERE is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 8
+overview: //HERE is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agents, A2A, Agentic Commerce, and x402.
+random_paper: 4
 score:
   band: minimal
-  composite: 2.8
+  composite: 0.0
   coverage:
-    artifact_dirs: 0
-    catalog_earned: 15.0
+    artifact_dirs: 2
+    catalog_earned: 25.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 100.0
+    catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   facets:
@@ -55,16 +70,32 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 27.8
+    discoverability: 0.0
     operational_transparency: 0.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  lifecycle: defunct
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 5.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+security:
+- kind: domain-security
+  name: Emergentcf Cloud Domain Security
+  slug: emergentcf-cloud-domain-security
+  summary_line: DNSSEC · DMARC
 slug: emergentcf-cloud
 tags:
 - Company
-website: https://emergentcf.cloud/
+- Agents
+- A2A
+- Agentic Commerce
+- x402
+- Stablecoins
 ---

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eqt/refs/heads/main/security/eqt-domain-security.yml
+  href: https://artifacts.apis.io/eqt/security/eqt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eqt-domain-security.yml
@@ -62,17 +64,17 @@ common:
   type: X-CustomerPortal
   url: https://customers.equitransmidstream.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eqt/refs/heads/main/well-known/eqt-well-known.yml
+  href: https://artifacts.apis.io/eqt/well-known/eqt-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/eqt-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eqt/refs/heads/main/conformance/eqt-conformance.yml
+  href: https://artifacts.apis.io/eqt/conformance/eqt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eqt-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eqt/refs/heads/main/llms/eqt-llms.txt
+  href: https://artifacts.apis.io/eqt/llms/eqt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eqt-llms.txt
@@ -142,10 +144,10 @@ press:
 - date: ''
   title: EQT Introduces AI Infrastructure Strategy to Help Build ...
   url: https://www.prnewswire.com/news-releases/eqt-introduces-ai-infrastructure-strategy-to-help-build-the-foundation-of-the-ai-economy-302748973.html
-random_paper: 0
+random_paper: 18
 score:
   band: emerging
-  composite: 12.6
+  composite: 12.2
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -159,8 +161,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -168,7 +170,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 12.6
+  previous_composite: 12.2
   provenance:
     conformance: first-party
   regulatory:
@@ -177,14 +179,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/eqt/refs/heads/main/screenshots/eqt-2026-06-20T180803.png
+screenshot: https://apis.io/screenshots/eqt/eqt-2026-06-20T180803.png
 security:
 - kind: authentication
   name: Eqt Authentication

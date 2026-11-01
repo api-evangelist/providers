@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-17'
+  score: 28.6
+  scored_at: '2026-10-31'
 api_count: 26
 apis:
 - description: Hosted, beta Model Context Protocol server exposing Sovrn Commerce affiliate data, campaigns and products to AI clients — twelve tools covering price search, link checking, product recommendations and
@@ -86,7 +88,7 @@ apis:
   description: The Sites API from Sovrn — 1 operation(s) for sites.
   name: Sovrn Sites API
   slug: sovrn-sites-api
-artifact_total: 25
+artifact_total: 33
 collections:
 - collection_type: open
   name: Sovrn Advertising Performance Reporting API
@@ -117,47 +119,52 @@ collections:
   slug: open-sovrn-product-recommendations
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/overlays/sovrn-commerce-link-check-overlay.yaml
+  href: https://artifacts.apis.io/sovrn/capabilities/sovrn-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sovrn-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/sovrn/overlays/sovrn-commerce-link-check-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sovrn-commerce-link-check-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/overlays/sovrn-commerce-bid-check-overlay.yaml
+  href: https://artifacts.apis.io/sovrn/overlays/sovrn-commerce-bid-check-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sovrn-commerce-bid-check-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/overlays/sovrn-commerce-campaigns-overlay.yaml
+  href: https://artifacts.apis.io/sovrn/overlays/sovrn-commerce-campaigns-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sovrn-commerce-campaigns-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/overlays/sovrn-commerce-reports-overlay.yaml
+  href: https://artifacts.apis.io/sovrn/overlays/sovrn-commerce-reports-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sovrn-commerce-reports-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/overlays/sovrn-merchant-summaries-overlay.yaml
+  href: https://artifacts.apis.io/sovrn/overlays/sovrn-merchant-summaries-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sovrn-merchant-summaries-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/overlays/sovrn-product-recommendations-overlay.yaml
+  href: https://artifacts.apis.io/sovrn/overlays/sovrn-product-recommendations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sovrn-product-recommendations-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/overlays/sovrn-price-comparisons-overlay.yaml
+  href: https://artifacts.apis.io/sovrn/overlays/sovrn-price-comparisons-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sovrn-price-comparisons-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/overlays/sovrn-product-coupons-overlay.yaml
+  href: https://artifacts.apis.io/sovrn/overlays/sovrn-product-coupons-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sovrn-product-coupons-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/overlays/sovrn-advertising-reporting-overlay.yaml
+  href: https://artifacts.apis.io/sovrn/overlays/sovrn-advertising-reporting-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sovrn-advertising-reporting-overlay.yaml
@@ -226,72 +233,72 @@ common:
   type: SecurityTxt
   url: https://www.sovrn.com/.well-known/security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/well-known/sovrn-well-known.yml
+  href: https://artifacts.apis.io/sovrn/well-known/sovrn-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sovrn-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/security/sovrn-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sovrn/security/sovrn-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sovrn-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/security/sovrn-domain-security.yml
+  href: https://artifacts.apis.io/sovrn/security/sovrn-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sovrn-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/lifecycle/sovrn-lifecycle.yml
+  href: https://artifacts.apis.io/sovrn/lifecycle/sovrn-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sovrn-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/authentication/sovrn-authentication.yml
+  href: https://artifacts.apis.io/sovrn/authentication/sovrn-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sovrn-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/conventions/sovrn-conventions.yml
+  href: https://artifacts.apis.io/sovrn/conventions/sovrn-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sovrn-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/errors/sovrn-problem-types.yml
+  href: https://artifacts.apis.io/sovrn/errors/sovrn-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sovrn-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/conformance/sovrn-conformance.yml
+  href: https://artifacts.apis.io/sovrn/conformance/sovrn-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sovrn-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/data-model/sovrn-data-model.yml
+  href: https://artifacts.apis.io/sovrn/data-model/sovrn-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sovrn-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/rate-limits/sovrn-rate-limits.yml
+  href: https://artifacts.apis.io/sovrn/rate-limits/sovrn-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sovrn-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/plans/sovrn-plans-pricing.yml
+  href: https://artifacts.apis.io/sovrn/plans/sovrn-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sovrn-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/components/sovrn-components.yml
+  href: https://artifacts.apis.io/sovrn/components/sovrn-components.yml
   title: ''
   type: Components
   url: components/sovrn-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sovrn/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/llms/sovrn-llms.txt
+  href: https://artifacts.apis.io/sovrn/llms/sovrn-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sovrn-llms.txt
@@ -302,6 +309,14 @@ common:
 created: '2026-07-17'
 description: Sovrn is an advertising technology and content monetization company that helps online publishers, advertisers, and creators earn revenue from their websites and audiences. Its platform spans Ad Exchange (an omnichannel programmatic demand pipeline connecting publisher inventory to buyers and DSPs), Signal (ad-inventory and yield optimization), Commerce (affiliate and commerce-content monetization, formerly VigLink, with access to tens of thousands of merchants), and Data solutions for first-party data activation. Sovrn publishes a ReadMe-hosted developer center at developer.sovrn.com carrying eight OpenAPI definitions across seventeen operations — affiliate link checking, real-time bid pricing on clicks, campaign management, real-time commission reporting, merchant rate summaries, product recommendations, price comparisons, promo codes, and Ad Exchange performance reporting — plus a beta hosted Commerce MCP server at mcp.sovrn.com/commerce, an Agent Skills discovery document,
   and llms.txt files on three hosts. Sovrn is headquartered in Boulder, Colorado.
+finops:
+- has_sources: true
+  method: derived
+  name: Sovrn Finops
+  primary_unit: ''
+  service_category: ''
+  slug: sovrn-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sovrn.png
 layout: provider
 mcp_servers:
@@ -315,34 +330,34 @@ network: true
 overview: 'Sovrn publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Ai Orchestration API, Bid API, and 7 more. Tagged areas include Company, AdTech, Advertising, Monetization, and Affiliate Marketing.
 
 
-  Sovrn''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 33 more developer resources.'
+  Sovrn''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 34 more developer resources.'
 plans:
 - name: Sovrn Plans Pricing
   plan_count: 0
   slug: sovrn-plans-pricing
-random_paper: 18
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Sovrn Rate Limits
   slug: sovrn-rate-limits
 score:
   band: developing
-  composite: 51.2
+  composite: 53.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 52.9
-    developer_ergonomics: 54.2
-    discoverability: 90.0
-    operational_transparency: 52.6
+    developer_ergonomics: 58.9
+    discoverability: 86.7
+    operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -350,7 +365,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 51.1
+  previous_composite: 53.9
   provenance:
     conformance: derived
     contracts:
@@ -366,13 +381,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/screenshots/sovrn-2026-08-17T082014.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sovrn/sovrn-2026-08-17T082014.png
 security:
 - kind: authentication
   name: Sovrn Authentication
@@ -386,6 +402,22 @@ security:
   name: Sovrn Vulnerability Disclosure
   slug: sovrn-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 7
+skills:
+- name: Build shoppable content with Sovrn product data
+  slug: sovrn-build-shoppable-content
+- name: Monetize a destination URL with Sovrn Commerce
+  slug: sovrn-monetize-a-destination-url
+- name: Price a click with Sovrn Commerce Bid Check
+  slug: sovrn-price-a-click-with-bid-check
+- name: Pull Sovrn Ad Exchange performance data
+  slug: sovrn-pull-advertising-performance
+- name: Pull Sovrn Commerce performance data
+  slug: sovrn-pull-commerce-performance
+- name: read-the-docs
+  slug: sovrn-read-the-docs
+- name: Sync your approved Sovrn merchants and rates
+  slug: sovrn-sync-approved-merchants
 slug: sovrn
 tags:
 - Company

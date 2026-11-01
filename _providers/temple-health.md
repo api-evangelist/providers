@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.6
-  scored_at: '2026-10-17'
+  score: 31.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -92,11 +94,8 @@ apis:
   description: Demographics and other administrative information about an individual receiving care.
   name: Temple Health Patient API
   slug: temple-health-patient-api
-artifact_total: 38
+artifact_total: 40
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Temple Health FHIR R4 Allergy Intolerance API
   slug: open-temple-health-allergy-intolerance-api
@@ -129,27 +128,27 @@ collections:
   slug: open-temple-health-temple-health-fhir-r4-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/capabilities/temple-health-capability-edges.yml
+  href: https://artifacts.apis.io/temple-health/capabilities/temple-health-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/temple-health-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/agentic-access/temple-health-agentic-access.yml
+  href: https://artifacts.apis.io/temple-health/agentic-access/temple-health-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/temple-health-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/security/temple-health-domain-security.yml
+  href: https://artifacts.apis.io/temple-health/security/temple-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/temple-health-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/authentication/temple-health-authentication.yml
+  href: https://artifacts.apis.io/temple-health/authentication/temple-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/temple-health-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/scopes/temple-health-scopes.yml
+  href: https://artifacts.apis.io/temple-health/scopes/temple-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/temple-health-scopes.yml
@@ -210,42 +209,42 @@ common:
   type: Compliance
   url: https://www.healthit.gov/curesrule/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/json-ld/temple-health-context.jsonld
+  href: https://artifacts.apis.io/temple-health/json-ld/temple-health-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/temple-health-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/vocabulary/temple-health-vocabulary.yml
+  href: https://artifacts.apis.io/temple-health/vocabulary/temple-health-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/temple-health-vocabulary.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/json-schema/temple-health-patient-schema.json
+  href: https://artifacts.apis.io/temple-health/json-schema/temple-health-patient-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/temple-health-patient-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/json-schema/temple-health-observation-schema.json
+  href: https://artifacts.apis.io/temple-health/json-schema/temple-health-observation-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/temple-health-observation-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/json-structure/temple-health-fhir-encounter-structure.json
+  href: https://artifacts.apis.io/temple-health/json-structure/temple-health-fhir-encounter-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/temple-health-fhir-encounter-structure.json
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/plans/temple-health-plans-pricing.yml
+  href: https://artifacts.apis.io/temple-health/plans/temple-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/temple-health-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/rate-limits/temple-health-rate-limits.yml
+  href: https://artifacts.apis.io/temple-health/rate-limits/temple-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/temple-health-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/finops/temple-health-finops.yml
+  href: https://artifacts.apis.io/temple-health/finops/temple-health-finops.yml
   title: ''
   type: FinOps
   url: finops/temple-health-finops.yml
@@ -254,82 +253,82 @@ common:
   type: Blog
   url: https://www.templehealth.org/about/news
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/well-known/temple-health-well-known.yml
+  href: https://artifacts.apis.io/temple-health/well-known/temple-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/temple-health-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/well-known/temple-health-smart-configuration.json
+  href: https://artifacts.apis.io/temple-health/well-known/temple-health-smart-configuration.json
   title: ''
   type: SMARTConfiguration
   url: well-known/temple-health-smart-configuration.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/well-known/temple-health-openid-configuration.json
+  href: https://artifacts.apis.io/temple-health/well-known/temple-health-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/temple-health-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/conformance/temple-health-conformance.yml
+  href: https://artifacts.apis.io/temple-health/conformance/temple-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/temple-health-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/errors/temple-health-problem-types.yml
+  href: https://artifacts.apis.io/temple-health/errors/temple-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/temple-health-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/lifecycle/temple-health-lifecycle.yml
+  href: https://artifacts.apis.io/temple-health/lifecycle/temple-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/temple-health-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/conventions/temple-health-conventions.yml
+  href: https://artifacts.apis.io/temple-health/conventions/temple-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/temple-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/data-model/temple-health-data-model.yml
+  href: https://artifacts.apis.io/temple-health/data-model/temple-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/temple-health-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/llms/temple-health-llms.txt
+  href: https://artifacts.apis.io/temple-health/llms/temple-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/temple-health-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/mcp/temple-health-mcp.yml
+  href: https://artifacts.apis.io/temple-health/mcp/temple-health-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/temple-health-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/temple-health/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/examples/temple-health-fhir-r4-capability-statement-example.json
+  href: https://artifacts.apis.io/temple-health/examples/temple-health-fhir-r4-capability-statement-example.json
   title: ''
   type: Examples
   url: examples/temple-health-fhir-r4-capability-statement-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/examples/temple-health-fhir-r4-smart-configuration-example.json
+  href: https://artifacts.apis.io/temple-health/examples/temple-health-fhir-r4-smart-configuration-example.json
   title: ''
   type: Examples
   url: examples/temple-health-fhir-r4-smart-configuration-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/examples/temple-health-fhir-r4-patient-search-example.json
+  href: https://artifacts.apis.io/temple-health/examples/temple-health-fhir-r4-patient-search-example.json
   title: ''
   type: Examples
   url: examples/temple-health-fhir-r4-patient-search-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/examples/temple-health-fhir-r4-observation-search-example.json
+  href: https://artifacts.apis.io/temple-health/examples/temple-health-fhir-r4-observation-search-example.json
   title: ''
   type: Examples
   url: examples/temple-health-fhir-r4-observation-search-example.json
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/well-known/temple-health-cms-hpt.txt
+  href: https://artifacts.apis.io/temple-health/well-known/temple-health-cms-hpt.txt
   title: ''
   type: PriceTransparency
   url: well-known/temple-health-cms-hpt.txt
@@ -369,8 +368,8 @@ examples:
   name: Temple Health Fhir R4 Smart Configuration Example
   slug: temple-health-fhir-r4-smart-configuration-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Temple Health Finops
   primary_unit: ''
   service_category: ''
@@ -453,7 +452,7 @@ score:
     catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 71.1
     contract_governance: 45.5
@@ -468,7 +467,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 56.0
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -485,14 +484,14 @@ score:
     regime: Health
     regime_id: health
     score: 47.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/screenshots/temple-health-2026-06-20T195058.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/temple-health/temple-health-2026-06-20T195058.png
 security:
 - kind: authentication
   name: Temple Health Authentication
@@ -502,6 +501,14 @@ security:
   name: Temple Health Domain Security
   slug: temple-health-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: temple-health-bulk-data-export
+  slug: temple-health-bulk-data-export
+- name: temple-health-discover-the-endpoint
+  slug: temple-health-discover-the-endpoint
+- name: temple-health-patient-access-launch
+  slug: temple-health-patient-access-launch
 slug: temple-health
 tags:
 - Academic Medical Center

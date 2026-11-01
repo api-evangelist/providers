@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The SysTrack API provides programmatic REST access to SysTrack data on a cloud tenant or on-premises installation — enumerating groups, listing the systems within a group, retrieving sensor data for a
@@ -53,7 +55,7 @@ common:
   type: BlogRSS
   url: https://www.lakesidesoftware.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lakeside-software/refs/heads/main/security/lakeside-software-domain-security.yml
+  href: https://artifacts.apis.io/lakeside-software/security/lakeside-software-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lakeside-software-domain-security.yml
@@ -98,62 +100,62 @@ common:
   type: PrivacyPolicy
   url: https://www.lakesidesoftware.com/privacy-statement/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lakeside-software/refs/heads/main/security/lakeside-software-trust-center.yml
+  href: https://artifacts.apis.io/lakeside-software/security/lakeside-software-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lakeside-software-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lakeside-software/refs/heads/main/conformance/lakeside-software-conformance.yml
+  href: https://artifacts.apis.io/lakeside-software/conformance/lakeside-software-conformance.yml
   title: ''
   type: Compliance
   url: conformance/lakeside-software-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lakeside-software/refs/heads/main/conformance/lakeside-software-conformance.yml
+  href: https://artifacts.apis.io/lakeside-software/conformance/lakeside-software-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lakeside-software-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lakeside-software/refs/heads/main/mcp/lakeside-software-mcp.yml
+  href: https://artifacts.apis.io/lakeside-software/mcp/lakeside-software-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lakeside-software-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lakeside-software/refs/heads/main/asyncapi/lakeside-software-webhooks.yml
+  href: https://artifacts.apis.io/lakeside-software/asyncapi/lakeside-software-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lakeside-software-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lakeside-software/refs/heads/main/authentication/lakeside-software-authentication.yml
+  href: https://artifacts.apis.io/lakeside-software/authentication/lakeside-software-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lakeside-software-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lakeside-software/refs/heads/main/conventions/lakeside-software-conventions.yml
+  href: https://artifacts.apis.io/lakeside-software/conventions/lakeside-software-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lakeside-software-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lakeside-software/refs/heads/main/lifecycle/lakeside-software-lifecycle.yml
+  href: https://artifacts.apis.io/lakeside-software/lifecycle/lakeside-software-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lakeside-software-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lakeside-software/refs/heads/main/lifecycle/lakeside-software-lifecycle.yml
+  href: https://artifacts.apis.io/lakeside-software/lifecycle/lakeside-software-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/lakeside-software-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lakeside-software/refs/heads/main/changelog/lakeside-software-changelog.yml
+  href: https://artifacts.apis.io/lakeside-software/changelog/lakeside-software-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lakeside-software-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lakeside-software/refs/heads/main/llms/lakeside-software-llms.txt
+  href: https://artifacts.apis.io/lakeside-software/llms/lakeside-software-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lakeside-software-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lakeside-software/refs/heads/main/packages/lakeside-software-packages.yml
+  href: https://artifacts.apis.io/lakeside-software/packages/lakeside-software-packages.yml
   title: ''
   type: Packages
   url: packages/lakeside-software-packages.yml
@@ -176,10 +178,10 @@ overview: 'Lakeside Software is listed with 2 APIs on the [APIs.io](https://apis
 
 
   Lakeside Software''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 16
+random_paper: 2
 score:
   band: developing
-  composite: 46.8
+  composite: 46.1
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -187,15 +189,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 71.7
+    discoverability: 65.0
     operational_transparency: 31.6
-  previous_composite: 46.7
+  previous_composite: 46.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -205,14 +207,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lakeside-software/refs/heads/main/screenshots/lakeside-software-2026-07-25T224431.png
+screenshot: https://apis.io/screenshots/lakeside-software/lakeside-software-2026-07-25T224431.png
 security:
 - kind: authentication
   name: Lakeside Software Authentication

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Publicly documented REST API that connects an external system to the ADDX platform. Roughly 68 operations across five documented groups — Account Management (account, balance, EAM investor, portfolio,
@@ -40,7 +42,7 @@ common:
   type: BlogRSS
   url: https://addx.co/insights/rss/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/addx/refs/heads/main/security/addx-domain-security.yml
+  href: https://artifacts.apis.io/addx/security/addx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/addx-domain-security.yml
@@ -89,62 +91,62 @@ common:
   type: PrivacyPolicy
   url: https://addx.co/en/privacy-policy/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/addx/refs/heads/main/conformance/addx-conformance.yml
+  href: https://artifacts.apis.io/addx/conformance/addx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/addx-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/addx/refs/heads/main/conformance/addx-conformance.yml
+  href: https://artifacts.apis.io/addx/conformance/addx-conformance.yml
   title: ''
   type: Compliance
   url: conformance/addx-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/addx/refs/heads/main/authentication/addx-authentication.yml
+  href: https://artifacts.apis.io/addx/authentication/addx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/addx-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/addx/refs/heads/main/conventions/addx-conventions.yml
+  href: https://artifacts.apis.io/addx/conventions/addx-conventions.yml
   title: ''
   type: Conventions
   url: conventions/addx-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/addx/refs/heads/main/errors/addx-problem-types.yml
+  href: https://artifacts.apis.io/addx/errors/addx-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/addx-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/addx/refs/heads/main/lifecycle/addx-lifecycle.yml
+  href: https://artifacts.apis.io/addx/lifecycle/addx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/addx-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/addx/refs/heads/main/rate-limits/addx-rate-limits.yml
+  href: https://artifacts.apis.io/addx/rate-limits/addx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/addx-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/addx/refs/heads/main/plans/addx-plans-pricing.yml
+  href: https://artifacts.apis.io/addx/plans/addx-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/addx-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/addx/refs/heads/main/packages/addx-packages.yml
+  href: https://artifacts.apis.io/addx/packages/addx-packages.yml
   title: ''
   type: Packages
   url: packages/addx-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/addx/refs/heads/main/data-model/addx-data-model.yml
+  href: https://artifacts.apis.io/addx/data-model/addx-data-model.yml
   title: ''
   type: DataModel
   url: data-model/addx-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/addx/refs/heads/main/llms/addx-llms.txt
+  href: https://artifacts.apis.io/addx/llms/addx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/addx-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/addx/refs/heads/main/mcp/addx-mcp.yml
+  href: https://artifacts.apis.io/addx/mcp/addx-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/addx-mcp.yml
@@ -164,14 +166,14 @@ plans:
 - name: Addx Plans Pricing
   plan_count: 0
   slug: addx-plans-pricing
-random_paper: 21
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Addx Rate Limits
   slug: addx-rate-limits
 score:
   band: thin
-  composite: 29.3
+  composite: 29.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 32.0
@@ -179,13 +181,13 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -194,7 +196,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 29.2
+  previous_composite: 29.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -204,14 +206,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/addx/refs/heads/main/screenshots/addx-2026-10-11T092759.png
+screenshot: https://apis.io/screenshots/addx/addx-2026-10-11T092759.png
 security:
 - kind: authentication
   name: Addx Authentication

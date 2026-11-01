@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: unknown
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.6
-  scored_at: '2026-10-17'
+  score: 26.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Full REST API for managing accounts, subscriptions, plans, add-ons, coupons, invoices, line items, transactions, shipping, tax, and webhooks across a Recurly site. Authentication is HTTP Basic with a '
@@ -49,12 +51,12 @@ common:
   type: TermsOfService
   url: https://recurly.com/legal/terms
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recurly/refs/heads/main/security/recurly-trust-center.yml
+  href: https://artifacts.apis.io/recurly/security/recurly-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/recurly-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recurly/refs/heads/main/security/recurly-domain-security.yml
+  href: https://artifacts.apis.io/recurly/security/recurly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/recurly-domain-security.yml
@@ -126,10 +128,10 @@ overview: 'Recurly is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Recurly''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, and 11 more developer resources.'
-random_paper: 4
+random_paper: 6
 score:
   band: thin
-  composite: 35.7
+  composite: 36.9
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -143,9 +145,9 @@ score:
     contract_governance: 0.0
     contract_quality: 23.4
     developer_ergonomics: 45.2
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 35.7
+    discoverability: 73.2
+    operational_transparency: 28.9
+  previous_composite: 36.9
   provenance:
     mcp: first-party
   regulatory:
@@ -154,14 +156,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/recurly/refs/heads/main/screenshots/recurly-2026-06-20T192713.png
+screenshot: https://apis.io/screenshots/recurly/recurly-2026-06-20T192713.png
 security:
 - kind: domain-security
   name: Recurly Domain Security

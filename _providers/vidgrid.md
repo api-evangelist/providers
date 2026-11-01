@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.7
-  scored_at: '2026-10-17'
+  score: 26.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -80,15 +82,12 @@ apis:
   description: The Webhook API allows you to trigger webhook events.
   name: VidGrid Webhooks API
   slug: vidgrid-webhooks-api
-artifact_total: 20
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Vidgrid Webhooks
   slug: vidgrid-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: VidGrid API Reference Caption API
   slug: open-vidgrid-caption-api
@@ -116,7 +115,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/paylocity/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/overlays/vidgrid-content-management-overlay.yaml
+  href: https://artifacts.apis.io/vidgrid/overlays/vidgrid-content-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vidgrid-content-management-overlay.yaml
@@ -153,77 +152,77 @@ common:
   type: GitHubOrganization
   url: https://github.com/ilosvideos
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/agentic-access/vidgrid-agentic-access.yml
+  href: https://artifacts.apis.io/vidgrid/agentic-access/vidgrid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vidgrid-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/authentication/vidgrid-authentication.yml
+  href: https://artifacts.apis.io/vidgrid/authentication/vidgrid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vidgrid-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/security/vidgrid-domain-security.yml
+  href: https://artifacts.apis.io/vidgrid/security/vidgrid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vidgrid-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/well-known/vidgrid-well-known.yml
+  href: https://artifacts.apis.io/vidgrid/well-known/vidgrid-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vidgrid-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/llms/vidgrid-llms.txt
+  href: https://artifacts.apis.io/vidgrid/llms/vidgrid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vidgrid-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/mcp/vidgrid-mcp.yml
+  href: https://artifacts.apis.io/vidgrid/mcp/vidgrid-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vidgrid-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/conventions/vidgrid-conventions.yml
+  href: https://artifacts.apis.io/vidgrid/conventions/vidgrid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vidgrid-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/rate-limits/vidgrid-rate-limits.yml
+  href: https://artifacts.apis.io/vidgrid/rate-limits/vidgrid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vidgrid-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/errors/vidgrid-problem-types.yml
+  href: https://artifacts.apis.io/vidgrid/errors/vidgrid-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vidgrid-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/lifecycle/vidgrid-lifecycle.yml
+  href: https://artifacts.apis.io/vidgrid/lifecycle/vidgrid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vidgrid-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/conformance/vidgrid-conformance.yml
+  href: https://artifacts.apis.io/vidgrid/conformance/vidgrid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vidgrid-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/asyncapi/vidgrid-webhooks.yml
+  href: https://artifacts.apis.io/vidgrid/asyncapi/vidgrid-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vidgrid-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/components/vidgrid-components.yml
+  href: https://artifacts.apis.io/vidgrid/components/vidgrid-components.yml
   title: ''
   type: Components
   url: components/vidgrid-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/data-model/vidgrid-data-model.yml
+  href: https://artifacts.apis.io/vidgrid/data-model/vidgrid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vidgrid-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vidgrid/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -242,14 +241,14 @@ overview: 'VidGrid publishes 7 API contracts indexed on the [APIs.io](https://ap
 
 
   VidGrid''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 20 more developer resources.'
-random_paper: 19
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Vidgrid Rate Limits
   slug: vidgrid-rate-limits
 score:
-  band: thin
-  composite: 38.7
+  band: developing
+  composite: 41.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 45.0
@@ -259,13 +258,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 4.5
-    contract_quality: 60.6
+    contract_quality: 58.1
     developer_ergonomics: 56.5
-    discoverability: 73.2
-    operational_transparency: 31.6
-  previous_composite: 38.7
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -282,13 +281,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/screenshots/vidgrid-2026-08-17T082745.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vidgrid/vidgrid-2026-08-17T082745.png
 security:
 - kind: authentication
   name: Vidgrid Authentication
@@ -298,6 +298,14 @@ security:
   name: Vidgrid Domain Security
   slug: vidgrid-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 3
+skills:
+- name: Retrieve, update, and delete videos
+  slug: vidgrid-manage-videos
+- name: Record or upload a video via an API token
+  slug: vidgrid-record-or-upload-via-token
+- name: Request and retrieve captions for a video
+  slug: vidgrid-request-captions
 slug: vidgrid
 tags:
 - Video

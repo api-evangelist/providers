@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: derived
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 24.2
-  scored_at: '2026-10-17'
+  score: 30.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.hackmd.io/v1
@@ -78,11 +80,28 @@ apis:
   description: Operations related to a user's personal notes.
   name: HackMD User Notes API
   slug: hackmd-user-notes-api
-artifact_total: 20
+- baseURL: https://api.hackmd.io/v1
+  baseurl_source: declared
+  description: Operations for reading and resolving note comments.
+  name: HackMD Comments API
+  slug: hackmd-comments-api
+- baseURL: https://api.hackmd.io/v1
+  baseurl_source: declared
+  description: Operations for managing webhooks in a team workspace.
+  name: HackMD Team Webhooks API
+  slug: hackmd-team-webhooks-api
+- baseURL: https://api.hackmd.io/v1
+  baseurl_source: declared
+  description: Operations for listing, retrieving, comparing, creating, and updating note versions.
+  name: HackMD Versions API
+  slug: hackmd-versions-api
+- baseURL: https://api.hackmd.io/v1
+  baseurl_source: declared
+  description: Operations for managing webhooks in a personal workspace.
+  name: HackMD Webhooks API
+  slug: hackmd-webhooks-api
+artifact_total: 29
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: HackMD Open History API
   slug: open-hackmd-history-api
@@ -108,6 +127,16 @@ collections:
   name: HackMD Open History User Notes API
   slug: open-hackmd-user-notes-api
 common:
+- group: other
+  href: https://artifacts.apis.io/hackmd/capabilities/hackmd-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hackmd-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/hackmd/plans/hackmd-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hackmd-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -157,143 +186,158 @@ common:
   type: StatusPage
   url: https://status.hackmd.io/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/changelog/hackmd-changelog.yml
+  href: https://artifacts.apis.io/hackmd/changelog/hackmd-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hackmd-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/authentication/hackmd-authentication.yml
+  href: https://artifacts.apis.io/hackmd/authentication/hackmd-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hackmd-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/openapi/_original/hackmd-openapi-original.json
+  href: https://artifacts.apis.io/hackmd/openapi/_original/hackmd-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/hackmd-openapi-original.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/overlays/hackmd-openapi-overlay.yaml
+  href: https://artifacts.apis.io/hackmd/overlays/hackmd-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hackmd-openapi-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/packages/hackmd-packages.yml
+  href: https://artifacts.apis.io/hackmd/packages/hackmd-packages.yml
   title: ''
   type: Packages
   url: packages/hackmd-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/packages/hackmd-packages.yml
+  href: https://artifacts.apis.io/hackmd/packages/hackmd-packages.yml
   title: ''
   type: SDKs
   url: packages/hackmd-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/cli/hackmd-cli.yml
+  href: https://artifacts.apis.io/hackmd/cli/hackmd-cli.yml
   title: ''
   type: CLI
   url: cli/hackmd-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/mcp/hackmd-mcp.yml
+  href: https://artifacts.apis.io/hackmd/mcp/hackmd-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hackmd-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hackmd/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/llms/hackmd-llms.txt
+  href: https://artifacts.apis.io/hackmd/llms/hackmd-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hackmd-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/well-known/hackmd-well-known.yml
+  href: https://artifacts.apis.io/hackmd/well-known/hackmd-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hackmd-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/well-known/hackmd-api-catalog.json
+  href: https://artifacts.apis.io/hackmd/well-known/hackmd-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/hackmd-api-catalog.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/conventions/hackmd-conventions.yml
+  href: https://artifacts.apis.io/hackmd/conventions/hackmd-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hackmd-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/errors/hackmd-problem-types.yml
+  href: https://artifacts.apis.io/hackmd/errors/hackmd-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hackmd-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/rate-limits/hackmd-rate-limits.yml
+  href: https://artifacts.apis.io/hackmd/rate-limits/hackmd-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hackmd-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/lifecycle/hackmd-lifecycle.yml
+  href: https://artifacts.apis.io/hackmd/lifecycle/hackmd-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hackmd-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/data-model/hackmd-data-model.yml
+  href: https://artifacts.apis.io/hackmd/data-model/hackmd-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hackmd-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/conformance/hackmd-conformance.yml
+  href: https://artifacts.apis.io/hackmd/conformance/hackmd-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hackmd-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/security/hackmd-domain-security.yml
+  href: https://artifacts.apis.io/hackmd/security/hackmd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hackmd-domain-security.yml
 created: '2026-07-17'
 description: HackMD is a real-time collaborative Markdown editor and knowledge base for individuals and teams. Multiple people can co-edit a Markdown document live, organize notes into folders and team workspaces, and publish them as web pages, slide decks or books. HackMD exposes a v1 REST API at api.hackmd.io that lets developers programmatically create, read, update and delete personal and team notes, manage folders and folder ordering, upload image attachments, restore notes from trash, and read the current user profile and view history. The API authenticates with a personal access token sent as an HTTP bearer credential, is described by a published OpenAPI 3.0 specification and Swagger UI, ships an official Node.js/TypeScript client (@hackmd/api) and command-line interface, and advertises its full developer surface through an RFC 9727 api-catalog. HackMD is a Techstars-backed company.
+finops:
+- has_sources: true
+  method: derived
+  name: Hackmd Finops
+  primary_unit: team
+  service_category: ''
+  slug: hackmd-finops
+  template: false
 image: https://hackmd.io/favicon.png
 layout: provider
 modified: '2026-07-19'
 name: HackMD
 nav: Providers
 network: true
-overview: 'HackMD publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including History API, Profile API, Team Folders API, and 5 more. Tagged areas include Company, Markdown, Collaboration, Documentation, and Note Taking.
+overview: 'HackMD publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including History API, Profile API, Team Folders API, and 9 more. Tagged areas include Company, Markdown, Collaboration, Documentation, and Note Taking.
 
 
-  HackMD''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 24 more developer resources.'
-random_paper: 0
+  HackMD''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
+plans:
+- name: Hackmd Plans Pricing
+  plan_count: 3
+  slug: hackmd-plans-pricing
+- name: Hackmd Price Estimates
+  plan_count: 0
+  slug: hackmd-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Hackmd Rate Limits
   slug: hackmd-rate-limits
 score:
-  band: developing
-  composite: 50.0
+  band: strong
+  composite: 58.4
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 27
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 46.6
+    contract_quality: 47.2
     developer_ergonomics: 68.5
-    discoverability: 73.2
-    operational_transparency: 55.3
-  previous_composite: 50.0
+    discoverability: 66.1
+    operational_transparency: 57.9
+  previous_composite: 50.5
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 21
     mcp: derived
     skills: derived
   regulatory:
@@ -302,13 +346,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/screenshots/hackmd-2026-07-25T220526.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hackmd/hackmd-2026-07-25T220526.png
 security:
 - kind: authentication
   name: Hackmd Authentication
@@ -318,6 +363,14 @@ security:
   name: Hackmd Domain Security
   slug: hackmd-domain-security
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Create and publish a HackMD note
+  slug: hackmd-create-and-publish-note
+- name: Manage HackMD team notes
+  slug: hackmd-manage-team-notes
+- name: Organize HackMD notes with folders
+  slug: hackmd-organize-with-folders
 slug: hackmd
 tags:
 - Company

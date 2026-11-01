@@ -26,22 +26,24 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.2
-  scored_at: '2026-10-17'
+  score: 22.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface Cirkul serves from its own drinkcirkul.com host. It comprises an anonymous Model Context Protocol (MCP) server at /api/mcp exposing five tools with real JSON Schema i
   name: Cirkul Storefront Agent API
   slug: storefront-agent-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -108,62 +110,62 @@ common:
   type: Sustainability
   url: https://drinkcirkul.com/pages/recycling
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cirkul/refs/heads/main/mcp/cirkul-mcp.yml
+  href: https://artifacts.apis.io/cirkul/mcp/cirkul-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cirkul-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cirkul/refs/heads/main/mcp/cirkul-tool-crosswalk.yml
+  href: https://artifacts.apis.io/cirkul/mcp/cirkul-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cirkul-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cirkul/refs/heads/main/llms/cirkul-llms.txt
+  href: https://artifacts.apis.io/cirkul/llms/cirkul-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cirkul-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cirkul/refs/heads/main/well-known/cirkul-well-known.yml
+  href: https://artifacts.apis.io/cirkul/well-known/cirkul-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cirkul-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cirkul/refs/heads/main/authentication/cirkul-authentication.yml
+  href: https://artifacts.apis.io/cirkul/authentication/cirkul-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cirkul-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cirkul/refs/heads/main/scopes/cirkul-scopes.yml
+  href: https://artifacts.apis.io/cirkul/scopes/cirkul-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cirkul-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cirkul/refs/heads/main/conformance/cirkul-conformance.yml
+  href: https://artifacts.apis.io/cirkul/conformance/cirkul-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cirkul-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cirkul/refs/heads/main/errors/cirkul-problem-types.yml
+  href: https://artifacts.apis.io/cirkul/errors/cirkul-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cirkul-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cirkul/refs/heads/main/conventions/cirkul-conventions.yml
+  href: https://artifacts.apis.io/cirkul/conventions/cirkul-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cirkul-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cirkul/refs/heads/main/lifecycle/cirkul-lifecycle.yml
+  href: https://artifacts.apis.io/cirkul/lifecycle/cirkul-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cirkul-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cirkul/refs/heads/main/security/cirkul-domain-security.yml
+  href: https://artifacts.apis.io/cirkul/security/cirkul-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cirkul-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cirkul/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cirkul/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -184,7 +186,7 @@ overview: 'Cirkul is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Cirkul''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 12
+random_paper: 2
 scopes:
 - name: Cirkul Scopes
   scope_count: 4
@@ -192,7 +194,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.5
+  composite: 28.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 32.0
@@ -200,15 +202,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.3
-    discoverability: 66.7
-    operational_transparency: 2.6
-  previous_composite: 29.4
+    discoverability: 56.7
+    operational_transparency: 5.3
+  previous_composite: 28.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -219,14 +221,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cirkul/refs/heads/main/screenshots/cirkul-2026-08-07T163427.png
+screenshot: https://apis.io/screenshots/cirkul/cirkul-2026-08-07T163427.png
 security:
 - kind: authentication
   name: Cirkul Authentication
@@ -236,6 +238,12 @@ security:
   name: Cirkul Domain Security
   slug: cirkul-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Build a Cirkul cart and hand off for buyer approval
+  slug: cirkul-build-cart
+- name: Find and compare Cirkul flavors and bottles
+  slug: cirkul-find-flavors
 slug: cirkul
 tags:
 - Company

@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Banyan Infrastructure provides project finance software for infrastructure funds, developers, and green banks.
@@ -32,7 +34,7 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-infrastructure/refs/heads/main/hosts/banyan-infrastructure-hosts.yml
+  href: https://artifacts.apis.io/banyan-infrastructure/hosts/banyan-infrastructure-hosts.yml
   title: ''
   type: Hosts
   url: hosts/banyan-infrastructure-hosts.yml
@@ -45,7 +47,7 @@ common:
   type: Newsroom
   url: https://banyaninfrastructure.com/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-infrastructure/refs/heads/main/security/banyan-infrastructure-domain-security.yml
+  href: https://artifacts.apis.io/banyan-infrastructure/security/banyan-infrastructure-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/banyan-infrastructure-domain-security.yml
@@ -70,7 +72,7 @@ name: Banyan Infrastructure
 nav: Providers
 network: true
 overview: Banyan Infrastructure is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Infrastructure, Software, Project Finance, and Renewable Energy.
-random_paper: 15
+random_paper: 7
 score:
   band: minimal
   composite: 7.2
@@ -98,14 +100,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/banyan-infrastructure/refs/heads/main/screenshots/banyan-infrastructure-2026-10-11T101535.png
+screenshot: https://apis.io/screenshots/banyan-infrastructure/banyan-infrastructure-2026-10-11T101535.png
 security:
 - kind: domain-security
   name: Banyan Infrastructure Domain Security

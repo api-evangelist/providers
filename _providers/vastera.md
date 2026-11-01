@@ -12,12 +12,12 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vastera/refs/heads/main/security/vastera-domain-security.yml
+  href: https://artifacts.apis.io/vastera/security/vastera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vastera-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vastera/refs/heads/main/llms/vastera-llms.txt
+  href: https://artifacts.apis.io/vastera/llms/vastera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vastera-llms.txt
@@ -34,8 +34,8 @@ name: Vastera
 nav: Providers
 network: true
 overview: Vastera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Global Trade Management, Supply Chain, Trade Compliance, and Logistics.
-random_paper: 10
-screenshot: https://raw.githubusercontent.com/api-evangelist/vastera/refs/heads/main/screenshots/vastera-2026-09-02T165456.png
+random_paper: 14
+screenshot: https://apis.io/screenshots/vastera/vastera-2026-09-02T165456.png
 security:
 - kind: domain-security
   name: Vastera Domain Security

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.1
-  scored_at: '2026-10-17'
+  score: 25.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 51
   slug: weel-agentic-access
   summary_line: 51 operations · 27 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://public.letsweel.com
   baseurl_source: declared
@@ -119,44 +121,49 @@ apis:
   description: This group of endpoints allows you to retrieve and manage user data, including listing users and fetching individual user details.
   name: Weel Users API
   slug: weel-users-api
-artifact_total: 21
+artifact_total: 27
 collections:
 - collection_type: open
   name: Weel OpenAPI
   slug: open-weel
 common:
+- group: commercial
+  href: https://artifacts.apis.io/weel/plans/weel-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/weel-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/capabilities/weel-capability-edges.yml
+  href: https://artifacts.apis.io/weel/capabilities/weel-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/weel-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/mcp/weel-mcp.yml
+  href: https://artifacts.apis.io/weel/mcp/weel-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/weel-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/overlays/weel-openapi-overlay.yaml
+  href: https://artifacts.apis.io/weel/overlays/weel-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/weel-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/agentic-access/weel-agentic-access.yml
+  href: https://artifacts.apis.io/weel/agentic-access/weel-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/weel-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/security/weel-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/weel/security/weel-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/weel-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/security/weel-domain-security.yml
+  href: https://artifacts.apis.io/weel/security/weel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/weel-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/authentication/weel-authentication.yml
+  href: https://artifacts.apis.io/weel/authentication/weel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/weel-authentication.yml
@@ -193,37 +200,37 @@ common:
   type: TrustCenter
   url: https://trust.letsweel.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/security/weel-trust-center.yml
+  href: https://artifacts.apis.io/weel/security/weel-trust-center.yml
   title: ''
   type: Compliance
   url: security/weel-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/security/weel-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/weel/security/weel-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/weel-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/well-known/weel-well-known.yml
+  href: https://artifacts.apis.io/weel/well-known/weel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/weel-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/well-known/weel-security.txt
+  href: https://artifacts.apis.io/weel/well-known/weel-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/weel-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/llms/weel-llms.txt
+  href: https://artifacts.apis.io/weel/llms/weel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/weel-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/weel/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/changelog/weel-changelog.yml
+  href: https://artifacts.apis.io/weel/changelog/weel-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/weel-changelog.yml
@@ -250,6 +257,14 @@ common:
 created: '2026-07-24'
 description: Weel (formerly DiviPay, operated by Weel Pty Ltd) is a Melbourne-based all-in-one spend management platform for finance teams in Australia and New Zealand, serving over 4,000 finance teams and 60,000+ card holders. Weel issues virtual and physical Visa debit cards with real-time limits and controls, and layers accounts payable automation, expense management, reimbursements, subscription management, budgets, and approval policies on top. Rather than operating payment rails directly, Weel sits on the spend and AP/AR seam, syncing approved spend into Xero, QuickBooks, MYOB, and NetSuite. On the API posture, Weel ships a genuine public developer portal at developer.letsweel.com (Redocly-based) documenting a single RESTful "Weel Open API" that both reads and writes budgets, users, transactions, custom fields, accounting codes, categories, invites, and top-ups, authenticated with a bearer API key generated in-app. API access is an Enterprise-tier capability. No public webhooks, Postman
   collection, or OAuth flow are documented as of this review.
+finops:
+- has_sources: true
+  method: derived
+  name: Weel Finops
+  primary_unit: platform fee
+  service_category: ''
+  slug: weel-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-07-24'
@@ -259,25 +274,32 @@ network: true
 overview: 'Weel publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounting Codes API, Budget Members API, Budget Owners API, and 12 more. Tagged areas include Payments, Australia, Spend Management, Expense Management, and Corporate Cards.
 
 
-  Weel''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, changelog, support, and 20 more developer resources.'
-random_paper: 11
+  Weel''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, changelog, support, and 21 more developer resources.'
+plans:
+- name: Weel Plans Pricing
+  plan_count: 3
+  slug: weel-plans-pricing
+- name: Weel Price Estimates
+  plan_count: 0
+  slug: weel-price-estimates
+random_paper: 21
 score:
-  band: developing
-  composite: 54.2
+  band: strong
+  composite: 58.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 51.6
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -286,7 +308,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 54.2
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -303,13 +325,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/screenshots/weel-2026-08-17T082857.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/weel/weel-2026-08-17T082857.png
 security:
 - kind: authentication
   name: Weel Authentication
@@ -327,6 +350,14 @@ security:
   name: Weel Trust Center
   slug: weel-trust-center
   summary_line: SOC 2 Type 1, SOC 2 Type 2, ISO 27001:2022
+skill_count: 3
+skills:
+- name: Create and fund Weel budgets
+  slug: weel-manage-budgets
+- name: Provision and manage Weel users
+  slug: weel-provision-users
+- name: Reconcile Weel transactions to the chart of accounts
+  slug: weel-reconcile-transactions
 slug: weel
 tags:
 - Payments

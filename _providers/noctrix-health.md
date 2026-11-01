@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A live Model Context Protocol server operated by Noctrix Health on the Nidra product site. Discovered anonymously from RFC 9728 OAuth 2.0 Protected Resource Metadata at https://nidrarls.com/.well-know
@@ -45,7 +47,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noctrix-health/refs/heads/main/security/noctrix-health-domain-security.yml
+  href: https://artifacts.apis.io/noctrix-health/security/noctrix-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/noctrix-health-domain-security.yml
@@ -78,47 +80,47 @@ common:
   type: TermsOfService
   url: https://nidrarls.com/terms-of-use/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noctrix-health/refs/heads/main/llms/noctrix-health-llms.txt
+  href: https://artifacts.apis.io/noctrix-health/llms/noctrix-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/noctrix-health-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noctrix-health/refs/heads/main/mcp/noctrix-health-mcp.yml
+  href: https://artifacts.apis.io/noctrix-health/mcp/noctrix-health-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/noctrix-health-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noctrix-health/refs/heads/main/well-known/noctrix-health-well-known.yml
+  href: https://artifacts.apis.io/noctrix-health/well-known/noctrix-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/noctrix-health-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noctrix-health/refs/heads/main/authentication/noctrix-health-authentication.yml
+  href: https://artifacts.apis.io/noctrix-health/authentication/noctrix-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/noctrix-health-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noctrix-health/refs/heads/main/scopes/noctrix-health-scopes.yml
+  href: https://artifacts.apis.io/noctrix-health/scopes/noctrix-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/noctrix-health-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noctrix-health/refs/heads/main/conformance/noctrix-health-conformance.yml
+  href: https://artifacts.apis.io/noctrix-health/conformance/noctrix-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/noctrix-health-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noctrix-health/refs/heads/main/conventions/noctrix-health-conventions.yml
+  href: https://artifacts.apis.io/noctrix-health/conventions/noctrix-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/noctrix-health-conventions.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/noctrix-health/refs/heads/main/plans/noctrix-health-plans-pricing.yml
+  href: https://artifacts.apis.io/noctrix-health/plans/noctrix-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/noctrix-health-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/noctrix-health/refs/heads/main/rate-limits/noctrix-health-rate-limits.yml
+  href: https://artifacts.apis.io/noctrix-health/rate-limits/noctrix-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/noctrix-health-rate-limits.yml
@@ -143,7 +145,7 @@ plans:
 - name: Noctrix Health Plans Pricing
   plan_count: 0
   slug: noctrix-health-plans-pricing
-random_paper: 20
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Noctrix Health Rate Limits
@@ -155,7 +157,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: emerging
-  composite: 22.4
+  composite: 21.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -169,9 +171,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 22.4
+  previous_composite: 21.4
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -181,14 +183,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/noctrix-health/refs/heads/main/screenshots/noctrix-health-2026-09-02T150800.png
+screenshot: https://apis.io/screenshots/noctrix-health/noctrix-health-2026-09-02T150800.png
 security:
 - kind: authentication
   name: Noctrix Health Authentication

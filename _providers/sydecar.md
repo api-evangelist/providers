@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Sydecar API lets developers programmatically run funding processes on Sydecar's legal, banking, and compliance rails, with the Special Purpose Vehicle (SPV) as the foundational unit — create, find
@@ -44,22 +46,22 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sydecar/refs/heads/main/security/sydecar-domain-security.yml
+  href: https://artifacts.apis.io/sydecar/security/sydecar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sydecar-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sydecar/refs/heads/main/authentication/sydecar-authentication.yml
+  href: https://artifacts.apis.io/sydecar/authentication/sydecar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sydecar-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sydecar/refs/heads/main/sandbox/sydecar-sandbox.yml
+  href: https://artifacts.apis.io/sydecar/sandbox/sydecar-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sydecar-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sydecar/refs/heads/main/llms/sydecar-llms.txt
+  href: https://artifacts.apis.io/sydecar/llms/sydecar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sydecar-llms.txt
@@ -107,10 +109,10 @@ overview: 'Sydecar is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Sydecar''s developer surface includes authentication, sandbox, engineering blog, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 21
+random_paper: 3
 score:
-  band: emerging
-  composite: 22.4
+  band: thin
+  composite: 27.2
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -118,29 +120,29 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 40.5
-    discoverability: 73.2
+    developer_ergonomics: 54.8
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 22.3
+  previous_composite: 27.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sydecar/refs/heads/main/screenshots/sydecar-2026-09-02T161433.png
+screenshot: https://apis.io/screenshots/sydecar/sydecar-2026-09-02T161433.png
 security:
 - kind: authentication
   name: Sydecar Authentication

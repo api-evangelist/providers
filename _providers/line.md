@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.9
-  scored_at: '2026-10-17'
+  score: 46.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 4
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 111
   slug: line-agentic-access
   summary_line: 111 operations · 59 acting · 4 human-in-the-loop
-api_count: 10
+api_count: 9
 apis:
 - description: End-user authentication and authorization over OAuth 2.0 authorization code grant and OpenID Connect. Authorization runs at access.line.me; token, userinfo, revocation and JWKS endpoints are on api.li
   name: LINE Login v2.1
@@ -271,15 +273,12 @@ apis:
     question: How do I send a mission sticker to a LINE user?
   phrasing_ops: 1
   slug: line-shop-api
-artifact_total: 29
+artifact_total: 33
 asyncapis:
 - description: 'AsyncAPI description of the webhook event surface published by the LINE Messaging API to bot servers. The Messaging API delivers webhook events as HTTPS POST requests to the configured webhook URL of '
   name: LINE Messaging Webhook Event Surface
   slug: line-messaging-webhook
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LINE Messaging Channel API
   slug: open-line-channel-api
@@ -297,137 +296,137 @@ collections:
   slug: open-line
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/capabilities/line-capability-edges.yml
+  href: https://artifacts.apis.io/line/capabilities/line-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/line-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-messaging-api-overlay.yaml
+  href: https://artifacts.apis.io/line/overlays/line-messaging-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-messaging-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-webhook-overlay.yaml
+  href: https://artifacts.apis.io/line/overlays/line-webhook-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-webhook-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-channel-access-token-overlay.yaml
+  href: https://artifacts.apis.io/line/overlays/line-channel-access-token-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-channel-access-token-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-insight-overlay.yaml
+  href: https://artifacts.apis.io/line/overlays/line-insight-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-insight-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-manage-audience-overlay.yaml
+  href: https://artifacts.apis.io/line/overlays/line-manage-audience-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-manage-audience-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-liff-overlay.yaml
+  href: https://artifacts.apis.io/line/overlays/line-liff-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-liff-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-module-overlay.yaml
+  href: https://artifacts.apis.io/line/overlays/line-module-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-module-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-module-attach-overlay.yaml
+  href: https://artifacts.apis.io/line/overlays/line-module-attach-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-module-attach-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-shop-overlay.yaml
+  href: https://artifacts.apis.io/line/overlays/line-shop-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-shop-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/agentic-access/line-agentic-access.yml
+  href: https://artifacts.apis.io/line/agentic-access/line-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/line-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/security/line-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/line/security/line-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/line-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/security/line-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/line/security/line-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/line-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/security/line-domain-security.yml
+  href: https://artifacts.apis.io/line/security/line-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/line-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/authentication/line-authentication.yml
+  href: https://artifacts.apis.io/line/authentication/line-authentication.yml
   title: ''
   type: Authentication
   url: authentication/line-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/scopes/line-scopes.yml
+  href: https://artifacts.apis.io/line/scopes/line-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/line-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/packages/line-packages.yml
+  href: https://artifacts.apis.io/line/packages/line-packages.yml
   title: ''
   type: Packages
   url: packages/line-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/packages/line-packages.yml
+  href: https://artifacts.apis.io/line/packages/line-packages.yml
   title: ''
   type: SDKs
   url: packages/line-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/cli/line-cli.yml
+  href: https://artifacts.apis.io/line/cli/line-cli.yml
   title: ''
   type: CLI
   url: cli/line-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/components/line-components.yml
+  href: https://artifacts.apis.io/line/components/line-components.yml
   title: ''
   type: Components
   url: components/line-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/sandbox/line-sandbox.yml
+  href: https://artifacts.apis.io/line/sandbox/line-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/line-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/conventions/line-conventions.yml
+  href: https://artifacts.apis.io/line/conventions/line-conventions.yml
   title: ''
   type: Conventions
   url: conventions/line-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/conventions/line-conventions.yml
+  href: https://artifacts.apis.io/line/conventions/line-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/line-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/errors/line-problem-types.yml
+  href: https://artifacts.apis.io/line/errors/line-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/line-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/rate-limits/line-rate-limits.yml
+  href: https://artifacts.apis.io/line/rate-limits/line-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/line-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/plans/line-plans-pricing.yml
+  href: https://artifacts.apis.io/line/plans/line-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/line-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/lifecycle/line-lifecycle.yml
+  href: https://artifacts.apis.io/line/lifecycle/line-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/line-lifecycle.yml
@@ -436,32 +435,32 @@ common:
   type: StatusPage
   url: https://api.line-status.info/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/lifecycle/line-lifecycle.yml
+  href: https://artifacts.apis.io/line/lifecycle/line-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/line-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/changelog/line-changelog.yml
+  href: https://artifacts.apis.io/line/changelog/line-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/line-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/conformance/line-conformance.yml
+  href: https://artifacts.apis.io/line/conformance/line-conformance.yml
   title: ''
   type: Conformance
   url: conformance/line-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/data-model/line-data-model.yml
+  href: https://artifacts.apis.io/line/data-model/line-data-model.yml
   title: ''
   type: DataModel
   url: data-model/line-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/well-known/line-well-known.yml
+  href: https://artifacts.apis.io/line/well-known/line-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/line-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/well-known/line-security.txt
+  href: https://artifacts.apis.io/line/well-known/line-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/line-security.txt
@@ -470,22 +469,22 @@ common:
   type: MCPServer
   url: https://github.com/line/line-bot-mcp-server
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/mcp/line-mcp.yml
+  href: https://artifacts.apis.io/line/mcp/line-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/line-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/mcp/line-tool-crosswalk.yml
+  href: https://artifacts.apis.io/line/mcp/line-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/line-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/line/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/llms/line-llms.txt
+  href: https://artifacts.apis.io/line/llms/line-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/line-llms.txt
@@ -555,6 +554,14 @@ common:
   url: https://github.com/line/line-openapi/blob/fa5577c9ea874d2dbd8fadc85a4cb3a1b29d8cbe/.spectral.yaml
 created: '2026-05-11'
 description: LINE is a Japan-based messaging platform operated by LY Corporation, with over 200 million monthly active users across Japan, Taiwan, Thailand and Indonesia, offering messaging, payments, news and a broad ecosystem of services. The LINE Developers platform exposes public APIs for building chatbots and Official Accounts (Messaging API), issuing and rotating credentials (Channel Access Token API), reading delivery and audience analytics (Insight API), building marketing audiences (Manage Audience API), running web apps inside the LINE client (LIFF), and social login via LINE Login v2.1 over OAuth 2.0 and OpenID Connect. LINE publishes nine first-party OpenAPI documents covering 111 operations at github.com/line/line-openapi and generates all six official server SDKs from them. Server API calls authenticate with a channel access token presented as an HTTP Bearer credential and scoped to a single LINE channel.
+finops:
+- has_sources: true
+  method: derived
+  name: Line Finops
+  primary_unit: messages
+  service_category: ''
+  slug: line-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/line.png
 layout: provider
 mcp_servers:
@@ -576,7 +583,7 @@ plans:
 - name: Line Plans Pricing
   plan_count: 3
   slug: line-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 10
   name: Line Rate Limits
@@ -614,22 +621,22 @@ scopes:
   summary_line: 3 scopes · authorization_code
 score:
   band: exemplar
-  composite: 72.7
+  composite: 75.2
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 72.0
+    artifact_dirs: 31
+    catalog_earned: 75.0
     catalog_earned_first_party: 32.0
-    catalog_gap: 43.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.9
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 42.4
-    contract_quality: 56.0
+    contract_quality: 55.5
     developer_ergonomics: 80.4
     discoverability: 76.7
-    operational_transparency: 92.1
+    operational_transparency: 94.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -637,7 +644,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 71.8
+  previous_composite: 73.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -654,13 +661,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/screenshots/line-2026-06-20T184539.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/line/line-2026-06-20T184539.png
 security:
 - kind: authentication
   name: Line Authentication
@@ -674,6 +682,16 @@ security:
   name: Line Vulnerability Disclosure
   slug: line-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 4
+skills:
+- name: line-issue-channel-access-token
+  slug: line-issue-channel-access-token
+- name: line-narrowcast-to-audience
+  slug: line-narrowcast-to-audience
+- name: line-push-message-idempotently
+  slug: line-push-message-idempotently
+- name: line-reply-to-webhook-event
+  slug: line-reply-to-webhook-event
 slug: line
 tags:
 - Messaging

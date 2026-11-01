@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +59,7 @@ common:
   type: JobBoard
   url: https://www.chingona.ventures/chingona-portfolio-job-board
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chingona-ventures/refs/heads/main/security/chingona-ventures-domain-security.yml
+  href: https://artifacts.apis.io/chingona-ventures/security/chingona-ventures-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chingona-ventures-domain-security.yml
@@ -73,7 +75,7 @@ overview: 'Chingona Ventures is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Chingona Ventures'' developer surface includes support, signup flow, and 4 more developer resources.'
-random_paper: 16
+random_paper: 0
 score:
   band: minimal
   composite: 7.3
@@ -99,14 +101,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/chingona-ventures/refs/heads/main/screenshots/chingona-ventures-2026-07-25T205228.png
+screenshot: https://apis.io/screenshots/chingona-ventures/chingona-ventures-2026-07-25T205228.png
 security:
 - kind: domain-security
   name: Chingona Ventures Domain Security

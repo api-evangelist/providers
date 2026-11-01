@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Agent2Agent (A2A) surface: an agent card served from https://fleethelp.ai/.well-known/agent.json (protocolVersion 0.3.0, version 1.0.0, authentication "none") advertising four text/plain skills — infr'
@@ -60,47 +62,47 @@ common:
   type: PrivacyPolicy
   url: https://fleethelp.ai/data/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fleethelp-ai/refs/heads/main/a2a/fleethelp-ai-a2a.yml
+  href: https://artifacts.apis.io/fleethelp-ai/a2a/fleethelp-ai-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/fleethelp-ai-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fleethelp-ai/refs/heads/main/well-known/fleethelp-ai-well-known.yml
+  href: https://artifacts.apis.io/fleethelp-ai/well-known/fleethelp-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fleethelp-ai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fleethelp-ai/refs/heads/main/llms/fleethelp-ai-llms.txt
+  href: https://artifacts.apis.io/fleethelp-ai/llms/fleethelp-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fleethelp-ai-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fleethelp-ai/refs/heads/main/plans/fleethelp-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/fleethelp-ai/plans/fleethelp-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fleethelp-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fleethelp-ai/refs/heads/main/rate-limits/fleethelp-ai-rate-limits.yml
+  href: https://artifacts.apis.io/fleethelp-ai/rate-limits/fleethelp-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fleethelp-ai-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fleethelp-ai/refs/heads/main/lifecycle/fleethelp-ai-lifecycle.yml
+  href: https://artifacts.apis.io/fleethelp-ai/lifecycle/fleethelp-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fleethelp-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fleethelp-ai/refs/heads/main/conformance/fleethelp-ai-conformance.yml
+  href: https://artifacts.apis.io/fleethelp-ai/conformance/fleethelp-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fleethelp-ai-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fleethelp-ai/refs/heads/main/security/fleethelp-ai-domain-security.yml
+  href: https://artifacts.apis.io/fleethelp-ai/security/fleethelp-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fleethelp-ai-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fleethelp-ai/refs/heads/main/regulatory/fleethelp-ai-regulatory-posture.yml
+  href: https://artifacts.apis.io/fleethelp-ai/regulatory/fleethelp-ai-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/fleethelp-ai-regulatory-posture.yml
@@ -128,14 +130,14 @@ plans:
 - name: Fleethelp Ai Plans Pricing
   plan_count: 3
   slug: fleethelp-ai-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Fleethelp Ai Rate Limits
   slug: fleethelp-ai-rate-limits
 score:
   band: thin
-  composite: 28.0
+  composite: 27.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 44.0
@@ -143,13 +145,13 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -158,7 +160,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 27.9
+  previous_composite: 27.2
   provenance:
     conformance: first-party
   regulatory:
@@ -167,14 +169,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fleethelp-ai/refs/heads/main/screenshots/fleethelp-ai-2026-10-11T104524.png
+screenshot: https://apis.io/screenshots/fleethelp-ai/fleethelp-ai-2026-10-11T104524.png
 security:
 - kind: domain-security
   name: Fleethelp Ai Domain Security

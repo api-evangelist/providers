@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -101,17 +103,17 @@ common:
   type: Compliance
   url: https://www.kbra.com/regulatory/certifications-and-recognitions
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kroll-bond-rating-agency/refs/heads/main/conformance/kroll-bond-rating-agency-conformance.yml
+  href: https://artifacts.apis.io/kroll-bond-rating-agency/conformance/kroll-bond-rating-agency-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kroll-bond-rating-agency-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kroll-bond-rating-agency/refs/heads/main/security/kroll-bond-rating-agency-domain-security.yml
+  href: https://artifacts.apis.io/kroll-bond-rating-agency/security/kroll-bond-rating-agency-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kroll-bond-rating-agency-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kroll-bond-rating-agency/refs/heads/main/llms/kroll-bond-rating-agency-llms.txt
+  href: https://artifacts.apis.io/kroll-bond-rating-agency/llms/kroll-bond-rating-agency-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kroll-bond-rating-agency-llms.txt
@@ -131,7 +133,7 @@ overview: 'Kroll Bond Rating Agency is profiled on the [APIs.io](https://apis.io
 random_paper: 2
 score:
   band: emerging
-  composite: 17.6
+  composite: 17.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -145,7 +147,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 56.3
+    discoverability: 50.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -154,7 +156,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 17.6
+  previous_composite: 17.0
   provenance:
     conformance: first-party
   regulatory:
@@ -163,14 +165,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 22.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kroll-bond-rating-agency/refs/heads/main/screenshots/kroll-bond-rating-agency-2026-07-25T224301.png
+screenshot: https://apis.io/screenshots/kroll-bond-rating-agency/kroll-bond-rating-agency-2026-07-25T224301.png
 security:
 - kind: domain-security
   name: Kroll Bond Rating Agency Domain Security

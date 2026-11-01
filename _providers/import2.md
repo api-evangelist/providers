@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 20.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://www.import2.com/api/v2.1
@@ -49,11 +51,8 @@ apis:
   description: Supported source and destination migration tools.
   name: Import2 Tools API
   slug: import2-tools-api
-artifact_total: 9
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Import2 Imports API
   slug: open-import2-imports-api
@@ -62,7 +61,7 @@ collections:
   slug: open-import2-tools-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/overlays/import2-openapi-overlay.yaml
+  href: https://artifacts.apis.io/import2/overlays/import2-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/import2-openapi-overlay.yaml
@@ -111,42 +110,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/import2
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/authentication/import2-authentication.yml
+  href: https://artifacts.apis.io/import2/authentication/import2-authentication.yml
   title: ''
   type: Authentication
   url: authentication/import2-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/errors/import2-problem-types.yml
+  href: https://artifacts.apis.io/import2/errors/import2-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/import2-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/rate-limits/import2-rate-limits.yml
+  href: https://artifacts.apis.io/import2/rate-limits/import2-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/import2-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/lifecycle/import2-lifecycle.yml
+  href: https://artifacts.apis.io/import2/lifecycle/import2-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/import2-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/conventions/import2-conventions.yml
+  href: https://artifacts.apis.io/import2/conventions/import2-conventions.yml
   title: ''
   type: Conventions
   url: conventions/import2-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/data-model/import2-data-model.yml
+  href: https://artifacts.apis.io/import2/data-model/import2-data-model.yml
   title: ''
   type: DataModel
   url: data-model/import2-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/sandbox/import2-sandbox.yml
+  href: https://artifacts.apis.io/import2/sandbox/import2-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/import2-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/conformance/import2-conformance.yml
+  href: https://artifacts.apis.io/import2/conformance/import2-conformance.yml
   title: ''
   type: Conformance
   url: conformance/import2-conformance.yml
@@ -155,27 +154,27 @@ common:
   type: Compliance
   url: https://trust.import2.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/security/import2-trust-center.yml
+  href: https://artifacts.apis.io/import2/security/import2-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/import2-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/security/import2-domain-security.yml
+  href: https://artifacts.apis.io/import2/security/import2-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/import2-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/mcp/import2-mcp.yml
+  href: https://artifacts.apis.io/import2/mcp/import2-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/import2-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/import2/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/llms/import2-llms.txt
+  href: https://artifacts.apis.io/import2/llms/import2-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/import2-llms.txt
@@ -191,14 +190,14 @@ overview: 'Import2 publishes 2 API contracts indexed on the [APIs.io](https://ap
 
 
   Import2''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 19 more developer resources.'
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Import2 Rate Limits
   slug: import2-rate-limits
 score:
-  band: thin
-  composite: 38.5
+  band: developing
+  composite: 41.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 45.0
@@ -206,15 +205,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 52.6
+    access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 14.2
     developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 23.7
-  previous_composite: 38.4
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 41.1
   provenance:
     conformance: derived
     contracts:
@@ -235,14 +234,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/screenshots/import2-2026-07-25T222154.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/import2/import2-2026-07-25T222154.png
 security:
 - kind: authentication
   name: Import2 Authentication
@@ -256,6 +256,12 @@ security:
   name: Import2 Trust Center
   slug: import2-trust-center
   summary_line: SOC 2 Type II, GDPR, CCPA
+skill_count: 2
+skills:
+- name: Check Import2 migration status
+  slug: import2-check-migration-status
+- name: Run an Import2 data migration
+  slug: import2-run-migration
 slug: import2
 tags:
 - Company

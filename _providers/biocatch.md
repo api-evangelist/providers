@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,12 +67,12 @@ common:
   type: Compliance
   url: https://www.biocatch.com/trust
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biocatch/refs/heads/main/conformance/biocatch-conformance.yml
+  href: https://artifacts.apis.io/biocatch/conformance/biocatch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/biocatch-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/biocatch/refs/heads/main/security/biocatch-domain-security.yml
+  href: https://artifacts.apis.io/biocatch/security/biocatch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/biocatch-domain-security.yml
@@ -87,7 +89,7 @@ overview: 'BioCatch is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BioCatch''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 15
+random_paper: 13
 score:
   band: emerging
   composite: 13.9
@@ -119,14 +121,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 18.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/biocatch/refs/heads/main/screenshots/biocatch-2026-07-25T203032.png
+screenshot: https://apis.io/screenshots/biocatch/biocatch-2026-07-25T203032.png
 security:
 - kind: domain-security
   name: Biocatch Domain Security

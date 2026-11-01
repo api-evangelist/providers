@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.2
-  scored_at: '2026-10-17'
+  score: 25.2
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://api.dimensionlabs.io
@@ -55,11 +57,8 @@ apis:
   description: The Index API from Dashbot — 1 operation(s) for index.
   name: Dashbot Index API
   slug: dashbot-index-api
-artifact_total: 11
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Export API
   slug: open-dashbot-export-api
@@ -85,67 +84,67 @@ common:
   type: GettingStarted
   url: https://docs.dimensionlabs.io/reference/generating-dashbot-api-key
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/authentication/dashbot-authentication.yml
+  href: https://artifacts.apis.io/dashbot/authentication/dashbot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dashbot-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/llms/dashbot-llms.txt
+  href: https://artifacts.apis.io/dashbot/llms/dashbot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dashbot-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/packages/dashbot-packages.yml
+  href: https://artifacts.apis.io/dashbot/packages/dashbot-packages.yml
   title: ''
   type: Packages
   url: packages/dashbot-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/packages/dashbot-packages.yml
+  href: https://artifacts.apis.io/dashbot/packages/dashbot-packages.yml
   title: ''
   type: SDKs
   url: packages/dashbot-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/errors/dashbot-problem-types.yml
+  href: https://artifacts.apis.io/dashbot/errors/dashbot-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dashbot-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dashbot/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/security/dashbot-domain-security.yml
+  href: https://artifacts.apis.io/dashbot/security/dashbot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dashbot-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/mcp/dashbot-mcp.yml
+  href: https://artifacts.apis.io/dashbot/mcp/dashbot-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dashbot-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/mcp/dashbot-tool-crosswalk.yml
+  href: https://artifacts.apis.io/dashbot/mcp/dashbot-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/dashbot-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/conventions/dashbot-conventions.yml
+  href: https://artifacts.apis.io/dashbot/conventions/dashbot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dashbot-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/data-model/dashbot-data-model.yml
+  href: https://artifacts.apis.io/dashbot/data-model/dashbot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dashbot-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/lifecycle/dashbot-lifecycle.yml
+  href: https://artifacts.apis.io/dashbot/lifecycle/dashbot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dashbot-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/conformance/dashbot-conformance.yml
+  href: https://artifacts.apis.io/dashbot/conformance/dashbot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dashbot-conformance.yml
@@ -154,17 +153,17 @@ common:
   type: Compliance
   url: https://www.dimensionlabs.io/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/plans/dashbot-plans-pricing.yml
+  href: https://artifacts.apis.io/dashbot/plans/dashbot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dashbot-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/rate-limits/dashbot-rate-limits.yml
+  href: https://artifacts.apis.io/dashbot/rate-limits/dashbot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dashbot-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/overlays/dashbot-export-api-overlay.yaml
+  href: https://artifacts.apis.io/dashbot/overlays/dashbot-export-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dashbot-export-api-overlay.yaml
@@ -202,6 +201,14 @@ common:
   url: https://docs.dimensionlabs.io/docs/troubleshoting
 created: '2026-07-17'
 description: Dashbot is a conversational-data analytics platform (now operating as Dimension Labs) that ingests chatbot, voice-assistant, live-chat, call, survey and other unstructured customer conversations and enriches them into structured "dimensions" for causal intelligence and reporting. Data is sent in through a Universal REST tracker and dozens of one-click integrations (Twilio, Slack, Intercom, Zendesk, Salesforce, Amazon Lex/Connect, Google Dialogflow, Genesys, Cognigy, Kore.ai, Rasa, and more), then explored through dashboards, data explorer, flows and an analytics Agent. A REST Export API (api.dimensionlabs.io) and first-party JavaScript, Python and Ruby SDKs let teams pull enriched data back out programmatically. Dashbot was surfaced as a portfolio company of bessemer-venture-partners; the company rebranded to Dimension Labs while the API and SDKs retain the Dashbot name (api.dashbot.io still responds).
+finops:
+- has_sources: true
+  method: derived
+  name: Dashbot Finops
+  primary_unit: records
+  service_category: ''
+  slug: dashbot-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dashbot.png
 layout: provider
 mcp_servers:
@@ -218,32 +225,35 @@ overview: 'Dashbot publishes 4 API contracts indexed on the [APIs.io](https://ap
   Dashbot''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 23 more developer resources.'
 plans:
 - name: Dashbot Plans Pricing
-  plan_count: 5
+  plan_count: 6
   slug: dashbot-plans-pricing
-random_paper: 15
+- name: Dashbot Price Estimates
+  plan_count: 0
+  slug: dashbot-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Dashbot Rate Limits
   slug: dashbot-rate-limits
 score:
   band: developing
-  composite: 49.8
+  composite: 52.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 49.0
+    artifact_dirs: 21
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 41.6
-    developer_ergonomics: 55.4
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 50.4
+    developer_ergonomics: 66.1
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 51.2
   provenance:
     conformance: first-party
     contracts:
@@ -259,14 +269,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/screenshots/dashbot-2026-07-25T211226.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dashbot/dashbot-2026-07-25T211226.png
 security:
 - kind: authentication
   name: Dashbot Authentication
@@ -276,6 +286,14 @@ security:
   name: Dashbot Domain Security
   slug: dashbot-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Discover the Dimension Labs Export API surface
+  slug: dashbot-discover-export-endpoints
+- name: Export Dimension Labs enrichment data
+  slug: dashbot-export-enrichment-data
+- name: Ingest conversation data into Dimension Labs
+  slug: dashbot-ingest-conversation-data
 slug: dashbot
 tags:
 - Company

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 26.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -118,11 +120,8 @@ apis:
   description: The Vesting Schedule API from Shareworks — 3 operation(s) for vesting schedule.
   name: Shareworks Vesting Schedule API
   slug: shareworks-vesting-schedule-api
-artifact_total: 119
+artifact_total: 118
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Shareworks Admin REST Authentication Token API
   slug: open-shareworks-authentication-token-api
@@ -173,27 +172,27 @@ collections:
   slug: open-shareworks-write-access-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/capabilities/shareworks-capability-edges.yml
+  href: https://artifacts.apis.io/shareworks/capabilities/shareworks-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/shareworks-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/agentic-access/shareworks-agentic-access.yml
+  href: https://artifacts.apis.io/shareworks/agentic-access/shareworks-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shareworks-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/security/shareworks-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/shareworks/security/shareworks-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/shareworks-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/security/shareworks-domain-security.yml
+  href: https://artifacts.apis.io/shareworks/security/shareworks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shareworks-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/authentication/shareworks-authentication.yml
+  href: https://artifacts.apis.io/shareworks/authentication/shareworks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shareworks-authentication.yml
@@ -226,17 +225,17 @@ common:
   type: Support
   url: https://support.solium.com/hc/en-us
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/plans/shareworks-plans-pricing.yml
+  href: https://artifacts.apis.io/shareworks/plans/shareworks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/shareworks-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/rate-limits/shareworks-rate-limits.yml
+  href: https://artifacts.apis.io/shareworks/rate-limits/shareworks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shareworks-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/finops/shareworks-finops.yml
+  href: https://artifacts.apis.io/shareworks/finops/shareworks-finops.yml
   title: ''
   type: FinOps
   url: finops/shareworks-finops.yml
@@ -508,7 +507,7 @@ plans:
 - name: Shareworks Plans Pricing
   plan_count: 2
   slug: shareworks-plans-pricing
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Shareworks Rate Limits
@@ -527,7 +526,7 @@ rules:
   slug: shareworks-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.9
+  composite: 37.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 56.3
@@ -535,15 +534,15 @@ score:
     catalog_gap: 58.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 56.7
-    developer_ergonomics: 33.3
+    developer_ergonomics: 40.5
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 40.8
+    operational_transparency: 23.7
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -557,13 +556,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/screenshots/shareworks-2026-06-20T193746.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/shareworks/shareworks-2026-06-20T193746.png
 security:
 - kind: authentication
   name: Shareworks Authentication

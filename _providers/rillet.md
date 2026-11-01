@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.8
-  scored_at: '2026-10-17'
+  score: 50.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -188,15 +190,12 @@ apis:
   description: The Webhooks API from Rillet — 0 operation(s) for webhooks.
   name: Rillet Webhooks API
   slug: rillet-webhooks-api
-artifact_total: 64
+artifact_total: 66
 asyncapis:
 - description: ''
   name: Rillet Webhooks
   slug: rillet-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Rillet Accounting API Key API
   slug: open-rillet-api-key-api
@@ -283,7 +282,7 @@ collections:
   slug: open-rillet-vendors-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/capabilities/rillet-capability-edges.yml
+  href: https://artifacts.apis.io/rillet/capabilities/rillet-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rillet-capability-edges.yml
@@ -336,62 +335,62 @@ common:
   type: ChangeLog
   url: https://docs.api.rillet.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/changelog/rillet-changelog.yml
+  href: https://artifacts.apis.io/rillet/changelog/rillet-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rillet-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/mcp/rillet-mcp.yml
+  href: https://artifacts.apis.io/rillet/mcp/rillet-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/rillet-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/llms/rillet-llms.txt
+  href: https://artifacts.apis.io/rillet/llms/rillet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rillet-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/well-known/rillet-well-known.yml
+  href: https://artifacts.apis.io/rillet/well-known/rillet-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rillet-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/authentication/rillet-authentication.yml
+  href: https://artifacts.apis.io/rillet/authentication/rillet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rillet-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/scopes/rillet-scopes.yml
+  href: https://artifacts.apis.io/rillet/scopes/rillet-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/rillet-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/security/rillet-domain-security.yml
+  href: https://artifacts.apis.io/rillet/security/rillet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rillet-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/agentic-access/rillet-agentic-access.yml
+  href: https://artifacts.apis.io/rillet/agentic-access/rillet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rillet-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/conventions/rillet-conventions.yml
+  href: https://artifacts.apis.io/rillet/conventions/rillet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rillet-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/conventions/rillet-conventions.yml
+  href: https://artifacts.apis.io/rillet/conventions/rillet-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/rillet-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/errors/rillet-problem-types.yml
+  href: https://artifacts.apis.io/rillet/errors/rillet-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rillet-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/lifecycle/rillet-lifecycle.yml
+  href: https://artifacts.apis.io/rillet/lifecycle/rillet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rillet-lifecycle.yml
@@ -400,32 +399,32 @@ common:
   type: Deprecation
   url: https://docs.api.rillet.com/docs/getting-started
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/conformance/rillet-conformance.yml
+  href: https://artifacts.apis.io/rillet/conformance/rillet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rillet-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/sandbox/rillet-sandbox.yml
+  href: https://artifacts.apis.io/rillet/sandbox/rillet-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/rillet-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/data-model/rillet-data-model.yml
+  href: https://artifacts.apis.io/rillet/data-model/rillet-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rillet-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/asyncapi/rillet-webhooks.yml
+  href: https://artifacts.apis.io/rillet/asyncapi/rillet-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/rillet-webhooks.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/overlays/rillet-accounting-api-overlay.yaml
+  href: https://artifacts.apis.io/rillet/overlays/rillet-accounting-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rillet-accounting-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rillet/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -452,7 +451,7 @@ overview: 'Rillet publishes 29 API contracts indexed on the [APIs.io](https://ap
 
 
   Rillet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 26 more developer resources.'
-random_paper: 14
+random_paper: 4
 scopes:
 - name: Rillet Scopes
   scope_count: 2
@@ -460,7 +459,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.7
+  composite: 51.8
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -468,15 +467,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 58.0
-    developer_ergonomics: 47.0
-    discoverability: 75.0
-    operational_transparency: 19.7
-  previous_composite: 49.6
+    contract_quality: 55.2
+    developer_ergonomics: 66.1
+    discoverability: 65.0
+    operational_transparency: 31.6
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -497,13 +496,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/screenshots/rillet-2026-08-17T081608.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rillet/rillet-2026-08-17T081608.png
 security:
 - kind: authentication
   name: Rillet Authentication
@@ -513,6 +513,14 @@ security:
   name: Rillet Domain Security
   slug: rillet-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Invoice a customer and record a payment
+  slug: rillet-invoice-customer-and-collect-payment
+- name: Post a journal entry and pull financial reports
+  slug: rillet-post-journal-entry-and-pull-reports
+- name: Record a vendor bill and pay it
+  slug: rillet-record-and-pay-a-bill
 slug: rillet
 tags:
 - Company

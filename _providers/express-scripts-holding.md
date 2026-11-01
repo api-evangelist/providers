@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The partner-facing API estate Express Scripts exposes through its own gateway. The production host api.express-scripts.io and the sandbox host api-sandbox.express-scripts.io both answer HTTP 401 to ev
@@ -46,77 +48,77 @@ common:
   type: Blog
   url: https://www.express-scripts.com/pharmacy/blog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/well-known/express-scripts-holding-well-known.yml
+  href: https://artifacts.apis.io/express-scripts-holding/well-known/express-scripts-holding-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/express-scripts-holding-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/authentication/express-scripts-holding-authentication.yml
+  href: https://artifacts.apis.io/express-scripts-holding/authentication/express-scripts-holding-authentication.yml
   title: ''
   type: Authentication
   url: authentication/express-scripts-holding-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/scopes/express-scripts-holding-scopes.yml
+  href: https://artifacts.apis.io/express-scripts-holding/scopes/express-scripts-holding-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/express-scripts-holding-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/conformance/express-scripts-holding-conformance.yml
+  href: https://artifacts.apis.io/express-scripts-holding/conformance/express-scripts-holding-conformance.yml
   title: ''
   type: Conformance
   url: conformance/express-scripts-holding-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/security/express-scripts-holding-trust-center.yml
+  href: https://artifacts.apis.io/express-scripts-holding/security/express-scripts-holding-trust-center.yml
   title: ''
   type: Compliance
   url: security/express-scripts-holding-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/security/express-scripts-holding-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/express-scripts-holding/security/express-scripts-holding-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/express-scripts-holding-vulnerability-disclosure.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/sandbox/express-scripts-holding-sandbox.yml
+  href: https://artifacts.apis.io/express-scripts-holding/sandbox/express-scripts-holding-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/express-scripts-holding-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/lifecycle/express-scripts-holding-lifecycle.yml
+  href: https://artifacts.apis.io/express-scripts-holding/lifecycle/express-scripts-holding-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/express-scripts-holding-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/plans/express-scripts-holding-plans-pricing.yml
+  href: https://artifacts.apis.io/express-scripts-holding/plans/express-scripts-holding-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/express-scripts-holding-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/rate-limits/express-scripts-holding-rate-limits.yml
+  href: https://artifacts.apis.io/express-scripts-holding/rate-limits/express-scripts-holding-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/express-scripts-holding-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/packages/express-scripts-holding-packages.yml
+  href: https://artifacts.apis.io/express-scripts-holding/packages/express-scripts-holding-packages.yml
   title: ''
   type: Packages
   url: packages/express-scripts-holding-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/llms/express-scripts-holding-llms.txt
+  href: https://artifacts.apis.io/express-scripts-holding/llms/express-scripts-holding-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/express-scripts-holding-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/security/express-scripts-holding-trust-center.yml
+  href: https://artifacts.apis.io/express-scripts-holding/security/express-scripts-holding-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/express-scripts-holding-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/security/express-scripts-holding-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/express-scripts-holding/security/express-scripts-holding-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/express-scripts-holding-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/security/express-scripts-holding-domain-security.yml
+  href: https://artifacts.apis.io/express-scripts-holding/security/express-scripts-holding-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/express-scripts-holding-domain-security.yml
@@ -214,7 +216,7 @@ scopes:
   summary_line: 10 scopes
 score:
   band: thin
-  composite: 28.9
+  composite: 30.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -222,15 +224,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.2
-    discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 28.4
+    developer_ergonomics: 35.7
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 30.4
   provenance:
     conformance: first-party
   regulatory:
@@ -239,14 +241,14 @@ score:
     regime: Health
     regime_id: health
     score: 46.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/screenshots/express-scripts-holding-2026-06-20T180943.png
+screenshot: https://apis.io/screenshots/express-scripts-holding/express-scripts-holding-2026-06-20T180943.png
 security:
 - kind: authentication
   name: Express Scripts Holding Authentication

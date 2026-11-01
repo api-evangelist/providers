@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The MoMo All-in-One (AIO v2) merchant payment gateway. One integration covers MoMo e-wallet, domestic ATM card, credit card, Apple Pay, Google Pay, Buy Now Pay Later, Quick Pay POS scanner, collection
@@ -52,14 +54,14 @@ apis:
 - description: The M_Service Open Platform server-to-server API used by Mini Apps embedded in the MoMo app. Exchange a user authorisation code for a short-lived access token, read the user profile fields the user co
   name: MoMo Mini App Open API
   slug: mini-app-open-api
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Momo Webhooks
   slug: momo-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/security/momo-domain-security.yml
+  href: https://artifacts.apis.io/momo/security/momo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/momo-domain-security.yml
@@ -116,108 +118,116 @@ common:
   type: Postman
   url: https://developers.momo.vn/v3/docs/payment/api/other/postman/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/packages/momo-packages.yml
+  href: https://artifacts.apis.io/momo/packages/momo-packages.yml
   title: ''
   type: Packages
   url: packages/momo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/packages/momo-packages.yml
+  href: https://artifacts.apis.io/momo/packages/momo-packages.yml
   title: ''
   type: SDKs
   url: packages/momo-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/authentication/momo-authentication.yml
+  href: https://artifacts.apis.io/momo/authentication/momo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/momo-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/scopes/momo-scopes.yml
+  href: https://artifacts.apis.io/momo/scopes/momo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/momo-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/conventions/momo-conventions.yml
+  href: https://artifacts.apis.io/momo/conventions/momo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/momo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/conventions/momo-conventions.yml
+  href: https://artifacts.apis.io/momo/conventions/momo-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/momo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/errors/momo-error-codes.yml
+  href: https://artifacts.apis.io/momo/errors/momo-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/momo-error-codes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/errors/momo-decline-codes.yml
+  href: https://artifacts.apis.io/momo/errors/momo-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/momo-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/asyncapi/momo-webhooks.yml
+  href: https://artifacts.apis.io/momo/asyncapi/momo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/momo-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/sandbox/momo-sandbox.yml
+  href: https://artifacts.apis.io/momo/sandbox/momo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/momo-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/cli/momo-cli.yml
+  href: https://artifacts.apis.io/momo/cli/momo-cli.yml
   title: ''
   type: CLI
   url: cli/momo-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/components/momo-components.yml
+  href: https://artifacts.apis.io/momo/components/momo-components.yml
   title: ''
   type: Components
   url: components/momo-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/data-model/momo-data-model.yml
+  href: https://artifacts.apis.io/momo/data-model/momo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/momo-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/changelog/momo-changelog.yml
+  href: https://artifacts.apis.io/momo/changelog/momo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/momo-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/lifecycle/momo-lifecycle.yml
+  href: https://artifacts.apis.io/momo/lifecycle/momo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/momo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/conformance/momo-conformance.yml
+  href: https://artifacts.apis.io/momo/conformance/momo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/momo-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/conformance/momo-conformance.yml
+  href: https://artifacts.apis.io/momo/conformance/momo-conformance.yml
   title: ''
   type: Compliance
   url: conformance/momo-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/plans/momo-plans-pricing.yml
+  href: https://artifacts.apis.io/momo/plans/momo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/momo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/rate-limits/momo-rate-limits.yml
+  href: https://artifacts.apis.io/momo/rate-limits/momo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/momo-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/llms/momo-llms.txt
+  href: https://artifacts.apis.io/momo/llms/momo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/momo-llms.txt
 created: '2026-08-26'
 description: MoMo is Vietnam's largest mobile-money and e-wallet platform, operated by Online Mobile Services Joint Stock Company (Cong ty Co phan Dich vu Di dong Truc tuyen, "M_Service"), founded in 2007 and licensed by the State Bank of Vietnam for e-wallet, money transfer and collection/disbursement services. Alongside the consumer wallet it runs a merchant payments business whose public developer surface at developers.momo.vn documents the All-in-One (AIO v2) Payment Gateway for wallet, domestic ATM card, credit card, Apple Pay, Google Pay, Buy Now Pay Later, POS Quick Pay and static/dynamic QR acceptance, single and batch disbursement, collection links, and tokenised one-click and subscription payments. It also publishes a Business Page OpenAPI, a Voucher Distribution API and a Mini App Open Platform for third-party apps embedded inside the MoMo app. Integration is HMAC-SHA256 signed with RSA and AES payload encryption, uses requestId-based idempotency and server-to-server IPN callbacks,
   and is distributed as fourteen public Postman collections plus first-party PHP, Java and mobile SDKs.
+finops:
+- has_sources: true
+  method: derived
+  name: Momo Finops
+  primary_unit: ''
+  service_category: ''
+  slug: momo-finops
+  template: true
 image: https://homepage.momocdn.net/img/momo-amazone-s3-api-241029082636-638657871963540172.jpg
 layout: provider
 modified: '2026-08-26'
@@ -235,7 +245,7 @@ plans:
 - name: Momo Plans Pricing
   plan_count: 0
   slug: momo-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Momo Rate Limits
@@ -247,22 +257,22 @@ scopes:
   summary_line: 6 scopes
 score:
   band: developing
-  composite: 47.4
+  composite: 50.3
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 83.3
     discoverability: 71.4
-    operational_transparency: 26.3
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -270,7 +280,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 47.3
+  previous_composite: 50.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -280,14 +290,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/screenshots/momo-2026-09-02T150621.png
+screenshot: https://apis.io/screenshots/momo/momo-2026-09-02T150621.png
 security:
 - kind: authentication
   name: Momo Authentication

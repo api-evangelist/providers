@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: DKAN open-data API for Medicaid Open Data, covering a catalog of 255 datasets. Provides the DKAN search API (/api/1/search), the metastore (/api/1/metastore/schemas/dataset/items), and a CKAN-compatib
@@ -42,7 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/data-medicaid-gov/refs/heads/main/security/data-medicaid-gov-domain-security.yml
+  href: https://artifacts.apis.io/data-medicaid-gov/security/data-medicaid-gov-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/data-medicaid-gov-domain-security.yml
@@ -55,22 +57,22 @@ common:
   type: Documentation
   url: https://dkan.readthedocs.io/en/latest/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/data-medicaid-gov/refs/heads/main/plans/data-medicaid-gov-plans-pricing.yml
+  href: https://artifacts.apis.io/data-medicaid-gov/plans/data-medicaid-gov-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/data-medicaid-gov-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/data-medicaid-gov/refs/heads/main/rate-limits/data-medicaid-gov-rate-limits.yml
+  href: https://artifacts.apis.io/data-medicaid-gov/rate-limits/data-medicaid-gov-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/data-medicaid-gov-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/data-medicaid-gov/refs/heads/main/finops/data-medicaid-gov-finops.yml
+  href: https://artifacts.apis.io/data-medicaid-gov/finops/data-medicaid-gov-finops.yml
   title: ''
   type: FinOps
   url: finops/data-medicaid-gov-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/data-medicaid-gov/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/data-medicaid-gov/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -98,7 +100,7 @@ plans:
 - name: Data Medicaid Gov Plans Pricing
   plan_count: 1
   slug: data-medicaid-gov-plans-pricing
-random_paper: 20
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Data Medicaid Gov Rate Limits
@@ -113,7 +115,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -128,21 +130,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 15.2
+  previous_composite: 9.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/data-medicaid-gov/refs/heads/main/screenshots/data-medicaid-gov-2026-06-20T175546.png
+screenshot: https://apis.io/screenshots/data-medicaid-gov/data-medicaid-gov-2026-06-20T175546.png
 security:
 - kind: domain-security
   name: Data Medicaid Gov Domain Security

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
+  score: 26.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,11 +68,8 @@ apis:
   description: Operations for executing PxL scripts against a cluster and retrieving telemetry query results.
   name: Pixie Scripts API
   slug: pixie-scripts-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Pixie Clusters API
   slug: open-pixie-clusters-api
@@ -85,22 +84,22 @@ collections:
   slug: open-pixie
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/plans/pixie-plans-pricing.yml
+  href: https://artifacts.apis.io/pixie/plans/pixie-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pixie-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/rate-limits/pixie-rate-limits.yml
+  href: https://artifacts.apis.io/pixie/rate-limits/pixie-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pixie-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/finops/pixie-finops.yml
+  href: https://artifacts.apis.io/pixie/finops/pixie-finops.yml
   title: ''
   type: FinOps
   url: finops/pixie-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/capabilities/pixie-capability-edges.yml
+  href: https://artifacts.apis.io/pixie/capabilities/pixie-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pixie-capability-edges.yml
@@ -117,47 +116,47 @@ common:
   type: Support
   url: https://px.dev/community/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/packages/pixie-packages.yml
+  href: https://artifacts.apis.io/pixie/packages/pixie-packages.yml
   title: ''
   type: Packages
   url: packages/pixie-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/packages/pixie-packages.yml
+  href: https://artifacts.apis.io/pixie/packages/pixie-packages.yml
   title: ''
   type: SDKs
   url: packages/pixie-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/cli/pixie-cli.yml
+  href: https://artifacts.apis.io/pixie/cli/pixie-cli.yml
   title: ''
   type: CLI
   url: cli/pixie-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/conventions/pixie-conventions.yml
+  href: https://artifacts.apis.io/pixie/conventions/pixie-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pixie-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/changelog/pixie-changelog.yml
+  href: https://artifacts.apis.io/pixie/changelog/pixie-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pixie-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/conformance/pixie-conformance.yml
+  href: https://artifacts.apis.io/pixie/conformance/pixie-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pixie-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/well-known/pixie-well-known.yml
+  href: https://artifacts.apis.io/pixie/well-known/pixie-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pixie-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/llms/pixie-llms.txt
+  href: https://artifacts.apis.io/pixie/llms/pixie-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pixie-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pixie/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -186,17 +185,17 @@ common:
   type: License
   url: https://github.com/pixie-io/pixie/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/agentic-access/pixie-agentic-access.yml
+  href: https://artifacts.apis.io/pixie/agentic-access/pixie-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pixie-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/security/pixie-domain-security.yml
+  href: https://artifacts.apis.io/pixie/security/pixie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pixie-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/authentication/pixie-authentication.yml
+  href: https://artifacts.apis.io/pixie/authentication/pixie-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pixie-authentication.yml
@@ -209,17 +208,17 @@ common:
   type: Website
   url: https://px.dev/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/json-ld/pixie-context.jsonld
+  href: https://artifacts.apis.io/pixie/json-ld/pixie-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/pixie-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/json-schema/pixie-pxl-script-schema.json
+  href: https://artifacts.apis.io/pixie/json-schema/pixie-pxl-script-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/pixie-pxl-script-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/json-schema/pixie-plugin-schema.json
+  href: https://artifacts.apis.io/pixie/json-schema/pixie-plugin-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/pixie-plugin-schema.json
@@ -309,7 +308,7 @@ rules:
   slug: pixie-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.3
+  composite: 41.8
   coverage:
     artifact_dirs: 24
     catalog_earned: 44.7
@@ -317,18 +316,15 @@ score:
     catalog_gap: 70.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 14.4
     contract_quality: 58.3
     developer_ergonomics: 73.2
-    discoverability: 55.4
-    operational_transparency: 34.2
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 48.7
+    discoverability: 48.2
+    operational_transparency: 36.8
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,13 +340,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/screenshots/pixie-2026-06-20T191740.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pixie/pixie-2026-06-20T191740.png
 security:
 - kind: authentication
   name: Pixie Authentication

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/advise-insurance/refs/heads/main/rate-limits/advise-insurance-rate-limits.yml
+  href: https://artifacts.apis.io/advise-insurance/rate-limits/advise-insurance-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/advise-insurance-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/advise-insurance/refs/heads/main/security/advise-insurance-domain-security.yml
+  href: https://artifacts.apis.io/advise-insurance/security/advise-insurance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/advise-insurance-domain-security.yml
@@ -62,12 +64,12 @@ common:
   type: Pricing
   url: https://www.bloomthrives.com/enroll/pricing/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/advise-insurance/refs/heads/main/llms/advise-insurance-llms.txt
+  href: https://artifacts.apis.io/advise-insurance/llms/advise-insurance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/advise-insurance-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/advise-insurance/refs/heads/main/plans/advise-insurance-plans-pricing.yml
+  href: https://artifacts.apis.io/advise-insurance/plans/advise-insurance-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/advise-insurance-plans-pricing.yml
@@ -103,7 +105,7 @@ plans:
 - name: Advise Insurance Plans Pricing
   plan_count: 1
   slug: advise-insurance-plans-pricing
-random_paper: 21
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Advise Insurance Rate Limits
@@ -133,14 +135,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/advise-insurance/refs/heads/main/screenshots/advise-insurance-2026-10-11T092903.png
+screenshot: https://apis.io/screenshots/advise-insurance/advise-insurance-2026-10-11T092903.png
 security:
 - kind: domain-security
   name: Advise Insurance Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,38 +35,35 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: AutoZone's e-commerce platform at autozone.com enables consumers and commercial customers to search the AutoZone parts catalog, check store inventory, place online orders for in-store pickup or delive
   name: AutoZone E-Commerce Platform
   slug: autozone-ecommerce
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AutoZone Pro Electronic Ordering API
   slug: open-autozonepro
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/plans/autozone-plans-pricing.yml
+  href: https://artifacts.apis.io/autozone/plans/autozone-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/autozone-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/rate-limits/autozone-rate-limits.yml
+  href: https://artifacts.apis.io/autozone/rate-limits/autozone-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/autozone-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/finops/autozone-finops.yml
+  href: https://artifacts.apis.io/autozone/finops/autozone-finops.yml
   title: ''
   type: FinOps
   url: finops/autozone-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/security/autozone-domain-security.yml
+  href: https://artifacts.apis.io/autozone/security/autozone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autozone-domain-security.yml
@@ -146,14 +145,14 @@ press:
 - date: ''
   title: 'AutoZone''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/autozone-ai-strategy-analysis-of-dominance-in-automotive-parts-ai/
-random_paper: 5
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Autozone Rate Limits
   slug: autozone-rate-limits
 score:
   band: minimal
-  composite: 8.3
+  composite: 8.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 36.0
@@ -161,29 +160,29 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 57.1
-    operational_transparency: 7.9
-  previous_composite: 9.8
+    operational_transparency: 10.5
+  previous_composite: 8.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/screenshots/autozone-2026-06-20T172710.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/autozone/autozone-2026-06-20T172710.png
 security:
 - kind: domain-security
   name: Autozone Domain Security

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-17'
+  score: 34.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -59,9 +61,6 @@ asyncapis:
   slug: clear-events-asyncapi
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CLEAR1 Verification Sessions API
   slug: open-clear-verification-sessions-api
 common:
@@ -74,12 +73,12 @@ common:
   type: BlogRSS
   url: https://ir.clearme.com/news-events/press-releases/rss
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/capabilities/clear-capability-edges.yml
+  href: https://artifacts.apis.io/clear/capabilities/clear-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/clear-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/overlays/clear-verification-overlay.yaml
+  href: https://artifacts.apis.io/clear/overlays/clear-verification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clear-verification-overlay.yaml
@@ -124,22 +123,22 @@ common:
   type: StatusPage
   url: https://status.clearme.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/lifecycle/clear-lifecycle.yml
+  href: https://artifacts.apis.io/clear/lifecycle/clear-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/clear-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/lifecycle/clear-lifecycle.yml
+  href: https://artifacts.apis.io/clear/lifecycle/clear-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clear-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/authentication/clear-authentication.yml
+  href: https://artifacts.apis.io/clear/authentication/clear-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clear-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/scopes/clear-scopes.yml
+  href: https://artifacts.apis.io/clear/scopes/clear-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/clear-scopes.yml
@@ -148,72 +147,72 @@ common:
   type: Security
   url: https://hackerone.com/clear
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/security/clear-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/clear/security/clear-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/clear-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/security/clear-domain-security.yml
+  href: https://artifacts.apis.io/clear/security/clear-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clear-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/well-known/clear-security.txt
+  href: https://artifacts.apis.io/clear/well-known/clear-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/clear-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/well-known/clear-well-known.yml
+  href: https://artifacts.apis.io/clear/well-known/clear-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/clear-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/asyncapi/clear-events-asyncapi.yml
+  href: https://artifacts.apis.io/clear/asyncapi/clear-events-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/clear-events-asyncapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/asyncapi/clear-events-asyncapi.yml
+  href: https://artifacts.apis.io/clear/asyncapi/clear-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/clear-events-asyncapi.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/sandbox/clear-sandbox.yml
+  href: https://artifacts.apis.io/clear/sandbox/clear-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/clear-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/conformance/clear-conformance.yml
+  href: https://artifacts.apis.io/clear/conformance/clear-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clear-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/errors/clear-reason-codes.yml
+  href: https://artifacts.apis.io/clear/errors/clear-reason-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/clear-reason-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/components/clear-components.yml
+  href: https://artifacts.apis.io/clear/components/clear-components.yml
   title: ''
   type: Components
   url: components/clear-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/mcp/clear-mcp.yml
+  href: https://artifacts.apis.io/clear/mcp/clear-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/clear-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/clear/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/agentic-access/clear-agentic-access.yml
+  href: https://artifacts.apis.io/clear/agentic-access/clear-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/clear-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/llms/clear-llms.txt
+  href: https://artifacts.apis.io/clear/llms/clear-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clear-llms.txt
@@ -236,7 +235,7 @@ overview: 'CLEAR publishes 1 API contract indexed on the [APIs.io](https://apis.
 
 
   CLEAR''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, sandbox, and 27 more developer resources.'
-random_paper: 13
+random_paper: 15
 scopes:
 - name: Clear Scopes
   scope_count: 3
@@ -244,7 +243,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.5
+  composite: 51.6
   coverage:
     artifact_dirs: 25
     catalog_earned: 37.0
@@ -252,15 +251,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 54.6
-    developer_ergonomics: 47.0
-    discoverability: 73.2
+    developer_ergonomics: 66.1
+    discoverability: 66.1
     operational_transparency: 42.1
-  previous_composite: 46.6
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -277,13 +276,14 @@ score:
     regime: Health
     regime_id: health
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/screenshots/clear-2026-07-25T205532.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/clear/clear-2026-07-25T205532.png
 security:
 - kind: authentication
   name: Clear Authentication
@@ -297,6 +297,10 @@ security:
   name: Clear Vulnerability Disclosure
   slug: clear-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 1
+skills:
+- name: Verify a user's identity with CLEAR
+  slug: clear-verify-identity
 slug: clear
 tags:
 - Company

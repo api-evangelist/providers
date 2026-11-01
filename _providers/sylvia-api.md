@@ -17,7 +17,7 @@ agent_readiness:
   dimensions:
     agent_card: conformant
     agent_skills: true
-    agentic_access: unknown
+    agentic_access: true
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 54.9
-  scored_at: '2026-10-17'
-api_count: 5
+  score: 55.3
+  scored_at: '2026-10-31'
+api_count: 3
 apis:
 - baseURL: https://api.sylvia-api.com/v1
   baseurl_source: declared
@@ -119,12 +121,17 @@ apis:
   description: The Usage API from Sylvia API — 1 operation(s) for usage.
   name: Sylvia API Usage API
   slug: sylvia-api-usage-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: postman
   name: Sylvia API
   slug: postman-sylvia-api
 common:
+- group: other
+  href: https://artifacts.apis.io/sylvia-api/capabilities/sylvia-api-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sylvia-api-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -134,7 +141,7 @@ common:
   type: LlmsText
   url: https://sylvia-api.com/llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/authentication/sylvia-api-authentication.yml
+  href: https://artifacts.apis.io/sylvia-api/authentication/sylvia-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sylvia-api-authentication.yml
@@ -155,17 +162,17 @@ common:
   type: Pricing
   url: https://sylvia-api.com/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/plans/sylvia-api-plans-pricing.yml
+  href: https://artifacts.apis.io/sylvia-api/plans/sylvia-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sylvia-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/rate-limits/sylvia-api-rate-limits.yml
+  href: https://artifacts.apis.io/sylvia-api/rate-limits/sylvia-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sylvia-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/finops/sylvia-api-finops.yml
+  href: https://artifacts.apis.io/sylvia-api/finops/sylvia-api-finops.yml
   title: ''
   type: FinOps
   url: finops/sylvia-api-finops.yml
@@ -174,7 +181,7 @@ common:
   type: StatusPage
   url: https://sylvia-api.instatus.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/lifecycle/sylvia-api-lifecycle.yml
+  href: https://artifacts.apis.io/sylvia-api/lifecycle/sylvia-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sylvia-api-lifecycle.yml
@@ -187,7 +194,7 @@ common:
   type: Security
   url: https://sylvia-api.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/well-known/sylvia-api-security.txt
+  href: https://artifacts.apis.io/sylvia-api/well-known/sylvia-api-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sylvia-api-security.txt
@@ -216,17 +223,17 @@ common:
   type: MCPServer
   url: https://api.sylvia-api.com/mcp
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/a2a/sylvia-api-agent-card.json
+  href: https://artifacts.apis.io/sylvia-api/a2a/sylvia-api-agent-card.json
   title: ''
   type: AgentCard
   url: a2a/sylvia-api-agent-card.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/well-known/sylvia-api-api-catalog.json
+  href: https://artifacts.apis.io/sylvia-api/well-known/sylvia-api-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/sylvia-api-api-catalog.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/well-known/sylvia-api-well-known.yml
+  href: https://artifacts.apis.io/sylvia-api/well-known/sylvia-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sylvia-api-well-known.yml
@@ -239,42 +246,42 @@ common:
   type: OpenAPI
   url: https://sylvia-api.com/openapi.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/agentic-access/sylvia-api-agentic-access-contract.json
+  href: https://artifacts.apis.io/sylvia-api/agentic-access/sylvia-api-agentic-access-contract.json
   title: ''
   type: AgenticAccess
   url: agentic-access/sylvia-api-agentic-access-contract.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/postman/sylvia-api.postman_collection.json
+  href: https://artifacts.apis.io/sylvia-api/postman/sylvia-api.postman_collection.json
   title: ''
   type: Postman
   url: postman/sylvia-api.postman_collection.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/conformance/sylvia-api-conformance.yml
+  href: https://artifacts.apis.io/sylvia-api/conformance/sylvia-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sylvia-api-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/conformance/sylvia-api-conformance.yml
+  href: https://artifacts.apis.io/sylvia-api/conformance/sylvia-api-conformance.yml
   title: ''
   type: Compliance
   url: conformance/sylvia-api-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/overlays/sylvia-api-overlay.json
+  href: https://artifacts.apis.io/sylvia-api/overlays/sylvia-api-overlay.json
   title: ''
   type: Overlay
   url: overlays/sylvia-api-overlay.json
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/lifecycle/sylvia-api-deprecation.md
+  href: https://artifacts.apis.io/sylvia-api/lifecycle/sylvia-api-deprecation.md
   title: ''
   type: Deprecation
   url: lifecycle/sylvia-api-deprecation.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sylvia-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/errors/sylvia-api-error-codes.yml
+  href: https://artifacts.apis.io/sylvia-api/errors/sylvia-api-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/sylvia-api-error-codes.yml
@@ -301,35 +308,38 @@ network: true
 overview: 'Sylvia API publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Live API, Subreddits API, Users API, and 13 more. Tagged areas include Reddit, Social, Data, Search, and Comments.
 
 
-  Sylvia API''s developer surface includes authentication, documentation, API reference, pricing, changelog, engineering blog, SDKs, and 27 more developer resources.'
+  Sylvia API''s developer surface includes authentication, documentation, API reference, pricing, changelog, engineering blog, SDKs, and 28 more developer resources.'
 plans:
 - name: Sylvia Api Plans Pricing
-  plan_count: 4
+  plan_count: 7
   slug: sylvia-api-plans-pricing
-random_paper: 11
+- name: Sylvia Api Price Estimates
+  plan_count: 0
+  slug: sylvia-api-price-estimates
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Sylvia Api Rate Limits
   slug: sylvia-api-rate-limits
 score:
-  band: developing
-  composite: 52.2
+  band: strong
+  composite: 55.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 16.4
     contract_quality: 51.9
     developer_ergonomics: 59.0
     discoverability: 76.7
-    operational_transparency: 34.2
-  previous_composite: 53.8
+    operational_transparency: 50.0
+  previous_composite: 55.5
   provenance:
     conformance: unknown
     contracts:
@@ -344,14 +354,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 28.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 31.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/screenshots/sylvia-api-2026-09-02T161619.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sylvia-api/sylvia-api-2026-09-02T161619.png
 security:
 - kind: authentication
   name: Sylvia Api Authentication

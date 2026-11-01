@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Native Shopify Universal Commerce Protocol (UCP 2026-04-08) shopping service, exposed as a Model Context Protocol endpoint for agent-driven commerce — catalog search, cart, checkout, fulfillment, disc
   name: The Beard Club UCP Shopping MCP
   slug: the-beard-club-ucp-shopping-mcp
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -58,47 +60,47 @@ common:
   type: Documentation
   url: https://thebeardclub.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-beard-club/refs/heads/main/llms/the-beard-club-llms.txt
+  href: https://artifacts.apis.io/the-beard-club/llms/the-beard-club-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-beard-club-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-beard-club/refs/heads/main/mcp/the-beard-club-mcp.yml
+  href: https://artifacts.apis.io/the-beard-club/mcp/the-beard-club-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/the-beard-club-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-beard-club/refs/heads/main/well-known/the-beard-club-well-known.yml
+  href: https://artifacts.apis.io/the-beard-club/well-known/the-beard-club-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/the-beard-club-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-beard-club/refs/heads/main/authentication/the-beard-club-authentication.yml
+  href: https://artifacts.apis.io/the-beard-club/authentication/the-beard-club-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-beard-club-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-beard-club/refs/heads/main/scopes/the-beard-club-scopes.yml
+  href: https://artifacts.apis.io/the-beard-club/scopes/the-beard-club-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/the-beard-club-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-beard-club/refs/heads/main/conformance/the-beard-club-conformance.yml
+  href: https://artifacts.apis.io/the-beard-club/conformance/the-beard-club-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-beard-club-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-beard-club/refs/heads/main/conventions/the-beard-club-conventions.yml
+  href: https://artifacts.apis.io/the-beard-club/conventions/the-beard-club-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-beard-club-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-beard-club/refs/heads/main/security/the-beard-club-domain-security.yml
+  href: https://artifacts.apis.io/the-beard-club/security/the-beard-club-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-beard-club-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-beard-club/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/the-beard-club/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -126,7 +128,7 @@ overview: 'The Beard Club is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   The Beard Club''s developer surface includes engineering blog, documentation, authentication, and 12 more developer resources.'
-random_paper: 1
+random_paper: 23
 scopes:
 - name: The Beard Club Scopes
   scope_count: 4
@@ -134,7 +136,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.9
+  composite: 20.9
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -142,15 +144,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 25.6
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 21.3
+  previous_composite: 20.9
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -161,14 +163,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-beard-club/refs/heads/main/screenshots/the-beard-club-2026-09-02T163330.png
+screenshot: https://apis.io/screenshots/the-beard-club/the-beard-club-2026-09-02T163330.png
 security:
 - kind: authentication
   name: The Beard Club Authentication
@@ -178,6 +180,10 @@ security:
   name: The Beard Club Domain Security
   slug: the-beard-club-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Shop and checkout at The Beard Club (UCP)
+  slug: the-beard-club-shop-and-checkout
 slug: the-beard-club
 tags:
 - Company

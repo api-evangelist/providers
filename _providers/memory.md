@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,16 +35,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Timely's REST API (version 1.1) at api.timelyapp.com, secured with OAuth 2.0, for programmatic access to accounts, projects, clients, users, events (time entries), labels and reports.
   name: Timely API
   slug: timely-api
-artifact_total: 4
+artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/memory/refs/heads/main/plans/memory-plans-pricing.yml
+  href: https://artifacts.apis.io/memory/plans/memory-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/memory-plans-pricing.yml
@@ -99,17 +101,17 @@ common:
   type: StatusPage
   url: https://www.timely.com/status/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/memory/refs/heads/main/authentication/memory-authentication.yml
+  href: https://artifacts.apis.io/memory/authentication/memory-authentication.yml
   title: ''
   type: Authentication
   url: authentication/memory-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memory/refs/heads/main/conventions/memory-conventions.yml
+  href: https://artifacts.apis.io/memory/conventions/memory-conventions.yml
   title: ''
   type: Conventions
   url: conventions/memory-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memory/refs/heads/main/conformance/memory-conformance.yml
+  href: https://artifacts.apis.io/memory/conformance/memory-conformance.yml
   title: ''
   type: Conformance
   url: conformance/memory-conformance.yml
@@ -118,22 +120,30 @@ common:
   type: Compliance
   url: https://www.timely.com/security/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/memory/refs/heads/main/lifecycle/memory-lifecycle.yml
+  href: https://artifacts.apis.io/memory/lifecycle/memory-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/memory-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/memory/refs/heads/main/security/memory-domain-security.yml
+  href: https://artifacts.apis.io/memory/security/memory-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/memory-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/memory/refs/heads/main/llms/memory-llms.txt
+  href: https://artifacts.apis.io/memory/llms/memory-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/memory-llms.txt
 created: '2026-07-17'
 description: Memory AS (operating as Timely, timely.com) is an Oslo, Norway based software company behind Timely, an AI-powered automatic time tracking and timesheet platform for consultancies, agencies, professional-services firms and SaaS teams. Its Memory tracking engine passively captures work across the apps a person uses and its AutoSheet feature auto-completes timesheets, letting teams auto-capture, auto-allocate and one-click approve time. Timely exposes a REST API at api.timelyapp.com (version 1.1) secured with OAuth 2.0 for building on accounts, projects, clients, users, events (time entries) and reports, and offers 90+ direct integrations with tools such as QuickBooks, Xero, Asana, Jira, GitHub, Slack, Google Calendar and Salesforce. The company is ISO 27001:2022 certified and GDPR-aligned, backed by 500 Global.
+finops:
+- has_sources: true
+  method: derived
+  name: Memory Finops
+  primary_unit: user per mo. billed monthly
+  service_category: ''
+  slug: memory-finops
+  template: false
 image: https://www.timely.com/favicon.ico
 layout: provider
 modified: '2026-07-20'
@@ -148,26 +158,29 @@ plans:
 - name: Memory Plans Pricing
   plan_count: 8
   slug: memory-plans-pricing
-random_paper: 5
+- name: Memory Price Estimates
+  plan_count: 0
+  slug: memory-price-estimates
+random_paper: 17
 score:
   band: developing
-  composite: 40.6
+  composite: 41.5
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 49.0
+    artifact_dirs: 12
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 34.2
+  previous_composite: 39.9
   provenance:
     conformance: first-party
   regulatory:
@@ -180,14 +193,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/memory/refs/heads/main/screenshots/memory-2026-08-07T172504.png
+screenshot: https://apis.io/screenshots/memory/memory-2026-08-07T172504.png
 security:
 - kind: authentication
   name: Memory Authentication

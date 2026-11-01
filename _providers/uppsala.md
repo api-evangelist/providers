@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.4
-  scored_at: '2026-10-17'
+  score: 21.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 7
   slug: uppsala-agentic-access
   summary_line: 7 operations
-api_count: 2
+api_count: 1
 apis:
 - description: The Norse World REST-API, part of the Norse World research infrastructure at Uppsala University's Department of Scandinavian Languages, provides access to attestation and location records of foreign p
   name: Norse World REST-API
@@ -90,11 +92,8 @@ apis:
   description: The UcdpPrioConflict API from Uppsala University — 1 operation(s) for ucdpprioconflict.
   name: Uppsala University UcdpPrioConflict API
   slug: uppsala-ucdpprioconflict-api
-artifact_total: 36
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: UCDP - The Public BattleDeaths API
   slug: open-uppsala-battledeaths-api
@@ -174,47 +173,47 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/uppsala-university/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/conformance/uppsala-conformance.yml
+  href: https://artifacts.apis.io/uppsala/conformance/uppsala-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uppsala-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/agentic-access/uppsala-agentic-access.yml
+  href: https://artifacts.apis.io/uppsala/agentic-access/uppsala-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/uppsala-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/security/uppsala-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/uppsala/security/uppsala-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/uppsala-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/security/uppsala-domain-security.yml
+  href: https://artifacts.apis.io/uppsala/security/uppsala-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uppsala-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/authentication/uppsala-authentication.yml
+  href: https://artifacts.apis.io/uppsala/authentication/uppsala-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uppsala-authentication.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/plans/uppsala-plans-pricing.yml
+  href: https://artifacts.apis.io/uppsala/plans/uppsala-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/uppsala-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/rate-limits/uppsala-rate-limits.yml
+  href: https://artifacts.apis.io/uppsala/rate-limits/uppsala-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/uppsala-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/finops/uppsala-finops.yml
+  href: https://artifacts.apis.io/uppsala/finops/uppsala-finops.yml
   title: ''
   type: FinOps
   url: finops/uppsala-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/uppsala/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -230,12 +229,12 @@ examples:
   slug: uppsala-ucdpprioconflict-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Uppsala Finops
   primary_unit: ''
-  service_category: Education
+  service_category: ''
   slug: uppsala-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uppsala.png
 json_schemas:
 - name: UcdpApiResponse
@@ -278,7 +277,7 @@ plans:
 - name: Uppsala Plans Pricing
   plan_count: 3
   slug: uppsala-plans-pricing
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Uppsala Rate Limits
@@ -309,7 +308,7 @@ rules:
   slug: uppsala-rules
 score:
   band: developing
-  composite: 47.8
+  composite: 49.5
   coverage:
     artifact_dirs: 19
     catalog_earned: 80.2
@@ -317,14 +316,14 @@ score:
     catalog_gap: 34.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 35.6
     contract_quality: 58.2
     developer_ergonomics: 35.7
     discoverability: 66.1
-    operational_transparency: 34.2
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -333,7 +332,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 49.4
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -348,14 +347,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/screenshots/uppsala-2026-06-20T200453.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/uppsala/uppsala-2026-06-20T200453.png
 security:
 - kind: authentication
   name: Uppsala Authentication

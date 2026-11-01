@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: RYSE's Universal Commerce Protocol (UCP) shopping service, exposed over MCP at https://www.helloryse.com/api/ucp/mcp. Anonymous tools/list returns 13 tools with full JSON Schema input contracts coveri
@@ -48,7 +50,7 @@ apis:
 - description: Customer-account MCP served at https://account.helloryse.com/customer/api/mcp. Anonymous tools/list returns 4 tools — get_most_recent_order_status, get_order_status, get_store_credit_balances and requ
   name: RYSE Customer Account MCP
   slug: ryse-customer-account-mcp
-artifact_total: 9
+artifact_total: 12
 common:
 - group: company
   title: ''
@@ -83,92 +85,92 @@ common:
   type: PrivacyPolicy
   url: https://www.helloryse.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/llms/ryse-llms.txt
+  href: https://artifacts.apis.io/ryse/llms/ryse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ryse-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/well-known/ryse-well-known.yml
+  href: https://artifacts.apis.io/ryse/well-known/ryse-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ryse-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/mcp/ryse-mcp.yml
+  href: https://artifacts.apis.io/ryse/mcp/ryse-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ryse-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/mcp/ryse-tool-crosswalk.yml
+  href: https://artifacts.apis.io/ryse/mcp/ryse-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ryse-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/authentication/ryse-authentication.yml
+  href: https://artifacts.apis.io/ryse/authentication/ryse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ryse-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/scopes/ryse-scopes.yml
+  href: https://artifacts.apis.io/ryse/scopes/ryse-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ryse-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/conventions/ryse-conventions.yml
+  href: https://artifacts.apis.io/ryse/conventions/ryse-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ryse-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/conventions/ryse-conventions.yml
+  href: https://artifacts.apis.io/ryse/conventions/ryse-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ryse-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/conformance/ryse-conformance.yml
+  href: https://artifacts.apis.io/ryse/conformance/ryse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ryse-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/errors/ryse-problem-types.yml
+  href: https://artifacts.apis.io/ryse/errors/ryse-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ryse-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/lifecycle/ryse-lifecycle.yml
+  href: https://artifacts.apis.io/ryse/lifecycle/ryse-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ryse-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/lifecycle/ryse-lifecycle.yml
+  href: https://artifacts.apis.io/ryse/lifecycle/ryse-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/ryse-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/rate-limits/ryse-rate-limits.yml
+  href: https://artifacts.apis.io/ryse/rate-limits/ryse-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ryse-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/plans/ryse-plans-pricing.yml
+  href: https://artifacts.apis.io/ryse/plans/ryse-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ryse-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/security/ryse-domain-security.yml
+  href: https://artifacts.apis.io/ryse/security/ryse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ryse-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/packages/ryse-packages.yml
+  href: https://artifacts.apis.io/ryse/packages/ryse-packages.yml
   title: ''
   type: Packages
   url: packages/ryse-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/data-model/ryse-data-model.yml
+  href: https://artifacts.apis.io/ryse/data-model/ryse-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ryse-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ryse/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -192,7 +194,7 @@ plans:
 - name: Ryse Plans Pricing
   plan_count: 0
   slug: ryse-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Ryse Rate Limits
@@ -204,7 +206,7 @@ scopes:
   summary_line: 4 scopes · authorization_code
 score:
   band: thin
-  composite: 29.1
+  composite: 28.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -212,15 +214,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 7.9
-  previous_composite: 29.0
+  previous_composite: 28.1
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -231,14 +233,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ryse/refs/heads/main/screenshots/ryse-2026-09-02T154237.png
+screenshot: https://apis.io/screenshots/ryse/ryse-2026-09-02T154237.png
 security:
 - kind: authentication
   name: Ryse Authentication
@@ -248,6 +250,14 @@ security:
   name: Ryse Domain Security
   slug: ryse-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: ryse-buy-a-smartshade
+  slug: ryse-buy-a-smartshade
+- name: ryse-discover-the-agent-surface
+  slug: ryse-discover-the-agent-surface
+- name: ryse-track-and-return-an-order
+  slug: ryse-track-and-return-an-order
 slug: ryse
 tags:
 - Smart Home

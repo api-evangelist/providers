@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-17'
+  score: 20.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: The Schema API from Sparetech — 2 operation(s) for schema.
   name: Sparetech Schema API
   slug: sparetech-schema-api
-artifact_total: 18
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sync Authentication API
   slug: open-sparetech-authentication-api
@@ -108,7 +107,7 @@ common:
   type: BlogRSS
   url: https://sparetech.io/en/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/capabilities/sparetech-capability-edges.yml
+  href: https://artifacts.apis.io/sparetech/capabilities/sparetech-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sparetech-capability-edges.yml
@@ -169,77 +168,77 @@ common:
   type: Security
   url: https://www.sparetech.io/security-and-compliance
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/agentic-access/sparetech-agentic-access.yml
+  href: https://artifacts.apis.io/sparetech/agentic-access/sparetech-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sparetech-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/authentication/sparetech-authentication.yml
+  href: https://artifacts.apis.io/sparetech/authentication/sparetech-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sparetech-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/security/sparetech-domain-security.yml
+  href: https://artifacts.apis.io/sparetech/security/sparetech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sparetech-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/security/sparetech-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sparetech/security/sparetech-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sparetech-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/conformance/sparetech-conformance.yml
+  href: https://artifacts.apis.io/sparetech/conformance/sparetech-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sparetech-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/lifecycle/sparetech-lifecycle.yml
+  href: https://artifacts.apis.io/sparetech/lifecycle/sparetech-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sparetech-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/sandbox/sparetech-sandbox.yml
+  href: https://artifacts.apis.io/sparetech/sandbox/sparetech-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sparetech-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/conventions/sparetech-conventions.yml
+  href: https://artifacts.apis.io/sparetech/conventions/sparetech-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sparetech-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/errors/sparetech-problem-types.yml
+  href: https://artifacts.apis.io/sparetech/errors/sparetech-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sparetech-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/data-model/sparetech-data-model.yml
+  href: https://artifacts.apis.io/sparetech/data-model/sparetech-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sparetech-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/mcp/sparetech-mcp.yml
+  href: https://artifacts.apis.io/sparetech/mcp/sparetech-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sparetech-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/overlays/sparetech-sync-v1-overlay.yaml
+  href: https://artifacts.apis.io/sparetech/overlays/sparetech-sync-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sparetech-sync-v1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/overlays/sparetech-sync-v2-overlay.yaml
+  href: https://artifacts.apis.io/sparetech/overlays/sparetech-sync-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sparetech-sync-v2-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sparetech/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/llms/sparetech-llms.txt
+  href: https://artifacts.apis.io/sparetech/llms/sparetech-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sparetech-llms.txt
@@ -255,10 +254,10 @@ overview: 'Sparetech publishes 6 API contracts indexed on the [APIs.io](https://
 
 
   Sparetech''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, authentication, and 25 more developer resources.'
-random_paper: 13
+random_paper: 23
 score:
   band: developing
-  composite: 47.7
+  composite: 47.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -268,13 +267,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 49.0
     developer_ergonomics: 56.5
-    discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 47.7
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -295,13 +294,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/screenshots/sparetech-2026-08-17T082021.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sparetech/sparetech-2026-08-17T082021.png
 security:
 - kind: authentication
   name: Sparetech Authentication
@@ -319,6 +319,14 @@ security:
   name: Sparetech Trust Center
   slug: sparetech-trust-center
   summary_line: SOC 2 Type II, ISO 27001, GDPR
+skill_count: 3
+skills:
+- name: Create a material master record via Sparetech Sync
+  slug: sparetech-create-material
+- name: Extend a Sparetech material to another plant
+  slug: sparetech-extend-material
+- name: Review and resolve Sparetech creation intents
+  slug: sparetech-process-creation-intents
 slug: sparetech
 tags:
 - Company

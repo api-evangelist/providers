@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The Apache Calcite Java API provides SQL parsing, validation, query planning, and optimization capabilities for embedding in JVM applications. It exposes a relational algebra framework and pluggable o
@@ -48,17 +50,17 @@ apis:
 artifact_total: 30
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-calcite/refs/heads/main/plans/apache-calcite-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-calcite/plans/apache-calcite-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-calcite-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-calcite/refs/heads/main/rate-limits/apache-calcite-rate-limits.yml
+  href: https://artifacts.apis.io/apache-calcite/rate-limits/apache-calcite-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-calcite-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-calcite/refs/heads/main/finops/apache-calcite-finops.yml
+  href: https://artifacts.apis.io/apache-calcite/finops/apache-calcite-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-calcite-finops.yml
@@ -79,12 +81,12 @@ common:
   type: License
   url: https://github.com/apache/calcite/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-calcite/refs/heads/main/security/apache-calcite-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-calcite/security/apache-calcite-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-calcite-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-calcite/refs/heads/main/security/apache-calcite-domain-security.yml
+  href: https://artifacts.apis.io/apache-calcite/security/apache-calcite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-calcite-domain-security.yml
@@ -121,7 +123,7 @@ common:
   type: SDKs
   url: https://search.maven.org/artifact/org.apache.calcite/calcite-core
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-calcite/refs/heads/main/vocabulary/apache-calcite-vocabulary.yaml
+  href: https://artifacts.apis.io/apache-calcite/vocabulary/apache-calcite-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-calcite-vocabulary.yaml
@@ -152,7 +154,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Calcite Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-calcite-finops
   template: true
@@ -185,47 +187,44 @@ plans:
 - name: Apache Calcite Plans Pricing
   plan_count: 3
   slug: apache-calcite-plans-pricing
-random_paper: 16
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Apache Calcite Rate Limits
   slug: apache-calcite-rate-limits
 score:
-  band: thin
-  composite: 27.8
+  band: emerging
+  composite: 25.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 45.5
     catalog_earned_first_party: 0.0
     catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 0.0
     developer_ergonomics: 40.5
     discoverability: 62.5
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 29.2
+    operational_transparency: 39.5
+  previous_composite: 25.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-calcite/refs/heads/main/screenshots/apache-calcite-2026-06-20T172045.png
+screenshot: https://apis.io/screenshots/apache-calcite/apache-calcite-2026-06-20T172045.png
 security:
 - kind: domain-security
   name: Apache Calcite Domain Security

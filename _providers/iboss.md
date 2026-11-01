@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Authenticated REST administration and reporting surface for the iboss Zero Trust SASE/SSE cloud platform, served under the /ibcloud/web path on the iboss cloud gateway hosts. Probed anonymously it ans
@@ -45,17 +47,17 @@ apis:
 artifact_total: 6
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/lifecycle/iboss-lifecycle.yml
+  href: https://artifacts.apis.io/iboss/lifecycle/iboss-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/iboss-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/hosts/iboss-hosts.yml
+  href: https://artifacts.apis.io/iboss/hosts/iboss-hosts.yml
   title: ''
   type: Hosts
   url: hosts/iboss-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/vendors/iboss-vendors.yml
+  href: https://artifacts.apis.io/iboss/vendors/iboss-vendors.yml
   title: ''
   type: Vendors
   url: vendors/iboss-vendors.yml
@@ -64,7 +66,7 @@ common:
   type: Newsroom
   url: https://www.iboss.com/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/security/iboss-domain-security.yml
+  href: https://artifacts.apis.io/iboss/security/iboss-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/iboss-domain-security.yml
@@ -129,47 +131,47 @@ common:
   type: Compliance
   url: https://www.iboss.com/compliance
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/llms/iboss-llms.txt
+  href: https://artifacts.apis.io/iboss/llms/iboss-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/iboss-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/well-known/iboss-well-known.yml
+  href: https://artifacts.apis.io/iboss/well-known/iboss-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/iboss-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/authentication/iboss-authentication.yml
+  href: https://artifacts.apis.io/iboss/authentication/iboss-authentication.yml
   title: ''
   type: Authentication
   url: authentication/iboss-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/conformance/iboss-conformance.yml
+  href: https://artifacts.apis.io/iboss/conformance/iboss-conformance.yml
   title: ''
   type: Conformance
   url: conformance/iboss-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/lifecycle/iboss-lifecycle.yml
+  href: https://artifacts.apis.io/iboss/lifecycle/iboss-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/iboss-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/conventions/iboss-conventions.yml
+  href: https://artifacts.apis.io/iboss/conventions/iboss-conventions.yml
   title: ''
   type: Conventions
   url: conventions/iboss-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/rate-limits/iboss-rate-limits.yml
+  href: https://artifacts.apis.io/iboss/rate-limits/iboss-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/iboss-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/plans/iboss-plans-pricing.yml
+  href: https://artifacts.apis.io/iboss/plans/iboss-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/iboss-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/security/iboss-trust-center.yml
+  href: https://artifacts.apis.io/iboss/security/iboss-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/iboss-trust-center.yml
@@ -210,8 +212,8 @@ rate_limits:
   name: Iboss Rate Limits
   slug: iboss-rate-limits
 score:
-  band: thin
-  composite: 29.6
+  band: developing
+  composite: 41.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 49.0
@@ -219,13 +221,13 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 33.3
-    discoverability: 75.0
+    developer_ergonomics: 40.5
+    discoverability: 67.9
     operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -234,7 +236,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 29.5
+  previous_composite: 41.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -243,15 +245,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/screenshots/iboss-2026-09-02T145820.png
+screenshot: https://apis.io/screenshots/iboss/iboss-2026-09-02T145820.png
 security:
 - kind: authentication
   name: Iboss Authentication

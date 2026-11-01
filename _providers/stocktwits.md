@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -88,11 +90,8 @@ apis:
   description: Watchlist management endpoints for creating and managing symbol watchlists.
   name: StockTwits Watchlists API
   slug: stocktwits-watchlists-api
-artifact_total: 23
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: StockTwits Account API
   slug: open-stocktwits-account-api
@@ -122,87 +121,87 @@ collections:
   slug: open-stocktwits-watchlists-api
 common:
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/_original/stocktwits-openapi-original.json
+  href: https://artifacts.apis.io/stocktwits/openapi/_original/stocktwits-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/stocktwits-openapi-original.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/agentic-access/stocktwits-agentic-access.yml
+  href: https://artifacts.apis.io/stocktwits/agentic-access/stocktwits-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stocktwits-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/packages/stocktwits-packages.yml
+  href: https://artifacts.apis.io/stocktwits/packages/stocktwits-packages.yml
   title: ''
   type: Packages
   url: packages/stocktwits-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/well-known/stocktwits-well-known.yml
+  href: https://artifacts.apis.io/stocktwits/well-known/stocktwits-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stocktwits-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/mcp/stocktwits-mcp.yml
+  href: https://artifacts.apis.io/stocktwits/mcp/stocktwits-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/stocktwits-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/llms/stocktwits-llms.txt
+  href: https://artifacts.apis.io/stocktwits/llms/stocktwits-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stocktwits-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/overlays/stocktwits-openapi-overlay.yaml
+  href: https://artifacts.apis.io/stocktwits/overlays/stocktwits-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/stocktwits-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/conformance/stocktwits-conformance.yml
+  href: https://artifacts.apis.io/stocktwits/conformance/stocktwits-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stocktwits-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/errors/stocktwits-problem-types.yml
+  href: https://artifacts.apis.io/stocktwits/errors/stocktwits-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/stocktwits-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/lifecycle/stocktwits-lifecycle.yml
+  href: https://artifacts.apis.io/stocktwits/lifecycle/stocktwits-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stocktwits-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/conventions/stocktwits-conventions.yml
+  href: https://artifacts.apis.io/stocktwits/conventions/stocktwits-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stocktwits-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/data-model/stocktwits-data-model.yml
+  href: https://artifacts.apis.io/stocktwits/data-model/stocktwits-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stocktwits-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/components/stocktwits-components.yml
+  href: https://artifacts.apis.io/stocktwits/components/stocktwits-components.yml
   title: ''
   type: Components
   url: components/stocktwits-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/stocktwits/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/security/stocktwits-domain-security.yml
+  href: https://artifacts.apis.io/stocktwits/security/stocktwits-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stocktwits-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/scopes/stocktwits-scopes.yml
+  href: https://artifacts.apis.io/stocktwits/scopes/stocktwits-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/stocktwits-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/authentication/stocktwits-authentication.yml
+  href: https://artifacts.apis.io/stocktwits/authentication/stocktwits-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stocktwits-authentication.yml
@@ -266,15 +265,15 @@ overview: 'StockTwits publishes 9 API contracts indexed on the [APIs.io](https:/
 
 
   StockTwits'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 19
+random_paper: 15
 scopes:
 - name: Stocktwits Scopes
   scope_count: 6
   slug: stocktwits-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: thin
-  composite: 36.2
+  band: developing
+  composite: 40.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -282,15 +281,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 47.4
-    developer_ergonomics: 41.1
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 36.1
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,13 +306,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/screenshots/stocktwits-2026-08-17T082118.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/stocktwits/stocktwits-2026-08-17T082118.png
 security:
 - kind: authentication
   name: Stocktwits Authentication
@@ -323,6 +323,14 @@ security:
   name: Stocktwits Domain Security
   slug: stocktwits-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Manage a StockTwits watchlist
+  slug: stocktwits-manage-watchlist
+- name: Post and engage on StockTwits
+  slug: stocktwits-post-and-like
+- name: Read symbol sentiment from StockTwits
+  slug: stocktwits-read-symbol-sentiment
 slug: stocktwits
 tags:
 - Company

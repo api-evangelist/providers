@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: 'NTNU runs its own Open Journal Systems installation, "NTNU Open Access Journals", on its own registrable domain at www.ntnu.no/ojs, publishing sixteen journals including Nordic Journal of Science and '
@@ -116,37 +118,37 @@ common:
   type: AITooling
   url: https://i.ntnu.no/en/ki-for-ansatte
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/conformance/ntnu-conformance.yml
+  href: https://artifacts.apis.io/ntnu/conformance/ntnu-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ntnu-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/security/ntnu-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ntnu/security/ntnu-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ntnu-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/security/ntnu-domain-security.yml
+  href: https://artifacts.apis.io/ntnu/security/ntnu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ntnu-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/plans/ntnu-plans-pricing.yml
+  href: https://artifacts.apis.io/ntnu/plans/ntnu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ntnu-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/rate-limits/ntnu-rate-limits.yml
+  href: https://artifacts.apis.io/ntnu/rate-limits/ntnu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ntnu-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/finops/ntnu-finops.yml
+  href: https://artifacts.apis.io/ntnu/finops/ntnu-finops.yml
   title: ''
   type: FinOps
   url: finops/ntnu-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/ntnu/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -178,7 +180,7 @@ coverage:
     url: https://api.nva.unit.no/
   - status: 403
     url: https://tp.educloud.no/ntnu/ws/
-  reason: auth_required
+  reason: auth-required
   state: gated
 created: '2026-06-03'
 description: 'The Norwegian University of Science and Technology (NTNU) is Norway''s largest university, headquartered in Trondheim with campuses in Gjovik and Alesund. NTNU operates no consolidated institutional developer portal and publishes no OpenAPI, AsyncAPI or other machine-readable API contract of its own. Its one openly callable, institution-operated surface is the OAI-PMH interface of NTNU Open Access Journals at www.ntnu.no/ojs, which answers Identify, ListMetadataFormats and ListSets over sixteen NTNU-published journals. NTNU also runs an institutional API gateway at api.ntnu.no, but every path on it is behind Feide OAuth and no public documentation, contract or scope list is served without an institutional account. Everything else that looks programmable under NTNU''s name is operated by somebody else and entered here as a tenant relationship, not as NTNU engineering: research data in the NTNU collection of DataverseNO (run by UiT The Arctic University of Norway on Dataverse
@@ -205,14 +207,14 @@ plans:
 - name: Ntnu Plans Pricing
   plan_count: 2
   slug: ntnu-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Ntnu Rate Limits
   slug: ntnu-rate-limits
 score:
   band: emerging
-  composite: 20.1
+  composite: 21.9
   coverage:
     artifact_dirs: 9
     catalog_earned: 44.0
@@ -220,14 +222,14 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 18.2
     contract_quality: 4.4
     developer_ergonomics: 23.8
     discoverability: 82.1
-    operational_transparency: 7.9
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -236,7 +238,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 26.2
+  previous_composite: 21.9
   provenance:
     conformance: first-party
   regulatory:
@@ -245,14 +247,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/screenshots/ntnu-2026-06-20T190500.png
+screenshot: https://apis.io/screenshots/ntnu/ntnu-2026-06-20T190500.png
 security:
 - kind: domain-security
   name: Ntnu Domain Security

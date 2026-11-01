@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The public Cerby REST API. Programmatic access to accounts, secrets, collections, users, teams, integrations, jobs, and vaults in a Cerby workspace. Requests are authenticated with a scoped API key se
@@ -47,12 +49,17 @@ apis:
 - description: Cerby exposes SCIM 2.0 endpoints so an identity provider can automatically provision and deprovision users and groups into a Cerby workspace. Documented for Okta, Microsoft Entra ID, and OneLogin, aut
   name: Cerby SCIM 2.0
   slug: cerby-scim
-artifact_total: 9
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Cerby Webhooks
   slug: cerby-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/cerby/plans/cerby-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cerby-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -62,7 +69,7 @@ common:
   type: BlogRSS
   url: https://www.cerby.com/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/security/cerby-domain-security.yml
+  href: https://artifacts.apis.io/cerby/security/cerby-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cerby-domain-security.yml
@@ -107,77 +114,77 @@ common:
   type: StatusPage
   url: https://status.cerby.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/changelog/cerby-changelog.yml
+  href: https://artifacts.apis.io/cerby/changelog/cerby-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cerby-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/cli/cerby-cli.yml
+  href: https://artifacts.apis.io/cerby/cli/cerby-cli.yml
   title: ''
   type: CLI
   url: cli/cerby-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/llms/cerby-llms.txt
+  href: https://artifacts.apis.io/cerby/llms/cerby-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cerby-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/lifecycle/cerby-lifecycle.yml
+  href: https://artifacts.apis.io/cerby/lifecycle/cerby-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cerby-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/conformance/cerby-conformance.yml
+  href: https://artifacts.apis.io/cerby/conformance/cerby-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cerby-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/packages/cerby-packages.yml
+  href: https://artifacts.apis.io/cerby/packages/cerby-packages.yml
   title: ''
   type: Packages
   url: packages/cerby-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/security/cerby-trust-center.yml
+  href: https://artifacts.apis.io/cerby/security/cerby-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cerby-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/security/cerby-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cerby/security/cerby-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cerby-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/authentication/cerby-authentication.yml
+  href: https://artifacts.apis.io/cerby/authentication/cerby-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cerby-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/scopes/cerby-scopes.yml
+  href: https://artifacts.apis.io/cerby/scopes/cerby-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cerby-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/conventions/cerby-conventions.yml
+  href: https://artifacts.apis.io/cerby/conventions/cerby-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cerby-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/conventions/cerby-conventions.yml
+  href: https://artifacts.apis.io/cerby/conventions/cerby-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/cerby-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/errors/cerby-problem-types.yml
+  href: https://artifacts.apis.io/cerby/errors/cerby-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cerby-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/asyncapi/cerby-webhooks.yml
+  href: https://artifacts.apis.io/cerby/asyncapi/cerby-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cerby-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/data-model/cerby-data-model.yml
+  href: https://artifacts.apis.io/cerby/data-model/cerby-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cerby-data-model.yml
@@ -187,6 +194,14 @@ common:
   url: https://github.com/cerbyinc
 created: '2026-08-09'
 description: Cerby is an identity, access, and password management platform for nonfederated and disconnected applications — the enterprise software that does not support SAML, SCIM, or an integration API of its own. Cerby extends existing IAM, IGA, and PAM systems to those applications through browser and robotic automation, adding provisioning and deprovisioning, credential rotation, MFA enrollment, and access governance where no standards-based integration exists. Cerby publishes a public RESTful API (JSON:API-style envelope, X-API-Key authentication, scoped API keys) over eight resources — accounts, secrets, collections, users, teams, integrations, jobs, and vaults — plus a signed webhook notification service, a cross-platform CLI, and SCIM 2.0 endpoints for provisioning from Okta, Entra ID, and OneLogin.
+finops:
+- has_sources: true
+  method: derived
+  name: Cerby Finops
+  primary_unit: ''
+  service_category: ''
+  slug: cerby-finops
+  template: true
 image: https://www.cerby.com/hubfs/Logos/Cerby%20Favicon%20-%20Alternate.png
 layout: provider
 modified: '2026-10-06'
@@ -199,7 +214,11 @@ overview: 'Cerby is listed with 3 APIs on the [APIs.io](https://apis.io/) networ
   The Cerby catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cerby''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, pricing, and 22 more developer resources.'
+  Cerby''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, pricing, and 23 more developer resources.'
+plans:
+- name: Cerby Plans Pricing
+  plan_count: 1
+  slug: cerby-plans-pricing
 random_paper: 5
 scopes:
 - name: Cerby Scopes
@@ -208,23 +227,23 @@ scopes:
   summary_line: 17 scopes
 score:
   band: developing
-  composite: 47.1
+  composite: 53.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 20
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.2
   facets:
-    access_clarity: 31.6
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 60.7
-    discoverability: 78.6
-    operational_transparency: 42.1
-  previous_composite: 47.0
+    developer_ergonomics: 64.3
+    discoverability: 71.4
+    operational_transparency: 55.3
+  previous_composite: 48.8
   provenance:
     conformance: first-party
   regulatory:
@@ -233,14 +252,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/screenshots/cerby-2026-08-17T083439.png
+screenshot: https://apis.io/screenshots/cerby/cerby-2026-08-17T083439.png
 security:
 - kind: authentication
   name: Cerby Authentication

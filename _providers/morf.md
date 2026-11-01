@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,25 +35,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Morf's REST API and webhook surface for building healthcare automation workflows. Webhooks from source applications are ingested at api.morf.healthcare/webhooks/ and processed into events that trigger
   name: Morf API
   slug: morf-api
-artifact_total: 6
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Morf Webhooks
   slug: morf-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/morf/plans/morf-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/morf-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/morf/refs/heads/main/security/morf-trust-center.yml
+  href: https://artifacts.apis.io/morf/security/morf-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/morf-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/morf/refs/heads/main/security/morf-domain-security.yml
+  href: https://artifacts.apis.io/morf/security/morf-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/morf-domain-security.yml
@@ -116,47 +123,55 @@ common:
   type: Compliance
   url: https://trust.morf.health/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/morf/refs/heads/main/llms/morf-llms.txt
+  href: https://artifacts.apis.io/morf/llms/morf-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/morf-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/morf/refs/heads/main/well-known/morf-well-known.yml
+  href: https://artifacts.apis.io/morf/well-known/morf-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/morf-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/morf/refs/heads/main/authentication/morf-authentication.yml
+  href: https://artifacts.apis.io/morf/authentication/morf-authentication.yml
   title: ''
   type: Authentication
   url: authentication/morf-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/morf/refs/heads/main/scopes/morf-scopes.yml
+  href: https://artifacts.apis.io/morf/scopes/morf-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/morf-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/morf/refs/heads/main/conventions/morf-conventions.yml
+  href: https://artifacts.apis.io/morf/conventions/morf-conventions.yml
   title: ''
   type: Conventions
   url: conventions/morf-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/morf/refs/heads/main/asyncapi/morf-webhooks.yml
+  href: https://artifacts.apis.io/morf/asyncapi/morf-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/morf-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/morf/refs/heads/main/conformance/morf-conformance.yml
+  href: https://artifacts.apis.io/morf/conformance/morf-conformance.yml
   title: ''
   type: Conformance
   url: conformance/morf-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/morf/refs/heads/main/lifecycle/morf-lifecycle.yml
+  href: https://artifacts.apis.io/morf/lifecycle/morf-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/morf-lifecycle.yml
 created: '2026-07-17'
 description: Morf is a HIPAA-compliant healthcare automation and integration platform that connects EHRs, CRMs, payment systems, and communication tools so digital health teams can eliminate manual work and put patient outreach on autopilot. Workflows are triggered by inbound webhooks from source applications (Healthie, Elation, Medplum, Feathery, athenahealth, Cerbo, DrChrono, Hint Health, and dozens more), which Morf processes into events that fan out to actions across 30+ connected applications. The platform exposes a REST API at api.morf.healthcare secured with API keys and OAuth 2.0 / OpenID Connect (auth.morf.health), a webhook ingestion surface, an integration/action catalog of 170+ pre-built actions, and Flo AI, a no-code workflow co-pilot.
+finops:
+- has_sources: true
+  method: derived
+  name: Morf Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: morf-finops
+  template: false
 image: https://cdn.sanity.io/images/teurbt0n/production/9e3de2ea4057cbaef5c3b8c011b87232520081e0-1200x630.jpg?w=1200
 layout: provider
 modified: '2026-07-20'
@@ -169,32 +184,39 @@ overview: 'Morf is listed with 1 API on the [APIs.io](https://apis.io/) network.
   The Morf catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Morf''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 18 more developer resources.'
-random_paper: 18
+  Morf''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 19 more developer resources.'
+plans:
+- name: Morf Plans Pricing
+  plan_count: 6
+  slug: morf-plans-pricing
+- name: Morf Price Estimates
+  plan_count: 0
+  slug: morf-price-estimates
+random_paper: 4
 scopes:
 - name: Morf Scopes
   scope_count: 6
   slug: morf-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: developing
-  composite: 40.6
+  band: strong
+  composite: 55.4
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 15
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 46.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 38.1
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 40.5
+    developer_ergonomics: 57.1
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 47.5
   provenance:
     conformance: first-party
   regulatory:
@@ -206,15 +228,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 36.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/morf/refs/heads/main/screenshots/morf-2026-08-07T184304.png
+screenshot: https://apis.io/screenshots/morf/morf-2026-08-07T184304.png
 security:
 - kind: authentication
   name: Morf Authentication

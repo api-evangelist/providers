@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-17'
+  score: 33.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 151
   human_in_the_loop: 6
@@ -278,15 +280,12 @@ apis:
   description: The Webhooks API from Soldo — 0 operation(s) for webhooks.
   name: Soldo Webhooks API
   slug: soldo-webhooks-api
-artifact_total: 99
+artifact_total: 104
 asyncapis:
 - description: ''
   name: Soldo Webhooks
   slug: soldo-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Soldo Business API v2.0 Accounting Classification API
   slug: open-soldo-accounting-classification-api
@@ -418,17 +417,17 @@ collections:
   slug: open-soldo-workflows-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/rate-limits/soldo-rate-limits.yml
+  href: https://artifacts.apis.io/soldo/rate-limits/soldo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/soldo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/plans/soldo-plans-pricing.yml
+  href: https://artifacts.apis.io/soldo/plans/soldo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/soldo-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/capabilities/soldo-capability-edges.yml
+  href: https://artifacts.apis.io/soldo/capabilities/soldo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/soldo-capability-edges.yml
@@ -449,27 +448,27 @@ common:
   type: GettingStarted
   url: https://developer.soldo.com/docs/api-set-up
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/authentication/soldo-authentication.yml
+  href: https://artifacts.apis.io/soldo/authentication/soldo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/soldo-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/scopes/soldo-scopes.yml
+  href: https://artifacts.apis.io/soldo/scopes/soldo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/soldo-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/conventions/soldo-conventions.yml
+  href: https://artifacts.apis.io/soldo/conventions/soldo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/soldo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/errors/soldo-error-codes.yml
+  href: https://artifacts.apis.io/soldo/errors/soldo-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/soldo-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/lifecycle/soldo-lifecycle.yml
+  href: https://artifacts.apis.io/soldo/lifecycle/soldo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/soldo-lifecycle.yml
@@ -478,12 +477,12 @@ common:
   type: StatusPage
   url: https://soldo.statuspage.io
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/sandbox/soldo-sandbox.yml
+  href: https://artifacts.apis.io/soldo/sandbox/soldo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/soldo-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/changelog/soldo-changelog.yml
+  href: https://artifacts.apis.io/soldo/changelog/soldo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/soldo-changelog.yml
@@ -492,47 +491,47 @@ common:
   type: ChangeLog
   url: https://developer.soldo.com/changelog
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/conformance/soldo-conformance.yml
+  href: https://artifacts.apis.io/soldo/conformance/soldo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/soldo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/data-model/soldo-data-model.yml
+  href: https://artifacts.apis.io/soldo/data-model/soldo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/soldo-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/asyncapi/soldo-webhooks.yml
+  href: https://artifacts.apis.io/soldo/asyncapi/soldo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/soldo-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/soldo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/agentic-access/soldo-agentic-access.yml
+  href: https://artifacts.apis.io/soldo/agentic-access/soldo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/soldo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/security/soldo-domain-security.yml
+  href: https://artifacts.apis.io/soldo/security/soldo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/soldo-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/mcp/soldo-mcp.yml
+  href: https://artifacts.apis.io/soldo/mcp/soldo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/soldo-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/overlays/soldo-business-api-v20-overlay.yaml
+  href: https://artifacts.apis.io/soldo/overlays/soldo-business-api-v20-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/soldo-business-api-v20-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/llms/soldo-llms.txt
+  href: https://artifacts.apis.io/soldo/llms/soldo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/soldo-llms.txt
@@ -562,6 +561,14 @@ common:
   url: https://www.soldo.com
 created: '2026-07-17'
 description: Soldo is a pan-European spend management and prepaid business card platform that pairs Mastercard company cards with software for budgeting, expense tracking, and accounting reconciliation. The Soldo Business API (v2.0, OpenAPI 3.1) lets businesses programmatically issue and control cards, manage wallets and internal transfers, read and reconcile transactions, run expense reports and reviews, manage users, groups and roles, handle documents and receipts, and subscribe to 81 webhook event types. Authentication is OAuth 2.0 Client Credentials, with request-signed "advanced authentication" (SHA512withRSA fingerprints) layered on top for money movement and sensitive changes. Soldo also operates a separate PSD2 / Open Banking API.
+finops:
+- has_sources: true
+  method: derived
+  name: Soldo Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: soldo-finops
+  template: false
 image: https://www.soldo.com/wp-content/uploads/2023/11/home-page-soldo-hero-small.webp
 layout: provider
 modified: '2026-07-21'
@@ -594,23 +601,23 @@ scopes:
   summary_line: 59 scopes · clientCredentials
 score:
   band: strong
-  composite: 54.9
+  composite: 59.4
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 57.0
+    artifact_dirs: 27
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 71.1
     contract_governance: 4.5
-    contract_quality: 61.4
-    developer_ergonomics: 53.0
-    discoverability: 73.2
-    operational_transparency: 52.6
-  previous_composite: 54.8
+    contract_quality: 58.5
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 60.5
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -631,13 +638,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/screenshots/soldo-2026-08-17T081954.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/soldo/soldo-2026-08-17T081954.png
 security:
 - kind: authentication
   name: Soldo Authentication
@@ -647,6 +655,18 @@ security:
   name: Soldo Domain Security
   slug: soldo-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Authenticate with the Soldo Business API
+  slug: soldo-authenticate
+- name: Move funds between Soldo wallets
+  slug: soldo-fund-wallet-transfer
+- name: Issue and control a Soldo card
+  slug: soldo-issue-and-control-card
+- name: Manage Soldo webhook subscriptions
+  slug: soldo-manage-webhooks
+- name: Reconcile Soldo transactions and attach receipts
+  slug: soldo-reconcile-transactions
 slug: soldo
 tags:
 - Company

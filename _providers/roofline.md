@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -62,22 +64,22 @@ common:
   type: PrivacyPolicy
   url: https://www.roofline.ai/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/roofline/refs/heads/main/llms/roofline-llms.txt
+  href: https://artifacts.apis.io/roofline/llms/roofline-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/roofline-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/roofline/refs/heads/main/packages/roofline-packages.yml
+  href: https://artifacts.apis.io/roofline/packages/roofline-packages.yml
   title: ''
   type: Packages
   url: packages/roofline-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/roofline/refs/heads/main/plans/roofline-plans-pricing.yml
+  href: https://artifacts.apis.io/roofline/plans/roofline-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/roofline-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/roofline/refs/heads/main/security/roofline-domain-security.yml
+  href: https://artifacts.apis.io/roofline/security/roofline-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/roofline-domain-security.yml
@@ -116,10 +118,10 @@ plans:
 - name: Roofline Plans Pricing
   plan_count: 0
   slug: roofline-plans-pricing
-random_paper: 4
+random_paper: 22
 score:
-  band: emerging
-  composite: 11.1
+  band: minimal
+  composite: 10.8
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -133,8 +135,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -143,21 +145,21 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 11.1
+  previous_composite: 10.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/roofline/refs/heads/main/screenshots/roofline-2026-09-02T154110.png
+screenshot: https://apis.io/screenshots/roofline/roofline-2026-09-02T154110.png
 security:
 - kind: domain-security
   name: Roofline Domain Security

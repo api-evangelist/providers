@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.1
-  scored_at: '2026-10-17'
+  score: 32.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -109,9 +111,6 @@ apis:
 artifact_total: 44
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Felt Comments API
   slug: open-felt-comments-api
 - collection_type: open
@@ -145,28 +144,32 @@ collections:
   name: Felt Comments Users API
   slug: open-felt-users-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/felt/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/agentic-access/felt-agentic-access.yml
+  href: https://artifacts.apis.io/felt/agentic-access/felt-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/felt-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/security/felt-trust-center.yml
+  href: https://artifacts.apis.io/felt/security/felt-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/felt-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/security/felt-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/felt/security/felt-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/felt-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/security/felt-domain-security.yml
+  href: https://artifacts.apis.io/felt/security/felt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/felt-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/authentication/felt-authentication.yml
+  href: https://artifacts.apis.io/felt/authentication/felt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/felt-authentication.yml
@@ -199,27 +202,27 @@ common:
   type: X
   url: https://x.com/felt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/plans/felt-plans-pricing.yml
+  href: https://artifacts.apis.io/felt/plans/felt-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/felt-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/rate-limits/felt-rate-limits.yml
+  href: https://artifacts.apis.io/felt/rate-limits/felt-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/felt-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/finops/felt-finops.yml
+  href: https://artifacts.apis.io/felt/finops/felt-finops.yml
   title: ''
   type: FinOps
   url: finops/felt-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/vocabulary/felt-vocabulary.yml
+  href: https://artifacts.apis.io/felt/vocabulary/felt-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/felt-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/json-ld/felt-context.jsonld
+  href: https://artifacts.apis.io/felt/json-ld/felt-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/felt-context.jsonld
@@ -234,13 +237,13 @@ examples:
   name: Felt Api Examples
   slug: felt-api-examples
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Felt Finops
-  primary_unit: ''
+  primary_unit: workspace
   service_category: ''
   slug: felt-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/felt.png
 json_schemas:
 - name: EmbedToken
@@ -284,12 +287,15 @@ overview: 'Felt publishes 13 API contracts indexed on the [APIs.io](https://apis
   The Felt catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Felt''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, and 13 more developer resources.'
+  Felt''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Felt Plans Pricing
-  plan_count: 3
+  plan_count: 7
   slug: felt-plans-pricing
-random_paper: 9
+- name: Felt Price Estimates
+  plan_count: 0
+  slug: felt-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Felt Rate Limits
@@ -308,23 +314,23 @@ rules:
   slug: felt-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.5
+  composite: 47.6
   coverage:
     artifact_dirs: 17
-    catalog_earned: 62.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.3
+    catalog_earned: 74.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.8
   facets:
-    access_clarity: 26.3
+    access_clarity: 57.9
     contract_governance: 23.5
     contract_quality: 65.7
-    developer_ergonomics: 31.0
-    discoverability: 60.0
-    operational_transparency: 13.2
-  previous_composite: 49.8
+    developer_ergonomics: 32.1
+    discoverability: 57.1
+    operational_transparency: 23.7
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     contracts:
@@ -339,13 +345,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/screenshots/felt-2026-06-20T181135.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/felt/felt-2026-06-20T181135.png
 security:
 - kind: authentication
   name: Felt Authentication

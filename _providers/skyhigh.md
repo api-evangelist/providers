@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
+  score: 20.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,9 +53,6 @@ apis:
 artifact_total: 12
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Skyhigh Networks External APIs Tenant API
   slug: open-skyhigh-tenant-api
 common:
@@ -66,12 +65,12 @@ common:
   type: BlogRSS
   url: https://www.skyhighsecurity.com/feed
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/capabilities/skyhigh-capability-edges.yml
+  href: https://artifacts.apis.io/skyhigh/capabilities/skyhigh-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/skyhigh-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/overlays/skyhigh-incidents-overlay.yaml
+  href: https://artifacts.apis.io/skyhigh/overlays/skyhigh-incidents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/skyhigh-incidents-overlay.yaml
@@ -120,62 +119,62 @@ common:
   type: Compliance
   url: https://www.skyhighsecurity.com/about/certification.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/authentication/skyhigh-authentication.yml
+  href: https://artifacts.apis.io/skyhigh/authentication/skyhigh-authentication.yml
   title: ''
   type: Authentication
   url: authentication/skyhigh-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/scopes/skyhigh-scopes.yml
+  href: https://artifacts.apis.io/skyhigh/scopes/skyhigh-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/skyhigh-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/conventions/skyhigh-conventions.yml
+  href: https://artifacts.apis.io/skyhigh/conventions/skyhigh-conventions.yml
   title: ''
   type: Conventions
   url: conventions/skyhigh-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/errors/skyhigh-problem-types.yml
+  href: https://artifacts.apis.io/skyhigh/errors/skyhigh-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/skyhigh-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/lifecycle/skyhigh-lifecycle.yml
+  href: https://artifacts.apis.io/skyhigh/lifecycle/skyhigh-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/skyhigh-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/data-model/skyhigh-data-model.yml
+  href: https://artifacts.apis.io/skyhigh/data-model/skyhigh-data-model.yml
   title: ''
   type: DataModel
   url: data-model/skyhigh-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/conformance/skyhigh-conformance.yml
+  href: https://artifacts.apis.io/skyhigh/conformance/skyhigh-conformance.yml
   title: ''
   type: Conformance
   url: conformance/skyhigh-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/security/skyhigh-domain-security.yml
+  href: https://artifacts.apis.io/skyhigh/security/skyhigh-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skyhigh-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/agentic-access/skyhigh-agentic-access.yml
+  href: https://artifacts.apis.io/skyhigh/agentic-access/skyhigh-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/skyhigh-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/mcp/skyhigh-mcp.yml
+  href: https://artifacts.apis.io/skyhigh/mcp/skyhigh-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/skyhigh-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/skyhigh/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/llms/skyhigh-llms.txt
+  href: https://artifacts.apis.io/skyhigh/llms/skyhigh-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/skyhigh-llms.txt
@@ -214,7 +213,7 @@ overview: 'Skyhigh Security publishes 1 API contract indexed on the [APIs.io](ht
 
 
   Skyhigh Security''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, and 21 more developer resources.'
-random_paper: 11
+random_paper: 15
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -235,7 +234,7 @@ scopes:
   summary_line: 3 scopes · implicit
 score:
   band: developing
-  composite: 42.1
+  composite: 43.5
   coverage:
     artifact_dirs: 29
     catalog_earned: 61.5
@@ -243,15 +242,15 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 31.8
     contract_quality: 51.6
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 46.3
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -274,13 +273,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/screenshots/skyhigh-2026-09-02T155807.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/skyhigh/skyhigh-2026-09-02T155807.png
 security:
 - kind: authentication
   name: Skyhigh Authentication
@@ -294,6 +294,10 @@ security:
   name: Skyhigh Trust Center
   slug: skyhigh-trust-center
   summary_line: SOC 2 Type II, ISO/IEC 27001, FedRAMP High, DoD Impact Level (IL2 & IL4), CSA STAR Level 1, IRAP PROTECTED, BSI C5, GDPR, DPDPA, DORA
+skill_count: 1
+skills:
+- name: Query Skyhigh SSE incidents
+  slug: skyhigh-query-incidents
 slug: skyhigh
 tags:
 - Company

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.6
-  scored_at: '2026-10-17'
+  score: 32.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 77
   human_in_the_loop: 5
@@ -268,54 +270,54 @@ apis:
   description: The Orderbook API from Moment — 2 operation(s) for orderbook.
   name: Moment Orderbook API
   slug: moment-orderbook-api
-artifact_total: 111
+artifact_total: 114
 asyncapis:
 - description: ''
   name: Moment Realtime Webhooks
   slug: moment-realtime-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/agentic-access/moment-agentic-access.yml
+  href: https://artifacts.apis.io/moment/agentic-access/moment-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/moment-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/rules/moment-rules.yml
+  href: https://artifacts.apis.io/moment/rules/moment-rules.yml
   title: ''
   type: Spectral
   url: rules/moment-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/json-ld/moment-context.jsonld
+  href: https://artifacts.apis.io/moment/json-ld/moment-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/moment-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/vocabulary/moment-vocabulary.yml
+  href: https://artifacts.apis.io/moment/vocabulary/moment-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/moment-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/lifecycle/moment-lifecycle.yml
+  href: https://artifacts.apis.io/moment/lifecycle/moment-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/moment-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/errors/moment-problem-types.yml
+  href: https://artifacts.apis.io/moment/errors/moment-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/moment-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/conformance/moment-conformance.yml
+  href: https://artifacts.apis.io/moment/conformance/moment-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moment-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/hosts/moment-hosts.yml
+  href: https://artifacts.apis.io/moment/hosts/moment-hosts.yml
   title: ''
   type: Hosts
   url: hosts/moment-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/vendors/moment-vendors.yml
+  href: https://artifacts.apis.io/moment/vendors/moment-vendors.yml
   title: ''
   type: Vendors
   url: vendors/moment-vendors.yml
@@ -324,7 +326,7 @@ common:
   type: TrustCenter
   url: https://trust.moment.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/security/moment-domain-security.yml
+  href: https://artifacts.apis.io/moment/security/moment-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moment-domain-security.yml
@@ -357,62 +359,62 @@ common:
   type: StatusPage
   url: https://status.moment.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/llms/moment-llms.txt
+  href: https://artifacts.apis.io/moment/llms/moment-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moment-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/authentication/moment-authentication.yml
+  href: https://artifacts.apis.io/moment/authentication/moment-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moment-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/errors/moment-error-codes.yml
+  href: https://artifacts.apis.io/moment/errors/moment-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/moment-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/conventions/moment-conventions.yml
+  href: https://artifacts.apis.io/moment/conventions/moment-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moment-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/conventions/moment-conventions.yml
+  href: https://artifacts.apis.io/moment/conventions/moment-conventions.yml
   title: ''
   type: RateLimits
   url: conventions/moment-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/sandbox/moment-sandbox.yml
+  href: https://artifacts.apis.io/moment/sandbox/moment-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/moment-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/asyncapi/moment-realtime-webhooks.yml
+  href: https://artifacts.apis.io/moment/asyncapi/moment-realtime-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/moment-realtime-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/mcp/moment-mcp.yml
+  href: https://artifacts.apis.io/moment/mcp/moment-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/moment-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/moment/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/data-model/moment-data-model.yml
+  href: https://artifacts.apis.io/moment/data-model/moment-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moment-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/well-known/moment-well-known.yml
+  href: https://artifacts.apis.io/moment/well-known/moment-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/moment-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/lifecycle/moment-lifecycle.yml
+  href: https://artifacts.apis.io/moment/lifecycle/moment-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moment-lifecycle.yml
@@ -617,7 +619,7 @@ overview: 'Moment publishes 45 API contracts indexed on the [APIs.io](https://ap
 
 
   Moment''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 24 more developer resources.'
-random_paper: 18
+random_paper: 8
 rules:
 - authorship: generated
   effective_rule_count: 53
@@ -633,7 +635,7 @@ rules:
   slug: moment-rules
 score:
   band: developing
-  composite: 45.2
+  composite: 44.7
   coverage:
     artifact_dirs: 24
     catalog_earned: 65.8
@@ -641,15 +643,15 @@ score:
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 18.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 22.0
-    contract_quality: 67.4
-    developer_ergonomics: 44.6
-    discoverability: 78.6
-    operational_transparency: 23.7
-  previous_composite: 26.6
+    contract_quality: 66.2
+    developer_ergonomics: 63.7
+    discoverability: 71.4
+    operational_transparency: 31.6
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -666,13 +668,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/screenshots/moment-2026-08-07T184119.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/moment/moment-2026-08-07T184119.png
 security:
 - kind: authentication
   name: Moment Authentication
@@ -682,6 +685,14 @@ security:
   name: Moment Domain Security
   slug: moment-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Look up and price a bond
+  slug: moment-lookup-and-price-a-bond
+- name: Optimize a portfolio
+  slug: moment-optimize-a-portfolio
+- name: Place and track a bond order
+  slug: moment-place-and-track-an-order
 slug: moment
 tags:
 - Company

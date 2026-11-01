@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Suunto Cloud API (also called the Integration API) gives approved partners OAuth2-authorized access to a Suunto App user's workout and daily-activity data. Workouts are delivered as FIT files carr
@@ -97,72 +99,72 @@ common:
   type: SignUp
   url: https://www.suunto.com/welcomepartners
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/authentication/liesheng-authentication.yml
+  href: https://artifacts.apis.io/liesheng/authentication/liesheng-authentication.yml
   title: ''
   type: Authentication
   url: authentication/liesheng-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/scopes/liesheng-scopes.yml
+  href: https://artifacts.apis.io/liesheng/scopes/liesheng-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/liesheng-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/asyncapi/liesheng-suunto-webhooks.yml
+  href: https://artifacts.apis.io/liesheng/asyncapi/liesheng-suunto-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/liesheng-suunto-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/conventions/liesheng-conventions.yml
+  href: https://artifacts.apis.io/liesheng/conventions/liesheng-conventions.yml
   title: ''
   type: Conventions
   url: conventions/liesheng-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/sandbox/liesheng-sandbox.yml
+  href: https://artifacts.apis.io/liesheng/sandbox/liesheng-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/liesheng-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/lifecycle/liesheng-lifecycle.yml
+  href: https://artifacts.apis.io/liesheng/lifecycle/liesheng-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/liesheng-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/conformance/liesheng-conformance.yml
+  href: https://artifacts.apis.io/liesheng/conformance/liesheng-conformance.yml
   title: ''
   type: Conformance
   url: conformance/liesheng-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/well-known/liesheng-well-known.yml
+  href: https://artifacts.apis.io/liesheng/well-known/liesheng-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/liesheng-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/well-known/liesheng-suunto-security.txt
+  href: https://artifacts.apis.io/liesheng/well-known/liesheng-suunto-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/liesheng-suunto-security.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/packages/liesheng-packages.yml
+  href: https://artifacts.apis.io/liesheng/packages/liesheng-packages.yml
   title: ''
   type: Packages
   url: packages/liesheng-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/llms/liesheng-llms.txt
+  href: https://artifacts.apis.io/liesheng/llms/liesheng-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/liesheng-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/llms/liesheng-haylou-llms.txt
+  href: https://artifacts.apis.io/liesheng/llms/liesheng-haylou-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/liesheng-haylou-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/mcp/liesheng-mcp.yml
+  href: https://artifacts.apis.io/liesheng/mcp/liesheng-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/liesheng-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/security/liesheng-domain-security.yml
+  href: https://artifacts.apis.io/liesheng/security/liesheng-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/liesheng-domain-security.yml
@@ -185,7 +187,7 @@ overview: 'Liesheng Group is listed with 2 APIs on the [APIs.io](https://apis.io
 
 
   Liesheng Group''s developer surface includes support, documentation, API reference, getting-started guide, signup flow, authentication, sandbox, and 19 more developer resources.'
-random_paper: 11
+random_paper: 7
 scopes:
 - name: Liesheng Scopes
   scope_count: 1
@@ -193,7 +195,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 42.8
+  composite: 43.2
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -201,14 +203,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 61.9
-    discoverability: 75.0
-    operational_transparency: 7.9
+    discoverability: 65.0
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -216,7 +218,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 42.7
+  previous_composite: 43.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -226,14 +228,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/screenshots/liesheng-2026-07-25T225031.png
+screenshot: https://apis.io/screenshots/liesheng/liesheng-2026-07-25T225031.png
 security:
 - kind: authentication
   name: Liesheng Authentication

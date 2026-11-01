@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mightyhive/refs/heads/main/security/mightyhive-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mightyhive/security/mightyhive-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mightyhive-vulnerability-disclosure.yml
@@ -46,32 +48,32 @@ common:
   type: Security
   url: https://www.monks.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mightyhive/refs/heads/main/security/mightyhive-domain-security.yml
+  href: https://artifacts.apis.io/mightyhive/security/mightyhive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mightyhive-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mightyhive/refs/heads/main/well-known/mightyhive-well-known.yml
+  href: https://artifacts.apis.io/mightyhive/well-known/mightyhive-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mightyhive-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mightyhive/refs/heads/main/well-known/mightyhive-security.txt
+  href: https://artifacts.apis.io/mightyhive/well-known/mightyhive-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/mightyhive-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mightyhive/refs/heads/main/llms/mightyhive-llms.txt
+  href: https://artifacts.apis.io/mightyhive/llms/mightyhive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mightyhive-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mightyhive/refs/heads/main/plans/mightyhive-plans-pricing.yml
+  href: https://artifacts.apis.io/mightyhive/plans/mightyhive-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mightyhive-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mightyhive/refs/heads/main/rate-limits/mightyhive-rate-limits.yml
+  href: https://artifacts.apis.io/mightyhive/rate-limits/mightyhive-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mightyhive-rate-limits.yml
@@ -128,16 +130,16 @@ plans:
 - name: Mightyhive Plans Pricing
   plan_count: 0
   slug: mightyhive-plans-pricing
-random_paper: 8
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Mightyhive Rate Limits
   slug: mightyhive-rate-limits
 score:
   band: minimal
-  composite: 9.2
+  composite: 9.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -149,23 +151,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
-    operational_transparency: 7.9
-  previous_composite: 9.2
+    discoverability: 48.2
+    operational_transparency: 15.8
+  previous_composite: 9.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mightyhive/refs/heads/main/screenshots/mightyhive-2026-08-07T172904.png
+screenshot: https://apis.io/screenshots/mightyhive/mightyhive-2026-08-07T172904.png
 security:
 - kind: domain-security
   name: Mightyhive Domain Security

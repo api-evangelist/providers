@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 24.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -95,11 +97,8 @@ apis:
   description: The Transcripts API from Cisco Webex Meetings — 1 operation(s) for transcripts.
   name: Cisco Webex Meetings Transcripts API
   slug: cisco-webex-meetings-transcripts-api
-artifact_total: 28
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cisco Webex Meetings Invitees API
   slug: open-cisco-webex-meetings-invitees-api
@@ -116,13 +115,22 @@ collections:
   name: Cisco Webex Meetings API
   slug: open-cisco-webex-meetings
 common:
+- group: other
+  href: https://artifacts.apis.io/cisco-webex-meetings/capabilities/cisco-webex-meetings-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cisco-webex-meetings-capability-edges.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cisco-webex-meetings/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/plans/cisco-webex-meetings-plans-pricing.yml
+  href: https://artifacts.apis.io/cisco-webex-meetings/plans/cisco-webex-meetings-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cisco-webex-meetings-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/finops/cisco-webex-meetings-finops.yml
+  href: https://artifacts.apis.io/cisco-webex-meetings/finops/cisco-webex-meetings-finops.yml
   title: ''
   type: FinOps
   url: finops/cisco-webex-meetings-finops.yml
@@ -131,17 +139,17 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/webex/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/agentic-access/cisco-webex-meetings-agentic-access.yml
+  href: https://artifacts.apis.io/cisco-webex-meetings/agentic-access/cisco-webex-meetings-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cisco-webex-meetings-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/security/cisco-webex-meetings-domain-security.yml
+  href: https://artifacts.apis.io/cisco-webex-meetings/security/cisco-webex-meetings-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cisco-webex-meetings-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/authentication/cisco-webex-meetings-authentication.yml
+  href: https://artifacts.apis.io/cisco-webex-meetings/authentication/cisco-webex-meetings-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cisco-webex-meetings-authentication.yml
@@ -206,12 +214,12 @@ common:
   type: PrivacyPolicy
   url: https://www.cisco.com/c/en/us/about/legal/privacy-full.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/json-ld/cisco-webex-meetings-context.jsonld
+  href: https://artifacts.apis.io/cisco-webex-meetings/json-ld/cisco-webex-meetings-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cisco-webex-meetings-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/rules/cisco-webex-meetings-rules.yml
+  href: https://artifacts.apis.io/cisco-webex-meetings/rules/cisco-webex-meetings-rules.yml
   title: ''
   type: Spectral
   url: rules/cisco-webex-meetings-rules.yml
@@ -221,7 +229,7 @@ finops:
 - has_sources: false
   method: generated
   name: Cisco Webex Meetings Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: cisco-webex-meetings-finops
   template: true
@@ -242,12 +250,12 @@ overview: 'Cisco Webex Meetings publishes 14 API contracts indexed on the [APIs.
   The Cisco Webex Meetings catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cisco Webex Meetings'' developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, support, engineering blog, and 16 more developer resources.'
+  Cisco Webex Meetings'' developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, support, engineering blog, and 18 more developer resources.'
 plans:
 - name: Cisco Webex Meetings Plans Pricing
   plan_count: 3
   slug: cisco-webex-meetings-plans-pricing
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Cisco Webex Meetings Rate Limits
@@ -267,22 +275,22 @@ rules:
   slug: cisco-webex-meetings-rules
 score:
   band: developing
-  composite: 40.1
+  composite: 45.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 49.8
     catalog_earned_first_party: 0.0
     catalog_gap: 65.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.0
+  delta: 0.2
   facets:
-    access_clarity: 18.4
+    access_clarity: 28.9
     contract_governance: 11.4
-    contract_quality: 53.4
-    developer_ergonomics: 57.1
+    contract_quality: 50.1
+    developer_ergonomics: 58.3
     discoverability: 57.1
-    operational_transparency: 34.2
+    operational_transparency: 52.6
   previous_composite: 45.1
   provenance:
     agentic_access: derived
@@ -296,14 +304,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/screenshots/cisco-webex-meetings-2026-06-20T174406.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cisco-webex-meetings/cisco-webex-meetings-2026-06-20T174406.png
 security:
 - kind: authentication
   name: Cisco Webex Meetings Authentication

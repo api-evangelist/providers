@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,27 +35,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/podcastpage-api-podcastpage-io/refs/heads/main/plans/podcastpage-api-podcastpage-io-plans-pricing.yml
+  href: https://artifacts.apis.io/podcastpage-api-podcastpage-io/plans/podcastpage-api-podcastpage-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/podcastpage-api-podcastpage-io-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/podcastpage-api-podcastpage-io/refs/heads/main/rate-limits/podcastpage-api-podcastpage-io-rate-limits.yml
+  href: https://artifacts.apis.io/podcastpage-api-podcastpage-io/rate-limits/podcastpage-api-podcastpage-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/podcastpage-api-podcastpage-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/podcastpage-api-podcastpage-io/refs/heads/main/finops/podcastpage-api-podcastpage-io-finops.yml
+  href: https://artifacts.apis.io/podcastpage-api-podcastpage-io/finops/podcastpage-api-podcastpage-io-finops.yml
   title: ''
   type: FinOps
   url: finops/podcastpage-api-podcastpage-io-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/podcastpage-api-podcastpage-io/refs/heads/main/security/podcastpage-api-podcastpage-io-domain-security.yml
+  href: https://artifacts.apis.io/podcastpage-api-podcastpage-io/security/podcastpage-api-podcastpage-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/podcastpage-api-podcastpage-io-domain-security.yml
@@ -83,7 +85,7 @@ finops:
 - has_sources: false
   method: generated
   name: Podcastpage Api Podcastpage Io Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: podcastpage-api-podcastpage-io-finops
   template: true
@@ -101,7 +103,7 @@ plans:
 - name: Podcastpage Api Podcastpage Io Plans Pricing
   plan_count: 3
   slug: podcastpage-api-podcastpage-io-plans-pricing
-random_paper: 21
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Podcastpage Api Podcastpage Io Rate Limits
@@ -116,7 +118,7 @@ score:
     catalog_gap: 87.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -124,21 +126,21 @@ score:
     developer_ergonomics: 11.9
     discoverability: 39.3
     operational_transparency: 7.9
-  previous_composite: 9.0
+  previous_composite: 7.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/podcastpage-api-podcastpage-io/refs/heads/main/screenshots/podcastpage-api-podcastpage-io-2026-06-20T191831.png
+screenshot: https://apis.io/screenshots/podcastpage-api-podcastpage-io/podcastpage-api-podcastpage-io-2026-06-20T191831.png
 security:
 - kind: domain-security
   name: Podcastpage Api Podcastpage Io Domain Security

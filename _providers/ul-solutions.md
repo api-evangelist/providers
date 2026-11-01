@@ -25,19 +25,36 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 2.9
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
+- group: agent
+  href: https://artifacts.apis.io/ul-solutions/llms/ul-solutions-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/ul-solutions-llms.txt
+- group: other
+  href: https://artifacts.apis.io/ul-solutions/hosts/ul-solutions-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/ul-solutions-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/ul-solutions/vendors/ul-solutions-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/ul-solutions-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ul-solutions/refs/heads/main/security/ul-solutions-domain-security.yml
+  href: https://artifacts.apis.io/ul-solutions/security/ul-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ul-solutions-domain-security.yml
@@ -81,18 +98,6 @@ common:
   title: ''
   type: InvestorRelations
   url: https://investors.ul.com
-- group: auth
-  title: ''
-  type: TrustCenter
-  url: https://www.ul.com/about/our-policies
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://www.ul.com/about/policies-statements/online-privacy
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://www.ul.com/about/policies-statements/terms-of-use
 - group: operate
   title: ''
   type: Contact
@@ -101,24 +106,60 @@ common:
   title: ''
   type: Blog
   url: https://www.ul.com/news
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.ul.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.ul.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.ul.com/resources/online-policies/privacy-notice
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.ul.com/resources/contracts/terms
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.ul.com/resources/help
+- group: start
+  title: ''
+  type: Login
+  url: https://my.ul.com/
+coverage:
+  checked: '2026-10-20'
+  detail: UL Solutions runs an Azure APIM developer portal at developer.ul.com whose anonymous catalog shows only the default Echo API, and every docs.ul.com page redirects to the login.ul.com Azure B2C sign-in.
+  evidence:
+  - status: 200
+    url: https://docs.ul.com/docs/abstract
+  - status: 200
+    url: https://developer.ul.com/apis
+  - status: 404
+    url: https://docs.ul.com/docs/developer-portal-registration
+  reason: partner-login
+  state: gated
 created: '2026-05-04'
 description: UL Solutions is a global leader in applied safety science, providing testing, inspection, certification, advisory, and software solutions to help customers innovate safely, demonstrate compliance, and bring trusted products to market. The company offers software products such as ULTRUS and ComplianceWire, customer portals (myUL, Product iQ), and the Marks and Labels Hub. UL Solutions does not currently expose a public developer-facing API portal with open documentation.
 image: https://www.ul.com/favicon.ico
 layout: provider
-modified: '2026-05-04'
+modified: '2026-10-20'
 name: UL Solutions
 nav: Providers
 network: true
 overview: 'UL Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Safety Science, Certification, Testing, Compliance, and Standards.
 
 
-  UL Solutions'' developer surface includes developer portal, product news, engineering blog, and 13 more developer resources.'
-random_paper: 2
+  UL Solutions'' developer surface includes developer portal, product news, engineering blog, documentation, support, and 17 more developer resources.'
+random_paper: 6
 score:
-  band: minimal
-  composite: 6.3
+  band: emerging
+  composite: 16.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 9
     catalog_earned: 24.0
     catalog_earned_first_party: 0.0
     catalog_gap: 91.0
@@ -126,27 +167,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
-    discoverability: 43.8
+    developer_ergonomics: 26.2
+    discoverability: 44.6
     operational_transparency: 0.0
-  previous_composite: 6.3
+  previous_composite: 16.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 13.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ul-solutions/refs/heads/main/screenshots/ul-solutions-2026-06-20T200006.png
+screenshot: https://apis.io/screenshots/ul-solutions/ul-solutions-2026-06-20T200006.png
 security:
 - kind: domain-security
   name: Ul Solutions Domain Security
@@ -160,5 +201,6 @@ tags:
 - Compliance
 - Standards
 - Inspection
+- Developer Portal
 website: https://www.ul.com
 ---

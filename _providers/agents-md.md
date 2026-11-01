@@ -4,6 +4,6 @@ layout: provider
 name: agents-md
 nav: Providers
 network: true
-random_paper: 16
+random_paper: 8
 slug: agents-md
 ---

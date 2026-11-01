@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.2
-  scored_at: '2026-10-17'
+  score: 19.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api-gateway.airmeet.com/prod
@@ -67,7 +69,7 @@ apis:
   description: Register webhook subscriptions for Airmeet event triggers.
   name: Airmeet Webhooks API
   slug: airmeet-webhooks-api
-artifact_total: 24
+artifact_total: 30
 asyncapis:
 - description: Airmeet delivers event engagement and lifecycle notifications via webhooks. Subscribers register a destination URL against a trigger via POST /platform-integration/v1/webhook-register (headers x-acces
   name: Airmeet Webhooks
@@ -92,9 +94,6 @@ collections:
   name: Airmeet Public Authentication Webhooks API
   slug: postman-airmeet-webhooks-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Airmeet Public Authentication API
   slug: open-airmeet-authentication-api
 - collection_type: open
@@ -113,6 +112,11 @@ collections:
   name: Airmeet Public Authentication Webhooks API
   slug: open-airmeet-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/airmeet/plans/airmeet-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/airmeet-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -142,57 +146,57 @@ common:
   type: GettingStarted
   url: https://help.airmeet.com/support/solutions/articles/82000467794-airmeet-public-api-introduction
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/openapi/_original/airmeet-openapi.yml
+  href: https://artifacts.apis.io/airmeet/openapi/_original/airmeet-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/airmeet-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/asyncapi/airmeet-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/airmeet/asyncapi/airmeet-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/airmeet-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/asyncapi/airmeet-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/airmeet/asyncapi/airmeet-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/airmeet-webhooks-asyncapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/overlays/airmeet-openapi-overlay.yaml
+  href: https://artifacts.apis.io/airmeet/overlays/airmeet-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/airmeet-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/mcp/airmeet-mcp.yml
+  href: https://artifacts.apis.io/airmeet/mcp/airmeet-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/airmeet-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/airmeet/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/authentication/airmeet-authentication.yml
+  href: https://artifacts.apis.io/airmeet/authentication/airmeet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/airmeet-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/conventions/airmeet-conventions.yml
+  href: https://artifacts.apis.io/airmeet/conventions/airmeet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/airmeet-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/errors/airmeet-problem-types.yml
+  href: https://artifacts.apis.io/airmeet/errors/airmeet-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/airmeet-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/data-model/airmeet-data-model.yml
+  href: https://artifacts.apis.io/airmeet/data-model/airmeet-data-model.yml
   title: ''
   type: DataModel
   url: data-model/airmeet-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/lifecycle/airmeet-lifecycle.yml
+  href: https://artifacts.apis.io/airmeet/lifecycle/airmeet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/airmeet-lifecycle.yml
@@ -205,7 +209,7 @@ common:
   type: ChangeLog
   url: https://updates.airmeet.com/en/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/conformance/airmeet-conformance.yml
+  href: https://artifacts.apis.io/airmeet/conformance/airmeet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/airmeet-conformance.yml
@@ -218,12 +222,12 @@ common:
   type: TrustCenter
   url: https://www.airmeet.com/hub/security-and-compliance/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/security/airmeet-domain-security.yml
+  href: https://artifacts.apis.io/airmeet/security/airmeet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/airmeet-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/security/airmeet-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/airmeet/security/airmeet-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/airmeet-vulnerability-disclosure.yml
@@ -257,6 +261,14 @@ common:
   url: https://www.airmeet.com/hub/privacy-policy/
 created: '2026-07-17'
 description: 'Airmeet is a virtual, hybrid and in-person events platform used to run webinars, conferences, summits, meetups, workshops and trade shows with interactive stages, networking lounges, booths, polls, Q&A and engagement analytics. Its Public API lets developers create and manage events (Airmeets), sessions, speakers, booths and event series; manage registrations (add, block and unblock attendees with custom fields); pull engagement and attendance data including polls, questions, UTMs, recordings and replay attendance; and subscribe to 24+ webhook event triggers. Authentication is a two-step flow: exchange an access key and secret key for a 30-day access token, then send it as the X-Airmeet-Access-Token header. The API is served from regional gateways (default Mumbai, EU and US). Airmeet is backed by Accel, Prosus Ventures and Redpoint Ventures.'
+finops:
+- has_sources: true
+  method: derived
+  name: Airmeet Finops
+  primary_unit: yearly billing (16% off)
+  service_category: ''
+  slug: airmeet-finops
+  template: false
 image: https://www.airmeet.com/hub/wp-content/uploads/2023/03/Airmeet-Featured-Image.png
 layout: provider
 modified: '2026-10-06'
@@ -269,27 +281,34 @@ overview: 'Airmeet publishes 6 API contracts indexed on the [APIs.io](https://ap
   The Airmeet catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Airmeet''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 25 more developer resources.'
-random_paper: 17
+  Airmeet''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 26 more developer resources.'
+plans:
+- name: Airmeet Plans Pricing
+  plan_count: 5
+  slug: airmeet-plans-pricing
+- name: Airmeet Price Estimates
+  plan_count: 0
+  slug: airmeet-price-estimates
+random_paper: 23
 score:
-  band: developing
-  composite: 50.3
+  band: strong
+  composite: 64.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 47.4
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 57.9
-    developer_ergonomics: 50.6
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 50.3
+    developer_ergonomics: 60.1
+    discoverability: 66.1
+    operational_transparency: 50.0
+  previous_composite: 56.9
   provenance:
     conformance: first-party
     contracts:
@@ -309,13 +328,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/screenshots/airmeet-2026-07-25T195432.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/airmeet/airmeet-2026-07-25T195432.png
 security:
 - kind: authentication
   name: Airmeet Authentication
@@ -333,6 +353,16 @@ security:
   name: Airmeet Trust Center
   slug: airmeet-trust-center
   summary_line: ISO 27001:2022, SOC 2 Type 2
+skill_count: 4
+skills:
+- name: Create and launch an Airmeet event
+  slug: airmeet-create-and-launch-event
+- name: Manage event registrations
+  slug: airmeet-manage-registrations
+- name: Pull post-event engagement and attendance data
+  slug: airmeet-pull-engagement-data
+- name: Subscribe to Airmeet webhook events
+  slug: airmeet-subscribe-webhooks
 slug: airmeet
 tags:
 - Company

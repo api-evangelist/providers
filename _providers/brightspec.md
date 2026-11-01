@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Brightspec provides a developer API for accessing spectroscopy data and instrument control. Documentation is limited to marketing pages without a machine‑readable spec.
@@ -32,12 +34,12 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brightspec/refs/heads/main/hosts/brightspec-hosts.yml
+  href: https://artifacts.apis.io/brightspec/hosts/brightspec-hosts.yml
   title: ''
   type: Hosts
   url: hosts/brightspec-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brightspec/refs/heads/main/vendors/brightspec-vendors.yml
+  href: https://artifacts.apis.io/brightspec/vendors/brightspec-vendors.yml
   title: ''
   type: Vendors
   url: vendors/brightspec-vendors.yml
@@ -50,7 +52,7 @@ common:
   type: Blog
   url: https://brightspec.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brightspec/refs/heads/main/security/brightspec-domain-security.yml
+  href: https://artifacts.apis.io/brightspec/security/brightspec-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brightspec-domain-security.yml
@@ -89,6 +91,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -96,6 +99,7 @@ score:
     developer_ergonomics: 2.4
     discoverability: 57.1
     operational_transparency: 0.0
+  previous_composite: 7.5
   provenance:
     mcp: unknown
   regulatory:
@@ -104,8 +108,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

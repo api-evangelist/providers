@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.1
-  scored_at: '2026-10-17'
+  score: 43.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 194
   human_in_the_loop: 0
@@ -1246,15 +1248,12 @@ arazzos:
 - description: Created from /Users/mkothari/git-cvent-public/rest-sdks/.speakeasy/temp/overlay_RizoNFXzgC.yaml
   name: Test Suite
   slug: cvent-event-cloud-sdk-tests.arazzo
-artifact_total: 108
+artifact_total: 110
 asyncapis:
 - description: ''
   name: Cvent Event Cloud Webhooks
   slug: cvent-event-cloud-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cvent REST APIs — Event Cloud Appointments API
   slug: open-cvent-event-cloud-appointments-api
@@ -1380,32 +1379,32 @@ collections:
   slug: open-cvent-event-cloud-webcasts-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/capabilities/cvent-event-cloud-capability-edges.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/capabilities/cvent-event-cloud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cvent-event-cloud-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/agentic-access/cvent-event-cloud-agentic-access.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/agentic-access/cvent-event-cloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cvent-event-cloud-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/security/cvent-event-cloud-trust-center.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/security/cvent-event-cloud-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cvent-event-cloud-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/security/cvent-event-cloud-domain-security.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/security/cvent-event-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cvent-event-cloud-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/authentication/cvent-event-cloud-authentication.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/authentication/cvent-event-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cvent-event-cloud-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/scopes/cvent-event-cloud-scopes.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/scopes/cvent-event-cloud-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cvent-event-cloud-scopes.yml
@@ -1458,7 +1457,7 @@ common:
   type: LlmsText
   url: https://www.cvent.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/llms/cvent-event-cloud-llms.txt
+  href: https://artifacts.apis.io/cvent-event-cloud/llms/cvent-event-cloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cvent-event-cloud-llms.txt
@@ -1487,12 +1486,12 @@ common:
   type: SourceCode
   url: https://github.com/cvent/rest-sdks
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/packages/cvent-event-cloud-packages.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/packages/cvent-event-cloud-packages.yml
   title: ''
   type: Packages
   url: packages/cvent-event-cloud-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/packages/cvent-event-cloud-packages.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/packages/cvent-event-cloud-packages.yml
   title: ''
   type: SDKs
   url: packages/cvent-event-cloud-packages.yml
@@ -1501,62 +1500,62 @@ common:
   type: SDKDocumentation
   url: https://developers.cvent.com/docs/rest-api/sdks
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/well-known/cvent-event-cloud-well-known.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/well-known/cvent-event-cloud-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cvent-event-cloud-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/mcp/cvent-event-cloud-mcp.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/mcp/cvent-event-cloud-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cvent-event-cloud-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/mcp/cvent-event-cloud-tool-crosswalk.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/mcp/cvent-event-cloud-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cvent-event-cloud-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/overlays/cvent-event-cloud-overlays.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/overlays/cvent-event-cloud-overlays.yml
   title: ''
   type: Overlay
   url: overlays/cvent-event-cloud-overlays.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/arazzo/cvent-event-cloud-sdk-tests.arazzo.yaml
+  href: https://artifacts.apis.io/cvent-event-cloud/arazzo/cvent-event-cloud-sdk-tests.arazzo.yaml
   title: ''
   type: Arazzo
   url: arazzo/cvent-event-cloud-sdk-tests.arazzo.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/conformance/cvent-event-cloud-conformance.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/conformance/cvent-event-cloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cvent-event-cloud-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/security/cvent-event-cloud-trust-center.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/security/cvent-event-cloud-trust-center.yml
   title: ''
   type: Compliance
   url: security/cvent-event-cloud-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/errors/cvent-event-cloud-problem-types.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/errors/cvent-event-cloud-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cvent-event-cloud-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/lifecycle/cvent-event-cloud-lifecycle.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/lifecycle/cvent-event-cloud-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cvent-event-cloud-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/lifecycle/cvent-event-cloud-lifecycle.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/lifecycle/cvent-event-cloud-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/cvent-event-cloud-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/conventions/cvent-event-cloud-conventions.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/conventions/cvent-event-cloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cvent-event-cloud-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/changelog/cvent-event-cloud-changelog.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/changelog/cvent-event-cloud-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cvent-event-cloud-changelog.yml
@@ -1565,17 +1564,17 @@ common:
   type: ChangeLogURL
   url: https://developers.cvent.com/docs/rest-api/changelog
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/components/cvent-event-cloud-components.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/components/cvent-event-cloud-components.yml
   title: ''
   type: Components
   url: components/cvent-event-cloud-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/data-model/cvent-event-cloud-data-model.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/data-model/cvent-event-cloud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cvent-event-cloud-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/asyncapi/cvent-event-cloud-webhooks.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/asyncapi/cvent-event-cloud-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cvent-event-cloud-webhooks.yml
@@ -1584,22 +1583,22 @@ common:
   type: WebhooksDocumentation
   url: https://developers.cvent.com/docs/webhooks/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/plans/cvent-event-cloud-plans-pricing.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/plans/cvent-event-cloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cvent-event-cloud-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/rate-limits/cvent-event-cloud-rate-limits.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/rate-limits/cvent-event-cloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cvent-event-cloud-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/finops/cvent-event-cloud-finops.yml
+  href: https://artifacts.apis.io/cvent-event-cloud/finops/cvent-event-cloud-finops.yml
   title: ''
   type: FinOps
   url: finops/cvent-event-cloud-finops.yml
@@ -1607,11 +1606,11 @@ created: '2024-01-01'
 description: 'Cvent Event Cloud is the event management product line of the Cvent Platform. It supports the full event lifecycle: event creation, registration, marketing, agenda and session management, mobile event apps, onsite check-in, virtual and hybrid event delivery via the Attendee Hub, surveys, and analytics. Cvent publishes its own OpenAPI specification in public git at github.com/cvent/rest-sdks (cvent-public-spec/openapi.yaml) — 346 paths, 458 operations, 1,302 schemas — and generates its first-party TypeScript, .NET and Java SDKs from it with Speakeasy, applying five published OpenAPI Overlay 1.0.0 documents in the process. Access is OAuth 2.0, client credentials for server-to-server and authorization code for planner administrators, with the token endpoint at api-platform.cvent.com/ea/oauth2/token and 235 declared scopes. Regional bases split North America (api-platform.cvent.com/ea) from Europe (api-platform-eur.cvent.com/ea) with no cross-region read. Cvent also runs a live
   remote MCP server at mcp.cvent.com/mcp secured with OAuth 2.1 and PKCE, publishes a dated biweekly changelog, a 40-message webhook catalogue, SCIM 2.0 user provisioning, and a Custom Widgets browser SDK for embedding components in Cvent-hosted event pages.'
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Cvent Event Cloud Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: cvent-event-cloud-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cvent-event-cloud.png
@@ -1633,9 +1632,9 @@ overview: 'Cvent Event Cloud publishes 55 API contracts indexed on the [APIs.io]
   Cvent Event Cloud''s developer surface includes authentication, API reference, pricing, support, engineering blog, documentation, getting-started guide, and 42 more developer resources.'
 plans:
 - name: Cvent Event Cloud Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: cvent-event-cloud-plans-pricing
-random_paper: 21
+random_paper: 11
 rate_limits:
 - limit_count: 6
   name: Cvent Event Cloud Rate Limits
@@ -1647,23 +1646,28 @@ scopes:
   summary_line: 235 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 70.9
+  composite: 66.9
   coverage:
     artifact_dirs: 29
-    catalog_earned: 61.0
-    catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -2.1
   facets:
-    access_clarity: 92.1
+    access_clarity: 81.6
     contract_governance: 4.5
-    contract_quality: 65.5
+    contract_quality: 59.5
     developer_ergonomics: 67.3
-    discoverability: 75.0
-    operational_transparency: 81.6
-  previous_composite: 72.4
+    discoverability: 71.7
+    operational_transparency: 84.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1680,13 +1684,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/screenshots/cvent-event-cloud-2026-06-20T175402.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cvent-event-cloud/cvent-event-cloud-2026-06-20T175402.png
 security:
 - kind: authentication
   name: Cvent Event Cloud Authentication
@@ -1700,6 +1705,14 @@ security:
   name: Cvent Event Cloud Trust Center
   slug: cvent-event-cloud-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR
+skill_count: 3
+skills:
+- name: cvent-build-agenda
+  slug: cvent-event-cloud-build-agenda
+- name: cvent-register-attendee
+  slug: cvent-event-cloud-register-attendee
+- name: cvent-sync-webhooks
+  slug: cvent-event-cloud-sync-webhooks
 slug: cvent-event-cloud
 tags:
 - Attendee Hub

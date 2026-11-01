@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,12 +38,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anonymco/refs/heads/main/security/anonymco-domain-security.yml
+  href: https://artifacts.apis.io/anonymco/security/anonymco-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anonymco-domain-security.yml
@@ -70,42 +72,42 @@ common:
   type: TermsOfService
   url: https://www.mozilla.org/en-US/anonym/terms-and-conditions/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anonymco/refs/heads/main/security/anonymco-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/anonymco/security/anonymco-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/anonymco-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anonymco/refs/heads/main/security/anonymco-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/anonymco/security/anonymco-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/anonymco-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anonymco/refs/heads/main/conformance/anonymco-conformance.yml
+  href: https://artifacts.apis.io/anonymco/conformance/anonymco-conformance.yml
   title: ''
   type: Conformance
   url: conformance/anonymco-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anonymco/refs/heads/main/conformance/anonymco-conformance.yml
+  href: https://artifacts.apis.io/anonymco/conformance/anonymco-conformance.yml
   title: ''
   type: Compliance
   url: conformance/anonymco-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anonymco/refs/heads/main/lifecycle/anonymco-lifecycle.yml
+  href: https://artifacts.apis.io/anonymco/lifecycle/anonymco-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/anonymco-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/anonymco/refs/heads/main/plans/anonymco-plans-pricing.yml
+  href: https://artifacts.apis.io/anonymco/plans/anonymco-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/anonymco-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/anonymco/refs/heads/main/rate-limits/anonymco-rate-limits.yml
+  href: https://artifacts.apis.io/anonymco/rate-limits/anonymco-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/anonymco-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anonymco/refs/heads/main/llms/anonymco-llms.txt
+  href: https://artifacts.apis.io/anonymco/llms/anonymco-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/anonymco-llms.txt
@@ -140,30 +142,30 @@ plans:
 - name: Anonymco Plans Pricing
   plan_count: 0
   slug: anonymco-plans-pricing
-random_paper: 10
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Anonymco Rate Limits
   slug: anonymco-rate-limits
 score:
   band: emerging
-  composite: 18.8
+  composite: 19.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 18.7
+  previous_composite: 19.4
   provenance:
     conformance: first-party
   regulatory:
@@ -180,14 +182,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/anonymco/refs/heads/main/screenshots/anonymco-2026-07-25T200307.png
+screenshot: https://apis.io/screenshots/anonymco/anonymco-2026-07-25T200307.png
 security:
 - kind: domain-security
   name: Anonymco Domain Security

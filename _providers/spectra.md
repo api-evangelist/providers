@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spectra/refs/heads/main/security/spectra-domain-security.yml
+  href: https://artifacts.apis.io/spectra/security/spectra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spectra-domain-security.yml
@@ -74,12 +76,12 @@ common:
   type: HistoricalContext
   url: https://en.wikipedia.org/wiki/Comcast_Spectacor
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spectra/refs/heads/main/vocabulary/spectra-vocabulary.yml
+  href: https://artifacts.apis.io/spectra/vocabulary/spectra-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/spectra-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spectra/refs/heads/main/json-ld/spectra-context.jsonld
+  href: https://artifacts.apis.io/spectra/json-ld/spectra-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/spectra-context.jsonld
@@ -100,7 +102,7 @@ overview: 'Spectra is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   The Spectra catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 6
+random_paper: 10
 score:
   band: minimal
   composite: 0.0
@@ -132,14 +134,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/spectra/refs/heads/main/screenshots/spectra-2026-06-20T194300.png
+screenshot: https://apis.io/screenshots/spectra/spectra-2026-06-20T194300.png
 security:
 - kind: domain-security
   name: Spectra Domain Security

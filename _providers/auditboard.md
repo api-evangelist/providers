@@ -25,17 +25,47 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 2.9
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
+- group: other
+  href: https://artifacts.apis.io/auditboard/hosts/auditboard-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/auditboard-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/auditboard/integrations/auditboard-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/auditboard-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/auditboard/vendors/auditboard-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/auditboard-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://optro.ai/news
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/optro
+- group: auth
+  href: https://artifacts.apis.io/auditboard/security/auditboard-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/auditboard-trust-center.yml
 - group: company
   title: ''
   type: Website
@@ -93,15 +123,27 @@ common:
   type: Compliance
   url: https://trust.optro.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/auditboard/refs/heads/main/security/auditboard-domain-security.yml
+  href: https://artifacts.apis.io/auditboard/security/auditboard-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/auditboard-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/auditboard/refs/heads/main/llms/auditboard-llms.txt
+  href: https://artifacts.apis.io/auditboard/llms/auditboard-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/auditboard-llms.txt
+coverage:
+  checked: '2026-10-20'
+  detail: developer.auditboard.com (ReadMe portal), including /openapi.json and /llms.txt, redirects every request to an Azure AD SAML login at login.microsoftonline.com, so the API reference is visible only to signed-in Optro customers.
+  evidence:
+  - status: 302
+    url: https://developer.auditboard.com/
+  - status: 302
+    url: https://developer.auditboard.com/openapi.json
+  - status: 200
+    url: https://optro.ai/pricing
+  reason: customer-only-docs
+  state: gated
 created: '2026-07-17'
 description: AuditBoard (rebranded in 2026 as Optro) is an AI-powered GRC (governance, risk, and compliance) SaaS platform used by more than half of the Fortune 500 to run their audit, risk, and compliance programs. Its connected-risk suite spans Controls Management (SOX), OpsAudit (operational/internal audit), RiskOversight (enterprise/operational risk), CrossComply (IT risk and cybersecurity compliance), ESG, RegComply (regulatory compliance), and AI Governance. Optro exposes a developer platform at developer.auditboard.com (a login-gated ReadMe portal) for programmatic access, plus documented integrations with systems such as ServiceNow, Workiva, and Microsoft 365. AuditBoard was surfaced as a Battery Ventures portfolio company and enriched here from its public web surface; the API reference itself sits behind an end-user login, so no public OpenAPI is captured.
 image: https://cdn.sanity.io/images/rmkwjgaf/production-churro/4dc2ef110eb5013e1f3a6ba590de3fdc26471fe1-1200x630.jpg
@@ -113,13 +155,17 @@ network: true
 overview: 'AuditBoard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GRC, Governance Risk Compliance, Audit Management, and Risk Management.
 
 
-  AuditBoard''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 21
+  AuditBoard''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 15 more developer resources.'
+plans:
+- name: Auditboard Plans Pricing
+  plan_count: 0
+  slug: auditboard-plans-pricing
+random_paper: 23
 score:
-  band: emerging
-  composite: 15.9
+  band: thin
+  composite: 27.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -127,27 +173,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 55.4
-    operational_transparency: 0.0
-  previous_composite: 15.9
+    developer_ergonomics: 45.2
+    discoverability: 50.0
+    operational_transparency: 5.3
+  previous_composite: 27.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/auditboard/refs/heads/main/screenshots/auditboard-2026-07-25T201657.png
+screenshot: https://apis.io/screenshots/auditboard/auditboard-2026-07-25T201657.png
 security:
 - kind: domain-security
   name: Auditboard Domain Security
@@ -156,7 +202,7 @@ security:
 - kind: trust-center
   name: Auditboard Trust Center
   slug: auditboard-trust-center
-  summary_line: ISO 27001, SOC 1 Type II, SOC 2 Type II, NIST 800-53, SSAE-18, Cloud Security Alliance STAR, HIPAA, FedRAMP (Moderate), GDPR, CCPA, HECVAT, TX-RAMP, VPAT
+  summary_line: SOC 2, ISO 27001, HIPAA, FedRAMP, GDPR, CSA STAR
 slug: auditboard
 tags:
 - Company

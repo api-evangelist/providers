@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Fxiaoke Open API v2 exposes CRM business objects (accounts, contacts, leads, opportunities, products, orders) and common services (approval workflows, directory/contact sync, business-data sync) a
   name: Fxiaoke Open API v2
   slug: fxiaoke-open-api-v2
-artifact_total: 7
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -84,42 +86,42 @@ common:
   type: PrivacyPolicy
   url: https://www.fxiaoke.com/secure/index.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/authentication/fxiaoke-authentication.yml
+  href: https://artifacts.apis.io/fxiaoke/authentication/fxiaoke-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fxiaoke-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/conventions/fxiaoke-conventions.yml
+  href: https://artifacts.apis.io/fxiaoke/conventions/fxiaoke-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fxiaoke-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/errors/fxiaoke-problem-types.yml
+  href: https://artifacts.apis.io/fxiaoke/errors/fxiaoke-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fxiaoke-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/lifecycle/fxiaoke-lifecycle.yml
+  href: https://artifacts.apis.io/fxiaoke/lifecycle/fxiaoke-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fxiaoke-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/well-known/fxiaoke-well-known.yml
+  href: https://artifacts.apis.io/fxiaoke/well-known/fxiaoke-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fxiaoke-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/conformance/fxiaoke-conformance.yml
+  href: https://artifacts.apis.io/fxiaoke/conformance/fxiaoke-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fxiaoke-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/llms/fxiaoke-llms.txt
+  href: https://artifacts.apis.io/fxiaoke/llms/fxiaoke-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fxiaoke-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/security/fxiaoke-domain-security.yml
+  href: https://artifacts.apis.io/fxiaoke/security/fxiaoke-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fxiaoke-domain-security.yml
@@ -136,47 +138,55 @@ common:
   type: HelpCenter
   url: https://help.fxiaoke.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/packages/fxiaoke-packages.yml
+  href: https://artifacts.apis.io/fxiaoke/packages/fxiaoke-packages.yml
   title: ''
   type: Packages
   url: packages/fxiaoke-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/packages/fxiaoke-packages.yml
+  href: https://artifacts.apis.io/fxiaoke/packages/fxiaoke-packages.yml
   title: ''
   type: SDKs
   url: packages/fxiaoke-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/components/fxiaoke-components.yml
+  href: https://artifacts.apis.io/fxiaoke/components/fxiaoke-components.yml
   title: ''
   type: Components
   url: components/fxiaoke-components.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/rate-limits/fxiaoke-rate-limits.yml
+  href: https://artifacts.apis.io/fxiaoke/rate-limits/fxiaoke-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fxiaoke-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/plans/fxiaoke-plans-pricing.yml
+  href: https://artifacts.apis.io/fxiaoke/plans/fxiaoke-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fxiaoke-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/data-model/fxiaoke-data-model.yml
+  href: https://artifacts.apis.io/fxiaoke/data-model/fxiaoke-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fxiaoke-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/security/fxiaoke-trust-center.yml
+  href: https://artifacts.apis.io/fxiaoke/security/fxiaoke-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fxiaoke-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/security/fxiaoke-trust-center.yml
+  href: https://artifacts.apis.io/fxiaoke/security/fxiaoke-trust-center.yml
   title: ''
   type: Compliance
   url: security/fxiaoke-trust-center.yml
 created: '2026-07-17'
 description: Fxiaoke (纷享销客 / Fenxiang) is a Chinese enterprise SaaS company providing a connected, AI-driven "Agentic CRM" platform that spans marketing, sales, and customer service for 6,000+ enterprise customers across manufacturing, consumer goods, healthcare, and technology. Its Open API v2 platform (developer.fxiaoke.com) exposes CRM business objects (accounts, contacts, leads, opportunities, products, orders) and common services such as approval workflows, contact/directory sync, and business-data sync over a JSON/HTTP RPC interface hosted at open.fxiaoke.com. Authentication uses a self-built enterprise application (appId + appSecret + permanentCode) exchanged for a corp/app access token, alongside a modern OAuth 2.1 authorization server (PKCE, dynamic client registration) discoverable via RFC 8414 metadata. Backed by DCM Ventures and Qiming Venture Partners.
+finops:
+- has_sources: true
+  method: derived
+  name: Fxiaoke Finops
+  primary_unit: 人/月
+  service_category: ''
+  slug: fxiaoke-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fxiaoke.png
 layout: provider
 modified: '2026-08-13'
@@ -191,7 +201,7 @@ plans:
 - name: Fxiaoke Plans Pricing
   plan_count: 3
   slug: fxiaoke-plans-pricing
-random_paper: 17
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Fxiaoke Rate Limits
@@ -203,21 +213,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.5
+  composite: 49.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 61.0
+    artifact_dirs: 20
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -226,7 +236,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 48.4
+  previous_composite: 47.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -236,14 +246,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/screenshots/fxiaoke-2026-07-25T215341.png
+screenshot: https://apis.io/screenshots/fxiaoke/fxiaoke-2026-07-25T215341.png
 security:
 - kind: authentication
   name: Fxiaoke Authentication

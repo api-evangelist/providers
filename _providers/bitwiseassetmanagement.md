@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bitwiseassetmanagement/refs/heads/main/hosts/bitwiseassetmanagement-hosts.yml
+  href: https://artifacts.apis.io/bitwiseassetmanagement/hosts/bitwiseassetmanagement-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bitwiseassetmanagement-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bitwiseassetmanagement/refs/heads/main/vendors/bitwiseassetmanagement-vendors.yml
+  href: https://artifacts.apis.io/bitwiseassetmanagement/vendors/bitwiseassetmanagement-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bitwiseassetmanagement-vendors.yml
@@ -50,7 +52,7 @@ common:
   type: Documentation
   url: https://developers.bitwiseinvestments.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitwiseassetmanagement/refs/heads/main/security/bitwiseassetmanagement-domain-security.yml
+  href: https://artifacts.apis.io/bitwiseassetmanagement/security/bitwiseassetmanagement-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitwiseassetmanagement-domain-security.yml
@@ -90,7 +92,7 @@ overview: 'Bitwiseassetmanagement is profiled on the [APIs.io](https://apis.io/)
 
 
   Bitwiseassetmanagement''s developer surface includes signup flow, documentation, and 8 more developer resources.'
-random_paper: 2
+random_paper: 4
 score:
   band: emerging
   composite: 12.6
@@ -118,8 +120,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

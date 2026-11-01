@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -75,7 +77,7 @@ apis:
   description: Bulk publication of company users (workers).
   name: Nowsta Workers API
   slug: nowsta-workers-api
-artifact_total: 10
+artifact_total: 12
 collections:
 - collection_type: open
   name: Nowsta Integration API
@@ -90,12 +92,12 @@ common:
   type: BlogRSS
   url: https://www.nowsta.com/blog_category/insights/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/overlays/nowsta-integration-overlay.yaml
+  href: https://artifacts.apis.io/nowsta/overlays/nowsta-integration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nowsta-integration-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/agentic-access/nowsta-agentic-access.yml
+  href: https://artifacts.apis.io/nowsta/agentic-access/nowsta-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nowsta-agentic-access.yml
@@ -152,37 +154,37 @@ common:
   type: CookiePolicy
   url: https://www.nowsta.com/cookie-policy/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/lifecycle/nowsta-lifecycle.yml
+  href: https://artifacts.apis.io/nowsta/lifecycle/nowsta-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nowsta-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/conformance/nowsta-conformance.yml
+  href: https://artifacts.apis.io/nowsta/conformance/nowsta-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nowsta-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/well-known/nowsta-well-known.yml
+  href: https://artifacts.apis.io/nowsta/well-known/nowsta-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nowsta-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/security/nowsta-domain-security.yml
+  href: https://artifacts.apis.io/nowsta/security/nowsta-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nowsta-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/mcp/nowsta-mcp.yml
+  href: https://artifacts.apis.io/nowsta/mcp/nowsta-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nowsta-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nowsta/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/llms/nowsta-llms.txt
+  href: https://artifacts.apis.io/nowsta/llms/nowsta-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nowsta-llms.txt
@@ -223,10 +225,10 @@ overview: 'Nowsta publishes 6 API contracts indexed on the [APIs.io](https://api
 
 
   Nowsta''s developer surface includes engineering blog, API reference, support, and 27 more developer resources.'
-random_paper: 8
+random_paper: 20
 score:
   band: thin
-  composite: 31.3
+  composite: 38.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -236,13 +238,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 54.5
-    developer_ergonomics: 32.7
+    developer_ergonomics: 35.1
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 31.3
+    operational_transparency: 21.1
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,14 +260,15 @@ score:
     matched_via: tags
     regime: Employment & Payroll
     regime_id: employment_payroll
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/screenshots/nowsta-2026-08-07T185642.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nowsta/nowsta-2026-08-07T185642.png
 security:
 - kind: authentication
   name: Nowsta Authentication
@@ -275,6 +278,12 @@ security:
   name: Nowsta Domain Security
   slug: nowsta-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Publish an event roster to Nowsta
+  slug: nowsta-publish-event-roster
+- name: Sync workers into Nowsta
+  slug: nowsta-sync-workers
 slug: nowsta
 tags:
 - Workforce Management

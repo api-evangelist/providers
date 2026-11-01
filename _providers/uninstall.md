@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 0
 common:
@@ -45,17 +47,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/uninstallio
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uninstall/refs/heads/main/packages/uninstall-packages.yml
+  href: https://artifacts.apis.io/uninstall/packages/uninstall-packages.yml
   title: ''
   type: Packages
   url: packages/uninstall-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uninstall/refs/heads/main/packages/uninstall-packages.yml
+  href: https://artifacts.apis.io/uninstall/packages/uninstall-packages.yml
   title: ''
   type: SDKs
   url: packages/uninstall-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uninstall/refs/heads/main/llms/uninstall-llms.txt
+  href: https://artifacts.apis.io/uninstall/llms/uninstall-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uninstall-llms.txt
@@ -68,7 +70,7 @@ name: Uninstall
 nav: Providers
 network: true
 overview: Uninstall is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile Analytics, Uninstall Tracking, Mobile App, and SDK.
-random_paper: 18
+random_paper: 2
 score:
   band: minimal
   composite: 0.0
@@ -95,8 +97,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

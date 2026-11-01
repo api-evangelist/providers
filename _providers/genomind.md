@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,17 +37,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/genomind/refs/heads/main/security/genomind-trust-center.yml
+  href: https://artifacts.apis.io/genomind/security/genomind-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/genomind-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/genomind/refs/heads/main/security/genomind-domain-security.yml
+  href: https://artifacts.apis.io/genomind/security/genomind-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/genomind-domain-security.yml
@@ -90,22 +92,22 @@ common:
   type: Compliance
   url: https://genomind.com/compliance/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/genomind/refs/heads/main/llms/genomind-llms.txt
+  href: https://artifacts.apis.io/genomind/llms/genomind-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/genomind-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genomind/refs/heads/main/conformance/genomind-conformance.yml
+  href: https://artifacts.apis.io/genomind/conformance/genomind-conformance.yml
   title: ''
   type: Conformance
   url: conformance/genomind-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/genomind/refs/heads/main/plans/genomind-plans-pricing.yml
+  href: https://artifacts.apis.io/genomind/plans/genomind-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/genomind-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/genomind/refs/heads/main/rate-limits/genomind-rate-limits.yml
+  href: https://artifacts.apis.io/genomind/rate-limits/genomind-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/genomind-rate-limits.yml
@@ -138,14 +140,14 @@ plans:
 - name: Genomind Plans Pricing
   plan_count: 1
   slug: genomind-plans-pricing
-random_paper: 13
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Genomind Rate Limits
   slug: genomind-rate-limits
 score:
-  band: thin
-  composite: 26.5
+  band: emerging
+  composite: 25.7
   coverage:
     artifact_dirs: 10
     catalog_earned: 35.0
@@ -153,15 +155,15 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 26.4
+  previous_composite: 25.7
   provenance:
     conformance: first-party
   regulatory:
@@ -170,14 +172,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/genomind/refs/heads/main/screenshots/genomind-2026-09-02T145556.png
+screenshot: https://apis.io/screenshots/genomind/genomind-2026-09-02T145556.png
 security:
 - kind: domain-security
   name: Genomind Domain Security

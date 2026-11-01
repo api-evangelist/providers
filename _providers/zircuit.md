@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Standard Ethereum JSON-RPC 2.0 interface to the Zircuit L2 network (HTTP and WebSocket) for reading chain state and submitting transactions. Mainnet is chain ID 48900; the Garfield testnet is chain ID
@@ -46,17 +48,14 @@ apis:
   description: Trade estimates and cross-chain order execution data.
   name: Zircuit Orders API
   slug: zircuit-orders-api
-artifact_total: 7
+artifact_total: 6
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Zircuit GUD Trading Engine API (Beta) Orders API
   slug: open-zircuit-orders-api
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/security/zircuit-domain-security.yml
+  href: https://artifacts.apis.io/zircuit/security/zircuit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zircuit-domain-security.yml
@@ -113,52 +112,52 @@ common:
   type: x-explorer
   url: https://explorer.zircuit.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/llms/zircuit-llms.txt
+  href: https://artifacts.apis.io/zircuit/llms/zircuit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zircuit-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/authentication/zircuit-authentication.yml
+  href: https://artifacts.apis.io/zircuit/authentication/zircuit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zircuit-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/conventions/zircuit-conventions.yml
+  href: https://artifacts.apis.io/zircuit/conventions/zircuit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zircuit-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/conformance/zircuit-conformance.yml
+  href: https://artifacts.apis.io/zircuit/conformance/zircuit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zircuit-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/errors/zircuit-error-codes.yml
+  href: https://artifacts.apis.io/zircuit/errors/zircuit-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/zircuit-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/lifecycle/zircuit-lifecycle.yml
+  href: https://artifacts.apis.io/zircuit/lifecycle/zircuit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zircuit-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/lifecycle/zircuit-lifecycle.yml
+  href: https://artifacts.apis.io/zircuit/lifecycle/zircuit-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/zircuit-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/sandbox/zircuit-sandbox.yml
+  href: https://artifacts.apis.io/zircuit/sandbox/zircuit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zircuit-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/well-known/zircuit-well-known.yml
+  href: https://artifacts.apis.io/zircuit/well-known/zircuit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zircuit-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/mcp/zircuit-mcp.yml
+  href: https://artifacts.apis.io/zircuit/mcp/zircuit-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zircuit-mcp.yml
@@ -174,10 +173,10 @@ overview: 'Zircuit publishes 2 API contracts indexed on the [APIs.io](https://ap
 
 
   Zircuit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 8
+random_paper: 10
 score:
   band: developing
-  composite: 43.4
+  composite: 45.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -185,15 +184,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 47.1
-    developer_ergonomics: 60.7
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 43.3
+    developer_ergonomics: 64.3
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 45.4
   provenance:
     conformance: first-party
     contracts:
@@ -208,13 +207,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/screenshots/zircuit-2026-08-17T083112.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zircuit/zircuit-2026-08-17T083112.png
 security:
 - kind: authentication
   name: Zircuit Authentication

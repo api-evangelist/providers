@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
+  score: 33.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 110
   human_in_the_loop: 1
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 170
   slug: aghanim-agentic-access
   summary_line: 170 operations · 110 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.aghanim.com/s2s
   baseurl_source: declared
@@ -180,15 +182,12 @@ apis:
   description: The Webhooks API from Aghanim — 4 operation(s) for webhooks.
   name: Aghanim Webhooks API
   slug: aghanim-webhooks-api
-artifact_total: 59
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Aghanim Webhooks
   slug: aghanim-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Aghanim Server-to-Server Achievements API
   slug: open-aghanim-achievements-api
@@ -276,27 +275,27 @@ common:
   type: Website
   url: https://www.aghanim.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/capabilities/aghanim-capability-edges.yml
+  href: https://artifacts.apis.io/aghanim/capabilities/aghanim-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/aghanim-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/overlays/aghanim-openapi-overlay.yaml
+  href: https://artifacts.apis.io/aghanim/overlays/aghanim-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aghanim-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/agentic-access/aghanim-agentic-access.yml
+  href: https://artifacts.apis.io/aghanim/agentic-access/aghanim-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aghanim-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/security/aghanim-domain-security.yml
+  href: https://artifacts.apis.io/aghanim/security/aghanim-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aghanim-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/authentication/aghanim-authentication.yml
+  href: https://artifacts.apis.io/aghanim/authentication/aghanim-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aghanim-authentication.yml
@@ -341,62 +340,62 @@ common:
   type: StatusPage
   url: https://status.aghanim.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/lifecycle/aghanim-lifecycle.yml
+  href: https://artifacts.apis.io/aghanim/lifecycle/aghanim-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aghanim-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/packages/aghanim-packages.yml
+  href: https://artifacts.apis.io/aghanim/packages/aghanim-packages.yml
   title: ''
   type: Packages
   url: packages/aghanim-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/packages/aghanim-packages.yml
+  href: https://artifacts.apis.io/aghanim/packages/aghanim-packages.yml
   title: ''
   type: SDKs
   url: packages/aghanim-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/mcp/aghanim-mcp.yml
+  href: https://artifacts.apis.io/aghanim/mcp/aghanim-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/aghanim-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/llms/aghanim-llms.txt
+  href: https://artifacts.apis.io/aghanim/llms/aghanim-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aghanim-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/well-known/aghanim-well-known.yml
+  href: https://artifacts.apis.io/aghanim/well-known/aghanim-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aghanim-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/conformance/aghanim-conformance.yml
+  href: https://artifacts.apis.io/aghanim/conformance/aghanim-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aghanim-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/sandbox/aghanim-sandbox.yml
+  href: https://artifacts.apis.io/aghanim/sandbox/aghanim-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/aghanim-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/conventions/aghanim-conventions.yml
+  href: https://artifacts.apis.io/aghanim/conventions/aghanim-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aghanim-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/conventions/aghanim-conventions.yml
+  href: https://artifacts.apis.io/aghanim/conventions/aghanim-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/aghanim-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/aghanim/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/asyncapi/aghanim-webhooks.yml
+  href: https://artifacts.apis.io/aghanim/asyncapi/aghanim-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/aghanim-webhooks.yml
@@ -415,10 +414,10 @@ overview: 'Aghanim publishes 27 API contracts indexed on the [APIs.io](https://a
 
 
   Aghanim''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 21 more developer resources.'
-random_paper: 21
+random_paper: 5
 score:
   band: developing
-  composite: 46.3
+  composite: 46.9
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -428,13 +427,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 62.3
+    contract_quality: 59.0
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 15.8
-  previous_composite: 46.3
+    discoverability: 66.1
+    operational_transparency: 23.7
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -455,13 +454,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/screenshots/aghanim-2026-07-25T195259.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aghanim/aghanim-2026-07-25T195259.png
 security:
 - kind: authentication
   name: Aghanim Authentication
@@ -471,6 +471,16 @@ security:
   name: Aghanim Domain Security
   slug: aghanim-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: Configure achievements and daily rewards
+  slug: aghanim-achievements-and-daily-rewards
+- name: Run coupons and store promotions
+  slug: aghanim-coupons-and-promotions
+- name: Fulfill purchases via webhooks
+  slug: aghanim-fulfillment-webhooks
+- name: Build and manage a game store catalog
+  slug: aghanim-manage-store-catalog
 slug: aghanim
 tags:
 - Company

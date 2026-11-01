@@ -24,8 +24,8 @@ name: North
 nav: Providers
 network: true
 overview: North is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wearables, Hardware, Smart Glasses, and Gesture Control.
-random_paper: 5
-screenshot: https://raw.githubusercontent.com/api-evangelist/north/refs/heads/main/screenshots/north-2026-08-07T185524.png
+random_paper: 3
+screenshot: https://apis.io/screenshots/north/north-2026-08-07T185524.png
 slug: north
 tags:
 - Company

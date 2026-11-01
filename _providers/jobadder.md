@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: RESTful API for managing recruitment workflows including jobs, candidates, placements, submissions, interviews, and companies in JobAdder. Authentication uses OAuth 2.0 authorization code flow with be
@@ -41,7 +43,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jobadder/refs/heads/main/security/jobadder-domain-security.yml
+  href: https://artifacts.apis.io/jobadder/security/jobadder-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jobadder-domain-security.yml
@@ -89,10 +91,10 @@ overview: 'JobAdder is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   JobAdder''s developer surface includes documentation, support, signup flow, pricing, engineering blog, and 4 more developer resources.'
-random_paper: 13
+random_paper: 11
 score:
   band: emerging
-  composite: 16.4
+  composite: 16.7
   coverage:
     artifact_dirs: 5
     catalog_earned: 37.0
@@ -107,22 +109,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 16.4
+    operational_transparency: 5.3
+  previous_composite: 16.7
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jobadder/refs/heads/main/screenshots/jobadder-2026-06-20T183744.png
+screenshot: https://apis.io/screenshots/jobadder/jobadder-2026-06-20T183744.png
 security:
 - kind: domain-security
   name: Jobadder Domain Security

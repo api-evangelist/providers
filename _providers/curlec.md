@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 58.1
-  scored_at: '2026-10-17'
+  score: 49.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 140
   slug: curlec-agentic-access
   summary_line: 140 operations · 75 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.razorpay.com/v1
   baseurl_source: declared
@@ -194,7 +196,7 @@ apis:
   description: Fetch RazorpayX transaction records — credits (bank_transfer inflows) and debits (payout outflows)
   name: Curlec X Transactions API
   slug: curlec-x-transactions-api
-artifact_total: 97
+artifact_total: 101
 asyncapis:
 - description: ''
   name: Curlec Webhooks
@@ -291,9 +293,6 @@ collections:
   name: Razorpay Bills X Transactions API
   slug: postman-curlec-x-transactions-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Razorpay Bills API
   slug: open-curlec-bills-api
 - collection_type: open
@@ -384,8 +383,13 @@ collections:
   name: Razorpay Bills X Transactions API
   slug: open-curlec-x-transactions-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/curlec/plans/curlec-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/curlec-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/capabilities/curlec-capability-edges.yml
+  href: https://artifacts.apis.io/curlec/capabilities/curlec-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/curlec-capability-edges.yml
@@ -394,12 +398,12 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/curlec/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/a2a/curlec-a2a.yml
+  href: https://artifacts.apis.io/curlec/a2a/curlec-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/curlec-a2a.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/security/curlec-domain-security.yml
+  href: https://artifacts.apis.io/curlec/security/curlec-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/curlec-domain-security.yml
@@ -472,97 +476,97 @@ common:
   type: Postman
   url: https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/asyncapi/curlec-webhooks.yml
+  href: https://artifacts.apis.io/curlec/asyncapi/curlec-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/curlec-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/mcp/curlec-mcp.yml
+  href: https://artifacts.apis.io/curlec/mcp/curlec-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/curlec-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/well-known/curlec-well-known.yml
+  href: https://artifacts.apis.io/curlec/well-known/curlec-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/curlec-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/packages/curlec-packages.yml
+  href: https://artifacts.apis.io/curlec/packages/curlec-packages.yml
   title: ''
   type: Packages
   url: packages/curlec-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/packages/curlec-packages.yml
+  href: https://artifacts.apis.io/curlec/packages/curlec-packages.yml
   title: ''
   type: SDKs
   url: packages/curlec-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/conventions/curlec-conventions.yml
+  href: https://artifacts.apis.io/curlec/conventions/curlec-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/curlec-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/conventions/curlec-conventions.yml
+  href: https://artifacts.apis.io/curlec/conventions/curlec-conventions.yml
   title: ''
   type: Conventions
   url: conventions/curlec-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/errors/curlec-problem-types.yml
+  href: https://artifacts.apis.io/curlec/errors/curlec-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/curlec-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/lifecycle/curlec-lifecycle.yml
+  href: https://artifacts.apis.io/curlec/lifecycle/curlec-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/curlec-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/conformance/curlec-conformance.yml
+  href: https://artifacts.apis.io/curlec/conformance/curlec-conformance.yml
   title: ''
   type: Conformance
   url: conformance/curlec-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/conformance/curlec-conformance.yml
+  href: https://artifacts.apis.io/curlec/conformance/curlec-conformance.yml
   title: ''
   type: Compliance
   url: conformance/curlec-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/sandbox/curlec-sandbox.yml
+  href: https://artifacts.apis.io/curlec/sandbox/curlec-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/curlec-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/data-model/curlec-data-model.yml
+  href: https://artifacts.apis.io/curlec/data-model/curlec-data-model.yml
   title: ''
   type: DataModel
   url: data-model/curlec-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/changelog/curlec-changelog.yml
+  href: https://artifacts.apis.io/curlec/changelog/curlec-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/curlec-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/curlec/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/agentic-access/curlec-agentic-access.yml
+  href: https://artifacts.apis.io/curlec/agentic-access/curlec-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/curlec-agentic-access.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/overlays/curlec-razorpay-overlay.yaml
+  href: https://artifacts.apis.io/curlec/overlays/curlec-razorpay-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/curlec-razorpay-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/llms/curlec-llms.txt
+  href: https://artifacts.apis.io/curlec/llms/curlec-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/curlec-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/components/curlec-components.yml
+  href: https://artifacts.apis.io/curlec/components/curlec-components.yml
   title: ''
   type: Components
   url: components/curlec-components.yml
@@ -576,6 +580,14 @@ common:
   url: mailto:hello@curlec.com
 created: '2026-07-17'
 description: Curlec (Razorpay Curlec) is a Malaysian online payment solution and part of Razorpay, the RBI-authorised full-stack payment platform. Curlec lets businesses in Malaysia accept one-time and recurring payments through a Payment Gateway, Payment Links, Payment Pages, Payment Buttons, hosted Checkout, DuitNow real-time payments, FPX online banking, cards and e-wallets, plus Subscriptions and direct-debit recurring billing. It runs on the shared Razorpay REST API (https://api.razorpay.com/v1) — a RESTful, JSON, Basic-Auth API covering Orders, Payments, Refunds, Settlements, Disputes, Customers, Invoices, Plans, Subscriptions, Payment Links, QR Codes, Virtual Accounts, Transfers/Route, and the RazorpayX business-banking and payouts suite. Curlec exposes official server SDKs, webhooks, a sandbox test mode, a public Postman workspace, and an official hosted MCP server for AI-agent access.
+finops:
+- has_sources: true
+  method: derived
+  name: Curlec Finops
+  primary_unit: one-time setup fee
+  service_category: ''
+  slug: curlec-finops
+  template: false
 image: https://curlec.com/favicon.ico
 layout: provider
 mcp_servers:
@@ -592,31 +604,35 @@ overview: 'Curlec publishes 30 API contracts indexed on the [APIs.io](https://ap
   The Curlec catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Curlec''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 35 more developer resources.'
-random_paper: 0
+  Curlec''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 36 more developer resources.'
+plans:
+- name: Curlec Plans Pricing
+  plan_count: 3
+  slug: curlec-plans-pricing
+random_paper: 14
 scopes:
 - name: Curlec Scopes
   scope_count: 1
   slug: curlec-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 58.4
+  band: exemplar
+  composite: 67.6
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 30
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 46.1
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 60.3
-    developer_ergonomics: 75.6
-    discoverability: 75.0
-    operational_transparency: 50.0
+    contract_quality: 58.2
+    developer_ergonomics: 78.0
+    discoverability: 65.0
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -624,7 +640,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 58.4
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -641,13 +657,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/screenshots/curlec-2026-07-25T210942.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/curlec/curlec-2026-07-25T210942.png
 security:
 - kind: authentication
   name: Curlec Authentication
@@ -657,6 +674,14 @@ security:
   name: Curlec Domain Security
   slug: curlec-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Accept a payment with Razorpay Curlec
+  slug: curlec-accept-payment
+- name: Issue and track a refund
+  slug: curlec-issue-refund
+- name: Set up a recurring subscription
+  slug: curlec-recurring-subscription
 slug: curlec
 tags:
 - Company

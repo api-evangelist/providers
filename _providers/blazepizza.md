@@ -1,8 +1,8 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-17'
+  score: 29.9
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - baseURL: https://your-worker.dev
@@ -58,67 +60,67 @@ asyncapis:
   slug: blazepizza-webhooks
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/rules/blazepizza-rules.yml
+  href: https://artifacts.apis.io/blazepizza/rules/blazepizza-rules.yml
   title: ''
   type: Spectral
   url: rules/blazepizza-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/json-ld/blazepizza-context.jsonld
+  href: https://artifacts.apis.io/blazepizza/json-ld/blazepizza-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/blazepizza-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/vocabulary/blazepizza-vocabulary.yml
+  href: https://artifacts.apis.io/blazepizza/vocabulary/blazepizza-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/blazepizza-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/asyncapi/blazepizza-webhooks.yml
+  href: https://artifacts.apis.io/blazepizza/asyncapi/blazepizza-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/blazepizza-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/data-model/blazepizza-data-model.yml
+  href: https://artifacts.apis.io/blazepizza/data-model/blazepizza-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blazepizza-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/changelog/blazepizza-changelog.yml
+  href: https://artifacts.apis.io/blazepizza/changelog/blazepizza-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/blazepizza-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/sandbox/blazepizza-sandbox.yml
+  href: https://artifacts.apis.io/blazepizza/sandbox/blazepizza-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/blazepizza-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/authentication/blazepizza-authentication.yml
+  href: https://artifacts.apis.io/blazepizza/authentication/blazepizza-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blazepizza-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/conformance/blazepizza-conformance.yml
+  href: https://artifacts.apis.io/blazepizza/conformance/blazepizza-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blazepizza-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/a2a/blazepizza-a2a.yml
+  href: https://artifacts.apis.io/blazepizza/a2a/blazepizza-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/blazepizza-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/well-known/blazepizza-well-known.yml
+  href: https://artifacts.apis.io/blazepizza/well-known/blazepizza-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/blazepizza-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/hosts/blazepizza-hosts.yml
+  href: https://artifacts.apis.io/blazepizza/hosts/blazepizza-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blazepizza-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/vendors/blazepizza-vendors.yml
+  href: https://artifacts.apis.io/blazepizza/vendors/blazepizza-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blazepizza-vendors.yml
@@ -127,7 +129,7 @@ common:
   type: GettingStarted
   url: https://docs.thanx.com/consumer/best-practices/onboarding-authentication
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blazepizza/refs/heads/main/security/blazepizza-domain-security.yml
+  href: https://artifacts.apis.io/blazepizza/security/blazepizza-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blazepizza-domain-security.yml
@@ -186,7 +188,7 @@ overview: 'Blazepizza is listed with 5 APIs on the [APIs.io](https://apis.io/) n
 
 
   Blazepizza''s developer surface includes changelog, sandbox, authentication, getting-started guide, documentation, and 16 more developer resources.'
-random_paper: 6
+random_paper: 4
 rules:
 - authorship: generated
   effective_rule_count: 49
@@ -202,7 +204,7 @@ rules:
   slug: blazepizza-rules
 score:
   band: thin
-  composite: 33.8
+  composite: 34.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 54.2
@@ -210,7 +212,7 @@ score:
     catalog_gap: 60.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -11.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 22.0
@@ -218,7 +220,7 @@ score:
     developer_ergonomics: 50.0
     discoverability: 67.9
     operational_transparency: 23.7
-  previous_composite: 44.8
+  previous_composite: 34.5
   provenance:
     conformance: derived
     contracts:
@@ -233,12 +235,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Blazepizza Authentication

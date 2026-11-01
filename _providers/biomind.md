@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/biomind/refs/heads/main/plans/biomind-plans-pricing.yml
+  href: https://artifacts.apis.io/biomind/plans/biomind-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/biomind-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/biomind/refs/heads/main/hosts/biomind-hosts.yml
+  href: https://artifacts.apis.io/biomind/hosts/biomind-hosts.yml
   title: ''
   type: Hosts
   url: hosts/biomind-hosts.yml
@@ -54,7 +56,7 @@ common:
   type: Pricing
   url: https://www.biomindhealth.com/pricing.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/biomind/refs/heads/main/security/biomind-domain-security.yml
+  href: https://artifacts.apis.io/biomind/security/biomind-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/biomind-domain-security.yml
@@ -85,7 +87,7 @@ plans:
 - name: Biomind Plans Pricing
   plan_count: 3
   slug: biomind-plans-pricing
-random_paper: 12
+random_paper: 18
 score:
   band: emerging
   composite: 19.4
@@ -113,14 +115,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/biomind/refs/heads/main/screenshots/biomind-2026-10-11T102322.png
+screenshot: https://apis.io/screenshots/biomind/biomind-2026-10-11T102322.png
 security:
 - kind: domain-security
   name: Biomind Domain Security

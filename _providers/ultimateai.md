@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Successor API surface of the Ultimate.ai platform after the Zendesk acquisition - Chat, Ticket, and Widget Escalation APIs with matching webhooks, plus Data Export and Delete User Data. Requires the A
@@ -71,27 +73,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/ultimateai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ultimateai/refs/heads/main/authentication/ultimateai-authentication.yml
+  href: https://artifacts.apis.io/ultimateai/authentication/ultimateai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ultimateai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ultimateai/refs/heads/main/asyncapi/ultimateai-ai-agents-webhooks.yml
+  href: https://artifacts.apis.io/ultimateai/asyncapi/ultimateai-ai-agents-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ultimateai-ai-agents-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ultimateai/refs/heads/main/errors/ultimateai-problem-types.yml
+  href: https://artifacts.apis.io/ultimateai/errors/ultimateai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ultimateai-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ultimateai/refs/heads/main/llms/ultimateai-llms.txt
+  href: https://artifacts.apis.io/ultimateai/llms/ultimateai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ultimateai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ultimateai/refs/heads/main/security/ultimateai-domain-security.yml
+  href: https://artifacts.apis.io/ultimateai/security/ultimateai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ultimateai-domain-security.yml
@@ -113,22 +115,22 @@ overview: 'Ultimate.ai is listed with 2 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 15
 score:
   band: emerging
-  composite: 23.7
+  composite: 23.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 31.0
-    discoverability: 73.2
-    operational_transparency: 10.5
+    discoverability: 66.1
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -137,21 +139,21 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 23.6
+  previous_composite: 23.4
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ultimateai/refs/heads/main/screenshots/ultimateai-2026-09-02T164806.png
+screenshot: https://apis.io/screenshots/ultimateai/ultimateai-2026-09-02T164806.png
 security:
 - kind: authentication
   name: Ultimateai Authentication

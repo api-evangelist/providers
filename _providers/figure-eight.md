@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.appen.com/v1
@@ -102,15 +104,12 @@ apis:
   description: Copy, launch, pause and resume workflows, check status and configuration values
   name: Figure Eight Workflows API
   slug: figure-eight-workflows-api
-artifact_total: 30
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Figure Eight Webhooks
   slug: figure-eight-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Appen Platform Account Info API
   slug: open-figure-eight-account-info-api
@@ -152,12 +151,12 @@ collections:
   slug: open-figure-eight-workflows-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/overlays/figure-eight-openapi-overlay.yaml
+  href: https://artifacts.apis.io/figure-eight/overlays/figure-eight-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/figure-eight-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/security/figure-eight-domain-security.yml
+  href: https://artifacts.apis.io/figure-eight/security/figure-eight-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/figure-eight-domain-security.yml
@@ -174,57 +173,57 @@ common:
   type: GitHubOrganization
   url: https://github.com/CrowdFlower
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/packages/figure-eight-packages.yml
+  href: https://artifacts.apis.io/figure-eight/packages/figure-eight-packages.yml
   title: ''
   type: Packages
   url: packages/figure-eight-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/packages/figure-eight-packages.yml
+  href: https://artifacts.apis.io/figure-eight/packages/figure-eight-packages.yml
   title: ''
   type: SDKs
   url: packages/figure-eight-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/authentication/figure-eight-authentication.yml
+  href: https://artifacts.apis.io/figure-eight/authentication/figure-eight-authentication.yml
   title: ''
   type: Authentication
   url: authentication/figure-eight-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/conventions/figure-eight-conventions.yml
+  href: https://artifacts.apis.io/figure-eight/conventions/figure-eight-conventions.yml
   title: ''
   type: Conventions
   url: conventions/figure-eight-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/errors/figure-eight-problem-types.yml
+  href: https://artifacts.apis.io/figure-eight/errors/figure-eight-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/figure-eight-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/lifecycle/figure-eight-lifecycle.yml
+  href: https://artifacts.apis.io/figure-eight/lifecycle/figure-eight-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/figure-eight-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/conformance/figure-eight-conformance.yml
+  href: https://artifacts.apis.io/figure-eight/conformance/figure-eight-conformance.yml
   title: ''
   type: Conformance
   url: conformance/figure-eight-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/data-model/figure-eight-data-model.yml
+  href: https://artifacts.apis.io/figure-eight/data-model/figure-eight-data-model.yml
   title: ''
   type: DataModel
   url: data-model/figure-eight-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/mcp/figure-eight-mcp.yml
+  href: https://artifacts.apis.io/figure-eight/mcp/figure-eight-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/figure-eight-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/llms/figure-eight-llms.txt
+  href: https://artifacts.apis.io/figure-eight/llms/figure-eight-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/figure-eight-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/well-known/figure-eight-well-known.yml
+  href: https://artifacts.apis.io/figure-eight/well-known/figure-eight-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/figure-eight-well-known.yml
@@ -243,10 +242,10 @@ overview: 'Figure Eight publishes 13 API contracts indexed on the [APIs.io](http
 
 
   Figure Eight''s developer surface includes API reference, documentation, authentication, and 13 more developer resources.'
-random_paper: 6
+random_paper: 16
 score:
   band: thin
-  composite: 28.9
+  composite: 29.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -254,15 +253,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 55.6
-    developer_ergonomics: 32.1
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 28.8
+    contract_quality: 52.3
+    developer_ergonomics: 35.7
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 29.1
   provenance:
     conformance: derived
     contracts:
@@ -277,13 +276,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/screenshots/figure-eight-2026-07-25T214447.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/figure-eight/figure-eight-2026-07-25T214447.png
 security:
 - kind: authentication
   name: Figure Eight Authentication

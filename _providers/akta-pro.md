@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.6
-  scored_at: '2026-10-17'
+  score: 58.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 14
   slug: akta-pro-agentic-access
   summary_line: 14 operations · 3 acting
-api_count: 2
+api_count: 1
 apis:
 - description: 'Remote Streamable-HTTP MCP server (https://mcp.akta.pro/mcp) that exposes the akta.pro company-intelligence stack to Claude, ChatGPT, Cursor, VS Code, Claude Code and other MCP clients: company and in'
   name: akta.pro MCP Server
@@ -62,149 +64,154 @@ apis:
   description: Utility endpoints for request tracking
   name: akta.pro Supporting APIs API
   slug: akta-pro-supporting-apis-api
-artifact_total: 21
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Akta Pro Webhooks
   slug: akta-pro-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/akta-pro/capabilities/akta-pro-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/akta-pro-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/agentic-access/akta-pro-agentic-access.yml
+  href: https://artifacts.apis.io/akta-pro/agentic-access/akta-pro-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/akta-pro-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/rate-limits/akta-pro-rate-limits.yml
+  href: https://artifacts.apis.io/akta-pro/rate-limits/akta-pro-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/akta-pro-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/plans/akta-pro-plans-pricing.yml
+  href: https://artifacts.apis.io/akta-pro/plans/akta-pro-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/akta-pro-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/rules/akta-pro-rules.yml
+  href: https://artifacts.apis.io/akta-pro/rules/akta-pro-rules.yml
   title: ''
   type: Spectral
   url: rules/akta-pro-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/json-ld/akta-pro-context.jsonld
+  href: https://artifacts.apis.io/akta-pro/json-ld/akta-pro-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/akta-pro-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/vocabulary/akta-pro-vocabulary.yml
+  href: https://artifacts.apis.io/akta-pro/vocabulary/akta-pro-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/akta-pro-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/akta-pro/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/asyncapi/akta-pro-webhooks.yml
+  href: https://artifacts.apis.io/akta-pro/asyncapi/akta-pro-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/akta-pro-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/data-model/akta-pro-data-model.yml
+  href: https://artifacts.apis.io/akta-pro/data-model/akta-pro-data-model.yml
   title: ''
   type: DataModel
   url: data-model/akta-pro-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/cli/akta-pro-cli.yml
+  href: https://artifacts.apis.io/akta-pro/cli/akta-pro-cli.yml
   title: ''
   type: CLI
   url: cli/akta-pro-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/changelog/akta-pro-changelog.yml
+  href: https://artifacts.apis.io/akta-pro/changelog/akta-pro-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/akta-pro-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/conventions/akta-pro-conventions.yml
+  href: https://artifacts.apis.io/akta-pro/conventions/akta-pro-conventions.yml
   title: ''
   type: Conventions
   url: conventions/akta-pro-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/lifecycle/akta-pro-lifecycle.yml
+  href: https://artifacts.apis.io/akta-pro/lifecycle/akta-pro-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/akta-pro-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/lifecycle/akta-pro-lifecycle.yml
+  href: https://artifacts.apis.io/akta-pro/lifecycle/akta-pro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/akta-pro-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/errors/akta-pro-error-codes.yml
+  href: https://artifacts.apis.io/akta-pro/errors/akta-pro-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/akta-pro-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/errors/akta-pro-problem-types.yml
+  href: https://artifacts.apis.io/akta-pro/errors/akta-pro-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/akta-pro-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/conformance/akta-pro-conformance.yml
+  href: https://artifacts.apis.io/akta-pro/conformance/akta-pro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/akta-pro-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/overlays/akta-pro-openapi-overlay.yaml
+  href: https://artifacts.apis.io/akta-pro/overlays/akta-pro-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/akta-pro-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/llms/akta-pro-llms.txt
+  href: https://artifacts.apis.io/akta-pro/llms/akta-pro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/akta-pro-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/a2a/akta-pro-a2a.yml
+  href: https://artifacts.apis.io/akta-pro/a2a/akta-pro-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/akta-pro-a2a.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/mcp/akta-pro-tool-crosswalk.yml
+  href: https://artifacts.apis.io/akta-pro/mcp/akta-pro-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/akta-pro-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/mcp/akta-pro-mcp.yml
+  href: https://artifacts.apis.io/akta-pro/mcp/akta-pro-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/akta-pro-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/well-known/akta-pro-well-known.yml
+  href: https://artifacts.apis.io/akta-pro/well-known/akta-pro-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/akta-pro-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/hosts/akta-pro-hosts.yml
+  href: https://artifacts.apis.io/akta-pro/hosts/akta-pro-hosts.yml
   title: ''
   type: Hosts
   url: hosts/akta-pro-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/vendors/akta-pro-vendors.yml
+  href: https://artifacts.apis.io/akta-pro/vendors/akta-pro-vendors.yml
   title: ''
   type: Vendors
   url: vendors/akta-pro-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/packages/akta-pro-packages.yml
+  href: https://artifacts.apis.io/akta-pro/packages/akta-pro-packages.yml
   title: ''
   type: SDKs
   url: packages/akta-pro-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/packages/akta-pro-packages.yml
+  href: https://artifacts.apis.io/akta-pro/packages/akta-pro-packages.yml
   title: ''
   type: Packages
   url: packages/akta-pro-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/authentication/akta-pro-authentication.yml
+  href: https://artifacts.apis.io/akta-pro/authentication/akta-pro-authentication.yml
   title: ''
   type: Authentication
   url: authentication/akta-pro-authentication.yml
@@ -269,12 +276,20 @@ common:
   type: Twitter
   url: https://x.com/akta_pro
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/security/akta-pro-domain-security.yml
+  href: https://artifacts.apis.io/akta-pro/security/akta-pro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/akta-pro-domain-security.yml
 created: '2026-10-07'
 description: akta.pro (marketed as "akta.pro by Wokelo AI", a product of Wokelo Inc.) is a private-company data, news and signals API built for AI agents, developers and enterprise teams. It covers 20M+ companies with 75+ data points each (firmographics, business model, financial estimates, management, technology, funding and M&A), entity-resolved and de-duplicated news classified against an 80+ event taxonomy plus NAICS, SIC, IPTC and IAB codes, list generation from structured filters or natural language, and alternative signals (headcount trends, website traffic, job posts, social posts, employee and product reviews). Access is credit-based and pay-as-you-go through a REST API (api.akta.pro), a remote MCP server (mcp.akta.pro) and the akta-pro-cli on PyPI.
+finops:
+- has_sources: true
+  method: derived
+  name: Akta Pro Finops
+  primary_unit: ''
+  service_category: ''
+  slug: akta-pro-finops
+  template: true
 image: https://akta.pro/opengraph-image?af85e82039d972ad
 json_schemas:
 - name: CompanyAdditionResponse
@@ -315,7 +330,7 @@ overview: 'akta.pro publishes 6 API contracts indexed on the [APIs.io](https://a
   The akta.pro catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  akta.pro''s developer surface includes CLI, changelog, authentication, documentation, API reference, getting-started guide, pricing, and 37 more developer resources.'
+  akta.pro''s developer surface includes CLI, changelog, authentication, documentation, API reference, getting-started guide, pricing, and 38 more developer resources.'
 plans:
 - name: Akta Pro Plans Pricing
   plan_count: 3
@@ -340,23 +355,23 @@ rules:
   slug: akta-pro-rules
 score:
   band: exemplar
-  composite: 69.5
+  composite: 69.2
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 33
     catalog_earned: 86.8
     catalog_earned_first_party: 24.0
     catalog_gap: 28.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 35.6
     contract_quality: 72.9
     developer_ergonomics: 73.2
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 68.4
-  previous_composite: 69.1
+  previous_composite: 69.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -373,13 +388,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/screenshots/akta-pro-2026-10-11T093532.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/akta-pro/akta-pro-2026-10-11T093532.png
 security:
 - kind: authentication
   name: Akta Pro Authentication
@@ -389,6 +405,16 @@ security:
   name: Akta Pro Domain Security
   slug: akta-pro-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: akta-pro-add-missing-company
+  slug: akta-pro-add-missing-company
+- name: akta-pro-generate-company-list
+  slug: akta-pro-generate-company-list
+- name: akta-pro-monitor-company-news
+  slug: akta-pro-monitor-company-news
+- name: akta-pro-resolve-and-enrich-company
+  slug: akta-pro-resolve-and-enrich-company
 slug: akta-pro
 tags:
 - Company

@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,11 +75,8 @@ apis:
   description: The Podlings API from Apache Software Foundation — 2 operation(s) for podlings.
   name: Apache Software Foundation Podlings API
   slug: apache-software-foundation-podlings-api
-artifact_total: 47
+artifact_total: 46
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apache Software Foundation Projects Committees API
   slug: open-apache-software-foundation-committees-api
@@ -110,17 +109,17 @@ collections:
   slug: open-apache-software-foundation-whimsy-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/plans/apache-software-foundation-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-software-foundation/plans/apache-software-foundation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-software-foundation-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/rate-limits/apache-software-foundation-rate-limits.yml
+  href: https://artifacts.apis.io/apache-software-foundation/rate-limits/apache-software-foundation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-software-foundation-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/finops/apache-software-foundation-finops.yml
+  href: https://artifacts.apis.io/apache-software-foundation/finops/apache-software-foundation-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-software-foundation-finops.yml
@@ -129,17 +128,17 @@ common:
   type: Website
   url: https://www.apache.org/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/agentic-access/apache-software-foundation-agentic-access.yml
+  href: https://artifacts.apis.io/apache-software-foundation/agentic-access/apache-software-foundation-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-software-foundation-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/security/apache-software-foundation-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-software-foundation/security/apache-software-foundation-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-software-foundation-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/security/apache-software-foundation-domain-security.yml
+  href: https://artifacts.apis.io/apache-software-foundation/security/apache-software-foundation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-software-foundation-domain-security.yml
@@ -164,12 +163,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/apache
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/rules/apache-software-foundation-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-software-foundation/rules/apache-software-foundation-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-software-foundation-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/vocabulary/apache-software-foundation-vocabulary.yaml
+  href: https://artifacts.apis.io/apache-software-foundation/vocabulary/apache-software-foundation-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-software-foundation-vocabulary.yaml
@@ -204,7 +203,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Software Foundation Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-software-foundation-finops
   template: true
@@ -288,7 +287,7 @@ rules:
   slug: apache-software-foundation-spectral-rules
 score:
   band: thin
-  composite: 32.8
+  composite: 34.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 58.0
@@ -296,36 +295,36 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 54.6
     developer_ergonomics: 21.4
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 34.8
+    operational_transparency: 23.7
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 16
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/screenshots/apache-software-foundation-2026-06-20T172144.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-software-foundation/apache-software-foundation-2026-06-20T172144.png
 security:
 - kind: domain-security
   name: Apache Software Foundation Domain Security

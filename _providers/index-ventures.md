@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: Index Ventures
 nav: Providers
 network: true
-random_paper: 21
+random_paper: 9
 slug: index-ventures
 tags:
 - Venture Capital

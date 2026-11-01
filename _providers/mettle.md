@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-10-17'
+  score: 34.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -82,39 +84,39 @@ apis:
   description: Endpoint for getting Unsecured SME Loan data
   name: Mettle SME API
   slug: mettle-sme-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-mettle-open-data-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/capabilities/mettle-capability-edges.yml
+  href: https://artifacts.apis.io/mettle/capabilities/mettle-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mettle-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/agentic-access/mettle-agentic-access.yml
+  href: https://artifacts.apis.io/mettle/agentic-access/mettle-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mettle-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/security/mettle-domain-security.yml
+  href: https://artifacts.apis.io/mettle/security/mettle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mettle-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/authentication/mettle-authentication.yml
+  href: https://artifacts.apis.io/mettle/authentication/mettle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mettle-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/scopes/mettle-scopes.yml
+  href: https://artifacts.apis.io/mettle/scopes/mettle-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mettle-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/conformance/mettle-conformance.yml
+  href: https://artifacts.apis.io/mettle/conformance/mettle-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mettle-conformance.yml
@@ -123,22 +125,22 @@ common:
   type: Compliance
   url: https://www.bankofapis.com/products/natwest-group-open-banking
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/conventions/mettle-conventions.yml
+  href: https://artifacts.apis.io/mettle/conventions/mettle-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mettle-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/conventions/mettle-conventions.yml
+  href: https://artifacts.apis.io/mettle/conventions/mettle-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/mettle-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/errors/mettle-problem-types.yml
+  href: https://artifacts.apis.io/mettle/errors/mettle-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mettle-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/lifecycle/mettle-lifecycle.yml
+  href: https://artifacts.apis.io/mettle/lifecycle/mettle-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mettle-lifecycle.yml
@@ -147,27 +149,27 @@ common:
   type: Deprecation
   url: https://www.bankofapis.com/products/natwest-group-open-banking
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/data-model/mettle-data-model.yml
+  href: https://artifacts.apis.io/mettle/data-model/mettle-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mettle-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/well-known/mettle-well-known.yml
+  href: https://artifacts.apis.io/mettle/well-known/mettle-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mettle-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/mcp/mettle-mcp.yml
+  href: https://artifacts.apis.io/mettle/mcp/mettle-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mettle-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/llms/mettle-llms.txt
+  href: https://artifacts.apis.io/mettle/llms/mettle-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mettle-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/overlays/mettle-open-data-api-overlay.yaml
+  href: https://artifacts.apis.io/mettle/overlays/mettle-open-data-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mettle-open-data-api-overlay.yaml
@@ -176,7 +178,7 @@ common:
   type: Sandbox
   url: https://developer.sandbox.natwest.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mettle/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -229,30 +231,30 @@ overview: 'Mettle publishes 9 API contracts indexed on the [APIs.io](https://api
 
 
   Mettle''s developer surface includes authentication, sandbox, documentation, engineering blog, support, and 23 more developer resources.'
-random_paper: 13
+random_paper: 3
 scopes:
 - name: Mettle Scopes
   scope_count: 4
   slug: mettle-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
-  band: thin
-  composite: 37.5
+  band: developing
+  composite: 41.5
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.0
-    catalog_max: 100.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 57.1
+    access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 35.5
-    developer_ergonomics: 20.8
-    discoverability: 73.2
-    operational_transparency: 0.0
+    developer_ergonomics: 54.2
+    discoverability: 66.1
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -261,7 +263,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 37.5
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -283,15 +285,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 44.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 48.0
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/screenshots/mettle-2026-08-07T172804.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mettle/mettle-2026-08-07T172804.png
 security:
 - kind: authentication
   name: Mettle Authentication
@@ -301,6 +303,10 @@ security:
   name: Mettle Domain Security
   slug: mettle-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Discover Mettle published products and locations
+  slug: mettle-open-data-discovery
 slug: mettle
 tags:
 - Financial Services

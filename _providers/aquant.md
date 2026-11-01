@@ -13,7 +13,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,16 +26,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.4
-  scored_at: '2026-10-17'
+  score: 37.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -111,7 +112,7 @@ arazzos:
 - description: Health-check the service, generate the PM checklist for an asset, then produce the summary report.
   name: Run a preventive-maintenance visit and file the summary
   slug: aquant-preventive-maintenance-visit
-artifact_total: 23
+artifact_total: 28
 collections:
 - collection_type: open
   name: Aquant MCP Server
@@ -120,13 +121,38 @@ collections:
   name: FastAPI
   slug: open-aquant-voiceai-api
 common:
+- group: design
+  href: https://artifacts.apis.io/aquant/rules/aquant-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/aquant-rules.yml
+- group: design
+  href: https://artifacts.apis.io/aquant/json-ld/aquant-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/aquant-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/aquant/vocabulary/aquant-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/aquant-vocabulary.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/overlays/aquant-voiceai-api-overlay.yaml
+  href: https://artifacts.apis.io/aquant/hosts/aquant-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/aquant-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/aquant/vendors/aquant-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/aquant-vendors.yml
+- group: other
+  href: https://artifacts.apis.io/aquant/overlays/aquant-voiceai-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aquant-voiceai-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/security/aquant-trust-center.yml
+  href: https://artifacts.apis.io/aquant/security/aquant-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/aquant-trust-center.yml
@@ -179,57 +205,57 @@ common:
   type: Compliance
   url: https://security.aquant.ai/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/mcp/aquant-mcp.yml
+  href: https://artifacts.apis.io/aquant/mcp/aquant-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aquant-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/mcp/aquant-tool-crosswalk.yml
+  href: https://artifacts.apis.io/aquant/mcp/aquant-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/aquant-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/packages/aquant-packages.yml
+  href: https://artifacts.apis.io/aquant/packages/aquant-packages.yml
   title: ''
   type: Packages
   url: packages/aquant-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/packages/aquant-packages.yml
+  href: https://artifacts.apis.io/aquant/packages/aquant-packages.yml
   title: ''
   type: SDKs
   url: packages/aquant-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/llms/aquant-llms.txt
+  href: https://artifacts.apis.io/aquant/llms/aquant-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aquant-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/well-known/aquant-well-known.yml
+  href: https://artifacts.apis.io/aquant/well-known/aquant-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aquant-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/authentication/aquant-authentication.yml
+  href: https://artifacts.apis.io/aquant/authentication/aquant-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aquant-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/scopes/aquant-scopes.yml
+  href: https://artifacts.apis.io/aquant/scopes/aquant-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aquant-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/conventions/aquant-conventions.yml
+  href: https://artifacts.apis.io/aquant/conventions/aquant-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aquant-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/errors/aquant-problem-types.yml
+  href: https://artifacts.apis.io/aquant/errors/aquant-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aquant-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/lifecycle/aquant-lifecycle.yml
+  href: https://artifacts.apis.io/aquant/lifecycle/aquant-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aquant-lifecycle.yml
@@ -238,67 +264,67 @@ common:
   type: ChangeLog
   url: https://www.aquant.ai/company/whats-new
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/changelog/aquant-changelog.yml
+  href: https://artifacts.apis.io/aquant/changelog/aquant-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aquant-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/conformance/aquant-conformance.yml
+  href: https://artifacts.apis.io/aquant/conformance/aquant-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aquant-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/data-model/aquant-data-model.yml
+  href: https://artifacts.apis.io/aquant/data-model/aquant-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aquant-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/agentic-access/aquant-agentic-access.yml
+  href: https://artifacts.apis.io/aquant/agentic-access/aquant-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aquant-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/security/aquant-domain-security.yml
+  href: https://artifacts.apis.io/aquant/security/aquant-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aquant-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/aquant/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/arazzo/_index.yml
+  href: https://artifacts.apis.io/aquant/arazzo/_index.yml
   title: ''
   type: Arazzo
   url: arazzo/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/arazzo/aquant-diagnose-and-source-part.yml
+  href: https://artifacts.apis.io/aquant/arazzo/aquant-diagnose-and-source-part.yml
   title: ''
   type: Arazzo
   url: arazzo/aquant-diagnose-and-source-part.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/arazzo/aquant-dispatch-nearest-technician.yml
+  href: https://artifacts.apis.io/aquant/arazzo/aquant-dispatch-nearest-technician.yml
   title: ''
   type: Arazzo
   url: arazzo/aquant-dispatch-nearest-technician.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/arazzo/aquant-preventive-maintenance-visit.yml
+  href: https://artifacts.apis.io/aquant/arazzo/aquant-preventive-maintenance-visit.yml
   title: ''
   type: Arazzo
   url: arazzo/aquant-preventive-maintenance-visit.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/overlays/aquant-mcp-server-overlay.yaml
+  href: https://artifacts.apis.io/aquant/overlays/aquant-mcp-server-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aquant-mcp-server-overlay.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/json-schema/aquant-mcp-server-schemas.json
+  href: https://artifacts.apis.io/aquant/json-schema/aquant-mcp-server-schemas.json
   title: ''
   type: JSONSchema
   url: json-schema/aquant-mcp-server-schemas.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/examples/aquant-mcp-server-examples.yml
+  href: https://artifacts.apis.io/aquant/examples/aquant-mcp-server-examples.yml
   title: ''
   type: Examples
   url: examples/aquant-mcp-server-examples.yml
@@ -309,6 +335,11 @@ json_schemas:
 - name: Aquant Mcp Server Schemas
   property_count: 0
   slug: aquant-mcp-server-schemas
+jsonld:
+- class_count: 37
+  name: Aquant Context
+  property_count: 62
+  slug: aquant-context
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.aquant.ai over HTTP; 11 tools listed.
@@ -318,11 +349,27 @@ modified: '2026-07-31'
 name: Aquant
 nav: Providers
 network: true
-overview: 'Aquant publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Data API, Asset Location API, Health API, and 8 more. Tagged areas include Company, Artificial Intelligence, Agents, Field Service, and Service Management.
+overview: 'Aquant publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Data API, Asset Location API, Health API, and 8 more. Tagged areas include Company, Artificial Intelligence, Agents, Field Service Management, and Service Management.
 
 
-  Aquant''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 32 more developer resources.'
-random_paper: 12
+  The Aquant catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Aquant''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 37 more developer resources.'
+random_paper: 2
+rules:
+- authorship: generated
+  effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Aquant API Rules
+  rule_count: 11
+  severity_counts:
+    error: 10
+    hint: 0
+    info: 1
+    warn: 0
+  slug: aquant-rules
 scopes:
 - name: Aquant Scopes
   scope_count: 7
@@ -330,23 +377,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit/deviceCode/password/refreshToken
 score:
   band: developing
-  composite: 45.0
+  composite: 51.4
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 42.4
+    artifact_dirs: 30
+    catalog_earned: 58.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.6
+    catalog_gap: 56.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
-    contract_governance: 4.5
-    contract_quality: 47.7
+    access_clarity: 50.0
+    contract_governance: 19.7
+    contract_quality: 55.2
     developer_ergonomics: 56.5
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 45.0
+    discoverability: 65.0
+    operational_transparency: 31.6
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -373,13 +420,14 @@ score:
     regime: Health
     regime_id: health
     score: 34.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/screenshots/aquant-2026-08-07T161534.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aquant/aquant-2026-08-07T161534.png
 security:
 - kind: authentication
   name: Aquant Authentication
@@ -388,17 +436,25 @@ security:
 - kind: domain-security
   name: Aquant Domain Security
   slug: aquant-domain-security
-  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 - kind: trust-center
   name: Aquant Trust Center
   slug: aquant-trust-center
   summary_line: SOC 2, ISO 27001, HIPAA, FedRAMP, GDPR
+skill_count: 3
+skills:
+- name: aquant-diagnose-and-source-part
+  slug: aquant-diagnose-and-source-part
+- name: aquant-dispatch-nearest-technician
+  slug: aquant-dispatch-nearest-technician
+- name: aquant-preventive-maintenance-visit
+  slug: aquant-preventive-maintenance-visit
 slug: aquant
 tags:
 - Company
 - Artificial Intelligence
 - Agents
-- Field Service
+- Field Service Management
 - Service Management
 - Manufacturing
 - Medical Devices

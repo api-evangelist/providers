@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -69,22 +71,22 @@ common:
   type: Compliance
   url: https://www.panoramaed.com/about/privacy/safety-trust
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/panorama-education/refs/heads/main/conformance/panorama-education-conformance.yml
+  href: https://artifacts.apis.io/panorama-education/conformance/panorama-education-conformance.yml
   title: ''
   type: Conformance
   url: conformance/panorama-education-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/panorama-education/refs/heads/main/security/panorama-education-domain-security.yml
+  href: https://artifacts.apis.io/panorama-education/security/panorama-education-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/panorama-education-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/panorama-education/refs/heads/main/well-known/panorama-education-well-known.yml
+  href: https://artifacts.apis.io/panorama-education/well-known/panorama-education-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/panorama-education-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/panorama-education/refs/heads/main/llms/panorama-education-llms.txt
+  href: https://artifacts.apis.io/panorama-education/llms/panorama-education-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/panorama-education-llms.txt
@@ -107,9 +109,9 @@ overview: 'Panorama Education is profiled on the [APIs.io](https://apis.io/) net
 random_paper: 0
 score:
   band: emerging
-  composite: 21.4
+  composite: 20.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -121,9 +123,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 58.3
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 21.4
+  previous_composite: 20.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -141,14 +143,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/panorama-education/refs/heads/main/screenshots/panorama-education-2026-08-07T191335.png
+screenshot: https://apis.io/screenshots/panorama-education/panorama-education-2026-08-07T191335.png
 security:
 - kind: domain-security
   name: Panorama Education Domain Security

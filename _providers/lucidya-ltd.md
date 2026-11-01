@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.0
-  scored_at: '2026-10-17'
-api_count: 10
+  score: 33.2
+  scored_at: '2026-10-31'
+api_count: 5
 apis:
 - description: Receive real-time push notifications when specific events or conditions are met across your monitors.
   name: Lucidya Webhooks
@@ -511,7 +513,7 @@ apis:
     question: Can I tell whether each message is a question, complaint or something else?
   phrasing_ops: 1
   slug: lucidya-ltd-themes-api
-artifact_total: 49
+artifact_total: 56
 asyncapis:
 - description: ''
   name: Lucidya Ltd Webhooks
@@ -534,52 +536,52 @@ collections:
   slug: open-lucidya-ltd-social-listening-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/capabilities/lucidya-ltd-capability-edges.yml
+  href: https://artifacts.apis.io/lucidya-ltd/capabilities/lucidya-ltd-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lucidya-ltd-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/skills/lucidya-ltd-pull-social-listening-widget-data.md
+  href: https://artifacts.apis.io/lucidya-ltd/skills/lucidya-ltd-pull-social-listening-widget-data.md
   title: ''
   type: AgentSkill
   url: skills/lucidya-ltd-pull-social-listening-widget-data.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/overlays/lucidya-ltd-ai-overlay.yaml
+  href: https://artifacts.apis.io/lucidya-ltd/overlays/lucidya-ltd-ai-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lucidya-ltd-ai-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/skills/lucidya-ltd-analyze-arabic-text.md
+  href: https://artifacts.apis.io/lucidya-ltd/skills/lucidya-ltd-analyze-arabic-text.md
   title: ''
   type: AgentSkill
   url: skills/lucidya-ltd-analyze-arabic-text.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/skills/lucidya-ltd-transcribe-audio.md
+  href: https://artifacts.apis.io/lucidya-ltd/skills/lucidya-ltd-transcribe-audio.md
   title: ''
   type: AgentSkill
   url: skills/lucidya-ltd-transcribe-audio.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/overlays/lucidya-ltd-cdp-overlay.yaml
+  href: https://artifacts.apis.io/lucidya-ltd/overlays/lucidya-ltd-cdp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lucidya-ltd-cdp-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/skills/lucidya-ltd-manage-cdp-profiles-and-segments.md
+  href: https://artifacts.apis.io/lucidya-ltd/skills/lucidya-ltd-manage-cdp-profiles-and-segments.md
   title: ''
   type: AgentSkill
   url: skills/lucidya-ltd-manage-cdp-profiles-and-segments.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/overlays/lucidya-ltd-omnichannel-overlay.yaml
+  href: https://artifacts.apis.io/lucidya-ltd/overlays/lucidya-ltd-omnichannel-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lucidya-ltd-omnichannel-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/overlays/lucidya-ltd-omniserve-analytics-overlay.yaml
+  href: https://artifacts.apis.io/lucidya-ltd/overlays/lucidya-ltd-omniserve-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lucidya-ltd-omniserve-analytics-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/skills/lucidya-ltd-run-omniserve-analytics-job.md
+  href: https://artifacts.apis.io/lucidya-ltd/skills/lucidya-ltd-run-omniserve-analytics-job.md
   title: ''
   type: AgentSkill
   url: skills/lucidya-ltd-run-omniserve-analytics-job.md
@@ -604,17 +606,17 @@ common:
   type: GettingStarted
   url: https://docs.lucidya.com/docs/Social-Listening-api/rqwky70duwx76-get-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/authentication/lucidya-ltd-authentication.yml
+  href: https://artifacts.apis.io/lucidya-ltd/authentication/lucidya-ltd-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lucidya-ltd-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/conventions/lucidya-ltd-conventions.yml
+  href: https://artifacts.apis.io/lucidya-ltd/conventions/lucidya-ltd-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lucidya-ltd-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/asyncapi/lucidya-ltd-webhooks.yml
+  href: https://artifacts.apis.io/lucidya-ltd/asyncapi/lucidya-ltd-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lucidya-ltd-webhooks.yml
@@ -631,7 +633,7 @@ common:
   type: Blog
   url: https://lucidya.com/blog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/changelog/lucidya-ltd-changelog.yml
+  href: https://artifacts.apis.io/lucidya-ltd/changelog/lucidya-ltd-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lucidya-ltd-changelog.yml
@@ -640,7 +642,7 @@ common:
   type: StatusPage
   url: https://status.lucidya.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/lifecycle/lucidya-ltd-lifecycle.yml
+  href: https://artifacts.apis.io/lucidya-ltd/lifecycle/lucidya-ltd-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lucidya-ltd-lifecycle.yml
@@ -665,12 +667,12 @@ common:
   type: PrivacyPolicy
   url: https://lucidya.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/security/lucidya-ltd-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/lucidya-ltd/security/lucidya-ltd-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/lucidya-ltd-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/security/lucidya-ltd-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/lucidya-ltd/security/lucidya-ltd-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lucidya-ltd-vulnerability-disclosure.yml
@@ -679,17 +681,17 @@ common:
   type: TrustCenter
   url: https://trust.lucidya.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/conformance/lucidya-ltd-conformance.yml
+  href: https://artifacts.apis.io/lucidya-ltd/conformance/lucidya-ltd-conformance.yml
   title: ''
   type: Compliance
   url: conformance/lucidya-ltd-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/conformance/lucidya-ltd-conformance.yml
+  href: https://artifacts.apis.io/lucidya-ltd/conformance/lucidya-ltd-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lucidya-ltd-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/security/lucidya-ltd-domain-security.yml
+  href: https://artifacts.apis.io/lucidya-ltd/security/lucidya-ltd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lucidya-ltd-domain-security.yml
@@ -698,62 +700,70 @@ common:
   type: GitHubOrganization
   url: https://github.com/lucidya
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/llms/lucidya-ltd-llms.txt
+  href: https://artifacts.apis.io/lucidya-ltd/llms/lucidya-ltd-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lucidya-ltd-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/openapi/_original/lucidya-ltd-social-listening-api-openapi.yml
+  href: https://artifacts.apis.io/lucidya-ltd/openapi/_original/lucidya-ltd-social-listening-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/lucidya-ltd-social-listening-api-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/overlays/lucidya-ltd-social-listening-overlay.yaml
+  href: https://artifacts.apis.io/lucidya-ltd/overlays/lucidya-ltd-social-listening-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lucidya-ltd-social-listening-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/errors/lucidya-ltd-problem-types.yml
+  href: https://artifacts.apis.io/lucidya-ltd/errors/lucidya-ltd-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lucidya-ltd-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/rate-limits/lucidya-ltd-rate-limits.yml
+  href: https://artifacts.apis.io/lucidya-ltd/rate-limits/lucidya-ltd-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lucidya-ltd-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/plans/lucidya-ltd-plans-pricing.yml
+  href: https://artifacts.apis.io/lucidya-ltd/plans/lucidya-ltd-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lucidya-ltd-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/data-model/lucidya-ltd-data-model.yml
+  href: https://artifacts.apis.io/lucidya-ltd/data-model/lucidya-ltd-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lucidya-ltd-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/sandbox/lucidya-ltd-sandbox.yml
+  href: https://artifacts.apis.io/lucidya-ltd/sandbox/lucidya-ltd-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/lucidya-ltd-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/packages/lucidya-ltd-packages.yml
+  href: https://artifacts.apis.io/lucidya-ltd/packages/lucidya-ltd-packages.yml
   title: ''
   type: Packages
   url: packages/lucidya-ltd-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/mcp/lucidya-ltd-mcp.yml
+  href: https://artifacts.apis.io/lucidya-ltd/mcp/lucidya-ltd-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/lucidya-ltd-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lucidya-ltd/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Lucidya is an AI-native customer experience management (CXM) platform for social listening, unified customer data, omnichannel engagement, surveys, and AI-powered text analysis, with deep Arabic-language and MENA-market capabilities. Its public developer platform (docs.lucidya.com) exposes a suite of RESTful APIs across six products — Social Listening, AI, CDP, OmniChannel, OmniServe Analytics, and Webhooks — for programmatic access to social data, customer profiles, analytics, AI text/audio models, and real-time event notifications. Lucidya is a 500 Global portfolio company headquartered in Saudi Arabia and is certified for SOC 2 Type 2 and ISO 27001.
+finops:
+- has_sources: true
+  method: derived
+  name: Lucidya Ltd Finops
+  primary_unit: seat
+  service_category: ''
+  slug: lucidya-ltd-finops
+  template: false
 image: https://lh3.googleusercontent.com/d/1rlLPfBLpzoGQ2qAS_b9JeAxSnoyaa6RQ
 layout: provider
 modified: '2026-09-16'
@@ -771,29 +781,32 @@ plans:
 - name: Lucidya Ltd Plans Pricing
   plan_count: 5
   slug: lucidya-ltd-plans-pricing
-random_paper: 16
+- name: Lucidya Ltd Price Estimates
+  plan_count: 0
+  slug: lucidya-ltd-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Lucidya Ltd Rate Limits
   slug: lucidya-ltd-rate-limits
 score:
   band: exemplar
-  composite: 68.1
+  composite: 71.3
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 64.0
+    artifact_dirs: 26
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 59.4
     developer_ergonomics: 66.1
-    discoverability: 78.6
-    operational_transparency: 84.2
+    discoverability: 71.4
+    operational_transparency: 86.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -801,7 +814,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - mena
-  previous_composite: 68.0
+  previous_composite: 69.7
   provenance:
     conformance: first-party
     contracts:
@@ -821,13 +834,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/screenshots/lucidya-ltd-2026-07-25T225641.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lucidya-ltd/lucidya-ltd-2026-07-25T225641.png
 security:
 - kind: authentication
   name: Lucidya Ltd Authentication
@@ -845,6 +859,18 @@ security:
   name: Lucidya Ltd Trust Center
   slug: lucidya-ltd-trust-center
   summary_line: SOC 2 Type 2, ISO 27001
+skill_count: 5
+skills:
+- name: lucidya-analyze-arabic-text
+  slug: lucidya-ltd-analyze-arabic-text
+- name: lucidya-manage-cdp-profiles-and-segments
+  slug: lucidya-ltd-manage-cdp-profiles-and-segments
+- name: lucidya-pull-social-listening-widget-data
+  slug: lucidya-ltd-pull-social-listening-widget-data
+- name: lucidya-run-omniserve-analytics-job
+  slug: lucidya-ltd-run-omniserve-analytics-job
+- name: lucidya-transcribe-audio
+  slug: lucidya-ltd-transcribe-audio
 slug: lucidya-ltd
 tags:
 - Company

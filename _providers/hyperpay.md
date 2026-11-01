@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.0
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 5
@@ -72,7 +74,7 @@ apis:
   description: Tokenization of payment instruments for one-click and recurring.
   name: HyperPay Registrations API
   slug: hyperpay-registrations-api
-artifact_total: 24
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Hyperpay Webhooks
@@ -91,9 +93,6 @@ collections:
   name: HyperPay Payment COPYandPAY Registrations API
   slug: postman-hyperpay-registrations-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: HyperPay Payment COPYandPAY API
   slug: open-hyperpay-copyandpay-api
 - collection_type: open
@@ -106,32 +105,37 @@ collections:
   name: HyperPay Payment COPYandPAY Registrations API
   slug: open-hyperpay-registrations-api
 common:
+- group: other
+  href: https://artifacts.apis.io/hyperpay/capabilities/hyperpay-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hyperpay-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/hyperpay/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/agentic-access/hyperpay-agentic-access.yml
+  href: https://artifacts.apis.io/hyperpay/agentic-access/hyperpay-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hyperpay-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/security/hyperpay-trust-center.yml
+  href: https://artifacts.apis.io/hyperpay/security/hyperpay-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/hyperpay-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/security/hyperpay-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hyperpay/security/hyperpay-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hyperpay-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/security/hyperpay-domain-security.yml
+  href: https://artifacts.apis.io/hyperpay/security/hyperpay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hyperpay-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/authentication/hyperpay-authentication.yml
+  href: https://artifacts.apis.io/hyperpay/authentication/hyperpay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hyperpay-authentication.yml
@@ -148,17 +152,17 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/hyperpay
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/plans/hyperpay-plans-pricing.yml
+  href: https://artifacts.apis.io/hyperpay/plans/hyperpay-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hyperpay-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/rate-limits/hyperpay-rate-limits.yml
+  href: https://artifacts.apis.io/hyperpay/rate-limits/hyperpay-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hyperpay-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/finops/hyperpay-finops.yml
+  href: https://artifacts.apis.io/hyperpay/finops/hyperpay-finops.yml
   title: ''
   type: FinOps
   url: finops/hyperpay-finops.yml
@@ -187,87 +191,87 @@ common:
   type: PrivacyPolicy
   url: https://www.hyperpay.com/privacy-policy/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/packages/hyperpay-packages.yml
+  href: https://artifacts.apis.io/hyperpay/packages/hyperpay-packages.yml
   title: ''
   type: Packages
   url: packages/hyperpay-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/packages/hyperpay-packages.yml
+  href: https://artifacts.apis.io/hyperpay/packages/hyperpay-packages.yml
   title: ''
   type: SDKs
   url: packages/hyperpay-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/mcp/hyperpay-mcp.yml
+  href: https://artifacts.apis.io/hyperpay/mcp/hyperpay-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hyperpay-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/llms/hyperpay-llms.txt
+  href: https://artifacts.apis.io/hyperpay/llms/hyperpay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hyperpay-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/overlays/hyperpay-openapi-overlay.yaml
+  href: https://artifacts.apis.io/hyperpay/overlays/hyperpay-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hyperpay-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/conformance/hyperpay-conformance.yml
+  href: https://artifacts.apis.io/hyperpay/conformance/hyperpay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hyperpay-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/security/hyperpay-trust-center.yml
+  href: https://artifacts.apis.io/hyperpay/security/hyperpay-trust-center.yml
   title: ''
   type: Compliance
   url: security/hyperpay-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/errors/hyperpay-result-codes.yml
+  href: https://artifacts.apis.io/hyperpay/errors/hyperpay-result-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/hyperpay-result-codes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/errors/hyperpay-decline-codes.yml
+  href: https://artifacts.apis.io/hyperpay/errors/hyperpay-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/hyperpay-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/lifecycle/hyperpay-lifecycle.yml
+  href: https://artifacts.apis.io/hyperpay/lifecycle/hyperpay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hyperpay-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/lifecycle/hyperpay-lifecycle.yml
+  href: https://artifacts.apis.io/hyperpay/lifecycle/hyperpay-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/hyperpay-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/sandbox/hyperpay-sandbox.yml
+  href: https://artifacts.apis.io/hyperpay/sandbox/hyperpay-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hyperpay-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/conventions/hyperpay-conventions.yml
+  href: https://artifacts.apis.io/hyperpay/conventions/hyperpay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hyperpay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/components/hyperpay-components.yml
+  href: https://artifacts.apis.io/hyperpay/components/hyperpay-components.yml
   title: ''
   type: Components
   url: components/hyperpay-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/data-model/hyperpay-data-model.yml
+  href: https://artifacts.apis.io/hyperpay/data-model/hyperpay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hyperpay-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/asyncapi/hyperpay-webhooks.yml
+  href: https://artifacts.apis.io/hyperpay/asyncapi/hyperpay-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hyperpay-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hyperpay/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -293,34 +297,34 @@ overview: 'HyperPay publishes 6 API contracts indexed on the [APIs.io](https://a
   The HyperPay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  HyperPay''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, sandbox, and 28 more developer resources.'
+  HyperPay''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, sandbox, and 29 more developer resources.'
 plans:
 - name: Hyperpay Plans Pricing
   plan_count: 2
   slug: hyperpay-plans-pricing
-random_paper: 2
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Hyperpay Rate Limits
   slug: hyperpay-rate-limits
 score:
   band: developing
-  composite: 49.6
+  composite: 50.9
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 54.3
     developer_ergonomics: 74.4
-    discoverability: 73.2
-    operational_transparency: 21.1
+    discoverability: 66.1
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -329,7 +333,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 55.6
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -346,13 +350,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 41.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/screenshots/hyperpay-2026-07-25T221905.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hyperpay/hyperpay-2026-07-25T221905.png
 security:
 - kind: authentication
   name: Hyperpay Authentication
@@ -370,6 +375,16 @@ security:
   name: Hyperpay Trust Center
   slug: hyperpay-trust-center
   summary_line: PCI-DSS Level 1, SAMA (Saudi Central Bank) licensed payment service provider
+skill_count: 4
+skills:
+- name: Capture, refund, or reverse a payment
+  slug: hyperpay-capture-refund-reverse
+- name: Accept a card payment with the COPYandPAY widget
+  slug: hyperpay-copyandpay-checkout
+- name: Take a server-to-server payment
+  slug: hyperpay-server-to-server-payment
+- name: Tokenize a card and charge it for recurring / one-click
+  slug: hyperpay-tokenize-and-recurring
 slug: hyperpay
 tags:
 - Payments

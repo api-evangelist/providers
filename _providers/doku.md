@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.3
-  scored_at: '2026-10-17'
+  score: 34.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -76,7 +78,7 @@ apis:
   description: SNAP BI-SNAP Virtual Account lifecycle.
   name: DOKU Virtual Account API
   slug: doku-virtual-account-api
-artifact_total: 29
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Doku Webhooks
@@ -101,9 +103,6 @@ collections:
   name: DOKU Payment Access Token Virtual Account API
   slug: postman-doku-virtual-account-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: DOKU Payment Access Token API
   slug: open-doku-access-token-api
 - collection_type: open
@@ -122,32 +121,37 @@ collections:
   name: DOKU Payment Access Token Virtual Account API
   slug: open-doku-virtual-account-api
 common:
+- group: other
+  href: https://artifacts.apis.io/doku/capabilities/doku-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/doku-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/doku/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/agentic-access/doku-agentic-access.yml
+  href: https://artifacts.apis.io/doku/agentic-access/doku-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/doku-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/security/doku-trust-center.yml
+  href: https://artifacts.apis.io/doku/security/doku-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/doku-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/security/doku-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/doku/security/doku-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/doku-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/security/doku-domain-security.yml
+  href: https://artifacts.apis.io/doku/security/doku-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/doku-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/authentication/doku-authentication.yml
+  href: https://artifacts.apis.io/doku/authentication/doku-authentication.yml
   title: ''
   type: Authentication
   url: authentication/doku-authentication.yml
@@ -164,17 +168,17 @@ common:
   type: Documentation
   url: https://developers.doku.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/plans/doku-plans-pricing.yml
+  href: https://artifacts.apis.io/doku/plans/doku-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/doku-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/rate-limits/doku-rate-limits.yml
+  href: https://artifacts.apis.io/doku/rate-limits/doku-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/doku-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/finops/doku-finops.yml
+  href: https://artifacts.apis.io/doku/finops/doku-finops.yml
   title: ''
   type: FinOps
   url: finops/doku-finops.yml
@@ -183,52 +187,52 @@ common:
   type: Blog
   url: https://www.doku.com/en-us/blog
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/packages/doku-packages.yml
+  href: https://artifacts.apis.io/doku/packages/doku-packages.yml
   title: ''
   type: Packages
   url: packages/doku-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/packages/doku-packages.yml
+  href: https://artifacts.apis.io/doku/packages/doku-packages.yml
   title: ''
   type: SDKs
   url: packages/doku-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/mcp/doku-mcp.yml
+  href: https://artifacts.apis.io/doku/mcp/doku-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/doku-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/llms/doku-llms.txt
+  href: https://artifacts.apis.io/doku/llms/doku-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/doku-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/overlays/doku-overlay.yaml
+  href: https://artifacts.apis.io/doku/overlays/doku-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/doku-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/conventions/doku-conventions.yml
+  href: https://artifacts.apis.io/doku/conventions/doku-conventions.yml
   title: ''
   type: Conventions
   url: conventions/doku-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/conventions/doku-conventions.yml
+  href: https://artifacts.apis.io/doku/conventions/doku-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/doku-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/errors/doku-problem-types.yml
+  href: https://artifacts.apis.io/doku/errors/doku-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/doku-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/errors/doku-decline-codes.yml
+  href: https://artifacts.apis.io/doku/errors/doku-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/doku-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/conformance/doku-conformance.yml
+  href: https://artifacts.apis.io/doku/conformance/doku-conformance.yml
   title: ''
   type: Conformance
   url: conformance/doku-conformance.yml
@@ -237,7 +241,7 @@ common:
   type: Compliance
   url: https://docs.doku.com/security/licenses
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/lifecycle/doku-lifecycle.yml
+  href: https://artifacts.apis.io/doku/lifecycle/doku-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/doku-lifecycle.yml
@@ -250,22 +254,22 @@ common:
   type: Deprecation
   url: https://docs.doku.com/miscellaneous/snap-migration
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/sandbox/doku-sandbox.yml
+  href: https://artifacts.apis.io/doku/sandbox/doku-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/doku-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/data-model/doku-data-model.yml
+  href: https://artifacts.apis.io/doku/data-model/doku-data-model.yml
   title: ''
   type: DataModel
   url: data-model/doku-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/asyncapi/doku-webhooks.yml
+  href: https://artifacts.apis.io/doku/asyncapi/doku-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/doku-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/doku/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -301,10 +305,10 @@ created: '2026-07-17'
 description: DOKU (PT Nusa Satu Inti Artha) is Indonesia's pioneering payment gateway, founded in 2007 and licensed by Bank Indonesia as a Category 1 Payment Service Provider. Its developer platform exposes a hosted Checkout API plus a full suite of Bank Indonesia SNAP (Standar Nasional Open API Pembayaran) endpoints for Virtual Account, e-Wallet, Direct Debit, QRIS, and Kirim (payout/disbursement), all settling in Indonesian Rupiah (IDR).
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Doku Finops
-  primary_unit: ''
-  service_category: Payment Processing
+  primary_unit: transaction
+  service_category: ''
   slug: doku-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/doku.png
@@ -323,34 +327,37 @@ overview: 'DOKU publishes 6 API contracts indexed on the [APIs.io](https://apis.
   The DOKU catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  DOKU''s developer surface includes authentication, documentation, engineering blog, sandbox, getting-started guide, support, pricing, and 31 more developer resources.'
+  DOKU''s developer surface includes authentication, documentation, engineering blog, sandbox, getting-started guide, support, pricing, and 32 more developer resources.'
 plans:
 - name: Doku Plans Pricing
-  plan_count: 3
+  plan_count: 29
   slug: doku-plans-pricing
-random_paper: 17
+- name: Doku Price Estimates
+  plan_count: 0
+  slug: doku-price-estimates
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Doku Rate Limits
   slug: doku-rate-limits
 score:
   band: strong
-  composite: 57.1
+  composite: 66.0
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 43.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    artifact_dirs: 27
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.5
   facets:
-    access_clarity: 68.4
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 53.6
     developer_ergonomics: 74.4
-    discoverability: 73.2
-    operational_transparency: 34.2
+    discoverability: 65.0
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -358,7 +365,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 65.4
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -375,13 +382,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/screenshots/doku-2026-07-25T212238.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/doku/doku-2026-07-25T212238.png
 security:
 - kind: authentication
   name: Doku Authentication
@@ -399,6 +407,18 @@ security:
   name: Doku Trust Center
   slug: doku-trust-center
   summary_line: PCI DSS Level 1 Service Provider, ISO/IEC 27001, AES-256 encryption standard
+skill_count: 5
+skills:
+- name: Bind an e-wallet and charge host-to-host
+  slug: doku-ewallet-debit
+- name: Create a DOKU-hosted checkout page
+  slug: doku-hosted-checkout
+- name: Disburse funds with Kirim payout
+  slug: doku-payout
+- name: Generate and reconcile a QRIS payment
+  slug: doku-qris-mpm
+- name: Issue and reconcile a SNAP Virtual Account
+  slug: doku-virtual-account
 slug: doku
 tags:
 - Payments

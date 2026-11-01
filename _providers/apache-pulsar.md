@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.5
-  scored_at: '2026-10-17'
+  score: 17.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -81,15 +83,12 @@ apis:
   description: The Topics API from Apache Pulsar — 4 operation(s) for topics.
   name: Apache Pulsar Topics API
   slug: apache-pulsar-topics-api
-artifact_total: 61
+artifact_total: 60
 asyncapis:
 - description: 'Apache Pulsar is a cloud-native, multi-tenant, high-performance messaging and streaming platform. This spec describes the messaging patterns for producing and consuming messages on Pulsar topics with '
   name: Apache Pulsar Messaging API
   slug: pulsar-messaging
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apache Pulsar Admin REST Brokers API
   slug: open-apache-pulsar-brokers-api
@@ -116,17 +115,17 @@ collections:
   slug: open-pulsar-admin
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/plans/apache-pulsar-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-pulsar/plans/apache-pulsar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-pulsar-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/rate-limits/apache-pulsar-rate-limits.yml
+  href: https://artifacts.apis.io/apache-pulsar/rate-limits/apache-pulsar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-pulsar-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/finops/apache-pulsar-finops.yml
+  href: https://artifacts.apis.io/apache-pulsar/finops/apache-pulsar-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-pulsar-finops.yml
@@ -135,17 +134,17 @@ common:
   type: Website
   url: https://www.apache.org/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/agentic-access/apache-pulsar-agentic-access.yml
+  href: https://artifacts.apis.io/apache-pulsar/agentic-access/apache-pulsar-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-pulsar-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/security/apache-pulsar-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-pulsar/security/apache-pulsar-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-pulsar-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/security/apache-pulsar-domain-security.yml
+  href: https://artifacts.apis.io/apache-pulsar/security/apache-pulsar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-pulsar-domain-security.yml
@@ -158,17 +157,17 @@ common:
   type: Documentation
   url: https://pulsar.apache.org/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/rules/apache-pulsar-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-pulsar/rules/apache-pulsar-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-pulsar-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/vocabulary/apache-pulsar-vocabulary.yaml
+  href: https://artifacts.apis.io/apache-pulsar/vocabulary/apache-pulsar-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-pulsar-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/json-ld/apache-pulsar-context.jsonld
+  href: https://artifacts.apis.io/apache-pulsar/json-ld/apache-pulsar-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/apache-pulsar-context.jsonld
@@ -219,7 +218,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Pulsar Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-pulsar-finops
   template: true
@@ -292,7 +291,7 @@ plans:
 - name: Apache Pulsar Plans Pricing
   plan_count: 3
   slug: apache-pulsar-plans-pricing
-random_paper: 20
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Apache Pulsar Rate Limits
@@ -335,43 +334,44 @@ rules:
   slug: apache-pulsar-spectral-rules
 score:
   band: thin
-  composite: 29.5
+  composite: 29.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 63.4
     catalog_earned_first_party: 0.0
     catalog_gap: 51.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 53.9
     developer_ergonomics: 11.9
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 31.0
+    operational_transparency: 23.7
+  previous_composite: 29.7
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 15
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/screenshots/apache-pulsar-2026-06-20T172138.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-pulsar/apache-pulsar-2026-06-20T172138.png
 security:
 - kind: domain-security
   name: Apache Pulsar Domain Security

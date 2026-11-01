@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kyrok/refs/heads/main/security/kyrok-domain-security.yml
+  href: https://artifacts.apis.io/kyrok/security/kyrok-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kyrok-domain-security.yml
@@ -46,7 +48,7 @@ common:
   type: Website
   url: https://kyrok.com/en
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kyrok/refs/heads/main/security/kyrok-trust-center.yml
+  href: https://artifacts.apis.io/kyrok/security/kyrok-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kyrok-trust-center.yml
@@ -55,12 +57,12 @@ common:
   type: Compliance
   url: https://trust.kyrok.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kyrok/refs/heads/main/well-known/kyrok-well-known.yml
+  href: https://artifacts.apis.io/kyrok/well-known/kyrok-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kyrok-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kyrok/refs/heads/main/llms/kyrok-llms.txt
+  href: https://artifacts.apis.io/kyrok/llms/kyrok-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kyrok-llms.txt
@@ -100,10 +102,10 @@ overview: 'Kyrok is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kyrok''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 10
+random_paper: 8
 score:
   band: emerging
-  composite: 12.3
+  composite: 12.0
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -117,8 +119,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -127,21 +129,21 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 12.3
+  previous_composite: 12.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kyrok/refs/heads/main/screenshots/kyrok-2026-07-25T224350.png
+screenshot: https://apis.io/screenshots/kyrok/kyrok-2026-07-25T224350.png
 security:
 - kind: domain-security
   name: Kyrok Domain Security

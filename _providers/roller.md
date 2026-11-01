@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: General-purpose real-time REST API for the ROLLER platform. Retrieve products, sessions and availability, and create and manage real-time bookings to power external checkout and booking journeys. Auth
@@ -42,18 +44,23 @@ apis:
 - description: Read-only Data/Reporting API that gives venues a mechanism to extract a copy of their ROLLER data and syndicate it to an external database, data warehouse or BI/analytics platform. Designed for period
   name: ROLLER Reporting API
   slug: roller-reporting-api
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Roller Webhooks
   slug: roller-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/roller/plans/roller-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/roller-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.roller.software/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/roller/refs/heads/main/security/roller-trust-center.yml
+  href: https://artifacts.apis.io/roller/security/roller-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/roller-trust-center.yml
@@ -78,22 +85,22 @@ common:
   type: GettingStarted
   url: https://docs.roller.app/docs/api/getting-api-access
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/roller/refs/heads/main/authentication/roller-authentication.yml
+  href: https://artifacts.apis.io/roller/authentication/roller-authentication.yml
   title: ''
   type: Authentication
   url: authentication/roller-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roller/refs/heads/main/asyncapi/roller-webhooks.yml
+  href: https://artifacts.apis.io/roller/asyncapi/roller-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/roller-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roller/refs/heads/main/conventions/roller-conventions.yml
+  href: https://artifacts.apis.io/roller/conventions/roller-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/roller-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roller/refs/heads/main/conventions/roller-conventions.yml
+  href: https://artifacts.apis.io/roller/conventions/roller-conventions.yml
   title: ''
   type: Conventions
   url: conventions/roller-conventions.yml
@@ -110,17 +117,17 @@ common:
   type: Roadmap
   url: https://launchpad.roller.app/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roller/refs/heads/main/lifecycle/roller-lifecycle.yml
+  href: https://artifacts.apis.io/roller/lifecycle/roller-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/roller-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roller/refs/heads/main/conformance/roller-conformance.yml
+  href: https://artifacts.apis.io/roller/conformance/roller-conformance.yml
   title: ''
   type: Conformance
   url: conformance/roller-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/roller/refs/heads/main/security/roller-trust-center.yml
+  href: https://artifacts.apis.io/roller/security/roller-trust-center.yml
   title: ''
   type: Compliance
   url: security/roller-trust-center.yml
@@ -157,27 +164,35 @@ common:
   type: PrivacyPolicy
   url: https://www.roller.software/legal/privacy-policy/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/roller/refs/heads/main/rate-limits/roller-rate-limits.yml
+  href: https://artifacts.apis.io/roller/rate-limits/roller-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/roller-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/roller/refs/heads/main/security/roller-domain-security.yml
+  href: https://artifacts.apis.io/roller/security/roller-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/roller-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/roller/refs/heads/main/well-known/roller-well-known.yml
+  href: https://artifacts.apis.io/roller/well-known/roller-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/roller-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/roller/refs/heads/main/llms/roller-llms.txt
+  href: https://artifacts.apis.io/roller/llms/roller-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/roller-llms.txt
 created: '2026-07-17'
 description: ROLLER is a cloud-based venue management platform for the attractions and leisure industry — trampoline parks, family entertainment centers, museums, zoos, aquariums, water parks and amusement venues. It unifies ticketing and online bookings, point of sale, memberships and passes, digital waivers, integrated payments, a CRM and guest experience score, self-serve kiosks and gift cards in a single system. ROLLER exposes two public APIs — a real-time REST API for products, sessions, availability and bookings, and a Reporting (Data) API for extracting venue data to external warehouses and BI tools — plus webhooks for event-driven integrations and OCTO API compatibility for channel/distribution partners. API access is an add-on to a ROLLER subscription and is authenticated with OAuth2 client credentials.
+finops:
+- has_sources: true
+  method: derived
+  name: Roller Finops
+  primary_unit: ''
+  service_category: ''
+  slug: roller-finops
+  template: true
 image: https://cdn.rollerdigital.com/assets/logos/roller-logo.svg
 layout: provider
 modified: '2026-10-06'
@@ -190,31 +205,35 @@ overview: 'ROLLER is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
   The ROLLER catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ROLLER''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 22 more developer resources.'
-random_paper: 18
+  ROLLER''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 23 more developer resources.'
+plans:
+- name: Roller Plans Pricing
+  plan_count: 4
+  slug: roller-plans-pricing
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Roller Rate Limits
   slug: roller-rate-limits
 score:
-  band: developing
-  composite: 52.7
+  band: strong
+  composite: 60.1
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 16
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 61.9
-    discoverability: 73.2
-    operational_transparency: 52.6
-  previous_composite: 52.7
+    discoverability: 66.1
+    operational_transparency: 65.8
+  previous_composite: 53.7
   provenance:
     conformance: first-party
   regulatory:
@@ -223,14 +242,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/roller/refs/heads/main/screenshots/roller-2026-08-17T081633.png
+screenshot: https://apis.io/screenshots/roller/roller-2026-08-17T081633.png
 security:
 - kind: authentication
   name: Roller Authentication

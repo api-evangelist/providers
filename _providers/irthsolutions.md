@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'RESTful Integration API for the Irthnet / UtiliSphere platform. Secured with a per-integration API key, it lets external systems create and modify users, create and modify map layers, and manage work '
@@ -47,12 +49,12 @@ common:
   type: BlogRSS
   url: https://irthsolutions.com/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/irthsolutions/refs/heads/main/security/irthsolutions-domain-security.yml
+  href: https://artifacts.apis.io/irthsolutions/security/irthsolutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/irthsolutions-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/irthsolutions/refs/heads/main/authentication/irthsolutions-authentication.yml
+  href: https://artifacts.apis.io/irthsolutions/authentication/irthsolutions-authentication.yml
   title: ''
   type: Authentication
   url: authentication/irthsolutions-authentication.yml
@@ -100,10 +102,10 @@ overview: 'Irth Solutions is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   Irth Solutions'' developer surface includes authentication, documentation, API reference, support, engineering blog, and 6 more developer resources.'
-random_paper: 17
+random_paper: 7
 score:
   band: emerging
-  composite: 19.8
+  composite: 21.1
   coverage:
     artifact_dirs: 6
     catalog_earned: 37.0
@@ -111,29 +113,29 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
     discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 19.7
+  previous_composite: 21.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/irthsolutions/refs/heads/main/screenshots/irthsolutions-2026-07-25T222928.png
+screenshot: https://apis.io/screenshots/irthsolutions/irthsolutions-2026-07-25T222928.png
 security:
 - kind: authentication
   name: Irthsolutions Authentication

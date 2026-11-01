@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Initiate a payment request, redirect the shopper to Coda's hosted payment page, receive the transaction completion notification, and check transaction status. Available as v1.0 (API key per title/coun
@@ -50,14 +52,19 @@ apis:
 - description: 'The publisher-implemented JSON-RPC fulfillment contract Coda calls to deliver purchases made on Codashop and Coda-powered web stores: a Validation API request (verify the player/user id), a Top-Up API'
   name: Codashop and Coda Webstore Fulfillment API
   slug: codashop-fulfillment-api
-artifact_total: 9
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Coda Payments Webhooks
   slug: coda-payments-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/coda-payments/plans/coda-payments-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/coda-payments-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/security/coda-payments-domain-security.yml
+  href: https://artifacts.apis.io/coda-payments/security/coda-payments-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coda-payments-domain-security.yml
@@ -118,37 +125,37 @@ common:
   type: ChangeLog
   url: https://docs.coda.co/changelog/2024-codapay-changelog.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/llms/coda-payments-llms.txt
+  href: https://artifacts.apis.io/coda-payments/llms/coda-payments-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/coda-payments-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/authentication/coda-payments-authentication.yml
+  href: https://artifacts.apis.io/coda-payments/authentication/coda-payments-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coda-payments-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/conventions/coda-payments-conventions.yml
+  href: https://artifacts.apis.io/coda-payments/conventions/coda-payments-conventions.yml
   title: ''
   type: Conventions
   url: conventions/coda-payments-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/conventions/coda-payments-conventions.yml
+  href: https://artifacts.apis.io/coda-payments/conventions/coda-payments-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/coda-payments-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/errors/coda-payments-error-codes.yml
+  href: https://artifacts.apis.io/coda-payments/errors/coda-payments-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/coda-payments-error-codes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/errors/coda-payments-decline-codes.yml
+  href: https://artifacts.apis.io/coda-payments/errors/coda-payments-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/coda-payments-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/lifecycle/coda-payments-lifecycle.yml
+  href: https://artifacts.apis.io/coda-payments/lifecycle/coda-payments-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/coda-payments-lifecycle.yml
@@ -157,47 +164,47 @@ common:
   type: StatusPage
   url: https://docs.coda.co/codapay/integration-guides/payment-channel-info/payment-channel-update/channel-status.md
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/changelog/coda-payments-changelog.yml
+  href: https://artifacts.apis.io/coda-payments/changelog/coda-payments-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/coda-payments-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/sandbox/coda-payments-sandbox.yml
+  href: https://artifacts.apis.io/coda-payments/sandbox/coda-payments-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/coda-payments-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/conformance/coda-payments-conformance.yml
+  href: https://artifacts.apis.io/coda-payments/conformance/coda-payments-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coda-payments-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/packages/coda-payments-packages.yml
+  href: https://artifacts.apis.io/coda-payments/packages/coda-payments-packages.yml
   title: ''
   type: Packages
   url: packages/coda-payments-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/packages/coda-payments-packages.yml
+  href: https://artifacts.apis.io/coda-payments/packages/coda-payments-packages.yml
   title: ''
   type: SDKs
   url: packages/coda-payments-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/components/coda-payments-components.yml
+  href: https://artifacts.apis.io/coda-payments/components/coda-payments-components.yml
   title: ''
   type: Components
   url: components/coda-payments-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/data-model/coda-payments-data-model.yml
+  href: https://artifacts.apis.io/coda-payments/data-model/coda-payments-data-model.yml
   title: ''
   type: DataModel
   url: data-model/coda-payments-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/asyncapi/coda-payments-webhooks.yml
+  href: https://artifacts.apis.io/coda-payments/asyncapi/coda-payments-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/coda-payments-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/security/coda-payments-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/coda-payments/security/coda-payments-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/coda-payments-vulnerability-disclosure.yml
@@ -206,12 +213,20 @@ common:
   type: Security
   url: https://www.coda.co/policy/coda-payments-vulnerability-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/security/coda-payments-trust-center.yml
+  href: https://artifacts.apis.io/coda-payments/security/coda-payments-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/coda-payments-trust-center.yml
 created: '2026-08-02'
 description: Coda Payments (trading as Coda, coda.co) is a Singapore-headquartered global Merchant of Record and monetization platform for digital content publishers, game studios and app developers. Its Codapay API lets partners accept 300+ local and global payment methods — cards, e-wallets, direct carrier billing, bank transfer, over-the-counter and vouchers — across 65+ countries and 60 currencies through a single integration, with Coda taking on Merchant of Record responsibility for tax, regulatory compliance, fraud and chargebacks. The developer surface spans the Codapay Hosted Payment Page API (v1.0/v2.0), a Direct Card API for server-to-server card charges with 3DS, hosted client-side components (CodaCard and CodaComponent JS SDKs), a Unity in-app payments SDK, a Refund API, a Payout API for cross-border disbursement, and the Codashop / Coda Webstore fulfillment APIs (validation, top-up, user sync) that publishers implement so Coda can deliver purchased items into their games.
+finops:
+- has_sources: true
+  method: derived
+  name: Coda Payments Finops
+  primary_unit: transaction
+  service_category: ''
+  slug: coda-payments-finops
+  template: false
 image: https://www.coda.co/wp-content/uploads/2024/11/Landscape.jpg
 layout: provider
 modified: '2026-08-04'
@@ -224,26 +239,33 @@ overview: 'Coda Payments is listed with 4 APIs on the [APIs.io](https://apis.io/
   The Coda Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Coda Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 27 more developer resources.'
+  Coda Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 28 more developer resources.'
+plans:
+- name: Coda Payments Plans Pricing
+  plan_count: 4
+  slug: coda-payments-plans-pricing
+- name: Coda Payments Price Estimates
+  plan_count: 0
+  slug: coda-payments-price-estimates
 random_paper: 13
 score:
-  band: developing
-  composite: 53.6
+  band: strong
+  composite: 61.1
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 18
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 50.0
+    access_clarity: 89.5
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 78.6
-    operational_transparency: 52.6
+    discoverability: 71.4
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -251,7 +273,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 53.6
+  previous_composite: 53.2
   provenance:
     conformance: first-party
   regulatory:
@@ -266,14 +288,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 37.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/screenshots/coda-payments-2026-08-07T163530.png
+screenshot: https://apis.io/screenshots/coda-payments/coda-payments-2026-08-07T163530.png
 security:
 - kind: authentication
   name: Coda Payments Authentication

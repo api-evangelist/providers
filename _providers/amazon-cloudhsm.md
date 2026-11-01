@@ -9,49 +9,81 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.9
-  scored_at: '2026-10-17'
-api_count: 1
+  score: 29.2
+  scored_at: '2026-10-31'
+api_count: 6
 apis:
 - description: API for creating and managing CloudHSM clusters and HSM instances for dedicated hardware-based cryptographic key management.
   name: Amazon CloudHSM API
   slug: amazon-cloudhsm-api
-artifact_total: 20
+- baseURL: https://cloudhsm.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudhsm Hapg API from Amazon CloudHSM — 5 operation(s) for cloudhsm hapg.
+  name: Amazon CloudHSM Cloudhsm Hapg API
+  slug: amazon-cloudhsm-hapg-api
+- baseURL: https://cloudhsm.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudhsm Hsm API from Amazon CloudHSM — 5 operation(s) for cloudhsm hsm.
+  name: Amazon CloudHSM Cloudhsm Hsm API
+  slug: amazon-cloudhsm-hsm-api
+- baseURL: https://cloudhsm.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudhsm Luna Client API from Amazon CloudHSM — 5 operation(s) for cloudhsm luna client.
+  name: Amazon CloudHSM Cloudhsm Luna Client API
+  slug: amazon-cloudhsm-luna-client-api
+- baseURL: https://cloudhsm.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudhsm Operations API from Amazon CloudHSM — 2 operation(s) for cloudhsm operations.
+  name: Amazon CloudHSM Cloudhsm Operations API
+  slug: amazon-cloudhsm-operations-api
+- baseURL: https://cloudhsm.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudhsm Tag API from Amazon CloudHSM — 3 operation(s) for cloudhsm tag.
+  name: Amazon CloudHSM Cloudhsm Tag API
+  slug: amazon-cloudhsm-tag-api
+artifact_total: 25
 common:
+- group: other
+  href: https://artifacts.apis.io/amazon-cloudhsm/capabilities/amazon-cloudhsm-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-cloudhsm-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/security/amazon-cloudhsm-trust-center.yml
+  href: https://artifacts.apis.io/amazon-cloudhsm/security/amazon-cloudhsm-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-cloudhsm-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/security/amazon-cloudhsm-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-cloudhsm/security/amazon-cloudhsm-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-cloudhsm-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/security/amazon-cloudhsm-domain-security.yml
+  href: https://artifacts.apis.io/amazon-cloudhsm/security/amazon-cloudhsm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-cloudhsm-domain-security.yml
@@ -116,52 +148,52 @@ common:
   type: Compliance
   url: https://aws.amazon.com/compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/rules/amazon-cloudhsm-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-cloudhsm/rules/amazon-cloudhsm-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-cloudhsm-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/vocabulary/amazon-cloudhsm-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-cloudhsm/vocabulary/amazon-cloudhsm-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-cloudhsm-vocabulary.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/packages/amazon-cloudhsm-packages.yml
+  href: https://artifacts.apis.io/amazon-cloudhsm/packages/amazon-cloudhsm-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-cloudhsm-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/well-known/amazon-cloudhsm-well-known.yml
+  href: https://artifacts.apis.io/amazon-cloudhsm/well-known/amazon-cloudhsm-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-cloudhsm-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/well-known/amazon-cloudhsm-security.txt
+  href: https://artifacts.apis.io/amazon-cloudhsm/well-known/amazon-cloudhsm-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-cloudhsm-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/mcp/amazon-cloudhsm-mcp.yml
+  href: https://artifacts.apis.io/amazon-cloudhsm/mcp/amazon-cloudhsm-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-cloudhsm-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/llms/amazon-cloudhsm-llms.txt
+  href: https://artifacts.apis.io/amazon-cloudhsm/llms/amazon-cloudhsm-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-cloudhsm-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/conformance/amazon-cloudhsm-conformance.yml
+  href: https://artifacts.apis.io/amazon-cloudhsm/conformance/amazon-cloudhsm-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-cloudhsm-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/errors/amazon-cloudhsm-problem-types.yml
+  href: https://artifacts.apis.io/amazon-cloudhsm/errors/amazon-cloudhsm-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amazon-cloudhsm-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/lifecycle/amazon-cloudhsm-lifecycle.yml
+  href: https://artifacts.apis.io/amazon-cloudhsm/lifecycle/amazon-cloudhsm-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-cloudhsm-lifecycle.yml
@@ -195,14 +227,14 @@ modified: '2026-06-20'
 name: Amazon CloudHSM
 nav: Providers
 network: true
-overview: 'Amazon CloudHSM is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CloudHSM, Security, Cryptography, HSM, and Compliance.
+overview: 'Amazon CloudHSM is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Cloudhsm Hapg API, Cloudhsm Hsm API, Cloudhsm Luna Client API, and 3 more. Tagged areas include CloudHSM, Security, Cryptography, HSM, and Compliance.
 
 
   The Amazon CloudHSM catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Amazon CloudHSM''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 21 more developer resources.'
-random_paper: 14
+  Amazon CloudHSM''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 22 more developer resources.'
+random_paper: 18
 rules:
 - authorship: unmarked
   effective_rule_count: 19
@@ -216,26 +248,31 @@ rules:
     warn: 6
   slug: amazon-cloudhsm-spectral-rules
 score:
-  band: thin
-  composite: 39.2
+  band: developing
+  composite: 54.1
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 44.8
+    artifact_dirs: 17
+    catalog_earned: 47.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 70.3
+    catalog_gap: 67.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.0
+  delta: 12.4
   facets:
     access_clarity: 60.5
     contract_governance: 28.0
-    contract_quality: 0.0
+    contract_quality: 53.3
     developer_ergonomics: 59.5
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 42.2
+    discoverability: 71.4
+    operational_transparency: 31.6
+  previous_composite: 41.7
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 5
     mcp: derived
   regulatory:
     applies: true
@@ -243,14 +280,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/screenshots/amazon-cloudhsm-2026-07-25T195946.png
+screenshot: https://apis.io/screenshots/amazon-cloudhsm/amazon-cloudhsm-2026-07-25T195946.png
 security:
 - kind: domain-security
   name: Amazon Cloudhsm Domain Security

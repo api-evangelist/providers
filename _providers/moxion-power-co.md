@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - baseURL: http://api.moxionpower.com/developer/v1
@@ -70,9 +72,6 @@ apis:
 artifact_total: 15
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Moxion Power Developer Device Faults API
   slug: open-moxion-power-co-device-faults-api
 - collection_type: open
@@ -92,7 +91,7 @@ collections:
   slug: open-moxion-power-co-organizations-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/capabilities/moxion-power-co-capability-edges.yml
+  href: https://artifacts.apis.io/moxion-power-co/capabilities/moxion-power-co-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/moxion-power-co-capability-edges.yml
@@ -113,7 +112,7 @@ common:
   type: GettingStarted
   url: https://developer.moxionpower.com/docs/getting-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/authentication/moxion-power-co-authentication.yml
+  href: https://artifacts.apis.io/moxion-power-co/authentication/moxion-power-co-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moxion-power-co-authentication.yml
@@ -126,57 +125,57 @@ common:
   type: Website
   url: https://www.moxionpower.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/llms/moxion-power-co-llms.txt
+  href: https://artifacts.apis.io/moxion-power-co/llms/moxion-power-co-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moxion-power-co-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/errors/moxion-power-co-fault-codes.yml
+  href: https://artifacts.apis.io/moxion-power-co/errors/moxion-power-co-fault-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/moxion-power-co-fault-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/vocabulary/moxion-power-co-metrics.yml
+  href: https://artifacts.apis.io/moxion-power-co/vocabulary/moxion-power-co-metrics.yml
   title: ''
   type: Vocabulary
   url: vocabulary/moxion-power-co-metrics.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/conformance/moxion-power-co-conformance.yml
+  href: https://artifacts.apis.io/moxion-power-co/conformance/moxion-power-co-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moxion-power-co-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/conventions/moxion-power-co-conventions.yml
+  href: https://artifacts.apis.io/moxion-power-co/conventions/moxion-power-co-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moxion-power-co-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/lifecycle/moxion-power-co-lifecycle.yml
+  href: https://artifacts.apis.io/moxion-power-co/lifecycle/moxion-power-co-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moxion-power-co-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/data-model/moxion-power-co-data-model.yml
+  href: https://artifacts.apis.io/moxion-power-co/data-model/moxion-power-co-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moxion-power-co-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/mcp/moxion-power-co-mcp.yml
+  href: https://artifacts.apis.io/moxion-power-co/mcp/moxion-power-co-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/moxion-power-co-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/overlays/moxion-power-co-openapi-overlay.yaml
+  href: https://artifacts.apis.io/moxion-power-co/overlays/moxion-power-co-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moxion-power-co-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/security/moxion-power-co-domain-security.yml
+  href: https://artifacts.apis.io/moxion-power-co/security/moxion-power-co-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moxion-power-co-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/moxion-power-co/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -224,12 +223,12 @@ overview: 'Moxion Power Co is listed with 6 APIs on the [APIs.io](https://apis.i
 
 
   Moxion Power Co''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, GitHub presence, engineering blog, and 20 more developer resources.'
-random_paper: 5
+random_paper: 11
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 45.0
     catalog_earned_first_party: 5.0
     catalog_gap: 70.0
@@ -260,14 +259,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/screenshots/moxion-power-co-2026-08-07T184408.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/moxion-power-co/moxion-power-co-2026-08-07T184408.png
 security:
 - kind: authentication
   name: Moxion Power Co Authentication
@@ -277,6 +276,10 @@ security:
   name: Moxion Power Co Domain Security
   slug: moxion-power-co-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Monitor Moxion Mobile Power Unit fleet telemetry
+  slug: moxion-power-co-monitor-fleet-telemetry
 slug: moxion-power-co
 tags:
 - Company

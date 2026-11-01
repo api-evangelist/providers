@@ -25,17 +25,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.9
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 34.2
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://docs.ocient.com/api-playgrounds/ocient-http-query-api
   baseurl_source: declared
@@ -47,11 +49,8 @@ apis:
   description: The System Information REST Endpoints API from Ocient — 6 operation(s) for system information rest endpoints.
   name: Ocient System Information REST Endpoints API
   slug: ocient-system-information-rest-endpoints-api
-artifact_total: 10
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Generated API methods Ocient HTTP Query API API
   slug: open-ocient-ocient-http-query-api-api
@@ -60,17 +59,17 @@ collections:
   slug: open-ocient-system-information-rest-endpoints-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/plans/ocient-plans-pricing.yml
+  href: https://artifacts.apis.io/ocient/plans/ocient-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ocient-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/security/ocient-trust-center.yml
+  href: https://artifacts.apis.io/ocient/security/ocient-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ocient-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/security/ocient-domain-security.yml
+  href: https://artifacts.apis.io/ocient/security/ocient-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ocient-domain-security.yml
@@ -131,47 +130,47 @@ common:
   type: SecurityGuide
   url: https://docs.ocient.com/ocient-security-guide
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/openapi/_original/ocient-http-query-api-openapi-original.json
+  href: https://artifacts.apis.io/ocient/openapi/_original/ocient-http-query-api-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/ocient-http-query-api-openapi-original.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/packages/ocient-packages.yml
+  href: https://artifacts.apis.io/ocient/packages/ocient-packages.yml
   title: ''
   type: Packages
   url: packages/ocient-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/packages/ocient-packages.yml
+  href: https://artifacts.apis.io/ocient/packages/ocient-packages.yml
   title: ''
   type: SDKs
   url: packages/ocient-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/cli/ocient-cli.yml
+  href: https://artifacts.apis.io/ocient/cli/ocient-cli.yml
   title: ''
   type: CLI
   url: cli/ocient-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/authentication/ocient-authentication.yml
+  href: https://artifacts.apis.io/ocient/authentication/ocient-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ocient-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/conventions/ocient-conventions.yml
+  href: https://artifacts.apis.io/ocient/conventions/ocient-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ocient-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/errors/ocient-problem-types.yml
+  href: https://artifacts.apis.io/ocient/errors/ocient-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ocient-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/errors/ocient-error-codes.yml
+  href: https://artifacts.apis.io/ocient/errors/ocient-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/ocient-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/lifecycle/ocient-lifecycle.yml
+  href: https://artifacts.apis.io/ocient/lifecycle/ocient-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ocient-lifecycle.yml
@@ -180,52 +179,52 @@ common:
   type: VersionCompatibility
   url: https://docs.ocient.com/version-compatibility
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/changelog/ocient-changelog.yml
+  href: https://artifacts.apis.io/ocient/changelog/ocient-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ocient-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/conformance/ocient-conformance.yml
+  href: https://artifacts.apis.io/ocient/conformance/ocient-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ocient-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/data-model/ocient-data-model.yml
+  href: https://artifacts.apis.io/ocient/data-model/ocient-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ocient-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/overlays/ocient-http-query-api-overlay.yaml
+  href: https://artifacts.apis.io/ocient/overlays/ocient-http-query-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ocient-http-query-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/well-known/ocient-well-known.yml
+  href: https://artifacts.apis.io/ocient/well-known/ocient-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ocient-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/llms/ocient-llms.txt
+  href: https://artifacts.apis.io/ocient/llms/ocient-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ocient-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/mcp/ocient-mcp.yml
+  href: https://artifacts.apis.io/ocient/mcp/ocient-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ocient-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/mcp/ocient-tool-crosswalk.yml
+  href: https://artifacts.apis.io/ocient/mcp/ocient-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ocient-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/a2a/ocient-a2a.yml
+  href: https://artifacts.apis.io/ocient/a2a/ocient-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/ocient-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ocient/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -235,6 +234,14 @@ common:
   url: mailto:info@ocient.com
 created: '2026-08-02'
 description: Ocient is a Chicago-based data platform company founded in 2016 that builds OcientAIQ, a unified data platform for petabyte-scale analytics and production AI. Its Compute-Adjacent Storage Architecture (CASA) colocates NVMe storage with compute so that ingest, query optimization, machine learning, geospatial analysis, security and governance run against very large datasets without moving the data. The platform is reached with standard SQL over a JDBC driver, the pyocient Python DB-API 2.0 driver, a SQLAlchemy dialect, an Apache Spark connector, and an HTTP Query API that executes SQL statements over REST and returns JSON. Ocient serves communications service providers, national security and intelligence, adtech, and financial services customers, and offers OcientCloud, customer-deployed, and hybrid deployment models.
+finops:
+- has_sources: true
+  method: derived
+  name: Ocient Finops
+  primary_unit: ''
+  service_category: ''
+  slug: ocient-finops
+  template: true
 image: https://ocient.com/wp-content/uploads/2024/03/logo_adjust-2r.png
 layout: provider
 mcp_servers:
@@ -253,25 +260,25 @@ plans:
 - name: Ocient Plans Pricing
   plan_count: 3
   slug: ocient-plans-pricing
-random_paper: 4
+random_paper: 18
 score:
   band: strong
-  composite: 55.1
+  composite: 55.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 0.0
   facets:
     access_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 41.6
     developer_ergonomics: 78.6
-    discoverability: 75.0
-    operational_transparency: 18.4
+    discoverability: 65.0
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -279,7 +286,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 48.7
+  previous_composite: 55.2
   provenance:
     conformance: first-party
     contracts:
@@ -295,13 +302,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/screenshots/ocient-2026-08-07T185927.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ocient/ocient-2026-08-07T185927.png
 security:
 - kind: authentication
   name: Ocient Authentication
@@ -315,6 +323,16 @@ security:
   name: Ocient Trust Center
   slug: ocient-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
+skill_count: 4
+skills:
+- name: Execute SQL over the Ocient HTTP Query API
+  slug: ocient-execute-sql-over-http
+- name: Inspect Ocient System health and configuration
+  slug: ocient-inspect-system-health
+- name: Ocient
+  slug: ocient-ocient-skill
+- name: Authenticate to Ocient with OpenID Connect SSO
+  slug: ocient-sso-device-grant
 slug: ocient
 tags:
 - Company

@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-17'
+  score: 17.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: First-party backend API for the Stilta / Patrona patent search platform. Live and rate-limited (600 req window observed) but undocumented publicly — no OpenAPI, no developer docs (docs_url is null; /o
@@ -42,7 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stilta/refs/heads/main/security/stilta-trust-center.yml
+  href: https://artifacts.apis.io/stilta/security/stilta-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/stilta-trust-center.yml
@@ -51,7 +53,7 @@ common:
   type: Compliance
   url: https://trust.stilta.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stilta/refs/heads/main/security/stilta-domain-security.yml
+  href: https://artifacts.apis.io/stilta/security/stilta-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stilta-domain-security.yml
@@ -84,12 +86,12 @@ common:
   type: Careers
   url: https://www.stilta.com/careers
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stilta/refs/heads/main/well-known/stilta-well-known.yml
+  href: https://artifacts.apis.io/stilta/well-known/stilta-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stilta-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stilta/refs/heads/main/authentication/stilta-authentication.yml
+  href: https://artifacts.apis.io/stilta/authentication/stilta-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stilta-authentication.yml
@@ -109,26 +111,26 @@ overview: 'Stilta is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Stilta''s developer surface includes support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 19
+random_paper: 9
 score:
   band: emerging
-  composite: 20.5
+  composite: 21.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 20.4
+  previous_composite: 21.6
   provenance:
     mcp: first-party
   regulatory:
@@ -137,14 +139,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/stilta/refs/heads/main/screenshots/stilta-2026-09-02T160905.png
+screenshot: https://apis.io/screenshots/stilta/stilta-2026-09-02T160905.png
 security:
 - kind: authentication
   name: Stilta Authentication

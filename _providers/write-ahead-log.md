@@ -4,6 +4,6 @@ layout: provider
 name: write-ahead-log
 nav: Providers
 network: true
-random_paper: 14
+random_paper: 2
 slug: write-ahead-log
 ---

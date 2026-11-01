@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.1
-  scored_at: '2026-10-17'
+  score: 40.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -74,7 +76,7 @@ apis:
   description: Holdings and positions.
   name: Groww Portfolio API
   slug: groww-portfolio-api
-artifact_total: 25
+artifact_total: 28
 collections:
 - collection_type: postman
   name: Groww Trading Authentication API
@@ -95,9 +97,6 @@ collections:
   name: Groww Trading Authentication Portfolio API
   slug: postman-groww-portfolio-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Groww Trading Authentication API
   slug: open-groww-authentication-api
 - collection_type: open
@@ -117,7 +116,7 @@ collections:
   slug: open-groww-portfolio-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/plans/groww-plans.yml
+  href: https://artifacts.apis.io/groww/plans/groww-plans.yml
   title: ''
   type: Plans
   url: plans/groww-plans.yml
@@ -166,102 +165,102 @@ common:
   type: Blog
   url: https://groww.in/blog
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/_original/groww-trade-api-openapi.yml
+  href: https://artifacts.apis.io/groww/openapi/_original/groww-trade-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/groww-trade-api-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/authentication/groww-authentication.yml
+  href: https://artifacts.apis.io/groww/authentication/groww-authentication.yml
   title: ''
   type: Authentication
   url: authentication/groww-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/scopes/groww-scopes.yml
+  href: https://artifacts.apis.io/groww/scopes/groww-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/groww-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/conventions/groww-conventions.yml
+  href: https://artifacts.apis.io/groww/conventions/groww-conventions.yml
   title: ''
   type: Conventions
   url: conventions/groww-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/conventions/groww-conventions.yml
+  href: https://artifacts.apis.io/groww/conventions/groww-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/groww-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/rate-limits/groww-rate-limits.yml
+  href: https://artifacts.apis.io/groww/rate-limits/groww-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/groww-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/errors/groww-problem-types.yml
+  href: https://artifacts.apis.io/groww/errors/groww-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/groww-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/lifecycle/groww-lifecycle.yml
+  href: https://artifacts.apis.io/groww/lifecycle/groww-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/groww-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/lifecycle/groww-lifecycle.yml
+  href: https://artifacts.apis.io/groww/lifecycle/groww-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/groww-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/conformance/groww-conformance.yml
+  href: https://artifacts.apis.io/groww/conformance/groww-conformance.yml
   title: ''
   type: Conformance
   url: conformance/groww-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/data-model/groww-data-model.yml
+  href: https://artifacts.apis.io/groww/data-model/groww-data-model.yml
   title: ''
   type: DataModel
   url: data-model/groww-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/security/groww-domain-security.yml
+  href: https://artifacts.apis.io/groww/security/groww-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/groww-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/agentic-access/groww-agentic-access.yml
+  href: https://artifacts.apis.io/groww/agentic-access/groww-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/groww-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/well-known/groww-well-known.yml
+  href: https://artifacts.apis.io/groww/well-known/groww-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/groww-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/packages/groww-packages.yml
+  href: https://artifacts.apis.io/groww/packages/groww-packages.yml
   title: ''
   type: Packages
   url: packages/groww-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/packages/groww-packages.yml
+  href: https://artifacts.apis.io/groww/packages/groww-packages.yml
   title: ''
   type: SDKs
   url: packages/groww-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/mcp/groww-mcp.yml
+  href: https://artifacts.apis.io/groww/mcp/groww-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/groww-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/llms/groww-llms.txt
+  href: https://artifacts.apis.io/groww/llms/groww-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/groww-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/overlays/groww-trade-api-overlay.yaml
+  href: https://artifacts.apis.io/groww/overlays/groww-trade-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/groww-trade-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/groww/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -271,6 +270,14 @@ common:
   url: https://groww.in/
 created: '2026-07-17'
 description: Groww is an Indian fintech company offering investing and trading in stocks, futures & options, mutual funds, ETFs, IPOs and more through its consumer app and web platform. Backed by Iconiq Capital, Ribbit Capital and Y Combinator, Groww also operates the Groww Trading API — an official programmatic interface for algorithmic trading that covers order management (place/modify/cancel), portfolio holdings and positions, margin calculation, live market data (LTP, full quote, OHLC, option chain and greeks) and historical candle data across the CASH (equity) and FNO (derivatives) segments on Indian exchanges. Requests hit https://api.groww.in, are versioned with the X-API-VERSION header, and are authenticated with a daily Bearer access token generated via an API key + secret checksum, a TOTP flow, or an OAuth2 authorization-code flow.
+finops:
+- has_sources: true
+  method: derived
+  name: Groww Finops
+  primary_unit: ''
+  service_category: ''
+  slug: groww-finops
+  template: true
 image: https://groww.in/favicon.ico
 layout: provider
 modified: '2026-07-19'
@@ -285,7 +292,7 @@ plans:
 - name: Groww Plans
   plan_count: 1
   slug: groww-plans
-random_paper: 16
+random_paper: 14
 rate_limits:
 - limit_count: 7
   name: Groww Rate Limits
@@ -299,7 +306,7 @@ score:
   band: developing
   composite: 53.5
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 27
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -311,7 +318,7 @@ score:
     contract_governance: 4.5
     contract_quality: 48.1
     developer_ergonomics: 67.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -337,13 +344,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/screenshots/groww-2026-07-25T220530.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/groww/groww-2026-07-25T220530.png
 security:
 - kind: authentication
   name: Groww Authentication
@@ -353,6 +361,14 @@ security:
   name: Groww Domain Security
   slug: groww-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Fetch Groww live and historical market data
+  slug: groww-market-data
+- name: Place and track a Groww order
+  slug: groww-place-and-track-order
+- name: Pull a Groww portfolio snapshot
+  slug: groww-portfolio-snapshot
 slug: groww
 tags:
 - Company

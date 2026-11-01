@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Ladder API is an embedded term-life-insurance distribution surface for partner platforms. It is delivered primarily as a client-side JavaScript integration — a partner loads Ladder's v3 bundle, co
@@ -90,47 +92,47 @@ common:
   type: Security
   url: https://www.ladderlife.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ladder/refs/heads/main/well-known/ladder-security.txt
+  href: https://artifacts.apis.io/ladder/well-known/ladder-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ladder-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ladder/refs/heads/main/well-known/ladder-well-known.yml
+  href: https://artifacts.apis.io/ladder/well-known/ladder-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ladder-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ladder/refs/heads/main/security/ladder-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ladder/security/ladder-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ladder-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ladder/refs/heads/main/security/ladder-domain-security.yml
+  href: https://artifacts.apis.io/ladder/security/ladder-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ladder-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ladder/refs/heads/main/authentication/ladder-authentication.yml
+  href: https://artifacts.apis.io/ladder/authentication/ladder-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ladder-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ladder/refs/heads/main/conventions/ladder-conventions.yml
+  href: https://artifacts.apis.io/ladder/conventions/ladder-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ladder-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ladder/refs/heads/main/components/ladder-components.yml
+  href: https://artifacts.apis.io/ladder/components/ladder-components.yml
   title: ''
   type: Components
   url: components/ladder-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ladder/refs/heads/main/lifecycle/ladder-lifecycle.yml
+  href: https://artifacts.apis.io/ladder/lifecycle/ladder-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ladder-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ladder/refs/heads/main/llms/ladder-llms.txt
+  href: https://artifacts.apis.io/ladder/llms/ladder-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ladder-llms.txt
@@ -159,10 +161,10 @@ overview: 'Ladder is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Ladder''s developer surface includes documentation, signup flow, support, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 4
+random_paper: 20
 score:
   band: emerging
-  composite: 24.4
+  composite: 24.1
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -176,23 +178,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 24.4
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 24.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 22.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ladder/refs/heads/main/screenshots/ladder-2026-07-25T224426.png
+screenshot: https://apis.io/screenshots/ladder/ladder-2026-07-25T224426.png
 security:
 - kind: authentication
   name: Ladder Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Puppeteer is a Node.js library providing a high-level API to control headless Chrome or Chromium browsers for web scraping, testing, and automation.
@@ -42,22 +44,22 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/puppeteer/refs/heads/main/plans/puppeteer-plans-pricing.yml
+  href: https://artifacts.apis.io/puppeteer/plans/puppeteer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/puppeteer-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/puppeteer/refs/heads/main/rate-limits/puppeteer-rate-limits.yml
+  href: https://artifacts.apis.io/puppeteer/rate-limits/puppeteer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/puppeteer-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/puppeteer/refs/heads/main/finops/puppeteer-finops.yml
+  href: https://artifacts.apis.io/puppeteer/finops/puppeteer-finops.yml
   title: ''
   type: FinOps
   url: finops/puppeteer-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/puppeteer/refs/heads/main/security/puppeteer-domain-security.yml
+  href: https://artifacts.apis.io/puppeteer/security/puppeteer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/puppeteer-domain-security.yml
@@ -79,7 +81,7 @@ finops:
 - has_sources: false
   method: generated
   name: Puppeteer Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: puppeteer-finops
   template: true
@@ -89,7 +91,7 @@ modified: '2026-03-29'
 name: Puppeteer
 nav: Providers
 network: true
-overview: 'Puppeteer is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Browser Automation, Headless Browser, and Web Scraping.
+overview: 'Puppeteer is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Browser Automation and Web Scraping.
 
 
   Puppeteer''s developer surface includes documentation and 6 more developer resources.'
@@ -97,14 +99,14 @@ plans:
 - name: Puppeteer Plans Pricing
   plan_count: 3
   slug: puppeteer-plans-pricing
-random_paper: 18
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Puppeteer Rate Limits
   slug: puppeteer-rate-limits
 score:
   band: minimal
-  composite: 9.8
+  composite: 10.1
   coverage:
     artifact_dirs: 7
     catalog_earned: 28.0
@@ -112,29 +114,29 @@ score:
     catalog_gap: 87.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
     discoverability: 39.3
-    operational_transparency: 10.5
-  previous_composite: 11.3
+    operational_transparency: 13.2
+  previous_composite: 10.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/puppeteer/refs/heads/main/screenshots/puppeteer-2026-06-20T192309.png
+screenshot: https://apis.io/screenshots/puppeteer/puppeteer-2026-06-20T192309.png
 security:
 - kind: domain-security
   name: Puppeteer Domain Security
@@ -143,7 +145,6 @@ security:
 slug: puppeteer
 tags:
 - Browser Automation
-- Headless Browser
 - Web Scraping
 website: https://pptr.dev/
 ---

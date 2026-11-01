@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-10-17'
+  score: 35.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 50
   slug: volteras-agentic-access
   summary_line: 50 operations · 24 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.volteras.com
   baseurl_source: declared
@@ -138,15 +140,12 @@ apis:
   description: The Vehicles API from Volteras — 5 operation(s) for vehicles.
   name: Volteras Vehicles API
   slug: volteras-vehicles-api
-artifact_total: 45
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Volteras Webhooks
   slug: volteras-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: VOLTERAS CONNECT Accounts API
   slug: open-volteras-accounts-api
@@ -206,7 +205,7 @@ collections:
   slug: open-volteras-vehicles-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/capabilities/volteras-capability-edges.yml
+  href: https://artifacts.apis.io/volteras/capabilities/volteras-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/volteras-capability-edges.yml
@@ -263,82 +262,82 @@ common:
   type: Compliance
   url: https://www.volteras.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/llms/volteras-llms.txt
+  href: https://artifacts.apis.io/volteras/llms/volteras-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/volteras-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/authentication/volteras-authentication.yml
+  href: https://artifacts.apis.io/volteras/authentication/volteras-authentication.yml
   title: ''
   type: Authentication
   url: authentication/volteras-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/scopes/volteras-scopes.yml
+  href: https://artifacts.apis.io/volteras/scopes/volteras-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/volteras-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/security/volteras-domain-security.yml
+  href: https://artifacts.apis.io/volteras/security/volteras-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/volteras-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/agentic-access/volteras-agentic-access.yml
+  href: https://artifacts.apis.io/volteras/agentic-access/volteras-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/volteras-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/conventions/volteras-conventions.yml
+  href: https://artifacts.apis.io/volteras/conventions/volteras-conventions.yml
   title: ''
   type: Conventions
   url: conventions/volteras-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/errors/volteras-error-codes.yml
+  href: https://artifacts.apis.io/volteras/errors/volteras-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/volteras-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/lifecycle/volteras-lifecycle.yml
+  href: https://artifacts.apis.io/volteras/lifecycle/volteras-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/volteras-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/sandbox/volteras-sandbox.yml
+  href: https://artifacts.apis.io/volteras/sandbox/volteras-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/volteras-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/rate-limits/volteras-rate-limits.yml
+  href: https://artifacts.apis.io/volteras/rate-limits/volteras-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/volteras-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/asyncapi/volteras-webhooks.yml
+  href: https://artifacts.apis.io/volteras/asyncapi/volteras-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/volteras-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/conformance/volteras-conformance.yml
+  href: https://artifacts.apis.io/volteras/conformance/volteras-conformance.yml
   title: ''
   type: Conformance
   url: conformance/volteras-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/data-model/volteras-data-model.yml
+  href: https://artifacts.apis.io/volteras/data-model/volteras-data-model.yml
   title: ''
   type: DataModel
   url: data-model/volteras-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/overlays/volteras-connect-overlay.yaml
+  href: https://artifacts.apis.io/volteras/overlays/volteras-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/volteras-connect-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/mcp/volteras-mcp.yml
+  href: https://artifacts.apis.io/volteras/mcp/volteras-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/volteras-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/volteras/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -357,7 +356,7 @@ overview: 'Volteras publishes 19 API contracts indexed on the [APIs.io](https://
 
 
   Volteras'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Volteras Rate Limits
@@ -369,7 +368,7 @@ scopes:
   summary_line: 12 scopes · clientCredentials
 score:
   band: developing
-  composite: 47.4
+  composite: 51.1
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -382,10 +381,10 @@ score:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 52.5
-    developer_ergonomics: 49.4
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 47.4
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -402,13 +401,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 38.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/screenshots/volteras-2026-08-17T082816.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/volteras/volteras-2026-08-17T082816.png
 security:
 - kind: authentication
   name: Volteras Authentication
@@ -418,6 +418,12 @@ security:
   name: Volteras Domain Security
   slug: volteras-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Connect vehicles and read telemetry with Volteras
+  slug: volteras-connect-vehicles-and-read-telemetry
+- name: Manage EV charging with Volteras commands
+  slug: volteras-manage-charging-commands
 slug: volteras
 tags:
 - Company

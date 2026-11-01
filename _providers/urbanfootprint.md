@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -90,37 +92,37 @@ common:
   type: Twitter
   url: https://twitter.com/UFPlatform
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfootprint/refs/heads/main/authentication/urbanfootprint-authentication.yml
+  href: https://artifacts.apis.io/urbanfootprint/authentication/urbanfootprint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/urbanfootprint-authentication.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfootprint/refs/heads/main/well-known/urbanfootprint-openid-configuration.json
+  href: https://artifacts.apis.io/urbanfootprint/well-known/urbanfootprint-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/urbanfootprint-openid-configuration.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfootprint/refs/heads/main/well-known/urbanfootprint-well-known.yml
+  href: https://artifacts.apis.io/urbanfootprint/well-known/urbanfootprint-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/urbanfootprint-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfootprint/refs/heads/main/conformance/urbanfootprint-conformance.yml
+  href: https://artifacts.apis.io/urbanfootprint/conformance/urbanfootprint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/urbanfootprint-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfootprint/refs/heads/main/errors/urbanfootprint-problem-types.yml
+  href: https://artifacts.apis.io/urbanfootprint/errors/urbanfootprint-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/urbanfootprint-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfootprint/refs/heads/main/llms/urbanfootprint-llms.txt
+  href: https://artifacts.apis.io/urbanfootprint/llms/urbanfootprint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/urbanfootprint-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/urbanfootprint/refs/heads/main/security/urbanfootprint-domain-security.yml
+  href: https://artifacts.apis.io/urbanfootprint/security/urbanfootprint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/urbanfootprint-domain-security.yml
@@ -136,10 +138,10 @@ overview: 'UrbanFootprint is profiled on the [APIs.io](https://apis.io/) network
 
 
   UrbanFootprint''s developer surface includes documentation, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 15
+random_paper: 21
 score:
   band: emerging
-  composite: 19.5
+  composite: 21.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -147,15 +149,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 19.4
+    operational_transparency: 5.3
+  previous_composite: 21.7
   provenance:
     conformance: first-party
   regulatory:
@@ -164,14 +166,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/urbanfootprint/refs/heads/main/screenshots/urbanfootprint-2026-09-02T165201.png
+screenshot: https://apis.io/screenshots/urbanfootprint/urbanfootprint-2026-09-02T165201.png
 security:
 - kind: authentication
   name: Urbanfootprint Authentication

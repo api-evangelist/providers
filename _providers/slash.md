@@ -14,7 +14,7 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.6
-  scored_at: '2026-10-17'
+  score: 47.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -175,7 +177,7 @@ apis:
   description: The Oauth2 API from Slash — 2 operation(s) for oauth2.
   name: Slash Oauth2 API
   slug: slash-oauth2-api
-artifact_total: 142
+artifact_total: 145
 asyncapis:
 - description: ''
   name: Slash Webhooks
@@ -260,9 +262,6 @@ collections:
   name: Slash Public Account .well Known API
   slug: postman-slash-well-known-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Slash Public Account API
   slug: open-slash-account-api
 - collection_type: open
@@ -342,22 +341,22 @@ collections:
   slug: open-slash-well-known-api
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/rules/slash-rules.yml
+  href: https://artifacts.apis.io/slash/rules/slash-rules.yml
   title: ''
   type: Spectral
   url: rules/slash-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/json-ld/slash-context.jsonld
+  href: https://artifacts.apis.io/slash/json-ld/slash-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/slash-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/vocabulary/slash-vocabulary.yml
+  href: https://artifacts.apis.io/slash/vocabulary/slash-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/slash-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/lifecycle/slash-lifecycle.yml
+  href: https://artifacts.apis.io/slash/lifecycle/slash-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/slash-lifecycle.yml
@@ -366,32 +365,32 @@ common:
   type: StatusPage
   url: https://slash.statuspage.io
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/errors/slash-decline-codes.yml
+  href: https://artifacts.apis.io/slash/errors/slash-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/slash-decline-codes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/a2a/slash-a2a.yml
+  href: https://artifacts.apis.io/slash/a2a/slash-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/slash-a2a.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/mcp/slash-tool-crosswalk.yml
+  href: https://artifacts.apis.io/slash/mcp/slash-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/slash-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/hosts/slash-hosts.yml
+  href: https://artifacts.apis.io/slash/hosts/slash-hosts.yml
   title: ''
   type: Hosts
   url: hosts/slash-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/integrations/slash-integration-edges.yml
+  href: https://artifacts.apis.io/slash/integrations/slash-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/slash-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/vendors/slash-vendors.yml
+  href: https://artifacts.apis.io/slash/vendors/slash-vendors.yml
   title: ''
   type: Vendors
   url: vendors/slash-vendors.yml
@@ -400,22 +399,22 @@ common:
   type: BlogRSS
   url: https://www.slash.com/blog/rss.xml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/rate-limits/slash-rate-limits.yml
+  href: https://artifacts.apis.io/slash/rate-limits/slash-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/slash-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/plans/slash-plans-pricing.yml
+  href: https://artifacts.apis.io/slash/plans/slash-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/slash-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/capabilities/slash-capability-edges.yml
+  href: https://artifacts.apis.io/slash/capabilities/slash-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/slash-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/overlays/slash-openapi-overlay.yaml
+  href: https://artifacts.apis.io/slash/overlays/slash-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/slash-openapi-overlay.yaml
@@ -444,7 +443,7 @@ common:
   type: GettingStarted
   url: https://docs.slash.com/introduction
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/changelog/slash-changelog.yml
+  href: https://artifacts.apis.io/slash/changelog/slash-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/slash-changelog.yml
@@ -485,42 +484,42 @@ common:
   type: PrivacyPolicy
   url: https://www.slash.com/legal/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/packages/slash-packages.yml
+  href: https://artifacts.apis.io/slash/packages/slash-packages.yml
   title: ''
   type: Packages
   url: packages/slash-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/packages/slash-packages.yml
+  href: https://artifacts.apis.io/slash/packages/slash-packages.yml
   title: ''
   type: SDKs
   url: packages/slash-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/mcp/slash-mcp.yml
+  href: https://artifacts.apis.io/slash/mcp/slash-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/slash-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/slash/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/llms/slash-llms.txt
+  href: https://artifacts.apis.io/slash/llms/slash-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/slash-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/well-known/slash-well-known.yml
+  href: https://artifacts.apis.io/slash/well-known/slash-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/slash-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/well-known/slash-security.txt
+  href: https://artifacts.apis.io/slash/well-known/slash-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/slash-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/conformance/slash-conformance.yml
+  href: https://artifacts.apis.io/slash/conformance/slash-conformance.yml
   title: ''
   type: Conformance
   url: conformance/slash-conformance.yml
@@ -529,52 +528,52 @@ common:
   type: Compliance
   url: https://www.slash.com/company/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/lifecycle/slash-lifecycle.yml
+  href: https://artifacts.apis.io/slash/lifecycle/slash-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/slash-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/authentication/slash-authentication.yml
+  href: https://artifacts.apis.io/slash/authentication/slash-authentication.yml
   title: ''
   type: Authentication
   url: authentication/slash-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/scopes/slash-scopes.yml
+  href: https://artifacts.apis.io/slash/scopes/slash-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/slash-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/conventions/slash-conventions.yml
+  href: https://artifacts.apis.io/slash/conventions/slash-conventions.yml
   title: ''
   type: Conventions
   url: conventions/slash-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/conventions/slash-conventions.yml
+  href: https://artifacts.apis.io/slash/conventions/slash-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/slash-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/errors/slash-problem-types.yml
+  href: https://artifacts.apis.io/slash/errors/slash-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/slash-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/data-model/slash-data-model.yml
+  href: https://artifacts.apis.io/slash/data-model/slash-data-model.yml
   title: ''
   type: DataModel
   url: data-model/slash-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/asyncapi/slash-webhooks.yml
+  href: https://artifacts.apis.io/slash/asyncapi/slash-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/slash-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/agentic-access/slash-agentic-access.yml
+  href: https://artifacts.apis.io/slash/agentic-access/slash-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/slash-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/security/slash-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/slash/security/slash-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/slash-vulnerability-disclosure.yml
@@ -583,12 +582,20 @@ common:
   type: Security
   url: https://www.slash.com/company/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/security/slash-domain-security.yml
+  href: https://artifacts.apis.io/slash/security/slash-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/slash-domain-security.yml
 created: '2026-07-17'
 description: Slash is a business banking and finance platform for modern companies — startups, agencies, e-commerce sellers, and enterprises — combining business checking, unlimited virtual and physical corporate cards, ACH/wire and real-time payments, global USD accounts, stablecoin on/off ramps, treasury, invoicing, expense management, and reporting on one platform. Founded in 2021 and valued at $1.4B after a 2026 Series C led by Ribbit Capital, Slash exposes a REST API (currently in Beta) covering accounts, virtual accounts, cards and card groups, transactions, transfers, invoices, contacts and customers, expense reports, webhooks, and FDX-compliant financial data access — plus an official hosted MCP server, Agent Requests with human-in-the-loop approval, and Python and Node.js SDKs for AI-agent and programmatic integration.
+finops:
+- has_sources: true
+  method: derived
+  name: Slash Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: slash-finops
+  template: false
 image: https://www.slash.com/images/social-previews/index.jpg
 json_schemas:
 - name: Account
@@ -797,23 +804,23 @@ scopes:
   summary_line: 52 scopes
 score:
   band: exemplar
-  composite: 69.5
+  composite: 71.4
   coverage:
-    artifact_dirs: 34
-    catalog_earned: 70.8
+    artifact_dirs: 35
+    catalog_earned: 73.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 44.3
+    catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.5
+  delta: 1.6
   facets:
-    access_clarity: 67.1
+    access_clarity: 81.6
     contract_governance: 35.6
     contract_quality: 70.0
     developer_ergonomics: 67.3
-    discoverability: 75.0
-    operational_transparency: 60.5
-  previous_composite: 61.0
+    discoverability: 65.0
+    operational_transparency: 63.2
+  previous_composite: 69.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -834,13 +841,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/screenshots/slash-2026-08-17T081925.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/slash/slash-2026-08-17T081925.png
 security:
 - kind: authentication
   name: Slash Authentication
@@ -854,6 +862,14 @@ security:
   name: Slash Vulnerability Disclosure
   slug: slash-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: slash-invoice-and-reconcile
+  slug: slash-invoice-and-reconcile
+- name: slash-issue-and-control-card
+  slug: slash-issue-and-control-card
+- name: slash-move-money
+  slug: slash-move-money
 slug: slash
 tags:
 - Company

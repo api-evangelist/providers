@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: JSON-over-REST API for managing Range Teams, Users, and Check-ins (Updates). API-key (HTTP Basic) or OAuth 2.0 bearer authentication; HTTPS/TLS 1.2+ required.
@@ -98,32 +100,32 @@ common:
   type: StatusPage
   url: https://range.statuspage.io/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/range/refs/heads/main/packages/range-packages.yml
+  href: https://artifacts.apis.io/range/packages/range-packages.yml
   title: ''
   type: Packages
   url: packages/range-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/range/refs/heads/main/packages/range-packages.yml
+  href: https://artifacts.apis.io/range/packages/range-packages.yml
   title: ''
   type: SDKs
   url: packages/range-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/range/refs/heads/main/authentication/range-authentication.yml
+  href: https://artifacts.apis.io/range/authentication/range-authentication.yml
   title: ''
   type: Authentication
   url: authentication/range-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/range/refs/heads/main/conventions/range-conventions.yml
+  href: https://artifacts.apis.io/range/conventions/range-conventions.yml
   title: ''
   type: Conventions
   url: conventions/range-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/range/refs/heads/main/lifecycle/range-lifecycle.yml
+  href: https://artifacts.apis.io/range/lifecycle/range-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/range-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/range/refs/heads/main/conformance/range-conformance.yml
+  href: https://artifacts.apis.io/range/conformance/range-conformance.yml
   title: ''
   type: Conformance
   url: conformance/range-conformance.yml
@@ -132,27 +134,27 @@ common:
   type: Compliance
   url: https://www.range.co/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/range/refs/heads/main/data-model/range-data-model.yml
+  href: https://artifacts.apis.io/range/data-model/range-data-model.yml
   title: ''
   type: DataModel
   url: data-model/range-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/range/refs/heads/main/mcp/range-mcp.yml
+  href: https://artifacts.apis.io/range/mcp/range-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/range-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/range/refs/heads/main/llms/range-llms.txt
+  href: https://artifacts.apis.io/range/llms/range-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/range-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/range/refs/heads/main/security/range-domain-security.yml
+  href: https://artifacts.apis.io/range/security/range-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/range-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/range/refs/heads/main/security/range-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/range/security/range-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/range-vulnerability-disclosure.yml
@@ -161,7 +163,7 @@ common:
   type: Security
   url: https://policy.range.co/disclosure.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/range/refs/heads/main/security/range-trust-center.yml
+  href: https://artifacts.apis.io/range/security/range-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/range-trust-center.yml
@@ -177,10 +179,10 @@ overview: 'Range is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Range''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 19
+random_paper: 21
 score:
   band: thin
-  composite: 38.3
+  composite: 39.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -188,15 +190,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 38.2
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 39.2
   provenance:
     conformance: derived
     mcp: derived
@@ -206,14 +208,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/range/refs/heads/main/screenshots/range-2026-09-02T152838.png
+screenshot: https://apis.io/screenshots/range/range-2026-09-02T152838.png
 security:
 - kind: authentication
   name: Range Authentication

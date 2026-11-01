@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.9
-  scored_at: '2026-10-17'
+  score: 33.5
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: API reference for Bookkeep version 1, covering endpoints for accounting automation.
@@ -37,57 +39,57 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bookkeep-com/refs/heads/main/plans/bookkeep-com-plans-pricing.yml
+  href: https://artifacts.apis.io/bookkeep-com/plans/bookkeep-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bookkeep-com-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookkeep-com/refs/heads/main/rules/bookkeep-com-rules.yml
+  href: https://artifacts.apis.io/bookkeep-com/rules/bookkeep-com-rules.yml
   title: ''
   type: Spectral
   url: rules/bookkeep-com-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookkeep-com/refs/heads/main/json-ld/bookkeep-com-context.jsonld
+  href: https://artifacts.apis.io/bookkeep-com/json-ld/bookkeep-com-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bookkeep-com-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookkeep-com/refs/heads/main/vocabulary/bookkeep-com-vocabulary.yml
+  href: https://artifacts.apis.io/bookkeep-com/vocabulary/bookkeep-com-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bookkeep-com-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookkeep-com/refs/heads/main/data-model/bookkeep-com-data-model.yml
+  href: https://artifacts.apis.io/bookkeep-com/data-model/bookkeep-com-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bookkeep-com-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bookkeep-com/refs/heads/main/changelog/bookkeep-com-changelog.yml
+  href: https://artifacts.apis.io/bookkeep-com/changelog/bookkeep-com-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bookkeep-com-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookkeep-com/refs/heads/main/conformance/bookkeep-com-conformance.yml
+  href: https://artifacts.apis.io/bookkeep-com/conformance/bookkeep-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bookkeep-com-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bookkeep-com/refs/heads/main/llms/bookkeep-com-llms.txt
+  href: https://artifacts.apis.io/bookkeep-com/llms/bookkeep-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bookkeep-com-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bookkeep-com/refs/heads/main/well-known/bookkeep-com-well-known.yml
+  href: https://artifacts.apis.io/bookkeep-com/well-known/bookkeep-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bookkeep-com-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bookkeep-com/refs/heads/main/hosts/bookkeep-com-hosts.yml
+  href: https://artifacts.apis.io/bookkeep-com/hosts/bookkeep-com-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bookkeep-com-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bookkeep-com/refs/heads/main/vendors/bookkeep-com-vendors.yml
+  href: https://artifacts.apis.io/bookkeep-com/vendors/bookkeep-com-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bookkeep-com-vendors.yml
@@ -116,7 +118,7 @@ common:
   type: GettingStarted
   url: https://bookkeep.com/docs/account-setup/connecting-an-accounting-platform/categories-versus-subcategories
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bookkeep-com/refs/heads/main/security/bookkeep-com-domain-security.yml
+  href: https://artifacts.apis.io/bookkeep-com/security/bookkeep-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bookkeep-com-domain-security.yml
@@ -160,7 +162,7 @@ plans:
 - name: Bookkeep Com Plans Pricing
   plan_count: 6
   slug: bookkeep-com-plans-pricing
-random_paper: 2
+random_paper: 12
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -184,15 +186,15 @@ score:
     catalog_gap: 54.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -11.0
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 22.0
     contract_quality: 20.1
     developer_ergonomics: 21.4
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 15.8
-  previous_composite: 47.4
+  previous_composite: 36.4
   provenance:
     conformance: derived
     contracts:
@@ -207,12 +209,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Bookkeep Com Domain Security

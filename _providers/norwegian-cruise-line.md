@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,16 +34,21 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  href: https://artifacts.apis.io/norwegian-cruise-line/hosts/norwegian-cruise-line-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/norwegian-cruise-line-hosts.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.nclhltd.com/news-media/press-releases/rss
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/norwegian-cruise-line/refs/heads/main/security/norwegian-cruise-line-domain-security.yml
+  href: https://artifacts.apis.io/norwegian-cruise-line/security/norwegian-cruise-line-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/norwegian-cruise-line-domain-security.yml
@@ -69,6 +76,26 @@ common:
   title: ''
   type: RegentSevenSeas
   url: https://www.rssc.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.nclhltd.com/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.nclhltd.com/legal-notice
+coverage:
+  checked: '2026-10-20'
+  detail: NCLH's corporate site and brand sites (ncl.com, oceaniacruises.com, rssc.com) publish no developer portal, and api.* hosts on all four domains returned no OpenAPI, GraphQL, MCP or agent card; its only GitHub repo is veracode-archive.
+  evidence:
+  - status: 200
+    url: https://www.nclhltd.com/
+  - status: 404
+    url: https://www.ncl.com/travel-agents
+  - status: 200
+    url: https://github.com/norwegian-cruise-line
+  reason: no-developer-program
+  state: none
 created: '2026-05-05'
 description: 'Norwegian Cruise Line Holdings Ltd. (NYSE: NCLH) is a global cruise company operating three premium brands: Norwegian Cruise Line (pioneer of Freestyle Cruising), Oceania Cruises, and Regent Seven Seas Cruises. The company operates a combined fleet of more than 30 ships sailing to over 700 destinations worldwide. No public developer portal or external API offering has been identified for Norwegian Cruise Line Holdings; travel agent and global distribution system (GDS) integrations are handled through contracted partner programs rather than a self-serve developer API.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/norwegian-cruise-line.png
@@ -78,46 +105,46 @@ name: Norwegian Cruise Line Holdings
 nav: Providers
 network: true
 overview: Norwegian Cruise Line Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cruise Lines, Travel, Hospitality, Leisure, and Publicly Traded.
-random_paper: 1
+random_paper: 23
 score:
   band: minimal
-  composite: 3.8
+  composite: 9.5
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 48.2
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
     - nordics
-  previous_composite: 3.7
+  previous_composite: 9.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 13.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/norwegian-cruise-line/refs/heads/main/screenshots/norwegian-cruise-line-2026-06-20T190419.png
+screenshot: https://apis.io/screenshots/norwegian-cruise-line/norwegian-cruise-line-2026-06-20T190419.png
 security:
 - kind: domain-security
   name: Norwegian Cruise Line Domain Security

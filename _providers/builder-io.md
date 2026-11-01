@@ -11,7 +11,8 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,21 +21,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 62.0
-  scored_at: '2026-10-17'
+  score: 51.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,27 +67,33 @@ apis:
 - description: API for accessing and downloading optimized versions of images uploaded to Builder.io. Supports on-the-fly image transformation and CDN-optimized delivery for web performance use cases.
   name: Builder.io Image API
   slug: image-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Builder.io Content API
   slug: open-builder-io-content-api
 common:
+- group: other
+  href: https://artifacts.apis.io/builder-io/capabilities/builder-io-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/builder-io-capability-edges.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/builderio/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/builder-io/refs/heads/main/agentic-access/builder-io-agentic-access.yml
+  href: https://artifacts.apis.io/builder-io/agentic-access/builder-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/builder-io-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/builder-io/refs/heads/main/security/builder-io-domain-security.yml
+  href: https://artifacts.apis.io/builder-io/security/builder-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/builder-io-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/builder-io/refs/heads/main/authentication/builder-io-authentication.yml
+  href: https://artifacts.apis.io/builder-io/authentication/builder-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/builder-io-authentication.yml
@@ -121,32 +130,32 @@ common:
   type: StatusPage
   url: https://status.builder.io
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/builder-io/refs/heads/main/plans/builder-io-plans-pricing.yml
+  href: https://artifacts.apis.io/builder-io/plans/builder-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/builder-io-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/builder-io/refs/heads/main/rate-limits/builder-io-rate-limits.yml
+  href: https://artifacts.apis.io/builder-io/rate-limits/builder-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/builder-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/builder-io/refs/heads/main/finops/builder-io-finops.yml
+  href: https://artifacts.apis.io/builder-io/finops/builder-io-finops.yml
   title: ''
   type: FinOps
   url: finops/builder-io-finops.yml
 - group: company
-  href: https://raw.githubusercontent.com/api-evangelist/builder-io/refs/heads/main/blogs/blogs.json
+  href: https://artifacts.apis.io/builder-io/blogs/blogs.json
   title: ''
   type: BlogFeed
   url: blogs/blogs.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/builder-io/refs/heads/main/json-ld/builder-io-context.jsonld
+  href: https://artifacts.apis.io/builder-io/json-ld/builder-io-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/builder-io-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/builder-io/refs/heads/main/vocabulary/builder-io-vocabulary.yml
+  href: https://artifacts.apis.io/builder-io/vocabulary/builder-io-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/builder-io-vocabulary.yml
@@ -193,12 +202,12 @@ overview: 'Builder.io is listed with 6 APIs on the [APIs.io](https://apis.io/) n
   The Builder.io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Builder.io''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+  Builder.io''s developer surface includes authentication, documentation, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Builder Io Plans Pricing
   plan_count: 4
   slug: builder-io-plans-pricing
-random_paper: 14
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Builder Io Rate Limits
@@ -217,23 +226,23 @@ rules:
   slug: builder-io-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.6
+  composite: 38.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 61.8
     catalog_earned_first_party: 0.0
     catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.2
   facets:
     access_clarity: 18.4
     contract_governance: 23.5
     contract_quality: 61.6
-    developer_ergonomics: 23.8
-    discoverability: 73.3
-    operational_transparency: 26.3
-  previous_composite: 45.9
+    developer_ergonomics: 25.0
+    discoverability: 71.4
+    operational_transparency: 28.9
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -248,14 +257,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/builder-io/refs/heads/main/screenshots/builder-io-2026-06-20T173746.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/builder-io/builder-io-2026-06-20T173746.png
 security:
 - kind: authentication
   name: Builder Io Authentication

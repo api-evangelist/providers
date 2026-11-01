@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 29.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -205,11 +207,8 @@ apis:
   description: The Wars API from EVE Online — 6 operation(s) for wars.
   name: EVE Online Wars API
   slug: eve-online-wars-api
-artifact_total: 142
+artifact_total: 141
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: EVE Swagger Interface Alliance agent API
   slug: open-eve-online-agent-api
@@ -357,27 +356,27 @@ common:
   type: IssueTracker
   url: https://github.com/esi/esi-docs/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/agentic-access/eve-online-agentic-access.yml
+  href: https://artifacts.apis.io/eve-online/agentic-access/eve-online-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eve-online-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/security/eve-online-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/eve-online/security/eve-online-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/eve-online-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/security/eve-online-domain-security.yml
+  href: https://artifacts.apis.io/eve-online/security/eve-online-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eve-online-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/authentication/eve-online-authentication.yml
+  href: https://artifacts.apis.io/eve-online/authentication/eve-online-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eve-online-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/scopes/eve-online-scopes.yml
+  href: https://artifacts.apis.io/eve-online/scopes/eve-online-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/eve-online-scopes.yml
@@ -712,7 +711,7 @@ overview: 'EVE Online publishes 34 API contracts indexed on the [APIs.io](https:
 
 
   EVE Online''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, tooling, and 43 more developer resources.'
-random_paper: 20
+random_paper: 2
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -744,7 +743,7 @@ scopes:
   summary_line: 63 scopes · implicit
 score:
   band: developing
-  composite: 44.1
+  composite: 49.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 50.5
@@ -752,15 +751,15 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 21.1
     contract_governance: 13.6
     contract_quality: 55.8
-    developer_ergonomics: 64.3
+    developer_ergonomics: 66.7
     discoverability: 62.5
-    operational_transparency: 36.8
-  previous_composite: 44.0
+    operational_transparency: 47.4
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -773,14 +772,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 36.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 40.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/screenshots/eve-online-2026-06-20T180855.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/eve-online/eve-online-2026-06-20T180855.png
 security:
 - kind: authentication
   name: Eve Online Authentication

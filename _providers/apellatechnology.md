@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,37 +25,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apellatechnology/refs/heads/main/security/apellatechnology-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apellatechnology/security/apellatechnology-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/apellatechnology-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apellatechnology/refs/heads/main/llms/apellatechnology-llms.txt
+  href: https://artifacts.apis.io/apellatechnology/llms/apellatechnology-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apellatechnology-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apellatechnology/refs/heads/main/well-known/apellatechnology-security.txt
+  href: https://artifacts.apis.io/apellatechnology/well-known/apellatechnology-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/apellatechnology-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apellatechnology/refs/heads/main/well-known/apellatechnology-well-known.yml
+  href: https://artifacts.apis.io/apellatechnology/well-known/apellatechnology-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apellatechnology-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apellatechnology/refs/heads/main/hosts/apellatechnology-hosts.yml
+  href: https://artifacts.apis.io/apellatechnology/hosts/apellatechnology-hosts.yml
   title: ''
   type: Hosts
   url: hosts/apellatechnology-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apellatechnology/refs/heads/main/vendors/apellatechnology-vendors.yml
+  href: https://artifacts.apis.io/apellatechnology/vendors/apellatechnology-vendors.yml
   title: ''
   type: Vendors
   url: vendors/apellatechnology-vendors.yml
@@ -78,12 +80,12 @@ common:
   type: Blog
   url: https://apella.io/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apellatechnology/refs/heads/main/security/apellatechnology-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apellatechnology/security/apellatechnology-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apellatechnology-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apellatechnology/refs/heads/main/security/apellatechnology-domain-security.yml
+  href: https://artifacts.apis.io/apellatechnology/security/apellatechnology-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apellatechnology-domain-security.yml
@@ -111,12 +113,12 @@ overview: 'Apellatechnology is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Apellatechnology''s developer surface includes engineering blog and 13 more developer resources.'
-random_paper: 13
+random_paper: 3
 score:
   band: emerging
-  composite: 15.9
+  composite: 15.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -128,23 +130,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 46.4
+    discoverability: 39.3
     operational_transparency: 26.3
-  previous_composite: 15.9
+  previous_composite: 15.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 22.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/apellatechnology/refs/heads/main/screenshots/apellatechnology-2026-10-11T095850.png
+screenshot: https://apis.io/screenshots/apellatechnology/apellatechnology-2026-10-11T095850.png
 security:
 - kind: domain-security
   name: Apellatechnology Domain Security

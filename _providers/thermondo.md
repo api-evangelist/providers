@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thermondo/refs/heads/main/security/thermondo-domain-security.yml
+  href: https://artifacts.apis.io/thermondo/security/thermondo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thermondo-domain-security.yml
@@ -46,12 +48,12 @@ common:
   type: Website
   url: https://www.thermondo.de/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thermondo/refs/heads/main/well-known/thermondo-security.txt
+  href: https://artifacts.apis.io/thermondo/well-known/thermondo-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/thermondo-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thermondo/refs/heads/main/security/thermondo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/thermondo/security/thermondo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/thermondo-vulnerability-disclosure.yml
@@ -60,7 +62,7 @@ common:
   type: Security
   url: https://github.com/thermondo/vulnerability-disclosure-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thermondo/refs/heads/main/well-known/thermondo-well-known.yml
+  href: https://artifacts.apis.io/thermondo/well-known/thermondo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/thermondo-well-known.yml
@@ -77,10 +79,10 @@ name: Thermondo
 nav: Providers
 network: true
 overview: Thermondo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer; Climate Energy, Heat Pumps, Solar, and Home Energy.
-random_paper: 8
+random_paper: 16
 score:
   band: minimal
-  composite: 6.0
+  composite: 6.4
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -95,7 +97,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 48.2
-    operational_transparency: 13.2
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -104,21 +106,21 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 6.0
+  previous_composite: 6.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/thermondo/refs/heads/main/screenshots/thermondo-2026-09-02T163509.png
+screenshot: https://apis.io/screenshots/thermondo/thermondo-2026-09-02T163509.png
 security:
 - kind: domain-security
   name: Thermondo Domain Security

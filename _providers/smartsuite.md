@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for managing Solutions, Tables, Records, and Fields in the SmartSuite work management platform. Authentication uses an API Token passed in the Authorization header with the Workspace ID in th
@@ -41,12 +43,12 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smartsuite/refs/heads/main/security/smartsuite-trust-center.yml
+  href: https://artifacts.apis.io/smartsuite/security/smartsuite-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/smartsuite-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smartsuite/refs/heads/main/security/smartsuite-domain-security.yml
+  href: https://artifacts.apis.io/smartsuite/security/smartsuite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/smartsuite-domain-security.yml
@@ -90,10 +92,10 @@ overview: 'SmartSuite is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   SmartSuite''s developer surface includes documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 5
+random_paper: 1
 score:
   band: emerging
-  composite: 16.7
+  composite: 18.6
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -106,24 +108,24 @@ score:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 14.3
+    developer_ergonomics: 23.8
     discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 16.7
+  previous_composite: 18.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/smartsuite/refs/heads/main/screenshots/smartsuite-2026-06-20T194048.png
+screenshot: https://apis.io/screenshots/smartsuite/smartsuite-2026-06-20T194048.png
 security:
 - kind: domain-security
   name: Smartsuite Domain Security

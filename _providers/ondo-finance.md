@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.1
-  scored_at: '2026-10-17'
+  score: 35.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 3
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 130
   slug: ondo-finance-agentic-access
   summary_line: 130 operations · 55 acting · 3 human-in-the-loop
-api_count: 4
+api_count: 3
 apis:
 - baseURL: https://api.gm.ondo.finance
   baseurl_source: declared
@@ -176,11 +178,8 @@ apis:
   description: The Wallet API from Ondo Finance — 12 operation(s) for wallet.
   name: Ondo Finance Wallet API
   slug: ondo-finance-wallet-api
-artifact_total: 58
+artifact_total: 59
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: GM Backend Account API
   slug: open-ondo-finance-account-api
@@ -261,7 +260,7 @@ collections:
   slug: open-ondo-finance-wallet-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/capabilities/ondo-finance-capability-edges.yml
+  href: https://artifacts.apis.io/ondo-finance/capabilities/ondo-finance-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ondo-finance-capability-edges.yml
@@ -310,22 +309,22 @@ common:
   type: PrivacyPolicy
   url: https://docs.ondo.finance/legal/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/authentication/ondo-finance-authentication.yml
+  href: https://artifacts.apis.io/ondo-finance/authentication/ondo-finance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ondo-finance-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/agentic-access/ondo-finance-agentic-access.yml
+  href: https://artifacts.apis.io/ondo-finance/agentic-access/ondo-finance-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ondo-finance-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/security/ondo-finance-domain-security.yml
+  href: https://artifacts.apis.io/ondo-finance/security/ondo-finance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ondo-finance-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/security/ondo-finance-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ondo-finance/security/ondo-finance-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ondo-finance-vulnerability-disclosure.yml
@@ -334,32 +333,32 @@ common:
   type: Security
   url: https://immunefi.com/bug-bounty/ondofinance/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/llms/ondo-finance-llms.txt
+  href: https://artifacts.apis.io/ondo-finance/llms/ondo-finance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ondo-finance-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/errors/ondo-finance-error-codes.yml
+  href: https://artifacts.apis.io/ondo-finance/errors/ondo-finance-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ondo-finance-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/conventions/ondo-finance-conventions.yml
+  href: https://artifacts.apis.io/ondo-finance/conventions/ondo-finance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ondo-finance-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/sandbox/ondo-finance-sandbox.yml
+  href: https://artifacts.apis.io/ondo-finance/sandbox/ondo-finance-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ondo-finance-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/rate-limits/ondo-finance-rate-limits.yml
+  href: https://artifacts.apis.io/ondo-finance/rate-limits/ondo-finance-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ondo-finance-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/lifecycle/ondo-finance-lifecycle.yml
+  href: https://artifacts.apis.io/ondo-finance/lifecycle/ondo-finance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ondo-finance-lifecycle.yml
@@ -368,47 +367,47 @@ common:
   type: Deprecation
   url: https://docs.ondo.finance/api-reference/upcoming-changes
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/changelog/ondo-finance-changelog.yml
+  href: https://artifacts.apis.io/ondo-finance/changelog/ondo-finance-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ondo-finance-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/conformance/ondo-finance-conformance.yml
+  href: https://artifacts.apis.io/ondo-finance/conformance/ondo-finance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ondo-finance-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/mcp/ondo-finance-mcp.yml
+  href: https://artifacts.apis.io/ondo-finance/mcp/ondo-finance-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ondo-finance-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/data-model/ondo-finance-data-model.yml
+  href: https://artifacts.apis.io/ondo-finance/data-model/ondo-finance-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ondo-finance-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ondo-finance/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/grpc/ondo-finance-gm-backend.proto
+  href: https://artifacts.apis.io/ondo-finance/grpc/ondo-finance-gm-backend.proto
   title: ''
   type: Protobuf
   url: grpc/ondo-finance-gm-backend.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/overlays/ondo-finance-gm-overlay.yaml
+  href: https://artifacts.apis.io/ondo-finance/overlays/ondo-finance-gm-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ondo-finance-gm-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/overlays/ondo-finance-perps-overlay.yaml
+  href: https://artifacts.apis.io/ondo-finance/overlays/ondo-finance-perps-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ondo-finance-perps-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/overlays/ondo-finance-perps-ws-overlay.yaml
+  href: https://artifacts.apis.io/ondo-finance/overlays/ondo-finance-perps-ws-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ondo-finance-perps-ws-overlay.yaml
@@ -424,14 +423,14 @@ overview: 'Ondo Finance publishes 26 API contracts indexed on the [APIs.io](http
 
 
   Ondo Finance''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 26 more developer resources.'
-random_paper: 13
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Ondo Finance Rate Limits
   slug: ondo-finance-rate-limits
 score:
   band: developing
-  composite: 49.9
+  composite: 50.2
   coverage:
     artifact_dirs: 24
     catalog_earned: 48.0
@@ -439,15 +438,15 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 49.4
     developer_ergonomics: 66.1
-    discoverability: 78.6
-    operational_transparency: 65.8
-  previous_composite: 49.8
+    discoverability: 71.4
+    operational_transparency: 68.4
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -464,13 +463,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/screenshots/ondo-finance-2026-08-07T190231.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ondo-finance/ondo-finance-2026-08-07T190231.png
 security:
 - kind: authentication
   name: Ondo Finance Authentication
@@ -484,6 +484,12 @@ security:
   name: Ondo Finance Vulnerability Disclosure
   slug: ondo-finance-vulnerability-disclosure
   summary_line: contact published
+skill_count: 2
+skills:
+- name: Place an Ondo Perps order
+  slug: ondo-finance-place-perps-order
+- name: Quote and mint an Ondo Stock (Global Markets)
+  slug: ondo-finance-quote-and-mint-stock
 slug: ondo-finance
 tags:
 - Company

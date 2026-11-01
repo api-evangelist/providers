@@ -25,17 +25,19 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 31.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -85,7 +87,57 @@ apis:
   description: The Tags API from Amazon MediaConnect — 2 operation(s) for tags.
   name: Amazon MediaConnect Tags API
   slug: amazon-mediaconnect-tags-api
-artifact_total: 743
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Mediaconnect Destinationendpoint API from Amazon MediaConnect — 2 operation(s) for mediaconnect destinationendpoint.
+  name: Amazon MediaConnect Mediaconnect Destinationendpoint API
+  slug: amazon-mediaconnect-destinationendpoint-api
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Mediaconnect Mediastreams API from Amazon MediaConnect — 2 operation(s) for mediaconnect mediastreams.
+  name: Amazon MediaConnect Mediaconnect Mediastreams API
+  slug: amazon-mediaconnect-mediastreams-api
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Mediaconnect Operations API from Amazon MediaConnect — 14 operation(s) for mediaconnect operations.
+  name: Amazon MediaConnect Mediaconnect Operations API
+  slug: amazon-mediaconnect-operations-api
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Mediaconnect Outputs API from Amazon MediaConnect — 4 operation(s) for mediaconnect outputs.
+  name: Amazon MediaConnect Mediaconnect Outputs API
+  slug: amazon-mediaconnect-outputs-api
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Mediaconnect Routerinput API from Amazon MediaConnect — 5 operation(s) for mediaconnect routerinput.
+  name: Amazon MediaConnect Mediaconnect Routerinput API
+  slug: amazon-mediaconnect-routerinput-api
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Mediaconnect Routernetworkinterface API from Amazon MediaConnect — 2 operation(s) for mediaconnect routernetworkinterface.
+  name: Amazon MediaConnect Mediaconnect Routernetworkinterface API
+  slug: amazon-mediaconnect-routernetworkinterface-api
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Mediaconnect Routeroutput API from Amazon MediaConnect — 6 operation(s) for mediaconnect routeroutput.
+  name: Amazon MediaConnect Mediaconnect Routeroutput API
+  slug: amazon-mediaconnect-routeroutput-api
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Mediaconnect Source API from Amazon MediaConnect — 2 operation(s) for mediaconnect source.
+  name: Amazon MediaConnect Mediaconnect Source API
+  slug: amazon-mediaconnect-source-api
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Mediaconnect Sourceendpoint API from Amazon MediaConnect — 2 operation(s) for mediaconnect sourceendpoint.
+  name: Amazon MediaConnect Mediaconnect Sourceendpoint API
+  slug: amazon-mediaconnect-sourceendpoint-api
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Mediaconnect Sources API from Amazon MediaConnect — 2 operation(s) for mediaconnect sources.
+  name: Amazon MediaConnect Mediaconnect Sources API
+  slug: amazon-mediaconnect-sources-api
+artifact_total: 752
 collections:
 - collection_type: postman
   name: AWS MediaConnect Bridges API
@@ -112,9 +164,6 @@ collections:
   name: AWS MediaConnect Bridges Tags API
   slug: postman-amazon-mediaconnect-tags-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: AWS MediaConnect Bridges API
   slug: open-amazon-mediaconnect-bridges-api
 - collection_type: open
@@ -140,17 +189,17 @@ collections:
   slug: open-amazon-mediaconnect-tags-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/plans/amazon-mediaconnect-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-mediaconnect/plans/amazon-mediaconnect-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-mediaconnect-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/rate-limits/amazon-mediaconnect-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-mediaconnect/rate-limits/amazon-mediaconnect-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-mediaconnect-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/finops/amazon-mediaconnect-finops.yml
+  href: https://artifacts.apis.io/amazon-mediaconnect/finops/amazon-mediaconnect-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-mediaconnect-finops.yml
@@ -159,7 +208,7 @@ common:
   type: Website
   url: https://aws.amazon.com/mediaconnect/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/capabilities/amazon-mediaconnect-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-mediaconnect/capabilities/amazon-mediaconnect-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-mediaconnect-capability-edges.yml
@@ -168,27 +217,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-mediaconnect/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/agentic-access/amazon-mediaconnect-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-mediaconnect/agentic-access/amazon-mediaconnect-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-mediaconnect-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/security/amazon-mediaconnect-trust-center.yml
+  href: https://artifacts.apis.io/amazon-mediaconnect/security/amazon-mediaconnect-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-mediaconnect-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/security/amazon-mediaconnect-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-mediaconnect/security/amazon-mediaconnect-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-mediaconnect-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/security/amazon-mediaconnect-domain-security.yml
+  href: https://artifacts.apis.io/amazon-mediaconnect/security/amazon-mediaconnect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-mediaconnect-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/authentication/amazon-mediaconnect-authentication.yml
+  href: https://artifacts.apis.io/amazon-mediaconnect/authentication/amazon-mediaconnect-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-mediaconnect-authentication.yml
@@ -237,12 +286,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/rules/amazon-mediaconnect-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-mediaconnect/rules/amazon-mediaconnect-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-mediaconnect-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/vocabulary/amazon-mediaconnect-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-mediaconnect/vocabulary/amazon-mediaconnect-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-mediaconnect-vocabulary.yaml
@@ -895,13 +944,13 @@ features:
 - description: Visualize relationships between resources in live video workflows across connected AWS services.
   name: Workflow Monitor
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Mediaconnect Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: running flow hour
+  service_category: ''
   slug: amazon-mediaconnect-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-mediaconnect.png
 json_schemas:
 - name: __boolean
@@ -2373,7 +2422,7 @@ modified: '2026-09-16'
 name: Amazon MediaConnect
 nav: Providers
 network: true
-overview: 'Amazon MediaConnect publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bridges API, Entitlements API, Flows API, and 5 more. Tagged areas include Broadcasting, Live Streaming, Media, and Media Transport.
+overview: 'Amazon MediaConnect publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bridges API, Entitlements API, Flows API, and 15 more. Tagged areas include Broadcasting, Live Streaming, Media, and Media Transport.
 
 
   The Amazon MediaConnect catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -2382,9 +2431,9 @@ overview: 'Amazon MediaConnect publishes 8 API contracts indexed on the [APIs.io
   Amazon MediaConnect''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 17 more developer resources.'
 plans:
 - name: Amazon Mediaconnect Plans Pricing
-  plan_count: 3
+  plan_count: 10
   slug: amazon-mediaconnect-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Amazon Mediaconnect Rate Limits
@@ -2414,44 +2463,45 @@ rules:
     warn: 15
   slug: amazon-mediaconnect-spectral-rules
 score:
-  band: developing
-  composite: 54.2
+  band: strong
+  composite: 62.1
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 58.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    artifact_dirs: 21
+    catalog_earned: 70.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.8
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 62.9
+    contract_quality: 59.5
     developer_ergonomics: 58.3
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 55.7
+    operational_transparency: 39.5
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 8
+      marker_coverage: 55.6
+      total: 18
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/screenshots/amazon-mediaconnect-2026-06-20T171739.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-mediaconnect/amazon-mediaconnect-2026-06-20T171739.png
 security:
 - kind: authentication
   name: Amazon Mediaconnect Authentication

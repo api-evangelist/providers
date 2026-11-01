@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Credit-metered REST API over IMAI's creator database of 380M+ influencers across Instagram, TikTok and YouTube. Documented capabilities are keyword and filter search, AI search, influencer reports, au
@@ -46,10 +48,10 @@ apis:
 - description: OAuth-protected Model Context Protocol endpoint served on the IMAI / InfluencerMarketing.ai host by the Novamira WordPress plugin, advertised through RFC 9728 protected-resource metadata and an RFC 84
   name: IMAI MCP Server
   slug: imai-mcp-server
-artifact_total: 11
+artifact_total: 13
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/security/stagwell-domain-security.yml
+  href: https://artifacts.apis.io/stagwell/security/stagwell-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stagwell-domain-security.yml
@@ -110,47 +112,47 @@ common:
   type: PrivacyPolicy
   url: https://www.stagwellglobal.com/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/well-known/stagwell-well-known.yml
+  href: https://artifacts.apis.io/stagwell/well-known/stagwell-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stagwell-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/mcp/stagwell-mcp.yml
+  href: https://artifacts.apis.io/stagwell/mcp/stagwell-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/stagwell-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/authentication/stagwell-authentication.yml
+  href: https://artifacts.apis.io/stagwell/authentication/stagwell-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stagwell-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/scopes/stagwell-scopes.yml
+  href: https://artifacts.apis.io/stagwell/scopes/stagwell-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/stagwell-scopes.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/plans/stagwell-plans-pricing.yml
+  href: https://artifacts.apis.io/stagwell/plans/stagwell-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stagwell-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/rate-limits/stagwell-rate-limits.yml
+  href: https://artifacts.apis.io/stagwell/rate-limits/stagwell-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stagwell-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/llms/stagwell-imai-llms.txt
+  href: https://artifacts.apis.io/stagwell/llms/stagwell-imai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stagwell-imai-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/conformance/stagwell-conformance.yml
+  href: https://artifacts.apis.io/stagwell/conformance/stagwell-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stagwell-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/security/stagwell-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/stagwell/security/stagwell-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/stagwell-vulnerability-disclosure.yml
@@ -159,7 +161,7 @@ common:
   type: Security
   url: https://influencermarketing.ai/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/security/stagwell-trust-center.yml
+  href: https://artifacts.apis.io/stagwell/security/stagwell-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/stagwell-trust-center.yml
@@ -168,12 +170,12 @@ common:
   type: Compliance
   url: https://influencermarketing.ai/security/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/lifecycle/stagwell-lifecycle.yml
+  href: https://artifacts.apis.io/stagwell/lifecycle/stagwell-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stagwell-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/conventions/stagwell-conventions.yml
+  href: https://artifacts.apis.io/stagwell/conventions/stagwell-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stagwell-conventions.yml
@@ -183,6 +185,14 @@ common:
   url: https://www.themarketingcloud.com/
 created: '2026-05-04'
 description: 'Stagwell (NASDAQ: STGW) is a digital-first global marketing services and technology company and a Fortune 1000 firm, operating a network of creative, media, communications and research agencies alongside the Stagwell Marketing Cloud (now branded The Marketing Cloud), a suite of proprietary SaaS and DaaS marketing-technology products built by its in-house engineering teams. Stagwell does not publish a unified public developer portal at the holding-company level and ships no OpenAPI, AsyncAPI or agent card of its own; developer access is exposed product by product. The most substantial public developer surface in the group belongs to IMAI / InfluencerMarketing.ai, acquired with LEADERS in July 2024 and folded into the PRophet Comms Tech suite, which publishes a credit-metered REST creator-data API (Discovery and Raw), an llms.txt, and an OAuth-protected Model Context Protocol endpoint on its own host.'
+finops:
+- has_sources: true
+  method: derived
+  name: Stagwell Finops
+  primary_unit: credit
+  service_category: ''
+  slug: stagwell-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stagwell.png
 layout: provider
 mcp_servers:
@@ -199,9 +209,12 @@ overview: 'Stagwell is listed with 3 APIs on the [APIs.io](https://apis.io/) net
   Stagwell''s developer surface includes engineering blog, documentation, API reference, pricing, signup flow, support, authentication, and 23 more developer resources.'
 plans:
 - name: Stagwell Plans Pricing
-  plan_count: 8
+  plan_count: 3
   slug: stagwell-plans-pricing
-random_paper: 9
+- name: Stagwell Price Estimates
+  plan_count: 0
+  slug: stagwell-price-estimates
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Stagwell Rate Limits
@@ -213,23 +226,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 43.3
+  composite: 48.9
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 64.0
+    artifact_dirs: 15
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 28.6
-    discoverability: 80.0
-    operational_transparency: 44.7
-  previous_composite: 43.2
+    developer_ergonomics: 45.2
+    discoverability: 70.0
+    operational_transparency: 47.4
+  previous_composite: 47.3
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -239,14 +252,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/screenshots/stagwell-2026-06-20T194452.png
+screenshot: https://apis.io/screenshots/stagwell/stagwell-2026-06-20T194452.png
 security:
 - kind: authentication
   name: Stagwell Authentication

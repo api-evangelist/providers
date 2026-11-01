@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sole-society/refs/heads/main/security/sole-society-domain-security.yml
+  href: https://artifacts.apis.io/sole-society/security/sole-society-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sole-society-domain-security.yml
@@ -54,7 +56,7 @@ name: Sole Society
 nav: Providers
 network: true
 overview: Sole Society is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Footwear, Fashion, E-Commerce, and Retail.
-random_paper: 16
+random_paper: 0
 score:
   band: minimal
   composite: 3.4
@@ -80,8 +82,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

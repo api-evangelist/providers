@@ -25,17 +25,19 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 33.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -75,6 +77,166 @@ apis:
   description: Operations for managing data subscriptions
   name: Amazon DataZone Subscriptions API
   slug: amazon-datazone-subscriptions-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Account Pools API from Amazon DataZone — 2 operation(s) for datazone account pools.
+  name: Amazon DataZone Datazone Account Pools API
+  slug: amazon-datazone-account-pools-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Actions API from Amazon DataZone — 2 operation(s) for datazone actions.
+  name: Amazon DataZone Datazone Actions API
+  slug: amazon-datazone-actions-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Asset Types API from Amazon DataZone — 2 operation(s) for datazone asset types.
+  name: Amazon DataZone Datazone Asset Types API
+  slug: amazon-datazone-asset-types-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Connections API from Amazon DataZone — 2 operation(s) for datazone connections.
+  name: Amazon DataZone Datazone Connections API
+  slug: amazon-datazone-connections-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Data Export Configuration API from Amazon DataZone — 1 operation(s) for datazone data export configuration.
+  name: Amazon DataZone Datazone Data Export Configuration API
+  slug: amazon-datazone-data-export-configuration-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Data Products API from Amazon DataZone — 2 operation(s) for datazone data products.
+  name: Amazon DataZone Datazone Data Products API
+  slug: amazon-datazone-data-products-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Data Sources API from Amazon DataZone — 2 operation(s) for datazone data sources.
+  name: Amazon DataZone Datazone Data Sources API
+  slug: amazon-datazone-data-sources-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Designations API from Amazon DataZone — 2 operation(s) for datazone designations.
+  name: Amazon DataZone Datazone Designations API
+  slug: amazon-datazone-designations-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Domain Units API from Amazon DataZone — 2 operation(s) for datazone domain units.
+  name: Amazon DataZone Datazone Domain Units API
+  slug: amazon-datazone-domain-units-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Environment Blueprint Configurations API from Amazon DataZone — 2 operation(s) for datazone environment blueprint configurations.
+  name: Amazon DataZone Datazone Environment Blueprint Configurations API
+  slug: amazon-datazone-environment-blueprint-configurations-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Environment Blueprints API from Amazon DataZone — 2 operation(s) for datazone environment blueprints.
+  name: Amazon DataZone Datazone Environment Blueprints API
+  slug: amazon-datazone-environment-blueprints-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Environment Profiles API from Amazon DataZone — 2 operation(s) for datazone environment profiles.
+  name: Amazon DataZone Datazone Environment Profiles API
+  slug: amazon-datazone-environment-profiles-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Filters API from Amazon DataZone — 2 operation(s) for datazone filters.
+  name: Amazon DataZone Datazone Filters API
+  slug: amazon-datazone-filters-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Form Types API from Amazon DataZone — 2 operation(s) for datazone form types.
+  name: Amazon DataZone Datazone Form Types API
+  slug: amazon-datazone-form-types-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Glossaries API from Amazon DataZone — 2 operation(s) for datazone glossaries.
+  name: Amazon DataZone Datazone Glossaries API
+  slug: amazon-datazone-glossaries-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Glossary Terms API from Amazon DataZone — 2 operation(s) for datazone glossary terms.
+  name: Amazon DataZone Datazone Glossary Terms API
+  slug: amazon-datazone-glossary-terms-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Group Profiles API from Amazon DataZone — 2 operation(s) for datazone group profiles.
+  name: Amazon DataZone Datazone Group Profiles API
+  slug: amazon-datazone-group-profiles-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Lineage API from Amazon DataZone — 3 operation(s) for datazone lineage.
+  name: Amazon DataZone Datazone Lineage API
+  slug: amazon-datazone-lineage-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Metadata Generation Runs API from Amazon DataZone — 2 operation(s) for datazone metadata generation runs.
+  name: Amazon DataZone Datazone Metadata Generation Runs API
+  slug: amazon-datazone-metadata-generation-runs-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Notebook Runs API from Amazon DataZone — 2 operation(s) for datazone notebook runs.
+  name: Amazon DataZone Datazone Notebook Runs API
+  slug: amazon-datazone-notebook-runs-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Notebooks API from Amazon DataZone — 2 operation(s) for datazone notebooks.
+  name: Amazon DataZone Datazone Notebooks API
+  slug: amazon-datazone-notebooks-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Operations API from Amazon DataZone — 41 operation(s) for datazone operations.
+  name: Amazon DataZone Datazone Operations API
+  slug: amazon-datazone-operations-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Project Profiles API from Amazon DataZone — 2 operation(s) for datazone project profiles.
+  name: Amazon DataZone Datazone Project Profiles API
+  slug: amazon-datazone-project-profiles-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Revisions API from Amazon DataZone — 2 operation(s) for datazone revisions.
+  name: Amazon DataZone Datazone Revisions API
+  slug: amazon-datazone-revisions-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Rules API from Amazon DataZone — 2 operation(s) for datazone rules.
+  name: Amazon DataZone Datazone Rules API
+  slug: amazon-datazone-rules-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Runs API from Amazon DataZone — 2 operation(s) for datazone runs.
+  name: Amazon DataZone Datazone Runs API
+  slug: amazon-datazone-runs-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Subscription Grants API from Amazon DataZone — 2 operation(s) for datazone subscription grants.
+  name: Amazon DataZone Datazone Subscription Grants API
+  slug: amazon-datazone-subscription-grants-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Subscription Requests API from Amazon DataZone — 2 operation(s) for datazone subscription requests.
+  name: Amazon DataZone Datazone Subscription Requests API
+  slug: amazon-datazone-subscription-requests-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Subscription Targets API from Amazon DataZone — 2 operation(s) for datazone subscription targets.
+  name: Amazon DataZone Datazone Subscription Targets API
+  slug: amazon-datazone-subscription-targets-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Tags API from Amazon DataZone — 1 operation(s) for datazone tags.
+  name: Amazon DataZone Datazone Tags API
+  slug: amazon-datazone-tags-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone Time Series Data Points API from Amazon DataZone — 2 operation(s) for datazone time series data points.
+  name: Amazon DataZone Datazone Time Series Data Points API
+  slug: amazon-datazone-time-series-data-points-api
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: The Datazone User Profiles API from Amazon DataZone — 2 operation(s) for datazone user profiles.
+  name: Amazon DataZone Datazone User Profiles API
+  slug: amazon-datazone-user-profiles-api
 arazzos:
 - description: List pending subscription requests and active subscriptions to audit data access.
   name: Amazon DataZone Audit Domain Subscriptions
@@ -112,14 +274,11 @@ arazzos:
 - description: Confirm a project exists, delete it, then verify the delete via a 404 read-back.
   name: Amazon DataZone Teardown Project
   slug: amazon-datazone-teardown-project-workflow
-artifact_total: 86
+artifact_total: 118
 collections:
 - collection_type: postman
   name: Amazon DataZone API
   slug: postman-amazon-datazone
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon DataZone Assets API
   slug: open-amazon-datazone-assets-api
@@ -143,22 +302,22 @@ collections:
   slug: open-amazon-datazone
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/plans/amazon-datazone-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-datazone/plans/amazon-datazone-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-datazone-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/rate-limits/amazon-datazone-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-datazone/rate-limits/amazon-datazone-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-datazone-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/finops/amazon-datazone-finops.yml
+  href: https://artifacts.apis.io/amazon-datazone/finops/amazon-datazone-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-datazone-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/capabilities/amazon-datazone-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-datazone/capabilities/amazon-datazone-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-datazone-capability-edges.yml
@@ -167,27 +326,27 @@ common:
   type: Website
   url: https://aws.amazon.com/datazone/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/agentic-access/amazon-datazone-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-datazone/agentic-access/amazon-datazone-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-datazone-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/security/amazon-datazone-trust-center.yml
+  href: https://artifacts.apis.io/amazon-datazone/security/amazon-datazone-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-datazone-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/security/amazon-datazone-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-datazone/security/amazon-datazone-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-datazone-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/security/amazon-datazone-domain-security.yml
+  href: https://artifacts.apis.io/amazon-datazone/security/amazon-datazone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-datazone-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/authentication/amazon-datazone-authentication.yml
+  href: https://artifacts.apis.io/amazon-datazone/authentication/amazon-datazone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-datazone-authentication.yml
@@ -196,62 +355,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-datazone/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-audit-domain-subscriptions-workflow.yml
+  href: https://artifacts.apis.io/amazon-datazone/arazzo/amazon-datazone-audit-domain-subscriptions-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-audit-domain-subscriptions-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-bootstrap-domain-and-project-workflow.yml
+  href: https://artifacts.apis.io/amazon-datazone/arazzo/amazon-datazone-bootstrap-domain-and-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-bootstrap-domain-and-project-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-catalog-asset-workflow.yml
+  href: https://artifacts.apis.io/amazon-datazone/arazzo/amazon-datazone-catalog-asset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-catalog-asset-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-discover-and-subscribe-workflow.yml
+  href: https://artifacts.apis.io/amazon-datazone/arazzo/amazon-datazone-discover-and-subscribe-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-discover-and-subscribe-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-onboard-data-workspace-workflow.yml
+  href: https://artifacts.apis.io/amazon-datazone/arazzo/amazon-datazone-onboard-data-workspace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-onboard-data-workspace-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-provision-domain-workflow.yml
+  href: https://artifacts.apis.io/amazon-datazone/arazzo/amazon-datazone-provision-domain-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-provision-domain-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-provision-environment-workflow.yml
+  href: https://artifacts.apis.io/amazon-datazone/arazzo/amazon-datazone-provision-environment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-provision-environment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-publish-data-product-workflow.yml
+  href: https://artifacts.apis.io/amazon-datazone/arazzo/amazon-datazone-publish-data-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-publish-data-product-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-rename-project-workflow.yml
+  href: https://artifacts.apis.io/amazon-datazone/arazzo/amazon-datazone-rename-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-rename-project-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-request-and-track-subscription-workflow.yml
+  href: https://artifacts.apis.io/amazon-datazone/arazzo/amazon-datazone-request-and-track-subscription-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-request-and-track-subscription-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-teardown-domain-workflow.yml
+  href: https://artifacts.apis.io/amazon-datazone/arazzo/amazon-datazone-teardown-domain-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-teardown-domain-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-teardown-project-workflow.yml
+  href: https://artifacts.apis.io/amazon-datazone/arazzo/amazon-datazone-teardown-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-teardown-project-workflow.yml
@@ -308,12 +467,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/rules/amazon-datazone-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-datazone/rules/amazon-datazone-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-datazone-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/vocabulary/amazon-datazone-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-datazone/vocabulary/amazon-datazone-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-datazone-vocabulary.yaml
@@ -372,13 +531,13 @@ features:
 - description: Track data lineage across assets to understand data origins, transformations, and dependencies for trust and compliance.
   name: Data Lineage
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Datazone Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: 100,000 requests
+  service_category: ''
   slug: amazon-datazone-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-datazone.png
 json_schemas:
 - name: Asset
@@ -464,7 +623,7 @@ modified: '2026-09-16'
 name: Amazon DataZone
 nav: Providers
 network: true
-overview: 'Amazon DataZone publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Domains API, Environments API, and 3 more. Tagged areas include Data Catalog, Data Governance, Data Management, Data Sharing, and Analytics.
+overview: 'Amazon DataZone publishes 38 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Domains API, Environments API, and 35 more. Tagged areas include Data Catalog, Data Governance, Data Management, Data Sharing, and Analytics.
 
 
   The Amazon DataZone catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -473,9 +632,12 @@ overview: 'Amazon DataZone publishes 6 API contracts indexed on the [APIs.io](ht
   Amazon DataZone''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 31 more developer resources.'
 plans:
 - name: Amazon Datazone Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: amazon-datazone-plans-pricing
-random_paper: 5
+- name: Amazon Datazone Price Estimates
+  plan_count: 0
+  slug: amazon-datazone-price-estimates
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Amazon Datazone Rate Limits
@@ -506,43 +668,49 @@ rules:
   slug: amazon-datazone-spectral-rules
 score:
   band: strong
-  composite: 55.4
+  composite: 65.7
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 69.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    artifact_dirs: 22
+    catalog_earned: 81.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 34.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 2.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 63.7
+    contract_quality: 64.7
     developer_ergonomics: 65.5
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 56.9
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 94.7
       derived: 0
-      marker_coverage: 0.0
-      total: 6
+      marker_coverage: 84.2
+      total: 38
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/screenshots/amazon-datazone-2026-06-20T171616.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-datazone/amazon-datazone-2026-06-20T171616.png
 security:
 - kind: authentication
   name: Amazon Datazone Authentication

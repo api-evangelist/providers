@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,7 +83,7 @@ common:
   type: ChangeLog
   url: https://help.tebi.com/en/articles/496776-changelog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tebi/refs/heads/main/security/tebi-domain-security.yml
+  href: https://artifacts.apis.io/tebi/security/tebi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tebi-domain-security.yml
@@ -98,10 +100,10 @@ overview: 'Tebi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Tebi''s developer surface includes pricing, engineering blog, support, signup flow, changelog, and 7 more developer resources.'
-random_paper: 2
+random_paper: 12
 score:
   band: emerging
-  composite: 17.2
+  composite: 18.2
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -116,22 +118,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 23.7
-  previous_composite: 17.2
+    operational_transparency: 31.6
+  previous_composite: 18.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tebi/refs/heads/main/screenshots/tebi-2026-09-02T162707.png
+screenshot: https://apis.io/screenshots/tebi/tebi-2026-09-02T162707.png
 security:
 - kind: domain-security
   name: Tebi Domain Security

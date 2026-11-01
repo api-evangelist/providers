@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -71,11 +73,8 @@ apis:
   description: Health checks and metrics endpoints.
   name: Apache BookKeeper Monitoring API
   slug: apache-bookkeeper-monitoring-api
-artifact_total: 62
+artifact_total: 61
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apache BookKeeper Admin Auto Recovery API
   slug: open-apache-bookkeeper-auto-recovery-api
@@ -93,17 +92,17 @@ collections:
   slug: open-apache-bookkeeper-monitoring-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/plans/apache-bookkeeper-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-bookkeeper/plans/apache-bookkeeper-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-bookkeeper-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/rate-limits/apache-bookkeeper-rate-limits.yml
+  href: https://artifacts.apis.io/apache-bookkeeper/rate-limits/apache-bookkeeper-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-bookkeeper-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/finops/apache-bookkeeper-finops.yml
+  href: https://artifacts.apis.io/apache-bookkeeper/finops/apache-bookkeeper-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-bookkeeper-finops.yml
@@ -128,17 +127,17 @@ common:
   type: License
   url: https://github.com/apache/bookkeeper/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/agentic-access/apache-bookkeeper-agentic-access.yml
+  href: https://artifacts.apis.io/apache-bookkeeper/agentic-access/apache-bookkeeper-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-bookkeeper-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/security/apache-bookkeeper-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-bookkeeper/security/apache-bookkeeper-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-bookkeeper-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/security/apache-bookkeeper-domain-security.yml
+  href: https://artifacts.apis.io/apache-bookkeeper/security/apache-bookkeeper-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-bookkeeper-domain-security.yml
@@ -171,12 +170,12 @@ common:
   type: ChangeLog
   url: https://github.com/apache/bookkeeper/releases
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/rules/apache-bookkeeper-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-bookkeeper/rules/apache-bookkeeper-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-bookkeeper-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/vocabulary/apache-bookkeeper-vocabulary.yaml
+  href: https://artifacts.apis.io/apache-bookkeeper/vocabulary/apache-bookkeeper-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-bookkeeper-vocabulary.yaml
@@ -219,7 +218,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Bookkeeper Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-bookkeeper-finops
   template: true
@@ -312,7 +311,7 @@ plans:
 - name: Apache Bookkeeper Plans Pricing
   plan_count: 3
   slug: apache-bookkeeper-plans-pricing
-random_paper: 2
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Apache Bookkeeper Rate Limits
@@ -345,24 +344,21 @@ score:
   band: thin
   composite: 30.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 61.0
     catalog_earned_first_party: 0.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 20.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 33.3
     discoverability: 62.5
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 32.1
+    operational_transparency: 39.5
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
@@ -376,13 +372,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/screenshots/apache-bookkeeper-2026-06-20T172044.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-bookkeeper/apache-bookkeeper-2026-06-20T172044.png
 security:
 - kind: domain-security
   name: Apache Bookkeeper Domain Security

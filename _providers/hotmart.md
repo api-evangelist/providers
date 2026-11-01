@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 28.2
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - description: 'The Hotmart authorization server. Exchanges a developer credential (client_id/client_secret, presented with HTTP Basic) for a short-lived OAuth 2.0 client_credentials access token, which is then sent '
@@ -63,19 +65,24 @@ apis:
 - description: The smaller documented surfaces — event ticket information and participant lists (/events/api/v1), account information (/accounts/api/v1/info), the authenticated user profile (/user/api/v1/me), and in
   name: Hotmart Events, Account and User API
   slug: hotmart-events-account-and-user-api
-artifact_total: 14
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Hotmart Webhooks
   slug: hotmart-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/hotmart/plans/hotmart-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hotmart-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/mcp/hotmart-mcp.yml
+  href: https://artifacts.apis.io/hotmart/mcp/hotmart-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hotmart-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/security/hotmart-domain-security.yml
+  href: https://artifacts.apis.io/hotmart/security/hotmart-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hotmart-domain-security.yml
@@ -140,7 +147,7 @@ common:
   type: ChangeLog
   url: https://developers.hotmart.com/docs/en/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/changelog/hotmart-changelog.yml
+  href: https://artifacts.apis.io/hotmart/changelog/hotmart-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hotmart-changelog.yml
@@ -149,72 +156,72 @@ common:
   type: FAQ
   url: https://developers.hotmart.com/docs/en/faq
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/authentication/hotmart-authentication.yml
+  href: https://artifacts.apis.io/hotmart/authentication/hotmart-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hotmart-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/conventions/hotmart-conventions.yml
+  href: https://artifacts.apis.io/hotmart/conventions/hotmart-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hotmart-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/errors/hotmart-problem-types.yml
+  href: https://artifacts.apis.io/hotmart/errors/hotmart-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hotmart-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/lifecycle/hotmart-lifecycle.yml
+  href: https://artifacts.apis.io/hotmart/lifecycle/hotmart-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hotmart-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/conformance/hotmart-conformance.yml
+  href: https://artifacts.apis.io/hotmart/conformance/hotmart-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hotmart-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/rate-limits/hotmart-rate-limits.yml
+  href: https://artifacts.apis.io/hotmart/rate-limits/hotmart-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hotmart-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/sandbox/hotmart-sandbox.yml
+  href: https://artifacts.apis.io/hotmart/sandbox/hotmart-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hotmart-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/examples/hotmart-code-samples.yml
+  href: https://artifacts.apis.io/hotmart/examples/hotmart-code-samples.yml
   title: ''
   type: Examples
   url: examples/hotmart-code-samples.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/data-model/hotmart-data-model.yml
+  href: https://artifacts.apis.io/hotmart/data-model/hotmart-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hotmart-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/components/hotmart-components.yml
+  href: https://artifacts.apis.io/hotmart/components/hotmart-components.yml
   title: ''
   type: Components
   url: components/hotmart-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/packages/hotmart-packages.yml
+  href: https://artifacts.apis.io/hotmart/packages/hotmart-packages.yml
   title: ''
   type: Packages
   url: packages/hotmart-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/asyncapi/hotmart-webhooks.yml
+  href: https://artifacts.apis.io/hotmart/asyncapi/hotmart-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hotmart-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hotmart/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/llms/hotmart-llms.txt
+  href: https://artifacts.apis.io/hotmart/llms/hotmart-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hotmart-llms.txt
@@ -223,13 +230,21 @@ common:
   type: Security
   url: https://hotmart.com/en/legal/cybersecurity-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/security/hotmart-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hotmart/security/hotmart-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hotmart-vulnerability-disclosure.yml
 created: '2026-08-04'
 description: 'Hotmart is a Brazilian creator-economy platform for producing, selling and delivering digital products — online courses, ebooks, mentorships, paid communities, events and, more recently, physical products. It bundles a hosted checkout, a marketplace, an affiliate network, a members-area LMS (Hotmart Club) and payment processing as merchant of record (HotPay), and sells into more than 180 countries. Hotmart Developers is the public REST API over that platform: OAuth 2.0 client-credentials authentication, product-area path prefixes (/payments, /club, /products, /physicalproducts, /events, /accounts, /user), cursor pagination, a sparse-fieldset `select` parameter, a 500-request-per-minute rate limit, a full-parity sandbox host, and a per-product webhook (postback) event surface carrying purchase, subscription, members-area and logistics events on two independently versioned payload schemas. Hotmart publishes no OpenAPI, no SDK and no CLI — the contract an integrator works from
   is prose documentation plus per-endpoint cURL, Node and Java request samples.'
+finops:
+- has_sources: true
+  method: derived
+  name: Hotmart Finops
+  primary_unit: ''
+  service_category: ''
+  slug: hotmart-finops
+  template: true
 image: https://hotmart.com/static/app-hotmart-next/images/share--general.jpg
 layout: provider
 mcp_servers:
@@ -246,17 +261,21 @@ overview: 'Hotmart is listed with 8 APIs on the [APIs.io](https://apis.io/) netw
   The Hotmart catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hotmart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 19
+  Hotmart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+plans:
+- name: Hotmart Plans Pricing
+  plan_count: 0
+  slug: hotmart-plans-pricing
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Hotmart Rate Limits
   slug: hotmart-rate-limits
 score:
   band: developing
-  composite: 50.7
+  composite: 52.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -267,9 +286,9 @@ score:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 45.3
-    developer_ergonomics: 61.3
-    discoverability: 78.6
-    operational_transparency: 65.8
+    developer_ergonomics: 66.1
+    discoverability: 70.0
+    operational_transparency: 76.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -277,7 +296,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 50.7
+  previous_composite: 52.2
   provenance:
     conformance: derived
     mcp: derived
@@ -288,14 +307,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/screenshots/hotmart-2026-08-07T170326.png
+screenshot: https://apis.io/screenshots/hotmart/hotmart-2026-08-07T170326.png
 security:
 - kind: authentication
   name: Hotmart Authentication
@@ -309,6 +328,16 @@ security:
   name: Hotmart Vulnerability Disclosure
   slug: hotmart-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 4
+skills:
+- name: Authenticate against the Hotmart Developers API
+  slug: hotmart-authenticate
+- name: Receive and validate Hotmart webhook events
+  slug: hotmart-consume-webhooks
+- name: Reconcile Hotmart sales, commissions and refunds
+  slug: hotmart-reconcile-sales
+- name: Find overdue or cancelled subscriptions and reach their subscribers
+  slug: hotmart-recover-overdue-subscriptions
 slug: hotmart
 tags:
 - Company

@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 21.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,7 +59,7 @@ collections:
   slug: open-fooddata-central-fdc-api
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/security/fooddata-central-domain-security.yml
+  href: https://artifacts.apis.io/fooddata-central/security/fooddata-central-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fooddata-central-domain-security.yml
@@ -70,17 +72,17 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/agentic-access/fooddata-central-agentic-access.yml
+  href: https://artifacts.apis.io/fooddata-central/agentic-access/fooddata-central-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fooddata-central-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/security/fooddata-central-domain-security.yml
+  href: https://artifacts.apis.io/fooddata-central/security/fooddata-central-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fooddata-central-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/authentication/fooddata-central-authentication.yml
+  href: https://artifacts.apis.io/fooddata-central/authentication/fooddata-central-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fooddata-central-authentication.yml
@@ -121,47 +123,47 @@ common:
   type: X
   url: https://twitter.com/usda_ars
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/plans/fooddata-central-plans-pricing.yml
+  href: https://artifacts.apis.io/fooddata-central/plans/fooddata-central-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fooddata-central-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/rate-limits/fooddata-central-rate-limits.yml
+  href: https://artifacts.apis.io/fooddata-central/rate-limits/fooddata-central-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fooddata-central-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/finops/fooddata-central-finops.yml
+  href: https://artifacts.apis.io/fooddata-central/finops/fooddata-central-finops.yml
   title: ''
   type: FinOps
   url: finops/fooddata-central-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/agentic-access/fooddata-central-agentic-access.yml
+  href: https://artifacts.apis.io/fooddata-central/agentic-access/fooddata-central-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fooddata-central-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/security/fooddata-central-domain-security.yml
+  href: https://artifacts.apis.io/fooddata-central/security/fooddata-central-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fooddata-central-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/authentication/fooddata-central-authentication.yml
+  href: https://artifacts.apis.io/fooddata-central/authentication/fooddata-central-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fooddata-central-authentication.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/plans/fooddata-central-plans-pricing.yml
+  href: https://artifacts.apis.io/fooddata-central/plans/fooddata-central-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fooddata-central-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/rate-limits/fooddata-central-rate-limits.yml
+  href: https://artifacts.apis.io/fooddata-central/rate-limits/fooddata-central-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fooddata-central-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/finops/fooddata-central-finops.yml
+  href: https://artifacts.apis.io/fooddata-central/finops/fooddata-central-finops.yml
   title: ''
   type: FinOps
   url: finops/fooddata-central-finops.yml
@@ -217,7 +219,7 @@ plans:
 - name: Fooddata Central Plans Pricing
   plan_count: 3
   slug: fooddata-central-plans-pricing
-random_paper: 18
+random_paper: 16
 rate_limits:
 - limit_count: 6
   name: Fooddata Central Rate Limits
@@ -236,7 +238,7 @@ rules:
   slug: fooddata-central-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.6
+  composite: 33.3
   coverage:
     artifact_dirs: 15
     catalog_earned: 42.3
@@ -244,7 +246,7 @@ score:
     catalog_gap: 72.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 9.8
@@ -252,7 +254,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 46.4
     operational_transparency: 23.7
-  previous_composite: 40.9
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -266,13 +268,14 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/screenshots/fooddata-central-2026-06-20T181402.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fooddata-central/fooddata-central-2026-06-20T181402.png
 security:
 - kind: authentication
   name: Fooddata Central Authentication

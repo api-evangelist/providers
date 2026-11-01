@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.6
-  scored_at: '2026-10-17'
+  score: 41.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -194,42 +196,42 @@ asyncapis:
   slug: if-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/agentic-access/if-agentic-access.yml
+  href: https://artifacts.apis.io/if/agentic-access/if-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/if-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/rules/if-rules.yml
+  href: https://artifacts.apis.io/if/rules/if-rules.yml
   title: ''
   type: Spectral
   url: rules/if-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/json-ld/if-context.jsonld
+  href: https://artifacts.apis.io/if/json-ld/if-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/if-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/vocabulary/if-vocabulary.yml
+  href: https://artifacts.apis.io/if/vocabulary/if-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/if-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/data-model/if-data-model.yml
+  href: https://artifacts.apis.io/if/data-model/if-data-model.yml
   title: ''
   type: DataModel
   url: data-model/if-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/errors/if-problem-types.yml
+  href: https://artifacts.apis.io/if/errors/if-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/if-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/hosts/if-hosts.yml
+  href: https://artifacts.apis.io/if/hosts/if-hosts.yml
   title: ''
   type: Hosts
   url: hosts/if-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/vendors/if-vendors.yml
+  href: https://artifacts.apis.io/if/vendors/if-vendors.yml
   title: ''
   type: Vendors
   url: vendors/if-vendors.yml
@@ -290,67 +292,67 @@ common:
   type: Compliance
   url: https://integrated.finance/security-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/llms/if-llms.txt
+  href: https://artifacts.apis.io/if/llms/if-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/if-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/well-known/if-well-known.yml
+  href: https://artifacts.apis.io/if/well-known/if-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/if-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/authentication/if-authentication.yml
+  href: https://artifacts.apis.io/if/authentication/if-authentication.yml
   title: ''
   type: Authentication
   url: authentication/if-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/scopes/if-scopes.yml
+  href: https://artifacts.apis.io/if/scopes/if-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/if-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/conventions/if-conventions.yml
+  href: https://artifacts.apis.io/if/conventions/if-conventions.yml
   title: ''
   type: Conventions
   url: conventions/if-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/conventions/if-conventions.yml
+  href: https://artifacts.apis.io/if/conventions/if-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/if-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/changelog/if-changelog.yml
+  href: https://artifacts.apis.io/if/changelog/if-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/if-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/lifecycle/if-lifecycle.yml
+  href: https://artifacts.apis.io/if/lifecycle/if-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/if-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/conformance/if-conformance.yml
+  href: https://artifacts.apis.io/if/conformance/if-conformance.yml
   title: ''
   type: Conformance
   url: conformance/if-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/sandbox/if-sandbox.yml
+  href: https://artifacts.apis.io/if/sandbox/if-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/if-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/asyncapi/if-webhooks.yml
+  href: https://artifacts.apis.io/if/asyncapi/if-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/if-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/mcp/if-mcp.yml
+  href: https://artifacts.apis.io/if/mcp/if-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/if-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/security/if-domain-security.yml
+  href: https://artifacts.apis.io/if/security/if-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/if-domain-security.yml
@@ -555,7 +557,7 @@ overview: 'IF publishes 29 API contracts indexed on the [APIs.io](https://apis.i
 
 
   IF''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 28 more developer resources.'
-random_paper: 9
+random_paper: 15
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -575,8 +577,8 @@ scopes:
   slug: if-scopes
   summary_line: 11 scopes · clientCredentials
 score:
-  band: developing
-  composite: 52.7
+  band: strong
+  composite: 55.6
   coverage:
     artifact_dirs: 26
     catalog_earned: 65.0
@@ -584,15 +586,15 @@ score:
     catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 33.3
     contract_quality: 61.2
-    developer_ergonomics: 51.2
-    discoverability: 80.4
-    operational_transparency: 50.0
-  previous_composite: 45.3
+    developer_ergonomics: 64.3
+    discoverability: 73.2
+    operational_transparency: 52.6
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -612,13 +614,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/screenshots/if-2026-07-25T222048.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/if/if-2026-07-25T222048.png
 security:
 - kind: authentication
   name: If Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.2
-  scored_at: '2026-10-17'
+  score: 35.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -99,7 +101,7 @@ apis:
   description: The Token Server APIs API from TSB Bank — 3 operation(s) for token server apis.
   name: TSB Bank Token Server APIs API
   slug: tsb-bank-token-server-apis-api
-artifact_total: 19
+artifact_total: 21
 collections:
 - collection_type: open
   name: Open Data API
@@ -109,77 +111,77 @@ collections:
   slug: open-tsb-bank-oauth-server
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/capabilities/tsb-bank-capability-edges.yml
+  href: https://artifacts.apis.io/tsb-bank/capabilities/tsb-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tsb-bank-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/overlays/tsb-bank-oauth-server-overlay.yaml
+  href: https://artifacts.apis.io/tsb-bank/overlays/tsb-bank-oauth-server-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tsb-bank-oauth-server-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/overlays/tsb-bank-obie-open-data-overlay.yaml
+  href: https://artifacts.apis.io/tsb-bank/overlays/tsb-bank-obie-open-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tsb-bank-obie-open-data-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/well-known/tsb-bank-well-known.yml
+  href: https://artifacts.apis.io/tsb-bank/well-known/tsb-bank-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tsb-bank-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/well-known/tsb-bank-security.txt
+  href: https://artifacts.apis.io/tsb-bank/well-known/tsb-bank-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/tsb-bank-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/conformance/tsb-bank-conformance.yml
+  href: https://artifacts.apis.io/tsb-bank/conformance/tsb-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tsb-bank-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/lifecycle/tsb-bank-lifecycle.yml
+  href: https://artifacts.apis.io/tsb-bank/lifecycle/tsb-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tsb-bank-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/conventions/tsb-bank-conventions.yml
+  href: https://artifacts.apis.io/tsb-bank/conventions/tsb-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tsb-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/conventions/tsb-bank-conventions.yml
+  href: https://artifacts.apis.io/tsb-bank/conventions/tsb-bank-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/tsb-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/errors/tsb-bank-problem-types.yml
+  href: https://artifacts.apis.io/tsb-bank/errors/tsb-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tsb-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/data-model/tsb-bank-data-model.yml
+  href: https://artifacts.apis.io/tsb-bank/data-model/tsb-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tsb-bank-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/mcp/tsb-bank-mcp.yml
+  href: https://artifacts.apis.io/tsb-bank/mcp/tsb-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tsb-bank-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/mcp/tsb-bank-tool-crosswalk.yml
+  href: https://artifacts.apis.io/tsb-bank/mcp/tsb-bank-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tsb-bank-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/llms/tsb-bank-llms.txt
+  href: https://artifacts.apis.io/tsb-bank/llms/tsb-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tsb-bank-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tsb-bank/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -188,27 +190,27 @@ common:
   type: Security
   url: https://www.tsb.co.uk/.well-known/security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/agentic-access/tsb-bank-agentic-access.yml
+  href: https://artifacts.apis.io/tsb-bank/agentic-access/tsb-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tsb-bank-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/scopes/tsb-bank-scopes.yml
+  href: https://artifacts.apis.io/tsb-bank/scopes/tsb-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tsb-bank-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/authentication/tsb-bank-authentication.yml
+  href: https://artifacts.apis.io/tsb-bank/authentication/tsb-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tsb-bank-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/security/tsb-bank-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tsb-bank/security/tsb-bank-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tsb-bank-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/security/tsb-bank-domain-security.yml
+  href: https://artifacts.apis.io/tsb-bank/security/tsb-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tsb-bank-domain-security.yml
@@ -253,7 +255,7 @@ overview: 'TSB Bank publishes 12 API contracts indexed on the [APIs.io](https://
 
 
   TSB Bank''s developer surface includes authentication, documentation, support, and 25 more developer resources.'
-random_paper: 16
+random_paper: 18
 scopes:
 - name: Tsb Bank Scopes
   scope_count: 9
@@ -261,7 +263,7 @@ scopes:
   summary_line: 9 scopes · implicit
 score:
   band: thin
-  composite: 36.7
+  composite: 37.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -275,8 +277,8 @@ score:
     contract_governance: 18.2
     contract_quality: 39.2
     developer_ergonomics: 44.6
-    discoverability: 73.2
-    operational_transparency: 5.3
+    discoverability: 66.1
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -285,7 +287,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 36.7
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -306,13 +308,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/screenshots/tsb-bank-2026-09-02T164446.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tsb-bank/tsb-bank-2026-09-02T164446.png
 security:
 - kind: authentication
   name: Tsb Bank Authentication
@@ -326,6 +329,12 @@ security:
   name: Tsb Bank Vulnerability Disclosure
   slug: tsb-bank-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 2
+skills:
+- name: Inspect TSB identity and register an OIDC client
+  slug: tsb-bank-oidc-client-onboarding
+- name: Discover TSB Open Data
+  slug: tsb-bank-open-data-discovery
 slug: tsb-bank
 tags:
 - Financial Services

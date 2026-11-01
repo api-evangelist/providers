@@ -12,30 +12,32 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
-    rate_limit_signal: derived
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 31.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 9
   slug: australia-post-agentic-access
   summary_line: 9 operations · 1 acting
-api_count: 2
+api_count: 12
 apis:
 - description: Enables eParcel and StarTrack contract customers to lodge orders, create and print shipping labels (including dangerous goods forms), generate order summaries, despatch parcels, estimate prices and in
   name: Australia Post Shipping and Tracking API
@@ -59,52 +61,172 @@ apis:
   description: The Endpoints API from Australia Post — 9 operation(s) for endpoints.
   name: Australia Post Endpoints API
   slug: australia-post-endpoints-api
-artifact_total: 49
+artifact_total: 75
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Delivery Partner Endpoints API
   slug: open-australia-post-endpoints-api
 common:
+- group: design
+  href: https://artifacts.apis.io/australia-post/rules/australia-post-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/australia-post-rules.yml
+- group: design
+  href: https://artifacts.apis.io/australia-post/rules/australia-post-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/australia-post-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/australia-post/json-ld/australia-post-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/australia-post-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/australia-post/vocabulary/australia-post-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/australia-post-vocabulary.yml
+- group: agent
+  href: https://artifacts.apis.io/australia-post/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://artifacts.apis.io/australia-post/data-model/australia-post-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/australia-post-data-model.yml
+- group: design
+  href: https://artifacts.apis.io/australia-post/components/australia-post-components.yml
+  title: ''
+  type: Components
+  url: components/australia-post-components.yml
+- group: operate
+  href: https://artifacts.apis.io/australia-post/changelog/australia-post-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/australia-post-changelog.yml
+- group: design
+  href: https://artifacts.apis.io/australia-post/conventions/australia-post-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/australia-post-conventions.yml
+- group: start
+  href: https://artifacts.apis.io/australia-post/sandbox/australia-post-sandbox.yml
+  title: ''
+  type: Sandbox
+  url: sandbox/australia-post-sandbox.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://auspost.com.au/about-us/about-our-site/responsible-disclosure
+- group: operate
+  href: https://artifacts.apis.io/australia-post/lifecycle/australia-post-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/australia-post-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/australia-post/lifecycle/australia-post-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/australia-post-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/australia-post/errors/australia-post-error-codes.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/australia-post-error-codes.yml
+- group: design
+  href: https://artifacts.apis.io/australia-post/errors/australia-post-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/australia-post-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/australia-post/conformance/australia-post-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/australia-post-conformance.yml
+- group: other
+  href: https://artifacts.apis.io/australia-post/overlays/australia-post-agency-data-delivery-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/australia-post-agency-data-delivery-overlay.yaml
+- group: auth
+  href: https://artifacts.apis.io/australia-post/well-known/australia-post-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/australia-post-status-security.txt
+- group: auth
+  href: https://artifacts.apis.io/australia-post/well-known/australia-post-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/australia-post-security.txt
+- group: agent
+  href: https://artifacts.apis.io/australia-post/well-known/australia-post-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/australia-post-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/australia-post/hosts/australia-post-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/australia-post-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/australia-post/integrations/australia-post-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/australia-post-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/australia-post/vendors/australia-post-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/australia-post-vendors.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/plans/australia-post-plans-pricing.yml
+  title: ''
+  type: Pricing
+  url: https://auspost.com.au/disruptions-and-updates/pricing-updates
+- group: auth
+  href: https://artifacts.apis.io/australia-post/scopes/australia-post-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/australia-post-scopes.yml
+- group: commercial
+  href: https://artifacts.apis.io/australia-post/plans/australia-post-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/australia-post-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/rate-limits/australia-post-rate-limits.yml
+  href: https://artifacts.apis.io/australia-post/rate-limits/australia-post-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/australia-post-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/finops/australia-post-finops.yml
+  href: https://artifacts.apis.io/australia-post/finops/australia-post-finops.yml
   title: ''
   type: FinOps
   url: finops/australia-post-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/capabilities/australia-post-capability-edges.yml
+  href: https://artifacts.apis.io/australia-post/capabilities/australia-post-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/australia-post-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/agentic-access/australia-post-agentic-access.yml
+  href: https://artifacts.apis.io/australia-post/agentic-access/australia-post-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/australia-post-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/security/australia-post-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/australia-post/security/australia-post-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/australia-post-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/security/australia-post-domain-security.yml
+  href: https://artifacts.apis.io/australia-post/security/australia-post-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/australia-post-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/authentication/australia-post-authentication.yml
+  href: https://artifacts.apis.io/australia-post/authentication/australia-post-authentication.yml
   title: ''
   type: Authentication
   url: authentication/australia-post-authentication.yml
@@ -147,7 +269,43 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
+  url: https://auspost.com.au/content/dam/auspost_corp/media/documents/api-licence-terms-of-use.pdf
+- group: operate
+  title: ''
+  type: FAQ
   url: https://auspost.com.au/developers/help-support/
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://developers.auspost.com.au/faq
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.auspost.com.au/docs/reference
+- group: build
+  title: ''
+  type: Plugins
+  url: https://developers.auspost.com.au/plugins
+- group: operate
+  title: ''
+  type: Support
+  url: https://auspost.com.au/help
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://auspost.com.au/privacy
+- group: company
+  title: ''
+  type: Blog
+  url: https://auspost.com.au/business/grow-your-business/business-ideas-blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/auspost
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/auspost
 - group: operate
   title: ''
   type: Contact
@@ -197,6 +355,63 @@ finops:
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/australia-post.png
 json_schemas:
+- name: ApiPostageResult
+  property_count: 4
+  slug: australia-post-api-postage-result
+- name: ClassificationV3Item
+  property_count: 3
+  slug: australia-post-classification-v3-item
+- name: CountryMetadataRequest
+  property_count: 1
+  slug: australia-post-country-metadata-request
+- name: CountryMetadataResponse
+  property_count: 1
+  slug: australia-post-country-metadata-response
+- name: DrcResponse
+  property_count: 3
+  slug: australia-post-drc-response
+- name: EventVO
+  property_count: 9
+  slug: australia-post-event-vo
+- name: LandedCostV3Request
+  property_count: 3
+  slug: australia-post-landed-cost-v3-request
+- name: LandedCostV3Response
+  property_count: 7
+  slug: australia-post-landed-cost-v3-response
+- name: LetterThicknessResult
+  property_count: 1
+  slug: australia-post-letter-thickness-result
+- name: OperationalCapabilitiesResponse
+  property_count: 2
+  slug: australia-post-operational-capabilities-response
+- name: PointsResponse
+  property_count: 1
+  slug: australia-post-points-response
+- name: PresentationCatalogue
+  property_count: 2
+  slug: australia-post-presentation-catalogue
+- name: PresentationData
+  property_count: 2
+  slug: australia-post-presentation-data
+- name: ProhibitionsV3Response
+  property_count: 6
+  slug: australia-post-prohibitions-v3-response
+- name: Services
+  property_count: 4
+  slug: australia-post-services
+- name: SettlementReport
+  property_count: 1
+  slug: australia-post-settlement-report
+- name: Transactions
+  property_count: 2
+  slug: australia-post-transactions
+- name: WorkCentreByIdResponse
+  property_count: 1
+  slug: australia-post-work-centre-by-id-response
+- name: WorkCentresResponse
+  property_count: 2
+  slug: australia-post-work-centres-response
 - name: ArticleVO
   property_count: 3
   slug: delivery-partner-articlevo
@@ -257,25 +472,30 @@ json_schemas:
 - name: ServicesResponse
   property_count: 1
   slug: locations-servicesresponse
+jsonld:
+- class_count: 104
+  name: Australia Post Context
+  property_count: 252
+  slug: australia-post-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-10-21'
 name: Australia Post
 nav: Providers
 network: true
 overview: 'Australia Post publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Endpoints API, and 3 more. Tagged areas include Address Validation, Click and Collect, Delivery, E-Commerce, and Labels.
 
 
-  The Australia Post catalog on APIs.io includes 1 Spectral governance ruleset.
+  The Australia Post catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Australia Post''s developer surface includes authentication, documentation, getting-started guide, signup flow, and 17 more developer resources.'
+  Australia Post''s developer surface includes changelog, sandbox, pricing, authentication, documentation, getting-started guide, signup flow, and 48 more developer resources.'
 plans:
 - name: Australia Post Plans Pricing
-  plan_count: 4
+  plan_count: 1
   slug: australia-post-plans-pricing
-random_paper: 13
+random_paper: 1
 rate_limits:
-- limit_count: 4
+- limit_count: 2
   name: Australia Post Rate Limits
   slug: australia-post-rate-limits
 rules:
@@ -290,24 +510,41 @@ rules:
     info: 1
     warn: 4
   slug: australia-post-jsonschema-spectral-rules
+- authorship: generated
+  effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Australia Post API Rules
+  rule_count: 10
+  severity_counts:
+    error: 6
+    hint: 0
+    info: 3
+    warn: 1
+  slug: australia-post-rules
+scopes:
+- name: Australia Post Scopes
+  scope_count: 1
+  slug: australia-post-scopes
+  summary_line: 1 scope · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 35.7
+  band: exemplar
+  composite: 66.5
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 46.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 68.8
+    artifact_dirs: 34
+    catalog_earned: 81.8
+    catalog_earned_first_party: 16.0
+    catalog_gap: 33.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
-    access_clarity: 18.4
-    contract_governance: 9.8
-    contract_quality: 49.3
-    developer_ergonomics: 42.9
-    discoverability: 66.1
-    operational_transparency: 23.7
+    access_clarity: 65.8
+    contract_governance: 35.6
+    contract_quality: 60.1
+    developer_ergonomics: 66.1
+    discoverability: 71.4
+    operational_transparency: 76.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -315,32 +552,36 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 44.0
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 40.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/screenshots/australia-post-2026-06-20T172603.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/australia-post/australia-post-2026-06-20T172603.png
 security:
 - kind: authentication
   name: Australia Post Authentication
   slug: australia-post-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 3 schemes
 - kind: domain-security
   name: Australia Post Domain Security
   slug: australia-post-domain-security
@@ -349,6 +590,18 @@ security:
   name: Australia Post Vulnerability Disclosure
   slug: australia-post-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 5
+skills:
+- name: calculate-domestic-parcel-postage
+  slug: australia-post-calculate-domestic-parcel-postage
+- name: calculate-international-parcel-postage
+  slug: australia-post-calculate-international-parcel-postage
+- name: check-international-export-compliance
+  slug: australia-post-check-international-export-compliance
+- name: find-post-office-locations
+  slug: australia-post-find-post-office-locations
+- name: reconcile-agency-transactions
+  slug: australia-post-reconcile-agency-transactions
 slug: australia-post
 tags:
 - Address Validation

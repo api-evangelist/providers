@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,20 +22,22 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.1
-  scored_at: '2026-10-17'
-api_count: 3
+  score: 34.9
+  scored_at: '2026-10-31'
+api_count: 4
 apis:
 - description: The NPP API Framework defines the mandatory technical approach and data attributes for APIs built on the New Payments Platform, aligned to the ISO 20022 messaging standard. NPP Australia does not itse
   name: NPP API Framework
@@ -46,26 +48,83 @@ apis:
 - description: 'PayID is NPP''s addressing service, allowing payments to be directed using a simple identifier such as a mobile number, email address, ABN or organisation ID instead of a BSB and account number. It is '
   name: PayID
   slug: payid
-artifact_total: 6
+- description: 'NPP Australia (AP+) API as documented publicly: 41 operations. Contract generated from the documentation by API Evangelist (2026-10-21); not the provider''s own document.'
+  name: NPP Australia (AP+) API
+  slug: npp-australia-api
+artifact_total: 10
 common:
+- group: commercial
+  href: https://artifacts.apis.io/npp-australia/plans/npp-australia-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/npp-australia-plans-pricing.yml
+- group: design
+  href: https://artifacts.apis.io/npp-australia/rules/npp-australia-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/npp-australia-rules.yml
+- group: design
+  href: https://artifacts.apis.io/npp-australia/vocabulary/npp-australia-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/npp-australia-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/npp-australia/conventions/npp-australia-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/npp-australia-conventions.yml
+- group: start
+  href: https://artifacts.apis.io/npp-australia/sandbox/npp-australia-sandbox.yml
+  title: ''
+  type: Sandbox
+  url: sandbox/npp-australia-sandbox.yml
+- group: operate
+  href: https://artifacts.apis.io/npp-australia/lifecycle/npp-australia-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/npp-australia-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/npp-australia/errors/npp-australia-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/npp-australia-problem-types.yml
+- group: agent
+  href: https://artifacts.apis.io/npp-australia/llms/npp-australia-auspayplus-site-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/npp-australia-auspayplus-site-llms.txt
+- group: other
+  href: https://artifacts.apis.io/npp-australia/hosts/npp-australia-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/npp-australia-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/npp-australia/vendors/npp-australia-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/npp-australia-vendors.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.auspayplus.com.au/feed
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/npp-australia/refs/heads/main/security/npp-australia-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/npp-australia/security/npp-australia-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/npp-australia-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/npp-australia/refs/heads/main/security/npp-australia-domain-security.yml
+  href: https://artifacts.apis.io/npp-australia/security/npp-australia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/npp-australia-domain-security.yml
 - group: company
   title: ''
   type: Website
-  url: https://www.auspayplus.com.au/solutions/npp
+  url: https://www.auspayplus.com.au/
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://www.auspayplus.com.au/2026-ap-roadmap
 - group: start
   title: ''
   type: DeveloperPortal
@@ -85,23 +144,19 @@ common:
 - group: start
   title: ''
   type: SignUp
-  url: https://www.developers.auspayplus.com.au/api/auth/signup/
+  url: https://www.developers.auspayplus.com.au/auth/login?screen_hint=signup
 - group: start
   title: ''
   type: Login
-  url: https://www.developers.auspayplus.com.au/api/auth/login/
+  url: https://www.developers.auspayplus.com.au/auth/login?returnTo=/
 - group: company
   title: ''
   type: Blog
-  url: https://www.auspayplus.com.au/news
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/auspayplus/
+  url: https://www.auspayplus.com.au/news-updates
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.auspayplus.com.au/terms-of-use
+  url: https://www.auspayplus.com.au/terms-conditions
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -119,27 +174,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/auspayplus
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/npp-australia/refs/heads/main/well-known/npp-australia-well-known.yml
+  href: https://artifacts.apis.io/npp-australia/well-known/npp-australia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/npp-australia-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/npp-australia/refs/heads/main/well-known/npp-australia-security.txt
+  href: https://artifacts.apis.io/npp-australia/well-known/npp-australia-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/npp-australia-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/npp-australia/refs/heads/main/authentication/npp-australia-authentication.yml
+  href: https://artifacts.apis.io/npp-australia/authentication/npp-australia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/npp-australia-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/npp-australia/refs/heads/main/conformance/npp-australia-conformance.yml
+  href: https://artifacts.apis.io/npp-australia/conformance/npp-australia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/npp-australia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/npp-australia/refs/heads/main/lifecycle/npp-australia-lifecycle.yml
+  href: https://artifacts.apis.io/npp-australia/lifecycle/npp-australia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/npp-australia-lifecycle.yml
@@ -148,42 +203,66 @@ common:
   type: Security
   url: https://www.auspayplus.com.au/security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/npp-australia/refs/heads/main/llms/npp-australia-llms.txt
+  href: https://artifacts.apis.io/npp-australia/llms/npp-australia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/npp-australia-llms.txt
 created: '2026-07-24'
 description: 'NPP Australia is the operator of the New Payments Platform (NPP), Australia''s national real-time, data-rich, account-to-account payments infrastructure that settles 24 hours a day, 365 days a year across more than 100 connected banks, credit unions, fintechs and government agencies. Since 2021 NPP Australia has been a wholly owned subsidiary of Australian Payments Plus (AP+), the entity formed by amalgamating NPP Australia, BPAY Group and eftpos. On top of the core clearing-and-settlement rail, NPP operates two overlay services: PayID, an addressing service that maps a mobile number, email, ABN or organisation ID to a bank account, and PayTo, a real-time mandated-debit capability that gives consumers visibility and control over recurring and one-off account debits. Its home market is Australia, and it sits alongside the Consumer Data Right as the country''s payments spine. Its API posture is that of a scheme and rail operator rather than a self-serve PSP: NPP Australia itself
   does not sell a public API, but it publishes the ISO 20022-aligned NPP API Framework that defines the mandatory technical approach and data attributes NPP Participants implement, and AP+ runs a (registration-gated) developer portal plus a SWIFT-hosted API sandbox. The consumable APIs are offered by NPP Participants, not by NPP Australia.'
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://www.auspayplus.com.au/wp-content/uploads/2025/09/home-logo-npp.png
 layout: provider
-modified: '2026-10-06'
+modified: '2026-10-21'
 name: NPP Australia (AP+)
 nav: Providers
 network: true
-overview: 'NPP Australia (AP+) is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Australia, Real-Time Payments, Account-to-Account, and ISO 20022.
+overview: 'NPP Australia (AP+) is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Australia, Real-Time Payments, Account-to-Account, and ISO 20022.
 
 
-  NPP Australia (AP+)''s developer surface includes documentation, API reference, sandbox, signup flow, engineering blog, getting-started guide, support, and 17 more developer resources.'
-random_paper: 3
+  The NPP Australia (AP+) catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  NPP Australia (AP+)''s developer surface includes sandbox, documentation, API reference, signup flow, engineering blog, getting-started guide, support, and 27 more developer resources.'
+plans:
+- name: Npp Australia Plans Pricing
+  plan_count: 8
+  slug: npp-australia-plans-pricing
+random_paper: 1
+rate_limits:
+- limit_count: 0
+  name: Npp Australia Rate Limits
+  slug: npp-australia-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: NPP Australia (AP+) API Rules
+  rule_count: 9
+  severity_counts:
+    error: 7
+    hint: 0
+    info: 1
+    warn: 1
+  slug: npp-australia-rules
 score:
-  band: thin
-  composite: 29.8
+  band: developing
+  composite: 43.2
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 35.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    artifact_dirs: 24
+    catalog_earned: 52.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 34.2
-    contract_governance: 18.2
-    contract_quality: 0.0
-    developer_ergonomics: 60.7
-    discoverability: 69.6
-    operational_transparency: 7.9
+    access_clarity: 65.8
+    contract_governance: 35.6
+    contract_quality: 9.4
+    developer_ergonomics: 64.3
+    discoverability: 62.5
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -191,23 +270,29 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 29.7
+  previous_composite: 43.2
   provenance:
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 15
+      marker_coverage: 100.0
+      total: 15
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/npp-australia/refs/heads/main/screenshots/npp-australia-2026-08-07T185651.png
+screenshot: https://apis.io/screenshots/npp-australia/npp-australia-2026-08-07T185651.png
 security:
 - kind: authentication
   name: Npp Australia Authentication
@@ -229,9 +314,9 @@ tags:
 - Account-to-Account
 - ISO 20022
 - Payment Scheme
-- Rails
+- Payment Rails
 - PayTo
 - PayID
 - Open Banking
-website: https://www.auspayplus.com.au/solutions/npp
+website: https://www.auspayplus.com.au/
 ---

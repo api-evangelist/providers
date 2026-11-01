@@ -26,117 +26,119 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.3
-  scored_at: '2026-10-17'
+  score: 7.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: gRPC / Protocol Buffers API for integrating a game with LinQ Wallet services. Covers geo restriction checks by IP and coordinates, anonymous and wallet-linked user authentication, account balances, de
   name: LinQ Wallet Public API
   slug: linq-wallet-public-api
-artifact_total: 3
+artifact_total: 6
 common:
 - group: company
   title: ''
   type: Website
   url: https://www.linq.gg/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/mcp/linqgg-mcp.yml
+  href: https://artifacts.apis.io/linqgg/mcp/linqgg-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/linqgg-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/security/linqgg-domain-security.yml
+  href: https://artifacts.apis.io/linqgg/security/linqgg-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/linqgg-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/grpc/linqgg-services.yml
+  href: https://artifacts.apis.io/linqgg/grpc/linqgg-services.yml
   title: ''
   type: Protobuf
   url: grpc/linqgg-services.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/packages/linqgg-packages.yml
+  href: https://artifacts.apis.io/linqgg/packages/linqgg-packages.yml
   title: ''
   type: Packages
   url: packages/linqgg-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/packages/linqgg-packages.yml
+  href: https://artifacts.apis.io/linqgg/packages/linqgg-packages.yml
   title: ''
   type: SDKs
   url: packages/linqgg-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/authentication/linqgg-authentication.yml
+  href: https://artifacts.apis.io/linqgg/authentication/linqgg-authentication.yml
   title: ''
   type: Authentication
   url: authentication/linqgg-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/conventions/linqgg-conventions.yml
+  href: https://artifacts.apis.io/linqgg/conventions/linqgg-conventions.yml
   title: ''
   type: Conventions
   url: conventions/linqgg-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/conventions/linqgg-conventions.yml
+  href: https://artifacts.apis.io/linqgg/conventions/linqgg-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/linqgg-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/errors/linqgg-error-codes.yml
+  href: https://artifacts.apis.io/linqgg/errors/linqgg-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/linqgg-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/lifecycle/linqgg-lifecycle.yml
+  href: https://artifacts.apis.io/linqgg/lifecycle/linqgg-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/linqgg-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/lifecycle/linqgg-lifecycle.yml
+  href: https://artifacts.apis.io/linqgg/lifecycle/linqgg-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/linqgg-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/conformance/linqgg-conformance.yml
+  href: https://artifacts.apis.io/linqgg/conformance/linqgg-conformance.yml
   title: ''
   type: Conformance
   url: conformance/linqgg-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/conformance/linqgg-conformance.yml
+  href: https://artifacts.apis.io/linqgg/conformance/linqgg-conformance.yml
   title: ''
   type: Compliance
   url: conformance/linqgg-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/sandbox/linqgg-sandbox.yml
+  href: https://artifacts.apis.io/linqgg/sandbox/linqgg-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/linqgg-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/changelog/linqgg-changelog.yml
+  href: https://artifacts.apis.io/linqgg/changelog/linqgg-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/linqgg-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/components/linqgg-components.yml
+  href: https://artifacts.apis.io/linqgg/components/linqgg-components.yml
   title: ''
   type: Components
   url: components/linqgg-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/data-model/linqgg-data-model.yml
+  href: https://artifacts.apis.io/linqgg/data-model/linqgg-data-model.yml
   title: ''
   type: DataModel
   url: data-model/linqgg-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/linqgg/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/llms/linqgg-llms.txt
+  href: https://artifacts.apis.io/linqgg/llms/linqgg-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/linqgg-llms.txt
@@ -192,12 +194,12 @@ overview: 'Linq.gg is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Linq.gg''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 23 more developer resources.'
-random_paper: 4
+random_paper: 18
 score:
-  band: developing
-  composite: 41.6
+  band: thin
+  composite: 36.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -207,11 +209,11 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 24.0
-    developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 31.6
-  previous_composite: 41.6
+    contract_quality: 0.0
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 34.2
+  previous_composite: 36.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -222,14 +224,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/screenshots/linqgg-2026-07-25T225259.png
+screenshot: https://apis.io/screenshots/linqgg/linqgg-2026-07-25T225259.png
 security:
 - kind: authentication
   name: Linqgg Authentication
@@ -239,6 +241,14 @@ security:
   name: Linqgg Domain Security
   slug: linqgg-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: linqgg-onboard-player
+  slug: linqgg-onboard-player
+- name: linqgg-run-tournament-economy
+  slug: linqgg-run-tournament-economy
+- name: linqgg-top-up-balance
+  slug: linqgg-top-up-balance
 slug: linqgg
 tags:
 - Company

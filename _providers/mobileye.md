@@ -25,19 +25,36 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 2.9
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  href: https://artifacts.apis.io/mobileye/hosts/mobileye-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/mobileye-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/mobileye/integrations/mobileye-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/mobileye-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/mobileye/vendors/mobileye-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/mobileye-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mobileye/refs/heads/main/security/mobileye-domain-security.yml
+  href: https://artifacts.apis.io/mobileye/security/mobileye-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mobileye-domain-security.yml
@@ -67,16 +84,8 @@ common:
   url: https://www.mobileye.com/technology/eyeq-chip/
 - group: other
   title: ''
-  type: SuperVision
-  url: https://www.mobileye.com/solutions/supervision/
-- group: other
-  title: ''
   type: Chauffeur
   url: https://www.mobileye.com/solutions/chauffeur/
-- group: other
-  title: ''
-  type: Drive
-  url: https://www.mobileye.com/solutions/mobileye-drive/
 - group: other
   title: ''
   type: REM
@@ -85,14 +94,6 @@ common:
   title: ''
   type: RSS
   url: https://www.mobileye.com/technology/responsibility-sensitive-safety/
-- group: other
-  title: ''
-  type: Safety
-  url: https://www.mobileye.com/safety/
-- group: other
-  title: ''
-  type: Aftermarket
-  url: https://www.mobileye.com/aftermarket/
 - group: company
   title: ''
   type: Careers
@@ -121,58 +122,84 @@ common:
   title: ''
   type: YouTube
   url: https://www.youtube.com/@mobileye
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.mobileye.com/support/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.mobileye.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.mobileye.com/privacy-policy/
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.mobileye.com/about/management/
+coverage:
+  checked: '2026-10-20'
+  detail: Mobileye sells EyeQ chips and ADAS/AV stacks through private OEM engagements; www.mobileye.com links no developer portal, docs or API, developer.mobileye.com and api.mobileye.com do not resolve, and no llms.txt is served.
+  evidence:
+  - status: 200
+    url: https://www.mobileye.com
+  - status: 404
+    url: https://www.mobileye.com/llms.txt
+  reason: no-developer-program
+  state: none
 created: '2026-05-23'
 description: Mobileye is an Israel-headquartered ADAS and autonomous-driving technology company, majority-owned by Intel and publicly traded on NASDAQ as MBLY. Its flagship platform is the EyeQ family of purpose-built automotive systems-on-chip (EyeQ4, EyeQ5, EyeQ6L, EyeQ6H, EyeQ Ultra), shipped in over 175 million vehicles worldwide through partnerships with most major OEMs. Mobileye's solution portfolio spans entry-level ADAS, Mobileye SuperVision (eyes-on, hands-off highway and urban driving), Mobileye Chauffeur (eyes-off conditional autonomy), and Mobileye Drive (Level 4 full autonomy in robotaxi and goods-delivery applications). The company pioneered Responsibility- Sensitive Safety (RSS), a mathematical framework for AV decision safety contributed to IEEE standards work, and operates Road Experience Management (REM), a crowdsourced HD-mapping system that harvests anonymized road data from millions of consumer vehicles to build and update the Mobileye Roadbook. Mobileye does not publish
   a traditional public developer API; OEM and integration relationships are private B2B engagements.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mobileye.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-10-20'
 name: Mobileye
 nav: Providers
 network: true
 overview: 'Mobileye is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include ADAS, Autonomous Vehicles, Computer Vision, EyeQ, and Supervision.
 
 
-  Mobileye''s developer surface includes engineering blog, YouTube channel, and 19 more developer resources.'
-random_paper: 18
+  Mobileye''s developer surface includes engineering blog, YouTube channel, support, and 21 more developer resources.'
+random_paper: 14
 score:
   band: minimal
-  composite: 4.0
+  composite: 10.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 49.1
+    developer_ergonomics: 7.1
+    discoverability: 51.8
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - israel
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 3.9
+  previous_composite: 10.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 12.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mobileye/refs/heads/main/screenshots/mobileye-2026-06-20T185647.png
+screenshot: https://apis.io/screenshots/mobileye/mobileye-2026-06-20T185647.png
 security:
 - kind: domain-security
   name: Mobileye Domain Security

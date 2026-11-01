@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 23.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -72,9 +74,6 @@ collections:
   name: Snyk Container Container Projects Targets API
   slug: postman-snyk-container-targets-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Snyk Container Container Projects API
   slug: open-snyk-container-container-projects-api
 - collection_type: open
@@ -88,22 +87,22 @@ collections:
   slug: open-snyk-container
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/plans/snyk-container-plans-pricing.yml
+  href: https://artifacts.apis.io/snyk-container/plans/snyk-container-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/snyk-container-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/rate-limits/snyk-container-rate-limits.yml
+  href: https://artifacts.apis.io/snyk-container/rate-limits/snyk-container-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/snyk-container-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/finops/snyk-container-finops.yml
+  href: https://artifacts.apis.io/snyk-container/finops/snyk-container-finops.yml
   title: ''
   type: FinOps
   url: finops/snyk-container-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/capabilities/snyk-container-capability-edges.yml
+  href: https://artifacts.apis.io/snyk-container/capabilities/snyk-container-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/snyk-container-capability-edges.yml
@@ -112,27 +111,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/snyk-container/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/agentic-access/snyk-container-agentic-access.yml
+  href: https://artifacts.apis.io/snyk-container/agentic-access/snyk-container-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/snyk-container-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/security/snyk-container-trust-center.yml
+  href: https://artifacts.apis.io/snyk-container/security/snyk-container-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/snyk-container-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/security/snyk-container-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/snyk-container/security/snyk-container-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/snyk-container-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/security/snyk-container-domain-security.yml
+  href: https://artifacts.apis.io/snyk-container/security/snyk-container-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snyk-container-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/authentication/snyk-container-authentication.yml
+  href: https://artifacts.apis.io/snyk-container/authentication/snyk-container-authentication.yml
   title: ''
   type: Authentication
   url: authentication/snyk-container-authentication.yml
@@ -189,17 +188,17 @@ common:
   type: Kubernetes Operator
   url: https://github.com/snyk/kubernetes-monitor
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/vocabulary/snyk-container-vocabulary.yml
+  href: https://artifacts.apis.io/snyk-container/vocabulary/snyk-container-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/snyk-container-vocabulary.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/examples/snyk-container-list-projects-example.json
+  href: https://artifacts.apis.io/snyk-container/examples/snyk-container-list-projects-example.json
   title: ''
   type: Examples
   url: examples/snyk-container-list-projects-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/examples/snyk-container-list-issues-example.json
+  href: https://artifacts.apis.io/snyk-container/examples/snyk-container-list-issues-example.json
   title: ''
   type: Examples
   url: examples/snyk-container-list-issues-example.json
@@ -217,13 +216,13 @@ examples:
   name: Snyk Container List Projects Example
   slug: snyk-container-list-projects-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Snyk Container Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: snyk-container-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/snyk-container.png
 json_schemas:
 - name: Snyk Container Issue
@@ -257,7 +256,10 @@ plans:
 - name: Snyk Container Plans Pricing
   plan_count: 3
   slug: snyk-container-plans-pricing
-random_paper: 9
+- name: Snyk Container Price Estimates
+  plan_count: 0
+  slug: snyk-container-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Snyk Container Rate Limits
@@ -287,24 +289,24 @@ rules:
     warn: 3
   slug: snyk-container-rules
 score:
-  band: developing
-  composite: 50.1
+  band: strong
+  composite: 58.8
   coverage:
     artifact_dirs: 20
-    catalog_earned: 64.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_earned: 76.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 39.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 27.3
     contract_quality: 64.9
     developer_ergonomics: 58.3
     discoverability: 64.3
-    operational_transparency: 26.3
-  previous_composite: 51.6
+    operational_transparency: 39.5
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     contracts:
@@ -318,13 +320,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/screenshots/snyk-container-2026-06-20T194116.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/snyk-container/snyk-container-2026-06-20T194116.png
 security:
 - kind: authentication
   name: Snyk Container Authentication

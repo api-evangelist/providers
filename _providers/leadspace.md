@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.3
-  scored_at: '2026-10-17'
+  score: 48.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -111,15 +113,12 @@ apis:
     question: Where do I see the surging intent topics once my intent refresh finishes?
   phrasing_ops: 3
   slug: leadspace-results-api
-artifact_total: 22
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Leadspace Callbacks Webhooks
   slug: leadspace-callbacks-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Leadspace Discovery Authorization API
   slug: open-leadspace-authorization-api
@@ -137,17 +136,17 @@ collections:
   slug: open-leadspace-results-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/capabilities/leadspace-capability-edges.yml
+  href: https://artifacts.apis.io/leadspace/capabilities/leadspace-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/leadspace-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/overlays/leadspace-discovery-overlay.yaml
+  href: https://artifacts.apis.io/leadspace/overlays/leadspace-discovery-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/leadspace-discovery-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/agentic-access/leadspace-agentic-access.yml
+  href: https://artifacts.apis.io/leadspace/agentic-access/leadspace-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/leadspace-agentic-access.yml
@@ -200,17 +199,17 @@ common:
   type: StatusPage
   url: https://status.leadspace.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/lifecycle/leadspace-lifecycle.yml
+  href: https://artifacts.apis.io/leadspace/lifecycle/leadspace-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/leadspace-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/lifecycle/leadspace-lifecycle.yml
+  href: https://artifacts.apis.io/leadspace/lifecycle/leadspace-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/leadspace-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/changelog/leadspace-changelog.yml
+  href: https://artifacts.apis.io/leadspace/changelog/leadspace-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/leadspace-changelog.yml
@@ -219,47 +218,47 @@ common:
   type: ChangeLogPage
   url: https://support.leadspace.com/hc/en-us/categories/7154652740626-Release-Notes
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/authentication/leadspace-authentication.yml
+  href: https://artifacts.apis.io/leadspace/authentication/leadspace-authentication.yml
   title: ''
   type: Authentication
   url: authentication/leadspace-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/conventions/leadspace-conventions.yml
+  href: https://artifacts.apis.io/leadspace/conventions/leadspace-conventions.yml
   title: ''
   type: Conventions
   url: conventions/leadspace-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/errors/leadspace-problem-types.yml
+  href: https://artifacts.apis.io/leadspace/errors/leadspace-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/leadspace-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/errors/leadspace-error-codes.yml
+  href: https://artifacts.apis.io/leadspace/errors/leadspace-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/leadspace-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/rate-limits/leadspace-rate-limits.yml
+  href: https://artifacts.apis.io/leadspace/rate-limits/leadspace-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/leadspace-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/data-model/leadspace-data-model.yml
+  href: https://artifacts.apis.io/leadspace/data-model/leadspace-data-model.yml
   title: ''
   type: DataModel
   url: data-model/leadspace-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/examples/leadspace-examples.yml
+  href: https://artifacts.apis.io/leadspace/examples/leadspace-examples.yml
   title: ''
   type: Examples
   url: examples/leadspace-examples.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/asyncapi/leadspace-callbacks-webhooks.yml
+  href: https://artifacts.apis.io/leadspace/asyncapi/leadspace-callbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/leadspace-callbacks-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/conformance/leadspace-conformance.yml
+  href: https://artifacts.apis.io/leadspace/conformance/leadspace-conformance.yml
   title: ''
   type: Conformance
   url: conformance/leadspace-conformance.yml
@@ -272,47 +271,47 @@ common:
   type: Security
   url: https://www.leadspace.com/report-a-vulnerability
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/security/leadspace-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/leadspace/security/leadspace-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/leadspace-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/security/leadspace-domain-security.yml
+  href: https://artifacts.apis.io/leadspace/security/leadspace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leadspace-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/well-known/leadspace-well-known.yml
+  href: https://artifacts.apis.io/leadspace/well-known/leadspace-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/leadspace-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/components/leadspace-components.yml
+  href: https://artifacts.apis.io/leadspace/components/leadspace-components.yml
   title: ''
   type: Components
   url: components/leadspace-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/mcp/leadspace-mcp.yml
+  href: https://artifacts.apis.io/leadspace/mcp/leadspace-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/leadspace-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/mcp/leadspace-tool-crosswalk.yml
+  href: https://artifacts.apis.io/leadspace/mcp/leadspace-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/leadspace-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/scopes/leadspace-scopes.yml
+  href: https://artifacts.apis.io/leadspace/scopes/leadspace-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/leadspace-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/security/leadspace-trust-center.yml
+  href: https://artifacts.apis.io/leadspace/security/leadspace-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/leadspace-trust-center.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/plans/leadspace-plans-pricing.yml
+  href: https://artifacts.apis.io/leadspace/plans/leadspace-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/leadspace-plans-pricing.yml
@@ -321,7 +320,7 @@ common:
   type: Pricing
   url: https://www.leadspace.com/solutions/sidekick/pricing
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/packages/leadspace-packages.yml
+  href: https://artifacts.apis.io/leadspace/packages/leadspace-packages.yml
   title: ''
   type: Packages
   url: packages/leadspace-packages.yml
@@ -330,18 +329,26 @@ common:
   type: Login
   url: https://skprod.leadspace.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/leadspace/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/llms/leadspace-llms.txt
+  href: https://artifacts.apis.io/leadspace/llms/leadspace-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leadspace-llms.txt
 created: '2026-07-17'
 description: 'Leadspace is a B2B GTM Data Intelligence Cloud and customer data platform that unifies buyer data, account data, and buying signals into the Leadspace Universal Graph. Its API-first enrichment service resolves partial person and company records into full profiles carrying firmographics (SIC, NAICS, industry, revenue, employee counts), corporate family-tree hierarchy, department sizes, funding and investor history, installed-base and website technology signals, weekly buyer-intent models sourced from Leadspace Intent and Bombora, and persona and predictive fit scores. Leadspace exposes single and bulk enrichment, contact discovery (account expansion), and an intent-only refresh API over a single gateway, alongside Leadspace Studio for segment building and SmartForms for real-time inbound web-form enrichment. As of 2026 Leadspace also ships two self-serve agent-facing products that share one account: Leadspace Sidekick, a Chrome extension overlaying verified contact data and
   fit scoring on LinkedIn, and Leadspace MCP, a hosted remote Model Context Protocol server that plugs the same data graph into Claude, ChatGPT and any MCP-compatible client with per-user OAuth. It integrates with Salesforce, Marketo, Eloqua, and HubSpot. Leadspace is ISO 27001 certified and SOC 2 Type II audited.'
+finops:
+- has_sources: true
+  method: derived
+  name: Leadspace Finops
+  primary_unit: seat
+  service_category: ''
+  slug: leadspace-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/leadspace.png
 layout: provider
 mcp_servers:
@@ -363,7 +370,10 @@ plans:
 - name: Leadspace Plans Pricing
   plan_count: 4
   slug: leadspace-plans-pricing
-random_paper: 6
+- name: Leadspace Price Estimates
+  plan_count: 0
+  slug: leadspace-price-estimates
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Leadspace Rate Limits
@@ -375,23 +385,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.1
+  composite: 72.1
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 60.0
+    artifact_dirs: 28
+    catalog_earned: 63.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 62.9
     developer_ergonomics: 58.9
-    discoverability: 71.4
-    operational_transparency: 73.7
-  previous_composite: 70.0
+    discoverability: 70.0
+    operational_transparency: 84.2
+  previous_composite: 70.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -408,13 +418,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/screenshots/leadspace-2026-07-25T224715.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/leadspace/leadspace-2026-07-25T224715.png
 security:
 - kind: authentication
   name: Leadspace Authentication
@@ -432,6 +443,18 @@ security:
   name: Leadspace Trust Center
   slug: leadspace-trust-center
   summary_line: SOC 2 Type II, ISO 27001
+skill_count: 5
+skills:
+- name: Bulk enrich records with Leadspace and collect the results
+  slug: leadspace-bulk-enrich-and-poll
+- name: Connect an agent to the Leadspace MCP server
+  slug: leadspace-connect-mcp
+- name: Discover net-new contacts inside target accounts with Leadspace
+  slug: leadspace-discover-contacts
+- name: Enrich a person or company record with Leadspace
+  slug: leadspace-enrich-record
+- name: Refresh buyer intent for accounts with Leadspace
+  slug: leadspace-refresh-intent
 slug: leadspace
 tags:
 - MCP

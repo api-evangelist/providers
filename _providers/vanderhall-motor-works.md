@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 35.6
-  scored_at: '2026-10-17'
+  score: 30.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: An OAuth-protected Model Context Protocol endpoint served from the Vanderhall Admin Portal at https://portal.vanderhallusa.com/mcp. The endpoint is live and speaks JSON-RPC 2.0, but every method — inc
@@ -56,67 +58,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/vanderhall
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vanderhall-motor-works/refs/heads/main/mcp/vanderhall-motor-works-mcp.yml
+  href: https://artifacts.apis.io/vanderhall-motor-works/mcp/vanderhall-motor-works-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/vanderhall-motor-works-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vanderhall-motor-works/refs/heads/main/well-known/vanderhall-motor-works-well-known.yml
+  href: https://artifacts.apis.io/vanderhall-motor-works/well-known/vanderhall-motor-works-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vanderhall-motor-works-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vanderhall-motor-works/refs/heads/main/authentication/vanderhall-motor-works-authentication.yml
+  href: https://artifacts.apis.io/vanderhall-motor-works/authentication/vanderhall-motor-works-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vanderhall-motor-works-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vanderhall-motor-works/refs/heads/main/scopes/vanderhall-motor-works-scopes.yml
+  href: https://artifacts.apis.io/vanderhall-motor-works/scopes/vanderhall-motor-works-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vanderhall-motor-works-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vanderhall-motor-works/refs/heads/main/conformance/vanderhall-motor-works-conformance.yml
+  href: https://artifacts.apis.io/vanderhall-motor-works/conformance/vanderhall-motor-works-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vanderhall-motor-works-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vanderhall-motor-works/refs/heads/main/errors/vanderhall-motor-works-problem-types.yml
+  href: https://artifacts.apis.io/vanderhall-motor-works/errors/vanderhall-motor-works-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vanderhall-motor-works-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vanderhall-motor-works/refs/heads/main/conventions/vanderhall-motor-works-conventions.yml
+  href: https://artifacts.apis.io/vanderhall-motor-works/conventions/vanderhall-motor-works-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vanderhall-motor-works-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vanderhall-motor-works/refs/heads/main/lifecycle/vanderhall-motor-works-lifecycle.yml
+  href: https://artifacts.apis.io/vanderhall-motor-works/lifecycle/vanderhall-motor-works-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vanderhall-motor-works-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vanderhall-motor-works/refs/heads/main/rate-limits/vanderhall-motor-works-rate-limits.yml
+  href: https://artifacts.apis.io/vanderhall-motor-works/rate-limits/vanderhall-motor-works-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vanderhall-motor-works-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vanderhall-motor-works/refs/heads/main/plans/vanderhall-motor-works-plans-pricing.yml
+  href: https://artifacts.apis.io/vanderhall-motor-works/plans/vanderhall-motor-works-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vanderhall-motor-works-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vanderhall-motor-works/refs/heads/main/packages/vanderhall-motor-works-packages.yml
+  href: https://artifacts.apis.io/vanderhall-motor-works/packages/vanderhall-motor-works-packages.yml
   title: ''
   type: Packages
   url: packages/vanderhall-motor-works-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vanderhall-motor-works/refs/heads/main/llms/vanderhall-motor-works-llms.txt
+  href: https://artifacts.apis.io/vanderhall-motor-works/llms/vanderhall-motor-works-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vanderhall-motor-works-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vanderhall-motor-works/refs/heads/main/security/vanderhall-motor-works-domain-security.yml
+  href: https://artifacts.apis.io/vanderhall-motor-works/security/vanderhall-motor-works-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vanderhall-motor-works-domain-security.yml
@@ -140,7 +142,7 @@ plans:
 - name: Vanderhall Motor Works Plans Pricing
   plan_count: 0
   slug: vanderhall-motor-works-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Vanderhall Motor Works Rate Limits
@@ -152,7 +154,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: emerging
-  composite: 16.7
+  composite: 20.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -160,14 +162,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 23.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 68.3
-    operational_transparency: 2.6
+    discoverability: 65.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -175,7 +177,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 16.2
+  previous_composite: 20.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -184,15 +186,15 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 27.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 31.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vanderhall-motor-works/refs/heads/main/screenshots/vanderhall-motor-works-2026-10-11T131611.png
+screenshot: https://apis.io/screenshots/vanderhall-motor-works/vanderhall-motor-works-2026-10-11T131611.png
 security:
 - kind: authentication
   name: Vanderhall Motor Works Authentication

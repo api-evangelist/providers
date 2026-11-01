@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +67,7 @@ common:
   type: PrivacyPolicy
   url: https://propseller.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/propseller/refs/heads/main/security/propseller-domain-security.yml
+  href: https://artifacts.apis.io/propseller/security/propseller-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/propseller-domain-security.yml
@@ -81,7 +83,7 @@ overview: 'Propseller is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Propseller''s developer surface includes engineering blog, pricing, support, and 5 more developer resources.'
-random_paper: 18
+random_paper: 16
 score:
   band: emerging
   composite: 11.4
@@ -114,14 +116,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/propseller/refs/heads/main/screenshots/propseller-2026-09-02T152206.png
+screenshot: https://apis.io/screenshots/propseller/propseller-2026-09-02T152206.png
 security:
 - kind: domain-security
   name: Propseller Domain Security

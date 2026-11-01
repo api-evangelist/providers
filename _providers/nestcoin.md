@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.5
-  scored_at: '2026-10-17'
+  score: 30.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -160,15 +162,12 @@ apis:
   description: User related endpoints
   name: Nestcoin Users Users API
   slug: nestcoin-users-users-api
-artifact_total: 51
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Nestcoin Webhooks
   slug: nestcoin-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Onboard External API Gateway auth-oauth API
   slug: open-nestcoin-auth-oauth-api
@@ -240,7 +239,7 @@ collections:
   slug: open-nestcoin-users-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/overlays/nestcoin-external-gateway-overlay.yaml
+  href: https://artifacts.apis.io/nestcoin/overlays/nestcoin-external-gateway-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nestcoin-external-gateway-overlay.yaml
@@ -285,62 +284,62 @@ common:
   type: PrivacyPolicy
   url: https://nestcoin.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/authentication/nestcoin-authentication.yml
+  href: https://artifacts.apis.io/nestcoin/authentication/nestcoin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nestcoin-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/conventions/nestcoin-conventions.yml
+  href: https://artifacts.apis.io/nestcoin/conventions/nestcoin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nestcoin-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/conformance/nestcoin-conformance.yml
+  href: https://artifacts.apis.io/nestcoin/conformance/nestcoin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nestcoin-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/lifecycle/nestcoin-lifecycle.yml
+  href: https://artifacts.apis.io/nestcoin/lifecycle/nestcoin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nestcoin-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/sandbox/nestcoin-sandbox.yml
+  href: https://artifacts.apis.io/nestcoin/sandbox/nestcoin-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nestcoin-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/asyncapi/nestcoin-webhooks.yml
+  href: https://artifacts.apis.io/nestcoin/asyncapi/nestcoin-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/nestcoin-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/mcp/nestcoin-mcp.yml
+  href: https://artifacts.apis.io/nestcoin/mcp/nestcoin-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nestcoin-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nestcoin/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/well-known/nestcoin-well-known.yml
+  href: https://artifacts.apis.io/nestcoin/well-known/nestcoin-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nestcoin-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/llms/nestcoin-llms.txt
+  href: https://artifacts.apis.io/nestcoin/llms/nestcoin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nestcoin-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/security/nestcoin-domain-security.yml
+  href: https://artifacts.apis.io/nestcoin/security/nestcoin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nestcoin-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/agentic-access/nestcoin-agentic-access.yml
+  href: https://artifacts.apis.io/nestcoin/agentic-access/nestcoin-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nestcoin-agentic-access.yml
@@ -363,10 +362,10 @@ overview: 'Nestcoin publishes 23 API contracts indexed on the [APIs.io](https://
 
 
   Nestcoin''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 9
+random_paper: 3
 score:
-  band: thin
-  composite: 38.5
+  band: developing
+  composite: 42.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -378,16 +377,16 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 57.0
-    developer_ergonomics: 42.3
-    discoverability: 73.2
-    operational_transparency: 10.5
+    contract_quality: 56.6
+    developer_ergonomics: 61.3
+    discoverability: 66.1
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 38.5
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -404,13 +403,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/screenshots/nestcoin-2026-08-07T184916.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nestcoin/nestcoin-2026-08-07T184916.png
 security:
 - kind: authentication
   name: Nestcoin Authentication
@@ -420,6 +420,12 @@ security:
   name: Nestcoin Domain Security
   slug: nestcoin-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Quote and place an Onboard exchange trade
+  slug: nestcoin-quote-and-trade
+- name: Authenticate an Onboard Connect user
+  slug: nestcoin-user-authentication
 slug: nestcoin
 tags:
 - Company

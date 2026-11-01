@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Kiota generates strongly-typed, lightweight API clients from OpenAPI descriptions in C#, Dart, Go, Java, PHP, Python, Ruby and TypeScript, with minimal dependencies and idiomatic code patterns, plus a
@@ -43,22 +45,22 @@ apis:
 artifact_total: 9
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/plans/kiota-plans-pricing.yml
+  href: https://artifacts.apis.io/kiota/plans/kiota-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kiota-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/rate-limits/kiota-rate-limits.yml
+  href: https://artifacts.apis.io/kiota/rate-limits/kiota-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kiota-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/finops/kiota-finops.yml
+  href: https://artifacts.apis.io/kiota/finops/kiota-finops.yml
   title: ''
   type: FinOps
   url: finops/kiota-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/vendor-facets/kiota-vendor-facets.yml
+  href: https://artifacts.apis.io/kiota/vendor-facets/kiota-vendor-facets.yml
   title: ''
   type: VendorFacets
   url: vendor-facets/kiota-vendor-facets.yml
@@ -131,27 +133,27 @@ common:
   type: PrivacyPolicy
   url: https://privacy.microsoft.com/en-us/privacystatement
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/cli/kiota-cli.yml
+  href: https://artifacts.apis.io/kiota/cli/kiota-cli.yml
   title: ''
   type: CLI
   url: cli/kiota-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/packages/kiota-packages.yml
+  href: https://artifacts.apis.io/kiota/packages/kiota-packages.yml
   title: ''
   type: Packages
   url: packages/kiota-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/packages/kiota-packages.yml
+  href: https://artifacts.apis.io/kiota/packages/kiota-packages.yml
   title: ''
   type: SDKs
   url: packages/kiota-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/changelog/kiota-changelog.yml
+  href: https://artifacts.apis.io/kiota/changelog/kiota-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kiota-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/lifecycle/kiota-lifecycle.yml
+  href: https://artifacts.apis.io/kiota/lifecycle/kiota-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kiota-lifecycle.yml
@@ -160,57 +162,57 @@ common:
   type: Deprecation
   url: https://learn.microsoft.com/en-us/openapi/kiota/support
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/authentication/kiota-authentication.yml
+  href: https://artifacts.apis.io/kiota/authentication/kiota-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kiota-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/vocabulary/kiota-vocabulary.yml
+  href: https://artifacts.apis.io/kiota/vocabulary/kiota-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/kiota-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/rules/kiota-validation-rules.yml
+  href: https://artifacts.apis.io/kiota/rules/kiota-validation-rules.yml
   title: ''
   type: Rules
   url: rules/kiota-validation-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/conformance/kiota-conformance.yml
+  href: https://artifacts.apis.io/kiota/conformance/kiota-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kiota-conformance.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/json-schema/kiota-workspace-schema.json
+  href: https://artifacts.apis.io/kiota/json-schema/kiota-workspace-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/kiota-workspace-schema.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/llms/kiota-llms.txt
+  href: https://artifacts.apis.io/kiota/llms/kiota-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kiota-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/well-known/kiota-well-known.yml
+  href: https://artifacts.apis.io/kiota/well-known/kiota-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kiota-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/well-known/kiota-security.txt
+  href: https://artifacts.apis.io/kiota/well-known/kiota-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/kiota-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/security/kiota-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kiota/security/kiota-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/kiota-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/security/kiota-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kiota/security/kiota-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kiota-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/security/kiota-domain-security.yml
+  href: https://artifacts.apis.io/kiota/security/kiota-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kiota-domain-security.yml
@@ -221,7 +223,7 @@ finops:
 - has_sources: false
   method: generated
   name: Kiota Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: kiota-finops
   template: true
@@ -264,27 +266,24 @@ rules:
     warn: 0
   slug: kiota-validation-rules
 score:
-  band: developing
-  composite: 45.0
+  band: thin
+  composite: 38.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 43.0
     catalog_earned_first_party: 5.0
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 33.3
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 64.3
-    operational_transparency: 44.7
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 46.3
+    discoverability: 57.1
+    operational_transparency: 47.4
+  previous_composite: 38.2
   provenance:
     conformance: first-party
   regulatory:
@@ -293,14 +292,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/screenshots/kiota-2026-06-20T184046.png
+screenshot: https://apis.io/screenshots/kiota/kiota-2026-06-20T184046.png
 security:
 - kind: authentication
   name: Kiota Authentication

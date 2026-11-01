@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,11 +55,8 @@ apis:
   description: Browser-based Caris+Portal landing surface.
   name: Caris Life Sciences Portal API
   slug: caris-life-sciences-portal-api
-artifact_total: 11
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Caris Life Sciences (Public Surface) Information API
   slug: open-caris-life-sciences-information-api
@@ -73,12 +72,12 @@ common:
   type: Blog
   url: https://www.carislifesciences.com/news-and-events/news/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/agentic-access/caris-life-sciences-agentic-access.yml
+  href: https://artifacts.apis.io/caris-life-sciences/agentic-access/caris-life-sciences-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/caris-life-sciences-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/security/caris-life-sciences-domain-security.yml
+  href: https://artifacts.apis.io/caris-life-sciences/security/caris-life-sciences-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/caris-life-sciences-domain-security.yml
@@ -95,17 +94,17 @@ common:
   type: Documentation
   url: https://www.carislifesciences.com/partners/ehr-integrations/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/plans/caris-life-sciences-plans-pricing.yml
+  href: https://artifacts.apis.io/caris-life-sciences/plans/caris-life-sciences-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/caris-life-sciences-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/rate-limits/caris-life-sciences-rate-limits.yml
+  href: https://artifacts.apis.io/caris-life-sciences/rate-limits/caris-life-sciences-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/caris-life-sciences-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/finops/caris-life-sciences-finops.yml
+  href: https://artifacts.apis.io/caris-life-sciences/finops/caris-life-sciences-finops.yml
   title: ''
   type: FinOps
   url: finops/caris-life-sciences-finops.yml
@@ -133,7 +132,7 @@ plans:
 - name: Caris Life Sciences Plans Pricing
   plan_count: 2
   slug: caris-life-sciences-plans-pricing
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Caris Life Sciences Rate Limits
@@ -148,7 +147,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -156,7 +155,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 27.3
+  previous_composite: 20.8
   provenance:
     agentic_access: derived
     contracts:
@@ -170,14 +169,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/screenshots/caris-life-sciences-2026-06-20T174006.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/caris-life-sciences/caris-life-sciences-2026-06-20T174006.png
 security:
 - kind: domain-security
   name: Caris Life Sciences Domain Security

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.4
-  scored_at: '2026-10-17'
+  score: 19.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: http://<robot-ip>:9090/v1
@@ -47,9 +49,6 @@ asyncapis:
   name: Ubtech Yanshee Subscriptions Webhooks
   slug: ubtech-yanshee-subscriptions-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Yanshee Open ADK subscriptions API
   slug: open-ubtech-subscriptions-api
@@ -91,72 +90,72 @@ common:
   type: Security
   url: https://www.ubtrobot.com/en/privacy/loophole/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ubtech/refs/heads/main/security/ubtech-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ubtech/security/ubtech-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ubtech-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ubtech/refs/heads/main/security/ubtech-domain-security.yml
+  href: https://artifacts.apis.io/ubtech/security/ubtech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ubtech-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ubtech/refs/heads/main/packages/ubtech-packages.yml
+  href: https://artifacts.apis.io/ubtech/packages/ubtech-packages.yml
   title: ''
   type: Packages
   url: packages/ubtech-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ubtech/refs/heads/main/packages/ubtech-packages.yml
+  href: https://artifacts.apis.io/ubtech/packages/ubtech-packages.yml
   title: ''
   type: SDKs
   url: packages/ubtech-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ubtech/refs/heads/main/mcp/ubtech-mcp.yml
+  href: https://artifacts.apis.io/ubtech/mcp/ubtech-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ubtech-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ubtech/refs/heads/main/llms/ubtech-llms.txt
+  href: https://artifacts.apis.io/ubtech/llms/ubtech-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ubtech-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ubtech/refs/heads/main/overlays/ubtech-yanshee-openadk-overlay.yaml
+  href: https://artifacts.apis.io/ubtech/overlays/ubtech-yanshee-openadk-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ubtech-yanshee-openadk-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubtech/refs/heads/main/conformance/ubtech-conformance.yml
+  href: https://artifacts.apis.io/ubtech/conformance/ubtech-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ubtech-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubtech/refs/heads/main/lifecycle/ubtech-lifecycle.yml
+  href: https://artifacts.apis.io/ubtech/lifecycle/ubtech-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ubtech-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ubtech/refs/heads/main/changelog/ubtech-changelog.yml
+  href: https://artifacts.apis.io/ubtech/changelog/ubtech-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ubtech-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubtech/refs/heads/main/conventions/ubtech-conventions.yml
+  href: https://artifacts.apis.io/ubtech/conventions/ubtech-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ubtech-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ubtech/refs/heads/main/authentication/ubtech-authentication.yml
+  href: https://artifacts.apis.io/ubtech/authentication/ubtech-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ubtech-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubtech/refs/heads/main/asyncapi/ubtech-yanshee-subscriptions-webhooks.yml
+  href: https://artifacts.apis.io/ubtech/asyncapi/ubtech-yanshee-subscriptions-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ubtech-yanshee-subscriptions-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ubtech/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ubtech/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -175,10 +174,10 @@ overview: 'UBTech publishes 1 API contract indexed on the [APIs.io](https://apis
 
 
   UBTech''s developer surface includes documentation, engineering blog, support, changelog, authentication, and 18 more developer resources.'
-random_paper: 19
+random_paper: 11
 score:
   band: developing
-  composite: 39.3
+  composite: 42.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -191,9 +190,9 @@ score:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 44.3
-    developer_ergonomics: 56.5
+    developer_ergonomics: 66.1
     discoverability: 66.1
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -201,7 +200,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 39.3
+  previous_composite: 42.3
   provenance:
     conformance: derived
     contracts:
@@ -217,13 +216,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ubtech/refs/heads/main/screenshots/ubtech-2026-09-02T164832.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ubtech/ubtech-2026-09-02T164832.png
 security:
 - kind: authentication
   name: Ubtech Authentication
@@ -237,6 +237,10 @@ security:
   name: Ubtech Vulnerability Disclosure
   slug: ubtech-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 1
+skills:
+- name: Receive Yanshee robot events
+  slug: ubtech-receive-yanshee-events
 slug: ubtech
 tags:
 - Company

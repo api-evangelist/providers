@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: Public marketplace quote endpoint returning freight price ranges (min/max), transit-time ranges, and shipping mode (air, LCL, FCL, trucking) for a given origin, destination, weight, and load type. Sup
@@ -57,7 +59,7 @@ apis:
 artifact_total: 10
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/freightos/refs/heads/main/security/freightos-domain-security.yml
+  href: https://artifacts.apis.io/freightos/security/freightos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/freightos-domain-security.yml
@@ -78,17 +80,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/Freightos
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/freightos/refs/heads/main/plans/freightos-plans-pricing.yml
+  href: https://artifacts.apis.io/freightos/plans/freightos-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/freightos-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/freightos/refs/heads/main/rate-limits/freightos-rate-limits.yml
+  href: https://artifacts.apis.io/freightos/rate-limits/freightos-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/freightos-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/freightos/refs/heads/main/finops/freightos-finops.yml
+  href: https://artifacts.apis.io/freightos/finops/freightos-finops.yml
   title: ''
   type: FinOps
   url: finops/freightos-finops.yml
@@ -120,14 +122,14 @@ plans:
 - name: Freightos Plans Pricing
   plan_count: 3
   slug: freightos-plans-pricing
-random_paper: 3
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Freightos Rate Limits
   slug: freightos-rate-limits
 score:
-  band: minimal
-  composite: 9.7
+  band: emerging
+  composite: 12.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 41.0
@@ -135,29 +137,29 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 19.0
     discoverability: 62.5
-    operational_transparency: 10.5
-  previous_composite: 18.0
+    operational_transparency: 13.2
+  previous_composite: 12.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/freightos/refs/heads/main/screenshots/freightos-2026-07-25T215155.png
+screenshot: https://apis.io/screenshots/freightos/freightos-2026-07-25T215155.png
 security:
 - kind: domain-security
   name: Freightos Domain Security

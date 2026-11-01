@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST and GraphQL APIs for fetching, syncing, and managing content from Agility CMS, with CDN delivery across global and regional endpoints.
@@ -41,17 +43,17 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agility-cms/refs/heads/main/security/agility-cms-trust-center.yml
+  href: https://artifacts.apis.io/agility-cms/security/agility-cms-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/agility-cms-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agility-cms/refs/heads/main/security/agility-cms-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/agility-cms/security/agility-cms-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/agility-cms-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agility-cms/refs/heads/main/security/agility-cms-domain-security.yml
+  href: https://artifacts.apis.io/agility-cms/security/agility-cms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agility-cms-domain-security.yml
@@ -76,17 +78,17 @@ common:
   type: Pricing
   url: https://agilitycms.com/product/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agility-cms/refs/heads/main/plans/agility-cms-plans.md
+  href: https://artifacts.apis.io/agility-cms/plans/agility-cms-plans.md
   title: ''
   type: Plans
   url: plans/agility-cms-plans.md
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agility-cms/refs/heads/main/rate-limits/agility-cms-rate-limits.md
+  href: https://artifacts.apis.io/agility-cms/rate-limits/agility-cms-rate-limits.md
   title: ''
   type: RateLimits
   url: rate-limits/agility-cms-rate-limits.md
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agility-cms/refs/heads/main/finops/agility-cms-finops.md
+  href: https://artifacts.apis.io/agility-cms/finops/agility-cms-finops.md
   title: ''
   type: FinOps
   url: finops/agility-cms-finops.md
@@ -110,10 +112,10 @@ overview: 'Agility CMS is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   Agility CMS''s developer surface includes documentation, pricing, engineering blog, and 9 more developer resources.'
-random_paper: 1
+random_paper: 19
 score:
   band: emerging
-  composite: 23.3
+  composite: 24.6
   coverage:
     artifact_dirs: 9
     catalog_earned: 32.0
@@ -121,29 +123,29 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 39.4
     developer_ergonomics: 11.9
     discoverability: 64.3
-    operational_transparency: 5.3
-  previous_composite: 23.2
+    operational_transparency: 15.8
+  previous_composite: 24.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/agility-cms/refs/heads/main/screenshots/agility-cms-2026-06-20T170242.png
+screenshot: https://apis.io/screenshots/agility-cms/agility-cms-2026-06-20T170242.png
 security:
 - kind: domain-security
   name: Agility Cms Domain Security

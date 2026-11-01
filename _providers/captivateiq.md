@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.6
-  scored_at: '2026-10-17'
+  score: 37.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.captivateiq.com/ciq/v1/
@@ -116,11 +118,8 @@ apis:
   description: The Users API from CaptivateIQ — 2 operation(s) for users.
   name: CaptivateIQ Users API
   slug: captivateiq-users-api
-artifact_total: 40
+artifact_total: 43
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CaptivateIQ Attribute Worksheets API
   slug: open-captivateiq-attribute-worksheets-api
@@ -171,17 +170,17 @@ collections:
   slug: open-captivateiq-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/capabilities/captivateiq-capability-edges.yml
+  href: https://artifacts.apis.io/captivateiq/capabilities/captivateiq-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/captivateiq-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/mcp/captivateiq-mcp.yml
+  href: https://artifacts.apis.io/captivateiq/mcp/captivateiq-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/captivateiq-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/overlays/captivateiq-openapi-overlay.yaml
+  href: https://artifacts.apis.io/captivateiq/overlays/captivateiq-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/captivateiq-openapi-overlay.yaml
@@ -250,83 +249,91 @@ common:
   type: Security
   url: https://www.captivateiq.com/security-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/llms/captivateiq-llms.txt
+  href: https://artifacts.apis.io/captivateiq/llms/captivateiq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/captivateiq-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/packages/captivateiq-packages.yml
+  href: https://artifacts.apis.io/captivateiq/packages/captivateiq-packages.yml
   title: ''
   type: Packages
   url: packages/captivateiq-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/well-known/captivateiq-well-known.yml
+  href: https://artifacts.apis.io/captivateiq/well-known/captivateiq-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/captivateiq-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/lifecycle/captivateiq-lifecycle.yml
+  href: https://artifacts.apis.io/captivateiq/lifecycle/captivateiq-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/captivateiq-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/conformance/captivateiq-conformance.yml
+  href: https://artifacts.apis.io/captivateiq/conformance/captivateiq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/captivateiq-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/security/captivateiq-domain-security.yml
+  href: https://artifacts.apis.io/captivateiq/security/captivateiq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/captivateiq-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/security/captivateiq-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/captivateiq/security/captivateiq-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/captivateiq-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/security/captivateiq-trust-center.yml
+  href: https://artifacts.apis.io/captivateiq/security/captivateiq-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/captivateiq-trust-center.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/changelog/captivateiq-changelog.yml
+  href: https://artifacts.apis.io/captivateiq/changelog/captivateiq-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/captivateiq-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/rate-limits/captivateiq-rate-limits.yml
+  href: https://artifacts.apis.io/captivateiq/rate-limits/captivateiq-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/captivateiq-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/captivateiq/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/authentication/captivateiq-authentication.yml
+  href: https://artifacts.apis.io/captivateiq/authentication/captivateiq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/captivateiq-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/scopes/captivateiq-scopes.yml
+  href: https://artifacts.apis.io/captivateiq/scopes/captivateiq-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/captivateiq-scopes.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/plans/captivateiq-plans-pricing.yml
+  href: https://artifacts.apis.io/captivateiq/plans/captivateiq-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/captivateiq-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/mcp/captivateiq-tool-crosswalk.yml
+  href: https://artifacts.apis.io/captivateiq/mcp/captivateiq-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/captivateiq-tool-crosswalk.yml
 created: '2026-07-17'
 description: CaptivateIQ is a sales performance and commission management platform that automates the calculation, administration, and reporting of sales commissions and incentive compensation. Its ICM (Incentive Compensation Management) and SPM (Sales Performance Management) products let revenue, finance, and sales-ops teams design complex commission plans, model quotas and territories, and pay reps accurately and on time. CaptivateIQ exposes a public REST API (ciq/v1) for managing employees, users, hierarchies, data workbooks and worksheets, employee assumptions, commission plans, period groups, payouts, report models, transformation worksheets, uploads, dashboards, and audit logs. The API uses token-based authentication (Authorization header with a "Token" prefix), limit/offset pagination, and per-tier rate limiting, and is documented on a public developer portal with guides, recipes, a changelog, and an llms.txt index. CaptivateIQ also serves a live remote MCP endpoint on its developer-docs
   host and an RFC 8414 OAuth authorization-server metadata document on its app host, and publicly announced a customer-facing CaptivateIQ MCP Server (limited beta, May 2026) for connecting live compensation and planning data to AI tools.
+finops:
+- has_sources: true
+  method: derived
+  name: Captivateiq Finops
+  primary_unit: ''
+  service_category: ''
+  slug: captivateiq-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/captivateiq.png
 layout: provider
 modified: '2026-08-13'
@@ -339,9 +346,9 @@ overview: 'CaptivateIQ publishes 16 API contracts indexed on the [APIs.io](https
   CaptivateIQ''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, support, and 27 more developer resources.'
 plans:
 - name: Captivateiq Plans Pricing
-  plan_count: 0
+  plan_count: 1
   slug: captivateiq-plans-pricing
-random_paper: 13
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Captivateiq Rate Limits
@@ -352,24 +359,24 @@ scopes:
   slug: captivateiq-scopes
   summary_line: 1 scope
 score:
-  band: developing
-  composite: 49.9
+  band: strong
+  composite: 61.1
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 25
+    catalog_earned: 53.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 48.7
+    access_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 46.8
-    developer_ergonomics: 39.9
-    discoverability: 73.2
-    operational_transparency: 57.9
-  previous_composite: 49.9
+    contract_quality: 43.4
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 68.4
+  previous_composite: 56.9
   provenance:
     conformance: first-party
     contracts:
@@ -390,14 +397,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 43.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 45.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/screenshots/captivateiq-2026-07-25T204452.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/captivateiq/captivateiq-2026-07-25T204452.png
 security:
 - kind: authentication
   name: Captivateiq Authentication
@@ -415,6 +423,14 @@ security:
   name: Captivateiq Trust Center
   slug: captivateiq-trust-center
   summary_line: ISO 27001, SOC 1, SOC 2, SOX, GDPR
+skill_count: 3
+skills:
+- name: Bulk import data worksheet records
+  slug: captivateiq-bulk-import-data-records
+- name: Export a payout summary for a period
+  slug: captivateiq-export-payout-summary
+- name: Onboard an employee into CaptivateIQ
+  slug: captivateiq-onboard-employee
 slug: captivateiq
 tags:
 - Company

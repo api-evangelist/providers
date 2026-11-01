@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.1
-  scored_at: '2026-10-17'
+  score: 24.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -108,60 +110,65 @@ apis:
   description: The Usage API from ROOTE — 1 operation(s) for usage.
   name: ROOTE Usage API
   slug: roote-usage-api
-artifact_total: 20
+artifact_total: 21
 common:
+- group: other
+  href: https://artifacts.apis.io/roote/capabilities/roote-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/roote-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/roote/refs/heads/main/agentic-access/roote-agentic-access.yml
+  href: https://artifacts.apis.io/roote/agentic-access/roote-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/roote-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roote/refs/heads/main/rules/roote-rules.yml
+  href: https://artifacts.apis.io/roote/rules/roote-rules.yml
   title: ''
   type: Spectral
   url: rules/roote-rules.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/roote/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/roote/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/roote/refs/heads/main/changelog/roote-changelog.yml
+  href: https://artifacts.apis.io/roote/changelog/roote-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/roote-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/roote/refs/heads/main/authentication/roote-authentication.yml
+  href: https://artifacts.apis.io/roote/authentication/roote-authentication.yml
   title: ''
   type: Authentication
   url: authentication/roote-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roote/refs/heads/main/errors/roote-problem-types.yml
+  href: https://artifacts.apis.io/roote/errors/roote-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/roote-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roote/refs/heads/main/conformance/roote-conformance.yml
+  href: https://artifacts.apis.io/roote/conformance/roote-conformance.yml
   title: ''
   type: Conformance
   url: conformance/roote-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/roote/refs/heads/main/llms/roote-llms.txt
+  href: https://artifacts.apis.io/roote/llms/roote-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/roote-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/roote/refs/heads/main/mcp/roote-mcp.yml
+  href: https://artifacts.apis.io/roote/mcp/roote-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/roote-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/roote/refs/heads/main/hosts/roote-hosts.yml
+  href: https://artifacts.apis.io/roote/hosts/roote-hosts.yml
   title: ''
   type: Hosts
   url: hosts/roote-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/roote/refs/heads/main/vendors/roote-vendors.yml
+  href: https://artifacts.apis.io/roote/vendors/roote-vendors.yml
   title: ''
   type: Vendors
   url: vendors/roote-vendors.yml
@@ -174,7 +181,7 @@ common:
   type: APIReference
   url: https://doc.roote.ai/resources/changelog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/roote/refs/heads/main/security/roote-domain-security.yml
+  href: https://artifacts.apis.io/roote/security/roote-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/roote-domain-security.yml
@@ -207,8 +214,8 @@ overview: 'ROOTE publishes 15 API contracts indexed on the [APIs.io](https://api
   The ROOTE catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  ROOTE''s developer surface includes changelog, authentication, API reference, documentation, getting-started guide, and 12 more developer resources.'
-random_paper: 3
+  ROOTE''s developer surface includes changelog, authentication, API reference, documentation, getting-started guide, and 13 more developer resources.'
+random_paper: 1
 rules:
 - authorship: generated
   effective_rule_count: 56
@@ -224,21 +231,23 @@ rules:
   slug: roote-rules
 score:
   band: thin
-  composite: 32.2
+  composite: 31.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 34.5
     catalog_earned_first_party: 0.0
     catalog_gap: 80.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 47.5
     developer_ergonomics: 51.8
-    discoverability: 63.3
+    discoverability: 53.3
     operational_transparency: 15.8
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,11 +264,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Roote Authentication
@@ -269,6 +280,10 @@ security:
   name: Roote Domain Security
   slug: roote-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 1
+skills:
+- name: roote-find-nearby-transport-departures
+  slug: roote-find-nearby-transport-departures
 slug: roote
 tags:
 - Mobility

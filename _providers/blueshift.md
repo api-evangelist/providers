@@ -15,7 +15,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,17 +29,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.0
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 37.8
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: Official hosted remote MCP server, in public beta, exposing a catalogue of 131 tools (97 read, 34 write) across campaigns, segments, customer profiles, catalogs, templates, shared assets, tags, report
   name: Blueshift MCP Server
@@ -149,7 +151,7 @@ apis:
   description: Tags are folder-based entities that you can use to organize your resources. Each tag folder contains its own isolated set of tags.
   name: Blueshift Tags API
   slug: blueshift-tags-api
-artifact_total: 31
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Blueshift Webhooks
@@ -160,7 +162,7 @@ collections:
   slug: open-blueshift
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/rate-limits/blueshift-rate-limits.yml
+  href: https://artifacts.apis.io/blueshift/rate-limits/blueshift-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blueshift-rate-limits.yml
@@ -169,27 +171,27 @@ common:
   type: BlogRSS
   url: https://blueshift.com/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/capabilities/blueshift-capability-edges.yml
+  href: https://artifacts.apis.io/blueshift/capabilities/blueshift-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/blueshift-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/overlays/blueshift-openapi-overlay.yaml
+  href: https://artifacts.apis.io/blueshift/overlays/blueshift-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/blueshift-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/blueshift/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/security/blueshift-trust-center.yml
+  href: https://artifacts.apis.io/blueshift/security/blueshift-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/blueshift-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/security/blueshift-domain-security.yml
+  href: https://artifacts.apis.io/blueshift/security/blueshift-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blueshift-domain-security.yml
@@ -250,7 +252,7 @@ common:
   type: PrivacyPolicy
   url: https://blueshift.com/privacy-policy/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/postman/blueshift-postman-collection.json
+  href: https://artifacts.apis.io/blueshift/postman/blueshift-postman-collection.json
   title: ''
   type: Postman
   url: postman/blueshift-postman-collection.json
@@ -259,52 +261,60 @@ common:
   type: StatusPage
   url: https://status.blueshift.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/conformance/blueshift-conformance.yml
+  href: https://artifacts.apis.io/blueshift/conformance/blueshift-conformance.yml
   title: ''
   type: Compliance
   url: conformance/blueshift-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/conformance/blueshift-conformance.yml
+  href: https://artifacts.apis.io/blueshift/conformance/blueshift-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blueshift-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/llms/blueshift-llms.txt
+  href: https://artifacts.apis.io/blueshift/llms/blueshift-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blueshift-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/packages/blueshift-packages.yml
+  href: https://artifacts.apis.io/blueshift/packages/blueshift-packages.yml
   title: ''
   type: Packages
   url: packages/blueshift-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/packages/blueshift-packages.yml
+  href: https://artifacts.apis.io/blueshift/packages/blueshift-packages.yml
   title: ''
   type: SDKs
   url: packages/blueshift-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/lifecycle/blueshift-lifecycle.yml
+  href: https://artifacts.apis.io/blueshift/lifecycle/blueshift-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blueshift-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/changelog/blueshift-changelog.yml
+  href: https://artifacts.apis.io/blueshift/changelog/blueshift-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/blueshift-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/plans/blueshift-plans-pricing.yml
+  href: https://artifacts.apis.io/blueshift/plans/blueshift-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blueshift-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/components/blueshift-components.yml
+  href: https://artifacts.apis.io/blueshift/components/blueshift-components.yml
   title: ''
   type: Components
   url: components/blueshift-components.yml
 created: '2026-08-12'
 description: Blueshift is an AI-powered customer engagement and customer data platform (CDP) that unifies customer profiles, product and content catalogs, and behavioural event streams, then activates them across email, SMS, push, in-app messaging, mobile inbox, iOS Live Activities and on-site live content. Its public surface is a REST API on api.getblueshift.com (US) and api.eu.getblueshift.com (EU) covering customers, events, catalogs, segments, custom user lists, campaigns, templates, shared assets, promotions, external fetches, interest alerts, subscription groups and email validation, documented operation-by-operation with a machine-readable OpenAPI 3.0 document behind every reference page. Blueshift also runs an official OAuth 2.0 remote MCP server in public beta, and ships first-party SDKs for iOS, Android, React Native, Flutter and Cordova.
+finops:
+- has_sources: true
+  method: derived
+  name: Blueshift Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: blueshift-finops
+  template: false
 image: https://blueshift.com/wp-content/uploads/2025/10/web-featured-image.webp
 layout: provider
 mcp_servers:
@@ -326,7 +336,10 @@ plans:
 - name: Blueshift Plans Pricing
   plan_count: 3
   slug: blueshift-plans-pricing
-random_paper: 20
+- name: Blueshift Price Estimates
+  plan_count: 0
+  slug: blueshift-price-estimates
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Blueshift Rate Limits
@@ -337,24 +350,24 @@ scopes:
   slug: blueshift-scopes
   summary_line: 8 scopes
 score:
-  band: strong
-  composite: 65.9
+  band: exemplar
+  composite: 69.1
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 61.0
+    artifact_dirs: 29
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 0.0
     contract_quality: 60.0
-    developer_ergonomics: 55.4
-    discoverability: 75.0
-    operational_transparency: 73.7
-  previous_composite: 65.9
+    developer_ergonomics: 74.4
+    discoverability: 65.0
+    operational_transparency: 76.3
+  previous_composite: 67.5
   provenance:
     conformance: first-party
     contracts:
@@ -370,13 +383,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/screenshots/blueshift-2026-08-17T080647.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/blueshift/blueshift-2026-08-17T080647.png
 security:
 - kind: authentication
   name: Blueshift Authentication
@@ -390,6 +404,16 @@ security:
   name: Blueshift Trust Center
   slug: blueshift-trust-center
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+skill_count: 4
+skills:
+- name: Build an audience and launch a campaign against it
+  slug: blueshift-build-audience-and-launch
+- name: Ingest a customer profile and their behavioural events
+  slug: blueshift-ingest-customer-and-event
+- name: Personalize a site or app with catalogs and live content
+  slug: blueshift-personalize-with-catalogs-and-live-content
+- name: Trigger a transactional campaign without sending it twice
+  slug: blueshift-trigger-transactional-campaign
 slug: blueshift
 tags:
 - Customer Data Platform

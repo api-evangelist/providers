@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 29.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 4
   slug: packagex-agentic-access
   summary_line: 4 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.packagex.io
   baseurl_source: declared
@@ -57,12 +59,14 @@ asyncapis:
   slug: packagex-webhooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: API Title shipments API
   slug: open-packagex-shipments-api
 common:
+- group: other
+  href: https://artifacts.apis.io/packagex/capabilities/packagex-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/packagex-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -104,92 +108,92 @@ common:
   type: StatusPage
   url: https://packagex.statuspage.io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/authentication/packagex-authentication.yml
+  href: https://artifacts.apis.io/packagex/authentication/packagex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/packagex-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/packages/packagex-packages.yml
+  href: https://artifacts.apis.io/packagex/packages/packagex-packages.yml
   title: ''
   type: Packages
   url: packages/packagex-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/packages/packagex-packages.yml
+  href: https://artifacts.apis.io/packagex/packages/packagex-packages.yml
   title: ''
   type: SDKs
   url: packages/packagex-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/mcp/packagex-mcp.yml
+  href: https://artifacts.apis.io/packagex/mcp/packagex-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/packagex-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/llms/packagex-llms.txt
+  href: https://artifacts.apis.io/packagex/llms/packagex-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/packagex-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/overlays/packagex-openapi-overlay.yaml
+  href: https://artifacts.apis.io/packagex/overlays/packagex-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/packagex-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/conformance/packagex-conformance.yml
+  href: https://artifacts.apis.io/packagex/conformance/packagex-conformance.yml
   title: ''
   type: Conformance
   url: conformance/packagex-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/errors/packagex-problem-types.yml
+  href: https://artifacts.apis.io/packagex/errors/packagex-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/packagex-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/lifecycle/packagex-lifecycle.yml
+  href: https://artifacts.apis.io/packagex/lifecycle/packagex-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/packagex-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/lifecycle/packagex-lifecycle.yml
+  href: https://artifacts.apis.io/packagex/lifecycle/packagex-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/packagex-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/changelog/packagex-changelog.yml
+  href: https://artifacts.apis.io/packagex/changelog/packagex-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/packagex-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/sandbox/packagex-sandbox.yml
+  href: https://artifacts.apis.io/packagex/sandbox/packagex-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/packagex-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/conventions/packagex-conventions.yml
+  href: https://artifacts.apis.io/packagex/conventions/packagex-conventions.yml
   title: ''
   type: Conventions
   url: conventions/packagex-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/data-model/packagex-data-model.yml
+  href: https://artifacts.apis.io/packagex/data-model/packagex-data-model.yml
   title: ''
   type: DataModel
   url: data-model/packagex-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/asyncapi/packagex-webhooks.yml
+  href: https://artifacts.apis.io/packagex/asyncapi/packagex-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/packagex-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/packagex/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/agentic-access/packagex-agentic-access.yml
+  href: https://artifacts.apis.io/packagex/agentic-access/packagex-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/packagex-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/security/packagex-domain-security.yml
+  href: https://artifacts.apis.io/packagex/security/packagex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/packagex-domain-security.yml
@@ -211,27 +215,27 @@ overview: 'PackageX publishes 1 API contract indexed on the [APIs.io](https://ap
   The PackageX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  PackageX''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, authentication, changelog, and 22 more developer resources.'
-random_paper: 0
+  PackageX''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, authentication, changelog, and 23 more developer resources.'
+random_paper: 20
 score:
   band: developing
-  composite: 47.6
+  composite: 47.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 55.8
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 50.0
-  previous_composite: 47.5
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,13 +252,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/screenshots/packagex-2026-08-07T191238.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/packagex/packagex-2026-08-07T191238.png
 security:
 - kind: authentication
   name: Packagex Authentication
@@ -264,6 +269,10 @@ security:
   name: Packagex Domain Security
   slug: packagex-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: Create and purchase a PackageX shipment
+  slug: packagex-create-shipment
 slug: packagex
 tags:
 - Company

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.2
-  scored_at: '2026-10-17'
+  score: 24.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -55,15 +57,12 @@ apis:
   description: The Webhook API allows an API partner to create and manage webhooks.
   name: Convelio Webhook API
   slug: convelio-webhook-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Convelio Webhooks
   slug: convelio-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Convelio Public Shipping API
   slug: open-convelio-shipping-api
@@ -72,32 +71,32 @@ collections:
   slug: open-convelio-webhook-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/capabilities/convelio-capability-edges.yml
+  href: https://artifacts.apis.io/convelio/capabilities/convelio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/convelio-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/mcp/convelio-mcp.yml
+  href: https://artifacts.apis.io/convelio/mcp/convelio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/convelio-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/overlays/convelio-shipping-overlay.yaml
+  href: https://artifacts.apis.io/convelio/overlays/convelio-shipping-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/convelio-shipping-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/agentic-access/convelio-agentic-access.yml
+  href: https://artifacts.apis.io/convelio/agentic-access/convelio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/convelio-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/security/convelio-domain-security.yml
+  href: https://artifacts.apis.io/convelio/security/convelio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/convelio-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/authentication/convelio-authentication.yml
+  href: https://artifacts.apis.io/convelio/authentication/convelio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/convelio-authentication.yml
@@ -154,42 +153,42 @@ common:
   type: StatusPage
   url: https://developers.convelio.com/status
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/conventions/convelio-conventions.yml
+  href: https://artifacts.apis.io/convelio/conventions/convelio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/convelio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/lifecycle/convelio-lifecycle.yml
+  href: https://artifacts.apis.io/convelio/lifecycle/convelio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/convelio-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/sandbox/convelio-sandbox.yml
+  href: https://artifacts.apis.io/convelio/sandbox/convelio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/convelio-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/conformance/convelio-conformance.yml
+  href: https://artifacts.apis.io/convelio/conformance/convelio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/convelio-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/packages/convelio-packages.yml
+  href: https://artifacts.apis.io/convelio/packages/convelio-packages.yml
   title: ''
   type: Packages
   url: packages/convelio-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/components/convelio-components.yml
+  href: https://artifacts.apis.io/convelio/components/convelio-components.yml
   title: ''
   type: Components
   url: components/convelio-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/convelio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/llms/convelio-llms.txt
+  href: https://artifacts.apis.io/convelio/llms/convelio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/convelio-llms.txt
@@ -208,10 +207,10 @@ overview: 'Convelio publishes 2 API contracts indexed on the [APIs.io](https://a
 
 
   Convelio''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 5
+random_paper: 23
 score:
   band: developing
-  composite: 43.4
+  composite: 47.1
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -221,12 +220,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 63.8
-    developer_ergonomics: 56.5
+    contract_quality: 61.2
+    developer_ergonomics: 66.1
     discoverability: 66.1
-    operational_transparency: 26.3
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -235,7 +234,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 43.4
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,13 +251,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/screenshots/convelio-2026-08-17T080832.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/convelio/convelio-2026-08-17T080832.png
 security:
 - kind: authentication
   name: Convelio Authentication
@@ -268,6 +268,12 @@ security:
   name: Convelio Domain Security
   slug: convelio-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Quote and book a fine art shipment with Convelio
+  slug: convelio-quote-and-book-shipment
+- name: Subscribe to Convelio shipment events
+  slug: convelio-subscribe-to-shipment-events
 slug: convelio
 tags:
 - Company

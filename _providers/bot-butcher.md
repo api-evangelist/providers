@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.6
-  scored_at: '2026-10-17'
+  score: 30.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,11 +52,8 @@ apis:
   description: Submit contact form data to Bot Butcher and receive a JSON classification result indicating whether the message is spam or legitimate. The AI model classifies each message within the context of your s
   name: Bot Butcher Classification API
   slug: bot-butcher-classification-api
-artifact_total: 10
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bot Butcher Classification API
   slug: open-bot-butcher-classification-api
@@ -63,7 +62,7 @@ collections:
   slug: open-bot-butcher
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/finops/bot-butcher-finops.yml
+  href: https://artifacts.apis.io/bot-butcher/finops/bot-butcher-finops.yml
   title: ''
   type: FinOps
   url: finops/bot-butcher-finops.yml
@@ -108,62 +107,62 @@ common:
   type: Postman
   url: https://god.postman.co/run-collection/24192121-47f4e172-5026-4788-b752-cbbc5488a03e
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/agentic-access/bot-butcher-agentic-access.yml
+  href: https://artifacts.apis.io/bot-butcher/agentic-access/bot-butcher-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bot-butcher-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/security/bot-butcher-domain-security.yml
+  href: https://artifacts.apis.io/bot-butcher/security/bot-butcher-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bot-butcher-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/authentication/bot-butcher-authentication.yml
+  href: https://artifacts.apis.io/bot-butcher/authentication/bot-butcher-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bot-butcher-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/conventions/bot-butcher-conventions.yml
+  href: https://artifacts.apis.io/bot-butcher/conventions/bot-butcher-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bot-butcher-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/errors/bot-butcher-problem-types.yml
+  href: https://artifacts.apis.io/bot-butcher/errors/bot-butcher-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bot-butcher-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/lifecycle/bot-butcher-lifecycle.yml
+  href: https://artifacts.apis.io/bot-butcher/lifecycle/bot-butcher-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bot-butcher-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/conformance/bot-butcher-conformance.yml
+  href: https://artifacts.apis.io/bot-butcher/conformance/bot-butcher-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bot-butcher-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/data-model/bot-butcher-data-model.yml
+  href: https://artifacts.apis.io/bot-butcher/data-model/bot-butcher-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bot-butcher-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/plans/bot-butcher-plans-pricing.yml
+  href: https://artifacts.apis.io/bot-butcher/plans/bot-butcher-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bot-butcher-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/rate-limits/bot-butcher-rate-limits.yml
+  href: https://artifacts.apis.io/bot-butcher/rate-limits/bot-butcher-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bot-butcher-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/llms/bot-butcher-llms.txt
+  href: https://artifacts.apis.io/bot-butcher/llms/bot-butcher-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bot-butcher-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bot-butcher/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -173,7 +172,7 @@ finops:
 - has_sources: false
   method: generated
   name: Bot Butcher Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: bot-butcher-finops
   template: true
@@ -191,14 +190,14 @@ plans:
 - name: Bot Butcher Plans Pricing
   plan_count: 1
   slug: bot-butcher-plans-pricing
-random_paper: 19
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Bot Butcher Rate Limits
   slug: bot-butcher-rate-limits
 score:
   band: thin
-  composite: 35.8
+  composite: 36.5
   coverage:
     artifact_dirs: 21
     catalog_earned: 45.0
@@ -206,7 +205,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 18.2
@@ -221,7 +220,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 37.3
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -238,13 +237,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/screenshots/bot-butcher-2026-06-20T173615.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bot-butcher/bot-butcher-2026-06-20T173615.png
 security:
 - kind: authentication
   name: Bot Butcher Authentication
@@ -254,6 +254,12 @@ security:
   name: Bot Butcher Domain Security
   slug: bot-butcher-domain-security
   summary_line: TLSv1.3
+skill_count: 2
+skills:
+- name: classify-contact-form-submission
+  slug: bot-butcher-classify-contact-form-submission
+- name: get-classified-message
+  slug: bot-butcher-get-classified-message
 slug: bot-butcher
 tags:
 - Bots

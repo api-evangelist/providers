@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 27.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -80,11 +82,8 @@ apis:
   description: User profile and presence operations
   name: Rainbow Users API
   slug: rainbow-users-api
-artifact_total: 34
+artifact_total: 33
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Rainbow Application Portal API
   slug: open-rainbow-application
@@ -117,37 +116,37 @@ collections:
   slug: open-rainbow-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/plans/rainbow-plans-pricing.yml
+  href: https://artifacts.apis.io/rainbow/plans/rainbow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rainbow-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/rate-limits/rainbow-rate-limits.yml
+  href: https://artifacts.apis.io/rainbow/rate-limits/rainbow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rainbow-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/finops/rainbow-finops.yml
+  href: https://artifacts.apis.io/rainbow/finops/rainbow-finops.yml
   title: ''
   type: FinOps
   url: finops/rainbow-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/agentic-access/rainbow-agentic-access.yml
+  href: https://artifacts.apis.io/rainbow/agentic-access/rainbow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rainbow-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/security/rainbow-trust-center.yml
+  href: https://artifacts.apis.io/rainbow/security/rainbow-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rainbow-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/security/rainbow-domain-security.yml
+  href: https://artifacts.apis.io/rainbow/security/rainbow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rainbow-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/authentication/rainbow-authentication.yml
+  href: https://artifacts.apis.io/rainbow/authentication/rainbow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rainbow-authentication.yml
@@ -188,17 +187,17 @@ common:
   type: CLI
   url: https://github.com/Rainbow-CPaaS/Rainbow-CLI-SDK
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/rules/rainbow-rules.yml
+  href: https://artifacts.apis.io/rainbow/rules/rainbow-rules.yml
   title: ''
   type: SpectralRules
   url: rules/rainbow-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/json-ld/rainbow-context.jsonld
+  href: https://artifacts.apis.io/rainbow/json-ld/rainbow-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/rainbow-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/vocabulary/rainbow-vocabulary.yml
+  href: https://artifacts.apis.io/rainbow/vocabulary/rainbow-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/rainbow-vocabulary.yml
@@ -259,7 +258,7 @@ plans:
 - name: Rainbow Plans Pricing
   plan_count: 1
   slug: rainbow-plans-pricing
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Rainbow Rate Limits
@@ -290,7 +289,7 @@ rules:
   slug: rainbow-rules
 score:
   band: thin
-  composite: 35.2
+  composite: 37.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 64.0
@@ -298,15 +297,15 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 58.7
-    developer_ergonomics: 19.0
+    developer_ergonomics: 28.6
     discoverability: 78.6
     operational_transparency: 10.5
-  previous_composite: 36.8
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -320,13 +319,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 18.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/screenshots/rainbow-2026-06-20T192535.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rainbow/rainbow-2026-06-20T192535.png
 security:
 - kind: authentication
   name: Rainbow Authentication

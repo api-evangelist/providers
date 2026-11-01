@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.0
-  scored_at: '2026-10-17'
+  score: 33.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -150,15 +152,12 @@ apis:
   description: API for managing webhook callback subscriptions
   name: Credentially Subscriptions API
   slug: credentially-subscriptions-api
-artifact_total: 49
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Credentially Webhooks
   slug: credentially-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Credentially Public Compliance-packages API
   slug: open-credentially-compliance-packages-api
@@ -223,18 +222,22 @@ collections:
   name: Credentially Public Compliance-packages Subscriptions API
   slug: open-credentially-subscriptions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/credentially/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/plans/credentially-plans-pricing.yml
+  href: https://artifacts.apis.io/credentially/plans/credentially-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/credentially-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/capabilities/credentially-capability-edges.yml
+  href: https://artifacts.apis.io/credentially/capabilities/credentially-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/credentially-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/overlays/credentially-gateway-overlay.yaml
+  href: https://artifacts.apis.io/credentially/overlays/credentially-gateway-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/credentially-gateway-overlay.yaml
@@ -299,77 +302,85 @@ common:
   type: Compliance
   url: https://www.credentially.io/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/authentication/credentially-authentication.yml
+  href: https://artifacts.apis.io/credentially/authentication/credentially-authentication.yml
   title: ''
   type: Authentication
   url: authentication/credentially-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/security/credentially-domain-security.yml
+  href: https://artifacts.apis.io/credentially/security/credentially-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/credentially-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/security/credentially-trust-center.yml
+  href: https://artifacts.apis.io/credentially/security/credentially-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/credentially-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/agentic-access/credentially-agentic-access.yml
+  href: https://artifacts.apis.io/credentially/agentic-access/credentially-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/credentially-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/mcp/credentially-mcp.yml
+  href: https://artifacts.apis.io/credentially/mcp/credentially-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/credentially-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/llms/credentially-llms.txt
+  href: https://artifacts.apis.io/credentially/llms/credentially-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/credentially-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/conformance/credentially-conformance.yml
+  href: https://artifacts.apis.io/credentially/conformance/credentially-conformance.yml
   title: ''
   type: Conformance
   url: conformance/credentially-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/errors/credentially-problem-types.yml
+  href: https://artifacts.apis.io/credentially/errors/credentially-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/credentially-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/lifecycle/credentially-lifecycle.yml
+  href: https://artifacts.apis.io/credentially/lifecycle/credentially-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/credentially-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/sandbox/credentially-sandbox.yml
+  href: https://artifacts.apis.io/credentially/sandbox/credentially-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/credentially-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/conventions/credentially-conventions.yml
+  href: https://artifacts.apis.io/credentially/conventions/credentially-conventions.yml
   title: ''
   type: Conventions
   url: conventions/credentially-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/data-model/credentially-data-model.yml
+  href: https://artifacts.apis.io/credentially/data-model/credentially-data-model.yml
   title: ''
   type: DataModel
   url: data-model/credentially-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/asyncapi/credentially-webhooks.yml
+  href: https://artifacts.apis.io/credentially/asyncapi/credentially-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/credentially-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/credentially/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Credentially is a UK-founded, healthcare-only onboarding and compliance automation platform used by NHS trusts, private providers, urgent care and clinical staffing agencies in the UK and US. It brings pre-employment checks, DBS and right-to-work validation, primary source verification, credentialing and continuous compliance monitoring onto one platform, cutting the platform-managed steps of onboarding clinical staff from an industry average of around 60 days to as little as 5. The Credentially Public API (OpenAPI 3.1) exposes profiles, placements, documents with OCR auto-fill, DBS checks, references, right-to-work status and compliance packages, with a companion Webhook API for state-change events.
+finops:
+- has_sources: true
+  method: derived
+  name: Credentially Finops
+  primary_unit: ''
+  service_category: ''
+  slug: credentially-finops
+  template: true
 image: https://cdn.prod.website-files.com/67f6367b305814423f88598b/6839b1c0c6313ba54fe9856d_5e3042f6ca409a0e92b09c9e_1231.png
 layout: provider
 modified: '2026-07-18'
@@ -382,31 +393,31 @@ overview: 'Credentially publishes 21 API contracts indexed on the [APIs.io](http
   The Credentially catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Credentially''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  Credentially''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 plans:
 - name: Credentially Plans Pricing
   plan_count: 0
   slug: credentially-plans-pricing
-random_paper: 4
+random_paper: 8
 score:
-  band: developing
-  composite: 52.6
+  band: strong
+  composite: 55.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 62.1
-    developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 52.6
+    contract_quality: 58.7
+    developer_ergonomics: 67.3
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -427,13 +438,14 @@ score:
     regime: Health
     regime_id: health
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/screenshots/credentially-2026-07-25T210710.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/credentially/credentially-2026-07-25T210710.png
 security:
 - kind: authentication
   name: Credentially Authentication
@@ -447,6 +459,16 @@ security:
   name: Credentially Trust Center
   slug: credentially-trust-center
   summary_line: ISO/IEC 27001:2022, Cyber Essentials Plus, NHS Data Security and Protection Toolkit (Standards Exceeded), NHS DTAC, GDPR, ICO registered
+skill_count: 4
+skills:
+- name: Assign compliance packages and read check status
+  slug: credentially-compliance-monitoring
+- name: Upload and verify a profile document
+  slug: credentially-document-verification
+- name: Onboard a clinician profile
+  slug: credentially-onboard-clinician
+- name: Subscribe to Credentially webhooks
+  slug: credentially-webhooks-subscription
 slug: credentially
 tags:
 - Healthcare

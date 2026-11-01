@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 10.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: RESTful API for programmatic access to Payhawk spend management features including expenses, corporate cards, transactions, employees, custom fields, fund accounts, bank statements, and webhook subscr
@@ -42,17 +44,17 @@ apis:
 artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payhawk/refs/heads/main/security/payhawk-trust-center.yml
+  href: https://artifacts.apis.io/payhawk/security/payhawk-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/payhawk-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payhawk/refs/heads/main/security/payhawk-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/payhawk/security/payhawk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/payhawk-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payhawk/refs/heads/main/security/payhawk-domain-security.yml
+  href: https://artifacts.apis.io/payhawk/security/payhawk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/payhawk-domain-security.yml
@@ -93,22 +95,22 @@ common:
   type: StatusPage
   url: https://status.payhawk.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/payhawk/refs/heads/main/plans/payhawk-plans-pricing.yml
+  href: https://artifacts.apis.io/payhawk/plans/payhawk-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/payhawk-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/payhawk/refs/heads/main/rate-limits/payhawk-rate-limits.yml
+  href: https://artifacts.apis.io/payhawk/rate-limits/payhawk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/payhawk-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/payhawk/refs/heads/main/finops/payhawk-finops.yml
+  href: https://artifacts.apis.io/payhawk/finops/payhawk-finops.yml
   title: ''
   type: FinOps
   url: finops/payhawk-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payhawk/refs/heads/main/json-ld/payhawk-context.jsonld
+  href: https://artifacts.apis.io/payhawk/json-ld/payhawk-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/payhawk-context.jsonld
@@ -148,30 +150,30 @@ plans:
 - name: Payhawk Plans Pricing
   plan_count: 3
   slug: payhawk-plans-pricing
-random_paper: 9
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Payhawk Rate Limits
   slug: payhawk-rate-limits
 score:
   band: emerging
-  composite: 23.4
+  composite: 25.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 50.0
     catalog_earned_first_party: 0.0
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 28.6
-    discoverability: 68.3
-    operational_transparency: 15.8
-  previous_composite: 30.8
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 25.9
   provenance:
     mcp: first-party
   regulatory:
@@ -180,14 +182,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/payhawk/refs/heads/main/screenshots/payhawk-2026-06-20T191457.png
+screenshot: https://apis.io/screenshots/payhawk/payhawk-2026-06-20T191457.png
 security:
 - kind: domain-security
   name: Payhawk Domain Security

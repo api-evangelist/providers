@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.8
-  scored_at: '2026-10-17'
+  score: 30.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 232
   slug: dtn-agentic-access
   summary_line: 232 operations · 14 acting
-api_count: 37
+api_count: 38
 apis:
 - description: DTN Point Forecast API delivers high-quality weather forecasts for specified locations. Provides hourly and daily forecast data for agriculture, aviation, shipping, and utilities use cases. Uses the s
   name: DTN Point Forecast API
@@ -536,7 +538,7 @@ apis:
   description: Endpoints for the api/catalog resources
   name: DTN APIs API
   slug: dtn-apis-api
-artifact_total: 148
+artifact_total: 151
 asyncapis:
 - description: Faithful AsyncAPI rendering of DTN's Agency Bulletin WebSocket API, which streams global weather agency bulletins in real time over a WebSocket upgrade (HTTP 101). Derived from the provider's publishe
   name: DTN Agency Bulletin WebSocket API (event surface)
@@ -658,22 +660,22 @@ collections:
   slug: open-dtn-windsaloft-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/plans/dtn-plans-pricing.yml
+  href: https://artifacts.apis.io/dtn/plans/dtn-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dtn-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/rate-limits/dtn-rate-limits.yml
+  href: https://artifacts.apis.io/dtn/rate-limits/dtn-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dtn-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/finops/dtn-finops.yml
+  href: https://artifacts.apis.io/dtn/finops/dtn-finops.yml
   title: ''
   type: FinOps
   url: finops/dtn-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/capabilities/dtn-capability-edges.yml
+  href: https://artifacts.apis.io/dtn/capabilities/dtn-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dtn-capability-edges.yml
@@ -682,22 +684,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/dtn/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/agentic-access/dtn-agentic-access.yml
+  href: https://artifacts.apis.io/dtn/agentic-access/dtn-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dtn-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/authentication/dtn-authentication.yml
+  href: https://artifacts.apis.io/dtn/authentication/dtn-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dtn-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/scopes/dtn-scopes.yml
+  href: https://artifacts.apis.io/dtn/scopes/dtn-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/dtn-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/security/dtn-domain-security.yml
+  href: https://artifacts.apis.io/dtn/security/dtn-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dtn-domain-security.yml
@@ -754,72 +756,72 @@ common:
   type: StatusPage
   url: https://status.dtn.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/changelog/dtn-changelog.yml
+  href: https://artifacts.apis.io/dtn/changelog/dtn-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dtn-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/lifecycle/dtn-lifecycle.yml
+  href: https://artifacts.apis.io/dtn/lifecycle/dtn-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dtn-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/conformance/dtn-conformance.yml
+  href: https://artifacts.apis.io/dtn/conformance/dtn-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dtn-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/conventions/dtn-conventions.yml
+  href: https://artifacts.apis.io/dtn/conventions/dtn-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dtn-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/errors/dtn-problem-types.yml
+  href: https://artifacts.apis.io/dtn/errors/dtn-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dtn-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/data-model/dtn-data-model.yml
+  href: https://artifacts.apis.io/dtn/data-model/dtn-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dtn-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/mcp/dtn-mcp.yml
+  href: https://artifacts.apis.io/dtn/mcp/dtn-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dtn-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/llms/dtn-llms.txt
+  href: https://artifacts.apis.io/dtn/llms/dtn-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dtn-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/well-known/dtn-well-known.yml
+  href: https://artifacts.apis.io/dtn/well-known/dtn-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dtn-well-known.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/asyncapi/dtn-lightning-stream-asyncapi.yml
+  href: https://artifacts.apis.io/dtn/asyncapi/dtn-lightning-stream-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/dtn-lightning-stream-asyncapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/asyncapi/dtn-agency-bulletin-websocket-asyncapi.yml
+  href: https://artifacts.apis.io/dtn/asyncapi/dtn-agency-bulletin-websocket-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/dtn-agency-bulletin-websocket-asyncapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/overlays/dtn-weather-conditions-api-overlay.yaml
+  href: https://artifacts.apis.io/dtn/overlays/dtn-weather-conditions-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dtn-weather-conditions-api-overlay.yaml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/sandbox/dtn-sandbox.yml
+  href: https://artifacts.apis.io/dtn/sandbox/dtn-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dtn-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dtn/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -871,7 +873,7 @@ plans:
 - name: Dtn Plans Pricing
   plan_count: 2
   slug: dtn-plans-pricing
-random_paper: 18
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Dtn Rate Limits
@@ -895,7 +897,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 50.9
+  composite: 51.4
   coverage:
     artifact_dirs: 30
     catalog_earned: 55.3
@@ -903,15 +905,15 @@ score:
     catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 14.4
     contract_quality: 60.5
-    developer_ergonomics: 68.5
-    discoverability: 78.6
+    developer_ergonomics: 70.8
+    discoverability: 71.4
     operational_transparency: 36.8
-  previous_composite: 52.5
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -928,13 +930,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/screenshots/dtn-2026-06-20T180300.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dtn/dtn-2026-06-20T180300.png
 security:
 - kind: authentication
   name: Dtn Authentication
@@ -944,6 +947,14 @@ security:
   name: Dtn Domain Security
   slug: dtn-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Get current conditions and forecast weather from DTN
+  slug: dtn-current-and-forecast-weather
+- name: Pull historical station observations from DTN
+  slug: dtn-historical-station-observations
+- name: Query commodity quotes and price history from DTN Market Data
+  slug: dtn-market-data-quotes-and-history
 slug: dtn
 tags:
 - Weather

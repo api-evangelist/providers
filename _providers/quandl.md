@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-17'
+  score: 23.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,11 +68,8 @@ apis:
   description: Tabular dataset retrieval
   name: Quandl (Nasdaq Data Link) Tables API
   slug: quandl-tables-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nasdaq Data Link Time-Series REST API
   slug: open-nasdaq-data-link-timeseries
@@ -85,27 +84,27 @@ collections:
   slug: open-quandl-tables-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/plans/quandl-plans-pricing.yml
+  href: https://artifacts.apis.io/quandl/plans/quandl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/quandl-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/finops/quandl-finops.yml
+  href: https://artifacts.apis.io/quandl/finops/quandl-finops.yml
   title: ''
   type: FinOps
   url: finops/quandl-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/agentic-access/quandl-agentic-access.yml
+  href: https://artifacts.apis.io/quandl/agentic-access/quandl-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/quandl-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/security/quandl-domain-security.yml
+  href: https://artifacts.apis.io/quandl/security/quandl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quandl-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/authentication/quandl-authentication.yml
+  href: https://artifacts.apis.io/quandl/authentication/quandl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/quandl-authentication.yml
@@ -158,17 +157,17 @@ common:
   type: SDKs
   url: https://github.com/Nasdaq/NasdaqCloudDataService-SDK-Java
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/openapi/_original/nasdaq-data-link-timeseries-openapi.yml
+  href: https://artifacts.apis.io/quandl/openapi/_original/nasdaq-data-link-timeseries-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/nasdaq-data-link-timeseries-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/json-schema/nasdaq-data-link-dataset-schema.json
+  href: https://artifacts.apis.io/quandl/json-schema/nasdaq-data-link-dataset-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/nasdaq-data-link-dataset-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/json-ld/nasdaq-data-link-context.jsonld
+  href: https://artifacts.apis.io/quandl/json-ld/nasdaq-data-link-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/nasdaq-data-link-context.jsonld
@@ -208,7 +207,7 @@ plans:
 - name: Quandl Plans Pricing
   plan_count: 1
   slug: quandl-plans-pricing
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Quandl Rate Limits
@@ -227,7 +226,7 @@ rules:
   slug: quandl-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.5
+  composite: 37.6
   coverage:
     artifact_dirs: 13
     catalog_earned: 47.3
@@ -235,15 +234,15 @@ score:
     catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 55.6
-    developer_ergonomics: 60.7
+    developer_ergonomics: 71.4
     discoverability: 57.1
     operational_transparency: 10.5
-  previous_composite: 37.0
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -257,14 +256,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/screenshots/quandl-2026-06-20T192403.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/quandl/quandl-2026-06-20T192403.png
 security:
 - kind: authentication
   name: Quandl Authentication

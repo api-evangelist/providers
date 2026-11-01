@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -77,11 +79,8 @@ apis:
   description: Per-disaster financial summary totals from NEMIS.
   name: OpenFEMA Web Disaster Summaries API
   slug: fema-web-disaster-summaries-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OpenFEMA Catalog API
   slug: open-fema-catalog-api
@@ -112,17 +111,17 @@ common:
   type: Blog
   url: https://www.fema.gov/about/news-multimedia/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/capabilities/fema-capability-edges.yml
+  href: https://artifacts.apis.io/fema/capabilities/fema-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fema-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/agentic-access/fema-agentic-access.yml
+  href: https://artifacts.apis.io/fema/agentic-access/fema-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fema-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/security/fema-domain-security.yml
+  href: https://artifacts.apis.io/fema/security/fema-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fema-domain-security.yml
@@ -135,7 +134,7 @@ common:
   type: Documentation
   url: https://www.fema.gov/about/openfema/api
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/rate-limits/fema-rate-limits.yml
+  href: https://artifacts.apis.io/fema/rate-limits/fema-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fema-rate-limits.yml
@@ -151,7 +150,7 @@ overview: 'OpenFEMA publishes 7 API contracts indexed on the [APIs.io](https://a
 
 
   OpenFEMA''s developer surface includes engineering blog, documentation, and 5 more developer resources.'
-random_paper: 13
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Fema Rate Limits
@@ -166,7 +165,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.2
+  delta: -0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -174,28 +173,28 @@ score:
     developer_ergonomics: 19.0
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 23.4
+  previous_composite: 21.8
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 15
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/screenshots/fema-2026-10-11T185531.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fema/fema-2026-10-11T185531.png
 security:
 - kind: domain-security
   name: Fema Domain Security

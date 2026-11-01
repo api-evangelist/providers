@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -120,42 +122,42 @@ common:
   type: Roadmap
   url: https://www.nerc.com/standards/reliability-standards-under-development
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/well-known/nerc-well-known.yml
+  href: https://artifacts.apis.io/nerc/well-known/nerc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nerc-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/well-known/nerc-eisac-openid-configuration.json
+  href: https://artifacts.apis.io/nerc/well-known/nerc-eisac-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/nerc-eisac-openid-configuration.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/well-known/nerc-robots.txt
+  href: https://artifacts.apis.io/nerc/well-known/nerc-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/nerc-robots.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/authentication/nerc-authentication.yml
+  href: https://artifacts.apis.io/nerc/authentication/nerc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nerc-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/scopes/nerc-scopes.yml
+  href: https://artifacts.apis.io/nerc/scopes/nerc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nerc-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/conformance/nerc-conformance.yml
+  href: https://artifacts.apis.io/nerc/conformance/nerc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nerc-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/security/nerc-domain-security.yml
+  href: https://artifacts.apis.io/nerc/security/nerc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nerc-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/llms/nerc-llms.txt
+  href: https://artifacts.apis.io/nerc/llms/nerc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nerc-llms.txt
@@ -173,7 +175,7 @@ overview: 'NERC is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   NERC''s developer surface includes developer portal, documentation, support, engineering blog, YouTube channel, authentication, and 22 more developer resources.'
-random_paper: 6
+random_paper: 16
 scopes:
 - name: Nerc Scopes
   scope_count: 36
@@ -181,7 +183,7 @@ scopes:
   summary_line: 36 scopes · authorizationCode/implicit
 score:
   band: emerging
-  composite: 20.6
+  composite: 21.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -194,7 +196,7 @@ score:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 35.7
+    developer_ergonomics: 38.1
     discoverability: 48.2
     operational_transparency: 5.3
   jurisdiction:
@@ -205,7 +207,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 20.6
+  previous_composite: 21.1
   provenance:
     conformance: derived
   regulatory:
@@ -214,14 +216,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/screenshots/nerc-2026-08-07T184904.png
+screenshot: https://apis.io/screenshots/nerc/nerc-2026-08-07T184904.png
 security:
 - kind: authentication
   name: Nerc Authentication

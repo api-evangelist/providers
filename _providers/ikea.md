@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,11 +74,8 @@ apis:
   description: Everything about Stores
   name: IKEA Stores API
   slug: ikea-stores-api
-artifact_total: 73
+artifact_total: 72
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: IKEA After Purchase Ordering API
   slug: open-ikea-after-purchase-ordering
@@ -106,7 +105,7 @@ collections:
   slug: open-ikea-stores-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/capabilities/ikea-capability-edges.yml
+  href: https://artifacts.apis.io/ikea/capabilities/ikea-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ikea-capability-edges.yml
@@ -119,22 +118,22 @@ common:
   type: License
   url: https://github.com/idelsink/ikea-openapi/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/agentic-access/ikea-agentic-access.yml
+  href: https://artifacts.apis.io/ikea/agentic-access/ikea-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ikea-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/security/ikea-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ikea/security/ikea-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ikea-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/security/ikea-domain-security.yml
+  href: https://artifacts.apis.io/ikea/security/ikea-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ikea-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/authentication/ikea-authentication.yml
+  href: https://artifacts.apis.io/ikea/authentication/ikea-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ikea-authentication.yml
@@ -358,7 +357,7 @@ overview: 'IKEA publishes 6 API contracts indexed on the [APIs.io](https://apis.
 
 
   IKEA''s developer surface includes authentication, engineering blog, code examples, and 15 more developer resources.'
-random_paper: 14
+random_paper: 2
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -385,7 +384,7 @@ rules:
   slug: ikea-rules
 score:
   band: thin
-  composite: 32.8
+  composite: 34.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 50.5
@@ -393,15 +392,15 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 13.6
     contract_quality: 61.3
     developer_ergonomics: 40.5
     discoverability: 62.5
-    operational_transparency: 2.6
-  previous_composite: 32.7
+    operational_transparency: 15.8
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -415,14 +414,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/screenshots/ikea-2026-10-11T105636.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ikea/ikea-2026-10-11T105636.png
 security:
 - kind: authentication
   name: Ikea Authentication

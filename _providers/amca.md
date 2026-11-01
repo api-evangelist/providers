@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -49,12 +51,12 @@ common:
   type: PrivacyPolicy
   url: https://www.amca.com/terms-of-use
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amca/refs/heads/main/llms/amca-llms.txt
+  href: https://artifacts.apis.io/amca/llms/amca-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amca-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amca/refs/heads/main/security/amca-domain-security.yml
+  href: https://artifacts.apis.io/amca/security/amca-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amca-domain-security.yml
@@ -94,40 +96,40 @@ overview: 'Amca is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Amca''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 6
+random_paper: 18
 score:
   band: minimal
-  composite: 7.3
+  composite: 7.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 55.4
+    developer_ergonomics: 7.1
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 6.8
+  previous_composite: 7.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/amca/refs/heads/main/screenshots/amca-2026-07-25T200032.png
+screenshot: https://apis.io/screenshots/amca/amca-2026-07-25T200032.png
 security:
 - kind: domain-security
   name: Amca Domain Security

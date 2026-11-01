@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -110,11 +112,8 @@ apis:
   description: Manage API objects within applications
   name: Tetrate APIs API
   slug: tetrate-apis-api
-artifact_total: 67
+artifact_total: 66
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tetrate Service Bridge REST APIs API
   slug: open-tetrate-apis-api
@@ -150,37 +149,37 @@ collections:
   slug: open-tetrate-workspaces-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/plans/tetrate-plans-pricing.yml
+  href: https://artifacts.apis.io/tetrate/plans/tetrate-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tetrate-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/rate-limits/tetrate-rate-limits.yml
+  href: https://artifacts.apis.io/tetrate/rate-limits/tetrate-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tetrate-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/finops/tetrate-finops.yml
+  href: https://artifacts.apis.io/tetrate/finops/tetrate-finops.yml
   title: ''
   type: FinOps
   url: finops/tetrate-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/capabilities/tetrate-capability-edges.yml
+  href: https://artifacts.apis.io/tetrate/capabilities/tetrate-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tetrate-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/agentic-access/tetrate-agentic-access.yml
+  href: https://artifacts.apis.io/tetrate/agentic-access/tetrate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tetrate-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/security/tetrate-domain-security.yml
+  href: https://artifacts.apis.io/tetrate/security/tetrate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tetrate-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/authentication/tetrate-authentication.yml
+  href: https://artifacts.apis.io/tetrate/authentication/tetrate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tetrate-authentication.yml
@@ -229,27 +228,27 @@ common:
   type: Community
   url: https://tetrate.io/community/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/_original/tetrate-service-bridge-openapi.yml
+  href: https://artifacts.apis.io/tetrate/openapi/_original/tetrate-service-bridge-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/tetrate-service-bridge-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/json-schema/tsb-resource-schema.json
+  href: https://artifacts.apis.io/tetrate/json-schema/tsb-resource-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tsb-resource-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/json-structure/tsb-resource-structure.json
+  href: https://artifacts.apis.io/tetrate/json-structure/tsb-resource-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/tsb-resource-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/json-ld/tetrate-context.jsonld
+  href: https://artifacts.apis.io/tetrate/json-ld/tetrate-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tetrate-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/vocabulary/tetrate-vocabulary.yml
+  href: https://artifacts.apis.io/tetrate/vocabulary/tetrate-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tetrate-vocabulary.yml
@@ -381,7 +380,7 @@ plans:
 - name: Tetrate Plans Pricing
   plan_count: 2
   slug: tetrate-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Tetrate Rate Limits
@@ -411,8 +410,8 @@ rules:
     warn: 6
   slug: tetrate-service-bridge-rules
 score:
-  band: thin
-  composite: 37.7
+  band: developing
+  composite: 40.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 66.4
@@ -420,15 +419,15 @@ score:
     catalog_gap: 48.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 27.3
-    contract_quality: 59.5
-    developer_ergonomics: 35.7
+    contract_quality: 56.1
+    developer_ergonomics: 47.6
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 39.2
+    operational_transparency: 26.3
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -442,13 +441,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/screenshots/tetrate-2026-06-20T195201.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tetrate/tetrate-2026-06-20T195201.png
 security:
 - kind: authentication
   name: Tetrate Authentication

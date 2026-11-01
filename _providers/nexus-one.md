@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -57,62 +59,62 @@ common:
   type: Blog
   url: https://www.nx1.io/blog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nexus-one/refs/heads/main/llms/nexus-one-llms.txt
+  href: https://artifacts.apis.io/nexus-one/llms/nexus-one-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nexus-one-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nexus-one/refs/heads/main/packages/nexus-one-packages.yml
+  href: https://artifacts.apis.io/nexus-one/packages/nexus-one-packages.yml
   title: ''
   type: Packages
   url: packages/nexus-one-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nexus-one/refs/heads/main/packages/nexus-one-packages.yml
+  href: https://artifacts.apis.io/nexus-one/packages/nexus-one-packages.yml
   title: ''
   type: SDKs
   url: packages/nexus-one-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nexus-one/refs/heads/main/mcp/nexus-one-mcp.yml
+  href: https://artifacts.apis.io/nexus-one/mcp/nexus-one-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nexus-one-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nexus-one/refs/heads/main/well-known/nexus-one-security.txt
+  href: https://artifacts.apis.io/nexus-one/well-known/nexus-one-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/nexus-one-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nexus-one/refs/heads/main/well-known/nexus-one-well-known.yml
+  href: https://artifacts.apis.io/nexus-one/well-known/nexus-one-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nexus-one-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nexus-one/refs/heads/main/security/nexus-one-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nexus-one/security/nexus-one-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/nexus-one-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nexus-one/refs/heads/main/security/nexus-one-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nexus-one/security/nexus-one-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nexus-one-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nexus-one/refs/heads/main/security/nexus-one-domain-security.yml
+  href: https://artifacts.apis.io/nexus-one/security/nexus-one-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nexus-one-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nexus-one/refs/heads/main/security/nexus-one-trust-center.yml
+  href: https://artifacts.apis.io/nexus-one/security/nexus-one-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nexus-one-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nexus-one/refs/heads/main/security/nexus-one-trust-center.yml
+  href: https://artifacts.apis.io/nexus-one/security/nexus-one-trust-center.yml
   title: ''
   type: Compliance
   url: security/nexus-one-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nexus-one/refs/heads/main/conformance/nexus-one-conformance.yml
+  href: https://artifacts.apis.io/nexus-one/conformance/nexus-one-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nexus-one-conformance.yml
@@ -132,10 +134,10 @@ overview: 'Nexus One is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Nexus One''s developer surface includes engineering blog and 16 more developer resources.'
-random_paper: 6
+random_paper: 18
 score:
   band: emerging
-  composite: 17.4
+  composite: 16.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -149,14 +151,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 55.0
+    discoverability: 48.3
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 17.4
+  previous_composite: 16.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -166,14 +168,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nexus-one/refs/heads/main/screenshots/nexus-one-2026-08-07T185225.png
+screenshot: https://apis.io/screenshots/nexus-one/nexus-one-2026-08-07T185225.png
 security:
 - kind: domain-security
   name: Nexus One Domain Security

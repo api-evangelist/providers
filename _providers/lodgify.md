@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: Event subscriptions for real-time notifications.
   name: Lodgify Webhooks API
   slug: lodgify-webhooks-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Lodgify Public Availability API
   slug: open-lodgify-availability-api
@@ -102,22 +101,22 @@ collections:
   slug: open-lodgify
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/capabilities/lodgify-capability-edges.yml
+  href: https://artifacts.apis.io/lodgify/capabilities/lodgify-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lodgify-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/agentic-access/lodgify-agentic-access.yml
+  href: https://artifacts.apis.io/lodgify/agentic-access/lodgify-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lodgify-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/security/lodgify-domain-security.yml
+  href: https://artifacts.apis.io/lodgify/security/lodgify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lodgify-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/authentication/lodgify-authentication.yml
+  href: https://artifacts.apis.io/lodgify/authentication/lodgify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lodgify-authentication.yml
@@ -138,17 +137,17 @@ common:
   type: Documentation
   url: https://docs.lodgify.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/plans/lodgify-plans-pricing.yml
+  href: https://artifacts.apis.io/lodgify/plans/lodgify-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lodgify-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/rate-limits/lodgify-rate-limits.yml
+  href: https://artifacts.apis.io/lodgify/rate-limits/lodgify-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lodgify-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/finops/lodgify-finops.yml
+  href: https://artifacts.apis.io/lodgify/finops/lodgify-finops.yml
   title: ''
   type: FinOps
   url: finops/lodgify-finops.yml
@@ -180,14 +179,14 @@ plans:
 - name: Lodgify Plans Pricing
   plan_count: 4
   slug: lodgify-plans-pricing
-random_paper: 2
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Lodgify Rate Limits
   slug: lodgify-rate-limits
 score:
   band: thin
-  composite: 28.0
+  composite: 28.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 42.0
@@ -195,15 +194,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 54.2
+    contract_quality: 50.8
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 7.9
-  previous_composite: 35.4
+    operational_transparency: 10.5
+  previous_composite: 28.2
   provenance:
     agentic_access: derived
     contracts:
@@ -217,13 +216,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/screenshots/lodgify-2026-07-25T225448.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lodgify/lodgify-2026-07-25T225448.png
 security:
 - kind: authentication
   name: Lodgify Authentication

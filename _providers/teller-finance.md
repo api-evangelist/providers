@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,27 +71,27 @@ common:
   type: SourceCode
   url: https://github.com/teller-protocol/teller-protocol-v2
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/teller-finance/refs/heads/main/packages/teller-finance-packages.yml
+  href: https://artifacts.apis.io/teller-finance/packages/teller-finance-packages.yml
   title: ''
   type: Packages
   url: packages/teller-finance-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/teller-finance/refs/heads/main/packages/teller-finance-packages.yml
+  href: https://artifacts.apis.io/teller-finance/packages/teller-finance-packages.yml
   title: ''
   type: SDKs
   url: packages/teller-finance-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teller-finance/refs/heads/main/components/teller-finance-components.yml
+  href: https://artifacts.apis.io/teller-finance/components/teller-finance-components.yml
   title: ''
   type: Components
   url: components/teller-finance-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teller-finance/refs/heads/main/llms/teller-finance-llms.txt
+  href: https://artifacts.apis.io/teller-finance/llms/teller-finance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/teller-finance-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teller-finance/refs/heads/main/security/teller-finance-domain-security.yml
+  href: https://artifacts.apis.io/teller-finance/security/teller-finance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teller-finance-domain-security.yml
@@ -105,10 +107,10 @@ overview: 'Teller Finance is profiled on the [APIs.io](https://apis.io/) network
 
 
   Teller Finance''s developer surface includes documentation, engineering blog, and 11 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: minimal
-  composite: 7.3
+  composite: 7.9
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -122,26 +124,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 55.4
-    operational_transparency: 2.6
-  open_source:
-    applies: true
-    score: 0.0
-  previous_composite: 7.3
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 7.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/teller-finance/refs/heads/main/screenshots/teller-finance-2026-09-02T162744.png
+screenshot: https://apis.io/screenshots/teller-finance/teller-finance-2026-09-02T162744.png
 security:
 - kind: domain-security
   name: Teller Finance Domain Security

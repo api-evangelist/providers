@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: verified
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 37.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 18
@@ -53,50 +55,55 @@ apis:
   description: The Resolutions API from Blumira — 1 operation(s) for resolutions.
   name: Blumira Resolutions API
   slug: blumira-resolutions-api
-artifact_total: 17
+artifact_total: 18
 common:
+- group: other
+  href: https://artifacts.apis.io/blumira/capabilities/blumira-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/blumira-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/agentic-access/blumira-agentic-access.yml
+  href: https://artifacts.apis.io/blumira/agentic-access/blumira-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/blumira-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/plans/blumira-plans-pricing.yml
+  href: https://artifacts.apis.io/blumira/plans/blumira-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blumira-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/rules/blumira-rules.yml
+  href: https://artifacts.apis.io/blumira/rules/blumira-rules.yml
   title: ''
   type: Spectral
   url: rules/blumira-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/json-ld/blumira-context.jsonld
+  href: https://artifacts.apis.io/blumira/json-ld/blumira-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/blumira-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/vocabulary/blumira-vocabulary.yml
+  href: https://artifacts.apis.io/blumira/vocabulary/blumira-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/blumira-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/data-model/blumira-data-model.yml
+  href: https://artifacts.apis.io/blumira/data-model/blumira-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blumira-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/changelog/blumira-changelog.yml
+  href: https://artifacts.apis.io/blumira/changelog/blumira-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/blumira-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/conventions/blumira-conventions.yml
+  href: https://artifacts.apis.io/blumira/conventions/blumira-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/blumira-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/conventions/blumira-conventions.yml
+  href: https://artifacts.apis.io/blumira/conventions/blumira-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blumira-conventions.yml
@@ -105,42 +112,42 @@ common:
   type: Compliance
   url: https://app.drata.com/trust/dec6cfdb-01d8-48e0-9aea-d34a48e20589
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/errors/blumira-problem-types.yml
+  href: https://artifacts.apis.io/blumira/errors/blumira-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/blumira-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/conformance/blumira-conformance.yml
+  href: https://artifacts.apis.io/blumira/conformance/blumira-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blumira-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/well-known/blumira-app-security.txt
+  href: https://artifacts.apis.io/blumira/well-known/blumira-app-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/blumira-app-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/well-known/blumira-well-known.yml
+  href: https://artifacts.apis.io/blumira/well-known/blumira-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/blumira-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/hosts/blumira-hosts.yml
+  href: https://artifacts.apis.io/blumira/hosts/blumira-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blumira-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/vendors/blumira-vendors.yml
+  href: https://artifacts.apis.io/blumira/vendors/blumira-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blumira-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/packages/blumira-packages.yml
+  href: https://artifacts.apis.io/blumira/packages/blumira-packages.yml
   title: ''
   type: SDKs
   url: packages/blumira-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/packages/blumira-packages.yml
+  href: https://artifacts.apis.io/blumira/packages/blumira-packages.yml
   title: ''
   type: Packages
   url: packages/blumira-packages.yml
@@ -173,17 +180,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/Blumira
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/authentication/blumira-authentication.yml
+  href: https://artifacts.apis.io/blumira/authentication/blumira-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blumira-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/security/blumira-trust-center.yml
+  href: https://artifacts.apis.io/blumira/security/blumira-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/blumira-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/security/blumira-domain-security.yml
+  href: https://artifacts.apis.io/blumira/security/blumira-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blumira-domain-security.yml
@@ -209,6 +216,14 @@ common:
   url: https://www.blumira.com/pricing
 created: '2026-09-29'
 description: Blumira provides a security operations platform that helps IT teams detect, investigate, and respond to threats across cloud, on‑premise, and hybrid environments. It offers features such as automated alerting, evidence‑rich case management, integrations with major cloud providers, and a developer‑friendly API for ingesting logs, managing detections, and automating response actions. The platform aims to simplify security operations while delivering comprehensive visibility and compliance reporting.
+finops:
+- has_sources: true
+  method: derived
+  name: Blumira Finops
+  primary_unit: seat
+  service_category: ''
+  slug: blumira-finops
+  template: false
 image: https://www.blumira.com/hubfs/Comprehensive%20Cybersecurity.png
 json_schemas:
 - name: action_catalog
@@ -245,12 +260,12 @@ overview: 'Blumira publishes 4 API contracts indexed on the [APIs.io](https://ap
   The Blumira catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Blumira''s developer surface includes changelog, getting-started guide, authentication, documentation, support, engineering blog, pricing, and 26 more developer resources.'
+  Blumira''s developer surface includes changelog, getting-started guide, authentication, documentation, support, engineering blog, pricing, and 27 more developer resources.'
 plans:
 - name: Blumira Plans Pricing
   plan_count: 3
   slug: blumira-plans-pricing
-random_paper: 0
+random_paper: 4
 rules:
 - authorship: generated
   effective_rule_count: 50
@@ -266,23 +281,23 @@ rules:
   slug: blumira-rules
 score:
   band: strong
-  composite: 60.0
+  composite: 58.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 74.8
+    artifact_dirs: 23
+    catalog_earned: 77.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 40.3
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.9
+  delta: 1.6
   facets:
-    access_clarity: 78.9
+    access_clarity: 86.8
     contract_governance: 22.0
-    contract_quality: 59.6
+    contract_quality: 56.2
     developer_ergonomics: 47.6
     discoverability: 67.9
     operational_transparency: 47.4
-  previous_composite: 61.9
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -298,12 +313,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Blumira Authentication

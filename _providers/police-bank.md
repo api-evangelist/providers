@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,9 +83,6 @@ apis:
 artifact_total: 19
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-police-bank-banking-account-balances-api
 - collection_type: open
@@ -106,17 +105,17 @@ collections:
   slug: open-police-bank-banking-products-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/capabilities/police-bank-capability-edges.yml
+  href: https://artifacts.apis.io/police-bank/capabilities/police-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/police-bank-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/agentic-access/police-bank-agentic-access.yml
+  href: https://artifacts.apis.io/police-bank/agentic-access/police-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/police-bank-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/security/police-bank-domain-security.yml
+  href: https://artifacts.apis.io/police-bank/security/police-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/police-bank-domain-security.yml
@@ -141,57 +140,57 @@ common:
   type: DeveloperPortal
   url: https://product.api.policebank.com.au/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/authentication/police-bank-authentication.yml
+  href: https://artifacts.apis.io/police-bank/authentication/police-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/police-bank-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/scopes/police-bank-scopes.yml
+  href: https://artifacts.apis.io/police-bank/scopes/police-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/police-bank-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/errors/police-bank-problem-types.yml
+  href: https://artifacts.apis.io/police-bank/errors/police-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/police-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/conventions/police-bank-conventions.yml
+  href: https://artifacts.apis.io/police-bank/conventions/police-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/police-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/conformance/police-bank-conformance.yml
+  href: https://artifacts.apis.io/police-bank/conformance/police-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/police-bank-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/lifecycle/police-bank-lifecycle.yml
+  href: https://artifacts.apis.io/police-bank/lifecycle/police-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/police-bank-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/mcp/police-bank-mcp.yml
+  href: https://artifacts.apis.io/police-bank/mcp/police-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/police-bank-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/data-model/police-bank-data-model.yml
+  href: https://artifacts.apis.io/police-bank/data-model/police-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/police-bank-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/overlays/police-bank-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/police-bank/overlays/police-bank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/police-bank-cds-banking-products-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/police-bank/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/llms/police-bank-llms.txt
+  href: https://artifacts.apis.io/police-bank/llms/police-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/police-bank-llms.txt
@@ -207,15 +206,15 @@ overview: 'Police Bank publishes 7 API contracts indexed on the [APIs.io](https:
 
 
   Police Bank''s developer surface includes documentation, support, authentication, and 16 more developer resources.'
-random_paper: 15
+random_paper: 13
 scopes:
 - name: Police Bank Scopes
   scope_count: 5
   slug: police-bank-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 24.4
+  band: thin
+  composite: 30.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -225,11 +224,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 44.7
-    developer_ergonomics: 25.6
-    discoverability: 73.2
+    developer_ergonomics: 44.6
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -238,7 +237,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 24.4
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,14 +253,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/screenshots/police-bank-2026-07-21T114745.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/police-bank/police-bank-2026-07-21T114745.png
 security:
 - kind: authentication
   name: Police Bank Authentication
@@ -271,6 +271,10 @@ security:
   name: Police Bank Domain Security
   slug: police-bank-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Look up Police Bank banking products (CDR PRD)
+  slug: police-bank-lookup-banking-products
 slug: police-bank
 tags:
 - Finance

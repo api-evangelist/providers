@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,96 +36,96 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The FOX storefront's Universal Commerce Protocol service, transported over the Model Context Protocol at https://ridefox.com/api/ucp/mcp. Anonymous JSON-RPC; every tool call carries a UCP agent profil
   name: FOX Commerce API (UCP over MCP)
   slug: fox-factory-holding-api
-artifact_total: 8
+artifact_total: 11
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/finops/fox-factory-holding-finops.yml
+  href: https://artifacts.apis.io/fox-factory-holding/finops/fox-factory-holding-finops.yml
   title: ''
   type: FinOps
   url: finops/fox-factory-holding-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/mcp/fox-factory-holding-mcp.yml
+  href: https://artifacts.apis.io/fox-factory-holding/mcp/fox-factory-holding-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/fox-factory-holding-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/well-known/fox-factory-holding-well-known.yml
+  href: https://artifacts.apis.io/fox-factory-holding/well-known/fox-factory-holding-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fox-factory-holding-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/llms/fox-factory-holding-llms.txt
+  href: https://artifacts.apis.io/fox-factory-holding/llms/fox-factory-holding-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fox-factory-holding-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/authentication/fox-factory-holding-authentication.yml
+  href: https://artifacts.apis.io/fox-factory-holding/authentication/fox-factory-holding-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fox-factory-holding-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/scopes/fox-factory-holding-scopes.yml
+  href: https://artifacts.apis.io/fox-factory-holding/scopes/fox-factory-holding-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fox-factory-holding-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/conventions/fox-factory-holding-conventions.yml
+  href: https://artifacts.apis.io/fox-factory-holding/conventions/fox-factory-holding-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fox-factory-holding-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/conventions/fox-factory-holding-conventions.yml
+  href: https://artifacts.apis.io/fox-factory-holding/conventions/fox-factory-holding-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/fox-factory-holding-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/errors/fox-factory-holding-problem-types.yml
+  href: https://artifacts.apis.io/fox-factory-holding/errors/fox-factory-holding-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fox-factory-holding-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/lifecycle/fox-factory-holding-lifecycle.yml
+  href: https://artifacts.apis.io/fox-factory-holding/lifecycle/fox-factory-holding-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fox-factory-holding-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/conformance/fox-factory-holding-conformance.yml
+  href: https://artifacts.apis.io/fox-factory-holding/conformance/fox-factory-holding-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fox-factory-holding-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/data-model/fox-factory-holding-data-model.yml
+  href: https://artifacts.apis.io/fox-factory-holding/data-model/fox-factory-holding-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fox-factory-holding-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fox-factory-holding/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/packages/fox-factory-holding-packages.yml
+  href: https://artifacts.apis.io/fox-factory-holding/packages/fox-factory-holding-packages.yml
   title: ''
   type: Packages
   url: packages/fox-factory-holding-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/rate-limits/fox-factory-holding-rate-limits.yml
+  href: https://artifacts.apis.io/fox-factory-holding/rate-limits/fox-factory-holding-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fox-factory-holding-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/plans/fox-factory-holding-plans-pricing.yml
+  href: https://artifacts.apis.io/fox-factory-holding/plans/fox-factory-holding-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fox-factory-holding-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/security/fox-factory-holding-domain-security.yml
+  href: https://artifacts.apis.io/fox-factory-holding/security/fox-factory-holding-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fox-factory-holding-domain-security.yml
@@ -187,7 +189,7 @@ plans:
 - name: Fox Factory Holding Plans Pricing
   plan_count: 0
   slug: fox-factory-holding-plans-pricing
-random_paper: 10
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Fox Factory Holding Rate Limits
@@ -198,8 +200,8 @@ scopes:
   slug: fox-factory-holding-scopes
   summary_line: 4 scopes
 score:
-  band: thin
-  composite: 26.2
+  band: emerging
+  composite: 25.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 45.0
@@ -207,15 +209,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 75.0
-    operational_transparency: 23.7
-  previous_composite: 27.8
+    discoverability: 65.0
+    operational_transparency: 26.3
+  previous_composite: 25.6
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -226,14 +228,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/screenshots/fox-factory-holding-2026-06-20T181504.png
+screenshot: https://apis.io/screenshots/fox-factory-holding/fox-factory-holding-2026-06-20T181504.png
 security:
 - kind: authentication
   name: Fox Factory Holding Authentication
@@ -243,6 +245,14 @@ security:
   name: Fox Factory Holding Domain Security
   slug: fox-factory-holding-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Build and revise a FOX cart
+  slug: fox-factory-holding-build-a-cart
+- name: Check out on FOX with buyer approval
+  slug: fox-factory-holding-checkout-with-buyer-approval
+- name: Find a FOX product
+  slug: fox-factory-holding-find-a-product
 slug: fox-factory-holding
 tags:
 - Suspension

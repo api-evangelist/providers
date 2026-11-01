@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 12
 apis:
 - description: 'Create, enroll, retrieve, update, delete, search, and merge loyalty members, and read a member''s activity and activity summary. Documented operations include POST /users, GET/PATCH /users/{memberId}, '
@@ -75,7 +77,7 @@ apis:
 artifact_total: 16
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/annex-cloud/refs/heads/main/security/annex-cloud-domain-security.yml
+  href: https://artifacts.apis.io/annex-cloud/security/annex-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/annex-cloud-domain-security.yml
@@ -96,17 +98,17 @@ common:
   type: SignUp
   url: https://www.annexcloud.com/api-documentation/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/annex-cloud/refs/heads/main/plans/annex-cloud-plans-pricing.yml
+  href: https://artifacts.apis.io/annex-cloud/plans/annex-cloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/annex-cloud-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/annex-cloud/refs/heads/main/rate-limits/annex-cloud-rate-limits.yml
+  href: https://artifacts.apis.io/annex-cloud/rate-limits/annex-cloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/annex-cloud-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/annex-cloud/refs/heads/main/finops/annex-cloud-finops.yml
+  href: https://artifacts.apis.io/annex-cloud/finops/annex-cloud-finops.yml
   title: ''
   type: FinOps
   url: finops/annex-cloud-finops.yml
@@ -134,7 +136,7 @@ plans:
 - name: Annex Cloud Plans Pricing
   plan_count: 1
   slug: annex-cloud-plans-pricing
-random_paper: 18
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Annex Cloud Rate Limits
@@ -149,7 +151,7 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
@@ -157,21 +159,21 @@ score:
     developer_ergonomics: 16.7
     discoverability: 62.5
     operational_transparency: 5.3
-  previous_composite: 18.6
+  previous_composite: 12.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/annex-cloud/refs/heads/main/screenshots/annex-cloud-2026-07-25T200301.png
+screenshot: https://apis.io/screenshots/annex-cloud/annex-cloud-2026-07-25T200301.png
 security:
 - kind: domain-security
   name: Annex Cloud Domain Security

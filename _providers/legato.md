@@ -20,7 +20,7 @@ name: Legato Systems
 nav: Providers
 network: true
 overview: Legato Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Storage, Data Storage, and Backup.
-random_paper: 20
+random_paper: 12
 slug: legato
 tags:
 - Company

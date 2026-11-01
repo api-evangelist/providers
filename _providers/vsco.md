@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.2
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 19.9
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://workspace.vsco.co/api/v2
   baseurl_source: declared
@@ -207,15 +209,12 @@ apis:
   description: The Users API from VSCO — 2 operation(s) for users.
   name: VSCO Users API
   slug: vsco-users-api
-artifact_total: 72
+artifact_total: 74
 asyncapis:
 - description: ''
   name: Vsco Workspace Webhooks
   slug: vsco-workspace-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: VSCO Workspace Brands API
   slug: open-vsco-brands-api
@@ -320,12 +319,12 @@ collections:
   slug: open-vsco-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/capabilities/vsco-capability-edges.yml
+  href: https://artifacts.apis.io/vsco/capabilities/vsco-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vsco-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/overlays/vsco-workspace-overlay.yaml
+  href: https://artifacts.apis.io/vsco/overlays/vsco-workspace-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vsco-workspace-overlay.yaml
@@ -362,62 +361,62 @@ common:
   type: PrivacyPolicy
   url: https://www.vsco.co/about/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/authentication/vsco-authentication.yml
+  href: https://artifacts.apis.io/vsco/authentication/vsco-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vsco-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/security/vsco-domain-security.yml
+  href: https://artifacts.apis.io/vsco/security/vsco-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vsco-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/asyncapi/vsco-workspace-webhooks.yml
+  href: https://artifacts.apis.io/vsco/asyncapi/vsco-workspace-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vsco-workspace-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/mcp/vsco-mcp.yml
+  href: https://artifacts.apis.io/vsco/mcp/vsco-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vsco-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vsco/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/llms/vsco-llms.txt
+  href: https://artifacts.apis.io/vsco/llms/vsco-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vsco-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/packages/vsco-packages.yml
+  href: https://artifacts.apis.io/vsco/packages/vsco-packages.yml
   title: ''
   type: Packages
   url: packages/vsco-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/conformance/vsco-conformance.yml
+  href: https://artifacts.apis.io/vsco/conformance/vsco-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vsco-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/errors/vsco-problem-types.yml
+  href: https://artifacts.apis.io/vsco/errors/vsco-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vsco-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/lifecycle/vsco-lifecycle.yml
+  href: https://artifacts.apis.io/vsco/lifecycle/vsco-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vsco-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/conventions/vsco-conventions.yml
+  href: https://artifacts.apis.io/vsco/conventions/vsco-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vsco-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/data-model/vsco-data-model.yml
+  href: https://artifacts.apis.io/vsco/data-model/vsco-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vsco-data-model.yml
@@ -436,10 +435,10 @@ overview: 'VSCO publishes 34 API contracts indexed on the [APIs.io](https://apis
 
 
   VSCO''s developer surface includes documentation, getting-started guide, support, authentication, and 18 more developer resources.'
-random_paper: 3
+random_paper: 11
 score:
   band: developing
-  composite: 40.4
+  composite: 39.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -447,15 +446,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 59.1
+    contract_quality: 55.8
     developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 40.3
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 39.9
   provenance:
     conformance: derived
     contracts:
@@ -471,13 +470,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/screenshots/vsco-2026-09-02T170317.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vsco/vsco-2026-09-02T170317.png
 security:
 - kind: authentication
   name: Vsco Authentication
@@ -487,6 +487,14 @@ security:
   name: Vsco Domain Security
   slug: vsco-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Create a contact and open a job in VSCO Workspace
+  slug: vsco-create-contact-and-job
+- name: Record a payment and apply it to an order
+  slug: vsco-record-and-apply-payment
+- name: Subscribe to Workspace REST Hook events
+  slug: vsco-subscribe-rest-hooks
 slug: vsco
 tags:
 - Company

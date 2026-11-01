@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,11 +62,8 @@ apis:
   description: Agency annual FOIA reports as XML.
   name: Freedom of Information Act Annual Reports API
   slug: freedom-of-information-act-annual-reports-api
-artifact_total: 14
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Freedom of Information Act (FOIA) Agency Components API
   slug: open-freedom-of-information-act-agency-components-api
@@ -79,37 +78,37 @@ collections:
   slug: open-freedom-of-information-act
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/plans/freedom-of-information-act-plans-pricing.yml
+  href: https://artifacts.apis.io/freedom-of-information-act/plans/freedom-of-information-act-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/freedom-of-information-act-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/rate-limits/freedom-of-information-act-rate-limits.yml
+  href: https://artifacts.apis.io/freedom-of-information-act/rate-limits/freedom-of-information-act-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/freedom-of-information-act-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/finops/freedom-of-information-act-finops.yml
+  href: https://artifacts.apis.io/freedom-of-information-act/finops/freedom-of-information-act-finops.yml
   title: ''
   type: FinOps
   url: finops/freedom-of-information-act-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/capabilities/freedom-of-information-act-capability-edges.yml
+  href: https://artifacts.apis.io/freedom-of-information-act/capabilities/freedom-of-information-act-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/freedom-of-information-act-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/agentic-access/freedom-of-information-act-agentic-access.yml
+  href: https://artifacts.apis.io/freedom-of-information-act/agentic-access/freedom-of-information-act-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/freedom-of-information-act-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/security/freedom-of-information-act-domain-security.yml
+  href: https://artifacts.apis.io/freedom-of-information-act/security/freedom-of-information-act-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/freedom-of-information-act-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/authentication/freedom-of-information-act-authentication.yml
+  href: https://artifacts.apis.io/freedom-of-information-act/authentication/freedom-of-information-act-authentication.yml
   title: ''
   type: Authentication
   url: authentication/freedom-of-information-act-authentication.yml
@@ -127,7 +126,7 @@ finops:
 - has_sources: false
   method: generated
   name: Freedom Of Information Act Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: freedom-of-information-act-finops
   template: true
@@ -145,14 +144,14 @@ plans:
 - name: Freedom Of Information Act Plans Pricing
   plan_count: 3
   slug: freedom-of-information-act-plans-pricing
-random_paper: 14
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Freedom Of Information Act Rate Limits
   slug: freedom-of-information-act-rate-limits
 score:
   band: emerging
-  composite: 24.8
+  composite: 25.6
   coverage:
     artifact_dirs: 11
     catalog_earned: 33.0
@@ -160,7 +159,7 @@ score:
     catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -173,7 +172,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 26.5
+  previous_composite: 25.6
   provenance:
     agentic_access: derived
     contracts:
@@ -187,13 +186,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/screenshots/freedom-of-information-act-2026-06-20T181524.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/freedom-of-information-act/freedom-of-information-act-2026-06-20T181524.png
 security:
 - kind: authentication
   name: Freedom Of Information Act Authentication

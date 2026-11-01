@@ -25,25 +25,27 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: AI email knowledge-recovery service. Captured company email is optimized and stored in an isolated per-tenant vector database, then exposed to AI agents through an official MCP server (email_search to
   name: mxHERO Mail2Cloud Advanced (AI Email Knowledge)
   slug: mxhero-mail2cloud-advanced-ai-email-knowledge
-artifact_total: 5
+artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mxhero/refs/heads/main/plans/mxhero-plans-pricing.yml
+  href: https://artifacts.apis.io/mxhero/plans/mxhero-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mxhero-plans-pricing.yml
@@ -84,32 +86,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/mxaiorg
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mxhero/refs/heads/main/mcp/mxhero-mcp.yml
+  href: https://artifacts.apis.io/mxhero/mcp/mxhero-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mxhero-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mxhero/refs/heads/main/packages/mxhero-packages.yml
+  href: https://artifacts.apis.io/mxhero/packages/mxhero-packages.yml
   title: ''
   type: Packages
   url: packages/mxhero-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mxhero/refs/heads/main/authentication/mxhero-authentication.yml
+  href: https://artifacts.apis.io/mxhero/authentication/mxhero-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mxhero-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mxhero/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mxhero/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mxhero/refs/heads/main/llms/mxhero-llms.txt
+  href: https://artifacts.apis.io/mxhero/llms/mxhero-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mxhero-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mxhero/refs/heads/main/security/mxhero-domain-security.yml
+  href: https://artifacts.apis.io/mxhero/security/mxhero-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mxhero-domain-security.yml
@@ -133,25 +135,25 @@ plans:
 - name: Mxhero Plans Pricing
   plan_count: 12
   slug: mxhero-plans-pricing
-random_paper: 21
+random_paper: 11
 score:
-  band: emerging
-  composite: 21.5
+  band: thin
+  composite: 26.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 29.2
-    discoverability: 75.0
-    operational_transparency: 2.6
+    developer_ergonomics: 30.4
+    discoverability: 65.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -159,7 +161,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 15.1
+  previous_composite: 26.4
   provenance:
     mcp: first-party
     skills: derived
@@ -168,15 +170,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+    score: 18.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mxhero/refs/heads/main/screenshots/mxhero-2026-08-07T184502.png
+screenshot: https://apis.io/screenshots/mxhero/mxhero-2026-08-07T184502.png
 security:
 - kind: authentication
   name: Mxhero Authentication
@@ -186,6 +188,10 @@ security:
   name: Mxhero Domain Security
   slug: mxhero-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: Search company email knowledge with mxHERO
+  slug: mxhero-email-knowledge-search
 slug: mxhero
 tags:
 - Company

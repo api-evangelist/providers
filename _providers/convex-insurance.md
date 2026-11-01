@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The partner-gated REST API surface behind Convex Digital Underwriting. Convex publicly describes building "a suite of insurance specific APIs" that let broker and client platforms connect to Convex pr
@@ -42,17 +44,17 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/convex-insurance/refs/heads/main/security/convex-insurance-domain-security.yml
+  href: https://artifacts.apis.io/convex-insurance/security/convex-insurance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/convex-insurance-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/convex-insurance/refs/heads/main/conformance/convex-insurance-conformance.yml
+  href: https://artifacts.apis.io/convex-insurance/conformance/convex-insurance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/convex-insurance-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/convex-insurance/refs/heads/main/llms/convex-insurance-llms.txt
+  href: https://artifacts.apis.io/convex-insurance/llms/convex-insurance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/convex-insurance-llms.txt
@@ -129,10 +131,10 @@ overview: 'Convex is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Convex''s developer surface includes documentation, engineering blog, legal docs, and 15 more developer resources.'
-random_paper: 0
+random_paper: 16
 score:
   band: emerging
-  composite: 15.8
+  composite: 15.1
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -146,7 +148,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -156,7 +158,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 15.8
+  previous_composite: 15.1
   provenance:
     conformance: first-party
   regulatory:
@@ -165,14 +167,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/convex-insurance/refs/heads/main/screenshots/convex-insurance-2026-07-25T210353.png
+screenshot: https://apis.io/screenshots/convex-insurance/convex-insurance-2026-07-25T210353.png
 security:
 - kind: domain-security
   name: Convex Insurance Domain Security

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Gated REST API that lets financial institutions with their own KYC/onboarding process programmatically submit W-series forms, CRS self-certifications, and supporting documents for validation; receive '
@@ -45,7 +47,7 @@ asyncapis:
   slug: taina-tax-form-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taina/refs/heads/main/security/taina-domain-security.yml
+  href: https://artifacts.apis.io/taina/security/taina-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/taina-domain-security.yml
@@ -70,27 +72,27 @@ common:
   type: PrivacyPolicy
   url: https://www.taina.tech/privacy-and-gdpr-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taina/refs/heads/main/conformance/taina-conformance.yml
+  href: https://artifacts.apis.io/taina/conformance/taina-conformance.yml
   title: ''
   type: Compliance
   url: conformance/taina-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taina/refs/heads/main/conformance/taina-conformance.yml
+  href: https://artifacts.apis.io/taina/conformance/taina-conformance.yml
   title: ''
   type: Conformance
   url: conformance/taina-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taina/refs/heads/main/security/taina-trust-center.yml
+  href: https://artifacts.apis.io/taina/security/taina-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/taina-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taina/refs/heads/main/asyncapi/taina-tax-form-webhooks.yml
+  href: https://artifacts.apis.io/taina/asyncapi/taina-tax-form-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/taina-tax-form-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taina/refs/heads/main/llms/taina-llms.txt
+  href: https://artifacts.apis.io/taina/llms/taina-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/taina-llms.txt
@@ -109,10 +111,10 @@ overview: 'Taina is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Taina''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 19
+random_paper: 21
 score:
   band: thin
-  composite: 29.4
+  composite: 28.7
   coverage:
     artifact_dirs: 7
     catalog_earned: 32.0
@@ -126,9 +128,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 7.1
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 7.9
-  previous_composite: 29.4
+  previous_composite: 28.7
   provenance:
     conformance: first-party
   regulatory:
@@ -141,14 +143,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/taina/refs/heads/main/screenshots/taina-2026-09-02T162458.png
+screenshot: https://apis.io/screenshots/taina/taina-2026-09-02T162458.png
 security:
 - kind: domain-security
   name: Taina Domain Security

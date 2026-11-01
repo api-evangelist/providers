@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,29 +24,31 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.1
-  scored_at: '2026-10-17'
+  score: 25.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for patient outreach, consent checking and auditing, record-location search, test-patient creation, and usage reporting, plus a FHIR R4 server ($everything) for standards-based access to a co
   name: HealthEx API
   slug: healthex-api
-artifact_total: 6
+artifact_total: 9
 common:
 - group: company
   title: ''
   type: Blog
   url: https://www.healthex.io/press
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/security/healthex-domain-security.yml
+  href: https://artifacts.apis.io/healthex/security/healthex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/healthex-domain-security.yml
@@ -95,77 +97,77 @@ common:
   type: Compliance
   url: https://trustcenter.healthex.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/authentication/healthex-authentication.yml
+  href: https://artifacts.apis.io/healthex/authentication/healthex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/healthex-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/scopes/healthex-scopes.yml
+  href: https://artifacts.apis.io/healthex/scopes/healthex-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/healthex-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/well-known/healthex-well-known.yml
+  href: https://artifacts.apis.io/healthex/well-known/healthex-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/healthex-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/mcp/healthex-mcp.yml
+  href: https://artifacts.apis.io/healthex/mcp/healthex-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/healthex-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/llms/healthex-llms.txt
+  href: https://artifacts.apis.io/healthex/llms/healthex-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/healthex-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/conventions/healthex-conventions.yml
+  href: https://artifacts.apis.io/healthex/conventions/healthex-conventions.yml
   title: ''
   type: Conventions
   url: conventions/healthex-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/errors/healthex-problem-types.yml
+  href: https://artifacts.apis.io/healthex/errors/healthex-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/healthex-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/lifecycle/healthex-lifecycle.yml
+  href: https://artifacts.apis.io/healthex/lifecycle/healthex-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/healthex-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/lifecycle/healthex-lifecycle.yml
+  href: https://artifacts.apis.io/healthex/lifecycle/healthex-lifecycle.yml
   title: ''
   type: StatusPage
   url: lifecycle/healthex-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/lifecycle/healthex-lifecycle.yml
+  href: https://artifacts.apis.io/healthex/lifecycle/healthex-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/healthex-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/changelog/healthex-changelog.yml
+  href: https://artifacts.apis.io/healthex/changelog/healthex-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/healthex-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/sandbox/healthex-sandbox.yml
+  href: https://artifacts.apis.io/healthex/sandbox/healthex-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/healthex-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/conformance/healthex-conformance.yml
+  href: https://artifacts.apis.io/healthex/conformance/healthex-conformance.yml
   title: ''
   type: Conformance
   url: conformance/healthex-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/data-model/healthex-data-model.yml
+  href: https://artifacts.apis.io/healthex/data-model/healthex-data-model.yml
   title: ''
   type: DataModel
   url: data-model/healthex-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/healthex/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -185,7 +187,7 @@ overview: 'HealthEx is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   HealthEx''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, authentication, and 21 more developer resources.'
-random_paper: 15
+random_paper: 11
 scopes:
 - name: Healthex Scopes
   scope_count: 5
@@ -201,15 +203,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 31.6
-  previous_composite: 36.7
+    discoverability: 65.0
+    operational_transparency: 39.5
+  previous_composite: 37.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -224,14 +226,14 @@ score:
     regime: Health
     regime_id: health
     score: 41.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/screenshots/healthex-2026-07-25T220838.png
+screenshot: https://apis.io/screenshots/healthex/healthex-2026-07-25T220838.png
 security:
 - kind: authentication
   name: Healthex Authentication
@@ -245,6 +247,14 @@ security:
   name: Healthex Trust Center
   slug: healthex-trust-center
   summary_line: HIPAA, TEFCA
+skill_count: 3
+skills:
+- name: Add patients to a study and track record retrieval
+  slug: healthex-add-patients-and-track-retrieval
+- name: Check consent then fetch the full FHIR record
+  slug: healthex-check-consent-and-fetch-fhir
+- name: Retrieve a patient's health summary via MCP
+  slug: healthex-retrieve-patient-health-summary
 slug: healthex
 tags:
 - Company

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Walgreens Boots Alliance specialty pharmacy platform serves patients with complex chronic conditions including oncology, rare diseases, and specialty biologics. The specialty pharmacy network integrat
@@ -43,22 +45,22 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/walgreens-boots-alliance/refs/heads/main/plans/walgreens-boots-alliance-plans-pricing.yml
+  href: https://artifacts.apis.io/walgreens-boots-alliance/plans/walgreens-boots-alliance-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/walgreens-boots-alliance-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/walgreens-boots-alliance/refs/heads/main/rate-limits/walgreens-boots-alliance-rate-limits.yml
+  href: https://artifacts.apis.io/walgreens-boots-alliance/rate-limits/walgreens-boots-alliance-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/walgreens-boots-alliance-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/walgreens-boots-alliance/refs/heads/main/finops/walgreens-boots-alliance-finops.yml
+  href: https://artifacts.apis.io/walgreens-boots-alliance/finops/walgreens-boots-alliance-finops.yml
   title: ''
   type: FinOps
   url: finops/walgreens-boots-alliance-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/walgreens-boots-alliance/refs/heads/main/security/walgreens-boots-alliance-domain-security.yml
+  href: https://artifacts.apis.io/walgreens-boots-alliance/security/walgreens-boots-alliance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/walgreens-boots-alliance-domain-security.yml
@@ -118,44 +120,44 @@ plans:
 - name: Walgreens Boots Alliance Plans Pricing
   plan_count: 1
   slug: walgreens-boots-alliance-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Walgreens Boots Alliance Rate Limits
   slug: walgreens-boots-alliance-rate-limits
 score:
   band: emerging
-  composite: 14.3
+  composite: 17.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 49.0
     catalog_earned_first_party: 0.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 10.7
-    developer_ergonomics: 19.0
+    developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 15.8
+  previous_composite: 17.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 8.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 11.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/walgreens-boots-alliance/refs/heads/main/screenshots/walgreens-boots-alliance-2026-06-20T201207.png
+screenshot: https://apis.io/screenshots/walgreens-boots-alliance/walgreens-boots-alliance-2026-06-20T201207.png
 security:
 - kind: domain-security
   name: Walgreens Boots Alliance Domain Security

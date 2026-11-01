@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Model Context Protocol endpoint served from the Dragonfly Therapeutics website host. This is a platform-provided surface automatically provisioned by Wix for every site it builds — not a first-party D
@@ -44,12 +46,12 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dragonfly-therapeutics/refs/heads/main/plans/dragonfly-therapeutics-plans-pricing.yml
+  href: https://artifacts.apis.io/dragonfly-therapeutics/plans/dragonfly-therapeutics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dragonfly-therapeutics-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dragonfly-therapeutics/refs/heads/main/rate-limits/dragonfly-therapeutics-rate-limits.yml
+  href: https://artifacts.apis.io/dragonfly-therapeutics/rate-limits/dragonfly-therapeutics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dragonfly-therapeutics-rate-limits.yml
@@ -82,27 +84,27 @@ common:
   type: Profile
   url: https://www.hiive.com/securities/dragonfly-therapeutics-stock
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dragonfly-therapeutics/refs/heads/main/llms/dragonfly-therapeutics-llms.txt
+  href: https://artifacts.apis.io/dragonfly-therapeutics/llms/dragonfly-therapeutics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dragonfly-therapeutics-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dragonfly-therapeutics/refs/heads/main/mcp/dragonfly-therapeutics-mcp.yml
+  href: https://artifacts.apis.io/dragonfly-therapeutics/mcp/dragonfly-therapeutics-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dragonfly-therapeutics-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dragonfly-therapeutics/refs/heads/main/authentication/dragonfly-therapeutics-authentication.yml
+  href: https://artifacts.apis.io/dragonfly-therapeutics/authentication/dragonfly-therapeutics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dragonfly-therapeutics-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dragonfly-therapeutics/refs/heads/main/conformance/dragonfly-therapeutics-conformance.yml
+  href: https://artifacts.apis.io/dragonfly-therapeutics/conformance/dragonfly-therapeutics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dragonfly-therapeutics-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dragonfly-therapeutics/refs/heads/main/security/dragonfly-therapeutics-domain-security.yml
+  href: https://artifacts.apis.io/dragonfly-therapeutics/security/dragonfly-therapeutics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dragonfly-therapeutics-domain-security.yml
@@ -144,16 +146,16 @@ plans:
 - name: Dragonfly Therapeutics Plans Pricing
   plan_count: 0
   slug: dragonfly-therapeutics-plans-pricing
-random_paper: 20
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Dragonfly Therapeutics Rate Limits
   slug: dragonfly-therapeutics-rate-limits
 score:
   band: emerging
-  composite: 15.0
+  composite: 14.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -165,7 +167,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 72.5
+    discoverability: 63.3
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -174,7 +176,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 15.0
+  previous_composite: 14.1
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -184,14 +186,14 @@ score:
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dragonfly-therapeutics/refs/heads/main/screenshots/dragonfly-therapeutics-2026-09-02T145310.png
+screenshot: https://apis.io/screenshots/dragonfly-therapeutics/dragonfly-therapeutics-2026-09-02T145310.png
 security:
 - kind: authentication
   name: Dragonfly Therapeutics Authentication

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.1
-  scored_at: '2026-10-17'
+  score: 30.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 67
   slug: howler-agentic-access
   summary_line: 67 operations · 37 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://www.howler.co.za/api/v3/consumer_portal
   baseurl_source: declared
@@ -128,11 +130,8 @@ apis:
   description: The OAuth API from Howler — 4 operation(s) for oauth.
   name: Howler O Auth API
   slug: howler-oauth-api
-artifact_total: 40
+artifact_total: 42
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Howler API v3 Artists API
   slug: open-howler-artists-api
@@ -233,77 +232,77 @@ common:
   type: LinkedIn
   url: https://za.linkedin.com/company/howlertech
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/authentication/howler-authentication.yml
+  href: https://artifacts.apis.io/howler/authentication/howler-authentication.yml
   title: ''
   type: Authentication
   url: authentication/howler-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/scopes/howler-scopes.yml
+  href: https://artifacts.apis.io/howler/scopes/howler-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/howler-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/conventions/howler-conventions.yml
+  href: https://artifacts.apis.io/howler/conventions/howler-conventions.yml
   title: ''
   type: Conventions
   url: conventions/howler-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/errors/howler-problem-types.yml
+  href: https://artifacts.apis.io/howler/errors/howler-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/howler-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/data-model/howler-data-model.yml
+  href: https://artifacts.apis.io/howler/data-model/howler-data-model.yml
   title: ''
   type: DataModel
   url: data-model/howler-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/conformance/howler-conformance.yml
+  href: https://artifacts.apis.io/howler/conformance/howler-conformance.yml
   title: ''
   type: Conformance
   url: conformance/howler-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/lifecycle/howler-lifecycle.yml
+  href: https://artifacts.apis.io/howler/lifecycle/howler-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/howler-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/openapi/howler-webhooks-openapi.yml
+  href: https://artifacts.apis.io/howler/openapi/howler-webhooks-openapi.yml
   title: ''
   type: Webhooks
   url: openapi/howler-webhooks-openapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/mcp/howler-mcp.yml
+  href: https://artifacts.apis.io/howler/mcp/howler-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/howler-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/llms/howler-llms.txt
+  href: https://artifacts.apis.io/howler/llms/howler-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/howler-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/overlays/howler-consumer-portal-overlay.yaml
+  href: https://artifacts.apis.io/howler/overlays/howler-consumer-portal-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/howler-consumer-portal-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/well-known/howler-well-known.yml
+  href: https://artifacts.apis.io/howler/well-known/howler-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/howler-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/howler/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/agentic-access/howler-agentic-access.yml
+  href: https://artifacts.apis.io/howler/agentic-access/howler-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/howler-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/security/howler-domain-security.yml
+  href: https://artifacts.apis.io/howler/security/howler-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/howler-domain-security.yml
@@ -319,7 +318,7 @@ overview: 'Howler publishes 17 API contracts indexed on the [APIs.io](https://ap
 
 
   Howler''s developer surface includes documentation, API reference, developer portal, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 19
+random_paper: 9
 scopes:
 - name: Howler Scopes
   scope_count: 3
@@ -341,7 +340,7 @@ score:
     contract_governance: 4.5
     contract_quality: 44.0
     developer_ergonomics: 44.6
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -367,13 +366,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/screenshots/howler-2026-07-25T221539.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/howler/howler-2026-07-25T221539.png
 security:
 - kind: authentication
   name: Howler Authentication
@@ -383,6 +383,14 @@ security:
   name: Howler Domain Security
   slug: howler-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Assign or transfer a Howler ticket
+  slug: howler-assign-transfer-ticket
+- name: Cash out a Howler cashless tag balance
+  slug: howler-cashout-tag
+- name: Top up a Howler cashless tag
+  slug: howler-topup-cashless-tag
 slug: howler
 tags:
 - Company

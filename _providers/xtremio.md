@@ -12,12 +12,12 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xtremio/refs/heads/main/security/xtremio-domain-security.yml
+  href: https://artifacts.apis.io/xtremio/security/xtremio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xtremio-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xtremio/refs/heads/main/llms/xtremio-llms.txt
+  href: https://artifacts.apis.io/xtremio/llms/xtremio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/xtremio-llms.txt
@@ -30,7 +30,7 @@ name: XtremIO
 nav: Providers
 network: true
 overview: XtremIO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Flash Storage, Enterprise Storage, and Data Center.
-random_paper: 6
+random_paper: 8
 security:
 - kind: domain-security
   name: Xtremio Domain Security

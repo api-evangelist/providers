@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.3
-  scored_at: '2026-10-17'
+  score: 21.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Micrometer-based application metrics
   name: Spring Batch Metrics API
   slug: spring-batch-metrics-api
-artifact_total: 25
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Spring Batch 5.1 Actuator Batch Jobs API
   slug: open-spring-batch-batch-jobs-api
@@ -83,22 +82,22 @@ collections:
   slug: open-spring-batch
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spring-batch/refs/heads/main/plans/spring-batch-plans-pricing.yml
+  href: https://artifacts.apis.io/spring-batch/plans/spring-batch-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spring-batch-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spring-batch/refs/heads/main/rate-limits/spring-batch-rate-limits.yml
+  href: https://artifacts.apis.io/spring-batch/rate-limits/spring-batch-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spring-batch-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spring-batch/refs/heads/main/finops/spring-batch-finops.yml
+  href: https://artifacts.apis.io/spring-batch/finops/spring-batch-finops.yml
   title: ''
   type: FinOps
   url: finops/spring-batch-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spring-batch/refs/heads/main/capabilities/spring-batch-capability-edges.yml
+  href: https://artifacts.apis.io/spring-batch/capabilities/spring-batch-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/spring-batch-capability-edges.yml
@@ -115,17 +114,17 @@ common:
   type: ContributionGuide
   url: https://github.com/spring-projects/spring-batch/blob/main/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spring-batch/refs/heads/main/agentic-access/spring-batch-agentic-access.yml
+  href: https://artifacts.apis.io/spring-batch/agentic-access/spring-batch-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spring-batch-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spring-batch/refs/heads/main/security/spring-batch-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/spring-batch/security/spring-batch-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/spring-batch-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spring-batch/refs/heads/main/security/spring-batch-domain-security.yml
+  href: https://artifacts.apis.io/spring-batch/security/spring-batch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spring-batch-domain-security.yml
@@ -185,7 +184,7 @@ finops:
 - has_sources: false
   method: generated
   name: Spring Batch Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: spring-batch-finops
   template: true
@@ -222,7 +221,7 @@ plans:
 - name: Spring Batch Plans Pricing
   plan_count: 3
   slug: spring-batch-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Spring Batch Rate Limits
@@ -253,7 +252,7 @@ rules:
   slug: spring-batch-rules
 score:
   band: thin
-  composite: 35.4
+  composite: 32.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 53.5
@@ -261,18 +260,15 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 52.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 64.3
     operational_transparency: 44.7
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 33.9
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -286,14 +282,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/spring-batch/refs/heads/main/screenshots/spring-batch-2026-06-20T194402.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spring-batch/spring-batch-2026-06-20T194402.png
 security:
 - kind: domain-security
   name: Spring Batch Domain Security

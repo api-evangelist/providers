@@ -14,31 +14,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blueprint-title/refs/heads/main/hosts/blueprint-title-hosts.yml
+  href: https://artifacts.apis.io/blueprint-title/hosts/blueprint-title-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blueprint-title-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blueprint-title/refs/heads/main/vendors/blueprint-title-vendors.yml
+  href: https://artifacts.apis.io/blueprint-title/vendors/blueprint-title-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blueprint-title-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blueprint-title/refs/heads/main/security/blueprint-title-domain-security.yml
+  href: https://artifacts.apis.io/blueprint-title/security/blueprint-title-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blueprint-title-domain-security.yml
@@ -81,7 +83,7 @@ overview: 'Blueprint Title is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Blueprint Title''s developer surface includes documentation, API reference, support, engineering blog, and 4 more developer resources.'
-random_paper: 10
+random_paper: 12
 score:
   band: minimal
   composite: 7.8
@@ -100,12 +102,6 @@ score:
     developer_ergonomics: 23.8
     discoverability: 44.6
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: venue_as_website
   previous_composite: 7.8
   provenance:
     mcp: unknown
@@ -115,8 +111,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

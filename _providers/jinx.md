@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -70,17 +72,17 @@ common:
   type: TermsOfService
   url: https://thinkjinx.com/pages/terms
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jinx/refs/heads/main/well-known/jinx-well-known.yml
+  href: https://artifacts.apis.io/jinx/well-known/jinx-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jinx-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jinx/refs/heads/main/authentication/jinx-authentication.yml
+  href: https://artifacts.apis.io/jinx/authentication/jinx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jinx-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jinx/refs/heads/main/scopes/jinx-scopes.yml
+  href: https://artifacts.apis.io/jinx/scopes/jinx-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/jinx-scopes.yml
@@ -96,7 +98,7 @@ overview: 'Jinx is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Jinx''s developer surface includes engineering blog, support, authentication, and 8 more developer resources.'
-random_paper: 1
+random_paper: 9
 scopes:
 - name: Jinx Scopes
   scope_count: 4
@@ -112,7 +114,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -120,21 +122,21 @@ score:
     developer_ergonomics: 19.0
     discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 14.0
+  previous_composite: 14.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jinx/refs/heads/main/screenshots/jinx-2026-08-07T171019.png
+screenshot: https://apis.io/screenshots/jinx/jinx-2026-08-07T171019.png
 security:
 - kind: authentication
   name: Jinx Authentication

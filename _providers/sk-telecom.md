@@ -14,7 +14,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.7
-  scored_at: '2026-10-17'
+  score: 38.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -189,7 +190,7 @@ apis:
   description: The Voice API from SK Telecom — 1 operation(s) for voice.
   name: SK Telecom Voice API
   slug: sk-telecom-voice-api
-artifact_total: 43
+artifact_total: 47
 collections:
 - collection_type: open
   name: A.X tts
@@ -210,72 +211,77 @@ collections:
   name: 주거 생활
   slug: open-sk-telecom-puzzle-residence
 common:
+- group: other
+  href: https://artifacts.apis.io/sk-telecom/capabilities/sk-telecom-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sk-telecom-capability-edges.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://news.sktelecom.com/feed
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/overlays/sk-telecom-ax-tts-overlay.yaml
+  href: https://artifacts.apis.io/sk-telecom/overlays/sk-telecom-ax-tts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sk-telecom-ax-tts-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/skills/sk-telecom-synthesize-korean-speech.md
+  href: https://artifacts.apis.io/sk-telecom/skills/sk-telecom-synthesize-korean-speech.md
   title: ''
   type: AgentSkill
   url: skills/sk-telecom-synthesize-korean-speech.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/overlays/sk-telecom-facecan-overlay.yaml
+  href: https://artifacts.apis.io/sk-telecom/overlays/sk-telecom-facecan-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sk-telecom-facecan-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/skills/sk-telecom-enroll-and-recognize-a-face.md
+  href: https://artifacts.apis.io/sk-telecom/skills/sk-telecom-enroll-and-recognize-a-face.md
   title: ''
   type: AgentSkill
   url: skills/sk-telecom-enroll-and-recognize-a-face.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/overlays/sk-telecom-puzzle-place-congestion-overlay.yaml
+  href: https://artifacts.apis.io/sk-telecom/overlays/sk-telecom-puzzle-place-congestion-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sk-telecom-puzzle-place-congestion-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/skills/sk-telecom-read-place-congestion.md
+  href: https://artifacts.apis.io/sk-telecom/skills/sk-telecom-read-place-congestion.md
   title: ''
   type: AgentSkill
   url: skills/sk-telecom-read-place-congestion.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/overlays/sk-telecom-puzzle-residence-overlay.yaml
+  href: https://artifacts.apis.io/sk-telecom/overlays/sk-telecom-puzzle-residence-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sk-telecom-puzzle-residence-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/overlays/sk-telecom-meta-overlay.yaml
+  href: https://artifacts.apis.io/sk-telecom/overlays/sk-telecom-meta-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sk-telecom-meta-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/skills/sk-telecom-analyze-video-with-meta.md
+  href: https://artifacts.apis.io/sk-telecom/skills/sk-telecom-analyze-video-with-meta.md
   title: ''
   type: AgentSkill
   url: skills/sk-telecom-analyze-video-with-meta.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/overlays/sk-telecom-ovs-overlay.yaml
+  href: https://artifacts.apis.io/sk-telecom/overlays/sk-telecom-ovs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sk-telecom-ovs-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/agentic-access/sk-telecom-agentic-access.yml
+  href: https://artifacts.apis.io/sk-telecom/agentic-access/sk-telecom-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sk-telecom-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/security/sk-telecom-domain-security.yml
+  href: https://artifacts.apis.io/sk-telecom/security/sk-telecom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sk-telecom-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/authentication/sk-telecom-authentication.yml
+  href: https://artifacts.apis.io/sk-telecom/authentication/sk-telecom-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sk-telecom-authentication.yml
@@ -364,82 +370,82 @@ common:
   type: ChangeLog
   url: https://openapi.sk.com/support/notice/listView
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/changelog/sk-telecom-changelog.yml
+  href: https://artifacts.apis.io/sk-telecom/changelog/sk-telecom-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sk-telecom-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/lifecycle/sk-telecom-lifecycle.yml
+  href: https://artifacts.apis.io/sk-telecom/lifecycle/sk-telecom-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sk-telecom-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/lifecycle/sk-telecom-lifecycle.yml
+  href: https://artifacts.apis.io/sk-telecom/lifecycle/sk-telecom-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/sk-telecom-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/conventions/sk-telecom-conventions.yml
+  href: https://artifacts.apis.io/sk-telecom/conventions/sk-telecom-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sk-telecom-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/errors/sk-telecom-error-codes.yml
+  href: https://artifacts.apis.io/sk-telecom/errors/sk-telecom-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/sk-telecom-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/errors/sk-telecom-problem-types.yml
+  href: https://artifacts.apis.io/sk-telecom/errors/sk-telecom-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sk-telecom-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/rate-limits/sk-telecom-rate-limits.yml
+  href: https://artifacts.apis.io/sk-telecom/rate-limits/sk-telecom-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sk-telecom-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/conformance/sk-telecom-conformance.yml
+  href: https://artifacts.apis.io/sk-telecom/conformance/sk-telecom-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sk-telecom-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/data-model/sk-telecom-data-model.yml
+  href: https://artifacts.apis.io/sk-telecom/data-model/sk-telecom-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sk-telecom-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/packages/sk-telecom-packages.yml
+  href: https://artifacts.apis.io/sk-telecom/packages/sk-telecom-packages.yml
   title: ''
   type: Packages
   url: packages/sk-telecom-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/sandbox/sk-telecom-sandbox.yml
+  href: https://artifacts.apis.io/sk-telecom/sandbox/sk-telecom-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sk-telecom-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/well-known/sk-telecom-well-known.yml
+  href: https://artifacts.apis.io/sk-telecom/well-known/sk-telecom-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sk-telecom-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/mcp/sk-telecom-mcp.yml
+  href: https://artifacts.apis.io/sk-telecom/mcp/sk-telecom-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sk-telecom-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/mcp/sk-telecom-tool-crosswalk.yml
+  href: https://artifacts.apis.io/sk-telecom/mcp/sk-telecom-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/sk-telecom-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/llms/sk-telecom-llms.txt
+  href: https://artifacts.apis.io/sk-telecom/llms/sk-telecom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sk-telecom-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sk-telecom/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -460,17 +466,17 @@ network: true
 overview: 'SK Telecom publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Apartment API, Area Info API, Company API, and 29 more. Tagged areas include Telecommunications, South Korea, Mobile Network Operator, Network APIs, and CAMARA.
 
 
-  SK Telecom''s developer surface includes authentication, signup flow, support, FAQ, engineering blog, documentation, changelog, and 44 more developer resources.'
-random_paper: 0
+  SK Telecom''s developer surface includes authentication, signup flow, support, FAQ, engineering blog, documentation, changelog, and 45 more developer resources.'
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Sk Telecom Rate Limits
   slug: sk-telecom-rate-limits
 score:
   band: developing
-  composite: 41.5
+  composite: 43.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -481,9 +487,9 @@ score:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 49.3
-    developer_ergonomics: 56.5
-    discoverability: 71.7
-    operational_transparency: 26.3
+    developer_ergonomics: 66.1
+    discoverability: 61.7
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -491,7 +497,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 41.5
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -508,13 +514,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 24.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/screenshots/sk-telecom-2026-08-17T081910.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sk-telecom/sk-telecom-2026-08-17T081910.png
 security:
 - kind: authentication
   name: Sk Telecom Authentication
@@ -524,6 +531,16 @@ security:
   name: Sk Telecom Domain Security
   slug: sk-telecom-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: Analyze video and images with SK Telecom META
+  slug: sk-telecom-analyze-video-with-meta
+- name: Enroll and recognize a face with SK Telecom A. facecan
+  slug: sk-telecom-enroll-and-recognize-a-face
+- name: Read place and commercial-area congestion from SK Telecom Geovision Puzzle
+  slug: sk-telecom-read-place-congestion
+- name: Synthesize Korean speech with SK Telecom A.X TTS
+  slug: sk-telecom-synthesize-korean-speech
 slug: sk-telecom
 tags:
 - Telecommunications

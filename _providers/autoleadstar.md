@@ -14,6 +14,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,15 +30,17 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.6
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 39.1
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - description: A first-party Model Context Protocol tool manifest published by Fullpath for AI assistants. Thirteen tools with real JSON Schema inputSchemas covering consent management, shoppers, audiences, tasks, l
   name: Fullpath MCP Tools
@@ -77,11 +80,8 @@ apis:
   description: Operations related to tasks
   name: AutoLeadStar Tasks API
   slug: autoleadstar-tasks-api
-artifact_total: 23
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Autoleadstar Activities API
   slug: open-autoleadstar-activities-api
@@ -105,7 +105,7 @@ collections:
   slug: open-autoleadstar-tasks-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/rate-limits/autoleadstar-rate-limits.yml
+  href: https://artifacts.apis.io/autoleadstar/rate-limits/autoleadstar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/autoleadstar-rate-limits.yml
@@ -114,17 +114,17 @@ common:
   type: BlogRSS
   url: https://www.fullpath.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/capabilities/autoleadstar-capability-edges.yml
+  href: https://artifacts.apis.io/autoleadstar/capabilities/autoleadstar-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/autoleadstar-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/overlays/autoleadstar-fullpath-api-overlay.yaml
+  href: https://artifacts.apis.io/autoleadstar/overlays/autoleadstar-fullpath-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autoleadstar-fullpath-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/security/autoleadstar-domain-security.yml
+  href: https://artifacts.apis.io/autoleadstar/security/autoleadstar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autoleadstar-domain-security.yml
@@ -169,22 +169,22 @@ common:
   type: ChangeLog
   url: https://www.fullpath.com/feature-releases/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/changelog/autoleadstar-changelog.yml
+  href: https://artifacts.apis.io/autoleadstar/changelog/autoleadstar-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/autoleadstar-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/llms/autoleadstar-llms.txt
+  href: https://artifacts.apis.io/autoleadstar/llms/autoleadstar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/autoleadstar-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/well-known/autoleadstar-well-known.yml
+  href: https://artifacts.apis.io/autoleadstar/well-known/autoleadstar-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/autoleadstar-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/well-known/autoleadstar-security.txt
+  href: https://artifacts.apis.io/autoleadstar/well-known/autoleadstar-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/autoleadstar-security.txt
@@ -193,12 +193,12 @@ common:
   type: Security
   url: https://www.fullpath.com/vulnerability-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/security/autoleadstar-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/autoleadstar/security/autoleadstar-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/autoleadstar-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/security/autoleadstar-trust-center.yml
+  href: https://artifacts.apis.io/autoleadstar/security/autoleadstar-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/autoleadstar-trust-center.yml
@@ -207,38 +207,46 @@ common:
   type: Compliance
   url: https://www.fullpath.com/legal-and-trust/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/conformance/autoleadstar-conformance.yml
+  href: https://artifacts.apis.io/autoleadstar/conformance/autoleadstar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/autoleadstar-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/conventions/autoleadstar-conventions.yml
+  href: https://artifacts.apis.io/autoleadstar/conventions/autoleadstar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/autoleadstar-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/packages/autoleadstar-packages.yml
+  href: https://artifacts.apis.io/autoleadstar/packages/autoleadstar-packages.yml
   title: ''
   type: Packages
   url: packages/autoleadstar-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/plans/autoleadstar-plans-pricing.yml
+  href: https://artifacts.apis.io/autoleadstar/plans/autoleadstar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/autoleadstar-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/lifecycle/autoleadstar-lifecycle.yml
+  href: https://artifacts.apis.io/autoleadstar/lifecycle/autoleadstar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/autoleadstar-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/autoleadstar/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-06'
 description: AutoLeadStar is an automotive marketing technology company founded in 2015 in Jerusalem, Israel, that rebranded as Fullpath in March 2023 after raising a $40M Series C. It builds an enhanced Customer Data Platform (CDP) and AI ecosystem for franchise car dealerships, unifying first-party data from the dealership CRM, DMS, website, inventory feed and advertising accounts into a single shopper profile, then activating it through digital advertising, VIN-specific campaigns, equity mining, email/SMS audience activation, website personalization and an AI chat agent. The company opened a public API for the platform in November 2022 and today publishes a Scalar-rendered OpenAPI 3.0 reference at developers.fullpath.com covering shoppers, audiences, leads, tasks, appointments, activities and a vendor Consent Management API, alongside a downloadable Model Context Protocol tool manifest. Fullpath reports more than 2,000 dealership clients across North America and 200+ pre-built integrations,
   and was acquired by Cox Automotive.
+finops:
+- has_sources: true
+  method: derived
+  name: Autoleadstar Finops
+  primary_unit: ''
+  service_category: ''
+  slug: autoleadstar-finops
+  template: true
 image: https://developers.fullpath.com/fullpath-logo.png
 layout: provider
 mcp_servers:
@@ -257,28 +265,28 @@ plans:
 - name: Autoleadstar Plans Pricing
   plan_count: 0
   slug: autoleadstar-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Autoleadstar Rate Limits
   slug: autoleadstar-rate-limits
 score:
   band: developing
-  composite: 52.5
+  composite: 51.7
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 48.0
+    artifact_dirs: 25
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 52.5
     developer_ergonomics: 55.4
-    discoverability: 80.0
+    discoverability: 65.0
     operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -288,7 +296,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 51.9
+  previous_composite: 52.2
   provenance:
     conformance: first-party
     contracts:
@@ -308,13 +316,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/screenshots/autoleadstar-2026-08-07T161958.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/autoleadstar/autoleadstar-2026-08-07T161958.png
 security:
 - kind: authentication
   name: Autoleadstar Authentication
@@ -332,6 +341,16 @@ security:
   name: Autoleadstar Trust Center
   slug: autoleadstar-trust-center
   summary_line: ISO/IEC 27001, ISO/IEC 42001
+skill_count: 4
+skills:
+- name: Build a shopper 360 profile
+  slug: autoleadstar-build-a-shopper-360
+- name: Export a dealership audience
+  slug: autoleadstar-export-an-audience
+- name: Record and verify communication consent
+  slug: autoleadstar-record-communication-consent
+- name: Sync the dealership sales pipeline
+  slug: autoleadstar-sync-the-sales-pipeline
 slug: autoleadstar
 tags:
 - Company

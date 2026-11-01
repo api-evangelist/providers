@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.8
-  scored_at: '2026-10-17'
+  score: 45.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -64,15 +66,12 @@ apis:
   description: Retrieve meeting transcripts
   name: tl;dv Transcripts API
   slug: tl-dv-transcripts-api
-artifact_total: 18
+artifact_total: 21
 asyncapis:
 - description: Webhook events delivered by tl;dv when a meeting finishes processing or a transcript becomes available. Webhooks are configurable at user, team or organization level.
   name: tl;dv Webhooks
   slug: tl-dv-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: tl;dv Meetings API
   slug: open-tl-dv-meetings-api
@@ -87,22 +86,22 @@ collections:
   slug: open-tl-dv-transcripts-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/agentic-access/tl-dv-agentic-access.yml
+  href: https://artifacts.apis.io/tl-dv/agentic-access/tl-dv-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tl-dv-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/skills/tl-dv-import-and-retrieve.md
+  href: https://artifacts.apis.io/tl-dv/skills/tl-dv-import-and-retrieve.md
   title: ''
   type: AgentSkill
   url: skills/tl-dv-import-and-retrieve.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/mcp/tl-dv-mcp.yml
+  href: https://artifacts.apis.io/tl-dv/mcp/tl-dv-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tl-dv-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/overlays/tl-dv-overlay.yaml
+  href: https://artifacts.apis.io/tl-dv/overlays/tl-dv-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tl-dv-overlay.yaml
@@ -167,47 +166,47 @@ common:
   type: Compliance
   url: https://tldv.io/features/security-commitment/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/llms/tl-dv-llms.txt
+  href: https://artifacts.apis.io/tl-dv/llms/tl-dv-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tl-dv-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/security/tl-dv-domain-security.yml
+  href: https://artifacts.apis.io/tl-dv/security/tl-dv-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tl-dv-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/well-known/tl-dv-well-known.yml
+  href: https://artifacts.apis.io/tl-dv/well-known/tl-dv-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tl-dv-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/mcp/tl-dv-tool-crosswalk.yml
+  href: https://artifacts.apis.io/tl-dv/mcp/tl-dv-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tl-dv-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/scopes/tl-dv-scopes.yml
+  href: https://artifacts.apis.io/tl-dv/scopes/tl-dv-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tl-dv-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/packages/tl-dv-packages.yml
+  href: https://artifacts.apis.io/tl-dv/packages/tl-dv-packages.yml
   title: ''
   type: Packages
   url: packages/tl-dv-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/plans/tl-dv-plans-pricing.yml
+  href: https://artifacts.apis.io/tl-dv/plans/tl-dv-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tl-dv-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/rate-limits/tl-dv-rate-limits.yml
+  href: https://artifacts.apis.io/tl-dv/rate-limits/tl-dv-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tl-dv-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/skills/tl-dv-pull-meeting-intelligence.md
+  href: https://artifacts.apis.io/tl-dv/skills/tl-dv-pull-meeting-intelligence.md
   title: ''
   type: AgentSkill
   url: skills/tl-dv-pull-meeting-intelligence.md
@@ -221,6 +220,14 @@ common:
   url: https://github.com/tldv-public/tldv-mcp-server
 created: '2026-07-17'
 description: tl;dv is an AI meeting notetaker for Zoom, Google Meet and Microsoft Teams that automatically records, transcribes and summarizes meetings in 30+ languages and syncs the resulting insights into CRMs and productivity tools. Its public API (base URL https://pasta.tldv.io, version v1alpha1) gives developers programmatic access to meetings, speaker-attributed transcripts and AI-generated notes, plus meeting import from a URL and webhook delivery of MeetingReady and TranscriptReady events. Authentication is via an x-api-key header issued from account settings, and API access requires a Business or Enterprise plan. tl;dv also ships an official Model Context Protocol server — an open-source stdio build at github.com/tldv-public/tldv-mcp-server exposing four read tools, plus a live OAuth-protected hosted endpoint at https://mcp.tldv.io/mcp — making meetings, transcripts and highlights callable directly by AI agents.
+finops:
+- has_sources: true
+  method: derived
+  name: Tl Dv Finops
+  primary_unit: seat/month, billed annually
+  service_category: ''
+  slug: tl-dv-finops
+  template: false
 image: https://api.tldv.io/assets/images/logo_login.png
 layout: provider
 mcp_servers:
@@ -240,9 +247,12 @@ overview: 'tl;dv publishes 4 API contracts indexed on the [APIs.io](https://apis
   tl;dv''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
 plans:
 - name: Tl Dv Plans Pricing
-  plan_count: 5
+  plan_count: 4
   slug: tl-dv-plans-pricing
-random_paper: 3
+- name: Tl Dv Price Estimates
+  plan_count: 0
+  slug: tl-dv-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Tl Dv Rate Limits
@@ -254,23 +264,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 48.7
+  composite: 50.5
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 49.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 21.6
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 21.1
-  previous_composite: 48.6
+    discoverability: 65.0
+    operational_transparency: 23.7
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -287,13 +297,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/screenshots/tl-dv-2026-08-17T082359.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tl-dv/tl-dv-2026-08-17T082359.png
 security:
 - kind: authentication
   name: Tl Dv Authentication
@@ -307,6 +318,12 @@ security:
   name: Tl Dv Trust Center
   slug: tl-dv-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
+skill_count: 2
+skills:
+- name: Import a recording into tl;dv and retrieve results
+  slug: tl-dv-import-and-retrieve
+- name: Pull meeting intelligence from tl;dv
+  slug: tl-dv-pull-meeting-intelligence
 slug: tl-dv
 tags:
 - Company

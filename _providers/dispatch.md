@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.3
-  scored_at: '2026-10-17'
+  score: 25.2
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://api.dispatch.me
@@ -91,15 +93,12 @@ apis:
   description: Composite object creating jobs, customers, organizations and appointments in one call.
   name: Dispatch Work Orders API
   slug: dispatch-work-orders-api
-artifact_total: 26
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Dispatch Webhooks
   slug: dispatch-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Dispatch Files API v1 Appointments API
   slug: open-dispatch-appointments-api
@@ -143,7 +142,7 @@ common:
   type: BlogRSS
   url: https://dispatch.me/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/overlays/dispatch-files-v1-overlay.yaml
+  href: https://artifacts.apis.io/dispatch/overlays/dispatch-files-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dispatch-files-v1-overlay.yaml
@@ -192,77 +191,77 @@ common:
   type: StatusPage
   url: https://status.dispatch.me
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/authentication/dispatch-authentication.yml
+  href: https://artifacts.apis.io/dispatch/authentication/dispatch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dispatch-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/conventions/dispatch-conventions.yml
+  href: https://artifacts.apis.io/dispatch/conventions/dispatch-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dispatch-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/errors/dispatch-problem-types.yml
+  href: https://artifacts.apis.io/dispatch/errors/dispatch-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dispatch-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/lifecycle/dispatch-lifecycle.yml
+  href: https://artifacts.apis.io/dispatch/lifecycle/dispatch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dispatch-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/sandbox/dispatch-sandbox.yml
+  href: https://artifacts.apis.io/dispatch/sandbox/dispatch-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dispatch-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/data-model/dispatch-data-model.yml
+  href: https://artifacts.apis.io/dispatch/data-model/dispatch-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dispatch-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/conformance/dispatch-conformance.yml
+  href: https://artifacts.apis.io/dispatch/conformance/dispatch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dispatch-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/asyncapi/dispatch-webhooks.yml
+  href: https://artifacts.apis.io/dispatch/asyncapi/dispatch-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/dispatch-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/well-known/dispatch-well-known.yml
+  href: https://artifacts.apis.io/dispatch/well-known/dispatch-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dispatch-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/packages/dispatch-packages.yml
+  href: https://artifacts.apis.io/dispatch/packages/dispatch-packages.yml
   title: ''
   type: Packages
   url: packages/dispatch-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/packages/dispatch-packages.yml
+  href: https://artifacts.apis.io/dispatch/packages/dispatch-packages.yml
   title: ''
   type: SDKs
   url: packages/dispatch-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/mcp/dispatch-mcp.yml
+  href: https://artifacts.apis.io/dispatch/mcp/dispatch-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dispatch-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/llms/dispatch-llms.txt
+  href: https://artifacts.apis.io/dispatch/llms/dispatch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dispatch-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dispatch/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/security/dispatch-domain-security.yml
+  href: https://artifacts.apis.io/dispatch/security/dispatch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dispatch-domain-security.yml
@@ -274,17 +273,17 @@ modified: '2026-10-06'
 name: Dispatch
 nav: Providers
 network: true
-overview: 'Dispatch publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointments API, Authentication API, Brands API, and 8 more. Tagged areas include Field Service, Service Orchestration, Work Orders, Scheduling, and Contractor Networks.
+overview: 'Dispatch publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointments API, Authentication API, Brands API, and 8 more. Tagged areas include Field Service Management, Service Orchestration, Work Orders, Scheduling, and Contractor Networks.
 
 
   The Dispatch catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Dispatch''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, sandbox, and 22 more developer resources.'
-random_paper: 12
+random_paper: 8
 score:
   band: thin
-  composite: 38.2
+  composite: 36.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -292,15 +291,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 23.5
+    contract_quality: 20.1
     developer_ergonomics: 63.7
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 38.1
+    operational_transparency: 28.9
+  previous_composite: 36.9
   provenance:
     conformance: derived
     contracts:
@@ -316,13 +315,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/screenshots/dispatch-2026-07-25T212107.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dispatch/dispatch-2026-07-25T212107.png
 security:
 - kind: authentication
   name: Dispatch Authentication
@@ -332,9 +332,17 @@ security:
   name: Dispatch Domain Security
   slug: dispatch-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Dispatch a work order
+  slug: dispatch-dispatch-a-work-order
+- name: Schedule and track an appointment
+  slug: dispatch-schedule-and-track-an-appointment
+- name: Sync customers and organizations with external IDs
+  slug: dispatch-sync-customers-and-organizations
 slug: dispatch
 tags:
-- Field Service
+- Field Service Management
 - Service Orchestration
 - Work Orders
 - Scheduling

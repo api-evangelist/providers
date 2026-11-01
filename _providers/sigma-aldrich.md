@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,11 +73,8 @@ apis:
   description: Chemical structure search using SMILES, InChI, or molecular formula notation for cheminformatics workflows.
   name: Sigma-Aldrich Structures API
   slug: sigma-aldrich-structures-api
-artifact_total: 24
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sigma-Aldrich Product Search Pricing and Availability API
   slug: open-sigma-aldrich-pricing-and-availability-api
@@ -93,32 +92,32 @@ collections:
   slug: open-sigma-aldrich-structures-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/plans/sigma-aldrich-plans-pricing.yml
+  href: https://artifacts.apis.io/sigma-aldrich/plans/sigma-aldrich-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sigma-aldrich-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/rate-limits/sigma-aldrich-rate-limits.yml
+  href: https://artifacts.apis.io/sigma-aldrich/rate-limits/sigma-aldrich-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sigma-aldrich-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/finops/sigma-aldrich-finops.yml
+  href: https://artifacts.apis.io/sigma-aldrich/finops/sigma-aldrich-finops.yml
   title: ''
   type: FinOps
   url: finops/sigma-aldrich-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/agentic-access/sigma-aldrich-agentic-access.yml
+  href: https://artifacts.apis.io/sigma-aldrich/agentic-access/sigma-aldrich-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sigma-aldrich-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/security/sigma-aldrich-domain-security.yml
+  href: https://artifacts.apis.io/sigma-aldrich/security/sigma-aldrich-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sigma-aldrich-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/authentication/sigma-aldrich-authentication.yml
+  href: https://artifacts.apis.io/sigma-aldrich/authentication/sigma-aldrich-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sigma-aldrich-authentication.yml
@@ -206,7 +205,7 @@ press:
 - date: ''
   title: Sigma-Aldrich® and The Scripps Research Institute ...
   url: https://www.fiercebiotech.com/research/sigma-aldrich%C2%AE-and-scripps-research-institute-partner-to-accelerate-commercialization-of
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Sigma Aldrich Rate Limits
@@ -239,13 +238,13 @@ score:
   band: thin
   composite: 32.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 58.4
     catalog_earned_first_party: 0.0
     catalog_gap: 56.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
@@ -253,7 +252,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 33.8
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -267,14 +266,14 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/screenshots/sigma-aldrich-2026-06-20T193909.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sigma-aldrich/sigma-aldrich-2026-06-20T193909.png
 security:
 - kind: authentication
   name: Sigma Aldrich Authentication

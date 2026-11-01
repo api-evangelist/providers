@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -72,11 +74,8 @@ apis:
   description: The Results API from Gravity Forms — 1 operation(s) for results.
   name: Gravity Forms Results API
   slug: gravity-forms-results-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Gravity Forms REST API v2 Entries API
   slug: open-gravity-forms-entries-api
@@ -97,27 +96,27 @@ collections:
   slug: open-gravity-forms
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/agentic-access/gravity-forms-agentic-access.yml
+  href: https://artifacts.apis.io/gravity-forms/agentic-access/gravity-forms-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gravity-forms-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/security/gravity-forms-trust-center.yml
+  href: https://artifacts.apis.io/gravity-forms/security/gravity-forms-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gravity-forms-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/security/gravity-forms-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/gravity-forms/security/gravity-forms-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gravity-forms-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/security/gravity-forms-domain-security.yml
+  href: https://artifacts.apis.io/gravity-forms/security/gravity-forms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gravity-forms-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/authentication/gravity-forms-authentication.yml
+  href: https://artifacts.apis.io/gravity-forms/authentication/gravity-forms-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gravity-forms-authentication.yml
@@ -177,10 +176,10 @@ overview: 'Gravity Forms publishes 6 API contracts indexed on the [APIs.io](http
 
 
   Gravity Forms'' developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
-random_paper: 6
+random_paper: 2
 score:
   band: thin
-  composite: 30.9
+  composite: 33.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -188,15 +187,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 45.6
+    contract_quality: 42.2
     developer_ergonomics: 35.7
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 30.8
+    operational_transparency: 15.8
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -210,13 +209,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/screenshots/gravity-forms-2026-06-20T182350.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gravity-forms/gravity-forms-2026-06-20T182350.png
 security:
 - kind: authentication
   name: Gravity Forms Authentication

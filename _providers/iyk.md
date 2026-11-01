@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The IYK API provides primitives for building digi-physical experiences. Core endpoints manage chips (NFC tags such as NTAG 424, KONG, and ARX HaLo), chip groups, items, taps/refs (validated physical i
@@ -43,7 +45,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/iyk/refs/heads/main/security/iyk-domain-security.yml
+  href: https://artifacts.apis.io/iyk/security/iyk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/iyk-domain-security.yml
@@ -80,32 +82,32 @@ common:
   type: PrivacyPolicy
   url: https://assets.iyk.app/iyk-privacy-policy.pdf
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/iyk/refs/heads/main/llms/iyk-llms.txt
+  href: https://artifacts.apis.io/iyk/llms/iyk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/iyk-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/iyk/refs/heads/main/authentication/iyk-authentication.yml
+  href: https://artifacts.apis.io/iyk/authentication/iyk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/iyk-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/iyk/refs/heads/main/mcp/iyk-mcp.yml
+  href: https://artifacts.apis.io/iyk/mcp/iyk-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/iyk-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iyk/refs/heads/main/conventions/iyk-conventions.yml
+  href: https://artifacts.apis.io/iyk/conventions/iyk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/iyk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iyk/refs/heads/main/data-model/iyk-data-model.yml
+  href: https://artifacts.apis.io/iyk/data-model/iyk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/iyk-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/iyk/refs/heads/main/well-known/iyk-well-known.yml
+  href: https://artifacts.apis.io/iyk/well-known/iyk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/iyk-well-known.yml
@@ -121,26 +123,26 @@ overview: 'IYK is listed with 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   IYK''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, and 10 more developer resources.'
-random_paper: 3
+random_paper: 21
 score:
   band: emerging
-  composite: 25.8
+  composite: 25.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 54.8
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 25.7
+  previous_composite: 25.1
   provenance:
     mcp: derived
   regulatory:
@@ -149,14 +151,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/iyk/refs/heads/main/screenshots/iyk-2026-07-25T223022.png
+screenshot: https://apis.io/screenshots/iyk/iyk-2026-07-25T223022.png
 security:
 - kind: authentication
   name: Iyk Authentication

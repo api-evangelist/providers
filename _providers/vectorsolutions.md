@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -115,11 +117,8 @@ apis:
   description: The Users API from Vector Solutions — 4 operation(s) for users.
   name: Vector Solutions Users API
   slug: vectorsolutions-users-api
-artifact_total: 32
+artifact_total: 33
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TargetSolutions Courses API
   slug: open-vectorsolutions-courses-api
@@ -172,17 +171,17 @@ common:
   type: BlogRSS
   url: https://www.vectorsolutions.com/resources/newsroom/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/security/vectorsolutions-domain-security.yml
+  href: https://artifacts.apis.io/vectorsolutions/security/vectorsolutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vectorsolutions-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/agentic-access/vectorsolutions-agentic-access.yml
+  href: https://artifacts.apis.io/vectorsolutions/agentic-access/vectorsolutions-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vectorsolutions-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/authentication/vectorsolutions-authentication.yml
+  href: https://artifacts.apis.io/vectorsolutions/authentication/vectorsolutions-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vectorsolutions-authentication.yml
@@ -235,52 +234,52 @@ common:
   type: Compliance
   url: https://www.vectorsolutions.com/resources/press-releases/vector-solutions-successfully-completes-annual-soc-2-type-1-examination/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/mcp/vectorsolutions-mcp.yml
+  href: https://artifacts.apis.io/vectorsolutions/mcp/vectorsolutions-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vectorsolutions-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/llms/vectorsolutions-llms.txt
+  href: https://artifacts.apis.io/vectorsolutions/llms/vectorsolutions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vectorsolutions-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/overlays/vectorsolutions-targetsolutions-overlay.yaml
+  href: https://artifacts.apis.io/vectorsolutions/overlays/vectorsolutions-targetsolutions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vectorsolutions-targetsolutions-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/conformance/vectorsolutions-conformance.yml
+  href: https://artifacts.apis.io/vectorsolutions/conformance/vectorsolutions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vectorsolutions-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/errors/vectorsolutions-problem-types.yml
+  href: https://artifacts.apis.io/vectorsolutions/errors/vectorsolutions-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vectorsolutions-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/lifecycle/vectorsolutions-lifecycle.yml
+  href: https://artifacts.apis.io/vectorsolutions/lifecycle/vectorsolutions-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vectorsolutions-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/sandbox/vectorsolutions-sandbox.yml
+  href: https://artifacts.apis.io/vectorsolutions/sandbox/vectorsolutions-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/vectorsolutions-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/conventions/vectorsolutions-conventions.yml
+  href: https://artifacts.apis.io/vectorsolutions/conventions/vectorsolutions-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vectorsolutions-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/data-model/vectorsolutions-data-model.yml
+  href: https://artifacts.apis.io/vectorsolutions/data-model/vectorsolutions-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vectorsolutions-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vectorsolutions/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -296,10 +295,10 @@ overview: 'Vector Solutions publishes 14 API contracts indexed on the [APIs.io](
 
 
   Vector Solutions'' developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, signup flow, and 20 more developer resources.'
-random_paper: 17
+random_paper: 11
 score:
   band: thin
-  composite: 34.9
+  composite: 35.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -307,7 +306,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
@@ -315,7 +314,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 34.8
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -332,13 +331,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/screenshots/vectorsolutions-2026-09-02T165542.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vectorsolutions/vectorsolutions-2026-09-02T165542.png
 security:
 - kind: authentication
   name: Vectorsolutions Authentication
@@ -348,6 +348,12 @@ security:
   name: Vectorsolutions Domain Security
   slug: vectorsolutions-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Track and assign credentials
+  slug: vectorsolutions-manage-credentials
+- name: Onboard a user and assign training
+  slug: vectorsolutions-onboard-user-and-assign-training
 slug: vectorsolutions
 tags:
 - Training

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -58,11 +60,8 @@ apis:
   description: The Plan Design API from Lincoln National — 1 operation(s) for plan design.
   name: Lincoln National Plan Design API
   slug: lincoln-national-plan-design-api
-artifact_total: 13
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Lincoln Financial LincSmart APIs Enrollment API
   slug: open-lincoln-national-enrollment-api
@@ -77,32 +76,32 @@ collections:
   slug: open-lincoln-national
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/plans/lincoln-national-plans-pricing.yml
+  href: https://artifacts.apis.io/lincoln-national/plans/lincoln-national-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lincoln-national-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/rate-limits/lincoln-national-rate-limits.yml
+  href: https://artifacts.apis.io/lincoln-national/rate-limits/lincoln-national-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lincoln-national-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/finops/lincoln-national-finops.yml
+  href: https://artifacts.apis.io/lincoln-national/finops/lincoln-national-finops.yml
   title: ''
   type: FinOps
   url: finops/lincoln-national-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/capabilities/lincoln-national-capability-edges.yml
+  href: https://artifacts.apis.io/lincoln-national/capabilities/lincoln-national-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lincoln-national-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/agentic-access/lincoln-national-agentic-access.yml
+  href: https://artifacts.apis.io/lincoln-national/agentic-access/lincoln-national-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lincoln-national-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/security/lincoln-national-domain-security.yml
+  href: https://artifacts.apis.io/lincoln-national/security/lincoln-national-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lincoln-national-domain-security.yml
@@ -166,14 +165,14 @@ press:
 - date: ''
   title: Delaware Market Conduct Examination Report The Lincoln ...
   url: https://insurance.delaware.gov/wp-content/uploads/sites/15/2025/09/LincolnNationalLifeInsuranceCo2024web.pdf
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Lincoln National Rate Limits
   slug: lincoln-national-rate-limits
 score:
   band: emerging
-  composite: 20.6
+  composite: 21.3
   coverage:
     artifact_dirs: 13
     catalog_earned: 36.0
@@ -181,7 +180,7 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -189,7 +188,7 @@ score:
     developer_ergonomics: 19.0
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 22.2
+  previous_composite: 21.3
   provenance:
     agentic_access: derived
     contracts:
@@ -203,13 +202,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/screenshots/lincoln-national-2026-06-20T184534.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lincoln-national/lincoln-national-2026-06-20T184534.png
 security:
 - kind: domain-security
   name: Lincoln National Domain Security

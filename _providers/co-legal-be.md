@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Agent2Agent 1.0 surface of Co-Legal's public legal/fiscal assistant. The agent card at https://agent.co-legal.be/.well-known/agent-card.json (version 1.27.9, JWS ES256-signed, verified against /.well-
@@ -32,10 +34,10 @@ apis:
 - description: Remote Model Context Protocol server at https://agent.co-legal.be/mcp (Streamable HTTP, POST only, negotiated protocol version 2025-06-18, serverInfo colegal-legal-lookup 1.27.9). initialize and tools
   name: Co-Legal Legal Lookup MCP Server
   slug: co-legal-legal-lookup-mcp-server
-artifact_total: 9
+artifact_total: 13
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/security/co-legal-be-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/co-legal-be/security/co-legal-be-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/co-legal-be-vulnerability-disclosure.yml
@@ -44,7 +46,7 @@ common:
   type: Security
   url: https://co-legal.be/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/security/co-legal-be-domain-security.yml
+  href: https://artifacts.apis.io/co-legal-be/security/co-legal-be-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/co-legal-be-domain-security.yml
@@ -105,77 +107,77 @@ common:
   type: PrivacyPolicy
   url: https://co-legal.be/platform-privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/well-known/co-legal-be-security.txt
+  href: https://artifacts.apis.io/co-legal-be/well-known/co-legal-be-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/co-legal-be-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/well-known/co-legal-be-well-known.yml
+  href: https://artifacts.apis.io/co-legal-be/well-known/co-legal-be-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/co-legal-be-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/a2a/co-legal-be-a2a.yml
+  href: https://artifacts.apis.io/co-legal-be/a2a/co-legal-be-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/co-legal-be-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/mcp/co-legal-be-mcp.yml
+  href: https://artifacts.apis.io/co-legal-be/mcp/co-legal-be-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/co-legal-be-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/mcp/co-legal-be-tool-crosswalk.yml
+  href: https://artifacts.apis.io/co-legal-be/mcp/co-legal-be-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/co-legal-be-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/llms/co-legal-be-llms.txt
+  href: https://artifacts.apis.io/co-legal-be/llms/co-legal-be-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/co-legal-be-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/authentication/co-legal-be-authentication.yml
+  href: https://artifacts.apis.io/co-legal-be/authentication/co-legal-be-authentication.yml
   title: ''
   type: Authentication
   url: authentication/co-legal-be-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/conventions/co-legal-be-conventions.yml
+  href: https://artifacts.apis.io/co-legal-be/conventions/co-legal-be-conventions.yml
   title: ''
   type: Conventions
   url: conventions/co-legal-be-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/errors/co-legal-be-problem-types.yml
+  href: https://artifacts.apis.io/co-legal-be/errors/co-legal-be-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/co-legal-be-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/rate-limits/co-legal-be-rate-limits.yml
+  href: https://artifacts.apis.io/co-legal-be/rate-limits/co-legal-be-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/co-legal-be-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/plans/co-legal-be-plans-pricing.yml
+  href: https://artifacts.apis.io/co-legal-be/plans/co-legal-be-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/co-legal-be-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/conformance/co-legal-be-conformance.yml
+  href: https://artifacts.apis.io/co-legal-be/conformance/co-legal-be-conformance.yml
   title: ''
   type: Conformance
   url: conformance/co-legal-be-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/lifecycle/co-legal-be-lifecycle.yml
+  href: https://artifacts.apis.io/co-legal-be/lifecycle/co-legal-be-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/co-legal-be-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/packages/co-legal-be-packages.yml
+  href: https://artifacts.apis.io/co-legal-be/packages/co-legal-be-packages.yml
   title: ''
   type: Packages
   url: packages/co-legal-be-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/co-legal-be/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -214,6 +216,14 @@ common:
 created: '2026-09-19'
 description: 'Co-Legal B.V. is a Dutch company (KvK 42135345, Delft) building AI-native legal software and dossier support for Belgian and cross-border Belgium–Netherlands matters — wealth planning and succession, company law and transactions, tax and finance, real estate — sold to law firms, notaries, accountants and tax advisers by proposal, with the private platform behind Cloudflare Access and Microsoft Entra. Alongside it Co-Legal runs a public, free, anonymous, read-only agent at agent.co-legal.be for informational Belgian and Dutch legal and fiscal source questions: an A2A 1.0 agent card signed with JWS ES256 (verifiable against a published JWKS) declaring 17 skills — KBO/BCE company lookup, EU VIES VAT validation, Belgian and Dutch ECLI case-law resolvers, EUR-Lex/CELEX and Justel/wetten.overheid.nl statute resolvers, Flemish inheritance-tax brackets, ECB reference rates, IBAN validation, public legal-corpus search and read, a citation verifier, DOCX concept drafting and a natural-language
   answer skill — and a remote MCP server at https://agent.co-legal.be/mcp that answers an anonymous tools/list with 12 of those as read-only, idempotent tools. Everything runs on Google Cloud in the EU with the model (claude-opus-5 via Vertex AI) disclosed inside the card. No OpenAPI is published; the MCP tools/list and the card''s tool-schema extension are the machine-readable contract.'
+finops:
+- has_sources: true
+  method: derived
+  name: Co Legal Be Finops
+  primary_unit: ''
+  service_category: ''
+  slug: co-legal-be-finops
+  template: true
 image: https://co-legal.be/assets/icon-512.png
 layout: provider
 mcp_servers:
@@ -235,28 +245,28 @@ plans:
 - name: Co Legal Be Plans Pricing
   plan_count: 1
   slug: co-legal-be-plans-pricing
-random_paper: 4
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Co Legal Be Rate Limits
   slug: co-legal-be-rate-limits
 score:
   band: developing
-  composite: 42.4
+  composite: 41.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 53.0
     catalog_earned_first_party: 16.0
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 58.9
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -267,7 +277,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 42.3
+  previous_composite: 41.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -278,14 +288,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 57.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/screenshots/co-legal-be-2026-10-11T103104.png
+screenshot: https://apis.io/screenshots/co-legal-be/co-legal-be-2026-10-11T103104.png
 security:
 - kind: authentication
   name: Co Legal Be Authentication
@@ -299,6 +309,14 @@ security:
   name: Co Legal Be Vulnerability Disclosure
   slug: co-legal-be-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 3
+skills:
+- name: co-legal-be-ask-legal-question
+  slug: co-legal-be-ask-legal-question
+- name: co-legal-be-resolve-legal-citation
+  slug: co-legal-be-resolve-legal-citation
+- name: co-legal-be-verify-belgian-company
+  slug: co-legal-be-verify-belgian-company
 slug: co-legal-be
 tags:
 - Legal

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/splitero/refs/heads/main/security/splitero-domain-security.yml
+  href: https://artifacts.apis.io/splitero/security/splitero-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/splitero-domain-security.yml
@@ -72,22 +74,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/SpliteroInc
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/splitero/refs/heads/main/well-known/splitero-well-known.yml
+  href: https://artifacts.apis.io/splitero/well-known/splitero-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/splitero-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/splitero/refs/heads/main/llms/splitero-llms.txt
+  href: https://artifacts.apis.io/splitero/llms/splitero-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/splitero-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/splitero/refs/heads/main/plans/splitero-plans-pricing.yml
+  href: https://artifacts.apis.io/splitero/plans/splitero-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/splitero-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/splitero/refs/heads/main/rate-limits/splitero-rate-limits.yml
+  href: https://artifacts.apis.io/splitero/rate-limits/splitero-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/splitero-rate-limits.yml
@@ -127,14 +129,14 @@ plans:
 - name: Splitero Plans Pricing
   plan_count: 0
   slug: splitero-plans-pricing
-random_paper: 2
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Splitero Rate Limits
   slug: splitero-rate-limits
 score:
   band: emerging
-  composite: 11.9
+  composite: 13.6
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -142,29 +144,29 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 11.8
+    operational_transparency: 5.3
+  previous_composite: 13.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/splitero/refs/heads/main/screenshots/splitero-2026-09-02T160516.png
+screenshot: https://apis.io/screenshots/splitero/splitero-2026-09-02T160516.png
 security:
 - kind: domain-security
   name: Splitero Domain Security

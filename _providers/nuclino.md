@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 26.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: Workspace management
   name: Nuclino Workspaces API
   slug: nuclino-workspaces-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nuclino Collections API
   slug: open-nuclino-collections-api
@@ -99,12 +98,16 @@ collections:
   name: Nuclino Collections Workspaces API
   slug: open-nuclino-workspaces-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/nuclino/overview
 - group: company
   title: ''
   type: Blog
   url: https://www.nuclino.com/articles
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/capabilities/nuclino-capability-edges.yml
+  href: https://artifacts.apis.io/nuclino/capabilities/nuclino-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nuclino-capability-edges.yml
@@ -113,22 +116,22 @@ common:
   type: Website
   url: https://www.nuclino.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/agentic-access/nuclino-agentic-access.yml
+  href: https://artifacts.apis.io/nuclino/agentic-access/nuclino-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nuclino-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/security/nuclino-trust-center.yml
+  href: https://artifacts.apis.io/nuclino/security/nuclino-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nuclino-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/security/nuclino-domain-security.yml
+  href: https://artifacts.apis.io/nuclino/security/nuclino-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nuclino-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/authentication/nuclino-authentication.yml
+  href: https://artifacts.apis.io/nuclino/authentication/nuclino-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nuclino-authentication.yml
@@ -169,17 +172,17 @@ common:
   type: Documentation
   url: https://help.nuclino.com/70af7f4f-connect-nuclino-to-ai-assistants-with-mcp
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/plans/nuclino-plans-pricing.yml
+  href: https://artifacts.apis.io/nuclino/plans/nuclino-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nuclino-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/rate-limits/nuclino-rate-limits.yml
+  href: https://artifacts.apis.io/nuclino/rate-limits/nuclino-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nuclino-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/finops/nuclino-finops.yml
+  href: https://artifacts.apis.io/nuclino/finops/nuclino-finops.yml
   title: ''
   type: FinOps
   url: finops/nuclino-finops.yml
@@ -233,12 +236,12 @@ overview: 'Nuclino publishes 6 API contracts indexed on the [APIs.io](https://ap
   The Nuclino catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Nuclino''s developer surface includes engineering blog, authentication, documentation, pricing, signup flow, and 14 more developer resources.'
+  Nuclino''s developer surface includes engineering blog, authentication, documentation, pricing, signup flow, and 15 more developer resources.'
 plans:
 - name: Nuclino Plans Pricing
   plan_count: 3
   slug: nuclino-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Nuclino Rate Limits
@@ -257,7 +260,7 @@ rules:
   slug: nuclino-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.0
+  composite: 37.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 56.3
@@ -265,15 +268,15 @@ score:
     catalog_gap: 58.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.2
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 63.6
-    developer_ergonomics: 23.8
+    contract_quality: 60.2
+    developer_ergonomics: 25.0
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 43.4
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -287,13 +290,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/screenshots/nuclino-2026-06-20T190507.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nuclino/nuclino-2026-06-20T190507.png
 security:
 - kind: authentication
   name: Nuclino Authentication

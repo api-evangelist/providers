@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.2
-  scored_at: '2026-10-17'
+  score: 32.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: Physical, mechanical, and chemical test report operations
   name: United States Steel Test Reports API
   slug: united-states-steel-test-reports-api
-artifact_total: 60
+artifact_total: 59
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: U.S. Steel SteelTrack Inventory API
   slug: open-united-states-steel-inventory-api
@@ -86,18 +85,22 @@ collections:
   name: U.S. Steel SteelTrack Inventory Test Reports API
   slug: open-united-states-steel-test-reports-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/united-states-steel/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/plans/united-states-steel-plans-pricing.yml
+  href: https://artifacts.apis.io/united-states-steel/plans/united-states-steel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/united-states-steel-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/rate-limits/united-states-steel-rate-limits.yml
+  href: https://artifacts.apis.io/united-states-steel/rate-limits/united-states-steel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/united-states-steel-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/finops/united-states-steel-finops.yml
+  href: https://artifacts.apis.io/united-states-steel/finops/united-states-steel-finops.yml
   title: ''
   type: FinOps
   url: finops/united-states-steel-finops.yml
@@ -106,17 +109,17 @@ common:
   type: Blog
   url: https://www.ussteel.com/media/newsroom
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/agentic-access/united-states-steel-agentic-access.yml
+  href: https://artifacts.apis.io/united-states-steel/agentic-access/united-states-steel-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/united-states-steel-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/security/united-states-steel-domain-security.yml
+  href: https://artifacts.apis.io/united-states-steel/security/united-states-steel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/united-states-steel-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/authentication/united-states-steel-authentication.yml
+  href: https://artifacts.apis.io/united-states-steel/authentication/united-states-steel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/united-states-steel-authentication.yml
@@ -137,12 +140,12 @@ common:
   type: Documentation
   url: https://www.ussteel.com/about-us/doing-business-with-u.-s.-steel
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/rules/united-states-steel-spectral-rules.yml
+  href: https://artifacts.apis.io/united-states-steel/rules/united-states-steel-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/united-states-steel-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/vocabulary/united-states-steel-vocabulary.yaml
+  href: https://artifacts.apis.io/united-states-steel/vocabulary/united-states-steel-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/united-states-steel-vocabulary.yaml
@@ -191,7 +194,7 @@ finops:
 - has_sources: false
   method: generated
   name: United States Steel Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: united-states-steel-finops
   template: true
@@ -271,7 +274,7 @@ overview: 'United States Steel is listed with 4 APIs on the [APIs.io](https://ap
   The United States Steel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  United States Steel''s developer surface includes engineering blog, authentication, developer portal, documentation, and 9 more developer resources.'
+  United States Steel''s developer surface includes engineering blog, authentication, developer portal, documentation, and 10 more developer resources.'
 plans:
 - name: United States Steel Plans Pricing
   plan_count: 3
@@ -292,7 +295,7 @@ press:
 - date: ''
   title: U. S. Steel Aims to Improve Operational Efficiencies and ...
   url: https://www.ussteel.com/prereleases/-/blogs/u-s-steel-aims-to-improve-operational-efficiencies-and-employee-experiences-with-google-cloud-s-generative-ai
-random_paper: 4
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: United States Steel Rate Limits
@@ -323,7 +326,7 @@ rules:
   slug: united-states-steel-spectral-rules
 score:
   band: thin
-  composite: 27.4
+  composite: 27.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 75.0
@@ -331,12 +334,12 @@ score:
     catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.2
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 30.4
-    developer_ergonomics: 33.3
+    developer_ergonomics: 34.5
     discoverability: 71.4
     operational_transparency: 7.9
   jurisdiction:
@@ -346,7 +349,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 28.5
+  previous_composite: 27.4
   provenance:
     agentic_access: derived
     contracts:
@@ -360,14 +363,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/screenshots/united-states-steel-2026-06-20T200102.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/united-states-steel/united-states-steel-2026-06-20T200102.png
 security:
 - kind: authentication
   name: United States Steel Authentication

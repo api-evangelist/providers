@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: RETIRED. JSON REST API for submitting and retrieving time-series measurements and for managing metrics, metric attributes, spaces, charts, dashboards, instruments, annotations, alerts, notification se
@@ -68,37 +70,37 @@ common:
   type: GitHubOrganization
   url: https://github.com/librato
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/librato/refs/heads/main/authentication/librato-authentication.yml
+  href: https://artifacts.apis.io/librato/authentication/librato-authentication.yml
   title: ''
   type: Authentication
   url: authentication/librato-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/librato/refs/heads/main/conventions/librato-conventions.yml
+  href: https://artifacts.apis.io/librato/conventions/librato-conventions.yml
   title: ''
   type: Conventions
   url: conventions/librato-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/librato/refs/heads/main/errors/librato-problem-types.yml
+  href: https://artifacts.apis.io/librato/errors/librato-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/librato-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/librato/refs/heads/main/data-model/librato-data-model.yml
+  href: https://artifacts.apis.io/librato/data-model/librato-data-model.yml
   title: ''
   type: DataModel
   url: data-model/librato-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/librato/refs/heads/main/packages/librato-packages.yml
+  href: https://artifacts.apis.io/librato/packages/librato-packages.yml
   title: ''
   type: Packages
   url: packages/librato-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/librato/refs/heads/main/packages/librato-packages.yml
+  href: https://artifacts.apis.io/librato/packages/librato-packages.yml
   title: ''
   type: SDKs
   url: packages/librato-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/librato/refs/heads/main/lifecycle/librato-lifecycle.yml
+  href: https://artifacts.apis.io/librato/lifecycle/librato-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/librato-lifecycle.yml
@@ -107,12 +109,12 @@ common:
   type: Deprecation
   url: https://documentation.solarwinds.com/en/success_center/observability/content/migrate-ao/ao-eol.htm
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/librato/refs/heads/main/llms/librato-llms.txt
+  href: https://artifacts.apis.io/librato/llms/librato-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/librato-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/librato/refs/heads/main/security/librato-domain-security.yml
+  href: https://artifacts.apis.io/librato/security/librato-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/librato-domain-security.yml
@@ -133,12 +135,12 @@ overview: 'Librato is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Librato''s developer surface includes API reference, documentation, getting-started guide, authentication, and 13 more developer resources.'
-random_paper: 1
+random_paper: 5
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -160,14 +162,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/librato/refs/heads/main/screenshots/librato-2026-07-25T225027.png
+screenshot: https://apis.io/screenshots/librato/librato-2026-07-25T225027.png
 security:
 - kind: authentication
   name: Librato Authentication

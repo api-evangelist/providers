@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/suh/refs/heads/main/security/suh-domain-security.yml
+  href: https://artifacts.apis.io/suh/security/suh-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/suh-domain-security.yml
@@ -54,7 +56,7 @@ name: SinoUnited Health
 nav: Providers
 network: true
 overview: SinoUnited Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical, Dental, and Clinics.
-random_paper: 6
+random_paper: 0
 score:
   band: minimal
   composite: 3.7
@@ -87,14 +89,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/suh/refs/heads/main/screenshots/suh-2026-09-02T161115.png
+screenshot: https://apis.io/screenshots/suh/suh-2026-09-02T161115.png
 security:
 - kind: domain-security
   name: Suh Domain Security

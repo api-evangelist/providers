@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -151,7 +153,7 @@ arazzos:
 - description: Look up an API proxy by name and update it if it exists, otherwise create it.
   name: SAP Integration Suite Upsert API Proxy
   slug: sap-integration-suite-upsert-api-proxy-workflow
-artifact_total: 74
+artifact_total: 73
 collections:
 - collection_type: postman
   name: SAP API Management API
@@ -159,9 +161,6 @@ collections:
 - collection_type: postman
   name: SAP Cloud Integration API
   slug: postman-sap-integration-suite-cloud-integration
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SAP API Management API
   slug: open-sap-integration-suite-api-management
@@ -203,22 +202,22 @@ collections:
   slug: open-sap-integration-suite-variables-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/plans/sap-integration-suite-plans-pricing.yml
+  href: https://artifacts.apis.io/sap-integration-suite/plans/sap-integration-suite-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sap-integration-suite-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/rate-limits/sap-integration-suite-rate-limits.yml
+  href: https://artifacts.apis.io/sap-integration-suite/rate-limits/sap-integration-suite-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sap-integration-suite-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/finops/sap-integration-suite-finops.yml
+  href: https://artifacts.apis.io/sap-integration-suite/finops/sap-integration-suite-finops.yml
   title: ''
   type: FinOps
   url: finops/sap-integration-suite-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/capabilities/sap-integration-suite-capability-edges.yml
+  href: https://artifacts.apis.io/sap-integration-suite/capabilities/sap-integration-suite-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sap-integration-suite-capability-edges.yml
@@ -227,27 +226,27 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/sap/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/agentic-access/sap-integration-suite-agentic-access.yml
+  href: https://artifacts.apis.io/sap-integration-suite/agentic-access/sap-integration-suite-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sap-integration-suite-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/security/sap-integration-suite-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sap-integration-suite/security/sap-integration-suite-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sap-integration-suite-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/security/sap-integration-suite-domain-security.yml
+  href: https://artifacts.apis.io/sap-integration-suite/security/sap-integration-suite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sap-integration-suite-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/authentication/sap-integration-suite-authentication.yml
+  href: https://artifacts.apis.io/sap-integration-suite/authentication/sap-integration-suite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sap-integration-suite-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/scopes/sap-integration-suite-scopes.yml
+  href: https://artifacts.apis.io/sap-integration-suite/scopes/sap-integration-suite-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sap-integration-suite-scopes.yml
@@ -256,62 +255,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/sap-integration-suite/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/arazzo/sap-integration-suite-catalog-runtime-endpoints-workflow.yml
+  href: https://artifacts.apis.io/sap-integration-suite/arazzo/sap-integration-suite-catalog-runtime-endpoints-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-integration-suite-catalog-runtime-endpoints-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/arazzo/sap-integration-suite-deploy-and-verify-flow-workflow.yml
+  href: https://artifacts.apis.io/sap-integration-suite/arazzo/sap-integration-suite-deploy-and-verify-flow-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-integration-suite-deploy-and-verify-flow-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/arazzo/sap-integration-suite-deploy-flow-from-package-workflow.yml
+  href: https://artifacts.apis.io/sap-integration-suite/arazzo/sap-integration-suite-deploy-flow-from-package-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-integration-suite-deploy-flow-from-package-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/arazzo/sap-integration-suite-monitor-failed-messages-workflow.yml
+  href: https://artifacts.apis.io/sap-integration-suite/arazzo/sap-integration-suite-monitor-failed-messages-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-integration-suite-monitor-failed-messages-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/arazzo/sap-integration-suite-package-deployment-drift-workflow.yml
+  href: https://artifacts.apis.io/sap-integration-suite/arazzo/sap-integration-suite-package-deployment-drift-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-integration-suite-package-deployment-drift-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/arazzo/sap-integration-suite-provision-key-value-map-workflow.yml
+  href: https://artifacts.apis.io/sap-integration-suite/arazzo/sap-integration-suite-provision-key-value-map-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-integration-suite-provision-key-value-map-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/arazzo/sap-integration-suite-publish-api-product-workflow.yml
+  href: https://artifacts.apis.io/sap-integration-suite/arazzo/sap-integration-suite-publish-api-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-integration-suite-publish-api-product-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/arazzo/sap-integration-suite-retire-api-proxy-workflow.yml
+  href: https://artifacts.apis.io/sap-integration-suite/arazzo/sap-integration-suite-retire-api-proxy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-integration-suite-retire-api-proxy-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/arazzo/sap-integration-suite-review-application-access-workflow.yml
+  href: https://artifacts.apis.io/sap-integration-suite/arazzo/sap-integration-suite-review-application-access-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-integration-suite-review-application-access-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/arazzo/sap-integration-suite-trace-message-by-guid-workflow.yml
+  href: https://artifacts.apis.io/sap-integration-suite/arazzo/sap-integration-suite-trace-message-by-guid-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-integration-suite-trace-message-by-guid-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/arazzo/sap-integration-suite-undeploy-runtime-artifact-workflow.yml
+  href: https://artifacts.apis.io/sap-integration-suite/arazzo/sap-integration-suite-undeploy-runtime-artifact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-integration-suite-undeploy-runtime-artifact-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/arazzo/sap-integration-suite-upsert-api-proxy-workflow.yml
+  href: https://artifacts.apis.io/sap-integration-suite/arazzo/sap-integration-suite-upsert-api-proxy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-integration-suite-upsert-api-proxy-workflow.yml
@@ -376,12 +375,12 @@ common:
   type: Tutorials
   url: https://developers.sap.com/tutorial-navigator.html?tag=software-product%3Atechnology-platform%2Fsap-integration-suite
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/vocabulary/sap-integration-suite-vocabulary.yml
+  href: https://artifacts.apis.io/sap-integration-suite/vocabulary/sap-integration-suite-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sap-integration-suite-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/rules/sap-integration-suite-rules.yml
+  href: https://artifacts.apis.io/sap-integration-suite/rules/sap-integration-suite-rules.yml
   title: ''
   type: SpectralRules
   url: rules/sap-integration-suite-rules.yml
@@ -396,12 +395,12 @@ examples:
   slug: sap-integration-suite-list-message-processing-logs-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Sap Integration Suite Finops
   primary_unit: ''
-  service_category: Integration Platform
+  service_category: ''
   slug: sap-integration-suite-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sap-integration-suite.png
 json_schemas:
 - name: APIProduct
@@ -475,9 +474,9 @@ overview: 'SAP Integration Suite publishes 16 API contracts indexed on the [APIs
   SAP Integration Suite''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, YouTube channel, and 33 more developer resources.'
 plans:
 - name: Sap Integration Suite Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: sap-integration-suite-plans-pricing
-random_paper: 0
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Sap Integration Suite Rate Limits
@@ -513,23 +512,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.6
+  composite: 50.8
   coverage:
     artifact_dirs: 21
-    catalog_earned: 67.0
+    catalog_earned: 65.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -4.2
   facets:
-    access_clarity: 36.8
+    access_clarity: 31.6
     contract_governance: 27.3
     contract_quality: 57.5
-    developer_ergonomics: 44.0
+    developer_ergonomics: 58.3
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 48.1
+    operational_transparency: 36.8
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     contracts:
@@ -543,13 +542,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/screenshots/sap-integration-suite-2026-06-20T193428.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sap-integration-suite/sap-integration-suite-2026-06-20T193428.png
 security:
 - kind: authentication
   name: Sap Integration Suite Authentication

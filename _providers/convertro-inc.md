@@ -16,7 +16,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/aol/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/convertro-inc/refs/heads/main/packages/convertro-inc-packages.yml
+  href: https://artifacts.apis.io/convertro-inc/packages/convertro-inc-packages.yml
   title: ''
   type: Packages
   url: packages/convertro-inc-packages.yml
@@ -53,7 +53,7 @@ name: Convertro, Inc.
 nav: Providers
 network: true
 overview: Convertro, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Attribution, Analytics, and Advertising.
-random_paper: 11
+random_paper: 9
 slug: convertro-inc
 tags:
 - Company

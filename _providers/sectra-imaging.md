@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: 'Web-based access to imaging studies, series, and instances using the DICOM standard''s RESTful services - QIDO-RS (query), WADO-RS (retrieve), and STOW-RS (store). Sectra''s enterprise imaging platform '
@@ -58,12 +60,12 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sectra-imaging/refs/heads/main/security/sectra-imaging-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sectra-imaging/security/sectra-imaging-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sectra-imaging-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sectra-imaging/refs/heads/main/security/sectra-imaging-domain-security.yml
+  href: https://artifacts.apis.io/sectra-imaging/security/sectra-imaging-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sectra-imaging-domain-security.yml
@@ -104,10 +106,10 @@ overview: 'Sectra is listed with 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Sectra''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 11
+random_paper: 3
 score:
   band: minimal
-  composite: 8.4
+  composite: 9.8
   coverage:
     artifact_dirs: 4
     catalog_earned: 35.0
@@ -122,7 +124,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 62.5
-    operational_transparency: 5.3
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -131,21 +133,21 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 8.4
+  previous_composite: 9.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sectra-imaging/refs/heads/main/screenshots/sectra-imaging-2026-09-02T154711.png
+screenshot: https://apis.io/screenshots/sectra-imaging/sectra-imaging-2026-09-02T154711.png
 security:
 - kind: domain-security
   name: Sectra Imaging Domain Security

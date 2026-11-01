@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/radian-group/refs/heads/main/security/radian-group-domain-security.yml
+  href: https://artifacts.apis.io/radian-group/security/radian-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/radian-group-domain-security.yml
@@ -85,7 +87,7 @@ overview: 'Radian Group is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Radian Group''s developer surface includes engineering blog, YouTube channel, and 7 more developer resources.'
-random_paper: 15
+random_paper: 1
 score:
   band: minimal
   composite: 3.6
@@ -111,14 +113,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/radian-group/refs/heads/main/screenshots/radian-group-2026-06-20T192525.png
+screenshot: https://apis.io/screenshots/radian-group/radian-group-2026-06-20T192525.png
 security:
 - kind: domain-security
   name: Radian Group Domain Security

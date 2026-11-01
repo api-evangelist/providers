@@ -16,7 +16,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -24,19 +24,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -130,11 +132,8 @@ apis:
 - description: Waterloo's public service status page at status.uwaterloo.ca, with the full Statuspage v2 JSON API behind it — status.json, summary.json and an RSS incident history all return 200 unauthenticated. The
   name: University of Waterloo Status API
   slug: university-of-waterloo-status-api
-artifact_total: 57
+artifact_total: 58
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Waterloo OpenData AcademicOrganizations API
   slug: open-university-of-waterloo-academicorganizations-api
@@ -172,6 +171,84 @@ collections:
   name: Waterloo OpenData AcademicOrganizations Wcms API
   slug: open-university-of-waterloo-wcms-api
 common:
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://uwaterloo.atlassian.net/wiki/spaces/UWAPI/blog/2020/09/17/34163165086
+- group: agent
+  href: https://artifacts.apis.io/university-of-waterloo/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  href: https://artifacts.apis.io/university-of-waterloo/changelog/university-of-waterloo-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/university-of-waterloo-changelog.yml
+- group: design
+  href: https://artifacts.apis.io/university-of-waterloo/conventions/university-of-waterloo-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/university-of-waterloo-conventions.yml
+- group: other
+  href: https://artifacts.apis.io/university-of-waterloo/overlays/university-of-waterloo-academicorganizations-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/university-of-waterloo-academicorganizations-api-overlay.yaml
+- group: auth
+  href: https://artifacts.apis.io/university-of-waterloo/well-known/university-of-waterloo-api-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/university-of-waterloo-api-security.txt
+- group: design
+  href: https://artifacts.apis.io/university-of-waterloo/rules/university-of-waterloo-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/university-of-waterloo-rules.yml
+- group: design
+  href: https://artifacts.apis.io/university-of-waterloo/rules/university-of-waterloo-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/university-of-waterloo-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/university-of-waterloo/data-model/university-of-waterloo-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/university-of-waterloo-data-model.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://soc.uwaterloo.ca
+- group: auth
+  href: https://artifacts.apis.io/university-of-waterloo/well-known/university-of-waterloo-uwaterloo-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/university-of-waterloo-uwaterloo-security.txt
+- group: auth
+  href: https://artifacts.apis.io/university-of-waterloo/well-known/university-of-waterloo-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/university-of-waterloo-status-security.txt
+- group: auth
+  href: https://artifacts.apis.io/university-of-waterloo/well-known/university-of-waterloo-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/university-of-waterloo-security.txt
+- group: other
+  href: https://artifacts.apis.io/university-of-waterloo/hosts/university-of-waterloo-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/university-of-waterloo-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/university-of-waterloo/integrations/university-of-waterloo-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/university-of-waterloo-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/university-of-waterloo/vendors/university-of-waterloo-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/university-of-waterloo-vendors.yml
 - group: company
   title: ''
   type: Website
@@ -277,67 +354,57 @@ common:
   type: AIPolicy
   url: https://uwaterloo.ca/artificial-intelligence-institute/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/conformance/university-of-waterloo-conformance.yml
+  href: https://artifacts.apis.io/university-of-waterloo/conformance/university-of-waterloo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-waterloo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/errors/university-of-waterloo-errors.yml
-  title: ''
-  type: ErrorCatalog
-  url: errors/university-of-waterloo-errors.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/lifecycle/university-of-waterloo-lifecycle.yml
+  href: https://artifacts.apis.io/university-of-waterloo/lifecycle/university-of-waterloo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/university-of-waterloo-lifecycle.yml
-- group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/scopes/university-of-waterloo-scopes.yml
-  title: ''
-  type: OAuthScopes
-  url: scopes/university-of-waterloo-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/capabilities/university-of-waterloo-capability-edges.yml
+  href: https://artifacts.apis.io/university-of-waterloo/capabilities/university-of-waterloo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/university-of-waterloo-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/agentic-access/university-of-waterloo-agentic-access.yml
+  href: https://artifacts.apis.io/university-of-waterloo/agentic-access/university-of-waterloo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/university-of-waterloo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/security/university-of-waterloo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/university-of-waterloo/security/university-of-waterloo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/university-of-waterloo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/security/university-of-waterloo-domain-security.yml
+  href: https://artifacts.apis.io/university-of-waterloo/security/university-of-waterloo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-waterloo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/authentication/university-of-waterloo-authentication.yml
+  href: https://artifacts.apis.io/university-of-waterloo/authentication/university-of-waterloo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-waterloo-authentication.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/plans/university-of-waterloo-plans-pricing.yml
+  href: https://artifacts.apis.io/university-of-waterloo/plans/university-of-waterloo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-waterloo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/rate-limits/university-of-waterloo-rate-limits.yml
+  href: https://artifacts.apis.io/university-of-waterloo/rate-limits/university-of-waterloo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-waterloo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/finops/university-of-waterloo-finops.yml
+  href: https://artifacts.apis.io/university-of-waterloo/finops/university-of-waterloo-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-waterloo-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/university-of-waterloo/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -411,12 +478,12 @@ overview: 'University of Waterloo publishes 20 API contracts indexed on the [API
   The University of Waterloo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  University of Waterloo''s developer surface includes documentation, API reference, getting-started guide, signup flow, changelog, support, engineering blog, and 32 more developer resources.'
+  University of Waterloo''s developer surface includes changelog, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 46 more developer resources.'
 plans:
 - name: University Of Waterloo Plans Pricing
   plan_count: 2
   slug: university-of-waterloo-plans-pricing
-random_paper: 14
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: University Of Waterloo Rate Limits
@@ -451,22 +518,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.7
+  composite: 62.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 67.2
+    artifact_dirs: 33
+    catalog_earned: 68.9
     catalog_earned_first_party: 12.0
-    catalog_gap: 47.9
+    catalog_gap: 46.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
-    contract_governance: 23.5
+    contract_governance: 31.8
     contract_quality: 54.5
-    developer_ergonomics: 57.1
-    discoverability: 67.9
-    operational_transparency: 71.1
+    developer_ergonomics: 58.9
+    discoverability: 76.8
+    operational_transparency: 92.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -474,7 +541,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 60.9
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -483,19 +550,22 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/screenshots/university-of-waterloo-2026-06-20T200326.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/university-of-waterloo/university-of-waterloo-2026-06-20T200326.png
 security:
 - kind: authentication
   name: University Of Waterloo Authentication
@@ -509,6 +579,12 @@ security:
   name: University Of Waterloo Vulnerability Disclosure
   slug: university-of-waterloo-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 2
+skills:
+- name: find-campus-location
+  slug: university-of-waterloo-find-campus-location
+- name: lookup-course-offerings
+  slug: university-of-waterloo-lookup-course-offerings
 slug: university-of-waterloo
 tags:
 - Education

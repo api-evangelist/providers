@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 23.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -98,11 +100,8 @@ apis:
   description: The Users API from Secure Code Warrior — 4 operation(s) for users.
   name: Secure Code Warrior Users API
   slug: secure-code-warrior-users-api
-artifact_total: 36
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Secure Code Warrior Portal Assessments API
   slug: open-secure-code-warrior-assessments-api
@@ -138,42 +137,42 @@ collections:
   slug: open-secure-code-warrior-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/plans/secure-code-warrior-plans-pricing.yml
+  href: https://artifacts.apis.io/secure-code-warrior/plans/secure-code-warrior-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/secure-code-warrior-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/rate-limits/secure-code-warrior-rate-limits.yml
+  href: https://artifacts.apis.io/secure-code-warrior/rate-limits/secure-code-warrior-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/secure-code-warrior-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/finops/secure-code-warrior-finops.yml
+  href: https://artifacts.apis.io/secure-code-warrior/finops/secure-code-warrior-finops.yml
   title: ''
   type: FinOps
   url: finops/secure-code-warrior-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/capabilities/secure-code-warrior-capability-edges.yml
+  href: https://artifacts.apis.io/secure-code-warrior/capabilities/secure-code-warrior-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/secure-code-warrior-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/agentic-access/secure-code-warrior-agentic-access.yml
+  href: https://artifacts.apis.io/secure-code-warrior/agentic-access/secure-code-warrior-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/secure-code-warrior-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/security/secure-code-warrior-trust-center.yml
+  href: https://artifacts.apis.io/secure-code-warrior/security/secure-code-warrior-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/secure-code-warrior-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/security/secure-code-warrior-domain-security.yml
+  href: https://artifacts.apis.io/secure-code-warrior/security/secure-code-warrior-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/secure-code-warrior-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/authentication/secure-code-warrior-authentication.yml
+  href: https://artifacts.apis.io/secure-code-warrior/authentication/secure-code-warrior-authentication.yml
   title: ''
   type: Authentication
   url: authentication/secure-code-warrior-authentication.yml
@@ -206,32 +205,32 @@ common:
   type: GettingStarted
   url: https://help.securecodewarrior.com/hc/en-us/articles/360036036512-How-to-enable-API-access
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/json-schema/secure-code-warrior-user-schema.json
+  href: https://artifacts.apis.io/secure-code-warrior/json-schema/secure-code-warrior-user-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/secure-code-warrior-user-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/json-structure/secure-code-warrior-training-structure.json
+  href: https://artifacts.apis.io/secure-code-warrior/json-structure/secure-code-warrior-training-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/secure-code-warrior-training-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/json-ld/secure-code-warrior-context.jsonld
+  href: https://artifacts.apis.io/secure-code-warrior/json-ld/secure-code-warrior-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/secure-code-warrior-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/examples/secure-code-warrior-get-leaderboard-example.json
+  href: https://artifacts.apis.io/secure-code-warrior/examples/secure-code-warrior-get-leaderboard-example.json
   title: ''
   type: Examples
   url: examples/secure-code-warrior-get-leaderboard-example.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/rules/secure-code-warrior-rules.yml
+  href: https://artifacts.apis.io/secure-code-warrior/rules/secure-code-warrior-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/secure-code-warrior-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/vocabulary/secure-code-warrior-vocabulary.yml
+  href: https://artifacts.apis.io/secure-code-warrior/vocabulary/secure-code-warrior-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/secure-code-warrior-vocabulary.yml
@@ -253,7 +252,7 @@ finops:
 - has_sources: false
   method: generated
   name: Secure Code Warrior Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: secure-code-warrior-finops
   template: true
@@ -287,7 +286,7 @@ plans:
 - name: Secure Code Warrior Plans Pricing
   plan_count: 3
   slug: secure-code-warrior-plans-pricing
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Secure Code Warrior Rate Limits
@@ -317,8 +316,8 @@ rules:
     warn: 6
   slug: secure-code-warrior-rules
 score:
-  band: developing
-  composite: 39.4
+  band: thin
+  composite: 36.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 55.0
@@ -326,15 +325,15 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 27.3
-    contract_quality: 60.4
+    contract_quality: 57.0
     developer_ergonomics: 35.7
     discoverability: 64.3
     operational_transparency: 13.2
-  previous_composite: 40.9
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -348,13 +347,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/screenshots/secure-code-warrior-2026-06-20T193625.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/secure-code-warrior/secure-code-warrior-2026-06-20T193625.png
 security:
 - kind: authentication
   name: Secure Code Warrior Authentication

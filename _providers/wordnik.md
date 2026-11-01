@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -87,9 +89,6 @@ collections:
   name: Wordnik Account Words API
   slug: postman-wordnik-words-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Wordnik Account API
   slug: open-wordnik-account-api
 - collection_type: open
@@ -113,17 +112,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/wordnik/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/agentic-access/wordnik-agentic-access.yml
+  href: https://artifacts.apis.io/wordnik/agentic-access/wordnik-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wordnik-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/security/wordnik-domain-security.yml
+  href: https://artifacts.apis.io/wordnik/security/wordnik-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wordnik-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/authentication/wordnik-authentication.yml
+  href: https://artifacts.apis.io/wordnik/authentication/wordnik-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wordnik-authentication.yml
@@ -168,32 +167,32 @@ common:
   type: TermsOfService
   url: https://www.wordnik.com/about
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/plans/wordnik-plans-pricing.yml
+  href: https://artifacts.apis.io/wordnik/plans/wordnik-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wordnik-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/rate-limits/wordnik-rate-limits.yml
+  href: https://artifacts.apis.io/wordnik/rate-limits/wordnik-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wordnik-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/finops/wordnik-finops.yml
+  href: https://artifacts.apis.io/wordnik/finops/wordnik-finops.yml
   title: ''
   type: FinOps
   url: finops/wordnik-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/vocabulary/wordnik-vocabulary.yml
+  href: https://artifacts.apis.io/wordnik/vocabulary/wordnik-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/wordnik-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/rules/wordnik-rules.yml
+  href: https://artifacts.apis.io/wordnik/rules/wordnik-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/wordnik-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/json-ld/wordnik-context.jsonld
+  href: https://artifacts.apis.io/wordnik/json-ld/wordnik-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/wordnik-context.jsonld
@@ -329,10 +328,10 @@ examples:
   slug: wordnik-word-search-results-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Wordnik Finops
-  primary_unit: ''
-  service_category: Language Data
+  primary_unit: calls/hour
+  service_category: ''
   slug: wordnik-finops
   template: false
 image: https://wordnik.com/img/logo-wordnik-home.png
@@ -570,7 +569,7 @@ modified: '2026-05-29'
 name: Wordnik
 nav: Providers
 network: true
-overview: 'Wordnik publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Word API, Word List API, and 2 more. Tagged areas include Dictionaries, Dictionary, Word Data, English, and Lexicography.
+overview: 'Wordnik publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Word API, Word List API, and 2 more. Tagged areas include Dictionaries, Word Data, English, Lexicography, and Public APIs.
 
 
   The Wordnik catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -581,7 +580,10 @@ plans:
 - name: Wordnik Plans Pricing
   plan_count: 4
   slug: wordnik-plans-pricing
-random_paper: 18
+- name: Wordnik Price Estimates
+  plan_count: 0
+  slug: wordnik-price-estimates
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Wordnik Rate Limits
@@ -610,24 +612,24 @@ rules:
     warn: 30
   slug: wordnik-rules
 score:
-  band: developing
-  composite: 47.8
+  band: strong
+  composite: 55.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 63.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    artifact_dirs: 19
+    catalog_earned: 75.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 1.6
   facets:
-    access_clarity: 42.1
+    access_clarity: 73.7
     contract_governance: 27.3
     contract_quality: 54.2
     developer_ergonomics: 58.3
     discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 56.0
+    operational_transparency: 28.9
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     contracts:
@@ -641,13 +643,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/screenshots/wordnik-2026-06-20T201543.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wordnik/wordnik-2026-06-20T201543.png
 security:
 - kind: authentication
   name: Wordnik Authentication
@@ -660,7 +663,6 @@ security:
 slug: wordnik
 tags:
 - Dictionaries
-- Dictionary
 - Word Data
 - English
 - Lexicography

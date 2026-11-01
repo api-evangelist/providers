@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: The Nected API from Nected — 2 operation(s) for nected.
   name: Nected API
   slug: nected-nected-api
-artifact_total: 12
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nected Dev API
   slug: open-nected-dev-api
@@ -71,32 +70,32 @@ collections:
   slug: open-nected
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/plans/nected-plans-pricing.yml
+  href: https://artifacts.apis.io/nected/plans/nected-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nected-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/rate-limits/nected-rate-limits.yml
+  href: https://artifacts.apis.io/nected/rate-limits/nected-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nected-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/finops/nected-finops.yml
+  href: https://artifacts.apis.io/nected/finops/nected-finops.yml
   title: ''
   type: FinOps
   url: finops/nected-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/agentic-access/nected-agentic-access.yml
+  href: https://artifacts.apis.io/nected/agentic-access/nected-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nected-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/security/nected-domain-security.yml
+  href: https://artifacts.apis.io/nected/security/nected-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nected-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/authentication/nected-authentication.yml
+  href: https://artifacts.apis.io/nected/authentication/nected-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nected-authentication.yml
@@ -126,7 +125,7 @@ finops:
 - has_sources: false
   method: generated
   name: Nected Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: nected-finops
   template: true
@@ -144,14 +143,14 @@ plans:
 - name: Nected Plans Pricing
   plan_count: 3
   slug: nected-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Nected Rate Limits
   slug: nected-rate-limits
 score:
   band: emerging
-  composite: 24.8
+  composite: 25.0
   coverage:
     artifact_dirs: 11
     catalog_earned: 38.0
@@ -159,15 +158,15 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 50.5
+    contract_quality: 47.1
     developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 26.3
+    operational_transparency: 13.2
+  previous_composite: 25.0
   provenance:
     agentic_access: derived
     contracts:
@@ -181,13 +180,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/screenshots/nected-2026-06-20T190119.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nected/nected-2026-06-20T190119.png
 security:
 - kind: authentication
   name: Nected Authentication

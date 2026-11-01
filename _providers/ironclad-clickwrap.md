@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Manage sites that host clickwrap groups.
   name: Ironclad Clickwrap Sites API
   slug: ironclad-clickwrap-sites-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ironclad Clickwrap Activity API
   slug: open-ironclad-clickwrap-activity-api
@@ -95,17 +94,17 @@ collections:
   slug: open-ironclad-clickwrap
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/plans/ironclad-clickwrap-plans-pricing.yml
+  href: https://artifacts.apis.io/ironclad-clickwrap/plans/ironclad-clickwrap-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ironclad-clickwrap-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/rate-limits/ironclad-clickwrap-rate-limits.yml
+  href: https://artifacts.apis.io/ironclad-clickwrap/rate-limits/ironclad-clickwrap-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ironclad-clickwrap-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/finops/ironclad-clickwrap-finops.yml
+  href: https://artifacts.apis.io/ironclad-clickwrap/finops/ironclad-clickwrap-finops.yml
   title: ''
   type: FinOps
   url: finops/ironclad-clickwrap-finops.yml
@@ -114,27 +113,27 @@ common:
   type: Blog
   url: https://ironcladapp.com/resources/articles
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/capabilities/ironclad-clickwrap-capability-edges.yml
+  href: https://artifacts.apis.io/ironclad-clickwrap/capabilities/ironclad-clickwrap-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ironclad-clickwrap-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/agentic-access/ironclad-clickwrap-agentic-access.yml
+  href: https://artifacts.apis.io/ironclad-clickwrap/agentic-access/ironclad-clickwrap-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ironclad-clickwrap-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/security/ironclad-clickwrap-trust-center.yml
+  href: https://artifacts.apis.io/ironclad-clickwrap/security/ironclad-clickwrap-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ironclad-clickwrap-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/security/ironclad-clickwrap-domain-security.yml
+  href: https://artifacts.apis.io/ironclad-clickwrap/security/ironclad-clickwrap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ironclad-clickwrap-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/authentication/ironclad-clickwrap-authentication.yml
+  href: https://artifacts.apis.io/ironclad-clickwrap/authentication/ironclad-clickwrap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ironclad-clickwrap-authentication.yml
@@ -168,7 +167,7 @@ finops:
 - has_sources: false
   method: generated
   name: Ironclad Clickwrap Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: ironclad-clickwrap-finops
   template: true
@@ -208,23 +207,23 @@ rules:
   slug: ironclad-clickwrap-rules
 score:
   band: thin
-  composite: 27.2
+  composite: 30.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 44.1
-    developer_ergonomics: 28.6
+    developer_ergonomics: 38.1
     discoverability: 64.3
-    operational_transparency: 10.5
-  previous_composite: 28.3
+    operational_transparency: 13.2
+  previous_composite: 30.2
   provenance:
     agentic_access: derived
     contracts:
@@ -238,13 +237,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/screenshots/ironclad-clickwrap-2026-06-20T183613.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ironclad-clickwrap/ironclad-clickwrap-2026-06-20T183613.png
 security:
 - kind: authentication
   name: Ironclad Clickwrap Authentication

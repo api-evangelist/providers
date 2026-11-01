@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -32,12 +34,12 @@ common:
   type: Compliance
   url: https://www.blocpal.com/security
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blocpal/refs/heads/main/hosts/blocpal-hosts.yml
+  href: https://artifacts.apis.io/blocpal/hosts/blocpal-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blocpal-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blocpal/refs/heads/main/vendors/blocpal-vendors.yml
+  href: https://artifacts.apis.io/blocpal/vendors/blocpal-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blocpal-vendors.yml
@@ -54,12 +56,12 @@ common:
   type: Newsroom
   url: https://www.blocpal.com/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blocpal/refs/heads/main/security/blocpal-trust-center.yml
+  href: https://artifacts.apis.io/blocpal/security/blocpal-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/blocpal-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blocpal/refs/heads/main/security/blocpal-domain-security.yml
+  href: https://artifacts.apis.io/blocpal/security/blocpal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blocpal-domain-security.yml
@@ -84,7 +86,7 @@ name: BlocPal
 nav: Providers
 network: true
 overview: BlocPal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Digital Banking, Wealth Management, and Blockchain.
-random_paper: 7
+random_paper: 13
 score:
   band: emerging
   composite: 11.5
@@ -117,14 +119,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/blocpal/refs/heads/main/screenshots/blocpal-2026-10-11T102435.png
+screenshot: https://apis.io/screenshots/blocpal/blocpal-2026-10-11T102435.png
 security:
 - kind: domain-security
   name: Blocpal Domain Security

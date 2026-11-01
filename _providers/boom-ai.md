@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 63.6
-  scored_at: '2026-10-17'
+  score: 62.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -289,15 +291,32 @@ apis:
     question: Which environments can a journey be pinned to?
   phrasing_ops: 1
   slug: boom-ai-environments-api
-artifact_total: 31
+- baseURL: https://dev.useboom.ai
+  baseurl_source: declared
+  description: The CDP Sensitive fields API from Boom Ai — 1 operation(s) for cdp sensitive fields.
+  name: Boom Ai CDP Sensitive fields API
+  slug: boom-ai-cdp-sensitive-fields-api
+- baseURL: https://dev.useboom.ai
+  baseurl_source: declared
+  description: The Email templates API from Boom Ai — 3 operation(s) for email templates.
+  name: Boom Ai Email templates API
+  slug: boom-ai-email-templates-api
+- baseURL: https://dev.useboom.ai
+  baseurl_source: declared
+  description: The Lead Capture API from Boom Ai — 7 operation(s) for lead capture.
+  name: Boom Ai Lead Capture API
+  slug: boom-ai-lead-capture-api
+- baseURL: https://dev.useboom.ai
+  baseurl_source: declared
+  description: The Message logs API from Boom Ai — 1 operation(s) for message logs.
+  name: Boom Ai Message logs API
+  slug: boom-ai-message-logs-api
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Boom Ai Webhooks
   slug: boom-ai-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Boom CDP Custom Objects API
   slug: open-boom-ai-cdp-custom-objects-api
@@ -338,22 +357,22 @@ common:
   type: License
   url: https://github.com/BOOM-TML/skills/blob/main/LICENSE
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/capabilities/boom-ai-capability-edges.yml
+  href: https://artifacts.apis.io/boom-ai/capabilities/boom-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/boom-ai-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/agentic-access/boom-ai-agentic-access.yml
+  href: https://artifacts.apis.io/boom-ai/agentic-access/boom-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/boom-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/security/boom-ai-domain-security.yml
+  href: https://artifacts.apis.io/boom-ai/security/boom-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/boom-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/authentication/boom-ai-authentication.yml
+  href: https://artifacts.apis.io/boom-ai/authentication/boom-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/boom-ai-authentication.yml
@@ -402,37 +421,37 @@ common:
   type: PrivacyPolicy
   url: https://drive.google.com/file/d/1ITWbsA8ZmyhinJYYr4ezRdhNe-MWQBC_/view
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/_original/boom-ai-openapi-original.json
+  href: https://artifacts.apis.io/boom-ai/openapi/_original/boom-ai-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/boom-ai-openapi-original.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/mcp/boom-ai-mcp.yml
+  href: https://artifacts.apis.io/boom-ai/mcp/boom-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/boom-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/llms/boom-ai-llms.txt
+  href: https://artifacts.apis.io/boom-ai/llms/boom-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/boom-ai-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/overlays/boom-ai-openapi-overlay.yaml
+  href: https://artifacts.apis.io/boom-ai/overlays/boom-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/boom-ai-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/conformance/boom-ai-conformance.yml
+  href: https://artifacts.apis.io/boom-ai/conformance/boom-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/boom-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/errors/boom-ai-error-codes.yml
+  href: https://artifacts.apis.io/boom-ai/errors/boom-ai-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/boom-ai-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/lifecycle/boom-ai-lifecycle.yml
+  href: https://artifacts.apis.io/boom-ai/lifecycle/boom-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/boom-ai-lifecycle.yml
@@ -441,77 +460,77 @@ common:
   type: StatusPage
   url: https://status.useboom.ai/
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/sandbox/boom-ai-sandbox.yml
+  href: https://artifacts.apis.io/boom-ai/sandbox/boom-ai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/boom-ai-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/conventions/boom-ai-conventions.yml
+  href: https://artifacts.apis.io/boom-ai/conventions/boom-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/boom-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/conventions/boom-ai-conventions.yml
+  href: https://artifacts.apis.io/boom-ai/conventions/boom-ai-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/boom-ai-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/rate-limits/boom-ai-rate-limits.yml
+  href: https://artifacts.apis.io/boom-ai/rate-limits/boom-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/boom-ai-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/changelog/boom-ai-changelog.yml
+  href: https://artifacts.apis.io/boom-ai/changelog/boom-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/boom-ai-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/data-model/boom-ai-data-model.yml
+  href: https://artifacts.apis.io/boom-ai/data-model/boom-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/boom-ai-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/boom-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/a2a/boom-ai-a2a.yml
+  href: https://artifacts.apis.io/boom-ai/a2a/boom-ai-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/boom-ai-a2a.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/mcp/boom-ai-tool-crosswalk.yml
+  href: https://artifacts.apis.io/boom-ai/mcp/boom-ai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/boom-ai-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/well-known/boom-ai-well-known.yml
+  href: https://artifacts.apis.io/boom-ai/well-known/boom-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/boom-ai-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/scopes/boom-ai-scopes.yml
+  href: https://artifacts.apis.io/boom-ai/scopes/boom-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/boom-ai-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/packages/boom-ai-packages.yml
+  href: https://artifacts.apis.io/boom-ai/packages/boom-ai-packages.yml
   title: ''
   type: Packages
   url: packages/boom-ai-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/plans/boom-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/boom-ai/plans/boom-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/boom-ai-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/asyncapi/boom-ai-webhooks.yml
+  href: https://artifacts.apis.io/boom-ai/asyncapi/boom-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/boom-ai-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/security/boom-ai-trust-center.yml
+  href: https://artifacts.apis.io/boom-ai/security/boom-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/boom-ai-trust-center.yml
@@ -529,6 +548,14 @@ common:
   url: https://github.com/BOOM-TML/skills
 created: '2026-07-17'
 description: Boom AI (useboom.ai) is a Y Combinator-backed (Fall 2025) San Francisco company building "an AI workforce for your customers" — autonomous agents that hold real, multi-turn conversations over SMS, email, WhatsApp, and phone in 50+ languages to run collections and payment recovery, churn recovery, retention monitoring, customer onboarding, sales qualification, and market research for e-commerce and B2B brands. Boom exposes one uniform public REST API — and a hosted MCP server over the same capabilities — covering a customer data platform (people, custom objects, behavioral events, relationships, sources), segments, initiatives and participants, and journey authoring. Authentication is a Bearer organization API key (boom_org_...); the API uses cursor pagination, 1,000 requests/minute rate limits with X-RateLimit-*/Retry-After signaling, and idempotent upsert plus up-to-1000-record batch endpoints.
+finops:
+- has_sources: true
+  method: derived
+  name: Boom Ai Finops
+  primary_unit: credits
+  service_category: ''
+  slug: boom-ai-finops
+  template: false
 image: https://useboom.ai/logo.svg
 layout: provider
 mcp_servers:
@@ -539,7 +566,7 @@ modified: '2026-08-13'
 name: Boom Ai
 nav: Providers
 network: true
-overview: 'Boom Ai publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including CDP Custom Objects API, CDP Events API, CDP People API, and 8 more. Tagged areas include Company, Artificial Intelligence, Conversational AI, Customer Engagement, and Customer Data Platform.
+overview: 'Boom Ai publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including CDP Custom Objects API, CDP Events API, CDP People API, and 12 more. Tagged areas include Company, Artificial Intelligence, Conversational AI, Customer Engagement, and Customer Data Platform.
 
 
   The Boom Ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -548,9 +575,12 @@ overview: 'Boom Ai publishes 11 API contracts indexed on the [APIs.io](https://a
   Boom Ai''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 36 more developer resources.'
 plans:
 - name: Boom Ai Plans Pricing
-  plan_count: 4
+  plan_count: 10
   slug: boom-ai-plans-pricing
-random_paper: 16
+- name: Boom Ai Price Estimates
+  plan_count: 0
+  slug: boom-ai-price-estimates
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Boom Ai Rate Limits
@@ -562,23 +592,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 75.6
+  composite: 68.1
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 57.0
+    artifact_dirs: 29
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 57.0
+    contract_quality: 56.5
     developer_ergonomics: 71.4
-    discoverability: 75.0
-    operational_transparency: 55.3
-  previous_composite: 75.6
+    discoverability: 65.0
+    operational_transparency: 65.8
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -586,7 +616,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 27
     mcp: first-party
     skills: first-party
   regulatory:
@@ -595,13 +625,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 100.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/screenshots/boom-ai-2026-07-25T203612.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/boom-ai/boom-ai-2026-07-25T203612.png
 security:
 - kind: authentication
   name: Boom Ai Authentication
@@ -615,6 +646,36 @@ security:
   name: Boom Ai Trust Center
   slug: boom-ai-trust-center
   summary_line: SOC 2 Type 1, SOC 2 Type 2
+skill_count: 14
+skills:
+- name: Build, validate, and evaluate a Boom segment
+  slug: boom-ai-build-and-evaluate-segment
+- name: Ingest people and behavioral events into Boom
+  slug: boom-ai-ingest-people-and-events
+- name: analyze-results
+  slug: boom-ai-published-analyze-results
+- name: boom-overview
+  slug: boom-ai-published-boom-overview
+- name: build-knowledge-base
+  slug: boom-ai-published-build-knowledge-base
+- name: cdp-and-segments
+  slug: boom-ai-published-cdp-and-segments
+- name: connect-your-data
+  slug: boom-ai-published-connect-your-data
+- name: design-journey
+  slug: boom-ai-published-design-journey
+- name: launch-initiative
+  slug: boom-ai-published-launch-initiative
+- name: manage-participants
+  slug: boom-ai-published-manage-participants
+- name: onboarding
+  slug: boom-ai-published-onboarding
+- name: Boom
+  slug: boom-ai-published-skill
+- name: whatsapp-templates
+  slug: boom-ai-published-whatsapp-templates
+- name: Create and launch a WhatsApp initiative
+  slug: boom-ai-run-whatsapp-initiative
 slug: boom-ai
 tags:
 - Company

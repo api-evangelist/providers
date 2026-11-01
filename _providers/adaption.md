@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-17'
+  score: 23.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.prod.adaptionlabs.ai
@@ -45,11 +47,8 @@ apis:
   description: Pre-signed direct-to-S3 upload lifecycle for file-sourced datasets.
   name: Adaption Upload API
   slug: adaption-upload-api
-artifact_total: 6
+artifact_total: 5
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Adaption Adaptive Data Datasets API
   slug: open-adaption-datasets-api
@@ -58,7 +57,7 @@ collections:
   slug: open-adaption-upload-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adaption/refs/heads/main/capabilities/adaption-capability-edges.yml
+  href: https://artifacts.apis.io/adaption/capabilities/adaption-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/adaption-capability-edges.yml
@@ -67,7 +66,7 @@ common:
   type: Website
   url: https://www.adaptionlabs.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaption/refs/heads/main/security/adaption-domain-security.yml
+  href: https://artifacts.apis.io/adaption/security/adaption-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adaption-domain-security.yml
@@ -123,10 +122,10 @@ overview: 'Adaption publishes 2 API contracts indexed on the [APIs.io](https://a
 
 
   Adaption''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 12
+random_paper: 8
 score:
   band: thin
-  composite: 36.4
+  composite: 34.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -134,7 +133,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -142,7 +141,7 @@ score:
     developer_ergonomics: 45.2
     discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 36.3
+  previous_composite: 34.3
   provenance:
     contracts:
       callable: 100.0
@@ -155,13 +154,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/adaption/refs/heads/main/screenshots/adaption-2026-07-25T181551.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/adaption/adaption-2026-07-25T181551.png
 security:
 - kind: domain-security
   name: Adaption Domain Security

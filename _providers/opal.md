@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-10-17'
-api_count: 6
+  score: 30.8
+  scored_at: '2026-10-31'
+api_count: 3
 apis:
 - baseURL: https://login.ouropal.com
   baseurl_source: declared
@@ -432,7 +434,7 @@ apis:
   description: The Workspaces API from Opal — 3 operation(s) for workspaces.
   name: Opal Workspaces API
   slug: opal-workspaces-api
-artifact_total: 88
+artifact_total: 93
 collections:
 - collection_type: open
   name: Asgard BFF API
@@ -445,32 +447,32 @@ collections:
   slug: open-opal-v3
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/capabilities/opal-capability-edges.yml
+  href: https://artifacts.apis.io/opal/capabilities/opal-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/opal-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/overlays/opal-v2-overlay.yaml
+  href: https://artifacts.apis.io/opal/overlays/opal-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/opal-v2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/overlays/opal-v3-overlay.yaml
+  href: https://artifacts.apis.io/opal/overlays/opal-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/opal-v3-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/overlays/opal-asgard-bff-overlay.yaml
+  href: https://artifacts.apis.io/opal/overlays/opal-asgard-bff-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/opal-asgard-bff-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/scopes/opal-scopes.yml
+  href: https://artifacts.apis.io/opal/scopes/opal-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/opal-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/authentication/opal-authentication.yml
+  href: https://artifacts.apis.io/opal/authentication/opal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/opal-authentication.yml
@@ -515,57 +517,57 @@ common:
   type: ChangeLog
   url: https://help.workwithopal.com/article/42ysdzfa2y-change-log
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/changelog/opal-changelog.yml
+  href: https://artifacts.apis.io/opal/changelog/opal-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/opal-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/lifecycle/opal-lifecycle.yml
+  href: https://artifacts.apis.io/opal/lifecycle/opal-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/opal-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/lifecycle/opal-lifecycle.yml
+  href: https://artifacts.apis.io/opal/lifecycle/opal-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/opal-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/conventions/opal-conventions.yml
+  href: https://artifacts.apis.io/opal/conventions/opal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/opal-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/errors/opal-problem-types.yml
+  href: https://artifacts.apis.io/opal/errors/opal-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/opal-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/data-model/opal-data-model.yml
+  href: https://artifacts.apis.io/opal/data-model/opal-data-model.yml
   title: ''
   type: DataModel
   url: data-model/opal-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/conformance/opal-conformance.yml
+  href: https://artifacts.apis.io/opal/conformance/opal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/opal-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/opal/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/llms/opal-llms.txt
+  href: https://artifacts.apis.io/opal/llms/opal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/opal-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/rate-limits/opal-rate-limits.yml
+  href: https://artifacts.apis.io/opal/rate-limits/opal-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/opal-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/plans/opal-plans-pricing.yml
+  href: https://artifacts.apis.io/opal/plans/opal-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/opal-plans-pricing.yml
@@ -586,7 +588,7 @@ common:
   type: License
   url: https://workwithopal.com/api-license/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/security/opal-trust-center.yml
+  href: https://artifacts.apis.io/opal/security/opal-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/opal-trust-center.yml
@@ -595,13 +597,21 @@ common:
   type: Compliance
   url: https://workwithopal.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/security/opal-domain-security.yml
+  href: https://artifacts.apis.io/opal/security/opal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opal-domain-security.yml
 created: '2026-07-17'
 description: 'Opal is a marketing planning and content calendar platform that gives marketing teams a single visual workspace to plan campaigns, build editorial and content calendars, manage creative workflows and approvals, and connect strategy to execution across channels and markets. It is used by enterprise brands such as Target, Starbucks, GM, and SAP, and pairs a unified planning calendar with a "Gem" AI co-pilot plus prebuilt integrations to Slack, Jira, Asana, Wrike, Workfront, Sprinklr, Khoros, Frame.io, Sprout Social, Formstack and Zapier. Opal does ship a real REST API: three OpenAPI 3.0 definitions — v2, v3 and an internal-facing Asgard BFF service — are served publicly from login.ouropal.com and cover stories, moments, content, boards, board objects, assets, asset references, labels, stamps, workflows, custom fields, presentations, rich-text documents and Gem chats. The v2 and v3 surfaces are JSON:API-compliant and authenticate with OAuth 2.0 authorization code (plus a client-credentials
   onboarding flow and a deprecated Session-Token header). The documentation is public, but API credentials are gated: Opal states access requires an active account or an NDA plus approval from Opal leadership, and OAuth client registration is a manual process handled by its integrations team.'
+finops:
+- has_sources: true
+  method: derived
+  name: Opal Finops
+  primary_unit: ''
+  service_category: ''
+  slug: opal-finops
+  template: true
 image: https://workwithopal.com/wp-content/uploads/2022/09/opal_logo.png
 layout: provider
 modified: '2026-08-13'
@@ -616,7 +626,7 @@ plans:
 - name: Opal Plans Pricing
   plan_count: 0
   slug: opal-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Opal Rate Limits
@@ -628,23 +638,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 49.8
+  composite: 49.9
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 49.9
+    contract_quality: 46.5
     developer_ergonomics: 58.9
     discoverability: 71.4
     operational_transparency: 23.7
-  previous_composite: 49.7
+  previous_composite: 49.9
   provenance:
     conformance: derived
     contracts:
@@ -664,13 +674,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/screenshots/opal-2026-08-07T190443.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/opal/opal-2026-08-07T190443.png
 security:
 - kind: authentication
   name: Opal Authentication
@@ -684,6 +695,16 @@ security:
   name: Opal Trust Center
   slug: opal-trust-center
   summary_line: SOC 2, ISO 27001, GDPR
+skill_count: 4
+skills:
+- name: opal-manage-content-and-placements
+  slug: opal-manage-content-and-placements
+- name: opal-plan-a-campaign
+  slug: opal-plan-a-campaign
+- name: opal-run-an-approval-workflow
+  slug: opal-run-an-approval-workflow
+- name: opal-upload-and-reference-assets
+  slug: opal-upload-and-reference-assets
 slug: opal
 tags:
 - Company

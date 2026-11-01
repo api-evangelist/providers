@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.2
-  scored_at: '2026-10-17'
+  score: 25.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for AI-powered document search and Q&A across building documentation, plus management of buildings, documents, building owners, reports, and building categories. Supports SSE streaming on the
@@ -42,7 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/findable/refs/heads/main/security/findable-domain-security.yml
+  href: https://artifacts.apis.io/findable/security/findable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/findable-domain-security.yml
@@ -91,57 +93,57 @@ common:
   type: Support
   url: https://www.findable.ai/en/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/findable/refs/heads/main/mcp/findable-mcp.yml
+  href: https://artifacts.apis.io/findable/mcp/findable-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/findable-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/findable/refs/heads/main/authentication/findable-authentication.yml
+  href: https://artifacts.apis.io/findable/authentication/findable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/findable-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/findable/refs/heads/main/packages/findable-packages.yml
+  href: https://artifacts.apis.io/findable/packages/findable-packages.yml
   title: ''
   type: Packages
   url: packages/findable-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/findable/refs/heads/main/packages/findable-packages.yml
+  href: https://artifacts.apis.io/findable/packages/findable-packages.yml
   title: ''
   type: SDKs
   url: packages/findable-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findable/refs/heads/main/components/findable-components.yml
+  href: https://artifacts.apis.io/findable/components/findable-components.yml
   title: ''
   type: Components
   url: components/findable-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/findable/refs/heads/main/sandbox/findable-sandbox.yml
+  href: https://artifacts.apis.io/findable/sandbox/findable-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/findable-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findable/refs/heads/main/conventions/findable-conventions.yml
+  href: https://artifacts.apis.io/findable/conventions/findable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/findable-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findable/refs/heads/main/errors/findable-problem-types.yml
+  href: https://artifacts.apis.io/findable/errors/findable-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/findable-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findable/refs/heads/main/lifecycle/findable-lifecycle.yml
+  href: https://artifacts.apis.io/findable/lifecycle/findable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/findable-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/findable/refs/heads/main/changelog/findable-changelog.yml
+  href: https://artifacts.apis.io/findable/changelog/findable-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/findable-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findable/refs/heads/main/conformance/findable-conformance.yml
+  href: https://artifacts.apis.io/findable/conformance/findable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/findable-conformance.yml
@@ -150,17 +152,17 @@ common:
   type: Compliance
   url: https://www.findable.ai/en/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/findable/refs/heads/main/security/findable-trust-center.yml
+  href: https://artifacts.apis.io/findable/security/findable-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/findable-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findable/refs/heads/main/data-model/findable-data-model.yml
+  href: https://artifacts.apis.io/findable/data-model/findable-data-model.yml
   title: ''
   type: DataModel
   url: data-model/findable-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/findable/refs/heads/main/llms/findable-llms.txt
+  href: https://artifacts.apis.io/findable/llms/findable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/findable-llms.txt
@@ -180,10 +182,10 @@ overview: 'Findable is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Findable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 7
+random_paper: 5
 score:
   band: thin
-  composite: 36.9
+  composite: 37.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -191,15 +193,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 36.8
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 37.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -213,14 +215,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/findable/refs/heads/main/screenshots/findable-2026-07-25T214513.png
+screenshot: https://apis.io/screenshots/findable/findable-2026-07-25T214513.png
 security:
 - kind: authentication
   name: Findable Authentication

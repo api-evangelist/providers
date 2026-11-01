@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.7
-  scored_at: '2026-10-17'
+  score: 29.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 4
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 127
   slug: blindinsight-agentic-access
   summary_line: 127 operations · 82 acting · 4 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
@@ -140,15 +142,12 @@ apis:
   description: The ws API from BlindInsight — 1 operation(s) for ws.
   name: BlindInsight Ws API
   slug: blindinsight-ws-api
-artifact_total: 43
+artifact_total: 45
 asyncapis:
 - description: Real-time progress channel for asynchronous Blind Insight ingest/upload jobs. After starting a batch upload (POST /api/jobs/upload/) or a large resumable file upload (POST /api/files/), clients receiv
   name: Blind Insight Jobs WebSocket
   slug: blindinsight-jobs-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Blind Insight REST accounts API
   slug: open-blindinsight-accounts-api
@@ -208,87 +207,87 @@ collections:
   slug: open-blindinsight-ws-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/overlays/blindinsight-openapi-overlay.yaml
+  href: https://artifacts.apis.io/blindinsight/overlays/blindinsight-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/blindinsight-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/security/blindinsight-domain-security.yml
+  href: https://artifacts.apis.io/blindinsight/security/blindinsight-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blindinsight-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/agentic-access/blindinsight-agentic-access.yml
+  href: https://artifacts.apis.io/blindinsight/agentic-access/blindinsight-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/blindinsight-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/authentication/blindinsight-authentication.yml
+  href: https://artifacts.apis.io/blindinsight/authentication/blindinsight-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blindinsight-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/packages/blindinsight-packages.yml
+  href: https://artifacts.apis.io/blindinsight/packages/blindinsight-packages.yml
   title: ''
   type: Packages
   url: packages/blindinsight-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/packages/blindinsight-packages.yml
+  href: https://artifacts.apis.io/blindinsight/packages/blindinsight-packages.yml
   title: ''
   type: SDKs
   url: packages/blindinsight-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/cli/blindinsight-cli.yml
+  href: https://artifacts.apis.io/blindinsight/cli/blindinsight-cli.yml
   title: ''
   type: CLI
   url: cli/blindinsight-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/errors/blindinsight-problem-types.yml
+  href: https://artifacts.apis.io/blindinsight/errors/blindinsight-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/blindinsight-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/conventions/blindinsight-conventions.yml
+  href: https://artifacts.apis.io/blindinsight/conventions/blindinsight-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blindinsight-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/data-model/blindinsight-data-model.yml
+  href: https://artifacts.apis.io/blindinsight/data-model/blindinsight-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blindinsight-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/conformance/blindinsight-conformance.yml
+  href: https://artifacts.apis.io/blindinsight/conformance/blindinsight-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blindinsight-conformance.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/asyncapi/blindinsight-jobs-asyncapi.yml
+  href: https://artifacts.apis.io/blindinsight/asyncapi/blindinsight-jobs-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/blindinsight-jobs-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/mcp/blindinsight-mcp.yml
+  href: https://artifacts.apis.io/blindinsight/mcp/blindinsight-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/blindinsight-mcp.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/sandbox/blindinsight-sandbox.yml
+  href: https://artifacts.apis.io/blindinsight/sandbox/blindinsight-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/blindinsight-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/lifecycle/blindinsight-lifecycle.yml
+  href: https://artifacts.apis.io/blindinsight/lifecycle/blindinsight-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blindinsight-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/blindinsight/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/llms/blindinsight-llms.txt
+  href: https://artifacts.apis.io/blindinsight/llms/blindinsight-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blindinsight-llms.txt
@@ -339,26 +338,26 @@ overview: 'BlindInsight publishes 19 API contracts indexed on the [APIs.io](http
 
 
   BlindInsight''s developer surface includes authentication, CLI, sandbox, documentation, API reference, getting-started guide, signup flow, and 18 more developer resources.'
-random_paper: 3
+random_paper: 7
 score:
   band: thin
-  composite: 35.1
+  composite: 37.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 13.2
     contract_governance: 4.5
-    contract_quality: 51.7
+    contract_quality: 49.3
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 35.0
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -375,13 +374,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/screenshots/blindinsight-2026-07-25T203316.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/blindinsight/blindinsight-2026-07-25T203316.png
 security:
 - kind: authentication
   name: Blindinsight Authentication
@@ -391,6 +391,14 @@ security:
   name: Blindinsight Domain Security
   slug: blindinsight-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Ingest encrypted records into Blind Insight
+  slug: blindinsight-ingest-encrypted-records
+- name: Search and decrypt Blind Insight records
+  slug: blindinsight-search-encrypted-data
+- name: Share keys and grant access in Blind Insight
+  slug: blindinsight-share-keys-and-grant-access
 slug: blindinsight
 tags:
 - Company

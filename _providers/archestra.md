@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.2
-  scored_at: '2026-10-17'
+  score: 24.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 499
   human_in_the_loop: 32
@@ -255,70 +257,75 @@ apis:
 - description: The xAI Subscription Auth API from Archestra AI — 2 operation(s) for xai subscription auth.
   name: Archestra AI xAI Subscription Auth API
   slug: archestra-xai-subscription-auth-api
-artifact_total: 85
+artifact_total: 87
 common:
+- group: commercial
+  href: https://artifacts.apis.io/archestra/plans/archestra-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/archestra-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/archestra/refs/heads/main/capabilities/archestra-capability-edges.yml
+  href: https://artifacts.apis.io/archestra/capabilities/archestra-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/archestra-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archestra/refs/heads/main/agentic-access/archestra-agentic-access.yml
+  href: https://artifacts.apis.io/archestra/agentic-access/archestra-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/archestra-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archestra/refs/heads/main/rules/archestra-rules.yml
+  href: https://artifacts.apis.io/archestra/rules/archestra-rules.yml
   title: ''
   type: Spectral
   url: rules/archestra-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archestra/refs/heads/main/json-ld/archestra-context.jsonld
+  href: https://artifacts.apis.io/archestra/json-ld/archestra-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/archestra-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archestra/refs/heads/main/vocabulary/archestra-vocabulary.yml
+  href: https://artifacts.apis.io/archestra/vocabulary/archestra-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/archestra-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archestra/refs/heads/main/data-model/archestra-data-model.yml
+  href: https://artifacts.apis.io/archestra/data-model/archestra-data-model.yml
   title: ''
   type: DataModel
   url: data-model/archestra-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/archestra/refs/heads/main/authentication/archestra-authentication.yml
+  href: https://artifacts.apis.io/archestra/authentication/archestra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/archestra-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archestra/refs/heads/main/errors/archestra-problem-types.yml
+  href: https://artifacts.apis.io/archestra/errors/archestra-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/archestra-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archestra/refs/heads/main/conformance/archestra-conformance.yml
+  href: https://artifacts.apis.io/archestra/conformance/archestra-conformance.yml
   title: ''
   type: Conformance
   url: conformance/archestra-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archestra/refs/heads/main/llms/archestra-llms.txt
+  href: https://artifacts.apis.io/archestra/llms/archestra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/archestra-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/archestra/refs/heads/main/hosts/archestra-hosts.yml
+  href: https://artifacts.apis.io/archestra/hosts/archestra-hosts.yml
   title: ''
   type: Hosts
   url: hosts/archestra-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/archestra/refs/heads/main/vendors/archestra-vendors.yml
+  href: https://artifacts.apis.io/archestra/vendors/archestra-vendors.yml
   title: ''
   type: Vendors
   url: vendors/archestra-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/archestra/refs/heads/main/security/archestra-domain-security.yml
+  href: https://artifacts.apis.io/archestra/security/archestra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/archestra-domain-security.yml
@@ -365,6 +372,14 @@ coverage:
   state: none
 created: '2026-10-16'
 description: Archestra AI provides open-source infrastructure for enterprise AI, enabling platform teams to deploy AI models securely and at scale. Their platform offers a controlled gateway for AI agents and clients, handling data access, tool integration, and policy enforcement. Features include an MCP gateway, LLM proxy, identity management, and observability tools, all designed to keep data governance while accelerating AI production across organizations.
+finops:
+- has_sources: true
+  method: derived
+  name: Archestra Finops
+  primary_unit: ''
+  service_category: ''
+  slug: archestra-finops
+  template: true
 image: https://archestra.ai/logo.png
 json_schemas:
 - name: GeminiGenerateContentRequestInput
@@ -395,14 +410,18 @@ modified: '2026-10-16'
 name: Archestra AI
 nav: Providers
 network: true
-overview: 'Archestra AI publishes 74 API contracts indexed on the [APIs.io](https://apis.io/) network, including A2A API, Agent Delegations API, Agent Tools API, and 71 more. Tagged areas include AI Infrastructure, MCP gateway, LLM proxy, Observability, and Open Source.
+overview: 'Archestra AI publishes 74 API contracts indexed on the [APIs.io](https://apis.io/) network, including A2A API, Agent Delegations API, Agent Tools API, and 71 more. Tagged areas include AI Infrastructure, MCP Gateway, LLM Proxy, Observability, and Open Source.
 
 
   The Archestra AI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Archestra AI''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, and 15 more developer resources.'
-random_paper: 11
+  Archestra AI''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, and 16 more developer resources.'
+plans:
+- name: Archestra Plans Pricing
+  plan_count: 3
+  slug: archestra-plans-pricing
+random_paper: 21
 rules:
 - authorship: generated
   effective_rule_count: 53
@@ -418,21 +437,23 @@ rules:
   slug: archestra-rules
 score:
   band: developing
-  composite: 41.6
+  composite: 44.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 57.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.3
+    artifact_dirs: 22
+    catalog_earned: 69.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 6.4
   facets:
-    access_clarity: 31.6
+    access_clarity: 63.2
     contract_governance: 22.0
-    contract_quality: 54.3
+    contract_quality: 52.3
     developer_ergonomics: 42.9
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -448,11 +469,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 33.3
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Archestra Authentication
@@ -465,8 +488,8 @@ security:
 slug: archestra
 tags:
 - AI Infrastructure
-- MCP gateway
-- LLM proxy
+- MCP Gateway
+- LLM Proxy
 - Observability
 - Open Source
 website: https://archestra.ai/

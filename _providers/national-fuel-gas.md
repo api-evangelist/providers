@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/national-fuel-gas/refs/heads/main/security/national-fuel-gas-domain-security.yml
+  href: https://artifacts.apis.io/national-fuel-gas/security/national-fuel-gas-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/national-fuel-gas-domain-security.yml
@@ -82,7 +84,7 @@ press:
 - date: ''
   title: National Fuel Gas furnishes Q1 2026 earnings release | NFG 8-K ...
   url: https://www.stocktitan.net/sec-filings/NFG/8-k-national-fuel-gas-co-reports-material-event-9b4c523a6a22.html
-random_paper: 15
+random_paper: 7
 score:
   band: minimal
   composite: 2.7
@@ -108,14 +110,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/national-fuel-gas/refs/heads/main/screenshots/national-fuel-gas-2026-06-20T190013.png
+screenshot: https://apis.io/screenshots/national-fuel-gas/national-fuel-gas-2026-06-20T190013.png
 security:
 - kind: domain-security
   name: National Fuel Gas Domain Security

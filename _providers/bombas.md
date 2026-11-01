@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,16 +37,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of the Bombas Shopify storefront. The store publishes a Universal Commerce Protocol merchant profile at https://shop.bombas.com/.well-known/ucp declaring UCP versions
   name: Bombas Commerce (UCP Shopping)
   slug: commerce
-artifact_total: 5
+artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bombas/refs/heads/main/security/bombas-domain-security.yml
+  href: https://artifacts.apis.io/bombas/security/bombas-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bombas-domain-security.yml
@@ -96,7 +98,7 @@ overview: 'Bombas is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Bombas'' developer surface includes documentation, support, signup flow, and 6 more developer resources.'
-random_paper: 12
+random_paper: 4
 scopes:
 - name: Bombas Scopes
   scope_count: 4
@@ -104,7 +106,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 25.3
+  composite: 24.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -118,9 +120,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.0
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 25.3
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 24.7
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -131,14 +133,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bombas/refs/heads/main/screenshots/bombas-2026-08-07T162716.png
+screenshot: https://apis.io/screenshots/bombas/bombas-2026-08-07T162716.png
 security:
 - kind: authentication
   name: Bombas Authentication
@@ -148,6 +150,12 @@ security:
   name: Bombas Domain Security
   slug: bombas-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Read the Bombas catalog without transacting
+  slug: bombas-catalog-lookup
+- name: Shop the Bombas catalog and complete a checkout
+  slug: bombas-shop-and-checkout
 slug: bombas
 tags:
 - Company

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,22 +25,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cayaba-care/refs/heads/main/conformance/cayaba-care-conformance.yml
+  href: https://artifacts.apis.io/cayaba-care/conformance/cayaba-care-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cayaba-care-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cayaba-care/refs/heads/main/hosts/cayaba-care-hosts.yml
+  href: https://artifacts.apis.io/cayaba-care/hosts/cayaba-care-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cayaba-care-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cayaba-care/refs/heads/main/vendors/cayaba-care-vendors.yml
+  href: https://artifacts.apis.io/cayaba-care/vendors/cayaba-care-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cayaba-care-vendors.yml
@@ -71,7 +73,7 @@ common:
   type: GettingStarted
   url: https://www.nadiacare.com/get-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cayaba-care/refs/heads/main/security/cayaba-care-domain-security.yml
+  href: https://artifacts.apis.io/cayaba-care/security/cayaba-care-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cayaba-care-domain-security.yml
@@ -95,14 +97,14 @@ modified: '2026-10-07'
 name: Cayaba Care
 nav: Providers
 network: true
-overview: 'Cayaba Care is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include maternity, healthtech, Community, postpartum, and pregnancy.
+overview: 'Cayaba Care is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Maternity, Health Tech, Community, postpartum, and Pregnancy.
 
 
   Cayaba Care''s developer surface includes support, getting-started guide, and 10 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 16.8
+  composite: 16.7
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -110,6 +112,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.1
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
@@ -117,6 +120,14 @@ score:
     developer_ergonomics: 16.7
     discoverability: 51.8
     operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 16.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -126,12 +137,13 @@ score:
     - jurisdiction: US
       standard: hipaa
     jurisdictions_satisfied: 1
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 14.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -143,11 +155,11 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: cayaba-care
 tags:
-- maternity
-- healthtech
+- Maternity
+- Health Tech
 - Community
 - postpartum
-- pregnancy
+- Pregnancy
 - USA
 website: https://www.nadiacare.com/
 ---

@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.9
-  scored_at: '2026-10-17'
+  score: 55.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 3
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 48
   slug: saperly-agentic-access
   summary_line: 48 operations · 24 acting · 3 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://api.saperly.com
   baseurl_source: declared
@@ -113,14 +115,19 @@ apis:
   description: Invite teammates to a workspace by email address.
   name: Saperly Workspace Invitations API
   slug: saperly-workspace-invitations-api
-artifact_total: 27
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Saperly Webhooks
   slug: saperly-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/saperly/capabilities/saperly-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/saperly-capability-edges.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/rate-limits/saperly-rate-limits.yml
+  href: https://artifacts.apis.io/saperly/rate-limits/saperly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/saperly-rate-limits.yml
@@ -129,122 +136,122 @@ common:
   type: DeveloperPortal
   url: https://api.saperly.com</code
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/agentic-access/saperly-agentic-access.yml
+  href: https://artifacts.apis.io/saperly/agentic-access/saperly-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/saperly-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/plans/saperly-plans-pricing.yml
+  href: https://artifacts.apis.io/saperly/plans/saperly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/saperly-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/rules/saperly-rules.yml
+  href: https://artifacts.apis.io/saperly/rules/saperly-rules.yml
   title: ''
   type: Spectral
   url: rules/saperly-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/json-ld/saperly-context.jsonld
+  href: https://artifacts.apis.io/saperly/json-ld/saperly-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/saperly-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/vocabulary/saperly-vocabulary.yml
+  href: https://artifacts.apis.io/saperly/vocabulary/saperly-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/saperly-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/saperly/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/asyncapi/saperly-webhooks.yml
+  href: https://artifacts.apis.io/saperly/asyncapi/saperly-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/saperly-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/data-model/saperly-data-model.yml
+  href: https://artifacts.apis.io/saperly/data-model/saperly-data-model.yml
   title: ''
   type: DataModel
   url: data-model/saperly-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/conventions/saperly-conventions.yml
+  href: https://artifacts.apis.io/saperly/conventions/saperly-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/saperly-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/conventions/saperly-conventions.yml
+  href: https://artifacts.apis.io/saperly/conventions/saperly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/saperly-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/authentication/saperly-authentication.yml
+  href: https://artifacts.apis.io/saperly/authentication/saperly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/saperly-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/scopes/saperly-scopes.yml
+  href: https://artifacts.apis.io/saperly/scopes/saperly-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/saperly-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/lifecycle/saperly-lifecycle.yml
+  href: https://artifacts.apis.io/saperly/lifecycle/saperly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/saperly-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/errors/saperly-problem-types.yml
+  href: https://artifacts.apis.io/saperly/errors/saperly-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/saperly-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/conformance/saperly-conformance.yml
+  href: https://artifacts.apis.io/saperly/conformance/saperly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/saperly-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/overlays/saperly-openapi-overlay.yaml
+  href: https://artifacts.apis.io/saperly/overlays/saperly-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/saperly-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/llms/saperly-llms.txt
+  href: https://artifacts.apis.io/saperly/llms/saperly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/saperly-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/mcp/saperly-tool-crosswalk.yml
+  href: https://artifacts.apis.io/saperly/mcp/saperly-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/saperly-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/mcp/saperly-mcp.yml
+  href: https://artifacts.apis.io/saperly/mcp/saperly-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/saperly-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/well-known/saperly-well-known.yml
+  href: https://artifacts.apis.io/saperly/well-known/saperly-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/saperly-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/hosts/saperly-hosts.yml
+  href: https://artifacts.apis.io/saperly/hosts/saperly-hosts.yml
   title: ''
   type: Hosts
   url: hosts/saperly-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/vendors/saperly-vendors.yml
+  href: https://artifacts.apis.io/saperly/vendors/saperly-vendors.yml
   title: ''
   type: Vendors
   url: vendors/saperly-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/packages/saperly-packages.yml
+  href: https://artifacts.apis.io/saperly/packages/saperly-packages.yml
   title: ''
   type: SDKs
   url: packages/saperly-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/packages/saperly-packages.yml
+  href: https://artifacts.apis.io/saperly/packages/saperly-packages.yml
   title: ''
   type: Packages
   url: packages/saperly-packages.yml
@@ -297,17 +304,25 @@ common:
   type: PrivacyPolicy
   url: https://saperly.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/security/saperly-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/saperly/security/saperly-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/saperly-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/security/saperly-domain-security.yml
+  href: https://artifacts.apis.io/saperly/security/saperly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/saperly-domain-security.yml
 created: '2026-10-07'
 description: 'Saperly is the phone carrier for AI agents: one API call gives an agent a real phone number with inbound and outbound voice and SMS, routing to a hosted in-network voice agent or to your own runtime (manual mode), and TCPA compliance enforced in the carrier layer — AI disclosure, consent records, 10DLC brand/campaign registration and an append-only audit trail. The v2 REST API at api.saperly.com (48 operations, OpenAPI 3.2) covers numbers, connections, messaging, voice, voices, consent, pricing quotes, usage and ceiling-bounded scoped API keys; a remote MCP server at api.saperly.com/mcp (Streamable HTTP, OAuth 2.1 or sap_sk_ bearer) exposes the same surface as tools, with official Node and Python SDKs, signed webhooks and prepaid usage-based pricing.'
+finops:
+- has_sources: true
+  method: derived
+  name: Saperly Finops
+  primary_unit: ''
+  service_category: ''
+  slug: saperly-finops
+  template: true
 image: https://saperly.com/saperly-flower-hero.jpg
 jsonld:
 - class_count: 32
@@ -329,12 +344,12 @@ overview: 'Saperly publishes 16 API contracts indexed on the [APIs.io](https://a
   The Saperly catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Saperly''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, and 33 more developer resources.'
+  Saperly''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, and 34 more developer resources.'
 plans:
 - name: Saperly Plans Pricing
   plan_count: 2
   slug: saperly-plans-pricing
-random_paper: 20
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Saperly Rate Limits
@@ -359,23 +374,23 @@ scopes:
   summary_line: 7 scopes
 score:
   band: strong
-  composite: 57.5
+  composite: 56.4
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 64.8
+    artifact_dirs: 30
+    catalog_earned: 61.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 50.3
+    catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.2
+  delta: -0.5
   facets:
     access_clarity: 65.8
     contract_governance: 35.6
-    contract_quality: 58.0
+    contract_quality: 56.9
     developer_ergonomics: 61.3
-    discoverability: 80.0
+    discoverability: 65.0
     operational_transparency: 23.7
-  previous_composite: 57.7
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -392,13 +407,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 40.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/screenshots/saperly-2026-10-11T125628.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/saperly/saperly-2026-10-11T125628.png
 security:
 - kind: authentication
   name: Saperly Authentication
@@ -412,6 +428,16 @@ security:
   name: Saperly Vulnerability Disclosure
   slug: saperly-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 4
+skills:
+- name: mint-scoped-child-keys
+  slug: saperly-mint-scoped-child-keys
+- name: place-and-control-a-call
+  slug: saperly-place-and-control-a-call
+- name: provision-number-and-attach-connection
+  slug: saperly-provision-number-and-attach-connection
+- name: send-sms-with-consent
+  slug: saperly-send-sms-with-consent
 slug: saperly
 tags:
 - Telephony

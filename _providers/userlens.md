@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 21.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://events.userlens.io
@@ -42,11 +44,8 @@ apis:
   description: User identification, company grouping, and event ingestion
   name: Userlens Events API
   slug: userlens-events-api
-artifact_total: 6
+artifact_total: 7
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Userlens Events API
   slug: open-userlens-events-api
@@ -60,12 +59,12 @@ common:
   type: BlogRSS
   url: https://userlens.io/news/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/overlays/userlens-events-overlay.yaml
+  href: https://artifacts.apis.io/userlens/overlays/userlens-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/userlens-events-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/security/userlens-domain-security.yml
+  href: https://artifacts.apis.io/userlens/security/userlens-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/userlens-domain-security.yml
@@ -110,32 +109,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/wudpecker
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/llms/userlens-llms.txt
+  href: https://artifacts.apis.io/userlens/llms/userlens-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/userlens-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/packages/userlens-packages.yml
+  href: https://artifacts.apis.io/userlens/packages/userlens-packages.yml
   title: ''
   type: Packages
   url: packages/userlens-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/packages/userlens-packages.yml
+  href: https://artifacts.apis.io/userlens/packages/userlens-packages.yml
   title: ''
   type: SDKs
   url: packages/userlens-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/well-known/userlens-well-known.yml
+  href: https://artifacts.apis.io/userlens/well-known/userlens-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/userlens-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/mcp/userlens-mcp.yml
+  href: https://artifacts.apis.io/userlens/mcp/userlens-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/userlens-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/conformance/userlens-conformance.yml
+  href: https://artifacts.apis.io/userlens/conformance/userlens-conformance.yml
   title: ''
   type: Conformance
   url: conformance/userlens-conformance.yml
@@ -144,32 +143,32 @@ common:
   type: Compliance
   url: https://userlens.io/llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/errors/userlens-problem-types.yml
+  href: https://artifacts.apis.io/userlens/errors/userlens-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/userlens-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/lifecycle/userlens-lifecycle.yml
+  href: https://artifacts.apis.io/userlens/lifecycle/userlens-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/userlens-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/authentication/userlens-authentication.yml
+  href: https://artifacts.apis.io/userlens/authentication/userlens-authentication.yml
   title: ''
   type: Authentication
   url: authentication/userlens-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/conventions/userlens-conventions.yml
+  href: https://artifacts.apis.io/userlens/conventions/userlens-conventions.yml
   title: ''
   type: Conventions
   url: conventions/userlens-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/data-model/userlens-data-model.yml
+  href: https://artifacts.apis.io/userlens/data-model/userlens-data-model.yml
   title: ''
   type: DataModel
   url: data-model/userlens-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/userlens/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -189,24 +188,24 @@ overview: 'Userlens publishes 1 API contract indexed on the [APIs.io](https://ap
 
 
   Userlens'' developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, authentication, and 21 more developer resources.'
-random_paper: 1
+random_paper: 17
 score:
   band: thin
-  composite: 36.2
+  composite: 36.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 14.8
     developer_ergonomics: 51.8
-    discoverability: 73.2
+    discoverability: 65.0
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -231,13 +230,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/screenshots/userlens-2026-09-02T165238.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/userlens/userlens-2026-09-02T165238.png
 security:
 - kind: authentication
   name: Userlens Authentication
@@ -247,6 +247,12 @@ security:
   name: Userlens Domain Security
   slug: userlens-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Instrument a user lifecycle in Userlens
+  slug: userlens-instrument-user-lifecycle
+- name: Forward Userlens SDK events through a backend proxy
+  slug: userlens-proxy-sdk-events
 slug: userlens
 tags:
 - Company

@@ -26,15 +26,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 23.5
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://poseidon.blueocean.ai/api
   baseurl_source: declared
@@ -131,14 +133,19 @@ apis:
   description: The oauth_providers API from BlueOcean — 15 operation(s) for oauth_providers.
   name: BlueOcean OAUTH Providers API
   slug: blueocean-oauth-providers-api
-artifact_total: 24
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The brand_assets API from BlueOcean — 18 operation(s) for brand_assets.
+  name: BlueOcean Brand Assets API
+  slug: blueocean-brand-assets-api
+artifact_total: 25
 collections:
 - collection_type: open
   name: FastAPI
   slug: open-blueocean-spark-platform
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/overlays/blueocean-spark-platform-overlay.yaml
+  href: https://artifacts.apis.io/blueocean/overlays/blueocean-spark-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/blueocean-spark-platform-overlay.yaml
@@ -167,57 +174,57 @@ common:
   type: GitHubOrganization
   url: https://github.com/blueocean-ai
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/llms/blueocean-llms.txt
+  href: https://artifacts.apis.io/blueocean/llms/blueocean-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blueocean-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/security/blueocean-domain-security.yml
+  href: https://artifacts.apis.io/blueocean/security/blueocean-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blueocean-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/authentication/blueocean-authentication.yml
+  href: https://artifacts.apis.io/blueocean/authentication/blueocean-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blueocean-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/conventions/blueocean-conventions.yml
+  href: https://artifacts.apis.io/blueocean/conventions/blueocean-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blueocean-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/errors/blueocean-problem-types.yml
+  href: https://artifacts.apis.io/blueocean/errors/blueocean-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/blueocean-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/data-model/blueocean-data-model.yml
+  href: https://artifacts.apis.io/blueocean/data-model/blueocean-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blueocean-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/conformance/blueocean-conformance.yml
+  href: https://artifacts.apis.io/blueocean/conformance/blueocean-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blueocean-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/conformance/blueocean-conformance.yml
+  href: https://artifacts.apis.io/blueocean/conformance/blueocean-conformance.yml
   title: ''
   type: Compliance
   url: conformance/blueocean-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/lifecycle/blueocean-lifecycle.yml
+  href: https://artifacts.apis.io/blueocean/lifecycle/blueocean-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blueocean-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/plans/blueocean-plans-pricing.yml
+  href: https://artifacts.apis.io/blueocean/plans/blueocean-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blueocean-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/rate-limits/blueocean-rate-limits.yml
+  href: https://artifacts.apis.io/blueocean/rate-limits/blueocean-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blueocean-rate-limits.yml
@@ -229,7 +236,7 @@ modified: '2026-08-13'
 name: BlueOcean
 nav: Providers
 network: true
-overview: 'BlueOcean publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Delete Conversation API, Get All Conversation History API, Get Conversation History Summary API, and 16 more. Tagged areas include Company, Marketing, Artificial Intelligence, AI Agents, and Brand Intelligence.
+overview: 'BlueOcean publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Delete Conversation API, Get All Conversation History API, Get Conversation History Summary API, and 17 more. Tagged areas include Company, Marketing, Artificial Intelligence, AI Agents, and Brand Intelligence.
 
 
   BlueOcean''s developer surface includes engineering blog, authentication, and 16 more developer resources.'
@@ -237,14 +244,14 @@ plans:
 - name: Blueocean Plans Pricing
   plan_count: 0
   slug: blueocean-plans-pricing
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Blueocean Rate Limits
   slug: blueocean-rate-limits
 score:
   band: thin
-  composite: 32.7
+  composite: 33.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -252,22 +259,22 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 41.4
+    contract_quality: 39.6
     developer_ergonomics: 21.4
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 32.6
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 33.9
   provenance:
     conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 19
+      total: 40
     mcp: derived
   regulatory:
     applies: true
@@ -275,13 +282,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/screenshots/blueocean-2026-07-25T203459.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/blueocean/blueocean-2026-07-25T203459.png
 security:
 - kind: authentication
   name: Blueocean Authentication

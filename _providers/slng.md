@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-17'
+  score: 32.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 43
   slug: slng-agentic-access
   summary_line: 43 operations · 31 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 7
 apis:
 - baseURL: https://api.slng.ai
   baseurl_source: declared
@@ -120,7 +122,7 @@ apis:
   description: Whisper Large v3 with 99+ language support.
   name: SLNG Whisper Large v3 API
   slug: slng-whisper-large-v3-api
-artifact_total: 54
+artifact_total: 59
 asyncapis:
 - description: SLNG Gateway API
   name: SLNG Gateway API - SLNG (WebSocket)
@@ -178,9 +180,6 @@ collections:
   name: SLNG Voice Agents Account Whisper Large v3 API
   slug: postman-slng-whisper-large-v3-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: SLNG Voice Agents Account API
   slug: open-slng-account-api
 - collection_type: open
@@ -226,8 +225,13 @@ collections:
   name: SLNG Voice Agents Account Whisper Large v3 API
   slug: open-slng-whisper-large-v3-api
 common:
+- group: other
+  href: https://artifacts.apis.io/slng/capabilities/slng-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/slng-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/plans/slng-plans-pricing.yml
+  href: https://artifacts.apis.io/slng/plans/slng-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/slng-plans-pricing.yml
@@ -284,7 +288,7 @@ common:
   type: Support
   url: mailto:support@slng.ai
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/changelog/slng-changelog.yml
+  href: https://artifacts.apis.io/slng/changelog/slng-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/slng-changelog.yml
@@ -293,107 +297,115 @@ common:
   type: TrustCenter
   url: https://trust.slng.ai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/security/slng-trust-center.yml
+  href: https://artifacts.apis.io/slng/security/slng-trust-center.yml
   title: ''
   type: Compliance
   url: security/slng-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/authentication/slng-authentication.yml
+  href: https://artifacts.apis.io/slng/authentication/slng-authentication.yml
   title: ''
   type: Authentication
   url: authentication/slng-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/security/slng-domain-security.yml
+  href: https://artifacts.apis.io/slng/security/slng-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/slng-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/agentic-access/slng-agentic-access.yml
+  href: https://artifacts.apis.io/slng/agentic-access/slng-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/slng-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/packages/slng-packages.yml
+  href: https://artifacts.apis.io/slng/packages/slng-packages.yml
   title: ''
   type: Packages
   url: packages/slng-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/packages/slng-packages.yml
+  href: https://artifacts.apis.io/slng/packages/slng-packages.yml
   title: ''
   type: SDKs
   url: packages/slng-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/cli/slng-cli.yml
+  href: https://artifacts.apis.io/slng/cli/slng-cli.yml
   title: ''
   type: CLI
   url: cli/slng-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/mcp/slng-mcp.yml
+  href: https://artifacts.apis.io/slng/mcp/slng-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/slng-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/llms/slng-llms.txt
+  href: https://artifacts.apis.io/slng/llms/slng-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/slng-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/slng/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/conventions/slng-conventions.yml
+  href: https://artifacts.apis.io/slng/conventions/slng-conventions.yml
   title: ''
   type: Conventions
   url: conventions/slng-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/errors/slng-problem-types.yml
+  href: https://artifacts.apis.io/slng/errors/slng-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/slng-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/lifecycle/slng-lifecycle.yml
+  href: https://artifacts.apis.io/slng/lifecycle/slng-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/slng-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/sandbox/slng-sandbox.yml
+  href: https://artifacts.apis.io/slng/sandbox/slng-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/slng-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/data-model/slng-data-model.yml
+  href: https://artifacts.apis.io/slng/data-model/slng-data-model.yml
   title: ''
   type: DataModel
   url: data-model/slng-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/conformance/slng-conformance.yml
+  href: https://artifacts.apis.io/slng/conformance/slng-conformance.yml
   title: ''
   type: Conformance
   url: conformance/slng-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/overlays/slng-stt-overlay.yaml
+  href: https://artifacts.apis.io/slng/overlays/slng-stt-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/slng-stt-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/overlays/slng-tts-overlay.yaml
+  href: https://artifacts.apis.io/slng/overlays/slng-tts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/slng-tts-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/overlays/slng-agents-overlay.yaml
+  href: https://artifacts.apis.io/slng/overlays/slng-agents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/slng-agents-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/overlays/slng-batch-overlay.yaml
+  href: https://artifacts.apis.io/slng/overlays/slng-batch-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/slng-batch-overlay.yaml
 created: '2026-07-17'
 description: SLNG is a compliance-first speech AI gateway that gives developers a single, unified API for speech-to-text, text-to-speech, and LLM-driven voice agents across 30+ models from providers like Deepgram, Rime, Cartesia, ElevenLabs, and OpenAI Whisper. The platform acts as an execution layer between an orchestrator and the models, routing each request to in-region compute across 60+ regions and 11 sovereign hubs for low latency and local data residency (GDPR), with ISO 27001 certification and HIPAA compliance. Every model is reachable over HTTP or streaming WebSocket, with bring-your-own-key billing, batch transcription, pronunciation dictionaries, and per-minute pricing. Founded in Barcelona in 2025 and backed by a pre-seed round led by Earlybird.
+finops:
+- has_sources: true
+  method: derived
+  name: Slng Finops
+  primary_unit: agent minute
+  service_category: ''
+  slug: slng-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/slng.png
 layout: provider
 modified: '2026-07-21'
@@ -406,31 +418,34 @@ overview: 'SLNG publishes 15 API contracts indexed on the [APIs.io](https://apis
   The SLNG catalog on APIs.io includes 3 event-driven AsyncAPI specifications.
 
 
-  SLNG''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, support, and 29 more developer resources.'
+  SLNG''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, support, and 30 more developer resources.'
 plans:
 - name: Slng Plans Pricing
   plan_count: 9
   slug: slng-plans-pricing
-random_paper: 18
+- name: Slng Price Estimates
+  plan_count: 0
+  slug: slng-price-estimates
+random_paper: 4
 score:
   band: strong
-  composite: 59.6
+  composite: 64.0
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 52.0
+    artifact_dirs: 29
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.0
+  delta: 1.5
   facets:
-    access_clarity: 78.9
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 64.1
+    contract_quality: 63.6
     developer_ergonomics: 81.5
-    discoverability: 78.6
-    operational_transparency: 18.4
-  previous_composite: 53.6
+    discoverability: 71.4
+    operational_transparency: 21.1
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -453,13 +468,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/screenshots/slng-2026-08-17T081926.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/slng/slng-2026-08-17T081926.png
 security:
 - kind: authentication
   name: Slng Authentication
@@ -473,6 +489,16 @@ security:
   name: Slng Trust Center
   slug: slng-trust-center
   summary_line: ISO 27001, HIPAA, GDPR
+skill_count: 4
+skills:
+- name: Batch transcribe audio with SLNG
+  slug: slng-batch-transcribe
+- name: Synthesize speech with SLNG TTS
+  slug: slng-synthesize-speech
+- name: Transcribe audio with SLNG STT
+  slug: slng-transcribe-audio
+- name: Build and dispatch a SLNG voice agent
+  slug: slng-voice-agent-call
 slug: slng
 tags:
 - Company

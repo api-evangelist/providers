@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The PayPro Global API lets merchants manage subscriptions, payments, orders, customers, products, and webhooks for their Merchant of Record ecommerce flows.
@@ -42,27 +44,27 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/paypro-global/refs/heads/main/plans/paypro-global-plans-pricing.yml
+  href: https://artifacts.apis.io/paypro-global/plans/paypro-global-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/paypro-global-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/paypro-global/refs/heads/main/rate-limits/paypro-global-rate-limits.yml
+  href: https://artifacts.apis.io/paypro-global/rate-limits/paypro-global-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/paypro-global-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/paypro-global/refs/heads/main/finops/paypro-global-finops.yml
+  href: https://artifacts.apis.io/paypro-global/finops/paypro-global-finops.yml
   title: ''
   type: FinOps
   url: finops/paypro-global-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paypro-global/refs/heads/main/security/paypro-global-trust-center.yml
+  href: https://artifacts.apis.io/paypro-global/security/paypro-global-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/paypro-global-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paypro-global/refs/heads/main/security/paypro-global-domain-security.yml
+  href: https://artifacts.apis.io/paypro-global/security/paypro-global-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paypro-global-domain-security.yml
@@ -104,7 +106,7 @@ finops:
 - has_sources: false
   method: generated
   name: Paypro Global Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: paypro-global-finops
   template: true
@@ -129,7 +131,7 @@ rate_limits:
   slug: paypro-global-rate-limits
 score:
   band: emerging
-  composite: 14.4
+  composite: 22.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 38.0
@@ -137,29 +139,29 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 26.3
+    access_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 13.1
+    developer_ergonomics: 26.2
     discoverability: 64.3
-    operational_transparency: 11.8
-  previous_composite: 15.9
+    operational_transparency: 15.8
+  previous_composite: 22.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 17.0
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/paypro-global/refs/heads/main/screenshots/paypro-global-2026-06-20T191506.png
+screenshot: https://apis.io/screenshots/paypro-global/paypro-global-2026-06-20T191506.png
 security:
 - kind: domain-security
   name: Paypro Global Domain Security

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.4
-  scored_at: '2026-10-17'
+  score: 32.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -73,7 +75,7 @@ apis:
   description: Manage user accounts, groups, and membership for SnapLogic organizations.
   name: SnapLogic Users and Groups API
   slug: snaplogic-users-and-groups-api
-artifact_total: 135
+artifact_total: 136
 collections:
 - collection_type: postman
   name: SnapLogic Public APIs Asset Management API
@@ -87,9 +89,6 @@ collections:
 - collection_type: postman
   name: SnapLogic Public APIs Asset Management Users and Groups API
   slug: postman-snaplogic-users-and-groups-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SnapLogic Public APIs Asset Management API
   slug: open-snaplogic-asset-management-api
@@ -107,102 +106,102 @@ collections:
   slug: open-snaplogic-users-and-groups-api
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/well-known/snaplogic-trust-security.txt
+  href: https://artifacts.apis.io/snaplogic/well-known/snaplogic-trust-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/snaplogic-trust-security.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/finops/snaplogic-finops.yml
+  href: https://artifacts.apis.io/snaplogic/finops/snaplogic-finops.yml
   title: ''
   type: FinOps
   url: finops/snaplogic-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/rate-limits/snaplogic-rate-limits.yml
+  href: https://artifacts.apis.io/snaplogic/rate-limits/snaplogic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/snaplogic-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/plans/snaplogic-plans-pricing.yml
+  href: https://artifacts.apis.io/snaplogic/plans/snaplogic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/snaplogic-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/rules/snaplogic-rules.yml
+  href: https://artifacts.apis.io/snaplogic/rules/snaplogic-rules.yml
   title: ''
   type: Spectral
   url: rules/snaplogic-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/rules/snaplogic-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/snaplogic/rules/snaplogic-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/snaplogic-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/json-ld/snaplogic-context.jsonld
+  href: https://artifacts.apis.io/snaplogic/json-ld/snaplogic-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/snaplogic-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/vocabulary/snaplogic-vocabulary.yml
+  href: https://artifacts.apis.io/snaplogic/vocabulary/snaplogic-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/snaplogic-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/snaplogic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/data-model/snaplogic-data-model.yml
+  href: https://artifacts.apis.io/snaplogic/data-model/snaplogic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/snaplogic-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/errors/snaplogic-problem-types.yml
+  href: https://artifacts.apis.io/snaplogic/errors/snaplogic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/snaplogic-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/conformance/snaplogic-conformance.yml
+  href: https://artifacts.apis.io/snaplogic/conformance/snaplogic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/snaplogic-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/llms/snaplogic-llms.txt
+  href: https://artifacts.apis.io/snaplogic/llms/snaplogic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/snaplogic-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/well-known/snaplogic-docs-snaplogic-security.txt
+  href: https://artifacts.apis.io/snaplogic/well-known/snaplogic-docs-snaplogic-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/snaplogic-docs-snaplogic-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/well-known/snaplogic-community-security.txt
+  href: https://artifacts.apis.io/snaplogic/well-known/snaplogic-community-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/snaplogic-community-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/well-known/snaplogic-api-security.txt
+  href: https://artifacts.apis.io/snaplogic/well-known/snaplogic-api-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/snaplogic-api-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/well-known/snaplogic-well-known.yml
+  href: https://artifacts.apis.io/snaplogic/well-known/snaplogic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/snaplogic-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/hosts/snaplogic-hosts.yml
+  href: https://artifacts.apis.io/snaplogic/hosts/snaplogic-hosts.yml
   title: ''
   type: Hosts
   url: hosts/snaplogic-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/vendors/snaplogic-vendors.yml
+  href: https://artifacts.apis.io/snaplogic/vendors/snaplogic-vendors.yml
   title: ''
   type: Vendors
   url: vendors/snaplogic-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/packages/snaplogic-packages.yml
+  href: https://artifacts.apis.io/snaplogic/packages/snaplogic-packages.yml
   title: ''
   type: Packages
   url: packages/snaplogic-packages.yml
@@ -223,17 +222,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/snaplogic/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/agentic-access/snaplogic-agentic-access.yml
+  href: https://artifacts.apis.io/snaplogic/agentic-access/snaplogic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/snaplogic-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/security/snaplogic-domain-security.yml
+  href: https://artifacts.apis.io/snaplogic/security/snaplogic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snaplogic-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/authentication/snaplogic-authentication.yml
+  href: https://artifacts.apis.io/snaplogic/authentication/snaplogic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/snaplogic-authentication.yml
@@ -397,12 +396,12 @@ examples:
   slug: snaplogic-list-pipeline-executions-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Snaplogic Finops
   primary_unit: ''
-  service_category: Integration Platform
+  service_category: ''
   slug: snaplogic-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/snaplogic.png
 json_schemas:
 - name: AclRequest
@@ -472,7 +471,7 @@ plans:
 - name: Snaplogic Plans Pricing
   plan_count: 3
   slug: snaplogic-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Snaplogic Rate Limits
@@ -511,15 +510,20 @@ score:
     catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.0
+  delta: 0.0
   facets:
     access_clarity: 84.2
     contract_governance: 45.5
     contract_quality: 66.0
     developer_ergonomics: 60.1
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 36.8
-  previous_composite: 60.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -540,13 +544,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/screenshots/snaplogic-2026-06-20T194106.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/snaplogic/snaplogic-2026-06-20T194106.png
 security:
 - kind: authentication
   name: Snaplogic Authentication
@@ -556,6 +561,12 @@ security:
   name: Snaplogic Domain Security
   slug: snaplogic-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: snaplogic-asset-management-grant-revoke
+  slug: snaplogic-asset-management-grant-revoke
+- name: snaplogic-users-and-groups-update-access
+  slug: snaplogic-users-and-groups-update-access
 slug: snaplogic
 tags:
 - Artificial Intelligence

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-17'
+  score: 6.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Anixter (now part of Wesco International) provides B2B eCommerce integration services including EDI (Electronic Data Interchange) for purchase orders, invoices, and shipping notices, punchout catalog '
@@ -42,7 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/anixter-international/refs/heads/main/finops/anixter-international-finops.yml
+  href: https://artifacts.apis.io/anixter-international/finops/anixter-international-finops.yml
   title: ''
   type: FinOps
   url: finops/anixter-international-finops.yml
@@ -51,7 +53,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/wesco-international/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anixter-international/refs/heads/main/security/anixter-international-domain-security.yml
+  href: https://artifacts.apis.io/anixter-international/security/anixter-international-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anixter-international-domain-security.yml
@@ -88,37 +90,37 @@ common:
   type: Contact
   url: https://www.anixter.com/en_us/about-us/contact.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anixter-international/refs/heads/main/llms/anixter-international-llms.txt
+  href: https://artifacts.apis.io/anixter-international/llms/anixter-international-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/anixter-international-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anixter-international/refs/heads/main/conformance/anixter-international-conformance.yml
+  href: https://artifacts.apis.io/anixter-international/conformance/anixter-international-conformance.yml
   title: ''
   type: Conformance
   url: conformance/anixter-international-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anixter-international/refs/heads/main/conventions/anixter-international-conventions.yml
+  href: https://artifacts.apis.io/anixter-international/conventions/anixter-international-conventions.yml
   title: ''
   type: Conventions
   url: conventions/anixter-international-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anixter-international/refs/heads/main/lifecycle/anixter-international-lifecycle.yml
+  href: https://artifacts.apis.io/anixter-international/lifecycle/anixter-international-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/anixter-international-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/anixter-international/refs/heads/main/plans/anixter-international-plans-pricing.yml
+  href: https://artifacts.apis.io/anixter-international/plans/anixter-international-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/anixter-international-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/anixter-international/refs/heads/main/rate-limits/anixter-international-rate-limits.yml
+  href: https://artifacts.apis.io/anixter-international/rate-limits/anixter-international-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/anixter-international-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/anixter-international/refs/heads/main/packages/anixter-international-packages.yml
+  href: https://artifacts.apis.io/anixter-international/packages/anixter-international-packages.yml
   title: ''
   type: Packages
   url: packages/anixter-international-packages.yml
@@ -144,7 +146,7 @@ finops:
 - has_sources: false
   method: generated
   name: Anixter International Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: anixter-international-finops
   template: true
@@ -178,30 +180,30 @@ press:
 - date: ''
   title: Anixter International Inc. Announces the Acquisition of Tri-Ed
   url: https://securitytoday.com/articles/2014/08/11/anixter-international-inc-announces-the-acquisition-of-tri-ed.aspx?admgarea=ht.accesscontrol
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Anixter International Rate Limits
   slug: anixter-international-rate-limits
 score:
   band: emerging
-  composite: 11.8
+  composite: 11.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 13.3
+  previous_composite: 11.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -211,14 +213,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/anixter-international/refs/heads/main/screenshots/anixter-international-2026-06-20T172016.png
+screenshot: https://apis.io/screenshots/anixter-international/anixter-international-2026-06-20T172016.png
 security:
 - kind: domain-security
   name: Anixter International Domain Security

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.1
-  scored_at: '2026-10-17'
+  score: 32.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -108,15 +110,12 @@ apis:
   description: Subscribe to event-driven notifications to receive live updates about parcel status changes, location updates, and proof of delivery codes.
   name: Cabify Webhooks API
   slug: cabify-webhooks-api
-artifact_total: 32
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Cabify Webhooks
   slug: cabify-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cabify Logistics delivery API
   slug: open-cabify-delivery-api
@@ -162,12 +161,12 @@ common:
   type: Blog
   url: https://cabify.com/es/empresas/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/capabilities/cabify-capability-edges.yml
+  href: https://artifacts.apis.io/cabify/capabilities/cabify-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cabify-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/overlays/cabify-logistics-overlay.yaml
+  href: https://artifacts.apis.io/cabify/overlays/cabify-logistics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cabify-logistics-overlay.yaml
@@ -192,27 +191,27 @@ common:
   type: APIReference
   url: https://developers.cabify.com/reference/createjourney
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/authentication/cabify-authentication.yml
+  href: https://artifacts.apis.io/cabify/authentication/cabify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cabify-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/sandbox/cabify-sandbox.yml
+  href: https://artifacts.apis.io/cabify/sandbox/cabify-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cabify-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/asyncapi/cabify-webhooks.yml
+  href: https://artifacts.apis.io/cabify/asyncapi/cabify-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cabify-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/changelog/cabify-changelog.yml
+  href: https://artifacts.apis.io/cabify/changelog/cabify-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cabify-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/lifecycle/cabify-lifecycle.yml
+  href: https://artifacts.apis.io/cabify/lifecycle/cabify-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cabify-lifecycle.yml
@@ -221,62 +220,62 @@ common:
   type: StatusPage
   url: https://cabify.statuspage.io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/mcp/cabify-mcp.yml
+  href: https://artifacts.apis.io/cabify/mcp/cabify-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cabify-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/llms/cabify-llms.txt
+  href: https://artifacts.apis.io/cabify/llms/cabify-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cabify-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/well-known/cabify-well-known.yml
+  href: https://artifacts.apis.io/cabify/well-known/cabify-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cabify-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/well-known/cabify-security.txt
+  href: https://artifacts.apis.io/cabify/well-known/cabify-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cabify-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/conventions/cabify-conventions.yml
+  href: https://artifacts.apis.io/cabify/conventions/cabify-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cabify-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/errors/cabify-problem-types.yml
+  href: https://artifacts.apis.io/cabify/errors/cabify-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cabify-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/errors/cabify-operation-errors.yml
+  href: https://artifacts.apis.io/cabify/errors/cabify-operation-errors.yml
   title: ''
   type: ErrorCatalog
   url: errors/cabify-operation-errors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/conformance/cabify-conformance.yml
+  href: https://artifacts.apis.io/cabify/conformance/cabify-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cabify-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/data-model/cabify-data-model.yml
+  href: https://artifacts.apis.io/cabify/data-model/cabify-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cabify-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/agentic-access/cabify-agentic-access.yml
+  href: https://artifacts.apis.io/cabify/agentic-access/cabify-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cabify-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/security/cabify-domain-security.yml
+  href: https://artifacts.apis.io/cabify/security/cabify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cabify-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/security/cabify-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cabify/security/cabify-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cabify-vulnerability-disclosure.yml
@@ -285,7 +284,7 @@ common:
   type: Security
   url: https://cabify.com/.well-known/security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cabify/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -324,25 +323,25 @@ overview: 'Cabify publishes 13 API contracts indexed on the [APIs.io](https://ap
 
 
   Cabify''s developer surface includes engineering blog, documentation, getting-started guide, API reference, authentication, sandbox, changelog, and 26 more developer resources.'
-random_paper: 6
+random_paper: 22
 score:
   band: developing
-  composite: 53.9
+  composite: 51.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 59.1
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 52.6
+    discoverability: 66.1
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -351,7 +350,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 53.3
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -368,13 +367,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/screenshots/cabify-2026-07-25T204159.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cabify/cabify-2026-07-25T204159.png
 security:
 - kind: authentication
   name: Cabify Authentication
@@ -388,6 +388,12 @@ security:
   name: Cabify Vulnerability Disclosure
   slug: cabify-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 2
+skills:
+- name: Book and track a Cabify journey
+  slug: cabify-book-and-track-journey
+- name: Create and ship a Cabify parcel
+  slug: cabify-create-and-ship-parcel
 slug: cabify
 tags:
 - Company

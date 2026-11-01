@@ -10,31 +10,34 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
-    rate_limit_signal: derived
+    rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
+    spec_presence: true
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-10-17'
-api_count: 5
+  score: 44.3
+  scored_at: '2026-10-31'
+api_count: 6
 apis:
 - description: Enables incorporation partners and law firms to programmatically onboard new companies onto the Carta platform, streamlining the company formation and cap table initialisation workflow.
   name: Carta Launch API
@@ -51,15 +54,150 @@ apis:
 - description: Facilitates deal and fundraising relationship management across investment processes for fund operators, providing structured access to CRM data within the Carta platform.
   name: Carta CRM API
   slug: crm-api
-artifact_total: 12
+- baseURL: https://api.carta.com
+  baseurl_source: declared
+  description: 'Carta API as documented publicly: 40 operations. Contract generated from the documentation by API Evangelist (2026-10-20); not the provider''s own document.'
+  name: Carta API
+  slug: carta-api
+artifact_total: 23
 common:
+- group: agent
+  href: https://artifacts.apis.io/carta/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://artifacts.apis.io/carta/rules/carta-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/carta-rules.yml
+- group: design
+  href: https://artifacts.apis.io/carta/json-ld/carta-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/carta-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/carta/vocabulary/carta-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/carta-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/carta/data-model/carta-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/carta-data-model.yml
+- group: design
+  href: https://artifacts.apis.io/carta/conventions/carta-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/carta-conventions.yml
+- group: start
+  href: https://artifacts.apis.io/carta/sandbox/carta-sandbox.yml
+  title: ''
+  type: Sandbox
+  url: sandbox/carta-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carta/refs/heads/main/security/carta-trust-center.yml
+  title: ''
+  type: Compliance
+  url: https://trust.carta.com/
+- group: auth
+  href: https://artifacts.apis.io/carta/authentication/carta-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/carta-authentication.yml
+- group: design
+  href: https://artifacts.apis.io/carta/errors/carta-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/carta-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/carta/conformance/carta-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/carta-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/carta/llms/carta-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/carta-llms.txt
+- group: build
+  href: https://artifacts.apis.io/carta/mcp/carta-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/carta-tool-crosswalk.yml
+- group: agent
+  href: https://artifacts.apis.io/carta/mcp/carta-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/carta-mcp.yml
+- group: auth
+  href: https://artifacts.apis.io/carta/well-known/carta-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/carta-status-security.txt
+- group: agent
+  href: https://artifacts.apis.io/carta/well-known/carta-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/carta-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/carta/hosts/carta-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/carta-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/carta/integrations/carta-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/carta-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/carta/vendors/carta-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/carta-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://carta.com/terms-of-service/
+- group: auth
+  title: ''
+  type: Security
+  url: https://carta.com/security/generative-ai-at-carta/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://carta.com/privacy/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://carta.com/press/
+- group: other
+  title: ''
+  type: Leadership
+  url: https://carta.com/learn/private-funds/management/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.carta.com/api-platform/reference/v-1-alpha-1-draft-issuers-create-draft-issuer
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.carta.com/api-platform/guides/getting-started/quickstart-guide
+- group: start
+  title: ''
+  type: Login
+  url: https://login.app.carta.com/credentials/login/
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.carta.com/api-platform/guides/references/faq-and-support
+- group: auth
+  href: https://artifacts.apis.io/carta/security/carta-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/carta-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carta/refs/heads/main/security/carta-domain-security.yml
+  href: https://artifacts.apis.io/carta/security/carta-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/carta-domain-security.yml
@@ -70,7 +208,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.carta.com/api-platform/docs/introduction
+  url: https://docs.carta.com/api-platform/guides/getting-started/introduction
 - group: build
   title: ''
   type: GitHubOrg
@@ -96,17 +234,17 @@ common:
   type: X
   url: https://x.com/cartainc
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/carta/refs/heads/main/plans/carta-plans-pricing.yml
+  href: https://artifacts.apis.io/carta/plans/carta-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/carta-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/carta/refs/heads/main/rate-limits/carta-rate-limits.yml
+  href: https://artifacts.apis.io/carta/rate-limits/carta-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/carta-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/carta/refs/heads/main/finops/carta-finops.yml
+  href: https://artifacts.apis.io/carta/finops/carta-finops.yml
   title: ''
   type: FinOps
   url: finops/carta-finops.yml
@@ -121,6 +259,25 @@ finops:
   slug: carta-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carta.png
+json_schemas:
+- name: GetV1Alpha1IssuersIssueridTransactionsResponse
+  property_count: 1
+  slug: carta-get-v1-alpha1-issuers-issuerid-transactions-response
+- name: PostV1Alpha1InvestorsFirmsFirmidFundsFundidCapitalcallsReque
+  property_count: 4
+  slug: carta-post-v1-alpha1-investors-firms-firmid-funds-fundid-capitalcalls-reque
+- name: PostV1Alpha1InvestorsFirmsFirmidFundsFundidCapitalcallsRespo
+  property_count: 2
+  slug: carta-post-v1-alpha1-investors-firms-firmid-funds-fundid-capitalcalls-respo
+- name: PostV1Alpha1InvestorsFirmsFirmidFundsFundidManagementfeesReq
+  property_count: 4
+  slug: carta-post-v1-alpha1-investors-firms-firmid-funds-fundid-managementfees-req
+- name: PostV1Alpha1InvestorsFirmsFirmidFundsFundidManagementfeesRes
+  property_count: 1
+  slug: carta-post-v1-alpha1-investors-firms-firmid-funds-fundid-managementfees-res
+- name: PostV1Alpha1IssuersIssueridSecuritiesStocksplitchangesRespon
+  property_count: 3
+  slug: carta-post-v1-alpha1-issuers-issuerid-securities-stocksplitchanges-respon
 jsonld:
 - class_count: 10
   name: Carta Context
@@ -135,58 +292,82 @@ modified: '2026-06-13'
 name: Carta
 nav: Providers
 network: true
-overview: 'Carta is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Equity Management, Cap Table, 409A Valuations, Fund Administration, and Employee Equity.
+overview: 'Carta is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Equity Management, Cap Table, 409A Valuations, Fund Administration, and Employee Equity.
 
 
-  The Carta catalog on APIs.io includes 1 JSON-LD context.
+  The Carta catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Carta''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  Carta''s developer surface includes sandbox, authentication, API reference, getting-started guide, support, documentation, engineering blog, and 34 more developer resources.'
 plans:
 - name: Carta Plans Pricing
   plan_count: 3
   slug: carta-plans-pricing
-random_paper: 17
+random_paper: 19
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Carta Rate Limits
   slug: carta-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Carta API Rules
+  rule_count: 10
+  severity_counts:
+    error: 8
+    hint: 0
+    info: 1
+    warn: 1
+  slug: carta-rules
 score:
-  band: emerging
-  composite: 19.5
+  band: developing
+  composite: 49.9
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 51.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 64.0
+    artifact_dirs: 25
+    catalog_earned: 73.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
-    access_clarity: 26.3
-    contract_governance: 0.0
-    contract_quality: 10.7
-    developer_ergonomics: 7.1
+    access_clarity: 68.4
+    contract_governance: 22.0
+    contract_quality: 23.7
+    developer_ergonomics: 56.5
     discoverability: 73.3
-    operational_transparency: 21.1
-  previous_composite: 25.1
+    operational_transparency: 52.6
+  previous_composite: 49.9
   provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
     mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/carta/refs/heads/main/screenshots/carta-2026-06-20T174019.png
+screenshot: https://apis.io/screenshots/carta/carta-2026-06-20T174019.png
 security:
+- kind: authentication
+  name: Carta Authentication
+  slug: carta-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Carta Domain Security
   slug: carta-domain-security
@@ -195,6 +376,12 @@ security:
   name: Carta Trust Center
   slug: carta-trust-center
   summary_line: SOC 2, ISO 27001, GDPR
+skill_count: 2
+skills:
+- name: carta-book-capital-call
+  slug: carta-book-capital-call
+- name: carta-list-fund-investments
+  slug: carta-list-fund-investments
 slug: carta
 tags:
 - Equity Management

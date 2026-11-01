@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
+  score: 20.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -113,11 +115,8 @@ apis:
   description: The wellknownconfiguration.WellKnownService API from Virtru — 1 operation(s) for wellknownconfiguration.wellknownservice.
   name: Virtru Wellknownconfiguration.Well Known Service API
   slug: virtru-wellknownconfiguration-wellknownservice-api
-artifact_total: 34
+artifact_total: 38
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: authorization authorization.AuthorizationService API
   slug: open-virtru-authorization-authorizationservice-api
@@ -161,6 +160,11 @@ collections:
   name: authorization authorization.AuthorizationService wellknownconfiguration.WellKnownService API
   slug: open-virtru-wellknownconfiguration-wellknownservice-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/virtru/plans/virtru-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/virtru-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -170,7 +174,7 @@ common:
   type: BlogRSS
   url: https://www.virtru.com/newsroom/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/capabilities/virtru-capability-edges.yml
+  href: https://artifacts.apis.io/virtru/capabilities/virtru-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/virtru-capability-edges.yml
@@ -215,57 +219,57 @@ common:
   type: TermsOfService
   url: https://www.virtru.com/terms-of-service
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/packages/virtru-packages.yml
+  href: https://artifacts.apis.io/virtru/packages/virtru-packages.yml
   title: ''
   type: Packages
   url: packages/virtru-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/packages/virtru-packages.yml
+  href: https://artifacts.apis.io/virtru/packages/virtru-packages.yml
   title: ''
   type: SDKs
   url: packages/virtru-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/cli/virtru-cli.yml
+  href: https://artifacts.apis.io/virtru/cli/virtru-cli.yml
   title: ''
   type: CLI
   url: cli/virtru-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/authentication/virtru-authentication.yml
+  href: https://artifacts.apis.io/virtru/authentication/virtru-authentication.yml
   title: ''
   type: Authentication
   url: authentication/virtru-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/conventions/virtru-conventions.yml
+  href: https://artifacts.apis.io/virtru/conventions/virtru-conventions.yml
   title: ''
   type: Conventions
   url: conventions/virtru-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/errors/virtru-problem-types.yml
+  href: https://artifacts.apis.io/virtru/errors/virtru-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/virtru-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/lifecycle/virtru-lifecycle.yml
+  href: https://artifacts.apis.io/virtru/lifecycle/virtru-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/virtru-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/lifecycle/virtru-lifecycle.yml
+  href: https://artifacts.apis.io/virtru/lifecycle/virtru-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/virtru-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/changelog/virtru-changelog.yml
+  href: https://artifacts.apis.io/virtru/changelog/virtru-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/virtru-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/data-model/virtru-data-model.yml
+  href: https://artifacts.apis.io/virtru/data-model/virtru-data-model.yml
   title: ''
   type: DataModel
   url: data-model/virtru-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/conformance/virtru-conformance.yml
+  href: https://artifacts.apis.io/virtru/conformance/virtru-conformance.yml
   title: ''
   type: Conformance
   url: conformance/virtru-conformance.yml
@@ -274,52 +278,52 @@ common:
   type: Compliance
   url: https://trust.virtru.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/grpc/virtru-kas.proto
+  href: https://artifacts.apis.io/virtru/grpc/virtru-kas.proto
   title: ''
   type: Protobuf
   url: grpc/virtru-kas.proto
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/mcp/virtru-mcp.yml
+  href: https://artifacts.apis.io/virtru/mcp/virtru-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/virtru-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/llms/virtru-llms.txt
+  href: https://artifacts.apis.io/virtru/llms/virtru-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/virtru-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/virtru/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/overlays/virtru-kas-overlay.yaml
+  href: https://artifacts.apis.io/virtru/overlays/virtru-kas-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/virtru-kas-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/overlays/virtru-policy-attributes-overlay.yaml
+  href: https://artifacts.apis.io/virtru/overlays/virtru-policy-attributes-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/virtru-policy-attributes-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/well-known/virtru-well-known.yml
+  href: https://artifacts.apis.io/virtru/well-known/virtru-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/virtru-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/agentic-access/virtru-agentic-access.yml
+  href: https://artifacts.apis.io/virtru/agentic-access/virtru-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/virtru-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/security/virtru-trust-center.yml
+  href: https://artifacts.apis.io/virtru/security/virtru-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/virtru-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/security/virtru-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/virtru/security/virtru-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/virtru-vulnerability-disclosure.yml
@@ -328,12 +332,20 @@ common:
   type: Security
   url: https://www.virtru.com/responsible-disclosure/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/security/virtru-domain-security.yml
+  href: https://artifacts.apis.io/virtru/security/virtru-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/virtru-domain-security.yml
 created: '2026-07-17'
 description: Virtru is a data-centric security company whose Data Security Platform is built on OpenTDF, the open Trusted Data Format. Applications encrypt data with attribute-based access control (ABAC) and enforce who can decrypt it through Key Access Servers (KAS), independent of where the data travels — email, files, SaaS, and data pipelines. The platform exposes Connect-protocol (gRPC + HTTP/JSON) services for policy (namespaces, attributes, values, subject mappings), key access, authorization decisions, and entity resolution, authenticated with OIDC/OAuth 2.0. Virtru maintains the open-source OpenTDF project and ships SDKs for JavaScript, Go, and Java plus the otdfctl CLI. Backed by Bessemer Venture Partners and ICONIQ Capital.
+finops:
+- has_sources: true
+  method: derived
+  name: Virtru Finops
+  primary_unit: package (includes 5 users)
+  service_category: ''
+  slug: virtru-finops
+  template: false
 image: https://www.virtru.com/hubfs/assets/images/logos/virtru/logomark/blue/virtru_LOGOMARKMASTER_BLUE_FINAL.png
 layout: provider
 modified: '2026-10-06'
@@ -343,27 +355,34 @@ network: true
 overview: 'Virtru publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including authorization.AuthorizationService API, authorization.v2.AuthorizationService API, Entityresolution.v2.Entity Resolution Service API, and 11 more. Tagged areas include Company, Cybersecurity, Data Security, Encryption, and Access Control.
 
 
-  Virtru''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, CLI, authentication, and 30 more developer resources.'
-random_paper: 2
+  Virtru''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, CLI, authentication, and 31 more developer resources.'
+plans:
+- name: Virtru Plans Pricing
+  plan_count: 4
+  slug: virtru-plans-pricing
+- name: Virtru Price Estimates
+  plan_count: 0
+  slug: virtru-price-estimates
+random_paper: 12
 score:
-  band: developing
-  composite: 49.2
+  band: strong
+  composite: 57.4
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 26
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 47.4
+    access_clarity: 86.8
     contract_governance: 18.2
     contract_quality: 35.5
     developer_ergonomics: 68.5
-    discoverability: 78.6
-    operational_transparency: 36.8
-  previous_composite: 49.1
+    discoverability: 71.4
+    operational_transparency: 39.5
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -380,13 +399,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/screenshots/virtru-2026-08-17T082758.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/virtru/virtru-2026-08-17T082758.png
 security:
 - kind: authentication
   name: Virtru Authentication
@@ -404,6 +424,12 @@ security:
   name: Virtru Trust Center
   slug: virtru-trust-center
   summary_line: SOC 2, PCI DSS, HIPAA, FedRAMP, FIPS 140
+skill_count: 2
+skills:
+- name: Author an attribute-based access policy
+  slug: virtru-author-attribute-policy
+- name: Check an access decision and rewrap a key
+  slug: virtru-check-access-decision
 slug: virtru
 tags:
 - Company

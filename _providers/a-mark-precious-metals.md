@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: A-Mark's wholesale precious metals trading platform enables dealers and financial institutions to buy and sell gold, silver, platinum, and palladium bullion products. Offers spot, forward, and deferre
@@ -51,57 +53,57 @@ apis:
 artifact_total: 27
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/a-mark-precious-metals/refs/heads/main/well-known/a-mark-precious-metals-well-known.yml
+  href: https://artifacts.apis.io/a-mark-precious-metals/well-known/a-mark-precious-metals-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/a-mark-precious-metals-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/a-mark-precious-metals/refs/heads/main/authentication/a-mark-precious-metals-authentication.yml
+  href: https://artifacts.apis.io/a-mark-precious-metals/authentication/a-mark-precious-metals-authentication.yml
   title: ''
   type: Authentication
   url: authentication/a-mark-precious-metals-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/a-mark-precious-metals/refs/heads/main/scopes/a-mark-precious-metals-scopes.yml
+  href: https://artifacts.apis.io/a-mark-precious-metals/scopes/a-mark-precious-metals-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/a-mark-precious-metals-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/a-mark-precious-metals/refs/heads/main/conformance/a-mark-precious-metals-conformance.yml
+  href: https://artifacts.apis.io/a-mark-precious-metals/conformance/a-mark-precious-metals-conformance.yml
   title: ''
   type: Conformance
   url: conformance/a-mark-precious-metals-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/a-mark-precious-metals/refs/heads/main/conventions/a-mark-precious-metals-conventions.yml
+  href: https://artifacts.apis.io/a-mark-precious-metals/conventions/a-mark-precious-metals-conventions.yml
   title: ''
   type: Conventions
   url: conventions/a-mark-precious-metals-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/a-mark-precious-metals/refs/heads/main/lifecycle/a-mark-precious-metals-lifecycle.yml
+  href: https://artifacts.apis.io/a-mark-precious-metals/lifecycle/a-mark-precious-metals-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/a-mark-precious-metals-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/a-mark-precious-metals/refs/heads/main/packages/a-mark-precious-metals-packages.yml
+  href: https://artifacts.apis.io/a-mark-precious-metals/packages/a-mark-precious-metals-packages.yml
   title: ''
   type: Packages
   url: packages/a-mark-precious-metals-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/a-mark-precious-metals/refs/heads/main/llms/a-mark-precious-metals-llms.txt
+  href: https://artifacts.apis.io/a-mark-precious-metals/llms/a-mark-precious-metals-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/a-mark-precious-metals-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/a-mark-precious-metals/refs/heads/main/plans/a-mark-precious-metals-plans-pricing.yml
+  href: https://artifacts.apis.io/a-mark-precious-metals/plans/a-mark-precious-metals-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/a-mark-precious-metals-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/a-mark-precious-metals/refs/heads/main/rate-limits/a-mark-precious-metals-rate-limits.yml
+  href: https://artifacts.apis.io/a-mark-precious-metals/rate-limits/a-mark-precious-metals-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/a-mark-precious-metals-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/a-mark-precious-metals/refs/heads/main/finops/a-mark-precious-metals-finops.yml
+  href: https://artifacts.apis.io/a-mark-precious-metals/finops/a-mark-precious-metals-finops.yml
   title: ''
   type: FinOps
   url: finops/a-mark-precious-metals-finops.yml
@@ -118,7 +120,7 @@ common:
   type: PrivacyPolicy
   url: https://www.amark.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/a-mark-precious-metals/refs/heads/main/security/a-mark-precious-metals-domain-security.yml
+  href: https://artifacts.apis.io/a-mark-precious-metals/security/a-mark-precious-metals-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/a-mark-precious-metals-domain-security.yml
@@ -202,7 +204,7 @@ press:
 - date: ''
   title: Global Privacy Policy
   url: https://www.amark.com/privacy-policy/
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: A Mark Precious Metals Rate Limits
@@ -214,7 +216,7 @@ scopes:
   summary_line: 6 scopes
 score:
   band: emerging
-  composite: 21.6
+  composite: 22.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 35.0
@@ -222,15 +224,15 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 0.0
-  previous_composite: 23.1
+  previous_composite: 22.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -240,14 +242,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/a-mark-precious-metals/refs/heads/main/screenshots/a-mark-precious-metals-2026-06-20T162921.png
+screenshot: https://apis.io/screenshots/a-mark-precious-metals/a-mark-precious-metals-2026-06-20T162921.png
 security:
 - kind: authentication
   name: A Mark Precious Metals Authentication

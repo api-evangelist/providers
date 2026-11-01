@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.3
-  scored_at: '2026-10-17'
+  score: 33.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 89
   slug: eu-sovereign-cloud-api-agentic-access
   summary_line: 89 operations · 41 acting · 1 human-in-the-loop
-api_count: 24
+api_count: 12
 apis:
 - baseURL: https://demo.secapi.cloud/providers/seca.object-storage
   baseurl_source: spec
@@ -148,115 +150,115 @@ apis:
   description: Workspace management
   name: Sovereign European Cloud API (SECA) Workspace API
   slug: eu-sovereign-cloud-api-workspace-api
-artifact_total: 66
+artifact_total: 73
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/agentic-access/eu-sovereign-cloud-api-agentic-access.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/agentic-access/eu-sovereign-cloud-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eu-sovereign-cloud-api-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/rules/eu-sovereign-cloud-api-spec-spectral-rules.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/rules/eu-sovereign-cloud-api-spec-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/eu-sovereign-cloud-api-spec-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/rules/eu-sovereign-cloud-api-rules.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/rules/eu-sovereign-cloud-api-rules.yml
   title: ''
   type: Spectral
   url: rules/eu-sovereign-cloud-api-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/json-ld/eu-sovereign-cloud-api-context.jsonld
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/json-ld/eu-sovereign-cloud-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/eu-sovereign-cloud-api-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/vocabulary/eu-sovereign-cloud-api-vocabulary.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/vocabulary/eu-sovereign-cloud-api-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/eu-sovereign-cloud-api-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/data-model/eu-sovereign-cloud-api-data-model.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/data-model/eu-sovereign-cloud-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eu-sovereign-cloud-api-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/cli/eu-sovereign-cloud-api-cli.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/cli/eu-sovereign-cloud-api-cli.yml
   title: ''
   type: CLI
   url: cli/eu-sovereign-cloud-api-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/changelog/eu-sovereign-cloud-api-changelog.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/changelog/eu-sovereign-cloud-api-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/eu-sovereign-cloud-api-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/conventions/eu-sovereign-cloud-api-conventions.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/conventions/eu-sovereign-cloud-api-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/eu-sovereign-cloud-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/conventions/eu-sovereign-cloud-api-conventions.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/conventions/eu-sovereign-cloud-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eu-sovereign-cloud-api-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/lifecycle/eu-sovereign-cloud-api-lifecycle.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/lifecycle/eu-sovereign-cloud-api-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/eu-sovereign-cloud-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/lifecycle/eu-sovereign-cloud-api-lifecycle.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/lifecycle/eu-sovereign-cloud-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eu-sovereign-cloud-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/errors/eu-sovereign-cloud-api-problem-types.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/errors/eu-sovereign-cloud-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eu-sovereign-cloud-api-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/conformance/eu-sovereign-cloud-api-conformance.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/conformance/eu-sovereign-cloud-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eu-sovereign-cloud-api-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/overlays/eu-sovereign-cloud-api-extensions-activitylog-v1beta1-overlay.yaml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/overlays/eu-sovereign-cloud-api-extensions-activitylog-v1beta1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/eu-sovereign-cloud-api-extensions-activitylog-v1beta1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/hosts/eu-sovereign-cloud-api-hosts.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/hosts/eu-sovereign-cloud-api-hosts.yml
   title: ''
   type: Hosts
   url: hosts/eu-sovereign-cloud-api-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/vendors/eu-sovereign-cloud-api-vendors.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/vendors/eu-sovereign-cloud-api-vendors.yml
   title: ''
   type: Vendors
   url: vendors/eu-sovereign-cloud-api-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/packages/eu-sovereign-cloud-api-packages.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/packages/eu-sovereign-cloud-api-packages.yml
   title: ''
   type: SDKs
   url: packages/eu-sovereign-cloud-api-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/packages/eu-sovereign-cloud-api-packages.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/packages/eu-sovereign-cloud-api-packages.yml
   title: ''
   type: Packages
   url: packages/eu-sovereign-cloud-api-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/security/eu-sovereign-cloud-api-domain-security.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/security/eu-sovereign-cloud-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eu-sovereign-cloud-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/authentication/eu-sovereign-cloud-api-authentication.yml
+  href: https://artifacts.apis.io/eu-sovereign-cloud-api/authentication/eu-sovereign-cloud-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eu-sovereign-cloud-api-authentication.yml
@@ -430,7 +432,7 @@ plans:
 - name: Eu Sovereign Cloud Api Plans Pricing
   plan_count: 0
   slug: eu-sovereign-cloud-api-plans-pricing
-random_paper: 2
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Eu Sovereign Cloud Api Rate Limits
@@ -461,15 +463,15 @@ rules:
   slug: eu-sovereign-cloud-api-spec-spectral-rules
 score:
   band: developing
-  composite: 49.0
+  composite: 47.5
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 74.3
     catalog_earned_first_party: 18.0
     catalog_gap: 40.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 76.5
@@ -482,7 +484,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 42.5
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -499,13 +501,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/screenshots/eu-sovereign-cloud-api-2026-10-11T104313.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/eu-sovereign-cloud-api/eu-sovereign-cloud-api-2026-10-11T104313.png
 security:
 - kind: authentication
   name: Eu Sovereign Cloud Api Authentication
@@ -515,6 +518,22 @@ security:
   name: Eu Sovereign Cloud Api Domain Security
   slug: eu-sovereign-cloud-api-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 7
+skills:
+- name: seca-build-a-workspace-network
+  slug: eu-sovereign-cloud-api-seca-build-a-workspace-network
+- name: seca-create-a-workspace
+  slug: eu-sovereign-cloud-api-seca-create-a-workspace
+- name: seca-discover-regions
+  slug: eu-sovereign-cloud-api-seca-discover-regions
+- name: seca-grant-role-based-access
+  slug: eu-sovereign-cloud-api-seca-grant-role-based-access
+- name: seca-manage-instance-lifecycle
+  slug: eu-sovereign-cloud-api-seca-manage-instance-lifecycle
+- name: seca-provision-block-storage-and-image
+  slug: eu-sovereign-cloud-api-seca-provision-block-storage-and-image
+- name: seca-provision-kubernetes-cluster
+  slug: eu-sovereign-cloud-api-seca-provision-kubernetes-cluster
 slug: eu-sovereign-cloud-api
 tags:
 - Company

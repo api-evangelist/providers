@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Blender Python API (bpy) provides Python access to Blender's internal data, operators, and UI components. It enables developers to automate tasks, create addons, build custom tools, manipulate sce
@@ -45,22 +47,22 @@ apis:
 artifact_total: 32
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blender/refs/heads/main/plans/blender-plans-pricing.yml
+  href: https://artifacts.apis.io/blender/plans/blender-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blender-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blender/refs/heads/main/rate-limits/blender-rate-limits.yml
+  href: https://artifacts.apis.io/blender/rate-limits/blender-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blender-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blender/refs/heads/main/finops/blender-finops.yml
+  href: https://artifacts.apis.io/blender/finops/blender-finops.yml
   title: ''
   type: FinOps
   url: finops/blender-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blender/refs/heads/main/security/blender-domain-security.yml
+  href: https://artifacts.apis.io/blender/security/blender-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blender-domain-security.yml
@@ -121,12 +123,12 @@ common:
   type: PackageRegistry
   url: https://extensions.blender.org
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blender/refs/heads/main/rules/blender-spectral-rules.yml
+  href: https://artifacts.apis.io/blender/rules/blender-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/blender-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blender/refs/heads/main/vocabulary/blender-vocabulary.yaml
+  href: https://artifacts.apis.io/blender/vocabulary/blender-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/blender-vocabulary.yaml
@@ -158,7 +160,7 @@ finops:
 - has_sources: false
   method: generated
   name: Blender Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: blender-finops
   template: true
@@ -209,7 +211,7 @@ plans:
 - name: Blender Plans Pricing
   plan_count: 3
   slug: blender-plans-pricing
-random_paper: 6
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Blender Rate Limits
@@ -239,37 +241,37 @@ rules:
   slug: blender-spectral-rules
 score:
   band: thin
-  composite: 27.8
+  composite: 28.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 29.2
     developer_ergonomics: 38.1
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 29.3
+    operational_transparency: 28.9
+  previous_composite: 28.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/blender/refs/heads/main/screenshots/blender-2026-06-20T173348.png
+screenshot: https://apis.io/screenshots/blender/blender-2026-06-20T173348.png
 security:
 - kind: domain-security
   name: Blender Domain Security

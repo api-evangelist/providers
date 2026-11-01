@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-10-17'
+  score: 35.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -135,7 +137,7 @@ apis:
   description: The Zoopla API from Hometrack — 1 operation(s) for zoopla.
   name: Hometrack Zoopla API
   slug: hometrack-zoopla-api
-artifact_total: 28
+artifact_total: 33
 collections:
 - collection_type: open
   name: Hometrack API Public
@@ -157,17 +159,17 @@ collections:
   slug: open-hometrack-valuation-api-v1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/capabilities/hometrack-capability-edges.yml
+  href: https://artifacts.apis.io/hometrack/capabilities/hometrack-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hometrack-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/overlays/hometrack-broker-avm-api-overlay.yaml
+  href: https://artifacts.apis.io/hometrack/overlays/hometrack-broker-avm-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hometrack-broker-avm-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/overlays/hometrack-climate-graphql-api-overlay.yaml
+  href: https://artifacts.apis.io/hometrack/overlays/hometrack-climate-graphql-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hometrack-climate-graphql-api-overlay.yaml
@@ -180,7 +182,7 @@ common:
   type: ChangeLog
   url: https://developer.hometrack.com/api-changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/changelog/hometrack-changelog.yml
+  href: https://artifacts.apis.io/hometrack/changelog/hometrack-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hometrack-changelog.yml
@@ -193,87 +195,87 @@ common:
   type: Console
   url: https://developer.hometrack.com/apis
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/lifecycle/hometrack-lifecycle.yml
+  href: https://artifacts.apis.io/hometrack/lifecycle/hometrack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hometrack-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/conventions/hometrack-conventions.yml
+  href: https://artifacts.apis.io/hometrack/conventions/hometrack-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hometrack-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/errors/hometrack-problem-types.yml
+  href: https://artifacts.apis.io/hometrack/errors/hometrack-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hometrack-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/conformance/hometrack-conformance.yml
+  href: https://artifacts.apis.io/hometrack/conformance/hometrack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hometrack-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/well-known/hometrack-well-known.yml
+  href: https://artifacts.apis.io/hometrack/well-known/hometrack-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hometrack-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/scopes/hometrack-scopes.yml
+  href: https://artifacts.apis.io/hometrack/scopes/hometrack-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hometrack-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/data-model/hometrack-data-model.yml
+  href: https://artifacts.apis.io/hometrack/data-model/hometrack-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hometrack-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/components/hometrack-components.yml
+  href: https://artifacts.apis.io/hometrack/components/hometrack-components.yml
   title: ''
   type: Components
   url: components/hometrack-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/sandbox/hometrack-sandbox.yml
+  href: https://artifacts.apis.io/hometrack/sandbox/hometrack-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hometrack-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/packages/hometrack-packages.yml
+  href: https://artifacts.apis.io/hometrack/packages/hometrack-packages.yml
   title: ''
   type: Packages
   url: packages/hometrack-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/mcp/hometrack-mcp.yml
+  href: https://artifacts.apis.io/hometrack/mcp/hometrack-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hometrack-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/mcp/hometrack-tool-crosswalk.yml
+  href: https://artifacts.apis.io/hometrack/mcp/hometrack-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/hometrack-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hometrack/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/llms/hometrack-llms.txt
+  href: https://artifacts.apis.io/hometrack/llms/hometrack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hometrack-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/agentic-access/hometrack-agentic-access.yml
+  href: https://artifacts.apis.io/hometrack/agentic-access/hometrack-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hometrack-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/security/hometrack-domain-security.yml
+  href: https://artifacts.apis.io/hometrack/security/hometrack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hometrack-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/authentication/hometrack-authentication.yml
+  href: https://artifacts.apis.io/hometrack/authentication/hometrack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hometrack-authentication.yml
@@ -294,7 +296,7 @@ common:
   type: Authentication
   url: https://developer.hometrack.com/api-authentication
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/authentication/hometrack-auth0-openid-configuration.json
+  href: https://artifacts.apis.io/hometrack/authentication/hometrack-auth0-openid-configuration.json
   title: ''
   type: OpenIDConnectDiscovery
   url: authentication/hometrack-auth0-openid-configuration.json
@@ -363,7 +365,7 @@ overview: 'Hometrack publishes 18 API contracts indexed on the [APIs.io](https:/
 
 
   Hometrack''s developer surface includes API reference, changelog, developer console, sandbox, authentication, documentation, signup flow, and 36 more developer resources.'
-random_paper: 12
+random_paper: 22
 scopes:
 - name: Hometrack Scopes
   scope_count: 2
@@ -371,7 +373,7 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 45.3
+  composite: 46.5
   coverage:
     artifact_dirs: 24
     catalog_earned: 38.0
@@ -385,8 +387,8 @@ score:
     contract_governance: 18.2
     contract_quality: 46.6
     developer_ergonomics: 49.4
-    discoverability: 68.8
-    operational_transparency: 26.3
+    discoverability: 69.6
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -395,7 +397,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 45.3
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -412,13 +414,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/screenshots/hometrack-2026-08-07T170250.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hometrack/hometrack-2026-08-07T170250.png
 security:
 - kind: authentication
   name: Hometrack Authentication
@@ -428,6 +431,18 @@ security:
   name: Hometrack Domain Security
   slug: hometrack-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Order a broker AVM valuation and collect the result
+  slug: hometrack-broker-avm-order
+- name: Assemble a property climate-risk profile by UPRN
+  slug: hometrack-climate-risk-by-uprn
+- name: Instruct a property-risk case and collect its report
+  slug: hometrack-prh-instruction-to-report
+- name: Request and download a Property Valuation Report
+  slug: hometrack-property-valuation-report
+- name: Value a UK property with the Hometrack Valuation API
+  slug: hometrack-realtime-valuation
 slug: hometrack
 tags:
 - Real Estate

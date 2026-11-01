@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 39
   slug: steadily-agentic-access
   summary_line: 39 operations · 14 acting
-api_count: 4
+api_count: 3
 apis:
 - baseURL: https://api.steadily.com
   baseurl_source: declared
@@ -84,11 +86,8 @@ apis:
   description: Reporting on the referrals you've sent Steadily and the referral fees you've earned. The lead, account, and policy endpoints follow each referral through its lifetime. The summary views provide aggreg
   name: Steadily Reporting API
   slug: steadily-reporting-api
-artifact_total: 21
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Partner Account API
   slug: open-steadily-account-api
@@ -119,27 +118,27 @@ common:
   type: BlogRSS
   url: https://www.steadily.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/capabilities/steadily-capability-edges.yml
+  href: https://artifacts.apis.io/steadily/capabilities/steadily-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/steadily-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/overlays/steadily-estimate-api-overlay.yaml
+  href: https://artifacts.apis.io/steadily/overlays/steadily-estimate-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/steadily-estimate-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/authentication/steadily-authentication.yml
+  href: https://artifacts.apis.io/steadily/authentication/steadily-authentication.yml
   title: ''
   type: Authentication
   url: authentication/steadily-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/security/steadily-domain-security.yml
+  href: https://artifacts.apis.io/steadily/security/steadily-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/steadily-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/security/steadily-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/steadily/security/steadily-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/steadily-vulnerability-disclosure.yml
@@ -148,47 +147,47 @@ common:
   type: Security
   url: https://www.steadily.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/agentic-access/steadily-agentic-access.yml
+  href: https://artifacts.apis.io/steadily/agentic-access/steadily-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/steadily-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/conventions/steadily-conventions.yml
+  href: https://artifacts.apis.io/steadily/conventions/steadily-conventions.yml
   title: ''
   type: Conventions
   url: conventions/steadily-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/errors/steadily-problem-types.yml
+  href: https://artifacts.apis.io/steadily/errors/steadily-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/steadily-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/data-model/steadily-data-model.yml
+  href: https://artifacts.apis.io/steadily/data-model/steadily-data-model.yml
   title: ''
   type: DataModel
   url: data-model/steadily-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/mcp/steadily-mcp.yml
+  href: https://artifacts.apis.io/steadily/mcp/steadily-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/steadily-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/conformance/steadily-conformance.yml
+  href: https://artifacts.apis.io/steadily/conformance/steadily-conformance.yml
   title: ''
   type: Conformance
   url: conformance/steadily-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/lifecycle/steadily-lifecycle.yml
+  href: https://artifacts.apis.io/steadily/lifecycle/steadily-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/steadily-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/llms/steadily-llms.txt
+  href: https://artifacts.apis.io/steadily/llms/steadily-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/steadily-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/steadily/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -240,10 +239,10 @@ overview: 'Steadily publishes 8 API contracts indexed on the [APIs.io](https://a
 
 
   Steadily''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, and 19 more developer resources.'
-random_paper: 5
+random_paper: 23
 score:
   band: thin
-  composite: 35.4
+  composite: 37.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -256,10 +255,10 @@ score:
     access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 42.7
-    developer_ergonomics: 49.4
-    discoverability: 78.6
+    developer_ergonomics: 58.9
+    discoverability: 71.4
     operational_transparency: 10.5
-  previous_composite: 35.4
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,13 +275,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 23.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/screenshots/steadily-2026-09-02T160824.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/steadily/steadily-2026-09-02T160824.png
 security:
 - kind: authentication
   name: Steadily Authentication
@@ -296,6 +296,12 @@ security:
   name: Steadily Vulnerability Disclosure
   slug: steadily-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 2
+skills:
+- name: Steadily agency quote to offer
+  slug: steadily-agency-quote-to-offer
+- name: Steadily partner estimate and refer a lead
+  slug: steadily-partner-estimate-and-refer
 slug: steadily
 tags:
 - Company

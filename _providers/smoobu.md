@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: The authenticated Smoobu account.
   name: Smoobu User API
   slug: smoobu-user-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Smoobu Apartments API
   slug: open-smoobu-apartments-api
@@ -102,22 +101,22 @@ collections:
   slug: open-smoobu
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/capabilities/smoobu-capability-edges.yml
+  href: https://artifacts.apis.io/smoobu/capabilities/smoobu-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/smoobu-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/agentic-access/smoobu-agentic-access.yml
+  href: https://artifacts.apis.io/smoobu/agentic-access/smoobu-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/smoobu-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/security/smoobu-domain-security.yml
+  href: https://artifacts.apis.io/smoobu/security/smoobu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/smoobu-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/authentication/smoobu-authentication.yml
+  href: https://artifacts.apis.io/smoobu/authentication/smoobu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/smoobu-authentication.yml
@@ -134,17 +133,17 @@ common:
   type: Documentation
   url: https://docs.smoobu.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/plans/smoobu-plans-pricing.yml
+  href: https://artifacts.apis.io/smoobu/plans/smoobu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/smoobu-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/rate-limits/smoobu-rate-limits.yml
+  href: https://artifacts.apis.io/smoobu/rate-limits/smoobu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/smoobu-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/finops/smoobu-finops.yml
+  href: https://artifacts.apis.io/smoobu/finops/smoobu-finops.yml
   title: ''
   type: FinOps
   url: finops/smoobu-finops.yml
@@ -176,14 +175,14 @@ plans:
 - name: Smoobu Plans Pricing
   plan_count: 4
   slug: smoobu-plans-pricing
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Smoobu Rate Limits
   slug: smoobu-rate-limits
 score:
   band: thin
-  composite: 27.5
+  composite: 27.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 42.0
@@ -191,15 +190,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 53.6
+    contract_quality: 50.2
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 34.9
+  previous_composite: 27.4
   provenance:
     agentic_access: derived
     contracts:
@@ -213,13 +212,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/screenshots/smoobu-2026-09-02T155950.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/smoobu/smoobu-2026-09-02T155950.png
 security:
 - kind: authentication
   name: Smoobu Authentication

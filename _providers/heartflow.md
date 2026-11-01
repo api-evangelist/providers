@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Production REST API behind the Heartflow One platform, observed live at https://api.heartflow.net. Every probed route answers with the Django REST Framework challenge {"detail":"Authentication credent
@@ -44,12 +46,12 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/heartflow/refs/heads/main/security/heartflow-trust-center.yml
+  href: https://artifacts.apis.io/heartflow/security/heartflow-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/heartflow-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/heartflow/refs/heads/main/security/heartflow-domain-security.yml
+  href: https://artifacts.apis.io/heartflow/security/heartflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/heartflow-domain-security.yml
@@ -82,37 +84,37 @@ common:
   type: PrivacyPolicy
   url: https://www.heartflow.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/heartflow/refs/heads/main/conformance/heartflow-conformance.yml
+  href: https://artifacts.apis.io/heartflow/conformance/heartflow-conformance.yml
   title: ''
   type: Compliance
   url: conformance/heartflow-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/heartflow/refs/heads/main/conformance/heartflow-conformance.yml
+  href: https://artifacts.apis.io/heartflow/conformance/heartflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/heartflow-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/heartflow/refs/heads/main/plans/heartflow-plans-pricing.yml
+  href: https://artifacts.apis.io/heartflow/plans/heartflow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/heartflow-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/heartflow/refs/heads/main/rate-limits/heartflow-rate-limits.yml
+  href: https://artifacts.apis.io/heartflow/rate-limits/heartflow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/heartflow-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/heartflow/refs/heads/main/packages/heartflow-packages.yml
+  href: https://artifacts.apis.io/heartflow/packages/heartflow-packages.yml
   title: ''
   type: Packages
   url: packages/heartflow-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/heartflow/refs/heads/main/llms/heartflow-llms.txt
+  href: https://artifacts.apis.io/heartflow/llms/heartflow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/heartflow-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/heartflow/refs/heads/main/lifecycle/heartflow-lifecycle.yml
+  href: https://artifacts.apis.io/heartflow/lifecycle/heartflow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/heartflow-lifecycle.yml
@@ -148,29 +150,29 @@ plans:
 - name: Heartflow Plans Pricing
   plan_count: 0
   slug: heartflow-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Heartflow Rate Limits
   slug: heartflow-rate-limits
 score:
   band: emerging
-  composite: 20.1
+  composite: 21.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 66.1
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -178,7 +180,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 20.0
+  previous_composite: 21.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -198,14 +200,14 @@ score:
     regime: Health
     regime_id: health
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/heartflow/refs/heads/main/screenshots/heartflow-2026-09-02T145714.png
+screenshot: https://apis.io/screenshots/heartflow/heartflow-2026-09-02T145714.png
 security:
 - kind: authentication
   name: Heartflow Authentication

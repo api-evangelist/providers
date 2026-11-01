@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-10-17'
+  score: 29.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://diaspora.social/api/v1
@@ -108,11 +110,8 @@ apis:
   description: The Users API from Diaspora — 5 operation(s) for users.
   name: Diaspora Users API
   slug: diaspora-users-api
-artifact_total: 34
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: diaspora* Aspects API
   slug: open-diaspora-aspects-api
@@ -225,92 +224,92 @@ common:
   type: ChangeLog
   url: https://raw.githubusercontent.com/diaspora/diaspora/develop/Changelog.md
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/packages/diaspora-packages.yml
+  href: https://artifacts.apis.io/diaspora/packages/diaspora-packages.yml
   title: ''
   type: Packages
   url: packages/diaspora-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/well-known/diaspora-well-known.yml
+  href: https://artifacts.apis.io/diaspora/well-known/diaspora-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/diaspora-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/mcp/diaspora-mcp.yml
+  href: https://artifacts.apis.io/diaspora/mcp/diaspora-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/diaspora-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/llms/diaspora-llms.txt
+  href: https://artifacts.apis.io/diaspora/llms/diaspora-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/diaspora-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/overlays/diaspora-api-overlay.yaml
+  href: https://artifacts.apis.io/diaspora/overlays/diaspora-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/diaspora-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/conformance/diaspora-conformance.yml
+  href: https://artifacts.apis.io/diaspora/conformance/diaspora-conformance.yml
   title: ''
   type: Conformance
   url: conformance/diaspora-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/errors/diaspora-problem-types.yml
+  href: https://artifacts.apis.io/diaspora/errors/diaspora-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/diaspora-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/lifecycle/diaspora-lifecycle.yml
+  href: https://artifacts.apis.io/diaspora/lifecycle/diaspora-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/diaspora-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/lifecycle/diaspora-lifecycle.yml
+  href: https://artifacts.apis.io/diaspora/lifecycle/diaspora-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/diaspora-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/scopes/diaspora-scopes.yml
+  href: https://artifacts.apis.io/diaspora/scopes/diaspora-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/diaspora-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/authentication/diaspora-authentication.yml
+  href: https://artifacts.apis.io/diaspora/authentication/diaspora-authentication.yml
   title: ''
   type: Authentication
   url: authentication/diaspora-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/security/diaspora-domain-security.yml
+  href: https://artifacts.apis.io/diaspora/security/diaspora-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/diaspora-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/security/diaspora-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/diaspora/security/diaspora-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/diaspora-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/security/diaspora-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/diaspora/security/diaspora-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/diaspora-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/conventions/diaspora-conventions.yml
+  href: https://artifacts.apis.io/diaspora/conventions/diaspora-conventions.yml
   title: ''
   type: Conventions
   url: conventions/diaspora-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/changelog/diaspora-changelog.yml
+  href: https://artifacts.apis.io/diaspora/changelog/diaspora-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/diaspora-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/data-model/diaspora-data-model.yml
+  href: https://artifacts.apis.io/diaspora/data-model/diaspora-data-model.yml
   title: ''
   type: DataModel
   url: data-model/diaspora-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/diaspora/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -330,7 +329,7 @@ overview: 'Diaspora publishes 14 API contracts indexed on the [APIs.io](https://
 
 
   Diaspora''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 28 more developer resources.'
-random_paper: 15
+random_paper: 11
 scopes:
 - name: Diaspora Scopes
   scope_count: 16
@@ -338,7 +337,7 @@ scopes:
   summary_line: 16 scopes
 score:
   band: developing
-  composite: 42.3
+  composite: 41.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -346,15 +345,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
-    contract_quality: 51.8
+    contract_quality: 48.4
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 65.0
     operational_transparency: 39.5
-  previous_composite: 42.2
+  previous_composite: 41.3
   provenance:
     conformance: derived
     contracts:
@@ -370,13 +369,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/screenshots/diaspora-2026-07-25T211929.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/diaspora/diaspora-2026-07-25T211929.png
 security:
 - kind: authentication
   name: Diaspora Authentication
@@ -390,6 +390,16 @@ security:
   name: Diaspora Vulnerability Disclosure
   slug: diaspora-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 4
+skills:
+- name: diaspora-connect-to-a-pod
+  slug: diaspora-connect-to-a-pod
+- name: diaspora-manage-audience
+  slug: diaspora-manage-audience
+- name: diaspora-publish-a-post
+  slug: diaspora-publish-a-post
+- name: diaspora-read-and-engage
+  slug: diaspora-read-and-engage
 slug: diaspora
 tags:
 - Company

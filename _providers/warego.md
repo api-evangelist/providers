@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: WareGo agent-native content surface. A live, well-formed llms.txt provides a curated sitemap of product, feature, industry and guide pages for LLM discovery, and is currently the only machine-readable
@@ -36,32 +38,32 @@ common:
   type: Website
   url: https://www.warego.co/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/warego/refs/heads/main/security/warego-domain-security.yml
+  href: https://artifacts.apis.io/warego/security/warego-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/warego-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/warego/refs/heads/main/conformance/warego-conformance.yml
+  href: https://artifacts.apis.io/warego/conformance/warego-conformance.yml
   title: ''
   type: Conformance
   url: conformance/warego-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/warego/refs/heads/main/conformance/warego-conformance.yml
+  href: https://artifacts.apis.io/warego/conformance/warego-conformance.yml
   title: ''
   type: Compliance
   url: conformance/warego-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/warego/refs/heads/main/lifecycle/warego-lifecycle.yml
+  href: https://artifacts.apis.io/warego/lifecycle/warego-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/warego-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/warego/refs/heads/main/plans/warego-plans-pricing.yml
+  href: https://artifacts.apis.io/warego/plans/warego-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/warego-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/warego/refs/heads/main/rate-limits/warego-rate-limits.yml
+  href: https://artifacts.apis.io/warego/rate-limits/warego-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/warego-rate-limits.yml
@@ -123,7 +125,7 @@ plans:
 - name: Warego Plans Pricing
   plan_count: 0
   slug: warego-plans-pricing
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Warego Rate Limits
@@ -159,14 +161,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/warego/refs/heads/main/screenshots/warego-2026-10-11T193342.png
+screenshot: https://apis.io/screenshots/warego/warego-2026-10-11T193342.png
 security:
 - kind: domain-security
   name: Warego Domain Security

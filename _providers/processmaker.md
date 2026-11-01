@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -96,11 +98,8 @@ apis:
   description: User account management
   name: ProcessMaker Users API
   slug: processmaker-users-api
-artifact_total: 35
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ProcessMaker Platform RESTful Environment Variables API
   slug: open-processmaker-environment-variables-api
@@ -133,7 +132,7 @@ collections:
   slug: open-processmaker-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/capabilities/processmaker-capability-edges.yml
+  href: https://artifacts.apis.io/processmaker/capabilities/processmaker-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/processmaker-capability-edges.yml
@@ -150,17 +149,17 @@ common:
   type: License
   url: https://github.com/ProcessMaker/processmaker/blob/develop/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/agentic-access/processmaker-agentic-access.yml
+  href: https://artifacts.apis.io/processmaker/agentic-access/processmaker-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/processmaker-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/security/processmaker-domain-security.yml
+  href: https://artifacts.apis.io/processmaker/security/processmaker-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/processmaker-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/authentication/processmaker-authentication.yml
+  href: https://artifacts.apis.io/processmaker/authentication/processmaker-authentication.yml
   title: ''
   type: Authentication
   url: authentication/processmaker-authentication.yml
@@ -209,17 +208,17 @@ common:
   type: Pricing
   url: https://www.processmaker.com/products/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/plans/processmaker-plans-pricing.yml
+  href: https://artifacts.apis.io/processmaker/plans/processmaker-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/processmaker-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/rate-limits/processmaker-rate-limits.yml
+  href: https://artifacts.apis.io/processmaker/rate-limits/processmaker-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/processmaker-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/finops/processmaker-finops.yml
+  href: https://artifacts.apis.io/processmaker/finops/processmaker-finops.yml
   title: ''
   type: FinOps
   url: finops/processmaker-finops.yml
@@ -275,7 +274,7 @@ plans:
 - name: Processmaker Plans Pricing
   plan_count: 3
   slug: processmaker-plans-pricing
-random_paper: 19
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Processmaker Rate Limits
@@ -294,26 +293,23 @@ rules:
   slug: processmaker-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.3
+  composite: 33.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 54.3
     catalog_earned_first_party: 0.0
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.1
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 9.8
-    contract_quality: 56.4
-    developer_ergonomics: 26.2
+    contract_quality: 53.0
+    developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 21.1
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 35.4
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -327,13 +323,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/screenshots/processmaker-2026-06-20T192125.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/processmaker/processmaker-2026-06-20T192125.png
 security:
 - kind: authentication
   name: Processmaker Authentication

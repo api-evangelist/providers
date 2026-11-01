@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 9
 apis:
 - baseURL: https://trade.cex.io/api/spot/rest
@@ -74,67 +76,67 @@ apis:
 artifact_total: 13
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/rate-limits/cex-io-rate-limits.yml
+  href: https://artifacts.apis.io/cex-io/rate-limits/cex-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cex-io-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/rules/cex-io-rules.yml
+  href: https://artifacts.apis.io/cex-io/rules/cex-io-rules.yml
   title: ''
   type: Spectral
   url: rules/cex-io-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/vocabulary/cex-io-vocabulary.yml
+  href: https://artifacts.apis.io/cex-io/vocabulary/cex-io-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cex-io-vocabulary.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/authentication/cex-io-authentication.yml
+  href: https://artifacts.apis.io/cex-io/authentication/cex-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cex-io-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/errors/cex-io-problem-types.yml
+  href: https://artifacts.apis.io/cex-io/errors/cex-io-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cex-io-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/conformance/cex-io-conformance.yml
+  href: https://artifacts.apis.io/cex-io/conformance/cex-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cex-io-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/llms/cex-io-llms.txt
+  href: https://artifacts.apis.io/cex-io/llms/cex-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cex-io-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/well-known/cex-io-support-security.txt
+  href: https://artifacts.apis.io/cex-io/well-known/cex-io-support-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cex-io-support-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/well-known/cex-io-well-known.yml
+  href: https://artifacts.apis.io/cex-io/well-known/cex-io-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cex-io-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/hosts/cex-io-hosts.yml
+  href: https://artifacts.apis.io/cex-io/hosts/cex-io-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cex-io-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/vendors/cex-io-vendors.yml
+  href: https://artifacts.apis.io/cex-io/vendors/cex-io-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cex-io-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/packages/cex-io-packages.yml
+  href: https://artifacts.apis.io/cex-io/packages/cex-io-packages.yml
   title: ''
   type: SDKs
   url: packages/cex-io-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/packages/cex-io-packages.yml
+  href: https://artifacts.apis.io/cex-io/packages/cex-io-packages.yml
   title: ''
   type: Packages
   url: packages/cex-io-packages.yml
@@ -147,7 +149,7 @@ common:
   type: Leadership
   url: https://cex.io/team
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/security/cex-io-domain-security.yml
+  href: https://artifacts.apis.io/cex-io/security/cex-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cex-io-domain-security.yml
@@ -213,7 +215,7 @@ overview: 'CEX.IO is listed with 9 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   CEX.IO''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, engineering blog, and 19 more developer resources.'
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Cex Io Rate Limits
@@ -233,7 +235,7 @@ rules:
   slug: cex-io-rules
 score:
   band: developing
-  composite: 44.4
+  composite: 45.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 57.8
@@ -241,13 +243,15 @@ score:
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 22.0
     contract_quality: 47.1
     developer_ergonomics: 54.8
-    discoverability: 82.1
-    operational_transparency: 36.8
+    discoverability: 75.0
+    operational_transparency: 47.4
+  previous_composite: 45.7
   provenance:
     conformance: derived
     contracts:
@@ -262,11 +266,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Cex Io Authentication

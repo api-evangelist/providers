@@ -25,22 +25,24 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.9
-  scored_at: '2026-10-17'
+  score: 45.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Segment-compatible event tracking API for capturing B2B customer journey events. Server-side events are POSTed as a batch to the HTTP endpoint with HTTP Basic auth (source API key as username, empty p
   name: Dreamdata Event Tracking API
   slug: dreamdata-event-tracking-api
-artifact_total: 10
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Dreamdata Webhook Syncs
@@ -111,97 +113,105 @@ common:
   type: Security
   url: https://dreamdata.io/security/bounty-program
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/security/dreamdata-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dreamdata/security/dreamdata-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dreamdata-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/security/dreamdata-domain-security.yml
+  href: https://artifacts.apis.io/dreamdata/security/dreamdata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dreamdata-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/mcp/dreamdata-mcp.yml
+  href: https://artifacts.apis.io/dreamdata/mcp/dreamdata-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dreamdata-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/llms/dreamdata-llms.txt
+  href: https://artifacts.apis.io/dreamdata/llms/dreamdata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dreamdata-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/well-known/dreamdata-well-known.yml
+  href: https://artifacts.apis.io/dreamdata/well-known/dreamdata-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dreamdata-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/packages/dreamdata-packages.yml
+  href: https://artifacts.apis.io/dreamdata/packages/dreamdata-packages.yml
   title: ''
   type: Packages
   url: packages/dreamdata-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/packages/dreamdata-packages.yml
+  href: https://artifacts.apis.io/dreamdata/packages/dreamdata-packages.yml
   title: ''
   type: SDKs
   url: packages/dreamdata-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/authentication/dreamdata-authentication.yml
+  href: https://artifacts.apis.io/dreamdata/authentication/dreamdata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dreamdata-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/scopes/dreamdata-scopes.yml
+  href: https://artifacts.apis.io/dreamdata/scopes/dreamdata-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/dreamdata-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/conventions/dreamdata-conventions.yml
+  href: https://artifacts.apis.io/dreamdata/conventions/dreamdata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dreamdata-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/conformance/dreamdata-conformance.yml
+  href: https://artifacts.apis.io/dreamdata/conformance/dreamdata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dreamdata-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/asyncapi/dreamdata-webhook-syncs.yml
+  href: https://artifacts.apis.io/dreamdata/asyncapi/dreamdata-webhook-syncs.yml
   title: ''
   type: Webhooks
   url: asyncapi/dreamdata-webhook-syncs.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/data-model/dreamdata-data-model.yml
+  href: https://artifacts.apis.io/dreamdata/data-model/dreamdata-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dreamdata-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/lifecycle/dreamdata-lifecycle.yml
+  href: https://artifacts.apis.io/dreamdata/lifecycle/dreamdata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dreamdata-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/errors/dreamdata-error-codes.yml
+  href: https://artifacts.apis.io/dreamdata/errors/dreamdata-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/dreamdata-error-codes.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/plans/dreamdata-plans-pricing.yml
+  href: https://artifacts.apis.io/dreamdata/plans/dreamdata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dreamdata-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/rate-limits/dreamdata-rate-limits.yml
+  href: https://artifacts.apis.io/dreamdata/rate-limits/dreamdata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dreamdata-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dreamdata/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Dreamdata is a B2B revenue attribution and go-to-market data platform founded in 2018 in Copenhagen. It connects every marketing and sales touchpoint — from anonymous web visits and ad clicks to CRM opportunities and closed-won revenue — into one clean, account-based customer journey data model. The platform delivers multi-touch attribution, pipeline and revenue analytics, AI-powered audience building, and activation that syncs audiences to ad networks and downstream tools. For developers Dreamdata exposes a Segment-compatible event tracking API (client-side JavaScript and a server-side HTTP batch endpoint), a data warehouse model, outbound webhook syncs, first-party Node.js and Go SDKs, and a hosted remote MCP server secured with OAuth 2.1 PKCE for agent access.
+finops:
+- has_sources: true
+  method: derived
+  name: Dreamdata Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: dreamdata-finops
+  template: false
 image: http://static1.squarespace.com/static/60880c8985e48a388d33bd16/t/6821cbca7c756751d5f1473a/1748866920123/Activation+and+Attribution+for+B2B+Marketing.png?format=1500w
 layout: provider
 mcp_servers:
@@ -223,7 +233,7 @@ plans:
 - name: Dreamdata Plans Pricing
   plan_count: 2
   slug: dreamdata-plans-pricing
-random_paper: 7
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Dreamdata Rate Limits
@@ -235,23 +245,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.2
+  composite: 59.2
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 45.0
+    artifact_dirs: 22
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 81.6
+    access_clarity: 89.5
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 28.9
-  previous_composite: 57.2
+    discoverability: 65.0
+    operational_transparency: 39.5
+  previous_composite: 57.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -266,14 +276,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/screenshots/dreamdata-2026-07-25T212356.png
+screenshot: https://apis.io/screenshots/dreamdata/dreamdata-2026-07-25T212356.png
 security:
 - kind: authentication
   name: Dreamdata Authentication
@@ -291,6 +301,16 @@ security:
   name: Dreamdata Trust Center
   slug: dreamdata-trust-center
   summary_line: SOC 2 Type II, GDPR, US Privacy
+skill_count: 4
+skills:
+- name: Build a Dreamdata report from scratch and save it
+  slug: dreamdata-build-and-save-report
+- name: Find in-market accounts and read their Dreamdata journey
+  slug: dreamdata-find-accounts-and-journeys
+- name: Run and drill into Dreamdata Analytics Hub reports
+  slug: dreamdata-run-and-drill-reports
+- name: Send server-side events to Dreamdata
+  slug: dreamdata-track-server-side-events
 slug: dreamdata
 tags:
 - Company

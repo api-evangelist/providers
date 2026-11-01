@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -48,11 +50,8 @@ apis:
   description: The Projects API from OneUptime — 9 operation(s) for projects.
   name: OneUptime Projects API
   slug: oneuptime-projects-api
-artifact_total: 10
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OneUptime Projects API
   slug: open-oneuptime-projects-api
@@ -61,27 +60,27 @@ collections:
   slug: open-oneuptime
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/plans/oneuptime-plans-pricing.yml
+  href: https://artifacts.apis.io/oneuptime/plans/oneuptime-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/oneuptime-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/rate-limits/oneuptime-rate-limits.yml
+  href: https://artifacts.apis.io/oneuptime/rate-limits/oneuptime-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/oneuptime-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/finops/oneuptime-finops.yml
+  href: https://artifacts.apis.io/oneuptime/finops/oneuptime-finops.yml
   title: ''
   type: FinOps
   url: finops/oneuptime-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/capabilities/oneuptime-capability-edges.yml
+  href: https://artifacts.apis.io/oneuptime/capabilities/oneuptime-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/oneuptime-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/vendor-facets/oneuptime-vendor-facets.yml
+  href: https://artifacts.apis.io/oneuptime/vendor-facets/oneuptime-vendor-facets.yml
   title: ''
   type: VendorFacets
   url: vendor-facets/oneuptime-vendor-facets.yml
@@ -110,17 +109,17 @@ common:
   type: License
   url: https://github.com/OneUptime/oneuptime/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/agentic-access/oneuptime-agentic-access.yml
+  href: https://artifacts.apis.io/oneuptime/agentic-access/oneuptime-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/oneuptime-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/security/oneuptime-trust-center.yml
+  href: https://artifacts.apis.io/oneuptime/security/oneuptime-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/oneuptime-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/security/oneuptime-domain-security.yml
+  href: https://artifacts.apis.io/oneuptime/security/oneuptime-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oneuptime-domain-security.yml
@@ -150,7 +149,7 @@ finops:
 - has_sources: false
   method: generated
   name: Oneuptime Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: oneuptime-finops
   template: true
@@ -168,14 +167,14 @@ plans:
 - name: Oneuptime Plans Pricing
   plan_count: 3
   slug: oneuptime-plans-pricing
-random_paper: 14
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Oneuptime Rate Limits
   slug: oneuptime-rate-limits
 score:
-  band: thin
-  composite: 30.2
+  band: emerging
+  composite: 23.6
   coverage:
     artifact_dirs: 13
     catalog_earned: 28.0
@@ -183,18 +182,15 @@ score:
     catalog_gap: 87.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 38.6
     developer_ergonomics: 11.9
     discoverability: 39.3
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 31.5
+    operational_transparency: 39.5
+  previous_composite: 23.6
   provenance:
     agentic_access: derived
     contracts:
@@ -208,13 +204,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/screenshots/oneuptime-2026-06-20T190719.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/oneuptime/oneuptime-2026-06-20T190719.png
 security:
 - kind: domain-security
   name: Oneuptime Domain Security

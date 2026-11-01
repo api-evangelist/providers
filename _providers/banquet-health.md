@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -32,17 +34,17 @@ common:
   type: Compliance
   url: https://www.banquethealth.com/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banquet-health/refs/heads/main/conformance/banquet-health-conformance.yml
+  href: https://artifacts.apis.io/banquet-health/conformance/banquet-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/banquet-health-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/banquet-health/refs/heads/main/hosts/banquet-health-hosts.yml
+  href: https://artifacts.apis.io/banquet-health/hosts/banquet-health-hosts.yml
   title: ''
   type: Hosts
   url: hosts/banquet-health-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/banquet-health/refs/heads/main/vendors/banquet-health-vendors.yml
+  href: https://artifacts.apis.io/banquet-health/vendors/banquet-health-vendors.yml
   title: ''
   type: Vendors
   url: vendors/banquet-health-vendors.yml
@@ -51,12 +53,12 @@ common:
   type: Security
   url: https://www.banquethealth.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/banquet-health/refs/heads/main/security/banquet-health-trust-center.yml
+  href: https://artifacts.apis.io/banquet-health/security/banquet-health-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/banquet-health-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/banquet-health/refs/heads/main/security/banquet-health-domain-security.yml
+  href: https://artifacts.apis.io/banquet-health/security/banquet-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/banquet-health-domain-security.yml
@@ -100,7 +102,7 @@ overview: 'Banquet Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Banquet Health''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
-random_paper: 19
+random_paper: 11
 score:
   band: emerging
   composite: 19.1
@@ -133,14 +135,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/banquet-health/refs/heads/main/screenshots/banquet-health-2026-10-11T101531.png
+screenshot: https://apis.io/screenshots/banquet-health/banquet-health-2026-10-11T101531.png
 security:
 - kind: domain-security
   name: Banquet Health Domain Security

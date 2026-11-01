@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,10 +54,10 @@ apis:
 - description: A Universal Commerce Protocol shopping service exposed over MCP (JSON-RPC 2.0) on Fnatic's own shop host, advertised in Fnatic's /.well-known/ucp merchant profile and in its own /agents.md. The profil
   name: Fnatic Shop UCP Commerce MCP Endpoint
   slug: ucp-mcp
-artifact_total: 7
+artifact_total: 11
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/security/fnatic-domain-security.yml
+  href: https://artifacts.apis.io/fnatic/security/fnatic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fnatic-domain-security.yml
@@ -68,82 +70,82 @@ common:
   type: Documentation
   url: https://shop.fnatic.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/llms/fnatic-llms.txt
+  href: https://artifacts.apis.io/fnatic/llms/fnatic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fnatic-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/well-known/fnatic-well-known.yml
+  href: https://artifacts.apis.io/fnatic/well-known/fnatic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fnatic-well-known.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/graphql/fnatic-storefront.graphql
+  href: https://artifacts.apis.io/fnatic/graphql/fnatic-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/fnatic-storefront.graphql
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/mcp/fnatic-mcp.yml
+  href: https://artifacts.apis.io/fnatic/mcp/fnatic-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/fnatic-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/mcp/fnatic-tool-crosswalk.yml
+  href: https://artifacts.apis.io/fnatic/mcp/fnatic-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/fnatic-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/authentication/fnatic-authentication.yml
+  href: https://artifacts.apis.io/fnatic/authentication/fnatic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fnatic-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/scopes/fnatic-scopes.yml
+  href: https://artifacts.apis.io/fnatic/scopes/fnatic-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fnatic-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/conventions/fnatic-conventions.yml
+  href: https://artifacts.apis.io/fnatic/conventions/fnatic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fnatic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/conventions/fnatic-conventions.yml
+  href: https://artifacts.apis.io/fnatic/conventions/fnatic-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/fnatic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/errors/fnatic-problem-types.yml
+  href: https://artifacts.apis.io/fnatic/errors/fnatic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fnatic-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/lifecycle/fnatic-lifecycle.yml
+  href: https://artifacts.apis.io/fnatic/lifecycle/fnatic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fnatic-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/conformance/fnatic-conformance.yml
+  href: https://artifacts.apis.io/fnatic/conformance/fnatic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fnatic-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/data-model/fnatic-data-model.yml
+  href: https://artifacts.apis.io/fnatic/data-model/fnatic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fnatic-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fnatic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/agentic-access/fnatic-agentic-access.yml
+  href: https://artifacts.apis.io/fnatic/agentic-access/fnatic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fnatic-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/packages/fnatic-packages.yml
+  href: https://artifacts.apis.io/fnatic/packages/fnatic-packages.yml
   title: ''
   type: Packages
   url: packages/fnatic-packages.yml
@@ -264,7 +266,7 @@ overview: 'Fnatic is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Fnatic''s developer surface includes documentation, authentication, support, engineering blog, signup flow, YouTube channel, and 38 more developer resources.'
-random_paper: 13
+random_paper: 5
 scopes:
 - name: Fnatic Scopes
   scope_count: 4
@@ -272,7 +274,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.4
+  composite: 27.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -280,14 +282,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 10.4
     developer_ergonomics: 30.4
-    discoverability: 75.0
-    operational_transparency: 2.6
+    discoverability: 65.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -296,7 +298,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 28.3
+  previous_composite: 27.8
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -308,14 +310,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/screenshots/fnatic-2026-08-07T165400.png
+screenshot: https://apis.io/screenshots/fnatic/fnatic-2026-08-07T165400.png
 security:
 - kind: authentication
   name: Fnatic Authentication
@@ -325,6 +327,16 @@ security:
   name: Fnatic Domain Security
   slug: fnatic-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: Answer a Fnatic Shop policy or content question
+  slug: fnatic-answer-store-policy
+- name: Build a Fnatic Shop cart and hand off to checkout
+  slug: fnatic-build-cart-and-checkout
+- name: Authenticate a Fnatic Shop customer and read their orders
+  slug: fnatic-customer-account
+- name: Find Fnatic gear, apparel and merch
+  slug: fnatic-find-gear
 slug: fnatic
 tags:
 - Company

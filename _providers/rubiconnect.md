@@ -17,15 +17,17 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.8
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 43.0
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: Hosted MCP server exposing 18 tools for messaging, templates, campaigns, agents, analytics, and media. Auth via OAuth 2.0/PKCE or API key.
   name: RubiConnect MCP Server
@@ -50,14 +52,14 @@ apis:
   description: The Webhooks API from RubiConnect — 1 operation(s) for webhooks.
   name: RubiConnect Webhooks API
   slug: rubiconnect-webhooks-api
-artifact_total: 12
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Rubiconnect Webhooks
   slug: rubiconnect-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/overlays/rubiconnect-openapi-overlay.yaml
+  href: https://artifacts.apis.io/rubiconnect/overlays/rubiconnect-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rubiconnect-openapi-overlay.yaml
@@ -66,72 +68,72 @@ common:
   type: Website
   url: https://www.rubiconnect.com/en
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/security/rubiconnect-domain-security.yml
+  href: https://artifacts.apis.io/rubiconnect/security/rubiconnect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rubiconnect-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/authentication/rubiconnect-authentication.yml
+  href: https://artifacts.apis.io/rubiconnect/authentication/rubiconnect-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rubiconnect-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/well-known/rubiconnect-well-known.yml
+  href: https://artifacts.apis.io/rubiconnect/well-known/rubiconnect-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rubiconnect-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/llms/rubiconnect-llms.txt
+  href: https://artifacts.apis.io/rubiconnect/llms/rubiconnect-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rubiconnect-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/packages/rubiconnect-packages.yml
+  href: https://artifacts.apis.io/rubiconnect/packages/rubiconnect-packages.yml
   title: ''
   type: Packages
   url: packages/rubiconnect-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/scopes/rubiconnect-scopes.yml
+  href: https://artifacts.apis.io/rubiconnect/scopes/rubiconnect-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/rubiconnect-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/conformance/rubiconnect-conformance.yml
+  href: https://artifacts.apis.io/rubiconnect/conformance/rubiconnect-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rubiconnect-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/errors/rubiconnect-problem-types.yml
+  href: https://artifacts.apis.io/rubiconnect/errors/rubiconnect-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rubiconnect-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/data-model/rubiconnect-data-model.yml
+  href: https://artifacts.apis.io/rubiconnect/data-model/rubiconnect-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rubiconnect-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/conventions/rubiconnect-conventions.yml
+  href: https://artifacts.apis.io/rubiconnect/conventions/rubiconnect-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rubiconnect-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/lifecycle/rubiconnect-lifecycle.yml
+  href: https://artifacts.apis.io/rubiconnect/lifecycle/rubiconnect-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rubiconnect-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rubiconnect/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/plans/rubiconnect-plans-pricing.yml
+  href: https://artifacts.apis.io/rubiconnect/plans/rubiconnect-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rubiconnect-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/rate-limits/rubiconnect-rate-limits.yml
+  href: https://artifacts.apis.io/rubiconnect/rate-limits/rubiconnect-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rubiconnect-rate-limits.yml
@@ -177,7 +179,7 @@ plans:
 - name: Rubiconnect Plans Pricing
   plan_count: 0
   slug: rubiconnect-plans-pricing
-random_paper: 14
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Rubiconnect Rate Limits
@@ -189,7 +191,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: thin
-  composite: 36.5
+  composite: 36.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 35.0
@@ -203,9 +205,9 @@ score:
     contract_governance: 4.5
     contract_quality: 54.1
     developer_ergonomics: 25.6
-    discoverability: 65.0
+    discoverability: 61.7
     operational_transparency: 13.2
-  previous_composite: 36.5
+  previous_composite: 36.9
   provenance:
     conformance: derived
     contracts:
@@ -221,13 +223,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 40.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/screenshots/rubiconnect-2026-10-11T125452.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rubiconnect/rubiconnect-2026-10-11T125452.png
 security:
 - kind: authentication
   name: Rubiconnect Authentication
@@ -237,6 +240,12 @@ security:
   name: Rubiconnect Domain Security
   slug: rubiconnect-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: launch-broadcast-campaign
+  slug: rubiconnect-run-campaign
+- name: send-rcs-or-whatsapp-message
+  slug: rubiconnect-send-message
 slug: rubiconnect
 tags:
 - CPaaS

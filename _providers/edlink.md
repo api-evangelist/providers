@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,11 +62,8 @@ apis:
   description: OAuth 2.0 and OpenID Connect single sign-on.
   name: Edlink SSO API
   slug: edlink-sso-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Edlink Agents API
   slug: open-edlink-agents-api
@@ -106,22 +105,22 @@ collections:
   slug: open-edlink
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/capabilities/edlink-capability-edges.yml
+  href: https://artifacts.apis.io/edlink/capabilities/edlink-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/edlink-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/agentic-access/edlink-agentic-access.yml
+  href: https://artifacts.apis.io/edlink/agentic-access/edlink-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/edlink-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/security/edlink-domain-security.yml
+  href: https://artifacts.apis.io/edlink/security/edlink-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/edlink-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/authentication/edlink-authentication.yml
+  href: https://artifacts.apis.io/edlink/authentication/edlink-authentication.yml
   title: ''
   type: Authentication
   url: authentication/edlink-authentication.yml
@@ -146,17 +145,17 @@ common:
   type: Documentation
   url: https://ed.link/docs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/plans/edlink-plans-pricing.yml
+  href: https://artifacts.apis.io/edlink/plans/edlink-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/edlink-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/rate-limits/edlink-rate-limits.yml
+  href: https://artifacts.apis.io/edlink/rate-limits/edlink-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/edlink-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/finops/edlink-finops.yml
+  href: https://artifacts.apis.io/edlink/finops/edlink-finops.yml
   title: ''
   type: FinOps
   url: finops/edlink-finops.yml
@@ -184,14 +183,14 @@ plans:
 - name: Edlink Plans Pricing
   plan_count: 3
   slug: edlink-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Edlink Rate Limits
   slug: edlink-rate-limits
 score:
   band: thin
-  composite: 26.3
+  composite: 27.3
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.0
@@ -199,15 +198,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 48.8
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 34.6
+    operational_transparency: 13.2
+  previous_composite: 27.3
   provenance:
     agentic_access: derived
     contracts:
@@ -221,13 +220,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/screenshots/edlink-2026-07-25T212853.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/edlink/edlink-2026-07-25T212853.png
 security:
 - kind: authentication
   name: Edlink Authentication

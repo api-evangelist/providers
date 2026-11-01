@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,19 +22,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.9
-  scored_at: '2026-10-17'
+  score: 5.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The versioned REST API behind FastShip, Cloud Commerce''s cross-border e-commerce logistics platform. Discovered live at openapi.fastship.co: GET /api/v2 returns "Welcome to API Version 2.0" and POST /'
@@ -42,8 +44,23 @@ apis:
   slug: fastship-open-api
 artifact_total: 5
 common:
+- group: agent
+  href: https://artifacts.apis.io/cloud-commerce/llms/cloud-commerce-kollab-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/cloud-commerce-kollab-llms.txt
+- group: other
+  href: https://artifacts.apis.io/cloud-commerce/hosts/cloud-commerce-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/cloud-commerce-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/cloud-commerce/vendors/cloud-commerce-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/cloud-commerce-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloud-commerce/refs/heads/main/security/cloud-commerce-domain-security.yml
+  href: https://artifacts.apis.io/cloud-commerce/security/cloud-commerce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloud-commerce-domain-security.yml
@@ -52,32 +69,27 @@ common:
   type: Website
   url: https://cloudcommerce.co
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloud-commerce/refs/heads/main/llms/cloud-commerce-llms.txt
+  href: https://artifacts.apis.io/cloud-commerce/llms/cloud-commerce-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cloud-commerce-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloud-commerce/refs/heads/main/plans/cloud-commerce-plans-pricing.yml
+  href: https://artifacts.apis.io/cloud-commerce/plans/cloud-commerce-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloud-commerce-plans-pricing.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cloud-commerce/refs/heads/main/packages/cloud-commerce-packages.yml
-  title: ''
-  type: Packages
-  url: packages/cloud-commerce-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cloud-commerce/refs/heads/main/rate-limits/cloud-commerce-rate-limits.yml
+  href: https://artifacts.apis.io/cloud-commerce/rate-limits/cloud-commerce-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cloud-commerce-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloud-commerce/refs/heads/main/conventions/cloud-commerce-conventions.yml
+  href: https://artifacts.apis.io/cloud-commerce/conventions/cloud-commerce-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cloud-commerce-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloud-commerce/refs/heads/main/lifecycle/cloud-commerce-lifecycle.yml
+  href: https://artifacts.apis.io/cloud-commerce/lifecycle/cloud-commerce-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cloud-commerce-lifecycle.yml
@@ -107,10 +119,6 @@ common:
   url: https://app.fastship.co/login
 - group: commercial
   title: ''
-  type: TermsOfService
-  url: https://fastship.co/terms/
-- group: commercial
-  title: ''
   type: PrivacyPolicy
   url: https://fastship.co/privacy-policy/
 coverage:
@@ -119,8 +127,6 @@ coverage:
   evidence:
   - status: 200
     url: https://openapi.fastship.co/api/v2
-  - status: 401
-    url: https://openapi.fastship.co/api/v2/login
   - status: 200
     url: https://fastship.co/api
   - status: 0
@@ -142,34 +148,34 @@ network: true
 overview: 'Cloud Commerce is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Logistics, Marketplace, and Influencer Marketing.
 
 
-  Cloud Commerce''s developer surface includes support, engineering blog, signup flow, and 13 more developer resources.'
+  Cloud Commerce''s developer surface includes support, engineering blog, signup flow, and 14 more developer resources.'
 plans:
 - name: Cloud Commerce Plans Pricing
   plan_count: 0
   slug: cloud-commerce-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Cloud Commerce Rate Limits
   slug: cloud-commerce-rate-limits
 score:
   band: emerging
-  composite: 25.3
+  composite: 22.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 23.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 73.2
-    operational_transparency: 28.9
+    discoverability: 66.1
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -177,7 +183,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 25.2
+  previous_composite: 22.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -186,24 +192,24 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 20.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cloud-commerce/refs/heads/main/screenshots/cloud-commerce-2026-07-25T205652.png
+screenshot: https://apis.io/screenshots/cloud-commerce/cloud-commerce-2026-07-25T205652.png
 security:
 - kind: authentication
   name: Cloud Commerce Authentication
   slug: cloud-commerce-authentication
-  summary_line: 0 schemes
+  summary_line: 1 scheme
 - kind: domain-security
   name: Cloud Commerce Domain Security
   slug: cloud-commerce-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: cloud-commerce
 tags:
 - Company

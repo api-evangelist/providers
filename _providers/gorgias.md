@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.4
-  scored_at: '2026-10-17'
+  score: 25.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -111,15 +113,12 @@ apis:
   description: The Widgets API from Gorgias — 2 operation(s) for widgets.
   name: Gorgias Widgets API
   slug: gorgias-widgets-api
-artifact_total: 36
+artifact_total: 35
 asyncapis:
 - description: Best-effort AsyncAPI 2.6 description of the Gorgias webhook surface, delivered through Gorgias HTTP Integrations. When the configured triggers fire inside a Gorgias account, Gorgias performs an HTTP r
   name: Gorgias Webhooks (HTTP Integrations)
   slug: gorgias-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Gorgias REST Account API
   slug: open-gorgias-account-api
@@ -164,37 +163,37 @@ collections:
   slug: open-gorgias
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/capabilities/gorgias-capability-edges.yml
+  href: https://artifacts.apis.io/gorgias/capabilities/gorgias-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gorgias-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/vendor-facets/gorgias-vendor-facets.yml
+  href: https://artifacts.apis.io/gorgias/vendor-facets/gorgias-vendor-facets.yml
   title: ''
   type: VendorFacets
   url: vendor-facets/gorgias-vendor-facets.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/agentic-access/gorgias-agentic-access.yml
+  href: https://artifacts.apis.io/gorgias/agentic-access/gorgias-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gorgias-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/security/gorgias-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/gorgias/security/gorgias-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gorgias-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/security/gorgias-domain-security.yml
+  href: https://artifacts.apis.io/gorgias/security/gorgias-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gorgias-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/authentication/gorgias-authentication.yml
+  href: https://artifacts.apis.io/gorgias/authentication/gorgias-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gorgias-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/scopes/gorgias-scopes.yml
+  href: https://artifacts.apis.io/gorgias/scopes/gorgias-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/gorgias-scopes.yml
@@ -257,7 +256,7 @@ overview: 'Gorgias publishes 14 API contracts indexed on the [APIs.io](https://a
 
 
   Gorgias'' developer surface includes authentication, engineering blog, documentation, pricing, signup flow, changelog, and 12 more developer resources.'
-random_paper: 0
+random_paper: 4
 rules:
 - authorship: generated
   effective_rule_count: 32
@@ -277,8 +276,8 @@ scopes:
   slug: gorgias-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: thin
-  composite: 38.9
+  band: developing
+  composite: 41.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 35.8
@@ -286,15 +285,15 @@ score:
     catalog_gap: 79.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 11.4
-    contract_quality: 53.0
-    developer_ergonomics: 28.6
+    contract_quality: 50.0
+    developer_ergonomics: 40.5
     discoverability: 64.3
-    operational_transparency: 26.3
-  previous_composite: 38.8
+    operational_transparency: 47.4
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -308,13 +307,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/screenshots/gorgias-2026-06-20T182307.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gorgias/gorgias-2026-06-20T182307.png
 security:
 - kind: authentication
   name: Gorgias Authentication

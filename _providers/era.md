@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,80 +25,82 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-10-17'
+  score: 28.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Era''s remote Model Context Protocol server. Connect bank accounts to any MCP-compatible AI agent and manage money through natural conversation: spending analysis, cash-flow forecasting, transaction au'
   name: Era Context MCP Server
   slug: era-context-mcp-server
-artifact_total: 8
+artifact_total: 14
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/era/refs/heads/main/mcp/era-mcp.yml
+  href: https://artifacts.apis.io/era/mcp/era-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/era-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/era/refs/heads/main/llms/era-llms.txt
+  href: https://artifacts.apis.io/era/llms/era-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/era-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/era/refs/heads/main/well-known/era-well-known.yml
+  href: https://artifacts.apis.io/era/well-known/era-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/era-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/era/refs/heads/main/well-known/era-api-catalog.json
+  href: https://artifacts.apis.io/era/well-known/era-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/era-api-catalog.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/era/refs/heads/main/well-known/era-security.txt
+  href: https://artifacts.apis.io/era/well-known/era-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/era-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/era/refs/heads/main/authentication/era-authentication.yml
+  href: https://artifacts.apis.io/era/authentication/era-authentication.yml
   title: ''
   type: Authentication
   url: authentication/era-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/era/refs/heads/main/scopes/era-scopes.yml
+  href: https://artifacts.apis.io/era/scopes/era-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/era-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/era/refs/heads/main/conventions/era-conventions.yml
+  href: https://artifacts.apis.io/era/conventions/era-conventions.yml
   title: ''
   type: Conventions
   url: conventions/era-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/era/refs/heads/main/conformance/era-conformance.yml
+  href: https://artifacts.apis.io/era/conformance/era-conformance.yml
   title: ''
   type: Conformance
   url: conformance/era-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/era/refs/heads/main/plans/era-plans.yml
+  href: https://artifacts.apis.io/era/plans/era-plans.yml
   title: ''
   type: Plans
   url: plans/era-plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/era/refs/heads/main/rate-limits/era-rate-limits.yml
+  href: https://artifacts.apis.io/era/rate-limits/era-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/era-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/era/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/era/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -107,12 +109,12 @@ common:
   type: Security
   url: https://era.app/context/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/era/refs/heads/main/security/era-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/era/security/era-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/era-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/era/refs/heads/main/security/era-domain-security.yml
+  href: https://artifacts.apis.io/era/security/era-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/era-domain-security.yml
@@ -158,6 +160,14 @@ common:
   url: https://era.app
 created: '2026-07-17'
 description: Era is an AI-native personal finance platform that connects a user's bank accounts to any MCP-compatible AI assistant — Claude, ChatGPT, Gemini, Cursor, and others — so people can analyze spending, forecast cash flow, automate transaction categorization, and manage money through natural conversation. Every capability is exposed through the Era Context remote MCP server (65 tools over Streamable HTTP, OAuth 2.1) rather than a traditional REST API, with a portable cross-agent memory layer, scoped consent, and hard safety boundaries. Founded in 2023 by Stripe alumni and backed by Northzone, Era is a registered investment adviser targeting the mass-affluent market across the US, UK, and Canada.
+finops:
+- has_sources: true
+  method: derived
+  name: Era Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: era-finops
+  template: false
 image: https://era.app/social-card.png
 layout: provider
 mcp_servers:
@@ -176,7 +186,10 @@ plans:
 - name: Era Plans
   plan_count: 4
   slug: era-plans
-random_paper: 4
+- name: Era Price Estimates
+  plan_count: 0
+  slug: era-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Era Rate Limits
@@ -188,23 +201,23 @@ scopes:
   summary_line: 10 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.3
+  composite: 42.2
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 61.0
+    artifact_dirs: 16
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 54.2
-    discoverability: 75.0
-    operational_transparency: 44.7
-  previous_composite: 41.2
+    discoverability: 65.0
+    operational_transparency: 47.4
+  previous_composite: 40.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -215,14 +228,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 35.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/era/refs/heads/main/screenshots/era-2026-07-25T213555.png
+screenshot: https://apis.io/screenshots/era/era-2026-07-25T213555.png
 security:
 - kind: authentication
   name: Era Authentication
@@ -236,6 +249,16 @@ security:
   name: Era Vulnerability Disclosure
   slug: era-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 4
+skills:
+- name: Automate transaction categorization with rules
+  slug: era-automate-categorization
+- name: Connect a bank account and analyze spending
+  slug: era-connect-and-analyze-spending
+- name: Set up portable cross-agent financial memory
+  slug: era-cross-agent-memory
+- name: Find forgotten recurring subscriptions
+  slug: era-find-forgotten-subscriptions
 slug: era
 tags:
 - Company

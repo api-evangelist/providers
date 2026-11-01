@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.3
-  scored_at: '2026-10-17'
+  score: 31.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 60
   slug: independence-blue-cross-agentic-access
   summary_line: 60 operations
-api_count: 5
+api_count: 4
 apis:
 - description: 'Monthly machine-readable JSON files published under 45 CFR Part Â§147.211 / the Transparency in Coverage rule for three carrier brands operated by Independence Blue Cross: Keystone Health Plan East, Q'
   name: Independence Blue Cross Transparency In Coverage Data
@@ -62,7 +64,7 @@ apis:
   description: Public Da Vinci Plan-Net FHIR R4 provider directory resources.
   name: Independence Blue Cross Provider Directory API
   slug: independence-blue-cross-provider-directory-api
-artifact_total: 69
+artifact_total: 71
 collections:
 - collection_type: postman
   name: Independence Blue Cross Drug FHIR Formulary API
@@ -73,9 +75,6 @@ collections:
 - collection_type: postman
   name: Independence Blue Cross Drug FHIR Formulary Provider Directory API
   slug: postman-independence-blue-cross-provider-directory-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Independence Blue Cross Drug FHIR Formulary API
   slug: open-independence-blue-cross-formulary-api
@@ -96,62 +95,62 @@ collections:
   slug: open-independence-blue-cross-provider
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/rules/independence-blue-cross-rules.yml
+  href: https://artifacts.apis.io/independence-blue-cross/rules/independence-blue-cross-rules.yml
   title: ''
   type: Spectral
   url: rules/independence-blue-cross-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/rules/independence-blue-cross-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/independence-blue-cross/rules/independence-blue-cross-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/independence-blue-cross-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/json-ld/independence-blue-cross-context.jsonld
+  href: https://artifacts.apis.io/independence-blue-cross/json-ld/independence-blue-cross-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/independence-blue-cross-context.jsonld
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/lifecycle/independence-blue-cross-lifecycle.yml
+  href: https://artifacts.apis.io/independence-blue-cross/lifecycle/independence-blue-cross-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/independence-blue-cross-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/hosts/independence-blue-cross-hosts.yml
+  href: https://artifacts.apis.io/independence-blue-cross/hosts/independence-blue-cross-hosts.yml
   title: ''
   type: Hosts
   url: hosts/independence-blue-cross-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/vendors/independence-blue-cross-vendors.yml
+  href: https://artifacts.apis.io/independence-blue-cross/vendors/independence-blue-cross-vendors.yml
   title: ''
   type: Vendors
   url: vendors/independence-blue-cross-vendors.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/capabilities/independence-blue-cross-capability-edges.yml
+  href: https://artifacts.apis.io/independence-blue-cross/capabilities/independence-blue-cross-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/independence-blue-cross-capability-edges.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/openapi/_original/independence-blue-cross-cms-swagger.json
+  href: https://artifacts.apis.io/independence-blue-cross/openapi/_original/independence-blue-cross-cms-swagger.json
   title: ''
   type: Swagger
   url: openapi/_original/independence-blue-cross-cms-swagger.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/llms/independence-blue-cross-llms.txt
+  href: https://artifacts.apis.io/independence-blue-cross/llms/independence-blue-cross-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/independence-blue-cross-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/well-known/independence-blue-cross-well-known.yml
+  href: https://artifacts.apis.io/independence-blue-cross/well-known/independence-blue-cross-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/independence-blue-cross-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/mcp/independence-blue-cross-mcp.yml
+  href: https://artifacts.apis.io/independence-blue-cross/mcp/independence-blue-cross-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/independence-blue-cross-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/conformance/independence-blue-cross-conformance.yml
+  href: https://artifacts.apis.io/independence-blue-cross/conformance/independence-blue-cross-conformance.yml
   title: ''
   type: Conformance
   url: conformance/independence-blue-cross-conformance.yml
@@ -160,32 +159,32 @@ common:
   type: Compliance
   url: https://www.ibx.com/privacy-policy/hipaa-compliance.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/errors/independence-blue-cross-problem-types.yml
+  href: https://artifacts.apis.io/independence-blue-cross/errors/independence-blue-cross-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/independence-blue-cross-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/lifecycle/independence-blue-cross-lifecycle.yml
+  href: https://artifacts.apis.io/independence-blue-cross/lifecycle/independence-blue-cross-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/independence-blue-cross-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/conventions/independence-blue-cross-conventions.yml
+  href: https://artifacts.apis.io/independence-blue-cross/conventions/independence-blue-cross-conventions.yml
   title: ''
   type: Conventions
   url: conventions/independence-blue-cross-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/data-model/independence-blue-cross-data-model.yml
+  href: https://artifacts.apis.io/independence-blue-cross/data-model/independence-blue-cross-data-model.yml
   title: ''
   type: DataModel
   url: data-model/independence-blue-cross-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/sandbox/independence-blue-cross-sandbox.yml
+  href: https://artifacts.apis.io/independence-blue-cross/sandbox/independence-blue-cross-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/independence-blue-cross-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/independence-blue-cross/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -198,32 +197,32 @@ common:
   type: Support
   url: https://www.ibx.com/contact-us/index.html
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/examples/independence-blue-cross-patient-read-example.json
+  href: https://artifacts.apis.io/independence-blue-cross/examples/independence-blue-cross-patient-read-example.json
   title: ''
   type: Examples
   url: examples/independence-blue-cross-patient-read-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/examples/independence-blue-cross-coverage-search-example.json
+  href: https://artifacts.apis.io/independence-blue-cross/examples/independence-blue-cross-coverage-search-example.json
   title: ''
   type: Examples
   url: examples/independence-blue-cross-coverage-search-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/examples/independence-blue-cross-explanation-of-benefit-search-example.json
+  href: https://artifacts.apis.io/independence-blue-cross/examples/independence-blue-cross-explanation-of-benefit-search-example.json
   title: ''
   type: Examples
   url: examples/independence-blue-cross-explanation-of-benefit-search-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/examples/independence-blue-cross-practitioner-search-example.json
+  href: https://artifacts.apis.io/independence-blue-cross/examples/independence-blue-cross-practitioner-search-example.json
   title: ''
   type: Examples
   url: examples/independence-blue-cross-practitioner-search-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/examples/independence-blue-cross-organization-search-example.json
+  href: https://artifacts.apis.io/independence-blue-cross/examples/independence-blue-cross-organization-search-example.json
   title: ''
   type: Examples
   url: examples/independence-blue-cross-organization-search-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/examples/independence-blue-cross-medication-knowledge-search-example.json
+  href: https://artifacts.apis.io/independence-blue-cross/examples/independence-blue-cross-medication-knowledge-search-example.json
   title: ''
   type: Examples
   url: examples/independence-blue-cross-medication-knowledge-search-example.json
@@ -232,22 +231,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/independence-blue-cross/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/agentic-access/independence-blue-cross-agentic-access.yml
+  href: https://artifacts.apis.io/independence-blue-cross/agentic-access/independence-blue-cross-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/independence-blue-cross-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/security/independence-blue-cross-domain-security.yml
+  href: https://artifacts.apis.io/independence-blue-cross/security/independence-blue-cross-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/independence-blue-cross-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/authentication/independence-blue-cross-authentication.yml
+  href: https://artifacts.apis.io/independence-blue-cross/authentication/independence-blue-cross-authentication.yml
   title: ''
   type: Authentication
   url: authentication/independence-blue-cross-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/scopes/independence-blue-cross-scopes.yml
+  href: https://artifacts.apis.io/independence-blue-cross/scopes/independence-blue-cross-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/independence-blue-cross-scopes.yml
@@ -360,32 +359,32 @@ common:
   type: AntiFraud
   url: https://www.ibx.com/anti-fraud
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/plans/independence-blue-cross-plans-pricing.yml
+  href: https://artifacts.apis.io/independence-blue-cross/plans/independence-blue-cross-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/independence-blue-cross-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/rate-limits/independence-blue-cross-rate-limits.yml
+  href: https://artifacts.apis.io/independence-blue-cross/rate-limits/independence-blue-cross-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/independence-blue-cross-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/finops/independence-blue-cross-finops.yml
+  href: https://artifacts.apis.io/independence-blue-cross/finops/independence-blue-cross-finops.yml
   title: ''
   type: FinOps
   url: finops/independence-blue-cross-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/vocabulary/independence-blue-cross-vocabulary.yml
+  href: https://artifacts.apis.io/independence-blue-cross/vocabulary/independence-blue-cross-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/independence-blue-cross-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/json-ld/independence-blue-cross-context.jsonld
+  href: https://artifacts.apis.io/independence-blue-cross/json-ld/independence-blue-cross-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/independence-blue-cross-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/json-structure/independence-blue-cross-health-plan-structure.json
+  href: https://artifacts.apis.io/independence-blue-cross/json-structure/independence-blue-cross-health-plan-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/independence-blue-cross-health-plan-structure.json
@@ -506,7 +505,7 @@ plans:
 - name: Independence Blue Cross Plans Pricing
   plan_count: 5
   slug: independence-blue-cross-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Independence Blue Cross Rate Limits
@@ -540,8 +539,8 @@ scopes:
   slug: independence-blue-cross-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: developing
-  composite: 54.0
+  band: strong
+  composite: 55.1
   coverage:
     artifact_dirs: 35
     catalog_earned: 70.5
@@ -549,15 +548,15 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.5
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 31.8
     contract_quality: 58.8
-    developer_ergonomics: 57.7
-    discoverability: 78.6
+    developer_ergonomics: 60.1
+    discoverability: 71.4
     operational_transparency: 15.8
-  previous_composite: 62.5
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -574,14 +573,14 @@ score:
     regime: Health
     regime_id: health
     score: 47.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/screenshots/independence-blue-cross-2026-06-20T183313.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/independence-blue-cross/independence-blue-cross-2026-06-20T183313.png
 security:
 - kind: authentication
   name: Independence Blue Cross Authentication
@@ -591,6 +590,14 @@ security:
   name: Independence Blue Cross Domain Security
   slug: independence-blue-cross-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: independence-blue-cross-check-drug-coverage
+  slug: independence-blue-cross-check-drug-coverage
+- name: independence-blue-cross-find-in-network-provider
+  slug: independence-blue-cross-find-in-network-provider
+- name: independence-blue-cross-member-health-record-access
+  slug: independence-blue-cross-member-health-record-access
 slug: independence-blue-cross
 solutions:
 - description: Group commercial coverage for individuals, families, small and mid-sized businesses, large employers, municipalities, unions, and education boards in southeastern Pennsylvania.

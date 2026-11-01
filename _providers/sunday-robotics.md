@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +59,7 @@ common:
   type: PrivacyPolicy
   url: https://www.sunday.ai/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sunday-robotics/refs/heads/main/security/sunday-robotics-domain-security.yml
+  href: https://artifacts.apis.io/sunday-robotics/security/sunday-robotics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sunday-robotics-domain-security.yml
@@ -73,7 +75,7 @@ overview: 'Sunday Robotics is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Sunday Robotics'' developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 12
+random_paper: 14
 score:
   band: emerging
   composite: 11.4
@@ -84,7 +86,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -92,21 +94,21 @@ score:
     developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 11.7
+  previous_composite: 11.4
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sunday-robotics/refs/heads/main/screenshots/sunday-robotics-2026-09-02T161208.png
+screenshot: https://apis.io/screenshots/sunday-robotics/sunday-robotics-2026-09-02T161208.png
 security:
 - kind: domain-security
   name: Sunday Robotics Domain Security

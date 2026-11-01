@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,17 +24,19 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-17'
+  score: 31.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 4
   slug: amazon-cloud-wan-agentic-access
   summary_line: 4 operations · 2 acting
-api_count: 2
+api_count: 18
 apis:
 - description: API for building and managing global wide area networks, connecting branch offices, data centers, and VPCs with centralized control, monitoring, and network policy automation.
   name: Amazon Cloud WAN API
@@ -52,37 +54,123 @@ apis:
   description: Operations for managing Cloud WAN core networks
   name: Amazon Cloud WAN Core Networks API
   slug: amazon-cloud-wan-core-networks-api
-artifact_total: 42
+- baseURL: https://networkmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Wan Connect Peer Associations API from Amazon Cloud WAN — 2 operation(s) for cloud wan connect peer associations.
+  name: Amazon Cloud WAN Cloud Wan Connect Peer Associations API
+  slug: amazon-cloud-wan-connect-peer-associations-api
+- baseURL: https://networkmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Wan Connect Peers API from Amazon Cloud WAN — 2 operation(s) for cloud wan connect peers.
+  name: Amazon Cloud WAN Cloud Wan Connect Peers API
+  slug: amazon-cloud-wan-connect-peers-api
+- baseURL: https://networkmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Wan Connections API from Amazon Cloud WAN — 2 operation(s) for cloud wan connections.
+  name: Amazon Cloud WAN Cloud Wan Connections API
+  slug: amazon-cloud-wan-connections-api
+- baseURL: https://networkmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Wan Customer Gateway Associations API from Amazon Cloud WAN — 2 operation(s) for cloud wan customer gateway associations.
+  name: Amazon Cloud WAN Cloud Wan Customer Gateway Associations API
+  slug: amazon-cloud-wan-customer-gateway-associations-api
+- baseURL: https://networkmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Wan Devices API from Amazon Cloud WAN — 2 operation(s) for cloud wan devices.
+  name: Amazon Cloud WAN Cloud Wan Devices API
+  slug: amazon-cloud-wan-devices-api
+- baseURL: https://networkmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Wan Direct Connect Gateway Attachments API from Amazon Cloud WAN — 2 operation(s) for cloud wan direct connect gateway attachments.
+  name: Amazon Cloud WAN Cloud Wan Direct Connect Gateway Attachments API
+  slug: amazon-cloud-wan-direct-connect-gateway-attachments-api
+- baseURL: https://networkmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Wan Global Networks API from Amazon Cloud WAN — 2 operation(s) for cloud wan global networks.
+  name: Amazon Cloud WAN Cloud Wan Global Networks API
+  slug: amazon-cloud-wan-global-networks-api
+- baseURL: https://networkmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Wan Link Associations API from Amazon Cloud WAN — 1 operation(s) for cloud wan link associations.
+  name: Amazon Cloud WAN Cloud Wan Link Associations API
+  slug: amazon-cloud-wan-link-associations-api
+- baseURL: https://networkmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Wan Links API from Amazon Cloud WAN — 2 operation(s) for cloud wan links.
+  name: Amazon Cloud WAN Cloud Wan Links API
+  slug: amazon-cloud-wan-links-api
+- baseURL: https://networkmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Wan Operations API from Amazon Cloud WAN — 38 operation(s) for cloud wan operations.
+  name: Amazon Cloud WAN Cloud Wan Operations API
+  slug: amazon-cloud-wan-operations-api
+- baseURL: https://networkmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Wan Resource Policy API from Amazon Cloud WAN — 1 operation(s) for cloud wan resource policy.
+  name: Amazon Cloud WAN Cloud Wan Resource Policy API
+  slug: amazon-cloud-wan-resource-policy-api
+- baseURL: https://networkmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Wan Sites API from Amazon Cloud WAN — 2 operation(s) for cloud wan sites.
+  name: Amazon Cloud WAN Cloud Wan Sites API
+  slug: amazon-cloud-wan-sites-api
+- baseURL: https://networkmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Wan Tags API from Amazon Cloud WAN — 1 operation(s) for cloud wan tags.
+  name: Amazon Cloud WAN Cloud Wan Tags API
+  slug: amazon-cloud-wan-tags-api
+- baseURL: https://networkmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Wan Transit Gateway Connect Peer Associations API from Amazon Cloud WAN — 2 operation(s) for cloud wan transit gateway connect peer associations.
+  name: Amazon Cloud WAN Cloud Wan Transit Gateway Connect Peer Associations API
+  slug: amazon-cloud-wan-transit-gateway-connect-peer-associations-api
+- baseURL: https://networkmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Wan Transit Gateway Registrations API from Amazon Cloud WAN — 2 operation(s) for cloud wan transit gateway registrations.
+  name: Amazon Cloud WAN Cloud Wan Transit Gateway Registrations API
+  slug: amazon-cloud-wan-transit-gateway-registrations-api
+- baseURL: https://networkmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Wan Vpc Attachments API from Amazon Cloud WAN — 2 operation(s) for cloud wan vpc attachments.
+  name: Amazon Cloud WAN Cloud Wan Vpc Attachments API
+  slug: amazon-cloud-wan-vpc-attachments-api
+artifact_total: 59
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Cloud WAN Core Networks API
   slug: open-amazon-cloud-wan-core-networks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/amazon-cloud-wan/plans/amazon-cloud-wan-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-cloud-wan-plans-pricing.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-cloud-wan/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/agentic-access/amazon-cloud-wan-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-cloud-wan/agentic-access/amazon-cloud-wan-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-cloud-wan-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/security/amazon-cloud-wan-trust-center.yml
+  href: https://artifacts.apis.io/amazon-cloud-wan/security/amazon-cloud-wan-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-cloud-wan-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/security/amazon-cloud-wan-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-cloud-wan/security/amazon-cloud-wan-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-cloud-wan-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/security/amazon-cloud-wan-domain-security.yml
+  href: https://artifacts.apis.io/amazon-cloud-wan/security/amazon-cloud-wan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-cloud-wan-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/authentication/amazon-cloud-wan-authentication.yml
+  href: https://artifacts.apis.io/amazon-cloud-wan/authentication/amazon-cloud-wan-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-cloud-wan-authentication.yml
@@ -147,32 +235,32 @@ common:
   type: Compliance
   url: https://aws.amazon.com/compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/rules/amazon-cloud-wan-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-cloud-wan/rules/amazon-cloud-wan-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-cloud-wan-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/vocabulary/amazon-cloud-wan-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-cloud-wan/vocabulary/amazon-cloud-wan-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-cloud-wan-vocabulary.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/packages/amazon-cloud-wan-packages.yml
+  href: https://artifacts.apis.io/amazon-cloud-wan/packages/amazon-cloud-wan-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-cloud-wan-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/well-known/amazon-cloud-wan-well-known.yml
+  href: https://artifacts.apis.io/amazon-cloud-wan/well-known/amazon-cloud-wan-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-cloud-wan-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/well-known/amazon-cloud-wan-security.txt
+  href: https://artifacts.apis.io/amazon-cloud-wan/well-known/amazon-cloud-wan-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-cloud-wan-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/llms/amazon-cloud-wan-llms.txt
+  href: https://artifacts.apis.io/amazon-cloud-wan/llms/amazon-cloud-wan-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-cloud-wan-llms.txt
@@ -208,6 +296,14 @@ features:
   name: Network Segmentation
 - description: Connect branch offices, data centers, and VPCs with minimal configuration globally.
   name: Global Connectivity
+finops:
+- has_sources: true
+  method: derived
+  name: Amazon Cloud Wan Finops
+  primary_unit: attachment per hour
+  service_category: ''
+  slug: amazon-cloud-wan-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-cloud-wan.png
 integrations:
 - description: Connect VPCs and on-premises networks through Transit Gateway attachments.
@@ -266,13 +362,17 @@ modified: '2026-06-20'
 name: Amazon Cloud WAN
 nav: Providers
 network: true
-overview: 'Amazon Cloud WAN is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including Core Networks API, and 1 more. Tagged areas include Cloud WAN, Networking, Wide Area Network, and SD-WAN.
+overview: 'Amazon Cloud WAN is listed with 18 APIs on the [APIs.io](https://apis.io/) network, including Core Networks API, Cloud Wan Connect Peer Associations API, Cloud Wan Connect Peers API, and 15 more. Tagged areas include Cloud WAN, Networking, Wide Area Network, and SD-WAN.
 
 
   The Amazon Cloud WAN catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Cloud WAN''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
+  Amazon Cloud WAN''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 21 more developer resources.'
+plans:
+- name: Amazon Cloud Wan Plans Pricing
+  plan_count: 5
+  slug: amazon-cloud-wan-plans-pricing
 random_paper: 13
 rules:
 - authorship: generated
@@ -299,32 +399,32 @@ rules:
     warn: 10
   slug: amazon-cloud-wan-spectral-rules
 score:
-  band: developing
-  composite: 44.2
+  band: strong
+  composite: 65.9
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    artifact_dirs: 26
+    catalog_earned: 67.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 8.4
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 31.8
-    contract_quality: 20.9
-    developer_ergonomics: 59.5
-    discoverability: 64.3
-    operational_transparency: 18.4
-  previous_composite: 44.1
+    contract_quality: 56.6
+    developer_ergonomics: 72.6
+    discoverability: 62.5
+    operational_transparency: 31.6
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 2
-      marker_coverage: 100.0
-      total: 2
+      derived: 1
+      marker_coverage: 94.4
+      total: 18
     mcp: derived
   regulatory:
     applies: true
@@ -332,13 +432,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/screenshots/amazon-cloud-wan-2026-07-25T195941.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-cloud-wan/amazon-cloud-wan-2026-07-25T195941.png
 security:
 - kind: authentication
   name: Amazon Cloud Wan Authentication

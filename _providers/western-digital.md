@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -80,11 +82,8 @@ apis:
   description: User account information.
   name: western-digital User API
   slug: western-digital-user-api
-artifact_total: 30
+artifact_total: 29
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: WD My Cloud Home Authentication API
   slug: open-western-digital-authentication-api
@@ -110,33 +109,37 @@ collections:
   name: WD My Cloud Home Authentication User API
   slug: open-western-digital-user-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/western-digital/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/plans/western-digital-plans-pricing.yml
+  href: https://artifacts.apis.io/western-digital/plans/western-digital-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/western-digital-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/rate-limits/western-digital-rate-limits.yml
+  href: https://artifacts.apis.io/western-digital/rate-limits/western-digital-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/western-digital-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/finops/western-digital-finops.yml
+  href: https://artifacts.apis.io/western-digital/finops/western-digital-finops.yml
   title: ''
   type: FinOps
   url: finops/western-digital-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/agentic-access/western-digital-agentic-access.yml
+  href: https://artifacts.apis.io/western-digital/agentic-access/western-digital-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/western-digital-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/security/western-digital-domain-security.yml
+  href: https://artifacts.apis.io/western-digital/security/western-digital-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/western-digital-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/authentication/western-digital-authentication.yml
+  href: https://artifacts.apis.io/western-digital/authentication/western-digital-authentication.yml
   title: ''
   type: Authentication
   url: authentication/western-digital-authentication.yml
@@ -188,7 +191,7 @@ finops:
 - has_sources: false
   method: generated
   name: Western Digital Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: western-digital-finops
   template: true
@@ -220,7 +223,7 @@ overview: 'Western Digital publishes 7 API contracts indexed on the [APIs.io](ht
   The Western Digital catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Western Digital''s developer surface includes authentication, developer portal, documentation, GitHub presence, engineering blog, and 10 more developer resources.'
+  Western Digital''s developer surface includes authentication, developer portal, documentation, GitHub presence, engineering blog, and 11 more developer resources.'
 plans:
 - name: Western Digital Plans Pricing
   plan_count: 3
@@ -241,7 +244,7 @@ press:
 - date: ''
   title: Western Digital forecasts quarterly revenue above ...
   url: https://www.reuters.com/business/western-digital-forecasts-quarterly-revenue-above-estimates-ai-storage-demand-2026-04-30/
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Western Digital Rate Limits
@@ -272,7 +275,7 @@ rules:
   slug: western-digital-rules
 score:
   band: developing
-  composite: 39.4
+  composite: 40.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 47.5
@@ -280,15 +283,15 @@ score:
     catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.2
   facets:
     access_clarity: 28.9
     contract_governance: 13.6
-    contract_quality: 59.3
-    developer_ergonomics: 47.6
+    contract_quality: 55.9
+    developer_ergonomics: 53.6
     discoverability: 51.8
     operational_transparency: 13.2
-  previous_composite: 40.9
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     contracts:
@@ -302,13 +305,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/screenshots/western-digital-2026-06-20T201446.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/western-digital/western-digital-2026-06-20T201446.png
 security:
 - kind: authentication
   name: Western Digital Authentication

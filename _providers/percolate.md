@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/seismic/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/percolate/refs/heads/main/security/percolate-domain-security.yml
+  href: https://artifacts.apis.io/percolate/security/percolate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/percolate-domain-security.yml
@@ -66,7 +68,7 @@ name: Percolate
 nav: Providers
 network: true
 overview: Percolate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Content Marketing, Marketing Technology, and Marketing Enablement.
-random_paper: 13
+random_paper: 23
 score:
   band: minimal
   composite: 0.0
@@ -100,14 +102,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/percolate/refs/heads/main/screenshots/percolate-2026-09-02T151036.png
+screenshot: https://apis.io/screenshots/percolate/percolate-2026-09-02T151036.png
 security:
 - kind: domain-security
   name: Percolate Domain Security

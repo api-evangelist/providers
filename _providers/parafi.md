@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-17'
+  score: 24.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,9 +68,6 @@ apis:
 artifact_total: 12
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: ParaFi Tech Avalanche API
   slug: open-parafi-avalanche-api
 - collection_type: open
@@ -82,7 +81,7 @@ collections:
   slug: open-parafi-solana-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/overlays/parafi-openapi-overlay.yaml
+  href: https://artifacts.apis.io/parafi/overlays/parafi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/parafi-openapi-overlay.yaml
@@ -115,57 +114,57 @@ common:
   type: PrivacyPolicy
   url: https://parafi.tech/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/authentication/parafi-authentication.yml
+  href: https://artifacts.apis.io/parafi/authentication/parafi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/parafi-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/conventions/parafi-conventions.yml
+  href: https://artifacts.apis.io/parafi/conventions/parafi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/parafi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/errors/parafi-problem-types.yml
+  href: https://artifacts.apis.io/parafi/errors/parafi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/parafi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/lifecycle/parafi-lifecycle.yml
+  href: https://artifacts.apis.io/parafi/lifecycle/parafi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/parafi-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/conformance/parafi-conformance.yml
+  href: https://artifacts.apis.io/parafi/conformance/parafi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/parafi-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/data-model/parafi-data-model.yml
+  href: https://artifacts.apis.io/parafi/data-model/parafi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/parafi-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/mcp/parafi-mcp.yml
+  href: https://artifacts.apis.io/parafi/mcp/parafi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/parafi-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/llms/parafi-llms.txt
+  href: https://artifacts.apis.io/parafi/llms/parafi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/parafi-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/parafi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/agentic-access/parafi-agentic-access.yml
+  href: https://artifacts.apis.io/parafi/agentic-access/parafi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/parafi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/security/parafi-domain-security.yml
+  href: https://artifacts.apis.io/parafi/security/parafi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/parafi-domain-security.yml
@@ -189,26 +188,26 @@ overview: 'Parafi publishes 4 API contracts indexed on the [APIs.io](https://api
 
 
   Parafi''s developer surface includes documentation, API reference, getting-started guide, support, authentication, engineering blog, and 15 more developer resources.'
-random_paper: 11
+random_paper: 3
 score:
-  band: developing
-  composite: 42.4
+  band: thin
+  composite: 34.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.0
-    catalog_max: 100.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 57.1
+    access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 39.6
     developer_ergonomics: 64.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 42.4
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,14 +224,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/screenshots/parafi-2026-08-07T191404.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/parafi/parafi-2026-08-07T191404.png
 security:
 - kind: authentication
   name: Parafi Authentication
@@ -242,6 +241,10 @@ security:
   name: Parafi Domain Security
   slug: parafi-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: parafi-tech
+  slug: parafi-tech
 slug: parafi
 tags:
 - Company

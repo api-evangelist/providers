@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Balto's Call Data API gives customers programmatic access to their historical call records so they can transfer, analyse and activate that data in a CRM, data warehouse or any system that accepts API-
@@ -93,32 +95,32 @@ common:
   type: Compliance
   url: https://www.balto.ai/security/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/balto/refs/heads/main/lifecycle/balto-lifecycle.yml
+  href: https://artifacts.apis.io/balto/lifecycle/balto-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/balto-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/balto/refs/heads/main/security/balto-domain-security.yml
+  href: https://artifacts.apis.io/balto/security/balto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/balto-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/balto/refs/heads/main/llms/balto-llms.txt
+  href: https://artifacts.apis.io/balto/llms/balto-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/balto-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/balto/refs/heads/main/conformance/balto-conformance.yml
+  href: https://artifacts.apis.io/balto/conformance/balto-conformance.yml
   title: ''
   type: Conformance
   url: conformance/balto-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/balto/refs/heads/main/plans/balto-plans-pricing.yml
+  href: https://artifacts.apis.io/balto/plans/balto-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/balto-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/balto/refs/heads/main/rate-limits/balto-rate-limits.yml
+  href: https://artifacts.apis.io/balto/rate-limits/balto-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/balto-rate-limits.yml
@@ -159,24 +161,24 @@ rate_limits:
   name: Balto Rate Limits
   slug: balto-rate-limits
 score:
-  band: emerging
-  composite: 25.3
+  band: thin
+  composite: 26.5
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 64.3
-    operational_transparency: 18.4
-  previous_composite: 25.6
+    discoverability: 57.1
+    operational_transparency: 21.1
+  previous_composite: 26.5
   provenance:
     conformance: first-party
   regulatory:
@@ -189,14 +191,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 21.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/balto/refs/heads/main/screenshots/balto-2026-07-25T202318.png
+screenshot: https://apis.io/screenshots/balto/balto-2026-07-25T202318.png
 security:
 - kind: domain-security
   name: Balto Domain Security

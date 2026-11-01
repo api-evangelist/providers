@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.usemultiplier.com
@@ -68,11 +70,8 @@ apis:
   description: Consolidated invoice and billing data for employment, payroll, and contractor services. Available to integrations under account-provisioned tokens; no open public endpoint reference is published.
   name: Multiplier Invoices API
   slug: invoices-api
-artifact_total: 13
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Multiplier API
   slug: open-multiplier
@@ -86,12 +85,12 @@ common:
   type: BlogRSS
   url: https://www.usemultiplier.com/feed
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/security/multiplier-domain-security.yml
+  href: https://artifacts.apis.io/multiplier/security/multiplier-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/multiplier-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/authentication/multiplier-authentication.yml
+  href: https://artifacts.apis.io/multiplier/authentication/multiplier-authentication.yml
   title: ''
   type: Authentication
   url: authentication/multiplier-authentication.yml
@@ -108,17 +107,17 @@ common:
   type: Documentation
   url: https://help.usemultiplier.com/en/collections/8774534-integrations
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/plans/multiplier-plans-pricing.yml
+  href: https://artifacts.apis.io/multiplier/plans/multiplier-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/multiplier-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/rate-limits/multiplier-rate-limits.yml
+  href: https://artifacts.apis.io/multiplier/rate-limits/multiplier-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/multiplier-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/finops/multiplier-finops.yml
+  href: https://artifacts.apis.io/multiplier/finops/multiplier-finops.yml
   title: ''
   type: FinOps
   url: finops/multiplier-finops.yml
@@ -146,14 +145,14 @@ plans:
 - name: Multiplier Plans Pricing
   plan_count: 4
   slug: multiplier-plans-pricing
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Multiplier Rate Limits
   slug: multiplier-rate-limits
 score:
   band: emerging
-  composite: 19.0
+  composite: 21.4
   coverage:
     artifact_dirs: 11
     catalog_earned: 42.0
@@ -161,29 +160,29 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 29.4
-    developer_ergonomics: 19.0
+    contract_quality: 35.2
+    developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 26.0
+  previous_composite: 21.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/screenshots/multiplier-2026-08-07T184541.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/multiplier/multiplier-2026-08-07T184541.png
 security:
 - kind: authentication
   name: Multiplier Authentication

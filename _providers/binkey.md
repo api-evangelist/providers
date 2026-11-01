@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API documentation for Binkey's payment platform, enabling FSA/HSA claim filing at checkout.
@@ -32,27 +34,27 @@ apis:
 artifact_total: 2
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/binkey/refs/heads/main/conformance/binkey-conformance.yml
+  href: https://artifacts.apis.io/binkey/conformance/binkey-conformance.yml
   title: ''
   type: Conformance
   url: conformance/binkey-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/binkey/refs/heads/main/well-known/binkey-status-security.txt
+  href: https://artifacts.apis.io/binkey/well-known/binkey-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/binkey-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/binkey/refs/heads/main/well-known/binkey-well-known.yml
+  href: https://artifacts.apis.io/binkey/well-known/binkey-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/binkey-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/binkey/refs/heads/main/hosts/binkey-hosts.yml
+  href: https://artifacts.apis.io/binkey/hosts/binkey-hosts.yml
   title: ''
   type: Hosts
   url: hosts/binkey-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/binkey/refs/heads/main/vendors/binkey-vendors.yml
+  href: https://artifacts.apis.io/binkey/vendors/binkey-vendors.yml
   title: ''
   type: Vendors
   url: vendors/binkey-vendors.yml
@@ -69,7 +71,7 @@ common:
   type: PrivacyPolicy
   url: https://www.binkey.com/privacy-policy.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/binkey/refs/heads/main/security/binkey-domain-security.yml
+  href: https://artifacts.apis.io/binkey/security/binkey-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/binkey-domain-security.yml
@@ -104,12 +106,12 @@ overview: 'Binkey is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Binkey''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
-random_paper: 4
+random_paper: 18
 score:
   band: emerging
-  composite: 15.7
+  composite: 17.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -122,8 +124,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 44.6
-    operational_transparency: 15.8
-  previous_composite: 15.7
+    operational_transparency: 26.3
+  previous_composite: 17.1
   provenance:
     conformance: first-party
     mcp: unknown
@@ -137,14 +139,14 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/binkey/refs/heads/main/screenshots/binkey-2026-10-11T102235.png
+screenshot: https://apis.io/screenshots/binkey/binkey-2026-10-11T102235.png
 security:
 - kind: domain-security
   name: Binkey Domain Security

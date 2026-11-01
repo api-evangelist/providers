@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -100,7 +102,7 @@ apis:
   description: Watchlist creation and management
   name: Stellar Cyber Watchlists API
   slug: stellar-cyber-watchlists-api
-artifact_total: 50
+artifact_total: 49
 collections:
 - collection_type: postman
   name: Stellar Cyber Open XDR Alerts API
@@ -135,9 +137,6 @@ collections:
 - collection_type: postman
   name: Stellar Cyber Open XDR Alerts Watchlists API
   slug: postman-stellar-cyber-watchlists-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Stellar Cyber Open XDR Alerts API
   slug: open-stellar-cyber-alerts-api
@@ -176,22 +175,22 @@ collections:
   slug: open-stellar-cyber
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/plans/stellar-cyber-plans-pricing.yml
+  href: https://artifacts.apis.io/stellar-cyber/plans/stellar-cyber-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stellar-cyber-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/rate-limits/stellar-cyber-rate-limits.yml
+  href: https://artifacts.apis.io/stellar-cyber/rate-limits/stellar-cyber-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stellar-cyber-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/finops/stellar-cyber-finops.yml
+  href: https://artifacts.apis.io/stellar-cyber/finops/stellar-cyber-finops.yml
   title: ''
   type: FinOps
   url: finops/stellar-cyber-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/capabilities/stellar-cyber-capability-edges.yml
+  href: https://artifacts.apis.io/stellar-cyber/capabilities/stellar-cyber-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/stellar-cyber-capability-edges.yml
@@ -200,22 +199,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/stellar-cyber/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/agentic-access/stellar-cyber-agentic-access.yml
+  href: https://artifacts.apis.io/stellar-cyber/agentic-access/stellar-cyber-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stellar-cyber-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/security/stellar-cyber-trust-center.yml
+  href: https://artifacts.apis.io/stellar-cyber/security/stellar-cyber-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/stellar-cyber-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/security/stellar-cyber-domain-security.yml
+  href: https://artifacts.apis.io/stellar-cyber/security/stellar-cyber-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stellar-cyber-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/authentication/stellar-cyber-authentication.yml
+  href: https://artifacts.apis.io/stellar-cyber/authentication/stellar-cyber-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stellar-cyber-authentication.yml
@@ -264,7 +263,7 @@ finops:
 - has_sources: false
   method: generated
   name: Stellar Cyber Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: stellar-cyber-finops
   template: true
@@ -331,8 +330,8 @@ rules:
     warn: 8
   slug: stellar-cyber-rules
 score:
-  band: thin
-  composite: 36.2
+  band: developing
+  composite: 40.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 55.5
@@ -340,15 +339,15 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 22.4
+    access_clarity: 39.5
     contract_governance: 13.6
-    contract_quality: 56.7
-    developer_ergonomics: 39.3
+    contract_quality: 53.3
+    developer_ergonomics: 41.7
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 37.7
+    operational_transparency: 13.2
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -362,13 +361,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/screenshots/stellar-cyber-2026-06-20T194541.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/stellar-cyber/stellar-cyber-2026-06-20T194541.png
 security:
 - kind: authentication
   name: Stellar Cyber Authentication

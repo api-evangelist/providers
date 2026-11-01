@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,36 +35,36 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The undocumented application GraphQL API that powers the Newoldstamp dashboard — signatures, departments, campaigns, segments, Google Workspace and Microsoft 365 deployment, and billing. Introspection
   name: Newoldstamp GraphQL API
   slug: newoldstamp-graphql-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/newoldstamp/refs/heads/main/security/newoldstamp-domain-security.yml
+  href: https://artifacts.apis.io/newoldstamp/security/newoldstamp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/newoldstamp-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/newoldstamp/refs/heads/main/llms/newoldstamp-llms.txt
+  href: https://artifacts.apis.io/newoldstamp/llms/newoldstamp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/newoldstamp-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/newoldstamp/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/newoldstamp/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/newoldstamp/refs/heads/main/plans/newoldstamp-plans-pricing.yml
+  href: https://artifacts.apis.io/newoldstamp/plans/newoldstamp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/newoldstamp-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/newoldstamp/refs/heads/main/rate-limits/newoldstamp-rate-limits.yml
+  href: https://artifacts.apis.io/newoldstamp/rate-limits/newoldstamp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/newoldstamp-rate-limits.yml
@@ -118,30 +120,30 @@ plans:
 - name: Newoldstamp Plans Pricing
   plan_count: 2
   slug: newoldstamp-plans-pricing
-random_paper: 10
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Newoldstamp Rate Limits
   slug: newoldstamp-rate-limits
 score:
   band: thin
-  composite: 36.0
+  composite: 35.3
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 0.0
     contract_quality: 35.1
     developer_ergonomics: 30.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 35.9
+  previous_composite: 35.3
   provenance:
     mcp: derived
     skills: derived
@@ -151,14 +153,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/newoldstamp/refs/heads/main/screenshots/newoldstamp-2026-08-07T185122.png
+screenshot: https://apis.io/screenshots/newoldstamp/newoldstamp-2026-08-07T185122.png
 security:
 - kind: authentication
   name: Newoldstamp Authentication
@@ -168,6 +170,12 @@ security:
   name: Newoldstamp Domain Security
   slug: newoldstamp-domain-security
   summary_line: TLSv1.3
+skill_count: 2
+skills:
+- name: Roll out branded signatures to a department
+  slug: newoldstamp-deploy-department-signatures
+- name: Run a signature banner marketing campaign
+  slug: newoldstamp-run-banner-campaign
 slug: newoldstamp
 tags:
 - Company

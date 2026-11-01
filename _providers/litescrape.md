@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -16,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.5
-  scored_at: '2026-10-17'
+  score: 39.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -31,7 +34,7 @@ agentic_access:
   operation_count: 23
   slug: litescrape-agentic-access
   summary_line: 23 operations · 1 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Hosted Model Context Protocol server (Streamable HTTP, protocol 2025-06-18) exposing ten search, maps, reviews and web-fetch tools backed by the Litescrape API; google_search, bing_search, duckduckgo_
   name: Litescrape MCP Server
@@ -71,55 +74,60 @@ apis:
   description: The Zeroclick API from Litescrape — 1 operation(s) for zeroclick.
   name: Litescrape Zeroclick API
   slug: litescrape-zeroclick-api
-artifact_total: 17
+artifact_total: 22
 common:
+- group: other
+  href: https://artifacts.apis.io/litescrape/capabilities/litescrape-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/litescrape-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/agentic-access/litescrape-agentic-access.yml
+  href: https://artifacts.apis.io/litescrape/agentic-access/litescrape-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/litescrape-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/rate-limits/litescrape-rate-limits.yml
+  href: https://artifacts.apis.io/litescrape/rate-limits/litescrape-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/litescrape-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/plans/litescrape-plans-pricing.yml
+  href: https://artifacts.apis.io/litescrape/plans/litescrape-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/litescrape-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/rules/litescrape-rules.yml
+  href: https://artifacts.apis.io/litescrape/rules/litescrape-rules.yml
   title: ''
   type: Spectral
   url: rules/litescrape-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/json-ld/litescrape-context.jsonld
+  href: https://artifacts.apis.io/litescrape/json-ld/litescrape-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/litescrape-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/vocabulary/litescrape-vocabulary.yml
+  href: https://artifacts.apis.io/litescrape/vocabulary/litescrape-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/litescrape-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/litescrape/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/data-model/litescrape-data-model.yml
+  href: https://artifacts.apis.io/litescrape/data-model/litescrape-data-model.yml
   title: ''
   type: DataModel
   url: data-model/litescrape-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/changelog/litescrape-changelog.yml
+  href: https://artifacts.apis.io/litescrape/changelog/litescrape-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/litescrape-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/conventions/litescrape-conventions.yml
+  href: https://artifacts.apis.io/litescrape/conventions/litescrape-conventions.yml
   title: ''
   type: Conventions
   url: conventions/litescrape-conventions.yml
@@ -128,12 +136,12 @@ common:
   type: Security
   url: https://github.com/litescrape/litescrape-mcp-server/blob/main/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/security/litescrape-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/litescrape/security/litescrape-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/litescrape-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/authentication/litescrape-authentication.yml
+  href: https://artifacts.apis.io/litescrape/authentication/litescrape-authentication.yml
   title: ''
   type: Authentication
   url: authentication/litescrape-authentication.yml
@@ -142,67 +150,67 @@ common:
   type: Deprecation
   url: https://litescrape.com/terms
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/lifecycle/litescrape-lifecycle.yml
+  href: https://artifacts.apis.io/litescrape/lifecycle/litescrape-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/litescrape-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/errors/litescrape-problem-types.yml
+  href: https://artifacts.apis.io/litescrape/errors/litescrape-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/litescrape-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/conformance/litescrape-conformance.yml
+  href: https://artifacts.apis.io/litescrape/conformance/litescrape-conformance.yml
   title: ''
   type: Conformance
   url: conformance/litescrape-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/overlays/litescrape-openapi-overlay.yaml
+  href: https://artifacts.apis.io/litescrape/overlays/litescrape-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/litescrape-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/llms/litescrape-llms.txt
+  href: https://artifacts.apis.io/litescrape/llms/litescrape-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/litescrape-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/mcp/litescrape-tool-crosswalk.yml
+  href: https://artifacts.apis.io/litescrape/mcp/litescrape-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/litescrape-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/mcp/litescrape-mcp.yml
+  href: https://artifacts.apis.io/litescrape/mcp/litescrape-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/litescrape-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/well-known/litescrape-well-known.yml
+  href: https://artifacts.apis.io/litescrape/well-known/litescrape-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/litescrape-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/hosts/litescrape-hosts.yml
+  href: https://artifacts.apis.io/litescrape/hosts/litescrape-hosts.yml
   title: ''
   type: Hosts
   url: hosts/litescrape-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/vendors/litescrape-vendors.yml
+  href: https://artifacts.apis.io/litescrape/vendors/litescrape-vendors.yml
   title: ''
   type: Vendors
   url: vendors/litescrape-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/packages/litescrape-packages.yml
+  href: https://artifacts.apis.io/litescrape/packages/litescrape-packages.yml
   title: ''
   type: SDKs
   url: packages/litescrape-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/packages/litescrape-packages.yml
+  href: https://artifacts.apis.io/litescrape/packages/litescrape-packages.yml
   title: ''
   type: Packages
   url: packages/litescrape-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/security/litescrape-domain-security.yml
+  href: https://artifacts.apis.io/litescrape/security/litescrape-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/litescrape-domain-security.yml
@@ -244,6 +252,14 @@ common:
   url: https://github.com/litescrape
 created: '2026-10-07'
 description: Litescrape is a search-results and web-data API from Litescrape LLC (Sheridan, Wyoming) that returns structured JSON from Google Search, Google AI Overview and AI Mode, Google Maps and reviews, Google Shopping, Bing, DuckDuckGo, Apple Maps, Yelp, Tripadvisor, Google Play and the Apple App Store, plus a browser-rendered Fetch and Screenshot API, billed at a flat $0.15 per 1,000 requests on prepaid credits with no subscription. It ships Python and TypeScript SDKs, an n8n node, a hosted MCP server at mcp.litescrape.com with a free keyless allowance, and a ZeroClick agent storefront at agents.litescrape.com that publishes its OpenAPI.
+finops:
+- has_sources: true
+  method: derived
+  name: Litescrape Finops
+  primary_unit: ''
+  service_category: ''
+  slug: litescrape-finops
+  template: true
 image: https://litescrape.com/litescrape-og.png
 jsonld:
 - class_count: 1
@@ -259,17 +275,20 @@ modified: '2026-10-07'
 name: Litescrape
 nav: Providers
 network: true
-overview: 'Litescrape publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Apple API, Bing API, Duckduckgo API, and 5 more. Tagged areas include Company, SERP API, Web Scraping, Search, and Google Maps.
+overview: 'Litescrape publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Apple API, Bing API, Duckduckgo API, and 5 more. Tagged areas include Company, SERP, Web Scraping, Search, and Google Maps.
 
 
   The Litescrape catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Litescrape''s developer surface includes changelog, authentication, documentation, API reference, engineering blog, pricing, and 30 more developer resources.'
+  Litescrape''s developer surface includes changelog, authentication, documentation, API reference, engineering blog, pricing, and 31 more developer resources.'
 plans:
 - name: Litescrape Plans Pricing
   plan_count: 1
   slug: litescrape-plans-pricing
+- name: Litescrape Price Estimates
+  plan_count: 0
+  slug: litescrape-price-estimates
 random_paper: 12
 rate_limits:
 - limit_count: 1
@@ -290,21 +309,21 @@ rules:
   slug: litescrape-rules
 score:
   band: developing
-  composite: 53.1
+  composite: 52.8
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 30
     catalog_earned: 63.8
     catalog_earned_first_party: 16.0
     catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 22.0
     contract_quality: 54.5
     developer_ergonomics: 47.0
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 60.5
   previous_composite: 52.8
   provenance:
@@ -323,13 +342,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/screenshots/litescrape-2026-10-11T110526.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/litescrape/litescrape-2026-10-11T110526.png
 security:
 - kind: authentication
   name: Litescrape Authentication
@@ -343,10 +363,18 @@ security:
   name: Litescrape Vulnerability Disclosure
   slug: litescrape-vulnerability-disclosure
   summary_line: contact published
+skill_count: 3
+skills:
+- name: litescrape-ai-answers
+  slug: litescrape-ai-answers
+- name: litescrape-google-search
+  slug: litescrape-google-search
+- name: litescrape-maps-and-reviews
+  slug: litescrape-maps-and-reviews
 slug: litescrape
 tags:
 - Company
-- SERP API
+- SERP
 - Web Scraping
 - Search
 - Google Maps

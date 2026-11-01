@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -70,9 +72,6 @@ collections:
   name: Google Cloud Operations Suite Entries:list Projects API
   slug: postman-google-cloud-operations-suite-projects-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Google Cloud Operations Suite Entries:list API
   slug: open-google-cloud-operations-suite-entries-list-api
 - collection_type: open
@@ -86,22 +85,22 @@ collections:
   slug: open-openapi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-operations-suite/refs/heads/main/plans/google-cloud-operations-suite-plans-pricing.yml
+  href: https://artifacts.apis.io/google-cloud-operations-suite/plans/google-cloud-operations-suite-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-cloud-operations-suite-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-operations-suite/refs/heads/main/rate-limits/google-cloud-operations-suite-rate-limits.yml
+  href: https://artifacts.apis.io/google-cloud-operations-suite/rate-limits/google-cloud-operations-suite-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-cloud-operations-suite-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-operations-suite/refs/heads/main/finops/google-cloud-operations-suite-finops.yml
+  href: https://artifacts.apis.io/google-cloud-operations-suite/finops/google-cloud-operations-suite-finops.yml
   title: ''
   type: FinOps
   url: finops/google-cloud-operations-suite-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-operations-suite/refs/heads/main/capabilities/google-cloud-operations-suite-capability-edges.yml
+  href: https://artifacts.apis.io/google-cloud-operations-suite/capabilities/google-cloud-operations-suite-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-cloud-operations-suite-capability-edges.yml
@@ -114,17 +113,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-cloud-operations-suite/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-operations-suite/refs/heads/main/agentic-access/google-cloud-operations-suite-agentic-access.yml
+  href: https://artifacts.apis.io/google-cloud-operations-suite/agentic-access/google-cloud-operations-suite-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-cloud-operations-suite-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-operations-suite/refs/heads/main/security/google-cloud-operations-suite-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-cloud-operations-suite/security/google-cloud-operations-suite-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-cloud-operations-suite-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-operations-suite/refs/heads/main/security/google-cloud-operations-suite-domain-security.yml
+  href: https://artifacts.apis.io/google-cloud-operations-suite/security/google-cloud-operations-suite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-cloud-operations-suite-domain-security.yml
@@ -169,7 +168,7 @@ common:
   type: Support
   url: https://cloud.google.com/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-operations-suite/refs/heads/main/json-ld/json-ld.yml
+  href: https://artifacts.apis.io/google-cloud-operations-suite/json-ld/json-ld.yml
   title: ''
   type: JSONLDContext
   url: json-ld/json-ld.yml
@@ -192,13 +191,13 @@ common:
 created: '2026-03-13'
 description: Google Cloud Operations Suite (formerly Stackdriver) provides integrated monitoring, logging, and diagnostics for applications and infrastructure running on Google Cloud. It encompasses Cloud Monitoring, Cloud Logging, Cloud Trace, Cloud Profiler, and Error Reporting to deliver comprehensive observability, real-time visibility, alerting, log analysis, distributed tracing, and performance profiling across cloud environments.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Google Cloud Operations Suite Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: million samples
+  service_category: ''
   slug: google-cloud-operations-suite-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-operations-suite.png
 layout: provider
 modified: '2026-05-19'
@@ -214,9 +213,12 @@ overview: 'Google Cloud Observability publishes 3 API contracts indexed on the [
   Google Cloud Observability''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, API reference, and 17 more developer resources.'
 plans:
 - name: Google Cloud Operations Suite Plans Pricing
-  plan_count: 3
+  plan_count: 18
   slug: google-cloud-operations-suite-plans-pricing
-random_paper: 5
+- name: Google Cloud Operations Suite Price Estimates
+  plan_count: 0
+  slug: google-cloud-operations-suite-price-estimates
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Google Cloud Operations Suite Rate Limits
@@ -235,23 +237,23 @@ rules:
   slug: google-cloud-operations-suite-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.9
+  composite: 52.6
   coverage:
     artifact_dirs: 15
-    catalog_earned: 51.7
-    catalog_earned_first_party: 0.0
-    catalog_gap: 63.4
+    catalog_earned: 63.7
+    catalog_earned_first_party: 12.0
+    catalog_gap: 51.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 9.8
     contract_quality: 49.0
     developer_ergonomics: 58.3
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 45.4
+    operational_transparency: 39.5
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     contracts:
@@ -265,13 +267,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-operations-suite/refs/heads/main/screenshots/google-cloud-operations-suite-2026-06-20T182127.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-cloud-operations-suite/google-cloud-operations-suite-2026-06-20T182127.png
 security:
 - kind: domain-security
   name: Google Cloud Operations Suite Domain Security

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-17'
+  score: 20.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 14
@@ -130,11 +132,8 @@ apis:
   description: The tvs API from Obol — 2 operation(s) for tvs.
   name: Obol Tvs API
   slug: obol-tvs-api
-artifact_total: 39
+artifact_total: 41
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Obol Address API
   slug: open-obol-address-api
@@ -232,102 +231,102 @@ common:
   type: StatusPage
   url: https://status.obol.tech
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/authentication/obol-authentication.yml
+  href: https://artifacts.apis.io/obol/authentication/obol-authentication.yml
   title: ''
   type: Authentication
   url: authentication/obol-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/_original/obol-openapi-original.json
+  href: https://artifacts.apis.io/obol/openapi/_original/obol-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/obol-openapi-original.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/overlays/obol-openapi-overlay.yaml
+  href: https://artifacts.apis.io/obol/overlays/obol-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/obol-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/mcp/obol-mcp.yml
+  href: https://artifacts.apis.io/obol/mcp/obol-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/obol-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/obol/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/agentic-access/obol-agentic-access.yml
+  href: https://artifacts.apis.io/obol/agentic-access/obol-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/obol-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/packages/obol-packages.yml
+  href: https://artifacts.apis.io/obol/packages/obol-packages.yml
   title: ''
   type: Packages
   url: packages/obol-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/packages/obol-packages.yml
+  href: https://artifacts.apis.io/obol/packages/obol-packages.yml
   title: ''
   type: SDKs
   url: packages/obol-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/cli/obol-cli.yml
+  href: https://artifacts.apis.io/obol/cli/obol-cli.yml
   title: ''
   type: CLI
   url: cli/obol-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/llms/obol-llms.txt
+  href: https://artifacts.apis.io/obol/llms/obol-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/obol-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/conventions/obol-conventions.yml
+  href: https://artifacts.apis.io/obol/conventions/obol-conventions.yml
   title: ''
   type: Conventions
   url: conventions/obol-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/errors/obol-problem-types.yml
+  href: https://artifacts.apis.io/obol/errors/obol-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/obol-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/data-model/obol-data-model.yml
+  href: https://artifacts.apis.io/obol/data-model/obol-data-model.yml
   title: ''
   type: DataModel
   url: data-model/obol-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/conformance/obol-conformance.yml
+  href: https://artifacts.apis.io/obol/conformance/obol-conformance.yml
   title: ''
   type: Conformance
   url: conformance/obol-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/lifecycle/obol-lifecycle.yml
+  href: https://artifacts.apis.io/obol/lifecycle/obol-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/obol-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/changelog/obol-changelog.yml
+  href: https://artifacts.apis.io/obol/changelog/obol-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/obol-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/sandbox/obol-sandbox.yml
+  href: https://artifacts.apis.io/obol/sandbox/obol-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/obol-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/well-known/obol-well-known.yml
+  href: https://artifacts.apis.io/obol/well-known/obol-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/obol-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/well-known/obol-security.txt
+  href: https://artifacts.apis.io/obol/well-known/obol-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/obol-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/security/obol-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/obol/security/obol-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/obol-vulnerability-disclosure.yml
@@ -336,7 +335,7 @@ common:
   type: Security
   url: https://docs.obol.org/adv/security/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/security/obol-domain-security.yml
+  href: https://artifacts.apis.io/obol/security/obol-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/obol-domain-security.yml
@@ -356,26 +355,26 @@ overview: 'Obol publishes 17 API contracts indexed on the [APIs.io](https://apis
 
 
   Obol''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 27 more developer resources.'
-random_paper: 10
+random_paper: 20
 score:
   band: developing
-  composite: 45.0
+  composite: 47.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 47.2
     developer_ergonomics: 80.4
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 44.9
+    discoverability: 66.1
+    operational_transparency: 47.4
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -392,13 +391,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/screenshots/obol-2026-08-07T185909.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/obol/obol-2026-08-07T185909.png
 security:
 - kind: authentication
   name: Obol Authentication
@@ -412,6 +412,14 @@ security:
   name: Obol Vulnerability Disclosure
   slug: obol-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Inspect a Distributed Validator cluster
+  slug: obol-cluster-status
+- name: Create and lock a Distributed Validator cluster
+  slug: obol-create-cluster
+- name: Exit a Distributed Validator
+  slug: obol-exit-validator
 slug: obol
 tags:
 - Company

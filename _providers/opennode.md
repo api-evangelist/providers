@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.8
-  scored_at: '2026-10-17'
+  score: 30.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -106,11 +108,8 @@ apis:
   description: Initiate Bitcoin withdrawals and payouts
   name: OpenNode Withdrawals API
   slug: opennode-withdrawals-api
-artifact_total: 34
+artifact_total: 33
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OpenNode Account API
   slug: open-opennode-account-api
@@ -131,17 +130,17 @@ collections:
   slug: open-opennode-withdrawals-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/agentic-access/opennode-agentic-access.yml
+  href: https://artifacts.apis.io/opennode/agentic-access/opennode-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/opennode-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/security/opennode-domain-security.yml
+  href: https://artifacts.apis.io/opennode/security/opennode-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opennode-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/authentication/opennode-authentication.yml
+  href: https://artifacts.apis.io/opennode/authentication/opennode-authentication.yml
   title: ''
   type: Authentication
   url: authentication/opennode-authentication.yml
@@ -194,17 +193,17 @@ common:
   type: GitHub
   url: https://github.com/opennode
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/plans/opennode-plans-pricing.yml
+  href: https://artifacts.apis.io/opennode/plans/opennode-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/opennode-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/rate-limits/opennode-rate-limits.yml
+  href: https://artifacts.apis.io/opennode/rate-limits/opennode-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/opennode-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/finops/opennode-finops.yml
+  href: https://artifacts.apis.io/opennode/finops/opennode-finops.yml
   title: ''
   type: FinOps
   url: finops/opennode-finops.yml
@@ -260,7 +259,7 @@ plans:
 - name: Opennode Plans Pricing
   plan_count: 3
   slug: opennode-plans-pricing
-random_paper: 20
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Opennode Rate Limits
@@ -279,7 +278,7 @@ rules:
   slug: opennode-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.7
+  composite: 39.0
   coverage:
     artifact_dirs: 17
     catalog_earned: 57.3
@@ -287,15 +286,15 @@ score:
     catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.4
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 59.3
-    developer_ergonomics: 22.6
+    developer_ergonomics: 42.9
     discoverability: 66.1
-    operational_transparency: 32.9
-  previous_composite: 42.1
+    operational_transparency: 36.8
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -309,13 +308,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/screenshots/opennode-2026-06-20T191018.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/opennode/opennode-2026-06-20T191018.png
 security:
 - kind: authentication
   name: Opennode Authentication

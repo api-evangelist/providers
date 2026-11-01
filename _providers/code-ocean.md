@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.5
-  scored_at: '2026-10-17'
+  score: 25.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -60,11 +62,8 @@ apis:
   description: Versioned datasets and result data
   name: Code Ocean Data Assets API
   slug: code-ocean-data-assets-api
-artifact_total: 12
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Code Ocean Capsules API
   slug: open-code-ocean-capsules-api
@@ -80,7 +79,7 @@ common:
   type: Website
   url: https://www.codeocean.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/overlays/code-ocean-openapi-overlay.yaml
+  href: https://artifacts.apis.io/code-ocean/overlays/code-ocean-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/code-ocean-openapi-overlay.yaml
@@ -101,7 +100,7 @@ common:
   type: GettingStarted
   url: https://docs.codeocean.com/user-guide/key-concepts
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/authentication/code-ocean-authentication.yml
+  href: https://artifacts.apis.io/code-ocean/authentication/code-ocean-authentication.yml
   title: ''
   type: Authentication
   url: authentication/code-ocean-authentication.yml
@@ -110,62 +109,62 @@ common:
   type: GitHubOrganization
   url: https://github.com/codeocean
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/packages/code-ocean-packages.yml
+  href: https://artifacts.apis.io/code-ocean/packages/code-ocean-packages.yml
   title: ''
   type: Packages
   url: packages/code-ocean-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/packages/code-ocean-packages.yml
+  href: https://artifacts.apis.io/code-ocean/packages/code-ocean-packages.yml
   title: ''
   type: SDKs
   url: packages/code-ocean-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/mcp/code-ocean-mcp.yml
+  href: https://artifacts.apis.io/code-ocean/mcp/code-ocean-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/code-ocean-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/code-ocean/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/scopes/code-ocean-scopes.yml
+  href: https://artifacts.apis.io/code-ocean/scopes/code-ocean-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/code-ocean-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/errors/code-ocean-problem-types.yml
+  href: https://artifacts.apis.io/code-ocean/errors/code-ocean-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/code-ocean-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/conventions/code-ocean-conventions.yml
+  href: https://artifacts.apis.io/code-ocean/conventions/code-ocean-conventions.yml
   title: ''
   type: Conventions
   url: conventions/code-ocean-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/conformance/code-ocean-conformance.yml
+  href: https://artifacts.apis.io/code-ocean/conformance/code-ocean-conformance.yml
   title: ''
   type: Conformance
   url: conformance/code-ocean-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/lifecycle/code-ocean-lifecycle.yml
+  href: https://artifacts.apis.io/code-ocean/lifecycle/code-ocean-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/code-ocean-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/data-model/code-ocean-data-model.yml
+  href: https://artifacts.apis.io/code-ocean/data-model/code-ocean-data-model.yml
   title: ''
   type: DataModel
   url: data-model/code-ocean-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/agentic-access/code-ocean-agentic-access.yml
+  href: https://artifacts.apis.io/code-ocean/agentic-access/code-ocean-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/code-ocean-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/security/code-ocean-domain-security.yml
+  href: https://artifacts.apis.io/code-ocean/security/code-ocean-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/code-ocean-domain-security.yml
@@ -185,7 +184,7 @@ overview: 'Code Ocean publishes 3 API contracts indexed on the [APIs.io](https:/
 
 
   Code Ocean''s developer surface includes documentation, API reference, getting-started guide, authentication, and 16 more developer resources.'
-random_paper: 6
+random_paper: 14
 scopes:
 - name: Code Ocean Scopes
   scope_count: 4
@@ -193,9 +192,9 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 34.8
+  composite: 35.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -205,11 +204,11 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 56.7
+    contract_quality: 53.3
     developer_ergonomics: 58.9
     discoverability: 65.0
-    operational_transparency: 2.6
-  previous_composite: 34.8
+    operational_transparency: 5.3
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,13 +225,14 @@ score:
     regime: Health
     regime_id: health
     score: 26.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/screenshots/code-ocean-2026-07-25T205905.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/code-ocean/code-ocean-2026-07-25T205905.png
 security:
 - kind: authentication
   name: Code Ocean Authentication
@@ -242,6 +242,14 @@ security:
   name: Code Ocean Domain Security
   slug: code-ocean-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Create a data asset and share it
+  slug: code-ocean-create-and-share-data-asset
+- name: Find a pipeline, attach data, and run it
+  slug: code-ocean-find-and-run-pipeline
+- name: Run a capsule and retrieve its results
+  slug: code-ocean-run-capsule-and-get-results
 slug: code-ocean
 tags:
 - Company

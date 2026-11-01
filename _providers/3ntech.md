@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,20 +25,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol shopping service 3N Eyecare exposes on its own storefront host. An anonymous JSON-RPC 2.0 MCP endpoint serves 13 tools for catalog search and lookup, cart create/update
   name: 3N Eyecare Agentic Commerce (UCP / MCP)
   slug: 3n-eyecare-agentic-commerce-ucp-mcp
-artifact_total: 7
+artifact_total: 8
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.3neyecare.com/blogs/news.atom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/3ntech/refs/heads/main/security/3ntech-domain-security.yml
+  href: https://artifacts.apis.io/3ntech/security/3ntech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/3ntech-domain-security.yml
@@ -69,67 +71,67 @@ common:
   type: PrivacyPolicy
   url: https://www.3neyecare.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/3ntech/refs/heads/main/mcp/3ntech-mcp.yml
+  href: https://artifacts.apis.io/3ntech/mcp/3ntech-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/3ntech-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/3ntech/refs/heads/main/llms/3ntech-llms.txt
+  href: https://artifacts.apis.io/3ntech/llms/3ntech-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/3ntech-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/3ntech/refs/heads/main/well-known/3ntech-well-known.yml
+  href: https://artifacts.apis.io/3ntech/well-known/3ntech-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/3ntech-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/3ntech/refs/heads/main/authentication/3ntech-authentication.yml
+  href: https://artifacts.apis.io/3ntech/authentication/3ntech-authentication.yml
   title: ''
   type: Authentication
   url: authentication/3ntech-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/3ntech/refs/heads/main/scopes/3ntech-scopes.yml
+  href: https://artifacts.apis.io/3ntech/scopes/3ntech-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/3ntech-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/3ntech/refs/heads/main/conformance/3ntech-conformance.yml
+  href: https://artifacts.apis.io/3ntech/conformance/3ntech-conformance.yml
   title: ''
   type: Conformance
   url: conformance/3ntech-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/3ntech/refs/heads/main/conventions/3ntech-conventions.yml
+  href: https://artifacts.apis.io/3ntech/conventions/3ntech-conventions.yml
   title: ''
   type: Conventions
   url: conventions/3ntech-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/3ntech/refs/heads/main/errors/3ntech-problem-types.yml
+  href: https://artifacts.apis.io/3ntech/errors/3ntech-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/3ntech-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/3ntech/refs/heads/main/lifecycle/3ntech-lifecycle.yml
+  href: https://artifacts.apis.io/3ntech/lifecycle/3ntech-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/3ntech-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/3ntech/refs/heads/main/data-model/3ntech-data-model.yml
+  href: https://artifacts.apis.io/3ntech/data-model/3ntech-data-model.yml
   title: ''
   type: DataModel
   url: data-model/3ntech-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/3ntech/refs/heads/main/rate-limits/3ntech-rate-limits.yml
+  href: https://artifacts.apis.io/3ntech/rate-limits/3ntech-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/3ntech-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/3ntech/refs/heads/main/plans/3ntech-plans-pricing.yml
+  href: https://artifacts.apis.io/3ntech/plans/3ntech-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/3ntech-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/3ntech/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/3ntech/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -154,7 +156,7 @@ plans:
 - name: 3Ntech Plans Pricing
   plan_count: 0
   slug: 3ntech-plans-pricing
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: 3Ntech Rate Limits
@@ -166,7 +168,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 25.7
+  composite: 24.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -180,14 +182,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - china
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 25.7
+  previous_composite: 24.7
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -198,14 +200,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/3ntech/refs/heads/main/screenshots/3ntech-2026-10-11T092052.png
+screenshot: https://apis.io/screenshots/3ntech/3ntech-2026-10-11T092052.png
 security:
 - kind: authentication
   name: 3Ntech Authentication
@@ -215,6 +217,10 @@ security:
   name: 3Ntech Domain Security
   slug: 3ntech-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Buy a 3N Eyecare product through the store's UCP/MCP endpoint
+  slug: 3ntech-buy-eyecare-product
 slug: 3ntech
 tags:
 - Company

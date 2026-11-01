@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -85,11 +87,8 @@ apis:
   description: Standard and bulk price quotes including shipping.
   name: Scalable Press Quote API
   slug: scalablepress-quote-api
-artifact_total: 24
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Scalable Press Billing API
   slug: open-scalablepress-billing-api
@@ -119,22 +118,22 @@ collections:
   slug: open-scalablepress
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/capabilities/scalablepress-capability-edges.yml
+  href: https://artifacts.apis.io/scalablepress/capabilities/scalablepress-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/scalablepress-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/agentic-access/scalablepress-agentic-access.yml
+  href: https://artifacts.apis.io/scalablepress/agentic-access/scalablepress-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/scalablepress-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/security/scalablepress-domain-security.yml
+  href: https://artifacts.apis.io/scalablepress/security/scalablepress-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/scalablepress-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/authentication/scalablepress-authentication.yml
+  href: https://artifacts.apis.io/scalablepress/authentication/scalablepress-authentication.yml
   title: ''
   type: Authentication
   url: authentication/scalablepress-authentication.yml
@@ -155,17 +154,17 @@ common:
   type: SignUp
   url: https://scalablepress.com/api
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/plans/scalablepress-plans-pricing.yml
+  href: https://artifacts.apis.io/scalablepress/plans/scalablepress-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/scalablepress-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/rate-limits/scalablepress-rate-limits.yml
+  href: https://artifacts.apis.io/scalablepress/rate-limits/scalablepress-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/scalablepress-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/finops/scalablepress-finops.yml
+  href: https://artifacts.apis.io/scalablepress/finops/scalablepress-finops.yml
   title: ''
   type: FinOps
   url: finops/scalablepress-finops.yml
@@ -193,14 +192,14 @@ plans:
 - name: Scalablepress Plans Pricing
   plan_count: 2
   slug: scalablepress-plans-pricing
-random_paper: 16
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Scalablepress Rate Limits
   slug: scalablepress-rate-limits
 score:
   band: thin
-  composite: 28.7
+  composite: 29.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 42.0
@@ -208,7 +207,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
@@ -216,7 +215,7 @@ score:
     developer_ergonomics: 29.8
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 35.6
+  previous_composite: 29.4
   provenance:
     agentic_access: derived
     contracts:
@@ -230,13 +229,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/screenshots/scalablepress-2026-09-02T154501.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/scalablepress/scalablepress-2026-09-02T154501.png
 security:
 - kind: authentication
   name: Scalablepress Authentication

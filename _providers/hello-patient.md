@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,22 +79,22 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/hello-patient/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hello-patient/refs/heads/main/conformance/hello-patient-conformance.yml
+  href: https://artifacts.apis.io/hello-patient/conformance/hello-patient-conformance.yml
   title: ''
   type: Compliance
   url: conformance/hello-patient-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hello-patient/refs/heads/main/conformance/hello-patient-conformance.yml
+  href: https://artifacts.apis.io/hello-patient/conformance/hello-patient-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hello-patient-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hello-patient/refs/heads/main/security/hello-patient-domain-security.yml
+  href: https://artifacts.apis.io/hello-patient/security/hello-patient-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hello-patient-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hello-patient/refs/heads/main/llms/hello-patient-llms.txt
+  href: https://artifacts.apis.io/hello-patient/llms/hello-patient-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hello-patient-llms.txt
@@ -115,7 +117,7 @@ overview: 'Hello Patient is profiled on the [APIs.io](https://apis.io/) network.
 random_paper: 14
 score:
   band: emerging
-  composite: 16.1
+  composite: 15.1
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -129,9 +131,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 58.3
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 16.1
+  previous_composite: 15.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -149,14 +151,14 @@ score:
     regime: Health
     regime_id: health
     score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hello-patient/refs/heads/main/screenshots/hello-patient-2026-07-25T220926.png
+screenshot: https://apis.io/screenshots/hello-patient/hello-patient-2026-07-25T220926.png
 security:
 - kind: domain-security
   name: Hello Patient Domain Security

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'Official remote MCP server (streamable HTTP, JSON-RPC 2.0, MCP 2025-06-18, serverInfo renoolab-mcp 1.4.0) exposing four French-language tools over the marketplace: rechercher_artisans (one trade withi'
@@ -32,7 +34,7 @@ apis:
 - description: 'Read-only Agent2Agent surface: an A2A 1.0 JSON-RPC endpoint at https://a2a.renoolab.fr/a2a whose card (served at /.well-known/agent-card.json on both renoolab.fr and a2a.renoolab.fr, version 1.0.2) de'
   name: RenooLab A2A Agent
   slug: renoolab-a2a-agent
-artifact_total: 19
+artifact_total: 20
 common:
 - group: commercial
   title: ''
@@ -47,7 +49,7 @@ common:
   type: Documentation
   url: https://renoolab.fr/mcp/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/llms/renoolab-fr-llms.txt
+  href: https://artifacts.apis.io/renoolab-fr/llms/renoolab-fr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/renoolab-fr-llms.txt
@@ -104,97 +106,97 @@ common:
   type: Facebook
   url: https://www.facebook.com/renoolab
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/mcp/renoolab-fr-mcp.yml
+  href: https://artifacts.apis.io/renoolab-fr/mcp/renoolab-fr-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/renoolab-fr-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/a2a/renoolab-fr-a2a.yml
+  href: https://artifacts.apis.io/renoolab-fr/a2a/renoolab-fr-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/renoolab-fr-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/renoolab-fr/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/well-known/renoolab-fr-well-known.yml
+  href: https://artifacts.apis.io/renoolab-fr/well-known/renoolab-fr-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/renoolab-fr-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/well-known/renoolab-fr-ard.json
+  href: https://artifacts.apis.io/renoolab-fr/well-known/renoolab-fr-ard.json
   title: ''
   type: AICatalog
   url: well-known/renoolab-fr-ard.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/authentication/renoolab-fr-authentication.yml
+  href: https://artifacts.apis.io/renoolab-fr/authentication/renoolab-fr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/renoolab-fr-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/scopes/renoolab-fr-scopes.yml
+  href: https://artifacts.apis.io/renoolab-fr/scopes/renoolab-fr-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/renoolab-fr-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/conventions/renoolab-fr-conventions.yml
+  href: https://artifacts.apis.io/renoolab-fr/conventions/renoolab-fr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/renoolab-fr-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/conformance/renoolab-fr-conformance.yml
+  href: https://artifacts.apis.io/renoolab-fr/conformance/renoolab-fr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/renoolab-fr-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/lifecycle/renoolab-fr-lifecycle.yml
+  href: https://artifacts.apis.io/renoolab-fr/lifecycle/renoolab-fr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/renoolab-fr-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/changelog/renoolab-fr-changelog.yml
+  href: https://artifacts.apis.io/renoolab-fr/changelog/renoolab-fr-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/renoolab-fr-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/rate-limits/renoolab-fr-rate-limits.yml
+  href: https://artifacts.apis.io/renoolab-fr/rate-limits/renoolab-fr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/renoolab-fr-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/plans/renoolab-fr-plans-pricing.yml
+  href: https://artifacts.apis.io/renoolab-fr/plans/renoolab-fr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/renoolab-fr-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/packages/renoolab-fr-packages.yml
+  href: https://artifacts.apis.io/renoolab-fr/packages/renoolab-fr-packages.yml
   title: ''
   type: Packages
   url: packages/renoolab-fr-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/components/renoolab-fr-components.yml
+  href: https://artifacts.apis.io/renoolab-fr/components/renoolab-fr-components.yml
   title: ''
   type: Components
   url: components/renoolab-fr-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/data-model/renoolab-fr-data-model.yml
+  href: https://artifacts.apis.io/renoolab-fr/data-model/renoolab-fr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/renoolab-fr-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/errors/renoolab-fr-problem-types.yml
+  href: https://artifacts.apis.io/renoolab-fr/errors/renoolab-fr-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/renoolab-fr-problem-types.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/security/renoolab-fr-domain-security.yml
+  href: https://artifacts.apis.io/renoolab-fr/security/renoolab-fr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/renoolab-fr-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/security/renoolab-fr-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/renoolab-fr/security/renoolab-fr-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/renoolab-fr-vulnerability-disclosure.yml
@@ -203,7 +205,7 @@ common:
   type: Security
   url: https://github.com/mehdimicra/renoolab-mcp/blob/main/SECURITY.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/regulatory/renoolab-fr-regulatory-posture.yml
+  href: https://artifacts.apis.io/renoolab-fr/regulatory/renoolab-fr-regulatory-posture.yml
   title: ''
   type: X-RegulatoryPosture
   url: regulatory/renoolab-fr-regulatory-posture.yml
@@ -226,6 +228,14 @@ common:
 created: '2026-09-19'
 description: 'RenooLab ("le réseau social de la rénovation") is a French marketplace, published by Marseille-based sole trader Mehdi Boukenouche, that connects homeowners with building tradespeople across 19 trades - free for both sides, no commission on jobs, no lead reselling; tradespeople can buy optional in-app Pro/Premium visibility. Its developer surface is agent-native rather than REST: an official remote MCP server at https://mcp.renoolab.fr/mcp (streamable HTTP, protocol 2025-06-18, four tools - two anonymous read-only searches by trade/city or multi-trade project, two OAuth 2.1-gated writes for moderated contact requests and inactive profile creation, with dynamic client registration and PKCE; on the MCP Registry as fr.renoolab/mcp v1.4.0 and in the ChatGPT app directory), a read-only A2A 1.0 agent at https://a2a.renoolab.fr/a2a with its card at /.well-known/agent-card.json, ten provider-published Agent Skills discoverable at /.well-known/agent-skills/index.json, an ARD / ai-catalog
   federation manifest, WebMCP tools registered in-page via document.modelContext, and an llms.txt. No OpenAPI, SDK or REST reference is published; the tools/list contract is the machine-readable core. Deployment is national with the PACA region first.'
+finops:
+- has_sources: true
+  method: derived
+  name: Renoolab Fr Finops
+  primary_unit: ''
+  service_category: ''
+  slug: renoolab-fr-finops
+  template: true
 image: https://renoolab.fr/logo-128.webp
 layout: provider
 mcp_servers:
@@ -242,9 +252,9 @@ overview: 'RenooLab is listed with 2 APIs on the [APIs.io](https://apis.io/) net
   RenooLab''s developer surface includes pricing, documentation, engineering blog, support, legal docs, signup flow, authentication, and 35 more developer resources.'
 plans:
 - name: Renoolab Fr Plans Pricing
-  plan_count: 4
+  plan_count: 1
   slug: renoolab-fr-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Renoolab Fr Rate Limits
@@ -256,21 +266,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.4
+  composite: 44.0
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 61.0
-    catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    artifact_dirs: 24
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.2
+  delta: -2.1
   facets:
-    access_clarity: 76.3
+    access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 75.0
+    discoverability: 71.7
     operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -280,7 +290,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 44.2
+  previous_composite: 46.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -291,14 +301,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 55.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/renoolab-fr/refs/heads/main/screenshots/renoolab-fr-2026-10-11T125132.png
+screenshot: https://apis.io/screenshots/renoolab-fr/renoolab-fr-2026-10-11T125132.png
 security:
 - kind: authentication
   name: Renoolab Fr Authentication

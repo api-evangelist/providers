@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The authenticated GraphQL API behind the Deepwatch Security Center console (devportal.deepwatch.com). The endpoint is an AWS AppSync GraphQL service at devportalapi.deepwatch.com/graphql/ with a realt
@@ -44,7 +46,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deepwatch/refs/heads/main/security/deepwatch-trust-center.yml
+  href: https://artifacts.apis.io/deepwatch/security/deepwatch-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/deepwatch-trust-center.yml
@@ -101,52 +103,52 @@ common:
   type: Partners
   url: https://www.deepwatch.com/technology-partners/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deepwatch/refs/heads/main/llms/deepwatch-llms.txt
+  href: https://artifacts.apis.io/deepwatch/llms/deepwatch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/deepwatch-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deepwatch/refs/heads/main/well-known/deepwatch-well-known.yml
+  href: https://artifacts.apis.io/deepwatch/well-known/deepwatch-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/deepwatch-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/deepwatch/refs/heads/main/well-known/deepwatch-openid-configuration.json
+  href: https://artifacts.apis.io/deepwatch/well-known/deepwatch-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/deepwatch-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deepwatch/refs/heads/main/authentication/deepwatch-authentication.yml
+  href: https://artifacts.apis.io/deepwatch/authentication/deepwatch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/deepwatch-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deepwatch/refs/heads/main/scopes/deepwatch-scopes.yml
+  href: https://artifacts.apis.io/deepwatch/scopes/deepwatch-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/deepwatch-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deepwatch/refs/heads/main/conventions/deepwatch-conventions.yml
+  href: https://artifacts.apis.io/deepwatch/conventions/deepwatch-conventions.yml
   title: ''
   type: Conventions
   url: conventions/deepwatch-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deepwatch/refs/heads/main/conformance/deepwatch-conformance.yml
+  href: https://artifacts.apis.io/deepwatch/conformance/deepwatch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/deepwatch-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deepwatch/refs/heads/main/lifecycle/deepwatch-lifecycle.yml
+  href: https://artifacts.apis.io/deepwatch/lifecycle/deepwatch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/deepwatch-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deepwatch/refs/heads/main/security/deepwatch-domain-security.yml
+  href: https://artifacts.apis.io/deepwatch/security/deepwatch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/deepwatch-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deepwatch/refs/heads/main/security/deepwatch-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/deepwatch/security/deepwatch-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/deepwatch-vulnerability-disclosure.yml
@@ -163,7 +165,7 @@ overview: 'Deepwatch is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Deepwatch''s developer surface includes engineering blog, support, authentication, and 21 more developer resources.'
-random_paper: 3
+random_paper: 13
 scopes:
 - name: Deepwatch Scopes
   scope_count: 7
@@ -171,7 +173,7 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit/deviceCode
 score:
   band: thin
-  composite: 30.2
+  composite: 31.2
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -181,13 +183,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 30.2
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 31.2
   provenance:
     conformance: first-party
   regulatory:
@@ -202,14 +204,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/deepwatch/refs/heads/main/screenshots/deepwatch-2026-08-07T164239.png
+screenshot: https://apis.io/screenshots/deepwatch/deepwatch-2026-08-07T164239.png
 security:
 - kind: authentication
   name: Deepwatch Authentication

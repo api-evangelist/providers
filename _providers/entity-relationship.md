@@ -4,6 +4,6 @@ layout: provider
 name: entity-relationship
 nav: Providers
 network: true
-random_paper: 10
+random_paper: 20
 slug: entity-relationship
 ---

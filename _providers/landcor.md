@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 27.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 12
   slug: landcor-agentic-access
   summary_line: 12 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.landcor.com
   baseurl_source: declared
@@ -76,29 +78,29 @@ arazzos:
 - description: Run a proposed mortgage amount against Landcor's AVM value for a BC property and retrieve the password-protected PDF valuation report for the file.
   name: Landcor — loan-to-value check and valuation report
   slug: landcor-ltv-check-and-report
-artifact_total: 11
+artifact_total: 14
 collections:
 - collection_type: open
   name: Landcor Property API
   slug: open-landcor-property-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/capabilities/landcor-capability-edges.yml
+  href: https://artifacts.apis.io/landcor/capabilities/landcor-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/landcor-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/agentic-access/landcor-agentic-access.yml
+  href: https://artifacts.apis.io/landcor/agentic-access/landcor-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/landcor-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/security/landcor-domain-security.yml
+  href: https://artifacts.apis.io/landcor/security/landcor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/landcor-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/authentication/landcor-authentication.yml
+  href: https://artifacts.apis.io/landcor/authentication/landcor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/landcor-authentication.yml
@@ -111,67 +113,67 @@ common:
   type: APIReference
   url: https://api.landcor.com/redoc
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/conventions/landcor-conventions.yml
+  href: https://artifacts.apis.io/landcor/conventions/landcor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/landcor-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/errors/landcor-problem-types.yml
+  href: https://artifacts.apis.io/landcor/errors/landcor-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/landcor-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/lifecycle/landcor-lifecycle.yml
+  href: https://artifacts.apis.io/landcor/lifecycle/landcor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/landcor-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/conformance/landcor-conformance.yml
+  href: https://artifacts.apis.io/landcor/conformance/landcor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/landcor-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/data-model/landcor-data-model.yml
+  href: https://artifacts.apis.io/landcor/data-model/landcor-data-model.yml
   title: ''
   type: DataModel
   url: data-model/landcor-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/mcp/landcor-mcp.yml
+  href: https://artifacts.apis.io/landcor/mcp/landcor-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/landcor-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/mcp/landcor-tool-crosswalk.yml
+  href: https://artifacts.apis.io/landcor/mcp/landcor-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/landcor-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/landcor/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/arazzo/landcor-address-to-valuation.yml
+  href: https://artifacts.apis.io/landcor/arazzo/landcor-address-to-valuation.yml
   title: ''
   type: Arazzo
   url: arazzo/landcor-address-to-valuation.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/arazzo/landcor-ltv-check-and-report.yml
+  href: https://artifacts.apis.io/landcor/arazzo/landcor-ltv-check-and-report.yml
   title: ''
   type: Arazzo
   url: arazzo/landcor-ltv-check-and-report.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/llms/landcor-llms.txt
+  href: https://artifacts.apis.io/landcor/llms/landcor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/landcor-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/overlays/landcor-property-api-overlay.yaml
+  href: https://artifacts.apis.io/landcor/overlays/landcor-property-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/landcor-property-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/well-known/landcor-well-known.yml
+  href: https://artifacts.apis.io/landcor/well-known/landcor-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/landcor-well-known.yml
@@ -245,10 +247,10 @@ overview: 'Landcor Data publishes 5 API contracts indexed on the [APIs.io](https
 
 
   Landcor Data''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 26 more developer resources.'
-random_paper: 13
+random_paper: 19
 score:
   band: thin
-  composite: 37.3
+  composite: 38.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -256,14 +258,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 45.0
     developer_ergonomics: 37.5
     discoverability: 66.1
-    operational_transparency: 13.2
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -271,7 +273,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 37.2
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -288,13 +290,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/screenshots/landcor-2026-08-07T171419.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/landcor/landcor-2026-08-07T171419.png
 security:
 - kind: authentication
   name: Landcor Authentication
@@ -304,6 +307,14 @@ security:
   name: Landcor Domain Security
   slug: landcor-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Pull Landcor comparables and neighbourhood market context
+  slug: landcor-comparables-and-market
+- name: Run a Landcor loan-to-value check
+  slug: landcor-mortgage-ltv-check
+- name: Value a BC property with Landcor
+  slug: landcor-value-a-property
 slug: landcor
 tags:
 - Real Estate

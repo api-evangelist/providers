@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: ActivityHero's provider integration surface — outbound, HMAC-SHA256-signed JSON webhooks that sync registrations and activity schedules between ActivityHero and a provider's own systems (configured un
@@ -50,32 +52,32 @@ common:
   type: BlogRSS
   url: https://www.activityhero.com/blog/feed/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/activityhero/refs/heads/main/asyncapi/activityhero-webhooks.yml
+  href: https://artifacts.apis.io/activityhero/asyncapi/activityhero-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/activityhero-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/activityhero/refs/heads/main/authentication/activityhero-authentication.yml
+  href: https://artifacts.apis.io/activityhero/authentication/activityhero-authentication.yml
   title: ''
   type: Authentication
   url: authentication/activityhero-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/activityhero/refs/heads/main/conventions/activityhero-conventions.yml
+  href: https://artifacts.apis.io/activityhero/conventions/activityhero-conventions.yml
   title: ''
   type: Conventions
   url: conventions/activityhero-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/activityhero/refs/heads/main/well-known/activityhero-well-known.yml
+  href: https://artifacts.apis.io/activityhero/well-known/activityhero-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/activityhero-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/activityhero/refs/heads/main/llms/activityhero-llms.txt
+  href: https://artifacts.apis.io/activityhero/llms/activityhero-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/activityhero-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/activityhero/refs/heads/main/security/activityhero-domain-security.yml
+  href: https://artifacts.apis.io/activityhero/security/activityhero-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/activityhero-domain-security.yml
@@ -122,10 +124,10 @@ overview: 'ActivityHero is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   ActivityHero''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 9
+random_paper: 11
 score:
   band: thin
-  composite: 29.4
+  composite: 28.7
   coverage:
     artifact_dirs: 10
     catalog_earned: 32.0
@@ -139,23 +141,23 @@ score:
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 28.6
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 7.9
-  previous_composite: 29.4
+  previous_composite: 28.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/activityhero/refs/heads/main/screenshots/activityhero-2026-07-25T181531.png
+screenshot: https://apis.io/screenshots/activityhero/activityhero-2026-07-25T181531.png
 security:
 - kind: authentication
   name: Activityhero Authentication

@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 32.9
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.smartersorting.com
   baseurl_source: declared
@@ -59,39 +61,39 @@ apis:
   description: The products API from Smarter Sorting — 4 operation(s) for products.
   name: Smarter Sorting Products API
   slug: smarter-sorting-products-api
-artifact_total: 11
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Smarter Sorting Event Surface
   slug: smarter-sorting-event-surface
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/rate-limits/smarter-sorting-rate-limits.yml
+  href: https://artifacts.apis.io/smarter-sorting/rate-limits/smarter-sorting-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/smarter-sorting-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/capabilities/smarter-sorting-capability-edges.yml
+  href: https://artifacts.apis.io/smarter-sorting/capabilities/smarter-sorting-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/smarter-sorting-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/overlays/smarter-sorting-customer-classification-v1-overlay.yaml
+  href: https://artifacts.apis.io/smarter-sorting/overlays/smarter-sorting-customer-classification-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/smarter-sorting-customer-classification-v1-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/mcp/smarter-sorting-mcp.yml
+  href: https://artifacts.apis.io/smarter-sorting/mcp/smarter-sorting-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/smarter-sorting-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/security/smarter-sorting-domain-security.yml
+  href: https://artifacts.apis.io/smarter-sorting/security/smarter-sorting-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/smarter-sorting-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/authentication/smarter-sorting-authentication.yml
+  href: https://artifacts.apis.io/smarter-sorting/authentication/smarter-sorting-authentication.yml
   title: ''
   type: Authentication
   url: authentication/smarter-sorting-authentication.yml
@@ -136,53 +138,61 @@ common:
   type: PrivacyPolicy
   url: https://www.smartersorting.com/legal/privacy-policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/conformance/smarter-sorting-conformance.yml
+  href: https://artifacts.apis.io/smarter-sorting/conformance/smarter-sorting-conformance.yml
   title: ''
   type: Conformance
   url: conformance/smarter-sorting-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/security/smarter-sorting-trust-center.yml
+  href: https://artifacts.apis.io/smarter-sorting/security/smarter-sorting-trust-center.yml
   title: ''
   type: Compliance
   url: security/smarter-sorting-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/security/smarter-sorting-trust-center.yml
+  href: https://artifacts.apis.io/smarter-sorting/security/smarter-sorting-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/smarter-sorting-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/security/smarter-sorting-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/smarter-sorting/security/smarter-sorting-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/smarter-sorting-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/security/smarter-sorting-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/smarter-sorting/security/smarter-sorting-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/smarter-sorting-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/lifecycle/smarter-sorting-lifecycle.yml
+  href: https://artifacts.apis.io/smarter-sorting/lifecycle/smarter-sorting-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/smarter-sorting-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/plans/smarter-sorting-plans-pricing.yml
+  href: https://artifacts.apis.io/smarter-sorting/plans/smarter-sorting-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/smarter-sorting-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/llms/smarter-sorting-llms.txt
+  href: https://artifacts.apis.io/smarter-sorting/llms/smarter-sorting-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/smarter-sorting-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/smarter-sorting/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-28'
 description: Smarter Sorting (which rebranded as SmarterX in 2023 and now operates as part of Syndigo) is an Austin, Texas product-intelligence and regulatory-classification company serving retailers, consumer-goods brands and the logistics industry. Its Smarter-1 platform takes a customer's product catalog — at minimum a UPC and a product name — and returns machine-generated regulatory classifications covering hazardous-waste handling (RCRA waste codes and state waste codes), transport of dangerous goods (DOT, IATA and IMDG hazard classes, UN numbers, packing groups and proper shipping names), NFPA 704 fire-diamond ratings, lithium-battery attributes and UN 38.3 documentation, so that a retailer can decide whether an item may be sold, shipped, donated, recycled, reclaimed or must be disposed of as regulated waste. The company publishes a public Customer Classification API (OpenAPI 3.1.0) alongside its Back of Store Solution (BOSS) platform, a developer portal, a staging environment and
   a public status page.
+finops:
+- has_sources: true
+  method: derived
+  name: Smarter Sorting Finops
+  primary_unit: ''
+  service_category: ''
+  slug: smarter-sorting-finops
+  template: true
 image: https://portal.smartersorting.com/assets/imgs/logo-ss-color.svg
 layout: provider
 modified: '2026-08-28'
@@ -207,15 +217,15 @@ rate_limits:
   slug: smarter-sorting-rate-limits
 score:
   band: developing
-  composite: 46.3
+  composite: 47.0
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 4.5
@@ -223,7 +233,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 46.2
+  previous_composite: 47.0
   provenance:
     conformance: derived
     contracts:
@@ -239,13 +249,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/screenshots/smarter-sorting-2026-09-02T155912.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/smarter-sorting/smarter-sorting-2026-09-02T155912.png
 security:
 - kind: authentication
   name: Smarter Sorting Authentication
@@ -263,6 +274,12 @@ security:
   name: Smarter Sorting Trust Center
   slug: smarter-sorting-trust-center
   summary_line: SOC 2 Type II
+skill_count: 2
+skills:
+- name: smarter-sorting-classify-product-catalog
+  slug: smarter-sorting-classify-product-catalog
+- name: smarter-sorting-update-product-attributes
+  slug: smarter-sorting-update-product-attributes
 slug: smarter-sorting
 tags:
 - Company

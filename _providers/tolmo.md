@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Backend API for the Tolmo cloud security platform, consumed through the Tolmo CLI (SQL/Cypher queries over the infrastructure graph, security findings management, and a secure server-side proxy for co
   name: Tolmo Platform API
   slug: tolmo-platform-api
-artifact_total: 5
+artifact_total: 8
 common:
 - group: start
   title: ''
@@ -54,27 +56,27 @@ common:
   type: GettingStarted
   url: https://docs.tolmo.com/installation
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tolmo/refs/heads/main/authentication/tolmo-authentication.yml
+  href: https://artifacts.apis.io/tolmo/authentication/tolmo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tolmo-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tolmo/refs/heads/main/cli/tolmo-cli.yml
+  href: https://artifacts.apis.io/tolmo/cli/tolmo-cli.yml
   title: ''
   type: CLI
   url: cli/tolmo-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tolmo/refs/heads/main/packages/tolmo-packages.yml
+  href: https://artifacts.apis.io/tolmo/packages/tolmo-packages.yml
   title: ''
   type: Packages
   url: packages/tolmo-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tolmo/refs/heads/main/conventions/tolmo-conventions.yml
+  href: https://artifacts.apis.io/tolmo/conventions/tolmo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tolmo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tolmo/refs/heads/main/lifecycle/tolmo-lifecycle.yml
+  href: https://artifacts.apis.io/tolmo/lifecycle/tolmo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tolmo-lifecycle.yml
@@ -83,27 +85,27 @@ common:
   type: StatusPage
   url: https://status.tolmo.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tolmo/refs/heads/main/changelog/tolmo-changelog.yml
+  href: https://artifacts.apis.io/tolmo/changelog/tolmo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tolmo-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tolmo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tolmo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tolmo/refs/heads/main/llms/tolmo-llms.txt
+  href: https://artifacts.apis.io/tolmo/llms/tolmo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tolmo-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tolmo/refs/heads/main/well-known/tolmo-well-known.yml
+  href: https://artifacts.apis.io/tolmo/well-known/tolmo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tolmo-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tolmo/refs/heads/main/well-known/tolmo-security.txt
+  href: https://artifacts.apis.io/tolmo/well-known/tolmo-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/tolmo-security.txt
@@ -112,17 +114,17 @@ common:
   type: Security
   url: https://tolmo.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tolmo/refs/heads/main/security/tolmo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tolmo/security/tolmo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tolmo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tolmo/refs/heads/main/security/tolmo-domain-security.yml
+  href: https://artifacts.apis.io/tolmo/security/tolmo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tolmo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tolmo/refs/heads/main/security/tolmo-trust-center.yml
+  href: https://artifacts.apis.io/tolmo/security/tolmo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tolmo-trust-center.yml
@@ -158,26 +160,26 @@ overview: 'Tolmo is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Tolmo''s developer surface includes documentation, getting-started guide, authentication, CLI, changelog, engineering blog, support, and 16 more developer resources.'
-random_paper: 5
+random_paper: 3
 score:
   band: thin
-  composite: 26.6
+  composite: 29.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 26.5
+    discoverability: 66.1
+    operational_transparency: 47.4
+  previous_composite: 29.9
   provenance:
     skills: derived
   regulatory:
@@ -186,14 +188,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tolmo/refs/heads/main/screenshots/tolmo-2026-09-02T163853.png
+screenshot: https://apis.io/screenshots/tolmo/tolmo-2026-09-02T163853.png
 security:
 - kind: authentication
   name: Tolmo Authentication
@@ -211,6 +213,14 @@ security:
   name: Tolmo Trust Center
   slug: tolmo-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Proxy requests to connected services
+  slug: tolmo-proxy-connected-services
+- name: Query the infrastructure graph and database
+  slug: tolmo-query-infrastructure
+- name: Triage and manage security findings
+  slug: tolmo-triage-findings
 slug: tolmo
 tags:
 - Company

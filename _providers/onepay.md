@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,12 +63,12 @@ common:
   type: PrivacyPolicy
   url: https://www.onepay.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onepay/refs/heads/main/llms/onepay-llms.txt
+  href: https://artifacts.apis.io/onepay/llms/onepay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/onepay-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onepay/refs/heads/main/security/onepay-domain-security.yml
+  href: https://artifacts.apis.io/onepay/security/onepay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onepay-domain-security.yml
@@ -82,10 +84,10 @@ overview: 'OnePay is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   OnePay''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 14
+random_paper: 4
 score:
   band: emerging
-  composite: 11.1
+  composite: 11.3
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -98,24 +100,24 @@ score:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
-    discoverability: 55.4
+    developer_ergonomics: 16.7
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 11.1
+  previous_composite: 11.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/onepay/refs/heads/main/screenshots/onepay-2026-08-07T190337.png
+screenshot: https://apis.io/screenshots/onepay/onepay-2026-08-07T190337.png
 security:
 - kind: domain-security
   name: Onepay Domain Security

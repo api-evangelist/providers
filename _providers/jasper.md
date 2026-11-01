@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 56.7
-  scored_at: '2026-10-17'
+  score: 52.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 50
   slug: jasper-agentic-access
   summary_line: 50 operations · 29 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.jasper.ai/v1
   baseurl_source: declared
@@ -114,15 +116,20 @@ apis:
   description: The Voices API from Jasper — 2 operation(s) for voices.
   name: Jasper Voices API
   slug: jasper-voices-api
-artifact_total: 23
+artifact_total: 28
 common:
+- group: other
+  href: https://artifacts.apis.io/jasper/capabilities/jasper-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/jasper-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/agentic-access/jasper-agentic-access.yml
+  href: https://artifacts.apis.io/jasper/agentic-access/jasper-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/jasper-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/security/jasper-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/jasper/security/jasper-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jasper-vulnerability-disclosure.yml
@@ -199,102 +206,102 @@ common:
   type: Postman
   url: https://developers.jasper.ai/docs/jaspers-api-postman-collection
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/llms/jasper-llms.txt
+  href: https://artifacts.apis.io/jasper/llms/jasper-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jasper-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/mcp/jasper-mcp.yml
+  href: https://artifacts.apis.io/jasper/mcp/jasper-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/jasper-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/packages/jasper-packages.yml
+  href: https://artifacts.apis.io/jasper/packages/jasper-packages.yml
   title: ''
   type: Packages
   url: packages/jasper-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/well-known/jasper-well-known.yml
+  href: https://artifacts.apis.io/jasper/well-known/jasper-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jasper-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/authentication/jasper-authentication.yml
+  href: https://artifacts.apis.io/jasper/authentication/jasper-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jasper-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/scopes/jasper-scopes.yml
+  href: https://artifacts.apis.io/jasper/scopes/jasper-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/jasper-scopes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/rate-limits/jasper-rate-limits.yml
+  href: https://artifacts.apis.io/jasper/rate-limits/jasper-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jasper-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/conventions/jasper-conventions.yml
+  href: https://artifacts.apis.io/jasper/conventions/jasper-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jasper-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/errors/jasper-problem-types.yml
+  href: https://artifacts.apis.io/jasper/errors/jasper-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/jasper-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/lifecycle/jasper-lifecycle.yml
+  href: https://artifacts.apis.io/jasper/lifecycle/jasper-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jasper-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/conformance/jasper-conformance.yml
+  href: https://artifacts.apis.io/jasper/conformance/jasper-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jasper-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/data-model/jasper-data-model.yml
+  href: https://artifacts.apis.io/jasper/data-model/jasper-data-model.yml
   title: ''
   type: DataModel
   url: data-model/jasper-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/security/jasper-trust-center.yml
+  href: https://artifacts.apis.io/jasper/security/jasper-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/jasper-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/security/jasper-domain-security.yml
+  href: https://artifacts.apis.io/jasper/security/jasper-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jasper-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/jasper/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/openapi/_original/jasper-api-openapi.yml
+  href: https://artifacts.apis.io/jasper/openapi/_original/jasper-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/jasper-api-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/overlays/jasper-api-overlay.yaml
+  href: https://artifacts.apis.io/jasper/overlays/jasper-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/jasper-api-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/examples/jasper-examples.yml
+  href: https://artifacts.apis.io/jasper/examples/jasper-examples.yml
   title: ''
   type: Examples
   url: examples/jasper-examples.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/mcp/jasper-tool-crosswalk.yml
+  href: https://artifacts.apis.io/jasper/mcp/jasper-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/jasper-tool-crosswalk.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/plans/jasper-plans-pricing.yml
+  href: https://artifacts.apis.io/jasper/plans/jasper-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jasper-plans-pricing.yml
@@ -304,6 +311,14 @@ common:
   url: https://status.jasper.ai/
 created: '2026-07-17'
 description: Jasper is an AI platform purpose-built for marketing teams that orchestrates 100+ specialized AI agents and connected content pipelines to run end-to-end marketing workflows — content creation, campaign execution, personalization, and SEO/GEO optimization — while holding brand consistency at scale. Jasper IQ is the governance layer that embeds brand voice, style guides, and marketing context into every output. The Jasper API (https://api.jasper.ai/v1) exposes commands, agent tasks, documents, projects, tones, audiences, knowledge/retrieval, and a full image-editing suite, secured with workspace API keys (X-API-Key) or OAuth 2.0 (authorization code + PKCE, Dynamic Client Registration). Jasper also ships a hosted, remote Model Context Protocol (MCP) server at https://mcp.jasper.ai so agents in Claude, ChatGPT, Copilot Studio, OpenAI Agent Builder, and n8n can create on-brand content. API access is available on the Jasper Business plan.
+finops:
+- has_sources: true
+  method: derived
+  name: Jasper Finops
+  primary_unit: seat
+  service_category: ''
+  slug: jasper-finops
+  template: false
 image: https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/681e121f9445a06741087852_Webclip.png
 layout: provider
 mcp_servers:
@@ -317,12 +332,15 @@ network: true
 overview: 'Jasper publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attachments API, Audiences API, Command API, and 11 more. Tagged areas include Company, Artificial Intelligence, Content Generation, Marketing, and Generative AI.
 
 
-  Jasper''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 34 more developer resources.'
+  Jasper''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 35 more developer resources.'
 plans:
 - name: Jasper Plans Pricing
-  plan_count: 2
+  plan_count: 3
   slug: jasper-plans-pricing
-random_paper: 7
+- name: Jasper Price Estimates
+  plan_count: 0
+  slug: jasper-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Jasper Rate Limits
@@ -333,24 +351,24 @@ scopes:
   slug: jasper-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: strong
-  composite: 59.0
+  band: exemplar
+  composite: 66.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 57.0
-    catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    artifact_dirs: 25
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 3.7
   facets:
-    access_clarity: 81.6
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 55.4
-    developer_ergonomics: 47.0
-    discoverability: 75.0
-    operational_transparency: 52.6
-  previous_composite: 59.3
+    contract_quality: 53.3
+    developer_ergonomics: 63.7
+    discoverability: 65.0
+    operational_transparency: 63.2
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -373,13 +391,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/screenshots/jasper-2026-07-25T223101.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/jasper/jasper-2026-07-25T223101.png
 security:
 - kind: authentication
   name: Jasper Authentication
@@ -397,6 +416,14 @@ security:
   name: Jasper Trust Center
   slug: jasper-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 3
+skills:
+- name: Edit product images with the Jasper Image API
+  slug: jasper-image-editing
+- name: Generate content grounded in Jasper Knowledge
+  slug: jasper-knowledge-grounded-content
+- name: Run a Jasper marketing Agent Task
+  slug: jasper-run-agent-task
 slug: jasper
 tags:
 - Company

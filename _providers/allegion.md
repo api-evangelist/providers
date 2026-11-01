@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-17'
+  score: 29.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -69,7 +71,7 @@ apis:
   description: Subscribe partner endpoints to device, command, access code, and account events
   name: Allegion Webhook Subscriptions API
   slug: allegion-webhook-subscriptions-api
-artifact_total: 56
+artifact_total: 55
 collections:
 - collection_type: postman
   name: ENGAGE Cloud Credentialing Access Codes API
@@ -86,9 +88,6 @@ collections:
 - collection_type: postman
   name: ENGAGE Cloud Credentialing Access Codes Webhook Subscriptions API
   slug: postman-allegion-webhook-subscriptions-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ENGAGE Cloud Credentialing Access Codes API
   slug: open-allegion-access-codes-api
@@ -112,7 +111,7 @@ collections:
   slug: open-schlage-home
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/capabilities/allegion-capability-edges.yml
+  href: https://artifacts.apis.io/allegion/capabilities/allegion-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/allegion-capability-edges.yml
@@ -125,32 +124,32 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/allegion/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/agentic-access/allegion-agentic-access.yml
+  href: https://artifacts.apis.io/allegion/agentic-access/allegion-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/allegion-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/security/allegion-trust-center.yml
+  href: https://artifacts.apis.io/allegion/security/allegion-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/allegion-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/security/allegion-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/allegion/security/allegion-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/allegion-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/security/allegion-domain-security.yml
+  href: https://artifacts.apis.io/allegion/security/allegion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/allegion-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/authentication/allegion-authentication.yml
+  href: https://artifacts.apis.io/allegion/authentication/allegion-authentication.yml
   title: ''
   type: Authentication
   url: authentication/allegion-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/scopes/allegion-scopes.yml
+  href: https://artifacts.apis.io/allegion/scopes/allegion-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/allegion-scopes.yml
@@ -267,27 +266,27 @@ common:
   type: SupportedHardware
   url: ''
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/json-ld/allegion-context.jsonld
+  href: https://artifacts.apis.io/allegion/json-ld/allegion-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/allegion-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/vocabulary/allegion-vocabulary.yml
+  href: https://artifacts.apis.io/allegion/vocabulary/allegion-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/allegion-vocabulary.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/plans/allegion-plans-pricing.yml
+  href: https://artifacts.apis.io/allegion/plans/allegion-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/allegion-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/rate-limits/allegion-rate-limits.yml
+  href: https://artifacts.apis.io/allegion/rate-limits/allegion-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/allegion-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/finops/allegion-finops.yml
+  href: https://artifacts.apis.io/allegion/finops/allegion-finops.yml
   title: ''
   type: FinOps
   url: finops/allegion-finops.yml
@@ -374,7 +373,7 @@ plans:
 - name: Allegion Plans Pricing
   plan_count: 3
   slug: allegion-plans-pricing
-random_paper: 7
+random_paper: 3
 rate_limits:
 - limit_count: 7
   name: Allegion Rate Limits
@@ -421,8 +420,8 @@ scopes:
   slug: allegion-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 51.5
+  band: strong
+  composite: 57.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 72.0
@@ -430,15 +429,15 @@ score:
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 50.0
     contract_governance: 27.3
     contract_quality: 62.9
     developer_ergonomics: 58.3
     discoverability: 66.1
-    operational_transparency: 34.2
-  previous_composite: 59.8
+    operational_transparency: 47.4
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     contracts:
@@ -451,14 +450,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 41.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 45.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/screenshots/allegion-2026-06-20T171528.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/allegion/allegion-2026-06-20T171528.png
 security:
 - kind: authentication
   name: Allegion Authentication

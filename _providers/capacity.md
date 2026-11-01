@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,42 +25,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/capacity/refs/heads/main/llms/capacity-llms.txt
+  href: https://artifacts.apis.io/capacity/llms/capacity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/capacity-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/capacity/refs/heads/main/well-known/capacity-status-security.txt
+  href: https://artifacts.apis.io/capacity/well-known/capacity-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/capacity-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/capacity/refs/heads/main/well-known/capacity-well-known.yml
+  href: https://artifacts.apis.io/capacity/well-known/capacity-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/capacity-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/capacity/refs/heads/main/hosts/capacity-hosts.yml
+  href: https://artifacts.apis.io/capacity/hosts/capacity-hosts.yml
   title: ''
   type: Hosts
   url: hosts/capacity-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/capacity/refs/heads/main/vendors/capacity-vendors.yml
+  href: https://artifacts.apis.io/capacity/vendors/capacity-vendors.yml
   title: ''
   type: Vendors
   url: vendors/capacity-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/capacity/refs/heads/main/packages/capacity-packages.yml
+  href: https://artifacts.apis.io/capacity/packages/capacity-packages.yml
   title: ''
   type: SDKs
   url: packages/capacity-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/capacity/refs/heads/main/packages/capacity-packages.yml
+  href: https://artifacts.apis.io/capacity/packages/capacity-packages.yml
   title: ''
   type: Packages
   url: packages/capacity-packages.yml
@@ -99,7 +101,7 @@ common:
   type: GettingStarted
   url: https://support.capacity.com/folder/335e2350-2788-491b-9bd6-92fdd048b81d
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/capacity/refs/heads/main/security/capacity-domain-security.yml
+  href: https://artifacts.apis.io/capacity/security/capacity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/capacity-domain-security.yml
@@ -127,10 +129,10 @@ overview: 'Capacity is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Capacity''s developer surface includes support, pricing, engineering blog, getting-started guide, and 14 more developer resources.'
-random_paper: 10
+random_paper: 6
 score:
   band: emerging
-  composite: 20.3
+  composite: 19.6
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -138,13 +140,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 57.1
+    discoverability: 50.0
     operational_transparency: 26.3
+  previous_composite: 19.6
   provenance:
     mcp: derived
   regulatory:
@@ -153,8 +157,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

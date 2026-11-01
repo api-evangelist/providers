@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -58,12 +60,12 @@ common:
   type: Login
   url: https://application.precisionlender.com/DirectoryLogin/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/precisionlender/refs/heads/main/well-known/precisionlender-security.txt
+  href: https://artifacts.apis.io/precisionlender/well-known/precisionlender-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/precisionlender-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/precisionlender/refs/heads/main/well-known/precisionlender-well-known.yml
+  href: https://artifacts.apis.io/precisionlender/well-known/precisionlender-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/precisionlender-well-known.yml
@@ -72,12 +74,12 @@ common:
   type: Security
   url: https://www.q2.com/security-vulnerabilities-reporting
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/precisionlender/refs/heads/main/security/precisionlender-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/precisionlender/security/precisionlender-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/precisionlender-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/precisionlender/refs/heads/main/security/precisionlender-domain-security.yml
+  href: https://artifacts.apis.io/precisionlender/security/precisionlender-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/precisionlender-domain-security.yml
@@ -93,10 +95,10 @@ overview: 'PrecisionLender is profiled on the [APIs.io](https://apis.io/) networ
 
 
   PrecisionLender''s developer surface includes documentation, support, and 8 more developer resources.'
-random_paper: 0
+random_paper: 22
 score:
-  band: minimal
-  composite: 10.6
+  band: emerging
+  composite: 11.9
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -106,27 +108,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
     discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 10.6
+  previous_composite: 11.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 9.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/precisionlender/refs/heads/main/screenshots/precisionlender-2026-09-02T151910.png
+screenshot: https://apis.io/screenshots/precisionlender/precisionlender-2026-09-02T151910.png
 security:
 - kind: domain-security
   name: Precisionlender Domain Security

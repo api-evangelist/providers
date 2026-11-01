@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.2
-  scored_at: '2026-10-17'
+  score: 26.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -70,11 +72,13 @@ apis:
   description: The Listeners (v2) API from LangGraph — 2 operation(s) for listeners (v2).
   name: LangGraph Listeners (v2) API
   slug: langgraph-listeners-v2-api
+- baseURL: https://api.host.langchain.com
+  baseurl_source: declared
+  description: The Integrations (v2) API from LangGraph — 8 operation(s) for integrations (v2).
+  name: LangGraph Integrations (v2) API
+  slug: langgraph-integrations-v2-api
 artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LangSmith Deployment Control Plane Agent Connections (v2) Agent Connections (v2) Agent Connections (v2) API
   slug: open-langgraph-agent-connections-v2-api
@@ -95,22 +99,22 @@ collections:
   slug: open-langgraph
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/plans/langgraph-plans-pricing.yml
+  href: https://artifacts.apis.io/langgraph/plans/langgraph-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/langgraph-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/rate-limits/langgraph-rate-limits.yml
+  href: https://artifacts.apis.io/langgraph/rate-limits/langgraph-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/langgraph-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/finops/langgraph-finops.yml
+  href: https://artifacts.apis.io/langgraph/finops/langgraph-finops.yml
   title: ''
   type: FinOps
   url: finops/langgraph-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/capabilities/langgraph-capability-edges.yml
+  href: https://artifacts.apis.io/langgraph/capabilities/langgraph-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/langgraph-capability-edges.yml
@@ -135,17 +139,17 @@ common:
   type: License
   url: https://github.com/langchain-ai/langgraph/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/agentic-access/langgraph-agentic-access.yml
+  href: https://artifacts.apis.io/langgraph/agentic-access/langgraph-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/langgraph-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/security/langgraph-domain-security.yml
+  href: https://artifacts.apis.io/langgraph/security/langgraph-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/langgraph-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/authentication/langgraph-authentication.yml
+  href: https://artifacts.apis.io/langgraph/authentication/langgraph-authentication.yml
   title: ''
   type: Authentication
   url: authentication/langgraph-authentication.yml
@@ -175,7 +179,7 @@ finops:
 - has_sources: false
   method: generated
   name: Langgraph Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: langgraph-finops
   template: true
@@ -185,7 +189,7 @@ modified: '2026-05-19'
 name: LangGraph
 nav: Providers
 network: true
-overview: 'LangGraph publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Connections (v2) API, Auth Service (v2) API, Deployments (v2) API, and 2 more. Tagged areas include Agents, Artificial Intelligence, LLM, Workflows, and Orchestration.
+overview: 'LangGraph publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Connections (v2) API, Auth Service (v2) API, Deployments (v2) API, and 3 more. Tagged areas include Agents, Artificial Intelligence, LLM, Workflows, and Orchestration.
 
 
   LangGraph''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 13 more developer resources.'
@@ -193,14 +197,14 @@ plans:
 - name: Langgraph Plans Pricing
   plan_count: 3
   slug: langgraph-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Langgraph Rate Limits
   slug: langgraph-rate-limits
 score:
   band: thin
-  composite: 31.2
+  composite: 27.6
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.0
@@ -208,38 +212,36 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 49.0
+    contract_quality: 46.0
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 32.6
+  previous_composite: 27.6
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 11
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/screenshots/langgraph-2026-06-20T184305.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/langgraph/langgraph-2026-06-20T184305.png
 security:
 - kind: authentication
   name: Langgraph Authentication

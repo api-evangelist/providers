@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The logging facade providing a feature-rich Java interface for application logging. Applications code against this stable API while delegating to a backing implementation such as Log4j Core.
@@ -45,17 +47,17 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/log4j/refs/heads/main/plans/log4j-plans-pricing.yml
+  href: https://artifacts.apis.io/log4j/plans/log4j-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/log4j-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/log4j/refs/heads/main/rate-limits/log4j-rate-limits.yml
+  href: https://artifacts.apis.io/log4j/rate-limits/log4j-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/log4j-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/log4j/refs/heads/main/finops/log4j-finops.yml
+  href: https://artifacts.apis.io/log4j/finops/log4j-finops.yml
   title: ''
   type: FinOps
   url: finops/log4j-finops.yml
@@ -72,12 +74,12 @@ common:
   type: CodeOfConduct
   url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/log4j/refs/heads/main/security/log4j-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/log4j/security/log4j-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/log4j-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/log4j/refs/heads/main/security/log4j-domain-security.yml
+  href: https://artifacts.apis.io/log4j/security/log4j-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/log4j-domain-security.yml
@@ -119,7 +121,7 @@ finops:
 - has_sources: false
   method: generated
   name: Log4J Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: log4j-finops
   template: true
@@ -137,7 +139,7 @@ plans:
 - name: Log4J Plans Pricing
   plan_count: 3
   slug: log4j-plans-pricing
-random_paper: 18
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Log4J Rate Limits
@@ -152,7 +154,7 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -160,21 +162,21 @@ score:
     developer_ergonomics: 28.6
     discoverability: 57.1
     operational_transparency: 39.5
-  previous_composite: 18.7
+  previous_composite: 17.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/log4j/refs/heads/main/screenshots/log4j-2026-06-20T184648.png
+screenshot: https://apis.io/screenshots/log4j/log4j-2026-06-20T184648.png
 security:
 - kind: domain-security
   name: Log4J Domain Security

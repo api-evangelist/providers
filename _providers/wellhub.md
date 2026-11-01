@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 35.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -66,9 +68,6 @@ apis:
 artifact_total: 14
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Integrations Companies API
   slug: open-wellhub-companies-api
 - collection_type: open
@@ -82,12 +81,12 @@ collections:
   slug: open-wellhub-oauth-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/capabilities/wellhub-capability-edges.yml
+  href: https://artifacts.apis.io/wellhub/capabilities/wellhub-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/wellhub-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/overlays/wellhub-integrations-overlay.yaml
+  href: https://artifacts.apis.io/wellhub/overlays/wellhub-integrations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wellhub-integrations-overlay.yaml
@@ -108,42 +107,42 @@ common:
   type: GettingStarted
   url: https://developer-hub.wellhub.com/docs/integrations/api/getting-started/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/authentication/wellhub-authentication.yml
+  href: https://artifacts.apis.io/wellhub/authentication/wellhub-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wellhub-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/conventions/wellhub-conventions.yml
+  href: https://artifacts.apis.io/wellhub/conventions/wellhub-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wellhub-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/rate-limits/wellhub-rate-limits.yml
+  href: https://artifacts.apis.io/wellhub/rate-limits/wellhub-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wellhub-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/errors/wellhub-problem-types.yml
+  href: https://artifacts.apis.io/wellhub/errors/wellhub-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wellhub-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/lifecycle/wellhub-lifecycle.yml
+  href: https://artifacts.apis.io/wellhub/lifecycle/wellhub-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wellhub-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/sandbox/wellhub-sandbox.yml
+  href: https://artifacts.apis.io/wellhub/sandbox/wellhub-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/wellhub-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/data-model/wellhub-data-model.yml
+  href: https://artifacts.apis.io/wellhub/data-model/wellhub-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wellhub-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/conformance/wellhub-conformance.yml
+  href: https://artifacts.apis.io/wellhub/conformance/wellhub-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wellhub-conformance.yml
@@ -152,32 +151,32 @@ common:
   type: Compliance
   url: https://security.wellhub.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/mcp/wellhub-mcp.yml
+  href: https://artifacts.apis.io/wellhub/mcp/wellhub-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wellhub-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/skills/wellhub-sync-eligibility.md
+  href: https://artifacts.apis.io/wellhub/skills/wellhub-sync-eligibility.md
   title: ''
   type: AgentSkill
   url: skills/wellhub-sync-eligibility.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/agentic-access/wellhub-agentic-access.yml
+  href: https://artifacts.apis.io/wellhub/agentic-access/wellhub-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wellhub-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/llms/wellhub-llms.txt
+  href: https://artifacts.apis.io/wellhub/llms/wellhub-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wellhub-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/security/wellhub-trust-center.yml
+  href: https://artifacts.apis.io/wellhub/security/wellhub-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wellhub-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/security/wellhub-domain-security.yml
+  href: https://artifacts.apis.io/wellhub/security/wellhub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wellhub-domain-security.yml
@@ -217,14 +216,14 @@ overview: 'Wellhub publishes 4 API contracts indexed on the [APIs.io](https://ap
 
 
   Wellhub''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, signup flow, engineering blog, and 20 more developer resources.'
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 10
   name: Wellhub Rate Limits
   slug: wellhub-rate-limits
 score:
   band: developing
-  composite: 44.0
+  composite: 48.6
   coverage:
     artifact_dirs: 21
     catalog_earned: 49.0
@@ -232,15 +231,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 49.9
-    developer_ergonomics: 49.4
-    discoverability: 73.2
+    developer_ergonomics: 66.1
+    discoverability: 66.1
     operational_transparency: 31.6
-  previous_composite: 43.9
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,13 +256,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/screenshots/wellhub-2026-08-17T082909.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wellhub/wellhub-2026-08-17T082909.png
 security:
 - kind: authentication
   name: Wellhub Authentication
@@ -277,6 +277,10 @@ security:
   name: Wellhub Trust Center
   slug: wellhub-trust-center
   summary_line: ISO 27001, PCI DSS, GDPR
+skill_count: 1
+skills:
+- name: Sync employee eligibility to Wellhub
+  slug: wellhub-sync-eligibility
 slug: wellhub
 tags:
 - Company

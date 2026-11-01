@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.8
-  scored_at: '2026-10-17'
+  score: 40.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -100,9 +102,6 @@ asyncapis:
   name: Forum WebSocket Feed
   slug: forum-websocket-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Forum Account API
   slug: open-forum-account-api
@@ -172,102 +171,102 @@ common:
   type: Support
   url: https://docs.forum.market/guide/feedback
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/changelog/forum-changelog.yml
+  href: https://artifacts.apis.io/forum/changelog/forum-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/forum-changelog.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/_original/forum-openapi-original.yml
+  href: https://artifacts.apis.io/forum/openapi/_original/forum-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/forum-openapi-original.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/asyncapi/forum-websocket-asyncapi.yml
+  href: https://artifacts.apis.io/forum/asyncapi/forum-websocket-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/forum-websocket-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/asyncapi/forum-websocket-asyncapi.yml
+  href: https://artifacts.apis.io/forum/asyncapi/forum-websocket-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/forum-websocket-asyncapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/authentication/forum-authentication.yml
+  href: https://artifacts.apis.io/forum/authentication/forum-authentication.yml
   title: ''
   type: Authentication
   url: authentication/forum-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/conventions/forum-conventions.yml
+  href: https://artifacts.apis.io/forum/conventions/forum-conventions.yml
   title: ''
   type: Conventions
   url: conventions/forum-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/conventions/forum-conventions.yml
+  href: https://artifacts.apis.io/forum/conventions/forum-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/forum-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/rate-limits/forum-rate-limits.yml
+  href: https://artifacts.apis.io/forum/rate-limits/forum-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/forum-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/errors/forum-error-codes.yml
+  href: https://artifacts.apis.io/forum/errors/forum-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/forum-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/lifecycle/forum-lifecycle.yml
+  href: https://artifacts.apis.io/forum/lifecycle/forum-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/forum-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/data-model/forum-data-model.yml
+  href: https://artifacts.apis.io/forum/data-model/forum-data-model.yml
   title: ''
   type: DataModel
   url: data-model/forum-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/conformance/forum-conformance.yml
+  href: https://artifacts.apis.io/forum/conformance/forum-conformance.yml
   title: ''
   type: Conformance
   url: conformance/forum-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/agentic-access/forum-agentic-access.yml
+  href: https://artifacts.apis.io/forum/agentic-access/forum-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/forum-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/security/forum-domain-security.yml
+  href: https://artifacts.apis.io/forum/security/forum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/forum-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/well-known/forum-well-known.yml
+  href: https://artifacts.apis.io/forum/well-known/forum-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/forum-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/mcp/forum-mcp.yml
+  href: https://artifacts.apis.io/forum/mcp/forum-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/forum-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/forum/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/llms/forum-llms.txt
+  href: https://artifacts.apis.io/forum/llms/forum-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/forum-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/overlays/forum-openapi-overlay.yaml
+  href: https://artifacts.apis.io/forum/overlays/forum-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/forum-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/arazzo/forum-place-order.yml
+  href: https://artifacts.apis.io/forum/arazzo/forum-place-order.yml
   title: ''
   type: Arazzo
   url: arazzo/forum-place-order.yml
@@ -290,28 +289,28 @@ overview: 'Forum publishes 9 API contracts indexed on the [APIs.io](https://apis
 
 
   Forum''s developer surface includes engineering blog, documentation, API reference, getting-started guide, quickstart, signup flow, support, and 23 more developer resources.'
-random_paper: 3
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Forum Rate Limits
   slug: forum-rate-limits
 score:
-  band: thin
-  composite: 38.3
+  band: developing
+  composite: 46.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 59.9
-    developer_ergonomics: 21.4
-    discoverability: 75.0
+    developer_ergonomics: 64.3
+    discoverability: 65.0
     operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -320,7 +319,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 37.8
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -337,13 +336,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 19.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/screenshots/forum-2026-07-25T215019.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/forum/forum-2026-07-25T215019.png
 security:
 - kind: authentication
   name: Forum Authentication
@@ -353,6 +353,10 @@ security:
   name: Forum Domain Security
   slug: forum-domain-security
   summary_line: TLSv1.2 · DMARC
+skill_count: 1
+skills:
+- name: Forum
+  slug: forum
 slug: forum
 tags:
 - Company

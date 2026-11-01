@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.0
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -76,11 +78,8 @@ apis:
   description: SEND surface - draft, populate, attach, and send messages.
   name: Kno2 Messaging API
   slug: kno2-messaging-api
-artifact_total: 20
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kno2 Communication Attachments API
   slug: open-kno2-attachments-api
@@ -101,7 +100,7 @@ collections:
   slug: open-kno2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/capabilities/kno2-capability-edges.yml
+  href: https://artifacts.apis.io/kno2/capabilities/kno2-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kno2-capability-edges.yml
@@ -114,17 +113,17 @@ common:
   type: License
   url: https://github.com/Kno2/Kno2.ApiTestClient/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/agentic-access/kno2-agentic-access.yml
+  href: https://artifacts.apis.io/kno2/agentic-access/kno2-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kno2-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/security/kno2-domain-security.yml
+  href: https://artifacts.apis.io/kno2/security/kno2-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kno2-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/authentication/kno2-authentication.yml
+  href: https://artifacts.apis.io/kno2/authentication/kno2-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kno2-authentication.yml
@@ -145,17 +144,17 @@ common:
   type: Documentation
   url: https://developer.kno2.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/plans/kno2-plans-pricing.yml
+  href: https://artifacts.apis.io/kno2/plans/kno2-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kno2-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/rate-limits/kno2-rate-limits.yml
+  href: https://artifacts.apis.io/kno2/rate-limits/kno2-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kno2-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/finops/kno2-finops.yml
+  href: https://artifacts.apis.io/kno2/finops/kno2-finops.yml
   title: ''
   type: FinOps
   url: finops/kno2-finops.yml
@@ -188,57 +187,57 @@ common:
   type: SignUp
   url: https://kno2.com/request-a-demo/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/packages/kno2-packages.yml
+  href: https://artifacts.apis.io/kno2/packages/kno2-packages.yml
   title: ''
   type: Packages
   url: packages/kno2-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/mcp/kno2-mcp.yml
+  href: https://artifacts.apis.io/kno2/mcp/kno2-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kno2-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/llms/kno2-llms.txt
+  href: https://artifacts.apis.io/kno2/llms/kno2-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kno2-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/overlays/kno2-attachments-api-overlay.yaml
+  href: https://artifacts.apis.io/kno2/overlays/kno2-attachments-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kno2-attachments-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/overlays/kno2-authentication-api-overlay.yaml
+  href: https://artifacts.apis.io/kno2/overlays/kno2-authentication-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kno2-authentication-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/overlays/kno2-directory-api-overlay.yaml
+  href: https://artifacts.apis.io/kno2/overlays/kno2-directory-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kno2-directory-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/overlays/kno2-intake-api-overlay.yaml
+  href: https://artifacts.apis.io/kno2/overlays/kno2-intake-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kno2-intake-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/overlays/kno2-messaging-api-overlay.yaml
+  href: https://artifacts.apis.io/kno2/overlays/kno2-messaging-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kno2-messaging-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/conformance/kno2-conformance.yml
+  href: https://artifacts.apis.io/kno2/conformance/kno2-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kno2-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/errors/kno2-problem-types.yml
+  href: https://artifacts.apis.io/kno2/errors/kno2-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kno2-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/lifecycle/kno2-lifecycle.yml
+  href: https://artifacts.apis.io/kno2/lifecycle/kno2-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kno2-lifecycle.yml
@@ -247,22 +246,22 @@ common:
   type: StatusPage
   url: https://status.kno2.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/conventions/kno2-conventions.yml
+  href: https://artifacts.apis.io/kno2/conventions/kno2-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kno2-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/data-model/kno2-data-model.yml
+  href: https://artifacts.apis.io/kno2/data-model/kno2-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kno2-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/skills/kno2-send-a-message.md
+  href: https://artifacts.apis.io/kno2/skills/kno2-send-a-message.md
   title: ''
   type: AgentSkill
   url: skills/kno2-send-a-message.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/skills/kno2-process-inbound-message.md
+  href: https://artifacts.apis.io/kno2/skills/kno2-process-inbound-message.md
   title: ''
   type: AgentSkill
   url: skills/kno2-process-inbound-message.md
@@ -290,14 +289,14 @@ plans:
 - name: Kno2 Plans Pricing
   plan_count: 2
   slug: kno2-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Kno2 Rate Limits
   slug: kno2-rate-limits
 score:
-  band: thin
-  composite: 36.2
+  band: developing
+  composite: 42.3
   coverage:
     artifact_dirs: 24
     catalog_earned: 42.0
@@ -305,15 +304,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 22.4
+    access_clarity: 39.5
     contract_governance: 4.5
     contract_quality: 50.9
-    developer_ergonomics: 38.7
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 37.7
+    developer_ergonomics: 48.2
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -333,14 +332,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 16.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 19.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/screenshots/kno2-2026-07-25T224009.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kno2/kno2-2026-07-25T224009.png
 security:
 - kind: authentication
   name: Kno2 Authentication
@@ -350,6 +350,12 @@ security:
   name: Kno2 Domain Security
   slug: kno2-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Process an inbound Kno2 message
+  slug: kno2-process-inbound-message
+- name: Send a message via Kno2 Direct Secure Messaging
+  slug: kno2-send-a-message
 slug: kno2
 tags:
 - Interoperability

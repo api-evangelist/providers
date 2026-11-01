@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Headless flow-execution API for iX Hello Customer v2. Starts a stateful conversational session against an authored flow, sends user turns into it, reads accumulated session variables, and terminates t
@@ -72,77 +74,77 @@ common:
   type: StatusPage
   url: https://ixhellosidekick.statuspage.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/llms/concentrix-llms.txt
+  href: https://artifacts.apis.io/concentrix/llms/concentrix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/concentrix-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/llms/concentrix-ixhello-llms.txt
+  href: https://artifacts.apis.io/concentrix/llms/concentrix-ixhello-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/concentrix-ixhello-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/well-known/concentrix-well-known.yml
+  href: https://artifacts.apis.io/concentrix/well-known/concentrix-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/concentrix-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/authentication/concentrix-authentication.yml
+  href: https://artifacts.apis.io/concentrix/authentication/concentrix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/concentrix-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/conventions/concentrix-conventions.yml
+  href: https://artifacts.apis.io/concentrix/conventions/concentrix-conventions.yml
   title: ''
   type: Conventions
   url: conventions/concentrix-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/errors/concentrix-problem-types.yml
+  href: https://artifacts.apis.io/concentrix/errors/concentrix-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/concentrix-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/lifecycle/concentrix-lifecycle.yml
+  href: https://artifacts.apis.io/concentrix/lifecycle/concentrix-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/concentrix-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/rate-limits/concentrix-rate-limits.yml
+  href: https://artifacts.apis.io/concentrix/rate-limits/concentrix-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/concentrix-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/plans/concentrix-plans-pricing.yml
+  href: https://artifacts.apis.io/concentrix/plans/concentrix-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/concentrix-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/asyncapi/concentrix-ix-hello-webhooks.yml
+  href: https://artifacts.apis.io/concentrix/asyncapi/concentrix-ix-hello-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/concentrix-ix-hello-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/data-model/concentrix-data-model.yml
+  href: https://artifacts.apis.io/concentrix/data-model/concentrix-data-model.yml
   title: ''
   type: DataModel
   url: data-model/concentrix-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/components/concentrix-components.yml
+  href: https://artifacts.apis.io/concentrix/components/concentrix-components.yml
   title: ''
   type: Components
   url: components/concentrix-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/sandbox/concentrix-sandbox.yml
+  href: https://artifacts.apis.io/concentrix/sandbox/concentrix-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/concentrix-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/conformance/concentrix-conformance.yml
+  href: https://artifacts.apis.io/concentrix/conformance/concentrix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/concentrix-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/security/concentrix-domain-security.yml
+  href: https://artifacts.apis.io/concentrix/security/concentrix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/concentrix-domain-security.yml
@@ -209,30 +211,30 @@ plans:
 - name: Concentrix Plans Pricing
   plan_count: 0
   slug: concentrix-plans-pricing
-random_paper: 7
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Concentrix Rate Limits
   slug: concentrix-rate-limits
 score:
-  band: thin
-  composite: 37.5
+  band: developing
+  composite: 41.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 54.8
-    discoverability: 74.1
-    operational_transparency: 26.3
-  previous_composite: 37.9
+    discoverability: 67.9
+    operational_transparency: 28.9
+  previous_composite: 41.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -241,15 +243,15 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/screenshots/concentrix-2026-06-20T174841.png
+screenshot: https://apis.io/screenshots/concentrix/concentrix-2026-06-20T174841.png
 security:
 - kind: authentication
   name: Concentrix Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: CEHRT-certified API (§ 170.315(g)(7)) for patient data selection, enabling authorized access to patient records within the Axxess EHR platform using FHIR standards.
@@ -48,7 +50,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/axxess/refs/heads/main/security/axxess-domain-security.yml
+  href: https://artifacts.apis.io/axxess/security/axxess-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/axxess-domain-security.yml
@@ -117,7 +119,7 @@ modified: '2026-06-13'
 name: Axxess
 nav: Providers
 network: true
-overview: 'Axxess is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Home Health, Hospice, Private Duty, Electronic Health Records, and Healthcare.
+overview: 'Axxess is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Home Care, Hospice, Private Duty, Electronic Health Records, and Healthcare.
 
 
   The Axxess catalog on APIs.io includes 1 JSON-LD context.
@@ -128,14 +130,14 @@ plans:
 - name: Axxess Plans Pricing
   plan_count: 3
   slug: axxess-plans-pricing
-random_paper: 8
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Axxess Rate Limits
   slug: axxess-rate-limits
 score:
   band: emerging
-  composite: 13.3
+  composite: 13.4
   coverage:
     artifact_dirs: 8
     catalog_earned: 51.0
@@ -143,29 +145,29 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 11.9
-    discoverability: 72.3
+    discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 19.0
+  previous_composite: 13.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/axxess/refs/heads/main/screenshots/axxess-2026-06-20T172828.png
+screenshot: https://apis.io/screenshots/axxess/axxess-2026-06-20T172828.png
 security:
 - kind: domain-security
   name: Axxess Domain Security
@@ -173,7 +175,7 @@ security:
   summary_line: TLSv1.2 · DMARC
 slug: axxess
 tags:
-- Home Health
+- Home Care
 - Hospice
 - Private Duty
 - Electronic Health Records
@@ -183,6 +185,5 @@ tags:
 - Billing
 - Scheduling
 - Visit Documentation
-- Home Care
 website: https://www.axxess.com
 ---

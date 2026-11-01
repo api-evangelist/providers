@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Matternet's proprietary cloud platform that receives customer delivery requests, generates routes, and commands, controls, and monitors all operating Matternet assets. A consistent internal Hasura-pow
@@ -42,11 +44,8 @@ apis:
 - description: Operator-facing logistics surface for requesting deliveries and tracking payload chain-of-custody across hospital, laboratory, and pharmacy workflows. Matternet has referenced a secure medical drone d
   name: Matternet Logistics Integration
   slug: matternet-logistics-integration
-artifact_total: 8
+artifact_total: 7
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Matternet Cloud Platform API
   slug: open-matternet
@@ -56,7 +55,7 @@ common:
   type: BlogRSS
   url: https://www.matternet.com/newsroom?format=rss
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matternet/refs/heads/main/security/matternet-domain-security.yml
+  href: https://artifacts.apis.io/matternet/security/matternet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/matternet-domain-security.yml
@@ -73,17 +72,17 @@ common:
   type: Documentation
   url: https://www.matternet.com/our-system
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/matternet/refs/heads/main/plans/matternet-plans-pricing.yml
+  href: https://artifacts.apis.io/matternet/plans/matternet-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/matternet-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/matternet/refs/heads/main/rate-limits/matternet-rate-limits.yml
+  href: https://artifacts.apis.io/matternet/rate-limits/matternet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/matternet-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/matternet/refs/heads/main/finops/matternet-finops.yml
+  href: https://artifacts.apis.io/matternet/finops/matternet-finops.yml
   title: ''
   type: FinOps
   url: finops/matternet-finops.yml
@@ -119,14 +118,14 @@ plans:
 - name: Matternet Plans Pricing
   plan_count: 1
   slug: matternet-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Matternet Rate Limits
   slug: matternet-rate-limits
 score:
   band: emerging
-  composite: 14.9
+  composite: 16.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -134,29 +133,29 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
-    contract_quality: 23.3
+    contract_quality: 29.7
     developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 7.9
-  previous_composite: 21.8
+  previous_composite: 16.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/matternet/refs/heads/main/screenshots/matternet-2026-06-20T185042.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/matternet/matternet-2026-06-20T185042.png
 security:
 - kind: domain-security
   name: Matternet Domain Security

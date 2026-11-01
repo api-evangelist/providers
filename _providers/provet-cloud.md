@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.1
-  scored_at: '2026-10-17'
+  score: 31.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -79,11 +81,8 @@ apis:
   description: Event subscriptions.
   name: Provet Cloud Webhooks API
   slug: provet-cloud-webhooks-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Provet Cloud REST Appointments API
   slug: open-provet-cloud-appointments-api
@@ -110,27 +109,27 @@ collections:
   slug: open-provet-cloud
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/capabilities/provet-cloud-capability-edges.yml
+  href: https://artifacts.apis.io/provet-cloud/capabilities/provet-cloud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/provet-cloud-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/agentic-access/provet-cloud-agentic-access.yml
+  href: https://artifacts.apis.io/provet-cloud/agentic-access/provet-cloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/provet-cloud-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/security/provet-cloud-domain-security.yml
+  href: https://artifacts.apis.io/provet-cloud/security/provet-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/provet-cloud-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/authentication/provet-cloud-authentication.yml
+  href: https://artifacts.apis.io/provet-cloud/authentication/provet-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/provet-cloud-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/scopes/provet-cloud-scopes.yml
+  href: https://artifacts.apis.io/provet-cloud/scopes/provet-cloud-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/provet-cloud-scopes.yml
@@ -147,17 +146,17 @@ common:
   type: Documentation
   url: https://developers.provetcloud.com/restapi/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/plans/provet-cloud-plans-pricing.yml
+  href: https://artifacts.apis.io/provet-cloud/plans/provet-cloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/provet-cloud-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/rate-limits/provet-cloud-rate-limits.yml
+  href: https://artifacts.apis.io/provet-cloud/rate-limits/provet-cloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/provet-cloud-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/finops/provet-cloud-finops.yml
+  href: https://artifacts.apis.io/provet-cloud/finops/provet-cloud-finops.yml
   title: ''
   type: FinOps
   url: finops/provet-cloud-finops.yml
@@ -189,7 +188,7 @@ plans:
 - name: Provet Cloud Plans Pricing
   plan_count: 3
   slug: provet-cloud-plans-pricing
-random_paper: 20
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Provet Cloud Rate Limits
@@ -201,15 +200,15 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 26.3
+  composite: 27.0
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -217,7 +216,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 34.6
+  previous_composite: 27.0
   provenance:
     agentic_access: derived
     contracts:
@@ -231,13 +230,14 @@ score:
     regime: Health
     regime_id: health
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/screenshots/provet-cloud-2026-09-02T152308.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/provet-cloud/provet-cloud-2026-09-02T152308.png
 security:
 - kind: authentication
   name: Provet Cloud Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -73,11 +75,8 @@ apis:
   description: Create, update, retrieve, and list users; manage presence.
   name: TalkJS Users API
   slug: talkjs-users-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TalkJS REST Conversations API
   slug: open-talkjs-conversations-api
@@ -98,27 +97,27 @@ collections:
   slug: open-talkjs
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/agentic-access/talkjs-agentic-access.yml
+  href: https://artifacts.apis.io/talkjs/agentic-access/talkjs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/talkjs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/security/talkjs-trust-center.yml
+  href: https://artifacts.apis.io/talkjs/security/talkjs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/talkjs-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/security/talkjs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/talkjs/security/talkjs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/talkjs-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/security/talkjs-domain-security.yml
+  href: https://artifacts.apis.io/talkjs/security/talkjs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/talkjs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/authentication/talkjs-authentication.yml
+  href: https://artifacts.apis.io/talkjs/authentication/talkjs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/talkjs-authentication.yml
@@ -139,17 +138,17 @@ common:
   type: Documentation
   url: https://talkjs.com/docs/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/plans/talkjs-plans-pricing.yml
+  href: https://artifacts.apis.io/talkjs/plans/talkjs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/talkjs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/rate-limits/talkjs-rate-limits.yml
+  href: https://artifacts.apis.io/talkjs/rate-limits/talkjs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/talkjs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/finops/talkjs-finops.yml
+  href: https://artifacts.apis.io/talkjs/finops/talkjs-finops.yml
   title: ''
   type: FinOps
   url: finops/talkjs-finops.yml
@@ -181,14 +180,14 @@ plans:
 - name: Talkjs Plans Pricing
   plan_count: 3
   slug: talkjs-plans-pricing
-random_paper: 11
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Talkjs Rate Limits
   slug: talkjs-rate-limits
 score:
   band: thin
-  composite: 33.4
+  composite: 32.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 43.0
@@ -196,15 +195,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 48.4
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 41.7
+    operational_transparency: 23.7
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -218,13 +217,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/screenshots/talkjs-2026-06-20T194905.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/talkjs/talkjs-2026-06-20T194905.png
 security:
 - kind: authentication
   name: Talkjs Authentication

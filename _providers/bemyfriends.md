@@ -14,21 +14,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bemyfriends/refs/heads/main/hosts/bemyfriends-hosts.yml
+  href: https://artifacts.apis.io/bemyfriends/hosts/bemyfriends-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bemyfriends-hosts.yml
@@ -37,7 +39,7 @@ common:
   type: PrivacyPolicy
   url: https://bemyfriends.com/privacy-policy?hl=null
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bemyfriends/refs/heads/main/security/bemyfriends-domain-security.yml
+  href: https://artifacts.apis.io/bemyfriends/security/bemyfriends-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bemyfriends-domain-security.yml
@@ -61,7 +63,7 @@ name: Bemyfriends
 nav: Providers
 network: true
 overview: Bemyfriends is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fandom, Business, Solutions, and Global.
-random_paper: 10
+random_paper: 0
 score:
   band: minimal
   composite: 6.1
@@ -94,14 +96,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bemyfriends/refs/heads/main/screenshots/bemyfriends-2026-10-11T101853.png
+screenshot: https://apis.io/screenshots/bemyfriends/bemyfriends-2026-10-11T101853.png
 security:
 - kind: domain-security
   name: Bemyfriends Domain Security

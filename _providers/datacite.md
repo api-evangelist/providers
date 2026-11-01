@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-17'
+  score: 24.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -121,11 +123,8 @@ apis:
   description: DOIs
   name: DataCite Dois API
   slug: datacite-dois-api
-artifact_total: 39
+artifact_total: 38
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: REST activities API
   slug: open-datacite-activities-api
@@ -170,22 +169,22 @@ collections:
   slug: open-datacite-status-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/capabilities/datacite-capability-edges.yml
+  href: https://artifacts.apis.io/datacite/capabilities/datacite-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/datacite-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/agentic-access/datacite-agentic-access.yml
+  href: https://artifacts.apis.io/datacite/agentic-access/datacite-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/datacite-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/security/datacite-domain-security.yml
+  href: https://artifacts.apis.io/datacite/security/datacite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datacite-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/authentication/datacite-authentication.yml
+  href: https://artifacts.apis.io/datacite/authentication/datacite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/datacite-authentication.yml
@@ -230,22 +229,22 @@ common:
   type: UpcomingChanges
   url: https://support.datacite.org/docs/upcoming-changes
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/json-ld/datacite-context.jsonld
+  href: https://artifacts.apis.io/datacite/json-ld/datacite-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/datacite-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/plans/datacite-plans-pricing.yml
+  href: https://artifacts.apis.io/datacite/plans/datacite-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/datacite-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/rate-limits/datacite-rate-limits.yml
+  href: https://artifacts.apis.io/datacite/rate-limits/datacite-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/datacite-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/finops/datacite-finops.yml
+  href: https://artifacts.apis.io/datacite/finops/datacite-finops.yml
   title: ''
   type: FinOps
   url: finops/datacite-finops.yml
@@ -285,14 +284,14 @@ plans:
 - name: Datacite Plans Pricing
   plan_count: 6
   slug: datacite-plans-pricing
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Datacite Rate Limits
   slug: datacite-rate-limits
 score:
   band: thin
-  composite: 29.7
+  composite: 33.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 51.0
@@ -300,15 +299,15 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 0.0
-    contract_quality: 59.2
-    developer_ergonomics: 21.4
+    contract_quality: 56.2
+    developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 38.0
+    operational_transparency: 28.9
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     contracts:
@@ -322,13 +321,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/screenshots/datacite-2026-06-20T175634.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/datacite/datacite-2026-06-20T175634.png
 security:
 - kind: authentication
   name: Datacite Authentication

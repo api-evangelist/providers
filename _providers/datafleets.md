@@ -23,7 +23,7 @@ plans:
 - name: Datafleets Plans Pricing
   plan_count: 7
   slug: datafleets-plans-pricing
-random_paper: 19
+random_paper: 21
 slug: datafleets
 tags:
 - Company

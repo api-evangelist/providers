@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Josys API provides programmatic access to the Josys SaaS and IT asset management platform, including endpoints for users, applications, devices, licenses, and provisioning workflows.
@@ -42,17 +44,17 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/josys/refs/heads/main/plans/josys-plans-pricing.yml
+  href: https://artifacts.apis.io/josys/plans/josys-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/josys-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/josys/refs/heads/main/rate-limits/josys-rate-limits.yml
+  href: https://artifacts.apis.io/josys/rate-limits/josys-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/josys-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/josys/refs/heads/main/finops/josys-finops.yml
+  href: https://artifacts.apis.io/josys/finops/josys-finops.yml
   title: ''
   type: FinOps
   url: finops/josys-finops.yml
@@ -65,7 +67,7 @@ common:
   type: BlogRSS
   url: https://www.josys.com/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/josys/refs/heads/main/security/josys-domain-security.yml
+  href: https://artifacts.apis.io/josys/security/josys-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/josys-domain-security.yml
@@ -99,7 +101,7 @@ finops:
 - has_sources: false
   method: generated
   name: Josys Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: josys-finops
   template: true
@@ -117,44 +119,44 @@ plans:
 - name: Josys Plans Pricing
   plan_count: 3
   slug: josys-plans-pricing
-random_paper: 18
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Josys Rate Limits
   slug: josys-rate-limits
 score:
   band: emerging
-  composite: 11.5
+  composite: 11.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 33.0
     catalog_earned_first_party: 0.0
     catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 55.4
-    operational_transparency: 26.3
-  previous_composite: 12.6
+    operational_transparency: 28.9
+  previous_composite: 11.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/josys/refs/heads/main/screenshots/josys-2026-06-20T183803.png
+screenshot: https://apis.io/screenshots/josys/josys-2026-06-20T183803.png
 security:
 - kind: domain-security
   name: Josys Domain Security

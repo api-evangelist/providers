@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for programmatic management of cap table data including stakeholders, equity grants, option pools, convertible instruments, vesting schedules, and investor reporting. Used by integrations wit
@@ -42,12 +44,12 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pulley/refs/heads/main/security/pulley-trust-center.yml
+  href: https://artifacts.apis.io/pulley/security/pulley-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pulley-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pulley/refs/heads/main/security/pulley-domain-security.yml
+  href: https://artifacts.apis.io/pulley/security/pulley-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pulley-domain-security.yml
@@ -84,17 +86,17 @@ common:
   type: X
   url: https://x.com/pulleyapp
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pulley/refs/heads/main/plans/pulley-plans-pricing.yml
+  href: https://artifacts.apis.io/pulley/plans/pulley-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pulley-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pulley/refs/heads/main/rate-limits/pulley-rate-limits.yml
+  href: https://artifacts.apis.io/pulley/rate-limits/pulley-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pulley-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pulley/refs/heads/main/finops/pulley-finops.yml
+  href: https://artifacts.apis.io/pulley/finops/pulley-finops.yml
   title: ''
   type: FinOps
   url: finops/pulley-finops.yml
@@ -130,44 +132,44 @@ plans:
 - name: Pulley Plans Pricing
   plan_count: 6
   slug: pulley-plans-pricing
-random_paper: 7
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Pulley Rate Limits
   slug: pulley-rate-limits
 score:
   band: emerging
-  composite: 19.8
+  composite: 20.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 51.0
     catalog_earned_first_party: 0.0
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 28.0
+    operational_transparency: 28.9
+  previous_composite: 20.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pulley/refs/heads/main/screenshots/pulley-2026-06-20T192253.png
+screenshot: https://apis.io/screenshots/pulley/pulley-2026-06-20T192253.png
 security:
 - kind: domain-security
   name: Pulley Domain Security

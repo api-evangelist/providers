@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/newfield-exploration/refs/heads/main/security/newfield-exploration-domain-security.yml
+  href: https://artifacts.apis.io/newfield-exploration/security/newfield-exploration-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/newfield-exploration-domain-security.yml
@@ -74,7 +76,7 @@ press:
 - date: ''
   title: Newfield Exploration | Company Overview & News
   url: https://www.forbes.com/companies/newfield-exploration/
-random_paper: 6
+random_paper: 8
 score:
   band: minimal
   composite: 1.8
@@ -100,14 +102,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/newfield-exploration/refs/heads/main/screenshots/newfield-exploration-2026-06-20T190237.png
+screenshot: https://apis.io/screenshots/newfield-exploration/newfield-exploration-2026-06-20T190237.png
 security:
 - kind: domain-security
   name: Newfield Exploration Domain Security

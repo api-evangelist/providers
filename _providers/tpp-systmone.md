@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: TPP's local client-integration interface allowing an approved third-party application to interact with a running SystmOne client. Communication is performed with XML documents (validated against publi
@@ -62,7 +64,7 @@ common:
   type: BlogRSS
   url: https://tpp-uk.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tpp-systmone/refs/heads/main/security/tpp-systmone-domain-security.yml
+  href: https://artifacts.apis.io/tpp-systmone/security/tpp-systmone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tpp-systmone-domain-security.yml
@@ -103,27 +105,27 @@ common:
   type: Compliance
   url: https://tpp-uk.com/iso-27001/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tpp-systmone/refs/heads/main/authentication/tpp-systmone-authentication.yml
+  href: https://artifacts.apis.io/tpp-systmone/authentication/tpp-systmone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tpp-systmone-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tpp-systmone/refs/heads/main/conformance/tpp-systmone-conformance.yml
+  href: https://artifacts.apis.io/tpp-systmone/conformance/tpp-systmone-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tpp-systmone-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tpp-systmone/refs/heads/main/well-known/tpp-systmone-well-known.yml
+  href: https://artifacts.apis.io/tpp-systmone/well-known/tpp-systmone-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tpp-systmone-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tpp-systmone/refs/heads/main/lifecycle/tpp-systmone-lifecycle.yml
+  href: https://artifacts.apis.io/tpp-systmone/lifecycle/tpp-systmone-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tpp-systmone-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tpp-systmone/refs/heads/main/llms/tpp-systmone-llms.txt
+  href: https://artifacts.apis.io/tpp-systmone/llms/tpp-systmone-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tpp-systmone-llms.txt
@@ -140,10 +142,10 @@ overview: 'TPP (SystmOne) is listed with 6 APIs on the [APIs.io](https://apis.io
 
 
   TPP (SystmOne)''s developer surface includes documentation, getting-started guide, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 7
+random_paper: 11
 score:
-  band: emerging
-  composite: 23.3
+  band: thin
+  composite: 26.8
   coverage:
     artifact_dirs: 10
     catalog_earned: 35.0
@@ -153,12 +155,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 9.2
+    access_clarity: 18.4
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 51.2
-    discoverability: 69.6
-    operational_transparency: 5.3
+    developer_ergonomics: 57.1
+    discoverability: 62.5
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -167,7 +169,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 23.3
+  previous_composite: 26.8
   provenance:
     conformance: first-party
   regulatory:
@@ -175,15 +177,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 21.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 25.0
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tpp-systmone/refs/heads/main/screenshots/tpp-systmone-2026-09-02T164009.png
+screenshot: https://apis.io/screenshots/tpp-systmone/tpp-systmone-2026-09-02T164009.png
 security:
 - kind: authentication
   name: Tpp Systmone Authentication

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Storytel provides audiobook and e‑book streaming services, but no public developer documentation or API contracts were found.
@@ -32,37 +34,37 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/storytel/refs/heads/main/well-known/storytel-www-security.txt
+  href: https://artifacts.apis.io/storytel/well-known/storytel-www-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/storytel-www-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/storytel/refs/heads/main/security/storytel-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/storytel/security/storytel-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/storytel-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/storytel/refs/heads/main/llms/storytel-llms.txt
+  href: https://artifacts.apis.io/storytel/llms/storytel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/storytel-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/storytel/refs/heads/main/well-known/storytel-security.txt
+  href: https://artifacts.apis.io/storytel/well-known/storytel-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/storytel-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/storytel/refs/heads/main/well-known/storytel-well-known.yml
+  href: https://artifacts.apis.io/storytel/well-known/storytel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/storytel-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/storytel/refs/heads/main/hosts/storytel-hosts.yml
+  href: https://artifacts.apis.io/storytel/hosts/storytel-hosts.yml
   title: ''
   type: Hosts
   url: hosts/storytel-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/storytel/refs/heads/main/vendors/storytel-vendors.yml
+  href: https://artifacts.apis.io/storytel/vendors/storytel-vendors.yml
   title: ''
   type: Vendors
   url: vendors/storytel-vendors.yml
@@ -91,12 +93,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/Storytel
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/storytel/refs/heads/main/security/storytel-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/storytel/security/storytel-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/storytel-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/storytel/refs/heads/main/security/storytel-domain-security.yml
+  href: https://artifacts.apis.io/storytel/security/storytel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/storytel-domain-security.yml
@@ -124,10 +126,10 @@ overview: 'Storytel is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Storytel''s developer surface includes support, engineering blog, and 14 more developer resources.'
-random_paper: 0
+random_paper: 14
 score:
   band: emerging
-  composite: 17.4
+  composite: 16.7
   coverage:
     artifact_dirs: 6
     catalog_earned: 32.0
@@ -135,13 +137,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 15.8
+  previous_composite: 16.7
   provenance:
     mcp: derived
   regulatory:
@@ -150,8 +154,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

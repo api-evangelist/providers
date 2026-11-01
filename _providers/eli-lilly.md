@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eli-lilly/refs/heads/main/security/eli-lilly-domain-security.yml
+  href: https://artifacts.apis.io/eli-lilly/security/eli-lilly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eli-lilly-domain-security.yml
@@ -85,12 +87,12 @@ press:
 - date: ''
   title: NVIDIA and Lilly Announce Co-Innovation AI Lab to Reinvent ...
   url: https://investor.lilly.com/news-releases/news-release-details/nvidia-and-lilly-announce-co-innovation-ai-lab-reinvent-drug
-random_paper: 7
+random_paper: 21
 score:
   band: minimal
-  composite: 3.6
+  composite: 4.0
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -103,22 +105,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 39.3
-    operational_transparency: 2.6
-  previous_composite: 3.6
+    operational_transparency: 5.3
+  previous_composite: 4.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/eli-lilly/refs/heads/main/screenshots/eli-lilly-2026-07-25T213138.png
+screenshot: https://apis.io/screenshots/eli-lilly/eli-lilly-2026-07-25T213138.png
 security:
 - kind: domain-security
   name: Eli Lilly Domain Security

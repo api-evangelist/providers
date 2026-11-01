@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,16 +38,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: ModRetro's agent-facing commerce API. A remote Model Context Protocol server implementing the Universal Commerce Protocol shopping service (versions 2026-04-08 and 2026-01-23), exposing 13 tools acros
   name: ModRetro Agent Commerce API (UCP over MCP)
   slug: modretro-agent-commerce-api-ucp-over-mcp
-artifact_total: 7
+artifact_total: 10
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/security/modretro-domain-security.yml
+  href: https://artifacts.apis.io/modretro/security/modretro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/modretro-domain-security.yml
@@ -58,82 +60,82 @@ common:
   type: Documentation
   url: https://modretro.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/llms/modretro-llms.txt
+  href: https://artifacts.apis.io/modretro/llms/modretro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/modretro-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/mcp/modretro-mcp.yml
+  href: https://artifacts.apis.io/modretro/mcp/modretro-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/modretro-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/well-known/modretro-well-known.yml
+  href: https://artifacts.apis.io/modretro/well-known/modretro-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/modretro-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/authentication/modretro-authentication.yml
+  href: https://artifacts.apis.io/modretro/authentication/modretro-authentication.yml
   title: ''
   type: Authentication
   url: authentication/modretro-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/scopes/modretro-scopes.yml
+  href: https://artifacts.apis.io/modretro/scopes/modretro-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/modretro-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/conventions/modretro-conventions.yml
+  href: https://artifacts.apis.io/modretro/conventions/modretro-conventions.yml
   title: ''
   type: Conventions
   url: conventions/modretro-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/conventions/modretro-conventions.yml
+  href: https://artifacts.apis.io/modretro/conventions/modretro-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/modretro-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/rate-limits/modretro-rate-limits.yml
+  href: https://artifacts.apis.io/modretro/rate-limits/modretro-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/modretro-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/errors/modretro-problem-types.yml
+  href: https://artifacts.apis.io/modretro/errors/modretro-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/modretro-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/conformance/modretro-conformance.yml
+  href: https://artifacts.apis.io/modretro/conformance/modretro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/modretro-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/data-model/modretro-data-model.yml
+  href: https://artifacts.apis.io/modretro/data-model/modretro-data-model.yml
   title: ''
   type: DataModel
   url: data-model/modretro-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/lifecycle/modretro-lifecycle.yml
+  href: https://artifacts.apis.io/modretro/lifecycle/modretro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/modretro-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/changelog/modretro-changelog.yml
+  href: https://artifacts.apis.io/modretro/changelog/modretro-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/modretro-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/packages/modretro-packages.yml
+  href: https://artifacts.apis.io/modretro/packages/modretro-packages.yml
   title: ''
   type: Packages
   url: packages/modretro-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/plans/modretro-plans-pricing.yml
+  href: https://artifacts.apis.io/modretro/plans/modretro-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/modretro-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/modretro/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -197,7 +199,7 @@ plans:
 - name: Modretro Plans Pricing
   plan_count: 0
   slug: modretro-plans-pricing
-random_paper: 18
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Modretro Rate Limits
@@ -209,7 +211,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 32.7
+  composite: 32.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 45.0
@@ -217,15 +219,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 75.0
-    operational_transparency: 39.5
-  previous_composite: 32.6
+    discoverability: 65.0
+    operational_transparency: 42.1
+  previous_composite: 32.1
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -236,14 +238,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/screenshots/modretro-2026-09-02T150613.png
+screenshot: https://apis.io/screenshots/modretro/modretro-2026-09-02T150613.png
 security:
 - kind: authentication
   name: Modretro Authentication
@@ -253,6 +255,14 @@ security:
   name: Modretro Domain Security
   slug: modretro-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Buy a ModRetro console on a buyer's behalf
+  slug: modretro-buy-a-console
+- name: Look up ModRetro products, prices and availability
+  slug: modretro-catalog-lookup
+- name: Check a ModRetro order and explain what can still be changed
+  slug: modretro-order-status
 slug: modretro
 tags:
 - Company

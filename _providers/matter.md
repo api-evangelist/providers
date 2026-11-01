@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.1
-  scored_at: '2026-10-17'
+  score: 32.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 17
   slug: matter-agentic-access
   summary_line: 17 operations · 9 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.getmatter.com/public/v1
   baseurl_source: declared
@@ -75,11 +77,8 @@ apis:
   description: Labels for organizing items.
   name: Matter Tags API
   slug: matter-tags-api
-artifact_total: 18
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Matter Account API
   slug: open-matter-account-api
@@ -100,7 +99,7 @@ collections:
   slug: open-matter-tags-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/overlays/matter-openapi-overlay.yaml
+  href: https://artifacts.apis.io/matter/overlays/matter-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matter-openapi-overlay.yaml
@@ -121,97 +120,97 @@ common:
   type: GettingStarted
   url: https://docs.getmatter.com/api/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/authentication/matter-authentication.yml
+  href: https://artifacts.apis.io/matter/authentication/matter-authentication.yml
   title: ''
   type: Authentication
   url: authentication/matter-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/conventions/matter-conventions.yml
+  href: https://artifacts.apis.io/matter/conventions/matter-conventions.yml
   title: ''
   type: Conventions
   url: conventions/matter-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/errors/matter-problem-types.yml
+  href: https://artifacts.apis.io/matter/errors/matter-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/matter-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/rate-limits/matter-rate-limits.yml
+  href: https://artifacts.apis.io/matter/rate-limits/matter-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/matter-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/lifecycle/matter-lifecycle.yml
+  href: https://artifacts.apis.io/matter/lifecycle/matter-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/matter-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/lifecycle/matter-lifecycle.yml
+  href: https://artifacts.apis.io/matter/lifecycle/matter-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/matter-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/data-model/matter-data-model.yml
+  href: https://artifacts.apis.io/matter/data-model/matter-data-model.yml
   title: ''
   type: DataModel
   url: data-model/matter-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/conformance/matter-conformance.yml
+  href: https://artifacts.apis.io/matter/conformance/matter-conformance.yml
   title: ''
   type: Conformance
   url: conformance/matter-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/packages/matter-packages.yml
+  href: https://artifacts.apis.io/matter/packages/matter-packages.yml
   title: ''
   type: Packages
   url: packages/matter-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/cli/matter-cli.yml
+  href: https://artifacts.apis.io/matter/cli/matter-cli.yml
   title: ''
   type: CLI
   url: cli/matter-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/mcp/matter-mcp.yml
+  href: https://artifacts.apis.io/matter/mcp/matter-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/matter-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/matter/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/agentic-access/matter-agentic-access.yml
+  href: https://artifacts.apis.io/matter/agentic-access/matter-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/matter-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/llms/matter-llms.txt
+  href: https://artifacts.apis.io/matter/llms/matter-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/matter-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/well-known/matter-well-known.yml
+  href: https://artifacts.apis.io/matter/well-known/matter-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/matter-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/well-known/matter-security.txt
+  href: https://artifacts.apis.io/matter/well-known/matter-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/matter-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/security/matter-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/matter/security/matter-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/matter-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/security/matter-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/matter/security/matter-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/matter-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/security/matter-domain-security.yml
+  href: https://artifacts.apis.io/matter/security/matter-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/matter-domain-security.yml
@@ -255,14 +254,14 @@ overview: 'Matter publishes 6 API contracts indexed on the [APIs.io](https://api
 
 
   Matter''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, support, signup flow, and 24 more developer resources.'
-random_paper: 15
+random_paper: 5
 rate_limits:
 - limit_count: 6
   name: Matter Rate Limits
   slug: matter-rate-limits
 score:
   band: developing
-  composite: 51.2
+  composite: 49.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 49.0
@@ -270,15 +269,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 56.9
+    contract_quality: 53.5
     developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 52.6
-  previous_composite: 51.1
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,13 +294,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/screenshots/matter-2026-07-25T230422.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/matter/matter-2026-07-25T230422.png
 security:
 - kind: authentication
   name: Matter Authentication
@@ -315,6 +315,14 @@ security:
   name: Matter Vulnerability Disclosure
   slug: matter-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Save and organize an article in Matter
+  slug: matter-save-and-organize
+- name: Search Matter and read an item with its highlights
+  slug: matter-search-and-read
+- name: Incrementally sync a Matter library
+  slug: matter-sync-library
 slug: matter
 tags:
 - Company

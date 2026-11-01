@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for the Employment Hero platform (behind humi.ca) — employees, organisations, payroll, leave, timesheets, rostering, documents, and webhooks. OAuth 2.0 authorization-code with PKCE; Bearer to
@@ -50,7 +52,7 @@ common:
   type: BlogRSS
   url: https://employmenthero.com/en-ca/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/security/humica-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/humica/security/humica-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/humica-vulnerability-disclosure.yml
@@ -59,7 +61,7 @@ common:
   type: Security
   url: https://employmenthero.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/security/humica-domain-security.yml
+  href: https://artifacts.apis.io/humica/security/humica-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/humica-domain-security.yml
@@ -80,22 +82,22 @@ common:
   type: APIReference
   url: https://developer.employmenthero.com/api-references
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/authentication/humica-authentication.yml
+  href: https://artifacts.apis.io/humica/authentication/humica-authentication.yml
   title: ''
   type: Authentication
   url: authentication/humica-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/scopes/humica-scopes.yml
+  href: https://artifacts.apis.io/humica/scopes/humica-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/humica-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/conventions/humica-conventions.yml
+  href: https://artifacts.apis.io/humica/conventions/humica-conventions.yml
   title: ''
   type: Conventions
   url: conventions/humica-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/lifecycle/humica-lifecycle.yml
+  href: https://artifacts.apis.io/humica/lifecycle/humica-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/humica-lifecycle.yml
@@ -104,42 +106,42 @@ common:
   type: StatusPage
   url: https://status.employmenthero.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/changelog/humica-changelog.yml
+  href: https://artifacts.apis.io/humica/changelog/humica-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/humica-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/conformance/humica-conformance.yml
+  href: https://artifacts.apis.io/humica/conformance/humica-conformance.yml
   title: ''
   type: Conformance
   url: conformance/humica-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/data-model/humica-data-model.yml
+  href: https://artifacts.apis.io/humica/data-model/humica-data-model.yml
   title: ''
   type: DataModel
   url: data-model/humica-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/mcp/humica-mcp.yml
+  href: https://artifacts.apis.io/humica/mcp/humica-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/humica-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/data-model/humica-data-model.yml
+  href: https://artifacts.apis.io/humica/data-model/humica-data-model.yml
   title: ''
   type: Webhooks
   url: data-model/humica-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/well-known/humica-well-known.yml
+  href: https://artifacts.apis.io/humica/well-known/humica-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/humica-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/well-known/humica-security.txt
+  href: https://artifacts.apis.io/humica/well-known/humica-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/humica-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/llms/humica-llms.txt
+  href: https://artifacts.apis.io/humica/llms/humica-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/humica-llms.txt
@@ -175,7 +177,7 @@ overview: 'humi.ca is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   humi.ca''s developer surface includes engineering blog, documentation, API reference, authentication, changelog, support, and 21 more developer resources.'
-random_paper: 15
+random_paper: 7
 scopes:
 - name: Humica Scopes
   scope_count: 2
@@ -197,8 +199,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 73.2
-    operational_transparency: 44.7
+    discoverability: 66.1
+    operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -216,14 +218,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/humica/refs/heads/main/screenshots/humica-2026-07-25T221713.png
+screenshot: https://apis.io/screenshots/humica/humica-2026-07-25T221713.png
 security:
 - kind: authentication
   name: Humica Authentication

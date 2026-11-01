@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.9
-  scored_at: '2026-10-17'
+  score: 32.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 2
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 54
   slug: mithril-agentic-access
   summary_line: 54 operations · 22 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.mithril.ai/v2
   baseurl_source: declared
@@ -114,11 +116,8 @@ apis:
   description: The volumes API from Mithril — 2 operation(s) for volumes.
   name: Mithril Volumes API
   slug: mithril-volumes-api
-artifact_total: 36
+artifact_total: 39
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Mithril API Keys API
   slug: open-mithril-api-keys-api
@@ -163,12 +162,12 @@ collections:
   slug: open-mithril-volumes-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/plans/mithril-plans-pricing.yml
+  href: https://artifacts.apis.io/mithril/plans/mithril-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mithril-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/capabilities/mithril-capability-edges.yml
+  href: https://artifacts.apis.io/mithril/capabilities/mithril-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mithril-capability-edges.yml
@@ -225,57 +224,57 @@ common:
   type: StatusPage
   url: https://status.mithril.ai
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/changelog/mithril-changelog.yml
+  href: https://artifacts.apis.io/mithril/changelog/mithril-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mithril-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/authentication/mithril-authentication.yml
+  href: https://artifacts.apis.io/mithril/authentication/mithril-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mithril-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/packages/mithril-packages.yml
+  href: https://artifacts.apis.io/mithril/packages/mithril-packages.yml
   title: ''
   type: Packages
   url: packages/mithril-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/packages/mithril-packages.yml
+  href: https://artifacts.apis.io/mithril/packages/mithril-packages.yml
   title: ''
   type: SDKs
   url: packages/mithril-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/cli/mithril-cli.yml
+  href: https://artifacts.apis.io/mithril/cli/mithril-cli.yml
   title: ''
   type: CLI
   url: cli/mithril-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/well-known/mithril-well-known.yml
+  href: https://artifacts.apis.io/mithril/well-known/mithril-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mithril-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/mcp/mithril-mcp.yml
+  href: https://artifacts.apis.io/mithril/mcp/mithril-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mithril-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mithril/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/llms/mithril-llms.txt
+  href: https://artifacts.apis.io/mithril/llms/mithril-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mithril-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/overlays/mithril-compute-overlay.yaml
+  href: https://artifacts.apis.io/mithril/overlays/mithril-compute-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mithril-compute-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/conformance/mithril-conformance.yml
+  href: https://artifacts.apis.io/mithril/conformance/mithril-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mithril-conformance.yml
@@ -284,32 +283,32 @@ common:
   type: Compliance
   url: https://trust.mlfoundry.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/security/mithril-trust-center.yml
+  href: https://artifacts.apis.io/mithril/security/mithril-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mithril-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/errors/mithril-problem-types.yml
+  href: https://artifacts.apis.io/mithril/errors/mithril-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mithril-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/lifecycle/mithril-lifecycle.yml
+  href: https://artifacts.apis.io/mithril/lifecycle/mithril-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mithril-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/conventions/mithril-conventions.yml
+  href: https://artifacts.apis.io/mithril/conventions/mithril-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mithril-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/data-model/mithril-data-model.yml
+  href: https://artifacts.apis.io/mithril/data-model/mithril-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mithril-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/security/mithril-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mithril/security/mithril-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mithril-vulnerability-disclosure.yml
@@ -318,17 +317,25 @@ common:
   type: Security
   url: https://docs.mithril.ai/security-and-trust/reporting-security-concerns
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/security/mithril-domain-security.yml
+  href: https://artifacts.apis.io/mithril/security/mithril-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mithril-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/agentic-access/mithril-agentic-access.yml
+  href: https://artifacts.apis.io/mithril/agentic-access/mithril-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mithril-agentic-access.yml
 created: '2026-07-17'
 description: Mithril is an AI omnicloud compute platform, operated by Foundry Technologies, that aggregates GPU, CPU, and storage capacity across multiple cloud providers behind a single interface with transparent, market-based pricing. Developers reserve NVIDIA A100/H100/H200 GPUs on flexible reservations or burst onto interruptible spot capacity via price-limited bids, attach WEKA/NVMe persistent storage, run Kubernetes clusters, and drive it all through the v2 Compute REST API, the `ml` CLI, and a Python batch/inference SDK. Used for training, fine-tuning, inference, and batch workloads; SOC 2 Type II certified. Backed by Lightspeed, Multicoin Capital, and Redpoint.
+finops:
+- has_sources: true
+  method: derived
+  name: Mithril Finops
+  primary_unit: instance/hr
+  service_category: ''
+  slug: mithril-finops
+  template: false
 image: https://app.mithril.ai/favicon.png
 layout: provider
 modified: '2026-07-20'
@@ -346,26 +353,26 @@ plans:
 - name: Mithril Price Estimates
   plan_count: 0
   slug: mithril-price-estimates
-random_paper: 13
+random_paper: 17
 score:
   band: strong
-  composite: 60.5
+  composite: 62.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 52.6
+    contract_quality: 49.2
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 60.4
+    discoverability: 66.1
+    operational_transparency: 42.1
+  previous_composite: 60.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -386,13 +393,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/screenshots/mithril-2026-08-07T183809.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mithril/mithril-2026-08-07T183809.png
 security:
 - kind: authentication
   name: Mithril Authentication
@@ -410,6 +418,14 @@ security:
   name: Mithril Trust Center
   slug: mithril-trust-center
   summary_line: SOC 2 Type II (availability, security, confidentiality)
+skill_count: 3
+skills:
+- name: Manage Mithril storage volumes and access keys
+  slug: mithril-manage-storage-and-keys
+- name: Place a spot GPU bid on Mithril
+  slug: mithril-place-spot-bid
+- name: Reserve GPU compute on Mithril
+  slug: mithril-reserve-gpu-compute
 slug: mithril
 tags:
 - Company

@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.9
-  scored_at: '2026-10-17'
+  score: 19.4
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: Core API for AutoCAD automation, drawing manipulation, and entity management.
@@ -58,87 +60,87 @@ apis:
 artifact_total: 36
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/plans/autocad-plans-pricing.yml
+  href: https://artifacts.apis.io/autocad/plans/autocad-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/autocad-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/rate-limits/autocad-rate-limits.yml
+  href: https://artifacts.apis.io/autocad/rate-limits/autocad-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/autocad-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/finops/autocad-finops.yml
+  href: https://artifacts.apis.io/autocad/finops/autocad-finops.yml
   title: ''
   type: FinOps
   url: finops/autocad-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/security/autocad-domain-security.yml
+  href: https://artifacts.apis.io/autocad/security/autocad-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autocad-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/security/autocad-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/autocad/security/autocad-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/autocad-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/security/autocad-trust-center.yml
+  href: https://artifacts.apis.io/autocad/security/autocad-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/autocad-trust-center.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/packages/autocad-packages.yml
+  href: https://artifacts.apis.io/autocad/packages/autocad-packages.yml
   title: ''
   type: Packages
   url: packages/autocad-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/well-known/autocad-well-known.yml
+  href: https://artifacts.apis.io/autocad/well-known/autocad-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/autocad-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/well-known/autocad-security.txt
+  href: https://artifacts.apis.io/autocad/well-known/autocad-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/autocad-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/llms/autocad-llms.txt
+  href: https://artifacts.apis.io/autocad/llms/autocad-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/autocad-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/scopes/autocad-scopes.yml
+  href: https://artifacts.apis.io/autocad/scopes/autocad-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/autocad-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/authentication/autocad-authentication.yml
+  href: https://artifacts.apis.io/autocad/authentication/autocad-authentication.yml
   title: ''
   type: Authentication
   url: authentication/autocad-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/mcp/autocad-mcp.yml
+  href: https://artifacts.apis.io/autocad/mcp/autocad-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/autocad-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/conformance/autocad-conformance.yml
+  href: https://artifacts.apis.io/autocad/conformance/autocad-conformance.yml
   title: ''
   type: Conformance
   url: conformance/autocad-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/lifecycle/autocad-lifecycle.yml
+  href: https://artifacts.apis.io/autocad/lifecycle/autocad-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/autocad-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/changelog/autocad-changelog.yml
+  href: https://artifacts.apis.io/autocad/changelog/autocad-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/autocad-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/components/autocad-components.yml
+  href: https://artifacts.apis.io/autocad/components/autocad-components.yml
   title: ''
   type: Components
   url: components/autocad-components.yml
@@ -241,7 +243,7 @@ finops:
 - has_sources: false
   method: generated
   name: Autocad Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: autocad-finops
   template: true
@@ -274,7 +276,7 @@ plans:
 - name: Autocad Plans Pricing
   plan_count: 3
   slug: autocad-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Autocad Rate Limits
@@ -286,7 +288,7 @@ scopes:
   summary_line: 16 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 46.3
+  composite: 49.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 46.0
@@ -294,15 +296,15 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 6.5
-    developer_ergonomics: 66.0
-    discoverability: 85.7
-    operational_transparency: 42.1
-  previous_composite: 47.8
+    developer_ergonomics: 70.7
+    discoverability: 76.7
+    operational_transparency: 55.3
+  previous_composite: 49.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -312,14 +314,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/screenshots/autocad-2026-06-20T172619.png
+screenshot: https://apis.io/screenshots/autocad/autocad-2026-06-20T172619.png
 security:
 - kind: authentication
   name: Autocad Authentication

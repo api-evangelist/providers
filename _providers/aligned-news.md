@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -85,9 +87,6 @@ apis:
 artifact_total: 60
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Aligned News REST Bundles API
   slug: open-aligned-news-bundles-api
 - collection_type: open
@@ -112,33 +111,38 @@ collections:
   name: Aligned News REST API
   slug: open-aligned-news
 common:
+- group: other
+  href: https://artifacts.apis.io/aligned-news/capabilities/aligned-news-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/aligned-news-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/plans/aligned-news-plans-pricing.yml
+  href: https://artifacts.apis.io/aligned-news/plans/aligned-news-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aligned-news-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/rate-limits/aligned-news-rate-limits.yml
+  href: https://artifacts.apis.io/aligned-news/rate-limits/aligned-news-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aligned-news-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/finops/aligned-news-finops.yml
+  href: https://artifacts.apis.io/aligned-news/finops/aligned-news-finops.yml
   title: ''
   type: FinOps
   url: finops/aligned-news-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/agentic-access/aligned-news-agentic-access.yml
+  href: https://artifacts.apis.io/aligned-news/agentic-access/aligned-news-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aligned-news-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/security/aligned-news-domain-security.yml
+  href: https://artifacts.apis.io/aligned-news/security/aligned-news-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aligned-news-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/authentication/aligned-news-authentication.yml
+  href: https://artifacts.apis.io/aligned-news/authentication/aligned-news-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aligned-news-authentication.yml
@@ -259,10 +263,10 @@ features:
 - Built on Fly.io (edge), Supabase (data), Clerk (auth and billing), Stripe (payments)
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Aligned News Finops
-  primary_unit: ''
-  service_category: AI News Intelligence
+  primary_unit: subscription
+  service_category: ''
   slug: aligned-news-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aligned-news.png
@@ -314,12 +318,15 @@ overview: 'Aligned News publishes 8 API contracts indexed on the [APIs.io](https
   The Aligned News catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Aligned News'' developer surface includes authentication, getting-started guide, pricing, signup flow, engineering blog, and 17 more developer resources.'
+  Aligned News'' developer surface includes authentication, getting-started guide, pricing, signup flow, engineering blog, and 18 more developer resources.'
 plans:
 - name: Aligned News Plans Pricing
   plan_count: 3
   slug: aligned-news-plans-pricing
-random_paper: 4
+- name: Aligned News Price Estimates
+  plan_count: 0
+  slug: aligned-news-price-estimates
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Aligned News Rate Limits
@@ -338,23 +345,23 @@ rules:
   slug: aligned-news-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.3
+  composite: 42.9
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 58.3
+    artifact_dirs: 19
+    catalog_earned: 61.3
     catalog_earned_first_party: 12.0
-    catalog_gap: 56.8
+    catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.5
+  delta: 1.6
   facets:
-    access_clarity: 55.3
+    access_clarity: 63.2
     contract_governance: 9.8
     contract_quality: 57.7
     developer_ergonomics: 35.7
     discoverability: 57.1
     operational_transparency: 13.2
-  previous_composite: 44.8
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -368,14 +375,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/screenshots/aligned-news-2026-06-20T171522.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aligned-news/aligned-news-2026-06-20T171522.png
 security:
 - kind: authentication
   name: Aligned News Authentication

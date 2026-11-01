@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Access Vishay component data programmatically through the Octopart/Nexar API. Search for Vishay parts by part number or category, retrieve datasheets, specifications, pricing, and distributor inventor
@@ -48,17 +50,17 @@ apis:
 artifact_total: 13
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/plans/vishay-intertechnology-plans-pricing.yml
+  href: https://artifacts.apis.io/vishay-intertechnology/plans/vishay-intertechnology-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vishay-intertechnology-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/rate-limits/vishay-intertechnology-rate-limits.yml
+  href: https://artifacts.apis.io/vishay-intertechnology/rate-limits/vishay-intertechnology-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vishay-intertechnology-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/finops/vishay-intertechnology-finops.yml
+  href: https://artifacts.apis.io/vishay-intertechnology/finops/vishay-intertechnology-finops.yml
   title: ''
   type: FinOps
   url: finops/vishay-intertechnology-finops.yml
@@ -67,7 +69,7 @@ common:
   type: Blog
   url: https://www.vishay.com/en/company/press/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/security/vishay-intertechnology-domain-security.yml
+  href: https://artifacts.apis.io/vishay-intertechnology/security/vishay-intertechnology-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vishay-intertechnology-domain-security.yml
@@ -88,17 +90,17 @@ common:
   type: ProductCatalog
   url: https://www.vishay.com/en/product-selector/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/json-schema/vishay-electronic-component-schema.json
+  href: https://artifacts.apis.io/vishay-intertechnology/json-schema/vishay-electronic-component-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/vishay-electronic-component-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/json-ld/vishay-intertechnology-context.jsonld
+  href: https://artifacts.apis.io/vishay-intertechnology/json-ld/vishay-intertechnology-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/vishay-intertechnology-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/vocabulary/vishay-intertechnology-vocabulary.yml
+  href: https://artifacts.apis.io/vishay-intertechnology/vocabulary/vishay-intertechnology-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/vishay-intertechnology-vocabulary.yml
@@ -115,7 +117,7 @@ finops:
 - has_sources: false
   method: generated
   name: Vishay Intertechnology Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: vishay-intertechnology-finops
   template: true
@@ -165,7 +167,7 @@ press:
 - date: ''
   title: of 2020 China AI Innovation Excellence Award
   url: https://www.vishay.com/en/company/press/releases/2020/microBRICKwins2020AIAward/
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Vishay Intertechnology Rate Limits
@@ -192,7 +194,7 @@ score:
     catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
@@ -200,21 +202,21 @@ score:
     developer_ergonomics: 11.9
     discoverability: 62.5
     operational_transparency: 7.9
-  previous_composite: 17.3
+  previous_composite: 16.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/screenshots/vishay-intertechnology-2026-06-20T201047.png
+screenshot: https://apis.io/screenshots/vishay-intertechnology/vishay-intertechnology-2026-06-20T201047.png
 security:
 - kind: domain-security
   name: Vishay Intertechnology Domain Security

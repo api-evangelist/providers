@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/2eyesvision/refs/heads/main/security/2eyesvision-domain-security.yml
+  href: https://artifacts.apis.io/2eyesvision/security/2eyesvision-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/2eyesvision-domain-security.yml
@@ -53,12 +55,12 @@ common:
   type: PrivacyPolicy
   url: https://www.2eyesvision.com/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/2eyesvision/refs/heads/main/llms/2eyesvision-llms.txt
+  href: https://artifacts.apis.io/2eyesvision/llms/2eyesvision-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/2eyesvision-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/2eyesvision/refs/heads/main/plans/2eyesvision-plans-pricing.yml
+  href: https://artifacts.apis.io/2eyesvision/plans/2eyesvision-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/2eyesvision-plans-pricing.yml
@@ -92,10 +94,10 @@ plans:
 - name: 2Eyesvision Plans Pricing
   plan_count: 0
   slug: 2eyesvision-plans-pricing
-random_paper: 8
+random_paper: 0
 score:
   band: minimal
-  composite: 8.4
+  composite: 7.7
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -109,7 +111,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -119,21 +121,21 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 8.4
+  previous_composite: 7.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/2eyesvision/refs/heads/main/screenshots/2eyesvision-2026-10-11T092036.png
+screenshot: https://apis.io/screenshots/2eyesvision/2eyesvision-2026-10-11T092036.png
 security:
 - kind: domain-security
   name: 2Eyesvision Domain Security

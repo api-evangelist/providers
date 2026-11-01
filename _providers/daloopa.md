@@ -29,17 +29,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 61.5
-  scored_at: '2026-10-17'
-api_count: 8
+  score: 57.0
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - baseURL: https://app.daloopa.com/api/v3
   baseurl_source: declared
@@ -136,7 +138,7 @@ apis:
   description: The Webhooks API from Daloopa — 6 operation(s) for webhooks.
   name: Daloopa Webhooks API
   slug: daloopa-webhooks-api
-artifact_total: 28
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Daloopa Webhooks
@@ -150,17 +152,17 @@ collections:
   slug: open-daloopa-mcp-service
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/capabilities/daloopa-capability-edges.yml
+  href: https://artifacts.apis.io/daloopa/capabilities/daloopa-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/daloopa-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/overlays/daloopa-api-security-overlay.yaml
+  href: https://artifacts.apis.io/daloopa/overlays/daloopa-api-security-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/daloopa-api-security-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/mcp/daloopa-mcp.yml
+  href: https://artifacts.apis.io/daloopa/mcp/daloopa-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/daloopa-mcp.yml
@@ -221,17 +223,17 @@ common:
   type: StatusPage
   url: https://status.daloopa.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/lifecycle/daloopa-lifecycle.yml
+  href: https://artifacts.apis.io/daloopa/lifecycle/daloopa-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/daloopa-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/lifecycle/daloopa-lifecycle.yml
+  href: https://artifacts.apis.io/daloopa/lifecycle/daloopa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/daloopa-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/llms/daloopa-llms.txt
+  href: https://artifacts.apis.io/daloopa/llms/daloopa-llms.txt
   title: ''
   type: LLMSTxt
   url: llms/daloopa-llms.txt
@@ -240,27 +242,27 @@ common:
   type: LLMSTxt
   url: https://docs.daloopa.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/daloopa/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/packages/daloopa-packages.yml
+  href: https://artifacts.apis.io/daloopa/packages/daloopa-packages.yml
   title: ''
   type: Packages
   url: packages/daloopa-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/conformance/daloopa-conformance.yml
+  href: https://artifacts.apis.io/daloopa/conformance/daloopa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/daloopa-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/security/daloopa-domain-security.yml
+  href: https://artifacts.apis.io/daloopa/security/daloopa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/daloopa-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/security/daloopa-trust-center.yml
+  href: https://artifacts.apis.io/daloopa/security/daloopa-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/daloopa-trust-center.yml
@@ -269,22 +271,30 @@ common:
   type: TrustCenter
   url: https://trust.daloopa.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/plans/daloopa-plans-pricing.yml
+  href: https://artifacts.apis.io/daloopa/plans/daloopa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/daloopa-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/rate-limits/daloopa-rate-limits.yml
+  href: https://artifacts.apis.io/daloopa/rate-limits/daloopa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/daloopa-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/components/daloopa-components.yml
+  href: https://artifacts.apis.io/daloopa/components/daloopa-components.yml
   title: ''
   type: Components
   url: components/daloopa-components.yml
 created: '2026-08-11'
 description: Daloopa is an AI-powered fundamental financial data platform for institutional investors, providing analyst-verified, source-linked financial data extracted from SEC filings, earnings transcripts, investor presentations and press releases. Coverage spans 6,000+ global public companies with roughly 14 years of history, and every datapoint is hyperlinked back to the exact location in the original source document for auditability. The company sells to hedge funds, mutual funds, investment banks, equity research and private equity teams, and delivers the same dataset across a REST API, a hosted remote MCP server, an Excel add-in, prebuilt Data Sheets, the Scout AI modeling agent, and native cloud-warehouse shares via Snowflake, Databricks and AWS S3.
+finops:
+- has_sources: true
+  method: derived
+  name: Daloopa Finops
+  primary_unit: ''
+  service_category: ''
+  slug: daloopa-finops
+  template: true
 image: https://avatars.githubusercontent.com/u/42851514?v=4
 layout: provider
 mcp_servers:
@@ -306,30 +316,30 @@ plans:
 - name: Daloopa Plans Pricing
   plan_count: 0
   slug: daloopa-plans-pricing
-random_paper: 10
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Daloopa Rate Limits
   slug: daloopa-rate-limits
 score:
-  band: developing
-  composite: 51.2
+  band: strong
+  composite: 56.4
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 48.0
+    artifact_dirs: 27
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 61.3
-    developer_ergonomics: 47.6
-    discoverability: 80.0
-    operational_transparency: 63.2
-  previous_composite: 51.2
+    contract_quality: 60.5
+    developer_ergonomics: 71.4
+    discoverability: 65.0
+    operational_transparency: 73.7
+  previous_composite: 56.9
   provenance:
     conformance: derived
     contracts:
@@ -345,13 +355,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/screenshots/daloopa-2026-08-17T080848.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/daloopa/daloopa-2026-08-17T080848.png
 security:
 - kind: authentication
   name: Daloopa Authentication
@@ -365,6 +376,50 @@ security:
   name: Daloopa Trust Center
   slug: daloopa-trust-center
   summary_line: trust center published
+skill_count: 21
+skills:
+- name: build-model
+  slug: daloopa-build-model
+- name: bull-bear
+  slug: daloopa-bull-bear
+- name: capital-allocation
+  slug: daloopa-capital-allocation
+- name: comp-sheet
+  slug: daloopa-comp-sheet
+- name: comps
+  slug: daloopa-comps
+- name: dcf
+  slug: daloopa-dcf
+- name: earnings-flash
+  slug: daloopa-earnings-flash
+- name: earnings-prep
+  slug: daloopa-earnings-prep
+- name: earnings-review
+  slug: daloopa-earnings-review
+- name: guidance-tracker
+  slug: daloopa-guidance-tracker
+- name: ib-deck
+  slug: daloopa-ib-deck
+- name: industry
+  slug: daloopa-industry
+- name: inflection
+  slug: daloopa-inflection
+- name: initiate
+  slug: daloopa-initiate
+- name: precedent-transactions
+  slug: daloopa-precedent-transactions
+- name: research-note
+  slug: daloopa-research-note
+- name: setup
+  slug: daloopa-setup
+- name: supply-chain
+  slug: daloopa-supply-chain
+- name: tearsheet
+  slug: daloopa-tearsheet
+- name: unit-economics
+  slug: daloopa-unit-economics
+- name: working-capital
+  slug: daloopa-working-capital
 slug: daloopa
 tags:
 - Financial Data

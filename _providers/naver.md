@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 18
 apis:
 - description: 'Naver Search API returns search results across Naver''s catalogs: blog, news, book, encyclopedia, café article, knowledge-in (Kin), web document, image, shopping product, and academic document. Each ca'
@@ -93,22 +95,22 @@ apis:
 artifact_total: 22
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/naver/refs/heads/main/plans/naver-plans-pricing.yml
+  href: https://artifacts.apis.io/naver/plans/naver-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/naver-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/naver/refs/heads/main/rate-limits/naver-rate-limits.yml
+  href: https://artifacts.apis.io/naver/rate-limits/naver-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/naver-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/naver/refs/heads/main/finops/naver-finops.yml
+  href: https://artifacts.apis.io/naver/finops/naver-finops.yml
   title: ''
   type: FinOps
   url: finops/naver-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/naver/refs/heads/main/security/naver-domain-security.yml
+  href: https://artifacts.apis.io/naver/security/naver-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/naver-domain-security.yml
@@ -215,7 +217,7 @@ rate_limits:
   slug: naver-rate-limits
 score:
   band: emerging
-  composite: 11.6
+  composite: 11.7
   coverage:
     artifact_dirs: 8
     catalog_earned: 44.0
@@ -223,13 +225,13 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 72.3
+    discoverability: 73.2
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -238,21 +240,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 17.7
+  previous_composite: 11.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/naver/refs/heads/main/screenshots/naver-2026-06-20T190102.png
+screenshot: https://apis.io/screenshots/naver/naver-2026-06-20T190102.png
 security:
 - kind: domain-security
   name: Naver Domain Security

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: Upload and query evaluation snapshots (reports and test suites)
   name: Evidently AI Snapshots API
   slug: evidently-snapshots-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Evidently Platform REST Dashboards API
   slug: open-evidently-dashboards-api
@@ -84,7 +83,7 @@ collections:
   slug: open-evidently-snapshots-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/capabilities/evidently-capability-edges.yml
+  href: https://artifacts.apis.io/evidently/capabilities/evidently-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/evidently-capability-edges.yml
@@ -105,17 +104,17 @@ common:
   type: License
   url: https://github.com/evidentlyai/evidently/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/agentic-access/evidently-agentic-access.yml
+  href: https://artifacts.apis.io/evidently/agentic-access/evidently-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/evidently-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/security/evidently-domain-security.yml
+  href: https://artifacts.apis.io/evidently/security/evidently-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/evidently-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/authentication/evidently-authentication.yml
+  href: https://artifacts.apis.io/evidently/authentication/evidently-authentication.yml
   title: ''
   type: Authentication
   url: authentication/evidently-authentication.yml
@@ -148,27 +147,27 @@ common:
   type: X
   url: https://twitter.com/EvidentlyAI
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/plans/evidently-plans-pricing.yml
+  href: https://artifacts.apis.io/evidently/plans/evidently-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/evidently-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/rate-limits/evidently-rate-limits.yml
+  href: https://artifacts.apis.io/evidently/rate-limits/evidently-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/evidently-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/finops/evidently-finops.yml
+  href: https://artifacts.apis.io/evidently/finops/evidently-finops.yml
   title: ''
   type: FinOps
   url: finops/evidently-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/vocabulary/evidently-vocabulary.yml
+  href: https://artifacts.apis.io/evidently/vocabulary/evidently-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/evidently-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/json-ld/evidently-context.jsonld
+  href: https://artifacts.apis.io/evidently/json-ld/evidently-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/evidently-context.jsonld
@@ -204,14 +203,14 @@ plans:
 - name: Evidently Plans Pricing
   plan_count: 3
   slug: evidently-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Evidently Rate Limits
   slug: evidently-rate-limits
 score:
   band: thin
-  composite: 34.9
+  composite: 33.2
   coverage:
     artifact_dirs: 14
     catalog_earned: 52.5
@@ -219,18 +218,15 @@ score:
     catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 13.6
-    contract_quality: 54.0
+    contract_quality: 50.6
     developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 21.1
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 40.3
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -244,13 +240,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/screenshots/evidently-2026-06-20T180913.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/evidently/evidently-2026-06-20T180913.png
 security:
 - kind: authentication
   name: Evidently Authentication

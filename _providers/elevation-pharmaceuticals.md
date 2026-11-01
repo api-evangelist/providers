@@ -19,7 +19,7 @@ name: Elevation Pharmaceuticals
 nav: Providers
 network: true
 overview: Elevation Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, COPD, and Respiratory.
-random_paper: 6
+random_paper: 10
 slug: elevation-pharmaceuticals
 tags:
 - Company

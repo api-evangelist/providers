@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.2
-  scored_at: '2026-10-17'
+  score: 25.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -84,15 +86,12 @@ apis:
   description: The User Management API from Weavix — 5 operation(s) for user management.
   name: Weavix User Management API
   slug: weavix-user-management-api
-artifact_total: 23
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Weavix Webhooks
   slug: weavix-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: weavix REST Channels & Messaging API
   slug: open-weavix-channels-messaging-api
@@ -118,27 +117,36 @@ collections:
   name: weavix REST Channels & Messaging User Management API
   slug: open-weavix-user-management-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://weavix.com/pricing/
+- group: commercial
+  href: https://artifacts.apis.io/weavix/plans/weavix-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/weavix-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://weavix.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/overlays/weavix-rest-overlay.yaml
+  href: https://artifacts.apis.io/weavix/overlays/weavix-rest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/weavix-rest-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/security/weavix-trust-center.yml
+  href: https://artifacts.apis.io/weavix/security/weavix-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/weavix-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/security/weavix-domain-security.yml
+  href: https://artifacts.apis.io/weavix/security/weavix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/weavix-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/agentic-access/weavix-agentic-access.yml
+  href: https://artifacts.apis.io/weavix/agentic-access/weavix-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/weavix-agentic-access.yml
@@ -191,63 +199,71 @@ common:
   type: Compliance
   url: https://trust.weavix.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/authentication/weavix-authentication.yml
+  href: https://artifacts.apis.io/weavix/authentication/weavix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/weavix-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/conventions/weavix-conventions.yml
+  href: https://artifacts.apis.io/weavix/conventions/weavix-conventions.yml
   title: ''
   type: Conventions
   url: conventions/weavix-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/errors/weavix-problem-types.yml
+  href: https://artifacts.apis.io/weavix/errors/weavix-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/weavix-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/lifecycle/weavix-lifecycle.yml
+  href: https://artifacts.apis.io/weavix/lifecycle/weavix-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/weavix-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/changelog/weavix-changelog.yml
+  href: https://artifacts.apis.io/weavix/changelog/weavix-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/weavix-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/mcp/weavix-mcp.yml
+  href: https://artifacts.apis.io/weavix/mcp/weavix-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/weavix-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/llms/weavix-llms.txt
+  href: https://artifacts.apis.io/weavix/llms/weavix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/weavix-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/data-model/weavix-data-model.yml
+  href: https://artifacts.apis.io/weavix/data-model/weavix-data-model.yml
   title: ''
   type: DataModel
   url: data-model/weavix-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/conformance/weavix-conformance.yml
+  href: https://artifacts.apis.io/weavix/conformance/weavix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/weavix-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/asyncapi/weavix-webhooks.yml
+  href: https://artifacts.apis.io/weavix/asyncapi/weavix-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/weavix-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/weavix/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'weavix is the "Internet of Workers" frontline communication and workforce productivity platform, built around walt, a purpose-built smart radio for industrial deskless workers. It replaces traditional two-way radios with a connected system offering push-to-talk voice, picture and video messaging, real-time AI language translation across 40+ languages, man-down detection, location tracking, geofencing, mass alerts, and searchable conversation capture, running over existing Wi-Fi or LTE without FCC licensing. weavix serves manufacturing, construction, oil and gas, food and beverage, warehousing, logistics, aviation and other industrial sectors. Its public REST API lets administrators automate the platform from outside systems: sync users from HR/workforce systems, manage crafts, sites, geofences and permission groups, send messages to channels and individual users, pull message history and form submissions, and trigger mass alerts. weavix is headquartered in Wichita, Kansas and
   is backed by Insight Partners and Koch Disruptive Technologies.'
+finops:
+- has_sources: true
+  method: derived
+  name: Weavix Finops
+  primary_unit: ''
+  service_category: ''
+  slug: weavix-finops
+  template: true
 image: https://weavix.com/wp-content/uploads/2023/03/weavix-logo.png
 layout: provider
 mcp_servers:
@@ -264,25 +280,29 @@ overview: 'Weavix publishes 8 API contracts indexed on the [APIs.io](https://api
   The Weavix catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Weavix''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 0
+  Weavix''s developer surface includes pricing, documentation, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
+plans:
+- name: Weavix Plans Pricing
+  plan_count: 4
+  slug: weavix-plans-pricing
+random_paper: 12
 score:
   band: developing
-  composite: 41.6
+  composite: 47.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 21.5
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 65.0
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -291,7 +311,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 41.6
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -308,13 +328,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/screenshots/weavix-2026-08-17T082852.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/weavix/weavix-2026-08-17T082852.png
 security:
 - kind: authentication
   name: Weavix Authentication
@@ -328,6 +349,14 @@ security:
   name: Weavix Trust Center
   slug: weavix-trust-center
   summary_line: SOC 2
+skill_count: 3
+skills:
+- name: Broadcast a targeted mass alert
+  slug: weavix-broadcast-mass-alert
+- name: Send messages and retrieve channel history
+  slug: weavix-message-and-retrieve
+- name: Sync workforce users into weavix
+  slug: weavix-sync-users
 slug: weavix
 tags:
 - Communications

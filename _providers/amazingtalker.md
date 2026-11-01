@@ -19,22 +19,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 15.8
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://en.amazingtalker.com
   baseurl_source: spec
@@ -44,49 +46,46 @@ apis:
 artifact_total: 5
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Find tutors plugin Pages API
   slug: open-amazingtalker-pages-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/overlays/amazingtalker-find-tutors-overlay.yaml
+  href: https://artifacts.apis.io/amazingtalker/overlays/amazingtalker-find-tutors-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazingtalker-find-tutors-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/well-known/amazingtalker-well-known.yml
+  href: https://artifacts.apis.io/amazingtalker/well-known/amazingtalker-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazingtalker-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/mcp/amazingtalker-mcp.yml
+  href: https://artifacts.apis.io/amazingtalker/mcp/amazingtalker-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazingtalker-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/llms/amazingtalker-llms.txt
+  href: https://artifacts.apis.io/amazingtalker/llms/amazingtalker-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazingtalker-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/authentication/amazingtalker-authentication.yml
+  href: https://artifacts.apis.io/amazingtalker/authentication/amazingtalker-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazingtalker-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/conformance/amazingtalker-conformance.yml
+  href: https://artifacts.apis.io/amazingtalker/conformance/amazingtalker-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazingtalker-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/amazingtalker/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/security/amazingtalker-domain-security.yml
+  href: https://artifacts.apis.io/amazingtalker/security/amazingtalker-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazingtalker-domain-security.yml
@@ -122,25 +121,25 @@ overview: 'AmazingTalker publishes 1 API contract indexed on the [APIs.io](https
 
 
   AmazingTalker''s developer surface includes authentication, engineering blog, and 11 more developer resources.'
-random_paper: 0
+random_paper: 18
 score:
-  band: thin
-  composite: 32.2
+  band: emerging
+  composite: 24.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.0
-    catalog_max: 100.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 57.1
+    access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 37.3
     developer_ergonomics: 16.1
-    discoverability: 64.3
-    operational_transparency: 2.6
+    discoverability: 57.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -148,7 +147,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 32.2
+  previous_composite: 24.6
   provenance:
     conformance: derived
     contracts:
@@ -164,14 +163,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/screenshots/amazingtalker-2026-07-25T195910.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazingtalker/amazingtalker-2026-07-25T195910.png
 security:
 - kind: authentication
   name: Amazingtalker Authentication
@@ -181,6 +180,10 @@ security:
   name: Amazingtalker Domain Security
   slug: amazingtalker-domain-security
   summary_line: TLSv1.3
+skill_count: 1
+skills:
+- name: Find AmazingTalker tutors
+  slug: amazingtalker-find-tutors
 slug: amazingtalker
 tags:
 - Company

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 29.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -73,7 +75,7 @@ apis:
   description: Discover and query grid balancing authorities and regions.
   name: WattTime Grid Regions API
   slug: watttime-grid-regions-api
-artifact_total: 81
+artifact_total: 80
 collections:
 - collection_type: postman
   name: WattTime Account API
@@ -90,9 +92,6 @@ collections:
 - collection_type: postman
   name: WattTime Account Grid Regions API
   slug: postman-watttime-grid-regions-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: WattTime Account API
   slug: open-watttime-account-api
@@ -113,17 +112,17 @@ collections:
   slug: open-watttime
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/plans/watttime-plans-pricing.yml
+  href: https://artifacts.apis.io/watttime/plans/watttime-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/watttime-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/rate-limits/watttime-rate-limits.yml
+  href: https://artifacts.apis.io/watttime/rate-limits/watttime-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/watttime-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/finops/watttime-finops.yml
+  href: https://artifacts.apis.io/watttime/finops/watttime-finops.yml
   title: ''
   type: FinOps
   url: finops/watttime-finops.yml
@@ -136,17 +135,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/watttime/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/agentic-access/watttime-agentic-access.yml
+  href: https://artifacts.apis.io/watttime/agentic-access/watttime-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/watttime-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/security/watttime-domain-security.yml
+  href: https://artifacts.apis.io/watttime/security/watttime-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/watttime-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/authentication/watttime-authentication.yml
+  href: https://artifacts.apis.io/watttime/authentication/watttime-authentication.yml
   title: ''
   type: Authentication
   url: authentication/watttime-authentication.yml
@@ -179,17 +178,17 @@ common:
   type: Support
   url: mailto:support@watttime.org
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/rules/watttime-spectral-rules.yml
+  href: https://artifacts.apis.io/watttime/rules/watttime-spectral-rules.yml
   title: WattTime Spectral Rules
   type: SpectralRules
   url: rules/watttime-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/vocabulary/watttime-vocabulary.yml
+  href: https://artifacts.apis.io/watttime/vocabulary/watttime-vocabulary.yml
   title: WattTime Vocabulary
   type: Vocabulary
   url: vocabulary/watttime-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/json-ld/watttime-context.jsonld
+  href: https://artifacts.apis.io/watttime/json-ld/watttime-context.jsonld
   title: WattTime JSON-LD Context
   type: JSONLD
   url: json-ld/watttime-context.jsonld
@@ -258,7 +257,7 @@ finops:
 - has_sources: false
   method: generated
   name: Watttime Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: watttime-finops
   template: true
@@ -360,7 +359,7 @@ modified: '2026-05-19'
 name: WattTime
 nav: Providers
 network: true
-overview: 'WattTime is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Authentication API, Emissions Data API, and 3 more. Tagged areas include Emissions, Climate, Carbon, Energy, and Electricity Grid.
+overview: 'WattTime is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Authentication API, Emissions Data API, and 3 more. Tagged areas include Emissions, Climate, Carbon, Energy, and Electric Grid.
 
 
   The WattTime catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -371,7 +370,7 @@ plans:
 - name: Watttime Plans Pricing
   plan_count: 3
   slug: watttime-plans-pricing
-random_paper: 21
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Watttime Rate Limits
@@ -402,7 +401,7 @@ rules:
   slug: watttime-spectral-rules
 score:
   band: thin
-  composite: 33.1
+  composite: 34.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 70.0
@@ -410,15 +409,15 @@ score:
     catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 31.4
     developer_ergonomics: 46.4
     discoverability: 62.5
-    operational_transparency: 42.1
-  previous_composite: 34.7
+    operational_transparency: 44.7
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -432,13 +431,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/screenshots/watttime-2026-06-20T201256.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/watttime/watttime-2026-06-20T201256.png
 security:
 - kind: authentication
   name: Watttime Authentication
@@ -454,7 +454,7 @@ tags:
 - Climate
 - Carbon
 - Energy
-- Electricity Grid
+- Electric Grid
 - Sustainability
 - Clean Energy
 use_cases:

@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.0
-  scored_at: '2026-10-17'
+  score: 49.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -105,11 +107,8 @@ apis:
   description: The Siebatchd API from DomainTools — 4 operation(s) for siebatchd.
   name: DomainTools Siebatchd API
   slug: domaintools-siebatchd-api
-artifact_total: 29
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: dnsdb Flex search API
   slug: open-domaintools-flex-search-api
@@ -160,12 +159,12 @@ common:
   type: Website
   url: https://www.domaintools.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/capabilities/domaintools-capability-edges.yml
+  href: https://artifacts.apis.io/domaintools/capabilities/domaintools-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/domaintools-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/overlays/domaintools-dnsdb-overlay.yaml
+  href: https://artifacts.apis.io/domaintools/overlays/domaintools-dnsdb-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/domaintools-dnsdb-overlay.yaml
@@ -186,7 +185,7 @@ common:
   type: GettingStarted
   url: https://docs.domaintools.com/api/iris/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/authentication/domaintools-authentication.yml
+  href: https://artifacts.apis.io/domaintools/authentication/domaintools-authentication.yml
   title: ''
   type: Authentication
   url: authentication/domaintools-authentication.yml
@@ -215,7 +214,7 @@ common:
   type: PrivacyPolicy
   url: https://www.domaintools.com/company/privacy-policy/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/changelog/domaintools-changelog.yml
+  href: https://artifacts.apis.io/domaintools/changelog/domaintools-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/domaintools-changelog.yml
@@ -224,77 +223,77 @@ common:
   type: StatusPage
   url: https://domaintools.statuspage.io
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/lifecycle/domaintools-lifecycle.yml
+  href: https://artifacts.apis.io/domaintools/lifecycle/domaintools-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/domaintools-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/lifecycle/domaintools-lifecycle.yml
+  href: https://artifacts.apis.io/domaintools/lifecycle/domaintools-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/domaintools-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/mcp/domaintools-mcp.yml
+  href: https://artifacts.apis.io/domaintools/mcp/domaintools-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/domaintools-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/packages/domaintools-packages.yml
+  href: https://artifacts.apis.io/domaintools/packages/domaintools-packages.yml
   title: ''
   type: Packages
   url: packages/domaintools-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/packages/domaintools-packages.yml
+  href: https://artifacts.apis.io/domaintools/packages/domaintools-packages.yml
   title: ''
   type: SDKs
   url: packages/domaintools-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/cli/domaintools-cli.yml
+  href: https://artifacts.apis.io/domaintools/cli/domaintools-cli.yml
   title: ''
   type: CLI
   url: cli/domaintools-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/llms/domaintools-llms.txt
+  href: https://artifacts.apis.io/domaintools/llms/domaintools-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/domaintools-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/conventions/domaintools-conventions.yml
+  href: https://artifacts.apis.io/domaintools/conventions/domaintools-conventions.yml
   title: ''
   type: Conventions
   url: conventions/domaintools-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/errors/domaintools-problem-types.yml
+  href: https://artifacts.apis.io/domaintools/errors/domaintools-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/domaintools-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/conformance/domaintools-conformance.yml
+  href: https://artifacts.apis.io/domaintools/conformance/domaintools-conformance.yml
   title: ''
   type: Conformance
   url: conformance/domaintools-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/data-model/domaintools-data-model.yml
+  href: https://artifacts.apis.io/domaintools/data-model/domaintools-data-model.yml
   title: ''
   type: DataModel
   url: data-model/domaintools-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/domaintools/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/well-known/domaintools-well-known.yml
+  href: https://artifacts.apis.io/domaintools/well-known/domaintools-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/domaintools-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/agentic-access/domaintools-agentic-access.yml
+  href: https://artifacts.apis.io/domaintools/agentic-access/domaintools-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/domaintools-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/security/domaintools-domain-security.yml
+  href: https://artifacts.apis.io/domaintools/security/domaintools-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/domaintools-domain-security.yml
@@ -314,10 +313,10 @@ overview: 'DomainTools publishes 12 API contracts indexed on the [APIs.io](https
 
 
   DomainTools'' developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, support, signup flow, and 26 more developer resources.'
-random_paper: 5
+random_paper: 17
 score:
   band: developing
-  composite: 48.4
+  composite: 48.1
   coverage:
     artifact_dirs: 23
     catalog_earned: 40.0
@@ -325,15 +324,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 48.8
+    contract_quality: 47.6
     developer_ergonomics: 73.2
-    discoverability: 80.0
-    operational_transparency: 42.1
-  previous_composite: 48.3
+    discoverability: 70.0
+    operational_transparency: 44.7
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -350,13 +349,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/screenshots/domaintools-2026-07-25T212242.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/domaintools/domaintools-2026-07-25T212242.png
 security:
 - kind: authentication
   name: Domaintools Authentication
@@ -366,6 +366,16 @@ security:
   name: Domaintools Domain Security
   slug: domaintools-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC
+skill_count: 4
+skills:
+- name: Bulk-enrich a list of domains
+  slug: domaintools-enrich-domains-bulk
+- name: Investigate a suspicious domain
+  slug: domaintools-investigate-suspicious-domain
+- name: Monitor a brand for lookalike domains
+  slug: domaintools-monitor-brand-lookalikes
+- name: Pivot through passive DNS history
+  slug: domaintools-passive-dns-pivot
 slug: domaintools
 tags:
 - Company

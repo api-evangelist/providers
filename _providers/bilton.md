@@ -14,36 +14,38 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bilton/refs/heads/main/llms/bilton-llms.txt
+  href: https://artifacts.apis.io/bilton/llms/bilton-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bilton-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bilton/refs/heads/main/hosts/bilton-hosts.yml
+  href: https://artifacts.apis.io/bilton/hosts/bilton-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bilton-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bilton/refs/heads/main/vendors/bilton-vendors.yml
+  href: https://artifacts.apis.io/bilton/vendors/bilton-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bilton-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bilton/refs/heads/main/security/bilton-domain-security.yml
+  href: https://artifacts.apis.io/bilton/security/bilton-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bilton-domain-security.yml
@@ -107,10 +109,10 @@ overview: 'BiltOn is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   BiltOn''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 8 more developer resources.'
-random_paper: 10
+random_paper: 0
 score:
   band: emerging
-  composite: 20.5
+  composite: 19.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -124,9 +126,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 20.5
+  previous_composite: 19.8
   provenance:
     mcp: unknown
   regulatory:
@@ -135,14 +137,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bilton/refs/heads/main/screenshots/bilton-2026-10-11T102218.png
+screenshot: https://apis.io/screenshots/bilton/bilton-2026-10-11T102218.png
 security:
 - kind: domain-security
   name: Bilton Domain Security

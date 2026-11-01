@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 9
@@ -170,11 +172,8 @@ apis:
   description: The OpenStorageWatch API from Portworx — 1 operation(s) for openstoragewatch.
   name: Portworx OpenStorageWatch API
   slug: portworx-openstoragewatch-api
-artifact_total: 58
+artifact_total: 57
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OpenStorage SDK OpenStorageAlerts API
   slug: open-portworx-openstoragealerts-api
@@ -255,37 +254,37 @@ collections:
   slug: open-portworx
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/plans/portworx-plans-pricing.yml
+  href: https://artifacts.apis.io/portworx/plans/portworx-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/portworx-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/rate-limits/portworx-rate-limits.yml
+  href: https://artifacts.apis.io/portworx/rate-limits/portworx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/portworx-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/finops/portworx-finops.yml
+  href: https://artifacts.apis.io/portworx/finops/portworx-finops.yml
   title: ''
   type: FinOps
   url: finops/portworx-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/capabilities/portworx-capability-edges.yml
+  href: https://artifacts.apis.io/portworx/capabilities/portworx-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/portworx-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/agentic-access/portworx-agentic-access.yml
+  href: https://artifacts.apis.io/portworx/agentic-access/portworx-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/portworx-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/security/portworx-domain-security.yml
+  href: https://artifacts.apis.io/portworx/security/portworx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/portworx-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/authentication/portworx-authentication.yml
+  href: https://artifacts.apis.io/portworx/authentication/portworx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/portworx-authentication.yml
@@ -327,7 +326,7 @@ finops:
 - has_sources: false
   method: generated
   name: Portworx Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: portworx-finops
   template: true
@@ -345,14 +344,14 @@ plans:
 - name: Portworx Plans Pricing
   plan_count: 3
   slug: portworx-plans-pricing
-random_paper: 15
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Portworx Rate Limits
   slug: portworx-rate-limits
 score:
   band: thin
-  composite: 28.7
+  composite: 33.7
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.0
@@ -360,15 +359,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 41.6
-    developer_ergonomics: 31.0
+    contract_quality: 40.2
+    developer_ergonomics: 47.6
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 30.2
+    operational_transparency: 13.2
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -382,13 +381,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/screenshots/portworx-2026-06-20T191941.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/portworx/portworx-2026-06-20T191941.png
 security:
 - kind: authentication
   name: Portworx Authentication

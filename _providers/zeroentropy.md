@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: derived
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.0
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 29.5
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.zeroentropy.dev/v1
   baseurl_source: declared
@@ -72,11 +74,8 @@ apis:
   description: The Usage API from ZeroEntropy — 6 operation(s) for usage.
   name: ZeroEntropy Usage API
   slug: zeroentropy-usage-api
-artifact_total: 19
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ZeroEntropy Admin API
   slug: open-zeroentropy-admin-api
@@ -100,62 +99,62 @@ collections:
   slug: open-zeroentropy-usage-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/plans/zeroentropy-plans-pricing.yml
+  href: https://artifacts.apis.io/zeroentropy/plans/zeroentropy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zeroentropy-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/capabilities/zeroentropy-capability-edges.yml
+  href: https://artifacts.apis.io/zeroentropy/capabilities/zeroentropy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zeroentropy-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/mcp/zeroentropy-mcp.yml
+  href: https://artifacts.apis.io/zeroentropy/mcp/zeroentropy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zeroentropy-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/overlays/zeroentropy-openapi-overlay.yaml
+  href: https://artifacts.apis.io/zeroentropy/overlays/zeroentropy-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zeroentropy-openapi-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/packages/zeroentropy-packages.yml
+  href: https://artifacts.apis.io/zeroentropy/packages/zeroentropy-packages.yml
   title: ''
   type: Packages
   url: packages/zeroentropy-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/packages/zeroentropy-packages.yml
+  href: https://artifacts.apis.io/zeroentropy/packages/zeroentropy-packages.yml
   title: ''
   type: SDKs
   url: packages/zeroentropy-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zeroentropy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/llms/zeroentropy-llms.txt
+  href: https://artifacts.apis.io/zeroentropy/llms/zeroentropy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zeroentropy-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/security/zeroentropy-trust-center.yml
+  href: https://artifacts.apis.io/zeroentropy/security/zeroentropy-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/zeroentropy-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/security/zeroentropy-trust-center.yml
+  href: https://artifacts.apis.io/zeroentropy/security/zeroentropy-trust-center.yml
   title: ''
   type: Compliance
   url: security/zeroentropy-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/security/zeroentropy-domain-security.yml
+  href: https://artifacts.apis.io/zeroentropy/security/zeroentropy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zeroentropy-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/authentication/zeroentropy-authentication.yml
+  href: https://artifacts.apis.io/zeroentropy/authentication/zeroentropy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zeroentropy-authentication.yml
@@ -205,6 +204,14 @@ common:
   url: mailto:founders@zeroentropy.dev
 created: '2026-07-17'
 description: ZeroEntropy builds specialized, lightweight AI models for information retrieval and retrieval-augmented generation (RAG). Its zerank rerankers and zembed embedding models improve the accuracy of any search pipeline, and its hosted retrieval API lets developers create collections, index documents, and run relevance queries (top documents, pages, and snippets) with metadata filtering. The API is a versioned (/v1) HTTP JSON service with US and EU data-center endpoints, official Python and TypeScript SDKs, and API-key bearer authentication. ZeroEntropy is a portfolio company of Initialized Capital operating in the enterprise AI / search sector.
+finops:
+- has_sources: true
+  method: derived
+  name: Zeroentropy Finops
+  primary_unit: mm tokens
+  service_category: ''
+  slug: zeroentropy-finops
+  template: false
 image: https://zeroentropy.dev/assets/images/ze-logo.png
 layout: provider
 modified: '2026-07-21'
@@ -219,26 +226,26 @@ plans:
 - name: Zeroentropy Plans Pricing
   plan_count: 5
   slug: zeroentropy-plans-pricing
-random_paper: 1
+random_paper: 9
 score:
   band: developing
-  composite: 48.2
+  composite: 54.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 68.4
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 52.9
-    developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 41.8
+    developer_ergonomics: 56.5
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 52.6
   provenance:
     conformance: derived
     contracts:
@@ -254,13 +261,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/screenshots/zeroentropy-2026-08-17T083058.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zeroentropy/zeroentropy-2026-08-17T083058.png
 security:
 - kind: authentication
   name: Zeroentropy Authentication
@@ -274,6 +282,12 @@ security:
   name: Zeroentropy Trust Center
   slug: zeroentropy-trust-center
   summary_line: SOC 2, HIPAA
+skill_count: 2
+skills:
+- name: zeroentropy-rerank-results
+  slug: zeroentropy-rerank-results
+- name: zeroentropy-search-collection
+  slug: zeroentropy-search-collection
 slug: zeroentropy
 tags:
 - Company

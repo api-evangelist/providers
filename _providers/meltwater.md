@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 60.6
-  scored_at: '2026-10-17'
+  score: 56.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 87
   slug: meltwater-agentic-access
   summary_line: 87 operations · 34 acting
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://api.meltwater.com
   baseurl_source: declared
@@ -351,15 +353,12 @@ apis:
     question: How are my LLM prompts organized into folders?
   phrasing_ops: 2
   slug: meltwater-llm-api
-artifact_total: 44
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Meltwater Webhooks
   slug: meltwater-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Meltwater Account Management API
   slug: open-meltwater-account-management-api
@@ -398,32 +397,32 @@ collections:
   slug: open-meltwater-owned-analytics-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/capabilities/meltwater-capability-edges.yml
+  href: https://artifacts.apis.io/meltwater/capabilities/meltwater-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/meltwater-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/overlays/meltwater-api-v4-overlay.yaml
+  href: https://artifacts.apis.io/meltwater/overlays/meltwater-api-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/meltwater-api-v4-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/agentic-access/meltwater-agentic-access.yml
+  href: https://artifacts.apis.io/meltwater/agentic-access/meltwater-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/meltwater-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/security/meltwater-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/meltwater/security/meltwater-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/meltwater-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/security/meltwater-domain-security.yml
+  href: https://artifacts.apis.io/meltwater/security/meltwater-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meltwater-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/authentication/meltwater-authentication.yml
+  href: https://artifacts.apis.io/meltwater/authentication/meltwater-authentication.yml
   title: ''
   type: Authentication
   url: authentication/meltwater-authentication.yml
@@ -460,27 +459,27 @@ common:
   type: X
   url: https://x.com/Meltwater
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/plans/meltwater-plans-pricing.yml
+  href: https://artifacts.apis.io/meltwater/plans/meltwater-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/meltwater-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/rate-limits/meltwater-rate-limits.yml
+  href: https://artifacts.apis.io/meltwater/rate-limits/meltwater-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/meltwater-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/finops/meltwater-finops.yml
+  href: https://artifacts.apis.io/meltwater/finops/meltwater-finops.yml
   title: ''
   type: FinOps
   url: finops/meltwater-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/well-known/meltwater-well-known.yml
+  href: https://artifacts.apis.io/meltwater/well-known/meltwater-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/meltwater-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/well-known/meltwater-security.txt
+  href: https://artifacts.apis.io/meltwater/well-known/meltwater-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/meltwater-security.txt
@@ -489,102 +488,102 @@ common:
   type: Security
   url: https://www.meltwater.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/security/meltwater-trust-center.yml
+  href: https://artifacts.apis.io/meltwater/security/meltwater-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/meltwater-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/mcp/meltwater-mcp.yml
+  href: https://artifacts.apis.io/meltwater/mcp/meltwater-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/meltwater-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/mcp/meltwater-tool-crosswalk.yml
+  href: https://artifacts.apis.io/meltwater/mcp/meltwater-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/meltwater-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/llms/meltwater-llms.txt
+  href: https://artifacts.apis.io/meltwater/llms/meltwater-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/meltwater-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/meltwater/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/scopes/meltwater-scopes.yml
+  href: https://artifacts.apis.io/meltwater/scopes/meltwater-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/meltwater-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/conformance/meltwater-conformance.yml
+  href: https://artifacts.apis.io/meltwater/conformance/meltwater-conformance.yml
   title: ''
   type: Conformance
   url: conformance/meltwater-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/errors/meltwater-problem-types.yml
+  href: https://artifacts.apis.io/meltwater/errors/meltwater-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/meltwater-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/lifecycle/meltwater-lifecycle.yml
+  href: https://artifacts.apis.io/meltwater/lifecycle/meltwater-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/meltwater-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/conventions/meltwater-conventions.yml
+  href: https://artifacts.apis.io/meltwater/conventions/meltwater-conventions.yml
   title: ''
   type: Conventions
   url: conventions/meltwater-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/changelog/meltwater-changelog.yml
+  href: https://artifacts.apis.io/meltwater/changelog/meltwater-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/meltwater-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/data-model/meltwater-data-model.yml
+  href: https://artifacts.apis.io/meltwater/data-model/meltwater-data-model.yml
   title: ''
   type: DataModel
   url: data-model/meltwater-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/asyncapi/meltwater-webhooks.yml
+  href: https://artifacts.apis.io/meltwater/asyncapi/meltwater-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/meltwater-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/sandbox/meltwater-sandbox.yml
+  href: https://artifacts.apis.io/meltwater/sandbox/meltwater-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/meltwater-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/packages/meltwater-packages.yml
+  href: https://artifacts.apis.io/meltwater/packages/meltwater-packages.yml
   title: ''
   type: Packages
   url: packages/meltwater-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/examples/meltwater-api-examples.json
+  href: https://artifacts.apis.io/meltwater/examples/meltwater-api-examples.json
   title: ''
   type: Examples
   url: examples/meltwater-api-examples.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/vocabulary/meltwater-vocabulary.json
+  href: https://artifacts.apis.io/meltwater/vocabulary/meltwater-vocabulary.json
   title: ''
   type: Vocabulary
   url: vocabulary/meltwater-vocabulary.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/json-schema/meltwater-schemas.json
+  href: https://artifacts.apis.io/meltwater/json-schema/meltwater-schemas.json
   title: ''
   type: JSONSchema
   url: json-schema/meltwater-schemas.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/rules/meltwater-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/meltwater/rules/meltwater-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/meltwater-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/json-ld/meltwater-api.jsonld
+  href: https://artifacts.apis.io/meltwater/json-ld/meltwater-api.jsonld
   title: ''
   type: JSONLD
   url: json-ld/meltwater-api.jsonld
@@ -636,7 +635,7 @@ examples:
   slug: meltwater-api-examples
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Meltwater Finops
   primary_unit: ''
   service_category: ''
@@ -670,9 +669,9 @@ overview: 'Meltwater publishes 16 API contracts indexed on the [APIs.io](https:/
   Meltwater''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, sandbox, code examples, and 43 more developer resources.'
 plans:
 - name: Meltwater Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: meltwater-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 7
   name: Meltwater Rate Limits
@@ -695,24 +694,29 @@ scopes:
   slug: meltwater-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 71.7
+  band: strong
+  composite: 65.8
   coverage:
     artifact_dirs: 33
-    catalog_earned: 79.8
-    catalog_earned_first_party: 24.0
-    catalog_gap: 35.3
+    catalog_earned: 64.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 50.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -6.8
   facets:
-    access_clarity: 77.6
+    access_clarity: 52.6
     contract_governance: 28.0
-    contract_quality: 67.6
+    contract_quality: 65.7
     developer_ergonomics: 66.1
-    discoverability: 80.0
-    operational_transparency: 84.2
-  previous_composite: 73.2
+    discoverability: 65.0
+    operational_transparency: 86.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 72.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -729,13 +733,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/screenshots/meltwater-2026-06-20T185137.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/meltwater/meltwater-2026-06-20T185137.png
 security:
 - kind: authentication
   name: Meltwater Authentication
@@ -753,6 +758,18 @@ security:
   name: Meltwater Trust Center
   slug: meltwater-trust-center
   summary_line: trust center published
+skill_count: 5
+skills:
+- name: Analyze a saved search
+  slug: meltwater-analyze-a-saved-search
+- name: Export earned media for a saved search
+  slug: meltwater-export-earned-media
+- name: Stream mentions to a webhook
+  slug: meltwater-stream-mentions-to-a-webhook
+- name: Tag and search earned media documents
+  slug: meltwater-tag-earned-media
+- name: Track brand visibility in AI assistants (v4)
+  slug: meltwater-track-ai-visibility
 slug: meltwater
 tags:
 - Media Monitoring

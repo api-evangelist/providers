@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +59,7 @@ common:
   type: PrivacyPolicy
   url: https://www.gobuncha.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/buncha/refs/heads/main/security/buncha-domain-security.yml
+  href: https://artifacts.apis.io/buncha/security/buncha-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/buncha-domain-security.yml
@@ -73,7 +75,7 @@ overview: 'Buncha is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Buncha''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: emerging
   composite: 11.9
@@ -99,14 +101,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/buncha/refs/heads/main/screenshots/buncha-2026-07-25T204106.png
+screenshot: https://apis.io/screenshots/buncha/buncha-2026-07-25T204106.png
 security:
 - kind: domain-security
   name: Buncha Domain Security

@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.9
-  scored_at: '2026-10-17'
+  score: 31.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -80,11 +82,8 @@ apis:
   description: Retrieve team usage and activity metrics
   name: Eraser Usage Metrics API
   slug: eraser-usage-metrics-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Eraser AI Requests API
   slug: open-eraser-ai-requests-api
@@ -108,17 +107,17 @@ collections:
   slug: open-eraser-usage-metrics-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/agentic-access/eraser-agentic-access.yml
+  href: https://artifacts.apis.io/eraser/agentic-access/eraser-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eraser-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/security/eraser-domain-security.yml
+  href: https://artifacts.apis.io/eraser/security/eraser-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eraser-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/authentication/eraser-authentication.yml
+  href: https://artifacts.apis.io/eraser/authentication/eraser-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eraser-authentication.yml
@@ -155,17 +154,17 @@ common:
   type: X
   url: https://x.com/eraserlabs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/plans/eraser-plans-pricing.yml
+  href: https://artifacts.apis.io/eraser/plans/eraser-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eraser-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/rate-limits/eraser-rate-limits.yml
+  href: https://artifacts.apis.io/eraser/rate-limits/eraser-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eraser-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/finops/eraser-finops.yml
+  href: https://artifacts.apis.io/eraser/finops/eraser-finops.yml
   title: ''
   type: FinOps
   url: finops/eraser-finops.yml
@@ -222,7 +221,7 @@ plans:
 - name: Eraser Plans Pricing
   plan_count: 4
   slug: eraser-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Eraser Rate Limits
@@ -241,7 +240,7 @@ rules:
   slug: eraser-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.9
+  composite: 35.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 54.3
@@ -249,15 +248,15 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
-    contract_quality: 62.4
+    contract_quality: 59.0
     developer_ergonomics: 42.9
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 41.5
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -272,13 +271,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/screenshots/eraser-2026-06-20T180810.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/eraser/eraser-2026-06-20T180810.png
 security:
 - kind: authentication
   name: Eraser Authentication

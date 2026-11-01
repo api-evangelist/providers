@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.1
-  scored_at: '2026-10-17'
+  score: 50.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -82,7 +84,7 @@ apis:
   description: List, run, and stop workflows.
   name: Amperity Workflow API
   slug: amperity-workflow-api
-artifact_total: 18
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Amperity Webhooks
@@ -100,12 +102,12 @@ common:
   type: Blog
   url: https://amperity.com/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/capabilities/amperity-capability-edges.yml
+  href: https://artifacts.apis.io/amperity/capabilities/amperity-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amperity-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/agentic-access/amperity-agentic-access.yml
+  href: https://artifacts.apis.io/amperity/agentic-access/amperity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amperity-agentic-access.yml
@@ -142,112 +144,112 @@ common:
   type: Deprecation
   url: https://docs.amperity.com/api/versioning.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/llms/amperity-llms.txt
+  href: https://artifacts.apis.io/amperity/llms/amperity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amperity-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/authentication/amperity-authentication.yml
+  href: https://artifacts.apis.io/amperity/authentication/amperity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amperity-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/conventions/amperity-conventions.yml
+  href: https://artifacts.apis.io/amperity/conventions/amperity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amperity-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/errors/amperity-problem-types.yml
+  href: https://artifacts.apis.io/amperity/errors/amperity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amperity-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/lifecycle/amperity-lifecycle.yml
+  href: https://artifacts.apis.io/amperity/lifecycle/amperity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amperity-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/changelog/amperity-changelog.yml
+  href: https://artifacts.apis.io/amperity/changelog/amperity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/amperity-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/conformance/amperity-conformance.yml
+  href: https://artifacts.apis.io/amperity/conformance/amperity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amperity-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/data-model/amperity-data-model.yml
+  href: https://artifacts.apis.io/amperity/data-model/amperity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amperity-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/mcp/amperity-mcp.yml
+  href: https://artifacts.apis.io/amperity/mcp/amperity-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/amperity-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/well-known/amperity-well-known.yml
+  href: https://artifacts.apis.io/amperity/well-known/amperity-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amperity-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/security/amperity-domain-security.yml
+  href: https://artifacts.apis.io/amperity/security/amperity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amperity-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/_original/amperity-control-plane-2024-04-01-openapi.json
+  href: https://artifacts.apis.io/amperity/openapi/_original/amperity-control-plane-2024-04-01-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/amperity-control-plane-2024-04-01-openapi.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/overlays/amperity-control-plane-overlay.yaml
+  href: https://artifacts.apis.io/amperity/overlays/amperity-control-plane-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amperity-control-plane-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/mcp/amperity-tool-crosswalk.yml
+  href: https://artifacts.apis.io/amperity/mcp/amperity-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/amperity-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/packages/amperity-packages.yml
+  href: https://artifacts.apis.io/amperity/packages/amperity-packages.yml
   title: ''
   type: Packages
   url: packages/amperity-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/cli/amperity-cli.yml
+  href: https://artifacts.apis.io/amperity/cli/amperity-cli.yml
   title: ''
   type: CLI
   url: cli/amperity-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/rate-limits/amperity-rate-limits.yml
+  href: https://artifacts.apis.io/amperity/rate-limits/amperity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amperity-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/plans/amperity-plans-pricing.yml
+  href: https://artifacts.apis.io/amperity/plans/amperity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amperity-plans-pricing.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/sandbox/amperity-sandbox.yml
+  href: https://artifacts.apis.io/amperity/sandbox/amperity-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/amperity-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/amperity/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/asyncapi/amperity-webhooks.yml
+  href: https://artifacts.apis.io/amperity/asyncapi/amperity-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/amperity-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/security/amperity-trust-center.yml
+  href: https://artifacts.apis.io/amperity/security/amperity-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amperity-trust-center.yml
@@ -258,6 +260,14 @@ common:
 created: '2026-07-17'
 description: 'Amperity is a Seattle-based customer data platform (CDP) that helps consumer brands build accurate, unified customer profiles by stitching together fragmented first-party data from across their systems. Using AI-powered identity resolution (its patented Stitch technology), Amperity assembles a durable Customer 360 that powers segmentation, marketing campaigns, personalization, analytics, and activation to downstream destinations. For developers, Amperity exposes three public REST APIs: the Amperity API for programmatic access to tenant resources (campaigns, segments, ingest jobs, audit events, and workflow runs), the Profile API for real-time access to unified customer profiles by index, and the Streaming API for low-latency, high-throughput ingestion of events from external systems. Amperity publishes a downloadable OpenAPI 3.0.3 document for the Amperity API plus a separate unstable preview spec, and it hosts an official remote Model Context Protocol server at mcp.amperity.com
   exposing more than 200 tools across databases, queries, Stitch identity resolution, couriers, destinations, campaigns, journeys and predictive models, gated by OAuth2 authorization-code with PKCE and per-session safety modes. The REST APIs use OAuth2 client-credentials tokens (JWT bearer), cursor pagination, date-based versioning via an api-version header, and an RFC 8594 deprecation/sunset policy. Amperity serves retail, travel, hospitality, financial services, and other consumer-facing verticals.'
+finops:
+- has_sources: true
+  method: derived
+  name: Amperity Finops
+  primary_unit: ''
+  service_category: ''
+  slug: amperity-finops
+  template: true
 image: https://docs.amperity.com/_static/icon-light.svg
 layout: provider
 mcp_servers:
@@ -279,29 +289,29 @@ plans:
 - name: Amperity Plans Pricing
   plan_count: 0
   slug: amperity-plans-pricing
-random_paper: 17
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Amperity Rate Limits
   slug: amperity-rate-limits
 score:
   band: developing
-  composite: 50.0
+  composite: 52.1
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 18.2
     contract_quality: 58.7
-    developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 81.6
+    developer_ergonomics: 68.5
+    discoverability: 65.0
+    operational_transparency: 84.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -309,7 +319,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 49.4
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -326,13 +336,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/screenshots/amperity-2026-07-25T200122.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amperity/amperity-2026-07-25T200122.png
 security:
 - kind: authentication
   name: Amperity Authentication
@@ -346,6 +357,14 @@ security:
   name: Amperity Trust Center
   slug: amperity-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Operate Amperity safely over MCP
+  slug: amperity-mcp-safe-operation
+- name: Paginate any Amperity list endpoint
+  slug: amperity-paginate-list-endpoints
+- name: Run and monitor an Amperity workflow
+  slug: amperity-run-and-monitor-workflow
 slug: amperity
 tags:
 - Company

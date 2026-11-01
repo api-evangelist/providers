@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.8
-  scored_at: '2026-10-17'
+  score: 33.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -106,7 +108,7 @@ arazzos:
 - description: Authenticate, register a container image for scanning, then poll until the scan completes and read its vulnerability counts.
   name: Aqua Security Scan Image On Demand
   slug: aqua-security-scan-image-on-demand-workflow
-artifact_total: 115
+artifact_total: 114
 collections:
 - collection_type: postman
   name: Aqua Security REST Authentication API
@@ -127,9 +129,6 @@ collections:
   name: Aqua Security REST Authentication Users API
   slug: postman-aqua-security-users-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Aqua Security REST Authentication API
   slug: open-aqua-security-authentication-api
 - collection_type: open
@@ -149,17 +148,17 @@ collections:
   slug: open-aqua-security-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/plans/aqua-security-plans-pricing.yml
+  href: https://artifacts.apis.io/aqua-security/plans/aqua-security-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aqua-security-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/rate-limits/aqua-security-rate-limits.yml
+  href: https://artifacts.apis.io/aqua-security/rate-limits/aqua-security-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aqua-security-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/finops/aqua-security-finops.yml
+  href: https://artifacts.apis.io/aqua-security/finops/aqua-security-finops.yml
   title: ''
   type: FinOps
   url: finops/aqua-security-finops.yml
@@ -196,62 +195,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/aqua-security/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/agentic-access/aqua-security-agentic-access.yml
+  href: https://artifacts.apis.io/aqua-security/agentic-access/aqua-security-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aqua-security-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/security/aqua-security-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aqua-security/security/aqua-security-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aqua-security-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/security/aqua-security-domain-security.yml
+  href: https://artifacts.apis.io/aqua-security/security/aqua-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aqua-security-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/authentication/aqua-security-authentication.yml
+  href: https://artifacts.apis.io/aqua-security/authentication/aqua-security-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aqua-security-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/arazzo/aqua-security-create-assurance-policy-workflow.yml
+  href: https://artifacts.apis.io/aqua-security/arazzo/aqua-security-create-assurance-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aqua-security-create-assurance-policy-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/arazzo/aqua-security-image-compliance-gate-workflow.yml
+  href: https://artifacts.apis.io/aqua-security/arazzo/aqua-security-image-compliance-gate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aqua-security-image-compliance-gate-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/arazzo/aqua-security-image-vulnerability-lookup-workflow.yml
+  href: https://artifacts.apis.io/aqua-security/arazzo/aqua-security-image-vulnerability-lookup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aqua-security-image-vulnerability-lookup-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/arazzo/aqua-security-onboard-registry-image-workflow.yml
+  href: https://artifacts.apis.io/aqua-security/arazzo/aqua-security-onboard-registry-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aqua-security-onboard-registry-image-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/arazzo/aqua-security-registry-inventory-workflow.yml
+  href: https://artifacts.apis.io/aqua-security/arazzo/aqua-security-registry-inventory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aqua-security-registry-inventory-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/arazzo/aqua-security-rescan-and-cleanup-workflow.yml
+  href: https://artifacts.apis.io/aqua-security/arazzo/aqua-security-rescan-and-cleanup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aqua-security-rescan-and-cleanup-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/arazzo/aqua-security-running-container-inventory-workflow.yml
+  href: https://artifacts.apis.io/aqua-security/arazzo/aqua-security-running-container-inventory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aqua-security-running-container-inventory-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/arazzo/aqua-security-scan-image-on-demand-workflow.yml
+  href: https://artifacts.apis.io/aqua-security/arazzo/aqua-security-scan-image-on-demand-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aqua-security-scan-image-on-demand-workflow.yml
@@ -549,7 +548,7 @@ plans:
 - name: Aqua Security Plans Pricing
   plan_count: 1
   slug: aqua-security-plans-pricing
-random_paper: 15
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Aqua Security Rate Limits
@@ -580,7 +579,7 @@ rules:
   slug: aqua-security-spectral-rules
 score:
   band: developing
-  composite: 40.8
+  composite: 46.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 64.4
@@ -588,18 +587,15 @@ score:
     catalog_gap: 50.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 50.0
     contract_governance: 27.3
     contract_quality: 26.2
-    developer_ergonomics: 27.4
+    developer_ergonomics: 58.3
     discoverability: 61.7
-    operational_transparency: 50.0
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 42.1
+    operational_transparency: 52.6
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     contracts:
@@ -612,14 +608,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 30.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/screenshots/aqua-security-2026-06-20T172346.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aqua-security/aqua-security-2026-06-20T172346.png
 security:
 - kind: authentication
   name: Aqua Security Authentication

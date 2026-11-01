@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'REST API for managing Ivanti Connect Secure (formerly Pulse Connect Secure) VPN appliances. Provides endpoints for system configuration, user and role management, authentication server configuration, '
@@ -51,7 +53,7 @@ apis:
 artifact_total: 20
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/finops/pulse-finops.yml
+  href: https://artifacts.apis.io/pulse/finops/pulse-finops.yml
   title: ''
   type: FinOps
   url: finops/pulse-finops.yml
@@ -60,77 +62,77 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/ivanti/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/well-known/pulse-well-known.yml
+  href: https://artifacts.apis.io/pulse/well-known/pulse-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pulse-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/well-known/pulse-security.txt
+  href: https://artifacts.apis.io/pulse/well-known/pulse-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/pulse-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/security/pulse-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pulse/security/pulse-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/pulse-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/security/pulse-trust-center.yml
+  href: https://artifacts.apis.io/pulse/security/pulse-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pulse-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/conformance/pulse-conformance.yml
+  href: https://artifacts.apis.io/pulse/conformance/pulse-conformance.yml
   title: ''
   type: Compliance
   url: conformance/pulse-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/conformance/pulse-conformance.yml
+  href: https://artifacts.apis.io/pulse/conformance/pulse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pulse-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/authentication/pulse-authentication.yml
+  href: https://artifacts.apis.io/pulse/authentication/pulse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pulse-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/errors/pulse-problem-types.yml
+  href: https://artifacts.apis.io/pulse/errors/pulse-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pulse-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/lifecycle/pulse-lifecycle.yml
+  href: https://artifacts.apis.io/pulse/lifecycle/pulse-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pulse-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/lifecycle/pulse-lifecycle.yml
+  href: https://artifacts.apis.io/pulse/lifecycle/pulse-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/pulse-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/changelog/pulse-changelog.yml
+  href: https://artifacts.apis.io/pulse/changelog/pulse-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pulse-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/conventions/pulse-conventions.yml
+  href: https://artifacts.apis.io/pulse/conventions/pulse-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pulse-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/rate-limits/pulse-rate-limits.yml
+  href: https://artifacts.apis.io/pulse/rate-limits/pulse-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pulse-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/plans/pulse-plans-pricing.yml
+  href: https://artifacts.apis.io/pulse/plans/pulse-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pulse-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/llms/pulse-llms.txt
+  href: https://artifacts.apis.io/pulse/llms/pulse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pulse-llms.txt
@@ -159,12 +161,12 @@ common:
   type: Login
   url: https://hub.ivanti.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/security/pulse-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pulse/security/pulse-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pulse-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/security/pulse-domain-security.yml
+  href: https://artifacts.apis.io/pulse/security/pulse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pulse-domain-security.yml
@@ -215,7 +217,7 @@ finops:
 - has_sources: false
   method: generated
   name: Pulse Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: pulse-finops
   template: true
@@ -233,14 +235,14 @@ plans:
 - name: Pulse Plans Pricing
   plan_count: 0
   slug: pulse-plans-pricing
-random_paper: 3
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Pulse Rate Limits
   slug: pulse-rate-limits
 score:
   band: thin
-  composite: 38.5
+  composite: 39.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 40.0
@@ -248,15 +250,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 50.0
-  previous_composite: 40.0
+  previous_composite: 39.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -266,14 +268,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/screenshots/pulse-2026-06-20T192251.png
+screenshot: https://apis.io/screenshots/pulse/pulse-2026-06-20T192251.png
 security:
 - kind: authentication
   name: Pulse Authentication

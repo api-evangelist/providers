@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,15 +28,17 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.4
-  scored_at: '2026-10-17'
+  score: 29.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 10
   slug: fundamental-research-labs-agentic-access
   summary_line: 10 operations · 3 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.shortcut.ai
   baseurl_source: declared
@@ -61,7 +63,7 @@ apis:
   description: 'Export team usage metrics for reporting, finance, and internal analytics. Usage Metrics in Shortcut provides a prefilled request with your team_id; use this reference to customize date range, format, '
   name: Fundamental Research Labs Usage API
   slug: fundamental-research-labs-usage-api
-artifact_total: 16
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Fundamental Research Labs Webhooks
@@ -76,9 +78,6 @@ collections:
 - collection_type: postman
   name: Shortcut Authentication Usage API
   slug: postman-fundamental-research-labs-usage-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Shortcut Authentication API
   slug: open-fundamental-research-labs-authentication-api
@@ -146,102 +145,110 @@ common:
   type: Compliance
   url: https://shortcut.ai/pricing
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/openapi/_original/fundamental-research-labs-openapi-original.json
+  href: https://artifacts.apis.io/fundamental-research-labs/openapi/_original/fundamental-research-labs-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/fundamental-research-labs-openapi-original.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/authentication/fundamental-research-labs-authentication.yml
+  href: https://artifacts.apis.io/fundamental-research-labs/authentication/fundamental-research-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fundamental-research-labs-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/packages/fundamental-research-labs-packages.yml
+  href: https://artifacts.apis.io/fundamental-research-labs/packages/fundamental-research-labs-packages.yml
   title: ''
   type: Packages
   url: packages/fundamental-research-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/cli/fundamental-research-labs-cli.yml
+  href: https://artifacts.apis.io/fundamental-research-labs/cli/fundamental-research-labs-cli.yml
   title: ''
   type: CLI
   url: cli/fundamental-research-labs-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/mcp/fundamental-research-labs-mcp.yml
+  href: https://artifacts.apis.io/fundamental-research-labs/mcp/fundamental-research-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fundamental-research-labs-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/llms/fundamental-research-labs-llms.txt
+  href: https://artifacts.apis.io/fundamental-research-labs/llms/fundamental-research-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fundamental-research-labs-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/overlays/fundamental-research-labs-shortcut-overlay.yaml
+  href: https://artifacts.apis.io/fundamental-research-labs/overlays/fundamental-research-labs-shortcut-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fundamental-research-labs-shortcut-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/conformance/fundamental-research-labs-conformance.yml
+  href: https://artifacts.apis.io/fundamental-research-labs/conformance/fundamental-research-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fundamental-research-labs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/errors/fundamental-research-labs-problem-types.yml
+  href: https://artifacts.apis.io/fundamental-research-labs/errors/fundamental-research-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fundamental-research-labs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/lifecycle/fundamental-research-labs-lifecycle.yml
+  href: https://artifacts.apis.io/fundamental-research-labs/lifecycle/fundamental-research-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fundamental-research-labs-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/conventions/fundamental-research-labs-conventions.yml
+  href: https://artifacts.apis.io/fundamental-research-labs/conventions/fundamental-research-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fundamental-research-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/data-model/fundamental-research-labs-data-model.yml
+  href: https://artifacts.apis.io/fundamental-research-labs/data-model/fundamental-research-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fundamental-research-labs-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/asyncapi/fundamental-research-labs-webhooks.yml
+  href: https://artifacts.apis.io/fundamental-research-labs/asyncapi/fundamental-research-labs-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fundamental-research-labs-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/changelog/fundamental-research-labs-changelog.yml
+  href: https://artifacts.apis.io/fundamental-research-labs/changelog/fundamental-research-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fundamental-research-labs-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/rate-limits/fundamental-research-labs-rate-limits.yml
+  href: https://artifacts.apis.io/fundamental-research-labs/rate-limits/fundamental-research-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fundamental-research-labs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/plans/fundamental-research-labs-plans.yml
+  href: https://artifacts.apis.io/fundamental-research-labs/plans/fundamental-research-labs-plans.yml
   title: ''
   type: Plans
   url: plans/fundamental-research-labs-plans.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/agentic-access/fundamental-research-labs-agentic-access.yml
+  href: https://artifacts.apis.io/fundamental-research-labs/agentic-access/fundamental-research-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fundamental-research-labs-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fundamental-research-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/security/fundamental-research-labs-domain-security.yml
+  href: https://artifacts.apis.io/fundamental-research-labs/security/fundamental-research-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fundamental-research-labs-domain-security.yml
 created: '2026-07-17'
 description: Fundamental Research Labs (formerly Altera) is an applied AI research company building autonomous, collaborative AI agents, founded by researchers from MIT EECS, the Stanford NLP Group, Google X, and Citadel and backed by Andreessen Horowitz and Prosus. Its flagship product, Shortcut, is an AI analyst for Excel that turns natural-language prompts into full spreadsheet models — LBOs, DCFs, three-statement models, waterfalls — and ships a web app, desktop app, Excel and Google Sheets plugins, a ShortcutXL terminal agent (CLI), and a Platform API. The Shortcut Platform API lets teams submit spreadsheet-automation jobs, poll status, download generated workbooks, upload context files, list agent skills, and export organization usage data programmatically using API-key bearer authentication.
+finops:
+- has_sources: true
+  method: derived
+  name: Fundamental Research Labs Finops
+  primary_unit: seat
+  service_category: ''
+  slug: fundamental-research-labs-finops
+  template: false
 image: https://shortcut.ai/og-image.png
 layout: provider
 modified: '2026-07-19'
@@ -259,30 +266,33 @@ plans:
 - name: Fundamental Research Labs Plans
   plan_count: 4
   slug: fundamental-research-labs-plans
-random_paper: 12
+- name: Fundamental Research Labs Price Estimates
+  plan_count: 0
+  slug: fundamental-research-labs-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Fundamental Research Labs Rate Limits
   slug: fundamental-research-labs-rate-limits
 score:
   band: strong
-  composite: 60.6
+  composite: 62.5
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 61.0
+    artifact_dirs: 25
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 48.5
+    contract_quality: 48.6
     developer_ergonomics: 67.3
-    discoverability: 73.2
-    operational_transparency: 57.9
-  previous_composite: 60.5
+    discoverability: 66.1
+    operational_transparency: 60.5
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -290,7 +300,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 6
     mcp: derived
     skills: derived
   regulatory:
@@ -299,13 +309,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/screenshots/fundamental-research-labs-2026-07-25T215308.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fundamental-research-labs/fundamental-research-labs-2026-07-25T215308.png
 security:
 - kind: authentication
   name: Fundamental Research Labs Authentication
@@ -315,6 +326,14 @@ security:
   name: Fundamental Research Labs Domain Security
   slug: fundamental-research-labs-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Export team usage metrics
+  slug: fundamental-research-labs-export-team-usage
+- name: Generate a spreadsheet from a prompt
+  slug: fundamental-research-labs-generate-spreadsheet
+- name: Upload files and run an analysis with skills
+  slug: fundamental-research-labs-upload-and-analyze
 slug: fundamental-research-labs
 tags:
 - Company

@@ -27,17 +27,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.3
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 47.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: Hosted remote Model Context Protocol server exposing 18 Toksta tools — campaigns, creator discovery, lists, enrichment, content-fit and audience-fit analysis, and job control — to Claude and ChatGPT c
   name: Toksta MCP Server
@@ -87,14 +89,14 @@ apis:
   description: The System API from toksta — 4 operation(s) for system.
   name: toksta System API
   slug: toksta-system-api
-artifact_total: 17
+artifact_total: 23
 collections:
 - collection_type: open
   name: Toksta Public API
   slug: open-toksta-public-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/overlays/toksta-public-api-overlay.yaml
+  href: https://artifacts.apis.io/toksta/overlays/toksta-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/toksta-public-api-overlay.yaml
@@ -143,77 +145,85 @@ common:
   type: Pricing
   url: https://www.toksta.com/#pricing
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/mcp/toksta-mcp.yml
+  href: https://artifacts.apis.io/toksta/mcp/toksta-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/toksta-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/llms/toksta-llms.txt
+  href: https://artifacts.apis.io/toksta/llms/toksta-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/toksta-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/well-known/toksta-well-known.yml
+  href: https://artifacts.apis.io/toksta/well-known/toksta-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/toksta-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/authentication/toksta-authentication.yml
+  href: https://artifacts.apis.io/toksta/authentication/toksta-authentication.yml
   title: ''
   type: Authentication
   url: authentication/toksta-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/scopes/toksta-scopes.yml
+  href: https://artifacts.apis.io/toksta/scopes/toksta-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/toksta-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/conventions/toksta-conventions.yml
+  href: https://artifacts.apis.io/toksta/conventions/toksta-conventions.yml
   title: ''
   type: Conventions
   url: conventions/toksta-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/errors/toksta-problem-types.yml
+  href: https://artifacts.apis.io/toksta/errors/toksta-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/toksta-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/data-model/toksta-data-model.yml
+  href: https://artifacts.apis.io/toksta/data-model/toksta-data-model.yml
   title: ''
   type: DataModel
   url: data-model/toksta-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/rate-limits/toksta-rate-limits.yml
+  href: https://artifacts.apis.io/toksta/rate-limits/toksta-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/toksta-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/plans/toksta-plans-pricing.yml
+  href: https://artifacts.apis.io/toksta/plans/toksta-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/toksta-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/lifecycle/toksta-lifecycle.yml
+  href: https://artifacts.apis.io/toksta/lifecycle/toksta-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/toksta-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/conformance/toksta-conformance.yml
+  href: https://artifacts.apis.io/toksta/conformance/toksta-conformance.yml
   title: ''
   type: Conformance
   url: conformance/toksta-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/toksta/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/security/toksta-domain-security.yml
+  href: https://artifacts.apis.io/toksta/security/toksta-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/toksta-domain-security.yml
 created: '2026-07-17'
 description: 'Toksta is a B2B influencer marketing intelligence platform that uses AI agents to research, filter, and match creators at scale for enterprise brands. It runs a vetted B2B creator database with LinkedIn and YouTube influencer search, automated relevance scoring (AI Match), granular vetting benchmarks (Deep Metrics), campaign management, brand monitoring, and reporting. Toksta ships two machine surfaces: the Toksta Public API v1 at api.toksta.com — a credit-metered REST API with a published OpenAPI 3.0.3 document and Swagger UI, covering creator search and discovery, enrichment, content-match and audience-match analysis jobs, post evidence, campaigns, creator lists and account usage — and a hosted, OAuth-protected MCP server at mcp.toksta.com exposing 18 tools to Claude and ChatGPT custom connectors. Async work is polling-only; there are no webhooks in v1. Toksta is a portfolio company of Seedcamp.'
+finops:
+- has_sources: true
+  method: derived
+  name: Toksta Finops
+  primary_unit: workspace
+  service_category: ''
+  slug: toksta-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/toksta.png
 layout: provider
 mcp_servers:
@@ -230,9 +240,12 @@ overview: 'toksta publishes 10 API contracts indexed on the [APIs.io](https://ap
   toksta''s developer surface includes engineering blog, signup flow, documentation, API reference, getting-started guide, support, pricing, and 19 more developer resources.'
 plans:
 - name: Toksta Plans Pricing
-  plan_count: 0
+  plan_count: 5
   slug: toksta-plans-pricing
-random_paper: 2
+- name: Toksta Price Estimates
+  plan_count: 0
+  slug: toksta-price-estimates
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Toksta Rate Limits
@@ -244,23 +257,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.2
+  composite: 51.2
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 22
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 11.8
+    access_clarity: 63.2
     contract_governance: 18.2
     contract_quality: 49.0
     developer_ergonomics: 58.9
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 31.6
-  previous_composite: 41.1
+  previous_composite: 43.3
   provenance:
     conformance: first-party
     contracts:
@@ -276,13 +289,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/screenshots/toksta-2026-08-17T082400.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/toksta/toksta-2026-08-17T082400.png
 security:
 - kind: authentication
   name: Toksta Authentication
@@ -292,6 +306,16 @@ security:
   name: Toksta Domain Security
   slug: toksta-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 4
+skills:
+- name: Discover and shortlist B2B creators
+  slug: toksta-discover-and-shortlist-creators
+- name: Enrich creators and read the bill
+  slug: toksta-enrich-creators
+- name: Run a thought-leader discovery job
+  slug: toksta-run-a-thought-leader-discovery-job
+- name: Score creator fit for a campaign
+  slug: toksta-score-creator-fit-for-a-campaign
 slug: toksta
 tags:
 - Company

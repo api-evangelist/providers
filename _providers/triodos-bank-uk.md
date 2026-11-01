@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.9
-  scored_at: '2026-10-17'
+  score: 26.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -93,7 +95,7 @@ apis:
   description: The UserInfo Endpoint provides information about the authenticated end-user.
   name: Triodos Bank UK UserInfo Endpoint API
   slug: triodos-bank-uk-userinfo-endpoint-api
-artifact_total: 17
+artifact_total: 20
 collections:
 - collection_type: open
   name: Triodos Auth service
@@ -103,72 +105,72 @@ collections:
   slug: open-triodos-bank-uk-xs2a
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/capabilities/triodos-bank-uk-capability-edges.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/capabilities/triodos-bank-uk-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/triodos-bank-uk-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/security/triodos-bank-uk-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/security/triodos-bank-uk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/triodos-bank-uk-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/security/triodos-bank-uk-domain-security.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/security/triodos-bank-uk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/triodos-bank-uk-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/agentic-access/triodos-bank-uk-agentic-access.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/agentic-access/triodos-bank-uk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/triodos-bank-uk-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/security/triodos-bank-uk-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/security/triodos-bank-uk-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/triodos-bank-uk-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/well-known/triodos-bank-uk-security.txt
+  href: https://artifacts.apis.io/triodos-bank-uk/well-known/triodos-bank-uk-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/triodos-bank-uk-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/well-known/triodos-bank-uk-well-known.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/well-known/triodos-bank-uk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/triodos-bank-uk-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/authentication/triodos-bank-uk-authentication.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/authentication/triodos-bank-uk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/triodos-bank-uk-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/scopes/triodos-bank-uk-scopes.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/scopes/triodos-bank-uk-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/triodos-bank-uk-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/conventions/triodos-bank-uk-conventions.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/conventions/triodos-bank-uk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/triodos-bank-uk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/conventions/triodos-bank-uk-conventions.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/conventions/triodos-bank-uk-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/triodos-bank-uk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/errors/triodos-bank-uk-problem-types.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/errors/triodos-bank-uk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/triodos-bank-uk-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/lifecycle/triodos-bank-uk-lifecycle.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/lifecycle/triodos-bank-uk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/triodos-bank-uk-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/conformance/triodos-bank-uk-conformance.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/conformance/triodos-bank-uk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/triodos-bank-uk-conformance.yml
@@ -177,37 +179,37 @@ common:
   type: Compliance
   url: https://www.triodos.co.uk/open-banking-developers
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/sandbox/triodos-bank-uk-sandbox.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/sandbox/triodos-bank-uk-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/triodos-bank-uk-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/data-model/triodos-bank-uk-data-model.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/data-model/triodos-bank-uk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/triodos-bank-uk-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/mcp/triodos-bank-uk-mcp.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/mcp/triodos-bank-uk-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/triodos-bank-uk-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/overlays/triodos-bank-uk-xs2a-overlay.yaml
+  href: https://artifacts.apis.io/triodos-bank-uk/overlays/triodos-bank-uk-xs2a-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/triodos-bank-uk-xs2a-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/overlays/triodos-bank-uk-auth-overlay.yaml
+  href: https://artifacts.apis.io/triodos-bank-uk/overlays/triodos-bank-uk-auth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/triodos-bank-uk-auth-overlay.yaml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/changelog/triodos-bank-uk-changelog.yml
+  href: https://artifacts.apis.io/triodos-bank-uk/changelog/triodos-bank-uk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/triodos-bank-uk-changelog.yml
@@ -260,7 +262,7 @@ common:
   type: PrivacyPolicy
   url: https://www.triodos.co.uk/privacy-statement
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/llms/triodos-bank-uk-llms.txt
+  href: https://artifacts.apis.io/triodos-bank-uk/llms/triodos-bank-uk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/triodos-bank-uk-llms.txt
@@ -277,7 +279,7 @@ overview: 'Triodos Bank UK publishes 10 API contracts indexed on the [APIs.io](h
 
 
   Triodos Bank UK''s developer surface includes authentication, sandbox, changelog, API reference, signup flow, documentation, getting-started guide, and 28 more developer resources.'
-random_paper: 2
+random_paper: 10
 scopes:
 - name: Triodos Bank Uk Scopes
   scope_count: 5
@@ -285,7 +287,7 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 41.2
+  composite: 46.9
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -295,12 +297,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 43.9
-    developer_ergonomics: 49.4
-    discoverability: 73.2
-    operational_transparency: 18.4
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -309,7 +311,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 41.2
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -334,13 +336,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 59.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/screenshots/triodos-bank-uk-2026-08-17T082439.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/triodos-bank-uk/triodos-bank-uk-2026-08-17T082439.png
 security:
 - kind: authentication
   name: Triodos Bank Uk Authentication
@@ -354,6 +357,14 @@ security:
   name: Triodos Bank Uk Vulnerability Disclosure
   slug: triodos-bank-uk-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Access Triodos account information (AIS)
+  slug: triodos-bank-uk-account-information
+- name: Confirm availability of funds (CoF / CBPII)
+  slug: triodos-bank-uk-confirmation-of-funds
+- name: Initiate and authorise a Triodos payment (PIS)
+  slug: triodos-bank-uk-initiate-payment
 slug: triodos-bank-uk
 tags:
 - Financial Services

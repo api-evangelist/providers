@@ -14,36 +14,38 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bioprotonics/refs/heads/main/llms/bioprotonics-llms.txt
+  href: https://artifacts.apis.io/bioprotonics/llms/bioprotonics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bioprotonics-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bioprotonics/refs/heads/main/hosts/bioprotonics-hosts.yml
+  href: https://artifacts.apis.io/bioprotonics/hosts/bioprotonics-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bioprotonics-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bioprotonics/refs/heads/main/vendors/bioprotonics-vendors.yml
+  href: https://artifacts.apis.io/bioprotonics/vendors/bioprotonics-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bioprotonics-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bioprotonics/refs/heads/main/security/bioprotonics-domain-security.yml
+  href: https://artifacts.apis.io/bioprotonics/security/bioprotonics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bioprotonics-domain-security.yml
@@ -67,10 +69,10 @@ name: BioProtonics
 nav: Providers
 network: true
 overview: BioProtonics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Imaging, Diagnostics, Artificial Intelligence, and Healthcare.
-random_paper: 9
+random_paper: 11
 score:
   band: minimal
-  composite: 4.0
+  composite: 3.3
   coverage:
     artifact_dirs: 7
     catalog_earned: 25.0
@@ -84,9 +86,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 51.8
+    discoverability: 44.6
     operational_transparency: 0.0
-  previous_composite: 4.0
+  previous_composite: 3.3
   provenance:
     mcp: unknown
   regulatory:
@@ -95,14 +97,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bioprotonics/refs/heads/main/screenshots/bioprotonics-2026-10-11T102331.png
+screenshot: https://apis.io/screenshots/bioprotonics/bioprotonics-2026-10-11T102331.png
 security:
 - kind: domain-security
   name: Bioprotonics Domain Security

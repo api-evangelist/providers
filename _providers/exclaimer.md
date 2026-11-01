@@ -25,15 +25,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.5
-  scored_at: '2026-10-17'
-api_count: 11
+  score: 28.3
+  scored_at: '2026-10-31'
+api_count: 10
 apis:
 - baseURL: https://cloudapi.exclaimer.com/exclaimerapi
   baseurl_source: declared
@@ -80,7 +82,7 @@ apis:
   description: The Subscriptions API from Exclaimer — 13 operation(s) for subscriptions.
   name: Exclaimer Subscriptions API
   slug: exclaimer-subscriptions-api
-artifact_total: 24
+artifact_total: 30
 collections:
 - collection_type: open
   name: Exclaimer Cloud API — End Users
@@ -111,22 +113,22 @@ collections:
   slug: open-exclaimer-subscriptions
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/rate-limits/exclaimer-rate-limits.yml
+  href: https://artifacts.apis.io/exclaimer/rate-limits/exclaimer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/exclaimer-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/capabilities/exclaimer-capability-edges.yml
+  href: https://artifacts.apis.io/exclaimer/capabilities/exclaimer-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/exclaimer-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/overlays/exclaimer-cloud-api-overlay.yaml
+  href: https://artifacts.apis.io/exclaimer/overlays/exclaimer-cloud-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/exclaimer-cloud-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/exclaimer/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -163,7 +165,7 @@ common:
   type: StatusPage
   url: https://status.exclaimer.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/lifecycle/exclaimer-lifecycle.yml
+  href: https://artifacts.apis.io/exclaimer/lifecycle/exclaimer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/exclaimer-lifecycle.yml
@@ -172,7 +174,7 @@ common:
   type: Compliance
   url: https://exclaimer.com/product/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/security/exclaimer-trust-center.yml
+  href: https://artifacts.apis.io/exclaimer/security/exclaimer-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/exclaimer-trust-center.yml
@@ -181,22 +183,22 @@ common:
   type: Security
   url: https://vdp.exclaimer.com/p/Welcome
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/security/exclaimer-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/exclaimer/security/exclaimer-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/exclaimer-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/well-known/exclaimer-security.txt
+  href: https://artifacts.apis.io/exclaimer/well-known/exclaimer-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/exclaimer-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/well-known/exclaimer-well-known.yml
+  href: https://artifacts.apis.io/exclaimer/well-known/exclaimer-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/exclaimer-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/security/exclaimer-domain-security.yml
+  href: https://artifacts.apis.io/exclaimer/security/exclaimer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/exclaimer-domain-security.yml
@@ -225,7 +227,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/exclaimerltd
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/changelog/exclaimer-changelog.yml
+  href: https://artifacts.apis.io/exclaimer/changelog/exclaimer-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/exclaimer-changelog.yml
@@ -234,17 +236,25 @@ common:
   type: Deprecation
   url: https://exclaimer.com/support/discontinued/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/llms/exclaimer-llms.txt
+  href: https://artifacts.apis.io/exclaimer/llms/exclaimer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/exclaimer-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/plans/exclaimer-plans-pricing.yml
+  href: https://artifacts.apis.io/exclaimer/plans/exclaimer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/exclaimer-plans-pricing.yml
 created: '2026-07-17'
 description: Exclaimer is an email signature management platform used by IT, marketing, and sales teams to centrally create, deploy, and govern corporate email signatures across Microsoft 365, Microsoft Exchange, and Google Workspace. It manages signatures for more than 9 million email accounts, adding campaign banners, meeting-branding backgrounds, click-tracking analytics, directory synchronization with Azure AD and Google Directory, and role-based access control. Exclaimer publishes the Exclaimer Cloud API — a partner/distributor provisioning REST API documented at cloudapi.exclaimer.com with a machine- readable OpenAPI 3.0.1 definition covering subscriptions, MSP subscriptions, subscription users, resellers, end users, mailbox counts, subscription transfers and reference data. It operates a multi-region Exclaimer Cloud with a real-time status page and a strong security and compliance program (SOC 2 Type II, ISO 27001/27018, HIPAA, PCI DSS, CSA STAR, Cyber Essentials).
+finops:
+- has_sources: true
+  method: derived
+  name: Exclaimer Finops
+  primary_unit: user / month, billed annually
+  service_category: ''
+  slug: exclaimer-finops
+  template: false
 image: https://exclaimer.com/img/og-image.jpg
 layout: provider
 modified: '2026-08-13'
@@ -259,30 +269,38 @@ plans:
 - name: Exclaimer Plans Pricing
   plan_count: 4
   slug: exclaimer-plans-pricing
-random_paper: 8
+- name: Exclaimer Price Estimates
+  plan_count: 0
+  slug: exclaimer-price-estimates
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Exclaimer Rate Limits
   slug: exclaimer-rate-limits
 score:
   band: strong
-  composite: 63.1
+  composite: 63.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.0
+    artifact_dirs: 25
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 51.0
     developer_ergonomics: 66.1
-    discoverability: 78.6
-    operational_transparency: 52.6
-  previous_composite: 63.0
+    discoverability: 71.4
+    operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 62.3
   provenance:
     conformance: derived
     contracts:
@@ -298,13 +316,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/screenshots/exclaimer-2026-07-25T213850.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/exclaimer/exclaimer-2026-07-25T213850.png
 security:
 - kind: authentication
   name: Exclaimer Authentication
@@ -322,6 +341,16 @@ security:
   name: Exclaimer Trust Center
   slug: exclaimer-trust-center
   summary_line: SOC 2 Type II, ISO/IEC 27001, ISO/IEC 27018, PCI DSS, CSA (Cloud Security Alliance), Cyber Essentials, HIPAA, GDPR, CCPA
+skill_count: 4
+skills:
+- name: exclaimer-manage-seats-and-users
+  slug: exclaimer-manage-seats-and-users
+- name: exclaimer-msp-usage-reporting
+  slug: exclaimer-msp-usage-reporting
+- name: exclaimer-provision-subscription
+  slug: exclaimer-provision-subscription
+- name: exclaimer-transfer-subscription
+  slug: exclaimer-transfer-subscription
 slug: exclaimer
 tags:
 - Company

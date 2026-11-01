@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://app-integration.rocksolid.network/api
@@ -53,9 +55,6 @@ apis:
   slug: rocksolid-vaults-api
 artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: RockSolid Vaults Allocations API
   slug: open-rocksolid-allocations-api
@@ -111,57 +110,57 @@ common:
   type: SignUp
   url: https://app.rocksolid.network
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/authentication/rocksolid-authentication.yml
+  href: https://artifacts.apis.io/rocksolid/authentication/rocksolid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rocksolid-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/errors/rocksolid-problem-types.yml
+  href: https://artifacts.apis.io/rocksolid/errors/rocksolid-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rocksolid-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/lifecycle/rocksolid-lifecycle.yml
+  href: https://artifacts.apis.io/rocksolid/lifecycle/rocksolid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rocksolid-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/conventions/rocksolid-conventions.yml
+  href: https://artifacts.apis.io/rocksolid/conventions/rocksolid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rocksolid-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/conformance/rocksolid-conformance.yml
+  href: https://artifacts.apis.io/rocksolid/conformance/rocksolid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rocksolid-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/data-model/rocksolid-data-model.yml
+  href: https://artifacts.apis.io/rocksolid/data-model/rocksolid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rocksolid-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/mcp/rocksolid-mcp.yml
+  href: https://artifacts.apis.io/rocksolid/mcp/rocksolid-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rocksolid-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/llms/rocksolid-llms.txt
+  href: https://artifacts.apis.io/rocksolid/llms/rocksolid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rocksolid-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/overlays/rocksolid-vaults-overlay.yaml
+  href: https://artifacts.apis.io/rocksolid/overlays/rocksolid-vaults-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rocksolid-vaults-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/security/rocksolid-domain-security.yml
+  href: https://artifacts.apis.io/rocksolid/security/rocksolid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rocksolid-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rocksolid/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -177,10 +176,10 @@ overview: 'RockSolid publishes 3 API contracts indexed on the [APIs.io](https://
 
 
   RockSolid''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 15 more developer resources.'
-random_paper: 2
+random_paper: 10
 score:
   band: thin
-  composite: 37.6
+  composite: 37.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -194,9 +193,9 @@ score:
     contract_governance: 4.5
     contract_quality: 48.4
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 37.6
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 37.3
   provenance:
     conformance: derived
     contracts:
@@ -212,14 +211,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/screenshots/rocksolid-2026-09-02T154045.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rocksolid/rocksolid-2026-09-02T154045.png
 security:
 - kind: authentication
   name: Rocksolid Authentication
@@ -229,6 +228,10 @@ security:
   name: Rocksolid Domain Security
   slug: rocksolid-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Discover RockSolid vaults and their yield
+  slug: rocksolid-discover-vaults-and-yield
 slug: rocksolid
 tags:
 - Company

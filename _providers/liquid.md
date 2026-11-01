@@ -25,25 +25,27 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Co-Invest is Liquid delivered as a remote Model Context Protocol (MCP) server. Once connected, an MCP client can research markets (live prices, funding rates, open interest, whale positioning, liquida
   name: Liquid Co-Invest MCP
   slug: co-invest-mcp
-artifact_total: 5
+artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liquid/refs/heads/main/security/liquid-domain-security.yml
+  href: https://artifacts.apis.io/liquid/security/liquid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/liquid-domain-security.yml
@@ -96,7 +98,7 @@ common:
   type: ChangeLog
   url: https://www.liquid.trade/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/liquid/refs/heads/main/changelog/liquid-changelog.yml
+  href: https://artifacts.apis.io/liquid/changelog/liquid-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/liquid-changelog.yml
@@ -133,57 +135,57 @@ common:
   type: BrandKit
   url: https://www.liquid.trade/brand
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liquid/refs/heads/main/mcp/liquid-mcp.yml
+  href: https://artifacts.apis.io/liquid/mcp/liquid-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/liquid-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liquid/refs/heads/main/well-known/liquid-well-known.yml
+  href: https://artifacts.apis.io/liquid/well-known/liquid-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/liquid-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liquid/refs/heads/main/llms/liquid-llms.txt
+  href: https://artifacts.apis.io/liquid/llms/liquid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/liquid-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liquid/refs/heads/main/scopes/liquid-scopes.yml
+  href: https://artifacts.apis.io/liquid/scopes/liquid-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/liquid-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liquid/refs/heads/main/authentication/liquid-authentication.yml
+  href: https://artifacts.apis.io/liquid/authentication/liquid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/liquid-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquid/refs/heads/main/conventions/liquid-conventions.yml
+  href: https://artifacts.apis.io/liquid/conventions/liquid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/liquid-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquid/refs/heads/main/conformance/liquid-conformance.yml
+  href: https://artifacts.apis.io/liquid/conformance/liquid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/liquid-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquid/refs/heads/main/lifecycle/liquid-lifecycle.yml
+  href: https://artifacts.apis.io/liquid/lifecycle/liquid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/liquid-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/liquid/refs/heads/main/sandbox/liquid-sandbox.yml
+  href: https://artifacts.apis.io/liquid/sandbox/liquid-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/liquid-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/liquid/refs/heads/main/packages/liquid-packages.yml
+  href: https://artifacts.apis.io/liquid/packages/liquid-packages.yml
   title: ''
   type: Packages
   url: packages/liquid-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liquid/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/liquid/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -203,7 +205,7 @@ overview: 'Liquid is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Liquid''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 26 more developer resources.'
-random_paper: 10
+random_paper: 0
 scopes:
 - name: Liquid Scopes
   scope_count: 2
@@ -211,7 +213,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.7
+  composite: 34.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -219,15 +221,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.1
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 15.8
-  previous_composite: 35.6
+  previous_composite: 34.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -238,14 +240,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/liquid/refs/heads/main/screenshots/liquid-2026-07-25T225311.png
+screenshot: https://apis.io/screenshots/liquid/liquid-2026-07-25T225311.png
 security:
 - kind: authentication
   name: Liquid Authentication
@@ -255,6 +257,16 @@ security:
   name: Liquid Domain Security
   slug: liquid-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: Connect the Liquid Co-Invest MCP server
+  slug: liquid-connect-co-invest
+- name: Dry-run the Liquid workflow in paper mode
+  slug: liquid-paper-trade-dry-run
+- name: Propose and place a confirmed trade on Liquid
+  slug: liquid-place-a-confirmed-trade
+- name: Research a Liquid market before trading it
+  slug: liquid-research-a-market
 slug: liquid
 tags:
 - Company

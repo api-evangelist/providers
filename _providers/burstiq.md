@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.4
-  scored_at: '2026-10-17'
+  score: 20.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 1
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 171
   slug: burstiq-agentic-access
   summary_line: 171 operations · 85 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.burstiq.com
   baseurl_source: declared
@@ -149,11 +151,8 @@ apis:
   description: For interacting with wallets when the type of wallet (user or system) is unknown
   name: BurstIQ Wallet APIs API
   slug: burstiq-wallet-apis-api
-artifact_total: 46
+artifact_total: 48
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LifeGraph APIs BlastAI APIs API
   slug: open-burstiq-blastai-apis-api
@@ -223,67 +222,67 @@ common:
   type: BlogRSS
   url: https://burstiq.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/capabilities/burstiq-capability-edges.yml
+  href: https://artifacts.apis.io/burstiq/capabilities/burstiq-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/burstiq-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/agentic-access/burstiq-agentic-access.yml
+  href: https://artifacts.apis.io/burstiq/agentic-access/burstiq-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/burstiq-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/security/burstiq-domain-security.yml
+  href: https://artifacts.apis.io/burstiq/security/burstiq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/burstiq-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/authentication/burstiq-authentication.yml
+  href: https://artifacts.apis.io/burstiq/authentication/burstiq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/burstiq-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/mcp/burstiq-mcp.yml
+  href: https://artifacts.apis.io/burstiq/mcp/burstiq-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/burstiq-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/llms/burstiq-llms.txt
+  href: https://artifacts.apis.io/burstiq/llms/burstiq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/burstiq-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/overlays/burstiq-lifegraph-overlay.yaml
+  href: https://artifacts.apis.io/burstiq/overlays/burstiq-lifegraph-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/burstiq-lifegraph-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/conformance/burstiq-conformance.yml
+  href: https://artifacts.apis.io/burstiq/conformance/burstiq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/burstiq-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/conventions/burstiq-conventions.yml
+  href: https://artifacts.apis.io/burstiq/conventions/burstiq-conventions.yml
   title: ''
   type: Conventions
   url: conventions/burstiq-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/lifecycle/burstiq-lifecycle.yml
+  href: https://artifacts.apis.io/burstiq/lifecycle/burstiq-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/burstiq-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/data-model/burstiq-data-model.yml
+  href: https://artifacts.apis.io/burstiq/data-model/burstiq-data-model.yml
   title: ''
   type: DataModel
   url: data-model/burstiq-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/packages/burstiq-packages.yml
+  href: https://artifacts.apis.io/burstiq/packages/burstiq-packages.yml
   title: ''
   type: Packages
   url: packages/burstiq-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/burstiq/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -331,10 +330,10 @@ overview: 'BurstIQ publishes 21 API contracts indexed on the [APIs.io](https://a
 
 
   BurstIQ''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 17 more developer resources.'
-random_paper: 8
+random_paper: 10
 score:
   band: thin
-  composite: 29.2
+  composite: 30.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -346,11 +345,11 @@ score:
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 46.0
-    developer_ergonomics: 20.8
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 29.2
+    contract_quality: 42.6
+    developer_ergonomics: 47.0
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -367,13 +366,14 @@ score:
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/screenshots/burstiq-2026-07-25T204112.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/burstiq/burstiq-2026-07-25T204112.png
 security:
 - kind: authentication
   name: Burstiq Authentication
@@ -383,6 +383,14 @@ security:
   name: Burstiq Domain Security
   slug: burstiq-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Build and trial-run a LifeGraph data pipeline
+  slug: burstiq-data-pipeline-run
+- name: Manage a GraphChain asset lifecycle
+  slug: burstiq-graphchain-asset-lifecycle
+- name: Manage LifeGraph user wallets
+  slug: burstiq-user-wallet-management
 slug: burstiq
 tags:
 - Company

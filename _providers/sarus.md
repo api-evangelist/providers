@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 6.3
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Sarus Gateway is the server component of the Sarus privacy layer. It is deployed inside the customer's own environment (Docker or Kubernetes, on-premises or in AWS/Azure/GCP) and is reached by the
@@ -35,17 +37,17 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/plans/sarus-plans-pricing.yml
+  href: https://artifacts.apis.io/sarus/plans/sarus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sarus-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/rate-limits/sarus-rate-limits.yml
+  href: https://artifacts.apis.io/sarus/rate-limits/sarus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sarus-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/security/sarus-domain-security.yml
+  href: https://artifacts.apis.io/sarus/security/sarus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sarus-domain-security.yml
@@ -78,52 +80,52 @@ common:
   type: PrivacyPolicy
   url: https://www.sarus.tech/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/packages/sarus-packages.yml
+  href: https://artifacts.apis.io/sarus/packages/sarus-packages.yml
   title: ''
   type: Packages
   url: packages/sarus-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/packages/sarus-packages.yml
+  href: https://artifacts.apis.io/sarus/packages/sarus-packages.yml
   title: ''
   type: SDKs
   url: packages/sarus-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/grpc/sarus-schema.proto
+  href: https://artifacts.apis.io/sarus/grpc/sarus-schema.proto
   title: ''
   type: Protobuf
   url: grpc/sarus-schema.proto
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/examples/qrlew-server-example.http
+  href: https://artifacts.apis.io/sarus/examples/qrlew-server-example.http
   title: ''
   type: Examples
   url: examples/qrlew-server-example.http
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/llms/sarus-llms.txt
+  href: https://artifacts.apis.io/sarus/llms/sarus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sarus-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/conformance/sarus-conformance.yml
+  href: https://artifacts.apis.io/sarus/conformance/sarus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sarus-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/lifecycle/sarus-lifecycle.yml
+  href: https://artifacts.apis.io/sarus/lifecycle/sarus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sarus-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/authentication/sarus-authentication.yml
+  href: https://artifacts.apis.io/sarus/authentication/sarus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sarus-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/conventions/sarus-conventions.yml
+  href: https://artifacts.apis.io/sarus/conventions/sarus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sarus-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/changelog/sarus-changelog.yml
+  href: https://artifacts.apis.io/sarus/changelog/sarus-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sarus-changelog.yml
@@ -143,14 +145,14 @@ plans:
 - name: Sarus Plans Pricing
   plan_count: 0
   slug: sarus-plans-pricing
-random_paper: 8
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Sarus Rate Limits
   slug: sarus-rate-limits
 score:
-  band: thin
-  composite: 27.0
+  band: emerging
+  composite: 21.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -158,14 +160,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 30.5
+    contract_quality: 6.5
     developer_ergonomics: 35.7
     discoverability: 66.1
-    operational_transparency: 18.4
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -174,7 +176,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 26.9
+  previous_composite: 21.4
   provenance:
     conformance: derived
   regulatory:
@@ -183,14 +185,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/screenshots/sarus-2026-09-02T154419.png
+screenshot: https://apis.io/screenshots/sarus/sarus-2026-09-02T154419.png
 security:
 - kind: authentication
   name: Sarus Authentication

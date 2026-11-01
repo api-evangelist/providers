@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flo-health/refs/heads/main/security/flo-health-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/flo-health/security/flo-health-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/flo-health-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flo-health/refs/heads/main/security/flo-health-domain-security.yml
+  href: https://artifacts.apis.io/flo-health/security/flo-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flo-health-domain-security.yml
@@ -83,10 +85,10 @@ name: Flo Health
 nav: Providers
 network: true
 overview: Flo Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Femtech, Women's Health, Reproductive Health, Period Tracker, and Cycle Tracking.
-random_paper: 6
+random_paper: 12
 score:
   band: minimal
-  composite: 7.5
+  composite: 8.9
   coverage:
     artifact_dirs: 3
     catalog_earned: 24.0
@@ -100,23 +102,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 43.8
-    operational_transparency: 0.0
-  previous_composite: 7.5
+    discoverability: 44.6
+    operational_transparency: 10.5
+  previous_composite: 8.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/flo-health/refs/heads/main/screenshots/flo-health-2026-06-20T181317.png
+screenshot: https://apis.io/screenshots/flo-health/flo-health-2026-06-20T181317.png
 security:
 - kind: domain-security
   name: Flo Health Domain Security

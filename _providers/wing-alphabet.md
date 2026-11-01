@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -41,12 +43,12 @@ common:
   type: Blog
   url: https://wing.com/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wing-alphabet/refs/heads/main/security/wing-alphabet-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/wing-alphabet/security/wing-alphabet-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wing-alphabet-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wing-alphabet/refs/heads/main/security/wing-alphabet-domain-security.yml
+  href: https://artifacts.apis.io/wing-alphabet/security/wing-alphabet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wing-alphabet-domain-security.yml
@@ -135,12 +137,12 @@ overview: 'Wing is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Wing''s developer surface includes engineering blog, product news, GitHub presence, YouTube channel, and 17 more developer resources.'
-random_paper: 17
+random_paper: 19
 score:
   band: minimal
-  composite: 5.3
+  composite: 7.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -151,24 +153,24 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 1.2
-    discoverability: 49.1
-    operational_transparency: 5.3
-  previous_composite: 5.3
+    developer_ergonomics: 2.4
+    discoverability: 50.0
+    operational_transparency: 15.8
+  previous_composite: 7.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wing-alphabet/refs/heads/main/screenshots/wing-alphabet-2026-06-20T201520.png
+screenshot: https://apis.io/screenshots/wing-alphabet/wing-alphabet-2026-06-20T201520.png
 security:
 - kind: domain-security
   name: Wing Alphabet Domain Security

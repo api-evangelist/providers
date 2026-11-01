@@ -25,29 +25,36 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.5
-  scored_at: '2026-10-17'
+  score: 40.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Public GraphQL API for the Glue workspace — send messages (sendMessage), read workspaces, threads, and groups, with Relay cursor-connection pagination and OAuth2 bearer auth.
   name: Glue GraphQL API
   slug: glue-graphql-api
-artifact_total: 7
+artifact_total: 11
 asyncapis:
 - description: Faithful AsyncAPI rendering of Glue's documented outbound webhook catalog. Webhooks are configured per OAuth Application; when a workspace authorizes the app, Glue creates a webhook posting to the app
   name: Glue Outbound Webhooks
   slug: glue-webhooks-asyncapi
 common:
+- group: commercial
+  href: https://artifacts.apis.io/glue/plans/glue-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/glue-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/glue/refs/heads/main/security/glue-domain-security.yml
+  href: https://artifacts.apis.io/glue/security/glue-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/glue-domain-security.yml
@@ -108,62 +115,62 @@ common:
   type: Compliance
   url: https://glue.ai/company/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/glue/refs/heads/main/authentication/glue-authentication.yml
+  href: https://artifacts.apis.io/glue/authentication/glue-authentication.yml
   title: ''
   type: Authentication
   url: authentication/glue-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/glue/refs/heads/main/scopes/glue-scopes.yml
+  href: https://artifacts.apis.io/glue/scopes/glue-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/glue-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/glue/refs/heads/main/mcp/glue-mcp.yml
+  href: https://artifacts.apis.io/glue/mcp/glue-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/glue-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/glue/refs/heads/main/well-known/glue-well-known.yml
+  href: https://artifacts.apis.io/glue/well-known/glue-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/glue-well-known.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/glue/refs/heads/main/asyncapi/glue-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/glue/asyncapi/glue-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/glue-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/glue/refs/heads/main/asyncapi/glue-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/glue/asyncapi/glue-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/glue-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/glue/refs/heads/main/conventions/glue-conventions.yml
+  href: https://artifacts.apis.io/glue/conventions/glue-conventions.yml
   title: ''
   type: Conventions
   url: conventions/glue-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/glue/refs/heads/main/conventions/glue-conventions.yml
+  href: https://artifacts.apis.io/glue/conventions/glue-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/glue-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/glue/refs/heads/main/conformance/glue-conformance.yml
+  href: https://artifacts.apis.io/glue/conformance/glue-conformance.yml
   title: ''
   type: Conformance
   url: conformance/glue-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/glue/refs/heads/main/lifecycle/glue-lifecycle.yml
+  href: https://artifacts.apis.io/glue/lifecycle/glue-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/glue-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/glue/refs/heads/main/llms/glue-llms.txt
+  href: https://artifacts.apis.io/glue/llms/glue-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/glue-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/glue/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/glue/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -173,6 +180,14 @@ common:
   url: https://github.com/apiglue/talks/blob/3b4fb169d32eac883f17ae215a73995488750eb4/api-design/rulesets/api-design-standards-ruleset-extended.json
 created: '2026-07-17'
 description: Glue is a team communication platform that replaces channel-based chat with structured, named threads so decisions stay organized and don't get lost, with AI agents (@Glue, @Cursor) that can be mentioned inside threads to summarize, add context, and generate work. For developers, Glue exposes a public GraphQL API at api.gluegroups.com for sending messages and reading workspaces, threads, and groups; OAuth 2.0 authentication (client-credentials for the GraphQL API, plus an authorization-code flow with dynamic client registration and PKCE for a hosted remote MCP server at mcp.glue.ai); outbound webhooks (message.created, thread.created) signed with HMAC-SHA256; and idempotent upsert keys on message and thread creation. Glue is SOC 2 compliant, supports SSO (Google, Okta), and is backed by Craft Ventures and Y Combinator.
+finops:
+- has_sources: true
+  method: derived
+  name: Glue Finops
+  primary_unit: user
+  service_category: ''
+  slug: glue-finops
+  template: false
 image: https://glue.ai/images/opengraph.jpg
 layout: provider
 mcp_servers:
@@ -189,8 +204,15 @@ overview: 'Glue is listed with 1 API on the [APIs.io](https://apis.io/) network.
   The Glue catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Glue''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 11
+  Glue''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
+plans:
+- name: Glue Plans Pricing
+  plan_count: 3
+  slug: glue-plans-pricing
+- name: Glue Price Estimates
+  plan_count: 0
+  slug: glue-price-estimates
+random_paper: 21
 rules:
 - authorship: provider
   effective_rule_count: 56
@@ -210,24 +232,24 @@ scopes:
   slug: glue-scopes
   summary_line: 6 scopes
 score:
-  band: developing
-  composite: 52.6
+  band: strong
+  composite: 60.8
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 52.0
-    catalog_earned_first_party: 15.0
-    catalog_gap: 63.0
+    artifact_dirs: 18
+    catalog_earned: 67.0
+    catalog_earned_first_party: 27.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.5
+  delta: 7.9
   facets:
-    access_clarity: 46.1
+    access_clarity: 92.1
     contract_governance: 63.6
     contract_quality: 39.0
     developer_ergonomics: 58.9
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 23.7
-  previous_composite: 47.1
+  previous_composite: 52.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -238,14 +260,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/glue/refs/heads/main/screenshots/glue-2026-07-25T215936.png
+screenshot: https://apis.io/screenshots/glue/glue-2026-07-25T215936.png
 security:
 - kind: authentication
   name: Glue Authentication
@@ -255,6 +277,10 @@ security:
   name: Glue Domain Security
   slug: glue-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Post a message to a Glue thread
+  slug: glue-post-message
 slug: glue
 tags:
 - Company

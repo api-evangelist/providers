@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Start, stop, extend, and query active and historical parking sessions across pay-station, mobile-app, and permit channels, and expose real-time session state to enforcement and occupancy consumers. En
@@ -56,15 +58,46 @@ apis:
   slug: flowbird-hub-transactions-api
 artifact_total: 5
 common:
+- group: other
+  href: https://artifacts.apis.io/flowbird/hosts/flowbird-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/flowbird-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/flowbird/integrations/flowbird-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/flowbird-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/flowbird/vendors/flowbird-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/flowbird-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.flowbird.com/terms-conditions/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.flowbird.com/privacy-policy/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.flowbird.com/media/podcasts/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.flowbirdhub.com/#getting-started
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.flowbirdhub.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flowbird/refs/heads/main/security/flowbird-domain-security.yml
+  href: https://artifacts.apis.io/flowbird/security/flowbird-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flowbird-domain-security.yml
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/flowbird
 - group: company
   title: ''
   type: Website
@@ -81,6 +114,18 @@ common:
   title: ''
   type: Blog
   url: https://www.flowbird.com/news/
+coverage:
+  checked: '2026-10-20'
+  detail: The Flowbird HUB API reference lives in a Stoplight workspace at docs.flowbirdhub.com that shows only the unedited Stoplight template to anonymous visitors, with no public projects, and access is routed through the Customer & Partner Access page.
+  evidence:
+  - status: 200
+    url: https://docs.flowbirdhub.com/explore
+  - status: 404
+    url: https://docs.flowbirdhub.com/api/v1/projects
+  - status: 200
+    url: https://www.flowbird.com/customer-partner-access/
+  reason: customer-only-docs
+  state: gated
 created: '2026-07-03'
 description: Flowbird is a global urban mobility and parking technology company that builds pay stations, mobile parking apps, digital permits, EV charging, and transit ticketing systems for cities and transport authorities worldwide. Flowbird was acquired by EasyPark Group in an acquisition that closed in January 2025. Its integration surface is the Flowbird HUB, an open platform that exposes documented but partner/agency-gated APIs (OAuth2 and client-certificate secured, with role-based access control and ownership filters) for tariffs, rights/permits, parking sessions, pay stations, and transactions. There is no self-service public sign-up; access is granted to cities, transport agencies, and integration partners under contract.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flowbird.png
@@ -92,13 +137,13 @@ network: true
 overview: 'Flowbird is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Parking, Urban Mobility, Transit Ticketing, Payments, and Smart City.
 
 
-  Flowbird''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
-random_paper: 21
+  Flowbird''s developer surface includes getting-started guide, documentation, engineering blog, and 10 more developer resources.'
+random_paper: 17
 score:
-  band: minimal
-  composite: 7.4
+  band: emerging
+  composite: 17.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 8
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -106,27 +151,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
-    discoverability: 62.5
+    developer_ergonomics: 33.3
+    discoverability: 64.3
     operational_transparency: 0.0
-  previous_composite: 7.4
+  previous_composite: 17.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 11.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/flowbird/refs/heads/main/screenshots/flowbird-2026-07-25T214835.png
+screenshot: https://apis.io/screenshots/flowbird/flowbird-2026-07-25T214835.png
 security:
 - kind: domain-security
   name: Flowbird Domain Security

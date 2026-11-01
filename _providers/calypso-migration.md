@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Migration support for the Nasdaq Calypso capital markets platform, enabling migration of data and configurations between Calypso environments. Typical engagements cover version upgrades, data model tr
@@ -42,47 +44,47 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/calypso-migration/refs/heads/main/plans/calypso-migration-plans-pricing.yml
+  href: https://artifacts.apis.io/calypso-migration/plans/calypso-migration-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/calypso-migration-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/calypso-migration/refs/heads/main/rate-limits/calypso-migration-rate-limits.yml
+  href: https://artifacts.apis.io/calypso-migration/rate-limits/calypso-migration-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/calypso-migration-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/calypso-migration/refs/heads/main/finops/calypso-migration-finops.yml
+  href: https://artifacts.apis.io/calypso-migration/finops/calypso-migration-finops.yml
   title: ''
   type: FinOps
   url: finops/calypso-migration-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calypso-migration/refs/heads/main/security/calypso-migration-domain-security.yml
+  href: https://artifacts.apis.io/calypso-migration/security/calypso-migration-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/calypso-migration-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calypso-migration/refs/heads/main/security/calypso-migration-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/calypso-migration/security/calypso-migration-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/calypso-migration-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calypso-migration/refs/heads/main/security/calypso-migration-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/calypso-migration/security/calypso-migration-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/calypso-migration-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calypso-migration/refs/heads/main/well-known/calypso-migration-security.txt
+  href: https://artifacts.apis.io/calypso-migration/well-known/calypso-migration-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/calypso-migration-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/calypso-migration/refs/heads/main/lifecycle/calypso-migration-lifecycle.yml
+  href: https://artifacts.apis.io/calypso-migration/lifecycle/calypso-migration-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/calypso-migration-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/calypso-migration/refs/heads/main/llms/calypso-migration-llms.txt
+  href: https://artifacts.apis.io/calypso-migration/llms/calypso-migration-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/calypso-migration-llms.txt
@@ -124,7 +126,7 @@ finops:
 - has_sources: false
   method: generated
   name: Calypso Migration Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: calypso-migration-finops
   template: true
@@ -142,14 +144,14 @@ plans:
 - name: Calypso Migration Plans Pricing
   plan_count: 0
   slug: calypso-migration-plans-pricing
-random_paper: 18
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Calypso Migration Rate Limits
   slug: calypso-migration-rate-limits
 score:
   band: emerging
-  composite: 11.9
+  composite: 14.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 32.0
@@ -157,29 +159,29 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 57.1
     operational_transparency: 10.5
-  previous_composite: 13.4
+  previous_composite: 14.5
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 25.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/calypso-migration/refs/heads/main/screenshots/calypso-migration-2026-06-20T173907.png
+screenshot: https://apis.io/screenshots/calypso-migration/calypso-migration-2026-06-20T173907.png
 security:
 - kind: domain-security
   name: Calypso Migration Domain Security

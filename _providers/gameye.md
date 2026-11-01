@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-17'
+  score: 28.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -70,6 +72,21 @@ apis:
   description: The Tag API from Gameye — 1 operation(s) for tag.
   name: Gameye Tag API
   slug: gameye-tag-api
+- baseURL: https://api.production-gameye.gameye.net
+  baseurl_source: declared
+  description: The Application API from Gameye — 4 operation(s) for application.
+  name: Gameye Application API
+  slug: gameye-application-api
+- baseURL: https://api.production-gameye.gameye.net
+  baseurl_source: declared
+  description: The Region API from Gameye — 1 operation(s) for region.
+  name: Gameye Region API
+  slug: gameye-region-api
+- baseURL: https://api.production-gameye.gameye.net
+  baseurl_source: declared
+  description: The Token API from Gameye — 1 operation(s) for token.
+  name: Gameye Token API
+  slug: gameye-token-api
 arazzos:
 - description: Pick an available region for an image, start a session, and read its host/ports.
   name: Allocate a Gameye session and get its connection address
@@ -80,11 +97,8 @@ arazzos:
 - description: Pull a session's logs, terminate it, then download a diagnostic artifact.
   name: Stream logs, stop a Gameye session, and download an artifact
   slug: gameye-session-teardown
-artifact_total: 17
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Gameye Session Artifacts API
   slug: open-gameye-artifacts-api
@@ -101,8 +115,18 @@ collections:
   name: Gameye Session Artifacts Tag API
   slug: open-gameye-tag-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/gameye/plans/gameye-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/gameye-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/overlays/gameye-session-overlay.yaml
+  href: https://artifacts.apis.io/gameye/capabilities/gameye-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gameye-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/gameye/overlays/gameye-session-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gameye-session-overlay.yaml
@@ -167,145 +191,157 @@ common:
   type: ChangeLog
   url: https://gameye.com/docs/changelogs/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/changelog/gameye-changelog.yml
+  href: https://artifacts.apis.io/gameye/changelog/gameye-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gameye-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/authentication/gameye-authentication.yml
+  href: https://artifacts.apis.io/gameye/authentication/gameye-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gameye-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/security/gameye-domain-security.yml
+  href: https://artifacts.apis.io/gameye/security/gameye-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gameye-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/agentic-access/gameye-agentic-access.yml
+  href: https://artifacts.apis.io/gameye/agentic-access/gameye-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gameye-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/packages/gameye-packages.yml
+  href: https://artifacts.apis.io/gameye/packages/gameye-packages.yml
   title: ''
   type: Packages
   url: packages/gameye-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/packages/gameye-packages.yml
+  href: https://artifacts.apis.io/gameye/packages/gameye-packages.yml
   title: ''
   type: SDKs
   url: packages/gameye-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/well-known/gameye-well-known.yml
+  href: https://artifacts.apis.io/gameye/well-known/gameye-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gameye-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/well-known/gameye-api-catalog.json
+  href: https://artifacts.apis.io/gameye/well-known/gameye-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/gameye-api-catalog.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/mcp/gameye-mcp.yml
+  href: https://artifacts.apis.io/gameye/mcp/gameye-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/gameye-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/llms/gameye-llms.txt
+  href: https://artifacts.apis.io/gameye/llms/gameye-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gameye-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/conformance/gameye-conformance.yml
+  href: https://artifacts.apis.io/gameye/conformance/gameye-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gameye-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/errors/gameye-problem-types.yml
+  href: https://artifacts.apis.io/gameye/errors/gameye-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gameye-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/lifecycle/gameye-lifecycle.yml
+  href: https://artifacts.apis.io/gameye/lifecycle/gameye-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gameye-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/sandbox/gameye-sandbox.yml
+  href: https://artifacts.apis.io/gameye/sandbox/gameye-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/gameye-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/conventions/gameye-conventions.yml
+  href: https://artifacts.apis.io/gameye/conventions/gameye-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gameye-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/data-model/gameye-data-model.yml
+  href: https://artifacts.apis.io/gameye/data-model/gameye-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gameye-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/gameye/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/arazzo/gameye-allocate-session.yml
+  href: https://artifacts.apis.io/gameye/arazzo/gameye-allocate-session.yml
   title: ''
   type: Arazzo
   url: arazzo/gameye-allocate-session.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/arazzo/gameye-player-lifecycle.yml
+  href: https://artifacts.apis.io/gameye/arazzo/gameye-player-lifecycle.yml
   title: ''
   type: Arazzo
   url: arazzo/gameye-player-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/arazzo/gameye-session-teardown.yml
+  href: https://artifacts.apis.io/gameye/arazzo/gameye-session-teardown.yml
   title: ''
   type: Arazzo
   url: arazzo/gameye-session-teardown.yml
 created: '2026-07-17'
 description: Gameye is a managed game server orchestration platform for multiplayer game studios, founded in 2017 in Rotterdam (Gameye B.V.). It runs dedicated, containerized game servers across bare metal, cloud, and edge providers behind a single REST API — the Session API. Studios call POST /session with a region and a Docker image; Gameye selects the best available location, starts a container in about half a second, and returns the host IP and mapped ports players connect to. Capacity-based pricing carries no egress fees, and the platform is matchmaker-agnostic (Pragma Engine, Nakama, PlayFab, FlexMatch). Gameye has orchestrated 120M+ sessions with a 99.99% uptime SLA and serves studios including Torn Banner Studios (Chivalry 2) and Remedy Entertainment.
+finops:
+- has_sources: true
+  method: derived
+  name: Gameye Finops
+  primary_unit: vcpu/hr
+  service_category: ''
+  slug: gameye-finops
+  template: false
 image: https://static.gameye.com/images/android-chrome-512x512.png
 layout: provider
 modified: '2026-07-19'
 name: Gameye
 nav: Providers
 network: true
-overview: 'Gameye publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Artifacts API, Available Location API, Logs API, and 2 more. Tagged areas include Company, Game Server Hosting, Game Server Orchestration, Multiplayer, and Containers.
+overview: 'Gameye publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Artifacts API, Available Location API, Logs API, and 5 more. Tagged areas include Company, Game Server Hosting, Game Server Orchestration, Multiplayer, and Containers.
 
 
-  Gameye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 16
+  Gameye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+plans:
+- name: Gameye Plans Pricing
+  plan_count: 5
+  slug: gameye-plans-pricing
+random_paper: 8
 score:
-  band: developing
-  composite: 51.7
+  band: strong
+  composite: 56.9
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.6
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 46.7
+    contract_quality: 45.5
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 39.5
-  previous_composite: 51.7
+    discoverability: 66.1
+    operational_transparency: 42.1
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 5
+      marker_coverage: 7.1
+      total: 14
     mcp: derived
     skills: derived
   regulatory:
@@ -314,13 +350,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/screenshots/gameye-2026-07-25T215424.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gameye/gameye-2026-07-25T215424.png
 security:
 - kind: authentication
   name: Gameye Authentication
@@ -330,6 +367,14 @@ security:
   name: Gameye Domain Security
   slug: gameye-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Allocate a game session and get a connection address
+  slug: gameye-allocate-and-connect
+- name: Track players joining and leaving a session
+  slug: gameye-manage-players
+- name: Tear down a session and collect its logs and artifacts
+  slug: gameye-teardown-and-collect-logs
 slug: gameye
 tags:
 - Company

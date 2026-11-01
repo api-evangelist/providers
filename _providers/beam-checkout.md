@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Beam's v1 REST payments API — payment links, charges, refunds, transactions, card authorizations (auth/capture/cancel), network tokenization, and Beam Bolt in-person payments.
   name: Beam API v1
   slug: beam-api-v1
-artifact_total: 5
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Beam Checkout Webhooks
@@ -51,6 +53,11 @@ collections:
   name: '[For merchant test] Playground (SANDBOX) version 1.14.0'
   slug: postman-beam-checkout-playground
 common:
+- group: commercial
+  href: https://artifacts.apis.io/beam-checkout/plans/beam-checkout-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/beam-checkout-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -72,32 +79,32 @@ common:
   type: GettingStarted
   url: https://docs.beamcheckout.com/get-started/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/authentication/beam-checkout-authentication.yml
+  href: https://artifacts.apis.io/beam-checkout/authentication/beam-checkout-authentication.yml
   title: ''
   type: Authentication
   url: authentication/beam-checkout-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/conventions/beam-checkout-conventions.yml
+  href: https://artifacts.apis.io/beam-checkout/conventions/beam-checkout-conventions.yml
   title: ''
   type: Conventions
   url: conventions/beam-checkout-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/conventions/beam-checkout-conventions.yml
+  href: https://artifacts.apis.io/beam-checkout/conventions/beam-checkout-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/beam-checkout-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/errors/beam-checkout-problem-types.yml
+  href: https://artifacts.apis.io/beam-checkout/errors/beam-checkout-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/beam-checkout-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/errors/beam-checkout-decline-codes.yml
+  href: https://artifacts.apis.io/beam-checkout/errors/beam-checkout-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/beam-checkout-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/lifecycle/beam-checkout-lifecycle.yml
+  href: https://artifacts.apis.io/beam-checkout/lifecycle/beam-checkout-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/beam-checkout-lifecycle.yml
@@ -110,52 +117,52 @@ common:
   type: Deprecation
   url: https://docs.beamcheckout.com/get-started/migrating-from-v0
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/changelog/beam-checkout-changelog.yml
+  href: https://artifacts.apis.io/beam-checkout/changelog/beam-checkout-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/beam-checkout-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/sandbox/beam-checkout-sandbox.yml
+  href: https://artifacts.apis.io/beam-checkout/sandbox/beam-checkout-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/beam-checkout-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/conformance/beam-checkout-conformance.yml
+  href: https://artifacts.apis.io/beam-checkout/conformance/beam-checkout-conformance.yml
   title: ''
   type: Conformance
   url: conformance/beam-checkout-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/conformance/beam-checkout-conformance.yml
+  href: https://artifacts.apis.io/beam-checkout/conformance/beam-checkout-conformance.yml
   title: ''
   type: Compliance
   url: conformance/beam-checkout-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/asyncapi/beam-checkout-webhooks.yml
+  href: https://artifacts.apis.io/beam-checkout/asyncapi/beam-checkout-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/beam-checkout-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/mcp/beam-checkout-mcp.yml
+  href: https://artifacts.apis.io/beam-checkout/mcp/beam-checkout-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/beam-checkout-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/llms/beam-checkout-llms.txt
+  href: https://artifacts.apis.io/beam-checkout/llms/beam-checkout-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beam-checkout-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/data-model/beam-checkout-data-model.yml
+  href: https://artifacts.apis.io/beam-checkout/data-model/beam-checkout-data-model.yml
   title: ''
   type: DataModel
   url: data-model/beam-checkout-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/postman/beam-checkout-playground.postman_collection.json
+  href: https://artifacts.apis.io/beam-checkout/postman/beam-checkout-playground.postman_collection.json
   title: ''
   type: Postman
   url: postman/beam-checkout-playground.postman_collection.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/security/beam-checkout-domain-security.yml
+  href: https://artifacts.apis.io/beam-checkout/security/beam-checkout-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beam-checkout-domain-security.yml
@@ -181,6 +188,14 @@ common:
   url: https://www.beamcheckout.com/privacy
 created: '2026-07-17'
 description: Beam is a Thailand-focused payments platform that lets businesses accept payments across in-person and online channels. Its products include Beam Checkout (online payments for social media, websites, and apps via hosted payment links and a Charges API), Beam Bolt (an in-person payment device), and Beam Bridge (embedded payments for partner platforms). Beam supports cards, e-wallets, QR PromptPay, installments, and Alipay+, with card authorization/capture, refunds, tokenization, 3DS, and CIT/MIT recurring flows. The v1 REST API uses HTTP Basic auth (merchantId:apiKey), idempotency keys, HMAC-signed webhooks, and a playground sandbox. Beam states it is PCI DSS compliant and compliant with Bank of Thailand regulations. Backed by Peak XV, Partech, and SeaX Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Beam Checkout Finops
+  primary_unit: transaction
+  service_category: ''
+  slug: beam-checkout-finops
+  template: false
 image: https://www.beamcheckout.com/assets/beam-thumbnail.jpg
 layout: provider
 modified: '2026-07-18'
@@ -193,26 +208,33 @@ overview: 'Beam Checkout is listed with 1 API on the [APIs.io](https://apis.io/)
   The Beam Checkout catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Beam Checkout''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, pricing, and 21 more developer resources.'
-random_paper: 6
+  Beam Checkout''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, pricing, and 22 more developer resources.'
+plans:
+- name: Beam Checkout Plans Pricing
+  plan_count: 5
+  slug: beam-checkout-plans-pricing
+- name: Beam Checkout Price Estimates
+  plan_count: 0
+  slug: beam-checkout-price-estimates
+random_paper: 8
 score:
-  band: developing
-  composite: 51.1
+  band: strong
+  composite: 59.3
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 18
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 52.6
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 66.2
-    discoverability: 73.2
-    operational_transparency: 39.5
+    discoverability: 66.1
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -220,7 +242,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 51.1
+  previous_composite: 51.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -230,14 +252,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/screenshots/beam-checkout-2026-07-25T202537.png
+screenshot: https://apis.io/screenshots/beam-checkout/beam-checkout-2026-07-25T202537.png
 security:
 - kind: authentication
   name: Beam Checkout Authentication

@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 59.5
-  scored_at: '2026-10-17'
+  score: 56.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -92,7 +94,7 @@ apis:
   description: Receive signed HTTPS callbacks when Prezent jobs complete or fail. Subscriptions are scoped per API key, retried over a 21h window, and auto-disabled after 50 consecutive failures. See the [Webhooks g
   name: Prezent Webhooks API
   slug: prezent-webhooks-api
-artifact_total: 35
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Prezent Webhooks
@@ -126,9 +128,6 @@ collections:
   name: Prezent Platform Audiences Webhooks API
   slug: postman-prezent-webhooks-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Prezent Platform Audiences API
   slug: open-prezent-audiences-api
 - collection_type: open
@@ -156,6 +155,11 @@ collections:
   name: Prezent Platform Audiences Webhooks API
   slug: open-prezent-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/prezent/plans/prezent-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/prezent-plans-pricing.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -209,117 +213,125 @@ common:
   type: Compliance
   url: https://prezent.ai/security-compliance
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/_original/prezent-openapi-original.yml
+  href: https://artifacts.apis.io/prezent/openapi/_original/prezent-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/prezent-openapi-original.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/mcp/prezent-mcp.yml
+  href: https://artifacts.apis.io/prezent/mcp/prezent-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/prezent-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/packages/prezent-packages.yml
+  href: https://artifacts.apis.io/prezent/packages/prezent-packages.yml
   title: ''
   type: Packages
   url: packages/prezent-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/packages/prezent-packages.yml
+  href: https://artifacts.apis.io/prezent/packages/prezent-packages.yml
   title: ''
   type: SDKs
   url: packages/prezent-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/well-known/prezent-well-known.yml
+  href: https://artifacts.apis.io/prezent/well-known/prezent-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/prezent-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/llms/prezent-llms.txt
+  href: https://artifacts.apis.io/prezent/llms/prezent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/prezent-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/overlays/prezent-openapi-overlay.yaml
+  href: https://artifacts.apis.io/prezent/overlays/prezent-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/prezent-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/conformance/prezent-conformance.yml
+  href: https://artifacts.apis.io/prezent/conformance/prezent-conformance.yml
   title: ''
   type: Conformance
   url: conformance/prezent-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/errors/prezent-error-codes.yml
+  href: https://artifacts.apis.io/prezent/errors/prezent-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/prezent-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/lifecycle/prezent-lifecycle.yml
+  href: https://artifacts.apis.io/prezent/lifecycle/prezent-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/prezent-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/lifecycle/prezent-lifecycle.yml
+  href: https://artifacts.apis.io/prezent/lifecycle/prezent-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/prezent-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/conventions/prezent-conventions.yml
+  href: https://artifacts.apis.io/prezent/conventions/prezent-conventions.yml
   title: ''
   type: Conventions
   url: conventions/prezent-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/conventions/prezent-conventions.yml
+  href: https://artifacts.apis.io/prezent/conventions/prezent-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/prezent-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/rate-limits/prezent-rate-limits.yml
+  href: https://artifacts.apis.io/prezent/rate-limits/prezent-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/prezent-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/asyncapi/prezent-webhooks.yml
+  href: https://artifacts.apis.io/prezent/asyncapi/prezent-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/prezent-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/data-model/prezent-data-model.yml
+  href: https://artifacts.apis.io/prezent/data-model/prezent-data-model.yml
   title: ''
   type: DataModel
   url: data-model/prezent-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/sandbox/prezent-sandbox.yml
+  href: https://artifacts.apis.io/prezent/sandbox/prezent-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/prezent-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/prezent/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/authentication/prezent-authentication.yml
+  href: https://artifacts.apis.io/prezent/authentication/prezent-authentication.yml
   title: ''
   type: Authentication
   url: authentication/prezent-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/agentic-access/prezent-agentic-access.yml
+  href: https://artifacts.apis.io/prezent/agentic-access/prezent-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/prezent-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/security/prezent-trust-center.yml
+  href: https://artifacts.apis.io/prezent/security/prezent-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/prezent-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/security/prezent-domain-security.yml
+  href: https://artifacts.apis.io/prezent/security/prezent-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prezent-domain-security.yml
 created: '2026-07-17'
 description: Prezent is an AI-powered business communications and presentation platform, with Prezent Vivo purpose-built for life sciences teams. Its Prezent Platform API exposes the AutoGenerator (turn a prompt plus source files into an on-brand deck), Template Converter (reformat existing decks to a brand-compliant template), Audiences, Themes, and file-upload services as a uniform, agent-ready JSON HTTP API. The API uses a Bearer API key, a uniform success/error envelope with a stable error code catalog, Idempotency-Key support, cursor pagination, rate-limit headers, first-class webhooks, and ships an official Model Context Protocol (MCP) server plus typed Python and TypeScript SDKs. Backed by 500 Global.
+finops:
+- has_sources: true
+  method: derived
+  name: Prezent Finops
+  primary_unit: user
+  service_category: ''
+  slug: prezent-finops
+  template: false
 image: https://teams.prezent.ai/prezent_favicon.svg
 layout: provider
 mcp_servers:
@@ -336,31 +348,38 @@ overview: 'Prezent publishes 9 API contracts indexed on the [APIs.io](https://ap
   The Prezent catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Prezent''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, sandbox, and 28 more developer resources.'
-random_paper: 6
+  Prezent''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, sandbox, and 29 more developer resources.'
+plans:
+- name: Prezent Plans Pricing
+  plan_count: 4
+  slug: prezent-plans-pricing
+- name: Prezent Price Estimates
+  plan_count: 0
+  slug: prezent-price-estimates
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Prezent Rate Limits
   slug: prezent-rate-limits
 score:
   band: strong
-  composite: 58.7
+  composite: 63.9
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 26
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 60.8
+    contract_quality: 60.1
     developer_ergonomics: 62.5
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 47.4
-  previous_composite: 58.6
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -383,13 +402,14 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/screenshots/prezent-2026-08-17T081335.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/prezent/prezent-2026-08-17T081335.png
 security:
 - kind: authentication
   name: Prezent Authentication
@@ -403,6 +423,12 @@ security:
   name: Prezent Trust Center
   slug: prezent-trust-center
   summary_line: SOC 2, ISO 27001, GDPR
+skill_count: 2
+skills:
+- name: Convert a deck to a brand template
+  slug: prezent-convert-template
+- name: Generate a Prezent presentation
+  slug: prezent-generate-presentation
 slug: prezent
 tags:
 - Company

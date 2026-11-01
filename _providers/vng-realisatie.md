@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 30.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 245
   slug: vng-realisatie-agentic-access
   summary_line: 245 operations · 143 acting
-api_count: 18
+api_count: 10
 apis:
 - baseURL: https://zaken-api.vng.cloud/api/v1
   baseurl_source: declared
@@ -243,55 +245,55 @@ apis:
   description: Een zaak mag (in principe) niet meer gewijzigd worden als de `archiefstatus` een andere status heeft dan "nog_te_archiveren". Voor praktische redenen is er geen harde validatie regel aan de provider k
   name: VNG Realisatie Zaken API
   slug: vng-realisatie-zaken-api
-artifact_total: 94
+artifact_total: 101
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/agentic-access/vng-realisatie-agentic-access.yml
+  href: https://artifacts.apis.io/vng-realisatie/agentic-access/vng-realisatie-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vng-realisatie-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/rules/vng-realisatie-rules.yml
+  href: https://artifacts.apis.io/vng-realisatie/rules/vng-realisatie-rules.yml
   title: ''
   type: Spectral
   url: rules/vng-realisatie-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/rules/vng-realisatie-haal-centraal-common-spectral-rules.yml
+  href: https://artifacts.apis.io/vng-realisatie/rules/vng-realisatie-haal-centraal-common-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/vng-realisatie-haal-centraal-common-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/json-ld/vng-realisatie-context.jsonld
+  href: https://artifacts.apis.io/vng-realisatie/json-ld/vng-realisatie-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/vng-realisatie-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/vocabulary/vng-realisatie-vocabulary.yml
+  href: https://artifacts.apis.io/vng-realisatie/vocabulary/vng-realisatie-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/vng-realisatie-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vng-realisatie/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/data-model/vng-realisatie-data-model.yml
+  href: https://artifacts.apis.io/vng-realisatie/data-model/vng-realisatie-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vng-realisatie-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/changelog/vng-realisatie-changelog.yml
+  href: https://artifacts.apis.io/vng-realisatie/changelog/vng-realisatie-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vng-realisatie-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/conventions/vng-realisatie-conventions.yml
+  href: https://artifacts.apis.io/vng-realisatie/conventions/vng-realisatie-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vng-realisatie-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/sandbox/vng-realisatie-sandbox.yml
+  href: https://artifacts.apis.io/vng-realisatie/sandbox/vng-realisatie-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/vng-realisatie-sandbox.yml
@@ -300,67 +302,67 @@ common:
   type: Security
   url: https://www.informatiebeveiligingsdienst.nl/responsible-disclosure-english/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/scopes/vng-realisatie-scopes.yml
+  href: https://artifacts.apis.io/vng-realisatie/scopes/vng-realisatie-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vng-realisatie-scopes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/lifecycle/vng-realisatie-lifecycle.yml
+  href: https://artifacts.apis.io/vng-realisatie/lifecycle/vng-realisatie-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/vng-realisatie-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/lifecycle/vng-realisatie-lifecycle.yml
+  href: https://artifacts.apis.io/vng-realisatie/lifecycle/vng-realisatie-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vng-realisatie-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/errors/vng-realisatie-problem-types.yml
+  href: https://artifacts.apis.io/vng-realisatie/errors/vng-realisatie-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vng-realisatie-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/conformance/vng-realisatie-conformance.yml
+  href: https://artifacts.apis.io/vng-realisatie/conformance/vng-realisatie-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vng-realisatie-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/overlays/vng-realisatie-autorisaties-overlay.yaml
+  href: https://artifacts.apis.io/vng-realisatie/overlays/vng-realisatie-autorisaties-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vng-realisatie-autorisaties-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/well-known/vng-realisatie-vng-security.txt
+  href: https://artifacts.apis.io/vng-realisatie/well-known/vng-realisatie-vng-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/vng-realisatie-vng-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/well-known/vng-realisatie-well-known.yml
+  href: https://artifacts.apis.io/vng-realisatie/well-known/vng-realisatie-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vng-realisatie-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/hosts/vng-realisatie-hosts.yml
+  href: https://artifacts.apis.io/vng-realisatie/hosts/vng-realisatie-hosts.yml
   title: ''
   type: Hosts
   url: hosts/vng-realisatie-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/vendors/vng-realisatie-vendors.yml
+  href: https://artifacts.apis.io/vng-realisatie/vendors/vng-realisatie-vendors.yml
   title: ''
   type: Vendors
   url: vendors/vng-realisatie-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/authentication/vng-realisatie-authentication.yml
+  href: https://artifacts.apis.io/vng-realisatie/authentication/vng-realisatie-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vng-realisatie-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/security/vng-realisatie-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/vng-realisatie/security/vng-realisatie-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vng-realisatie-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/security/vng-realisatie-domain-security.yml
+  href: https://artifacts.apis.io/vng-realisatie/security/vng-realisatie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vng-realisatie-domain-security.yml
@@ -555,7 +557,7 @@ plans:
 - name: Vng Realisatie Plans Pricing
   plan_count: 0
   slug: vng-realisatie-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Vng Realisatie Rate Limits
@@ -600,7 +602,7 @@ scopes:
   summary_line: 34 scopes
 score:
   band: developing
-  composite: 45.5
+  composite: 45.4
   coverage:
     artifact_dirs: 28
     catalog_earned: 65.8
@@ -608,11 +610,11 @@ score:
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 35.6
-    contract_quality: 66.4
+    contract_quality: 63.3
     developer_ergonomics: 37.5
     discoverability: 71.4
     operational_transparency: 39.5
@@ -624,7 +626,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 50.4
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -641,13 +643,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 36.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/vng-realisatie/refs/heads/main/screenshots/vng-realisatie-2026-10-11T133103.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vng-realisatie/vng-realisatie-2026-10-11T133103.png
 security:
 - kind: authentication
   name: Vng Realisatie Authentication
@@ -661,6 +664,22 @@ security:
   name: Vng Realisatie Vulnerability Disclosure
   slug: vng-realisatie-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 7
+skills:
+- name: look-up-a-woz-object
+  slug: vng-realisatie-look-up-a-woz-object
+- name: publish-a-zaaktype
+  slug: vng-realisatie-publish-a-zaaktype
+- name: record-a-besluit
+  slug: vng-realisatie-record-a-besluit
+- name: register-a-klantcontact
+  slug: vng-realisatie-register-a-klantcontact
+- name: register-a-zaak
+  slug: vng-realisatie-register-a-zaak
+- name: store-a-document
+  slug: vng-realisatie-store-a-document
+- name: subscribe-to-notifications
+  slug: vng-realisatie-subscribe-to-notifications
 slug: vng-realisatie
 tags:
 - Company

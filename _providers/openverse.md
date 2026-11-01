@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 29.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,11 +62,8 @@ apis:
   description: These are endpoints pertaining to images.
   name: Openverse Images API
   slug: openverse-images-api
-artifact_total: 92
+artifact_total: 91
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Openverse audio API
   slug: open-openverse-audio-api
@@ -76,17 +75,17 @@ collections:
   slug: open-openverse-images-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/openverse/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/openverse/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/openverse/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -95,7 +94,7 @@ common:
   type: Website
   url: https://openverse.org
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/capabilities/openverse-capability-edges.yml
+  href: https://artifacts.apis.io/openverse/capabilities/openverse-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/openverse-capability-edges.yml
@@ -120,17 +119,17 @@ common:
   type: License
   url: https://github.com/WordPress/openverse/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/agentic-access/openverse-agentic-access.yml
+  href: https://artifacts.apis.io/openverse/agentic-access/openverse-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openverse-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/security/openverse-domain-security.yml
+  href: https://artifacts.apis.io/openverse/security/openverse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openverse-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/authentication/openverse-authentication.yml
+  href: https://artifacts.apis.io/openverse/authentication/openverse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openverse-authentication.yml
@@ -404,7 +403,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -425,24 +424,21 @@ score:
   band: thin
   composite: 33.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 51.3
     catalog_earned_first_party: 0.0
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.2
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 54.8
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 21.1
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 39.0
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -455,14 +451,15 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 20.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/screenshots/openverse-2026-06-20T191047.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openverse/openverse-2026-06-20T191047.png
 security:
 - kind: authentication
   name: Openverse Authentication

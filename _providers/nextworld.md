@@ -31,6 +31,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -38,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'Inbound REST endpoints into the Nextworld Platform. Every table and logic block created in the platform automatically exposes a set of endpoints for fetching, inserting, updating and deleting records '
@@ -47,19 +49,19 @@ apis:
 - description: 'Remote Model Context Protocol server operated by Nextworld at apps.nextworld.net/ai/mcp. An MCP client connects to a single application, project or metadata bundle via a per-user URL generated inside '
   name: Nextworld MCP Server
   slug: nextworld-mcp-server
-artifact_total: 11
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Nextworld Events Webhooks
   slug: nextworld-events-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/security/nextworld-trust-center.yml
+  href: https://artifacts.apis.io/nextworld/security/nextworld-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nextworld-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/security/nextworld-domain-security.yml
+  href: https://artifacts.apis.io/nextworld/security/nextworld-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nextworld-domain-security.yml
@@ -112,77 +114,85 @@ common:
   type: Compliance
   url: https://www.nextw.com/utility/compliance
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/llms/nextworld-llms.txt
+  href: https://artifacts.apis.io/nextworld/llms/nextworld-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nextworld-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/mcp/nextworld-mcp.yml
+  href: https://artifacts.apis.io/nextworld/mcp/nextworld-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nextworld-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/well-known/nextworld-well-known.yml
+  href: https://artifacts.apis.io/nextworld/well-known/nextworld-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nextworld-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/scopes/nextworld-scopes.yml
+  href: https://artifacts.apis.io/nextworld/scopes/nextworld-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nextworld-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/authentication/nextworld-authentication.yml
+  href: https://artifacts.apis.io/nextworld/authentication/nextworld-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nextworld-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/conventions/nextworld-conventions.yml
+  href: https://artifacts.apis.io/nextworld/conventions/nextworld-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nextworld-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/lifecycle/nextworld-lifecycle.yml
+  href: https://artifacts.apis.io/nextworld/lifecycle/nextworld-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nextworld-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/lifecycle/nextworld-lifecycle.yml
+  href: https://artifacts.apis.io/nextworld/lifecycle/nextworld-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/nextworld-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/conformance/nextworld-conformance.yml
+  href: https://artifacts.apis.io/nextworld/conformance/nextworld-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nextworld-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/asyncapi/nextworld-events-webhooks.yml
+  href: https://artifacts.apis.io/nextworld/asyncapi/nextworld-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/nextworld-events-webhooks.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/plans/nextworld-plans-pricing.yml
+  href: https://artifacts.apis.io/nextworld/plans/nextworld-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nextworld-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/rate-limits/nextworld-rate-limits.yml
+  href: https://artifacts.apis.io/nextworld/rate-limits/nextworld-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nextworld-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/sandbox/nextworld-sandbox.yml
+  href: https://artifacts.apis.io/nextworld/sandbox/nextworld-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nextworld-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/packages/nextworld-packages.yml
+  href: https://artifacts.apis.io/nextworld/packages/nextworld-packages.yml
   title: ''
   type: Packages
   url: packages/nextworld-packages.yml
 created: '2026-08-26'
 description: Nextworld is a Denver, Colorado enterprise application platform company founded by members of the original JD Edwards team. Its AI-native, no-code platform lets enterprises build, extend and govern mission-critical applications on top of existing ERP investments — the company markets this as eliminating "Shadow ERP", the layer of spreadsheets and side systems that accumulates when an ERP cannot keep up. The platform surfaces to developers and agents through Developer Studio, Logic Builder, workflow automation, REST-based inbound and outbound endpoints, event emissions to AWS EventBridge, inbound webhooks, and a remote Model Context Protocol (MCP) server at apps.nextworld.net that exposes per-application record and workflow operations to MCP clients such as Claude and ChatGPT. Nextworld reports 600+ enterprise customers across distribution, manufacturing, engineering and construction, telecommunications, utilities, and food and beverage.
+finops:
+- has_sources: true
+  method: derived
+  name: Nextworld Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: nextworld-finops
+  template: false
 image: https://cdn.prod.website-files.com/68fbb4299bc0c9e658c018cc/6978e9a290aa1dc1c6a606c3_Nextworld_OpenGraph.jpg
 layout: provider
 mcp_servers:
@@ -204,7 +214,7 @@ plans:
 - name: Nextworld Plans Pricing
   plan_count: 2
   slug: nextworld-plans-pricing
-random_paper: 9
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Nextworld Rate Limits
@@ -215,24 +225,24 @@ scopes:
   slug: nextworld-scopes
   summary_line: 5 scopes
 score:
-  band: developing
-  composite: 51.2
+  band: strong
+  composite: 54.4
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 45.0
+    artifact_dirs: 18
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 68.4
+    access_clarity: 89.5
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 15.8
-  previous_composite: 51.1
+  previous_composite: 52.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -242,14 +252,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/screenshots/nextworld-2026-09-02T150753.png
+screenshot: https://apis.io/screenshots/nextworld/nextworld-2026-09-02T150753.png
 security:
 - kind: authentication
   name: Nextworld Authentication

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -40,22 +42,22 @@ common:
   type: Support
   url: http://www.51haohuo.com/#contact
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/51haohuo-com/refs/heads/main/plans/51haohuo-com-plans-pricing.yml
+  href: https://artifacts.apis.io/51haohuo-com/plans/51haohuo-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/51haohuo-com-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/51haohuo-com/refs/heads/main/rate-limits/51haohuo-com-rate-limits.yml
+  href: https://artifacts.apis.io/51haohuo-com/rate-limits/51haohuo-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/51haohuo-com-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/51haohuo-com/refs/heads/main/security/51haohuo-com-domain-security.yml
+  href: https://artifacts.apis.io/51haohuo-com/security/51haohuo-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/51haohuo-com-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/51haohuo-com/refs/heads/main/llms/51haohuo-com-llms.txt
+  href: https://artifacts.apis.io/51haohuo-com/llms/51haohuo-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/51haohuo-com-llms.txt
@@ -90,14 +92,14 @@ plans:
 - name: 51Haohuo Com Plans Pricing
   plan_count: 4
   slug: 51haohuo-com-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: 51Haohuo Com Rate Limits
   slug: 51haohuo-com-rate-limits
 score:
-  band: minimal
-  composite: 10.4
+  band: emerging
+  composite: 11.9
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -107,10 +109,10 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
+    developer_ergonomics: 4.8
     discoverability: 44.6
     operational_transparency: 0.0
   jurisdiction:
@@ -120,21 +122,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 10.4
+  previous_composite: 11.9
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/51haohuo-com/refs/heads/main/screenshots/51haohuo-com-2026-10-11T134431.png
+screenshot: https://apis.io/screenshots/51haohuo-com/51haohuo-com-2026-10-11T134431.png
 security:
 - kind: domain-security
   name: 51Haohuo Com Domain Security

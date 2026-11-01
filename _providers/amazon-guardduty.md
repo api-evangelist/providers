@@ -27,15 +27,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.2
-  scored_at: '2026-10-17'
+  score: 31.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -65,7 +67,87 @@ apis:
   description: The Tags API from Amazon GuardDuty — 2 operation(s) for tags.
   name: Amazon GuardDuty Tags API
   slug: amazon-guardduty-tags-api
-artifact_total: 1222
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Guardduty Administrator API from Amazon GuardDuty — 2 operation(s) for guardduty administrator.
+  name: Amazon GuardDuty Guardduty Administrator API
+  slug: amazon-guardduty-administrator-api
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Guardduty Association API from Amazon GuardDuty — 1 operation(s) for guardduty association.
+  name: Amazon GuardDuty Guardduty Association API
+  slug: amazon-guardduty-association-api
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Guardduty Custom Detection Rule API from Amazon GuardDuty — 5 operation(s) for guardduty custom detection rule.
+  name: Amazon GuardDuty Guardduty Custom Detection Rule API
+  slug: amazon-guardduty-custom-detection-rule-api
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Guardduty Filter API from Amazon GuardDuty — 2 operation(s) for guardduty filter.
+  name: Amazon GuardDuty Guardduty Filter API
+  slug: amazon-guardduty-filter-api
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Guardduty Findings API from Amazon GuardDuty — 7 operation(s) for guardduty findings.
+  name: Amazon GuardDuty Guardduty Findings API
+  slug: amazon-guardduty-findings-api
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Guardduty Investigation API from Amazon GuardDuty — 3 operation(s) for guardduty investigation.
+  name: Amazon GuardDuty Guardduty Investigation API
+  slug: amazon-guardduty-investigation-api
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Guardduty Ipset API from Amazon GuardDuty — 2 operation(s) for guardduty ipset.
+  name: Amazon GuardDuty Guardduty Ipset API
+  slug: amazon-guardduty-ipset-api
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Guardduty Malware Protection Plan API from Amazon GuardDuty — 2 operation(s) for guardduty malware protection plan.
+  name: Amazon GuardDuty Guardduty Malware Protection Plan API
+  slug: amazon-guardduty-malware-protection-plan-api
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Guardduty Malware Scan API from Amazon GuardDuty — 3 operation(s) for guardduty malware scan.
+  name: Amazon GuardDuty Guardduty Malware Scan API
+  slug: amazon-guardduty-malware-scan-api
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Guardduty Master API from Amazon GuardDuty — 2 operation(s) for guardduty master.
+  name: Amazon GuardDuty Guardduty Master API
+  slug: amazon-guardduty-master-api
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Guardduty Member API from Amazon GuardDuty — 9 operation(s) for guardduty member.
+  name: Amazon GuardDuty Guardduty Member API
+  slug: amazon-guardduty-member-api
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Guardduty Operations API from Amazon GuardDuty — 8 operation(s) for guardduty operations.
+  name: Amazon GuardDuty Guardduty Operations API
+  slug: amazon-guardduty-operations-api
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Guardduty Publishingdestination API from Amazon GuardDuty — 2 operation(s) for guardduty publishingdestination.
+  name: Amazon GuardDuty Guardduty Publishingdestination API
+  slug: amazon-guardduty-publishingdestination-api
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Guardduty Threatentityset API from Amazon GuardDuty — 2 operation(s) for guardduty threatentityset.
+  name: Amazon GuardDuty Guardduty Threatentityset API
+  slug: amazon-guardduty-threatentityset-api
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Guardduty Threatintelset API from Amazon GuardDuty — 2 operation(s) for guardduty threatintelset.
+  name: Amazon GuardDuty Guardduty Threatintelset API
+  slug: amazon-guardduty-threatintelset-api
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Guardduty Trustedentityset API from Amazon GuardDuty — 2 operation(s) for guardduty trustedentityset.
+  name: Amazon GuardDuty Guardduty Trustedentityset API
+  slug: amazon-guardduty-trustedentityset-api
+artifact_total: 1237
 collections:
 - collection_type: postman
   name: Amazon GuardDuty Admin API
@@ -79,9 +161,6 @@ collections:
 - collection_type: postman
   name: Amazon GuardDuty Admin Tags API
   slug: postman-amazon-guardduty-tags-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon GuardDuty Admin API
   slug: open-amazon-guardduty-admin-api
@@ -103,22 +182,22 @@ common:
   type: Pricing
   url: https://aws.amazon.com/guardduty/pricing/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/rate-limits/amazon-guardduty-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-guardduty/rate-limits/amazon-guardduty-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-guardduty-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/finops/amazon-guardduty-finops.yml
+  href: https://artifacts.apis.io/amazon-guardduty/finops/amazon-guardduty-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-guardduty-finops.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/plans/amazon-guardduty-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-guardduty/plans/amazon-guardduty-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-guardduty-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/capabilities/amazon-guardduty-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-guardduty/capabilities/amazon-guardduty-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-guardduty-capability-edges.yml
@@ -131,27 +210,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-guardduty/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/agentic-access/amazon-guardduty-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-guardduty/agentic-access/amazon-guardduty-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-guardduty-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/security/amazon-guardduty-trust-center.yml
+  href: https://artifacts.apis.io/amazon-guardduty/security/amazon-guardduty-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-guardduty-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/security/amazon-guardduty-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-guardduty/security/amazon-guardduty-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-guardduty-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/security/amazon-guardduty-domain-security.yml
+  href: https://artifacts.apis.io/amazon-guardduty/security/amazon-guardduty-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-guardduty-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/authentication/amazon-guardduty-authentication.yml
+  href: https://artifacts.apis.io/amazon-guardduty/authentication/amazon-guardduty-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-guardduty-authentication.yml
@@ -200,12 +279,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/rules/amazon-guardduty-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-guardduty/rules/amazon-guardduty-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-guardduty-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/vocabulary/amazon-guardduty-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-guardduty/vocabulary/amazon-guardduty-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-guardduty-vocabulary.yaml
@@ -1135,13 +1214,13 @@ features:
 - description: Scans EC2 instance volumes and S3 objects for malware and known threats.
   name: Malware Protection
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Guardduty Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: vcpu
+  service_category: ''
   slug: amazon-guardduty-finops
-  template: true
+  template: false
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 integrations:
 - description: Automatically send GuardDuty findings to Security Hub for centralized security management.
@@ -3800,7 +3879,7 @@ modified: '2026-09-16'
 name: Amazon GuardDuty
 nav: Providers
 network: true
-overview: 'Amazon GuardDuty publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Detector API, Invitation API, and 1 more. Tagged areas include Anomaly Detection, Compliance, Machine Learning, Monitoring, and Security.
+overview: 'Amazon GuardDuty publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Detector API, Invitation API, and 17 more. Tagged areas include Anomaly Detection, Compliance, Machine Learning, Monitoring, and Security.
 
 
   The Amazon GuardDuty catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -3811,7 +3890,7 @@ plans:
 - name: Amazon Guardduty Plans Pricing
   plan_count: 13
   slug: amazon-guardduty-plans-pricing
-random_paper: 4
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Amazon Guardduty Rate Limits
@@ -3842,43 +3921,49 @@ rules:
   slug: amazon-guardduty-spectral-rules
 score:
   band: strong
-  composite: 60.9
+  composite: 63.8
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 74.2
+    artifact_dirs: 21
+    catalog_earned: 77.2
     catalog_earned_first_party: 12.0
-    catalog_gap: 40.9
+    catalog_gap: 37.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.2
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 17.4
-    contract_quality: 67.7
+    contract_quality: 63.2
     developer_ergonomics: 65.5
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 57.7
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 4
+      marker_coverage: 80.0
+      total: 20
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/screenshots/amazon-guardduty-2026-06-20T171659.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-guardduty/amazon-guardduty-2026-06-20T171659.png
 security:
 - kind: authentication
   name: Amazon Guardduty Authentication

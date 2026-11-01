@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.0
-  scored_at: '2026-10-17'
+  score: 26.8
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -71,47 +73,47 @@ common:
   type: SignUp
   url: https://app.quarterzip.ai/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/quarterzip/refs/heads/main/changelog/quarterzip-changelog.yml
+  href: https://artifacts.apis.io/quarterzip/changelog/quarterzip-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/quarterzip-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quarterzip/refs/heads/main/llms/quarterzip-llms.txt
+  href: https://artifacts.apis.io/quarterzip/llms/quarterzip-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/quarterzip-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quarterzip/refs/heads/main/asyncapi/quarterzip-webhooks.yml
+  href: https://artifacts.apis.io/quarterzip/asyncapi/quarterzip-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/quarterzip-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quarterzip/refs/heads/main/authentication/quarterzip-authentication.yml
+  href: https://artifacts.apis.io/quarterzip/authentication/quarterzip-authentication.yml
   title: ''
   type: Authentication
   url: authentication/quarterzip-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quarterzip/refs/heads/main/conventions/quarterzip-conventions.yml
+  href: https://artifacts.apis.io/quarterzip/conventions/quarterzip-conventions.yml
   title: ''
   type: Conventions
   url: conventions/quarterzip-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/quarterzip/refs/heads/main/packages/quarterzip-packages.yml
+  href: https://artifacts.apis.io/quarterzip/packages/quarterzip-packages.yml
   title: ''
   type: Packages
   url: packages/quarterzip-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/quarterzip/refs/heads/main/packages/quarterzip-packages.yml
+  href: https://artifacts.apis.io/quarterzip/packages/quarterzip-packages.yml
   title: ''
   type: SDKs
   url: packages/quarterzip-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quarterzip/refs/heads/main/components/quarterzip-components.yml
+  href: https://artifacts.apis.io/quarterzip/components/quarterzip-components.yml
   title: ''
   type: Components
   url: components/quarterzip-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quarterzip/refs/heads/main/lifecycle/quarterzip-lifecycle.yml
+  href: https://artifacts.apis.io/quarterzip/lifecycle/quarterzip-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/quarterzip-lifecycle.yml
@@ -120,7 +122,7 @@ common:
   type: StatusPage
   url: https://status.quarterzip.ai/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quarterzip/refs/heads/main/conformance/quarterzip-conformance.yml
+  href: https://artifacts.apis.io/quarterzip/conformance/quarterzip-conformance.yml
   title: ''
   type: Conformance
   url: conformance/quarterzip-conformance.yml
@@ -129,12 +131,12 @@ common:
   type: Compliance
   url: https://trust.quarterzip.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quarterzip/refs/heads/main/security/quarterzip-trust-center.yml
+  href: https://artifacts.apis.io/quarterzip/security/quarterzip-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/quarterzip-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quarterzip/refs/heads/main/security/quarterzip-domain-security.yml
+  href: https://artifacts.apis.io/quarterzip/security/quarterzip-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quarterzip-domain-security.yml
@@ -157,10 +159,10 @@ overview: 'Quarterzip is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Quarterzip''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, changelog, authentication, and 14 more developer resources.'
-random_paper: 11
+random_paper: 7
 score:
-  band: thin
-  composite: 37.8
+  band: developing
+  composite: 40.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 27.0
@@ -168,15 +170,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 52.4
-    discoverability: 58.3
+    developer_ergonomics: 59.5
+    discoverability: 48.2
     operational_transparency: 39.5
-  previous_composite: 37.3
+  previous_composite: 40.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -185,15 +187,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 21.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/quarterzip/refs/heads/main/screenshots/quarterzip-2026-09-02T152730.png
+screenshot: https://apis.io/screenshots/quarterzip/quarterzip-2026-09-02T152730.png
 security:
 - kind: authentication
   name: Quarterzip Authentication

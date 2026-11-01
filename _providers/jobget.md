@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The production API host that backs the JobGet mobile applications and employer web experience. The host is publicly reachable over HTTPS and returns a structured RFC 9457 application/problem+json erro
@@ -46,7 +48,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/security/jobget-domain-security.yml
+  href: https://artifacts.apis.io/jobget/security/jobget-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jobget-domain-security.yml
@@ -111,37 +113,37 @@ common:
   type: Enterprise
   url: https://www.jobget.com/employer
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/llms/jobget-llms.txt
+  href: https://artifacts.apis.io/jobget/llms/jobget-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jobget-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/mcp/jobget-mcp.yml
+  href: https://artifacts.apis.io/jobget/mcp/jobget-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/jobget-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/packages/jobget-packages.yml
+  href: https://artifacts.apis.io/jobget/packages/jobget-packages.yml
   title: ''
   type: Packages
   url: packages/jobget-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/authentication/jobget-authentication.yml
+  href: https://artifacts.apis.io/jobget/authentication/jobget-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jobget-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/conventions/jobget-conventions.yml
+  href: https://artifacts.apis.io/jobget/conventions/jobget-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jobget-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/errors/jobget-problem-types.yml
+  href: https://artifacts.apis.io/jobget/errors/jobget-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/jobget-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/conformance/jobget-conformance.yml
+  href: https://artifacts.apis.io/jobget/conformance/jobget-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jobget-conformance.yml
@@ -151,7 +153,7 @@ description: JobGet is a Boston, Massachusetts based hourly and frontline hiring
 image: https://jobget.com/jobget-logo-purple.svg
 layout: provider
 mcp_servers:
-- description: Remote MCP server at blog.jobget.com over HTTP; 9 tools listed.
+- description: Remote MCP server at blog.jobget.com over HTTP; 10 tools listed.
   name: JobGet MCP Server
   slug: jobget-site-mcp
 modified: '2026-08-04'
@@ -162,10 +164,10 @@ overview: 'JobGet is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   JobGet''s developer surface includes engineering blog, support, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 19
+random_paper: 11
 score:
   band: emerging
-  composite: 23.7
+  composite: 23.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -179,9 +181,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.8
-    operational_transparency: 2.6
-  previous_composite: 23.7
+    discoverability: 66.7
+    operational_transparency: 5.3
+  previous_composite: 23.1
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -191,14 +193,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/screenshots/jobget-2026-08-07T171009.png
+screenshot: https://apis.io/screenshots/jobget/jobget-2026-08-07T171009.png
 security:
 - kind: authentication
   name: Jobget Authentication

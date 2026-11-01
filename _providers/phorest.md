@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -115,11 +117,8 @@ apis:
   description: Gift voucher creation, lookup, and balance updates.
   name: Phorest Vouchers API
   slug: phorest-vouchers-api
-artifact_total: 37
+artifact_total: 36
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Phorest Third-Party Appointments API
   slug: open-phorest-appointments-api
@@ -164,32 +163,32 @@ collections:
   slug: open-phorest
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/capabilities/phorest-capability-edges.yml
+  href: https://artifacts.apis.io/phorest/capabilities/phorest-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/phorest-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/agentic-access/phorest-agentic-access.yml
+  href: https://artifacts.apis.io/phorest/agentic-access/phorest-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/phorest-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/security/phorest-trust-center.yml
+  href: https://artifacts.apis.io/phorest/security/phorest-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/phorest-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/security/phorest-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/phorest/security/phorest-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/phorest-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/security/phorest-domain-security.yml
+  href: https://artifacts.apis.io/phorest/security/phorest-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/phorest-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/authentication/phorest-authentication.yml
+  href: https://artifacts.apis.io/phorest/authentication/phorest-authentication.yml
   title: ''
   type: Authentication
   url: authentication/phorest-authentication.yml
@@ -210,17 +209,17 @@ common:
   type: Documentation
   url: https://developer.phorest.com/docs/getting-started
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/plans/phorest-plans-pricing.yml
+  href: https://artifacts.apis.io/phorest/plans/phorest-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/phorest-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/rate-limits/phorest-rate-limits.yml
+  href: https://artifacts.apis.io/phorest/rate-limits/phorest-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/phorest-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/finops/phorest-finops.yml
+  href: https://artifacts.apis.io/phorest/finops/phorest-finops.yml
   title: ''
   type: FinOps
   url: finops/phorest-finops.yml
@@ -252,14 +251,14 @@ plans:
 - name: Phorest Plans Pricing
   plan_count: 7
   slug: phorest-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Phorest Rate Limits
   slug: phorest-rate-limits
 score:
   band: thin
-  composite: 28.4
+  composite: 31.8
   coverage:
     artifact_dirs: 12
     catalog_earned: 43.0
@@ -267,15 +266,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 46.5
-    developer_ergonomics: 26.2
+    developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 36.7
+    operational_transparency: 23.7
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     contracts:
@@ -289,13 +288,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/screenshots/phorest-2026-09-02T151153.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/phorest/phorest-2026-09-02T151153.png
 security:
 - kind: authentication
   name: Phorest Authentication

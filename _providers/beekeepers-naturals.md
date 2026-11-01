@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'Agent-facing commerce API for the Beekeeper''s Naturals storefront, exposed over the Model Context Protocol as the Universal Commerce Protocol (UCP) Shopping service. The endpoint is advertised by the '
@@ -44,7 +46,7 @@ apis:
 - description: 'Read-only JSON representations of the Beekeeper''s Naturals storefront catalog, documented by the store''s own agent instructions: product detail at /products/{handle}.json and collection listings at /c'
   name: Beekeeper's Naturals Storefront Product JSON
   slug: beekeepers-naturals-storefront-json
-artifact_total: 6
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -91,57 +93,57 @@ common:
   type: PrivacyPolicy
   url: https://www.beekeepersnaturals.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beekeepers-naturals/refs/heads/main/llms/beekeepers-naturals-llms.txt
+  href: https://artifacts.apis.io/beekeepers-naturals/llms/beekeepers-naturals-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beekeepers-naturals-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beekeepers-naturals/refs/heads/main/well-known/beekeepers-naturals-well-known.yml
+  href: https://artifacts.apis.io/beekeepers-naturals/well-known/beekeepers-naturals-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/beekeepers-naturals-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beekeepers-naturals/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/beekeepers-naturals/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beekeepers-naturals/refs/heads/main/authentication/beekeepers-naturals-authentication.yml
+  href: https://artifacts.apis.io/beekeepers-naturals/authentication/beekeepers-naturals-authentication.yml
   title: ''
   type: Authentication
   url: authentication/beekeepers-naturals-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beekeepers-naturals/refs/heads/main/scopes/beekeepers-naturals-scopes.yml
+  href: https://artifacts.apis.io/beekeepers-naturals/scopes/beekeepers-naturals-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/beekeepers-naturals-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beekeepers-naturals/refs/heads/main/conventions/beekeepers-naturals-conventions.yml
+  href: https://artifacts.apis.io/beekeepers-naturals/conventions/beekeepers-naturals-conventions.yml
   title: ''
   type: Conventions
   url: conventions/beekeepers-naturals-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beekeepers-naturals/refs/heads/main/conventions/beekeepers-naturals-conventions.yml
+  href: https://artifacts.apis.io/beekeepers-naturals/conventions/beekeepers-naturals-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/beekeepers-naturals-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beekeepers-naturals/refs/heads/main/errors/beekeepers-naturals-problem-types.yml
+  href: https://artifacts.apis.io/beekeepers-naturals/errors/beekeepers-naturals-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/beekeepers-naturals-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beekeepers-naturals/refs/heads/main/conformance/beekeepers-naturals-conformance.yml
+  href: https://artifacts.apis.io/beekeepers-naturals/conformance/beekeepers-naturals-conformance.yml
   title: ''
   type: Conformance
   url: conformance/beekeepers-naturals-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beekeepers-naturals/refs/heads/main/lifecycle/beekeepers-naturals-lifecycle.yml
+  href: https://artifacts.apis.io/beekeepers-naturals/lifecycle/beekeepers-naturals-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/beekeepers-naturals-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beekeepers-naturals/refs/heads/main/security/beekeepers-naturals-domain-security.yml
+  href: https://artifacts.apis.io/beekeepers-naturals/security/beekeepers-naturals-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beekeepers-naturals-domain-security.yml
@@ -161,7 +163,7 @@ overview: 'Beekeeper''s Naturals is listed with 2 APIs on the [APIs.io](https://
 
 
   Beekeeper''s Naturals'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 12
+random_paper: 2
 scopes:
 - name: Beekeepers Naturals Scopes
   scope_count: 4
@@ -169,7 +171,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.8
+  composite: 32.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 32.0
@@ -177,15 +179,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 0.0
-  previous_composite: 33.7
+  previous_composite: 32.8
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -196,14 +198,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/beekeepers-naturals/refs/heads/main/screenshots/beekeepers-naturals-2026-08-07T162251.png
+screenshot: https://apis.io/screenshots/beekeepers-naturals/beekeepers-naturals-2026-08-07T162251.png
 security:
 - kind: authentication
   name: Beekeepers Naturals Authentication
@@ -213,6 +215,10 @@ security:
   name: Beekeepers Naturals Domain Security
   slug: beekeepers-naturals-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Buy a product from Beekeeper's Naturals with buyer approval
+  slug: beekeepers-naturals-buy-a-product
 slug: beekeepers-naturals
 tags:
 - Company

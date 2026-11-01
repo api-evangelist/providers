@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Beato provides payment workflow automation APIs.
@@ -32,17 +34,17 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beato/refs/heads/main/hosts/beato-hosts.yml
+  href: https://artifacts.apis.io/beato/hosts/beato-hosts.yml
   title: ''
   type: Hosts
   url: hosts/beato-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beato/refs/heads/main/vendors/beato-vendors.yml
+  href: https://artifacts.apis.io/beato/vendors/beato-vendors.yml
   title: ''
   type: Vendors
   url: vendors/beato-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beato/refs/heads/main/security/beato-domain-security.yml
+  href: https://artifacts.apis.io/beato/security/beato-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beato-domain-security.yml
@@ -66,7 +68,7 @@ name: Beato
 nav: Providers
 network: true
 overview: Beato is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, Automation, and Software-as-a-Service.
-random_paper: 17
+random_paper: 19
 score:
   band: minimal
   composite: 3.2
@@ -85,12 +87,6 @@ score:
     developer_ergonomics: 0.0
     discoverability: 53.6
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: venue_as_website
   previous_composite: 3.2
   regulatory:
     applies: true
@@ -98,14 +94,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/beato/refs/heads/main/screenshots/beato-2026-10-11T101714.png
+screenshot: https://apis.io/screenshots/beato/beato-2026-10-11T101714.png
 security:
 - kind: domain-security
   name: Beato Domain Security

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.1
-  scored_at: '2026-10-17'
+  score: 31.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -120,15 +122,12 @@ apis:
   description: The Webhooks API from Sheeva — 3 operation(s) for webhooks.
   name: Sheeva Webhooks API
   slug: sheeva-webhooks-api
-artifact_total: 36
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Sheeva Webhooks
   slug: sheeva-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SheevaConnect Authentication API
   slug: open-sheeva-authentication-api
@@ -179,7 +178,7 @@ collections:
   slug: open-sheeva-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/capabilities/sheeva-capability-edges.yml
+  href: https://artifacts.apis.io/sheeva/capabilities/sheeva-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sheeva-capability-edges.yml
@@ -232,82 +231,82 @@ common:
   type: YouTube
   url: https://www.youtube.com/channel/UCgTP1ZcjfmfvAf_IxV1ucKQ
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/_original/sheeva-openapi.yml
+  href: https://artifacts.apis.io/sheeva/openapi/_original/sheeva-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/sheeva-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/authentication/sheeva-authentication.yml
+  href: https://artifacts.apis.io/sheeva/authentication/sheeva-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sheeva-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/asyncapi/sheeva-webhooks.yml
+  href: https://artifacts.apis.io/sheeva/asyncapi/sheeva-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sheeva-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/mcp/sheeva-mcp.yml
+  href: https://artifacts.apis.io/sheeva/mcp/sheeva-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sheeva-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sheeva/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/agentic-access/sheeva-agentic-access.yml
+  href: https://artifacts.apis.io/sheeva/agentic-access/sheeva-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sheeva-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/well-known/sheeva-well-known.yml
+  href: https://artifacts.apis.io/sheeva/well-known/sheeva-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sheeva-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/llms/sheeva-llms.txt
+  href: https://artifacts.apis.io/sheeva/llms/sheeva-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sheeva-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/overlays/sheeva-openapi-overlay.yaml
+  href: https://artifacts.apis.io/sheeva/overlays/sheeva-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sheeva-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/conformance/sheeva-conformance.yml
+  href: https://artifacts.apis.io/sheeva/conformance/sheeva-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sheeva-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/errors/sheeva-problem-types.yml
+  href: https://artifacts.apis.io/sheeva/errors/sheeva-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sheeva-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/lifecycle/sheeva-lifecycle.yml
+  href: https://artifacts.apis.io/sheeva/lifecycle/sheeva-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sheeva-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/conventions/sheeva-conventions.yml
+  href: https://artifacts.apis.io/sheeva/conventions/sheeva-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sheeva-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/data-model/sheeva-data-model.yml
+  href: https://artifacts.apis.io/sheeva/data-model/sheeva-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sheeva-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/sandbox/sheeva-sandbox.yml
+  href: https://artifacts.apis.io/sheeva/sandbox/sheeva-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sheeva-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/security/sheeva-domain-security.yml
+  href: https://artifacts.apis.io/sheeva/security/sheeva-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sheeva-domain-security.yml
@@ -326,10 +325,10 @@ overview: 'Sheeva publishes 15 API contracts indexed on the [APIs.io](https://ap
 
 
   Sheeva''s developer surface includes documentation, API reference, engineering blog, support, signup flow, YouTube channel, authentication, and 22 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: developing
-  composite: 41.9
+  composite: 41.7
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -341,11 +340,11 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 56.0
+    contract_quality: 55.4
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 41.9
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -362,13 +361,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/screenshots/sheeva-2026-08-17T125223.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sheeva/sheeva-2026-08-17T125223.png
 security:
 - kind: authentication
   name: Sheeva Authentication
@@ -378,6 +378,16 @@ security:
   name: Sheeva Domain Security
   slug: sheeva-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: Run a fueling session and pay
+  slug: sheeva-fuel-session-and-pay
+- name: Onboard a driver and vehicle
+  slug: sheeva-onboard-driver-and-vehicle
+- name: Register a status webhook
+  slug: sheeva-register-status-webhook
+- name: Add a credit card to a vehicle wallet
+  slug: sheeva-wallet-add-card
 slug: sheeva
 tags:
 - Company

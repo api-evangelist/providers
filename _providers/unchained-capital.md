@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unchained-capital/refs/heads/main/security/unchained-capital-domain-security.yml
+  href: https://artifacts.apis.io/unchained-capital/security/unchained-capital-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unchained-capital-domain-security.yml
@@ -79,7 +81,7 @@ common:
   type: PrivacyPolicy
   url: https://www.unchained.com/privacy
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/unchained-capital/refs/heads/main/changelog/unchained-capital-changelog.yml
+  href: https://artifacts.apis.io/unchained-capital/changelog/unchained-capital-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/unchained-capital-changelog.yml
@@ -88,22 +90,22 @@ common:
   type: Compliance
   url: https://www.unchained.com/legal-regulatory
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unchained-capital/refs/heads/main/llms/unchained-capital-llms.txt
+  href: https://artifacts.apis.io/unchained-capital/llms/unchained-capital-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unchained-capital-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unchained-capital/refs/heads/main/packages/unchained-capital-packages.yml
+  href: https://artifacts.apis.io/unchained-capital/packages/unchained-capital-packages.yml
   title: ''
   type: Packages
   url: packages/unchained-capital-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unchained-capital/refs/heads/main/conformance/unchained-capital-conformance.yml
+  href: https://artifacts.apis.io/unchained-capital/conformance/unchained-capital-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unchained-capital-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unchained-capital/refs/heads/main/lifecycle/unchained-capital-lifecycle.yml
+  href: https://artifacts.apis.io/unchained-capital/lifecycle/unchained-capital-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unchained-capital-lifecycle.yml
@@ -120,12 +122,12 @@ overview: 'Unchained Capital is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Unchained Capital''s developer surface includes support, engineering blog, pricing, signup flow, changelog, and 11 more developer resources.'
-random_paper: 6
+random_paper: 18
 score:
   band: emerging
-  composite: 21.0
+  composite: 21.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -133,13 +135,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 18.4
-  previous_composite: 21.0
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 21.9
   provenance:
     conformance: first-party
   regulatory:
@@ -148,14 +150,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 22.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/unchained-capital/refs/heads/main/screenshots/unchained-capital-2026-09-02T164832.png
+screenshot: https://apis.io/screenshots/unchained-capital/unchained-capital-2026-09-02T164832.png
 security:
 - kind: domain-security
   name: Unchained Capital Domain Security

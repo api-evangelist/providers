@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
+  score: 30.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -78,15 +80,12 @@ apis:
   description: Server discovery and capability metadata. Use /v1/info before authentication setup.
   name: Beeper Server API
   slug: beeper-server-api
-artifact_total: 21
+artifact_total: 22
 asyncapis:
 - description: Experimental WebSocket event stream exposed by the local Beeper Desktop API. Clients subscribe to chats and receive domain events as they occur.
   name: Beeper Desktop API - Live Events
   slug: beeper-events-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Beeper Desktop Accounts API
   slug: open-beeper-accounts-api
@@ -114,7 +113,7 @@ common:
   type: BlogRSS
   url: https://blog.beeper.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/overlays/beeper-desktop-api-overlay.yaml
+  href: https://artifacts.apis.io/beeper/overlays/beeper-desktop-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/beeper-desktop-api-overlay.yaml
@@ -135,72 +134,72 @@ common:
   type: GettingStarted
   url: https://developers.beeper.com/desktop-api/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/authentication/beeper-authentication.yml
+  href: https://artifacts.apis.io/beeper/authentication/beeper-authentication.yml
   title: ''
   type: Authentication
   url: authentication/beeper-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/scopes/beeper-scopes.yml
+  href: https://artifacts.apis.io/beeper/scopes/beeper-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/beeper-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/packages/beeper-packages.yml
+  href: https://artifacts.apis.io/beeper/packages/beeper-packages.yml
   title: ''
   type: SDKs
   url: packages/beeper-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/packages/beeper-packages.yml
+  href: https://artifacts.apis.io/beeper/packages/beeper-packages.yml
   title: ''
   type: Packages
   url: packages/beeper-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/mcp/beeper-mcp.yml
+  href: https://artifacts.apis.io/beeper/mcp/beeper-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/beeper-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/beeper/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/agentic-access/beeper-agentic-access.yml
+  href: https://artifacts.apis.io/beeper/agentic-access/beeper-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/beeper-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/conventions/beeper-conventions.yml
+  href: https://artifacts.apis.io/beeper/conventions/beeper-conventions.yml
   title: ''
   type: Conventions
   url: conventions/beeper-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/errors/beeper-problem-types.yml
+  href: https://artifacts.apis.io/beeper/errors/beeper-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/beeper-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/data-model/beeper-data-model.yml
+  href: https://artifacts.apis.io/beeper/data-model/beeper-data-model.yml
   title: ''
   type: DataModel
   url: data-model/beeper-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/conformance/beeper-conformance.yml
+  href: https://artifacts.apis.io/beeper/conformance/beeper-conformance.yml
   title: ''
   type: Conformance
   url: conformance/beeper-conformance.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/asyncapi/beeper-events-asyncapi.yml
+  href: https://artifacts.apis.io/beeper/asyncapi/beeper-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/beeper-events-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/asyncapi/beeper-events-asyncapi.yml
+  href: https://artifacts.apis.io/beeper/asyncapi/beeper-events-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/beeper-events-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/lifecycle/beeper-lifecycle.yml
+  href: https://artifacts.apis.io/beeper/lifecycle/beeper-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/beeper-lifecycle.yml
@@ -209,17 +208,17 @@ common:
   type: StatusPage
   url: https://beeperstatus.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/changelog/beeper-changelog.yml
+  href: https://artifacts.apis.io/beeper/changelog/beeper-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/beeper-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/llms/beeper-llms.txt
+  href: https://artifacts.apis.io/beeper/llms/beeper-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beeper-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/security/beeper-domain-security.yml
+  href: https://artifacts.apis.io/beeper/security/beeper-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beeper-domain-security.yml
@@ -270,7 +269,7 @@ overview: 'Beeper publishes 7 API contracts indexed on the [APIs.io](https://api
 
 
   Beeper''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 24 more developer resources.'
-random_paper: 11
+random_paper: 3
 scopes:
 - name: Beeper Scopes
   scope_count: 2
@@ -278,23 +277,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.8
+  composite: 48.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 52.9
     developer_ergonomics: 66.1
-    discoverability: 64.3
-    operational_transparency: 26.3
-  previous_composite: 45.8
+    discoverability: 56.7
+    operational_transparency: 44.7
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -311,13 +310,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/screenshots/beeper-2026-07-25T202639.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/beeper/beeper-2026-07-25T202639.png
 security:
 - kind: authentication
   name: Beeper Authentication
@@ -327,6 +327,12 @@ security:
   name: Beeper Domain Security
   slug: beeper-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Search messages and triage a Beeper inbox
+  slug: beeper-search-and-triage
+- name: Send a message in a Beeper chat
+  slug: beeper-send-message
 slug: beeper
 tags:
 - Company

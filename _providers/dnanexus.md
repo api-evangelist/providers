@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The DNAnexus Platform API is a JSON-over-HTTPS API of roughly 206 documented methods. Each method is invoked with an HTTP POST to a route of the form /class-xxxx/method (for example /file-xxxx/describ
@@ -45,8 +47,13 @@ apis:
 - description: DNAnexus operates an OpenID Connect provider that lets third-party web applications sign users in with their DNAnexus Platform credentials. The provider publishes an OIDC discovery document at https:/
   name: DNAnexus OpenID Connect Provider
   slug: dnanexus-openid-connect-provider
-artifact_total: 8
+artifact_total: 15
 common:
+- group: commercial
+  href: https://artifacts.apis.io/dnanexus/plans/dnanexus-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dnanexus-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -112,7 +119,7 @@ common:
   type: StatusPage
   url: https://status.dnanexus.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/changelog/dnanexus-changelog.yml
+  href: https://artifacts.apis.io/dnanexus/changelog/dnanexus-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dnanexus-changelog.yml
@@ -121,72 +128,72 @@ common:
   type: ReleaseNotes
   url: https://documentation.dnanexus.com/release-notes
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/lifecycle/dnanexus-lifecycle.yml
+  href: https://artifacts.apis.io/dnanexus/lifecycle/dnanexus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dnanexus-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/authentication/dnanexus-authentication.yml
+  href: https://artifacts.apis.io/dnanexus/authentication/dnanexus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dnanexus-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/scopes/dnanexus-scopes.yml
+  href: https://artifacts.apis.io/dnanexus/scopes/dnanexus-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/dnanexus-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/conventions/dnanexus-conventions.yml
+  href: https://artifacts.apis.io/dnanexus/conventions/dnanexus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dnanexus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/conventions/dnanexus-conventions.yml
+  href: https://artifacts.apis.io/dnanexus/conventions/dnanexus-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/dnanexus-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/rate-limits/dnanexus-rate-limits.yml
+  href: https://artifacts.apis.io/dnanexus/rate-limits/dnanexus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dnanexus-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/errors/dnanexus-problem-types.yml
+  href: https://artifacts.apis.io/dnanexus/errors/dnanexus-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dnanexus-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/errors/dnanexus-job-failure-reasons.yml
+  href: https://artifacts.apis.io/dnanexus/errors/dnanexus-job-failure-reasons.yml
   title: ''
   type: ErrorCodes
   url: errors/dnanexus-job-failure-reasons.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/data-model/dnanexus-data-model.yml
+  href: https://artifacts.apis.io/dnanexus/data-model/dnanexus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dnanexus-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/packages/dnanexus-packages.yml
+  href: https://artifacts.apis.io/dnanexus/packages/dnanexus-packages.yml
   title: ''
   type: Packages
   url: packages/dnanexus-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/packages/dnanexus-packages.yml
+  href: https://artifacts.apis.io/dnanexus/packages/dnanexus-packages.yml
   title: ''
   type: SDKs
   url: packages/dnanexus-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/cli/dnanexus-cli.yml
+  href: https://artifacts.apis.io/dnanexus/cli/dnanexus-cli.yml
   title: ''
   type: CLI
   url: cli/dnanexus-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/well-known/dnanexus-well-known.yml
+  href: https://artifacts.apis.io/dnanexus/well-known/dnanexus-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dnanexus-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/well-known/dnanexus-security.txt
+  href: https://artifacts.apis.io/dnanexus/well-known/dnanexus-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/dnanexus-security.txt
@@ -195,12 +202,12 @@ common:
   type: Security
   url: https://trust.dnanexus.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/security/dnanexus-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dnanexus/security/dnanexus-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dnanexus-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/security/dnanexus-trust-center.yml
+  href: https://artifacts.apis.io/dnanexus/security/dnanexus-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/dnanexus-trust-center.yml
@@ -209,27 +216,35 @@ common:
   type: Compliance
   url: https://www.dnanexus.com/platform-security-compliance
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/conformance/dnanexus-conformance.yml
+  href: https://artifacts.apis.io/dnanexus/conformance/dnanexus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dnanexus-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/security/dnanexus-domain-security.yml
+  href: https://artifacts.apis.io/dnanexus/security/dnanexus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dnanexus-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/llms/dnanexus-llms.txt
+  href: https://artifacts.apis.io/dnanexus/llms/dnanexus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dnanexus-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dnanexus/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-04'
 description: DNAnexus operates a cloud-based precision health data platform for genomic and multi-omic research, clinical testing and biopharma R&D. The DNAnexus Platform exposes a documented HTTP API of roughly 206 JSON-over-HTTPS methods at api.dnanexus.com covering projects and data containers, files and other data objects, apps, applets, workflows and analyses, jobs and execution containers, organizations and users, the Omics Data Catalog, and Trusted Research Environments (TREs) with data access requests. Every call is an HTTP POST with a JSON body, authenticated with a bearer token, versioned through an optional DNAnexus-API header, and made idempotent through a documented nonce field on object- and job-creation methods. First-party client libraries ship for Python (dxpy), Java, Scala and C++, alongside the dx command-line client, dxfuse and dxda, and the platform is an OpenID Connect provider for third-party sign-in and for job identity tokens.
+finops:
+- has_sources: true
+  method: derived
+  name: Dnanexus Finops
+  primary_unit: ''
+  service_category: ''
+  slug: dnanexus-finops
+  template: true
 image: https://www.dnanexus.com/hubfs/DNAnexus/Resources/DNAnexus_logo_headers-1.png
 layout: provider
 modified: '2026-08-04'
@@ -239,8 +254,12 @@ network: true
 overview: 'DNAnexus is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Genomics, Bioinformatics, Life Sciences, and Healthcare.
 
 
-  DNAnexus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, developer console, pricing, and 33 more developer resources.'
-random_paper: 12
+  DNAnexus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, developer console, pricing, and 34 more developer resources.'
+plans:
+- name: Dnanexus Plans Pricing
+  plan_count: 0
+  slug: dnanexus-plans-pricing
+random_paper: 6
 rate_limits:
 - limit_count: 8
   name: Dnanexus Rate Limits
@@ -252,9 +271,9 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.8
+  composite: 51.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -262,13 +281,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 78.0
-    discoverability: 73.2
-    operational_transparency: 65.8
-  previous_composite: 48.8
+    developer_ergonomics: 80.4
+    discoverability: 66.1
+    operational_transparency: 78.9
+  previous_composite: 51.6
   provenance:
     conformance: first-party
     skills: derived
@@ -278,14 +297,14 @@ score:
     regime: Health
     regime_id: health
     score: 41.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/screenshots/dnanexus-2026-08-07T164443.png
+screenshot: https://apis.io/screenshots/dnanexus/dnanexus-2026-08-07T164443.png
 security:
 - kind: authentication
   name: Dnanexus Authentication
@@ -303,6 +322,18 @@ security:
   name: Dnanexus Trust Center
   slug: dnanexus-trust-center
   summary_line: ISO 27001, FedRAMP, GovRAMP, Cyber Essentials, Cyber Essentials Plus, HIPAA, PCI, EU-U.S. Data Privacy Framework, EcoVadis
+skill_count: 5
+skills:
+- name: Authenticate against the DNAnexus Platform API and orient in a project
+  slug: dnanexus-authenticate-and-orient
+- name: Run a DNAnexus app and monitor the resulting job
+  slug: dnanexus-run-an-app-and-monitor
+- name: Search the DNAnexus platform and paginate the whole result set
+  slug: dnanexus-search-with-pagination
+- name: Submit and review a Trusted Research Environment data access request
+  slug: dnanexus-tre-data-access-request
+- name: Upload a file into a DNAnexus project safely
+  slug: dnanexus-upload-a-file
 slug: dnanexus
 tags:
 - Company

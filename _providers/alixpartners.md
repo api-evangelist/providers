@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 29
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alixpartners/refs/heads/main/security/alixpartners-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/alixpartners/security/alixpartners-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/alixpartners-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alixpartners/refs/heads/main/security/alixpartners-domain-security.yml
+  href: https://artifacts.apis.io/alixpartners/security/alixpartners-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alixpartners-domain-security.yml
@@ -206,12 +208,12 @@ overview: 'AlixPartners is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   AlixPartners'' developer surface includes signup flow and 24 more developer resources.'
-random_paper: 11
+random_paper: 13
 score:
-  band: minimal
-  composite: 9.5
+  band: emerging
+  composite: 11.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -223,23 +225,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 49.1
-    operational_transparency: 2.6
-  previous_composite: 9.5
+    discoverability: 50.0
+    operational_transparency: 15.8
+  previous_composite: 11.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alixpartners/refs/heads/main/screenshots/alixpartners-2026-06-20T171524.png
+screenshot: https://apis.io/screenshots/alixpartners/alixpartners-2026-06-20T171524.png
 security:
 - kind: domain-security
   name: Alixpartners Domain Security

@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 63.2
-  scored_at: '2026-10-17'
+  score: 54.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 98
   slug: clear-street-agentic-access
   summary_line: 98 operations · 34 acting
-api_count: 4
+api_count: 3
 apis:
 - description: Clear Street's official remote Model Context Protocol server, exposing the Clear Street Trading API to AI assistants such as Claude and Gemini. OAuth-protected per RFC 9728 — an anonymous request retu
   name: Clear Street MCP Server
@@ -159,15 +161,12 @@ apis:
   description: Create and manage watchlists.
   name: Clear Street Watchlist API
   slug: clear-street-watchlist-api
-artifact_total: 53
+artifact_total: 57
 asyncapis:
 - description: ''
   name: Clear Street Studio Events
   slug: clear-street-studio-events
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Clear Street Accounts API
   slug: open-clear-street-accounts-api
@@ -233,12 +232,12 @@ collections:
   slug: open-clear-street-watchlist-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/capabilities/clear-street-capability-edges.yml
+  href: https://artifacts.apis.io/clear-street/capabilities/clear-street-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/clear-street-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/agentic-access/clear-street-agentic-access.yml
+  href: https://artifacts.apis.io/clear-street/agentic-access/clear-street-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/clear-street-agentic-access.yml
@@ -291,72 +290,72 @@ common:
   type: GitHubOrganization
   url: https://github.com/clear-street
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/llms/clear-street-llms.txt
+  href: https://artifacts.apis.io/clear-street/llms/clear-street-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clear-street-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/packages/clear-street-packages.yml
+  href: https://artifacts.apis.io/clear-street/packages/clear-street-packages.yml
   title: ''
   type: Packages
   url: packages/clear-street-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/packages/clear-street-packages.yml
+  href: https://artifacts.apis.io/clear-street/packages/clear-street-packages.yml
   title: ''
   type: SDKs
   url: packages/clear-street-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/cli/clear-street-cli.yml
+  href: https://artifacts.apis.io/clear-street/cli/clear-street-cli.yml
   title: ''
   type: CLI
   url: cli/clear-street-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/clear-street/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/mcp/clear-street-mcp.yml
+  href: https://artifacts.apis.io/clear-street/mcp/clear-street-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/clear-street-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/mcp/clear-street-tool-crosswalk.yml
+  href: https://artifacts.apis.io/clear-street/mcp/clear-street-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/clear-street-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/well-known/clear-street-well-known.yml
+  href: https://artifacts.apis.io/clear-street/well-known/clear-street-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/clear-street-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/authentication/clear-street-authentication.yml
+  href: https://artifacts.apis.io/clear-street/authentication/clear-street-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clear-street-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/scopes/clear-street-scopes.yml
+  href: https://artifacts.apis.io/clear-street/scopes/clear-street-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/clear-street-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/conventions/clear-street-conventions.yml
+  href: https://artifacts.apis.io/clear-street/conventions/clear-street-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clear-street-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/conventions/clear-street-conventions.yml
+  href: https://artifacts.apis.io/clear-street/conventions/clear-street-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/clear-street-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/errors/clear-street-problem-types.yml
+  href: https://artifacts.apis.io/clear-street/errors/clear-street-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clear-street-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/lifecycle/clear-street-lifecycle.yml
+  href: https://artifacts.apis.io/clear-street/lifecycle/clear-street-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clear-street-lifecycle.yml
@@ -365,12 +364,12 @@ common:
   type: Deprecation
   url: https://docs.clearstreet.com/changelog/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/changelog/clear-street-changelog.yml
+  href: https://artifacts.apis.io/clear-street/changelog/clear-street-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/clear-street-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/conformance/clear-street-conformance.yml
+  href: https://artifacts.apis.io/clear-street/conformance/clear-street-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clear-street-conformance.yml
@@ -379,7 +378,7 @@ common:
   type: Compliance
   url: https://www.clearstreet.io/legal/clear-street-trust-center
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/security/clear-street-trust-center.yml
+  href: https://artifacts.apis.io/clear-street/security/clear-street-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/clear-street-trust-center.yml
@@ -388,27 +387,27 @@ common:
   type: Security
   url: https://www.clearstreet.io/legal/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/security/clear-street-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/clear-street/security/clear-street-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/clear-street-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/security/clear-street-domain-security.yml
+  href: https://artifacts.apis.io/clear-street/security/clear-street-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clear-street-domain-security.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/sandbox/clear-street-sandbox.yml
+  href: https://artifacts.apis.io/clear-street/sandbox/clear-street-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/clear-street-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/asyncapi/clear-street-studio-events.yml
+  href: https://artifacts.apis.io/clear-street/asyncapi/clear-street-studio-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/clear-street-studio-events.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/data-model/clear-street-data-model.yml
+  href: https://artifacts.apis.io/clear-street/data-model/clear-street-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clear-street-data-model.yml
@@ -431,7 +430,7 @@ overview: 'Clear Street publishes 23 API contracts indexed on the [APIs.io](http
 
 
   Clear Street''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, CLI, and 32 more developer resources.'
-random_paper: 17
+random_paper: 3
 scopes:
 - name: Clear Street Scopes
   scope_count: 5
@@ -439,7 +438,7 @@ scopes:
   summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 60.6
+  composite: 60.5
   coverage:
     artifact_dirs: 26
     catalog_earned: 40.0
@@ -447,14 +446,19 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 60.2
+    contract_quality: 58.9
     developer_ergonomics: 85.7
-    discoverability: 80.0
-    operational_transparency: 44.7
+    discoverability: 70.0
+    operational_transparency: 47.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
   previous_composite: 60.5
   provenance:
     agentic_access: derived
@@ -472,13 +476,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 42.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/screenshots/clear-street-2026-08-07T163444.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/clear-street/clear-street-2026-08-07T163444.png
 security:
 - kind: authentication
   name: Clear Street Authentication
@@ -496,6 +501,18 @@ security:
   name: Clear Street Trust Center
   slug: clear-street-trust-center
   summary_line: SOC 2 Type II
+skill_count: 5
+skills:
+- name: clearstreet-borrow-check
+  slug: clearstreet-borrow-check
+- name: clearstreet-earnings-radar
+  slug: clearstreet-earnings-radar
+- name: clearstreet-fundamentals-deep-dive
+  slug: clearstreet-fundamentals-deep-dive
+- name: clearstreet-omni-research
+  slug: clearstreet-omni-research
+- name: clearstreet-screener
+  slug: clearstreet-screener
 slug: clear-street
 tags:
 - Company

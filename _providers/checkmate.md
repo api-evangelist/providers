@@ -25,17 +25,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: derived
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 27.9
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.openstock.sh
   baseurl_source: declared
@@ -52,11 +54,8 @@ apis:
   description: The Shoppers API from Checkmate — 1 operation(s) for shoppers.
   name: Checkmate Shoppers API
   slug: checkmate-shoppers-api
-artifact_total: 11
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OpenStock Health API
   slug: open-checkmate-health-api
@@ -67,8 +66,13 @@ collections:
   name: OpenStock Health Shoppers API
   slug: open-checkmate-shoppers-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/checkmate/plans/checkmate-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/checkmate-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/overlays/checkmate-openstock-overlay.yaml
+  href: https://artifacts.apis.io/checkmate/overlays/checkmate-openstock-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/checkmate-openstock-overlay.yaml
@@ -113,77 +117,85 @@ common:
   type: Security
   url: https://joincheckmate.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/security/checkmate-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/checkmate/security/checkmate-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/checkmate-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/well-known/checkmate-security.txt
+  href: https://artifacts.apis.io/checkmate/well-known/checkmate-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/checkmate-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/well-known/checkmate-well-known.yml
+  href: https://artifacts.apis.io/checkmate/well-known/checkmate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/checkmate-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/security/checkmate-domain-security.yml
+  href: https://artifacts.apis.io/checkmate/security/checkmate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/checkmate-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/llms/checkmate-llms.txt
+  href: https://artifacts.apis.io/checkmate/llms/checkmate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/checkmate-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/mcp/checkmate-mcp.yml
+  href: https://artifacts.apis.io/checkmate/mcp/checkmate-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/checkmate-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/authentication/checkmate-authentication.yml
+  href: https://artifacts.apis.io/checkmate/authentication/checkmate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/checkmate-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/errors/checkmate-problem-types.yml
+  href: https://artifacts.apis.io/checkmate/errors/checkmate-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/checkmate-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/conventions/checkmate-conventions.yml
+  href: https://artifacts.apis.io/checkmate/conventions/checkmate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/checkmate-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/conventions/checkmate-conventions.yml
+  href: https://artifacts.apis.io/checkmate/conventions/checkmate-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/checkmate-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/conformance/checkmate-conformance.yml
+  href: https://artifacts.apis.io/checkmate/conformance/checkmate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/checkmate-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/lifecycle/checkmate-lifecycle.yml
+  href: https://artifacts.apis.io/checkmate/lifecycle/checkmate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/checkmate-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/data-model/checkmate-data-model.yml
+  href: https://artifacts.apis.io/checkmate/data-model/checkmate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/checkmate-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/checkmate/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'Checkmate is a shopping intelligence and data company whose network powers three products: Checkmate for consumers (a browser extension and mobile app that automatically finds the best price and applies working discount codes across 284,000+ merchants for 5M+ monthly shoppers), Mate for brands (AI-powered revenue intelligence), and OpenStock for publishers and agents. OpenStock is a commerce API and Model Context Protocol (MCP) server that exposes the entire Checkmate network through a single endpoint — letting AI agents, shopping copilots, and applications discover merchants, pull live catalogues and offers, generate real merchant-backed discount codes, check availability, and attribute orders. Backed by GV (Google Ventures).'
+finops:
+- has_sources: true
+  method: derived
+  name: Checkmate Finops
+  primary_unit: attributed revenue
+  service_category: ''
+  slug: checkmate-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/checkmate.png
 layout: provider
 mcp_servers:
@@ -197,27 +209,34 @@ network: true
 overview: 'Checkmate publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Health API, Merchants API, and Shoppers API. Tagged areas include Company, Consumer, Commerce, E-Commerce, and Shopping.
 
 
-  Checkmate''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 9
+  Checkmate''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 20 more developer resources.'
+plans:
+- name: Checkmate Plans Pricing
+  plan_count: 8
+  slug: checkmate-plans-pricing
+- name: Checkmate Price Estimates
+  plan_count: 0
+  slug: checkmate-price-estimates
+random_paper: 21
 score:
   band: developing
-  composite: 40.3
+  composite: 45.3
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 34.2
+    access_clarity: 73.7
     contract_governance: 4.5
     contract_quality: 46.3
     developer_ergonomics: 47.0
-    discoverability: 73.2
+    discoverability: 65.0
     operational_transparency: 10.5
-  previous_composite: 40.3
+  previous_composite: 37.4
   provenance:
     conformance: derived
     contracts:
@@ -233,13 +252,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/screenshots/checkmate-2026-07-25T205130.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/checkmate/checkmate-2026-07-25T205130.png
 security:
 - kind: authentication
   name: Checkmate Authentication
@@ -253,6 +273,12 @@ security:
   name: Checkmate Vulnerability Disclosure
   slug: checkmate-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 2
+skills:
+- name: Find a merchant and mint a working discount code
+  slug: checkmate-find-and-mint-code
+- name: Look up a shopper's merchant history
+  slug: checkmate-shopper-history
 slug: checkmate
 tags:
 - Company

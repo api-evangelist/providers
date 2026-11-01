@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 30.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 94
   slug: street-co-agentic-access
   summary_line: 94 operations · 19 acting
-api_count: 6
+api_count: 3
 apis:
 - baseURL: https://street.co.uk/open-api/v1
   baseurl_source: declared
@@ -261,7 +263,7 @@ apis:
   description: Viewings endpoints for this API.
   name: Street.co.uk Viewings API
   slug: street-co-viewings-api
-artifact_total: 52
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Street Co Webhooks
@@ -278,47 +280,47 @@ collections:
   slug: open-street-co-spectre-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/plans/street-co-plans-pricing.yml
+  href: https://artifacts.apis.io/street-co/plans/street-co-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/street-co-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/capabilities/street-co-capability-edges.yml
+  href: https://artifacts.apis.io/street-co/capabilities/street-co-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/street-co-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/security/street-co-domain-security.yml
+  href: https://artifacts.apis.io/street-co/security/street-co-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/street-co-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/agentic-access/street-co-agentic-access.yml
+  href: https://artifacts.apis.io/street-co/agentic-access/street-co-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/street-co-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/authentication/street-co-authentication.yml
+  href: https://artifacts.apis.io/street-co/authentication/street-co-authentication.yml
   title: ''
   type: Authentication
   url: authentication/street-co-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/conventions/street-co-conventions.yml
+  href: https://artifacts.apis.io/street-co/conventions/street-co-conventions.yml
   title: ''
   type: Conventions
   url: conventions/street-co-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/errors/street-co-problem-types.yml
+  href: https://artifacts.apis.io/street-co/errors/street-co-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/street-co-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/rate-limits/street-co-rate-limits.yml
+  href: https://artifacts.apis.io/street-co/rate-limits/street-co-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/street-co-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/lifecycle/street-co-lifecycle.yml
+  href: https://artifacts.apis.io/street-co/lifecycle/street-co-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/street-co-lifecycle.yml
@@ -327,102 +329,102 @@ common:
   type: Deprecation
   url: https://developers.street.co.uk/docs/street-open-api/updates/open-api-updates
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/changelog/street-co-changelog.yml
+  href: https://artifacts.apis.io/street-co/changelog/street-co-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/street-co-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/conformance/street-co-conformance.yml
+  href: https://artifacts.apis.io/street-co/conformance/street-co-conformance.yml
   title: ''
   type: Conformance
   url: conformance/street-co-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/data-model/street-co-data-model.yml
+  href: https://artifacts.apis.io/street-co/data-model/street-co-data-model.yml
   title: ''
   type: DataModel
   url: data-model/street-co-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/asyncapi/street-co-webhooks.yml
+  href: https://artifacts.apis.io/street-co/asyncapi/street-co-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/street-co-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/sandbox/street-co-sandbox.yml
+  href: https://artifacts.apis.io/street-co/sandbox/street-co-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/street-co-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/packages/street-co-packages.yml
+  href: https://artifacts.apis.io/street-co/packages/street-co-packages.yml
   title: ''
   type: Packages
   url: packages/street-co-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/well-known/street-co-well-known.yml
+  href: https://artifacts.apis.io/street-co/well-known/street-co-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/street-co-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/mcp/street-co-mcp.yml
+  href: https://artifacts.apis.io/street-co/mcp/street-co-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/street-co-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/mcp/street-co-tool-crosswalk.yml
+  href: https://artifacts.apis.io/street-co/mcp/street-co-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/street-co-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/street-co/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/skills/street-co-sync-property-portfolio.md
+  href: https://artifacts.apis.io/street-co/skills/street-co-sync-property-portfolio.md
   title: ''
   type: AgentSkill
   url: skills/street-co-sync-property-portfolio.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/skills/street-co-capture-enquiry-and-follow-up.md
+  href: https://artifacts.apis.io/street-co/skills/street-co-capture-enquiry-and-follow-up.md
   title: ''
   type: AgentSkill
   url: skills/street-co-capture-enquiry-and-follow-up.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/skills/street-co-power-website-property-search.md
+  href: https://artifacts.apis.io/street-co/skills/street-co-power-website-property-search.md
   title: ''
   type: AgentSkill
   url: skills/street-co-power-website-property-search.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/skills/street-co-tenancy-and-maintenance.md
+  href: https://artifacts.apis.io/street-co/skills/street-co-tenancy-and-maintenance.md
   title: ''
   type: AgentSkill
   url: skills/street-co-tenancy-and-maintenance.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/skills/street-co-invoice-reconciliation.md
+  href: https://artifacts.apis.io/street-co/skills/street-co-invoice-reconciliation.md
   title: ''
   type: AgentSkill
   url: skills/street-co-invoice-reconciliation.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/skills/street-co-spectre-property-report.md
+  href: https://artifacts.apis.io/street-co/skills/street-co-spectre-property-report.md
   title: ''
   type: AgentSkill
   url: skills/street-co-spectre-property-report.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/overlays/street-co-open-api-overlay.yaml
+  href: https://artifacts.apis.io/street-co/overlays/street-co-open-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/street-co-open-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/overlays/street-co-property-feed-api-overlay.yaml
+  href: https://artifacts.apis.io/street-co/overlays/street-co-property-feed-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/street-co-property-feed-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/overlays/street-co-spectre-api-overlay.yaml
+  href: https://artifacts.apis.io/street-co/overlays/street-co-spectre-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/street-co-spectre-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/llms/street-co-llms.txt
+  href: https://artifacts.apis.io/street-co/llms/street-co-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/street-co-llms.txt
@@ -479,13 +481,21 @@ common:
   type: LLMsText
   url: https://developers.street.co.uk/llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/street-co/review.yml
   title: ''
   type: Review
   url: review.yml
 created: '2026-07-26'
 description: 'Street.co.uk (Street Systems Limited, Manchester, England) is a UK estate agency CRM and property management platform for residential sales, lettings, property management and client accounting. In the United Kingdom there is no MLS and no RESO — residential listing distribution runs from agency CRM software out to the Rightmove and Zoopla portals — which places Street.co.uk at the agency system-of-record layer of the value chain, upstream of the portal duopoly and alongside Reapit, Alto and Apex27. Its API posture is unusually open for this sector: three OpenAPI 3.1 contracts (Street Open API, Property Feed, Spectre) are published unauthenticated on a public Scalar developer portal at developers.street.co.uk and can be downloaded as JSON or YAML by anyone. Access to the data behind them is not open — production bearer tokens are generated inside a paying agency''s Street account under Settings > Account Administration > Applications, and a non-customer developer must email
   apis@street.co.uk to be issued a sandbox token on the staging environment. Nothing RESO, no OData $metadata, and no open government data is published by Street.co.uk itself; the open UK property data layer sits with HM Land Registry and Ordnance Survey, not with the CRM vendors.'
+finops:
+- has_sources: true
+  method: derived
+  name: Street Co Finops
+  primary_unit: ''
+  service_category: ''
+  slug: street-co-finops
+  template: true
 image: https://street.co.uk/apple-touch-icon.png
 layout: provider
 modified: '2026-07-26'
@@ -503,27 +513,27 @@ plans:
 - name: Street Co Plans Pricing
   plan_count: 0
   slug: street-co-plans-pricing
-random_paper: 16
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Street Co Rate Limits
   slug: street-co-rate-limits
 score:
   band: strong
-  composite: 54.3
+  composite: 57.0
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 60.6
-    developer_ergonomics: 62.5
+    developer_ergonomics: 66.1
     discoverability: 78.6
     operational_transparency: 63.2
   jurisdiction:
@@ -534,7 +544,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 54.2
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -551,13 +561,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/screenshots/street-co-2026-08-17T082136.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/street-co/street-co-2026-08-17T082136.png
 security:
 - kind: authentication
   name: Street Co Authentication
@@ -567,6 +578,20 @@ security:
   name: Street Co Domain Security
   slug: street-co-domain-security
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
+skill_count: 6
+skills:
+- name: Capture a lead into Street and schedule the follow-up
+  slug: street-co-capture-enquiry-and-follow-up
+- name: Reconcile Street invoices and mark them paid
+  slug: street-co-invoice-reconciliation
+- name: Power an agency website property search with the Street Property Feed
+  slug: street-co-power-website-property-search
+- name: Generate a Spectre property report and collect its leads
+  slug: street-co-spectre-property-report
+- name: Sync an agency's property portfolio from Street
+  slug: street-co-sync-property-portfolio
+- name: Read tenancies and raise a maintenance request
+  slug: street-co-tenancy-and-maintenance
 slug: street-co
 tags:
 - Real Estate

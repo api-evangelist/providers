@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 24.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -99,11 +101,8 @@ apis:
   description: '**Work** entities group several Release entities which are different # TAGLINE versions of the same abstract piece of research. For example, three # TAGLINE release entities representing the pre-print'
   name: Fatcat Works API
   slug: fatcat-works-api
-artifact_total: 40
+artifact_total: 39
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: fatcat auth API
   slug: open-fatcat-auth-api
@@ -139,17 +138,17 @@ collections:
   slug: open-fatcat-works-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/fatcat/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/fatcat/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/fatcat/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -158,7 +157,7 @@ common:
   type: Website
   url: https://fatcat.wiki
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/capabilities/fatcat-capability-edges.yml
+  href: https://artifacts.apis.io/fatcat/capabilities/fatcat-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fatcat-capability-edges.yml
@@ -171,12 +170,12 @@ common:
   type: Releases
   url: https://github.com/internetarchive/fatcat/releases
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/agentic-access/fatcat-agentic-access.yml
+  href: https://artifacts.apis.io/fatcat/agentic-access/fatcat-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fatcat-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/authentication/fatcat-authentication.yml
+  href: https://artifacts.apis.io/fatcat/authentication/fatcat-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fatcat-authentication.yml
@@ -233,7 +232,7 @@ modified: '2026-09-16'
 name: Fatcat
 nav: Providers
 network: true
-overview: 'Fatcat publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Changelog API, Containers API, and 8 more. Tagged areas include Scholarly, Research, Academic, Open Access, and Bibliographic.
+overview: 'Fatcat publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Changelog API, Containers API, and 8 more. Tagged areas include Scholarly, Research, Academic, Open Access, and Bibliographic Records.
 
 
   The Fatcat catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -244,7 +243,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -263,7 +262,7 @@ rules:
   slug: fatcat-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 27.8
+  composite: 29.4
   coverage:
     artifact_dirs: 15
     catalog_earned: 53.3
@@ -271,15 +270,15 @@ score:
     catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 55.9
-    developer_ergonomics: 16.7
+    developer_ergonomics: 21.4
     discoverability: 73.2
     operational_transparency: 21.1
-  previous_composite: 32.0
+  previous_composite: 29.4
   provenance:
     agentic_access: derived
     contracts:
@@ -293,12 +292,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Fatcat Authentication
@@ -310,7 +310,7 @@ tags:
 - Research
 - Academic
 - Open Access
-- Bibliographic
+- Bibliographic Records
 - Publications
 - Metadata
 - Internet Archive

@@ -23,26 +23,28 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 0.9
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/artian/refs/heads/main/mcp/artian-mcp.yml
+  href: https://artifacts.apis.io/artian/mcp/artian-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/artian-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artian/refs/heads/main/security/artian-domain-security.yml
+  href: https://artifacts.apis.io/artian/security/artian-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/artian-domain-security.yml
@@ -79,17 +81,17 @@ common:
   type: TrustCenter
   url: https://trust.artian.ai/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artian/refs/heads/main/conformance/artian-conformance.yml
+  href: https://artifacts.apis.io/artian/conformance/artian-conformance.yml
   title: ''
   type: Conformance
   url: conformance/artian-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/artian/refs/heads/main/well-known/artian-well-known.yml
+  href: https://artifacts.apis.io/artian/well-known/artian-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/artian-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/artian/refs/heads/main/llms/artian-llms.txt
+  href: https://artifacts.apis.io/artian/llms/artian-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/artian-llms.txt
@@ -109,10 +111,10 @@ overview: 'Artian is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Artian''s developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
-random_paper: 1
+random_paper: 15
 score:
   band: emerging
-  composite: 17.3
+  composite: 16.6
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -126,7 +128,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 55.4
+    discoverability: 48.3
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -135,7 +137,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 17.3
+  previous_composite: 16.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -145,14 +147,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/artian/refs/heads/main/screenshots/artian-2026-07-25T201333.png
+screenshot: https://apis.io/screenshots/artian/artian-2026-07-25T201333.png
 security:
 - kind: domain-security
   name: Artian Domain Security

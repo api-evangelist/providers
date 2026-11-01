@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - baseURL: https://quickbooks.api.intuit.com/v3/company
@@ -56,7 +58,7 @@ asyncapis:
   slug: quickbooks-online-webhooks-asyncapi
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quickbooks/refs/heads/main/security/quickbooks-domain-security.yml
+  href: https://artifacts.apis.io/quickbooks/security/quickbooks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quickbooks-domain-security.yml
@@ -115,7 +117,7 @@ overview: 'QuickBooks is listed with 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   QuickBooks'' developer surface includes documentation, API reference, signup flow, pricing, and 6 more developer resources.'
-random_paper: 5
+random_paper: 3
 rules:
 - authorship: generated
   effective_rule_count: 30
@@ -131,7 +133,7 @@ rules:
   slug: quickbooks-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 34.2
+  composite: 34.6
   coverage:
     artifact_dirs: 7
     catalog_earned: 44.5
@@ -146,22 +148,22 @@ score:
     contract_quality: 40.6
     developer_ergonomics: 57.1
     discoverability: 70.0
-    operational_transparency: 2.6
-  previous_composite: 34.2
+    operational_transparency: 5.3
+  previous_composite: 34.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/quickbooks/refs/heads/main/screenshots/quickbooks-2026-06-20T192434.png
+screenshot: https://apis.io/screenshots/quickbooks/quickbooks-2026-06-20T192434.png
 security:
 - kind: domain-security
   name: Quickbooks Domain Security

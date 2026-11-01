@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -51,27 +53,27 @@ common:
   type: TermsOfService
   url: https://www.miyokos.com/policies/terms-of-service
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/miyokos/refs/heads/main/well-known/miyokos-well-known.yml
+  href: https://artifacts.apis.io/miyokos/well-known/miyokos-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/miyokos-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/miyokos/refs/heads/main/llms/miyokos-llms.txt
+  href: https://artifacts.apis.io/miyokos/llms/miyokos-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/miyokos-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/miyokos/refs/heads/main/mcp/miyokos-mcp.yml
+  href: https://artifacts.apis.io/miyokos/mcp/miyokos-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/miyokos-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/miyokos/refs/heads/main/authentication/miyokos-authentication.yml
+  href: https://artifacts.apis.io/miyokos/authentication/miyokos-authentication.yml
   title: ''
   type: Authentication
   url: authentication/miyokos-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/miyokos/refs/heads/main/security/miyokos-domain-security.yml
+  href: https://artifacts.apis.io/miyokos/security/miyokos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/miyokos-domain-security.yml
@@ -91,10 +93,10 @@ overview: 'Miyokos is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Miyokos'' developer surface includes authentication and 7 more developer resources.'
-random_paper: 9
+random_paper: 11
 score:
   band: emerging
-  composite: 12.6
+  composite: 12.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -108,9 +110,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 55.0
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 12.6
+  previous_composite: 12.0
   provenance:
     mcp: platform-generated
   regulatory:
@@ -119,14 +121,14 @@ score:
     regime: Health
     regime_id: health
     score: 15.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/miyokos/refs/heads/main/screenshots/miyokos-2026-08-07T183958.png
+screenshot: https://apis.io/screenshots/miyokos/miyokos-2026-08-07T183958.png
 security:
 - kind: authentication
   name: Miyokos Authentication

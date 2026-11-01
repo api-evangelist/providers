@@ -22,22 +22,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.5
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 25.3
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - baseURL: /
   baseurl_source: spec
@@ -54,14 +56,14 @@ apis:
   description: Misc endpoints
   name: API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python Misc API
   slug: calendar-api-ma-misc-api
-artifact_total: 7
+artifact_total: 11
 common:
 - group: company
   title: ''
   type: Website
   url: https://www.calendar-api.ma/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/overlays/calendar-api-ma-calendar-api-overlay.yaml
+  href: https://artifacts.apis.io/calendar-api-ma/overlays/calendar-api-ma-calendar-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/calendar-api-ma-calendar-api-overlay.yaml
@@ -106,12 +108,12 @@ common:
   type: Postman
   url: https://documenter.getpostman.com/view/9897118/2sBYArSrTN
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/packages/calendar-api-ma-packages.yml
+  href: https://artifacts.apis.io/calendar-api-ma/packages/calendar-api-ma-packages.yml
   title: ''
   type: Packages
   url: packages/calendar-api-ma-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/packages/calendar-api-ma-packages.yml
+  href: https://artifacts.apis.io/calendar-api-ma/packages/calendar-api-ma-packages.yml
   title: ''
   type: SDKs
   url: packages/calendar-api-ma-packages.yml
@@ -120,73 +122,81 @@ common:
   type: Python SDK
   url: https://pypi.org/project/pycalendar-api/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/authentication/calendar-api-ma-authentication.yml
+  href: https://artifacts.apis.io/calendar-api-ma/authentication/calendar-api-ma-authentication.yml
   title: ''
   type: Authentication
   url: authentication/calendar-api-ma-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/conventions/calendar-api-ma-conventions.yml
+  href: https://artifacts.apis.io/calendar-api-ma/conventions/calendar-api-ma-conventions.yml
   title: ''
   type: Conventions
   url: conventions/calendar-api-ma-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/errors/calendar-api-ma-problem-types.yml
+  href: https://artifacts.apis.io/calendar-api-ma/errors/calendar-api-ma-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/calendar-api-ma-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/lifecycle/calendar-api-ma-lifecycle.yml
+  href: https://artifacts.apis.io/calendar-api-ma/lifecycle/calendar-api-ma-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/calendar-api-ma-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/changelog/calendar-api-ma-changelog.yml
+  href: https://artifacts.apis.io/calendar-api-ma/changelog/calendar-api-ma-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/calendar-api-ma-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/conformance/calendar-api-ma-conformance.yml
+  href: https://artifacts.apis.io/calendar-api-ma/conformance/calendar-api-ma-conformance.yml
   title: ''
   type: Conformance
   url: conformance/calendar-api-ma-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/data-model/calendar-api-ma-data-model.yml
+  href: https://artifacts.apis.io/calendar-api-ma/data-model/calendar-api-ma-data-model.yml
   title: ''
   type: DataModel
   url: data-model/calendar-api-ma-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/examples/calendar-api-ma-examples.yml
+  href: https://artifacts.apis.io/calendar-api-ma/examples/calendar-api-ma-examples.yml
   title: ''
   type: Examples
   url: examples/calendar-api-ma-examples.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/rate-limits/calendar-api-ma-rate-limits.yml
+  href: https://artifacts.apis.io/calendar-api-ma/rate-limits/calendar-api-ma-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/calendar-api-ma-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/plans/calendar-api-ma-plans-pricing.yml
+  href: https://artifacts.apis.io/calendar-api-ma/plans/calendar-api-ma-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/calendar-api-ma-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/calendar-api-ma/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/llms/calendar-api-ma-llms.txt
+  href: https://artifacts.apis.io/calendar-api-ma/llms/calendar-api-ma-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/calendar-api-ma-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/security/calendar-api-ma-domain-security.yml
+  href: https://artifacts.apis.io/calendar-api-ma/security/calendar-api-ma-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/calendar-api-ma-domain-security.yml
 created: '2026-08-18'
 description: 'Calendar API is a REST service from Unravel Designs (Casablanca, Morocco) that turns the Moroccan economic calendar into a callable contract. It returns national, religious and exceptional public holidays with an explicit Estimated/Official status — religious feasts are dated astronomically and only become Official after moon sighting — and it calculates open business days: next and previous working day, counts and listings between two dates, and CalSpan, a chainable business-day [start_date, end_date] interval for a month, quarter, semester or year that drops straight into a SQL BETWEEN. Fourteen read-only GET operations are described by a published OpenAPI 3.1 document, authenticated with an X-API-KEY header, and wrapped by a typed first-party Python SDK (pycalendar-api). It is aimed at data engineers wiring Moroccan holiday logic into ETL pipelines and orchestrators such as Airflow and Dagster, and at regulated-market reporting where a hardcoded holiday table quietly goes
   stale every year.'
+finops:
+- has_sources: true
+  method: derived
+  name: Calendar Api Ma Finops
+  primary_unit: ''
+  service_category: ''
+  slug: calendar-api-ma-finops
+  template: true
 image: https://calendar-api.ma/assets/img/logos/cal-api-logo%20small.webp
 layout: provider
 modified: '2026-08-18'
@@ -201,28 +211,28 @@ plans:
 - name: Calendar Api Ma Plans Pricing
   plan_count: 1
   slug: calendar-api-ma-plans-pricing
-random_paper: 6
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Calendar Api Ma Rate Limits
   slug: calendar-api-ma-rate-limits
 score:
   band: developing
-  composite: 45.0
+  composite: 44.4
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 43.0
+    artifact_dirs: 21
+    catalog_earned: 40.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.6
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 48.8
     developer_ergonomics: 68.5
-    discoverability: 62.5
+    discoverability: 57.1
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -231,7 +241,7 @@ score:
     - africa
     - mena
     - north-africa
-  previous_composite: 44.4
+  previous_composite: 45.0
   provenance:
     conformance: derived
     contracts:
@@ -247,14 +257,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 17.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/screenshots/calendar-api-ma-2026-09-02T145004.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/calendar-api-ma/calendar-api-ma-2026-09-02T145004.png
 security:
 - kind: authentication
   name: Calendar Api Ma Authentication
@@ -264,6 +274,14 @@ security:
   name: Calendar Api Ma Domain Security
   slug: calendar-api-ma-domain-security
   summary_line: TLSv1.3
+skill_count: 3
+skills:
+- name: build-reporting-periods
+  slug: calendar-api-ma-build-reporting-periods
+- name: check-moroccan-holiday
+  slug: calendar-api-ma-check-moroccan-holiday
+- name: schedule-on-business-days
+  slug: calendar-api-ma-schedule-on-business-days
 slug: calendar-api-ma
 tags:
 - Holidays

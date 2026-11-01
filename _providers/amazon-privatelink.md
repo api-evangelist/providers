@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-17'
+  score: 22.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -65,7 +67,7 @@ apis:
   description: VPC endpoints (consumer side)
   name: Amazon PrivateLink VPC Endpoints API
   slug: amazon-privatelink-vpc-endpoints-api
-artifact_total: 91
+artifact_total: 90
 collections:
 - collection_type: postman
   name: Amazon PrivateLink Endpoint Connections API
@@ -80,9 +82,6 @@ collections:
   name: Amazon PrivateLink Endpoint Connections VPC Endpoints API
   slug: postman-amazon-privatelink-vpc-endpoints-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Amazon PrivateLink Endpoint Connections API
   slug: open-amazon-privatelink-endpoint-connections-api
 - collection_type: open
@@ -96,17 +95,17 @@ collections:
   slug: open-amazon-privatelink-vpc-endpoints-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/plans/amazon-privatelink-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-privatelink/plans/amazon-privatelink-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-privatelink-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/rate-limits/amazon-privatelink-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-privatelink/rate-limits/amazon-privatelink-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-privatelink-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/finops/amazon-privatelink-finops.yml
+  href: https://artifacts.apis.io/amazon-privatelink/finops/amazon-privatelink-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-privatelink-finops.yml
@@ -119,27 +118,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-privatelink/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/agentic-access/amazon-privatelink-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-privatelink/agentic-access/amazon-privatelink-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-privatelink-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/security/amazon-privatelink-trust-center.yml
+  href: https://artifacts.apis.io/amazon-privatelink/security/amazon-privatelink-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-privatelink-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/security/amazon-privatelink-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-privatelink/security/amazon-privatelink-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-privatelink-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/security/amazon-privatelink-domain-security.yml
+  href: https://artifacts.apis.io/amazon-privatelink/security/amazon-privatelink-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-privatelink-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/authentication/amazon-privatelink-authentication.yml
+  href: https://artifacts.apis.io/amazon-privatelink/authentication/amazon-privatelink-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-privatelink-authentication.yml
@@ -184,287 +183,287 @@ common:
   type: StatusPage
   url: https://health.aws.amazon.com/health/status
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/rules/amazon-privatelink-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-privatelink/rules/amazon-privatelink-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-privatelink-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/vocabulary/amazon-privatelink-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-privatelink/vocabulary/amazon-privatelink-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-privatelink-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-ld/amazon-privatelink-context.jsonld
+  href: https://artifacts.apis.io/amazon-privatelink/json-ld/amazon-privatelink-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-privatelink-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-accept-vpc-endpoint-connections-request-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-accept-vpc-endpoint-connections-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-accept-vpc-endpoint-connections-request-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-create-vpc-endpoint-request-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-create-vpc-endpoint-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-create-vpc-endpoint-request-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-create-vpc-endpoint-result-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-create-vpc-endpoint-result-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-create-vpc-endpoint-result-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-create-vpc-endpoint-service-configuration-request-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-create-vpc-endpoint-service-configuration-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-create-vpc-endpoint-service-configuration-request-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-create-vpc-endpoint-service-configuration-result-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-create-vpc-endpoint-service-configuration-result-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-create-vpc-endpoint-service-configuration-result-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-delete-vpc-endpoint-service-configurations-request-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-delete-vpc-endpoint-service-configurations-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-delete-vpc-endpoint-service-configurations-request-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-delete-vpc-endpoints-request-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-delete-vpc-endpoints-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-delete-vpc-endpoints-request-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-describe-vpc-endpoint-connections-result-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-describe-vpc-endpoint-connections-result-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-describe-vpc-endpoint-connections-result-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-describe-vpc-endpoint-services-result-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-describe-vpc-endpoint-services-result-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-describe-vpc-endpoint-services-result-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-describe-vpc-endpoints-result-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-describe-vpc-endpoints-result-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-describe-vpc-endpoints-result-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-modify-vpc-endpoint-request-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-modify-vpc-endpoint-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-modify-vpc-endpoint-request-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-modify-vpc-endpoint-service-configuration-request-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-modify-vpc-endpoint-service-configuration-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-modify-vpc-endpoint-service-configuration-request-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-modify-vpc-endpoint-service-permissions-request-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-modify-vpc-endpoint-service-permissions-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-modify-vpc-endpoint-service-permissions-request-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-reject-vpc-endpoint-connections-request-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-reject-vpc-endpoint-connections-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-reject-vpc-endpoint-connections-request-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-service-configuration-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-service-configuration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-service-configuration-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-service-detail-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-service-detail-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-service-detail-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-vpc-endpoint-connection-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-vpc-endpoint-connection-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-vpc-endpoint-connection-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-vpc-endpoint-schema.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-schema/amazon-privatelink-vpc-endpoint-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-privatelink-vpc-endpoint-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-accept-vpc-endpoint-connections-request-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-accept-vpc-endpoint-connections-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-accept-vpc-endpoint-connections-request-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-create-vpc-endpoint-request-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-create-vpc-endpoint-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-create-vpc-endpoint-request-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-create-vpc-endpoint-result-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-create-vpc-endpoint-result-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-create-vpc-endpoint-result-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-create-vpc-endpoint-service-configuration-request-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-create-vpc-endpoint-service-configuration-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-create-vpc-endpoint-service-configuration-request-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-create-vpc-endpoint-service-configuration-result-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-create-vpc-endpoint-service-configuration-result-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-create-vpc-endpoint-service-configuration-result-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-delete-vpc-endpoint-service-configurations-request-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-delete-vpc-endpoint-service-configurations-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-delete-vpc-endpoint-service-configurations-request-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-delete-vpc-endpoints-request-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-delete-vpc-endpoints-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-delete-vpc-endpoints-request-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-describe-vpc-endpoint-connections-result-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-describe-vpc-endpoint-connections-result-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-describe-vpc-endpoint-connections-result-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-describe-vpc-endpoint-services-result-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-describe-vpc-endpoint-services-result-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-describe-vpc-endpoint-services-result-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-describe-vpc-endpoints-result-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-describe-vpc-endpoints-result-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-describe-vpc-endpoints-result-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-modify-vpc-endpoint-request-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-modify-vpc-endpoint-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-modify-vpc-endpoint-request-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-modify-vpc-endpoint-service-configuration-request-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-modify-vpc-endpoint-service-configuration-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-modify-vpc-endpoint-service-configuration-request-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-modify-vpc-endpoint-service-permissions-request-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-modify-vpc-endpoint-service-permissions-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-modify-vpc-endpoint-service-permissions-request-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-reject-vpc-endpoint-connections-request-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-reject-vpc-endpoint-connections-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-reject-vpc-endpoint-connections-request-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-service-configuration-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-service-configuration-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-service-configuration-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-service-detail-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-service-detail-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-service-detail-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-vpc-endpoint-connection-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-vpc-endpoint-connection-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-vpc-endpoint-connection-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-structure/amazon-privatelink-vpc-endpoint-structure.json
+  href: https://artifacts.apis.io/amazon-privatelink/json-structure/amazon-privatelink-vpc-endpoint-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-privatelink-vpc-endpoint-structure.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-accept-vpc-endpoint-connections-request-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-accept-vpc-endpoint-connections-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-accept-vpc-endpoint-connections-request-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-create-vpc-endpoint-request-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-create-vpc-endpoint-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-create-vpc-endpoint-request-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-create-vpc-endpoint-result-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-create-vpc-endpoint-result-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-create-vpc-endpoint-result-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-create-vpc-endpoint-service-configuration-request-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-create-vpc-endpoint-service-configuration-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-create-vpc-endpoint-service-configuration-request-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-create-vpc-endpoint-service-configuration-result-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-create-vpc-endpoint-service-configuration-result-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-create-vpc-endpoint-service-configuration-result-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-delete-vpc-endpoint-service-configurations-request-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-delete-vpc-endpoint-service-configurations-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-delete-vpc-endpoint-service-configurations-request-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-delete-vpc-endpoints-request-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-delete-vpc-endpoints-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-delete-vpc-endpoints-request-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-describe-vpc-endpoint-connections-result-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-describe-vpc-endpoint-connections-result-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-describe-vpc-endpoint-connections-result-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-describe-vpc-endpoint-services-result-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-describe-vpc-endpoint-services-result-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-describe-vpc-endpoint-services-result-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-describe-vpc-endpoints-result-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-describe-vpc-endpoints-result-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-describe-vpc-endpoints-result-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-modify-vpc-endpoint-request-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-modify-vpc-endpoint-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-modify-vpc-endpoint-request-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-modify-vpc-endpoint-service-configuration-request-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-modify-vpc-endpoint-service-configuration-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-modify-vpc-endpoint-service-configuration-request-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-modify-vpc-endpoint-service-permissions-request-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-modify-vpc-endpoint-service-permissions-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-modify-vpc-endpoint-service-permissions-request-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-reject-vpc-endpoint-connections-request-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-reject-vpc-endpoint-connections-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-reject-vpc-endpoint-connections-request-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-service-configuration-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-service-configuration-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-service-configuration-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-service-detail-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-service-detail-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-service-detail-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-vpc-endpoint-connection-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-vpc-endpoint-connection-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-vpc-endpoint-connection-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/examples/amazon-privatelink-vpc-endpoint-example.json
+  href: https://artifacts.apis.io/amazon-privatelink/examples/amazon-privatelink-vpc-endpoint-example.json
   title: ''
   type: Examples
   url: examples/amazon-privatelink-vpc-endpoint-example.json
@@ -543,13 +542,13 @@ features:
 - description: Control access to services through endpoint policy documents for fine-grained access control.
   name: Endpoint Policies
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Privatelink Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: gb of data processed
+  service_category: ''
   slug: amazon-privatelink-finops
-  template: true
+  template: false
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: AcceptVpcEndpointConnectionsRequest
@@ -680,9 +679,9 @@ overview: 'Amazon PrivateLink is listed with 4 APIs on the [APIs.io](https://api
   Amazon PrivateLink''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 70 more developer resources.'
 plans:
 - name: Amazon Privatelink Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: amazon-privatelink-plans-pricing
-random_paper: 14
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Amazon Privatelink Rate Limits
@@ -712,24 +711,24 @@ rules:
     warn: 10
   slug: amazon-privatelink-spectral-rules
 score:
-  band: developing
-  composite: 43.6
+  band: strong
+  composite: 54.7
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 66.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    artifact_dirs: 19
+    catalog_earned: 78.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 27.3
     contract_quality: 24.2
-    developer_ergonomics: 46.4
+    developer_ergonomics: 58.3
     discoverability: 71.4
-    operational_transparency: 26.3
-  previous_composite: 45.1
+    operational_transparency: 39.5
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     contracts:
@@ -743,13 +742,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/screenshots/amazon-privatelink-2026-06-20T171800.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-privatelink/amazon-privatelink-2026-06-20T171800.png
 security:
 - kind: authentication
   name: Amazon Privatelink Authentication

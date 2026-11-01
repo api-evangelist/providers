@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voxox/refs/heads/main/security/voxox-domain-security.yml
+  href: https://artifacts.apis.io/voxox/security/voxox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voxox-domain-security.yml
@@ -60,7 +62,7 @@ name: Voxox
 nav: Providers
 network: true
 overview: Voxox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Communications, Cloud Communications, and VoIP.
-random_paper: 8
+random_paper: 4
 score:
   band: minimal
   composite: 2.2
@@ -86,8 +88,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 5.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

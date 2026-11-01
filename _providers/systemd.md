@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.5
-  scored_at: '2026-10-17'
+  score: 16.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 10
@@ -194,11 +196,8 @@ apis:
   description: The Users API from systemd — 3 operation(s) for users.
   name: systemd Users API
   slug: systemd-users-api
-artifact_total: 89
+artifact_total: 88
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: systemd-hostnamed (org.freedesktop.hostname1)
   slug: open-hostname1
@@ -297,7 +296,7 @@ collections:
   slug: open-varlink
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/capabilities/systemd-capability-edges.yml
+  href: https://artifacts.apis.io/systemd/capabilities/systemd-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/systemd-capability-edges.yml
@@ -310,12 +309,12 @@ common:
   type: ContributionGuide
   url: https://github.com/systemd/systemd/blob/main/docs/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/agentic-access/systemd-agentic-access.yml
+  href: https://artifacts.apis.io/systemd/agentic-access/systemd-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/systemd-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/security/systemd-domain-security.yml
+  href: https://artifacts.apis.io/systemd/security/systemd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/systemd-domain-security.yml
@@ -460,12 +459,12 @@ common:
   type: SDKs
   url: https://www.freedesktop.org/software/systemd/man/latest/sd-event.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/vocabulary/systemd-vocabulary.yml
+  href: https://artifacts.apis.io/systemd/vocabulary/systemd-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/systemd-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/json-ld/systemd-context.jsonld
+  href: https://artifacts.apis.io/systemd/json-ld/systemd-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/systemd-context.jsonld
@@ -543,7 +542,7 @@ overview: 'systemd publishes 34 API contracts indexed on the [APIs.io](https://a
 
 
   systemd''s developer surface includes documentation, release notes, changelog, tooling, and 38 more developer resources.'
-random_paper: 7
+random_paper: 9
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -570,26 +569,23 @@ rules:
   slug: systemd-rules
 score:
   band: thin
-  composite: 30.2
+  composite: 28.5
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 27.3
     contract_quality: 45.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 26.2
     discoverability: 66.1
-    operational_transparency: 18.4
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 30.1
+    operational_transparency: 21.1
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     contracts:
@@ -603,13 +599,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/screenshots/systemd-2026-06-20T194839.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/systemd/systemd-2026-06-20T194839.png
 security:
 - kind: domain-security
   name: Systemd Domain Security

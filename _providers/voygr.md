@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.1
-  scored_at: '2026-10-17'
+  score: 34.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.voygr.tech
@@ -51,7 +53,7 @@ apis:
   description: The core API from VOYGR — 2 operation(s) for core.
   name: VOYGR Core API
   slug: voygr-core-api
-artifact_total: 7
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -90,12 +92,12 @@ common:
   type: Pricing
   url: https://api.voygr.tech/checkout
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/plans/voygr-plans-pricing.yml
+  href: https://artifacts.apis.io/voygr/plans/voygr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/voygr-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/rate-limits/voygr-rate-limits.yml
+  href: https://artifacts.apis.io/voygr/rate-limits/voygr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/voygr-rate-limits.yml
@@ -108,42 +110,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/voygr-tech
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/packages/voygr-packages.yml
+  href: https://artifacts.apis.io/voygr/packages/voygr-packages.yml
   title: ''
   type: SDKs
   url: packages/voygr-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/packages/voygr-packages.yml
+  href: https://artifacts.apis.io/voygr/packages/voygr-packages.yml
   title: ''
   type: Packages
   url: packages/voygr-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/cli/voygr-cli.yml
+  href: https://artifacts.apis.io/voygr/cli/voygr-cli.yml
   title: ''
   type: CLI
   url: cli/voygr-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/voygr/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/llms/voygr-llms.txt
+  href: https://artifacts.apis.io/voygr/llms/voygr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/voygr-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/lifecycle/voygr-lifecycle.yml
+  href: https://artifacts.apis.io/voygr/lifecycle/voygr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/voygr-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/conformance/voygr-conformance.yml
+  href: https://artifacts.apis.io/voygr/conformance/voygr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/voygr-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/security/voygr-domain-security.yml
+  href: https://artifacts.apis.io/voygr/security/voygr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voygr-domain-security.yml
@@ -162,13 +164,21 @@ common:
 created: '2026-07-17'
 description: VOYGR provides real-world place intelligence for AI apps and agents, delivering continuous location and point-of-interest (POI) data validation and enrichment. Its Location Freshness Validation confirms historical existence and current operating status, detecting relocations, rebrands, and closures across multiple attributes with up to 99.62% validation precision and configurable decision thresholds. Its Location Data Enrichment populates and continuously enriches place records from web, social, authoritative, and other sources, spanning foundational attributes (address, contacts, web presence), operating data (hours, menus, prices), and fresh context (articles, reviews, news, events). Two APIs are public and self-serve. The Voygr Calls API (api.voygr.tech) places real outbound phone calls with an AI voice agent — submit a task, the agent dials, conducts the conversation, and returns a structured outcome with a full transcript — which is how VOYGR reaches the businesses that
   have a phone but no API. The Voygr Business Validation API (dev.voygr.tech) returns existence and open/closed status for a business name and address. Both authenticate with an X-API-Key header, share one prepaid credit balance, and issue keys self-serve by email. VOYGR is a Y Combinator (Winter 2026) and SNR.VC backed seed-stage company based in San Francisco, founded by Vlad Baskakov (CEO, ex-Google Maps) and Yarik Markov (CTO, ex-Google/Meta/Apple ML). Its maps API goes beyond the 10-15 standard attributes of existing mapping providers. The location-data products themselves remain demo-gated on voygr.tech, but the calling and validation APIs are documented, priced, and reachable without a sales conversation.
+finops:
+- has_sources: true
+  method: derived
+  name: Voygr Finops
+  primary_unit: ''
+  service_category: ''
+  slug: voygr-finops
+  template: true
 image: https://framerusercontent.com/images/AwhsRnVKsS6stDyzf60Vzj7jew.png
 layout: provider
 modified: '2026-10-06'
 name: VOYGR
 nav: Providers
 network: true
-overview: 'VOYGR publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calls API, Core API, and 1 more. Tagged areas include Company, Location Intelligence, POI Data, Data Enrichment, and Data Validation.
+overview: 'VOYGR publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calls API, Core API, and 1 more. Tagged areas include Company, Location Intelligence, POI, Data Enrichment, and Data Validation.
 
 
   VOYGR''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, pricing, support, and 17 more developer resources.'
@@ -176,29 +186,29 @@ plans:
 - name: Voygr Plans Pricing
   plan_count: 4
   slug: voygr-plans-pricing
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Voygr Rate Limits
   slug: voygr-rate-limits
 score:
-  band: developing
-  composite: 53.5
+  band: strong
+  composite: 54.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 42.6
     developer_ergonomics: 78.6
     discoverability: 66.1
-    operational_transparency: 34.2
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -206,7 +216,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 53.4
+  previous_composite: 54.6
   provenance:
     conformance: derived
     contracts:
@@ -222,13 +232,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/screenshots/voygr-2026-08-17T082827.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/voygr/voygr-2026-08-17T082827.png
 security:
 - kind: authentication
   name: Voygr Authentication
@@ -238,11 +249,15 @@ security:
   name: Voygr Domain Security
   slug: voygr-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: callwright
+  slug: voygr-callwright
 slug: voygr
 tags:
 - Company
 - Location Intelligence
-- POI Data
+- POI
 - Data Enrichment
 - Data Validation
 - Geospatial

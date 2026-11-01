@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.3
-  scored_at: '2026-10-17'
+  score: 43.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 4
@@ -157,7 +159,7 @@ apis:
   description: The Wallet entity holds vaulted & secured payment methods owned by a customer (buyer/payor) that can be used to make payments via Collaborative AR (online Portals, AutoPay, Pay Now), Order Transaction
   name: Versapay Wallets API
   slug: versapay-wallets-api
-artifact_total: 29
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Versapay Webhooks
@@ -171,82 +173,82 @@ collections:
   slug: open-versapay-ecommerce-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/capabilities/versapay-capability-edges.yml
+  href: https://artifacts.apis.io/versapay/capabilities/versapay-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/versapay-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/overlays/versapay-api-reference-overlay.yaml
+  href: https://artifacts.apis.io/versapay/overlays/versapay-api-reference-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/versapay-api-reference-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/overlays/versapay-ecommerce-api-overlay.yaml
+  href: https://artifacts.apis.io/versapay/overlays/versapay-ecommerce-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/versapay-ecommerce-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/agentic-access/versapay-agentic-access.yml
+  href: https://artifacts.apis.io/versapay/agentic-access/versapay-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/versapay-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/security/versapay-domain-security.yml
+  href: https://artifacts.apis.io/versapay/security/versapay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/versapay-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/authentication/versapay-authentication.yml
+  href: https://artifacts.apis.io/versapay/authentication/versapay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/versapay-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/scopes/versapay-scopes.yml
+  href: https://artifacts.apis.io/versapay/scopes/versapay-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/versapay-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/well-known/versapay-well-known.yml
+  href: https://artifacts.apis.io/versapay/well-known/versapay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/versapay-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/mcp/versapay-mcp.yml
+  href: https://artifacts.apis.io/versapay/mcp/versapay-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/versapay-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/llms/versapay-llms.txt
+  href: https://artifacts.apis.io/versapay/llms/versapay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/versapay-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/conventions/versapay-conventions.yml
+  href: https://artifacts.apis.io/versapay/conventions/versapay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/versapay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/errors/versapay-problem-types.yml
+  href: https://artifacts.apis.io/versapay/errors/versapay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/versapay-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/errors/versapay-decline-codes.yml
+  href: https://artifacts.apis.io/versapay/errors/versapay-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/versapay-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/lifecycle/versapay-lifecycle.yml
+  href: https://artifacts.apis.io/versapay/lifecycle/versapay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/versapay-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/lifecycle/versapay-lifecycle.yml
+  href: https://artifacts.apis.io/versapay/lifecycle/versapay-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/versapay-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/conformance/versapay-conformance.yml
+  href: https://artifacts.apis.io/versapay/conformance/versapay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/versapay-conformance.yml
@@ -255,27 +257,27 @@ common:
   type: Compliance
   url: https://versapay.com/security
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/sandbox/versapay-sandbox.yml
+  href: https://artifacts.apis.io/versapay/sandbox/versapay-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/versapay-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/components/versapay-components.yml
+  href: https://artifacts.apis.io/versapay/components/versapay-components.yml
   title: ''
   type: Components
   url: components/versapay-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/data-model/versapay-data-model.yml
+  href: https://artifacts.apis.io/versapay/data-model/versapay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/versapay-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/asyncapi/versapay-webhooks.yml
+  href: https://artifacts.apis.io/versapay/asyncapi/versapay-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/versapay-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/versapay/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -339,7 +341,7 @@ overview: 'Versapay publishes 22 API contracts indexed on the [APIs.io](https://
 
 
   Versapay''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, signup flow, and 27 more developer resources.'
-random_paper: 17
+random_paper: 11
 scopes:
 - name: Versapay Scopes
   scope_count: 5
@@ -347,7 +349,7 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/password
 score:
   band: developing
-  composite: 53.6
+  composite: 49.7
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -355,13 +357,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 54.4
     developer_ergonomics: 49.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -370,7 +372,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 53.5
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -387,13 +389,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/screenshots/versapay-2026-08-17T082740.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/versapay/versapay-2026-08-17T082740.png
 security:
 - kind: authentication
   name: Versapay Authentication
@@ -403,6 +406,14 @@ security:
   name: Versapay Domain Security
   slug: versapay-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Accept a hosted-iframe ecommerce payment
+  slug: versapay-hosted-ecommerce-payment
+- name: Import an invoice and record a payment
+  slug: versapay-invoice-and-collect
+- name: Onboard a merchant for payment acceptance
+  slug: versapay-onboard-merchant
 slug: versapay
 tags:
 - Payments

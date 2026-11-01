@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 10.8
-  scored_at: '2026-10-17'
+  score: 13.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API documentation hosted on Notion, but no machine-readable spec discovered.
@@ -32,17 +34,17 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/backflip-ai/refs/heads/main/well-known/backflip-ai-clarity-security.txt
+  href: https://artifacts.apis.io/backflip-ai/well-known/backflip-ai-clarity-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/backflip-ai-clarity-security.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/backflip-ai/refs/heads/main/vendors/backflip-ai-vendors.yml
+  href: https://artifacts.apis.io/backflip-ai/vendors/backflip-ai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/backflip-ai-vendors.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/backflip-ai/refs/heads/main/plans/backflip-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/backflip-ai/plans/backflip-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/backflip-ai-plans-pricing.yml
@@ -51,22 +53,22 @@ common:
   type: Security
   url: https://clarity.com/vdp
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/backflip-ai/refs/heads/main/well-known/backflip-ai-www-security.txt
+  href: https://artifacts.apis.io/backflip-ai/well-known/backflip-ai-www-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/backflip-ai-www-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/backflip-ai/refs/heads/main/well-known/backflip-ai-docs-security.txt
+  href: https://artifacts.apis.io/backflip-ai/well-known/backflip-ai-docs-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/backflip-ai-docs-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/backflip-ai/refs/heads/main/well-known/backflip-ai-well-known.yml
+  href: https://artifacts.apis.io/backflip-ai/well-known/backflip-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/backflip-ai-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/backflip-ai/refs/heads/main/hosts/backflip-ai-hosts.yml
+  href: https://artifacts.apis.io/backflip-ai/hosts/backflip-ai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/backflip-ai-hosts.yml
@@ -91,12 +93,12 @@ common:
   type: Documentation
   url: https://docs.backflip.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/backflip-ai/refs/heads/main/security/backflip-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/backflip-ai/security/backflip-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/backflip-ai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/backflip-ai/refs/heads/main/security/backflip-ai-domain-security.yml
+  href: https://artifacts.apis.io/backflip-ai/security/backflip-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/backflip-ai-domain-security.yml
@@ -133,13 +135,13 @@ score:
   band: emerging
   composite: 23.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 44.0
     catalog_earned_first_party: 12.0
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 0.0
@@ -147,7 +149,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 10.5
-  previous_composite: 23.3
+  previous_composite: 23.4
   provenance:
     mcp: unknown
   regulatory:
@@ -156,14 +158,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/backflip-ai/refs/heads/main/screenshots/backflip-ai-2026-10-11T101430.png
+screenshot: https://apis.io/screenshots/backflip-ai/backflip-ai-2026-10-11T101430.png
 security:
 - kind: domain-security
   name: Backflip Ai Domain Security

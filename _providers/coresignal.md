@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.7
-  scored_at: '2026-10-17'
+  score: 48.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -105,7 +107,7 @@ arazzos:
 - description: Search the Multi-source Jobs API by filters, then collect the full top-matching job posting.
   name: Coresignal Job Search and Collect
   slug: coresignal-job-search-collect-workflow
-artifact_total: 43
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Coresignal Webhooks
@@ -120,9 +122,6 @@ collections:
 - collection_type: postman
   name: Coresignal Multi-source Jobs API
   slug: postman-coresignal-multi-source-jobs-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Coresignal Multi-source Company Collect API
   slug: open-coresignal-collect-api
@@ -139,18 +138,23 @@ collections:
   name: Coresignal Multi-source Company Collect Search API
   slug: open-coresignal-search-api
 common:
+- group: other
+  href: https://artifacts.apis.io/coresignal/capabilities/coresignal-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/coresignal-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/agentic-access/coresignal-agentic-access.yml
+  href: https://artifacts.apis.io/coresignal/agentic-access/coresignal-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/coresignal-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/security/coresignal-domain-security.yml
+  href: https://artifacts.apis.io/coresignal/security/coresignal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coresignal-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/authentication/coresignal-authentication.yml
+  href: https://artifacts.apis.io/coresignal/authentication/coresignal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coresignal-authentication.yml
@@ -159,47 +163,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/coresignal/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/arazzo/coresignal-company-esdsl-bulk-collect-workflow.yml
+  href: https://artifacts.apis.io/coresignal/arazzo/coresignal-company-esdsl-bulk-collect-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/coresignal-company-esdsl-bulk-collect-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/arazzo/coresignal-company-search-branch-collect-workflow.yml
+  href: https://artifacts.apis.io/coresignal/arazzo/coresignal-company-search-branch-collect-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/coresignal-company-search-branch-collect-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/arazzo/coresignal-company-search-collect-workflow.yml
+  href: https://artifacts.apis.io/coresignal/arazzo/coresignal-company-search-collect-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/coresignal-company-search-collect-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/arazzo/coresignal-company-to-employees-workflow.yml
+  href: https://artifacts.apis.io/coresignal/arazzo/coresignal-company-to-employees-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/coresignal-company-to-employees-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/arazzo/coresignal-company-to-jobs-workflow.yml
+  href: https://artifacts.apis.io/coresignal/arazzo/coresignal-company-to-jobs-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/coresignal-company-to-jobs-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/arazzo/coresignal-employee-esdsl-bulk-collect-workflow.yml
+  href: https://artifacts.apis.io/coresignal/arazzo/coresignal-employee-esdsl-bulk-collect-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/coresignal-employee-esdsl-bulk-collect-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/arazzo/coresignal-employee-search-collect-workflow.yml
+  href: https://artifacts.apis.io/coresignal/arazzo/coresignal-employee-search-collect-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/coresignal-employee-search-collect-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/arazzo/coresignal-job-esdsl-search-collect-workflow.yml
+  href: https://artifacts.apis.io/coresignal/arazzo/coresignal-job-esdsl-search-collect-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/coresignal-job-esdsl-search-collect-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/arazzo/coresignal-job-search-collect-workflow.yml
+  href: https://artifacts.apis.io/coresignal/arazzo/coresignal-job-search-collect-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/coresignal-job-search-collect-workflow.yml
@@ -264,12 +268,12 @@ common:
   type: Blog
   url: https://coresignal.com/blog/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/vocabulary/coresignal-vocabulary.yml
+  href: https://artifacts.apis.io/coresignal/vocabulary/coresignal-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/coresignal-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/json-ld/coresignal-context.jsonld
+  href: https://artifacts.apis.io/coresignal/json-ld/coresignal-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/coresignal-context.jsonld
@@ -298,7 +302,7 @@ common:
   type: LlmsText
   url: https://docs.coresignal.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/llms/coresignal-llms.txt
+  href: https://artifacts.apis.io/coresignal/llms/coresignal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/coresignal-llms.txt
@@ -323,7 +327,7 @@ common:
   type: ChangeLog
   url: https://docs.coresignal.com/release-notes/release-notes
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/changelog/coresignal-changelog.yml
+  href: https://artifacts.apis.io/coresignal/changelog/coresignal-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/coresignal-changelog.yml
@@ -332,127 +336,127 @@ common:
   type: Compliance
   url: https://coresignal.com/data-transparency
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/mcp/coresignal-mcp.yml
+  href: https://artifacts.apis.io/coresignal/mcp/coresignal-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/coresignal-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/mcp/coresignal-tool-crosswalk.yml
+  href: https://artifacts.apis.io/coresignal/mcp/coresignal-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/coresignal-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/well-known/coresignal-well-known.yml
+  href: https://artifacts.apis.io/coresignal/well-known/coresignal-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/coresignal-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/packages/coresignal-packages.yml
+  href: https://artifacts.apis.io/coresignal/packages/coresignal-packages.yml
   title: ''
   type: Packages
   url: packages/coresignal-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/conformance/coresignal-conformance.yml
+  href: https://artifacts.apis.io/coresignal/conformance/coresignal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coresignal-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/errors/coresignal-error-codes.yml
+  href: https://artifacts.apis.io/coresignal/errors/coresignal-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/coresignal-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/lifecycle/coresignal-lifecycle.yml
+  href: https://artifacts.apis.io/coresignal/lifecycle/coresignal-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/coresignal-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/scopes/coresignal-scopes.yml
+  href: https://artifacts.apis.io/coresignal/scopes/coresignal-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/coresignal-scopes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/sandbox/coresignal-sandbox.yml
+  href: https://artifacts.apis.io/coresignal/sandbox/coresignal-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/coresignal-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/conventions/coresignal-conventions.yml
+  href: https://artifacts.apis.io/coresignal/conventions/coresignal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/coresignal-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/data-model/coresignal-data-model.yml
+  href: https://artifacts.apis.io/coresignal/data-model/coresignal-data-model.yml
   title: ''
   type: DataModel
   url: data-model/coresignal-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/asyncapi/coresignal-webhooks.yml
+  href: https://artifacts.apis.io/coresignal/asyncapi/coresignal-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/coresignal-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/coresignal/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/plans/coresignal-plans-pricing.yml
+  href: https://artifacts.apis.io/coresignal/plans/coresignal-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/coresignal-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/rate-limits/coresignal-rate-limits.yml
+  href: https://artifacts.apis.io/coresignal/rate-limits/coresignal-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/coresignal-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/finops/coresignal-finops.yml
+  href: https://artifacts.apis.io/coresignal/finops/coresignal-finops.yml
   title: ''
   type: FinOps
   url: finops/coresignal-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/overlays/coresignal-search-api-overlay.yaml
+  href: https://artifacts.apis.io/coresignal/overlays/coresignal-search-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coresignal-search-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/overlays/coresignal-collect-api-overlay.yaml
+  href: https://artifacts.apis.io/coresignal/overlays/coresignal-collect-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coresignal-collect-api-overlay.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/json-schema/coresignal-company-schema.json
+  href: https://artifacts.apis.io/coresignal/json-schema/coresignal-company-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/coresignal-company-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/json-schema/coresignal-companyfilter-schema.json
+  href: https://artifacts.apis.io/coresignal/json-schema/coresignal-companyfilter-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/coresignal-companyfilter-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/json-schema/coresignal-employee-schema.json
+  href: https://artifacts.apis.io/coresignal/json-schema/coresignal-employee-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/coresignal-employee-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/json-schema/coresignal-employeefilter-schema.json
+  href: https://artifacts.apis.io/coresignal/json-schema/coresignal-employeefilter-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/coresignal-employeefilter-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/json-schema/coresignal-job-schema.json
+  href: https://artifacts.apis.io/coresignal/json-schema/coresignal-job-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/coresignal-job-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/json-schema/coresignal-jobfilter-schema.json
+  href: https://artifacts.apis.io/coresignal/json-schema/coresignal-jobfilter-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/coresignal-jobfilter-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/json-structure/coresignal-structure.json
+  href: https://artifacts.apis.io/coresignal/json-structure/coresignal-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/coresignal-structure.json
@@ -460,10 +464,10 @@ created: '2025-02-12'
 description: Coresignal is a data-as-a-service company providing access to public web data on companies, employees, and jobs through a suite of REST APIs. The platform aggregates and refines more than 4.5 billion data records covering 75M+ companies (with 500+ data fields), 865M+ employee profiles (300+ fields), and 461M+ job postings (85+ fields). Coresignal offers Multi-source, Clean, and Base data tiers across Company, Employee, and Jobs APIs, plus specialized real-time, employee posts, agentic search, and company enrichment endpoints. Authentication uses a single apikey HTTP header.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Coresignal Finops
-  primary_unit: ''
-  service_category: B2B Data API
+  primary_unit: credits
+  service_category: ''
   slug: coresignal-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coresignal.png
@@ -510,11 +514,14 @@ overview: 'Coresignal publishes 4 API contracts indexed on the [APIs.io](https:/
   The Coresignal catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 4 Spectral governance rulesets.
 
 
-  Coresignal''s developer surface includes authentication, documentation, getting-started guide, signup flow, pricing, engineering blog, API reference, and 62 more developer resources.'
+  Coresignal''s developer surface includes authentication, documentation, getting-started guide, signup flow, pricing, engineering blog, API reference, and 63 more developer resources.'
 plans:
 - name: Coresignal Plans Pricing
-  plan_count: 8
+  plan_count: 15
   slug: coresignal-plans-pricing
+- name: Coresignal Price Estimates
+  plan_count: 0
+  slug: coresignal-price-estimates
 random_paper: 7
 rate_limits:
 - limit_count: 9
@@ -575,23 +582,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: exemplar
-  composite: 68.6
+  composite: 74.3
   coverage:
-    artifact_dirs: 35
-    catalog_earned: 81.0
+    artifact_dirs: 36
+    catalog_earned: 84.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 34.0
+    catalog_gap: 31.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 45.5
     contract_quality: 63.0
-    developer_ergonomics: 55.4
-    discoverability: 80.0
-    operational_transparency: 65.8
-  previous_composite: 70.1
+    developer_ergonomics: 67.3
+    discoverability: 76.7
+    operational_transparency: 76.3
+  previous_composite: 72.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -608,13 +615,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/screenshots/coresignal-2026-06-20T175026.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/coresignal/coresignal-2026-06-20T175026.png
 security:
 - kind: authentication
   name: Coresignal Authentication
@@ -624,6 +632,18 @@ security:
   name: Coresignal Domain Security
   slug: coresignal-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Bulk collect Coresignal records at scale
+  slug: coresignal-bulk-collect-at-scale
+- name: Map a company to its workforce and open roles
+  slug: coresignal-company-to-workforce
+- name: Pull Coresignal data from an agent over MCP
+  slug: coresignal-mcp-agent-pulls
+- name: Search and collect Coresignal company records
+  slug: coresignal-search-and-collect-companies
+- name: Track employee profile changes with Coresignal webhooks
+  slug: coresignal-track-employee-changes
 slug: coresignal
 tags:
 - Agentic Search

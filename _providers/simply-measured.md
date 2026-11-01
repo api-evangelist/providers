@@ -19,7 +19,7 @@ name: Simply Measured
 nav: Providers
 network: true
 overview: Simply Measured is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Social Media, Social Analytics, and Marketing.
-random_paper: 7
+random_paper: 9
 slug: simply-measured
 tags:
 - Company

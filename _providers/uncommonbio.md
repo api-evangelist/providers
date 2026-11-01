@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,12 +43,12 @@ common:
   type: Website
   url: https://uncommonbio.co/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uncommonbio/refs/heads/main/llms/uncommonbio-llms.txt
+  href: https://artifacts.apis.io/uncommonbio/llms/uncommonbio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uncommonbio-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uncommonbio/refs/heads/main/security/uncommonbio-domain-security.yml
+  href: https://artifacts.apis.io/uncommonbio/security/uncommonbio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uncommonbio-domain-security.yml
@@ -59,10 +61,10 @@ name: uncommonbio
 nav: Providers
 network: true
 overview: uncommonbio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Nucleic Acid Delivery, and RNA Therapeutics.
-random_paper: 2
+random_paper: 14
 score:
   band: minimal
-  composite: 4.4
+  composite: 3.7
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -76,23 +78,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 4.4
+  previous_composite: 3.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/uncommonbio/refs/heads/main/screenshots/uncommonbio-2026-09-02T164836.png
+screenshot: https://apis.io/screenshots/uncommonbio/uncommonbio-2026-09-02T164836.png
 security:
 - kind: domain-security
   name: Uncommonbio Domain Security

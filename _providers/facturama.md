@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for generating, stamping, downloading, and cancelling CFDI 4.0 electronic invoices, payroll receipts, payment complements, and related Mexican tax documents, plus management of clients, produ
@@ -108,42 +110,42 @@ common:
   type: Postman
   url: https://github.com/Facturama/facturama-postman-sdk
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/facturama/refs/heads/main/packages/facturama-packages.yml
+  href: https://artifacts.apis.io/facturama/packages/facturama-packages.yml
   title: ''
   type: Packages
   url: packages/facturama-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/facturama/refs/heads/main/packages/facturama-packages.yml
+  href: https://artifacts.apis.io/facturama/packages/facturama-packages.yml
   title: ''
   type: SDKs
   url: packages/facturama-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facturama/refs/heads/main/authentication/facturama-authentication.yml
+  href: https://artifacts.apis.io/facturama/authentication/facturama-authentication.yml
   title: ''
   type: Authentication
   url: authentication/facturama-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/facturama/refs/heads/main/sandbox/facturama-sandbox.yml
+  href: https://artifacts.apis.io/facturama/sandbox/facturama-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/facturama-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facturama/refs/heads/main/conventions/facturama-conventions.yml
+  href: https://artifacts.apis.io/facturama/conventions/facturama-conventions.yml
   title: ''
   type: Conventions
   url: conventions/facturama-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facturama/refs/heads/main/conformance/facturama-conformance.yml
+  href: https://artifacts.apis.io/facturama/conformance/facturama-conformance.yml
   title: ''
   type: Conformance
   url: conformance/facturama-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/facturama/refs/heads/main/llms/facturama-llms.txt
+  href: https://artifacts.apis.io/facturama/llms/facturama-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/facturama-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facturama/refs/heads/main/security/facturama-domain-security.yml
+  href: https://artifacts.apis.io/facturama/security/facturama-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/facturama-domain-security.yml
@@ -160,12 +162,12 @@ overview: 'Facturama is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Facturama''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 17 more developer resources.'
-random_paper: 2
+random_paper: 12
 score:
   band: thin
-  composite: 33.9
+  composite: 34.5
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -176,9 +178,9 @@ score:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 2.6
+    developer_ergonomics: 76.2
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -186,7 +188,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 33.9
+  previous_composite: 34.5
   provenance:
     conformance: first-party
   regulatory:
@@ -195,14 +197,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/facturama/refs/heads/main/screenshots/facturama-2026-07-25T214144.png
+screenshot: https://apis.io/screenshots/facturama/facturama-2026-07-25T214144.png
 security:
 - kind: authentication
   name: Facturama Authentication

@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-17'
+  score: 26.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -76,9 +78,6 @@ apis:
 artifact_total: 37
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Nango Actions API
   slug: open-nango-actions-api
 - collection_type: open
@@ -98,17 +97,17 @@ collections:
   slug: open-nango
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/plans/nango-plans-pricing.yml
+  href: https://artifacts.apis.io/nango/plans/nango-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nango-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/rate-limits/nango-rate-limits.yml
+  href: https://artifacts.apis.io/nango/rate-limits/nango-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nango-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/finops/nango-finops.yml
+  href: https://artifacts.apis.io/nango/finops/nango-finops.yml
   title: ''
   type: FinOps
   url: finops/nango-finops.yml
@@ -117,22 +116,22 @@ common:
   type: Website
   url: https://www.nango.dev/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/agentic-access/nango-agentic-access.yml
+  href: https://artifacts.apis.io/nango/agentic-access/nango-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nango-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/security/nango-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nango/security/nango-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nango-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/security/nango-domain-security.yml
+  href: https://artifacts.apis.io/nango/security/nango-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nango-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/authentication/nango-authentication.yml
+  href: https://artifacts.apis.io/nango/authentication/nango-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nango-authentication.yml
@@ -209,10 +208,10 @@ features:
 - Open-source core (MIT license)
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Nango Finops
-  primary_unit: ''
-  service_category: Integrations Platform
+  primary_unit: subscription
+  service_category: ''
   slug: nango-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nango.png
@@ -233,6 +232,9 @@ plans:
 - name: Nango Plans Pricing
   plan_count: 4
   slug: nango-plans-pricing
+- name: Nango Price Estimates
+  plan_count: 0
+  slug: nango-price-estimates
 random_paper: 3
 rate_limits:
 - limit_count: 3
@@ -240,23 +242,23 @@ rate_limits:
   slug: nango-rate-limits
 score:
   band: developing
-  composite: 43.3
+  composite: 50.5
   coverage:
     artifact_dirs: 13
-    catalog_earned: 38.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_earned: 50.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 0.0
-    contract_quality: 46.3
+    contract_quality: 42.9
     developer_ergonomics: 52.4
-    discoverability: 66.7
-    operational_transparency: 44.7
-  previous_composite: 44.8
+    discoverability: 63.3
+    operational_transparency: 55.3
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     contracts:
@@ -271,13 +273,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/screenshots/nango-2026-08-17T083516.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nango/nango-2026-08-17T083516.png
 security:
 - kind: authentication
   name: Nango Authentication

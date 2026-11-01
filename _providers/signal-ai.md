@@ -26,17 +26,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.1
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 45.1
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.signal-ai.com
   baseurl_source: declared
@@ -93,11 +95,8 @@ apis:
   description: 'Organisation administration for the Signal AI API. `GET /users` returns all users in the organisation of the authenticated API credential, and requires a credential carrying the `manage-organisation` '
   name: Signal AI Organisation API
   slug: signal-ai-organisation-api
-artifact_total: 29
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Signal AI Affinity API
   slug: open-signal-ai-affinity-api
@@ -133,7 +132,7 @@ collections:
   slug: open-signal-ai-topics-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/capabilities/signal-ai-capability-edges.yml
+  href: https://artifacts.apis.io/signal-ai/capabilities/signal-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/signal-ai-capability-edges.yml
@@ -142,17 +141,17 @@ common:
   type: Website
   url: https://signal-ai.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/security/signal-ai-domain-security.yml
+  href: https://artifacts.apis.io/signal-ai/security/signal-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/signal-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/authentication/signal-ai-authentication.yml
+  href: https://artifacts.apis.io/signal-ai/authentication/signal-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/signal-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/scopes/signal-ai-scopes.yml
+  href: https://artifacts.apis.io/signal-ai/scopes/signal-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/signal-ai-scopes.yml
@@ -189,82 +188,82 @@ common:
   type: StatusPage
   url: https://signalai.statuspage.io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/llms/signal-ai-llms.txt
+  href: https://artifacts.apis.io/signal-ai/llms/signal-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/signal-ai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/well-known/signal-ai-well-known.yml
+  href: https://artifacts.apis.io/signal-ai/well-known/signal-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/signal-ai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/mcp/signal-ai-mcp.yml
+  href: https://artifacts.apis.io/signal-ai/mcp/signal-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/signal-ai-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/overlays/signal-ai-openapi-overlay.yaml
+  href: https://artifacts.apis.io/signal-ai/overlays/signal-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/signal-ai-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/conformance/signal-ai-conformance.yml
+  href: https://artifacts.apis.io/signal-ai/conformance/signal-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/signal-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/lifecycle/signal-ai-lifecycle.yml
+  href: https://artifacts.apis.io/signal-ai/lifecycle/signal-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/signal-ai-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/lifecycle/signal-ai-lifecycle.yml
+  href: https://artifacts.apis.io/signal-ai/lifecycle/signal-ai-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/signal-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/conventions/signal-ai-conventions.yml
+  href: https://artifacts.apis.io/signal-ai/conventions/signal-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/signal-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/data-model/signal-ai-data-model.yml
+  href: https://artifacts.apis.io/signal-ai/data-model/signal-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/signal-ai-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/signal-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/packages/signal-ai-packages.yml
+  href: https://artifacts.apis.io/signal-ai/packages/signal-ai-packages.yml
   title: ''
   type: Packages
   url: packages/signal-ai-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/errors/signal-ai-problem-types.yml
+  href: https://artifacts.apis.io/signal-ai/errors/signal-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/signal-ai-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/rate-limits/signal-ai-rate-limits.yml
+  href: https://artifacts.apis.io/signal-ai/rate-limits/signal-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/signal-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/plans/signal-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/signal-ai/plans/signal-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/signal-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/changelog/signal-ai-changelog.yml
+  href: https://artifacts.apis.io/signal-ai/changelog/signal-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/signal-ai-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/mcp/signal-ai-tool-crosswalk.yml
+  href: https://artifacts.apis.io/signal-ai/mcp/signal-ai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/signal-ai-tool-crosswalk.yml
@@ -286,6 +285,14 @@ common:
   url: https://github.com/signal-ai/signal-api-tools#getting-started-with-the-signal-ai-api
 created: '2026-07-17'
 description: Signal AI (Signal Media Ltd) is an AI-powered reputation and risk intelligence platform that turns the world's largest real-time dataset of global news, social, broadcast and regulatory content into actionable insight. Its proprietary AIQ framework understands, enriches and surfaces relevant coverage across 226 markets and 120+ languages, ingesting 5.5M+ articles and labelling 100M+ entities and topics daily. The Signal AI API is an HTTP+JSON API offering programmatic access to the platform via Content Search, Content Metrics, Affinity (the Signal AI Knowledge Graph), Events, and Risk Events endpoints, secured with OAuth2 client-credentials.
+finops:
+- has_sources: true
+  method: derived
+  name: Signal Ai Finops
+  primary_unit: ''
+  service_category: ''
+  slug: signal-ai-finops
+  template: true
 image: https://login.signal-ai.com/auth/resources/hlcwe/login/signal/img/apple-touch-icon.png
 layout: provider
 mcp_servers:
@@ -304,7 +311,7 @@ plans:
 - name: Signal Ai Plans Pricing
   plan_count: 0
   slug: signal-ai-plans-pricing
-random_paper: 5
+random_paper: 21
 rate_limits:
 - limit_count: 8
   name: Signal Ai Rate Limits
@@ -316,23 +323,23 @@ scopes:
   summary_line: 7 scopes · clientCredentials
 score:
   band: developing
-  composite: 41.4
+  composite: 51.4
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 46.5
-    developer_ergonomics: 42.3
-    discoverability: 75.0
-    operational_transparency: 73.7
-  previous_composite: 41.3
+    developer_ergonomics: 58.9
+    discoverability: 65.0
+    operational_transparency: 76.3
+  previous_composite: 51.4
   provenance:
     conformance: first-party
     contracts:
@@ -347,14 +354,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 31.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/screenshots/signal-ai-2026-08-17T081853.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/signal-ai/signal-ai-2026-08-17T081853.png
 security:
 - kind: authentication
   name: Signal Ai Authentication
@@ -364,6 +372,14 @@ security:
   name: Signal Ai Domain Security
   slug: signal-ai-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Signal AI knowledge-graph affinity
+  slug: signal-ai-affinity
+- name: Signal AI content search and metrics
+  slug: signal-ai-content-search
+- name: Signal AI events and risk events
+  slug: signal-ai-events
 slug: signal-ai
 tags:
 - Company

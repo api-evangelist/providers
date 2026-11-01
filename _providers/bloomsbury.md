@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -49,22 +51,22 @@ common:
   type: License
   url: https://github.com/bloomsburyai/cape-webservices/blob/master/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomsbury/refs/heads/main/security/bloomsbury-domain-security.yml
+  href: https://artifacts.apis.io/bloomsbury/security/bloomsbury-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bloomsbury-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloomsbury/refs/heads/main/well-known/bloomsbury-well-known.yml
+  href: https://artifacts.apis.io/bloomsbury/well-known/bloomsbury-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bloomsbury-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bloomsbury/refs/heads/main/packages/bloomsbury-packages.yml
+  href: https://artifacts.apis.io/bloomsbury/packages/bloomsbury-packages.yml
   title: ''
   type: Packages
   url: packages/bloomsbury-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bloomsbury/refs/heads/main/packages/bloomsbury-packages.yml
+  href: https://artifacts.apis.io/bloomsbury/packages/bloomsbury-packages.yml
   title: ''
   type: SDKs
   url: packages/bloomsbury-packages.yml
@@ -89,10 +91,10 @@ name: Bloomsbury
 nav: Providers
 network: true
 overview: Bloomsbury is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Natural Language Processing, and Question Answering.
-random_paper: 2
+random_paper: 22
 score:
   band: minimal
-  composite: 5.1
+  composite: 5.5
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -107,7 +109,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -116,21 +118,21 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 5.1
+  previous_composite: 5.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bloomsbury/refs/heads/main/screenshots/bloomsbury-2026-07-25T203411.png
+screenshot: https://apis.io/screenshots/bloomsbury/bloomsbury-2026-07-25T203411.png
 security:
 - kind: domain-security
   name: Bloomsbury Domain Security

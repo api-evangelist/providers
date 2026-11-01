@@ -17,27 +17,27 @@ apis:
 artifact_total: 40
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aiignore/refs/heads/main/plans/aiignore-plans-pricing.yml
+  href: https://artifacts.apis.io/aiignore/plans/aiignore-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aiignore-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aiignore/refs/heads/main/rate-limits/aiignore-rate-limits.yml
+  href: https://artifacts.apis.io/aiignore/rate-limits/aiignore-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aiignore-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aiignore/refs/heads/main/finops/aiignore-finops.yml
+  href: https://artifacts.apis.io/aiignore/finops/aiignore-finops.yml
   title: ''
   type: FinOps
   url: finops/aiignore-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aiignore/refs/heads/main/security/aiignore-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aiignore/security/aiignore-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aiignore-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aiignore/refs/heads/main/security/aiignore-domain-security.yml
+  href: https://artifacts.apis.io/aiignore/security/aiignore-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aiignore-domain-security.yml
@@ -97,7 +97,7 @@ finops:
 - has_sources: false
   method: generated
   name: Aiignore Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: aiignore-finops
   template: true
@@ -164,7 +164,7 @@ plans:
 - name: Aiignore Plans Pricing
   plan_count: 3
   slug: aiignore-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Aiignore Rate Limits
@@ -181,7 +181,7 @@ rules:
     info: 1
     warn: 4
   slug: aiignore-jsonschema-spectral-rules
-screenshot: https://raw.githubusercontent.com/api-evangelist/aiignore/refs/heads/main/screenshots/aiignore-2026-06-20T170859.png
+screenshot: https://apis.io/screenshots/aiignore/aiignore-2026-06-20T170859.png
 security:
 - kind: domain-security
   name: Aiignore Domain Security

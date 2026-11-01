@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.5
-  scored_at: '2026-10-17'
+  score: 20.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -87,11 +89,8 @@ apis:
 - description: Cloud Streaming pushes changing quote and trade fields continuously rather than requiring repeated REST polling, for live market data in servers, web, and mobile apps. QUODD's own developer platform d
   name: QUODD Cloud Streaming API
   slug: quodd-cloud-streaming-api
-artifact_total: 20
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: QUODD Market Data API (Modeled) Authentication API
   slug: open-quodd-authentication-api
@@ -107,17 +106,17 @@ common:
   type: BlogRSS
   url: https://www.quodd.com/insights/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/security/quodd-domain-security.yml
+  href: https://artifacts.apis.io/quodd/security/quodd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quodd-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/agentic-access/quodd-agentic-access.yml
+  href: https://artifacts.apis.io/quodd/agentic-access/quodd-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/quodd-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/authentication/quodd-authentication.yml
+  href: https://artifacts.apis.io/quodd/authentication/quodd-authentication.yml
   title: ''
   type: Authentication
   url: authentication/quodd-authentication.yml
@@ -134,62 +133,62 @@ common:
   type: Documentation
   url: https://developer.quodd.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/plans/quodd-plans-pricing.yml
+  href: https://artifacts.apis.io/quodd/plans/quodd-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/quodd-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/rate-limits/quodd-rate-limits.yml
+  href: https://artifacts.apis.io/quodd/rate-limits/quodd-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/quodd-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/finops/quodd-finops.yml
+  href: https://artifacts.apis.io/quodd/finops/quodd-finops.yml
   title: ''
   type: FinOps
   url: finops/quodd-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/packages/quodd-packages.yml
+  href: https://artifacts.apis.io/quodd/packages/quodd-packages.yml
   title: ''
   type: Packages
   url: packages/quodd-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/mcp/quodd-mcp.yml
+  href: https://artifacts.apis.io/quodd/mcp/quodd-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/quodd-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/llms/quodd-llms.txt
+  href: https://artifacts.apis.io/quodd/llms/quodd-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/quodd-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/conformance/quodd-conformance.yml
+  href: https://artifacts.apis.io/quodd/conformance/quodd-conformance.yml
   title: ''
   type: Conformance
   url: conformance/quodd-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/errors/quodd-problem-types.yml
+  href: https://artifacts.apis.io/quodd/errors/quodd-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/quodd-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/lifecycle/quodd-lifecycle.yml
+  href: https://artifacts.apis.io/quodd/lifecycle/quodd-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/quodd-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/conventions/quodd-conventions.yml
+  href: https://artifacts.apis.io/quodd/conventions/quodd-conventions.yml
   title: ''
   type: Conventions
   url: conventions/quodd-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/data-model/quodd-data-model.yml
+  href: https://artifacts.apis.io/quodd/data-model/quodd-data-model.yml
   title: ''
   type: DataModel
   url: data-model/quodd-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/quodd/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -243,24 +242,24 @@ rate_limits:
   name: Quodd Rate Limits
   slug: quodd-rate-limits
 score:
-  band: thin
-  composite: 36.2
+  band: emerging
+  composite: 24.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 42.0
     catalog_earned_first_party: 0.0
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 4.5
-    contract_quality: 48.4
+    contract_quality: 0.0
     developer_ergonomics: 47.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 43.1
+  previous_composite: 24.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -277,13 +276,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/screenshots/quodd-2026-07-22T202600.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/quodd/quodd-2026-07-22T202600.png
 security:
 - kind: authentication
   name: Quodd Authentication
@@ -293,6 +293,14 @@ security:
   name: Quodd Domain Security
   slug: quodd-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Authenticate and get a pricing snapshot
+  slug: quodd-authenticate-and-snap
+- name: Batch snapshots for equities and options
+  slug: quodd-batch-snapshots
+- name: Stream and query market data over gRPC
+  slug: quodd-grpc-market-data
 slug: quodd
 tags:
 - Market Data

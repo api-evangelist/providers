@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://workflowy.com/api/v1
@@ -47,11 +49,8 @@ apis:
   description: System targets and user-defined shortcuts that point at nodes.
   name: Workflowy Targets API
   slug: workflowy-targets-api
-artifact_total: 8
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Workflowy Nodes API
   slug: open-workflowy-nodes-api
@@ -64,7 +63,7 @@ common:
   type: BlogRSS
   url: https://blog.workflowy.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/overlays/workflowy-api-overlay.yaml
+  href: https://artifacts.apis.io/workflowy/overlays/workflowy-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/workflowy-api-overlay.yaml
@@ -121,72 +120,72 @@ common:
   type: ChangeLog
   url: https://workflowy.com/whats-new/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/changelog/workflowy-changelog.yml
+  href: https://artifacts.apis.io/workflowy/changelog/workflowy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/workflowy-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/mcp/workflowy-mcp.yml
+  href: https://artifacts.apis.io/workflowy/mcp/workflowy-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/workflowy-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/cli/workflowy-cli.yml
+  href: https://artifacts.apis.io/workflowy/cli/workflowy-cli.yml
   title: ''
   type: CLI
   url: cli/workflowy-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/llms/workflowy-llms.txt
+  href: https://artifacts.apis.io/workflowy/llms/workflowy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/workflowy-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/well-known/workflowy-well-known.yml
+  href: https://artifacts.apis.io/workflowy/well-known/workflowy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/workflowy-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/packages/workflowy-packages.yml
+  href: https://artifacts.apis.io/workflowy/packages/workflowy-packages.yml
   title: ''
   type: Packages
   url: packages/workflowy-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/authentication/workflowy-authentication.yml
+  href: https://artifacts.apis.io/workflowy/authentication/workflowy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/workflowy-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/conventions/workflowy-conventions.yml
+  href: https://artifacts.apis.io/workflowy/conventions/workflowy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/workflowy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/errors/workflowy-problem-types.yml
+  href: https://artifacts.apis.io/workflowy/errors/workflowy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/workflowy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/lifecycle/workflowy-lifecycle.yml
+  href: https://artifacts.apis.io/workflowy/lifecycle/workflowy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/workflowy-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/data-model/workflowy-data-model.yml
+  href: https://artifacts.apis.io/workflowy/data-model/workflowy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/workflowy-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/conformance/workflowy-conformance.yml
+  href: https://artifacts.apis.io/workflowy/conformance/workflowy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/workflowy-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/security/workflowy-domain-security.yml
+  href: https://artifacts.apis.io/workflowy/security/workflowy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/workflowy-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/workflowy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -206,10 +205,10 @@ overview: 'Workflowy is listed with 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Workflowy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 0
+random_paper: 4
 score:
   band: thin
-  composite: 34.7
+  composite: 33.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -217,15 +216,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 17.5
+    contract_quality: 14.1
     developer_ergonomics: 56.5
-    discoverability: 75.0
-    operational_transparency: 34.2
-  previous_composite: 35.0
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 33.9
   provenance:
     conformance: derived
     contracts:
@@ -241,13 +240,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/workflowy/refs/heads/main/screenshots/workflowy-2026-08-17T083141.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/workflowy/workflowy-2026-08-17T083141.png
 security:
 - kind: authentication
   name: Workflowy Authentication
@@ -257,6 +257,14 @@ security:
   name: Workflowy Domain Security
   slug: workflowy-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Capture notes and tasks to the Workflowy Inbox
+  slug: workflowy-capture-to-inbox
+- name: Export and rebuild a full Workflowy outline
+  slug: workflowy-export-outline
+- name: Plan and work today's tasks in Workflowy
+  slug: workflowy-plan-today
 slug: workflowy
 tags:
 - Productivity

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -131,12 +133,12 @@ common:
   type: Security
   url: https://www.landisgyr.com/us/en/home/misc/report-security-issue
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/landis-gyr/refs/heads/main/security/landis-gyr-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/landis-gyr/security/landis-gyr-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/landis-gyr-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/landis-gyr/refs/heads/main/security/landis-gyr-domain-security.yml
+  href: https://artifacts.apis.io/landis-gyr/security/landis-gyr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/landis-gyr-domain-security.yml
@@ -145,22 +147,22 @@ common:
   type: Compliance
   url: https://www.landisgyr.com/us/en/home/knowledge.html?types=Certificates&date=date.desc
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landis-gyr/refs/heads/main/conformance/landis-gyr-conformance.yml
+  href: https://artifacts.apis.io/landis-gyr/conformance/landis-gyr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/landis-gyr-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landis-gyr/refs/heads/main/lifecycle/landis-gyr-lifecycle.yml
+  href: https://artifacts.apis.io/landis-gyr/lifecycle/landis-gyr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/landis-gyr-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/landis-gyr/refs/heads/main/packages/landis-gyr-packages.yml
+  href: https://artifacts.apis.io/landis-gyr/packages/landis-gyr-packages.yml
   title: ''
   type: Packages
   url: packages/landis-gyr-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/landis-gyr/refs/heads/main/llms/landis-gyr-llms.txt
+  href: https://artifacts.apis.io/landis-gyr/llms/landis-gyr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/landis-gyr-llms.txt
@@ -194,12 +196,12 @@ overview: 'Landis+Gyr is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Landis+Gyr''s developer surface includes signup flow, developer portal, documentation, training material, support, engineering blog, YouTube channel, and 27 more developer resources.'
-random_paper: 6
+random_paper: 10
 score:
   band: emerging
-  composite: 24.5
+  composite: 23.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -211,7 +213,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 56.3
+    discoverability: 50.0
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -220,7 +222,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 24.5
+  previous_composite: 23.9
   provenance:
     conformance: first-party
   regulatory:
@@ -229,14 +231,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 24.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/landis-gyr/refs/heads/main/screenshots/landis-gyr-2026-08-07T171436.png
+screenshot: https://apis.io/screenshots/landis-gyr/landis-gyr-2026-08-07T171436.png
 security:
 - kind: authentication
   name: Landis Gyr Authentication

@@ -24,25 +24,27 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-10-17'
+  score: 28.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Alloovium's public REST API v2 for document intelligence over construction projects — vault (projects, documents, hybrid search), chat (grounded, cited answers), workflows (automation runs), and templ
   name: Alloovium API
   slug: alloovium-api
-artifact_total: 9
+artifact_total: 12
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/plans/alloovium-plans-pricing.yml
+  href: https://artifacts.apis.io/alloovium/plans/alloovium-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/alloovium-plans-pricing.yml
@@ -71,12 +73,12 @@ common:
   type: GettingStarted
   url: https://www.alloovium.com/en/developers/quickstart
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/changelog/alloovium-changelog.yml
+  href: https://artifacts.apis.io/alloovium/changelog/alloovium-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/alloovium-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/lifecycle/alloovium-lifecycle.yml
+  href: https://artifacts.apis.io/alloovium/lifecycle/alloovium-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alloovium-lifecycle.yml
@@ -101,82 +103,82 @@ common:
   type: Security
   url: https://www.alloovium.com/en/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/security/alloovium-trust-center.yml
+  href: https://artifacts.apis.io/alloovium/security/alloovium-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/alloovium-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/security/alloovium-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/alloovium/security/alloovium-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/alloovium-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/security/alloovium-domain-security.yml
+  href: https://artifacts.apis.io/alloovium/security/alloovium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alloovium-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/authentication/alloovium-authentication.yml
+  href: https://artifacts.apis.io/alloovium/authentication/alloovium-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alloovium-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/scopes/alloovium-scopes.yml
+  href: https://artifacts.apis.io/alloovium/scopes/alloovium-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/alloovium-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/conventions/alloovium-conventions.yml
+  href: https://artifacts.apis.io/alloovium/conventions/alloovium-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alloovium-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/conventions/alloovium-conventions.yml
+  href: https://artifacts.apis.io/alloovium/conventions/alloovium-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/alloovium-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/rate-limits/alloovium-rate-limits.yml
+  href: https://artifacts.apis.io/alloovium/rate-limits/alloovium-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/alloovium-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/errors/alloovium-problem-types.yml
+  href: https://artifacts.apis.io/alloovium/errors/alloovium-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/alloovium-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/conformance/alloovium-conformance.yml
+  href: https://artifacts.apis.io/alloovium/conformance/alloovium-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alloovium-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/data-model/alloovium-data-model.yml
+  href: https://artifacts.apis.io/alloovium/data-model/alloovium-data-model.yml
   title: ''
   type: DataModel
   url: data-model/alloovium-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/sandbox/alloovium-sandbox.yml
+  href: https://artifacts.apis.io/alloovium/sandbox/alloovium-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/alloovium-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/components/alloovium-components.yml
+  href: https://artifacts.apis.io/alloovium/components/alloovium-components.yml
   title: ''
   type: Components
   url: components/alloovium-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/llms/alloovium-llms.txt
+  href: https://artifacts.apis.io/alloovium/llms/alloovium-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alloovium-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/mcp/alloovium-mcp.yml
+  href: https://artifacts.apis.io/alloovium/mcp/alloovium-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/alloovium-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/alloovium/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -200,7 +202,7 @@ plans:
 - name: Alloovium Plans Pricing
   plan_count: 3
   slug: alloovium-plans-pricing
-random_paper: 16
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Alloovium Rate Limits
@@ -211,23 +213,23 @@ scopes:
   slug: alloovium-scopes
   summary_line: 9 scopes · authorizationCode
 score:
-  band: thin
-  composite: 38.7
+  band: developing
+  composite: 49.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.8
+  delta: 0.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 24.0
-    developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 15.8
+    developer_ergonomics: 66.1
+    discoverability: 65.0
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -235,7 +237,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 31.9
+  previous_composite: 49.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -245,15 +247,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+    score: 41.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/screenshots/alloovium-2026-07-25T195710.png
+screenshot: https://apis.io/screenshots/alloovium/alloovium-2026-07-25T195710.png
 security:
 - kind: authentication
   name: Alloovium Authentication
@@ -271,6 +273,14 @@ security:
   name: Alloovium Trust Center
   slug: alloovium-trust-center
   summary_line: SOC 2 Type I, ISO 27001
+skill_count: 3
+skills:
+- name: Ask a cited question across a construction project
+  slug: alloovium-ask-project-documents
+- name: Create a project and add documents
+  slug: alloovium-create-project-and-add-documents
+- name: Run a workflow (Routine) and poll for the result
+  slug: alloovium-run-workflow
 slug: alloovium
 tags:
 - Company

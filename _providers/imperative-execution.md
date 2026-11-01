@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://s3.amazonaws.com/iqx.imperativex.com/
@@ -93,57 +95,57 @@ common:
   type: Profile
   url: https://forgeglobal.com/imperative-execution_stock/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/llms/imperative-execution-llms.txt
+  href: https://artifacts.apis.io/imperative-execution/llms/imperative-execution-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/imperative-execution-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/asyncapi/imperative-execution-iqx-asyncapi.yml
+  href: https://artifacts.apis.io/imperative-execution/asyncapi/imperative-execution-iqx-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/imperative-execution-iqx-asyncapi.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/examples/imperative-execution-iqx-sample-data.yml
+  href: https://artifacts.apis.io/imperative-execution/examples/imperative-execution-iqx-sample-data.yml
   title: ''
   type: Examples
   url: examples/imperative-execution-iqx-sample-data.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/sandbox/imperative-execution-sandbox.yml
+  href: https://artifacts.apis.io/imperative-execution/sandbox/imperative-execution-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/imperative-execution-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/changelog/imperative-execution-changelog.yml
+  href: https://artifacts.apis.io/imperative-execution/changelog/imperative-execution-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/imperative-execution-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/conventions/imperative-execution-conventions.yml
+  href: https://artifacts.apis.io/imperative-execution/conventions/imperative-execution-conventions.yml
   title: ''
   type: Conventions
   url: conventions/imperative-execution-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/authentication/imperative-execution-authentication.yml
+  href: https://artifacts.apis.io/imperative-execution/authentication/imperative-execution-authentication.yml
   title: ''
   type: Authentication
   url: authentication/imperative-execution-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/conformance/imperative-execution-conformance.yml
+  href: https://artifacts.apis.io/imperative-execution/conformance/imperative-execution-conformance.yml
   title: ''
   type: Conformance
   url: conformance/imperative-execution-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/lifecycle/imperative-execution-lifecycle.yml
+  href: https://artifacts.apis.io/imperative-execution/lifecycle/imperative-execution-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/imperative-execution-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/data-model/imperative-execution-data-model.yml
+  href: https://artifacts.apis.io/imperative-execution/data-model/imperative-execution-data-model.yml
   title: ''
   type: DataModel
   url: data-model/imperative-execution-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/security/imperative-execution-domain-security.yml
+  href: https://artifacts.apis.io/imperative-execution/security/imperative-execution-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/imperative-execution-domain-security.yml
@@ -162,10 +164,10 @@ overview: 'Imperative Execution is listed with 2 APIs on the [APIs.io](https://a
 
 
   Imperative Execution''s developer surface includes documentation, API reference, support, engineering blog, code examples, sandbox, changelog, and 14 more developer resources.'
-random_paper: 13
+random_paper: 15
 score:
   band: thin
-  composite: 36.1
+  composite: 35.4
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -179,9 +181,9 @@ score:
     contract_governance: 18.2
     contract_quality: 36.4
     developer_ergonomics: 42.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 36.1
+  previous_composite: 35.4
   provenance:
     conformance: first-party
   regulatory:
@@ -190,14 +192,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 27.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/screenshots/imperative-execution-2026-08-07T170628.png
+screenshot: https://apis.io/screenshots/imperative-execution/imperative-execution-2026-08-07T170628.png
 security:
 - kind: authentication
   name: Imperative Execution Authentication

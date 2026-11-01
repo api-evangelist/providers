@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.9
-  scored_at: '2026-10-17'
+  score: 35.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -61,7 +63,7 @@ arazzos:
 - description: Resolve the KW controlled vocabularies, create a KWLS listing, then read it back to confirm it indexed.
   name: Publish a KW Worldwide listing
   slug: keller-williams-publish-listing
-artifact_total: 11
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Keller Williams Marketplace Webhooks
@@ -72,52 +74,52 @@ collections:
   slug: open-keller-williams-listings-search
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/capabilities/keller-williams-capability-edges.yml
+  href: https://artifacts.apis.io/keller-williams/capabilities/keller-williams-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/keller-williams-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/overlays/keller-williams-listings-search-overlay.yaml
+  href: https://artifacts.apis.io/keller-williams/overlays/keller-williams-listings-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/keller-williams-listings-search-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/mcp/keller-williams-mcp.yml
+  href: https://artifacts.apis.io/keller-williams/mcp/keller-williams-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/keller-williams-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/agentic-access/keller-williams-agentic-access.yml
+  href: https://artifacts.apis.io/keller-williams/agentic-access/keller-williams-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/keller-williams-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/security/keller-williams-domain-security.yml
+  href: https://artifacts.apis.io/keller-williams/security/keller-williams-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/keller-williams-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/authentication/keller-williams-authentication.yml
+  href: https://artifacts.apis.io/keller-williams/authentication/keller-williams-authentication.yml
   title: ''
   type: Authentication
   url: authentication/keller-williams-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/scopes/keller-williams-scopes.yml
+  href: https://artifacts.apis.io/keller-williams/scopes/keller-williams-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/keller-williams-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/conventions/keller-williams-conventions.yml
+  href: https://artifacts.apis.io/keller-williams/conventions/keller-williams-conventions.yml
   title: ''
   type: Conventions
   url: conventions/keller-williams-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/errors/keller-williams-error-codes.yml
+  href: https://artifacts.apis.io/keller-williams/errors/keller-williams-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/keller-williams-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/lifecycle/keller-williams-lifecycle.yml
+  href: https://artifacts.apis.io/keller-williams/lifecycle/keller-williams-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/keller-williams-lifecycle.yml
@@ -130,42 +132,42 @@ common:
   type: Deprecation
   url: https://developer.kw.com/base-path-migration-guide
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/conformance/keller-williams-conformance.yml
+  href: https://artifacts.apis.io/keller-williams/conformance/keller-williams-conformance.yml
   title: ''
   type: Conformance
   url: conformance/keller-williams-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/data-model/keller-williams-data-model.yml
+  href: https://artifacts.apis.io/keller-williams/data-model/keller-williams-data-model.yml
   title: ''
   type: DataModel
   url: data-model/keller-williams-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/packages/keller-williams-packages.yml
+  href: https://artifacts.apis.io/keller-williams/packages/keller-williams-packages.yml
   title: ''
   type: Packages
   url: packages/keller-williams-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/well-known/keller-williams-well-known.yml
+  href: https://artifacts.apis.io/keller-williams/well-known/keller-williams-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/keller-williams-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/asyncapi/keller-williams-marketplace-webhooks.yml
+  href: https://artifacts.apis.io/keller-williams/asyncapi/keller-williams-marketplace-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/keller-williams-marketplace-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/keller-williams/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/arazzo/keller-williams-publish-listing.yml
+  href: https://artifacts.apis.io/keller-williams/arazzo/keller-williams-publish-listing.yml
   title: ''
   type: Arazzo
   url: arazzo/keller-williams-publish-listing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/llms/keller-williams-llms.txt
+  href: https://artifacts.apis.io/keller-williams/llms/keller-williams-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/keller-williams-llms.txt
@@ -257,15 +259,15 @@ overview: 'Keller Williams publishes 3 API contracts indexed on the [APIs.io](ht
 
 
   Keller Williams'' developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, support, product news, and 30 more developer resources.'
-random_paper: 10
+random_paper: 14
 scopes:
 - name: Keller Williams Scopes
   scope_count: 40
   slug: keller-williams-scopes
   summary_line: 40 scopes · authorizationCode/implicit/clientCredentials/tokenExchange/jwtBearer
 score:
-  band: thin
-  composite: 36.0
+  band: developing
+  composite: 49.3
   coverage:
     artifact_dirs: 26
     catalog_earned: 35.0
@@ -273,14 +275,14 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 61.8
-    developer_ergonomics: 19.6
-    discoverability: 74.1
-    operational_transparency: 26.3
+    contract_quality: 58.5
+    developer_ergonomics: 66.1
+    discoverability: 75.0
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -288,7 +290,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 35.9
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,14 +306,15 @@ score:
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 32.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/screenshots/keller-williams-2026-08-07T171117.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/keller-williams/keller-williams-2026-08-07T171117.png
 security:
 - kind: authentication
   name: Keller Williams Authentication
@@ -321,6 +324,16 @@ security:
   name: Keller Williams Domain Security
   slug: keller-williams-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: Authorize a KW partner application with OpenID Connect
+  slug: keller-williams-authorize-partner-app
+- name: Handle KW Marketplace subscription events
+  slug: keller-williams-handle-marketplace-subscriptions
+- name: Create, update and delete a KW Worldwide listing
+  slug: keller-williams-manage-listing
+- name: Search KW Worldwide listings
+  slug: keller-williams-search-listings
 slug: keller-williams
 tags:
 - Real Estate

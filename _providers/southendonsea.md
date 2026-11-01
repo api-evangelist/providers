@@ -9,71 +9,73 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
-    mcp_server: false
+    idempotency: false
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.2
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 23.4
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://southendonsea.city/
   baseurl_source: spec
   description: Current and archived source-linked city observations
   name: SouthendOnSea.city Southend Now API
   slug: southendonsea-southend-now-api
-artifact_total: 7
+artifact_total: 9
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://southendonsea.city/feed.xml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/southendonsea/refs/heads/main/well-known/southendonsea-well-known.yml
+  href: https://artifacts.apis.io/southendonsea/well-known/southendonsea-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/southendonsea-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/southendonsea/refs/heads/main/conformance/southendonsea-conformance.yml
+  href: https://artifacts.apis.io/southendonsea/conformance/southendonsea-conformance.yml
   title: ''
   type: Conformance
   url: conformance/southendonsea-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/southendonsea/refs/heads/main/lifecycle/southendonsea-lifecycle.yml
+  href: https://artifacts.apis.io/southendonsea/lifecycle/southendonsea-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/southendonsea-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/southendonsea/refs/heads/main/authentication/southendonsea-authentication.yml
+  href: https://artifacts.apis.io/southendonsea/authentication/southendonsea-authentication.yml
   title: ''
   type: Authentication
   url: authentication/southendonsea-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/southendonsea/refs/heads/main/conventions/southendonsea-conventions.yml
+  href: https://artifacts.apis.io/southendonsea/conventions/southendonsea-conventions.yml
   title: ''
   type: Conventions
   url: conventions/southendonsea-conventions.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/southendonsea/refs/heads/main/plans/southendonsea-plans-pricing.yml
+  href: https://artifacts.apis.io/southendonsea/plans/southendonsea-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/southendonsea-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/southendonsea/refs/heads/main/rate-limits/southendonsea-rate-limits.yml
+  href: https://artifacts.apis.io/southendonsea/rate-limits/southendonsea-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/southendonsea-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/southendonsea/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/southendonsea/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -82,7 +84,7 @@ common:
   type: Support
   url: https://southendonsea.city/contact
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/southendonsea/refs/heads/main/security/southendonsea-domain-security.yml
+  href: https://artifacts.apis.io/southendonsea/security/southendonsea-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/southendonsea-domain-security.yml
@@ -91,7 +93,7 @@ common:
   type: APIsJSON
   url: https://southendonsea.city/.well-known/apis.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/southendonsea/refs/heads/main/llms/southendonsea-llms.txt
+  href: https://artifacts.apis.io/southendonsea/llms/southendonsea-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/southendonsea-llms.txt
@@ -135,14 +137,14 @@ plans:
 - name: Southendonsea Plans Pricing
   plan_count: 0
   slug: southendonsea-plans-pricing
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Southendonsea Rate Limits
   slug: southendonsea-rate-limits
 score:
   band: thin
-  composite: 30.7
+  composite: 29.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 32.0
@@ -156,9 +158,9 @@ score:
     contract_governance: 4.5
     contract_quality: 43.1
     developer_ergonomics: 35.1
-    discoverability: 64.3
+    discoverability: 56.7
     operational_transparency: 0.0
-  previous_composite: 30.7
+  previous_composite: 29.9
   provenance:
     conformance: derived
     contracts:
@@ -174,14 +176,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/southendonsea/refs/heads/main/screenshots/southendonsea-2026-09-02T160255.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/southendonsea/southendonsea-2026-09-02T160255.png
 security:
 - kind: authentication
   name: Southendonsea Authentication
@@ -191,6 +193,12 @@ security:
   name: Southendonsea Domain Security
   slug: southendonsea-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 2
+skills:
+- name: southend-current-conditions
+  slug: southendonsea-current-conditions
+- name: southend-history-archive
+  slug: southendonsea-history-archive
 slug: southendonsea
 tags:
 - Open Data

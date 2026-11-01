@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.9
-  scored_at: '2026-10-17'
+  score: 30.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 824
   human_in_the_loop: 9
@@ -1598,40 +1600,45 @@ apis:
   description: The Line Items API from Blackbaud — 2 operation(s) for line items.
   name: Blackbaud Line Items API
   slug: blackbaud-line-items-api
-artifact_total: 422
+artifact_total: 424
 common:
+- group: commercial
+  href: https://artifacts.apis.io/blackbaud/plans/blackbaud-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/blackbaud-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/capabilities/blackbaud-capability-edges.yml
+  href: https://artifacts.apis.io/blackbaud/capabilities/blackbaud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/blackbaud-capability-edges.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/integrations/blackbaud-integration-edges.yml
+  href: https://artifacts.apis.io/blackbaud/integrations/blackbaud-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/blackbaud-integration-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/agentic-access/blackbaud-agentic-access.yml
+  href: https://artifacts.apis.io/blackbaud/agentic-access/blackbaud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/blackbaud-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/rules/blackbaud-rules.yml
+  href: https://artifacts.apis.io/blackbaud/rules/blackbaud-rules.yml
   title: ''
   type: Spectral
   url: rules/blackbaud-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/json-ld/blackbaud-context.jsonld
+  href: https://artifacts.apis.io/blackbaud/json-ld/blackbaud-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/blackbaud-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/vocabulary/blackbaud-vocabulary.yml
+  href: https://artifacts.apis.io/blackbaud/vocabulary/blackbaud-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/blackbaud-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/data-model/blackbaud-data-model.yml
+  href: https://artifacts.apis.io/blackbaud/data-model/blackbaud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blackbaud-data-model.yml
@@ -1640,37 +1647,37 @@ common:
   type: Compliance
   url: https://trust.blackbaud.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/errors/blackbaud-problem-types.yml
+  href: https://artifacts.apis.io/blackbaud/errors/blackbaud-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/blackbaud-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/conformance/blackbaud-conformance.yml
+  href: https://artifacts.apis.io/blackbaud/conformance/blackbaud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blackbaud-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/llms/blackbaud-llms.txt
+  href: https://artifacts.apis.io/blackbaud/llms/blackbaud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blackbaud-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/well-known/blackbaud-status-security.txt
+  href: https://artifacts.apis.io/blackbaud/well-known/blackbaud-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/blackbaud-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/well-known/blackbaud-well-known.yml
+  href: https://artifacts.apis.io/blackbaud/well-known/blackbaud-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/blackbaud-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/hosts/blackbaud-hosts.yml
+  href: https://artifacts.apis.io/blackbaud/hosts/blackbaud-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blackbaud-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/vendors/blackbaud-vendors.yml
+  href: https://artifacts.apis.io/blackbaud/vendors/blackbaud-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blackbaud-vendors.yml
@@ -1687,22 +1694,22 @@ common:
   type: Login
   url: https://community.blackbaud.com/entry/signin
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/authentication/blackbaud-authentication.yml
+  href: https://artifacts.apis.io/blackbaud/authentication/blackbaud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blackbaud-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/security/blackbaud-trust-center.yml
+  href: https://artifacts.apis.io/blackbaud/security/blackbaud-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/blackbaud-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/security/blackbaud-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/blackbaud/security/blackbaud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/blackbaud-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackbaud/refs/heads/main/security/blackbaud-domain-security.yml
+  href: https://artifacts.apis.io/blackbaud/security/blackbaud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blackbaud-domain-security.yml
@@ -1772,6 +1779,14 @@ common:
   url: https://www.blackbaud.com/company/terms-of-use
 created: '2026-10-14'
 description: 'Blackbaud is a cloud software company for the social impact sector: nonprofits, foundations, K-12 private schools, higher education, healthcare organizations and corporate social responsibility programs. Its products include Raiser''s Edge NXT (donor CRM), Financial Edge NXT (fund accounting), Blackbaud CRM, Altru (arts and cultural organizations), Education Management, Grantmaking, GrantsConnect, CSRconnect (YourCause) and Blackbaud Merchant Services. Developers build on the SKY API, a REST API platform behind Azure API Management at api.sky.blackbaud.com with 60 published APIs (constituents, gifts, fundraising, events, general ledger, payments, school, OneRoster, webhooks and more), authorized with Blackbaud ID OAuth 2.0 authorization-code flow plus a Bb-Api-Subscription-Key, and listed in the Blackbaud Marketplace.'
+finops:
+- has_sources: true
+  method: derived
+  name: Blackbaud Finops
+  primary_unit: ''
+  service_category: ''
+  slug: blackbaud-finops
+  template: true
 image: https://www.blackbaud.com/favicon.ico
 json_schemas:
 - name: ActionRead
@@ -2093,8 +2108,12 @@ overview: 'Blackbaud publishes 313 API contracts indexed on the [APIs.io](https:
   The Blackbaud catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Blackbaud''s developer surface includes pricing, authentication, API reference, getting-started guide, changelog, documentation, engineering blog, and 31 more developer resources.'
-random_paper: 19
+  Blackbaud''s developer surface includes pricing, authentication, API reference, getting-started guide, changelog, documentation, engineering blog, and 32 more developer resources.'
+plans:
+- name: Blackbaud Plans Pricing
+  plan_count: 0
+  slug: blackbaud-plans-pricing
+random_paper: 9
 rules:
 - authorship: generated
   effective_rule_count: 54
@@ -2114,22 +2133,29 @@ scopes:
   slug: blackbaud-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 54.3
+  band: developing
+  composite: 49.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 65.8
     catalog_earned_first_party: 0.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 22.0
-    contract_quality: 30.2
+    contract_quality: 26.8
     developer_ergonomics: 57.1
-    discoverability: 80.4
+    discoverability: 73.2
     operational_transparency: 47.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2145,11 +2171,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 41.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 38.9
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Blackbaud Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.2
-  scored_at: '2026-10-17'
+  score: 29.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 6
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 519
   slug: verifiable-agentic-access
   summary_line: 519 operations · 264 acting · 6 human-in-the-loop
-api_count: 4
+api_count: 2
 apis:
 - baseURL: https://discovery.verifiable.com/api
   baseurl_source: declared
@@ -210,15 +212,12 @@ apis:
   description: The WorkOsWebhook API from Verifiable — 1 operation(s) for workoswebhook.
   name: Verifiable WorkOsWebhook API
   slug: verifiable-workoswebhook-api
-artifact_total: 72
+artifact_total: 75
 asyncapis:
 - description: ''
   name: Verifiable Webhooks
   slug: verifiable-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Verifiable API Documentation Alerts API
   slug: open-verifiable-alerts-api
@@ -320,7 +319,7 @@ collections:
   slug: open-verifiable-workoswebhook-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/capabilities/verifiable-capability-edges.yml
+  href: https://artifacts.apis.io/verifiable/capabilities/verifiable-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/verifiable-capability-edges.yml
@@ -373,92 +372,92 @@ common:
   type: Security
   url: https://verifiable.com/legal/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/authentication/verifiable-authentication.yml
+  href: https://artifacts.apis.io/verifiable/authentication/verifiable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/verifiable-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/agentic-access/verifiable-agentic-access.yml
+  href: https://artifacts.apis.io/verifiable/agentic-access/verifiable-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/verifiable-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/security/verifiable-domain-security.yml
+  href: https://artifacts.apis.io/verifiable/security/verifiable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/verifiable-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/security/verifiable-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/verifiable/security/verifiable-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/verifiable-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/conventions/verifiable-conventions.yml
+  href: https://artifacts.apis.io/verifiable/conventions/verifiable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/verifiable-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/errors/verifiable-problem-types.yml
+  href: https://artifacts.apis.io/verifiable/errors/verifiable-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/verifiable-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/lifecycle/verifiable-lifecycle.yml
+  href: https://artifacts.apis.io/verifiable/lifecycle/verifiable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/verifiable-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/lifecycle/verifiable-lifecycle.yml
+  href: https://artifacts.apis.io/verifiable/lifecycle/verifiable-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/verifiable-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/changelog/verifiable-changelog.yml
+  href: https://artifacts.apis.io/verifiable/changelog/verifiable-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/verifiable-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/conformance/verifiable-conformance.yml
+  href: https://artifacts.apis.io/verifiable/conformance/verifiable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/verifiable-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/data-model/verifiable-data-model.yml
+  href: https://artifacts.apis.io/verifiable/data-model/verifiable-data-model.yml
   title: ''
   type: DataModel
   url: data-model/verifiable-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/sandbox/verifiable-sandbox.yml
+  href: https://artifacts.apis.io/verifiable/sandbox/verifiable-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/verifiable-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/mcp/verifiable-mcp.yml
+  href: https://artifacts.apis.io/verifiable/mcp/verifiable-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/verifiable-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/asyncapi/verifiable-webhooks.yml
+  href: https://artifacts.apis.io/verifiable/asyncapi/verifiable-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/verifiable-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/verifiable/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/llms/verifiable-llms.txt
+  href: https://artifacts.apis.io/verifiable/llms/verifiable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/verifiable-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/well-known/verifiable-well-known.yml
+  href: https://artifacts.apis.io/verifiable/well-known/verifiable-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/verifiable-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/overlays/verifiable-openapi-overlay.yaml
+  href: https://artifacts.apis.io/verifiable/overlays/verifiable-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/verifiable-openapi-overlay.yaml
@@ -477,26 +476,26 @@ overview: 'Verifiable publishes 33 API contracts indexed on the [APIs.io](https:
 
 
   Verifiable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 24 more developer resources.'
-random_paper: 15
+random_paper: 17
 score:
-  band: strong
-  composite: 56.0
+  band: developing
+  composite: 51.5
   coverage:
     artifact_dirs: 22
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.6
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 58.5
+    contract_quality: 55.3
     developer_ergonomics: 66.1
-    discoverability: 76.7
+    discoverability: 66.1
     operational_transparency: 57.9
-  previous_composite: 55.5
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -513,13 +512,14 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/screenshots/verifiable-2026-08-17T082730.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/verifiable/verifiable-2026-08-17T082730.png
 security:
 - kind: authentication
   name: Verifiable Authentication
@@ -533,6 +533,16 @@ security:
   name: Verifiable Vulnerability Disclosure
   slug: verifiable-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 4
+skills:
+- name: Credential a healthcare provider
+  slug: verifiable-credential-a-provider
+- name: Register and manage event webhooks
+  slug: verifiable-manage-webhooks
+- name: Continuously monitor a provider for sanctions and exclusions
+  slug: verifiable-monitor-sanctions-and-exclusions
+- name: Scan datasets for provider/facility matches
+  slug: verifiable-scan-datasets
 slug: verifiable
 tags:
 - Company

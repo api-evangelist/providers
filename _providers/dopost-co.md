@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.2
-  scored_at: '2026-10-17'
+  score: 41.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Inspect connected social accounts and per-network posting limits.
   name: dopost Social Accounts API
   slug: dopost-co-social-accounts-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: dopost Social Scheduler Media API
   slug: open-dopost-co-media-api
@@ -83,37 +82,37 @@ collections:
   slug: open-dopost
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/plans/dopost-co-plans-pricing.yml
+  href: https://artifacts.apis.io/dopost-co/plans/dopost-co-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dopost-co-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/rate-limits/dopost-co-rate-limits.yml
+  href: https://artifacts.apis.io/dopost-co/rate-limits/dopost-co-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dopost-co-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/finops/dopost-co-finops.yml
+  href: https://artifacts.apis.io/dopost-co/finops/dopost-co-finops.yml
   title: ''
   type: FinOps
   url: finops/dopost-co-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/capabilities/dopost-co-capability-edges.yml
+  href: https://artifacts.apis.io/dopost-co/capabilities/dopost-co-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dopost-co-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/agentic-access/dopost-co-agentic-access.yml
+  href: https://artifacts.apis.io/dopost-co/agentic-access/dopost-co-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dopost-co-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/security/dopost-co-domain-security.yml
+  href: https://artifacts.apis.io/dopost-co/security/dopost-co-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dopost-co-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/authentication/dopost-co-authentication.yml
+  href: https://artifacts.apis.io/dopost-co/authentication/dopost-co-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dopost-co-authentication.yml
@@ -213,7 +212,7 @@ plans:
 - name: Dopost Co Plans Pricing
   plan_count: 3
   slug: dopost-co-plans-pricing
-random_paper: 18
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Dopost Co Rate Limits
@@ -244,7 +243,7 @@ rules:
   slug: dopost-co-rules
 score:
   band: emerging
-  composite: 20.0
+  composite: 20.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 47.5
@@ -252,15 +251,15 @@ score:
     catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 5.4
     developer_ergonomics: 35.7
-    discoverability: 66.7
+    discoverability: 64.3
     operational_transparency: 0.0
-  previous_composite: 25.6
+  previous_composite: 20.5
   provenance:
     agentic_access: derived
     contracts:
@@ -275,13 +274,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/screenshots/dopost-co-2026-06-20T180157.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dopost-co/dopost-co-2026-06-20T180157.png
 security:
 - kind: authentication
   name: Dopost Co Authentication

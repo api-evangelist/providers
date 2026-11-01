@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.7
-  scored_at: '2026-10-17'
+  score: 36.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 17
   slug: realtor-ca-agentic-access
   summary_line: 17 operations · 1 acting
-api_count: 4
+api_count: 2
 apis:
 - description: A fire-and-forget listing-event logging service documented inside the DDF® Web API documentation. Sites and applications displaying DDF® listings call it to record View, Click and email_realtor events
   name: CREA Analytics Web Service
@@ -81,7 +83,7 @@ apis:
   description: Get Properties
   name: REALTOR.ca Property API
   slug: realtor-ca-property-api
-artifact_total: 15
+artifact_total: 18
 collections:
 - collection_type: open
   name: REALTOR.ca DDF® Web API Documentation
@@ -91,32 +93,32 @@ collections:
   slug: open-realtor-ca-ddf-web-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/capabilities/realtor-ca-capability-edges.yml
+  href: https://artifacts.apis.io/realtor-ca/capabilities/realtor-ca-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/realtor-ca-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/overlays/realtor-ca-ddf-web-api-overlay.yaml
+  href: https://artifacts.apis.io/realtor-ca/overlays/realtor-ca-ddf-web-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/realtor-ca-ddf-web-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/overlays/realtor-ca-ddf-web-api-docs-overlay.yaml
+  href: https://artifacts.apis.io/realtor-ca/overlays/realtor-ca-ddf-web-api-docs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/realtor-ca-ddf-web-api-docs-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/skills/realtor-ca-submit-realtor-lead.md
+  href: https://artifacts.apis.io/realtor-ca/skills/realtor-ca-submit-realtor-lead.md
   title: ''
   type: AgentSkill
   url: skills/realtor-ca-submit-realtor-lead.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/agentic-access/realtor-ca-agentic-access.yml
+  href: https://artifacts.apis.io/realtor-ca/agentic-access/realtor-ca-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/realtor-ca-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/security/realtor-ca-domain-security.yml
+  href: https://artifacts.apis.io/realtor-ca/security/realtor-ca-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/realtor-ca-domain-security.yml
@@ -181,67 +183,67 @@ common:
   type: ChangeLog
   url: https://ddfapi-docs.realtor.ca/releasenotes
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/changelog/realtor-ca-changelog.yml
+  href: https://artifacts.apis.io/realtor-ca/changelog/realtor-ca-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/realtor-ca-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/authentication/realtor-ca-authentication.yml
+  href: https://artifacts.apis.io/realtor-ca/authentication/realtor-ca-authentication.yml
   title: ''
   type: Authentication
   url: authentication/realtor-ca-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/authentication/realtor-ca-crea-identity-openid-configuration.json
+  href: https://artifacts.apis.io/realtor-ca/authentication/realtor-ca-crea-identity-openid-configuration.json
   title: ''
   type: Authentication
   url: authentication/realtor-ca-crea-identity-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/authentication/realtor-ca-auth0-openid-configuration.json
+  href: https://artifacts.apis.io/realtor-ca/authentication/realtor-ca-auth0-openid-configuration.json
   title: ''
   type: Authentication
   url: authentication/realtor-ca-auth0-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/scopes/realtor-ca-scopes.yml
+  href: https://artifacts.apis.io/realtor-ca/scopes/realtor-ca-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/realtor-ca-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/conventions/realtor-ca-conventions.yml
+  href: https://artifacts.apis.io/realtor-ca/conventions/realtor-ca-conventions.yml
   title: ''
   type: Conventions
   url: conventions/realtor-ca-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/errors/realtor-ca-problem-types.yml
+  href: https://artifacts.apis.io/realtor-ca/errors/realtor-ca-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/realtor-ca-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/lifecycle/realtor-ca-lifecycle.yml
+  href: https://artifacts.apis.io/realtor-ca/lifecycle/realtor-ca-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/realtor-ca-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/conformance/realtor-ca-conformance.yml
+  href: https://artifacts.apis.io/realtor-ca/conformance/realtor-ca-conformance.yml
   title: ''
   type: Conformance
   url: conformance/realtor-ca-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/data-model/realtor-ca-data-model.yml
+  href: https://artifacts.apis.io/realtor-ca/data-model/realtor-ca-data-model.yml
   title: ''
   type: DataModel
   url: data-model/realtor-ca-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/packages/realtor-ca-packages.yml
+  href: https://artifacts.apis.io/realtor-ca/packages/realtor-ca-packages.yml
   title: ''
   type: Packages
   url: packages/realtor-ca-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/well-known/realtor-ca-well-known.yml
+  href: https://artifacts.apis.io/realtor-ca/well-known/realtor-ca-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/realtor-ca-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/well-known/realtor-ca-security.txt
+  href: https://artifacts.apis.io/realtor-ca/well-known/realtor-ca-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/realtor-ca-security.txt
@@ -250,22 +252,22 @@ common:
   type: Security
   url: https://www.crea.ca/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/security/realtor-ca-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/realtor-ca/security/realtor-ca-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/realtor-ca-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/mcp/realtor-ca-mcp.yml
+  href: https://artifacts.apis.io/realtor-ca/mcp/realtor-ca-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/realtor-ca-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/realtor-ca/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/llms/realtor-ca-llms.txt
+  href: https://artifacts.apis.io/realtor-ca/llms/realtor-ca-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/realtor-ca-llms.txt
@@ -290,7 +292,7 @@ overview: 'REALTOR.ca publishes 8 API contracts indexed on the [APIs.io](https:/
 
 
   REALTOR.ca''s developer surface includes documentation, API reference, getting-started guide, legal docs, support, engineering blog, changelog, and 34 more developer resources.'
-random_paper: 12
+random_paper: 18
 scopes:
 - name: Realtor Ca Scopes
   scope_count: 5
@@ -298,21 +300,21 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: thin
-  composite: 38.8
+  composite: 38.3
   coverage:
     artifact_dirs: 23
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 42.0
+    contract_quality: 39.3
     developer_ergonomics: 49.4
-    discoverability: 71.4
+    discoverability: 66.1
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -321,7 +323,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 38.2
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,13 +340,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/screenshots/realtor-ca-2026-09-02T153017.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/realtor-ca/realtor-ca-2026-09-02T153017.png
 security:
 - kind: authentication
   name: Realtor Ca Authentication
@@ -358,6 +361,14 @@ security:
   name: Realtor Ca Vulnerability Disclosure
   slug: realtor-ca-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 3
+skills:
+- name: Authenticate and query REALTOR.ca DDF listings
+  slug: realtor-ca-authenticate-and-query-listings
+- name: Replicate REALTOR.ca DDF listing data into your own database
+  slug: realtor-ca-replicate-listing-data
+- name: Submit an Email REALTOR lead through the DDF Lead API
+  slug: realtor-ca-submit-realtor-lead
 slug: realtor-ca
 tags:
 - Real Estate

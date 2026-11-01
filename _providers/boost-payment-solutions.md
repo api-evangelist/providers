@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/boost-payment-solutions/refs/heads/main/hosts/boost-payment-solutions-hosts.yml
+  href: https://artifacts.apis.io/boost-payment-solutions/hosts/boost-payment-solutions-hosts.yml
   title: ''
   type: Hosts
   url: hosts/boost-payment-solutions-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/boost-payment-solutions/refs/heads/main/vendors/boost-payment-solutions-vendors.yml
+  href: https://artifacts.apis.io/boost-payment-solutions/vendors/boost-payment-solutions-vendors.yml
   title: ''
   type: Vendors
   url: vendors/boost-payment-solutions-vendors.yml
@@ -42,7 +44,7 @@ common:
   type: Newsroom
   url: https://www.boostb2b.com/newsroom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boost-payment-solutions/refs/heads/main/security/boost-payment-solutions-domain-security.yml
+  href: https://artifacts.apis.io/boost-payment-solutions/security/boost-payment-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/boost-payment-solutions-domain-security.yml
@@ -85,11 +87,11 @@ modified: '2026-10-02'
 name: Boost Payment Solutions
 nav: Providers
 network: true
-overview: 'Boost Payment Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, B2B, and CommercialCards.
+overview: 'Boost Payment Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, B2B, and Commercial Cards.
 
 
   Boost Payment Solutions'' developer surface includes documentation, engineering blog, support, and 7 more developer resources.'
-random_paper: 17
+random_paper: 15
 score:
   band: emerging
   composite: 11.1
@@ -117,8 +119,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
@@ -135,6 +137,6 @@ tags:
 - Payments
 - Fintech
 - B2B
-- CommercialCards
+- Commercial Cards
 website: https://www.boostb2b.com/
 ---

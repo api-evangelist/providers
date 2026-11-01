@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/caleres/refs/heads/main/security/caleres-domain-security.yml
+  href: https://artifacts.apis.io/caleres/security/caleres-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/caleres-domain-security.yml
@@ -90,7 +92,7 @@ press:
 - date: ''
   title: Caleres Q4 net sales rise 8.7% to USD 695.06 million, Brand ...
   url: https://www.sahmcapital.com/news/content/caleres-q4-net-sales-rise-87-to-usd-69506-million-brand-portfolio-sales-jump-203-to-usd-36125-million-2026-03-19
-random_paper: 9
+random_paper: 15
 score:
   band: minimal
   composite: 3.4
@@ -123,14 +125,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/caleres/refs/heads/main/screenshots/caleres-2026-06-20T173844.png
+screenshot: https://apis.io/screenshots/caleres/caleres-2026-06-20T173844.png
 security:
 - kind: domain-security
   name: Caleres Domain Security

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,22 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/family-dollar-stores/refs/heads/main/plans/family-dollar-stores-plans-pricing.yml
+  href: https://artifacts.apis.io/family-dollar-stores/plans/family-dollar-stores-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/family-dollar-stores-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/family-dollar-stores/refs/heads/main/rate-limits/family-dollar-stores-rate-limits.yml
+  href: https://artifacts.apis.io/family-dollar-stores/rate-limits/family-dollar-stores-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/family-dollar-stores-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/family-dollar-stores/refs/heads/main/security/family-dollar-stores-domain-security.yml
+  href: https://artifacts.apis.io/family-dollar-stores/security/family-dollar-stores-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/family-dollar-stores-domain-security.yml
@@ -108,7 +110,7 @@ common:
   type: Support
   url: https://www.familydollar.com/faq-general
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/family-dollar-stores/refs/heads/main/llms/family-dollar-stores-llms.txt
+  href: https://artifacts.apis.io/family-dollar-stores/llms/family-dollar-stores-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/family-dollar-stores-llms.txt
@@ -160,14 +162,14 @@ press:
 - date: ''
   title: Why is Dollar Tree sign removed from Family Dollar?
   url: https://www.facebook.com/groups/615443083940178/posts/1194301942720953/
-random_paper: 18
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Family Dollar Stores Rate Limits
   slug: family-dollar-stores-rate-limits
 score:
   band: minimal
-  composite: 10.9
+  composite: 10.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 27.0
@@ -181,8 +183,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 56.3
-    operational_transparency: 2.6
+    discoverability: 50.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -190,21 +192,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 10.9
+  previous_composite: 10.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/family-dollar-stores/refs/heads/main/screenshots/family-dollar-stores-2026-06-20T181033.png
+screenshot: https://apis.io/screenshots/family-dollar-stores/family-dollar-stores-2026-06-20T181033.png
 security:
 - kind: domain-security
   name: Family Dollar Stores Domain Security

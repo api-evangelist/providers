@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,11 +56,8 @@ apis:
   description: SignalR operations
   name: Azure SignalR Service SignalR API
   slug: microsoft-azure-signalr-signalr-api
-artifact_total: 13
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure SignalR Service REST Operations API
   slug: open-microsoft-azure-signalr-operations-api
@@ -70,17 +69,17 @@ collections:
   slug: open-microsoft-azure-signalr
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/rate-limits/microsoft-azure-signalr-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-azure-signalr/rate-limits/microsoft-azure-signalr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-azure-signalr-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/finops/microsoft-azure-signalr-finops.yml
+  href: https://artifacts.apis.io/microsoft-azure-signalr/finops/microsoft-azure-signalr-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-azure-signalr-finops.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/plans/microsoft-azure-signalr-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-azure-signalr/plans/microsoft-azure-signalr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-azure-signalr-plans-pricing.yml
@@ -89,27 +88,27 @@ common:
   type: Website
   url: https://microsoft.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/capabilities/microsoft-azure-signalr-capability-edges.yml
+  href: https://artifacts.apis.io/microsoft-azure-signalr/capabilities/microsoft-azure-signalr-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-azure-signalr-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/agentic-access/microsoft-azure-signalr-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-azure-signalr/agentic-access/microsoft-azure-signalr-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-signalr-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/security/microsoft-azure-signalr-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-azure-signalr/security/microsoft-azure-signalr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-signalr-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/authentication/microsoft-azure-signalr-authentication.yml
+  href: https://artifacts.apis.io/microsoft-azure-signalr/authentication/microsoft-azure-signalr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-signalr-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/scopes/microsoft-azure-signalr-scopes.yml
+  href: https://artifacts.apis.io/microsoft-azure-signalr/scopes/microsoft-azure-signalr-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-signalr-scopes.yml
@@ -164,11 +163,11 @@ common:
 created: '2026-03-13'
 description: Azure SignalR Service REST API enables management of real-time web communication services. It supports creating SignalR instances, managing connections, sending messages to clients and groups, and configuring upstream endpoints for serverless real-time messaging.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Microsoft Azure Signalr Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: microsoft-azure-signalr-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-signalr.png
@@ -185,7 +184,7 @@ plans:
 - name: Microsoft Azure Signalr Plans Pricing
   plan_count: 3
   slug: microsoft-azure-signalr-plans-pricing
-random_paper: 21
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Signalr Rate Limits
@@ -197,7 +196,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 48.5
+  composite: 47.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 52.0
@@ -205,15 +204,15 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 44.1
-    developer_ergonomics: 48.8
+    developer_ergonomics: 50.0
     discoverability: 80.4
-    operational_transparency: 26.3
-  previous_composite: 50.0
+    operational_transparency: 28.9
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -227,13 +226,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/screenshots/microsoft-azure-signalr-2026-06-20T185437.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-azure-signalr/microsoft-azure-signalr-2026-06-20T185437.png
 security:
 - kind: authentication
   name: Microsoft Azure Signalr Authentication

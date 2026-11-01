@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.1
-  scored_at: '2026-10-17'
+  score: 29.5
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Credit-metered Identification endpoints that convert anonymous web signals (IP addresses) into business identifiers — POST /ip_to_company, POST /ip_to_hem (hashed email, ranked by confidence) and POST
@@ -49,7 +51,7 @@ apis:
 - description: 'The RB2B JavaScript pixel installed in a site header (or via Google Tag Manager / Segment / RudderStack / Shopify / Webflow / WordPress / HubSpot CMS / Wix / Next.js / React / Angular) is the primary '
   name: RB2B Pixel and Destination Webhooks
   slug: rb2b-pixel-webhooks
-artifact_total: 12
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Rb2B Webhooks
@@ -132,67 +134,67 @@ common:
   type: Instagram
   url: https://www.instagram.com/retentiondotcom/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/llms/rb2b-llms.txt
+  href: https://artifacts.apis.io/rb2b/llms/rb2b-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rb2b-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/mcp/rb2b-mcp.yml
+  href: https://artifacts.apis.io/rb2b/mcp/rb2b-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/rb2b-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/mcp/rb2b-tool-crosswalk.yml
+  href: https://artifacts.apis.io/rb2b/mcp/rb2b-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/rb2b-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/packages/rb2b-packages.yml
+  href: https://artifacts.apis.io/rb2b/packages/rb2b-packages.yml
   title: ''
   type: Packages
   url: packages/rb2b-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/packages/rb2b-packages.yml
+  href: https://artifacts.apis.io/rb2b/packages/rb2b-packages.yml
   title: ''
   type: SDKs
   url: packages/rb2b-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/cli/rb2b-cli.yml
+  href: https://artifacts.apis.io/rb2b/cli/rb2b-cli.yml
   title: ''
   type: CLI
   url: cli/rb2b-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/authentication/rb2b-authentication.yml
+  href: https://artifacts.apis.io/rb2b/authentication/rb2b-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rb2b-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/errors/rb2b-error-codes.yml
+  href: https://artifacts.apis.io/rb2b/errors/rb2b-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/rb2b-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/conventions/rb2b-conventions.yml
+  href: https://artifacts.apis.io/rb2b/conventions/rb2b-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rb2b-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/rate-limits/rb2b-rate-limits.yml
+  href: https://artifacts.apis.io/rb2b/rate-limits/rb2b-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rb2b-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/plans/rb2b-plans-pricing.yml
+  href: https://artifacts.apis.io/rb2b/plans/rb2b-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rb2b-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/lifecycle/rb2b-lifecycle.yml
+  href: https://artifacts.apis.io/rb2b/lifecycle/rb2b-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rb2b-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/changelog/rb2b-changelog.yml
+  href: https://artifacts.apis.io/rb2b/changelog/rb2b-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rb2b-changelog.yml
@@ -201,48 +203,56 @@ common:
   type: ChangeLog
   url: https://support.rb2b.com/en/articles/10442291-changelog
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/conformance/rb2b-conformance.yml
+  href: https://artifacts.apis.io/rb2b/conformance/rb2b-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rb2b-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/conformance/rb2b-conformance.yml
+  href: https://artifacts.apis.io/rb2b/conformance/rb2b-conformance.yml
   title: ''
   type: Compliance
   url: conformance/rb2b-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/asyncapi/rb2b-webhooks.yml
+  href: https://artifacts.apis.io/rb2b/asyncapi/rb2b-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/rb2b-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/components/rb2b-components.yml
+  href: https://artifacts.apis.io/rb2b/components/rb2b-components.yml
   title: ''
   type: Components
   url: components/rb2b-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/data-model/rb2b-data-model.yml
+  href: https://artifacts.apis.io/rb2b/data-model/rb2b-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rb2b-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rb2b/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/security/rb2b-trust-center.yml
+  href: https://artifacts.apis.io/rb2b/security/rb2b-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rb2b-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/security/rb2b-domain-security.yml
+  href: https://artifacts.apis.io/rb2b/security/rb2b-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rb2b-domain-security.yml
 created: '2026-05-25'
 description: RB2B is a US-focused B2B website visitor identification platform that resolves anonymous web traffic into person-level leads — names, LinkedIn profiles, hashed and plaintext business emails, mobile ad IDs, and full business profiles — and pushes them to sales, marketing, and ad-tech systems. The product is delivered as a JavaScript pixel plus a knowledge- base and pipeline of 50+ destination integrations (Slack, Microsoft Teams, Salesforce, HubSpot, Clay, Zapier, Apollo, Customer.io, Demandbase, and others), with global company-level identification and US-only person- level resolution. RB2B operates a separate API Partner Program at api.rb2b.com/api/v1 that exposes credit-metered Identification endpoints (IP → Company, IP → HEM, IP → MAID) and Enrichment endpoints (HEM/Email → LinkedIn, HEM/Email → Business Profile, HEM/Email → MAID, LinkedIn → Hashed Emails, LinkedIn → Personal Email, LinkedIn → Mobile Phone, LinkedIn → Business Profile) for SaaS developers, GTM engineers,
   retailers, and ad-tech platforms that want to embed identity resolution into their own apps and identity graphs. A separate OEM Partner API at app.rb2b.com/api/v1 manages authorized domains and credit usage for partners embedding RB2B in their own products. RB2B publishes no OpenAPI; the only machine-readable description of its API is its own first-party MCP server, @rb2b/rb2b-apis-mcp, which exposes 19 tools over the same endpoints. The platform is SOC 2 Type 2 certified and CCPA compliant.
+finops:
+- has_sources: true
+  method: derived
+  name: Rb2B Finops
+  primary_unit: up to 5 domains
+  service_category: ''
+  slug: rb2b-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rb2b.png
 layout: provider
 mcp_servers:
@@ -265,32 +275,35 @@ overview: 'RB2B is listed with 4 APIs on the [APIs.io](https://apis.io/) network
   RB2B''s developer surface includes documentation, support, getting-started guide, engineering blog, pricing, signup flow, CLI, and 34 more developer resources.'
 plans:
 - name: Rb2B Plans Pricing
-  plan_count: 5
+  plan_count: 6
   slug: rb2b-plans-pricing
-random_paper: 8
+- name: Rb2B Price Estimates
+  plan_count: 0
+  slug: rb2b-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Rb2B Rate Limits
   slug: rb2b-rate-limits
 score:
   band: strong
-  composite: 59.4
+  composite: 61.5
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 60.0
+    artifact_dirs: 22
+    catalog_earned: 63.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 66.1
-    discoverability: 78.6
-    operational_transparency: 44.7
-  previous_composite: 59.3
+    discoverability: 70.0
+    operational_transparency: 55.3
+  previous_composite: 59.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -307,14 +320,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/screenshots/rb2b-2026-06-20T192625.png
+screenshot: https://apis.io/screenshots/rb2b/rb2b-2026-06-20T192625.png
 security:
 - kind: authentication
   name: Rb2B Authentication
@@ -328,6 +341,12 @@ security:
   name: Rb2B Trust Center
   slug: rb2b-trust-center
   summary_line: SOC 2 Type 2, CCPA, GDPR
+skill_count: 2
+skills:
+- name: Authorize an OEM domain and receive visitor webhooks
+  slug: rb2b-oem-domain-and-webhook-setup
+- name: Resolve an anonymous visitor to a named person
+  slug: rb2b-resolve-visitor-identity
 slug: rb2b
 tags:
 - Identity Resolution

@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-17'
+  score: 23.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -38,65 +40,65 @@ apis:
   description: Run deployed CodeWords services and fetch results.
   name: Agemo Workflows API
   slug: codewords-workflows-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/codewords/refs/heads/main/agentic-access/codewords-agentic-access.yml
+  href: https://artifacts.apis.io/codewords/agentic-access/codewords-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/codewords-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/codewords/refs/heads/main/plans/codewords-plans-pricing.yml
+  href: https://artifacts.apis.io/codewords/plans/codewords-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/codewords-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codewords/refs/heads/main/rules/codewords-rules.yml
+  href: https://artifacts.apis.io/codewords/rules/codewords-rules.yml
   title: ''
   type: Spectral
   url: rules/codewords-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codewords/refs/heads/main/vocabulary/codewords-vocabulary.yml
+  href: https://artifacts.apis.io/codewords/vocabulary/codewords-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/codewords-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/codewords/refs/heads/main/changelog/codewords-changelog.yml
+  href: https://artifacts.apis.io/codewords/changelog/codewords-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/codewords-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codewords/refs/heads/main/errors/codewords-problem-types.yml
+  href: https://artifacts.apis.io/codewords/errors/codewords-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/codewords-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codewords/refs/heads/main/conformance/codewords-conformance.yml
+  href: https://artifacts.apis.io/codewords/conformance/codewords-conformance.yml
   title: ''
   type: Conformance
   url: conformance/codewords-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/codewords/refs/heads/main/llms/codewords-llms.txt
+  href: https://artifacts.apis.io/codewords/llms/codewords-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/codewords-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/codewords/refs/heads/main/well-known/codewords-chatgpt-security.txt
+  href: https://artifacts.apis.io/codewords/well-known/codewords-chatgpt-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/codewords-chatgpt-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/codewords/refs/heads/main/well-known/codewords-well-known.yml
+  href: https://artifacts.apis.io/codewords/well-known/codewords-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/codewords-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/codewords/refs/heads/main/hosts/codewords-hosts.yml
+  href: https://artifacts.apis.io/codewords/hosts/codewords-hosts.yml
   title: ''
   type: Hosts
   url: hosts/codewords-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/codewords/refs/heads/main/vendors/codewords-vendors.yml
+  href: https://artifacts.apis.io/codewords/vendors/codewords-vendors.yml
   title: ''
   type: Vendors
   url: vendors/codewords-vendors.yml
@@ -113,7 +115,7 @@ common:
   type: APIReference
   url: https://www.codewords.ai/developers
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/codewords/refs/heads/main/security/codewords-domain-security.yml
+  href: https://artifacts.apis.io/codewords/security/codewords-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/codewords-domain-security.yml
@@ -147,6 +149,14 @@ common:
   url: https://www.codewords.ai/support
 created: '2026-10-16'
 description: Agemo, operating under the brand CodeWords, provides AI‑driven workflow automation that lets users describe processes in natural language and instantly generate live WhatsApp and other tool integrations. The platform offers a visual UI, templates, and a marketplace of agents powered by Claude, ChatGPT, or Cursor, targeting businesses seeking to streamline repetitive tasks without building code. It emphasizes ease of use, rapid deployment, and extensibility through a growing ecosystem of connectors and custom agents.
+finops:
+- has_sources: true
+  method: derived
+  name: Codewords Finops
+  primary_unit: seat
+  service_category: ''
+  slug: codewords-finops
+  template: false
 image: https://www.codewords.ai/assets/cdn.prod.website-files.com/6946a9915525f9a896b45f44/69e8f4a48b849d5aa136d146_thumbnail-preview-2.png
 layout: provider
 modified: '2026-10-16'
@@ -164,7 +174,10 @@ plans:
 - name: Codewords Plans Pricing
   plan_count: 3
   slug: codewords-plans-pricing
-random_paper: 2
+- name: Codewords Price Estimates
+  plan_count: 0
+  slug: codewords-price-estimates
+random_paper: 10
 rules:
 - authorship: generated
   effective_rule_count: 57
@@ -180,21 +193,23 @@ rules:
   slug: codewords-rules
 score:
   band: developing
-  composite: 44.3
+  composite: 45.9
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 54.8
+    artifact_dirs: 15
+    catalog_earned: 57.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 71.1
     contract_governance: 35.6
     contract_quality: 49.0
     developer_ergonomics: 23.8
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 26.3
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -210,11 +225,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Codewords Domain Security

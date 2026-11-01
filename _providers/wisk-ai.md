@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,11 +53,8 @@ apis:
   description: Push point-of-sale sales line items into a WISK venue account.
   name: WISK Sales API
   slug: wisk-ai-sales-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: WISK Public Upload Sales API
   slug: open-wisk-ai-sales-api
@@ -67,7 +66,7 @@ collections:
   slug: open-wisk-ai
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/security/wisk-ai-domain-security.yml
+  href: https://artifacts.apis.io/wisk-ai/security/wisk-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wisk-ai-domain-security.yml
@@ -84,27 +83,27 @@ common:
   type: Documentation
   url: https://help.wisk.ai/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/plans/wisk-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/wisk-ai/plans/wisk-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wisk-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/rate-limits/wisk-ai-rate-limits.yml
+  href: https://artifacts.apis.io/wisk-ai/rate-limits/wisk-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wisk-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/finops/wisk-ai-finops.yml
+  href: https://artifacts.apis.io/wisk-ai/finops/wisk-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/wisk-ai-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/agentic-access/wisk-ai-agentic-access.yml
+  href: https://artifacts.apis.io/wisk-ai/agentic-access/wisk-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wisk-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/authentication/wisk-ai-authentication.yml
+  href: https://artifacts.apis.io/wisk-ai/authentication/wisk-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wisk-ai-authentication.yml
@@ -133,12 +132,12 @@ common:
   type: X
   url: https://twitter.com/WISK_ai
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/rules/wisk-ai-spectral-rules.yml
+  href: https://artifacts.apis.io/wisk-ai/rules/wisk-ai-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/wisk-ai-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/vocabulary/wisk-ai-vocabulary.yaml
+  href: https://artifacts.apis.io/wisk-ai/vocabulary/wisk-ai-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/wisk-ai-vocabulary.yaml
@@ -200,7 +199,7 @@ plans:
 - name: Wisk Ai Plans Pricing
   plan_count: 5
   slug: wisk-ai-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Wisk Ai Rate Limits
@@ -230,8 +229,8 @@ rules:
     warn: 18
   slug: wisk-ai-spectral-rules
 score:
-  band: emerging
-  composite: 24.4
+  band: thin
+  composite: 26.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 51.0
@@ -239,15 +238,15 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 31.6
     contract_governance: 27.3
     contract_quality: 18.0
     developer_ergonomics: 28.6
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 31.8
+  previous_composite: 26.5
   provenance:
     agentic_access: derived
     contracts:
@@ -261,13 +260,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/screenshots/wisk-ai-2026-06-20T201524.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wisk-ai/wisk-ai-2026-06-20T201524.png
 security:
 - kind: authentication
   name: Wisk Ai Authentication

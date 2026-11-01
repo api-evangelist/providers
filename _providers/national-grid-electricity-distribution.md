@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The public CKAN 2.9.8 Action API behind National Grid Electricity Distribution's Connected Data Portal, documented by NGED on its own API Guidance page. Exposes the DNO's open data catalogue — 91 data
@@ -46,62 +48,62 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/national-grid-electricity-distribution/refs/heads/main/security/national-grid-electricity-distribution-domain-security.yml
+  href: https://artifacts.apis.io/national-grid-electricity-distribution/security/national-grid-electricity-distribution-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/national-grid-electricity-distribution-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/national-grid-electricity-distribution/refs/heads/main/authentication/national-grid-electricity-distribution-authentication.yml
+  href: https://artifacts.apis.io/national-grid-electricity-distribution/authentication/national-grid-electricity-distribution-authentication.yml
   title: ''
   type: Authentication
   url: authentication/national-grid-electricity-distribution-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/national-grid-electricity-distribution/refs/heads/main/conventions/national-grid-electricity-distribution-conventions.yml
+  href: https://artifacts.apis.io/national-grid-electricity-distribution/conventions/national-grid-electricity-distribution-conventions.yml
   title: ''
   type: Conventions
   url: conventions/national-grid-electricity-distribution-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/national-grid-electricity-distribution/refs/heads/main/errors/national-grid-electricity-distribution-problem-types.yml
+  href: https://artifacts.apis.io/national-grid-electricity-distribution/errors/national-grid-electricity-distribution-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/national-grid-electricity-distribution-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/national-grid-electricity-distribution/refs/heads/main/conformance/national-grid-electricity-distribution-conformance.yml
+  href: https://artifacts.apis.io/national-grid-electricity-distribution/conformance/national-grid-electricity-distribution-conformance.yml
   title: ''
   type: Conformance
   url: conformance/national-grid-electricity-distribution-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/national-grid-electricity-distribution/refs/heads/main/vocabulary/national-grid-electricity-distribution-vocabulary.yml
+  href: https://artifacts.apis.io/national-grid-electricity-distribution/vocabulary/national-grid-electricity-distribution-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/national-grid-electricity-distribution-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/national-grid-electricity-distribution/refs/heads/main/data-model/national-grid-electricity-distribution-data-model.yml
+  href: https://artifacts.apis.io/national-grid-electricity-distribution/data-model/national-grid-electricity-distribution-data-model.yml
   title: ''
   type: DataModel
   url: data-model/national-grid-electricity-distribution-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/national-grid-electricity-distribution/refs/heads/main/lifecycle/national-grid-electricity-distribution-lifecycle.yml
+  href: https://artifacts.apis.io/national-grid-electricity-distribution/lifecycle/national-grid-electricity-distribution-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/national-grid-electricity-distribution-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/national-grid-electricity-distribution/refs/heads/main/mcp/national-grid-electricity-distribution-mcp.yml
+  href: https://artifacts.apis.io/national-grid-electricity-distribution/mcp/national-grid-electricity-distribution-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/national-grid-electricity-distribution-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/national-grid-electricity-distribution/refs/heads/main/packages/national-grid-electricity-distribution-packages.yml
+  href: https://artifacts.apis.io/national-grid-electricity-distribution/packages/national-grid-electricity-distribution-packages.yml
   title: ''
   type: Packages
   url: packages/national-grid-electricity-distribution-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/national-grid-electricity-distribution/refs/heads/main/llms/national-grid-electricity-distribution-llms.txt
+  href: https://artifacts.apis.io/national-grid-electricity-distribution/llms/national-grid-electricity-distribution-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/national-grid-electricity-distribution-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/national-grid-electricity-distribution/refs/heads/main/json-ld/national-grid-electricity-distribution-catalog.jsonld
+  href: https://artifacts.apis.io/national-grid-electricity-distribution/json-ld/national-grid-electricity-distribution-catalog.jsonld
   title: ''
   type: JSONLD
   url: json-ld/national-grid-electricity-distribution-catalog.jsonld
@@ -218,7 +220,7 @@ overview: 'National Grid Electricity Distribution is listed with 2 APIs on the [
 
 
   National Grid Electricity Distribution''s developer surface includes authentication, API reference, getting-started guide, FAQ, developer portal, documentation, signup flow, and 28 more developer resources.'
-random_paper: 14
+random_paper: 20
 score:
   band: thin
   composite: 29.8
@@ -255,14 +257,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/national-grid-electricity-distribution/refs/heads/main/screenshots/national-grid-electricity-distribution-2026-08-07T184646.png
+screenshot: https://apis.io/screenshots/national-grid-electricity-distribution/national-grid-electricity-distribution-2026-08-07T184646.png
 security:
 - kind: authentication
   name: National Grid Electricity Distribution Authentication

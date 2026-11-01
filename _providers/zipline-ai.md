@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.4
-  scored_at: '2026-10-17'
+  score: 18.1
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: http://localhost:9000
@@ -56,11 +58,8 @@ apis:
   description: The workflow API from Zipline Ai — 1 operation(s) for workflow.
   name: Zipline Ai Workflow API
   slug: zipline-ai-workflow-api
-artifact_total: 12
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Zipline AI Fetcher fetch API
   slug: open-zipline-ai-fetch-api
@@ -79,32 +78,32 @@ common:
   type: Blog
   url: https://zipline.ai/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/capabilities/zipline-ai-capability-edges.yml
+  href: https://artifacts.apis.io/zipline-ai/capabilities/zipline-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zipline-ai-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/skills/zipline-ai-fetch-features.md
+  href: https://artifacts.apis.io/zipline-ai/skills/zipline-ai-fetch-features.md
   title: ''
   type: AgentSkill
   url: skills/zipline-ai-fetch-features.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/mcp/zipline-ai-mcp.yml
+  href: https://artifacts.apis.io/zipline-ai/mcp/zipline-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zipline-ai-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/overlays/zipline-ai-fetcher-overlay.yaml
+  href: https://artifacts.apis.io/zipline-ai/overlays/zipline-ai-fetcher-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zipline-ai-fetcher-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/security/zipline-ai-domain-security.yml
+  href: https://artifacts.apis.io/zipline-ai/security/zipline-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zipline-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/authentication/zipline-ai-authentication.yml
+  href: https://artifacts.apis.io/zipline-ai/authentication/zipline-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zipline-ai-authentication.yml
@@ -124,26 +123,26 @@ overview: 'Zipline Ai publishes 4 API contracts indexed on the [APIs.io](https:/
 
 
   Zipline Ai''s developer surface includes engineering blog, authentication, and 6 more developer resources.'
-random_paper: 20
+random_paper: 2
 score:
   band: emerging
   composite: 17.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 36.1
     developer_ergonomics: 16.1
-    discoverability: 46.4
+    discoverability: 39.3
     operational_transparency: 0.0
-  previous_composite: 17.3
+  previous_composite: 17.9
   provenance:
     conformance: first-party
     contracts:
@@ -159,13 +158,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/screenshots/zipline-ai-2026-09-02T171802.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zipline-ai/zipline-ai-2026-09-02T171802.png
 security:
 - kind: authentication
   name: Zipline Ai Authentication
@@ -179,6 +179,12 @@ security:
   name: Zipline Ai Trust Center
   slug: zipline-ai-trust-center
   summary_line: trust center published
+skill_count: 2
+skills:
+- name: Fetch online features for a model
+  slug: zipline-ai-fetch-features
+- name: Monitor a Zipline workflow run
+  slug: zipline-ai-monitor-workflow
 slug: zipline-ai
 tags:
 - Company

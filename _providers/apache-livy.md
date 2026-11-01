@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -58,11 +60,8 @@ apis:
   description: Code statement execution within sessions
   name: Apache Livy Statements API
   slug: apache-livy-statements-api
-artifact_total: 68
+artifact_total: 67
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apache Livy REST Batches API
   slug: open-apache-livy-batches-api
@@ -74,17 +73,17 @@ collections:
   slug: open-apache-livy-statements-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/plans/apache-livy-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-livy/plans/apache-livy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-livy-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/rate-limits/apache-livy-rate-limits.yml
+  href: https://artifacts.apis.io/apache-livy/rate-limits/apache-livy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-livy-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/finops/apache-livy-finops.yml
+  href: https://artifacts.apis.io/apache-livy/finops/apache-livy-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-livy-finops.yml
@@ -105,17 +104,17 @@ common:
   type: License
   url: https://github.com/apache/incubator-livy/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/agentic-access/apache-livy-agentic-access.yml
+  href: https://artifacts.apis.io/apache-livy/agentic-access/apache-livy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-livy-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/security/apache-livy-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-livy/security/apache-livy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-livy-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/security/apache-livy-domain-security.yml
+  href: https://artifacts.apis.io/apache-livy/security/apache-livy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-livy-domain-security.yml
@@ -144,12 +143,12 @@ common:
   type: Versioning
   url: https://livy.apache.org/download/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/rules/apache-livy-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-livy/rules/apache-livy-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-livy-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/vocabulary/apache-livy-vocabulary.yaml
+  href: https://artifacts.apis.io/apache-livy/vocabulary/apache-livy-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-livy-vocabulary.yaml
@@ -211,7 +210,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Livy Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-livy-finops
   template: true
@@ -322,7 +321,7 @@ plans:
 - name: Apache Livy Plans Pricing
   plan_count: 3
   slug: apache-livy-plans-pricing
-random_paper: 7
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Apache Livy Rate Limits
@@ -353,26 +352,23 @@ rules:
   slug: apache-livy-spectral-rules
 score:
   band: thin
-  composite: 31.1
+  composite: 35.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 49.7
     developer_ergonomics: 21.4
     discoverability: 57.1
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 15.0
-  previous_composite: 32.5
+    operational_transparency: 39.5
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -386,13 +382,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/screenshots/apache-livy-2026-06-20T172116.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-livy/apache-livy-2026-06-20T172116.png
 security:
 - kind: domain-security
   name: Apache Livy Domain Security

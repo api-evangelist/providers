@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,14 +35,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for Imply Polaris, the managed Apache Druid DBaaS. Manage tables, files, streaming/batch ingestion jobs, SQL and native queries, dashboards, data cubes, alerts, collections, API keys, network
   name: Imply Polaris API
   slug: imply-polaris-api
-artifact_total: 5
+artifact_total: 8
 common:
+- group: commercial
+  href: https://artifacts.apis.io/imply/plans/imply-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/imply-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -50,7 +57,7 @@ common:
   type: BlogRSS
   url: https://imply.io/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/security/imply-domain-security.yml
+  href: https://artifacts.apis.io/imply/security/imply-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/imply-domain-security.yml
@@ -107,57 +114,57 @@ common:
   type: StatusPage
   url: https://status.imply.io
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/changelog/imply-changelog.yml
+  href: https://artifacts.apis.io/imply/changelog/imply-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/imply-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/authentication/imply-authentication.yml
+  href: https://artifacts.apis.io/imply/authentication/imply-authentication.yml
   title: ''
   type: Authentication
   url: authentication/imply-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/conventions/imply-conventions.yml
+  href: https://artifacts.apis.io/imply/conventions/imply-conventions.yml
   title: ''
   type: Conventions
   url: conventions/imply-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/lifecycle/imply-lifecycle.yml
+  href: https://artifacts.apis.io/imply/lifecycle/imply-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/imply-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/packages/imply-packages.yml
+  href: https://artifacts.apis.io/imply/packages/imply-packages.yml
   title: ''
   type: Packages
   url: packages/imply-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/packages/imply-packages.yml
+  href: https://artifacts.apis.io/imply/packages/imply-packages.yml
   title: ''
   type: SDKs
   url: packages/imply-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/cli/imply-cli.yml
+  href: https://artifacts.apis.io/imply/cli/imply-cli.yml
   title: ''
   type: CLI
   url: cli/imply-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/llms/imply-llms.txt
+  href: https://artifacts.apis.io/imply/llms/imply-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/imply-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/well-known/imply-well-known.yml
+  href: https://artifacts.apis.io/imply/well-known/imply-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/imply-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/well-known/imply-security.txt
+  href: https://artifacts.apis.io/imply/well-known/imply-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/imply-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/security/imply-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/imply/security/imply-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/imply-vulnerability-disclosure.yml
@@ -166,12 +173,12 @@ common:
   type: Security
   url: https://imply.io/trust-center
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/security/imply-trust-center.yml
+  href: https://artifacts.apis.io/imply/security/imply-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/imply-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/conformance/imply-conformance.yml
+  href: https://artifacts.apis.io/imply/conformance/imply-conformance.yml
   title: ''
   type: Conformance
   url: conformance/imply-conformance.yml
@@ -181,6 +188,14 @@ common:
   url: https://imply.io/trust-center
 created: '2026-07-17'
 description: Imply is the real-time analytics company founded by the original creators of Apache Druid. Its flagship product, Imply Polaris, is a fully managed database-as-a-service for building real-time analytics applications at scale, offering a REST API to manage tables, files, streaming and batch ingestion, SQL and native queries, dashboards, alerts, collections, and access control. Imply also provides Imply Enterprise and Hybrid for self-managed Apache Druid deployments, backed by SOC 2 Type II, ISO 27001, and HIPAA compliance.
+finops:
+- has_sources: true
+  method: derived
+  name: Imply Finops
+  primary_unit: project
+  service_category: ''
+  slug: imply-finops
+  template: false
 image: https://imply.io/wp-content/uploads/2023/05/favicon-96x96-imply-data.png
 layout: provider
 modified: '2026-10-06'
@@ -190,27 +205,34 @@ network: true
 overview: 'Imply is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Real-Time Analytics, Database, and Apache Druid.
 
 
-  Imply''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 5
+  Imply''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 25 more developer resources.'
+plans:
+- name: Imply Plans Pricing
+  plan_count: 10
+  slug: imply-plans-pricing
+- name: Imply Price Estimates
+  plan_count: 0
+  slug: imply-price-estimates
+random_paper: 3
 score:
   band: developing
-  composite: 41.6
+  composite: 52.3
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 16
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 47.4
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 69.0
-    discoverability: 73.2
-    operational_transparency: 44.7
-  previous_composite: 41.6
+    developer_ergonomics: 71.4
+    discoverability: 66.1
+    operational_transparency: 47.4
+  previous_composite: 44.4
   provenance:
     conformance: first-party
   regulatory:
@@ -227,14 +249,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/screenshots/imply-2026-07-25T222154.png
+screenshot: https://apis.io/screenshots/imply/imply-2026-07-25T222154.png
 security:
 - kind: authentication
   name: Imply Authentication

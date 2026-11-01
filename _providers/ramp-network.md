@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Public REST API used alongside the Ramp Instant widget. Exposes available on-ramp assets and prices, off-ramp assets and prices, supported fiat currencies, payment methods, payout methods, on-ramp pur
@@ -45,7 +47,7 @@ apis:
 - description: Client-side integration surface for Ramp Network. The Ramp Instant SDK renders the Ramp widget in overlay, embedded, hosted, mobile or auto variants and emits a typed event stream (WIDGET_CLOSE, WIDGE
   name: Ramp Instant SDK and Widget
   slug: ramp-network-instant-sdk
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Ramp Network Webhooks
@@ -56,7 +58,7 @@ common:
   type: License
   url: https://github.com/RampNetwork/ramp-instant-sdk/blob/master/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/security/ramp-network-trust-center.yml
+  href: https://artifacts.apis.io/ramp-network/security/ramp-network-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ramp-network-trust-center.yml
@@ -109,98 +111,106 @@ common:
   type: PrivacyPolicy
   url: https://rampnetwork.com/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/packages/ramp-network-packages.yml
+  href: https://artifacts.apis.io/ramp-network/packages/ramp-network-packages.yml
   title: ''
   type: Packages
   url: packages/ramp-network-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/packages/ramp-network-packages.yml
+  href: https://artifacts.apis.io/ramp-network/packages/ramp-network-packages.yml
   title: ''
   type: SDKs
   url: packages/ramp-network-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/authentication/ramp-network-authentication.yml
+  href: https://artifacts.apis.io/ramp-network/authentication/ramp-network-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ramp-network-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/conventions/ramp-network-conventions.yml
+  href: https://artifacts.apis.io/ramp-network/conventions/ramp-network-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ramp-network-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/errors/ramp-network-problem-types.yml
+  href: https://artifacts.apis.io/ramp-network/errors/ramp-network-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ramp-network-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/lifecycle/ramp-network-lifecycle.yml
+  href: https://artifacts.apis.io/ramp-network/lifecycle/ramp-network-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ramp-network-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/conformance/ramp-network-conformance.yml
+  href: https://artifacts.apis.io/ramp-network/conformance/ramp-network-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ramp-network-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/conformance/ramp-network-conformance.yml
+  href: https://artifacts.apis.io/ramp-network/conformance/ramp-network-conformance.yml
   title: ''
   type: Compliance
   url: conformance/ramp-network-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/security/ramp-network-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ramp-network/security/ramp-network-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/ramp-network-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/security/ramp-network-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ramp-network/security/ramp-network-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ramp-network-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/security/ramp-network-domain-security.yml
+  href: https://artifacts.apis.io/ramp-network/security/ramp-network-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ramp-network-domain-security.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/sandbox/ramp-network-sandbox.yml
+  href: https://artifacts.apis.io/ramp-network/sandbox/ramp-network-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ramp-network-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/asyncapi/ramp-network-webhooks.yml
+  href: https://artifacts.apis.io/ramp-network/asyncapi/ramp-network-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ramp-network-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/rate-limits/ramp-network-rate-limits.yml
+  href: https://artifacts.apis.io/ramp-network/rate-limits/ramp-network-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ramp-network-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/plans/ramp-network-plans-pricing.yml
+  href: https://artifacts.apis.io/ramp-network/plans/ramp-network-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ramp-network-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/data-model/ramp-network-data-model.yml
+  href: https://artifacts.apis.io/ramp-network/data-model/ramp-network-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ramp-network-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/components/ramp-network-components.yml
+  href: https://artifacts.apis.io/ramp-network/components/ramp-network-components.yml
   title: ''
   type: Components
   url: components/ramp-network-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/llms/ramp-network-llms.txt
+  href: https://artifacts.apis.io/ramp-network/llms/ramp-network-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ramp-network-llms.txt
 created: '2026-08-26'
 description: Ramp Network (Ramp Swaps Ltd) is a London-headquartered fiat-to-crypto on-ramp and off-ramp provider that lets wallets, dApps, exchanges and consumer apps embed crypto purchase, sale and swap flows without becoming a regulated money-services business themselves. Integrators embed the Ramp Instant widget (overlay, embedded, hosted or auto variant) via the TypeScript/JavaScript SDK or the native Android, iOS, React Native and Flutter SDKs, and drive it from a public REST "Host API" at https://api.rampnetwork.com/api that exposes available on-ramp and off-ramp assets with live prices, supported fiat currencies, payment methods, payout methods, purchase and off-ramp sale quotations, and purchase/sale status lookup. Transaction lifecycle is delivered back to the integrator over ECDSA-signed webhooks and SDK events. Ramp Network is registered with the UK FCA as a cryptoasset firm, authorised as a Crypto Asset Service Provider by the Central Bank of Ireland, registered as an MSB with
   FinCEN, and holds SOC 2 Type 1 certification.
+finops:
+- has_sources: true
+  method: derived
+  name: Ramp Network Finops
+  primary_unit: ''
+  service_category: ''
+  slug: ramp-network-finops
+  template: true
 image: https://cdn.prod.website-files.com/63fe1b7ead2cd2d5e0af02e7/6a71d2700c40d60ae5214375_faviconwhite.png
 layout: provider
 modified: '2026-08-26'
@@ -218,16 +228,16 @@ plans:
 - name: Ramp Network Plans Pricing
   plan_count: 0
   slug: ramp-network-plans-pricing
-random_paper: 1
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Ramp Network Rate Limits
   slug: ramp-network-rate-limits
 score:
   band: developing
-  composite: 49.0
+  composite: 51.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -238,9 +248,9 @@ score:
     access_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 61.9
+    developer_ergonomics: 71.4
     discoverability: 66.1
-    operational_transparency: 42.1
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -249,7 +259,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 49.0
+  previous_composite: 51.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -263,14 +273,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 37.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/screenshots/ramp-network-2026-09-02T152834.png
+screenshot: https://apis.io/screenshots/ramp-network/ramp-network-2026-09-02T152834.png
 security:
 - kind: authentication
   name: Ramp Network Authentication

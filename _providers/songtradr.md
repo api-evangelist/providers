@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 29.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 2
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 19
   slug: songtradr-agentic-access
   summary_line: 19 operations · 8 acting · 2 human-in-the-loop
-api_count: 4
+api_count: 1
 apis:
 - baseURL: https://api.songtradr.com
   baseurl_source: declared
@@ -60,11 +62,8 @@ apis:
   description: The user API from Songtradr — 15 operation(s) for user.
   name: Songtradr User API
   slug: songtradr-user-api
-artifact_total: 11
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Songtradr Allowed Values API
   slug: open-songtradr-allowed-values-api
@@ -76,17 +75,17 @@ collections:
   slug: open-songtradr-user-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/mcp/songtradr-mcp.yml
+  href: https://artifacts.apis.io/songtradr/mcp/songtradr-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/songtradr-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/agentic-access/songtradr-agentic-access.yml
+  href: https://artifacts.apis.io/songtradr/agentic-access/songtradr-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/songtradr-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/security/songtradr-domain-security.yml
+  href: https://artifacts.apis.io/songtradr/security/songtradr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/songtradr-domain-security.yml
@@ -143,62 +142,62 @@ common:
   type: PrivacyPolicy
   url: https://www.songtradr.com/legals/privacypolicy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/packages/songtradr-packages.yml
+  href: https://artifacts.apis.io/songtradr/packages/songtradr-packages.yml
   title: ''
   type: Packages
   url: packages/songtradr-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/packages/songtradr-packages.yml
+  href: https://artifacts.apis.io/songtradr/packages/songtradr-packages.yml
   title: ''
   type: SDKs
   url: packages/songtradr-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/authentication/songtradr-authentication.yml
+  href: https://artifacts.apis.io/songtradr/authentication/songtradr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/songtradr-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/conventions/songtradr-conventions.yml
+  href: https://artifacts.apis.io/songtradr/conventions/songtradr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/songtradr-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/errors/songtradr-problem-types.yml
+  href: https://artifacts.apis.io/songtradr/errors/songtradr-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/songtradr-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/data-model/songtradr-data-model.yml
+  href: https://artifacts.apis.io/songtradr/data-model/songtradr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/songtradr-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/conformance/songtradr-conformance.yml
+  href: https://artifacts.apis.io/songtradr/conformance/songtradr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/songtradr-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/lifecycle/songtradr-lifecycle.yml
+  href: https://artifacts.apis.io/songtradr/lifecycle/songtradr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/songtradr-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/llms/songtradr-llms.txt
+  href: https://artifacts.apis.io/songtradr/llms/songtradr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/songtradr-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/songtradr/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/overlays/songtradr-api-overlay.yaml
+  href: https://artifacts.apis.io/songtradr/overlays/songtradr-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/songtradr-api-overlay.yaml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/rate-limits/songtradr-rate-limits.yml
+  href: https://artifacts.apis.io/songtradr/rate-limits/songtradr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/songtradr-rate-limits.yml
@@ -214,30 +213,30 @@ overview: 'Songtradr publishes 3 API contracts indexed on the [APIs.io](https://
 
 
   Songtradr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Songtradr Rate Limits
   slug: songtradr-rate-limits
 score:
-  band: thin
-  composite: 34.3
+  band: developing
+  composite: 44.2
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 48.0
+    artifact_dirs: 21
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.1
   facets:
-    access_clarity: 6.6
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 49.0
-    developer_ergonomics: 49.4
-    discoverability: 78.6
-    operational_transparency: 23.7
-  previous_composite: 33.7
+    developer_ergonomics: 56.5
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,14 +252,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 22.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/screenshots/songtradr-2026-08-17T082014.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/songtradr/songtradr-2026-08-17T082014.png
 security:
 - kind: authentication
   name: Songtradr Authentication
@@ -270,6 +270,14 @@ security:
   name: Songtradr Domain Security
   slug: songtradr-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Auto-tag a music catalog with Songtradr
+  slug: songtradr-auto-tag-a-catalog
+- name: Manage a Songtradr account and API access
+  slug: songtradr-manage-account-and-access
+- name: Search and analyze recordings with Songtradr
+  slug: songtradr-search-and-analyze-recordings
 slug: songtradr
 tags:
 - Music

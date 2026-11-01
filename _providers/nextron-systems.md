@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 7
   slug: nextron-systems-agentic-access
   summary_line: 7 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The Analysis Cockpit (v4) API; per the manual, "The API documentation has been integrated into the web interface. You can find it in the top right corner's help menu." The reference is served only ins
   name: Analysis Cockpit API
@@ -54,105 +56,105 @@ apis:
   description: Endpoints to scan files with THOR
   name: Nextron Systems Scan API
   slug: nextron-systems-scan-api
-artifact_total: 18
+artifact_total: 20
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/agentic-access/nextron-systems-agentic-access.yml
+  href: https://artifacts.apis.io/nextron-systems/agentic-access/nextron-systems-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nextron-systems-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/rules/nextron-systems-thunderstorm-openapi-spectral-rules.yml
+  href: https://artifacts.apis.io/nextron-systems/rules/nextron-systems-thunderstorm-openapi-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/nextron-systems-thunderstorm-openapi-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/rules/nextron-systems-rules.yml
+  href: https://artifacts.apis.io/nextron-systems/rules/nextron-systems-rules.yml
   title: ''
   type: Spectral
   url: rules/nextron-systems-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/json-ld/nextron-systems-context.jsonld
+  href: https://artifacts.apis.io/nextron-systems/json-ld/nextron-systems-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/nextron-systems-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/vocabulary/nextron-systems-vocabulary.yml
+  href: https://artifacts.apis.io/nextron-systems/vocabulary/nextron-systems-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/nextron-systems-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nextron-systems/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/data-model/nextron-systems-data-model.yml
+  href: https://artifacts.apis.io/nextron-systems/data-model/nextron-systems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nextron-systems-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/cli/nextron-systems-cli.yml
+  href: https://artifacts.apis.io/nextron-systems/cli/nextron-systems-cli.yml
   title: ''
   type: CLI
   url: cli/nextron-systems-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/conventions/nextron-systems-conventions.yml
+  href: https://artifacts.apis.io/nextron-systems/conventions/nextron-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nextron-systems-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/authentication/nextron-systems-authentication.yml
+  href: https://artifacts.apis.io/nextron-systems/authentication/nextron-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nextron-systems-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/lifecycle/nextron-systems-lifecycle.yml
+  href: https://artifacts.apis.io/nextron-systems/lifecycle/nextron-systems-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/nextron-systems-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/lifecycle/nextron-systems-lifecycle.yml
+  href: https://artifacts.apis.io/nextron-systems/lifecycle/nextron-systems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nextron-systems-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/errors/nextron-systems-problem-types.yml
+  href: https://artifacts.apis.io/nextron-systems/errors/nextron-systems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nextron-systems-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/conformance/nextron-systems-conformance.yml
+  href: https://artifacts.apis.io/nextron-systems/conformance/nextron-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nextron-systems-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/overlays/nextron-systems-thunderstorm-overlay.yaml
+  href: https://artifacts.apis.io/nextron-systems/overlays/nextron-systems-thunderstorm-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nextron-systems-thunderstorm-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/llms/nextron-systems-llms.txt
+  href: https://artifacts.apis.io/nextron-systems/llms/nextron-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nextron-systems-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/hosts/nextron-systems-hosts.yml
+  href: https://artifacts.apis.io/nextron-systems/hosts/nextron-systems-hosts.yml
   title: ''
   type: Hosts
   url: hosts/nextron-systems-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/packages/nextron-systems-packages.yml
+  href: https://artifacts.apis.io/nextron-systems/packages/nextron-systems-packages.yml
   title: ''
   type: SDKs
   url: packages/nextron-systems-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/packages/nextron-systems-packages.yml
+  href: https://artifacts.apis.io/nextron-systems/packages/nextron-systems-packages.yml
   title: ''
   type: Packages
   url: packages/nextron-systems-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/security/nextron-systems-domain-security.yml
+  href: https://artifacts.apis.io/nextron-systems/security/nextron-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nextron-systems-domain-security.yml
@@ -260,7 +262,7 @@ plans:
 - name: Nextron Systems Plans Pricing
   plan_count: 0
   slug: nextron-systems-plans-pricing
-random_paper: 13
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Nextron Systems Rate Limits
@@ -303,15 +305,15 @@ score:
     catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 14.4
     contract_quality: 51.6
     developer_ergonomics: 56.5
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 13.2
-  previous_composite: 39.0
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -328,13 +330,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/screenshots/nextron-systems-2026-10-11T111556.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nextron-systems/nextron-systems-2026-10-11T111556.png
 security:
 - kind: authentication
   name: Nextron Systems Authentication
@@ -344,6 +347,12 @@ security:
   name: Nextron Systems Domain Security
   slug: nextron-systems-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: nextron-systems-monitor-instance
+  slug: nextron-systems-monitor-instance
+- name: nextron-systems-scan-file
+  slug: nextron-systems-scan-file
 slug: nextron-systems
 tags:
 - Company

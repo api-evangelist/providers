@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Maisa''s developer REST API. Key-authenticated (X-API-Key), base URL https://api.maisa.ai, all operations under /v1. Surfaces: capabilities (compare/extract/summarize over text and media), models (embe'
@@ -43,47 +45,47 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maisa/refs/heads/main/security/maisa-domain-security.yml
+  href: https://artifacts.apis.io/maisa/security/maisa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/maisa-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maisa/refs/heads/main/llms/maisa-llms.txt
+  href: https://artifacts.apis.io/maisa/llms/maisa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/maisa-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maisa/refs/heads/main/well-known/maisa-well-known.yml
+  href: https://artifacts.apis.io/maisa/well-known/maisa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/maisa-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/maisa/refs/heads/main/packages/maisa-packages.yml
+  href: https://artifacts.apis.io/maisa/packages/maisa-packages.yml
   title: ''
   type: Packages
   url: packages/maisa-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/maisa/refs/heads/main/packages/maisa-packages.yml
+  href: https://artifacts.apis.io/maisa/packages/maisa-packages.yml
   title: ''
   type: SDKs
   url: packages/maisa-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maisa/refs/heads/main/authentication/maisa-authentication.yml
+  href: https://artifacts.apis.io/maisa/authentication/maisa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/maisa-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maisa/refs/heads/main/conventions/maisa-conventions.yml
+  href: https://artifacts.apis.io/maisa/conventions/maisa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/maisa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maisa/refs/heads/main/errors/maisa-problem-types.yml
+  href: https://artifacts.apis.io/maisa/errors/maisa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/maisa-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maisa/refs/heads/main/mcp/maisa-mcp.yml
+  href: https://artifacts.apis.io/maisa/mcp/maisa-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/maisa-mcp.yml
@@ -136,10 +138,10 @@ overview: 'Maisa is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Maisa''s developer surface includes authentication, API reference, documentation, engineering blog, support, and 13 more developer resources.'
-random_paper: 17
+random_paper: 19
 score:
   band: emerging
-  composite: 17.1
+  composite: 20.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -152,10 +154,10 @@ score:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.2
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 17.1
+    developer_ergonomics: 42.9
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 20.1
   provenance:
     mcp: derived
   regulatory:
@@ -164,14 +166,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/maisa/refs/heads/main/screenshots/maisa-2026-07-25T225927.png
+screenshot: https://apis.io/screenshots/maisa/maisa-2026-07-25T225927.png
 security:
 - kind: authentication
   name: Maisa Authentication

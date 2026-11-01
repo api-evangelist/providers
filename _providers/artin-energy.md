@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artin-energy/refs/heads/main/well-known/artin-energy-clarity-security.txt
+  href: https://artifacts.apis.io/artin-energy/well-known/artin-energy-clarity-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/artin-energy-clarity-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/artin-energy/refs/heads/main/well-known/artin-energy-well-known.yml
+  href: https://artifacts.apis.io/artin-energy/well-known/artin-energy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/artin-energy-well-known.yml
@@ -42,7 +44,7 @@ common:
   type: Security
   url: https://clarity.com/vdp
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/artin-energy/refs/heads/main/hosts/artin-energy-hosts.yml
+  href: https://artifacts.apis.io/artin-energy/hosts/artin-energy-hosts.yml
   title: ''
   type: Hosts
   url: hosts/artin-energy-hosts.yml
@@ -51,12 +53,12 @@ common:
   type: PrivacyPolicy
   url: https://artinenergy.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artin-energy/refs/heads/main/security/artin-energy-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/artin-energy/security/artin-energy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/artin-energy-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artin-energy/refs/heads/main/security/artin-energy-domain-security.yml
+  href: https://artifacts.apis.io/artin-energy/security/artin-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/artin-energy-domain-security.yml
@@ -82,7 +84,7 @@ name: Artin Energy
 nav: Providers
 network: true
 overview: Artin Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Renewables, Solar, Green Hydrogen, and Storage.
-random_paper: 5
+random_paper: 13
 score:
   band: minimal
   composite: 7.9
@@ -110,14 +112,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/artin-energy/refs/heads/main/screenshots/artin-energy-2026-10-11T100430.png
+screenshot: https://apis.io/screenshots/artin-energy/artin-energy-2026-10-11T100430.png
 security:
 - kind: domain-security
   name: Artin Energy Domain Security

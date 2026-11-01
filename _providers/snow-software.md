@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.7
-  scored_at: '2026-10-17'
+  score: 43.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -201,11 +203,8 @@ apis:
   description: The Upgrades API from Snow Software — 2 operation(s) for upgrades.
   name: Snow Software Upgrades API
   slug: snow-software-upgrades-api
-artifact_total: 80
+artifact_total: 79
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 'SAM: Computers Applications API'
   slug: open-snow-software-applications-api
@@ -310,37 +309,37 @@ collections:
   slug: open-snow-software-upgrades-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/snow-software/refs/heads/main/plans/snow-software-plans-pricing.yml
+  href: https://artifacts.apis.io/snow-software/plans/snow-software-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/snow-software-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/snow-software/refs/heads/main/rate-limits/snow-software-rate-limits.yml
+  href: https://artifacts.apis.io/snow-software/rate-limits/snow-software-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/snow-software-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/snow-software/refs/heads/main/finops/snow-software-finops.yml
+  href: https://artifacts.apis.io/snow-software/finops/snow-software-finops.yml
   title: ''
   type: FinOps
   url: finops/snow-software-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/snow-software/refs/heads/main/capabilities/snow-software-capability-edges.yml
+  href: https://artifacts.apis.io/snow-software/capabilities/snow-software-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/snow-software-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snow-software/refs/heads/main/agentic-access/snow-software-agentic-access.yml
+  href: https://artifacts.apis.io/snow-software/agentic-access/snow-software-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/snow-software-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snow-software/refs/heads/main/security/snow-software-domain-security.yml
+  href: https://artifacts.apis.io/snow-software/security/snow-software-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snow-software-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snow-software/refs/heads/main/authentication/snow-software-authentication.yml
+  href: https://artifacts.apis.io/snow-software/authentication/snow-software-authentication.yml
   title: ''
   type: Authentication
   url: authentication/snow-software-authentication.yml
@@ -431,7 +430,7 @@ plans:
 - name: Snow Software Plans Pricing
   plan_count: 1
   slug: snow-software-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Snow Software Rate Limits
@@ -462,23 +461,23 @@ rules:
   slug: snow-software-rules
 score:
   band: thin
-  composite: 36.3
+  composite: 35.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 54.5
     catalog_earned_first_party: 0.0
     catalog_gap: 60.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 11.8
+    access_clarity: 18.4
     contract_governance: 13.6
-    contract_quality: 61.4
-    developer_ergonomics: 35.7
-    discoverability: 65.0
-    operational_transparency: 7.9
-  previous_composite: 37.8
+    contract_quality: 58.0
+    developer_ergonomics: 38.1
+    discoverability: 62.5
+    operational_transparency: 10.5
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -493,13 +492,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/snow-software/refs/heads/main/screenshots/snow-software-2026-06-20T194211.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/snow-software/snow-software-2026-06-20T194211.png
 security:
 - kind: authentication
   name: Snow Software Authentication

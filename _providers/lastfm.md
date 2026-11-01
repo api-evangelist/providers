@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.0
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -121,7 +123,7 @@ arazzos:
 - description: Read a user's profile, find their top artist for a period, and surface that artist's top tracks.
   name: Last.fm User Taste Profile
   slug: lastfm-user-taste-profile-workflow
-artifact_total: 74
+artifact_total: 73
 collections:
 - collection_type: postman
   name: Last.fm Album API
@@ -129,9 +131,6 @@ collections:
 - collection_type: postman
   name: Last.fm Web Services API (2.0)
   slug: postman-lastfm-openapi-original
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Last.fm Web Services API (2.0) Album API
   slug: open-lastfm-album-api
@@ -160,18 +159,23 @@ collections:
   name: Last.fm Web Services API (2.0) Album User API
   slug: open-lastfm-user-api
 common:
+- group: other
+  href: https://artifacts.apis.io/lastfm/capabilities/lastfm-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lastfm-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/agentic-access/lastfm-agentic-access.yml
+  href: https://artifacts.apis.io/lastfm/agentic-access/lastfm-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lastfm-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/security/lastfm-domain-security.yml
+  href: https://artifacts.apis.io/lastfm/security/lastfm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lastfm-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/authentication/lastfm-authentication.yml
+  href: https://artifacts.apis.io/lastfm/authentication/lastfm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lastfm-authentication.yml
@@ -180,52 +184,52 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/lastfm/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/arazzo/lastfm-album-genre-profile-workflow.yml
+  href: https://artifacts.apis.io/lastfm/arazzo/lastfm-album-genre-profile-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/lastfm-album-genre-profile-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/arazzo/lastfm-artist-discovery-workflow.yml
+  href: https://artifacts.apis.io/lastfm/arazzo/lastfm-artist-discovery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/lastfm-artist-discovery-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/arazzo/lastfm-chart-to-album-workflow.yml
+  href: https://artifacts.apis.io/lastfm/arazzo/lastfm-chart-to-album-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/lastfm-chart-to-album-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/arazzo/lastfm-genre-artist-explorer-workflow.yml
+  href: https://artifacts.apis.io/lastfm/arazzo/lastfm-genre-artist-explorer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/lastfm-genre-artist-explorer-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/arazzo/lastfm-geo-artist-spotlight-workflow.yml
+  href: https://artifacts.apis.io/lastfm/arazzo/lastfm-geo-artist-spotlight-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/lastfm-geo-artist-spotlight-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/arazzo/lastfm-loved-tracks-insight-workflow.yml
+  href: https://artifacts.apis.io/lastfm/arazzo/lastfm-loved-tracks-insight-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/lastfm-loved-tracks-insight-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/arazzo/lastfm-now-playing-context-workflow.yml
+  href: https://artifacts.apis.io/lastfm/arazzo/lastfm-now-playing-context-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/lastfm-now-playing-context-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/arazzo/lastfm-tag-to-track-workflow.yml
+  href: https://artifacts.apis.io/lastfm/arazzo/lastfm-tag-to-track-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/lastfm-tag-to-track-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/arazzo/lastfm-track-radio-workflow.yml
+  href: https://artifacts.apis.io/lastfm/arazzo/lastfm-track-radio-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/lastfm-track-radio-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/arazzo/lastfm-user-taste-profile-workflow.yml
+  href: https://artifacts.apis.io/lastfm/arazzo/lastfm-user-taste-profile-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/lastfm-user-taste-profile-workflow.yml
@@ -282,27 +286,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/lastfm
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/plans/lastfm-plans-pricing.yml
+  href: https://artifacts.apis.io/lastfm/plans/lastfm-plans-pricing.yml
   title: ''
   type: Pricing
   url: plans/lastfm-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/rate-limits/lastfm-rate-limits.yml
+  href: https://artifacts.apis.io/lastfm/rate-limits/lastfm-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lastfm-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/rules/lastfm-rules.yml
+  href: https://artifacts.apis.io/lastfm/rules/lastfm-rules.yml
   title: ''
   type: SpectralRules
   url: rules/lastfm-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/vocabulary/lastfm-vocabulary.yml
+  href: https://artifacts.apis.io/lastfm/vocabulary/lastfm-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/lastfm-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/json-ld/lastfm-context.jsonld
+  href: https://artifacts.apis.io/lastfm/json-ld/lastfm-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/lastfm-context.jsonld
@@ -391,12 +395,12 @@ common:
   type: StatusPage
   url: https://x.com/lastfmstatus
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/plans/lastfm-plans-pricing.yml
+  href: https://artifacts.apis.io/lastfm/plans/lastfm-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lastfm-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/finops/lastfm-finops.yml
+  href: https://artifacts.apis.io/lastfm/finops/lastfm-finops.yml
   title: ''
   type: FinOps
   url: finops/lastfm-finops.yml
@@ -507,12 +511,12 @@ overview: 'Last.fm publishes 9 API contracts indexed on the [APIs.io](https://ap
   The Last.fm catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Last.fm''s developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, support, pricing, and 48 more developer resources.'
+  Last.fm''s developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, support, pricing, and 49 more developer resources.'
 plans:
 - name: Lastfm Plans Pricing
   plan_count: 2
   slug: lastfm-plans-pricing
-random_paper: 9
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Lastfm Rate Limits
@@ -542,24 +546,24 @@ rules:
     warn: 4
   slug: lastfm-rules
 score:
-  band: developing
-  composite: 54.2
+  band: strong
+  composite: 55.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 68.0
     catalog_earned_first_party: 0.0
     catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 27.3
     contract_quality: 62.7
-    developer_ergonomics: 72.6
+    developer_ergonomics: 75.0
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 61.1
+    operational_transparency: 28.9
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     contracts:
@@ -573,13 +577,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/screenshots/lastfm-2026-06-20T184325.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lastfm/lastfm-2026-06-20T184325.png
 security:
 - kind: authentication
   name: Lastfm Authentication

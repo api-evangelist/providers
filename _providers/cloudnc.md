@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -32,17 +34,17 @@ common:
   type: Compliance
   url: https://trust.cloudnc.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudnc/refs/heads/main/well-known/cloudnc-well-known.yml
+  href: https://artifacts.apis.io/cloudnc/well-known/cloudnc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cloudnc-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloudnc/refs/heads/main/hosts/cloudnc-hosts.yml
+  href: https://artifacts.apis.io/cloudnc/hosts/cloudnc-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cloudnc-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloudnc/refs/heads/main/vendors/cloudnc-vendors.yml
+  href: https://artifacts.apis.io/cloudnc/vendors/cloudnc-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cloudnc-vendors.yml
@@ -67,12 +69,12 @@ common:
   type: Blog
   url: https://www.cloudnc.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudnc/refs/heads/main/security/cloudnc-trust-center.yml
+  href: https://artifacts.apis.io/cloudnc/security/cloudnc-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cloudnc-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudnc/refs/heads/main/security/cloudnc-domain-security.yml
+  href: https://artifacts.apis.io/cloudnc/security/cloudnc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudnc-domain-security.yml
@@ -100,7 +102,7 @@ overview: 'CloudNC is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   CloudNC''s developer surface includes support, pricing, engineering blog, and 9 more developer resources.'
-random_paper: 18
+random_paper: 0
 score:
   band: emerging
   composite: 13.6
@@ -111,6 +113,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
@@ -118,6 +121,15 @@ score:
     developer_ergonomics: 7.1
     discoverability: 50.0
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 13.6
   provenance:
     mcp: derived
   regulatory:
@@ -126,8 +138,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Data about positions of Metro vehicles in real time and travel their routes
@@ -41,7 +43,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/transport-for-los-angeles-us/refs/heads/main/security/transport-for-los-angeles-us-domain-security.yml
+  href: https://artifacts.apis.io/transport-for-los-angeles-us/security/transport-for-los-angeles-us-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/transport-for-los-angeles-us-domain-security.yml
@@ -69,12 +71,12 @@ overview: 'Transport for Los Angeles, US is listed with 1 API on the [APIs.io](h
 
 
   Transport for Los Angeles, US''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 19
+random_paper: 5
 score:
   band: minimal
-  composite: 3.7
+  composite: 5.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -85,24 +87,24 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
+    developer_ergonomics: 11.9
     discoverability: 46.4
     operational_transparency: 0.0
-  previous_composite: 3.7
+  previous_composite: 5.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/transport-for-los-angeles-us/refs/heads/main/screenshots/transport-for-los-angeles-us-2026-06-20T195608.png
+screenshot: https://apis.io/screenshots/transport-for-los-angeles-us/transport-for-los-angeles-us-2026-06-20T195608.png
 security:
 - kind: domain-security
   name: Transport For Los Angeles Us Domain Security

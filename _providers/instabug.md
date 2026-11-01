@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.8
-  scored_at: '2026-10-17'
+  score: 25.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -95,15 +97,12 @@ apis:
   description: Read app store, native-prompt, and custom-prompt reviews captured through the Luciq SDK, with filters for rating, version, country, device, prompt type, and OS.
   name: Instabug (Luciq) Reviews API
   slug: instabug-reviews-api
-artifact_total: 72
+artifact_total: 71
 asyncapis:
 - description: Luciq (formerly Instabug) webhooks deliver real-time notifications about bug reports, crash reports, and APM events to a configured callback URL via HTTP POST. The webhook integration is configured pe
   name: Luciq Webhook Events
   slug: instabug-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Luciq MCP Server App Hangs API
   slug: open-instabug-app-hangs-api
@@ -123,8 +122,12 @@ collections:
   name: Luciq MCP Server App Hangs Occurrences API
   slug: open-instabug-occurrences-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/instabug-luciq/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/capabilities/instabug-capability-edges.yml
+  href: https://artifacts.apis.io/instabug/capabilities/instabug-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/instabug-capability-edges.yml
@@ -141,22 +144,22 @@ common:
   type: Releases
   url: https://github.com/Instabug/Instabug-iOS/releases
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/agentic-access/instabug-agentic-access.yml
+  href: https://artifacts.apis.io/instabug/agentic-access/instabug-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/instabug-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/security/instabug-domain-security.yml
+  href: https://artifacts.apis.io/instabug/security/instabug-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/instabug-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/authentication/instabug-authentication.yml
+  href: https://artifacts.apis.io/instabug/authentication/instabug-authentication.yml
   title: ''
   type: Authentication
   url: authentication/instabug-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/scopes/instabug-scopes.yml
+  href: https://artifacts.apis.io/instabug/scopes/instabug-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/instabug-scopes.yml
@@ -241,72 +244,72 @@ common:
   type: SCIM
   url: https://docs.luciq.ai/organization-settings/user-management/scim-provisioning
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/plans/instabug-plans-pricing.yml
+  href: https://artifacts.apis.io/instabug/plans/instabug-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/instabug-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/rate-limits/instabug-rate-limits.yml
+  href: https://artifacts.apis.io/instabug/rate-limits/instabug-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/instabug-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/finops/instabug-finops.yml
+  href: https://artifacts.apis.io/instabug/finops/instabug-finops.yml
   title: ''
   type: FinOps
   url: finops/instabug-finops.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/json-schema/instabug-application-schema.json
+  href: https://artifacts.apis.io/instabug/json-schema/instabug-application-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/instabug-application-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/json-schema/instabug-crash-schema.json
+  href: https://artifacts.apis.io/instabug/json-schema/instabug-crash-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/instabug-crash-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/json-schema/instabug-occurrence-schema.json
+  href: https://artifacts.apis.io/instabug/json-schema/instabug-occurrence-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/instabug-occurrence-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/json-schema/instabug-bug-schema.json
+  href: https://artifacts.apis.io/instabug/json-schema/instabug-bug-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/instabug-bug-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/json-schema/instabug-review-schema.json
+  href: https://artifacts.apis.io/instabug/json-schema/instabug-review-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/instabug-review-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/json-schema/instabug-app-hang-schema.json
+  href: https://artifacts.apis.io/instabug/json-schema/instabug-app-hang-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/instabug-app-hang-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/json-schema/instabug-webhook-payload-schema.json
+  href: https://artifacts.apis.io/instabug/json-schema/instabug-webhook-payload-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/instabug-webhook-payload-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/json-structure/instabug-structure.json
+  href: https://artifacts.apis.io/instabug/json-structure/instabug-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/instabug-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/json-ld/instabug-context.jsonld
+  href: https://artifacts.apis.io/instabug/json-ld/instabug-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/instabug-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/vocabulary/instabug-vocabulary.yml
+  href: https://artifacts.apis.io/instabug/vocabulary/instabug-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/instabug-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/rules/instabug-rules.yml
+  href: https://artifacts.apis.io/instabug/rules/instabug-rules.yml
   title: ''
   type: SpectralRules
   url: rules/instabug-rules.yml
@@ -371,12 +374,12 @@ features:
 - 100 Observer seats included on Enterprise plans
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Instabug Finops
   primary_unit: ''
-  service_category: Mobile Observability
+  service_category: ''
   slug: instabug-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instabug.png
 integrations:
 - 'Project Management: Jira, Trello, Asana, ClickUp, Basecamp (v2 & v3), Shortcut, Pivotal Tracker, Teamwork Projects, Manuscript, Microsoft Azure DevOps, Phabricator'
@@ -430,12 +433,12 @@ overview: 'Instabug (Luciq) publishes 13 API contracts indexed on the [APIs.io](
   The Instabug (Luciq) catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Instabug (Luciq)''s developer surface includes authentication, developer portal, documentation, pricing, changelog, engineering blog, and 36 more developer resources.'
+  Instabug (Luciq)''s developer surface includes authentication, developer portal, documentation, pricing, changelog, engineering blog, and 37 more developer resources.'
 plans:
 - name: Instabug Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: instabug-plans-pricing
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 7
   name: Instabug Rate Limits
@@ -483,23 +486,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 42.7
+  composite: 47.2
   coverage:
     artifact_dirs: 21
-    catalog_earned: 49.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    catalog_earned: 54.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: -1.9
   facets:
-    access_clarity: 25.0
+    access_clarity: 44.7
     contract_governance: 27.3
     contract_quality: 56.4
-    developer_ergonomics: 50.0
+    developer_ergonomics: 51.2
     discoverability: 51.8
-    operational_transparency: 26.3
-  previous_composite: 51.0
+    operational_transparency: 28.9
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     contracts:
@@ -513,14 +516,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/screenshots/instabug-2026-06-20T183406.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/instabug/instabug-2026-06-20T183406.png
 security:
 - kind: authentication
   name: Instabug Authentication

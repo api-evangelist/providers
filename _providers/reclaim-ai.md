@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.4
-  scored_at: '2026-10-17'
+  score: 23.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 398
   human_in_the_loop: 16
@@ -459,11 +461,8 @@ apis:
   description: The Oauth2 API from Reclaim.ai — 1 operation(s) for oauth2.
   name: Reclaim.ai Oauth2 API
   slug: reclaim-ai-oauth2-api
-artifact_total: 200
+artifact_total: 199
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Reclaim account-time-schemes API
   slug: open-reclaim-ai-account-time-schemes-api
@@ -715,37 +714,37 @@ collections:
   slug: open-reclaim-ai-well-known-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/capabilities/reclaim-ai-capability-edges.yml
+  href: https://artifacts.apis.io/reclaim-ai/capabilities/reclaim-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/reclaim-ai-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/agentic-access/reclaim-ai-agentic-access.yml
+  href: https://artifacts.apis.io/reclaim-ai/agentic-access/reclaim-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/reclaim-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/security/reclaim-ai-trust-center.yml
+  href: https://artifacts.apis.io/reclaim-ai/security/reclaim-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/reclaim-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/security/reclaim-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/reclaim-ai/security/reclaim-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/reclaim-ai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/security/reclaim-ai-domain-security.yml
+  href: https://artifacts.apis.io/reclaim-ai/security/reclaim-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reclaim-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/authentication/reclaim-ai-authentication.yml
+  href: https://artifacts.apis.io/reclaim-ai/authentication/reclaim-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reclaim-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/scopes/reclaim-ai-scopes.yml
+  href: https://artifacts.apis.io/reclaim-ai/scopes/reclaim-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/reclaim-ai-scopes.yml
@@ -782,17 +781,17 @@ common:
   type: X
   url: https://twitter.com/reclaimai
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/plans/reclaim-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/reclaim-ai/plans/reclaim-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/reclaim-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/rate-limits/reclaim-ai-rate-limits.yml
+  href: https://artifacts.apis.io/reclaim-ai/rate-limits/reclaim-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/reclaim-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/finops/reclaim-ai-finops.yml
+  href: https://artifacts.apis.io/reclaim-ai/finops/reclaim-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/reclaim-ai-finops.yml
@@ -824,13 +823,13 @@ examples:
   name: Reclaim Ai User Example
   slug: reclaim-ai-user-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Reclaim Ai Finops
-  primary_unit: ''
+  primary_unit: seat
   service_category: ''
   slug: reclaim-ai-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reclaim-ai.png
 json_schemas:
 - name: Calendar
@@ -896,7 +895,7 @@ plans:
 - name: Reclaim Ai Price Estimates
   plan_count: 0
   slug: reclaim-ai-price-estimates
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Reclaim Ai Rate Limits
@@ -920,23 +919,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 41.4
+  composite: 42.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 63.3
+    catalog_earned: 66.3
     catalog_earned_first_party: 12.0
-    catalog_gap: 51.8
+    catalog_gap: 48.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 57.9
     contract_governance: 9.8
-    contract_quality: 44.6
+    contract_quality: 43.6
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 42.9
+    operational_transparency: 31.6
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -950,13 +949,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/screenshots/reclaim-ai-2026-06-20T192710.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/reclaim-ai/reclaim-ai-2026-06-20T192710.png
 security:
 - kind: authentication
   name: Reclaim Ai Authentication

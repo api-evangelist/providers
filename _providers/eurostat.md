@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 17.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 30
   slug: eurostat-agentic-access
   summary_line: 30 operations
-api_count: 2
+api_count: 1
 apis:
 - description: The primary REST API for accessing Eurostat datasets in JSON-stat 2.0 format. Supports filtering by geography, time period, and any dataset dimension. Returns synchronous or asynchronous responses dep
   name: Eurostat Statistics API
@@ -95,11 +97,8 @@ apis:
   description: The Statistics data queries API from Eurostat — 1 operation(s) for statistics data queries.
   name: Eurostat Statistics data queries API
   slug: eurostat-statistics-data-queries-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Eurostat SDMX RESTful Async API
   slug: open-eurostat-async-api
@@ -126,12 +125,12 @@ collections:
   slug: open-eurostat-statistics-data-queries-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/agentic-access/eurostat-agentic-access.yml
+  href: https://artifacts.apis.io/eurostat/agentic-access/eurostat-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eurostat-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/security/eurostat-domain-security.yml
+  href: https://artifacts.apis.io/eurostat/security/eurostat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eurostat-domain-security.yml
@@ -168,17 +167,17 @@ common:
   type: X
   url: https://x.com/EU_Eurostat
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/plans/eurostat-plans-pricing.yml
+  href: https://artifacts.apis.io/eurostat/plans/eurostat-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eurostat-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/rate-limits/eurostat-rate-limits.yml
+  href: https://artifacts.apis.io/eurostat/rate-limits/eurostat-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eurostat-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/finops/eurostat-finops.yml
+  href: https://artifacts.apis.io/eurostat/finops/eurostat-finops.yml
   title: ''
   type: FinOps
   url: finops/eurostat-finops.yml
@@ -221,7 +220,7 @@ plans:
 - name: Eurostat Plans Pricing
   plan_count: 1
   slug: eurostat-plans-pricing
-random_paper: 7
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Eurostat Rate Limits
@@ -248,7 +247,7 @@ score:
     catalog_gap: 69.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
@@ -261,7 +260,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 36.2
+  previous_composite: 29.2
   provenance:
     agentic_access: derived
     contracts:
@@ -275,14 +274,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/screenshots/eurostat-2026-06-20T180900.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/eurostat/eurostat-2026-06-20T180900.png
 security:
 - kind: domain-security
   name: Eurostat Domain Security

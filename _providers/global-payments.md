@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -67,11 +69,8 @@ apis:
   description: Process and manage payment transactions.
   name: Global Payments Transactions API
   slug: global-payments-transactions-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Global Payments Unified Payments Disputes API
   slug: open-global-payments-disputes-api
@@ -89,17 +88,17 @@ collections:
   slug: open-global-payments-unified-payments-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/plans/global-payments-plans-pricing.yml
+  href: https://artifacts.apis.io/global-payments/plans/global-payments-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/global-payments-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/rate-limits/global-payments-rate-limits.yml
+  href: https://artifacts.apis.io/global-payments/rate-limits/global-payments-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/global-payments-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/finops/global-payments-finops.yml
+  href: https://artifacts.apis.io/global-payments/finops/global-payments-finops.yml
   title: ''
   type: FinOps
   url: finops/global-payments-finops.yml
@@ -108,27 +107,27 @@ common:
   type: Blog
   url: https://www.globalpayments.com/insights
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/capabilities/global-payments-capability-edges.yml
+  href: https://artifacts.apis.io/global-payments/capabilities/global-payments-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/global-payments-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/agentic-access/global-payments-agentic-access.yml
+  href: https://artifacts.apis.io/global-payments/agentic-access/global-payments-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/global-payments-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/security/global-payments-domain-security.yml
+  href: https://artifacts.apis.io/global-payments/security/global-payments-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/global-payments-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/authentication/global-payments-authentication.yml
+  href: https://artifacts.apis.io/global-payments/authentication/global-payments-authentication.yml
   title: ''
   type: Authentication
   url: authentication/global-payments-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/scopes/global-payments-scopes.yml
+  href: https://artifacts.apis.io/global-payments/scopes/global-payments-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/global-payments-scopes.yml
@@ -192,7 +191,7 @@ press:
 - date: ''
   title: Global Payments Joins Forces with AWS to Deliver ...
   url: https://investors.globalpayments.com/news-events/press-releases/detail/49/global-payments-joins-forces-with-aws-to-deliver-the-future
-random_paper: 11
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Global Payments Rate Limits
@@ -203,8 +202,8 @@ scopes:
   slug: global-payments-scopes
   summary_line: 4 scopes · clientCredentials
 score:
-  band: emerging
-  composite: 25.6
+  band: thin
+  composite: 27.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 41.0
@@ -212,15 +211,15 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 44.7
-    developer_ergonomics: 28.6
+    developer_ergonomics: 33.3
     discoverability: 73.2
-    operational_transparency: 7.9
-  previous_composite: 26.7
+    operational_transparency: 10.5
+  previous_composite: 27.6
   provenance:
     agentic_access: derived
     contracts:
@@ -234,13 +233,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/screenshots/global-payments-2026-06-20T181917.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/global-payments/global-payments-2026-06-20T181917.png
 security:
 - kind: authentication
   name: Global Payments Authentication

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
+  score: 25.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,22 +50,19 @@ apis:
   description: The Json API from Sunrise Sunset — 1 operation(s) for json.
   name: Sunrise Sunset Json API
   slug: sunrise-sunset-json-api
-artifact_total: 14
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sunrise Sunset Json API
   slug: open-sunrise-sunset-json-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sunrise-sunset/refs/heads/main/agentic-access/sunrise-sunset-agentic-access.yml
+  href: https://artifacts.apis.io/sunrise-sunset/agentic-access/sunrise-sunset-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sunrise-sunset-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sunrise-sunset/refs/heads/main/security/sunrise-sunset-domain-security.yml
+  href: https://artifacts.apis.io/sunrise-sunset/security/sunrise-sunset-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sunrise-sunset-domain-security.yml
@@ -150,7 +149,7 @@ plans:
 - name: Sunrise Sunset Plans Pricing
   plan_count: 1
   slug: sunrise-sunset-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Sunrise Sunset Rate Limits
@@ -169,7 +168,7 @@ rules:
   slug: sunrise-sunset-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.6
+  composite: 30.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 50.3
@@ -177,15 +176,15 @@ score:
     catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 51.4
     developer_ergonomics: 9.5
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 34.8
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     contracts:
@@ -200,14 +199,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/sunrise-sunset/refs/heads/main/screenshots/sunrise-sunset-2026-06-20T194659.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sunrise-sunset/sunrise-sunset-2026-06-20T194659.png
 security:
 - kind: domain-security
   name: Sunrise Sunset Domain Security

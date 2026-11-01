@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Two HundredX-operated Model Context Protocol servers reachable on the public internet — "HX BigQuery MCP Server" 2.0.0 at hx-bigquery-mcp.hundredx.com and "Jupyter MCP Server" 2.0.0 at jupyter-mcp.hun
@@ -45,17 +47,17 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/security/hundredx-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hundredx/security/hundredx-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/hundredx-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/security/hundredx-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hundredx/security/hundredx-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hundredx-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/security/hundredx-domain-security.yml
+  href: https://artifacts.apis.io/hundredx/security/hundredx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hundredx-domain-security.yml
@@ -88,57 +90,57 @@ common:
   type: PrivacyPolicy
   url: https://hundredx.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/well-known/hundredx-well-known.yml
+  href: https://artifacts.apis.io/hundredx/well-known/hundredx-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hundredx-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/well-known/hundredx-security.txt
+  href: https://artifacts.apis.io/hundredx/well-known/hundredx-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/hundredx-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/authentication/hundredx-authentication.yml
+  href: https://artifacts.apis.io/hundredx/authentication/hundredx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hundredx-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/scopes/hundredx-scopes.yml
+  href: https://artifacts.apis.io/hundredx/scopes/hundredx-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hundredx-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/conformance/hundredx-conformance.yml
+  href: https://artifacts.apis.io/hundredx/conformance/hundredx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hundredx-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/errors/hundredx-problem-types.yml
+  href: https://artifacts.apis.io/hundredx/errors/hundredx-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hundredx-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/lifecycle/hundredx-lifecycle.yml
+  href: https://artifacts.apis.io/hundredx/lifecycle/hundredx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hundredx-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/conventions/hundredx-conventions.yml
+  href: https://artifacts.apis.io/hundredx/conventions/hundredx-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hundredx-conventions.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/plans/hundredx-plans-pricing.yml
+  href: https://artifacts.apis.io/hundredx/plans/hundredx-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hundredx-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/rate-limits/hundredx-rate-limits.yml
+  href: https://artifacts.apis.io/hundredx/rate-limits/hundredx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hundredx-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/llms/hundredx-llms.txt
+  href: https://artifacts.apis.io/hundredx/llms/hundredx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hundredx-llms.txt
@@ -162,7 +164,7 @@ plans:
 - name: Hundredx Plans Pricing
   plan_count: 0
   slug: hundredx-plans-pricing
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Hundredx Rate Limits
@@ -174,7 +176,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 23.8
+  composite: 24.1
   coverage:
     artifact_dirs: 15
     catalog_earned: 35.0
@@ -182,15 +184,15 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 71.7
+    discoverability: 61.7
     operational_transparency: 10.5
-  previous_composite: 23.7
+  previous_composite: 24.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -200,14 +202,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/screenshots/hundredx-2026-09-02T145756.png
+screenshot: https://apis.io/screenshots/hundredx/hundredx-2026-09-02T145756.png
 security:
 - kind: authentication
   name: Hundredx Authentication

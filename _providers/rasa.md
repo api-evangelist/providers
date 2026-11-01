@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.1
-  scored_at: '2026-10-17'
+  score: 25.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: The Tracker API from Rasa — 7 operation(s) for tracker.
   name: Rasa Tracker API
   slug: rasa-tracker-api
-artifact_total: 15
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Rasa SDK - Action Server Endpoint Domain API
   slug: open-rasa-domain-api
@@ -92,7 +91,7 @@ collections:
   slug: open-rasa-tracker-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/plans/rasa-plans-pricing.yml
+  href: https://artifacts.apis.io/rasa/plans/rasa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rasa-plans-pricing.yml
@@ -101,82 +100,82 @@ common:
   type: Blog
   url: https://rasa.com/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/capabilities/rasa-capability-edges.yml
+  href: https://artifacts.apis.io/rasa/capabilities/rasa-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rasa-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/overlays/rasa-action-server-overlay.yaml
+  href: https://artifacts.apis.io/rasa/overlays/rasa-action-server-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rasa-action-server-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/security/rasa-domain-security.yml
+  href: https://artifacts.apis.io/rasa/security/rasa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rasa-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/agentic-access/rasa-agentic-access.yml
+  href: https://artifacts.apis.io/rasa/agentic-access/rasa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rasa-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/authentication/rasa-authentication.yml
+  href: https://artifacts.apis.io/rasa/authentication/rasa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rasa-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/conventions/rasa-conventions.yml
+  href: https://artifacts.apis.io/rasa/conventions/rasa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rasa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/conformance/rasa-conformance.yml
+  href: https://artifacts.apis.io/rasa/conformance/rasa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rasa-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/packages/rasa-packages.yml
+  href: https://artifacts.apis.io/rasa/packages/rasa-packages.yml
   title: ''
   type: Packages
   url: packages/rasa-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/packages/rasa-packages.yml
+  href: https://artifacts.apis.io/rasa/packages/rasa-packages.yml
   title: ''
   type: SDKs
   url: packages/rasa-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/cli/rasa-cli.yml
+  href: https://artifacts.apis.io/rasa/cli/rasa-cli.yml
   title: ''
   type: CLI
   url: cli/rasa-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/mcp/rasa-mcp.yml
+  href: https://artifacts.apis.io/rasa/mcp/rasa-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rasa-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rasa/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/llms/rasa-llms.txt
+  href: https://artifacts.apis.io/rasa/llms/rasa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rasa-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/well-known/rasa-well-known.yml
+  href: https://artifacts.apis.io/rasa/well-known/rasa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rasa-well-known.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/sandbox/rasa-sandbox.yml
+  href: https://artifacts.apis.io/rasa/sandbox/rasa-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/rasa-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/lifecycle/rasa-lifecycle.yml
+  href: https://artifacts.apis.io/rasa/lifecycle/rasa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rasa-lifecycle.yml
@@ -185,7 +184,7 @@ common:
   type: Deprecation
   url: https://rasa.com/docs/reference/changelogs/compatibility-matrix/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/changelog/rasa-changelog.yml
+  href: https://artifacts.apis.io/rasa/changelog/rasa-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rasa-changelog.yml
@@ -231,6 +230,14 @@ common:
   url: https://rasa.com
 created: '2026-07-17'
 description: Rasa is an open-core conversational AI framework for enterprises, built by Rasa Technologies GmbH, that natively leverages generative AI through CALM (Conversational AI with Language Models) to build reliable text and voice assistants. Rasa Pro is the pro-code framework (with Flows, custom actions, channel connectors, multi-LLM routing, observability and Kubernetes deployment); Rasa Studio is the companion no-code UI; and Rasa Open Source provides the underlying NLU and dialogue-management framework. The self-hosted runtime exposes an HTTP API for managing conversation trackers and training, testing and loading models, plus a Python SDK action server for custom actions.
+finops:
+- has_sources: true
+  method: derived
+  name: Rasa Finops
+  primary_unit: ''
+  service_category: ''
+  slug: rasa-finops
+  template: true
 image: https://rasa.com/favicon.ico
 layout: provider
 modified: '2026-10-06'
@@ -245,26 +252,26 @@ plans:
 - name: Rasa Plans Pricing
   plan_count: 2
   slug: rasa-plans-pricing
-random_paper: 5
+random_paper: 15
 score:
   band: developing
-  composite: 46.0
+  composite: 46.3
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 40.0
     catalog_earned_first_party: 8.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 42.2
     developer_ergonomics: 85.7
-    discoverability: 64.3
-    operational_transparency: 26.3
-  previous_composite: 42.1
+    discoverability: 57.1
+    operational_transparency: 28.9
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -281,13 +288,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/screenshots/rasa-2026-08-17T081447.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rasa/rasa-2026-08-17T081447.png
 security:
 - kind: authentication
   name: Rasa Authentication
@@ -297,6 +305,12 @@ security:
   name: Rasa Domain Security
   slug: rasa-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Send a message to a conversation and read the tracker
+  slug: rasa-converse-with-assistant
+- name: Train a Rasa model and load it on the server
+  slug: rasa-train-and-load-model
 slug: rasa
 tags:
 - Company

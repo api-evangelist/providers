@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sunedison/refs/heads/main/security/sunedison-domain-security.yml
+  href: https://artifacts.apis.io/sunedison/security/sunedison-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sunedison-domain-security.yml
@@ -90,7 +92,7 @@ press:
 - date: ''
   title: SunEdison CEO resigns amid bankruptcy
   url: https://www.latimes.com/business/la-fi-sunedison-ceo-20160623-snap-story.html
-random_paper: 16
+random_paper: 0
 score:
   band: minimal
   composite: 7.6
@@ -116,14 +118,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sunedison/refs/heads/main/screenshots/sunedison-2026-06-20T194650.png
+screenshot: https://apis.io/screenshots/sunedison/sunedison-2026-06-20T194650.png
 security:
 - kind: domain-security
   name: Sunedison Domain Security

@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 25.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,9 +58,6 @@ collections:
   name: Checkiday - National Holiday and Event Events API
   slug: postman-checkiday-national-holiday-api-events-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Checkiday - National Holiday and Event Events API
   slug: open-checkiday-national-holiday-api-events-api
 - collection_type: open
@@ -66,17 +65,17 @@ collections:
   slug: open-checkiday
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/plans/checkiday-plans-pricing.yml
+  href: https://artifacts.apis.io/checkiday-national-holiday-api/plans/checkiday-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/checkiday-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/rate-limits/checkiday-rate-limits.yml
+  href: https://artifacts.apis.io/checkiday-national-holiday-api/rate-limits/checkiday-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/checkiday-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/finops/checkiday-finops.yml
+  href: https://artifacts.apis.io/checkiday-national-holiday-api/finops/checkiday-finops.yml
   title: ''
   type: FinOps
   url: finops/checkiday-finops.yml
@@ -97,17 +96,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/checkiday---national-holiday-and-event-api/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/agentic-access/checkiday-national-holiday-api-agentic-access.yml
+  href: https://artifacts.apis.io/checkiday-national-holiday-api/agentic-access/checkiday-national-holiday-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/checkiday-national-holiday-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/security/checkiday-national-holiday-api-domain-security.yml
+  href: https://artifacts.apis.io/checkiday-national-holiday-api/security/checkiday-national-holiday-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/checkiday-national-holiday-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/authentication/checkiday-national-holiday-api-authentication.yml
+  href: https://artifacts.apis.io/checkiday-national-holiday-api/authentication/checkiday-national-holiday-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/checkiday-national-holiday-api-authentication.yml
@@ -172,22 +171,22 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/json-ld/checkiday-national-holiday-api-context.jsonld
+  href: https://artifacts.apis.io/checkiday-national-holiday-api/json-ld/checkiday-national-holiday-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/checkiday-national-holiday-api-context.jsonld
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/vocabulary/checkiday-national-holiday-api-vocabulary.yml
+  href: https://artifacts.apis.io/checkiday-national-holiday-api/vocabulary/checkiday-national-holiday-api-vocabulary.yml
   title: ''
   type: Resources
   url: vocabulary/checkiday-national-holiday-api-vocabulary.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/rules/checkiday-rules.yml
+  href: https://artifacts.apis.io/checkiday-national-holiday-api/rules/checkiday-rules.yml
   title: ''
   type: Resources
   url: rules/checkiday-rules.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/finops/checkiday-finops.yml
+  href: https://artifacts.apis.io/checkiday-national-holiday-api/finops/checkiday-finops.yml
   title: ''
   type: Resources
   url: finops/checkiday-finops.yml
@@ -204,13 +203,13 @@ examples:
   name: Checkiday Search Example
   slug: checkiday-search-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Checkiday Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: requests
+  service_category: ''
   slug: checkiday-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/checkiday-national-holiday-api.png
 json_schemas:
 - name: Checkiday Event Detail
@@ -253,10 +252,13 @@ overview: 'Checkiday - National Holiday and Event API publishes 1 API contract i
 
   Checkiday - National Holiday and Event API''s developer surface includes authentication, developer portal, signup flow, pricing, support, engineering blog, and 23 more developer resources.'
 plans:
+- name: Checkiday National Holiday Api Price Estimates
+  plan_count: 0
+  slug: checkiday-national-holiday-api-price-estimates
 - name: Checkiday Plans Pricing
   plan_count: 5
   slug: checkiday-plans-pricing
-random_paper: 12
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Checkiday Rate Limits
@@ -286,8 +288,8 @@ rules:
     warn: 2
   slug: checkiday-rules
 score:
-  band: developing
-  composite: 44.6
+  band: strong
+  composite: 56.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 64.5
@@ -295,18 +297,15 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.5
+  delta: -4.2
   facets:
-    access_clarity: 25.0
+    access_clarity: 52.6
     contract_governance: 13.6
     contract_quality: 66.9
-    developer_ergonomics: 57.1
+    developer_ergonomics: 63.1
     discoverability: 73.2
-    operational_transparency: 34.2
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 52.1
+    operational_transparency: 44.7
+  previous_composite: 60.2
   provenance:
     agentic_access: derived
     contracts:
@@ -319,15 +318,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/screenshots/checkiday-national-holiday-api-2026-06-20T174241.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/checkiday-national-holiday-api/checkiday-national-holiday-api-2026-06-20T174241.png
 security:
 - kind: authentication
   name: Checkiday National Holiday Api Authentication

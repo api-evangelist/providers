@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Agent-driven commerce over the official 52TOYS Shopify storefront via the Universal Commerce Protocol MCP endpoint — catalog search, cart, and buyer-approved checkout. Read-only catalog browsing is un
   name: 52TOYS Agentic Commerce (UCP)
   slug: 52toys-agentic-commerce-ucp
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -50,42 +52,42 @@ common:
   type: DeveloperPortal
   url: https://hi52toys.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/llms/52toys-llms.txt
+  href: https://artifacts.apis.io/52toys/llms/52toys-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/52toys-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/mcp/52toys-mcp.yml
+  href: https://artifacts.apis.io/52toys/mcp/52toys-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/52toys-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/52toys/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/authentication/52toys-authentication.yml
+  href: https://artifacts.apis.io/52toys/authentication/52toys-authentication.yml
   title: ''
   type: Authentication
   url: authentication/52toys-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/scopes/52toys-scopes.yml
+  href: https://artifacts.apis.io/52toys/scopes/52toys-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/52toys-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/conventions/52toys-conventions.yml
+  href: https://artifacts.apis.io/52toys/conventions/52toys-conventions.yml
   title: ''
   type: Conventions
   url: conventions/52toys-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/well-known/52toys-well-known.yml
+  href: https://artifacts.apis.io/52toys/well-known/52toys-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/52toys-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/security/52toys-domain-security.yml
+  href: https://artifacts.apis.io/52toys/security/52toys-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/52toys-domain-security.yml
@@ -125,7 +127,7 @@ overview: '52TOYS is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   52TOYS''s developer surface includes authentication, signup flow, support, and 12 more developer resources.'
-random_paper: 16
+random_paper: 14
 scopes:
 - name: 52Toys Scopes
   scope_count: 4
@@ -133,7 +135,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 22.1
+  composite: 21.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -141,15 +143,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.0
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 22.0
+  previous_composite: 21.1
   provenance:
     mcp: platform-generated
     skills: derived
@@ -159,14 +161,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/screenshots/52toys-2026-07-25T181212.png
+screenshot: https://apis.io/screenshots/52toys/52toys-2026-07-25T181212.png
 security:
 - kind: authentication
   name: 52Toys Authentication
@@ -176,6 +178,10 @@ security:
   name: 52Toys Domain Security
   slug: 52toys-domain-security
   summary_line: TLSv1.3
+skill_count: 1
+skills:
+- name: Shop the 52TOYS store as an agent (UCP)
+  slug: 52toys-agentic-shopping
 slug: 52toys
 tags:
 - Company

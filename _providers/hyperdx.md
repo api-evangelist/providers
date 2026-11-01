@@ -28,17 +28,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.9
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 36.1
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: The documented v1 API on HyperDX Cloud, covering alerts, dashboards and chart series queries at api.hyperdx.io under /api/v1, authenticated with a Bearer personal API key. Documented as prose on hyper
   name: HyperDX Cloud API (v1)
@@ -91,14 +93,14 @@ apis:
   description: Endpoints for managing webhooks
   name: HyperDX Webhooks API
   slug: hyperdx-webhooks-api
-artifact_total: 18
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Hyperdx Webhooks
   slug: hyperdx-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/capabilities/hyperdx-capability-edges.yml
+  href: https://artifacts.apis.io/hyperdx/capabilities/hyperdx-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hyperdx-capability-edges.yml
@@ -107,12 +109,12 @@ common:
   type: License
   url: https://github.com/hyperdxio/hyperdx/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/security/hyperdx-domain-security.yml
+  href: https://artifacts.apis.io/hyperdx/security/hyperdx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hyperdx-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/authentication/hyperdx-authentication.yml
+  href: https://artifacts.apis.io/hyperdx/authentication/hyperdx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hyperdx-authentication.yml
@@ -173,97 +175,97 @@ common:
   type: SourceCode
   url: https://github.com/hyperdxio/hyperdx
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/packages/hyperdx-packages.yml
+  href: https://artifacts.apis.io/hyperdx/packages/hyperdx-packages.yml
   title: ''
   type: Packages
   url: packages/hyperdx-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/packages/hyperdx-packages.yml
+  href: https://artifacts.apis.io/hyperdx/packages/hyperdx-packages.yml
   title: ''
   type: SDKs
   url: packages/hyperdx-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/cli/hyperdx-cli.yml
+  href: https://artifacts.apis.io/hyperdx/cli/hyperdx-cli.yml
   title: ''
   type: CLI
   url: cli/hyperdx-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/sandbox/hyperdx-sandbox.yml
+  href: https://artifacts.apis.io/hyperdx/sandbox/hyperdx-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hyperdx-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/plans/hyperdx-plans-pricing.yml
+  href: https://artifacts.apis.io/hyperdx/plans/hyperdx-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hyperdx-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/rate-limits/hyperdx-rate-limits.yml
+  href: https://artifacts.apis.io/hyperdx/rate-limits/hyperdx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hyperdx-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/changelog/hyperdx-changelog.yml
+  href: https://artifacts.apis.io/hyperdx/changelog/hyperdx-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hyperdx-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/lifecycle/hyperdx-lifecycle.yml
+  href: https://artifacts.apis.io/hyperdx/lifecycle/hyperdx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hyperdx-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/conventions/hyperdx-conventions.yml
+  href: https://artifacts.apis.io/hyperdx/conventions/hyperdx-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hyperdx-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/errors/hyperdx-problem-types.yml
+  href: https://artifacts.apis.io/hyperdx/errors/hyperdx-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hyperdx-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/data-model/hyperdx-data-model.yml
+  href: https://artifacts.apis.io/hyperdx/data-model/hyperdx-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hyperdx-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/mcp/hyperdx-mcp.yml
+  href: https://artifacts.apis.io/hyperdx/mcp/hyperdx-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hyperdx-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/mcp/hyperdx-tool-crosswalk.yml
+  href: https://artifacts.apis.io/hyperdx/mcp/hyperdx-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/hyperdx-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hyperdx/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/asyncapi/hyperdx-webhooks.yml
+  href: https://artifacts.apis.io/hyperdx/asyncapi/hyperdx-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hyperdx-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/conformance/hyperdx-conformance.yml
+  href: https://artifacts.apis.io/hyperdx/conformance/hyperdx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hyperdx-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/llms/hyperdx-llms.txt
+  href: https://artifacts.apis.io/hyperdx/llms/hyperdx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hyperdx-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/overlays/hyperdx-external-api-overlay.yaml
+  href: https://artifacts.apis.io/hyperdx/overlays/hyperdx-external-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hyperdx-external-api-overlay.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/_original/hyperdx-external-api-openapi.json
+  href: https://artifacts.apis.io/hyperdx/openapi/_original/hyperdx-external-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/hyperdx-external-api-openapi.json
@@ -273,6 +275,14 @@ common:
   url: https://github.com/hyperdxio/hyperdx/blob/398270105758da5a2724906749886a0a0587a177/packages/api/.spectral.yaml
 created: '2026-08-27'
 description: HyperDX is an open-source observability platform that unifies logs, metrics, traces, session replay and errors on top of ClickHouse and OpenTelemetry, giving engineers one place to search raw events, correlate a log line to its trace and that span to a session replay, build dashboards and run threshold alerts. It ships as an MIT-licensed self-hostable stack (the app, a Node.js API, an opinionated OpenTelemetry collector distribution and ClickHouse), as HyperDX Cloud at hyperdx.io, and as the user interface of ClickStack after ClickHouse acquired the company in March 2025. Its developer surface is a REST management API for dashboards, alerts, sources, saved searches, connections and webhooks, plus a first-party MCP server and an agent-friendly terminal CLI.
+finops:
+- has_sources: true
+  method: derived
+  name: Hyperdx Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: hyperdx-finops
+  template: false
 image: https://avatars.githubusercontent.com/u/130113031?v=4
 layout: provider
 mcp_servers:
@@ -292,9 +302,12 @@ overview: 'HyperDX publishes 11 API contracts indexed on the [APIs.io](https://a
   HyperDX''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Hyperdx Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: hyperdx-plans-pricing
-random_paper: 2
+- name: Hyperdx Price Estimates
+  plan_count: 0
+  slug: hyperdx-price-estimates
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Hyperdx Rate Limits
@@ -314,23 +327,23 @@ rules:
   slug: hyperdx-hyperdx-spectral-rules
 score:
   band: exemplar
-  composite: 68.1
+  composite: 69.5
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 72.0
+    artifact_dirs: 27
+    catalog_earned: 75.0
     catalog_earned_first_party: 35.0
-    catalog_gap: 43.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.6
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 50.0
-    contract_quality: 59.9
+    contract_quality: 56.5
     developer_ergonomics: 80.4
-    discoverability: 68.3
-    operational_transparency: 63.2
-  previous_composite: 62.5
+    discoverability: 65.0
+    operational_transparency: 65.8
+  previous_composite: 67.9
   provenance:
     conformance: derived
     contracts:
@@ -346,13 +359,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/screenshots/hyperdx-2026-09-02T145808.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hyperdx/hyperdx-2026-09-02T145808.png
 security:
 - kind: authentication
   name: Hyperdx Authentication
@@ -362,6 +376,18 @@ security:
   name: Hyperdx Domain Security
   slug: hyperdx-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: hyperdx-configure-source
+  slug: hyperdx-configure-source
+- name: hyperdx-connect-mcp
+  slug: hyperdx-connect-mcp
+- name: hyperdx-create-alert
+  slug: hyperdx-create-alert
+- name: hyperdx-investigate-incident
+  slug: hyperdx-investigate-incident
+- name: hyperdx-manage-dashboards
+  slug: hyperdx-manage-dashboards
 slug: hyperdx
 tags:
 - Company

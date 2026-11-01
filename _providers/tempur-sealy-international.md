@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: E-commerce integration API for the Tempur-Pedic brand enabling retailers, affiliates, and platform partners to access product catalogs, check inventory, manage orders, and track shipments for Tempur-P
@@ -45,27 +47,27 @@ apis:
 artifact_total: 12
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/plans/tempur-sealy-international-plans-pricing.yml
+  href: https://artifacts.apis.io/tempur-sealy-international/plans/tempur-sealy-international-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tempur-sealy-international-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/rate-limits/tempur-sealy-international-rate-limits.yml
+  href: https://artifacts.apis.io/tempur-sealy-international/rate-limits/tempur-sealy-international-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tempur-sealy-international-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/finops/tempur-sealy-international-finops.yml
+  href: https://artifacts.apis.io/tempur-sealy-international/finops/tempur-sealy-international-finops.yml
   title: ''
   type: FinOps
   url: finops/tempur-sealy-international-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/security/tempur-sealy-international-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tempur-sealy-international/security/tempur-sealy-international-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tempur-sealy-international-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/security/tempur-sealy-international-domain-security.yml
+  href: https://artifacts.apis.io/tempur-sealy-international/security/tempur-sealy-international-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tempur-sealy-international-domain-security.yml
@@ -90,17 +92,17 @@ common:
   type: Corporate Responsibility
   url: https://www.tempursealy.com/sustainability
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/json-ld/tempur-sealy-international-context.jsonld
+  href: https://artifacts.apis.io/tempur-sealy-international/json-ld/tempur-sealy-international-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tempur-sealy-international-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/json-schema/tempur-sealy-international-product-schema.json
+  href: https://artifacts.apis.io/tempur-sealy-international/json-schema/tempur-sealy-international-product-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tempur-sealy-international-product-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/vocabulary/tempur-sealy-international-vocabulary.yml
+  href: https://artifacts.apis.io/tempur-sealy-international/vocabulary/tempur-sealy-international-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tempur-sealy-international-vocabulary.yml
@@ -118,7 +120,7 @@ finops:
 - has_sources: false
   method: generated
   name: Tempur Sealy International Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: tempur-sealy-international-finops
   template: true
@@ -168,7 +170,7 @@ press:
 - date: ''
   title: Tempur Sealy integrates A.I. in newest ActiveBreeze smart ...
   url: https://www.furnituretoday.com/bedding-manufacturers/tempur-sealy-integrates-a-i-in-newest-activebreeze-smart-bed/
-random_paper: 17
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Tempur Sealy International Rate Limits
@@ -187,7 +189,7 @@ rules:
   slug: tempur-sealy-international-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 16.4
+  composite: 17.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 61.8
@@ -195,29 +197,29 @@ score:
     catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 14.7
     developer_ergonomics: 2.4
     discoverability: 66.1
-    operational_transparency: 7.9
-  previous_composite: 17.9
+    operational_transparency: 18.4
+  previous_composite: 17.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/screenshots/tempur-sealy-international-2026-06-20T195104.png
+screenshot: https://apis.io/screenshots/tempur-sealy-international/tempur-sealy-international-2026-06-20T195104.png
 security:
 - kind: domain-security
   name: Tempur Sealy International Domain Security

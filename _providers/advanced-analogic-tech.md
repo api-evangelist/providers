@@ -25,7 +25,7 @@ name: Advanced Analogic Technologies (AnalogicTech)
 nav: Providers
 network: true
 overview: Advanced Analogic Technologies (AnalogicTech) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Power Management, Integrated Circuits, and Analog.
-random_paper: 6
+random_paper: 2
 slug: advanced-analogic-tech
 tags:
 - Company

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: 'The Nixpacks command-line interface is the primary interface for generating build plans and producing Docker images from application source. Core commands include `nixpacks plan` (emit the JSON build '
@@ -57,7 +59,7 @@ common:
   type: ContributionGuide
   url: https://github.com/railwayapp/nixpacks/blob/main/CONTRIBUTING.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nixpacks/refs/heads/main/security/nixpacks-domain-security.yml
+  href: https://artifacts.apis.io/nixpacks/security/nixpacks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nixpacks-domain-security.yml
@@ -126,11 +128,11 @@ modified: '2026-05-24'
 name: Nixpacks
 nav: Providers
 network: true
-overview: 'Nixpacks is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Build Tools, Buildpacks, Docker, OCI, and Nix.
+overview: 'Nixpacks is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Build Tools, Cloud Native Buildpacks, Docker, OCI, and Nix.
 
 
   Nixpacks'' developer surface includes documentation, getting-started guide, changelog, and 13 more developer resources.'
-random_paper: 7
+random_paper: 1
 score:
   band: emerging
   composite: 13.3
@@ -156,14 +158,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nixpacks/refs/heads/main/screenshots/nixpacks-2026-06-20T190333.png
+screenshot: https://apis.io/screenshots/nixpacks/nixpacks-2026-06-20T190333.png
 security:
 - kind: domain-security
   name: Nixpacks Domain Security
@@ -172,7 +174,7 @@ security:
 slug: nixpacks
 tags:
 - Build Tools
-- Buildpacks
+- Cloud Native Buildpacks
 - Docker
 - OCI
 - Nix

@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.2
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: The Fantasy Sports APIs provide URIs used to access fantasy sports data, supporting retrieval of Fantasy Football, Baseball, Basketball and Hockey data including game, league, team, player, roster and
@@ -55,7 +57,7 @@ apis:
 artifact_total: 12
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/finops/yahoo-finops.yml
+  href: https://artifacts.apis.io/yahoo/finops/yahoo-finops.yml
   title: ''
   type: FinOps
   url: finops/yahoo-finops.yml
@@ -108,97 +110,97 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/yahoo
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/security/yahoo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/yahoo/security/yahoo-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/yahoo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/security/yahoo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/yahoo/security/yahoo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/yahoo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/security/yahoo-domain-security.yml
+  href: https://artifacts.apis.io/yahoo/security/yahoo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yahoo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/well-known/yahoo-security.txt
+  href: https://artifacts.apis.io/yahoo/well-known/yahoo-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/yahoo-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/well-known/yahoo-well-known.yml
+  href: https://artifacts.apis.io/yahoo/well-known/yahoo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/yahoo-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/llms/yahoo-llms.txt
+  href: https://artifacts.apis.io/yahoo/llms/yahoo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/yahoo-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/authentication/yahoo-authentication.yml
+  href: https://artifacts.apis.io/yahoo/authentication/yahoo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/yahoo-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/scopes/yahoo-scopes.yml
+  href: https://artifacts.apis.io/yahoo/scopes/yahoo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/yahoo-scopes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/rate-limits/yahoo-rate-limits.yml
+  href: https://artifacts.apis.io/yahoo/rate-limits/yahoo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/yahoo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/plans/yahoo-plans-pricing.yml
+  href: https://artifacts.apis.io/yahoo/plans/yahoo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/yahoo-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/errors/yahoo-error-codes.yml
+  href: https://artifacts.apis.io/yahoo/errors/yahoo-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/yahoo-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/lifecycle/yahoo-lifecycle.yml
+  href: https://artifacts.apis.io/yahoo/lifecycle/yahoo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/yahoo-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/lifecycle/yahoo-lifecycle.yml
+  href: https://artifacts.apis.io/yahoo/lifecycle/yahoo-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/yahoo-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/changelog/yahoo-changelog.yml
+  href: https://artifacts.apis.io/yahoo/changelog/yahoo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/yahoo-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/conventions/yahoo-conventions.yml
+  href: https://artifacts.apis.io/yahoo/conventions/yahoo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/yahoo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/conformance/yahoo-conformance.yml
+  href: https://artifacts.apis.io/yahoo/conformance/yahoo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/yahoo-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/packages/yahoo-packages.yml
+  href: https://artifacts.apis.io/yahoo/packages/yahoo-packages.yml
   title: ''
   type: Packages
   url: packages/yahoo-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/data-model/yahoo-data-model.yml
+  href: https://artifacts.apis.io/yahoo/data-model/yahoo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/yahoo-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/components/yahoo-components.yml
+  href: https://artifacts.apis.io/yahoo/components/yahoo-components.yml
   title: ''
   type: Components
   url: components/yahoo-components.yml
@@ -206,11 +208,11 @@ created: '2025-02-08'
 description: Yahoo is a consumer internet and advertising-technology company operating Yahoo Mail, Yahoo Finance, Yahoo Sports and Yahoo Search alongside one of the largest independent demand-side platforms in programmatic advertising. Its public API surface splits cleanly in two. On the consumer side, the Yahoo Fantasy Sports API exposes fantasy football, baseball, basketball and hockey game, league, team, player, roster and transaction data over a composed URI tree at fantasysports.yahooapis.com, secured by a three-legged OAuth 2.0 flow against the Yahoo identity service, which itself publishes a full OpenID Connect discovery document. On the enterprise side, Yahoo Ad Tech ships the DSP Traffic API for programmatic campaign management, the DSP Reporting API for large-scale campaign measurement, the server-to-server Yahoo Conversion API, and the DataX API for audience and taxonomy exchange with data partners - all gated behind an existing DSP seat or a partner onboarding agreement and authenticated
   with a two-legged client-credentials JWT flow. Yahoo publishes no OpenAPI for any of these surfaces, distributing a public Postman collection and an llms.txt documentation index instead.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Yahoo Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: yahoo-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yahoo.png
@@ -255,7 +257,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 41.4
+  composite: 41.6
   coverage:
     artifact_dirs: 23
     catalog_earned: 52.0
@@ -263,15 +265,15 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 59.5
-    discoverability: 78.6
-    operational_transparency: 68.4
-  previous_composite: 42.9
+    developer_ergonomics: 61.9
+    discoverability: 71.4
+    operational_transparency: 71.1
+  previous_composite: 41.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -281,14 +283,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/screenshots/yahoo-2026-06-20T201726.png
+screenshot: https://apis.io/screenshots/yahoo/yahoo-2026-06-20T201726.png
 security:
 - kind: authentication
   name: Yahoo Authentication

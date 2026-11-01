@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,12 +38,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/techsee/refs/heads/main/security/techsee-domain-security.yml
+  href: https://artifacts.apis.io/techsee/security/techsee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/techsee-domain-security.yml
@@ -82,52 +84,52 @@ common:
   type: Login
   url: https://app.techsee.me/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/techsee/refs/heads/main/packages/techsee-packages.yml
+  href: https://artifacts.apis.io/techsee/packages/techsee-packages.yml
   title: ''
   type: Packages
   url: packages/techsee-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/techsee/refs/heads/main/packages/techsee-packages.yml
+  href: https://artifacts.apis.io/techsee/packages/techsee-packages.yml
   title: ''
   type: SDKs
   url: packages/techsee-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/techsee/refs/heads/main/llms/techsee-llms.txt
+  href: https://artifacts.apis.io/techsee/llms/techsee-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/techsee-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/techsee/refs/heads/main/plans/techsee-plans-pricing.yml
+  href: https://artifacts.apis.io/techsee/plans/techsee-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/techsee-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/techsee/refs/heads/main/rate-limits/techsee-rate-limits.yml
+  href: https://artifacts.apis.io/techsee/rate-limits/techsee-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/techsee-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/techsee/refs/heads/main/mcp/techsee-mcp.yml
+  href: https://artifacts.apis.io/techsee/mcp/techsee-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/techsee-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/techsee/refs/heads/main/well-known/techsee-well-known.yml
+  href: https://artifacts.apis.io/techsee/well-known/techsee-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/techsee-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/techsee/refs/heads/main/authentication/techsee-authentication.yml
+  href: https://artifacts.apis.io/techsee/authentication/techsee-authentication.yml
   title: ''
   type: Authentication
   url: authentication/techsee-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/techsee/refs/heads/main/scopes/techsee-scopes.yml
+  href: https://artifacts.apis.io/techsee/scopes/techsee-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/techsee-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/techsee/refs/heads/main/conformance/techsee-conformance.yml
+  href: https://artifacts.apis.io/techsee/conformance/techsee-conformance.yml
   title: ''
   type: Conformance
   url: conformance/techsee-conformance.yml
@@ -151,7 +153,7 @@ plans:
 - name: Techsee Plans Pricing
   plan_count: 0
   slug: techsee-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Techsee Rate Limits
@@ -163,23 +165,23 @@ scopes:
   summary_line: 1 scope
 score:
   band: emerging
-  composite: 22.4
+  composite: 23.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 51.7
-    operational_transparency: 2.6
-  previous_composite: 22.5
+    discoverability: 48.3
+    operational_transparency: 5.3
+  previous_composite: 23.7
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -189,14 +191,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/techsee/refs/heads/main/screenshots/techsee-2026-09-02T162706.png
+screenshot: https://apis.io/screenshots/techsee/techsee-2026-09-02T162706.png
 security:
 - kind: authentication
   name: Techsee Authentication
@@ -216,7 +218,7 @@ tags:
 - Computer Vision
 - Augmented Reality
 - Artificial Intelligence
-- Field Service
+- Field Service Management
 - Remote Support
 - Video
 - Telecommunications

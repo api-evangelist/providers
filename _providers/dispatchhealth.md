@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'An OAuth 2.1-protected Model Context Protocol (MCP) server exposed on DispatchHealth''s own host by the WordPress MCP adapter running on www.dispatchhealth.com. Discovery is fully machine-readable: RFC'
@@ -44,37 +46,37 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dispatchhealth/refs/heads/main/security/dispatchhealth-domain-security.yml
+  href: https://artifacts.apis.io/dispatchhealth/security/dispatchhealth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dispatchhealth-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dispatchhealth/refs/heads/main/mcp/dispatchhealth-mcp.yml
+  href: https://artifacts.apis.io/dispatchhealth/mcp/dispatchhealth-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dispatchhealth-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dispatchhealth/refs/heads/main/well-known/dispatchhealth-well-known.yml
+  href: https://artifacts.apis.io/dispatchhealth/well-known/dispatchhealth-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dispatchhealth-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dispatchhealth/refs/heads/main/authentication/dispatchhealth-authentication.yml
+  href: https://artifacts.apis.io/dispatchhealth/authentication/dispatchhealth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dispatchhealth-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dispatchhealth/refs/heads/main/scopes/dispatchhealth-scopes.yml
+  href: https://artifacts.apis.io/dispatchhealth/scopes/dispatchhealth-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/dispatchhealth-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dispatchhealth/refs/heads/main/conformance/dispatchhealth-conformance.yml
+  href: https://artifacts.apis.io/dispatchhealth/conformance/dispatchhealth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dispatchhealth-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dispatchhealth/refs/heads/main/security/dispatchhealth-trust-center.yml
+  href: https://artifacts.apis.io/dispatchhealth/security/dispatchhealth-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/dispatchhealth-trust-center.yml
@@ -83,7 +85,7 @@ common:
   type: Compliance
   url: https://trust.dispatchhealth.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dispatchhealth/refs/heads/main/llms/dispatchhealth-llms.txt
+  href: https://artifacts.apis.io/dispatchhealth/llms/dispatchhealth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dispatchhealth-llms.txt
@@ -168,11 +170,11 @@ modified: '2026-07-31'
 name: DispatchHealth
 nav: Providers
 network: true
-overview: 'DispatchHealth is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Systems, Hospital at Home, and Home Health.
+overview: 'DispatchHealth is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Systems, Hospital at Home, and Home Care.
 
 
   DispatchHealth''s developer surface includes authentication, engineering blog, support, FAQ, pricing, signup flow, and 20 more developer resources.'
-random_paper: 4
+random_paper: 14
 scopes:
 - name: Dispatchhealth Scopes
   scope_count: 1
@@ -180,7 +182,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 28.4
+  composite: 29.1
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -188,14 +190,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.8
-    operational_transparency: 2.6
+    discoverability: 66.7
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -203,7 +205,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 28.3
+  previous_composite: 29.1
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -217,14 +219,14 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dispatchhealth/refs/heads/main/screenshots/dispatchhealth-2026-08-07T164356.png
+screenshot: https://apis.io/screenshots/dispatchhealth/dispatchhealth-2026-08-07T164356.png
 security:
 - kind: authentication
   name: Dispatchhealth Authentication
@@ -244,7 +246,7 @@ tags:
 - Healthcare
 - Health Systems
 - Hospital at Home
-- Home Health
+- Home Care
 - Urgent Care
 - Care Delivery
 - Medical Services

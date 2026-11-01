@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/closing-theory-studios/refs/heads/main/security/closing-theory-studios-domain-security.yml
+  href: https://artifacts.apis.io/closing-theory-studios/security/closing-theory-studios-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/closing-theory-studios-domain-security.yml
@@ -75,7 +77,7 @@ name: Closing Theory Studios
 nav: Providers
 network: true
 overview: Closing Theory Studios is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile Games, Game Studio, and Real Estate.
-random_paper: 21
+random_paper: 7
 score:
   band: minimal
   composite: 8.8
@@ -108,14 +110,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/closing-theory-studios/refs/heads/main/screenshots/closing-theory-studios-2026-07-25T205643.png
+screenshot: https://apis.io/screenshots/closing-theory-studios/closing-theory-studios-2026-07-25T205643.png
 security:
 - kind: domain-security
   name: Closing Theory Studios Domain Security

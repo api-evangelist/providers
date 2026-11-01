@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'White-label REST API for electronic invoicing integrated with Ecuador''s SRI: issue invoices, credit notes and retentions as JSON, with OAuth 2.0 auth, asynchronous webhooks for authorization status, a'
@@ -86,42 +88,42 @@ common:
   type: PrivacyPolicy
   url: https://taxo.co/ec/privacidad
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taxo/refs/heads/main/llms/taxo-llms.txt
+  href: https://artifacts.apis.io/taxo/llms/taxo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/taxo-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taxo/refs/heads/main/authentication/taxo-authentication.yml
+  href: https://artifacts.apis.io/taxo/authentication/taxo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/taxo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taxo/refs/heads/main/conventions/taxo-conventions.yml
+  href: https://artifacts.apis.io/taxo/conventions/taxo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/taxo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taxo/refs/heads/main/asyncapi/taxo-webhooks.yml
+  href: https://artifacts.apis.io/taxo/asyncapi/taxo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/taxo-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taxo/refs/heads/main/mcp/taxo-mcp.yml
+  href: https://artifacts.apis.io/taxo/mcp/taxo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/taxo-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taxo/refs/heads/main/conformance/taxo-conformance.yml
+  href: https://artifacts.apis.io/taxo/conformance/taxo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/taxo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taxo/refs/heads/main/lifecycle/taxo-lifecycle.yml
+  href: https://artifacts.apis.io/taxo/lifecycle/taxo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/taxo-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taxo/refs/heads/main/security/taxo-domain-security.yml
+  href: https://artifacts.apis.io/taxo/security/taxo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/taxo-domain-security.yml
@@ -140,24 +142,24 @@ overview: 'TAXO is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   TAXO''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 11 more developer resources.'
-random_paper: 4
+random_paper: 12
 score:
   band: thin
-  composite: 33.0
+  composite: 39.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 50.0
-    discoverability: 73.2
+    developer_ergonomics: 57.1
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -166,7 +168,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 32.9
+  previous_composite: 39.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -175,15 +177,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 22.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/taxo/refs/heads/main/screenshots/taxo-2026-09-02T162626.png
+screenshot: https://apis.io/screenshots/taxo/taxo-2026-09-02T162626.png
 security:
 - kind: authentication
   name: Taxo Authentication

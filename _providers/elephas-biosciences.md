@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The private backend API behind the Elephas Portal, the secure cloud-based web application through which clinicians, laboratories and research partners receive elive test reports and manage specimen re
@@ -97,52 +99,52 @@ common:
   type: Crunchbase
   url: https://www.crunchbase.com/organization/elephas-biosciences
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elephas-biosciences/refs/heads/main/well-known/elephas-biosciences-well-known.yml
+  href: https://artifacts.apis.io/elephas-biosciences/well-known/elephas-biosciences-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/elephas-biosciences-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elephas-biosciences/refs/heads/main/authentication/elephas-biosciences-authentication.yml
+  href: https://artifacts.apis.io/elephas-biosciences/authentication/elephas-biosciences-authentication.yml
   title: ''
   type: Authentication
   url: authentication/elephas-biosciences-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elephas-biosciences/refs/heads/main/scopes/elephas-biosciences-scopes.yml
+  href: https://artifacts.apis.io/elephas-biosciences/scopes/elephas-biosciences-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/elephas-biosciences-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elephas-biosciences/refs/heads/main/security/elephas-biosciences-domain-security.yml
+  href: https://artifacts.apis.io/elephas-biosciences/security/elephas-biosciences-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/elephas-biosciences-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elephas-biosciences/refs/heads/main/errors/elephas-biosciences-problem-types.yml
+  href: https://artifacts.apis.io/elephas-biosciences/errors/elephas-biosciences-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/elephas-biosciences-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elephas-biosciences/refs/heads/main/conventions/elephas-biosciences-conventions.yml
+  href: https://artifacts.apis.io/elephas-biosciences/conventions/elephas-biosciences-conventions.yml
   title: ''
   type: Conventions
   url: conventions/elephas-biosciences-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elephas-biosciences/refs/heads/main/conformance/elephas-biosciences-conformance.yml
+  href: https://artifacts.apis.io/elephas-biosciences/conformance/elephas-biosciences-conformance.yml
   title: ''
   type: Conformance
   url: conformance/elephas-biosciences-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/elephas-biosciences/refs/heads/main/plans/elephas-biosciences-plans-pricing.yml
+  href: https://artifacts.apis.io/elephas-biosciences/plans/elephas-biosciences-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/elephas-biosciences-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/elephas-biosciences/refs/heads/main/rate-limits/elephas-biosciences-rate-limits.yml
+  href: https://artifacts.apis.io/elephas-biosciences/rate-limits/elephas-biosciences-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/elephas-biosciences-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elephas-biosciences/refs/heads/main/llms/elephas-biosciences-llms.txt
+  href: https://artifacts.apis.io/elephas-biosciences/llms/elephas-biosciences-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/elephas-biosciences-llms.txt
@@ -179,7 +181,7 @@ plans:
 - name: Elephas Biosciences Plans Pricing
   plan_count: 0
   slug: elephas-biosciences-plans-pricing
-random_paper: 6
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Elephas Biosciences Rate Limits
@@ -191,7 +193,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.2
+  composite: 22.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -201,13 +203,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 21.2
+  previous_composite: 22.5
   provenance:
     conformance: first-party
   regulatory:
@@ -216,14 +218,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/elephas-biosciences/refs/heads/main/screenshots/elephas-biosciences-2026-09-02T145335.png
+screenshot: https://apis.io/screenshots/elephas-biosciences/elephas-biosciences-2026-09-02T145335.png
 security:
 - kind: authentication
   name: Elephas Biosciences Authentication

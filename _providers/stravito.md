@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 13.7
-  scored_at: '2026-10-17'
+  score: 16.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Stravito provides an AI‑powered customer intelligence platform.
@@ -36,37 +38,37 @@ common:
   type: Security
   url: https://hackerone.com/6c1a1442-7bd8-4bc7-a992-f327c7fcf284/embedded_submissions/new
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stravito/refs/heads/main/llms/stravito-llms.txt
+  href: https://artifacts.apis.io/stravito/llms/stravito-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stravito-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stravito/refs/heads/main/well-known/stravito-stravito-security.txt
+  href: https://artifacts.apis.io/stravito/well-known/stravito-stravito-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/stravito-stravito-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stravito/refs/heads/main/well-known/stravito-security.txt
+  href: https://artifacts.apis.io/stravito/well-known/stravito-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/stravito-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stravito/refs/heads/main/well-known/stravito-help-security.txt
+  href: https://artifacts.apis.io/stravito/well-known/stravito-help-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/stravito-help-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stravito/refs/heads/main/well-known/stravito-well-known.yml
+  href: https://artifacts.apis.io/stravito/well-known/stravito-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stravito-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stravito/refs/heads/main/hosts/stravito-hosts.yml
+  href: https://artifacts.apis.io/stravito/hosts/stravito-hosts.yml
   title: ''
   type: Hosts
   url: hosts/stravito-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stravito/refs/heads/main/vendors/stravito-vendors.yml
+  href: https://artifacts.apis.io/stravito/vendors/stravito-vendors.yml
   title: ''
   type: Vendors
   url: vendors/stravito-vendors.yml
@@ -91,12 +93,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/Stravito
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stravito/refs/heads/main/security/stravito-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/stravito/security/stravito-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/stravito-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stravito/refs/heads/main/security/stravito-domain-security.yml
+  href: https://artifacts.apis.io/stravito/security/stravito-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stravito-domain-security.yml
@@ -139,10 +141,10 @@ overview: 'Stravito is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Stravito''s developer surface includes documentation, engineering blog, support, getting-started guide, and 16 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: emerging
-  composite: 19.3
+  composite: 18.6
   coverage:
     artifact_dirs: 6
     catalog_earned: 30.0
@@ -150,13 +152,15 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 15.8
+  previous_composite: 18.6
   provenance:
     mcp: unknown
   regulatory:
@@ -165,8 +169,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

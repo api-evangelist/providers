@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,16 +25,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The single first-party API behind the Adgager platform and the dash.adgager.com client dashboard. A Laravel Lighthouse GraphQL endpoint exposing 118 queries and 141 mutations over the platform''s core '
   name: Adgager GraphQL API
   slug: adgager-graphql
-artifact_total: 5
+artifact_total: 7
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adgager/refs/heads/main/rate-limits/adgager-rate-limits.yml
+  href: https://artifacts.apis.io/adgager/rate-limits/adgager-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adgager-rate-limits.yml
@@ -69,32 +71,32 @@ common:
   type: BlogRSS
   url: https://blog.adgager.com/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adgager/refs/heads/main/llms/adgager-llms.txt
+  href: https://artifacts.apis.io/adgager/llms/adgager-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adgager-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adgager/refs/heads/main/plans/adgager-plans-pricing.yml
+  href: https://artifacts.apis.io/adgager/plans/adgager-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adgager-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adgager/refs/heads/main/lifecycle/adgager-lifecycle.yml
+  href: https://artifacts.apis.io/adgager/lifecycle/adgager-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adgager-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adgager/refs/heads/main/security/adgager-domain-security.yml
+  href: https://artifacts.apis.io/adgager/security/adgager-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adgager-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adgager/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/adgager/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adgager/refs/heads/main/packages/adgager-packages.yml
+  href: https://artifacts.apis.io/adgager/packages/adgager-packages.yml
   title: ''
   type: Packages
   url: packages/adgager-packages.yml
@@ -114,14 +116,14 @@ plans:
 - name: Adgager Plans Pricing
   plan_count: 8
   slug: adgager-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Adgager Rate Limits
   slug: adgager-rate-limits
 score:
-  band: thin
-  composite: 38.9
+  band: developing
+  composite: 39.5
   coverage:
     artifact_dirs: 19
     catalog_earned: 57.0
@@ -129,13 +131,13 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 69.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 35.1
     developer_ergonomics: 20.8
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -145,7 +147,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 38.8
+  previous_composite: 39.5
   provenance:
     conformance: derived
     mcp: derived
@@ -156,14 +158,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/adgager/refs/heads/main/screenshots/adgager-2026-10-11T092756.png
+screenshot: https://apis.io/screenshots/adgager/adgager-2026-10-11T092756.png
 security:
 - kind: authentication
   name: Adgager Authentication
@@ -173,6 +175,12 @@ security:
   name: Adgager Domain Security
   slug: adgager-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: adgager-read-adq-scores
+  slug: adgager-read-adq-scores
+- name: adgager-run-a-research-project
+  slug: adgager-run-a-research-project
 slug: adgager
 tags:
 - Company

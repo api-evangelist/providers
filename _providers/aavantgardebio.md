@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aavantgardebio/refs/heads/main/security/aavantgardebio-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aavantgardebio/security/aavantgardebio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aavantgardebio-vulnerability-disclosure.yml
@@ -53,27 +55,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/aavantgarde-bio
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aavantgardebio/refs/heads/main/well-known/aavantgardebio-well-known.yml
+  href: https://artifacts.apis.io/aavantgardebio/well-known/aavantgardebio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aavantgardebio-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aavantgardebio/refs/heads/main/well-known/aavantgardebio-security.txt
+  href: https://artifacts.apis.io/aavantgardebio/well-known/aavantgardebio-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/aavantgardebio-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aavantgardebio/refs/heads/main/conformance/aavantgardebio-conformance.yml
+  href: https://artifacts.apis.io/aavantgardebio/conformance/aavantgardebio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aavantgardebio-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aavantgardebio/refs/heads/main/security/aavantgardebio-domain-security.yml
+  href: https://artifacts.apis.io/aavantgardebio/security/aavantgardebio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aavantgardebio-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aavantgardebio/refs/heads/main/llms/aavantgardebio-llms.txt
+  href: https://artifacts.apis.io/aavantgardebio/llms/aavantgardebio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aavantgardebio-llms.txt
@@ -108,10 +110,10 @@ overview: 'AAVantgarde Bio is profiled on the [APIs.io](https://apis.io/) networ
 
 
   AAVantgarde Bio''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 12
+random_paper: 0
 score:
   band: emerging
-  composite: 11.7
+  composite: 12.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -119,14 +121,14 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
-    operational_transparency: 0.0
+    discoverability: 48.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -135,7 +137,7 @@ score:
     regions:
     - europe
     - italy-southern-europe
-  previous_composite: 11.6
+  previous_composite: 12.3
   provenance:
     conformance: first-party
   regulatory:
@@ -144,14 +146,14 @@ score:
     regime: Health
     regime_id: health
     score: 21.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aavantgardebio/refs/heads/main/screenshots/aavantgardebio-2026-10-11T092354.png
+screenshot: https://apis.io/screenshots/aavantgardebio/aavantgardebio-2026-10-11T092354.png
 security:
 - kind: domain-security
   name: Aavantgardebio Domain Security

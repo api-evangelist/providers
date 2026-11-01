@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/panera-bread/refs/heads/main/security/panera-bread-domain-security.yml
+  href: https://artifacts.apis.io/panera-bread/security/panera-bread-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/panera-bread-domain-security.yml
@@ -96,12 +98,12 @@ press:
 - date: ''
   title: Panera tests automated coffee brewing system
   url: https://www.facebook.com/groups/334753240947835/posts/653552035734619/
-random_paper: 20
+random_paper: 10
 score:
   band: minimal
-  composite: 3.4
+  composite: 10.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -109,27 +111,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 21.4
     discoverability: 39.3
     operational_transparency: 0.0
-  previous_composite: 3.4
+  previous_composite: 10.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 15.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/panera-bread/refs/heads/main/screenshots/panera-bread-2026-06-20T191337.png
+screenshot: https://apis.io/screenshots/panera-bread/panera-bread-2026-06-20T191337.png
 security:
 - kind: domain-security
   name: Panera Bread Domain Security

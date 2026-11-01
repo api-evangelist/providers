@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API documentation hosted on the provider's help site.
@@ -32,12 +34,12 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bathhouse/refs/heads/main/hosts/bathhouse-hosts.yml
+  href: https://artifacts.apis.io/bathhouse/hosts/bathhouse-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bathhouse-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bathhouse/refs/heads/main/vendors/bathhouse-vendors.yml
+  href: https://artifacts.apis.io/bathhouse/vendors/bathhouse-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bathhouse-vendors.yml
@@ -58,7 +60,7 @@ common:
   type: Documentation
   url: https://help.abathhouse.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bathhouse/refs/heads/main/security/bathhouse-domain-security.yml
+  href: https://artifacts.apis.io/bathhouse/security/bathhouse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bathhouse-domain-security.yml
@@ -86,7 +88,7 @@ overview: 'Bathhouse is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Bathhouse''s developer surface includes support, documentation, and 6 more developer resources.'
-random_paper: 17
+random_paper: 3
 score:
   band: emerging
   composite: 12.6
@@ -112,14 +114,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bathhouse/refs/heads/main/screenshots/bathhouse-2026-10-11T101620.png
+screenshot: https://apis.io/screenshots/bathhouse/bathhouse-2026-10-11T101620.png
 security:
 - kind: domain-security
   name: Bathhouse Domain Security

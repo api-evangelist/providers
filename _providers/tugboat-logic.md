@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Tugboat Logic is now OneTrust Certification Automation. Programmatic access, where available, is provided through the OneTrust developer platform. Legacy Tugboat Logic APIs are not separately document
@@ -50,12 +52,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/onetrust/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tugboat-logic/refs/heads/main/security/tugboat-logic-trust-center.yml
+  href: https://artifacts.apis.io/tugboat-logic/security/tugboat-logic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tugboat-logic-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tugboat-logic/refs/heads/main/security/tugboat-logic-domain-security.yml
+  href: https://artifacts.apis.io/tugboat-logic/security/tugboat-logic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tugboat-logic-domain-security.yml
@@ -72,17 +74,17 @@ common:
   type: Developer
   url: https://developer.onetrust.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tugboat-logic/refs/heads/main/plans/tugboat-logic-plans-pricing.yml
+  href: https://artifacts.apis.io/tugboat-logic/plans/tugboat-logic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tugboat-logic-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tugboat-logic/refs/heads/main/rate-limits/tugboat-logic-rate-limits.yml
+  href: https://artifacts.apis.io/tugboat-logic/rate-limits/tugboat-logic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tugboat-logic-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tugboat-logic/refs/heads/main/finops/tugboat-logic-finops.yml
+  href: https://artifacts.apis.io/tugboat-logic/finops/tugboat-logic-finops.yml
   title: ''
   type: FinOps
   url: finops/tugboat-logic-finops.yml
@@ -117,7 +119,7 @@ rate_limits:
   slug: tugboat-logic-rate-limits
 score:
   band: minimal
-  composite: 9.8
+  composite: 10.8
   coverage:
     artifact_dirs: 7
     catalog_earned: 36.0
@@ -125,29 +127,29 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
+    developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 10.9
+  previous_composite: 10.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tugboat-logic/refs/heads/main/screenshots/tugboat-logic-2026-06-20T195824.png
+screenshot: https://apis.io/screenshots/tugboat-logic/tugboat-logic-2026-06-20T195824.png
 security:
 - kind: domain-security
   name: Tugboat Logic Domain Security

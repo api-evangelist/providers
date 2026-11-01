@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,11 +62,8 @@ apis:
   description: Funeral-home rooftops (serving locations) that obituaries attach to.
   name: Tribute Technology Serving Locations API
   slug: tributetech-serving-locations-api
-artifact_total: 14
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tribute Store Authentication API
   slug: open-tributetech-authentication-api
@@ -79,17 +78,17 @@ collections:
   slug: open-tributetech
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tributetech/refs/heads/main/agentic-access/tributetech-agentic-access.yml
+  href: https://artifacts.apis.io/tributetech/agentic-access/tributetech-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tributetech-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tributetech/refs/heads/main/security/tributetech-domain-security.yml
+  href: https://artifacts.apis.io/tributetech/security/tributetech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tributetech-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tributetech/refs/heads/main/authentication/tributetech-authentication.yml
+  href: https://artifacts.apis.io/tributetech/authentication/tributetech-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tributetech-authentication.yml
@@ -106,17 +105,17 @@ common:
   type: Documentation
   url: https://awheeler.funeraltechweb2.com/additional-service-info/file/3/Tribute%20Store%20API%20Documentation%201.1.pdf
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tributetech/refs/heads/main/plans/tributetech-plans-pricing.yml
+  href: https://artifacts.apis.io/tributetech/plans/tributetech-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tributetech-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tributetech/refs/heads/main/rate-limits/tributetech-rate-limits.yml
+  href: https://artifacts.apis.io/tributetech/rate-limits/tributetech-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tributetech-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tributetech/refs/heads/main/finops/tributetech-finops.yml
+  href: https://artifacts.apis.io/tributetech/finops/tributetech-finops.yml
   title: ''
   type: FinOps
   url: finops/tributetech-finops.yml
@@ -148,14 +147,14 @@ plans:
 - name: Tributetech Plans Pricing
   plan_count: 3
   slug: tributetech-plans-pricing
-random_paper: 21
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Tributetech Rate Limits
   slug: tributetech-rate-limits
 score:
-  band: thin
-  composite: 27.8
+  band: emerging
+  composite: 13.7
   coverage:
     artifact_dirs: 12
     catalog_earned: 43.0
@@ -163,15 +162,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 50.2
+    contract_quality: 0.0
     developer_ergonomics: 25.0
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 36.1
+  previous_composite: 13.7
   provenance:
     agentic_access: derived
     contracts:
@@ -185,13 +184,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/tributetech/refs/heads/main/screenshots/tributetech-2026-09-02T164227.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tributetech/tributetech-2026-09-02T164227.png
 security:
 - kind: authentication
   name: Tributetech Authentication

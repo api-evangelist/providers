@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 59.7
-  scored_at: '2026-10-17'
+  score: 57.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 240
   human_in_the_loop: 9
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 467
   slug: teliax-agentic-access
   summary_line: 467 operations · 240 acting · 9 human-in-the-loop
-api_count: 6
+api_count: 4
 apis:
 - baseURL: https://api.telique.ringer.tel
   baseurl_source: declared
@@ -273,125 +275,130 @@ apis:
   description: The trans-union-cnam-controller API from Teliax — 3 operation(s) for trans-union-cnam-controller.
   name: Teliax Trans Union Cnam Controller API
   slug: teliax-trans-union-cnam-controller-api
-artifact_total: 76
+artifact_total: 82
 common:
+- group: other
+  href: https://artifacts.apis.io/teliax/capabilities/teliax-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/teliax-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/agentic-access/teliax-agentic-access.yml
+  href: https://artifacts.apis.io/teliax/agentic-access/teliax-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/teliax-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/rate-limits/teliax-rate-limits.yml
+  href: https://artifacts.apis.io/teliax/rate-limits/teliax-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/teliax-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/plans/teliax-plans-pricing.yml
+  href: https://artifacts.apis.io/teliax/plans/teliax-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/teliax-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/rules/teliax-rules.yml
+  href: https://artifacts.apis.io/teliax/rules/teliax-rules.yml
   title: ''
   type: Spectral
   url: rules/teliax-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/rules/teliax-ringer-oapi-spectral-rules.yml
+  href: https://artifacts.apis.io/teliax/rules/teliax-ringer-oapi-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/teliax-ringer-oapi-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/json-ld/teliax-context.jsonld
+  href: https://artifacts.apis.io/teliax/json-ld/teliax-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/teliax-context.jsonld
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/teliax/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/conventions/teliax-conventions.yml
+  href: https://artifacts.apis.io/teliax/conventions/teliax-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/teliax-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/conventions/teliax-conventions.yml
+  href: https://artifacts.apis.io/teliax/conventions/teliax-conventions.yml
   title: ''
   type: Conventions
   url: conventions/teliax-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/scopes/teliax-scopes.yml
+  href: https://artifacts.apis.io/teliax/scopes/teliax-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/teliax-scopes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/lifecycle/teliax-lifecycle.yml
+  href: https://artifacts.apis.io/teliax/lifecycle/teliax-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/teliax-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/lifecycle/teliax-lifecycle.yml
+  href: https://artifacts.apis.io/teliax/lifecycle/teliax-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/teliax-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/errors/teliax-problem-types.yml
+  href: https://artifacts.apis.io/teliax/errors/teliax-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/teliax-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/conformance/teliax-conformance.yml
+  href: https://artifacts.apis.io/teliax/conformance/teliax-conformance.yml
   title: ''
   type: Conformance
   url: conformance/teliax-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/overlays/teliax-telique-overlay.yaml
+  href: https://artifacts.apis.io/teliax/overlays/teliax-telique-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/teliax-telique-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/mcp/teliax-tool-crosswalk.yml
+  href: https://artifacts.apis.io/teliax/mcp/teliax-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/teliax-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/mcp/teliax-mcp.yml
+  href: https://artifacts.apis.io/teliax/mcp/teliax-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/teliax-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/well-known/teliax-well-known.yml
+  href: https://artifacts.apis.io/teliax/well-known/teliax-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/teliax-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/hosts/teliax-hosts.yml
+  href: https://artifacts.apis.io/teliax/hosts/teliax-hosts.yml
   title: ''
   type: Hosts
   url: hosts/teliax-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/vendors/teliax-vendors.yml
+  href: https://artifacts.apis.io/teliax/vendors/teliax-vendors.yml
   title: ''
   type: Vendors
   url: vendors/teliax-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/packages/teliax-packages.yml
+  href: https://artifacts.apis.io/teliax/packages/teliax-packages.yml
   title: ''
   type: SDKs
   url: packages/teliax-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/packages/teliax-packages.yml
+  href: https://artifacts.apis.io/teliax/packages/teliax-packages.yml
   title: ''
   type: Packages
   url: packages/teliax-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/authentication/teliax-authentication.yml
+  href: https://artifacts.apis.io/teliax/authentication/teliax-authentication.yml
   title: ''
   type: Authentication
   url: authentication/teliax-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/security/teliax-domain-security.yml
+  href: https://artifacts.apis.io/teliax/security/teliax-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teliax-domain-security.yml
@@ -433,6 +440,14 @@ common:
   url: https://github.com/teliax
 created: '2026-10-09'
 description: 'Teliax is a wholesale and carrier-grade telecommunications provider that now operates as Ringer Network Solutions: www.teliax.com redirects to ringer.tel, whose homepage lists ''Ringer Network Solutions (formerly Teliax) - Wholesale and carrier-grade services'' alongside Ringer Business (formerly Leap Telecom) and Ringer Mobile. Products include SIP trunking, wholesale voice, toll-free services, access homing tandem, hosted PBX, MS Teams integration, private-label CPaaS and TeliQue telecom data services, with developer documentation for Ringer APIs (TeliQue, TNIQ, WARP) at docs.ringer.tel and the ringer-oapi repository in the Teliax Inc. GitHub organization.'
+finops:
+- has_sources: true
+  method: derived
+  name: Teliax Finops
+  primary_unit: ''
+  service_category: ''
+  slug: teliax-finops
+  template: true
 image: https://ringer.tel/hs-fs/hubfs/Ringer_Primary-Color.png
 json_schemas:
 - name: AutoActivationSettingsResponse
@@ -509,12 +524,12 @@ overview: 'Teliax publishes 48 API contracts indexed on the [APIs.io](https://ap
   The Teliax catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Teliax''s developer surface includes authentication, documentation, engineering blog, pricing, support, and 28 more developer resources.'
+  Teliax''s developer surface includes authentication, documentation, engineering blog, pricing, support, and 29 more developer resources.'
 plans:
 - name: Teliax Plans Pricing
   plan_count: 2
   slug: teliax-plans-pricing
-random_paper: 9
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Teliax Rate Limits
@@ -551,21 +566,21 @@ scopes:
   summary_line: 22 scopes
 score:
   band: strong
-  composite: 56.1
+  composite: 55.2
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 27
     catalog_earned: 94.0
     catalog_earned_first_party: 34.0
     catalog_gap: 21.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.4
   facets:
     access_clarity: 52.6
     contract_governance: 72.7
-    contract_quality: 60.1
+    contract_quality: 59.1
     developer_ergonomics: 37.5
-    discoverability: 73.3
+    discoverability: 70.0
     operational_transparency: 34.2
   previous_composite: 55.6
   provenance:
@@ -584,13 +599,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/teliax/refs/heads/main/screenshots/teliax-2026-10-11T130732.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/teliax/teliax-2026-10-11T130732.png
 security:
 - kind: authentication
   name: Teliax Authentication
@@ -600,6 +616,18 @@ security:
   name: Teliax Domain Security
   slug: teliax-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: teliax-10dlc-brand-and-campaign
+  slug: teliax-10dlc-brand-and-campaign
+- name: teliax-bulk-port-project
+  slug: teliax-bulk-port-project
+- name: teliax-phone-number-intelligence-lookup
+  slug: teliax-phone-number-intelligence-lookup
+- name: teliax-toll-free-routing-resolution
+  slug: teliax-toll-free-routing-resolution
+- name: teliax-warp-number-operation
+  slug: teliax-warp-number-operation
 slug: teliax
 tags:
 - Company

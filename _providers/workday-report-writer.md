@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-17'
+  score: 27.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -88,7 +90,7 @@ apis:
   description: Create and manage Prism Analytics tables that define the schema for external data loaded into Workday for reporting and analytics
   name: Workday Report Writer Tables API
   slug: workday-report-writer-tables-api
-artifact_total: 60
+artifact_total: 59
 collections:
 - collection_type: postman
   name: Workday Report Writer Workday Prism Analytics Buckets agentDefinition API
@@ -114,9 +116,6 @@ collections:
 - collection_type: postman
   name: Workday Report Writer Workday Prism Analytics Buckets Tables API
   slug: postman-workday-report-writer-tables-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Workday Report Writer Workday Prism Analytics Buckets agentDefinition API
   slug: open-workday-report-writer-agentdefinition-api
@@ -152,17 +151,17 @@ collections:
   slug: open-workday-report-writer-wql
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/plans/workday-report-writer-plans-pricing.yml
+  href: https://artifacts.apis.io/workday-report-writer/plans/workday-report-writer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/workday-report-writer-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/finops/workday-report-writer-finops.yml
+  href: https://artifacts.apis.io/workday-report-writer/finops/workday-report-writer-finops.yml
   title: ''
   type: FinOps
   url: finops/workday-report-writer-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/capabilities/workday-report-writer-capability-edges.yml
+  href: https://artifacts.apis.io/workday-report-writer/capabilities/workday-report-writer-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/workday-report-writer-capability-edges.yml
@@ -191,22 +190,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/workday-report-writer/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/agentic-access/workday-report-writer-agentic-access.yml
+  href: https://artifacts.apis.io/workday-report-writer/agentic-access/workday-report-writer-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/workday-report-writer-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/security/workday-report-writer-trust-center.yml
+  href: https://artifacts.apis.io/workday-report-writer/security/workday-report-writer-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/workday-report-writer-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/security/workday-report-writer-domain-security.yml
+  href: https://artifacts.apis.io/workday-report-writer/security/workday-report-writer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/workday-report-writer-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/authentication/workday-report-writer-authentication.yml
+  href: https://artifacts.apis.io/workday-report-writer/authentication/workday-report-writer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/workday-report-writer-authentication.yml
@@ -333,7 +332,7 @@ plans:
 - name: Workday Report Writer Plans Pricing
   plan_count: 1
   slug: workday-report-writer-plans-pricing
-random_paper: 18
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Workday Report Writer Rate Limits
@@ -352,7 +351,7 @@ rules:
   slug: workday-report-writer-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.4
+  composite: 53.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 47.7
@@ -360,18 +359,15 @@ score:
     catalog_gap: 67.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     contract_governance: 9.8
     contract_quality: 56.3
-    developer_ergonomics: 56.0
+    developer_ergonomics: 79.8
     discoverability: 62.5
     operational_transparency: 42.1
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 52.7
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     contracts:
@@ -385,13 +381,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/screenshots/workday-report-writer-2026-06-20T201608.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/workday-report-writer/workday-report-writer-2026-06-20T201608.png
 security:
 - kind: authentication
   name: Workday Report Writer Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -55,14 +57,56 @@ apis:
   description: Retrieve, fulfil and cancel marketplace orders.
   name: Fyndiq Orders API
   slug: fyndiq-orders-api
-artifact_total: 9
+- baseURL: https://merchants-api.fyndiq.se/api/v1
+  baseurl_source: declared
+  description: The Carrier Codes API from Fyndiq — 1 operation(s) for carrier codes.
+  name: Fyndiq Carrier Codes API
+  slug: fyndiq-carrier-codes-api
+- baseURL: https://merchants-api.fyndiq.se/api/v1
+  baseurl_source: declared
+  description: The Categories API from Fyndiq — 1 operation(s) for categories.
+  name: Fyndiq Categories API
+  slug: fyndiq-categories-api
+- baseURL: https://merchants-api.fyndiq.se/api/v1
+  baseurl_source: declared
+  description: The Financial Reports API from Fyndiq — 1 operation(s) for financial reports.
+  name: Fyndiq Financial Reports API
+  slug: fyndiq-financial-reports-api
+- baseURL: https://merchants-api.fyndiq.se/api/v1
+  baseurl_source: declared
+  description: The Health API from Fyndiq — 1 operation(s) for health.
+  name: Fyndiq Health API
+  slug: fyndiq-health-api
+- baseURL: https://merchants-api.fyndiq.se/api/v1
+  baseurl_source: declared
+  description: The Jobs API from Fyndiq — 2 operation(s) for jobs.
+  name: Fyndiq Jobs API
+  slug: fyndiq-jobs-api
+- baseURL: https://merchants-api.fyndiq.se/api/v1
+  baseurl_source: declared
+  description: The Merchant API from Fyndiq — 4 operation(s) for merchant.
+  name: Fyndiq Merchant API
+  slug: fyndiq-merchant-api
+- baseURL: https://merchants-api.fyndiq.se/api/v1
+  baseurl_source: declared
+  description: The Sales Funnels API from Fyndiq — 1 operation(s) for sales funnels.
+  name: Fyndiq Sales Funnels API
+  slug: fyndiq-sales-funnels-api
+- baseURL: https://merchants-api.fyndiq.se/api/v1
+  baseurl_source: declared
+  description: The Shipping Configurations API from Fyndiq — 2 operation(s) for shipping configurations.
+  name: Fyndiq Shipping Configurations API
+  slug: fyndiq-shipping-configurations-api
+- baseURL: https://merchants-api.fyndiq.se/api/v1
+  baseurl_source: declared
+  description: The Statuses API from Fyndiq — 2 operation(s) for statuses.
+  name: Fyndiq Statuses API
+  slug: fyndiq-statuses-api
+artifact_total: 19
 collections:
 - collection_type: postman
   name: NEW FYNDIQ API
   slug: postman-fyndiq-merchant-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Fyndiq Merchant Articles API
   slug: open-fyndiq-articles-api
@@ -71,12 +115,12 @@ collections:
   slug: open-fyndiq-orders-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/capabilities/fyndiq-capability-edges.yml
+  href: https://artifacts.apis.io/fyndiq/capabilities/fyndiq-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fyndiq-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/overlays/fyndiq-merchant-api-overlay.yaml
+  href: https://artifacts.apis.io/fyndiq/overlays/fyndiq-merchant-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fyndiq-merchant-api-overlay.yaml
@@ -121,72 +165,72 @@ common:
   type: PrivacyPolicy
   url: https://fyndiq.se/fyndiq/policy-och-villkor/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/authentication/fyndiq-authentication.yml
+  href: https://artifacts.apis.io/fyndiq/authentication/fyndiq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fyndiq-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/conventions/fyndiq-conventions.yml
+  href: https://artifacts.apis.io/fyndiq/conventions/fyndiq-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fyndiq-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/errors/fyndiq-problem-types.yml
+  href: https://artifacts.apis.io/fyndiq/errors/fyndiq-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fyndiq-problem-types.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/sandbox/fyndiq-sandbox.yml
+  href: https://artifacts.apis.io/fyndiq/sandbox/fyndiq-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fyndiq-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/lifecycle/fyndiq-lifecycle.yml
+  href: https://artifacts.apis.io/fyndiq/lifecycle/fyndiq-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fyndiq-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/data-model/fyndiq-data-model.yml
+  href: https://artifacts.apis.io/fyndiq/data-model/fyndiq-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fyndiq-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/conformance/fyndiq-conformance.yml
+  href: https://artifacts.apis.io/fyndiq/conformance/fyndiq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fyndiq-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/mcp/fyndiq-mcp.yml
+  href: https://artifacts.apis.io/fyndiq/mcp/fyndiq-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fyndiq-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/packages/fyndiq-packages.yml
+  href: https://artifacts.apis.io/fyndiq/packages/fyndiq-packages.yml
   title: ''
   type: Packages
   url: packages/fyndiq-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/packages/fyndiq-packages.yml
+  href: https://artifacts.apis.io/fyndiq/packages/fyndiq-packages.yml
   title: ''
   type: SDKs
   url: packages/fyndiq-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fyndiq/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/llms/fyndiq-llms.txt
+  href: https://artifacts.apis.io/fyndiq/llms/fyndiq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fyndiq-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/agentic-access/fyndiq-agentic-access.yml
+  href: https://artifacts.apis.io/fyndiq/agentic-access/fyndiq-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fyndiq-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/security/fyndiq-domain-security.yml
+  href: https://artifacts.apis.io/fyndiq/security/fyndiq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fyndiq-domain-security.yml
@@ -198,14 +242,14 @@ modified: '2026-07-19'
 name: Fyndiq
 nav: Providers
 network: true
-overview: 'Fyndiq publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Articles API and Orders API. Tagged areas include Company, Consumer, Marketplace, E-Commerce, and Retail.
+overview: 'Fyndiq publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Articles API, Orders API, Carrier Codes API, and 8 more. Tagged areas include Company, Consumer, Marketplace, E-Commerce, and Retail.
 
 
   Fyndiq''s developer surface includes documentation, API reference, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 13
+random_paper: 3
 score:
   band: thin
-  composite: 28.0
+  composite: 36.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -213,14 +257,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.1
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 3.4
+    contract_quality: 28.7
     developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -229,15 +273,15 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 27.9
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 21.4
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 14
     mcp: derived
     skills: derived
   regulatory:
@@ -246,13 +290,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/screenshots/fyndiq-2026-07-25T215343.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fyndiq/fyndiq-2026-07-25T215343.png
 security:
 - kind: authentication
   name: Fyndiq Authentication
@@ -262,6 +307,12 @@ security:
   name: Fyndiq Domain Security
   slug: fyndiq-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Fulfil Fyndiq orders
+  slug: fyndiq-fulfill-orders
+- name: Manage the Fyndiq product catalog
+  slug: fyndiq-manage-product-catalog
 slug: fyndiq
 tags:
 - Company

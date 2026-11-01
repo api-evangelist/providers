@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: The university's own institutional repository of theses and research outputs, running DSpace 8 on www.ros.hw.ac.uk — a host under Heriot-Watt's registrable domain with a matching PTR record, an open.a
@@ -113,37 +115,37 @@ common:
   type: OpenData
   url: https://www.hw.ac.uk/about/professional-services/governance-and-legal-services/information-governance/access-information/foi/publication-scheme/external-and-government-relations-open-data/8.19-open-data
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/heriot-watt/refs/heads/main/conformance/heriot-watt-conformance.yml
+  href: https://artifacts.apis.io/heriot-watt/conformance/heriot-watt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/heriot-watt-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/heriot-watt/refs/heads/main/security/heriot-watt-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/heriot-watt/security/heriot-watt-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/heriot-watt-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/heriot-watt/refs/heads/main/security/heriot-watt-domain-security.yml
+  href: https://artifacts.apis.io/heriot-watt/security/heriot-watt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/heriot-watt-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/heriot-watt/refs/heads/main/plans/heriot-watt-plans-pricing.yml
+  href: https://artifacts.apis.io/heriot-watt/plans/heriot-watt-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/heriot-watt-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/heriot-watt/refs/heads/main/rate-limits/heriot-watt-rate-limits.yml
+  href: https://artifacts.apis.io/heriot-watt/rate-limits/heriot-watt-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/heriot-watt-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/heriot-watt/refs/heads/main/finops/heriot-watt-finops.yml
+  href: https://artifacts.apis.io/heriot-watt/finops/heriot-watt-finops.yml
   title: ''
   type: FinOps
   url: finops/heriot-watt-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/heriot-watt/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/heriot-watt/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -180,14 +182,14 @@ plans:
 - name: Heriot Watt Plans Pricing
   plan_count: 2
   slug: heriot-watt-plans-pricing
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Heriot Watt Rate Limits
   slug: heriot-watt-rate-limits
 score:
   band: emerging
-  composite: 23.6
+  composite: 25.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 47.0
@@ -195,14 +197,14 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 14.3
     developer_ergonomics: 23.8
     discoverability: 62.5
-    operational_transparency: 5.3
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -211,7 +213,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 29.7
+  previous_composite: 25.0
   provenance:
     conformance: first-party
   regulatory:
@@ -220,14 +222,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/heriot-watt/refs/heads/main/screenshots/heriot-watt-2026-06-20T182645.png
+screenshot: https://apis.io/screenshots/heriot-watt/heriot-watt-2026-06-20T182645.png
 security:
 - kind: domain-security
   name: Heriot Watt Domain Security

@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 60.5
-  scored_at: '2026-10-17'
+  score: 56.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 2
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 31
   slug: ploid-agentic-access
   summary_line: 31 operations · 12 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: 'Ploid''s hosted Streamable HTTP MCP server at https://api.ploid.com/mcp, protected by OAuth 2.1 (RFC 9728 protected-resource metadata, dynamic client registration, PKCE S256) and scoped to an approved '
   name: Ploid MCP Server
@@ -81,139 +83,144 @@ apis:
   description: The Linked In API from Ploid — 6 operation(s) for linked in.
   name: Ploid Linked In API
   slug: ploid-linked-in-api
-artifact_total: 26
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Ploid Webhooks
   slug: ploid-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/ploid/capabilities/ploid-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ploid-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/agentic-access/ploid-agentic-access.yml
+  href: https://artifacts.apis.io/ploid/agentic-access/ploid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ploid-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/rate-limits/ploid-rate-limits.yml
+  href: https://artifacts.apis.io/ploid/rate-limits/ploid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ploid-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/plans/ploid-plans-pricing.yml
+  href: https://artifacts.apis.io/ploid/plans/ploid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ploid-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/rules/ploid-rules.yml
+  href: https://artifacts.apis.io/ploid/rules/ploid-rules.yml
   title: ''
   type: Spectral
   url: rules/ploid-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/json-ld/ploid-context.jsonld
+  href: https://artifacts.apis.io/ploid/json-ld/ploid-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/ploid-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/vocabulary/ploid-vocabulary.yml
+  href: https://artifacts.apis.io/ploid/vocabulary/ploid-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ploid-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ploid/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/asyncapi/ploid-webhooks.yml
+  href: https://artifacts.apis.io/ploid/asyncapi/ploid-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ploid-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/data-model/ploid-data-model.yml
+  href: https://artifacts.apis.io/ploid/data-model/ploid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ploid-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/cli/ploid-cli.yml
+  href: https://artifacts.apis.io/ploid/cli/ploid-cli.yml
   title: ''
   type: CLI
   url: cli/ploid-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/conventions/ploid-conventions.yml
+  href: https://artifacts.apis.io/ploid/conventions/ploid-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ploid-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/conventions/ploid-conventions.yml
+  href: https://artifacts.apis.io/ploid/conventions/ploid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ploid-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/scopes/ploid-scopes.yml
+  href: https://artifacts.apis.io/ploid/scopes/ploid-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ploid-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/lifecycle/ploid-lifecycle.yml
+  href: https://artifacts.apis.io/ploid/lifecycle/ploid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ploid-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/errors/ploid-problem-types.yml
+  href: https://artifacts.apis.io/ploid/errors/ploid-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ploid-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/conformance/ploid-conformance.yml
+  href: https://artifacts.apis.io/ploid/conformance/ploid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ploid-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/overlays/ploid-openapi-overlay.yaml
+  href: https://artifacts.apis.io/ploid/overlays/ploid-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ploid-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/llms/ploid-llms.txt
+  href: https://artifacts.apis.io/ploid/llms/ploid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ploid-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/mcp/ploid-tool-crosswalk.yml
+  href: https://artifacts.apis.io/ploid/mcp/ploid-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ploid-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/mcp/ploid-mcp.yml
+  href: https://artifacts.apis.io/ploid/mcp/ploid-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ploid-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/well-known/ploid-well-known.yml
+  href: https://artifacts.apis.io/ploid/well-known/ploid-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ploid-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/hosts/ploid-hosts.yml
+  href: https://artifacts.apis.io/ploid/hosts/ploid-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ploid-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/vendors/ploid-vendors.yml
+  href: https://artifacts.apis.io/ploid/vendors/ploid-vendors.yml
   title: ''
   type: Vendors
   url: vendors/ploid-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/packages/ploid-packages.yml
+  href: https://artifacts.apis.io/ploid/packages/ploid-packages.yml
   title: ''
   type: SDKs
   url: packages/ploid-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/packages/ploid-packages.yml
+  href: https://artifacts.apis.io/ploid/packages/ploid-packages.yml
   title: ''
   type: Packages
   url: packages/ploid-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/authentication/ploid-authentication.yml
+  href: https://artifacts.apis.io/ploid/authentication/ploid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ploid-authentication.yml
@@ -222,7 +229,7 @@ common:
   type: Website
   url: https://ploid.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/security/ploid-domain-security.yml
+  href: https://artifacts.apis.io/ploid/security/ploid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ploid-domain-security.yml
@@ -276,6 +283,14 @@ common:
   url: https://ploid.com/privacy
 created: '2026-10-07'
 description: 'Ploid is an applied AI lab building a people search and intelligence platform: a living index of more than two billion people available through a web app, a REST API, a CLI, and a hosted MCP server. The Ploid Public API (OpenAPI 3.1, 31 operations on api.ploid.com) covers synchronous people search, person resolution and evidence-backed person research runs, contact and social enrichment, public LinkedIn reads, monitors, and account usage and credit budgets, metered in ACU credits.'
+finops:
+- has_sources: true
+  method: derived
+  name: Ploid Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: ploid-finops
+  template: false
 image: https://ploid.com/favicon.ico
 json_schemas:
 - name: HarnessChatCompletionRequest
@@ -316,11 +331,14 @@ overview: 'Ploid publishes 10 API contracts indexed on the [APIs.io](https://api
   The Ploid catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Ploid''s developer surface includes CLI, authentication, documentation, API reference, getting-started guide, pricing, signup flow, and 33 more developer resources.'
+  Ploid''s developer surface includes CLI, authentication, documentation, API reference, getting-started guide, pricing, signup flow, and 34 more developer resources.'
 plans:
 - name: Ploid Plans Pricing
   plan_count: 3
   slug: ploid-plans-pricing
+- name: Ploid Price Estimates
+  plan_count: 0
+  slug: ploid-price-estimates
 random_paper: 8
 rate_limits:
 - limit_count: 6
@@ -346,21 +364,21 @@ scopes:
   summary_line: 6 scopes
 score:
   band: strong
-  composite: 65.2
+  composite: 66.2
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 86.8
+    artifact_dirs: 31
+    catalog_earned: 89.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 28.3
+    catalog_gap: 25.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 35.6
-    contract_quality: 70.7
+    contract_quality: 69.7
     developer_ergonomics: 56.5
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 44.7
   previous_composite: 64.6
   provenance:
@@ -385,13 +403,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 42.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/screenshots/ploid-2026-10-11T112630.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ploid/ploid-2026-10-11T112630.png
 security:
 - kind: authentication
   name: Ploid Authentication
@@ -401,6 +420,16 @@ security:
   name: Ploid Domain Security
   slug: ploid-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: enrich-contact-and-social
+  slug: ploid-enrich-contact-and-social
+- name: manage-budget-and-key
+  slug: ploid-manage-budget-and-key
+- name: research-a-person
+  slug: ploid-research-a-person
+- name: search-people
+  slug: ploid-search-people
 slug: ploid
 tags:
 - Company

@@ -15,16 +15,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.6
-  scored_at: '2026-10-17'
+  score: 42.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 9
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 539
   slug: instaclustr-agentic-access
   summary_line: 539 operations · 272 acting · 9 human-in-the-loop
-api_count: 4
+api_count: 2
 apis:
 - baseURL: https://api.instaclustr.com
   baseurl_source: declared
@@ -499,50 +501,50 @@ apis:
   description: Operations related to encryption keys.
   name: Instaclustr Encryptionkey API
   slug: instaclustr-encryptionkey-api
-artifact_total: 112
+artifact_total: 115
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/capabilities/instaclustr-capability-edges.yml
+  href: https://artifacts.apis.io/instaclustr/capabilities/instaclustr-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/instaclustr-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/instaclustr/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/agentic-access/instaclustr-agentic-access.yml
+  href: https://artifacts.apis.io/instaclustr/agentic-access/instaclustr-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/instaclustr-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/rate-limits/instaclustr-rate-limits.yml
+  href: https://artifacts.apis.io/instaclustr/rate-limits/instaclustr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/instaclustr-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/rules/instaclustr-rules.yml
+  href: https://artifacts.apis.io/instaclustr/rules/instaclustr-rules.yml
   title: ''
   type: Spectral
   url: rules/instaclustr-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/json-ld/instaclustr-context.jsonld
+  href: https://artifacts.apis.io/instaclustr/json-ld/instaclustr-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/instaclustr-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/vocabulary/instaclustr-vocabulary.yml
+  href: https://artifacts.apis.io/instaclustr/vocabulary/instaclustr-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/instaclustr-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/data-model/instaclustr-data-model.yml
+  href: https://artifacts.apis.io/instaclustr/data-model/instaclustr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/instaclustr-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/conventions/instaclustr-conventions.yml
+  href: https://artifacts.apis.io/instaclustr/conventions/instaclustr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/instaclustr-conventions.yml
@@ -551,57 +553,57 @@ common:
   type: Deprecation
   url: https://instaclustr.redoc.ly/Deprecated/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/lifecycle/instaclustr-lifecycle.yml
+  href: https://artifacts.apis.io/instaclustr/lifecycle/instaclustr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/instaclustr-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/errors/instaclustr-problem-types.yml
+  href: https://artifacts.apis.io/instaclustr/errors/instaclustr-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/instaclustr-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/conformance/instaclustr-conformance.yml
+  href: https://artifacts.apis.io/instaclustr/conformance/instaclustr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/instaclustr-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/llms/instaclustr-llms.txt
+  href: https://artifacts.apis.io/instaclustr/llms/instaclustr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/instaclustr-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/well-known/instaclustr-status-security.txt
+  href: https://artifacts.apis.io/instaclustr/well-known/instaclustr-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/instaclustr-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/well-known/instaclustr-well-known.yml
+  href: https://artifacts.apis.io/instaclustr/well-known/instaclustr-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/instaclustr-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/hosts/instaclustr-hosts.yml
+  href: https://artifacts.apis.io/instaclustr/hosts/instaclustr-hosts.yml
   title: ''
   type: Hosts
   url: hosts/instaclustr-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/integrations/instaclustr-integration-edges.yml
+  href: https://artifacts.apis.io/instaclustr/integrations/instaclustr-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/instaclustr-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/vendors/instaclustr-vendors.yml
+  href: https://artifacts.apis.io/instaclustr/vendors/instaclustr-vendors.yml
   title: ''
   type: Vendors
   url: vendors/instaclustr-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/packages/instaclustr-packages.yml
+  href: https://artifacts.apis.io/instaclustr/packages/instaclustr-packages.yml
   title: ''
   type: SDKs
   url: packages/instaclustr-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/packages/instaclustr-packages.yml
+  href: https://artifacts.apis.io/instaclustr/packages/instaclustr-packages.yml
   title: ''
   type: Packages
   url: packages/instaclustr-packages.yml
@@ -610,12 +612,12 @@ common:
   type: StatusPage
   url: https://status.instaclustr.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/authentication/instaclustr-authentication.yml
+  href: https://artifacts.apis.io/instaclustr/authentication/instaclustr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/instaclustr-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instaclustr/refs/heads/main/security/instaclustr-domain-security.yml
+  href: https://artifacts.apis.io/instaclustr/security/instaclustr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/instaclustr-domain-security.yml
@@ -665,6 +667,14 @@ common:
   url: https://support.instaclustr.com/hc/en-us
 created: '2026-10-13'
 description: NetApp Instaclustr is a managed platform for open source data infrastructure, running and supporting Apache Kafka, Kafka Connect, Apache Cassandra, PostgreSQL, OpenSearch, ClickHouse, Valkey and Cadence clusters in its own cloud accounts or in a customer's cloud (Bring Your Own Cloud). Its public Instaclustr API at api.instaclustr.com provides cluster management (provisioning, firewall rules, peering, users, backups, maintenance events), monitoring metrics, user/organization management with SCIM 2.0, and an MCP Gateway product for AI agents. Instaclustr is part of NetApp.
+finops:
+- has_sources: true
+  method: derived
+  name: Instaclustr Finops
+  primary_unit: ''
+  service_category: ''
+  slug: instaclustr-finops
+  template: true
 image: https://www.instaclustr.com/wp-content/uploads/Insta_Website_Social-Share-Thumbnail_rebrand.png
 json_schemas:
 - name: BundleCompatibilityResponseSchema
@@ -724,7 +734,7 @@ plans:
 - name: Instaclustr Plans Pricing
   plan_count: 0
   slug: instaclustr-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Instaclustr Rate Limits
@@ -744,21 +754,23 @@ rules:
   slug: instaclustr-rules
 score:
   band: strong
-  composite: 56.8
+  composite: 54.5
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 77.8
+    artifact_dirs: 25
+    catalog_earned: 74.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 37.3
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.6
   facets:
     access_clarity: 44.7
     contract_governance: 35.6
-    contract_quality: 64.0
+    contract_quality: 60.6
     developer_ergonomics: 44.6
-    discoverability: 78.6
-    operational_transparency: 60.5
+    discoverability: 66.1
+    operational_transparency: 71.1
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -775,11 +787,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Instaclustr Authentication
@@ -789,6 +803,12 @@ security:
   name: Instaclustr Domain Security
   slug: instaclustr-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: instaclustr-kafka-health-check
+  slug: instaclustr-kafka-health-check
+- name: instaclustr-service-user-keys
+  slug: instaclustr-service-user-keys
 slug: instaclustr
 tags:
 - Company

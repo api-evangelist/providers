@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.5
-  scored_at: '2026-10-17'
+  score: 47.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 47
   slug: epidemic-sound-agentic-access
   summary_line: 47 operations · 14 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://partner-content-api.epidemicsound.com
   baseurl_source: declared
@@ -90,11 +92,8 @@ apis:
   description: These endpoints allows your application to get user specific information such as liked sounds.
   name: Epidemic Sound Users API
   slug: epidemic-sound-users-api
-artifact_total: 49
+artifact_total: 48
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Partner Content Assets API
   slug: open-epidemic-sound-assets-api
@@ -126,23 +125,28 @@ collections:
   name: Partner Content Assets Users API
   slug: open-epidemic-sound-users-api
 common:
+- group: other
+  href: https://artifacts.apis.io/epidemic-sound/capabilities/epidemic-sound-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/epidemic-sound-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/agentic-access/epidemic-sound-agentic-access.yml
+  href: https://artifacts.apis.io/epidemic-sound/agentic-access/epidemic-sound-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/epidemic-sound-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/security/epidemic-sound-domain-security.yml
+  href: https://artifacts.apis.io/epidemic-sound/security/epidemic-sound-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/epidemic-sound-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/authentication/epidemic-sound-authentication.yml
+  href: https://artifacts.apis.io/epidemic-sound/authentication/epidemic-sound-authentication.yml
   title: ''
   type: Authentication
   url: authentication/epidemic-sound-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/scopes/epidemic-sound-scopes.yml
+  href: https://artifacts.apis.io/epidemic-sound/scopes/epidemic-sound-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/epidemic-sound-scopes.yml
@@ -195,17 +199,17 @@ common:
   type: Pricing
   url: https://www.epidemicsound.com/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/plans/epidemic-sound-plans-pricing.yml
+  href: https://artifacts.apis.io/epidemic-sound/plans/epidemic-sound-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/epidemic-sound-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/rate-limits/epidemic-sound-rate-limits.yml
+  href: https://artifacts.apis.io/epidemic-sound/rate-limits/epidemic-sound-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/epidemic-sound-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/finops/epidemic-sound-finops.yml
+  href: https://artifacts.apis.io/epidemic-sound/finops/epidemic-sound-finops.yml
   title: ''
   type: FinOps
   url: finops/epidemic-sound-finops.yml
@@ -327,12 +331,12 @@ network: true
 overview: 'Epidemic Sound publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Authentication API, Beta API, and 6 more. Tagged areas include Music, Sound Effects, Royalty-Free Music, Audio, and Audio Licensing.
 
 
-  Epidemic Sound''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, YouTube channel, and 30 more developer resources.'
+  Epidemic Sound''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, YouTube channel, and 31 more developer resources.'
 plans:
 - name: Epidemic Sound Plans Pricing
   plan_count: 5
   slug: epidemic-sound-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Epidemic Sound Rate Limits
@@ -343,23 +347,23 @@ scopes:
   slug: epidemic-sound-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 36.6
+  band: developing
+  composite: 42.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 45.0
     catalog_earned_first_party: 0.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.8
+  delta: 0.0
   facets:
-    access_clarity: 26.3
+    access_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 50.9
+    contract_quality: 49.6
     developer_ergonomics: 52.4
-    discoverability: 68.3
-    operational_transparency: 7.9
+    discoverability: 66.1
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -368,7 +372,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 42.4
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -382,14 +386,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/screenshots/epidemic-sound-2026-06-20T180755.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/epidemic-sound/epidemic-sound-2026-06-20T180755.png
 security:
 - kind: authentication
   name: Epidemic Sound Authentication

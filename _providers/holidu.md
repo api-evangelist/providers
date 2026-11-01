@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.8
-  scored_at: '2026-10-17'
+  score: 38.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 57
   slug: holidu-agentic-access
   summary_line: 57 operations · 25 acting
-api_count: 6
+api_count: 5
 apis:
 - baseURL: https://external-api.holidu.com
   baseurl_source: declared
@@ -158,15 +160,12 @@ apis:
   description: The Testa API from Holidu — 1 operation(s) for testa.
   name: Holidu Testa API
   slug: holidu-testa-api
-artifact_total: 52
+artifact_total: 54
 asyncapis:
 - description: ''
   name: Holidu Webhooks
   slug: holidu-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Affiliate Apartment API
   slug: open-holidu-apartment-api
@@ -235,12 +234,12 @@ collections:
   slug: open-holidu-testa-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/capabilities/holidu-capability-edges.yml
+  href: https://artifacts.apis.io/holidu/capabilities/holidu-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/holidu-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/overlays/holidu-affiliate-api-overlay.yaml
+  href: https://artifacts.apis.io/holidu/overlays/holidu-affiliate-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/holidu-affiliate-api-overlay.yaml
@@ -285,52 +284,52 @@ common:
   type: GitHubOrganization
   url: https://github.com/holidu
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/llms/holidu-llms.txt
+  href: https://artifacts.apis.io/holidu/llms/holidu-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/holidu-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/openapi/_original/holidu-affiliate-api.json
+  href: https://artifacts.apis.io/holidu/openapi/_original/holidu-affiliate-api.json
   title: ''
   type: OpenAPI
   url: openapi/_original/holidu-affiliate-api.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/openapi/_original/holidu-connectivity-api.json
+  href: https://artifacts.apis.io/holidu/openapi/_original/holidu-connectivity-api.json
   title: ''
   type: OpenAPI
   url: openapi/_original/holidu-connectivity-api.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/authentication/holidu-authentication.yml
+  href: https://artifacts.apis.io/holidu/authentication/holidu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/holidu-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/scopes/holidu-scopes.yml
+  href: https://artifacts.apis.io/holidu/scopes/holidu-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/holidu-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/agentic-access/holidu-agentic-access.yml
+  href: https://artifacts.apis.io/holidu/agentic-access/holidu-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/holidu-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/conventions/holidu-conventions.yml
+  href: https://artifacts.apis.io/holidu/conventions/holidu-conventions.yml
   title: ''
   type: Conventions
   url: conventions/holidu-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/conventions/holidu-conventions.yml
+  href: https://artifacts.apis.io/holidu/conventions/holidu-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/holidu-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/errors/holidu-problem-types.yml
+  href: https://artifacts.apis.io/holidu/errors/holidu-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/holidu-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/lifecycle/holidu-lifecycle.yml
+  href: https://artifacts.apis.io/holidu/lifecycle/holidu-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/holidu-lifecycle.yml
@@ -339,52 +338,52 @@ common:
   type: Deprecation
   url: https://developer.holidu.com/changelog/hapi-version-1-is-deprecated
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/changelog/holidu-changelog.yml
+  href: https://artifacts.apis.io/holidu/changelog/holidu-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/holidu-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/sandbox/holidu-sandbox.yml
+  href: https://artifacts.apis.io/holidu/sandbox/holidu-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/holidu-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/data-model/holidu-data-model.yml
+  href: https://artifacts.apis.io/holidu/data-model/holidu-data-model.yml
   title: ''
   type: DataModel
   url: data-model/holidu-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/conformance/holidu-conformance.yml
+  href: https://artifacts.apis.io/holidu/conformance/holidu-conformance.yml
   title: ''
   type: Conformance
   url: conformance/holidu-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/mcp/holidu-mcp.yml
+  href: https://artifacts.apis.io/holidu/mcp/holidu-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/holidu-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/asyncapi/holidu-webhooks.yml
+  href: https://artifacts.apis.io/holidu/asyncapi/holidu-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/holidu-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/well-known/holidu-well-known.yml
+  href: https://artifacts.apis.io/holidu/well-known/holidu-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/holidu-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/well-known/holidu-security.txt
+  href: https://artifacts.apis.io/holidu/well-known/holidu-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/holidu-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/security/holidu-domain-security.yml
+  href: https://artifacts.apis.io/holidu/security/holidu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/holidu-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/security/holidu-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/holidu/security/holidu-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/holidu-vulnerability-disclosure.yml
@@ -393,7 +392,7 @@ common:
   type: Security
   url: https://www.holidu.com/.well-known/security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/holidu/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -412,7 +411,7 @@ overview: 'Holidu publishes 23 API contracts indexed on the [APIs.io](https://ap
 
 
   Holidu''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 28 more developer resources.'
-random_paper: 7
+random_paper: 21
 scopes:
 - name: Holidu Scopes
   scope_count: 0
@@ -420,7 +419,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.6
+  composite: 48.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -430,12 +429,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 56.9
-    developer_ergonomics: 42.3
-    discoverability: 78.6
-    operational_transparency: 48.7
+    developer_ergonomics: 63.7
+    discoverability: 71.4
+    operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -444,7 +443,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 42.6
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -461,13 +460,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/screenshots/holidu-2026-07-25T221319.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/holidu/holidu-2026-07-25T221319.png
 security:
 - kind: authentication
   name: Holidu Authentication
@@ -481,6 +481,14 @@ security:
   name: Holidu Vulnerability Disclosure
   slug: holidu-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 3
+skills:
+- name: Manage Holidu rates, availability and length-of-stay pricing
+  slug: holidu-manage-rates-availability
+- name: Onboard an apartment to Holidu
+  slug: holidu-onboard-apartment
+- name: Search Holidu offers and retrieve details
+  slug: holidu-search-and-details
 slug: holidu
 tags:
 - Company

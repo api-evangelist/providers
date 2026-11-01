@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.7
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 18.0
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: Public, load-balanced Lotus node endpoint hosted by Glif providing read-only access to the Filecoin mainnet JSON-RPC API, including all Filecoin and Ethereum-compatible RPC methods. Supports MPoolPush
   name: Filecoin Glif Lotus JSON-RPC API
@@ -58,11 +60,8 @@ apis:
 - description: RESTful JSON API for discovering and evaluating Filecoin storage providers (miners). Returns reputation scores, geographic distribution, pricing, verified deal history, and uptime metrics to help clie
   name: Filrep.io Storage Provider API
   slug: filrepio-storage-provider-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: API Collection
   slug: open-actors
@@ -84,12 +83,12 @@ common:
   type: Website
   url: https://www.filecoin.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/filecoin/refs/heads/main/security/filecoin-domain-security.yml
+  href: https://artifacts.apis.io/filecoin/security/filecoin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/filecoin-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/filecoin/refs/heads/main/authentication/filecoin-authentication.yml
+  href: https://artifacts.apis.io/filecoin/authentication/filecoin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/filecoin-authentication.yml
@@ -168,14 +167,14 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Rate Limits
   slug: rate-limits
 score:
   band: emerging
-  composite: 23.9
+  composite: 25.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 47.0
@@ -183,29 +182,29 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 32.2
+    contract_quality: 38.8
     developer_ergonomics: 28.6
     discoverability: 73.2
-    operational_transparency: 7.9
-  previous_composite: 31.3
+    operational_transparency: 10.5
+  previous_composite: 25.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/filecoin/refs/heads/main/screenshots/filecoin-2026-06-20T181204.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/filecoin/filecoin-2026-06-20T181204.png
 security:
 - kind: authentication
   name: Filecoin Authentication

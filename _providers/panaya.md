@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Panaya's REST API surface, including the Test Dynamix APIs (Transaction, Cycles, Folder, Business Process, Test, Test Step, Step Run, Defect, Requirements — each supporting get-all/get/create/update),
@@ -72,37 +74,37 @@ common:
   type: GettingStarted
   url: https://success.panaya.com/docs/api-guide
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/panaya/refs/heads/main/authentication/panaya-authentication.yml
+  href: https://artifacts.apis.io/panaya/authentication/panaya-authentication.yml
   title: ''
   type: Authentication
   url: authentication/panaya-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/panaya/refs/heads/main/conventions/panaya-conventions.yml
+  href: https://artifacts.apis.io/panaya/conventions/panaya-conventions.yml
   title: ''
   type: Conventions
   url: conventions/panaya-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/panaya/refs/heads/main/rate-limits/panaya-rate-limits.yml
+  href: https://artifacts.apis.io/panaya/rate-limits/panaya-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/panaya-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/panaya/refs/heads/main/asyncapi/panaya-webhooks.yml
+  href: https://artifacts.apis.io/panaya/asyncapi/panaya-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/panaya-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/panaya/refs/heads/main/data-model/panaya-data-model.yml
+  href: https://artifacts.apis.io/panaya/data-model/panaya-data-model.yml
   title: ''
   type: DataModel
   url: data-model/panaya-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/panaya/refs/heads/main/lifecycle/panaya-lifecycle.yml
+  href: https://artifacts.apis.io/panaya/lifecycle/panaya-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/panaya-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/panaya/refs/heads/main/changelog/panaya-changelog.yml
+  href: https://artifacts.apis.io/panaya/changelog/panaya-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/panaya-changelog.yml
@@ -111,7 +113,7 @@ common:
   type: ChangeLog
   url: https://success.panaya.com/docs/panaya-release-notes
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/panaya/refs/heads/main/conformance/panaya-conformance.yml
+  href: https://artifacts.apis.io/panaya/conformance/panaya-conformance.yml
   title: ''
   type: Conformance
   url: conformance/panaya-conformance.yml
@@ -124,17 +126,17 @@ common:
   type: Security
   url: https://www.panaya.com/information-security-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/panaya/refs/heads/main/security/panaya-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/panaya/security/panaya-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/panaya-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/panaya/refs/heads/main/security/panaya-domain-security.yml
+  href: https://artifacts.apis.io/panaya/security/panaya-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/panaya-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/panaya/refs/heads/main/llms/panaya-llms.txt
+  href: https://artifacts.apis.io/panaya/llms/panaya-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/panaya-llms.txt
@@ -177,14 +179,14 @@ overview: 'Panaya is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Panaya''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 19 more developer resources.'
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 7
   name: Panaya Rate Limits
   slug: panaya-rate-limits
 score:
   band: developing
-  composite: 49.4
+  composite: 50.0
   coverage:
     artifact_dirs: 15
     catalog_earned: 49.0
@@ -192,15 +194,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 65.8
-  previous_composite: 49.3
+  previous_composite: 50.0
   provenance:
     conformance: first-party
   regulatory:
@@ -215,14 +217,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/panaya/refs/heads/main/screenshots/panaya-2026-08-07T191329.png
+screenshot: https://apis.io/screenshots/panaya/panaya-2026-08-07T191329.png
 security:
 - kind: authentication
   name: Panaya Authentication

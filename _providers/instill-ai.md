@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 102
   slug: instill-ai-agentic-access
   summary_line: 102 operations · 50 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.instill-ai.com
   baseurl_source: declared
@@ -68,250 +70,255 @@ apis:
   description: Pipeline orchestration.
   name: Instill AI Pipeline API
   slug: instill-ai-pipeline-api
-artifact_total: 13
+artifact_total: 16
 common:
+- group: other
+  href: https://artifacts.apis.io/instill-ai/capabilities/instill-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/instill-ai-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/agentic-access/instill-ai-agentic-access.yml
+  href: https://artifacts.apis.io/instill-ai/agentic-access/instill-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/instill-ai-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/rules/instill-ai-rules.yml
+  href: https://artifacts.apis.io/instill-ai/rules/instill-ai-rules.yml
   title: ''
   type: Spectral
   url: rules/instill-ai-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/rules/instill-ai-protobufs-spectral-rules.yml
+  href: https://artifacts.apis.io/instill-ai/rules/instill-ai-protobufs-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/instill-ai-protobufs-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/vocabulary/instill-ai-vocabulary.yml
+  href: https://artifacts.apis.io/instill-ai/vocabulary/instill-ai-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/instill-ai-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/instill-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/data-model/instill-ai-data-model.yml
+  href: https://artifacts.apis.io/instill-ai/data-model/instill-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/instill-ai-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/cli/instill-ai-cli.yml
+  href: https://artifacts.apis.io/instill-ai/cli/instill-ai-cli.yml
   title: ''
   type: CLI
   url: cli/instill-ai-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/conventions/instill-ai-conventions.yml
+  href: https://artifacts.apis.io/instill-ai/conventions/instill-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/instill-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/lifecycle/instill-ai-lifecycle.yml
+  href: https://artifacts.apis.io/instill-ai/lifecycle/instill-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/instill-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/errors/instill-ai-problem-types.yml
+  href: https://artifacts.apis.io/instill-ai/errors/instill-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/instill-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/conformance/instill-ai-conformance.yml
+  href: https://artifacts.apis.io/instill-ai/conformance/instill-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/instill-ai-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-usage-v1beta-usage.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-usage-v1beta-usage.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-usage-v1beta-usage.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-pipeline-v1beta-secret.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-pipeline-v1beta-secret.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-pipeline-v1beta-secret.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-pipeline-v1beta-pipeline_private_service.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-pipeline-v1beta-pipeline_private_service.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-pipeline-v1beta-pipeline_private_service.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-pipeline-v1beta-pipeline.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-pipeline-v1beta-pipeline.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-pipeline-v1beta-pipeline.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-pipeline-v1beta-integration.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-pipeline-v1beta-integration.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-pipeline-v1beta-integration.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-pipeline-v1beta-component_definition.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-pipeline-v1beta-component_definition.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-pipeline-v1beta-component_definition.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-pipeline-v1beta-common.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-pipeline-v1beta-common.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-pipeline-v1beta-common.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-model-v1alpha-model_private_service.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-model-v1alpha-model_private_service.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-model-v1alpha-model_private_service.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-model-v1alpha-model_definition.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-model-v1alpha-model_definition.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-model-v1alpha-model_definition.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-model-v1alpha-model.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-model-v1alpha-model.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-model-v1alpha-model.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-model-v1alpha-common.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-model-v1alpha-common.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-model-v1alpha-common.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-model-ray-v1alpha-user_defined.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-model-ray-v1alpha-user_defined.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-model-ray-v1alpha-user_defined.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-model-ray-serve.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-model-ray-serve.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-model-ray-serve.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-mgmt-v1beta-mgmt_private_service.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-mgmt-v1beta-mgmt_private_service.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-mgmt-v1beta-mgmt_private_service.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-mgmt-v1beta-mgmt.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-mgmt-v1beta-mgmt.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-mgmt-v1beta-mgmt.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-mgmt-v1beta-metric.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-mgmt-v1beta-metric.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-mgmt-v1beta-metric.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-mgmt-v1beta-integration.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-mgmt-v1beta-integration.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-mgmt-v1beta-integration.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-mgmt-v1beta-auth.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-mgmt-v1beta-auth.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-mgmt-v1beta-auth.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-common-healthcheck-v1beta-healthcheck.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-common-healthcheck-v1beta-healthcheck.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-common-healthcheck-v1beta-healthcheck.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-artifact-v1alpha-update.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-artifact-v1alpha-update.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-artifact-v1alpha-update.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-artifact-v1alpha-system.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-artifact-v1alpha-system.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-artifact-v1alpha-system.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-artifact-v1alpha-object.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-artifact-v1alpha-object.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-artifact-v1alpha-object.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-artifact-v1alpha-knowledge_base.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-artifact-v1alpha-knowledge_base.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-artifact-v1alpha-knowledge_base.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-artifact-v1alpha-file.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-artifact-v1alpha-file.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-artifact-v1alpha-file.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-artifact-v1alpha-chunk.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-artifact-v1alpha-chunk.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-artifact-v1alpha-chunk.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-artifact-v1alpha-artifact_private_service.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-artifact-v1alpha-artifact_private_service.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-artifact-v1alpha-artifact_private_service.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/grpc/instill-ai-artifact-v1alpha-artifact.proto
+  href: https://artifacts.apis.io/instill-ai/grpc/instill-ai-artifact-v1alpha-artifact.proto
   title: ''
   type: Protobuf
   url: grpc/instill-ai-artifact-v1alpha-artifact.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/overlays/instill-ai-openapi-overlay.yaml
+  href: https://artifacts.apis.io/instill-ai/overlays/instill-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instill-ai-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/llms/instill-ai-llms.txt
+  href: https://artifacts.apis.io/instill-ai/llms/instill-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/instill-ai-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/mcp/instill-ai-tool-crosswalk.yml
+  href: https://artifacts.apis.io/instill-ai/mcp/instill-ai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/instill-ai-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/mcp/instill-ai-mcp.yml
+  href: https://artifacts.apis.io/instill-ai/mcp/instill-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/instill-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/well-known/instill-ai-well-known.yml
+  href: https://artifacts.apis.io/instill-ai/well-known/instill-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/instill-ai-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/hosts/instill-ai-hosts.yml
+  href: https://artifacts.apis.io/instill-ai/hosts/instill-ai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/instill-ai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/vendors/instill-ai-vendors.yml
+  href: https://artifacts.apis.io/instill-ai/vendors/instill-ai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/instill-ai-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/packages/instill-ai-packages.yml
+  href: https://artifacts.apis.io/instill-ai/packages/instill-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/instill-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/packages/instill-ai-packages.yml
+  href: https://artifacts.apis.io/instill-ai/packages/instill-ai-packages.yml
   title: ''
   type: Packages
   url: packages/instill-ai-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/authentication/instill-ai-authentication.yml
+  href: https://artifacts.apis.io/instill-ai/authentication/instill-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/instill-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/security/instill-ai-domain-security.yml
+  href: https://artifacts.apis.io/instill-ai/security/instill-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/instill-ai-domain-security.yml
@@ -361,8 +368,8 @@ overview: 'Instill AI publishes 7 API contracts indexed on the [APIs.io](https:/
   The Instill AI catalog on APIs.io includes 2 Spectral governance rulesets.
 
 
-  Instill AI''s developer surface includes CLI, authentication, documentation, API reference, and 52 more developer resources.'
-random_paper: 2
+  Instill AI''s developer surface includes CLI, authentication, documentation, API reference, and 53 more developer resources.'
+random_paper: 6
 rules:
 - authorship: provider
   effective_rule_count: 41
@@ -390,23 +397,23 @@ rules:
   slug: instill-ai-rules
 score:
   band: thin
-  composite: 34.3
+  composite: 34.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 42.8
     catalog_earned_first_party: 0.0
     catalog_gap: 72.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 22.0
     contract_quality: 47.8
     developer_ergonomics: 49.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 5.3
-  previous_composite: 39.4
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -423,13 +430,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/screenshots/instill-ai-2026-10-11T105750.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/instill-ai/instill-ai-2026-10-11T105750.png
 security:
 - kind: authentication
   name: Instill Ai Authentication
@@ -439,6 +447,14 @@ security:
   name: Instill Ai Domain Security
   slug: instill-ai-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: instill-ai-knowledge-base-rag
+  slug: instill-ai-knowledge-base-rag
+- name: instill-ai-manage-api-tokens
+  slug: instill-ai-manage-api-tokens
+- name: instill-ai-run-pipeline
+  slug: instill-ai-run-pipeline
 slug: instill-ai
 tags:
 - Company

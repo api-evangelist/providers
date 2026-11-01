@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-17'
+  score: 20.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: An OAuth-protected Model Context Protocol endpoint served from LiftLab's own hostname connect.liftlab.com, discovered by certificate-transparency enumeration rather than from documentation. An anonymo
@@ -46,7 +48,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liftlab/refs/heads/main/security/liftlab-domain-security.yml
+  href: https://artifacts.apis.io/liftlab/security/liftlab-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/liftlab-domain-security.yml
@@ -83,12 +85,12 @@ common:
   type: PrivacyPolicy
   url: https://liftlab.com/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liftlab/refs/heads/main/llms/liftlab-llms.txt
+  href: https://artifacts.apis.io/liftlab/llms/liftlab-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/liftlab-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liftlab/refs/heads/main/conformance/liftlab-conformance.yml
+  href: https://artifacts.apis.io/liftlab/conformance/liftlab-conformance.yml
   title: ''
   type: Conformance
   url: conformance/liftlab-conformance.yml
@@ -97,37 +99,37 @@ common:
   type: Compliance
   url: https://liftlab-analytics-inc.trust.site/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liftlab/refs/heads/main/security/liftlab-trust-center.yml
+  href: https://artifacts.apis.io/liftlab/security/liftlab-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/liftlab-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liftlab/refs/heads/main/mcp/liftlab-mcp.yml
+  href: https://artifacts.apis.io/liftlab/mcp/liftlab-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/liftlab-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liftlab/refs/heads/main/authentication/liftlab-authentication.yml
+  href: https://artifacts.apis.io/liftlab/authentication/liftlab-authentication.yml
   title: ''
   type: Authentication
   url: authentication/liftlab-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liftlab/refs/heads/main/scopes/liftlab-scopes.yml
+  href: https://artifacts.apis.io/liftlab/scopes/liftlab-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/liftlab-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liftlab/refs/heads/main/well-known/liftlab-well-known.yml
+  href: https://artifacts.apis.io/liftlab/well-known/liftlab-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/liftlab-well-known.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/liftlab/refs/heads/main/rate-limits/liftlab-rate-limits.yml
+  href: https://artifacts.apis.io/liftlab/rate-limits/liftlab-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/liftlab-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/liftlab/refs/heads/main/plans/liftlab-plans-pricing.yml
+  href: https://artifacts.apis.io/liftlab/plans/liftlab-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/liftlab-plans-pricing.yml
@@ -152,7 +154,7 @@ plans:
 - name: Liftlab Plans Pricing
   plan_count: 0
   slug: liftlab-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Liftlab Rate Limits
@@ -164,7 +166,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: thin
-  composite: 31.4
+  composite: 30.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -172,20 +174,20 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 31.3
+  previous_composite: 30.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -201,14 +203,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/liftlab/refs/heads/main/screenshots/liftlab-2026-07-25T225100.png
+screenshot: https://apis.io/screenshots/liftlab/liftlab-2026-07-25T225100.png
 security:
 - kind: authentication
   name: Liftlab Authentication

@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -69,17 +71,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/Radware
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alteon/refs/heads/main/authentication/alteon-authentication.yml
+  href: https://artifacts.apis.io/alteon/authentication/alteon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alteon-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alteon/refs/heads/main/packages/alteon-packages.yml
+  href: https://artifacts.apis.io/alteon/packages/alteon-packages.yml
   title: ''
   type: Packages
   url: packages/alteon-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alteon/refs/heads/main/packages/alteon-packages.yml
+  href: https://artifacts.apis.io/alteon/packages/alteon-packages.yml
   title: ''
   type: SDKs
   url: packages/alteon-packages.yml
@@ -92,12 +94,12 @@ common:
   type: Security
   url: https://hackerone.com/radware
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alteon/refs/heads/main/security/alteon-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/alteon/security/alteon-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/alteon-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alteon/refs/heads/main/security/alteon-domain-security.yml
+  href: https://artifacts.apis.io/alteon/security/alteon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alteon-domain-security.yml
@@ -113,12 +115,12 @@ overview: 'Alteon is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Alteon''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 5
+random_paper: 19
 score:
   band: emerging
-  composite: 19.2
+  composite: 20.0
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -129,24 +131,24 @@ score:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 50.0
+    developer_ergonomics: 52.4
     discoverability: 48.2
-    operational_transparency: 13.2
-  previous_composite: 19.2
+    operational_transparency: 15.8
+  previous_composite: 20.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alteon/refs/heads/main/screenshots/alteon-2026-07-25T195817.png
+screenshot: https://apis.io/screenshots/alteon/alteon-2026-07-25T195817.png
 security:
 - kind: authentication
   name: Alteon Authentication

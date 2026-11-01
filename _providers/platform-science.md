@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -73,7 +75,7 @@ common:
   type: Security
   url: https://www.platformscience.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/platform-science/refs/heads/main/security/platform-science-trust-center.yml
+  href: https://artifacts.apis.io/platform-science/security/platform-science-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/platform-science-trust-center.yml
@@ -82,12 +84,12 @@ common:
   type: Compliance
   url: https://trust.platformscience.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/platform-science/refs/heads/main/security/platform-science-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/platform-science/security/platform-science-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/platform-science-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/platform-science/refs/heads/main/security/platform-science-domain-security.yml
+  href: https://artifacts.apis.io/platform-science/security/platform-science-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/platform-science-domain-security.yml
@@ -103,12 +105,12 @@ overview: 'Platform Science is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Platform Science''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 16
+random_paper: 12
 score:
   band: emerging
-  composite: 18.6
+  composite: 19.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -121,22 +123,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 48.2
-    operational_transparency: 13.2
-  previous_composite: 18.6
+    operational_transparency: 15.8
+  previous_composite: 19.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/platform-science/refs/heads/main/screenshots/platform-science-2026-09-02T151435.png
+screenshot: https://apis.io/screenshots/platform-science/platform-science-2026-09-02T151435.png
 security:
 - kind: domain-security
   name: Platform Science Domain Security

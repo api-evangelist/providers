@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -64,7 +66,7 @@ apis:
   description: Manage VPC networks
   name: Google Cloud Compute Engine Networks API
   slug: google-cloud-compute-engine-networks-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: postman
   name: Google Cloud Compute Engine Google Compute Engine Disks API
@@ -78,9 +80,6 @@ collections:
 - collection_type: postman
   name: Google Cloud Compute Engine Google Compute Engine Disks Networks API
   slug: postman-google-cloud-compute-engine-networks-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Cloud Compute Engine Google Compute Engine API
   slug: open-compute
@@ -98,22 +97,22 @@ collections:
   slug: open-google-cloud-compute-engine-networks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/plans/google-cloud-compute-engine-plans-pricing.yml
+  href: https://artifacts.apis.io/google-cloud-compute-engine/plans/google-cloud-compute-engine-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-cloud-compute-engine-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/rate-limits/google-cloud-compute-engine-rate-limits.yml
+  href: https://artifacts.apis.io/google-cloud-compute-engine/rate-limits/google-cloud-compute-engine-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-cloud-compute-engine-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/finops/google-cloud-compute-engine-finops.yml
+  href: https://artifacts.apis.io/google-cloud-compute-engine/finops/google-cloud-compute-engine-finops.yml
   title: ''
   type: FinOps
   url: finops/google-cloud-compute-engine-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/capabilities/google-cloud-compute-engine-capability-edges.yml
+  href: https://artifacts.apis.io/google-cloud-compute-engine/capabilities/google-cloud-compute-engine-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-cloud-compute-engine-capability-edges.yml
@@ -126,27 +125,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-cloud-compute-engine/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/agentic-access/google-cloud-compute-engine-agentic-access.yml
+  href: https://artifacts.apis.io/google-cloud-compute-engine/agentic-access/google-cloud-compute-engine-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-cloud-compute-engine-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/security/google-cloud-compute-engine-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-cloud-compute-engine/security/google-cloud-compute-engine-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-cloud-compute-engine-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/security/google-cloud-compute-engine-domain-security.yml
+  href: https://artifacts.apis.io/google-cloud-compute-engine/security/google-cloud-compute-engine-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-cloud-compute-engine-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/authentication/google-cloud-compute-engine-authentication.yml
+  href: https://artifacts.apis.io/google-cloud-compute-engine/authentication/google-cloud-compute-engine-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-cloud-compute-engine-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/scopes/google-cloud-compute-engine-scopes.yml
+  href: https://artifacts.apis.io/google-cloud-compute-engine/scopes/google-cloud-compute-engine-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-cloud-compute-engine-scopes.yml
@@ -191,18 +190,18 @@ common:
   type: Support
   url: https://cloud.google.com/compute/docs/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/json-ld/compute-context.jsonld
+  href: https://artifacts.apis.io/google-cloud-compute-engine/json-ld/compute-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/compute-context.jsonld
 created: '2026-03-13'
 description: Google Cloud Compute Engine delivers virtual machines running in Google's innovative data centers and worldwide fiber network. Compute Engine VMs boot quickly, come with persistent disk storage, and deliver consistent performance. It offers predefined and custom machine types, preemptible VMs, and sole-tenant nodes for specialized workloads.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Google Cloud Compute Engine Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: google-cloud-compute-engine-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-compute-engine.png
@@ -229,9 +228,9 @@ overview: 'Google Cloud Compute Engine publishes 4 API contracts indexed on the 
   Google Cloud Compute Engine''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 16 more developer resources.'
 plans:
 - name: Google Cloud Compute Engine Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: google-cloud-compute-engine-plans-pricing
-random_paper: 18
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Google Cloud Compute Engine Rate Limits
@@ -255,23 +254,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.4
+  composite: 47.3
   coverage:
     artifact_dirs: 16
-    catalog_earned: 59.7
+    catalog_earned: 56.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.4
+    catalog_gap: 58.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: -6.3
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 9.8
     contract_quality: 58.1
     developer_ergonomics: 48.8
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 48.0
+    operational_transparency: 39.5
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     contracts:
@@ -285,13 +284,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/screenshots/google-cloud-compute-engine-2026-06-20T182054.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-cloud-compute-engine/google-cloud-compute-engine-2026-06-20T182054.png
 security:
 - kind: authentication
   name: Google Cloud Compute Engine Authentication

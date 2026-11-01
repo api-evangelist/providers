@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Developer portal for Atomberg's smart home appliance APIs.
@@ -36,22 +38,22 @@ common:
   type: BlogRSS
   url: https://atomberg.com/blogs/blog.atom
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/atombergtechnology/refs/heads/main/llms/atombergtechnology-llms.txt
+  href: https://artifacts.apis.io/atombergtechnology/llms/atombergtechnology-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/atombergtechnology-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/atombergtechnology/refs/heads/main/well-known/atombergtechnology-well-known.yml
+  href: https://artifacts.apis.io/atombergtechnology/well-known/atombergtechnology-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/atombergtechnology-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/atombergtechnology/refs/heads/main/hosts/atombergtechnology-hosts.yml
+  href: https://artifacts.apis.io/atombergtechnology/hosts/atombergtechnology-hosts.yml
   title: ''
   type: Hosts
   url: hosts/atombergtechnology-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/atombergtechnology/refs/heads/main/vendors/atombergtechnology-vendors.yml
+  href: https://artifacts.apis.io/atombergtechnology/vendors/atombergtechnology-vendors.yml
   title: ''
   type: Vendors
   url: vendors/atombergtechnology-vendors.yml
@@ -64,7 +66,7 @@ common:
   type: DeveloperPortal
   url: https://dev.atomberg.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/atombergtechnology/refs/heads/main/security/atombergtechnology-domain-security.yml
+  href: https://artifacts.apis.io/atombergtechnology/security/atombergtechnology-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/atombergtechnology-domain-security.yml
@@ -114,10 +116,10 @@ overview: 'Atombergtechnology is listed with 1 API on the [APIs.io](https://apis
 
 
   Atombergtechnology''s developer surface includes documentation, support, engineering blog, and 11 more developer resources.'
-random_paper: 19
+random_paper: 13
 score:
   band: emerging
-  composite: 15.9
+  composite: 15.1
   coverage:
     artifact_dirs: 8
     catalog_earned: 32.0
@@ -125,13 +127,13 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -140,21 +142,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 15.8
+  previous_composite: 15.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/atombergtechnology/refs/heads/main/screenshots/atombergtechnology-2026-10-11T100736.png
+screenshot: https://apis.io/screenshots/atombergtechnology/atombergtechnology-2026-10-11T100736.png
 security:
 - kind: domain-security
   name: Atombergtechnology Domain Security

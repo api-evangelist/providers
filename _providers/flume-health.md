@@ -29,17 +29,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.2
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 43.9
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: A remote Model Context Protocol endpoint served by the Flume Console at /api/v1/context/mcp. It is protected by OAuth 2.0 and advertises RFC 9728 protected-resource metadata, returning a 401 with a WW
   name: Flume Context MCP Server
@@ -139,15 +141,45 @@ apis:
   description: The WorkerSizes API from Flume Health — 2 operation(s) for workersizes.
   name: Flume Health Worker Sizes API
   slug: flume-health-workersizes-api
-artifact_total: 27
+- baseURL: https://console.flumehealth.com/api/v1/context/mcp
+  baseurl_source: declared
+  description: The Account Access API from Flume Health — 4 operation(s) for account access.
+  name: Flume Health Account Access API
+  slug: flume-health-account-access-api
+- baseURL: https://console.flumehealth.com/api/v1/context/mcp
+  baseurl_source: declared
+  description: The Budget API from Flume Health — 3 operation(s) for budget.
+  name: Flume Health Budget API
+  slug: flume-health-budget-api
+- baseURL: https://console.flumehealth.com/api/v1/context/mcp
+  baseurl_source: declared
+  description: The Context Conversations API from Flume Health — 8 operation(s) for context conversations.
+  name: Flume Health Context Conversations API
+  slug: flume-health-context-conversations-api
+- baseURL: https://console.flumehealth.com/api/v1/context/mcp
+  baseurl_source: declared
+  description: The Context Grants API from Flume Health — 2 operation(s) for context grants.
+  name: Flume Health Context Grants API
+  slug: flume-health-context-grants-api
+- baseURL: https://console.flumehealth.com/api/v1/context/mcp
+  baseurl_source: declared
+  description: The Context Workspaces API from Flume Health — 13 operation(s) for context workspaces.
+  name: Flume Health Context Workspaces API
+  slug: flume-health-context-workspaces-api
+- baseURL: https://console.flumehealth.com/api/v1/context/mcp
+  baseurl_source: declared
+  description: The knowledge API from Flume Health — 3 operation(s) for knowledge.
+  name: Flume Health Knowledge API
+  slug: flume-health-knowledge-api
+artifact_total: 38
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/capabilities/flume-health-capability-edges.yml
+  href: https://artifacts.apis.io/flume-health/capabilities/flume-health-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/flume-health-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/security/flume-health-trust-center.yml
+  href: https://artifacts.apis.io/flume-health/security/flume-health-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/flume-health-trust-center.yml
@@ -192,102 +224,110 @@ common:
   type: GitHubOrganization
   url: https://github.com/flumehealth
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/_original/flume-health-console-api-openapi.yml
+  href: https://artifacts.apis.io/flume-health/openapi/_original/flume-health-console-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/flume-health-console-api-openapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/mcp/flume-health-mcp.yml
+  href: https://artifacts.apis.io/flume-health/mcp/flume-health-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/flume-health-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/mcp/flume-health-tool-crosswalk.yml
+  href: https://artifacts.apis.io/flume-health/mcp/flume-health-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/flume-health-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/well-known/flume-health-well-known.yml
+  href: https://artifacts.apis.io/flume-health/well-known/flume-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/flume-health-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/authentication/flume-health-authentication.yml
+  href: https://artifacts.apis.io/flume-health/authentication/flume-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flume-health-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/scopes/flume-health-scopes.yml
+  href: https://artifacts.apis.io/flume-health/scopes/flume-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/flume-health-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/conventions/flume-health-conventions.yml
+  href: https://artifacts.apis.io/flume-health/conventions/flume-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flume-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/errors/flume-health-problem-types.yml
+  href: https://artifacts.apis.io/flume-health/errors/flume-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/flume-health-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/data-model/flume-health-data-model.yml
+  href: https://artifacts.apis.io/flume-health/data-model/flume-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/flume-health-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/lifecycle/flume-health-lifecycle.yml
+  href: https://artifacts.apis.io/flume-health/lifecycle/flume-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flume-health-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/conformance/flume-health-conformance.yml
+  href: https://artifacts.apis.io/flume-health/conformance/flume-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flume-health-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/conformance/flume-health-conformance.yml
+  href: https://artifacts.apis.io/flume-health/conformance/flume-health-conformance.yml
   title: ''
   type: Compliance
   url: conformance/flume-health-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/security/flume-health-domain-security.yml
+  href: https://artifacts.apis.io/flume-health/security/flume-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flume-health-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/overlays/flume-health-console-api-overlay.yaml
+  href: https://artifacts.apis.io/flume-health/overlays/flume-health-console-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/flume-health-console-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/llms/flume-health-llms.txt
+  href: https://artifacts.apis.io/flume-health/llms/flume-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flume-health-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/flume-health/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/packages/flume-health-packages.yml
+  href: https://artifacts.apis.io/flume-health/packages/flume-health-packages.yml
   title: ''
   type: Packages
   url: packages/flume-health-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/plans/flume-health-plans-pricing.yml
+  href: https://artifacts.apis.io/flume-health/plans/flume-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/flume-health-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/rate-limits/flume-health-rate-limits.yml
+  href: https://artifacts.apis.io/flume-health/rate-limits/flume-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/flume-health-rate-limits.yml
 created: '2026-08-16'
 description: Flume Health is a New York based healthcare data platform for the payer ecosystem. Its Relay product is an integration platform (iPaaS) that maps eligibility, claims, and other health plan data between source and destination Endpoints — SFTP, cloud storage, databases, Snowflake, and APIs — through a canonical Flume Data Model, with Connections, Shards, Transactions, and mapping jobs managed from the Flume Console. A newer Context layer adds a knowledge graph over a customer's data estate, natural-language query, and domain agents for actuarial, claims, coding, and compliance work, exposed to AI clients through an OAuth-protected Model Context Protocol endpoint. The public Flume Console API is a 153-operation Swagger 2.0 contract served from console.flumehealth.com, authenticated with OpenID Connect / OAuth 2.0 at auth.flumehealth.com. Flume sold its third-party administrator operations to Vitori Health in 2023 to focus on the software platform.
+finops:
+- has_sources: true
+  method: derived
+  name: Flume Health Finops
+  primary_unit: ''
+  service_category: ''
+  slug: flume-health-finops
+  template: true
 image: https://flumehealth.com/og-image.png
 layout: provider
 mcp_servers:
@@ -298,7 +338,7 @@ modified: '2026-09-16'
 name: Flume Health
 nav: Providers
 network: true
-overview: 'Flume Health publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Contracts API, Accounts API, Automap Jobs API, and 17 more. Tagged areas include Healthcare, Health Plans, Payers, Healthcare Data, and Data Integration.
+overview: 'Flume Health publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Contracts API, Accounts API, Automap Jobs API, and 23 more. Tagged areas include Healthcare, Health Plans, Payers, Healthcare Data, and Data Integration.
 
 
   Flume Health''s developer surface includes documentation, API reference, support, authentication, and 27 more developer resources.'
@@ -306,7 +346,7 @@ plans:
 - name: Flume Health Plans Pricing
   plan_count: 0
   slug: flume-health-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Flume Health Rate Limits
@@ -318,9 +358,9 @@ scopes:
   summary_line: 14 scopes · implicit
 score:
   band: developing
-  composite: 44.2
+  composite: 45.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -328,20 +368,20 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 46.6
+    contract_quality: 44.5
     developer_ergonomics: 44.6
-    discoverability: 68.3
-    operational_transparency: 18.4
-  previous_composite: 44.2
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 45.7
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 19
+      total: 46
     mcp: first-party
     skills: derived
   regulatory:
@@ -350,13 +390,14 @@ score:
     regime: Health
     regime_id: health
     score: 40.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/screenshots/flume-health-2026-08-17T080932.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/flume-health/flume-health-2026-08-17T080932.png
 security:
 - kind: authentication
   name: Flume Health Authentication
@@ -370,6 +411,16 @@ security:
   name: Flume Health Trust Center
   slug: flume-health-trust-center
   summary_line: SOC 2 Type II, HITRUST CSF, HIPAA
+skill_count: 4
+skills:
+- name: flume-health-curate-context-knowledge
+  slug: flume-health-curate-context-knowledge
+- name: flume-health-govern-discovery-access
+  slug: flume-health-govern-discovery-access
+- name: flume-health-onboard-data-endpoint
+  slug: flume-health-onboard-data-endpoint
+- name: flume-health-run-mapping-job
+  slug: flume-health-run-mapping-job
 slug: flume-health
 tags:
 - Healthcare

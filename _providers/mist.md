@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.3
-  scored_at: '2026-10-17'
+  score: 27.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 524
   human_in_the_loop: 15
@@ -1105,15 +1107,12 @@ apis:
   description: The Mist API API from Mist — 0 operation(s) for mist api.
   name: Mist API
   slug: mist-mist-api-api
-artifact_total: 431
+artifact_total: 433
 asyncapis:
 - description: ''
   name: Mist Webhooks
   slug: mist-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Mist Admins API
   slug: open-mist-admins-api
@@ -1748,12 +1747,16 @@ collections:
   name: Mist Admins Utilities Wi-Fi API
   slug: open-mist-utilities-wi-fi-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/mist/overview
 - group: commercial
   title: ''
   type: Pricing
   url: https://mist.io/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/plans/mist-plans-pricing.yml
+  href: https://artifacts.apis.io/mist/plans/mist-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mist-plans-pricing.yml
@@ -1762,7 +1765,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/juniper-networks/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/capabilities/mist-capability-edges.yml
+  href: https://artifacts.apis.io/mist/capabilities/mist-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mist-capability-edges.yml
@@ -1811,97 +1814,105 @@ common:
   type: Deprecation
   url: https://www.juniper.net/documentation/us/en/software/mist/automation-integration/topics/task/create-token-for-rest-api.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/authentication/mist-authentication.yml
+  href: https://artifacts.apis.io/mist/authentication/mist-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mist-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/openapi/_original/mist-openapi-original.json
+  href: https://artifacts.apis.io/mist/openapi/_original/mist-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/mist-openapi-original.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/overlays/mist-openapi-overlay.yaml
+  href: https://artifacts.apis.io/mist/overlays/mist-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mist-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/lifecycle/mist-lifecycle.yml
+  href: https://artifacts.apis.io/mist/lifecycle/mist-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mist-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/changelog/mist-changelog.yml
+  href: https://artifacts.apis.io/mist/changelog/mist-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mist-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/rate-limits/mist-rate-limits.yml
+  href: https://artifacts.apis.io/mist/rate-limits/mist-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mist-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/conventions/mist-conventions.yml
+  href: https://artifacts.apis.io/mist/conventions/mist-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mist-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/errors/mist-problem-types.yml
+  href: https://artifacts.apis.io/mist/errors/mist-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mist-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/data-model/mist-data-model.yml
+  href: https://artifacts.apis.io/mist/data-model/mist-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mist-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/conformance/mist-conformance.yml
+  href: https://artifacts.apis.io/mist/conformance/mist-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mist-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/packages/mist-packages.yml
+  href: https://artifacts.apis.io/mist/packages/mist-packages.yml
   title: ''
   type: Packages
   url: packages/mist-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/packages/mist-packages.yml
+  href: https://artifacts.apis.io/mist/packages/mist-packages.yml
   title: ''
   type: SDKs
   url: packages/mist-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/mcp/mist-mcp.yml
+  href: https://artifacts.apis.io/mist/mcp/mist-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mist-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/asyncapi/mist-webhooks.yml
+  href: https://artifacts.apis.io/mist/asyncapi/mist-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mist-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mist/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/llms/mist-llms.txt
+  href: https://artifacts.apis.io/mist/llms/mist-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mist-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/agentic-access/mist-agentic-access.yml
+  href: https://artifacts.apis.io/mist/agentic-access/mist-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mist-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/security/mist-domain-security.yml
+  href: https://artifacts.apis.io/mist/security/mist-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mist-domain-security.yml
 created: '2026-07-17'
 description: Mist (Mist Systems), acquired by Juniper Networks and now Juniper Mist, is an AI-driven cloud platform for wireless, wired, and WAN networking. The Juniper Mist Cloud API is a RESTful HTTPS/JSON API organized around an Org -> Site -> Device hierarchy, giving programmatic access to configuration, inventory, client analytics (SLE), the Marvis virtual network assistant, location services, and real-time event webhooks. Mist was an early Lightspeed Venture Partners portfolio company (seed, 2014) before its Juniper acquisition.
+finops:
+- has_sources: true
+  method: derived
+  name: Mist Finops
+  primary_unit: vcpu
+  service_category: ''
+  slug: mist-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mist.png
 layout: provider
 modified: '2026-09-16'
@@ -1914,7 +1925,7 @@ overview: 'Mist publishes 212 API contracts indexed on the [APIs.io](https://api
   The Mist catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mist''s developer surface includes pricing, documentation, API reference, getting-started guide, support, authentication, changelog, and 26 more developer resources.'
+  Mist''s developer surface includes pricing, documentation, API reference, getting-started guide, support, authentication, changelog, and 27 more developer resources.'
 plans:
 - name: Mist Plans Pricing
   plan_count: 8
@@ -1922,30 +1933,30 @@ plans:
 - name: Mist Price Estimates
   plan_count: 0
   slug: mist-price-estimates
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Mist Rate Limits
   slug: mist-rate-limits
 score:
   band: strong
-  composite: 60.2
+  composite: 61.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 57.0
+    artifact_dirs: 22
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 59.2
+    access_clarity: 73.7
     contract_governance: 4.5
-    contract_quality: 63.2
-    developer_ergonomics: 61.3
-    discoverability: 73.2
-    operational_transparency: 71.1
-  previous_composite: 60.2
+    contract_quality: 61.1
+    developer_ergonomics: 68.5
+    discoverability: 66.1
+    operational_transparency: 73.7
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1953,7 +1964,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 212
+      total: 211
     mcp: derived
     skills: derived
   regulatory:
@@ -1962,13 +1973,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/screenshots/mist-2026-08-07T183800.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mist/mist-2026-08-07T183800.png
 security:
 - kind: authentication
   name: Mist Authentication
@@ -1978,6 +1990,12 @@ security:
   name: Mist Domain Security
   slug: mist-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Provision a Mist site and claim a device
+  slug: mist-provision-site-and-claim-device
+- name: Subscribe to Mist events via webhook
+  slug: mist-subscribe-to-events-webhook
 slug: mist
 tags:
 - Company

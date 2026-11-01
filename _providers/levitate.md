@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.1
-  scored_at: '2026-10-17'
+  score: 41.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Hosted remote MCP server (streamable HTTP) that connects Levitate to AI assistants — Claude Desktop, Claude Code, ChatGPT, Cursor, VS Code Copilot, Windsurf and any MCP-compatible HTTP client. Tools c
@@ -58,20 +60,20 @@ apis:
   description: The Notes API from Levitate — 2 operation(s) for notes.
   name: Levitate Notes API
   slug: levitate-notes-api
-artifact_total: 12
+artifact_total: 17
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/capabilities/levitate-capability-edges.yml
+  href: https://artifacts.apis.io/levitate/capabilities/levitate-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/levitate-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/security/levitate-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/levitate/security/levitate-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/levitate-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/security/levitate-domain-security.yml
+  href: https://artifacts.apis.io/levitate/security/levitate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/levitate-domain-security.yml
@@ -132,103 +134,111 @@ common:
   type: TrustCenter
   url: https://trust.levitate.ai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/conformance/levitate-conformance.yml
+  href: https://artifacts.apis.io/levitate/conformance/levitate-conformance.yml
   title: ''
   type: Compliance
   url: conformance/levitate-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/conformance/levitate-conformance.yml
+  href: https://artifacts.apis.io/levitate/conformance/levitate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/levitate-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/mcp/levitate-mcp.yml
+  href: https://artifacts.apis.io/levitate/mcp/levitate-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/levitate-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/authentication/levitate-authentication.yml
+  href: https://artifacts.apis.io/levitate/authentication/levitate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/levitate-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/scopes/levitate-scopes.yml
+  href: https://artifacts.apis.io/levitate/scopes/levitate-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/levitate-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/conventions/levitate-conventions.yml
+  href: https://artifacts.apis.io/levitate/conventions/levitate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/levitate-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/errors/levitate-problem-types.yml
+  href: https://artifacts.apis.io/levitate/errors/levitate-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/levitate-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/lifecycle/levitate-lifecycle.yml
+  href: https://artifacts.apis.io/levitate/lifecycle/levitate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/levitate-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/changelog/levitate-changelog.yml
+  href: https://artifacts.apis.io/levitate/changelog/levitate-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/levitate-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/rate-limits/levitate-rate-limits.yml
+  href: https://artifacts.apis.io/levitate/rate-limits/levitate-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/levitate-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/plans/levitate-plans-pricing.yml
+  href: https://artifacts.apis.io/levitate/plans/levitate-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/levitate-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/packages/levitate-packages.yml
+  href: https://artifacts.apis.io/levitate/packages/levitate-packages.yml
   title: ''
   type: Packages
   url: packages/levitate-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/well-known/levitate-well-known.yml
+  href: https://artifacts.apis.io/levitate/well-known/levitate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/levitate-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/data-model/levitate-data-model.yml
+  href: https://artifacts.apis.io/levitate/data-model/levitate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/levitate-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/llms/levitate-llms.txt
+  href: https://artifacts.apis.io/levitate/llms/levitate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/levitate-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/levitate/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/security/levitate-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/levitate/security/levitate-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/levitate-vulnerability-disclosure.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/overlays/levitate-public-v1-overlay.yaml
+  href: https://artifacts.apis.io/levitate/overlays/levitate-public-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/levitate-public-v1-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/mcp/levitate-tool-crosswalk.yml
+  href: https://artifacts.apis.io/levitate/mcp/levitate-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/levitate-tool-crosswalk.yml
 created: '2026-08-25'
 description: 'Levitate is a relationship-marketing and "Happiness Platform" SaaS for relationship-based small businesses — insurance agencies, financial advisors, law firms, nonprofits, home services and faith organizations — founded in 2017 in Raleigh, North Carolina by ShareFile founder Jesse Lipson. The product combines AI-assisted personal email at scale, text messaging, social posting, surveys and event registration, review generation, meeting booking, handwritten cards, donation and opportunity boards, and website publishing, all built around a contact record that stores "key facts" (birthdays, anniversaries, hobbies) used to drive timely, personalized outreach. Levitate exposes two developer surfaces: a REST Public API (OpenAPI 3.1.1) over Contacts, Key Facts, Companies and Notes at api.levitate.ai/public/v1, authenticated with Personal API Keys or OAuth 2.0 authorization-code + PKCE bearer tokens; and a hosted, OAuth-protected remote MCP server at mcp.levitate.ai/mcp that gives AI
   assistants natural-language access to contacts, action items, donations, campaigns, opportunities, policies, notes and connected-integration data.'
+finops:
+- has_sources: true
+  method: derived
+  name: Levitate Finops
+  primary_unit: ''
+  service_category: ''
+  slug: levitate-finops
+  template: true
 image: https://cdn.prod.website-files.com/645165b093e7c8d734211d5d/64ac9c0f52d7bf5e396e6261_og%20image.png
 layout: provider
 mcp_servers:
@@ -245,9 +255,9 @@ overview: 'Levitate publishes 4 API contracts indexed on the [APIs.io](https://a
   Levitate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 29 more developer resources.'
 plans:
 - name: Levitate Plans Pricing
-  plan_count: 6
+  plan_count: 8
   slug: levitate-plans-pricing
-random_paper: 4
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Levitate Rate Limits
@@ -259,9 +269,9 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.1
+  composite: 59.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -269,13 +279,18 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 85.5
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 51.6
+    contract_quality: 49.0
     developer_ergonomics: 49.4
-    discoverability: 68.3
-    operational_transparency: 34.2
-  previous_composite: 57.1
+    discoverability: 65.0
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 59.2
   provenance:
     conformance: first-party
     contracts:
@@ -291,13 +306,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 46.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/screenshots/levitate-2026-09-02T150252.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/levitate/levitate-2026-09-02T150252.png
 security:
 - kind: authentication
   name: Levitate Authentication
@@ -315,6 +331,16 @@ security:
   name: Levitate Trust Center
   slug: levitate-trust-center
   summary_line: SOC 2 Type I, SOC 2 Type II
+skill_count: 4
+skills:
+- name: levitate-connect-the-mcp-server
+  slug: levitate-connect-the-mcp-server
+- name: levitate-log-activity-as-notes-and-key-facts
+  slug: levitate-log-activity-as-notes-and-key-facts
+- name: levitate-segment-contacts-with-boolean-search
+  slug: levitate-segment-contacts-with-boolean-search
+- name: levitate-sync-contacts-from-external-system
+  slug: levitate-sync-contacts-from-external-system
 slug: levitate
 tags:
 - relationship-marketing

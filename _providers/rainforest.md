@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.5
-  scored_at: '2026-10-17'
+  score: 41.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 82
   slug: rainforest-agentic-access
   summary_line: 82 operations · 53 acting · 1 human-in-the-loop
-api_count: 10
+api_count: 7
 apis:
 - baseURL: https://api.rainforestpay.com
   baseurl_source: declared
@@ -167,7 +169,7 @@ arazzos:
 - description: Create a merchant, submit its application, and confirm it reaches ACTIVE.
   name: Rainforest — onboard a merchant
   slug: rainforest-onboard-merchant
-artifact_total: 77
+artifact_total: 83
 asyncapis:
 - description: ''
   name: Rainforest Webhooks
@@ -243,9 +245,6 @@ collections:
   name: Authentication ACH Returns Sessions API
   slug: postman-rainforest-sessions-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Authentication ACH Returns API
   slug: open-rainforest-ach-returns-api
 - collection_type: open
@@ -315,8 +314,13 @@ collections:
   name: Authentication ACH Returns Sessions API
   slug: open-rainforest-sessions-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/rainforest/plans/rainforest-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rainforest-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/capabilities/rainforest-capability-edges.yml
+  href: https://artifacts.apis.io/rainforest/capabilities/rainforest-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rainforest-capability-edges.yml
@@ -373,7 +377,7 @@ common:
   type: StatusPage
   url: https://status.rainforestpay.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/changelog/rainforest-changelog.yml
+  href: https://artifacts.apis.io/rainforest/changelog/rainforest-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rainforest-changelog.yml
@@ -382,22 +386,22 @@ common:
   type: Glossary
   url: https://www.rainforestpay.com/glossary
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/authentication/rainforest-authentication.yml
+  href: https://artifacts.apis.io/rainforest/authentication/rainforest-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rainforest-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/agentic-access/rainforest-agentic-access.yml
+  href: https://artifacts.apis.io/rainforest/agentic-access/rainforest-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rainforest-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/security/rainforest-domain-security.yml
+  href: https://artifacts.apis.io/rainforest/security/rainforest-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rainforest-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/security/rainforest-trust-center.yml
+  href: https://artifacts.apis.io/rainforest/security/rainforest-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rainforest-trust-center.yml
@@ -406,42 +410,42 @@ common:
   type: Compliance
   url: https://www.rainforestpay.com/data-security-compliance
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/conformance/rainforest-conformance.yml
+  href: https://artifacts.apis.io/rainforest/conformance/rainforest-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rainforest-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/packages/rainforest-packages.yml
+  href: https://artifacts.apis.io/rainforest/packages/rainforest-packages.yml
   title: ''
   type: Packages
   url: packages/rainforest-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/packages/rainforest-packages.yml
+  href: https://artifacts.apis.io/rainforest/packages/rainforest-packages.yml
   title: ''
   type: SDKs
   url: packages/rainforest-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/mcp/rainforest-mcp.yml
+  href: https://artifacts.apis.io/rainforest/mcp/rainforest-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rainforest-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/llms/rainforest-llms.txt
+  href: https://artifacts.apis.io/rainforest/llms/rainforest-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rainforest-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/errors/rainforest-problem-types.yml
+  href: https://artifacts.apis.io/rainforest/errors/rainforest-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rainforest-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/errors/rainforest-decline-codes.yml
+  href: https://artifacts.apis.io/rainforest/errors/rainforest-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/rainforest-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/lifecycle/rainforest-lifecycle.yml
+  href: https://artifacts.apis.io/rainforest/lifecycle/rainforest-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rainforest-lifecycle.yml
@@ -450,57 +454,65 @@ common:
   type: Deprecation
   url: https://docs.rainforestpay.com/docs/api-version-upgrades
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/sandbox/rainforest-sandbox.yml
+  href: https://artifacts.apis.io/rainforest/sandbox/rainforest-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/rainforest-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/conventions/rainforest-conventions.yml
+  href: https://artifacts.apis.io/rainforest/conventions/rainforest-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rainforest-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/conventions/rainforest-conventions.yml
+  href: https://artifacts.apis.io/rainforest/conventions/rainforest-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/rainforest-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/components/rainforest-components.yml
+  href: https://artifacts.apis.io/rainforest/components/rainforest-components.yml
   title: ''
   type: Components
   url: components/rainforest-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/data-model/rainforest-data-model.yml
+  href: https://artifacts.apis.io/rainforest/data-model/rainforest-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rainforest-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/asyncapi/rainforest-webhooks.yml
+  href: https://artifacts.apis.io/rainforest/asyncapi/rainforest-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/rainforest-webhooks.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/overlays/rainforest-payments-overlay.yaml
+  href: https://artifacts.apis.io/rainforest/overlays/rainforest-payments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rainforest-payments-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rainforest/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/arazzo/rainforest-collect-payment.yml
+  href: https://artifacts.apis.io/rainforest/arazzo/rainforest-collect-payment.yml
   title: ''
   type: Arazzo
   url: arazzo/rainforest-collect-payment.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/arazzo/rainforest-onboard-merchant.yml
+  href: https://artifacts.apis.io/rainforest/arazzo/rainforest-onboard-merchant.yml
   title: ''
   type: Arazzo
   url: arazzo/rainforest-onboard-merchant.yml
 created: '2026-07-17'
 description: Rainforest is a payfac-as-a-service (payment-facilitator-as-a-service) provider that lets vertical SaaS platforms embed payments and monetize them as revenue. Platforms integrate via embeddable, PCI-scope-reducing Components (loaded from a JavaScript bundle and configured in Component Studio) or a direct server-to-server REST API, and Rainforest handles merchant onboarding (KYC/KYB), card and ACH processing, payouts/deposits, chargebacks, disputes, and PCI compliance. The API is organized into Authentication/API keys, Merchants and merchant applications, Payments (payins, payment methods, refunds, chargebacks, ACH returns, devices), Deposits, File Uploads, Forward Requests, and Health, versioned by date (current 2024-10-16) and secured with HTTP Bearer API keys plus short-lived Component session tokens. Rainforest is PCI DSS Level 1 certified and hosted on AWS. Backed by Accel, Matrix Partners, and Y Combinator.
+finops:
+- has_sources: true
+  method: derived
+  name: Rainforest Finops
+  primary_unit: item
+  service_category: ''
+  slug: rainforest-finops
+  template: false
 image: https://cdn.prod.website-files.com/682cdc7097ff49cf0ef60212/6848e7d5a49cad06f0ce0ffa_favicon%202.png
 layout: provider
 modified: '2026-07-20'
@@ -513,27 +525,34 @@ overview: 'Rainforest publishes 23 API contracts indexed on the [APIs.io](https:
   The Rainforest catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Rainforest''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 33 more developer resources.'
-random_paper: 7
+  Rainforest''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 34 more developer resources.'
+plans:
+- name: Rainforest Plans Pricing
+  plan_count: 14
+  slug: rainforest-plans-pricing
+- name: Rainforest Price Estimates
+  plan_count: 0
+  slug: rainforest-price-estimates
+random_paper: 5
 score:
-  band: strong
-  composite: 54.4
+  band: exemplar
+  composite: 66.7
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 28
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 47.4
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 58.0
-    developer_ergonomics: 50.6
-    discoverability: 78.6
-    operational_transparency: 46.1
-  previous_composite: 54.3
+    developer_ergonomics: 69.6
+    discoverability: 71.4
+    operational_transparency: 52.6
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -550,13 +569,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/screenshots/rainforest-2026-08-17T081441.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rainforest/rainforest-2026-08-17T081441.png
 security:
 - kind: authentication
   name: Rainforest Authentication
@@ -570,6 +590,16 @@ security:
   name: Rainforest Trust Center
   slug: rainforest-trust-center
   summary_line: PCI DSS Level 1 Service Provider
+skill_count: 4
+skills:
+- name: Collect a payment (payin) with Rainforest
+  slug: rainforest-collect-payment
+- name: Respond to a chargeback with Rainforest
+  slug: rainforest-handle-chargeback
+- name: Onboard a merchant with Rainforest
+  slug: rainforest-onboard-merchant
+- name: Void or refund a payin with Rainforest
+  slug: rainforest-refund-payin
 slug: rainforest
 tags:
 - Company

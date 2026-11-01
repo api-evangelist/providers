@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: Website
   url: https://nextbigsound.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/next-big-sound/refs/heads/main/security/next-big-sound-domain-security.yml
+  href: https://artifacts.apis.io/next-big-sound/security/next-big-sound-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/next-big-sound-domain-security.yml
@@ -54,7 +56,7 @@ name: Next Big Sound
 nav: Providers
 network: true
 overview: Next Big Sound is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Analytics, Data, and Metrics.
-random_paper: 10
+random_paper: 4
 score:
   band: minimal
   composite: 0.0
@@ -81,8 +83,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://{xms-controller}/v1
@@ -657,11 +659,8 @@ apis:
   description: VolumeDpBlockBackupPolicyMappingController API /volume-dp-block-backup-policy-mappings
   name: XSKY Volume Dp Block Backup Policy Mappings API
   slug: xsky-volume-dp-block-backup-policy-mappings-api
-artifact_total: 251
+artifact_total: 253
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: XMS access-paths API
   slug: open-xsky-access-paths-api
@@ -1036,12 +1035,12 @@ collections:
   slug: open-xsky-volume-dp-block-backup-policy-mappings-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/capabilities/xsky-capability-edges.yml
+  href: https://artifacts.apis.io/xsky/capabilities/xsky-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/xsky-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/overlays/xsky-xms-overlay.yaml
+  href: https://artifacts.apis.io/xsky/overlays/xsky-xms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/xsky-xms-overlay.yaml
@@ -1070,42 +1069,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/xsky-storage
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/packages/xsky-packages.yml
+  href: https://artifacts.apis.io/xsky/packages/xsky-packages.yml
   title: ''
   type: Packages
   url: packages/xsky-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/packages/xsky-packages.yml
+  href: https://artifacts.apis.io/xsky/packages/xsky-packages.yml
   title: ''
   type: SDKs
   url: packages/xsky-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/well-known/xsky-well-known.yml
+  href: https://artifacts.apis.io/xsky/well-known/xsky-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/xsky-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/mcp/xsky-mcp.yml
+  href: https://artifacts.apis.io/xsky/mcp/xsky-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/xsky-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/llms/xsky-llms.txt
+  href: https://artifacts.apis.io/xsky/llms/xsky-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/xsky-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/conformance/xsky-conformance.yml
+  href: https://artifacts.apis.io/xsky/conformance/xsky-conformance.yml
   title: ''
   type: Conformance
   url: conformance/xsky-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/errors/xsky-problem-types.yml
+  href: https://artifacts.apis.io/xsky/errors/xsky-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/xsky-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/lifecycle/xsky-lifecycle.yml
+  href: https://artifacts.apis.io/xsky/lifecycle/xsky-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/xsky-lifecycle.yml
@@ -1114,32 +1113,32 @@ common:
   type: Deprecation
   url: https://www.xsky.com/supports/product-lifecycle
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/authentication/xsky-authentication.yml
+  href: https://artifacts.apis.io/xsky/authentication/xsky-authentication.yml
   title: ''
   type: Authentication
   url: authentication/xsky-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/security/xsky-domain-security.yml
+  href: https://artifacts.apis.io/xsky/security/xsky-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xsky-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/conventions/xsky-conventions.yml
+  href: https://artifacts.apis.io/xsky/conventions/xsky-conventions.yml
   title: ''
   type: Conventions
   url: conventions/xsky-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/cli/xsky-cli.yml
+  href: https://artifacts.apis.io/xsky/cli/xsky-cli.yml
   title: ''
   type: CLI
   url: cli/xsky-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/data-model/xsky-data-model.yml
+  href: https://artifacts.apis.io/xsky/data-model/xsky-data-model.yml
   title: ''
   type: DataModel
   url: data-model/xsky-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/xsky/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -1155,10 +1154,10 @@ overview: 'XSKY publishes 124 API contracts indexed on the [APIs.io](https://api
 
 
   XSKY''s developer surface includes engineering blog, support, signup flow, authentication, CLI, and 18 more developer resources.'
-random_paper: 1
+random_paper: 7
 score:
   band: thin
-  composite: 32.1
+  composite: 33.6
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -1170,10 +1169,10 @@ score:
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 44.4
-    developer_ergonomics: 39.9
-    discoverability: 73.2
-    operational_transparency: 2.6
+    contract_quality: 41.0
+    developer_ergonomics: 44.6
+    discoverability: 66.1
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -1181,7 +1180,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 32.1
+  previous_composite: 33.6
   provenance:
     conformance: derived
     contracts:
@@ -1197,13 +1196,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/screenshots/xsky-2026-09-02T171207.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/xsky/xsky-2026-09-02T171207.png
 security:
 - kind: authentication
   name: Xsky Authentication
@@ -1213,6 +1213,14 @@ security:
   name: Xsky Domain Security
   slug: xsky-domain-security
   summary_line: TLSv1.3 · DNSSEC
+skill_count: 3
+skills:
+- name: Authenticate to XMS and manage access tokens
+  slug: xsky-authenticate-and-manage-tokens
+- name: Create an object-storage user and bucket
+  slug: xsky-manage-object-storage
+- name: Provision a block volume and export it
+  slug: xsky-provision-block-storage
 slug: xsky
 tags:
 - Storage

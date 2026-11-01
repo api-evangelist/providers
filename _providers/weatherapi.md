@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 12
   slug: weatherapi-agentic-access
   summary_line: 12 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.weatherapi.com/v1
   baseurl_source: declared
@@ -120,14 +122,11 @@ arazzos:
 - description: Resolve a location, probe its forecast for alerts, then branch to pull full alert detail.
   name: WeatherAPI Weather Alerts Check
   slug: weatherapi-weather-alerts-workflow
-artifact_total: 152
+artifact_total: 151
 collections:
 - collection_type: postman
   name: WeatherAPI.com
   slug: postman-weatherapi-openapi-original
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: WeatherAPI.com Alerts API
   slug: open-weatherapi-alerts-api
@@ -151,17 +150,17 @@ collections:
   slug: open-weatherapi-weather-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/agentic-access/weatherapi-agentic-access.yml
+  href: https://artifacts.apis.io/weatherapi/agentic-access/weatherapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/weatherapi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/security/weatherapi-domain-security.yml
+  href: https://artifacts.apis.io/weatherapi/security/weatherapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/weatherapi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/authentication/weatherapi-authentication.yml
+  href: https://artifacts.apis.io/weatherapi/authentication/weatherapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/weatherapi-authentication.yml
@@ -170,67 +169,67 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/weatherapi/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/arazzo/weatherapi-air-quality-workflow.yml
+  href: https://artifacts.apis.io/weatherapi/arazzo/weatherapi-air-quality-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/weatherapi-air-quality-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/arazzo/weatherapi-bulk-current-weather-workflow.yml
+  href: https://artifacts.apis.io/weatherapi/arazzo/weatherapi-bulk-current-weather-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/weatherapi-bulk-current-weather-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/arazzo/weatherapi-forecast-with-astronomy-workflow.yml
+  href: https://artifacts.apis.io/weatherapi/arazzo/weatherapi-forecast-with-astronomy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/weatherapi-forecast-with-astronomy-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/arazzo/weatherapi-future-weather-workflow.yml
+  href: https://artifacts.apis.io/weatherapi/arazzo/weatherapi-future-weather-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/weatherapi-future-weather-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/arazzo/weatherapi-historical-weather-workflow.yml
+  href: https://artifacts.apis.io/weatherapi/arazzo/weatherapi-historical-weather-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/weatherapi-historical-weather-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/arazzo/weatherapi-ip-geolocated-weather-workflow.yml
+  href: https://artifacts.apis.io/weatherapi/arazzo/weatherapi-ip-geolocated-weather-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/weatherapi-ip-geolocated-weather-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/arazzo/weatherapi-marine-forecast-workflow.yml
+  href: https://artifacts.apis.io/weatherapi/arazzo/weatherapi-marine-forecast-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/weatherapi-marine-forecast-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/arazzo/weatherapi-search-to-astronomy-workflow.yml
+  href: https://artifacts.apis.io/weatherapi/arazzo/weatherapi-search-to-astronomy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/weatherapi-search-to-astronomy-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/arazzo/weatherapi-search-to-current-workflow.yml
+  href: https://artifacts.apis.io/weatherapi/arazzo/weatherapi-search-to-current-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/weatherapi-search-to-current-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/arazzo/weatherapi-sports-events-weather-workflow.yml
+  href: https://artifacts.apis.io/weatherapi/arazzo/weatherapi-sports-events-weather-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/weatherapi-sports-events-weather-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/arazzo/weatherapi-timezone-localtime-workflow.yml
+  href: https://artifacts.apis.io/weatherapi/arazzo/weatherapi-timezone-localtime-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/weatherapi-timezone-localtime-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/arazzo/weatherapi-travel-briefing-workflow.yml
+  href: https://artifacts.apis.io/weatherapi/arazzo/weatherapi-travel-briefing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/weatherapi-travel-briefing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/arazzo/weatherapi-weather-alerts-workflow.yml
+  href: https://artifacts.apis.io/weatherapi/arazzo/weatherapi-weather-alerts-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/weatherapi-weather-alerts-workflow.yml
@@ -287,32 +286,32 @@ common:
   type: Tools
   url: https://www.npmjs.com/package/weatherapi-mcp
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/plans/weatherapi-plans-pricing.yml
+  href: https://artifacts.apis.io/weatherapi/plans/weatherapi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/weatherapi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/rate-limits/weatherapi-rate-limits.yml
+  href: https://artifacts.apis.io/weatherapi/rate-limits/weatherapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/weatherapi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/finops/weatherapi-finops.yml
+  href: https://artifacts.apis.io/weatherapi/finops/weatherapi-finops.yml
   title: ''
   type: FinOps
   url: finops/weatherapi-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/rules/weatherapi-rules.yml
+  href: https://artifacts.apis.io/weatherapi/rules/weatherapi-rules.yml
   title: ''
   type: SpectralRules
   url: rules/weatherapi-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/vocabulary/weatherapi-vocabulary.yml
+  href: https://artifacts.apis.io/weatherapi/vocabulary/weatherapi-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/weatherapi-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/json-ld/weatherapi-context.jsonld
+  href: https://artifacts.apis.io/weatherapi/json-ld/weatherapi-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/weatherapi-context.jsonld
@@ -659,8 +658,8 @@ rules:
     warn: 21
   slug: weatherapi-rules
 score:
-  band: thin
-  composite: 37.6
+  band: strong
+  composite: 55.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 63.0
@@ -668,15 +667,15 @@ score:
     catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 52.6
     contract_governance: 27.3
     contract_quality: 63.6
-    developer_ergonomics: 29.8
+    developer_ergonomics: 75.0
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 45.9
+    operational_transparency: 13.2
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     contracts:
@@ -689,14 +688,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/screenshots/weatherapi-2026-06-20T201311.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/weatherapi/weatherapi-2026-06-20T201311.png
 security:
 - kind: authentication
   name: Weatherapi Authentication

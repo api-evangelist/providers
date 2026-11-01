@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Citigroup's group-level institutional API platform (Citi Developer Experience / CitiConnect, from Treasury and Trade Solutions) that Citi Canada's corporate and institutional clients integrate with fo
@@ -42,7 +44,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/citibank-canada/refs/heads/main/security/citibank-canada-domain-security.yml
+  href: https://artifacts.apis.io/citibank-canada/security/citibank-canada-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/citibank-canada-domain-security.yml
@@ -71,7 +73,7 @@ common:
   type: PrivacyPolicy
   url: https://www.citigroup.com/global/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/citibank-canada/refs/heads/main/llms/citibank-canada-llms.txt
+  href: https://artifacts.apis.io/citibank-canada/llms/citibank-canada-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/citibank-canada-llms.txt
@@ -88,10 +90,10 @@ overview: 'Citibank Canada is listed with 1 API on the [APIs.io](https://apis.io
 
 
   Citibank Canada''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 8
+random_paper: 18
 score:
   band: minimal
-  composite: 10.8
+  composite: 10.4
   coverage:
     artifact_dirs: 5
     catalog_earned: 32.0
@@ -105,8 +107,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 64.3
-    operational_transparency: 2.6
+    discoverability: 57.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -114,21 +116,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 10.8
+  previous_composite: 10.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/citibank-canada/refs/heads/main/screenshots/citibank-canada-2026-07-25T205424.png
+screenshot: https://apis.io/screenshots/citibank-canada/citibank-canada-2026-07-25T205424.png
 security:
 - kind: domain-security
   name: Citibank Canada Domain Security

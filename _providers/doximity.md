@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.7
-  scored_at: '2026-10-17'
+  score: 36.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -53,11 +55,8 @@ apis:
   description: OAuth 2.0 authorization and token endpoints
   name: Doximity O Auth API
   slug: doximity-oauth-api
-artifact_total: 12
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Doximity 2.0 & OpenID Connect OAuth API
   slug: open-doximity-oauth-api
@@ -118,107 +117,107 @@ common:
   type: Compliance
   url: https://www.doximity.com/about/security
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/openapi/_original/doximity-oauth-openapi.yml
+  href: https://artifacts.apis.io/doximity/openapi/_original/doximity-oauth-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/doximity-oauth-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/authentication/doximity-authentication.yml
+  href: https://artifacts.apis.io/doximity/authentication/doximity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/doximity-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/scopes/doximity-scopes.yml
+  href: https://artifacts.apis.io/doximity/scopes/doximity-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/doximity-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/well-known/doximity-well-known.yml
+  href: https://artifacts.apis.io/doximity/well-known/doximity-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/doximity-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/well-known/doximity-security.txt
+  href: https://artifacts.apis.io/doximity/well-known/doximity-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/doximity-security.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/packages/doximity-packages.yml
+  href: https://artifacts.apis.io/doximity/packages/doximity-packages.yml
   title: ''
   type: Packages
   url: packages/doximity-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/packages/doximity-packages.yml
+  href: https://artifacts.apis.io/doximity/packages/doximity-packages.yml
   title: ''
   type: SDKs
   url: packages/doximity-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/mcp/doximity-mcp.yml
+  href: https://artifacts.apis.io/doximity/mcp/doximity-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/doximity-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/llms/doximity-llms.txt
+  href: https://artifacts.apis.io/doximity/llms/doximity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/doximity-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/overlays/doximity-oauth-overlay.yaml
+  href: https://artifacts.apis.io/doximity/overlays/doximity-oauth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/doximity-oauth-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/conformance/doximity-conformance.yml
+  href: https://artifacts.apis.io/doximity/conformance/doximity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/doximity-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/errors/doximity-problem-types.yml
+  href: https://artifacts.apis.io/doximity/errors/doximity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/doximity-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/lifecycle/doximity-lifecycle.yml
+  href: https://artifacts.apis.io/doximity/lifecycle/doximity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/doximity-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/conventions/doximity-conventions.yml
+  href: https://artifacts.apis.io/doximity/conventions/doximity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/doximity-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/data-model/doximity-data-model.yml
+  href: https://artifacts.apis.io/doximity/data-model/doximity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/doximity-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/rate-limits/doximity-rate-limits.yml
+  href: https://artifacts.apis.io/doximity/rate-limits/doximity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/doximity-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/security/doximity-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/doximity/security/doximity-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/doximity-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/security/doximity-trust-center.yml
+  href: https://artifacts.apis.io/doximity/security/doximity-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/doximity-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/security/doximity-domain-security.yml
+  href: https://artifacts.apis.io/doximity/security/doximity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/doximity-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/agentic-access/doximity-agentic-access.yml
+  href: https://artifacts.apis.io/doximity/agentic-access/doximity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/doximity-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/doximity/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -235,7 +234,7 @@ overview: 'Doximity publishes 2 API contracts indexed on the [APIs.io](https://a
 
 
   Doximity''s developer surface includes engineering blog, documentation, getting-started guide, signup flow, support, authentication, and 28 more developer resources.'
-random_paper: 7
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Doximity Rate Limits
@@ -247,23 +246,23 @@ scopes:
   summary_line: 21 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.6
+  composite: 50.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 42.2
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 50.0
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -280,13 +279,14 @@ score:
     regime: Health
     regime_id: health
     score: 45.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/screenshots/doximity-2026-07-25T212328.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/doximity/doximity-2026-07-25T212328.png
 security:
 - kind: authentication
   name: Doximity Authentication
@@ -304,6 +304,12 @@ security:
   name: Doximity Trust Center
   slug: doximity-trust-center
   summary_line: SOC 2 Type 2, SOC 3, HIPAA, HITECH
+skill_count: 2
+skills:
+- name: Refresh and revoke a Doximity session
+  slug: doximity-refresh-and-revoke
+- name: Verify and identify a Doximity member
+  slug: doximity-verify-member
 slug: doximity
 tags:
 - Company

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.8
-  scored_at: '2026-10-17'
+  score: 43.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -70,15 +72,17 @@ apis:
   description: The Utility API from HealthSherpa — 1 operation(s) for utility.
   name: HealthSherpa Utility API
   slug: healthsherpa-utility-api
+- baseURL: https://api.one.healthsherpa.com
+  baseurl_source: declared
+  description: The Policy Status API from HealthSherpa — 2 operation(s) for policy status.
+  name: HealthSherpa Policy Status API
+  slug: healthsherpa-policy-status-api
 artifact_total: 16
 asyncapis:
 - description: ''
   name: Healthsherpa Ichra Webhooks
   slug: healthsherpa-ichra-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: HealthSherpa Public Enrollment Sessions API
   slug: open-healthsherpa-enrollment-sessions-api
@@ -96,7 +100,7 @@ collections:
   slug: open-healthsherpa-utility-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/capabilities/healthsherpa-capability-edges.yml
+  href: https://artifacts.apis.io/healthsherpa/capabilities/healthsherpa-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/healthsherpa-capability-edges.yml
@@ -137,42 +141,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/healthsherpa
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/llms/healthsherpa-llms.txt
+  href: https://artifacts.apis.io/healthsherpa/llms/healthsherpa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/healthsherpa-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/authentication/healthsherpa-authentication.yml
+  href: https://artifacts.apis.io/healthsherpa/authentication/healthsherpa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/healthsherpa-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/conventions/healthsherpa-conventions.yml
+  href: https://artifacts.apis.io/healthsherpa/conventions/healthsherpa-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/healthsherpa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/conventions/healthsherpa-conventions.yml
+  href: https://artifacts.apis.io/healthsherpa/conventions/healthsherpa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/healthsherpa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/errors/healthsherpa-problem-types.yml
+  href: https://artifacts.apis.io/healthsherpa/errors/healthsherpa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/healthsherpa-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/lifecycle/healthsherpa-lifecycle.yml
+  href: https://artifacts.apis.io/healthsherpa/lifecycle/healthsherpa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/healthsherpa-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/data-model/healthsherpa-data-model.yml
+  href: https://artifacts.apis.io/healthsherpa/data-model/healthsherpa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/healthsherpa-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/conformance/healthsherpa-conformance.yml
+  href: https://artifacts.apis.io/healthsherpa/conformance/healthsherpa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/healthsherpa-conformance.yml
@@ -181,32 +185,32 @@ common:
   type: Compliance
   url: https://www.healthsherpa.com/agents_agencies
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/mcp/healthsherpa-mcp.yml
+  href: https://artifacts.apis.io/healthsherpa/mcp/healthsherpa-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/healthsherpa-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/overlays/healthsherpa-one-overlay.yaml
+  href: https://artifacts.apis.io/healthsherpa/overlays/healthsherpa-one-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/healthsherpa-one-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/asyncapi/healthsherpa-ichra-webhooks.yml
+  href: https://artifacts.apis.io/healthsherpa/asyncapi/healthsherpa-ichra-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/healthsherpa-ichra-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/healthsherpa/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/security/healthsherpa-domain-security.yml
+  href: https://artifacts.apis.io/healthsherpa/security/healthsherpa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/healthsherpa-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/agentic-access/healthsherpa-agentic-access.yml
+  href: https://artifacts.apis.io/healthsherpa/agentic-access/healthsherpa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/healthsherpa-agentic-access.yml
@@ -218,19 +222,19 @@ modified: '2026-07-19'
 name: HealthSherpa
 nav: Providers
 network: true
-overview: 'HealthSherpa publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Enrollment Sessions API, Enrollments API, Quotes API, and 2 more. Tagged areas include Company, Health Insurance, Healthcare, ACA, and Enrollment.
+overview: 'HealthSherpa publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Enrollment Sessions API, Enrollments API, Quotes API, and 3 more. Tagged areas include Company, Health Insurance, Healthcare, ACA, and Enrollment.
 
 
   The HealthSherpa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   HealthSherpa''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 19 more developer resources.'
-random_paper: 19
+random_paper: 1
 score:
-  band: thin
-  composite: 37.9
+  band: developing
+  composite: 40.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -240,11 +244,11 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 59.4
-    developer_ergonomics: 35.7
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 37.9
+    contract_quality: 59.2
+    developer_ergonomics: 61.9
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,7 +256,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 12
     mcp: derived
     skills: first-party
   regulatory:
@@ -261,13 +265,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 19.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/screenshots/healthsherpa-2026-07-25T220840.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/healthsherpa/healthsherpa-2026-07-25T220840.png
 security:
 - kind: authentication
   name: Healthsherpa Authentication

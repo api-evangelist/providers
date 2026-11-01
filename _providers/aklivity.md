@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: 'Zilla is a stateless, cloud-native multi-protocol edge and service proxy that enables seamless access to Apache Kafka through HTTP REST, gRPC, SSE, MQTT, and WebSocket protocols. Zilla eliminates the '
@@ -48,7 +50,7 @@ apis:
 - description: ZillaBase is an event-driven backend framework for the next generation of web, mobile, and AI applications, built on top of Apache Kafka and Zilla to enable real-time, event-sourced application develo
   name: ZillaBase
   slug: zillabase
-artifact_total: 27
+artifact_total: 29
 common:
 - group: operate
   title: ''
@@ -71,12 +73,12 @@ common:
   type: ContributionGuide
   url: https://github.com/aklivity/zilla/blob/develop/.github/CONTRIBUTING.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/security/aklivity-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aklivity/security/aklivity-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aklivity-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/security/aklivity-domain-security.yml
+  href: https://artifacts.apis.io/aklivity/security/aklivity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aklivity-domain-security.yml
@@ -137,102 +139,102 @@ common:
   type: Deprecation
   url: https://docs.aklivity.io/latest/deployment/migrating-to-2.x/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/json-schema/aklivity-zilla-engine.schema.json
+  href: https://artifacts.apis.io/aklivity/json-schema/aklivity-zilla-engine.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/aklivity-zilla-engine.schema.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/packages/aklivity-packages.yml
+  href: https://artifacts.apis.io/aklivity/packages/aklivity-packages.yml
   title: ''
   type: Packages
   url: packages/aklivity-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/llms/aklivity-llms.txt
+  href: https://artifacts.apis.io/aklivity/llms/aklivity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aklivity-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/conformance/aklivity-conformance.yml
+  href: https://artifacts.apis.io/aklivity/conformance/aklivity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aklivity-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/errors/aklivity-event-codes.yml
+  href: https://artifacts.apis.io/aklivity/errors/aklivity-event-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/aklivity-event-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/lifecycle/aklivity-lifecycle.yml
+  href: https://artifacts.apis.io/aklivity/lifecycle/aklivity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aklivity-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/authentication/aklivity-authentication.yml
+  href: https://artifacts.apis.io/aklivity/authentication/aklivity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aklivity-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/sandbox/aklivity-sandbox.yml
+  href: https://artifacts.apis.io/aklivity/sandbox/aklivity-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/aklivity-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/conventions/aklivity-conventions.yml
+  href: https://artifacts.apis.io/aklivity/conventions/aklivity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aklivity-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/conventions/aklivity-conventions.yml
+  href: https://artifacts.apis.io/aklivity/conventions/aklivity-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/aklivity-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/changelog/aklivity-changelog.yml
+  href: https://artifacts.apis.io/aklivity/changelog/aklivity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aklivity-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/cli/aklivity-cli.yml
+  href: https://artifacts.apis.io/aklivity/cli/aklivity-cli.yml
   title: ''
   type: CLI
   url: cli/aklivity-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/data-model/aklivity-data-model.yml
+  href: https://artifacts.apis.io/aklivity/data-model/aklivity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aklivity-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/aklivity/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/vocabulary/aklivity-vocabulary.yaml
+  href: https://artifacts.apis.io/aklivity/vocabulary/aklivity-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/aklivity-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/rules/aklivity-spectral-rules.yml
+  href: https://artifacts.apis.io/aklivity/rules/aklivity-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/aklivity-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/json-ld/aklivity-context.jsonld
+  href: https://artifacts.apis.io/aklivity/json-ld/aklivity-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/aklivity-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/plans/aklivity-plans-pricing.yml
+  href: https://artifacts.apis.io/aklivity/plans/aklivity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aklivity-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/rate-limits/aklivity-rate-limits.yml
+  href: https://artifacts.apis.io/aklivity/rate-limits/aklivity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aklivity-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/finops/aklivity-finops.yml
+  href: https://artifacts.apis.io/aklivity/finops/aklivity-finops.yml
   title: ''
   type: FinOps
   url: finops/aklivity-finops.yml
@@ -260,13 +262,13 @@ features:
 - description: PII classification and field-level encryption for sensitive data in Kafka messages via Zilla Platform.
   name: Field-Level Encryption
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Aklivity Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: gateway
+  service_category: ''
   slug: aklivity-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aklivity.png
 json_schemas:
 - name: Namespace
@@ -293,7 +295,7 @@ plans:
 - name: Aklivity Plans Pricing
   plan_count: 3
   slug: aklivity-plans-pricing
-random_paper: 19
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Aklivity Rate Limits
@@ -312,23 +314,23 @@ rules:
   slug: aklivity-spectral-rules
 score:
   band: developing
-  composite: 48.6
+  composite: 51.0
   coverage:
     artifact_dirs: 26
-    catalog_earned: 65.2
+    catalog_earned: 68.2
     catalog_earned_first_party: 12.0
-    catalog_gap: 49.9
+    catalog_gap: 46.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.6
+  delta: 1.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 71.1
     contract_governance: 41.7
     contract_quality: 13.9
-    developer_ergonomics: 70.7
+    developer_ergonomics: 73.1
     discoverability: 62.5
-    operational_transparency: 36.8
-  previous_composite: 53.2
+    operational_transparency: 39.5
+  previous_composite: 49.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -339,14 +341,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/screenshots/aklivity-2026-06-20T171459.png
+screenshot: https://apis.io/screenshots/aklivity/aklivity-2026-06-20T171459.png
 security:
 - kind: authentication
   name: Aklivity Authentication
@@ -360,6 +362,12 @@ security:
   name: Aklivity Vulnerability Disclosure
   slug: aklivity-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 2
+skills:
+- name: Expose a Kafka topic as a REST API with Zilla
+  slug: aklivity-expose-kafka-as-rest
+- name: Turn an OpenAPI spec into MCP tools with Zilla
+  slug: aklivity-openapi-as-mcp-tools
 slug: aklivity
 tags:
 - AI Gateway

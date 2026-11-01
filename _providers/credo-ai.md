@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 31.2
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - description: Provider-published Model Context Protocol server ("governance-hub") distributed as the npm package @credoai/governance-hub-mcp and run over stdio via npx. Grounds the Credo AI Claude Code Agent Skills
   name: Credo AI Governance Intelligence Pro MCP Server
@@ -237,7 +239,12 @@ apis:
   description: The workflow_stages API from Credo AI — 2 operation(s) for workflow_stages.
   name: Credo AI Workflow Stages API
   slug: credo-ai-workflow-stages-api
-artifact_total: 49
+- baseURL: npx -y @credoai/governance-hub-mcp
+  baseurl_source: declared
+  description: The relationship_types API from Credo AI — 2 operation(s) for relationship_types.
+  name: Credo AI Relationship Types API
+  slug: credo-ai-relationship-types-api
+artifact_total: 62
 collections:
 - collection_type: open
   name: Credo AI API
@@ -247,22 +254,22 @@ collections:
   slug: open-credo-ai-governance-platform-swagger
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/capabilities/credo-ai-capability-edges.yml
+  href: https://artifacts.apis.io/credo-ai/capabilities/credo-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/credo-ai-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/overlays/credo-ai-governance-platform-overlay.yaml
+  href: https://artifacts.apis.io/credo-ai/overlays/credo-ai-governance-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/credo-ai-governance-platform-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/overlays/credo-ai-audit-logs-shadow-ai-overlay.yaml
+  href: https://artifacts.apis.io/credo-ai/overlays/credo-ai-audit-logs-shadow-ai-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/credo-ai-audit-logs-shadow-ai-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/security/credo-ai-domain-security.yml
+  href: https://artifacts.apis.io/credo-ai/security/credo-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/credo-ai-domain-security.yml
@@ -307,7 +314,7 @@ common:
   type: Login
   url: https://app.credo.ai/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/plans/credo-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/credo-ai/plans/credo-ai-plans-pricing.yml
   title: ''
   type: Pricing
   url: plans/credo-ai-plans-pricing.yml
@@ -324,63 +331,71 @@ common:
   type: Security
   url: https://www.credo.ai/legal/vulnerability-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/security/credo-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/credo-ai/security/credo-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/credo-ai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/security/credo-ai-trust-center.yml
+  href: https://artifacts.apis.io/credo-ai/security/credo-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/credo-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/conformance/credo-ai-conformance.yml
+  href: https://artifacts.apis.io/credo-ai/conformance/credo-ai-conformance.yml
   title: ''
   type: Compliance
   url: conformance/credo-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/conformance/credo-ai-conformance.yml
+  href: https://artifacts.apis.io/credo-ai/conformance/credo-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/credo-ai-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/packages/credo-ai-packages.yml
+  href: https://artifacts.apis.io/credo-ai/packages/credo-ai-packages.yml
   title: ''
   type: Packages
   url: packages/credo-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/packages/credo-ai-packages.yml
+  href: https://artifacts.apis.io/credo-ai/packages/credo-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/credo-ai-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/llms/credo-ai-llms.txt
+  href: https://artifacts.apis.io/credo-ai/llms/credo-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/credo-ai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/credo-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/lifecycle/credo-ai-lifecycle.yml
+  href: https://artifacts.apis.io/credo-ai/lifecycle/credo-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/credo-ai-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/plans/credo-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/credo-ai/plans/credo-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/credo-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/rate-limits/credo-ai-rate-limits.yml
+  href: https://artifacts.apis.io/credo-ai/rate-limits/credo-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/credo-ai-rate-limits.yml
 created: '2026-08-11'
 description: Credo AI is an enterprise AI governance, risk, and compliance platform used to discover, register, risk-classify, and continuously govern every AI model, application, agent, and third-party AI vendor an organization runs. The platform pairs an AI Registry (use cases, models, vendors, agents, shadow-AI discovery) with a policy engine that turns regulatory frameworks — the EU AI Act, NIST AI RMF, ISO/IEC 42001, NYC Local Law 144, Colorado SB21-169, OMB M-25 — into machine-enforced policy packs, controls, questionnaires, risk scenarios, and audit-ready evidence artifacts. Programmatic access is delivered through a multi-tenant JSON:API REST surface at api.credo.ai (300 operations across use cases, models, vendors, questionnaires, policy packs, policy controls, risks, tasks, teams, users, triggers, and Shadow AI), a first-party Python SDK (pycredoai) and TypeScript SDK (@credo-ai/sdk), and a published Claude Code plugin marketplace of eleven AI-governance Agent Skills backed by
   a gated Governance Intelligence Pro MCP server.
+finops:
+- has_sources: true
+  method: derived
+  name: Credo Ai Finops
+  primary_unit: ''
+  service_category: ''
+  slug: credo-ai-finops
+  template: true
 image: https://cdn.prod.website-files.com/649d808ba8385965c74d94df/6a27d15ec3da571348386f01_OPENGRAPGH-light.png
 layout: provider
 mcp_servers:
@@ -391,7 +406,7 @@ modified: '2026-08-11'
 name: Credo AI
 nav: Providers
 network: true
-overview: 'Credo AI publishes 40 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Audit Logs API, Comment Threads API, and 37 more. Tagged areas include Company, AI Governance, ai-risk-management, Responsible AI, and Compliance.
+overview: 'Credo AI publishes 41 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Audit Logs API, Comment Threads API, and 38 more. Tagged areas include Company, AI Governance, ai-risk-management, Responsible AI, and Compliance.
 
 
   Credo AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 22 more developer resources.'
@@ -399,37 +414,42 @@ plans:
 - name: Credo Ai Plans Pricing
   plan_count: 0
   slug: credo-ai-plans-pricing
-random_paper: 2
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Credo Ai Rate Limits
   slug: credo-ai-rate-limits
 score:
-  band: strong
-  composite: 55.3
+  band: developing
+  composite: 52.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 40.0
+    artifact_dirs: 23
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.5
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 51.2
+    contract_quality: 47.7
     developer_ergonomics: 71.4
-    discoverability: 76.7
-    operational_transparency: 13.2
-  previous_composite: 55.2
+    discoverability: 65.0
+    operational_transparency: 15.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 52.6
   provenance:
     conformance: first-party
     contracts:
-      callable: 5.1
+      callable: 2.6
       derived: 0
       marker_coverage: 0.0
-      total: 39
+      total: 77
     mcp: first-party
     skills: first-party
   regulatory:
@@ -438,13 +458,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/screenshots/credo-ai-2026-08-17T080838.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/credo-ai/credo-ai-2026-08-17T080838.png
 security:
 - kind: authentication
   name: Credo Ai Authentication
@@ -462,6 +483,30 @@ security:
   name: Credo Ai Trust Center
   slug: credo-ai-trust-center
   summary_line: SOC 2 Type II
+skill_count: 11
+skills:
+- name: aigov-audit-viz
+  slug: credo-ai-aigov-audit-viz
+- name: aigov-audit
+  slug: credo-ai-aigov-audit
+- name: aigov-evidence
+  slug: credo-ai-aigov-evidence
+- name: aigov-intake
+  slug: credo-ai-aigov-intake
+- name: aigov-maturity-viz
+  slug: credo-ai-aigov-maturity-viz
+- name: aigov-maturity
+  slug: credo-ai-aigov-maturity
+- name: aigov-onboarding
+  slug: credo-ai-aigov-onboarding
+- name: aigov-plan-viz
+  slug: credo-ai-aigov-plan-viz
+- name: aigov-plan
+  slug: credo-ai-aigov-plan
+- name: aigov-registry
+  slug: credo-ai-aigov-registry
+- name: aigov-share
+  slug: credo-ai-aigov-share
 slug: credo-ai
 tags:
 - Company

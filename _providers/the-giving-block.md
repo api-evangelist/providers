@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: RESTful JSON API for accepting crypto, stock, and card donations on behalf of nonprofits in The Giving Block network. Provides organization management, currency and exchange-rate lookups, crypto depos
   name: The Giving Block Public API
   slug: the-giving-block-public-api
-artifact_total: 3
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -68,67 +70,67 @@ common:
   type: Support
   url: https://thegivingblock.com/about/contact/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/authentication/the-giving-block-authentication.yml
+  href: https://artifacts.apis.io/the-giving-block/authentication/the-giving-block-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-giving-block-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/conventions/the-giving-block-conventions.yml
+  href: https://artifacts.apis.io/the-giving-block/conventions/the-giving-block-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-giving-block-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/errors/the-giving-block-problem-types.yml
+  href: https://artifacts.apis.io/the-giving-block/errors/the-giving-block-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/the-giving-block-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/conformance/the-giving-block-conformance.yml
+  href: https://artifacts.apis.io/the-giving-block/conformance/the-giving-block-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-giving-block-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/lifecycle/the-giving-block-lifecycle.yml
+  href: https://artifacts.apis.io/the-giving-block/lifecycle/the-giving-block-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/the-giving-block-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/sandbox/the-giving-block-sandbox.yml
+  href: https://artifacts.apis.io/the-giving-block/sandbox/the-giving-block-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/the-giving-block-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/components/the-giving-block-components.yml
+  href: https://artifacts.apis.io/the-giving-block/components/the-giving-block-components.yml
   title: ''
   type: Components
   url: components/the-giving-block-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/webhooks/the-giving-block-webhooks.yml
+  href: https://artifacts.apis.io/the-giving-block/webhooks/the-giving-block-webhooks.yml
   title: ''
   type: Webhooks
   url: webhooks/the-giving-block-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/mcp/the-giving-block-mcp.yml
+  href: https://artifacts.apis.io/the-giving-block/mcp/the-giving-block-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/the-giving-block-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/the-giving-block/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/llms/the-giving-block-llms.txt
+  href: https://artifacts.apis.io/the-giving-block/llms/the-giving-block-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-giving-block-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/security/the-giving-block-domain-security.yml
+  href: https://artifacts.apis.io/the-giving-block/security/the-giving-block-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-giving-block-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/well-known/the-giving-block-well-known.yml
+  href: https://artifacts.apis.io/the-giving-block/well-known/the-giving-block-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/the-giving-block-well-known.yml
@@ -144,10 +146,10 @@ overview: 'The Giving Block is listed with 1 API on the [APIs.io](https://apis.i
 
 
   The Giving Block''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, authentication, sandbox, and 12 more developer resources.'
-random_paper: 16
+random_paper: 18
 score:
   band: emerging
-  composite: 18.1
+  composite: 20.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -160,10 +162,10 @@ score:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 49.4
-    discoverability: 73.2
+    developer_ergonomics: 63.7
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 18.1
+  previous_composite: 20.3
   provenance:
     conformance: derived
     mcp: derived
@@ -174,14 +176,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/screenshots/the-giving-block-2026-09-02T163344.png
+screenshot: https://apis.io/screenshots/the-giving-block/the-giving-block-2026-09-02T163344.png
 security:
 - kind: authentication
   name: The Giving Block Authentication
@@ -191,6 +193,12 @@ security:
   name: The Giving Block Domain Security
   slug: the-giving-block-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: the-giving-block-accept-crypto-donation
+  slug: the-giving-block-accept-crypto-donation
+- name: the-giving-block-accept-stock-donation
+  slug: the-giving-block-accept-stock-donation
 slug: the-giving-block
 tags:
 - Company

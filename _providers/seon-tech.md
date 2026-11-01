@@ -13,7 +13,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-17'
+  score: 37.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -96,9 +97,6 @@ apis:
 artifact_total: 29
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: SEON AML API
   slug: open-seon-tech-aml-api
 - collection_type: open
@@ -126,28 +124,32 @@ collections:
   name: SEON REST API
   slug: open-seon
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/seon/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/capabilities/seon-tech-capability-edges.yml
+  href: https://artifacts.apis.io/seon-tech/capabilities/seon-tech-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/seon-tech-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/agentic-access/seon-tech-agentic-access.yml
+  href: https://artifacts.apis.io/seon-tech/agentic-access/seon-tech-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/seon-tech-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/security/seon-tech-trust-center.yml
+  href: https://artifacts.apis.io/seon-tech/security/seon-tech-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/seon-tech-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/security/seon-tech-domain-security.yml
+  href: https://artifacts.apis.io/seon-tech/security/seon-tech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/seon-tech-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/authentication/seon-tech-authentication.yml
+  href: https://artifacts.apis.io/seon-tech/authentication/seon-tech-authentication.yml
   title: ''
   type: Authentication
   url: authentication/seon-tech-authentication.yml
@@ -248,30 +250,30 @@ common:
   type: LlmsText
   url: https://docs.seon.io/llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/plans/seon-tech-plans-pricing.yml
+  href: https://artifacts.apis.io/seon-tech/plans/seon-tech-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/seon-tech-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/rate-limits/seon-tech-rate-limits.yml
+  href: https://artifacts.apis.io/seon-tech/rate-limits/seon-tech-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/seon-tech-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/finops/seon-tech-finops.yml
+  href: https://artifacts.apis.io/seon-tech/finops/seon-tech-finops.yml
   title: ''
   type: FinOps
   url: finops/seon-tech-finops.yml
 created: '2026-05-25'
 description: SEON is a Budapest-headquartered fraud prevention, AML compliance, and digital footprint analysis platform that exposes a modular REST API for fraud scoring, identity verification, email enrichment, phone enrichment, IP intelligence, BIN lookup, AML screening, device intelligence, and identity verification (IDV). SEON combines real-time enrichment of email, phone, IP, BIN, and device signals with customer-defined rules and machine learning to score risk and prevent fraud, account takeover, multi-accounting, and money laundering across digital channels.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Seon Tech Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: seon-tech-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seon-tech.png
 layout: provider
 mcp_servers:
@@ -285,41 +287,44 @@ network: true
 overview: 'SEON is listed with 11 APIs on the [APIs.io](https://apis.io/) network, including AML API, BIN API, Email API, and 8 more. Tagged areas include AML Compliance, Device Intelligence, Digital Footprint, Fraud Prevention, and Identity Verification.
 
 
-  SEON''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 25 more developer resources.'
+  SEON''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 26 more developer resources.'
 plans:
 - name: Seon Tech Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: seon-tech-plans-pricing
-random_paper: 0
+- name: Seon Tech Price Estimates
+  plan_count: 0
+  slug: seon-tech-price-estimates
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Seon Tech Rate Limits
   slug: seon-tech-rate-limits
 score:
   band: developing
-  composite: 43.9
+  composite: 54.2
   coverage:
     artifact_dirs: 15
-    catalog_earned: 41.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_earned: 49.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -0.3
   facets:
-    access_clarity: 43.4
+    access_clarity: 81.6
     contract_governance: 0.0
     contract_quality: 47.2
-    developer_ergonomics: 61.9
-    discoverability: 71.7
-    operational_transparency: 28.9
+    developer_ergonomics: 63.1
+    discoverability: 69.6
+    operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - cee
     - europe
-  previous_composite: 45.4
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     contracts:
@@ -333,14 +338,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/screenshots/seon-tech-2026-06-20T193713.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/seon-tech/seon-tech-2026-06-20T193713.png
 security:
 - kind: authentication
   name: Seon Tech Authentication

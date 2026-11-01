@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-17'
+  score: 30.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -321,7 +323,7 @@ apis:
     question: Which charges were settled in a specific payout?
   phrasing_ops: 3
   slug: payjp-transfers-api
-artifact_total: 52
+artifact_total: 56
 asyncapis:
 - description: ''
   name: Payjp Webhooks
@@ -370,9 +372,6 @@ collections:
   name: PAY.JP 3D Secure Transfers API
   slug: postman-payjp-transfers-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: PAY.JP 3D Secure API
   slug: open-payjp-3d-secure-api
 - collection_type: open
@@ -416,7 +415,7 @@ collections:
   slug: open-payjp-transfers-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/capabilities/payjp-capability-edges.yml
+  href: https://artifacts.apis.io/payjp/capabilities/payjp-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/payjp-capability-edges.yml
@@ -425,12 +424,12 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/payjp/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/agentic-access/payjp-agentic-access.yml
+  href: https://artifacts.apis.io/payjp/agentic-access/payjp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/payjp-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/security/payjp-trust-center.yml
+  href: https://artifacts.apis.io/payjp/security/payjp-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/payjp-trust-center.yml
@@ -439,87 +438,87 @@ common:
   type: Compliance
   url: https://pay.jp/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/security/payjp-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/payjp/security/payjp-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/payjp-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/security/payjp-domain-security.yml
+  href: https://artifacts.apis.io/payjp/security/payjp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/payjp-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/authentication/payjp-authentication.yml
+  href: https://artifacts.apis.io/payjp/authentication/payjp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/payjp-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/conventions/payjp-conventions.yml
+  href: https://artifacts.apis.io/payjp/conventions/payjp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/payjp-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/packages/payjp-packages.yml
+  href: https://artifacts.apis.io/payjp/packages/payjp-packages.yml
   title: ''
   type: Packages
   url: packages/payjp-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/packages/payjp-packages.yml
+  href: https://artifacts.apis.io/payjp/packages/payjp-packages.yml
   title: ''
   type: SDKs
   url: packages/payjp-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/mcp/payjp-mcp.yml
+  href: https://artifacts.apis.io/payjp/mcp/payjp-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/payjp-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/llms/payjp-llms.txt
+  href: https://artifacts.apis.io/payjp/llms/payjp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/payjp-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/overlays/payjp-openapi-overlay.yaml
+  href: https://artifacts.apis.io/payjp/overlays/payjp-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/payjp-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/conformance/payjp-conformance.yml
+  href: https://artifacts.apis.io/payjp/conformance/payjp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/payjp-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/errors/payjp-error-codes.yml
+  href: https://artifacts.apis.io/payjp/errors/payjp-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/payjp-error-codes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/errors/payjp-decline-codes.yml
+  href: https://artifacts.apis.io/payjp/errors/payjp-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/payjp-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/asyncapi/payjp-webhooks.yml
+  href: https://artifacts.apis.io/payjp/asyncapi/payjp-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/payjp-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/sandbox/payjp-sandbox.yml
+  href: https://artifacts.apis.io/payjp/sandbox/payjp-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/payjp-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/data-model/payjp-data-model.yml
+  href: https://artifacts.apis.io/payjp/data-model/payjp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/payjp-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/components/payjp-components.yml
+  href: https://artifacts.apis.io/payjp/components/payjp-components.yml
   title: ''
   type: Components
   url: components/payjp-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/lifecycle/payjp-lifecycle.yml
+  href: https://artifacts.apis.io/payjp/lifecycle/payjp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/payjp-lifecycle.yml
@@ -532,17 +531,17 @@ common:
   type: Deprecation
   url: https://pay.jp/info
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/changelog/payjp-changelog.yml
+  href: https://artifacts.apis.io/payjp/changelog/payjp-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/payjp-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/payjp/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/collections/payjp.postman_collection.json
+  href: https://artifacts.apis.io/payjp/collections/payjp.postman_collection.json
   title: ''
   type: Postman
   url: collections/payjp.postman_collection.json
@@ -591,17 +590,17 @@ common:
   type: PrivacyPolicy
   url: https://pay.co.jp/privacy
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/plans/payjp-plans-pricing.yml
+  href: https://artifacts.apis.io/payjp/plans/payjp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/payjp-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/rate-limits/payjp-rate-limits.yml
+  href: https://artifacts.apis.io/payjp/rate-limits/payjp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/payjp-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/finops/payjp-finops.yml
+  href: https://artifacts.apis.io/payjp/finops/payjp-finops.yml
   title: ''
   type: FinOps
   url: finops/payjp-finops.yml
@@ -613,10 +612,10 @@ created: '2026-07-17'
 description: PAY.JP is an online payment service operated by PAY, Inc. (PAY株式会社) in Japan. Its Stripe-style REST API lets merchants create charges, tokenize cards, manage customers, run subscriptions (定期課金), and settle transfers (入金) in Japanese yen, with a Platform API (beta) for marketplace/multi-tenant payouts.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Payjp Finops
-  primary_unit: ''
-  service_category: Payments and Financial Services
+  primary_unit: カード決済手数料
+  service_category: ''
   slug: payjp-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/payjp.png
@@ -634,31 +633,34 @@ overview: 'PAY.JP publishes 14 API contracts indexed on the [APIs.io](https://ap
   PAY.JP''s developer surface includes authentication, sandbox, changelog, documentation, getting-started guide, support, pricing, and 35 more developer resources.'
 plans:
 - name: Payjp Plans Pricing
-  plan_count: 6
+  plan_count: 9
   slug: payjp-plans-pricing
+- name: Payjp Price Estimates
+  plan_count: 0
+  slug: payjp-price-estimates
 random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Payjp Rate Limits
   slug: payjp-rate-limits
 score:
-  band: strong
-  composite: 62.5
+  band: exemplar
+  composite: 69.6
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 43.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    artifact_dirs: 29
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.5
   facets:
-    access_clarity: 68.4
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 55.2
+    contract_quality: 51.8
     developer_ergonomics: 74.4
-    discoverability: 73.2
-    operational_transparency: 57.9
+    discoverability: 66.1
+    operational_transparency: 71.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -666,7 +668,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 70.8
+  previous_composite: 68.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -683,13 +685,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 44.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/screenshots/payjp-2026-08-07T191639.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/payjp/payjp-2026-08-07T191639.png
 security:
 - kind: authentication
   name: Payjp Authentication
@@ -707,6 +710,16 @@ security:
   name: Payjp Trust Center
   slug: payjp-trust-center
   summary_line: PCI DSS
+skill_count: 4
+skills:
+- name: Authorize, capture, and refund a charge
+  slug: payjp-authorize-capture-refund
+- name: Create a customer, plan, and subscription
+  slug: payjp-customer-subscription
+- name: Receive and verify PAY.JP webhooks
+  slug: payjp-handle-webhooks
+- name: Tokenize a card and create a charge
+  slug: payjp-tokenize-and-charge
 slug: payjp
 tags:
 - Payments

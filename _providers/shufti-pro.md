@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-17'
+  score: 38.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -66,11 +68,8 @@ apis:
   description: The Verification API from Shufti Pro — 1 operation(s) for verification.
   name: Shufti Pro Verification API
   slug: shufti-pro-verification-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Shufti Pro Verification Status API
   slug: open-shufti-pro-status-api
@@ -82,7 +81,7 @@ collections:
   slug: open-shuftipro
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/security/shufti-pro-domain-security.yml
+  href: https://artifacts.apis.io/shufti-pro/security/shufti-pro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shufti-pro-domain-security.yml
@@ -119,27 +118,27 @@ common:
   type: X
   url: https://x.com/shufti_pro
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/plans/shufti-pro-plans-pricing.yml
+  href: https://artifacts.apis.io/shufti-pro/plans/shufti-pro-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/shufti-pro-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/rate-limits/shufti-pro-rate-limits.yml
+  href: https://artifacts.apis.io/shufti-pro/rate-limits/shufti-pro-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shufti-pro-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/finops/shufti-pro-finops.yml
+  href: https://artifacts.apis.io/shufti-pro/finops/shufti-pro-finops.yml
   title: ''
   type: FinOps
   url: finops/shufti-pro-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/agentic-access/shufti-pro-agentic-access.yml
+  href: https://artifacts.apis.io/shufti-pro/agentic-access/shufti-pro-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shufti-pro-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/authentication/shufti-pro-authentication.yml
+  href: https://artifacts.apis.io/shufti-pro/authentication/shufti-pro-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shufti-pro-authentication.yml
@@ -183,14 +182,14 @@ plans:
 - name: Shufti Pro Plans Pricing
   plan_count: 3
   slug: shufti-pro-plans-pricing
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Shufti Pro Rate Limits
   slug: shufti-pro-rate-limits
 score:
   band: thin
-  composite: 32.0
+  composite: 32.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 54.0
@@ -198,15 +197,15 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.8
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 57.4
     developer_ergonomics: 23.8
-    discoverability: 68.3
-    operational_transparency: 26.3
-  previous_composite: 40.8
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -221,13 +220,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 16.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/screenshots/shufti-pro-2026-06-20T193953.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/shufti-pro/shufti-pro-2026-06-20T193953.png
 security:
 - kind: authentication
   name: Shufti Pro Authentication

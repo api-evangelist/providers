@@ -12,8 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.5
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: JSON REST API (v4) for the OpenX ad server. Sixteen CRUD objects (account, ad, adunit, adunitgroup, comment, creative, deal, floorrule, lineitem, optimization, order, package, paymenthistory, site, si
@@ -89,102 +90,102 @@ common:
   type: ChangeLog
   url: https://docs.openx.com/resources/release-notes/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/changelog/openx-changelog.yml
+  href: https://artifacts.apis.io/openx/changelog/openx-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openx-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/authentication/openx-authentication.yml
+  href: https://artifacts.apis.io/openx/authentication/openx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openx-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/scopes/openx-scopes.yml
+  href: https://artifacts.apis.io/openx/scopes/openx-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/openx-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/conventions/openx-conventions.yml
+  href: https://artifacts.apis.io/openx/conventions/openx-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openx-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/errors/openx-error-types.yml
+  href: https://artifacts.apis.io/openx/errors/openx-error-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/openx-error-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/data-model/openx-data-model.yml
+  href: https://artifacts.apis.io/openx/data-model/openx-data-model.yml
   title: ''
   type: DataModel
   url: data-model/openx-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/lifecycle/openx-lifecycle.yml
+  href: https://artifacts.apis.io/openx/lifecycle/openx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openx-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/conformance/openx-conformance.yml
+  href: https://artifacts.apis.io/openx/conformance/openx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openx-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/rate-limits/openx-rate-limits.yml
+  href: https://artifacts.apis.io/openx/rate-limits/openx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/openx-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/plans/openx-plans-pricing.yml
+  href: https://artifacts.apis.io/openx/plans/openx-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/openx-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/packages/openx-packages.yml
+  href: https://artifacts.apis.io/openx/packages/openx-packages.yml
   title: ''
   type: Packages
   url: packages/openx-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/packages/openx-packages.yml
+  href: https://artifacts.apis.io/openx/packages/openx-packages.yml
   title: ''
   type: SDKs
   url: packages/openx-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/components/openx-components.yml
+  href: https://artifacts.apis.io/openx/components/openx-components.yml
   title: ''
   type: Components
   url: components/openx-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/sandbox/openx-sandbox.yml
+  href: https://artifacts.apis.io/openx/sandbox/openx-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/openx-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/mcp/openx-mcp.yml
+  href: https://artifacts.apis.io/openx/mcp/openx-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/openx-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/well-known/openx-well-known.yml
+  href: https://artifacts.apis.io/openx/well-known/openx-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/openx-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/llms/openx-llms.txt
+  href: https://artifacts.apis.io/openx/llms/openx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openx-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/graphql/openx-graphql.md
+  href: https://artifacts.apis.io/openx/graphql/openx-graphql.md
   title: ''
   type: GraphQL
   url: graphql/openx-graphql.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/grpc/_index.yml
+  href: https://artifacts.apis.io/openx/grpc/_index.yml
   title: ''
   type: Protobuf
   url: grpc/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/security/openx-domain-security.yml
+  href: https://artifacts.apis.io/openx/security/openx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openx-domain-security.yml
@@ -342,7 +343,7 @@ plans:
 - name: Openx Plans Pricing
   plan_count: 0
   slug: openx-plans-pricing
-random_paper: 4
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Openx Rate Limits
@@ -354,7 +355,7 @@ scopes:
   summary_line: 5 scopes · authorizationCode/refreshToken
 score:
   band: thin
-  composite: 36.1
+  composite: 32.8
   coverage:
     artifact_dirs: 23
     catalog_earned: 35.0
@@ -362,14 +363,14 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 24.0
-    developer_ergonomics: 69.0
-    discoverability: 73.3
-    operational_transparency: 18.4
+    contract_quality: 0.0
+    developer_ergonomics: 71.4
+    discoverability: 65.0
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -377,7 +378,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 36.0
+  previous_composite: 32.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -392,15 +393,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 34.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/screenshots/openx-2026-06-20T191054.png
+screenshot: https://apis.io/screenshots/openx/openx-2026-06-20T191054.png
 security:
 - kind: authentication
   name: Openx Authentication

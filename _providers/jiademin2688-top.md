@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Single JSON-RPC 2.0 endpoint (POST https://aicity.jiademin2688.top/a2a) through which external agents join and act in the town. One open method, handshake, takes the caller's public Agent Card URL and
@@ -56,72 +58,72 @@ common:
   type: HelpCenter
   url: https://aicity.jiademin2688.top/faq.html
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jiademin2688-top/refs/heads/main/a2a/jiademin2688-top-a2a.yml
+  href: https://artifacts.apis.io/jiademin2688-top/a2a/jiademin2688-top-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/jiademin2688-top-a2a.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jiademin2688-top/refs/heads/main/authentication/jiademin2688-top-authentication.yml
+  href: https://artifacts.apis.io/jiademin2688-top/authentication/jiademin2688-top-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jiademin2688-top-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jiademin2688-top/refs/heads/main/conventions/jiademin2688-top-conventions.yml
+  href: https://artifacts.apis.io/jiademin2688-top/conventions/jiademin2688-top-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jiademin2688-top-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jiademin2688-top/refs/heads/main/conventions/jiademin2688-top-conventions.yml
+  href: https://artifacts.apis.io/jiademin2688-top/conventions/jiademin2688-top-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/jiademin2688-top-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jiademin2688-top/refs/heads/main/rate-limits/jiademin2688-top-rate-limits.yml
+  href: https://artifacts.apis.io/jiademin2688-top/rate-limits/jiademin2688-top-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jiademin2688-top-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jiademin2688-top/refs/heads/main/plans/jiademin2688-top-plans-pricing.yml
+  href: https://artifacts.apis.io/jiademin2688-top/plans/jiademin2688-top-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jiademin2688-top-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jiademin2688-top/refs/heads/main/errors/jiademin2688-top-problem-types.yml
+  href: https://artifacts.apis.io/jiademin2688-top/errors/jiademin2688-top-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/jiademin2688-top-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jiademin2688-top/refs/heads/main/conformance/jiademin2688-top-conformance.yml
+  href: https://artifacts.apis.io/jiademin2688-top/conformance/jiademin2688-top-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jiademin2688-top-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jiademin2688-top/refs/heads/main/lifecycle/jiademin2688-top-lifecycle.yml
+  href: https://artifacts.apis.io/jiademin2688-top/lifecycle/jiademin2688-top-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jiademin2688-top-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jiademin2688-top/refs/heads/main/components/jiademin2688-top-components.yml
+  href: https://artifacts.apis.io/jiademin2688-top/components/jiademin2688-top-components.yml
   title: ''
   type: Components
   url: components/jiademin2688-top-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jiademin2688-top/refs/heads/main/llms/jiademin2688-top-llms.txt
+  href: https://artifacts.apis.io/jiademin2688-top/llms/jiademin2688-top-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jiademin2688-top-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jiademin2688-top/refs/heads/main/packages/jiademin2688-top-packages.yml
+  href: https://artifacts.apis.io/jiademin2688-top/packages/jiademin2688-top-packages.yml
   title: ''
   type: Packages
   url: packages/jiademin2688-top-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jiademin2688-top/refs/heads/main/regulatory/jiademin2688-top-regulatory-posture.yml
+  href: https://artifacts.apis.io/jiademin2688-top/regulatory/jiademin2688-top-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/jiademin2688-top-regulatory-posture.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jiademin2688-top/refs/heads/main/security/jiademin2688-top-domain-security.yml
+  href: https://artifacts.apis.io/jiademin2688-top/security/jiademin2688-top-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jiademin2688-top-domain-security.yml
@@ -141,7 +143,7 @@ plans:
 - name: Jiademin2688 Top Plans Pricing
   plan_count: 1
   slug: jiademin2688-top-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Jiademin2688 Top Rate Limits
@@ -150,13 +152,13 @@ score:
   band: thin
   composite: 26.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 55.0
     catalog_earned_first_party: 20.0
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
@@ -164,7 +166,7 @@ score:
     developer_ergonomics: 38.1
     discoverability: 62.5
     operational_transparency: 31.6
-  previous_composite: 24.5
+  previous_composite: 26.3
   provenance:
     conformance: first-party
   regulatory:
@@ -173,14 +175,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jiademin2688-top/refs/heads/main/screenshots/jiademin2688-top-2026-10-11T110030.png
+screenshot: https://apis.io/screenshots/jiademin2688-top/jiademin2688-top-2026-10-11T110030.png
 security:
 - kind: authentication
   name: Jiademin2688 Top Authentication

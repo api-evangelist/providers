@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-10-17'
+  score: 0.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Self-hosted gRPC interfaces (proto3, package tari.rpc) to a Tari base node and wallet, for querying the chain and controlling a wallet. Servers run locally on the operator's node rather than at a sing
@@ -69,57 +71,57 @@ common:
   type: ChangeLog
   url: https://github.com/tari-project/tari/releases
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/grpc/_index.yml
+  href: https://artifacts.apis.io/tari/grpc/_index.yml
   title: ''
   type: Protobuf
   url: grpc/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/packages/tari-packages.yml
+  href: https://artifacts.apis.io/tari/packages/tari-packages.yml
   title: ''
   type: Packages
   url: packages/tari-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/packages/tari-packages.yml
+  href: https://artifacts.apis.io/tari/packages/tari-packages.yml
   title: ''
   type: SDKs
   url: packages/tari-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/cli/tari-cli.yml
+  href: https://artifacts.apis.io/tari/cli/tari-cli.yml
   title: ''
   type: CLI
   url: cli/tari-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/mcp/tari-mcp.yml
+  href: https://artifacts.apis.io/tari/mcp/tari-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tari-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/llms/tari-llms.txt
+  href: https://artifacts.apis.io/tari/llms/tari-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tari-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/conformance/tari-conformance.yml
+  href: https://artifacts.apis.io/tari/conformance/tari-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tari-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/conventions/tari-conventions.yml
+  href: https://artifacts.apis.io/tari/conventions/tari-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tari-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/lifecycle/tari-lifecycle.yml
+  href: https://artifacts.apis.io/tari/lifecycle/tari-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tari-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/security/tari-domain-security.yml
+  href: https://artifacts.apis.io/tari/security/tari-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tari-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/well-known/tari-well-known.yml
+  href: https://artifacts.apis.io/tari/well-known/tari-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tari-well-known.yml
@@ -136,12 +138,12 @@ overview: 'Tari is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Tari''s developer surface includes documentation, getting-started guide, engineering blog, changelog, CLI, and 13 more developer resources.'
-random_paper: 14
+random_paper: 0
 score:
   band: emerging
-  composite: 24.3
+  composite: 18.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -151,11 +153,11 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 24.0
+    contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 24.3
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 18.0
   provenance:
     conformance: derived
     mcp: derived
@@ -165,14 +167,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/screenshots/tari-2026-09-02T162544.png
+screenshot: https://apis.io/screenshots/tari/tari-2026-09-02T162544.png
 security:
 - kind: domain-security
   name: Tari Domain Security

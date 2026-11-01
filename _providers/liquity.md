@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -77,11 +79,8 @@ apis:
   description: Data feeds for the Liquity website including yield venues, leaderboard, and borrow rates.
   name: Liquity V2 Website Data API
   slug: liquity-v2-website-data-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Liquity Protocol V1 Supply API
   slug: open-liquity-v1-supply-api
@@ -108,12 +107,12 @@ common:
   type: License
   url: https://github.com/liquity/V2-gov/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/agentic-access/liquity-agentic-access.yml
+  href: https://artifacts.apis.io/liquity/agentic-access/liquity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/liquity-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/security/liquity-domain-security.yml
+  href: https://artifacts.apis.io/liquity/security/liquity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/liquity-domain-security.yml
@@ -221,7 +220,7 @@ overview: 'Liquity publishes 7 API contracts indexed on the [APIs.io](https://ap
 
 
   Liquity''s developer surface includes documentation, engineering blog, and 19 more developer resources.'
-random_paper: 15
+random_paper: 17
 rules:
 - authorship: generated
   effective_rule_count: 6
@@ -236,23 +235,23 @@ rules:
   slug: liquity-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.7
+  composite: 33.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 51.3
     catalog_earned_first_party: 0.0
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 21.1
     contract_governance: 9.8
     contract_quality: 53.9
     developer_ergonomics: 21.4
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 29.6
+    operational_transparency: 21.1
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -265,15 +264,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/screenshots/liquity-2026-06-20T184559.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/liquity/liquity-2026-06-20T184559.png
 security:
 - kind: domain-security
   name: Liquity Domain Security

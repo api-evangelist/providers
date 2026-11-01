@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The AWS API Gateway surface behind the Sensely conversational SDKs. Observed public operations cover partner authentication and token refresh, member self-service password reset, program-code verifica
@@ -45,7 +47,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/security/sensely-domain-security.yml
+  href: https://artifacts.apis.io/sensely/security/sensely-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sensely-domain-security.yml
@@ -82,52 +84,52 @@ common:
   type: PrivacyPolicy
   url: https://sensely.com/privacy-policy/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/packages/sensely-packages.yml
+  href: https://artifacts.apis.io/sensely/packages/sensely-packages.yml
   title: ''
   type: SDKs
   url: packages/sensely-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/packages/sensely-packages.yml
+  href: https://artifacts.apis.io/sensely/packages/sensely-packages.yml
   title: ''
   type: Packages
   url: packages/sensely-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/components/sensely-components.yml
+  href: https://artifacts.apis.io/sensely/components/sensely-components.yml
   title: ''
   type: Components
   url: components/sensely-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/llms/sensely-llms.txt
+  href: https://artifacts.apis.io/sensely/llms/sensely-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sensely-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/conventions/sensely-conventions.yml
+  href: https://artifacts.apis.io/sensely/conventions/sensely-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sensely-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/conformance/sensely-conformance.yml
+  href: https://artifacts.apis.io/sensely/conformance/sensely-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sensely-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/lifecycle/sensely-lifecycle.yml
+  href: https://artifacts.apis.io/sensely/lifecycle/sensely-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sensely-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/changelog/sensely-changelog.yml
+  href: https://artifacts.apis.io/sensely/changelog/sensely-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sensely-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/plans/sensely-plans-pricing.yml
+  href: https://artifacts.apis.io/sensely/plans/sensely-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sensely-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/rate-limits/sensely-rate-limits.yml
+  href: https://artifacts.apis.io/sensely/rate-limits/sensely-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sensely-rate-limits.yml
@@ -147,7 +149,7 @@ plans:
 - name: Sensely Plans Pricing
   plan_count: 0
   slug: sensely-plans-pricing
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Sensely Rate Limits
@@ -159,7 +161,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 26.9
+  composite: 28.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -167,15 +169,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 34.2
-  previous_composite: 26.8
+    operational_transparency: 36.8
+  previous_composite: 28.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -185,14 +187,14 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/screenshots/sensely-2026-09-02T154858.png
+screenshot: https://apis.io/screenshots/sensely/sensely-2026-09-02T154858.png
 security:
 - kind: authentication
   name: Sensely Authentication

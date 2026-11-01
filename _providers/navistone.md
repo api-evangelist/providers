@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 20
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 36
   slug: navistone-agentic-access
   summary_line: 36 operations · 20 acting · 20 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://docs.navistone.com
   baseurl_source: declared
@@ -93,9 +95,6 @@ arazzos:
 artifact_total: 23
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Zazmic Platform API Info API
   slug: open-navistone-api-info-api
 - collection_type: open
@@ -125,7 +124,7 @@ common:
   type: BlogRSS
   url: https://www.navistone.com/blog/rss.xml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/agentic-access/navistone-agentic-access.yml
+  href: https://artifacts.apis.io/navistone/agentic-access/navistone-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/navistone-agentic-access.yml
@@ -158,82 +157,82 @@ common:
   type: PrivacyPolicy
   url: https://www.navistone.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/authentication/navistone-authentication.yml
+  href: https://artifacts.apis.io/navistone/authentication/navistone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/navistone-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/security/navistone-domain-security.yml
+  href: https://artifacts.apis.io/navistone/security/navistone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/navistone-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/conventions/navistone-conventions.yml
+  href: https://artifacts.apis.io/navistone/conventions/navistone-conventions.yml
   title: ''
   type: Conventions
   url: conventions/navistone-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/errors/navistone-problem-types.yml
+  href: https://artifacts.apis.io/navistone/errors/navistone-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/navistone-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/data-model/navistone-data-model.yml
+  href: https://artifacts.apis.io/navistone/data-model/navistone-data-model.yml
   title: ''
   type: DataModel
   url: data-model/navistone-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/conformance/navistone-conformance.yml
+  href: https://artifacts.apis.io/navistone/conformance/navistone-conformance.yml
   title: ''
   type: Conformance
   url: conformance/navistone-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/lifecycle/navistone-lifecycle.yml
+  href: https://artifacts.apis.io/navistone/lifecycle/navistone-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/navistone-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/mcp/navistone-mcp.yml
+  href: https://artifacts.apis.io/navistone/mcp/navistone-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/navistone-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/overlays/navistone-openapi-overlay.yaml
+  href: https://artifacts.apis.io/navistone/overlays/navistone-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/navistone-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/llms/navistone-llms.txt
+  href: https://artifacts.apis.io/navistone/llms/navistone-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/navistone-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/navistone/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/arazzo/navistone-campaign-launch.yml
+  href: https://artifacts.apis.io/navistone/arazzo/navistone-campaign-launch.yml
   title: ''
   type: Arazzo
   url: arazzo/navistone-campaign-launch.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/mcp/navistone-tool-crosswalk.yml
+  href: https://artifacts.apis.io/navistone/mcp/navistone-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/navistone-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/packages/navistone-packages.yml
+  href: https://artifacts.apis.io/navistone/packages/navistone-packages.yml
   title: ''
   type: Packages
   url: packages/navistone-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/plans/navistone-plans-pricing.yml
+  href: https://artifacts.apis.io/navistone/plans/navistone-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/navistone-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/rate-limits/navistone-rate-limits.yml
+  href: https://artifacts.apis.io/navistone/rate-limits/navistone-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/navistone-rate-limits.yml
@@ -261,14 +260,14 @@ plans:
 - name: Navistone Plans Pricing
   plan_count: 0
   slug: navistone-plans-pricing
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Navistone Rate Limits
   slug: navistone-rate-limits
 score:
   band: thin
-  composite: 35.7
+  composite: 35.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -276,15 +275,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 18.2
-    contract_quality: 41.9
+    contract_quality: 38.5
     developer_ergonomics: 42.3
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 35.6
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -301,13 +300,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/screenshots/navistone-2026-08-07T184732.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/navistone/navistone-2026-08-07T184732.png
 security:
 - kind: authentication
   name: Navistone Authentication
@@ -317,6 +317,10 @@ security:
   name: Navistone Domain Security
   slug: navistone-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Launch a NaviStone direct-mail campaign
+  slug: navistone-launch-campaign
 slug: navistone
 tags:
 - Company

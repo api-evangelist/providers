@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-17'
+  score: 26.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 30
   slug: ibm-quantum-agentic-access
   summary_line: 30 operations · 8 acting
-api_count: 6
+api_count: 1
 apis:
 - description: 'Premium / Flex-tier service for discovering and invoking abstracted Qiskit Functions — pre-packaged quantum-classical workflows (e.g. circuit cutting, error-mitigation pipelines) callable through the '
   name: Qiskit Functions Catalog API
@@ -51,47 +53,47 @@ apis:
 - description: Cloud-hosted, AI-augmented transpilation of OpenQASM 3 circuits down to IBM Quantum native gates and backend topology. Bundled with Flex and Premium plans.
   name: Qiskit Transpiler as a Service API
   slug: qiskit-transpiler-as-a-service-api
-- baseURL: https://quantum.cloud.ibm.com/api
+- baseURL: /api
   baseurl_source: spec
   description: The Accounts API from ibm-quantum — 1 operation(s) for accounts.
   name: ibm-quantum Accounts API
   slug: ibm-quantum-accounts-api
-- baseURL: https://quantum.cloud.ibm.com/api
+- baseURL: /api
   baseurl_source: spec
   description: The Analytics API from ibm-quantum — 4 operation(s) for analytics.
   name: ibm-quantum Analytics API
   slug: ibm-quantum-analytics-api
-- baseURL: https://quantum.cloud.ibm.com/api
+- baseURL: /api
   baseurl_source: spec
   description: The Backends API from ibm-quantum — 5 operation(s) for backends.
   name: ibm-quantum Backends API
   slug: ibm-quantum-backends-api
-- baseURL: https://quantum.cloud.ibm.com/api
+- baseURL: /api
   baseurl_source: spec
   description: The Instances API from ibm-quantum — 3 operation(s) for instances.
   name: ibm-quantum Instances API
   slug: ibm-quantum-instances-api
-- baseURL: https://quantum.cloud.ibm.com/api
+- baseURL: /api
   baseurl_source: spec
   description: The Jobs API from ibm-quantum — 7 operation(s) for jobs.
   name: ibm-quantum Jobs API
   slug: ibm-quantum-jobs-api
-- baseURL: https://quantum.cloud.ibm.com/api
+- baseURL: /api
   baseurl_source: spec
   description: The Sessions API from ibm-quantum — 3 operation(s) for sessions.
   name: ibm-quantum Sessions API
   slug: ibm-quantum-sessions-api
-- baseURL: https://quantum.cloud.ibm.com/api
+- baseURL: /api
   baseurl_source: spec
   description: The Tags API from ibm-quantum — 1 operation(s) for tags.
   name: ibm-quantum Tags API
   slug: ibm-quantum-tags-api
-- baseURL: https://quantum.cloud.ibm.com/api
+- baseURL: /api
   baseurl_source: spec
   description: The Versions API from ibm-quantum — 1 operation(s) for versions.
   name: ibm-quantum Versions API
   slug: ibm-quantum-versions-api
-- baseURL: https://quantum.cloud.ibm.com/api
+- baseURL: /api
   baseurl_source: spec
   description: The Workloads API from ibm-quantum — 1 operation(s) for workloads.
   name: ibm-quantum Workloads API
@@ -133,7 +135,7 @@ arazzos:
 - description: Check instance usage and remaining limit before submitting a job, skipping submission when the limit is reached.
   name: IBM Quantum Usage-Aware Job Submission
   slug: ibm-quantum-usage-aware-job-submission-workflow
-artifact_total: 83
+artifact_total: 82
 collections:
 - collection_type: postman
   name: Qiskit Runtime Analytics API
@@ -153,9 +155,6 @@ collections:
 - collection_type: postman
   name: Qiskit Runtime Versions API
   slug: postman-ibm-quantum-runtime-versions
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Qiskit Runtime Analytics Accounts API
   slug: open-ibm-quantum-accounts-api
@@ -207,22 +206,22 @@ common:
   type: Website
   url: https://www.ibm.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/agentic-access/ibm-quantum-agentic-access.yml
+  href: https://artifacts.apis.io/ibm-quantum/agentic-access/ibm-quantum-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ibm-quantum-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/security/ibm-quantum-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ibm-quantum/security/ibm-quantum-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ibm-quantum-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/security/ibm-quantum-domain-security.yml
+  href: https://artifacts.apis.io/ibm-quantum/security/ibm-quantum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ibm-quantum-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/authentication/ibm-quantum-authentication.yml
+  href: https://artifacts.apis.io/ibm-quantum/authentication/ibm-quantum-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ibm-quantum-authentication.yml
@@ -231,62 +230,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/ibm-quantum/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/arazzo/ibm-quantum-audit-workloads-and-drill-into-job-workflow.yml
+  href: https://artifacts.apis.io/ibm-quantum/arazzo/ibm-quantum-audit-workloads-and-drill-into-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-quantum-audit-workloads-and-drill-into-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/arazzo/ibm-quantum-backend-readiness-preflight-workflow.yml
+  href: https://artifacts.apis.io/ibm-quantum/arazzo/ibm-quantum-backend-readiness-preflight-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-quantum-backend-readiness-preflight-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/arazzo/ibm-quantum-cancel-running-job-workflow.yml
+  href: https://artifacts.apis.io/ibm-quantum/arazzo/ibm-quantum-cancel-running-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-quantum-cancel-running-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/arazzo/ibm-quantum-job-results-and-logs-workflow.yml
+  href: https://artifacts.apis.io/ibm-quantum/arazzo/ibm-quantum-job-results-and-logs-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-quantum-job-results-and-logs-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/arazzo/ibm-quantum-list-jobs-and-inspect-workflow.yml
+  href: https://artifacts.apis.io/ibm-quantum/arazzo/ibm-quantum-list-jobs-and-inspect-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-quantum-list-jobs-and-inspect-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/arazzo/ibm-quantum-negotiate-version-and-list-backends-workflow.yml
+  href: https://artifacts.apis.io/ibm-quantum/arazzo/ibm-quantum-negotiate-version-and-list-backends-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-quantum-negotiate-version-and-list-backends-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/arazzo/ibm-quantum-pause-session-and-confirm-workflow.yml
+  href: https://artifacts.apis.io/ibm-quantum/arazzo/ibm-quantum-pause-session-and-confirm-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-quantum-pause-session-and-confirm-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/arazzo/ibm-quantum-select-backend-and-submit-job-workflow.yml
+  href: https://artifacts.apis.io/ibm-quantum/arazzo/ibm-quantum-select-backend-and-submit-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-quantum-select-backend-and-submit-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/arazzo/ibm-quantum-session-run-and-close-workflow.yml
+  href: https://artifacts.apis.io/ibm-quantum/arazzo/ibm-quantum-session-run-and-close-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-quantum-session-run-and-close-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/arazzo/ibm-quantum-submit-job-and-poll-results-workflow.yml
+  href: https://artifacts.apis.io/ibm-quantum/arazzo/ibm-quantum-submit-job-and-poll-results-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-quantum-submit-job-and-poll-results-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/arazzo/ibm-quantum-tag-job-and-verify-workflow.yml
+  href: https://artifacts.apis.io/ibm-quantum/arazzo/ibm-quantum-tag-job-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-quantum-tag-job-and-verify-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/arazzo/ibm-quantum-usage-aware-job-submission-workflow.yml
+  href: https://artifacts.apis.io/ibm-quantum/arazzo/ibm-quantum-usage-aware-job-submission-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-quantum-usage-aware-job-submission-workflow.yml
@@ -427,27 +426,27 @@ common:
   type: Forums
   url: https://stackoverflow.com/questions/tagged/qiskit
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/plans/ibm-quantum-plans-pricing.yml
+  href: https://artifacts.apis.io/ibm-quantum/plans/ibm-quantum-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ibm-quantum-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/rate-limits/ibm-quantum-rate-limits.yml
+  href: https://artifacts.apis.io/ibm-quantum/rate-limits/ibm-quantum-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ibm-quantum-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/finops/ibm-quantum-finops.yml
+  href: https://artifacts.apis.io/ibm-quantum/finops/ibm-quantum-finops.yml
   title: ''
   type: FinOps
   url: finops/ibm-quantum-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/rules/ibm-quantum-rules.yml
+  href: https://artifacts.apis.io/ibm-quantum/rules/ibm-quantum-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/ibm-quantum-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/vocabulary/ibm-quantum-vocabulary.yml
+  href: https://artifacts.apis.io/ibm-quantum/vocabulary/ibm-quantum-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ibm-quantum-vocabulary.yml
@@ -488,7 +487,7 @@ features:
 - Active ecosystem registry of community Qiskit-compatible projects
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Ibm Quantum Finops
   primary_unit: ''
   service_category: ''
@@ -526,7 +525,7 @@ plans:
 - name: Ibm Quantum Plans Pricing
   plan_count: 5
   slug: ibm-quantum-plans-pricing
-random_paper: 14
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Ibm Quantum Rate Limits
@@ -557,43 +556,44 @@ rules:
   slug: ibm-quantum-rules
 score:
   band: strong
-  composite: 56.0
+  composite: 62.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 59.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 56.0
+    artifact_dirs: 19
+    catalog_earned: 65.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: -0.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 84.2
     contract_governance: 27.3
-    contract_quality: 64.4
-    developer_ergonomics: 65.5
-    discoverability: 53.6
-    operational_transparency: 28.9
-  previous_composite: 64.3
+    contract_quality: 59.0
+    developer_ergonomics: 75.0
+    discoverability: 48.2
+    operational_transparency: 39.5
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 62.5
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 24
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/screenshots/ibm-quantum-2026-06-20T183130.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ibm-quantum/ibm-quantum-2026-06-20T183130.png
 security:
 - kind: authentication
   name: Ibm Quantum Authentication

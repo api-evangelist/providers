@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.5
-  scored_at: '2026-10-17'
+  score: 37.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 107
   slug: spiko-agentic-access
   summary_line: 107 operations · 36 acting · 1 human-in-the-loop
-api_count: 4
+api_count: 3
 apis:
 - baseURL: https://public-api.spiko.io/v0
   baseurl_source: declared
@@ -178,15 +180,12 @@ apis:
   description: The Yields API from Spiko — 3 operation(s) for yields.
   name: Spiko Yields API
   slug: spiko-yields-api
-artifact_total: 60
+artifact_total: 64
 asyncapis:
 - description: ''
   name: Spiko Distributor Webhooks
   slug: spiko-distributor-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Spiko Distributor Account transactions API
   slug: open-spiko-account-transactions-api
@@ -269,12 +268,17 @@ collections:
   name: Spiko Distributor Account transactions Yields API
   slug: open-spiko-yields-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/spiko/plans/spiko-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spiko-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
   url: https://www.spiko.io/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/capabilities/spiko-capability-edges.yml
+  href: https://artifacts.apis.io/spiko/capabilities/spiko-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/spiko-capability-edges.yml
@@ -335,112 +339,120 @@ common:
   type: Compliance
   url: https://support.spiko.io/hc/en-us/sections/45292991501073-Legal-and-regulatory-documentation
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/authentication/spiko-authentication.yml
+  href: https://artifacts.apis.io/spiko/authentication/spiko-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spiko-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/scopes/spiko-scopes.yml
+  href: https://artifacts.apis.io/spiko/scopes/spiko-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/spiko-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/well-known/spiko-openid-configuration.json
+  href: https://artifacts.apis.io/spiko/well-known/spiko-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/spiko-openid-configuration.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/well-known/spiko-well-known.yml
+  href: https://artifacts.apis.io/spiko/well-known/spiko-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/spiko-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/agentic-access/spiko-agentic-access.yml
+  href: https://artifacts.apis.io/spiko/agentic-access/spiko-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spiko-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/security/spiko-domain-security.yml
+  href: https://artifacts.apis.io/spiko/security/spiko-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spiko-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/mcp/spiko-mcp.yml
+  href: https://artifacts.apis.io/spiko/mcp/spiko-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/spiko-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/llms/spiko-llms.txt
+  href: https://artifacts.apis.io/spiko/llms/spiko-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spiko-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/conventions/spiko-conventions.yml
+  href: https://artifacts.apis.io/spiko/conventions/spiko-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spiko-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/conventions/spiko-conventions.yml
+  href: https://artifacts.apis.io/spiko/conventions/spiko-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/spiko-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/errors/spiko-problem-types.yml
+  href: https://artifacts.apis.io/spiko/errors/spiko-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spiko-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/lifecycle/spiko-lifecycle.yml
+  href: https://artifacts.apis.io/spiko/lifecycle/spiko-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spiko-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/lifecycle/spiko-lifecycle.yml
+  href: https://artifacts.apis.io/spiko/lifecycle/spiko-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/spiko-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/conformance/spiko-conformance.yml
+  href: https://artifacts.apis.io/spiko/conformance/spiko-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spiko-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/sandbox/spiko-sandbox.yml
+  href: https://artifacts.apis.io/spiko/sandbox/spiko-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/spiko-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/data-model/spiko-data-model.yml
+  href: https://artifacts.apis.io/spiko/data-model/spiko-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spiko-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/asyncapi/spiko-distributor-webhooks.yml
+  href: https://artifacts.apis.io/spiko/asyncapi/spiko-distributor-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/spiko-distributor-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/spiko/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/overlays/spiko-public-overlay.yaml
+  href: https://artifacts.apis.io/spiko/overlays/spiko-public-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spiko-public-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/overlays/spiko-investor-overlay.yaml
+  href: https://artifacts.apis.io/spiko/overlays/spiko-investor-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spiko-investor-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/overlays/spiko-distributor-overlay.yaml
+  href: https://artifacts.apis.io/spiko/overlays/spiko-distributor-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spiko-distributor-overlay.yaml
 created: '2026-07-17'
 description: 'Spiko is a European fintech and MiFID-authorized investment firm (ACPR license #19183) offering regulated daily treasury management through tokenized, UCITS-approved government money market funds and multi-currency cash accounts (EUR, USD, GBP, CHF). Businesses and individuals earn the risk-free rate on idle cash while keeping daily liquidity; client funds are custodied by CACEIS Bank and Spiko itself holds no client funds. Spiko exposes three developer APIs: an open Public API for fund, share-class, NAV, yield, and exchange-rate data; an Investor API for direct clients and partners to manage accounts and deposit/withdrawal/transfer orders; and a Distributor API for partners to onboard investors, manage accounts and orders, and receive webhook events.'
+finops:
+- has_sources: true
+  method: derived
+  name: Spiko Finops
+  primary_unit: ''
+  service_category: ''
+  slug: spiko-finops
+  template: true
 image: https://cdn.prod.website-files.com/670cbf7bea9b168605318b30/674b4c0d4a61fe0fa0036e29_Logo_square_white%402x.png
 layout: provider
 modified: '2026-10-06'
@@ -453,32 +465,36 @@ overview: 'Spiko publishes 27 API contracts indexed on the [APIs.io](https://api
   The Spiko catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Spiko''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 30 more developer resources.'
-random_paper: 0
+  Spiko''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 31 more developer resources.'
+plans:
+- name: Spiko Plans Pricing
+  plan_count: 1
+  slug: spiko-plans-pricing
+random_paper: 22
 scopes:
 - name: Spiko Scopes
   scope_count: 3
   slug: spiko-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 51.8
+  band: strong
+  composite: 56.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 25
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 46.1
+    access_clarity: 73.7
     contract_governance: 18.2
     contract_quality: 56.4
     developer_ergonomics: 66.1
-    discoverability: 78.6
-    operational_transparency: 18.4
-  previous_composite: 51.8
+    discoverability: 71.4
+    operational_transparency: 21.1
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -499,13 +515,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/screenshots/spiko-2026-08-17T082026.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spiko/spiko-2026-08-17T082026.png
 security:
 - kind: authentication
   name: Spiko Authentication
@@ -515,6 +532,14 @@ security:
   name: Spiko Domain Security
   slug: spiko-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Fetch Spiko fund market data
+  slug: spiko-fetch-fund-data
+- name: Deposit and check portfolio (Investor API)
+  slug: spiko-investor-deposit-and-portfolio
+- name: Onboard an investor and place a deposit (Distributor API)
+  slug: spiko-onboard-investor-and-deposit
 slug: spiko
 tags:
 - Company

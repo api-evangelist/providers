@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,31 +14,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-17'
+  score: 6.0
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yurts/refs/heads/main/security/yurts-trust-center.yml
+  href: https://artifacts.apis.io/yurts/security/yurts-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/yurts-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yurts/refs/heads/main/security/yurts-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/yurts/security/yurts-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/yurts-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yurts/refs/heads/main/security/yurts-domain-security.yml
+  href: https://artifacts.apis.io/yurts/security/yurts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yurts-domain-security.yml
@@ -71,7 +73,7 @@ common:
   type: Security
   url: https://www.legionintel.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yurts/refs/heads/main/conformance/yurts-conformance.yml
+  href: https://artifacts.apis.io/yurts/conformance/yurts-conformance.yml
   title: ''
   type: Compliance
   url: conformance/yurts-conformance.yml
@@ -84,32 +86,32 @@ common:
   type: Login
   url: https://platform.legionintel.com/auth/signin
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yurts/refs/heads/main/llms/yurts-llms.txt
+  href: https://artifacts.apis.io/yurts/llms/yurts-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/yurts-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yurts/refs/heads/main/well-known/yurts-well-known.yml
+  href: https://artifacts.apis.io/yurts/well-known/yurts-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/yurts-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yurts/refs/heads/main/well-known/yurts-security.txt
+  href: https://artifacts.apis.io/yurts/well-known/yurts-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/yurts-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yurts/refs/heads/main/conformance/yurts-conformance.yml
+  href: https://artifacts.apis.io/yurts/conformance/yurts-conformance.yml
   title: ''
   type: Conformance
   url: conformance/yurts-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yurts/refs/heads/main/plans/yurts-plans-pricing.yml
+  href: https://artifacts.apis.io/yurts/plans/yurts-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/yurts-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yurts/refs/heads/main/rate-limits/yurts-rate-limits.yml
+  href: https://artifacts.apis.io/yurts/rate-limits/yurts-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/yurts-rate-limits.yml
@@ -145,14 +147,14 @@ plans:
 - name: Yurts Plans Pricing
   plan_count: 0
   slug: yurts-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Yurts Rate Limits
   slug: yurts-rate-limits
 score:
   band: emerging
-  composite: 21.6
+  composite: 22.6
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -160,15 +162,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 13.2
-  previous_composite: 21.7
+    discoverability: 48.2
+    operational_transparency: 15.8
+  previous_composite: 22.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -178,14 +180,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/yurts/refs/heads/main/screenshots/yurts-2026-10-11T195009.png
+screenshot: https://apis.io/screenshots/yurts/yurts-2026-10-11T195009.png
 security:
 - kind: domain-security
   name: Yurts Domain Security

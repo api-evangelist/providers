@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.1
-  scored_at: '2026-10-17'
+  score: 38.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -377,11 +379,8 @@ apis:
   description: The update line item start/end dates API from MadHive — 1 operation(s) for update line item start/end dates.
   name: MadHive update line item start/end dates API
   slug: madhive-update-line-item-start-end-dates-api
-artifact_total: 139
+artifact_total: 143
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Madhive Ability to pause a campaign and all of its associated line items and creatives API
   slug: open-madhive-ability-to-pause-a-campaign-and-all-of-its-associated-line-items-and-creatives-api
@@ -582,27 +581,27 @@ collections:
   slug: open-madhive-update-line-item-start-end-dates-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/capabilities/madhive-capability-edges.yml
+  href: https://artifacts.apis.io/madhive/capabilities/madhive-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/madhive-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/agentic-access/madhive-agentic-access.yml
+  href: https://artifacts.apis.io/madhive/agentic-access/madhive-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/madhive-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/security/madhive-domain-security.yml
+  href: https://artifacts.apis.io/madhive/security/madhive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/madhive-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/scopes/madhive-scopes.yml
+  href: https://artifacts.apis.io/madhive/scopes/madhive-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/madhive-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/authentication/madhive-authentication.yml
+  href: https://artifacts.apis.io/madhive/authentication/madhive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/madhive-authentication.yml
@@ -679,27 +678,27 @@ common:
   type: About
   url: https://www.madhive.com/about-us
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/well-known/madhive-well-known.yml
+  href: https://artifacts.apis.io/madhive/well-known/madhive-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/madhive-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/llms/madhive-llms.txt
+  href: https://artifacts.apis.io/madhive/llms/madhive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/madhive-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/conventions/madhive-conventions.yml
+  href: https://artifacts.apis.io/madhive/conventions/madhive-conventions.yml
   title: ''
   type: Conventions
   url: conventions/madhive-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/errors/madhive-problem-types.yml
+  href: https://artifacts.apis.io/madhive/errors/madhive-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/madhive-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/lifecycle/madhive-lifecycle.yml
+  href: https://artifacts.apis.io/madhive/lifecycle/madhive-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/madhive-lifecycle.yml
@@ -708,42 +707,42 @@ common:
   type: Deprecation
   url: https://developer.madhive.com/scheduled-updates
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/rate-limits/madhive-rate-limits.yml
+  href: https://artifacts.apis.io/madhive/rate-limits/madhive-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/madhive-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/conformance/madhive-conformance.yml
+  href: https://artifacts.apis.io/madhive/conformance/madhive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/madhive-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/changelog/madhive-changelog.yml
+  href: https://artifacts.apis.io/madhive/changelog/madhive-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/madhive-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/data-model/madhive-data-model.yml
+  href: https://artifacts.apis.io/madhive/data-model/madhive-data-model.yml
   title: ''
   type: DataModel
   url: data-model/madhive-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/examples/madhive-examples.yml
+  href: https://artifacts.apis.io/madhive/examples/madhive-examples.yml
   title: ''
   type: Examples
   url: examples/madhive-examples.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/madhive/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/overlays/madhive-api-overlay.yaml
+  href: https://artifacts.apis.io/madhive/overlays/madhive-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/madhive-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/overlays/madhive-mcp-overlay.yaml
+  href: https://artifacts.apis.io/madhive/overlays/madhive-mcp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/madhive-mcp-overlay.yaml
@@ -763,7 +762,7 @@ overview: 'MadHive publishes 66 API contracts indexed on the [APIs.io](https://a
 
 
   MadHive''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, FAQ, changelog, and 30 more developer resources.'
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Madhive Rate Limits
@@ -774,8 +773,8 @@ scopes:
   slug: madhive-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 39.2
+  band: developing
+  composite: 53.4
   coverage:
     artifact_dirs: 24
     catalog_earned: 49.0
@@ -785,12 +784,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 53.8
-    developer_ergonomics: 16.1
-    discoverability: 68.3
-    operational_transparency: 50.0
+    contract_quality: 50.4
+    developer_ergonomics: 58.9
+    discoverability: 65.0
+    operational_transparency: 76.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -798,7 +797,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 39.2
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -815,13 +814,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/screenshots/madhive-2026-08-07T171916.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/madhive/madhive-2026-08-07T171916.png
 security:
 - kind: authentication
   name: Madhive Authentication
@@ -831,6 +831,18 @@ security:
   name: Madhive Domain Security
   slug: madhive-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Build a Madhive publisher group
+  slug: madhive-build-a-publisher-group
+- name: Build and attach a Madhive audience
+  slug: madhive-build-an-audience
+- name: Launch a Madhive campaign
+  slug: madhive-launch-a-campaign
+- name: Drive Madhive through its MCP server
+  slug: madhive-mcp-agent
+- name: Pace, pause and reconcile Madhive delivery
+  slug: madhive-pace-and-pause
 slug: madhive
 tags:
 - Company

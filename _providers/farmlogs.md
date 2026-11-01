@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Field boundary mapping and per-field record-keeping, the original core of FarmLogs. This capability now lives inside Bushel Farm (formerly Bushel Farm/FarmLogs); no self-serve public REST reference, b
@@ -52,17 +54,14 @@ apis:
 - description: Field activity logging and in-field scouting notes, plus machine/equipment activity ingested from John Deere Operations Center and Climate FieldView integrations. These are inbound partner integration
   name: FarmLogs Activities & Scouting
   slug: activities-and-scouting
-artifact_total: 11
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: FarmLogs API
   slug: open-farmlogs
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/security/farmlogs-domain-security.yml
+  href: https://artifacts.apis.io/farmlogs/security/farmlogs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/farmlogs-domain-security.yml
@@ -79,17 +78,17 @@ common:
   type: Documentation
   url: https://bushelpowered.com/solutions/farm-management/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/plans/farmlogs-plans-pricing.yml
+  href: https://artifacts.apis.io/farmlogs/plans/farmlogs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/farmlogs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/rate-limits/farmlogs-rate-limits.yml
+  href: https://artifacts.apis.io/farmlogs/rate-limits/farmlogs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/farmlogs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/finops/farmlogs-finops.yml
+  href: https://artifacts.apis.io/farmlogs/finops/farmlogs-finops.yml
   title: ''
   type: FinOps
   url: finops/farmlogs-finops.yml
@@ -122,14 +121,14 @@ plans:
 - name: Farmlogs Plans Pricing
   plan_count: 1
   slug: farmlogs-plans-pricing
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Farmlogs Rate Limits
   slug: farmlogs-rate-limits
 score:
   band: emerging
-  composite: 14.3
+  composite: 15.9
   coverage:
     artifact_dirs: 9
     catalog_earned: 36.0
@@ -137,29 +136,29 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
-    contract_quality: 23.3
+    contract_quality: 29.7
     developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 20.3
+  previous_composite: 15.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/screenshots/farmlogs-2026-07-25T214231.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/farmlogs/farmlogs-2026-07-25T214231.png
 security:
 - kind: domain-security
   name: Farmlogs Domain Security

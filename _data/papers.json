@@ -120,6 +120,16 @@
     "cover": "https://papers.apievangelist.com/assets/covers/mcp-documentation-beyond-reference.png"
   },
   {
+    "slug": "mcp-style-guide",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/mcp-style-guide/",
+    "title": "The MCP Style Guide",
+    "tagline": "Naming, describing, shaping and governing the tools an agent reads first.",
+    "area": "Fundamentals",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/mcp-style-guide.png"
+  },
+  {
     "slug": "onboarding-agents-to-an-api",
     "kind": "paper",
     "url": "https://papers.apievangelist.com/papers/onboarding-agents-to-an-api/",
@@ -218,5 +228,15 @@
     "area": "Fundamentals",
     "price": "",
     "cover": "https://papers.apievangelist.com/assets/covers/the-pricing-of-payment-apis.png"
+  },
+  {
+    "slug": "the-state-of-openapi-3-2-support",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/the-state-of-openapi-3-2-support/",
+    "title": "The State of OpenAPI 3.2 Support",
+    "tagline": "One year after OpenAPI 3.2 shipped, which docs platforms, gateways, generators, linters and frameworks can actually read it.",
+    "area": "Fundamentals",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/the-state-of-openapi-3-2-support.png"
   }
 ]

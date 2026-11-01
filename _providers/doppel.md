@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 31.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.doppel.com/v1
@@ -92,15 +94,12 @@ apis:
   description: The urls API from Doppel — 0 operation(s) for urls.
   name: Doppel URLS API
   slug: doppel-urls-api
-artifact_total: 24
+artifact_total: 27
 asyncapis:
 - description: AsyncAPI derived from the Doppel V1 OpenAPI webhooks[] surface — the events Doppel POSTs to a subscriber endpoint for Brand Protection, IOC, and Human Risk Management activity. Payload schemas are the
   name: Doppel Webhooks
   slug: doppel-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Doppel alerts API
   slug: open-doppel-alerts-api
@@ -123,12 +122,16 @@ collections:
   name: Doppel alerts scan API
   slug: open-doppel-scan-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/doppel/overview
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.doppel.com/feed
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/capabilities/doppel-capability-edges.yml
+  href: https://artifacts.apis.io/doppel/capabilities/doppel-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/doppel-capability-edges.yml
@@ -153,7 +156,7 @@ common:
   type: GettingStarted
   url: https://doppel.readme.io/docs/submit-alert
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/authentication/doppel-authentication.yml
+  href: https://artifacts.apis.io/doppel/authentication/doppel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/doppel-authentication.yml
@@ -174,7 +177,7 @@ common:
   type: ChangeLog
   url: https://doppel.readme.io/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/changelog/doppel-changelog.yml
+  href: https://artifacts.apis.io/doppel/changelog/doppel-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/doppel-changelog.yml
@@ -195,7 +198,7 @@ common:
   type: Security
   url: https://www.doppel.com/security/responsible-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/security/doppel-trust-center.yml
+  href: https://artifacts.apis.io/doppel/security/doppel-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/doppel-trust-center.yml
@@ -204,67 +207,67 @@ common:
   type: Compliance
   url: https://trust.doppel.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/llms/doppel-llms.txt
+  href: https://artifacts.apis.io/doppel/llms/doppel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/doppel-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/lifecycle/doppel-lifecycle.yml
+  href: https://artifacts.apis.io/doppel/lifecycle/doppel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/doppel-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/conventions/doppel-conventions.yml
+  href: https://artifacts.apis.io/doppel/conventions/doppel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/doppel-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/errors/doppel-problem-types.yml
+  href: https://artifacts.apis.io/doppel/errors/doppel-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/doppel-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/conformance/doppel-conformance.yml
+  href: https://artifacts.apis.io/doppel/conformance/doppel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/doppel-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/data-model/doppel-data-model.yml
+  href: https://artifacts.apis.io/doppel/data-model/doppel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/doppel-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/overlays/doppel-openapi-overlay.yaml
+  href: https://artifacts.apis.io/doppel/overlays/doppel-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/doppel-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/mcp/doppel-mcp.yml
+  href: https://artifacts.apis.io/doppel/mcp/doppel-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/doppel-mcp.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/asyncapi/doppel-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/doppel/asyncapi/doppel-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/doppel-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/asyncapi/doppel-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/doppel/asyncapi/doppel-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/doppel-webhooks-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/doppel/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/security/doppel-domain-security.yml
+  href: https://artifacts.apis.io/doppel/security/doppel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/doppel-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/security/doppel-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/doppel/security/doppel-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/doppel-vulnerability-disclosure.yml
@@ -282,11 +285,11 @@ overview: 'Doppel publishes 11 API contracts indexed on the [APIs.io](https://ap
   The Doppel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Doppel''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 25 more developer resources.'
-random_paper: 6
+  Doppel''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 26 more developer resources.'
+random_paper: 20
 score:
   band: developing
-  composite: 44.6
+  composite: 53.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -294,15 +297,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.2
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 53.2
-    developer_ergonomics: 39.9
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 44.5
+    contract_quality: 60.2
+    developer_ergonomics: 60.1
+    discoverability: 66.1
+    operational_transparency: 50.0
+  previous_composite: 53.5
   provenance:
     conformance: derived
     contracts:
@@ -322,13 +325,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/screenshots/doppel-2026-07-25T212309.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/doppel/doppel-2026-07-25T212309.png
 security:
 - kind: authentication
   name: Doppel Authentication
@@ -346,6 +350,16 @@ security:
   name: Doppel Trust Center
   slug: doppel-trust-center
   summary_line: SOC 2 Type II, ISO/IEC 27001:2022, ISO/IEC 42001:2023, ISO/IEC 27701, GDPR
+skill_count: 4
+skills:
+- name: Pull Doppel Human Risk Management campaign results
+  slug: doppel-hrm-campaign-results
+- name: Manage Doppel brands and protected assets
+  slug: doppel-manage-protected-assets
+- name: Scan a URL for suspiciousness with Doppel
+  slug: doppel-scan-url
+- name: Submit and triage a Doppel Brand Protection alert
+  slug: doppel-submit-and-triage-alert
 slug: doppel
 tags:
 - Company

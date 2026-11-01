@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-17'
+  score: 20.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -65,15 +67,12 @@ apis:
   description: Account transaction history
   name: Teller Transactions API
   slug: teller-transactions-api
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: AsyncAPI specification describing Teller's outbound webhook surface. Teller sends signed HTTPS POST callbacks to a developer-configured endpoint when notable events occur on enrollments and accounts (
   name: Teller Webhooks
   slug: teller-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Teller Accounts API
   slug: open-teller-accounts-api
@@ -91,37 +90,37 @@ collections:
   slug: open-teller
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/plans/teller-plans-pricing.yml
+  href: https://artifacts.apis.io/teller/plans/teller-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/teller-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/rate-limits/teller-rate-limits.yml
+  href: https://artifacts.apis.io/teller/rate-limits/teller-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/teller-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/finops/teller-finops.yml
+  href: https://artifacts.apis.io/teller/finops/teller-finops.yml
   title: ''
   type: FinOps
   url: finops/teller-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/capabilities/teller-capability-edges.yml
+  href: https://artifacts.apis.io/teller/capabilities/teller-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/teller-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/agentic-access/teller-agentic-access.yml
+  href: https://artifacts.apis.io/teller/agentic-access/teller-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/teller-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/security/teller-domain-security.yml
+  href: https://artifacts.apis.io/teller/security/teller-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teller-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/authentication/teller-authentication.yml
+  href: https://artifacts.apis.io/teller/authentication/teller-authentication.yml
   title: ''
   type: Authentication
   url: authentication/teller-authentication.yml
@@ -180,7 +179,7 @@ finops:
 - has_sources: false
   method: generated
   name: Teller Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: teller-finops
   template: true
@@ -217,7 +216,7 @@ plans:
 - name: Teller Plans Pricing
   plan_count: 3
   slug: teller-plans-pricing
-random_paper: 10
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Teller Rate Limits
@@ -259,7 +258,7 @@ rules:
   slug: teller-rules
 score:
   band: thin
-  composite: 37.7
+  composite: 38.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 52.5
@@ -267,15 +266,15 @@ score:
     catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 60.8
     developer_ergonomics: 61.9
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 39.3
+    operational_transparency: 13.2
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -289,14 +288,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/screenshots/teller-2026-10-11T130733.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/teller/teller-2026-10-11T130733.png
 security:
 - kind: authentication
   name: Teller Authentication

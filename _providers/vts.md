@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.2
-  scored_at: '2026-10-17'
+  score: 37.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -203,11 +205,8 @@ apis:
   description: The Users API from VTS — 2 operation(s) for users.
   name: VTS Users API
   slug: vts-users-api
-artifact_total: 69
+artifact_total: 70
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: VTS Lease Account Admin API
   slug: open-vts-account-admin-api
@@ -310,7 +309,7 @@ common:
   type: BlogRSS
   url: https://www.vts.com/feed
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/capabilities/vts-capability-edges.yml
+  href: https://artifacts.apis.io/vts/capabilities/vts-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vts-capability-edges.yml
@@ -359,92 +358,92 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/we-are-vts
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/openapi/_original/vts-openapi.yml
+  href: https://artifacts.apis.io/vts/openapi/_original/vts-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/vts-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/authentication/vts-authentication.yml
+  href: https://artifacts.apis.io/vts/authentication/vts-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vts-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/scopes/vts-scopes.yml
+  href: https://artifacts.apis.io/vts/scopes/vts-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vts-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/agentic-access/vts-agentic-access.yml
+  href: https://artifacts.apis.io/vts/agentic-access/vts-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vts-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/security/vts-domain-security.yml
+  href: https://artifacts.apis.io/vts/security/vts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vts-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/well-known/vts-well-known.yml
+  href: https://artifacts.apis.io/vts/well-known/vts-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vts-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/mcp/vts-mcp.yml
+  href: https://artifacts.apis.io/vts/mcp/vts-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vts-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/llms/vts-llms.txt
+  href: https://artifacts.apis.io/vts/llms/vts-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vts-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/overlays/vts-openapi-overlay.yaml
+  href: https://artifacts.apis.io/vts/overlays/vts-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vts-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/conformance/vts-conformance.yml
+  href: https://artifacts.apis.io/vts/conformance/vts-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vts-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/errors/vts-problem-types.yml
+  href: https://artifacts.apis.io/vts/errors/vts-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vts-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/lifecycle/vts-lifecycle.yml
+  href: https://artifacts.apis.io/vts/lifecycle/vts-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vts-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/lifecycle/vts-lifecycle.yml
+  href: https://artifacts.apis.io/vts/lifecycle/vts-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/vts-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/conventions/vts-conventions.yml
+  href: https://artifacts.apis.io/vts/conventions/vts-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vts-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/changelog/vts-changelog.yml
+  href: https://artifacts.apis.io/vts/changelog/vts-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vts-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/sandbox/vts-sandbox.yml
+  href: https://artifacts.apis.io/vts/sandbox/vts-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/vts-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/data-model/vts-data-model.yml
+  href: https://artifacts.apis.io/vts/data-model/vts-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vts-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vts/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -460,7 +459,7 @@ overview: 'VTS publishes 32 API contracts indexed on the [APIs.io](https://apis.
 
 
   VTS''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 24 more developer resources.'
-random_paper: 19
+random_paper: 13
 scopes:
 - name: Vts Scopes
   scope_count: 4
@@ -468,9 +467,9 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.9
+  composite: 47.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -481,10 +480,10 @@ score:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 51.6
-    developer_ergonomics: 42.3
-    discoverability: 73.2
-    operational_transparency: 15.8
-  previous_composite: 41.9
+    developer_ergonomics: 63.7
+    discoverability: 66.1
+    operational_transparency: 23.7
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -501,13 +500,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/screenshots/vts-2026-08-17T082832.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vts/vts-2026-08-17T082832.png
 security:
 - kind: authentication
   name: Vts Authentication
@@ -517,6 +517,12 @@ security:
   name: Vts Domain Security
   slug: vts-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Sync the VTS leasing pipeline
+  slug: vts-leasing-pipeline-sync
+- name: Publish VTS building availability to a website
+  slug: vts-publish-building-availability
 slug: vts
 tags:
 - Company

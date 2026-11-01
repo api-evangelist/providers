@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aerwave/refs/heads/main/security/aerwave-domain-security.yml
+  href: https://artifacts.apis.io/aerwave/security/aerwave-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aerwave-domain-security.yml
@@ -89,27 +91,27 @@ common:
   type: Careers
   url: https://www.aerwave.com/careers
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aerwave/refs/heads/main/llms/aerwave-llms.txt
+  href: https://artifacts.apis.io/aerwave/llms/aerwave-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aerwave-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aerwave/refs/heads/main/mcp/aerwave-mcp.yml
+  href: https://artifacts.apis.io/aerwave/mcp/aerwave-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aerwave-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aerwave/refs/heads/main/conformance/aerwave-conformance.yml
+  href: https://artifacts.apis.io/aerwave/conformance/aerwave-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aerwave-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aerwave/refs/heads/main/plans/aerwave-plans-pricing.yml
+  href: https://artifacts.apis.io/aerwave/plans/aerwave-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aerwave-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aerwave/refs/heads/main/rate-limits/aerwave-rate-limits.yml
+  href: https://artifacts.apis.io/aerwave/rate-limits/aerwave-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aerwave-rate-limits.yml
@@ -159,14 +161,14 @@ plans:
 - name: Aerwave Plans Pricing
   plan_count: 0
   slug: aerwave-plans-pricing
-random_paper: 21
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Aerwave Rate Limits
   slug: aerwave-rate-limits
 score:
   band: emerging
-  composite: 15.7
+  composite: 14.8
   coverage:
     artifact_dirs: 11
     catalog_earned: 27.0
@@ -180,9 +182,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 59.2
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 15.7
+  previous_composite: 14.8
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -192,14 +194,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aerwave/refs/heads/main/screenshots/aerwave-2026-10-11T092955.png
+screenshot: https://apis.io/screenshots/aerwave/aerwave-2026-10-11T092955.png
 security:
 - kind: domain-security
   name: Aerwave Domain Security

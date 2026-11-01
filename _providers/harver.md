@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -88,15 +90,12 @@ apis:
   description: The oauth API from Harver — 3 operation(s) for oauth.
   name: Harver OAUTH API
   slug: harver-oauth-api
-artifact_total: 24
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Harver Webhooks
   slug: harver-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Harver Public accounts API
   slug: open-harver-accounts-api
@@ -134,7 +133,7 @@ common:
   type: BlogRSS
   url: https://harver.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/capabilities/harver-capability-edges.yml
+  href: https://artifacts.apis.io/harver/capabilities/harver-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/harver-capability-edges.yml
@@ -167,27 +166,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/harver-engineering
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/authentication/harver-authentication.yml
+  href: https://artifacts.apis.io/harver/authentication/harver-authentication.yml
   title: ''
   type: Authentication
   url: authentication/harver-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/conventions/harver-conventions.yml
+  href: https://artifacts.apis.io/harver/conventions/harver-conventions.yml
   title: ''
   type: Conventions
   url: conventions/harver-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/errors/harver-problem-types.yml
+  href: https://artifacts.apis.io/harver/errors/harver-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/harver-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/lifecycle/harver-lifecycle.yml
+  href: https://artifacts.apis.io/harver/lifecycle/harver-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/harver-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/conformance/harver-conformance.yml
+  href: https://artifacts.apis.io/harver/conformance/harver-conformance.yml
   title: ''
   type: Conformance
   url: conformance/harver-conformance.yml
@@ -196,52 +195,52 @@ common:
   type: Compliance
   url: https://harver.com/security/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/data-model/harver-data-model.yml
+  href: https://artifacts.apis.io/harver/data-model/harver-data-model.yml
   title: ''
   type: DataModel
   url: data-model/harver-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/sandbox/harver-sandbox.yml
+  href: https://artifacts.apis.io/harver/sandbox/harver-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/harver-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/asyncapi/harver-webhooks.yml
+  href: https://artifacts.apis.io/harver/asyncapi/harver-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/harver-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/mcp/harver-mcp.yml
+  href: https://artifacts.apis.io/harver/mcp/harver-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/harver-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/llms/harver-llms.txt
+  href: https://artifacts.apis.io/harver/llms/harver-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/harver-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/overlays/harver-overlay.yaml
+  href: https://artifacts.apis.io/harver/overlays/harver-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/harver-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/well-known/harver-well-known.yml
+  href: https://artifacts.apis.io/harver/well-known/harver-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/harver-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/well-known/harver-security.txt
+  href: https://artifacts.apis.io/harver/well-known/harver-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/harver-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/harver/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/agentic-access/harver-agentic-access.yml
+  href: https://artifacts.apis.io/harver/agentic-access/harver-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/harver-agentic-access.yml
@@ -250,12 +249,12 @@ common:
   type: Security
   url: https://harver.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/security/harver-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/harver/security/harver-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/harver-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/security/harver-domain-security.yml
+  href: https://artifacts.apis.io/harver/security/harver-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/harver-domain-security.yml
@@ -274,10 +273,10 @@ overview: 'Harver publishes 9 API contracts indexed on the [APIs.io](https://api
 
 
   Harver''s developer surface includes engineering blog, documentation, API reference, support, authentication, sandbox, and 23 more developer resources.'
-random_paper: 10
+random_paper: 0
 score:
-  band: developing
-  composite: 41.3
+  band: thin
+  composite: 39.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -287,13 +286,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 14.5
+    access_clarity: 18.4
     contract_governance: 18.2
     contract_quality: 51.0
-    developer_ergonomics: 43.5
-    discoverability: 73.2
-    operational_transparency: 21.1
-  previous_composite: 41.3
+    developer_ergonomics: 44.6
+    discoverability: 66.1
+    operational_transparency: 23.7
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -315,14 +314,15 @@ score:
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
-    score: 28.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 31.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/screenshots/harver-2026-07-25T220747.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/harver/harver-2026-07-25T220747.png
 security:
 - kind: authentication
   name: Harver Authentication
@@ -336,6 +336,14 @@ security:
   name: Harver Vulnerability Disclosure
   slug: harver-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Poll a vacancy for newly completed candidates
+  slug: harver-poll-new-candidates
+- name: Retrieve an application's results and reports
+  slug: harver-retrieve-application-results
+- name: Submit a candidate and create an application
+  slug: harver-submit-candidate-application
 slug: harver
 tags:
 - Company

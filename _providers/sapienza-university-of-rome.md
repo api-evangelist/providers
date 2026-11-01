@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: OAI-PMH 2.0 metadata-harvesting provider for IRIS, Sapienza's institutional research information system and repository, served from the university's own host iris.uniroma1.it. Verified live 2026-09-01
@@ -88,12 +90,12 @@ common:
   type: Documentation
   url: https://www.uniroma1.it/en/pagina/iris-support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sapienza-university-of-rome/refs/heads/main/conformance/sapienza-university-of-rome-conformance.yml
+  href: https://artifacts.apis.io/sapienza-university-of-rome/conformance/sapienza-university-of-rome-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sapienza-university-of-rome-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sapienza-university-of-rome/refs/heads/main/authentication/sapienza-university-of-rome-authentication.yml
+  href: https://artifacts.apis.io/sapienza-university-of-rome/authentication/sapienza-university-of-rome-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sapienza-university-of-rome-authentication.yml
@@ -114,27 +116,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/sapienza-universita-di-roma/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sapienza-university-of-rome/refs/heads/main/security/sapienza-university-of-rome-domain-security.yml
+  href: https://artifacts.apis.io/sapienza-university-of-rome/security/sapienza-university-of-rome-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sapienza-university-of-rome-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sapienza-university-of-rome/refs/heads/main/plans/sapienza-university-of-rome-plans-pricing.yml
+  href: https://artifacts.apis.io/sapienza-university-of-rome/plans/sapienza-university-of-rome-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sapienza-university-of-rome-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sapienza-university-of-rome/refs/heads/main/rate-limits/sapienza-university-of-rome-rate-limits.yml
+  href: https://artifacts.apis.io/sapienza-university-of-rome/rate-limits/sapienza-university-of-rome-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sapienza-university-of-rome-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sapienza-university-of-rome/refs/heads/main/finops/sapienza-university-of-rome-finops.yml
+  href: https://artifacts.apis.io/sapienza-university-of-rome/finops/sapienza-university-of-rome-finops.yml
   title: ''
   type: FinOps
   url: finops/sapienza-university-of-rome-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sapienza-university-of-rome/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/sapienza-university-of-rome/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -171,7 +173,7 @@ plans:
 - name: Sapienza University Of Rome Plans Pricing
   plan_count: 2
   slug: sapienza-university-of-rome-plans-pricing
-random_paper: 14
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Sapienza University Of Rome Rate Limits
@@ -186,7 +188,7 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 18.2
@@ -202,7 +204,7 @@ score:
     regions:
     - europe
     - italy-southern-europe
-  previous_composite: 29.1
+  previous_composite: 23.1
   provenance:
     conformance: first-party
   regulatory:
@@ -211,14 +213,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 28.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sapienza-university-of-rome/refs/heads/main/screenshots/sapienza-university-of-rome-2026-06-20T193443.png
+screenshot: https://apis.io/screenshots/sapienza-university-of-rome/sapienza-university-of-rome-2026-06-20T193443.png
 security:
 - kind: authentication
   name: Sapienza University Of Rome Authentication

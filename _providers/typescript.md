@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Programmatic access to the TypeScript compiler. The Compiler API allows developers to parse TypeScript files into ASTs, perform type checking, emit JavaScript, and transform code programmatically.
@@ -48,17 +50,17 @@ apis:
 artifact_total: 13
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/plans/typescript-plans-pricing.yml
+  href: https://artifacts.apis.io/typescript/plans/typescript-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/typescript-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/rate-limits/typescript-rate-limits.yml
+  href: https://artifacts.apis.io/typescript/rate-limits/typescript-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/typescript-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/finops/typescript-finops.yml
+  href: https://artifacts.apis.io/typescript/finops/typescript-finops.yml
   title: ''
   type: FinOps
   url: finops/typescript-finops.yml
@@ -107,7 +109,7 @@ common:
   type: License
   url: https://github.com/microsoft/TypeScript/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/security/typescript-domain-security.yml
+  href: https://artifacts.apis.io/typescript/security/typescript-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/typescript-domain-security.yml
@@ -156,27 +158,27 @@ common:
   type: Twitter
   url: https://twitter.com/typescript
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/json-ld/typescript-context.jsonld
+  href: https://artifacts.apis.io/typescript/json-ld/typescript-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/typescript-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/vocabulary/typescript-vocabulary.yml
+  href: https://artifacts.apis.io/typescript/vocabulary/typescript-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/typescript-vocabulary.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/json-schema/typescript-diagnostic-schema.json
+  href: https://artifacts.apis.io/typescript/json-schema/typescript-diagnostic-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/typescript-diagnostic-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/json-schema/typescript-compiler-options-schema.json
+  href: https://artifacts.apis.io/typescript/json-schema/typescript-compiler-options-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/typescript-compiler-options-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/json-structure/typescript-diagnostic-structure.json
+  href: https://artifacts.apis.io/typescript/json-structure/typescript-diagnostic-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/typescript-diagnostic-structure.json
@@ -190,7 +192,7 @@ finops:
 - has_sources: false
   method: generated
   name: Typescript Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: typescript-finops
   template: true
@@ -227,7 +229,7 @@ plans:
 - name: Typescript Plans Pricing
   plan_count: 3
   slug: typescript-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Typescript Rate Limits
@@ -245,8 +247,8 @@ rules:
     warn: 3
   slug: typescript-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.1
+  band: thin
+  composite: 36.7
   coverage:
     artifact_dirs: 13
     catalog_earned: 59.8
@@ -254,32 +256,29 @@ score:
     catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 23.5
     contract_quality: 14.7
-    developer_ergonomics: 55.2
+    developer_ergonomics: 58.8
     discoverability: 69.6
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 43.4
+    operational_transparency: 39.5
+  previous_composite: 36.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/screenshots/typescript-2026-06-20T195902.png
+screenshot: https://apis.io/screenshots/typescript/typescript-2026-06-20T195902.png
 security:
 - kind: domain-security
   name: Typescript Domain Security

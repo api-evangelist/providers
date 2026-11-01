@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/l3harris-technologies/refs/heads/main/security/l3harris-technologies-domain-security.yml
+  href: https://artifacts.apis.io/l3harris-technologies/security/l3harris-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/l3harris-technologies-domain-security.yml
@@ -81,12 +83,12 @@ overview: 'L3Harris Technologies is profiled on the [APIs.io](https://apis.io/) 
 
 
   L3Harris Technologies'' developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 3
+random_paper: 1
 score:
   band: minimal
-  composite: 7.3
+  composite: 7.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -99,22 +101,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 39.3
-    operational_transparency: 2.6
-  previous_composite: 7.3
+    operational_transparency: 5.3
+  previous_composite: 7.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/l3harris-technologies/refs/heads/main/screenshots/l3harris-technologies-2026-06-20T184230.png
+screenshot: https://apis.io/screenshots/l3harris-technologies/l3harris-technologies-2026-06-20T184230.png
 security:
 - kind: domain-security
   name: L3Harris Technologies Domain Security

@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.5
-  scored_at: '2026-10-17'
+  score: 26.7
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://programming-quotes-api.azurewebsites.net/api
@@ -45,11 +47,8 @@ apis:
   description: Programming Quotes — Public read and authenticated write endpoints for quotes.
   name: Programming Quotes API
   slug: programming-quotes-quotes-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Programming Quotes Authentication API
   slug: open-programming-quotes-authentication-api
@@ -66,7 +65,7 @@ common:
   type: Releases
   url: https://github.com/skolakoda/programming-quotes-api/releases
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/programming-quotes/refs/heads/main/security/programming-quotes-domain-security.yml
+  href: https://artifacts.apis.io/programming-quotes/security/programming-quotes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/programming-quotes-domain-security.yml
@@ -91,17 +90,17 @@ common:
   type: License
   url: https://github.com/skolakoda/programming-quotes-api
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/programming-quotes/refs/heads/main/rules/programming-quotes-rules.yml
+  href: https://artifacts.apis.io/programming-quotes/rules/programming-quotes-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/programming-quotes-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/programming-quotes/refs/heads/main/vocabulary/programming-quotes-vocabulary.yml
+  href: https://artifacts.apis.io/programming-quotes/vocabulary/programming-quotes-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/programming-quotes-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/programming-quotes/refs/heads/main/json-ld/programming-quotes-context.jsonld
+  href: https://artifacts.apis.io/programming-quotes/json-ld/programming-quotes-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/programming-quotes-context.jsonld
@@ -179,7 +178,7 @@ overview: 'Programming Quotes is listed with 2 APIs on the [APIs.io](https://api
 
 
   The Programming Quotes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 13
+random_paper: 9
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -206,7 +205,7 @@ rules:
   slug: programming-quotes-rules
 score:
   band: emerging
-  composite: 24.0
+  composite: 24.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 66.0
@@ -214,15 +213,15 @@ score:
     catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 27.3
-    contract_quality: 34.2
+    contract_quality: 30.8
     developer_ergonomics: 9.5
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 23.9
+    operational_transparency: 21.1
+  previous_composite: 24.2
   provenance:
     contracts:
       callable: 100.0
@@ -235,13 +234,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/programming-quotes/refs/heads/main/screenshots/programming-quotes-2026-06-20T192146.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/programming-quotes/programming-quotes-2026-06-20T192146.png
 security:
 - kind: domain-security
   name: Programming Quotes Domain Security

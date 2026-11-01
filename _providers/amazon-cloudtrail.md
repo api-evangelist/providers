@@ -15,7 +15,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.5
-  scored_at: '2026-10-17'
+  score: 28.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,11 +59,43 @@ apis:
   description: Operations for creating and managing CloudTrail trails
   name: Amazon CloudTrail Trails API
   slug: amazon-cloudtrail-trails-api
-artifact_total: 54
+- baseURL: https://cloudtrail.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudtrail Channel API from Amazon CloudTrail — 5 operation(s) for cloudtrail channel.
+  name: Amazon CloudTrail Cloudtrail Channel API
+  slug: amazon-cloudtrail-channel-api
+- baseURL: https://cloudtrail.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudtrail Dashboard API from Amazon CloudTrail — 5 operation(s) for cloudtrail dashboard.
+  name: Amazon CloudTrail Cloudtrail Dashboard API
+  slug: amazon-cloudtrail-dashboard-api
+- baseURL: https://cloudtrail.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudtrail Import API from Amazon CloudTrail — 4 operation(s) for cloudtrail import.
+  name: Amazon CloudTrail Cloudtrail Import API
+  slug: amazon-cloudtrail-import-api
+- baseURL: https://cloudtrail.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudtrail Operations API from Amazon CloudTrail — 22 operation(s) for cloudtrail operations.
+  name: Amazon CloudTrail Cloudtrail Operations API
+  slug: amazon-cloudtrail-operations-api
+- baseURL: https://cloudtrail.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudtrail Query API from Amazon CloudTrail — 5 operation(s) for cloudtrail query.
+  name: Amazon CloudTrail Cloudtrail Query API
+  slug: amazon-cloudtrail-query-api
+- baseURL: https://cloudtrail.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudtrail Resource Policy API from Amazon CloudTrail — 3 operation(s) for cloudtrail resource policy.
+  name: Amazon CloudTrail Cloudtrail Resource Policy API
+  slug: amazon-cloudtrail-resource-policy-api
+- baseURL: https://cloudtrail.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudtrail Tag API from Amazon CloudTrail — 3 operation(s) for cloudtrail tag.
+  name: Amazon CloudTrail Cloudtrail Tag API
+  slug: amazon-cloudtrail-tag-api
+artifact_total: 63
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon CloudTrail Event Data Stores API
   slug: open-amazon-cloudtrail-event-data-stores-api
@@ -72,28 +106,37 @@ collections:
   name: Amazon CloudTrail Event Data Stores Trails API
   slug: open-amazon-cloudtrail-trails-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/amazon-cloudtrail/plans/amazon-cloudtrail-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-cloudtrail-plans-pricing.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-cloudtrail/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/overlays/amazon-cloudtrail-openapi-overlay.yaml
+  href: https://artifacts.apis.io/amazon-cloudtrail/overlays/amazon-cloudtrail-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-cloudtrail-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/agentic-access/amazon-cloudtrail-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-cloudtrail/agentic-access/amazon-cloudtrail-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-cloudtrail-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/security/amazon-cloudtrail-trust-center.yml
+  href: https://artifacts.apis.io/amazon-cloudtrail/security/amazon-cloudtrail-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-cloudtrail-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/security/amazon-cloudtrail-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-cloudtrail/security/amazon-cloudtrail-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-cloudtrail-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/security/amazon-cloudtrail-domain-security.yml
+  href: https://artifacts.apis.io/amazon-cloudtrail/security/amazon-cloudtrail-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-cloudtrail-domain-security.yml
@@ -158,52 +201,52 @@ common:
   type: Compliance
   url: https://aws.amazon.com/compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/rules/amazon-cloudtrail-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-cloudtrail/rules/amazon-cloudtrail-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-cloudtrail-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/vocabulary/amazon-cloudtrail-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-cloudtrail/vocabulary/amazon-cloudtrail-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-cloudtrail-vocabulary.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/packages/amazon-cloudtrail-packages.yml
+  href: https://artifacts.apis.io/amazon-cloudtrail/packages/amazon-cloudtrail-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-cloudtrail-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/well-known/amazon-cloudtrail-well-known.yml
+  href: https://artifacts.apis.io/amazon-cloudtrail/well-known/amazon-cloudtrail-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-cloudtrail-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/well-known/amazon-cloudtrail-security.txt
+  href: https://artifacts.apis.io/amazon-cloudtrail/well-known/amazon-cloudtrail-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-cloudtrail-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/mcp/amazon-cloudtrail-mcp.yml
+  href: https://artifacts.apis.io/amazon-cloudtrail/mcp/amazon-cloudtrail-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/amazon-cloudtrail-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/llms/amazon-cloudtrail-llms.txt
+  href: https://artifacts.apis.io/amazon-cloudtrail/llms/amazon-cloudtrail-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-cloudtrail-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/conformance/amazon-cloudtrail-conformance.yml
+  href: https://artifacts.apis.io/amazon-cloudtrail/conformance/amazon-cloudtrail-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-cloudtrail-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/errors/amazon-cloudtrail-problem-types.yml
+  href: https://artifacts.apis.io/amazon-cloudtrail/errors/amazon-cloudtrail-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amazon-cloudtrail-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/lifecycle/amazon-cloudtrail-lifecycle.yml
+  href: https://artifacts.apis.io/amazon-cloudtrail/lifecycle/amazon-cloudtrail-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-cloudtrail-lifecycle.yml
@@ -249,6 +292,14 @@ features:
   name: SQL Query Support
 - description: Create trails that capture events from all AWS regions in a single S3 bucket.
   name: Multi-Region Trails
+finops:
+- has_sources: true
+  method: derived
+  name: Amazon Cloudtrail Finops
+  primary_unit: gb
+  service_category: ''
+  slug: amazon-cloudtrail-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-cloudtrail.png
 integrations:
 - description: Store CloudTrail logs in S3 buckets with lifecycle management.
@@ -328,14 +379,21 @@ modified: '2026-06-20'
 name: Amazon CloudTrail
 nav: Providers
 network: true
-overview: 'Amazon CloudTrail publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Event Data Stores API, Events API, and Trails API. Tagged areas include CloudTrail, Audit, Compliance, Governance, and Security.
+overview: 'Amazon CloudTrail publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Event Data Stores API, Events API, Trails API, and 7 more. Tagged areas include CloudTrail, Audit, Compliance, Governance, and Security.
 
 
   The Amazon CloudTrail catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CloudTrail''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 24 more developer resources.'
-random_paper: 6
+  Amazon CloudTrail''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 26 more developer resources.'
+plans:
+- name: Amazon Cloudtrail Plans Pricing
+  plan_count: 12
+  slug: amazon-cloudtrail-plans-pricing
+- name: Amazon Cloudtrail Price Estimates
+  plan_count: 0
+  slug: amazon-cloudtrail-price-estimates
+random_paper: 14
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -362,31 +420,36 @@ rules:
   slug: amazon-cloudtrail-spectral-rules
 score:
   band: strong
-  composite: 54.5
+  composite: 65.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 66.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    artifact_dirs: 25
+    catalog_earned: 81.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 34.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 8.1
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 31.8
-    contract_quality: 62.0
-    developer_ergonomics: 59.5
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 54.4
+    contract_quality: 66.9
+    developer_ergonomics: 60.7
+    discoverability: 65.0
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 57.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 3
+      marker_coverage: 70.0
+      total: 10
     mcp: first-party
   regulatory:
     applies: true
@@ -394,13 +457,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/screenshots/amazon-cloudtrail-2026-07-25T195952.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-cloudtrail/amazon-cloudtrail-2026-07-25T195952.png
 security:
 - kind: domain-security
   name: Amazon Cloudtrail Domain Security

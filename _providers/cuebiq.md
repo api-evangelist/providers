@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-17'
+  score: 26.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -78,60 +80,60 @@ apis:
   description: The Measurement V2 API from Cuebiq — 16 operation(s) for measurement v2.
   name: Cuebiq Measurement V2 API
   slug: cuebiq-measurement-v2-api
-artifact_total: 21
+artifact_total: 23
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/agentic-access/cuebiq-agentic-access.yml
+  href: https://artifacts.apis.io/cuebiq/agentic-access/cuebiq-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cuebiq-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/rules/cuebiq-rules.yml
+  href: https://artifacts.apis.io/cuebiq/rules/cuebiq-rules.yml
   title: ''
   type: Spectral
   url: rules/cuebiq-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/json-ld/cuebiq-context.jsonld
+  href: https://artifacts.apis.io/cuebiq/json-ld/cuebiq-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cuebiq-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/vocabulary/cuebiq-vocabulary.yml
+  href: https://artifacts.apis.io/cuebiq/vocabulary/cuebiq-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cuebiq-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cuebiq/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/data-model/cuebiq-data-model.yml
+  href: https://artifacts.apis.io/cuebiq/data-model/cuebiq-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cuebiq-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/errors/cuebiq-problem-types.yml
+  href: https://artifacts.apis.io/cuebiq/errors/cuebiq-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cuebiq-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/conformance/cuebiq-conformance.yml
+  href: https://artifacts.apis.io/cuebiq/conformance/cuebiq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cuebiq-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/llms/cuebiq-llms.txt
+  href: https://artifacts.apis.io/cuebiq/llms/cuebiq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cuebiq-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/hosts/cuebiq-hosts.yml
+  href: https://artifacts.apis.io/cuebiq/hosts/cuebiq-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cuebiq-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/vendors/cuebiq-vendors.yml
+  href: https://artifacts.apis.io/cuebiq/vendors/cuebiq-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cuebiq-vendors.yml
@@ -140,17 +142,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/Cuebiq
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/scopes/cuebiq-scopes.yml
+  href: https://artifacts.apis.io/cuebiq/scopes/cuebiq-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cuebiq-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/authentication/cuebiq-authentication.yml
+  href: https://artifacts.apis.io/cuebiq/authentication/cuebiq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cuebiq-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/security/cuebiq-domain-security.yml
+  href: https://artifacts.apis.io/cuebiq/security/cuebiq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cuebiq-domain-security.yml
@@ -209,14 +211,14 @@ modified: '2026-10-11'
 name: Cuebiq
 nav: Providers
 network: true
-overview: 'Cuebiq publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Conversion Feed V1 API, Geoset API, KPIs V2 - Campaign Reports API, and 6 more. Tagged areas include Company, Location-Intelligence, Marketing, Data Analytics, and Footfall-Measurement.
+overview: 'Cuebiq publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Conversion Feed V1 API, Geoset API, KPIs V2 - Campaign Reports API, and 6 more. Tagged areas include Company, Location Intelligence, Marketing, Data Analytics, and Footfall-Measurement.
 
 
   The Cuebiq catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   Cuebiq''s developer surface includes authentication, API reference, engineering blog, pricing, and 17 more developer resources.'
-random_paper: 17
+random_paper: 9
 rules:
 - authorship: generated
   effective_rule_count: 58
@@ -245,13 +247,15 @@ score:
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 22.0
     contract_quality: 57.7
     developer_ergonomics: 23.2
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 5.3
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,11 +272,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Cuebiq Authentication
@@ -282,10 +288,16 @@ security:
   name: Cuebiq Domain Security
   slug: cuebiq-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: cuebiq-create-campaign-report-with-pixels
+  slug: cuebiq-create-campaign-report-with-pixels
+- name: cuebiq-upload-geoset
+  slug: cuebiq-upload-geoset
 slug: cuebiq
 tags:
 - Company
-- Location-Intelligence
+- Location Intelligence
 - Marketing
 - Data Analytics
 - Footfall-Measurement

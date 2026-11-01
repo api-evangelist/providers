@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-17'
+  score: 16.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -61,11 +63,8 @@ apis:
   description: The Version API from Ray — 1 operation(s) for version.
   name: Ray Version API
   slug: ray-version-api
-artifact_total: 11
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ray REST Jobs API
   slug: open-ray-jobs-api
@@ -89,12 +88,12 @@ common:
   type: ContributionGuide
   url: https://github.com/ray-project/ray/blob/master/CONTRIBUTING.rst
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ray/refs/heads/main/agentic-access/ray-agentic-access.yml
+  href: https://artifacts.apis.io/ray/agentic-access/ray-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ray-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ray/refs/heads/main/security/ray-domain-security.yml
+  href: https://artifacts.apis.io/ray/security/ray-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ray-domain-security.yml
@@ -150,29 +149,26 @@ overview: 'Ray publishes 5 API contracts indexed on the [APIs.io](https://apis.i
 
 
   Ray''s developer surface includes documentation, engineering blog, and 13 more developer resources.'
-random_paper: 2
+random_paper: 20
 score:
-  band: thin
-  composite: 29.8
+  band: emerging
+  composite: 25.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 38.0
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 85.0
-  previous_composite: 29.7
+    operational_transparency: 31.6
+  previous_composite: 25.0
   provenance:
     agentic_access: derived
     contracts:
@@ -186,13 +182,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ray/refs/heads/main/screenshots/ray-2026-06-20T192611.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ray/ray-2026-06-20T192611.png
 security:
 - kind: domain-security
   name: Ray Domain Security

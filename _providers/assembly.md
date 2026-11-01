@@ -23,36 +23,38 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/assembly/refs/heads/main/security/assembly-domain-security.yml
+  href: https://artifacts.apis.io/assembly/security/assembly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/assembly-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/assembly/refs/heads/main/security/assembly-trust-center.yml
+  href: https://artifacts.apis.io/assembly/security/assembly-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/assembly-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/assembly/refs/heads/main/security/assembly-trust-center.yml
+  href: https://artifacts.apis.io/assembly/security/assembly-trust-center.yml
   title: ''
   type: Compliance
   url: security/assembly-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/assembly/refs/heads/main/security/assembly-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/assembly/security/assembly-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/assembly-vulnerability-disclosure.yml
@@ -61,7 +63,7 @@ common:
   type: Security
   url: https://www.joinassembly.com/security-policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/assembly/refs/heads/main/lifecycle/assembly-lifecycle.yml
+  href: https://artifacts.apis.io/assembly/lifecycle/assembly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/assembly-lifecycle.yml
@@ -113,10 +115,10 @@ overview: 'Assembly is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Assembly''s developer surface includes pricing, support, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 6
+random_paper: 0
 score:
   band: emerging
-  composite: 23.0
+  composite: 22.6
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -130,9 +132,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 51.7
+    discoverability: 48.2
     operational_transparency: 26.3
-  previous_composite: 23.0
+  previous_composite: 22.6
   provenance:
     mcp: first-party
   regulatory:
@@ -141,14 +143,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/assembly/refs/heads/main/screenshots/assembly-2026-07-25T201440.png
+screenshot: https://apis.io/screenshots/assembly/assembly-2026-07-25T201440.png
 security:
 - kind: domain-security
   name: Assembly Domain Security

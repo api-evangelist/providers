@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/proteinea/refs/heads/main/security/proteinea-domain-security.yml
+  href: https://artifacts.apis.io/proteinea/security/proteinea-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/proteinea-domain-security.yml
@@ -58,7 +60,7 @@ common:
   type: Support
   url: https://www.proteinea.com/contact-us
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/proteinea/refs/heads/main/packages/proteinea-packages.yml
+  href: https://artifacts.apis.io/proteinea/packages/proteinea-packages.yml
   title: ''
   type: Packages
   url: packages/proteinea-packages.yml
@@ -74,12 +76,12 @@ overview: 'Proteinea is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Proteinea''s developer surface includes support and 5 more developer resources.'
-random_paper: 21
+random_paper: 7
 score:
   band: minimal
-  composite: 7.5
+  composite: 7.9
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -92,7 +94,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 4.8
     discoverability: 48.2
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -102,21 +104,21 @@ score:
     - africa
     - mena
     - north-africa
-  previous_composite: 7.5
+  previous_composite: 7.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/proteinea/refs/heads/main/screenshots/proteinea-2026-09-02T152224.png
+screenshot: https://apis.io/screenshots/proteinea/proteinea-2026-09-02T152224.png
 security:
 - kind: domain-security
   name: Proteinea Domain Security

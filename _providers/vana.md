@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The protocol's read/write boundary — a caching and relay layer between protocol participants and the Vana L1 covering the onchain primitives (identity, permissions, fees, PGE, schemas, files, DLP cont
@@ -42,7 +44,7 @@ apis:
 - description: 'Standard Ethereum JSON-RPC for the EVM-compatible Vana L1 blockchain, which records registrations, grants, file records, and schemas. Mainnet at rpc.vana.org (explorer vanascan.io); Moksha testnet at '
   name: Vana L1 JSON-RPC
   slug: vana-l1-json-rpc
-artifact_total: 6
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -93,62 +95,62 @@ common:
   type: Whitepaper
   url: https://docs.vana.org/resources/whitepaper
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/packages/vana-packages.yml
+  href: https://artifacts.apis.io/vana/packages/vana-packages.yml
   title: ''
   type: Packages
   url: packages/vana-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/packages/vana-packages.yml
+  href: https://artifacts.apis.io/vana/packages/vana-packages.yml
   title: ''
   type: SDKs
   url: packages/vana-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/well-known/vana-well-known.yml
+  href: https://artifacts.apis.io/vana/well-known/vana-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vana-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/mcp/vana-mcp.yml
+  href: https://artifacts.apis.io/vana/mcp/vana-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/vana-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/llms/vana-llms.txt
+  href: https://artifacts.apis.io/vana/llms/vana-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vana-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/llms/vana-website-llms.txt
+  href: https://artifacts.apis.io/vana/llms/vana-website-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vana-website-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/conformance/vana-conformance.yml
+  href: https://artifacts.apis.io/vana/conformance/vana-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vana-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/errors/vana-problem-types.yml
+  href: https://artifacts.apis.io/vana/errors/vana-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vana-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/lifecycle/vana-lifecycle.yml
+  href: https://artifacts.apis.io/vana/lifecycle/vana-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vana-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/authentication/vana-authentication.yml
+  href: https://artifacts.apis.io/vana/authentication/vana-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vana-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/security/vana-domain-security.yml
+  href: https://artifacts.apis.io/vana/security/vana-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vana-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/security/vana-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/vana/security/vana-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vana-vulnerability-disclosure.yml
@@ -157,27 +159,27 @@ common:
   type: Security
   url: https://docs.vana.org/resources/security
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/sandbox/vana-sandbox.yml
+  href: https://artifacts.apis.io/vana/sandbox/vana-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/vana-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/conventions/vana-conventions.yml
+  href: https://artifacts.apis.io/vana/conventions/vana-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vana-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/cli/vana-cli.yml
+  href: https://artifacts.apis.io/vana/cli/vana-cli.yml
   title: ''
   type: CLI
   url: cli/vana-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/components/vana-components.yml
+  href: https://artifacts.apis.io/vana/components/vana-components.yml
   title: ''
   type: Components
   url: components/vana-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vana/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -197,26 +199,26 @@ overview: 'Vana is listed with 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Vana''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 4
+random_paper: 14
 score:
   band: thin
-  composite: 37.0
+  composite: 36.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 85.7
-    discoverability: 71.7
-    operational_transparency: 13.2
-  previous_composite: 36.9
+    discoverability: 65.0
+    operational_transparency: 15.8
+  previous_composite: 36.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -227,14 +229,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/screenshots/vana-2026-09-02T165348.png
+screenshot: https://apis.io/screenshots/vana/vana-2026-09-02T165348.png
 security:
 - kind: authentication
   name: Vana Authentication
@@ -248,6 +250,14 @@ security:
   name: Vana Vulnerability Disclosure
   slug: vana-vulnerability-disclosure
   summary_line: contact published
+skill_count: 3
+skills:
+- name: connect-data
+  slug: vana-connect-data
+- name: create-connector
+  slug: vana-create-connector
+- name: next-prompt
+  slug: vana-next-prompt
 slug: vana
 tags:
 - Company

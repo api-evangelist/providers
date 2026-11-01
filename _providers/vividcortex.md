@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 28.6
-  scored_at: '2026-10-17'
+  score: 30.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -69,7 +71,7 @@ apis:
   description: Observed queries, query digests, and query samples.
   name: VividCortex Queries API
   slug: vividcortex-queries-api
-artifact_total: 22
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Vividcortex Alerts Webhooks
@@ -91,9 +93,6 @@ collections:
   name: VividCortex (SolarWinds Database Performance Monitor) Alerts Queries API
   slug: postman-vividcortex-queries-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: VividCortex (SolarWinds Database Performance Monitor) Alerts API
   slug: open-vividcortex-alerts-api
 - collection_type: open
@@ -109,8 +108,13 @@ collections:
   name: VividCortex (SolarWinds Database Performance Monitor) Alerts Queries API
   slug: open-vividcortex-queries-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/vividcortex/plans/vividcortex-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vividcortex-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/capabilities/vividcortex-capability-edges.yml
+  href: https://artifacts.apis.io/vividcortex/capabilities/vividcortex-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vividcortex-capability-edges.yml
@@ -171,87 +175,87 @@ common:
   type: PrivacyPolicy
   url: https://www.solarwinds.com/legal/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/authentication/vividcortex-authentication.yml
+  href: https://artifacts.apis.io/vividcortex/authentication/vividcortex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vividcortex-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/conventions/vividcortex-conventions.yml
+  href: https://artifacts.apis.io/vividcortex/conventions/vividcortex-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vividcortex-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/errors/vividcortex-problem-types.yml
+  href: https://artifacts.apis.io/vividcortex/errors/vividcortex-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vividcortex-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/lifecycle/vividcortex-lifecycle.yml
+  href: https://artifacts.apis.io/vividcortex/lifecycle/vividcortex-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vividcortex-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/changelog/vividcortex-changelog.yml
+  href: https://artifacts.apis.io/vividcortex/changelog/vividcortex-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vividcortex-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/mcp/vividcortex-mcp.yml
+  href: https://artifacts.apis.io/vividcortex/mcp/vividcortex-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vividcortex-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/llms/vividcortex-llms.txt
+  href: https://artifacts.apis.io/vividcortex/llms/vividcortex-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vividcortex-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/overlays/vividcortex-openapi-overlay.yaml
+  href: https://artifacts.apis.io/vividcortex/overlays/vividcortex-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vividcortex-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/conformance/vividcortex-conformance.yml
+  href: https://artifacts.apis.io/vividcortex/conformance/vividcortex-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vividcortex-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/data-model/vividcortex-data-model.yml
+  href: https://artifacts.apis.io/vividcortex/data-model/vividcortex-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vividcortex-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/components/vividcortex-components.yml
+  href: https://artifacts.apis.io/vividcortex/components/vividcortex-components.yml
   title: ''
   type: Components
   url: components/vividcortex-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/asyncapi/vividcortex-alerts-webhooks.yml
+  href: https://artifacts.apis.io/vividcortex/asyncapi/vividcortex-alerts-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vividcortex-alerts-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vividcortex/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/agentic-access/vividcortex-agentic-access.yml
+  href: https://artifacts.apis.io/vividcortex/agentic-access/vividcortex-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vividcortex-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/security/vividcortex-domain-security.yml
+  href: https://artifacts.apis.io/vividcortex/security/vividcortex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vividcortex-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/packages/vividcortex-packages.yml
+  href: https://artifacts.apis.io/vividcortex/packages/vividcortex-packages.yml
   title: ''
   type: Packages
   url: packages/vividcortex-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/security/vividcortex-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/vividcortex/security/vividcortex-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vividcortex-vulnerability-disclosure.yml
@@ -260,7 +264,7 @@ common:
   type: Security
   url: https://www.solarwinds.com/information-security/vulnerability-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/security/vividcortex-trust-center.yml
+  href: https://artifacts.apis.io/vividcortex/security/vividcortex-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vividcortex-trust-center.yml
@@ -278,6 +282,14 @@ common:
   url: https://www.solarwinds.com/blog
 created: '2026-07-17'
 description: VividCortex is a SaaS database performance monitoring platform, now part of SolarWinds and marketed as SolarWinds Database Performance Monitor (DPM). It uses lightweight per-host agents to capture and analyze every query executed against MySQL, PostgreSQL, MongoDB, Redis, Amazon Aurora, and SQL Server workloads with sub-second, always-on visibility and minimal overhead. DPM surfaces query analysis, profiling, fault detection, adaptive alerting, and time-series metrics through a web application and a public REST API (v2) that exposes hosts, metrics and series data, observed queries and samples, timeline events, and alert configuration. VividCortex was acquired by SolarWinds in December 2019; this profile was surfaced as a portfolio company of Battery Ventures and enriched by the API Evangelist pipeline from the provider's live public documentation at docs.vividcortex.com.
+finops:
+- has_sources: true
+  method: derived
+  name: Vividcortex Finops
+  primary_unit: node
+  service_category: ''
+  slug: vividcortex-finops
+  template: false
 image: https://avatars.githubusercontent.com/u/2809667?v=4
 layout: provider
 modified: '2026-09-16'
@@ -290,27 +302,34 @@ overview: 'VividCortex publishes 5 API contracts indexed on the [APIs.io](https:
   The VividCortex catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  VividCortex''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, support, authentication, and 30 more developer resources.'
-random_paper: 19
+  VividCortex''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, support, authentication, and 31 more developer resources.'
+plans:
+- name: Vividcortex Plans Pricing
+  plan_count: 18
+  slug: vividcortex-plans-pricing
+- name: Vividcortex Price Estimates
+  plan_count: 0
+  slug: vividcortex-price-estimates
+random_paper: 7
 score:
-  band: developing
-  composite: 53.7
+  band: strong
+  composite: 63.8
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 50.0
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 60.9
+    contract_quality: 57.6
     developer_ergonomics: 60.1
-    discoverability: 73.2
-    operational_transparency: 52.6
-  previous_composite: 53.6
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -326,14 +345,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/screenshots/vividcortex-2026-08-17T082806.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vividcortex/vividcortex-2026-08-17T082806.png
 security:
 - kind: authentication
   name: Vividcortex Authentication
@@ -351,6 +371,14 @@ security:
   name: Vividcortex Trust Center
   slug: vividcortex-trust-center
   summary_line: SOC 2, ISO 27001, GDPR
+skill_count: 3
+skills:
+- name: Annotate deployments on the DPM timeline
+  slug: vividcortex-annotate-deploys
+- name: Configure DPM alerts and destinations
+  slug: vividcortex-configure-alerts
+- name: Investigate slow queries in VividCortex DPM
+  slug: vividcortex-investigate-slow-queries
 slug: vividcortex
 tags:
 - Company

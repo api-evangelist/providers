@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: Programmatic access to Grammarly usage and communication-performance analytics for integration into business-intelligence systems.
@@ -51,10 +53,10 @@ apis:
 - description: Detect plagiarism against published sources to help teams produce original work (Beta).
   name: Grammarly Plagiarism Detection API
   slug: grammarly-plagiarism-detection-api
-artifact_total: 11
+artifact_total: 13
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/plans/grammarly-plans-pricing.yml
+  href: https://artifacts.apis.io/grammarly/plans/grammarly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/grammarly-plans-pricing.yml
@@ -115,7 +117,7 @@ common:
   type: StatusPage
   url: https://status.grammarly.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/security/grammarly-trust-center.yml
+  href: https://artifacts.apis.io/grammarly/security/grammarly-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/grammarly-trust-center.yml
@@ -128,72 +130,80 @@ common:
   type: Security
   url: https://hackerone.com/grammarly
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/authentication/grammarly-authentication.yml
+  href: https://artifacts.apis.io/grammarly/authentication/grammarly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/grammarly-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/scopes/grammarly-scopes.yml
+  href: https://artifacts.apis.io/grammarly/scopes/grammarly-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/grammarly-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/packages/grammarly-packages.yml
+  href: https://artifacts.apis.io/grammarly/packages/grammarly-packages.yml
   title: ''
   type: Packages
   url: packages/grammarly-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/packages/grammarly-packages.yml
+  href: https://artifacts.apis.io/grammarly/packages/grammarly-packages.yml
   title: ''
   type: SDKs
   url: packages/grammarly-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/well-known/grammarly-well-known.yml
+  href: https://artifacts.apis.io/grammarly/well-known/grammarly-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/grammarly-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/well-known/grammarly-security.txt
+  href: https://artifacts.apis.io/grammarly/well-known/grammarly-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/grammarly-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/llms/grammarly-llms.txt
+  href: https://artifacts.apis.io/grammarly/llms/grammarly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/grammarly-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/conventions/grammarly-conventions.yml
+  href: https://artifacts.apis.io/grammarly/conventions/grammarly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/grammarly-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/lifecycle/grammarly-lifecycle.yml
+  href: https://artifacts.apis.io/grammarly/lifecycle/grammarly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/grammarly-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/lifecycle/grammarly-lifecycle.yml
+  href: https://artifacts.apis.io/grammarly/lifecycle/grammarly-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/grammarly-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/conformance/grammarly-conformance.yml
+  href: https://artifacts.apis.io/grammarly/conformance/grammarly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/grammarly-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/security/grammarly-domain-security.yml
+  href: https://artifacts.apis.io/grammarly/security/grammarly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/grammarly-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/security/grammarly-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/grammarly/security/grammarly-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/grammarly-vulnerability-disclosure.yml
 created: '2026-07-17'
 description: Grammarly is an AI writing-assistance company whose enterprise developer platform exposes a set of REST APIs that bring Grammarly's writing intelligence into an organization's own applications, business-intelligence systems, and IT tooling. The Grammarly APIs cover writing-quality scoring, AI generated-content detection, plagiarism detection, communication analytics, and license management, all secured with OAuth 2.0 client credentials and scoped permissions against the base URL https://api.grammarly.com/ecosystem/api/. Certified Readability Score and Tone Analysis APIs are announced as coming soon. Grammarly was surfaced as a portfolio company of IVP.
+finops:
+- has_sources: true
+  method: derived
+  name: Grammarly Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: grammarly-finops
+  template: false
 image: https://www.grammarly.com/favicon.ico
 layout: provider
 modified: '2026-10-06'
@@ -208,7 +218,10 @@ plans:
 - name: Grammarly Plans Pricing
   plan_count: 3
   slug: grammarly-plans-pricing
-random_paper: 4
+- name: Grammarly Price Estimates
+  plan_count: 0
+  slug: grammarly-price-estimates
+random_paper: 12
 scopes:
 - name: Grammarly Scopes
   scope_count: 5
@@ -216,23 +229,23 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 47.5
+  composite: 51.3
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 52.0
+    artifact_dirs: 15
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 81.6
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 78.6
-    operational_transparency: 36.8
-  previous_composite: 41.1
+    discoverability: 71.4
+    operational_transparency: 39.5
+  previous_composite: 49.7
   provenance:
     conformance: first-party
   regulatory:
@@ -244,15 +257,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 38.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+    score: 41.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/screenshots/grammarly-2026-07-25T220215.png
+screenshot: https://apis.io/screenshots/grammarly/grammarly-2026-07-25T220215.png
 security:
 - kind: authentication
   name: Grammarly Authentication

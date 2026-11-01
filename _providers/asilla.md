@@ -14,31 +14,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/asilla/refs/heads/main/llms/asilla-llms.txt
+  href: https://artifacts.apis.io/asilla/llms/asilla-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/asilla-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/asilla/refs/heads/main/hosts/asilla-hosts.yml
+  href: https://artifacts.apis.io/asilla/hosts/asilla-hosts.yml
   title: ''
   type: Hosts
   url: hosts/asilla-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/asilla/refs/heads/main/vendors/asilla-vendors.yml
+  href: https://artifacts.apis.io/asilla/vendors/asilla-vendors.yml
   title: ''
   type: Vendors
   url: vendors/asilla-vendors.yml
@@ -59,7 +61,7 @@ common:
   type: Newsroom
   url: https://en.asilla.com/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/asilla/refs/heads/main/security/asilla-domain-security.yml
+  href: https://artifacts.apis.io/asilla/security/asilla-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/asilla-domain-security.yml
@@ -83,10 +85,10 @@ name: Asilla
 nav: Providers
 network: true
 overview: Asilla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Behavior-Recognition, Security, and Video Analytics.
-random_paper: 14
+random_paper: 6
 score:
   band: minimal
-  composite: 10.9
+  composite: 10.2
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -100,9 +102,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 57.1
+    discoverability: 50.0
     operational_transparency: 10.5
-  previous_composite: 10.9
+  previous_composite: 10.2
   provenance:
     mcp: unknown
   regulatory:
@@ -111,14 +113,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/asilla/refs/heads/main/screenshots/asilla-2026-10-11T100536.png
+screenshot: https://apis.io/screenshots/asilla/asilla-2026-10-11T100536.png
 security:
 - kind: domain-security
   name: Asilla Domain Security

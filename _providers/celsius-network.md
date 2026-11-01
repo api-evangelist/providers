@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -65,14 +67,11 @@ apis:
   description: Balances, accrued interest, transactions, deposits and withdrawals.
   name: Celsius Network Wallet API
   slug: celsius-network-wallet-api
-artifact_total: 13
+artifact_total: 15
 collections:
 - collection_type: postman
   name: Celsius API
   slug: postman-celsius-network-partner-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Celsius Partner KYC API
   slug: open-celsius-network-kyc-api
@@ -119,52 +118,52 @@ common:
   type: PrivacyPolicy
   url: https://celsius.network/static/privacy-policy.pdf
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/_original/celsius-network-partner-api-openapi.yml
+  href: https://artifacts.apis.io/celsius-network/openapi/_original/celsius-network-partner-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/celsius-network-partner-api-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/overlays/celsius-network-partner-api-overlay.yaml
+  href: https://artifacts.apis.io/celsius-network/overlays/celsius-network-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/celsius-network-partner-api-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/packages/celsius-network-packages.yml
+  href: https://artifacts.apis.io/celsius-network/packages/celsius-network-packages.yml
   title: ''
   type: Packages
   url: packages/celsius-network-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/packages/celsius-network-packages.yml
+  href: https://artifacts.apis.io/celsius-network/packages/celsius-network-packages.yml
   title: ''
   type: SDKs
   url: packages/celsius-network-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/authentication/celsius-network-authentication.yml
+  href: https://artifacts.apis.io/celsius-network/authentication/celsius-network-authentication.yml
   title: ''
   type: Authentication
   url: authentication/celsius-network-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/conventions/celsius-network-conventions.yml
+  href: https://artifacts.apis.io/celsius-network/conventions/celsius-network-conventions.yml
   title: ''
   type: Conventions
   url: conventions/celsius-network-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/errors/celsius-network-problem-types.yml
+  href: https://artifacts.apis.io/celsius-network/errors/celsius-network-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/celsius-network-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/data-model/celsius-network-data-model.yml
+  href: https://artifacts.apis.io/celsius-network/data-model/celsius-network-data-model.yml
   title: ''
   type: DataModel
   url: data-model/celsius-network-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/conformance/celsius-network-conformance.yml
+  href: https://artifacts.apis.io/celsius-network/conformance/celsius-network-conformance.yml
   title: ''
   type: Conformance
   url: conformance/celsius-network-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/lifecycle/celsius-network-lifecycle.yml
+  href: https://artifacts.apis.io/celsius-network/lifecycle/celsius-network-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/celsius-network-lifecycle.yml
@@ -173,37 +172,37 @@ common:
   type: Deprecation
   url: https://celsius.network/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/changelog/celsius-network-changelog.yml
+  href: https://artifacts.apis.io/celsius-network/changelog/celsius-network-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/celsius-network-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/sandbox/celsius-network-sandbox.yml
+  href: https://artifacts.apis.io/celsius-network/sandbox/celsius-network-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/celsius-network-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/well-known/celsius-network-well-known.yml
+  href: https://artifacts.apis.io/celsius-network/well-known/celsius-network-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/celsius-network-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/llms/celsius-network-llms.txt
+  href: https://artifacts.apis.io/celsius-network/llms/celsius-network-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/celsius-network-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/celsius-network/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/agentic-access/celsius-network-agentic-access.yml
+  href: https://artifacts.apis.io/celsius-network/agentic-access/celsius-network-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/celsius-network-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/security/celsius-network-domain-security.yml
+  href: https://artifacts.apis.io/celsius-network/security/celsius-network-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/celsius-network-domain-security.yml
@@ -224,12 +223,12 @@ overview: 'Celsius Network publishes 4 API contracts indexed on the [APIs.io](ht
 
 
   Celsius Network''s developer surface includes documentation, API reference, support, authentication, changelog, sandbox, and 21 more developer resources.'
-random_paper: 21
+random_paper: 23
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -260,13 +259,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/screenshots/celsius-network-2026-08-07T163216.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/celsius-network/celsius-network-2026-08-07T163216.png
 security:
 - kind: authentication
   name: Celsius Network Authentication
@@ -276,6 +276,14 @@ security:
   name: Celsius Network Domain Security
   slug: celsius-network-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Fund a Celsius wallet and track accrued interest
+  slug: celsius-network-deposit-and-earn
+- name: Onboard and KYC-verify a Celsius partner user
+  slug: celsius-network-onboard-and-verify-user
+- name: Withdraw from a Celsius wallet and reconcile the transaction
+  slug: celsius-network-withdraw-and-reconcile
 slug: celsius-network
 tags:
 - Company

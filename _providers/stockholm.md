@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Stockholm University operates its own Shibboleth Identity Provider and publishes its SAML 2.0 entity metadata anonymously on its registrable domain. The document declares entityID https://idp.it.su.se
@@ -104,37 +106,37 @@ common:
   type: LibraryCatalog
   url: https://www.su.se/english/library/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/conformance/stockholm-conformance.yml
+  href: https://artifacts.apis.io/stockholm/conformance/stockholm-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stockholm-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/security/stockholm-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/stockholm/security/stockholm-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/stockholm-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/security/stockholm-domain-security.yml
+  href: https://artifacts.apis.io/stockholm/security/stockholm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stockholm-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/plans/stockholm-plans-pricing.yml
+  href: https://artifacts.apis.io/stockholm/plans/stockholm-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stockholm-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/rate-limits/stockholm-rate-limits.yml
+  href: https://artifacts.apis.io/stockholm/rate-limits/stockholm-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stockholm-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/finops/stockholm-finops.yml
+  href: https://artifacts.apis.io/stockholm/finops/stockholm-finops.yml
   title: ''
   type: FinOps
   url: finops/stockholm-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/stockholm/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -192,7 +194,7 @@ coverage:
   - note: 'Present but not the institution''s own contact — Contact: mailto:soc@sitevision.se, the SiteVision CMS vendor''s security operations centre. Expires 2026-09-30.'
     status: 200
     url: https://www.su.se/.well-known/security.txt
-  reason: no_public_api
+  reason: no-developer-program
   state: none
 created: '2026-06-03'
 description: 'Stockholm University (Stockholms universitet) is a public research university in Sweden and one of the country''s largest, with roughly 33,000 students across four faculties. It operates no public developer portal, no API gateway and no first-party documented API: api.su.se, data.su.se and developer.su.se do not resolve, and www.su.se/api returns 404. What the institution genuinely runs and serves anonymously is narrow — a Shibboleth SAML2 identity provider at idp.it.su.se whose entity metadata is published by the university and registered in the SWAMID federation (and so in eduGAIN), the Bolin Centre Database research data repository on bolin.su.se minting its own DataCite DOIs under prefix 10.17043 since 2014, and a SiteVision REST sitemap on www.su.se that indexes every course syllabus in the education archive. Its two harvestable research surfaces are both tenancies rather than SU engineering: the DiVA OAI-PMH endpoint at su.diva-portal.org is operated by the DiVA consortium
@@ -219,14 +221,14 @@ plans:
 - name: Stockholm Plans Pricing
   plan_count: 2
   slug: stockholm-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Stockholm Rate Limits
   slug: stockholm-rate-limits
 score:
   band: emerging
-  composite: 16.1
+  composite: 17.8
   coverage:
     artifact_dirs: 10
     catalog_earned: 44.0
@@ -234,14 +236,14 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 4.4
     developer_ergonomics: 16.7
     discoverability: 71.4
-    operational_transparency: 7.9
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -250,7 +252,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 21.7
+  previous_composite: 17.8
   provenance:
     conformance: first-party
   regulatory:
@@ -259,14 +261,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/screenshots/stockholm-2026-06-20T194559.png
+screenshot: https://apis.io/screenshots/stockholm/stockholm-2026-06-20T194559.png
 security:
 - kind: domain-security
   name: Stockholm Domain Security

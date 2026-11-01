@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Acadio LMS platform surface. Acadio operates an API gateway at api.acadio.com (its own status page lists an "API — Acadio API Services" component) and documents integration entry points in its kno
@@ -32,7 +34,7 @@ apis:
 - description: Acadio's direct-to-learner course storefront implements the Universal Commerce Protocol over MCP. A live, unauthenticated MCP endpoint at https://acadio.com/api/ucp/mcp answers tools/list with thirtee
   name: Acadio Storefront Agentic Commerce (UCP)
   slug: acadio-storefront-ucp
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Acadio Lms Webhooks
@@ -47,7 +49,7 @@ common:
   type: BlogRSS
   url: https://acadio.com/blogs/articles.atom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acadio/refs/heads/main/security/acadio-domain-security.yml
+  href: https://artifacts.apis.io/acadio/security/acadio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/acadio-domain-security.yml
@@ -84,67 +86,67 @@ common:
   type: StatusPage
   url: https://acadio.statuspage.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acadio/refs/heads/main/mcp/acadio-mcp.yml
+  href: https://artifacts.apis.io/acadio/mcp/acadio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/acadio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acadio/refs/heads/main/llms/acadio-llms.txt
+  href: https://artifacts.apis.io/acadio/llms/acadio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/acadio-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acadio/refs/heads/main/well-known/acadio-well-known.yml
+  href: https://artifacts.apis.io/acadio/well-known/acadio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/acadio-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acadio/refs/heads/main/asyncapi/acadio-lms-webhooks.yml
+  href: https://artifacts.apis.io/acadio/asyncapi/acadio-lms-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/acadio-lms-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acadio/refs/heads/main/authentication/acadio-authentication.yml
+  href: https://artifacts.apis.io/acadio/authentication/acadio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/acadio-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acadio/refs/heads/main/scopes/acadio-scopes.yml
+  href: https://artifacts.apis.io/acadio/scopes/acadio-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/acadio-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acadio/refs/heads/main/conventions/acadio-conventions.yml
+  href: https://artifacts.apis.io/acadio/conventions/acadio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/acadio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acadio/refs/heads/main/conformance/acadio-conformance.yml
+  href: https://artifacts.apis.io/acadio/conformance/acadio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/acadio-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acadio/refs/heads/main/lifecycle/acadio-lifecycle.yml
+  href: https://artifacts.apis.io/acadio/lifecycle/acadio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/acadio-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acadio/refs/heads/main/data-model/acadio-data-model.yml
+  href: https://artifacts.apis.io/acadio/data-model/acadio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/acadio-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/acadio/refs/heads/main/rate-limits/acadio-rate-limits.yml
+  href: https://artifacts.apis.io/acadio/rate-limits/acadio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/acadio-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/acadio/refs/heads/main/plans/acadio-plans-pricing.yml
+  href: https://artifacts.apis.io/acadio/plans/acadio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/acadio-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acadio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/acadio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -172,7 +174,7 @@ plans:
 - name: Acadio Plans Pricing
   plan_count: 0
   slug: acadio-plans-pricing
-random_paper: 15
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Acadio Rate Limits
@@ -184,7 +186,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 36.5
+  composite: 36.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -194,13 +196,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 30.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 23.7
-  previous_composite: 36.5
+  previous_composite: 36.8
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -211,14 +213,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/acadio/refs/heads/main/screenshots/acadio-2026-10-11T092701.png
+screenshot: https://apis.io/screenshots/acadio/acadio-2026-10-11T092701.png
 security:
 - kind: authentication
   name: Acadio Authentication
@@ -228,6 +230,10 @@ security:
   name: Acadio Domain Security
   slug: acadio-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: acadio-buy-exam-prep-course
+  slug: acadio-buy-exam-prep-course
 slug: acadio
 tags:
 - Company

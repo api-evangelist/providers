@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-10-17'
+  score: 25.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 28
@@ -269,15 +271,12 @@ apis:
   description: The apis API from Unisson — 12 operation(s) for apis.
   name: Unisson APIS API
   slug: unisson-apis-api
-artifact_total: 96
+artifact_total: 98
 asyncapis:
 - description: ''
   name: Unisson Webhooks
   slug: unisson-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Unisson agent-evals API
   slug: open-unisson-agent-evals-api
@@ -415,27 +414,27 @@ collections:
   slug: open-unisson-widget-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/capabilities/unisson-capability-edges.yml
+  href: https://artifacts.apis.io/unisson/capabilities/unisson-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/unisson-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/overlays/unisson-platform-overlay.yaml
+  href: https://artifacts.apis.io/unisson/overlays/unisson-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/unisson-platform-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/security/unisson-domain-security.yml
+  href: https://artifacts.apis.io/unisson/security/unisson-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unisson-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/agentic-access/unisson-agentic-access.yml
+  href: https://artifacts.apis.io/unisson/agentic-access/unisson-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/unisson-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/authentication/unisson-authentication.yml
+  href: https://artifacts.apis.io/unisson/authentication/unisson-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unisson-authentication.yml
@@ -468,52 +467,52 @@ common:
   type: Compliance
   url: https://trust.unisson.ai/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/mcp/unisson-mcp.yml
+  href: https://artifacts.apis.io/unisson/mcp/unisson-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/unisson-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/llms/unisson-llms.txt
+  href: https://artifacts.apis.io/unisson/llms/unisson-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unisson-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/conformance/unisson-conformance.yml
+  href: https://artifacts.apis.io/unisson/conformance/unisson-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unisson-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/errors/unisson-problem-types.yml
+  href: https://artifacts.apis.io/unisson/errors/unisson-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/unisson-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/lifecycle/unisson-lifecycle.yml
+  href: https://artifacts.apis.io/unisson/lifecycle/unisson-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unisson-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/conventions/unisson-conventions.yml
+  href: https://artifacts.apis.io/unisson/conventions/unisson-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unisson-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/asyncapi/unisson-webhooks.yml
+  href: https://artifacts.apis.io/unisson/asyncapi/unisson-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/unisson-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/unisson/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/components/unisson-components.yml
+  href: https://artifacts.apis.io/unisson/components/unisson-components.yml
   title: ''
   type: Components
   url: components/unisson-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/data-model/unisson-data-model.yml
+  href: https://artifacts.apis.io/unisson/data-model/unisson-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unisson-data-model.yml
@@ -531,26 +530,26 @@ overview: 'Unisson publishes 45 API contracts indexed on the [APIs.io](https://a
 
 
   Unisson''s developer surface includes authentication, support, and 20 more developer resources.'
-random_paper: 13
+random_paper: 15
 score:
   band: thin
-  composite: 37.1
+  composite: 36.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 54.1
+    contract_quality: 52.9
     developer_ergonomics: 18.5
     discoverability: 62.5
     operational_transparency: 7.9
-  previous_composite: 37.0
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -566,14 +565,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/screenshots/unisson-2026-09-02T164911.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/unisson/unisson-2026-09-02T164911.png
 security:
 - kind: authentication
   name: Unisson Authentication
@@ -587,6 +587,14 @@ security:
   name: Unisson Trust Center
   slug: unisson-trust-center
   summary_line: SOC 2
+skill_count: 3
+skills:
+- name: Build a Unisson agent and run it
+  slug: unisson-build-and-run-agent
+- name: Query the Unisson product knowledge base
+  slug: unisson-query-knowledge-base
+- name: Trigger and monitor a Unisson agent run from your own tool
+  slug: unisson-trigger-external-run
 slug: unisson
 tags:
 - Company

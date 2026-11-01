@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -109,9 +111,6 @@ collections:
   name: Salesforce Net Zero Cloud REST Carbon Emissions Water Usage API
   slug: postman-salesforce-net-zero-cloud-water-usage-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Salesforce Net Zero Cloud REST Carbon Emissions API
   slug: open-salesforce-net-zero-cloud-carbon-emissions-api
 - collection_type: open
@@ -137,22 +136,22 @@ collections:
   slug: open-salesforce-net-zero-cloud-water-usage-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/plans/salesforce-net-zero-cloud-plans-pricing.yml
+  href: https://artifacts.apis.io/salesforce-net-zero-cloud/plans/salesforce-net-zero-cloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/salesforce-net-zero-cloud-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/rate-limits/salesforce-net-zero-cloud-rate-limits.yml
+  href: https://artifacts.apis.io/salesforce-net-zero-cloud/rate-limits/salesforce-net-zero-cloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/salesforce-net-zero-cloud-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/finops/salesforce-net-zero-cloud-finops.yml
+  href: https://artifacts.apis.io/salesforce-net-zero-cloud/finops/salesforce-net-zero-cloud-finops.yml
   title: ''
   type: FinOps
   url: finops/salesforce-net-zero-cloud-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/capabilities/salesforce-net-zero-cloud-capability-edges.yml
+  href: https://artifacts.apis.io/salesforce-net-zero-cloud/capabilities/salesforce-net-zero-cloud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/salesforce-net-zero-cloud-capability-edges.yml
@@ -165,22 +164,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/salesforce-net-zero-cloud/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/agentic-access/salesforce-net-zero-cloud-agentic-access.yml
+  href: https://artifacts.apis.io/salesforce-net-zero-cloud/agentic-access/salesforce-net-zero-cloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/salesforce-net-zero-cloud-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/security/salesforce-net-zero-cloud-domain-security.yml
+  href: https://artifacts.apis.io/salesforce-net-zero-cloud/security/salesforce-net-zero-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/salesforce-net-zero-cloud-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/authentication/salesforce-net-zero-cloud-authentication.yml
+  href: https://artifacts.apis.io/salesforce-net-zero-cloud/authentication/salesforce-net-zero-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/salesforce-net-zero-cloud-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/scopes/salesforce-net-zero-cloud-scopes.yml
+  href: https://artifacts.apis.io/salesforce-net-zero-cloud/scopes/salesforce-net-zero-cloud-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/salesforce-net-zero-cloud-scopes.yml
@@ -229,27 +228,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/salesforce
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/rules/salesforce-net-zero-cloud-rules.yml
+  href: https://artifacts.apis.io/salesforce-net-zero-cloud/rules/salesforce-net-zero-cloud-rules.yml
   title: ''
   type: SpectralRules
   url: rules/salesforce-net-zero-cloud-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/json-schema/salesforce-net-zero-cloud-carbon-emission-schema.json
+  href: https://artifacts.apis.io/salesforce-net-zero-cloud/json-schema/salesforce-net-zero-cloud-carbon-emission-schema.json
   title: Carbon Emission Schema
   type: JSONSchema
   url: json-schema/salesforce-net-zero-cloud-carbon-emission-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/json-schema/salesforce-net-zero-cloud-sustainability-goal-schema.json
+  href: https://artifacts.apis.io/salesforce-net-zero-cloud/json-schema/salesforce-net-zero-cloud-sustainability-goal-schema.json
   title: Sustainability Goal Schema
   type: JSONSchema
   url: json-schema/salesforce-net-zero-cloud-sustainability-goal-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/json-ld/salesforce-net-zero-cloud-context.jsonld
+  href: https://artifacts.apis.io/salesforce-net-zero-cloud/json-ld/salesforce-net-zero-cloud-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/salesforce-net-zero-cloud-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/vocabulary/salesforce-net-zero-cloud-vocabulary.yml
+  href: https://artifacts.apis.io/salesforce-net-zero-cloud/vocabulary/salesforce-net-zero-cloud-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/salesforce-net-zero-cloud-vocabulary.yml
@@ -264,10 +263,10 @@ examples:
   slug: salesforce-net-zero-cloud-list-sustainability-goals-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Salesforce Net Zero Cloud Finops
-  primary_unit: ''
-  service_category: Sustainability / ESG
+  primary_unit: user
+  service_category: ''
   slug: salesforce-net-zero-cloud-finops
   template: false
 image: https://www.salesforce.com/content/dam/web/en_us/www/images/logo-salesforce.svg
@@ -301,9 +300,12 @@ overview: 'Salesforce Net Zero Cloud publishes 9 API contracts indexed on the [A
   Salesforce Net Zero Cloud''s developer surface includes authentication, engineering blog, getting-started guide, release notes, support, and 21 more developer resources.'
 plans:
 - name: Salesforce Net Zero Cloud Plans Pricing
-  plan_count: 1
+  plan_count: 9
   slug: salesforce-net-zero-cloud-plans-pricing
-random_paper: 0
+- name: Salesforce Net Zero Cloud Price Estimates
+  plan_count: 0
+  slug: salesforce-net-zero-cloud-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Salesforce Net Zero Cloud Rate Limits
@@ -337,24 +339,24 @@ scopes:
   slug: salesforce-net-zero-cloud-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 46.3
+  band: strong
+  composite: 54.7
   coverage:
     artifact_dirs: 20
-    catalog_earned: 56.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 58.3
+    catalog_earned: 69.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 3.7
   facets:
-    access_clarity: 26.3
+    access_clarity: 60.5
     contract_governance: 23.5
-    contract_quality: 57.4
+    contract_quality: 55.4
     developer_ergonomics: 51.2
     discoverability: 73.2
-    operational_transparency: 31.6
-  previous_composite: 47.8
+    operational_transparency: 42.1
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     contracts:
@@ -368,13 +370,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/screenshots/salesforce-net-zero-cloud-2026-06-20T193349.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/salesforce-net-zero-cloud/salesforce-net-zero-cloud-2026-06-20T193349.png
 security:
 - kind: authentication
   name: Salesforce Net Zero Cloud Authentication

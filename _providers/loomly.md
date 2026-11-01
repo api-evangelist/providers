@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Public, read-only, unauthenticated JSON API for the Loomly status page, exposing overall system state, the four service components (Publishing, Analytics, Interactions, Website) and paginated incident
@@ -43,7 +45,7 @@ apis:
 - description: Loomly operates an OAuth 2.0 protected platform API that backs its Zapier app — 12 triggers (new post, post state updated, post publish successful/failed/required, new comment, new quick post, new cus
   name: Loomly Platform API (partner-gated)
   slug: loomly-platform-api
-artifact_total: 9
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -102,72 +104,72 @@ common:
   type: StatusPage
   url: https://status.loomly.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/lifecycle/loomly-lifecycle.yml
+  href: https://artifacts.apis.io/loomly/lifecycle/loomly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/loomly-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/changelog/loomly-changelog.yml
+  href: https://artifacts.apis.io/loomly/changelog/loomly-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/loomly-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/authentication/loomly-authentication.yml
+  href: https://artifacts.apis.io/loomly/authentication/loomly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/loomly-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/conventions/loomly-conventions.yml
+  href: https://artifacts.apis.io/loomly/conventions/loomly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/loomly-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/security/loomly-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/loomly/security/loomly-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/loomly-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/security/loomly-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/loomly/security/loomly-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/loomly-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/security/loomly-trust-center.yml
+  href: https://artifacts.apis.io/loomly/security/loomly-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/loomly-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/security/loomly-domain-security.yml
+  href: https://artifacts.apis.io/loomly/security/loomly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/loomly-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/conformance/loomly-conformance.yml
+  href: https://artifacts.apis.io/loomly/conformance/loomly-conformance.yml
   title: ''
   type: Compliance
   url: conformance/loomly-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/conformance/loomly-conformance.yml
+  href: https://artifacts.apis.io/loomly/conformance/loomly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/loomly-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/plans/loomly-plans-pricing.yml
+  href: https://artifacts.apis.io/loomly/plans/loomly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/loomly-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/rate-limits/loomly-rate-limits.yml
+  href: https://artifacts.apis.io/loomly/rate-limits/loomly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/loomly-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/finops/loomly-finops.yml
+  href: https://artifacts.apis.io/loomly/finops/loomly-finops.yml
   title: ''
   type: FinOps
   url: finops/loomly-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/llms/loomly-llms.txt
+  href: https://artifacts.apis.io/loomly/llms/loomly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/loomly-llms.txt
@@ -191,7 +193,7 @@ finops:
 - has_sources: true
   method: derived
   name: Loomly Finops
-  primary_unit: ''
+  primary_unit: month, billed monthly
   service_category: ''
   slug: loomly-finops
   template: false
@@ -207,32 +209,35 @@ overview: 'Loomly is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
   Loomly''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 21 more developer resources.'
 plans:
 - name: Loomly Plans Pricing
-  plan_count: 4
+  plan_count: 5
   slug: loomly-plans-pricing
-random_paper: 8
+- name: Loomly Price Estimates
+  plan_count: 0
+  slug: loomly-price-estimates
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Loomly Rate Limits
   slug: loomly-rate-limits
 score:
   band: developing
-  composite: 46.0
+  composite: 47.9
   coverage:
     artifact_dirs: 18
-    catalog_earned: 52.0
+    catalog_earned: 55.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
     discoverability: 57.1
-    operational_transparency: 65.8
-  previous_composite: 47.5
+    operational_transparency: 68.4
+  previous_composite: 46.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -242,14 +247,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/screenshots/loomly-2026-06-20T184715.png
+screenshot: https://apis.io/screenshots/loomly/loomly-2026-06-20T184715.png
 security:
 - kind: authentication
   name: Loomly Authentication

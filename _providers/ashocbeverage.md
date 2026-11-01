@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API documented on the Drink Accelerator site, but no owned machine‑readable contract could be verified.
@@ -32,27 +34,27 @@ apis:
 artifact_total: 3
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ashocbeverage/refs/heads/main/llms/ashocbeverage-llms.txt
+  href: https://artifacts.apis.io/ashocbeverage/llms/ashocbeverage-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ashocbeverage-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ashocbeverage/refs/heads/main/mcp/ashocbeverage-mcp.yml
+  href: https://artifacts.apis.io/ashocbeverage/mcp/ashocbeverage-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ashocbeverage-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ashocbeverage/refs/heads/main/well-known/ashocbeverage-well-known.yml
+  href: https://artifacts.apis.io/ashocbeverage/well-known/ashocbeverage-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ashocbeverage-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ashocbeverage/refs/heads/main/hosts/ashocbeverage-hosts.yml
+  href: https://artifacts.apis.io/ashocbeverage/hosts/ashocbeverage-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ashocbeverage-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ashocbeverage/refs/heads/main/vendors/ashocbeverage-vendors.yml
+  href: https://artifacts.apis.io/ashocbeverage/vendors/ashocbeverage-vendors.yml
   title: ''
   type: Vendors
   url: vendors/ashocbeverage-vendors.yml
@@ -61,7 +63,7 @@ common:
   type: Newsroom
   url: https://www.drinkaccelerator.com/blogs/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ashocbeverage/refs/heads/main/security/ashocbeverage-domain-security.yml
+  href: https://artifacts.apis.io/ashocbeverage/security/ashocbeverage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ashocbeverage-domain-security.yml
@@ -86,7 +88,7 @@ description: Ashocbeverage is a modern energy drink brand offering a range of pe
 image: https://www.drinkaccelerator.com/assets/logo.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at a-shoc.myshopify.com.
+- description: Remote MCP server at a-shoc.myshopify.com; 13 tools listed.
   name: Ashocbeverage MCP Server
   slug: ashocbeverage-mcp-yml
 modified: '2026-09-26'
@@ -97,10 +99,10 @@ overview: 'Ashocbeverage is listed with 1 API on the [APIs.io](https://apis.io/)
 
 
   Ashocbeverage''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
-random_paper: 17
+random_paper: 15
 score:
   band: minimal
-  composite: 10.7
+  composite: 9.7
   coverage:
     artifact_dirs: 8
     catalog_earned: 32.0
@@ -108,15 +110,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 68.3
+    discoverability: 58.3
     operational_transparency: 0.0
-  previous_composite: 10.6
+  previous_composite: 9.7
   provenance:
     mcp: platform-generated
   regulatory:
@@ -125,14 +127,14 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ashocbeverage/refs/heads/main/screenshots/ashocbeverage-2026-10-11T100527.png
+screenshot: https://apis.io/screenshots/ashocbeverage/ashocbeverage-2026-10-11T100527.png
 security:
 - kind: domain-security
   name: Ashocbeverage Domain Security

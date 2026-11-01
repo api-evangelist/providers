@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,17 +83,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/qt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qt/refs/heads/main/packages/qt-packages.yml
+  href: https://artifacts.apis.io/qt/packages/qt-packages.yml
   title: ''
   type: Packages
   url: packages/qt-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qt/refs/heads/main/packages/qt-packages.yml
+  href: https://artifacts.apis.io/qt/packages/qt-packages.yml
   title: ''
   type: SDKs
   url: packages/qt-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qt/refs/heads/main/security/qt-domain-security.yml
+  href: https://artifacts.apis.io/qt/security/qt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qt-domain-security.yml
@@ -107,10 +109,10 @@ overview: 'Qt is profiled on the [APIs.io](https://apis.io/) network. Tagged are
 
 
   Qt''s developer surface includes documentation, engineering blog, support, pricing, signup flow, and 9 more developer resources.'
-random_paper: 9
+random_paper: 13
 score:
   band: emerging
-  composite: 18.6
+  composite: 19.0
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -125,22 +127,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 23.8
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 18.6
+    operational_transparency: 5.3
+  previous_composite: 19.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/qt/refs/heads/main/screenshots/qt-2026-09-02T152547.png
+screenshot: https://apis.io/screenshots/qt/qt-2026-09-02T152547.png
 security:
 - kind: domain-security
   name: Qt Domain Security

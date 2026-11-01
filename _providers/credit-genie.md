@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,17 +36,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/credit-genie/refs/heads/main/plans/credit-genie-plans-pricing.yml
+  href: https://artifacts.apis.io/credit-genie/plans/credit-genie-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/credit-genie-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/credit-genie/refs/heads/main/rate-limits/credit-genie-rate-limits.yml
+  href: https://artifacts.apis.io/credit-genie/rate-limits/credit-genie-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/credit-genie-rate-limits.yml
@@ -77,27 +79,27 @@ common:
   type: Security
   url: https://creditgenie.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/credit-genie/refs/heads/main/well-known/credit-genie-security.txt
+  href: https://artifacts.apis.io/credit-genie/well-known/credit-genie-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/credit-genie-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/credit-genie/refs/heads/main/well-known/credit-genie-well-known.yml
+  href: https://artifacts.apis.io/credit-genie/well-known/credit-genie-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/credit-genie-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/credit-genie/refs/heads/main/security/credit-genie-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/credit-genie/security/credit-genie-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/credit-genie-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/credit-genie/refs/heads/main/security/credit-genie-domain-security.yml
+  href: https://artifacts.apis.io/credit-genie/security/credit-genie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/credit-genie-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/credit-genie/refs/heads/main/llms/credit-genie-llms.txt
+  href: https://artifacts.apis.io/credit-genie/llms/credit-genie-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/credit-genie-llms.txt
@@ -137,14 +139,14 @@ plans:
 - name: Credit Genie Plans Pricing
   plan_count: 0
   slug: credit-genie-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Credit Genie Rate Limits
   slug: credit-genie-rate-limits
 score:
   band: emerging
-  composite: 15.0
+  composite: 15.3
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -158,17 +160,17 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 55.4
-    operational_transparency: 7.9
-  previous_composite: 15.0
+    discoverability: 48.2
+    operational_transparency: 15.8
+  previous_composite: 15.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

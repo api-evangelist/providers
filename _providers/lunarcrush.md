@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.1
-  scored_at: '2026-10-17'
+  score: 6.9
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'REST API for LunarCrush social and market intelligence. Endpoints cover trending topics, categories, creators, posts, coins, stocks, and NFTs, including summary snapshots, historical time series, top '
@@ -43,7 +45,7 @@ apis:
 - description: AI/agent-native interface to LunarCrush data at lunarcrush.ai. Exposes topics, categories, creators, posts, and search as clean machine-readable endpoints returning markdown by default (JSON with ?for
   name: LunarCrush.ai
   slug: lunarcrushai
-artifact_total: 5
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -62,57 +64,57 @@ common:
   type: APIReference
   url: https://github.com/lunarcrush/api
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lunarcrush/refs/heads/main/authentication/lunarcrush-authentication.yml
+  href: https://artifacts.apis.io/lunarcrush/authentication/lunarcrush-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lunarcrush-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lunarcrush/refs/heads/main/mcp/lunarcrush-mcp.yml
+  href: https://artifacts.apis.io/lunarcrush/mcp/lunarcrush-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lunarcrush-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lunarcrush/refs/heads/main/cli/lunarcrush-cli.yml
+  href: https://artifacts.apis.io/lunarcrush/cli/lunarcrush-cli.yml
   title: ''
   type: CLI
   url: cli/lunarcrush-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lunarcrush/refs/heads/main/packages/lunarcrush-packages.yml
+  href: https://artifacts.apis.io/lunarcrush/packages/lunarcrush-packages.yml
   title: ''
   type: Packages
   url: packages/lunarcrush-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lunarcrush/refs/heads/main/conventions/lunarcrush-conventions.yml
+  href: https://artifacts.apis.io/lunarcrush/conventions/lunarcrush-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lunarcrush-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lunarcrush/refs/heads/main/lifecycle/lunarcrush-lifecycle.yml
+  href: https://artifacts.apis.io/lunarcrush/lifecycle/lunarcrush-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lunarcrush-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lunarcrush/refs/heads/main/conformance/lunarcrush-conformance.yml
+  href: https://artifacts.apis.io/lunarcrush/conformance/lunarcrush-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lunarcrush-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lunarcrush/refs/heads/main/data-model/lunarcrush-data-model.yml
+  href: https://artifacts.apis.io/lunarcrush/data-model/lunarcrush-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lunarcrush-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lunarcrush/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lunarcrush/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lunarcrush/refs/heads/main/llms/lunarcrush-llms.txt
+  href: https://artifacts.apis.io/lunarcrush/llms/lunarcrush-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lunarcrush-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lunarcrush/refs/heads/main/security/lunarcrush-domain-security.yml
+  href: https://artifacts.apis.io/lunarcrush/security/lunarcrush-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lunarcrush-domain-security.yml
@@ -160,10 +162,10 @@ overview: 'LunarCrush is listed with 2 APIs on the [APIs.io](https://apis.io/) n
 
 
   LunarCrush''s developer surface includes documentation, API reference, authentication, CLI, pricing, signup flow, engineering blog, and 15 more developer resources.'
-random_paper: 17
+random_paper: 15
 score:
   band: thin
-  composite: 28.5
+  composite: 27.9
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -177,9 +179,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 54.2
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 28.5
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 27.9
   provenance:
     conformance: derived
     mcp: first-party
@@ -190,14 +192,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lunarcrush/refs/heads/main/screenshots/lunarcrush-2026-07-25T225725.png
+screenshot: https://apis.io/screenshots/lunarcrush/lunarcrush-2026-07-25T225725.png
 security:
 - kind: authentication
   name: Lunarcrush Authentication
@@ -207,6 +209,14 @@ security:
   name: Lunarcrush Domain Security
   slug: lunarcrush-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Find and profile the top creators for a topic
+  slug: lunarcrush-creator-influence
+- name: Rank cryptocurrencies by social and market signal
+  slug: lunarcrush-rank-crypto-by-social
+- name: Get a real-time social snapshot for a topic
+  slug: lunarcrush-topic-social-snapshot
 slug: lunarcrush
 tags:
 - Company

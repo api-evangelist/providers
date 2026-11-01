@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 34.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 69
   slug: spycloud-agentic-access
   summary_line: 69 operations · 2 acting
-api_count: 18
+api_count: 9
 apis:
 - baseURL: https://api.spycloud.io/enterprise-v2
   baseurl_source: declared
@@ -80,11 +82,8 @@ apis:
   description: The Watchlist API from SpyCloud — 5 operation(s) for watchlist.
   name: SpyCloud Watchlist API
   slug: spycloud-watchlist-api
-artifact_total: 21
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Spycloud Breach API
   slug: open-spycloud-breach-api
@@ -107,38 +106,43 @@ collections:
   name: enterprise-ato-prevention-api Watchlist API
   slug: open-spycloud-watchlist-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/spycloud/plans/spycloud-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spycloud-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/capabilities/spycloud-capability-edges.yml
+  href: https://artifacts.apis.io/spycloud/capabilities/spycloud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/spycloud-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/mcp/spycloud-mcp.yml
+  href: https://artifacts.apis.io/spycloud/mcp/spycloud-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/spycloud-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/overlays/spycloud-compromised-credit-card-overlay.yaml
+  href: https://artifacts.apis.io/spycloud/overlays/spycloud-compromised-credit-card-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spycloud-compromised-credit-card-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/agentic-access/spycloud-agentic-access.yml
+  href: https://artifacts.apis.io/spycloud/agentic-access/spycloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spycloud-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/security/spycloud-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/spycloud/security/spycloud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/spycloud-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/security/spycloud-domain-security.yml
+  href: https://artifacts.apis.io/spycloud/security/spycloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spycloud-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/authentication/spycloud-authentication.yml
+  href: https://artifacts.apis.io/spycloud/authentication/spycloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spycloud-authentication.yml
@@ -211,72 +215,80 @@ common:
   type: Security
   url: https://spycloud.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/well-known/spycloud-security.txt
+  href: https://artifacts.apis.io/spycloud/well-known/spycloud-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/spycloud-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/well-known/spycloud-well-known.yml
+  href: https://artifacts.apis.io/spycloud/well-known/spycloud-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/spycloud-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/well-known/spycloud-api-catalog.json
+  href: https://artifacts.apis.io/spycloud/well-known/spycloud-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/spycloud-api-catalog.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/llms/spycloud-llms.txt
+  href: https://artifacts.apis.io/spycloud/llms/spycloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spycloud-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/conventions/spycloud-conventions.yml
+  href: https://artifacts.apis.io/spycloud/conventions/spycloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spycloud-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/errors/spycloud-problem-types.yml
+  href: https://artifacts.apis.io/spycloud/errors/spycloud-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spycloud-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/lifecycle/spycloud-lifecycle.yml
+  href: https://artifacts.apis.io/spycloud/lifecycle/spycloud-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spycloud-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/changelog/spycloud-changelog.yml
+  href: https://artifacts.apis.io/spycloud/changelog/spycloud-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/spycloud-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/conformance/spycloud-conformance.yml
+  href: https://artifacts.apis.io/spycloud/conformance/spycloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spycloud-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/rate-limits/spycloud-rate-limits.yml
+  href: https://artifacts.apis.io/spycloud/rate-limits/spycloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spycloud-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/data-model/spycloud-data-model.yml
+  href: https://artifacts.apis.io/spycloud/data-model/spycloud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spycloud-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/security/spycloud-trust-center.yml
+  href: https://artifacts.apis.io/spycloud/security/spycloud-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/spycloud-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/spycloud/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-05'
 description: 'SpyCloud is an Austin, Texas based identity threat protection company that operates one of the largest repositories of recaptured darknet data — breach records, infostealer malware logs, phishing captures and combolists — and exposes it programmatically through a family of high-volume REST APIs. Security, fraud, identity and investigations teams query recaptured credentials, session cookies, exposed PII and infected-device telemetry to prevent account takeover, ransomware, session hijacking and online fraud. The public API surface spans nine separately-licensed products: Enterprise (Employee) ATO Prevention, Consumer ATO Prevention, Cybercrime Investigations, Data Partnership, IDLink identity correlation, Compromised Credit Card, Prospecting, NIST Password check, and Session Identity Protection. All are REST/JSON, authenticated with an x-api-key header, IP allow-listed, cursor-paginated at 1,000 records per page, and backed by a 99.9% uptime SLA.'
+finops:
+- has_sources: true
+  method: derived
+  name: Spycloud Finops
+  primary_unit: ''
+  service_category: ''
+  slug: spycloud-finops
+  template: true
 image: https://spycloud.com/wp-content/uploads/2025/04/bg-img-dotted-lines-1920x700-1-1.png
 layout: provider
 modified: '2026-08-05'
@@ -286,31 +298,35 @@ network: true
 overview: 'SpyCloud publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Breach API, Check API, Compass API, and 4 more. Tagged areas include Cybersecurity, Threat Intelligence, Identity, Fraud Prevention, and Account Takeover.
 
 
-  SpyCloud''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
-random_paper: 3
+  SpyCloud''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
+plans:
+- name: Spycloud Plans Pricing
+  plan_count: 3
+  slug: spycloud-plans-pricing
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Spycloud Rate Limits
   slug: spycloud-rate-limits
 score:
-  band: developing
-  composite: 40.1
+  band: strong
+  composite: 58.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 6.3
   facets:
-    access_clarity: 52.6
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 47.7
-    developer_ergonomics: 20.8
-    discoverability: 78.6
-    operational_transparency: 21.1
-  previous_composite: 40.0
+    developer_ergonomics: 58.9
+    discoverability: 71.4
+    operational_transparency: 42.1
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,13 +343,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/screenshots/spycloud-2026-08-17T082052.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spycloud/spycloud-2026-08-17T082052.png
 security:
 - kind: authentication
   name: Spycloud Authentication
@@ -351,6 +368,26 @@ security:
   name: Spycloud Trust Center
   slug: spycloud-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 9
+skills:
+- name: Monitor compromised cards by BIN
+  slug: spycloud-compromised-card-monitoring
+- name: Check a consumer login for credential exposure
+  slug: spycloud-consumer-login-risk-check
+- name: Size up exposure for a domain or email without pulling records
+  slug: spycloud-domain-exposure-assessment
+- name: Triage employee credential exposure
+  slug: spycloud-employee-ato-triage
+- name: Correlate an identity across recaptured data with IDLink
+  slug: spycloud-identity-correlation-idlink
+- name: Investigate a malware-infected device and its exposed applications
+  slug: spycloud-malware-infection-remediation
+- name: Screen a password against compromised-credential data
+  slug: spycloud-nist-password-screening
+- name: Find stolen session cookies for a domain
+  slug: spycloud-session-hijacking-exposure
+- name: Pivot across recaptured data to profile a threat actor
+  slug: spycloud-threat-actor-investigation
 slug: spycloud
 tags:
 - Cybersecurity

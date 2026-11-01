@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,13 +39,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Kartra's inbound developer API. One endpoint, POST only, form-encoded, with the operation selected by `actions[].cmd`. Twenty-nine documented commands cover leads, tags, lists, automation sequences, c
   name: Kartra API
   slug: kartra-api
-artifact_total: 7
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Kartra Webhooks
@@ -106,88 +108,96 @@ common:
   type: StatusPage
   url: https://status.kartra.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/authentication/kartra-authentication.yml
+  href: https://artifacts.apis.io/kartra/authentication/kartra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kartra-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/conventions/kartra-conventions.yml
+  href: https://artifacts.apis.io/kartra/conventions/kartra-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kartra-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/errors/kartra-error-codes.yml
+  href: https://artifacts.apis.io/kartra/errors/kartra-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kartra-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/rate-limits/kartra-rate-limits.yml
+  href: https://artifacts.apis.io/kartra/rate-limits/kartra-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kartra-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/plans/kartra-plans-pricing.yml
+  href: https://artifacts.apis.io/kartra/plans/kartra-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kartra-plans-pricing.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/sandbox/kartra-sandbox.yml
+  href: https://artifacts.apis.io/kartra/sandbox/kartra-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kartra-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/lifecycle/kartra-lifecycle.yml
+  href: https://artifacts.apis.io/kartra/lifecycle/kartra-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kartra-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/changelog/kartra-changelog.yml
+  href: https://artifacts.apis.io/kartra/changelog/kartra-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kartra-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/asyncapi/kartra-webhooks.yml
+  href: https://artifacts.apis.io/kartra/asyncapi/kartra-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kartra-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/data-model/kartra-data-model.yml
+  href: https://artifacts.apis.io/kartra/data-model/kartra-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kartra-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/packages/kartra-packages.yml
+  href: https://artifacts.apis.io/kartra/packages/kartra-packages.yml
   title: ''
   type: Packages
   url: packages/kartra-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/conformance/kartra-conformance.yml
+  href: https://artifacts.apis.io/kartra/conformance/kartra-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kartra-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/mcp/kartra-mcp.yml
+  href: https://artifacts.apis.io/kartra/mcp/kartra-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kartra-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kartra/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/llms/kartra-llms.txt
+  href: https://artifacts.apis.io/kartra/llms/kartra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kartra-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/security/kartra-domain-security.yml
+  href: https://artifacts.apis.io/kartra/security/kartra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kartra-domain-security.yml
 created: '2026-08-12'
 description: 'Kartra is an all-in-one online business platform operated by Kartra, Inc. of Las Vegas, Nevada, that bundles landing pages and funnels, email marketing with automation sequences, checkouts and recurring billing, membership sites and courses, video hosting, calendars and booking, helpdesks, affiliate management and lead scoring into a single subscription. Its developer surface is three distinct things: an inbound API that is a single form-encoded POST endpoint at https://app.kartra.com/api driven by 29 documented `cmd` values and scoped to exactly one lead per call; an outbound API that POSTs 24 JSON lead and commerce events to URLs configured in the account; and an IPN system that POSTs six payment-lifecycle notifications as flat form variables. Kartra publishes no OpenAPI, no SDK in any language, no signed webhooks and no idempotency contract, and it returns HTTP 200 for every outcome including authentication failure — the numeric `type` field in the response body is the real
   error signal.'
+finops:
+- has_sources: true
+  method: derived
+  name: Kartra Finops
+  primary_unit: account
+  service_category: ''
+  slug: kartra-finops
+  template: false
 image: https://kartra.com/wp-content/uploads/2024/06/Kartra-logo-icon-blue-transparent.png
 layout: provider
 modified: '2026-08-12'
@@ -203,32 +213,35 @@ overview: 'Kartra is listed with 1 API on the [APIs.io](https://apis.io/) networ
   Kartra''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
 plans:
 - name: Kartra Plans Pricing
-  plan_count: 4
+  plan_count: 8
   slug: kartra-plans-pricing
-random_paper: 7
+- name: Kartra Price Estimates
+  plan_count: 0
+  slug: kartra-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Kartra Rate Limits
   slug: kartra-rate-limits
 score:
   band: strong
-  composite: 58.6
+  composite: 61.6
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 57.0
+    artifact_dirs: 22
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 66.1
     discoverability: 66.1
-    operational_transparency: 60.5
-  previous_composite: 58.6
+    operational_transparency: 71.1
+  previous_composite: 60.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -243,14 +256,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/screenshots/kartra-2026-08-17T081006.png
+screenshot: https://apis.io/screenshots/kartra/kartra-2026-08-17T081006.png
 security:
 - kind: authentication
   name: Kartra Authentication
@@ -264,6 +277,16 @@ security:
   name: Kartra Vulnerability Disclosure
   slug: kartra-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 4
+skills:
+- name: Consume Kartra events safely
+  slug: kartra-consume-events
+- name: Create a Kartra lead and tag it
+  slug: kartra-create-lead-and-tag
+- name: Read and update a Kartra contact
+  slug: kartra-read-and-update-contact
+- name: Refund a Kartra transaction and reconcile
+  slug: kartra-refund-and-reconcile
 slug: kartra
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - description: 'Core Redux library for managing application state through a predictable unidirectional data flow. The library exposes createStore, combineReducers, applyMiddleware, compose, and bindActionCreators as '
@@ -63,17 +65,17 @@ apis:
 artifact_total: 17
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/redux/refs/heads/main/plans/redux-plans-pricing.yml
+  href: https://artifacts.apis.io/redux/plans/redux-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/redux-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/redux/refs/heads/main/rate-limits/redux-rate-limits.yml
+  href: https://artifacts.apis.io/redux/rate-limits/redux-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/redux-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/redux/refs/heads/main/finops/redux-finops.yml
+  href: https://artifacts.apis.io/redux/finops/redux-finops.yml
   title: ''
   type: FinOps
   url: finops/redux-finops.yml
@@ -90,7 +92,7 @@ common:
   type: ContributionGuide
   url: https://github.com/reduxjs/redux/blob/master/CONTRIBUTING.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redux/refs/heads/main/security/redux-domain-security.yml
+  href: https://artifacts.apis.io/redux/security/redux-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/redux-domain-security.yml
@@ -135,27 +137,27 @@ common:
   type: License
   url: https://github.com/reduxjs/redux/blob/master/LICENSE.md
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/redux/refs/heads/main/json-schema/redux-store-schema.json
+  href: https://artifacts.apis.io/redux/json-schema/redux-store-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/redux-store-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/redux/refs/heads/main/json-schema/redux-action-schema.json
+  href: https://artifacts.apis.io/redux/json-schema/redux-action-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/redux-action-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redux/refs/heads/main/json-structure/redux-store-structure.json
+  href: https://artifacts.apis.io/redux/json-structure/redux-store-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/redux-store-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redux/refs/heads/main/json-ld/redux-context.jsonld
+  href: https://artifacts.apis.io/redux/json-ld/redux-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/redux-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redux/refs/heads/main/vocabulary/redux-vocabulary.yml
+  href: https://artifacts.apis.io/redux/vocabulary/redux-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/redux-vocabulary.yml
@@ -165,7 +167,7 @@ finops:
 - has_sources: false
   method: generated
   name: Redux Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: redux-finops
   template: true
@@ -202,7 +204,7 @@ plans:
 - name: Redux Plans Pricing
   plan_count: 3
   slug: redux-plans-pricing
-random_paper: 2
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Redux Rate Limits
@@ -221,40 +223,37 @@ rules:
   slug: redux-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 25.7
+  composite: 22.2
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 59.8
     catalog_earned_first_party: 0.0
     catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 14.7
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 62.5
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 27.0
+    operational_transparency: 28.9
+  previous_composite: 22.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/redux/refs/heads/main/screenshots/redux-2026-06-20T192739.png
+screenshot: https://apis.io/screenshots/redux/redux-2026-06-20T192739.png
 security:
 - kind: domain-security
   name: Redux Domain Security

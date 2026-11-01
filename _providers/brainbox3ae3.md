@@ -9,21 +9,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.0
-  scored_at: '2026-10-17'
+  score: 12.9
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: API reference for Brainboxes products and services
@@ -37,62 +39,62 @@ apis:
 artifact_total: 5
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brainbox3ae3/refs/heads/main/rules/brainbox3ae3-rules.yml
+  href: https://artifacts.apis.io/brainbox3ae3/rules/brainbox3ae3-rules.yml
   title: ''
   type: Spectral
   url: rules/brainbox3ae3-rules.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/brainbox3ae3/refs/heads/main/changelog/brainbox3ae3-changelog.yml
+  href: https://artifacts.apis.io/brainbox3ae3/changelog/brainbox3ae3-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/brainbox3ae3-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brainbox3ae3/refs/heads/main/security/brainbox3ae3-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/brainbox3ae3/security/brainbox3ae3-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/brainbox3ae3-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brainbox3ae3/refs/heads/main/conformance/brainbox3ae3-conformance.yml
+  href: https://artifacts.apis.io/brainbox3ae3/conformance/brainbox3ae3-conformance.yml
   title: ''
   type: Conformance
   url: conformance/brainbox3ae3-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brainbox3ae3/refs/heads/main/llms/brainbox3ae3-llms.txt
+  href: https://artifacts.apis.io/brainbox3ae3/llms/brainbox3ae3-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brainbox3ae3-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brainbox3ae3/refs/heads/main/well-known/brainbox3ae3-security.txt
+  href: https://artifacts.apis.io/brainbox3ae3/well-known/brainbox3ae3-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/brainbox3ae3-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brainbox3ae3/refs/heads/main/well-known/brainbox3ae3-docs-security.txt
+  href: https://artifacts.apis.io/brainbox3ae3/well-known/brainbox3ae3-docs-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/brainbox3ae3-docs-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brainbox3ae3/refs/heads/main/well-known/brainbox3ae3-well-known.yml
+  href: https://artifacts.apis.io/brainbox3ae3/well-known/brainbox3ae3-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/brainbox3ae3-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brainbox3ae3/refs/heads/main/hosts/brainbox3ae3-hosts.yml
+  href: https://artifacts.apis.io/brainbox3ae3/hosts/brainbox3ae3-hosts.yml
   title: ''
   type: Hosts
   url: hosts/brainbox3ae3-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brainbox3ae3/refs/heads/main/vendors/brainbox3ae3-vendors.yml
+  href: https://artifacts.apis.io/brainbox3ae3/vendors/brainbox3ae3-vendors.yml
   title: ''
   type: Vendors
   url: vendors/brainbox3ae3-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/brainbox3ae3/refs/heads/main/packages/brainbox3ae3-packages.yml
+  href: https://artifacts.apis.io/brainbox3ae3/packages/brainbox3ae3-packages.yml
   title: ''
   type: SDKs
   url: packages/brainbox3ae3-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/brainbox3ae3/refs/heads/main/packages/brainbox3ae3-packages.yml
+  href: https://artifacts.apis.io/brainbox3ae3/packages/brainbox3ae3-packages.yml
   title: ''
   type: Packages
   url: packages/brainbox3ae3-packages.yml
@@ -105,12 +107,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/brainboxes
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brainbox3ae3/refs/heads/main/security/brainbox3ae3-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/brainbox3ae3/security/brainbox3ae3-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/brainbox3ae3-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brainbox3ae3/refs/heads/main/security/brainbox3ae3-domain-security.yml
+  href: https://artifacts.apis.io/brainbox3ae3/security/brainbox3ae3-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brainbox3ae3-domain-security.yml
@@ -173,7 +175,7 @@ overview: 'Brainbox3ae3 is listed with 2 APIs on the [APIs.io](https://apis.io/)
 
 
   Brainbox3ae3''s developer surface includes changelog, getting-started guide, documentation, API reference, support, pricing, engineering blog, and 18 more developer resources.'
-random_paper: 9
+random_paper: 1
 rules:
 - authorship: generated
   effective_rule_count: 50
@@ -189,7 +191,7 @@ rules:
   slug: brainbox3ae3-rules
 score:
   band: thin
-  composite: 34.1
+  composite: 33.4
   coverage:
     artifact_dirs: 13
     catalog_earned: 36.5
@@ -197,20 +199,20 @@ score:
     catalog_gap: 78.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -10.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 9.9
     developer_ergonomics: 42.9
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-kingdom
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 44.2
+  previous_composite: 33.4
   provenance:
     conformance: derived
     contracts:
@@ -225,13 +227,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Brainbox3Ae3 Domain Security

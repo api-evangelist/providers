@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-10-17'
+  score: 26.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -115,11 +117,8 @@ apis:
   description: Resources providing access to work orders.
   name: Propertyware Work orders API
   slug: propertyware-work-orders-api
-artifact_total: 284
+artifact_total: 283
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Open API, powered by Propertyware Accounting API
   slug: open-propertyware-accounting-api
@@ -164,22 +163,22 @@ collections:
   slug: open-propertyware-work-orders-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/propertyware/refs/heads/main/capabilities/propertyware-capability-edges.yml
+  href: https://artifacts.apis.io/propertyware/capabilities/propertyware-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/propertyware-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/propertyware/refs/heads/main/agentic-access/propertyware-agentic-access.yml
+  href: https://artifacts.apis.io/propertyware/agentic-access/propertyware-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/propertyware-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/propertyware/refs/heads/main/security/propertyware-domain-security.yml
+  href: https://artifacts.apis.io/propertyware/security/propertyware-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/propertyware-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/propertyware/refs/heads/main/authentication/propertyware-authentication.yml
+  href: https://artifacts.apis.io/propertyware/authentication/propertyware-authentication.yml
   title: ''
   type: Authentication
   url: authentication/propertyware-authentication.yml
@@ -212,17 +211,17 @@ common:
   type: X
   url: https://twitter.com/propertyware
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/propertyware/refs/heads/main/plans/propertyware-plans-pricing.yml
+  href: https://artifacts.apis.io/propertyware/plans/propertyware-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/propertyware-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/propertyware/refs/heads/main/rate-limits/propertyware-rate-limits.yml
+  href: https://artifacts.apis.io/propertyware/rate-limits/propertyware-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/propertyware-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/propertyware/refs/heads/main/finops/propertyware-finops.yml
+  href: https://artifacts.apis.io/propertyware/finops/propertyware-finops.yml
   title: ''
   type: FinOps
   url: finops/propertyware-finops.yml
@@ -1021,7 +1020,7 @@ rules:
   slug: propertyware-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.8
+  composite: 32.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 51.3
@@ -1029,15 +1028,15 @@ score:
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
-    contract_quality: 59.6
-    developer_ergonomics: 19.0
+    contract_quality: 57.2
+    developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 37.4
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -1051,13 +1050,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/propertyware/refs/heads/main/screenshots/propertyware-2026-06-20T192210.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/propertyware/propertyware-2026-06-20T192210.png
 security:
 - kind: authentication
   name: Propertyware Authentication

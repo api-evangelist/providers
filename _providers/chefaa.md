@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -41,17 +43,17 @@ common:
   type: BlogRSS
   url: https://chefaa.com/blog/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chefaa/refs/heads/main/well-known/chefaa-well-known.yml
+  href: https://artifacts.apis.io/chefaa/well-known/chefaa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/chefaa-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chefaa/refs/heads/main/well-known/chefaa-security.txt
+  href: https://artifacts.apis.io/chefaa/well-known/chefaa-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/chefaa-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chefaa/refs/heads/main/security/chefaa-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/chefaa/security/chefaa-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/chefaa-vulnerability-disclosure.yml
@@ -60,7 +62,7 @@ common:
   type: Security
   url: https://chefaa.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chefaa/refs/heads/main/security/chefaa-domain-security.yml
+  href: https://artifacts.apis.io/chefaa/security/chefaa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chefaa-domain-security.yml
@@ -105,10 +107,10 @@ overview: 'Chefaa is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Chefaa''s developer surface includes engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 6
+random_paper: 0
 score:
   band: emerging
-  composite: 16.2
+  composite: 16.9
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -123,7 +125,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 48.2
-    operational_transparency: 5.3
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -134,21 +136,21 @@ score:
     - mena
     - middle-east
     - north-africa
-  previous_composite: 16.2
+  previous_composite: 16.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 15.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/chefaa/refs/heads/main/screenshots/chefaa-2026-07-25T205140.png
+screenshot: https://apis.io/screenshots/chefaa/chefaa-2026-07-25T205140.png
 security:
 - kind: domain-security
   name: Chefaa Domain Security

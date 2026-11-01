@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 59.5
-  scored_at: '2026-10-17'
+  score: 55.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 12
   slug: clozd-agentic-access
   summary_line: 12 operations · 4 acting
-api_count: 6
+api_count: 3
 apis:
 - description: Hosted remote Model Context Protocol server exposing 19 documented read tools over Clozd win-loss data — programs, deals, responses, response summaries, transcripts, decision drivers and categories, d
   name: Clozd MCP Server
@@ -85,11 +87,8 @@ apis:
   description: The /programs/:program_id/touchpoints/:touchpoint_id API from Clozd — 1 operation(s) for /programs/:program_id/touchpoints/:touchpoint_id.
   name: Clozd /programs/:program Id/touchpoints/:touchpoint ID API
   slug: clozd-programs-program-id-touchpoints-touchpoint-id-api
-artifact_total: 25
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Clozd Data /programs /programs API
   slug: open-clozd-programs-api
@@ -113,17 +112,17 @@ collections:
   slug: open-clozd-programs-program-id-touchpoints-touchpoint-id-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/capabilities/clozd-capability-edges.yml
+  href: https://artifacts.apis.io/clozd/capabilities/clozd-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/clozd-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/overlays/clozd-data-api-v1-overlay.yaml
+  href: https://artifacts.apis.io/clozd/overlays/clozd-data-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clozd-data-api-v1-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/agentic-access/clozd-agentic-access.yml
+  href: https://artifacts.apis.io/clozd/agentic-access/clozd-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/clozd-agentic-access.yml
@@ -188,112 +187,120 @@ common:
   type: TrustCenter
   url: https://trust.clozd.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/mcp/clozd-mcp.yml
+  href: https://artifacts.apis.io/clozd/mcp/clozd-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/clozd-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/llms/clozd-llms.txt
+  href: https://artifacts.apis.io/clozd/llms/clozd-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clozd-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/well-known/clozd-well-known.yml
+  href: https://artifacts.apis.io/clozd/well-known/clozd-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/clozd-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/authentication/clozd-authentication.yml
+  href: https://artifacts.apis.io/clozd/authentication/clozd-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clozd-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/scopes/clozd-scopes.yml
+  href: https://artifacts.apis.io/clozd/scopes/clozd-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/clozd-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/conventions/clozd-conventions.yml
+  href: https://artifacts.apis.io/clozd/conventions/clozd-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clozd-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/lifecycle/clozd-lifecycle.yml
+  href: https://artifacts.apis.io/clozd/lifecycle/clozd-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clozd-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/conformance/clozd-conformance.yml
+  href: https://artifacts.apis.io/clozd/conformance/clozd-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clozd-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/errors/clozd-problem-types.yml
+  href: https://artifacts.apis.io/clozd/errors/clozd-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clozd-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/data-model/clozd-data-model.yml
+  href: https://artifacts.apis.io/clozd/data-model/clozd-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clozd-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/security/clozd-domain-security.yml
+  href: https://artifacts.apis.io/clozd/security/clozd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clozd-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/security/clozd-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/clozd/security/clozd-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/clozd-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/conventions/clozd-conventions.yml
+  href: https://artifacts.apis.io/clozd/conventions/clozd-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/clozd-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/clozd/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/packages/clozd-packages.yml
+  href: https://artifacts.apis.io/clozd/packages/clozd-packages.yml
   title: ''
   type: Packages
   url: packages/clozd-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/plans/clozd-plans-pricing.yml
+  href: https://artifacts.apis.io/clozd/plans/clozd-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/clozd-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/rate-limits/clozd-rate-limits.yml
+  href: https://artifacts.apis.io/clozd/rate-limits/clozd-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/clozd-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/components/clozd-components.yml
+  href: https://artifacts.apis.io/clozd/components/clozd-components.yml
   title: ''
   type: Components
   url: components/clozd-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/security/clozd-trust-center.yml
+  href: https://artifacts.apis.io/clozd/security/clozd-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/clozd-trust-center.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/overlays/clozd-data-api-v2-overlay.yaml
+  href: https://artifacts.apis.io/clozd/overlays/clozd-data-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clozd-data-api-v2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/overlays/clozd-data-api-v3-overlay.yaml
+  href: https://artifacts.apis.io/clozd/overlays/clozd-data-api-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clozd-data-api-v3-overlay.yaml
 created: '2026-08-02'
 description: 'Clozd is a Lehi, Utah based decision-intelligence and win-loss analysis platform that collects structured buyer feedback — through human-led live interviews, AI-assisted Flex interviews, and autonomous Flow interviews — and turns it into decision drivers, competitor sentiment, win rates, and verbatim buyer quotes for sales, marketing, product, and customer-success teams. The platform integrates with Salesforce, HubSpot, Microsoft Dynamics, Gong, Slack, Calendly, Outlook, and Gmail, and exposes two public programmatic surfaces: the versioned Clozd Data API (v1/v2/v3) documented with OpenAPI 3.0.3 and Swagger UI at app.clozd.com for importing deals and participants and exporting programs, deals, touchpoints, responses, transcripts, and competitors; and a hosted, OAuth 2.0 protected Model Context Protocol server at mcp.clozd.com that gives Claude, ChatGPT, Cursor, Copilot, Windsurf, Antigravity, and Gemini CLI direct tool access to the same win-loss data.'
+finops:
+- has_sources: true
+  method: derived
+  name: Clozd Finops
+  primary_unit: ''
+  service_category: ''
+  slug: clozd-finops
+  template: true
 image: https://cdn.prod.website-files.com/602c29edc35660e6c913f956/65a18029f28b360a5bc33674_Group%2011337.png
 layout: provider
 mcp_servers:
@@ -324,22 +331,22 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: developing
-  composite: 51.2
+  composite: 51.1
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 54.2
     developer_ergonomics: 58.9
-    discoverability: 73.3
-    operational_transparency: 2.6
+    discoverability: 70.0
+    operational_transparency: 15.8
   previous_composite: 51.1
   provenance:
     agentic_access: derived
@@ -361,13 +368,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/screenshots/clozd-2026-08-07T163518.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/clozd/clozd-2026-08-07T163518.png
 security:
 - kind: authentication
   name: Clozd Authentication
@@ -385,6 +393,20 @@ security:
   name: Clozd Trust Center
   slug: clozd-trust-center
   summary_line: ISO 27001, ISO 27701, SOC 2 Type II
+skill_count: 6
+skills:
+- name: Build a competitive win-loss picture from the Clozd API
+  slug: clozd-competitive-analysis
+- name: Export published win-loss feedback and transcripts
+  slug: clozd-export-win-loss-feedback
+- name: Import CRM deals and participants into Clozd
+  slug: clozd-import-crm-deals
+- name: Incrementally sync Clozd feedback without re-reading everything
+  slug: clozd-incremental-sync
+- name: Query Clozd win-loss insights over the MCP server
+  slug: clozd-query-insights-over-mcp
+- name: Import and read Clozd touchpoints (non-deal feedback)
+  slug: clozd-touchpoint-feedback
 slug: clozd
 tags:
 - Win-Loss Analysis

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Poynt Cloud API lets developers manage a merchant business''s orders, transactions, customers, products, catalogs, inventory and taxes, register webhooks for real-time events, and collect/tokenize '
@@ -50,7 +52,7 @@ common:
   type: Blog
   url: https://www.poynt.com/press
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/poynt/refs/heads/main/security/poynt-domain-security.yml
+  href: https://artifacts.apis.io/poynt/security/poynt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/poynt-domain-security.yml
@@ -91,62 +93,62 @@ common:
   type: StatusPage
   url: https://poynt.statuspage.io
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/poynt/refs/heads/main/packages/poynt-packages.yml
+  href: https://artifacts.apis.io/poynt/packages/poynt-packages.yml
   title: ''
   type: Packages
   url: packages/poynt-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/poynt/refs/heads/main/packages/poynt-packages.yml
+  href: https://artifacts.apis.io/poynt/packages/poynt-packages.yml
   title: ''
   type: SDKs
   url: packages/poynt-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/poynt/refs/heads/main/authentication/poynt-authentication.yml
+  href: https://artifacts.apis.io/poynt/authentication/poynt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/poynt-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poynt/refs/heads/main/conventions/poynt-conventions.yml
+  href: https://artifacts.apis.io/poynt/conventions/poynt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/poynt-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poynt/refs/heads/main/conventions/poynt-conventions.yml
+  href: https://artifacts.apis.io/poynt/conventions/poynt-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/poynt-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poynt/refs/heads/main/conformance/poynt-conformance.yml
+  href: https://artifacts.apis.io/poynt/conformance/poynt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/poynt-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poynt/refs/heads/main/errors/poynt-problem-types.yml
+  href: https://artifacts.apis.io/poynt/errors/poynt-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/poynt-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poynt/refs/heads/main/lifecycle/poynt-lifecycle.yml
+  href: https://artifacts.apis.io/poynt/lifecycle/poynt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/poynt-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poynt/refs/heads/main/asyncapi/poynt-webhooks.yml
+  href: https://artifacts.apis.io/poynt/asyncapi/poynt-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/poynt-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poynt/refs/heads/main/data-model/poynt-data-model.yml
+  href: https://artifacts.apis.io/poynt/data-model/poynt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/poynt-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poynt/refs/heads/main/components/poynt-components.yml
+  href: https://artifacts.apis.io/poynt/components/poynt-components.yml
   title: ''
   type: Components
   url: components/poynt-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/poynt/refs/heads/main/llms/poynt-llms.txt
+  href: https://artifacts.apis.io/poynt/llms/poynt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/poynt-llms.txt
@@ -165,26 +167,26 @@ overview: 'Poynt is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Poynt''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, and 17 more developer resources.'
-random_paper: 20
+random_paper: 18
 score:
   band: thin
-  composite: 36.0
+  composite: 35.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 35.4
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 35.6
   provenance:
     conformance: first-party
   regulatory:
@@ -193,14 +195,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/poynt/refs/heads/main/screenshots/poynt-2026-09-02T151849.png
+screenshot: https://apis.io/screenshots/poynt/poynt-2026-09-02T151849.png
 security:
 - kind: authentication
   name: Poynt Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.4
-  scored_at: '2026-10-17'
+  score: 33.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -84,11 +86,8 @@ apis:
   description: The Validate Api Key API from Nixtla — 1 operation(s) for validate api key.
   name: Nixtla Validate Api Key API
   slug: nixtla-validate-api-key-api
-artifact_total: 23
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nixtla Forecast Anomaly Detection API
   slug: open-nixtla-anomaly-detection-api
@@ -115,17 +114,17 @@ collections:
   slug: open-nixtla-validate-api-key-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/plans/nixtla-plans-pricing.yml
+  href: https://artifacts.apis.io/nixtla/plans/nixtla-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nixtla-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/capabilities/nixtla-capability-edges.yml
+  href: https://artifacts.apis.io/nixtla/capabilities/nixtla-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nixtla-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/overlays/nixtla-forecast-overlay.yaml
+  href: https://artifacts.apis.io/nixtla/overlays/nixtla-forecast-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nixtla-forecast-overlay.yaml
@@ -146,37 +145,37 @@ common:
   type: GettingStarted
   url: https://www.nixtla.io/docs/forecasting/timegpt_quickstart
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/packages/nixtla-packages.yml
+  href: https://artifacts.apis.io/nixtla/packages/nixtla-packages.yml
   title: ''
   type: SDKs
   url: packages/nixtla-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/packages/nixtla-packages.yml
+  href: https://artifacts.apis.io/nixtla/packages/nixtla-packages.yml
   title: ''
   type: Packages
   url: packages/nixtla-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/authentication/nixtla-authentication.yml
+  href: https://artifacts.apis.io/nixtla/authentication/nixtla-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nixtla-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/conventions/nixtla-conventions.yml
+  href: https://artifacts.apis.io/nixtla/conventions/nixtla-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nixtla-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/errors/nixtla-problem-types.yml
+  href: https://artifacts.apis.io/nixtla/errors/nixtla-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nixtla-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/data-model/nixtla-data-model.yml
+  href: https://artifacts.apis.io/nixtla/data-model/nixtla-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nixtla-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/lifecycle/nixtla-lifecycle.yml
+  href: https://artifacts.apis.io/nixtla/lifecycle/nixtla-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nixtla-lifecycle.yml
@@ -185,32 +184,32 @@ common:
   type: StatusPage
   url: https://status.nixtla.io/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/changelog/nixtla-changelog.yml
+  href: https://artifacts.apis.io/nixtla/changelog/nixtla-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nixtla-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/mcp/nixtla-mcp.yml
+  href: https://artifacts.apis.io/nixtla/mcp/nixtla-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nixtla-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nixtla/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/agentic-access/nixtla-agentic-access.yml
+  href: https://artifacts.apis.io/nixtla/agentic-access/nixtla-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nixtla-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/llms/nixtla-llms.txt
+  href: https://artifacts.apis.io/nixtla/llms/nixtla-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nixtla-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/conformance/nixtla-conformance.yml
+  href: https://artifacts.apis.io/nixtla/conformance/nixtla-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nixtla-conformance.yml
@@ -219,12 +218,12 @@ common:
   type: Compliance
   url: https://trust.nixtla.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/security/nixtla-trust-center.yml
+  href: https://artifacts.apis.io/nixtla/security/nixtla-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nixtla-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/security/nixtla-domain-security.yml
+  href: https://artifacts.apis.io/nixtla/security/nixtla-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nixtla-domain-security.yml
@@ -262,6 +261,14 @@ common:
   url: https://nixtla.io/
 created: '2026-07-17'
 description: Nixtla is an enterprise time-series intelligence platform built around TimeGPT, the first foundation model for time series. Through a simple REST API and Python/R SDKs it delivers zero-shot forecasting (no training data required), batch and real-time anomaly detection, cross-validation, and fine-tuning of the foundation model on customer data. The Nixtla Forecast API (OpenAPI 3.1) exposes /v2 endpoints for forecasting, anomaly detection, online anomaly detection, cross-validation, fine-tuning, and fine-tuned-model management, authenticated with a bearer API key. Nixtla also maintains a widely used open-source forecasting ecosystem (StatsForecast, NeuralForecast, MLForecast, HierarchicalForecast, CoreForecast) with tens of millions of downloads, offers cloud, self-hosted, and air-gapped deployments, ships MCP tools for agentic time-series workflows, and is SOC 2 Type II compliant. Nixtla is backed by Techstars and True Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Nixtla Finops
+  primary_unit: ''
+  service_category: ''
+  slug: nixtla-finops
+  template: true
 image: https://www.nixtla.io/logo.png
 layout: provider
 mcp_servers:
@@ -280,26 +287,26 @@ plans:
 - name: Nixtla Plans Pricing
   plan_count: 0
   slug: nixtla-plans-pricing
-random_paper: 18
+random_paper: 8
 score:
   band: developing
-  composite: 48.5
+  composite: 51.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
-    access_clarity: 52.6
+    access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 50.4
     developer_ergonomics: 66.1
-    discoverability: 71.7
-    operational_transparency: 34.2
-  previous_composite: 48.9
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -315,14 +322,15 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/screenshots/nixtla-2026-08-07T185350.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nixtla/nixtla-2026-08-07T185350.png
 security:
 - kind: authentication
   name: Nixtla Authentication
@@ -336,6 +344,14 @@ security:
   name: Nixtla Trust Center
   slug: nixtla-trust-center
   summary_line: SOC 2 Type II
+skill_count: 3
+skills:
+- name: Detect anomalies in time series with TimeGPT
+  slug: nixtla-anomaly-detection
+- name: Fine-tune and reuse a TimeGPT model
+  slug: nixtla-finetune
+- name: Forecast a time series with TimeGPT
+  slug: nixtla-forecast
 slug: nixtla
 tags:
 - Company

@@ -31,14 +31,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: documented
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 52.9
-  scored_at: '2026-10-17'
+  score: 48.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -46,7 +48,7 @@ agentic_access:
   operation_count: 39
   slug: ibanforge-agentic-access
   summary_line: 39 operations · 20 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.ibanforge.com
   baseurl_source: declared
@@ -201,11 +203,8 @@ apis:
     question: How do I log out of the IBANforge account page?
   phrasing_ops: 5
   slug: ibanforge-account-api
-artifact_total: 39
+artifact_total: 44
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ibanforge API Keys API
   slug: open-ibanforge-api-keys-api
@@ -232,12 +231,12 @@ collections:
   slug: open-ibanforge-swiss-clearing-api
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/rules/ibanforge-ibanforge-spectral-rules.yml
+  href: https://artifacts.apis.io/ibanforge/rules/ibanforge-ibanforge-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/ibanforge-ibanforge-spectral-rules.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/integrations/ibanforge-integration-edges.yml
+  href: https://artifacts.apis.io/ibanforge/integrations/ibanforge-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/ibanforge-integration-edges.yml
@@ -246,87 +245,87 @@ common:
   type: TrustCenter
   url: https://ibanforge.com/trust
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/overlays/ibanforge-account-api-overlay.yaml
+  href: https://artifacts.apis.io/ibanforge/overlays/ibanforge-account-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ibanforge-account-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/well-known/ibanforge-security.txt
+  href: https://artifacts.apis.io/ibanforge/well-known/ibanforge-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ibanforge-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/well-known/ibanforge-api-security.txt
+  href: https://artifacts.apis.io/ibanforge/well-known/ibanforge-api-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ibanforge-api-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/well-known/ibanforge-well-known.yml
+  href: https://artifacts.apis.io/ibanforge/well-known/ibanforge-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ibanforge-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/agentic-access/ibanforge-agentic-access.yml
+  href: https://artifacts.apis.io/ibanforge/agentic-access/ibanforge-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ibanforge-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/rate-limits/ibanforge-rate-limits.yml
+  href: https://artifacts.apis.io/ibanforge/rate-limits/ibanforge-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ibanforge-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/plans/ibanforge-plans-pricing.yml
+  href: https://artifacts.apis.io/ibanforge/plans/ibanforge-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ibanforge-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/rules/ibanforge-rules.yml
+  href: https://artifacts.apis.io/ibanforge/rules/ibanforge-rules.yml
   title: ''
   type: Spectral
   url: rules/ibanforge-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/json-ld/ibanforge-context.jsonld
+  href: https://artifacts.apis.io/ibanforge/json-ld/ibanforge-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/ibanforge-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/vocabulary/ibanforge-vocabulary.yml
+  href: https://artifacts.apis.io/ibanforge/vocabulary/ibanforge-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ibanforge-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ibanforge/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/data-model/ibanforge-data-model.yml
+  href: https://artifacts.apis.io/ibanforge/data-model/ibanforge-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ibanforge-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/changelog/ibanforge-changelog.yml
+  href: https://artifacts.apis.io/ibanforge/changelog/ibanforge-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ibanforge-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/conventions/ibanforge-conventions.yml
+  href: https://artifacts.apis.io/ibanforge/conventions/ibanforge-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ibanforge-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/conventions/ibanforge-conventions.yml
+  href: https://artifacts.apis.io/ibanforge/conventions/ibanforge-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ibanforge-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/sandbox/ibanforge-sandbox.yml
+  href: https://artifacts.apis.io/ibanforge/sandbox/ibanforge-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ibanforge-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/security/ibanforge-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ibanforge/security/ibanforge-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/ibanforge-vulnerability-disclosure.yml
@@ -335,42 +334,42 @@ common:
   type: Deprecation
   url: https://github.com/cammac-creator/ibanforge/blob/main/CHANGELOG.md
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/lifecycle/ibanforge-lifecycle.yml
+  href: https://artifacts.apis.io/ibanforge/lifecycle/ibanforge-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ibanforge-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/errors/ibanforge-problem-types.yml
+  href: https://artifacts.apis.io/ibanforge/errors/ibanforge-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ibanforge-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/conformance/ibanforge-conformance.yml
+  href: https://artifacts.apis.io/ibanforge/conformance/ibanforge-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ibanforge-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/llms/ibanforge-llms.txt
+  href: https://artifacts.apis.io/ibanforge/llms/ibanforge-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ibanforge-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/mcp/ibanforge-tool-crosswalk.yml
+  href: https://artifacts.apis.io/ibanforge/mcp/ibanforge-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ibanforge-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/hosts/ibanforge-hosts.yml
+  href: https://artifacts.apis.io/ibanforge/hosts/ibanforge-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ibanforge-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/vendors/ibanforge-vendors.yml
+  href: https://artifacts.apis.io/ibanforge/vendors/ibanforge-vendors.yml
   title: ''
   type: Vendors
   url: vendors/ibanforge-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/packages/ibanforge-packages.yml
+  href: https://artifacts.apis.io/ibanforge/packages/ibanforge-packages.yml
   title: ''
   type: Packages
   url: packages/ibanforge-packages.yml
@@ -383,22 +382,22 @@ common:
   type: SDKs
   url: https://www.npmjs.com/package/@ibanforge/sdk
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/authentication/ibanforge-authentication.yml
+  href: https://artifacts.apis.io/ibanforge/authentication/ibanforge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ibanforge-authentication.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/capabilities/ibanforge-capability-edges.yml
+  href: https://artifacts.apis.io/ibanforge/capabilities/ibanforge-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ibanforge-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/security/ibanforge-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ibanforge/security/ibanforge-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ibanforge-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/security/ibanforge-domain-security.yml
+  href: https://artifacts.apis.io/ibanforge/security/ibanforge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ibanforge-domain-security.yml
@@ -411,22 +410,22 @@ common:
   type: Documentation
   url: https://ibanforge.com/docs
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/mcp/ibanforge-mcp.yml
+  href: https://artifacts.apis.io/ibanforge/mcp/ibanforge-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ibanforge-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/a2a/ibanforge-a2a.yml
+  href: https://artifacts.apis.io/ibanforge/a2a/ibanforge-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/ibanforge-a2a.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/well-known/ibanforge-well-known.yml
+  href: https://artifacts.apis.io/ibanforge/well-known/ibanforge-well-known.yml
   title: ''
   type: APICatalog
   url: well-known/ibanforge-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/llms/ibanforge-llms.txt
+  href: https://artifacts.apis.io/ibanforge/llms/ibanforge-llms.txt
   title: ''
   type: LlmsText
   url: llms/ibanforge-llms.txt
@@ -500,6 +499,14 @@ common:
   url: https://github.com/cammac-creator/ibanforge/blob/ae22f27867ae94f251a5531f50a86c969e987500/.spectral.yaml
 created: '2026-05-28'
 description: Pre-payout IBAN screening for developers and AI agents — validation, issuing-bank identification against national bank registers, Swiss clearing including QR-IID, bank-level sanctions, SEPA and VoP reachability, and risk scoring across 89 IBAN countries.
+finops:
+- has_sources: true
+  method: derived
+  name: Ibanforge Finops
+  primary_unit: credit
+  service_category: ''
+  slug: ibanforge-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ibanforge.png
 json_schemas:
 - name: AccountOverview
@@ -557,7 +564,10 @@ plans:
 - name: Ibanforge Plans Pricing
   plan_count: 6
   slug: ibanforge-plans-pricing
-random_paper: 17
+- name: Ibanforge Price Estimates
+  plan_count: 0
+  slug: ibanforge-price-estimates
+random_paper: 5
 rate_limits:
 - limit_count: 6
   name: Ibanforge Rate Limits
@@ -601,23 +611,23 @@ rules:
   slug: ibanforge-rules
 score:
   band: exemplar
-  composite: 72.0
+  composite: 73.3
   coverage:
-    artifact_dirs: 33
-    catalog_earned: 86.8
+    artifact_dirs: 34
+    catalog_earned: 89.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 28.3
+    catalog_gap: 25.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.0
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 35.6
     contract_quality: 65.0
     developer_ergonomics: 68.5
-    discoverability: 91.7
+    discoverability: 81.7
     operational_transparency: 86.8
-  previous_composite: 74.0
+  previous_composite: 71.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -638,13 +648,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 28.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/screenshots/ibanforge-2026-06-20T183111.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ibanforge/ibanforge-2026-06-20T183111.png
 security:
 - kind: authentication
   name: Ibanforge Authentication
@@ -658,6 +669,16 @@ security:
   name: Ibanforge Vulnerability Disclosure
   slug: ibanforge-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 4
+skills:
+- name: clean-iban-list
+  slug: ibanforge-clean-iban-list
+- name: get-a-free-key
+  slug: ibanforge-get-a-free-key
+- name: resolve-bank
+  slug: ibanforge-resolve-bank
+- name: screen-iban-before-payout
+  slug: ibanforge-screen-iban-before-payout
 slug: ibanforge
 tags:
 - Finance

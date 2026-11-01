@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'MHS Genesis, the Department of Defense electronic health record built on Oracle Health (Cerner), exposes a SMART on FHIR interface for authorized clinical applications to read and write patient data. '
@@ -47,12 +49,12 @@ collections:
   slug: open-defense-health-agency
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/defense-health-agency/refs/heads/main/finops/defense-health-agency-finops.yml
+  href: https://artifacts.apis.io/defense-health-agency/finops/defense-health-agency-finops.yml
   title: ''
   type: FinOps
   url: finops/defense-health-agency-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/defense-health-agency/refs/heads/main/security/defense-health-agency-domain-security.yml
+  href: https://artifacts.apis.io/defense-health-agency/security/defense-health-agency-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/defense-health-agency-domain-security.yml
@@ -77,22 +79,22 @@ common:
   type: Newsroom
   url: https://www.health.mil/News
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/defense-health-agency/refs/heads/main/conformance/defense-health-agency-conformance.yml
+  href: https://artifacts.apis.io/defense-health-agency/conformance/defense-health-agency-conformance.yml
   title: ''
   type: Conformance
   url: conformance/defense-health-agency-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/defense-health-agency/refs/heads/main/llms/defense-health-agency-llms.txt
+  href: https://artifacts.apis.io/defense-health-agency/llms/defense-health-agency-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/defense-health-agency-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/defense-health-agency/refs/heads/main/plans/defense-health-agency-plans-pricing.yml
+  href: https://artifacts.apis.io/defense-health-agency/plans/defense-health-agency-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/defense-health-agency-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/defense-health-agency/refs/heads/main/rate-limits/defense-health-agency-rate-limits.yml
+  href: https://artifacts.apis.io/defense-health-agency/rate-limits/defense-health-agency-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/defense-health-agency-rate-limits.yml
@@ -138,7 +140,7 @@ finops:
 - has_sources: false
   method: generated
   name: Defense Health Agency Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: defense-health-agency-finops
   template: true
@@ -156,14 +158,14 @@ plans:
 - name: Defense Health Agency Plans Pricing
   plan_count: 0
   slug: defense-health-agency-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Defense Health Agency Rate Limits
   slug: defense-health-agency-rate-limits
 score:
   band: emerging
-  composite: 19.1
+  composite: 19.2
   coverage:
     artifact_dirs: 12
     catalog_earned: 32.0
@@ -171,20 +173,20 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 24.0
     developer_ergonomics: 11.9
-    discoverability: 58.0
+    discoverability: 58.9
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 20.6
+  previous_composite: 19.2
   provenance:
     conformance: first-party
   regulatory:
@@ -193,14 +195,14 @@ score:
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/defense-health-agency/refs/heads/main/screenshots/defense-health-agency-2026-06-20T175826.png
+screenshot: https://apis.io/screenshots/defense-health-agency/defense-health-agency-2026-06-20T175826.png
 security:
 - kind: domain-security
   name: Defense Health Agency Domain Security

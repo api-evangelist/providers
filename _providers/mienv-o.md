@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.6
-  scored_at: '2026-10-17'
+  score: 3.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for comparing carrier rates, creating shipments and shipping labels, and tracking parcels across Latin American carriers. Live, authenticated host at api.mienvio.mx/v2.
@@ -69,17 +71,17 @@ common:
   type: TermsOfService
   url: https://mienvio.mx/terminos-y-condiciones-mienvio
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mienv-o/refs/heads/main/security/mienv-o-domain-security.yml
+  href: https://artifacts.apis.io/mienv-o/security/mienv-o-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mienv-o-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mienv-o/refs/heads/main/well-known/mienv-o-well-known.yml
+  href: https://artifacts.apis.io/mienv-o/well-known/mienv-o-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mienv-o-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mienv-o/refs/heads/main/llms/mienv-o-llms.txt
+  href: https://artifacts.apis.io/mienv-o/llms/mienv-o-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mienv-o-llms.txt
@@ -99,10 +101,10 @@ overview: 'Mienvío is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Mienvío''s developer surface includes documentation, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 17
+random_paper: 3
 score:
   band: emerging
-  composite: 12.9
+  composite: 13.8
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -112,11 +114,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
-    discoverability: 75.0
+    developer_ergonomics: 21.4
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -125,7 +127,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 12.9
+  previous_composite: 13.8
   provenance:
     mcp: first-party
   regulatory:
@@ -134,14 +136,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mienv-o/refs/heads/main/screenshots/mienv-o-2026-08-07T172857.png
+screenshot: https://apis.io/screenshots/mienv-o/mienv-o-2026-08-07T172857.png
 security:
 - kind: domain-security
   name: Mienv O Domain Security

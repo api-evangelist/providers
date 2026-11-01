@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,22 +25,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aren/refs/heads/main/hosts/aren-hosts.yml
+  href: https://artifacts.apis.io/aren/hosts/aren-hosts.yml
   title: ''
   type: Hosts
   url: hosts/aren-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aren/refs/heads/main/vendors/aren-vendors.yml
+  href: https://artifacts.apis.io/aren/vendors/aren-vendors.yml
   title: ''
   type: Vendors
   url: vendors/aren-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aren/refs/heads/main/security/aren-domain-security.yml
+  href: https://artifacts.apis.io/aren/security/aren-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aren-domain-security.yml
@@ -62,7 +64,7 @@ name: Aren
 nav: Providers
 network: true
 overview: Aren is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Recruiting, Education, and Sports.
-random_paper: 4
+random_paper: 14
 score:
   band: minimal
   composite: 2.5
@@ -88,14 +90,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aren/refs/heads/main/screenshots/aren-2026-10-11T100221.png
+screenshot: https://apis.io/screenshots/aren/aren-2026-10-11T100221.png
 security:
 - kind: domain-security
   name: Aren Domain Security

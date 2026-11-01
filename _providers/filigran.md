@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The OpenCTI platform exposes a full GraphQL API on the /graphql endpoint for programmatic access to cyber threat intelligence knowledge modeled on STIX 2.1. Authentication uses a per-user bearer API t
@@ -55,7 +57,7 @@ common:
   type: BlogRSS
   url: https://filigran.io/feed
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/filigran/refs/heads/main/security/filigran-domain-security.yml
+  href: https://artifacts.apis.io/filigran/security/filigran-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/filigran-domain-security.yml
@@ -108,67 +110,67 @@ common:
   type: Deprecation
   url: https://docs.opencti.io/latest/administration/product-life-cycle/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/filigran/refs/heads/main/mcp/filigran-mcp.yml
+  href: https://artifacts.apis.io/filigran/mcp/filigran-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/filigran-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/filigran/refs/heads/main/packages/filigran-packages.yml
+  href: https://artifacts.apis.io/filigran/packages/filigran-packages.yml
   title: ''
   type: Packages
   url: packages/filigran-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/filigran/refs/heads/main/packages/filigran-packages.yml
+  href: https://artifacts.apis.io/filigran/packages/filigran-packages.yml
   title: ''
   type: SDKs
   url: packages/filigran-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/filigran/refs/heads/main/components/filigran-components.yml
+  href: https://artifacts.apis.io/filigran/components/filigran-components.yml
   title: ''
   type: Components
   url: components/filigran-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/filigran/refs/heads/main/authentication/filigran-authentication.yml
+  href: https://artifacts.apis.io/filigran/authentication/filigran-authentication.yml
   title: ''
   type: Authentication
   url: authentication/filigran-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/filigran/refs/heads/main/conformance/filigran-conformance.yml
+  href: https://artifacts.apis.io/filigran/conformance/filigran-conformance.yml
   title: ''
   type: Conformance
   url: conformance/filigran-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/filigran/refs/heads/main/conformance/filigran-conformance.yml
+  href: https://artifacts.apis.io/filigran/conformance/filigran-conformance.yml
   title: ''
   type: Compliance
   url: conformance/filigran-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/filigran/refs/heads/main/lifecycle/filigran-lifecycle.yml
+  href: https://artifacts.apis.io/filigran/lifecycle/filigran-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/filigran-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/filigran/refs/heads/main/changelog/filigran-changelog.yml
+  href: https://artifacts.apis.io/filigran/changelog/filigran-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/filigran-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/filigran/refs/heads/main/conventions/filigran-conventions.yml
+  href: https://artifacts.apis.io/filigran/conventions/filigran-conventions.yml
   title: ''
   type: Conventions
   url: conventions/filigran-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/filigran/refs/heads/main/sandbox/filigran-sandbox.yml
+  href: https://artifacts.apis.io/filigran/sandbox/filigran-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/filigran-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/filigran/refs/heads/main/asyncapi/filigran-opencti-webhooks.yml
+  href: https://artifacts.apis.io/filigran/asyncapi/filigran-opencti-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/filigran-opencti-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/filigran/refs/heads/main/llms/filigran-llms.txt
+  href: https://artifacts.apis.io/filigran/llms/filigran-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/filigran-llms.txt
@@ -191,10 +193,10 @@ overview: 'Filigran is listed with 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Filigran''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 20 more developer resources.'
-random_paper: 8
+random_paper: 4
 score:
   band: developing
-  composite: 46.8
+  composite: 47.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -202,15 +204,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 71.7
-    operational_transparency: 42.1
-  previous_composite: 46.7
+    discoverability: 65.0
+    operational_transparency: 52.6
+  previous_composite: 47.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -220,14 +222,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/filigran/refs/heads/main/screenshots/filigran-2026-07-25T214447.png
+screenshot: https://apis.io/screenshots/filigran/filigran-2026-07-25T214447.png
 security:
 - kind: authentication
   name: Filigran Authentication

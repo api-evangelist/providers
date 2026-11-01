@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Vault Core is Thought Machine's cloud-native core banking engine. Its API surface spans a REST Core API for external integrations (channels, CRM, operator UI), a Posting API that manages financial mov
@@ -84,27 +86,27 @@ common:
   type: TermsOfService
   url: https://www.thoughtmachine.net/api-terms
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/thought-machine/refs/heads/main/sandbox/thought-machine-sandbox.yml
+  href: https://artifacts.apis.io/thought-machine/sandbox/thought-machine-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/thought-machine-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thought-machine/refs/heads/main/well-known/thought-machine-well-known.yml
+  href: https://artifacts.apis.io/thought-machine/well-known/thought-machine-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/thought-machine-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thought-machine/refs/heads/main/authentication/thought-machine-authentication.yml
+  href: https://artifacts.apis.io/thought-machine/authentication/thought-machine-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thought-machine-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thought-machine/refs/heads/main/scopes/thought-machine-scopes.yml
+  href: https://artifacts.apis.io/thought-machine/scopes/thought-machine-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/thought-machine-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thought-machine/refs/heads/main/conformance/thought-machine-conformance.yml
+  href: https://artifacts.apis.io/thought-machine/conformance/thought-machine-conformance.yml
   title: ''
   type: Conformance
   url: conformance/thought-machine-conformance.yml
@@ -113,22 +115,22 @@ common:
   type: Compliance
   url: https://www.thoughtmachine.net/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thought-machine/refs/heads/main/security/thought-machine-domain-security.yml
+  href: https://artifacts.apis.io/thought-machine/security/thought-machine-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thought-machine-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thought-machine/refs/heads/main/lifecycle/thought-machine-lifecycle.yml
+  href: https://artifacts.apis.io/thought-machine/lifecycle/thought-machine-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/thought-machine-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thought-machine/refs/heads/main/asyncapi/thought-machine-streaming-events.yml
+  href: https://artifacts.apis.io/thought-machine/asyncapi/thought-machine-streaming-events.yml
   title: ''
   type: Events
   url: asyncapi/thought-machine-streaming-events.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thought-machine/refs/heads/main/llms/thought-machine-llms.txt
+  href: https://artifacts.apis.io/thought-machine/llms/thought-machine-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thought-machine-llms.txt
@@ -148,7 +150,7 @@ overview: 'Thought Machine is listed with 2 APIs on the [APIs.io](https://apis.i
 
 
   Thought Machine''s developer surface includes documentation, engineering blog, support, sandbox, authentication, and 13 more developer resources.'
-random_paper: 1
+random_paper: 5
 scopes:
 - name: Thought Machine Scopes
   scope_count: 5
@@ -156,7 +158,7 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: thin
-  composite: 32.2
+  composite: 37.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 32.0
@@ -169,9 +171,9 @@ score:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 26.2
-    discoverability: 64.3
-    operational_transparency: 2.6
+    developer_ergonomics: 45.2
+    discoverability: 57.1
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -180,7 +182,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 32.2
+  previous_composite: 37.0
   provenance:
     conformance: first-party
   regulatory:
@@ -189,14 +191,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/thought-machine/refs/heads/main/screenshots/thought-machine-2026-09-02T163605.png
+screenshot: https://apis.io/screenshots/thought-machine/thought-machine-2026-09-02T163605.png
 security:
 - kind: authentication
   name: Thought Machine Authentication

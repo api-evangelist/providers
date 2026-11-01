@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: derived
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 28.3
-  scored_at: '2026-10-17'
+  score: 28.8
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://aggregator.walrus-mainnet.walrus.space
@@ -41,17 +43,19 @@ apis:
   description: The routes API from Walrus Protocol — 9 operation(s) for routes.
   name: Walrus Protocol Routes API
   slug: walrus-protocol-routes-api
-artifact_total: 6
+artifact_total: 8
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Walrus Aggregator routes API
   slug: open-walrus-protocol-routes-api
 common:
+- group: other
+  href: https://artifacts.apis.io/walrus-protocol/capabilities/walrus-protocol-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/walrus-protocol-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/plans/walrus-protocol-plans-pricing.yml
+  href: https://artifacts.apis.io/walrus-protocol/plans/walrus-protocol-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/walrus-protocol-plans-pricing.yml
@@ -60,12 +64,12 @@ common:
   type: BlogRSS
   url: https://blog.walrus.xyz/rss/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/overlays/walrus-protocol-aggregator-overlay.yaml
+  href: https://artifacts.apis.io/walrus-protocol/overlays/walrus-protocol-aggregator-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/walrus-protocol-aggregator-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/security/walrus-protocol-domain-security.yml
+  href: https://artifacts.apis.io/walrus-protocol/security/walrus-protocol-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/walrus-protocol-domain-security.yml
@@ -126,92 +130,100 @@ common:
   type: ChangeLog
   url: https://github.com/MystenLabs/walrus/releases
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/changelog/walrus-protocol-changelog.yml
+  href: https://artifacts.apis.io/walrus-protocol/changelog/walrus-protocol-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/walrus-protocol-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/llms/walrus-protocol-llms.txt
+  href: https://artifacts.apis.io/walrus-protocol/llms/walrus-protocol-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/walrus-protocol-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/well-known/walrus-protocol-well-known.yml
+  href: https://artifacts.apis.io/walrus-protocol/well-known/walrus-protocol-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/walrus-protocol-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/well-known/walrus-protocol-api-catalog.json
+  href: https://artifacts.apis.io/walrus-protocol/well-known/walrus-protocol-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/walrus-protocol-api-catalog.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/packages/walrus-protocol-packages.yml
+  href: https://artifacts.apis.io/walrus-protocol/packages/walrus-protocol-packages.yml
   title: ''
   type: Packages
   url: packages/walrus-protocol-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/packages/walrus-protocol-packages.yml
+  href: https://artifacts.apis.io/walrus-protocol/packages/walrus-protocol-packages.yml
   title: ''
   type: SDKs
   url: packages/walrus-protocol-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/cli/walrus-protocol-cli.yml
+  href: https://artifacts.apis.io/walrus-protocol/cli/walrus-protocol-cli.yml
   title: ''
   type: CLI
   url: cli/walrus-protocol-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/mcp/walrus-protocol-mcp.yml
+  href: https://artifacts.apis.io/walrus-protocol/mcp/walrus-protocol-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/walrus-protocol-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/authentication/walrus-protocol-authentication.yml
+  href: https://artifacts.apis.io/walrus-protocol/authentication/walrus-protocol-authentication.yml
   title: ''
   type: Authentication
   url: authentication/walrus-protocol-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/conventions/walrus-protocol-conventions.yml
+  href: https://artifacts.apis.io/walrus-protocol/conventions/walrus-protocol-conventions.yml
   title: ''
   type: Conventions
   url: conventions/walrus-protocol-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/conventions/walrus-protocol-conventions.yml
+  href: https://artifacts.apis.io/walrus-protocol/conventions/walrus-protocol-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/walrus-protocol-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/errors/walrus-protocol-problem-types.yml
+  href: https://artifacts.apis.io/walrus-protocol/errors/walrus-protocol-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/walrus-protocol-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/lifecycle/walrus-protocol-lifecycle.yml
+  href: https://artifacts.apis.io/walrus-protocol/lifecycle/walrus-protocol-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/walrus-protocol-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/data-model/walrus-protocol-data-model.yml
+  href: https://artifacts.apis.io/walrus-protocol/data-model/walrus-protocol-data-model.yml
   title: ''
   type: DataModel
   url: data-model/walrus-protocol-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/conformance/walrus-protocol-conformance.yml
+  href: https://artifacts.apis.io/walrus-protocol/conformance/walrus-protocol-conformance.yml
   title: ''
   type: Conformance
   url: conformance/walrus-protocol-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/sandbox/walrus-protocol-sandbox.yml
+  href: https://artifacts.apis.io/walrus-protocol/sandbox/walrus-protocol-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/walrus-protocol-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/walrus-protocol/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Walrus is a decentralized blob storage protocol built on Sui by Mysten Labs, the team behind the Sui blockchain. It provides robust, cost-effective storage for large binary objects with high-availability guarantees using Red Stuff erasure coding across a permissionless set of storage nodes. Data is content-addressed, immutable, verifiable without trusting any single provider, and portable across apps, providers, and AI agents. Developers interact through the `walrus` client CLI, a TypeScript SDK, and an HTTP API served by publisher (write) and aggregator (read) daemons, with storage paid in WAL and on-chain coordination in SUI. Walrus also powers Walrus Sites (decentralized web hosting) and Walrus Memory (a portable memory layer for AI agents). Backed by Electric Capital.
+finops:
+- has_sources: true
+  method: derived
+  name: Walrus Protocol Finops
+  primary_unit: ''
+  service_category: ''
+  slug: walrus-protocol-finops
+  template: true
 image: https://walrus.xyz/images/open-graph/og-home.jpg
 layout: provider
 modified: '2026-10-06'
@@ -221,7 +233,7 @@ network: true
 overview: 'Walrus Protocol publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Routes API. Tagged areas include Company, Infrastructure, Storage, Decentralized Storage, and Blockchain.
 
 
-  Walrus Protocol''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 28 more developer resources.'
+  Walrus Protocol''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 29 more developer resources.'
 plans:
 - name: Walrus Protocol Plans Pricing
   plan_count: 0
@@ -229,23 +241,23 @@ plans:
 random_paper: 13
 score:
   band: developing
-  composite: 44.9
+  composite: 46.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 44.8
-    developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 44.8
+    developer_ergonomics: 80.4
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 46.7
   provenance:
     conformance: derived
     contracts:
@@ -261,13 +273,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/walrus-protocol/refs/heads/main/screenshots/walrus-protocol-2026-08-17T082844.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/walrus-protocol/walrus-protocol-2026-08-17T082844.png
 security:
 - kind: authentication
   name: Walrus Protocol Authentication
@@ -277,6 +290,12 @@ security:
   name: Walrus Protocol Domain Security
   slug: walrus-protocol-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Store and read a blob on Walrus
+  slug: walrus-protocol-store-and-read-blob
+- name: Store and read a Walrus quilt (batched small files)
+  slug: walrus-protocol-store-and-read-quilt
 slug: walrus-protocol
 tags:
 - Company

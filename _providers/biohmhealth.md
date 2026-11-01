@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.5
-  scored_at: '2026-10-17'
+  score: 7.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GraphQL endpoint providing schema for Biohmhealth's e‑commerce platform.
@@ -32,22 +34,22 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biohmhealth/refs/heads/main/llms/biohmhealth-llms.txt
+  href: https://artifacts.apis.io/biohmhealth/llms/biohmhealth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/biohmhealth-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biohmhealth/refs/heads/main/well-known/biohmhealth-well-known.yml
+  href: https://artifacts.apis.io/biohmhealth/well-known/biohmhealth-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/biohmhealth-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/biohmhealth/refs/heads/main/hosts/biohmhealth-hosts.yml
+  href: https://artifacts.apis.io/biohmhealth/hosts/biohmhealth-hosts.yml
   title: ''
   type: Hosts
   url: hosts/biohmhealth-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/biohmhealth/refs/heads/main/vendors/biohmhealth-vendors.yml
+  href: https://artifacts.apis.io/biohmhealth/vendors/biohmhealth-vendors.yml
   title: ''
   type: Vendors
   url: vendors/biohmhealth-vendors.yml
@@ -64,7 +66,7 @@ common:
   type: Newsroom
   url: https://www.biohmhealth.com/blogs/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/biohmhealth/refs/heads/main/security/biohmhealth-domain-security.yml
+  href: https://artifacts.apis.io/biohmhealth/security/biohmhealth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/biohmhealth-domain-security.yml
@@ -84,10 +86,10 @@ overview: 'Biohmhealth is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   Biohmhealth''s developer surface includes support and 8 more developer resources.'
-random_paper: 13
+random_paper: 5
 score:
   band: minimal
-  composite: 9.9
+  composite: 9.2
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -101,9 +103,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 75.0
+    discoverability: 67.9
     operational_transparency: 0.0
-  previous_composite: 9.9
+  previous_composite: 9.2
   provenance:
     mcp: unknown
   regulatory:
@@ -112,14 +114,14 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/biohmhealth/refs/heads/main/screenshots/biohmhealth-2026-10-11T102320.png
+screenshot: https://apis.io/screenshots/biohmhealth/biohmhealth-2026-10-11T102320.png
 security:
 - kind: domain-security
   name: Biohmhealth Domain Security

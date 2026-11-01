@@ -19,7 +19,7 @@ name: Genvec
 nav: Providers
 network: true
 overview: Genvec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Gene Therapy, Vaccines, and Biotechnology.
-random_paper: 16
+random_paper: 8
 slug: genvec
 tags:
 - Company

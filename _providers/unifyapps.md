@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -66,62 +68,62 @@ common:
   type: GitHubOrganization
   url: https://github.com/unify-apps
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unifyapps/refs/heads/main/security/unifyapps-trust-center.yml
+  href: https://artifacts.apis.io/unifyapps/security/unifyapps-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/unifyapps-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unifyapps/refs/heads/main/security/unifyapps-domain-security.yml
+  href: https://artifacts.apis.io/unifyapps/security/unifyapps-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unifyapps-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unifyapps/refs/heads/main/lifecycle/unifyapps-lifecycle.yml
+  href: https://artifacts.apis.io/unifyapps/lifecycle/unifyapps-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unifyapps-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unifyapps/refs/heads/main/packages/unifyapps-packages.yml
+  href: https://artifacts.apis.io/unifyapps/packages/unifyapps-packages.yml
   title: ''
   type: Packages
   url: packages/unifyapps-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unifyapps/refs/heads/main/packages/unifyapps-packages.yml
+  href: https://artifacts.apis.io/unifyapps/packages/unifyapps-packages.yml
   title: ''
   type: SDKs
   url: packages/unifyapps-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unifyapps/refs/heads/main/cli/unifyapps-cli.yml
+  href: https://artifacts.apis.io/unifyapps/cli/unifyapps-cli.yml
   title: ''
   type: CLI
   url: cli/unifyapps-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unifyapps/refs/heads/main/components/unifyapps-components.yml
+  href: https://artifacts.apis.io/unifyapps/components/unifyapps-components.yml
   title: ''
   type: Components
   url: components/unifyapps-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unifyapps/refs/heads/main/authentication/unifyapps-authentication.yml
+  href: https://artifacts.apis.io/unifyapps/authentication/unifyapps-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unifyapps-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unifyapps/refs/heads/main/mcp/unifyapps-mcp.yml
+  href: https://artifacts.apis.io/unifyapps/mcp/unifyapps-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/unifyapps-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unifyapps/refs/heads/main/llms/unifyapps-llms.txt
+  href: https://artifacts.apis.io/unifyapps/llms/unifyapps-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unifyapps-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unifyapps/refs/heads/main/conformance/unifyapps-conformance.yml
+  href: https://artifacts.apis.io/unifyapps/conformance/unifyapps-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unifyapps-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unifyapps/refs/heads/main/well-known/unifyapps-well-known.yml
+  href: https://artifacts.apis.io/unifyapps/well-known/unifyapps-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/unifyapps-well-known.yml
@@ -141,10 +143,10 @@ overview: 'UnifyApps is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   UnifyApps'' developer surface includes documentation, engineering blog, CLI, authentication, and 15 more developer resources.'
-random_paper: 1
+random_paper: 7
 score:
   band: emerging
-  composite: 24.3
+  composite: 25.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 27.0
@@ -152,14 +154,14 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 55.0
-    operational_transparency: 10.5
+    discoverability: 48.3
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -167,7 +169,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 24.2
+  previous_composite: 25.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -177,14 +179,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/unifyapps/refs/heads/main/screenshots/unifyapps-2026-09-02T164856.png
+screenshot: https://apis.io/screenshots/unifyapps/unifyapps-2026-09-02T164856.png
 security:
 - kind: authentication
   name: Unifyapps Authentication

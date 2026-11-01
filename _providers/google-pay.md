@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 9
 apis:
 - description: Enables integration of the Google Pay payment method into web applications, allowing merchants to accept payments from cards saved to Google Accounts. The API provides JavaScript client methods for im
@@ -63,7 +65,7 @@ apis:
 - description: A standard for securely and efficiently exchanging commerce data between merchant and platform systems to enable checkout experiences directly on Google surfaces including Search and Gemini. Merchants
   name: Google Universal Commerce Protocol
   slug: google-universal-commerce-protocol
-artifact_total: 18
+artifact_total: 21
 common:
 - group: commercial
   title: ''
@@ -74,12 +76,12 @@ common:
   type: Website
   url: https://www.google.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/security/google-pay-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-pay/security/google-pay-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-pay-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/security/google-pay-domain-security.yml
+  href: https://artifacts.apis.io/google-pay/security/google-pay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-pay-domain-security.yml
@@ -108,7 +110,7 @@ common:
   type: GettingStarted
   url: https://developers.google.com/pay/api/web/guides/tutorial
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/packages/google-pay-packages.yml
+  href: https://artifacts.apis.io/google-pay/packages/google-pay-packages.yml
   title: ''
   type: SDKs
   url: packages/google-pay-packages.yml
@@ -157,113 +159,113 @@ common:
   type: Security
   url: https://g.co/vrp
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/well-known/google-pay-security.txt
+  href: https://artifacts.apis.io/google-pay/well-known/google-pay-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/google-pay-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/well-known/google-pay-well-known.yml
+  href: https://artifacts.apis.io/google-pay/well-known/google-pay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/google-pay-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/mcp/google-pay-mcp.yml
+  href: https://artifacts.apis.io/google-pay/mcp/google-pay-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/google-pay-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/mcp/google-pay-tool-crosswalk.yml
+  href: https://artifacts.apis.io/google-pay/mcp/google-pay-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/google-pay-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/google-pay/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/llms/google-pay-llms.txt
+  href: https://artifacts.apis.io/google-pay/llms/google-pay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/google-pay-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/packages/google-pay-packages.yml
+  href: https://artifacts.apis.io/google-pay/packages/google-pay-packages.yml
   title: ''
   type: Packages
   url: packages/google-pay-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/authentication/google-pay-authentication.yml
+  href: https://artifacts.apis.io/google-pay/authentication/google-pay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-pay-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/scopes/google-pay-scopes.yml
+  href: https://artifacts.apis.io/google-pay/scopes/google-pay-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-pay-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/errors/google-pay-problem-types.yml
+  href: https://artifacts.apis.io/google-pay/errors/google-pay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/google-pay-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/lifecycle/google-pay-lifecycle.yml
+  href: https://artifacts.apis.io/google-pay/lifecycle/google-pay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/google-pay-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/changelog/google-pay-changelog.yml
+  href: https://artifacts.apis.io/google-pay/changelog/google-pay-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/google-pay-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/conventions/google-pay-conventions.yml
+  href: https://artifacts.apis.io/google-pay/conventions/google-pay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/google-pay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/conformance/google-pay-conformance.yml
+  href: https://artifacts.apis.io/google-pay/conformance/google-pay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/google-pay-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/sandbox/google-pay-sandbox.yml
+  href: https://artifacts.apis.io/google-pay/sandbox/google-pay-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/google-pay-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/components/google-pay-components.yml
+  href: https://artifacts.apis.io/google-pay/components/google-pay-components.yml
   title: ''
   type: Components
   url: components/google-pay-components.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/json-schema/google-pay-ucp-payment-handler-config.json
+  href: https://artifacts.apis.io/google-pay/json-schema/google-pay-ucp-payment-handler-config.json
   title: ''
   type: JSONSchema
   url: json-schema/google-pay-ucp-payment-handler-config.json
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/rate-limits/google-pay-rate-limits.yml
+  href: https://artifacts.apis.io/google-pay/rate-limits/google-pay-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-pay-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/plans/google-pay-plans-pricing.yml
+  href: https://artifacts.apis.io/google-pay/plans/google-pay-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-pay-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/finops/google-pay-finops.yml
+  href: https://artifacts.apis.io/google-pay/finops/google-pay-finops.yml
   title: ''
   type: FinOps
   url: finops/google-pay-finops.yml
 created: '2024-01-01'
 description: Google Pay is Google's digital wallet and payment surface, exposed to developers as a family of distinct APIs rather than one endpoint. The Google Pay API for Web and Android is a client-side payment sheet that returns a signed, ECIES-encrypted payment token for a merchant's gateway to decrypt; the Google Wallet API is a REST service on walletobjects.googleapis.com for issuing loyalty cards, event tickets, boarding passes, transit tickets, gift cards and offers; Google Standard Payments carries the integrator APIs for issuers and PSPs; and the Google Pay & Wallet Developer MCP server gives AI coding agents live access to merchant profiles, integration status and the official documentation.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Google Pay Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: google-pay-finops
   template: true
 image: https://developers.google.com/pay/api/images/brand-guidelines/google-pay-mark.png
@@ -288,7 +290,7 @@ plans:
 - name: Google Pay Plans Pricing
   plan_count: 1
   slug: google-pay-plans-pricing
-random_paper: 0
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Google Pay Rate Limits
@@ -300,23 +302,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 49.8
+  composite: 49.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 56.0
     catalog_earned_first_party: 16.0
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 73.2
-    discoverability: 86.7
-    operational_transparency: 65.8
-  previous_composite: 49.2
+    discoverability: 76.7
+    operational_transparency: 68.4
+  previous_composite: 49.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -327,14 +329,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 36.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/screenshots/google-pay-2026-06-20T182221.png
+screenshot: https://apis.io/screenshots/google-pay/google-pay-2026-06-20T182221.png
 security:
 - kind: authentication
   name: Google Pay Authentication
@@ -348,6 +350,14 @@ security:
   name: Google Pay Vulnerability Disclosure
   slug: google-pay-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: google-pay-integration-health
+  slug: google-pay-integration-health
+- name: google-pay-merchant-onboarding
+  slug: google-pay-merchant-onboarding
+- name: google-pay-wallet-pass-inventory
+  slug: google-pay-wallet-pass-inventory
 slug: google-pay
 tags:
 - Agentic Commerce

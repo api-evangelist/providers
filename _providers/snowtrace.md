@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -112,11 +114,8 @@ apis:
   description: Transaction execution and receipt status endpoints.
   name: Routescan (Snowtrace) Transactions API
   slug: snowtrace-transactions-api
-artifact_total: 42
+artifact_total: 41
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Routescan (Snowtrace) Etherscan-Compatible Accounts API
   slug: open-snowtrace-accounts-api
@@ -143,12 +142,12 @@ collections:
   slug: open-snowtrace-transactions-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/snowtrace/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/snowtrace/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -157,22 +156,22 @@ common:
   type: Website
   url: https://snowtrace.io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/agentic-access/snowtrace-agentic-access.yml
+  href: https://artifacts.apis.io/snowtrace/agentic-access/snowtrace-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/snowtrace-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/security/snowtrace-domain-security.yml
+  href: https://artifacts.apis.io/snowtrace/security/snowtrace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snowtrace-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/authentication/snowtrace-authentication.yml
+  href: https://artifacts.apis.io/snowtrace/authentication/snowtrace-authentication.yml
   title: ''
   type: Authentication
   url: authentication/snowtrace-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/_original/openapi.yml
+  href: https://artifacts.apis.io/snowtrace/openapi/_original/openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/openapi.yml
@@ -262,7 +261,7 @@ plans:
 - name: Plans
   plan_count: 6
   slug: plans
-random_paper: 14
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -281,7 +280,7 @@ rules:
   slug: snowtrace-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.6
+  composite: 34.3
   coverage:
     artifact_dirs: 14
     catalog_earned: 51.3
@@ -289,7 +288,7 @@ score:
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 9.8
@@ -297,7 +296,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 60.7
     operational_transparency: 0.0
-  previous_composite: 39.2
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -311,13 +310,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/screenshots/snowtrace-2026-08-17T125325.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/snowtrace/snowtrace-2026-08-17T125325.png
 security:
 - kind: authentication
   name: Snowtrace Authentication

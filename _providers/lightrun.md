@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.8
-  scored_at: '2026-10-17'
+  score: 51.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 5
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 67
   slug: lightrun-agentic-access
   summary_line: 67 operations · 37 acting · 5 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://app.lightrun.com/api/v1
   baseurl_source: declared
@@ -146,15 +148,12 @@ apis:
   description: Watched packages API.
   name: Lightrun Watched packages API
   slug: lightrun-watched-packages-api
-artifact_total: 48
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Lightrun Webhooks
   slug: lightrun-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Lightrun Actions API
   slug: open-lightrun-actions-api
@@ -216,12 +215,21 @@ collections:
   name: Lightrun Actions Watched packages API
   slug: open-lightrun-watched-packages-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/lightrun/plans/lightrun-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/lightrun-plans-pricing.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/lightrun/overview
 - group: company
   title: ''
   type: BlogRSS
   url: https://lightrun.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/capabilities/lightrun-capability-edges.yml
+  href: https://artifacts.apis.io/lightrun/capabilities/lightrun-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lightrun-capability-edges.yml
@@ -274,7 +282,7 @@ common:
   type: Deprecation
   url: https://docs.lightrun.com/release_notes/functionality-changes-deprecations/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/changelog/lightrun-changelog.yml
+  href: https://artifacts.apis.io/lightrun/changelog/lightrun-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lightrun-changelog.yml
@@ -283,72 +291,72 @@ common:
   type: ReleaseNotes
   url: https://docs.lightrun.com/release_notes/lightrun-release-notes/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/lifecycle/lightrun-lifecycle.yml
+  href: https://artifacts.apis.io/lightrun/lifecycle/lightrun-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lightrun-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/mcp/lightrun-mcp.yml
+  href: https://artifacts.apis.io/lightrun/mcp/lightrun-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lightrun-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lightrun/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/agentic-access/lightrun-agentic-access.yml
+  href: https://artifacts.apis.io/lightrun/agentic-access/lightrun-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lightrun-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/cli/lightrun-cli.yml
+  href: https://artifacts.apis.io/lightrun/cli/lightrun-cli.yml
   title: ''
   type: CLI
   url: cli/lightrun-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/packages/lightrun-packages.yml
+  href: https://artifacts.apis.io/lightrun/packages/lightrun-packages.yml
   title: ''
   type: Packages
   url: packages/lightrun-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/packages/lightrun-packages.yml
+  href: https://artifacts.apis.io/lightrun/packages/lightrun-packages.yml
   title: ''
   type: SDKs
   url: packages/lightrun-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/asyncapi/lightrun-webhooks.yml
+  href: https://artifacts.apis.io/lightrun/asyncapi/lightrun-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lightrun-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/authentication/lightrun-authentication.yml
+  href: https://artifacts.apis.io/lightrun/authentication/lightrun-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lightrun-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/scopes/lightrun-scopes.yml
+  href: https://artifacts.apis.io/lightrun/scopes/lightrun-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lightrun-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/conventions/lightrun-conventions.yml
+  href: https://artifacts.apis.io/lightrun/conventions/lightrun-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lightrun-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/errors/lightrun-problem-types.yml
+  href: https://artifacts.apis.io/lightrun/errors/lightrun-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lightrun-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/data-model/lightrun-data-model.yml
+  href: https://artifacts.apis.io/lightrun/data-model/lightrun-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lightrun-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/conformance/lightrun-conformance.yml
+  href: https://artifacts.apis.io/lightrun/conformance/lightrun-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lightrun-conformance.yml
@@ -357,37 +365,45 @@ common:
   type: Compliance
   url: https://trust.lightrun.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/security/lightrun-trust-center.yml
+  href: https://artifacts.apis.io/lightrun/security/lightrun-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lightrun-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/security/lightrun-domain-security.yml
+  href: https://artifacts.apis.io/lightrun/security/lightrun-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lightrun-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/well-known/lightrun-well-known.yml
+  href: https://artifacts.apis.io/lightrun/well-known/lightrun-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lightrun-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/well-known/lightrun-openid-configuration.json
+  href: https://artifacts.apis.io/lightrun/well-known/lightrun-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/lightrun-openid-configuration.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/llms/lightrun-llms.txt
+  href: https://artifacts.apis.io/lightrun/llms/lightrun-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lightrun-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/overlays/lightrun-public-api-overlay.yaml
+  href: https://artifacts.apis.io/lightrun/overlays/lightrun-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lightrun-public-api-overlay.yaml
 created: '2026-07-17'
 description: Lightrun is a developer-native observability and live-debugging platform. Language agents embedded in a running JVM, Python, Node.js or .NET process accept dynamic actions — logs, snapshots, counters, tic-toc timings and custom metrics — placed on a file and line while the application keeps serving traffic, so engineers can inspect production behavior without redeploying, restarting or attaching a traditional debugger. The platform is driven from JetBrains, VS Code and Visual Studio plugins, a Java CLI, a bearer-authenticated Public REST API, and a published MCP server that gives AI coding assistants live runtime context. Around that core it adds agent-pool RBAC, PII redaction, SSO and SCIM provisioning, and a Dynamic SBOM surface that reports which third-party packages are actually reachable at runtime.
+finops:
+- has_sources: true
+  method: derived
+  name: Lightrun Finops
+  primary_unit: ''
+  service_category: ''
+  slug: lightrun-finops
+  template: true
 image: https://lightrun.com/
 layout: provider
 mcp_servers:
@@ -404,8 +420,12 @@ overview: 'Lightrun publishes 20 API contracts indexed on the [APIs.io](https://
   The Lightrun catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lightrun''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 30 more developer resources.'
-random_paper: 19
+  Lightrun''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 32 more developer resources.'
+plans:
+- name: Lightrun Plans Pricing
+  plan_count: 5
+  slug: lightrun-plans-pricing
+random_paper: 13
 scopes:
 - name: Lightrun Scopes
   scope_count: 0
@@ -413,23 +433,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 55.9
+  composite: 62.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 27
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 6.6
   facets:
-    access_clarity: 50.0
+    access_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 54.7
-    developer_ergonomics: 73.8
-    discoverability: 75.0
-    operational_transparency: 42.1
-  previous_composite: 55.8
+    contract_quality: 51.3
+    developer_ergonomics: 75.0
+    discoverability: 65.0
+    operational_transparency: 52.6
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -446,13 +466,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/screenshots/lightrun-2026-07-25T225125.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lightrun/lightrun-2026-07-25T225125.png
 security:
 - kind: authentication
   name: Lightrun Authentication
@@ -466,6 +487,16 @@ security:
   name: Lightrun Trust Center
   slug: lightrun-trust-center
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+skill_count: 4
+skills:
+- name: lightrun-ask-prod
+  slug: lightrun-ask-prod
+- name: lightrun-error-remediation-automation
+  slug: lightrun-error-remediation-automation
+- name: lightrun-live-runtime-debugging
+  slug: lightrun-live-runtime-debugging
+- name: lightrun-runtime-aware-pr-review
+  slug: lightrun-runtime-aware-pr-review
 slug: lightrun
 tags:
 - Company

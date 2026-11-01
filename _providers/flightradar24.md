@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.2
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -109,11 +111,8 @@ apis:
   description: API account usage and credit consumption
   name: Flightradar24 Usage API
   slug: flightradar24-usage-api
-artifact_total: 41
+artifact_total: 40
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Flightradar24 Airlines API
   slug: open-flightradar24-airlines-api
@@ -139,18 +138,22 @@ collections:
   name: Flightradar24 Airlines Usage API
   slug: open-flightradar24-usage-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/flightradar24/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/flightradar24/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/flightradar24/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/flightradar24/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -159,22 +162,22 @@ common:
   type: Website
   url: https://flightradar24.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/capabilities/flightradar24-capability-edges.yml
+  href: https://artifacts.apis.io/flightradar24/capabilities/flightradar24-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/flightradar24-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/agentic-access/flightradar24-agentic-access.yml
+  href: https://artifacts.apis.io/flightradar24/agentic-access/flightradar24-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/flightradar24-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/security/flightradar24-domain-security.yml
+  href: https://artifacts.apis.io/flightradar24/security/flightradar24-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flightradar24-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/authentication/flightradar24-authentication.yml
+  href: https://artifacts.apis.io/flightradar24/authentication/flightradar24-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flightradar24-authentication.yml
@@ -304,12 +307,12 @@ overview: 'Flightradar24 publishes 16 API contracts indexed on the [APIs.io](htt
   The Flightradar24 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Flightradar24''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, pricing, FAQ, and 19 more developer resources.'
+  Flightradar24''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, pricing, FAQ, and 20 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -328,7 +331,7 @@ rules:
   slug: flightradar24-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.4
+  composite: 38.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 51.3
@@ -336,15 +339,15 @@ score:
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.2
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 60.0
-    developer_ergonomics: 57.1
+    developer_ergonomics: 58.3
     discoverability: 65.0
-    operational_transparency: 2.6
-  previous_composite: 44.0
+    operational_transparency: 5.3
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -358,14 +361,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/screenshots/flightradar24-2026-06-20T181313.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/flightradar24/flightradar24-2026-06-20T181313.png
 security:
 - kind: authentication
   name: Flightradar24 Authentication

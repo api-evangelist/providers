@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eye-security/refs/heads/main/security/eye-security-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/eye-security/security/eye-security-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/eye-security-vulnerability-disclosure.yml
@@ -46,7 +48,7 @@ common:
   type: Security
   url: https://www.eye.security/responsible-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eye-security/refs/heads/main/security/eye-security-domain-security.yml
+  href: https://artifacts.apis.io/eye-security/security/eye-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eye-security-domain-security.yml
@@ -83,7 +85,7 @@ common:
   type: SecurityTxt
   url: https://www.eye.security/.well-known/security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eye-security/refs/heads/main/well-known/eye-security-well-known.yml
+  href: https://artifacts.apis.io/eye-security/well-known/eye-security-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/eye-security-well-known.yml
@@ -99,10 +101,10 @@ overview: 'Eye Security is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Eye Security''s developer surface includes developer portal, pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 2
+random_paper: 8
 score:
-  band: minimal
-  composite: 6.9
+  band: emerging
+  composite: 17.0
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -112,32 +114,32 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 16.7
     discoverability: 58.9
-    operational_transparency: 0.0
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 6.9
+  previous_composite: 17.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 10.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 14.0
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/eye-security/refs/heads/main/screenshots/eye-security-2026-07-25T214209.png
+screenshot: https://apis.io/screenshots/eye-security/eye-security-2026-07-25T214209.png
 security:
 - kind: domain-security
   name: Eye Security Domain Security

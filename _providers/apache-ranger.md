@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: The Users API from Apache Ranger — 1 operation(s) for users.
   name: Apache Ranger Users API
   slug: apache-ranger-users-api
-artifact_total: 76
+artifact_total: 75
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apache Ranger REST Audit API
   slug: open-apache-ranger-audit-api
@@ -92,22 +91,22 @@ collections:
   slug: open-apache-ranger-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/plans/apache-ranger-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-ranger/plans/apache-ranger-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-ranger-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/rate-limits/apache-ranger-rate-limits.yml
+  href: https://artifacts.apis.io/apache-ranger/rate-limits/apache-ranger-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-ranger-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/finops/apache-ranger-finops.yml
+  href: https://artifacts.apis.io/apache-ranger/finops/apache-ranger-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-ranger-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/capabilities/apache-ranger-capability-edges.yml
+  href: https://artifacts.apis.io/apache-ranger/capabilities/apache-ranger-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/apache-ranger-capability-edges.yml
@@ -116,22 +115,22 @@ common:
   type: Website
   url: https://apache.org
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/agentic-access/apache-ranger-agentic-access.yml
+  href: https://artifacts.apis.io/apache-ranger/agentic-access/apache-ranger-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-ranger-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/security/apache-ranger-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-ranger/security/apache-ranger-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-ranger-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/security/apache-ranger-domain-security.yml
+  href: https://artifacts.apis.io/apache-ranger/security/apache-ranger-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-ranger-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/authentication/apache-ranger-authentication.yml
+  href: https://artifacts.apis.io/apache-ranger/authentication/apache-ranger-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apache-ranger-authentication.yml
@@ -144,17 +143,17 @@ common:
   type: Documentation
   url: https://ranger.apache.org/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/rules/apache-ranger-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-ranger/rules/apache-ranger-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-ranger-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/vocabulary/apache-ranger-vocabulary.yaml
+  href: https://artifacts.apis.io/apache-ranger/vocabulary/apache-ranger-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-ranger-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/json-ld/apache-ranger-context.jsonld
+  href: https://artifacts.apis.io/apache-ranger/json-ld/apache-ranger-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/apache-ranger-context.jsonld
@@ -219,7 +218,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Ranger Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-ranger-finops
   template: true
@@ -336,7 +335,7 @@ plans:
 - name: Apache Ranger Plans Pricing
   plan_count: 3
   slug: apache-ranger-plans-pricing
-random_paper: 18
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Apache Ranger Rate Limits
@@ -367,23 +366,23 @@ rules:
   slug: apache-ranger-spectral-rules
 score:
   band: thin
-  composite: 30.6
+  composite: 32.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
-    contract_quality: 55.9
+    contract_quality: 52.5
     developer_ergonomics: 21.4
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 32.1
+    operational_transparency: 23.7
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -397,13 +396,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/screenshots/apache-ranger-2026-06-20T172136.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-ranger/apache-ranger-2026-06-20T172136.png
 security:
 - kind: authentication
   name: Apache Ranger Authentication

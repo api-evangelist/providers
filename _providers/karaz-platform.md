@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Early-stage REST API for the Karaz platform exposing Karaz App resources (e.g. gamification Badges) and Karaz Care resources (e.g. Appointments), plus shared chat (WebSocket) events. HTTPS, version-pr
@@ -67,17 +69,17 @@ common:
   type: PrivacyPolicy
   url: https://karaz.app/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/karaz-platform/refs/heads/main/authentication/karaz-platform-authentication.yml
+  href: https://artifacts.apis.io/karaz-platform/authentication/karaz-platform-authentication.yml
   title: ''
   type: Authentication
   url: authentication/karaz-platform-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karaz-platform/refs/heads/main/conventions/karaz-platform-conventions.yml
+  href: https://artifacts.apis.io/karaz-platform/conventions/karaz-platform-conventions.yml
   title: ''
   type: Conventions
   url: conventions/karaz-platform-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karaz-platform/refs/heads/main/conformance/karaz-platform-conformance.yml
+  href: https://artifacts.apis.io/karaz-platform/conformance/karaz-platform-conformance.yml
   title: ''
   type: Conformance
   url: conformance/karaz-platform-conformance.yml
@@ -86,22 +88,22 @@ common:
   type: Compliance
   url: https://karaz.app
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karaz-platform/refs/heads/main/lifecycle/karaz-platform-lifecycle.yml
+  href: https://artifacts.apis.io/karaz-platform/lifecycle/karaz-platform-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/karaz-platform-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karaz-platform/refs/heads/main/well-known/karaz-platform-well-known.yml
+  href: https://artifacts.apis.io/karaz-platform/well-known/karaz-platform-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/karaz-platform-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/karaz-platform/refs/heads/main/security/karaz-platform-domain-security.yml
+  href: https://artifacts.apis.io/karaz-platform/security/karaz-platform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/karaz-platform-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karaz-platform/refs/heads/main/llms/karaz-platform-llms.txt
+  href: https://artifacts.apis.io/karaz-platform/llms/karaz-platform-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/karaz-platform-llms.txt
@@ -117,10 +119,10 @@ overview: 'Karaz Platform is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   Karaz Platform''s developer surface includes documentation, getting-started guide, authentication, and 11 more developer resources.'
-random_paper: 21
+random_paper: 11
 score:
   band: emerging
-  composite: 25.4
+  composite: 24.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -128,13 +130,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -144,7 +146,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 25.3
+  previous_composite: 24.7
   provenance:
     conformance: first-party
   regulatory:
@@ -153,14 +155,14 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/karaz-platform/refs/heads/main/screenshots/karaz-platform-2026-07-25T223502.png
+screenshot: https://apis.io/screenshots/karaz-platform/karaz-platform-2026-07-25T223502.png
 security:
 - kind: authentication
   name: Karaz Platform Authentication

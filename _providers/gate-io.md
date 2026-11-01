@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: Public and authenticated REST endpoints for spot and margin trading, including order placement, cancellation, order-book queries, trade history, and account balance management.
@@ -65,7 +67,7 @@ common:
   type: Releases
   url: https://github.com/gateio/gatews/releases
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gate-io/refs/heads/main/security/gate-io-domain-security.yml
+  href: https://artifacts.apis.io/gate-io/security/gate-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gate-io-domain-security.yml
@@ -102,17 +104,17 @@ common:
   type: X
   url: https://x.com/Gate_io
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gate-io/refs/heads/main/plans/gate-io-plans-pricing.yml
+  href: https://artifacts.apis.io/gate-io/plans/gate-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gate-io-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gate-io/refs/heads/main/rate-limits/gate-io-rate-limits.yml
+  href: https://artifacts.apis.io/gate-io/rate-limits/gate-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gate-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gate-io/refs/heads/main/finops/gate-io-finops.yml
+  href: https://artifacts.apis.io/gate-io/finops/gate-io-finops.yml
   title: ''
   type: FinOps
   url: finops/gate-io-finops.yml
@@ -148,14 +150,14 @@ plans:
 - name: Gate Io Plans Pricing
   plan_count: 5
   slug: gate-io-plans-pricing
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Gate Io Rate Limits
   slug: gate-io-rate-limits
 score:
   band: thin
-  composite: 26.5
+  composite: 27.0
   coverage:
     artifact_dirs: 9
     catalog_earned: 54.0
@@ -163,29 +165,29 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 34.7
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 71.4
     operational_transparency: 44.7
-  previous_composite: 34.8
+  previous_composite: 27.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/gate-io/refs/heads/main/screenshots/gate-io-2026-06-20T181655.png
+screenshot: https://apis.io/screenshots/gate-io/gate-io-2026-06-20T181655.png
 security:
 - kind: domain-security
   name: Gate Io Domain Security

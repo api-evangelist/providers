@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The TRITIUM platform API is Episode Six's real-time RESTful interface for card issuing, issuer processing and ledger management — card program setup, account and ledger operations, transaction process
@@ -49,7 +51,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/security/episode-six-domain-security.yml
+  href: https://artifacts.apis.io/episode-six/security/episode-six-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/episode-six-domain-security.yml
@@ -102,52 +104,52 @@ common:
   type: Compliance
   url: https://episodesix.com/platform/paymentsecurity
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/conformance/episode-six-conformance.yml
+  href: https://artifacts.apis.io/episode-six/conformance/episode-six-conformance.yml
   title: ''
   type: Conformance
   url: conformance/episode-six-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/mcp/episode-six-mcp.yml
+  href: https://artifacts.apis.io/episode-six/mcp/episode-six-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/episode-six-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/scopes/episode-six-scopes.yml
+  href: https://artifacts.apis.io/episode-six/scopes/episode-six-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/episode-six-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/authentication/episode-six-authentication.yml
+  href: https://artifacts.apis.io/episode-six/authentication/episode-six-authentication.yml
   title: ''
   type: Authentication
   url: authentication/episode-six-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/well-known/episode-six-well-known.yml
+  href: https://artifacts.apis.io/episode-six/well-known/episode-six-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/episode-six-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/llms/episode-six-llms.txt
+  href: https://artifacts.apis.io/episode-six/llms/episode-six-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/episode-six-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/packages/episode-six-packages.yml
+  href: https://artifacts.apis.io/episode-six/packages/episode-six-packages.yml
   title: ''
   type: Packages
   url: packages/episode-six-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/plans/episode-six-plans-pricing.yml
+  href: https://artifacts.apis.io/episode-six/plans/episode-six-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/episode-six-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/rate-limits/episode-six-rate-limits.yml
+  href: https://artifacts.apis.io/episode-six/rate-limits/episode-six-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/episode-six-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/lifecycle/episode-six-lifecycle.yml
+  href: https://artifacts.apis.io/episode-six/lifecycle/episode-six-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/episode-six-lifecycle.yml
@@ -189,7 +191,7 @@ plans:
 - name: Episode Six Plans Pricing
   plan_count: 0
   slug: episode-six-plans-pricing
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Episode Six Rate Limits
@@ -201,9 +203,9 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 22.5
+  composite: 23.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -214,10 +216,10 @@ score:
     access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 28.6
-    discoverability: 64.2
+    developer_ergonomics: 38.1
+    discoverability: 58.3
     operational_transparency: 0.0
-  previous_composite: 22.5
+  previous_composite: 23.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -231,14 +233,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/screenshots/episode-six-2026-09-02T145414.png
+screenshot: https://apis.io/screenshots/episode-six/episode-six-2026-09-02T145414.png
 security:
 - kind: authentication
   name: Episode Six Authentication

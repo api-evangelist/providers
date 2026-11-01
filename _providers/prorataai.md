@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
+  score: 31.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The publisher ingest API for the Gist Content Network. Publisher partners push articles to ProRata in real time (POST /ingest/article) or in bulk for archived content (POST /ingest/multiple_articles),
@@ -77,15 +79,15 @@ apis:
   description: The Threads API from ProRata.ai — 2 operation(s) for threads.
   name: ProRata.ai Threads API
   slug: prorataai-threads-api
-artifact_total: 13
+artifact_total: 16
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/overlays/prorataai-openapi-overlay.yaml
+  href: https://artifacts.apis.io/prorataai/overlays/prorataai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/prorataai-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/security/prorataai-domain-security.yml
+  href: https://artifacts.apis.io/prorataai/security/prorataai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prorataai-domain-security.yml
@@ -130,82 +132,82 @@ common:
   type: PrivacyPolicy
   url: https://gist.ai/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/llms/prorataai-llms.txt
+  href: https://artifacts.apis.io/prorataai/llms/prorataai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/prorataai-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/packages/prorataai-packages.yml
+  href: https://artifacts.apis.io/prorataai/packages/prorataai-packages.yml
   title: ''
   type: Packages
   url: packages/prorataai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/packages/prorataai-packages.yml
+  href: https://artifacts.apis.io/prorataai/packages/prorataai-packages.yml
   title: ''
   type: SDKs
   url: packages/prorataai-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/components/prorataai-components.yml
+  href: https://artifacts.apis.io/prorataai/components/prorataai-components.yml
   title: ''
   type: Components
   url: components/prorataai-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/mcp/prorataai-mcp.yml
+  href: https://artifacts.apis.io/prorataai/mcp/prorataai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/prorataai-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/mcp/prorataai-tool-crosswalk.yml
+  href: https://artifacts.apis.io/prorataai/mcp/prorataai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/prorataai-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/authentication/prorataai-authentication.yml
+  href: https://artifacts.apis.io/prorataai/authentication/prorataai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/prorataai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/conventions/prorataai-conventions.yml
+  href: https://artifacts.apis.io/prorataai/conventions/prorataai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/prorataai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/errors/prorataai-problem-types.yml
+  href: https://artifacts.apis.io/prorataai/errors/prorataai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/prorataai-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/rate-limits/prorataai-rate-limits.yml
+  href: https://artifacts.apis.io/prorataai/rate-limits/prorataai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/prorataai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/plans/prorataai-plans-pricing.yml
+  href: https://artifacts.apis.io/prorataai/plans/prorataai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/prorataai-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/lifecycle/prorataai-lifecycle.yml
+  href: https://artifacts.apis.io/prorataai/lifecycle/prorataai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/prorataai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/conformance/prorataai-conformance.yml
+  href: https://artifacts.apis.io/prorataai/conformance/prorataai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/prorataai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/data-model/prorataai-data-model.yml
+  href: https://artifacts.apis.io/prorataai/data-model/prorataai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/prorataai-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/sandbox/prorataai-sandbox.yml
+  href: https://artifacts.apis.io/prorataai/sandbox/prorataai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/prorataai-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/prorataai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -229,14 +231,14 @@ plans:
 - name: Prorataai Plans Pricing
   plan_count: 0
   slug: prorataai-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Prorataai Rate Limits
   slug: prorataai-rate-limits
 score:
-  band: thin
-  composite: 38.5
+  band: developing
+  composite: 44.3
   coverage:
     artifact_dirs: 23
     catalog_earned: 45.0
@@ -244,15 +246,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 45.6
-    developer_ergonomics: 50.6
-    discoverability: 75.0
-    operational_transparency: 23.7
-  previous_composite: 38.9
+    developer_ergonomics: 66.1
+    discoverability: 65.0
+    operational_transparency: 26.3
+  previous_composite: 44.3
   provenance:
     conformance: first-party
     contracts:
@@ -268,13 +270,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/screenshots/prorataai-2026-09-02T152208.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/prorataai/prorataai-2026-09-02T152208.png
 security:
 - kind: authentication
   name: Prorataai Authentication
@@ -284,6 +287,14 @@ security:
   name: Prorataai Domain Security
   slug: prorataai-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: prorataai-ask-and-attribute
+  slug: prorataai-ask-and-attribute
+- name: prorataai-ingest-publisher-content
+  slug: prorataai-ingest-publisher-content
+- name: prorataai-summarize-publisher-url
+  slug: prorataai-summarize-publisher-url
 slug: prorataai
 tags:
 - Artificial Intelligence

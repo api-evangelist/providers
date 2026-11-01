@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.5
-  scored_at: '2026-10-17'
+  score: 23.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 10
@@ -300,50 +302,55 @@ apis:
   description: The Users API from Eightfold AI — 3 operation(s) for users.
   name: Eightfold AI Users API
   slug: eightfold-ai-users-api
-artifact_total: 72
+artifact_total: 75
 common:
+- group: other
+  href: https://artifacts.apis.io/eightfold-ai/capabilities/eightfold-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/eightfold-ai-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/agentic-access/eightfold-ai-agentic-access.yml
+  href: https://artifacts.apis.io/eightfold-ai/agentic-access/eightfold-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eightfold-ai-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/rules/eightfold-ai-rules.yml
+  href: https://artifacts.apis.io/eightfold-ai/rules/eightfold-ai-rules.yml
   title: ''
   type: Spectral
   url: rules/eightfold-ai-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/json-ld/eightfold-ai-context.jsonld
+  href: https://artifacts.apis.io/eightfold-ai/json-ld/eightfold-ai-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/eightfold-ai-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/vocabulary/eightfold-ai-vocabulary.yml
+  href: https://artifacts.apis.io/eightfold-ai/vocabulary/eightfold-ai-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/eightfold-ai-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/changelog/eightfold-ai-changelog.yml
+  href: https://artifacts.apis.io/eightfold-ai/changelog/eightfold-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/eightfold-ai-changelog.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/hosts/eightfold-ai-hosts.yml
+  href: https://artifacts.apis.io/eightfold-ai/hosts/eightfold-ai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/eightfold-ai-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/integrations/eightfold-ai-integration-edges.yml
+  href: https://artifacts.apis.io/eightfold-ai/integrations/eightfold-ai-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/eightfold-ai-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/vendors/eightfold-ai-vendors.yml
+  href: https://artifacts.apis.io/eightfold-ai/vendors/eightfold-ai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/eightfold-ai-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/packages/eightfold-ai-packages.yml
+  href: https://artifacts.apis.io/eightfold-ai/packages/eightfold-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/eightfold-ai-packages.yml
@@ -356,27 +363,27 @@ common:
   type: Newsroom
   url: https://eightfold.ai/company/press/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/plans/eightfold-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/eightfold-ai/plans/eightfold-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eightfold-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/rate-limits/eightfold-ai-rate-limits.yml
+  href: https://artifacts.apis.io/eightfold-ai/rate-limits/eightfold-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eightfold-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/finops/eightfold-ai-finops.yml
+  href: https://artifacts.apis.io/eightfold-ai/finops/eightfold-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/eightfold-ai-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/security/eightfold-ai-trust-center.yml
+  href: https://artifacts.apis.io/eightfold-ai/security/eightfold-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/eightfold-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/security/eightfold-ai-domain-security.yml
+  href: https://artifacts.apis.io/eightfold-ai/security/eightfold-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eightfold-ai-domain-security.yml
@@ -449,62 +456,62 @@ common:
   type: ChangeLog
   url: https://apidocs.eightfold.ai/changelog/eightfold-api-release-notes
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/llms/eightfold-ai-llms.txt
+  href: https://artifacts.apis.io/eightfold-ai/llms/eightfold-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eightfold-ai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/authentication/eightfold-ai-authentication.yml
+  href: https://artifacts.apis.io/eightfold-ai/authentication/eightfold-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eightfold-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/scopes/eightfold-ai-scopes.yml
+  href: https://artifacts.apis.io/eightfold-ai/scopes/eightfold-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/eightfold-ai-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/conventions/eightfold-ai-conventions.yml
+  href: https://artifacts.apis.io/eightfold-ai/conventions/eightfold-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eightfold-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/conformance/eightfold-ai-conformance.yml
+  href: https://artifacts.apis.io/eightfold-ai/conformance/eightfold-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eightfold-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/lifecycle/eightfold-ai-lifecycle.yml
+  href: https://artifacts.apis.io/eightfold-ai/lifecycle/eightfold-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eightfold-ai-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/mcp/eightfold-ai-mcp.yml
+  href: https://artifacts.apis.io/eightfold-ai/mcp/eightfold-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/eightfold-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/eightfold-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/data-model/eightfold-ai-data-model.yml
+  href: https://artifacts.apis.io/eightfold-ai/data-model/eightfold-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eightfold-ai-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/packages/eightfold-ai-packages.yml
+  href: https://artifacts.apis.io/eightfold-ai/packages/eightfold-ai-packages.yml
   title: ''
   type: Packages
   url: packages/eightfold-ai-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/packages/eightfold-ai-packages.yml
+  href: https://artifacts.apis.io/eightfold-ai/packages/eightfold-ai-packages.yml
   title: ''
   type: Components
   url: packages/eightfold-ai-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/security/eightfold-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/eightfold-ai/security/eightfold-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/eightfold-ai-vulnerability-disclosure.yml
@@ -554,12 +561,12 @@ overview: 'Eightfold AI publishes 55 API contracts indexed on the [APIs.io](http
   The Eightfold AI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Eightfold AI''s developer surface includes changelog, engineering blog, documentation, API reference, getting-started guide, authentication, and 39 more developer resources.'
+  Eightfold AI''s developer surface includes changelog, engineering blog, documentation, API reference, getting-started guide, authentication, and 40 more developer resources.'
 plans:
 - name: Eightfold Ai Plans Pricing
   plan_count: 1
   slug: eightfold-ai-plans-pricing
-random_paper: 9
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Eightfold Ai Rate Limits
@@ -584,23 +591,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.1
+  composite: 58.0
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 29
     catalog_earned: 66.8
     catalog_earned_first_party: 0.0
     catalog_gap: 48.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 19.1
+  delta: 0.0
   facets:
-    access_clarity: 48.7
+    access_clarity: 55.3
     contract_governance: 35.6
-    contract_quality: 55.9
-    developer_ergonomics: 49.4
+    contract_quality: 52.8
+    developer_ergonomics: 66.1
     discoverability: 75.0
-    operational_transparency: 26.3
-  previous_composite: 39.0
+    operational_transparency: 36.8
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -617,13 +624,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/screenshots/eightfold-ai-2026-07-25T213004.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/eightfold-ai/eightfold-ai-2026-07-25T213004.png
 security:
 - kind: authentication
   name: Eightfold Ai Authentication
@@ -641,6 +649,14 @@ security:
   name: Eightfold Ai Trust Center
   slug: eightfold-ai-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017
+skill_count: 3
+skills:
+- name: Find internal mobility matches for an employee
+  slug: eightfold-ai-employee-internal-mobility
+- name: Match candidates to an open position
+  slug: eightfold-ai-match-candidates-to-position
+- name: Create a candidate profile and advance their application stage
+  slug: eightfold-ai-source-and-advance-candidate
 slug: eightfold-ai
 tags:
 - Talent Intelligence

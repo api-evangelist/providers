@@ -1,0 +1,133 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-10-31'
+api_count: 1
+apis:
+- description: SMS Center HTTP API for sending and receiving SMS, EMS, binary SMS, email2sms, HLR, MMS, Voice, email newsletters and more.
+  name: SMSC API
+  slug: main
+artifact_total: 5
+common:
+- group: other
+  href: https://artifacts.apis.io/smsc/hosts/smsc-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/smsc-hosts.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.smsc.ru/
+- group: auth
+  href: https://artifacts.apis.io/smsc/security/smsc-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/smsc-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://smsc.ru/
+coverage:
+  checked: '2026-10-28'
+  detail: The API documentation at https://smsc.ru/api/ is public HTML with example endpoints but provides no machine‑readable OpenAPI, AsyncAPI, GraphQL, or other spec.
+  evidence:
+  - status: 200
+    url: https://smsc.ru/api/
+  reason: no-machine-readable-spec
+  state: unreadable
+created: '2026-10-28'
+description: SMS Центр – сервис для отправки и приема SMS‑сообщений, EMS и бинарные SMS, E‑mail2sms, HLR, MMS, Voice, E‑mail рассылки и другое. Гарантированная доставка сообщений по всему миру, удобные тарифы и API‑интеграция.
+image: https://smsc.ru/im/new/smsc_logo.png
+layout: provider
+modified: '2026-10-28'
+name: SMSC.ru
+nav: Providers
+network: true
+overview: 'SMSC.ru is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include SMS, Messaging, Telecommunications, API, and Russia.
+
+
+  SMSC.ru''s developer surface includes engineering blog and 3 more developer resources.'
+random_paper: 6
+rate_limits:
+- limit_count: 0
+  name: Smsc Rate Limits
+  slug: smsc-rate-limits
+scopes:
+- name: Smsc Scopes
+  scope_count: 0
+  slug: smsc-scopes
+  summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: minimal
+  composite: 6.9
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.4
+    discoverability: 66.1
+    operational_transparency: 0.0
+  provenance:
+    conformance: unknown
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 19.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: authentication
+  name: Smsc Authentication
+  slug: smsc-authentication
+  summary_line: 0 schemes
+- kind: domain-security
+  name: Smsc Domain Security
+  slug: smsc-domain-security
+  summary_line: TLSv1.2 · HSTS · DMARC
+slug: smsc
+tags:
+- SMS
+- Messaging
+- Telecommunications
+- API
+- Russia
+website: https://smsc.ru/
+---

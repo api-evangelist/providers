@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.0
-  scored_at: '2026-10-17'
+  score: 47.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 117
   slug: pleo-agentic-access
   summary_line: 117 operations · 56 acting
-api_count: 12
+api_count: 11
 apis:
 - baseURL: https://external.pleo.io
   baseurl_source: declared
@@ -151,11 +153,8 @@ apis:
   description: Tax Codes API
   name: Pleo Tax Codes API
   slug: pleo-tax-codes-api
-artifact_total: 78
+artifact_total: 77
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: App Marketplace accounting-entries API
   slug: open-pleo-accounting-entries-api
@@ -221,22 +220,22 @@ collections:
   slug: open-pleo-tax-codes-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/capabilities/pleo-capability-edges.yml
+  href: https://artifacts.apis.io/pleo/capabilities/pleo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pleo-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/agentic-access/pleo-agentic-access.yml
+  href: https://artifacts.apis.io/pleo/agentic-access/pleo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pleo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/security/pleo-domain-security.yml
+  href: https://artifacts.apis.io/pleo/security/pleo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pleo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/authentication/pleo-authentication.yml
+  href: https://artifacts.apis.io/pleo/authentication/pleo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pleo-authentication.yml
@@ -273,27 +272,27 @@ common:
   type: StatusPage
   url: https://status.pleo.io
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/plans/pleo-plans-pricing.yml
+  href: https://artifacts.apis.io/pleo/plans/pleo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pleo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/rate-limits/pleo-rate-limits.yml
+  href: https://artifacts.apis.io/pleo/rate-limits/pleo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pleo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/finops/pleo-finops.yml
+  href: https://artifacts.apis.io/pleo/finops/pleo-finops.yml
   title: ''
   type: FinOps
   url: finops/pleo-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/vocabulary/pleo-vocabulary.yml
+  href: https://artifacts.apis.io/pleo/vocabulary/pleo-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/pleo-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/json-ld/pleo-context.jsonld
+  href: https://artifacts.apis.io/pleo/json-ld/pleo-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/pleo-context.jsonld
@@ -417,7 +416,7 @@ plans:
 - name: Pleo Plans Pricing
   plan_count: 4
   slug: pleo-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Pleo Rate Limits
@@ -436,7 +435,7 @@ rules:
   slug: pleo-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.8
+  composite: 35.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 64.8
@@ -444,15 +443,15 @@ score:
     catalog_gap: 50.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 23.5
-    contract_quality: 57.5
+    contract_quality: 55.5
     developer_ergonomics: 23.8
-    discoverability: 73.3
-    operational_transparency: 26.3
-  previous_composite: 46.1
+    discoverability: 71.4
+    operational_transparency: 28.9
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -467,13 +466,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/screenshots/pleo-2026-06-20T191811.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pleo/pleo-2026-06-20T191811.png
 security:
 - kind: authentication
   name: Pleo Authentication

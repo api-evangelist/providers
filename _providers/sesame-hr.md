@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-17'
+  score: 37.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -80,11 +81,8 @@ apis:
   description: Webhook subscription management.
   name: Sesame HR Webhooks API
   slug: sesame-hr-webhooks-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sesame HR Public Absences and Leave API
   slug: open-sesame-hr-absences-and-leave-api
@@ -115,17 +113,17 @@ common:
   type: Blog
   url: https://www.sesamehr.com/blog/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/capabilities/sesame-hr-capability-edges.yml
+  href: https://artifacts.apis.io/sesame-hr/capabilities/sesame-hr-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sesame-hr-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/agentic-access/sesame-hr-agentic-access.yml
+  href: https://artifacts.apis.io/sesame-hr/agentic-access/sesame-hr-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sesame-hr-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/authentication/sesame-hr-authentication.yml
+  href: https://artifacts.apis.io/sesame-hr/authentication/sesame-hr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sesame-hr-authentication.yml
@@ -142,17 +140,17 @@ common:
   type: Documentation
   url: https://apidocs.sesametime.com/introduction
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/plans/sesame-hr-plans-pricing.yml
+  href: https://artifacts.apis.io/sesame-hr/plans/sesame-hr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sesame-hr-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/rate-limits/sesame-hr-rate-limits.yml
+  href: https://artifacts.apis.io/sesame-hr/rate-limits/sesame-hr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sesame-hr-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/finops/sesame-hr-finops.yml
+  href: https://artifacts.apis.io/sesame-hr/finops/sesame-hr-finops.yml
   title: ''
   type: FinOps
   url: finops/sesame-hr-finops.yml
@@ -184,14 +182,14 @@ plans:
 - name: Sesame Hr Plans Pricing
   plan_count: 4
   slug: sesame-hr-plans-pricing
-random_paper: 21
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Sesame Hr Rate Limits
   slug: sesame-hr-rate-limits
 score:
-  band: thin
-  composite: 26.2
+  band: emerging
+  composite: 26.1
   coverage:
     artifact_dirs: 13
     catalog_earned: 42.0
@@ -199,15 +197,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 53.3
+    contract_quality: 51.0
     developer_ergonomics: 32.1
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 33.2
+  previous_composite: 26.1
   provenance:
     agentic_access: derived
     contracts:
@@ -222,13 +220,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/screenshots/sesame-hr-2026-09-02T155017.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sesame-hr/sesame-hr-2026-09-02T155017.png
 security:
 - kind: authentication
   name: Sesame Hr Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -94,11 +96,8 @@ apis:
   description: Deploy new revisions, track build progress, cancel builds, and delete revisions. Revisions are immutable snapshots of deployed code.
   name: Deno Revisions API
   slug: deno-revisions-api
-artifact_total: 35
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Deno Deploy REST Apps API
   slug: open-deno-apps-api
@@ -133,43 +132,47 @@ collections:
   name: Deno Subhosting API
   slug: open-deno-subhosting-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/deno/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/plans/deno-plans-pricing.yml
+  href: https://artifacts.apis.io/deno/plans/deno-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/deno-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/rate-limits/deno-rate-limits.yml
+  href: https://artifacts.apis.io/deno/rate-limits/deno-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/deno-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/finops/deno-finops.yml
+  href: https://artifacts.apis.io/deno/finops/deno-finops.yml
   title: ''
   type: FinOps
   url: finops/deno-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/capabilities/deno-capability-edges.yml
+  href: https://artifacts.apis.io/deno/capabilities/deno-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/deno-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/agentic-access/deno-agentic-access.yml
+  href: https://artifacts.apis.io/deno/agentic-access/deno-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/deno-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/security/deno-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/deno/security/deno-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/deno-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/security/deno-domain-security.yml
+  href: https://artifacts.apis.io/deno/security/deno-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/deno-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/authentication/deno-authentication.yml
+  href: https://artifacts.apis.io/deno/authentication/deno-authentication.yml
   title: ''
   type: Authentication
   url: authentication/deno-authentication.yml
@@ -202,27 +205,27 @@ common:
   type: Login
   url: https://dash.deno.com/signin
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/json-ld/deno-context.jsonld
+  href: https://artifacts.apis.io/deno/json-ld/deno-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/deno-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/json-schema/deno-deployment-schema.json
+  href: https://artifacts.apis.io/deno/json-schema/deno-deployment-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deno-deployment-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/json-schema/deno-kv-database-schema.json
+  href: https://artifacts.apis.io/deno/json-schema/deno-kv-database-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deno-kv-database-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/vocabulary/deno-vocabulary.yml
+  href: https://artifacts.apis.io/deno/vocabulary/deno-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/deno-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/rules/deno-rules.yml
+  href: https://artifacts.apis.io/deno/rules/deno-rules.yml
   title: ''
   type: Rules
   url: rules/deno-rules.yml
@@ -236,7 +239,7 @@ finops:
 - has_sources: true
   method: generated
   name: Deno Finops
-  primary_unit: ''
+  primary_unit: varies
   service_category: Edge Compute / Serverless Runtime
   slug: deno-finops
   template: false
@@ -264,12 +267,12 @@ overview: 'Deno publishes 11 API contracts indexed on the [APIs.io](https://apis
   The Deno catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Deno''s developer surface includes authentication, developer portal, documentation, engineering blog, and 17 more developer resources.'
+  Deno''s developer surface includes authentication, developer portal, documentation, engineering blog, and 18 more developer resources.'
 plans:
 - name: Deno Plans Pricing
   plan_count: 4
   slug: deno-plans-pricing
-random_paper: 4
+random_paper: 14
 rate_limits:
 - limit_count: 8
   name: Deno Rate Limits
@@ -299,24 +302,24 @@ rules:
     warn: 3
   slug: deno-rules
 score:
-  band: thin
-  composite: 38.3
+  band: developing
+  composite: 43.0
   coverage:
     artifact_dirs: 18
-    catalog_earned: 65.4
+    catalog_earned: 68.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 46.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.8
   facets:
-    access_clarity: 14.5
+    access_clarity: 28.9
     contract_governance: 27.3
-    contract_quality: 63.3
-    developer_ergonomics: 33.3
+    contract_quality: 59.9
+    developer_ergonomics: 34.5
     discoverability: 78.6
-    operational_transparency: 10.5
-  previous_composite: 39.8
+    operational_transparency: 23.7
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -330,13 +333,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/screenshots/deno-2026-08-17T083117.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/deno/deno-2026-08-17T083117.png
 security:
 - kind: authentication
   name: Deno Authentication

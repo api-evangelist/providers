@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-10-17'
+  score: 7.7
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Tempo product itself - a hosted AI app builder where users prompt, generate, edit, and preview React / Next.js applications in the browser. Combines a visual canvas, AI-generated code, and live pr
@@ -45,17 +47,17 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tempo-labs/refs/heads/main/plans/tempo-labs-plans-pricing.yml
+  href: https://artifacts.apis.io/tempo-labs/plans/tempo-labs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tempo-labs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tempo-labs/refs/heads/main/rate-limits/tempo-labs-rate-limits.yml
+  href: https://artifacts.apis.io/tempo-labs/rate-limits/tempo-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tempo-labs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tempo-labs/refs/heads/main/finops/tempo-labs-finops.yml
+  href: https://artifacts.apis.io/tempo-labs/finops/tempo-labs-finops.yml
   title: ''
   type: FinOps
   url: finops/tempo-labs-finops.yml
@@ -64,7 +66,7 @@ common:
   type: Blog
   url: https://www.tempo.new/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tempo-labs/refs/heads/main/security/tempo-labs-domain-security.yml
+  href: https://artifacts.apis.io/tempo-labs/security/tempo-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tempo-labs-domain-security.yml
@@ -108,30 +110,30 @@ plans:
 - name: Tempo Labs Plans Pricing
   plan_count: 1
   slug: tempo-labs-plans-pricing
-random_paper: 0
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Tempo Labs Rate Limits
   slug: tempo-labs-rate-limits
 score:
   band: minimal
-  composite: 8.7
+  composite: 8.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 60.0
+    discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 14.3
+  previous_composite: 8.5
   provenance:
     mcp: first-party
   regulatory:
@@ -140,14 +142,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tempo-labs/refs/heads/main/screenshots/tempo-labs-2026-06-20T195100.png
+screenshot: https://apis.io/screenshots/tempo-labs/tempo-labs-2026-06-20T195100.png
 security:
 - kind: domain-security
   name: Tempo Labs Domain Security

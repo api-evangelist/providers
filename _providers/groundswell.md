@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -69,17 +71,17 @@ common:
   type: Support
   url: https://helpcenter.groundswell.io/hc/en-us
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groundswell/refs/heads/main/security/groundswell-trust-center.yml
+  href: https://artifacts.apis.io/groundswell/security/groundswell-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/groundswell-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groundswell/refs/heads/main/security/groundswell-trust-center.yml
+  href: https://artifacts.apis.io/groundswell/security/groundswell-trust-center.yml
   title: ''
   type: Compliance
   url: security/groundswell-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groundswell/refs/heads/main/security/groundswell-domain-security.yml
+  href: https://artifacts.apis.io/groundswell/security/groundswell-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/groundswell-domain-security.yml
@@ -95,7 +97,7 @@ overview: 'Groundswell is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Groundswell''s developer surface includes pricing, signup flow, engineering blog, support, and 7 more developer resources.'
-random_paper: 18
+random_paper: 6
 score:
   band: emerging
   composite: 18.3
@@ -121,14 +123,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/groundswell/refs/heads/main/screenshots/groundswell-2026-07-25T220342.png
+screenshot: https://apis.io/screenshots/groundswell/groundswell-2026-07-25T220342.png
 security:
 - kind: domain-security
   name: Groundswell Domain Security

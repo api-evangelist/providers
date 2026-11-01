@@ -4,6 +4,6 @@ layout: provider
 name: specifications
 nav: Providers
 network: true
-random_paper: 18
+random_paper: 4
 slug: specifications
 ---

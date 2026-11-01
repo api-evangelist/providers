@@ -14,26 +14,28 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 0
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/boost-biomes/refs/heads/main/hosts/boost-biomes-hosts.yml
+  href: https://artifacts.apis.io/boost-biomes/hosts/boost-biomes-hosts.yml
   title: ''
   type: Hosts
   url: hosts/boost-biomes-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/boost-biomes/refs/heads/main/vendors/boost-biomes-vendors.yml
+  href: https://artifacts.apis.io/boost-biomes/vendors/boost-biomes-vendors.yml
   title: ''
   type: Vendors
   url: vendors/boost-biomes-vendors.yml
@@ -49,7 +51,7 @@ name: Boost Biomes
 nav: Providers
 network: true
 overview: Boost Biomes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Microbiome, Sustainable Agriculture, and Health.
-random_paper: 3
+random_paper: 11
 score:
   band: minimal
   composite: 2.6
@@ -77,8 +79,8 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

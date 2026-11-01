@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API reference for Curalate provided via Bazaarvoice developer portal. Documentation is HTML pages without a machine‑readable OpenAPI or other contract.
@@ -32,27 +34,27 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/curalate/refs/heads/main/well-known/curalate-status-security.txt
+  href: https://artifacts.apis.io/curalate/well-known/curalate-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/curalate-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curalate/refs/heads/main/well-known/curalate-well-known.yml
+  href: https://artifacts.apis.io/curalate/well-known/curalate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/curalate-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curalate/refs/heads/main/llms/curalate-llms.txt
+  href: https://artifacts.apis.io/curalate/llms/curalate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/curalate-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/curalate/refs/heads/main/hosts/curalate-hosts.yml
+  href: https://artifacts.apis.io/curalate/hosts/curalate-hosts.yml
   title: ''
   type: Hosts
   url: hosts/curalate-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/curalate/refs/heads/main/vendors/curalate-vendors.yml
+  href: https://artifacts.apis.io/curalate/vendors/curalate-vendors.yml
   title: ''
   type: Vendors
   url: vendors/curalate-vendors.yml
@@ -101,7 +103,7 @@ common:
   type: Documentation
   url: https://developers.curalate.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/curalate/refs/heads/main/security/curalate-domain-security.yml
+  href: https://artifacts.apis.io/curalate/security/curalate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/curalate-domain-security.yml
@@ -129,10 +131,10 @@ overview: 'Curalate is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Curalate''s developer surface includes support, pricing, engineering blog, documentation, and 14 more developer resources.'
-random_paper: 13
+random_paper: 9
 score:
   band: emerging
-  composite: 23.4
+  composite: 24.0
   coverage:
     artifact_dirs: 5
     catalog_earned: 32.0
@@ -140,21 +142,24 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 67.9
-    operational_transparency: 15.8
+    discoverability: 60.7
+    operational_transparency: 26.3
+  previous_composite: 24.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,67 +34,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/security/greenchoice-domain-security.yml
+  href: https://artifacts.apis.io/greenchoice/security/greenchoice-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/greenchoice-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/well-known/greenchoice-well-known.yml
+  href: https://artifacts.apis.io/greenchoice/well-known/greenchoice-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/greenchoice-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/well-known/greenchoice-openid-configuration.json
+  href: https://artifacts.apis.io/greenchoice/well-known/greenchoice-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/greenchoice-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/authentication/greenchoice-authentication.yml
+  href: https://artifacts.apis.io/greenchoice/authentication/greenchoice-authentication.yml
   title: ''
   type: Authentication
   url: authentication/greenchoice-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/scopes/greenchoice-scopes.yml
+  href: https://artifacts.apis.io/greenchoice/scopes/greenchoice-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/greenchoice-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/conformance/greenchoice-conformance.yml
+  href: https://artifacts.apis.io/greenchoice/conformance/greenchoice-conformance.yml
   title: ''
   type: Conformance
   url: conformance/greenchoice-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/conformance/greenchoice-conformance.yml
+  href: https://artifacts.apis.io/greenchoice/conformance/greenchoice-conformance.yml
   title: ''
   type: Compliance
   url: conformance/greenchoice-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/packages/greenchoice-packages.yml
+  href: https://artifacts.apis.io/greenchoice/packages/greenchoice-packages.yml
   title: ''
   type: Packages
   url: packages/greenchoice-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/llms/greenchoice-llms.txt
+  href: https://artifacts.apis.io/greenchoice/llms/greenchoice-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/greenchoice-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/plans/greenchoice-plans-pricing.yml
+  href: https://artifacts.apis.io/greenchoice/plans/greenchoice-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/greenchoice-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/rate-limits/greenchoice-rate-limits.yml
+  href: https://artifacts.apis.io/greenchoice/rate-limits/greenchoice-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/greenchoice-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/techradar/greenchoice-tech-radar.yml
+  href: https://artifacts.apis.io/greenchoice/techradar/greenchoice-tech-radar.yml
   title: ''
   type: X-TechRadar
   url: techradar/greenchoice-tech-radar.yml
@@ -144,7 +146,7 @@ plans:
 - name: Greenchoice Plans Pricing
   plan_count: 0
   slug: greenchoice-plans-pricing
-random_paper: 4
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Greenchoice Rate Limits
@@ -156,9 +158,9 @@ scopes:
   summary_line: 6 scopes · authorization_code/client_credentials/device_code
 score:
   band: emerging
-  composite: 25.8
+  composite: 25.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -170,7 +172,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -180,7 +182,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 25.8
+  previous_composite: 25.1
   provenance:
     conformance: first-party
   regulatory:
@@ -189,14 +191,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 38.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/screenshots/greenchoice-2026-06-20T182358.png
+screenshot: https://apis.io/screenshots/greenchoice/greenchoice-2026-06-20T182358.png
 security:
 - kind: authentication
   name: Greenchoice Authentication

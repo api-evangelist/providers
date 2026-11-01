@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.1
-  scored_at: '2026-10-17'
+  score: 23.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -77,7 +79,7 @@ apis:
   description: Asset supply and market-capitalization rankings.
   name: Kaiko Supply API
   slug: kaiko-supply-api
-artifact_total: 25
+artifact_total: 26
 collections:
 - collection_type: postman
   name: Kaiko Market Data REST Canton Oracle API
@@ -91,9 +93,6 @@ collections:
 - collection_type: postman
   name: Kaiko Market Data REST Canton Oracle Supply API
   slug: postman-kaiko-supply-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kaiko Market Data REST Canton Oracle API
   slug: open-kaiko-canton-oracle-api
@@ -119,17 +118,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/kaiko/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/agentic-access/kaiko-agentic-access.yml
+  href: https://artifacts.apis.io/kaiko/agentic-access/kaiko-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kaiko-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/security/kaiko-domain-security.yml
+  href: https://artifacts.apis.io/kaiko/security/kaiko-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kaiko-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/authentication/kaiko-authentication.yml
+  href: https://artifacts.apis.io/kaiko/authentication/kaiko-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kaiko-authentication.yml
@@ -150,22 +149,22 @@ common:
   type: Documentation
   url: https://docs.kaiko.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/plans/kaiko-plans-pricing.yml
+  href: https://artifacts.apis.io/kaiko/plans/kaiko-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kaiko-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/rate-limits/kaiko-rate-limits.yml
+  href: https://artifacts.apis.io/kaiko/rate-limits/kaiko-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kaiko-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/finops/kaiko-finops.yml
+  href: https://artifacts.apis.io/kaiko/finops/kaiko-finops.yml
   title: ''
   type: FinOps
   url: finops/kaiko-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/llms/kaiko-llms.txt
+  href: https://artifacts.apis.io/kaiko/llms/kaiko-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kaiko-llms.txt
@@ -174,27 +173,27 @@ common:
   type: LlmsText
   url: https://docs.kaiko.com/llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/packages/kaiko-packages.yml
+  href: https://artifacts.apis.io/kaiko/packages/kaiko-packages.yml
   title: ''
   type: Packages
   url: packages/kaiko-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/packages/kaiko-packages.yml
+  href: https://artifacts.apis.io/kaiko/packages/kaiko-packages.yml
   title: ''
   type: SDKs
   url: packages/kaiko-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/grpc/kaiko-equities.proto
+  href: https://artifacts.apis.io/kaiko/grpc/kaiko-equities.proto
   title: ''
   type: Protobuf
   url: grpc/kaiko-equities.proto
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/mcp/kaiko-mcp.yml
+  href: https://artifacts.apis.io/kaiko/mcp/kaiko-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kaiko-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/conformance/kaiko-conformance.yml
+  href: https://artifacts.apis.io/kaiko/conformance/kaiko-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kaiko-conformance.yml
@@ -203,17 +202,17 @@ common:
   type: Compliance
   url: https://www.kaiko.com/compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/security/kaiko-trust-center.yml
+  href: https://artifacts.apis.io/kaiko/security/kaiko-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kaiko-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/errors/kaiko-problem-types.yml
+  href: https://artifacts.apis.io/kaiko/errors/kaiko-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kaiko-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/lifecycle/kaiko-lifecycle.yml
+  href: https://artifacts.apis.io/kaiko/lifecycle/kaiko-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kaiko-lifecycle.yml
@@ -222,22 +221,22 @@ common:
   type: StatusPage
   url: https://status.kaiko.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/conventions/kaiko-conventions.yml
+  href: https://artifacts.apis.io/kaiko/conventions/kaiko-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kaiko-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/changelog/kaiko-changelog.yml
+  href: https://artifacts.apis.io/kaiko/changelog/kaiko-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kaiko-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kaiko/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/collections/kaiko.postman_collection.json
+  href: https://artifacts.apis.io/kaiko/collections/kaiko.postman_collection.json
   title: ''
   type: Postman
   url: collections/kaiko.postman_collection.json
@@ -270,7 +269,7 @@ common:
   type: APIReference
   url: https://docs.kaiko.com/rest-api/general/introduction
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/kaiko/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -278,12 +277,12 @@ created: '2026-05-08'
 description: Kaiko is an institutional-grade crypto market data provider. Its product line spans Kaiko REST (historical and reference data), Kaiko Stream (real-time WebSocket and gRPC), Cloud Delivery (S3 and Snowflake direct shares), Kaiko On-chain, and Kaiko Indices (regulated benchmark indices). Authentication uses API keys; access is sales-led.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Kaiko Finops
   primary_unit: ''
-  service_category: Crypto Market Data
+  service_category: ''
   slug: kaiko-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kaiko.png
 layout: provider
 modified: '2026-07-22'
@@ -296,32 +295,32 @@ overview: 'Kaiko publishes 8 API contracts indexed on the [APIs.io](https://apis
   Kaiko''s developer surface includes authentication, developer portal, documentation, changelog, pricing, engineering blog, support, and 29 more developer resources.'
 plans:
 - name: Kaiko Plans Pricing
-  plan_count: 2
+  plan_count: 0
   slug: kaiko-plans-pricing
-random_paper: 21
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Kaiko Rate Limits
   slug: kaiko-rate-limits
 score:
   band: developing
-  composite: 50.9
+  composite: 51.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 36.0
+    artifact_dirs: 25
+    catalog_earned: 34.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -4.2
   facets:
-    access_clarity: 52.6
+    access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 49.0
     developer_ergonomics: 67.3
     discoverability: 64.3
-    operational_transparency: 31.6
-  previous_composite: 52.4
+    operational_transparency: 42.1
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -338,14 +337,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/screenshots/kaiko-2026-06-20T183855.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kaiko/kaiko-2026-06-20T183855.png
 security:
 - kind: authentication
   name: Kaiko Authentication
@@ -359,6 +358,12 @@ security:
   name: Kaiko Trust Center
   slug: kaiko-trust-center
   summary_line: SOC 2 Type II
+skill_count: 2
+skills:
+- name: Read Canton oracle BTC-USD pricing
+  slug: kaiko-canton-oracle-pricing
+- name: Pull Kaiko index rates, composition, and supply rankings
+  slug: kaiko-index-rates-and-supply
 slug: kaiko
 tags:
 - Web3

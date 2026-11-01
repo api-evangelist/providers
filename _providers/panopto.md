@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-10-17'
+  score: 26.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -123,11 +125,8 @@ apis:
   description: Portals API
   name: Panopto XfpUserProfiles API
   slug: panopto-xfpuserprofiles-api
-artifact_total: 41
+artifact_total: 40
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Panopto Public Accessibility API
   slug: open-panopto-accessibility-api
@@ -178,17 +177,17 @@ collections:
   slug: open-panopto-xfpuserprofiles-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/agentic-access/panopto-agentic-access.yml
+  href: https://artifacts.apis.io/panopto/agentic-access/panopto-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/panopto-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/security/panopto-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/panopto/security/panopto-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/panopto-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/security/panopto-domain-security.yml
+  href: https://artifacts.apis.io/panopto/security/panopto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/panopto-domain-security.yml
@@ -225,17 +224,17 @@ common:
   type: X
   url: https://x.com/Panopto
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/plans/panopto-plans-pricing.yml
+  href: https://artifacts.apis.io/panopto/plans/panopto-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/panopto-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/rate-limits/panopto-rate-limits.yml
+  href: https://artifacts.apis.io/panopto/rate-limits/panopto-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/panopto-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/finops/panopto-finops.yml
+  href: https://artifacts.apis.io/panopto/finops/panopto-finops.yml
   title: ''
   type: FinOps
   url: finops/panopto-finops.yml
@@ -270,7 +269,7 @@ plans:
 - name: Panopto Plans Pricing
   plan_count: 2
   slug: panopto-plans-pricing
-random_paper: 21
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Panopto Rate Limits
@@ -289,7 +288,7 @@ rules:
   slug: panopto-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 26.5
+  composite: 29.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 44.3
@@ -297,15 +296,15 @@ score:
     catalog_gap: 70.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 40.9
-    developer_ergonomics: 19.0
+    contract_quality: 37.5
+    developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 32.6
+    operational_transparency: 36.8
+  previous_composite: 29.7
   provenance:
     agentic_access: derived
     contracts:
@@ -319,13 +318,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/screenshots/panopto-2026-06-20T191340.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/panopto/panopto-2026-06-20T191340.png
 security:
 - kind: domain-security
   name: Panopto Domain Security

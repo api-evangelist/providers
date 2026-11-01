@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Triumph Group developer portal providing digital integration capabilities for aircraft lifecycle partners and customers. Supports MRO (Maintenance, Repair and Overhaul) integrations and technical data
@@ -42,17 +44,17 @@ apis:
 artifact_total: 9
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/triumph-group/refs/heads/main/plans/triumph-group-plans-pricing.yml
+  href: https://artifacts.apis.io/triumph-group/plans/triumph-group-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/triumph-group-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/triumph-group/refs/heads/main/rate-limits/triumph-group-rate-limits.yml
+  href: https://artifacts.apis.io/triumph-group/rate-limits/triumph-group-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/triumph-group-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/triumph-group/refs/heads/main/finops/triumph-group-finops.yml
+  href: https://artifacts.apis.io/triumph-group/finops/triumph-group-finops.yml
   title: ''
   type: FinOps
   url: finops/triumph-group-finops.yml
@@ -61,7 +63,7 @@ common:
   type: Blog
   url: https://www.triumphgroup.com/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/triumph-group/refs/heads/main/security/triumph-group-domain-security.yml
+  href: https://artifacts.apis.io/triumph-group/security/triumph-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/triumph-group-domain-security.yml
@@ -98,12 +100,12 @@ common:
   type: Investor Relations
   url: https://ir.triumphgroup.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triumph-group/refs/heads/main/vocabulary/triumph-group-vocabulary.yml
+  href: https://artifacts.apis.io/triumph-group/vocabulary/triumph-group-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/triumph-group-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triumph-group/refs/heads/main/json-ld/triumph-group-context.jsonld
+  href: https://artifacts.apis.io/triumph-group/json-ld/triumph-group-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/triumph-group-context.jsonld
@@ -163,7 +165,7 @@ press:
 - date: ''
   title: Adam Cady's Post
   url: https://www.linkedin.com/posts/adam-cady-ba34bb202_lazards-aerospace-defense-advisory-team-activity-7292204364289433601-Mfwj
-random_paper: 15
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Triumph Group Rate Limits
@@ -190,7 +192,7 @@ score:
     catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 23.5
@@ -205,21 +207,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 16.6
+  previous_composite: 15.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/triumph-group/refs/heads/main/screenshots/triumph-group-2026-06-20T195738.png
+screenshot: https://apis.io/screenshots/triumph-group/triumph-group-2026-06-20T195738.png
 security:
 - kind: domain-security
   name: Triumph Group Domain Security

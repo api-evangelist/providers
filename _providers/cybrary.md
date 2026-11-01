@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 37.3
-  scored_at: '2026-10-17'
+  score: 32.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,17 +53,19 @@ apis:
   description: Daily completion-event exports as xAPI statements.
   name: Cybrary Completions API
   slug: cybrary-completions-api
-artifact_total: 9
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cybrary Export Completions API
   slug: open-cybrary-completions-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/cybrary/plans/cybrary-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cybrary-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/mcp/cybrary-mcp.yml
+  href: https://artifacts.apis.io/cybrary/mcp/cybrary-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cybrary-mcp.yml
@@ -122,88 +126,96 @@ common:
   type: Security
   url: https://www.cybrary.it/responsible-disclosure-program
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/security/cybrary-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cybrary/security/cybrary-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cybrary-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/security/cybrary-domain-security.yml
+  href: https://artifacts.apis.io/cybrary/security/cybrary-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cybrary-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/authentication/cybrary-authentication.yml
+  href: https://artifacts.apis.io/cybrary/authentication/cybrary-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cybrary-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/scopes/cybrary-scopes.yml
+  href: https://artifacts.apis.io/cybrary/scopes/cybrary-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cybrary-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/conventions/cybrary-conventions.yml
+  href: https://artifacts.apis.io/cybrary/conventions/cybrary-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cybrary-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/conformance/cybrary-conformance.yml
+  href: https://artifacts.apis.io/cybrary/conformance/cybrary-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cybrary-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/errors/cybrary-problem-types.yml
+  href: https://artifacts.apis.io/cybrary/errors/cybrary-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cybrary-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/lifecycle/cybrary-lifecycle.yml
+  href: https://artifacts.apis.io/cybrary/lifecycle/cybrary-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cybrary-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/data-model/cybrary-data-model.yml
+  href: https://artifacts.apis.io/cybrary/data-model/cybrary-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cybrary-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/llms/cybrary-llms.txt
+  href: https://artifacts.apis.io/cybrary/llms/cybrary-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cybrary-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/well-known/cybrary-well-known.yml
+  href: https://artifacts.apis.io/cybrary/well-known/cybrary-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cybrary-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/packages/cybrary-packages.yml
+  href: https://artifacts.apis.io/cybrary/packages/cybrary-packages.yml
   title: ''
   type: Packages
   url: packages/cybrary-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cybrary/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/agentic-access/cybrary-agentic-access.yml
+  href: https://artifacts.apis.io/cybrary/agentic-access/cybrary-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cybrary-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/rate-limits/cybrary-rate-limits.yml
+  href: https://artifacts.apis.io/cybrary/rate-limits/cybrary-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cybrary-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/overlays/cybrary-completions-export-overlay.yaml
+  href: https://artifacts.apis.io/cybrary/overlays/cybrary-completions-export-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cybrary-completions-export-overlay.yaml
 created: '2026-08-04'
 description: Cybrary is a cybersecurity and IT skills-development platform used by individuals and enterprise teams for hands-on training, certification preparation and workforce upskilling. The catalog spans certification prep paths (Security+, CISSP, CISA, CISM, CCSP, CCNA, AWS security tracks), role-based career paths (SOC analyst, penetration tester, security engineer, incident handler, network engineer), skill paths, virtual labs, assessments and security awareness training. Cybrary for Teams adds administrative surfaces for enterprise customers — SAML 2.0 single sign-on with Okta, OneLogin and Microsoft Entra ID, SCIM 2.0 automated user provisioning with a per-tenant base URL and bearer token, bulk user upload, goals and custom career paths. Its one publicly documented API is the Completions Export Integration, an OAuth 2.0 client-credentials REST API that returns daily course, lab, assessment and career-path completion events as xAPI (Experience API) statements for ingestion into
   a customer LMS, HRIS or reporting warehouse.
+finops:
+- has_sources: true
+  method: derived
+  name: Cybrary Finops
+  primary_unit: month billed annually
+  service_category: ''
+  slug: cybrary-finops
+  template: false
 image: https://cdn.prod.website-files.com/63eef15e3ff8fd318e9a6888/645ef224f84b330beefae1e7_Cybrary%20Opengraph%20(1).png
 layout: provider
 modified: '2026-08-04'
@@ -213,8 +225,15 @@ network: true
 overview: 'Cybrary publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Completions API. Tagged areas include Company, Cybersecurity, Training, Education, and LMS.
 
 
-  Cybrary''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 16
+  Cybrary''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+plans:
+- name: Cybrary Plans Pricing
+  plan_count: 5
+  slug: cybrary-plans-pricing
+- name: Cybrary Price Estimates
+  plan_count: 0
+  slug: cybrary-price-estimates
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Cybrary Rate Limits
@@ -226,23 +245,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 39.9
+  composite: 47.4
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 24
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 15.5
     developer_ergonomics: 49.4
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 39.9
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -259,14 +278,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/screenshots/cybrary-2026-08-07T164005.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cybrary/cybrary-2026-08-07T164005.png
 security:
 - kind: authentication
   name: Cybrary Authentication
@@ -280,6 +299,10 @@ security:
   name: Cybrary Vulnerability Disclosure
   slug: cybrary-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 1
+skills:
+- name: Export Cybrary completions as xAPI statements
+  slug: cybrary-export-completions-to-lms
 slug: cybrary
 tags:
 - Company

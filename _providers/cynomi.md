@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Platform-agnostic REST API for bi-directional task synchronization between Cynomi and any PSA or ticketing system — push remediation tasks from Cynomi and pull status updates back to keep both systems
@@ -82,32 +84,32 @@ common:
   type: Partners
   url: https://partners.cynomi.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cynomi/refs/heads/main/authentication/cynomi-authentication.yml
+  href: https://artifacts.apis.io/cynomi/authentication/cynomi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cynomi-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cynomi/refs/heads/main/scopes/cynomi-scopes.yml
+  href: https://artifacts.apis.io/cynomi/scopes/cynomi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cynomi-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cynomi/refs/heads/main/well-known/cynomi-well-known.yml
+  href: https://artifacts.apis.io/cynomi/well-known/cynomi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cynomi-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cynomi/refs/heads/main/conventions/cynomi-conventions.yml
+  href: https://artifacts.apis.io/cynomi/conventions/cynomi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cynomi-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cynomi/refs/heads/main/security/cynomi-domain-security.yml
+  href: https://artifacts.apis.io/cynomi/security/cynomi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cynomi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cynomi/refs/heads/main/security/cynomi-trust-center.yml
+  href: https://artifacts.apis.io/cynomi/security/cynomi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cynomi-trust-center.yml
@@ -116,7 +118,7 @@ common:
   type: Compliance
   url: https://cynomi.com/security/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cynomi/refs/heads/main/llms/cynomi-llms.txt
+  href: https://artifacts.apis.io/cynomi/llms/cynomi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cynomi-llms.txt
@@ -132,7 +134,7 @@ overview: 'Cynomi is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Cynomi''s developer surface includes documentation, engineering blog, pricing, support, authentication, and 13 more developer resources.'
-random_paper: 17
+random_paper: 7
 scopes:
 - name: Cynomi Scopes
   scope_count: 11
@@ -140,37 +142,37 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.6
+  composite: 29.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 28.5
+  previous_composite: 29.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cynomi/refs/heads/main/screenshots/cynomi-2026-07-25T211052.png
+screenshot: https://apis.io/screenshots/cynomi/cynomi-2026-07-25T211052.png
 security:
 - kind: authentication
   name: Cynomi Authentication

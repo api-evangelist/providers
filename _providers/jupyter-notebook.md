@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-17'
+  score: 20.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 6
@@ -115,15 +117,12 @@ apis:
   description: User management including creation, deletion, server management, and token management.
   name: Jupyter Notebook Users API
   slug: jupyter-notebook-users-api
-artifact_total: 46
+artifact_total: 45
 asyncapis:
 - description: 'The Jupyter Kernel Messaging Protocol defines the WebSocket-based communication between Jupyter clients (notebooks, consoles) and computational kernels. Messages are exchanged over WebSocket channels '
   name: Jupyter Kernel Messaging Protocol
   slug: jupyter-kernel-messaging-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Jupyter Notebook Jupyter Kernel Gateway API
   slug: open-jupyter-kernel-gateway-api
@@ -174,22 +173,22 @@ collections:
   slug: open-jupyterhub-rest-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/plans/jupyter-notebook-plans-pricing.yml
+  href: https://artifacts.apis.io/jupyter-notebook/plans/jupyter-notebook-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jupyter-notebook-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/rate-limits/jupyter-notebook-rate-limits.yml
+  href: https://artifacts.apis.io/jupyter-notebook/rate-limits/jupyter-notebook-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jupyter-notebook-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/finops/jupyter-notebook-finops.yml
+  href: https://artifacts.apis.io/jupyter-notebook/finops/jupyter-notebook-finops.yml
   title: ''
   type: FinOps
   url: finops/jupyter-notebook-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/capabilities/jupyter-notebook-capability-edges.yml
+  href: https://artifacts.apis.io/jupyter-notebook/capabilities/jupyter-notebook-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/jupyter-notebook-capability-edges.yml
@@ -218,22 +217,22 @@ common:
   type: License
   url: https://github.com/jupyter/jupyter_client/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/agentic-access/jupyter-notebook-agentic-access.yml
+  href: https://artifacts.apis.io/jupyter-notebook/agentic-access/jupyter-notebook-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/jupyter-notebook-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/security/jupyter-notebook-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/jupyter-notebook/security/jupyter-notebook-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jupyter-notebook-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/security/jupyter-notebook-domain-security.yml
+  href: https://artifacts.apis.io/jupyter-notebook/security/jupyter-notebook-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jupyter-notebook-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/authentication/jupyter-notebook-authentication.yml
+  href: https://artifacts.apis.io/jupyter-notebook/authentication/jupyter-notebook-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jupyter-notebook-authentication.yml
@@ -326,7 +325,7 @@ plans:
 - name: Jupyter Notebook Plans Pricing
   plan_count: 1
   slug: jupyter-notebook-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Jupyter Notebook Rate Limits
@@ -356,8 +355,8 @@ rules:
     warn: 4
   slug: jupyter-notebook-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 40.6
+  band: thin
+  composite: 38.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 60.5
@@ -365,18 +364,15 @@ score:
     catalog_gap: 54.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 13.6
-    contract_quality: 64.8
+    contract_quality: 61.8
     developer_ergonomics: 40.5
     discoverability: 62.5
-    operational_transparency: 34.2
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 41.9
+    operational_transparency: 36.8
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -390,13 +386,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/screenshots/jupyter-notebook-2026-06-20T183838.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/jupyter-notebook/jupyter-notebook-2026-06-20T183838.png
 security:
 - kind: authentication
   name: Jupyter Notebook Authentication

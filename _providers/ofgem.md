@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,17 +37,36 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.ofgem.gov.uk/about-us/join-ofgem/terms-and-conditions-employment
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ofgem/refs/heads/main/security/ofgem-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ofgem/well-known/ofgem-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/ofgem-security.txt
+- group: other
+  href: https://artifacts.apis.io/ofgem/hosts/ofgem-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/ofgem-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/ofgem/vendors/ofgem-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/ofgem-vendors.yml
+- group: auth
+  href: https://artifacts.apis.io/ofgem/security/ofgem-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ofgem-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ofgem/refs/heads/main/security/ofgem-domain-security.yml
+  href: https://artifacts.apis.io/ofgem/security/ofgem-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ofgem-domain-security.yml
@@ -54,35 +75,30 @@ common:
   type: Security
   url: https://www.ofgem.gov.uk/report-vulnerability
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ofgem/refs/heads/main/well-known/ofgem-well-known.yml
+  href: https://artifacts.apis.io/ofgem/well-known/ofgem-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ofgem-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ofgem/refs/heads/main/authentication/ofgem-authentication.yml
+  href: https://artifacts.apis.io/ofgem/authentication/ofgem-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ofgem-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ofgem/refs/heads/main/scopes/ofgem-scopes.yml
+  href: https://artifacts.apis.io/ofgem/scopes/ofgem-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ofgem-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ofgem/refs/heads/main/conformance/ofgem-conformance.yml
+  href: https://artifacts.apis.io/ofgem/conformance/ofgem-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ofgem-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ofgem/refs/heads/main/lifecycle/ofgem-lifecycle.yml
+  href: https://artifacts.apis.io/ofgem/lifecycle/ofgem-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ofgem-lifecycle.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ofgem/refs/heads/main/llms/ofgem-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/ofgem-llms.txt
 - group: company
   title: ''
   type: Website
@@ -171,6 +187,16 @@ common:
   title: ''
   type: Guidance
   url: https://www.ofgem.gov.uk/guidance/we-are-launching-our-new-data-exchange-service
+coverage:
+  checked: '2026-10-20'
+  detail: Ofgem publishes no API or developer program; its data portal ships chart images and CSV/XLSX downloads, and the Electronic Public Register's GraphQL backend at epre-api.ofgem.gov.uk is undocumented with introspection disabled.
+  evidence:
+  - status: 200
+    url: https://www.ofgem.gov.uk/news-and-insight/data/data-portal
+  - status: 200
+    url: https://epre-api.ofgem.gov.uk/graphql/
+  reason: no-developer-program
+  state: none
 created: '2026-07-27'
 description: 'Ofgem, the Office of Gas and Electricity Markets, is the non-ministerial government department that regulates the gas and electricity markets of Great Britain (England, Scotland and Wales), drawing its powers from the Gas Act 1986, the Electricity Act 1989 and the Energy Act 2023. It licenses the companies that make, transport and sell energy, sets the price cap, runs the RIIO network price controls, administers environmental and social schemes such as the Renewables Obligation, REGO and Feed-in Tariffs on behalf of government, grants and supervises the Smart Meter Communication Licence held by the Smart DCC, and imposes the Data Best Practice licence obligation that requires network licensees to treat Energy System Data as presumed open. It sits above the value chain rather than in it - it holds no customers, no meters and no wires. Its own API posture is the plain finding: Ofgem publishes NO API of any kind. There is no developer portal, no api., docs., data. or developer.
   subdomain, no OpenAPI, no CKAN endpoint. Market data is genuinely open but delivered as chart images, CSV and XLSX file downloads from the Ofgem Data Portal; consumer data does not exist here at all, because Great Britain mandated the smart-meter INFRASTRUCTURE rather than a consumer data right, and no CDR-equivalent obligation binds either Ofgem or the suppliers it licenses. Ofgem''s two operational registers - the Electronic Public Register and the Renewable Electricity Register - are login-gated applications whose backends are undocumented and unpublished. Ofgem is therefore a regulator that demands open, discoverable, interoperable data from the industry it supervises while shipping none of it programmatically itself.'
@@ -183,8 +209,8 @@ network: true
 overview: 'Ofgem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
 
 
-  Ofgem''s developer surface includes authentication, developer portal, documentation, product news, engineering blog, support, and 25 more developer resources.'
-random_paper: 20
+  Ofgem''s developer surface includes authentication, developer portal, documentation, product news, engineering blog, support, and 28 more developer resources.'
+random_paper: 22
 scopes:
 - name: Ofgem Scopes
   scope_count: 5
@@ -192,9 +218,9 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.5
+  composite: 31.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 14
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -202,11 +228,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 29.8
     developer_ergonomics: 38.1
-    discoverability: 59.8
+    discoverability: 60.7
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -216,7 +242,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 28.5
+  previous_composite: 31.2
   provenance:
     conformance: derived
   regulatory:
@@ -224,15 +250,15 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 36.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 39.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ofgem/refs/heads/main/screenshots/ofgem-2026-08-07T190026.png
+screenshot: https://apis.io/screenshots/ofgem/ofgem-2026-08-07T190026.png
 security:
 - kind: authentication
   name: Ofgem Authentication

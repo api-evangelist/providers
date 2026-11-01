@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: GraphQL API service for P4 Plan (Hansoft) exposing 60+ queries, 100+ mutations, and 50+ subscriptions across projects, items (tasks, bugs, backlog), users and groups, sprints, timesheets, reports, das
@@ -45,18 +47,23 @@ apis:
 - description: Web service exposing a limited set of data and tasks over the DDP protocol via a WebSocket connection.
   name: P4 Plan (Hansoft) Web API
   slug: p4-plan-hansoft-web-api
-artifact_total: 7
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Hansoft Webhooks
   slug: hansoft-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/hansoft/plans/hansoft-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hansoft-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.perforce.com/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hansoft/refs/heads/main/security/hansoft-domain-security.yml
+  href: https://artifacts.apis.io/hansoft/security/hansoft-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hansoft-domain-security.yml
@@ -117,67 +124,75 @@ common:
   type: ChangeLog
   url: https://help.perforce.com/hansoft/current/Content/whats-new/2026_1.htm
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hansoft/refs/heads/main/changelog/hansoft-changelog.yml
+  href: https://artifacts.apis.io/hansoft/changelog/hansoft-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hansoft-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hansoft/refs/heads/main/asyncapi/hansoft-webhooks.yml
+  href: https://artifacts.apis.io/hansoft/asyncapi/hansoft-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hansoft-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hansoft/refs/heads/main/authentication/hansoft-authentication.yml
+  href: https://artifacts.apis.io/hansoft/authentication/hansoft-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hansoft-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hansoft/refs/heads/main/conventions/hansoft-conventions.yml
+  href: https://artifacts.apis.io/hansoft/conventions/hansoft-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hansoft-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hansoft/refs/heads/main/conformance/hansoft-conformance.yml
+  href: https://artifacts.apis.io/hansoft/conformance/hansoft-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hansoft-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hansoft/refs/heads/main/data-model/hansoft-data-model.yml
+  href: https://artifacts.apis.io/hansoft/data-model/hansoft-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hansoft-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hansoft/refs/heads/main/packages/hansoft-packages.yml
+  href: https://artifacts.apis.io/hansoft/packages/hansoft-packages.yml
   title: ''
   type: Packages
   url: packages/hansoft-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hansoft/refs/heads/main/packages/hansoft-packages.yml
+  href: https://artifacts.apis.io/hansoft/packages/hansoft-packages.yml
   title: ''
   type: SDKs
   url: packages/hansoft-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hansoft/refs/heads/main/llms/hansoft-llms.txt
+  href: https://artifacts.apis.io/hansoft/llms/hansoft-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hansoft-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hansoft/refs/heads/main/well-known/hansoft-well-known.yml
+  href: https://artifacts.apis.io/hansoft/well-known/hansoft-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hansoft-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hansoft/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hansoft/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hansoft/refs/heads/main/lifecycle/hansoft-lifecycle.yml
+  href: https://artifacts.apis.io/hansoft/lifecycle/hansoft-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hansoft-lifecycle.yml
 created: '2026-07-17'
 description: Hansoft, now branded P4 Plan by Perforce, is a real-time agile project planning and portfolio management tool for software, game, and hardware teams. It lets multiple teams work in their preferred methodology simultaneously (Scrum, Kanban, and Gantt) within a single backlog, with field-level permissions, capacity and resource planning, sprint and burndown reporting, and tight integration with Perforce version control (P4 changelists). For developers it exposes a GraphQL API service (queries, mutations, and subscriptions), a native SDK with C, C++, Java, and .NET wrappers, a WebSocket Web API, and outbound webhooks for integrations such as Jira. Hansoft is deployed on-premises for security-conscious organizations, so its API and SDK run against a customer-hosted P4 Plan server.
+finops:
+- has_sources: true
+  method: derived
+  name: Hansoft Finops
+  primary_unit: up to 5 users
+  service_category: ''
+  slug: hansoft-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hansoft.png
 layout: provider
 modified: '2026-10-06'
@@ -190,27 +205,34 @@ overview: 'Hansoft is listed with 3 APIs on the [APIs.io](https://apis.io/) netw
   The Hansoft catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hansoft''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 21 more developer resources.'
-random_paper: 7
+  Hansoft''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 22 more developer resources.'
+plans:
+- name: Hansoft Plans Pricing
+  plan_count: 4
+  slug: hansoft-plans-pricing
+- name: Hansoft Price Estimates
+  plan_count: 0
+  slug: hansoft-price-estimates
+random_paper: 11
 score:
-  band: developing
-  composite: 47.8
+  band: strong
+  composite: 54.9
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 35.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    artifact_dirs: 17
+    catalog_earned: 50.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 50.0
+    access_clarity: 89.5
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 66.1
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 39.5
-  previous_composite: 47.7
+  previous_composite: 47.0
   provenance:
     conformance: derived
     skills: derived
@@ -220,14 +242,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hansoft/refs/heads/main/screenshots/hansoft-2026-07-25T220633.png
+screenshot: https://apis.io/screenshots/hansoft/hansoft-2026-07-25T220633.png
 security:
 - kind: authentication
   name: Hansoft Authentication
@@ -241,6 +263,12 @@ security:
   name: Hansoft Trust Center
   slug: hansoft-trust-center
   summary_line: SOC 2 Type 2, ISO 27001, ISO 42001
+skill_count: 2
+skills:
+- name: Create and track a backlog item in P4 Plan
+  slug: hansoft-create-backlog-item
+- name: Manage users and projects in P4 Plan
+  slug: hansoft-manage-users-and-projects
 slug: hansoft
 tags:
 - Company

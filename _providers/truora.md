@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.8
-  scored_at: '2026-10-17'
+  score: 25.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -69,7 +71,7 @@ apis:
   description: Document, facial, email, and phone validation (KYC).
   name: Truora Validators API
   slug: truora-validators-api
-artifact_total: 26
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Truora Webhooks
@@ -90,9 +92,6 @@ collections:
 - collection_type: postman
   name: Truora Account Validators API
   slug: postman-truora-validators-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Truora Account API
   slug: open-truora-account-api
@@ -122,27 +121,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/truora/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/agentic-access/truora-agentic-access.yml
+  href: https://artifacts.apis.io/truora/agentic-access/truora-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/truora-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/security/truora-trust-center.yml
+  href: https://artifacts.apis.io/truora/security/truora-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/truora-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/security/truora-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/truora/security/truora-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/truora-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/security/truora-domain-security.yml
+  href: https://artifacts.apis.io/truora/security/truora-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/truora-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/authentication/truora-authentication.yml
+  href: https://artifacts.apis.io/truora/authentication/truora-authentication.yml
   title: ''
   type: Authentication
   url: authentication/truora-authentication.yml
@@ -163,17 +162,17 @@ common:
   type: Documentation
   url: https://dev.truora.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/plans/truora-plans-pricing.yml
+  href: https://artifacts.apis.io/truora/plans/truora-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/truora-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/rate-limits/truora-rate-limits.yml
+  href: https://artifacts.apis.io/truora/rate-limits/truora-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/truora-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/finops/truora-finops.yml
+  href: https://artifacts.apis.io/truora/finops/truora-finops.yml
   title: ''
   type: FinOps
   url: finops/truora-finops.yml
@@ -182,42 +181,42 @@ common:
   type: Blog
   url: https://blog.truora.com/en
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/llms/truora-llms.txt
+  href: https://artifacts.apis.io/truora/llms/truora-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/truora-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/packages/truora-packages.yml
+  href: https://artifacts.apis.io/truora/packages/truora-packages.yml
   title: ''
   type: Packages
   url: packages/truora-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/packages/truora-packages.yml
+  href: https://artifacts.apis.io/truora/packages/truora-packages.yml
   title: ''
   type: SDKs
   url: packages/truora-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/scopes/truora-scopes.yml
+  href: https://artifacts.apis.io/truora/scopes/truora-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/truora-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/conventions/truora-conventions.yml
+  href: https://artifacts.apis.io/truora/conventions/truora-conventions.yml
   title: ''
   type: Conventions
   url: conventions/truora-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/errors/truora-problem-types.yml
+  href: https://artifacts.apis.io/truora/errors/truora-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/truora-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/lifecycle/truora-lifecycle.yml
+  href: https://artifacts.apis.io/truora/lifecycle/truora-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/truora-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/conformance/truora-conformance.yml
+  href: https://artifacts.apis.io/truora/conformance/truora-conformance.yml
   title: ''
   type: Conformance
   url: conformance/truora-conformance.yml
@@ -226,32 +225,32 @@ common:
   type: Compliance
   url: https://www.truora.com/en/iso-27001-certification
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/data-model/truora-data-model.yml
+  href: https://artifacts.apis.io/truora/data-model/truora-data-model.yml
   title: ''
   type: DataModel
   url: data-model/truora-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/mcp/truora-mcp.yml
+  href: https://artifacts.apis.io/truora/mcp/truora-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/truora-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/overlays/truora-overlay.yaml
+  href: https://artifacts.apis.io/truora/overlays/truora-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/truora-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/components/truora-components.yml
+  href: https://artifacts.apis.io/truora/components/truora-components.yml
   title: ''
   type: Components
   url: components/truora-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/asyncapi/truora-webhooks.yml
+  href: https://artifacts.apis.io/truora/asyncapi/truora-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/truora-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/truora/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -299,12 +298,12 @@ created: '2026-07-17'
 description: Truora is a Latin American identity verification and fraud-prevention platform. Its REST APIs run background checks on people, vehicles, and companies across LatAm, validate documents/faces/email/phone for KYC, and orchestrate web and WhatsApp conversational onboarding flows. All requests authenticate with a Truora-API-Key header.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Truora Finops
   primary_unit: ''
-  service_category: Identity and Fraud Prevention
+  service_category: ''
   slug: truora-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/truora.png
 layout: provider
 modified: '2026-10-06'
@@ -320,9 +319,9 @@ overview: 'Truora publishes 5 API contracts indexed on the [APIs.io](https://api
   Truora''s developer surface includes engineering blog, authentication, documentation, getting-started guide, API reference, pricing, signup flow, and 34 more developer resources.'
 plans:
 - name: Truora Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: truora-plans-pricing
-random_paper: 9
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Truora Rate Limits
@@ -334,28 +333,28 @@ scopes:
   summary_line: 14 scopes · authorizationCode/ciba/refreshToken
 score:
   band: strong
-  composite: 55.8
+  composite: 61.8
   coverage:
     artifact_dirs: 26
-    catalog_earned: 42.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_earned: 47.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.3
+  delta: -2.1
   facets:
-    access_clarity: 55.3
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 57.1
-    developer_ergonomics: 68.5
-    discoverability: 73.2
-    operational_transparency: 26.3
+    developer_ergonomics: 70.8
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 63.1
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -376,13 +375,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/screenshots/truora-2026-08-17T080431.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/truora/truora-2026-08-17T080431.png
 security:
 - kind: authentication
   name: Truora Authentication
@@ -400,6 +400,14 @@ security:
   name: Truora Trust Center
   slug: truora-trust-center
   summary_line: ISO 27001, ISO 30107, GDPR
+skill_count: 3
+skills:
+- name: Launch and read a Digital Identity / WhatsApp verification process
+  slug: truora-digital-identity-process
+- name: Run a KYC document or face validation
+  slug: truora-kyc-validation
+- name: Run a LatAm background check and read the result
+  slug: truora-run-background-check
 slug: truora
 tags:
 - Identity Verification

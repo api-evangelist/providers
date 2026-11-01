@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The SimSpace Portal Suite platform API. SimSpace describes the cyber range platform as built API-first, giving partners and customers programmatic access for custom integrations, automation, advanced '
@@ -106,72 +108,72 @@ common:
   type: Compliance
   url: https://trust.simspace.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/security/simspace-domain-security.yml
+  href: https://artifacts.apis.io/simspace/security/simspace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simspace-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/mcp/simspace-mcp.yml
+  href: https://artifacts.apis.io/simspace/mcp/simspace-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/simspace-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/well-known/simspace-well-known.yml
+  href: https://artifacts.apis.io/simspace/well-known/simspace-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/simspace-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/authentication/simspace-authentication.yml
+  href: https://artifacts.apis.io/simspace/authentication/simspace-authentication.yml
   title: ''
   type: Authentication
   url: authentication/simspace-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/scopes/simspace-scopes.yml
+  href: https://artifacts.apis.io/simspace/scopes/simspace-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/simspace-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/packages/simspace-packages.yml
+  href: https://artifacts.apis.io/simspace/packages/simspace-packages.yml
   title: ''
   type: Packages
   url: packages/simspace-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/components/simspace-components.yml
+  href: https://artifacts.apis.io/simspace/components/simspace-components.yml
   title: ''
   type: Components
   url: components/simspace-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/conformance/simspace-conformance.yml
+  href: https://artifacts.apis.io/simspace/conformance/simspace-conformance.yml
   title: ''
   type: Conformance
   url: conformance/simspace-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/lifecycle/simspace-lifecycle.yml
+  href: https://artifacts.apis.io/simspace/lifecycle/simspace-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/simspace-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/changelog/simspace-changelog.yml
+  href: https://artifacts.apis.io/simspace/changelog/simspace-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/simspace-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/conventions/simspace-conventions.yml
+  href: https://artifacts.apis.io/simspace/conventions/simspace-conventions.yml
   title: ''
   type: Conventions
   url: conventions/simspace-conventions.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/plans/simspace-plans-pricing.yml
+  href: https://artifacts.apis.io/simspace/plans/simspace-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/simspace-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/rate-limits/simspace-rate-limits.yml
+  href: https://artifacts.apis.io/simspace/rate-limits/simspace-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/simspace-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/llms/simspace-llms.txt
+  href: https://artifacts.apis.io/simspace/llms/simspace-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/simspace-llms.txt
@@ -196,7 +198,7 @@ plans:
 - name: Simspace Plans Pricing
   plan_count: 0
   slug: simspace-plans-pricing
-random_paper: 17
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Simspace Rate Limits
@@ -210,7 +212,7 @@ score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -222,8 +224,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 68.3
-    operational_transparency: 34.2
+    discoverability: 65.0
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -241,14 +243,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/screenshots/simspace-2026-09-02T155603.png
+screenshot: https://apis.io/screenshots/simspace/simspace-2026-09-02T155603.png
 security:
 - kind: authentication
   name: Simspace Authentication

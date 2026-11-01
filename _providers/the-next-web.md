@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Next Web provides an RSS 2.0 feed updated hourly with the latest technology news, analysis, and articles published on thenextweb.com. The feed covers topics including artificial intelligence, star
@@ -42,22 +44,22 @@ apis:
 artifact_total: 9
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/the-next-web/refs/heads/main/plans/the-next-web-plans-pricing.yml
+  href: https://artifacts.apis.io/the-next-web/plans/the-next-web-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/the-next-web-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/the-next-web/refs/heads/main/rate-limits/the-next-web-rate-limits.yml
+  href: https://artifacts.apis.io/the-next-web/rate-limits/the-next-web-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/the-next-web-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/the-next-web/refs/heads/main/finops/the-next-web-finops.yml
+  href: https://artifacts.apis.io/the-next-web/finops/the-next-web-finops.yml
   title: ''
   type: FinOps
   url: finops/the-next-web-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-next-web/refs/heads/main/security/the-next-web-domain-security.yml
+  href: https://artifacts.apis.io/the-next-web/security/the-next-web-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-next-web-domain-security.yml
@@ -126,17 +128,17 @@ common:
   type: GitHub
   url: https://github.com/thenextweb
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/the-next-web/refs/heads/main/json-schema/the-next-web-article-schema.json
+  href: https://artifacts.apis.io/the-next-web/json-schema/the-next-web-article-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/the-next-web-article-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-next-web/refs/heads/main/json-ld/the-next-web-context.jsonld
+  href: https://artifacts.apis.io/the-next-web/json-ld/the-next-web-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/the-next-web-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-next-web/refs/heads/main/vocabulary/the-next-web-vocabulary.yml
+  href: https://artifacts.apis.io/the-next-web/vocabulary/the-next-web-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/the-next-web-vocabulary.yml
@@ -146,7 +148,7 @@ finops:
 - has_sources: false
   method: generated
   name: The Next Web Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: the-next-web-finops
   template: true
@@ -180,7 +182,7 @@ plans:
 - name: The Next Web Plans Pricing
   plan_count: 3
   slug: the-next-web-plans-pricing
-random_paper: 10
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: The Next Web Rate Limits
@@ -207,7 +209,7 @@ score:
     catalog_gap: 61.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 23.5
@@ -215,21 +217,21 @@ score:
     developer_ergonomics: 0.0
     discoverability: 58.9
     operational_transparency: 13.2
-  previous_composite: 20.7
+  previous_composite: 19.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-next-web/refs/heads/main/screenshots/the-next-web-2026-06-20T195230.png
+screenshot: https://apis.io/screenshots/the-next-web/the-next-web-2026-06-20T195230.png
 security:
 - kind: domain-security
   name: The Next Web Domain Security

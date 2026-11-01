@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 7
 common:
@@ -65,32 +67,32 @@ common:
   type: StatusPage
   url: https://status.1mind.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/lifecycle/1mind-lifecycle.yml
+  href: https://artifacts.apis.io/1mind/lifecycle/1mind-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/1mind-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/security/1mind-trust-center.yml
+  href: https://artifacts.apis.io/1mind/security/1mind-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/1mind-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/security/1mind-trust-center.yml
+  href: https://artifacts.apis.io/1mind/security/1mind-trust-center.yml
   title: ''
   type: Compliance
   url: security/1mind-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/security/1mind-domain-security.yml
+  href: https://artifacts.apis.io/1mind/security/1mind-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/1mind-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/well-known/1mind-well-known.yml
+  href: https://artifacts.apis.io/1mind/well-known/1mind-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/1mind-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/llms/1mind-llms.txt
+  href: https://artifacts.apis.io/1mind/llms/1mind-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/1mind-llms.txt
@@ -107,47 +109,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/1mindai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/authentication/1mind-authentication.yml
+  href: https://artifacts.apis.io/1mind/authentication/1mind-authentication.yml
   title: ''
   type: Authentication
   url: authentication/1mind-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/scopes/1mind-scopes.yml
+  href: https://artifacts.apis.io/1mind/scopes/1mind-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/1mind-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/conformance/1mind-conformance.yml
+  href: https://artifacts.apis.io/1mind/conformance/1mind-conformance.yml
   title: ''
   type: Conformance
   url: conformance/1mind-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/conventions/1mind-conventions.yml
+  href: https://artifacts.apis.io/1mind/conventions/1mind-conventions.yml
   title: ''
   type: Conventions
   url: conventions/1mind-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/errors/1mind-problem-types.yml
+  href: https://artifacts.apis.io/1mind/errors/1mind-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/1mind-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/rate-limits/1mind-rate-limits.yml
+  href: https://artifacts.apis.io/1mind/rate-limits/1mind-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/1mind-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/plans/1mind-plans-pricing.yml
+  href: https://artifacts.apis.io/1mind/plans/1mind-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/1mind-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/security/1mind-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/1mind/security/1mind-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/1mind-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/security/1mind-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/1mind/security/1mind-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/1mind-vulnerability-disclosure.yml
@@ -167,7 +169,7 @@ plans:
 - name: 1Mind Plans Pricing
   plan_count: 0
   slug: 1mind-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: 1Mind Rate Limits
@@ -179,7 +181,7 @@ scopes:
   summary_line: 3 scopes
 score:
   band: thin
-  composite: 31.6
+  composite: 31.2
   coverage:
     artifact_dirs: 17
     catalog_earned: 35.0
@@ -187,15 +189,15 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 55.4
-    operational_transparency: 50.0
-  previous_composite: 32.0
+    discoverability: 48.2
+    operational_transparency: 52.6
+  previous_composite: 31.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -205,14 +207,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/screenshots/1mind-2026-07-25T181118.png
+screenshot: https://apis.io/screenshots/1mind/1mind-2026-07-25T181118.png
 security:
 - kind: authentication
   name: 1Mind Authentication

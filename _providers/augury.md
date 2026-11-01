@@ -9,15 +9,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -25,19 +25,75 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    protected_resource_metadata: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 17.3
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/augury/refs/heads/main/security/augury-domain-security.yml
+  title: ''
+  type: Security
+  url: https://www.augury.com/security/coordinated-vulnerability-disclosure
+- group: design
+  href: https://artifacts.apis.io/augury/json-ld/augury-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/augury-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/augury/vocabulary/augury-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/augury-vocabulary.yml
+- group: agent
+  href: https://artifacts.apis.io/augury/llms/augury-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/augury-llms.txt
+- group: auth
+  href: https://artifacts.apis.io/augury/well-known/augury-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/augury-security.txt
+- group: auth
+  href: https://artifacts.apis.io/augury/well-known/augury-endpoint-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/augury-endpoint-security.txt
+- group: agent
+  href: https://artifacts.apis.io/augury/well-known/augury-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/augury-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/augury/hosts/augury-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/augury-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/augury/integrations/augury-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/augury-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/augury/vendors/augury-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/augury-vendors.yml
+- group: auth
+  href: https://artifacts.apis.io/augury/security/augury-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/augury-vulnerability-disclosure.yml
+- group: auth
+  href: https://artifacts.apis.io/augury/security/augury-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/augury-domain-security.yml
@@ -71,7 +127,7 @@ common:
   url: https://www.augury.com/about/
 - group: company
   title: ''
-  type: Press
+  type: Newsroom
   url: https://www.augury.com/media-center/press/
 - group: company
   title: ''
@@ -85,18 +141,36 @@ common:
   title: ''
   type: Contact
   url: https://www.augury.com/contact-us/
-- group: company
+- group: start
   title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/augury-inc-
-- group: company
+  type: Login
+  url: https://app.augury.com/login
+- group: commercial
   title: ''
-  type: Twitter
-  url: https://twitter.com/auguryinc
-- group: learn
+  type: Pricing
+  url: https://www.augury.com/pricing/
+- group: commercial
   title: ''
-  type: YouTube
-  url: https://www.youtube.com/@AuguryInc
+  type: PrivacyPolicy
+  url: https://www.augury.com/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.augury.com/terms-of-use/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.augury.com
+coverage:
+  checked: '2026-10-20'
+  detail: Augury's Halo platform API is referenced only for customers and certified integrators; no public reference, spec or MCP schema exists, and endpoint.augury.com/mcp and app.augury.com/mcp answer 403 before routing.
+  evidence:
+  - status: 403
+    url: https://endpoint.augury.com/mcp
+  - status: 404
+    url: https://api.augury.com/openapi.json
+  reason: customer-only-docs
+  state: gated
 created: '2026-05-25'
 description: Augury is a New York City-headquartered industrial AI company founded in 2011 by Gal Shaul and Saar Yoskovitz that profiles itself as the leader in Machine Health and Production Health for manufacturing. Its flagship offering pairs purpose-built IoT vibration, temperature, and magnetic sensors — most prominently the Halo Node and earlier Auguscope hardware — with a cloud platform that applies prescriptive AI diagnostics to rotating and electrical equipment, advertised as delivering 75% fewer false alarms than threshold-based vibration systems and trained on more than one billion hours of machine monitoring data. Augury's product portfolio spans Machine Health (predictive maintenance for assets such as motors, pumps, fans, compressors, and gearboxes), Process Health (process optimization software acquired with Seebo in 2022 for yield, waste, and energy improvements), and an Industrial AI Workforce of AI agents that act on combined machine and operational data. The company runs
   an integration ecosystem branded Augury Plus (CMMS/EAM connectors for SAP PM, IBM Maximo, Infor EAM, MaintainX, and cloud/industrial platforms including Microsoft Azure, PTC, and AVEVA Connect), Augury On (OEM-embedded Machine Health with partners such as Grundfos, Schneider Electric, Trane, Carrier, Bently Nevada, and Baker Hughes), and Augury By (service partners including Accenture, Deloitte, Bain, McKinsey, Sodexo, Aramark, and AECOM). Augury closed a $75M Series F in February 2025 at a $1B+ valuation led by Lightrock with Insight Partners, Eclipse, Qumra Capital, La Maison Partners, SE Ventures, and Qualcomm Ventures, reports a 5x revenue increase since 2021, and serves 170+ global manufacturers across 40+ countries including Heineken, PepsiCo (Frito-Lay), Colgate-Palmolive, Shell, and Hershey's. The company commercializes through hardware-plus-subscription contracts and embedded OEM agreements, references public APIs and certified system integrator partners for custom integrations
@@ -118,26 +192,26 @@ overview: 'Augury is profiled on the [APIs.io](https://apis.io/) network. Tagged
   The Augury catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Augury''s developer surface includes support, engineering blog, YouTube channel, and 12 more developer resources.'
-random_paper: 9
+  Augury''s developer surface includes support, engineering blog, pricing, and 25 more developer resources.'
+random_paper: 21
 score:
-  band: minimal
-  composite: 9.5
+  band: emerging
+  composite: 24.8
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 38.0
+    artifact_dirs: 11
+    catalog_earned: 39.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 75.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
-    contract_governance: 0.0
+    access_clarity: 52.6
+    contract_governance: 3.8
     contract_quality: 14.7
     developer_ergonomics: 7.1
-    discoverability: 49.1
-    operational_transparency: 0.0
+    discoverability: 50.0
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -145,26 +219,30 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 9.4
+  previous_composite: 24.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 8.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 28.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/augury/refs/heads/main/screenshots/augury-2026-06-20T172558.png
+screenshot: https://apis.io/screenshots/augury/augury-2026-06-20T172558.png
 security:
 - kind: domain-security
   name: Augury Domain Security
   slug: augury-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Augury Vulnerability Disclosure
+  slug: augury-vulnerability-disclosure
+  summary_line: security.txt · contact published
 slug: augury
 tags:
 - Industrial AI

@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 63.3
-  scored_at: '2026-10-17'
+  score: 61.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 0
@@ -649,9 +651,6 @@ asyncapis:
   slug: birdeye-webhooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Birdeye Aggregation API
   slug: open-birdeye-aggregation-api
 - collection_type: open
@@ -731,37 +730,37 @@ collections:
   slug: open-birdeye-webhook-api
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/rules/birdeye-rules.yml
+  href: https://artifacts.apis.io/birdeye/rules/birdeye-rules.yml
   title: ''
   type: Spectral
   url: rules/birdeye-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/rules/birdeye-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/birdeye/rules/birdeye-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/birdeye-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/json-ld/birdeye-context.jsonld
+  href: https://artifacts.apis.io/birdeye/json-ld/birdeye-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/birdeye-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/errors/birdeye-problem-types.yml
+  href: https://artifacts.apis.io/birdeye/errors/birdeye-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/birdeye-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/hosts/birdeye-hosts.yml
+  href: https://artifacts.apis.io/birdeye/hosts/birdeye-hosts.yml
   title: ''
   type: Hosts
   url: hosts/birdeye-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/integrations/birdeye-integration-edges.yml
+  href: https://artifacts.apis.io/birdeye/integrations/birdeye-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/birdeye-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/vendors/birdeye-vendors.yml
+  href: https://artifacts.apis.io/birdeye/vendors/birdeye-vendors.yml
   title: ''
   type: Vendors
   url: vendors/birdeye-vendors.yml
@@ -774,67 +773,67 @@ common:
   type: Leadership
   url: https://birdeye.com/team/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/capabilities/birdeye-capability-edges.yml
+  href: https://artifacts.apis.io/birdeye/capabilities/birdeye-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/birdeye-capability-edges.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/_original/birdeye-openapi-original.yml
+  href: https://artifacts.apis.io/birdeye/openapi/_original/birdeye-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/birdeye-openapi-original.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/a2a/birdeye-a2a.yml
+  href: https://artifacts.apis.io/birdeye/a2a/birdeye-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/birdeye-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/mcp/birdeye-mcp.yml
+  href: https://artifacts.apis.io/birdeye/mcp/birdeye-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/birdeye-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/mcp/birdeye-tool-crosswalk.yml
+  href: https://artifacts.apis.io/birdeye/mcp/birdeye-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/birdeye-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/birdeye/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/llms/birdeye-llms.txt
+  href: https://artifacts.apis.io/birdeye/llms/birdeye-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/birdeye-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/well-known/birdeye-well-known.yml
+  href: https://artifacts.apis.io/birdeye/well-known/birdeye-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/birdeye-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/conventions/birdeye-conventions.yml
+  href: https://artifacts.apis.io/birdeye/conventions/birdeye-conventions.yml
   title: ''
   type: Conventions
   url: conventions/birdeye-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/errors/birdeye-error-codes.yml
+  href: https://artifacts.apis.io/birdeye/errors/birdeye-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/birdeye-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/data-model/birdeye-data-model.yml
+  href: https://artifacts.apis.io/birdeye/data-model/birdeye-data-model.yml
   title: ''
   type: DataModel
   url: data-model/birdeye-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/overlays/birdeye-openapi-overlay.yaml
+  href: https://artifacts.apis.io/birdeye/overlays/birdeye-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/birdeye-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/conformance/birdeye-conformance.yml
+  href: https://artifacts.apis.io/birdeye/conformance/birdeye-conformance.yml
   title: ''
   type: Conformance
   url: conformance/birdeye-conformance.yml
@@ -843,12 +842,12 @@ common:
   type: Compliance
   url: https://birdeye.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/security/birdeye-trust-center.yml
+  href: https://artifacts.apis.io/birdeye/security/birdeye-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/birdeye-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/security/birdeye-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/birdeye/security/birdeye-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/birdeye-vulnerability-disclosure.yml
@@ -857,22 +856,22 @@ common:
   type: Security
   url: https://birdeye.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/scopes/birdeye-scopes.yml
+  href: https://artifacts.apis.io/birdeye/scopes/birdeye-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/birdeye-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/lifecycle/birdeye-lifecycle.yml
+  href: https://artifacts.apis.io/birdeye/lifecycle/birdeye-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/birdeye-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/changelog/birdeye-changelog.yml
+  href: https://artifacts.apis.io/birdeye/changelog/birdeye-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/birdeye-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/asyncapi/birdeye-webhooks.yml
+  href: https://artifacts.apis.io/birdeye/asyncapi/birdeye-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/birdeye-webhooks.yml
@@ -909,17 +908,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/birdeyeinc
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/agentic-access/birdeye-agentic-access.yml
+  href: https://artifacts.apis.io/birdeye/agentic-access/birdeye-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/birdeye-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/security/birdeye-domain-security.yml
+  href: https://artifacts.apis.io/birdeye/security/birdeye-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/birdeye-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/authentication/birdeye-authentication.yml
+  href: https://artifacts.apis.io/birdeye/authentication/birdeye-authentication.yml
   title: ''
   type: Authentication
   url: authentication/birdeye-authentication.yml
@@ -952,17 +951,17 @@ common:
   type: X
   url: https://x.com/Birdeye_
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/plans/birdeye-plans-pricing.yml
+  href: https://artifacts.apis.io/birdeye/plans/birdeye-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/birdeye-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/rate-limits/birdeye-rate-limits.yml
+  href: https://artifacts.apis.io/birdeye/rate-limits/birdeye-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/birdeye-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/finops/birdeye-finops.yml
+  href: https://artifacts.apis.io/birdeye/finops/birdeye-finops.yml
   title: ''
   type: FinOps
   url: finops/birdeye-finops.yml
@@ -1441,8 +1440,8 @@ examples:
   name: Visitor Report
   slug: visitor-report
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Birdeye Finops
   primary_unit: ''
   service_category: ''
@@ -1545,9 +1544,9 @@ overview: 'Birdeye publishes 27 API contracts indexed on the [APIs.io](https://a
   Birdeye''s developer surface includes changelog, API reference, getting-started guide, support, authentication, documentation, engineering blog, and 44 more developer resources.'
 plans:
 - name: Birdeye Plans Pricing
-  plan_count: 4
+  plan_count: 0
   slug: birdeye-plans-pricing
-random_paper: 14
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Birdeye Rate Limits
@@ -1583,23 +1582,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 77.0
+  composite: 67.0
   coverage:
     artifact_dirs: 35
-    catalog_earned: 82.8
-    catalog_earned_first_party: 20.0
-    catalog_gap: 32.3
+    catalog_earned: 70.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: -6.3
   facets:
-    access_clarity: 85.5
+    access_clarity: 60.5
     contract_governance: 35.6
     contract_quality: 68.1
     developer_ergonomics: 64.3
-    discoverability: 78.3
-    operational_transparency: 73.7
-  previous_composite: 77.3
+    discoverability: 68.3
+    operational_transparency: 76.3
+  previous_composite: 73.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1616,13 +1615,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/screenshots/birdeye-2026-06-20T173257.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/birdeye/birdeye-2026-06-20T173257.png
 security:
 - kind: authentication
   name: Birdeye Authentication
@@ -1640,6 +1640,10 @@ security:
   name: Birdeye Trust Center
   slug: birdeye-trust-center
   summary_line: SOC 2 Type II, ISO/IEC 27001, HIPAA, GDPR, CCPA / CPRA
+skill_count: 1
+skills:
+- name: birdeye
+  slug: birdeye-birdeye-skill
 slug: birdeye
 tags:
 - Reputation Management

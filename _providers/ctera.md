@@ -24,22 +24,24 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.3
-  scored_at: '2026-10-17'
+  score: 9.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: RESTful management API for the CTERA Portal. Exposes a uniform object namespace (users, devices, folders, and more) where each object is addressed by a unique URI, using GET/PUT/POST/DELETE verbs. Aut
   name: CTERA Portal RESTful API
   slug: ctera-portal-restful-api
-artifact_total: 4
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -86,67 +88,67 @@ common:
   type: Training
   url: https://www.ctera.com/ctera-training/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ctera/refs/heads/main/packages/ctera-packages.yml
+  href: https://artifacts.apis.io/ctera/packages/ctera-packages.yml
   title: ''
   type: Packages
   url: packages/ctera-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ctera/refs/heads/main/packages/ctera-packages.yml
+  href: https://artifacts.apis.io/ctera/packages/ctera-packages.yml
   title: ''
   type: SDKs
   url: packages/ctera-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ctera/refs/heads/main/cli/ctera-cli.yml
+  href: https://artifacts.apis.io/ctera/cli/ctera-cli.yml
   title: ''
   type: CLI
   url: cli/ctera-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ctera/refs/heads/main/mcp/ctera-mcp.yml
+  href: https://artifacts.apis.io/ctera/mcp/ctera-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ctera-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ctera/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ctera/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ctera/refs/heads/main/llms/ctera-llms.txt
+  href: https://artifacts.apis.io/ctera/llms/ctera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ctera-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ctera/refs/heads/main/authentication/ctera-authentication.yml
+  href: https://artifacts.apis.io/ctera/authentication/ctera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ctera-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ctera/refs/heads/main/conventions/ctera-conventions.yml
+  href: https://artifacts.apis.io/ctera/conventions/ctera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ctera-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ctera/refs/heads/main/errors/ctera-problem-types.yml
+  href: https://artifacts.apis.io/ctera/errors/ctera-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ctera-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ctera/refs/heads/main/lifecycle/ctera-lifecycle.yml
+  href: https://artifacts.apis.io/ctera/lifecycle/ctera-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ctera-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ctera/refs/heads/main/changelog/ctera-changelog.yml
+  href: https://artifacts.apis.io/ctera/changelog/ctera-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ctera-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ctera/refs/heads/main/conformance/ctera-conformance.yml
+  href: https://artifacts.apis.io/ctera/conformance/ctera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ctera-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ctera/refs/heads/main/security/ctera-domain-security.yml
+  href: https://artifacts.apis.io/ctera/security/ctera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ctera-domain-security.yml
@@ -166,10 +168,10 @@ overview: 'CTERA is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   CTERA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, training material, CLI, and 17 more developer resources.'
-random_paper: 21
+random_paper: 23
 score:
   band: thin
-  composite: 28.6
+  composite: 28.2
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -177,15 +179,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 28.5
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 28.2
   provenance:
     conformance: derived
     mcp: first-party
@@ -196,14 +198,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ctera/refs/heads/main/screenshots/ctera-2026-07-25T210844.png
+screenshot: https://apis.io/screenshots/ctera/ctera-2026-07-25T210844.png
 security:
 - kind: authentication
   name: Ctera Authentication
@@ -213,6 +215,12 @@ security:
   name: Ctera Domain Security
   slug: ctera-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Perform file operations on a CTERA Edge Filer
+  slug: ctera-edge-file-operations
+- name: Manage and share files in the CTERA Portal
+  slug: ctera-portal-file-management
 slug: ctera
 tags:
 - Company

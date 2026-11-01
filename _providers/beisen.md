@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beisen/refs/heads/main/security/beisen-domain-security.yml
+  href: https://artifacts.apis.io/beisen/security/beisen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beisen-domain-security.yml
@@ -50,17 +52,17 @@ common:
   type: DeveloperPortal
   url: https://open.italent.cn/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/beisen/refs/heads/main/packages/beisen-packages.yml
+  href: https://artifacts.apis.io/beisen/packages/beisen-packages.yml
   title: ''
   type: Packages
   url: packages/beisen-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/beisen/refs/heads/main/packages/beisen-packages.yml
+  href: https://artifacts.apis.io/beisen/packages/beisen-packages.yml
   title: ''
   type: SDKs
   url: packages/beisen-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beisen/refs/heads/main/llms/beisen-llms.txt
+  href: https://artifacts.apis.io/beisen/llms/beisen-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beisen-llms.txt
@@ -73,12 +75,12 @@ name: Beisen
 nav: Providers
 network: true
 overview: Beisen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Human Resources, HCM, and Talent Management.
-random_paper: 14
+random_paper: 6
 score:
   band: minimal
-  composite: 6.9
+  composite: 6.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -90,7 +92,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -99,21 +101,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 6.9
+  previous_composite: 6.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/beisen/refs/heads/main/screenshots/beisen-2026-07-25T202708.png
+screenshot: https://apis.io/screenshots/beisen/beisen-2026-07-25T202708.png
 security:
 - kind: domain-security
   name: Beisen Domain Security

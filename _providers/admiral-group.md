@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/admiral-group/refs/heads/main/security/admiral-group-domain-security.yml
+  href: https://artifacts.apis.io/admiral-group/security/admiral-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/admiral-group-domain-security.yml
@@ -124,12 +126,12 @@ common:
   type: Careers
   url: https://admiraljobs.co.uk
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/admiral-group/refs/heads/main/well-known/admiral-group-security.txt
+  href: https://artifacts.apis.io/admiral-group/well-known/admiral-group-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/admiral-group-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/admiral-group/refs/heads/main/well-known/admiral-group-well-known.yml
+  href: https://artifacts.apis.io/admiral-group/well-known/admiral-group-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/admiral-group-well-known.yml
@@ -138,17 +140,17 @@ common:
   type: Security
   url: https://www.confused.com/privacy-and-security/security/security-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/admiral-group/refs/heads/main/security/admiral-group-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/admiral-group/security/admiral-group-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/admiral-group-vulnerability-disclosure.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/admiral-group/refs/heads/main/packages/admiral-group-packages.yml
+  href: https://artifacts.apis.io/admiral-group/packages/admiral-group-packages.yml
   title: ''
   type: Packages
   url: packages/admiral-group-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/admiral-group/refs/heads/main/llms/admiral-group-llms.txt
+  href: https://artifacts.apis.io/admiral-group/llms/admiral-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/admiral-group-llms.txt
@@ -168,7 +170,7 @@ overview: 'Admiral Group is profiled on the [APIs.io](https://apis.io/) network.
 random_paper: 12
 score:
   band: emerging
-  composite: 15.4
+  composite: 14.8
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -182,7 +184,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 56.3
+    discoverability: 50.0
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -192,21 +194,21 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 15.4
+  previous_composite: 14.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 17.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/admiral-group/refs/heads/main/screenshots/admiral-group-2026-07-25T181651.png
+screenshot: https://apis.io/screenshots/admiral-group/admiral-group-2026-07-25T181651.png
 security:
 - kind: domain-security
   name: Admiral Group Domain Security

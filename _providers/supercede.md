@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/supercede/refs/heads/main/plans/supercede-plans-pricing.yml
+  href: https://artifacts.apis.io/supercede/plans/supercede-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/supercede-plans-pricing.yml
@@ -70,17 +72,17 @@ common:
   type: PrivacyPolicy
   url: https://supercede.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/supercede/refs/heads/main/conformance/supercede-conformance.yml
+  href: https://artifacts.apis.io/supercede/conformance/supercede-conformance.yml
   title: ''
   type: Compliance
   url: conformance/supercede-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/supercede/refs/heads/main/conformance/supercede-conformance.yml
+  href: https://artifacts.apis.io/supercede/conformance/supercede-conformance.yml
   title: ''
   type: Conformance
   url: conformance/supercede-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/supercede/refs/heads/main/security/supercede-domain-security.yml
+  href: https://artifacts.apis.io/supercede/security/supercede-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/supercede-domain-security.yml
@@ -100,7 +102,7 @@ plans:
 - name: Supercede Plans Pricing
   plan_count: 0
   slug: supercede-plans-pricing
-random_paper: 14
+random_paper: 0
 score:
   band: emerging
   composite: 18.5
@@ -136,14 +138,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/supercede/refs/heads/main/screenshots/supercede-2026-09-02T161215.png
+screenshot: https://apis.io/screenshots/supercede/supercede-2026-09-02T161215.png
 security:
 - kind: domain-security
   name: Supercede Domain Security

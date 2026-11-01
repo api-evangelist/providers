@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.4
-  scored_at: '2026-10-17'
+  score: 18.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: TU Delft's SimpleSAMLphp identity provider — the machine-readable half of NetID. It publishes a signed SAML 2.0 EntityDescriptor with an IDPSSODescriptor and is registered in SURFconext, the Dutch nat
@@ -65,7 +67,7 @@ apis:
 artifact_total: 17
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/capabilities/tu-delft-capability-edges.yml
+  href: https://artifacts.apis.io/tu-delft/capabilities/tu-delft-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tu-delft-capability-edges.yml
@@ -178,62 +180,62 @@ common:
   type: SecurityTxt
   url: https://www.tudelft.nl/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/security/tu-delft-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tu-delft/security/tu-delft-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tu-delft-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/security/tu-delft-domain-security.yml
+  href: https://artifacts.apis.io/tu-delft/security/tu-delft-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tu-delft-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/authentication/tu-delft-authentication.yml
+  href: https://artifacts.apis.io/tu-delft/authentication/tu-delft-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tu-delft-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/scopes/tu-delft-scopes.yml
+  href: https://artifacts.apis.io/tu-delft/scopes/tu-delft-scopes.yml
   title: ''
   type: Scopes
   url: scopes/tu-delft-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/conformance/tu-delft-conformance.yml
+  href: https://artifacts.apis.io/tu-delft/conformance/tu-delft-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tu-delft-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/lifecycle/tu-delft-lifecycle.yml
+  href: https://artifacts.apis.io/tu-delft/lifecycle/tu-delft-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tu-delft-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/vocabulary/tu-delft-vocabulary.yml
+  href: https://artifacts.apis.io/tu-delft/vocabulary/tu-delft-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tu-delft-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/json-ld/tu-delft-context.jsonld
+  href: https://artifacts.apis.io/tu-delft/json-ld/tu-delft-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tu-delft-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/plans/tu-delft-plans-pricing.yml
+  href: https://artifacts.apis.io/tu-delft/plans/tu-delft-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tu-delft-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/rate-limits/tu-delft-rate-limits.yml
+  href: https://artifacts.apis.io/tu-delft/rate-limits/tu-delft-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tu-delft-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/finops/tu-delft-finops.yml
+  href: https://artifacts.apis.io/tu-delft/finops/tu-delft-finops.yml
   title: ''
   type: FinOps
   url: finops/tu-delft-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/tu-delft/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -303,7 +305,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.6
+  composite: 48.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 59.4
@@ -311,14 +313,14 @@ score:
     catalog_gap: 55.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -9.7
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 33.3
     contract_quality: 58.7
     developer_ergonomics: 35.7
     discoverability: 76.8
-    operational_transparency: 34.2
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -327,7 +329,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 57.3
+  previous_composite: 48.0
   provenance:
     conformance: first-party
     contracts:
@@ -341,14 +343,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 48.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/screenshots/tu-delft-2026-10-11T194130.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tu-delft/tu-delft-2026-10-11T194130.png
 security:
 - kind: authentication
   name: Tu Delft Authentication

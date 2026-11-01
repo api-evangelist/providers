@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for Promethium's agentic data platform — tenant-scoped OAuth2 authentication, datamap search and creation, bulk metadata import, audit logs, and federated SQL execution via the Trino Stream U
   name: Promethium API
   slug: promethium-api
-artifact_total: 3
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -94,32 +96,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/promethium-ai
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/promethium/refs/heads/main/llms/promethium-llms.txt
+  href: https://artifacts.apis.io/promethium/llms/promethium-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/promethium-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/promethium/refs/heads/main/authentication/promethium-authentication.yml
+  href: https://artifacts.apis.io/promethium/authentication/promethium-authentication.yml
   title: ''
   type: Authentication
   url: authentication/promethium-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/promethium/refs/heads/main/security/promethium-domain-security.yml
+  href: https://artifacts.apis.io/promethium/security/promethium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/promethium-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/promethium/refs/heads/main/well-known/promethium-well-known.yml
+  href: https://artifacts.apis.io/promethium/well-known/promethium-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/promethium-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/promethium/refs/heads/main/lifecycle/promethium-lifecycle.yml
+  href: https://artifacts.apis.io/promethium/lifecycle/promethium-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/promethium-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/promethium/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/promethium/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -135,10 +137,10 @@ overview: 'Promethium is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Promethium''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 12 more developer resources.'
-random_paper: 20
+random_paper: 18
 score:
   band: thin
-  composite: 30.3
+  composite: 30.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -152,9 +154,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 30.3
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 30.0
   provenance:
     conformance: derived
     mcp: derived
@@ -165,14 +167,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/promethium/refs/heads/main/screenshots/promethium-2026-09-02T152139.png
+screenshot: https://apis.io/screenshots/promethium/promethium-2026-09-02T152139.png
 security:
 - kind: authentication
   name: Promethium Authentication
@@ -182,6 +184,12 @@ security:
   name: Promethium Domain Security
   slug: promethium-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: promethium-catalog-data-asset
+  slug: promethium-catalog-data-asset
+- name: promethium-search-and-query
+  slug: promethium-search-and-query
 slug: promethium
 tags:
 - Company

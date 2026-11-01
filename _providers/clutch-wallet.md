@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 0
 common:
@@ -41,12 +43,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/clutch-wallet
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clutch-wallet/refs/heads/main/packages/clutch-wallet-packages.yml
+  href: https://artifacts.apis.io/clutch-wallet/packages/clutch-wallet-packages.yml
   title: ''
   type: Packages
   url: packages/clutch-wallet-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clutch-wallet/refs/heads/main/packages/clutch-wallet-packages.yml
+  href: https://artifacts.apis.io/clutch-wallet/packages/clutch-wallet-packages.yml
   title: ''
   type: SDKs
   url: packages/clutch-wallet-packages.yml
@@ -86,14 +88,6 @@ score:
     regions:
     - north-america
   lifecycle: defunct
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 0.0
   regulatory:
     applies: true
@@ -101,14 +95,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/clutch-wallet/refs/heads/main/screenshots/clutch-wallet-2026-07-25T205753.png
+screenshot: https://apis.io/screenshots/clutch-wallet/clutch-wallet-2026-07-25T205753.png
 slug: clutch-wallet
 tags:
 - Company

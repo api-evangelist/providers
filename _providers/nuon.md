@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.4
-  scored_at: '2026-10-17'
+  score: 34.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 16
@@ -134,15 +136,12 @@ apis:
   description: vcs
   name: Nuon VCS API
   slug: nuon-vcs-api
-artifact_total: 42
+artifact_total: 48
 asyncapis:
 - description: 'Org-scoped webhooks deliver workflow and workflow-step lifecycle events for a Nuon Org as CloudEvents v1.0 JSON envelopes over HTTP POST. Best-effort delivery (no retries or replay); handlers must be '
   name: Nuon Org Webhooks
   slug: nuon-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nuon accounts API
   slug: open-nuon-accounts-api
@@ -198,32 +197,37 @@ collections:
   name: Nuon accounts vcs API
   slug: open-nuon-vcs-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/nuon/plans/nuon-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/nuon-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://nuon.co/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/capabilities/nuon-capability-edges.yml
+  href: https://artifacts.apis.io/nuon/capabilities/nuon-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nuon-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/overlays/nuon-oapi-v3-overlay.yaml
+  href: https://artifacts.apis.io/nuon/overlays/nuon-oapi-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nuon-oapi-v3-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/security/nuon-domain-security.yml
+  href: https://artifacts.apis.io/nuon/security/nuon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nuon-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/agentic-access/nuon-agentic-access.yml
+  href: https://artifacts.apis.io/nuon/agentic-access/nuon-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nuon-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/authentication/nuon-authentication.yml
+  href: https://artifacts.apis.io/nuon/authentication/nuon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nuon-authentication.yml
@@ -288,7 +292,7 @@ common:
   type: StatusPage
   url: https://status.nuon.co
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/changelog/nuon-changelog.yml
+  href: https://artifacts.apis.io/nuon/changelog/nuon-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nuon-changelog.yml
@@ -301,67 +305,67 @@ common:
   type: Compliance
   url: https://trust.nuon.co
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/security/nuon-trust-center.yml
+  href: https://artifacts.apis.io/nuon/security/nuon-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nuon-trust-center.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/packages/nuon-packages.yml
+  href: https://artifacts.apis.io/nuon/packages/nuon-packages.yml
   title: ''
   type: Packages
   url: packages/nuon-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/packages/nuon-packages.yml
+  href: https://artifacts.apis.io/nuon/packages/nuon-packages.yml
   title: ''
   type: SDKs
   url: packages/nuon-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/cli/nuon-cli.yml
+  href: https://artifacts.apis.io/nuon/cli/nuon-cli.yml
   title: ''
   type: CLI
   url: cli/nuon-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/mcp/nuon-mcp.yml
+  href: https://artifacts.apis.io/nuon/mcp/nuon-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nuon-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/llms/nuon-llms.txt
+  href: https://artifacts.apis.io/nuon/llms/nuon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nuon-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/well-known/nuon-well-known.yml
+  href: https://artifacts.apis.io/nuon/well-known/nuon-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nuon-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/errors/nuon-problem-types.yml
+  href: https://artifacts.apis.io/nuon/errors/nuon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nuon-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/conventions/nuon-conventions.yml
+  href: https://artifacts.apis.io/nuon/conventions/nuon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nuon-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/data-model/nuon-data-model.yml
+  href: https://artifacts.apis.io/nuon/data-model/nuon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nuon-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/conformance/nuon-conformance.yml
+  href: https://artifacts.apis.io/nuon/conformance/nuon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nuon-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/lifecycle/nuon-lifecycle.yml
+  href: https://artifacts.apis.io/nuon/lifecycle/nuon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nuon-lifecycle.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/asyncapi/nuon-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/nuon/asyncapi/nuon-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/nuon-webhooks-asyncapi.yml
@@ -370,12 +374,20 @@ common:
   type: Webhooks
   url: https://docs.nuon.co/guides/webhooks
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nuon/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'Nuon is a Bring Your Own Cloud (BYOC) continuous-delivery platform for software vendors. It lets vendors package existing applications — Terraform, Pulumi, Helm charts, Kubernetes manifests, and container images — and deploy them into their customers'' own AWS, Azure, or GCP accounts while keeping a SaaS-like experience. Nuon runs a Control Plane plus egress-only Runners installed in each customer account (no cross-account IAM), and adds day-2 operations: least-privilege operation roles, drift detection, approval workflows, OPA-based policies, runbooks, secrets, actions, and org-scoped CloudEvents webhooks. The platform exposes a REST control-plane API (OpenAPI v2 + v3), a first-party CLI and TUIs, Go/Python/Elixir SDKs, and Terraform providers. Nuon''s core is open source under github.com/nuonco.'
+finops:
+- has_sources: true
+  method: derived
+  name: Nuon Finops
+  primary_unit: ''
+  service_category: ''
+  slug: nuon-finops
+  template: true
 image: https://nuon.co/favicon.svg
 layout: provider
 modified: '2026-10-06'
@@ -388,27 +400,31 @@ overview: 'Nuon publishes 18 API contracts indexed on the [APIs.io](https://apis
   The Nuon catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Nuon''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 32 more developer resources.'
-random_paper: 8
+  Nuon''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 33 more developer resources.'
+plans:
+- name: Nuon Plans Pricing
+  plan_count: 2
+  slug: nuon-plans-pricing
+random_paper: 16
 score:
   band: strong
-  composite: 55.9
+  composite: 61.0
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.2
   facets:
-    access_clarity: 47.4
+    access_clarity: 81.6
     contract_governance: 4.5
-    contract_quality: 61.1
+    contract_quality: 59.9
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 55.8
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -425,13 +441,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/screenshots/nuon-2026-08-07T185744.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nuon/nuon-2026-08-07T185744.png
 security:
 - kind: authentication
   name: Nuon Authentication
@@ -445,6 +462,18 @@ security:
   name: Nuon Trust Center
   slug: nuon-trust-center
   summary_line: SOC 2
+skill_count: 5
+skills:
+- name: Create an install and follow its provision workflow
+  slug: nuon-create-and-provision-install
+- name: Create a BYOC app and manage its config
+  slug: nuon-create-and-sync-app
+- name: Add and build app components
+  slug: nuon-manage-components
+- name: Create an API token and identify the current account
+  slug: nuon-provision-static-token
+- name: Subscribe to org workflow lifecycle webhooks
+  slug: nuon-subscribe-org-webhooks
 slug: nuon
 tags:
 - Company

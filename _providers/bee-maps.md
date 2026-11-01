@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,57 +68,57 @@ apis:
 artifact_total: 11
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bee-maps/refs/heads/main/agentic-access/bee-maps-agentic-access.yml
+  href: https://artifacts.apis.io/bee-maps/agentic-access/bee-maps-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bee-maps-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bee-maps/refs/heads/main/rules/bee-maps-rules.yml
+  href: https://artifacts.apis.io/bee-maps/rules/bee-maps-rules.yml
   title: ''
   type: Spectral
   url: rules/bee-maps-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bee-maps/refs/heads/main/json-ld/bee-maps-context.jsonld
+  href: https://artifacts.apis.io/bee-maps/json-ld/bee-maps-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bee-maps-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bee-maps/refs/heads/main/vocabulary/bee-maps-vocabulary.yml
+  href: https://artifacts.apis.io/bee-maps/vocabulary/bee-maps-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bee-maps-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bee-maps/refs/heads/main/data-model/bee-maps-data-model.yml
+  href: https://artifacts.apis.io/bee-maps/data-model/bee-maps-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bee-maps-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bee-maps/refs/heads/main/errors/bee-maps-problem-types.yml
+  href: https://artifacts.apis.io/bee-maps/errors/bee-maps-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bee-maps-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bee-maps/refs/heads/main/conformance/bee-maps-conformance.yml
+  href: https://artifacts.apis.io/bee-maps/conformance/bee-maps-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bee-maps-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bee-maps/refs/heads/main/hosts/bee-maps-hosts.yml
+  href: https://artifacts.apis.io/bee-maps/hosts/bee-maps-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bee-maps-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bee-maps/refs/heads/main/vendors/bee-maps-vendors.yml
+  href: https://artifacts.apis.io/bee-maps/vendors/bee-maps-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bee-maps-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bee-maps/refs/heads/main/security/bee-maps-domain-security.yml
+  href: https://artifacts.apis.io/bee-maps/security/bee-maps-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bee-maps-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bee-maps/refs/heads/main/authentication/bee-maps-authentication.yml
+  href: https://artifacts.apis.io/bee-maps/authentication/bee-maps-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bee-maps-authentication.yml
@@ -151,7 +153,7 @@ overview: 'Bee Maps publishes 6 API contracts indexed on the [APIs.io](https://a
 
 
   Bee Maps'' developer surface includes authentication and 11 more developer resources.'
-random_paper: 8
+random_paper: 10
 rules:
 - authorship: generated
   effective_rule_count: 56
@@ -167,7 +169,7 @@ rules:
   slug: bee-maps-rules
 score:
   band: emerging
-  composite: 23.1
+  composite: 23.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 41.8
@@ -175,7 +177,7 @@ score:
     catalog_gap: 73.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
@@ -183,13 +185,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 44.6
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: venue_as_website
-  previous_composite: 23.0
+  previous_composite: 23.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,13 +201,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bee-maps/refs/heads/main/screenshots/bee-maps-2026-10-11T101726.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bee-maps/bee-maps-2026-10-11T101726.png
 security:
 - kind: authentication
   name: Bee Maps Authentication

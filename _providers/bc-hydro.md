@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,47 +36,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bc-hydro/refs/heads/main/security/bc-hydro-domain-security.yml
+  href: https://artifacts.apis.io/bc-hydro/security/bc-hydro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bc-hydro-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bc-hydro/refs/heads/main/authentication/bc-hydro-authentication.yml
+  href: https://artifacts.apis.io/bc-hydro/authentication/bc-hydro-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bc-hydro-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bc-hydro/refs/heads/main/conventions/bc-hydro-conventions.yml
+  href: https://artifacts.apis.io/bc-hydro/conventions/bc-hydro-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bc-hydro-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bc-hydro/refs/heads/main/conformance/bc-hydro-conformance.yml
+  href: https://artifacts.apis.io/bc-hydro/conformance/bc-hydro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bc-hydro-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bc-hydro/refs/heads/main/lifecycle/bc-hydro-lifecycle.yml
+  href: https://artifacts.apis.io/bc-hydro/lifecycle/bc-hydro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bc-hydro-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bc-hydro/refs/heads/main/packages/bc-hydro-packages.yml
+  href: https://artifacts.apis.io/bc-hydro/packages/bc-hydro-packages.yml
   title: ''
   type: Packages
   url: packages/bc-hydro-packages.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/bc-hydro/refs/heads/main/json-schema/bc-hydro-outages-map.json
+  href: https://artifacts.apis.io/bc-hydro/json-schema/bc-hydro-outages-map.json
   title: ''
   type: JSONSchema
   url: json-schema/bc-hydro-outages-map.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bc-hydro/refs/heads/main/llms/bc-hydro-llms.txt
+  href: https://artifacts.apis.io/bc-hydro/llms/bc-hydro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bc-hydro-llms.txt
@@ -171,7 +173,7 @@ overview: 'BC Hydro is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 0
 score:
   band: emerging
-  composite: 14.1
+  composite: 20.4
   coverage:
     artifact_dirs: 14
     catalog_earned: 27.0
@@ -181,11 +183,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 11.9
-    discoverability: 49.1
+    developer_ergonomics: 28.6
+    discoverability: 50.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -194,7 +196,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 14.1
+  previous_composite: 20.4
   provenance:
     conformance: first-party
   regulatory:
@@ -202,15 +204,15 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 19.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bc-hydro/refs/heads/main/screenshots/bc-hydro-2026-08-07T162216.png
+screenshot: https://apis.io/screenshots/bc-hydro/bc-hydro-2026-08-07T162216.png
 security:
 - kind: authentication
   name: Bc Hydro Authentication

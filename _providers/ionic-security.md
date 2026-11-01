@@ -12,17 +12,17 @@ api_count: 0
 artifact_total: 0
 common:
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ionic-security/refs/heads/main/packages/ionic-security-packages.yml
+  href: https://artifacts.apis.io/ionic-security/packages/ionic-security-packages.yml
   title: ''
   type: Packages
   url: packages/ionic-security-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ionic-security/refs/heads/main/packages/ionic-security-packages.yml
+  href: https://artifacts.apis.io/ionic-security/packages/ionic-security-packages.yml
   title: ''
   type: SDKs
   url: packages/ionic-security-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ionic-security/refs/heads/main/cli/ionic-security-cli.yml
+  href: https://artifacts.apis.io/ionic-security/cli/ionic-security-cli.yml
   title: ''
   type: CLI
   url: cli/ionic-security-cli.yml
@@ -46,8 +46,8 @@ overview: 'Ionic Security is profiled on the [APIs.io](https://apis.io/) network
 
 
   Ionic Security''s developer surface includes CLI and 4 more developer resources.'
-random_paper: 11
-screenshot: https://raw.githubusercontent.com/api-evangelist/ionic-security/refs/heads/main/screenshots/ionic-security-2026-07-25T222829.png
+random_paper: 23
+screenshot: https://apis.io/screenshots/ionic-security/ionic-security-2026-07-25T222829.png
 slug: ionic-security
 tags:
 - Company

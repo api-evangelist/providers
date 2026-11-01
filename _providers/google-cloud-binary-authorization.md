@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -59,7 +61,7 @@ apis:
   description: Operations for managing the Binary Authorization policy
   name: Google Cloud Binary Authorization Policy API
   slug: google-cloud-binary-authorization-policy-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: postman
   name: Google Cloud Binary Authorization Attestations API
@@ -70,9 +72,6 @@ collections:
 - collection_type: postman
   name: Google Cloud Binary Authorization Attestations Policy API
   slug: postman-google-cloud-binary-authorization-policy-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Cloud Binary Authorization API
   slug: open-binary-authorization-api
@@ -87,17 +86,17 @@ collections:
   slug: open-google-cloud-binary-authorization-policy-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/plans/google-cloud-binary-authorization-plans-pricing.yml
+  href: https://artifacts.apis.io/google-cloud-binary-authorization/plans/google-cloud-binary-authorization-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-cloud-binary-authorization-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/rate-limits/google-cloud-binary-authorization-rate-limits.yml
+  href: https://artifacts.apis.io/google-cloud-binary-authorization/rate-limits/google-cloud-binary-authorization-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-cloud-binary-authorization-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/finops/google-cloud-binary-authorization-finops.yml
+  href: https://artifacts.apis.io/google-cloud-binary-authorization/finops/google-cloud-binary-authorization-finops.yml
   title: ''
   type: FinOps
   url: finops/google-cloud-binary-authorization-finops.yml
@@ -110,27 +109,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-cloud-binary-authorization/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/agentic-access/google-cloud-binary-authorization-agentic-access.yml
+  href: https://artifacts.apis.io/google-cloud-binary-authorization/agentic-access/google-cloud-binary-authorization-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-cloud-binary-authorization-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/security/google-cloud-binary-authorization-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-cloud-binary-authorization/security/google-cloud-binary-authorization-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-cloud-binary-authorization-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/security/google-cloud-binary-authorization-domain-security.yml
+  href: https://artifacts.apis.io/google-cloud-binary-authorization/security/google-cloud-binary-authorization-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-cloud-binary-authorization-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/authentication/google-cloud-binary-authorization-authentication.yml
+  href: https://artifacts.apis.io/google-cloud-binary-authorization/authentication/google-cloud-binary-authorization-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-cloud-binary-authorization-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/scopes/google-cloud-binary-authorization-scopes.yml
+  href: https://artifacts.apis.io/google-cloud-binary-authorization/scopes/google-cloud-binary-authorization-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-cloud-binary-authorization-scopes.yml
@@ -175,7 +174,7 @@ common:
   type: Support
   url: https://cloud.google.com/binary-authorization/docs/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/json-ld/google-cloud-binary-authorization-context.jsonld
+  href: https://artifacts.apis.io/google-cloud-binary-authorization/json-ld/google-cloud-binary-authorization-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/google-cloud-binary-authorization-context.jsonld
@@ -186,13 +185,13 @@ common:
 created: '2026-03-13'
 description: Google Cloud Binary Authorization is a deploy-time security control that ensures only trusted container images are deployed on Google Kubernetes Engine (GKE), Cloud Run, and Anthos clusters. It uses attestation-based policies to validate that container images have been signed by trusted authorities before allowing deployment, helping enforce software supply chain security.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Google Cloud Binary Authorization Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: cluster per hour
+  service_category: ''
   slug: google-cloud-binary-authorization-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-binary-authorization.png
 json_schemas:
 - name: Google Cloud Binary Authorization Policy
@@ -217,9 +216,9 @@ overview: 'Google Cloud Binary Authorization publishes 3 API contracts indexed o
   Google Cloud Binary Authorization''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 15 more developer resources.'
 plans:
 - name: Google Cloud Binary Authorization Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: google-cloud-binary-authorization-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Google Cloud Binary Authorization Rate Limits
@@ -243,23 +242,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 46.4
+  composite: 53.1
   coverage:
     artifact_dirs: 16
-    catalog_earned: 56.7
-    catalog_earned_first_party: 0.0
-    catalog_gap: 58.4
+    catalog_earned: 64.7
+    catalog_earned_first_party: 8.0
+    catalog_gap: 50.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -0.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 60.5
     contract_governance: 9.8
     contract_quality: 56.1
     developer_ergonomics: 51.2
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 47.9
+    operational_transparency: 39.5
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     contracts:
@@ -273,13 +272,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/screenshots/google-cloud-binary-authorization-2026-06-20T182045.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-cloud-binary-authorization/google-cloud-binary-authorization-2026-06-20T182045.png
 security:
 - kind: authentication
   name: Google Cloud Binary Authorization Authentication

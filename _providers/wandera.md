@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.3
-  scored_at: '2026-10-17'
+  score: 25.9
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://api.wandera.com
@@ -55,9 +57,6 @@ collections:
   name: RADAR Risk API
   slug: postman-wandera-radar-risk-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Wandera RADAR Risk Authentication API
   slug: open-wandera-authentication-api
 - collection_type: open
@@ -65,12 +64,12 @@ collections:
   slug: open-wandera-risk-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/capabilities/wandera-capability-edges.yml
+  href: https://artifacts.apis.io/wandera/capabilities/wandera-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/wandera-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/security/wandera-domain-security.yml
+  href: https://artifacts.apis.io/wandera/security/wandera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wandera-domain-security.yml
@@ -103,37 +102,37 @@ common:
   type: Support
   url: https://www.jamf.com/support/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/openapi/wandera-risk-api-openapi.yml
+  href: https://artifacts.apis.io/wandera/openapi/wandera-risk-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/wandera-risk-api-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/authentication/wandera-authentication.yml
+  href: https://artifacts.apis.io/wandera/authentication/wandera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wandera-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/errors/wandera-problem-types.yml
+  href: https://artifacts.apis.io/wandera/errors/wandera-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wandera-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/conventions/wandera-conventions.yml
+  href: https://artifacts.apis.io/wandera/conventions/wandera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wandera-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/rate-limits/wandera-rate-limits.yml
+  href: https://artifacts.apis.io/wandera/rate-limits/wandera-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wandera-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/lifecycle/wandera-lifecycle.yml
+  href: https://artifacts.apis.io/wandera/lifecycle/wandera-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wandera-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/conformance/wandera-conformance.yml
+  href: https://artifacts.apis.io/wandera/conformance/wandera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wandera-conformance.yml
@@ -142,42 +141,42 @@ common:
   type: Compliance
   url: https://security.jamf.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/data-model/wandera-data-model.yml
+  href: https://artifacts.apis.io/wandera/data-model/wandera-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wandera-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/mcp/wandera-mcp.yml
+  href: https://artifacts.apis.io/wandera/mcp/wandera-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wandera-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/llms/wandera-llms.txt
+  href: https://artifacts.apis.io/wandera/llms/wandera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wandera-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/overlays/wandera-risk-api-overlay.yaml
+  href: https://artifacts.apis.io/wandera/overlays/wandera-risk-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wandera-risk-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/wandera/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/well-known/wandera-well-known.yml
+  href: https://artifacts.apis.io/wandera/well-known/wandera-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wandera-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/well-known/wandera-security.txt
+  href: https://artifacts.apis.io/wandera/well-known/wandera-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/wandera-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/security/wandera-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/wandera/security/wandera-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wandera-vulnerability-disclosure.yml
@@ -186,7 +185,7 @@ common:
   type: Security
   url: https://www.jamf.com/security/vulnerability-disclosure/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/security/wandera-trust-center.yml
+  href: https://artifacts.apis.io/wandera/security/wandera-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wandera-trust-center.yml
@@ -202,14 +201,14 @@ overview: 'Wandera is listed with 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Wandera''s developer surface includes documentation, API reference, support, authentication, and 23 more developer resources.'
-random_paper: 12
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Wandera Rate Limits
   slug: wandera-rate-limits
 score:
-  band: thin
-  composite: 38.0
+  band: developing
+  composite: 40.0
   coverage:
     artifact_dirs: 23
     catalog_earned: 45.0
@@ -217,15 +216,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 4.5
     contract_quality: 52.0
-    developer_ergonomics: 31.5
-    discoverability: 73.2
-    operational_transparency: 50.0
-  previous_composite: 37.9
+    developer_ergonomics: 39.9
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 40.0
   provenance:
     conformance: derived
     contracts:
@@ -241,13 +240,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/screenshots/wandera-2026-08-17T082834.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wandera/wandera-2026-08-17T082834.png
 security:
 - kind: authentication
   name: Wandera Authentication
@@ -265,6 +265,10 @@ security:
   name: Wandera Trust Center
   slug: wandera-trust-center
   summary_line: SOC 2 Type 1, SOC 2 Type 2, ISO/IEC 27001, ISO/IEC 27701, PCI DSS, HIPAA, GDPR, CCPA, CPRA, CSA STAR, Cyber Essentials, EU-US DPF, NIST 800-53 Rev. 5
+skill_count: 1
+skills:
+- name: Query and override device risk (Wandera RADAR)
+  slug: wandera-query-device-risk
 slug: wandera
 tags:
 - Company

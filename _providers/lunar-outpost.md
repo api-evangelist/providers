@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: An unauthenticated remote Model Context Protocol server served from Lunar Outpost's own host and advertised by the company's llms.txt as its "Site MCP Endpoint". It exposes nine tools that let an agen
@@ -52,42 +54,42 @@ common:
   type: Website
   url: https://www.lunaroutpost.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lunar-outpost/refs/heads/main/llms/lunar-outpost-llms.txt
+  href: https://artifacts.apis.io/lunar-outpost/llms/lunar-outpost-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lunar-outpost-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lunar-outpost/refs/heads/main/mcp/lunar-outpost-mcp.yml
+  href: https://artifacts.apis.io/lunar-outpost/mcp/lunar-outpost-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lunar-outpost-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lunar-outpost/refs/heads/main/authentication/lunar-outpost-authentication.yml
+  href: https://artifacts.apis.io/lunar-outpost/authentication/lunar-outpost-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lunar-outpost-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lunar-outpost/refs/heads/main/conventions/lunar-outpost-conventions.yml
+  href: https://artifacts.apis.io/lunar-outpost/conventions/lunar-outpost-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lunar-outpost-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lunar-outpost/refs/heads/main/conformance/lunar-outpost-conformance.yml
+  href: https://artifacts.apis.io/lunar-outpost/conformance/lunar-outpost-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lunar-outpost-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lunar-outpost/refs/heads/main/security/lunar-outpost-domain-security.yml
+  href: https://artifacts.apis.io/lunar-outpost/security/lunar-outpost-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lunar-outpost-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lunar-outpost/refs/heads/main/plans/lunar-outpost-plans-pricing.yml
+  href: https://artifacts.apis.io/lunar-outpost/plans/lunar-outpost-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lunar-outpost-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lunar-outpost/refs/heads/main/rate-limits/lunar-outpost-rate-limits.yml
+  href: https://artifacts.apis.io/lunar-outpost/rate-limits/lunar-outpost-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lunar-outpost-rate-limits.yml
@@ -128,14 +130,14 @@ plans:
 - name: Lunar Outpost Plans Pricing
   plan_count: 0
   slug: lunar-outpost-plans-pricing
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Lunar Outpost Rate Limits
   slug: lunar-outpost-rate-limits
 score:
   band: emerging
-  composite: 18.8
+  composite: 17.8
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -149,7 +151,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -158,7 +160,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 18.8
+  previous_composite: 17.8
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -168,14 +170,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lunar-outpost/refs/heads/main/screenshots/lunar-outpost-2026-09-02T150337.png
+screenshot: https://apis.io/screenshots/lunar-outpost/lunar-outpost-2026-09-02T150337.png
 security:
 - kind: authentication
   name: Lunar Outpost Authentication

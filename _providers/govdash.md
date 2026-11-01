@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,9 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: Generated AsyncAPI view of GovDash's documented outbound webhook events for Opportunity lifecycle changes. Event names, delivery mechanism (Svix), and signature verification are taken verbatim from ht
   name: GovDash Webhooks
@@ -44,7 +46,7 @@ asyncapis:
   slug: govdash-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/govdash/refs/heads/main/plans/govdash-plans-pricing.yml
+  href: https://artifacts.apis.io/govdash/plans/govdash-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/govdash-plans-pricing.yml
@@ -93,52 +95,60 @@ common:
   type: Compliance
   url: https://www.govdash.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/govdash/refs/heads/main/llms/govdash-llms.txt
+  href: https://artifacts.apis.io/govdash/llms/govdash-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/govdash-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/govdash/refs/heads/main/well-known/govdash-well-known.yml
+  href: https://artifacts.apis.io/govdash/well-known/govdash-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/govdash-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/govdash/refs/heads/main/asyncapi/govdash-webhooks.yml
+  href: https://artifacts.apis.io/govdash/asyncapi/govdash-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/govdash-webhooks.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/govdash/refs/heads/main/asyncapi/govdash-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/govdash/asyncapi/govdash-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/govdash-webhooks-asyncapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/govdash/refs/heads/main/security/govdash-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/govdash/security/govdash-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/govdash-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/govdash/refs/heads/main/security/govdash-trust-center.yml
+  href: https://artifacts.apis.io/govdash/security/govdash-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/govdash-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/govdash/refs/heads/main/conformance/govdash-conformance.yml
+  href: https://artifacts.apis.io/govdash/conformance/govdash-conformance.yml
   title: ''
   type: Conformance
   url: conformance/govdash-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/govdash/refs/heads/main/security/govdash-domain-security.yml
+  href: https://artifacts.apis.io/govdash/security/govdash-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/govdash-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/govdash/refs/heads/main/lifecycle/govdash-lifecycle.yml
+  href: https://artifacts.apis.io/govdash/lifecycle/govdash-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/govdash-lifecycle.yml
 created: '2026-07-17'
 description: GovDash is an end-to-end AI platform for government contracting (GovCon), helping companies discover, capture, price, propose, and manage federal, state, local, and education contracts. Its product suite spans Discover (automated bid matching from SAM.gov, GSA eBuy, GovWin, PIEE, and SLED portals), Capture (a GovCon CRM and pipeline), Pricer, Proposal (compliant proposal generation), and Contract lifecycle management, unified by Dash, an AI agent that synthesizes data and executes workflows. GovDash is FedRAMP Ready / Moderate-equivalent, NIST SP 800-53 and DFARS 252.204-7012 aligned for CUI, and integrates with Salesforce, SharePoint, Okta/Google SSO, Slack, and Microsoft Office. It exposes outbound webhooks (Svix) for opportunity lifecycle events. Founded 2021 (YC W22); raised a $30M Series B in January 2026.
+finops:
+- has_sources: true
+  method: derived
+  name: Govdash Finops
+  primary_unit: ''
+  service_category: ''
+  slug: govdash-finops
+  template: true
 image: https://www.govdash.com/opengraph-image?f0fc2d766b3d3aad
 layout: provider
 modified: '2026-07-19'
@@ -156,26 +166,26 @@ plans:
 - name: Govdash Plans Pricing
   plan_count: 3
   slug: govdash-plans-pricing
-random_paper: 0
+random_paper: 4
 score:
   band: developing
-  composite: 43.7
+  composite: 43.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 16.7
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 18.4
-  previous_composite: 37.4
+  previous_composite: 43.0
   provenance:
     conformance: first-party
   regulatory:
@@ -184,14 +194,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/govdash/refs/heads/main/screenshots/govdash-2026-07-25T220126.png
+screenshot: https://apis.io/screenshots/govdash/govdash-2026-07-25T220126.png
 security:
 - kind: domain-security
   name: Govdash Domain Security

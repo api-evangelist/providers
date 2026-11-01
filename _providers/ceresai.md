@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ceresai/refs/heads/main/plans/ceresai-plans-pricing.yml
+  href: https://artifacts.apis.io/ceresai/plans/ceresai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ceresai-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ceresai/refs/heads/main/security/ceresai-domain-security.yml
+  href: https://artifacts.apis.io/ceresai/security/ceresai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ceresai-domain-security.yml
@@ -95,7 +97,7 @@ common:
   type: PrivacyPolicy
   url: https://ceres.ai/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ceresai/refs/heads/main/llms/ceresai-llms.txt
+  href: https://artifacts.apis.io/ceresai/llms/ceresai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ceresai-llms.txt
@@ -115,10 +117,10 @@ plans:
 - name: Ceresai Plans Pricing
   plan_count: 0
   slug: ceresai-plans-pricing
-random_paper: 6
+random_paper: 12
 score:
   band: emerging
-  composite: 15.5
+  composite: 18.9
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -131,24 +133,24 @@ score:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 15.5
+    developer_ergonomics: 26.2
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 18.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ceresai/refs/heads/main/screenshots/ceresai-2026-07-25T204955.png
+screenshot: https://apis.io/screenshots/ceresai/ceresai-2026-07-25T204955.png
 security:
 - kind: domain-security
   name: Ceresai Domain Security

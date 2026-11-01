@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Australian address autocomplete, validation and geocoding API.
@@ -32,52 +34,52 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/locio/refs/heads/main/plans/locio-plans-pricing.yml
+  href: https://artifacts.apis.io/locio/plans/locio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/locio-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/locio/refs/heads/main/authentication/locio-authentication.yml
+  href: https://artifacts.apis.io/locio/authentication/locio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/locio-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/locio/refs/heads/main/conformance/locio-conformance.yml
+  href: https://artifacts.apis.io/locio/conformance/locio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/locio-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/locio/refs/heads/main/llms/locio-llms.txt
+  href: https://artifacts.apis.io/locio/llms/locio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/locio-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/locio/refs/heads/main/mcp/locio-mcp.yml
+  href: https://artifacts.apis.io/locio/mcp/locio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/locio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/locio/refs/heads/main/well-known/locio-well-known.yml
+  href: https://artifacts.apis.io/locio/well-known/locio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/locio-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/locio/refs/heads/main/hosts/locio-hosts.yml
+  href: https://artifacts.apis.io/locio/hosts/locio-hosts.yml
   title: ''
   type: Hosts
   url: hosts/locio-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/locio/refs/heads/main/vendors/locio-vendors.yml
+  href: https://artifacts.apis.io/locio/vendors/locio-vendors.yml
   title: ''
   type: Vendors
   url: vendors/locio-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/locio/refs/heads/main/packages/locio-packages.yml
+  href: https://artifacts.apis.io/locio/packages/locio-packages.yml
   title: ''
   type: SDKs
   url: packages/locio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/locio/refs/heads/main/packages/locio-packages.yml
+  href: https://artifacts.apis.io/locio/packages/locio-packages.yml
   title: ''
   type: Packages
   url: packages/locio-packages.yml
@@ -86,7 +88,7 @@ common:
   type: DeveloperPortal
   url: https://api.locio.com.au</code
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/locio/refs/heads/main/security/locio-domain-security.yml
+  href: https://artifacts.apis.io/locio/security/locio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/locio-domain-security.yml
@@ -158,7 +160,7 @@ plans:
 random_paper: 6
 score:
   band: thin
-  composite: 36.3
+  composite: 35.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 44.0
@@ -166,15 +168,15 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 0.0
-  previous_composite: 35.0
+  previous_composite: 35.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -184,8 +186,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

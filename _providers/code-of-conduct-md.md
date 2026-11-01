@@ -12,7 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/code-of-conduct-md/refs/heads/main/security/code-of-conduct-md-domain-security.yml
+  href: https://artifacts.apis.io/code-of-conduct-md/security/code-of-conduct-md-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/code-of-conduct-md-domain-security.yml
@@ -68,8 +68,8 @@ overview: 'CODE_OF_CONDUCT.md is profiled on the [APIs.io](https://apis.io/) net
 
 
   CODE_OF_CONDUCT.md''s developer surface includes documentation and 10 more developer resources.'
-random_paper: 4
-screenshot: https://raw.githubusercontent.com/api-evangelist/code-of-conduct-md/refs/heads/main/screenshots/code-of-conduct-md-2026-06-20T174654.png
+random_paper: 16
+screenshot: https://apis.io/screenshots/code-of-conduct-md/code-of-conduct-md-2026-06-20T174654.png
 security:
 - kind: domain-security
   name: Code Of Conduct Md Domain Security

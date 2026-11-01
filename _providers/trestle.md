@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.3
-  scored_at: '2026-10-17'
+  score: 19.2
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The primary Trestle interface — a RESO Web API 2.0 / OData 4.0 endpoint that republishes MLS data mapped to the RESO Data Dictionary. The anonymously readable OData service document advertises 18 enti
@@ -51,7 +53,7 @@ apis:
 - description: Trestle's legacy Real Estate Transaction Standard interface, documented as compliant with RETS 1.8. RESO no longer updates the RETS specification, but Trestle continues to serve it for customers who c
   name: Trestle RETS
   slug: trestle-rets
-artifact_total: 12
+artifact_total: 14
 collections:
 - collection_type: postman
   name: Trestle WebAPI Demonstration
@@ -61,12 +63,12 @@ collections:
   slug: open-trestle-odata-service-document
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/mcp/trestle-mcp.yml
+  href: https://artifacts.apis.io/trestle/mcp/trestle-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/trestle-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/security/trestle-domain-security.yml
+  href: https://artifacts.apis.io/trestle/security/trestle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trestle-domain-security.yml
@@ -143,7 +145,7 @@ common:
   type: Security
   url: https://www.cotality.com/legal/responsible-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/security/trestle-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/trestle/security/trestle-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/trestle-vulnerability-disclosure.yml
@@ -152,47 +154,47 @@ common:
   type: Compliance
   url: https://www.cotality.com/resources/article/corelogic-achieves-reso-data-dictionary-v2-0-vendor-certification
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/conformance/trestle-conformance.yml
+  href: https://artifacts.apis.io/trestle/conformance/trestle-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trestle-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/authentication/trestle-authentication.yml
+  href: https://artifacts.apis.io/trestle/authentication/trestle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trestle-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/scopes/trestle-scopes.yml
+  href: https://artifacts.apis.io/trestle/scopes/trestle-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/trestle-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/well-known/trestle-openid-configuration.json
+  href: https://artifacts.apis.io/trestle/well-known/trestle-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/trestle-openid-configuration.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/well-known/trestle-well-known.yml
+  href: https://artifacts.apis.io/trestle/well-known/trestle-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/trestle-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/packages/trestle-packages.yml
+  href: https://artifacts.apis.io/trestle/packages/trestle-packages.yml
   title: ''
   type: Packages
   url: packages/trestle-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/errors/trestle-problem-types.yml
+  href: https://artifacts.apis.io/trestle/errors/trestle-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/trestle-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/lifecycle/trestle-lifecycle.yml
+  href: https://artifacts.apis.io/trestle/lifecycle/trestle-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trestle-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/changelog/trestle-changelog.yml
+  href: https://artifacts.apis.io/trestle/changelog/trestle-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/trestle-changelog.yml
@@ -201,37 +203,37 @@ common:
   type: ChangeLog
   url: https://trestle-documentation.corelogic.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/conventions/trestle-conventions.yml
+  href: https://artifacts.apis.io/trestle/conventions/trestle-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trestle-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/data-model/trestle-data-model.yml
+  href: https://artifacts.apis.io/trestle/data-model/trestle-data-model.yml
   title: ''
   type: DataModel
   url: data-model/trestle-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/rate-limits/trestle-rate-limits.yml
+  href: https://artifacts.apis.io/trestle/rate-limits/trestle-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trestle-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/postman/trestle-webapi.postman_collection.json
+  href: https://artifacts.apis.io/trestle/postman/trestle-webapi.postman_collection.json
   title: ''
   type: Postman
   url: postman/trestle-webapi.postman_collection.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/examples/trestle-webapi-examples.yml
+  href: https://artifacts.apis.io/trestle/examples/trestle-webapi-examples.yml
   title: ''
   type: Examples
   url: examples/trestle-webapi-examples.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/trestle/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/llms/trestle-llms.txt
+  href: https://artifacts.apis.io/trestle/llms/trestle-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trestle-llms.txt
@@ -252,7 +254,7 @@ overview: 'Trestle is listed with 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Trestle''s developer surface includes documentation, FAQ, signup flow, support, getting-started guide, API reference, engineering blog, and 32 more developer resources.'
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Trestle Rate Limits
@@ -264,7 +266,7 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 45.9
+  composite: 45.5
   coverage:
     artifact_dirs: 22
     catalog_earned: 47.0
@@ -276,10 +278,10 @@ score:
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 11.9
+    contract_quality: 6.5
     developer_ergonomics: 60.1
-    discoverability: 62.5
-    operational_transparency: 73.7
+    discoverability: 61.7
+    operational_transparency: 81.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -287,7 +289,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 45.9
+  previous_composite: 45.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -298,14 +300,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/screenshots/trestle-2026-09-02T164213.png
+screenshot: https://apis.io/screenshots/trestle/trestle-2026-09-02T164213.png
 security:
 - kind: authentication
   name: Trestle Authentication
@@ -319,6 +321,12 @@ security:
   name: Trestle Vulnerability Disclosure
   slug: trestle-vulnerability-disclosure
   summary_line: Bugcrowd
+skill_count: 2
+skills:
+- name: Replicate Trestle listings and media
+  slug: trestle-replicate-listings-and-media
+- name: Submit a Trestle participant report
+  slug: trestle-submit-participant-report
 slug: trestle
 tags:
 - Real Estate

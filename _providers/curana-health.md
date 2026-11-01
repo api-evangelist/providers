@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Standards-based FHIR R4 (4.0.1) Patient Access API published for CMS-9115-F / ONC 21st Century Cures Act compliance. Lets Medicare Advantage members authorize third-party applications via OAuth 2.0 to
@@ -82,32 +84,32 @@ common:
   type: Compliance
   url: https://curanahealth.com/interoperability-api/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/authentication/curana-health-authentication.yml
+  href: https://artifacts.apis.io/curana-health/authentication/curana-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/curana-health-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/scopes/curana-health-scopes.yml
+  href: https://artifacts.apis.io/curana-health/scopes/curana-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/curana-health-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/conventions/curana-health-conventions.yml
+  href: https://artifacts.apis.io/curana-health/conventions/curana-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/curana-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/conformance/curana-health-conformance.yml
+  href: https://artifacts.apis.io/curana-health/conformance/curana-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/curana-health-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/errors/curana-health-problem-types.yml
+  href: https://artifacts.apis.io/curana-health/errors/curana-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/curana-health-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/lifecycle/curana-health-lifecycle.yml
+  href: https://artifacts.apis.io/curana-health/lifecycle/curana-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/curana-health-lifecycle.yml
@@ -116,37 +118,37 @@ common:
   type: Deprecation
   url: https://curanahealth.com/wp-content/uploads/2025/11/CuranaCMSAPI-Release-Policy-Clean-and-Final.pdf
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/changelog/curana-health-changelog.yml
+  href: https://artifacts.apis.io/curana-health/changelog/curana-health-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/curana-health-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/sandbox/curana-health-sandbox.yml
+  href: https://artifacts.apis.io/curana-health/sandbox/curana-health-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/curana-health-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/data-model/curana-health-data-model.yml
+  href: https://artifacts.apis.io/curana-health/data-model/curana-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/curana-health-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/mcp/curana-health-mcp.yml
+  href: https://artifacts.apis.io/curana-health/mcp/curana-health-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/curana-health-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/llms/curana-health-llms.txt
+  href: https://artifacts.apis.io/curana-health/llms/curana-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/curana-health-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/well-known/curana-health-well-known.yml
+  href: https://artifacts.apis.io/curana-health/well-known/curana-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/curana-health-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/security/curana-health-domain-security.yml
+  href: https://artifacts.apis.io/curana-health/security/curana-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/curana-health-domain-security.yml
@@ -162,7 +164,7 @@ overview: 'Curana Health is listed with 1 API on the [APIs.io](https://apis.io/)
 
 
   Curana Health''s developer surface includes engineering blog, documentation, API reference, signup flow, authentication, changelog, sandbox, and 17 more developer resources.'
-random_paper: 11
+random_paper: 13
 scopes:
 - name: Curana Health Scopes
   scope_count: 0
@@ -170,7 +172,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 33.3
+  composite: 35.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -178,15 +180,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 23.7
-  previous_composite: 32.8
+  previous_composite: 35.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -201,15 +203,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 44.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 47.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/screenshots/curana-health-2026-07-25T210929.png
+screenshot: https://apis.io/screenshots/curana-health/curana-health-2026-07-25T210929.png
 security:
 - kind: authentication
   name: Curana Health Authentication

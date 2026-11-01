@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,11 +60,8 @@ apis:
   description: Retrieve news by topic
   name: Google News RSS Topics API
   slug: google-news-topics-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google News RSS Headlines API
   slug: open-google-news-headlines-api
@@ -77,17 +76,17 @@ collections:
   slug: open-openapi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/plans/google-news-plans-pricing.yml
+  href: https://artifacts.apis.io/google-news/plans/google-news-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-news-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/rate-limits/google-news-rate-limits.yml
+  href: https://artifacts.apis.io/google-news/rate-limits/google-news-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-news-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/finops/google-news-finops.yml
+  href: https://artifacts.apis.io/google-news/finops/google-news-finops.yml
   title: ''
   type: FinOps
   url: finops/google-news-finops.yml
@@ -96,17 +95,17 @@ common:
   type: Website
   url: https://www.google.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/agentic-access/google-news-agentic-access.yml
+  href: https://artifacts.apis.io/google-news/agentic-access/google-news-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-news-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/security/google-news-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-news/security/google-news-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-news-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/security/google-news-domain-security.yml
+  href: https://artifacts.apis.io/google-news/security/google-news-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-news-domain-security.yml
@@ -148,7 +147,7 @@ finops:
 - has_sources: false
   method: generated
   name: Google News Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: google-news-finops
   template: true
@@ -178,7 +177,7 @@ plans:
 - name: Google News Plans Pricing
   plan_count: 3
   slug: google-news-plans-pricing
-random_paper: 5
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Google News Rate Limits
@@ -209,7 +208,7 @@ rules:
   slug: google-news-spectral-rules
 score:
   band: thin
-  composite: 33.7
+  composite: 38.4
   coverage:
     artifact_dirs: 13
     catalog_earned: 57.9
@@ -217,15 +216,15 @@ score:
     catalog_gap: 57.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 51.8
-    developer_ergonomics: 21.4
+    developer_ergonomics: 38.1
     discoverability: 66.1
-    operational_transparency: 7.9
-  previous_composite: 39.3
+    operational_transparency: 18.4
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -239,14 +238,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/screenshots/google-news-2026-06-20T182219.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-news/google-news-2026-06-20T182219.png
 security:
 - kind: domain-security
   name: Google News Domain Security

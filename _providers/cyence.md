@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Partner-gated REST API that exposes Cyence cyber risk analytics — exposure signals, breach-probability and loss estimates, and portfolio accumulation data — for pricing, risk selection, and underwriti
@@ -49,7 +51,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/guidewire/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cyence/refs/heads/main/security/cyence-domain-security.yml
+  href: https://artifacts.apis.io/cyence/security/cyence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cyence-domain-security.yml
@@ -74,7 +76,7 @@ common:
   type: Blog
   url: https://www.guidewire.com/resources/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cyence/refs/heads/main/security/cyence-trust-center.yml
+  href: https://artifacts.apis.io/cyence/security/cyence-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cyence-trust-center.yml
@@ -94,10 +96,10 @@ overview: 'Cyence is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Cyence''s developer surface includes documentation, API reference, engineering blog, and 7 more developer resources.'
-random_paper: 15
+random_paper: 7
 score:
   band: emerging
-  composite: 11.6
+  composite: 13.5
   coverage:
     artifact_dirs: 4
     catalog_earned: 32.0
@@ -110,24 +112,24 @@ score:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 28.6
     discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 11.6
+  previous_composite: 13.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cyence/refs/heads/main/screenshots/cyence-2026-07-25T211038.png
+screenshot: https://apis.io/screenshots/cyence/cyence-2026-07-25T211038.png
 security:
 - kind: domain-security
   name: Cyence Domain Security

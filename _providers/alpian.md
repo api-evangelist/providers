@@ -14,36 +14,38 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alpian/refs/heads/main/llms/alpian-llms.txt
+  href: https://artifacts.apis.io/alpian/llms/alpian-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alpian-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alpian/refs/heads/main/well-known/alpian-clarity-security.txt
+  href: https://artifacts.apis.io/alpian/well-known/alpian-clarity-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/alpian-clarity-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alpian/refs/heads/main/well-known/alpian-well-known.yml
+  href: https://artifacts.apis.io/alpian/well-known/alpian-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alpian-well-known.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alpian/refs/heads/main/plans/alpian-plans-pricing.yml
+  href: https://artifacts.apis.io/alpian/plans/alpian-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/alpian-plans-pricing.yml
@@ -52,12 +54,12 @@ common:
   type: Security
   url: https://clarity.com/vdp
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alpian/refs/heads/main/hosts/alpian-hosts.yml
+  href: https://artifacts.apis.io/alpian/hosts/alpian-hosts.yml
   title: ''
   type: Hosts
   url: hosts/alpian-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alpian/refs/heads/main/vendors/alpian-vendors.yml
+  href: https://artifacts.apis.io/alpian/vendors/alpian-vendors.yml
   title: ''
   type: Vendors
   url: vendors/alpian-vendors.yml
@@ -78,12 +80,12 @@ common:
   type: Newsroom
   url: https://www.alpian.com/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alpian/refs/heads/main/security/alpian-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/alpian/security/alpian-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/alpian-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alpian/refs/heads/main/security/alpian-domain-security.yml
+  href: https://artifacts.apis.io/alpian/security/alpian-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alpian-domain-security.yml
@@ -107,10 +109,10 @@ plans:
 - name: Alpian Plans Pricing
   plan_count: 9
   slug: alpian-plans-pricing
-random_paper: 13
+random_paper: 5
 score:
   band: emerging
-  composite: 18.1
+  composite: 17.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 34.0
@@ -124,9 +126,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 48.2
+    discoverability: 41.1
     operational_transparency: 10.5
-  previous_composite: 18.1
+  previous_composite: 17.4
   provenance:
     mcp: unknown
   regulatory:
@@ -135,14 +137,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alpian/refs/heads/main/screenshots/alpian-2026-10-11T093729.png
+screenshot: https://apis.io/screenshots/alpian/alpian-2026-10-11T093729.png
 security:
 - kind: domain-security
   name: Alpian Domain Security

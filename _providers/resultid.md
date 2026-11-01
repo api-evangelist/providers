@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 28.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,14 +54,14 @@ apis:
 - description: The Insight endpoints API from Resultid — 1 operation(s) for insight endpoints.
   name: Resultid Insight endpoints API
   slug: resultid-insight-endpoints-api
-artifact_total: 7
+artifact_total: 9
 common:
 - group: company
   title: ''
   type: Blog
   url: https://www.resultid.ai/blog/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/agentic-access/resultid-agentic-access.yml
+  href: https://artifacts.apis.io/resultid/agentic-access/resultid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/resultid-agentic-access.yml
@@ -84,7 +86,7 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/resultid
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/security/resultid-domain-security.yml
+  href: https://artifacts.apis.io/resultid/security/resultid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/resultid-domain-security.yml
@@ -105,67 +107,67 @@ common:
   type: GettingStarted
   url: https://docs.resultid.com/1_getting_started/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/authentication/resultid-authentication.yml
+  href: https://artifacts.apis.io/resultid/authentication/resultid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/resultid-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/errors/resultid-problem-types.yml
+  href: https://artifacts.apis.io/resultid/errors/resultid-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/resultid-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/conventions/resultid-conventions.yml
+  href: https://artifacts.apis.io/resultid/conventions/resultid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/resultid-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/data-model/resultid-data-model.yml
+  href: https://artifacts.apis.io/resultid/data-model/resultid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/resultid-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/conformance/resultid-conformance.yml
+  href: https://artifacts.apis.io/resultid/conformance/resultid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/resultid-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/lifecycle/resultid-lifecycle.yml
+  href: https://artifacts.apis.io/resultid/lifecycle/resultid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/resultid-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/packages/resultid-packages.yml
+  href: https://artifacts.apis.io/resultid/packages/resultid-packages.yml
   title: ''
   type: Packages
   url: packages/resultid-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/llms/resultid-llms.txt
+  href: https://artifacts.apis.io/resultid/llms/resultid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/resultid-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/mcp/resultid-mcp.yml
+  href: https://artifacts.apis.io/resultid/mcp/resultid-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/resultid-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/resultid/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/overlays/resultid-api-overlay.yaml
+  href: https://artifacts.apis.io/resultid/overlays/resultid-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/resultid-api-overlay.yaml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/rate-limits/resultid-rate-limits.yml
+  href: https://artifacts.apis.io/resultid/rate-limits/resultid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/resultid-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/plans/resultid-plans-pricing.yml
+  href: https://artifacts.apis.io/resultid/plans/resultid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/resultid-plans-pricing.yml
@@ -186,14 +188,14 @@ plans:
 - name: Resultid Plans Pricing
   plan_count: 0
   slug: resultid-plans-pricing
-random_paper: 18
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Resultid Rate Limits
   slug: resultid-rate-limits
 score:
   band: thin
-  composite: 28.9
+  composite: 29.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 32.0
@@ -201,15 +203,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 37.0
     developer_ergonomics: 44.6
-    discoverability: 64.3
-    operational_transparency: 18.4
-  previous_composite: 28.4
+    discoverability: 57.1
+    operational_transparency: 21.1
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,14 +228,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/screenshots/resultid-2026-09-02T153609.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/resultid/resultid-2026-09-02T153609.png
 security:
 - kind: authentication
   name: Resultid Authentication
@@ -243,6 +245,12 @@ security:
   name: Resultid Domain Security
   slug: resultid-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Read a Resultid campaign's insight grid
+  slug: resultid-read-campaign-insight-grid
+- name: Trace a Resultid tracker value to its source highlights
+  slug: resultid-trace-tracker-value-to-highlights
 slug: resultid
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: Anonymous proof-of-human credential. Users prove uniqueness via Orb (highest assurance), government document with NFC, or selfie liveness check (beta). Applications request a zero-knowledge proof tied
@@ -57,17 +59,17 @@ apis:
 artifact_total: 11
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/worldcoin/refs/heads/main/plans/worldcoin-plans-pricing.yml
+  href: https://artifacts.apis.io/worldcoin/plans/worldcoin-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/worldcoin-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/worldcoin/refs/heads/main/rate-limits/worldcoin-rate-limits.yml
+  href: https://artifacts.apis.io/worldcoin/rate-limits/worldcoin-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/worldcoin-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/worldcoin/refs/heads/main/finops/worldcoin-finops.yml
+  href: https://artifacts.apis.io/worldcoin/finops/worldcoin-finops.yml
   title: ''
   type: FinOps
   url: finops/worldcoin-finops.yml
@@ -96,12 +98,12 @@ common:
   type: License
   url: https://github.com/worldcoin/idkit-js/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/worldcoin/refs/heads/main/security/worldcoin-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/worldcoin/security/worldcoin-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/worldcoin-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/worldcoin/refs/heads/main/security/worldcoin-domain-security.yml
+  href: https://artifacts.apis.io/worldcoin/security/worldcoin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/worldcoin-domain-security.yml
@@ -161,22 +163,22 @@ plans:
 - name: Worldcoin Plans Pricing
   plan_count: 1
   slug: worldcoin-plans-pricing
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Worldcoin Rate Limits
   slug: worldcoin-rate-limits
 score:
   band: emerging
-  composite: 23.4
+  composite: 16.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -184,24 +186,21 @@ score:
     developer_ergonomics: 26.2
     discoverability: 66.1
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 85.0
-  previous_composite: 28.9
+  previous_composite: 16.7
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 11.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/worldcoin/refs/heads/main/screenshots/worldcoin-2026-06-20T201620.png
+screenshot: https://apis.io/screenshots/worldcoin/worldcoin-2026-06-20T201620.png
 security:
 - kind: domain-security
   name: Worldcoin Domain Security

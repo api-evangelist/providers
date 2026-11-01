@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,16 +38,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Machine-to-machine REST API for ingesting Product Detail Pages (by Amazon ASIN or by caller-supplied id), submitting standalone images for asynchronous Visual AI scoring, retrieving PDP and image scor
   name: Vizit Public API
   slug: public-api
-artifact_total: 4
+artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/security/vizit-domain-security.yml
+  href: https://artifacts.apis.io/vizit/security/vizit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vizit-domain-security.yml
@@ -126,62 +128,62 @@ common:
   type: Forge
   url: https://forgeglobal.com/vizit_stock/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/authentication/vizit-authentication.yml
+  href: https://artifacts.apis.io/vizit/authentication/vizit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vizit-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/conventions/vizit-conventions.yml
+  href: https://artifacts.apis.io/vizit/conventions/vizit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vizit-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/conventions/vizit-conventions.yml
+  href: https://artifacts.apis.io/vizit/conventions/vizit-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/vizit-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/errors/vizit-error-codes.yml
+  href: https://artifacts.apis.io/vizit/errors/vizit-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/vizit-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/rate-limits/vizit-rate-limits.yml
+  href: https://artifacts.apis.io/vizit/rate-limits/vizit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vizit-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/lifecycle/vizit-lifecycle.yml
+  href: https://artifacts.apis.io/vizit/lifecycle/vizit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vizit-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/sandbox/vizit-sandbox.yml
+  href: https://artifacts.apis.io/vizit/sandbox/vizit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/vizit-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/conformance/vizit-conformance.yml
+  href: https://artifacts.apis.io/vizit/conformance/vizit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vizit-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/data-model/vizit-data-model.yml
+  href: https://artifacts.apis.io/vizit/data-model/vizit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vizit-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/mcp/vizit-mcp.yml
+  href: https://artifacts.apis.io/vizit/mcp/vizit-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vizit-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vizit/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/llms/vizit-llms.txt
+  href: https://artifacts.apis.io/vizit/llms/vizit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vizit-llms.txt
@@ -197,14 +199,14 @@ overview: 'Vizit is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Vizit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 16
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Vizit Rate Limits
   slug: vizit-rate-limits
 score:
   band: thin
-  composite: 35.5
+  composite: 35.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 49.0
@@ -212,14 +214,14 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    operational_transparency: 39.5
+    discoverability: 67.9
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -238,14 +240,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/screenshots/vizit-2026-09-02T170149.png
+screenshot: https://apis.io/screenshots/vizit/vizit-2026-09-02T170149.png
 security:
 - kind: authentication
   name: Vizit Authentication
@@ -255,6 +257,16 @@ security:
   name: Vizit Domain Security
   slug: vizit-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Bulk export an organization's scores
+  slug: vizit-export-scores
+- name: Score an image and request Spark improvements
+  slug: vizit-improve-an-image-with-spark
+- name: Score an Amazon listing by ASIN
+  slug: vizit-score-an-amazon-listing
+- name: Score a product detail page from your own images
+  slug: vizit-score-your-own-pdp
 slug: vizit
 tags:
 - Company

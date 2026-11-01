@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.8
-  scored_at: '2026-10-17'
+  score: 8.8
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: The Forest Inventory and Analysis Database API, the machine surface behind the EVALIDator web application. A single GET or POST to /fullreport returns population estimates with standard errors, varian
@@ -53,7 +55,7 @@ apis:
 - description: 'The agency''s Geospatial Data Discovery site publishes a machine-readable DCAT-US 1.1 / Project Open Data catalog of Forest Service datasets — a ~2 MB JSON document declaring "@type": "dcat:Catalog" an'
   name: U.S. Forest Service Geospatial Data Discovery (DCAT-US catalog)
   slug: geospatial-data-discovery
-artifact_total: 9
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -80,72 +82,72 @@ common:
   type: PrivacyPolicy
   url: https://www.usda.gov/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forest-service/refs/heads/main/authentication/forest-service-authentication.yml
+  href: https://artifacts.apis.io/forest-service/authentication/forest-service-authentication.yml
   title: ''
   type: Authentication
   url: authentication/forest-service-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forest-service/refs/heads/main/conventions/forest-service-conventions.yml
+  href: https://artifacts.apis.io/forest-service/conventions/forest-service-conventions.yml
   title: ''
   type: Conventions
   url: conventions/forest-service-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forest-service/refs/heads/main/errors/forest-service-error-catalog.yml
+  href: https://artifacts.apis.io/forest-service/errors/forest-service-error-catalog.yml
   title: ''
   type: ErrorCatalog
   url: errors/forest-service-error-catalog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forest-service/refs/heads/main/lifecycle/forest-service-lifecycle.yml
+  href: https://artifacts.apis.io/forest-service/lifecycle/forest-service-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/forest-service-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/forest-service/refs/heads/main/changelog/forest-service-changelog.yml
+  href: https://artifacts.apis.io/forest-service/changelog/forest-service-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/forest-service-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forest-service/refs/heads/main/conformance/forest-service-conformance.yml
+  href: https://artifacts.apis.io/forest-service/conformance/forest-service-conformance.yml
   title: ''
   type: Conformance
   url: conformance/forest-service-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/forest-service/refs/heads/main/data-model/forest-service-data-model.yml
+  href: https://artifacts.apis.io/forest-service/data-model/forest-service-data-model.yml
   title: ''
   type: DataModel
   url: data-model/forest-service-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/forest-service/refs/heads/main/packages/forest-service-packages.yml
+  href: https://artifacts.apis.io/forest-service/packages/forest-service-packages.yml
   title: ''
   type: Packages
   url: packages/forest-service-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/forest-service/refs/heads/main/plans/forest-service-plans-pricing.yml
+  href: https://artifacts.apis.io/forest-service/plans/forest-service-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/forest-service-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/forest-service/refs/heads/main/rate-limits/forest-service-rate-limits.yml
+  href: https://artifacts.apis.io/forest-service/rate-limits/forest-service-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/forest-service-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forest-service/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/forest-service/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forest-service/refs/heads/main/llms/forest-service-llms.txt
+  href: https://artifacts.apis.io/forest-service/llms/forest-service-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/forest-service-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/forest-service/refs/heads/main/wsdl/forest-service-arcgis-mapserver.wsdl
+  href: https://artifacts.apis.io/forest-service/wsdl/forest-service-arcgis-mapserver.wsdl
   title: ''
   type: WSDL
   url: wsdl/forest-service-arcgis-mapserver.wsdl
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forest-service/refs/heads/main/security/forest-service-domain-security.yml
+  href: https://artifacts.apis.io/forest-service/security/forest-service-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/forest-service-domain-security.yml
@@ -165,14 +167,14 @@ plans:
 - name: Forest Service Plans Pricing
   plan_count: 0
   slug: forest-service-plans-pricing
-random_paper: 5
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Forest Service Rate Limits
   slug: forest-service-rate-limits
 score:
   band: thin
-  composite: 34.5
+  composite: 28.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
@@ -184,16 +186,16 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 24.0
+    contract_quality: 0.0
     developer_ergonomics: 54.2
     discoverability: 71.4
-    operational_transparency: 18.4
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 34.5
+  previous_composite: 28.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -204,14 +206,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/forest-service/refs/heads/main/screenshots/forest-service-2026-06-20T181424.png
+screenshot: https://apis.io/screenshots/forest-service/forest-service-2026-06-20T181424.png
 security:
 - kind: authentication
   name: Forest Service Authentication
@@ -221,6 +223,12 @@ security:
   name: Forest Service Domain Security
   slug: forest-service-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Find and cite Forest Service research data
+  slug: forest-service-find-research-data
+- name: Produce a Forest Inventory and Analysis estimate
+  slug: forest-service-forest-inventory-estimate
 slug: forest-service
 tags:
 - Agriculture

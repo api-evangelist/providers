@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Real-time REST API exposing raw mobile app-store data — apps, publishers, parent companies, SDKs, download/revenue/usage estimates, ratings, top charts, and advertising intelligence across iTunes, Goo
@@ -44,7 +46,7 @@ apis:
 artifact_total: 4
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apptopia/refs/heads/main/rate-limits/apptopia-rate-limits.yml
+  href: https://artifacts.apis.io/apptopia/rate-limits/apptopia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apptopia-rate-limits.yml
@@ -65,7 +67,7 @@ common:
   type: APIReference
   url: https://dev.apptopia.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apptopia/refs/heads/main/authentication/apptopia-authentication.yml
+  href: https://artifacts.apis.io/apptopia/authentication/apptopia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apptopia-authentication.yml
@@ -102,12 +104,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/apptopia
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apptopia/refs/heads/main/llms/apptopia-llms.txt
+  href: https://artifacts.apis.io/apptopia/llms/apptopia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apptopia-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apptopia/refs/heads/main/security/apptopia-domain-security.yml
+  href: https://artifacts.apis.io/apptopia/security/apptopia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apptopia-domain-security.yml
@@ -123,16 +125,16 @@ overview: 'Apptopia is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Apptopia''s developer surface includes documentation, API reference, authentication, support, pricing, engineering blog, and 10 more developer resources.'
-random_paper: 4
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Apptopia Rate Limits
   slug: apptopia-rate-limits
 score:
   band: thin
-  composite: 33.7
+  composite: 34.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -140,13 +142,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 52.6
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 33.7
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 34.7
   provenance:
     conformance: derived
     mcp: derived
@@ -156,14 +158,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/apptopia/refs/heads/main/screenshots/apptopia-2026-07-25T200850.png
+screenshot: https://apis.io/screenshots/apptopia/apptopia-2026-07-25T200850.png
 security:
 - kind: authentication
   name: Apptopia Authentication

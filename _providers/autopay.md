@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 36.4
-  scored_at: '2026-10-17'
+  score: 36.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 3
@@ -121,15 +123,12 @@ apis:
   description: Vehicle permit and session lookups
   name: Autopay Vehicle API
   slug: autopay-vehicle-api
-artifact_total: 53
+artifact_total: 57
 asyncapis:
 - description: ''
   name: Autopay Webhooks
   slug: autopay-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Autopay Accounting API
   slug: open-autopay-accounting-api
@@ -165,32 +164,32 @@ collections:
   slug: open-autopay
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/capabilities/autopay-capability-edges.yml
+  href: https://artifacts.apis.io/autopay/capabilities/autopay-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/autopay-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/agentic-access/autopay-agentic-access.yml
+  href: https://artifacts.apis.io/autopay/agentic-access/autopay-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/autopay-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/security/autopay-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/autopay/security/autopay-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/autopay-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/security/autopay-domain-security.yml
+  href: https://artifacts.apis.io/autopay/security/autopay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autopay-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/authentication/autopay-authentication.yml
+  href: https://artifacts.apis.io/autopay/authentication/autopay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/autopay-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/scopes/autopay-scopes.yml
+  href: https://artifacts.apis.io/autopay/scopes/autopay-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/autopay-scopes.yml
@@ -251,17 +250,17 @@ common:
   type: Deprecation
   url: https://developer.autopay.io/api_deprecation/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/lifecycle/autopay-lifecycle.yml
+  href: https://artifacts.apis.io/autopay/lifecycle/autopay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/autopay-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/security/autopay-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/autopay/security/autopay-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/autopay-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/well-known/autopay-security.txt
+  href: https://artifacts.apis.io/autopay/well-known/autopay-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/autopay-security.txt
@@ -270,72 +269,72 @@ common:
   type: TrustCenter
   url: https://solutions.autopay.io/about-us/iso-certifications
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/security/autopay-trust-center.yml
+  href: https://artifacts.apis.io/autopay/security/autopay-trust-center.yml
   title: ''
   type: Compliance
   url: security/autopay-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/conformance/autopay-conformance.yml
+  href: https://artifacts.apis.io/autopay/conformance/autopay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/autopay-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/well-known/autopay-well-known.yml
+  href: https://artifacts.apis.io/autopay/well-known/autopay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/autopay-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/conventions/autopay-conventions.yml
+  href: https://artifacts.apis.io/autopay/conventions/autopay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/autopay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/errors/autopay-problem-types.yml
+  href: https://artifacts.apis.io/autopay/errors/autopay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/autopay-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/asyncapi/autopay-webhooks.yml
+  href: https://artifacts.apis.io/autopay/asyncapi/autopay-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/autopay-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/data-model/autopay-data-model.yml
+  href: https://artifacts.apis.io/autopay/data-model/autopay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/autopay-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/autopay/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/llms/autopay-llms.txt
+  href: https://artifacts.apis.io/autopay/llms/autopay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/autopay-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/packages/autopay-packages.yml
+  href: https://artifacts.apis.io/autopay/packages/autopay-packages.yml
   title: ''
   type: Packages
   url: packages/autopay-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/mcp/autopay-mcp.yml
+  href: https://artifacts.apis.io/autopay/mcp/autopay-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/autopay-mcp.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/plans/autopay-plans-pricing.yml
+  href: https://artifacts.apis.io/autopay/plans/autopay-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/autopay-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/rate-limits/autopay-rate-limits.yml
+  href: https://artifacts.apis.io/autopay/rate-limits/autopay-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/autopay-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/finops/autopay-finops.yml
+  href: https://artifacts.apis.io/autopay/finops/autopay-finops.yml
   title: ''
   type: FinOps
   url: finops/autopay-finops.yml
@@ -353,11 +352,11 @@ features:
 - description: Tap and Park API for third-party validation of parking sessions in Autopay zones, supporting retail validation, employer programs, and visitor parking workflows.
   name: Parking Validation
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Autopay Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: autopay-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autopay.png
@@ -384,7 +383,7 @@ plans:
 - name: Autopay Plans Pricing
   plan_count: 0
   slug: autopay-plans-pricing
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Autopay Rate Limits
@@ -396,7 +395,7 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 50.6
+  composite: 51.5
   coverage:
     artifact_dirs: 25
     catalog_earned: 45.0
@@ -404,13 +403,13 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 53.5
-    developer_ergonomics: 54.2
-    discoverability: 73.2
+    developer_ergonomics: 58.9
+    discoverability: 66.1
     operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -420,7 +419,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 52.1
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -437,13 +436,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/screenshots/autopay-2026-06-20T172701.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/autopay/autopay-2026-06-20T172701.png
 security:
 - kind: authentication
   name: Autopay Authentication
@@ -461,6 +461,18 @@ security:
   name: Autopay Trust Center
   slug: autopay-trust-center
   summary_line: ISO/IEC 27001, ISO 9001, ISO 14001, HSE policy
+skill_count: 5
+skills:
+- name: autopay-authenticate
+  slug: autopay-authenticate
+- name: autopay-book-a-parking-permit
+  slug: autopay-book-a-parking-permit
+- name: autopay-consume-parking-webhooks
+  slug: autopay-consume-parking-webhooks
+- name: autopay-export-invoices-and-statistics
+  slug: autopay-export-invoices-and-statistics
+- name: autopay-take-payment-responsibility
+  slug: autopay-take-payment-responsibility
 slug: autopay
 tags:
 - Parking

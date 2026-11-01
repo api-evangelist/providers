@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Archipelago's customer-facing API is a GraphQL API that lets customers access and use their property and SOV data in custom applications. Access is credential-based; Archipelago provisions credentials
@@ -111,22 +113,22 @@ common:
   type: Compliance
   url: https://www.onarchipelago.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archipelago/refs/heads/main/llms/archipelago-llms.txt
+  href: https://artifacts.apis.io/archipelago/llms/archipelago-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/archipelago-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/archipelago/refs/heads/main/authentication/archipelago-authentication.yml
+  href: https://artifacts.apis.io/archipelago/authentication/archipelago-authentication.yml
   title: ''
   type: Authentication
   url: authentication/archipelago-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archipelago/refs/heads/main/conformance/archipelago-conformance.yml
+  href: https://artifacts.apis.io/archipelago/conformance/archipelago-conformance.yml
   title: ''
   type: Conformance
   url: conformance/archipelago-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/archipelago/refs/heads/main/security/archipelago-domain-security.yml
+  href: https://artifacts.apis.io/archipelago/security/archipelago-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/archipelago-domain-security.yml
@@ -142,10 +144,10 @@ overview: 'Archipelago is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   Archipelago''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 7
+random_paper: 23
 score:
   band: thin
-  composite: 29.9
+  composite: 32.1
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -155,12 +157,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 73.2
-    operational_transparency: 13.2
+    discoverability: 66.1
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -168,7 +170,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 29.9
+  previous_composite: 32.1
   provenance:
     conformance: first-party
   regulatory:
@@ -177,14 +179,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/archipelago/refs/heads/main/screenshots/archipelago-2026-07-25T201034.png
+screenshot: https://apis.io/screenshots/archipelago/archipelago-2026-07-25T201034.png
 security:
 - kind: authentication
   name: Archipelago Authentication

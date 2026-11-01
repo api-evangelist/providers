@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.5
-  scored_at: '2026-10-17'
+  score: 30.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 3
@@ -138,11 +140,13 @@ apis:
   description: The Oauth API from Codag — 2 operation(s) for oauth.
   name: Codag OAUTH API
   slug: codag-oauth-api
-artifact_total: 44
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The agent-cost API from Codag — 12 operation(s) for agent-cost.
+  name: Codag Agent Cost API
+  slug: codag-agent-cost-api
+artifact_total: 49
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: infra-logs templater Activate API
   slug: open-codag-activate-api
@@ -201,18 +205,23 @@ collections:
   name: infra-logs templater Activate Whoami API
   slug: open-codag-whoami-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/codag/plans/codag-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/codag-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/capabilities/codag-capability-edges.yml
+  href: https://artifacts.apis.io/codag/capabilities/codag-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/codag-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/overlays/codag-openapi-overlay.yaml
+  href: https://artifacts.apis.io/codag/overlays/codag-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/codag-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/agentic-access/codag-agentic-access.yml
+  href: https://artifacts.apis.io/codag/agentic-access/codag-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/codag-agentic-access.yml
@@ -265,87 +274,87 @@ common:
   type: GitHubOrganization
   url: https://github.com/codag-megalith
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/packages/codag-packages.yml
+  href: https://artifacts.apis.io/codag/packages/codag-packages.yml
   title: ''
   type: Packages
   url: packages/codag-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/packages/codag-packages.yml
+  href: https://artifacts.apis.io/codag/packages/codag-packages.yml
   title: ''
   type: SDKs
   url: packages/codag-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/cli/codag-cli.yml
+  href: https://artifacts.apis.io/codag/cli/codag-cli.yml
   title: ''
   type: CLI
   url: cli/codag-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/mcp/codag-mcp.yml
+  href: https://artifacts.apis.io/codag/mcp/codag-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/codag-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/codag/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/llms/codag-llms.txt
+  href: https://artifacts.apis.io/codag/llms/codag-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/codag-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/well-known/codag-well-known.yml
+  href: https://artifacts.apis.io/codag/well-known/codag-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/codag-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/well-known/codag-security.txt
+  href: https://artifacts.apis.io/codag/well-known/codag-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/codag-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/authentication/codag-authentication.yml
+  href: https://artifacts.apis.io/codag/authentication/codag-authentication.yml
   title: ''
   type: Authentication
   url: authentication/codag-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/conventions/codag-conventions.yml
+  href: https://artifacts.apis.io/codag/conventions/codag-conventions.yml
   title: ''
   type: Conventions
   url: conventions/codag-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/errors/codag-problem-types.yml
+  href: https://artifacts.apis.io/codag/errors/codag-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/codag-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/conformance/codag-conformance.yml
+  href: https://artifacts.apis.io/codag/conformance/codag-conformance.yml
   title: ''
   type: Conformance
   url: conformance/codag-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/lifecycle/codag-lifecycle.yml
+  href: https://artifacts.apis.io/codag/lifecycle/codag-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/codag-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/changelog/codag-changelog.yml
+  href: https://artifacts.apis.io/codag/changelog/codag-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/codag-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/sandbox/codag-sandbox.yml
+  href: https://artifacts.apis.io/codag/sandbox/codag-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/codag-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/data-model/codag-data-model.yml
+  href: https://artifacts.apis.io/codag/data-model/codag-data-model.yml
   title: ''
   type: DataModel
   url: data-model/codag-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/security/codag-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/codag/security/codag-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/codag-vulnerability-disclosure.yml
@@ -354,12 +363,20 @@ common:
   type: Security
   url: https://codag.ai/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/security/codag-domain-security.yml
+  href: https://artifacts.apis.io/codag/security/codag-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/codag-domain-security.yml
 created: '2026-07-17'
 description: Codag is a Y Combinator (Summer 2026) developer-tools company building drop-in log compression for AI agents. It takes oversized infrastructure logs — from Kubernetes, Docker, AWS CloudWatch, Vercel, Railway, Datadog, Sentry, syslog and unstructured sources — and returns only the lines that matter as schema-valid JSON, ranked into patterns where every kept line cites a real log line number so nothing is summarized away or invented. This lets coding agents like Claude, Codex and Cursor debug from the evidence that matters at roughly 95% fewer tokens without exhausting their context window. Codag ships as a hosted HTTPS API (/v1/compact), an open-source Go CLI, and an MCP server, with a deterministic Rust log-templating engine (codag-drain) as the free/fallback path.
+finops:
+- has_sources: true
+  method: derived
+  name: Codag Finops
+  primary_unit: credit
+  service_category: ''
+  slug: codag-finops
+  template: false
 image: https://codag.ai/socialpreview.png
 layout: provider
 mcp_servers:
@@ -370,30 +387,37 @@ modified: '2026-07-18'
 name: Codag
 nav: Providers
 network: true
-overview: 'Codag publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activate API, Admin API, Anonymous API, and 16 more. Tagged areas include Company, Developer Tools, Logging, Observability, and Log Compression.
+overview: 'Codag publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activate API, Admin API, Anonymous API, and 17 more. Tagged areas include Company, Developer Tools, Logging, Observability, and Log Compression.
 
 
-  Codag''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
-random_paper: 4
+  Codag''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 28 more developer resources.'
+plans:
+- name: Codag Plans Pricing
+  plan_count: 3
+  slug: codag-plans-pricing
+- name: Codag Price Estimates
+  plan_count: 0
+  slug: codag-price-estimates
+random_paper: 6
 score:
-  band: developing
-  composite: 47.1
+  band: strong
+  composite: 55.9
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 38.1
     developer_ergonomics: 80.4
-    discoverability: 73.2
-    operational_transparency: 23.7
-  previous_composite: 47.0
+    discoverability: 65.0
+    operational_transparency: 31.6
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -401,7 +425,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 19
+      total: 39
     mcp: first-party
     skills: derived
   regulatory:
@@ -410,13 +434,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/screenshots/codag-2026-07-25T205856.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/codag/codag-2026-07-25T205856.png
 security:
 - kind: authentication
   name: Codag Authentication
@@ -430,6 +455,12 @@ security:
   name: Codag Vulnerability Disclosure
   slug: codag-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 2
+skills:
+- name: Compress logs for an AI agent with Codag
+  slug: codag-compact-logs
+- name: Provision and rotate Codag org API keys
+  slug: codag-manage-org-keys
 slug: codag
 tags:
 - Company

@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 44.2
-  scored_at: '2026-10-17'
+  score: 34.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: Public developer and integration guidance without private API contracts.
   name: Nas Academy Developer discovery API
   slug: nas-academy-developer-discovery-api
-artifact_total: 10
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nas.com Public Discovery AI discovery API
   slug: open-nas-academy-ai-discovery-api
@@ -67,18 +66,23 @@ collections:
   name: Nas.com Public Discovery AI discovery Developer discovery API
   slug: open-nas-academy-developer-discovery-api
 common:
+- group: other
+  href: https://artifacts.apis.io/nas-academy/capabilities/nas-academy-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nas-academy-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/skills/nas-academy-discovery-skill.md
+  href: https://artifacts.apis.io/nas-academy/skills/nas-academy-discovery-skill.md
   title: ''
   type: AgentSkill
   url: skills/nas-academy-discovery-skill.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/mcp/nas-academy-mcp.yml
+  href: https://artifacts.apis.io/nas-academy/mcp/nas-academy-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nas-academy-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/overlays/nas-academy-discovery-overlay.yaml
+  href: https://artifacts.apis.io/nas-academy/overlays/nas-academy-discovery-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nas-academy-discovery-overlay.yaml
@@ -98,7 +102,7 @@ name: Nas Academy
 nav: Providers
 network: true
 overview: 'Nas Academy publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: AI discovery API and Developer discovery API. Tagged areas include Company.'
-random_paper: 13
+random_paper: 11
 scopes:
 - name: Nas Academy Scopes
   scope_count: 6
@@ -106,23 +110,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: emerging
-  composite: 16.9
+  composite: 15.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 15.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 85.0
-    catalog_max: 100.0
+    catalog_gap: 100.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 41.1
     developer_ergonomics: 7.1
-    discoverability: 38.3
+    discoverability: 28.3
     operational_transparency: 0.0
-  previous_composite: 16.8
+  previous_composite: 15.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -139,14 +143,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/screenshots/nas-academy-2026-08-07T184637.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nas-academy/nas-academy-2026-08-07T184637.png
 security:
 - kind: authentication
   name: Nas Academy Authentication

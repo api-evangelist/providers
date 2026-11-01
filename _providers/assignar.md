@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -17,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.3
-  scored_at: '2026-10-17'
+  score: 37.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 15
@@ -32,7 +33,7 @@ agentic_access:
   operation_count: 208
   slug: assignar-agentic-access
   summary_line: 208 operations · 106 acting · 15 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.assignar.com/v2
   baseurl_source: declared
@@ -159,44 +160,49 @@ apis:
   description: The Users API from Assignar — 17 operation(s) for users.
   name: Assignar Users API
   slug: assignar-users-api
-artifact_total: 39
+artifact_total: 44
 common:
+- group: commercial
+  href: https://artifacts.apis.io/assignar/plans/assignar-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/assignar-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://assignar.com/category/articles/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/capabilities/assignar-capability-edges.yml
+  href: https://artifacts.apis.io/assignar/capabilities/assignar-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/assignar-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/agentic-access/assignar-agentic-access.yml
+  href: https://artifacts.apis.io/assignar/agentic-access/assignar-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/assignar-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/rules/assignar-rules.yml
+  href: https://artifacts.apis.io/assignar/rules/assignar-rules.yml
   title: ''
   type: Spectral
   url: rules/assignar-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/json-ld/assignar-context.jsonld
+  href: https://artifacts.apis.io/assignar/json-ld/assignar-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/assignar-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/vocabulary/assignar-vocabulary.yml
+  href: https://artifacts.apis.io/assignar/vocabulary/assignar-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/assignar-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/assignar/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/data-model/assignar-data-model.yml
+  href: https://artifacts.apis.io/assignar/data-model/assignar-data-model.yml
   title: ''
   type: DataModel
   url: data-model/assignar-data-model.yml
@@ -205,37 +211,37 @@ common:
   type: Compliance
   url: https://trust.assignar.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/errors/assignar-problem-types.yml
+  href: https://artifacts.apis.io/assignar/errors/assignar-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/assignar-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/conformance/assignar-conformance.yml
+  href: https://artifacts.apis.io/assignar/conformance/assignar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/assignar-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/llms/assignar-llms.txt
+  href: https://artifacts.apis.io/assignar/llms/assignar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/assignar-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/well-known/assignar-status-security.txt
+  href: https://artifacts.apis.io/assignar/well-known/assignar-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/assignar-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/well-known/assignar-well-known.yml
+  href: https://artifacts.apis.io/assignar/well-known/assignar-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/assignar-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/hosts/assignar-hosts.yml
+  href: https://artifacts.apis.io/assignar/hosts/assignar-hosts.yml
   title: ''
   type: Hosts
   url: hosts/assignar-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/vendors/assignar-vendors.yml
+  href: https://artifacts.apis.io/assignar/vendors/assignar-vendors.yml
   title: ''
   type: Vendors
   url: vendors/assignar-vendors.yml
@@ -268,27 +274,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/assignar
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/scopes/assignar-scopes.yml
+  href: https://artifacts.apis.io/assignar/scopes/assignar-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/assignar-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/authentication/assignar-authentication.yml
+  href: https://artifacts.apis.io/assignar/authentication/assignar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/assignar-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/security/assignar-trust-center.yml
+  href: https://artifacts.apis.io/assignar/security/assignar-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/assignar-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/security/assignar-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/assignar/security/assignar-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/assignar-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/security/assignar-domain-security.yml
+  href: https://artifacts.apis.io/assignar/security/assignar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/assignar-domain-security.yml
@@ -318,6 +324,14 @@ common:
   url: https://assignar.com/category/articles/
 created: '2026-09-26'
 description: Assignar provides construction software that gives real‑time visibility and operational control for civil contractors, helping manage crews, equipment, compliance, and project performance. The platform supports pay rates, job costing, scheduling, time tracking, safety, AI‑driven insights, reporting, and integrations, aiming to protect margins from field to bottom line.
+finops:
+- has_sources: true
+  method: derived
+  name: Assignar Finops
+  primary_unit: ''
+  service_category: ''
+  slug: assignar-finops
+  template: true
 image: https://assignar.com/wp-content/uploads/2022/05/2022_Assigner_Homepage_Header_v2.jpg
 json_schemas:
 - name: Asset
@@ -354,8 +368,12 @@ overview: 'Assignar publishes 25 API contracts indexed on the [APIs.io](https://
   The Assignar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Assignar''s developer surface includes support, getting-started guide, authentication, documentation, pricing, engineering blog, and 28 more developer resources.'
-random_paper: 20
+  Assignar''s developer surface includes support, getting-started guide, authentication, documentation, pricing, engineering blog, and 29 more developer resources.'
+plans:
+- name: Assignar Plans Pricing
+  plan_count: 1
+  slug: assignar-plans-pricing
+random_paper: 16
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -376,23 +394,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 53.1
+  composite: 53.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 57.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.3
+    artifact_dirs: 25
+    catalog_earned: 65.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.2
   facets:
-    access_clarity: 47.4
+    access_clarity: 68.4
     contract_governance: 22.0
-    contract_quality: 60.2
+    contract_quality: 56.8
     developer_ergonomics: 42.3
-    discoverability: 67.9
+    discoverability: 60.7
     operational_transparency: 31.6
-  previous_composite: 53.0
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -409,13 +427,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/screenshots/assignar-2026-10-11T100603.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/assignar/assignar-2026-10-11T100603.png
 security:
 - kind: authentication
   name: Assignar Authentication
@@ -433,6 +452,14 @@ security:
   name: Assignar Trust Center
   slug: assignar-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 3
+skills:
+- name: assignar-create-and-retrieve-contact
+  slug: assignar-create-and-retrieve-contact
+- name: assignar-create-order-with-task
+  slug: assignar-create-order-with-task
+- name: assignar-create-user-with-skill
+  slug: assignar-create-user-with-skill
 slug: assignar
 tags:
 - Construction

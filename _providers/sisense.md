@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-17'
+  score: 39.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -82,7 +84,7 @@ apis:
   description: Manage Sisense users and user settings
   name: Sisense Users API
   slug: sisense-users-api
-artifact_total: 38
+artifact_total: 37
 collections:
 - collection_type: postman
   name: Sisense REST Authentication API
@@ -102,9 +104,6 @@ collections:
 - collection_type: postman
   name: Sisense REST Authentication Users API
   slug: postman-sisense-users-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sisense REST Authentication API
   slug: open-sisense-authentication-api
@@ -128,22 +127,22 @@ collections:
   slug: open-sisense-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/plans/sisense-plans-pricing.yml
+  href: https://artifacts.apis.io/sisense/plans/sisense-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sisense-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/rate-limits/sisense-rate-limits.yml
+  href: https://artifacts.apis.io/sisense/rate-limits/sisense-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sisense-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/finops/sisense-finops.yml
+  href: https://artifacts.apis.io/sisense/finops/sisense-finops.yml
   title: ''
   type: FinOps
   url: finops/sisense-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/capabilities/sisense-capability-edges.yml
+  href: https://artifacts.apis.io/sisense/capabilities/sisense-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sisense-capability-edges.yml
@@ -152,22 +151,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/sisense/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/agentic-access/sisense-agentic-access.yml
+  href: https://artifacts.apis.io/sisense/agentic-access/sisense-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sisense-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/security/sisense-trust-center.yml
+  href: https://artifacts.apis.io/sisense/security/sisense-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sisense-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/security/sisense-domain-security.yml
+  href: https://artifacts.apis.io/sisense/security/sisense-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sisense-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/authentication/sisense-authentication.yml
+  href: https://artifacts.apis.io/sisense/authentication/sisense-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sisense-authentication.yml
@@ -230,12 +229,12 @@ examples:
   slug: sisense-list-dashboards-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Sisense Finops
   primary_unit: ''
-  service_category: Analytics / Business Intelligence
+  service_category: ''
   slug: sisense-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sisense.png
 json_schemas:
 - name: Sisense Dashboard
@@ -271,9 +270,9 @@ overview: 'Sisense publishes 8 API contracts indexed on the [APIs.io](https://ap
   Sisense''s developer surface includes authentication, documentation, pricing, engineering blog, support, and 16 more developer resources.'
 plans:
 - name: Sisense Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: sisense-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Sisense Rate Limits
@@ -303,23 +302,23 @@ rules:
   slug: sisense-rules
 score:
   band: developing
-  composite: 39.7
+  composite: 45.4
   coverage:
     artifact_dirs: 23
-    catalog_earned: 53.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 61.8
+    catalog_earned: 58.3
+    catalog_earned_first_party: 8.0
+    catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -2.1
   facets:
-    access_clarity: 36.8
+    access_clarity: 60.5
     contract_governance: 9.8
-    contract_quality: 56.4
-    developer_ergonomics: 36.9
-    discoverability: 75.0
+    contract_quality: 53.8
+    developer_ergonomics: 39.3
+    discoverability: 73.2
     operational_transparency: 10.5
-  previous_composite: 41.2
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -333,14 +332,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/screenshots/sisense-2026-06-20T193954.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sisense/sisense-2026-06-20T193954.png
 security:
 - kind: authentication
   name: Sisense Authentication

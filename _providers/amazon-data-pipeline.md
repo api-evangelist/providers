@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -65,6 +67,11 @@ apis:
   description: Operations for managing pipeline tags
   name: Amazon Data Pipeline Tags API
   slug: amazon-data-pipeline-tags-api
+- baseURL: https://datapipeline.amazonaws.com
+  baseurl_source: declared
+  description: The Data Pipeline Operations API from Amazon Data Pipeline — 6 operation(s) for data pipeline operations.
+  name: Amazon Data Pipeline Data Pipeline Operations API
+  slug: amazon-data-pipeline-operations-api
 arazzos:
 - description: Copy an existing pipeline's definition into a brand-new pipeline and activate it.
   name: Amazon Data Pipeline Clone Pipeline
@@ -99,9 +106,6 @@ collections:
   name: AWS Data Pipeline API
   slug: postman-amazon-data-pipeline
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: AWS Data Pipeline Pipeline Objects API
   slug: open-amazon-data-pipeline-pipeline-objects-api
 - collection_type: open
@@ -118,17 +122,17 @@ collections:
   slug: open-amazon-data-pipeline
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/plans/amazon-data-pipeline-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/plans/amazon-data-pipeline-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-data-pipeline-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/rate-limits/amazon-data-pipeline-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/rate-limits/amazon-data-pipeline-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-data-pipeline-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/finops/amazon-data-pipeline-finops.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/finops/amazon-data-pipeline-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-data-pipeline-finops.yml
@@ -137,27 +141,27 @@ common:
   type: Website
   url: https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/what-is-datapipeline.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/agentic-access/amazon-data-pipeline-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/agentic-access/amazon-data-pipeline-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-data-pipeline-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/security/amazon-data-pipeline-trust-center.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/security/amazon-data-pipeline-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-data-pipeline-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/security/amazon-data-pipeline-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/security/amazon-data-pipeline-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-data-pipeline-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/security/amazon-data-pipeline-domain-security.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/security/amazon-data-pipeline-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-data-pipeline-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/authentication/amazon-data-pipeline-authentication.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/authentication/amazon-data-pipeline-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-data-pipeline-authentication.yml
@@ -166,47 +170,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-data-pipeline/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/arazzo/amazon-data-pipeline-clone-pipeline-workflow.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/arazzo/amazon-data-pipeline-clone-pipeline-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-data-pipeline-clone-pipeline-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/arazzo/amazon-data-pipeline-deactivate-and-delete-workflow.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/arazzo/amazon-data-pipeline-deactivate-and-delete-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-data-pipeline-deactivate-and-delete-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/arazzo/amazon-data-pipeline-export-definition-workflow.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/arazzo/amazon-data-pipeline-export-definition-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-data-pipeline-export-definition-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/arazzo/amazon-data-pipeline-inspect-running-tasks-workflow.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/arazzo/amazon-data-pipeline-inspect-running-tasks-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-data-pipeline-inspect-running-tasks-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/arazzo/amazon-data-pipeline-list-and-describe-workflow.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/arazzo/amazon-data-pipeline-list-and-describe-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-data-pipeline-list-and-describe-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/arazzo/amazon-data-pipeline-provision-and-activate-workflow.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/arazzo/amazon-data-pipeline-provision-and-activate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-data-pipeline-provision-and-activate-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/arazzo/amazon-data-pipeline-redeploy-definition-workflow.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/arazzo/amazon-data-pipeline-redeploy-definition-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-data-pipeline-redeploy-definition-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/arazzo/amazon-data-pipeline-tag-and-confirm-workflow.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/arazzo/amazon-data-pipeline-tag-and-confirm-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-data-pipeline-tag-and-confirm-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/arazzo/amazon-data-pipeline-validate-then-put-definition-workflow.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/arazzo/amazon-data-pipeline-validate-then-put-definition-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-data-pipeline-validate-then-put-definition-workflow.yml
@@ -259,12 +263,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/rules/amazon-data-pipeline-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-data-pipeline/rules/amazon-data-pipeline-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-data-pipeline-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/vocabulary/amazon-data-pipeline-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-data-pipeline/vocabulary/amazon-data-pipeline-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-data-pipeline-vocabulary.yaml
@@ -338,7 +342,7 @@ finops:
 - has_sources: false
   method: generated
   name: Amazon Data Pipeline Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: amazon-data-pipeline-finops
   template: true
@@ -451,7 +455,7 @@ modified: '2026-09-16'
 name: Amazon Data Pipeline
 nav: Providers
 network: true
-overview: 'Amazon Data Pipeline publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Objects API, Runs API, Pipelines API, and 1 more. Tagged areas include Data Processing, ETL, Workflows, Data Pipeline, and Automation.
+overview: 'Amazon Data Pipeline publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Objects API, Runs API, Pipelines API, and 2 more. Tagged areas include Data Processing, ETL, Workflows, Data Pipeline, and Automation.
 
 
   The Amazon Data Pipeline catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -462,7 +466,7 @@ plans:
 - name: Amazon Data Pipeline Plans Pricing
   plan_count: 3
   slug: amazon-data-pipeline-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Amazon Data Pipeline Rate Limits
@@ -492,44 +496,45 @@ rules:
     warn: 8
   slug: amazon-data-pipeline-spectral-rules
 score:
-  band: developing
-  composite: 50.7
+  band: strong
+  composite: 59.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 69.0
     catalog_earned_first_party: 0.0
     catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.4
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 27.3
-    contract_quality: 61.8
-    developer_ergonomics: 44.0
+    contract_quality: 64.8
+    developer_ergonomics: 63.1
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 52.2
+    operational_transparency: 39.5
+  previous_composite: 58.6
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 4
+      marker_coverage: 20.0
+      total: 5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/screenshots/amazon-data-pipeline-2026-06-20T171620.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-data-pipeline/amazon-data-pipeline-2026-06-20T171620.png
 security:
 - kind: authentication
   name: Amazon Data Pipeline Authentication

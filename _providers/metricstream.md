@@ -19,7 +19,7 @@ agent_readiness:
     agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: false
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.8
-  scored_at: '2026-10-17'
+  score: 6.3
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - description: Business REST APIs over the GRC Foundation object model — Area of Compliance, Asset, Asset Class, Control, Evidence, Exception, Financial Accounts, Function, Framework/Model Reference, Objectives, Pro
@@ -63,13 +65,46 @@ apis:
 - description: Business REST APIs for the Compliance module's test and self-assessment plans — creating and maintaining the plans that drive control testing cycles.
   name: MetricStream Self Assessment & Testing APIs
   slug: metricstream-self-assessment-testing
-artifact_total: 14
+artifact_total: 18
 common:
+- group: operate
+  href: https://artifacts.apis.io/metricstream/lifecycle/metricstream-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/metricstream-lifecycle.yml
+- group: other
+  href: https://artifacts.apis.io/metricstream/hosts/metricstream-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/metricstream-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/metricstream/integrations/metricstream-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/metricstream-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/metricstream/vendors/metricstream-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/metricstream-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/metricstream/packages/metricstream-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/metricstream-packages.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.metricstream.com/about-us/newsroom/recent-announcements/cyber-resilience-in-the-face-of-breach
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/security/metricstream-trust-center.yml
+  href: https://artifacts.apis.io/metricstream/security/metricstream-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/metricstream-trust-center.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://info.metricstream.com/ms-pricing.html
 - group: company
   title: ''
   type: Website
@@ -111,72 +146,57 @@ common:
   type: PrivacyPolicy
   url: https://www.metricstream.com/about-us/privacy-policy.htm
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/conformance/metricstream-conformance.yml
+  href: https://artifacts.apis.io/metricstream/conformance/metricstream-conformance.yml
   title: ''
   type: Compliance
   url: conformance/metricstream-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/llms/metricstream-llms.txt
+  href: https://artifacts.apis.io/metricstream/llms/metricstream-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/metricstream-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/packages/metricstream-packages.yml
+  href: https://artifacts.apis.io/metricstream/packages/metricstream-packages.yml
   title: ''
   type: Packages
   url: packages/metricstream-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/conformance/metricstream-conformance.yml
+  href: https://artifacts.apis.io/metricstream/conformance/metricstream-conformance.yml
   title: ''
   type: Conformance
   url: conformance/metricstream-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/errors/metricstream-problem-types.yml
+  href: https://artifacts.apis.io/metricstream/errors/metricstream-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/metricstream-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/lifecycle/metricstream-lifecycle.yml
+  href: https://artifacts.apis.io/metricstream/lifecycle/metricstream-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/metricstream-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/authentication/metricstream-authentication.yml
-  title: ''
-  type: Authentication
-  url: authentication/metricstream-authentication.yml
-- group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/security/metricstream-domain-security.yml
+  href: https://artifacts.apis.io/metricstream/security/metricstream-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/metricstream-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/conventions/metricstream-conventions.yml
+  href: https://artifacts.apis.io/metricstream/conventions/metricstream-conventions.yml
   title: ''
   type: Conventions
   url: conventions/metricstream-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/data-model/metricstream-data-model.yml
+  href: https://artifacts.apis.io/metricstream/data-model/metricstream-data-model.yml
   title: ''
   type: DataModel
   url: data-model/metricstream-data-model.yml
-- group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/plans/metricstream-plans-pricing.yml
-  title: ''
-  type: Plans
-  url: plans/metricstream-plans-pricing.yml
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/rate-limits/metricstream-rate-limits.yml
-  title: ''
-  type: RateLimits
-  url: rate-limits/metricstream-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/metricstream/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/changelog/metricstream-changelog.yml
+  href: https://artifacts.apis.io/metricstream/changelog/metricstream-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/metricstream-changelog.yml
@@ -192,53 +212,57 @@ network: true
 overview: 'MetricStream is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Governance, Risk Management, Compliance, and GRC.
 
 
-  MetricStream''s developer surface includes API reference, documentation, engineering blog, support, signup flow, authentication, changelog, and 18 more developer resources.'
+  MetricStream''s developer surface includes pricing, API reference, documentation, engineering blog, support, signup flow, changelog, and 22 more developer resources.'
 plans:
 - name: Metricstream Plans Pricing
   plan_count: 0
   slug: metricstream-plans-pricing
-random_paper: 20
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Metricstream Rate Limits
   slug: metricstream-rate-limits
 score:
   band: thin
-  composite: 31.8
+  composite: 35.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 21
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 50.0
-    contract_governance: 0.0
+    access_clarity: 60.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 47.0
-    discoverability: 78.6
-    operational_transparency: 18.4
-  previous_composite: 31.7
+    developer_ergonomics: 42.3
+    discoverability: 73.2
+    operational_transparency: 28.9
+  previous_composite: 35.1
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 23.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/screenshots/metricstream-2026-09-02T150529.png
+screenshot: https://apis.io/screenshots/metricstream/metricstream-2026-09-02T150529.png
 security:
 - kind: authentication
   name: Metricstream Authentication
@@ -255,7 +279,17 @@ security:
 - kind: trust-center
   name: Metricstream Trust Center
   slug: metricstream-trust-center
-  summary_line: ISO 27001, SOC 2 Type II, HIPAA
+  summary_line: PCI DSS, HIPAA, GDPR
+skill_count: 4
+skills:
+- name: metricstream-load-risk-register
+  slug: metricstream-load-risk-register
+- name: metricstream-post-kri-metrics
+  slug: metricstream-post-kri-metrics
+- name: metricstream-record-loss-event
+  slug: metricstream-record-loss-event
+- name: metricstream-report-issue
+  slug: metricstream-report-issue
 slug: metricstream
 tags:
 - Company

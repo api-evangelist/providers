@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: ANDPAD's external REST API for integrating partner services with the ANDPAD construction management platform via the ANDPAD App Market. Served from api.andpad.jp with a versioned /v1 base path, JSON r
@@ -82,37 +84,37 @@ common:
   type: SecurityTxt
   url: https://andpad.jp/.well-known/security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/andpad/refs/heads/main/well-known/andpad-well-known.yml
+  href: https://artifacts.apis.io/andpad/well-known/andpad-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/andpad-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/andpad/refs/heads/main/security/andpad-domain-security.yml
+  href: https://artifacts.apis.io/andpad/security/andpad-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/andpad-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/andpad/refs/heads/main/security/andpad-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/andpad/security/andpad-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/andpad-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/andpad/refs/heads/main/security/andpad-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/andpad/security/andpad-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/andpad-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/andpad/refs/heads/main/authentication/andpad-authentication.yml
+  href: https://artifacts.apis.io/andpad/authentication/andpad-authentication.yml
   title: ''
   type: Authentication
   url: authentication/andpad-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/andpad/refs/heads/main/conventions/andpad-conventions.yml
+  href: https://artifacts.apis.io/andpad/conventions/andpad-conventions.yml
   title: ''
   type: Conventions
   url: conventions/andpad-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/andpad/refs/heads/main/errors/andpad-problem-types.yml
+  href: https://artifacts.apis.io/andpad/errors/andpad-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/andpad-problem-types.yml
@@ -128,18 +130,18 @@ overview: 'ANDPAD is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   ANDPAD''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 0
+random_paper: 16
 score:
   band: emerging
   composite: 20.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -154,21 +156,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 20.4
+  previous_composite: 20.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/andpad/refs/heads/main/screenshots/andpad-2026-07-25T200226.png
+screenshot: https://apis.io/screenshots/andpad/andpad-2026-07-25T200226.png
 security:
 - kind: authentication
   name: Andpad Authentication

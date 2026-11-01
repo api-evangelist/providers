@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-10-17'
+  score: 26.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -80,11 +82,8 @@ apis:
   description: Pay schedules model the cadence of employee paychecks for the purpose of deduction calculations.
   name: Thatch Health Pay Schedules API
   slug: thatch-health-pay-schedules-api
-artifact_total: 19
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Thatch for Platforms Deductions API
   slug: open-thatch-health-deductions-api
@@ -107,33 +106,38 @@ collections:
   name: Thatch for Platforms Deductions Pay Schedules API
   slug: open-thatch-health-pay-schedules-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/thatch-health/plans/thatch-health-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/thatch-health-plans-pricing.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/openapi/_original/thatch-health-partners-openapi.yml
+  href: https://artifacts.apis.io/thatch-health/openapi/_original/thatch-health-partners-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/thatch-health-partners-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/errors/thatch-health-problem-types.yml
+  href: https://artifacts.apis.io/thatch-health/errors/thatch-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/thatch-health-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/agentic-access/thatch-health-agentic-access.yml
+  href: https://artifacts.apis.io/thatch-health/agentic-access/thatch-health-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/thatch-health-agentic-access.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/capabilities/thatch-health-capability-edges.yml
+  href: https://artifacts.apis.io/thatch-health/capabilities/thatch-health-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/thatch-health-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/overlays/thatch-health-platforms-overlay.yaml
+  href: https://artifacts.apis.io/thatch-health/overlays/thatch-health-platforms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thatch-health-platforms-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/security/thatch-health-trust-center.yml
+  href: https://artifacts.apis.io/thatch-health/security/thatch-health-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/thatch-health-trust-center.yml
@@ -198,72 +202,80 @@ common:
   type: Compliance
   url: https://trust.thatch.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/lifecycle/thatch-health-lifecycle.yml
+  href: https://artifacts.apis.io/thatch-health/lifecycle/thatch-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/thatch-health-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/authentication/thatch-health-authentication.yml
+  href: https://artifacts.apis.io/thatch-health/authentication/thatch-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thatch-health-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/conventions/thatch-health-conventions.yml
+  href: https://artifacts.apis.io/thatch-health/conventions/thatch-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/thatch-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/conformance/thatch-health-conformance.yml
+  href: https://artifacts.apis.io/thatch-health/conformance/thatch-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/thatch-health-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/packages/thatch-health-packages.yml
+  href: https://artifacts.apis.io/thatch-health/packages/thatch-health-packages.yml
   title: ''
   type: Packages
   url: packages/thatch-health-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/well-known/thatch-health-well-known.yml
+  href: https://artifacts.apis.io/thatch-health/well-known/thatch-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/thatch-health-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/mcp/thatch-health-mcp.yml
+  href: https://artifacts.apis.io/thatch-health/mcp/thatch-health-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/thatch-health-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/llms/thatch-health-llms.txt
+  href: https://artifacts.apis.io/thatch-health/llms/thatch-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thatch-health-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/components/thatch-health-components.yml
+  href: https://artifacts.apis.io/thatch-health/components/thatch-health-components.yml
   title: ''
   type: Components
   url: components/thatch-health-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/sandbox/thatch-health-sandbox.yml
+  href: https://artifacts.apis.io/thatch-health/sandbox/thatch-health-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/thatch-health-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/data-model/thatch-health-data-model.yml
+  href: https://artifacts.apis.io/thatch-health/data-model/thatch-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/thatch-health-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/security/thatch-health-domain-security.yml
+  href: https://artifacts.apis.io/thatch-health/security/thatch-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thatch-health-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/thatch-health/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Thatch (Thatch Health, Inc.) is a modern health benefits platform that makes it easy for employers to offer personalized healthcare to employees using an ICHRA (Individual Coverage Health Reimbursement Arrangement). Thatch for Platforms is a set of REST APIs and embeddable components that let partner platforms — payroll, HR, and benefits products — bring ICHRA benefits to their customers, covering employer onboarding, employee management, enrollments, members, pay schedules, and payroll deductions.
+finops:
+- has_sources: true
+  method: derived
+  name: Thatch Health Finops
+  primary_unit: 'company (example: $45 × 4 employees + $50 compliance fee)'
+  service_category: ''
+  slug: thatch-health-finops
+  template: false
 image: https://docs.thatch.com/img/thatch.svg
 layout: provider
 modified: '2026-07-21'
@@ -273,27 +285,34 @@ network: true
 overview: 'Thatch Health publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Deductions API, Employees API, Employer onboarding sessions API, and 4 more. Tagged areas include Company, Healthcare, Health Benefits, ICHRA, and Insurance.
 
 
-  Thatch Health''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 13
+  Thatch Health''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+plans:
+- name: Thatch Health Plans Pricing
+  plan_count: 2
+  slug: thatch-health-plans-pricing
+- name: Thatch Health Price Estimates
+  plan_count: 0
+  slug: thatch-health-price-estimates
+random_paper: 15
 score:
-  band: developing
-  composite: 49.4
+  band: strong
+  composite: 55.5
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 5.8
   facets:
-    access_clarity: 60.5
+    access_clarity: 89.5
     contract_governance: 4.5
     contract_quality: 51.2
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 49.3
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -310,13 +329,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/screenshots/thatch-health-2026-08-17T082333.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/thatch-health/thatch-health-2026-08-17T082333.png
 security:
 - kind: authentication
   name: Thatch Health Authentication
@@ -330,6 +350,14 @@ security:
   name: Thatch Health Trust Center
   slug: thatch-health-trust-center
   summary_line: SOC 2
+skill_count: 3
+skills:
+- name: Manage employees and dependents
+  slug: thatch-health-manage-employees
+- name: Onboard an employer into ICHRA benefits
+  slug: thatch-health-onboard-employer
+- name: Sync payroll deductions and pay schedules
+  slug: thatch-health-payroll-deductions
 slug: thatch-health
 tags:
 - Company

@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'A remote Model Context Protocol (streamable HTTP) server operated by WayUp, a Yello company, at https://www.wayup.com/mcp. Discovered by probe: the host publishes RFC 9728 protected-resource metadata '
@@ -32,7 +34,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yello/refs/heads/main/security/yello-trust-center.yml
+  href: https://artifacts.apis.io/yello/security/yello-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/yello-trust-center.yml
@@ -73,52 +75,52 @@ common:
   type: Compliance
   url: https://yello.co/trust-and-security/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yello/refs/heads/main/lifecycle/yello-lifecycle.yml
+  href: https://artifacts.apis.io/yello/lifecycle/yello-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/yello-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yello/refs/heads/main/well-known/yello-well-known.yml
+  href: https://artifacts.apis.io/yello/well-known/yello-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/yello-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yello/refs/heads/main/conformance/yello-conformance.yml
+  href: https://artifacts.apis.io/yello/conformance/yello-conformance.yml
   title: ''
   type: Conformance
   url: conformance/yello-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yello/refs/heads/main/security/yello-domain-security.yml
+  href: https://artifacts.apis.io/yello/security/yello-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yello-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yello/refs/heads/main/conventions/yello-conventions.yml
+  href: https://artifacts.apis.io/yello/conventions/yello-conventions.yml
   title: ''
   type: Conventions
   url: conventions/yello-conventions.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yello/refs/heads/main/plans/yello-plans-pricing.yml
+  href: https://artifacts.apis.io/yello/plans/yello-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/yello-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yello/refs/heads/main/rate-limits/yello-rate-limits.yml
+  href: https://artifacts.apis.io/yello/rate-limits/yello-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/yello-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yello/refs/heads/main/packages/yello-packages.yml
+  href: https://artifacts.apis.io/yello/packages/yello-packages.yml
   title: ''
   type: Packages
   url: packages/yello-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yello/refs/heads/main/llms/yello-wayup-llms.txt
+  href: https://artifacts.apis.io/yello/llms/yello-wayup-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/yello-wayup-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yello/refs/heads/main/llms/yello-llms.txt
+  href: https://artifacts.apis.io/yello/llms/yello-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/yello-llms.txt
@@ -155,7 +157,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 32.7
+  composite: 31.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -169,7 +171,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -178,7 +180,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 32.7
+  previous_composite: 31.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -196,14 +198,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 47.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/yello/refs/heads/main/screenshots/yello-2026-10-11T194854.png
+screenshot: https://apis.io/screenshots/yello/yello-2026-10-11T194854.png
 security:
 - kind: authentication
   name: Yello Authentication

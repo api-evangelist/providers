@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.6
-  scored_at: '2026-10-17'
+  score: 52.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 77
   slug: karbonhq-agentic-access
   summary_line: 77 operations · 34 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.karbonhq.com
   baseurl_source: declared
@@ -129,139 +131,139 @@ apis:
   description: Find and review templates that you created to fit your firm's unique workflows. [Read more](https://help.karbonhq.com/en/articles/5325202-create-and-customize-work-templates)
   name: Karbon Work Templates API
   slug: karbonhq-work-templates-api
-artifact_total: 36
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Karbonhq Webhooks
   slug: karbonhq-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/capabilities/karbonhq-capability-edges.yml
+  href: https://artifacts.apis.io/karbonhq/capabilities/karbonhq-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/karbonhq-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/agentic-access/karbonhq-agentic-access.yml
+  href: https://artifacts.apis.io/karbonhq/agentic-access/karbonhq-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/karbonhq-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/rate-limits/karbonhq-rate-limits.yml
+  href: https://artifacts.apis.io/karbonhq/rate-limits/karbonhq-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/karbonhq-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/plans/karbonhq-plans-pricing.yml
+  href: https://artifacts.apis.io/karbonhq/plans/karbonhq-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/karbonhq-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/rules/karbonhq-rules.yml
+  href: https://artifacts.apis.io/karbonhq/rules/karbonhq-rules.yml
   title: ''
   type: Spectral
   url: rules/karbonhq-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/rules/karbonhq-karbon-api-reference-spectral-rules.yml
+  href: https://artifacts.apis.io/karbonhq/rules/karbonhq-karbon-api-reference-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/karbonhq-karbon-api-reference-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/json-ld/karbonhq-context.jsonld
+  href: https://artifacts.apis.io/karbonhq/json-ld/karbonhq-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/karbonhq-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/vocabulary/karbonhq-vocabulary.yml
+  href: https://artifacts.apis.io/karbonhq/vocabulary/karbonhq-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/karbonhq-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/karbonhq/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/asyncapi/karbonhq-webhooks.yml
+  href: https://artifacts.apis.io/karbonhq/asyncapi/karbonhq-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/karbonhq-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/data-model/karbonhq-data-model.yml
+  href: https://artifacts.apis.io/karbonhq/data-model/karbonhq-data-model.yml
   title: ''
   type: DataModel
   url: data-model/karbonhq-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/changelog/karbonhq-changelog.yml
+  href: https://artifacts.apis.io/karbonhq/changelog/karbonhq-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/karbonhq-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/conventions/karbonhq-conventions.yml
+  href: https://artifacts.apis.io/karbonhq/conventions/karbonhq-conventions.yml
   title: ''
   type: Conventions
   url: conventions/karbonhq-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/lifecycle/karbonhq-lifecycle.yml
+  href: https://artifacts.apis.io/karbonhq/lifecycle/karbonhq-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/karbonhq-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/lifecycle/karbonhq-lifecycle.yml
+  href: https://artifacts.apis.io/karbonhq/lifecycle/karbonhq-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/karbonhq-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/errors/karbonhq-problem-types.yml
+  href: https://artifacts.apis.io/karbonhq/errors/karbonhq-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/karbonhq-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/conformance/karbonhq-conformance.yml
+  href: https://artifacts.apis.io/karbonhq/conformance/karbonhq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/karbonhq-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/overlays/karbonhq-karbon-api-overlay.yaml
+  href: https://artifacts.apis.io/karbonhq/overlays/karbonhq-karbon-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/karbonhq-karbon-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/llms/karbonhq-llms.txt
+  href: https://artifacts.apis.io/karbonhq/llms/karbonhq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/karbonhq-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/well-known/karbonhq-security.txt
+  href: https://artifacts.apis.io/karbonhq/well-known/karbonhq-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/karbonhq-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/well-known/karbonhq-well-known.yml
+  href: https://artifacts.apis.io/karbonhq/well-known/karbonhq-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/karbonhq-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/hosts/karbonhq-hosts.yml
+  href: https://artifacts.apis.io/karbonhq/hosts/karbonhq-hosts.yml
   title: ''
   type: Hosts
   url: hosts/karbonhq-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/vendors/karbonhq-vendors.yml
+  href: https://artifacts.apis.io/karbonhq/vendors/karbonhq-vendors.yml
   title: ''
   type: Vendors
   url: vendors/karbonhq-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/authentication/karbonhq-authentication.yml
+  href: https://artifacts.apis.io/karbonhq/authentication/karbonhq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/karbonhq-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/security/karbonhq-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/karbonhq/security/karbonhq-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/karbonhq-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/security/karbonhq-domain-security.yml
+  href: https://artifacts.apis.io/karbonhq/security/karbonhq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/karbonhq-domain-security.yml
@@ -339,6 +341,14 @@ common:
   url: https://karbonhq.com/about/
 created: '2026-10-09'
 description: Karbon is accounting practice management software for accounting firms, built to enhance visibility, efficiency, and connectivity for a firm no matter where its people are located. Through the Karbon Developer Center (developers.karbonhq.com) it publishes a public REST API reference plus guides covering authentication, pagination, rate limits, webhooks, work items, clients, custom fields, budgets and time, invoices and payments, and file uploads.
+finops:
+- has_sources: true
+  method: derived
+  name: Karbonhq Finops
+  primary_unit: seat
+  service_category: ''
+  slug: karbonhq-finops
+  template: false
 image: https://karbonhq.com/images/og-default-image.jpg
 json_schemas:
 - name: BusinessCardRequest
@@ -384,7 +394,10 @@ plans:
 - name: Karbonhq Plans Pricing
   plan_count: 3
   slug: karbonhq-plans-pricing
-random_paper: 18
+- name: Karbonhq Price Estimates
+  plan_count: 0
+  slug: karbonhq-price-estimates
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Karbonhq Rate Limits
@@ -416,23 +429,23 @@ rules:
   slug: karbonhq-rules
 score:
   band: exemplar
-  composite: 71.0
+  composite: 71.3
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 82.8
+    artifact_dirs: 30
+    catalog_earned: 85.8
     catalog_earned_first_party: 20.0
-    catalog_gap: 32.3
+    catalog_gap: 29.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.4
+  delta: 1.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 35.6
-    contract_quality: 75.5
+    contract_quality: 75.6
     developer_ergonomics: 56.5
-    discoverability: 76.7
+    discoverability: 67.9
     operational_transparency: 84.2
-  previous_composite: 74.4
+  previous_composite: 69.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -449,13 +462,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/screenshots/karbonhq-2026-10-11T110101.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/karbonhq/karbonhq-2026-10-11T110101.png
 security:
 - kind: authentication
   name: Karbonhq Authentication
@@ -469,6 +483,16 @@ security:
   name: Karbonhq Vulnerability Disclosure
   slug: karbonhq-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 4
+skills:
+- name: karbonhq-create-work-item
+  slug: karbonhq-create-work-item
+- name: karbonhq-find-client
+  slug: karbonhq-find-client
+- name: karbonhq-invoice-payments
+  slug: karbonhq-invoice-payments
+- name: karbonhq-webhooks
+  slug: karbonhq-webhooks
 slug: karbonhq
 tags:
 - Company

@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.0
-  scored_at: '2026-10-17'
+  score: 37.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -88,85 +90,90 @@ apis:
   description: Real-time SSE streaming
   name: SharpAPI Streaming API
   slug: sharpapi-streaming-api
-artifact_total: 23
+artifact_total: 27
 common:
+- group: other
+  href: https://artifacts.apis.io/sharpapi/capabilities/sharpapi-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sharpapi-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/agentic-access/sharpapi-agentic-access.yml
+  href: https://artifacts.apis.io/sharpapi/agentic-access/sharpapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sharpapi-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/plans/sharpapi-plans-pricing.yml
+  href: https://artifacts.apis.io/sharpapi/plans/sharpapi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sharpapi-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/rules/sharpapi-rules.yml
+  href: https://artifacts.apis.io/sharpapi/rules/sharpapi-rules.yml
   title: ''
   type: Spectral
   url: rules/sharpapi-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/json-ld/sharpapi-context.jsonld
+  href: https://artifacts.apis.io/sharpapi/json-ld/sharpapi-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/sharpapi-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/vocabulary/sharpapi-vocabulary.yml
+  href: https://artifacts.apis.io/sharpapi/vocabulary/sharpapi-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sharpapi-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sharpapi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/data-model/sharpapi-data-model.yml
+  href: https://artifacts.apis.io/sharpapi/data-model/sharpapi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sharpapi-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/conventions/sharpapi-conventions.yml
+  href: https://artifacts.apis.io/sharpapi/conventions/sharpapi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sharpapi-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/authentication/sharpapi-authentication.yml
+  href: https://artifacts.apis.io/sharpapi/authentication/sharpapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sharpapi-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/errors/sharpapi-problem-types.yml
+  href: https://artifacts.apis.io/sharpapi/errors/sharpapi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sharpapi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/conformance/sharpapi-conformance.yml
+  href: https://artifacts.apis.io/sharpapi/conformance/sharpapi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sharpapi-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/llms/sharpapi-llms.txt
+  href: https://artifacts.apis.io/sharpapi/llms/sharpapi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sharpapi-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/hosts/sharpapi-hosts.yml
+  href: https://artifacts.apis.io/sharpapi/hosts/sharpapi-hosts.yml
   title: ''
   type: Hosts
   url: hosts/sharpapi-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/vendors/sharpapi-vendors.yml
+  href: https://artifacts.apis.io/sharpapi/vendors/sharpapi-vendors.yml
   title: ''
   type: Vendors
   url: vendors/sharpapi-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/packages/sharpapi-packages.yml
+  href: https://artifacts.apis.io/sharpapi/packages/sharpapi-packages.yml
   title: ''
   type: SDKs
   url: packages/sharpapi-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/packages/sharpapi-packages.yml
+  href: https://artifacts.apis.io/sharpapi/packages/sharpapi-packages.yml
   title: ''
   type: Packages
   url: packages/sharpapi-packages.yml
@@ -183,7 +190,7 @@ common:
   type: DeveloperPortal
   url: https://docs.sharpapi.io\\\
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/security/sharpapi-domain-security.yml
+  href: https://artifacts.apis.io/sharpapi/security/sharpapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sharpapi-domain-security.yml
@@ -221,6 +228,14 @@ common:
   url: https://github.com/Sharp-API
 created: '2026-10-14'
 description: SharpAPI provides real-time sports betting odds with built-in expected value (EV) and arbitrage data across major US sportsbooks. Their API delivers over 47 million odds daily, supporting multiple sports and leagues, and offers free tier access for developers to integrate betting data, odds comparison, and EV calculations into applications.
+finops:
+- has_sources: true
+  method: derived
+  name: Sharpapi Finops
+  primary_unit: seat
+  service_category: ''
+  slug: sharpapi-finops
+  template: false
 image: https://sharpapi.io/og-image.png
 json_schemas:
 - name: EventGameState
@@ -257,12 +272,15 @@ overview: 'SharpAPI publishes 11 API contracts indexed on the [APIs.io](https://
   The SharpAPI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SharpAPI''s developer surface includes authentication, documentation, pricing, signup flow, API reference, getting-started guide, and 22 more developer resources.'
+  SharpAPI''s developer surface includes authentication, documentation, pricing, signup flow, API reference, getting-started guide, and 23 more developer resources.'
 plans:
 - name: Sharpapi Plans Pricing
   plan_count: 5
   slug: sharpapi-plans-pricing
-random_paper: 20
+- name: Sharpapi Price Estimates
+  plan_count: 0
+  slug: sharpapi-price-estimates
+random_paper: 16
 rules:
 - authorship: generated
   effective_rule_count: 58
@@ -277,22 +295,24 @@ rules:
     warn: 4
   slug: sharpapi-rules
 score:
-  band: developing
-  composite: 54.0
+  band: strong
+  composite: 55.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 69.8
+    artifact_dirs: 22
+    catalog_earned: 72.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 45.3
+    catalog_gap: 42.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 22.0
     contract_quality: 65.8
     developer_ergonomics: 58.9
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 5.3
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -309,11 +329,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Sharpapi Authentication
@@ -323,6 +345,12 @@ security:
   name: Sharpapi Domain Security
   slug: sharpapi-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: sharpapi-compare-odds
+  slug: sharpapi-compare-odds
+- name: sharpapi-manage-api-keys
+  slug: sharpapi-manage-api-keys
 slug: sharpapi
 tags:
 - Company

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-17'
+  score: 29.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -65,15 +67,12 @@ apis:
   description: Refunds are the only way by which a Flexa payment can be reversed. Refunds are always initiated by the recipient, and can be made for either a partial amount or the full value of the original payment.
   name: Flexa Refunds API
   slug: flexa-refunds-api
-artifact_total: 14
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Flexa Events Webhooks
   slug: flexa-events-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Flexa Assets API
   slug: open-flexa-assets-api
@@ -87,12 +86,17 @@ collections:
   name: Flexa Assets Refunds API
   slug: open-flexa-refunds-api
 common:
+- group: other
+  href: https://artifacts.apis.io/flexa/capabilities/flexa-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/flexa-capability-edges.yml
 - group: company
   title: ''
   type: Blog
   url: https://flexa.co/newsroom
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/agentic-access/flexa-agentic-access.yml
+  href: https://artifacts.apis.io/flexa/agentic-access/flexa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/flexa-agentic-access.yml
@@ -133,42 +137,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/flexa
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/llms/flexa-llms.txt
+  href: https://artifacts.apis.io/flexa/llms/flexa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flexa-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/packages/flexa-packages.yml
+  href: https://artifacts.apis.io/flexa/packages/flexa-packages.yml
   title: ''
   type: Packages
   url: packages/flexa-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/packages/flexa-packages.yml
+  href: https://artifacts.apis.io/flexa/packages/flexa-packages.yml
   title: ''
   type: SDKs
   url: packages/flexa-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/authentication/flexa-authentication.yml
+  href: https://artifacts.apis.io/flexa/authentication/flexa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flexa-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/sandbox/flexa-sandbox.yml
+  href: https://artifacts.apis.io/flexa/sandbox/flexa-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/flexa-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/well-known/flexa-well-known.yml
+  href: https://artifacts.apis.io/flexa/well-known/flexa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/flexa-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/security/flexa-domain-security.yml
+  href: https://artifacts.apis.io/flexa/security/flexa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flexa-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/security/flexa-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/flexa/security/flexa-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/flexa-vulnerability-disclosure.yml
@@ -177,52 +181,52 @@ common:
   type: Security
   url: https://flexa.co/security/bug-bounty-program
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/errors/flexa-problem-types.yml
+  href: https://artifacts.apis.io/flexa/errors/flexa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/flexa-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/conventions/flexa-conventions.yml
+  href: https://artifacts.apis.io/flexa/conventions/flexa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flexa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/lifecycle/flexa-lifecycle.yml
+  href: https://artifacts.apis.io/flexa/lifecycle/flexa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flexa-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/conformance/flexa-conformance.yml
+  href: https://artifacts.apis.io/flexa/conformance/flexa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flexa-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/data-model/flexa-data-model.yml
+  href: https://artifacts.apis.io/flexa/data-model/flexa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/flexa-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/overlays/flexa-openapi-overlay.yaml
+  href: https://artifacts.apis.io/flexa/overlays/flexa-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/flexa-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/mcp/flexa-mcp.yml
+  href: https://artifacts.apis.io/flexa/mcp/flexa-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/flexa-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/asyncapi/flexa-events-webhooks.yml
+  href: https://artifacts.apis.io/flexa/asyncapi/flexa-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/flexa-events-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/components/flexa-components.yml
+  href: https://artifacts.apis.io/flexa/components/flexa-components.yml
   title: ''
   type: Components
   url: components/flexa-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/flexa/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -240,27 +244,27 @@ overview: 'Flexa publishes 4 API contracts indexed on the [APIs.io](https://apis
   The Flexa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Flexa''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, sandbox, and 23 more developer resources.'
+  Flexa''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, sandbox, and 24 more developer resources.'
 random_paper: 0
 score:
   band: developing
-  composite: 45.1
+  composite: 45.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 60.4
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 21.1
-  previous_composite: 44.6
+    discoverability: 66.1
+    operational_transparency: 23.7
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -277,13 +281,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/screenshots/flexa-2026-07-25T214746.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/flexa/flexa-2026-07-25T214746.png
 security:
 - kind: authentication
   name: Flexa Authentication
@@ -297,6 +302,12 @@ security:
   name: Flexa Vulnerability Disclosure
   slug: flexa-vulnerability-disclosure
   summary_line: contact published
+skill_count: 2
+skills:
+- name: Collect a digital-currency payment
+  slug: flexa-collect-a-payment
+- name: Refund a completed payment
+  slug: flexa-refund-a-payment
 slug: flexa
 tags:
 - Company

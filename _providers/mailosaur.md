@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -174,11 +176,8 @@ apis:
     question: What usage did my account rack up over the past month?
   phrasing_ops: 2
   slug: mailosaur-usage-api
-artifact_total: 30
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Mailosaur Analysis API
   slug: open-mailosaur-analysis-api
@@ -199,27 +198,27 @@ collections:
   slug: open-mailosaur-usage-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/capabilities/mailosaur-capability-edges.yml
+  href: https://artifacts.apis.io/mailosaur/capabilities/mailosaur-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mailosaur-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/agentic-access/mailosaur-agentic-access.yml
+  href: https://artifacts.apis.io/mailosaur/agentic-access/mailosaur-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mailosaur-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/security/mailosaur-trust-center.yml
+  href: https://artifacts.apis.io/mailosaur/security/mailosaur-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mailosaur-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/security/mailosaur-domain-security.yml
+  href: https://artifacts.apis.io/mailosaur/security/mailosaur-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mailosaur-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/authentication/mailosaur-authentication.yml
+  href: https://artifacts.apis.io/mailosaur/authentication/mailosaur-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mailosaur-authentication.yml
@@ -256,72 +255,72 @@ common:
   type: StatusPage
   url: https://status.mailosaur.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/plans/mailosaur-plans-pricing.yml
+  href: https://artifacts.apis.io/mailosaur/plans/mailosaur-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mailosaur-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/rate-limits/mailosaur-rate-limits.yml
+  href: https://artifacts.apis.io/mailosaur/rate-limits/mailosaur-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mailosaur-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/finops/mailosaur-finops.yml
+  href: https://artifacts.apis.io/mailosaur/finops/mailosaur-finops.yml
   title: ''
   type: FinOps
   url: finops/mailosaur-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/packages/mailosaur-packages.yml
+  href: https://artifacts.apis.io/mailosaur/packages/mailosaur-packages.yml
   title: ''
   type: Packages
   url: packages/mailosaur-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/packages/mailosaur-packages.yml
+  href: https://artifacts.apis.io/mailosaur/packages/mailosaur-packages.yml
   title: ''
   type: SDKs
   url: packages/mailosaur-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/cli/mailosaur-cli.yml
+  href: https://artifacts.apis.io/mailosaur/cli/mailosaur-cli.yml
   title: ''
   type: CLI
   url: cli/mailosaur-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/mcp/mailosaur-mcp.yml
+  href: https://artifacts.apis.io/mailosaur/mcp/mailosaur-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mailosaur-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mailosaur/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/llms/mailosaur-llms.txt
+  href: https://artifacts.apis.io/mailosaur/llms/mailosaur-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mailosaur-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/conventions/mailosaur-conventions.yml
+  href: https://artifacts.apis.io/mailosaur/conventions/mailosaur-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mailosaur-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/errors/mailosaur-problem-types.yml
+  href: https://artifacts.apis.io/mailosaur/errors/mailosaur-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mailosaur-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/lifecycle/mailosaur-lifecycle.yml
+  href: https://artifacts.apis.io/mailosaur/lifecycle/mailosaur-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mailosaur-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/data-model/mailosaur-data-model.yml
+  href: https://artifacts.apis.io/mailosaur/data-model/mailosaur-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mailosaur-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/conformance/mailosaur-conformance.yml
+  href: https://artifacts.apis.io/mailosaur/conformance/mailosaur-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mailosaur-conformance.yml
@@ -330,52 +329,52 @@ common:
   type: Compliance
   url: https://trust.mailosaur.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/vocabulary/mailosaur-vocabulary.yml
+  href: https://artifacts.apis.io/mailosaur/vocabulary/mailosaur-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/mailosaur-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/rules/mailosaur-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/mailosaur/rules/mailosaur-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/mailosaur-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/json-ld/mailosaur-context.jsonld
+  href: https://artifacts.apis.io/mailosaur/json-ld/mailosaur-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/mailosaur-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/json-schema/mailosaur-message.json
+  href: https://artifacts.apis.io/mailosaur/json-schema/mailosaur-message.json
   title: ''
   type: JSONSchema
   url: json-schema/mailosaur-message.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/json-schema/mailosaur-server.json
+  href: https://artifacts.apis.io/mailosaur/json-schema/mailosaur-server.json
   title: ''
   type: JSONSchema
   url: json-schema/mailosaur-server.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/json-schema/mailosaur-device.json
+  href: https://artifacts.apis.io/mailosaur/json-schema/mailosaur-device.json
   title: ''
   type: JSONSchema
   url: json-schema/mailosaur-device.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/examples/mailosaur-search-messages-example.json
+  href: https://artifacts.apis.io/mailosaur/examples/mailosaur-search-messages-example.json
   title: ''
   type: Examples
   url: examples/mailosaur-search-messages-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/examples/mailosaur-create-server-example.json
+  href: https://artifacts.apis.io/mailosaur/examples/mailosaur-create-server-example.json
   title: ''
   type: Examples
   url: examples/mailosaur-create-server-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/examples/mailosaur-get-otp-example.json
+  href: https://artifacts.apis.io/mailosaur/examples/mailosaur-get-otp-example.json
   title: ''
   type: Examples
   url: examples/mailosaur-get-otp-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/examples/mailosaur-deliverability-report-example.json
+  href: https://artifacts.apis.io/mailosaur/examples/mailosaur-deliverability-report-example.json
   title: ''
   type: Examples
   url: examples/mailosaur-deliverability-report-example.json
@@ -435,13 +434,13 @@ examples:
   name: Mailosaur Search Messages Example
   slug: mailosaur-search-messages-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Mailosaur Finops
-  primary_unit: ''
+  primary_unit: subscription
   service_category: ''
   slug: mailosaur-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mailosaur.png
 json_schemas:
 - name: Device
@@ -474,7 +473,10 @@ plans:
 - name: Mailosaur Plans Pricing
   plan_count: 3
   slug: mailosaur-plans-pricing
-random_paper: 5
+- name: Mailosaur Price Estimates
+  plan_count: 0
+  slug: mailosaur-price-estimates
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Mailosaur Rate Limits
@@ -493,23 +495,23 @@ rules:
   slug: mailosaur-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 67.7
+  composite: 69.3
   coverage:
     artifact_dirs: 30
-    catalog_earned: 73.5
+    catalog_earned: 76.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 41.5
+    catalog_gap: 38.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 31.8
-    contract_quality: 59.1
-    developer_ergonomics: 75.6
-    discoverability: 73.2
+    contract_quality: 57.1
+    developer_ergonomics: 78.0
+    discoverability: 66.1
     operational_transparency: 52.6
-  previous_composite: 69.2
+  previous_composite: 67.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -532,13 +534,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/screenshots/mailosaur-2026-06-20T184900.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mailosaur/mailosaur-2026-06-20T184900.png
 security:
 - kind: authentication
   name: Mailosaur Authentication
@@ -552,6 +555,18 @@ security:
   name: Mailosaur Trust Center
   slug: mailosaur-trust-center
   summary_line: ISO 27001:2022, PCI DSS, GDPR, UK Data Protection Act, CCPA
+skill_count: 5
+skills:
+- name: Automate authenticator-app (TOTP) multi-factor login
+  slug: mailosaur-automate-totp-mfa
+- name: Check an email's deliverability and spam score before it ships
+  slug: mailosaur-check-deliverability-and-spam
+- name: Provision and tear down a disposable test inbox
+  slug: mailosaur-provision-disposable-inbox
+- name: Test a password-reset or account-verification link end to end
+  slug: mailosaur-test-password-reset-link
+- name: Verify a one-time passcode delivered by email or SMS
+  slug: mailosaur-verify-otp-code
 slug: mailosaur
 tags:
 - Email Testing

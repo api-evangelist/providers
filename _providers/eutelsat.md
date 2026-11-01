@@ -14,36 +14,38 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.1
-  scored_at: '2026-10-17'
+  score: 18.2
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eutelsat/refs/heads/main/llms/eutelsat-llms.txt
+  href: https://artifacts.apis.io/eutelsat/llms/eutelsat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eutelsat-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eutelsat/refs/heads/main/well-known/eutelsat-well-known.yml
+  href: https://artifacts.apis.io/eutelsat/well-known/eutelsat-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/eutelsat-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eutelsat/refs/heads/main/hosts/eutelsat-hosts.yml
+  href: https://artifacts.apis.io/eutelsat/hosts/eutelsat-hosts.yml
   title: ''
   type: Hosts
   url: hosts/eutelsat-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eutelsat/refs/heads/main/vendors/eutelsat-vendors.yml
+  href: https://artifacts.apis.io/eutelsat/vendors/eutelsat-vendors.yml
   title: ''
   type: Vendors
   url: vendors/eutelsat-vendors.yml
@@ -64,7 +66,7 @@ common:
   type: Blog
   url: https://www.eutelsat.com/mediacentre/blog/redefining-inflight-connectivity
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eutelsat/refs/heads/main/security/eutelsat-domain-security.yml
+  href: https://artifacts.apis.io/eutelsat/security/eutelsat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eutelsat-domain-security.yml
@@ -92,10 +94,10 @@ overview: 'Eutelsat is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Eutelsat''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 13
+random_paper: 7
 score:
   band: minimal
-  composite: 9.7
+  composite: 9.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -109,9 +111,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 57.1
+    discoverability: 50.0
     operational_transparency: 10.5
-  previous_composite: 9.7
+  previous_composite: 9.0
   provenance:
     mcp: unknown
   regulatory:
@@ -120,14 +122,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/eutelsat/refs/heads/main/screenshots/eutelsat-2026-10-11T184844.png
+screenshot: https://apis.io/screenshots/eutelsat/eutelsat-2026-10-11T184844.png
 security:
 - kind: domain-security
   name: Eutelsat Domain Security

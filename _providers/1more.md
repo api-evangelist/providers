@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -36,10 +38,10 @@ apis:
 - description: The agent-facing commerce interface 1MORE serves from its own US storefront host. A Universal Commerce Protocol merchant profile at /.well-known/ucp declares the supported UCP versions, services and p
   name: 1MORE Storefront Agent Commerce (UCP/MCP)
   slug: 1more-storefront-agent-commerce
-artifact_total: 8
+artifact_total: 10
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/security/1more-domain-security.yml
+  href: https://artifacts.apis.io/1more/security/1more-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/1more-domain-security.yml
@@ -76,77 +78,77 @@ common:
   type: PrivacyPolicy
   url: https://usa.1more.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/mcp/1more-mcp.yml
+  href: https://artifacts.apis.io/1more/mcp/1more-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/1more-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/llms/1more-llms.txt
+  href: https://artifacts.apis.io/1more/llms/1more-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/1more-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/well-known/1more-well-known.yml
+  href: https://artifacts.apis.io/1more/well-known/1more-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/1more-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/authentication/1more-authentication.yml
+  href: https://artifacts.apis.io/1more/authentication/1more-authentication.yml
   title: ''
   type: Authentication
   url: authentication/1more-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/scopes/1more-scopes.yml
+  href: https://artifacts.apis.io/1more/scopes/1more-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/1more-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/conformance/1more-conformance.yml
+  href: https://artifacts.apis.io/1more/conformance/1more-conformance.yml
   title: ''
   type: Conformance
   url: conformance/1more-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/conventions/1more-conventions.yml
+  href: https://artifacts.apis.io/1more/conventions/1more-conventions.yml
   title: ''
   type: Conventions
   url: conventions/1more-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/conventions/1more-conventions.yml
+  href: https://artifacts.apis.io/1more/conventions/1more-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/1more-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/errors/1more-problem-types.yml
+  href: https://artifacts.apis.io/1more/errors/1more-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/1more-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/lifecycle/1more-lifecycle.yml
+  href: https://artifacts.apis.io/1more/lifecycle/1more-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/1more-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/data-model/1more-data-model.yml
+  href: https://artifacts.apis.io/1more/data-model/1more-data-model.yml
   title: ''
   type: DataModel
   url: data-model/1more-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/1more/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/agentic-access/1more-agentic-access.yml
+  href: https://artifacts.apis.io/1more/agentic-access/1more-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/1more-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/rate-limits/1more-rate-limits.yml
+  href: https://artifacts.apis.io/1more/rate-limits/1more-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/1more-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/plans/1more-plans-pricing.yml
+  href: https://artifacts.apis.io/1more/plans/1more-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/1more-plans-pricing.yml
@@ -170,7 +172,7 @@ plans:
 - name: 1More Plans Pricing
   plan_count: 0
   slug: 1more-plans-pricing
-random_paper: 0
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: 1More Rate Limits
@@ -182,7 +184,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 24.7
+  composite: 23.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 32.0
@@ -190,15 +192,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 0.0
-  previous_composite: 24.6
+  previous_composite: 23.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -210,14 +212,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/1more/refs/heads/main/screenshots/1more-2026-10-11T092021.png
+screenshot: https://apis.io/screenshots/1more/1more-2026-10-11T092021.png
 security:
 - kind: authentication
   name: 1More Authentication
@@ -227,6 +229,12 @@ security:
   name: 1More Domain Security
   slug: 1more-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Browse the 1MORE catalog
+  slug: 1more-browse-catalog
+- name: Build a 1MORE cart and take it to checkout
+  slug: 1more-cart-and-checkout
 slug: 1more
 tags:
 - Company

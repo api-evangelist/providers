@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.0
-  scored_at: '2026-10-17'
+  score: 35.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 4
@@ -123,11 +125,8 @@ apis:
   description: The Visitor API from Pendo.io — 3 operation(s) for visitor.
   name: Pendo.io Visitor API
   slug: pendoio-visitor-api
-artifact_total: 38
+artifact_total: 42
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Pendo Engage Account API
   slug: open-pendoio-account-api
@@ -177,8 +176,13 @@ collections:
   name: Pendo Engage Account Visitor API
   slug: open-pendoio-visitor-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/pendoio/plans/pendoio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/pendoio-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/capabilities/pendoio-capability-edges.yml
+  href: https://artifacts.apis.io/pendoio/capabilities/pendoio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pendoio-capability-edges.yml
@@ -187,7 +191,7 @@ common:
   type: Website
   url: https://www.pendo.io/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/overlays/pendoio-engage-overlay.yaml
+  href: https://artifacts.apis.io/pendoio/overlays/pendoio-engage-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pendoio-engage-overlay.yaml
@@ -244,22 +248,22 @@ common:
   type: Postman
   url: https://engageapi.pendo.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/authentication/pendoio-authentication.yml
+  href: https://artifacts.apis.io/pendoio/authentication/pendoio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pendoio-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/security/pendoio-domain-security.yml
+  href: https://artifacts.apis.io/pendoio/security/pendoio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pendoio-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/security/pendoio-trust-center.yml
+  href: https://artifacts.apis.io/pendoio/security/pendoio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pendoio-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/security/pendoio-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pendoio/security/pendoio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pendoio-vulnerability-disclosure.yml
@@ -272,72 +276,80 @@ common:
   type: Compliance
   url: https://www.pendo.io/trust/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/agentic-access/pendoio-agentic-access.yml
+  href: https://artifacts.apis.io/pendoio/agentic-access/pendoio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pendoio-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/packages/pendoio-packages.yml
+  href: https://artifacts.apis.io/pendoio/packages/pendoio-packages.yml
   title: ''
   type: Packages
   url: packages/pendoio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/packages/pendoio-packages.yml
+  href: https://artifacts.apis.io/pendoio/packages/pendoio-packages.yml
   title: ''
   type: SDKs
   url: packages/pendoio-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/well-known/pendoio-well-known.yml
+  href: https://artifacts.apis.io/pendoio/well-known/pendoio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pendoio-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/mcp/pendoio-mcp.yml
+  href: https://artifacts.apis.io/pendoio/mcp/pendoio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/pendoio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/llms/pendoio-llms.txt
+  href: https://artifacts.apis.io/pendoio/llms/pendoio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pendoio-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/conformance/pendoio-conformance.yml
+  href: https://artifacts.apis.io/pendoio/conformance/pendoio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pendoio-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/lifecycle/pendoio-lifecycle.yml
+  href: https://artifacts.apis.io/pendoio/lifecycle/pendoio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pendoio-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/changelog/pendoio-changelog.yml
+  href: https://artifacts.apis.io/pendoio/changelog/pendoio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pendoio-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/data-model/pendoio-data-model.yml
+  href: https://artifacts.apis.io/pendoio/data-model/pendoio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pendoio-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/conventions/pendoio-conventions.yml
+  href: https://artifacts.apis.io/pendoio/conventions/pendoio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pendoio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/errors/pendoio-problem-types.yml
+  href: https://artifacts.apis.io/pendoio/errors/pendoio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pendoio-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pendoio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Pendo is a product-experience and product-analytics platform that helps software teams understand and guide how users engage with their applications. Its Engage API provides programmatic access to the pages, features, guides, visitors, accounts, segments, reports, and metadata collected by the Pendo agent, plus a MongoDB-like Aggregation API for running structured queries over product-usage events. The API authenticates with a per-subscription integration key sent in the x-pendo-integration-key header (OAuth 2.0 is additionally published via RFC 8414 authorization-server metadata), and includes GDPR/CCPA bulk-deletion, segment management, in-app guide targeting, and cloud Data Sync export. Pendo was surfaced as a portfolio company of Battery Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Pendoio Finops
+  primary_unit: ''
+  service_category: ''
+  slug: pendoio-finops
+  template: true
 image: https://www.pendo.io/favicon.ico
 layout: provider
 modified: '2026-07-20'
@@ -347,27 +359,31 @@ network: true
 overview: 'Pendo.io publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Admin API, Aggregation API, and 13 more. Tagged areas include Company, Product Analytics, Product Experience, Digital Adoption, and User Analytics.
 
 
-  Pendo.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 2
+  Pendo.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+plans:
+- name: Pendoio Plans Pricing
+  plan_count: 7
+  slug: pendoio-plans-pricing
+random_paper: 6
 score:
-  band: developing
-  composite: 48.5
+  band: strong
+  composite: 60.1
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 6.3
   facets:
-    access_clarity: 47.4
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 44.9
-    developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 44.7
-  previous_composite: 48.4
+    developer_ergonomics: 70.8
+    discoverability: 66.1
+    operational_transparency: 47.4
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -384,13 +400,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/screenshots/pendoio-2026-08-17T081153.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pendoio/pendoio-2026-08-17T081153.png
 security:
 - kind: authentication
   name: Pendoio Authentication
@@ -408,6 +425,14 @@ security:
   name: Pendoio Trust Center
   slug: pendoio-trust-center
   summary_line: SOC 2, HIPAA, TX-RAMP
+skill_count: 3
+skills:
+- name: Erase visitor data for GDPR/CCPA
+  slug: pendoio-gdpr-erasure
+- name: Query product analytics with the Aggregation API
+  slug: pendoio-run-aggregation
+- name: Build a segment and target an in-app guide
+  slug: pendoio-segment-and-target-guide
 slug: pendoio
 tags:
 - Company

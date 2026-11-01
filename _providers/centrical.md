@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,12 +38,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/centrical/refs/heads/main/security/centrical-domain-security.yml
+  href: https://artifacts.apis.io/centrical/security/centrical-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/centrical-domain-security.yml
@@ -78,17 +80,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/gameffective
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centrical/refs/heads/main/conformance/centrical-conformance.yml
+  href: https://artifacts.apis.io/centrical/conformance/centrical-conformance.yml
   title: ''
   type: Conformance
   url: conformance/centrical-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/centrical/refs/heads/main/conformance/centrical-conformance.yml
+  href: https://artifacts.apis.io/centrical/conformance/centrical-conformance.yml
   title: ''
   type: Compliance
   url: conformance/centrical-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/centrical/refs/heads/main/security/centrical-trust-center.yml
+  href: https://artifacts.apis.io/centrical/security/centrical-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/centrical-trust-center.yml
@@ -97,22 +99,22 @@ common:
   type: StatusPage
   url: https://centrical.statuspage.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centrical/refs/heads/main/lifecycle/centrical-lifecycle.yml
+  href: https://artifacts.apis.io/centrical/lifecycle/centrical-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/centrical-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/centrical/refs/heads/main/plans/centrical-plans-pricing.yml
+  href: https://artifacts.apis.io/centrical/plans/centrical-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/centrical-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/centrical/refs/heads/main/rate-limits/centrical-rate-limits.yml
+  href: https://artifacts.apis.io/centrical/rate-limits/centrical-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/centrical-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/centrical/refs/heads/main/llms/centrical-llms.txt
+  href: https://artifacts.apis.io/centrical/llms/centrical-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/centrical-llms.txt
@@ -149,14 +151,14 @@ plans:
 - name: Centrical Plans Pricing
   plan_count: 1
   slug: centrical-plans-pricing
-random_paper: 3
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Centrical Rate Limits
   slug: centrical-rate-limits
 score:
   band: thin
-  composite: 27.6
+  composite: 28.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 35.0
@@ -169,10 +171,10 @@ score:
     access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 55.4
-    operational_transparency: 18.4
-  previous_composite: 27.6
+    developer_ergonomics: 7.1
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 28.2
   provenance:
     conformance: first-party
   regulatory:
@@ -181,14 +183,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/centrical/refs/heads/main/screenshots/centrical-2026-09-02T145029.png
+screenshot: https://apis.io/screenshots/centrical/centrical-2026-09-02T145029.png
 security:
 - kind: authentication
   name: Centrical Authentication

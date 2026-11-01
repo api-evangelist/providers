@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,20 +37,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Single-endpoint GraphQL API (queries, mutations and websocket subscriptions) for building display, control and monitoring apps on top of Soundtrack — now-playing, playback control, device pairing, sch
   name: Soundtrack API
   slug: soundtrack-api
-artifact_total: 4
+artifact_total: 9
 asyncapis:
 - description: 'Event/streaming surface of the Soundtrack API, derived from the GraphQL Subscriptions root type via introspection. Clients subscribe over websocket to the single GraphQL endpoint (token supplied as a '
   name: Soundtrack API — GraphQL Subscriptions
   slug: soundtrack-your-brand-subscriptions-asyncapi
 common:
+- group: commercial
+  href: https://artifacts.apis.io/soundtrack-your-brand/plans/soundtrack-your-brand-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/soundtrack-your-brand-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soundtrack-your-brand/refs/heads/main/security/soundtrack-your-brand-domain-security.yml
+  href: https://artifacts.apis.io/soundtrack-your-brand/security/soundtrack-your-brand-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/soundtrack-your-brand-domain-security.yml
@@ -113,62 +120,70 @@ common:
   type: PrivacyPolicy
   url: https://www.soundtrackyourbrand.com/legal/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soundtrack-your-brand/refs/heads/main/authentication/soundtrack-your-brand-authentication.yml
+  href: https://artifacts.apis.io/soundtrack-your-brand/authentication/soundtrack-your-brand-authentication.yml
   title: ''
   type: Authentication
   url: authentication/soundtrack-your-brand-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soundtrack-your-brand/refs/heads/main/conventions/soundtrack-your-brand-conventions.yml
+  href: https://artifacts.apis.io/soundtrack-your-brand/conventions/soundtrack-your-brand-conventions.yml
   title: ''
   type: Conventions
   url: conventions/soundtrack-your-brand-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soundtrack-your-brand/refs/heads/main/errors/soundtrack-your-brand-problem-types.yml
+  href: https://artifacts.apis.io/soundtrack-your-brand/errors/soundtrack-your-brand-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/soundtrack-your-brand-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soundtrack-your-brand/refs/heads/main/lifecycle/soundtrack-your-brand-lifecycle.yml
+  href: https://artifacts.apis.io/soundtrack-your-brand/lifecycle/soundtrack-your-brand-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/soundtrack-your-brand-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soundtrack-your-brand/refs/heads/main/conformance/soundtrack-your-brand-conformance.yml
+  href: https://artifacts.apis.io/soundtrack-your-brand/conformance/soundtrack-your-brand-conformance.yml
   title: ''
   type: Conformance
   url: conformance/soundtrack-your-brand-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soundtrack-your-brand/refs/heads/main/data-model/soundtrack-your-brand-data-model.yml
+  href: https://artifacts.apis.io/soundtrack-your-brand/data-model/soundtrack-your-brand-data-model.yml
   title: ''
   type: DataModel
   url: data-model/soundtrack-your-brand-data-model.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/soundtrack-your-brand/refs/heads/main/asyncapi/soundtrack-your-brand-subscriptions-asyncapi.yml
+  href: https://artifacts.apis.io/soundtrack-your-brand/asyncapi/soundtrack-your-brand-subscriptions-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/soundtrack-your-brand-subscriptions-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soundtrack-your-brand/refs/heads/main/mcp/soundtrack-your-brand-mcp.yml
+  href: https://artifacts.apis.io/soundtrack-your-brand/mcp/soundtrack-your-brand-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/soundtrack-your-brand-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soundtrack-your-brand/refs/heads/main/llms/soundtrack-your-brand-llms.txt
+  href: https://artifacts.apis.io/soundtrack-your-brand/llms/soundtrack-your-brand-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/soundtrack-your-brand-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/soundtrack-your-brand/refs/heads/main/packages/soundtrack-your-brand-packages.yml
+  href: https://artifacts.apis.io/soundtrack-your-brand/packages/soundtrack-your-brand-packages.yml
   title: ''
   type: Packages
   url: packages/soundtrack-your-brand-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soundtrack-your-brand/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/soundtrack-your-brand/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'Soundtrack Your Brand (Soundtrack) is a Stockholm-based business music streaming company that provides licensed background music for physical spaces such as retail stores, restaurants, cafes, hotels and gyms. Its Soundtrack API is a single-endpoint GraphQL API that lets partners and customers build display, control and monitoring applications on top of Soundtrack: read what is currently playing in a sound zone, control playback, pair playback devices, and manage schedules, playlists and music libraries across accounts and locations. The API is free for paying Soundtrack customers and is complemented by a partner-gated native Player SDK for embedding Soundtrack playback in hardware.'
+finops:
+- has_sources: true
+  method: derived
+  name: Soundtrack Your Brand Finops
+  primary_unit: zone
+  service_category: ''
+  slug: soundtrack-your-brand-finops
+  template: false
 image: https://api.soundtrackyourbrand.com/v2/docs/img/favicon.ico
 layout: provider
 modified: '2026-07-21'
@@ -181,26 +196,30 @@ overview: 'Soundtrack Your Brand is listed with 1 API on the [APIs.io](https://a
   The Soundtrack Your Brand catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Soundtrack Your Brand''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 20 more developer resources.'
-random_paper: 2
+  Soundtrack Your Brand''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 21 more developer resources.'
+plans:
+- name: Soundtrack Your Brand Plans Pricing
+  plan_count: 6
+  slug: soundtrack-your-brand-plans-pricing
+random_paper: 22
 score:
-  band: developing
-  composite: 41.5
+  band: strong
+  composite: 54.7
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 19
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 34.2
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 51.0
-    developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 18.4
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -209,7 +228,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 41.4
+  previous_composite: 46.8
   provenance:
     conformance: derived
     mcp: derived
@@ -219,15 +238,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/soundtrack-your-brand/refs/heads/main/screenshots/soundtrack-your-brand-2026-08-17T082005.png
+screenshot: https://apis.io/screenshots/soundtrack-your-brand/soundtrack-your-brand-2026-08-17T082005.png
 security:
 - kind: authentication
   name: Soundtrack Your Brand Authentication
@@ -237,6 +256,14 @@ security:
   name: Soundtrack Your Brand Domain Security
   slug: soundtrack-your-brand-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Show what's playing in a sound zone
+  slug: soundtrack-your-brand-now-playing
+- name: Pair a playback device to a sound zone
+  slug: soundtrack-your-brand-pair-device
+- name: Control playback in a sound zone
+  slug: soundtrack-your-brand-playback-control
 slug: soundtrack-your-brand
 tags:
 - Company

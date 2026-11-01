@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.3
-  scored_at: '2026-10-17'
+  score: 28.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -130,11 +132,8 @@ apis:
   description: The OAuth2 API from VATSIM — 2 operation(s) for oauth2.
   name: VATSIM O Auth2 API
   slug: vatsim-oauth2-api
-artifact_total: 40
+artifact_total: 39
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: VATSIM AIP Airport info API
   slug: open-vatsim-airport-info-api
@@ -179,17 +178,17 @@ collections:
   slug: open-vatsim-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/vatsim/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/vatsim/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/vatsim/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -198,22 +197,22 @@ common:
   type: Website
   url: https://vatsim.dev
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/agentic-access/vatsim-agentic-access.yml
+  href: https://artifacts.apis.io/vatsim/agentic-access/vatsim-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vatsim-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/security/vatsim-domain-security.yml
+  href: https://artifacts.apis.io/vatsim/security/vatsim-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vatsim-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/authentication/vatsim-authentication.yml
+  href: https://artifacts.apis.io/vatsim/authentication/vatsim-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vatsim-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/scopes/vatsim-scopes.yml
+  href: https://artifacts.apis.io/vatsim/scopes/vatsim-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vatsim-scopes.yml
@@ -240,7 +239,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -252,7 +251,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 26.3
+  composite: 27.0
   coverage:
     artifact_dirs: 12
     catalog_earned: 44.0
@@ -260,7 +259,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -268,7 +267,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 78.6
     operational_transparency: 5.3
-  previous_composite: 32.3
+  previous_composite: 27.0
   provenance:
     agentic_access: derived
     contracts:
@@ -282,13 +281,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/screenshots/vatsim-2026-06-20T200846.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vatsim/vatsim-2026-06-20T200846.png
 security:
 - kind: authentication
   name: Vatsim Authentication

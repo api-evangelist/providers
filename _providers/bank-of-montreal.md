@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: Real-time access to BMO Online Banking for Business account data — current balances; day-end, month-end and year-end balances; and transaction histories that can replace BAI files and other settlement
@@ -59,27 +61,27 @@ apis:
 artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-montreal/refs/heads/main/security/bank-of-montreal-domain-security.yml
+  href: https://artifacts.apis.io/bank-of-montreal/security/bank-of-montreal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bank-of-montreal-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-montreal/refs/heads/main/well-known/bank-of-montreal-well-known.yml
+  href: https://artifacts.apis.io/bank-of-montreal/well-known/bank-of-montreal-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bank-of-montreal-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-montreal/refs/heads/main/authentication/bank-of-montreal-authentication.yml
+  href: https://artifacts.apis.io/bank-of-montreal/authentication/bank-of-montreal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bank-of-montreal-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-montreal/refs/heads/main/conformance/bank-of-montreal-conformance.yml
+  href: https://artifacts.apis.io/bank-of-montreal/conformance/bank-of-montreal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bank-of-montreal-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-montreal/refs/heads/main/security/bank-of-montreal-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bank-of-montreal/security/bank-of-montreal-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bank-of-montreal-vulnerability-disclosure.yml
@@ -88,12 +90,12 @@ common:
   type: Security
   url: https://hackerone.com/bmo
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-montreal/refs/heads/main/sandbox/bank-of-montreal-sandbox.yml
+  href: https://artifacts.apis.io/bank-of-montreal/sandbox/bank-of-montreal-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bank-of-montreal-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-montreal/refs/heads/main/llms/bank-of-montreal-llms.txt
+  href: https://artifacts.apis.io/bank-of-montreal/llms/bank-of-montreal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bank-of-montreal-llms.txt
@@ -154,10 +156,10 @@ overview: 'BMO Financial Group is listed with 6 APIs on the [APIs.io](https://ap
 
 
   BMO Financial Group''s developer surface includes authentication, sandbox, API reference, getting-started guide, documentation, signup flow, support, and 12 more developer resources.'
-random_paper: 19
+random_paper: 21
 score:
   band: thin
-  composite: 30.1
+  composite: 29.3
   coverage:
     artifact_dirs: 11
     catalog_earned: 40.0
@@ -165,13 +167,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -180,7 +182,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 30.0
+  previous_composite: 29.3
   provenance:
     conformance: derived
   regulatory:
@@ -189,14 +191,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-montreal/refs/heads/main/screenshots/bank-of-montreal-2026-07-25T202338.png
+screenshot: https://apis.io/screenshots/bank-of-montreal/bank-of-montreal-2026-07-25T202338.png
 security:
 - kind: authentication
   name: Bank Of Montreal Authentication

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The SpacetimeDB HTTP API lets clients and tools interact with SpacetimeDB databases: publish and delete database modules, manage database names, retrieve schema and logs, invoke reducers, run SQL quer'
   name: SpacetimeDB HTTP API
   slug: spacetimedb-http-api
-artifact_total: 3
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -103,77 +105,77 @@ common:
   type: PrivacyPolicy
   url: https://spacetimedb.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/llms/clockwork-labs-llms.txt
+  href: https://artifacts.apis.io/clockwork-labs/llms/clockwork-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clockwork-labs-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/packages/clockwork-labs-packages.yml
+  href: https://artifacts.apis.io/clockwork-labs/packages/clockwork-labs-packages.yml
   title: ''
   type: Packages
   url: packages/clockwork-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/packages/clockwork-labs-packages.yml
+  href: https://artifacts.apis.io/clockwork-labs/packages/clockwork-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/clockwork-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/cli/clockwork-labs-cli.yml
+  href: https://artifacts.apis.io/clockwork-labs/cli/clockwork-labs-cli.yml
   title: ''
   type: CLI
   url: cli/clockwork-labs-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/well-known/clockwork-labs-well-known.yml
+  href: https://artifacts.apis.io/clockwork-labs/well-known/clockwork-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/clockwork-labs-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/authentication/clockwork-labs-authentication.yml
+  href: https://artifacts.apis.io/clockwork-labs/authentication/clockwork-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clockwork-labs-authentication.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/well-known/clockwork-labs-openid-configuration.json
+  href: https://artifacts.apis.io/clockwork-labs/well-known/clockwork-labs-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/clockwork-labs-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/errors/clockwork-labs-problem-types.yml
+  href: https://artifacts.apis.io/clockwork-labs/errors/clockwork-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clockwork-labs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/conventions/clockwork-labs-conventions.yml
+  href: https://artifacts.apis.io/clockwork-labs/conventions/clockwork-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clockwork-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/conformance/clockwork-labs-conformance.yml
+  href: https://artifacts.apis.io/clockwork-labs/conformance/clockwork-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clockwork-labs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/lifecycle/clockwork-labs-lifecycle.yml
+  href: https://artifacts.apis.io/clockwork-labs/lifecycle/clockwork-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clockwork-labs-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/changelog/clockwork-labs-changelog.yml
+  href: https://artifacts.apis.io/clockwork-labs/changelog/clockwork-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/clockwork-labs-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/mcp/clockwork-labs-mcp.yml
+  href: https://artifacts.apis.io/clockwork-labs/mcp/clockwork-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/clockwork-labs-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/clockwork-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/security/clockwork-labs-domain-security.yml
+  href: https://artifacts.apis.io/clockwork-labs/security/clockwork-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clockwork-labs-domain-security.yml
@@ -189,26 +191,26 @@ overview: 'Clockwork Labs is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   Clockwork Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 8
+random_paper: 22
 score:
   band: thin
-  composite: 37.9
+  composite: 38.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 37.8
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 38.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -219,14 +221,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/screenshots/clockwork-labs-2026-07-25T205640.png
+screenshot: https://apis.io/screenshots/clockwork-labs/clockwork-labs-2026-07-25T205640.png
 security:
 - kind: authentication
   name: Clockwork Labs Authentication
@@ -236,6 +238,12 @@ security:
   name: Clockwork Labs Domain Security
   slug: clockwork-labs-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Authenticate and invoke a reducer
+  slug: clockwork-labs-call-reducer
+- name: Query a SpacetimeDB database over HTTP
+  slug: clockwork-labs-query-database
 slug: clockwork-labs
 tags:
 - Company

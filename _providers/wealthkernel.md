@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'All-in-one REST API for digital investing: onboarding, accounts (GIA/ISA/JISA/SIPP), funding, custody, trading, portfolio management, transfers, cash savings, valuations, performance and reporting. OA'
@@ -46,7 +48,7 @@ asyncapis:
   slug: wealthkernel-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wealthkernel/refs/heads/main/security/wealthkernel-domain-security.yml
+  href: https://artifacts.apis.io/wealthkernel/security/wealthkernel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wealthkernel-domain-security.yml
@@ -103,57 +105,57 @@ common:
   type: Compliance
   url: https://www.wealthkernel.com/regulatory
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wealthkernel/refs/heads/main/authentication/wealthkernel-authentication.yml
+  href: https://artifacts.apis.io/wealthkernel/authentication/wealthkernel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wealthkernel-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthkernel/refs/heads/main/conventions/wealthkernel-conventions.yml
+  href: https://artifacts.apis.io/wealthkernel/conventions/wealthkernel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wealthkernel-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthkernel/refs/heads/main/conventions/wealthkernel-conventions.yml
+  href: https://artifacts.apis.io/wealthkernel/conventions/wealthkernel-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/wealthkernel-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthkernel/refs/heads/main/lifecycle/wealthkernel-lifecycle.yml
+  href: https://artifacts.apis.io/wealthkernel/lifecycle/wealthkernel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wealthkernel-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthkernel/refs/heads/main/asyncapi/wealthkernel-webhooks.yml
+  href: https://artifacts.apis.io/wealthkernel/asyncapi/wealthkernel-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/wealthkernel-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/wealthkernel/refs/heads/main/sandbox/wealthkernel-sandbox.yml
+  href: https://artifacts.apis.io/wealthkernel/sandbox/wealthkernel-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/wealthkernel-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthkernel/refs/heads/main/conformance/wealthkernel-conformance.yml
+  href: https://artifacts.apis.io/wealthkernel/conformance/wealthkernel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wealthkernel-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wealthkernel/refs/heads/main/well-known/wealthkernel-well-known.yml
+  href: https://artifacts.apis.io/wealthkernel/well-known/wealthkernel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wealthkernel-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wealthkernel/refs/heads/main/well-known/wealthkernel-openid-configuration.json
+  href: https://artifacts.apis.io/wealthkernel/well-known/wealthkernel-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/wealthkernel-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthkernel/refs/heads/main/data-model/wealthkernel-data-model.yml
+  href: https://artifacts.apis.io/wealthkernel/data-model/wealthkernel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wealthkernel-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wealthkernel/refs/heads/main/llms/wealthkernel-llms.txt
+  href: https://artifacts.apis.io/wealthkernel/llms/wealthkernel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wealthkernel-llms.txt
@@ -173,10 +175,10 @@ overview: 'WealthKernel is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   WealthKernel''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 10
+random_paper: 14
 score:
   band: developing
-  composite: 44.4
+  composite: 44.1
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -190,8 +192,8 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 26.3
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -200,7 +202,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 44.4
+  previous_composite: 44.1
   provenance:
     conformance: first-party
   regulatory:
@@ -209,14 +211,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wealthkernel/refs/heads/main/screenshots/wealthkernel-2026-08-17T082848.png
+screenshot: https://apis.io/screenshots/wealthkernel/wealthkernel-2026-08-17T082848.png
 security:
 - kind: authentication
   name: Wealthkernel Authentication

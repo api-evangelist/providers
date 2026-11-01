@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sanad-cash/refs/heads/main/security/sanad-cash-domain-security.yml
+  href: https://artifacts.apis.io/sanad-cash/security/sanad-cash-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sanad-cash-domain-security.yml
@@ -54,12 +56,12 @@ name: Sanad Cash
 nav: Providers
 network: true
 overview: Sanad Cash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, On-Demand Pay, and Earned Wage Access.
-random_paper: 11
+random_paper: 19
 score:
   band: minimal
   composite: 2.7
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -88,8 +90,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

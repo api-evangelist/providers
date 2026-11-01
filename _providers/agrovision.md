@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,13 +25,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of the Fruitist (Agrovision) direct-to-consumer store. It is a Universal Commerce Protocol 2026-08-25 service exposed over MCP at https://shop.fruitist.com/api/ucp/mc
   name: Fruitist Store UCP Commerce MCP
   slug: agrovision-ucp-commerce
-artifact_total: 7
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -64,67 +66,67 @@ common:
   type: Pricing
   url: https://shop.fruitist.com/collections/all
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agrovision/refs/heads/main/mcp/agrovision-mcp.yml
+  href: https://artifacts.apis.io/agrovision/mcp/agrovision-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/agrovision-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agrovision/refs/heads/main/llms/agrovision-llms.txt
+  href: https://artifacts.apis.io/agrovision/llms/agrovision-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agrovision-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agrovision/refs/heads/main/well-known/agrovision-well-known.yml
+  href: https://artifacts.apis.io/agrovision/well-known/agrovision-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agrovision-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agrovision/refs/heads/main/conformance/agrovision-conformance.yml
+  href: https://artifacts.apis.io/agrovision/conformance/agrovision-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agrovision-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agrovision/refs/heads/main/authentication/agrovision-authentication.yml
+  href: https://artifacts.apis.io/agrovision/authentication/agrovision-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agrovision-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agrovision/refs/heads/main/scopes/agrovision-scopes.yml
+  href: https://artifacts.apis.io/agrovision/scopes/agrovision-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/agrovision-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agrovision/refs/heads/main/conventions/agrovision-conventions.yml
+  href: https://artifacts.apis.io/agrovision/conventions/agrovision-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agrovision-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agrovision/refs/heads/main/rate-limits/agrovision-rate-limits.yml
+  href: https://artifacts.apis.io/agrovision/rate-limits/agrovision-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agrovision-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agrovision/refs/heads/main/plans/agrovision-plans-pricing.yml
+  href: https://artifacts.apis.io/agrovision/plans/agrovision-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agrovision-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agrovision/refs/heads/main/security/agrovision-domain-security.yml
+  href: https://artifacts.apis.io/agrovision/security/agrovision-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agrovision-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agrovision/refs/heads/main/lifecycle/agrovision-lifecycle.yml
+  href: https://artifacts.apis.io/agrovision/lifecycle/agrovision-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agrovision-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/agrovision/refs/heads/main/packages/agrovision-packages.yml
+  href: https://artifacts.apis.io/agrovision/packages/agrovision-packages.yml
   title: ''
   type: Packages
   url: packages/agrovision-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agrovision/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/agrovision/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -148,7 +150,7 @@ plans:
 - name: Agrovision Plans Pricing
   plan_count: 0
   slug: agrovision-plans-pricing
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Agrovision Rate Limits
@@ -160,7 +162,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 28.4
+  composite: 27.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 45.0
@@ -168,13 +170,13 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 20.8
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -183,7 +185,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 28.3
+  previous_composite: 27.4
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -194,14 +196,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/agrovision/refs/heads/main/screenshots/agrovision-2026-10-11T093211.png
+screenshot: https://apis.io/screenshots/agrovision/agrovision-2026-10-11T093211.png
 security:
 - kind: authentication
   name: Agrovision Authentication
@@ -211,6 +213,10 @@ security:
   name: Agrovision Domain Security
   slug: agrovision-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: agrovision-buy-berries
+  slug: agrovision-buy-berries
 slug: agrovision
 tags:
 - Company

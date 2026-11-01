@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A powerful web service enabling software applications to retrieve consumer credit data in XML format, supporting lending and financial institution workflows.
@@ -42,22 +44,22 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/meridianlink/refs/heads/main/plans/meridianlink-plans-pricing.yml
+  href: https://artifacts.apis.io/meridianlink/plans/meridianlink-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/meridianlink-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/meridianlink/refs/heads/main/rate-limits/meridianlink-rate-limits.yml
+  href: https://artifacts.apis.io/meridianlink/rate-limits/meridianlink-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/meridianlink-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/meridianlink/refs/heads/main/finops/meridianlink-finops.yml
+  href: https://artifacts.apis.io/meridianlink/finops/meridianlink-finops.yml
   title: ''
   type: FinOps
   url: finops/meridianlink-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meridianlink/refs/heads/main/security/meridianlink-domain-security.yml
+  href: https://artifacts.apis.io/meridianlink/security/meridianlink-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meridianlink-domain-security.yml
@@ -79,7 +81,7 @@ finops:
 - has_sources: false
   method: generated
   name: Meridianlink Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: meridianlink-finops
   template: true
@@ -97,7 +99,7 @@ plans:
 - name: Meridianlink Plans Pricing
   plan_count: 3
   slug: meridianlink-plans-pricing
-random_paper: 17
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Meridianlink Rate Limits
@@ -112,7 +114,7 @@ score:
     catalog_gap: 87.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -120,21 +122,21 @@ score:
     developer_ergonomics: 11.9
     discoverability: 39.3
     operational_transparency: 7.9
-  previous_composite: 8.1
+  previous_composite: 6.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/meridianlink/refs/heads/main/screenshots/meridianlink-2026-06-20T185220.png
+screenshot: https://apis.io/screenshots/meridianlink/meridianlink-2026-06-20T185220.png
 security:
 - kind: domain-security
   name: Meridianlink Domain Security

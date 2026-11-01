@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 25.3
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - baseURL: https://api.sg.cosmose.co/deal-hunter-registration-api
   baseurl_source: declared
@@ -103,19 +105,19 @@ apis:
   description: The token-controller API from Cosmose AI — 1 operation(s) for token-controller.
   name: Cosmose AI Token Controller API
   slug: cosmose-ai-token-controller-api
-artifact_total: 18
+artifact_total: 20
 collections:
 - collection_type: open
   name: Cosmose AI Deal Hunter Registration API
   slug: open-cosmose-ai-deal-hunter-registration-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/rate-limits/cosmose-ai-rate-limits.yml
+  href: https://artifacts.apis.io/cosmose-ai/rate-limits/cosmose-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cosmose-ai-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/overlays/cosmose-ai-deal-hunter-registration-api-overlay.yaml
+  href: https://artifacts.apis.io/cosmose-ai/overlays/cosmose-ai-deal-hunter-registration-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cosmose-ai-deal-hunter-registration-api-overlay.yaml
@@ -152,42 +154,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/Cosmose
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/packages/cosmose-ai-packages.yml
+  href: https://artifacts.apis.io/cosmose-ai/packages/cosmose-ai-packages.yml
   title: ''
   type: Packages
   url: packages/cosmose-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/packages/cosmose-ai-packages.yml
+  href: https://artifacts.apis.io/cosmose-ai/packages/cosmose-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/cosmose-ai-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/lifecycle/cosmose-ai-lifecycle.yml
+  href: https://artifacts.apis.io/cosmose-ai/lifecycle/cosmose-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cosmose-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/conformance/cosmose-ai-conformance.yml
+  href: https://artifacts.apis.io/cosmose-ai/conformance/cosmose-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cosmose-ai-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/security/cosmose-ai-domain-security.yml
+  href: https://artifacts.apis.io/cosmose-ai/security/cosmose-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cosmose-ai-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/llms/cosmose-ai-llms.txt
+  href: https://artifacts.apis.io/cosmose-ai/llms/cosmose-ai-llms.txt
   title: ''
   type: LLMSTxt
   url: llms/cosmose-ai-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/plans/cosmose-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/cosmose-ai/plans/cosmose-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cosmose-ai-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cosmose-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -208,29 +210,29 @@ plans:
 - name: Cosmose Ai Plans Pricing
   plan_count: 0
   slug: cosmose-ai-plans-pricing
-random_paper: 18
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Cosmose Ai Rate Limits
   slug: cosmose-ai-rate-limits
 score:
-  band: emerging
-  composite: 25.1
+  band: thin
+  composite: 28.8
   coverage:
     artifact_dirs: 22
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
-    access_clarity: 0.0
+    access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 44.8
-    developer_ergonomics: 32.7
-    discoverability: 71.4
-    operational_transparency: 2.6
+    developer_ergonomics: 35.1
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -238,7 +240,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 24.5
+  previous_composite: 29.3
   provenance:
     conformance: derived
     contracts:
@@ -253,14 +255,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 19.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/screenshots/cosmose-ai-2026-09-02T145151.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cosmose-ai/cosmose-ai-2026-09-02T145151.png
 security:
 - kind: authentication
   name: Cosmose Ai Authentication
@@ -270,6 +273,12 @@ security:
   name: Cosmose Ai Domain Security
   slug: cosmose-ai-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: cosmose-ai-erase-and-restore-a-user-account
+  slug: cosmose-ai-erase-and-restore-a-user-account
+- name: cosmose-ai-invite-and-onboard-a-kaikai-user
+  slug: cosmose-ai-invite-and-onboard-a-kaikai-user
 slug: cosmose-ai
 tags:
 - Retail Intelligence

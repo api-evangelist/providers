@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dr-horton/refs/heads/main/security/dr-horton-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dr-horton/security/dr-horton-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dr-horton-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dr-horton/refs/heads/main/security/dr-horton-domain-security.yml
+  href: https://artifacts.apis.io/dr-horton/security/dr-horton-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dr-horton-domain-security.yml
@@ -103,10 +105,10 @@ press:
 - date: ''
   title: Prophetic to Power D.R. Horton's AI-Driven Land ...
   url: https://www.prnewswire.com/news-releases/prophetic-to-power-dr-hortons-ai-driven-land-acquisition-at-national-scale-302610017.html
-random_paper: 1
+random_paper: 13
 score:
   band: minimal
-  composite: 3.4
+  composite: 4.8
   coverage:
     artifact_dirs: 6
     catalog_earned: 22.0
@@ -121,22 +123,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 39.3
-    operational_transparency: 0.0
-  previous_composite: 3.4
+    operational_transparency: 10.5
+  previous_composite: 4.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dr-horton/refs/heads/main/screenshots/dr-horton-2026-10-11T184800.png
+screenshot: https://apis.io/screenshots/dr-horton/dr-horton-2026-10-11T184800.png
 security:
 - kind: domain-security
   name: Dr Horton Domain Security

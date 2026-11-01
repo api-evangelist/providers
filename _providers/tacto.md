@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -69,17 +71,17 @@ common:
   type: Compliance
   url: https://tacto.ai/en/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tacto/refs/heads/main/conformance/tacto-conformance.yml
+  href: https://artifacts.apis.io/tacto/conformance/tacto-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tacto-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tacto/refs/heads/main/security/tacto-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tacto/security/tacto-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tacto-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tacto/refs/heads/main/security/tacto-domain-security.yml
+  href: https://artifacts.apis.io/tacto/security/tacto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tacto-domain-security.yml
@@ -102,9 +104,9 @@ overview: 'Tacto is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 11
 score:
   band: emerging
-  composite: 15.4
+  composite: 17.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -112,12 +114,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 51.7
-    operational_transparency: 13.2
+    discoverability: 48.2
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -126,7 +128,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 15.4
+  previous_composite: 17.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -140,14 +142,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tacto/refs/heads/main/screenshots/tacto-2026-10-11T130555.png
+screenshot: https://apis.io/screenshots/tacto/tacto-2026-10-11T130555.png
 security:
 - kind: domain-security
   name: Tacto Domain Security

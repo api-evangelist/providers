@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Provides Data Standards Cloud API and Classification API as described in the Getting Started guide.
@@ -37,37 +39,37 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/claravine/refs/heads/main/plans/claravine-plans-pricing.yml
+  href: https://artifacts.apis.io/claravine/plans/claravine-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/claravine-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/claravine/refs/heads/main/security/claravine-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/claravine/security/claravine-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/claravine-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/claravine/refs/heads/main/conformance/claravine-conformance.yml
+  href: https://artifacts.apis.io/claravine/conformance/claravine-conformance.yml
   title: ''
   type: Conformance
   url: conformance/claravine-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/claravine/refs/heads/main/well-known/claravine-status-security.txt
+  href: https://artifacts.apis.io/claravine/well-known/claravine-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/claravine-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/claravine/refs/heads/main/well-known/claravine-well-known.yml
+  href: https://artifacts.apis.io/claravine/well-known/claravine-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/claravine-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/claravine/refs/heads/main/hosts/claravine-hosts.yml
+  href: https://artifacts.apis.io/claravine/hosts/claravine-hosts.yml
   title: ''
   type: Hosts
   url: hosts/claravine-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/claravine/refs/heads/main/vendors/claravine-vendors.yml
+  href: https://artifacts.apis.io/claravine/vendors/claravine-vendors.yml
   title: ''
   type: Vendors
   url: vendors/claravine-vendors.yml
@@ -88,12 +90,12 @@ common:
   type: Newsroom
   url: https://www.claravine.com/company/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/claravine/refs/heads/main/security/claravine-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/claravine/security/claravine-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/claravine-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/claravine/refs/heads/main/security/claravine-domain-security.yml
+  href: https://artifacts.apis.io/claravine/security/claravine-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/claravine-domain-security.yml
@@ -141,7 +143,7 @@ modified: '2026-10-08'
 name: Claravine
 nav: Providers
 network: true
-overview: 'Claravine is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data-Standards, Marketing, and Software-as-a-Service.
+overview: 'Claravine is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Standards, Marketing, and Software-as-a-Service.
 
 
   Claravine''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, and 14 more developer resources.'
@@ -149,10 +151,10 @@ plans:
 - name: Claravine Plans Pricing
   plan_count: 3
   slug: claravine-plans-pricing
-random_paper: 3
+random_paper: 13
 score:
   band: thin
-  composite: 33.7
+  composite: 34.2
   coverage:
     artifact_dirs: 10
     catalog_earned: 39.0
@@ -160,13 +162,15 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 18.2
-    contract_quality: 7.5
+    contract_quality: 9.6
     developer_ergonomics: 35.7
     discoverability: 50.0
     operational_transparency: 26.3
+  previous_composite: 34.2
   provenance:
     conformance: first-party
     contracts:
@@ -181,8 +185,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -199,7 +204,7 @@ security:
 slug: claravine
 tags:
 - Company
-- Data-Standards
+- Data Standards
 - Marketing
 - Software-as-a-Service
 website: https://www.claravine.com/

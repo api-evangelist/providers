@@ -4,6 +4,6 @@ layout: provider
 name: network-protocols
 nav: Providers
 network: true
-random_paper: 16
+random_paper: 20
 slug: network-protocols
 ---

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: The Users API from Zoho Sign — 1 operation(s) for users.
   name: Zoho Sign Users API
   slug: zoho-sign-users-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Zoho Sign Accounts API
   slug: open-zoho-sign-accounts-api
@@ -83,27 +82,27 @@ collections:
   slug: open-zoho-sign-users-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/agentic-access/zoho-sign-agentic-access.yml
+  href: https://artifacts.apis.io/zoho-sign/agentic-access/zoho-sign-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zoho-sign-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/security/zoho-sign-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zoho-sign/security/zoho-sign-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zoho-sign-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/security/zoho-sign-domain-security.yml
+  href: https://artifacts.apis.io/zoho-sign/security/zoho-sign-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zoho-sign-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/authentication/zoho-sign-authentication.yml
+  href: https://artifacts.apis.io/zoho-sign/authentication/zoho-sign-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zoho-sign-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/scopes/zoho-sign-scopes.yml
+  href: https://artifacts.apis.io/zoho-sign/scopes/zoho-sign-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zoho-sign-scopes.yml
@@ -140,17 +139,17 @@ common:
   type: X
   url: https://twitter.com/ZohoSign
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/plans/zoho-sign-plans-pricing.yml
+  href: https://artifacts.apis.io/zoho-sign/plans/zoho-sign-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zoho-sign-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/rate-limits/zoho-sign-rate-limits.yml
+  href: https://artifacts.apis.io/zoho-sign/rate-limits/zoho-sign-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zoho-sign-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/finops/zoho-sign-finops.yml
+  href: https://artifacts.apis.io/zoho-sign/finops/zoho-sign-finops.yml
   title: ''
   type: FinOps
   url: finops/zoho-sign-finops.yml
@@ -200,7 +199,7 @@ plans:
 - name: Zoho Sign Plans Pricing
   plan_count: 5
   slug: zoho-sign-plans-pricing
-random_paper: 2
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Zoho Sign Rate Limits
@@ -224,7 +223,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.6
+  composite: 38.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 51.3
@@ -232,15 +231,15 @@ score:
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
-    contract_quality: 53.3
+    contract_quality: 49.9
     developer_ergonomics: 35.7
     discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 45.9
+    operational_transparency: 39.5
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     contracts:
@@ -254,13 +253,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/screenshots/zoho-sign-2026-06-20T201947.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zoho-sign/zoho-sign-2026-06-20T201947.png
 security:
 - kind: authentication
   name: Zoho Sign Authentication

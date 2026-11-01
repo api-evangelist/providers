@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'Token-based REST API for managing first-party data, building and editing audience segments, activating audiences, and retrieving behavior and audience analytics on the Lotame Spherical platform. JSON '
@@ -93,72 +95,72 @@ common:
   type: PrivacyPolicy
   url: https://www.lotame.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/authentication/lotame-solutions-authentication.yml
+  href: https://artifacts.apis.io/lotame-solutions/authentication/lotame-solutions-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lotame-solutions-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/conventions/lotame-solutions-conventions.yml
+  href: https://artifacts.apis.io/lotame-solutions/conventions/lotame-solutions-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lotame-solutions-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/errors/lotame-solutions-problem-types.yml
+  href: https://artifacts.apis.io/lotame-solutions/errors/lotame-solutions-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lotame-solutions-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/lifecycle/lotame-solutions-lifecycle.yml
+  href: https://artifacts.apis.io/lotame-solutions/lifecycle/lotame-solutions-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lotame-solutions-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/conformance/lotame-solutions-conformance.yml
+  href: https://artifacts.apis.io/lotame-solutions/conformance/lotame-solutions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lotame-solutions-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/security/lotame-solutions-domain-security.yml
+  href: https://artifacts.apis.io/lotame-solutions/security/lotame-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lotame-solutions-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/mcp/lotame-solutions-mcp.yml
+  href: https://artifacts.apis.io/lotame-solutions/mcp/lotame-solutions-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/lotame-solutions-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/llms/lotame-solutions-llms.txt
+  href: https://artifacts.apis.io/lotame-solutions/llms/lotame-solutions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lotame-solutions-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/packages/lotame-solutions-packages.yml
+  href: https://artifacts.apis.io/lotame-solutions/packages/lotame-solutions-packages.yml
   title: ''
   type: Packages
   url: packages/lotame-solutions-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/packages/lotame-solutions-packages.yml
+  href: https://artifacts.apis.io/lotame-solutions/packages/lotame-solutions-packages.yml
   title: ''
   type: SDKs
   url: packages/lotame-solutions-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/components/lotame-solutions-components.yml
+  href: https://artifacts.apis.io/lotame-solutions/components/lotame-solutions-components.yml
   title: ''
   type: Components
   url: components/lotame-solutions-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/data-model/lotame-solutions-data-model.yml
+  href: https://artifacts.apis.io/lotame-solutions/data-model/lotame-solutions-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lotame-solutions-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/plans/lotame-solutions-plans-pricing.yml
+  href: https://artifacts.apis.io/lotame-solutions/plans/lotame-solutions-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lotame-solutions-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/rate-limits/lotame-solutions-rate-limits.yml
+  href: https://artifacts.apis.io/lotame-solutions/rate-limits/lotame-solutions-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lotame-solutions-rate-limits.yml
@@ -190,14 +192,14 @@ plans:
 - name: Lotame Solutions Plans Pricing
   plan_count: 0
   slug: lotame-solutions-plans-pricing
-random_paper: 1
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Lotame Solutions Rate Limits
   slug: lotame-solutions-rate-limits
 score:
   band: thin
-  composite: 28.6
+  composite: 30.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -205,15 +207,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 47.6
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 28.5
+    developer_ergonomics: 52.4
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 30.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -223,14 +225,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/screenshots/lotame-solutions-2026-07-25T225550.png
+screenshot: https://apis.io/screenshots/lotame-solutions/lotame-solutions-2026-07-25T225550.png
 security:
 - kind: authentication
   name: Lotame Solutions Authentication

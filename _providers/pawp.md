@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pawp/refs/heads/main/security/pawp-domain-security.yml
+  href: https://artifacts.apis.io/pawp/security/pawp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pawp-domain-security.yml
@@ -81,7 +83,7 @@ overview: 'Pawp is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Pawp''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 0
+random_paper: 8
 score:
   band: emerging
   composite: 12.9
@@ -107,14 +109,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pawp/refs/heads/main/screenshots/pawp-2026-08-07T191612.png
+screenshot: https://apis.io/screenshots/pawp/pawp-2026-08-07T191612.png
 security:
 - kind: domain-security
   name: Pawp Domain Security

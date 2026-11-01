@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 26
 common:
@@ -53,7 +55,7 @@ common:
   type: ContributionGuide
   url: https://github.com/olivierlacan/keep-a-changelog/blob/main/CONTRIBUTING.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/changelog-md/refs/heads/main/security/changelog-md-domain-security.yml
+  href: https://artifacts.apis.io/changelog-md/security/changelog-md-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/changelog-md-domain-security.yml
@@ -90,42 +92,42 @@ common:
   type: ChangeLog
   url: https://github.com/olivierlacan/keep-a-changelog/blob/main/CHANGELOG.md
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/changelog-md/refs/heads/main/changelog/changelog-md-changelog.yml
+  href: https://artifacts.apis.io/changelog-md/changelog/changelog-md-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/changelog-md-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/changelog-md/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/changelog-md/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/changelog-md/refs/heads/main/llms/changelog-md-llms.txt
+  href: https://artifacts.apis.io/changelog-md/llms/changelog-md-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/changelog-md-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/changelog-md/refs/heads/main/packages/changelog-md-packages.yml
+  href: https://artifacts.apis.io/changelog-md/packages/changelog-md-packages.yml
   title: ''
   type: Packages
   url: packages/changelog-md-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/changelog-md/refs/heads/main/conformance/changelog-md-conformance.yml
+  href: https://artifacts.apis.io/changelog-md/conformance/changelog-md-conformance.yml
   title: ''
   type: Conformance
   url: conformance/changelog-md-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/changelog-md/refs/heads/main/lifecycle/changelog-md-lifecycle.yml
+  href: https://artifacts.apis.io/changelog-md/lifecycle/changelog-md-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/changelog-md-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/changelog-md/refs/heads/main/conventions/changelog-md-conventions.yml
+  href: https://artifacts.apis.io/changelog-md/conventions/changelog-md-conventions.yml
   title: ''
   type: Conventions
   url: conventions/changelog-md-conventions.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/changelog-md/refs/heads/main/plans/changelog-md-plans-pricing.yml
+  href: https://artifacts.apis.io/changelog-md/plans/changelog-md-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/changelog-md-plans-pricing.yml
@@ -177,7 +179,7 @@ plans:
 - name: Changelog Md Plans Pricing
   plan_count: 0
   slug: changelog-md-plans-pricing
-random_paper: 2
+random_paper: 14
 score:
   band: emerging
   composite: 13.4
@@ -188,7 +190,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -196,7 +198,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 48.2
     operational_transparency: 21.1
-  previous_composite: 13.3
+  previous_composite: 13.4
   provenance:
     conformance: first-party
     skills: first-party
@@ -206,14 +208,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/changelog-md/refs/heads/main/screenshots/changelog-md-2026-06-20T174213.png
+screenshot: https://apis.io/screenshots/changelog-md/changelog-md-2026-06-20T174213.png
 security:
 - kind: domain-security
   name: Changelog Md Domain Security

@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.6
-  scored_at: '2026-10-17'
+  score: 34.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 388
   human_in_the_loop: 4
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 851
   slug: payrix-agentic-access
   summary_line: 851 operations · 388 acting · 4 human-in-the-loop
-api_count: 4
+api_count: 2
 apis:
 - baseURL: https://api.payrix.com
   baseurl_source: declared
@@ -698,94 +700,94 @@ apis:
   description: 'Resources that deal with third-party entities (non-facilitators and non-merchants) that are involved with the merchant processing and provide a service (or set of services) to the merchant, for which '
   name: Payrix Vendors API
   slug: payrix-vendors-api
-artifact_total: 201
+artifact_total: 206
 asyncapis:
 - description: ''
   name: Payrix Webhooks
   slug: payrix-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/plans/payrix-plans-pricing.yml
+  href: https://artifacts.apis.io/payrix/plans/payrix-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/payrix-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/capabilities/payrix-capability-edges.yml
+  href: https://artifacts.apis.io/payrix/capabilities/payrix-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/payrix-capability-edges.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/rules/payrix-rules.yml
+  href: https://artifacts.apis.io/payrix/rules/payrix-rules.yml
   title: ''
   type: Spectral
   url: rules/payrix-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/json-ld/payrix-context.jsonld
+  href: https://artifacts.apis.io/payrix/json-ld/payrix-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/payrix-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/vocabulary/payrix-vocabulary.yml
+  href: https://artifacts.apis.io/payrix/vocabulary/payrix-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/payrix-vocabulary.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/well-known/payrix-status-security.txt
+  href: https://artifacts.apis.io/payrix/well-known/payrix-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/payrix-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/well-known/payrix-well-known.yml
+  href: https://artifacts.apis.io/payrix/well-known/payrix-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/payrix-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/agentic-access/payrix-agentic-access.yml
+  href: https://artifacts.apis.io/payrix/agentic-access/payrix-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/payrix-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/rate-limits/payrix-rate-limits.yml
+  href: https://artifacts.apis.io/payrix/rate-limits/payrix-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/payrix-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/payrix/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/asyncapi/payrix-webhooks.yml
+  href: https://artifacts.apis.io/payrix/asyncapi/payrix-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/payrix-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/data-model/payrix-data-model.yml
+  href: https://artifacts.apis.io/payrix/data-model/payrix-data-model.yml
   title: ''
   type: DataModel
   url: data-model/payrix-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/components/payrix-components.yml
+  href: https://artifacts.apis.io/payrix/components/payrix-components.yml
   title: ''
   type: Components
   url: components/payrix-components.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/changelog/payrix-changelog.yml
+  href: https://artifacts.apis.io/payrix/changelog/payrix-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/payrix-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/conventions/payrix-conventions.yml
+  href: https://artifacts.apis.io/payrix/conventions/payrix-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/payrix-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/conventions/payrix-conventions.yml
+  href: https://artifacts.apis.io/payrix/conventions/payrix-conventions.yml
   title: ''
   type: Conventions
   url: conventions/payrix-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/sandbox/payrix-sandbox.yml
+  href: https://artifacts.apis.io/payrix/sandbox/payrix-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/payrix-sandbox.yml
@@ -794,52 +796,52 @@ common:
   type: StatusPage
   url: https://status.payrix.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/lifecycle/payrix-lifecycle.yml
+  href: https://artifacts.apis.io/payrix/lifecycle/payrix-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/payrix-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/errors/payrix-decline-codes.yml
+  href: https://artifacts.apis.io/payrix/errors/payrix-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/payrix-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/errors/payrix-problem-types.yml
+  href: https://artifacts.apis.io/payrix/errors/payrix-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/payrix-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/conformance/payrix-conformance.yml
+  href: https://artifacts.apis.io/payrix/conformance/payrix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/payrix-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/overlays/payrix-merchant-overlay.yaml
+  href: https://artifacts.apis.io/payrix/overlays/payrix-merchant-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/payrix-merchant-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/llms/payrix-llms.txt
+  href: https://artifacts.apis.io/payrix/llms/payrix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/payrix-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/packages/payrix-packages.yml
+  href: https://artifacts.apis.io/payrix/packages/payrix-packages.yml
   title: ''
   type: SDKs
   url: packages/payrix-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/packages/payrix-packages.yml
+  href: https://artifacts.apis.io/payrix/packages/payrix-packages.yml
   title: ''
   type: Packages
   url: packages/payrix-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/authentication/payrix-authentication.yml
+  href: https://artifacts.apis.io/payrix/authentication/payrix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/payrix-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/security/payrix-domain-security.yml
+  href: https://artifacts.apis.io/payrix/security/payrix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/payrix-domain-security.yml
@@ -1104,7 +1106,7 @@ plans:
 - name: Payrix Plans Pricing
   plan_count: 0
   slug: payrix-plans-pricing
-random_paper: 9
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Payrix Rate Limits
@@ -1124,23 +1126,23 @@ rules:
   slug: payrix-rules
 score:
   band: strong
-  composite: 61.3
+  composite: 61.2
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 73.8
+    artifact_dirs: 32
+    catalog_earned: 70.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 41.3
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.6
   facets:
     access_clarity: 34.2
     contract_governance: 22.0
-    contract_quality: 79.8
+    contract_quality: 76.4
     developer_ergonomics: 73.2
-    discoverability: 78.6
-    operational_transparency: 65.8
-  previous_composite: 61.2
+    discoverability: 66.1
+    operational_transparency: 76.3
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1157,13 +1159,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/screenshots/payrix-2026-10-11T191327.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/payrix/payrix-2026-10-11T191327.png
 security:
 - kind: authentication
   name: Payrix Authentication
@@ -1173,6 +1176,18 @@ security:
   name: Payrix Domain Security
   slug: payrix-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: payrix-board-merchant
+  slug: payrix-board-merchant
+- name: payrix-process-payment
+  slug: payrix-process-payment
+- name: payrix-recurring-billing
+  slug: payrix-recurring-billing
+- name: payrix-reverse-or-refund
+  slug: payrix-reverse-or-refund
+- name: payrix-subscribe-webhooks
+  slug: payrix-subscribe-webhooks
 slug: payrix
 tags:
 - Company

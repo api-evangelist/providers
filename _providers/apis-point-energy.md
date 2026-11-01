@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apis-point-energy/refs/heads/main/hosts/apis-point-energy-hosts.yml
+  href: https://artifacts.apis.io/apis-point-energy/hosts/apis-point-energy-hosts.yml
   title: ''
   type: Hosts
   url: hosts/apis-point-energy-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apis-point-energy/refs/heads/main/vendors/apis-point-energy-vendors.yml
+  href: https://artifacts.apis.io/apis-point-energy/vendors/apis-point-energy-vendors.yml
   title: ''
   type: Vendors
   url: vendors/apis-point-energy-vendors.yml
@@ -42,7 +44,7 @@ common:
   type: PrivacyPolicy
   url: https://www.apispoint.energy/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apis-point-energy/refs/heads/main/security/apis-point-energy-domain-security.yml
+  href: https://artifacts.apis.io/apis-point-energy/security/apis-point-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apis-point-energy-domain-security.yml
@@ -66,7 +68,7 @@ name: Apis Point Energy
 nav: Providers
 network: true
 overview: Apis Point Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Trading, Distillate, and Risk Management.
-random_paper: 7
+random_paper: 19
 score:
   band: minimal
   composite: 5.8
@@ -94,14 +96,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/apis-point-energy/refs/heads/main/screenshots/apis-point-energy-2026-10-11T095935.png
+screenshot: https://apis.io/screenshots/apis-point-energy/apis-point-energy-2026-10-11T095935.png
 security:
 - kind: domain-security
   name: Apis Point Energy Domain Security

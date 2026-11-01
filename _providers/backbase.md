@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 27.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 26
   slug: backbase-agentic-access
   summary_line: 26 operations · 12 acting
-api_count: 4
+api_count: 2
 apis:
 - baseURL: https://api.backbase.com
   baseurl_source: declared
@@ -73,75 +75,75 @@ apis:
   description: The wallet API from BackBase — 2 operation(s) for wallet.
   name: BackBase Wallet API
   slug: backbase-wallet-api
-artifact_total: 26
+artifact_total: 27
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/agentic-access/backbase-agentic-access.yml
+  href: https://artifacts.apis.io/backbase/agentic-access/backbase-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/backbase-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/rules/backbase-rules.yml
+  href: https://artifacts.apis.io/backbase/rules/backbase-rules.yml
   title: ''
   type: Spectral
   url: rules/backbase-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/json-ld/backbase-context.jsonld
+  href: https://artifacts.apis.io/backbase/json-ld/backbase-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/backbase-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/vocabulary/backbase-vocabulary.yml
+  href: https://artifacts.apis.io/backbase/vocabulary/backbase-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/backbase-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/backbase/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/data-model/backbase-data-model.yml
+  href: https://artifacts.apis.io/backbase/data-model/backbase-data-model.yml
   title: ''
   type: DataModel
   url: data-model/backbase-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/errors/backbase-problem-types.yml
+  href: https://artifacts.apis.io/backbase/errors/backbase-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/backbase-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/conformance/backbase-conformance.yml
+  href: https://artifacts.apis.io/backbase/conformance/backbase-conformance.yml
   title: ''
   type: Conformance
   url: conformance/backbase-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/overlays/backbase-payment-order-client-api-overlay.yaml
+  href: https://artifacts.apis.io/backbase/overlays/backbase-payment-order-client-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/backbase-payment-order-client-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/llms/backbase-llms.txt
+  href: https://artifacts.apis.io/backbase/llms/backbase-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/backbase-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/hosts/backbase-hosts.yml
+  href: https://artifacts.apis.io/backbase/hosts/backbase-hosts.yml
   title: ''
   type: Hosts
   url: hosts/backbase-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/vendors/backbase-vendors.yml
+  href: https://artifacts.apis.io/backbase/vendors/backbase-vendors.yml
   title: ''
   type: Vendors
   url: vendors/backbase-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/packages/backbase-packages.yml
+  href: https://artifacts.apis.io/backbase/packages/backbase-packages.yml
   title: ''
   type: SDKs
   url: packages/backbase-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/packages/backbase-packages.yml
+  href: https://artifacts.apis.io/backbase/packages/backbase-packages.yml
   title: ''
   type: Packages
   url: packages/backbase-packages.yml
@@ -174,12 +176,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/Backbase
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/security/backbase-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/backbase/security/backbase-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/backbase-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/security/backbase-domain-security.yml
+  href: https://artifacts.apis.io/backbase/security/backbase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/backbase-domain-security.yml
@@ -276,23 +278,23 @@ rules:
   slug: backbase-rules
 score:
   band: thin
-  composite: 34.5
+  composite: 33.1
   coverage:
     artifact_dirs: 21
-    catalog_earned: 65.8
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.3
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
     access_clarity: 10.5
     contract_governance: 22.0
-    contract_quality: 57.6
+    contract_quality: 54.2
     developer_ergonomics: 32.7
-    discoverability: 80.4
+    discoverability: 67.9
     operational_transparency: 15.8
-  previous_composite: 33.9
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -309,13 +311,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 16.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/screenshots/backbase-2026-10-11T101427.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/backbase/backbase-2026-10-11T101427.png
 security:
 - kind: domain-security
   name: Backbase Domain Security
@@ -325,6 +328,10 @@ security:
   name: Backbase Vulnerability Disclosure
   slug: backbase-vulnerability-disclosure
   summary_line: security.txt
+skill_count: 1
+skills:
+- name: payment-orders
+  slug: backbase-payment-orders
 slug: backbase
 tags:
 - Banking

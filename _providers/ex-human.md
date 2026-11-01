@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 28.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -64,11 +66,18 @@ apis:
   description: The Text to Speech API from Ex-Human — 1 operation(s) for text to speech.
   name: Ex-Human Text to Speech API
   slug: ex-human-text-to-speech-api
-artifact_total: 13
+- baseURL: https://api.exh.ai
+  baseurl_source: declared
+  description: The admin API from Ex-Human — 6 operation(s) for admin.
+  name: Ex-Human Admin API
+  slug: ex-human-admin-api
+- baseURL: https://api.exh.ai
+  baseurl_source: declared
+  description: The Metrics API from Ex-Human — 1 operation(s) for metrics.
+  name: Ex-Human Metrics API
+  slug: ex-human-metrics-api
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ex-Human animations API
   slug: open-ex-human-animations-api
@@ -83,7 +92,7 @@ collections:
   slug: open-ex-human-text-to-speech-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/plans/ex-human-plans-pricing.yml
+  href: https://artifacts.apis.io/ex-human/plans/ex-human-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ex-human-plans-pricing.yml
@@ -92,22 +101,22 @@ common:
   type: Website
   url: https://www.exh.ai/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/overlays/ex-human-openapi-overlay.yaml
+  href: https://artifacts.apis.io/ex-human/overlays/ex-human-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ex-human-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/security/ex-human-domain-security.yml
+  href: https://artifacts.apis.io/ex-human/security/ex-human-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ex-human-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/agentic-access/ex-human-agentic-access.yml
+  href: https://artifacts.apis.io/ex-human/agentic-access/ex-human-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ex-human-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/authentication/ex-human-authentication.yml
+  href: https://artifacts.apis.io/ex-human/authentication/ex-human-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ex-human-authentication.yml
@@ -160,47 +169,47 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/ex-human/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/errors/ex-human-problem-types.yml
+  href: https://artifacts.apis.io/ex-human/errors/ex-human-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ex-human-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/conventions/ex-human-conventions.yml
+  href: https://artifacts.apis.io/ex-human/conventions/ex-human-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ex-human-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/lifecycle/ex-human-lifecycle.yml
+  href: https://artifacts.apis.io/ex-human/lifecycle/ex-human-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ex-human-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/conformance/ex-human-conformance.yml
+  href: https://artifacts.apis.io/ex-human/conformance/ex-human-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ex-human-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/data-model/ex-human-data-model.yml
+  href: https://artifacts.apis.io/ex-human/data-model/ex-human-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ex-human-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/mcp/ex-human-mcp.yml
+  href: https://artifacts.apis.io/ex-human/mcp/ex-human-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ex-human-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/llms/ex-human-llms.txt
+  href: https://artifacts.apis.io/ex-human/llms/ex-human-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ex-human-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/changelog/ex-human-changelog.yml
+  href: https://artifacts.apis.io/ex-human/changelog/ex-human-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ex-human-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ex-human/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -212,7 +221,7 @@ modified: '2026-07-19'
 name: Ex-Human
 nav: Providers
 network: true
-overview: 'Ex-Human publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Animations API, Chatbot API, Image Generation API, and 1 more. Tagged areas include Company, Artificial Intelligence, Conversational AI, AI Companion, and Generative AI.
+overview: 'Ex-Human publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Animations API, Chatbot API, Image Generation API, and 3 more. Tagged areas include Company, Artificial Intelligence, Conversational AI, AI Companion, and Generative AI.
 
 
   Ex-Human''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, signup flow, and 20 more developer resources.'
@@ -222,8 +231,8 @@ plans:
   slug: ex-human-plans-pricing
 random_paper: 11
 score:
-  band: thin
-  composite: 39.0
+  band: developing
+  composite: 48.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 49.0
@@ -231,15 +240,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.0
+  delta: -0.4
   facets:
-    access_clarity: 52.6
+    access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 48.3
-    developer_ergonomics: 37.5
-    discoverability: 73.2
-    operational_transparency: 7.9
-  previous_composite: 33.0
+    contract_quality: 46.9
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,7 +256,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 11
     mcp: derived
     skills: derived
   regulatory:
@@ -256,13 +265,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/screenshots/ex-human-2026-07-25T213827.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ex-human/ex-human-2026-07-25T213827.png
 security:
 - kind: authentication
   name: Ex Human Authentication
@@ -272,6 +282,14 @@ security:
   name: Ex Human Domain Security
   slug: ex-human-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Build a multimodal AI companion chat
+  slug: ex-human-companion-chat
+- name: Animate an image into video (create-then-poll)
+  slug: ex-human-image-to-video
+- name: Generate a talking-head avatar video
+  slug: ex-human-talking-head-avatar
 slug: ex-human
 tags:
 - Company

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-17'
+  score: 27.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -85,7 +87,7 @@ apis:
   description: Manage Looker users including creating, updating, and retrieving user accounts, credentials, roles, and sessions.
   name: Looker User API
   slug: looker-user-api
-artifact_total: 136
+artifact_total: 135
 collections:
 - collection_type: postman
   name: Looker Auth API
@@ -102,9 +104,6 @@ collections:
 - collection_type: postman
   name: Looker Auth User API
   slug: postman-looker-user-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Looker API
   slug: open-looker-api
@@ -125,7 +124,7 @@ collections:
   slug: open-looker-user-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/finops/looker-finops.yml
+  href: https://artifacts.apis.io/looker/finops/looker-finops.yml
   title: ''
   type: FinOps
   url: finops/looker-finops.yml
@@ -134,12 +133,12 @@ common:
   type: Blog
   url: https://cloud.google.com/blog/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/rate-limits/looker-rate-limits.yml
+  href: https://artifacts.apis.io/looker/rate-limits/looker-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/looker-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/plans/looker-plans-pricing.yml
+  href: https://artifacts.apis.io/looker/plans/looker-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/looker-plans-pricing.yml
@@ -148,7 +147,7 @@ common:
   type: Website
   url: https://looker.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/capabilities/looker-capability-edges.yml
+  href: https://artifacts.apis.io/looker/capabilities/looker-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/looker-capability-edges.yml
@@ -173,17 +172,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/looker/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/agentic-access/looker-agentic-access.yml
+  href: https://artifacts.apis.io/looker/agentic-access/looker-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/looker-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/security/looker-domain-security.yml
+  href: https://artifacts.apis.io/looker/security/looker-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/looker-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/authentication/looker-authentication.yml
+  href: https://artifacts.apis.io/looker/authentication/looker-authentication.yml
   title: ''
   type: Authentication
   url: authentication/looker-authentication.yml
@@ -244,12 +243,12 @@ common:
   type: Tutorials
   url: https://developers.looker.com/api/tutorials/interactive-api-docs-whats-next/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/json-schema/looker-dashboard-schema.json
+  href: https://artifacts.apis.io/looker/json-schema/looker-dashboard-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/looker-dashboard-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/json-ld/looker-context.jsonld
+  href: https://artifacts.apis.io/looker/json-ld/looker-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/looker-context.jsonld
@@ -340,10 +339,10 @@ features:
   name: API-Driven Administration
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Looker Finops
-  primary_unit: ''
-  service_category: Business Intelligence
+  primary_unit: 1m input data tokens
+  service_category: ''
   slug: looker-finops
   template: false
 image: https://looker.com/assets/img/images/logos/looker-logo.png
@@ -578,7 +577,7 @@ plans:
 - name: Looker Price Estimates
   plan_count: 0
   slug: looker-price-estimates
-random_paper: 14
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Looker Rate Limits
@@ -608,27 +607,24 @@ rules:
     warn: 8
   slug: looker-spectral-rules
 score:
-  band: developing
-  composite: 48.5
+  band: strong
+  composite: 61.2
   coverage:
     artifact_dirs: 20
-    catalog_earned: 65.5
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 49.5
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.9
+  delta: 1.6
   facets:
-    access_clarity: 42.1
+    access_clarity: 71.1
     contract_governance: 13.6
-    contract_quality: 62.7
-    developer_ergonomics: 54.8
+    contract_quality: 59.3
+    developer_ergonomics: 72.6
     discoverability: 57.1
-    operational_transparency: 57.9
-  open_source:
-    applies: true
-    score: 40.0
-  previous_composite: 49.4
+    operational_transparency: 68.4
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     contracts:
@@ -641,14 +637,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/screenshots/looker-2026-06-20T184712.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/looker/looker-2026-06-20T184712.png
 security:
 - kind: authentication
   name: Looker Authentication

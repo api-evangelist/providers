@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The business-to-business delivery API behind Kiwibot's autonomous last-mile fleet, served from a Google Cloud Endpoints gateway at api.kiwibot.com. Probed anonymously on 2026-08-23 the gateway answers
@@ -45,42 +47,42 @@ apis:
 artifact_total: 5
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kiwibot/refs/heads/main/rate-limits/kiwibot-rate-limits.yml
+  href: https://artifacts.apis.io/kiwibot/rate-limits/kiwibot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kiwibot-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kiwibot/refs/heads/main/packages/kiwibot-packages.yml
+  href: https://artifacts.apis.io/kiwibot/packages/kiwibot-packages.yml
   title: ''
   type: Packages
   url: packages/kiwibot-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kiwibot/refs/heads/main/conventions/kiwibot-conventions.yml
+  href: https://artifacts.apis.io/kiwibot/conventions/kiwibot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kiwibot-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kiwibot/refs/heads/main/lifecycle/kiwibot-lifecycle.yml
+  href: https://artifacts.apis.io/kiwibot/lifecycle/kiwibot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kiwibot-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kiwibot/refs/heads/main/conformance/kiwibot-conformance.yml
+  href: https://artifacts.apis.io/kiwibot/conformance/kiwibot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kiwibot-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kiwibot/refs/heads/main/plans/kiwibot-plans-pricing.yml
+  href: https://artifacts.apis.io/kiwibot/plans/kiwibot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kiwibot-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kiwibot/refs/heads/main/llms/kiwibot-llms.txt
+  href: https://artifacts.apis.io/kiwibot/llms/kiwibot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kiwibot-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kiwibot/refs/heads/main/security/kiwibot-domain-security.yml
+  href: https://artifacts.apis.io/kiwibot/security/kiwibot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kiwibot-domain-security.yml
@@ -139,30 +141,30 @@ plans:
 - name: Kiwibot Plans Pricing
   plan_count: 0
   slug: kiwibot-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Kiwibot Rate Limits
   slug: kiwibot-rate-limits
 score:
   band: emerging
-  composite: 17.1
+  composite: 16.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 17.0
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 16.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -176,14 +178,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kiwibot/refs/heads/main/screenshots/kiwibot-2026-09-02T150054.png
+screenshot: https://apis.io/screenshots/kiwibot/kiwibot-2026-09-02T150054.png
 security:
 - kind: authentication
   name: Kiwibot Authentication

@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.5
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -49,32 +51,32 @@ common:
   type: APIReference
   url: https://paper.design/docs/mcp
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paper/refs/heads/main/mcp/paper-mcp.yml
+  href: https://artifacts.apis.io/paper/mcp/paper-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/paper-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paper/refs/heads/main/llms/paper-llms.txt
+  href: https://artifacts.apis.io/paper/llms/paper-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paper-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paper/refs/heads/main/packages/paper-packages.yml
+  href: https://artifacts.apis.io/paper/packages/paper-packages.yml
   title: ''
   type: Packages
   url: packages/paper-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paper/refs/heads/main/components/paper-components.yml
+  href: https://artifacts.apis.io/paper/components/paper-components.yml
   title: ''
   type: Components
   url: components/paper-components.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/paper/refs/heads/main/changelog/paper-changelog.yml
+  href: https://artifacts.apis.io/paper/changelog/paper-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/paper-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paper/refs/heads/main/lifecycle/paper-lifecycle.yml
+  href: https://artifacts.apis.io/paper/lifecycle/paper-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/paper-lifecycle.yml
@@ -87,7 +89,7 @@ common:
   type: Roadmap
   url: https://paper.design/roadmap
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paper/refs/heads/main/security/paper-domain-security.yml
+  href: https://artifacts.apis.io/paper/security/paper-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paper-domain-security.yml
@@ -142,7 +144,7 @@ overview: 'Paper is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 8
 score:
   band: emerging
-  composite: 21.8
+  composite: 23.8
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -152,13 +154,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 55.4
-    operational_transparency: 31.6
-  previous_composite: 21.8
+    discoverability: 48.3
+    operational_transparency: 42.1
+  previous_composite: 23.8
   provenance:
     mcp: first-party
   regulatory:
@@ -167,14 +169,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/paper/refs/heads/main/screenshots/paper-2026-08-07T191429.png
+screenshot: https://apis.io/screenshots/paper/paper-2026-08-07T191429.png
 security:
 - kind: domain-security
   name: Paper Domain Security

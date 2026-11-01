@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthtap/refs/heads/main/security/healthtap-domain-security.yml
+  href: https://artifacts.apis.io/healthtap/security/healthtap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/healthtap-domain-security.yml
@@ -79,32 +81,32 @@ common:
   type: Compliance
   url: https://www.healthtap.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthtap/refs/heads/main/security/healthtap-trust-center.yml
+  href: https://artifacts.apis.io/healthtap/security/healthtap-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/healthtap-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthtap/refs/heads/main/well-known/healthtap-well-known.yml
+  href: https://artifacts.apis.io/healthtap/well-known/healthtap-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/healthtap-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthtap/refs/heads/main/conformance/healthtap-conformance.yml
+  href: https://artifacts.apis.io/healthtap/conformance/healthtap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/healthtap-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthtap/refs/heads/main/lifecycle/healthtap-lifecycle.yml
+  href: https://artifacts.apis.io/healthtap/lifecycle/healthtap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/healthtap-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/healthtap/refs/heads/main/packages/healthtap-packages.yml
+  href: https://artifacts.apis.io/healthtap/packages/healthtap-packages.yml
   title: ''
   type: Packages
   url: packages/healthtap-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthtap/refs/heads/main/llms/healthtap-llms.txt
+  href: https://artifacts.apis.io/healthtap/llms/healthtap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/healthtap-llms.txt
@@ -124,10 +126,10 @@ overview: 'HealthTap is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   HealthTap''s developer surface includes engineering blog, support, pricing, signup flow, and 13 more developer resources.'
-random_paper: 9
+random_paper: 19
 score:
   band: emerging
-  composite: 22.2
+  composite: 21.9
   coverage:
     artifact_dirs: 9
     catalog_earned: 25.0
@@ -141,9 +143,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 51.8
-    operational_transparency: 2.6
-  previous_composite: 22.2
+    discoverability: 44.6
+    operational_transparency: 5.3
+  previous_composite: 21.9
   provenance:
     conformance: first-party
   regulatory:
@@ -156,14 +158,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/healthtap/refs/heads/main/screenshots/healthtap-2026-08-07T170028.png
+screenshot: https://apis.io/screenshots/healthtap/healthtap-2026-08-07T170028.png
 security:
 - kind: domain-security
   name: Healthtap Domain Security

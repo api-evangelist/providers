@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: TimeEngine (package name `mdtsdb`) is QOMPLX's multi-dimensional time-series database and analytics engine. It exposes an HTTP interface for event ingestion (`/api/v1/ingest`), query-language executio
@@ -44,7 +46,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qomplx/refs/heads/main/security/qomplx-domain-security.yml
+  href: https://artifacts.apis.io/qomplx/security/qomplx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qomplx-domain-security.yml
@@ -57,52 +59,52 @@ common:
   type: GitHubOrganization
   url: https://github.com/QOMPLX-INC
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qomplx/refs/heads/main/packages/qomplx-packages.yml
+  href: https://artifacts.apis.io/qomplx/packages/qomplx-packages.yml
   title: ''
   type: Packages
   url: packages/qomplx-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qomplx/refs/heads/main/packages/qomplx-packages.yml
+  href: https://artifacts.apis.io/qomplx/packages/qomplx-packages.yml
   title: ''
   type: SDKs
   url: packages/qomplx-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qomplx/refs/heads/main/authentication/qomplx-authentication.yml
+  href: https://artifacts.apis.io/qomplx/authentication/qomplx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qomplx-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qomplx/refs/heads/main/errors/qomplx-error-codes.yml
+  href: https://artifacts.apis.io/qomplx/errors/qomplx-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/qomplx-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qomplx/refs/heads/main/conventions/qomplx-conventions.yml
+  href: https://artifacts.apis.io/qomplx/conventions/qomplx-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qomplx-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qomplx/refs/heads/main/lifecycle/qomplx-lifecycle.yml
+  href: https://artifacts.apis.io/qomplx/lifecycle/qomplx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qomplx-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qomplx/refs/heads/main/conformance/qomplx-conformance.yml
+  href: https://artifacts.apis.io/qomplx/conformance/qomplx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qomplx-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qomplx/refs/heads/main/rate-limits/qomplx-rate-limits.yml
+  href: https://artifacts.apis.io/qomplx/rate-limits/qomplx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qomplx-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qomplx/refs/heads/main/plans/qomplx-plans-pricing.yml
+  href: https://artifacts.apis.io/qomplx/plans/qomplx-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qomplx-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qomplx/refs/heads/main/llms/qomplx-llms.txt
+  href: https://artifacts.apis.io/qomplx/llms/qomplx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qomplx-llms.txt
@@ -140,14 +142,14 @@ plans:
 - name: Qomplx Plans Pricing
   plan_count: 0
   slug: qomplx-plans-pricing
-random_paper: 13
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Qomplx Rate Limits
   slug: qomplx-rate-limits
 score:
   band: emerging
-  composite: 11.0
+  composite: 11.4
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -162,8 +164,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 11.0
+    operational_transparency: 5.3
+  previous_composite: 11.4
   provenance:
     conformance: derived
     mcp: derived
@@ -173,14 +175,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 14.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/qomplx/refs/heads/main/screenshots/qomplx-2026-09-02T152534.png
+screenshot: https://apis.io/screenshots/qomplx/qomplx-2026-09-02T152534.png
 security:
 - kind: authentication
   name: Qomplx Authentication

@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-17'
+  score: 29.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -70,7 +72,7 @@ apis:
   description: Business review excerpts and ratings
   name: Yelp Reviews API
   slug: yelp-reviews-api
-artifact_total: 85
+artifact_total: 84
 collections:
 - collection_type: postman
   name: Yelp Fusion AI API
@@ -88,9 +90,6 @@ collections:
   name: Yelp Fusion AI Reviews API
   slug: postman-yelp-reviews-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Yelp Fusion AI API
   slug: open-yelp-ai-api
 - collection_type: open
@@ -106,6 +105,11 @@ collections:
   name: Yelp Fusion API
   slug: open-yelp
 common:
+- group: other
+  href: https://artifacts.apis.io/yelp/capabilities/yelp-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/yelp-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -123,22 +127,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/yelp/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/agentic-access/yelp-agentic-access.yml
+  href: https://artifacts.apis.io/yelp/agentic-access/yelp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/yelp-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/security/yelp-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/yelp/security/yelp-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/yelp-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/security/yelp-domain-security.yml
+  href: https://artifacts.apis.io/yelp/security/yelp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yelp-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/authentication/yelp-authentication.yml
+  href: https://artifacts.apis.io/yelp/authentication/yelp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/yelp-authentication.yml
@@ -239,32 +243,32 @@ common:
   type: Tools
   url: https://github.com/Yelp/yelp-mcp
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/rules/yelp-spectral-rules.yml
+  href: https://artifacts.apis.io/yelp/rules/yelp-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/yelp-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/vocabulary/yelp-vocabulary.yaml
+  href: https://artifacts.apis.io/yelp/vocabulary/yelp-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/yelp-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/json-ld/yelp-fusion-api-context.jsonld
+  href: https://artifacts.apis.io/yelp/json-ld/yelp-fusion-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/yelp-fusion-api-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/plans/yelp-plans-pricing.yml
+  href: https://artifacts.apis.io/yelp/plans/yelp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/yelp-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/rate-limits/yelp-rate-limits.yml
+  href: https://artifacts.apis.io/yelp/rate-limits/yelp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/yelp-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/finops/yelp-finops.yml
+  href: https://artifacts.apis.io/yelp/finops/yelp-finops.yml
   title: ''
   type: FinOps
   url: finops/yelp-finops.yml
@@ -331,11 +335,11 @@ features:
 - description: Natural language, multi-turn conversational search and business questions.
   name: Fusion AI
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Yelp Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: yelp-finops
   template: true
 graphqls:
@@ -452,12 +456,12 @@ overview: 'Yelp is listed with 5 APIs on the [APIs.io](https://apis.io/) network
   The Yelp catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Yelp''s developer surface includes authentication, engineering blog, documentation, getting-started guide, API reference, signup flow, developer console, and 31 more developer resources.'
+  Yelp''s developer surface includes authentication, engineering blog, documentation, getting-started guide, API reference, signup flow, developer console, and 32 more developer resources.'
 plans:
 - name: Yelp Plans Pricing
-  plan_count: 5
+  plan_count: 3
   slug: yelp-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Yelp Rate Limits
@@ -487,27 +491,24 @@ rules:
     warn: 24
   slug: yelp-spectral-rules
 score:
-  band: developing
-  composite: 46.6
+  band: strong
+  composite: 65.1
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 75.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 40.0
+    artifact_dirs: 22
+    catalog_earned: 84.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 31.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 65.8
     contract_governance: 27.3
     contract_quality: 73.9
-    developer_ergonomics: 63.1
+    developer_ergonomics: 77.4
     discoverability: 78.6
-    operational_transparency: 18.4
-  open_source:
-    applies: true
-    score: 0.0
-  previous_composite: 47.9
+    operational_transparency: 39.5
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
     contracts:
@@ -520,14 +521,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 26.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/screenshots/yelp-2026-06-20T201740.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/yelp/yelp-2026-06-20T201740.png
 security:
 - kind: authentication
   name: Yelp Authentication

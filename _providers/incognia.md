@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,11 +65,8 @@ apis:
   description: Login and payment risk assessment
   name: Incognia Transactions API
   slug: incognia-transactions-api
-artifact_total: 13
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Incognia Authentication API
   slug: open-incognia-authentication-api
@@ -86,12 +85,12 @@ common:
   type: BlogRSS
   url: https://www.incognia.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/overlays/incognia-openapi-overlay.yaml
+  href: https://artifacts.apis.io/incognia/overlays/incognia-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/incognia-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/scopes/incognia-scopes.yml
+  href: https://artifacts.apis.io/incognia/scopes/incognia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/incognia-scopes.yml
@@ -140,47 +139,47 @@ common:
   type: TrustCenter
   url: https://trust.incognia.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/packages/incognia-packages.yml
+  href: https://artifacts.apis.io/incognia/packages/incognia-packages.yml
   title: ''
   type: Packages
   url: packages/incognia-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/packages/incognia-packages.yml
+  href: https://artifacts.apis.io/incognia/packages/incognia-packages.yml
   title: ''
   type: SDKs
   url: packages/incognia-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/authentication/incognia-authentication.yml
+  href: https://artifacts.apis.io/incognia/authentication/incognia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/incognia-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/mcp/incognia-mcp.yml
+  href: https://artifacts.apis.io/incognia/mcp/incognia-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/incognia-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/llms/incognia-llms.txt
+  href: https://artifacts.apis.io/incognia/llms/incognia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/incognia-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/well-known/incognia-well-known.yml
+  href: https://artifacts.apis.io/incognia/well-known/incognia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/incognia-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/conformance/incognia-conformance.yml
+  href: https://artifacts.apis.io/incognia/conformance/incognia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/incognia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/errors/incognia-problem-types.yml
+  href: https://artifacts.apis.io/incognia/errors/incognia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/incognia-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/lifecycle/incognia-lifecycle.yml
+  href: https://artifacts.apis.io/incognia/lifecycle/incognia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/incognia-lifecycle.yml
@@ -189,27 +188,27 @@ common:
   type: StatusPage
   url: https://status.incognia.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/conventions/incognia-conventions.yml
+  href: https://artifacts.apis.io/incognia/conventions/incognia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/incognia-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/data-model/incognia-data-model.yml
+  href: https://artifacts.apis.io/incognia/data-model/incognia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/incognia-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/security/incognia-domain-security.yml
+  href: https://artifacts.apis.io/incognia/security/incognia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/incognia-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/agentic-access/incognia-agentic-access.yml
+  href: https://artifacts.apis.io/incognia/agentic-access/incognia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/incognia-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/incognia/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -225,7 +224,7 @@ overview: 'Incognia publishes 4 API contracts indexed on the [APIs.io](https://a
 
 
   Incognia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 23 more developer resources.'
-random_paper: 4
+random_paper: 0
 scopes:
 - name: Incognia Scopes
   scope_count: 0
@@ -233,23 +232,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 26.2
+  composite: 33.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 39.5
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 23.2
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 26.1
+    developer_ergonomics: 61.3
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -265,14 +264,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 39.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/screenshots/incognia-2026-07-25T222233.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/incognia/incognia-2026-07-25T222233.png
 security:
 - kind: authentication
   name: Incognia Authentication
@@ -282,6 +282,14 @@ security:
   name: Incognia Domain Security
   slug: incognia-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Assess an onboarding signup for fraud
+  slug: incognia-assess-onboarding-signup
+- name: Assess a login or payment transaction
+  slug: incognia-assess-transaction
+- name: Report a feedback event to tune the model
+  slug: incognia-report-feedback
 slug: incognia
 tags:
 - Company

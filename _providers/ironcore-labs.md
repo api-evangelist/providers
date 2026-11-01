@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 26.2
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: http://localhost:3000/api
   baseurl_source: spec
@@ -62,11 +64,8 @@ apis:
   description: Tenant secrets created by the TSP and stored in the Config Broker
   name: IronCore Labs Tenant Secret API
   slug: ironcore-labs-tenant-secret-api
-artifact_total: 15
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Vendor API Bridge Configuration Assignment API
   slug: open-ironcore-labs-configuration-assignment-api
@@ -83,13 +82,17 @@ collections:
   name: Vendor API Bridge Configuration Assignment Tenant Secret API
   slug: open-ironcore-labs-tenant-secret-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ironcore-labs/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/capabilities/ironcore-labs-capability-edges.yml
+  href: https://artifacts.apis.io/ironcore-labs/capabilities/ironcore-labs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ironcore-labs-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/overlays/ironcore-labs-vendor-bridge-overlay.yaml
+  href: https://artifacts.apis.io/ironcore-labs/overlays/ironcore-labs-vendor-bridge-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ironcore-labs-vendor-bridge-overlay.yaml
@@ -138,27 +141,27 @@ common:
   type: PrivacyPolicy
   url: https://ironcorelabs.com/trust-center/privacy/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/_original/ironcore-labs-vendor-bridge-openapi.yml
+  href: https://artifacts.apis.io/ironcore-labs/openapi/_original/ironcore-labs-vendor-bridge-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/ironcore-labs-vendor-bridge-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/authentication/ironcore-labs-authentication.yml
+  href: https://artifacts.apis.io/ironcore-labs/authentication/ironcore-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ironcore-labs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/conventions/ironcore-labs-conventions.yml
+  href: https://artifacts.apis.io/ironcore-labs/conventions/ironcore-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ironcore-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/errors/ironcore-labs-problem-types.yml
+  href: https://artifacts.apis.io/ironcore-labs/errors/ironcore-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ironcore-labs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/lifecycle/ironcore-labs-lifecycle.yml
+  href: https://artifacts.apis.io/ironcore-labs/lifecycle/ironcore-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ironcore-labs-lifecycle.yml
@@ -171,62 +174,62 @@ common:
   type: Deprecation
   url: https://ironcorelabs.com/docs/saas-shield/vendor-api/changelog/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/changelog/ironcore-labs-changelog.yml
+  href: https://artifacts.apis.io/ironcore-labs/changelog/ironcore-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ironcore-labs-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/data-model/ironcore-labs-data-model.yml
+  href: https://artifacts.apis.io/ironcore-labs/data-model/ironcore-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ironcore-labs-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/conformance/ironcore-labs-conformance.yml
+  href: https://artifacts.apis.io/ironcore-labs/conformance/ironcore-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ironcore-labs-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/packages/ironcore-labs-packages.yml
+  href: https://artifacts.apis.io/ironcore-labs/packages/ironcore-labs-packages.yml
   title: ''
   type: Packages
   url: packages/ironcore-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/packages/ironcore-labs-packages.yml
+  href: https://artifacts.apis.io/ironcore-labs/packages/ironcore-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/ironcore-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/cli/ironcore-labs-cli.yml
+  href: https://artifacts.apis.io/ironcore-labs/cli/ironcore-labs-cli.yml
   title: ''
   type: CLI
   url: cli/ironcore-labs-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/mcp/ironcore-labs-mcp.yml
+  href: https://artifacts.apis.io/ironcore-labs/mcp/ironcore-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ironcore-labs-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ironcore-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/llms/ironcore-labs-llms.txt
+  href: https://artifacts.apis.io/ironcore-labs/llms/ironcore-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ironcore-labs-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/well-known/ironcore-labs-well-known.yml
+  href: https://artifacts.apis.io/ironcore-labs/well-known/ironcore-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ironcore-labs-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/well-known/ironcore-labs-security.txt
+  href: https://artifacts.apis.io/ironcore-labs/well-known/ironcore-labs-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ironcore-labs-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/security/ironcore-labs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ironcore-labs/security/ironcore-labs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ironcore-labs-vulnerability-disclosure.yml
@@ -235,7 +238,7 @@ common:
   type: Security
   url: https://ironcorelabs.com/trust-center/bug-bounty-program/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/security/ironcore-labs-domain-security.yml
+  href: https://artifacts.apis.io/ironcore-labs/security/ironcore-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ironcore-labs-domain-security.yml
@@ -258,27 +261,27 @@ network: true
 overview: 'IronCore Labs publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Configuration Assignment API, KMS Configuration API, Tag API, and 2 more. Tagged areas include Company, Encryption, Privacy, Security, and Application-Layer Encryption.
 
 
-  IronCore Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 29 more developer resources.'
+  IronCore Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 30 more developer resources.'
 random_paper: 8
 score:
   band: developing
-  composite: 52.7
+  composite: 52.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.2
   facets:
     access_clarity: 47.4
     contract_governance: 4.5
-    contract_quality: 51.3
-    developer_ergonomics: 73.2
-    discoverability: 64.3
-    operational_transparency: 52.6
-  previous_composite: 52.6
+    contract_quality: 47.9
+    developer_ergonomics: 74.4
+    discoverability: 57.1
+    operational_transparency: 55.3
+  previous_composite: 52.2
   provenance:
     conformance: derived
     contracts:
@@ -294,13 +297,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/screenshots/ironcore-labs-2026-07-25T222920.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ironcore-labs/ironcore-labs-2026-07-25T222920.png
 security:
 - kind: authentication
   name: Ironcore Labs Authentication
@@ -318,6 +322,12 @@ security:
   name: Ironcore Labs Trust Center
   slug: ironcore-labs-trust-center
   summary_line: SOC 2
+skill_count: 2
+skills:
+- name: Provision a SaaS Shield tenant with customer-managed keys
+  slug: ironcore-labs-provision-tenant
+- name: Rotate a tenant secret
+  slug: ironcore-labs-rotate-tenant-secret
 slug: ironcore-labs
 tags:
 - Company

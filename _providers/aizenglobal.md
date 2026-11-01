@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -32,7 +34,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/AizenGlobal
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aizenglobal/refs/heads/main/security/aizenglobal-domain-security.yml
+  href: https://artifacts.apis.io/aizenglobal/security/aizenglobal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aizenglobal-domain-security.yml
@@ -58,7 +60,7 @@ name: Aizenglobal
 nav: Providers
 network: true
 overview: Aizenglobal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Artificial Intelligence, Digital Banking, and ESG.
-random_paper: 16
+random_paper: 8
 score:
   band: minimal
   composite: 2.7
@@ -86,14 +88,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aizenglobal/refs/heads/main/screenshots/aizenglobal-2026-10-11T093518.png
+screenshot: https://apis.io/screenshots/aizenglobal/aizenglobal-2026-10-11T093518.png
 security:
 - kind: domain-security
   name: Aizenglobal Domain Security

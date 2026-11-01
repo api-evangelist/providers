@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 43.0
-  scored_at: '2026-10-17'
+  score: 39.5
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - baseURL: https://reporting.pypestream.com/api/v2/
@@ -176,7 +178,7 @@ apis:
   description: The Transcript API from Pypestream — 2 operation(s) for transcript.
   name: Pypestream Transcript API
   slug: pypestream-transcript-api
-artifact_total: 36
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Pypestream Contact Center Webhooks
@@ -186,32 +188,32 @@ asyncapis:
   slug: pypestream-engagement-api-asyncapi
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/capabilities/pypestream-capability-edges.yml
+  href: https://artifacts.apis.io/pypestream/capabilities/pypestream-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pypestream-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/overlays/pypestream-reporting-api-overlay.yaml
+  href: https://artifacts.apis.io/pypestream/overlays/pypestream-reporting-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pypestream-reporting-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/overlays/pypestream-contact-center-api-overlay.yaml
+  href: https://artifacts.apis.io/pypestream/overlays/pypestream-contact-center-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pypestream-contact-center-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/overlays/pypestream-middleware-api-overlay.yaml
+  href: https://artifacts.apis.io/pypestream/overlays/pypestream-middleware-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pypestream-middleware-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/overlays/pypestream-engagement-api-overlay.yaml
+  href: https://artifacts.apis.io/pypestream/overlays/pypestream-engagement-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pypestream-engagement-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/overlays/pypestream-analytics-api-overlay.yaml
+  href: https://artifacts.apis.io/pypestream/overlays/pypestream-analytics-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pypestream-analytics-api-overlay.yaml
@@ -236,7 +238,7 @@ common:
   type: GettingStarted
   url: https://developers.pypestream.com/reference/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/authentication/pypestream-authentication.yml
+  href: https://artifacts.apis.io/pypestream/authentication/pypestream-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pypestream-authentication.yml
@@ -265,102 +267,110 @@ common:
   type: SignUp
   url: https://platform.pypestream.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/llms/pypestream-llms.txt
+  href: https://artifacts.apis.io/pypestream/llms/pypestream-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pypestream-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/mcp/pypestream-mcp.yml
+  href: https://artifacts.apis.io/pypestream/mcp/pypestream-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/pypestream-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/mcp/pypestream-tool-crosswalk.yml
+  href: https://artifacts.apis.io/pypestream/mcp/pypestream-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/pypestream-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/packages/pypestream-packages.yml
+  href: https://artifacts.apis.io/pypestream/packages/pypestream-packages.yml
   title: ''
   type: Packages
   url: packages/pypestream-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/packages/pypestream-packages.yml
+  href: https://artifacts.apis.io/pypestream/packages/pypestream-packages.yml
   title: ''
   type: SDKs
   url: packages/pypestream-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/components/pypestream-components.yml
+  href: https://artifacts.apis.io/pypestream/components/pypestream-components.yml
   title: ''
   type: Components
   url: components/pypestream-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/well-known/pypestream-well-known.yml
+  href: https://artifacts.apis.io/pypestream/well-known/pypestream-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pypestream-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/conformance/pypestream-conformance.yml
+  href: https://artifacts.apis.io/pypestream/conformance/pypestream-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pypestream-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/security/pypestream-trust-center.yml
+  href: https://artifacts.apis.io/pypestream/security/pypestream-trust-center.yml
   title: ''
   type: Compliance
   url: security/pypestream-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/security/pypestream-trust-center.yml
+  href: https://artifacts.apis.io/pypestream/security/pypestream-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pypestream-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/security/pypestream-domain-security.yml
+  href: https://artifacts.apis.io/pypestream/security/pypestream-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pypestream-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/errors/pypestream-problem-types.yml
+  href: https://artifacts.apis.io/pypestream/errors/pypestream-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pypestream-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/lifecycle/pypestream-lifecycle.yml
+  href: https://artifacts.apis.io/pypestream/lifecycle/pypestream-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pypestream-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/conventions/pypestream-conventions.yml
+  href: https://artifacts.apis.io/pypestream/conventions/pypestream-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pypestream-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/sandbox/pypestream-sandbox.yml
+  href: https://artifacts.apis.io/pypestream/sandbox/pypestream-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/pypestream-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/data-model/pypestream-data-model.yml
+  href: https://artifacts.apis.io/pypestream/data-model/pypestream-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pypestream-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/rate-limits/pypestream-rate-limits.yml
+  href: https://artifacts.apis.io/pypestream/rate-limits/pypestream-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pypestream-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/plans/pypestream-plans-pricing.yml
+  href: https://artifacts.apis.io/pypestream/plans/pypestream-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pypestream-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pypestream/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-26'
 description: Pypestream is a New York based enterprise conversational and agentic AI company, founded in 2015, whose platform deploys voice and chat AI agents ("Pypes" and microapps) into Fortune 500 contact centers across insurance, health insurance, telecom and travel. Pypestream publishes a self-serve developer portal at developers.pypestream.com carrying six distinct OpenAPI-described surfaces -- a Reporting API for conversation and agent data, a Contact Center API and Middleware API for live agent escalation, an Engagement API with a Phoenix Channels WebSocket event stream for embedding chat in any channel, an Analytics API for product analytics and warehouse batch exports, and an OpenAPI-documented client-side JavaScript SDK for embedding the chat widget.
+finops:
+- has_sources: true
+  method: derived
+  name: Pypestream Finops
+  primary_unit: ''
+  service_category: ''
+  slug: pypestream-finops
+  template: true
 image: https://www.pypestream.ai/pypestream-logo-black.webp
 layout: provider
 mcp_servers:
@@ -382,30 +392,30 @@ plans:
 - name: Pypestream Plans Pricing
   plan_count: 0
   slug: pypestream-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Pypestream Rate Limits
   slug: pypestream-rate-limits
 score:
   band: developing
-  composite: 41.8
+  composite: 52.6
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 39.5
     contract_governance: 4.5
-    contract_quality: 54.8
-    developer_ergonomics: 51.8
-    discoverability: 80.0
-    operational_transparency: 47.4
-  previous_composite: 42.1
+    contract_quality: 54.2
+    developer_ergonomics: 73.2
+    discoverability: 70.0
+    operational_transparency: 60.5
+  previous_composite: 52.6
   provenance:
     conformance: derived
     contracts:
@@ -420,14 +430,15 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 25.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/screenshots/pypestream-2026-09-02T152407.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pypestream/pypestream-2026-09-02T152407.png
 security:
 - kind: authentication
   name: Pypestream Authentication
@@ -445,6 +456,16 @@ security:
   name: Pypestream Trust Center
   slug: pypestream-trust-center
   summary_line: read_from_source, claims, note
+skill_count: 4
+skills:
+- name: pypestream-embed-and-run-a-chat
+  slug: pypestream-embed-and-run-a-chat
+- name: pypestream-escalate-to-a-live-agent
+  slug: pypestream-escalate-to-a-live-agent
+- name: pypestream-export-analytics-to-a-warehouse
+  slug: pypestream-export-analytics-to-a-warehouse
+- name: pypestream-pull-conversation-and-agent-reporting
+  slug: pypestream-pull-conversation-and-agent-reporting
 slug: pypestream
 tags:
 - Company

@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 58.1
-  scored_at: '2026-10-17'
+  score: 54.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -97,7 +99,7 @@ apis:
   description: This API allows your customers to make payments using PayID on your website, mobile app or over the counter.
   name: Azupay Payment Request API
   slug: azupay-payment-request-api
-artifact_total: 67
+artifact_total: 72
 asyncapis:
 - description: ''
   name: Azupay Webhooks
@@ -122,93 +124,97 @@ collections:
   name: Azupay Reports & Balance API
   slug: open-azupay-reports
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/azupay/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/rules/azupay-rules.yml
+  href: https://artifacts.apis.io/azupay/rules/azupay-rules.yml
   title: ''
   type: Spectral
   url: rules/azupay-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/json-ld/azupay-context.jsonld
+  href: https://artifacts.apis.io/azupay/json-ld/azupay-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/azupay-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/vocabulary/azupay-vocabulary.yml
+  href: https://artifacts.apis.io/azupay/vocabulary/azupay-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/azupay-vocabulary.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/well-known/azupay-status-security.txt
+  href: https://artifacts.apis.io/azupay/well-known/azupay-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/azupay-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/well-known/azupay-well-known.yml
+  href: https://artifacts.apis.io/azupay/well-known/azupay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/azupay-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/hosts/azupay-hosts.yml
+  href: https://artifacts.apis.io/azupay/hosts/azupay-hosts.yml
   title: ''
   type: Hosts
   url: hosts/azupay-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/vendors/azupay-vendors.yml
+  href: https://artifacts.apis.io/azupay/vendors/azupay-vendors.yml
   title: ''
   type: Vendors
   url: vendors/azupay-vendors.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/plans/azupay-plans-pricing.yml
+  href: https://artifacts.apis.io/azupay/plans/azupay-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/azupay-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/capabilities/azupay-capability-edges.yml
+  href: https://artifacts.apis.io/azupay/capabilities/azupay-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/azupay-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/overlays/azupay-payment-request-overlay.yaml
+  href: https://artifacts.apis.io/azupay/overlays/azupay-payment-request-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/azupay-payment-request-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/overlays/azupay-payment-overlay.yaml
+  href: https://artifacts.apis.io/azupay/overlays/azupay-payment-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/azupay-payment-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/overlays/azupay-payment-agreement-overlay.yaml
+  href: https://artifacts.apis.io/azupay/overlays/azupay-payment-agreement-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/azupay-payment-agreement-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/overlays/azupay-check-accounts-overlay.yaml
+  href: https://artifacts.apis.io/azupay/overlays/azupay-check-accounts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/azupay-check-accounts-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/overlays/azupay-reports-overlay.yaml
+  href: https://artifacts.apis.io/azupay/overlays/azupay-reports-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/azupay-reports-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/overlays/azupay-configuration-overlay.yaml
+  href: https://artifacts.apis.io/azupay/overlays/azupay-configuration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/azupay-configuration-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/security/azupay-domain-security.yml
+  href: https://artifacts.apis.io/azupay/security/azupay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/azupay-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/agentic-access/azupay-agentic-access.yml
+  href: https://artifacts.apis.io/azupay/agentic-access/azupay-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/azupay-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/authentication/azupay-authentication.yml
+  href: https://artifacts.apis.io/azupay/authentication/azupay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/azupay-authentication.yml
@@ -273,22 +279,22 @@ common:
   type: Login
   url: https://dashboard.azupay.com.au/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/scopes/azupay-scopes.yml
+  href: https://artifacts.apis.io/azupay/scopes/azupay-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/azupay-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/conventions/azupay-conventions.yml
+  href: https://artifacts.apis.io/azupay/conventions/azupay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/azupay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/conventions/azupay-conventions.yml
+  href: https://artifacts.apis.io/azupay/conventions/azupay-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/azupay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/lifecycle/azupay-lifecycle.yml
+  href: https://artifacts.apis.io/azupay/lifecycle/azupay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/azupay-lifecycle.yml
@@ -297,58 +303,66 @@ common:
   type: Deprecation
   url: https://developer.azupay.com.au/docs/getting-started-1
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/errors/azupay-problem-types.yml
+  href: https://artifacts.apis.io/azupay/errors/azupay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/azupay-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/conformance/azupay-conformance.yml
+  href: https://artifacts.apis.io/azupay/conformance/azupay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/azupay-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/data-model/azupay-data-model.yml
+  href: https://artifacts.apis.io/azupay/data-model/azupay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/azupay-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/sandbox/azupay-sandbox.yml
+  href: https://artifacts.apis.io/azupay/sandbox/azupay-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/azupay-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/changelog/azupay-changelog.yml
+  href: https://artifacts.apis.io/azupay/changelog/azupay-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/azupay-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/components/azupay-components.yml
+  href: https://artifacts.apis.io/azupay/components/azupay-components.yml
   title: ''
   type: Components
   url: components/azupay-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/asyncapi/azupay-webhooks.yml
+  href: https://artifacts.apis.io/azupay/asyncapi/azupay-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/azupay-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/llms/azupay-llms.txt
+  href: https://artifacts.apis.io/azupay/llms/azupay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/azupay-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/mcp/azupay-mcp.yml
+  href: https://artifacts.apis.io/azupay/mcp/azupay-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/azupay-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/azupay/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-24'
 description: 'Azupay is an Australian real-time payments company that moves money over the New Payments Platform (NPP), the account-to-account rails operated by Australian Payments Plus. It is API-first: merchants and platforms embed Azupay to receive payments via PayID (AzupayId), send outbound payments to a PayID or BSB/account number (AzupayOut), and collect recurring or on-demand debits through PayTo mandates and payment agreements (AzupayTo). Azupay also offers Confirmation of Payee (CoP) account checks and PayID enquiry to reduce misdirected-payment and fraud risk, batch/file (ABA and SFTP) processing for bulk payouts and collections, reporting, balance management, sub-client and API-key management, and hosted UX apps (Pay by Bank, Disbursements, Subscriptions). Its public developer portal documents a REST API at api.azupay.com.au/v1 with a UAT environment, authenticated by API key (secret and distributable keys in the Authorization header) with OAuth 2.0 client-credentials available
   as an additional server-to-server option, plus webhooks for asynchronous payment status. Home market is Australia; the surface is genuinely self-serve and documented, though production access and some capabilities (sub-clients, OAuth2) are enabled per client by Azupay.'
+finops:
+- has_sources: true
+  method: derived
+  name: Azupay Finops
+  primary_unit: ''
+  service_category: ''
+  slug: azupay-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 json_schemas:
 - name: AccountCheckObj
@@ -493,12 +507,12 @@ overview: 'Azupay publishes 10 API contracts indexed on the [APIs.io](https://ap
   The Azupay catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Azupay''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, changelog, pricing, and 41 more developer resources.'
+  Azupay''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, changelog, pricing, and 42 more developer resources.'
 plans:
 - name: Azupay Plans Pricing
   plan_count: 3
   slug: azupay-plans-pricing
-random_paper: 6
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Azupay Rate Limits
@@ -523,22 +537,22 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 61.7
+  composite: 65.9
   coverage:
-    artifact_dirs: 35
+    artifact_dirs: 36
     catalog_earned: 77.8
     catalog_earned_first_party: 12.0
     catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.5
+  delta: 0.2
   facets:
-    access_clarity: 69.7
+    access_clarity: 76.3
     contract_governance: 22.0
     contract_quality: 70.2
-    developer_ergonomics: 53.0
-    discoverability: 78.6
-    operational_transparency: 31.6
+    developer_ergonomics: 67.3
+    discoverability: 71.4
+    operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -546,7 +560,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 56.2
+  previous_composite: 65.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -563,13 +577,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 36.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/screenshots/azupay-2026-07-25T202124.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/azupay/azupay-2026-07-25T202124.png
 security:
 - kind: authentication
   name: Azupay Authentication
@@ -579,6 +594,16 @@ security:
   name: Azupay Domain Security
   slug: azupay-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: azupay-confirmation-of-payee
+  slug: azupay-confirmation-of-payee
+- name: azupay-payto-agreement-and-debit
+  slug: azupay-payto-agreement-and-debit
+- name: azupay-receive-payid-payment
+  slug: azupay-receive-payid-payment
+- name: azupay-send-payment
+  slug: azupay-send-payment
 slug: azupay
 tags:
 - Payments

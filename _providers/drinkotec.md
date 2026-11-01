@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The DRINKOTEC API is the integration surface for DRINKOTEC's connected beverage dispensing systems and its LOOP360 beverage productivity platform, used to expand DRINKOTEC functionality with third-par
@@ -43,17 +45,17 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/drinkotec/refs/heads/main/plans/drinkotec-plans-pricing.yml
+  href: https://artifacts.apis.io/drinkotec/plans/drinkotec-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/drinkotec-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/drinkotec/refs/heads/main/rate-limits/drinkotec-rate-limits.yml
+  href: https://artifacts.apis.io/drinkotec/rate-limits/drinkotec-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/drinkotec-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/drinkotec/refs/heads/main/finops/drinkotec-finops.yml
+  href: https://artifacts.apis.io/drinkotec/finops/drinkotec-finops.yml
   title: ''
   type: FinOps
   url: finops/drinkotec-finops.yml
@@ -62,12 +64,12 @@ common:
   type: Website
   url: https://drinkotec.ch
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drinkotec/refs/heads/main/security/drinkotec-domain-security.yml
+  href: https://artifacts.apis.io/drinkotec/security/drinkotec-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/drinkotec-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drinkotec/refs/heads/main/llms/drinkotec-llms.txt
+  href: https://artifacts.apis.io/drinkotec/llms/drinkotec-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/drinkotec-llms.txt
@@ -105,7 +107,7 @@ finops:
 - has_sources: false
   method: generated
   name: Drinkotec Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: drinkotec-finops
   template: true
@@ -123,14 +125,14 @@ plans:
 - name: Drinkotec Plans Pricing
   plan_count: 0
   slug: drinkotec-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Drinkotec Rate Limits
   slug: drinkotec-rate-limits
 score:
   band: minimal
-  composite: 6.7
+  composite: 6.0
   coverage:
     artifact_dirs: 11
     catalog_earned: 32.0
@@ -138,34 +140,34 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - switzerland
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 8.2
+  previous_composite: 6.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/drinkotec/refs/heads/main/screenshots/drinkotec-2026-06-20T180234.png
+screenshot: https://apis.io/screenshots/drinkotec/drinkotec-2026-06-20T180234.png
 security:
 - kind: authentication
   name: Drinkotec Authentication

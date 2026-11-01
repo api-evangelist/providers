@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'REST + gRPC API for querying features from the Chalk Context Engine — online single-row queries, bulk (feather/Arrow) queries, and asynchronous offline dataset generation — plus deployment of feature '
@@ -94,67 +96,67 @@ common:
   type: ChangeLog
   url: https://docs.chalk.ai/docs/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/changelog/chalk-changelog.yml
+  href: https://artifacts.apis.io/chalk/changelog/chalk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/chalk-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/authentication/chalk-authentication.yml
+  href: https://artifacts.apis.io/chalk/authentication/chalk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chalk-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/scopes/chalk-scopes.yml
+  href: https://artifacts.apis.io/chalk/scopes/chalk-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/chalk-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/packages/chalk-packages.yml
+  href: https://artifacts.apis.io/chalk/packages/chalk-packages.yml
   title: ''
   type: Packages
   url: packages/chalk-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/packages/chalk-packages.yml
+  href: https://artifacts.apis.io/chalk/packages/chalk-packages.yml
   title: ''
   type: SDKs
   url: packages/chalk-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/cli/chalk-cli.yml
+  href: https://artifacts.apis.io/chalk/cli/chalk-cli.yml
   title: ''
   type: CLI
   url: cli/chalk-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/mcp/chalk-mcp.yml
+  href: https://artifacts.apis.io/chalk/mcp/chalk-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/chalk-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/llms/chalk-llms.txt
+  href: https://artifacts.apis.io/chalk/llms/chalk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chalk-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/well-known/chalk-well-known.yml
+  href: https://artifacts.apis.io/chalk/well-known/chalk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/chalk-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/conventions/chalk-conventions.yml
+  href: https://artifacts.apis.io/chalk/conventions/chalk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chalk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/lifecycle/chalk-lifecycle.yml
+  href: https://artifacts.apis.io/chalk/lifecycle/chalk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chalk-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/sandbox/chalk-sandbox.yml
+  href: https://artifacts.apis.io/chalk/sandbox/chalk-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/chalk-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/conformance/chalk-conformance.yml
+  href: https://artifacts.apis.io/chalk/conformance/chalk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chalk-conformance.yml
@@ -163,12 +165,12 @@ common:
   type: Compliance
   url: https://docs.chalk.ai/docs/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/security/chalk-domain-security.yml
+  href: https://artifacts.apis.io/chalk/security/chalk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chalk-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/security/chalk-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/chalk/security/chalk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/chalk-vulnerability-disclosure.yml
@@ -188,7 +190,7 @@ overview: 'Chalk is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Chalk''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 23 more developer resources.'
-random_paper: 9
+random_paper: 11
 scopes:
 - name: Chalk Scopes
   scope_count: 3
@@ -196,7 +198,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 42.5
+  composite: 42.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -204,15 +206,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 73.8
-    discoverability: 73.2
-    operational_transparency: 44.7
-  previous_composite: 42.4
+    discoverability: 66.1
+    operational_transparency: 47.4
+  previous_composite: 42.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -222,14 +224,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/screenshots/chalk-2026-07-25T205026.png
+screenshot: https://apis.io/screenshots/chalk/chalk-2026-07-25T205026.png
 security:
 - kind: authentication
   name: Chalk Authentication

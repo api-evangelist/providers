@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'REST API for programmatic, end-to-end video creation and automated delivery. OAuth 2.0 client-credentials + bearer auth. Resources: TemplateStyleVersion, Mapping, RenderSession.'
@@ -73,67 +75,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/shakrmedia
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shakr-media/refs/heads/main/authentication/shakr-media-authentication.yml
+  href: https://artifacts.apis.io/shakr-media/authentication/shakr-media-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shakr-media-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shakr-media/refs/heads/main/scopes/shakr-media-scopes.yml
+  href: https://artifacts.apis.io/shakr-media/scopes/shakr-media-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/shakr-media-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shakr-media/refs/heads/main/conventions/shakr-media-conventions.yml
+  href: https://artifacts.apis.io/shakr-media/conventions/shakr-media-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shakr-media-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shakr-media/refs/heads/main/asyncapi/shakr-media-webhooks.yml
+  href: https://artifacts.apis.io/shakr-media/asyncapi/shakr-media-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/shakr-media-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shakr-media/refs/heads/main/packages/shakr-media-packages.yml
+  href: https://artifacts.apis.io/shakr-media/packages/shakr-media-packages.yml
   title: ''
   type: Packages
   url: packages/shakr-media-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shakr-media/refs/heads/main/packages/shakr-media-packages.yml
+  href: https://artifacts.apis.io/shakr-media/packages/shakr-media-packages.yml
   title: ''
   type: SDKs
   url: packages/shakr-media-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shakr-media/refs/heads/main/components/shakr-media-components.yml
+  href: https://artifacts.apis.io/shakr-media/components/shakr-media-components.yml
   title: ''
   type: Components
   url: components/shakr-media-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shakr-media/refs/heads/main/data-model/shakr-media-data-model.yml
+  href: https://artifacts.apis.io/shakr-media/data-model/shakr-media-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shakr-media-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shakr-media/refs/heads/main/mcp/shakr-media-mcp.yml
+  href: https://artifacts.apis.io/shakr-media/mcp/shakr-media-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/shakr-media-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shakr-media/refs/heads/main/llms/shakr-media-llms.txt
+  href: https://artifacts.apis.io/shakr-media/llms/shakr-media-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shakr-media-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shakr-media/refs/heads/main/lifecycle/shakr-media-lifecycle.yml
+  href: https://artifacts.apis.io/shakr-media/lifecycle/shakr-media-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shakr-media-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shakr-media/refs/heads/main/well-known/shakr-media-well-known.yml
+  href: https://artifacts.apis.io/shakr-media/well-known/shakr-media-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/shakr-media-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shakr-media/refs/heads/main/security/shakr-media-domain-security.yml
+  href: https://artifacts.apis.io/shakr-media/security/shakr-media-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shakr-media-domain-security.yml
@@ -152,17 +154,17 @@ overview: 'Shakr Media is listed with 2 APIs on the [APIs.io](https://apis.io/) 
 
 
   Shakr Media''s developer surface includes documentation, API reference, getting-started guide, authentication, and 15 more developer resources.'
-random_paper: 16
+random_paper: 14
 scopes:
 - name: Shakr Media Scopes
   scope_count: 6
   slug: shakr-media-scopes
   summary_line: 6 scopes
 score:
-  band: emerging
-  composite: 25.1
+  band: thin
+  composite: 30.5
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -173,10 +175,10 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 28.6
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 25.1
+    developer_ergonomics: 57.1
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 30.5
   provenance:
     mcp: derived
   regulatory:
@@ -185,14 +187,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/shakr-media/refs/heads/main/screenshots/shakr-media-2026-10-11T125748.png
+screenshot: https://apis.io/screenshots/shakr-media/shakr-media-2026-10-11T125748.png
 security:
 - kind: authentication
   name: Shakr Media Authentication

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST API for presets (pre-trained classification and entity-extraction models), research reports and their analyses, feedback feeds, query consumption, and subscription usage. Authenticated with an HT
@@ -43,15 +45,15 @@ apis:
 - description: Text-classification API that runs text against custom and pre-built models and returns matching tags with probabilities (batch up to 100 per request), with multi-language results via ISO 639-1 codes.
   name: Kimola Cognitive API
   slug: kimola-cognitive-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kimola/refs/heads/main/plans/kimola-plans-pricing.yml
+  href: https://artifacts.apis.io/kimola/plans/kimola-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kimola-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kimola/refs/heads/main/security/kimola-domain-security.yml
+  href: https://artifacts.apis.io/kimola/security/kimola-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kimola-domain-security.yml
@@ -104,62 +106,62 @@ common:
   type: StatusPage
   url: https://status.kimola.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kimola/refs/heads/main/packages/kimola-packages.yml
+  href: https://artifacts.apis.io/kimola/packages/kimola-packages.yml
   title: ''
   type: Packages
   url: packages/kimola-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kimola/refs/heads/main/packages/kimola-packages.yml
+  href: https://artifacts.apis.io/kimola/packages/kimola-packages.yml
   title: ''
   type: SDKs
   url: packages/kimola-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kimola/refs/heads/main/authentication/kimola-authentication.yml
+  href: https://artifacts.apis.io/kimola/authentication/kimola-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kimola-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kimola/refs/heads/main/errors/kimola-error-codes.yml
+  href: https://artifacts.apis.io/kimola/errors/kimola-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kimola-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kimola/refs/heads/main/lifecycle/kimola-lifecycle.yml
+  href: https://artifacts.apis.io/kimola/lifecycle/kimola-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kimola-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kimola/refs/heads/main/conventions/kimola-conventions.yml
+  href: https://artifacts.apis.io/kimola/conventions/kimola-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kimola-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kimola/refs/heads/main/conformance/kimola-conformance.yml
+  href: https://artifacts.apis.io/kimola/conformance/kimola-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kimola-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kimola/refs/heads/main/data-model/kimola-data-model.yml
+  href: https://artifacts.apis.io/kimola/data-model/kimola-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kimola-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kimola/refs/heads/main/examples/kimola-cognitive-examples.yml
+  href: https://artifacts.apis.io/kimola/examples/kimola-cognitive-examples.yml
   title: ''
   type: Examples
   url: examples/kimola-cognitive-examples.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kimola/refs/heads/main/mcp/kimola-mcp.yml
+  href: https://artifacts.apis.io/kimola/mcp/kimola-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kimola-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kimola/refs/heads/main/llms/kimola-llms.txt
+  href: https://artifacts.apis.io/kimola/llms/kimola-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kimola-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kimola/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kimola/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -179,26 +181,26 @@ plans:
 - name: Kimola Plans Pricing
   plan_count: 5
   slug: kimola-plans-pricing
-random_paper: 21
+random_paper: 13
 score:
   band: thin
-  composite: 36.2
+  composite: 36.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 6.5
     developer_ergonomics: 44.6
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 29.8
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 36.8
   provenance:
     conformance: derived
     mcp: derived
@@ -209,14 +211,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kimola/refs/heads/main/screenshots/kimola-2026-07-25T223754.png
+screenshot: https://apis.io/screenshots/kimola/kimola-2026-07-25T223754.png
 security:
 - kind: authentication
   name: Kimola Authentication
@@ -226,6 +228,12 @@ security:
   name: Kimola Domain Security
   slug: kimola-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Classify customer feedback with a Kimola model
+  slug: kimola-classify-feedback
+- name: Read research insights from a Kimola feed and report
+  slug: kimola-read-report-insights
 slug: kimola
 tags:
 - Company

@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 17.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -77,11 +79,8 @@ apis:
   description: The Root API from Nanyang Technological University — 1 operation(s) for root.
   name: Nanyang Technological University Root API
   slug: ntu-root-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: DR-NTU (Data) Dataverse Discover Info API
   slug: open-ntu-info-api
@@ -146,72 +145,72 @@ common:
   type: AITooling
   url: https://libguides.ntu.edu.sg/responsible-ai-use/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/agentic-access/ntu-agentic-access.yml
+  href: https://artifacts.apis.io/ntu/agentic-access/ntu-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ntu-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/security/ntu-domain-security.yml
+  href: https://artifacts.apis.io/ntu/security/ntu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ntu-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/plans/ntu-plans-pricing.yml
+  href: https://artifacts.apis.io/ntu/plans/ntu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ntu-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/rate-limits/ntu-rate-limits.yml
+  href: https://artifacts.apis.io/ntu/rate-limits/ntu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ntu-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/finops/ntu-finops.yml
+  href: https://artifacts.apis.io/ntu/finops/ntu-finops.yml
   title: ''
   type: FinOps
   url: finops/ntu-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/ntu/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/conformance/ntu-conformance.yml
+  href: https://artifacts.apis.io/ntu/conformance/ntu-conformance.yml
   title: ''
   type: x-conformance
   url: conformance/ntu-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/authentication/ntu-authentication.yml
+  href: https://artifacts.apis.io/ntu/authentication/ntu-authentication.yml
   title: ''
   type: x-authentication
   url: authentication/ntu-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/scopes/ntu-scopes.yml
+  href: https://artifacts.apis.io/ntu/scopes/ntu-scopes.yml
   title: ''
   type: x-scopes
   url: scopes/ntu-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/errors/ntu-errors.yml
+  href: https://artifacts.apis.io/ntu/errors/ntu-errors.yml
   title: ''
   type: x-errors
   url: errors/ntu-errors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/lifecycle/ntu-lifecycle.yml
+  href: https://artifacts.apis.io/ntu/lifecycle/ntu-lifecycle.yml
   title: ''
   type: x-lifecycle
   url: lifecycle/ntu-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/vocabulary/ntu-vocabulary.yml
+  href: https://artifacts.apis.io/ntu/vocabulary/ntu-vocabulary.yml
   title: ''
   type: x-vocabulary
   url: vocabulary/ntu-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/rules/ntu-rules.yml
+  href: https://artifacts.apis.io/ntu/rules/ntu-rules.yml
   title: ''
   type: x-spectral-rules
   url: rules/ntu-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/json-ld/ntu-context.jsonld
+  href: https://artifacts.apis.io/ntu/json-ld/ntu-context.jsonld
   title: ''
   type: x-json-ld-context
   url: json-ld/ntu-context.jsonld
@@ -293,7 +292,7 @@ plans:
 - name: Ntu Plans Pricing
   plan_count: 2
   slug: ntu-plans-pricing
-random_paper: 13
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Ntu Rate Limits
@@ -328,7 +327,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 32.6
+  composite: 33.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 58.3
@@ -336,14 +335,14 @@ score:
     catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 52.7
     developer_ergonomics: 16.7
     discoverability: 71.4
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -351,7 +350,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 38.7
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -366,14 +365,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 28.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/screenshots/ntu-2026-06-20T190501.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ntu/ntu-2026-06-20T190501.png
 security:
 - kind: authentication
   name: Ntu Authentication

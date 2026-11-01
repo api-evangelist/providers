@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.3
-  scored_at: '2026-10-17'
+  score: 42.7
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - baseURL: https://platform.cybelangel.com/api
@@ -105,45 +107,45 @@ apis:
   description: List workspaces.
   name: CybelAngel Workspaces API
   slug: cybelangel-workspaces-api
-artifact_total: 19
+artifact_total: 27
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/capabilities/cybelangel-capability-edges.yml
+  href: https://artifacts.apis.io/cybelangel/capabilities/cybelangel-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cybelangel-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/overlays/cybelangel-platform-reports-overlay.yaml
+  href: https://artifacts.apis.io/cybelangel/overlays/cybelangel-platform-reports-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cybelangel-platform-reports-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/overlays/cybelangel-alerts-overlay.yaml
+  href: https://artifacts.apis.io/cybelangel/overlays/cybelangel-alerts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cybelangel-alerts-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/overlays/cybelangel-adm-inventory-overlay.yaml
+  href: https://artifacts.apis.io/cybelangel/overlays/cybelangel-adm-inventory-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cybelangel-adm-inventory-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/overlays/cybelangel-keywords-overlay.yaml
+  href: https://artifacts.apis.io/cybelangel/overlays/cybelangel-keywords-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cybelangel-keywords-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/overlays/cybelangel-threat-intelligence-overlay.yaml
+  href: https://artifacts.apis.io/cybelangel/overlays/cybelangel-threat-intelligence-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cybelangel-threat-intelligence-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/overlays/cybelangel-audit-logs-overlay.yaml
+  href: https://artifacts.apis.io/cybelangel/overlays/cybelangel-audit-logs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cybelangel-audit-logs-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/overlays/cybelangel-partner-overlay.yaml
+  href: https://artifacts.apis.io/cybelangel/overlays/cybelangel-partner-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cybelangel-partner-overlay.yaml
@@ -216,12 +218,12 @@ common:
   type: Security
   url: https://cybelangel.com/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/well-known/cybelangel-security.txt
+  href: https://artifacts.apis.io/cybelangel/well-known/cybelangel-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cybelangel-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/well-known/cybelangel-well-known.yml
+  href: https://artifacts.apis.io/cybelangel/well-known/cybelangel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cybelangel-well-known.yml
@@ -230,88 +232,96 @@ common:
   type: OpenIDConnect
   url: https://auth.cybelangel.com/.well-known/openid-configuration
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/authentication/cybelangel-authentication.yml
+  href: https://artifacts.apis.io/cybelangel/authentication/cybelangel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cybelangel-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/scopes/cybelangel-scopes.yml
+  href: https://artifacts.apis.io/cybelangel/scopes/cybelangel-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cybelangel-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/conventions/cybelangel-conventions.yml
+  href: https://artifacts.apis.io/cybelangel/conventions/cybelangel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cybelangel-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/rate-limits/cybelangel-rate-limits.yml
+  href: https://artifacts.apis.io/cybelangel/rate-limits/cybelangel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cybelangel-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/plans/cybelangel-plans-pricing.yml
+  href: https://artifacts.apis.io/cybelangel/plans/cybelangel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cybelangel-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/lifecycle/cybelangel-lifecycle.yml
+  href: https://artifacts.apis.io/cybelangel/lifecycle/cybelangel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cybelangel-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/changelog/cybelangel-changelog.yml
+  href: https://artifacts.apis.io/cybelangel/changelog/cybelangel-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cybelangel-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/errors/cybelangel-problem-types.yml
+  href: https://artifacts.apis.io/cybelangel/errors/cybelangel-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cybelangel-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/data-model/cybelangel-data-model.yml
+  href: https://artifacts.apis.io/cybelangel/data-model/cybelangel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cybelangel-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/conformance/cybelangel-conformance.yml
+  href: https://artifacts.apis.io/cybelangel/conformance/cybelangel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cybelangel-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/packages/cybelangel-packages.yml
+  href: https://artifacts.apis.io/cybelangel/packages/cybelangel-packages.yml
   title: ''
   type: Packages
   url: packages/cybelangel-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/sandbox/cybelangel-sandbox.yml
+  href: https://artifacts.apis.io/cybelangel/sandbox/cybelangel-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cybelangel-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cybelangel/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/llms/cybelangel-llms.txt
+  href: https://artifacts.apis.io/cybelangel/llms/cybelangel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cybelangel-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/security/cybelangel-domain-security.yml
+  href: https://artifacts.apis.io/cybelangel/security/cybelangel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cybelangel-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/security/cybelangel-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cybelangel/security/cybelangel-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cybelangel-vulnerability-disclosure.yml
 created: '2026-08-17'
 description: CybelAngel is a Paris- and Boston-based external risk protection company that scans the public internet, the deep and dark web, connected devices, cloud storage, code-sharing and paste sites for a customer's exposed data and unmanaged assets. Its platform covers external attack surface (ADM) inventory, data-breach prevention, credential intelligence, brand protection and domain/social-media impersonation, cyber threat intelligence, and analyst-led remediation. For developers it publishes seven documented REST APIs on a Stoplight developer portal — Reports (incident reports, credential and domain watchlists, assets, remediation requests), Alerts in Feed (real-time alerts, also served in OASIS STIX format), ADM Inventory, Keywords, Threat Intelligence claimed-attacks, Audit Logs and a Partner API for MSSPs managing client organizations — all authenticated with OAuth 2.0 client-credentials bearer tokens minted by an Auth0 tenant, plus CybelAngel Connect, a no-code automation studio
   for ServiceNow, Jira, Splunk, Slack, Cortex XSOAR, IBM Security SOAR and Azure Sentinel.
+finops:
+- has_sources: true
+  method: derived
+  name: Cybelangel Finops
+  primary_unit: ''
+  service_category: ''
+  slug: cybelangel-finops
+  template: true
 image: https://cybelangel.com/wp-content/uploads/2026/08/langEN-1-90764-1280x460.avif
 layout: provider
 modified: '2026-08-17'
@@ -326,7 +336,7 @@ plans:
 - name: Cybelangel Plans Pricing
   plan_count: 0
   slug: cybelangel-plans-pricing
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Cybelangel Rate Limits
@@ -338,22 +348,22 @@ scopes:
   summary_line: 10 scopes · clientCredentials
 score:
   band: strong
-  composite: 59.5
+  composite: 57.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.3
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 54.9
-    developer_ergonomics: 62.5
+    contract_quality: 52.3
+    developer_ergonomics: 66.1
     discoverability: 71.4
-    operational_transparency: 60.5
+    operational_transparency: 68.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -361,7 +371,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 59.4
+  previous_composite: 57.7
   provenance:
     conformance: first-party
     contracts:
@@ -377,13 +387,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/screenshots/cybelangel-2026-09-02T145211.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cybelangel/cybelangel-2026-09-02T145211.png
 security:
 - kind: authentication
   name: Cybelangel Authentication
@@ -397,6 +408,22 @@ security:
   name: Cybelangel Vulnerability Disclosure
   slug: cybelangel-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 7
+skills:
+- name: Authenticate to the CybelAngel APIs
+  slug: cybelangel-authenticate
+- name: Export CybelAngel audit logs and threat intelligence
+  slug: cybelangel-export-audit-logs
+- name: Manage monitored keywords
+  slug: cybelangel-manage-keywords
+- name: Poll the CybelAngel alert feed into a SIEM
+  slug: cybelangel-poll-alert-feed
+- name: Triage the external attack surface
+  slug: cybelangel-triage-attack-surface
+- name: Triage leaked credentials
+  slug: cybelangel-triage-leaked-credentials
+- name: Work CybelAngel incident reports end to end
+  slug: cybelangel-work-incident-reports
 slug: cybelangel
 tags:
 - Company

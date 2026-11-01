@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -61,7 +63,7 @@ common:
   type: TermsOfService
   url: https://www.zoneandco.com/legal
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zone-and-company/refs/heads/main/security/zone-and-company-trust-center.yml
+  href: https://artifacts.apis.io/zone-and-company/security/zone-and-company-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/zone-and-company-trust-center.yml
@@ -70,7 +72,7 @@ common:
   type: Compliance
   url: https://trust.zoneandco.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zone-and-company/refs/heads/main/security/zone-and-company-domain-security.yml
+  href: https://artifacts.apis.io/zone-and-company/security/zone-and-company-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zone-and-company-domain-security.yml
@@ -112,14 +114,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/zone-and-company/refs/heads/main/screenshots/zone-and-company-2026-09-02T171831.png
+screenshot: https://apis.io/screenshots/zone-and-company/zone-and-company-2026-09-02T171831.png
 security:
 - kind: domain-security
   name: Zone And Company Domain Security

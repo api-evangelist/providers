@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API and Python SDK for tick-level synthetic market data — L1 quotes, L2 order book depth, trades, and individual order events at millisecond resolution, returned as Polars DataFrames. Free tier a
@@ -87,32 +89,32 @@ common:
   type: PrivacyPolicy
   url: https://simudyne.com/privacy/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/simudyne/refs/heads/main/packages/simudyne-packages.yml
+  href: https://artifacts.apis.io/simudyne/packages/simudyne-packages.yml
   title: ''
   type: Packages
   url: packages/simudyne-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/simudyne/refs/heads/main/packages/simudyne-packages.yml
+  href: https://artifacts.apis.io/simudyne/packages/simudyne-packages.yml
   title: ''
   type: SDKs
   url: packages/simudyne-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simudyne/refs/heads/main/authentication/simudyne-authentication.yml
+  href: https://artifacts.apis.io/simudyne/authentication/simudyne-authentication.yml
   title: ''
   type: Authentication
   url: authentication/simudyne-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simudyne/refs/heads/main/conventions/simudyne-conventions.yml
+  href: https://artifacts.apis.io/simudyne/conventions/simudyne-conventions.yml
   title: ''
   type: Conventions
   url: conventions/simudyne-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simudyne/refs/heads/main/llms/simudyne-llms.txt
+  href: https://artifacts.apis.io/simudyne/llms/simudyne-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/simudyne-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simudyne/refs/heads/main/security/simudyne-domain-security.yml
+  href: https://artifacts.apis.io/simudyne/security/simudyne-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simudyne-domain-security.yml
@@ -128,10 +130,10 @@ overview: 'Simudyne is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Simudyne''s developer surface includes documentation, getting-started guide, signup flow, support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 20
+random_paper: 14
 score:
   band: emerging
-  composite: 25.4
+  composite: 25.0
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -145,8 +147,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -155,21 +157,21 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 25.4
+  previous_composite: 25.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 17.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/simudyne/refs/heads/main/screenshots/simudyne-2026-09-02T155603.png
+screenshot: https://apis.io/screenshots/simudyne/simudyne-2026-09-02T155603.png
 security:
 - kind: authentication
   name: Simudyne Authentication

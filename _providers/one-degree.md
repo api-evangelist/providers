@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-17'
+  score: 23.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://data.1degree.org/v1
@@ -71,14 +73,11 @@ arazzos:
 - description: Search opportunities by location, then load the top result's details and schedule.
   name: One Degree — find and detail a nearby service
   slug: one-degree-find-services
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: postman
   name: One Degree
   slug: postman-one-degree
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: One Degree Resource Server Housing API
   slug: open-one-degree-housing-api
@@ -103,7 +102,7 @@ common:
   type: BlogRSS
   url: https://about.1degree.org/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/overlays/one-degree-openapi-overlay.yaml
+  href: https://artifacts.apis.io/one-degree/overlays/one-degree-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/one-degree-openapi-overlay.yaml
@@ -148,62 +147,62 @@ common:
   type: SignUp
   url: http://socialservicedata.org/api/get-key/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/postman/one-degree.postman_collection.json
+  href: https://artifacts.apis.io/one-degree/postman/one-degree.postman_collection.json
   title: ''
   type: Postman
   url: postman/one-degree.postman_collection.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/authentication/one-degree-authentication.yml
+  href: https://artifacts.apis.io/one-degree/authentication/one-degree-authentication.yml
   title: ''
   type: Authentication
   url: authentication/one-degree-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/conventions/one-degree-conventions.yml
+  href: https://artifacts.apis.io/one-degree/conventions/one-degree-conventions.yml
   title: ''
   type: Conventions
   url: conventions/one-degree-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/errors/one-degree-problem-types.yml
+  href: https://artifacts.apis.io/one-degree/errors/one-degree-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/one-degree-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/lifecycle/one-degree-lifecycle.yml
+  href: https://artifacts.apis.io/one-degree/lifecycle/one-degree-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/one-degree-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/conformance/one-degree-conformance.yml
+  href: https://artifacts.apis.io/one-degree/conformance/one-degree-conformance.yml
   title: ''
   type: Conformance
   url: conformance/one-degree-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/security/one-degree-domain-security.yml
+  href: https://artifacts.apis.io/one-degree/security/one-degree-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/one-degree-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/data-model/one-degree-data-model.yml
+  href: https://artifacts.apis.io/one-degree/data-model/one-degree-data-model.yml
   title: ''
   type: DataModel
   url: data-model/one-degree-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/mcp/one-degree-mcp.yml
+  href: https://artifacts.apis.io/one-degree/mcp/one-degree-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/one-degree-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/llms/one-degree-llms.txt
+  href: https://artifacts.apis.io/one-degree/llms/one-degree-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/one-degree-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/one-degree/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/arazzo/one-degree-find-services.yml
+  href: https://artifacts.apis.io/one-degree/arazzo/one-degree-find-services.yml
   title: ''
   type: Arazzo
   url: arazzo/one-degree-find-services.yml
@@ -219,12 +218,12 @@ overview: 'One Degree publishes 6 API contracts indexed on the [APIs.io](https:/
 
 
   One Degree''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
-random_paper: 19
+random_paper: 3
 score:
   band: thin
-  composite: 36.5
+  composite: 37.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -232,12 +231,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 45.8
     developer_ergonomics: 48.2
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -245,7 +244,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 36.5
+  previous_composite: 37.4
   provenance:
     conformance: derived
     contracts:
@@ -261,14 +260,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/screenshots/one-degree-2026-08-07T190242.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/one-degree/one-degree-2026-08-07T190242.png
 security:
 - kind: authentication
   name: One Degree Authentication
@@ -278,6 +277,12 @@ security:
   name: One Degree Domain Security
   slug: one-degree-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Explore a provider organization and its locations
+  slug: one-degree-explore-organization
+- name: Find social services near a location
+  slug: one-degree-find-services-near-me
 slug: one-degree
 tags:
 - Company
@@ -285,7 +290,7 @@ tags:
 - Social Services
 - Community Resources
 - Human Services
-- Public Benefit
+- Public-benefit
 - Housing
 - Open Data
 - Civic Tech

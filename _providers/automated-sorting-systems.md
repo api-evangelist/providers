@@ -4,6 +4,6 @@ layout: provider
 name: automated-sorting-systems
 nav: Providers
 network: true
-random_paper: 2
+random_paper: 4
 slug: automated-sorting-systems
 ---

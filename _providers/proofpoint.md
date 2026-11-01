@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: 'The TAP v2 API exposes the Threat Insight Dashboard to machines: SIEM event download (blocked/permitted clicks, blocked/delivered messages, issues, all), campaign identifiers and detail, forensic evid'
@@ -47,7 +49,7 @@ apis:
 - description: 'The PoD Log API is Proofpoint''s streaming surface rather than a request/response one: a client opens a WebSocket to logstream.proofpoint.com and subscribes to either the filter (message) log or the MT'
   name: Proofpoint on Demand (PoD) Log API
   slug: proofpoint-pod-log
-artifact_total: 13
+artifact_total: 14
 common:
 - group: company
   title: ''
@@ -90,47 +92,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/pfptcommunity
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/packages/proofpoint-packages.yml
+  href: https://artifacts.apis.io/proofpoint/packages/proofpoint-packages.yml
   title: ''
   type: Packages
   url: packages/proofpoint-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/packages/proofpoint-packages.yml
+  href: https://artifacts.apis.io/proofpoint/packages/proofpoint-packages.yml
   title: ''
   type: SDKs
   url: packages/proofpoint-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/cli/proofpoint-cli.yml
+  href: https://artifacts.apis.io/proofpoint/cli/proofpoint-cli.yml
   title: ''
   type: CLI
   url: cli/proofpoint-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/authentication/proofpoint-authentication.yml
+  href: https://artifacts.apis.io/proofpoint/authentication/proofpoint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/proofpoint-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/rate-limits/proofpoint-rate-limits.yml
+  href: https://artifacts.apis.io/proofpoint/rate-limits/proofpoint-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/proofpoint-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/errors/proofpoint-error-codes.yml
+  href: https://artifacts.apis.io/proofpoint/errors/proofpoint-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/proofpoint-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/conventions/proofpoint-conventions.yml
+  href: https://artifacts.apis.io/proofpoint/conventions/proofpoint-conventions.yml
   title: ''
   type: Conventions
   url: conventions/proofpoint-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/lifecycle/proofpoint-lifecycle.yml
+  href: https://artifacts.apis.io/proofpoint/lifecycle/proofpoint-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/proofpoint-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/conformance/proofpoint-conformance.yml
+  href: https://artifacts.apis.io/proofpoint/conformance/proofpoint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/proofpoint-conformance.yml
@@ -139,7 +141,7 @@ common:
   type: Compliance
   url: https://www.proofpoint.com/us/legal/trust/product-certifications
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/security/proofpoint-trust-center.yml
+  href: https://artifacts.apis.io/proofpoint/security/proofpoint-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/proofpoint-trust-center.yml
@@ -148,7 +150,7 @@ common:
   type: Trust
   url: https://www.proofpoint.com/us/legal/trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/security/proofpoint-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/proofpoint/security/proofpoint-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/proofpoint-vulnerability-disclosure.yml
@@ -157,27 +159,35 @@ common:
   type: Security
   url: https://www.proofpoint.com/us/security/vulnerability-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/security/proofpoint-domain-security.yml
+  href: https://artifacts.apis.io/proofpoint/security/proofpoint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/proofpoint-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/plans/proofpoint-plans-pricing.yml
+  href: https://artifacts.apis.io/proofpoint/plans/proofpoint-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/proofpoint-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/data-model/proofpoint-data-model.yml
+  href: https://artifacts.apis.io/proofpoint/data-model/proofpoint-data-model.yml
   title: ''
   type: DataModel
   url: data-model/proofpoint-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/llms/proofpoint-llms.txt
+  href: https://artifacts.apis.io/proofpoint/llms/proofpoint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/proofpoint-llms.txt
 created: '2026-09-13'
 description: 'Proofpoint is an enterprise cybersecurity company focused on human-centric security — email and collaboration security, data loss prevention, insider threat management, digital communications governance, security awareness training and threat intelligence. Its public API surface is substantial but gateway-shaped rather than developer-portal-shaped: the Targeted Attack Protection (TAP) v2 API, the Threat Protection dashboard Reports API, the Emerging Threats (ET) Intelligence Query API, the ZenGuide / Security Awareness Training Results API, the Secure Email Relay email submission API, the Proofpoint Essentials SIEM API and the Proofpoint on Demand (PoD) log stream. Every one of them is documented in public HTML and every one of them is credential-gated at runtime; Proofpoint publishes no OpenAPI, AsyncAPI, GraphQL or MCP contract for any of them.'
+finops:
+- has_sources: true
+  method: derived
+  name: Proofpoint Finops
+  primary_unit: ''
+  service_category: ''
+  slug: proofpoint-finops
+  template: true
 image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company-logos/proofpoint.png
 layout: provider
 modified: '2026-09-13'
@@ -192,30 +202,30 @@ plans:
 - name: Proofpoint Plans Pricing
   plan_count: 0
   slug: proofpoint-plans-pricing
-random_paper: 4
+random_paper: 0
 rate_limits:
 - limit_count: 14
   name: Proofpoint Rate Limits
   slug: proofpoint-rate-limits
 score:
   band: developing
-  composite: 40.1
+  composite: 40.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
     discoverability: 71.4
-    operational_transparency: 44.7
-  previous_composite: 40.0
+    operational_transparency: 47.4
+  previous_composite: 40.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -225,14 +235,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/screenshots/proofpoint-2026-10-11T112846.png
+screenshot: https://apis.io/screenshots/proofpoint/proofpoint-2026-10-11T112846.png
 security:
 - kind: authentication
   name: Proofpoint Authentication

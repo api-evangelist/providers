@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 58.8
-  scored_at: '2026-10-17'
+  score: 52.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 3
@@ -91,11 +93,8 @@ apis:
   description: Health check and connectivity endpoints
   name: GC AI Utility API
   slug: gc-ai-utility-api
-artifact_total: 26
+artifact_total: 29
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: GC AI External Chat API
   slug: open-gc-ai-chat-api
@@ -124,8 +123,12 @@ collections:
   name: GC AI External Chat Utility API
   slug: open-gc-ai-utility-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/gc-ai/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/plans/gc-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/gc-ai/plans/gc-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gc-ai-plans-pricing.yml
@@ -134,7 +137,7 @@ common:
   type: BlogRSS
   url: https://gc.ai/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/capabilities/gc-ai-capability-edges.yml
+  href: https://artifacts.apis.io/gc-ai/capabilities/gc-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gc-ai-capability-edges.yml
@@ -195,7 +198,7 @@ common:
   type: ChangeLog
   url: https://docs.gc.ai/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/changelog/gc-ai-changelog.yml
+  href: https://artifacts.apis.io/gc-ai/changelog/gc-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gc-ai-changelog.yml
@@ -204,77 +207,77 @@ common:
   type: Compliance
   url: https://trust.gc.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/security/gc-ai-trust-center.yml
+  href: https://artifacts.apis.io/gc-ai/security/gc-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gc-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/security/gc-ai-domain-security.yml
+  href: https://artifacts.apis.io/gc-ai/security/gc-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gc-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/authentication/gc-ai-authentication.yml
+  href: https://artifacts.apis.io/gc-ai/authentication/gc-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gc-ai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/conventions/gc-ai-conventions.yml
+  href: https://artifacts.apis.io/gc-ai/conventions/gc-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gc-ai-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/rate-limits/gc-ai-rate-limits.yml
+  href: https://artifacts.apis.io/gc-ai/rate-limits/gc-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gc-ai-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/errors/gc-ai-problem-types.yml
+  href: https://artifacts.apis.io/gc-ai/errors/gc-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gc-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/lifecycle/gc-ai-lifecycle.yml
+  href: https://artifacts.apis.io/gc-ai/lifecycle/gc-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gc-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/data-model/gc-ai-data-model.yml
+  href: https://artifacts.apis.io/gc-ai/data-model/gc-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gc-ai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/conformance/gc-ai-conformance.yml
+  href: https://artifacts.apis.io/gc-ai/conformance/gc-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gc-ai-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/overlays/gc-ai-openapi-overlay.yaml
+  href: https://artifacts.apis.io/gc-ai/overlays/gc-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gc-ai-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/mcp/gc-ai-mcp.yml
+  href: https://artifacts.apis.io/gc-ai/mcp/gc-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/gc-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/gc-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/well-known/gc-ai-well-known.yml
+  href: https://artifacts.apis.io/gc-ai/well-known/gc-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gc-ai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/llms/gc-ai-llms.txt
+  href: https://artifacts.apis.io/gc-ai/llms/gc-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gc-ai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/agentic-access/gc-ai-agentic-access.yml
+  href: https://artifacts.apis.io/gc-ai/agentic-access/gc-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gc-ai-agentic-access.yml
@@ -284,6 +287,14 @@ common:
   url: https://gc.ai
 created: '2026-07-17'
 description: GC AI is the AI platform for in-house legal teams, built by three-time General Counsel Cecilia Ziniti. It helps corporate counsel draft and review contracts, run reusable review Playbooks, conduct grounded legal research across 13M+ US court opinions, and work directly inside Microsoft Word. The GC AI External API (v1) gives programmatic access to chat completions, files, folders, projects, playbooks, and skills for workflow automation (Zapier, Make, n8n, or custom apps), and GC AI also operates an OAuth-protected Model Context Protocol (MCP) server. The platform is SOC 2 Type II, SOC 3, and GDPR compliant, with zero data-retention agreements with its model providers.
+finops:
+- has_sources: true
+  method: derived
+  name: Gc Ai Finops
+  primary_unit: ''
+  service_category: ''
+  slug: gc-ai-finops
+  template: true
 image: https://framerusercontent.com/images/Zth3qSTP7QF72InJJ60jCoqi190.png
 layout: provider
 mcp_servers:
@@ -297,35 +308,35 @@ network: true
 overview: 'GC AI publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chat API, Files API, Folders API, and 6 more. Tagged areas include Company, Legal, Legal AI, Contracts, and In-House Counsel.
 
 
-  GC AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  GC AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 plans:
 - name: Gc Ai Plans Pricing
   plan_count: 0
   slug: gc-ai-plans-pricing
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Gc Ai Rate Limits
   slug: gc-ai-rate-limits
 score:
   band: developing
-  composite: 51.7
+  composite: 53.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.2
   facets:
-    access_clarity: 47.4
+    access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 57.7
-    developer_ergonomics: 58.9
-    discoverability: 75.0
+    contract_quality: 54.3
+    developer_ergonomics: 60.1
+    discoverability: 65.0
     operational_transparency: 52.6
-  previous_composite: 51.6
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -346,13 +357,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/screenshots/gc-ai-2026-07-25T215510.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gc-ai/gc-ai-2026-07-25T215510.png
 security:
 - kind: authentication
   name: Gc Ai Authentication
@@ -366,6 +378,14 @@ security:
   name: Gc Ai Trust Center
   slug: gc-ai-trust-center
   summary_line: SOC 2 Type 1, SOC 2 Type 2, SOC 3, GDPR
+skill_count: 3
+skills:
+- name: Ask GC AI a question grounded in uploaded documents
+  slug: gc-ai-ask-with-document-context
+- name: Organize a matter as a GC AI Project
+  slug: gc-ai-organize-a-matter
+- name: Review a contract with a GC AI Playbook
+  slug: gc-ai-review-contract-with-playbook
 slug: gc-ai
 tags:
 - Company

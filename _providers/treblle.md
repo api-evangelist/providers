@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-17'
+  score: 21.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -127,14 +129,11 @@ arazzos:
 - description: Read a project, update its environment and metadata, and confirm the change took effect.
   name: Treblle Promote a Project's Environment
   slug: treblle-update-project-environment-workflow
-artifact_total: 60
+artifact_total: 62
 collections:
 - collection_type: postman
   name: Treblle API
   slug: postman-treblle-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Treblle Analytics API
   slug: open-treblle-analytics-api
@@ -158,52 +157,52 @@ collections:
   slug: open-treblle-requests-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/capabilities/treblle-capability-edges.yml
+  href: https://artifacts.apis.io/treblle/capabilities/treblle-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/treblle-capability-edges.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/changelog/treblle-changelog.yml
+  href: https://artifacts.apis.io/treblle/changelog/treblle-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/treblle-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/finops/treblle-finops.yml
+  href: https://artifacts.apis.io/treblle/finops/treblle-finops.yml
   title: ''
   type: FinOps
   url: finops/treblle-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/rate-limits/treblle-rate-limits.yml
+  href: https://artifacts.apis.io/treblle/rate-limits/treblle-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/treblle-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/plans/treblle-plans-pricing.yml
+  href: https://artifacts.apis.io/treblle/plans/treblle-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/treblle-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/rules/treblle-rules.yml
+  href: https://artifacts.apis.io/treblle/rules/treblle-rules.yml
   title: ''
   type: Spectral
   url: rules/treblle-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/rules/treblle-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/treblle/rules/treblle-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/treblle-jsonschema-spectral-rules.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/treblle/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/data-model/treblle-data-model.yml
+  href: https://artifacts.apis.io/treblle/data-model/treblle-data-model.yml
   title: ''
   type: DataModel
   url: data-model/treblle-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/conventions/treblle-conventions.yml
+  href: https://artifacts.apis.io/treblle/conventions/treblle-conventions.yml
   title: ''
   type: Conventions
   url: conventions/treblle-conventions.yml
@@ -212,32 +211,32 @@ common:
   type: Compliance
   url: https://treblle.com/security-compliance
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/errors/treblle-problem-types.yml
+  href: https://artifacts.apis.io/treblle/errors/treblle-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/treblle-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/conformance/treblle-conformance.yml
+  href: https://artifacts.apis.io/treblle/conformance/treblle-conformance.yml
   title: ''
   type: Conformance
   url: conformance/treblle-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/hosts/treblle-hosts.yml
+  href: https://artifacts.apis.io/treblle/hosts/treblle-hosts.yml
   title: ''
   type: Hosts
   url: hosts/treblle-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/vendors/treblle-vendors.yml
+  href: https://artifacts.apis.io/treblle/vendors/treblle-vendors.yml
   title: ''
   type: Vendors
   url: vendors/treblle-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/packages/treblle-packages.yml
+  href: https://artifacts.apis.io/treblle/packages/treblle-packages.yml
   title: ''
   type: SDKs
   url: packages/treblle-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/packages/treblle-packages.yml
+  href: https://artifacts.apis.io/treblle/packages/treblle-packages.yml
   title: ''
   type: Packages
   url: packages/treblle-packages.yml
@@ -250,22 +249,22 @@ common:
   type: Website
   url: https://www.treblle.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/agentic-access/treblle-agentic-access.yml
+  href: https://artifacts.apis.io/treblle/agentic-access/treblle-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/treblle-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/security/treblle-trust-center.yml
+  href: https://artifacts.apis.io/treblle/security/treblle-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/treblle-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/security/treblle-domain-security.yml
+  href: https://artifacts.apis.io/treblle/security/treblle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/treblle-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/authentication/treblle-authentication.yml
+  href: https://artifacts.apis.io/treblle/authentication/treblle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/treblle-authentication.yml
@@ -274,42 +273,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/treblle/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/arazzo/treblle-find-project-and-analytics-workflow.yml
+  href: https://artifacts.apis.io/treblle/arazzo/treblle-find-project-and-analytics-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/treblle-find-project-and-analytics-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/arazzo/treblle-governance-scorecard-workflow.yml
+  href: https://artifacts.apis.io/treblle/arazzo/treblle-governance-scorecard-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/treblle-governance-scorecard-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/arazzo/treblle-onboard-project-and-team-workflow.yml
+  href: https://artifacts.apis.io/treblle/arazzo/treblle-onboard-project-and-team-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/treblle-onboard-project-and-team-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/arazzo/treblle-project-health-snapshot-workflow.yml
+  href: https://artifacts.apis.io/treblle/arazzo/treblle-project-health-snapshot-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/treblle-project-health-snapshot-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/arazzo/treblle-project-recent-requests-workflow.yml
+  href: https://artifacts.apis.io/treblle/arazzo/treblle-project-recent-requests-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/treblle-project-recent-requests-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/arazzo/treblle-provision-project-workflow.yml
+  href: https://artifacts.apis.io/treblle/arazzo/treblle-provision-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/treblle-provision-project-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/arazzo/treblle-triage-error-requests-workflow.yml
+  href: https://artifacts.apis.io/treblle/arazzo/treblle-triage-error-requests-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/treblle-triage-error-requests-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/arazzo/treblle-update-project-environment-workflow.yml
+  href: https://artifacts.apis.io/treblle/arazzo/treblle-update-project-environment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/treblle-update-project-environment-workflow.yml
@@ -382,7 +381,7 @@ common:
   type: Login
   url: https://identity.treblle.com/login
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/vocabulary/treblle-vocabulary.yml
+  href: https://artifacts.apis.io/treblle/vocabulary/treblle-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/treblle-vocabulary.yml
@@ -405,10 +404,10 @@ examples:
   slug: treblle-run-governance-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Treblle Finops
-  primary_unit: ''
-  service_category: Developer Tools / API Observability
+  primary_unit: subscription
+  service_category: ''
   slug: treblle-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/treblle.png
@@ -483,7 +482,10 @@ plans:
 - name: Treblle Plans Pricing
   plan_count: 3
   slug: treblle-plans-pricing
-random_paper: 20
+- name: Treblle Price Estimates
+  plan_count: 0
+  slug: treblle-price-estimates
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Treblle Rate Limits
@@ -513,24 +515,24 @@ rules:
     warn: 5
   slug: treblle-rules
 score:
-  band: strong
-  composite: 62.6
+  band: exemplar
+  composite: 68.8
   coverage:
     artifact_dirs: 34
-    catalog_earned: 64.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_earned: 76.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 39.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.4
+  delta: 1.6
   facets:
-    access_clarity: 68.4
+    access_clarity: 100.0
     contract_governance: 45.5
-    contract_quality: 69.7
+    contract_quality: 66.3
     developer_ergonomics: 60.1
     discoverability: 57.1
     operational_transparency: 55.3
-  previous_composite: 59.2
+  previous_composite: 67.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -555,13 +557,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/screenshots/treblle-2026-06-20T195643.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/treblle/treblle-2026-06-20T195643.png
 security:
 - kind: authentication
   name: Treblle Authentication
@@ -575,6 +578,12 @@ security:
   name: Treblle Trust Center
   slug: treblle-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
+skill_count: 2
+skills:
+- name: treblle-create-and-get-project
+  slug: treblle-create-and-get-project
+- name: treblle-list-and-invite-members
+  slug: treblle-list-and-invite-members
 slug: treblle
 tags:
 - Analytics

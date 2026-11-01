@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -80,11 +82,8 @@ apis:
   description: Create and manage webhooks
   name: Smartlook Webhooks API
   slug: smartlook-webhooks-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Smartlook REST Events API
   slug: open-smartlook-events-api
@@ -108,22 +107,22 @@ collections:
   slug: open-smartlook-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/capabilities/smartlook-capability-edges.yml
+  href: https://artifacts.apis.io/smartlook/capabilities/smartlook-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/smartlook-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/agentic-access/smartlook-agentic-access.yml
+  href: https://artifacts.apis.io/smartlook/agentic-access/smartlook-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/smartlook-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/security/smartlook-domain-security.yml
+  href: https://artifacts.apis.io/smartlook/security/smartlook-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/smartlook-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/authentication/smartlook-authentication.yml
+  href: https://artifacts.apis.io/smartlook/authentication/smartlook-authentication.yml
   title: ''
   type: Authentication
   url: authentication/smartlook-authentication.yml
@@ -160,32 +159,32 @@ common:
   type: X
   url: https://twitter.com/getsmartlook
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/plans/smartlook-plans-pricing.yml
+  href: https://artifacts.apis.io/smartlook/plans/smartlook-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/smartlook-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/rate-limits/smartlook-rate-limits.yml
+  href: https://artifacts.apis.io/smartlook/rate-limits/smartlook-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/smartlook-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/finops/smartlook-finops.yml
+  href: https://artifacts.apis.io/smartlook/finops/smartlook-finops.yml
   title: ''
   type: FinOps
   url: finops/smartlook-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/vocabulary/smartlook-vocabulary.yml
+  href: https://artifacts.apis.io/smartlook/vocabulary/smartlook-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/smartlook-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/json-ld/smartlook-context.jsonld
+  href: https://artifacts.apis.io/smartlook/json-ld/smartlook-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/smartlook-context.jsonld
 - group: company
-  href: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/blogs/blogs.json
+  href: https://artifacts.apis.io/smartlook/blogs/blogs.json
   title: ''
   type: BlogPosts
   url: blogs/blogs.json
@@ -221,14 +220,14 @@ plans:
 - name: Smartlook Plans Pricing
   plan_count: 4
   slug: smartlook-plans-pricing
-random_paper: 20
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Smartlook Rate Limits
   slug: smartlook-rate-limits
 score:
   band: thin
-  composite: 29.2
+  composite: 32.6
   coverage:
     artifact_dirs: 15
     catalog_earned: 55.5
@@ -236,15 +235,15 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 13.6
-    contract_quality: 55.0
-    developer_ergonomics: 16.7
+    contract_quality: 51.6
+    developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 34.8
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -258,13 +257,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/screenshots/smartlook-2026-06-20T194043.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/smartlook/smartlook-2026-06-20T194043.png
 security:
 - kind: authentication
   name: Smartlook Authentication

@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 33.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 32
   slug: northern-powergrid-agentic-access
   summary_line: 32 operations
-api_count: 4
+api_count: 2
 apis:
 - description: The original Opendatasoft Search API, still live on the portal and still carrying its own interactive console. Confirmed anonymously on 2026-07-27 — GET /api/datasets/1.0/search/?rows=1 returned nhits
   name: Northern Powergrid Open Data Search API v1
@@ -57,7 +59,7 @@ apis:
   description: API to work on records
   name: Northern Powergrid Dataset API
   slug: northern-powergrid-dataset-api
-artifact_total: 11
+artifact_total: 14
 collections:
 - collection_type: open
   name: Explore API
@@ -67,57 +69,62 @@ collections:
   slug: open-northern-powergrid-open-data-explore-api-v2-1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/overlays/northern-powergrid-open-data-explore-api-v2-1-overlay.yaml
+  href: https://artifacts.apis.io/northern-powergrid/capabilities/northern-powergrid-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/northern-powergrid-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/northern-powergrid/overlays/northern-powergrid-open-data-explore-api-v2-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/northern-powergrid-open-data-explore-api-v2-1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/overlays/northern-powergrid-open-data-explore-api-v2-0-overlay.yaml
+  href: https://artifacts.apis.io/northern-powergrid/overlays/northern-powergrid-open-data-explore-api-v2-0-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/northern-powergrid-open-data-explore-api-v2-0-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/agentic-access/northern-powergrid-agentic-access.yml
+  href: https://artifacts.apis.io/northern-powergrid/agentic-access/northern-powergrid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/northern-powergrid-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/security/northern-powergrid-domain-security.yml
+  href: https://artifacts.apis.io/northern-powergrid/security/northern-powergrid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/northern-powergrid-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/authentication/northern-powergrid-authentication.yml
+  href: https://artifacts.apis.io/northern-powergrid/authentication/northern-powergrid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/northern-powergrid-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/scopes/northern-powergrid-scopes.yml
+  href: https://artifacts.apis.io/northern-powergrid/scopes/northern-powergrid-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/northern-powergrid-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/conventions/northern-powergrid-conventions.yml
+  href: https://artifacts.apis.io/northern-powergrid/conventions/northern-powergrid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/northern-powergrid-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/conventions/northern-powergrid-conventions.yml
+  href: https://artifacts.apis.io/northern-powergrid/conventions/northern-powergrid-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/northern-powergrid-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/errors/northern-powergrid-problem-types.yml
+  href: https://artifacts.apis.io/northern-powergrid/errors/northern-powergrid-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/northern-powergrid-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/rate-limits/northern-powergrid-rate-limits.yml
+  href: https://artifacts.apis.io/northern-powergrid/rate-limits/northern-powergrid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/northern-powergrid-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/lifecycle/northern-powergrid-lifecycle.yml
+  href: https://artifacts.apis.io/northern-powergrid/lifecycle/northern-powergrid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/northern-powergrid-lifecycle.yml
@@ -126,77 +133,77 @@ common:
   type: Deprecation
   url: https://help.huwise.com/apis/ods-explore-v2/#section/Versioning
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/changelog/northern-powergrid-changelog.yml
+  href: https://artifacts.apis.io/northern-powergrid/changelog/northern-powergrid-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/northern-powergrid-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/conformance/northern-powergrid-conformance.yml
+  href: https://artifacts.apis.io/northern-powergrid/conformance/northern-powergrid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/northern-powergrid-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/data-model/northern-powergrid-data-model.yml
+  href: https://artifacts.apis.io/northern-powergrid/data-model/northern-powergrid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/northern-powergrid-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/examples/northern-powergrid-examples.yml
+  href: https://artifacts.apis.io/northern-powergrid/examples/northern-powergrid-examples.yml
   title: ''
   type: Examples
   url: examples/northern-powergrid-examples.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/sandbox/northern-powergrid-sandbox.yml
+  href: https://artifacts.apis.io/northern-powergrid/sandbox/northern-powergrid-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/northern-powergrid-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/packages/northern-powergrid-packages.yml
+  href: https://artifacts.apis.io/northern-powergrid/packages/northern-powergrid-packages.yml
   title: ''
   type: Packages
   url: packages/northern-powergrid-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/packages/northern-powergrid-packages.yml
+  href: https://artifacts.apis.io/northern-powergrid/packages/northern-powergrid-packages.yml
   title: ''
   type: SDKs
   url: packages/northern-powergrid-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/components/northern-powergrid-components.yml
+  href: https://artifacts.apis.io/northern-powergrid/components/northern-powergrid-components.yml
   title: ''
   type: Components
   url: components/northern-powergrid-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/mcp/northern-powergrid-mcp.yml
+  href: https://artifacts.apis.io/northern-powergrid/mcp/northern-powergrid-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/northern-powergrid-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/mcp/northern-powergrid-tool-crosswalk.yml
+  href: https://artifacts.apis.io/northern-powergrid/mcp/northern-powergrid-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/northern-powergrid-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/northern-powergrid/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/llms/northern-powergrid-llms.txt
+  href: https://artifacts.apis.io/northern-powergrid/llms/northern-powergrid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/northern-powergrid-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/well-known/northern-powergrid-well-known.yml
+  href: https://artifacts.apis.io/northern-powergrid/well-known/northern-powergrid-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/northern-powergrid-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/well-known/northern-powergrid-security.txt
+  href: https://artifacts.apis.io/northern-powergrid/well-known/northern-powergrid-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/northern-powergrid-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/security/northern-powergrid-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/northern-powergrid/security/northern-powergrid-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/northern-powergrid-vulnerability-disclosure.yml
@@ -292,8 +299,8 @@ network: true
 overview: 'Northern Powergrid publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalog API, Dataset API, and 1 more. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Grid.
 
 
-  Northern Powergrid''s developer surface includes authentication, changelog, code examples, sandbox, API reference, getting-started guide, support, and 40 more developer resources.'
-random_paper: 12
+  Northern Powergrid''s developer surface includes authentication, changelog, code examples, sandbox, API reference, getting-started guide, support, and 41 more developer resources.'
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Northern Powergrid Rate Limits
@@ -305,22 +312,22 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 55.4
+  composite: 55.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 48.0
+    artifact_dirs: 26
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 54.2
     developer_ergonomics: 70.8
-    discoverability: 71.4
-    operational_transparency: 63.2
+    discoverability: 66.1
+    operational_transparency: 65.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -329,7 +336,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 54.8
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -346,14 +353,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/screenshots/northern-powergrid-2026-08-07T185523.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/northern-powergrid/northern-powergrid-2026-08-07T185523.png
 security:
 - kind: authentication
   name: Northern Powergrid Authentication
@@ -367,6 +374,14 @@ security:
   name: Northern Powergrid Vulnerability Disclosure
   slug: northern-powergrid-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 3
+skills:
+- name: Bulk export Northern Powergrid datasets and federate the catalogue
+  slug: northern-powergrid-bulk-export-and-federate
+- name: Discover and query the Northern Powergrid open data catalogue
+  slug: northern-powergrid-discover-and-query-datasets
+- name: Track live power cuts on the Northern Powergrid network
+  slug: northern-powergrid-track-live-power-cuts
 slug: northern-powergrid
 tags:
 - Energy

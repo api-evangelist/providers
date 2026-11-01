@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -90,11 +92,8 @@ apis:
   description: Tropical cyclone and hurricane data
   name: Xweather Tropical API
   slug: xweather-tropical-api
-artifact_total: 74
+artifact_total: 73
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Xweather Weather Air Quality API
   slug: open-xweather-air-quality-api
@@ -127,17 +126,17 @@ collections:
   slug: open-xweather-weather-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/plans/xweather-plans-pricing.yml
+  href: https://artifacts.apis.io/xweather/plans/xweather-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/xweather-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/rate-limits/xweather-rate-limits.yml
+  href: https://artifacts.apis.io/xweather/rate-limits/xweather-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/xweather-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/finops/xweather-finops.yml
+  href: https://artifacts.apis.io/xweather/finops/xweather-finops.yml
   title: ''
   type: FinOps
   url: finops/xweather-finops.yml
@@ -150,17 +149,17 @@ common:
   type: BlogRSS
   url: https://www.xweather.com/feed.xml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/agentic-access/xweather-agentic-access.yml
+  href: https://artifacts.apis.io/xweather/agentic-access/xweather-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/xweather-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/security/xweather-domain-security.yml
+  href: https://artifacts.apis.io/xweather/security/xweather-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xweather-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/authentication/xweather-authentication.yml
+  href: https://artifacts.apis.io/xweather/authentication/xweather-authentication.yml
   title: ''
   type: Authentication
   url: authentication/xweather-authentication.yml
@@ -316,11 +315,11 @@ features:
 - description: Active tropical cyclone tracks, intensity, and forecast cones.
   name: Tropical Cyclones
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Xweather Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: xweather-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xweather.png
@@ -408,9 +407,9 @@ overview: 'Xweather publishes 9 API contracts indexed on the [APIs.io](https://a
   Xweather''s developer surface includes engineering blog, authentication, documentation, API reference, signup flow, pricing, code examples, and 28 more developer resources.'
 plans:
 - name: Xweather Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: xweather-plans-pricing
-random_paper: 14
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Xweather Rate Limits
@@ -441,23 +440,23 @@ rules:
   slug: xweather-rules
 score:
   band: developing
-  composite: 41.7
+  composite: 44.7
   coverage:
     artifact_dirs: 18
-    catalog_earned: 60.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 55.0
+    catalog_earned: 65.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -2.1
   facets:
-    access_clarity: 31.6
+    access_clarity: 44.7
     contract_governance: 27.3
     contract_quality: 61.2
     developer_ergonomics: 42.9
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 43.2
+    operational_transparency: 13.2
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     contracts:
@@ -471,14 +470,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/screenshots/xweather-2026-06-20T201723.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/xweather/xweather-2026-06-20T201723.png
 security:
 - kind: authentication
   name: Xweather Authentication

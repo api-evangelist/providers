@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-10-17'
+  score: 25.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -85,15 +87,12 @@ apis:
   description: The Verticals API from SkimBit — 2 operation(s) for verticals.
   name: SkimBit Verticals API
   slug: skimbit-verticals-api
-artifact_total: 23
+artifact_total: 26
 asyncapis:
 - description: 'The Skimlinks Data Pipe is the event-level data surface behind the Skimlinks affiliate platform: impressions, clicks, commissions and products purchased, cleaned and exported daily to a customer-owned'
   name: Skimlinks Data Pipe
   slug: skimbit-data-pipe-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Skimlinks Merchant Commissions API
   slug: open-skimbit-commissions-api
@@ -120,7 +119,7 @@ collections:
   slug: open-skimbit-verticals-api
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/security/skimbit-domain-security.yml
+  href: https://artifacts.apis.io/skimbit/security/skimbit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skimbit-domain-security.yml
@@ -165,102 +164,102 @@ common:
   type: TermsOfService
   url: https://www.skimlinks.com/terms-of-service/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/authentication/skimbit-authentication.yml
+  href: https://artifacts.apis.io/skimbit/authentication/skimbit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/skimbit-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/conventions/skimbit-conventions.yml
+  href: https://artifacts.apis.io/skimbit/conventions/skimbit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/skimbit-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/rate-limits/skimbit-rate-limits.yml
+  href: https://artifacts.apis.io/skimbit/rate-limits/skimbit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/skimbit-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/errors/skimbit-problem-types.yml
+  href: https://artifacts.apis.io/skimbit/errors/skimbit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/skimbit-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/lifecycle/skimbit-lifecycle.yml
+  href: https://artifacts.apis.io/skimbit/lifecycle/skimbit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/skimbit-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/lifecycle/skimbit-lifecycle.yml
+  href: https://artifacts.apis.io/skimbit/lifecycle/skimbit-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/skimbit-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/data-model/skimbit-data-model.yml
+  href: https://artifacts.apis.io/skimbit/data-model/skimbit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/skimbit-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/conformance/skimbit-conformance.yml
+  href: https://artifacts.apis.io/skimbit/conformance/skimbit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/skimbit-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/components/skimbit-components.yml
+  href: https://artifacts.apis.io/skimbit/components/skimbit-components.yml
   title: ''
   type: Components
   url: components/skimbit-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/mcp/skimbit-mcp.yml
+  href: https://artifacts.apis.io/skimbit/mcp/skimbit-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/skimbit-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/llms/skimbit-llms.txt
+  href: https://artifacts.apis.io/skimbit/llms/skimbit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/skimbit-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/agentic-access/skimbit-agentic-access.yml
+  href: https://artifacts.apis.io/skimbit/agentic-access/skimbit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/skimbit-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/skimbit/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/overlays/skimbit-merchant-overlay.yaml
+  href: https://artifacts.apis.io/skimbit/overlays/skimbit-merchant-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/skimbit-merchant-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/overlays/skimbit-reporting-overlay.yaml
+  href: https://artifacts.apis.io/skimbit/overlays/skimbit-reporting-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/skimbit-reporting-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/overlays/skimbit-product-key-overlay.yaml
+  href: https://artifacts.apis.io/skimbit/overlays/skimbit-product-key-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/skimbit-product-key-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/packages/skimbit-packages.yml
+  href: https://artifacts.apis.io/skimbit/packages/skimbit-packages.yml
   title: ''
   type: Packages
   url: packages/skimbit-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/plans/skimbit-plans-pricing.yml
+  href: https://artifacts.apis.io/skimbit/plans/skimbit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/skimbit-plans-pricing.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/asyncapi/skimbit-data-pipe-asyncapi.yml
+  href: https://artifacts.apis.io/skimbit/asyncapi/skimbit-data-pipe-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/skimbit-data-pipe-asyncapi.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/mcp/skimbit-tool-crosswalk.yml
+  href: https://artifacts.apis.io/skimbit/mcp/skimbit-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/skimbit-tool-crosswalk.yml
@@ -271,6 +270,14 @@ common:
 created: '2026-07-17'
 description: SkimBit Ltd, operating as Skimlinks, is a London-founded content-monetization and affiliate-marketing platform (now part of Taboola) that helps publishers and content creators earn commerce revenue from the products and merchants they mention in editorial content. Skimlinks automatically affiliates outbound merchant links, tracks the resulting clicks and commissions across thousands of affiliate networks and merchant programs, and pays publishers a share of the revenue. For developers, Skimlinks exposes a suite of publisher-facing REST APIs — the Merchant API (merchant programs, domains, verticals and offers), the Reporting API (raw commissions, aggregated performance, trending/purchased products, payment status and deactivated merchants) and the Product Key API (product details, pricing, availability and merchant alternatives across a billion+ product offers) — plus the Skimlinks JavaScript on-page monetization script and a batch Data Pipe delivering event-level clicks, impressions,
   commissions and product-purchase data to cloud storage.
+finops:
+- has_sources: true
+  method: derived
+  name: Skimbit Finops
+  primary_unit: ''
+  service_category: ''
+  slug: skimbit-finops
+  template: true
 image: https://www.skimlinks.com/wp-content/uploads/2025/06/Colour_icon.svg
 layout: provider
 modified: '2026-08-13'
@@ -288,7 +295,7 @@ plans:
 - name: Skimbit Plans Pricing
   plan_count: 0
   slug: skimbit-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 6
   name: Skimbit Rate Limits
@@ -297,21 +304,21 @@ score:
   band: developing
   composite: 44.3
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 55.2
     developer_ergonomics: 47.0
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 39.5
-  previous_composite: 44.2
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -328,13 +335,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/screenshots/skimbit-2026-08-17T081913.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/skimbit/skimbit-2026-08-17T081913.png
 security:
 - kind: authentication
   name: Skimbit Authentication
@@ -344,6 +352,14 @@ security:
   name: Skimbit Domain Security
   slug: skimbit-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Discover Skimlinks merchants and offers
+  slug: skimbit-discover-merchants-and-offers
+- name: Enrich content with Skimlinks Product Key
+  slug: skimbit-enrich-content-with-products
+- name: Pull Skimlinks performance and commissions
+  slug: skimbit-pull-performance-and-commissions
 slug: skimbit
 tags:
 - Company

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'A2A agent operated by Lei Zhang: you provide a Google Maps link or coordinates of any place in China and a real local goes there and films ~10 minutes of genuine, unscripted everyday footage (streets,'
@@ -40,52 +42,52 @@ common:
   type: Pricing
   url: https://bianhuakai.club/lei/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bianhuakai-club/refs/heads/main/a2a/bianhuakai-club-a2a.yml
+  href: https://artifacts.apis.io/bianhuakai-club/a2a/bianhuakai-club-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/bianhuakai-club-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bianhuakai-club/refs/heads/main/well-known/bianhuakai-club-well-known.yml
+  href: https://artifacts.apis.io/bianhuakai-club/well-known/bianhuakai-club-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bianhuakai-club-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bianhuakai-club/refs/heads/main/llms/bianhuakai-club-llms.txt
+  href: https://artifacts.apis.io/bianhuakai-club/llms/bianhuakai-club-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bianhuakai-club-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bianhuakai-club/refs/heads/main/authentication/bianhuakai-club-authentication.yml
+  href: https://artifacts.apis.io/bianhuakai-club/authentication/bianhuakai-club-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bianhuakai-club-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bianhuakai-club/refs/heads/main/conventions/bianhuakai-club-conventions.yml
+  href: https://artifacts.apis.io/bianhuakai-club/conventions/bianhuakai-club-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bianhuakai-club-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bianhuakai-club/refs/heads/main/conformance/bianhuakai-club-conformance.yml
+  href: https://artifacts.apis.io/bianhuakai-club/conformance/bianhuakai-club-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bianhuakai-club-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bianhuakai-club/refs/heads/main/plans/bianhuakai-club-plans-pricing.yml
+  href: https://artifacts.apis.io/bianhuakai-club/plans/bianhuakai-club-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bianhuakai-club-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bianhuakai-club/refs/heads/main/rate-limits/bianhuakai-club-rate-limits.yml
+  href: https://artifacts.apis.io/bianhuakai-club/rate-limits/bianhuakai-club-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bianhuakai-club-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bianhuakai-club/refs/heads/main/security/bianhuakai-club-domain-security.yml
+  href: https://artifacts.apis.io/bianhuakai-club/security/bianhuakai-club-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bianhuakai-club-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bianhuakai-club/refs/heads/main/regulatory/bianhuakai-club-regulatory-posture.yml
+  href: https://artifacts.apis.io/bianhuakai-club/regulatory/bianhuakai-club-regulatory-posture.yml
   title: ''
   type: X-RegulatoryPosture
   url: regulatory/bianhuakai-club-regulatory-posture.yml
@@ -104,7 +106,7 @@ plans:
 - name: Bianhuakai Club Plans Pricing
   plan_count: 0
   slug: bianhuakai-club-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Bianhuakai Club Rate Limits
@@ -119,7 +121,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
@@ -134,7 +136,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 13.1
+  previous_composite: 13.2
   provenance:
     conformance: first-party
   regulatory:
@@ -143,14 +145,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bianhuakai-club/refs/heads/main/screenshots/bianhuakai-club-2026-10-11T102205.png
+screenshot: https://apis.io/screenshots/bianhuakai-club/bianhuakai-club-2026-10-11T102205.png
 security:
 - kind: authentication
   name: Bianhuakai Club Authentication

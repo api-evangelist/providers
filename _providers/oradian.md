@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -57,22 +59,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/oradian
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oradian/refs/heads/main/llms/oradian-llms.txt
+  href: https://artifacts.apis.io/oradian/llms/oradian-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oradian-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oradian/refs/heads/main/security/oradian-domain-security.yml
+  href: https://artifacts.apis.io/oradian/security/oradian-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oradian-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oradian/refs/heads/main/security/oradian-trust-center.yml
+  href: https://artifacts.apis.io/oradian/security/oradian-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/oradian-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oradian/refs/heads/main/conformance/oradian-conformance.yml
+  href: https://artifacts.apis.io/oradian/conformance/oradian-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oradian-conformance.yml
@@ -92,10 +94,10 @@ overview: 'Oradian is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Oradian''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 8
+random_paper: 14
 score:
   band: emerging
-  composite: 14.0
+  composite: 13.7
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -109,9 +111,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 14.0
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 13.7
   provenance:
     conformance: first-party
   regulatory:
@@ -120,14 +122,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/oradian/refs/heads/main/screenshots/oradian-2026-08-07T190823.png
+screenshot: https://apis.io/screenshots/oradian/oradian-2026-08-07T190823.png
 security:
 - kind: domain-security
   name: Oradian Domain Security

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/veratech/refs/heads/main/rate-limits/veratech-rate-limits.yml
+  href: https://artifacts.apis.io/veratech/rate-limits/veratech-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/veratech-rate-limits.yml
@@ -89,37 +91,37 @@ common:
   type: Twitter
   url: https://twitter.com/veratech
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/veratech/refs/heads/main/changelog/veratech-changelog.yml
+  href: https://artifacts.apis.io/veratech/changelog/veratech-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/veratech-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/veratech/refs/heads/main/lifecycle/veratech-lifecycle.yml
+  href: https://artifacts.apis.io/veratech/lifecycle/veratech-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/veratech-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/veratech/refs/heads/main/packages/veratech-packages.yml
+  href: https://artifacts.apis.io/veratech/packages/veratech-packages.yml
   title: ''
   type: Packages
   url: packages/veratech-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/veratech/refs/heads/main/plans/veratech-plans-pricing.yml
+  href: https://artifacts.apis.io/veratech/plans/veratech-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/veratech-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/veratech/refs/heads/main/conformance/veratech-conformance.yml
+  href: https://artifacts.apis.io/veratech/conformance/veratech-conformance.yml
   title: ''
   type: Conformance
   url: conformance/veratech-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/veratech/refs/heads/main/llms/veratech-llms.txt
+  href: https://artifacts.apis.io/veratech/llms/veratech-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/veratech-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veratech/refs/heads/main/security/veratech-domain-security.yml
+  href: https://artifacts.apis.io/veratech/security/veratech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/veratech-domain-security.yml
@@ -160,14 +162,14 @@ plans:
 - name: Veratech Plans Pricing
   plan_count: 2
   slug: veratech-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Veratech Rate Limits
   slug: veratech-rate-limits
 score:
   band: emerging
-  composite: 20.3
+  composite: 23.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 35.0
@@ -175,13 +177,13 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.2
+  delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 10.7
-    discoverability: 55.4
+    developer_ergonomics: 16.7
+    discoverability: 48.2
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -191,7 +193,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 18.1
+  previous_composite: 23.3
   provenance:
     conformance: first-party
   regulatory:
@@ -199,15 +201,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 11.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 14.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/veratech/refs/heads/main/screenshots/veratech-2026-10-11T132835.png
+screenshot: https://apis.io/screenshots/veratech/veratech-2026-10-11T132835.png
 security:
 - kind: domain-security
   name: Veratech Domain Security

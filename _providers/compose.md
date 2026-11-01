@@ -32,17 +32,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/compose
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/compose/refs/heads/main/packages/compose-packages.yml
+  href: https://artifacts.apis.io/compose/packages/compose-packages.yml
   title: ''
   type: Packages
   url: packages/compose-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/compose/refs/heads/main/packages/compose-packages.yml
+  href: https://artifacts.apis.io/compose/packages/compose-packages.yml
   title: ''
   type: SDKs
   url: packages/compose-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/compose/refs/heads/main/cli/compose-cli.yml
+  href: https://artifacts.apis.io/compose/cli/compose-cli.yml
   title: ''
   type: CLI
   url: cli/compose-cli.yml
@@ -63,8 +63,8 @@ overview: 'Compose is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Compose''s developer surface includes CLI and 8 more developer resources.'
-random_paper: 10
-screenshot: https://raw.githubusercontent.com/api-evangelist/compose/refs/heads/main/screenshots/compose-2026-07-25T210212.png
+random_paper: 14
+screenshot: https://apis.io/screenshots/compose/compose-2026-07-25T210212.png
 slug: compose
 tags:
 - Company

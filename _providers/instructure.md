@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-17'
+  score: 30.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -113,11 +115,8 @@ apis:
   description: The Security API from Instructure — 2 operation(s) for security.
   name: Instructure Security API
   slug: instructure-security-api
-artifact_total: 61
+artifact_total: 60
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Canvas LMS LTI ExternalTool API
   slug: open-instructure-externaltool-api
@@ -156,37 +155,37 @@ collections:
   slug: open-instructure-security-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/capabilities/instructure-capability-edges.yml
+  href: https://artifacts.apis.io/instructure/capabilities/instructure-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/instructure-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/agentic-access/instructure-agentic-access.yml
+  href: https://artifacts.apis.io/instructure/agentic-access/instructure-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/instructure-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/security/instructure-trust-center.yml
+  href: https://artifacts.apis.io/instructure/security/instructure-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/instructure-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/security/instructure-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/instructure/security/instructure-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/instructure-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/security/instructure-domain-security.yml
+  href: https://artifacts.apis.io/instructure/security/instructure-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/instructure-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/authentication/instructure-authentication.yml
+  href: https://artifacts.apis.io/instructure/authentication/instructure-authentication.yml
   title: ''
   type: Authentication
   url: authentication/instructure-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/scopes/instructure-scopes.yml
+  href: https://artifacts.apis.io/instructure/scopes/instructure-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/instructure-scopes.yml
@@ -223,27 +222,27 @@ common:
   type: X
   url: https://x.com/instructure
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/plans/instructure-plans-pricing.yml
+  href: https://artifacts.apis.io/instructure/plans/instructure-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/instructure-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/rate-limits/instructure-rate-limits.yml
+  href: https://artifacts.apis.io/instructure/rate-limits/instructure-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/instructure-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/finops/instructure-finops.yml
+  href: https://artifacts.apis.io/instructure/finops/instructure-finops.yml
   title: ''
   type: FinOps
   url: finops/instructure-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/vocabulary/instructure-vocabulary.yml
+  href: https://artifacts.apis.io/instructure/vocabulary/instructure-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/instructure-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/json-ld/instructure-context.jsonld
+  href: https://artifacts.apis.io/instructure/json-ld/instructure-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/instructure-context.jsonld
@@ -348,7 +347,7 @@ plans:
 - name: Instructure Plans Pricing
   plan_count: 3
   slug: instructure-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Instructure Rate Limits
@@ -371,8 +370,8 @@ scopes:
   slug: instructure-scopes
   summary_line: 17 scopes · authorizationCode
 score:
-  band: thin
-  composite: 35.2
+  band: developing
+  composite: 39.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 58.8
@@ -380,15 +379,15 @@ score:
     catalog_gap: 56.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.7
+  delta: 0.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 26.3
     contract_governance: 23.5
     contract_quality: 52.1
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 40.9
+    operational_transparency: 31.6
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -402,13 +401,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 37.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/screenshots/instructure-2026-06-20T183421.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/instructure/instructure-2026-06-20T183421.png
 security:
 - kind: authentication
   name: Instructure Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,21 +34,21 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Read-only HTTP JSON API serving Graphic Packaging International's open job requisitions from careers.graphicpkg.com. Four tools — search_jobs, get_job, list_departments and list_locations — are select
   name: Graphic Packaging Career Site Job Query API
   slug: graphic-packaging-career-site-job-query-api
-artifact_total: 6
+artifact_total: 7
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/graphic-packaging/refs/heads/main/rate-limits/graphic-packaging-rate-limits.yml
+  href: https://artifacts.apis.io/graphic-packaging/rate-limits/graphic-packaging-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/graphic-packaging-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/graphic-packaging/refs/heads/main/security/graphic-packaging-domain-security.yml
+  href: https://artifacts.apis.io/graphic-packaging/security/graphic-packaging-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/graphic-packaging-domain-security.yml
@@ -71,7 +73,7 @@ common:
   type: Careers
   url: https://www.graphicpkg.com/careers/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/graphic-packaging/refs/heads/main/graphic-packaging-rules.yml
+  href: https://artifacts.apis.io/graphic-packaging/graphic-packaging-rules.yml
   title: ''
   type: Rules
   url: graphic-packaging-rules.yml
@@ -84,7 +86,7 @@ common:
   type: Security
   url: https://www.graphicpkg.com/disclosures-and-company-policies/vulnerability-disclosure-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/graphic-packaging/refs/heads/main/security/graphic-packaging-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/graphic-packaging/security/graphic-packaging-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/graphic-packaging-vulnerability-disclosure.yml
@@ -101,17 +103,17 @@ common:
   type: Support
   url: https://www.graphicpkg.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/graphic-packaging/refs/heads/main/conformance/graphic-packaging-conformance.yml
+  href: https://artifacts.apis.io/graphic-packaging/conformance/graphic-packaging-conformance.yml
   title: ''
   type: Conformance
   url: conformance/graphic-packaging-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/graphic-packaging/refs/heads/main/conformance/graphic-packaging-conformance.yml
+  href: https://artifacts.apis.io/graphic-packaging/conformance/graphic-packaging-conformance.yml
   title: ''
   type: Compliance
   url: conformance/graphic-packaging-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/graphic-packaging/refs/heads/main/plans/graphic-packaging-plans-pricing.yml
+  href: https://artifacts.apis.io/graphic-packaging/plans/graphic-packaging-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/graphic-packaging-plans-pricing.yml
@@ -147,14 +149,14 @@ press:
 - date: ''
   title: '10-K: Annual report [Section 13 and 15(d), not S-K Item 405]'
   url: https://investors.graphicpkg.com/sec-filings/all-sec-filings/content/0001408075-26-000009/gpk-20251231.htm
-random_paper: 18
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Graphic Packaging Rate Limits
   slug: graphic-packaging-rate-limits
 score:
   band: emerging
-  composite: 23.6
+  composite: 22.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -162,15 +164,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 23.5
+  previous_composite: 22.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -181,14 +183,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/graphic-packaging/refs/heads/main/screenshots/graphic-packaging-2026-06-20T182327.png
+screenshot: https://apis.io/screenshots/graphic-packaging/graphic-packaging-2026-06-20T182327.png
 security:
 - kind: authentication
   name: Graphic Packaging Authentication
@@ -202,6 +204,10 @@ security:
   name: Graphic Packaging Vulnerability Disclosure
   slug: graphic-packaging-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 1
+skills:
+- name: graphic-packaging-find-open-jobs
+  slug: graphic-packaging-find-open-jobs
 slug: graphic-packaging
 tags:
 - Fortune 500

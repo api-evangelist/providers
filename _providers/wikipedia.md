@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 31.6
-  scored_at: '2026-10-17'
+  score: 29.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 124
   slug: wikipedia-agentic-access
   summary_line: 124 operations · 46 acting · 1 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://en.wikipedia.org/w/api.php
   baseurl_source: declared
@@ -184,11 +186,8 @@ apis:
   description: SPARQL 1.1 query endpoint
   name: Wikipedia / MediaWiki SPARQL API
   slug: wikipedia-sparql-api
-artifact_total: 318
+artifact_total: 317
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MediaWiki Action articles API
   slug: open-wikipedia-articles-api
@@ -290,22 +289,22 @@ collections:
   slug: open-wikipedia-wikidata-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/agentic-access/wikipedia-agentic-access.yml
+  href: https://artifacts.apis.io/wikipedia/agentic-access/wikipedia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wikipedia-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/security/wikipedia-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/wikipedia/security/wikipedia-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wikipedia-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/security/wikipedia-domain-security.yml
+  href: https://artifacts.apis.io/wikipedia/security/wikipedia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wikipedia-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/authentication/wikipedia-authentication.yml
+  href: https://artifacts.apis.io/wikipedia/authentication/wikipedia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wikipedia-authentication.yml
@@ -418,32 +417,32 @@ common:
   type: Tools
   url: https://github.com/cyanheads/wikidata-mcp-server
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/plans/wikipedia-plans-pricing.yml
+  href: https://artifacts.apis.io/wikipedia/plans/wikipedia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wikipedia-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/rate-limits/wikipedia-rate-limits.yml
+  href: https://artifacts.apis.io/wikipedia/rate-limits/wikipedia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wikipedia-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/finops/wikipedia-finops.yml
+  href: https://artifacts.apis.io/wikipedia/finops/wikipedia-finops.yml
   title: ''
   type: FinOps
   url: finops/wikipedia-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/rules/wikipedia-spectral-rules.yml
+  href: https://artifacts.apis.io/wikipedia/rules/wikipedia-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/wikipedia-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/vocabulary/wikipedia-vocabulary.yaml
+  href: https://artifacts.apis.io/wikipedia/vocabulary/wikipedia-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/wikipedia-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/json-ld/wikipedia-context.jsonld
+  href: https://artifacts.apis.io/wikipedia/json-ld/wikipedia-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/wikipedia-context.jsonld
@@ -693,12 +692,12 @@ examples:
   slug: wikimedia-enterprise-wikidata-statement-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Wikipedia Finops
   primary_unit: ''
-  service_category: Open Knowledge Data Feeds
+  service_category: ''
   slug: wikipedia-finops
-  template: false
+  template: true
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/120px-Wikipedia-logo-v2.svg.png
 json_schemas:
 - name: ActionApiError
@@ -1227,9 +1226,9 @@ overview: 'Wikipedia / MediaWiki publishes 28 API contracts indexed on the [APIs
   Wikipedia / MediaWiki''s developer surface includes authentication, documentation, status page, tooling, engineering blog, and 33 more developer resources.'
 plans:
 - name: Wikipedia Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: wikipedia-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 9
   name: Wikipedia Rate Limits
@@ -1260,23 +1259,23 @@ rules:
   slug: wikipedia-spectral-rules
 score:
   band: developing
-  composite: 39.3
+  composite: 40.3
   coverage:
     artifact_dirs: 17
-    catalog_earned: 66.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_earned: 68.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.8
+  delta: -2.6
   facets:
-    access_clarity: 18.4
+    access_clarity: 31.6
     contract_governance: 27.3
-    contract_quality: 37.7
+    contract_quality: 37.0
     developer_ergonomics: 42.9
-    discoverability: 89.3
-    operational_transparency: 10.5
-  previous_composite: 47.1
+    discoverability: 83.9
+    operational_transparency: 23.7
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1290,13 +1289,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/screenshots/wikipedia-2026-06-20T201453.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wikipedia/wikipedia-2026-06-20T201453.png
 security:
 - kind: authentication
   name: Wikipedia Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Investment strategy catalog and configuration
   name: Veli Strategies API
   slug: veli-strategies-api
-artifact_total: 53
+artifact_total: 52
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Veli Orders API
   slug: open-veli-orders-api
@@ -95,32 +94,32 @@ collections:
   slug: open-veli
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/plans/veli-plans-pricing.yml
+  href: https://artifacts.apis.io/veli/plans/veli-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/veli-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/rate-limits/veli-rate-limits.yml
+  href: https://artifacts.apis.io/veli/rate-limits/veli-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/veli-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/finops/veli-finops.yml
+  href: https://artifacts.apis.io/veli/finops/veli-finops.yml
   title: ''
   type: FinOps
   url: finops/veli-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/agentic-access/veli-agentic-access.yml
+  href: https://artifacts.apis.io/veli/agentic-access/veli-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/veli-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/security/veli-domain-security.yml
+  href: https://artifacts.apis.io/veli/security/veli-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/veli-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/authentication/veli-authentication.yml
+  href: https://artifacts.apis.io/veli/authentication/veli-authentication.yml
   title: ''
   type: Authentication
   url: authentication/veli-authentication.yml
@@ -137,12 +136,12 @@ common:
   type: Documentation
   url: https://veli.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/rules/veli-spectral-rules.yml
+  href: https://artifacts.apis.io/veli/rules/veli-spectral-rules.yml
   title: Veli API Spectral Rules
   type: SpectralRules
   url: rules/veli-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/vocabulary/veli-vocabulary.yml
+  href: https://artifacts.apis.io/veli/vocabulary/veli-vocabulary.yml
   title: Veli Vocabulary
   type: Vocabulary
   url: vocabulary/veli-vocabulary.yml
@@ -189,7 +188,7 @@ finops:
 - has_sources: false
   method: generated
   name: Veli Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: veli-finops
   template: true
@@ -261,7 +260,7 @@ plans:
 - name: Veli Plans Pricing
   plan_count: 3
   slug: veli-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Veli Rate Limits
@@ -292,7 +291,7 @@ rules:
   slug: veli-spectral-rules
 score:
   band: emerging
-  composite: 24.1
+  composite: 24.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 59.0
@@ -300,7 +299,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
@@ -308,7 +307,7 @@ score:
     developer_ergonomics: 33.3
     discoverability: 62.5
     operational_transparency: 7.9
-  previous_composite: 25.6
+  previous_composite: 24.8
   provenance:
     agentic_access: derived
     contracts:
@@ -322,13 +321,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/screenshots/veli-2026-06-20T200905.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/veli/veli-2026-06-20T200905.png
 security:
 - kind: authentication
   name: Veli Authentication

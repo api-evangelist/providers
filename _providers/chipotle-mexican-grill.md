@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 20
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chipotle-mexican-grill/refs/heads/main/security/chipotle-mexican-grill-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/chipotle-mexican-grill/security/chipotle-mexican-grill-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/chipotle-mexican-grill-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chipotle-mexican-grill/refs/heads/main/security/chipotle-mexican-grill-domain-security.yml
+  href: https://artifacts.apis.io/chipotle-mexican-grill/security/chipotle-mexican-grill-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chipotle-mexican-grill-domain-security.yml
@@ -170,10 +172,10 @@ press:
 - date: ''
   title: Tyler Hallam's Post
   url: https://www.linkedin.com/posts/tyler-hallam-a385083a_seems-like-every-month-theres-a-press-release-activity-7261723721080463361-jPoZ
-random_paper: 3
+random_paper: 17
 score:
-  band: minimal
-  composite: 10.1
+  band: emerging
+  composite: 11.9
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -187,8 +189,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 49.1
-    operational_transparency: 2.6
+    discoverability: 50.0
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -196,21 +198,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 10.1
+  previous_composite: 11.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/chipotle-mexican-grill/refs/heads/main/screenshots/chipotle-mexican-grill-2026-06-20T174318.png
+screenshot: https://apis.io/screenshots/chipotle-mexican-grill/chipotle-mexican-grill-2026-06-20T174318.png
 security:
 - kind: domain-security
   name: Chipotle Mexican Grill Domain Security

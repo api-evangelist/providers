@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -36,25 +38,25 @@ apis:
 - description: API for CodeRifts platform providing verification and compliance endpoints.
   name: CodeRifts API
   slug: coderifts-api
-artifact_total: 9
+artifact_total: 11
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/agentic-access/coderifts-agentic-access.yml
+  href: https://artifacts.apis.io/coderifts/agentic-access/coderifts-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/coderifts-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/plans/coderifts-plans-pricing.yml
+  href: https://artifacts.apis.io/coderifts/plans/coderifts-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/coderifts-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/rules/coderifts-rules.yml
+  href: https://artifacts.apis.io/coderifts/rules/coderifts-rules.yml
   title: ''
   type: Spectral
   url: rules/coderifts-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/vocabulary/coderifts-vocabulary.yml
+  href: https://artifacts.apis.io/coderifts/vocabulary/coderifts-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/coderifts-vocabulary.yml
@@ -63,62 +65,62 @@ common:
   type: Compliance
   url: https://coderifts.com/trust-center/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/security/coderifts-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/coderifts/security/coderifts-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/coderifts-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/errors/coderifts-problem-types.yml
+  href: https://artifacts.apis.io/coderifts/errors/coderifts-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/coderifts-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/conformance/coderifts-conformance.yml
+  href: https://artifacts.apis.io/coderifts/conformance/coderifts-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coderifts-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/llms/coderifts-llms.txt
+  href: https://artifacts.apis.io/coderifts/llms/coderifts-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/coderifts-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/a2a/coderifts-a2a.yml
+  href: https://artifacts.apis.io/coderifts/a2a/coderifts-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/coderifts-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/mcp/coderifts-mcp.yml
+  href: https://artifacts.apis.io/coderifts/mcp/coderifts-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/coderifts-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/well-known/coderifts-security.txt
+  href: https://artifacts.apis.io/coderifts/well-known/coderifts-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/coderifts-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/well-known/coderifts-well-known.yml
+  href: https://artifacts.apis.io/coderifts/well-known/coderifts-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/coderifts-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/hosts/coderifts-hosts.yml
+  href: https://artifacts.apis.io/coderifts/hosts/coderifts-hosts.yml
   title: ''
   type: Hosts
   url: hosts/coderifts-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/vendors/coderifts-vendors.yml
+  href: https://artifacts.apis.io/coderifts/vendors/coderifts-vendors.yml
   title: ''
   type: Vendors
   url: vendors/coderifts-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/packages/coderifts-packages.yml
+  href: https://artifacts.apis.io/coderifts/packages/coderifts-packages.yml
   title: ''
   type: SDKs
   url: packages/coderifts-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/packages/coderifts-packages.yml
+  href: https://artifacts.apis.io/coderifts/packages/coderifts-packages.yml
   title: ''
   type: Packages
   url: packages/coderifts-packages.yml
@@ -151,22 +153,22 @@ common:
   type: APIReference
   url: https://app.coderifts.com/api/docs
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/authentication/coderifts-authentication.yml
+  href: https://artifacts.apis.io/coderifts/authentication/coderifts-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coderifts-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/security/coderifts-trust-center.yml
+  href: https://artifacts.apis.io/coderifts/security/coderifts-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/coderifts-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/security/coderifts-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/coderifts/security/coderifts-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/coderifts-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/security/coderifts-domain-security.yml
+  href: https://artifacts.apis.io/coderifts/security/coderifts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coderifts-domain-security.yml
@@ -192,6 +194,14 @@ common:
   url: https://coderifts.com/blog/
 created: '2026-10-16'
 description: CodeRifts provides a platform for verifying and documenting AI-driven actions. It offers a guarded tool table, action verification APIs, and detailed documentation for developers to integrate provenance and compliance checks into their workflows. The service includes a web interface, API endpoints, pricing plans, and open-source tooling to ensure transparent decision-making for AI agents.
+finops:
+- has_sources: true
+  method: derived
+  name: Coderifts Finops
+  primary_unit: seat
+  service_category: ''
+  slug: coderifts-finops
+  template: false
 image: https://coderifts.com/assets/brand/og-template.png
 layout: provider
 mcp_servers:
@@ -213,7 +223,10 @@ plans:
 - name: Coderifts Plans Pricing
   plan_count: 3
   slug: coderifts-plans-pricing
-random_paper: 17
+- name: Coderifts Price Estimates
+  plan_count: 0
+  slug: coderifts-price-estimates
+random_paper: 3
 rules:
 - authorship: generated
   effective_rule_count: 46
@@ -229,21 +242,23 @@ rules:
   slug: coderifts-rules
 score:
   band: developing
-  composite: 46.3
+  composite: 46.8
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 54.8
+    artifact_dirs: 18
+    catalog_earned: 57.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 22.0
     contract_quality: 0.0
     developer_ergonomics: 54.8
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 31.6
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +269,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

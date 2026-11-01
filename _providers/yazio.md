@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,20 +37,29 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
-- group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yazio/refs/heads/main/plans/yazio-plans-pricing.yml
+- group: other
+  href: https://artifacts.apis.io/yazio/hosts/yazio-hosts.yml
   title: ''
-  type: Plans
-  url: plans/yazio-plans-pricing.yml
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yazio/refs/heads/main/rate-limits/yazio-rate-limits.yml
+  type: Hosts
+  url: hosts/yazio-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/yazio/integrations/yazio-integration-edges.yml
   title: ''
-  type: RateLimits
-  url: rate-limits/yazio-rate-limits.yml
+  type: IntegrationEdges
+  url: integrations/yazio-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/yazio/vendors/yazio-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/yazio-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.yazio.com/en/press
 - group: company
   title: ''
   type: Blog
@@ -77,27 +88,17 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/yazio
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yazio/refs/heads/main/llms/yazio-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/yazio-llms.txt
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yazio/refs/heads/main/packages/yazio-packages.yml
-  title: ''
-  type: Packages
-  url: packages/yazio-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yazio/refs/heads/main/security/yazio-domain-security.yml
+  href: https://artifacts.apis.io/yazio/security/yazio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yazio-domain-security.yml
 coverage:
-  checked: '2026-08-27'
+  checked: '2026-10-20'
   detail: YAZIO's only API is the undocumented private backend at yzapi.yazio.com that its own apps call — it answers 401 with an empty body to anonymous requests, issues OAuth client credentials through no public process, is linked from nowhere on yazio.com, and every OpenAPI, SDK and MCP server for it is third-party reverse-engineering whose own README states YAZIO does not publish, endorse or support it.
   evidence:
-  - status: 401
-    url: https://yzapi.yazio.com/v15/user
+  - status: 404
+    url: https://yzapi.yazio.com/
   - status: 404
     url: https://www.yazio.com/en/developers
   - status: 404
@@ -123,29 +124,29 @@ plans:
 - name: Yazio Plans Pricing
   plan_count: 0
   slug: yazio-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Yazio Rate Limits
   slug: yazio-rate-limits
 score:
   band: emerging
-  composite: 13.2
+  composite: 13.8
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 15
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 48.2
-    operational_transparency: 2.6
+    discoverability: 50.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -154,7 +155,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 12.7
+  previous_composite: 13.8
   provenance:
     mcp: derived
   regulatory:
@@ -163,14 +164,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/yazio/refs/heads/main/screenshots/yazio-2026-09-02T171238.png
+screenshot: https://apis.io/screenshots/yazio/yazio-2026-09-02T171238.png
 security:
 - kind: authentication
   name: Yazio Authentication

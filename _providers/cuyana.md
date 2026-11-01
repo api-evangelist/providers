@@ -24,21 +24,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-10-17'
+  score: 14.2
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuyana/refs/heads/main/security/cuyana-domain-security.yml
+  href: https://artifacts.apis.io/cuyana/security/cuyana-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cuyana-domain-security.yml
@@ -67,22 +69,22 @@ common:
   type: PrivacyPolicy
   url: https://cuyana.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cuyana/refs/heads/main/well-known/cuyana-well-known.yml
+  href: https://artifacts.apis.io/cuyana/well-known/cuyana-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cuyana-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cuyana/refs/heads/main/mcp/cuyana-mcp.yml
+  href: https://artifacts.apis.io/cuyana/mcp/cuyana-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cuyana-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuyana/refs/heads/main/authentication/cuyana-authentication.yml
+  href: https://artifacts.apis.io/cuyana/authentication/cuyana-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cuyana-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuyana/refs/heads/main/scopes/cuyana-scopes.yml
+  href: https://artifacts.apis.io/cuyana/scopes/cuyana-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cuyana-scopes.yml
@@ -102,7 +104,7 @@ overview: 'Cuyana is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cuyana''s developer surface includes support, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 3
+random_paper: 17
 scopes:
 - name: Cuyana Scopes
   scope_count: 4
@@ -110,7 +112,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 16.6
+  composite: 17.6
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -120,11 +122,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 51.7
+    discoverability: 48.3
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -133,7 +135,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 16.6
+  previous_composite: 17.6
   provenance:
     mcp: first-party
   regulatory:
@@ -142,14 +144,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cuyana/refs/heads/main/screenshots/cuyana-2026-08-07T164003.png
+screenshot: https://apis.io/screenshots/cuyana/cuyana-2026-08-07T164003.png
 security:
 - kind: authentication
   name: Cuyana Authentication

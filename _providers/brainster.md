@@ -14,26 +14,28 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brainster/refs/heads/main/hosts/brainster-hosts.yml
+  href: https://artifacts.apis.io/brainster/hosts/brainster-hosts.yml
   title: ''
   type: Hosts
   url: hosts/brainster-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brainster/refs/heads/main/vendors/brainster-vendors.yml
+  href: https://artifacts.apis.io/brainster/vendors/brainster-vendors.yml
   title: ''
   type: Vendors
   url: vendors/brainster-vendors.yml
@@ -46,7 +48,7 @@ common:
   type: Blog
   url: https://blog.brainster.co/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brainster/refs/heads/main/security/brainster-domain-security.yml
+  href: https://artifacts.apis.io/brainster/security/brainster-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brainster-domain-security.yml
@@ -70,11 +72,11 @@ modified: '2026-10-03'
 name: Brainster
 nav: Providers
 network: true
-overview: 'Brainster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include EdTech, Artificial Intelligence, OnlineEducation, Macedonia, and Training.
+overview: 'Brainster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include EdTech, Artificial Intelligence, Online Education, Macedonia, and Training.
 
 
   Brainster''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 2
+random_paper: 10
 score:
   band: minimal
   composite: 6.0
@@ -102,8 +104,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 9.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
@@ -118,7 +120,7 @@ slug: brainster
 tags:
 - EdTech
 - Artificial Intelligence
-- OnlineEducation
+- Online Education
 - Macedonia
 - Training
 website: https://ai.brainster.co

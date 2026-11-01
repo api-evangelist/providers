@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.9
-  scored_at: '2026-10-17'
+  score: 34.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.moosend.com/v3
@@ -56,29 +58,29 @@ apis:
   description: The Subscribers API from Moosend — 11 operation(s) for subscribers.
   name: Moosend Subscribers API
   slug: moosend-subscribers-api
-artifact_total: 13
+artifact_total: 17
 collections:
 - collection_type: open
   name: Moosend API
   slug: open-moosend
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/capabilities/moosend-capability-edges.yml
+  href: https://artifacts.apis.io/moosend/capabilities/moosend-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/moosend-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/authentication/moosend-authentication.yml
+  href: https://artifacts.apis.io/moosend/authentication/moosend-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moosend-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/security/moosend-trust-center.yml
+  href: https://artifacts.apis.io/moosend/security/moosend-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/moosend-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/security/moosend-domain-security.yml
+  href: https://artifacts.apis.io/moosend/security/moosend-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moosend-domain-security.yml
@@ -147,77 +149,77 @@ common:
   type: X
   url: https://x.com/moosend
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/plans/moosend-plans-pricing.yml
+  href: https://artifacts.apis.io/moosend/plans/moosend-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/moosend-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/rate-limits/moosend-rate-limits.yml
+  href: https://artifacts.apis.io/moosend/rate-limits/moosend-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/moosend-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/finops/moosend-finops.yml
+  href: https://artifacts.apis.io/moosend/finops/moosend-finops.yml
   title: ''
   type: FinOps
   url: finops/moosend-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/json-ld/moosend-context.jsonld
+  href: https://artifacts.apis.io/moosend/json-ld/moosend-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/moosend-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/packages/moosend-packages.yml
+  href: https://artifacts.apis.io/moosend/packages/moosend-packages.yml
   title: ''
   type: Packages
   url: packages/moosend-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/packages/moosend-packages.yml
+  href: https://artifacts.apis.io/moosend/packages/moosend-packages.yml
   title: ''
   type: SDKs
   url: packages/moosend-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/llms/moosend-llms.txt
+  href: https://artifacts.apis.io/moosend/llms/moosend-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moosend-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/mcp/moosend-mcp.yml
+  href: https://artifacts.apis.io/moosend/mcp/moosend-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/moosend-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/moosend/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/conventions/moosend-conventions.yml
+  href: https://artifacts.apis.io/moosend/conventions/moosend-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moosend-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/errors/moosend-problem-types.yml
+  href: https://artifacts.apis.io/moosend/errors/moosend-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/moosend-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/lifecycle/moosend-lifecycle.yml
+  href: https://artifacts.apis.io/moosend/lifecycle/moosend-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moosend-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/data-model/moosend-data-model.yml
+  href: https://artifacts.apis.io/moosend/data-model/moosend-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moosend-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/components/moosend-components.yml
+  href: https://artifacts.apis.io/moosend/components/moosend-components.yml
   title: ''
   type: Components
   url: components/moosend-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/conformance/moosend-conformance.yml
+  href: https://artifacts.apis.io/moosend/conformance/moosend-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moosend-conformance.yml
@@ -226,7 +228,7 @@ common:
   type: Compliance
   url: https://moosend.com/trust/compliance/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/security/moosend-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/moosend/security/moosend-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/moosend-vulnerability-disclosure.yml
@@ -235,20 +237,20 @@ common:
   type: Security
   url: https://moosend.com/privacy-policy/disclosure/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/overlays/moosend-openapi-overlay.yaml
+  href: https://artifacts.apis.io/moosend/overlays/moosend-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moosend-openapi-overlay.yaml
 created: '2026-06-13'
 description: Moosend is an email marketing and automation platform with a REST API for managing mailing lists, campaigns, subscribers, automations, and tracking email performance metrics. The API uses HTTPS with API key authentication and provides programmatic access to email lists, subscriber management, campaign creation and scheduling, audience segmentation, transactional emails, and real-time reporting.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Moosend Finops
-  primary_unit: ''
+  primary_unit: 350,000 email credits
   service_category: ''
   slug: moosend-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moosend.png
 jsonld:
 - class_count: 20
@@ -269,32 +271,32 @@ overview: 'Moosend publishes 4 API contracts indexed on the [APIs.io](https://ap
   Moosend''s developer surface includes authentication, documentation, API reference, support, signup flow, engineering blog, pricing, and 32 more developer resources.'
 plans:
 - name: Moosend Plans Pricing
-  plan_count: 5
+  plan_count: 7
   slug: moosend-plans-pricing
-random_paper: 9
+random_paper: 13
 rate_limits:
 - limit_count: 10
   name: Moosend Rate Limits
   slug: moosend-rate-limits
 score:
   band: strong
-  composite: 60.5
+  composite: 62.0
   coverage:
     artifact_dirs: 25
-    catalog_earned: 69.0
+    catalog_earned: 72.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 46.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 55.0
-    developer_ergonomics: 50.6
-    discoverability: 73.2
-    operational_transparency: 60.5
-  previous_composite: 62.1
+    developer_ergonomics: 54.2
+    discoverability: 66.1
+    operational_transparency: 63.2
+  previous_composite: 60.4
   provenance:
     conformance: derived
     contracts:
@@ -310,13 +312,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/screenshots/moosend-2026-06-20T185801.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/moosend/moosend-2026-06-20T185801.png
 security:
 - kind: authentication
   name: Moosend Authentication
@@ -334,6 +337,16 @@ security:
   name: Moosend Trust Center
   slug: moosend-trust-center
   summary_line: ISO 27001, Certified Senders Alliance (CSA), GDPR, NIST SP 800-171, PCI DSS
+skill_count: 4
+skills:
+- name: Create, test and send a Moosend campaign
+  slug: moosend-create-test-and-send-a-campaign
+- name: Grow a Moosend mailing list
+  slug: moosend-grow-a-mailing-list
+- name: Report on Moosend campaign performance
+  slug: moosend-report-on-campaign-performance
+- name: Segment a Moosend audience
+  slug: moosend-segment-an-audience
 slug: moosend
 tags:
 - Email Marketing

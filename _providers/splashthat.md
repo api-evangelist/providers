@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.splashthat.com
@@ -52,12 +54,12 @@ collections:
   slug: postman-splashthat-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/splashthat/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/splashthat/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -66,7 +68,7 @@ common:
   type: Website
   url: https://splashthat.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/security/splashthat-domain-security.yml
+  href: https://artifacts.apis.io/splashthat/security/splashthat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/splashthat-domain-security.yml
@@ -115,7 +117,7 @@ common:
   type: APIReference
   url: https://api-docs.splashthat.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/postman/splashthat-api.postman_collection.json
+  href: https://artifacts.apis.io/splashthat/postman/splashthat-api.postman_collection.json
   title: ''
   type: Postman
   url: postman/splashthat-api.postman_collection.json
@@ -124,65 +126,65 @@ common:
   type: GitHubOrganization
   url: https://github.com/SplashThat
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/authentication/splashthat-authentication.yml
+  href: https://artifacts.apis.io/splashthat/authentication/splashthat-authentication.yml
   title: ''
   type: Authentication
   url: authentication/splashthat-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/scopes/splashthat-scopes.yml
+  href: https://artifacts.apis.io/splashthat/scopes/splashthat-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/splashthat-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/conventions/splashthat-conventions.yml
+  href: https://artifacts.apis.io/splashthat/conventions/splashthat-conventions.yml
   title: ''
   type: Conventions
   url: conventions/splashthat-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/errors/splashthat-problem-types.yml
+  href: https://artifacts.apis.io/splashthat/errors/splashthat-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/splashthat-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/data-model/splashthat-data-model.yml
+  href: https://artifacts.apis.io/splashthat/data-model/splashthat-data-model.yml
   title: ''
   type: DataModel
   url: data-model/splashthat-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/lifecycle/splashthat-lifecycle.yml
+  href: https://artifacts.apis.io/splashthat/lifecycle/splashthat-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/splashthat-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/conformance/splashthat-conformance.yml
+  href: https://artifacts.apis.io/splashthat/conformance/splashthat-conformance.yml
   title: ''
   type: Conformance
   url: conformance/splashthat-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/packages/splashthat-packages.yml
+  href: https://artifacts.apis.io/splashthat/packages/splashthat-packages.yml
   title: ''
   type: Packages
   url: packages/splashthat-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/mcp/splashthat-mcp.yml
+  href: https://artifacts.apis.io/splashthat/mcp/splashthat-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/splashthat-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/asyncapi/splashthat-webhooks.yml
+  href: https://artifacts.apis.io/splashthat/asyncapi/splashthat-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/splashthat-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/llms/splashthat-llms.txt
+  href: https://artifacts.apis.io/splashthat/llms/splashthat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/splashthat-llms.txt
 created: '2026-06-13'
 description: Splash is an event marketing platform that helps companies market, manage, and measure their live, virtual, and hybrid event programs. The Splash REST API enables brands and agencies to programmatically manage events, handle guest registration, process check-in, and pull event analytics. API access uses OAuth 2.0 client credentials and covers resources such as events, group contacts (guests), contacts, and ticketing.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Finops
   primary_unit: ''
   service_category: ''
@@ -210,7 +212,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -222,7 +224,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 46.8
+  composite: 47.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 60.0
@@ -230,15 +232,15 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 53.2
     developer_ergonomics: 40.0
-    discoverability: 67.0
-    operational_transparency: 21.1
-  previous_composite: 48.3
+    discoverability: 67.9
+    operational_transparency: 23.7
+  previous_composite: 47.2
   provenance:
     conformance: derived
     mcp: derived
@@ -248,14 +250,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/screenshots/splashthat-2026-06-20T194323.png
+screenshot: https://apis.io/screenshots/splashthat/splashthat-2026-06-20T194323.png
 security:
 - kind: authentication
   name: Splashthat Authentication

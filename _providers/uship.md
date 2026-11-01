@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - description: 'The core uShip marketplace API — a RESTful, hypermedia-driven JSON API over the shipment lifecycle: searching active listings, creating and retrieving listings by commodity category, bids and bid acce'
@@ -69,7 +71,7 @@ asyncapis:
   slug: uship-notifications-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/security/uship-domain-security.yml
+  href: https://artifacts.apis.io/uship/security/uship-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uship-domain-security.yml
@@ -130,52 +132,52 @@ common:
   type: StatusPage
   url: https://uship.statuspage.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/llms/uship-llms.txt
+  href: https://artifacts.apis.io/uship/llms/uship-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uship-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/authentication/uship-authentication.yml
+  href: https://artifacts.apis.io/uship/authentication/uship-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uship-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/conventions/uship-conventions.yml
+  href: https://artifacts.apis.io/uship/conventions/uship-conventions.yml
   title: ''
   type: Conventions
   url: conventions/uship-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/errors/uship-problem-types.yml
+  href: https://artifacts.apis.io/uship/errors/uship-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/uship-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/lifecycle/uship-lifecycle.yml
+  href: https://artifacts.apis.io/uship/lifecycle/uship-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/uship-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/conformance/uship-conformance.yml
+  href: https://artifacts.apis.io/uship/conformance/uship-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uship-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/data-model/uship-data-model.yml
+  href: https://artifacts.apis.io/uship/data-model/uship-data-model.yml
   title: ''
   type: DataModel
   url: data-model/uship-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/packages/uship-packages.yml
+  href: https://artifacts.apis.io/uship/packages/uship-packages.yml
   title: ''
   type: Packages
   url: packages/uship-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/asyncapi/uship-notifications-webhooks.yml
+  href: https://artifacts.apis.io/uship/asyncapi/uship-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/uship-notifications-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/sandbox/uship-sandbox.yml
+  href: https://artifacts.apis.io/uship/sandbox/uship-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/uship-sandbox.yml
@@ -195,10 +197,10 @@ overview: 'uShip is listed with 8 APIs on the [APIs.io](https://apis.io/) networ
 
 
   uShip''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 18 more developer resources.'
-random_paper: 3
+random_paper: 1
 score:
-  band: thin
-  composite: 37.2
+  band: developing
+  composite: 44.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 40.0
@@ -206,14 +208,14 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 26.2
-    discoverability: 78.6
-    operational_transparency: 26.3
+    developer_ergonomics: 64.3
+    discoverability: 71.4
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -221,7 +223,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 37.1
+  previous_composite: 44.4
   provenance:
     conformance: derived
   regulatory:
@@ -230,14 +232,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/screenshots/uship-2026-08-17T082657.png
+screenshot: https://apis.io/screenshots/uship/uship-2026-08-17T082657.png
 security:
 - kind: authentication
   name: Uship Authentication

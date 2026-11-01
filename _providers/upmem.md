@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,42 +59,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/upmem
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/upmem/refs/heads/main/packages/upmem-packages.yml
+  href: https://artifacts.apis.io/upmem/packages/upmem-packages.yml
   title: ''
   type: Packages
   url: packages/upmem-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/upmem/refs/heads/main/packages/upmem-packages.yml
+  href: https://artifacts.apis.io/upmem/packages/upmem-packages.yml
   title: ''
   type: SDKs
   url: packages/upmem-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/upmem/refs/heads/main/cli/upmem-cli.yml
+  href: https://artifacts.apis.io/upmem/cli/upmem-cli.yml
   title: ''
   type: CLI
   url: cli/upmem-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/upmem/refs/heads/main/sandbox/upmem-sandbox.yml
+  href: https://artifacts.apis.io/upmem/sandbox/upmem-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/upmem-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upmem/refs/heads/main/lifecycle/upmem-lifecycle.yml
+  href: https://artifacts.apis.io/upmem/lifecycle/upmem-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/upmem-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/upmem/refs/heads/main/changelog/upmem-changelog.yml
+  href: https://artifacts.apis.io/upmem/changelog/upmem-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/upmem-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upmem/refs/heads/main/llms/upmem-llms.txt
+  href: https://artifacts.apis.io/upmem/llms/upmem-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/upmem-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upmem/refs/heads/main/security/upmem-domain-security.yml
+  href: https://artifacts.apis.io/upmem/security/upmem-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upmem-domain-security.yml
@@ -111,7 +113,7 @@ overview: 'Upmem is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 20
 score:
   band: emerging
-  composite: 16.1
+  composite: 15.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -119,28 +121,28 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 55.4
-    operational_transparency: 18.4
+    discoverability: 48.2
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - france
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 16.0
+  previous_composite: 15.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

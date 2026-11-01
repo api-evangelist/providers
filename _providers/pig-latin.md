@@ -4,6 +4,6 @@ layout: provider
 name: pig-latin
 nav: Providers
 network: true
-random_paper: 21
+random_paper: 13
 slug: pig-latin
 ---

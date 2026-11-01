@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 0
@@ -712,15 +714,12 @@ apis:
     question: Which offers failed to sync from Mirakl into Shopify?
   phrasing_ops: 14
   slug: mirakl-synchronization-errors-api
-artifact_total: 63
+artifact_total: 66
 asyncapis:
 - description: ''
   name: Mirakl Webhooks
   slug: mirakl-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Mirakl Connect Channel Platform APIs Carriers API
   slug: open-mirakl-carriers-api
@@ -780,42 +779,42 @@ collections:
   slug: open-mirakl-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/capabilities/mirakl-capability-edges.yml
+  href: https://artifacts.apis.io/mirakl/capabilities/mirakl-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mirakl-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/overlays/mirakl-connect-overlay.yaml
+  href: https://artifacts.apis.io/mirakl/overlays/mirakl-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mirakl-connect-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/overlays/mirakl-connect-channel-overlay.yaml
+  href: https://artifacts.apis.io/mirakl/overlays/mirakl-connect-channel-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mirakl-connect-channel-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/overlays/mirakl-account-channel-platform-overlay.yaml
+  href: https://artifacts.apis.io/mirakl/overlays/mirakl-account-channel-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mirakl-account-channel-platform-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/overlays/mirakl-mmp-front-overlay.yaml
+  href: https://artifacts.apis.io/mirakl/overlays/mirakl-mmp-front-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mirakl-mmp-front-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/overlays/mirakl-mcm-front-overlay.yaml
+  href: https://artifacts.apis.io/mirakl/overlays/mirakl-mcm-front-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mirakl-mcm-front-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/overlays/mirakl-mms-front-overlay.yaml
+  href: https://artifacts.apis.io/mirakl/overlays/mirakl-mms-front-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mirakl-mms-front-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/overlays/mirakl-shopify-operator-connector-overlay.yaml
+  href: https://artifacts.apis.io/mirakl/overlays/mirakl-shopify-operator-connector-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mirakl-shopify-operator-connector-overlay.yaml
@@ -868,67 +867,67 @@ common:
   type: StatusPage
   url: https://status.mirakl.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/authentication/mirakl-authentication.yml
+  href: https://artifacts.apis.io/mirakl/authentication/mirakl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mirakl-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/scopes/mirakl-scopes.yml
+  href: https://artifacts.apis.io/mirakl/scopes/mirakl-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mirakl-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/conventions/mirakl-conventions.yml
+  href: https://artifacts.apis.io/mirakl/conventions/mirakl-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mirakl-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/errors/mirakl-problem-types.yml
+  href: https://artifacts.apis.io/mirakl/errors/mirakl-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mirakl-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/data-model/mirakl-data-model.yml
+  href: https://artifacts.apis.io/mirakl/data-model/mirakl-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mirakl-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/lifecycle/mirakl-lifecycle.yml
+  href: https://artifacts.apis.io/mirakl/lifecycle/mirakl-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mirakl-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/packages/mirakl-packages.yml
+  href: https://artifacts.apis.io/mirakl/packages/mirakl-packages.yml
   title: ''
   type: Packages
   url: packages/mirakl-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/packages/mirakl-packages.yml
+  href: https://artifacts.apis.io/mirakl/packages/mirakl-packages.yml
   title: ''
   type: SDKs
   url: packages/mirakl-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/mcp/mirakl-mcp.yml
+  href: https://artifacts.apis.io/mirakl/mcp/mirakl-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mirakl-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/well-known/mirakl-well-known.yml
+  href: https://artifacts.apis.io/mirakl/well-known/mirakl-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mirakl-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/llms/mirakl-llms.txt
+  href: https://artifacts.apis.io/mirakl/llms/mirakl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mirakl-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/overlays/mirakl-mmp-seller-overlay.yaml
+  href: https://artifacts.apis.io/mirakl/overlays/mirakl-mmp-seller-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mirakl-mmp-seller-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/conformance/mirakl-conformance.yml
+  href: https://artifacts.apis.io/mirakl/conformance/mirakl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mirakl-conformance.yml
@@ -937,27 +936,27 @@ common:
   type: Compliance
   url: https://www.mirakl.com/why-mirakl/technology
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/security/mirakl-trust-center.yml
+  href: https://artifacts.apis.io/mirakl/security/mirakl-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mirakl-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/security/mirakl-domain-security.yml
+  href: https://artifacts.apis.io/mirakl/security/mirakl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mirakl-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/agentic-access/mirakl-agentic-access.yml
+  href: https://artifacts.apis.io/mirakl/agentic-access/mirakl-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mirakl-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/asyncapi/mirakl-webhooks.yml
+  href: https://artifacts.apis.io/mirakl/asyncapi/mirakl-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mirakl-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mirakl/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -966,22 +965,22 @@ common:
   type: Website
   url: https://www.mirakl.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/rate-limits/mirakl-rate-limits.yml
+  href: https://artifacts.apis.io/mirakl/rate-limits/mirakl-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mirakl-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/plans/mirakl-plans-pricing.yml
+  href: https://artifacts.apis.io/mirakl/plans/mirakl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mirakl-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/changelog/mirakl-changelog.yml
+  href: https://artifacts.apis.io/mirakl/changelog/mirakl-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mirakl-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/sandbox/mirakl-sandbox.yml
+  href: https://artifacts.apis.io/mirakl/sandbox/mirakl-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/mirakl-sandbox.yml
@@ -995,6 +994,14 @@ common:
   url: https://www.mirakl.com/products/connect/pricing/
 created: '2026-07-17'
 description: Mirakl is the global leader in platform business innovation, providing an operating system for commerce that lets retailers, brands, and B2B distributors launch and scale online marketplaces and dropship programs without holding inventory. The platform spans the Mirakl Marketplace Platform (MMP), Mirakl Platform for Services (MPS), the Mirakl Catalog Platform, Mirakl Connect for multichannel selling, Mirakl Ads retail media, and Mirakl Payout. Mirakl exposes extensive REST APIs (OpenAPI 3.1) for sellers/shops and operators covering orders, offers, products, catalog, invoicing, messaging, returns, and shipments, plus a Connect Channel Platform with push webhooks for offer, price/stock, product, order-action, and store events.
+finops:
+- has_sources: true
+  method: derived
+  name: Mirakl Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: mirakl-finops
+  template: false
 image: https://developer.mirakl.com/assets/favicon.4ab028206801f00ee2105fefa49d337d0d59395bb42860e0a6ab464c1729fe2d.930eac86.ico
 layout: provider
 mcp_servers:
@@ -1014,9 +1021,12 @@ overview: 'Mirakl publishes 34 API contracts indexed on the [APIs.io](https://ap
   Mirakl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 39 more developer resources.'
 plans:
 - name: Mirakl Plans Pricing
-  plan_count: 3
+  plan_count: 7
   slug: mirakl-plans-pricing
-random_paper: 2
+- name: Mirakl Price Estimates
+  plan_count: 0
+  slug: mirakl-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 478
   name: Mirakl Rate Limits
@@ -1028,23 +1038,28 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 72.6
+  composite: 69.3
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 55.0
+    artifact_dirs: 28
+    catalog_earned: 58.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 55.9
-    developer_ergonomics: 73.2
-    discoverability: 78.6
-    operational_transparency: 50.0
-  previous_composite: 72.5
+    contract_quality: 56.1
+    developer_ergonomics: 78.0
+    discoverability: 70.0
+    operational_transparency: 52.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 67.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1061,13 +1076,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/screenshots/mirakl-2026-08-07T183712.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mirakl/mirakl-2026-08-07T183712.png
 security:
 - kind: authentication
   name: Mirakl Authentication
@@ -1081,6 +1097,12 @@ security:
   name: Mirakl Trust Center
   slug: mirakl-trust-center
   summary_line: SOC 1 Type II, SOC 2 Type II, ISO/IEC 27001, ISO/IEC 27018, ISO 22301
+skill_count: 2
+skills:
+- name: Fulfill a Mirakl marketplace order
+  slug: mirakl-fulfill-order
+- name: Manage Mirakl shop offers
+  slug: mirakl-manage-offers
 slug: mirakl
 tags:
 - Company

@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-17'
+  score: 31.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -40,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: betgenius-agentic-access
   summary_line: 13 operations · 8 acting
-api_count: 6
+api_count: 3
 apis:
 - baseURL: https://dataservices.betgenius.com/BookingSystem
   baseurl_source: declared
@@ -62,54 +64,54 @@ apis:
   description: The regions API
   name: BetGenius Regions API
   slug: betgenius-regions-api
-artifact_total: 11
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Betgenius Event Surface
   slug: betgenius-event-surface
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/capabilities/betgenius-capability-edges.yml
+  href: https://artifacts.apis.io/betgenius/capabilities/betgenius-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/betgenius-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/overlays/betgenius-booking-v2-overlay.yaml
+  href: https://artifacts.apis.io/betgenius/overlays/betgenius-booking-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/betgenius-booking-v2-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/skills/betgenius-book-fixtures.md
+  href: https://artifacts.apis.io/betgenius/skills/betgenius-book-fixtures.md
   title: ''
   type: AgentSkill
   url: skills/betgenius-book-fixtures.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/overlays/betgenius-booking-v1-overlay.yaml
+  href: https://artifacts.apis.io/betgenius/overlays/betgenius-booking-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/betgenius-booking-v1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/overlays/betgenius-video-v3-overlay.yaml
+  href: https://artifacts.apis.io/betgenius/overlays/betgenius-video-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/betgenius-video-v3-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/skills/betgenius-stream-live-fixture.md
+  href: https://artifacts.apis.io/betgenius/skills/betgenius-stream-live-fixture.md
   title: ''
   type: AgentSkill
   url: skills/betgenius-stream-live-fixture.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/agentic-access/betgenius-agentic-access.yml
+  href: https://artifacts.apis.io/betgenius/agentic-access/betgenius-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/betgenius-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/authentication/betgenius-authentication.yml
+  href: https://artifacts.apis.io/betgenius/authentication/betgenius-authentication.yml
   title: ''
   type: Authentication
   url: authentication/betgenius-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/security/betgenius-domain-security.yml
+  href: https://artifacts.apis.io/betgenius/security/betgenius-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/betgenius-domain-security.yml
@@ -218,78 +220,86 @@ common:
   type: StatusPage
   url: https://status.geniussports.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/lifecycle/betgenius-lifecycle.yml
+  href: https://artifacts.apis.io/betgenius/lifecycle/betgenius-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/betgenius-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/conventions/betgenius-conventions.yml
+  href: https://artifacts.apis.io/betgenius/conventions/betgenius-conventions.yml
   title: ''
   type: Conventions
   url: conventions/betgenius-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/errors/betgenius-problem-types.yml
+  href: https://artifacts.apis.io/betgenius/errors/betgenius-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/betgenius-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/rate-limits/betgenius-rate-limits.yml
+  href: https://artifacts.apis.io/betgenius/rate-limits/betgenius-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/betgenius-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/plans/betgenius-plans-pricing.yml
+  href: https://artifacts.apis.io/betgenius/plans/betgenius-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/betgenius-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/scopes/betgenius-scopes.yml
+  href: https://artifacts.apis.io/betgenius/scopes/betgenius-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/betgenius-scopes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/sandbox/betgenius-sandbox.yml
+  href: https://artifacts.apis.io/betgenius/sandbox/betgenius-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/betgenius-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/conformance/betgenius-conformance.yml
+  href: https://artifacts.apis.io/betgenius/conformance/betgenius-conformance.yml
   title: ''
   type: Conformance
   url: conformance/betgenius-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/data-model/betgenius-data-model.yml
+  href: https://artifacts.apis.io/betgenius/data-model/betgenius-data-model.yml
   title: ''
   type: DataModel
   url: data-model/betgenius-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/components/betgenius-components.yml
+  href: https://artifacts.apis.io/betgenius/components/betgenius-components.yml
   title: ''
   type: Components
   url: components/betgenius-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/packages/betgenius-packages.yml
+  href: https://artifacts.apis.io/betgenius/packages/betgenius-packages.yml
   title: ''
   type: Packages
   url: packages/betgenius-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/asyncapi/betgenius-event-surface.yml
+  href: https://artifacts.apis.io/betgenius/asyncapi/betgenius-event-surface.yml
   title: ''
   type: Webhooks
   url: asyncapi/betgenius-event-surface.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/betgenius/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/llms/betgenius-llms.txt
+  href: https://artifacts.apis.io/betgenius/llms/betgenius-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/betgenius-llms.txt
 created: '2026-05-25'
 description: BetGenius is the sportsbook-operator brand of Genius Sports, a London- and New York-listed sports data, technology, and commercial-services group. Founded in 2000 and operating as a Genius Sports business unit since the 2015 corporate consolidation, BetGenius provides licensed sportsbooks with an end-to-end B2B platform spanning official data and odds feeds, fully managed trading and risk management (Genius Trading Services), low-latency live video and interactive in-play streaming (BetVision and Genius Live Player), BetBuilder same-game-parlay pricing, ScoreCentre widgets, acquisition and retention marketing (FANHub, media buying, dynamic creative optimisation), and back-office sportsbook platform services (used by operators such as OPAP, 888, Betway, and Hard Rock Bet). Genius Sports sources official data from 400+ league partners — including the NFL, English Premier League, Serie A, EuroLeague, and PGA Tour — and serves 300+ licensed sportsbooks across regulated markets worldwide.
   BetGenius itself does not expose a self-service developer portal; its APIs (Booking API, Fixtures API v2, Matching API v2, Warehouse REST/Streaming/Publish APIs, LiveStats In-Arena and Licensing APIs, BetVision and Live Player integration SDKs) are documented at developer.geniussports.com and delivered to contracted operators via UAT and production environments using API-key authentication.
+finops:
+- has_sources: true
+  method: derived
+  name: Betgenius Finops
+  primary_unit: ''
+  service_category: ''
+  slug: betgenius-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/betgenius.png
 layout: provider
 modified: '2026-08-13'
@@ -307,7 +317,7 @@ plans:
 - name: Betgenius Plans Pricing
   plan_count: 0
   slug: betgenius-plans-pricing
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Betgenius Rate Limits
@@ -319,23 +329,23 @@ scopes:
   summary_line: 10 scopes
 score:
   band: developing
-  composite: 45.1
+  composite: 46.2
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 51.5
     developer_ergonomics: 66.1
-    discoverability: 72.3
-    operational_transparency: 57.9
-  previous_composite: 45.0
+    discoverability: 73.2
+    operational_transparency: 60.5
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -352,13 +362,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/screenshots/betgenius-2026-06-20T173202.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/betgenius/betgenius-2026-06-20T173202.png
 security:
 - kind: authentication
   name: Betgenius Authentication
@@ -368,6 +379,14 @@ security:
   name: Betgenius Domain Security
   slug: betgenius-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Drive the BetVision in-play watchlist and betslip
+  slug: betgenius-betvision-watchlist
+- name: Book and un-book BetGenius fixtures
+  slug: betgenius-book-fixtures
+- name: Stream a live BetGenius fixture to a bettor
+  slug: betgenius-stream-live-fixture
 slug: betgenius
 tags:
 - Sportsbook

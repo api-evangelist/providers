@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/girnarsoft/refs/heads/main/security/girnarsoft-domain-security.yml
+  href: https://artifacts.apis.io/girnarsoft/security/girnarsoft-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/girnarsoft-domain-security.yml
@@ -95,7 +97,7 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/girnarsoft_stock/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/girnarsoft/refs/heads/main/conformance/girnarsoft-conformance.yml
+  href: https://artifacts.apis.io/girnarsoft/conformance/girnarsoft-conformance.yml
   title: ''
   type: Conformance
   url: conformance/girnarsoft-conformance.yml
@@ -104,12 +106,12 @@ common:
   type: Compliance
   url: https://www.girnarsoft.com/about.php
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/girnarsoft/refs/heads/main/packages/girnarsoft-packages.yml
+  href: https://artifacts.apis.io/girnarsoft/packages/girnarsoft-packages.yml
   title: ''
   type: Packages
   url: packages/girnarsoft-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/girnarsoft/refs/heads/main/llms/girnarsoft-llms.txt
+  href: https://artifacts.apis.io/girnarsoft/llms/girnarsoft-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/girnarsoft-llms.txt
@@ -125,10 +127,10 @@ overview: 'GirnarSoft is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   GirnarSoft''s developer surface includes engineering blog, support, and 16 more developer resources.'
-random_paper: 9
+random_paper: 7
 score:
   band: emerging
-  composite: 15.9
+  composite: 15.2
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -142,7 +144,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -151,7 +153,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 15.9
+  previous_composite: 15.2
   provenance:
     conformance: first-party
   regulatory:
@@ -160,14 +162,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/girnarsoft/refs/heads/main/screenshots/girnarsoft-2026-08-07T165725.png
+screenshot: https://apis.io/screenshots/girnarsoft/girnarsoft-2026-08-07T165725.png
 security:
 - kind: domain-security
   name: Girnarsoft Domain Security

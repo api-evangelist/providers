@@ -4,6 +4,6 @@ layout: provider
 name: archimate
 nav: Providers
 network: true
-random_paper: 18
+random_paper: 6
 slug: archimate
 ---

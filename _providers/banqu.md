@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.9
-  scored_at: '2026-10-17'
+  score: 19.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://banqu.app/api/v1
@@ -162,15 +164,12 @@ apis:
   description: Automation workflows for custom validations on any write API actions
   name: BanQu Validation Workflows API
   slug: banqu-validation-workflows-api
-artifact_total: 54
+artifact_total: 57
 asyncapis:
 - description: ''
   name: Banqu Webhooks
   slug: banqu-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: BanQu Asset Categories API
   slug: open-banqu-asset-categories-api
@@ -248,12 +247,12 @@ collections:
   slug: open-banqu-validation-workflows-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/capabilities/banqu-capability-edges.yml
+  href: https://artifacts.apis.io/banqu/capabilities/banqu-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/banqu-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/mcp/banqu-mcp.yml
+  href: https://artifacts.apis.io/banqu/mcp/banqu-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/banqu-mcp.yml
@@ -270,7 +269,7 @@ common:
   type: APIReference
   url: https://api.banqu.app/openapi
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/openapi/_original/banqu-openapi-original.json
+  href: https://artifacts.apis.io/banqu/openapi/_original/banqu-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/banqu-openapi-original.json
@@ -291,67 +290,67 @@ common:
   type: PrivacyPolicy
   url: https://www.banqu.co/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/authentication/banqu-authentication.yml
+  href: https://artifacts.apis.io/banqu/authentication/banqu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/banqu-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/conventions/banqu-conventions.yml
+  href: https://artifacts.apis.io/banqu/conventions/banqu-conventions.yml
   title: ''
   type: Conventions
   url: conventions/banqu-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/errors/banqu-problem-types.yml
+  href: https://artifacts.apis.io/banqu/errors/banqu-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/banqu-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/data-model/banqu-data-model.yml
+  href: https://artifacts.apis.io/banqu/data-model/banqu-data-model.yml
   title: ''
   type: DataModel
   url: data-model/banqu-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/conformance/banqu-conformance.yml
+  href: https://artifacts.apis.io/banqu/conformance/banqu-conformance.yml
   title: ''
   type: Conformance
   url: conformance/banqu-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/lifecycle/banqu-lifecycle.yml
+  href: https://artifacts.apis.io/banqu/lifecycle/banqu-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/banqu-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/overlays/banqu-openapi-overlay.yaml
+  href: https://artifacts.apis.io/banqu/overlays/banqu-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/banqu-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/asyncapi/banqu-webhooks.yml
+  href: https://artifacts.apis.io/banqu/asyncapi/banqu-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/banqu-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/banqu/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/packages/banqu-packages.yml
+  href: https://artifacts.apis.io/banqu/packages/banqu-packages.yml
   title: ''
   type: Packages
   url: packages/banqu-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/llms/banqu-llms.txt
+  href: https://artifacts.apis.io/banqu/llms/banqu-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/banqu-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/well-known/banqu-well-known.yml
+  href: https://artifacts.apis.io/banqu/well-known/banqu-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/banqu-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/security/banqu-domain-security.yml
+  href: https://artifacts.apis.io/banqu/security/banqu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/banqu-domain-security.yml
@@ -374,7 +373,7 @@ overview: 'BanQu publishes 25 API contracts indexed on the [APIs.io](https://api
 random_paper: 7
 score:
   band: thin
-  composite: 36.1
+  composite: 34.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -384,13 +383,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 56.6
+    contract_quality: 53.2
     developer_ergonomics: 37.5
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 36.1
+  previous_composite: 34.5
   provenance:
     conformance: derived
     contracts:
@@ -406,13 +405,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/screenshots/banqu-2026-08-07T162129.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/banqu/banqu-2026-08-07T162129.png
 security:
 - kind: authentication
   name: Banqu Authentication
@@ -422,6 +422,16 @@ security:
   name: Banqu Domain Security
   slug: banqu-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Authenticate and select a BanQu account
+  slug: banqu-authenticate-and-select-account
+- name: Collect and approve supplier form data
+  slug: banqu-collect-and-approve-supplier-form-data
+- name: Record a supplier purchase
+  slug: banqu-record-a-supplier-purchase
+- name: Trace an asset back to source
+  slug: banqu-trace-an-asset-to-source
 slug: banqu
 tags:
 - Supply Chain

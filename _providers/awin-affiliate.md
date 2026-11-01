@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -115,15 +117,12 @@ apis:
     question: How do I export every affiliate sale tracked for my advertiser account in a date range?
   phrasing_ops: 2
   slug: awin-affiliate-transactions-api
-artifact_total: 21
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Awin Affiliate Webhooks
   slug: awin-affiliate-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Awin Accounts API
   slug: open-awin-affiliate-accounts-api
@@ -143,23 +142,28 @@ collections:
   name: Awin API
   slug: open-awin-affiliate
 common:
+- group: other
+  href: https://artifacts.apis.io/awin-affiliate/capabilities/awin-affiliate-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/awin-affiliate-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/agentic-access/awin-affiliate-agentic-access.yml
+  href: https://artifacts.apis.io/awin-affiliate/agentic-access/awin-affiliate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/awin-affiliate-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/security/awin-affiliate-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/awin-affiliate/security/awin-affiliate-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/awin-affiliate-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/security/awin-affiliate-domain-security.yml
+  href: https://artifacts.apis.io/awin-affiliate/security/awin-affiliate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/awin-affiliate-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/authentication/awin-affiliate-authentication.yml
+  href: https://artifacts.apis.io/awin-affiliate/authentication/awin-affiliate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/awin-affiliate-authentication.yml
@@ -180,32 +184,32 @@ common:
   type: Authentication
   url: https://help.awin.com/apidocs/api-authentication
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/plans/awin-affiliate-plans-pricing.yml
+  href: https://artifacts.apis.io/awin-affiliate/plans/awin-affiliate-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/awin-affiliate-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/rate-limits/awin-affiliate-rate-limits.yml
+  href: https://artifacts.apis.io/awin-affiliate/rate-limits/awin-affiliate-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/awin-affiliate-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/finops/awin-affiliate-finops.yml
+  href: https://artifacts.apis.io/awin-affiliate/finops/awin-affiliate-finops.yml
   title: ''
   type: FinOps
   url: finops/awin-affiliate-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/packages/awin-affiliate-packages.yml
+  href: https://artifacts.apis.io/awin-affiliate/packages/awin-affiliate-packages.yml
   title: ''
   type: Packages
   url: packages/awin-affiliate-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/well-known/awin-affiliate-well-known.yml
+  href: https://artifacts.apis.io/awin-affiliate/well-known/awin-affiliate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/awin-affiliate-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/well-known/awin-affiliate-security.txt
+  href: https://artifacts.apis.io/awin-affiliate/well-known/awin-affiliate-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/awin-affiliate-security.txt
@@ -214,7 +218,7 @@ common:
   type: Security
   url: https://www.awin.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/security/awin-affiliate-trust-center.yml
+  href: https://artifacts.apis.io/awin-affiliate/security/awin-affiliate-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/awin-affiliate-trust-center.yml
@@ -223,27 +227,27 @@ common:
   type: Compliance
   url: https://www.awin.com/gb/legal/information-security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/conformance/awin-affiliate-conformance.yml
+  href: https://artifacts.apis.io/awin-affiliate/conformance/awin-affiliate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/awin-affiliate-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/llms/awin-affiliate-llms.txt
+  href: https://artifacts.apis.io/awin-affiliate/llms/awin-affiliate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/awin-affiliate-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/mcp/awin-affiliate-mcp.yml
+  href: https://artifacts.apis.io/awin-affiliate/mcp/awin-affiliate-mcp.yml
   title: ''
   type: MCP
   url: mcp/awin-affiliate-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/errors/awin-affiliate-problem-types.yml
+  href: https://artifacts.apis.io/awin-affiliate/errors/awin-affiliate-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/awin-affiliate-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/lifecycle/awin-affiliate-lifecycle.yml
+  href: https://artifacts.apis.io/awin-affiliate/lifecycle/awin-affiliate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/awin-affiliate-lifecycle.yml
@@ -252,12 +256,12 @@ common:
   type: StatusPage
   url: https://status.awin.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/conventions/awin-affiliate-conventions.yml
+  href: https://artifacts.apis.io/awin-affiliate/conventions/awin-affiliate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/awin-affiliate-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/changelog/awin-affiliate-changelog.yml
+  href: https://artifacts.apis.io/awin-affiliate/changelog/awin-affiliate-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/awin-affiliate-changelog.yml
@@ -266,17 +270,17 @@ common:
   type: ChangeLog
   url: https://www.awin.com/gb/product-releases
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/data-model/awin-affiliate-data-model.yml
+  href: https://artifacts.apis.io/awin-affiliate/data-model/awin-affiliate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/awin-affiliate-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/asyncapi/awin-affiliate-webhooks.yml
+  href: https://artifacts.apis.io/awin-affiliate/asyncapi/awin-affiliate-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/awin-affiliate-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/awin-affiliate/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -285,7 +289,7 @@ common:
   type: Console
   url: https://help.awin.com/apidocs/introduction-1
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/collections/awin-affiliate.postman_collection.json
+  href: https://artifacts.apis.io/awin-affiliate/collections/awin-affiliate.postman_collection.json
   title: ''
   type: Postman
   url: collections/awin-affiliate.postman_collection.json
@@ -341,10 +345,10 @@ created: '2026-07-05'
 description: Awin is a global affiliate marketing network connecting advertisers (brands) with publishers (content creators, cashback, voucher, and loyalty partners) across thousands of programmes worldwide. Awin exposes a documented public REST API at https://api.awin.com that lets both publishers and advertisers pull data such as individual transactions and aggregated performance reports, inspect commission groups and programme details, list the accounts a user can access, and generate tracking links and offers. All endpoints follow REST principles, return JSON, are served over HTTPS only, and authenticate with an OAuth 2.0 Bearer access token issued at the user level from the Awin UI (the Create Transactions API is the exception and uses an x-api-key). A platform-wide throttle limits requests to 20 API calls per minute per user.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Awin Affiliate Finops
-  primary_unit: ''
-  service_category: Marketing and Advertising
+  primary_unit: account
+  service_category: ''
   slug: awin-affiliate-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/awin-affiliate.png
@@ -359,35 +363,43 @@ overview: 'Awin publishes 5 API contracts indexed on the [APIs.io](https://apis.
   The Awin catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Awin''s developer surface includes authentication, documentation, changelog, developer console, API reference, getting-started guide, support, and 36 more developer resources.'
+  Awin''s developer surface includes authentication, documentation, changelog, developer console, API reference, getting-started guide, support, and 37 more developer resources.'
 plans:
 - name: Awin Affiliate Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: awin-affiliate-plans-pricing
-random_paper: 1
+- name: Awin Affiliate Price Estimates
+  plan_count: 0
+  slug: awin-affiliate-price-estimates
+random_paper: 17
 rate_limits:
 - limit_count: 6
   name: Awin Affiliate Rate Limits
   slug: awin-affiliate-rate-limits
 score:
   band: exemplar
-  composite: 68.5
+  composite: 70.4
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 61.0
+    artifact_dirs: 27
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 55.2
     developer_ergonomics: 67.3
-    discoverability: 73.2
-    operational_transparency: 78.9
-  previous_composite: 70.0
+    discoverability: 66.1
+    operational_transparency: 86.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 68.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -408,14 +420,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/screenshots/awin-affiliate-2026-07-25T202025.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/awin-affiliate/awin-affiliate-2026-07-25T202025.png
 security:
 - kind: authentication
   name: Awin Affiliate Authentication
@@ -433,6 +445,18 @@ security:
   name: Awin Affiliate Trust Center
   slug: awin-affiliate-trust-center
   summary_line: ISO 27001, GDPR
+skill_count: 5
+skills:
+- name: awin-advertiser-performance-reporting
+  slug: awin-affiliate-advertiser-performance-reporting
+- name: awin-advertiser-transaction-audit
+  slug: awin-affiliate-advertiser-transaction-audit
+- name: awin-programme-discovery
+  slug: awin-affiliate-programme-discovery
+- name: awin-publisher-performance-reporting
+  slug: awin-affiliate-publisher-performance-reporting
+- name: awin-publisher-transaction-reconciliation
+  slug: awin-affiliate-publisher-transaction-reconciliation
 slug: awin-affiliate
 tags:
 - Affiliate Marketing

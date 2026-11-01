@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.9
-  scored_at: '2026-10-17'
+  score: 43.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ arazzos:
 - description: Confirm a user's events, then permanently delete them with a secret key.
   name: GDPR right-to-be-forgotten
   slug: millimetric-gdpr-delete
-artifact_total: 16
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Millimetric Analytics Identity API
   slug: open-millimetric-identity-api
@@ -129,82 +128,82 @@ common:
   type: PrivacyPolicy
   url: https://millimetric.ai/legal/privacy
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/openapi/_original/millimetric-openapi.yml
+  href: https://artifacts.apis.io/millimetric/openapi/_original/millimetric-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/millimetric-openapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/mcp/millimetric-mcp.yml
+  href: https://artifacts.apis.io/millimetric/mcp/millimetric-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/millimetric-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/mcp/millimetric-tool-crosswalk.yml
+  href: https://artifacts.apis.io/millimetric/mcp/millimetric-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/millimetric-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/llms/millimetric-llms.txt
+  href: https://artifacts.apis.io/millimetric/llms/millimetric-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/millimetric-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/authentication/millimetric-authentication.yml
+  href: https://artifacts.apis.io/millimetric/authentication/millimetric-authentication.yml
   title: ''
   type: Authentication
   url: authentication/millimetric-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/agentic-access/millimetric-agentic-access.yml
+  href: https://artifacts.apis.io/millimetric/agentic-access/millimetric-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/millimetric-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/security/millimetric-domain-security.yml
+  href: https://artifacts.apis.io/millimetric/security/millimetric-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/millimetric-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/conventions/millimetric-conventions.yml
+  href: https://artifacts.apis.io/millimetric/conventions/millimetric-conventions.yml
   title: ''
   type: Conventions
   url: conventions/millimetric-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/conventions/millimetric-conventions.yml
+  href: https://artifacts.apis.io/millimetric/conventions/millimetric-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/millimetric-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/errors/millimetric-error-codes.yml
+  href: https://artifacts.apis.io/millimetric/errors/millimetric-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/millimetric-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/rate-limits/millimetric-rate-limits.yml
+  href: https://artifacts.apis.io/millimetric/rate-limits/millimetric-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/millimetric-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/plans/millimetric-plans.yml
+  href: https://artifacts.apis.io/millimetric/plans/millimetric-plans.yml
   title: ''
   type: Plans
   url: plans/millimetric-plans.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/lifecycle/millimetric-lifecycle.yml
+  href: https://artifacts.apis.io/millimetric/lifecycle/millimetric-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/millimetric-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/packages/millimetric-packages.yml
+  href: https://artifacts.apis.io/millimetric/packages/millimetric-packages.yml
   title: ''
   type: Packages
   url: packages/millimetric-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/packages/millimetric-packages.yml
+  href: https://artifacts.apis.io/millimetric/packages/millimetric-packages.yml
   title: ''
   type: SDKs
   url: packages/millimetric-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/conformance/millimetric-conformance.yml
+  href: https://artifacts.apis.io/millimetric/conformance/millimetric-conformance.yml
   title: ''
   type: Conformance
   url: conformance/millimetric-conformance.yml
@@ -213,37 +212,45 @@ common:
   type: Compliance
   url: https://millimetric.ai/legal/dpa
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/data-model/millimetric-data-model.yml
+  href: https://artifacts.apis.io/millimetric/data-model/millimetric-data-model.yml
   title: ''
   type: DataModel
   url: data-model/millimetric-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/overlays/millimetric-openapi-overlay.yaml
+  href: https://artifacts.apis.io/millimetric/overlays/millimetric-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/millimetric-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/millimetric/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/arazzo/millimetric-capture-and-analyze.yml
+  href: https://artifacts.apis.io/millimetric/arazzo/millimetric-capture-and-analyze.yml
   title: ''
   type: Arazzo
   url: arazzo/millimetric-capture-and-analyze.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/arazzo/millimetric-anonymous-to-known.yml
+  href: https://artifacts.apis.io/millimetric/arazzo/millimetric-anonymous-to-known.yml
   title: ''
   type: Arazzo
   url: arazzo/millimetric-anonymous-to-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/arazzo/millimetric-gdpr-delete.yml
+  href: https://artifacts.apis.io/millimetric/arazzo/millimetric-gdpr-delete.yml
   title: ''
   type: Arazzo
   url: arazzo/millimetric-gdpr-delete.yml
 created: '2026-07-17'
 description: Millimetric is API-first, privacy-respecting web and product analytics for developers, indie startups ("vibe coders"), and AI agents. It captures events over a simple REST API (/v1/track, /v1/batch, /v1/identify, /v1/query, /v1/stats, /v1/sources), a ~1.8 KB browser SDK, and a zero-dependency Node SDK, with a built-in attribution classifier that splits paid versus organic social traffic (the Facebook social-vs-paid split). It stores no cookies and no raw IPs — GDPR/CCPA compliant, with a /v1/forget right-to-be-forgotten endpoint — and ships a first-class hosted Model Context Protocol (MCP) server so AI agents emit and query analytics natively. Backed by Seedcamp.
+finops:
+- has_sources: true
+  method: derived
+  name: Millimetric Finops
+  primary_unit: events
+  service_category: ''
+  slug: millimetric-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/millimetric.png
 layout: provider
 mcp_servers:
@@ -262,30 +269,33 @@ plans:
 - name: Millimetric Plans
   plan_count: 3
   slug: millimetric-plans
-random_paper: 13
+- name: Millimetric Price Estimates
+  plan_count: 0
+  slug: millimetric-price-estimates
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Millimetric Rate Limits
   slug: millimetric-rate-limits
 score:
   band: developing
-  composite: 44.5
+  composite: 46.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 57.0
+    artifact_dirs: 22
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 78.9
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 14.9
     developer_ergonomics: 63.7
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 21.1
-  previous_composite: 44.4
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -308,13 +318,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/screenshots/millimetric-2026-08-07T172916.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/millimetric/millimetric-2026-08-07T172916.png
 security:
 - kind: authentication
   name: Millimetric Authentication
@@ -324,6 +335,14 @@ security:
   name: Millimetric Domain Security
   slug: millimetric-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 3
+skills:
+- name: Honor a GDPR/CCPA right-to-be-forgotten request
+  slug: millimetric-gdpr-forget
+- name: Stitch anonymous visitors to known users
+  slug: millimetric-identify-and-attribute
+- name: Instrument a product and report on traffic sources
+  slug: millimetric-instrument-and-report
 slug: millimetric
 tags:
 - Company

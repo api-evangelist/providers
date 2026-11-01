@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.2
-  scored_at: '2026-10-17'
+  score: 34.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 33
   slug: nomos-agentic-access
   summary_line: 33 operations · 11 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.nomos.energy
   baseurl_source: declared
@@ -110,9 +112,6 @@ asyncapis:
   slug: nomos-webhooks-asyncapi
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Nomos Authentication API
   slug: open-nomos-authentication-api
 - collection_type: open
@@ -154,12 +153,12 @@ common:
   type: Blog
   url: https://www.nomos.energy/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/capabilities/nomos-capability-edges.yml
+  href: https://artifacts.apis.io/nomos/capabilities/nomos-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nomos-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/overlays/nomos-openapi-overlay.yaml
+  href: https://artifacts.apis.io/nomos/overlays/nomos-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nomos-openapi-overlay.yaml
@@ -192,37 +191,37 @@ common:
   type: PrivacyPolicy
   url: https://www.nomos.energy/en/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/authentication/nomos-authentication.yml
+  href: https://artifacts.apis.io/nomos/authentication/nomos-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nomos-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/scopes/nomos-scopes.yml
+  href: https://artifacts.apis.io/nomos/scopes/nomos-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nomos-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/conventions/nomos-conventions.yml
+  href: https://artifacts.apis.io/nomos/conventions/nomos-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nomos-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/errors/nomos-problem-types.yml
+  href: https://artifacts.apis.io/nomos/errors/nomos-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nomos-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/data-model/nomos-data-model.yml
+  href: https://artifacts.apis.io/nomos/data-model/nomos-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nomos-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/components/nomos-components.yml
+  href: https://artifacts.apis.io/nomos/components/nomos-components.yml
   title: ''
   type: Components
   url: components/nomos-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/lifecycle/nomos-lifecycle.yml
+  href: https://artifacts.apis.io/nomos/lifecycle/nomos-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nomos-lifecycle.yml
@@ -231,12 +230,12 @@ common:
   type: Deprecation
   url: https://docs.nomos.energy/api-references/versioning
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/changelog/nomos-changelog.yml
+  href: https://artifacts.apis.io/nomos/changelog/nomos-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nomos-changelog.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/asyncapi/nomos-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/nomos/asyncapi/nomos-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/nomos-webhooks-asyncapi.yml
@@ -245,37 +244,37 @@ common:
   type: Webhooks
   url: https://docs.nomos.energy/webhooks/introduction
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nomos/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/mcp/nomos-mcp.yml
+  href: https://artifacts.apis.io/nomos/mcp/nomos-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nomos-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/agentic-access/nomos-agentic-access.yml
+  href: https://artifacts.apis.io/nomos/agentic-access/nomos-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nomos-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/llms/nomos-llms.txt
+  href: https://artifacts.apis.io/nomos/llms/nomos-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nomos-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/well-known/nomos-well-known.yml
+  href: https://artifacts.apis.io/nomos/well-known/nomos-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nomos-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/conformance/nomos-conformance.yml
+  href: https://artifacts.apis.io/nomos/conformance/nomos-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nomos-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/security/nomos-domain-security.yml
+  href: https://artifacts.apis.io/nomos/security/nomos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nomos-domain-security.yml
@@ -294,7 +293,7 @@ overview: 'Nomos publishes 12 API contracts indexed on the [APIs.io](https://api
 
 
   Nomos'' developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, authentication, changelog, and 21 more developer resources.'
-random_paper: 6
+random_paper: 4
 scopes:
 - name: Nomos Scopes
   scope_count: 2
@@ -302,21 +301,21 @@ scopes:
   summary_line: 2 scopes
 score:
   band: developing
-  composite: 44.0
+  composite: 46.6
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 23.7
     contract_governance: 18.2
     contract_quality: 57.5
     developer_ergonomics: 59.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -326,7 +325,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 43.5
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -343,13 +342,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 31.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/screenshots/nomos-2026-08-07T185448.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nomos/nomos-2026-08-07T185448.png
 security:
 - kind: authentication
   name: Nomos Authentication
@@ -359,6 +359,10 @@ security:
   name: Nomos Domain Security
   slug: nomos-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: nomos-api
+  slug: nomos-api
 slug: nomos
 tags:
 - Company

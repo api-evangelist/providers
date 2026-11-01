@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,11 +52,8 @@ apis:
   description: Queues operations
   name: Azure Queue Storage Queues API
   slug: microsoft-azure-queue-storage-queues-api
-artifact_total: 10
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure Queue Storage REST Queues API
   slug: open-microsoft-azure-queue-storage-queues-api
@@ -63,17 +62,17 @@ collections:
   slug: open-microsoft-azure-queue-storage
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-queue-storage/refs/heads/main/plans/microsoft-azure-queue-storage-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-azure-queue-storage/plans/microsoft-azure-queue-storage-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-azure-queue-storage-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-queue-storage/refs/heads/main/rate-limits/microsoft-azure-queue-storage-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-azure-queue-storage/rate-limits/microsoft-azure-queue-storage-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-azure-queue-storage-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-queue-storage/refs/heads/main/finops/microsoft-azure-queue-storage-finops.yml
+  href: https://artifacts.apis.io/microsoft-azure-queue-storage/finops/microsoft-azure-queue-storage-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-azure-queue-storage-finops.yml
@@ -82,17 +81,17 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-queue-storage/refs/heads/main/agentic-access/microsoft-azure-queue-storage-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-azure-queue-storage/agentic-access/microsoft-azure-queue-storage-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-queue-storage-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-queue-storage/refs/heads/main/security/microsoft-azure-queue-storage-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-azure-queue-storage/security/microsoft-azure-queue-storage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-queue-storage-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-queue-storage/refs/heads/main/authentication/microsoft-azure-queue-storage-authentication.yml
+  href: https://artifacts.apis.io/microsoft-azure-queue-storage/authentication/microsoft-azure-queue-storage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-queue-storage-authentication.yml
@@ -143,11 +142,11 @@ common:
 created: '2026-03-13'
 description: Azure Queue Storage is a Microsoft cloud service for storing large numbers of messages, enabling decoupled and asynchronous communication between application components. Messages can be accessed via authenticated HTTP/HTTPS calls and support visibility timeouts, peeking, and metadata for reliable processing.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Microsoft Azure Queue Storage Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: microsoft-azure-queue-storage-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-queue-storage.png
@@ -162,32 +161,32 @@ overview: 'Azure Queue Storage is listed with 1 API on the [APIs.io](https://api
   Azure Queue Storage''s developer surface includes authentication, developer portal, pricing, documentation, getting-started guide, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Microsoft Azure Queue Storage Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: microsoft-azure-queue-storage-plans-pricing
-random_paper: 4
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Queue Storage Rate Limits
   slug: microsoft-azure-queue-storage-rate-limits
 score:
   band: developing
-  composite: 42.8
+  composite: 42.7
   coverage:
     artifact_dirs: 11
-    catalog_earned: 43.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -6.3
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 44.7
-    developer_ergonomics: 54.8
+    developer_ergonomics: 57.1
     discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 44.3
+    operational_transparency: 44.7
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     contracts:
@@ -201,13 +200,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-queue-storage/refs/heads/main/screenshots/microsoft-azure-queue-storage-2026-06-20T185432.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-azure-queue-storage/microsoft-azure-queue-storage-2026-06-20T185432.png
 security:
 - kind: authentication
   name: Microsoft Azure Queue Storage Authentication

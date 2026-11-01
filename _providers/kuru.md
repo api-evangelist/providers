@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,8 +37,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.5
-  scored_at: '2026-10-17'
-api_count: 2
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://ws.kuru.io
   baseurl_source: declared
@@ -51,9 +53,6 @@ apis:
 artifact_total: 8
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Kuru WebSocket Generate Token API
   slug: open-kuru-generate-token-api
 - collection_type: open
@@ -61,7 +60,7 @@ collections:
   slug: open-kuru-quote-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/overlays/kuru-flow-overlay.yaml
+  href: https://artifacts.apis.io/kuru/overlays/kuru-flow-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kuru-flow-overlay.yaml
@@ -94,7 +93,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/Kuru-Labs
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/lifecycle/kuru-lifecycle.yml
+  href: https://artifacts.apis.io/kuru/lifecycle/kuru-lifecycle.yml
   title: ''
   type: StatusPage
   url: lifecycle/kuru-lifecycle.yml
@@ -111,82 +110,82 @@ common:
   type: TermsOfService
   url: https://docs.kuru.io/legal/tradingview
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/packages/kuru-packages.yml
+  href: https://artifacts.apis.io/kuru/packages/kuru-packages.yml
   title: ''
   type: Packages
   url: packages/kuru-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/packages/kuru-packages.yml
+  href: https://artifacts.apis.io/kuru/packages/kuru-packages.yml
   title: ''
   type: SDKs
   url: packages/kuru-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/cli/kuru-cli.yml
+  href: https://artifacts.apis.io/kuru/cli/kuru-cli.yml
   title: ''
   type: CLI
   url: cli/kuru-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/sandbox/kuru-sandbox.yml
+  href: https://artifacts.apis.io/kuru/sandbox/kuru-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kuru-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kuru/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/mcp/kuru-mcp.yml
+  href: https://artifacts.apis.io/kuru/mcp/kuru-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kuru-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/llms/kuru-llms.txt
+  href: https://artifacts.apis.io/kuru/llms/kuru-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kuru-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/well-known/kuru-well-known.yml
+  href: https://artifacts.apis.io/kuru/well-known/kuru-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kuru-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/conformance/kuru-conformance.yml
+  href: https://artifacts.apis.io/kuru/conformance/kuru-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kuru-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/lifecycle/kuru-lifecycle.yml
+  href: https://artifacts.apis.io/kuru/lifecycle/kuru-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kuru-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/conventions/kuru-conventions.yml
+  href: https://artifacts.apis.io/kuru/conventions/kuru-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kuru-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/data-model/kuru-data-model.yml
+  href: https://artifacts.apis.io/kuru/data-model/kuru-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kuru-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/authentication/kuru-authentication.yml
+  href: https://artifacts.apis.io/kuru/authentication/kuru-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kuru-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/errors/kuru-problem-types.yml
+  href: https://artifacts.apis.io/kuru/errors/kuru-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kuru-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/rate-limits/kuru-rate-limits.yml
+  href: https://artifacts.apis.io/kuru/rate-limits/kuru-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kuru-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/security/kuru-domain-security.yml
+  href: https://artifacts.apis.io/kuru/security/kuru-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kuru-domain-security.yml
@@ -202,14 +201,14 @@ overview: 'Kuru publishes 2 API contracts indexed on the [APIs.io](https://apis.
 
 
   Kuru''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 21 more developer resources.'
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Kuru Rate Limits
   slug: kuru-rate-limits
 score:
   band: developing
-  composite: 47.1
+  composite: 47.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 39.0
@@ -217,15 +216,15 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 49.3
     developer_ergonomics: 81.0
-    discoverability: 73.2
-    operational_transparency: 23.7
-  previous_composite: 47.0
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 47.4
   provenance:
     conformance: first-party
     contracts:
@@ -241,13 +240,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 19.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/screenshots/kuru-2026-07-25T224337.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kuru/kuru-2026-07-25T224337.png
 security:
 - kind: authentication
   name: Kuru Authentication
@@ -257,6 +257,10 @@ security:
   name: Kuru Domain Security
   slug: kuru-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: kuru-trading-skills
+  slug: kuru-trading-skills
 slug: kuru
 tags:
 - Company

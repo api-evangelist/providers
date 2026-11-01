@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
+  score: 28.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 12
@@ -175,11 +177,8 @@ apis:
   description: Individual zone operations including configuration, lifecycle, and resource management
   name: Solaris Zones API
   slug: solaris-zones-zones-api
-artifact_total: 414
+artifact_total: 413
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Solaris Zones Oracle Solaris Kernel Zones API
   slug: open-solaris-kernel-zones
@@ -286,38 +285,42 @@ collections:
   name: Solaris Oracle Solaris Kernel Archive Creation Zones API
   slug: open-solaris-zones-zones-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/solaris-zones/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/plans/solaris-zones-plans-pricing.yml
+  href: https://artifacts.apis.io/solaris-zones/plans/solaris-zones-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/solaris-zones-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/rate-limits/solaris-zones-rate-limits.yml
+  href: https://artifacts.apis.io/solaris-zones/rate-limits/solaris-zones-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/solaris-zones-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/finops/solaris-zones-finops.yml
+  href: https://artifacts.apis.io/solaris-zones/finops/solaris-zones-finops.yml
   title: ''
   type: FinOps
   url: finops/solaris-zones-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/capabilities/solaris-zones-capability-edges.yml
+  href: https://artifacts.apis.io/solaris-zones/capabilities/solaris-zones-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/solaris-zones-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/agentic-access/solaris-zones-agentic-access.yml
+  href: https://artifacts.apis.io/solaris-zones/agentic-access/solaris-zones-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/solaris-zones-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/security/solaris-zones-domain-security.yml
+  href: https://artifacts.apis.io/solaris-zones/security/solaris-zones-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/solaris-zones-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/authentication/solaris-zones-authentication.yml
+  href: https://artifacts.apis.io/solaris-zones/authentication/solaris-zones-authentication.yml
   title: ''
   type: Authentication
   url: authentication/solaris-zones-authentication.yml
@@ -370,32 +373,32 @@ common:
   type: Documentation
   url: https://docs.oracle.com/cd/E37838_01/html/E68270/gpzpd.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/json-ld/solaris-context.jsonld
+  href: https://artifacts.apis.io/solaris-zones/json-ld/solaris-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/solaris-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/json-schema/solaris-zone-schema.json
+  href: https://artifacts.apis.io/solaris-zones/json-schema/solaris-zone-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/solaris-zone-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/json-schema/solaris-zone-resource-schema.json
+  href: https://artifacts.apis.io/solaris-zones/json-schema/solaris-zone-resource-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/solaris-zone-resource-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/json-schema/solaris-zone-stats-schema.json
+  href: https://artifacts.apis.io/solaris-zones/json-schema/solaris-zone-stats-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/solaris-zone-stats-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/json-schema/solaris-zone-migration-schema.json
+  href: https://artifacts.apis.io/solaris-zones/json-schema/solaris-zone-migration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/solaris-zone-migration-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/json-schema/solaris-zone-evacuation-schema.json
+  href: https://artifacts.apis.io/solaris-zones/json-schema/solaris-zone-evacuation-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/solaris-zone-evacuation-schema.json
@@ -1445,12 +1448,12 @@ overview: 'Solaris Zones publishes 26 API contracts indexed on the [APIs.io](htt
   The Solaris Zones catalog on APIs.io includes 11 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Solaris Zones'' developer surface includes authentication, support, engineering blog, developer portal, getting-started guide, documentation, and 19 more developer resources.'
+  Solaris Zones'' developer surface includes authentication, support, engineering blog, developer portal, getting-started guide, documentation, and 20 more developer resources.'
 plans:
 - name: Solaris Zones Plans Pricing
   plan_count: 1
   slug: solaris-zones-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Solaris Zones Rate Limits
@@ -1480,8 +1483,8 @@ rules:
     warn: 7
   slug: solaris-zones-spectral-rules
 score:
-  band: thin
-  composite: 37.3
+  band: developing
+  composite: 40.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 51.5
@@ -1489,15 +1492,15 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.2
   facets:
     access_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 56.3
-    developer_ergonomics: 38.1
+    developer_ergonomics: 51.2
     discoverability: 69.6
-    operational_transparency: 7.9
-  previous_composite: 38.8
+    operational_transparency: 10.5
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1511,13 +1514,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/screenshots/solaris-zones-2026-06-20T194146.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/solaris-zones/solaris-zones-2026-06-20T194146.png
 security:
 - kind: authentication
   name: Solaris Zones Authentication

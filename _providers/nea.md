@@ -20,7 +20,7 @@ modified: '2026-10-06'
 name: New Enterprise Associates
 nav: Providers
 network: true
-random_paper: 0
+random_paper: 20
 slug: nea
 tags:
 - Venture Capital

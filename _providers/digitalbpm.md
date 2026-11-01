@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,12 +25,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  href: https://artifacts.apis.io/digitalbpm/plans/digitalbpm-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/digitalbpm-plans-pricing.yml
+- group: agent
+  href: https://artifacts.apis.io/digitalbpm/llms/digitalbpm-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/digitalbpm-llms.txt
+- group: other
+  href: https://artifacts.apis.io/digitalbpm/hosts/digitalbpm-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/digitalbpm-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/digitalbpm/vendors/digitalbpm-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/digitalbpm-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/digitalbpm/refs/heads/main/security/digitalbpm-domain-security.yml
+  href: https://artifacts.apis.io/digitalbpm/security/digitalbpm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/digitalbpm-domain-security.yml
@@ -36,18 +58,10 @@ common:
   title: ''
   type: Website
   url: https://digitalbpm.io/
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://digitalbpm.io/
 - group: docs
   title: ''
   type: Documentation
   url: https://digitalbpm.io/guides/
-- group: docs
-  title: ''
-  type: APIReference
-  url: https://digitalbpm.io/api
 - group: start
   title: ''
   type: GettingStarted
@@ -80,8 +94,17 @@ common:
   title: ''
   type: CookiePolicy
   url: https://digitalbpm.io/cookie-policy/
+coverage:
+  checked: '2026-10-18'
+  detail: The provider's documentation pages are HTML only and no OpenAPI/AsyncAPI/GraphQL spec was found.
+  evidence:
+  - status: 200
+    url: https://digitalbpm.io/
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-10-16'
 description: DigitalBPM provides a no‑code automation platform that enables businesses to integrate SaaS applications without writing code. It offers a visual workflow builder, pre‑built connectors for popular services, and the ability to create custom integrations. Targeted at small to medium‑size teams, DigitalBPM aims to streamline processes, reduce manual effort, and accelerate digital transformation across enterprises.
+image: https://digitalbpm.io/storage/2025/11/Home-Opengraph-v2-1-2.jpg
 layout: provider
 modified: '2026-10-16'
 name: DigitalBPM
@@ -90,33 +113,42 @@ network: true
 overview: 'DigitalBPM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automation, No-Code, Software-as-a-Service, and Integration.
 
 
-  DigitalBPM''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 6 more developer resources.'
-random_paper: 19
+  DigitalBPM''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 9 more developer resources.'
+plans:
+- name: Digitalbpm Plans Pricing
+  plan_count: 4
+  slug: digitalbpm-plans-pricing
+random_paper: 21
 score:
   band: emerging
-  composite: 22.2
+  composite: 25.6
   coverage:
-    artifact_dirs: 1
-    catalog_earned: 25.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 90.0
+    artifact_dirs: 9
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 44.6
+    developer_ergonomics: 28.6
+    discoverability: 48.2
     operational_transparency: 0.0
+  previous_composite: 25.6
+  provenance:
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

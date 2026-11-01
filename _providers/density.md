@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,24 +35,29 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Density v3 Public API for real-time occupancy and presence, historical space metrics (occupancy, utilization, time used, sessions), spaces / doorways / sensors / labels management, sensor and space he
   name: Density Public API v3
   slug: density-public-api-v3
-artifact_total: 4
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Density Websockets Events
   slug: density-websockets-events
 common:
+- group: commercial
+  href: https://artifacts.apis.io/density/plans/density-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/density-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
   url: https://density.io/about-density/press
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/security/density-domain-security.yml
+  href: https://artifacts.apis.io/density/security/density-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/density-domain-security.yml
@@ -103,72 +110,80 @@ common:
   type: StatusPage
   url: https://status.density.io
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/lifecycle/density-lifecycle.yml
+  href: https://artifacts.apis.io/density/lifecycle/density-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/density-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/authentication/density-authentication.yml
+  href: https://artifacts.apis.io/density/authentication/density-authentication.yml
   title: ''
   type: Authentication
   url: authentication/density-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/conventions/density-conventions.yml
+  href: https://artifacts.apis.io/density/conventions/density-conventions.yml
   title: ''
   type: Conventions
   url: conventions/density-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/lifecycle/density-lifecycle.yml
+  href: https://artifacts.apis.io/density/lifecycle/density-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/density-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/errors/density-problem-types.yml
+  href: https://artifacts.apis.io/density/errors/density-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/density-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/conformance/density-conformance.yml
+  href: https://artifacts.apis.io/density/conformance/density-conformance.yml
   title: ''
   type: Conformance
   url: conformance/density-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/packages/density-packages.yml
+  href: https://artifacts.apis.io/density/packages/density-packages.yml
   title: ''
   type: Packages
   url: packages/density-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/components/density-components.yml
+  href: https://artifacts.apis.io/density/components/density-components.yml
   title: ''
   type: Components
   url: components/density-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/asyncapi/density-websockets-events.yml
+  href: https://artifacts.apis.io/density/asyncapi/density-websockets-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/density-websockets-events.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/data-model/density-data-model.yml
+  href: https://artifacts.apis.io/density/data-model/density-data-model.yml
   title: ''
   type: DataModel
   url: data-model/density-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/well-known/density-well-known.yml
+  href: https://artifacts.apis.io/density/well-known/density-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/density-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/mcp/density-mcp.yml
+  href: https://artifacts.apis.io/density/mcp/density-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/density-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/llms/density-llms.txt
+  href: https://artifacts.apis.io/density/llms/density-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/density-llms.txt
 created: '2026-07-17'
 description: Density builds radar-based occupancy sensors and a workplace analytics platform that measures how people use physical space without cameras or personally identifiable information. Its v3 Public API (api.density.io) exposes real-time occupancy and presence, historical metrics (occupancy, utilization, time used, sessions, raw sessions), spaces / doorways / sensors / labels resources, sensor and space health, wayfinding display tokens, and WebSocket streams for live floor presence and space occupancy. Authentication is OAuth 2.0 client-credentials (Auth0-backed) or static Bearer API tokens. Originally surfaced as a portfolio company of kleiner-perkins and enriched from Density's public developer surface.
+finops:
+- has_sources: true
+  method: derived
+  name: Density Finops
+  primary_unit: unit
+  service_category: ''
+  slug: density-finops
+  template: false
 image: https://cdn.prod.website-files.com/5f49c40736fbe713860f9203/681a28ab6cdef3f72543b7bd_density-favicon_256x256.png
 layout: provider
 modified: '2026-10-06'
@@ -181,27 +196,34 @@ overview: 'Density is listed with 1 API on the [APIs.io](https://apis.io/) netwo
   The Density catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Density''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, pricing, and 20 more developer resources.'
-random_paper: 20
+  Density''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, pricing, and 21 more developer resources.'
+plans:
+- name: Density Plans Pricing
+  plan_count: 4
+  slug: density-plans-pricing
+- name: Density Price Estimates
+  plan_count: 0
+  slug: density-price-estimates
+random_paper: 0
 score:
   band: developing
-  composite: 41.2
+  composite: 51.4
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 19
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 7.9
   facets:
-    access_clarity: 31.6
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 40.7
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 43.5
   provenance:
     conformance: derived
     mcp: derived
@@ -211,14 +233,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/screenshots/density-2026-07-25T211718.png
+screenshot: https://apis.io/screenshots/density/density-2026-07-25T211718.png
 security:
 - kind: authentication
   name: Density Authentication

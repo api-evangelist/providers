@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bending-spoons/refs/heads/main/security/bending-spoons-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bending-spoons/security/bending-spoons-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bending-spoons-vulnerability-disclosure.yml
@@ -47,17 +49,17 @@ common:
   type: Security
   url: https://bendingspoons.com/.well-known/security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bending-spoons/refs/heads/main/conformance/bending-spoons-conformance.yml
+  href: https://artifacts.apis.io/bending-spoons/conformance/bending-spoons-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bending-spoons-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bending-spoons/refs/heads/main/llms/bending-spoons-llms.txt
+  href: https://artifacts.apis.io/bending-spoons/llms/bending-spoons-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bending-spoons-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bending-spoons/refs/heads/main/security/bending-spoons-domain-security.yml
+  href: https://artifacts.apis.io/bending-spoons/security/bending-spoons-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bending-spoons-domain-security.yml
@@ -110,17 +112,17 @@ common:
   type: Twitter
   url: https://twitter.com/bendingspoons
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bending-spoons/refs/heads/main/well-known/bending-spoons-well-known.yml
+  href: https://artifacts.apis.io/bending-spoons/well-known/bending-spoons-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bending-spoons-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bending-spoons/refs/heads/main/well-known/bending-spoons-security.txt
+  href: https://artifacts.apis.io/bending-spoons/well-known/bending-spoons-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bending-spoons-security.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bending-spoons/refs/heads/main/packages/bending-spoons-packages.yml
+  href: https://artifacts.apis.io/bending-spoons/packages/bending-spoons-packages.yml
   title: ''
   type: Packages
   url: packages/bending-spoons-packages.yml
@@ -137,10 +139,10 @@ overview: 'Bending Spoons is profiled on the [APIs.io](https://apis.io/) network
 
 
   Bending Spoons'' developer surface includes support, engineering blog, and 18 more developer resources.'
-random_paper: 16
+random_paper: 6
 score:
   band: emerging
-  composite: 13.8
+  composite: 14.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -154,8 +156,8 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 49.1
-    operational_transparency: 13.2
+    discoverability: 50.0
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -164,7 +166,7 @@ score:
     regions:
     - europe
     - italy-southern-europe
-  previous_composite: 13.8
+  previous_composite: 14.3
   provenance:
     conformance: derived
   regulatory:
@@ -173,14 +175,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bending-spoons/refs/heads/main/screenshots/bending-spoons-2026-08-07T162309.png
+screenshot: https://apis.io/screenshots/bending-spoons/bending-spoons-2026-08-07T162309.png
 security:
 - kind: domain-security
   name: Bending Spoons Domain Security

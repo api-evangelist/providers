@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
+  score: 31.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 17
@@ -63,89 +65,99 @@ apis:
   description: User account information. See the [User API documentation](https://auphonic.com/help/api/query.html#user-account-info) for details.
   name: Auphonic User API
   slug: auphonic-user-api
-artifact_total: 20
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Auphonic Webhooks
   slug: auphonic-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/auphonic/capabilities/auphonic-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/auphonic-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/auphonic/plans/auphonic-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/auphonic-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/agentic-access/auphonic-agentic-access.yml
+  href: https://artifacts.apis.io/auphonic/agentic-access/auphonic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/auphonic-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/rules/auphonic-rules.yml
+  href: https://artifacts.apis.io/auphonic/rules/auphonic-rules.yml
   title: ''
   type: Spectral
   url: rules/auphonic-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/json-ld/auphonic-context.jsonld
+  href: https://artifacts.apis.io/auphonic/json-ld/auphonic-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/auphonic-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/vocabulary/auphonic-vocabulary.yml
+  href: https://artifacts.apis.io/auphonic/vocabulary/auphonic-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/auphonic-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/auphonic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/asyncapi/auphonic-webhooks.yml
+  href: https://artifacts.apis.io/auphonic/asyncapi/auphonic-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/auphonic-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/data-model/auphonic-data-model.yml
+  href: https://artifacts.apis.io/auphonic/data-model/auphonic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/auphonic-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/cli/auphonic-cli.yml
+  href: https://artifacts.apis.io/auphonic/cli/auphonic-cli.yml
   title: ''
   type: CLI
   url: cli/auphonic-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/changelog/auphonic-changelog.yml
+  href: https://artifacts.apis.io/auphonic/changelog/auphonic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/auphonic-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/authentication/auphonic-authentication.yml
+  href: https://artifacts.apis.io/auphonic/authentication/auphonic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/auphonic-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/errors/auphonic-problem-types.yml
+  href: https://artifacts.apis.io/auphonic/errors/auphonic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/auphonic-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/conformance/auphonic-conformance.yml
+  href: https://artifacts.apis.io/auphonic/conformance/auphonic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/auphonic-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/llms/auphonic-llms.txt
+  href: https://artifacts.apis.io/auphonic/llms/auphonic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/auphonic-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/hosts/auphonic-hosts.yml
+  href: https://artifacts.apis.io/auphonic/hosts/auphonic-hosts.yml
   title: ''
   type: Hosts
   url: hosts/auphonic-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/packages/auphonic-packages.yml
+  href: https://artifacts.apis.io/auphonic/packages/auphonic-packages.yml
   title: ''
   type: SDKs
   url: packages/auphonic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/packages/auphonic-packages.yml
+  href: https://artifacts.apis.io/auphonic/packages/auphonic-packages.yml
   title: ''
   type: Packages
   url: packages/auphonic-packages.yml
@@ -162,12 +174,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/auphonic
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/scopes/auphonic-scopes.yml
+  href: https://artifacts.apis.io/auphonic/scopes/auphonic-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/auphonic-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/security/auphonic-domain-security.yml
+  href: https://artifacts.apis.io/auphonic/security/auphonic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/auphonic-domain-security.yml
@@ -221,6 +233,14 @@ common:
   url: https://auphonic.com/impressum
 created: '2026-10-13'
 description: Auphonic provides an AI‑powered audio post‑production platform that automates tasks such as noise reduction, loudness normalization, speech‑to‑text, and multi‑track mixing. It serves podcasters, educators, video creators, and audiobook producers, offering both a web UI and a robust API for automated workflows, integrations with cloud storage, publishing platforms, and custom processing pipelines.
+finops:
+- has_sources: true
+  method: derived
+  name: Auphonic Finops
+  primary_unit: ''
+  service_category: ''
+  slug: auphonic-finops
+  template: true
 json_schemas:
 - name: MultiInputFileRequest
   property_count: 9
@@ -256,8 +276,12 @@ overview: 'Auphonic publishes 6 API contracts indexed on the [APIs.io](https://a
   The Auphonic catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Auphonic''s developer surface includes CLI, changelog, authentication, documentation, API reference, getting-started guide, engineering blog, and 26 more developer resources.'
-random_paper: 19
+  Auphonic''s developer surface includes CLI, changelog, authentication, documentation, API reference, getting-started guide, engineering blog, and 28 more developer resources.'
+plans:
+- name: Auphonic Plans Pricing
+  plan_count: 7
+  slug: auphonic-plans-pricing
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Auphonic Rate Limits
@@ -282,21 +306,28 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.3
+  composite: 62.4
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 55.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 59.3
+    artifact_dirs: 27
+    catalog_earned: 67.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 6.3
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 35.6
     contract_quality: 65.6
     developer_ergonomics: 73.2
-    discoverability: 62.5
+    discoverability: 55.4
     operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - austria
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -317,11 +348,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 22.2
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Auphonic Authentication
@@ -331,6 +364,12 @@ security:
   name: Auphonic Domain Security
   slug: auphonic-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: auphonic-create-preset-with-config
+  slug: auphonic-create-preset-with-config
+- name: auphonic-production-workflow
+  slug: auphonic-production-workflow
 slug: auphonic
 tags:
 - Audio

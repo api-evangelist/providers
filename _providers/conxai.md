@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 27.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 2
@@ -129,11 +131,8 @@ apis:
   description: The workflow-table API from Conxai — 3 operation(s) for workflow-table.
   name: Conxai Workflow Table API
   slug: conxai-workflow-table-api
-artifact_total: 39
+artifact_total: 41
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Customer annotations API
   slug: open-conxai-annotations-api
@@ -187,22 +186,27 @@ collections:
   slug: open-conxai-workflow-table-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/overlays/conxai-customer-overlay.yaml
+  href: https://artifacts.apis.io/conxai/capabilities/conxai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/conxai-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/conxai/overlays/conxai-customer-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/conxai-customer-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/agentic-access/conxai-agentic-access.yml
+  href: https://artifacts.apis.io/conxai/agentic-access/conxai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/conxai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/security/conxai-domain-security.yml
+  href: https://artifacts.apis.io/conxai/security/conxai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/conxai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/authentication/conxai-authentication.yml
+  href: https://artifacts.apis.io/conxai/authentication/conxai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/conxai-authentication.yml
@@ -259,42 +263,42 @@ common:
   type: Compliance
   url: https://conxai.eu.trust.site/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/llms/conxai-llms.txt
+  href: https://artifacts.apis.io/conxai/llms/conxai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/conxai-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/conventions/conxai-conventions.yml
+  href: https://artifacts.apis.io/conxai/conventions/conxai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/conxai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/errors/conxai-problem-types.yml
+  href: https://artifacts.apis.io/conxai/errors/conxai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/conxai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/lifecycle/conxai-lifecycle.yml
+  href: https://artifacts.apis.io/conxai/lifecycle/conxai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/conxai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/data-model/conxai-data-model.yml
+  href: https://artifacts.apis.io/conxai/data-model/conxai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/conxai-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/mcp/conxai-mcp.yml
+  href: https://artifacts.apis.io/conxai/mcp/conxai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/conxai-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/conformance/conxai-conformance.yml
+  href: https://artifacts.apis.io/conxai/conformance/conxai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/conxai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/conxai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -314,32 +318,32 @@ network: true
 overview: 'Conxai publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Annotations API, Camera API, Document Types API, and 14 more. Tagged areas include Company, Construction, AEC, Artificial Intelligence, and Document Processing.
 
 
-  Conxai''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 19 more developer resources.'
-random_paper: 4
+  Conxai''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 20 more developer resources.'
+random_paper: 18
 score:
   band: developing
-  composite: 40.7
+  composite: 43.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 47.8
-    developer_ergonomics: 39.9
-    discoverability: 78.6
+    developer_ergonomics: 58.9
+    discoverability: 71.4
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - germany
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 40.6
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -360,13 +364,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/screenshots/conxai-2026-07-25T210354.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/conxai/conxai-2026-07-25T210354.png
 security:
 - kind: authentication
   name: Conxai Authentication
@@ -380,6 +385,14 @@ security:
   name: Conxai Trust Center
   slug: conxai-trust-center
   summary_line: SOC 2, ISO 27001:2022
+skill_count: 3
+skills:
+- name: Extract data from a document with DocNostic
+  slug: conxai-docnostic-extract-document
+- name: Run firestop detection on a site image
+  slug: conxai-firestop-detect
+- name: Onboard a SiteLens project with cameras and users
+  slug: conxai-sitelens-onboard-project
 slug: conxai
 tags:
 - Company

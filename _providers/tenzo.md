@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 22.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Public REST API for accessing restaurant analytics data — locations, areas, sales, and forecast data — secured with OAuth 2.0 Bearer tokens. Partners integrate via the Authorization Code flow to pull '
@@ -74,32 +76,32 @@ common:
   type: Authentication
   url: https://support.gotenzo.com/developers/auth-flow/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tenzo/refs/heads/main/mcp/tenzo-mcp.yml
+  href: https://artifacts.apis.io/tenzo/mcp/tenzo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tenzo-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tenzo/refs/heads/main/scopes/tenzo-scopes.yml
+  href: https://artifacts.apis.io/tenzo/scopes/tenzo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tenzo-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tenzo/refs/heads/main/conventions/tenzo-conventions.yml
+  href: https://artifacts.apis.io/tenzo/conventions/tenzo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tenzo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tenzo/refs/heads/main/lifecycle/tenzo-lifecycle.yml
+  href: https://artifacts.apis.io/tenzo/lifecycle/tenzo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tenzo-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tenzo/refs/heads/main/changelog/tenzo-changelog.yml
+  href: https://artifacts.apis.io/tenzo/changelog/tenzo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tenzo-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tenzo/refs/heads/main/conformance/tenzo-conformance.yml
+  href: https://artifacts.apis.io/tenzo/conformance/tenzo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tenzo-conformance.yml
@@ -108,7 +110,7 @@ common:
   type: Compliance
   url: https://www.gotenzo.com/gdpr/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tenzo/refs/heads/main/security/tenzo-domain-security.yml
+  href: https://artifacts.apis.io/tenzo/security/tenzo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tenzo-domain-security.yml
@@ -117,7 +119,7 @@ common:
   type: StatusPage
   url: https://status.gotenzo.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tenzo/refs/heads/main/llms/tenzo-llms.txt
+  href: https://artifacts.apis.io/tenzo/llms/tenzo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tenzo-llms.txt
@@ -149,7 +151,7 @@ overview: 'Tenzo is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Tenzo''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, changelog, support, and 14 more developer resources.'
-random_paper: 10
+random_paper: 8
 scopes:
 - name: Tenzo Scopes
   scope_count: 4
@@ -157,7 +159,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.6
+  composite: 30.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -170,10 +172,10 @@ score:
     access_clarity: 18.4
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 47.6
-    discoverability: 75.0
+    developer_ergonomics: 57.1
+    discoverability: 65.0
     operational_transparency: 31.6
-  previous_composite: 29.6
+  previous_composite: 30.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -187,14 +189,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tenzo/refs/heads/main/screenshots/tenzo-2026-09-02T163116.png
+screenshot: https://apis.io/screenshots/tenzo/tenzo-2026-09-02T163116.png
 security:
 - kind: authentication
   name: Tenzo Authentication

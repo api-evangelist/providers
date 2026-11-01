@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 24.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://app.coordinatehq.com/api/v1
@@ -107,15 +109,12 @@ apis:
   description: The Coordinate REST API API from Coordinate — 0 operation(s) for coordinate rest api.
   name: Coordinate REST API
   slug: coordinate-coordinate-rest-api-api
-artifact_total: 31
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Coordinate Webhooks
   slug: coordinate-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Coordinate REST Comments API
   slug: open-coordinate-comments-api
@@ -156,8 +155,13 @@ collections:
   name: Coordinate REST Comments Webhooks API
   slug: open-coordinate-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/coordinate/plans/coordinate-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/coordinate-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/capabilities/coordinate-capability-edges.yml
+  href: https://artifacts.apis.io/coordinate/capabilities/coordinate-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/coordinate-capability-edges.yml
@@ -206,77 +210,85 @@ common:
   type: PrivacyPolicy
   url: https://coordinatehq.com/legal/privacy-policy
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/openapi/_original/coordinate-openapi.yml
+  href: https://artifacts.apis.io/coordinate/openapi/_original/coordinate-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/coordinate-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/authentication/coordinate-authentication.yml
+  href: https://artifacts.apis.io/coordinate/authentication/coordinate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coordinate-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/conventions/coordinate-conventions.yml
+  href: https://artifacts.apis.io/coordinate/conventions/coordinate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/coordinate-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/errors/coordinate-problem-types.yml
+  href: https://artifacts.apis.io/coordinate/errors/coordinate-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/coordinate-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/lifecycle/coordinate-lifecycle.yml
+  href: https://artifacts.apis.io/coordinate/lifecycle/coordinate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/coordinate-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/data-model/coordinate-data-model.yml
+  href: https://artifacts.apis.io/coordinate/data-model/coordinate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/coordinate-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/conformance/coordinate-conformance.yml
+  href: https://artifacts.apis.io/coordinate/conformance/coordinate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coordinate-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/asyncapi/coordinate-webhooks.yml
+  href: https://artifacts.apis.io/coordinate/asyncapi/coordinate-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/coordinate-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/mcp/coordinate-mcp.yml
+  href: https://artifacts.apis.io/coordinate/mcp/coordinate-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/coordinate-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/llms/coordinate-llms.txt
+  href: https://artifacts.apis.io/coordinate/llms/coordinate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/coordinate-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/overlays/coordinate-openapi-overlay.yaml
+  href: https://artifacts.apis.io/coordinate/overlays/coordinate-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coordinate-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/well-known/coordinate-well-known.yml
+  href: https://artifacts.apis.io/coordinate/well-known/coordinate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/coordinate-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/security/coordinate-domain-security.yml
+  href: https://artifacts.apis.io/coordinate/security/coordinate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coordinate-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/coordinate/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Coordinate (CoordinateHQ) is a client project-execution platform and branded client portal for client-facing businesses — agencies, professional services, and B2B onboarding teams. It turns repeatable workflows into automated, interactive projects with tasks, task groups, goals, progress reports, forms, eSignatures, time tracking, and in-project chat, while giving each client a simple password-free portal. Coordinate exposes a REST API (base https://app.coordinatehq.com/api/v1) for creating and syncing projects, tasks, groups, stakeholders, goals, comments, and organizations, an /entity export firehose for bulk sync, and a webhook API for real-time create/update events, alongside bi-directional Zapier integrations. This profile was enriched by the API Evangelist pipeline from Coordinate's published API reference.
+finops:
+- has_sources: true
+  method: derived
+  name: Coordinate Finops
+  primary_unit: internal user
+  service_category: ''
+  slug: coordinate-finops
+  template: false
 image: https://cdn.prod.website-files.com/639cbe2ae16424db11366965/68c4925a9be35099761c7e7a_coordinatehq-opengraph-sept-2025.jpg
 layout: provider
 modified: '2026-09-16'
@@ -289,34 +301,38 @@ overview: 'Coordinate publishes 14 API contracts indexed on the [APIs.io](https:
   The Coordinate catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Coordinate''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
+  Coordinate''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
+plans:
+- name: Coordinate Plans Pricing
+  plan_count: 6
+  slug: coordinate-plans-pricing
 random_paper: 8
 score:
   band: developing
-  composite: 41.7
+  composite: 49.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 54.9
+    contract_quality: 55.9
     developer_ergonomics: 47.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 41.6
+  previous_composite: 41.9
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 14
+      total: 13
     mcp: derived
     skills: derived
   regulatory:
@@ -325,13 +341,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/screenshots/coordinate-2026-07-25T210404.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/coordinate/coordinate-2026-07-25T210404.png
 security:
 - kind: authentication
   name: Coordinate Authentication
@@ -341,6 +358,12 @@ security:
   name: Coordinate Domain Security
   slug: coordinate-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Onboard a client project
+  slug: coordinate-onboard-client-project
+- name: Sync activity and track task progress
+  slug: coordinate-sync-and-track
 slug: coordinate
 tags:
 - Company

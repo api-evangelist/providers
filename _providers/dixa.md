@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 31.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -145,11 +147,8 @@ apis:
   description: The Webhooks API from Dixa — 4 operation(s) for webhooks.
   name: Dixa Webhooks API
   slug: dixa-webhooks-api
-artifact_total: 65
+artifact_total: 64
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Dixa Agents API
   slug: open-dixa-agents-api
@@ -211,23 +210,27 @@ collections:
   name: Dixa Agents Webhooks API
   slug: open-dixa-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/dixa/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/capabilities/dixa-capability-edges.yml
+  href: https://artifacts.apis.io/dixa/capabilities/dixa-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dixa-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/agentic-access/dixa-agentic-access.yml
+  href: https://artifacts.apis.io/dixa/agentic-access/dixa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dixa-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/security/dixa-domain-security.yml
+  href: https://artifacts.apis.io/dixa/security/dixa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dixa-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/authentication/dixa-authentication.yml
+  href: https://artifacts.apis.io/dixa/authentication/dixa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dixa-authentication.yml
@@ -268,17 +271,17 @@ common:
   type: ChangeLog
   url: https://releases.dixa.help/en
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/plans/dixa-plans-pricing.yml
+  href: https://artifacts.apis.io/dixa/plans/dixa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dixa-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/rate-limits/dixa-rate-limits.yml
+  href: https://artifacts.apis.io/dixa/rate-limits/dixa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dixa-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/finops/dixa-finops.yml
+  href: https://artifacts.apis.io/dixa/finops/dixa-finops.yml
   title: ''
   type: FinOps
   url: finops/dixa-finops.yml
@@ -304,13 +307,13 @@ examples:
   name: Getteams
   slug: getTeams
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Dixa Finops
-  primary_unit: ''
+  primary_unit: agent
   service_category: ''
   slug: dixa-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dixa.png
 json_schemas:
 - name: Agent
@@ -356,7 +359,7 @@ overview: 'Dixa publishes 20 API contracts indexed on the [APIs.io](https://apis
   The Dixa catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Dixa''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 11 more developer resources.'
+  Dixa''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 12 more developer resources.'
 plans:
 - name: Dixa Plans Pricing
   plan_count: 4
@@ -364,7 +367,7 @@ plans:
 - name: Dixa Price Estimates
   plan_count: 0
   slug: dixa-price-estimates
-random_paper: 4
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Dixa Rate Limits
@@ -383,23 +386,23 @@ rules:
   slug: dixa-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.5
+  composite: 45.9
   coverage:
     artifact_dirs: 18
-    catalog_earned: 72.3
+    catalog_earned: 75.3
     catalog_earned_first_party: 24.0
-    catalog_gap: 42.8
+    catalog_gap: 39.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.0
+  delta: 1.8
   facets:
-    access_clarity: 42.1
+    access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 59.4
-    developer_ergonomics: 23.8
+    contract_quality: 57.5
+    developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 52.6
-  previous_composite: 46.5
+    operational_transparency: 68.4
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     contracts:
@@ -413,13 +416,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/screenshots/dixa-2026-06-20T180054.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dixa/dixa-2026-06-20T180054.png
 security:
 - kind: authentication
   name: Dixa Authentication

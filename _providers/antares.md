@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -32,17 +34,17 @@ common:
   type: BlogRSS
   url: https://www.antares.com/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/antares/refs/heads/main/llms/antares-llms.txt
+  href: https://artifacts.apis.io/antares/llms/antares-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/antares-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/antares/refs/heads/main/hosts/antares-hosts.yml
+  href: https://artifacts.apis.io/antares/hosts/antares-hosts.yml
   title: ''
   type: Hosts
   url: hosts/antares-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/antares/refs/heads/main/vendors/antares-vendors.yml
+  href: https://artifacts.apis.io/antares/vendors/antares-vendors.yml
   title: ''
   type: Vendors
   url: vendors/antares-vendors.yml
@@ -59,7 +61,7 @@ common:
   type: Newsroom
   url: https://www.antares.com/our-perspectives/media
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/antares/refs/heads/main/security/antares-domain-security.yml
+  href: https://artifacts.apis.io/antares/security/antares-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/antares-domain-security.yml
@@ -84,12 +86,12 @@ name: Antares
 nav: Providers
 network: true
 overview: Antares is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Private Credit, Liquid Credit, Liquidity Solutions, Institutional Investors, and Insurance Companies.
-random_paper: 2
+random_paper: 6
 score:
   band: minimal
-  composite: 9.3
+  composite: 8.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -101,23 +103,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 57.1
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 9.3
+  previous_composite: 8.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/antares/refs/heads/main/screenshots/antares-2026-10-11T095756.png
+screenshot: https://apis.io/screenshots/antares/antares-2026-10-11T095756.png
 security:
 - kind: domain-security
   name: Antares Domain Security

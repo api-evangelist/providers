@@ -26,19 +26,21 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.1
-  scored_at: '2026-10-17'
+  score: 6.1
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 4
+artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/plans/relationalai-plans-pricing.yml
+  href: https://artifacts.apis.io/relationalai/plans/relationalai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/relationalai-plans-pricing.yml
@@ -87,7 +89,7 @@ common:
   type: PrivacyPolicy
   url: https://relational.ai/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/security/relationalai-trust-center.yml
+  href: https://artifacts.apis.io/relationalai/security/relationalai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/relationalai-trust-center.yml
@@ -96,72 +98,80 @@ common:
   type: Compliance
   url: https://trust.relational.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/security/relationalai-domain-security.yml
+  href: https://artifacts.apis.io/relationalai/security/relationalai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/relationalai-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/packages/relationalai-packages.yml
+  href: https://artifacts.apis.io/relationalai/packages/relationalai-packages.yml
   title: ''
   type: Packages
   url: packages/relationalai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/packages/relationalai-packages.yml
+  href: https://artifacts.apis.io/relationalai/packages/relationalai-packages.yml
   title: ''
   type: SDKs
   url: packages/relationalai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/cli/relationalai-cli.yml
+  href: https://artifacts.apis.io/relationalai/cli/relationalai-cli.yml
   title: ''
   type: CLI
   url: cli/relationalai-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/relationalai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/authentication/relationalai-authentication.yml
+  href: https://artifacts.apis.io/relationalai/authentication/relationalai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/relationalai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/conventions/relationalai-conventions.yml
+  href: https://artifacts.apis.io/relationalai/conventions/relationalai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/relationalai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/lifecycle/relationalai-lifecycle.yml
+  href: https://artifacts.apis.io/relationalai/lifecycle/relationalai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/relationalai-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/changelog/relationalai-changelog.yml
+  href: https://artifacts.apis.io/relationalai/changelog/relationalai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/relationalai-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/conformance/relationalai-conformance.yml
+  href: https://artifacts.apis.io/relationalai/conformance/relationalai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/relationalai-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/grpc/relationalai-lqp.yml
+  href: https://artifacts.apis.io/relationalai/grpc/relationalai-lqp.yml
   title: ''
   type: Protobuf
   url: grpc/relationalai-lqp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/llms/relationalai-llms.txt
+  href: https://artifacts.apis.io/relationalai/llms/relationalai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/relationalai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/well-known/relationalai-well-known.yml
+  href: https://artifacts.apis.io/relationalai/well-known/relationalai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/relationalai-well-known.yml
 created: '2026-07-17'
 description: RelationalAI is a decision-intelligence platform delivered as a Native App inside Snowflake. Its core product, Rel, builds a semantic model from data in Snowflake and reasons over it — combining graph analytics, rules, predictive graph neural networks, and prescriptive optimization — to answer high-stakes business questions (supply chain, pricing, inventory, demand forecasting) with transparent, validatable reasoning steps. Developers work through PyRel (the `relationalai` Python SDK), the `rai` CLI, and per-language HTTP SDKs (JavaScript, Julia, Java), with queries compiled to the protobuf Logical Query Protocol (LQP) and executed on RelationalAI engines running in Snowflake. RelationalAI publishes its own coding-agent Skills to drive the workflow.
+finops:
+- has_sources: true
+  method: derived
+  name: Relationalai Finops
+  primary_unit: rel unit
+  service_category: ''
+  slug: relationalai-finops
+  template: false
 image: https://cdn.prod.website-files.com/68c66131e7dc76329c719913/68df015bc18ca537629f59b3_og-home-relationalai.jpg
 layout: provider
 modified: '2026-07-21'
@@ -176,26 +186,26 @@ plans:
 - name: Relationalai Plans Pricing
   plan_count: 4
   slug: relationalai-plans-pricing
-random_paper: 15
+random_paper: 21
 score:
   band: developing
-  composite: 51.1
+  composite: 46.3
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 39.0
+    artifact_dirs: 18
+    catalog_earned: 42.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 76.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 24.0
+    contract_quality: 0.0
     developer_ergonomics: 73.8
-    discoverability: 55.4
-    operational_transparency: 18.4
-  previous_composite: 44.7
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 44.8
   provenance:
     conformance: first-party
     skills: first-party
@@ -211,14 +221,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/screenshots/relationalai-2026-09-02T153306.png
+screenshot: https://apis.io/screenshots/relationalai/relationalai-2026-09-02T153306.png
 security:
 - kind: authentication
   name: Relationalai Authentication

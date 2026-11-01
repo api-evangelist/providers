@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Provides access to Paris open data sets via the API console.
@@ -32,27 +34,27 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opendata-paris/refs/heads/main/security/opendata-paris-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/opendata-paris/security/opendata-paris-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/opendata-paris-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opendata-paris/refs/heads/main/well-known/opendata-paris-security.txt
+  href: https://artifacts.apis.io/opendata-paris/well-known/opendata-paris-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/opendata-paris-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opendata-paris/refs/heads/main/well-known/opendata-paris-well-known.yml
+  href: https://artifacts.apis.io/opendata-paris/well-known/opendata-paris-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/opendata-paris-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opendata-paris/refs/heads/main/security/opendata-paris-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/opendata-paris/security/opendata-paris-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/opendata-paris-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opendata-paris/refs/heads/main/security/opendata-paris-domain-security.yml
+  href: https://artifacts.apis.io/opendata-paris/security/opendata-paris-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opendata-paris-domain-security.yml
@@ -99,12 +101,12 @@ overview: 'Paris Open Data is listed with 1 API on the [APIs.io](https://apis.io
 
 
   Paris Open Data''s developer surface includes documentation, API reference, getting-started guide, and 8 more developer resources.'
-random_paper: 2
+random_paper: 16
 score:
   band: emerging
   composite: 17.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
@@ -127,14 +129,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/opendata-paris/refs/heads/main/screenshots/opendata-paris-2026-10-11T112040.png
+screenshot: https://apis.io/screenshots/opendata-paris/opendata-paris-2026-10-11T112040.png
 security:
 - kind: domain-security
   name: Opendata Paris Domain Security

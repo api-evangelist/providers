@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -85,9 +87,6 @@ collections:
   name: Google Data Studio Assets Reports API
   slug: postman-google-data-studio-reports-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Google Data Studio API
   slug: open-google-data-studio-api
 - collection_type: open
@@ -107,22 +106,22 @@ collections:
   slug: open-google-data-studio-reports-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/plans/google-data-studio-plans-pricing.yml
+  href: https://artifacts.apis.io/google-data-studio/plans/google-data-studio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-data-studio-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/rate-limits/google-data-studio-rate-limits.yml
+  href: https://artifacts.apis.io/google-data-studio/rate-limits/google-data-studio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-data-studio-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/finops/google-data-studio-finops.yml
+  href: https://artifacts.apis.io/google-data-studio/finops/google-data-studio-finops.yml
   title: ''
   type: FinOps
   url: finops/google-data-studio-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/capabilities/google-data-studio-capability-edges.yml
+  href: https://artifacts.apis.io/google-data-studio/capabilities/google-data-studio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-data-studio-capability-edges.yml
@@ -131,67 +130,67 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-data-studio/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/agentic-access/google-data-studio-agentic-access.yml
+  href: https://artifacts.apis.io/google-data-studio/agentic-access/google-data-studio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-data-studio-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/security/google-data-studio-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-data-studio/security/google-data-studio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-data-studio-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/security/google-data-studio-domain-security.yml
+  href: https://artifacts.apis.io/google-data-studio/security/google-data-studio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-data-studio-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/authentication/google-data-studio-authentication.yml
+  href: https://artifacts.apis.io/google-data-studio/authentication/google-data-studio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-data-studio-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/scopes/google-data-studio-scopes.yml
+  href: https://artifacts.apis.io/google-data-studio/scopes/google-data-studio-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-data-studio-scopes.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/openapi/_original/google-data-studio-api-openapi.yml
+  href: https://artifacts.apis.io/google-data-studio/openapi/_original/google-data-studio-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/google-data-studio-api-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/openapi/_original/google-data-studio-linking-api-openapi.yml
+  href: https://artifacts.apis.io/google-data-studio/openapi/_original/google-data-studio-linking-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/google-data-studio-linking-api-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/json-schema/google-data-studio-asset-schema.json
+  href: https://artifacts.apis.io/google-data-studio/json-schema/google-data-studio-asset-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/google-data-studio-asset-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/json-schema/google-data-studio-permissions-schema.json
+  href: https://artifacts.apis.io/google-data-studio/json-schema/google-data-studio-permissions-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/google-data-studio-permissions-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/json-schema/google-data-studio-connector-schema.json
+  href: https://artifacts.apis.io/google-data-studio/json-schema/google-data-studio-connector-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/google-data-studio-connector-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/json-schema/google-data-studio-report-schema.json
+  href: https://artifacts.apis.io/google-data-studio/json-schema/google-data-studio-report-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/google-data-studio-report-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/json-schema/google-data-studio-datasource-schema.json
+  href: https://artifacts.apis.io/google-data-studio/json-schema/google-data-studio-datasource-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/google-data-studio-datasource-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/json-ld/google-data-studio-context.jsonld
+  href: https://artifacts.apis.io/google-data-studio/json-ld/google-data-studio-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/google-data-studio-context.jsonld
@@ -267,10 +266,10 @@ created: '2024-01-01'
 description: Google Data Studio, now rebranded as Looker Studio, is a free data visualization and business intelligence tool from Google that transforms data into customizable, shareable dashboards and reports. It connects to a wide range of data sources and supports community connectors and visualizations for extensibility.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Google Data Studio Finops
-  primary_unit: ''
-  service_category: Business Intelligence / Analytics
+  primary_unit: 1m input data tokens
+  service_category: ''
   slug: google-data-studio-finops
   template: false
 image: https://www.gstatic.com/analytics-suite/header/suite/v2/ic_data_studio.svg
@@ -309,9 +308,12 @@ overview: 'Google Data Studio publishes 6 API contracts indexed on the [APIs.io]
   Google Data Studio''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, changelog, and 28 more developer resources.'
 plans:
 - name: Google Data Studio Plans Pricing
-  plan_count: 6
+  plan_count: 5
   slug: google-data-studio-plans-pricing
-random_paper: 19
+- name: Google Data Studio Price Estimates
+  plan_count: 0
+  slug: google-data-studio-price-estimates
+random_paper: 1
 rate_limits:
 - limit_count: 13
   name: Google Data Studio Rate Limits
@@ -334,24 +336,24 @@ scopes:
   slug: google-data-studio-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 47.3
+  band: strong
+  composite: 60.5
   coverage:
     artifact_dirs: 18
-    catalog_earned: 49.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 65.8
+    catalog_earned: 61.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 35.5
+    access_clarity: 84.2
     contract_governance: 9.8
     contract_quality: 53.7
-    developer_ergonomics: 56.0
+    developer_ergonomics: 58.3
     discoverability: 64.3
-    operational_transparency: 42.1
-  previous_composite: 48.8
+    operational_transparency: 55.3
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     contracts:
@@ -364,14 +366,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 36.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 40.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/screenshots/google-data-studio-2026-06-20T182153.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-data-studio/google-data-studio-2026-06-20T182153.png
 security:
 - kind: authentication
   name: Google Data Studio Authentication

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 30.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,18 +43,15 @@ agentic_access:
   operation_count: 3
   slug: 1worldsync-agentic-access
   summary_line: 3 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://content1-api.1worldsync.com
   baseurl_source: declared
   description: The FetchProduct API from 1WorldSync — 3 operation(s) for fetchproduct.
   name: 1WorldSync FetchProduct API
   slug: 1worldsync-fetchproduct-api
-artifact_total: 7
+artifact_total: 8
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 1WorldSync Content1 FetchProduct API
   slug: open-1worldsync-fetchproduct-api
@@ -62,22 +61,22 @@ common:
   type: BlogRSS
   url: https://1worldsync.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/capabilities/1worldsync-capability-edges.yml
+  href: https://artifacts.apis.io/1worldsync/capabilities/1worldsync-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/1worldsync-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/overlays/1worldsync-content1-overlay.yaml
+  href: https://artifacts.apis.io/1worldsync/overlays/1worldsync-content1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/1worldsync-content1-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/agentic-access/1worldsync-agentic-access.yml
+  href: https://artifacts.apis.io/1worldsync/agentic-access/1worldsync-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/1worldsync-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/security/1worldsync-domain-security.yml
+  href: https://artifacts.apis.io/1worldsync/security/1worldsync-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/1worldsync-domain-security.yml
@@ -138,67 +137,67 @@ common:
   type: TrustCenter
   url: https://1worldsync.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/authentication/1worldsync-authentication.yml
+  href: https://artifacts.apis.io/1worldsync/authentication/1worldsync-authentication.yml
   title: ''
   type: Authentication
   url: authentication/1worldsync-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/packages/1worldsync-packages.yml
+  href: https://artifacts.apis.io/1worldsync/packages/1worldsync-packages.yml
   title: ''
   type: Packages
   url: packages/1worldsync-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/conventions/1worldsync-conventions.yml
+  href: https://artifacts.apis.io/1worldsync/conventions/1worldsync-conventions.yml
   title: ''
   type: Conventions
   url: conventions/1worldsync-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/well-known/1worldsync-well-known.yml
+  href: https://artifacts.apis.io/1worldsync/well-known/1worldsync-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/1worldsync-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/mcp/1worldsync-mcp.yml
+  href: https://artifacts.apis.io/1worldsync/mcp/1worldsync-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/1worldsync-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/llms/1worldsync-llms.txt
+  href: https://artifacts.apis.io/1worldsync/llms/1worldsync-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/1worldsync-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/conformance/1worldsync-conformance.yml
+  href: https://artifacts.apis.io/1worldsync/conformance/1worldsync-conformance.yml
   title: ''
   type: Conformance
   url: conformance/1worldsync-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/lifecycle/1worldsync-lifecycle.yml
+  href: https://artifacts.apis.io/1worldsync/lifecycle/1worldsync-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/1worldsync-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/lifecycle/1worldsync-lifecycle.yml
+  href: https://artifacts.apis.io/1worldsync/lifecycle/1worldsync-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/1worldsync-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/1worldsync/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/sandbox/1worldsync-sandbox.yml
+  href: https://artifacts.apis.io/1worldsync/sandbox/1worldsync-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/1worldsync-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/errors/1worldsync-error-codes.yml
+  href: https://artifacts.apis.io/1worldsync/errors/1worldsync-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/1worldsync-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/data-model/1worldsync-data-model.yml
+  href: https://artifacts.apis.io/1worldsync/data-model/1worldsync-data-model.yml
   title: ''
   type: DataModel
   url: data-model/1worldsync-data-model.yml
@@ -214,7 +213,7 @@ overview: '1WorldSync publishes 1 API contract indexed on the [APIs.io](https://
 
 
   1WorldSync''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, authentication, and 25 more developer resources.'
-random_paper: 12
+random_paper: 14
 score:
   band: developing
   composite: 50.3
@@ -225,15 +224,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 50.2
     developer_ergonomics: 68.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 50.2
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -250,13 +249,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/screenshots/1worldsync-2026-07-25T181115.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/1worldsync/1worldsync-2026-07-25T181115.png
 security:
 - kind: authentication
   name: 1Worldsync Authentication
@@ -270,6 +270,12 @@ security:
   name: 1Worldsync Trust Center
   slug: 1worldsync-trust-center
   summary_line: SOC 2 Type 2, ISO/IEC 27001:2022
+skill_count: 2
+skills:
+- name: Fetch 1WorldSync product hierarchies
+  slug: 1worldsync-fetch-hierarchy
+- name: Search 1WorldSync products
+  slug: 1worldsync-search-products
 slug: 1worldsync
 tags:
 - Company

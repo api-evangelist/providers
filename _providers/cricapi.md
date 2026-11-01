@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: Cricket series list and search
   name: CricAPI Series API
   slug: cricapi-series-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CricAPI Cricket Data Fantasy API
   slug: open-cricapi-fantasy-api
@@ -98,18 +97,22 @@ collections:
   name: CricAPI Cricket Data Fantasy Series API
   slug: open-cricapi-series-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cricapi/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/agentic-access/cricapi-agentic-access.yml
+  href: https://artifacts.apis.io/cricapi/agentic-access/cricapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cricapi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/security/cricapi-domain-security.yml
+  href: https://artifacts.apis.io/cricapi/security/cricapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cricapi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/authentication/cricapi-authentication.yml
+  href: https://artifacts.apis.io/cricapi/authentication/cricapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cricapi-authentication.yml
@@ -216,12 +219,12 @@ overview: 'CricAPI publishes 6 API contracts indexed on the [APIs.io](https://ap
   The CricAPI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  CricAPI''s developer surface includes authentication, documentation, pricing, engineering blog, and 13 more developer resources.'
+  CricAPI''s developer surface includes authentication, documentation, pricing, engineering blog, and 14 more developer resources.'
 plans:
 - name: Cricapi Plans Pricing
   plan_count: 5
   slug: cricapi-plans-pricing
-random_paper: 5
+random_paper: 11
 rate_limits:
 - limit_count: 6
   name: Cricapi Rate Limits
@@ -240,7 +243,7 @@ rules:
   slug: cricapi-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.4
+  composite: 37.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 67.8
@@ -248,15 +251,15 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 0.2
   facets:
     access_clarity: 18.4
     contract_governance: 23.5
     contract_quality: 60.9
-    developer_ergonomics: 28.6
+    developer_ergonomics: 29.8
     discoverability: 66.1
     operational_transparency: 23.7
-  previous_composite: 45.6
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -270,14 +273,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/screenshots/cricapi-2026-06-20T175236.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cricapi/cricapi-2026-06-20T175236.png
 security:
 - kind: authentication
   name: Cricapi Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 20
 apis:
 - description: Core Payments API on the AstroPay platform for creating, retrieving, and managing payment transactions across the AstroPay wallet network and supported local payment methods. Backs merchant pay-in flo
@@ -98,7 +100,7 @@ apis:
 artifact_total: 48
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/astropay/refs/heads/main/security/astropay-domain-security.yml
+  href: https://artifacts.apis.io/astropay/security/astropay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/astropay-domain-security.yml
@@ -246,12 +248,12 @@ overview: 'AstroPay is listed with 20 APIs on the [APIs.io](https://apis.io/) ne
 
 
   AstroPay''s developer surface includes developer portal, documentation, getting-started guide, authentication, changelog, support, signup flow, and 22 more developer resources.'
-random_paper: 3
+random_paper: 19
 score:
-  band: emerging
-  composite: 16.6
+  band: thin
+  composite: 26.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -262,9 +264,9 @@ score:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 33.3
+    developer_ergonomics: 66.7
     discoverability: 62.5
-    operational_transparency: 18.4
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -277,21 +279,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 16.6
+  previous_composite: 26.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/astropay/refs/heads/main/screenshots/astropay-2026-06-20T172512.png
+screenshot: https://apis.io/screenshots/astropay/astropay-2026-06-20T172512.png
 security:
 - kind: domain-security
   name: Astropay Domain Security

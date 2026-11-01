@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: Projects operations
   name: Azure Migrate Projects API
   slug: microsoft-azure-migrate-projects-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure Migrate REST Operations API
   slug: open-microsoft-azure-migrate-operations-api
@@ -90,38 +89,42 @@ collections:
   name: Azure Migrate REST API
   slug: open-microsoft-azure-migrate
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/azure-migrate/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/plans/microsoft-azure-migrate-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-azure-migrate/plans/microsoft-azure-migrate-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-azure-migrate-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/rate-limits/microsoft-azure-migrate-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-azure-migrate/rate-limits/microsoft-azure-migrate-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-azure-migrate-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/finops/microsoft-azure-migrate-finops.yml
+  href: https://artifacts.apis.io/microsoft-azure-migrate/finops/microsoft-azure-migrate-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-azure-migrate-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/agentic-access/microsoft-azure-migrate-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-azure-migrate/agentic-access/microsoft-azure-migrate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-migrate-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/security/microsoft-azure-migrate-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-azure-migrate/security/microsoft-azure-migrate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-migrate-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/authentication/microsoft-azure-migrate-authentication.yml
+  href: https://artifacts.apis.io/microsoft-azure-migrate/authentication/microsoft-azure-migrate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-migrate-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/scopes/microsoft-azure-migrate-scopes.yml
+  href: https://artifacts.apis.io/microsoft-azure-migrate/scopes/microsoft-azure-migrate-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-migrate-scopes.yml
@@ -196,11 +199,11 @@ common:
 created: '2026-03-13'
 description: Azure Migrate provides a unified platform for discovering, assessing, and migrating on-premises servers, infrastructure, applications, databases, and data to Azure. Its REST APIs enable programmatic management of migration projects, discovery, assessment, and replication workflows for VMs, databases, and web apps.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Microsoft Azure Migrate Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: microsoft-azure-migrate-finops
   template: true
 image: https://azure.microsoft.com/svghandler/azure-migrate/
@@ -212,12 +215,12 @@ network: true
 overview: 'Azure Migrate is listed with 9 APIs on the [APIs.io](https://apis.io/) network, including Operations API, Projects API, and 7 more. Tagged areas include Cloud Migration, Database Migration, Discovery, Migration, and Replication.
 
 
-  Azure Migrate''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, support, engineering blog, and 17 more developer resources.'
+  Azure Migrate''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, support, engineering blog, and 18 more developer resources.'
 plans:
 - name: Microsoft Azure Migrate Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: microsoft-azure-migrate-plans-pricing
-random_paper: 14
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Migrate Rate Limits
@@ -228,24 +231,24 @@ scopes:
   slug: microsoft-azure-migrate-scopes
   summary_line: 1 scope · implicit
 score:
-  band: developing
-  composite: 51.6
+  band: strong
+  composite: 55.9
   coverage:
     artifact_dirs: 13
-    catalog_earned: 46.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.2
   facets:
-    access_clarity: 52.6
+    access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 44.1
-    developer_ergonomics: 61.9
+    developer_ergonomics: 65.5
     discoverability: 85.7
-    operational_transparency: 42.1
-  previous_composite: 53.1
+    operational_transparency: 44.7
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     contracts:
@@ -259,13 +262,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/screenshots/microsoft-azure-migrate-2026-06-20T185423.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-azure-migrate/microsoft-azure-migrate-2026-06-20T185423.png
 security:
 - kind: authentication
   name: Microsoft Azure Migrate Authentication

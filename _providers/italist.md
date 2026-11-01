@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Agent-native commerce surface for the Italist Shopify storefront — a Universal Commerce Protocol (UCP) merchant profile and a Model Context Protocol (MCP) shopping endpoint for catalog search, cart, a
@@ -66,47 +68,47 @@ common:
   type: PrivacyPolicy
   url: https://italist.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/mcp/italist-mcp.yml
+  href: https://artifacts.apis.io/italist/mcp/italist-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/italist-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/llms/italist-llms.txt
+  href: https://artifacts.apis.io/italist/llms/italist-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/italist-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/italist/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/well-known/italist-well-known.yml
+  href: https://artifacts.apis.io/italist/well-known/italist-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/italist-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/authentication/italist-authentication.yml
+  href: https://artifacts.apis.io/italist/authentication/italist-authentication.yml
   title: ''
   type: Authentication
   url: authentication/italist-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/scopes/italist-scopes.yml
+  href: https://artifacts.apis.io/italist/scopes/italist-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/italist-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/conventions/italist-conventions.yml
+  href: https://artifacts.apis.io/italist/conventions/italist-conventions.yml
   title: ''
   type: Conventions
   url: conventions/italist-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/conformance/italist-conformance.yml
+  href: https://artifacts.apis.io/italist/conformance/italist-conformance.yml
   title: ''
   type: Conformance
   url: conformance/italist-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/security/italist-domain-security.yml
+  href: https://artifacts.apis.io/italist/security/italist-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/italist-domain-security.yml
@@ -126,7 +128,7 @@ overview: 'Italist is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Italist''s developer surface includes support, engineering blog, signup flow, authentication, and 11 more developer resources.'
-random_paper: 14
+random_paper: 18
 scopes:
 - name: Italist Scopes
   scope_count: 4
@@ -134,7 +136,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.8
+  composite: 22.8
   coverage:
     artifact_dirs: 13
     catalog_earned: 32.0
@@ -142,15 +144,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 0.0
-  previous_composite: 23.7
+  previous_composite: 22.8
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -161,14 +163,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/screenshots/italist-2026-08-07T170928.png
+screenshot: https://apis.io/screenshots/italist/italist-2026-08-07T170928.png
 security:
 - kind: authentication
   name: Italist Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A POST-only REST API for programmatically writing data into Marin. Five bulk endpoints — /campaigns, /groups, /keywords, /ads and /strategies — accept a JSON body containing a single "data" array of r
@@ -73,7 +75,7 @@ common:
   type: PrivacyPolicy
   url: https://www.marinsoftware.com/legal/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/security/marin-software-domain-security.yml
+  href: https://artifacts.apis.io/marin-software/security/marin-software-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/marin-software-domain-security.yml
@@ -90,47 +92,47 @@ common:
   type: Support
   url: https://support.marinsoftware.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/authentication/marin-software-authentication.yml
+  href: https://artifacts.apis.io/marin-software/authentication/marin-software-authentication.yml
   title: ''
   type: Authentication
   url: authentication/marin-software-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/conventions/marin-software-conventions.yml
+  href: https://artifacts.apis.io/marin-software/conventions/marin-software-conventions.yml
   title: ''
   type: Conventions
   url: conventions/marin-software-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/data-model/marin-software-data-model.yml
+  href: https://artifacts.apis.io/marin-software/data-model/marin-software-data-model.yml
   title: ''
   type: DataModel
   url: data-model/marin-software-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/errors/marin-software-error-codes.yml
+  href: https://artifacts.apis.io/marin-software/errors/marin-software-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/marin-software-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/rate-limits/marin-software-rate-limits.yml
+  href: https://artifacts.apis.io/marin-software/rate-limits/marin-software-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/marin-software-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/lifecycle/marin-software-lifecycle.yml
+  href: https://artifacts.apis.io/marin-software/lifecycle/marin-software-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/marin-software-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/plans/marin-software-plans-pricing.yml
+  href: https://artifacts.apis.io/marin-software/plans/marin-software-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/marin-software-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/packages/marin-software-packages.yml
+  href: https://artifacts.apis.io/marin-software/packages/marin-software-packages.yml
   title: ''
   type: Packages
   url: packages/marin-software-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/conformance/marin-software-conformance.yml
+  href: https://artifacts.apis.io/marin-software/conformance/marin-software-conformance.yml
   title: ''
   type: Conformance
   url: conformance/marin-software-conformance.yml
@@ -139,7 +141,7 @@ common:
   type: Compliance
   url: https://www.marinsoftware.com/legal/data-processing-addendum
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/llms/marin-software-llms.txt
+  href: https://artifacts.apis.io/marin-software/llms/marin-software-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/marin-software-llms.txt
@@ -160,7 +162,7 @@ plans:
 - name: Marin Software Plans Pricing
   plan_count: 3
   slug: marin-software-plans-pricing
-random_paper: 3
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Marin Software Rate Limits
@@ -169,13 +171,13 @@ score:
   band: thin
   composite: 33.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
@@ -183,7 +185,7 @@ score:
     developer_ergonomics: 35.7
     discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 33.2
+  previous_composite: 33.3
   provenance:
     conformance: derived
   regulatory:
@@ -198,14 +200,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/screenshots/marin-software-2026-07-25T230152.png
+screenshot: https://apis.io/screenshots/marin-software/marin-software-2026-07-25T230152.png
 security:
 - kind: authentication
   name: Marin Software Authentication

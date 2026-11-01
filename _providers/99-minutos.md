@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
+  score: 37.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -91,15 +93,12 @@ apis:
   description: The oauth API from 99 Minutos — 1 operation(s) for oauth.
   name: 99 Minutos OAUTH API
   slug: 99-minutos-oauth-api
-artifact_total: 25
+artifact_total: 27
 asyncapis:
 - description: ''
   name: 99 Minutos Webhooks
   slug: 99-minutos-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: API Version 3 coverage API
   slug: open-99-minutos-coverage-api
@@ -129,7 +128,7 @@ collections:
   slug: open-99-minutos-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/capabilities/99-minutos-capability-edges.yml
+  href: https://artifacts.apis.io/99-minutos/capabilities/99-minutos-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/99-minutos-capability-edges.yml
@@ -178,87 +177,87 @@ common:
   type: Compliance
   url: https://security.99minutos.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/security/99-minutos-trust-center.yml
+  href: https://artifacts.apis.io/99-minutos/security/99-minutos-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/99-minutos-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/security/99-minutos-domain-security.yml
+  href: https://artifacts.apis.io/99-minutos/security/99-minutos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/99-minutos-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/authentication/99-minutos-authentication.yml
+  href: https://artifacts.apis.io/99-minutos/authentication/99-minutos-authentication.yml
   title: ''
   type: Authentication
   url: authentication/99-minutos-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/conventions/99-minutos-conventions.yml
+  href: https://artifacts.apis.io/99-minutos/conventions/99-minutos-conventions.yml
   title: ''
   type: Conventions
   url: conventions/99-minutos-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/errors/99-minutos-problem-types.yml
+  href: https://artifacts.apis.io/99-minutos/errors/99-minutos-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/99-minutos-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/lifecycle/99-minutos-lifecycle.yml
+  href: https://artifacts.apis.io/99-minutos/lifecycle/99-minutos-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/99-minutos-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/sandbox/99-minutos-sandbox.yml
+  href: https://artifacts.apis.io/99-minutos/sandbox/99-minutos-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/99-minutos-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/asyncapi/99-minutos-webhooks.yml
+  href: https://artifacts.apis.io/99-minutos/asyncapi/99-minutos-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/99-minutos-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/mcp/99-minutos-mcp.yml
+  href: https://artifacts.apis.io/99-minutos/mcp/99-minutos-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/99-minutos-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/99-minutos/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/packages/99-minutos-packages.yml
+  href: https://artifacts.apis.io/99-minutos/packages/99-minutos-packages.yml
   title: ''
   type: Packages
   url: packages/99-minutos-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/conformance/99-minutos-conformance.yml
+  href: https://artifacts.apis.io/99-minutos/conformance/99-minutos-conformance.yml
   title: ''
   type: Conformance
   url: conformance/99-minutos-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/data-model/99-minutos-data-model.yml
+  href: https://artifacts.apis.io/99-minutos/data-model/99-minutos-data-model.yml
   title: ''
   type: DataModel
   url: data-model/99-minutos-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/overlays/99-minutos-api-v3-overlay.yaml
+  href: https://artifacts.apis.io/99-minutos/overlays/99-minutos-api-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/99-minutos-api-v3-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/llms/99-minutos-llms.txt
+  href: https://artifacts.apis.io/99-minutos/llms/99-minutos-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/99-minutos-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/well-known/99-minutos-well-known.yml
+  href: https://artifacts.apis.io/99-minutos/well-known/99-minutos-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/99-minutos-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/agentic-access/99-minutos-agentic-access.yml
+  href: https://artifacts.apis.io/99-minutos/agentic-access/99-minutos-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/99-minutos-agentic-access.yml
@@ -267,7 +266,7 @@ common:
   type: Website
   url: https://99minutos.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/rate-limits/99-minutos-rate-limits.yml
+  href: https://artifacts.apis.io/99-minutos/rate-limits/99-minutos-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/99-minutos-rate-limits.yml
@@ -294,14 +293,14 @@ overview: '99 Minutos publishes 9 API contracts indexed on the [APIs.io](https:/
 
 
   99 Minutos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: 99 Minutos Rate Limits
   slug: 99-minutos-rate-limits
 score:
   band: developing
-  composite: 46.3
+  composite: 52.6
   coverage:
     artifact_dirs: 25
     catalog_earned: 45.0
@@ -311,12 +310,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 55.3
-    developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 39.5
+    contract_quality: 54.4
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -324,7 +323,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 46.3
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -341,13 +340,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/screenshots/99-minutos-2026-07-25T181252.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/99-minutos/99-minutos-2026-07-25T181252.png
 security:
 - kind: authentication
   name: 99 Minutos Authentication
@@ -361,6 +361,14 @@ security:
   name: 99 Minutos Trust Center
   slug: 99-minutos-trust-center
   summary_line: ISO 27001
+skill_count: 3
+skills:
+- name: Create and track a shipment
+  slug: 99-minutos-create-and-track-shipment
+- name: Quote a shipping rate and check coverage
+  slug: 99-minutos-quote-shipping-rate
+- name: Subscribe to shipment status webhooks
+  slug: 99-minutos-subscribe-webhooks
 slug: 99-minutos
 tags:
 - Company

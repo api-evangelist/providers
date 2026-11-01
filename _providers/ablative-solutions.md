@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,12 +68,12 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/ablative-solutions_stock/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ablative-solutions/refs/heads/main/security/ablative-solutions-domain-security.yml
+  href: https://artifacts.apis.io/ablative-solutions/security/ablative-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ablative-solutions-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ablative-solutions/refs/heads/main/llms/ablative-solutions-llms.txt
+  href: https://artifacts.apis.io/ablative-solutions/llms/ablative-solutions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ablative-solutions-llms.txt
@@ -104,10 +106,10 @@ name: Ablative Solutions
 nav: Providers
 network: true
 overview: Ablative Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Health, Hypertension, and Renal Denervation.
-random_paper: 1
+random_paper: 21
 score:
   band: minimal
-  composite: 9.2
+  composite: 8.5
   coverage:
     artifact_dirs: 5
     catalog_earned: 25.0
@@ -121,7 +123,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 51.8
+    discoverability: 44.6
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -130,21 +132,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 9.2
+  previous_composite: 8.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ablative-solutions/refs/heads/main/screenshots/ablative-solutions-2026-08-07T160739.png
+screenshot: https://apis.io/screenshots/ablative-solutions/ablative-solutions-2026-08-07T160739.png
 security:
 - kind: domain-security
   name: Ablative Solutions Domain Security

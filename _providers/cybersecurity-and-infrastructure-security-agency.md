@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,11 +61,8 @@ apis:
   description: JSON Schema for the KEV catalog
   name: Cybersecurity and Infrastructure Security Agency Schema API
   slug: cybersecurity-and-infrastructure-security-agency-schema-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CISA Known Exploited Vulnerabilities (KEV) Catalog API
   slug: open-cisa-kev
@@ -75,37 +74,37 @@ collections:
   slug: open-cybersecurity-and-infrastructure-security-agency-schema-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/plans/cybersecurity-and-infrastructure-security-agency-plans-pricing.yml
+  href: https://artifacts.apis.io/cybersecurity-and-infrastructure-security-agency/plans/cybersecurity-and-infrastructure-security-agency-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cybersecurity-and-infrastructure-security-agency-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/rate-limits/cybersecurity-and-infrastructure-security-agency-rate-limits.yml
+  href: https://artifacts.apis.io/cybersecurity-and-infrastructure-security-agency/rate-limits/cybersecurity-and-infrastructure-security-agency-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cybersecurity-and-infrastructure-security-agency-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/finops/cybersecurity-and-infrastructure-security-agency-finops.yml
+  href: https://artifacts.apis.io/cybersecurity-and-infrastructure-security-agency/finops/cybersecurity-and-infrastructure-security-agency-finops.yml
   title: ''
   type: FinOps
   url: finops/cybersecurity-and-infrastructure-security-agency-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/capabilities/cybersecurity-and-infrastructure-security-agency-capability-edges.yml
+  href: https://artifacts.apis.io/cybersecurity-and-infrastructure-security-agency/capabilities/cybersecurity-and-infrastructure-security-agency-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cybersecurity-and-infrastructure-security-agency-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/agentic-access/cybersecurity-and-infrastructure-security-agency-agentic-access.yml
+  href: https://artifacts.apis.io/cybersecurity-and-infrastructure-security-agency/agentic-access/cybersecurity-and-infrastructure-security-agency-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cybersecurity-and-infrastructure-security-agency-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/security/cybersecurity-and-infrastructure-security-agency-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cybersecurity-and-infrastructure-security-agency/security/cybersecurity-and-infrastructure-security-agency-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cybersecurity-and-infrastructure-security-agency-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/security/cybersecurity-and-infrastructure-security-agency-domain-security.yml
+  href: https://artifacts.apis.io/cybersecurity-and-infrastructure-security-agency/security/cybersecurity-and-infrastructure-security-agency-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cybersecurity-and-infrastructure-security-agency-domain-security.yml
@@ -154,22 +153,22 @@ common:
   type: PrivacyPolicy
   url: https://www.cisa.gov/privacy-policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/json-ld/cisa-context.jsonld
+  href: https://artifacts.apis.io/cybersecurity-and-infrastructure-security-agency/json-ld/cisa-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cisa-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/json-schema/cisa-kev-vulnerability-schema.json
+  href: https://artifacts.apis.io/cybersecurity-and-infrastructure-security-agency/json-schema/cisa-kev-vulnerability-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cisa-kev-vulnerability-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/vocabulary/cisa-vocabulary.yml
+  href: https://artifacts.apis.io/cybersecurity-and-infrastructure-security-agency/vocabulary/cisa-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cisa-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/rules/cisa-kev-rules.yml
+  href: https://artifacts.apis.io/cybersecurity-and-infrastructure-security-agency/rules/cisa-kev-rules.yml
   title: ''
   type: Rules
   url: rules/cisa-kev-rules.yml
@@ -183,7 +182,7 @@ finops:
 - has_sources: false
   method: generated
   name: Cybersecurity And Infrastructure Security Agency Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: cybersecurity-and-infrastructure-security-agency-finops
   template: true
@@ -213,7 +212,7 @@ plans:
 - name: Cybersecurity And Infrastructure Security Agency Plans Pricing
   plan_count: 3
   slug: cybersecurity-and-infrastructure-security-agency-plans-pricing
-random_paper: 14
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Cybersecurity And Infrastructure Security Agency Rate Limits
@@ -244,7 +243,7 @@ rules:
   slug: cybersecurity-and-infrastructure-security-agency-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.7
+  composite: 32.4
   coverage:
     artifact_dirs: 15
     catalog_earned: 60.4
@@ -252,20 +251,20 @@ score:
     catalog_gap: 54.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 52.6
     developer_ergonomics: 11.9
     discoverability: 57.1
-    operational_transparency: 10.5
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 37.0
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -279,14 +278,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/screenshots/cybersecurity-and-infrastructure-security-agency-2026-06-20T175408.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cybersecurity-and-infrastructure-security-agency/cybersecurity-and-infrastructure-security-agency-2026-06-20T175408.png
 security:
 - kind: domain-security
   name: Cybersecurity And Infrastructure Security Agency Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'CKAN Action API for Montenegro Open Data, a consistent JSON-over-HTTP interface over a catalog of 894 datasets. Standard actions include package_search, package_show, package_list, organization_list, '
@@ -54,22 +56,22 @@ common:
   type: Documentation
   url: https://docs.ckan.org/en/latest/api/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opendata-gov-me/refs/heads/main/plans/opendata-gov-me-plans-pricing.yml
+  href: https://artifacts.apis.io/opendata-gov-me/plans/opendata-gov-me-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/opendata-gov-me-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opendata-gov-me/refs/heads/main/rate-limits/opendata-gov-me-rate-limits.yml
+  href: https://artifacts.apis.io/opendata-gov-me/rate-limits/opendata-gov-me-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/opendata-gov-me-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opendata-gov-me/refs/heads/main/finops/opendata-gov-me-finops.yml
+  href: https://artifacts.apis.io/opendata-gov-me/finops/opendata-gov-me-finops.yml
   title: ''
   type: FinOps
   url: finops/opendata-gov-me-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opendata-gov-me/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/opendata-gov-me/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -97,7 +99,7 @@ plans:
 - name: Opendata Gov Me Plans Pricing
   plan_count: 1
   slug: opendata-gov-me-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Opendata Gov Me Rate Limits
@@ -112,7 +114,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -120,21 +122,21 @@ score:
     developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 14.4
+  previous_composite: 8.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/opendata-gov-me/refs/heads/main/screenshots/opendata-gov-me-2026-06-20T190939.png
+screenshot: https://apis.io/screenshots/opendata-gov-me/opendata-gov-me-2026-06-20T190939.png
 slug: opendata-gov-me
 tags:
 - Open Data

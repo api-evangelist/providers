@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 4
@@ -91,11 +93,8 @@ apis:
   description: User account management
   name: Windstream Holdings Users API
   slug: windstream-holdings-users-api
-artifact_total: 34
+artifact_total: 33
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Windstream Enterprise Contact Center Services API
   slug: open-windstream-contact-center
@@ -131,17 +130,17 @@ collections:
   slug: open-windstream-voice
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/plans/windstream-holdings-plans-pricing.yml
+  href: https://artifacts.apis.io/windstream-holdings/plans/windstream-holdings-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/windstream-holdings-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/rate-limits/windstream-holdings-rate-limits.yml
+  href: https://artifacts.apis.io/windstream-holdings/rate-limits/windstream-holdings-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/windstream-holdings-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/finops/windstream-holdings-finops.yml
+  href: https://artifacts.apis.io/windstream-holdings/finops/windstream-holdings-finops.yml
   title: ''
   type: FinOps
   url: finops/windstream-holdings-finops.yml
@@ -150,22 +149,22 @@ common:
   type: Blog
   url: https://solutions.uniti.com/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/capabilities/windstream-holdings-capability-edges.yml
+  href: https://artifacts.apis.io/windstream-holdings/capabilities/windstream-holdings-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/windstream-holdings-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/agentic-access/windstream-holdings-agentic-access.yml
+  href: https://artifacts.apis.io/windstream-holdings/agentic-access/windstream-holdings-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/windstream-holdings-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/security/windstream-holdings-domain-security.yml
+  href: https://artifacts.apis.io/windstream-holdings/security/windstream-holdings-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/windstream-holdings-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/authentication/windstream-holdings-authentication.yml
+  href: https://artifacts.apis.io/windstream-holdings/authentication/windstream-holdings-authentication.yml
   title: ''
   type: Authentication
   url: authentication/windstream-holdings-authentication.yml
@@ -218,7 +217,7 @@ finops:
 - has_sources: false
   method: generated
   name: Windstream Holdings Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: windstream-holdings-finops
   template: true
@@ -267,7 +266,7 @@ press:
 - date: ''
   title: Windstream Enterprise and Amazon Web Services ...
   url: https://news.windstream.com/news/news-details/2023/Windstream-Enterprise-and-Amazon-Web-Services-Advance-the-Virtual-Meeting-Experience-for-Businesses/default.aspx
-random_paper: 7
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Windstream Holdings Rate Limits
@@ -298,7 +297,7 @@ rules:
   slug: windstream-holdings-rules
 score:
   band: thin
-  composite: 31.5
+  composite: 31.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 63.0
@@ -306,15 +305,15 @@ score:
     catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
-    contract_quality: 55.9
+    contract_quality: 52.5
     developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 32.6
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     contracts:
@@ -328,13 +327,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 14.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/screenshots/windstream-holdings-2026-06-20T201507.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/windstream-holdings/windstream-holdings-2026-06-20T201507.png
 security:
 - kind: authentication
   name: Windstream Holdings Authentication

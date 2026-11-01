@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -63,11 +65,8 @@ apis:
   description: Programmatic administration of games, studios, users, and permissions.
   name: GameAnalytics Organization API
   slug: gameanalytics-organization-api
-artifact_total: 17
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: GameAnalytics REST APIs Collection API
   slug: open-gameanalytics-collection-api
@@ -82,32 +81,32 @@ collections:
   slug: open-gameanalytics
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/capabilities/gameanalytics-capability-edges.yml
+  href: https://artifacts.apis.io/gameanalytics/capabilities/gameanalytics-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gameanalytics-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/agentic-access/gameanalytics-agentic-access.yml
+  href: https://artifacts.apis.io/gameanalytics/agentic-access/gameanalytics-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gameanalytics-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/security/gameanalytics-trust-center.yml
+  href: https://artifacts.apis.io/gameanalytics/security/gameanalytics-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gameanalytics-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/security/gameanalytics-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/gameanalytics/security/gameanalytics-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gameanalytics-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/security/gameanalytics-domain-security.yml
+  href: https://artifacts.apis.io/gameanalytics/security/gameanalytics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gameanalytics-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/authentication/gameanalytics-authentication.yml
+  href: https://artifacts.apis.io/gameanalytics/authentication/gameanalytics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gameanalytics-authentication.yml
@@ -128,17 +127,17 @@ common:
   type: Documentation
   url: https://docs.gameanalytics.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/plans/gameanalytics-plans-pricing.yml
+  href: https://artifacts.apis.io/gameanalytics/plans/gameanalytics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gameanalytics-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/rate-limits/gameanalytics-rate-limits.yml
+  href: https://artifacts.apis.io/gameanalytics/rate-limits/gameanalytics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gameanalytics-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/finops/gameanalytics-finops.yml
+  href: https://artifacts.apis.io/gameanalytics/finops/gameanalytics-finops.yml
   title: ''
   type: FinOps
   url: finops/gameanalytics-finops.yml
@@ -170,14 +169,14 @@ plans:
 - name: Gameanalytics Plans Pricing
   plan_count: 3
   slug: gameanalytics-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Gameanalytics Rate Limits
   slug: gameanalytics-rate-limits
 score:
   band: thin
-  composite: 30.2
+  composite: 32.6
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.0
@@ -185,15 +184,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 48.8
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 38.4
+    operational_transparency: 23.7
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -207,13 +206,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/screenshots/gameanalytics-2026-07-25T215409.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gameanalytics/gameanalytics-2026-07-25T215409.png
 security:
 - kind: authentication
   name: Gameanalytics Authentication

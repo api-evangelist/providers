@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.3
-  scored_at: '2026-10-17'
+  score: 21.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,79 +54,76 @@ apis:
 artifact_total: 9
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Trades API
   slug: open-origin-trades-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/capabilities/origin-capability-edges.yml
+  href: https://artifacts.apis.io/origin/capabilities/origin-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/origin-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/mcp/origin-mcp.yml
+  href: https://artifacts.apis.io/origin/mcp/origin-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/origin-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/security/origin-domain-security.yml
+  href: https://artifacts.apis.io/origin/security/origin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/origin-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/agentic-access/origin-agentic-access.yml
+  href: https://artifacts.apis.io/origin/agentic-access/origin-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/origin-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/authentication/origin-authentication.yml
+  href: https://artifacts.apis.io/origin/authentication/origin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/origin-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/conventions/origin-conventions.yml
+  href: https://artifacts.apis.io/origin/conventions/origin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/origin-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/lifecycle/origin-lifecycle.yml
+  href: https://artifacts.apis.io/origin/lifecycle/origin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/origin-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/conformance/origin-conformance.yml
+  href: https://artifacts.apis.io/origin/conformance/origin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/origin-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/errors/origin-problem-types.yml
+  href: https://artifacts.apis.io/origin/errors/origin-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/origin-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/data-model/origin-data-model.yml
+  href: https://artifacts.apis.io/origin/data-model/origin-data-model.yml
   title: ''
   type: DataModel
   url: data-model/origin-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/changelog/origin-changelog.yml
+  href: https://artifacts.apis.io/origin/changelog/origin-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/origin-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/llms/origin-llms.txt
+  href: https://artifacts.apis.io/origin/llms/origin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/origin-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/overlays/origin-airbrush-overlay.yaml
+  href: https://artifacts.apis.io/origin/overlays/origin-airbrush-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/origin-airbrush-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/origin/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -190,26 +189,26 @@ overview: 'Origin publishes 1 API contract indexed on the [APIs.io](https://apis
 
 
   Origin''s developer surface includes authentication, changelog, documentation, API reference, engineering blog, support, and 18 more developer resources.'
-random_paper: 10
+random_paper: 0
 score:
   band: thin
-  composite: 37.8
+  composite: 33.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.0
-    catalog_max: 100.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 28.6
+    access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 38.2
     developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 37.7
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,14 +225,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/screenshots/origin-2026-08-07T190930.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/origin/origin-2026-08-07T190930.png
 security:
 - kind: authentication
   name: Origin Authentication
@@ -243,6 +242,10 @@ security:
   name: Origin Domain Security
   slug: origin-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Fetch Origin post-trade and termsheet data
+  slug: origin-fetch-post-trade-data
 slug: origin
 tags:
 - Company

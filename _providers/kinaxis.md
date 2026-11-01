@@ -10,30 +10,32 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
-    rate_limit_signal: derived
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 3.1
-  scored_at: '2026-10-17'
+  score: 20.5
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: REST-based interface exposing the Kinaxis Maestro (RapidResponse) supply chain planning platform for data integration, process orchestration, and insight embedding. Enables reading and writing plannin
@@ -48,17 +50,80 @@ apis:
 artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kinaxis/refs/heads/main/security/kinaxis-trust-center.yml
+  title: ''
+  type: Compliance
+  url: https://www.kinaxis.com/en/trust-center
+- group: agent
+  href: https://artifacts.apis.io/kinaxis/llms/kinaxis-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/kinaxis-llms.txt
+- group: auth
+  href: https://artifacts.apis.io/kinaxis/well-known/kinaxis-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/kinaxis-security.txt
+- group: auth
+  href: https://artifacts.apis.io/kinaxis/well-known/kinaxis-aws-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/kinaxis-aws-security.txt
+- group: agent
+  href: https://artifacts.apis.io/kinaxis/well-known/kinaxis-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/kinaxis-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/kinaxis/hosts/kinaxis-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/kinaxis-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/kinaxis/integrations/kinaxis-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/kinaxis-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/kinaxis/vendors/kinaxis-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/kinaxis-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.kinaxis.com/en/terms-of-use
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.kinaxis.com/en/continuous-learning-services/register-and-subscribe-training
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.kinaxis.com/en/security
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.kinaxis.com/en/privacy-policy
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.kinaxis.com/en/news
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.kinaxis.com/en/leadership
+- group: auth
+  href: https://artifacts.apis.io/kinaxis/security/kinaxis-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kinaxis-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kinaxis/refs/heads/main/security/kinaxis-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kinaxis/security/kinaxis-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kinaxis-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kinaxis/refs/heads/main/security/kinaxis-domain-security.yml
+  href: https://artifacts.apis.io/kinaxis/security/kinaxis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kinaxis-domain-security.yml
@@ -91,21 +156,30 @@ common:
   type: X
   url: https://x.com/kinaxis
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kinaxis/refs/heads/main/plans/kinaxis-plans-pricing.yml
+  href: https://artifacts.apis.io/kinaxis/plans/kinaxis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kinaxis-plans-pricing.yml
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kinaxis/refs/heads/main/rate-limits/kinaxis-rate-limits.yml
-  title: ''
-  type: RateLimits
-  url: rate-limits/kinaxis-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kinaxis/refs/heads/main/finops/kinaxis-finops.yml
+  href: https://artifacts.apis.io/kinaxis/finops/kinaxis-finops.yml
   title: ''
   type: FinOps
   url: finops/kinaxis-finops.yml
-created: 2026-06-13
+coverage:
+  checked: '2026-10-20'
+  detail: The RapidResponse/Maestro REST API is documented only inside the Kinaxis Knowledge Network, a Salesforce community at knowledge.kinaxis.com that renders a 376-character login shell to anonymous readers and 401s its /mcp/v1 path; no public OpenAPI, SDK or developer reference exists.
+  evidence:
+  - status: 200
+    url: https://knowledge.kinaxis.com/s/
+  - status: 401
+    url: https://knowledge.kinaxis.com/mcp/v1
+  - status: 404
+    url: https://knowledge.kinaxis.com/s/article/RapidResponse-REST-API
+  - status: 302
+    url: https://rapidresponse.kinaxis.com/openapi.json
+  reason: customer-only-docs
+  state: gated
+created: '2026-06-13'
 description: Kinaxis is a concurrent supply chain planning platform — branded Maestro (formerly RapidResponse) — that provides REST APIs for supply chain orchestration, scenario modeling, demand sensing, and supply planning across global manufacturing and distribution networks. The platform offers an AI-infused intelligence engine, digital twin simulation, and a Developer Studio for building custom applications and algorithms on top of the supply chain data fabric.
 finops:
 - has_sources: false
@@ -117,41 +191,41 @@ finops:
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kinaxis.png
 layout: provider
-modified: 2026-06-13
+modified: '2026-06-13'
 name: Kinaxis
 nav: Providers
 network: true
 overview: 'Kinaxis is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Supply Chain, Supply Chain Planning, Demand Sensing, Scenario Modeling, and Supply Planning.
 
 
-  Kinaxis'' developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  Kinaxis'' developer surface includes signup flow, documentation, engineering blog, pricing, and 22 more developer resources.'
 plans:
 - name: Kinaxis Plans Pricing
   plan_count: 1
   slug: kinaxis-plans-pricing
-random_paper: 11
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Kinaxis Rate Limits
   slug: kinaxis-rate-limits
 score:
-  band: emerging
-  composite: 20.6
+  band: thin
+  composite: 31.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 13
     catalog_earned: 42.0
     catalog_earned_first_party: 0.0
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.2
+  delta: 0.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 65.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 71.4
-    operational_transparency: 5.3
+    discoverability: 75.0
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -159,21 +233,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 24.8
+  previous_composite: 31.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 28.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kinaxis/refs/heads/main/screenshots/kinaxis-2026-06-20T184039.png
+screenshot: https://apis.io/screenshots/kinaxis/kinaxis-2026-06-20T184039.png
 security:
 - kind: domain-security
   name: Kinaxis Domain Security

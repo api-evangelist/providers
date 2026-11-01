@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,16 +35,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 5
+artifact_total: 7
 common:
 - group: commercial
   title: ''
   type: Pricing
   url: https://www.domesystems.ai/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/plans/dome-systems-plans-pricing.yml
+  href: https://artifacts.apis.io/dome-systems/plans/dome-systems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dome-systems-plans-pricing.yml
@@ -95,67 +97,67 @@ common:
   type: PrivacyPolicy
   url: https://domesystems.ai/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/authentication/dome-systems-authentication.yml
+  href: https://artifacts.apis.io/dome-systems/authentication/dome-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dome-systems-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/packages/dome-systems-packages.yml
+  href: https://artifacts.apis.io/dome-systems/packages/dome-systems-packages.yml
   title: ''
   type: Packages
   url: packages/dome-systems-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/packages/dome-systems-packages.yml
+  href: https://artifacts.apis.io/dome-systems/packages/dome-systems-packages.yml
   title: ''
   type: SDKs
   url: packages/dome-systems-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/cli/dome-systems-cli.yml
+  href: https://artifacts.apis.io/dome-systems/cli/dome-systems-cli.yml
   title: ''
   type: CLI
   url: cli/dome-systems-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/mcp/dome-systems-mcp.yml
+  href: https://artifacts.apis.io/dome-systems/mcp/dome-systems-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dome-systems-mcp.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/sandbox/dome-systems-sandbox.yml
+  href: https://artifacts.apis.io/dome-systems/sandbox/dome-systems-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dome-systems-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/changelog/dome-systems-changelog.yml
+  href: https://artifacts.apis.io/dome-systems/changelog/dome-systems-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dome-systems-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/lifecycle/dome-systems-lifecycle.yml
+  href: https://artifacts.apis.io/dome-systems/lifecycle/dome-systems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dome-systems-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/conventions/dome-systems-conventions.yml
+  href: https://artifacts.apis.io/dome-systems/conventions/dome-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dome-systems-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/conformance/dome-systems-conformance.yml
+  href: https://artifacts.apis.io/dome-systems/conformance/dome-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dome-systems-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/llms/dome-systems-llms.txt
+  href: https://artifacts.apis.io/dome-systems/llms/dome-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dome-systems-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/well-known/dome-systems-well-known.yml
+  href: https://artifacts.apis.io/dome-systems/well-known/dome-systems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dome-systems-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/well-known/dome-systems-security.txt
+  href: https://artifacts.apis.io/dome-systems/well-known/dome-systems-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/dome-systems-security.txt
@@ -164,17 +166,25 @@ common:
   type: Security
   url: https://www.domesystems.ai/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/security/dome-systems-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dome-systems/security/dome-systems-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dome-systems-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/security/dome-systems-domain-security.yml
+  href: https://artifacts.apis.io/dome-systems/security/dome-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dome-systems-domain-security.yml
 created: '2026-07-17'
 description: Dome Systems is the enterprise agentic operations platform — the system of control for the agent era. Founded in 2024 by Dave McJannet (former HashiCorp CEO) and Marc Holmes, and backed by Redpoint Ventures, Bessemer Venture Partners, and Mango Capital, Dome registers every AI agent, governs every tool and model call against policy, and produces an immutable audit trail across the estate — regardless of runtime, cloud, or who built the agent. The Dome Platform is three control points — Registry (code), Gateway (tools), and Broker (models) — on a control plane of Cedar-based Authorization and Audit, administered through Go and Python SDKs, a REST API, a CLI, and a built-in MCP surface that exposes Dome itself to AI assistants.
+finops:
+- has_sources: true
+  method: derived
+  name: Dome Systems Finops
+  primary_unit: workspace
+  service_category: ''
+  slug: dome-systems-finops
+  template: false
 image: https://www.domesystems.ai/favicon.ico
 layout: provider
 mcp_servers:
@@ -193,26 +203,29 @@ plans:
 - name: Dome Systems Plans Pricing
   plan_count: 4
   slug: dome-systems-plans-pricing
-random_paper: 4
+- name: Dome Systems Price Estimates
+  plan_count: 0
+  slug: dome-systems-price-estimates
+random_paper: 10
 score:
   band: developing
-  composite: 42.3
+  composite: 45.6
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 39.0
+    artifact_dirs: 17
+    catalog_earned: 42.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 76.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.5
+  delta: 1.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 71.4
-    discoverability: 55.0
-    operational_transparency: 23.7
-  previous_composite: 33.8
+    developer_ergonomics: 78.6
+    discoverability: 48.3
+    operational_transparency: 31.6
+  previous_composite: 44.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -222,14 +235,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/screenshots/dome-systems-2026-07-25T212250.png
+screenshot: https://apis.io/screenshots/dome-systems/dome-systems-2026-07-25T212250.png
 security:
 - kind: authentication
   name: Dome Systems Authentication

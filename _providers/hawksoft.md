@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Payment receipts on client records
   name: HawkSoft Receipts API
   slug: hawksoft-receipts-api
-artifact_total: 17
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: HawkSoft Partner Agencies API
   slug: open-hawksoft-agencies-api
@@ -92,22 +91,22 @@ collections:
   slug: open-hawksoft-receipts-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/capabilities/hawksoft-capability-edges.yml
+  href: https://artifacts.apis.io/hawksoft/capabilities/hawksoft-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hawksoft-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/agentic-access/hawksoft-agentic-access.yml
+  href: https://artifacts.apis.io/hawksoft/agentic-access/hawksoft-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hawksoft-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/security/hawksoft-domain-security.yml
+  href: https://artifacts.apis.io/hawksoft/security/hawksoft-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hawksoft-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/authentication/hawksoft-authentication.yml
+  href: https://artifacts.apis.io/hawksoft/authentication/hawksoft-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hawksoft-authentication.yml
@@ -136,17 +135,17 @@ common:
   type: Blog
   url: https://blog.hawksoft.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/plans/hawksoft-plans-pricing.yml
+  href: https://artifacts.apis.io/hawksoft/plans/hawksoft-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hawksoft-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/rate-limits/hawksoft-rate-limits.yml
+  href: https://artifacts.apis.io/hawksoft/rate-limits/hawksoft-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hawksoft-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/finops/hawksoft-finops.yml
+  href: https://artifacts.apis.io/hawksoft/finops/hawksoft-finops.yml
   title: ''
   type: FinOps
   url: finops/hawksoft-finops.yml
@@ -174,14 +173,14 @@ plans:
 - name: Hawksoft Plans Pricing
   plan_count: 2
   slug: hawksoft-plans-pricing
-random_paper: 13
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Hawksoft Rate Limits
   slug: hawksoft-rate-limits
 score:
-  band: thin
-  composite: 30.3
+  band: emerging
+  composite: 19.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 42.0
@@ -189,15 +188,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 47.3
+    contract_quality: 0.0
     developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 37.3
+  previous_composite: 19.2
   provenance:
     agentic_access: derived
     contracts:
@@ -211,13 +210,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 14.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/screenshots/hawksoft-2026-07-25T220807.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hawksoft/hawksoft-2026-07-25T220807.png
 security:
 - kind: authentication
   name: Hawksoft Authentication

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'Real-time fraud and risk detection API surface. Customers stream user events and transactions to a DataVisor integration endpoint and receive detection results, risk scores and reason codes back. The '
@@ -50,7 +52,7 @@ common:
   type: Pricing
   url: https://www.datavisor.com/intelligence-center/ebooks/fraud-prevention-pricing-infographic
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/datavisor/refs/heads/main/plans/datavisor-plans-pricing.yml
+  href: https://artifacts.apis.io/datavisor/plans/datavisor-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/datavisor-plans-pricing.yml
@@ -103,32 +105,32 @@ common:
   type: PrivacyPolicy
   url: https://www.datavisor.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datavisor/refs/heads/main/conformance/datavisor-conformance.yml
+  href: https://artifacts.apis.io/datavisor/conformance/datavisor-conformance.yml
   title: ''
   type: Compliance
   url: conformance/datavisor-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datavisor/refs/heads/main/authentication/datavisor-authentication.yml
+  href: https://artifacts.apis.io/datavisor/authentication/datavisor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/datavisor-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datavisor/refs/heads/main/conventions/datavisor-conventions.yml
+  href: https://artifacts.apis.io/datavisor/conventions/datavisor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/datavisor-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datavisor/refs/heads/main/conformance/datavisor-conformance.yml
+  href: https://artifacts.apis.io/datavisor/conformance/datavisor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/datavisor-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datavisor/refs/heads/main/security/datavisor-domain-security.yml
+  href: https://artifacts.apis.io/datavisor/security/datavisor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datavisor-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datavisor/refs/heads/main/llms/datavisor-llms.txt
+  href: https://artifacts.apis.io/datavisor/llms/datavisor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/datavisor-llms.txt
@@ -149,10 +151,10 @@ plans:
 - name: Datavisor Plans Pricing
   plan_count: 0
   slug: datavisor-plans-pricing
-random_paper: 5
+random_paper: 13
 score:
   band: emerging
-  composite: 23.9
+  composite: 23.2
   coverage:
     artifact_dirs: 12
     catalog_earned: 32.0
@@ -160,15 +162,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 21.8
+  previous_composite: 23.2
   provenance:
     conformance: first-party
   regulatory:
@@ -181,14 +183,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 22.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/datavisor/refs/heads/main/screenshots/datavisor-2026-08-07T164143.png
+screenshot: https://apis.io/screenshots/datavisor/datavisor-2026-08-07T164143.png
 security:
 - kind: authentication
   name: Datavisor Authentication

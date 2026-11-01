@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Toutiao account OAuth 2.0 and user-profile API, served from the open.snssdk.com host and documented on the Douyin Open Platform under the toutiao-or-xigua permission section. Supports the authorizatio
@@ -44,7 +46,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/toutiao/refs/heads/main/security/toutiao-domain-security.yml
+  href: https://artifacts.apis.io/toutiao/security/toutiao-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/toutiao-domain-security.yml
@@ -77,42 +79,42 @@ common:
   type: PrivacyPolicy
   url: https://www.toutiao.com/privacy_protection/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/toutiao/refs/heads/main/authentication/toutiao-authentication.yml
+  href: https://artifacts.apis.io/toutiao/authentication/toutiao-authentication.yml
   title: ''
   type: Authentication
   url: authentication/toutiao-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/toutiao/refs/heads/main/scopes/toutiao-scopes.yml
+  href: https://artifacts.apis.io/toutiao/scopes/toutiao-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/toutiao-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toutiao/refs/heads/main/errors/toutiao-problem-types.yml
+  href: https://artifacts.apis.io/toutiao/errors/toutiao-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/toutiao-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toutiao/refs/heads/main/conventions/toutiao-conventions.yml
+  href: https://artifacts.apis.io/toutiao/conventions/toutiao-conventions.yml
   title: ''
   type: Conventions
   url: conventions/toutiao-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toutiao/refs/heads/main/lifecycle/toutiao-lifecycle.yml
+  href: https://artifacts.apis.io/toutiao/lifecycle/toutiao-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/toutiao-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toutiao/refs/heads/main/conformance/toutiao-conformance.yml
+  href: https://artifacts.apis.io/toutiao/conformance/toutiao-conformance.yml
   title: ''
   type: Conformance
   url: conformance/toutiao-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/toutiao/refs/heads/main/packages/toutiao-packages.yml
+  href: https://artifacts.apis.io/toutiao/packages/toutiao-packages.yml
   title: ''
   type: Packages
   url: packages/toutiao-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/toutiao/refs/heads/main/llms/toutiao-llms.txt
+  href: https://artifacts.apis.io/toutiao/llms/toutiao-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/toutiao-llms.txt
@@ -148,7 +150,7 @@ overview: 'Toutiao is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Toutiao''s developer surface includes documentation, API reference, signup flow, authentication, and 13 more developer resources.'
-random_paper: 3
+random_paper: 5
 scopes:
 - name: Toutiao Scopes
   scope_count: 1
@@ -164,7 +166,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -179,7 +181,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 24.4
+  previous_composite: 24.5
   provenance:
     conformance: derived
   regulatory:
@@ -188,14 +190,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/toutiao/refs/heads/main/screenshots/toutiao-2026-09-02T164109.png
+screenshot: https://apis.io/screenshots/toutiao/toutiao-2026-09-02T164109.png
 security:
 - kind: authentication
   name: Toutiao Authentication

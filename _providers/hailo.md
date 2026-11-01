@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 7.5
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: HailoRT is Hailo's production runtime library for the Hailo-8, Hailo-10 and Hailo-15 device families. It is a host-side, user-space C/C++ library with a Python binding (pyHailoRT), a hailortcli comman
@@ -44,10 +46,10 @@ apis:
 - description: The Hailo Media Library is the C++ media and vision stack for the Hailo-15 AI vision processor. It exposes a real gRPC contract — service MediaLibraryService, 33 RPCs including five server-streaming s
   name: Hailo Media Library Service
   slug: hailo-media-library
-artifact_total: 6
+artifact_total: 18
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hailo/refs/heads/main/security/hailo-domain-security.yml
+  href: https://artifacts.apis.io/hailo/security/hailo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hailo-domain-security.yml
@@ -88,72 +90,72 @@ common:
   type: PrivacyPolicy
   url: https://hailo.ai/terms-and-conditions/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hailo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hailo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hailo/refs/heads/main/packages/hailo-packages.yml
+  href: https://artifacts.apis.io/hailo/packages/hailo-packages.yml
   title: ''
   type: Packages
   url: packages/hailo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hailo/refs/heads/main/packages/hailo-packages.yml
+  href: https://artifacts.apis.io/hailo/packages/hailo-packages.yml
   title: ''
   type: SDKs
   url: packages/hailo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hailo/refs/heads/main/cli/hailo-cli.yml
+  href: https://artifacts.apis.io/hailo/cli/hailo-cli.yml
   title: ''
   type: CLI
   url: cli/hailo-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hailo/refs/heads/main/llms/hailo-llms.txt
+  href: https://artifacts.apis.io/hailo/llms/hailo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hailo-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hailo/refs/heads/main/conformance/hailo-conformance.yml
+  href: https://artifacts.apis.io/hailo/conformance/hailo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hailo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hailo/refs/heads/main/lifecycle/hailo-lifecycle.yml
+  href: https://artifacts.apis.io/hailo/lifecycle/hailo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hailo-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hailo/refs/heads/main/changelog/hailo-changelog.yml
+  href: https://artifacts.apis.io/hailo/changelog/hailo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hailo-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hailo/refs/heads/main/conventions/hailo-conventions.yml
+  href: https://artifacts.apis.io/hailo/conventions/hailo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hailo-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hailo/refs/heads/main/authentication/hailo-authentication.yml
+  href: https://artifacts.apis.io/hailo/authentication/hailo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hailo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hailo/refs/heads/main/errors/hailo-problem-types.yml
+  href: https://artifacts.apis.io/hailo/errors/hailo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hailo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hailo/refs/heads/main/data-model/hailo-data-model.yml
+  href: https://artifacts.apis.io/hailo/data-model/hailo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hailo-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hailo/refs/heads/main/plans/hailo-plans-pricing.yml
+  href: https://artifacts.apis.io/hailo/plans/hailo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hailo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hailo/refs/heads/main/rate-limits/hailo-rate-limits.yml
+  href: https://artifacts.apis.io/hailo/rate-limits/hailo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hailo-rate-limits.yml
@@ -174,29 +176,29 @@ plans:
 - name: Hailo Plans Pricing
   plan_count: 0
   slug: hailo-plans-pricing
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Hailo Rate Limits
   slug: hailo-rate-limits
 score:
   band: thin
-  composite: 32.9
+  composite: 27.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 24.0
+    contract_quality: 0.0
     developer_ergonomics: 66.7
     discoverability: 57.1
-    operational_transparency: 18.4
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -205,7 +207,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 33.3
+  previous_composite: 27.3
   provenance:
     conformance: derived
     mcp: derived
@@ -216,8 +218,8 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
@@ -232,6 +234,32 @@ security:
   name: Hailo Domain Security
   slug: hailo-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 12
+skills:
+- name: add-overlay
+  slug: hailo-add-overlay
+- name: add-stream
+  slug: hailo-add-stream
+- name: board-status
+  slug: hailo-board-status
+- name: connect
+  slug: hailo-connect
+- name: cross-compile
+  slug: hailo-cross-compile
+- name: deploy
+  slug: hailo-deploy
+- name: edit-pipeline
+  slug: hailo-edit-pipeline
+- name: explain-pipeline
+  slug: hailo-explain-pipeline
+- name: get-model
+  slug: hailo-get-model
+- name: run-app
+  slug: hailo-run-app
+- name: swap-model
+  slug: hailo-swap-model
+- name: update-h15-agentic-coding
+  slug: hailo-update-h15-agentic-coding
 slug: hailo
 tags:
 - Artificial Intelligence

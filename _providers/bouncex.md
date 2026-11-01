@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 32.0
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - baseURL: https://api.wknd.ai
@@ -54,67 +56,67 @@ apis:
 artifact_total: 15
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/rules/bouncex-rules.yml
+  href: https://artifacts.apis.io/bouncex/rules/bouncex-rules.yml
   title: ''
   type: Spectral
   url: rules/bouncex-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/json-ld/bouncex-context.jsonld
+  href: https://artifacts.apis.io/bouncex/json-ld/bouncex-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bouncex-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/vocabulary/bouncex-vocabulary.yml
+  href: https://artifacts.apis.io/bouncex/vocabulary/bouncex-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bouncex-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/data-model/bouncex-data-model.yml
+  href: https://artifacts.apis.io/bouncex/data-model/bouncex-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bouncex-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/changelog/bouncex-changelog.yml
+  href: https://artifacts.apis.io/bouncex/changelog/bouncex-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bouncex-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/authentication/bouncex-authentication.yml
+  href: https://artifacts.apis.io/bouncex/authentication/bouncex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bouncex-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/conformance/bouncex-conformance.yml
+  href: https://artifacts.apis.io/bouncex/conformance/bouncex-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bouncex-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/llms/bouncex-llms.txt
+  href: https://artifacts.apis.io/bouncex/llms/bouncex-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bouncex-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/well-known/bouncex-support-security.txt
+  href: https://artifacts.apis.io/bouncex/well-known/bouncex-support-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bouncex-support-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/well-known/bouncex-status-security.txt
+  href: https://artifacts.apis.io/bouncex/well-known/bouncex-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bouncex-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/well-known/bouncex-well-known.yml
+  href: https://artifacts.apis.io/bouncex/well-known/bouncex-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bouncex-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/hosts/bouncex-hosts.yml
+  href: https://artifacts.apis.io/bouncex/hosts/bouncex-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bouncex-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/vendors/bouncex-vendors.yml
+  href: https://artifacts.apis.io/bouncex/vendors/bouncex-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bouncex-vendors.yml
@@ -159,7 +161,7 @@ common:
   type: Documentation
   url: https://developer.wunderkind.co/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bouncex/refs/heads/main/security/bouncex-domain-security.yml
+  href: https://artifacts.apis.io/bouncex/security/bouncex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bouncex-domain-security.yml
@@ -218,7 +220,7 @@ overview: 'Wunderkind is listed with 5 APIs on the [APIs.io](https://apis.io/) n
 
 
   Wunderkind''s developer surface includes changelog, authentication, support, engineering blog, API reference, getting-started guide, documentation, and 18 more developer resources.'
-random_paper: 8
+random_paper: 12
 rules:
 - authorship: generated
   effective_rule_count: 53
@@ -234,7 +236,7 @@ rules:
   slug: bouncex-rules
 score:
   band: thin
-  composite: 36.3
+  composite: 37.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 63.8
@@ -242,15 +244,15 @@ score:
     catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -11.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 22.0
     contract_quality: 25.7
     developer_ergonomics: 54.8
-    discoverability: 75.0
-    operational_transparency: 31.6
-  previous_composite: 48.2
+    discoverability: 67.9
+    operational_transparency: 42.1
+  previous_composite: 37.6
   provenance:
     conformance: derived
     contracts:
@@ -265,12 +267,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Bouncex Authentication

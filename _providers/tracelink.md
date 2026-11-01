@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 27.3
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: 'SOAP web service for serialized operations: commissioning, aggregation, decommissioning, shipment and receipt orders, serial number verification, lot status, market release, sampling, and destruction.'
@@ -56,23 +58,43 @@ apis:
 - description: 'GraphQL endpoint used by the Agile Process Teams app, exposing genericActionCall and genericGetObject fields that dispatch on an action name and a JSON payload. Introspection is authentication-gated; '
   name: TraceLink OPUS GraphQL API
   slug: opus-graphql
-artifact_total: 48
+artifact_total: 55
 asyncapis:
 - description: ''
   name: Tracelink Event Surface
   slug: tracelink-event-surface
 common:
+- group: commercial
+  href: https://artifacts.apis.io/tracelink/plans/tracelink-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tracelink-plans-pricing.yml
+- group: other
+  href: https://artifacts.apis.io/tracelink/hosts/tracelink-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/tracelink-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/tracelink/integrations/tracelink-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/tracelink-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/tracelink/vendors/tracelink-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/tracelink-vendors.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.tracelink.com/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/security/tracelink-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tracelink/security/tracelink-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tracelink-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/security/tracelink-domain-security.yml
+  href: https://artifacts.apis.io/tracelink/security/tracelink-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tracelink-domain-security.yml
@@ -129,12 +151,12 @@ common:
   type: Examples
   url: https://github.com/tracelink/code-samples
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/well-known/tracelink-well-known.yml
+  href: https://artifacts.apis.io/tracelink/well-known/tracelink-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tracelink-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/well-known/tracelink-security.txt
+  href: https://artifacts.apis.io/tracelink/well-known/tracelink-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/tracelink-security.txt
@@ -143,7 +165,7 @@ common:
   type: Security
   url: https://www.tracelink.com/legal-and-trust/vulnerability-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/security/tracelink-trust-center.yml
+  href: https://artifacts.apis.io/tracelink/security/tracelink-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tracelink-trust-center.yml
@@ -152,78 +174,88 @@ common:
   type: Compliance
   url: https://www.tracelink.com/legal-and-trust/certifications-and-attestations
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/conformance/tracelink-conformance.yml
+  href: https://artifacts.apis.io/tracelink/conformance/tracelink-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tracelink-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/authentication/tracelink-authentication.yml
+  href: https://artifacts.apis.io/tracelink/authentication/tracelink-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tracelink-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/conventions/tracelink-conventions.yml
+  href: https://artifacts.apis.io/tracelink/conventions/tracelink-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tracelink-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/errors/tracelink-problem-types.yml
+  href: https://artifacts.apis.io/tracelink/errors/tracelink-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tracelink-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/lifecycle/tracelink-lifecycle.yml
+  href: https://artifacts.apis.io/tracelink/lifecycle/tracelink-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tracelink-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/changelog/tracelink-changelog.yml
+  href: https://artifacts.apis.io/tracelink/changelog/tracelink-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tracelink-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/sandbox/tracelink-sandbox.yml
+  href: https://artifacts.apis.io/tracelink/sandbox/tracelink-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tracelink-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/data-model/tracelink-data-model.yml
+  href: https://artifacts.apis.io/tracelink/data-model/tracelink-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tracelink-data-model.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/json-schema/_index.yml
+  href: https://artifacts.apis.io/tracelink/json-schema/_index.yml
   title: ''
   type: JSONSchema
   url: json-schema/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/wsdl/_index.yml
-  title: ''
-  type: WSDL
-  url: wsdl/_index.yml
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/asyncapi/tracelink-event-surface.yml
+  href: https://artifacts.apis.io/tracelink/asyncapi/tracelink-event-surface.yml
   title: ''
   type: EventSurface
   url: asyncapi/tracelink-event-surface.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/llms/tracelink-llms.txt
+  href: https://artifacts.apis.io/tracelink/llms/tracelink-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tracelink-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/mcp/tracelink-mcp.yml
+  href: https://artifacts.apis.io/tracelink/mcp/tracelink-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tracelink-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tracelink/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+coverage:
+  detail: the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - status: 200
+    url: https://www.tracelink.com/
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-08-02'
 description: 'TraceLink, Inc. is a Massachusetts-based supply chain digitalization company for the life sciences and healthcare industries, best known for pharmaceutical serialization and track-and-trace compliance (US DSCSA, EU FMD, and roughly two dozen national regimes) delivered on its multienterprise OPUS network platform. TraceLink exposes several distinct integration surfaces rather than one REST API: a set of publicly served SOAP/WSDL services on api.tracelink.com (Serialized Operations Manager, Product Track, Serial Number Exchange), a synchronous REST API for Smart Event Manager, an event-driven OPUS Platform API where every call is a POST to a single /api/events endpoint carrying a header/payload envelope keyed by a fully qualified eventName, a GraphQL endpoint at /api/graphql used by the Agile Process Teams app, and asynchronous B2B message exchange over AS2, SFTP, and HTTP POST using EPCIS, EDI ANSI X12, SAP IDoc, and TraceLink XML canonical documents. Its published API guides,
   canonical JSON Schemas, and code samples are the machine-readable surface catalogued here.'
+finops:
+- has_sources: true
+  method: derived
+  name: Tracelink Finops
+  primary_unit: mint link
+  service_category: ''
+  slug: tracelink-finops
+  template: false
 image: https://www.tracelink.com/themes/custom/tracelink/logo.svg
 json_schemas:
 - name: Acknowledgment Response
@@ -348,26 +380,37 @@ overview: 'TraceLink is listed with 6 APIs on the [APIs.io](https://apis.io/) ne
   The TraceLink catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  TraceLink''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, code examples, and 28 more developer resources.'
-random_paper: 11
+  TraceLink''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, code examples, and 31 more developer resources.'
+plans:
+- name: Tracelink Plans Pricing
+  plan_count: 3
+  slug: tracelink-plans-pricing
+- name: Tracelink Price Estimates
+  plan_count: 0
+  slug: tracelink-price-estimates
+random_paper: 21
+rate_limits:
+- limit_count: 0
+  name: Tracelink Rate Limits
+  slug: tracelink-rate-limits
 score:
-  band: developing
-  composite: 49.6
+  band: strong
+  composite: 60.4
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 25
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 53.9
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 45.3
-    developer_ergonomics: 56.5
-    discoverability: 78.6
-    operational_transparency: 28.9
+    developer_ergonomics: 66.1
+    discoverability: 71.4
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -375,7 +418,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 49.6
+  previous_composite: 52.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -386,14 +429,14 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/screenshots/tracelink-2026-08-17T082418.png
+screenshot: https://apis.io/screenshots/tracelink/tracelink-2026-08-17T082418.png
 security:
 - kind: authentication
   name: Tracelink Authentication
@@ -411,6 +454,14 @@ security:
   name: Tracelink Trust Center
   slug: tracelink-trust-center
   summary_line: ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO 9001:2015, SOC 2 Type II, ISAE 3000 Type II, CyberVadis
+skill_count: 3
+skills:
+- name: tracelink-open-supplier-incident
+  slug: tracelink-open-supplier-incident
+- name: tracelink-record-serialized-shipment
+  slug: tracelink-record-serialized-shipment
+- name: tracelink-verify-serial-number
+  slug: tracelink-verify-serial-number
 slug: tracelink
 tags:
 - Company

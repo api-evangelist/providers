@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -64,65 +66,70 @@ apis:
   description: The Data Hub API from Bright MLS — 1 operation(s) for data hub.
   name: Bright MLS Data Hub API
   slug: bright-mls-data-hub-api
-artifact_total: 20
+artifact_total: 22
 common:
+- group: commercial
+  href: https://artifacts.apis.io/bright-mls/plans/bright-mls-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bright-mls-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/agentic-access/bright-mls-agentic-access.yml
+  href: https://artifacts.apis.io/bright-mls/agentic-access/bright-mls-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bright-mls-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/rules/bright-mls-rules.yml
+  href: https://artifacts.apis.io/bright-mls/rules/bright-mls-rules.yml
   title: ''
   type: Spectral
   url: rules/bright-mls-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/json-ld/bright-mls-context.jsonld
+  href: https://artifacts.apis.io/bright-mls/json-ld/bright-mls-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bright-mls-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/vocabulary/bright-mls-vocabulary.yml
+  href: https://artifacts.apis.io/bright-mls/vocabulary/bright-mls-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bright-mls-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/data-model/bright-mls-data-model.yml
+  href: https://artifacts.apis.io/bright-mls/data-model/bright-mls-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bright-mls-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/errors/bright-mls-problem-types.yml
+  href: https://artifacts.apis.io/bright-mls/errors/bright-mls-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bright-mls-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/conformance/bright-mls-conformance.yml
+  href: https://artifacts.apis.io/bright-mls/conformance/bright-mls-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bright-mls-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/llms/bright-mls-llms.txt
+  href: https://artifacts.apis.io/bright-mls/llms/bright-mls-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bright-mls-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/hosts/bright-mls-hosts.yml
+  href: https://artifacts.apis.io/bright-mls/hosts/bright-mls-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bright-mls-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/vendors/bright-mls-vendors.yml
+  href: https://artifacts.apis.io/bright-mls/vendors/bright-mls-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bright-mls-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/authentication/bright-mls-authentication.yml
+  href: https://artifacts.apis.io/bright-mls/authentication/bright-mls-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bright-mls-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/security/bright-mls-domain-security.yml
+  href: https://artifacts.apis.io/bright-mls/security/bright-mls-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bright-mls-domain-security.yml
@@ -179,6 +186,14 @@ coverage:
   state: none
 created: '2026-10-13'
 description: Bright MLS is one of the largest multiple listing services in the United States, serving real estate professionals across the Mid-Atlantic. Its developer portal (developer.brightmls.com, a SwaggerHub Portal) documents the RESO Web API (OData, RESO Data Dictionary 1.6 Platinum certified) for licensed listing data and the ShowingHub showing-scheduling interoperability API, and its public SwaggerHub registry publishes OpenAPI contracts for the Data Hub ingestion and DataLake distribution services and the Manifest Services API for media vendors.
+finops:
+- has_sources: true
+  method: derived
+  name: Bright Mls Finops
+  primary_unit: quarter per subscriber
+  service_category: ''
+  slug: bright-mls-finops
+  template: false
 image: https://images.ctfassets.net/1g8q1frp41ix/19Q1y6e6KSRESmQY8117MC/28b12fb1278bf35568ad05efd3c7b577/social-share-default-image.jpg
 json_schemas:
 - name: authTokenBody
@@ -221,8 +236,12 @@ overview: 'Bright MLS publishes 7 API contracts indexed on the [APIs.io](https:/
   The Bright MLS catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Bright MLS''s developer surface includes authentication, documentation, support, pricing, engineering blog, and 18 more developer resources.'
-random_paper: 5
+  Bright MLS''s developer surface includes authentication, documentation, support, pricing, engineering blog, and 19 more developer resources.'
+plans:
+- name: Bright Mls Plans Pricing
+  plan_count: 4
+  slug: bright-mls-plans-pricing
+random_paper: 9
 rules:
 - authorship: generated
   effective_rule_count: 53
@@ -237,22 +256,24 @@ rules:
     warn: 1
   slug: bright-mls-rules
 score:
-  band: developing
-  composite: 46.7
+  band: strong
+  composite: 54.6
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 60.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 54.3
+    artifact_dirs: 19
+    catalog_earned: 75.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 39.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 35.6
     contract_quality: 61.7
     developer_ergonomics: 38.1
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 21.1
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -268,11 +289,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Bright Mls Authentication

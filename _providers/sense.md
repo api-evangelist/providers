@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -73,11 +75,8 @@ apis:
   description: User-level timeline and usage data
   name: Sense Users API
   slug: sense-users-api
-artifact_total: 28
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sense Client Authentication API
   slug: open-sense-authentication-api
@@ -94,18 +93,22 @@ collections:
   name: Sense Client Authentication Users API
   slug: open-sense-users-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sense/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/agentic-access/sense-agentic-access.yml
+  href: https://artifacts.apis.io/sense/agentic-access/sense-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sense-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/security/sense-domain-security.yml
+  href: https://artifacts.apis.io/sense/security/sense-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sense-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/authentication/sense-authentication.yml
+  href: https://artifacts.apis.io/sense/authentication/sense-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sense-authentication.yml
@@ -142,17 +145,17 @@ common:
   type: X
   url: https://x.com/sense
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/plans/sense-plans-pricing.yml
+  href: https://artifacts.apis.io/sense/plans/sense-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sense-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/rate-limits/sense-rate-limits.yml
+  href: https://artifacts.apis.io/sense/rate-limits/sense-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sense-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/finops/sense-finops.yml
+  href: https://artifacts.apis.io/sense/finops/sense-finops.yml
   title: ''
   type: FinOps
   url: finops/sense-finops.yml
@@ -210,7 +213,7 @@ overview: 'Sense publishes 6 API contracts indexed on the [APIs.io](https://apis
   The Sense catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sense''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  Sense''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Sense Plans Pricing
   plan_count: 3
@@ -234,23 +237,23 @@ rules:
   slug: sense-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.2
+  composite: 35.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 57.3
     catalog_earned_first_party: 0.0
     catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.4
+  delta: 0.3
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 59.3
-    developer_ergonomics: 23.8
+    developer_ergonomics: 25.0
     discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 42.6
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -264,13 +267,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/screenshots/sense-2026-06-20T193703.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sense/sense-2026-06-20T193703.png
 security:
 - kind: authentication
   name: Sense Authentication

@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -32,12 +34,12 @@ common:
   type: Compliance
   url: https://www.atolio.com/security
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/atolio/refs/heads/main/hosts/atolio-hosts.yml
+  href: https://artifacts.apis.io/atolio/hosts/atolio-hosts.yml
   title: ''
   type: Hosts
   url: hosts/atolio-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/atolio/refs/heads/main/vendors/atolio-vendors.yml
+  href: https://artifacts.apis.io/atolio/vendors/atolio-vendors.yml
   title: ''
   type: Vendors
   url: vendors/atolio-vendors.yml
@@ -58,12 +60,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/atolio
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/atolio/refs/heads/main/security/atolio-trust-center.yml
+  href: https://artifacts.apis.io/atolio/security/atolio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/atolio-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/atolio/refs/heads/main/security/atolio-domain-security.yml
+  href: https://artifacts.apis.io/atolio/security/atolio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/atolio-domain-security.yml
@@ -111,7 +113,7 @@ overview: 'Atolio is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Atolio''s developer surface includes getting-started guide, documentation, engineering blog, support, and 11 more developer resources.'
-random_paper: 10
+random_paper: 0
 score:
   band: emerging
   composite: 20.5
@@ -122,7 +124,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
@@ -130,7 +132,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 50.0
     operational_transparency: 15.8
-  previous_composite: 20.4
+  previous_composite: 20.5
   provenance:
     mcp: unknown
   regulatory:
@@ -139,14 +141,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/atolio/refs/heads/main/screenshots/atolio-2026-10-11T100717.png
+screenshot: https://apis.io/screenshots/atolio/atolio-2026-10-11T100717.png
 security:
 - kind: domain-security
   name: Atolio Domain Security

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-17'
+  score: 23.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -60,7 +62,7 @@ apis:
   description: Create and manage one-time and recurring pre-authorized debit / ACH transaction schedules against a customer's bank account, including schedule frequency, creation by Rotessa customer ID or custom ide
   name: Rotessa Transaction Schedules API
   slug: rotessa-transaction-schedules-api
-artifact_total: 9
+artifact_total: 11
 collections:
 - collection_type: open
   name: Rotessa API
@@ -71,27 +73,27 @@ common:
   type: BlogRSS
   url: https://rotessa.com/blog/feed/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/plans/rotessa-plans-pricing.yml
+  href: https://artifacts.apis.io/rotessa/plans/rotessa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rotessa-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/capabilities/rotessa-capability-edges.yml
+  href: https://artifacts.apis.io/rotessa/capabilities/rotessa-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rotessa-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/agentic-access/rotessa-agentic-access.yml
+  href: https://artifacts.apis.io/rotessa/agentic-access/rotessa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rotessa-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/security/rotessa-domain-security.yml
+  href: https://artifacts.apis.io/rotessa/security/rotessa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rotessa-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/authentication/rotessa-authentication.yml
+  href: https://artifacts.apis.io/rotessa/authentication/rotessa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rotessa-authentication.yml
@@ -152,72 +154,72 @@ common:
   type: PrivacyPolicy
   url: https://rotessa.com/legal/privacy/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/_original/rotessa-openapi.yml
+  href: https://artifacts.apis.io/rotessa/openapi/_original/rotessa-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/rotessa-openapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/llms/rotessa-llms.txt
+  href: https://artifacts.apis.io/rotessa/llms/rotessa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rotessa-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/conventions/rotessa-conventions.yml
+  href: https://artifacts.apis.io/rotessa/conventions/rotessa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rotessa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/errors/rotessa-problem-types.yml
+  href: https://artifacts.apis.io/rotessa/errors/rotessa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rotessa-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/errors/rotessa-decline-codes.yml
+  href: https://artifacts.apis.io/rotessa/errors/rotessa-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/rotessa-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/lifecycle/rotessa-lifecycle.yml
+  href: https://artifacts.apis.io/rotessa/lifecycle/rotessa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rotessa-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/sandbox/rotessa-sandbox.yml
+  href: https://artifacts.apis.io/rotessa/sandbox/rotessa-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/rotessa-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/conformance/rotessa-conformance.yml
+  href: https://artifacts.apis.io/rotessa/conformance/rotessa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rotessa-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/data-model/rotessa-data-model.yml
+  href: https://artifacts.apis.io/rotessa/data-model/rotessa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rotessa-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/packages/rotessa-packages.yml
+  href: https://artifacts.apis.io/rotessa/packages/rotessa-packages.yml
   title: ''
   type: Packages
   url: packages/rotessa-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/mcp/rotessa-mcp.yml
+  href: https://artifacts.apis.io/rotessa/mcp/rotessa-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rotessa-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/mcp/rotessa-tool-crosswalk.yml
+  href: https://artifacts.apis.io/rotessa/mcp/rotessa-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/rotessa-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/overlays/rotessa-openapi-overlay.yaml
+  href: https://artifacts.apis.io/rotessa/overlays/rotessa-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rotessa-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rotessa/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -241,10 +243,10 @@ plans:
 - name: Rotessa Price Estimates
   plan_count: 0
   slug: rotessa-price-estimates
-random_paper: 21
+random_paper: 1
 score:
-  band: thin
-  composite: 34.9
+  band: developing
+  composite: 49.1
   coverage:
     artifact_dirs: 23
     catalog_earned: 49.0
@@ -252,14 +254,14 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 53.1
-    developer_ergonomics: 37.5
-    discoverability: 73.2
-    operational_transparency: 2.6
+    contract_quality: 51.4
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -267,7 +269,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 34.8
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -283,14 +285,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 13.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 19.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/screenshots/rotessa-2026-08-17T081633.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rotessa/rotessa-2026-08-17T081633.png
 security:
 - kind: authentication
   name: Rotessa Authentication
@@ -300,6 +303,12 @@ security:
   name: Rotessa Domain Security
   slug: rotessa-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Onboard a customer and start a recurring debit
+  slug: rotessa-onboard-customer-and-schedule
+- name: Reconcile transactions and handle declines
+  slug: rotessa-reconcile-transactions
 slug: rotessa
 tags:
 - Payments

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.5
-  scored_at: '2026-10-17'
+  score: 23.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -102,7 +104,7 @@ apis:
   description: Retrieve fuel card transaction data
   name: Shell Transactions API
   slug: shell-transactions-api
-artifact_total: 82
+artifact_total: 81
 collections:
 - collection_type: postman
   name: Shell B2B Mobility Accounts API
@@ -137,9 +139,6 @@ collections:
 - collection_type: postman
   name: Shell B2B Mobility Accounts Transactions API
   slug: postman-shell-transactions-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Shell B2B Mobility Accounts API
   slug: open-shell-accounts-api
@@ -184,22 +183,22 @@ collections:
   slug: open-shell-transactions-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/plans/shell-plans-pricing.yml
+  href: https://artifacts.apis.io/shell/plans/shell-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/shell-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/rate-limits/shell-rate-limits.yml
+  href: https://artifacts.apis.io/shell/rate-limits/shell-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shell-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/finops/shell-finops.yml
+  href: https://artifacts.apis.io/shell/finops/shell-finops.yml
   title: ''
   type: FinOps
   url: finops/shell-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/capabilities/shell-capability-edges.yml
+  href: https://artifacts.apis.io/shell/capabilities/shell-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/shell-capability-edges.yml
@@ -208,22 +207,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/shell/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/agentic-access/shell-agentic-access.yml
+  href: https://artifacts.apis.io/shell/agentic-access/shell-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shell-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/security/shell-domain-security.yml
+  href: https://artifacts.apis.io/shell/security/shell-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shell-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/authentication/shell-authentication.yml
+  href: https://artifacts.apis.io/shell/authentication/shell-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shell-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/scopes/shell-scopes.yml
+  href: https://artifacts.apis.io/shell/scopes/shell-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/shell-scopes.yml
@@ -280,12 +279,12 @@ common:
   type: Website
   url: https://www.shell.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/json-ld/shell-context.jsonld
+  href: https://artifacts.apis.io/shell/json-ld/shell-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/shell-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/vocabulary/shell-vocabulary.yml
+  href: https://artifacts.apis.io/shell/vocabulary/shell-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/shell-vocabulary.yml
@@ -462,7 +461,7 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.4
+  composite: 47.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 68.0
@@ -470,7 +469,7 @@ score:
     catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 27.3
@@ -478,7 +477,7 @@ score:
     developer_ergonomics: 51.2
     discoverability: 62.5
     operational_transparency: 26.3
-  previous_composite: 51.0
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -492,13 +491,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/screenshots/shell-2026-06-20T193753.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/shell/shell-2026-06-20T193753.png
 security:
 - kind: authentication
   name: Shell Authentication

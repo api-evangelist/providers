@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.7
-  scored_at: '2026-10-17'
+  score: 36.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -55,15 +57,12 @@ apis:
   description: Policy API documentation consist of create policy, get policy detail or status, policy cancellation and policy activation.
   name: Qoala API Specification API
   slug: qoala-api-specification-api
-artifact_total: 10
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Qoala Webhooks
   slug: qoala-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Qoala API Specification API
   slug: open-qoala-api-specification-api
@@ -72,17 +71,17 @@ collections:
   slug: open-qoala-authentication-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/agentic-access/qoala-agentic-access.yml
+  href: https://artifacts.apis.io/qoala/agentic-access/qoala-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/qoala-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/security/qoala-domain-security.yml
+  href: https://artifacts.apis.io/qoala/security/qoala-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qoala-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/authentication/qoala-authentication.yml
+  href: https://artifacts.apis.io/qoala/authentication/qoala-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qoala-authentication.yml
@@ -131,12 +130,12 @@ common:
   type: Partners
   url: https://www.qoala.app/id-en/partnership
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/well-known/qoala-well-known.yml
+  href: https://artifacts.apis.io/qoala/well-known/qoala-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/qoala-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/llms/qoala-llms.txt
+  href: https://artifacts.apis.io/qoala/llms/qoala-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qoala-llms.txt
@@ -145,82 +144,82 @@ common:
   type: MCPServer
   url: https://docs.qoala.app/mcp
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/mcp/qoala-mcp.yml
+  href: https://artifacts.apis.io/qoala/mcp/qoala-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/qoala-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/mcp/qoala-tool-crosswalk.yml
+  href: https://artifacts.apis.io/qoala/mcp/qoala-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/qoala-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/conventions/qoala-conventions.yml
+  href: https://artifacts.apis.io/qoala/conventions/qoala-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qoala-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/conventions/qoala-conventions.yml
+  href: https://artifacts.apis.io/qoala/conventions/qoala-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/qoala-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/errors/qoala-problem-types.yml
+  href: https://artifacts.apis.io/qoala/errors/qoala-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qoala-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/lifecycle/qoala-lifecycle.yml
+  href: https://artifacts.apis.io/qoala/lifecycle/qoala-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qoala-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/conformance/qoala-conformance.yml
+  href: https://artifacts.apis.io/qoala/conformance/qoala-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qoala-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/sandbox/qoala-sandbox.yml
+  href: https://artifacts.apis.io/qoala/sandbox/qoala-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/qoala-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/data-model/qoala-data-model.yml
+  href: https://artifacts.apis.io/qoala/data-model/qoala-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qoala-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/asyncapi/qoala-webhooks.yml
+  href: https://artifacts.apis.io/qoala/asyncapi/qoala-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/qoala-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/qoala/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/skills/qoala-activate-gadget-policy.md
+  href: https://artifacts.apis.io/qoala/skills/qoala-activate-gadget-policy.md
   title: ''
   type: AgentSkill
   url: skills/qoala-activate-gadget-policy.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/skills/qoala-authenticate-session.md
+  href: https://artifacts.apis.io/qoala/skills/qoala-authenticate-session.md
   title: ''
   type: AgentSkill
   url: skills/qoala-authenticate-session.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/skills/qoala-cancel-policy.md
+  href: https://artifacts.apis.io/qoala/skills/qoala-cancel-policy.md
   title: ''
   type: AgentSkill
   url: skills/qoala-cancel-policy.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/skills/qoala-file-and-track-claim.md
+  href: https://artifacts.apis.io/qoala/skills/qoala-file-and-track-claim.md
   title: ''
   type: AgentSkill
   url: skills/qoala-file-and-track-claim.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/skills/qoala-issue-policy.md
+  href: https://artifacts.apis.io/qoala/skills/qoala-issue-policy.md
   title: ''
   type: AgentSkill
   url: skills/qoala-issue-policy.md
@@ -243,10 +242,10 @@ overview: 'Qoala publishes 2 API contracts indexed on the [APIs.io](https://apis
 
 
   Qoala''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 26 more developer resources.'
-random_paper: 20
+random_paper: 22
 score:
-  band: thin
-  composite: 35.9
+  band: developing
+  composite: 41.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -259,9 +258,9 @@ score:
     access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 57.3
-    developer_ergonomics: 38.7
-    discoverability: 76.7
-    operational_transparency: 10.5
+    developer_ergonomics: 63.7
+    discoverability: 70.0
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -269,7 +268,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 35.9
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -286,13 +285,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/screenshots/qoala-2026-08-17T081418.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/qoala/qoala-2026-08-17T081418.png
 security:
 - kind: authentication
   name: Qoala Authentication
@@ -302,6 +302,18 @@ security:
   name: Qoala Domain Security
   slug: qoala-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Activate a Qoala gadget policy after verification
+  slug: qoala-activate-gadget-policy
+- name: Create and refresh a Qoala Enterprise session
+  slug: qoala-authenticate-session
+- name: Cancel a Qoala policy
+  slug: qoala-cancel-policy
+- name: File and track a Qoala claim
+  slug: qoala-file-and-track-claim
+- name: Issue a Qoala insurance policy (asynchronous)
+  slug: qoala-issue-policy
 slug: qoala
 tags:
 - Insurance

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: ModiFace, a L'Oréal company, provides an augmented reality virtual try-on platform for beauty brands and retailers. The platform offers a software development kit (SDK), embeddable miniprogram, and AP
@@ -41,12 +43,12 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loreal/refs/heads/main/security/loreal-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/loreal/security/loreal-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/loreal-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loreal/refs/heads/main/security/loreal-domain-security.yml
+  href: https://artifacts.apis.io/loreal/security/loreal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/loreal-domain-security.yml
@@ -110,10 +112,10 @@ overview: 'L''Oréal is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   L''Oréal''s developer surface includes product news, engineering blog, and 12 more developer resources.'
-random_paper: 1
+random_paper: 15
 score:
   band: emerging
-  composite: 11.0
+  composite: 12.5
   coverage:
     artifact_dirs: 4
     catalog_earned: 32.0
@@ -127,23 +129,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 58.0
-    operational_transparency: 0.0
-  previous_composite: 11.0
+    discoverability: 58.9
+    operational_transparency: 10.5
+  previous_composite: 12.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/loreal/refs/heads/main/screenshots/loreal-2026-10-11T191155.png
+screenshot: https://apis.io/screenshots/loreal/loreal-2026-10-11T191155.png
 security:
 - kind: domain-security
   name: Loreal Domain Security

@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 22.2
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -78,37 +80,37 @@ common:
   type: Compliance
   url: https://www.zeni.ai/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zeni/refs/heads/main/security/zeni-trust-center.yml
+  href: https://artifacts.apis.io/zeni/security/zeni-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/zeni-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zeni/refs/heads/main/mcp/zeni-mcp.yml
+  href: https://artifacts.apis.io/zeni/mcp/zeni-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/zeni-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zeni/refs/heads/main/well-known/zeni-well-known.yml
+  href: https://artifacts.apis.io/zeni/well-known/zeni-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zeni-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zeni/refs/heads/main/llms/zeni-llms.txt
+  href: https://artifacts.apis.io/zeni/llms/zeni-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zeni-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zeni/refs/heads/main/authentication/zeni-authentication.yml
+  href: https://artifacts.apis.io/zeni/authentication/zeni-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zeni-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zeni/refs/heads/main/conformance/zeni-conformance.yml
+  href: https://artifacts.apis.io/zeni/conformance/zeni-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zeni-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zeni/refs/heads/main/security/zeni-domain-security.yml
+  href: https://artifacts.apis.io/zeni/security/zeni-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zeni-domain-security.yml
@@ -128,10 +130,10 @@ overview: 'Zeni is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Zeni''s developer surface includes documentation, pricing, engineering blog, signup flow, authentication, and 12 more developer resources.'
-random_paper: 20
+random_paper: 6
 score:
   band: thin
-  composite: 28.4
+  composite: 27.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -139,15 +141,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 58.3
+    discoverability: 48.3
     operational_transparency: 10.5
-  previous_composite: 28.3
+  previous_composite: 27.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -157,14 +159,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/zeni/refs/heads/main/screenshots/zeni-2026-09-02T171607.png
+screenshot: https://apis.io/screenshots/zeni/zeni-2026-09-02T171607.png
 security:
 - kind: authentication
   name: Zeni Authentication

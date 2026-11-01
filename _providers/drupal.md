@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.8
-  scored_at: '2026-10-17'
+  score: 42.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -93,11 +95,8 @@ apis:
   description: JSON:API endpoints for Drupal user entities. Config entities are read-only via JSON:API and require authentication.
   name: drupal Users API
   slug: drupal-users-api
-artifact_total: 35
+artifact_total: 38
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 'Drupal JSON: Comments API'
   slug: open-drupal-comments-api
@@ -129,8 +128,13 @@ collections:
   name: 'Drupal JSON: Comments Users API'
   slug: open-drupal-users-api
 common:
+- group: other
+  href: https://artifacts.apis.io/drupal/capabilities/drupal-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/drupal-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/plans/drupal-plans-pricing.yml
+  href: https://artifacts.apis.io/drupal/plans/drupal-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/drupal-plans-pricing.yml
@@ -147,27 +151,27 @@ common:
   type: Website
   url: https://drupal.org
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/agentic-access/drupal-agentic-access.yml
+  href: https://artifacts.apis.io/drupal/agentic-access/drupal-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/drupal-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/security/drupal-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/drupal/security/drupal-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/drupal-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/security/drupal-domain-security.yml
+  href: https://artifacts.apis.io/drupal/security/drupal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/drupal-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/authentication/drupal-authentication.yml
+  href: https://artifacts.apis.io/drupal/authentication/drupal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/drupal-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/scopes/drupal-scopes.yml
+  href: https://artifacts.apis.io/drupal/scopes/drupal-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/drupal-scopes.yml
@@ -180,12 +184,12 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/drupal-project
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/json-ld/drupal-context.jsonld
+  href: https://artifacts.apis.io/drupal/json-ld/drupal-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/drupal-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/json-schema/drupal-node-schema.json
+  href: https://artifacts.apis.io/drupal/json-schema/drupal-node-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/drupal-node-schema.json
@@ -230,42 +234,42 @@ common:
   type: Security
   url: https://www.drupal.org/security
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/packages/drupal-packages.yml
+  href: https://artifacts.apis.io/drupal/packages/drupal-packages.yml
   title: ''
   type: Packages
   url: packages/drupal-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/cli/drupal-cli.yml
+  href: https://artifacts.apis.io/drupal/cli/drupal-cli.yml
   title: ''
   type: CLI
   url: cli/drupal-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/mcp/drupal-mcp.yml
+  href: https://artifacts.apis.io/drupal/mcp/drupal-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/drupal-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/mcp/drupal-tool-crosswalk.yml
+  href: https://artifacts.apis.io/drupal/mcp/drupal-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/drupal-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/llms/drupal-llms.txt
+  href: https://artifacts.apis.io/drupal/llms/drupal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/drupal-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/conformance/drupal-conformance.yml
+  href: https://artifacts.apis.io/drupal/conformance/drupal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/drupal-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/errors/drupal-problem-types.yml
+  href: https://artifacts.apis.io/drupal/errors/drupal-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/drupal-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/lifecycle/drupal-lifecycle.yml
+  href: https://artifacts.apis.io/drupal/lifecycle/drupal-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/drupal-lifecycle.yml
@@ -274,47 +278,47 @@ common:
   type: Deprecation
   url: https://www.drupal.org/about/core/policies/core-change-policies/drupal-deprecation-policy
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/changelog/drupal-changelog.yml
+  href: https://artifacts.apis.io/drupal/changelog/drupal-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/drupal-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/conventions/drupal-conventions.yml
+  href: https://artifacts.apis.io/drupal/conventions/drupal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/drupal-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/data-model/drupal-data-model.yml
+  href: https://artifacts.apis.io/drupal/data-model/drupal-data-model.yml
   title: ''
   type: DataModel
   url: data-model/drupal-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/drupal/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/well-known/drupal-well-known.yml
+  href: https://artifacts.apis.io/drupal/well-known/drupal-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/drupal-well-known.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/rate-limits/drupal-rate-limits.yml
+  href: https://artifacts.apis.io/drupal/rate-limits/drupal-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/drupal-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/rules/drupal-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/drupal/rules/drupal-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/drupal-jsonschema-spectral-rules.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/finops/drupal-finops.yml
+  href: https://artifacts.apis.io/drupal/finops/drupal-finops.yml
   title: ''
   type: FinOps
   url: finops/drupal-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/overlays/drupal-node-articles-api-overlay.yaml
+  href: https://artifacts.apis.io/drupal/overlays/drupal-node-articles-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/drupal-node-articles-api-overlay.yaml
@@ -328,7 +332,7 @@ finops:
 - has_sources: true
   method: searched
   name: Drupal Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: drupal-finops
   template: false
@@ -364,12 +368,12 @@ overview: 'Drupal publishes 10 API contracts indexed on the [APIs.io](https://ap
   The Drupal catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Drupal''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, signup flow, and 35 more developer resources.'
+  Drupal''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, signup flow, and 36 more developer resources.'
 plans:
 - name: Drupal Plans Pricing
   plan_count: 0
   slug: drupal-plans-pricing
-random_paper: 10
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Drupal Rate Limits
@@ -393,23 +397,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 54.3
+  composite: 55.7
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 58.7
+    artifact_dirs: 31
+    catalog_earned: 61.7
     catalog_earned_first_party: 8.0
-    catalog_gap: 56.4
+    catalog_gap: 53.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 42.1
     contract_governance: 14.4
-    contract_quality: 60.5
+    contract_quality: 57.0
     developer_ergonomics: 66.1
-    discoverability: 68.3
-    operational_transparency: 57.9
-  previous_composite: 55.8
+    discoverability: 65.0
+    operational_transparency: 60.5
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -426,13 +430,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/screenshots/drupal-2026-06-20T180306.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/drupal/drupal-2026-06-20T180306.png
 security:
 - kind: authentication
   name: Drupal Authentication
@@ -446,6 +451,16 @@ security:
   name: Drupal Vulnerability Disclosure
   slug: drupal-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 4
+skills:
+- name: drupal-moderate-comments
+  slug: drupal-moderate-comments
+- name: drupal-publish-article
+  slug: drupal-publish-article
+- name: drupal-retire-content-safely
+  slug: drupal-retire-content-safely
+- name: drupal-tag-content
+  slug: drupal-tag-content
 slug: drupal
 tags:
 - Content Management

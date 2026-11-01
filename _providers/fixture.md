@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.7
-  scored_at: '2026-10-17'
+  score: 53.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://beta-api.fixture.app/api/v1
@@ -91,11 +93,23 @@ apis:
   description: The Users API from Fixture — 1 operation(s) for users.
   name: Fixture Users API
   slug: fixture-users-api
-artifact_total: 27
+- baseURL: https://beta-api.fixture.app/api/v1
+  baseurl_source: declared
+  description: The Custom Fields API from Fixture — 8 operation(s) for custom fields.
+  name: Fixture Custom Fields API
+  slug: fixture-custom-fields-api
+- baseURL: https://beta-api.fixture.app/api/v1
+  baseurl_source: declared
+  description: The Lead Lists API from Fixture — 3 operation(s) for lead lists.
+  name: Fixture Lead Lists API
+  slug: fixture-lead-lists-api
+- baseURL: https://beta-api.fixture.app/api/v1
+  baseurl_source: declared
+  description: Describe and synchronously query authorized Semantic Query datasets.
+  name: Fixture Reporting API
+  slug: fixture-reporting-api
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Fixture Accounts API
   slug: open-fixture-accounts-api
@@ -131,17 +145,17 @@ collections:
   slug: open-fixture-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/capabilities/fixture-capability-edges.yml
+  href: https://artifacts.apis.io/fixture/capabilities/fixture-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fixture-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/overlays/fixture-v1-overlay.yaml
+  href: https://artifacts.apis.io/fixture/overlays/fixture-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fixture-v1-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/security/fixture-domain-security.yml
+  href: https://artifacts.apis.io/fixture/security/fixture-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fixture-domain-security.yml
@@ -194,72 +208,72 @@ common:
   type: ErrorCodes
   url: https://fixture.app/docs/api-reference/errors
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/conventions/fixture-conventions.yml
+  href: https://artifacts.apis.io/fixture/conventions/fixture-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/fixture-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/conventions/fixture-conventions.yml
+  href: https://artifacts.apis.io/fixture/conventions/fixture-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fixture-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/errors/fixture-problem-types.yml
+  href: https://artifacts.apis.io/fixture/errors/fixture-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fixture-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/lifecycle/fixture-lifecycle.yml
+  href: https://artifacts.apis.io/fixture/lifecycle/fixture-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fixture-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/authentication/fixture-authentication.yml
+  href: https://artifacts.apis.io/fixture/authentication/fixture-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fixture-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/scopes/fixture-scopes.yml
+  href: https://artifacts.apis.io/fixture/scopes/fixture-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fixture-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/mcp/fixture-mcp.yml
+  href: https://artifacts.apis.io/fixture/mcp/fixture-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/fixture-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/cli/fixture-cli.yml
+  href: https://artifacts.apis.io/fixture/cli/fixture-cli.yml
   title: ''
   type: CLI
   url: cli/fixture-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/data-model/fixture-data-model.yml
+  href: https://artifacts.apis.io/fixture/data-model/fixture-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fixture-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/conformance/fixture-conformance.yml
+  href: https://artifacts.apis.io/fixture/conformance/fixture-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fixture-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/packages/fixture-packages.yml
+  href: https://artifacts.apis.io/fixture/packages/fixture-packages.yml
   title: ''
   type: Packages
   url: packages/fixture-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/well-known/fixture-well-known.yml
+  href: https://artifacts.apis.io/fixture/well-known/fixture-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fixture-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/llms/fixture-llms.txt
+  href: https://artifacts.apis.io/fixture/llms/fixture-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fixture-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fixture/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -275,11 +289,11 @@ modified: '2026-09-16'
 name: Fixture
 nav: Providers
 network: true
-overview: 'Fixture publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Activities API, Contacts API, and 8 more. Tagged areas include Company, CRM, Sales, B2B, and Artificial Intelligence.
+overview: 'Fixture publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Activities API, Contacts API, and 11 more. Tagged areas include Company, CRM, Sales, B2B, and Artificial Intelligence.
 
 
   Fixture''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 23 more developer resources.'
-random_paper: 5
+random_paper: 7
 scopes:
 - name: Fixture Scopes
   scope_count: 0
@@ -287,7 +301,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.3
+  composite: 43.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -295,22 +309,22 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 56.2
+    contract_quality: 52.9
     developer_ergonomics: 58.9
-    discoverability: 75.0
-    operational_transparency: 7.9
-  previous_composite: 46.2
+    discoverability: 65.0
+    operational_transparency: 15.8
+  previous_composite: 43.4
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 25
     mcp: first-party
     skills: derived
   regulatory:
@@ -319,13 +333,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/screenshots/fixture-2026-07-25T214655.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fixture/fixture-2026-07-25T214655.png
 security:
 - kind: authentication
   name: Fixture Authentication
@@ -335,6 +350,18 @@ security:
   name: Fixture Domain Security
   slug: fixture-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 5
+skills:
+- name: fixture-contact-sync-with-merge-handling
+  slug: fixture-contact-sync-with-merge-handling
+- name: fixture-deal-pipeline-management
+  slug: fixture-deal-pipeline-management
+- name: fixture-idempotent-activity-ingestion
+  slug: fixture-idempotent-activity-ingestion
+- name: fixture-lead-intake-and-conversion
+  slug: fixture-lead-intake-and-conversion
+- name: fixture-task-triage
+  slug: fixture-task-triage
 slug: fixture
 tags:
 - Company

@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: Search and retrieve venue information.
   name: live-nation-entertainment Venues API
   slug: live-nation-entertainment-venues-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ticketmaster Discovery Attractions API
   slug: open-live-nation-entertainment-attractions-api
@@ -87,32 +86,32 @@ collections:
   slug: open-live-nation-entertainment-venues-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/plans/live-nation-entertainment-plans-pricing.yml
+  href: https://artifacts.apis.io/live-nation-entertainment/plans/live-nation-entertainment-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/live-nation-entertainment-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/rate-limits/live-nation-entertainment-rate-limits.yml
+  href: https://artifacts.apis.io/live-nation-entertainment/rate-limits/live-nation-entertainment-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/live-nation-entertainment-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/finops/live-nation-entertainment-finops.yml
+  href: https://artifacts.apis.io/live-nation-entertainment/finops/live-nation-entertainment-finops.yml
   title: ''
   type: FinOps
   url: finops/live-nation-entertainment-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/agentic-access/live-nation-entertainment-agentic-access.yml
+  href: https://artifacts.apis.io/live-nation-entertainment/agentic-access/live-nation-entertainment-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/live-nation-entertainment-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/security/live-nation-entertainment-domain-security.yml
+  href: https://artifacts.apis.io/live-nation-entertainment/security/live-nation-entertainment-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/live-nation-entertainment-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/authentication/live-nation-entertainment-authentication.yml
+  href: https://artifacts.apis.io/live-nation-entertainment/authentication/live-nation-entertainment-authentication.yml
   title: ''
   type: Authentication
   url: authentication/live-nation-entertainment-authentication.yml
@@ -167,14 +166,14 @@ press:
 - date: ''
   title: Live Nation Entertainment Full Year And Fourth Quarter ...
   url: https://newsroom.livenation.com/news/live-nation-entertainment-full-year-and-fourth-quarter-2025-results/
-random_paper: 3
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Live Nation Entertainment Rate Limits
   slug: live-nation-entertainment-rate-limits
 score:
   band: emerging
-  composite: 21.9
+  composite: 22.2
   coverage:
     artifact_dirs: 12
     catalog_earned: 29.0
@@ -182,15 +181,15 @@ score:
     catalog_gap: 86.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 42.9
     developer_ergonomics: 23.8
     discoverability: 42.9
-    operational_transparency: 7.9
-  previous_composite: 23.4
+    operational_transparency: 10.5
+  previous_composite: 22.2
   provenance:
     agentic_access: derived
     contracts:
@@ -204,14 +203,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/screenshots/live-nation-entertainment-2026-06-20T184616.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/live-nation-entertainment/live-nation-entertainment-2026-06-20T184616.png
 security:
 - kind: authentication
   name: Live Nation Entertainment Authentication

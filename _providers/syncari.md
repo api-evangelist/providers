@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.0
-  scored_at: '2026-10-17'
+  score: 44.8
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST API for embedding and automating Syncari. Covers instance provisioning, synapse create/test/activate, entity and field pipeline authoring, validation and publishing, Quick Start install, schema (
@@ -47,7 +49,7 @@ apis:
 - description: Hosted remote MCP server that connects Claude (web and desktop) and ChatGPT to a customer's unified Syncari data. Documented capabilities include listing the datasets in an instance, running analytica
   name: Syncari MCP Server
   slug: syncari-mcp-server
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Syncari Notifications Webhooks
@@ -58,7 +60,7 @@ common:
   type: BlogRSS
   url: https://syncari.com/blog/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/security/syncari-domain-security.yml
+  href: https://artifacts.apis.io/syncari/security/syncari-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/syncari-domain-security.yml
@@ -123,92 +125,100 @@ common:
   type: TrustCenter
   url: https://syncari.com/product/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/security/syncari-trust-center.yml
+  href: https://artifacts.apis.io/syncari/security/syncari-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/syncari-trust-center.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/packages/syncari-packages.yml
+  href: https://artifacts.apis.io/syncari/packages/syncari-packages.yml
   title: ''
   type: SDKs
   url: packages/syncari-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/packages/syncari-packages.yml
+  href: https://artifacts.apis.io/syncari/packages/syncari-packages.yml
   title: ''
   type: Packages
   url: packages/syncari-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/mcp/syncari-mcp.yml
+  href: https://artifacts.apis.io/syncari/mcp/syncari-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/syncari-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/llms/syncari-llms.txt
+  href: https://artifacts.apis.io/syncari/llms/syncari-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/syncari-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/well-known/syncari-well-known.yml
+  href: https://artifacts.apis.io/syncari/well-known/syncari-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/syncari-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/authentication/syncari-authentication.yml
+  href: https://artifacts.apis.io/syncari/authentication/syncari-authentication.yml
   title: ''
   type: Authentication
   url: authentication/syncari-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/scopes/syncari-scopes.yml
+  href: https://artifacts.apis.io/syncari/scopes/syncari-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/syncari-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/conventions/syncari-conventions.yml
+  href: https://artifacts.apis.io/syncari/conventions/syncari-conventions.yml
   title: ''
   type: Conventions
   url: conventions/syncari-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/lifecycle/syncari-lifecycle.yml
+  href: https://artifacts.apis.io/syncari/lifecycle/syncari-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/syncari-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/conformance/syncari-conformance.yml
+  href: https://artifacts.apis.io/syncari/conformance/syncari-conformance.yml
   title: ''
   type: Conformance
   url: conformance/syncari-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/errors/syncari-problem-types.yml
+  href: https://artifacts.apis.io/syncari/errors/syncari-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/syncari-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/data-model/syncari-data-model.yml
+  href: https://artifacts.apis.io/syncari/data-model/syncari-data-model.yml
   title: ''
   type: DataModel
   url: data-model/syncari-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/changelog/syncari-changelog.yml
+  href: https://artifacts.apis.io/syncari/changelog/syncari-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/syncari-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/plans/syncari-plans-pricing.yml
+  href: https://artifacts.apis.io/syncari/plans/syncari-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/syncari-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/rate-limits/syncari-rate-limits.yml
+  href: https://artifacts.apis.io/syncari/rate-limits/syncari-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/syncari-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/asyncapi/syncari-notifications-webhooks.yml
+  href: https://artifacts.apis.io/syncari/asyncapi/syncari-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/syncari-notifications-webhooks.yml
 created: '2026-08-29'
 description: 'Syncari is an agentic master data management (MDM) and data unification platform that syncs, cleans, governs and activates business data across CRM, marketing, finance, support and warehouse systems from a single unified data model. Its multidirectional stateful sync engine connects 50+ prebuilt "Synapse" connectors plus a Python custom connector SDK, and orchestrates data through no-code entity and field pipelines, schema studio, merge/dedupe, reference datasets and insights. Syncari exposes two public developer surfaces: the Syncari Embed REST API (https://api.syncari.com/api/v1) for programmatically provisioning instances, synapses, pipelines, entities, datasets, users and roles inside an embedding product, and a hosted remote MCP server at https://mcp.syncari.com/mcp that lets Claude and ChatGPT query a customer''s unified data and trigger Syncari actions over OAuth.'
+finops:
+- has_sources: true
+  method: derived
+  name: Syncari Finops
+  primary_unit: ''
+  service_category: ''
+  slug: syncari-finops
+  template: true
 image: https://syncari.com/wp-content/themes/syncaroo/img/syncari.svg
 layout: provider
 mcp_servers:
@@ -228,9 +238,9 @@ overview: 'Syncari is listed with 2 APIs on the [APIs.io](https://apis.io/) netw
   Syncari''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 plans:
 - name: Syncari Plans Pricing
-  plan_count: 0
+  plan_count: 1
   slug: syncari-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Syncari Rate Limits
@@ -241,24 +251,24 @@ scopes:
   slug: syncari-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 54.0
+  band: strong
+  composite: 57.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 21
+    catalog_earned: 53.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.2
   facets:
-    access_clarity: 60.5
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 54.8
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 60.5
-  previous_composite: 53.9
+  previous_composite: 53.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -268,14 +278,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/screenshots/syncari-2026-09-02T161452.png
+screenshot: https://apis.io/screenshots/syncari/syncari-2026-09-02T161452.png
 security:
 - kind: authentication
   name: Syncari Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +63,7 @@ common:
   type: Login
   url: https://www.thehelperbees.com/member-sign-in
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-helper-bees/refs/heads/main/security/the-helper-bees-domain-security.yml
+  href: https://artifacts.apis.io/the-helper-bees/security/the-helper-bees-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-helper-bees-domain-security.yml
@@ -78,7 +80,7 @@ overview: 'The Helper Bees is profiled on the [APIs.io](https://apis.io/) networ
 
 
   The Helper Bees'' developer surface includes support, signup flow, and 5 more developer resources.'
-random_paper: 14
+random_paper: 2
 score:
   band: emerging
   composite: 12.4
@@ -111,14 +113,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-helper-bees/refs/heads/main/screenshots/the-helper-bees-2026-09-02T163344.png
+screenshot: https://apis.io/screenshots/the-helper-bees/the-helper-bees-2026-09-02T163344.png
 security:
 - kind: domain-security
   name: The Helper Bees Domain Security

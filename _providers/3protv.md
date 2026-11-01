@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -56,22 +58,22 @@ common:
   type: YouTube
   url: https://www.youtube.com/@3protv
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/3protv/refs/heads/main/llms/3protv-llms.txt
+  href: https://artifacts.apis.io/3protv/llms/3protv-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/3protv-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/3protv/refs/heads/main/security/3protv-domain-security.yml
+  href: https://artifacts.apis.io/3protv/security/3protv-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/3protv-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/3protv/refs/heads/main/plans/3protv-plans-pricing.yml
+  href: https://artifacts.apis.io/3protv/plans/3protv-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/3protv-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/3protv/refs/heads/main/rate-limits/3protv-rate-limits.yml
+  href: https://artifacts.apis.io/3protv/rate-limits/3protv-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/3protv-rate-limits.yml
@@ -109,14 +111,14 @@ plans:
 - name: 3Protv Plans Pricing
   plan_count: 0
   slug: 3protv-plans-pricing
-random_paper: 6
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: 3Protv Rate Limits
   slug: 3protv-rate-limits
 score:
   band: emerging
-  composite: 12.1
+  composite: 11.4
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -130,7 +132,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -139,21 +141,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 12.1
+  previous_composite: 11.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/3protv/refs/heads/main/screenshots/3protv-2026-10-11T092059.png
+screenshot: https://apis.io/screenshots/3protv/3protv-2026-10-11T092059.png
 security:
 - kind: domain-security
   name: 3Protv Domain Security

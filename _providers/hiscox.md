@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Partner-facing eligibility lookup that returns the list of US states and the Hiscox products offered by profession, used to determine whether a risk can be quoted before a quote is requested. Listed a
@@ -53,7 +55,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hiscox/refs/heads/main/security/hiscox-domain-security.yml
+  href: https://artifacts.apis.io/hiscox/security/hiscox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hiscox-domain-security.yml
@@ -114,37 +116,37 @@ common:
   type: Compliance
   url: https://www.hiscoxgroup.com/news/blog/hiscox-gains-cyber-essentials-plus-accreditation
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hiscox/refs/heads/main/authentication/hiscox-authentication.yml
+  href: https://artifacts.apis.io/hiscox/authentication/hiscox-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hiscox-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hiscox/refs/heads/main/conventions/hiscox-conventions.yml
+  href: https://artifacts.apis.io/hiscox/conventions/hiscox-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hiscox-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/hiscox/refs/heads/main/sandbox/hiscox-sandbox.yml
+  href: https://artifacts.apis.io/hiscox/sandbox/hiscox-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hiscox-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hiscox/refs/heads/main/lifecycle/hiscox-lifecycle.yml
+  href: https://artifacts.apis.io/hiscox/lifecycle/hiscox-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hiscox-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hiscox/refs/heads/main/conformance/hiscox-conformance.yml
+  href: https://artifacts.apis.io/hiscox/conformance/hiscox-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hiscox-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hiscox/refs/heads/main/packages/hiscox-packages.yml
+  href: https://artifacts.apis.io/hiscox/packages/hiscox-packages.yml
   title: ''
   type: Packages
   url: packages/hiscox-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hiscox/refs/heads/main/llms/hiscox-llms.txt
+  href: https://artifacts.apis.io/hiscox/llms/hiscox-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hiscox-llms.txt
@@ -162,10 +164,10 @@ overview: 'Hiscox is listed with 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Hiscox''s developer surface includes documentation, API reference, FAQ, support, signup flow, getting-started guide, engineering blog, and 15 more developer resources.'
-random_paper: 16
+random_paper: 6
 score:
   band: thin
-  composite: 31.5
+  composite: 31.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 35.0
@@ -180,7 +182,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 64.3
     discoverability: 62.5
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -189,7 +191,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 31.5
+  previous_composite: 31.9
   provenance:
     conformance: first-party
   regulatory:
@@ -198,14 +200,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hiscox/refs/heads/main/screenshots/hiscox-2026-07-25T221253.png
+screenshot: https://apis.io/screenshots/hiscox/hiscox-2026-07-25T221253.png
 security:
 - kind: authentication
   name: Hiscox Authentication

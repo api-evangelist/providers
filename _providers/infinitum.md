@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: An HTTP/JSON API over Infinitum's Motor Selection Tool (MST) and Fan Selection Tool (FST), documented by Infinitum for third-party integration with BMS, design software and internal tools. Infinitum's
@@ -42,7 +44,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infinitum/refs/heads/main/security/infinitum-domain-security.yml
+  href: https://artifacts.apis.io/infinitum/security/infinitum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/infinitum-domain-security.yml
@@ -71,17 +73,17 @@ common:
   type: TermsOfService
   url: https://goinfinitum.com/terms/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infinitum/refs/heads/main/conformance/infinitum-conformance.yml
+  href: https://artifacts.apis.io/infinitum/conformance/infinitum-conformance.yml
   title: ''
   type: Conformance
   url: conformance/infinitum-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/infinitum/refs/heads/main/llms/infinitum-llms.txt
+  href: https://artifacts.apis.io/infinitum/llms/infinitum-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/infinitum-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/infinitum/refs/heads/main/plans/infinitum-plans-pricing.yml
+  href: https://artifacts.apis.io/infinitum/plans/infinitum-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/infinitum-plans-pricing.yml
@@ -116,7 +118,7 @@ plans:
 - name: Infinitum Plans Pricing
   plan_count: 0
   slug: infinitum-plans-pricing
-random_paper: 11
+random_paper: 19
 score:
   band: emerging
   composite: 18.4
@@ -144,14 +146,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 15.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/infinitum/refs/heads/main/screenshots/infinitum-2026-09-02T145851.png
+screenshot: https://apis.io/screenshots/infinitum/infinitum-2026-09-02T145851.png
 security:
 - kind: domain-security
   name: Infinitum Domain Security

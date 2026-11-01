@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'Live, anonymous, remote Model Context Protocol server at https://p0stman.com/api/mcp (JSON-RPC 2.0 over HTTPS POST, protocol 2024-11-05, tools primitive only). Five tools: get_services (services with '
@@ -35,7 +37,7 @@ apis:
 - description: 'Three anonymous JSON endpoints documented in agents.md for agents that do not speak MCP: GET /api/ai/context (company, services, case_studies, contact, how_to_engage, mcp_endpoint), GET /api/ai/servic'
   name: p0stman AI Context API
   slug: p0stman-ai-context-api
-artifact_total: 8
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -94,82 +96,82 @@ common:
   type: Twitter
   url: https://x.com/paulgosnell
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/p0stman-com/refs/heads/main/llms/p0stman-com-llms.txt
+  href: https://artifacts.apis.io/p0stman-com/llms/p0stman-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/p0stman-com-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/p0stman-com/refs/heads/main/llms/p0stman-com-agents.md
+  href: https://artifacts.apis.io/p0stman-com/llms/p0stman-com-agents.md
   title: ''
   type: AgentsMd
   url: llms/p0stman-com-agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/p0stman-com/refs/heads/main/well-known/p0stman-com-well-known.yml
+  href: https://artifacts.apis.io/p0stman-com/well-known/p0stman-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/p0stman-com-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/p0stman-com/refs/heads/main/a2a/p0stman-com-a2a.yml
+  href: https://artifacts.apis.io/p0stman-com/a2a/p0stman-com-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/p0stman-com-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/p0stman-com/refs/heads/main/mcp/p0stman-com-mcp.yml
+  href: https://artifacts.apis.io/p0stman-com/mcp/p0stman-com-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/p0stman-com-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/p0stman-com/refs/heads/main/authentication/p0stman-com-authentication.yml
+  href: https://artifacts.apis.io/p0stman-com/authentication/p0stman-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/p0stman-com-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/p0stman-com/refs/heads/main/conventions/p0stman-com-conventions.yml
+  href: https://artifacts.apis.io/p0stman-com/conventions/p0stman-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/p0stman-com-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/p0stman-com/refs/heads/main/errors/p0stman-com-problem-types.yml
+  href: https://artifacts.apis.io/p0stman-com/errors/p0stman-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/p0stman-com-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/p0stman-com/refs/heads/main/rate-limits/p0stman-com-rate-limits.yml
+  href: https://artifacts.apis.io/p0stman-com/rate-limits/p0stman-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/p0stman-com-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/p0stman-com/refs/heads/main/plans/p0stman-com-plans-pricing.yml
+  href: https://artifacts.apis.io/p0stman-com/plans/p0stman-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/p0stman-com-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/p0stman-com/refs/heads/main/conformance/p0stman-com-conformance.yml
+  href: https://artifacts.apis.io/p0stman-com/conformance/p0stman-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/p0stman-com-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/p0stman-com/refs/heads/main/lifecycle/p0stman-com-lifecycle.yml
+  href: https://artifacts.apis.io/p0stman-com/lifecycle/p0stman-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/p0stman-com-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/p0stman-com/refs/heads/main/packages/p0stman-com-packages.yml
+  href: https://artifacts.apis.io/p0stman-com/packages/p0stman-com-packages.yml
   title: ''
   type: Packages
   url: packages/p0stman-com-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/p0stman-com/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/p0stman-com/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/p0stman-com/refs/heads/main/security/p0stman-com-domain-security.yml
+  href: https://artifacts.apis.io/p0stman-com/security/p0stman-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/p0stman-com-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/p0stman-com/refs/heads/main/regulatory/p0stman-com-regulatory-posture.yml
+  href: https://artifacts.apis.io/p0stman-com/regulatory/p0stman-com-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/p0stman-com-regulatory-posture.yml
@@ -204,7 +206,7 @@ rate_limits:
   slug: p0stman-com-rate-limits
 score:
   band: thin
-  composite: 27.4
+  composite: 26.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -212,13 +214,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.3
-    discoverability: 81.7
+    discoverability: 71.7
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -228,7 +230,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 27.7
+  previous_composite: 26.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -239,14 +241,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 28.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/p0stman-com/refs/heads/main/screenshots/p0stman-com-2026-10-11T112255.png
+screenshot: https://apis.io/screenshots/p0stman-com/p0stman-com-2026-10-11T112255.png
 security:
 - kind: authentication
   name: P0Stman Com Authentication
@@ -256,6 +258,12 @@ security:
   name: P0Stman Com Domain Security
   slug: p0stman-com-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Book a discovery call or send an enquiry
+  slug: p0stman-com-book-discovery-call
+- name: Research p0stman's services and portfolio
+  slug: p0stman-com-research-services-and-portfolio
 slug: p0stman-com
 tags:
 - AI Agents

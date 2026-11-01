@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.8
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 23.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
@@ -177,11 +179,8 @@ apis:
   description: Workspaces in an organization context
   name: Seqera Labs Workspaces API
   slug: seqera-labs-workspaces-api
-artifact_total: 62
+artifact_total: 63
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Seqera actions API
   slug: open-seqera-labs-actions-api
@@ -268,7 +267,7 @@ collections:
   slug: open-seqera-labs-workspaces-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/plans/seqera-labs-plans-pricing.yml
+  href: https://artifacts.apis.io/seqera-labs/plans/seqera-labs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/seqera-labs-plans-pricing.yml
@@ -277,17 +276,17 @@ common:
   type: Website
   url: https://www.seqera.io/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/capabilities/seqera-labs-capability-edges.yml
+  href: https://artifacts.apis.io/seqera-labs/capabilities/seqera-labs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/seqera-labs-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/overlays/seqera-labs-platform-overlay.yaml
+  href: https://artifacts.apis.io/seqera-labs/overlays/seqera-labs-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seqera-labs-platform-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/security/seqera-labs-domain-security.yml
+  href: https://artifacts.apis.io/seqera-labs/security/seqera-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/seqera-labs-domain-security.yml
@@ -344,97 +343,105 @@ common:
   type: StatusPage
   url: https://status.seqera.io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/authentication/seqera-labs-authentication.yml
+  href: https://artifacts.apis.io/seqera-labs/authentication/seqera-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/seqera-labs-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/packages/seqera-labs-packages.yml
+  href: https://artifacts.apis.io/seqera-labs/packages/seqera-labs-packages.yml
   title: ''
   type: Packages
   url: packages/seqera-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/packages/seqera-labs-packages.yml
+  href: https://artifacts.apis.io/seqera-labs/packages/seqera-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/seqera-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/cli/seqera-labs-cli.yml
+  href: https://artifacts.apis.io/seqera-labs/cli/seqera-labs-cli.yml
   title: ''
   type: CLI
   url: cli/seqera-labs-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/conventions/seqera-labs-conventions.yml
+  href: https://artifacts.apis.io/seqera-labs/conventions/seqera-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/seqera-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/conformance/seqera-labs-conformance.yml
+  href: https://artifacts.apis.io/seqera-labs/conformance/seqera-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/seqera-labs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/lifecycle/seqera-labs-lifecycle.yml
+  href: https://artifacts.apis.io/seqera-labs/lifecycle/seqera-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/seqera-labs-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/lifecycle/seqera-labs-lifecycle.yml
+  href: https://artifacts.apis.io/seqera-labs/lifecycle/seqera-labs-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/seqera-labs-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/changelog/seqera-labs-changelog.yml
+  href: https://artifacts.apis.io/seqera-labs/changelog/seqera-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/seqera-labs-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/data-model/seqera-labs-data-model.yml
+  href: https://artifacts.apis.io/seqera-labs/data-model/seqera-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/seqera-labs-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/mcp/seqera-labs-mcp.yml
+  href: https://artifacts.apis.io/seqera-labs/mcp/seqera-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/seqera-labs-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/llms/seqera-labs-llms.txt
+  href: https://artifacts.apis.io/seqera-labs/llms/seqera-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/seqera-labs-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/seqera-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/well-known/seqera-labs-well-known.yml
+  href: https://artifacts.apis.io/seqera-labs/well-known/seqera-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/seqera-labs-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/well-known/seqera-labs-security.txt
+  href: https://artifacts.apis.io/seqera-labs/well-known/seqera-labs-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/seqera-labs-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/security/seqera-labs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/seqera-labs/security/seqera-labs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/seqera-labs-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/security/seqera-labs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/seqera-labs/security/seqera-labs-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/seqera-labs-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/security/seqera-labs-trust-center.yml
+  href: https://artifacts.apis.io/seqera-labs/security/seqera-labs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/seqera-labs-trust-center.yml
 created: '2026-07-17'
 description: Seqera (Seqera Labs) builds open, cloud-based software for scientific data analysis at scale. It is the company behind Nextflow, the widely adopted open-source workflow orchestration engine, and the Seqera Platform (formerly Nextflow Tower) for launching, monitoring, and governing data pipelines across cloud and HPC compute. Its product family also includes Wave (on-demand container provisioning), Fusion (a distributed file system for cloud pipelines), Data Studios (interactive analysis environments), and MultiQC. The Seqera Platform exposes a REST API (OpenAPI 3.0.1, 250 operations) plus a CLI (tw) and Python automation (seqerakit), and implements the GA4GH Workflow Execution Service (WES) standard.
+finops:
+- has_sources: true
+  method: derived
+  name: Seqera Labs Finops
+  primary_unit: cpu hour
+  service_category: ''
+  slug: seqera-labs-finops
+  template: false
 image: https://avatars.githubusercontent.com/u/32700669?v=4
 layout: provider
 modified: '2026-07-21'
@@ -449,26 +456,26 @@ plans:
 - name: Seqera Labs Plans Pricing
   plan_count: 8
   slug: seqera-labs-plans-pricing
-random_paper: 4
+random_paper: 0
 score:
   band: strong
-  composite: 57.4
+  composite: 61.0
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 71.1
+    access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 48.4
+    contract_quality: 45.0
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 52.6
-  previous_composite: 57.3
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 59.5
   provenance:
     conformance: derived
     contracts:
@@ -484,13 +491,14 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/screenshots/seqera-labs-2026-08-17T081807.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/seqera-labs/seqera-labs-2026-08-17T081807.png
 security:
 - kind: authentication
   name: Seqera Labs Authentication
@@ -508,6 +516,10 @@ security:
   name: Seqera Labs Trust Center
   slug: seqera-labs-trust-center
   summary_line: status, note
+skill_count: 1
+skills:
+- name: seqera-labs-launch-pipeline
+  slug: seqera-labs-launch-pipeline
 slug: seqera-labs
 tags:
 - Company

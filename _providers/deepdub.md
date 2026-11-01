@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.2
-  scored_at: '2026-10-17'
+  score: 31.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -81,11 +83,13 @@ apis:
   description: The Voice API from Deepdub — 2 operation(s) for voice.
   name: Deepdub Voice API
   slug: deepdub-voice-api
-artifact_total: 20
+- baseURL: https://restapi.deepdub.ai/api/v1
+  baseurl_source: declared
+  description: The Provenance API from Deepdub — 1 operation(s) for provenance.
+  name: Deepdub Provenance API
+  slug: deepdub-provenance-api
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Deepdub Dubbing API
   slug: open-deepdub-dubbing-api
@@ -109,12 +113,12 @@ collections:
   slug: open-deepdub-voice-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/plans/deepdub-plans-pricing.yml
+  href: https://artifacts.apis.io/deepdub/plans/deepdub-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/deepdub-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/capabilities/deepdub-capability-edges.yml
+  href: https://artifacts.apis.io/deepdub/capabilities/deepdub-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/deepdub-capability-edges.yml
@@ -139,7 +143,7 @@ common:
   type: GettingStarted
   url: https://docs.deepdub.ai/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/authentication/deepdub-authentication.yml
+  href: https://artifacts.apis.io/deepdub/authentication/deepdub-authentication.yml
   title: ''
   type: Authentication
   url: authentication/deepdub-authentication.yml
@@ -176,99 +180,107 @@ common:
   type: PrivacyPolicy
   url: https://deepdub.ai/legal/privacy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/packages/deepdub-packages.yml
+  href: https://artifacts.apis.io/deepdub/packages/deepdub-packages.yml
   title: ''
   type: Packages
   url: packages/deepdub-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/packages/deepdub-packages.yml
+  href: https://artifacts.apis.io/deepdub/packages/deepdub-packages.yml
   title: ''
   type: SDKs
   url: packages/deepdub-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/mcp/deepdub-mcp.yml
+  href: https://artifacts.apis.io/deepdub/mcp/deepdub-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/deepdub-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/deepdub/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/agentic-access/deepdub-agentic-access.yml
+  href: https://artifacts.apis.io/deepdub/agentic-access/deepdub-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/deepdub-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/llms/deepdub-llms.txt
+  href: https://artifacts.apis.io/deepdub/llms/deepdub-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/deepdub-llms.txt
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/sandbox/deepdub-sandbox.yml
+  href: https://artifacts.apis.io/deepdub/sandbox/deepdub-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/deepdub-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/rate-limits/deepdub-rate-limits.yml
+  href: https://artifacts.apis.io/deepdub/rate-limits/deepdub-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/deepdub-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/conventions/deepdub-conventions.yml
+  href: https://artifacts.apis.io/deepdub/conventions/deepdub-conventions.yml
   title: ''
   type: Conventions
   url: conventions/deepdub-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/errors/deepdub-error-codes.yml
+  href: https://artifacts.apis.io/deepdub/errors/deepdub-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/deepdub-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/data-model/deepdub-data-model.yml
+  href: https://artifacts.apis.io/deepdub/data-model/deepdub-data-model.yml
   title: ''
   type: DataModel
   url: data-model/deepdub-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/conformance/deepdub-conformance.yml
+  href: https://artifacts.apis.io/deepdub/conformance/deepdub-conformance.yml
   title: ''
   type: Conformance
   url: conformance/deepdub-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/lifecycle/deepdub-lifecycle.yml
+  href: https://artifacts.apis.io/deepdub/lifecycle/deepdub-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/deepdub-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/security/deepdub-domain-security.yml
+  href: https://artifacts.apis.io/deepdub/security/deepdub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/deepdub-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/well-known/deepdub-well-known.yml
+  href: https://artifacts.apis.io/deepdub/well-known/deepdub-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/deepdub-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/overlays/deepdub-api-overlay.yaml
+  href: https://artifacts.apis.io/deepdub/overlays/deepdub-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/deepdub-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/overlays/deepdub-managed-dub-overlay.yaml
+  href: https://artifacts.apis.io/deepdub/overlays/deepdub-managed-dub-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/deepdub-managed-dub-overlay.yaml
 created: '2026-07-17'
 description: 'Deepdub is an AI dubbing, voice-cloning, and text-to-speech company that turns content into natural, emotionally adaptive speech across 100+ languages. Its platform powers media dubbing for studios such as Paramount, Netflix, and Prime Video, real-time AI voice agents (~125ms latency), video localization, live broadcast, and voice cloning. Deepdub exposes a developer platform: a REST Text-to-Speech API (restapi.deepdub.ai) covering TTS generation, a voice bank, gender detection, usage, and issue tracking; a Managed Dubbing API (dubbing.deepdub.app) for end-to-end video dubbing jobs; and a WebSocket streaming API for real-time audio. Authentication is via an x-api-key header, with Python and Node.js SDKs, published OpenAPI specs, and agent files (AGENTS.md, Cursor skill). Deepdub is backed by Insight Partners.'
+finops:
+- has_sources: true
+  method: derived
+  name: Deepdub Finops
+  primary_unit: ''
+  service_category: ''
+  slug: deepdub-finops
+  template: true
 image: https://deepdub.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGetting%2BStarted%26title%3DIntroduction%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fdeepdub%252FYsh6dRbXX3wLTl5X%252Flogo%252Flogo128.png&w=1200&q=100
 layout: provider
 modified: '2026-07-18'
 name: Deepdub
 nav: Providers
 network: true
-overview: 'Deepdub publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Dubbing API, Gender Detection API, Infrastructure API, and 4 more. Tagged areas include Company, Voice, Text-to-Speech, Dubbing, and Localization.
+overview: 'Deepdub publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Dubbing API, Gender Detection API, Infrastructure API, and 5 more. Tagged areas include Company, Voice, Text-to-Speech, Dubbing, and Localization.
 
 
   Deepdub''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 26 more developer resources.'
@@ -276,30 +288,30 @@ plans:
 - name: Deepdub Plans Pricing
   plan_count: 0
   slug: deepdub-plans-pricing
-random_paper: 3
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Deepdub Rate Limits
   slug: deepdub-rate-limits
 score:
   band: developing
-  composite: 48.0
+  composite: 48.7
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 59.4
+    contract_quality: 55.7
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 23.7
-  previous_composite: 48.4
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,7 +319,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 10
     mcp: derived
     skills: derived
   regulatory:
@@ -316,13 +328,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/screenshots/deepdub-2026-07-25T211547.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/deepdub/deepdub-2026-07-25T211547.png
 security:
 - kind: authentication
   name: Deepdub Authentication
@@ -332,6 +345,12 @@ security:
   name: Deepdub Domain Security
   slug: deepdub-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Generate expressive TTS audio with Deepdub
+  slug: deepdub-generate-tts
+- name: Submit and track a Deepdub dubbing job
+  slug: deepdub-submit-dubbing-job
 slug: deepdub
 tags:
 - Company

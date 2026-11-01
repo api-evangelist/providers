@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: GRIN's bi-directional REST API lets a brand's own software communicate with GRIN to synchronize creators, content, programs, and reporting data. Reference documentation is published on Stoplight at ap
@@ -41,24 +43,24 @@ apis:
 - description: GRIN's hosted remote Model Context Protocol server for Gia, its AI agent for creator marketing. GRIN documents that "Gia connects to Claude, ChatGPT, and other assistants that support MCP", and the en
   name: GRIN Gia MCP Server
   slug: grin-gia-mcp-server
-artifact_total: 10
+artifact_total: 12
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://grin.co/blog/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/security/grin-trust-center.yml
+  href: https://artifacts.apis.io/grin/security/grin-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/grin-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/security/grin-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/grin/security/grin-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/grin-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/security/grin-domain-security.yml
+  href: https://artifacts.apis.io/grin/security/grin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/grin-domain-security.yml
@@ -123,62 +125,70 @@ common:
   type: Pricing
   url: https://grin.co/pricing
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/mcp/grin-mcp.yml
+  href: https://artifacts.apis.io/grin/mcp/grin-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/grin-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/authentication/grin-authentication.yml
+  href: https://artifacts.apis.io/grin/authentication/grin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/grin-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/scopes/grin-scopes.yml
+  href: https://artifacts.apis.io/grin/scopes/grin-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/grin-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/well-known/grin-well-known.yml
+  href: https://artifacts.apis.io/grin/well-known/grin-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/grin-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/llms/grin-llms.txt
+  href: https://artifacts.apis.io/grin/llms/grin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/grin-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/plans/grin-plans-pricing.yml
+  href: https://artifacts.apis.io/grin/plans/grin-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/grin-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/rate-limits/grin-rate-limits.yml
+  href: https://artifacts.apis.io/grin/rate-limits/grin-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/grin-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/lifecycle/grin-lifecycle.yml
+  href: https://artifacts.apis.io/grin/lifecycle/grin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/grin-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/conventions/grin-conventions.yml
+  href: https://artifacts.apis.io/grin/conventions/grin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/grin-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/conformance/grin-conformance.yml
+  href: https://artifacts.apis.io/grin/conformance/grin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/grin-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/packages/grin-packages.yml
+  href: https://artifacts.apis.io/grin/packages/grin-packages.yml
   title: ''
   type: Packages
   url: packages/grin-packages.yml
 created: '2026-07-17'
 description: GRIN is a creator management and influencer marketing platform for consumer and eCommerce brands, operating in the creator economy. Brands use GRIN to discover creators, manage relationships and content, run affiliate and ambassador programs, handle creator payments, track performance, and measure ROI at scale. The product line includes GRIN Classic, a manual creator and affiliate management platform, and Gia, an AI assistant that automates affiliate program management. GRIN exposes a bi-directional REST API (documented on Stoplight at api.grin.co) so a brand's own software can synchronize creators, content, and program data with GRIN, alongside native integrations for Shopify, Klaviyo, PayPal, Slack, and other commerce tools.
+finops:
+- has_sources: true
+  method: derived
+  name: Grin Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: grin-finops
+  template: false
 image: https://grin.co/wp-content/uploads/2022/11/2022_GRIN_Logo_Black_Transparent-Bkgnd-small.webp
 layout: provider
 mcp_servers:
@@ -197,7 +207,10 @@ plans:
 - name: Grin Plans Pricing
   plan_count: 5
   slug: grin-plans-pricing
-random_paper: 14
+- name: Grin Price Estimates
+  plan_count: 0
+  slug: grin-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Grin Rate Limits
@@ -209,23 +222,23 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: developing
-  composite: 45.1
+  composite: 45.6
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 49.0
+    artifact_dirs: 17
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 26.3
-  previous_composite: 45.0
+  previous_composite: 44.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -235,14 +248,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/screenshots/grin-2026-07-25T220334.png
+screenshot: https://apis.io/screenshots/grin/grin-2026-07-25T220334.png
 security:
 - kind: authentication
   name: Grin Authentication

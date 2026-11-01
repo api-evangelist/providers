@@ -14,26 +14,28 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avida-holding/refs/heads/main/hosts/avida-holding-hosts.yml
+  href: https://artifacts.apis.io/avida-holding/hosts/avida-holding-hosts.yml
   title: ''
   type: Hosts
   url: hosts/avida-holding-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avida-holding/refs/heads/main/security/avida-holding-domain-security.yml
+  href: https://artifacts.apis.io/avida-holding/security/avida-holding-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/avida-holding-domain-security.yml
@@ -57,7 +59,7 @@ name: Avida Holding
 nav: Providers
 network: true
 overview: Avida Holding is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Finance, Lending, Sweden, and Norway.
-random_paper: 5
+random_paper: 7
 score:
   band: minimal
   composite: 3.4
@@ -95,14 +97,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/avida-holding/refs/heads/main/screenshots/avida-holding-2026-10-11T101141.png
+screenshot: https://apis.io/screenshots/avida-holding/avida-holding-2026-10-11T101141.png
 security:
 - kind: domain-security
   name: Avida Holding Domain Security

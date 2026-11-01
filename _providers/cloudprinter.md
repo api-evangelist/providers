@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: Shipping levels, supported countries, and states reference data.
   name: Cloudprinter Shipping API
   slug: cloudprinter-shipping-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cloudprinter CloudCore Orders API
   slug: open-cloudprinter-orders-api
@@ -91,22 +90,22 @@ common:
   type: Blog
   url: https://www.cloudprinter.com/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/capabilities/cloudprinter-capability-edges.yml
+  href: https://artifacts.apis.io/cloudprinter/capabilities/cloudprinter-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cloudprinter-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/agentic-access/cloudprinter-agentic-access.yml
+  href: https://artifacts.apis.io/cloudprinter/agentic-access/cloudprinter-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cloudprinter-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/security/cloudprinter-domain-security.yml
+  href: https://artifacts.apis.io/cloudprinter/security/cloudprinter-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudprinter-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/authentication/cloudprinter-authentication.yml
+  href: https://artifacts.apis.io/cloudprinter/authentication/cloudprinter-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloudprinter-authentication.yml
@@ -127,17 +126,17 @@ common:
   type: Documentation
   url: https://docs.cloudprinter.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/plans/cloudprinter-plans-pricing.yml
+  href: https://artifacts.apis.io/cloudprinter/plans/cloudprinter-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloudprinter-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/rate-limits/cloudprinter-rate-limits.yml
+  href: https://artifacts.apis.io/cloudprinter/rate-limits/cloudprinter-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cloudprinter-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/finops/cloudprinter-finops.yml
+  href: https://artifacts.apis.io/cloudprinter/finops/cloudprinter-finops.yml
   title: ''
   type: FinOps
   url: finops/cloudprinter-finops.yml
@@ -165,14 +164,14 @@ plans:
 - name: Cloudprinter Plans Pricing
   plan_count: 3
   slug: cloudprinter-plans-pricing
-random_paper: 9
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Cloudprinter Rate Limits
   slug: cloudprinter-rate-limits
 score:
   band: thin
-  composite: 26.9
+  composite: 27.9
   coverage:
     artifact_dirs: 13
     catalog_earned: 42.0
@@ -180,15 +179,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 50.7
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 7.9
-  previous_composite: 33.8
+    operational_transparency: 10.5
+  previous_composite: 27.9
   provenance:
     agentic_access: derived
     contracts:
@@ -202,13 +201,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/screenshots/cloudprinter-2026-07-25T205710.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cloudprinter/cloudprinter-2026-07-25T205710.png
 security:
 - kind: authentication
   name: Cloudprinter Authentication

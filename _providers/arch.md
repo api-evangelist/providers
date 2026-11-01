@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -120,11 +122,8 @@ apis:
   description: The Users API from Arch — 2 operation(s) for users.
   name: Arch Users API
   slug: arch-users-api
-artifact_total: 36
+artifact_total: 38
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Arch Client Accounts API
   slug: open-arch-accounts-api
@@ -172,57 +171,57 @@ collections:
   slug: open-arch-users-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/rate-limits/arch-rate-limits.yml
+  href: https://artifacts.apis.io/arch/rate-limits/arch-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/arch-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/security/arch-domain-security.yml
+  href: https://artifacts.apis.io/arch/security/arch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arch-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/agentic-access/arch-agentic-access.yml
+  href: https://artifacts.apis.io/arch/agentic-access/arch-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/arch-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/authentication/arch-authentication.yml
+  href: https://artifacts.apis.io/arch/authentication/arch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/arch-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/lifecycle/arch-lifecycle.yml
+  href: https://artifacts.apis.io/arch/lifecycle/arch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/arch-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/conformance/arch-conformance.yml
+  href: https://artifacts.apis.io/arch/conformance/arch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/arch-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/mcp/arch-mcp.yml
+  href: https://artifacts.apis.io/arch/mcp/arch-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/arch-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/llms/arch-llms.txt
+  href: https://artifacts.apis.io/arch/llms/arch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/arch-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/overlays/arch-client-api-overlay.yaml
+  href: https://artifacts.apis.io/arch/overlays/arch-client-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/arch-client-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/arch/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/security/arch-trust-center.yml
+  href: https://artifacts.apis.io/arch/security/arch-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/arch-trust-center.yml
@@ -286,7 +285,7 @@ overview: 'Arch publishes 15 API contracts indexed on the [APIs.io](https://apis
 
 
   Arch''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, and 17 more developer resources.'
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Arch Rate Limits
@@ -301,15 +300,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 45.3
     developer_ergonomics: 56.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 43.9
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -330,13 +329,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/screenshots/arch-2026-07-25T201014.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/arch/arch-2026-07-25T201014.png
 security:
 - kind: authentication
   name: Arch Authentication
@@ -350,6 +350,14 @@ security:
   name: Arch Trust Center
   slug: arch-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Add a holding and upload its statement
+  slug: arch-add-holding-and-upload-statement
+- name: Authenticate and pull private-market investment data
+  slug: arch-authenticate-and-pull-investments
+- name: Triage tasks and retrieve tax documents
+  slug: arch-triage-tasks-and-tax-documents
 slug: arch
 tags:
 - Company

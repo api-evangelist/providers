@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.3
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 25.0
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.linktoagi.com
   baseurl_source: declared
@@ -62,11 +64,8 @@ apis:
   description: Unauthenticated service status and live pricing metadata.
   name: LinkAGI Model API Public metadata API
   slug: linkagi-model-api-public-metadata-api
-artifact_total: 13
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LinkAGI Anthropic-style route API
   slug: open-linkagi-model-api-anthropic-style-route-api
@@ -88,22 +87,22 @@ common:
   type: Website
   url: https://www.linktoagi.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/mcp/linkagi-model-api-mcp.yml
+  href: https://artifacts.apis.io/linkagi-model-api/mcp/linkagi-model-api-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/linkagi-model-api-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/overlays/linkagi-model-api-openapi-overlay.yaml
+  href: https://artifacts.apis.io/linkagi-model-api/overlays/linkagi-model-api-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkagi-model-api-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/security/linkagi-model-api-domain-security.yml
+  href: https://artifacts.apis.io/linkagi-model-api/security/linkagi-model-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/linkagi-model-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/authentication/linkagi-model-api-authentication.yml
+  href: https://artifacts.apis.io/linkagi-model-api/authentication/linkagi-model-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/linkagi-model-api-authentication.yml
@@ -164,42 +163,42 @@ common:
   type: APIsJSON
   url: https://docs.linktoagi.com/apis.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/llms/linkagi-model-api-llms.txt
+  href: https://artifacts.apis.io/linkagi-model-api/llms/linkagi-model-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/linkagi-model-api-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/changelog/linkagi-model-api-changelog.yml
+  href: https://artifacts.apis.io/linkagi-model-api/changelog/linkagi-model-api-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/linkagi-model-api-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/lifecycle/linkagi-model-api-lifecycle.yml
+  href: https://artifacts.apis.io/linkagi-model-api/lifecycle/linkagi-model-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/linkagi-model-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/conventions/linkagi-model-api-conventions.yml
+  href: https://artifacts.apis.io/linkagi-model-api/conventions/linkagi-model-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/linkagi-model-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/errors/linkagi-model-api-problem-types.yml
+  href: https://artifacts.apis.io/linkagi-model-api/errors/linkagi-model-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/linkagi-model-api-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/conformance/linkagi-model-api-conformance.yml
+  href: https://artifacts.apis.io/linkagi-model-api/conformance/linkagi-model-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/linkagi-model-api-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/packages/linkagi-model-api-packages.yml
+  href: https://artifacts.apis.io/linkagi-model-api/packages/linkagi-model-api-packages.yml
   title: ''
   type: Packages
   url: packages/linkagi-model-api-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/linkagi-model-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -215,10 +214,10 @@ overview: 'LinkAGI Model API publishes 5 API contracts indexed on the [APIs.io](
 
 
   LinkAGI Model API''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, GitHub presence, pricing, and 20 more developer resources.'
-random_paper: 18
+random_paper: 12
 score:
-  band: thin
-  composite: 34.0
+  band: developing
+  composite: 46.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -228,11 +227,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 52.5
-    developer_ergonomics: 44.6
-    discoverability: 73.2
+    developer_ergonomics: 56.5
+    discoverability: 66.1
     operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -241,7 +240,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 34.0
+  previous_composite: 46.4
   provenance:
     conformance: derived
     contracts:
@@ -256,14 +255,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 22.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/screenshots/linkagi-model-api-2026-08-17T081030.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/linkagi-model-api/linkagi-model-api-2026-08-17T081030.png
 security:
 - kind: authentication
   name: Linkagi Model Api Authentication
@@ -273,6 +273,14 @@ security:
   name: Linkagi Model Api Domain Security
   slug: linkagi-model-api-domain-security
   summary_line: TLSv1.3
+skill_count: 3
+skills:
+- name: Point Codex at LinkAGI and call the Responses route
+  slug: linkagi-model-api-codex-responses
+- name: Select a live model and call LinkAGI Chat Completions
+  slug: linkagi-model-api-select-model-and-chat
+- name: Use the LinkAGI Anthropic-style and Gemini-style routes
+  slug: linkagi-model-api-vendor-protocol-routes
 slug: linkagi-model-api
 tags:
 - Artificial Intelligence

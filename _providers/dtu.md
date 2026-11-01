@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: DTU operates its own security token service at sts.ait.dtu.dk (Microsoft AD FS) and publishes signed SAML 2.0 metadata and an OpenID Connect discovery document, both openly and without authentication.
@@ -109,37 +111,37 @@ common:
   type: PrivacyPolicy
   url: https://www.dtu.dk/english/about/strategy-policy/policies/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dtu/refs/heads/main/authentication/dtu-authentication.yml
+  href: https://artifacts.apis.io/dtu/authentication/dtu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dtu-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dtu/refs/heads/main/conformance/dtu-conformance.yml
+  href: https://artifacts.apis.io/dtu/conformance/dtu-conformance.yml
   title: ''
   type: x-conformance
   url: conformance/dtu-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dtu/refs/heads/main/security/dtu-domain-security.yml
+  href: https://artifacts.apis.io/dtu/security/dtu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dtu-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dtu/refs/heads/main/plans/dtu-plans-pricing.yml
+  href: https://artifacts.apis.io/dtu/plans/dtu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dtu-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dtu/refs/heads/main/rate-limits/dtu-rate-limits.yml
+  href: https://artifacts.apis.io/dtu/rate-limits/dtu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dtu-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dtu/refs/heads/main/finops/dtu-finops.yml
+  href: https://artifacts.apis.io/dtu/finops/dtu-finops.yml
   title: ''
   type: FinOps
   url: finops/dtu-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dtu/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/dtu/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -172,14 +174,14 @@ plans:
 - name: Dtu Plans Pricing
   plan_count: 2
   slug: dtu-plans-pricing
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Dtu Rate Limits
   slug: dtu-rate-limits
 score:
   band: emerging
-  composite: 17.8
+  composite: 18.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 39.0
@@ -187,14 +189,14 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 4.4
     developer_ergonomics: 33.3
     discoverability: 62.5
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -203,7 +205,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 19.3
+  previous_composite: 18.1
   provenance:
     conformance: first-party
   regulatory:
@@ -212,14 +214,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dtu/refs/heads/main/screenshots/dtu-2026-06-20T180302.png
+screenshot: https://apis.io/screenshots/dtu/dtu-2026-06-20T180302.png
 security:
 - kind: authentication
   name: Dtu Authentication

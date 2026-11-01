@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: WGL Energy Services is an unregulated retail energy subsidiary of WGL Holdings that sells natural gas and electricity to commercial, industrial, and residential customers in Maryland, Virginia, Delawa
@@ -48,22 +50,22 @@ apis:
 artifact_total: 11
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wgl-holdings/refs/heads/main/plans/wgl-holdings-plans-pricing.yml
+  href: https://artifacts.apis.io/wgl-holdings/plans/wgl-holdings-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wgl-holdings-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wgl-holdings/refs/heads/main/rate-limits/wgl-holdings-rate-limits.yml
+  href: https://artifacts.apis.io/wgl-holdings/rate-limits/wgl-holdings-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wgl-holdings-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wgl-holdings/refs/heads/main/finops/wgl-holdings-finops.yml
+  href: https://artifacts.apis.io/wgl-holdings/finops/wgl-holdings-finops.yml
   title: ''
   type: FinOps
   url: finops/wgl-holdings-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wgl-holdings/refs/heads/main/security/wgl-holdings-domain-security.yml
+  href: https://artifacts.apis.io/wgl-holdings/security/wgl-holdings-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wgl-holdings-domain-security.yml
@@ -113,7 +115,7 @@ finops:
 - has_sources: false
   method: generated
   name: Wgl Holdings Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: wgl-holdings-finops
   template: true
@@ -160,7 +162,7 @@ press:
 - date: ''
   title: Climate and Energy
   url: https://www.asyousow.org/our-work/climate-and-energy
-random_paper: 21
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Wgl Holdings Rate Limits
@@ -179,7 +181,7 @@ rules:
   slug: wgl-holdings-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 15.0
+  composite: 16.4
   coverage:
     artifact_dirs: 14
     catalog_earned: 56.8
@@ -187,9 +189,9 @@ score:
     catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 14.5
+    access_clarity: 21.1
     contract_governance: 23.5
     contract_quality: 10.7
     developer_ergonomics: 0.0
@@ -202,15 +204,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 16.6
+  previous_composite: 16.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

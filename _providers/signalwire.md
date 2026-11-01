@@ -14,6 +14,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,15 +30,17 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.6
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 40.0
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - description: An OpenRPC 1.3.2 contract for real-time control of live calls over RELAY — 8 methods (calling.dial, calling.update, calling.end, calling.ai_hold, calling.ai_unhold, calling.ai_message, calling.live_tr
   name: SignalWire Calling API (JSON-RPC)
@@ -437,24 +440,24 @@ apis:
   description: Create and manage the Meta-approved templates required to start WhatsApp conversations.
   name: SignalWire WhatsApp Templates API
   slug: signalwire-whatsapp-templates-api
-artifact_total: 89
+artifact_total: 97
 asyncapis:
 - description: ''
   name: Signalwire Webhooks
   slug: signalwire-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/capabilities/signalwire-capability-edges.yml
+  href: https://artifacts.apis.io/signalwire/capabilities/signalwire-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/signalwire-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/overlays/signalwire-rest-overlay.yaml
+  href: https://artifacts.apis.io/signalwire/overlays/signalwire-rest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/signalwire-rest-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/overlays/signalwire-compatibility-overlay.yaml
+  href: https://artifacts.apis.io/signalwire/overlays/signalwire-compatibility-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/signalwire-compatibility-overlay.yaml
@@ -523,132 +526,140 @@ common:
   type: TrustCenter
   url: https://compliance.signalwire.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/security/signalwire-trust-center.yml
+  href: https://artifacts.apis.io/signalwire/security/signalwire-trust-center.yml
   title: ''
   type: Compliance
   url: security/signalwire-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/authentication/signalwire-authentication.yml
+  href: https://artifacts.apis.io/signalwire/authentication/signalwire-authentication.yml
   title: ''
   type: Authentication
   url: authentication/signalwire-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/packages/signalwire-packages.yml
+  href: https://artifacts.apis.io/signalwire/packages/signalwire-packages.yml
   title: ''
   type: Packages
   url: packages/signalwire-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/packages/signalwire-packages.yml
+  href: https://artifacts.apis.io/signalwire/packages/signalwire-packages.yml
   title: ''
   type: SDKs
   url: packages/signalwire-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/cli/signalwire-cli.yml
+  href: https://artifacts.apis.io/signalwire/cli/signalwire-cli.yml
   title: ''
   type: CLI
   url: cli/signalwire-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/components/signalwire-components.yml
+  href: https://artifacts.apis.io/signalwire/components/signalwire-components.yml
   title: ''
   type: Components
   url: components/signalwire-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/sandbox/signalwire-sandbox.yml
+  href: https://artifacts.apis.io/signalwire/sandbox/signalwire-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/signalwire-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/mcp/signalwire-mcp.yml
+  href: https://artifacts.apis.io/signalwire/mcp/signalwire-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/signalwire-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/mcp/signalwire-tool-crosswalk.yml
+  href: https://artifacts.apis.io/signalwire/mcp/signalwire-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/signalwire-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/signalwire/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/llms/signalwire-llms.txt
+  href: https://artifacts.apis.io/signalwire/llms/signalwire-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/signalwire-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/llms/signalwire-docs-llms.txt
+  href: https://artifacts.apis.io/signalwire/llms/signalwire-docs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/signalwire-docs-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/conventions/signalwire-conventions.yml
+  href: https://artifacts.apis.io/signalwire/conventions/signalwire-conventions.yml
   title: ''
   type: Conventions
   url: conventions/signalwire-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/errors/signalwire-problem-types.yml
+  href: https://artifacts.apis.io/signalwire/errors/signalwire-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/signalwire-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/data-model/signalwire-data-model.yml
+  href: https://artifacts.apis.io/signalwire/data-model/signalwire-data-model.yml
   title: ''
   type: DataModel
   url: data-model/signalwire-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/asyncapi/signalwire-webhooks.yml
+  href: https://artifacts.apis.io/signalwire/asyncapi/signalwire-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/signalwire-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/conformance/signalwire-conformance.yml
+  href: https://artifacts.apis.io/signalwire/conformance/signalwire-conformance.yml
   title: ''
   type: Conformance
   url: conformance/signalwire-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/lifecycle/signalwire-lifecycle.yml
+  href: https://artifacts.apis.io/signalwire/lifecycle/signalwire-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/signalwire-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/changelog/signalwire-changelog.yml
+  href: https://artifacts.apis.io/signalwire/changelog/signalwire-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/signalwire-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/rate-limits/signalwire-rate-limits.yml
+  href: https://artifacts.apis.io/signalwire/rate-limits/signalwire-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/signalwire-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/plans/signalwire-plans-pricing.yml
+  href: https://artifacts.apis.io/signalwire/plans/signalwire-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/signalwire-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/security/signalwire-domain-security.yml
+  href: https://artifacts.apis.io/signalwire/security/signalwire-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/signalwire-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/security/signalwire-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/signalwire/security/signalwire-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/signalwire-vulnerability-disclosure.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/json-schema/signalwire-swml.json
+  href: https://artifacts.apis.io/signalwire/json-schema/signalwire-swml.json
   title: ''
   type: JSONSchema
   url: json-schema/signalwire-swml.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/openapi/signalwire-calling-openrpc.yml
+  href: https://artifacts.apis.io/signalwire/openapi/signalwire-calling-openrpc.yml
   title: ''
   type: OpenRPC
   url: openapi/signalwire-calling-openrpc.yml
 created: '2026-08-27'
 description: SignalWire is a Programmable Unified Communications (PUC) platform for voice, messaging, video, fax, SIP and AI voice agents, built by the team behind FreeSWITCH. It publishes two first-party OpenAPI 3.1 contracts from its public documentation repository — a 253-operation SignalWire REST API covering calling, messaging, video rooms, phone number management, Campaign Registry/10DLC, WhatsApp, Datasphere, SIP resources, subscribers, AI agents and logs, and a 79-operation Twilio-compatible Compatibility (LaML) API at /api/laml/2010-04-01 — plus an OpenRPC 1.3.2 JSON-RPC contract for live call control, a JSON Schema for SWML (SignalWire Markup Language), and 19 OpenAPI 3.1 webhook definitions covering AI/SWAIG, calling and messaging callbacks. Every request is served from a per-customer Space subdomain, {space_name}.signalwire.com, over HTTPS only.
+finops:
+- has_sources: true
+  method: derived
+  name: Signalwire Finops
+  primary_unit: minute
+  service_category: ''
+  slug: signalwire-finops
+  template: false
 image: https://framerusercontent.com/images/51HrN1SGYsDuDnTD4zDO4buJMM.png
 json_schemas:
 - name: SWML Object
@@ -672,32 +683,35 @@ overview: 'SignalWire publishes 80 API contracts indexed on the [APIs.io](https:
   SignalWire''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
 plans:
 - name: Signalwire Plans Pricing
-  plan_count: 0
+  plan_count: 64
   slug: signalwire-plans-pricing
+- name: Signalwire Price Estimates
+  plan_count: 0
+  slug: signalwire-price-estimates
 random_paper: 21
 rate_limits:
 - limit_count: 10
   name: Signalwire Rate Limits
   slug: signalwire-rate-limits
 score:
-  band: strong
-  composite: 65.9
+  band: exemplar
+  composite: 75.0
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 52.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    artifact_dirs: 28
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.4
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 62.3
+    contract_quality: 59.6
     developer_ergonomics: 90.5
-    discoverability: 80.0
-    operational_transparency: 65.8
-  previous_composite: 65.9
+    discoverability: 65.0
+    operational_transparency: 86.8
+  previous_composite: 67.6
   provenance:
     conformance: first-party
     contracts:
@@ -713,13 +727,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/screenshots/signalwire-2026-09-02T155435.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/signalwire/signalwire-2026-09-02T155435.png
 security:
 - kind: authentication
   name: Signalwire Authentication
@@ -737,6 +752,20 @@ security:
   name: Signalwire Trust Center
   slug: signalwire-trust-center
   summary_line: SOC 2 Type II, PCI DSS, HIPAA
+skill_count: 6
+skills:
+- name: signalwire
+  slug: signalwire-builder
+- name: signalwire-place-call
+  slug: signalwire-place-call
+- name: signalwire-provision-number
+  slug: signalwire-provision-number
+- name: signalwire-send-sms
+  slug: signalwire-send-sms
+- name: swml
+  slug: signalwire-swml
+- name: signalwire-video-room
+  slug: signalwire-video-room
 slug: signalwire
 tags:
 - Company

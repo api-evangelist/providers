@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The HTTP API at api.vrchat.cloud/api/1 that backs the VRChat client and the vrchat.com website — authentication, users, friends, worlds, avatars, instances, groups, files and notifications. VRChat ope
@@ -46,7 +48,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vrchat/refs/heads/main/security/vrchat-domain-security.yml
+  href: https://artifacts.apis.io/vrchat/security/vrchat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vrchat-domain-security.yml
@@ -119,47 +121,47 @@ common:
   type: ChangeLog
   url: https://docs.vrchat.com/docs/recent-releases
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vrchat/refs/heads/main/llms/vrchat-llms.txt
+  href: https://artifacts.apis.io/vrchat/llms/vrchat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vrchat-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vrchat/refs/heads/main/packages/vrchat-packages.yml
+  href: https://artifacts.apis.io/vrchat/packages/vrchat-packages.yml
   title: ''
   type: Packages
   url: packages/vrchat-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vrchat/refs/heads/main/packages/vrchat-packages.yml
+  href: https://artifacts.apis.io/vrchat/packages/vrchat-packages.yml
   title: ''
   type: SDKs
   url: packages/vrchat-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vrchat/refs/heads/main/cli/vrchat-cli.yml
+  href: https://artifacts.apis.io/vrchat/cli/vrchat-cli.yml
   title: ''
   type: CLI
   url: cli/vrchat-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/vrchat/refs/heads/main/sandbox/vrchat-sandbox.yml
+  href: https://artifacts.apis.io/vrchat/sandbox/vrchat-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/vrchat-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vrchat/refs/heads/main/conventions/vrchat-conventions.yml
+  href: https://artifacts.apis.io/vrchat/conventions/vrchat-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vrchat-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vrchat/refs/heads/main/lifecycle/vrchat-lifecycle.yml
+  href: https://artifacts.apis.io/vrchat/lifecycle/vrchat-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vrchat-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vrchat/refs/heads/main/conformance/vrchat-conformance.yml
+  href: https://artifacts.apis.io/vrchat/conformance/vrchat-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vrchat-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vrchat/refs/heads/main/changelog/vrchat-changelog.yml
+  href: https://artifacts.apis.io/vrchat/changelog/vrchat-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vrchat-changelog.yml
@@ -175,10 +177,10 @@ overview: 'VRChat is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   VRChat''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, changelog, CLI, and 20 more developer resources.'
-random_paper: 10
+random_paper: 0
 score:
   band: thin
-  composite: 33.2
+  composite: 32.8
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -186,15 +188,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 33.1
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 32.8
   provenance:
     conformance: first-party
   regulatory:
@@ -203,14 +205,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vrchat/refs/heads/main/screenshots/vrchat-2026-09-02T170305.png
+screenshot: https://apis.io/screenshots/vrchat/vrchat-2026-09-02T170305.png
 security:
 - kind: domain-security
   name: Vrchat Domain Security

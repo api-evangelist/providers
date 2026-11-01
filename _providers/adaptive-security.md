@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: derived
-    idempotency: na
+    event_surface_described: true
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.5
-  scored_at: '2026-10-17'
+  score: 35.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,15 +71,22 @@ apis:
   description: '<span style="background-color: #ff9500; color: white; padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: bold; text-transform: uppercase; margin-right: 8px;">BETA</span>User managemen'
   name: Adaptive Security Users API
   slug: adaptive-security-users-api
-artifact_total: 18
+- baseURL: https://api.adaptivesecurity.com
+  baseurl_source: declared
+  description: Email Security detections and company-configured email security rules
+  name: Adaptive Security Email Security API
+  slug: adaptive-security-email-security-api
+- baseURL: https://api.adaptivesecurity.com
+  baseurl_source: declared
+  description: Adaptive can push events to your systems as they happen — a user fails a phishing simulation, completes a training, falls overdue — so you can drive SIEM detections, SOAR playbooks, and downstream wor
+  name: Adaptive Security Webhooks API
+  slug: adaptive-security-webhooks-api
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Adaptive Security Webhooks
   slug: adaptive-security-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Adaptive Audit Logs API
   slug: open-adaptive-security-audit-logs-api
@@ -95,12 +104,12 @@ collections:
   slug: open-adaptive-security-users-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/rate-limits/adaptive-security-rate-limits.yml
+  href: https://artifacts.apis.io/adaptive-security/rate-limits/adaptive-security-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adaptive-security-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/capabilities/adaptive-security-capability-edges.yml
+  href: https://artifacts.apis.io/adaptive-security/capabilities/adaptive-security-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/adaptive-security-capability-edges.yml
@@ -113,12 +122,12 @@ common:
   type: ChangeLog
   url: https://www.adaptivesecurity.com/resources/product-updates
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/plans/adaptive-security-plans-pricing.yml
+  href: https://artifacts.apis.io/adaptive-security/plans/adaptive-security-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adaptive-security-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/asyncapi/adaptive-security-webhooks.yml
+  href: https://artifacts.apis.io/adaptive-security/asyncapi/adaptive-security-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/adaptive-security-webhooks.yml
@@ -183,89 +192,97 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/adaptivesecurity
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/security/adaptive-security-trust-center.yml
+  href: https://artifacts.apis.io/adaptive-security/security/adaptive-security-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/adaptive-security-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/security/adaptive-security-trust-center.yml
+  href: https://artifacts.apis.io/adaptive-security/security/adaptive-security-trust-center.yml
   title: ''
   type: Compliance
   url: security/adaptive-security-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/security/adaptive-security-domain-security.yml
+  href: https://artifacts.apis.io/adaptive-security/security/adaptive-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adaptive-security-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/authentication/adaptive-security-authentication.yml
+  href: https://artifacts.apis.io/adaptive-security/authentication/adaptive-security-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adaptive-security-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/errors/adaptive-security-problem-types.yml
+  href: https://artifacts.apis.io/adaptive-security/errors/adaptive-security-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adaptive-security-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/rate-limits/adaptive-security-rate-limits.yml
+  href: https://artifacts.apis.io/adaptive-security/rate-limits/adaptive-security-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adaptive-security-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/mcp/adaptive-security-mcp.yml
+  href: https://artifacts.apis.io/adaptive-security/mcp/adaptive-security-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/adaptive-security-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/adaptive-security/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/agentic-access/adaptive-security-agentic-access.yml
+  href: https://artifacts.apis.io/adaptive-security/agentic-access/adaptive-security-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adaptive-security-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/conventions/adaptive-security-conventions.yml
+  href: https://artifacts.apis.io/adaptive-security/conventions/adaptive-security-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adaptive-security-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/data-model/adaptive-security-data-model.yml
+  href: https://artifacts.apis.io/adaptive-security/data-model/adaptive-security-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adaptive-security-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/lifecycle/adaptive-security-lifecycle.yml
+  href: https://artifacts.apis.io/adaptive-security/lifecycle/adaptive-security-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adaptive-security-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/conformance/adaptive-security-conformance.yml
+  href: https://artifacts.apis.io/adaptive-security/conformance/adaptive-security-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adaptive-security-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/overlays/adaptive-security-openapi-overlay.yaml
+  href: https://artifacts.apis.io/adaptive-security/overlays/adaptive-security-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/adaptive-security-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/llms/adaptive-security-llms.txt
+  href: https://artifacts.apis.io/adaptive-security/llms/adaptive-security-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adaptive-security-llms.txt
 created: '2026-07-17'
 description: Adaptive Security is the human security platform for the AI era, defending organizations against AI-powered social engineering — deepfakes, voice cloning, phishing, smishing and vishing — through interactive security awareness training, hyperrealistic multi-channel attack simulations, cloud email security, and AI governance. Founded by Brian Long and Andrew Jones and backed by Andreessen Horowitz (a16z) and the OpenAI Startup Fund, Adaptive protects 1,000+ enterprise customers including PayPal, Figma, Ramp, Plaid and the NHL. The Adaptive API is a read-only REST reporting interface (v2) that gives programmatic access to users, groups, training campaigns, phishing campaigns and simulations, and audit logs for compliance reporting, progress monitoring, and BI/HRIS/SIEM data integration.
+finops:
+- has_sources: true
+  method: derived
+  name: Adaptive Security Finops
+  primary_unit: ''
+  service_category: ''
+  slug: adaptive-security-finops
+  template: true
 image: https://www.adaptivesecurity.com/og-image.jpg
 layout: provider
 modified: '2026-07-17'
 name: Adaptive Security
 nav: Providers
 network: true
-overview: 'Adaptive Security publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audit Logs API, Groups API, Phishing API, and 2 more. Tagged areas include Company, Security, Cybersecurity, Security Awareness Training, and Phishing Simulation.
+overview: 'Adaptive Security publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audit Logs API, Groups API, Phishing API, and 4 more. Tagged areas include Company, Security, Cybersecurity, Security Awareness Training, and Phishing Simulation.
 
 
   The Adaptive Security catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -274,32 +291,32 @@ overview: 'Adaptive Security publishes 5 API contracts indexed on the [APIs.io](
   Adaptive Security''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 29 more developer resources.'
 plans:
 - name: Adaptive Security Plans Pricing
-  plan_count: 0
+  plan_count: 2
   slug: adaptive-security-plans-pricing
-random_paper: 19
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Adaptive Security Rate Limits
   slug: adaptive-security-rate-limits
 score:
-  band: developing
-  composite: 44.5
+  band: strong
+  composite: 58.3
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 53.9
+    access_clarity: 81.6
     contract_governance: 4.5
-    contract_quality: 60.6
-    developer_ergonomics: 20.8
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 44.5
+    contract_quality: 60.4
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,7 +324,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 13
     mcp: derived
     skills: derived
   regulatory:
@@ -322,14 +339,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/screenshots/adaptive-security-2026-07-25T181557.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/adaptive-security/adaptive-security-2026-07-25T181557.png
 security:
 - kind: authentication
   name: Adaptive Security Authentication
@@ -343,6 +360,14 @@ security:
   name: Adaptive Security Trust Center
   slug: adaptive-security-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP, GDPR
+skill_count: 3
+skills:
+- name: Export audit logs
+  slug: adaptive-security-audit-log-export
+- name: Report phishing-simulation results
+  slug: adaptive-security-phishing-simulation-report
+- name: Report training-campaign compliance
+  slug: adaptive-security-training-compliance-report
 slug: adaptive-security
 tags:
 - Company

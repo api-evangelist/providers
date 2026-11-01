@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.navigateai.co
@@ -117,11 +119,8 @@ apis:
   description: The Work orders API from Navigate — 9 operation(s) for work orders.
   name: Navigate Work orders API
   slug: navigate-work-orders-api
-artifact_total: 35
+artifact_total: 36
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NavigateAI Access codes API
   slug: open-navigate-access-codes-api
@@ -176,37 +175,37 @@ common:
   type: Blog
   url: https://www.navigate.ai/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/navigate/refs/heads/main/capabilities/navigate-capability-edges.yml
+  href: https://artifacts.apis.io/navigate/capabilities/navigate-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/navigate-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/navigate/refs/heads/main/skills/navigate-capture-to-findings.md
+  href: https://artifacts.apis.io/navigate/skills/navigate-capture-to-findings.md
   title: ''
   type: AgentSkill
   url: skills/navigate-capture-to-findings.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/navigate/refs/heads/main/mcp/navigate-mcp.yml
+  href: https://artifacts.apis.io/navigate/mcp/navigate-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/navigate-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/navigate/refs/heads/main/overlays/navigate-openapi-overlay.yaml
+  href: https://artifacts.apis.io/navigate/overlays/navigate-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/navigate-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/navigate/refs/heads/main/security/navigate-domain-security.yml
+  href: https://artifacts.apis.io/navigate/security/navigate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/navigate-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/navigate/refs/heads/main/conformance/navigate-conformance.yml
+  href: https://artifacts.apis.io/navigate/conformance/navigate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/navigate-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/navigate/refs/heads/main/well-known/navigate-well-known.yml
+  href: https://artifacts.apis.io/navigate/well-known/navigate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/navigate-well-known.yml
@@ -242,10 +241,10 @@ overview: 'Navigate publishes 16 API contracts indexed on the [APIs.io](https://
 
 
   Navigate''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 11
+random_paper: 7
 score:
   band: thin
-  composite: 30.5
+  composite: 31.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -253,15 +252,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 44.4
     developer_ergonomics: 28.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 30.0
+  previous_composite: 31.8
   provenance:
     conformance: derived
     contracts:
@@ -277,13 +276,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/navigate/refs/heads/main/screenshots/navigate-2026-08-07T184730.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/navigate/navigate-2026-08-07T184730.png
 security:
 - kind: authentication
   name: Navigate Authentication
@@ -293,6 +293,12 @@ security:
   name: Navigate Domain Security
   slug: navigate-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: capture-to-findings
+  slug: navigate-capture-to-findings
+- name: scope-to-work-order
+  slug: navigate-scope-to-work-order
 slug: navigate
 tags:
 - Company
@@ -300,7 +306,7 @@ tags:
 - Construction
 - Real Estate
 - Artificial Intelligence
-- Field Service
+- Field Service Management
 - Construction Technology
 website: https://www.navigate.ai/
 ---

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Pro GraphQL API for on-chain DeFi and NFT market data — DEX trades, candles, lending markets, liquidity pools and positions, NFT collections and trades, token holders, transfers, transactions, contrac
   name: Parsec Finance API
   slug: parsec-finance-api
-artifact_total: 3
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -67,57 +69,57 @@ common:
   type: GitHubOrganization
   url: https://github.com/parsec-finance
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/parsec-finance/refs/heads/main/packages/parsec-finance-packages.yml
+  href: https://artifacts.apis.io/parsec-finance/packages/parsec-finance-packages.yml
   title: ''
   type: Packages
   url: packages/parsec-finance-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/parsec-finance/refs/heads/main/packages/parsec-finance-packages.yml
+  href: https://artifacts.apis.io/parsec-finance/packages/parsec-finance-packages.yml
   title: ''
   type: SDKs
   url: packages/parsec-finance-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parsec-finance/refs/heads/main/authentication/parsec-finance-authentication.yml
+  href: https://artifacts.apis.io/parsec-finance/authentication/parsec-finance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/parsec-finance-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parsec-finance/refs/heads/main/conventions/parsec-finance-conventions.yml
+  href: https://artifacts.apis.io/parsec-finance/conventions/parsec-finance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/parsec-finance-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parsec-finance/refs/heads/main/data-model/parsec-finance-data-model.yml
+  href: https://artifacts.apis.io/parsec-finance/data-model/parsec-finance-data-model.yml
   title: ''
   type: DataModel
   url: data-model/parsec-finance-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parsec-finance/refs/heads/main/conformance/parsec-finance-conformance.yml
+  href: https://artifacts.apis.io/parsec-finance/conformance/parsec-finance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/parsec-finance-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parsec-finance/refs/heads/main/well-known/parsec-finance-well-known.yml
+  href: https://artifacts.apis.io/parsec-finance/well-known/parsec-finance-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/parsec-finance-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parsec-finance/refs/heads/main/mcp/parsec-finance-mcp.yml
+  href: https://artifacts.apis.io/parsec-finance/mcp/parsec-finance-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/parsec-finance-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parsec-finance/refs/heads/main/llms/parsec-finance-llms.txt
+  href: https://artifacts.apis.io/parsec-finance/llms/parsec-finance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/parsec-finance-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parsec-finance/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/parsec-finance/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parsec-finance/refs/heads/main/security/parsec-finance-domain-security.yml
+  href: https://artifacts.apis.io/parsec-finance/security/parsec-finance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/parsec-finance-domain-security.yml
@@ -133,10 +135,10 @@ overview: 'Parsec Finance is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   Parsec Finance''s developer surface includes documentation, API reference, pricing, authentication, and 13 more developer resources.'
-random_paper: 21
+random_paper: 15
 score:
   band: emerging
-  composite: 20.1
+  composite: 26.1
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -146,13 +148,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 29.8
-    developer_ergonomics: 20.8
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 20.1
+    developer_ergonomics: 47.0
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 26.1
   provenance:
     conformance: derived
     mcp: derived
@@ -163,14 +165,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/parsec-finance/refs/heads/main/screenshots/parsec-finance-2026-10-11T191747.png
+screenshot: https://apis.io/screenshots/parsec-finance/parsec-finance-2026-10-11T191747.png
 security:
 - kind: authentication
   name: Parsec Finance Authentication
@@ -180,6 +182,14 @@ security:
   name: Parsec Finance Domain Security
   slug: parsec-finance-domain-security
   summary_line: TLSv1.3 · DNSSEC
+skill_count: 3
+skills:
+- name: Analyze a token's holders and flows
+  slug: parsec-finance-analyze-token
+- name: Monitor DEX trades and trade metrics
+  slug: parsec-finance-monitor-dex-trades
+- name: Track a wallet's on-chain activity
+  slug: parsec-finance-track-wallet-activity
 slug: parsec-finance
 tags:
 - Company

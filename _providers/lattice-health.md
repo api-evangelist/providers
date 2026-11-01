@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -49,22 +51,22 @@ common:
   type: VentureCapital
   url: https://www.ycombinator.com/companies/lattice-health
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lattice-health/refs/heads/main/security/lattice-health-domain-security.yml
+  href: https://artifacts.apis.io/lattice-health/security/lattice-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lattice-health-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lattice-health/refs/heads/main/well-known/lattice-health-well-known.yml
+  href: https://artifacts.apis.io/lattice-health/well-known/lattice-health-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/lattice-health-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lattice-health/refs/heads/main/conformance/lattice-health-conformance.yml
+  href: https://artifacts.apis.io/lattice-health/conformance/lattice-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lattice-health-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lattice-health/refs/heads/main/llms/lattice-health-llms.txt
+  href: https://artifacts.apis.io/lattice-health/llms/lattice-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lattice-health-llms.txt
@@ -78,12 +80,12 @@ name: Lattice Health
 nav: Providers
 network: true
 overview: Lattice Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health IT, Artificial Intelligence, and AI Governance.
-random_paper: 9
+random_paper: 1
 score:
   band: minimal
-  composite: 4.9
+  composite: 4.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -95,9 +97,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 4.9
+  previous_composite: 4.2
   provenance:
     conformance: first-party
   regulatory:
@@ -106,14 +108,14 @@ score:
     regime: Health
     regime_id: health
     score: 8.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lattice-health/refs/heads/main/screenshots/lattice-health-2026-07-25T224608.png
+screenshot: https://apis.io/screenshots/lattice-health/lattice-health-2026-07-25T224608.png
 security:
 - kind: domain-security
   name: Lattice Health Domain Security

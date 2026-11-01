@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,9 +35,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 3
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -86,67 +88,67 @@ common:
   type: PrivacyPolicy
   url: https://joinplayroom.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/playroom/refs/heads/main/llms/playroom-llms.txt
+  href: https://artifacts.apis.io/playroom/llms/playroom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/playroom-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/playroom/refs/heads/main/mcp/playroom-mcp.yml
+  href: https://artifacts.apis.io/playroom/mcp/playroom-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/playroom-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/playroom/refs/heads/main/packages/playroom-packages.yml
+  href: https://artifacts.apis.io/playroom/packages/playroom-packages.yml
   title: ''
   type: Packages
   url: packages/playroom-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/playroom/refs/heads/main/packages/playroom-packages.yml
+  href: https://artifacts.apis.io/playroom/packages/playroom-packages.yml
   title: ''
   type: SDKs
   url: packages/playroom-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/playroom/refs/heads/main/changelog/playroom-changelog.yml
+  href: https://artifacts.apis.io/playroom/changelog/playroom-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/playroom-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/playroom/refs/heads/main/lifecycle/playroom-lifecycle.yml
+  href: https://artifacts.apis.io/playroom/lifecycle/playroom-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/playroom-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/playroom/refs/heads/main/lifecycle/playroom-lifecycle.yml
+  href: https://artifacts.apis.io/playroom/lifecycle/playroom-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/playroom-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/playroom/refs/heads/main/authentication/playroom-authentication.yml
+  href: https://artifacts.apis.io/playroom/authentication/playroom-authentication.yml
   title: ''
   type: Authentication
   url: authentication/playroom-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/playroom/refs/heads/main/conventions/playroom-conventions.yml
+  href: https://artifacts.apis.io/playroom/conventions/playroom-conventions.yml
   title: ''
   type: Conventions
   url: conventions/playroom-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/playroom/refs/heads/main/errors/playroom-error-codes.yml
+  href: https://artifacts.apis.io/playroom/errors/playroom-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/playroom-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/playroom/refs/heads/main/components/playroom-components.yml
+  href: https://artifacts.apis.io/playroom/components/playroom-components.yml
   title: ''
   type: Components
   url: components/playroom-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/playroom/refs/heads/main/security/playroom-domain-security.yml
+  href: https://artifacts.apis.io/playroom/security/playroom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/playroom-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/playroom/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/playroom/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -166,26 +168,26 @@ overview: 'Playroom is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Playroom''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 18 more developer resources.'
-random_paper: 3
+random_paper: 19
 score:
-  band: emerging
-  composite: 21.8
+  band: thin
+  composite: 31.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 56.5
-    discoverability: 55.0
-    operational_transparency: 26.3
-  previous_composite: 21.7
+    developer_ergonomics: 66.1
+    discoverability: 48.3
+    operational_transparency: 28.9
+  previous_composite: 31.4
   provenance:
     mcp: first-party
     skills: derived
@@ -194,15 +196,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 19.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/playroom/refs/heads/main/screenshots/playroom-2026-09-02T151502.png
+screenshot: https://apis.io/screenshots/playroom/playroom-2026-09-02T151502.png
 security:
 - kind: authentication
   name: Playroom Authentication
@@ -212,6 +214,12 @@ security:
   name: Playroom Domain Security
   slug: playroom-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Run host-authoritative logic with RPCs
+  slug: playroom-host-authoritative-rpc
+- name: Initialize a Playroom multiplayer session
+  slug: playroom-init-multiplayer-session
 slug: playroom
 tags:
 - Company

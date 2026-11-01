@@ -13,7 +13,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,21 +21,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.8
-  scored_at: '2026-10-17'
+  score: 36.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,34 +45,31 @@ agentic_access:
   operation_count: 31
   slug: basis-agentic-access
   summary_line: 31 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.basis.net
   baseurl_source: declared
   description: The Analytics API from Basis — 31 operation(s) for analytics.
   name: Basis Analytics API
   slug: basis-analytics-api
-artifact_total: 30
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Basis Platform Analytics API
   slug: open-basis-analytics-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/agentic-access/basis-agentic-access.yml
+  href: https://artifacts.apis.io/basis/agentic-access/basis-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/basis-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/security/basis-domain-security.yml
+  href: https://artifacts.apis.io/basis/security/basis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/basis-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/authentication/basis-authentication.yml
+  href: https://artifacts.apis.io/basis/authentication/basis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/basis-authentication.yml
@@ -100,87 +98,87 @@ common:
   type: X
   url: https://twitter.com/basisglobaltech
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/plans/basis-plans-pricing.yml
+  href: https://artifacts.apis.io/basis/plans/basis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/basis-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/rate-limits/basis-rate-limits.yml
+  href: https://artifacts.apis.io/basis/rate-limits/basis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/basis-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/finops/basis-finops.yml
+  href: https://artifacts.apis.io/basis/finops/basis-finops.yml
   title: ''
   type: FinOps
   url: finops/basis-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/scopes/basis-scopes.yml
+  href: https://artifacts.apis.io/basis/scopes/basis-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/basis-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/conventions/basis-conventions.yml
+  href: https://artifacts.apis.io/basis/conventions/basis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/basis-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/errors/basis-problem-types.yml
+  href: https://artifacts.apis.io/basis/errors/basis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/basis-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/lifecycle/basis-lifecycle.yml
+  href: https://artifacts.apis.io/basis/lifecycle/basis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/basis-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/conformance/basis-conformance.yml
+  href: https://artifacts.apis.io/basis/conformance/basis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/basis-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/conformance/basis-conformance.yml
+  href: https://artifacts.apis.io/basis/conformance/basis-conformance.yml
   title: ''
   type: Compliance
   url: conformance/basis-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/data-model/basis-data-model.yml
+  href: https://artifacts.apis.io/basis/data-model/basis-data-model.yml
   title: ''
   type: DataModel
   url: data-model/basis-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/sandbox/basis-sandbox.yml
+  href: https://artifacts.apis.io/basis/sandbox/basis-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/basis-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/well-known/basis-well-known.yml
+  href: https://artifacts.apis.io/basis/well-known/basis-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/basis-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/mcp/basis-mcp.yml
+  href: https://artifacts.apis.io/basis/mcp/basis-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/basis-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/llms/basis-llms.txt
+  href: https://artifacts.apis.io/basis/llms/basis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/basis-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/basis/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/packages/basis-packages.yml
+  href: https://artifacts.apis.io/basis/packages/basis-packages.yml
   title: ''
   type: Packages
   url: packages/basis-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/vocabulary/basis-vocabulary.json
+  href: https://artifacts.apis.io/basis/vocabulary/basis-vocabulary.json
   title: ''
   type: Vocabulary
   url: vocabulary/basis-vocabulary.json
@@ -203,8 +201,8 @@ examples:
   name: Basis Api Examples
   slug: basis-api-examples
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Basis Finops
   primary_unit: ''
   service_category: ''
@@ -307,8 +305,8 @@ scopes:
   slug: basis-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 52.7
+  band: strong
+  composite: 55.4
   coverage:
     artifact_dirs: 30
     catalog_earned: 78.2
@@ -316,15 +314,15 @@ score:
     catalog_gap: 36.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 50.0
+    access_clarity: 63.2
     contract_governance: 41.7
     contract_quality: 60.2
     developer_ergonomics: 44.6
     discoverability: 66.1
     operational_transparency: 31.6
-  previous_composite: 54.2
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -341,14 +339,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/screenshots/basis-2026-06-20T173036.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/basis/basis-2026-06-20T173036.png
 security:
 - kind: authentication
   name: Basis Authentication
@@ -358,6 +356,14 @@ security:
   name: Basis Domain Security
   slug: basis-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Authenticate against the Basis Platform API and make a first read
+  slug: basis-authenticate-and-read
+- name: Build a campaign delivery and performance report from Basis
+  slug: basis-campaign-delivery-report
+- name: Sync the Basis account hierarchy and reference taxonomy
+  slug: basis-sync-account-hierarchy
 slug: basis
 tags:
 - Programmatic Advertising

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: REST API for sending multi-channel campaigns (rich push notifications, email, SMS, web push), creating smart deep links, managing a media library, and logging user events/purchases into the Appgain CD
@@ -51,7 +53,7 @@ apis:
   description: 'The marketing-automation service. Fires and cancels dashboard-configured automation journeys at a named trigger point, for one user or a batch of users via the v2 form. Authenticated with the project '
   name: Appgain Automator API
   slug: appgain-automator-api
-artifact_total: 9
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Appgain Webhooks
@@ -118,97 +120,97 @@ common:
   type: GitHubOrganization
   url: https://github.com/appgain
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/packages/appgain-packages.yml
+  href: https://artifacts.apis.io/appgain/packages/appgain-packages.yml
   title: ''
   type: Packages
   url: packages/appgain-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/packages/appgain-packages.yml
+  href: https://artifacts.apis.io/appgain/packages/appgain-packages.yml
   title: ''
   type: SDKs
   url: packages/appgain-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/authentication/appgain-authentication.yml
+  href: https://artifacts.apis.io/appgain/authentication/appgain-authentication.yml
   title: ''
   type: Authentication
   url: authentication/appgain-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/conventions/appgain-conventions.yml
+  href: https://artifacts.apis.io/appgain/conventions/appgain-conventions.yml
   title: ''
   type: Conventions
   url: conventions/appgain-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/changelog/appgain-changelog.yml
+  href: https://artifacts.apis.io/appgain/changelog/appgain-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/appgain-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/data-model/appgain-data-model.yml
+  href: https://artifacts.apis.io/appgain/data-model/appgain-data-model.yml
   title: ''
   type: DataModel
   url: data-model/appgain-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/security/appgain-domain-security.yml
+  href: https://artifacts.apis.io/appgain/security/appgain-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/appgain-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/llms/appgain-llms.txt
+  href: https://artifacts.apis.io/appgain/llms/appgain-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/appgain-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/postman/appgain-omnichannel.postman_collection.json
+  href: https://artifacts.apis.io/appgain/postman/appgain-omnichannel.postman_collection.json
   title: ''
   type: PostmanCollection
   url: postman/appgain-omnichannel.postman_collection.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/errors/appgain-problem-types.yml
+  href: https://artifacts.apis.io/appgain/errors/appgain-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/appgain-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/lifecycle/appgain-lifecycle.yml
+  href: https://artifacts.apis.io/appgain/lifecycle/appgain-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/appgain-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/conformance/appgain-conformance.yml
+  href: https://artifacts.apis.io/appgain/conformance/appgain-conformance.yml
   title: ''
   type: Conformance
   url: conformance/appgain-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/sandbox/appgain-sandbox.yml
+  href: https://artifacts.apis.io/appgain/sandbox/appgain-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/appgain-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/plans/appgain-plans-pricing.yml
+  href: https://artifacts.apis.io/appgain/plans/appgain-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/appgain-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/rate-limits/appgain-rate-limits.yml
+  href: https://artifacts.apis.io/appgain/rate-limits/appgain-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/appgain-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/asyncapi/appgain-webhooks.yml
+  href: https://artifacts.apis.io/appgain/asyncapi/appgain-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/appgain-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/components/appgain-components.yml
+  href: https://artifacts.apis.io/appgain/components/appgain-components.yml
   title: ''
   type: Components
   url: components/appgain-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/appgain/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/well-known/appgain-well-known.yml
+  href: https://artifacts.apis.io/appgain/well-known/appgain-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/appgain-well-known.yml
@@ -232,35 +234,35 @@ plans:
 - name: Appgain Plans Pricing
   plan_count: 0
   slug: appgain-plans-pricing
-random_paper: 10
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Appgain Rate Limits
   slug: appgain-rate-limits
 score:
-  band: thin
-  composite: 36.6
+  band: developing
+  composite: 46.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 75.6
-    discoverability: 78.6
-    operational_transparency: 26.3
+    developer_ergonomics: 78.0
+    discoverability: 71.4
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - mena
-  previous_composite: 36.7
+  previous_composite: 46.7
   provenance:
     conformance: derived
     mcp: derived
@@ -270,15 +272,15 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 20.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 26.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/screenshots/appgain-2026-07-25T200731.png
+screenshot: https://apis.io/screenshots/appgain/appgain-2026-07-25T200731.png
 security:
 - kind: authentication
   name: Appgain Authentication
@@ -288,6 +290,16 @@ security:
   name: Appgain Domain Security
   slug: appgain-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Fire and cancel an Appgain automation journey
+  slug: appgain-fire-automation-journey
+- name: Log events and purchases into the Appgain CDP
+  slug: appgain-log-cdp-events
+- name: Send an Appgain omnichannel campaign
+  slug: appgain-send-omnichannel-campaign
+- name: Create an Appgain smart deep link and read its attribution
+  slug: appgain-smart-deep-link-attribution
 slug: appgain
 tags:
 - Company

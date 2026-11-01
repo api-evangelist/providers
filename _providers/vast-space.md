@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://www.vastspace.com
@@ -56,11 +58,8 @@ apis:
   description: Informational surface covering Vast's Request for Proposals (RFP) and payload-partner program for research on Haven-1 across life sciences, physical sciences, technology demonstrations, biotechnology,
   name: Vast Payload & Research Opportunities
   slug: payload-research-opportunities
-artifact_total: 10
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Vast (Informational - No Public API)
   slug: open-vast-space
@@ -70,7 +69,7 @@ common:
   type: Blog
   url: https://www.vastspace.com/updates
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/security/vast-space-domain-security.yml
+  href: https://artifacts.apis.io/vast-space/security/vast-space-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vast-space-domain-security.yml
@@ -87,17 +86,17 @@ common:
   type: Documentation
   url: https://www.vastspace.com/haven-1
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/plans/vast-space-plans-pricing.yml
+  href: https://artifacts.apis.io/vast-space/plans/vast-space-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vast-space-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/rate-limits/vast-space-rate-limits.yml
+  href: https://artifacts.apis.io/vast-space/rate-limits/vast-space-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vast-space-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/finops/vast-space-finops.yml
+  href: https://artifacts.apis.io/vast-space/finops/vast-space-finops.yml
   title: ''
   type: FinOps
   url: finops/vast-space-finops.yml
@@ -125,44 +124,44 @@ plans:
 - name: Vast Space Plans Pricing
   plan_count: 1
   slug: vast-space-plans-pricing
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Vast Space Rate Limits
   slug: vast-space-rate-limits
 score:
   band: emerging
-  composite: 14.7
+  composite: 16.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
-    contract_quality: 25.1
+    contract_quality: 32.1
     developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 20.2
+  previous_composite: 16.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/screenshots/vast-space-2026-06-20T200831.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vast-space/vast-space-2026-06-20T200831.png
 security:
 - kind: domain-security
   name: Vast Space Domain Security

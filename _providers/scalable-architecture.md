@@ -4,6 +4,6 @@ layout: provider
 name: scalable-architecture
 nav: Providers
 network: true
-random_paper: 17
+random_paper: 15
 slug: scalable-architecture
 ---

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lassen-peak/refs/heads/main/security/lassen-peak-domain-security.yml
+  href: https://artifacts.apis.io/lassen-peak/security/lassen-peak-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lassen-peak-domain-security.yml
@@ -96,17 +98,17 @@ common:
   type: Product
   url: https://www.lassenpeak.com/imagevault/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lassen-peak/refs/heads/main/plans/lassen-peak-plans-pricing.yml
+  href: https://artifacts.apis.io/lassen-peak/plans/lassen-peak-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lassen-peak-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lassen-peak/refs/heads/main/rate-limits/lassen-peak-rate-limits.yml
+  href: https://artifacts.apis.io/lassen-peak/rate-limits/lassen-peak-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lassen-peak-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lassen-peak/refs/heads/main/llms/lassen-peak-llms.txt
+  href: https://artifacts.apis.io/lassen-peak/llms/lassen-peak-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lassen-peak-llms.txt
@@ -142,14 +144,14 @@ plans:
 - name: Lassen Peak Plans Pricing
   plan_count: 0
   slug: lassen-peak-plans-pricing
-random_paper: 8
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Lassen Peak Rate Limits
   slug: lassen-peak-rate-limits
 score:
   band: minimal
-  composite: 8.6
+  composite: 8.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -157,29 +159,29 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 56.3
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 8.7
+  previous_composite: 8.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lassen-peak/refs/heads/main/screenshots/lassen-peak-2026-09-02T150211.png
+screenshot: https://apis.io/screenshots/lassen-peak/lassen-peak-2026-09-02T150211.png
 security:
 - kind: domain-security
   name: Lassen Peak Domain Security

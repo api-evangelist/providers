@@ -30,17 +30,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.6
-  scored_at: '2026-10-17'
-api_count: 16
+  score: 43.5
+  scored_at: '2026-10-31'
+api_count: 15
 apis:
 - description: Ahrefs' hosted, remote Model Context Protocol server, which lets AI agents query the Ahrefs API on behalf of a signed-in Ahrefs account. Streamable HTTP transport, OAuth 2.0 with PKCE (scope apiv3-mcp
   name: Ahrefs MCP Server
@@ -255,7 +257,7 @@ apis:
   description: Web_analytics.
   name: Ahrefs Web Analytics API
   slug: ahrefs-web-analytics-api
-artifact_total: 63
+artifact_total: 68
 collections:
 - collection_type: open
   name: Batch Analysis
@@ -298,12 +300,12 @@ collections:
   slug: open-ahrefs-web-analytics
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/capabilities/ahrefs-capability-edges.yml
+  href: https://artifacts.apis.io/ahrefs/capabilities/ahrefs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ahrefs-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/overlays/ahrefs-api-v3-overlay.yaml
+  href: https://artifacts.apis.io/ahrefs/overlays/ahrefs-api-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ahrefs-api-v3-overlay.yaml
@@ -356,52 +358,52 @@ common:
   type: PrivacyPolicy
   url: https://ahrefs.com/privacy-policy
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/changelog/ahrefs-changelog.yml
+  href: https://artifacts.apis.io/ahrefs/changelog/ahrefs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ahrefs-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/authentication/ahrefs-authentication.yml
+  href: https://artifacts.apis.io/ahrefs/authentication/ahrefs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ahrefs-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/scopes/ahrefs-scopes.yml
+  href: https://artifacts.apis.io/ahrefs/scopes/ahrefs-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ahrefs-scopes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/rate-limits/ahrefs-rate-limits.yml
+  href: https://artifacts.apis.io/ahrefs/rate-limits/ahrefs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ahrefs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/plans/ahrefs-plans-pricing.yml
+  href: https://artifacts.apis.io/ahrefs/plans/ahrefs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ahrefs-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/packages/ahrefs-packages.yml
+  href: https://artifacts.apis.io/ahrefs/packages/ahrefs-packages.yml
   title: ''
   type: Packages
   url: packages/ahrefs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/packages/ahrefs-packages.yml
+  href: https://artifacts.apis.io/ahrefs/packages/ahrefs-packages.yml
   title: ''
   type: SDKs
   url: packages/ahrefs-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/well-known/ahrefs-well-known.yml
+  href: https://artifacts.apis.io/ahrefs/well-known/ahrefs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ahrefs-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/llms/ahrefs-llms.txt
+  href: https://artifacts.apis.io/ahrefs/llms/ahrefs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ahrefs-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/conformance/ahrefs-conformance.yml
+  href: https://artifacts.apis.io/ahrefs/conformance/ahrefs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ahrefs-conformance.yml
@@ -410,17 +412,17 @@ common:
   type: Compliance
   url: https://trust.ahrefs.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/security/ahrefs-trust-center.yml
+  href: https://artifacts.apis.io/ahrefs/security/ahrefs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ahrefs-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/security/ahrefs-domain-security.yml
+  href: https://artifacts.apis.io/ahrefs/security/ahrefs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ahrefs-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/lifecycle/ahrefs-lifecycle.yml
+  href: https://artifacts.apis.io/ahrefs/lifecycle/ahrefs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ahrefs-lifecycle.yml
@@ -429,27 +431,35 @@ common:
   type: Deprecation
   url: https://docs.ahrefs.com/ahrefs-connect/docs/legacy-developers
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/conventions/ahrefs-conventions.yml
+  href: https://artifacts.apis.io/ahrefs/conventions/ahrefs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ahrefs-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/sandbox/ahrefs-sandbox.yml
+  href: https://artifacts.apis.io/ahrefs/sandbox/ahrefs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ahrefs-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ahrefs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/components/ahrefs-components.yml
+  href: https://artifacts.apis.io/ahrefs/components/ahrefs-components.yml
   title: ''
   type: Components
   url: components/ahrefs-components.yml
 created: '2026-08-12'
 description: Ahrefs is a Singapore-based SEO and marketing intelligence platform built on its own web crawler and index, offering Site Explorer, Keywords Explorer, Site Audit, Rank Tracker, SERP Overview, Brand Radar, Web Analytics and Social Media Management. The Ahrefs API v3 exposes that data set as a REST API at https://api.ahrefs.com/v3 with 148 operations across 13 tools, documented by a single OpenAPI 3.2.0 specification plus one machine-readable spec per tool. Access is metered in API units with a 50-unit request floor, authenticated with a bearer API key, and additionally reachable through a hosted MCP server and the OAuth-based Ahrefs Connect partner program.
+finops:
+- has_sources: true
+  method: derived
+  name: Ahrefs Finops
+  primary_unit: package
+  service_category: ''
+  slug: ahrefs-finops
+  template: false
 image: https://static.ahrefs.com/assets/img/og/ahrefs.png?v=2
 layout: provider
 mcp_servers:
@@ -466,9 +476,12 @@ overview: 'Ahrefs publishes 43 API contracts indexed on the [APIs.io](https://ap
   Ahrefs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 plans:
 - name: Ahrefs Plans Pricing
-  plan_count: 6
+  plan_count: 14
   slug: ahrefs-plans-pricing
-random_paper: 17
+- name: Ahrefs Price Estimates
+  plan_count: 0
+  slug: ahrefs-price-estimates
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Ahrefs Rate Limits
@@ -480,28 +493,28 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.3
+  composite: 65.9
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 60.0
+    artifact_dirs: 27
+    catalog_earned: 63.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 50.2
     developer_ergonomics: 78.6
-    discoverability: 80.0
-    operational_transparency: 47.4
+    discoverability: 70.0
+    operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - singapore
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 64.2
+  previous_composite: 64.3
   provenance:
     conformance: derived
     contracts:
@@ -517,13 +530,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/screenshots/ahrefs-2026-08-17T080541.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ahrefs/ahrefs-2026-08-17T080541.png
 security:
 - kind: authentication
   name: Ahrefs Authentication
@@ -537,6 +551,14 @@ security:
   name: Ahrefs Trust Center
   slug: ahrefs-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: ahrefs-backlink-audit
+  slug: ahrefs-backlink-audit
+- name: ahrefs-keyword-and-serp-research
+  slug: ahrefs-keyword-and-serp-research
+- name: ahrefs-python
+  slug: ahrefs-python
 slug: ahrefs
 tags:
 - Company

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -69,22 +71,22 @@ common:
   type: Support
   url: https://discord.com/invite/humafinance
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/huma-technologies-inc/refs/heads/main/llms/huma-technologies-inc-llms.txt
+  href: https://artifacts.apis.io/huma-technologies-inc/llms/huma-technologies-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/huma-technologies-inc-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/huma-technologies-inc/refs/heads/main/packages/huma-technologies-inc-packages.yml
+  href: https://artifacts.apis.io/huma-technologies-inc/packages/huma-technologies-inc-packages.yml
   title: ''
   type: Packages
   url: packages/huma-technologies-inc-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/huma-technologies-inc/refs/heads/main/packages/huma-technologies-inc-packages.yml
+  href: https://artifacts.apis.io/huma-technologies-inc/packages/huma-technologies-inc-packages.yml
   title: ''
   type: SDKs
   url: packages/huma-technologies-inc-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/huma-technologies-inc/refs/heads/main/security/huma-technologies-inc-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/huma-technologies-inc/security/huma-technologies-inc-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/huma-technologies-inc-vulnerability-disclosure.yml
@@ -93,7 +95,7 @@ common:
   type: Security
   url: https://docs.huma.finance/ecosystem-resources/security-audits
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/huma-technologies-inc/refs/heads/main/security/huma-technologies-inc-domain-security.yml
+  href: https://artifacts.apis.io/huma-technologies-inc/security/huma-technologies-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/huma-technologies-inc-domain-security.yml
@@ -111,10 +113,10 @@ overview: 'Huma Technologies is profiled on the [APIs.io](https://apis.io/) netw
   Huma Technologies'' developer surface includes documentation, signup flow, support, and 11 more developer resources.'
 random_paper: 3
 score:
-  band: minimal
-  composite: 10.2
+  band: emerging
+  composite: 17.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -122,27 +124,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 55.4
-    operational_transparency: 13.2
-  previous_composite: 10.2
+    discoverability: 48.2
+    operational_transparency: 15.8
+  previous_composite: 17.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 17.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/huma-technologies-inc/refs/heads/main/screenshots/huma-technologies-inc-2026-07-25T221647.png
+screenshot: https://apis.io/screenshots/huma-technologies-inc/huma-technologies-inc-2026-07-25T221647.png
 security:
 - kind: domain-security
   name: Huma Technologies Inc Domain Security

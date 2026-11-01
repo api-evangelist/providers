@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.8
-  scored_at: '2026-10-17'
+  score: 49.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 15
   slug: turquoise-health-agentic-access
   summary_line: 15 operations · 1 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Hosted Model Context Protocol server exposing Turquoise's consumer pricing to AI agents over streamable HTTP. Five workflow-shaped tools — find_entity, compare_prices, provider_cost_detail, explain_pr
   name: Turquoise Connector (MCP)
@@ -56,10 +58,10 @@ apis:
   description: The Consumer Pricing API from Turquoise Health — 15 operation(s) for consumer pricing.
   name: Turquoise Health Consumer Pricing API
   slug: turquoise-health-consumer-pricing-api
-artifact_total: 13
+artifact_total: 16
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/capabilities/turquoise-health-capability-edges.yml
+  href: https://artifacts.apis.io/turquoise-health/capabilities/turquoise-health-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/turquoise-health-capability-edges.yml
@@ -116,52 +118,52 @@ common:
   type: PrivacyPolicy
   url: https://turquoise.health/legal/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/llms/turquoise-health-llms.txt
+  href: https://artifacts.apis.io/turquoise-health/llms/turquoise-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/turquoise-health-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/mcp/turquoise-health-mcp.yml
+  href: https://artifacts.apis.io/turquoise-health/mcp/turquoise-health-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/turquoise-health-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/mcp/turquoise-health-tool-crosswalk.yml
+  href: https://artifacts.apis.io/turquoise-health/mcp/turquoise-health-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/turquoise-health-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/turquoise-health/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/authentication/turquoise-health-authentication.yml
+  href: https://artifacts.apis.io/turquoise-health/authentication/turquoise-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/turquoise-health-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/scopes/turquoise-health-scopes.yml
+  href: https://artifacts.apis.io/turquoise-health/scopes/turquoise-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/turquoise-health-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/conventions/turquoise-health-conventions.yml
+  href: https://artifacts.apis.io/turquoise-health/conventions/turquoise-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/turquoise-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/errors/turquoise-health-problem-types.yml
+  href: https://artifacts.apis.io/turquoise-health/errors/turquoise-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/turquoise-health-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/lifecycle/turquoise-health-lifecycle.yml
+  href: https://artifacts.apis.io/turquoise-health/lifecycle/turquoise-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/turquoise-health-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/conformance/turquoise-health-conformance.yml
+  href: https://artifacts.apis.io/turquoise-health/conformance/turquoise-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/turquoise-health-conformance.yml
@@ -170,65 +172,65 @@ common:
   type: Compliance
   url: https://app.vanta.com/turquoise.health/trust/4eadhio8ef1h3zwumb77kp
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/security/turquoise-health-trust-center.yml
+  href: https://artifacts.apis.io/turquoise-health/security/turquoise-health-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/turquoise-health-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/data-model/turquoise-health-data-model.yml
+  href: https://artifacts.apis.io/turquoise-health/data-model/turquoise-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/turquoise-health-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/sandbox/turquoise-health-sandbox.yml
+  href: https://artifacts.apis.io/turquoise-health/sandbox/turquoise-health-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/turquoise-health-sandbox.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/overlays/turquoise-health-consumer-pricing-overlay.yaml
+  href: https://artifacts.apis.io/turquoise-health/overlays/turquoise-health-consumer-pricing-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/turquoise-health-consumer-pricing-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/well-known/turquoise-health-well-known.yml
+  href: https://artifacts.apis.io/turquoise-health/well-known/turquoise-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/turquoise-health-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/agentic-access/turquoise-health-agentic-access.yml
+  href: https://artifacts.apis.io/turquoise-health/agentic-access/turquoise-health-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/turquoise-health-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/security/turquoise-health-domain-security.yml
+  href: https://artifacts.apis.io/turquoise-health/security/turquoise-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/turquoise-health-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/packages/turquoise-health-packages.yml
+  href: https://artifacts.apis.io/turquoise-health/packages/turquoise-health-packages.yml
   title: ''
   type: Packages
   url: packages/turquoise-health-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/plans/turquoise-health-plans-pricing.yml
+  href: https://artifacts.apis.io/turquoise-health/plans/turquoise-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/turquoise-health-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/rate-limits/turquoise-health-rate-limits.yml
+  href: https://artifacts.apis.io/turquoise-health/rate-limits/turquoise-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/turquoise-health-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/finops/turquoise-health-finops.yml
+  href: https://artifacts.apis.io/turquoise-health/finops/turquoise-health-finops.yml
   title: ''
   type: FinOps
   url: finops/turquoise-health-finops.yml
 created: '2026-06-13'
 description: Turquoise Health is a healthcare price transparency platform. Its public developer surface is the Consumer Pricing API — a documented OpenAPI 3.1.0 REST API at api.turquoise.health covering providers, payers, networks, Standard Service Packages, and cash and insurer-negotiated rates for shoppable services, plus personalized out-of-pocket estimates computed by layering a member's live X12 270/271 eligibility and accumulators onto a negotiated rate. The same OAuth 2.0 client-credentials token also authenticates a hosted Model Context Protocol server at consumer-mcp.turquoise.health, which exposes five workflow-shaped pricing tools to AI agents. Turquoise also sells platform tiers for market intelligence, contract intelligence and precision contracting to providers, payers and life sciences organizations, generates CMS-compliant machine-readable files, and publishes free public tools including the Medicare Pricer, payer transparency scores and a hospital transparency tracker.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Turquoise Health Finops
   primary_unit: ''
   service_category: ''
@@ -258,9 +260,9 @@ overview: 'Turquoise Health publishes 3 API contracts indexed on the [APIs.io](h
   Turquoise Health''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 29 more developer resources.'
 plans:
 - name: Turquoise Health Plans Pricing
-  plan_count: 3
+  plan_count: 7
   slug: turquoise-health-plans-pricing
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Turquoise Health Rate Limits
@@ -272,23 +274,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 55.0
+  composite: 58.5
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 60.0
     catalog_earned_first_party: 12.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 77.6
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 59.0
     developer_ergonomics: 61.3
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 56.5
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -308,14 +310,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 36.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/screenshots/turquoise-health-2026-08-17T082500.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/turquoise-health/turquoise-health-2026-08-17T082500.png
 security:
 - kind: authentication
   name: Turquoise Health Authentication
@@ -329,6 +332,14 @@ security:
   name: Turquoise Health Trust Center
   slug: turquoise-health-trust-center
   summary_line: SOC 2 Type II, HIPAA
+skill_count: 3
+skills:
+- name: Connect to the Turquoise Consumer Pricing MCP server
+  slug: turquoise-health-connect-the-mcp-server
+- name: Produce a personalized out-of-pocket estimate
+  slug: turquoise-health-personalized-out-of-pocket-estimate
+- name: Price a shoppable healthcare service
+  slug: turquoise-health-price-a-shoppable-service
 slug: turquoise-health
 tags:
 - Healthcare

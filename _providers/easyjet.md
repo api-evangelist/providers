@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: easyJet's hosted client-side widget platform for partner and white-label sites. Each widget is a script tag on brand.easyjet.com whose behaviour is driven by query-string parameters and scoped to a pa
@@ -45,22 +47,22 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/easyjet/refs/heads/main/security/easyjet-domain-security.yml
+  href: https://artifacts.apis.io/easyjet/security/easyjet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/easyjet-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/easyjet/refs/heads/main/conformance/easyjet-conformance.yml
+  href: https://artifacts.apis.io/easyjet/conformance/easyjet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/easyjet-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/easyjet/refs/heads/main/llms/easyjet-llms.txt
+  href: https://artifacts.apis.io/easyjet/llms/easyjet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/easyjet-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/easyjet/refs/heads/main/well-known/easyjet-well-known.yml
+  href: https://artifacts.apis.io/easyjet/well-known/easyjet-well-known.yml
   title: ''
   type: DiscoveryProbe
   url: well-known/easyjet-well-known.yml
@@ -147,7 +149,7 @@ overview: 'easyJet is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   easyJet''s developer surface includes support, signup flow, and 19 more developer resources.'
-random_paper: 9
+random_paper: 13
 score:
   band: emerging
   composite: 13.7
@@ -158,7 +160,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -174,7 +176,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 13.8
+  previous_composite: 13.7
   provenance:
     conformance: first-party
   regulatory:
@@ -183,14 +185,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/easyjet/refs/heads/main/screenshots/easyjet-2026-10-11T185554.png
+screenshot: https://apis.io/screenshots/easyjet/easyjet-2026-10-11T185554.png
 security:
 - kind: domain-security
   name: Easyjet Domain Security

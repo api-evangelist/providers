@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-17'
+  score: 20.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -165,7 +167,7 @@ apis:
   description: Configure and manage CVP VXML Servers
   name: Cisco Voice Portal VXML Server Management API
   slug: cisco-voice-portal-vxml-server-management-api
-artifact_total: 265
+artifact_total: 264
 asyncapis:
 - description: The Cisco Unified Customer Voice Portal (CVP) generates real-time events during call processing that can be consumed for monitoring, analytics, and integration purposes. CVP publishes call lifecycle e
   name: Cisco Voice Portal Call Events API
@@ -240,9 +242,6 @@ collections:
 - collection_type: postman
   name: Cisco Voice Portal Administration Application Configuration VXML Server Management API
   slug: postman-cisco-voice-portal-vxml-server-management-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cisco Voice Portal Administration API
   slug: open-cisco-voice-portal-administration
@@ -326,22 +325,22 @@ collections:
   slug: open-cisco-voice-portal-vxml-services
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/plans/cisco-voice-portal-plans-pricing.yml
+  href: https://artifacts.apis.io/cisco-voice-portal/plans/cisco-voice-portal-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cisco-voice-portal-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/rate-limits/cisco-voice-portal-rate-limits.yml
+  href: https://artifacts.apis.io/cisco-voice-portal/rate-limits/cisco-voice-portal-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cisco-voice-portal-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/finops/cisco-voice-portal-finops.yml
+  href: https://artifacts.apis.io/cisco-voice-portal/finops/cisco-voice-portal-finops.yml
   title: ''
   type: FinOps
   url: finops/cisco-voice-portal-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/capabilities/cisco-voice-portal-capability-edges.yml
+  href: https://artifacts.apis.io/cisco-voice-portal/capabilities/cisco-voice-portal-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cisco-voice-portal-capability-edges.yml
@@ -358,22 +357,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/cisco-voice-portal/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/agentic-access/cisco-voice-portal-agentic-access.yml
+  href: https://artifacts.apis.io/cisco-voice-portal/agentic-access/cisco-voice-portal-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cisco-voice-portal-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/security/cisco-voice-portal-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cisco-voice-portal/security/cisco-voice-portal-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cisco-voice-portal-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/security/cisco-voice-portal-domain-security.yml
+  href: https://artifacts.apis.io/cisco-voice-portal/security/cisco-voice-portal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cisco-voice-portal-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/authentication/cisco-voice-portal-authentication.yml
+  href: https://artifacts.apis.io/cisco-voice-portal/authentication/cisco-voice-portal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cisco-voice-portal-authentication.yml
@@ -426,22 +425,22 @@ common:
   type: ReleaseNotes
   url: https://www.cisco.com/c/en/us/support/customer-collaboration/voice-portal/products-release-notes-list.html
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/json-schema/cisco-voice-portal-call-detail-record.json
+  href: https://artifacts.apis.io/cisco-voice-portal/json-schema/cisco-voice-portal-call-detail-record.json
   title: ''
   type: JSONSchema
   url: json-schema/cisco-voice-portal-call-detail-record.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/json-schema/cisco-voice-portal-device.json
+  href: https://artifacts.apis.io/cisco-voice-portal/json-schema/cisco-voice-portal-device.json
   title: ''
   type: JSONSchema
   url: json-schema/cisco-voice-portal-device.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/json-schema/cisco-voice-portal-application.json
+  href: https://artifacts.apis.io/cisco-voice-portal/json-schema/cisco-voice-portal-application.json
   title: ''
   type: JSONSchema
   url: json-schema/cisco-voice-portal-application.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/json-schema/cisco-voice-portal-dialed-number-pattern.json
+  href: https://artifacts.apis.io/cisco-voice-portal/json-schema/cisco-voice-portal-dialed-number-pattern.json
   title: ''
   type: JSONSchema
   url: json-schema/cisco-voice-portal-dialed-number-pattern.json
@@ -1017,7 +1016,7 @@ plans:
 - name: Cisco Voice Portal Plans Pricing
   plan_count: 1
   slug: cisco-voice-portal-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Cisco Voice Portal Rate Limits
@@ -1060,7 +1059,7 @@ rules:
   slug: cisco-voice-portal-spectral-rules
 score:
   band: developing
-  composite: 40.8
+  composite: 50.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 48.5
@@ -1068,15 +1067,15 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 13.6
-    contract_quality: 59.7
-    developer_ergonomics: 13.1
+    contract_quality: 57.5
+    developer_ergonomics: 51.2
     discoverability: 69.6
-    operational_transparency: 31.6
-  previous_composite: 42.3
+    operational_transparency: 52.6
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1090,13 +1089,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/screenshots/cisco-voice-portal-2026-06-20T174408.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cisco-voice-portal/cisco-voice-portal-2026-06-20T174408.png
 security:
 - kind: authentication
   name: Cisco Voice Portal Authentication

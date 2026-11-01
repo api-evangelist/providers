@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The Public API of the Digital Enterprise Suite — 129 operations across 30 resource groups covering modeling places and their content, model promotion change requests, execution environments and deploy
@@ -35,7 +37,7 @@ apis:
 - description: 'A read-only SPARQL 1.1 endpoint over the Digital Enterprise Graph, the RDF projection of every model in a modeling place. One graph exists per place, named http://trisotech.com/graph/1.0/graph#<place '
   name: Trisotech Digital Enterprise Graph SPARQL API
   slug: graph-sparql
-artifact_total: 12
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Trisotech Events
@@ -106,112 +108,120 @@ common:
   type: Security
   url: https://www.trisotech.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/conformance/trisotech-conformance.yml
+  href: https://artifacts.apis.io/trisotech/conformance/trisotech-conformance.yml
   title: ''
   type: Compliance
   url: conformance/trisotech-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/security/trisotech-trust-center.yml
+  href: https://artifacts.apis.io/trisotech/security/trisotech-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/trisotech-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/security/trisotech-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/trisotech/security/trisotech-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/trisotech-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/security/trisotech-domain-security.yml
+  href: https://artifacts.apis.io/trisotech/security/trisotech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trisotech-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/conformance/trisotech-conformance.yml
+  href: https://artifacts.apis.io/trisotech/conformance/trisotech-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trisotech-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/lifecycle/trisotech-lifecycle.yml
+  href: https://artifacts.apis.io/trisotech/lifecycle/trisotech-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trisotech-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/changelog/trisotech-changelog.yml
+  href: https://artifacts.apis.io/trisotech/changelog/trisotech-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/trisotech-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/plans/trisotech-plans-pricing.yml
+  href: https://artifacts.apis.io/trisotech/plans/trisotech-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trisotech-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/rate-limits/trisotech-rate-limits.yml
+  href: https://artifacts.apis.io/trisotech/rate-limits/trisotech-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trisotech-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/authentication/trisotech-authentication.yml
+  href: https://artifacts.apis.io/trisotech/authentication/trisotech-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trisotech-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/scopes/trisotech-scopes.yml
+  href: https://artifacts.apis.io/trisotech/scopes/trisotech-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/trisotech-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/errors/trisotech-problem-types.yml
+  href: https://artifacts.apis.io/trisotech/errors/trisotech-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/trisotech-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/conventions/trisotech-conventions.yml
+  href: https://artifacts.apis.io/trisotech/conventions/trisotech-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trisotech-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/sandbox/trisotech-sandbox.yml
+  href: https://artifacts.apis.io/trisotech/sandbox/trisotech-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/trisotech-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/packages/trisotech-packages.yml
+  href: https://artifacts.apis.io/trisotech/packages/trisotech-packages.yml
   title: ''
   type: Packages
   url: packages/trisotech-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/mcp/trisotech-mcp.yml
+  href: https://artifacts.apis.io/trisotech/mcp/trisotech-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/trisotech-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/asyncapi/trisotech-events.yml
+  href: https://artifacts.apis.io/trisotech/asyncapi/trisotech-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/trisotech-events.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/components/trisotech-components.yml
+  href: https://artifacts.apis.io/trisotech/components/trisotech-components.yml
   title: ''
   type: Components
   url: components/trisotech-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/data-model/trisotech-data-model.yml
+  href: https://artifacts.apis.io/trisotech/data-model/trisotech-data-model.yml
   title: ''
   type: DataModel
   url: data-model/trisotech-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/trisotech/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/llms/trisotech-llms.txt
+  href: https://artifacts.apis.io/trisotech/llms/trisotech-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trisotech-llms.txt
 created: '2026-09-02'
 description: 'Trisotech is a Montreal, Canada software company, founded in 1996, that builds the Digital Enterprise Suite — a standards-anchored low-code platform for modelling and automating business processes, cases and decisions. Its modelers implement the OMG trio of BPMN 2.0, CMMN 1.1 and DMN with FEEL, and its Digital Automation Suite executes those same models as live services. Trisotech''s founder chairs OMG work on those standards, and the product line reflects it: services publish themselves as OpenAPI, as containers, as CDS Hooks discovery endpoints and SMART on FHIR applications for healthcare, and as Model Context Protocol servers for AI agents. The platform is sold into healthcare, finance and the public sector, and the machine-readable surface is a 129-operation OAuth 2 Public API for repository, deployment, identity and administration work, plus a per-service Automation API and a SPARQL endpoint over the Digital Enterprise Graph.'
+finops:
+- has_sources: true
+  method: derived
+  name: Trisotech Finops
+  primary_unit: ''
+  service_category: ''
+  slug: trisotech-finops
+  template: true
 image: https://www.trisotech.com/wp-content/themes/trisotech/images/logo-trisotech-brand.png
 layout: provider
 mcp_servers:
@@ -233,7 +243,7 @@ plans:
 - name: Trisotech Plans Pricing
   plan_count: 0
   slug: trisotech-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Trisotech Rate Limits
@@ -245,9 +255,9 @@ scopes:
   summary_line: 20 scopes · authorization_code/client_credentials
 score:
   band: strong
-  composite: 58.4
+  composite: 57.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -257,11 +267,11 @@ score:
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 44.2
+    contract_quality: 39.0
     developer_ergonomics: 66.1
     discoverability: 70.0
-    operational_transparency: 52.6
-  previous_composite: 58.4
+    operational_transparency: 55.3
+  previous_composite: 57.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -272,14 +282,14 @@ score:
     regime: Health
     regime_id: health
     score: 52.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/screenshots/trisotech-2026-10-11T131204.png
+screenshot: https://apis.io/screenshots/trisotech/trisotech-2026-10-11T131204.png
 security:
 - kind: authentication
   name: Trisotech Authentication
@@ -297,6 +307,16 @@ security:
   name: Trisotech Trust Center
   slug: trisotech-trust-center
   summary_line: SOC 2 Type II, ISO/IEC 27001:2013, SOC 3
+skill_count: 4
+skills:
+- name: trisotech-deploy-a-service
+  slug: trisotech-deploy-a-service
+- name: trisotech-find-and-route-user-tasks
+  slug: trisotech-find-and-route-user-tasks
+- name: trisotech-promote-models-with-governance
+  slug: trisotech-promote-models-with-governance
+- name: trisotech-subscribe-to-events
+  slug: trisotech-subscribe-to-events
 slug: trisotech
 tags:
 - Business Process Management

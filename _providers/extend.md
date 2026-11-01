@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -114,37 +116,37 @@ asyncapis:
   slug: extend-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/agentic-access/extend-agentic-access.yml
+  href: https://artifacts.apis.io/extend/agentic-access/extend-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/extend-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/rules/extend-rules.yml
+  href: https://artifacts.apis.io/extend/rules/extend-rules.yml
   title: ''
   type: Spectral
   url: rules/extend-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/vocabulary/extend-vocabulary.yml
+  href: https://artifacts.apis.io/extend/vocabulary/extend-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/extend-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/lifecycle/extend-lifecycle.yml
+  href: https://artifacts.apis.io/extend/lifecycle/extend-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/extend-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/errors/extend-problem-types.yml
+  href: https://artifacts.apis.io/extend/errors/extend-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/extend-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/hosts/extend-hosts.yml
+  href: https://artifacts.apis.io/extend/hosts/extend-hosts.yml
   title: ''
   type: Hosts
   url: hosts/extend-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/vendors/extend-vendors.yml
+  href: https://artifacts.apis.io/extend/vendors/extend-vendors.yml
   title: ''
   type: Vendors
   url: vendors/extend-vendors.yml
@@ -157,7 +159,7 @@ common:
   type: Website
   url: https://www.extend.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/security/extend-domain-security.yml
+  href: https://artifacts.apis.io/extend/security/extend-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/extend-domain-security.yml
@@ -210,72 +212,72 @@ common:
   type: ChangeLog
   url: https://docs.extend.com/changelog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/authentication/extend-authentication.yml
+  href: https://artifacts.apis.io/extend/authentication/extend-authentication.yml
   title: ''
   type: Authentication
   url: authentication/extend-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/conventions/extend-conventions.yml
+  href: https://artifacts.apis.io/extend/conventions/extend-conventions.yml
   title: ''
   type: Conventions
   url: conventions/extend-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/conventions/extend-conventions.yml
+  href: https://artifacts.apis.io/extend/conventions/extend-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/extend-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/llms/extend-llms.txt
+  href: https://artifacts.apis.io/extend/llms/extend-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/extend-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/well-known/extend-well-known.yml
+  href: https://artifacts.apis.io/extend/well-known/extend-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/extend-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/mcp/extend-mcp.yml
+  href: https://artifacts.apis.io/extend/mcp/extend-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/extend-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/conformance/extend-conformance.yml
+  href: https://artifacts.apis.io/extend/conformance/extend-conformance.yml
   title: ''
   type: Conformance
   url: conformance/extend-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/lifecycle/extend-lifecycle.yml
+  href: https://artifacts.apis.io/extend/lifecycle/extend-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/extend-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/sandbox/extend-sandbox.yml
+  href: https://artifacts.apis.io/extend/sandbox/extend-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/extend-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/asyncapi/extend-webhooks.yml
+  href: https://artifacts.apis.io/extend/asyncapi/extend-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/extend-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/data-model/extend-data-model.yml
+  href: https://artifacts.apis.io/extend/data-model/extend-data-model.yml
   title: ''
   type: DataModel
   url: data-model/extend-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/components/extend-components.yml
+  href: https://artifacts.apis.io/extend/components/extend-components.yml
   title: ''
   type: Components
   url: components/extend-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/packages/extend-packages.yml
+  href: https://artifacts.apis.io/extend/packages/extend-packages.yml
   title: ''
   type: Packages
   url: packages/extend-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/packages/extend-packages.yml
+  href: https://artifacts.apis.io/extend/packages/extend-packages.yml
   title: ''
   type: SDKs
   url: packages/extend-packages.yml
@@ -294,7 +296,7 @@ overview: 'Extend publishes 13 API contracts indexed on the [APIs.io](https://ap
 
 
   Extend''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 29 more developer resources.'
-random_paper: 10
+random_paper: 0
 rules:
 - authorship: generated
   effective_rule_count: 51
@@ -310,7 +312,7 @@ rules:
   slug: extend-rules
 score:
   band: developing
-  composite: 48.7
+  composite: 54.1
   coverage:
     artifact_dirs: 24
     catalog_earned: 45.8
@@ -318,15 +320,15 @@ score:
     catalog_gap: 69.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.2
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 35.6
     contract_quality: 55.0
-    developer_ergonomics: 52.4
-    discoverability: 80.4
-    operational_transparency: 42.1
-  previous_composite: 40.5
+    developer_ergonomics: 71.4
+    discoverability: 73.2
+    operational_transparency: 52.6
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -342,13 +344,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/screenshots/extend-2026-07-25T213943.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/extend/extend-2026-07-25T213943.png
 security:
 - kind: authentication
   name: Extend Authentication

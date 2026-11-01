@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The Universal Commerce Protocol Shopping service that Omaze UK exposes over the Model Context Protocol, advertised by Omaze in its own /agents.md and /llms.txt and described by the merchant profile at
@@ -48,10 +50,10 @@ apis:
 - description: The anonymous, read-only JSON surface of the Omaze UK storefront, documented by Omaze itself in /agents.md for agents that only need to read store data without transacting. Covers product listings (/p
   name: Omaze UK Storefront JSON
   slug: omaze-uk-storefront-json
-artifact_total: 8
+artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/omaze/refs/heads/main/security/omaze-domain-security.yml
+  href: https://artifacts.apis.io/omaze/security/omaze-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/omaze-domain-security.yml
@@ -80,27 +82,27 @@ common:
   type: GettingStarted
   url: https://omaze.co.uk/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/omaze/refs/heads/main/llms/omaze-llms.txt
+  href: https://artifacts.apis.io/omaze/llms/omaze-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/omaze-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/omaze/refs/heads/main/mcp/omaze-mcp.yml
+  href: https://artifacts.apis.io/omaze/mcp/omaze-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/omaze-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/omaze/refs/heads/main/well-known/omaze-well-known.yml
+  href: https://artifacts.apis.io/omaze/well-known/omaze-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/omaze-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/omaze/refs/heads/main/authentication/omaze-authentication.yml
+  href: https://artifacts.apis.io/omaze/authentication/omaze-authentication.yml
   title: ''
   type: Authentication
   url: authentication/omaze-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/omaze/refs/heads/main/scopes/omaze-scopes.yml
+  href: https://artifacts.apis.io/omaze/scopes/omaze-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/omaze-scopes.yml
@@ -109,32 +111,32 @@ common:
   type: OpenIDConnect
   url: https://omaze.co.uk/.well-known/openid-configuration
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omaze/refs/heads/main/conventions/omaze-conventions.yml
+  href: https://artifacts.apis.io/omaze/conventions/omaze-conventions.yml
   title: ''
   type: Conventions
   url: conventions/omaze-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/omaze/refs/heads/main/rate-limits/omaze-rate-limits.yml
+  href: https://artifacts.apis.io/omaze/rate-limits/omaze-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/omaze-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omaze/refs/heads/main/errors/omaze-problem-types.yml
+  href: https://artifacts.apis.io/omaze/errors/omaze-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/omaze-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omaze/refs/heads/main/lifecycle/omaze-lifecycle.yml
+  href: https://artifacts.apis.io/omaze/lifecycle/omaze-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/omaze-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omaze/refs/heads/main/conformance/omaze-conformance.yml
+  href: https://artifacts.apis.io/omaze/conformance/omaze-conformance.yml
   title: ''
   type: Conformance
   url: conformance/omaze-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/omaze/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/omaze/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -207,7 +209,7 @@ scopes:
   summary_line: 4 scopes · authorization_code
 score:
   band: thin
-  composite: 30.6
+  composite: 30.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 40.0
@@ -215,14 +217,14 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 51.8
-    discoverability: 80.0
-    operational_transparency: 2.6
+    discoverability: 70.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -233,7 +235,7 @@ score:
     - dach
     - europe
     - united-kingdom-ireland
-  previous_composite: 30.5
+  previous_composite: 30.0
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -244,14 +246,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/omaze/refs/heads/main/screenshots/omaze-2026-08-07T190133.png
+screenshot: https://apis.io/screenshots/omaze/omaze-2026-08-07T190133.png
 security:
 - kind: authentication
   name: Omaze Authentication
@@ -261,6 +263,10 @@ security:
   name: Omaze Domain Security
   slug: omaze-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: omaze-uk-enter-prize-draw
+  slug: omaze-uk-enter-prize-draw
 slug: omaze
 tags:
 - Company

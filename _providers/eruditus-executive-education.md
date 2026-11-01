@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 30.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: Emeritus program catalog resources.
   name: Eruditus Programs API
   slug: eruditus-executive-education-programs-api
-artifact_total: 9
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Emeritus Leads API
   slug: open-eruditus-executive-education-leads-api
@@ -68,17 +67,17 @@ collections:
   slug: open-eruditus-executive-education-programs-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/capabilities/eruditus-executive-education-capability-edges.yml
+  href: https://artifacts.apis.io/eruditus-executive-education/capabilities/eruditus-executive-education-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/eruditus-executive-education-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/overlays/eruditus-executive-education-leads-overlay.yaml
+  href: https://artifacts.apis.io/eruditus-executive-education/overlays/eruditus-executive-education-leads-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/eruditus-executive-education-leads-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/agentic-access/eruditus-executive-education-agentic-access.yml
+  href: https://artifacts.apis.io/eruditus-executive-education/agentic-access/eruditus-executive-education-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eruditus-executive-education-agentic-access.yml
@@ -131,72 +130,72 @@ common:
   type: Security
   url: https://emeritus.org/reporting-a-vulnerabilities/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/security/eruditus-executive-education-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/eruditus-executive-education/security/eruditus-executive-education-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/eruditus-executive-education-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/security/eruditus-executive-education-domain-security.yml
+  href: https://artifacts.apis.io/eruditus-executive-education/security/eruditus-executive-education-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eruditus-executive-education-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/authentication/eruditus-executive-education-authentication.yml
+  href: https://artifacts.apis.io/eruditus-executive-education/authentication/eruditus-executive-education-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eruditus-executive-education-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/errors/eruditus-executive-education-problem-types.yml
+  href: https://artifacts.apis.io/eruditus-executive-education/errors/eruditus-executive-education-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eruditus-executive-education-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/conventions/eruditus-executive-education-conventions.yml
+  href: https://artifacts.apis.io/eruditus-executive-education/conventions/eruditus-executive-education-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eruditus-executive-education-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/lifecycle/eruditus-executive-education-lifecycle.yml
+  href: https://artifacts.apis.io/eruditus-executive-education/lifecycle/eruditus-executive-education-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eruditus-executive-education-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/sandbox/eruditus-executive-education-sandbox.yml
+  href: https://artifacts.apis.io/eruditus-executive-education/sandbox/eruditus-executive-education-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/eruditus-executive-education-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/data-model/eruditus-executive-education-data-model.yml
+  href: https://artifacts.apis.io/eruditus-executive-education/data-model/eruditus-executive-education-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eruditus-executive-education-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/conformance/eruditus-executive-education-conformance.yml
+  href: https://artifacts.apis.io/eruditus-executive-education/conformance/eruditus-executive-education-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eruditus-executive-education-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/packages/eruditus-executive-education-packages.yml
+  href: https://artifacts.apis.io/eruditus-executive-education/packages/eruditus-executive-education-packages.yml
   title: ''
   type: Packages
   url: packages/eruditus-executive-education-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/mcp/eruditus-executive-education-mcp.yml
+  href: https://artifacts.apis.io/eruditus-executive-education/mcp/eruditus-executive-education-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/eruditus-executive-education-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/mcp/eruditus-executive-education-tool-crosswalk.yml
+  href: https://artifacts.apis.io/eruditus-executive-education/mcp/eruditus-executive-education-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/eruditus-executive-education-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/eruditus-executive-education/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/llms/eruditus-executive-education-llms.txt
+  href: https://artifacts.apis.io/eruditus-executive-education/llms/eruditus-executive-education-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eruditus-executive-education-llms.txt
@@ -215,9 +214,9 @@ overview: 'Eruditus is listed with 2 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 5
 score:
   band: thin
-  composite: 33.2
+  composite: 34.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -230,7 +229,7 @@ score:
     contract_quality: 15.2
     developer_ergonomics: 66.1
     discoverability: 66.1
-    operational_transparency: 28.9
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -238,7 +237,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 33.2
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,13 +254,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/screenshots/eruditus-executive-education-2026-08-07T165004.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/eruditus-executive-education/eruditus-executive-education-2026-08-07T165004.png
 security:
 - kind: authentication
   name: Eruditus Executive Education Authentication
@@ -275,6 +275,14 @@ security:
   name: Eruditus Executive Education Vulnerability Disclosure
   slug: eruditus-executive-education-vulnerability-disclosure
   summary_line: contact published
+skill_count: 3
+skills:
+- name: Read the Emeritus program catalog
+  slug: eruditus-executive-education-read-program-catalog
+- name: Submit an Emeritus enrollment lead
+  slug: eruditus-executive-education-submit-enrollment-lead
+- name: Submit an Emeritus team (B2B) enrollment lead
+  slug: eruditus-executive-education-submit-team-lead
 slug: eruditus-executive-education
 tags:
 - Company

@@ -13,7 +13,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -22,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.3
-  scored_at: '2026-10-17'
+  score: 32.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +45,7 @@ agentic_access:
   operation_count: 6
   slug: bargo-congress-trades-api-agentic-access
   summary_line: 6 operations
-api_count: 4
+api_count: 1
 apis:
 - description: A focused Streamable HTTP MCP server exposing three read-only tools over the Congress Trades dataset — get_congress_trades, get_congress_member and get_congress_stats. The handshake and tools/list are
   name: Congress Trades MCP Server
@@ -67,9 +68,6 @@ apis:
 artifact_total: 16
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Bargo Congress Trades Members API
   slug: open-bargo-congress-trades-api-members-api
 - collection_type: open
@@ -84,17 +82,17 @@ common:
   type: Website
   url: https://www.bargo.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/security/bargo-congress-trades-api-domain-security.yml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/security/bargo-congress-trades-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bargo-congress-trades-api-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/agentic-access/bargo-congress-trades-api-agentic-access.yml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/agentic-access/bargo-congress-trades-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bargo-congress-trades-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/authentication/bargo-congress-trades-api-authentication.yml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/authentication/bargo-congress-trades-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bargo-congress-trades-api-authentication.yml
@@ -139,82 +137,82 @@ common:
   type: Blog
   url: https://www.bargo.ai/research
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/mcp/bargo-congress-trades-api-mcp.yml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/mcp/bargo-congress-trades-api-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bargo-congress-trades-api-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/mcp/bargo-congress-trades-api-tool-crosswalk.yml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/mcp/bargo-congress-trades-api-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/bargo-congress-trades-api-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/llms/bargo-congress-trades-api-llms.txt
+  href: https://artifacts.apis.io/bargo-congress-trades-api/llms/bargo-congress-trades-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bargo-congress-trades-api-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/well-known/bargo-congress-trades-api-well-known.yml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/well-known/bargo-congress-trades-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bargo-congress-trades-api-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/packages/bargo-congress-trades-api-packages.yml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/packages/bargo-congress-trades-api-packages.yml
   title: ''
   type: Packages
   url: packages/bargo-congress-trades-api-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/packages/bargo-congress-trades-api-packages.yml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/packages/bargo-congress-trades-api-packages.yml
   title: ''
   type: SDKs
   url: packages/bargo-congress-trades-api-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/conventions/bargo-congress-trades-api-conventions.yml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/conventions/bargo-congress-trades-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bargo-congress-trades-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/errors/bargo-congress-trades-api-problem-types.yml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/errors/bargo-congress-trades-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bargo-congress-trades-api-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/data-model/bargo-congress-trades-api-data-model.yml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/data-model/bargo-congress-trades-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bargo-congress-trades-api-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/rate-limits/bargo-congress-trades-api-rate-limits.yml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/rate-limits/bargo-congress-trades-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bargo-congress-trades-api-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/lifecycle/bargo-congress-trades-api-lifecycle.yml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/lifecycle/bargo-congress-trades-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bargo-congress-trades-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/conformance/bargo-congress-trades-api-conformance.yml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/conformance/bargo-congress-trades-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bargo-congress-trades-api-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/components/bargo-congress-trades-api-components.yml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/components/bargo-congress-trades-api-components.yml
   title: ''
   type: Components
   url: components/bargo-congress-trades-api-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/overlays/bargo-congress-trades-api-congress-trades-overlay.yaml
+  href: https://artifacts.apis.io/bargo-congress-trades-api/overlays/bargo-congress-trades-api-congress-trades-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bargo-congress-trades-api-congress-trades-overlay.yaml
@@ -245,30 +243,30 @@ overview: 'Bargo Congress Trades API publishes 4 API contracts indexed on the [A
 
 
   Bargo Congress Trades API''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 23 more developer resources.'
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 6
   name: Bargo Congress Trades Api Rate Limits
   slug: bargo-congress-trades-api-rate-limits
 score:
   band: developing
-  composite: 48.7
+  composite: 47.5
   coverage:
     artifact_dirs: 23
-    catalog_earned: 52.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.5
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 51.7
     developer_ergonomics: 71.4
-    discoverability: 80.0
-    operational_transparency: 34.2
-  previous_composite: 48.2
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,14 +283,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/screenshots/bargo-congress-trades-api-2026-08-17T080629.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bargo-congress-trades-api/bargo-congress-trades-api-2026-08-17T080629.png
 security:
 - kind: authentication
   name: Bargo Congress Trades Api Authentication
@@ -302,6 +300,10 @@ security:
   name: Bargo Congress Trades Api Domain Security
   slug: bargo-congress-trades-api-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: bargo-congress-api
+  slug: bargo-congress-api
 slug: bargo-congress-trades-api
 tags:
 - Congress

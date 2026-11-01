@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
+  score: 39.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -104,7 +107,7 @@ apis:
   description: 'Use webhooks to communicate between the SimpleTexting platform and your server. Webhooks can be used to forward messages as well as provide info about unsubscribes and message delivery. SimpleTexting '
   name: SimpleTexting Webhook Reports API
   slug: simpletexting-webhook-reports-api
-artifact_total: 32
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Simpletexting Webhooks
@@ -151,22 +154,22 @@ collections:
   slug: open-simpletexting
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/capabilities/simpletexting-capability-edges.yml
+  href: https://artifacts.apis.io/simpletexting/capabilities/simpletexting-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/simpletexting-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/agentic-access/simpletexting-agentic-access.yml
+  href: https://artifacts.apis.io/simpletexting/agentic-access/simpletexting-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/simpletexting-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/security/simpletexting-domain-security.yml
+  href: https://artifacts.apis.io/simpletexting/security/simpletexting-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simpletexting-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/authentication/simpletexting-authentication.yml
+  href: https://artifacts.apis.io/simpletexting/authentication/simpletexting-authentication.yml
   title: ''
   type: Authentication
   url: authentication/simpletexting-authentication.yml
@@ -187,47 +190,47 @@ common:
   type: Documentation
   url: https://simpletexting.com/api/docs/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/plans/simpletexting-plans-pricing.yml
+  href: https://artifacts.apis.io/simpletexting/plans/simpletexting-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/simpletexting-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/rate-limits/simpletexting-rate-limits.yml
+  href: https://artifacts.apis.io/simpletexting/rate-limits/simpletexting-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/simpletexting-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/finops/simpletexting-finops.yml
+  href: https://artifacts.apis.io/simpletexting/finops/simpletexting-finops.yml
   title: ''
   type: FinOps
   url: finops/simpletexting-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/packages/simpletexting-packages.yml
+  href: https://artifacts.apis.io/simpletexting/packages/simpletexting-packages.yml
   title: ''
   type: Packages
   url: packages/simpletexting-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/llms/simpletexting-llms.txt
+  href: https://artifacts.apis.io/simpletexting/llms/simpletexting-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/simpletexting-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/conformance/simpletexting-conformance.yml
+  href: https://artifacts.apis.io/simpletexting/conformance/simpletexting-conformance.yml
   title: ''
   type: Conformance
   url: conformance/simpletexting-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/conformance/simpletexting-conformance.yml
+  href: https://artifacts.apis.io/simpletexting/conformance/simpletexting-conformance.yml
   title: ''
   type: Compliance
   url: conformance/simpletexting-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/errors/simpletexting-problem-types.yml
+  href: https://artifacts.apis.io/simpletexting/errors/simpletexting-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/simpletexting-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/lifecycle/simpletexting-lifecycle.yml
+  href: https://artifacts.apis.io/simpletexting/lifecycle/simpletexting-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/simpletexting-lifecycle.yml
@@ -236,27 +239,27 @@ common:
   type: StatusPage
   url: https://status.simpletexting.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/conventions/simpletexting-conventions.yml
+  href: https://artifacts.apis.io/simpletexting/conventions/simpletexting-conventions.yml
   title: ''
   type: Conventions
   url: conventions/simpletexting-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/data-model/simpletexting-data-model.yml
+  href: https://artifacts.apis.io/simpletexting/data-model/simpletexting-data-model.yml
   title: ''
   type: DataModel
   url: data-model/simpletexting-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/components/simpletexting-components.yml
+  href: https://artifacts.apis.io/simpletexting/components/simpletexting-components.yml
   title: ''
   type: Components
   url: components/simpletexting-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/asyncapi/simpletexting-webhooks.yml
+  href: https://artifacts.apis.io/simpletexting/asyncapi/simpletexting-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/simpletexting-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/simpletexting/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -300,10 +303,10 @@ created: '2026-06-20'
 description: SimpleTexting is a business SMS and MMS marketing platform. Its v2 REST API lets developers send single text messages, run bulk campaigns to lists and segments, manage contacts and contact lists, upload MMS media, provision sending numbers, and subscribe to delivery and incoming-message webhooks, all authenticated with a bearer token.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Simpletexting Finops
-  primary_unit: ''
-  service_category: Communications
+  primary_unit: number
+  service_category: ''
   slug: simpletexting-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simpletexting.png
@@ -321,32 +324,35 @@ overview: 'SimpleTexting publishes 12 API contracts indexed on the [APIs.io](htt
   SimpleTexting''s developer surface includes authentication, engineering blog, documentation, API reference, support, pricing, signup flow, and 25 more developer resources.'
 plans:
 - name: Simpletexting Plans Pricing
-  plan_count: 2
+  plan_count: 8
   slug: simpletexting-plans-pricing
-random_paper: 13
+- name: Simpletexting Price Estimates
+  plan_count: 0
+  slug: simpletexting-price-estimates
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Simpletexting Rate Limits
   slug: simpletexting-rate-limits
 score:
-  band: developing
-  composite: 52.4
+  band: strong
+  composite: 57.8
   coverage:
     artifact_dirs: 26
-    catalog_earned: 57.0
-    catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 3.7
   facets:
-    access_clarity: 67.1
+    access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 57.7
-    developer_ergonomics: 41.1
+    contract_quality: 55.4
+    developer_ergonomics: 48.2
     discoverability: 66.1
     operational_transparency: 55.3
-  previous_composite: 54.0
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -363,13 +369,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/screenshots/simpletexting-2026-06-20T193933.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/simpletexting/simpletexting-2026-06-20T193933.png
 security:
 - kind: authentication
   name: Simpletexting Authentication
@@ -379,6 +386,18 @@ security:
   name: Simpletexting Domain Security
   slug: simpletexting-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Build and maintain a contact list
+  slug: simpletexting-build-a-contact-list
+- name: Run a bulk campaign to a list or segment
+  slug: simpletexting-run-a-bulk-campaign
+- name: Send a single SMS or MMS
+  slug: simpletexting-send-a-text-message
+- name: Send an MMS with uploaded media
+  slug: simpletexting-send-an-mms-with-media
+- name: Subscribe to delivery and incoming-message events
+  slug: simpletexting-subscribe-to-events
 slug: simpletexting
 tags:
 - SMS

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -90,7 +92,7 @@ apis:
   description: The Sync Status API from Deliveroo — 1 operation(s) for sync status.
   name: Deliveroo Sync Status API
   slug: deliveroo-sync-status-api
-artifact_total: 101
+artifact_total: 100
 asyncapis:
 - description: Event-driven webhook callbacks delivered by the Deliveroo Developer Portal APIs. Integrators configure HTTPS webhook URLs for Order Events, Rider Events, and Menu (upload result) events. Each delivery
   name: Deliveroo Webhooks
@@ -123,9 +125,6 @@ collections:
 - collection_type: postman
   name: Deliveroo Catalogue Sync Status API
   slug: postman-deliveroo-sync-status-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Deliveroo Catalogue API
   slug: open-deliveroo-catalogue-api
@@ -171,22 +170,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/deliveroo/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/agentic-access/deliveroo-agentic-access.yml
+  href: https://artifacts.apis.io/deliveroo/agentic-access/deliveroo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/deliveroo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/security/deliveroo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/deliveroo/security/deliveroo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/deliveroo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/security/deliveroo-domain-security.yml
+  href: https://artifacts.apis.io/deliveroo/security/deliveroo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/deliveroo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/authentication/deliveroo-authentication.yml
+  href: https://artifacts.apis.io/deliveroo/authentication/deliveroo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/deliveroo-authentication.yml
@@ -235,27 +234,27 @@ common:
   type: Blog
   url: https://deliveroo.co.uk/blog
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/rules/deliveroo-spectral-rules.yml
+  href: https://artifacts.apis.io/deliveroo/rules/deliveroo-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/deliveroo-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/vocabulary/deliveroo-vocabulary.yml
+  href: https://artifacts.apis.io/deliveroo/vocabulary/deliveroo-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/deliveroo-vocabulary.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/plans/deliveroo-plans-pricing.yml
+  href: https://artifacts.apis.io/deliveroo/plans/deliveroo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/deliveroo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/rate-limits/deliveroo-rate-limits.yml
+  href: https://artifacts.apis.io/deliveroo/rate-limits/deliveroo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/deliveroo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/finops/deliveroo-finops.yml
+  href: https://artifacts.apis.io/deliveroo/finops/deliveroo-finops.yml
   title: ''
   type: FinOps
   url: finops/deliveroo-finops.yml
@@ -471,7 +470,7 @@ plans:
 - name: Deliveroo Plans Pricing
   plan_count: 5
   slug: deliveroo-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 6
   name: Deliveroo Rate Limits
@@ -514,23 +513,23 @@ rules:
   slug: deliveroo-spectral-rules
 score:
   band: thin
-  composite: 31.9
+  composite: 37.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 28.2
-    developer_ergonomics: 28.6
+    developer_ergonomics: 39.3
     discoverability: 66.1
-    operational_transparency: 14.5
-  previous_composite: 40.2
+    operational_transparency: 31.6
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -544,13 +543,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/screenshots/deliveroo-2026-06-20T175902.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/deliveroo/deliveroo-2026-06-20T175902.png
 security:
 - kind: authentication
   name: Deliveroo Authentication

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Recuro Health's member and provider identity surface, an Auth0-hosted OpenID Connect / OAuth 2.0 authorization server. The OIDC discovery document, the RFC 8414 authorization-server metadata and the J
@@ -88,42 +90,42 @@ common:
   type: Compliance
   url: https://recurohealth.com/hitrust/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/recuro-health/refs/heads/main/well-known/recuro-health-well-known.yml
+  href: https://artifacts.apis.io/recuro-health/well-known/recuro-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/recuro-health-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recuro-health/refs/heads/main/authentication/recuro-health-authentication.yml
+  href: https://artifacts.apis.io/recuro-health/authentication/recuro-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/recuro-health-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recuro-health/refs/heads/main/scopes/recuro-health-scopes.yml
+  href: https://artifacts.apis.io/recuro-health/scopes/recuro-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/recuro-health-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recuro-health/refs/heads/main/conformance/recuro-health-conformance.yml
+  href: https://artifacts.apis.io/recuro-health/conformance/recuro-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/recuro-health-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recuro-health/refs/heads/main/conventions/recuro-health-conventions.yml
+  href: https://artifacts.apis.io/recuro-health/conventions/recuro-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/recuro-health-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recuro-health/refs/heads/main/security/recuro-health-domain-security.yml
+  href: https://artifacts.apis.io/recuro-health/security/recuro-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/recuro-health-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recuro-health/refs/heads/main/security/recuro-health-trust-center.yml
+  href: https://artifacts.apis.io/recuro-health/security/recuro-health-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/recuro-health-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/recuro-health/refs/heads/main/llms/recuro-health-llms.txt
+  href: https://artifacts.apis.io/recuro-health/llms/recuro-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/recuro-health-llms.txt
@@ -165,8 +167,8 @@ scopes:
   slug: recuro-health-scopes
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
-  band: emerging
-  composite: 24.0
+  band: thin
+  composite: 27.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -174,15 +176,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 23.9
+    operational_transparency: 5.3
+  previous_composite: 27.0
   provenance:
     conformance: first-party
   regulatory:
@@ -197,14 +199,14 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/recuro-health/refs/heads/main/screenshots/recuro-health-2026-09-02T153103.png
+screenshot: https://apis.io/screenshots/recuro-health/recuro-health-2026-09-02T153103.png
 security:
 - kind: authentication
   name: Recuro Health Authentication

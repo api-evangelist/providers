@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
+  score: 20.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -63,9 +65,6 @@ apis:
 artifact_total: 10
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: REDX Open Areas API
   slug: open-shopup-areas-api
 - collection_type: open
@@ -76,7 +75,7 @@ collections:
   slug: open-shopup-pickup-stores-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/capabilities/shopup-capability-edges.yml
+  href: https://artifacts.apis.io/shopup/capabilities/shopup-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/shopup-capability-edges.yml
@@ -113,72 +112,72 @@ common:
   type: PrivacyPolicy
   url: https://redx.com.bd/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/agentic-access/shopup-agentic-access.yml
+  href: https://artifacts.apis.io/shopup/agentic-access/shopup-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shopup-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/authentication/shopup-authentication.yml
+  href: https://artifacts.apis.io/shopup/authentication/shopup-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shopup-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/security/shopup-domain-security.yml
+  href: https://artifacts.apis.io/shopup/security/shopup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shopup-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/mcp/shopup-mcp.yml
+  href: https://artifacts.apis.io/shopup/mcp/shopup-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/shopup-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/errors/shopup-problem-types.yml
+  href: https://artifacts.apis.io/shopup/errors/shopup-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/shopup-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/conventions/shopup-conventions.yml
+  href: https://artifacts.apis.io/shopup/conventions/shopup-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shopup-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/sandbox/shopup-sandbox.yml
+  href: https://artifacts.apis.io/shopup/sandbox/shopup-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/shopup-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/data-model/shopup-data-model.yml
+  href: https://artifacts.apis.io/shopup/data-model/shopup-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shopup-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/overlays/shopup-redx-overlay.yaml
+  href: https://artifacts.apis.io/shopup/overlays/shopup-redx-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shopup-redx-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/lifecycle/shopup-lifecycle.yml
+  href: https://artifacts.apis.io/shopup/lifecycle/shopup-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shopup-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/conformance/shopup-conformance.yml
+  href: https://artifacts.apis.io/shopup/conformance/shopup-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shopup-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/packages/shopup-packages.yml
+  href: https://artifacts.apis.io/shopup/packages/shopup-packages.yml
   title: ''
   type: Packages
   url: packages/shopup-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/llms/shopup-llms.txt
+  href: https://artifacts.apis.io/shopup/llms/shopup-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shopup-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/skills/shopup-create-parcel.md
+  href: https://artifacts.apis.io/shopup/skills/shopup-create-parcel.md
   title: ''
   type: AgentSkill
   url: skills/shopup-create-parcel.md
@@ -194,7 +193,7 @@ overview: 'ShopUp publishes 3 API contracts indexed on the [APIs.io](https://api
 
 
   ShopUp''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 11
+random_paper: 23
 score:
   band: thin
   composite: 35.8
@@ -211,7 +210,7 @@ score:
     contract_governance: 4.5
     contract_quality: 50.2
     developer_ergonomics: 66.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -235,13 +234,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/screenshots/shopup-2026-09-02T155307.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/shopup/shopup-2026-09-02T155307.png
 security:
 - kind: authentication
   name: Shopup Authentication
@@ -251,6 +251,10 @@ security:
   name: Shopup Domain Security
   slug: shopup-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Create and track a REDX parcel
+  slug: shopup-create-parcel
 slug: shopup
 tags:
 - Company

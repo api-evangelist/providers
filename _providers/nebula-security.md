@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nebula-security/refs/heads/main/security/nebula-security-domain-security.yml
+  href: https://artifacts.apis.io/nebula-security/security/nebula-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nebula-security-domain-security.yml
@@ -91,47 +93,47 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/125323912/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nebula-security/refs/heads/main/skills/nebula-security-vega-cli.md
+  href: https://artifacts.apis.io/nebula-security/skills/nebula-security-vega-cli.md
   title: ''
   type: AgentSkill
   url: skills/nebula-security-vega-cli.md
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nebula-security/refs/heads/main/cli/nebula-security-cli.yml
+  href: https://artifacts.apis.io/nebula-security/cli/nebula-security-cli.yml
   title: ''
   type: CLI
   url: cli/nebula-security-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nebula-security/refs/heads/main/packages/nebula-security-packages.yml
+  href: https://artifacts.apis.io/nebula-security/packages/nebula-security-packages.yml
   title: ''
   type: Packages
   url: packages/nebula-security-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nebula-security/refs/heads/main/authentication/nebula-security-authentication.yml
+  href: https://artifacts.apis.io/nebula-security/authentication/nebula-security-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nebula-security-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nebula-security/refs/heads/main/conventions/nebula-security-conventions.yml
+  href: https://artifacts.apis.io/nebula-security/conventions/nebula-security-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nebula-security-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nebula-security/refs/heads/main/errors/nebula-security-error-codes.yml
+  href: https://artifacts.apis.io/nebula-security/errors/nebula-security-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/nebula-security-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nebula-security/refs/heads/main/data-model/nebula-security-data-model.yml
+  href: https://artifacts.apis.io/nebula-security/data-model/nebula-security-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nebula-security-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nebula-security/refs/heads/main/well-known/nebula-security-well-known.yml
+  href: https://artifacts.apis.io/nebula-security/well-known/nebula-security-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nebula-security-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nebula-security/refs/heads/main/llms/nebula-security-llms.txt
+  href: https://artifacts.apis.io/nebula-security/llms/nebula-security-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nebula-security-llms.txt
@@ -147,12 +149,12 @@ overview: 'Nebula Security is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Nebula Security''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, CLI, authentication, and 15 more developer resources.'
-random_paper: 2
+random_paper: 4
 score:
   band: emerging
-  composite: 22.9
+  composite: 22.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -164,9 +166,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 22.9
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 22.6
   provenance:
     skills: first-party
   regulatory:
@@ -175,14 +177,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nebula-security/refs/heads/main/screenshots/nebula-security-2026-08-07T184807.png
+screenshot: https://apis.io/screenshots/nebula-security/nebula-security-2026-08-07T184807.png
 security:
 - kind: authentication
   name: Nebula Security Authentication
@@ -192,6 +194,10 @@ security:
   name: Nebula Security Domain Security
   slug: nebula-security-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: vega-cli
+  slug: nebula-security-vega-cli
 slug: nebula-security
 tags:
 - Company

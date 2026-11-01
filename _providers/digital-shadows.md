@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Digital Shadows SearchLight Portal API — the REST surface behind the SearchLight / GreyMatter DRP portal. Exposes incidents, intelligence incidents, intelligence threats, data breaches and breach '
@@ -43,7 +45,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/digital-shadows/refs/heads/main/security/digital-shadows-domain-security.yml
+  href: https://artifacts.apis.io/digital-shadows/security/digital-shadows-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/digital-shadows-domain-security.yml
@@ -72,62 +74,62 @@ common:
   type: StatusPage
   url: https://status.digitalshadows.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digital-shadows/refs/heads/main/lifecycle/digital-shadows-lifecycle.yml
+  href: https://artifacts.apis.io/digital-shadows/lifecycle/digital-shadows-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/digital-shadows-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/digital-shadows/refs/heads/main/packages/digital-shadows-packages.yml
+  href: https://artifacts.apis.io/digital-shadows/packages/digital-shadows-packages.yml
   title: ''
   type: Packages
   url: packages/digital-shadows-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/digital-shadows/refs/heads/main/packages/digital-shadows-packages.yml
+  href: https://artifacts.apis.io/digital-shadows/packages/digital-shadows-packages.yml
   title: ''
   type: SDKs
   url: packages/digital-shadows-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/digital-shadows/refs/heads/main/cli/digital-shadows-cli.yml
+  href: https://artifacts.apis.io/digital-shadows/cli/digital-shadows-cli.yml
   title: ''
   type: CLI
   url: cli/digital-shadows-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/digital-shadows/refs/heads/main/authentication/digital-shadows-authentication.yml
+  href: https://artifacts.apis.io/digital-shadows/authentication/digital-shadows-authentication.yml
   title: ''
   type: Authentication
   url: authentication/digital-shadows-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digital-shadows/refs/heads/main/conventions/digital-shadows-conventions.yml
+  href: https://artifacts.apis.io/digital-shadows/conventions/digital-shadows-conventions.yml
   title: ''
   type: Conventions
   url: conventions/digital-shadows-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digital-shadows/refs/heads/main/errors/digital-shadows-problem-types.yml
+  href: https://artifacts.apis.io/digital-shadows/errors/digital-shadows-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/digital-shadows-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digital-shadows/refs/heads/main/data-model/digital-shadows-data-model.yml
+  href: https://artifacts.apis.io/digital-shadows/data-model/digital-shadows-data-model.yml
   title: ''
   type: DataModel
   url: data-model/digital-shadows-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digital-shadows/refs/heads/main/conformance/digital-shadows-conformance.yml
+  href: https://artifacts.apis.io/digital-shadows/conformance/digital-shadows-conformance.yml
   title: ''
   type: Conformance
   url: conformance/digital-shadows-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/digital-shadows/refs/heads/main/llms/digital-shadows-llms.txt
+  href: https://artifacts.apis.io/digital-shadows/llms/digital-shadows-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/digital-shadows-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/digital-shadows/refs/heads/main/plans/digital-shadows-plans-pricing.yml
+  href: https://artifacts.apis.io/digital-shadows/plans/digital-shadows-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/digital-shadows-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/digital-shadows/refs/heads/main/rate-limits/digital-shadows-rate-limits.yml
+  href: https://artifacts.apis.io/digital-shadows/rate-limits/digital-shadows-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/digital-shadows-rate-limits.yml
@@ -151,14 +153,14 @@ plans:
 - name: Digital Shadows Plans Pricing
   plan_count: 0
   slug: digital-shadows-plans-pricing
-random_paper: 0
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Digital Shadows Rate Limits
   slug: digital-shadows-rate-limits
 score:
   band: emerging
-  composite: 20.1
+  composite: 20.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -166,15 +168,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 38.1
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 20.0
+    operational_transparency: 21.1
+  previous_composite: 20.4
   provenance:
     conformance: derived
   regulatory:
@@ -183,14 +185,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/digital-shadows/refs/heads/main/screenshots/digital-shadows-2026-09-02T145238.png
+screenshot: https://apis.io/screenshots/digital-shadows/digital-shadows-2026-09-02T145238.png
 security:
 - kind: authentication
   name: Digital Shadows Authentication
@@ -207,7 +209,7 @@ tags:
 - Threat Intelligence
 - Digital Risk Protection
 - Dark Web Monitoring
-- Data Breach
+- Data Breaches
 - Brand Protection
 - Security Operations
 - Vulnerability Intelligence

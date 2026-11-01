@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,13 +25,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for the Solsten assessment and persona platform. Documented operations cover listing users who completed an assessment (paged, 500 per page, one-hour cache), checking a single user's assessme
   name: Solsten API
   slug: solsten-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: 12Traits Webhooks
@@ -76,77 +78,77 @@ common:
   type: PrivacyPolicy
   url: https://solsten.io/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/llms/12traits-llms.txt
+  href: https://artifacts.apis.io/12traits/llms/12traits-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/12traits-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/authentication/12traits-authentication.yml
+  href: https://artifacts.apis.io/12traits/authentication/12traits-authentication.yml
   title: ''
   type: Authentication
   url: authentication/12traits-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/conventions/12traits-conventions.yml
+  href: https://artifacts.apis.io/12traits/conventions/12traits-conventions.yml
   title: ''
   type: Conventions
   url: conventions/12traits-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/errors/12traits-error-codes.yml
+  href: https://artifacts.apis.io/12traits/errors/12traits-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/12traits-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/data-model/12traits-data-model.yml
+  href: https://artifacts.apis.io/12traits/data-model/12traits-data-model.yml
   title: ''
   type: DataModel
   url: data-model/12traits-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/rate-limits/12traits-rate-limits.yml
+  href: https://artifacts.apis.io/12traits/rate-limits/12traits-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/12traits-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/plans/12traits-plans-pricing.yml
+  href: https://artifacts.apis.io/12traits/plans/12traits-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/12traits-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/lifecycle/12traits-lifecycle.yml
+  href: https://artifacts.apis.io/12traits/lifecycle/12traits-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/12traits-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/asyncapi/12traits-webhooks.yml
+  href: https://artifacts.apis.io/12traits/asyncapi/12traits-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/12traits-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/conformance/12traits-conformance.yml
+  href: https://artifacts.apis.io/12traits/conformance/12traits-conformance.yml
   title: ''
   type: Conformance
   url: conformance/12traits-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/conformance/12traits-conformance.yml
+  href: https://artifacts.apis.io/12traits/conformance/12traits-conformance.yml
   title: ''
   type: Compliance
   url: conformance/12traits-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/packages/12traits-packages.yml
+  href: https://artifacts.apis.io/12traits/packages/12traits-packages.yml
   title: ''
   type: Packages
   url: packages/12traits-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/security/12traits-domain-security.yml
+  href: https://artifacts.apis.io/12traits/security/12traits-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/12traits-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/security/12traits-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/12traits/security/12traits-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/12traits-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/security/12traits-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/12traits/security/12traits-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/12traits-vulnerability-disclosure.yml
@@ -156,6 +158,14 @@ common:
   url: https://solsten.io/llms.txt
 created: '2026-09-05'
 description: Solsten (originally 12traits) is a Berlin- and Minneapolis-based psychological-AI company that builds audience intelligence for product, marketing and research teams, pairing validated psychographic measurement with behavioural telemetry to model how real people think, decide and engage. Its product suite spans Traits (assessment-driven psychographic personas for a company's real customers), Navigator (a library of 200,000+ pre-profiled audiences drawn from 2M+ questionnaire respondents) and Elaris (audience-aware generative content). The public developer surface is a small REST API at api.solsten.io covering assessment completion, per-user assessment status, segment/persona user lists and GDPR-style user-data deletion, plus a documented Microsoft Azure PlayFab webhook and a cloud-object-storage bulk ingestion contract for behavioural events and KPIs.
+finops:
+- has_sources: true
+  method: derived
+  name: 12Traits Finops
+  primary_unit: ''
+  service_category: ''
+  slug: 12traits-finops
+  template: true
 image: https://solsten.io/api/images/?path=2023/08/Solsten_avatar.png
 layout: provider
 modified: '2026-09-05'
@@ -173,29 +183,29 @@ plans:
 - name: 12Traits Plans Pricing
   plan_count: 0
   slug: 12traits-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: 12Traits Rate Limits
   slug: 12traits-rate-limits
 score:
   band: developing
-  composite: 40.8
+  composite: 42.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 45.2
     discoverability: 73.2
-    operational_transparency: 21.1
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -203,7 +213,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 40.7
+  previous_composite: 42.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -217,14 +227,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/screenshots/12traits-2026-10-11T092004.png
+screenshot: https://apis.io/screenshots/12traits/12traits-2026-10-11T092004.png
 security:
 - kind: authentication
   name: 12Traits Authentication

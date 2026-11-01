@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,22 +36,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moss/refs/heads/main/skills/moss-mcp-integration.md
+  href: https://artifacts.apis.io/moss/skills/moss-mcp-integration.md
   title: ''
   type: AgentSkill
   url: skills/moss-mcp-integration.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moss/refs/heads/main/mcp/moss-mcp.yml
+  href: https://artifacts.apis.io/moss/mcp/moss-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/moss-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moss/refs/heads/main/a2a/moss-a2a.yml
+  href: https://artifacts.apis.io/moss/a2a/moss-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/moss-a2a.yml
@@ -65,10 +67,10 @@ name: Moss
 nav: Providers
 network: true
 overview: Moss is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and A2A.
-random_paper: 10
+random_paper: 18
 score:
   band: minimal
-  composite: 4.8
+  composite: 4.2
   coverage:
     artifact_dirs: 17
     catalog_earned: 15.0
@@ -82,15 +84,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 35.0
+    discoverability: 28.3
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
-  previous_composite: 4.8
+  previous_composite: 4.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -105,8 +101,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

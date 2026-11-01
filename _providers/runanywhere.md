@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.7
-  scored_at: '2026-10-17'
+  score: 6.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Hosted control plane the RunAnywhere SDKs talk to for model delivery, extraction, versioning, and configuration. Authenticated with an API key supplied at SDK initialization. No public OpenAPI is publ
@@ -41,7 +43,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runanywhere/refs/heads/main/security/runanywhere-domain-security.yml
+  href: https://artifacts.apis.io/runanywhere/security/runanywhere-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/runanywhere-domain-security.yml
@@ -78,22 +80,22 @@ common:
   type: Support
   url: mailto:san@runanywhere.ai
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/runanywhere/refs/heads/main/packages/runanywhere-packages.yml
+  href: https://artifacts.apis.io/runanywhere/packages/runanywhere-packages.yml
   title: ''
   type: Packages
   url: packages/runanywhere-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/runanywhere/refs/heads/main/packages/runanywhere-packages.yml
+  href: https://artifacts.apis.io/runanywhere/packages/runanywhere-packages.yml
   title: ''
   type: SDKs
   url: packages/runanywhere-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/runanywhere/refs/heads/main/cli/runanywhere-cli.yml
+  href: https://artifacts.apis.io/runanywhere/cli/runanywhere-cli.yml
   title: ''
   type: CLI
   url: cli/runanywhere-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runanywhere/refs/heads/main/llms/runanywhere-llms.txt
+  href: https://artifacts.apis.io/runanywhere/llms/runanywhere-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/runanywhere-llms.txt
@@ -113,26 +115,26 @@ overview: 'RunAnywhere is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   RunAnywhere''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, and 8 more developer resources.'
-random_paper: 20
+random_paper: 8
 score:
   band: emerging
-  composite: 21.4
+  composite: 22.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 21.3
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 22.2
   provenance:
     mcp: first-party
   regulatory:
@@ -141,14 +143,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/runanywhere/refs/heads/main/screenshots/runanywhere-2026-09-02T154240.png
+screenshot: https://apis.io/screenshots/runanywhere/runanywhere-2026-09-02T154240.png
 security:
 - kind: domain-security
   name: Runanywhere Domain Security

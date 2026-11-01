@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The JSON API behind the Arbital Health adjudication platform at platform.arbitalhealth.com. Observed live and returning JSON, but every resource path answers 401 {"error":"Unauthorized"} to an anonymo
@@ -76,7 +78,7 @@ common:
   type: Twitter
   url: https://twitter.com/arbitalhealth
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arbital-health/refs/heads/main/security/arbital-health-trust-center.yml
+  href: https://artifacts.apis.io/arbital-health/security/arbital-health-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/arbital-health-trust-center.yml
@@ -89,37 +91,37 @@ common:
   type: Security
   url: https://security.arbitalhealth.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arbital-health/refs/heads/main/security/arbital-health-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/arbital-health/security/arbital-health-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/arbital-health-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arbital-health/refs/heads/main/security/arbital-health-domain-security.yml
+  href: https://artifacts.apis.io/arbital-health/security/arbital-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arbital-health-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arbital-health/refs/heads/main/well-known/arbital-health-well-known.yml
+  href: https://artifacts.apis.io/arbital-health/well-known/arbital-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/arbital-health-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arbital-health/refs/heads/main/authentication/arbital-health-authentication.yml
+  href: https://artifacts.apis.io/arbital-health/authentication/arbital-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/arbital-health-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arbital-health/refs/heads/main/scopes/arbital-health-scopes.yml
+  href: https://artifacts.apis.io/arbital-health/scopes/arbital-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/arbital-health-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arbital-health/refs/heads/main/conformance/arbital-health-conformance.yml
+  href: https://artifacts.apis.io/arbital-health/conformance/arbital-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/arbital-health-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arbital-health/refs/heads/main/llms/arbital-health-llms.txt
+  href: https://artifacts.apis.io/arbital-health/llms/arbital-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/arbital-health-llms.txt
@@ -151,7 +153,7 @@ overview: 'Arbital Health is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   Arbital Health''s developer surface includes engineering blog, authentication, and 16 more developer resources.'
-random_paper: 2
+random_paper: 18
 scopes:
 - name: Arbital Health Scopes
   scope_count: 3
@@ -159,7 +161,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.1
+  composite: 24.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -169,13 +171,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
     discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 23.1
+  previous_composite: 24.5
   provenance:
     conformance: first-party
   regulatory:
@@ -184,14 +186,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/arbital-health/refs/heads/main/screenshots/arbital-health-2026-08-07T161614.png
+screenshot: https://apis.io/screenshots/arbital-health/arbital-health-2026-08-07T161614.png
 security:
 - kind: authentication
   name: Arbital Health Authentication

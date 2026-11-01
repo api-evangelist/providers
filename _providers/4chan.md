@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 19.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,11 +75,8 @@ apis:
   description: Single-thread document containing the OP and every reply.
   name: 4chan Threads API
   slug: 4chan-threads-api
-artifact_total: 58
+artifact_total: 57
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 4chan Read-Only JSON API
   slug: open-4chan-api
@@ -105,17 +104,17 @@ common:
   type: IssueTracker
   url: https://github.com/4chan/4chan-JS/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/agentic-access/4chan-agentic-access.yml
+  href: https://artifacts.apis.io/4chan/agentic-access/4chan-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/4chan-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/security/4chan-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/4chan/security/4chan-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/4chan-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/security/4chan-domain-security.yml
+  href: https://artifacts.apis.io/4chan/security/4chan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/4chan-domain-security.yml
@@ -176,27 +175,27 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/plans/4chan-plans-pricing.yml
+  href: https://artifacts.apis.io/4chan/plans/4chan-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/4chan-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/rate-limits/4chan-rate-limits.yml
+  href: https://artifacts.apis.io/4chan/rate-limits/4chan-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/4chan-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/vocabulary/4chan-vocabulary.yml
+  href: https://artifacts.apis.io/4chan/vocabulary/4chan-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/4chan-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/rules/4chan-rules.yml
+  href: https://artifacts.apis.io/4chan/rules/4chan-rules.yml
   title: ''
   type: SpectralRules
   url: rules/4chan-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/json-ld/4chan-context.jsonld
+  href: https://artifacts.apis.io/4chan/json-ld/4chan-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/4chan-context.jsonld
@@ -335,7 +334,7 @@ plans:
 - name: 4Chan Plans Pricing
   plan_count: 2
   slug: 4chan-plans-pricing
-random_paper: 0
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: 4Chan Rate Limits
@@ -366,7 +365,7 @@ rules:
   slug: 4chan-rules
 score:
   band: thin
-  composite: 29.9
+  composite: 31.6
   coverage:
     artifact_dirs: 15
     catalog_earned: 65.0
@@ -374,15 +373,15 @@ score:
     catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 21.3
     developer_ergonomics: 31.0
     discoverability: 71.4
-    operational_transparency: 10.5
-  previous_composite: 35.3
+    operational_transparency: 23.7
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -396,14 +395,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/screenshots/4chan-2026-06-20T162723.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/4chan/4chan-2026-06-20T162723.png
 security:
 - kind: domain-security
   name: 4Chan Domain Security

@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-10-17'
+  score: 35.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,19 +52,19 @@ apis:
   description: Electra newsroom and in-the-news entries.
   name: Electra.aero News API
   slug: electra.aero-news-api
-artifact_total: 7
+artifact_total: 8
 collections:
 - collection_type: open
   name: Electra.aero Content API (news)
   slug: open-electra
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/electra.aero/refs/heads/main/overlays/electra.aero-content-overlay.yaml
+  href: https://artifacts.apis.io/electra.aero/overlays/electra.aero-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/electra.aero-content-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/electra.aero/refs/heads/main/agentic-access/electra.aero-agentic-access.yml
+  href: https://artifacts.apis.io/electra.aero/agentic-access/electra.aero-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/electra.aero-agentic-access.yml
@@ -95,52 +97,52 @@ common:
   type: Careers
   url: https://electra.aero/careers
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/electra.aero/refs/heads/main/authentication/electra.aero-authentication.yml
+  href: https://artifacts.apis.io/electra.aero/authentication/electra.aero-authentication.yml
   title: ''
   type: Authentication
   url: authentication/electra.aero-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/electra.aero/refs/heads/main/conventions/electra.aero-conventions.yml
+  href: https://artifacts.apis.io/electra.aero/conventions/electra.aero-conventions.yml
   title: ''
   type: Conventions
   url: conventions/electra.aero-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/electra.aero/refs/heads/main/conformance/electra.aero-conformance.yml
+  href: https://artifacts.apis.io/electra.aero/conformance/electra.aero-conformance.yml
   title: ''
   type: Conformance
   url: conformance/electra.aero-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/electra.aero/refs/heads/main/lifecycle/electra.aero-lifecycle.yml
+  href: https://artifacts.apis.io/electra.aero/lifecycle/electra.aero-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/electra.aero-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/electra.aero/refs/heads/main/packages/electra.aero-packages.yml
+  href: https://artifacts.apis.io/electra.aero/packages/electra.aero-packages.yml
   title: ''
   type: Packages
   url: packages/electra.aero-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/electra.aero/refs/heads/main/rate-limits/electra.aero-rate-limits.yml
+  href: https://artifacts.apis.io/electra.aero/rate-limits/electra.aero-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/electra.aero-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/electra.aero/refs/heads/main/plans/electra.aero-plans-pricing.yml
+  href: https://artifacts.apis.io/electra.aero/plans/electra.aero-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/electra.aero-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/electra.aero/refs/heads/main/llms/electra.aero-llms.txt
+  href: https://artifacts.apis.io/electra.aero/llms/electra.aero-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/electra.aero-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/electra.aero/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/electra.aero/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/electra.aero/refs/heads/main/security/electra.aero-domain-security.yml
+  href: https://artifacts.apis.io/electra.aero/security/electra.aero-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/electra.aero-domain-security.yml
@@ -161,14 +163,14 @@ plans:
 - name: Electra.Aero Plans Pricing
   plan_count: 0
   slug: electra.aero-plans-pricing
-random_paper: 17
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Electra.Aero Rate Limits
   slug: electra.aero-rate-limits
 score:
   band: emerging
-  composite: 25.1
+  composite: 24.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -176,13 +178,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 51.4
     developer_ergonomics: 20.8
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -191,7 +193,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 25.0
+  previous_composite: 24.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,14 +210,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/electra.aero/refs/heads/main/screenshots/electra.aero-2026-09-02T145333.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/electra.aero/electra.aero-2026-09-02T145333.png
 security:
 - kind: authentication
   name: Electra.Aero Authentication
@@ -225,6 +227,10 @@ security:
   name: Electra.Aero Domain Security
   slug: electra.aero-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: Read the Electra.aero newsroom
+  slug: electra.aero-read-newsroom
 slug: electra.aero
 tags:
 - Aerospace

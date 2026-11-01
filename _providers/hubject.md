@@ -1,10 +1,10 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: false
     consent_identity: false
@@ -12,51 +12,64 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
-api_count: 1
+  score: 15.8
+  scored_at: '2026-10-31'
+agentic_access:
+- acting_count: 47
+  human_in_the_loop: 14
+  name: Hubject Agentic Access
+  operation_count: 64
+  slug: hubject-agentic-access
+  summary_line: 64 operations · 47 acting · 14 human-in-the-loop
+api_count: 3
 apis:
 - description: Open InterCharge Protocol (OICP) API for eRoaming services
   name: OICP eRoaming API
   slug: oicp-eroaming-api
-artifact_total: 3
+artifact_total: 22
+asyncapis:
+- description: ''
+  name: Hubject Webhooks
+  slug: hubject-webhooks
 common:
 - group: start
   title: ''
   type: DeveloperPortal
   url: https://portal.hubject.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hubject/refs/heads/main/plans/hubject-plans-pricing.yml
+  href: https://artifacts.apis.io/hubject/plans/hubject-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hubject-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hubject/refs/heads/main/hosts/hubject-hosts.yml
+  href: https://artifacts.apis.io/hubject/hosts/hubject-hosts.yml
   title: ''
   type: Hosts
   url: hosts/hubject-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hubject/refs/heads/main/vendors/hubject-vendors.yml
+  href: https://artifacts.apis.io/hubject/vendors/hubject-vendors.yml
   title: ''
   type: Vendors
   url: vendors/hubject-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hubject/refs/heads/main/packages/hubject-packages.yml
+  href: https://artifacts.apis.io/hubject/packages/hubject-packages.yml
   title: ''
   type: SDKs
   url: packages/hubject-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hubject/refs/heads/main/packages/hubject-packages.yml
+  href: https://artifacts.apis.io/hubject/packages/hubject-packages.yml
   title: ''
   type: Packages
   url: packages/hubject-packages.yml
@@ -65,7 +78,7 @@ common:
   type: Newsroom
   url: https://www.hubject.com/company/newsroom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hubject/refs/heads/main/security/hubject-domain-security.yml
+  href: https://artifacts.apis.io/hubject/security/hubject-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hubject-domain-security.yml
@@ -113,12 +126,60 @@ coverage:
 created: '2026-10-14'
 description: Hubject provides the world’s largest international eRoaming network for electric vehicle charging, connecting charge point operators, eMobility service providers and vehicle manufacturers across borders. Their intercharge platform enables seamless access to charging infrastructure, supporting plug‑and‑charge, settlement, analytics and certification services for a global EV ecosystem.
 image: https://cdn.prod.website-files.com/602cf2b08109ccbc93d7f9ed/605b6eb0adff115b326d5c57_OpenGraph%20Hubject%20Image.png
+json_schemas:
+- name: eRoamingAuthorizationStart
+  property_count: 7
+  slug: hubject-e-roaming-authorization-start
+- name: eRoamingChargeDetailRecord
+  property_count: 18
+  slug: hubject-e-roaming-charge-detail-record
+- name: eRoamingChargeDetailRecords
+  property_count: 11
+  slug: hubject-e-roaming-charge-detail-records
+- name: eRoamingChargingNotificationEnd
+  property_count: 17
+  slug: hubject-e-roaming-charging-notification-end
+- name: eRoamingChargingNotificationError
+  property_count: 9
+  slug: hubject-e-roaming-charging-notification-error
+- name: eRoamingChargingNotificationProgress
+  property_count: 15
+  slug: hubject-e-roaming-charging-notification-progress
+- name: eRoamingPullEVSEData
+  property_count: 12
+  slug: hubject-e-roaming-pull-evsedata
+- name: eRoamingPushEvseData
+  property_count: 2
+  slug: hubject-e-roaming-push-evse-data
+- name: GetSignedContractDataRequest
+  property_count: 3
+  slug: hubject-get-signed-contract-data-request
+- name: GetSignedContractDataResponse
+  property_count: 1
+  slug: hubject-get-signed-contract-data-response
+- name: LookupContractResponse
+  property_count: 1
+  slug: hubject-lookup-contract-response
+- name: ProvideSignedContractDataResponse
+  property_count: 3
+  slug: hubject-provide-contract-data-response
+- name: SignedContractData
+  property_count: 6
+  slug: hubject-signed-contract-data-request
+jsonld:
+- class_count: 85
+  name: Hubject Context
+  property_count: 205
+  slug: hubject-context
 layout: provider
 modified: '2026-10-14'
 name: Hubject
 nav: Providers
 network: true
-overview: 'Hubject is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Mobility, EVCharging, and Interoperability.
+overview: 'Hubject publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Mobility, EV Charging, and Interoperability.
+
+
+  The Hubject catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
   Hubject''s developer surface includes support, engineering blog, pricing, and 12 more developer resources.'
@@ -126,39 +187,71 @@ plans:
 - name: Hubject Plans Pricing
   plan_count: 5
   slug: hubject-plans-pricing
-random_paper: 15
+random_paper: 21
+rules:
+- authorship: generated
+  effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Hubject API Rules
+  rule_count: 9
+  severity_counts:
+    error: 4
+    hint: 0
+    info: 4
+    warn: 1
+  slug: hubject-rules
+scopes:
+- name: Hubject Scopes
+  scope_count: 0
+  slug: hubject-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 23.8
+  band: developing
+  composite: 43.6
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 44.0
+    artifact_dirs: 22
+    catalog_earned: 62.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 71.0
+    catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 18.2
   facets:
     access_clarity: 63.2
-    contract_governance: 0.0
-    contract_quality: 0.0
+    contract_governance: 18.2
+    contract_quality: 57.7
     developer_ergonomics: 23.8
-    discoverability: 58.9
+    discoverability: 64.3
     operational_transparency: 5.3
+  previous_composite: 25.4
   provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 36.8
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
     mcp: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 29.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
 security:
+- kind: authentication
+  name: Hubject Authentication
+  slug: hubject-authentication
+  summary_line: oauth2 · 1 scheme
 - kind: domain-security
   name: Hubject Domain Security
   slug: hubject-domain-security
@@ -167,7 +260,7 @@ slug: hubject
 tags:
 - Company
 - E-Mobility
-- EVCharging
+- EV Charging
 - Interoperability
 website: https://www.hubject.com
 ---

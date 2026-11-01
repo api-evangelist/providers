@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 0
 common:
@@ -53,10 +55,10 @@ name: Cambridge Cancer Genomics
 nav: Providers
 network: true
 overview: Cambridge Cancer Genomics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Biology, Precision Oncology, Genomics, and Machine Learning.
-random_paper: 3
+random_paper: 17
 score:
   band: minimal
-  composite: 3.3
+  composite: 3.7
   coverage:
     artifact_dirs: 2
     catalog_earned: 27.0
@@ -71,28 +73,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 48.2
-    operational_transparency: 2.6
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
-  previous_composite: 3.3
+    operational_transparency: 5.3
+  previous_composite: 3.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cambridge-cancer-genomics/refs/heads/main/screenshots/cambridge-cancer-genomics-2026-07-25T204259.png
+screenshot: https://apis.io/screenshots/cambridge-cancer-genomics/cambridge-cancer-genomics-2026-07-25T204259.png
 slug: cambridge-cancer-genomics
 tags:
 - Company

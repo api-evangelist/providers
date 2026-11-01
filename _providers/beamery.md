@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -69,27 +71,27 @@ common:
   type: TrustCenter
   url: https://trust.beamery.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beamery/refs/heads/main/security/beamery-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/beamery/security/beamery-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/beamery-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beamery/refs/heads/main/security/beamery-trust-center.yml
+  href: https://artifacts.apis.io/beamery/security/beamery-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/beamery-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beamery/refs/heads/main/conformance/beamery-conformance.yml
+  href: https://artifacts.apis.io/beamery/conformance/beamery-conformance.yml
   title: ''
   type: Conformance
   url: conformance/beamery-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beamery/refs/heads/main/security/beamery-domain-security.yml
+  href: https://artifacts.apis.io/beamery/security/beamery-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beamery-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beamery/refs/heads/main/llms/beamery-llms.txt
+  href: https://artifacts.apis.io/beamery/llms/beamery-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beamery-llms.txt
@@ -105,10 +107,10 @@ overview: 'Beamery is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Beamery''s developer surface includes support, engineering blog, and 11 more developer resources.'
-random_paper: 15
+random_paper: 21
 score:
   band: emerging
-  composite: 19.1
+  composite: 18.4
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -122,9 +124,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 19.1
+  previous_composite: 18.4
   provenance:
     conformance: first-party
   regulatory:
@@ -139,14 +141,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/beamery/refs/heads/main/screenshots/beamery-2026-07-25T202542.png
+screenshot: https://apis.io/screenshots/beamery/beamery-2026-07-25T202542.png
 security:
 - kind: domain-security
   name: Beamery Domain Security

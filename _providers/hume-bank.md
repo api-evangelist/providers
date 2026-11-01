@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,11 +80,8 @@ apis:
   description: Banking Product endpoints
   name: Hume Bank Banking Products API
   slug: hume-bank-banking-products-api
-artifact_total: 19
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-hume-bank-banking-account-balances-api
@@ -106,72 +105,72 @@ collections:
   slug: open-hume-bank-banking-products-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/plans/hume-bank-plans-pricing.yml
+  href: https://artifacts.apis.io/hume-bank/plans/hume-bank-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hume-bank-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/capabilities/hume-bank-capability-edges.yml
+  href: https://artifacts.apis.io/hume-bank/capabilities/hume-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hume-bank-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/agentic-access/hume-bank-agentic-access.yml
+  href: https://artifacts.apis.io/hume-bank/agentic-access/hume-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hume-bank-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/security/hume-bank-domain-security.yml
+  href: https://artifacts.apis.io/hume-bank/security/hume-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hume-bank-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/authentication/hume-bank-authentication.yml
+  href: https://artifacts.apis.io/hume-bank/authentication/hume-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hume-bank-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/conventions/hume-bank-conventions.yml
+  href: https://artifacts.apis.io/hume-bank/conventions/hume-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hume-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/conformance/hume-bank-conformance.yml
+  href: https://artifacts.apis.io/hume-bank/conformance/hume-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hume-bank-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/errors/hume-bank-problem-types.yml
+  href: https://artifacts.apis.io/hume-bank/errors/hume-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hume-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/data-model/hume-bank-data-model.yml
+  href: https://artifacts.apis.io/hume-bank/data-model/hume-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hume-bank-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/lifecycle/hume-bank-lifecycle.yml
+  href: https://artifacts.apis.io/hume-bank/lifecycle/hume-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hume-bank-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/mcp/hume-bank-mcp.yml
+  href: https://artifacts.apis.io/hume-bank/mcp/hume-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hume-bank-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/llms/hume-bank-llms.txt
+  href: https://artifacts.apis.io/hume-bank/llms/hume-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hume-bank-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/overlays/hume-bank-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/hume-bank/overlays/hume-bank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hume-bank-cds-banking-products-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/skills/hume-bank-product-lookup.md
+  href: https://artifacts.apis.io/hume-bank/skills/hume-bank-product-lookup.md
   title: ''
   type: AgentSkill
   url: skills/hume-bank-product-lookup.md
@@ -217,6 +216,14 @@ common:
   url: https://www.linkedin.com/company/humebank
 created: '2026-07-20'
 description: Hume Bank is a customer-owned (mutual) Australian bank headquartered in Albury, New South Wales. Founded in 1955 as the Hume Co-operative Building & Investment Society, it became Hume Building Society and then Hume Bank on 1 July 2014, serving roughly 65,000 customers with around A$1.70 billion in assets. As an authorised deposit-taking institution (ADI) it participates in Australia's Consumer Data Right (CDR / Open Banking) regime, exposing a public, unauthenticated Product Reference Data (PRD) API built to the Consumer Data Standards for its retail and business deposit and credit card products, alongside the accredited-data-recipient consent flows required of a CDR data holder.
+finops:
+- has_sources: true
+  method: derived
+  name: Hume Bank Finops
+  primary_unit: interest rate p.a
+  service_category: ''
+  slug: hume-bank-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hume-bank.png
 layout: provider
 modified: '2026-07-22'
@@ -231,24 +238,24 @@ plans:
 - name: Hume Bank Plans Pricing
   plan_count: 9
   slug: hume-bank-plans-pricing
-random_paper: 8
+random_paper: 0
 score:
   band: developing
-  composite: 41.1
+  composite: 44.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 49.0
+    artifact_dirs: 20
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 44.7
     developer_ergonomics: 44.6
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -257,7 +264,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 41.1
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -274,13 +281,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/screenshots/hume-bank-2026-07-21T114727.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hume-bank/hume-bank-2026-07-21T114727.png
 security:
 - kind: authentication
   name: Hume Bank Authentication
@@ -290,6 +298,10 @@ security:
   name: Hume Bank Domain Security
   slug: hume-bank-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Hume Bank product lookup
+  slug: hume-bank-product-lookup
 slug: hume-bank
 tags:
 - Finance

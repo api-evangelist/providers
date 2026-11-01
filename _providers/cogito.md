@@ -19,7 +19,7 @@ name: Cogito
 nav: Providers
 network: true
 overview: Cogito is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Contact Center, Conversation Intelligence, Emotion AI, and Customer Experience.
-random_paper: 7
+random_paper: 21
 slug: cogito
 tags:
 - Company

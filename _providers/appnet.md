@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The App.net Stream API — a RESTful, OAuth 2.0-secured social API covering posts, users, follows, channels/messages, files, filters, and a real-time streaming surface. Responses use a uniform {data, me
@@ -58,52 +60,52 @@ common:
   type: TermsOfService
   url: https://github.com/appdotnet/terms-of-service
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/authentication/appnet-authentication.yml
+  href: https://artifacts.apis.io/appnet/authentication/appnet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/appnet-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/scopes/appnet-scopes.yml
+  href: https://artifacts.apis.io/appnet/scopes/appnet-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/appnet-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/packages/appnet-packages.yml
+  href: https://artifacts.apis.io/appnet/packages/appnet-packages.yml
   title: ''
   type: Packages
   url: packages/appnet-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/packages/appnet-packages.yml
+  href: https://artifacts.apis.io/appnet/packages/appnet-packages.yml
   title: ''
   type: SDKs
   url: packages/appnet-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/conventions/appnet-conventions.yml
+  href: https://artifacts.apis.io/appnet/conventions/appnet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/appnet-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/errors/appnet-problem-types.yml
+  href: https://artifacts.apis.io/appnet/errors/appnet-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/appnet-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/conformance/appnet-conformance.yml
+  href: https://artifacts.apis.io/appnet/conformance/appnet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/appnet-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/lifecycle/appnet-lifecycle.yml
+  href: https://artifacts.apis.io/appnet/lifecycle/appnet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/appnet-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/rate-limits/appnet-rate-limits.yml
+  href: https://artifacts.apis.io/appnet/rate-limits/appnet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/appnet-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/llms/appnet-llms.txt
+  href: https://artifacts.apis.io/appnet/llms/appnet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/appnet-llms.txt
@@ -119,7 +121,7 @@ overview: 'App.net is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   App.net''s developer surface includes documentation, authentication, and 12 more developer resources.'
-random_paper: 10
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Appnet Rate Limits
@@ -133,7 +135,7 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -157,14 +159,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/screenshots/appnet-2026-07-25T200825.png
+screenshot: https://apis.io/screenshots/appnet/appnet-2026-07-25T200825.png
 security:
 - kind: authentication
   name: Appnet Authentication

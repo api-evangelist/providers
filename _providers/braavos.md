@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/braavos/refs/heads/main/security/braavos-domain-security.yml
+  href: https://artifacts.apis.io/braavos/security/braavos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/braavos-domain-security.yml
@@ -62,17 +64,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/myBraavos
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/braavos/refs/heads/main/packages/braavos-packages.yml
+  href: https://artifacts.apis.io/braavos/packages/braavos-packages.yml
   title: ''
   type: Packages
   url: packages/braavos-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/braavos/refs/heads/main/packages/braavos-packages.yml
+  href: https://artifacts.apis.io/braavos/packages/braavos-packages.yml
   title: ''
   type: SDKs
   url: packages/braavos-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/braavos/refs/heads/main/security/braavos-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/braavos/security/braavos-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/braavos-vulnerability-disclosure.yml
@@ -81,7 +83,7 @@ common:
   type: Security
   url: https://braavos.app/braavos-wallet-bug-bounty-program/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/braavos/refs/heads/main/llms/braavos-llms.txt
+  href: https://artifacts.apis.io/braavos/llms/braavos-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/braavos-llms.txt
@@ -97,12 +99,12 @@ overview: 'Braavos is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Braavos'' developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 2
+random_paper: 6
 score:
   band: minimal
-  composite: 8.8
+  composite: 8.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -114,23 +116,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 55.4
-    operational_transparency: 13.2
-  previous_composite: 8.8
+    discoverability: 48.2
+    operational_transparency: 15.8
+  previous_composite: 8.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/braavos/refs/heads/main/screenshots/braavos-2026-07-25T203656.png
+screenshot: https://apis.io/screenshots/braavos/braavos-2026-07-25T203656.png
 security:
 - kind: domain-security
   name: Braavos Domain Security

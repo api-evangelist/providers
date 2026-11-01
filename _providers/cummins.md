@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: BlogRSS
   url: https://www.cummins.com/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cummins/refs/heads/main/security/cummins-domain-security.yml
+  href: https://artifacts.apis.io/cummins/security/cummins-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cummins-domain-security.yml
@@ -113,10 +115,10 @@ press:
 - date: ''
   title: Cummins CEO Explains How to Manage the AI Boom
   url: https://www.barrons.com/articles/cummins-stock-ai-boom-ceo-a6532eff
-random_paper: 16
+random_paper: 20
 score:
   band: minimal
-  composite: 4.0
+  composite: 4.4
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -130,23 +132,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 49.1
-    operational_transparency: 2.6
-  previous_composite: 4.0
+    discoverability: 50.0
+    operational_transparency: 5.3
+  previous_composite: 4.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cummins/refs/heads/main/screenshots/cummins-2026-06-20T175336.png
+screenshot: https://apis.io/screenshots/cummins/cummins-2026-06-20T175336.png
 security:
 - kind: domain-security
   name: Cummins Domain Security

@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 2.9
-  scored_at: '2026-10-17'
+  score: 6.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Vehicle computing API documented at the developer portal.
@@ -32,12 +34,12 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autolink/refs/heads/main/well-known/autolink-well-known.yml
+  href: https://artifacts.apis.io/autolink/well-known/autolink-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/autolink-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autolink/refs/heads/main/hosts/autolink-hosts.yml
+  href: https://artifacts.apis.io/autolink/hosts/autolink-hosts.yml
   title: ''
   type: Hosts
   url: hosts/autolink-hosts.yml
@@ -50,7 +52,7 @@ common:
   type: Newsroom
   url: https://en.auto-link.com.cn/news/details_539_2712.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autolink/refs/heads/main/security/autolink-domain-security.yml
+  href: https://artifacts.apis.io/autolink/security/autolink-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autolink-domain-security.yml
@@ -81,7 +83,7 @@ overview: 'Autolink is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Autolink''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 13
+random_paper: 7
 score:
   band: minimal
   composite: 8.7
@@ -109,14 +111,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/autolink/refs/heads/main/screenshots/autolink-2026-10-11T100935.png
+screenshot: https://apis.io/screenshots/autolink/autolink-2026-10-11T100935.png
 security:
 - kind: domain-security
   name: Autolink Domain Security

@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,21 +20,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.5
-  scored_at: '2026-10-17'
+  score: 37.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +44,7 @@ agentic_access:
   operation_count: 31
   slug: defillama-agentic-access
   summary_line: 31 operations
-api_count: 2
+api_count: 1
 apis:
 - description: Free, no-auth REST API exposing 31+ endpoints for protocol TVL, chain TVL, coin prices, stablecoin metrics, yield pools, DEX volumes, and fees. Underpins thousands of dashboards and integrations.
   name: DefiLlama Public API
@@ -81,11 +82,8 @@ apis:
   description: The Yields API from DefiLlama — 2 operation(s) for yields.
   name: DefiLlama Yields API
   slug: defillama-yields-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: DefiLlama Public Coins API
   slug: open-defillama-coins-api
@@ -117,17 +115,17 @@ common:
   type: Website
   url: https://www.defillama.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/agentic-access/defillama-agentic-access.yml
+  href: https://artifacts.apis.io/defillama/agentic-access/defillama-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/defillama-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/security/defillama-domain-security.yml
+  href: https://artifacts.apis.io/defillama/security/defillama-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/defillama-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/authentication/defillama-authentication.yml
+  href: https://artifacts.apis.io/defillama/authentication/defillama-authentication.yml
   title: ''
   type: Authentication
   url: authentication/defillama-authentication.yml
@@ -152,17 +150,17 @@ common:
   type: GitHub
   url: https://github.com/DefiLlama
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/plans/defillama-plans-pricing.yml
+  href: https://artifacts.apis.io/defillama/plans/defillama-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/defillama-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/rate-limits/defillama-rate-limits.yml
+  href: https://artifacts.apis.io/defillama/rate-limits/defillama-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/defillama-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/finops/defillama-finops.yml
+  href: https://artifacts.apis.io/defillama/finops/defillama-finops.yml
   title: ''
   type: FinOps
   url: finops/defillama-finops.yml
@@ -194,14 +192,14 @@ plans:
 - name: Defillama Plans Pricing
   plan_count: 2
   slug: defillama-plans-pricing
-random_paper: 3
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Defillama Rate Limits
   slug: defillama-rate-limits
 score:
   band: thin
-  composite: 27.9
+  composite: 27.7
   coverage:
     artifact_dirs: 13
     catalog_earned: 41.0
@@ -209,15 +207,15 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 41.6
     developer_ergonomics: 33.3
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 29.0
+  previous_composite: 27.7
   provenance:
     agentic_access: derived
     contracts:
@@ -232,14 +230,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/screenshots/defillama-2026-06-20T175849.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/defillama/defillama-2026-06-20T175849.png
 security:
 - kind: authentication
   name: Defillama Authentication

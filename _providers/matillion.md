@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.1
-  scored_at: '2026-10-17'
+  score: 31.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -89,11 +91,8 @@ apis:
   description: Legacy Matillion ETL task monitoring and control.
   name: Matillion ETL Tasks API
   slug: matillion-etl-tasks-api
-artifact_total: 49
+artifact_total: 50
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Matillion DPC Agents API
   slug: open-matillion-dpc-agents-api
@@ -126,52 +125,52 @@ collections:
   slug: open-matillion
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/well-known/matillion-status-security.txt
+  href: https://artifacts.apis.io/matillion/well-known/matillion-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/matillion-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/well-known/matillion-well-known.yml
+  href: https://artifacts.apis.io/matillion/well-known/matillion-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/matillion-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/rules/matillion-rules.yml
+  href: https://artifacts.apis.io/matillion/rules/matillion-rules.yml
   title: ''
   type: Spectral
   url: rules/matillion-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/json-ld/matillion-context.jsonld
+  href: https://artifacts.apis.io/matillion/json-ld/matillion-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/matillion-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/vocabulary/matillion-vocabulary.yml
+  href: https://artifacts.apis.io/matillion/vocabulary/matillion-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/matillion-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/matillion/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/data-model/matillion-data-model.yml
+  href: https://artifacts.apis.io/matillion/data-model/matillion-data-model.yml
   title: ''
   type: DataModel
   url: data-model/matillion-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/conformance/matillion-conformance.yml
+  href: https://artifacts.apis.io/matillion/conformance/matillion-conformance.yml
   title: ''
   type: Conformance
   url: conformance/matillion-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/hosts/matillion-hosts.yml
+  href: https://artifacts.apis.io/matillion/hosts/matillion-hosts.yml
   title: ''
   type: Hosts
   url: hosts/matillion-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/vendors/matillion-vendors.yml
+  href: https://artifacts.apis.io/matillion/vendors/matillion-vendors.yml
   title: ''
   type: Vendors
   url: vendors/matillion-vendors.yml
@@ -216,22 +215,22 @@ common:
   type: GettingStarted
   url: https://docs.matillion.com/data-productivity-cloud/cdc/docs/cdc-getting-started/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/agentic-access/matillion-agentic-access.yml
+  href: https://artifacts.apis.io/matillion/agentic-access/matillion-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/matillion-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/security/matillion-domain-security.yml
+  href: https://artifacts.apis.io/matillion/security/matillion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/matillion-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/authentication/matillion-authentication.yml
+  href: https://artifacts.apis.io/matillion/authentication/matillion-authentication.yml
   title: ''
   type: Authentication
   url: authentication/matillion-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/scopes/matillion-scopes.yml
+  href: https://artifacts.apis.io/matillion/scopes/matillion-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/matillion-scopes.yml
@@ -248,17 +247,17 @@ common:
   type: Documentation
   url: https://docs.matillion.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/plans/matillion-plans-pricing.yml
+  href: https://artifacts.apis.io/matillion/plans/matillion-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/matillion-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/rate-limits/matillion-rate-limits.yml
+  href: https://artifacts.apis.io/matillion/rate-limits/matillion-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/matillion-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/finops/matillion-finops.yml
+  href: https://artifacts.apis.io/matillion/finops/matillion-finops.yml
   title: ''
   type: FinOps
   url: finops/matillion-finops.yml
@@ -278,12 +277,12 @@ created: '2026-07-01'
 description: Matillion is a data integration and transformation (ETL/ELT) company whose Data Productivity Cloud (DPC) lets teams build, orchestrate, and schedule data pipelines against cloud data warehouses. The DPC API is an OAuth2-secured REST control plane for projects, environments, pipeline executions, schedules, and Agents, while the legacy instance-hosted Matillion ETL API exposes groups, projects, versions, jobs, tasks, and schedules over HTTP Basic auth.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Matillion Finops
   primary_unit: ''
-  service_category: Analytics and Data Integration
+  service_category: ''
   slug: matillion-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/matillion.png
 json_schemas:
 - name: AgentCreate
@@ -365,9 +364,9 @@ overview: 'Matillion publishes 9 API contracts indexed on the [APIs.io](https://
   Matillion''s developer surface includes support, pricing, changelog, getting-started guide, authentication, documentation, engineering blog, and 24 more developer resources.'
 plans:
 - name: Matillion Plans Pricing
-  plan_count: 5
+  plan_count: 3
   slug: matillion-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Matillion Rate Limits
@@ -392,23 +391,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 47.6
+  composite: 53.4
   coverage:
     artifact_dirs: 25
-    catalog_earned: 68.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 47.0
+    catalog_earned: 77.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 38.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -15.3
+  delta: -0.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 60.5
     contract_governance: 19.7
     contract_quality: 53.0
     developer_ergonomics: 42.3
     discoverability: 69.6
-    operational_transparency: 52.6
-  previous_composite: 62.9
+    operational_transparency: 55.3
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -425,13 +424,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/screenshots/matillion-2026-07-25T230414.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/matillion/matillion-2026-07-25T230414.png
 security:
 - kind: authentication
   name: Matillion Authentication
@@ -441,6 +441,12 @@ security:
   name: Matillion Domain Security
   slug: matillion-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: matillion-launch-pipeline-execution
+  slug: matillion-launch-pipeline-execution
+- name: matillion-run-etl-job
+  slug: matillion-run-etl-job
 slug: matillion
 tags:
 - Data Integration

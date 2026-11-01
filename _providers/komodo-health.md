@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,21 +35,50 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Marmot Development Kit is Komodo Health's developer surface — a Python SDK and `komodo` CLI published to PyPI that handle OAuth 2.0 authentication, account selection, service-principal credentials
   name: Komodo Health Marmot Development Kit
   slug: komodo-health-marmot-development-kit
-artifact_total: 8
+artifact_total: 15
 common:
+- group: operate
+  href: https://artifacts.apis.io/komodo-health/lifecycle/komodo-health-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/komodo-health-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/komodo-health/errors/komodo-health-error-codes.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/komodo-health-error-codes.yml
+- group: other
+  href: https://artifacts.apis.io/komodo-health/hosts/komodo-health-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/komodo-health-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/komodo-health/integrations/komodo-health-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/komodo-health-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/komodo-health/vendors/komodo-health-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/komodo-health-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.komodohealth.com/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/security/komodo-health-trust-center.yml
+  href: https://artifacts.apis.io/komodo-health/security/komodo-health-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/komodo-health-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/security/komodo-health-domain-security.yml
+  href: https://artifacts.apis.io/komodo-health/security/komodo-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/komodo-health-domain-security.yml
@@ -108,85 +139,96 @@ common:
   type: Compliance
   url: https://trust.komodohealth.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/packages/komodo-health-packages.yml
+  href: https://artifacts.apis.io/komodo-health/packages/komodo-health-packages.yml
   title: ''
   type: Packages
   url: packages/komodo-health-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/packages/komodo-health-packages.yml
+  href: https://artifacts.apis.io/komodo-health/packages/komodo-health-packages.yml
   title: ''
   type: SDKs
   url: packages/komodo-health-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/cli/komodo-health-cli.yml
+  href: https://artifacts.apis.io/komodo-health/cli/komodo-health-cli.yml
   title: ''
   type: CLI
   url: cli/komodo-health-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/mcp/komodo-health-mcp.yml
+  href: https://artifacts.apis.io/komodo-health/mcp/komodo-health-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/komodo-health-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/llms/komodo-health-llms.txt
+  href: https://artifacts.apis.io/komodo-health/llms/komodo-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/komodo-health-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/well-known/komodo-health-well-known.yml
+  href: https://artifacts.apis.io/komodo-health/well-known/komodo-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/komodo-health-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/authentication/komodo-health-authentication.yml
+  href: https://artifacts.apis.io/komodo-health/authentication/komodo-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/komodo-health-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/scopes/komodo-health-scopes.yml
+  href: https://artifacts.apis.io/komodo-health/scopes/komodo-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/komodo-health-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/well-known/komodo-health-openid-configuration.json
+  href: https://artifacts.apis.io/komodo-health/well-known/komodo-health-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/komodo-health-openid-configuration.json
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/rate-limits/komodo-health-rate-limits.yml
+  href: https://artifacts.apis.io/komodo-health/rate-limits/komodo-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/komodo-health-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/plans/komodo-health-plans-pricing.yml
+  href: https://artifacts.apis.io/komodo-health/plans/komodo-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/komodo-health-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/conventions/komodo-health-conventions.yml
+  href: https://artifacts.apis.io/komodo-health/conventions/komodo-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/komodo-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/errors/komodo-health-problem-types.yml
+  href: https://artifacts.apis.io/komodo-health/errors/komodo-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/komodo-health-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/lifecycle/komodo-health-lifecycle.yml
+  href: https://artifacts.apis.io/komodo-health/lifecycle/komodo-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/komodo-health-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/conformance/komodo-health-conformance.yml
+  href: https://artifacts.apis.io/komodo-health/conformance/komodo-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/komodo-health-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/komodo-health/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+coverage:
+  detail: the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - status: 403
+    url: https://docs.komodohealth.com/mcp
+  - status: 200
+    url: https://www.komodohealth.com/
+  - status: 401
+    url: https://api.komodohealth.com/openapi.json
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-07-17'
 description: 'Komodo Health is a healthcare technology company that combines a de-identified real-world data foundation — the Healthcare Map, over one trillion linked records covering 330M+ patients and refreshed daily — with a validated healthcare AI layer called Marmot, serving life sciences, payers, providers, financial services and consultancies. Its developer surface is the Marmot Development Kit: a first-party Python SDK and `komodo` CLI distributed on PyPI that authenticate with OAuth 2.0 (device flow for users, service-principal client credentials for machines) and broker access to a dedicated, per-account Komodo-managed Snowflake warehouse. The same package ships a first-party Model Context Protocol server that lets AI assistants explore warehouse schemas and drive the Komodo App Builder, a Marmot Analysis API reachable from `client.marmot` and `komodo marmot -c`, and a beta Cohort API for interactive patient-cohort exploration over ICD-10, CPT/HCPCS and NDC codes. Authentication
   runs against Komodo''s own OpenID Connect authorization server at auth.komodohealth.com, which publishes anonymous OIDC and RFC 8414 discovery documents.'
@@ -203,7 +245,7 @@ network: true
 overview: 'Komodo Health is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Data, Life Sciences, and Real-World Data.
 
 
-  Komodo Health''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 25 more developer resources.'
+  Komodo Health''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 31 more developer resources.'
 plans:
 - name: Komodo Health Plans Pricing
   plan_count: 0
@@ -219,24 +261,24 @@ scopes:
   slug: komodo-health-scopes
   summary_line: 14 scopes · deviceCode/clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 38.2
+  band: developing
+  composite: 42.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 70.8
-    discoverability: 71.7
-    operational_transparency: 26.3
-  previous_composite: 38.1
+    developer_ergonomics: 73.2
+    discoverability: 66.7
+    operational_transparency: 44.7
+  previous_composite: 42.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -246,15 +288,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 30.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 34.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/screenshots/komodo-health-2026-07-25T224138.png
+screenshot: https://apis.io/screenshots/komodo-health/komodo-health-2026-07-25T224138.png
 security:
 - kind: authentication
   name: Komodo Health Authentication
@@ -267,7 +309,23 @@ security:
 - kind: trust-center
   name: Komodo Health Trust Center
   slug: komodo-health-trust-center
-  summary_line: SOC 2 Type II, SOC 2 Type I, GDPR, CCPA, CISA Secure by Design Pledge, EcoVadis, CMS Qualified Entity (QE) Program
+  summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
+skill_count: 7
+skills:
+- name: komodo-health-build-and-deploy-app
+  slug: komodo-health-build-and-deploy-app
+- name: komodo-health-connect-and-query
+  slug: komodo-health-connect-and-query
+- name: komodo-health-connect-mcp-server
+  slug: komodo-health-connect-mcp-server
+- name: komodo-health-machine-to-machine-access
+  slug: komodo-health-machine-to-machine-access
+- name: komodo-health-manage-secrets
+  slug: komodo-health-manage-secrets
+- name: komodo-health-mcp-schema-exploration
+  slug: komodo-health-mcp-schema-exploration
+- name: komodo-health-query-healthcare-map
+  slug: komodo-health-query-healthcare-map
 slug: komodo-health
 tags:
 - Company

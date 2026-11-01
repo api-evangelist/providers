@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The REST API surface of the 10x SuperCore platform, covering parties, subscriptions, arrangements, transaction/deposit/loan/credit-card products, repayment schedules, interest overrides, cards, statem
@@ -84,77 +86,77 @@ common:
   type: Security
   url: https://www.10xbanking.com/responsible-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/security/10x-banking-technology-services-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/10x-banking-technology-services/security/10x-banking-technology-services-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/10x-banking-technology-services-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/well-known/10x-banking-technology-services-security.txt
+  href: https://artifacts.apis.io/10x-banking-technology-services/well-known/10x-banking-technology-services-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/10x-banking-technology-services-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/well-known/10x-banking-technology-services-well-known.yml
+  href: https://artifacts.apis.io/10x-banking-technology-services/well-known/10x-banking-technology-services-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/10x-banking-technology-services-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/security/10x-banking-technology-services-domain-security.yml
+  href: https://artifacts.apis.io/10x-banking-technology-services/security/10x-banking-technology-services-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/10x-banking-technology-services-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/authentication/10x-banking-technology-services-authentication.yml
+  href: https://artifacts.apis.io/10x-banking-technology-services/authentication/10x-banking-technology-services-authentication.yml
   title: ''
   type: Authentication
   url: authentication/10x-banking-technology-services-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/conventions/10x-banking-technology-services-conventions.yml
+  href: https://artifacts.apis.io/10x-banking-technology-services/conventions/10x-banking-technology-services-conventions.yml
   title: ''
   type: Conventions
   url: conventions/10x-banking-technology-services-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/errors/10x-banking-technology-services-problem-types.yml
+  href: https://artifacts.apis.io/10x-banking-technology-services/errors/10x-banking-technology-services-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/10x-banking-technology-services-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/lifecycle/10x-banking-technology-services-lifecycle.yml
+  href: https://artifacts.apis.io/10x-banking-technology-services/lifecycle/10x-banking-technology-services-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/10x-banking-technology-services-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/changelog/10x-banking-technology-services-changelog.yml
+  href: https://artifacts.apis.io/10x-banking-technology-services/changelog/10x-banking-technology-services-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/10x-banking-technology-services-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/sandbox/10x-banking-technology-services-sandbox.yml
+  href: https://artifacts.apis.io/10x-banking-technology-services/sandbox/10x-banking-technology-services-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/10x-banking-technology-services-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/rate-limits/10x-banking-technology-services-rate-limits.yml
+  href: https://artifacts.apis.io/10x-banking-technology-services/rate-limits/10x-banking-technology-services-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/10x-banking-technology-services-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/plans/10x-banking-technology-services-plans-pricing.yml
+  href: https://artifacts.apis.io/10x-banking-technology-services/plans/10x-banking-technology-services-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/10x-banking-technology-services-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/packages/10x-banking-technology-services-packages.yml
+  href: https://artifacts.apis.io/10x-banking-technology-services/packages/10x-banking-technology-services-packages.yml
   title: ''
   type: Packages
   url: packages/10x-banking-technology-services-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/conformance/10x-banking-technology-services-conformance.yml
+  href: https://artifacts.apis.io/10x-banking-technology-services/conformance/10x-banking-technology-services-conformance.yml
   title: ''
   type: Conformance
   url: conformance/10x-banking-technology-services-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/llms/10x-banking-technology-services-llms.txt
+  href: https://artifacts.apis.io/10x-banking-technology-services/llms/10x-banking-technology-services-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/10x-banking-technology-services-llms.txt
@@ -192,14 +194,14 @@ plans:
 - name: 10X Banking Technology Services Plans Pricing
   plan_count: 0
   slug: 10x-banking-technology-services-plans-pricing
-random_paper: 20
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: 10X Banking Technology Services Rate Limits
   slug: 10x-banking-technology-services-rate-limits
 score:
   band: thin
-  composite: 28.7
+  composite: 30.5
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -212,8 +214,8 @@ score:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 38.1
-    discoverability: 74.1
+    developer_ergonomics: 50.0
+    discoverability: 67.9
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -223,7 +225,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 28.7
+  previous_composite: 30.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -233,14 +235,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/screenshots/10x-banking-technology-services-2026-10-11T092012.png
+screenshot: https://apis.io/screenshots/10x-banking-technology-services/10x-banking-technology-services-2026-10-11T092012.png
 security:
 - kind: authentication
   name: 10X Banking Technology Services Authentication

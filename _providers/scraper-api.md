@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -58,11 +60,8 @@ apis:
   description: The Sync API from ScraperAPI — 1 operation(s) for sync.
   name: ScraperAPI Sync API
   slug: scraper-api-sync-api
-artifact_total: 13
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Scraper Structured API
   slug: open-scraper-api-structured-api
@@ -74,32 +73,32 @@ collections:
   slug: open-scraper-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/scraper-api/refs/heads/main/plans/scraper-api-plans-pricing.yml
+  href: https://artifacts.apis.io/scraper-api/plans/scraper-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/scraper-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/scraper-api/refs/heads/main/rate-limits/scraper-api-rate-limits.yml
+  href: https://artifacts.apis.io/scraper-api/rate-limits/scraper-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/scraper-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/scraper-api/refs/heads/main/finops/scraper-api-finops.yml
+  href: https://artifacts.apis.io/scraper-api/finops/scraper-api-finops.yml
   title: ''
   type: FinOps
   url: finops/scraper-api-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scraper-api/refs/heads/main/agentic-access/scraper-api-agentic-access.yml
+  href: https://artifacts.apis.io/scraper-api/agentic-access/scraper-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/scraper-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scraper-api/refs/heads/main/security/scraper-api-domain-security.yml
+  href: https://artifacts.apis.io/scraper-api/security/scraper-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/scraper-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scraper-api/refs/heads/main/authentication/scraper-api-authentication.yml
+  href: https://artifacts.apis.io/scraper-api/authentication/scraper-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/scraper-api-authentication.yml
@@ -137,7 +136,7 @@ finops:
 - has_sources: false
   method: generated
   name: Scraper Api Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: scraper-api-finops
   template: true
@@ -155,14 +154,14 @@ plans:
 - name: Scraper Api Plans Pricing
   plan_count: 3
   slug: scraper-api-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Scraper Api Rate Limits
   slug: scraper-api-rate-limits
 score:
   band: emerging
-  composite: 23.8
+  composite: 24.8
   coverage:
     artifact_dirs: 13
     catalog_earned: 28.0
@@ -170,15 +169,15 @@ score:
     catalog_gap: 87.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 41.0
     developer_ergonomics: 35.7
     discoverability: 46.4
-    operational_transparency: 10.5
-  previous_composite: 25.3
+    operational_transparency: 13.2
+  previous_composite: 24.8
   provenance:
     agentic_access: derived
     contracts:
@@ -192,13 +191,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/scraper-api/refs/heads/main/screenshots/scraper-api-2026-06-20T193553.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/scraper-api/scraper-api-2026-06-20T193553.png
 security:
 - kind: authentication
   name: Scraper Api Authentication

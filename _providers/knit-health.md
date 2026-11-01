@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/knit-health/refs/heads/main/security/knit-health-domain-security.yml
+  href: https://artifacts.apis.io/knit-health/security/knit-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/knit-health-domain-security.yml
@@ -70,7 +72,7 @@ common:
   type: Careers
   url: https://job-boards.greenhouse.io/knithealth
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/knit-health/refs/heads/main/llms/knit-health-llms.txt
+  href: https://artifacts.apis.io/knit-health/llms/knit-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/knit-health-llms.txt
@@ -87,10 +89,10 @@ overview: 'Knit Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Knit Health''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 13
+random_paper: 9
 score:
   band: minimal
-  composite: 7.4
+  composite: 6.7
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -104,23 +106,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 7.4
+  previous_composite: 6.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/knit-health/refs/heads/main/screenshots/knit-health-2026-07-25T223958.png
+screenshot: https://apis.io/screenshots/knit-health/knit-health-2026-07-25T223958.png
 security:
 - kind: domain-security
   name: Knit Health Domain Security

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Clearskies Customer Context Graph exposed as a single remote Model Context Protocol server. Connected AI clients (Claude, ChatGPT, Cursor, n8n, Retool) query unified, identity-resolved customer co
@@ -43,7 +45,7 @@ apis:
 artifact_total: 9
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/scratchpad/refs/heads/main/rate-limits/scratchpad-rate-limits.yml
+  href: https://artifacts.apis.io/scratchpad/rate-limits/scratchpad-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/scratchpad-rate-limits.yml
@@ -84,17 +86,17 @@ common:
   type: Compliance
   url: https://www.scratchpad.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scratchpad/refs/heads/main/security/scratchpad-trust-center.yml
+  href: https://artifacts.apis.io/scratchpad/security/scratchpad-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/scratchpad-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scratchpad/refs/heads/main/security/scratchpad-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/scratchpad/security/scratchpad-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/scratchpad-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scratchpad/refs/heads/main/security/scratchpad-domain-security.yml
+  href: https://artifacts.apis.io/scratchpad/security/scratchpad-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/scratchpad-domain-security.yml
@@ -115,57 +117,57 @@ common:
   type: SignUp
   url: https://app.clearskies.cc/login
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scratchpad/refs/heads/main/mcp/scratchpad-mcp.yml
+  href: https://artifacts.apis.io/scratchpad/mcp/scratchpad-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/scratchpad-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scratchpad/refs/heads/main/authentication/scratchpad-authentication.yml
+  href: https://artifacts.apis.io/scratchpad/authentication/scratchpad-authentication.yml
   title: ''
   type: Authentication
   url: authentication/scratchpad-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scratchpad/refs/heads/main/scopes/scratchpad-scopes.yml
+  href: https://artifacts.apis.io/scratchpad/scopes/scratchpad-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/scratchpad-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scratchpad/refs/heads/main/well-known/scratchpad-well-known.yml
+  href: https://artifacts.apis.io/scratchpad/well-known/scratchpad-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/scratchpad-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scratchpad/refs/heads/main/conformance/scratchpad-conformance.yml
+  href: https://artifacts.apis.io/scratchpad/conformance/scratchpad-conformance.yml
   title: ''
   type: Conformance
   url: conformance/scratchpad-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scratchpad/refs/heads/main/errors/scratchpad-problem-types.yml
+  href: https://artifacts.apis.io/scratchpad/errors/scratchpad-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/scratchpad-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scratchpad/refs/heads/main/conventions/scratchpad-conventions.yml
+  href: https://artifacts.apis.io/scratchpad/conventions/scratchpad-conventions.yml
   title: ''
   type: Conventions
   url: conventions/scratchpad-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scratchpad/refs/heads/main/lifecycle/scratchpad-lifecycle.yml
+  href: https://artifacts.apis.io/scratchpad/lifecycle/scratchpad-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/scratchpad-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/scratchpad/refs/heads/main/plans/scratchpad-plans-pricing.yml
+  href: https://artifacts.apis.io/scratchpad/plans/scratchpad-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/scratchpad-plans-pricing.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/scratchpad/refs/heads/main/sandbox/scratchpad-sandbox.yml
+  href: https://artifacts.apis.io/scratchpad/sandbox/scratchpad-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/scratchpad-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scratchpad/refs/heads/main/llms/scratchpad-llms.txt
+  href: https://artifacts.apis.io/scratchpad/llms/scratchpad-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/scratchpad-llms.txt
@@ -190,7 +192,7 @@ plans:
 - name: Scratchpad Plans Pricing
   plan_count: 0
   slug: scratchpad-plans-pricing
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Scratchpad Rate Limits
@@ -201,8 +203,8 @@ scopes:
   slug: scratchpad-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: thin
-  composite: 38.0
+  band: developing
+  composite: 39.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -210,15 +212,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 26.3
-  previous_composite: 37.9
+  previous_composite: 39.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -228,14 +230,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/scratchpad/refs/heads/main/screenshots/scratchpad-2026-09-02T154608.png
+screenshot: https://apis.io/screenshots/scratchpad/scratchpad-2026-09-02T154608.png
 security:
 - kind: authentication
   name: Scratchpad Authentication

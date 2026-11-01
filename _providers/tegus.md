@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The OpenID Connect / OAuth 2.0 authorization server that fronts sign-in for the Tegus platform. It is an Auth0 tenant operated by AlphaSense (DNS CNAMEs to tegus.alphasense.auth0app.com) and it publis
@@ -76,37 +78,37 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/tegus_stock/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tegus/refs/heads/main/well-known/tegus-well-known.yml
+  href: https://artifacts.apis.io/tegus/well-known/tegus-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tegus-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tegus/refs/heads/main/authentication/tegus-authentication.yml
+  href: https://artifacts.apis.io/tegus/authentication/tegus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tegus-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tegus/refs/heads/main/scopes/tegus-scopes.yml
+  href: https://artifacts.apis.io/tegus/scopes/tegus-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tegus-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tegus/refs/heads/main/conformance/tegus-conformance.yml
+  href: https://artifacts.apis.io/tegus/conformance/tegus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tegus-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tegus/refs/heads/main/lifecycle/tegus-lifecycle.yml
+  href: https://artifacts.apis.io/tegus/lifecycle/tegus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tegus-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tegus/refs/heads/main/security/tegus-domain-security.yml
+  href: https://artifacts.apis.io/tegus/security/tegus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tegus-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tegus/refs/heads/main/llms/tegus-llms.txt
+  href: https://artifacts.apis.io/tegus/llms/tegus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tegus-llms.txt
@@ -139,7 +141,7 @@ overview: 'Tegus is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Tegus'' developer surface includes signup flow, support, YouTube channel, authentication, and 11 more developer resources.'
-random_paper: 2
+random_paper: 0
 scopes:
 - name: Tegus Scopes
   scope_count: 14
@@ -147,7 +149,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: emerging
-  composite: 20.9
+  composite: 20.2
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -155,15 +157,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 20.8
+  previous_composite: 20.2
   provenance:
     conformance: derived
   regulatory:
@@ -172,14 +174,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tegus/refs/heads/main/screenshots/tegus-2026-09-02T162719.png
+screenshot: https://apis.io/screenshots/tegus/tegus-2026-09-02T162719.png
 security:
 - kind: authentication
   name: Tegus Authentication

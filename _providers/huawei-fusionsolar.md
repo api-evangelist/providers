@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -32,7 +34,7 @@ common:
   type: Blog
   url: https://solar.huawei.com/en/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/huawei-fusionsolar/refs/heads/main/security/huawei-fusionsolar-domain-security.yml
+  href: https://artifacts.apis.io/huawei-fusionsolar/security/huawei-fusionsolar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/huawei-fusionsolar-domain-security.yml
@@ -41,7 +43,7 @@ common:
   type: Website
   url: https://solar.huawei.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/huawei-fusionsolar/refs/heads/main/vendors/huawei-fusionsolar-vendors.yml
+  href: https://artifacts.apis.io/huawei-fusionsolar/vendors/huawei-fusionsolar-vendors.yml
   title: ''
   type: Vendors
   url: vendors/huawei-fusionsolar-vendors.yml
@@ -54,7 +56,7 @@ common:
   type: DeveloperPortal
   url: https://developer.huaweicloud.com/?amp;utm_adplace=AdPlace070853
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/huawei-fusionsolar/refs/heads/main/hosts/huawei-fusionsolar-hosts.yml
+  href: https://artifacts.apis.io/huawei-fusionsolar/hosts/huawei-fusionsolar-hosts.yml
   title: ''
   type: Hosts
   url: hosts/huawei-fusionsolar-hosts.yml
@@ -106,12 +108,12 @@ overview: 'Huawei FusionSolar is profiled on the [APIs.io](https://apis.io/) net
 
 
   Huawei FusionSolar''s developer surface includes engineering blog, documentation, getting-started guide, support, and 10 more developer resources.'
-random_paper: 1
+random_paper: 21
 score:
   band: emerging
   composite: 16.2
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -139,14 +141,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 12.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/huawei-fusionsolar/refs/heads/main/screenshots/huawei-fusionsolar-2026-10-11T105456.png
+screenshot: https://apis.io/screenshots/huawei-fusionsolar/huawei-fusionsolar-2026-10-11T105456.png
 security:
 - kind: domain-security
   name: Huawei Fusionsolar Domain Security

@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.1
-  scored_at: '2026-10-17'
+  score: 41.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -154,7 +156,7 @@ arazzos:
 - description: Convert a finix.js token into a Payment Instrument and create a Transfer (sale).
   name: Finix Tokenize and Charge
   slug: finix-tokenize-and-charge-workflow
-artifact_total: 70
+artifact_total: 75
 asyncapis:
 - description: Finix delivers real-time event notifications via webhooks (HTTP POST) when resources change. Subscribe with POST /webhooks. Each delivery carries an envelope { id, type, entity, occurred_at, system_ge
   name: Finix Webhook Events
@@ -218,9 +220,6 @@ collections:
   name: Finix Authorizations Webhooks API
   slug: postman-finix-webhooks-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Finix Authorizations API
   slug: open-finix-authorizations-api
 - collection_type: open
@@ -278,13 +277,18 @@ collections:
   name: Finix Authorizations Webhooks API
   slug: open-finix-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/finix/plans/finix-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/finix-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/capabilities/finix-capability-edges.yml
+  href: https://artifacts.apis.io/finix/capabilities/finix-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/finix-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/overlays/finix-openapi-overlay.yaml
+  href: https://artifacts.apis.io/finix/overlays/finix-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/finix-openapi-overlay.yaml
@@ -353,77 +357,77 @@ common:
   type: StatusPage
   url: https://status.finix.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/llms/finix-llms.txt
+  href: https://artifacts.apis.io/finix/llms/finix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/finix-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/authentication/finix-authentication.yml
+  href: https://artifacts.apis.io/finix/authentication/finix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/finix-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/conventions/finix-conventions.yml
+  href: https://artifacts.apis.io/finix/conventions/finix-conventions.yml
   title: ''
   type: Conventions
   url: conventions/finix-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/conventions/finix-conventions.yml
+  href: https://artifacts.apis.io/finix/conventions/finix-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/finix-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/rate-limits/finix-rate-limits.yml
+  href: https://artifacts.apis.io/finix/rate-limits/finix-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/finix-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/packages/finix-packages.yml
+  href: https://artifacts.apis.io/finix/packages/finix-packages.yml
   title: ''
   type: Packages
   url: packages/finix-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/packages/finix-packages.yml
+  href: https://artifacts.apis.io/finix/packages/finix-packages.yml
   title: ''
   type: SDKs
   url: packages/finix-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/components/finix-components.yml
+  href: https://artifacts.apis.io/finix/components/finix-components.yml
   title: ''
   type: Components
   url: components/finix-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/sandbox/finix-sandbox.yml
+  href: https://artifacts.apis.io/finix/sandbox/finix-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/finix-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/errors/finix-problem-types.yml
+  href: https://artifacts.apis.io/finix/errors/finix-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/finix-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/errors/finix-decline-codes.yml
+  href: https://artifacts.apis.io/finix/errors/finix-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/finix-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/data-model/finix-data-model.yml
+  href: https://artifacts.apis.io/finix/data-model/finix-data-model.yml
   title: ''
   type: DataModel
   url: data-model/finix-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/lifecycle/finix-lifecycle.yml
+  href: https://artifacts.apis.io/finix/lifecycle/finix-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/finix-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/changelog/finix-changelog.yml
+  href: https://artifacts.apis.io/finix/changelog/finix-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/finix-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/conformance/finix-conformance.yml
+  href: https://artifacts.apis.io/finix/conformance/finix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/finix-conformance.yml
@@ -432,12 +436,12 @@ common:
   type: Compliance
   url: https://trust.finix.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/security/finix-trust-center.yml
+  href: https://artifacts.apis.io/finix/security/finix-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/finix-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/security/finix-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/finix/security/finix-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/finix-vulnerability-disclosure.yml
@@ -446,22 +450,22 @@ common:
   type: Security
   url: https://trust.finix.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/security/finix-domain-security.yml
+  href: https://artifacts.apis.io/finix/security/finix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/finix-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/agentic-access/finix-agentic-access.yml
+  href: https://artifacts.apis.io/finix/agentic-access/finix-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/finix-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/asyncapi/finix-events-asyncapi.yml
+  href: https://artifacts.apis.io/finix/asyncapi/finix-events-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/finix-events-asyncapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/asyncapi/finix-events-asyncapi.yml
+  href: https://artifacts.apis.io/finix/asyncapi/finix-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/finix-events-asyncapi.yml
@@ -470,27 +474,27 @@ common:
   type: MCPServer
   url: https://docs.finix.com/mcp
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/finix/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/arazzo/finix-onboard-merchant-workflow.yml
+  href: https://artifacts.apis.io/finix/arazzo/finix-onboard-merchant-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/finix-onboard-merchant-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/arazzo/finix-authorize-and-capture-workflow.yml
+  href: https://artifacts.apis.io/finix/arazzo/finix-authorize-and-capture-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/finix-authorize-and-capture-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/arazzo/finix-tokenize-and-charge-workflow.yml
+  href: https://artifacts.apis.io/finix/arazzo/finix-tokenize-and-charge-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/finix-tokenize-and-charge-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/arazzo/finix-refund-transfer-workflow.yml
+  href: https://artifacts.apis.io/finix/arazzo/finix-refund-transfer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/finix-refund-transfer-workflow.yml
@@ -500,6 +504,14 @@ common:
   url: https://finix.com/docs/api
 created: '2026-07-17'
 description: Finix is a full-stack payments technology provider that lets software platforms, marketplaces, and merchants accept and send payments online and in person. The Finix API is a HAL/HATEOAS REST API (HTTP Basic authentication per RFC 7617, date-based Finix-Version header, cursor pagination, idempotency_id) covering Identities, Merchants, Payment Instruments, Authorizations, Transfers, Settlements, Disputes, Fee Profiles, Verifications, Onboarding Forms, Devices, Balance Transfers, Split Transfers, and Webhooks, plus low-code Checkout, Payment Links, Subscriptions, and Payouts. It is Level 1 PCI DSS certified with finix.js browser tokenization, native iOS/Android SDKs, and official Python, Node.js, Java, and PHP client libraries. This profile was enriched from Finix's own public developer surface.
+finops:
+- has_sources: true
+  method: derived
+  name: Finix Finops
+  primary_unit: ''
+  service_category: ''
+  slug: finix-finops
+  template: true
 image: https://images.ctfassets.net/kqru4vgwujx6/3dBfyfPS31FWqFPTwf4dRv/417cc8b5e94029726cffb9aa85230111/OG_Image.png?w=1200&q=90
 layout: provider
 mcp_servers:
@@ -516,7 +528,11 @@ overview: 'Finix publishes 19 API contracts indexed on the [APIs.io](https://api
   The Finix catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Finix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 41 more developer resources.'
+  Finix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 42 more developer resources.'
+plans:
+- name: Finix Plans Pricing
+  plan_count: 0
+  slug: finix-plans-pricing
 random_paper: 14
 rate_limits:
 - limit_count: 2
@@ -524,9 +540,9 @@ rate_limits:
   slug: finix-rate-limits
 score:
   band: strong
-  composite: 61.9
+  composite: 63.6
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 30
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -534,13 +550,18 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 57.0
     developer_ergonomics: 74.4
-    discoverability: 71.7
-    operational_transparency: 73.7
-  previous_composite: 61.9
+    discoverability: 65.0
+    operational_transparency: 76.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -557,13 +578,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 44.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/screenshots/finix-2026-07-25T214523.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/finix/finix-2026-07-25T214523.png
 security:
 - kind: authentication
   name: Finix Authentication
@@ -581,6 +603,16 @@ security:
   name: Finix Trust Center
   slug: finix-trust-center
   summary_line: SOC 1, SOC 2, PCI DSS
+skill_count: 4
+skills:
+- name: Authorize and capture a card payment
+  slug: finix-authorize-and-capture
+- name: Onboard a merchant with Finix
+  slug: finix-onboard-merchant
+- name: Refund a transfer
+  slug: finix-refund-transfer
+- name: Tokenize and charge a buyer
+  slug: finix-tokenize-and-charge
 slug: finix
 tags:
 - Company

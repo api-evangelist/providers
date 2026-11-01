@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-10-17'
+  score: 14.2
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -42,32 +44,32 @@ common:
   type: Website
   url: https://www.baublebar.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/baublebar/refs/heads/main/mcp/baublebar-mcp.yml
+  href: https://artifacts.apis.io/baublebar/mcp/baublebar-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/baublebar-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/baublebar/refs/heads/main/well-known/baublebar-well-known.yml
+  href: https://artifacts.apis.io/baublebar/well-known/baublebar-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/baublebar-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/baublebar/refs/heads/main/authentication/baublebar-authentication.yml
+  href: https://artifacts.apis.io/baublebar/authentication/baublebar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/baublebar-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/baublebar/refs/heads/main/scopes/baublebar-scopes.yml
+  href: https://artifacts.apis.io/baublebar/scopes/baublebar-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/baublebar-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/baublebar/refs/heads/main/conformance/baublebar-conformance.yml
+  href: https://artifacts.apis.io/baublebar/conformance/baublebar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/baublebar-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/baublebar/refs/heads/main/security/baublebar-domain-security.yml
+  href: https://artifacts.apis.io/baublebar/security/baublebar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/baublebar-domain-security.yml
@@ -103,7 +105,7 @@ overview: 'BaubleBar is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   BaubleBar''s developer surface includes authentication, support, signup flow, and 8 more developer resources.'
-random_paper: 4
+random_paper: 16
 scopes:
 - name: Baublebar Scopes
   scope_count: 4
@@ -111,7 +113,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.4
+  composite: 20.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -119,13 +121,13 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 51.7
+    discoverability: 48.3
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -134,7 +136,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 20.3
+  previous_composite: 20.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -144,14 +146,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/baublebar/refs/heads/main/screenshots/baublebar-2026-08-07T162219.png
+screenshot: https://apis.io/screenshots/baublebar/baublebar-2026-08-07T162219.png
 security:
 - kind: authentication
   name: Baublebar Authentication

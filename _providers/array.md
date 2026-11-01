@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Array's REST API for embedded consumer-credit, identity and background-data products. Confirmed live at https://array.io/api — the /api/user/v2 and /api/report/v2 routes answer with structured JSON va
@@ -45,7 +47,7 @@ common:
   type: BlogRSS
   url: https://blog.array.com/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/array/refs/heads/main/security/array-domain-security.yml
+  href: https://artifacts.apis.io/array/security/array-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/array-domain-security.yml
@@ -94,57 +96,57 @@ common:
   type: StatusPage
   url: https://status.array.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/array/refs/heads/main/lifecycle/array-lifecycle.yml
+  href: https://artifacts.apis.io/array/lifecycle/array-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/array-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/array/refs/heads/main/llms/array-llms.txt
+  href: https://artifacts.apis.io/array/llms/array-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/array-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/array/refs/heads/main/components/array-components.yml
+  href: https://artifacts.apis.io/array/components/array-components.yml
   title: ''
   type: Components
   url: components/array-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/array/refs/heads/main/authentication/array-authentication.yml
+  href: https://artifacts.apis.io/array/authentication/array-authentication.yml
   title: ''
   type: Authentication
   url: authentication/array-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/array/refs/heads/main/sandbox/array-sandbox.yml
+  href: https://artifacts.apis.io/array/sandbox/array-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/array-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/array/refs/heads/main/conventions/array-conventions.yml
+  href: https://artifacts.apis.io/array/conventions/array-conventions.yml
   title: ''
   type: Conventions
   url: conventions/array-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/array/refs/heads/main/errors/array-problem-types.yml
+  href: https://artifacts.apis.io/array/errors/array-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/array-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/array/refs/heads/main/packages/array-packages.yml
+  href: https://artifacts.apis.io/array/packages/array-packages.yml
   title: ''
   type: Packages
   url: packages/array-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/array/refs/heads/main/packages/array-packages.yml
+  href: https://artifacts.apis.io/array/packages/array-packages.yml
   title: ''
   type: SDKs
   url: packages/array-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/array/refs/heads/main/rate-limits/array-rate-limits.yml
+  href: https://artifacts.apis.io/array/rate-limits/array-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/array-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/array/refs/heads/main/plans/array-plans-pricing.yml
+  href: https://artifacts.apis.io/array/plans/array-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/array-plans-pricing.yml
@@ -172,21 +174,21 @@ rate_limits:
   slug: array-rate-limits
 score:
   band: emerging
-  composite: 25.9
+  composite: 26.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 47.6
-    discoverability: 73.2
+    developer_ergonomics: 52.4
+    discoverability: 66.1
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -195,21 +197,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 25.8
+  previous_composite: 26.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/array/refs/heads/main/screenshots/array-2026-07-25T201251.png
+screenshot: https://apis.io/screenshots/array/array-2026-07-25T201251.png
 security:
 - kind: authentication
   name: Array Authentication

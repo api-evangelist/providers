@@ -19,7 +19,7 @@ name: SmarterHQ
 nav: Providers
 network: true
 overview: SmarterHQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 15
+random_paper: 23
 slug: smarterhq
 tags:
 - Company

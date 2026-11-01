@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-17'
+  score: 9.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Enterprise reporting API that returns test and run analytics and raw test-result data from Cypress Cloud. Requests are HTTP GET with an organization API key passed as the token query parameter, and da
@@ -47,7 +49,7 @@ common:
   type: Website
   url: https://www.cypress.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cypressio/refs/heads/main/security/cypressio-trust-center.yml
+  href: https://artifacts.apis.io/cypressio/security/cypressio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cypressio-trust-center.yml
@@ -116,47 +118,47 @@ common:
   type: ChangeLog
   url: https://docs.cypress.io/app/references/changelog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cypressio/refs/heads/main/llms/cypressio-llms.txt
+  href: https://artifacts.apis.io/cypressio/llms/cypressio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cypressio-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cypressio/refs/heads/main/packages/cypressio-packages.yml
+  href: https://artifacts.apis.io/cypressio/packages/cypressio-packages.yml
   title: ''
   type: Packages
   url: packages/cypressio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cypressio/refs/heads/main/packages/cypressio-packages.yml
+  href: https://artifacts.apis.io/cypressio/packages/cypressio-packages.yml
   title: ''
   type: SDKs
   url: packages/cypressio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cypressio/refs/heads/main/cli/cypressio-cli.yml
+  href: https://artifacts.apis.io/cypressio/cli/cypressio-cli.yml
   title: ''
   type: CLI
   url: cli/cypressio-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cypressio/refs/heads/main/changelog/cypressio-changelog.yml
+  href: https://artifacts.apis.io/cypressio/changelog/cypressio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cypressio-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cypressio/refs/heads/main/lifecycle/cypressio-lifecycle.yml
+  href: https://artifacts.apis.io/cypressio/lifecycle/cypressio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cypressio-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cypressio/refs/heads/main/lifecycle/cypressio-lifecycle.yml
+  href: https://artifacts.apis.io/cypressio/lifecycle/cypressio-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/cypressio-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cypressio/refs/heads/main/authentication/cypressio-authentication.yml
+  href: https://artifacts.apis.io/cypressio/authentication/cypressio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cypressio-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cypressio/refs/heads/main/security/cypressio-domain-security.yml
+  href: https://artifacts.apis.io/cypressio/security/cypressio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cypressio-domain-security.yml
@@ -180,10 +182,10 @@ overview: 'Cypress.io is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Cypress.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 3
+random_paper: 9
 score:
-  band: thin
-  composite: 37.8
+  band: developing
+  composite: 40.9
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -193,13 +195,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 75.0
-    operational_transparency: 47.4
-  previous_composite: 37.8
+    discoverability: 66.1
+    operational_transparency: 50.0
+  previous_composite: 40.9
   provenance:
     mcp: first-party
   regulatory:
@@ -207,15 +209,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cypressio/refs/heads/main/screenshots/cypressio-2026-07-25T211057.png
+screenshot: https://apis.io/screenshots/cypressio/cypressio-2026-07-25T211057.png
 security:
 - kind: authentication
   name: Cypressio Authentication

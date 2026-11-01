@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: ETHGas v1 REST + WebSocket API for market data, order placement/management, funding (collateral deposits/withdrawals), and validator/builder operations across whole-block commitments and inclusion pre
@@ -92,67 +94,67 @@ common:
   type: PrivacyPolicy
   url: https://ethgas.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/authentication/ethgas-authentication.yml
+  href: https://artifacts.apis.io/ethgas/authentication/ethgas-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ethgas-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/conventions/ethgas-conventions.yml
+  href: https://artifacts.apis.io/ethgas/conventions/ethgas-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ethgas-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/errors/ethgas-error-codes.yml
+  href: https://artifacts.apis.io/ethgas/errors/ethgas-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ethgas-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/lifecycle/ethgas-lifecycle.yml
+  href: https://artifacts.apis.io/ethgas/lifecycle/ethgas-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ethgas-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/changelog/ethgas-changelog.yml
+  href: https://artifacts.apis.io/ethgas/changelog/ethgas-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ethgas-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/sandbox/ethgas-sandbox.yml
+  href: https://artifacts.apis.io/ethgas/sandbox/ethgas-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ethgas-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/asyncapi/ethgas-websocket-webhooks.yml
+  href: https://artifacts.apis.io/ethgas/asyncapi/ethgas-websocket-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ethgas-websocket-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/mcp/ethgas-mcp.yml
+  href: https://artifacts.apis.io/ethgas/mcp/ethgas-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ethgas-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/conformance/ethgas-conformance.yml
+  href: https://artifacts.apis.io/ethgas/conformance/ethgas-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ethgas-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/packages/ethgas-packages.yml
+  href: https://artifacts.apis.io/ethgas/packages/ethgas-packages.yml
   title: ''
   type: Packages
   url: packages/ethgas-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/well-known/ethgas-well-known.yml
+  href: https://artifacts.apis.io/ethgas/well-known/ethgas-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ethgas-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/llms/ethgas-llms.txt
+  href: https://artifacts.apis.io/ethgas/llms/ethgas-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ethgas-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/security/ethgas-domain-security.yml
+  href: https://artifacts.apis.io/ethgas/security/ethgas-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ethgas-domain-security.yml
@@ -171,12 +173,12 @@ overview: 'ETHGas is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   ETHGas'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: developing
-  composite: 40.1
+  composite: 42.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -184,13 +186,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 40.1
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 42.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -200,14 +202,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/screenshots/ethgas-2026-07-25T213653.png
+screenshot: https://apis.io/screenshots/ethgas/ethgas-2026-07-25T213653.png
 security:
 - kind: authentication
   name: Ethgas Authentication

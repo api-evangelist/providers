@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 2.9
-  scored_at: '2026-10-17'
+  score: 6.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Airy:3D provides 3D depth sensing solutions via its platform.
@@ -32,7 +34,7 @@ apis:
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airy-3d/refs/heads/main/llms/airy-3d-llms.txt
+  href: https://artifacts.apis.io/airy-3d/llms/airy-3d-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/airy-3d-llms.txt
@@ -56,10 +58,10 @@ name: Airy:3D
 nav: Providers
 network: true
 overview: Airy:3D is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 17
+random_paper: 9
 score:
   band: minimal
-  composite: 2.0
+  composite: 1.3
   coverage:
     artifact_dirs: 6
     catalog_earned: 20.0
@@ -73,15 +75,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 42.9
+    discoverability: 35.7
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: venue_as_website
-  previous_composite: 2.0
+  previous_composite: 1.3
   provenance:
     mcp: unknown
   regulatory:
@@ -90,14 +86,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/airy-3d/refs/heads/main/screenshots/airy-3d-2026-10-11T093452.png
+screenshot: https://apis.io/screenshots/airy-3d/airy-3d-2026-10-11T093452.png
 slug: airy-3d
 tags:
 - Company

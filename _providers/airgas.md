@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Airgas provides industrial, medical, and specialty gases and related products. The Airgas online platform supports B2B ordering, account management, order tracking, digital proof of delivery, and supp
@@ -42,17 +44,17 @@ apis:
 artifact_total: 29
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/airgas/refs/heads/main/plans/airgas-plans-pricing.yml
+  href: https://artifacts.apis.io/airgas/plans/airgas-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/airgas-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/airgas/refs/heads/main/rate-limits/airgas-rate-limits.yml
+  href: https://artifacts.apis.io/airgas/rate-limits/airgas-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/airgas-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/airgas/refs/heads/main/finops/airgas-finops.yml
+  href: https://artifacts.apis.io/airgas/finops/airgas-finops.yml
   title: ''
   type: FinOps
   url: finops/airgas-finops.yml
@@ -61,7 +63,7 @@ common:
   type: Website
   url: https://www.airgas.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airgas/refs/heads/main/security/airgas-domain-security.yml
+  href: https://artifacts.apis.io/airgas/security/airgas-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/airgas-domain-security.yml
@@ -102,12 +104,12 @@ common:
   type: Documentation
   url: https://www.airgas.com/resources
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airgas/refs/heads/main/conformance/airgas-conformance.yml
+  href: https://artifacts.apis.io/airgas/conformance/airgas-conformance.yml
   title: ''
   type: Conformance
   url: conformance/airgas-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airgas/refs/heads/main/llms/airgas-llms.txt
+  href: https://artifacts.apis.io/airgas/llms/airgas-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/airgas-llms.txt
@@ -168,7 +170,7 @@ finops:
 - has_sources: false
   method: generated
   name: Airgas Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: airgas-finops
   template: true
@@ -230,7 +232,7 @@ press:
 - date: ''
   title: Air Liquide continues on its successful trajectory in Q1 2026
   url: https://www.webdisclosure.com/press-release/air-liquide-epa-ai-growth-performance-and-record-investments-air-liquide-continues-on-its-successful-trajectory-in-q1-2026-w7jxGDiQpbI
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Airgas Rate Limits
@@ -249,7 +251,7 @@ rules:
   slug: airgas-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.0
+  composite: 29.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 50.8
@@ -257,15 +259,15 @@ score:
     catalog_gap: 64.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 41.7
     contract_quality: 14.7
     developer_ergonomics: 38.1
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 31.5
+  previous_composite: 29.3
   provenance:
     conformance: first-party
   regulatory:
@@ -274,14 +276,14 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/airgas/refs/heads/main/screenshots/airgas-2026-07-25T195437.png
+screenshot: https://apis.io/screenshots/airgas/airgas-2026-07-25T195437.png
 security:
 - kind: domain-security
   name: Airgas Domain Security

@@ -22,19 +22,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 33.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,23 +44,14 @@ agentic_access:
   operation_count: 19
   slug: availity-agentic-access
   summary_line: 19 operations · 8 acting
-api_count: 4
+api_count: 14
 apis:
 - description: The Availity Healthcare HIPAA Transactions API provides a unified interface for standard HIPAA EDI transactions. REST APIs enable healthcare providers and vendors to submit and receive X12 EDI transac
   name: Availity Healthcare HIPAA Transactions API
   slug: availity-hipaa-transactions-api
-- description: The Availity Patient Cost Estimator API enables healthcare providers and institutions to estimate service costs before delivery for both institutional and professional services. REST APIs support vers
-  name: Availity Patient Cost Estimator API
-  slug: availity-patient-cost-estimator-api
 - description: The Availity Eligibility & Benefits Value-Add APIs provide supplementary data during eligibility transactions. The Care Reminders API retrieves real-time care gap information from multiple payers. The
   name: Availity Eligibility & Benefits Value-Add APIs
   slug: availity-eb-value-adds-api
-- description: The Availity Payer List API (v1.0.4) allows healthcare organizations to query available payers and the transactions they support. Returns payer identifiers, names, and supported transaction types incl
-  name: Availity Payer List API
-  slug: availity-payer-list-api
-- description: The Availity Configurations API (v1.0.0) provides provider details and payer-specific validation requirements. Returns configuration rules for enhanced claim status, prior authorization, and other tra
-  name: Availity Configurations API
-  slug: availity-configurations-api
 - baseURL: https://api.availity.com
   baseurl_source: declared
   description: Attach documentation to authorization requests
@@ -154,7 +147,7 @@ apis:
   description: Prior authorization and service review requests
   name: availity Service Reviews API
   phrasing_intents:
-  - id: createServiceReview
+  - id: postAvailityIntelligentPayerNetworkV1ServiceReviews
     intent: Submit a prior authorization request
     question: How do I request prior authorization from a health plan through Availity?
   - id: listServiceReviews
@@ -165,6 +158,51 @@ apis:
     question: Has my prior authorization request been approved yet?
   phrasing_ops: 3
   slug: availity-service-reviews-api
+- baseURL: https://api.availity.com
+  baseurl_source: declared
+  description: The Availity Payer List API from Availity — 1 operation(s) for availity payer list.
+  name: Availity Availity Payer List API
+  slug: availity-availity-payer-list-api
+- baseURL: https://api.availity.com
+  baseurl_source: declared
+  description: The Claim Statuses API from Availity — 2 operation(s) for claim statuses.
+  name: Availity Claim Statuses API
+  slug: availity-claim-statuses-api
+- baseURL: https://api.availity.com
+  baseurl_source: declared
+  description: The Configurations API from Availity — 1 operation(s) for configurations.
+  name: Availity Configurations API
+  slug: availity-configurations-api
+- baseURL: https://api.availity.com
+  baseurl_source: declared
+  description: The Coverages API from Availity — 2 operation(s) for coverages.
+  name: Availity Coverages API
+  slug: availity-coverages-api
+- baseURL: https://api.availity.com
+  baseurl_source: declared
+  description: The Dental Claims API from Availity — 2 operation(s) for dental claims.
+  name: Availity Dental Claims API
+  slug: availity-dental-claims-api
+- baseURL: https://api.availity.com
+  baseurl_source: declared
+  description: The Dfs API from Availity — 1 operation(s) for dfs.
+  name: Availity Dfs API
+  slug: availity-dfs-api
+- baseURL: https://api.availity.com
+  baseurl_source: declared
+  description: The Institutional Claims API from Availity — 2 operation(s) for institutional claims.
+  name: Availity Institutional Claims API
+  slug: availity-institutional-claims-api
+- baseURL: https://api.availity.com
+  baseurl_source: declared
+  description: The Patient Cost Estimator 2.0.0 Professional API from Availity — 2 operation(s) for patient cost estimator 2.0.0 professional.
+  name: Availity Patient Cost Estimator 2.0.0 Professional API
+  slug: availity-patient-cost-estimator-2-0-0-professional-api
+- baseURL: https://api.availity.com
+  baseurl_source: declared
+  description: The Professional Claims API from Availity — 2 operation(s) for professional claims.
+  name: Availity Professional Claims API
+  slug: availity-professional-claims-api
 arazzos:
 - description: Submit an X12 275 claim attachment, then poll for its processing status until the payer accepts it.
   name: Availity Claim Attachment (X12 275)
@@ -178,11 +216,8 @@ arazzos:
 - description: Determine whether authorization is required, create the X12 278 service review, attach supporting clinical documentation, then read back the authorization decision.
   name: Availity Prior Authorization (X12 278)
   slug: availity-prior-authorization-workflow
-artifact_total: 195
+artifact_total: 206
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Availity Claim Attachments Auth Attachments API
   slug: open-availity-auth-attachments-api
@@ -211,8 +246,73 @@ collections:
   name: Availity Claim Attachments Auth Attachments Is Auth Required API
   slug: open-availity-is-auth-required-api
 common:
+- group: design
+  href: https://artifacts.apis.io/availity/rules/availity-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/availity-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/availity/rules/availity-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/availity-rules.yml
+- group: design
+  href: https://artifacts.apis.io/availity/rules/availity-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/availity-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/availity/json-ld/availity-service-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/availity-service-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/availity/json-ld/availity-eligibility-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/availity-eligibility-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/availity/json-ld/availity-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/availity-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/availity/json-ld/availity-claim-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/availity-claim-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/availity/json-ld/availity-availity-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/availity-availity-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/availity/vocabulary/availity-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/availity-vocabulary.yml
+- group: operate
+  href: https://artifacts.apis.io/availity/lifecycle/availity-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/availity-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/capabilities/availity-capability-edges.yml
+  href: https://artifacts.apis.io/availity/hosts/availity-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/availity-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/availity/integrations/availity-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/availity-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/availity/vendors/availity-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/availity-vendors.yml
+- group: other
+  href: https://artifacts.apis.io/availity/capabilities/availity-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/availity-capability-edges.yml
@@ -289,22 +389,22 @@ common:
   type: ArazzoWorkflows
   url: ''
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/agentic-access/availity-agentic-access.yml
+  href: https://artifacts.apis.io/availity/agentic-access/availity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/availity-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/security/availity-domain-security.yml
+  href: https://artifacts.apis.io/availity/security/availity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/availity-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/authentication/availity-authentication.yml
+  href: https://artifacts.apis.io/availity/authentication/availity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/availity-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/scopes/availity-scopes.yml
+  href: https://artifacts.apis.io/availity/scopes/availity-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/availity-scopes.yml
@@ -333,187 +433,187 @@ common:
   type: StatusPage
   url: https://status.availity.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/packages/availity-packages.yml
+  href: https://artifacts.apis.io/availity/packages/availity-packages.yml
   title: ''
   type: Packages
   url: packages/availity-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/packages/availity-packages.yml
+  href: https://artifacts.apis.io/availity/packages/availity-packages.yml
   title: ''
   type: SDKs
   url: packages/availity-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/cli/availity-cli.yml
+  href: https://artifacts.apis.io/availity/cli/availity-cli.yml
   title: ''
   type: CLI
   url: cli/availity-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/components/availity-components.yml
+  href: https://artifacts.apis.io/availity/components/availity-components.yml
   title: ''
   type: Components
   url: components/availity-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/sandbox/availity-sandbox.yml
+  href: https://artifacts.apis.io/availity/sandbox/availity-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/availity-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/conventions/availity-conventions.yml
+  href: https://artifacts.apis.io/availity/conventions/availity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/availity-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/errors/availity-problem-types.yml
+  href: https://artifacts.apis.io/availity/errors/availity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/availity-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/lifecycle/availity-lifecycle.yml
+  href: https://artifacts.apis.io/availity/lifecycle/availity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/availity-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/conformance/availity-conformance.yml
+  href: https://artifacts.apis.io/availity/conformance/availity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/availity-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/data-model/availity-data-model.yml
+  href: https://artifacts.apis.io/availity/data-model/availity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/availity-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/plans/availity-plans-pricing.yml
+  href: https://artifacts.apis.io/availity/plans/availity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/availity-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/rate-limits/availity-rate-limits.yml
+  href: https://artifacts.apis.io/availity/rate-limits/availity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/availity-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/finops/availity-finops.yml
+  href: https://artifacts.apis.io/availity/finops/availity-finops.yml
   title: ''
   type: FinOps
   url: finops/availity-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/availity/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/llms/availity-llms.txt
+  href: https://artifacts.apis.io/availity/llms/availity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/availity-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/_harvested/availity-aws-payer-list-swagger.json
+  href: https://artifacts.apis.io/availity/openapi/_harvested/availity-aws-payer-list-swagger.json
   title: ''
   type: OpenAPI
   url: openapi/_harvested/availity-aws-payer-list-swagger.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/_harvested/availity-care-cost-estimator-institutional-swagger.json
+  href: https://artifacts.apis.io/availity/openapi/_harvested/availity-care-cost-estimator-institutional-swagger.json
   title: ''
   type: OpenAPI
   url: openapi/_harvested/availity-care-cost-estimator-institutional-swagger.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/_harvested/availity-care-cost-estimator-professional-swagger.json
+  href: https://artifacts.apis.io/availity/openapi/_harvested/availity-care-cost-estimator-professional-swagger.json
   title: ''
   type: OpenAPI
   url: openapi/_harvested/availity-care-cost-estimator-professional-swagger.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/_harvested/availity-claim-statuses-swagger.json
+  href: https://artifacts.apis.io/availity/openapi/_harvested/availity-claim-statuses-swagger.json
   title: ''
   type: OpenAPI
   url: openapi/_harvested/availity-claim-statuses-swagger.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/_harvested/availity-configurations-swagger.json
+  href: https://artifacts.apis.io/availity/openapi/_harvested/availity-configurations-swagger.json
   title: ''
   type: OpenAPI
   url: openapi/_harvested/availity-configurations-swagger.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/_harvested/availity-coverages-swagger.json
+  href: https://artifacts.apis.io/availity/openapi/_harvested/availity-coverages-swagger.json
   title: ''
   type: OpenAPI
   url: openapi/_harvested/availity-coverages-swagger.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/_harvested/availity-dental-claims-swagger.json
+  href: https://artifacts.apis.io/availity/openapi/_harvested/availity-dental-claims-swagger.json
   title: ''
   type: OpenAPI
   url: openapi/_harvested/availity-dental-claims-swagger.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/_harvested/availity-dfs-swagger.json
+  href: https://artifacts.apis.io/availity/openapi/_harvested/availity-dfs-swagger.json
   title: ''
   type: OpenAPI
   url: openapi/_harvested/availity-dfs-swagger.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/_harvested/availity-patient-cost-estimator-professional-swagger.json
+  href: https://artifacts.apis.io/availity/openapi/_harvested/availity-patient-cost-estimator-professional-swagger.json
   title: ''
   type: OpenAPI
   url: openapi/_harvested/availity-patient-cost-estimator-professional-swagger.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/_harvested/availity-payer-list-swagger.json
+  href: https://artifacts.apis.io/availity/openapi/_harvested/availity-payer-list-swagger.json
   title: ''
   type: OpenAPI
   url: openapi/_harvested/availity-payer-list-swagger.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/_harvested/availity-service-reviews-swagger.json
+  href: https://artifacts.apis.io/availity/openapi/_harvested/availity-service-reviews-swagger.json
   title: ''
   type: OpenAPI
   url: openapi/_harvested/availity-service-reviews-swagger.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/overlays/availity-aws-payer-list-overlay.yaml
+  href: https://artifacts.apis.io/availity/overlays/availity-aws-payer-list-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/availity-aws-payer-list-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/overlays/availity-care-cost-estimator-institutional-overlay.yaml
+  href: https://artifacts.apis.io/availity/overlays/availity-care-cost-estimator-institutional-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/availity-care-cost-estimator-institutional-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/overlays/availity-care-cost-estimator-professional-overlay.yaml
+  href: https://artifacts.apis.io/availity/overlays/availity-care-cost-estimator-professional-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/availity-care-cost-estimator-professional-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/overlays/availity-claim-statuses-overlay.yaml
+  href: https://artifacts.apis.io/availity/overlays/availity-claim-statuses-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/availity-claim-statuses-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/overlays/availity-configurations-overlay.yaml
+  href: https://artifacts.apis.io/availity/overlays/availity-configurations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/availity-configurations-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/overlays/availity-coverages-overlay.yaml
+  href: https://artifacts.apis.io/availity/overlays/availity-coverages-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/availity-coverages-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/overlays/availity-dental-claims-overlay.yaml
+  href: https://artifacts.apis.io/availity/overlays/availity-dental-claims-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/availity-dental-claims-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/overlays/availity-dfs-overlay.yaml
+  href: https://artifacts.apis.io/availity/overlays/availity-dfs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/availity-dfs-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/overlays/availity-patient-cost-estimator-professional-overlay.yaml
+  href: https://artifacts.apis.io/availity/overlays/availity-patient-cost-estimator-professional-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/availity-patient-cost-estimator-professional-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/overlays/availity-payer-list-overlay.yaml
+  href: https://artifacts.apis.io/availity/overlays/availity-payer-list-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/availity-payer-list-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/overlays/availity-service-reviews-overlay.yaml
+  href: https://artifacts.apis.io/availity/overlays/availity-service-reviews-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/availity-service-reviews-overlay.yaml
@@ -644,12 +744,12 @@ features:
   name: ASC X12 EDI Standards
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Availity Finops
   primary_unit: ''
-  service_category: Healthcare Network / Clearinghouse
+  service_category: ''
   slug: availity-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/availity.png
 integrations:
 - description: Integrates with electronic health record systems to embed eligibility and claims workflows into clinical workflows.
@@ -980,22 +1080,22 @@ jsonld:
   property_count: 30
   slug: availity-service-context
 layout: provider
-modified: '2026-08-15'
+modified: '2026-10-20'
 name: Availity
 nav: Providers
 network: true
-overview: 'Availity publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth Attachments API, Claim Attachments API, Claim Status API, and 9 more. Tagged areas include Healthcare, Clearinghouse, HIPAA, X12 EDI, and Eligibility.
+overview: 'Availity publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth Attachments API, Claim Attachments API, Claim Status API, and 15 more. Tagged areas include Healthcare, Clearinghouse, HIPAA, X12 EDI, and Eligibility.
 
 
-  The Availity catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Availity catalog on APIs.io includes 5 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Availity''s developer surface includes developer portal, documentation, getting-started guide, support, authentication, API reference, engineering blog, and 58 more developer resources.'
+  Availity''s developer surface includes developer portal, documentation, getting-started guide, support, authentication, API reference, engineering blog, and 71 more developer resources.'
 plans:
 - name: Availity Plans Pricing
   plan_count: 7
   slug: availity-plans-pricing
-random_paper: 9
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Availity Rate Limits
@@ -1012,6 +1112,18 @@ rules:
     info: 2
     warn: 4
   slug: availity-jsonschema-spectral-rules
+- authorship: generated
+  effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Availity API Rules
+  rule_count: 15
+  severity_counts:
+    error: 13
+    hint: 0
+    info: 1
+    warn: 1
+  slug: availity-rules
 - authorship: generated
   effective_rule_count: 51
   extends:
@@ -1031,31 +1143,31 @@ scopes:
   summary_line: 10 scopes
 score:
   band: exemplar
-  composite: 67.3
+  composite: 68.4
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 37
     catalog_earned: 89.4
     catalog_earned_first_party: 24.0
     catalog_gap: 25.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 65.8
-    contract_governance: 45.5
-    contract_quality: 64.6
-    developer_ergonomics: 78.0
+    access_clarity: 73.7
+    contract_governance: 31.8
+    contract_quality: 60.1
+    developer_ergonomics: 80.4
     discoverability: 71.4
-    operational_transparency: 52.6
-  previous_composite: 68.9
+    operational_transparency: 60.5
+  previous_composite: 68.4
   provenance:
     agentic_access: derived
-    conformance: first-party
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 16
     mcp: derived
     skills: derived
   regulatory:
@@ -1064,13 +1176,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/screenshots/availity-2026-06-20T172716.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/availity/availity-2026-06-20T172716.png
 security:
 - kind: authentication
   name: Availity Authentication
@@ -1079,7 +1192,19 @@ security:
 - kind: domain-security
   name: Availity Domain Security
   slug: availity-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: availity-authenticate
+  slug: availity-authenticate
+- name: availity-claim-status-inquiry
+  slug: availity-claim-status-inquiry
+- name: availity-eligibility-and-benefits
+  slug: availity-eligibility-and-benefits
+- name: availity-patient-cost-estimate
+  slug: availity-patient-cost-estimate
+- name: availity-prior-authorization
+  slug: availity-prior-authorization
 slug: availity
 tags:
 - Healthcare

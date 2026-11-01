@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 72
   slug: microsoft-azure-monitor-agentic-access
   summary_line: 72 operations · 33 acting
-api_count: 18
+api_count: 15
 apis:
 - baseURL: https://management.azure.com
   baseurl_source: declared
@@ -170,7 +172,7 @@ arazzos:
 - description: Discover the metric definitions available for a resource and then pull the metric values for them.
   name: Azure Monitor Resource Metrics Explorer
   slug: microsoft-azure-monitor-resource-metrics-explorer-workflow
-artifact_total: 199
+artifact_total: 198
 collections:
 - collection_type: postman
   name: Azure Monitor Action Groups API
@@ -217,9 +219,6 @@ collections:
 - collection_type: postman
   name: Azure Monitor Scheduled Query Rules API
   slug: postman-azure-monitor-scheduled-query-rules
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure Monitor Action Groups API
   slug: open-azure-monitor-action-groups
@@ -324,42 +323,42 @@ collections:
   slug: open-microsoft-azure-monitor-test-notifications-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/plans/microsoft-azure-monitor-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/plans/microsoft-azure-monitor-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-azure-monitor-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/rate-limits/microsoft-azure-monitor-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/rate-limits/microsoft-azure-monitor-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-azure-monitor-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/finops/microsoft-azure-monitor-finops.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/finops/microsoft-azure-monitor-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-azure-monitor-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/capabilities/microsoft-azure-monitor-capability-edges.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/capabilities/microsoft-azure-monitor-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-azure-monitor-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/agentic-access/microsoft-azure-monitor-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/agentic-access/microsoft-azure-monitor-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-monitor-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/security/microsoft-azure-monitor-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/security/microsoft-azure-monitor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-monitor-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/authentication/microsoft-azure-monitor-authentication.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/authentication/microsoft-azure-monitor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-monitor-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/scopes/microsoft-azure-monitor-scopes.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/scopes/microsoft-azure-monitor-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-monitor-scopes.yml
@@ -368,52 +367,52 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/azure-monitor/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-action-group-lifecycle-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/arazzo/microsoft-azure-monitor-action-group-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-action-group-lifecycle-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-action-group-receiver-recovery-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/arazzo/microsoft-azure-monitor-action-group-receiver-recovery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-action-group-receiver-recovery-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-action-group-with-metric-alert-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/arazzo/microsoft-azure-monitor-action-group-with-metric-alert-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-action-group-with-metric-alert-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-activity-log-to-metrics-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/arazzo/microsoft-azure-monitor-activity-log-to-metrics-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-activity-log-to-metrics-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-alert-rule-audit-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/arazzo/microsoft-azure-monitor-alert-rule-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-alert-rule-audit-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-autoscale-inventory-reconfigure-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/arazzo/microsoft-azure-monitor-autoscale-inventory-reconfigure-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-autoscale-inventory-reconfigure-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-autoscale-setting-provision-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/arazzo/microsoft-azure-monitor-autoscale-setting-provision-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-autoscale-setting-provision-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-batch-metrics-query-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/arazzo/microsoft-azure-monitor-batch-metrics-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-batch-metrics-query-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-diagnostic-setting-provision-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/arazzo/microsoft-azure-monitor-diagnostic-setting-provision-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-diagnostic-setting-provision-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-resource-metrics-explorer-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-monitor/arazzo/microsoft-azure-monitor-resource-metrics-explorer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-resource-metrics-explorer-workflow.yml
@@ -486,7 +485,7 @@ common:
   type: Signup
   url: https://azure.microsoft.com/en-us/free
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/json-ld/azure-monitor-context.jsonld
+  href: https://artifacts.apis.io/microsoft-azure-monitor/json-ld/azure-monitor-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/azure-monitor-context.jsonld
@@ -494,10 +493,10 @@ created: '2024'
 description: Azure Monitor helps you maximize the availability and performance of your applications and services. It delivers a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Microsoft Azure Monitor Finops
-  primary_unit: ''
-  service_category: Observability / Monitoring
+  primary_unit: gb
+  service_category: ''
   slug: microsoft-azure-monitor-finops
   template: false
 image: https://azure.microsoft.com/svghandler/monitor/
@@ -855,9 +854,9 @@ overview: 'Azure Monitor publishes 19 API contracts indexed on the [APIs.io](htt
   Azure Monitor''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, pricing, and 30 more developer resources.'
 plans:
 - name: Microsoft Azure Monitor Plans Pricing
-  plan_count: 7
+  plan_count: 4
   slug: microsoft-azure-monitor-plans-pricing
-random_paper: 1
+random_paper: 23
 rate_limits:
 - limit_count: 8
   name: Microsoft Azure Monitor Rate Limits
@@ -881,23 +880,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: strong
-  composite: 58.2
+  composite: 63.2
   coverage:
     artifact_dirs: 22
-    catalog_earned: 66.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.8
+    catalog_earned: 78.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 36.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 9.8
-    contract_quality: 64.7
-    developer_ergonomics: 63.1
+    contract_quality: 62.0
+    developer_ergonomics: 65.5
     discoverability: 78.6
-    operational_transparency: 42.1
-  previous_composite: 59.7
+    operational_transparency: 44.7
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     contracts:
@@ -911,13 +910,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/screenshots/microsoft-azure-monitor-2026-06-20T185425.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-azure-monitor/microsoft-azure-monitor-2026-06-20T185425.png
 security:
 - kind: authentication
   name: Microsoft Azure Monitor Authentication

@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.5
-  scored_at: '2026-10-17'
+  score: 56.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 145
   slug: profound-agentic-access
   summary_line: 145 operations · 67 acting
-api_count: 4
+api_count: 1
 apis:
 - description: The inbound log-ingestion endpoint for Profound Agent Analytics. Customers POST batches of up to 1,000 web-request log entries as JSON (timestamp, method, host, path, status_code, ip, user_agent, plus
   name: Profound Agent Analytics Ingestion API
@@ -357,15 +359,15 @@ apis:
     question: Which web search results do AI engines pull up for my category's prompts?
   phrasing_ops: 62
   slug: profound-reports-api
-artifact_total: 25
+artifact_total: 28
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/capabilities/profound-capability-edges.yml
+  href: https://artifacts.apis.io/profound/capabilities/profound-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/profound-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/agentic-access/profound-agentic-access.yml
+  href: https://artifacts.apis.io/profound/agentic-access/profound-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/profound-agentic-access.yml
@@ -426,22 +428,22 @@ common:
   type: PrivacyPolicy
   url: https://www.tryprofound.com/legal/privacy-policy
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/_original/profound-external-api-openapi.json
+  href: https://artifacts.apis.io/profound/openapi/_original/profound-external-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/profound-external-api-openapi.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/overlays/profound-external-api-overlay.yaml
+  href: https://artifacts.apis.io/profound/overlays/profound-external-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/profound-external-api-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/packages/profound-packages.yml
+  href: https://artifacts.apis.io/profound/packages/profound-packages.yml
   title: ''
   type: Packages
   url: packages/profound-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/packages/profound-packages.yml
+  href: https://artifacts.apis.io/profound/packages/profound-packages.yml
   title: ''
   type: SDKs
   url: packages/profound-packages.yml
@@ -454,97 +456,97 @@ common:
   type: JavaScript SDK
   url: https://www.npmjs.com/package/@profoundai/client
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/mcp/profound-mcp.yml
+  href: https://artifacts.apis.io/profound/mcp/profound-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/profound-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/mcp/profound-tool-crosswalk.yml
+  href: https://artifacts.apis.io/profound/mcp/profound-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/profound-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/a2a/profound-a2a.yml
+  href: https://artifacts.apis.io/profound/a2a/profound-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/profound-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/profound/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/authentication/profound-authentication.yml
+  href: https://artifacts.apis.io/profound/authentication/profound-authentication.yml
   title: ''
   type: Authentication
   url: authentication/profound-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/scopes/profound-scopes.yml
+  href: https://artifacts.apis.io/profound/scopes/profound-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/profound-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/conventions/profound-conventions.yml
+  href: https://artifacts.apis.io/profound/conventions/profound-conventions.yml
   title: ''
   type: Conventions
   url: conventions/profound-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/errors/profound-problem-types.yml
+  href: https://artifacts.apis.io/profound/errors/profound-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/profound-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/data-model/profound-data-model.yml
+  href: https://artifacts.apis.io/profound/data-model/profound-data-model.yml
   title: ''
   type: DataModel
   url: data-model/profound-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/conformance/profound-conformance.yml
+  href: https://artifacts.apis.io/profound/conformance/profound-conformance.yml
   title: ''
   type: Conformance
   url: conformance/profound-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/changelog/profound-changelog.yml
+  href: https://artifacts.apis.io/profound/changelog/profound-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/profound-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/rate-limits/profound-rate-limits.yml
+  href: https://artifacts.apis.io/profound/rate-limits/profound-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/profound-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/plans/profound-plans-pricing.yml
+  href: https://artifacts.apis.io/profound/plans/profound-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/profound-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/lifecycle/profound-lifecycle.yml
+  href: https://artifacts.apis.io/profound/lifecycle/profound-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/profound-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/llms/profound-llms.txt
+  href: https://artifacts.apis.io/profound/llms/profound-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/profound-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/well-known/profound-well-known.yml
+  href: https://artifacts.apis.io/profound/well-known/profound-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/profound-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/well-known/profound-security.txt
+  href: https://artifacts.apis.io/profound/well-known/profound-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/profound-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/security/profound-domain-security.yml
+  href: https://artifacts.apis.io/profound/security/profound-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/profound-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/security/profound-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/profound/security/profound-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/profound-vulnerability-disclosure.yml
@@ -553,7 +555,7 @@ common:
   type: Security
   url: https://www.tryprofound.com/vulnerability-reporting
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/security/profound-trust-center.yml
+  href: https://artifacts.apis.io/profound/security/profound-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/profound-trust-center.yml
@@ -567,6 +569,14 @@ common:
   url: mailto:team@tryprofound.com
 created: '2026-07-17'
 description: Profound is a marketing platform for the AI era and a leading platform for Answer Engine Optimization (AEO). Operated by Cooper Square Technologies Inc. (dba Profound) in New York, it helps brands measure and improve how they are represented across AI answer engines and assistants — ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews and AI Mode, Copilot, and Grok — through answer-engine insights, agent analytics, prompt volumes, shopping visibility, and content optimization. Profound publishes a 125-operation OpenAPI 3.1 for its External API at api.tryprofound.com, runs a separate Agent Analytics Ingestion API, ships official Python and TypeScript SDKs, and operates a hosted remote MCP server at mcp.tryprofound.com with OAuth 2.1 and a conformant A2A agent card. API access is included on the Enterprise plan on request. Profound is SOC 2 and HIPAA aligned and publishes a responsible-disclosure policy. Backed by Kleiner Perkins.
+finops:
+- has_sources: true
+  method: derived
+  name: Profound Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: profound-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/profound.png
 layout: provider
 mcp_servers:
@@ -577,7 +587,7 @@ modified: '2026-09-16'
 name: Profound
 nav: Providers
 network: true
-overview: 'Profound publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Beta API, Bot Traffic Reports API, and 13 more. Tagged areas include Company, Artificial Intelligence, Answer Engine Optimization, AEO, and AI Search.
+overview: 'Profound publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Beta API, Bot Traffic Reports API, and 13 more. Tagged areas include Company, Artificial Intelligence, Answer Engine Optimization, AI Search, and Generative Engine Optimization.
 
 
   Profound''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 38 more developer resources.'
@@ -585,7 +595,10 @@ plans:
 - name: Profound Plans Pricing
   plan_count: 3
   slug: profound-plans-pricing
-random_paper: 19
+- name: Profound Price Estimates
+  plan_count: 0
+  slug: profound-price-estimates
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Profound Rate Limits
@@ -597,23 +610,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
   band: exemplar
-  composite: 67.3
+  composite: 66.8
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 1.1
   facets:
-    access_clarity: 75.0
+    access_clarity: 89.5
     contract_governance: 4.5
-    contract_quality: 49.3
+    contract_quality: 49.1
     developer_ergonomics: 81.0
-    discoverability: 80.0
-    operational_transparency: 65.8
-  previous_composite: 66.7
+    discoverability: 65.0
+    operational_transparency: 76.3
+  previous_composite: 65.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -630,13 +643,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 38.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/screenshots/profound-2026-08-17T080414.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/profound/profound-2026-08-17T080414.png
 security:
 - kind: authentication
   name: Profound Authentication
@@ -654,12 +668,15 @@ security:
   name: Profound Trust Center
   slug: profound-trust-center
   summary_line: SOC 2, HIPAA
+skill_count: 1
+skills:
+- name: Profound
+  slug: profound-profound-skill
 slug: profound
 tags:
 - Company
 - Artificial Intelligence
 - Answer Engine Optimization
-- AEO
 - AI Search
 - Generative Engine Optimization
 - Marketing

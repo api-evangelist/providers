@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 28.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 20
   slug: exactly-ai-agentic-access
   summary_line: 20 operations · 12 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.exactly.ai
   baseurl_source: declared
@@ -61,11 +63,8 @@ arazzos:
 - description: Create a custom style model, train it on brand images, then generate on-brand images once ready.
   name: Exactly.ai — train a style model and generate images
   slug: exactly-ai-train-and-generate
-artifact_total: 12
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Exactly Public Images v1 API
   slug: open-exactly-ai-images-v1-api
@@ -78,7 +77,7 @@ common:
   type: Blog
   url: https://exactly.ai/community/blog
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/plans/exactly-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/exactly-ai/plans/exactly-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/exactly-ai-plans-pricing.yml
@@ -87,17 +86,17 @@ common:
   type: Website
   url: https://www.exactly.ai/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/capabilities/exactly-ai-capability-edges.yml
+  href: https://artifacts.apis.io/exactly-ai/capabilities/exactly-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/exactly-ai-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/agentic-access/exactly-ai-agentic-access.yml
+  href: https://artifacts.apis.io/exactly-ai/agentic-access/exactly-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/exactly-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/security/exactly-ai-domain-security.yml
+  href: https://artifacts.apis.io/exactly-ai/security/exactly-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/exactly-ai-domain-security.yml
@@ -146,77 +145,85 @@ common:
   type: Compliance
   url: https://exactly.ai/help-center/data-protection-privacy-ico-registered-private-by-default
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/authentication/exactly-ai-authentication.yml
+  href: https://artifacts.apis.io/exactly-ai/authentication/exactly-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/exactly-ai-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/openapi/_original/exactly-ai-public-openapi-original.json
+  href: https://artifacts.apis.io/exactly-ai/openapi/_original/exactly-ai-public-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/exactly-ai-public-openapi-original.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/llms/exactly-ai-llms.txt
+  href: https://artifacts.apis.io/exactly-ai/llms/exactly-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/exactly-ai-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/errors/exactly-ai-problem-types.yml
+  href: https://artifacts.apis.io/exactly-ai/errors/exactly-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/exactly-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/conventions/exactly-ai-conventions.yml
+  href: https://artifacts.apis.io/exactly-ai/conventions/exactly-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/exactly-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/data-model/exactly-ai-data-model.yml
+  href: https://artifacts.apis.io/exactly-ai/data-model/exactly-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/exactly-ai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/lifecycle/exactly-ai-lifecycle.yml
+  href: https://artifacts.apis.io/exactly-ai/lifecycle/exactly-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/exactly-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/conformance/exactly-ai-conformance.yml
+  href: https://artifacts.apis.io/exactly-ai/conformance/exactly-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/exactly-ai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/mcp/exactly-ai-mcp.yml
+  href: https://artifacts.apis.io/exactly-ai/mcp/exactly-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/exactly-ai-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/overlays/exactly-ai-public-overlay.yaml
+  href: https://artifacts.apis.io/exactly-ai/overlays/exactly-ai-public-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/exactly-ai-public-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/skills/exactly-ai-train-style-model.md
+  href: https://artifacts.apis.io/exactly-ai/skills/exactly-ai-train-style-model.md
   title: ''
   type: AgentSkill
   url: skills/exactly-ai-train-style-model.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/skills/exactly-ai-generate-images.md
+  href: https://artifacts.apis.io/exactly-ai/skills/exactly-ai-generate-images.md
   title: ''
   type: AgentSkill
   url: skills/exactly-ai-generate-images.md
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/arazzo/exactly-ai-train-and-generate.yml
+  href: https://artifacts.apis.io/exactly-ai/arazzo/exactly-ai-train-and-generate.yml
   title: ''
   type: Arazzo
   url: arazzo/exactly-ai-train-and-generate.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/arazzo/exactly-ai-generate-and-postprocess.yml
+  href: https://artifacts.apis.io/exactly-ai/arazzo/exactly-ai-generate-and-postprocess.yml
   title: ''
   type: Arazzo
   url: arazzo/exactly-ai-generate-and-postprocess.yml
 created: '2026-07-17'
 description: Exactly.ai is a private, brand-safe AI image generation platform for brands, agencies, and creative teams. It trains custom AI "style" models from as few as ten brand images, then generates hundreds of on-brand image variations with consistent look and feel. Beyond generation the platform edits and animates images, pins characters, upscales to 8K, vectorizes to SVG, and removes backgrounds, with outputs fully licensed for commercial use and original artists compensated when their styles are used. Exactly.ai exposes an enterprise Public API (bearer-token authenticated) for programmatic model creation and training, image generation, upscaling, vectorization, and background removal, alongside the e.studio web product. The company is a portfolio company of Speedinvest and is tracked in the API Evangelist network.
+finops:
+- has_sources: true
+  method: derived
+  name: Exactly Ai Finops
+  primary_unit: 1 license & 50 credits
+  service_category: ''
+  slug: exactly-ai-finops
+  template: false
 image: https://framerusercontent.com/images/WlAkvz0GvPEt7p9O61w5Zp9WtY.png
 layout: provider
 modified: '2026-10-06'
@@ -234,26 +241,26 @@ plans:
 - name: Exactly Ai Price Estimates
   plan_count: 0
   slug: exactly-ai-price-estimates
-random_paper: 19
+random_paper: 1
 score:
   band: developing
-  composite: 50.6
+  composite: 52.6
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 49.0
+    artifact_dirs: 21
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 45.9
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 50.5
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -270,13 +277,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/screenshots/exactly-ai-2026-07-25T213837.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/exactly-ai/exactly-ai-2026-07-25T213837.png
 security:
 - kind: authentication
   name: Exactly Ai Authentication
@@ -286,6 +294,12 @@ security:
   name: Exactly Ai Domain Security
   slug: exactly-ai-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Generate on-brand images from a style model
+  slug: exactly-ai-generate-images
+- name: Train a custom exactly.ai style model
+  slug: exactly-ai-train-style-model
 slug: exactly-ai
 tags:
 - Company

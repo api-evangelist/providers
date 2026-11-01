@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.6
-  scored_at: '2026-10-17'
+  score: 30.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 11
   slug: mattermark-agentic-access
   summary_line: 11 operations
-api_count: 4
+api_count: 1
 apis:
 - description: 'GraphQL access to the Mattermark dataset using the Mattermark Search Filter Language (MSFL) for complex company and investor queries. Read-only: the published schema declares 57 types under a single R'
   name: Mattermark GraphQL API
@@ -80,15 +82,15 @@ apis:
   description: The Utilities API from Mattermark — 1 operation(s) for utilities.
   name: Mattermark Utilities API
   slug: mattermark-utilities-api
-artifact_total: 12
+artifact_total: 16
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/capabilities/mattermark-capability-edges.yml
+  href: https://artifacts.apis.io/mattermark/capabilities/mattermark-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mattermark-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/agentic-access/mattermark-agentic-access.yml
+  href: https://artifacts.apis.io/mattermark/agentic-access/mattermark-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mattermark-agentic-access.yml
@@ -133,102 +135,110 @@ common:
   type: GitHubOrganization
   url: https://github.com/mattermark
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/llms/mattermark-llms.txt
+  href: https://artifacts.apis.io/mattermark/llms/mattermark-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mattermark-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/authentication/mattermark-authentication.yml
+  href: https://artifacts.apis.io/mattermark/authentication/mattermark-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mattermark-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/conventions/mattermark-conventions.yml
+  href: https://artifacts.apis.io/mattermark/conventions/mattermark-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mattermark-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/errors/mattermark-problem-types.yml
+  href: https://artifacts.apis.io/mattermark/errors/mattermark-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mattermark-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/rate-limits/mattermark-rate-limits.yml
+  href: https://artifacts.apis.io/mattermark/rate-limits/mattermark-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mattermark-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/lifecycle/mattermark-lifecycle.yml
+  href: https://artifacts.apis.io/mattermark/lifecycle/mattermark-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mattermark-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/changelog/mattermark-changelog.yml
+  href: https://artifacts.apis.io/mattermark/changelog/mattermark-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mattermark-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/mcp/mattermark-mcp.yml
+  href: https://artifacts.apis.io/mattermark/mcp/mattermark-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mattermark-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/mcp/mattermark-tool-crosswalk.yml
+  href: https://artifacts.apis.io/mattermark/mcp/mattermark-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/mattermark-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/packages/mattermark-packages.yml
+  href: https://artifacts.apis.io/mattermark/packages/mattermark-packages.yml
   title: ''
   type: Packages
   url: packages/mattermark-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/conformance/mattermark-conformance.yml
+  href: https://artifacts.apis.io/mattermark/conformance/mattermark-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mattermark-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/data-model/mattermark-data-model.yml
+  href: https://artifacts.apis.io/mattermark/data-model/mattermark-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mattermark-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/security/mattermark-domain-security.yml
+  href: https://artifacts.apis.io/mattermark/security/mattermark-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mattermark-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/_original/mattermark-rest-api-openapi.yml
+  href: https://artifacts.apis.io/mattermark/openapi/_original/mattermark-rest-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/mattermark-rest-api-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/graphql/mattermark.graphql
+  href: https://artifacts.apis.io/mattermark/graphql/mattermark.graphql
   title: ''
   type: GraphQL
   url: graphql/mattermark.graphql
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/overlays/mattermark-rest-api-overlay.yaml
+  href: https://artifacts.apis.io/mattermark/overlays/mattermark-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mattermark-rest-api-overlay.yaml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/sandbox/mattermark-sandbox.yml
+  href: https://artifacts.apis.io/mattermark/sandbox/mattermark-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/mattermark-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/plans/mattermark-plans-pricing.yml
+  href: https://artifacts.apis.io/mattermark/plans/mattermark-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mattermark-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mattermark/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Mattermark is a business-intelligence platform for data-driven deal making, providing profiles on roughly four million companies and twenty million key contacts along with their investors, funding events, and news. Relaunched as an independent company, Mattermark exposes its dataset through a REST API (api.mattermark.com) and a GraphQL API (eapi.mattermark.com), both authenticated with a Bearer API key and queryable with the Mattermark Search Filter Language (MSFL). Originally an a16z / Slow Ventures / Version One Ventures-backed startup, it is tracked in the API Evangelist network as a company profile.
+finops:
+- has_sources: true
+  method: derived
+  name: Mattermark Finops
+  primary_unit: user
+  service_category: ''
+  slug: mattermark-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mattermark.png
 layout: provider
 modified: '2026-09-16'
@@ -243,30 +253,33 @@ plans:
 - name: Mattermark Plans Pricing
   plan_count: 4
   slug: mattermark-plans-pricing
-random_paper: 2
+- name: Mattermark Price Estimates
+  plan_count: 0
+  slug: mattermark-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Mattermark Rate Limits
   slug: mattermark-rate-limits
 score:
   band: developing
-  composite: 47.6
+  composite: 50.9
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 1.1
   facets:
-    access_clarity: 63.2
+    access_clarity: 71.1
     contract_governance: 4.5
     contract_quality: 52.4
-    developer_ergonomics: 51.8
-    discoverability: 78.6
-    operational_transparency: 18.4
-  previous_composite: 47.0
+    developer_ergonomics: 61.3
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -283,13 +296,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/screenshots/mattermark-2026-07-25T230426.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mattermark/mattermark-2026-07-25T230426.png
 security:
 - kind: authentication
   name: Mattermark Authentication
@@ -299,6 +313,12 @@ security:
   name: Mattermark Domain Security
   slug: mattermark-domain-security
   summary_line: TLSv1.3
+skill_count: 2
+skills:
+- name: Look up a company and enrich it from Mattermark
+  slug: mattermark-company-lookup-and-enrich
+- name: Analyse an investor's portfolio and funding activity with Mattermark
+  slug: mattermark-investor-portfolio-and-funding
 slug: mattermark
 tags:
 - Company

@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.1
-  scored_at: '2026-10-17'
+  score: 30.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -83,11 +85,8 @@ apis:
   description: The Sites API from VigLink (Sovrn Commerce) — 1 operation(s) for sites.
   name: VigLink (Sovrn Commerce) Sites API
   slug: viglink-sites-api
-artifact_total: 25
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bid Check Account API
   slug: open-viglink-account-api
@@ -122,7 +121,7 @@ common:
   type: BlogRSS
   url: https://www.sovrn.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/security/viglink-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/viglink/security/viglink-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/viglink-vulnerability-disclosure.yml
@@ -131,97 +130,97 @@ common:
   type: Security
   url: https://www.sovrn.com/responsible-disclosure-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/security/viglink-domain-security.yml
+  href: https://artifacts.apis.io/viglink/security/viglink-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/viglink-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/agentic-access/viglink-agentic-access.yml
+  href: https://artifacts.apis.io/viglink/agentic-access/viglink-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/viglink-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/authentication/viglink-authentication.yml
+  href: https://artifacts.apis.io/viglink/authentication/viglink-authentication.yml
   title: ''
   type: Authentication
   url: authentication/viglink-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/mcp/viglink-mcp.yml
+  href: https://artifacts.apis.io/viglink/mcp/viglink-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/viglink-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/llms/viglink-llms.txt
+  href: https://artifacts.apis.io/viglink/llms/viglink-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/viglink-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/well-known/viglink-well-known.yml
+  href: https://artifacts.apis.io/viglink/well-known/viglink-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/viglink-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/errors/viglink-problem-types.yml
+  href: https://artifacts.apis.io/viglink/errors/viglink-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/viglink-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/conventions/viglink-conventions.yml
+  href: https://artifacts.apis.io/viglink/conventions/viglink-conventions.yml
   title: ''
   type: Conventions
   url: conventions/viglink-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/rate-limits/viglink-rate-limits.yml
+  href: https://artifacts.apis.io/viglink/rate-limits/viglink-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/viglink-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/sandbox/viglink-sandbox.yml
+  href: https://artifacts.apis.io/viglink/sandbox/viglink-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/viglink-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/components/viglink-components.yml
+  href: https://artifacts.apis.io/viglink/components/viglink-components.yml
   title: ''
   type: Components
   url: components/viglink-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/data-model/viglink-data-model.yml
+  href: https://artifacts.apis.io/viglink/data-model/viglink-data-model.yml
   title: ''
   type: DataModel
   url: data-model/viglink-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/conformance/viglink-conformance.yml
+  href: https://artifacts.apis.io/viglink/conformance/viglink-conformance.yml
   title: ''
   type: Conformance
   url: conformance/viglink-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/lifecycle/viglink-lifecycle.yml
+  href: https://artifacts.apis.io/viglink/lifecycle/viglink-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/viglink-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/viglink/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/overlays/viglink-reports-overlay.yaml
+  href: https://artifacts.apis.io/viglink/overlays/viglink-reports-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/viglink-reports-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/overlays/viglink-merchant-summaries-overlay.yaml
+  href: https://artifacts.apis.io/viglink/overlays/viglink-merchant-summaries-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/viglink-merchant-summaries-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/overlays/viglink-product-promo-codes-overlay.yaml
+  href: https://artifacts.apis.io/viglink/overlays/viglink-product-promo-codes-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/viglink-product-promo-codes-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/overlays/viglink-price-comparisons-overlay.yaml
+  href: https://artifacts.apis.io/viglink/overlays/viglink-price-comparisons-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/viglink-price-comparisons-overlay.yaml
@@ -278,42 +277,50 @@ common:
   type: StatusPage
   url: https://status.sovrn.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/packages/viglink-packages.yml
+  href: https://artifacts.apis.io/viglink/packages/viglink-packages.yml
   title: ''
   type: Packages
   url: packages/viglink-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/packages/viglink-packages.yml
+  href: https://artifacts.apis.io/viglink/packages/viglink-packages.yml
   title: ''
   type: SDKs
   url: packages/viglink-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/mcp/viglink-tool-crosswalk.yml
+  href: https://artifacts.apis.io/viglink/mcp/viglink-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/viglink-tool-crosswalk.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/plans/viglink-plans-pricing.yml
+  href: https://artifacts.apis.io/viglink/plans/viglink-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/viglink-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/security/viglink-trust-center.yml
+  href: https://artifacts.apis.io/viglink/security/viglink-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/viglink-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/security/viglink-trust-center.yml
+  href: https://artifacts.apis.io/viglink/security/viglink-trust-center.yml
   title: ''
   type: Compliance
   url: security/viglink-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/well-known/viglink-security.txt
+  href: https://artifacts.apis.io/viglink/well-known/viglink-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/viglink-security.txt
 created: '2026-07-17'
 description: VigLink pioneered automatic affiliate link monetization for publishers, turning ordinary product links into revenue-generating affiliate links across a network of tens of thousands of merchants. Founded in 2009 and backed by investors including Uncork Capital, VigLink was acquired by Sovrn in early 2018 and now operates as Sovrn Commerce. The product's public APIs still run on VigLink infrastructure (api.viglink.com, rest.viglink.com, viglink.io) and cover link monetization checks, real-time bid checks, campaigns, real-time revenue reporting, merchant summaries, product recommendations, promo codes, and price comparisons, documented on the Sovrn Developer Center alongside a hosted Commerce MCP server for AI agents.
+finops:
+- has_sources: true
+  method: derived
+  name: Viglink Finops
+  primary_unit: ''
+  service_category: ''
+  slug: viglink-finops
+  template: true
 image: https://www.sovrn.com/favicon.ico
 layout: provider
 mcp_servers:
@@ -332,30 +339,35 @@ plans:
 - name: Viglink Plans Pricing
   plan_count: 1
   slug: viglink-plans-pricing
-random_paper: 8
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Viglink Rate Limits
   slug: viglink-rate-limits
 score:
   band: strong
-  composite: 58.6
+  composite: 62.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 56.0
     catalog_earned_first_party: 16.0
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 50.1
-    developer_ergonomics: 58.9
-    discoverability: 80.0
-    operational_transparency: 42.1
-  previous_composite: 56.4
+    developer_ergonomics: 73.2
+    discoverability: 70.0
+    operational_transparency: 52.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -378,13 +390,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/screenshots/viglink-2026-08-17T082748.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/viglink/viglink-2026-08-17T082748.png
 security:
 - kind: authentication
   name: Viglink Authentication
@@ -402,6 +415,12 @@ security:
   name: Viglink Trust Center
   slug: viglink-trust-center
   summary_line: TAG Platinum
+skill_count: 2
+skills:
+- name: Build commerce content with campaigns and product recommendations
+  slug: viglink-commerce-content
+- name: Check and monetize a merchant link
+  slug: viglink-monetize-a-link
 slug: viglink
 tags:
 - Affiliate Marketing

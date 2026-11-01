@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: ICONIQ Capital
 nav: Providers
 network: true
-random_paper: 14
+random_paper: 6
 slug: iconiq-capital
 tags:
 - Venture Capital

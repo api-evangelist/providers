@@ -19,7 +19,7 @@ name: Waveset
 nav: Providers
 network: true
 overview: Waveset is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity and Access Management, Provisioning, Security, and Enterprise Software.
-random_paper: 19
+random_paper: 23
 slug: waveset
 tags:
 - Company

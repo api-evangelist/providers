@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Autofleet''s public REST API and webhook surface for its fleet and mobility optimization platform — vehicles, drivers, tasks, rides, bookings, routes and dispatch — marketed on the integration page as '
@@ -66,32 +68,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/Autofleet
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autofleet/refs/heads/main/llms/autofleet-llms.txt
+  href: https://artifacts.apis.io/autofleet/llms/autofleet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/autofleet-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/autofleet/refs/heads/main/packages/autofleet-packages.yml
+  href: https://artifacts.apis.io/autofleet/packages/autofleet-packages.yml
   title: ''
   type: Packages
   url: packages/autofleet-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autofleet/refs/heads/main/well-known/autofleet-robots.txt
+  href: https://artifacts.apis.io/autofleet/well-known/autofleet-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/autofleet-robots.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autofleet/refs/heads/main/conformance/autofleet-conformance.yml
+  href: https://artifacts.apis.io/autofleet/conformance/autofleet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/autofleet-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autofleet/refs/heads/main/conformance/autofleet-conformance.yml
+  href: https://artifacts.apis.io/autofleet/conformance/autofleet-conformance.yml
   title: ''
   type: Compliance
   url: conformance/autofleet-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autofleet/refs/heads/main/security/autofleet-domain-security.yml
+  href: https://artifacts.apis.io/autofleet/security/autofleet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autofleet-domain-security.yml
@@ -126,10 +128,10 @@ overview: 'Autofleet is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Autofleet''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 1
+random_paper: 9
 score:
   band: emerging
-  composite: 18.0
+  composite: 17.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -143,9 +145,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 18.0
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 17.7
   provenance:
     conformance: first-party
   regulatory:
@@ -160,14 +162,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/autofleet/refs/heads/main/screenshots/autofleet-2026-08-07T161953.png
+screenshot: https://apis.io/screenshots/autofleet/autofleet-2026-08-07T161953.png
 security:
 - kind: domain-security
   name: Autofleet Domain Security

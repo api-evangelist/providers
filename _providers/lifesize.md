@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The automation and control interface built into Lifesize Icon video systems (models 300, 400, 450, 500, 600, 700, 800). It exposes a REST method for accessing a set of resources through a fixed set of
@@ -47,7 +49,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lifesize/refs/heads/main/security/lifesize-domain-security.yml
+  href: https://artifacts.apis.io/lifesize/security/lifesize-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lifesize-domain-security.yml
@@ -108,37 +110,37 @@ common:
   type: Downloads
   url: https://support.lifesize.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lifesize/refs/heads/main/authentication/lifesize-authentication.yml
+  href: https://artifacts.apis.io/lifesize/authentication/lifesize-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lifesize-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lifesize/refs/heads/main/conventions/lifesize-conventions.yml
+  href: https://artifacts.apis.io/lifesize/conventions/lifesize-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lifesize-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lifesize/refs/heads/main/cli/lifesize-cli.yml
+  href: https://artifacts.apis.io/lifesize/cli/lifesize-cli.yml
   title: ''
   type: CLI
   url: cli/lifesize-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lifesize/refs/heads/main/lifecycle/lifesize-lifecycle.yml
+  href: https://artifacts.apis.io/lifesize/lifecycle/lifesize-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lifesize-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lifesize/refs/heads/main/changelog/lifesize-changelog.yml
+  href: https://artifacts.apis.io/lifesize/changelog/lifesize-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lifesize-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lifesize/refs/heads/main/conformance/lifesize-conformance.yml
+  href: https://artifacts.apis.io/lifesize/conformance/lifesize-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lifesize-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lifesize/refs/heads/main/llms/lifesize-llms.txt
+  href: https://artifacts.apis.io/lifesize/llms/lifesize-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lifesize-llms.txt
@@ -155,26 +157,26 @@ overview: 'Lifesize is listed with 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Lifesize''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 15 more developer resources.'
-random_paper: 1
+random_paper: 19
 score:
   band: thin
-  composite: 32.9
+  composite: 33.5
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 31.6
-  previous_composite: 32.8
+  previous_composite: 33.5
   provenance:
     conformance: first-party
   regulatory:
@@ -183,14 +185,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lifesize/refs/heads/main/screenshots/lifesize-2026-07-25T225048.png
+screenshot: https://apis.io/screenshots/lifesize/lifesize-2026-07-25T225048.png
 security:
 - kind: authentication
   name: Lifesize Authentication

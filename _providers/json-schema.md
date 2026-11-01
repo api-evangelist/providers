@@ -4,6 +4,6 @@ layout: provider
 name: json-schema
 nav: Providers
 network: true
-random_paper: 12
+random_paper: 8
 slug: json-schema
 ---

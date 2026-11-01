@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 28.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -82,9 +84,6 @@ collections:
   name: Salesforce Knowledge Management REST Articles Suggestions API
   slug: postman-salesforce-knowledge-management-suggestions-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Salesforce Knowledge Management REST Articles API
   slug: open-salesforce-knowledge-management-articles-api
 - collection_type: open
@@ -100,8 +99,13 @@ collections:
   name: Salesforce Knowledge Management REST Articles Suggestions API
   slug: open-salesforce-knowledge-management-suggestions-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/salesforce-knowledge-management/plans/salesforce-knowledge-management-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/salesforce-knowledge-management-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/capabilities/salesforce-knowledge-management-capability-edges.yml
+  href: https://artifacts.apis.io/salesforce-knowledge-management/capabilities/salesforce-knowledge-management-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/salesforce-knowledge-management-capability-edges.yml
@@ -114,22 +118,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/salesforce-knowledge-management/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/agentic-access/salesforce-knowledge-management-agentic-access.yml
+  href: https://artifacts.apis.io/salesforce-knowledge-management/agentic-access/salesforce-knowledge-management-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/salesforce-knowledge-management-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/security/salesforce-knowledge-management-domain-security.yml
+  href: https://artifacts.apis.io/salesforce-knowledge-management/security/salesforce-knowledge-management-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/salesforce-knowledge-management-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/authentication/salesforce-knowledge-management-authentication.yml
+  href: https://artifacts.apis.io/salesforce-knowledge-management/authentication/salesforce-knowledge-management-authentication.yml
   title: ''
   type: Authentication
   url: authentication/salesforce-knowledge-management-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/scopes/salesforce-knowledge-management-scopes.yml
+  href: https://artifacts.apis.io/salesforce-knowledge-management/scopes/salesforce-knowledge-management-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/salesforce-knowledge-management-scopes.yml
@@ -174,27 +178,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/salesforce
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/rules/salesforce-knowledge-management-rules.yml
+  href: https://artifacts.apis.io/salesforce-knowledge-management/rules/salesforce-knowledge-management-rules.yml
   title: ''
   type: SpectralRules
   url: rules/salesforce-knowledge-management-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/json-schema/salesforce-knowledge-management-article-schema.json
+  href: https://artifacts.apis.io/salesforce-knowledge-management/json-schema/salesforce-knowledge-management-article-schema.json
   title: Knowledge Article Schema
   type: JSONSchema
   url: json-schema/salesforce-knowledge-management-article-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/json-schema/salesforce-knowledge-management-category-schema.json
+  href: https://artifacts.apis.io/salesforce-knowledge-management/json-schema/salesforce-knowledge-management-category-schema.json
   title: Knowledge Category Schema
   type: JSONSchema
   url: json-schema/salesforce-knowledge-management-category-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/json-ld/salesforce-knowledge-management-context.jsonld
+  href: https://artifacts.apis.io/salesforce-knowledge-management/json-ld/salesforce-knowledge-management-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/salesforce-knowledge-management-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/vocabulary/salesforce-knowledge-management-vocabulary.yml
+  href: https://artifacts.apis.io/salesforce-knowledge-management/vocabulary/salesforce-knowledge-management-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/salesforce-knowledge-management-vocabulary.yml
@@ -208,13 +212,13 @@ examples:
   name: Salesforce Knowledge Management Search Articles Example
   slug: salesforce-knowledge-management-search-articles-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Salesforce Knowledge Management Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: user
+  service_category: ''
   slug: salesforce-knowledge-management-finops
-  template: true
+  template: false
 image: https://www.salesforce.com/content/dam/web/en_us/www/images/sf-logo.svg
 json_schemas:
 - name: Salesforce Knowledge Article
@@ -243,12 +247,15 @@ overview: 'Salesforce Knowledge Management publishes 5 API contracts indexed on 
   The Salesforce Knowledge Management catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Knowledge Management''s developer surface includes authentication, engineering blog, getting-started guide, and 19 more developer resources.'
+  Salesforce Knowledge Management''s developer surface includes authentication, engineering blog, getting-started guide, and 20 more developer resources.'
 plans:
 - name: Salesforce Knowledge Management Plans Pricing
-  plan_count: 3
+  plan_count: 8
   slug: salesforce-knowledge-management-plans-pricing
-random_paper: 20
+- name: Salesforce Knowledge Management Price Estimates
+  plan_count: 0
+  slug: salesforce-knowledge-management-price-estimates
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Salesforce Knowledge Management Rate Limits
@@ -283,23 +290,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.3
+  composite: 51.7
   coverage:
     artifact_dirs: 21
-    catalog_earned: 58.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 56.3
+    catalog_earned: 70.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 28.9
+    access_clarity: 60.5
     contract_governance: 23.5
     contract_quality: 56.1
     developer_ergonomics: 44.0
     discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 44.8
+    operational_transparency: 28.9
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     contracts:
@@ -313,13 +320,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/screenshots/salesforce-knowledge-management-2026-06-20T193346.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/salesforce-knowledge-management/salesforce-knowledge-management-2026-06-20T193346.png
 security:
 - kind: authentication
   name: Salesforce Knowledge Management Authentication

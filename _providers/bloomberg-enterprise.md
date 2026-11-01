@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The core Bloomberg API providing real-time market data, reference data, historical data, and intraday tick data. SDKs available for C++, Java, Python, C#/.NET, and Perl. Connects to Bloomberg Terminal
@@ -51,17 +53,17 @@ apis:
 artifact_total: 18
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-enterprise/refs/heads/main/plans/bloomberg-enterprise-plans-pricing.yml
+  href: https://artifacts.apis.io/bloomberg-enterprise/plans/bloomberg-enterprise-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bloomberg-enterprise-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-enterprise/refs/heads/main/rate-limits/bloomberg-enterprise-rate-limits.yml
+  href: https://artifacts.apis.io/bloomberg-enterprise/rate-limits/bloomberg-enterprise-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bloomberg-enterprise-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-enterprise/refs/heads/main/finops/bloomberg-enterprise-finops.yml
+  href: https://artifacts.apis.io/bloomberg-enterprise/finops/bloomberg-enterprise-finops.yml
   title: ''
   type: FinOps
   url: finops/bloomberg-enterprise-finops.yml
@@ -86,7 +88,7 @@ common:
   type: ContributionGuide
   url: https://github.com/bloomberg/.github/blob/main/CONTRIBUTING.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-enterprise/refs/heads/main/security/bloomberg-enterprise-domain-security.yml
+  href: https://artifacts.apis.io/bloomberg-enterprise/security/bloomberg-enterprise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bloomberg-enterprise-domain-security.yml
@@ -131,7 +133,7 @@ finops:
 - has_sources: false
   method: generated
   name: Bloomberg Enterprise Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: bloomberg-enterprise-finops
   template: true
@@ -149,14 +151,14 @@ plans:
 - name: Bloomberg Enterprise Plans Pricing
   plan_count: 3
   slug: bloomberg-enterprise-plans-pricing
-random_paper: 19
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Bloomberg Enterprise Rate Limits
   slug: bloomberg-enterprise-rate-limits
 score:
   band: emerging
-  composite: 19.3
+  composite: 19.6
   coverage:
     artifact_dirs: 6
     catalog_earned: 41.0
@@ -164,29 +166,29 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 31.0
     discoverability: 62.5
-    operational_transparency: 10.5
-  previous_composite: 20.8
+    operational_transparency: 13.2
+  previous_composite: 19.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-enterprise/refs/heads/main/screenshots/bloomberg-enterprise-2026-06-20T173424.png
+screenshot: https://apis.io/screenshots/bloomberg-enterprise/bloomberg-enterprise-2026-06-20T173424.png
 security:
 - kind: domain-security
   name: Bloomberg Enterprise Domain Security

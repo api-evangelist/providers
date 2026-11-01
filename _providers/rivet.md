@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.6
-  scored_at: '2026-10-17'
+  score: 23.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -54,11 +56,8 @@ apis:
   description: The Gateway API from Rivet — 12 operation(s) for gateway.
   name: Rivet Gateway API
   slug: rivet-gateway-api
-artifact_total: 8
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: RivetKit Actors API
   slug: open-rivet-actors-api
@@ -66,6 +65,11 @@ collections:
   name: RivetKit Actors Gateway API
   slug: open-rivet-gateway-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/rivet/plans/rivet-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rivet-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -79,17 +83,17 @@ common:
   type: Website
   url: https://www.rivet.dev/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/overlays/rivet-rivetkit-overlay.yaml
+  href: https://artifacts.apis.io/rivet/overlays/rivet-rivetkit-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rivet-rivetkit-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/agentic-access/rivet-agentic-access.yml
+  href: https://artifacts.apis.io/rivet/agentic-access/rivet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rivet-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/security/rivet-domain-security.yml
+  href: https://artifacts.apis.io/rivet/security/rivet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rivet-domain-security.yml
@@ -138,72 +142,80 @@ common:
   type: Support
   url: https://www.rivet.dev/discord
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/packages/rivet-packages.yml
+  href: https://artifacts.apis.io/rivet/packages/rivet-packages.yml
   title: ''
   type: SDKs
   url: packages/rivet-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/packages/rivet-packages.yml
+  href: https://artifacts.apis.io/rivet/packages/rivet-packages.yml
   title: ''
   type: Packages
   url: packages/rivet-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/cli/rivet-cli.yml
+  href: https://artifacts.apis.io/rivet/cli/rivet-cli.yml
   title: ''
   type: CLI
   url: cli/rivet-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/mcp/rivet-mcp.yml
+  href: https://artifacts.apis.io/rivet/mcp/rivet-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rivet-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rivet/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/llms/rivet-llms.txt
+  href: https://artifacts.apis.io/rivet/llms/rivet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rivet-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/asyncapi/rivet-rivetkit-asyncapi.json
+  href: https://artifacts.apis.io/rivet/asyncapi/rivet-rivetkit-asyncapi.json
   title: ''
   type: AsyncAPI
   url: asyncapi/rivet-rivetkit-asyncapi.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/lifecycle/rivet-lifecycle.yml
+  href: https://artifacts.apis.io/rivet/lifecycle/rivet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rivet-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/conventions/rivet-conventions.yml
+  href: https://artifacts.apis.io/rivet/conventions/rivet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rivet-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/authentication/rivet-authentication.yml
+  href: https://artifacts.apis.io/rivet/authentication/rivet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rivet-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/errors/rivet-problem-types.yml
+  href: https://artifacts.apis.io/rivet/errors/rivet-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rivet-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/conformance/rivet-conformance.yml
+  href: https://artifacts.apis.io/rivet/conformance/rivet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rivet-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/changelog/rivet-changelog.yml
+  href: https://artifacts.apis.io/rivet/changelog/rivet-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rivet-changelog.yml
 created: '2026-07-17'
 description: Rivet is infrastructure for the agentic era, providing durable, stateful compute for AI agents and realtime applications. Its core primitive, Rivet Actors (RivetKit), is a runtime for long-lived processes that co-locate in-memory state with compute, support built-in WebSockets, workflows, queues, scheduling and cron, hibernate when idle, and scale from zero to thousands of instances across a global edge network. Rivet also ships agentOS, a lightweight WebAssembly-powered alternative to sandboxes for running coding agents, and Rivet Cloud, a managed serverless platform. RivetKit is open source (Apache-2.0), self-hostable on Postgres, the file system, or FoundationDB, with client SDKs for JavaScript, React, Rust, Swift and SwiftUI, a CLI, an OpenAPI-described gateway/inspector HTTP API and an AsyncAPI WebSocket protocol. Rivet is backed by Y Combinator and a16z Speedrun.
+finops:
+- has_sources: true
+  method: derived
+  name: Rivet Finops
+  primary_unit: node / month
+  service_category: ''
+  slug: rivet-finops
+  template: false
 image: https://rivet.dev/favicon.ico
 layout: provider
 modified: '2026-10-06'
@@ -213,27 +225,34 @@ network: true
 overview: 'Rivet publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Actors API and Gateway API. Tagged areas include Company, Infrastructure, Actors, Stateful Compute, and AI Agents.
 
 
-  Rivet''s developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 4
+  Rivet''s developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, pricing, signup flow, and 24 more developer resources.'
+plans:
+- name: Rivet Plans Pricing
+  plan_count: 9
+  slug: rivet-plans-pricing
+- name: Rivet Price Estimates
+  plan_count: 0
+  slug: rivet-price-estimates
+random_paper: 2
 score:
   band: developing
-  composite: 40.1
+  composite: 49.1
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 10.5
+    access_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 34.4
     developer_ergonomics: 78.6
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 40.0
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,13 +269,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/screenshots/rivet-2026-08-17T081626.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rivet/rivet-2026-08-17T081626.png
 security:
 - kind: authentication
   name: Rivet Authentication
@@ -266,6 +286,14 @@ security:
   name: Rivet Domain Security
   slug: rivet-domain-security
   summary_line: TLSv1.3
+skill_count: 3
+skills:
+- name: ai-agent
+  slug: rivet-ai-agent
+- name: chat-room
+  slug: rivet-chat-room
+- name: rivetkit
+  slug: rivet-rivetkit
 slug: rivet
 tags:
 - Company

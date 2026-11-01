@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.3
-  scored_at: '2026-10-17'
+  score: 29.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -77,7 +79,7 @@ apis:
   description: The Webhook Requests API from Coviu — 1 operation(s) for webhook requests.
   name: Coviu Webhook Requests API
   slug: coviu-webhook-requests-api
-artifact_total: 14
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Coviu Webhooks
@@ -87,78 +89,92 @@ collections:
   name: Coviu REST API
   slug: open-coviu-rest-api
 common:
+- group: other
+  href: https://artifacts.apis.io/coviu/capabilities/coviu-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/coviu-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/coviu/plans/coviu-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/coviu-plans-pricing.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/coviu/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/security/coviu-domain-security.yml
+  href: https://artifacts.apis.io/coviu/security/coviu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coviu-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/scopes/coviu-scopes.yml
+  href: https://artifacts.apis.io/coviu/scopes/coviu-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/coviu-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/agentic-access/coviu-agentic-access.yml
+  href: https://artifacts.apis.io/coviu/agentic-access/coviu-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/coviu-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/authentication/coviu-authentication.yml
+  href: https://artifacts.apis.io/coviu/authentication/coviu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coviu-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/packages/coviu-packages.yml
+  href: https://artifacts.apis.io/coviu/packages/coviu-packages.yml
   title: ''
   type: Packages
   url: packages/coviu-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/packages/coviu-packages.yml
+  href: https://artifacts.apis.io/coviu/packages/coviu-packages.yml
   title: ''
   type: SDKs
   url: packages/coviu-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/llms/coviu-llms.txt
+  href: https://artifacts.apis.io/coviu/llms/coviu-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/coviu-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/mcp/coviu-mcp.yml
+  href: https://artifacts.apis.io/coviu/mcp/coviu-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/coviu-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/mcp/coviu-tool-crosswalk.yml
+  href: https://artifacts.apis.io/coviu/mcp/coviu-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/coviu-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/overlays/coviu-rest-api-overlay.yaml
+  href: https://artifacts.apis.io/coviu/overlays/coviu-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coviu-rest-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/conventions/coviu-conventions.yml
+  href: https://artifacts.apis.io/coviu/conventions/coviu-conventions.yml
   title: ''
   type: Conventions
   url: conventions/coviu-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/errors/coviu-problem-types.yml
+  href: https://artifacts.apis.io/coviu/errors/coviu-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/coviu-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/lifecycle/coviu-lifecycle.yml
+  href: https://artifacts.apis.io/coviu/lifecycle/coviu-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/coviu-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/asyncapi/coviu-webhooks.yml
+  href: https://artifacts.apis.io/coviu/asyncapi/coviu-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/coviu-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/conformance/coviu-conformance.yml
+  href: https://artifacts.apis.io/coviu/conformance/coviu-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coviu-conformance.yml
@@ -167,17 +183,17 @@ common:
   type: Compliance
   url: https://www.coviu.com/en-au/compliance-and-security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/security/coviu-trust-center.yml
+  href: https://artifacts.apis.io/coviu/security/coviu-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/coviu-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/coviu/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/data-model/coviu-data-model.yml
+  href: https://artifacts.apis.io/coviu/data-model/coviu-data-model.yml
   title: ''
   type: DataModel
   url: data-model/coviu-data-model.yml
@@ -239,6 +255,14 @@ common:
   url: https://www.coviu.com/en-au/privacy-policy
 created: '2026-07-24'
 description: Coviu is an Australian telehealth company, headquartered in Sydney and spun out of CSIRO's Data61, that provides a purpose-built video consultation platform for healthcare providers, allied health, and enterprise clinical networks. Its browser-based, WebRTC video calling supports virtual care workflows including waiting rooms, in-call clinical tools, screen and file sharing, medical device integrations, and payments. For developers, Coviu ships a secure OAuth2-protected REST API (base https://api.coviu.com) that lets applications create and manage video consultation Sessions and Participants, monitor Waiting Area queues in real time, retrieve Collections (submissions, files, and audio recordings), and receive event Webhooks, plus an in-call Plugin API and embedded iframe mode. Coviu is a telehealth video/interoperability layer rather than an EHR or FHIR data platform, so its documented public surface is REST + webhooks, not HL7 FHIR.
+finops:
+- has_sources: true
+  method: derived
+  name: Coviu Finops
+  primary_unit: clinician/month*
+  service_category: ''
+  slug: coviu-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-07-24'
@@ -251,31 +275,38 @@ overview: 'Coviu publishes 7 API contracts indexed on the [APIs.io](https://apis
   The Coviu catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Coviu''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 26 more developer resources.'
-random_paper: 0
+  Coviu''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 29 more developer resources.'
+plans:
+- name: Coviu Plans Pricing
+  plan_count: 9
+  slug: coviu-plans-pricing
+- name: Coviu Price Estimates
+  plan_count: 0
+  slug: coviu-price-estimates
+random_paper: 22
 scopes:
 - name: Coviu Scopes
   scope_count: 0
   slug: coviu-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 47.1
+  band: strong
+  composite: 61.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 32.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    artifact_dirs: 25
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.8
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 51.2
-    developer_ergonomics: 41.1
-    discoverability: 64.3
-    operational_transparency: 18.4
+    contract_quality: 47.8
+    developer_ergonomics: 70.4
+    discoverability: 57.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -283,7 +314,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 47.1
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -306,13 +337,14 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/screenshots/coviu-2026-07-25T210604.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/coviu/coviu-2026-07-25T210604.png
 security:
 - kind: authentication
   name: Coviu Authentication
@@ -326,6 +358,14 @@ security:
   name: Coviu Trust Center
   slug: coviu-trust-center
   summary_line: ISO 27001, HIPAA, FERPA
+skill_count: 3
+skills:
+- name: Create a Coviu session and invite a participant
+  slug: coviu-create-session-and-invite
+- name: Monitor the Coviu waiting area
+  slug: coviu-monitor-waiting-area
+- name: Retrieve Coviu collection submissions and recordings
+  slug: coviu-retrieve-collection-recordings
 slug: coviu
 tags:
 - Healthcare

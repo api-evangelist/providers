@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Reusable prompt sets that drive Table extraction
   name: Robin AI Templates API
   slug: robin-ai-templates-api
-artifact_total: 58
+artifact_total: 57
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Robin Legal Intelligence Platform Documents API
   slug: open-robin-ai-documents-api
@@ -94,28 +93,32 @@ collections:
   name: Robin Legal Intelligence Platform API
   slug: open-robin-ai
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/robin-ai/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/capabilities/robin-ai-capability-edges.yml
+  href: https://artifacts.apis.io/robin-ai/capabilities/robin-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/robin-ai-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/agentic-access/robin-ai-agentic-access.yml
+  href: https://artifacts.apis.io/robin-ai/agentic-access/robin-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/robin-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/security/robin-ai-trust-center.yml
+  href: https://artifacts.apis.io/robin-ai/security/robin-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/robin-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/security/robin-ai-domain-security.yml
+  href: https://artifacts.apis.io/robin-ai/security/robin-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/robin-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/authentication/robin-ai-authentication.yml
+  href: https://artifacts.apis.io/robin-ai/authentication/robin-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/robin-ai-authentication.yml
@@ -160,17 +163,17 @@ common:
   type: Pricing
   url: https://robinai.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/plans/robin-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/robin-ai/plans/robin-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/robin-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/rate-limits/robin-ai-rate-limits.yml
+  href: https://artifacts.apis.io/robin-ai/rate-limits/robin-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/robin-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/finops/robin-ai-finops.yml
+  href: https://artifacts.apis.io/robin-ai/finops/robin-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/robin-ai-finops.yml
@@ -330,12 +333,12 @@ overview: 'Robin AI publishes 5 API contracts indexed on the [APIs.io](https://a
   The Robin AI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Robin AI''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, support, and 26 more developer resources.'
+  Robin AI''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, support, and 27 more developer resources.'
 plans:
 - name: Robin Ai Plans Pricing
   plan_count: 4
   slug: robin-ai-plans-pricing
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Robin Ai Rate Limits
@@ -365,8 +368,8 @@ rules:
     warn: 2
   slug: robin-ai-rules
 score:
-  band: thin
-  composite: 37.4
+  band: developing
+  composite: 44.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 61.5
@@ -374,14 +377,14 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.3
   facets:
-    access_clarity: 35.5
+    access_clarity: 60.5
     contract_governance: 13.6
     contract_quality: 55.0
-    developer_ergonomics: 38.1
-    discoverability: 67.0
-    operational_transparency: 2.6
+    developer_ergonomics: 39.3
+    discoverability: 67.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -390,7 +393,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 43.0
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     contracts:
@@ -403,14 +406,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 21.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/screenshots/robin-ai-2026-06-20T193139.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/robin-ai/robin-ai-2026-06-20T193139.png
 security:
 - kind: authentication
   name: Robin Ai Authentication

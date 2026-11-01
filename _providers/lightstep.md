@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Lightstep API provides programmatic access to observability data including traces, spans, streams, dashboards, alerting conditions, and service health. It enables teams to manage their observabili
@@ -43,22 +45,22 @@ apis:
 artifact_total: 21
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lightstep/refs/heads/main/plans/lightstep-plans-pricing.yml
+  href: https://artifacts.apis.io/lightstep/plans/lightstep-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lightstep-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lightstep/refs/heads/main/rate-limits/lightstep-rate-limits.yml
+  href: https://artifacts.apis.io/lightstep/rate-limits/lightstep-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lightstep-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lightstep/refs/heads/main/finops/lightstep-finops.yml
+  href: https://artifacts.apis.io/lightstep/finops/lightstep-finops.yml
   title: ''
   type: FinOps
   url: finops/lightstep-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lightstep/refs/heads/main/security/lightstep-domain-security.yml
+  href: https://artifacts.apis.io/lightstep/security/lightstep-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lightstep-domain-security.yml
@@ -147,14 +149,14 @@ plans:
 - name: Lightstep Plans Pricing
   plan_count: 2
   slug: lightstep-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Lightstep Rate Limits
   slug: lightstep-rate-limits
 score:
   band: thin
-  composite: 26.3
+  composite: 28.5
   coverage:
     artifact_dirs: 8
     catalog_earned: 36.0
@@ -162,29 +164,29 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 22.4
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 24.0
-    developer_ergonomics: 35.7
+    developer_ergonomics: 40.5
     discoverability: 57.1
     operational_transparency: 26.3
-  previous_composite: 27.8
+  previous_composite: 28.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lightstep/refs/heads/main/screenshots/lightstep-2026-06-20T184527.png
+screenshot: https://apis.io/screenshots/lightstep/lightstep-2026-06-20T184527.png
 security:
 - kind: domain-security
   name: Lightstep Domain Security

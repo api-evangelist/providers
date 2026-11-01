@@ -25,25 +25,27 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-17'
+  score: 6.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The ImandraX cloud-native automated reasoning engine, exposed as a protobuf-defined gRPC API. Services include Eval (evaluate code snippets, parse terms/types, manage artifacts), Simple (verify, test,
   name: ImandraX API
   slug: imandrax-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/plans/imandra-plans-pricing.yml
+  href: https://artifacts.apis.io/imandra/plans/imandra-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/imandra-plans-pricing.yml
@@ -96,52 +98,60 @@ common:
   type: PrivacyPolicy
   url: https://www.imandra.ai/legal
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/grpc/_index.yml
+  href: https://artifacts.apis.io/imandra/grpc/_index.yml
   title: ''
   type: Protobuf
   url: grpc/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/packages/imandra-packages.yml
+  href: https://artifacts.apis.io/imandra/packages/imandra-packages.yml
   title: ''
   type: Packages
   url: packages/imandra-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/packages/imandra-packages.yml
+  href: https://artifacts.apis.io/imandra/packages/imandra-packages.yml
   title: ''
   type: SDKs
   url: packages/imandra-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/mcp/imandra-mcp.yml
+  href: https://artifacts.apis.io/imandra/mcp/imandra-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/imandra-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/authentication/imandra-authentication.yml
+  href: https://artifacts.apis.io/imandra/authentication/imandra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/imandra-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/cli/imandra-cli.yml
+  href: https://artifacts.apis.io/imandra/cli/imandra-cli.yml
   title: ''
   type: CLI
   url: cli/imandra-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/conventions/imandra-conventions.yml
+  href: https://artifacts.apis.io/imandra/conventions/imandra-conventions.yml
   title: ''
   type: Conventions
   url: conventions/imandra-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/llms/imandra-llms.txt
+  href: https://artifacts.apis.io/imandra/llms/imandra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/imandra-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/security/imandra-domain-security.yml
+  href: https://artifacts.apis.io/imandra/security/imandra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/imandra-domain-security.yml
 created: '2026-07-17'
 description: Imandra Inc. delivers Reasoning as a Service — combining artificial intelligence with formal verification and automated reasoning. Its neurosymbolic platform builds mathematical models of software so that AI systems can understand, verify, and justify code behavior, prove correctness, and uncover hidden bugs. Core products include ImandraX, a cloud-native automated reasoning engine and theorem prover exposed over a protobuf/gRPC API; CodeLogician, an AI coding agent (with CLI and MCP server) that formalizes source code and reasons about it; IPL (Imandra Protocol Language) for modeling financial messaging protocols; and SpecLogician, which converts natural language into formal models. The tools are delivered through the hosted Imandra Universe platform and target financial infrastructure, autonomous workflows, and regulated industries where trustworthy, explainable AI reasoning is critical.
+finops:
+- has_sources: true
+  method: derived
+  name: Imandra Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: imandra-finops
+  template: false
 image: https://www.imandra.ai/images/og-image-default.png
 layout: provider
 mcp_servers:
@@ -160,26 +170,29 @@ plans:
 - name: Imandra Plans Pricing
   plan_count: 3
   slug: imandra-plans-pricing
-random_paper: 6
+- name: Imandra Price Estimates
+  plan_count: 0
+  slug: imandra-price-estimates
+random_paper: 12
 score:
-  band: developing
-  composite: 39.8
+  band: thin
+  composite: 38.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 49.0
+    artifact_dirs: 13
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 59.2
+    access_clarity: 84.2
     contract_governance: 0.0
-    contract_quality: 24.0
+    contract_quality: 0.0
     developer_ergonomics: 69.0
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 33.4
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 36.7
   provenance:
     mcp: first-party
   regulatory:
@@ -188,14 +201,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/screenshots/imandra-2026-07-25T222120.png
+screenshot: https://apis.io/screenshots/imandra/imandra-2026-07-25T222120.png
 security:
 - kind: authentication
   name: Imandra Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Agent-driven shopping surface on the uppercase storefront implementing the Universal Commerce Protocol over MCP: discover via /.well-known/ucp, then search_catalog, create_cart, create_checkout, updat'
@@ -70,37 +72,37 @@ common:
   type: PrivacyPolicy
   url: https://uppercase.co.in/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uppercase/refs/heads/main/mcp/uppercase-mcp.yml
+  href: https://artifacts.apis.io/uppercase/mcp/uppercase-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/uppercase-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uppercase/refs/heads/main/llms/uppercase-llms.txt
+  href: https://artifacts.apis.io/uppercase/llms/uppercase-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uppercase-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uppercase/refs/heads/main/well-known/uppercase-well-known.yml
+  href: https://artifacts.apis.io/uppercase/well-known/uppercase-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/uppercase-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uppercase/refs/heads/main/authentication/uppercase-authentication.yml
+  href: https://artifacts.apis.io/uppercase/authentication/uppercase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uppercase-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uppercase/refs/heads/main/scopes/uppercase-scopes.yml
+  href: https://artifacts.apis.io/uppercase/scopes/uppercase-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/uppercase-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uppercase/refs/heads/main/conformance/uppercase-conformance.yml
+  href: https://artifacts.apis.io/uppercase/conformance/uppercase-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uppercase-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uppercase/refs/heads/main/security/uppercase-domain-security.yml
+  href: https://artifacts.apis.io/uppercase/security/uppercase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uppercase-domain-security.yml
@@ -120,7 +122,7 @@ overview: 'Uppercase is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Uppercase''s developer surface includes engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 0
+random_paper: 8
 scopes:
 - name: Uppercase Scopes
   scope_count: 4
@@ -128,7 +130,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.9
+  composite: 22.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -136,15 +138,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 21.8
+  previous_composite: 22.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -154,14 +156,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/uppercase/refs/heads/main/screenshots/uppercase-2026-09-02T165053.png
+screenshot: https://apis.io/screenshots/uppercase/uppercase-2026-09-02T165053.png
 security:
 - kind: authentication
   name: Uppercase Authentication

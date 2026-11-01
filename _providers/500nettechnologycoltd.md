@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/500nettechnologycoltd/refs/heads/main/security/500nettechnologycoltd-domain-security.yml
+  href: https://artifacts.apis.io/500nettechnologycoltd/security/500nettechnologycoltd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/500nettechnologycoltd-domain-security.yml
@@ -53,7 +55,7 @@ common:
   type: InvestorRelations
   url: https://www.500net.com.tw/tw/Financials.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/500nettechnologycoltd/refs/heads/main/llms/500nettechnologycoltd-llms.txt
+  href: https://artifacts.apis.io/500nettechnologycoltd/llms/500nettechnologycoltd-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/500nettechnologycoltd-llms.txt
@@ -85,10 +87,10 @@ overview: '500net is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   500net''s developer surface includes support and 6 more developer resources.'
-random_paper: 4
+random_paper: 6
 score:
   band: minimal
-  composite: 5.3
+  composite: 4.7
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -102,7 +104,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 56.3
+    discoverability: 50.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -111,21 +113,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 5.3
+  previous_composite: 4.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/500nettechnologycoltd/refs/heads/main/screenshots/500nettechnologycoltd-2026-10-11T092134.png
+screenshot: https://apis.io/screenshots/500nettechnologycoltd/500nettechnologycoltd-2026-10-11T092134.png
 security:
 - kind: domain-security
   name: 500Nettechnologycoltd Domain Security

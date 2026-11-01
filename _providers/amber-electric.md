@@ -23,21 +23,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.2
-  scored_at: '2026-10-17'
+  score: 41.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,27 +47,66 @@ agentic_access:
   operation_count: 5
   slug: amber-electric-agentic-access
   summary_line: 5 operations
-api_count: 2
+api_count: 1
 apis:
 - description: Amber's Consumer Data Right energy data-holder surface, mandated by the Australian CDR regime extended from banking into energy and administered by the ACCC with standards set by the Data Standards Bo
   name: Amber Electric Consumer Data Right Energy API
   slug: amber-electric-cdr-energy-api
-- baseURL: https://api.amber.com.au/v1
+- baseURL: https://public.cdr.amber.com.au/cds-au/v1
   baseurl_source: declared
-  description: The Sites API from Amber Electric — 4 operation(s) for sites.
-  name: Amber Electric Sites API
-  slug: amber-electric-sites-api
-- baseURL: https://api.amber.com.au/v1
-  baseurl_source: declared
-  description: The State API from Amber Electric — 1 operation(s) for state.
-  name: Amber Electric State API
-  slug: amber-electric-state-api
-artifact_total: 9
+  description: The Amber API from Amber Electric — 5 operation(s) for amber.
+  name: Amber Electric Amber API
+  slug: amber-electric-amber-api
+artifact_total: 24
 collections:
 - collection_type: open
   name: Amber Electric Public API
   slug: open-amber-electric-public-api
 common:
+- group: other
+  href: https://artifacts.apis.io/amber-electric/capabilities/amber-electric-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amber-electric-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/amber-electric/plans/amber-electric-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amber-electric-plans-pricing.yml
+- group: design
+  href: https://artifacts.apis.io/amber-electric/rules/amber-electric-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/amber-electric-rules.yml
+- group: design
+  href: https://artifacts.apis.io/amber-electric/json-ld/amber-electric-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/amber-electric-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/amber-electric/vocabulary/amber-electric-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/amber-electric-vocabulary.yml
+- group: other
+  href: https://artifacts.apis.io/amber-electric/hosts/amber-electric-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/amber-electric-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/amber-electric/integrations/amber-electric-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/amber-electric-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/amber-electric/vendors/amber-electric-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/amber-electric-vendors.yml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.amber.com.au/hc/en-us/articles/360037454111-What-is-the-onboarding-process
 - group: company
   title: ''
   type: Blog
@@ -83,109 +124,104 @@ common:
   type: License
   url: https://github.com/amberelectric/public-api/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/agentic-access/amber-electric-agentic-access.yml
+  href: https://artifacts.apis.io/amber-electric/agentic-access/amber-electric-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amber-electric-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/security/amber-electric-domain-security.yml
+  href: https://artifacts.apis.io/amber-electric/security/amber-electric-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amber-electric-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/authentication/amber-electric-authentication.yml
+  href: https://artifacts.apis.io/amber-electric/authentication/amber-electric-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amber-electric-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/packages/amber-electric-packages.yml
+  href: https://artifacts.apis.io/amber-electric/packages/amber-electric-packages.yml
   title: ''
   type: Packages
   url: packages/amber-electric-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/packages/amber-electric-packages.yml
+  href: https://artifacts.apis.io/amber-electric/packages/amber-electric-packages.yml
   title: ''
   type: SDKs
   url: packages/amber-electric-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/well-known/amber-electric-well-known.yml
+  href: https://artifacts.apis.io/amber-electric/well-known/amber-electric-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amber-electric-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/llms/amber-electric-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/amber-electric-llms.txt
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/mcp/amber-electric-mcp.yml
+  href: https://artifacts.apis.io/amber-electric/mcp/amber-electric-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amber-electric-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/overlays/amber-electric-public-api-overlay.yaml
+  href: https://artifacts.apis.io/amber-electric/overlays/amber-electric-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amber-electric-public-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/conformance/amber-electric-conformance.yml
+  href: https://artifacts.apis.io/amber-electric/conformance/amber-electric-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amber-electric-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/errors/amber-electric-problem-types.yml
+  href: https://artifacts.apis.io/amber-electric/errors/amber-electric-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amber-electric-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/lifecycle/amber-electric-lifecycle.yml
+  href: https://artifacts.apis.io/amber-electric/lifecycle/amber-electric-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amber-electric-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/conventions/amber-electric-conventions.yml
+  href: https://artifacts.apis.io/amber-electric/conventions/amber-electric-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amber-electric-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/rate-limits/amber-electric-rate-limits.yml
+  href: https://artifacts.apis.io/amber-electric/rate-limits/amber-electric-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amber-electric-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/data-model/amber-electric-data-model.yml
+  href: https://artifacts.apis.io/amber-electric/data-model/amber-electric-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amber-electric-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/examples/amber-electric-examples.yml
+  href: https://artifacts.apis.io/amber-electric/examples/amber-electric-examples.yml
   title: ''
   type: Examples
   url: examples/amber-electric-examples.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/scopes/amber-electric-scopes.yml
+  href: https://artifacts.apis.io/amber-electric/scopes/amber-electric-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/amber-electric-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/skills/amber-electric-grid-renewables.md
+  href: https://artifacts.apis.io/amber-electric/skills/amber-electric-grid-renewables.md
   title: ''
   type: AgentSkill
   url: skills/amber-electric-grid-renewables.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/skills/amber-electric-site-prices.md
+  href: https://artifacts.apis.io/amber-electric/skills/amber-electric-site-prices.md
   title: ''
   type: AgentSkill
   url: skills/amber-electric-site-prices.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/skills/amber-electric-usage-history.md
+  href: https://artifacts.apis.io/amber-electric/skills/amber-electric-usage-history.md
   title: ''
   type: AgentSkill
   url: skills/amber-electric-usage-history.md
 - group: company
   title: ''
   type: Website
-  url: https://amber.com.au/
+  url: https://www.amber.com.au/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -193,7 +229,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://app.amber.com.au/developers
+  url: https://app.amber.com.au/developers/documentation/
 - group: docs
   title: ''
   type: APIReference
@@ -206,14 +242,10 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/amberelectric
-- group: company
-  title: ''
-  type: Blog
-  url: https://amber.com.au/blog
 - group: operate
   title: ''
   type: Support
-  url: https://help.amber.com.au/
+  url: https://help.amber.com.au/hc/en-us
 - group: operate
   title: ''
   type: Community
@@ -221,60 +253,133 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://amber.com.au/pricing
+  url: https://www.amber.com.au/pricing
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://amber.com.au/terms
+  url: https://www.amber.com.au/terms-and-conditions/terms
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://amber.com.au/privacy
+  url: https://www.amber.com.au/legal/privacy
 - group: start
   title: ''
   type: SignUp
-  url: https://app.amber.com.au/developers
+  url: https://app.amber.com.au/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://app.amber.com.au/sign-in
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://www.amber.com.au/status
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/amberelectric/
 created: '2026-07-27'
 description: 'Amber Electric is an Australian electricity retailer (ABN 98623603805) that sells wholesale National Electricity Market pricing straight through to residential customers on a flat monthly membership, rather than marking energy up, and automates home batteries, solar exports and EV charging against those half-hourly prices. It sits at the retail end of the Australian energy value chain, between AEMO''s wholesale market and the household meter. Its API posture is unusually honest and unusually split. Amber publishes a real, verbatim OpenAPI 3.0.0 contract for a REST API at https://api.amber.com.au/v1 covering sites, prices, forecasts and usage, but the token that unlocks it is generated inside the logged-in customer app at https://app.amber.com.au/developers, so the API is customer-account-required rather than self-serve — a developer who is not an Amber customer cannot obtain a key. One endpoint is the exception: the spec explicitly declares `security: []` on GET /state/{state}/renewables/current,
   and that grid renewables-percentage feed really does answer anonymously for NSW, VIC, QLD and SA, so open market data and gated consumer data live inside the same contract. Separately, Amber is a designated Consumer Data Right energy data holder that is genuinely live, not merely designated: it is listed on the ACCC CDR Register with a working public base URI at https://public.cdr.amber.com.au, whose CDS discovery endpoints and anonymously-served OpenID Connect configuration advertise the full Consumer Data Standards energy scope set behind private_key_jwt and CDR accreditation.'
+finops:
+- has_sources: true
+  method: derived
+  name: Amber Electric Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: amber-electric-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amber-electric.png
+json_schemas:
+- name: ActualInterval
+  property_count: 0
+  slug: amber-electric-actual-interval
+- name: ActualRenewable
+  property_count: 0
+  slug: amber-electric-actual-renewable
+- name: CurrentInterval
+  property_count: 0
+  slug: amber-electric-current-interval
+- name: CurrentRenewable
+  property_count: 0
+  slug: amber-electric-current-renewable
+- name: ForecastInterval
+  property_count: 0
+  slug: amber-electric-forecast-interval
+- name: ForecastRenewable
+  property_count: 0
+  slug: amber-electric-forecast-renewable
+- name: Site
+  property_count: 7
+  slug: amber-electric-site
+- name: Usage
+  property_count: 0
+  slug: amber-electric-usage
+jsonld:
+- class_count: 10
+  name: Amber Electric Context
+  property_count: 28
+  slug: amber-electric-context
 layout: provider
-modified: '2026-10-06'
+modified: '2026-10-21'
 name: Amber Electric
 nav: Providers
 network: true
-overview: 'Amber Electric publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Sites API, State API, and 1 more. Tagged areas include Energy, Australia, Electricity, Utilities, and Consumer Data Right.
+overview: 'Amber Electric publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Amber API, and 1 more. Tagged areas include Energy, Australia, Electricity, Utilities, and Consumer Data Right.
 
 
-  Amber Electric''s developer surface includes engineering blog, authentication, code examples, documentation, API reference, support, pricing, and 30 more developer resources.'
-random_paper: 21
+  The Amber Electric catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Amber Electric''s developer surface includes getting-started guide, engineering blog, authentication, code examples, documentation, API reference, support, and 40 more developer resources.'
+plans:
+- name: Amber Electric Plans Pricing
+  plan_count: 1
+  slug: amber-electric-plans-pricing
+- name: Amber Electric Price Estimates
+  plan_count: 0
+  slug: amber-electric-price-estimates
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Amber Electric Rate Limits
   slug: amber-electric-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Amber Electric API Rules
+  rule_count: 15
+  severity_counts:
+    error: 13
+    hint: 0
+    info: 1
+    warn: 1
+  slug: amber-electric-rules
 scopes:
 - name: Amber Electric Scopes
   scope_count: 16
   slug: amber-electric-scopes
   summary_line: 16 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 49.4
+  band: exemplar
+  composite: 66.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 34
+    catalog_earned: 81.8
+    catalog_earned_first_party: 16.0
+    catalog_gap: 33.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 44.7
-    contract_governance: 18.2
-    contract_quality: 52.0
-    developer_ergonomics: 54.2
+    access_clarity: 73.7
+    contract_governance: 35.6
+    contract_quality: 70.3
+    developer_ergonomics: 66.1
     discoverability: 66.1
-    operational_transparency: 23.7
+    operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -282,7 +387,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 49.4
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -290,7 +395,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 1
     mcp: derived
     skills: derived
   regulatory:
@@ -299,14 +404,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/screenshots/amber-electric-2026-08-07T161314.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amber-electric/amber-electric-2026-08-07T161314.png
 security:
 - kind: authentication
   name: Amber Electric Authentication
@@ -315,7 +420,15 @@ security:
 - kind: domain-security
   name: Amber Electric Domain Security
   slug: amber-electric-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: amber-electric-grid-renewables
+  slug: amber-electric-grid-renewables
+- name: amber-electric-site-prices
+  slug: amber-electric-site-prices
+- name: amber-electric-usage-history
+  slug: amber-electric-usage-history
 slug: amber-electric
 tags:
 - Energy
@@ -330,5 +443,5 @@ tags:
 - DER
 - Smart Metering
 - Wholesale Pricing
-website: https://amber.com.au/
+website: https://www.amber.com.au/
 ---

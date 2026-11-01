@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Versioned /v1 REST API for the Zenoss (Virtana Service Observability) platform. Covers the data receiver (metrics, events, entity models), event query and event management, model context (entity searc
@@ -46,7 +48,7 @@ apis:
 - description: The long-standing Zenoss JSON router API, still documented and supported for Zenoss Cloud Collection Zones and on-premises Zenoss Resource Manager / Service Dynamics. Every call is an HTTP POST of a J
   name: Zenoss API for Collection Zone and Resource Manager
   slug: zenoss-router-api
-artifact_total: 10
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Zenoss Webhooks
@@ -117,12 +119,12 @@ common:
   type: ChangeLog
   url: https://docs.zenoss.io/admin/updates/cloud-updates.html
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/changelog/zenoss-changelog.yml
+  href: https://artifacts.apis.io/zenoss/changelog/zenoss-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zenoss-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/lifecycle/zenoss-lifecycle.yml
+  href: https://artifacts.apis.io/zenoss/lifecycle/zenoss-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zenoss-lifecycle.yml
@@ -135,88 +137,88 @@ common:
   type: TrustCenter
   url: https://www.virtana.com/trust/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/security/zenoss-trust-center.yml
+  href: https://artifacts.apis.io/zenoss/security/zenoss-trust-center.yml
   title: ''
   type: Compliance
   url: security/zenoss-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/conformance/zenoss-conformance.yml
+  href: https://artifacts.apis.io/zenoss/conformance/zenoss-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zenoss-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/packages/zenoss-packages.yml
+  href: https://artifacts.apis.io/zenoss/packages/zenoss-packages.yml
   title: ''
   type: Packages
   url: packages/zenoss-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/packages/zenoss-packages.yml
+  href: https://artifacts.apis.io/zenoss/packages/zenoss-packages.yml
   title: ''
   type: SDKs
   url: packages/zenoss-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/authentication/zenoss-authentication.yml
+  href: https://artifacts.apis.io/zenoss/authentication/zenoss-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zenoss-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/conventions/zenoss-conventions.yml
+  href: https://artifacts.apis.io/zenoss/conventions/zenoss-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zenoss-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/errors/zenoss-problem-types.yml
+  href: https://artifacts.apis.io/zenoss/errors/zenoss-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zenoss-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/data-model/zenoss-data-model.yml
+  href: https://artifacts.apis.io/zenoss/data-model/zenoss-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zenoss-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/asyncapi/zenoss-webhooks.yml
+  href: https://artifacts.apis.io/zenoss/asyncapi/zenoss-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zenoss-webhooks.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/plans/zenoss-plans-pricing.yml
+  href: https://artifacts.apis.io/zenoss/plans/zenoss-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zenoss-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/rate-limits/zenoss-rate-limits.yml
+  href: https://artifacts.apis.io/zenoss/rate-limits/zenoss-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zenoss-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/finops/zenoss-finops.yml
+  href: https://artifacts.apis.io/zenoss/finops/zenoss-finops.yml
   title: ''
   type: FinOps
   url: finops/zenoss-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/security/zenoss-domain-security.yml
+  href: https://artifacts.apis.io/zenoss/security/zenoss-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zenoss-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zenoss/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/llms/zenoss-llms.txt
+  href: https://artifacts.apis.io/zenoss/llms/zenoss-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zenoss-llms.txt
 created: '2026-03-27'
 description: Zenoss is an AIOps and full-stack IT infrastructure monitoring platform, acquired by Virtana in May 2025 and now sold as Virtana Service Observability. It ingests metrics, events and entity models from hybrid estates — VMware, Nutanix, Kubernetes, AWS, Azure, GCP, network and storage — through on-premises Collection Zones, streaming agents and OpenTelemetry/OTLP, then applies dependency mapping, event correlation and anomaly detection to turn raw signal into service impact. The developer surface is a versioned /v1 REST API covering data ingest, event query and management, entity/model context, maintenance windows, the metric dictionary, notification Actions, credentials and user management, plus first-party proto3/gRPC contracts for the data receiver and data registry. API clients authenticate with a long-lived key in the zenoss-api-key header, issued per API Client from the console, and each tenant is assigned one of four regional endpoints.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Zenoss Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: zenoss-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zenoss.png
@@ -236,30 +238,30 @@ plans:
 - name: Zenoss Plans Pricing
   plan_count: 0
   slug: zenoss-plans-pricing
-random_paper: 14
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Zenoss Rate Limits
   slug: zenoss-rate-limits
 score:
   band: developing
-  composite: 50.1
+  composite: 51.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 44.5
     catalog_earned_first_party: 0.0
     catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 31.8
     contract_quality: 39.0
     developer_ergonomics: 56.5
-    discoverability: 78.6
-    operational_transparency: 50.0
-  previous_composite: 51.6
+    discoverability: 71.4
+    operational_transparency: 52.6
+  previous_composite: 51.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -270,14 +272,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/screenshots/zenoss-2026-06-20T201817.png
+screenshot: https://apis.io/screenshots/zenoss/zenoss-2026-06-20T201817.png
 security:
 - kind: authentication
   name: Zenoss Authentication
@@ -291,6 +293,16 @@ security:
   name: Zenoss Trust Center
   slug: zenoss-trust-center
   summary_line: SOC 2 Type II, CSA STAR Registry
+skill_count: 4
+skills:
+- name: zenoss-ingest-telemetry
+  slug: zenoss-ingest-telemetry
+- name: zenoss-maintenance-windows
+  slug: zenoss-maintenance-windows
+- name: zenoss-notification-actions
+  slug: zenoss-notification-actions
+- name: zenoss-triage-events
+  slug: zenoss-triage-events
 slug: zenoss
 tags:
 - AIOps

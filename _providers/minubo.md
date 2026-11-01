@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 28.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 8
   slug: minubo-agentic-access
   summary_line: 8 operations · 3 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.minubo.com
   baseurl_source: declared
@@ -67,11 +69,8 @@ arazzos:
 - description: Authenticate, start an ETL process, and read its status.
   name: Trigger a Minubo ETL run and monitor it
   slug: minubo-trigger-etl-and-monitor
-artifact_total: 13
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Minubo Auth API
   slug: open-minubo-auth-api
@@ -82,17 +81,22 @@ collections:
   name: Minubo Auth ETL API
   slug: open-minubo-etl-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/minubo/plans/minubo-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/minubo-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://blog.minubo.com/de/ecommerce-insights/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/capabilities/minubo-capability-edges.yml
+  href: https://artifacts.apis.io/minubo/capabilities/minubo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/minubo-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/overlays/minubo-api-overlay.yaml
+  href: https://artifacts.apis.io/minubo/overlays/minubo-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/minubo-api-overlay.yaml
@@ -145,77 +149,85 @@ common:
   type: StatusPage
   url: https://status.minubo.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/authentication/minubo-authentication.yml
+  href: https://artifacts.apis.io/minubo/authentication/minubo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/minubo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/conventions/minubo-conventions.yml
+  href: https://artifacts.apis.io/minubo/conventions/minubo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/minubo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/errors/minubo-problem-types.yml
+  href: https://artifacts.apis.io/minubo/errors/minubo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/minubo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/lifecycle/minubo-lifecycle.yml
+  href: https://artifacts.apis.io/minubo/lifecycle/minubo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/minubo-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/rate-limits/minubo-rate-limits.yml
+  href: https://artifacts.apis.io/minubo/rate-limits/minubo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/minubo-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/data-model/minubo-data-model.yml
+  href: https://artifacts.apis.io/minubo/data-model/minubo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/minubo-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/conformance/minubo-conformance.yml
+  href: https://artifacts.apis.io/minubo/conformance/minubo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/minubo-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/mcp/minubo-mcp.yml
+  href: https://artifacts.apis.io/minubo/mcp/minubo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/minubo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/llms/minubo-llms.txt
+  href: https://artifacts.apis.io/minubo/llms/minubo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/minubo-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/minubo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/arazzo/minubo-query-commerce-data.yml
+  href: https://artifacts.apis.io/minubo/arazzo/minubo-query-commerce-data.yml
   title: ''
   type: Arazzo
   url: arazzo/minubo-query-commerce-data.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/arazzo/minubo-trigger-etl-and-monitor.yml
+  href: https://artifacts.apis.io/minubo/arazzo/minubo-trigger-etl-and-monitor.yml
   title: ''
   type: Arazzo
   url: arazzo/minubo-trigger-etl-and-monitor.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/security/minubo-domain-security.yml
+  href: https://artifacts.apis.io/minubo/security/minubo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/minubo-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/agentic-access/minubo-agentic-access.yml
+  href: https://artifacts.apis.io/minubo/agentic-access/minubo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/minubo-agentic-access.yml
 created: '2026-07-17'
 description: Minubo is a German business-intelligence platform for e-commerce and retail that integrates, models, and contextualizes commerce data — orders, products, customers, and suppliers — into AI Insights, Profit Management, reporting, and a supplier portal. Minubo also exposes a public REST API (Auth, ETL, and Data services) so tenants can authenticate with a JWT, trigger and monitor data loads, discover their queryable schema, and run queries against their modeled commerce data, plus connectors to tools like Power BI, Superset, n8n, and LLMs.
+finops:
+- has_sources: true
+  method: derived
+  name: Minubo Finops
+  primary_unit: ''
+  service_category: ''
+  slug: minubo-finops
+  template: true
 image: https://www.minubo.com/hubfs/minubo_logo_rz_POS_20210924.svg
 layout: provider
 modified: '2026-10-06'
@@ -225,36 +237,40 @@ network: true
 overview: 'Minubo publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Auth API, Data API, and ETL API. Tagged areas include Company, E-Commerce, Business Intelligence, Analytics, and Retail.
 
 
-  Minubo''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 22 more developer resources.'
-random_paper: 12
+  Minubo''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 23 more developer resources.'
+plans:
+- name: Minubo Plans Pricing
+  plan_count: 2
+  slug: minubo-plans-pricing
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Minubo Rate Limits
   slug: minubo-rate-limits
 score:
   band: developing
-  composite: 46.1
+  composite: 50.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 23
+    catalog_earned: 53.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.2
   facets:
-    access_clarity: 44.7
+    access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 48.2
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - germany
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 46.0
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,13 +287,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/screenshots/minubo-2026-08-07T173004.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/minubo/minubo-2026-08-07T173004.png
 security:
 - kind: authentication
   name: Minubo Authentication
@@ -287,6 +304,12 @@ security:
   name: Minubo Domain Security
   slug: minubo-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Query Minubo commerce data
+  slug: minubo-query-commerce-data
+- name: Trigger a Minubo ETL run and monitor it
+  slug: minubo-trigger-etl-and-monitor
 slug: minubo
 tags:
 - Company

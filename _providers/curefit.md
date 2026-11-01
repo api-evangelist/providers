@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/curefit/refs/heads/main/hosts/curefit-hosts.yml
+  href: https://artifacts.apis.io/curefit/hosts/curefit-hosts.yml
   title: ''
   type: Hosts
   url: hosts/curefit-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/curefit/refs/heads/main/vendors/curefit-vendors.yml
+  href: https://artifacts.apis.io/curefit/vendors/curefit-vendors.yml
   title: ''
   type: Vendors
   url: vendors/curefit-vendors.yml
@@ -58,12 +60,12 @@ common:
   type: Blog
   url: https://blog.cult.fit/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/curefit/refs/heads/main/security/curefit-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/curefit/security/curefit-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/curefit-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/curefit/refs/heads/main/security/curefit-domain-security.yml
+  href: https://artifacts.apis.io/curefit/security/curefit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/curefit-domain-security.yml
@@ -91,7 +93,7 @@ overview: 'Curefit is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Curefit''s developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 6
+random_paper: 10
 score:
   band: emerging
   composite: 12.4
@@ -102,6 +104,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -109,6 +112,14 @@ score:
     developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
+  previous_composite: 12.4
   provenance:
     mcp: derived
   regulatory:
@@ -117,8 +128,9 @@ score:
     regime: Health
     regime_id: health
     score: 15.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 47.8
-  scored_at: '2026-10-17'
+  score: 47.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 1
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 220
   slug: getresponse-agentic-access
   summary_line: 220 operations · 93 acting · 1 human-in-the-loop
-api_count: 51
+api_count: 50
 apis:
 - baseURL: https://api.getresponse.com/v3
   baseurl_source: declared
@@ -999,7 +1001,7 @@ apis:
     question: Which automation workflows exist in my account?
   phrasing_ops: 3
   slug: getresponse-workflows-api
-artifact_total: 106
+artifact_total: 111
 asyncapis:
 - description: ''
   name: Getresponse Webhooks
@@ -1154,17 +1156,17 @@ collections:
   slug: open-getresponse-workflows
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/capabilities/getresponse-capability-edges.yml
+  href: https://artifacts.apis.io/getresponse/capabilities/getresponse-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/getresponse-capability-edges.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/openapi/_original/getresponse-open-api-original.json
+  href: https://artifacts.apis.io/getresponse/openapi/_original/getresponse-open-api-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/getresponse-open-api-original.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/well-known/getresponse-well-known.yml
+  href: https://artifacts.apis.io/getresponse/well-known/getresponse-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/getresponse-well-known.yml
@@ -1173,62 +1175,62 @@ common:
   type: APICatalog
   url: https://www.getresponse.com/.well-known/api-catalog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/llms/getresponse-llms.txt
+  href: https://artifacts.apis.io/getresponse/llms/getresponse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/getresponse-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/getresponse/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/packages/getresponse-packages.yml
+  href: https://artifacts.apis.io/getresponse/packages/getresponse-packages.yml
   title: ''
   type: Packages
   url: packages/getresponse-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/packages/getresponse-packages.yml
+  href: https://artifacts.apis.io/getresponse/packages/getresponse-packages.yml
   title: ''
   type: SDKs
   url: packages/getresponse-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/authentication/getresponse-authentication.yml
+  href: https://artifacts.apis.io/getresponse/authentication/getresponse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/getresponse-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/scopes/getresponse-scopes.yml
+  href: https://artifacts.apis.io/getresponse/scopes/getresponse-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/getresponse-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/conventions/getresponse-conventions.yml
+  href: https://artifacts.apis.io/getresponse/conventions/getresponse-conventions.yml
   title: ''
   type: Conventions
   url: conventions/getresponse-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/errors/getresponse-error-codes.yml
+  href: https://artifacts.apis.io/getresponse/errors/getresponse-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/getresponse-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/errors/getresponse-problem-types.yml
+  href: https://artifacts.apis.io/getresponse/errors/getresponse-problem-types.yml
   title: ''
   type: ErrorCodes
   url: errors/getresponse-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/rate-limits/getresponse-rate-limits.yml
+  href: https://artifacts.apis.io/getresponse/rate-limits/getresponse-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/getresponse-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/plans/getresponse-plans-pricing.yml
+  href: https://artifacts.apis.io/getresponse/plans/getresponse-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/getresponse-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/lifecycle/getresponse-lifecycle.yml
+  href: https://artifacts.apis.io/getresponse/lifecycle/getresponse-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/getresponse-lifecycle.yml
@@ -1237,12 +1239,12 @@ common:
   type: StatusPage
   url: https://status.getresponse.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/asyncapi/getresponse-webhooks.yml
+  href: https://artifacts.apis.io/getresponse/asyncapi/getresponse-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/getresponse-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/conformance/getresponse-conformance.yml
+  href: https://artifacts.apis.io/getresponse/conformance/getresponse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/getresponse-conformance.yml
@@ -1251,27 +1253,27 @@ common:
   type: Compliance
   url: https://www.getresponse.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/security/getresponse-trust-center.yml
+  href: https://artifacts.apis.io/getresponse/security/getresponse-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/getresponse-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/security/getresponse-domain-security.yml
+  href: https://artifacts.apis.io/getresponse/security/getresponse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/getresponse-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/data-model/getresponse-data-model.yml
+  href: https://artifacts.apis.io/getresponse/data-model/getresponse-data-model.yml
   title: ''
   type: DataModel
   url: data-model/getresponse-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/overlays/getresponse-openapi-overlay.yaml
+  href: https://artifacts.apis.io/getresponse/overlays/getresponse-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/getresponse-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/agentic-access/getresponse-agentic-access.yml
+  href: https://artifacts.apis.io/getresponse/agentic-access/getresponse-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/getresponse-agentic-access.yml
@@ -1280,7 +1282,7 @@ common:
   type: Postman
   url: https://apidocs.getresponse.com/v3/collections
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/collections/getresponse.postman_collection.json
+  href: https://artifacts.apis.io/getresponse/collections/getresponse.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/getresponse.postman_collection.json
@@ -1343,6 +1345,14 @@ common:
 created: '2026-05-11'
 description: GetResponse is an all-in-one marketing platform for email marketing, marketing automation, landing pages, websites, webinars, SMS, web push, ecommerce and content monetization, used by small businesses, marketers and enterprises. The GetResponse API v3 is a JSON REST API authenticated with an X-Auth-Token header carrying an API key prefixed with "api-key ", or with OAuth 2.0. The provider publishes a machine-readable OpenAPI 3.0.0 describing 220 operations across 141 paths and 42 product areas — contacts, campaigns, newsletters, autoresponders, transactional email, SMS, forms and popups, landing pages, websites, webinars, workflows, imports, suppressions and a full ecommerce tree of shops, products, variants, categories, carts, orders and taxes. The spec is discoverable through an RFC 9727 API catalog at /.well-known/api-catalog, and GetResponse also publishes an llms.txt and its own Agent Skill for the public API. Enterprise customers run on the separate GetResponse MAX platform,
   which requires an additional X-Domain header.
+finops:
+- has_sources: true
+  method: derived
+  name: Getresponse Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: getresponse-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/getresponse.png
 layout: provider
 modified: '2026-08-13'
@@ -1360,7 +1370,10 @@ plans:
 - name: Getresponse Plans Pricing
   plan_count: 4
   slug: getresponse-plans-pricing
-random_paper: 11
+- name: Getresponse Price Estimates
+  plan_count: 0
+  slug: getresponse-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Getresponse Rate Limits
@@ -1372,23 +1385,28 @@ scopes:
   summary_line: 1 scope · implicit/authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 72.1
+  composite: 69.4
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 64.0
+    artifact_dirs: 26
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 60.0
+    contract_quality: 56.6
     developer_ergonomics: 76.2
-    discoverability: 89.3
-    operational_transparency: 57.9
-  previous_composite: 72.1
+    discoverability: 82.1
+    operational_transparency: 60.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - poland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 67.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1409,13 +1427,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/screenshots/getresponse-2026-06-20T181811.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/getresponse/getresponse-2026-06-20T181811.png
 security:
 - kind: authentication
   name: Getresponse Authentication
@@ -1429,6 +1448,14 @@ security:
   name: Getresponse Trust Center
   slug: getresponse-trust-center
   summary_line: SOC 2, PCI DSS, GDPR
+skill_count: 3
+skills:
+- name: getresponse-ecommerce-sync
+  slug: getresponse-ecommerce-sync
+- name: getresponse-newsletter-skill
+  slug: getresponse-newsletter-skill
+- name: getresponse-transactional-email
+  slug: getresponse-transactional-email
 slug: getresponse
 tags:
 - Email Marketing

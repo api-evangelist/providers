@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Delivery-integration API connecting restaurants (Taker GO merchants) and delivery service providers (DSPs). Supports order creation, retrieval, cancellation, DSP re-routing, and asynchronous order-sta
@@ -84,52 +86,52 @@ common:
   type: PrivacyPolicy
   url: https://taker.io/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taker/refs/heads/main/authentication/taker-authentication.yml
+  href: https://artifacts.apis.io/taker/authentication/taker-authentication.yml
   title: ''
   type: Authentication
   url: authentication/taker-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taker/refs/heads/main/conventions/taker-conventions.yml
+  href: https://artifacts.apis.io/taker/conventions/taker-conventions.yml
   title: ''
   type: Conventions
   url: conventions/taker-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taker/refs/heads/main/errors/taker-error-codes.yml
+  href: https://artifacts.apis.io/taker/errors/taker-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/taker-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taker/refs/heads/main/asyncapi/taker-webhooks.yml
+  href: https://artifacts.apis.io/taker/asyncapi/taker-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/taker-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/taker/refs/heads/main/sandbox/taker-sandbox.yml
+  href: https://artifacts.apis.io/taker/sandbox/taker-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/taker-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taker/refs/heads/main/lifecycle/taker-lifecycle.yml
+  href: https://artifacts.apis.io/taker/lifecycle/taker-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/taker-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taker/refs/heads/main/data-model/taker-data-model.yml
+  href: https://artifacts.apis.io/taker/data-model/taker-data-model.yml
   title: ''
   type: DataModel
   url: data-model/taker-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taker/refs/heads/main/mcp/taker-mcp.yml
+  href: https://artifacts.apis.io/taker/mcp/taker-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/taker-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taker/refs/heads/main/llms/taker-llms.txt
+  href: https://artifacts.apis.io/taker/llms/taker-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/taker-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taker/refs/heads/main/security/taker-domain-security.yml
+  href: https://artifacts.apis.io/taker/security/taker-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/taker-domain-security.yml
@@ -151,21 +153,21 @@ overview: 'Taker is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 7
 score:
   band: thin
-  composite: 33.5
+  composite: 32.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 52.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -175,7 +177,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 33.4
+  previous_composite: 32.8
   provenance:
     mcp: derived
   regulatory:
@@ -184,14 +186,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/taker/refs/heads/main/screenshots/taker-2026-09-02T162435.png
+screenshot: https://apis.io/screenshots/taker/taker-2026-09-02T162435.png
 security:
 - kind: authentication
   name: Taker Authentication

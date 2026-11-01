@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,27 +34,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cybavo/refs/heads/main/security/cybavo-domain-security.yml
+  href: https://artifacts.apis.io/cybavo/security/cybavo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cybavo-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cybavo/refs/heads/main/packages/cybavo-packages.yml
+  href: https://artifacts.apis.io/cybavo/packages/cybavo-packages.yml
   title: ''
   type: Packages
   url: packages/cybavo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cybavo/refs/heads/main/packages/cybavo-packages.yml
+  href: https://artifacts.apis.io/cybavo/packages/cybavo-packages.yml
   title: ''
   type: SDKs
   url: packages/cybavo-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cybavo/refs/heads/main/llms/cybavo-llms.txt
+  href: https://artifacts.apis.io/cybavo/llms/cybavo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cybavo-llms.txt
@@ -69,12 +71,12 @@ name: CYBAVO
 nav: Providers
 network: true
 overview: CYBAVO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Digital Asset Security, Wallets, and Custody.
-random_paper: 6
+random_paper: 20
 score:
   band: minimal
-  composite: 4.8
+  composite: 4.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -86,23 +88,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 4.8
+  previous_composite: 4.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cybavo/refs/heads/main/screenshots/cybavo-2026-07-25T211020.png
+screenshot: https://apis.io/screenshots/cybavo/cybavo-2026-07-25T211020.png
 security:
 - kind: domain-security
   name: Cybavo Domain Security

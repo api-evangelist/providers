@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-17'
+  score: 29.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 6
   slug: amazon-cloud-map-agentic-access
   summary_line: 6 operations · 3 acting
-api_count: 3
+api_count: 5
 apis:
 - baseURL: https://servicediscovery.us-east-1.amazonaws.com
   baseurl_source: declared
@@ -59,11 +61,18 @@ apis:
   description: Operations for managing services within namespaces
   name: Amazon Cloud Map Services API
   slug: amazon-cloud-map-services-api
-artifact_total: 68
+- baseURL: https://servicediscovery.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Map Operations API from Amazon Cloud Map — 14 operation(s) for cloud map operations.
+  name: Amazon Cloud Map Cloud Map Operations API
+  slug: amazon-cloud-map-operations-api
+- baseURL: https://servicediscovery.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Cloud Map Service Attribute API from Amazon Cloud Map — 3 operation(s) for cloud map service attribute.
+  name: Amazon Cloud Map Cloud Map Service Attribute API
+  slug: amazon-cloud-map-service-attribute-api
+artifact_total: 72
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Cloud Map Instances API
   slug: open-amazon-cloud-map-instances-api
@@ -74,38 +83,47 @@ collections:
   name: Amazon Cloud Map Instances Services API
   slug: open-amazon-cloud-map-services-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/amazon-cloud-map/plans/amazon-cloud-map-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-cloud-map-plans-pricing.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-cloud-map/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/mcp/amazon-cloud-map-mcp.yml
+  href: https://artifacts.apis.io/amazon-cloud-map/mcp/amazon-cloud-map-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-cloud-map-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/overlays/amazon-cloud-map-openapi-overlay.yaml
+  href: https://artifacts.apis.io/amazon-cloud-map/overlays/amazon-cloud-map-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-cloud-map-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/agentic-access/amazon-cloud-map-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-cloud-map/agentic-access/amazon-cloud-map-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-cloud-map-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/security/amazon-cloud-map-trust-center.yml
+  href: https://artifacts.apis.io/amazon-cloud-map/security/amazon-cloud-map-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-cloud-map-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/security/amazon-cloud-map-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-cloud-map/security/amazon-cloud-map-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-cloud-map-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/security/amazon-cloud-map-domain-security.yml
+  href: https://artifacts.apis.io/amazon-cloud-map/security/amazon-cloud-map-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-cloud-map-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/authentication/amazon-cloud-map-authentication.yml
+  href: https://artifacts.apis.io/amazon-cloud-map/authentication/amazon-cloud-map-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-cloud-map-authentication.yml
@@ -166,42 +184,42 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/rules/amazon-cloud-map-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-cloud-map/rules/amazon-cloud-map-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-cloud-map-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/vocabulary/amazon-cloud-map-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-cloud-map/vocabulary/amazon-cloud-map-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-cloud-map-vocabulary.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/packages/amazon-cloud-map-packages.yml
+  href: https://artifacts.apis.io/amazon-cloud-map/packages/amazon-cloud-map-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-cloud-map-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/well-known/amazon-cloud-map-well-known.yml
+  href: https://artifacts.apis.io/amazon-cloud-map/well-known/amazon-cloud-map-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-cloud-map-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/well-known/amazon-cloud-map-security.txt
+  href: https://artifacts.apis.io/amazon-cloud-map/well-known/amazon-cloud-map-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-cloud-map-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/llms/amazon-cloud-map-llms.txt
+  href: https://artifacts.apis.io/amazon-cloud-map/llms/amazon-cloud-map-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-cloud-map-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/conformance/amazon-cloud-map-conformance.yml
+  href: https://artifacts.apis.io/amazon-cloud-map/conformance/amazon-cloud-map-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-cloud-map-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/lifecycle/amazon-cloud-map-lifecycle.yml
+  href: https://artifacts.apis.io/amazon-cloud-map/lifecycle/amazon-cloud-map-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-cloud-map-lifecycle.yml
@@ -258,6 +276,14 @@ features:
   name: Custom Names
 - description: Maintain service registries across different deployment environments, regions, and application versions.
   name: Multi-Environment Support
+finops:
+- has_sources: true
+  method: derived
+  name: Amazon Cloud Map Finops
+  primary_unit: registered resource
+  service_category: ''
+  slug: amazon-cloud-map-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-cloud-map.png
 integrations:
 - description: Automatically register ECS task IPs in Cloud Map as containers launch.
@@ -360,13 +386,20 @@ modified: '2026-06-20'
 name: Amazon Cloud Map
 nav: Providers
 network: true
-overview: 'Amazon Cloud Map is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Instances API, Namespaces API, and Services API. Tagged areas include Cloud Map, Service Discovery, Microservices, and DNS.
+overview: 'Amazon Cloud Map is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Instances API, Namespaces API, Services API, and 2 more. Tagged areas include Cloud Map, Service Discovery, Microservices, and DNS.
 
 
   The Amazon Cloud Map catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Cloud Map''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 22 more developer resources.'
+  Amazon Cloud Map''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 24 more developer resources.'
+plans:
+- name: Amazon Cloud Map Plans Pricing
+  plan_count: 2
+  slug: amazon-cloud-map-plans-pricing
+- name: Amazon Cloud Map Price Estimates
+  plan_count: 0
+  slug: amazon-cloud-map-price-estimates
 random_paper: 5
 rules:
 - authorship: generated
@@ -393,32 +426,32 @@ rules:
     warn: 12
   slug: amazon-cloud-map-spectral-rules
 score:
-  band: developing
-  composite: 43.7
+  band: strong
+  composite: 62.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 64.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    artifact_dirs: 26
+    catalog_earned: 75.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 6.0
   facets:
-    access_clarity: 52.6
+    access_clarity: 81.6
     contract_governance: 31.8
-    contract_quality: 28.9
-    developer_ergonomics: 52.4
-    discoverability: 69.6
-    operational_transparency: 18.4
-  previous_composite: 43.6
+    contract_quality: 62.5
+    developer_ergonomics: 65.5
+    discoverability: 62.5
+    operational_transparency: 31.6
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 4
-      marker_coverage: 100.0
-      total: 4
+      derived: 1
+      marker_coverage: 50.0
+      total: 6
     mcp: derived
   regulatory:
     applies: true
@@ -426,13 +459,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/screenshots/amazon-cloud-map-2026-07-25T195942.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-cloud-map/amazon-cloud-map-2026-07-25T195942.png
 security:
 - kind: authentication
   name: Amazon Cloud Map Authentication

@@ -14,26 +14,28 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automed/refs/heads/main/hosts/automed-hosts.yml
+  href: https://artifacts.apis.io/automed/hosts/automed-hosts.yml
   title: ''
   type: Hosts
   url: hosts/automed-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automed/refs/heads/main/vendors/automed-vendors.yml
+  href: https://artifacts.apis.io/automed/vendors/automed-vendors.yml
   title: ''
   type: Vendors
   url: vendors/automed-vendors.yml
@@ -42,7 +44,7 @@ common:
   type: Login
   url: https://www.automed.tech/auth/login
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/automed/refs/heads/main/security/automed-domain-security.yml
+  href: https://artifacts.apis.io/automed/security/automed-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/automed-domain-security.yml
@@ -66,7 +68,7 @@ name: Automed
 nav: Providers
 network: true
 overview: Automed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Artificial Intelligence, Medication, Adherence, and Platform.
-random_paper: 3
+random_paper: 7
 score:
   band: minimal
   composite: 5.9
@@ -94,14 +96,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/automed/refs/heads/main/screenshots/automed-2026-10-11T100943.png
+screenshot: https://apis.io/screenshots/automed/automed-2026-10-11T100943.png
 security:
 - kind: domain-security
   name: Automed Domain Security

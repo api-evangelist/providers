@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -92,11 +94,8 @@ apis:
   description: The Source Maps API from Airbrake — 2 operation(s) for source maps.
   name: Airbrake Source Maps API
   slug: airbrake-source-maps-api
-artifact_total: 24
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Airbrake REST Activities API
   slug: open-airbrake-activities-api
@@ -129,22 +128,22 @@ collections:
   slug: open-airbrake
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/capabilities/airbrake-capability-edges.yml
+  href: https://artifacts.apis.io/airbrake/capabilities/airbrake-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/airbrake-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/agentic-access/airbrake-agentic-access.yml
+  href: https://artifacts.apis.io/airbrake/agentic-access/airbrake-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/airbrake-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/security/airbrake-domain-security.yml
+  href: https://artifacts.apis.io/airbrake/security/airbrake-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/airbrake-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/authentication/airbrake-authentication.yml
+  href: https://artifacts.apis.io/airbrake/authentication/airbrake-authentication.yml
   title: ''
   type: Authentication
   url: authentication/airbrake-authentication.yml
@@ -184,10 +183,10 @@ overview: 'Airbrake publishes 10 API contracts indexed on the [APIs.io](https://
 
 
   Airbrake''s developer surface includes authentication, documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 19
+random_paper: 17
 score:
-  band: emerging
-  composite: 25.6
+  band: thin
+  composite: 26.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -202,8 +201,8 @@ score:
     contract_quality: 43.5
     developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 25.6
+    operational_transparency: 5.3
+  previous_composite: 26.7
   provenance:
     agentic_access: derived
     contracts:
@@ -217,13 +216,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/screenshots/airbrake-2026-06-20T171417.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/airbrake/airbrake-2026-06-20T171417.png
 security:
 - kind: authentication
   name: Airbrake Authentication

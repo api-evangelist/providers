@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/insurdata/refs/heads/main/security/insurdata-domain-security.yml
+  href: https://artifacts.apis.io/insurdata/security/insurdata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/insurdata-domain-security.yml
@@ -65,7 +67,7 @@ overview: 'Insurdata is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Insurdata''s developer surface includes support and 3 more developer resources.'
-random_paper: 3
+random_paper: 11
 score:
   band: minimal
   composite: 6.7
@@ -91,14 +93,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 8.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/insurdata/refs/heads/main/screenshots/insurdata-2026-07-25T222625.png
+screenshot: https://apis.io/screenshots/insurdata/insurdata-2026-07-25T222625.png
 security:
 - kind: domain-security
   name: Insurdata Domain Security

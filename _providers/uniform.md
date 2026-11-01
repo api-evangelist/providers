@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,17 +25,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 28.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://uniform.app
   baseurl_source: declared
@@ -242,15 +244,12 @@ apis:
   description: The Workflows API from Uniform — 1 operation(s) for workflows.
   name: Uniform Workflows API
   slug: uniform-workflows-api
-artifact_total: 89
+artifact_total: 92
 asyncapis:
 - description: ''
   name: Uniform Webhooks
   slug: uniform-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Uniform Platform Aggregates API
   slug: open-uniform-aggregates-api
@@ -373,17 +372,17 @@ collections:
   slug: open-uniform-workflows-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/plans/uniform-plans-pricing.yml
+  href: https://artifacts.apis.io/uniform/plans/uniform-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/uniform-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/capabilities/uniform-capability-edges.yml
+  href: https://artifacts.apis.io/uniform/capabilities/uniform-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/uniform-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/overlays/uniform-platform-api-overlay.yaml
+  href: https://artifacts.apis.io/uniform/overlays/uniform-platform-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/uniform-platform-api-overlay.yaml
@@ -440,27 +439,27 @@ common:
   type: StatusPage
   url: https://status.uniform.dev/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/changelog/uniform-changelog.yml
+  href: https://artifacts.apis.io/uniform/changelog/uniform-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/uniform-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/lifecycle/uniform-lifecycle.yml
+  href: https://artifacts.apis.io/uniform/lifecycle/uniform-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/uniform-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/authentication/uniform-authentication.yml
+  href: https://artifacts.apis.io/uniform/authentication/uniform-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uniform-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/security/uniform-domain-security.yml
+  href: https://artifacts.apis.io/uniform/security/uniform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uniform-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/security/uniform-trust-center.yml
+  href: https://artifacts.apis.io/uniform/security/uniform-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/uniform-trust-center.yml
@@ -469,68 +468,76 @@ common:
   type: Compliance
   url: https://www.uniform.dev/trust
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/conformance/uniform-conformance.yml
+  href: https://artifacts.apis.io/uniform/conformance/uniform-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uniform-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/packages/uniform-packages.yml
+  href: https://artifacts.apis.io/uniform/packages/uniform-packages.yml
   title: ''
   type: Packages
   url: packages/uniform-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/packages/uniform-packages.yml
+  href: https://artifacts.apis.io/uniform/packages/uniform-packages.yml
   title: ''
   type: SDKs
   url: packages/uniform-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/cli/uniform-cli.yml
+  href: https://artifacts.apis.io/uniform/cli/uniform-cli.yml
   title: ''
   type: CLI
   url: cli/uniform-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/mcp/uniform-mcp.yml
+  href: https://artifacts.apis.io/uniform/mcp/uniform-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/uniform-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/uniform/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/llms/uniform-llms.txt
+  href: https://artifacts.apis.io/uniform/llms/uniform-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uniform-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/well-known/uniform-well-known.yml
+  href: https://artifacts.apis.io/uniform/well-known/uniform-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/uniform-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/conventions/uniform-conventions.yml
+  href: https://artifacts.apis.io/uniform/conventions/uniform-conventions.yml
   title: ''
   type: Conventions
   url: conventions/uniform-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/errors/uniform-problem-types.yml
+  href: https://artifacts.apis.io/uniform/errors/uniform-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/uniform-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/data-model/uniform-data-model.yml
+  href: https://artifacts.apis.io/uniform/data-model/uniform-data-model.yml
   title: ''
   type: DataModel
   url: data-model/uniform-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/asyncapi/uniform-webhooks.yml
+  href: https://artifacts.apis.io/uniform/asyncapi/uniform-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/uniform-webhooks.yml
 created: '2026-07-17'
 description: Uniform (Uniform Systems, Inc.) is a visual workspace and composable digital experience platform (DXP) that lets marketing and engineering teams compose content, commerce, and data from 70+ integrated sources — headless CMSes, commerce engines, DAMs, search, CDNs — into personalized, A/B-tested digital experiences without glue code. The Uniform Platform API (REST under /api/v1 and /api/v2 on uniform.app, with an EU data center at eu.uniform.app) manages compositions (Canvas), entries and content types, components, assets, releases, project maps, redirects, webhooks, integrations, roles and teams, and the classification/personalization surfaces (signals, quirks, tests, aggregates). Uniform ships 100+ npm packages under @uniformdev (framework SDKs for React, Next.js, Vue, Nuxt), a CLI, Svix-signed webhooks, an official hosted MCP server, and a published AI-rules library for LLM assistants. Recognized as a Visionary in the 2025 Gartner Magic Quadrant for Digital Experience Platforms;
   backed by Insight Partners.
+finops:
+- has_sources: true
+  method: derived
+  name: Uniform Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: uniform-finops
+  template: false
 image: https://img.uniform.global/p/1kLJoPtETHS1Jn1953sDkQ/gPgKkuoLSbSOJ2EzIojJWg-Uniform_OGimage.png
 layout: provider
 mcp_servers:
@@ -555,26 +562,26 @@ plans:
 - name: Uniform Price Estimates
   plan_count: 0
   slug: uniform-price-estimates
-random_paper: 20
+random_paper: 0
 score:
   band: strong
-  composite: 59.3
+  composite: 62.2
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 53.8
+    contract_quality: 50.4
     developer_ergonomics: 73.2
-    discoverability: 66.1
-    operational_transparency: 34.2
-  previous_composite: 59.3
+    discoverability: 65.0
+    operational_transparency: 44.7
+  previous_composite: 60.7
   provenance:
     conformance: derived
     contracts:
@@ -594,13 +601,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/screenshots/uniform-2026-08-17T082601.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/uniform/uniform-2026-08-17T082601.png
 security:
 - kind: authentication
   name: Uniform Authentication
@@ -614,6 +622,14 @@ security:
   name: Uniform Trust Center
   slug: uniform-trust-center
   summary_line: SOC 2 Type II, GDPR
+skill_count: 3
+skills:
+- name: Manage Uniform compositions
+  slug: uniform-manage-compositions
+- name: Manage Uniform entries and content types
+  slug: uniform-manage-entries
+- name: Stage and ship changes with Uniform releases
+  slug: uniform-manage-releases
 slug: uniform
 tags:
 - Company

@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.1
-  scored_at: '2026-10-17'
+  score: 32.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 124
@@ -49,7 +51,7 @@ apis:
 - description: 'The Soku AI platform API (identifies as "NexStudio API"). Powers an autonomous marketing agent across ads, analytics (GA4, GSC, PostHog), SEO hosting, and review-gated writes. Authenticated via OAuth '
   name: Soku (NexStudio) API
   slug: soku-nexstudio-api
-artifact_total: 10
+artifact_total: 12
 common:
 - group: commercial
   title: ''
@@ -104,62 +106,62 @@ common:
   type: Support
   url: https://join.slack.com/t/soku-talk/shared_invite/zt-3s9i1a4w7-AWlkU3GAiar3wJM4ToYLEg
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/packages/nexad-packages.yml
+  href: https://artifacts.apis.io/nexad/packages/nexad-packages.yml
   title: ''
   type: Packages
   url: packages/nexad-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/packages/nexad-packages.yml
+  href: https://artifacts.apis.io/nexad/packages/nexad-packages.yml
   title: ''
   type: SDKs
   url: packages/nexad-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/cli/nexad-cli.yml
+  href: https://artifacts.apis.io/nexad/cli/nexad-cli.yml
   title: ''
   type: CLI
   url: cli/nexad-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nexad/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/mcp/nexad-mcp.yml
+  href: https://artifacts.apis.io/nexad/mcp/nexad-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nexad-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/authentication/nexad-authentication.yml
+  href: https://artifacts.apis.io/nexad/authentication/nexad-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nexad-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/components/nexad-components.yml
+  href: https://artifacts.apis.io/nexad/components/nexad-components.yml
   title: ''
   type: Components
   url: components/nexad-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/lifecycle/nexad-lifecycle.yml
+  href: https://artifacts.apis.io/nexad/lifecycle/nexad-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nexad-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/changelog/nexad-changelog.yml
+  href: https://artifacts.apis.io/nexad/changelog/nexad-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nexad-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/llms/nexad-soku-llms.txt
+  href: https://artifacts.apis.io/nexad/llms/nexad-soku-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nexad-soku-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/llms/nexad-llms.txt
+  href: https://artifacts.apis.io/nexad/llms/nexad-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nexad-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/security/nexad-domain-security.yml
+  href: https://artifacts.apis.io/nexad/security/nexad-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nexad-domain-security.yml
@@ -168,7 +170,7 @@ common:
   type: Security
   url: https://github.com/About-Intelligence/soku-cli/blob/main/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/security/nexad-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nexad/security/nexad-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nexad-vulnerability-disclosure.yml
@@ -181,48 +183,56 @@ common:
   type: SourceCode
   url: https://github.com/About-Intelligence/soku-cli
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/agentic-access/nexad-agentic-access.yml
+  href: https://artifacts.apis.io/nexad/agentic-access/nexad-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nexad-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/conventions/nexad-conventions.yml
+  href: https://artifacts.apis.io/nexad/conventions/nexad-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nexad-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/errors/nexad-error-codes.yml
+  href: https://artifacts.apis.io/nexad/errors/nexad-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/nexad-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/data-model/nexad-data-model.yml
+  href: https://artifacts.apis.io/nexad/data-model/nexad-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nexad-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/conformance/nexad-conformance.yml
+  href: https://artifacts.apis.io/nexad/conformance/nexad-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nexad-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/plans/nexad-plans-pricing.yml
+  href: https://artifacts.apis.io/nexad/plans/nexad-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nexad-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/rate-limits/nexad-rate-limits.yml
+  href: https://artifacts.apis.io/nexad/rate-limits/nexad-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nexad-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/cli/nexad-capabilities.json
+  href: https://artifacts.apis.io/nexad/cli/nexad-capabilities.json
   title: ''
   type: Capabilities
   url: cli/nexad-capabilities.json
 created: '2026-07-17'
 description: 'Nexad (About Intelligence, Inc.) is an AI-native advertising company backed by Andreessen Horowitz, Point72 and Prosus. It ships the Nexad Android Ads SDK — a Java/Kotlin library for embedding contextual, native, WebView, chat-message, and modal-overlay ads directly into mobile and AI-chat applications — and operates Soku AI, an autonomous marketing agent (the NexStudio API at api.soku.ai) that runs and optimizes ad campaigns across Google, Meta, TikTok, and ChatGPT Ads on a 24/7 perceive–decide–act loop with human-in-the-loop approvals. Developers integrate via the Android SDK, the Soku CLI (@soku-ai/cli) for shell-based AI agents such as Claude Code, Codex, and Cursor, an authenticated MCP endpoint at api.soku.ai/mcp, and an open-source marketing skills hub. Nexad publishes no OpenAPI, but it does ship an unusually complete machine-readable substitute: a 281-action capability registry (18 namespaces) in its public MIT-licensed soku-cli repository, where every action declares
   typed inputs, an output shape, a read/write/risk mode and a requires_review flag — 124 of the 281 actions are human-approval-gated at runtime.'
+finops:
+- has_sources: true
+  method: derived
+  name: Nexad Finops
+  primary_unit: 1,000 credits
+  service_category: ''
+  slug: nexad-finops
+  template: false
 image: https://docs.nex.ad/img/logo.svg
 layout: provider
 mcp_servers:
@@ -239,8 +249,11 @@ overview: 'Nexad is listed with 2 APIs on the [APIs.io](https://apis.io/) networ
   Nexad''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Nexad Plans Pricing
-  plan_count: 4
+  plan_count: 10
   slug: nexad-plans-pricing
+- name: Nexad Price Estimates
+  plan_count: 0
+  slug: nexad-price-estimates
 random_paper: 0
 rate_limits:
 - limit_count: 0
@@ -248,23 +261,23 @@ rate_limits:
   slug: nexad-rate-limits
 score:
   band: developing
-  composite: 45.6
+  composite: 46.5
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 44.0
+    artifact_dirs: 23
+    catalog_earned: 47.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 71.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 78.6
-    discoverability: 66.7
-    operational_transparency: 28.9
-  previous_composite: 45.5
+    discoverability: 56.7
+    operational_transparency: 31.6
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -276,14 +289,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/screenshots/nexad-2026-08-07T185142.png
+screenshot: https://apis.io/screenshots/nexad/nexad-2026-08-07T185142.png
 security:
 - kind: authentication
   name: Nexad Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 29.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 349
   human_in_the_loop: 1
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 668
   slug: magnite-agentic-access
   summary_line: 668 operations · 349 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 4
 apis:
 - baseURL: https://console.springserve.com
   baseurl_source: declared
@@ -432,7 +434,7 @@ apis:
 - description: 'Magnite''s Exchange API (xAPI) protobuf extensions to the IAB OpenRTB 2.x protobuf definitions, published in the open on GitHub. Defines Magnite-specific OpenRTB extension fields (extension IDs in the '
   name: Magnite Exchange API (xAPI) OpenRTB Extensions
   slug: rubicon-project-openrtb-xapi
-artifact_total: 86
+artifact_total: 92
 collections:
 - collection_type: open
   name: SpringServe UI API (V0)
@@ -442,22 +444,22 @@ collections:
   slug: open-magnite-springserve-v1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/capabilities/magnite-capability-edges.yml
+  href: https://artifacts.apis.io/magnite/capabilities/magnite-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/magnite-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/agentic-access/magnite-agentic-access.yml
+  href: https://artifacts.apis.io/magnite/agentic-access/magnite-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/magnite-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/authentication/magnite-authentication.yml
+  href: https://artifacts.apis.io/magnite/authentication/magnite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/magnite-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/security/magnite-domain-security.yml
+  href: https://artifacts.apis.io/magnite/security/magnite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/magnite-domain-security.yml
@@ -574,57 +576,57 @@ common:
   type: Wikipedia
   url: https://en.wikipedia.org/wiki/Magnite_Inc
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/openapi/_original/magnite-springserve-v1-openapi.yml
+  href: https://artifacts.apis.io/magnite/openapi/_original/magnite-springserve-v1-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/magnite-springserve-v1-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/openapi/_original/magnite-springserve-v0-openapi.yml
+  href: https://artifacts.apis.io/magnite/openapi/_original/magnite-springserve-v0-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/magnite-springserve-v0-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/overlays/magnite-springserve-v1-overlay.yaml
+  href: https://artifacts.apis.io/magnite/overlays/magnite-springserve-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/magnite-springserve-v1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/overlays/magnite-springserve-v0-overlay.yaml
+  href: https://artifacts.apis.io/magnite/overlays/magnite-springserve-v0-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/magnite-springserve-v0-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/packages/magnite-packages.yml
+  href: https://artifacts.apis.io/magnite/packages/magnite-packages.yml
   title: ''
   type: Packages
   url: packages/magnite-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/packages/magnite-packages.yml
+  href: https://artifacts.apis.io/magnite/packages/magnite-packages.yml
   title: ''
   type: SDKs
   url: packages/magnite-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/conventions/magnite-conventions.yml
+  href: https://artifacts.apis.io/magnite/conventions/magnite-conventions.yml
   title: ''
   type: Conventions
   url: conventions/magnite-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/errors/magnite-problem-types.yml
+  href: https://artifacts.apis.io/magnite/errors/magnite-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/magnite-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/data-model/magnite-data-model.yml
+  href: https://artifacts.apis.io/magnite/data-model/magnite-data-model.yml
   title: ''
   type: DataModel
   url: data-model/magnite-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/lifecycle/magnite-lifecycle.yml
+  href: https://artifacts.apis.io/magnite/lifecycle/magnite-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/magnite-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/conformance/magnite-conformance.yml
+  href: https://artifacts.apis.io/magnite/conformance/magnite-conformance.yml
   title: ''
   type: Conformance
   url: conformance/magnite-conformance.yml
@@ -633,37 +635,37 @@ common:
   type: Compliance
   url: https://www.magnite.com/trust-center/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/security/magnite-trust-center.yml
+  href: https://artifacts.apis.io/magnite/security/magnite-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/magnite-trust-center.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/rate-limits/magnite-rate-limits.yml
+  href: https://artifacts.apis.io/magnite/rate-limits/magnite-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/magnite-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/plans/magnite-plans-pricing.yml
+  href: https://artifacts.apis.io/magnite/plans/magnite-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/magnite-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/mcp/magnite-mcp.yml
+  href: https://artifacts.apis.io/magnite/mcp/magnite-mcp.yml
   title: ''
   type: MCPCandidate
   url: mcp/magnite-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/magnite/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/llms/magnite-llms.txt
+  href: https://artifacts.apis.io/magnite/llms/magnite-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/magnite-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/well-known/magnite-well-known.yml
+  href: https://artifacts.apis.io/magnite/well-known/magnite-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/magnite-well-known.yml
@@ -718,6 +720,14 @@ common:
 created: '2026-05-25'
 description: 'Magnite, Inc. (NASDAQ: MGNI) is the world''s largest independent sell-side advertising platform, headquartered in New York with major operations in Los Angeles. Formed in 2020 from the merger of Rubicon Project and Telaria, and expanded through the acquisitions of SpotX (2021), SpringServe (2021), and Streamr.ai (2025), Magnite operates an omnichannel SSP spanning Connected TV (CTV), online video, display, audio, and mobile in-app. Its flagship offering is the Magnite Streaming platform — a next-generation CTV/OTT solution that unifies the SpringServe ad server with Magnite''s Streaming SSP — alongside DV+ for display/video web and mobile, ClearLine for agency self-service direct buying of premium video, and Magnite Access for first- and third-party data activation. Magnite connects publishers including Disney Advertising, Paramount, Roku, Samsung, LG Ad Solutions, and Warner Bros. Discovery to virtually all major DSPs, and Jounce Media''s March 2025 Supply Path Benchmarking
   Report verified Magnite reaches 99% of US streaming supply on a dollar-weighted basis. The company exposes developer surfaces through the SpringServe REST API, the Magnite Streaming Public API, the Magnite Seller Platform / CTV Platform Public APIs, an OpenRTB v2.5 bidder integration, and iOS/Android in-app SDKs. The SpringServe UI API publishes a real, anonymously reachable OpenAPI 3.1.2 contract in two concurrent versions (v0, 289 operations; v1, 379 operations) from the Swagger UI at https://api.springserve.com/api-docs, with the callable base at https://console.springserve.com. The Magnite Streaming and Seller Platform reference material on help.magnite.com remains gated behind an authenticated partner login. In Q1 2026 Magnite reported $164.4M revenue with CTV crossing 51% of contribution ex-TAC for the first time.'
+finops:
+- has_sources: true
+  method: derived
+  name: Magnite Finops
+  primary_unit: ''
+  service_category: ''
+  slug: magnite-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/magnite.png
 layout: provider
 modified: '2026-09-16'
@@ -732,29 +742,29 @@ plans:
 - name: Magnite Plans Pricing
   plan_count: 0
   slug: magnite-plans-pricing
-random_paper: 15
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Magnite Rate Limits
   slug: magnite-rate-limits
 score:
   band: developing
-  composite: 51.3
+  composite: 50.1
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 30
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 46.3
+    contract_quality: 40.1
     developer_ergonomics: 66.1
-    discoverability: 79.5
-    operational_transparency: 34.2
+    discoverability: 73.2
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -762,7 +772,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 51.2
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -785,13 +795,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/screenshots/magnite-2026-07-25T225900.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/magnite/magnite-2026-07-25T225900.png
 security:
 - kind: authentication
   name: Magnite Authentication
@@ -805,6 +816,18 @@ security:
   name: Magnite Trust Center
   slug: magnite-trust-center
   summary_line: SOC 2 Type I, JICDAQ, ISO 27001
+skill_count: 5
+skills:
+- name: Audit who changed what in SpringServe
+  slug: magnite-audit-springserve-changes
+- name: Authenticate to SpringServe and select the working account
+  slug: magnite-authenticate-and-set-account
+- name: Curate SpringServe deal lists and marketplaces
+  slug: magnite-curate-deal-lists
+- name: Create and maintain SpringServe demand tags
+  slug: magnite-manage-demand-tags
+- name: Run a SpringServe performance report
+  slug: magnite-run-a-performance-report
 slug: magnite
 tags:
 - Advertising

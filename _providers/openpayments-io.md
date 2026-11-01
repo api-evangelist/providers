@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-10-17'
+  score: 30.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -88,75 +90,80 @@ apis:
   description: The Verification of Payee (VoP) API allows you to instantly verify that a creditor's name matches the provided account details (IBAN) and display the result to your PSU, e.g. when they create a new su
   name: Open Payments Verification of Payee (VoP) API
   slug: openpayments-io-verification-of-payee-vop-api
-artifact_total: 23
+artifact_total: 28
 common:
+- group: commercial
+  href: https://artifacts.apis.io/openpayments-io/plans/openpayments-io-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/openpayments-io-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/agentic-access/openpayments-io-agentic-access.yml
+  href: https://artifacts.apis.io/openpayments-io/agentic-access/openpayments-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openpayments-io-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/rules/openpayments-io-rules.yml
+  href: https://artifacts.apis.io/openpayments-io/rules/openpayments-io-rules.yml
   title: ''
   type: Spectral
   url: rules/openpayments-io-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/json-ld/openpayments-io-context.jsonld
+  href: https://artifacts.apis.io/openpayments-io/json-ld/openpayments-io-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/openpayments-io-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/vocabulary/openpayments-io-vocabulary.yml
+  href: https://artifacts.apis.io/openpayments-io/vocabulary/openpayments-io-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/openpayments-io-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/openpayments-io/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/data-model/openpayments-io-data-model.yml
+  href: https://artifacts.apis.io/openpayments-io/data-model/openpayments-io-data-model.yml
   title: ''
   type: DataModel
   url: data-model/openpayments-io-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/changelog/openpayments-io-changelog.yml
+  href: https://artifacts.apis.io/openpayments-io/changelog/openpayments-io-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openpayments-io-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/sandbox/openpayments-io-sandbox.yml
+  href: https://artifacts.apis.io/openpayments-io/sandbox/openpayments-io-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/openpayments-io-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/authentication/openpayments-io-authentication.yml
+  href: https://artifacts.apis.io/openpayments-io/authentication/openpayments-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openpayments-io-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/errors/openpayments-io-problem-types.yml
+  href: https://artifacts.apis.io/openpayments-io/errors/openpayments-io-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/openpayments-io-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/conformance/openpayments-io-conformance.yml
+  href: https://artifacts.apis.io/openpayments-io/conformance/openpayments-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openpayments-io-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/llms/openpayments-io-llms.txt
+  href: https://artifacts.apis.io/openpayments-io/llms/openpayments-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openpayments-io-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/hosts/openpayments-io-hosts.yml
+  href: https://artifacts.apis.io/openpayments-io/hosts/openpayments-io-hosts.yml
   title: ''
   type: Hosts
   url: hosts/openpayments-io-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/vendors/openpayments-io-vendors.yml
+  href: https://artifacts.apis.io/openpayments-io/vendors/openpayments-io-vendors.yml
   title: ''
   type: Vendors
   url: vendors/openpayments-io-vendors.yml
@@ -169,12 +176,12 @@ common:
   type: GettingStarted
   url: https://docs.openpayments.io/docs/getstarted
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/scopes/openpayments-io-scopes.yml
+  href: https://artifacts.apis.io/openpayments-io/scopes/openpayments-io-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/openpayments-io-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/security/openpayments-io-domain-security.yml
+  href: https://artifacts.apis.io/openpayments-io/security/openpayments-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openpayments-io-domain-security.yml
@@ -212,6 +219,14 @@ common:
   url: https://www.openpayments.io/whitepaper
 created: '2026-10-15'
 description: Open Payments provides a unified API platform that connects businesses to multiple banks, enabling payments, account data access, cross‑border transactions, and financial data aggregation. Their solution simplifies integration, reduces friction, and offers real‑time cash‑flow visibility, compliance with PSD2 and GDPR, and customizable branding for enterprises seeking to build modern financial services.
+finops:
+- has_sources: true
+  method: derived
+  name: Openpayments Io Finops
+  primary_unit: ''
+  service_category: ''
+  slug: openpayments-io-finops
+  template: true
 image: https://cdn.prod.website-files.com/62334f93c837ab072ce54cd5/62544bad42bb186a71cba7e0_OGI%201.jpg
 json_schemas:
 - name: ConfirmIsoPaymentResponse
@@ -248,8 +263,12 @@ overview: 'Open Payments publishes 11 API contracts indexed on the [APIs.io](htt
   The Open Payments catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Open Payments'' developer surface includes changelog, sandbox, authentication, getting-started guide, documentation, pricing, engineering blog, and 19 more developer resources.'
-random_paper: 14
+  Open Payments'' developer surface includes changelog, sandbox, authentication, getting-started guide, documentation, pricing, engineering blog, and 20 more developer resources.'
+plans:
+- name: Openpayments Io Plans Pricing
+  plan_count: 1
+  slug: openpayments-io-plans-pricing
+random_paper: 16
 rules:
 - authorship: generated
   effective_rule_count: 58
@@ -270,21 +289,23 @@ scopes:
   summary_line: 13 scopes · clientCredentials
 score:
   band: developing
-  composite: 43.9
+  composite: 48.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 57.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.3
+    artifact_dirs: 22
+    catalog_earned: 65.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 4.2
   facets:
-    access_clarity: 21.1
+    access_clarity: 42.1
     contract_governance: 22.0
     contract_quality: 66.1
     developer_ergonomics: 54.2
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 15.8
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -301,11 +322,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 33.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Openpayments Io Authentication
@@ -315,6 +338,14 @@ security:
   name: Openpayments Io Domain Security
   slug: openpayments-io-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: openpayments-io-initiate-and-authorise-payment
+  slug: openpayments-io-initiate-and-authorise-payment
+- name: openpayments-io-kyc-create-and-check
+  slug: openpayments-io-kyc-create-and-check
+- name: openpayments-io-payout-service-create-confirm-get
+  slug: openpayments-io-payout-service-create-confirm-get
 slug: openpayments-io
 tags:
 - Company

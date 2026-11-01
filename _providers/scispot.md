@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Biological sequence management for DNA, RNA, and protein sequences
   name: Scispot Sequences API
   slug: scispot-sequences-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Scispot ELN API
   slug: open-scispot-eln-api
@@ -95,32 +94,32 @@ collections:
   slug: open-scispot
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/plans/scispot-plans-pricing.yml
+  href: https://artifacts.apis.io/scispot/plans/scispot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/scispot-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/rate-limits/scispot-rate-limits.yml
+  href: https://artifacts.apis.io/scispot/rate-limits/scispot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/scispot-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/finops/scispot-finops.yml
+  href: https://artifacts.apis.io/scispot/finops/scispot-finops.yml
   title: ''
   type: FinOps
   url: finops/scispot-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/agentic-access/scispot-agentic-access.yml
+  href: https://artifacts.apis.io/scispot/agentic-access/scispot-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/scispot-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/security/scispot-domain-security.yml
+  href: https://artifacts.apis.io/scispot/security/scispot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/scispot-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/authentication/scispot-authentication.yml
+  href: https://artifacts.apis.io/scispot/authentication/scispot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/scispot-authentication.yml
@@ -157,7 +156,7 @@ finops:
 - has_sources: false
   method: generated
   name: Scispot Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: scispot-finops
   template: true
@@ -194,7 +193,7 @@ plans:
 - name: Scispot Plans Pricing
   plan_count: 3
   slug: scispot-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Scispot Rate Limits
@@ -225,7 +224,7 @@ rules:
   slug: scispot-rules
 score:
   band: thin
-  composite: 33.3
+  composite: 34.0
   coverage:
     artifact_dirs: 17
     catalog_earned: 65.4
@@ -233,7 +232,7 @@ score:
     catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
@@ -241,7 +240,7 @@ score:
     developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 34.8
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -255,13 +254,14 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/screenshots/scispot-2026-06-20T193537.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/scispot/scispot-2026-06-20T193537.png
 security:
 - kind: authentication
   name: Scispot Authentication

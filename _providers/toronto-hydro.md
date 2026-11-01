@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 23.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Toronto Hydro's Green Button Download My Data (DMD) implementation, also required by O. Reg. 633/21 and built to NAESB REQ.21 ESPI v3.3. A Toronto Hydro customer signs in to their own account and down
@@ -60,74 +62,74 @@ apis:
   description: Usage Point endpoints
   name: Toronto Hydro Usage Point API
   slug: toronto-hydro-usagepoint-api
-artifact_total: 9
+artifact_total: 11
 collections:
 - collection_type: open
   name: Green Button API Documentation
   slug: open-toronto-hydro-green-button-espi
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/overlays/toronto-hydro-green-button-espi-overlay.yaml
+  href: https://artifacts.apis.io/toronto-hydro/overlays/toronto-hydro-green-button-espi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/toronto-hydro-green-button-espi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/security/toronto-hydro-domain-security.yml
+  href: https://artifacts.apis.io/toronto-hydro/security/toronto-hydro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/toronto-hydro-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/authentication/toronto-hydro-authentication.yml
+  href: https://artifacts.apis.io/toronto-hydro/authentication/toronto-hydro-authentication.yml
   title: ''
   type: Authentication
   url: authentication/toronto-hydro-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/scopes/toronto-hydro-scopes.yml
+  href: https://artifacts.apis.io/toronto-hydro/scopes/toronto-hydro-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/toronto-hydro-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/conventions/toronto-hydro-conventions.yml
+  href: https://artifacts.apis.io/toronto-hydro/conventions/toronto-hydro-conventions.yml
   title: ''
   type: Conventions
   url: conventions/toronto-hydro-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/conformance/toronto-hydro-conformance.yml
+  href: https://artifacts.apis.io/toronto-hydro/conformance/toronto-hydro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/toronto-hydro-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/errors/toronto-hydro-problem-types.yml
+  href: https://artifacts.apis.io/toronto-hydro/errors/toronto-hydro-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/toronto-hydro-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/lifecycle/toronto-hydro-lifecycle.yml
+  href: https://artifacts.apis.io/toronto-hydro/lifecycle/toronto-hydro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/toronto-hydro-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/data-model/toronto-hydro-data-model.yml
+  href: https://artifacts.apis.io/toronto-hydro/data-model/toronto-hydro-data-model.yml
   title: ''
   type: DataModel
   url: data-model/toronto-hydro-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/packages/toronto-hydro-packages.yml
+  href: https://artifacts.apis.io/toronto-hydro/packages/toronto-hydro-packages.yml
   title: ''
   type: Packages
   url: packages/toronto-hydro-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/well-known/toronto-hydro-well-known.yml
+  href: https://artifacts.apis.io/toronto-hydro/well-known/toronto-hydro-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/toronto-hydro-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/llms/toronto-hydro-llms.txt
+  href: https://artifacts.apis.io/toronto-hydro/llms/toronto-hydro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/toronto-hydro-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/toronto-hydro/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -224,7 +226,7 @@ overview: 'Toronto Hydro publishes 5 API contracts indexed on the [APIs.io](http
 
 
   Toronto Hydro''s developer surface includes authentication, documentation, signup flow, getting-started guide, legal docs, support, FAQ, and 26 more developer resources.'
-random_paper: 20
+random_paper: 16
 scopes:
 - name: Toronto Hydro Scopes
   scope_count: 0
@@ -232,7 +234,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 28.2
+  composite: 31.5
   coverage:
     artifact_dirs: 19
     catalog_earned: 32.0
@@ -242,10 +244,10 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 11.1
-    developer_ergonomics: 42.3
+    developer_ergonomics: 51.8
     discoverability: 57.1
     operational_transparency: 15.8
   jurisdiction:
@@ -255,7 +257,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 28.2
+  previous_composite: 31.5
   provenance:
     conformance: derived
     contracts:
@@ -270,14 +272,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/screenshots/toronto-hydro-2026-09-02T163937.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/toronto-hydro/toronto-hydro-2026-09-02T163937.png
 security:
 - kind: authentication
   name: Toronto Hydro Authentication
@@ -287,6 +289,12 @@ security:
   name: Toronto Hydro Domain Security
   slug: toronto-hydro-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Onboard as a Toronto Hydro Green Button third party
+  slug: toronto-hydro-green-button-onboarding
+- name: Retrieve a customer's Green Button usage data from Toronto Hydro
+  slug: toronto-hydro-green-button-retrieve-usage
 slug: toronto-hydro
 tags:
 - Energy

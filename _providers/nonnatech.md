@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -73,22 +75,22 @@ common:
   type: Twitter
   url: https://twitter.com/nonnatech
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nonnatech/refs/heads/main/security/nonnatech-domain-security.yml
+  href: https://artifacts.apis.io/nonnatech/security/nonnatech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nonnatech-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nonnatech/refs/heads/main/conformance/nonnatech-conformance.yml
+  href: https://artifacts.apis.io/nonnatech/conformance/nonnatech-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nonnatech-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nonnatech/refs/heads/main/plans/nonnatech-plans-pricing.yml
+  href: https://artifacts.apis.io/nonnatech/plans/nonnatech-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nonnatech-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nonnatech/refs/heads/main/llms/nonnatech-llms.txt
+  href: https://artifacts.apis.io/nonnatech/llms/nonnatech-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nonnatech-llms.txt
@@ -124,18 +126,18 @@ plans:
 - name: Nonnatech Plans Pricing
   plan_count: 0
   slug: nonnatech-plans-pricing
-random_paper: 12
+random_paper: 22
 score:
   band: emerging
   composite: 11.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -150,7 +152,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 11.5
+  previous_composite: 11.6
   provenance:
     conformance: first-party
   regulatory:
@@ -159,14 +161,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nonnatech/refs/heads/main/screenshots/nonnatech-2026-08-07T185449.png
+screenshot: https://apis.io/screenshots/nonnatech/nonnatech-2026-08-07T185449.png
 security:
 - kind: domain-security
   name: Nonnatech Domain Security

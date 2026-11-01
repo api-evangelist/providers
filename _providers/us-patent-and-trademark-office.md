@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -95,11 +97,8 @@ apis:
   description: All public PTAB Trial proceedings
   name: US Patent and Trademark Office PTAB Trials Proceedings API
   slug: us-patent-and-trademark-office-ptab-trials-proceedings-api
-artifact_total: 38
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: USPTO Open Data Portal Bulk Datasets API
   slug: open-us-patent-and-trademark-office-bulk-datasets-api
@@ -138,32 +137,32 @@ collections:
   slug: open-uspto-tsdr
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/plans/us-patent-and-trademark-office-plans-pricing.yml
+  href: https://artifacts.apis.io/us-patent-and-trademark-office/plans/us-patent-and-trademark-office-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/us-patent-and-trademark-office-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/rate-limits/us-patent-and-trademark-office-rate-limits.yml
+  href: https://artifacts.apis.io/us-patent-and-trademark-office/rate-limits/us-patent-and-trademark-office-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/us-patent-and-trademark-office-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/finops/us-patent-and-trademark-office-finops.yml
+  href: https://artifacts.apis.io/us-patent-and-trademark-office/finops/us-patent-and-trademark-office-finops.yml
   title: ''
   type: FinOps
   url: finops/us-patent-and-trademark-office-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/agentic-access/us-patent-and-trademark-office-agentic-access.yml
+  href: https://artifacts.apis.io/us-patent-and-trademark-office/agentic-access/us-patent-and-trademark-office-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/us-patent-and-trademark-office-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/security/us-patent-and-trademark-office-domain-security.yml
+  href: https://artifacts.apis.io/us-patent-and-trademark-office/security/us-patent-and-trademark-office-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/us-patent-and-trademark-office-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/authentication/us-patent-and-trademark-office-authentication.yml
+  href: https://artifacts.apis.io/us-patent-and-trademark-office/authentication/us-patent-and-trademark-office-authentication.yml
   title: ''
   type: Authentication
   url: authentication/us-patent-and-trademark-office-authentication.yml
@@ -195,7 +194,7 @@ finops:
 - has_sources: false
   method: generated
   name: Us Patent And Trademark Office Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: us-patent-and-trademark-office-finops
   template: true
@@ -232,7 +231,7 @@ plans:
 - name: Us Patent And Trademark Office Plans Pricing
   plan_count: 3
   slug: us-patent-and-trademark-office-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Us Patent And Trademark Office Rate Limits
@@ -263,7 +262,7 @@ rules:
   slug: uspto-rules
 score:
   band: thin
-  composite: 27.3
+  composite: 28.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 50.5
@@ -271,20 +270,20 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 51.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 10.5
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 29.0
+  previous_composite: 28.7
   provenance:
     agentic_access: derived
     contracts:
@@ -298,14 +297,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/screenshots/us-patent-and-trademark-office-2026-06-20T200649.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/us-patent-and-trademark-office/us-patent-and-trademark-office-2026-06-20T200649.png
 security:
 - kind: authentication
   name: Us Patent And Trademark Office Authentication

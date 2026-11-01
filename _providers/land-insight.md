@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 28.7
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://app.land.tech/api
   baseurl_source: declared
@@ -97,11 +99,8 @@ apis:
   description: Endpoint for details on strategic industrial location
   name: Land Insight Strategic Industrial Location API
   slug: land-insight-strategic-industrial-location-api
-artifact_total: 28
+artifact_total: 33
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LandTech Additional Opportunities API
   slug: open-land-insight-additional-opportunities-api
@@ -139,18 +138,23 @@ collections:
   name: LandTech Additional Opportunities Strategic Industrial Location API
   slug: open-land-insight-strategic-industrial-location-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/land-insight/plans/land-insight-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/land-insight-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/capabilities/land-insight-capability-edges.yml
+  href: https://artifacts.apis.io/land-insight/capabilities/land-insight-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/land-insight-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/overlays/land-insight-api-overlay.yaml
+  href: https://artifacts.apis.io/land-insight/overlays/land-insight-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/land-insight-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/security/land-insight-trust-center.yml
+  href: https://artifacts.apis.io/land-insight/security/land-insight-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/land-insight-trust-center.yml
@@ -187,7 +191,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/landtechnologies
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/packages/land-insight-packages.yml
+  href: https://artifacts.apis.io/land-insight/packages/land-insight-packages.yml
   title: ''
   type: Packages
   url: packages/land-insight-packages.yml
@@ -212,62 +216,70 @@ common:
   type: Compliance
   url: https://land.tech/blog/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/authentication/land-insight-authentication.yml
+  href: https://artifacts.apis.io/land-insight/authentication/land-insight-authentication.yml
   title: ''
   type: Authentication
   url: authentication/land-insight-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/conventions/land-insight-conventions.yml
+  href: https://artifacts.apis.io/land-insight/conventions/land-insight-conventions.yml
   title: ''
   type: Conventions
   url: conventions/land-insight-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/errors/land-insight-problem-types.yml
+  href: https://artifacts.apis.io/land-insight/errors/land-insight-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/land-insight-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/lifecycle/land-insight-lifecycle.yml
+  href: https://artifacts.apis.io/land-insight/lifecycle/land-insight-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/land-insight-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/conformance/land-insight-conformance.yml
+  href: https://artifacts.apis.io/land-insight/conformance/land-insight-conformance.yml
   title: ''
   type: Conformance
   url: conformance/land-insight-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/data-model/land-insight-data-model.yml
+  href: https://artifacts.apis.io/land-insight/data-model/land-insight-data-model.yml
   title: ''
   type: DataModel
   url: data-model/land-insight-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/security/land-insight-domain-security.yml
+  href: https://artifacts.apis.io/land-insight/security/land-insight-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/land-insight-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/well-known/land-insight-well-known.yml
+  href: https://artifacts.apis.io/land-insight/well-known/land-insight-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/land-insight-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/llms/land-insight-llms.txt
+  href: https://artifacts.apis.io/land-insight/llms/land-insight-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/land-insight-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/mcp/land-insight-mcp.yml
+  href: https://artifacts.apis.io/land-insight/mcp/land-insight-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/land-insight-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/land-insight/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: LandTech (land.tech) is a UK property technology company whose LandInsight platform is used by developers, land agents, planners and investors to source and assess development sites. It combines HM Land Registry ownership and title data, planning applications, local plan policy, development constraints (Green Belt, flood zones, Article 4 directions, heritage designations), Land Availability Assessments, brownfield and regeneration opportunities, EPC and property attributes, and electricity network / renewable energy infrastructure into a single map-based product. Alongside LandInsight the company ships LandFund for development finance appraisal and Give My View for community engagement. The LandTech API exposes the same UK land and planning datasets as a paid HTTP product so customers can feed parcel search, ownership, planning application and constraint data into their own internal or customer-facing systems.
+finops:
+- has_sources: true
+  method: derived
+  name: Land Insight Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: land-insight-finops
+  template: false
 image: https://land.tech/favicon.ico
 layout: provider
 modified: '2026-07-19'
@@ -277,26 +289,33 @@ network: true
 overview: 'Land Insight publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Additional Opportunities API, Development Constraints API, Development Opportunities API, and 9 more. Tagged areas include Company, Real Estate, Property, Land, and Planning.
 
 
-  Land Insight''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 8
+  Land Insight''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+plans:
+- name: Land Insight Plans Pricing
+  plan_count: 3
+  slug: land-insight-plans-pricing
+- name: Land Insight Price Estimates
+  plan_count: 0
+  slug: land-insight-price-estimates
+random_paper: 18
 score:
-  band: developing
-  composite: 46.3
+  band: strong
+  composite: 54.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 21
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 51.2
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -305,7 +324,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 46.2
+  previous_composite: 46.7
   provenance:
     conformance: derived
     contracts:
@@ -325,13 +344,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/screenshots/land-insight-2026-07-25T224458.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/land-insight/land-insight-2026-07-25T224458.png
 security:
 - kind: authentication
   name: Land Insight Authentication
@@ -345,6 +365,14 @@ security:
   name: Land Insight Trust Center
   slug: land-insight-trust-center
   summary_line: ISO 27001, GDPR
+skill_count: 3
+skills:
+- name: Assess planning history and development constraints with the LandTech API
+  slug: land-insight-assess-planning-and-constraints
+- name: Source UK development sites with the LandTech API
+  slug: land-insight-source-development-sites
+- name: Trace UK land ownership with the LandTech API
+  slug: land-insight-trace-land-ownership
 slug: land-insight
 tags:
 - Company

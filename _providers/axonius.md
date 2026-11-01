@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Axonius is a cybersecurity asset management platform providing SaaS management, device discovery, and security policy enforcement across IT environments.
@@ -59,17 +61,17 @@ collections:
   slug: postman-axonius-devices
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/finops/axonius-finops.yml
+  href: https://artifacts.apis.io/axonius/finops/axonius-finops.yml
   title: ''
   type: FinOps
   url: finops/axonius-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/security/axonius-trust-center.yml
+  href: https://artifacts.apis.io/axonius/security/axonius-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/axonius-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/security/axonius-domain-security.yml
+  href: https://artifacts.apis.io/axonius/security/axonius-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/axonius-domain-security.yml
@@ -126,92 +128,92 @@ common:
   type: Postman
   url: https://github.com/Axonius/postman-minis
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/packages/axonius-packages.yml
+  href: https://artifacts.apis.io/axonius/packages/axonius-packages.yml
   title: ''
   type: Packages
   url: packages/axonius-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/packages/axonius-packages.yml
+  href: https://artifacts.apis.io/axonius/packages/axonius-packages.yml
   title: ''
   type: SDKs
   url: packages/axonius-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/cli/axonius-cli.yml
+  href: https://artifacts.apis.io/axonius/cli/axonius-cli.yml
   title: ''
   type: CLI
   url: cli/axonius-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/well-known/axonius-well-known.yml
+  href: https://artifacts.apis.io/axonius/well-known/axonius-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/axonius-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/well-known/axonius-security.txt
+  href: https://artifacts.apis.io/axonius/well-known/axonius-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/axonius-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/security/axonius-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/axonius/security/axonius-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/axonius-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/security/axonius-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/axonius/security/axonius-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/axonius-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/security/axonius-trust-center.yml
+  href: https://artifacts.apis.io/axonius/security/axonius-trust-center.yml
   title: ''
   type: Compliance
   url: security/axonius-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/conformance/axonius-conformance.yml
+  href: https://artifacts.apis.io/axonius/conformance/axonius-conformance.yml
   title: ''
   type: Conformance
   url: conformance/axonius-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/authentication/axonius-authentication.yml
+  href: https://artifacts.apis.io/axonius/authentication/axonius-authentication.yml
   title: ''
   type: Authentication
   url: authentication/axonius-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/mcp/axonius-mcp.yml
+  href: https://artifacts.apis.io/axonius/mcp/axonius-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/axonius-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/lifecycle/axonius-lifecycle.yml
+  href: https://artifacts.apis.io/axonius/lifecycle/axonius-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/axonius-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/changelog/axonius-changelog.yml
+  href: https://artifacts.apis.io/axonius/changelog/axonius-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/axonius-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/conventions/axonius-conventions.yml
+  href: https://artifacts.apis.io/axonius/conventions/axonius-conventions.yml
   title: ''
   type: Conventions
   url: conventions/axonius-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/asyncapi/axonius-webhooks.yml
+  href: https://artifacts.apis.io/axonius/asyncapi/axonius-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/axonius-webhooks.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/plans/axonius-plans-pricing.yml
+  href: https://artifacts.apis.io/axonius/plans/axonius-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/axonius-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/rate-limits/axonius-rate-limits.yml
+  href: https://artifacts.apis.io/axonius/rate-limits/axonius-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/axonius-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/llms/axonius-llms.txt
+  href: https://artifacts.apis.io/axonius/llms/axonius-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/axonius-llms.txt
@@ -239,11 +241,11 @@ features:
 - description: Track asset lifecycle from procurement to decommission with full audit trail.
   name: Lifecycle Management
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Axonius Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: axonius-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/axonius.png
@@ -278,14 +280,14 @@ plans:
 - name: Axonius Plans Pricing
   plan_count: 2
   slug: axonius-plans-pricing
-random_paper: 5
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Axonius Rate Limits
   slug: axonius-rate-limits
 score:
-  band: developing
-  composite: 49.9
+  band: strong
+  composite: 56.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 45.0
@@ -293,15 +295,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 57.9
+    access_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 58.3
-    discoverability: 75.0
-    operational_transparency: 36.8
-  previous_composite: 51.4
+    developer_ergonomics: 76.2
+    discoverability: 71.7
+    operational_transparency: 39.5
+  previous_composite: 56.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -310,15 +312,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/screenshots/axonius-2026-06-20T172834.png
+screenshot: https://apis.io/screenshots/axonius/axonius-2026-06-20T172834.png
 security:
 - kind: authentication
   name: Axonius Authentication

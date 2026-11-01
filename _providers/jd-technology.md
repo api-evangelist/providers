@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: JD Cloud OpenAPI is the programmatic control plane for JD Technology's public cloud — compute (VM), storage, databases (RDS), networking, containers, CDN, AI and security services. Each product expose
@@ -71,32 +73,32 @@ common:
   type: SignUp
   url: https://login.jdcloud.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jd-technology/refs/heads/main/packages/jd-technology-packages.yml
+  href: https://artifacts.apis.io/jd-technology/packages/jd-technology-packages.yml
   title: ''
   type: Packages
   url: packages/jd-technology-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jd-technology/refs/heads/main/packages/jd-technology-packages.yml
+  href: https://artifacts.apis.io/jd-technology/packages/jd-technology-packages.yml
   title: ''
   type: SDKs
   url: packages/jd-technology-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jd-technology/refs/heads/main/cli/jd-technology-cli.yml
+  href: https://artifacts.apis.io/jd-technology/cli/jd-technology-cli.yml
   title: ''
   type: CLI
   url: cli/jd-technology-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jd-technology/refs/heads/main/authentication/jd-technology-authentication.yml
+  href: https://artifacts.apis.io/jd-technology/authentication/jd-technology-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jd-technology-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jd-technology/refs/heads/main/security/jd-technology-domain-security.yml
+  href: https://artifacts.apis.io/jd-technology/security/jd-technology-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jd-technology-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jd-technology/refs/heads/main/llms/jd-technology-llms.txt
+  href: https://artifacts.apis.io/jd-technology/llms/jd-technology-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jd-technology-llms.txt
@@ -115,7 +117,7 @@ overview: 'JD Technology is listed with 1 API on the [APIs.io](https://apis.io/)
 random_paper: 15
 score:
   band: emerging
-  composite: 12.7
+  composite: 20.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -123,14 +125,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.6
-    discoverability: 73.2
-    operational_transparency: 2.6
+    developer_ergonomics: 54.8
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -138,21 +140,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 12.2
+  previous_composite: 20.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jd-technology/refs/heads/main/screenshots/jd-technology-2026-07-25T223219.png
+screenshot: https://apis.io/screenshots/jd-technology/jd-technology-2026-07-25T223219.png
 security:
 - kind: authentication
   name: Jd Technology Authentication

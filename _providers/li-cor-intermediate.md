@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: The Newa API from LI-COR Intermediate — 1 operation(s) for newa.
   name: LI-COR Intermediate Newa API
   slug: li-cor-intermediate-newa-api
-artifact_total: 9
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: HOBOLINK External Data API
   slug: open-li-cor-intermediate-data-api
@@ -68,12 +67,12 @@ collections:
   slug: open-li-cor-intermediate-newa-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/overlays/li-cor-intermediate-hobolink-overlay.yaml
+  href: https://artifacts.apis.io/li-cor-intermediate/overlays/li-cor-intermediate-hobolink-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/li-cor-intermediate-hobolink-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/agentic-access/li-cor-intermediate-agentic-access.yml
+  href: https://artifacts.apis.io/li-cor-intermediate/agentic-access/li-cor-intermediate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/li-cor-intermediate-agentic-access.yml
@@ -110,62 +109,62 @@ common:
   type: PrivacyPolicy
   url: https://www.licor.com/corp/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/authentication/li-cor-intermediate-authentication.yml
+  href: https://artifacts.apis.io/li-cor-intermediate/authentication/li-cor-intermediate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/li-cor-intermediate-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/errors/li-cor-intermediate-error-codes.yml
+  href: https://artifacts.apis.io/li-cor-intermediate/errors/li-cor-intermediate-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/li-cor-intermediate-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/rate-limits/li-cor-intermediate-rate-limits.yml
+  href: https://artifacts.apis.io/li-cor-intermediate/rate-limits/li-cor-intermediate-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/li-cor-intermediate-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/conventions/li-cor-intermediate-conventions.yml
+  href: https://artifacts.apis.io/li-cor-intermediate/conventions/li-cor-intermediate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/li-cor-intermediate-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/conformance/li-cor-intermediate-conformance.yml
+  href: https://artifacts.apis.io/li-cor-intermediate/conformance/li-cor-intermediate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/li-cor-intermediate-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/lifecycle/li-cor-intermediate-lifecycle.yml
+  href: https://artifacts.apis.io/li-cor-intermediate/lifecycle/li-cor-intermediate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/li-cor-intermediate-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/data-model/li-cor-intermediate-data-model.yml
+  href: https://artifacts.apis.io/li-cor-intermediate/data-model/li-cor-intermediate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/li-cor-intermediate-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/security/li-cor-intermediate-domain-security.yml
+  href: https://artifacts.apis.io/li-cor-intermediate/security/li-cor-intermediate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/li-cor-intermediate-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/well-known/li-cor-intermediate-well-known.yml
+  href: https://artifacts.apis.io/li-cor-intermediate/well-known/li-cor-intermediate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/li-cor-intermediate-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/mcp/li-cor-intermediate-mcp.yml
+  href: https://artifacts.apis.io/li-cor-intermediate/mcp/li-cor-intermediate-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/li-cor-intermediate-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/llms/li-cor-intermediate-llms.txt
+  href: https://artifacts.apis.io/li-cor-intermediate/llms/li-cor-intermediate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/li-cor-intermediate-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/li-cor-intermediate/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -181,16 +180,16 @@ overview: 'LI-COR Intermediate publishes 2 API contracts indexed on the [APIs.io
 
 
   LI-COR Intermediate''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Li Cor Intermediate Rate Limits
   slug: li-cor-intermediate-rate-limits
 score:
   band: thin
-  composite: 35.7
+  composite: 35.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -202,9 +201,9 @@ score:
     contract_governance: 4.5
     contract_quality: 47.8
     developer_ergonomics: 37.5
-    discoverability: 73.2
-    operational_transparency: 23.7
-  previous_composite: 35.7
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -221,14 +220,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/screenshots/li-cor-intermediate-2026-07-25T225010.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/li-cor-intermediate/li-cor-intermediate-2026-07-25T225010.png
 security:
 - kind: authentication
   name: Li Cor Intermediate Authentication
@@ -238,6 +237,12 @@ security:
   name: Li Cor Intermediate Domain Security
   slug: li-cor-intermediate-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Pull sensor-grouped data for one device
+  slug: li-cor-intermediate-pull-device-sensor-data
+- name: Pull HOBO logger observations
+  slug: li-cor-intermediate-pull-logger-observations
 slug: li-cor-intermediate
 tags:
 - Company

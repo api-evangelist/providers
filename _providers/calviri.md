@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: An anonymous Model Context Protocol endpoint served from Calviri's own host at https://www.calviri.com/_api/mcp. It is the standard Wix "Site Visitor Assistant" server that the Wix platform provisions
@@ -43,7 +45,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calviri/refs/heads/main/security/calviri-domain-security.yml
+  href: https://artifacts.apis.io/calviri/security/calviri-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/calviri-domain-security.yml
@@ -96,17 +98,17 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/calviri_stock/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/calviri/refs/heads/main/llms/calviri-llms.txt
+  href: https://artifacts.apis.io/calviri/llms/calviri-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/calviri-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/calviri/refs/heads/main/mcp/calviri-mcp.yml
+  href: https://artifacts.apis.io/calviri/mcp/calviri-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/calviri-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calviri/refs/heads/main/authentication/calviri-authentication.yml
+  href: https://artifacts.apis.io/calviri/authentication/calviri-authentication.yml
   title: ''
   type: Authentication
   url: authentication/calviri-authentication.yml
@@ -127,10 +129,10 @@ overview: 'Calviri is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Calviri''s developer surface includes YouTube channel, authentication, and 14 more developer resources.'
-random_paper: 20
+random_paper: 2
 score:
   band: minimal
-  composite: 9.6
+  composite: 8.6
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -138,15 +140,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 75.8
+    discoverability: 66.7
     operational_transparency: 0.0
-  previous_composite: 9.5
+  previous_composite: 8.6
   provenance:
     mcp: platform-generated
   regulatory:
@@ -155,14 +157,14 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/calviri/refs/heads/main/screenshots/calviri-2026-09-02T145008.png
+screenshot: https://apis.io/screenshots/calviri/calviri-2026-09-02T145008.png
 security:
 - kind: authentication
   name: Calviri Authentication

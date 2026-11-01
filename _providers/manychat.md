@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
+  score: 33.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -65,15 +67,12 @@ apis:
   description: White-label profile / template management (Profile API)
   name: ManyChat Template API
   slug: manychat-template-api
-artifact_total: 17
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Manychat Dynamic Block Webhooks
   slug: manychat-dynamic-block-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ManyChat Page API
   slug: open-manychat-page-api
@@ -95,22 +94,22 @@ common:
   type: Blog
   url: https://manychat.com/blog/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/capabilities/manychat-capability-edges.yml
+  href: https://artifacts.apis.io/manychat/capabilities/manychat-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/manychat-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/overlays/manychat-profile-api-overlay.yaml
+  href: https://artifacts.apis.io/manychat/overlays/manychat-profile-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/manychat-profile-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/agentic-access/manychat-agentic-access.yml
+  href: https://artifacts.apis.io/manychat/agentic-access/manychat-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/manychat-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/security/manychat-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/manychat/security/manychat-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/manychat-vulnerability-disclosure.yml
@@ -119,47 +118,47 @@ common:
   type: Security
   url: https://manychat.com/security/vulnerability
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/security/manychat-domain-security.yml
+  href: https://artifacts.apis.io/manychat/security/manychat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/manychat-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/authentication/manychat-authentication.yml
+  href: https://artifacts.apis.io/manychat/authentication/manychat-authentication.yml
   title: ''
   type: Authentication
   url: authentication/manychat-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/conventions/manychat-conventions.yml
+  href: https://artifacts.apis.io/manychat/conventions/manychat-conventions.yml
   title: ''
   type: Conventions
   url: conventions/manychat-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/conformance/manychat-conformance.yml
+  href: https://artifacts.apis.io/manychat/conformance/manychat-conformance.yml
   title: ''
   type: Conformance
   url: conformance/manychat-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/errors/manychat-problem-types.yml
+  href: https://artifacts.apis.io/manychat/errors/manychat-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/manychat-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/data-model/manychat-data-model.yml
+  href: https://artifacts.apis.io/manychat/data-model/manychat-data-model.yml
   title: ''
   type: DataModel
   url: data-model/manychat-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/rate-limits/manychat-rate-limits.yml
+  href: https://artifacts.apis.io/manychat/rate-limits/manychat-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/manychat-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/plans/manychat-plans-pricing.yml
+  href: https://artifacts.apis.io/manychat/plans/manychat-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/manychat-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/lifecycle/manychat-lifecycle.yml
+  href: https://artifacts.apis.io/manychat/lifecycle/manychat-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/manychat-lifecycle.yml
@@ -168,42 +167,42 @@ common:
   type: StatusPage
   url: https://status.manychat.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/packages/manychat-packages.yml
+  href: https://artifacts.apis.io/manychat/packages/manychat-packages.yml
   title: ''
   type: Packages
   url: packages/manychat-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/packages/manychat-packages.yml
+  href: https://artifacts.apis.io/manychat/packages/manychat-packages.yml
   title: ''
   type: SDKs
   url: packages/manychat-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/vocabulary/manychat-dynamic-block-vocabulary.yml
+  href: https://artifacts.apis.io/manychat/vocabulary/manychat-dynamic-block-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/manychat-dynamic-block-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/asyncapi/manychat-dynamic-block-webhooks.yml
+  href: https://artifacts.apis.io/manychat/asyncapi/manychat-dynamic-block-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/manychat-dynamic-block-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/manychat/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/llms/manychat-llms.txt
+  href: https://artifacts.apis.io/manychat/llms/manychat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/manychat-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/well-known/manychat-well-known.yml
+  href: https://artifacts.apis.io/manychat/well-known/manychat-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/manychat-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/mcp/manychat-mcp.yml
+  href: https://artifacts.apis.io/manychat/mcp/manychat-mcp.yml
   title: ''
   type: MCPCandidate
   url: mcp/manychat-mcp.yml
@@ -254,6 +253,14 @@ common:
 created: '2026-05-11'
 description: 'ManyChat is a chat-marketing platform that lets businesses build automated conversations and marketing flows across Instagram Direct Messages, Facebook Messenger, WhatsApp, Telegram, TikTok and SMS. It provides a visual flow builder, audience segmentation, broadcasts, growth tools and integrations with ecommerce and CRM systems to drive engagement, lead capture and sales. The public ManyChat REST API is a page-scoped surface of 35 operations covering subscribers, tags, typed custom fields, page-level bot fields, automations and sending, published as OpenAPI 3.0 and served through an interactive Swagger console at api.manychat.com/swagger. Authentication is a per-page API key sent as an Authorization Bearer token in the form page-id:api-key; there is no OAuth, no scopes and no account-wide credential. ManyChat''s only asynchronous surface runs outbound: the External Request flow step calls a partner endpoint and expects a Dynamic Block v2 JSON response back, so the integrator
   is the webhook receiver rather than ManyChat pushing events.'
+finops:
+- has_sources: true
+  method: derived
+  name: Manychat Finops
+  primary_unit: active contacts
+  service_category: ''
+  slug: manychat-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/manychat.png
 layout: provider
 modified: '2026-10-06'
@@ -269,32 +276,35 @@ overview: 'ManyChat publishes 4 API contracts indexed on the [APIs.io](https://a
   ManyChat''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, pricing, and 28 more developer resources.'
 plans:
 - name: Manychat Plans Pricing
-  plan_count: 0
+  plan_count: 5
   slug: manychat-plans-pricing
-random_paper: 17
+- name: Manychat Price Estimates
+  plan_count: 0
+  slug: manychat-price-estimates
+random_paper: 13
 rate_limits:
 - limit_count: 35
   name: Manychat Rate Limits
   slug: manychat-rate-limits
 score:
-  band: developing
-  composite: 47.0
+  band: strong
+  composite: 57.0
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 57.0
-    catalog_earned_first_party: 17.0
-    catalog_gap: 58.0
+    artifact_dirs: 26
+    catalog_earned: 72.0
+    catalog_earned_first_party: 29.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.4
+  delta: 7.9
   facets:
-    access_clarity: 23.7
+    access_clarity: 63.2
     contract_governance: 19.7
     contract_quality: 55.4
     developer_ergonomics: 56.5
     discoverability: 71.4
-    operational_transparency: 60.5
-  previous_composite: 46.6
+    operational_transparency: 71.1
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -311,13 +321,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/screenshots/manychat-2026-06-20T184935.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/manychat/manychat-2026-06-20T184935.png
 security:
 - kind: authentication
   name: Manychat Authentication
@@ -331,6 +342,16 @@ security:
   name: Manychat Vulnerability Disclosure
   slug: manychat-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 4
+skills:
+- name: Answer a ManyChat External Request with a Dynamic Block response
+  slug: manychat-answer-external-request
+- name: Find a ManyChat subscriber and tag them
+  slug: manychat-find-and-tag-subscriber
+- name: Manage ManyChat page tags, custom fields and bot fields
+  slug: manychat-manage-page-fields-and-tags
+- name: Send a ManyChat message inside Meta's messaging policy
+  slug: manychat-send-message-within-policy
 slug: manychat
 tags:
 - Chat Marketing

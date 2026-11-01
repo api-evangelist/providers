@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,26 +36,26 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The ogen code generator. Invoked as a build-time CLI against a local OpenAPI v3 document — `ogen [options] <spec>` — it writes a Go package containing a typed client, server, router, validators and JS
   name: Ogen
   slug: ogen
-artifact_total: 7
+artifact_total: 9
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/plans/ogen-plans-pricing.yml
+  href: https://artifacts.apis.io/ogen/plans/ogen-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ogen-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/rate-limits/ogen-rate-limits.yml
+  href: https://artifacts.apis.io/ogen/rate-limits/ogen-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ogen-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/finops/ogen-finops.yml
+  href: https://artifacts.apis.io/ogen/finops/ogen-finops.yml
   title: ''
   type: FinOps
   url: finops/ogen-finops.yml
@@ -110,62 +112,62 @@ common:
   type: Community
   url: https://t.me/ogen_dev
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/json-schema/ogen-config.jsonschema.json
+  href: https://artifacts.apis.io/ogen/json-schema/ogen-config.jsonschema.json
   title: ''
   type: JSONSchema
   url: json-schema/ogen-config.jsonschema.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/packages/ogen-packages.yml
+  href: https://artifacts.apis.io/ogen/packages/ogen-packages.yml
   title: ''
   type: Packages
   url: packages/ogen-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/packages/ogen-packages.yml
+  href: https://artifacts.apis.io/ogen/packages/ogen-packages.yml
   title: ''
   type: SDKs
   url: packages/ogen-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/cli/ogen-cli.yml
+  href: https://artifacts.apis.io/ogen/cli/ogen-cli.yml
   title: ''
   type: CLI
   url: cli/ogen-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/sandbox/ogen-sandbox.yml
+  href: https://artifacts.apis.io/ogen/sandbox/ogen-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ogen-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/vocabulary/ogen-extensions.yml
+  href: https://artifacts.apis.io/ogen/vocabulary/ogen-extensions.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ogen-extensions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/conformance/ogen-conformance.yml
+  href: https://artifacts.apis.io/ogen/conformance/ogen-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ogen-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/changelog/ogen-changelog.yml
+  href: https://artifacts.apis.io/ogen/changelog/ogen-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ogen-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/lifecycle/ogen-lifecycle.yml
+  href: https://artifacts.apis.io/ogen/lifecycle/ogen-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ogen-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ogen/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/llms/ogen-llms.txt
+  href: https://artifacts.apis.io/ogen/llms/ogen-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ogen-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/security/ogen-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ogen/security/ogen-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ogen-vulnerability-disclosure.yml
@@ -174,7 +176,7 @@ common:
   type: Security
   url: https://github.com/ogen-go/ogen/blob/main/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/security/ogen-domain-security.yml
+  href: https://artifacts.apis.io/ogen/security/ogen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ogen-domain-security.yml
@@ -184,7 +186,7 @@ finops:
 - has_sources: false
   method: generated
   name: Ogen Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: ogen-finops
   template: true
@@ -206,50 +208,47 @@ plans:
 - name: Ogen Plans Pricing
   plan_count: 3
   slug: ogen-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Ogen Rate Limits
   slug: ogen-rate-limits
 score:
   band: thin
-  composite: 36.7
+  composite: 31.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 48.4
     catalog_earned_first_party: 5.0
     catalog_gap: 66.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: -0.5
   facets:
     access_clarity: 7.9
     contract_governance: 33.3
     contract_quality: 7.2
     developer_ergonomics: 66.1
     discoverability: 57.1
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 85.0
-  previous_composite: 38.1
+    operational_transparency: 39.5
+  previous_composite: 31.7
   provenance:
     conformance: first-party
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/screenshots/ogen-2026-06-20T190640.png
+screenshot: https://apis.io/screenshots/ogen/ogen-2026-06-20T190640.png
 security:
 - kind: domain-security
   name: Ogen Domain Security
@@ -259,6 +258,12 @@ security:
   name: Ogen Vulnerability Disclosure
   slug: ogen-vulnerability-disclosure
   summary_line: security.txt
+skill_count: 2
+skills:
+- name: Generate a Go client and server from an OpenAPI v3 spec with ogen
+  slug: ogen-generate-go-client-server
+- name: Validate an OpenAPI v3 document against the ogen parser
+  slug: ogen-validate-openapi
 slug: ogen
 tags:
 - Code Generation
@@ -268,7 +273,7 @@ tags:
 - Developer Tools
 - Open Source
 - JSON Schema
-- Client Libraries
+- Client Library
 - API Design
 - OpenTelemetry
 - SDK Generation

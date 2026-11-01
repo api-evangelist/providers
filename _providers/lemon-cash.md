@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,25 +37,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Lemon Mini App SDK is the public developer contract for building a Mini App that runs inside the Lemon Cash mobile app. It is a TypeScript library, not an HTTP API: calls are passed to the native '
   name: Lemon Cash Mini App SDK
   slug: lemon-cash-mini-app-sdk
-artifact_total: 4
+artifact_total: 8
 common:
 - group: operate
   title: ''
   type: IssueTracker
   url: https://github.com/lemonatio/mini-app-sdk/issues
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/security/lemon-cash-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/lemon-cash/security/lemon-cash-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lemon-cash-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/security/lemon-cash-domain-security.yml
+  href: https://artifacts.apis.io/lemon-cash/security/lemon-cash-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lemon-cash-domain-security.yml
@@ -110,7 +112,7 @@ common:
   type: StatusPage
   url: https://status.lemon.me/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/lifecycle/lemon-cash-lifecycle.yml
+  href: https://artifacts.apis.io/lemon-cash/lifecycle/lemon-cash-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/lemon-cash-lifecycle.yml
@@ -123,12 +125,12 @@ common:
   type: PrivacyPolicy
   url: https://lemon.me/arg-terms/declaraci%C3%B3n-de-privacidad
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/conformance/lemon-cash-conformance.yml
+  href: https://artifacts.apis.io/lemon-cash/conformance/lemon-cash-conformance.yml
   title: ''
   type: Compliance
   url: conformance/lemon-cash-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/conformance/lemon-cash-conformance.yml
+  href: https://artifacts.apis.io/lemon-cash/conformance/lemon-cash-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lemon-cash-conformance.yml
@@ -137,67 +139,67 @@ common:
   type: Security
   url: https://lemon.me/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/well-known/lemon-cash-security.txt
+  href: https://artifacts.apis.io/lemon-cash/well-known/lemon-cash-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/lemon-cash-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/well-known/lemon-cash-well-known.yml
+  href: https://artifacts.apis.io/lemon-cash/well-known/lemon-cash-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lemon-cash-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/packages/lemon-cash-packages.yml
+  href: https://artifacts.apis.io/lemon-cash/packages/lemon-cash-packages.yml
   title: ''
   type: Packages
   url: packages/lemon-cash-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/packages/lemon-cash-packages.yml
+  href: https://artifacts.apis.io/lemon-cash/packages/lemon-cash-packages.yml
   title: ''
   type: SDKs
   url: packages/lemon-cash-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/llms/lemon-cash-llms.txt
+  href: https://artifacts.apis.io/lemon-cash/llms/lemon-cash-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lemon-cash-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/authentication/lemon-cash-authentication.yml
+  href: https://artifacts.apis.io/lemon-cash/authentication/lemon-cash-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lemon-cash-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/errors/lemon-cash-problem-types.yml
+  href: https://artifacts.apis.io/lemon-cash/errors/lemon-cash-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lemon-cash-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/conventions/lemon-cash-conventions.yml
+  href: https://artifacts.apis.io/lemon-cash/conventions/lemon-cash-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lemon-cash-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/data-model/lemon-cash-data-model.yml
+  href: https://artifacts.apis.io/lemon-cash/data-model/lemon-cash-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lemon-cash-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/sandbox/lemon-cash-sandbox.yml
+  href: https://artifacts.apis.io/lemon-cash/sandbox/lemon-cash-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/lemon-cash-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/changelog/lemon-cash-changelog.yml
+  href: https://artifacts.apis.io/lemon-cash/changelog/lemon-cash-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lemon-cash-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/lifecycle/lemon-cash-lifecycle.yml
+  href: https://artifacts.apis.io/lemon-cash/lifecycle/lemon-cash-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lemon-cash-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lemon-cash/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -233,12 +235,12 @@ overview: 'Lemon Cash is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Lemon Cash''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 33 more developer resources.'
-random_paper: 9
+random_paper: 15
 score:
   band: developing
-  composite: 41.3
+  composite: 41.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -250,8 +252,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 52.6
+    discoverability: 66.1
+    operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -259,7 +261,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 41.3
+  previous_composite: 41.6
   provenance:
     conformance: first-party
     skills: derived
@@ -269,14 +271,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/screenshots/lemon-cash-2026-08-07T171533.png
+screenshot: https://apis.io/screenshots/lemon-cash/lemon-cash-2026-08-07T171533.png
 security:
 - kind: authentication
   name: Lemon Cash Authentication
@@ -290,6 +292,16 @@ security:
   name: Lemon Cash Vulnerability Disclosure
   slug: lemon-cash-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 4
+skills:
+- name: Authenticate a Lemon Mini App user
+  slug: lemon-cash-authenticate-mini-app-user
+- name: Call a smart contract from a Lemon Mini App
+  slug: lemon-cash-call-smart-contract-with-permit
+- name: Fund and settle a Lemon Mini App wallet
+  slug: lemon-cash-fund-and-settle-mini-app-wallet
+- name: Transfer fiat to a bank account from a Lemon Mini App
+  slug: lemon-cash-transfer-fiat-to-bank-account
 slug: lemon-cash
 tags:
 - Company

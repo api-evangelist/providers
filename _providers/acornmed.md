@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,27 +25,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acornmed/refs/heads/main/security/acornmed-domain-security.yml
+  href: https://artifacts.apis.io/acornmed/security/acornmed-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/acornmed-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acornmed/refs/heads/main/llms/acornmed-llms.txt
+  href: https://artifacts.apis.io/acornmed/llms/acornmed-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/acornmed-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/acornmed/refs/heads/main/plans/acornmed-plans-pricing.yml
+  href: https://artifacts.apis.io/acornmed/plans/acornmed-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/acornmed-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/acornmed/refs/heads/main/rate-limits/acornmed-rate-limits.yml
+  href: https://artifacts.apis.io/acornmed/rate-limits/acornmed-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/acornmed-rate-limits.yml
@@ -101,7 +103,7 @@ plans:
 - name: Acornmed Plans Pricing
   plan_count: 0
   slug: acornmed-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Acornmed Rate Limits
@@ -138,14 +140,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/acornmed/refs/heads/main/screenshots/acornmed-2026-10-11T092704.png
+screenshot: https://apis.io/screenshots/acornmed/acornmed-2026-10-11T092704.png
 security:
 - kind: domain-security
   name: Acornmed Domain Security

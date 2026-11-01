@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: Transit stop search and details
   name: Walk Score Stops API
   slug: walk-score-stops-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Walk Score Cities API
   slug: open-walk-score-cities-api
@@ -90,17 +89,17 @@ collections:
   slug: open-walk-score
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/plans/walk-score-plans-pricing.yml
+  href: https://artifacts.apis.io/walk-score/plans/walk-score-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/walk-score-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/rate-limits/walk-score-rate-limits.yml
+  href: https://artifacts.apis.io/walk-score/rate-limits/walk-score-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/walk-score-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/finops/walk-score-finops.yml
+  href: https://artifacts.apis.io/walk-score/finops/walk-score-finops.yml
   title: ''
   type: FinOps
   url: finops/walk-score-finops.yml
@@ -109,17 +108,17 @@ common:
   type: Blog
   url: https://www.walkscore.com/press/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/agentic-access/walk-score-agentic-access.yml
+  href: https://artifacts.apis.io/walk-score/agentic-access/walk-score-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/walk-score-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/security/walk-score-domain-security.yml
+  href: https://artifacts.apis.io/walk-score/security/walk-score-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/walk-score-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/authentication/walk-score-authentication.yml
+  href: https://artifacts.apis.io/walk-score/authentication/walk-score-authentication.yml
   title: ''
   type: Authentication
   url: authentication/walk-score-authentication.yml
@@ -159,7 +158,7 @@ finops:
 - has_sources: false
   method: generated
   name: Walk Score Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: walk-score-finops
   template: true
@@ -196,7 +195,7 @@ plans:
 - name: Walk Score Plans Pricing
   plan_count: 3
   slug: walk-score-plans-pricing
-random_paper: 4
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Walk Score Rate Limits
@@ -229,13 +228,13 @@ score:
   band: thin
   composite: 35.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 60.9
     catalog_earned_first_party: 0.0
     catalog_gap: 54.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 13.6
@@ -243,7 +242,7 @@ score:
     developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 36.2
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -257,14 +256,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/screenshots/walk-score-2026-06-20T201208.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/walk-score/walk-score-2026-06-20T201208.png
 security:
 - kind: authentication
   name: Walk Score Authentication

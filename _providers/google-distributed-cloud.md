@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -67,7 +69,7 @@ apis:
   description: Operations for listing available edge zones
   name: Google Distributed Cloud Zones API
   slug: google-distributed-cloud-zones-api
-artifact_total: 27
+artifact_total: 26
 collections:
 - collection_type: postman
   name: Google Distributed Cloud Edge Network Networks API
@@ -81,9 +83,6 @@ collections:
 - collection_type: postman
   name: Google Distributed Cloud Edge Network Networks Zones API
   slug: postman-google-distributed-cloud-zones-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Distributed Cloud Edge Network API
   slug: open-distributed-cloud-edge-network-api
@@ -101,22 +100,22 @@ collections:
   slug: open-google-distributed-cloud-zones-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/plans/google-distributed-cloud-plans-pricing.yml
+  href: https://artifacts.apis.io/google-distributed-cloud/plans/google-distributed-cloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-distributed-cloud-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/rate-limits/google-distributed-cloud-rate-limits.yml
+  href: https://artifacts.apis.io/google-distributed-cloud/rate-limits/google-distributed-cloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-distributed-cloud-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/finops/google-distributed-cloud-finops.yml
+  href: https://artifacts.apis.io/google-distributed-cloud/finops/google-distributed-cloud-finops.yml
   title: ''
   type: FinOps
   url: finops/google-distributed-cloud-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/capabilities/google-distributed-cloud-capability-edges.yml
+  href: https://artifacts.apis.io/google-distributed-cloud/capabilities/google-distributed-cloud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-distributed-cloud-capability-edges.yml
@@ -129,27 +128,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-distributed-cloud/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/agentic-access/google-distributed-cloud-agentic-access.yml
+  href: https://artifacts.apis.io/google-distributed-cloud/agentic-access/google-distributed-cloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-distributed-cloud-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/security/google-distributed-cloud-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-distributed-cloud/security/google-distributed-cloud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-distributed-cloud-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/security/google-distributed-cloud-domain-security.yml
+  href: https://artifacts.apis.io/google-distributed-cloud/security/google-distributed-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-distributed-cloud-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/authentication/google-distributed-cloud-authentication.yml
+  href: https://artifacts.apis.io/google-distributed-cloud/authentication/google-distributed-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-distributed-cloud-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/scopes/google-distributed-cloud-scopes.yml
+  href: https://artifacts.apis.io/google-distributed-cloud/scopes/google-distributed-cloud-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-distributed-cloud-scopes.yml
@@ -194,18 +193,18 @@ common:
   type: Support
   url: https://cloud.google.com/distributed-cloud/docs/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/json-ld/google-distributed-cloud-context.jsonld
+  href: https://artifacts.apis.io/google-distributed-cloud/json-ld/google-distributed-cloud-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/google-distributed-cloud-context.jsonld
 created: '2026-03-13'
 description: Google Distributed Cloud provides fully managed hardware and software solutions that extend Google Cloud infrastructure and services to the edge and into customer data centers. It supports both connected and air-gapped deployments, enabling organizations to run workloads locally while leveraging Google Cloud management, security, and services.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Google Distributed Cloud Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: google-distributed-cloud-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-distributed-cloud.png
@@ -232,9 +231,9 @@ overview: 'Google Distributed Cloud publishes 5 API contracts indexed on the [AP
   Google Distributed Cloud''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 16 more developer resources.'
 plans:
 - name: Google Distributed Cloud Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: google-distributed-cloud-plans-pricing
-random_paper: 7
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Google Distributed Cloud Rate Limits
@@ -270,23 +269,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 45.4
+  composite: 51.4
   coverage:
     artifact_dirs: 16
-    catalog_earned: 57.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.1
+    catalog_earned: 62.9
+    catalog_earned_first_party: 8.0
+    catalog_gap: 52.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: -2.2
   facets:
-    access_clarity: 39.5
+    access_clarity: 52.6
     contract_governance: 13.6
     contract_quality: 56.1
-    developer_ergonomics: 44.0
+    developer_ergonomics: 48.8
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 47.0
+    operational_transparency: 39.5
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     contracts:
@@ -300,13 +299,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/screenshots/google-distributed-cloud-2026-06-20T182158.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-distributed-cloud/google-distributed-cloud-2026-06-20T182158.png
 security:
 - kind: authentication
   name: Google Distributed Cloud Authentication

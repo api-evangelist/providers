@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,11 +56,8 @@ apis:
   description: Operations operations
   name: Azure Service Fabric Operations API
   slug: microsoft-azure-service-fabric-operations-api
-artifact_total: 13
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure Service Fabric REST Clusters API
   slug: open-microsoft-azure-service-fabric-clusters-api
@@ -70,22 +69,22 @@ collections:
   slug: open-microsoft-azure-service-fabric
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/plans/microsoft-azure-service-fabric-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-azure-service-fabric/plans/microsoft-azure-service-fabric-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-azure-service-fabric-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/rate-limits/microsoft-azure-service-fabric-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-azure-service-fabric/rate-limits/microsoft-azure-service-fabric-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-azure-service-fabric-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/finops/microsoft-azure-service-fabric-finops.yml
+  href: https://artifacts.apis.io/microsoft-azure-service-fabric/finops/microsoft-azure-service-fabric-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-azure-service-fabric-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/capabilities/microsoft-azure-service-fabric-capability-edges.yml
+  href: https://artifacts.apis.io/microsoft-azure-service-fabric/capabilities/microsoft-azure-service-fabric-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-azure-service-fabric-capability-edges.yml
@@ -94,22 +93,22 @@ common:
   type: Website
   url: https://microsoft.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/agentic-access/microsoft-azure-service-fabric-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-azure-service-fabric/agentic-access/microsoft-azure-service-fabric-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-service-fabric-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/security/microsoft-azure-service-fabric-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-azure-service-fabric/security/microsoft-azure-service-fabric-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-service-fabric-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/authentication/microsoft-azure-service-fabric-authentication.yml
+  href: https://artifacts.apis.io/microsoft-azure-service-fabric/authentication/microsoft-azure-service-fabric-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-service-fabric-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/scopes/microsoft-azure-service-fabric-scopes.yml
+  href: https://artifacts.apis.io/microsoft-azure-service-fabric/scopes/microsoft-azure-service-fabric-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-service-fabric-scopes.yml
@@ -164,11 +163,11 @@ common:
 created: '2026-03-13'
 description: Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It supports creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster health for distributed systems.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Microsoft Azure Service Fabric Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: microsoft-azure-service-fabric-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-service-fabric.png
@@ -183,9 +182,9 @@ overview: 'Azure Service Fabric is listed with 2 APIs on the [APIs.io](https://a
   Azure Service Fabric''s developer surface includes authentication, developer portal, pricing, documentation, getting-started guide, support, engineering blog, and 14 more developer resources.'
 plans:
 - name: Microsoft Azure Service Fabric Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: microsoft-azure-service-fabric-plans-pricing
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Service Fabric Rate Limits
@@ -197,23 +196,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 42.7
+  composite: 46.7
   coverage:
     artifact_dirs: 14
-    catalog_earned: 38.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 44.1
-    developer_ergonomics: 47.6
+    developer_ergonomics: 50.0
     discoverability: 71.4
-    operational_transparency: 26.3
-  previous_composite: 44.2
+    operational_transparency: 28.9
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -227,13 +226,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/screenshots/microsoft-azure-service-fabric-2026-06-20T185437.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-azure-service-fabric/microsoft-azure-service-fabric-2026-06-20T185437.png
 security:
 - kind: authentication
   name: Microsoft Azure Service Fabric Authentication

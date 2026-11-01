@@ -19,7 +19,7 @@ name: Weilos
 nav: Providers
 network: true
 overview: Weilos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Wellness, Weight Loss, and Fitness.
-random_paper: 21
+random_paper: 11
 slug: weilos
 tags:
 - Company

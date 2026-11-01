@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -64,7 +66,7 @@ apis:
   description: Operations for managing tag templates
   name: Google Cloud Data Catalog TagTemplates API
   slug: google-cloud-data-catalog-tagtemplates-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: postman
   name: Google Cloud Data Catalog API
@@ -78,9 +80,6 @@ collections:
 - collection_type: postman
   name: Google Cloud Data Catalog TagTemplates API
   slug: postman-google-cloud-data-catalog-tagtemplates-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Cloud Data Catalog API
   slug: open-google-cloud-data-catalog-catalog-api
@@ -98,22 +97,22 @@ collections:
   slug: open-google-cloud-data-catalog
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/plans/google-cloud-data-catalog-plans-pricing.yml
+  href: https://artifacts.apis.io/google-cloud-data-catalog/plans/google-cloud-data-catalog-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-cloud-data-catalog-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/rate-limits/google-cloud-data-catalog-rate-limits.yml
+  href: https://artifacts.apis.io/google-cloud-data-catalog/rate-limits/google-cloud-data-catalog-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-cloud-data-catalog-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/finops/google-cloud-data-catalog-finops.yml
+  href: https://artifacts.apis.io/google-cloud-data-catalog/finops/google-cloud-data-catalog-finops.yml
   title: ''
   type: FinOps
   url: finops/google-cloud-data-catalog-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/capabilities/google-cloud-data-catalog-capability-edges.yml
+  href: https://artifacts.apis.io/google-cloud-data-catalog/capabilities/google-cloud-data-catalog-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-cloud-data-catalog-capability-edges.yml
@@ -126,27 +125,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-cloud-data-catalog/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/agentic-access/google-cloud-data-catalog-agentic-access.yml
+  href: https://artifacts.apis.io/google-cloud-data-catalog/agentic-access/google-cloud-data-catalog-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-cloud-data-catalog-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/security/google-cloud-data-catalog-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-cloud-data-catalog/security/google-cloud-data-catalog-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-cloud-data-catalog-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/security/google-cloud-data-catalog-domain-security.yml
+  href: https://artifacts.apis.io/google-cloud-data-catalog/security/google-cloud-data-catalog-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-cloud-data-catalog-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/authentication/google-cloud-data-catalog-authentication.yml
+  href: https://artifacts.apis.io/google-cloud-data-catalog/authentication/google-cloud-data-catalog-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-cloud-data-catalog-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/scopes/google-cloud-data-catalog-scopes.yml
+  href: https://artifacts.apis.io/google-cloud-data-catalog/scopes/google-cloud-data-catalog-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-cloud-data-catalog-scopes.yml
@@ -191,20 +190,20 @@ common:
   type: Support
   url: https://cloud.google.com/data-catalog/docs/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/json-ld/google-cloud-data-catalog-context.jsonld
+  href: https://artifacts.apis.io/google-cloud-data-catalog/json-ld/google-cloud-data-catalog-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/google-cloud-data-catalog-context.jsonld
 created: '2026-03-13'
 description: Google Cloud Data Catalog is a fully managed, scalable metadata management service that helps organizations discover, understand, and manage their data. It provides a unified view of data assets across Google Cloud and allows users to search, tag, and classify data resources.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Google Cloud Data Catalog Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: dcu per unit time
+  service_category: ''
   slug: google-cloud-data-catalog-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-data-catalog.png
 json_schemas:
 - name: Google Cloud Data Catalog Entry
@@ -229,9 +228,9 @@ overview: 'Google Cloud Data Catalog publishes 4 API contracts indexed on the [A
   Google Cloud Data Catalog''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 16 more developer resources.'
 plans:
 - name: Google Cloud Data Catalog Plans Pricing
-  plan_count: 3
+  plan_count: 8
   slug: google-cloud-data-catalog-plans-pricing
-random_paper: 6
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Google Cloud Data Catalog Rate Limits
@@ -254,24 +253,24 @@ scopes:
   slug: google-cloud-data-catalog-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 43.2
+  band: strong
+  composite: 54.3
   coverage:
     artifact_dirs: 16
-    catalog_earned: 54.7
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.4
+    catalog_earned: 66.7
+    catalog_earned_first_party: 12.0
+    catalog_gap: 48.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 9.8
     contract_quality: 58.1
-    developer_ergonomics: 36.9
+    developer_ergonomics: 48.8
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 44.7
+    operational_transparency: 39.5
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     contracts:
@@ -285,13 +284,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/screenshots/google-cloud-data-catalog-2026-06-20T182058.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-cloud-data-catalog/google-cloud-data-catalog-2026-06-20T182058.png
 security:
 - kind: authentication
   name: Google Cloud Data Catalog Authentication

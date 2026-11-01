@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: JSON over HTTPS REST API for the M-Files information management platform. Served per M-Files Server / Cloud vault under a /REST/ base path; supports objects, files, vaults, views, value lists, and sea
@@ -102,42 +104,42 @@ common:
   type: Compliance
   url: https://www.m-files.com/about/trust-center/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/packages/m-files-packages.yml
+  href: https://artifacts.apis.io/m-files/packages/m-files-packages.yml
   title: ''
   type: Packages
   url: packages/m-files-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/packages/m-files-packages.yml
+  href: https://artifacts.apis.io/m-files/packages/m-files-packages.yml
   title: ''
   type: SDKs
   url: packages/m-files-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/authentication/m-files-authentication.yml
+  href: https://artifacts.apis.io/m-files/authentication/m-files-authentication.yml
   title: ''
   type: Authentication
   url: authentication/m-files-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/conventions/m-files-conventions.yml
+  href: https://artifacts.apis.io/m-files/conventions/m-files-conventions.yml
   title: ''
   type: Conventions
   url: conventions/m-files-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/conformance/m-files-conformance.yml
+  href: https://artifacts.apis.io/m-files/conformance/m-files-conformance.yml
   title: ''
   type: Conformance
   url: conformance/m-files-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/lifecycle/m-files-lifecycle.yml
+  href: https://artifacts.apis.io/m-files/lifecycle/m-files-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/m-files-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/security/m-files-domain-security.yml
+  href: https://artifacts.apis.io/m-files/security/m-files-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/m-files-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/security/m-files-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/m-files/security/m-files-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/m-files-vulnerability-disclosure.yml
@@ -146,17 +148,17 @@ common:
   type: Security
   url: https://www.m-files.com/about/trust-center/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/security/m-files-trust-center.yml
+  href: https://artifacts.apis.io/m-files/security/m-files-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/m-files-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/llms/m-files-llms.txt
+  href: https://artifacts.apis.io/m-files/llms/m-files-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/m-files-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/well-known/m-files-well-known.yml
+  href: https://artifacts.apis.io/m-files/well-known/m-files-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/m-files-well-known.yml
@@ -172,10 +174,10 @@ overview: 'M-Files is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   M-Files'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 20 more developer resources.'
-random_paper: 3
+random_paper: 13
 score:
   band: thin
-  composite: 35.6
+  composite: 35.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 32.0
@@ -189,9 +191,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 64.3
-    operational_transparency: 13.2
-  previous_composite: 35.6
+    discoverability: 57.1
+    operational_transparency: 15.8
+  previous_composite: 35.3
   provenance:
     conformance: first-party
   regulatory:
@@ -204,14 +206,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/screenshots/m-files-2026-07-25T225802.png
+screenshot: https://apis.io/screenshots/m-files/m-files-2026-07-25T225802.png
 security:
 - kind: authentication
   name: M Files Authentication

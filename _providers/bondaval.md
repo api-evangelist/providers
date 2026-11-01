@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for Bondaval trade credit insurance platform
@@ -32,12 +34,12 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bondaval/refs/heads/main/hosts/bondaval-hosts.yml
+  href: https://artifacts.apis.io/bondaval/hosts/bondaval-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bondaval-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bondaval/refs/heads/main/security/bondaval-domain-security.yml
+  href: https://artifacts.apis.io/bondaval/security/bondaval-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bondaval-domain-security.yml
@@ -92,7 +94,7 @@ overview: 'Bondaval is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Bondaval''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, and 5 more developer resources.'
-random_paper: 3
+random_paper: 23
 score:
   band: emerging
   composite: 15.3
@@ -120,8 +122,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 8.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

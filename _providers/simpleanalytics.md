@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 24.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,31 +47,28 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 1
 apis:
-- baseURL: https://queue.simpleanalyticscdn.com
+- baseURL: https://simpleanalytics.com
   baseurl_source: declared
   description: The Events API from Simple Analytics — server-side collection of custom events and page views, with customer-defined metadata, posted unauthenticated to the collection queue.
   name: Simple Analytics Events API
   slug: simpleanalytics-events-api
-- baseURL: https://queue.simpleanalyticscdn.com
+- baseURL: https://simpleanalytics.com
   baseurl_source: declared
   description: The Export API from Simple Analytics — raw, unsampled data point export (page views and events) as JSON or CSV over a date range, with per-field selection.
   name: Simple Analytics Export API
   slug: simpleanalytics-export-api
-- baseURL: https://queue.simpleanalyticscdn.com
+- baseURL: https://simpleanalytics.com
   baseurl_source: declared
   description: The Stats API from Simple Analytics — the aggregated dashboard statistics (pageviews, visitors, histogram, pages, countries, referrers, UTM and device breakdowns) as JSON for any tracked hostname.
   name: Simple Analytics Stats API
   slug: simpleanalytics-stats-api
-- baseURL: https://queue.simpleanalyticscdn.com
+- baseURL: https://simpleanalytics.com
   baseurl_source: declared
   description: The Websites API from Simple Analytics — the Admin surface for listing the websites in an account and adding a new one with timezone, visibility and label.
   name: Simple Analytics Websites API
   slug: simpleanalytics-websites-api
-artifact_total: 17
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Simple Analytics Events API
   slug: open-simpleanalytics-events-api
@@ -86,38 +85,43 @@ collections:
   name: Simple Analytics API
   slug: open-simpleanalytics
 common:
+- group: other
+  href: https://artifacts.apis.io/simpleanalytics/capabilities/simpleanalytics-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/simpleanalytics-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/agentic-access/simpleanalytics-agentic-access.yml
+  href: https://artifacts.apis.io/simpleanalytics/agentic-access/simpleanalytics-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/simpleanalytics-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/security/simpleanalytics-domain-security.yml
+  href: https://artifacts.apis.io/simpleanalytics/security/simpleanalytics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simpleanalytics-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/authentication/simpleanalytics-authentication.yml
+  href: https://artifacts.apis.io/simpleanalytics/authentication/simpleanalytics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/simpleanalytics-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/conventions/simpleanalytics-conventions.yml
+  href: https://artifacts.apis.io/simpleanalytics/conventions/simpleanalytics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/simpleanalytics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/errors/simpleanalytics-problem-types.yml
+  href: https://artifacts.apis.io/simpleanalytics/errors/simpleanalytics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/simpleanalytics-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/data-model/simpleanalytics-data-model.yml
+  href: https://artifacts.apis.io/simpleanalytics/data-model/simpleanalytics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/simpleanalytics-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/lifecycle/simpleanalytics-lifecycle.yml
+  href: https://artifacts.apis.io/simpleanalytics/lifecycle/simpleanalytics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/simpleanalytics-lifecycle.yml
@@ -134,7 +138,7 @@ common:
   type: Roadmap
   url: https://www.simpleanalytics.com/roadmap
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/conformance/simpleanalytics-conformance.yml
+  href: https://artifacts.apis.io/simpleanalytics/conformance/simpleanalytics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/simpleanalytics-conformance.yml
@@ -143,42 +147,42 @@ common:
   type: Compliance
   url: https://www.simpleanalytics.com/gdpr-compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/security/simpleanalytics-trust-center.yml
+  href: https://artifacts.apis.io/simpleanalytics/security/simpleanalytics-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/simpleanalytics-trust-center.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/packages/simpleanalytics-packages.yml
+  href: https://artifacts.apis.io/simpleanalytics/packages/simpleanalytics-packages.yml
   title: ''
   type: Packages
   url: packages/simpleanalytics-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/packages/simpleanalytics-packages.yml
+  href: https://artifacts.apis.io/simpleanalytics/packages/simpleanalytics-packages.yml
   title: ''
   type: SDKs
   url: packages/simpleanalytics-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/components/simpleanalytics-components.yml
+  href: https://artifacts.apis.io/simpleanalytics/components/simpleanalytics-components.yml
   title: ''
   type: Components
   url: components/simpleanalytics-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/sandbox/simpleanalytics-sandbox.yml
+  href: https://artifacts.apis.io/simpleanalytics/sandbox/simpleanalytics-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/simpleanalytics-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/simpleanalytics/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/mcp/simpleanalytics-mcp.yml
+  href: https://artifacts.apis.io/simpleanalytics/mcp/simpleanalytics-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/simpleanalytics-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/llms/simpleanalytics-llms.txt
+  href: https://artifacts.apis.io/simpleanalytics/llms/simpleanalytics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/simpleanalytics-llms.txt
@@ -239,17 +243,17 @@ common:
   type: PrivacyPolicy
   url: https://www.simpleanalytics.com/privacy-policy
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/plans/simpleanalytics-plans-pricing.yml
+  href: https://artifacts.apis.io/simpleanalytics/plans/simpleanalytics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/simpleanalytics-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/rate-limits/simpleanalytics-rate-limits.yml
+  href: https://artifacts.apis.io/simpleanalytics/rate-limits/simpleanalytics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/simpleanalytics-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/finops/simpleanalytics-finops.yml
+  href: https://artifacts.apis.io/simpleanalytics/finops/simpleanalytics-finops.yml
   title: ''
   type: FinOps
   url: finops/simpleanalytics-finops.yml
@@ -257,10 +261,10 @@ created: '2026-06-21'
 description: Simple Analytics is a privacy-first, cookieless web analytics platform built and hosted in the European Union by Simple Analytics B.V. in the Netherlands. It collects no personal data, sets no cookies, stores no IP addresses and needs no consent banner, while exposing a REST API surface to pull aggregated dashboard statistics, export raw unsampled data points (page views and events) to warehouses and BI tools, collect custom events server-side from backends and mobile apps, and administer the websites in an account. Public websites can be read anonymously on both read APIs, and a large first-party plugin library installs the tracking script across common frameworks and CMSes.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Simpleanalytics Finops
-  primary_unit: ''
-  service_category: Analytics
+  primary_unit: 100k pageviews (slider 100k–2.5m)
+  service_category: ''
   slug: simpleanalytics-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simpleanalytics.png
@@ -272,40 +276,43 @@ network: true
 overview: 'Simple Analytics publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Events API, Export API, Stats API, and 1 more. Tagged areas include Analytics, Web Analytics, Privacy, Cookieless, and GDPR.
 
 
-  Simple Analytics'' developer surface includes authentication, changelog, sandbox, engineering blog, documentation, API reference, getting-started guide, and 30 more developer resources.'
+  Simple Analytics'' developer surface includes authentication, changelog, sandbox, engineering blog, documentation, API reference, getting-started guide, and 31 more developer resources.'
 plans:
 - name: Simpleanalytics Plans Pricing
   plan_count: 3
   slug: simpleanalytics-plans-pricing
-random_paper: 12
+- name: Simpleanalytics Price Estimates
+  plan_count: 0
+  slug: simpleanalytics-price-estimates
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Simpleanalytics Rate Limits
   slug: simpleanalytics-rate-limits
 score:
   band: strong
-  composite: 61.3
+  composite: 63.2
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 47.8
     developer_ergonomics: 74.4
-    discoverability: 73.2
-    operational_transparency: 39.5
+    discoverability: 66.1
+    operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 62.8
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -326,13 +333,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/screenshots/simpleanalytics-2026-08-17T080419.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/simpleanalytics/simpleanalytics-2026-08-17T080419.png
 security:
 - kind: authentication
   name: Simpleanalytics Authentication
@@ -346,6 +354,16 @@ security:
   name: Simpleanalytics Trust Center
   slug: simpleanalytics-trust-center
   summary_line: SOC 2 Type II, ISO 27001, HIPAA, PCI DSS
+skill_count: 4
+skills:
+- name: simpleanalytics-collect-server-side-events
+  slug: simpleanalytics-collect-server-side-events
+- name: simpleanalytics-export-raw-data-points
+  slug: simpleanalytics-export-raw-data-points
+- name: simpleanalytics-manage-websites
+  slug: simpleanalytics-manage-websites
+- name: simpleanalytics-pull-website-stats
+  slug: simpleanalytics-pull-website-stats
 slug: simpleanalytics
 tags:
 - Analytics

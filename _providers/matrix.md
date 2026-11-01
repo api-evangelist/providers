@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.3
-  scored_at: '2026-10-17'
+  score: 20.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -134,15 +136,12 @@ apis:
   description: The Sync API from Matrix — 1 operation(s) for sync.
   name: Matrix Sync API
   slug: matrix-sync-api
-artifact_total: 43
+artifact_total: 42
 asyncapis:
 - description: AsyncAPI description of the Matrix Client-Server sync mechanism. Matrix delivers real-time events to clients through the `/_matrix/client/v3/sync` endpoint, which is a long-lived HTTPS GET request (HT
   name: Matrix Client-Server Sync API
   slug: matrix-sync-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Matrix Client-Server Account API
   slug: open-matrix-account-api
@@ -193,22 +192,22 @@ collections:
   slug: open-matrix
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matrix/refs/heads/main/agentic-access/matrix-agentic-access.yml
+  href: https://artifacts.apis.io/matrix/agentic-access/matrix-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/matrix-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matrix/refs/heads/main/security/matrix-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/matrix/security/matrix-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/matrix-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matrix/refs/heads/main/security/matrix-domain-security.yml
+  href: https://artifacts.apis.io/matrix/security/matrix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/matrix-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matrix/refs/heads/main/authentication/matrix-authentication.yml
+  href: https://artifacts.apis.io/matrix/authentication/matrix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/matrix-authentication.yml
@@ -259,7 +258,7 @@ overview: 'Matrix publishes 20 API contracts indexed on the [APIs.io](https://ap
 
 
   Matrix''s developer surface includes authentication, documentation, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 1
+random_paper: 13
 rules:
 - authorship: generated
   effective_rule_count: 32
@@ -275,7 +274,7 @@ rules:
   slug: matrix-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 28.8
+  composite: 31.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 40.8
@@ -283,15 +282,15 @@ score:
     catalog_gap: 74.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 11.4
     contract_quality: 49.7
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 28.7
+    operational_transparency: 15.8
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     contracts:
@@ -305,13 +304,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/matrix/refs/heads/main/screenshots/matrix-2026-06-20T185038.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/matrix/matrix-2026-06-20T185038.png
 security:
 - kind: authentication
   name: Matrix Authentication

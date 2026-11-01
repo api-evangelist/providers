@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.4
-  scored_at: '2026-10-17'
+  score: 17.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for Blackcloak's digital executive protection platform
@@ -32,12 +34,12 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackcloak/refs/heads/main/well-known/blackcloak-security.txt
+  href: https://artifacts.apis.io/blackcloak/well-known/blackcloak-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/blackcloak-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blackcloak/refs/heads/main/well-known/blackcloak-well-known.yml
+  href: https://artifacts.apis.io/blackcloak/well-known/blackcloak-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/blackcloak-well-known.yml
@@ -46,17 +48,17 @@ common:
   type: Compliance
   url: https://security.blackcloak.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackcloak/refs/heads/main/security/blackcloak-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/blackcloak/security/blackcloak-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/blackcloak-vulnerability-disclosure.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blackcloak/refs/heads/main/hosts/blackcloak-hosts.yml
+  href: https://artifacts.apis.io/blackcloak/hosts/blackcloak-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blackcloak-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blackcloak/refs/heads/main/vendors/blackcloak-vendors.yml
+  href: https://artifacts.apis.io/blackcloak/vendors/blackcloak-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blackcloak-vendors.yml
@@ -65,17 +67,17 @@ common:
   type: Leadership
   url: https://blackcloak.io/leadership/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackcloak/refs/heads/main/security/blackcloak-trust-center.yml
+  href: https://artifacts.apis.io/blackcloak/security/blackcloak-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/blackcloak-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackcloak/refs/heads/main/security/blackcloak-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/blackcloak/security/blackcloak-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/blackcloak-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackcloak/refs/heads/main/security/blackcloak-domain-security.yml
+  href: https://artifacts.apis.io/blackcloak/security/blackcloak-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blackcloak-domain-security.yml
@@ -123,11 +125,11 @@ modified: '2026-09-29'
 name: Blackcloak
 nav: Providers
 network: true
-overview: 'Blackcloak is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security, Cybersecurity, ExecutiveProtection, PersonalSafety, and Digital Identity.
+overview: 'Blackcloak is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security, Cybersecurity, Executive Protection, PersonalSafety, and Digital Identity.
 
 
   Blackcloak''s developer surface includes documentation, engineering blog, support, and 14 more developer resources.'
-random_paper: 19
+random_paper: 23
 score:
   band: emerging
   composite: 22.2
@@ -138,7 +140,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
@@ -146,7 +148,7 @@ score:
     developer_ergonomics: 26.2
     discoverability: 58.9
     operational_transparency: 10.5
-  previous_composite: 21.2
+  previous_composite: 22.2
   provenance:
     mcp: unknown
   regulatory:
@@ -155,8 +157,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
@@ -179,7 +181,7 @@ slug: blackcloak
 tags:
 - Security
 - Cybersecurity
-- ExecutiveProtection
+- Executive Protection
 - PersonalSafety
 - Digital Identity
 website: https://blackcloak.io

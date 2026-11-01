@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-17'
+  score: 39.4
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: RESTful API for the Mesh spend management platform. Documented capabilities include connectivity verification, virtual card lifecycle management (issuance, suspension, cancellation), merchant and cate
@@ -45,18 +47,23 @@ apis:
 - description: OAuth-protected Model Context Protocol (MCP) server operated by Mesh at api.meshpayments.com/mcp. The endpoint advertises RFC 9728 OAuth 2.0 Protected Resource Metadata at /.well-known/oauth-protected
   name: Mesh Payments MCP Server
   slug: mesh-payments-mcp-server
-artifact_total: 9
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Mesh Payments Webhooks
   slug: mesh-payments-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/mesh-payments/plans/mesh-payments-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mesh-payments-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://meshpayments.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/security/mesh-payments-domain-security.yml
+  href: https://artifacts.apis.io/mesh-payments/security/mesh-payments-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mesh-payments-domain-security.yml
@@ -113,47 +120,47 @@ common:
   type: ChangeLog
   url: https://meshpayments.com/feature-updates/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/changelog/mesh-payments-changelog.yml
+  href: https://artifacts.apis.io/mesh-payments/changelog/mesh-payments-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mesh-payments-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/well-known/mesh-payments-well-known.yml
+  href: https://artifacts.apis.io/mesh-payments/well-known/mesh-payments-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mesh-payments-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/llms/mesh-payments-llms.txt
+  href: https://artifacts.apis.io/mesh-payments/llms/mesh-payments-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mesh-payments-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/mcp/mesh-payments-mcp.yml
+  href: https://artifacts.apis.io/mesh-payments/mcp/mesh-payments-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mesh-payments-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/authentication/mesh-payments-authentication.yml
+  href: https://artifacts.apis.io/mesh-payments/authentication/mesh-payments-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mesh-payments-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/scopes/mesh-payments-scopes.yml
+  href: https://artifacts.apis.io/mesh-payments/scopes/mesh-payments-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mesh-payments-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/conventions/mesh-payments-conventions.yml
+  href: https://artifacts.apis.io/mesh-payments/conventions/mesh-payments-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mesh-payments-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/lifecycle/mesh-payments-lifecycle.yml
+  href: https://artifacts.apis.io/mesh-payments/lifecycle/mesh-payments-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mesh-payments-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/conformance/mesh-payments-conformance.yml
+  href: https://artifacts.apis.io/mesh-payments/conformance/mesh-payments-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mesh-payments-conformance.yml
@@ -166,27 +173,35 @@ common:
   type: Security
   url: https://meshpayments.com/vulnerability-disclosure-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/security/mesh-payments-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mesh-payments/security/mesh-payments-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mesh-payments-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/security/mesh-payments-trust-center.yml
+  href: https://artifacts.apis.io/mesh-payments/security/mesh-payments-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mesh-payments-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/asyncapi/mesh-payments-webhooks.yml
+  href: https://artifacts.apis.io/mesh-payments/asyncapi/mesh-payments-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mesh-payments-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/packages/mesh-payments-packages.yml
+  href: https://artifacts.apis.io/mesh-payments/packages/mesh-payments-packages.yml
   title: ''
   type: Packages
   url: packages/mesh-payments-packages.yml
 created: '2026-08-04'
 description: Mesh Payments is a global travel and expense (T&E) and spend management platform for finance teams, combining corporate virtual and physical card issuing, expense management, accounts payable, procurement (ProcurePay), travel booking and accounting automation in a single system. Mesh exposes a RESTful API on api.meshpayments.com for virtual card lifecycle management, merchant and category controls, metadata tagging, authorization and settlement retrieval and real-time balance queries, authenticated with either HMAC-SHA256 request signing or OAuth 2.0 client credentials. It also publishes an OAuth-protected Model Context Protocol (MCP) server at api.meshpayments.com/mcp and a configurable webhooks surface, plus ERP, HRIS and TMC integrations.
+finops:
+- has_sources: true
+  method: derived
+  name: Mesh Payments Finops
+  primary_unit: ''
+  service_category: ''
+  slug: mesh-payments-finops
+  template: true
 image: https://meshpayments.com/wp-content/uploads/2026/05/meshpayments.png
 layout: provider
 mcp_servers:
@@ -203,8 +218,12 @@ overview: 'Mesh Payments is listed with 2 APIs on the [APIs.io](https://apis.io/
   The Mesh Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mesh Payments'' developer surface includes documentation, support, engineering blog, pricing, signup flow, changelog, authentication, and 23 more developer resources.'
-random_paper: 13
+  Mesh Payments'' developer surface includes documentation, support, engineering blog, pricing, signup flow, changelog, authentication, and 24 more developer resources.'
+plans:
+- name: Mesh Payments Plans Pricing
+  plan_count: 0
+  slug: mesh-payments-plans-pricing
+random_paper: 11
 scopes:
 - name: Mesh Payments Scopes
   scope_count: 1
@@ -212,9 +231,9 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials/deviceCode
 score:
   band: developing
-  composite: 47.3
+  composite: 47.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -225,10 +244,10 @@ score:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 33.3
-    discoverability: 75.0
-    operational_transparency: 36.8
-  previous_composite: 47.3
+    developer_ergonomics: 38.1
+    discoverability: 65.0
+    operational_transparency: 39.5
+  previous_composite: 47.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -244,14 +263,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/screenshots/mesh-payments-2026-08-07T172624.png
+screenshot: https://apis.io/screenshots/mesh-payments/mesh-payments-2026-08-07T172624.png
 security:
 - kind: authentication
   name: Mesh Payments Authentication

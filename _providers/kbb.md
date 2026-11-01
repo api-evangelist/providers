@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: RESTful API providing access to Kelley Blue Book vehicle data, values, and content. Endpoints cover vehicle information, new and used pricing, expert and consumer ratings and reviews, cost-of-ownershi
@@ -48,7 +50,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kbb/refs/heads/main/security/kbb-domain-security.yml
+  href: https://artifacts.apis.io/kbb/security/kbb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kbb-domain-security.yml
@@ -85,17 +87,17 @@ common:
   type: X
   url: https://x.com/KelleyBlueBook
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kbb/refs/heads/main/plans/kbb-plans-pricing.yml
+  href: https://artifacts.apis.io/kbb/plans/kbb-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kbb-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kbb/refs/heads/main/rate-limits/kbb-rate-limits.yml
+  href: https://artifacts.apis.io/kbb/rate-limits/kbb-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kbb-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kbb/refs/heads/main/finops/kbb-finops.yml
+  href: https://artifacts.apis.io/kbb/finops/kbb-finops.yml
   title: ''
   type: FinOps
   url: finops/kbb-finops.yml
@@ -123,14 +125,14 @@ plans:
 - name: Kbb Plans Pricing
   plan_count: 3
   slug: kbb-plans-pricing
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Kbb Rate Limits
   slug: kbb-rate-limits
 score:
   band: emerging
-  composite: 14.6
+  composite: 18.8
   coverage:
     artifact_dirs: 8
     catalog_earned: 46.0
@@ -138,29 +140,29 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
+    developer_ergonomics: 23.8
     discoverability: 71.4
     operational_transparency: 28.9
-  previous_composite: 22.8
+  previous_composite: 18.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kbb/refs/heads/main/screenshots/kbb-2026-06-20T183932.png
+screenshot: https://apis.io/screenshots/kbb/kbb-2026-06-20T183932.png
 security:
 - kind: domain-security
   name: Kbb Domain Security

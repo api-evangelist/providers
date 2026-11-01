@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-17'
+  score: 23.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: Operations for managing the rewards catalog that members can redeem with earned points.
   name: Harbor Rewards API
   slug: harbor-rewards-api
-artifact_total: 25
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Harbor Challenges API
   slug: open-harbor-challenges-api
@@ -103,37 +102,37 @@ collections:
   slug: open-harbor
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/plans/harbor-plans-pricing.yml
+  href: https://artifacts.apis.io/harbor/plans/harbor-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/harbor-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/rate-limits/harbor-rate-limits.yml
+  href: https://artifacts.apis.io/harbor/rate-limits/harbor-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/harbor-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/finops/harbor-finops.yml
+  href: https://artifacts.apis.io/harbor/finops/harbor-finops.yml
   title: ''
   type: FinOps
   url: finops/harbor-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/capabilities/harbor-capability-edges.yml
+  href: https://artifacts.apis.io/harbor/capabilities/harbor-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/harbor-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/agentic-access/harbor-agentic-access.yml
+  href: https://artifacts.apis.io/harbor/agentic-access/harbor-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/harbor-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/security/harbor-domain-security.yml
+  href: https://artifacts.apis.io/harbor/security/harbor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/harbor-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/authentication/harbor-authentication.yml
+  href: https://artifacts.apis.io/harbor/authentication/harbor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/harbor-authentication.yml
@@ -154,12 +153,12 @@ common:
   type: PrivacyPolicy
   url: https://www.harbor.gg/privacy-policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/json-ld/harbor-context.jsonld
+  href: https://artifacts.apis.io/harbor/json-ld/harbor-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/harbor-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/json-schema/harbor-member-schema.json
+  href: https://artifacts.apis.io/harbor/json-schema/harbor-member-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/harbor-member-schema.json
@@ -169,7 +168,7 @@ finops:
 - has_sources: false
   method: generated
   name: Harbor Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: harbor-finops
   template: true
@@ -206,7 +205,7 @@ plans:
 - name: Harbor Plans Pricing
   plan_count: 3
   slug: harbor-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Harbor Rate Limits
@@ -225,7 +224,7 @@ rules:
   slug: harbor-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.0
+  composite: 31.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 50.3
@@ -233,15 +232,15 @@ score:
     catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 61.6
     developer_ergonomics: 21.4
-    discoverability: 51.7
-    operational_transparency: 10.5
-  previous_composite: 35.5
+    discoverability: 48.2
+    operational_transparency: 13.2
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     contracts:
@@ -256,13 +255,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/screenshots/harbor-2026-06-20T182512.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/harbor/harbor-2026-06-20T182512.png
 security:
 - kind: authentication
   name: Harbor Authentication

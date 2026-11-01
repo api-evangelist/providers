@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,9 +58,6 @@ collections:
   name: Spin.AI SpinOne Entities API
   slug: postman-spin-ai-entities-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Spin.AI SpinOne Entities API
   slug: open-spin-ai-entities-api
 - collection_type: open
@@ -66,17 +65,17 @@ collections:
   slug: open-spin-ai
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/plans/spin-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/spin-ai/plans/spin-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spin-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/rate-limits/spin-ai-rate-limits.yml
+  href: https://artifacts.apis.io/spin-ai/rate-limits/spin-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spin-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/finops/spin-ai-finops.yml
+  href: https://artifacts.apis.io/spin-ai/finops/spin-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/spin-ai-finops.yml
@@ -85,27 +84,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/spinai/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/agentic-access/spin-ai-agentic-access.yml
+  href: https://artifacts.apis.io/spin-ai/agentic-access/spin-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spin-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/security/spin-ai-trust-center.yml
+  href: https://artifacts.apis.io/spin-ai/security/spin-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/spin-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/security/spin-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/spin-ai/security/spin-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/spin-ai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/security/spin-ai-domain-security.yml
+  href: https://artifacts.apis.io/spin-ai/security/spin-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spin-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/authentication/spin-ai-authentication.yml
+  href: https://artifacts.apis.io/spin-ai/authentication/spin-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spin-ai-authentication.yml
@@ -146,17 +145,17 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/spin-ai/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/openapi/_original/spin-ai-openapi.yml
+  href: https://artifacts.apis.io/spin-ai/openapi/_original/spin-ai-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/spin-ai-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/rules/spin-ai-rules.yml
+  href: https://artifacts.apis.io/spin-ai/rules/spin-ai-rules.yml
   title: ''
   type: SpectralRules
   url: rules/spin-ai-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/vocabulary/spin-ai-vocabulary.yml
+  href: https://artifacts.apis.io/spin-ai/vocabulary/spin-ai-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/spin-ai-vocabulary.yml
@@ -174,13 +173,13 @@ examples:
   name: Spin Ai Update Entity Status Example
   slug: spin-ai-update-entity-status-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Spin Ai Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: user
+  service_category: ''
   slug: spin-ai-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spin-ai.png
 json_schemas:
 - name: Spin.AI Backup Entity
@@ -209,9 +208,12 @@ overview: 'Spin.AI publishes 1 API contract indexed on the [APIs.io](https://api
   Spin.AI''s developer surface includes authentication, documentation, developer portal, support, engineering blog, and 17 more developer resources.'
 plans:
 - name: Spin Ai Plans Pricing
-  plan_count: 3
+  plan_count: 8
   slug: spin-ai-plans-pricing
-random_paper: 7
+- name: Spin Ai Price Estimates
+  plan_count: 0
+  slug: spin-ai-price-estimates
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Spin Ai Rate Limits
@@ -242,23 +244,23 @@ rules:
   slug: spin-ai-rules
 score:
   band: developing
-  composite: 42.5
+  composite: 50.9
   coverage:
     artifact_dirs: 20
-    catalog_earned: 55.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
+    catalog_earned: 67.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 68.4
     contract_governance: 27.3
     contract_quality: 56.9
     developer_ergonomics: 39.3
     discoverability: 64.3
-    operational_transparency: 7.9
-  previous_composite: 44.0
+    operational_transparency: 18.4
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -272,13 +274,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/screenshots/spin-ai-2026-06-20T194315.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spin-ai/spin-ai-2026-06-20T194315.png
 security:
 - kind: authentication
   name: Spin Ai Authentication

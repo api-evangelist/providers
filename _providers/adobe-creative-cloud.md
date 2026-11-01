@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.9
-  scored_at: '2026-10-17'
+  score: 29.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -190,7 +192,7 @@ arazzos:
 - description: Search Adobe Stock for a photo, check its license state, then license it for download.
   name: Adobe Creative Cloud Stock Search License and Download
   slug: adobe-creative-cloud-stock-search-license-download-workflow
-artifact_total: 152
+artifact_total: 151
 asyncapis:
 - description: 'Adobe I/O Events enables developers to receive near-real-time notifications when events occur across Adobe products and services. Events are delivered via webhooks or journaling (pull-based polling). '
   name: Adobe I/O Events
@@ -208,9 +210,6 @@ collections:
 - collection_type: postman
   name: Adobe Creative Cloud Adobe Stock API
   slug: postman-adobe-stock-api-openapi-original
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Adobe Creative Cloud Creative Cloud Libraries Assets API
   slug: open-adobe-creative-cloud-assets-api
@@ -245,18 +244,23 @@ collections:
   name: Adobe Creative Cloud Creative Cloud Libraries Assets Utilities API
   slug: open-adobe-creative-cloud-utilities-api
 common:
+- group: other
+  href: https://artifacts.apis.io/adobe-creative-cloud/capabilities/adobe-creative-cloud-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/adobe-creative-cloud-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/plans/adobe-creative-cloud-plans-pricing.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/plans/adobe-creative-cloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adobe-creative-cloud-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/rate-limits/adobe-creative-cloud-rate-limits.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/rate-limits/adobe-creative-cloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adobe-creative-cloud-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/finops/adobe-creative-cloud-finops.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/finops/adobe-creative-cloud-finops.yml
   title: ''
   type: FinOps
   url: finops/adobe-creative-cloud-finops.yml
@@ -273,22 +277,22 @@ common:
   type: ContributionGuide
   url: https://github.com/AdobeDocs/creative-cloud-libraries/blob/main/.github/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/agentic-access/adobe-creative-cloud-agentic-access.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/agentic-access/adobe-creative-cloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adobe-creative-cloud-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/security/adobe-creative-cloud-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/security/adobe-creative-cloud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adobe-creative-cloud-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/security/adobe-creative-cloud-domain-security.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/security/adobe-creative-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adobe-creative-cloud-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/authentication/adobe-creative-cloud-authentication.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/authentication/adobe-creative-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adobe-creative-cloud-authentication.yml
@@ -297,82 +301,82 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/adobe-creative-cloud/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-firefly-generate-similar-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/arazzo/adobe-creative-cloud-firefly-generate-similar-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-firefly-generate-similar-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-firefly-generative-expand-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/arazzo/adobe-creative-cloud-firefly-generative-expand-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-firefly-generative-expand-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-firefly-generative-fill-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/arazzo/adobe-creative-cloud-firefly-generative-fill-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-firefly-generative-fill-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-firefly-object-composite-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/arazzo/adobe-creative-cloud-firefly-object-composite-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-firefly-object-composite-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-firefly-text-to-image-generate-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/arazzo/adobe-creative-cloud-firefly-text-to-image-generate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-firefly-text-to-image-generate-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-libraries-create-and-add-element-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/arazzo/adobe-creative-cloud-libraries-create-and-add-element-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-libraries-create-and-add-element-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-libraries-list-and-inspect-element-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/arazzo/adobe-creative-cloud-libraries-list-and-inspect-element-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-libraries-list-and-inspect-element-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-libraries-purge-element-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/arazzo/adobe-creative-cloud-libraries-purge-element-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-libraries-purge-element-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-pdf-compress-and-cleanup-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/arazzo/adobe-creative-cloud-pdf-compress-and-cleanup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-pdf-compress-and-cleanup-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-pdf-create-and-download-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/arazzo/adobe-creative-cloud-pdf-create-and-download-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-pdf-create-and-download-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-pdf-export-to-format-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/arazzo/adobe-creative-cloud-pdf-export-to-format-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-pdf-export-to-format-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-pdf-extract-content-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/arazzo/adobe-creative-cloud-pdf-extract-content-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-pdf-extract-content-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-pdf-ocr-then-protect-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/arazzo/adobe-creative-cloud-pdf-ocr-then-protect-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-pdf-ocr-then-protect-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-stock-license-history-audit-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/arazzo/adobe-creative-cloud-stock-license-history-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-stock-license-history-audit-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-stock-quota-aware-license-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/arazzo/adobe-creative-cloud-stock-quota-aware-license-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-stock-quota-aware-license-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-stock-search-license-download-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-cloud/arazzo/adobe-creative-cloud-stock-search-license-download-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-stock-search-license-download-workflow.yml
@@ -568,12 +572,12 @@ features:
   name: Document Generation
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Adobe Creative Cloud Finops
   primary_unit: ''
-  service_category: Creative SaaS
+  service_category: ''
   slug: adobe-creative-cloud-finops
-  template: false
+  template: true
 image: /assets/icons/adobe-creative-cloud.png
 integrations:
 - description: PDF Services integration with Word, Excel, and PowerPoint for document conversion.
@@ -714,12 +718,12 @@ overview: 'Adobe Creative Cloud publishes 24 API contracts indexed on the [APIs.
   The Adobe Creative Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Adobe Creative Cloud''s developer surface includes authentication, developer portal, documentation, engineering blog, support, pricing, YouTube channel, and 47 more developer resources.'
+  Adobe Creative Cloud''s developer surface includes authentication, developer portal, documentation, engineering blog, support, pricing, YouTube channel, and 48 more developer resources.'
 plans:
 - name: Adobe Creative Cloud Plans Pricing
-  plan_count: 5
+  plan_count: 3
   slug: adobe-creative-cloud-plans-pricing
-random_paper: 3
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Adobe Creative Cloud Rate Limits
@@ -761,24 +765,24 @@ rules:
     warn: 7
   slug: adobe-creative-cloud-spectral-rules
 score:
-  band: developing
-  composite: 51.1
+  band: strong
+  composite: 56.6
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 66.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.1
+    artifact_dirs: 22
+    catalog_earned: 75.9
+    catalog_earned_first_party: 12.0
+    catalog_gap: 39.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.3
+  delta: 0.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 63.2
     contract_governance: 13.6
     contract_quality: 67.3
     developer_ergonomics: 58.3
     discoverability: 71.4
     operational_transparency: 39.5
-  previous_composite: 53.4
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     contracts:
@@ -792,13 +796,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/screenshots/adobe-creative-cloud-2026-07-25T181653.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/adobe-creative-cloud/adobe-creative-cloud-2026-07-25T181653.png
 security:
 - kind: authentication
   name: Adobe Creative Cloud Authentication

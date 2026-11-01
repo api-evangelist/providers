@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.1
-  scored_at: '2026-10-17'
+  score: 33.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 192
   human_in_the_loop: 9
@@ -290,11 +291,8 @@ apis:
   description: Vendor membership and service accounts.
   name: Keboola Vendor API
   slug: keboola-vendor-api
-artifact_total: 528
+artifact_total: 527
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AI Service Actions API
   slug: open-keboola-actions-api
@@ -534,32 +532,32 @@ collections:
   slug: open-keboola-workspaces-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/capabilities/keboola-capability-edges.yml
+  href: https://artifacts.apis.io/keboola/capabilities/keboola-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/keboola-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/agentic-access/keboola-agentic-access.yml
+  href: https://artifacts.apis.io/keboola/agentic-access/keboola-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/keboola-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/security/keboola-trust-center.yml
+  href: https://artifacts.apis.io/keboola/security/keboola-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/keboola-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/security/keboola-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/keboola/security/keboola-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/keboola-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/security/keboola-domain-security.yml
+  href: https://artifacts.apis.io/keboola/security/keboola-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/keboola-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/authentication/keboola-authentication.yml
+  href: https://artifacts.apis.io/keboola/authentication/keboola-authentication.yml
   title: ''
   type: Authentication
   url: authentication/keboola-authentication.yml
@@ -620,17 +618,17 @@ common:
   type: ComponentRegistry
   url: https://components.keboola.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/plans/keboola-plans-pricing.yml
+  href: https://artifacts.apis.io/keboola/plans/keboola-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/keboola-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/rate-limits/keboola-rate-limits.yml
+  href: https://artifacts.apis.io/keboola/rate-limits/keboola-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/keboola-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/finops/keboola-finops.yml
+  href: https://artifacts.apis.io/keboola/finops/keboola-finops.yml
   title: ''
   type: FinOps
   url: finops/keboola-finops.yml
@@ -710,13 +708,13 @@ examples:
   name: Vault Api Healthcheck Response 200
   slug: vault-api-healthCheck-response-200
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Keboola Finops
-  primary_unit: ''
+  primary_unit: project
   service_category: ''
   slug: keboola-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keboola.png
 json_schemas:
 - name: AddMaintainerAdministratorRequest
@@ -1836,7 +1834,7 @@ plans:
 - name: Keboola Plans Pricing
   plan_count: 2
   slug: keboola-plans-pricing
-random_paper: 7
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Keboola Rate Limits
@@ -1855,23 +1853,23 @@ rules:
   slug: keboola-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.1
+  composite: 43.2
   coverage:
     artifact_dirs: 19
-    catalog_earned: 59.3
+    catalog_earned: 62.3
     catalog_earned_first_party: 8.0
-    catalog_gap: 55.8
+    catalog_gap: 52.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 47.4
     contract_governance: 9.8
-    contract_quality: 54.0
+    contract_quality: 52.8
     developer_ergonomics: 31.0
-    discoverability: 73.3
-    operational_transparency: 21.1
-  previous_composite: 42.6
+    discoverability: 71.4
+    operational_transparency: 31.6
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1886,13 +1884,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/screenshots/keboola-2026-06-20T183937.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/keboola/keboola-2026-06-20T183937.png
 security:
 - kind: authentication
   name: Keboola Authentication

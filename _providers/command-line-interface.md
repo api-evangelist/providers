@@ -4,6 +4,6 @@ layout: provider
 name: command-line-interface
 nav: Providers
 network: true
-random_paper: 16
+random_paper: 10
 slug: command-line-interface
 ---

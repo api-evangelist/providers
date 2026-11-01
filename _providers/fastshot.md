@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,28 +34,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
-- group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fastshot/refs/heads/main/plans/fastshot-plans-pricing.yml
-  title: ''
-  type: Plans
-  url: plans/fastshot-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
   url: https://fastshot.ai/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fastshot/refs/heads/main/security/fastshot-domain-security.yml
+  href: https://artifacts.apis.io/fastshot/security/fastshot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fastshot-domain-security.yml
 - group: company
   title: ''
   type: Website
-  url: https://fastshot.ai
+  url: https://fastshot.ai/?utm_source=apisio&utm_medium=directory&utm_campaign=listings-2026-10
 - group: start
   title: ''
   type: DeveloperPortal
@@ -70,10 +67,6 @@ common:
   title: ''
   type: Support
   url: https://discord.gg/4UHnKKmj9q
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://fastshot.ai/pricing
 - group: start
   title: ''
   type: SignUp
@@ -91,12 +84,12 @@ common:
   type: PrivacyPolicy
   url: https://fastshot.ai/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fastshot/refs/heads/main/llms/fastshot-llms.txt
+  href: https://artifacts.apis.io/fastshot/llms/fastshot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fastshot-llms.txt
 created: '2026-07-17'
-description: Fastshot is an AI-powered, no-code mobile app builder that turns a plain-language prompt into a real native iOS and Android application. A multi-agent AI workflow handles design, branding, asset generation, and functionality end to end, then deploys the finished app to the Apple App Store and Google Play. The platform includes integrations for a Supabase backend (authentication, database, storage), GitHub source-code management, Expo builds, and in-app-purchase monetization, letting non-technical founders and businesses ship a working mobile app in minutes rather than hiring an agency or in-house team. Fastshot is a Y Combinator (Fall 2025) company founded by ex-Google engineers Dmitry Fatkhi and Elvira Dzhuraeva.
+description: Fastshot is the AI app builder for native iOS and Android apps. Describe your idea, get a working app in minutes and publish it to the App Store and Google Play. Build APK, AAB and IPA files without a Mac. Earn with subscriptions and AdMob ads.
 image: https://fastshot.ai/fastshot/logos/FS-original-circle.svg
 layout: provider
 modified: '2026-10-06'
@@ -106,45 +99,45 @@ network: true
 overview: 'Fastshot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, No-Code, Mobile, App Builder, and Artificial Intelligence.
 
 
-  Fastshot''s developer surface includes engineering blog, documentation, getting-started guide, support, pricing, signup flow, and 8 more developer resources.'
+  Fastshot''s developer surface includes engineering blog, documentation, getting-started guide, support, signup flow, and 7 more developer resources.'
 plans:
 - name: Fastshot Plans Pricing
   plan_count: 2
   slug: fastshot-plans-pricing
-random_paper: 18
+random_paper: 12
 score:
   band: emerging
-  composite: 15.9
+  composite: 23.1
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 35.0
     catalog_earned_first_party: 8.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.7
+  delta: -2.1
   facets:
-    access_clarity: 21.1
+    access_clarity: 55.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 11.2
+  previous_composite: 25.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 12.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fastshot/refs/heads/main/screenshots/fastshot-2026-07-25T214248.png
+screenshot: https://apis.io/screenshots/fastshot/fastshot-2026-07-25T214248.png
 security:
 - kind: domain-security
   name: Fastshot Domain Security
@@ -160,5 +153,5 @@ tags:
 - Mobile Development
 - App Development
 - Y Combinator
-website: https://fastshot.ai
+website: https://fastshot.ai/?utm_source=apisio&utm_medium=directory&utm_campaign=listings-2026-10
 ---

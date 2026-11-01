@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Client-side JavaScript library that embeds the EasySize "Fit Quiz" size-recommendation widget on a merchant storefront. Loaded via a script tag from the EasySize web app CDN, it exposes a global EasyS
@@ -89,22 +91,22 @@ common:
   type: StatusPage
   url: https://easysize.statuspage.io
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/easysize/refs/heads/main/lifecycle/easysize-lifecycle.yml
+  href: https://artifacts.apis.io/easysize/lifecycle/easysize-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/easysize-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/easysize/refs/heads/main/llms/easysize-llms.txt
+  href: https://artifacts.apis.io/easysize/llms/easysize-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/easysize-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/easysize/refs/heads/main/well-known/easysize-well-known.yml
+  href: https://artifacts.apis.io/easysize/well-known/easysize-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/easysize-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/easysize/refs/heads/main/security/easysize-domain-security.yml
+  href: https://artifacts.apis.io/easysize/security/easysize-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/easysize-domain-security.yml
@@ -120,10 +122,10 @@ overview: 'EasySize is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   EasySize''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 19
+random_paper: 13
 score:
   band: thin
-  composite: 27.1
+  composite: 27.8
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -137,23 +139,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 73.2
-    operational_transparency: 15.8
-  previous_composite: 27.1
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 27.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/easysize/refs/heads/main/screenshots/easysize-2026-07-25T212723.png
+screenshot: https://apis.io/screenshots/easysize/easysize-2026-07-25T212723.png
 security:
 - kind: domain-security
   name: Easysize Domain Security

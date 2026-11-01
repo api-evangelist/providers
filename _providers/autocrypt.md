@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Autocrypt provides API access to its security platform (no public spec discovered)
@@ -36,12 +38,12 @@ common:
   type: BlogRSS
   url: https://autocrypt.io/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autocrypt/refs/heads/main/security/autocrypt-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/autocrypt/security/autocrypt-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/autocrypt-vulnerability-disclosure.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autocrypt/refs/heads/main/hosts/autocrypt-hosts.yml
+  href: https://artifacts.apis.io/autocrypt/hosts/autocrypt-hosts.yml
   title: ''
   type: Hosts
   url: hosts/autocrypt-hosts.yml
@@ -62,12 +64,12 @@ common:
   type: Blog
   url: https://autocrypt.io/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autocrypt/refs/heads/main/security/autocrypt-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/autocrypt/security/autocrypt-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/autocrypt-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autocrypt/refs/heads/main/security/autocrypt-domain-security.yml
+  href: https://artifacts.apis.io/autocrypt/security/autocrypt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autocrypt-domain-security.yml
@@ -97,7 +99,7 @@ overview: 'Autocrypt is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Autocrypt''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 13
+random_paper: 19
 score:
   band: emerging
   composite: 12.6
@@ -125,14 +127,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/autocrypt/refs/heads/main/screenshots/autocrypt-2026-10-11T100924.png
+screenshot: https://apis.io/screenshots/autocrypt/autocrypt-2026-10-11T100924.png
 security:
 - kind: domain-security
   name: Autocrypt Domain Security

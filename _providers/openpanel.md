@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 16.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -78,11 +80,8 @@ apis:
   description: Track events and sessions
   name: OpenPanel Track API
   slug: openpanel-track-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OpenPanel Event API
   slug: open-openpanel-event-api
@@ -109,37 +108,37 @@ collections:
   slug: open-openpanel
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/plans/openpanel-plans-pricing.yml
+  href: https://artifacts.apis.io/openpanel/plans/openpanel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/openpanel-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/rate-limits/openpanel-rate-limits.yml
+  href: https://artifacts.apis.io/openpanel/rate-limits/openpanel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/openpanel-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/finops/openpanel-finops.yml
+  href: https://artifacts.apis.io/openpanel/finops/openpanel-finops.yml
   title: ''
   type: FinOps
   url: finops/openpanel-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/capabilities/openpanel-capability-edges.yml
+  href: https://artifacts.apis.io/openpanel/capabilities/openpanel-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/openpanel-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/agentic-access/openpanel-agentic-access.yml
+  href: https://artifacts.apis.io/openpanel/agentic-access/openpanel-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openpanel-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/security/openpanel-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/openpanel/security/openpanel-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/openpanel-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/security/openpanel-domain-security.yml
+  href: https://artifacts.apis.io/openpanel/security/openpanel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openpanel-domain-security.yml
@@ -185,7 +184,7 @@ finops:
 - has_sources: false
   method: generated
   name: Openpanel Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: openpanel-finops
   template: true
@@ -203,14 +202,14 @@ plans:
 - name: Openpanel Plans Pricing
   plan_count: 3
   slug: openpanel-plans-pricing
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Openpanel Rate Limits
   slug: openpanel-rate-limits
 score:
-  band: emerging
-  composite: 24.3
+  band: thin
+  composite: 29.7
   coverage:
     artifact_dirs: 12
     catalog_earned: 43.0
@@ -218,15 +217,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 14.5
+    access_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 40.7
-    developer_ergonomics: 16.7
+    contract_quality: 37.3
+    developer_ergonomics: 31.0
     discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 25.8
+    operational_transparency: 23.7
+  previous_composite: 29.7
   provenance:
     agentic_access: derived
     contracts:
@@ -240,13 +239,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/screenshots/openpanel-2026-06-20T191030.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openpanel/openpanel-2026-06-20T191030.png
 security:
 - kind: domain-security
   name: Openpanel Domain Security

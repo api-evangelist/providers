@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 24.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -103,52 +105,52 @@ asyncapis:
   slug: openweb-notifications-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/agentic-access/openweb-agentic-access.yml
+  href: https://artifacts.apis.io/openweb/agentic-access/openweb-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openweb-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/rules/openweb-rules.yml
+  href: https://artifacts.apis.io/openweb/rules/openweb-rules.yml
   title: ''
   type: Spectral
   url: rules/openweb-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/json-ld/openweb-context.jsonld
+  href: https://artifacts.apis.io/openweb/json-ld/openweb-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/openweb-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/vocabulary/openweb-vocabulary.yml
+  href: https://artifacts.apis.io/openweb/vocabulary/openweb-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/openweb-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/data-model/openweb-data-model.yml
+  href: https://artifacts.apis.io/openweb/data-model/openweb-data-model.yml
   title: ''
   type: DataModel
   url: data-model/openweb-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/security/openweb-trust-center.yml
+  href: https://artifacts.apis.io/openweb/security/openweb-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/openweb-trust-center.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/lifecycle/openweb-lifecycle.yml
+  href: https://artifacts.apis.io/openweb/lifecycle/openweb-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/openweb-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/errors/openweb-problem-types.yml
+  href: https://artifacts.apis.io/openweb/errors/openweb-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/openweb-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/hosts/openweb-hosts.yml
+  href: https://artifacts.apis.io/openweb/hosts/openweb-hosts.yml
   title: ''
   type: Hosts
   url: hosts/openweb-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/vendors/openweb-vendors.yml
+  href: https://artifacts.apis.io/openweb/vendors/openweb-vendors.yml
   title: ''
   type: Vendors
   url: vendors/openweb-vendors.yml
@@ -161,7 +163,7 @@ common:
   type: BlogRSS
   url: https://www.openweb.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/security/openweb-domain-security.yml
+  href: https://artifacts.apis.io/openweb/security/openweb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openweb-domain-security.yml
@@ -210,27 +212,27 @@ common:
   type: TrustCenter
   url: https://trust.openweb.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/packages/openweb-packages.yml
+  href: https://artifacts.apis.io/openweb/packages/openweb-packages.yml
   title: ''
   type: Packages
   url: packages/openweb-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/packages/openweb-packages.yml
+  href: https://artifacts.apis.io/openweb/packages/openweb-packages.yml
   title: ''
   type: SDKs
   url: packages/openweb-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/authentication/openweb-authentication.yml
+  href: https://artifacts.apis.io/openweb/authentication/openweb-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openweb-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/conventions/openweb-conventions.yml
+  href: https://artifacts.apis.io/openweb/conventions/openweb-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openweb-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/conformance/openweb-conformance.yml
+  href: https://artifacts.apis.io/openweb/conformance/openweb-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openweb-conformance.yml
@@ -239,37 +241,37 @@ common:
   type: Compliance
   url: https://trust.openweb.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/lifecycle/openweb-lifecycle.yml
+  href: https://artifacts.apis.io/openweb/lifecycle/openweb-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openweb-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/changelog/openweb-changelog.yml
+  href: https://artifacts.apis.io/openweb/changelog/openweb-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openweb-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/asyncapi/openweb-notifications-webhooks.yml
+  href: https://artifacts.apis.io/openweb/asyncapi/openweb-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/openweb-notifications-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/components/openweb-components.yml
+  href: https://artifacts.apis.io/openweb/components/openweb-components.yml
   title: ''
   type: Components
   url: components/openweb-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/mcp/openweb-mcp.yml
+  href: https://artifacts.apis.io/openweb/mcp/openweb-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/openweb-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/well-known/openweb-well-known.yml
+  href: https://artifacts.apis.io/openweb/well-known/openweb-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/openweb-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/llms/openweb-llms.txt
+  href: https://artifacts.apis.io/openweb/llms/openweb-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openweb-llms.txt
@@ -293,7 +295,7 @@ overview: 'OpenWeb publishes 11 API contracts indexed on the [APIs.io](https://a
 
 
   OpenWeb''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 31 more developer resources.'
-random_paper: 4
+random_paper: 8
 rules:
 - authorship: generated
   effective_rule_count: 50
@@ -309,7 +311,7 @@ rules:
   slug: openweb-rules
 score:
   band: developing
-  composite: 44.4
+  composite: 53.4
   coverage:
     artifact_dirs: 25
     catalog_earned: 53.8
@@ -317,15 +319,15 @@ score:
     catalog_gap: 61.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 9.7
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 36.8
     contract_governance: 35.6
     contract_quality: 55.0
-    developer_ergonomics: 40.5
-    discoverability: 78.6
-    operational_transparency: 42.1
-  previous_composite: 34.7
+    developer_ergonomics: 59.5
+    discoverability: 71.4
+    operational_transparency: 52.6
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -344,14 +346,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/screenshots/openweb-2026-08-07T190658.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openweb/openweb-2026-08-07T190658.png
 security:
 - kind: authentication
   name: Openweb Authentication

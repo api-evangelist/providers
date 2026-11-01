@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -45,12 +47,12 @@ common:
   type: Blog
   url: https://www.unrealestate.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unreal-estate/refs/heads/main/security/unreal-estate-domain-security.yml
+  href: https://artifacts.apis.io/unreal-estate/security/unreal-estate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unreal-estate-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unreal-estate/refs/heads/main/llms/unreal-estate-llms.txt
+  href: https://artifacts.apis.io/unreal-estate/llms/unreal-estate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unreal-estate-llms.txt
@@ -69,7 +71,7 @@ overview: 'Unreal Estate is profiled on the [APIs.io](https://apis.io/) network.
 random_paper: 18
 score:
   band: minimal
-  composite: 3.5
+  composite: 3.1
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -82,18 +84,18 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 1.2
-    discoverability: 55.4
+    developer_ergonomics: 2.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 3.5
+  previous_composite: 3.1
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 5.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

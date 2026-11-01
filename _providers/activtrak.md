@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
+  score: 19.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Live Data API - query activity reports (Working Hours, Activity Log).
   name: ActivTrak Reports API
   slug: activtrak-reports-api
-artifact_total: 14
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ActivTrak Public APIs Administration API
   slug: open-activtrak-administration-api
@@ -82,57 +81,67 @@ collections:
   name: ActivTrak Public APIs Administration Reports API
   slug: open-activtrak-reports-api
 common:
+- group: other
+  href: https://artifacts.apis.io/activtrak/capabilities/activtrak-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/activtrak-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/activtrak/plans/activtrak-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/activtrak-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.activtrak.com/blog/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/skills/activtrak-bulk-import-hr-data.md
+  href: https://artifacts.apis.io/activtrak/skills/activtrak-bulk-import-hr-data.md
   title: ''
   type: AgentSkill
   url: skills/activtrak-bulk-import-hr-data.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/mcp/activtrak-mcp.yml
+  href: https://artifacts.apis.io/activtrak/mcp/activtrak-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/activtrak-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/overlays/activtrak-openapi-original-overlay.yaml
+  href: https://artifacts.apis.io/activtrak/overlays/activtrak-openapi-original-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/activtrak-openapi-original-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/authentication/activtrak-authentication.yml
+  href: https://artifacts.apis.io/activtrak/authentication/activtrak-authentication.yml
   title: ''
   type: Authentication
   url: authentication/activtrak-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/security/activtrak-trust-center.yml
+  href: https://artifacts.apis.io/activtrak/security/activtrak-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/activtrak-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/security/activtrak-trust-center.yml
+  href: https://artifacts.apis.io/activtrak/security/activtrak-trust-center.yml
   title: ''
   type: Compliance
   url: security/activtrak-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/security/activtrak-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/activtrak/security/activtrak-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/activtrak-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/security/activtrak-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/activtrak/security/activtrak-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/activtrak-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/security/activtrak-domain-security.yml
+  href: https://artifacts.apis.io/activtrak/security/activtrak-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/activtrak-domain-security.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/lifecycle/activtrak-lifecycle.yml
+  href: https://artifacts.apis.io/activtrak/lifecycle/activtrak-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/activtrak-lifecycle.yml
@@ -182,6 +191,14 @@ common:
   url: https://www.activtrak.com/
 created: '2026-07-17'
 description: 'ActivTrak is a workforce analytics and productivity-monitoring SaaS platform. Its Public APIs (v2) expose REST endpoints across three surfaces: the Live Data / Reports API (Working Hours and Activity Log), account administration (Clients, Consumers, and full SCIM 2.0 user and group management), and a Bulk Import HR Data Connector for CSV-driven user provisioning. Authentication is via an API key sent in the x-api-key header (a Bearer form is also accepted on some endpoints). Regional hosts are available for the United States, European Union, United Kingdom, Canada, and Australia. ActivTrak is backed by Sapphire Ventures and is profiled in the API Evangelist network.'
+finops:
+- has_sources: true
+  method: derived
+  name: Activtrak Finops
+  primary_unit: worker
+  service_category: ''
+  slug: activtrak-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/activtrak.png
 layout: provider
 modified: '2026-10-06'
@@ -191,27 +208,34 @@ network: true
 overview: 'ActivTrak publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Administration API, Administration - SCIM API, Bulk Import API, and 1 more. Tagged areas include Company, Software-as-a-Service, Workforce Analytics, Productivity, and Employee Monitoring.
 
 
-  ActivTrak''s developer surface includes authentication, changelog, documentation, API reference, support, engineering blog, pricing, and 15 more developer resources.'
-random_paper: 1
+  ActivTrak''s developer surface includes authentication, changelog, documentation, API reference, support, engineering blog, pricing, and 17 more developer resources.'
+plans:
+- name: Activtrak Plans Pricing
+  plan_count: 6
+  slug: activtrak-plans-pricing
+- name: Activtrak Price Estimates
+  plan_count: 0
+  slug: activtrak-price-estimates
+random_paper: 9
 score:
-  band: developing
-  composite: 49.3
+  band: strong
+  composite: 55.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 43.4
+    access_clarity: 89.5
     contract_governance: 4.5
-    contract_quality: 55.9
+    contract_quality: 49.7
     developer_ergonomics: 47.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 50.0
-  previous_composite: 49.2
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -228,13 +252,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/screenshots/activtrak-2026-07-25T181531.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/activtrak/activtrak-2026-07-25T181531.png
 security:
 - kind: authentication
   name: Activtrak Authentication
@@ -252,6 +277,16 @@ security:
   name: Activtrak Trust Center
   slug: activtrak-trust-center
   summary_line: SOC 2, HIPAA, GDPR
+skill_count: 4
+skills:
+- name: Bulk-import HR user data
+  slug: activtrak-bulk-import-hr-data
+- name: Manage app access (consumers)
+  slug: activtrak-manage-app-access-consumers
+- name: Provision users and groups via SCIM
+  slug: activtrak-provision-scim-users-groups
+- name: Pull activity and working-hours reports
+  slug: activtrak-pull-activity-reports
 slug: activtrak
 tags:
 - Company

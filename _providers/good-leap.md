@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -139,14 +141,11 @@ arazzos:
 - description: Authenticate, submit a loan application, then track its status and next actions.
   name: Originate and track a GoodLeap loan
   slug: good-leap-originate-and-track-loan
-artifact_total: 43
+artifact_total: 44
 collections:
 - collection_type: postman
   name: GoodLeap - Developer API
   slug: postman-good-leap-developer-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: GoodLeap Developer Authorization & Elevation Management API
   slug: open-good-leap-authorization-elevation-management-api
@@ -203,7 +202,7 @@ collections:
   slug: open-good-leap-verify-loan-details-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/overlays/good-leap-developer-api-overlay.yaml
+  href: https://artifacts.apis.io/good-leap/overlays/good-leap-developer-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/good-leap-developer-api-overlay.yaml
@@ -244,57 +243,57 @@ common:
   type: Postman
   url: https://www.postman.com/loanpalapidocuments/goodleap-developer-api-public-resources/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/authentication/good-leap-authentication.yml
+  href: https://artifacts.apis.io/good-leap/authentication/good-leap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/good-leap-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/conventions/good-leap-conventions.yml
+  href: https://artifacts.apis.io/good-leap/conventions/good-leap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/good-leap-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/sandbox/good-leap-sandbox.yml
+  href: https://artifacts.apis.io/good-leap/sandbox/good-leap-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/good-leap-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/mcp/good-leap-mcp.yml
+  href: https://artifacts.apis.io/good-leap/mcp/good-leap-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/good-leap-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/good-leap/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/conformance/good-leap-conformance.yml
+  href: https://artifacts.apis.io/good-leap/conformance/good-leap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/good-leap-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/lifecycle/good-leap-lifecycle.yml
+  href: https://artifacts.apis.io/good-leap/lifecycle/good-leap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/good-leap-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/data-model/good-leap-data-model.yml
+  href: https://artifacts.apis.io/good-leap/data-model/good-leap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/good-leap-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/arazzo/good-leap-originate-and-track-loan.yml
+  href: https://artifacts.apis.io/good-leap/arazzo/good-leap-originate-and-track-loan.yml
   title: ''
   type: Arazzo
   url: arazzo/good-leap-originate-and-track-loan.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/llms/good-leap-llms.txt
+  href: https://artifacts.apis.io/good-leap/llms/good-leap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/good-leap-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/agentic-access/good-leap-agentic-access.yml
+  href: https://artifacts.apis.io/good-leap/agentic-access/good-leap-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/good-leap-agentic-access.yml
@@ -303,12 +302,12 @@ common:
   type: Security
   url: https://www.goodleap.com/report-a-security-bug
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/security/good-leap-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/good-leap/security/good-leap-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/good-leap-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/security/good-leap-domain-security.yml
+  href: https://artifacts.apis.io/good-leap/security/good-leap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/good-leap-domain-security.yml
@@ -324,10 +323,10 @@ overview: 'Good Leap is listed with 18 APIs on the [APIs.io](https://apis.io/) n
 
 
   Good Leap''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 18 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: thin
-  composite: 29.0
+  composite: 29.5
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -340,10 +339,10 @@ score:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 12.9
-    developer_ergonomics: 56.5
-    discoverability: 78.6
+    developer_ergonomics: 58.9
+    discoverability: 71.4
     operational_transparency: 10.5
-  previous_composite: 29.0
+  previous_composite: 29.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -360,13 +359,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/screenshots/good-leap-2026-07-25T220101.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/good-leap/good-leap-2026-07-25T220101.png
 security:
 - kind: authentication
   name: Good Leap Authentication
@@ -380,6 +380,12 @@ security:
   name: Good Leap Vulnerability Disclosure
   slug: good-leap-vulnerability-disclosure
   summary_line: contact published
+skill_count: 2
+skills:
+- name: Clear GoodLeap loan cases and upload documents
+  slug: good-leap-manage-cases-and-documents
+- name: Submit and track a GoodLeap loan application
+  slug: good-leap-submit-and-track-loan
 slug: good-leap
 tags:
 - Company

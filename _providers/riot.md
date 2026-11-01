@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-10-17'
+  score: 40.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 80
   slug: riot-agentic-access
   summary_line: 80 operations · 18 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://public-api.tryriot.com/v1
   baseurl_source: declared
@@ -91,15 +93,12 @@ apis:
   description: The Sonar API from Riot — 0 operation(s) for sonar.
   name: Riot Sonar API
   slug: riot-sonar-api
-artifact_total: 32
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Riot Webhooks
   slug: riot-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Riot Awareness API
   slug: open-riot-awareness-api
@@ -143,18 +142,23 @@ collections:
   name: Riot Webhook Events API
   slug: open-riot-webhook-events-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/riot/plans/riot-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/riot-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/capabilities/riot-capability-edges.yml
+  href: https://artifacts.apis.io/riot/capabilities/riot-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/riot-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/mcp/riot-mcp.yml
+  href: https://artifacts.apis.io/riot/mcp/riot-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/riot-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/agentic-access/riot-agentic-access.yml
+  href: https://artifacts.apis.io/riot/agentic-access/riot-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/riot-agentic-access.yml
@@ -211,7 +215,7 @@ common:
   type: ChangeLog
   url: https://tryriot.com/changelog/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/changelog/riot-changelog.yml
+  href: https://artifacts.apis.io/riot/changelog/riot-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/riot-changelog.yml
@@ -220,7 +224,7 @@ common:
   type: Security
   url: https://tryriot.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/security/riot-trust-center.yml
+  href: https://artifacts.apis.io/riot/security/riot-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/riot-trust-center.yml
@@ -229,92 +233,100 @@ common:
   type: Compliance
   url: https://trust.tryriot.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/security/riot-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/riot/security/riot-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/riot-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/security/riot-domain-security.yml
+  href: https://artifacts.apis.io/riot/security/riot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/riot-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/well-known/riot-security.txt
+  href: https://artifacts.apis.io/riot/well-known/riot-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/riot-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/well-known/riot-well-known.yml
+  href: https://artifacts.apis.io/riot/well-known/riot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/riot-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/authentication/riot-authentication.yml
+  href: https://artifacts.apis.io/riot/authentication/riot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/riot-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/scopes/riot-scopes.yml
+  href: https://artifacts.apis.io/riot/scopes/riot-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/riot-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/conventions/riot-conventions.yml
+  href: https://artifacts.apis.io/riot/conventions/riot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/riot-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/conventions/riot-conventions.yml
+  href: https://artifacts.apis.io/riot/conventions/riot-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/riot-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/rate-limits/riot-rate-limits.yml
+  href: https://artifacts.apis.io/riot/rate-limits/riot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/riot-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/errors/riot-error-codes.yml
+  href: https://artifacts.apis.io/riot/errors/riot-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/riot-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/lifecycle/riot-lifecycle.yml
+  href: https://artifacts.apis.io/riot/lifecycle/riot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/riot-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/conformance/riot-conformance.yml
+  href: https://artifacts.apis.io/riot/conformance/riot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/riot-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/data-model/riot-data-model.yml
+  href: https://artifacts.apis.io/riot/data-model/riot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/riot-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/asyncapi/riot-webhooks.yml
+  href: https://artifacts.apis.io/riot/asyncapi/riot-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/riot-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/riot/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/llms/riot-llms.txt
+  href: https://artifacts.apis.io/riot/llms/riot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/riot-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/overlays/riot-public-api-overlay.yaml
+  href: https://artifacts.apis.io/riot/overlays/riot-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/riot-public-api-overlay.yaml
 created: '2026-08-05'
 description: Riot is a Paris-based employee security posture management (human risk management) platform that helps companies reduce the human attack surface. The product suite spans phishing and smishing simulation, security awareness training courses, credential breach monitoring, employee-reported email triage (Inbox), inbound email protection (Slash), and third-party SaaS/drive exposure monitoring (Sonar), fronted by a chat assistant that runs in Slack, Microsoft Teams and the web portal. Riot publishes a public REST API (OpenAPI 3.1.1, x-api-key authentication, cursor pagination, scoped keys) that exposes organization, employee, group, course, campaign, attack, breach and inbox data, a SCIM 2.0 provisioning surface for user and group lifecycle, and Standard-Webhooks server-to-server events whose payloads follow the OCSF Detection Finding schema so they can be ingested by a SIEM or SOAR without custom mapping.
+finops:
+- has_sources: true
+  method: derived
+  name: Riot Finops
+  primary_unit: employee
+  service_category: ''
+  slug: riot-finops
+  template: false
 image: https://cms-content.tryriot.com/riot_preview_305b31b839.png
 layout: provider
 modified: '2026-08-05'
@@ -327,8 +339,15 @@ overview: 'Riot publishes 9 API contracts indexed on the [APIs.io](https://apis.
   The Riot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Riot''s developer surface includes documentation, API reference, engineering blog, support, pricing, changelog, authentication, and 30 more developer resources.'
-random_paper: 6
+  Riot''s developer surface includes documentation, API reference, engineering blog, support, pricing, changelog, authentication, and 31 more developer resources.'
+plans:
+- name: Riot Plans Pricing
+  plan_count: 2
+  slug: riot-plans-pricing
+- name: Riot Price Estimates
+  plan_count: 0
+  slug: riot-price-estimates
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Riot Rate Limits
@@ -339,23 +358,23 @@ scopes:
   slug: riot-scopes
   summary_line: 4 scopes
 score:
-  band: developing
-  composite: 52.4
+  band: strong
+  composite: 62.3
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 5.8
   facets:
-    access_clarity: 40.8
+    access_clarity: 89.5
     contract_governance: 18.2
-    contract_quality: 58.8
+    contract_quality: 58.1
     developer_ergonomics: 47.0
     discoverability: 66.1
-    operational_transparency: 44.7
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -364,7 +383,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 52.3
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -380,14 +399,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 38.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 45.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/screenshots/riot-2026-08-17T081610.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/riot/riot-2026-08-17T081610.png
 security:
 - kind: authentication
   name: Riot Authentication
@@ -405,6 +425,16 @@ security:
   name: Riot Trust Center
   slug: riot-trust-center
   summary_line: AICPA SOC 2 Type II, GDPR
+skill_count: 4
+skills:
+- name: Report Riot awareness training compliance
+  slug: riot-awareness-training-compliance
+- name: Triage Riot credential breach exposure
+  slug: riot-breach-exposure-triage
+- name: Consume Riot webhook events
+  slug: riot-inbox-webhook-consumer
+- name: Review a Riot phishing simulation campaign
+  slug: riot-phishing-simulation-review
 slug: riot
 tags:
 - Cybersecurity

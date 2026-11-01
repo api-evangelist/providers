@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 21.7
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://api.hevyapp.com
@@ -74,10 +76,10 @@ apis:
   description: The Workouts API from Hevy — 5 operation(s) for workouts.
   name: Hevy Workouts API
   slug: hevy-workouts-api
-artifact_total: 11
+artifact_total: 16
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/overlays/hevy-public-api-overlay.yaml
+  href: https://artifacts.apis.io/hevy/overlays/hevy-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hevy-public-api-overlay.yaml
@@ -142,72 +144,80 @@ common:
   type: ChangeLog
   url: https://www.hevyapp.com/community-updates/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/changelog/hevy-changelog.yml
+  href: https://artifacts.apis.io/hevy/changelog/hevy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hevy-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/lifecycle/hevy-lifecycle.yml
+  href: https://artifacts.apis.io/hevy/lifecycle/hevy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hevy-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/authentication/hevy-authentication.yml
+  href: https://artifacts.apis.io/hevy/authentication/hevy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hevy-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/conventions/hevy-conventions.yml
+  href: https://artifacts.apis.io/hevy/conventions/hevy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hevy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/errors/hevy-problem-types.yml
+  href: https://artifacts.apis.io/hevy/errors/hevy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hevy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/data-model/hevy-data-model.yml
+  href: https://artifacts.apis.io/hevy/data-model/hevy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hevy-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/conformance/hevy-conformance.yml
+  href: https://artifacts.apis.io/hevy/conformance/hevy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hevy-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/security/hevy-domain-security.yml
+  href: https://artifacts.apis.io/hevy/security/hevy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hevy-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/packages/hevy-packages.yml
+  href: https://artifacts.apis.io/hevy/packages/hevy-packages.yml
   title: ''
   type: Packages
   url: packages/hevy-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/rate-limits/hevy-rate-limits.yml
+  href: https://artifacts.apis.io/hevy/rate-limits/hevy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hevy-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/plans/hevy-plans-pricing.yml
+  href: https://artifacts.apis.io/hevy/plans/hevy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hevy-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/llms/hevy-llms.txt
+  href: https://artifacts.apis.io/hevy/llms/hevy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hevy-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hevy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-27'
 description: Hevy is a gym workout tracker and planner app for iOS, Android and the web, operated by Hevy Studios, S.L. and used by a community the company describes as 15+ million lifters. Members log strength-training sessions, build and reuse routines, organize them into folders, browse a large exercise library, and track body measurements and progress over time. Hevy also runs Hevy Coach, a separate product for personal trainers who program and monitor client training. For developers, Hevy Pro subscribers can mint an API key in the web app and call a public REST API at api.hevyapp.com covering workouts, a workout change-feed, routines, routine folders, exercise templates, exercise history, body measurements and account info. The company also publishes a first-party ChatGPT Custom GPT ("Hevy - Gym workout planner") whose OAuth-authenticated action spec it keeps in its own GitHub organization.
+finops:
+- has_sources: true
+  method: derived
+  name: Hevy Finops
+  primary_unit: ''
+  service_category: ''
+  slug: hevy-finops
+  template: true
 image: https://www.hevyapp.com/wp-content/uploads/OG-image.png
 layout: provider
 modified: '2026-08-27'
@@ -222,30 +232,30 @@ plans:
 - name: Hevy Plans Pricing
   plan_count: 2
   slug: hevy-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Hevy Rate Limits
   slug: hevy-rate-limits
 score:
   band: developing
-  composite: 47.7
+  composite: 48.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 43.4
     developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 47.6
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 48.0
   provenance:
     conformance: derived
     contracts:
@@ -261,13 +271,14 @@ score:
     regime: Health
     regime_id: health
     score: 29.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/screenshots/hevy-2026-09-02T145726.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hevy/hevy-2026-09-02T145726.png
 security:
 - kind: authentication
   name: Hevy Authentication
@@ -277,6 +288,16 @@ security:
   name: Hevy Domain Security
   slug: hevy-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: Build a Hevy training program
+  slug: hevy-build-training-program
+- name: Log a workout to Hevy
+  slug: hevy-log-a-workout
+- name: Sync a Hevy training history
+  slug: hevy-sync-workout-history
+- name: Track body measurements in Hevy
+  slug: hevy-track-body-measurements
 slug: hevy
 tags:
 - Company

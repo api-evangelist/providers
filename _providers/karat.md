@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Karat''s GraphQL API for managing technical-interview hiring workflows: query candidacies, roles, groups and users; invite candidates into assessments; and bulk-update candidacy dispositions. Hosted pe'
   name: Karat GraphQL API
   slug: karat-graphql-api
-artifact_total: 4
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -96,72 +98,72 @@ common:
   type: Compliance
   url: https://karat.com/customer-faq/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/packages/karat-packages.yml
+  href: https://artifacts.apis.io/karat/packages/karat-packages.yml
   title: ''
   type: SDKs
   url: packages/karat-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/packages/karat-packages.yml
+  href: https://artifacts.apis.io/karat/packages/karat-packages.yml
   title: ''
   type: Packages
   url: packages/karat-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/authentication/karat-authentication.yml
+  href: https://artifacts.apis.io/karat/authentication/karat-authentication.yml
   title: ''
   type: Authentication
   url: authentication/karat-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/conventions/karat-conventions.yml
+  href: https://artifacts.apis.io/karat/conventions/karat-conventions.yml
   title: ''
   type: Conventions
   url: conventions/karat-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/data-model/karat-data-model.yml
+  href: https://artifacts.apis.io/karat/data-model/karat-data-model.yml
   title: ''
   type: DataModel
   url: data-model/karat-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/conformance/karat-conformance.yml
+  href: https://artifacts.apis.io/karat/conformance/karat-conformance.yml
   title: ''
   type: Conformance
   url: conformance/karat-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/lifecycle/karat-lifecycle.yml
+  href: https://artifacts.apis.io/karat/lifecycle/karat-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/karat-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/sandbox/karat-sandbox.yml
+  href: https://artifacts.apis.io/karat/sandbox/karat-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/karat-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/well-known/karat-well-known.yml
+  href: https://artifacts.apis.io/karat/well-known/karat-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/karat-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/security/karat-trust-center.yml
+  href: https://artifacts.apis.io/karat/security/karat-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/karat-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/security/karat-domain-security.yml
+  href: https://artifacts.apis.io/karat/security/karat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/karat-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/mcp/karat-mcp.yml
+  href: https://artifacts.apis.io/karat/mcp/karat-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/karat-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/karat/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/llms/karat-llms.txt
+  href: https://artifacts.apis.io/karat/llms/karat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/karat-llms.txt
@@ -180,7 +182,7 @@ overview: 'Karat is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 3
 score:
   band: thin
-  composite: 28.4
+  composite: 32.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -188,14 +190,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 2.6
+    developer_ergonomics: 68.5
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -203,7 +205,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 28.3
+  previous_composite: 32.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -217,15 +219,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/screenshots/karat-2026-07-25T223504.png
+screenshot: https://apis.io/screenshots/karat/karat-2026-07-25T223504.png
 security:
 - kind: authentication
   name: Karat Authentication
@@ -239,6 +241,12 @@ security:
   name: Karat Trust Center
   slug: karat-trust-center
   summary_line: SOC 2 Type II, EU-US Data Privacy Framework, UK-US Data Privacy Framework, Swiss-US Data Privacy Framework
+skill_count: 2
+skills:
+- name: Invite a candidate into a Karat assessment
+  slug: karat-invite-candidate
+- name: Sync and disposition candidacy statuses
+  slug: karat-sync-candidacy-statuses
 slug: karat
 tags:
 - Company

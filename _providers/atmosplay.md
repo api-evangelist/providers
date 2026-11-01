@@ -20,12 +20,12 @@ common:
   type: Documentation
   url: https://github.com/Atmosplay/Help-Center-for-Publisher
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/atmosplay/refs/heads/main/packages/atmosplay-packages.yml
+  href: https://artifacts.apis.io/atmosplay/packages/atmosplay-packages.yml
   title: ''
   type: Packages
   url: packages/atmosplay-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/atmosplay/refs/heads/main/packages/atmosplay-packages.yml
+  href: https://artifacts.apis.io/atmosplay/packages/atmosplay-packages.yml
   title: ''
   type: SDKs
   url: packages/atmosplay-packages.yml
@@ -34,47 +34,47 @@ common:
   type: GettingStarted
   url: https://github.com/Atmosplay/AtmosplayAds-Android/wiki/GetStarted
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/atmosplay/refs/heads/main/authentication/atmosplay-authentication.yml
+  href: https://artifacts.apis.io/atmosplay/authentication/atmosplay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/atmosplay-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atmosplay/refs/heads/main/errors/atmosplay-error-codes.yml
+  href: https://artifacts.apis.io/atmosplay/errors/atmosplay-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/atmosplay-error-codes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/atmosplay/refs/heads/main/sandbox/atmosplay-sandbox.yml
+  href: https://artifacts.apis.io/atmosplay/sandbox/atmosplay-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/atmosplay-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/atmosplay/refs/heads/main/changelog/atmosplay-changelog.yml
+  href: https://artifacts.apis.io/atmosplay/changelog/atmosplay-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/atmosplay-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atmosplay/refs/heads/main/lifecycle/atmosplay-lifecycle.yml
+  href: https://artifacts.apis.io/atmosplay/lifecycle/atmosplay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/atmosplay-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atmosplay/refs/heads/main/conformance/atmosplay-conformance.yml
+  href: https://artifacts.apis.io/atmosplay/conformance/atmosplay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/atmosplay-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/atmosplay/refs/heads/main/plans/atmosplay-plans-pricing.yml
+  href: https://artifacts.apis.io/atmosplay/plans/atmosplay-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/atmosplay-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/atmosplay/refs/heads/main/rate-limits/atmosplay-rate-limits.yml
+  href: https://artifacts.apis.io/atmosplay/rate-limits/atmosplay-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/atmosplay-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/atmosplay/refs/heads/main/llms/atmosplay-llms.txt
+  href: https://artifacts.apis.io/atmosplay/llms/atmosplay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/atmosplay-llms.txt
@@ -112,12 +112,12 @@ plans:
 - name: Atmosplay Plans Pricing
   plan_count: 0
   slug: atmosplay-plans-pricing
-random_paper: 18
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Atmosplay Rate Limits
   slug: atmosplay-rate-limits
-screenshot: https://raw.githubusercontent.com/api-evangelist/atmosplay/refs/heads/main/screenshots/atmosplay-2026-07-25T201559.png
+screenshot: https://apis.io/screenshots/atmosplay/atmosplay-2026-07-25T201559.png
 security:
 - kind: authentication
   name: Atmosplay Authentication

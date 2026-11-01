@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 39.7
-  scored_at: '2026-10-17'
+  score: 39.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 3
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 28
   slug: trolie-agentic-access
   summary_line: 28 operations · 13 acting · 3 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://trolie.example.com
   baseurl_source: spec
@@ -64,115 +66,115 @@ apis:
   description: If permitted by the Clearinghouse Provider, its Ratings Providers can use these functions to exchange real-time ratings, supplementing or replacing traditional telemetry protocols like ICCP.
   name: TROLIE Realtime API
   slug: trolie-realtime-api
-artifact_total: 26
+artifact_total: 32
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/agentic-access/trolie-agentic-access.yml
+  href: https://artifacts.apis.io/trolie/agentic-access/trolie-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trolie-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/rules/trolie-spec-spectral-rules.yml
+  href: https://artifacts.apis.io/trolie/rules/trolie-spec-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/trolie-spec-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/rules/trolie-rules.yml
+  href: https://artifacts.apis.io/trolie/rules/trolie-rules.yml
   title: ''
   type: Spectral
   url: rules/trolie-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/json-ld/trolie-context.jsonld
+  href: https://artifacts.apis.io/trolie/json-ld/trolie-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/trolie-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/vocabulary/trolie-vocabulary.yml
+  href: https://artifacts.apis.io/trolie/vocabulary/trolie-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/trolie-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/trolie/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/data-model/trolie-data-model.yml
+  href: https://artifacts.apis.io/trolie/data-model/trolie-data-model.yml
   title: ''
   type: DataModel
   url: data-model/trolie-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/changelog/trolie-changelog.yml
+  href: https://artifacts.apis.io/trolie/changelog/trolie-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/trolie-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/conventions/trolie-conventions.yml
+  href: https://artifacts.apis.io/trolie/conventions/trolie-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trolie-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/lifecycle/trolie-lifecycle.yml
+  href: https://artifacts.apis.io/trolie/lifecycle/trolie-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/trolie-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/lifecycle/trolie-lifecycle.yml
+  href: https://artifacts.apis.io/trolie/lifecycle/trolie-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trolie-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/errors/trolie-problem-types.yml
+  href: https://artifacts.apis.io/trolie/errors/trolie-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/trolie-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/conformance/trolie-conformance.yml
+  href: https://artifacts.apis.io/trolie/conformance/trolie-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trolie-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/overlays/trolie-openapi-overlay.yaml
+  href: https://artifacts.apis.io/trolie/overlays/trolie-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/trolie-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/well-known/trolie-well-known.yml
+  href: https://artifacts.apis.io/trolie/well-known/trolie-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/trolie-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/hosts/trolie-hosts.yml
+  href: https://artifacts.apis.io/trolie/hosts/trolie-hosts.yml
   title: ''
   type: Hosts
   url: hosts/trolie-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/vendors/trolie-vendors.yml
+  href: https://artifacts.apis.io/trolie/vendors/trolie-vendors.yml
   title: ''
   type: Vendors
   url: vendors/trolie-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/packages/trolie-packages.yml
+  href: https://artifacts.apis.io/trolie/packages/trolie-packages.yml
   title: ''
   type: SDKs
   url: packages/trolie-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/packages/trolie-packages.yml
+  href: https://artifacts.apis.io/trolie/packages/trolie-packages.yml
   title: ''
   type: Packages
   url: packages/trolie-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/authentication/trolie-authentication.yml
+  href: https://artifacts.apis.io/trolie/authentication/trolie-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trolie-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/scopes/trolie-scopes.yml
+  href: https://artifacts.apis.io/trolie/scopes/trolie-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/trolie-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/security/trolie-domain-security.yml
+  href: https://artifacts.apis.io/trolie/security/trolie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trolie-domain-security.yml
@@ -287,7 +289,7 @@ plans:
 - name: Trolie Plans Pricing
   plan_count: 0
   slug: trolie-plans-pricing
-random_paper: 17
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Trolie Rate Limits
@@ -325,7 +327,7 @@ scopes:
   summary_line: 15 scopes · clientCredentials
 score:
   band: developing
-  composite: 43.5
+  composite: 43.3
   coverage:
     artifact_dirs: 27
     catalog_earned: 57.8
@@ -333,11 +335,11 @@ score:
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 35.6
-    contract_quality: 67.7
+    contract_quality: 64.3
     developer_ergonomics: 56.5
     discoverability: 57.1
     operational_transparency: 28.9
@@ -358,13 +360,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 27.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/screenshots/trolie-2026-10-11T131208.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/trolie/trolie-2026-10-11T131208.png
 security:
 - kind: authentication
   name: Trolie Authentication
@@ -374,6 +377,20 @@ security:
   name: Trolie Domain Security
   slug: trolie-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 6
+skills:
+- name: manage-monitoring-sets
+  slug: trolie-manage-monitoring-sets
+- name: manage-seasonal-overrides
+  slug: trolie-manage-seasonal-overrides
+- name: manage-temporary-aar-exceptions
+  slug: trolie-manage-temporary-aar-exceptions
+- name: submit-forecast-rating-proposal
+  slug: trolie-submit-forecast-rating-proposal
+- name: submit-real-time-rating-proposal
+  slug: trolie-submit-real-time-rating-proposal
+- name: submit-seasonal-ratings-proposal
+  slug: trolie-submit-seasonal-ratings-proposal
 slug: trolie
 tags:
 - Company

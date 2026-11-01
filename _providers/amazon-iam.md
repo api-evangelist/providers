@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
-    openapi_examples: documented
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.2
-  scored_at: '2026-10-17'
+  score: 27.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,7 +72,97 @@ apis:
   description: Operations for managing IAM users
   name: Amazon IAM Users API
   slug: amazon-iam-users-api
-artifact_total: 100
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam Account Password Policy API from Amazon IAM — 3 operation(s) for iam account password policy.
+  name: Amazon IAM Iam Account Password Policy API
+  slug: amazon-iam-account-password-policy-api
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam Delegation Request API from Amazon IAM — 7 operation(s) for iam delegation request.
+  name: Amazon IAM Iam Delegation Request API
+  slug: amazon-iam-delegation-request-api
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam Group Policy API from Amazon IAM — 6 operation(s) for iam group policy.
+  name: Amazon IAM Iam Group Policy API
+  slug: amazon-iam-group-policy-api
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam Instance Profile API from Amazon IAM — 7 operation(s) for iam instance profile.
+  name: Amazon IAM Iam Instance Profile API
+  slug: amazon-iam-instance-profile-api
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam Login Profile API from Amazon IAM — 4 operation(s) for iam login profile.
+  name: Amazon IAM Iam Login Profile API
+  slug: amazon-iam-login-profile-api
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam Mfa Device API from Amazon IAM — 5 operation(s) for iam mfa device.
+  name: Amazon IAM Iam Mfa Device API
+  slug: amazon-iam-mfa-device-api
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam Open Id Connect Provider API from Amazon IAM — 6 operation(s) for iam open id connect provider.
+  name: Amazon IAM Iam Open Id Connect Provider API
+  slug: amazon-iam-open-id-connect-provider-api
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam Operations API from Amazon IAM — 61 operation(s) for iam operations.
+  name: Amazon IAM Iam Operations API
+  slug: amazon-iam-operations-api
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam Policy Version API from Amazon IAM — 4 operation(s) for iam policy version.
+  name: Amazon IAM Iam Policy Version API
+  slug: amazon-iam-policy-version-api
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam Role Policy API from Amazon IAM — 6 operation(s) for iam role policy.
+  name: Amazon IAM Iam Role Policy API
+  slug: amazon-iam-role-policy-api
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam Saml Provider API from Amazon IAM — 7 operation(s) for iam saml provider.
+  name: Amazon IAM Iam Saml Provider API
+  slug: amazon-iam-saml-provider-api
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam Server Certificate API from Amazon IAM — 6 operation(s) for iam server certificate.
+  name: Amazon IAM Iam Server Certificate API
+  slug: amazon-iam-server-certificate-api
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam Service Last Accessed Detail API from Amazon IAM — 3 operation(s) for iam service last accessed detail.
+  name: Amazon IAM Iam Service Last Accessed Detail API
+  slug: amazon-iam-service-last-accessed-detail-api
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam Service Specific Credential API from Amazon IAM — 5 operation(s) for iam service specific credential.
+  name: Amazon IAM Iam Service Specific Credential API
+  slug: amazon-iam-service-specific-credential-api
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam Signing Certificate API from Amazon IAM — 3 operation(s) for iam signing certificate.
+  name: Amazon IAM Iam Signing Certificate API
+  slug: amazon-iam-signing-certificate-api
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam Ssh Public Key API from Amazon IAM — 4 operation(s) for iam ssh public key.
+  name: Amazon IAM Iam Ssh Public Key API
+  slug: amazon-iam-ssh-public-key-api
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam User Policy API from Amazon IAM — 6 operation(s) for iam user policy.
+  name: Amazon IAM Iam User Policy API
+  slug: amazon-iam-user-policy-api
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: The Iam Virtual Mfa Device API from Amazon IAM — 3 operation(s) for iam virtual mfa device.
+  name: Amazon IAM Iam Virtual Mfa Device API
+  slug: amazon-iam-virtual-mfa-device-api
+artifact_total: 117
 collections:
 - collection_type: postman
   name: Amazon IAM Access Keys API
@@ -87,9 +179,6 @@ collections:
 - collection_type: postman
   name: Amazon IAM Access Keys Users API
   slug: postman-amazon-iam-users-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon IAM Access Keys API
   slug: open-amazon-iam-access-keys-api
@@ -110,22 +199,22 @@ collections:
   slug: open-amazon-iam
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/plans/amazon-iam-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-iam/plans/amazon-iam-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-iam-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/rate-limits/amazon-iam-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-iam/rate-limits/amazon-iam-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-iam-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/finops/amazon-iam-finops.yml
+  href: https://artifacts.apis.io/amazon-iam/finops/amazon-iam-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-iam-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/capabilities/amazon-iam-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-iam/capabilities/amazon-iam-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-iam-capability-edges.yml
@@ -134,27 +223,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-iam/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/agentic-access/amazon-iam-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-iam/agentic-access/amazon-iam-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-iam-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/security/amazon-iam-trust-center.yml
+  href: https://artifacts.apis.io/amazon-iam/security/amazon-iam-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-iam-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/security/amazon-iam-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-iam/security/amazon-iam-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-iam-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/security/amazon-iam-domain-security.yml
+  href: https://artifacts.apis.io/amazon-iam/security/amazon-iam-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-iam-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/authentication/amazon-iam-authentication.yml
+  href: https://artifacts.apis.io/amazon-iam/authentication/amazon-iam-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-iam-authentication.yml
@@ -219,17 +308,17 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/json-ld/amazon-iam-context.jsonld
+  href: https://artifacts.apis.io/amazon-iam/json-ld/amazon-iam-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-iam-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/rules/amazon-iam-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-iam/rules/amazon-iam-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-iam-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/vocabulary/amazon-iam-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-iam/vocabulary/amazon-iam-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-iam-vocabulary.yaml
@@ -315,7 +404,7 @@ finops:
 - has_sources: false
   method: generated
   name: Amazon Iam Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: amazon-iam-finops
   template: true
@@ -452,7 +541,7 @@ modified: '2026-05-19'
 name: Amazon IAM
 nav: Providers
 network: true
-overview: 'Amazon IAM publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Keys API, Groups API, Policies API, and 2 more. Tagged areas include Identity and Access Management, Authentication, Authorization, Identity, and Security.
+overview: 'Amazon IAM publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Keys API, Groups API, Policies API, and 20 more. Tagged areas include Identity and Access Management, Authentication, Authorization, Identity, and Security.
 
 
   The Amazon IAM catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -463,7 +552,7 @@ plans:
 - name: Amazon Iam Plans Pricing
   plan_count: 3
   slug: amazon-iam-plans-pricing
-random_paper: 12
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Amazon Iam Rate Limits
@@ -494,44 +583,49 @@ rules:
   slug: amazon-iam-spectral-rules
 score:
   band: strong
-  composite: 55.9
+  composite: 59.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 62.4
     catalog_earned_first_party: 0.0
     catalog_gap: 52.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.6
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 27.3
-    contract_quality: 62.9
+    contract_quality: 64.2
     developer_ergonomics: 65.5
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 57.4
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 5
+      marker_coverage: 78.3
+      total: 23
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/screenshots/amazon-iam-2026-06-20T171703.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-iam/amazon-iam-2026-06-20T171703.png
 security:
 - kind: authentication
   name: Amazon Iam Authentication

@@ -10,30 +10,32 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 31.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,6 +50,61 @@ apis:
   description: Operations for creating, managing, and terminating EMR clusters
   name: Amazon EMR Clusters API
   slug: amazon-emr-clusters-api
+- baseURL: https://elasticmapreduce.amazonaws.com
+  baseurl_source: declared
+  description: The Emr Auto Termination Policy API from Amazon EMR — 3 operation(s) for emr auto termination policy.
+  name: Amazon EMR Emr Auto Termination Policy API
+  slug: amazon-emr-auto-termination-policy-api
+- baseURL: https://elasticmapreduce.amazonaws.com
+  baseurl_source: declared
+  description: The Emr Instance Fleet API from Amazon EMR — 3 operation(s) for emr instance fleet.
+  name: Amazon EMR Emr Instance Fleet API
+  slug: amazon-emr-instance-fleet-api
+- baseURL: https://elasticmapreduce.amazonaws.com
+  baseurl_source: declared
+  description: The Emr Instance Group API from Amazon EMR — 3 operation(s) for emr instance group.
+  name: Amazon EMR Emr Instance Group API
+  slug: amazon-emr-instance-group-api
+- baseURL: https://elasticmapreduce.amazonaws.com
+  baseurl_source: declared
+  description: The Emr Managed Scaling Policy API from Amazon EMR — 3 operation(s) for emr managed scaling policy.
+  name: Amazon EMR Emr Managed Scaling Policy API
+  slug: amazon-emr-managed-scaling-policy-api
+- baseURL: https://elasticmapreduce.amazonaws.com
+  baseurl_source: declared
+  description: The Emr Notebook Execution API from Amazon EMR — 4 operation(s) for emr notebook execution.
+  name: Amazon EMR Emr Notebook Execution API
+  slug: amazon-emr-notebook-execution-api
+- baseURL: https://elasticmapreduce.amazonaws.com
+  baseurl_source: declared
+  description: The Emr Operations API from Amazon EMR — 26 operation(s) for emr operations.
+  name: Amazon EMR Emr Operations API
+  slug: amazon-emr-operations-api
+- baseURL: https://elasticmapreduce.amazonaws.com
+  baseurl_source: declared
+  description: The Emr Security Configuration API from Amazon EMR — 4 operation(s) for emr security configuration.
+  name: Amazon EMR Emr Security Configuration API
+  slug: amazon-emr-security-configuration-api
+- baseURL: https://elasticmapreduce.amazonaws.com
+  baseurl_source: declared
+  description: The Emr Session API from Amazon EMR — 3 operation(s) for emr session.
+  name: Amazon EMR Emr Session API
+  slug: amazon-emr-session-api
+- baseURL: https://elasticmapreduce.amazonaws.com
+  baseurl_source: declared
+  description: The Emr Step API from Amazon EMR — 3 operation(s) for emr step.
+  name: Amazon EMR Emr Step API
+  slug: amazon-emr-step-api
+- baseURL: https://elasticmapreduce.amazonaws.com
+  baseurl_source: declared
+  description: The Emr Studio API from Amazon EMR — 5 operation(s) for emr studio.
+  name: Amazon EMR Emr Studio API
+  slug: amazon-emr-studio-api
+- baseURL: https://elasticmapreduce.amazonaws.com
+  baseurl_source: declared
+  description: The Emr Studio Session Mapping API from Amazon EMR — 5 operation(s) for emr studio session mapping.
+  name: Amazon EMR Emr Studio Session Mapping API
+  slug: amazon-emr-studio-session-mapping-api
 arazzos:
 - description: Create a cluster and queue processing steps to run as soon as it starts.
   name: Amazon EMR Launch a Cluster With Processing Steps
@@ -67,14 +124,11 @@ arazzos:
 - description: Launch a Spark cluster and queue an ETL processing step in one call.
   name: Amazon EMR Run a Spark ETL Job
   slug: amazon-emr-run-spark-etl-job-workflow
-artifact_total: 37
+artifact_total: 47
 collections:
 - collection_type: postman
   name: Amazon EMR API
   slug: postman-amazon-emr
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon EMR Clusters API
   slug: open-amazon-emr-clusters-api
@@ -82,18 +136,23 @@ collections:
   name: Amazon EMR API
   slug: open-amazon-emr
 common:
+- group: other
+  href: https://artifacts.apis.io/amazon-emr/capabilities/amazon-emr-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-emr-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/plans/amazon-emr-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-emr/plans/amazon-emr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-emr-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/rate-limits/amazon-emr-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-emr/rate-limits/amazon-emr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-emr-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/finops/amazon-emr-finops.yml
+  href: https://artifacts.apis.io/amazon-emr/finops/amazon-emr-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-emr-finops.yml
@@ -102,22 +161,22 @@ common:
   type: Website
   url: https://aws.amazon.com/emr/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/agentic-access/amazon-emr-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-emr/agentic-access/amazon-emr-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-emr-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/security/amazon-emr-trust-center.yml
+  href: https://artifacts.apis.io/amazon-emr/security/amazon-emr-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-emr-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/security/amazon-emr-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-emr/security/amazon-emr-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-emr-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/security/amazon-emr-domain-security.yml
+  href: https://artifacts.apis.io/amazon-emr/security/amazon-emr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-emr-domain-security.yml
@@ -126,32 +185,32 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-emr/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/arazzo/amazon-emr-run-cluster-with-steps-workflow.yml
+  href: https://artifacts.apis.io/amazon-emr/arazzo/amazon-emr-run-cluster-with-steps-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-emr-run-cluster-with-steps-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/arazzo/amazon-emr-run-hadoop-hive-cluster-workflow.yml
+  href: https://artifacts.apis.io/amazon-emr/arazzo/amazon-emr-run-hadoop-hive-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-emr-run-hadoop-hive-cluster-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/arazzo/amazon-emr-run-hbase-cluster-workflow.yml
+  href: https://artifacts.apis.io/amazon-emr/arazzo/amazon-emr-run-hbase-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-emr-run-hbase-cluster-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/arazzo/amazon-emr-run-presto-query-cluster-workflow.yml
+  href: https://artifacts.apis.io/amazon-emr/arazzo/amazon-emr-run-presto-query-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-emr-run-presto-query-cluster-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/arazzo/amazon-emr-run-spark-cluster-workflow.yml
+  href: https://artifacts.apis.io/amazon-emr/arazzo/amazon-emr-run-spark-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-emr-run-spark-cluster-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/arazzo/amazon-emr-run-spark-etl-job-workflow.yml
+  href: https://artifacts.apis.io/amazon-emr/arazzo/amazon-emr-run-spark-etl-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-emr-run-spark-etl-job-workflow.yml
@@ -232,12 +291,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/rules/amazon-emr-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-emr/rules/amazon-emr-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-emr-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/vocabulary/amazon-emr-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-emr/vocabulary/amazon-emr-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-emr-vocabulary.yaml
@@ -259,13 +318,13 @@ features:
 - description: Develop and debug jobs using EMR Studio Jupyter notebooks
   name: Studio Notebooks
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Emr Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: vcpu-hour
+  service_category: ''
   slug: amazon-emr-finops
-  template: true
+  template: false
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 integrations:
 - description: Use S3 as data lake storage for EMR clusters
@@ -294,18 +353,18 @@ modified: '2026-09-16'
 name: Amazon EMR
 nav: Providers
 network: true
-overview: 'Amazon EMR publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Clusters API. Tagged areas include Amazon Web Services, Analytics, Apache Spark, Big Data, and Data Processing.
+overview: 'Amazon EMR publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clusters API, Emr Auto Termination Policy API, Emr Instance Fleet API, and 9 more. Tagged areas include Amazon Web Services, Analytics, Apache Spark, Big Data, and Data Processing.
 
 
   The Amazon EMR catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon EMR''s developer surface includes developer portal, documentation, engineering blog, developer console, signup flow, support, FAQ, and 29 more developer resources.'
+  Amazon EMR''s developer surface includes developer portal, documentation, engineering blog, developer console, signup flow, support, FAQ, and 30 more developer resources.'
 plans:
 - name: Amazon Emr Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: amazon-emr-plans-pricing
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Amazon Emr Rate Limits
@@ -335,44 +394,45 @@ rules:
     warn: 10
   slug: amazon-emr-spectral-rules
 score:
-  band: developing
-  composite: 53.4
+  band: strong
+  composite: 63.5
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 62.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.6
+    artifact_dirs: 21
+    catalog_earned: 74.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 40.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.2
   facets:
-    access_clarity: 61.8
+    access_clarity: 100.0
     contract_governance: 27.3
-    contract_quality: 54.2
+    contract_quality: 59.7
     developer_ergonomics: 53.6
     discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 55.0
+    operational_transparency: 39.5
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 1
+      marker_coverage: 91.7
+      total: 12
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/screenshots/amazon-emr-2026-06-20T171642.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-emr/amazon-emr-2026-06-20T171642.png
 security:
 - kind: domain-security
   name: Amazon Emr Domain Security

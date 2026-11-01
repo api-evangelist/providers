@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aidaly/refs/heads/main/security/aidaly-domain-security.yml
+  href: https://artifacts.apis.io/aidaly/security/aidaly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aidaly-domain-security.yml
@@ -73,27 +75,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/aidaly
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aidaly/refs/heads/main/conformance/aidaly-conformance.yml
+  href: https://artifacts.apis.io/aidaly/conformance/aidaly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aidaly-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aidaly/refs/heads/main/conformance/aidaly-conformance.yml
+  href: https://artifacts.apis.io/aidaly/conformance/aidaly-conformance.yml
   title: ''
   type: Compliance
   url: conformance/aidaly-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aidaly/refs/heads/main/plans/aidaly-plans-pricing.yml
+  href: https://artifacts.apis.io/aidaly/plans/aidaly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aidaly-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aidaly/refs/heads/main/rate-limits/aidaly-rate-limits.yml
+  href: https://artifacts.apis.io/aidaly/rate-limits/aidaly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aidaly-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aidaly/refs/heads/main/llms/aidaly-llms.txt
+  href: https://artifacts.apis.io/aidaly/llms/aidaly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aidaly-llms.txt
@@ -135,14 +137,14 @@ plans:
 - name: Aidaly Plans Pricing
   plan_count: 0
   slug: aidaly-plans-pricing
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Aidaly Rate Limits
   slug: aidaly-rate-limits
 score:
   band: emerging
-  composite: 17.9
+  composite: 18.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -156,7 +158,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 49.1
+    discoverability: 50.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -165,7 +167,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 17.9
+  previous_composite: 18.0
   provenance:
     conformance: first-party
   regulatory:
@@ -174,14 +176,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aidaly/refs/heads/main/screenshots/aidaly-2026-10-11T093244.png
+screenshot: https://apis.io/screenshots/aidaly/aidaly-2026-10-11T093244.png
 security:
 - kind: domain-security
   name: Aidaly Domain Security

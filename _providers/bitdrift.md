@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,18 +36,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The bitdrift Capture public API — schema-first protobuf service definitions exposed over gRPC, Connect, and gRPC-over-JSON at api-public.bitdrift.io. Services under the bitdrift.public.unary.* package
   name: bitdrift Public API
   slug: bitdrift-public-api
-artifact_total: 4
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Bitdrift Webhooks
   slug: bitdrift-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/bitdrift/plans/bitdrift-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bitdrift-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -115,62 +122,70 @@ common:
   type: Compliance
   url: https://blog.bitdrift.io/post/soc-2-type-ii
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitdrift/refs/heads/main/llms/bitdrift-llms.txt
+  href: https://artifacts.apis.io/bitdrift/llms/bitdrift-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bitdrift-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitdrift/refs/heads/main/authentication/bitdrift-authentication.yml
+  href: https://artifacts.apis.io/bitdrift/authentication/bitdrift-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bitdrift-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitdrift/refs/heads/main/conventions/bitdrift-conventions.yml
+  href: https://artifacts.apis.io/bitdrift/conventions/bitdrift-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bitdrift-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitdrift/refs/heads/main/lifecycle/bitdrift-lifecycle.yml
+  href: https://artifacts.apis.io/bitdrift/lifecycle/bitdrift-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bitdrift-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitdrift/refs/heads/main/conformance/bitdrift-conformance.yml
+  href: https://artifacts.apis.io/bitdrift/conformance/bitdrift-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bitdrift-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bitdrift/refs/heads/main/cli/bitdrift-cli.yml
+  href: https://artifacts.apis.io/bitdrift/cli/bitdrift-cli.yml
   title: ''
   type: CLI
   url: cli/bitdrift-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bitdrift/refs/heads/main/packages/bitdrift-packages.yml
+  href: https://artifacts.apis.io/bitdrift/packages/bitdrift-packages.yml
   title: ''
   type: Packages
   url: packages/bitdrift-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bitdrift/refs/heads/main/packages/bitdrift-packages.yml
+  href: https://artifacts.apis.io/bitdrift/packages/bitdrift-packages.yml
   title: ''
   type: SDKs
   url: packages/bitdrift-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bitdrift/refs/heads/main/changelog/bitdrift-changelog.yml
+  href: https://artifacts.apis.io/bitdrift/changelog/bitdrift-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bitdrift-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitdrift/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bitdrift/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitdrift/refs/heads/main/security/bitdrift-domain-security.yml
+  href: https://artifacts.apis.io/bitdrift/security/bitdrift-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitdrift-domain-security.yml
 created: '2026-07-17'
 description: bitdrift builds Capture, a cost-effective dynamic mobile observability platform for iOS, Android, and React Native. A lightweight on-device SDK stores high-volume telemetry locally and uploads only what is needed under real-time control from the bitdrift control plane, avoiding lengthy mobile release cycles to change what is collected. The platform surfaces Instant Insights dashboards, Workflows for custom metrics, funnels and session-capture rules, a Session Timeline for debugging, Issues & Crashes tracking, and Alerts. It is operated through a web portal and the `bd` CLI, and exposes a public, schema-first protobuf API over gRPC, Connect, and gRPC-over-JSON at api-public.bitdrift.io. bitdrift is a developer-tools company backed by Amplify Partners.
+finops:
+- has_sources: true
+  method: derived
+  name: Bitdrift Finops
+  primary_unit: monthly active applications
+  service_category: ''
+  slug: bitdrift-finops
+  template: false
 image: https://bitdrift.io/v/7280840156499158247/images/hero-block-poster-preview.png
 layout: provider
 modified: '2026-07-18'
@@ -183,27 +198,31 @@ overview: 'bitdrift is listed with 1 API on the [APIs.io](https://apis.io/) netw
   The bitdrift catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  bitdrift''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 20
+  bitdrift''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 22 more developer resources.'
+plans:
+- name: Bitdrift Plans Pricing
+  plan_count: 2
+  slug: bitdrift-plans-pricing
+random_paper: 16
 score:
-  band: developing
-  composite: 52.8
+  band: strong
+  composite: 59.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 5.8
   facets:
-    access_clarity: 52.6
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 78.6
-    discoverability: 73.2
-    operational_transparency: 39.5
-  previous_composite: 52.7
+    discoverability: 66.1
+    operational_transparency: 50.0
+  previous_composite: 53.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -214,14 +233,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bitdrift/refs/heads/main/screenshots/bitdrift-2026-07-25T203143.png
+screenshot: https://apis.io/screenshots/bitdrift/bitdrift-2026-07-25T203143.png
 security:
 - kind: authentication
   name: Bitdrift Authentication
@@ -231,6 +250,14 @@ security:
   name: Bitdrift Domain Security
   slug: bitdrift-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: bd-cli
+  slug: bitdrift-bd-cli
+- name: bd-docs
+  slug: bitdrift-bd-docs
+- name: bd-instrumentation
+  slug: bitdrift-bd-instrumentation
 slug: bitdrift
 tags:
 - Company

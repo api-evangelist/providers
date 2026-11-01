@@ -26,19 +26,44 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 2.9
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
+- group: agent
+  href: https://artifacts.apis.io/enfusion/llms/enfusion-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/enfusion-llms.txt
+- group: other
+  href: https://artifacts.apis.io/enfusion/hosts/enfusion-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/enfusion-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/enfusion/vendors/enfusion-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/enfusion-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://cwan.com/company/newsroom/
+- group: other
+  title: ''
+  type: Leadership
+  url: https://cwan.com/company/leadership/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enfusion/refs/heads/main/security/enfusion-domain-security.yml
+  href: https://artifacts.apis.io/enfusion/security/enfusion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/enfusion-domain-security.yml
@@ -70,6 +95,18 @@ common:
   title: ''
   type: TermsOfService
   url: https://cwan.com/enfusion-platform-terms-and-conditions/
+coverage:
+  checked: '2026-10-20'
+  detail: Enfusion (now a Clearwater Analytics product at cwan.com) publishes no developer portal or spec; its knowledge base at zendesk.enfusionsystems.com returns 403, its MCP endpoint 401, and the platform sits behind the webapp.enfusionsystems.com client login.
+  evidence:
+  - status: 403
+    url: https://zendesk.enfusionsystems.com/hc/
+  - status: 401
+    url: https://zendesk.enfusionsystems.com/mcp
+  - status: 200
+    url: https://cwan.com/products/enfusion/
+  reason: customer-only-docs
+  state: gated
 created: '2026-07-17'
 description: 'Enfusion is a cloud-native, front-to-back investment management platform for hedge funds and asset managers, unifying portfolio management (PMS), order and execution management (OEMS), pre- and post-trade compliance, a unified IBOR/ABOR accounting book of record, and analytics on a single SaaS database. It serves over 1,000 clients across 30 countries, offers direct connectivity to 300+ liquidity sources via FIX, and maintains a 4M+ instrument security master. Enfusion was acquired by Clearwater Analytics (CWAN) in 2025; the enfusion.com domain now redirects to cwan.com, where Enfusion is offered as a product line. There is no public developer portal or open API specification: the platform API and knowledge base are gated behind the client web application and Zendesk help center. This profile was surfaced as an ICONIQ Capital portfolio lead and enriched from public marketing, support, and legal surfaces.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enfusion.png
@@ -81,13 +118,13 @@ network: true
 overview: 'Enfusion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investment Management, Hedge Funds, and Asset Management.
 
 
-  Enfusion''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 13
+  Enfusion''s developer surface includes engineering blog, support, and 11 more developer resources.'
+random_paper: 7
 score:
-  band: minimal
-  composite: 10.6
+  band: emerging
+  composite: 12.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -95,27 +132,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 48.2
+    discoverability: 51.8
     operational_transparency: 0.0
-  previous_composite: 10.6
+  previous_composite: 12.3
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/enfusion/refs/heads/main/screenshots/enfusion-2026-07-25T213344.png
+screenshot: https://apis.io/screenshots/enfusion/enfusion-2026-07-25T213344.png
 security:
 - kind: domain-security
   name: Enfusion Domain Security

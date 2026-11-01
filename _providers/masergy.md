@@ -12,7 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/masergy/refs/heads/main/security/masergy-domain-security.yml
+  href: https://artifacts.apis.io/masergy/security/masergy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/masergy-domain-security.yml
@@ -25,7 +25,7 @@ name: Masergy
 nav: Providers
 network: true
 overview: Masergy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, SD-WAN, SASE, and Managed Security.
-random_paper: 12
+random_paper: 16
 security:
 - kind: domain-security
   name: Masergy Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - description: Keyless, read-only JSON REST API of FDAT, the university's institutional research data repository, operated by the Digital Humanities Center on the InvenioRDM platform and served from the university's
@@ -132,37 +134,37 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/university-of-tuebingen
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-tubingen/refs/heads/main/conformance/university-of-tubingen-conformance.yml
+  href: https://artifacts.apis.io/university-of-tubingen/conformance/university-of-tubingen-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-tubingen-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-tubingen/refs/heads/main/authentication/university-of-tubingen-authentication.yml
+  href: https://artifacts.apis.io/university-of-tubingen/authentication/university-of-tubingen-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-tubingen-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-tubingen/refs/heads/main/security/university-of-tubingen-domain-security.yml
+  href: https://artifacts.apis.io/university-of-tubingen/security/university-of-tubingen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-tubingen-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-tubingen/refs/heads/main/plans/university-of-tubingen-plans-pricing.yml
+  href: https://artifacts.apis.io/university-of-tubingen/plans/university-of-tubingen-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-tubingen-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-tubingen/refs/heads/main/rate-limits/university-of-tubingen-rate-limits.yml
+  href: https://artifacts.apis.io/university-of-tubingen/rate-limits/university-of-tubingen-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-tubingen-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-tubingen/refs/heads/main/finops/university-of-tubingen-finops.yml
+  href: https://artifacts.apis.io/university-of-tubingen/finops/university-of-tubingen-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-tubingen-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-tubingen/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/university-of-tubingen/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -199,14 +201,14 @@ plans:
 - name: University Of Tubingen Plans Pricing
   plan_count: 2
   slug: university-of-tubingen-plans-pricing
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: University Of Tubingen Rate Limits
   slug: university-of-tubingen-rate-limits
 score:
   band: thin
-  composite: 31.4
+  composite: 31.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 61.0
@@ -214,14 +216,14 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 18.0
     developer_ergonomics: 35.7
     discoverability: 71.4
-    operational_transparency: 23.7
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -230,7 +232,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 35.7
+  previous_composite: 31.7
   provenance:
     conformance: first-party
   regulatory:
@@ -239,14 +241,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-tubingen/refs/heads/main/screenshots/university-of-tubingen-2026-06-20T200240.png
+screenshot: https://apis.io/screenshots/university-of-tubingen/university-of-tubingen-2026-06-20T200240.png
 security:
 - kind: authentication
   name: University Of Tubingen Authentication

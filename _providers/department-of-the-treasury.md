@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.6
-  scored_at: '2026-10-17'
+  score: 17.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 10
   slug: department-of-the-treasury-agentic-access
   summary_line: 10 operations
-api_count: 2
+api_count: 3
 apis:
 - description: Public reference data on marketable Treasury securities (auctions, results, security details) published via TreasuryDirect.
   name: TreasuryDirect Securities API
@@ -92,11 +94,33 @@ apis:
   description: Daily and monthly Treasury statements
   name: Department of the Treasury Operations API
   slug: department-of-the-treasury-treasury-operations-api
-artifact_total: 34
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Entity Management Controller
+  name: Department of the Treasury Entity Management Controller API
+  slug: department-of-the-treasury-entity-management-controller-api
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Entity Management Controller V 2
+  name: Department of the Treasury Entity Management Controller V 2 API
+  slug: department-of-the-treasury-entity-management-controller-v-2-api
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Entity Management Controller V 3
+  name: Department of the Treasury Entity Management Controller V 3 API
+  slug: department-of-the-treasury-entity-management-controller-v-3-api
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Entity Management Controller V 4
+  name: Department of the Treasury Entity Management Controller V 4 API
+  slug: department-of-the-treasury-entity-management-controller-v-4-api
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Operations pertaining to Entity Management Data
+  name: Department of the Treasury Entity Management Extract Controller API
+  slug: department-of-the-treasury-entity-management-extract-controller-api
+artifact_total: 38
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Treasury Fiscal Data Auctions API
   slug: open-department-of-the-treasury-auctions-api
@@ -129,17 +153,17 @@ collections:
   slug: open-ofac-sdn-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/plans/department-of-the-treasury-plans-pricing.yml
+  href: https://artifacts.apis.io/department-of-the-treasury/plans/department-of-the-treasury-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/department-of-the-treasury-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/rate-limits/department-of-the-treasury-rate-limits.yml
+  href: https://artifacts.apis.io/department-of-the-treasury/rate-limits/department-of-the-treasury-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/department-of-the-treasury-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/finops/department-of-the-treasury-finops.yml
+  href: https://artifacts.apis.io/department-of-the-treasury/finops/department-of-the-treasury-finops.yml
   title: ''
   type: FinOps
   url: finops/department-of-the-treasury-finops.yml
@@ -148,17 +172,17 @@ common:
   type: Website
   url: https://www.treasury.gov/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/capabilities/department-of-the-treasury-capability-edges.yml
+  href: https://artifacts.apis.io/department-of-the-treasury/capabilities/department-of-the-treasury-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/department-of-the-treasury-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/agentic-access/department-of-the-treasury-agentic-access.yml
+  href: https://artifacts.apis.io/department-of-the-treasury/agentic-access/department-of-the-treasury-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/department-of-the-treasury-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/security/department-of-the-treasury-domain-security.yml
+  href: https://artifacts.apis.io/department-of-the-treasury/security/department-of-the-treasury-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/department-of-the-treasury-domain-security.yml
@@ -199,7 +223,7 @@ finops:
 - has_sources: true
   method: generated
   name: Department Of The Treasury Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: Federal Government / Public Open Data
   slug: department-of-the-treasury-finops
   template: false
@@ -221,7 +245,7 @@ modified: '2026-09-16'
 name: Department of the Treasury
 nav: Providers
 network: true
-overview: 'Department of the Treasury publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auctions API, Debt API, Exchange Rates API, and 8 more. Tagged areas include Federal Government, Finance, Debt, and Sanctions.
+overview: 'Department of the Treasury publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auctions API, Debt API, Exchange Rates API, and 13 more. Tagged areas include Federal Government, Finance, Debt, and Sanctions.
 
 
   The Department of the Treasury catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -262,49 +286,49 @@ rules:
   slug: treasury-rules
 score:
   band: thin
-  composite: 27.3
+  composite: 30.2
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 49.3
+    artifact_dirs: 17
+    catalog_earned: 55.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.8
+    catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.7
+  delta: 2.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 13.2
     contract_governance: 9.8
-    contract_quality: 54.3
+    contract_quality: 56.0
     developer_ergonomics: 28.6
-    discoverability: 48.2
-    operational_transparency: 10.5
+    discoverability: 53.6
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 29.0
+  previous_composite: 28.2
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 13
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/screenshots/department-of-the-treasury-2026-06-20T175925.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/department-of-the-treasury/department-of-the-treasury-2026-06-20T175925.png
 security:
 - kind: domain-security
   name: Department Of The Treasury Domain Security

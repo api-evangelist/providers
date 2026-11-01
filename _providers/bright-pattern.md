@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 1
@@ -114,11 +116,8 @@ apis:
   description: 'With the https://:tenant_url/configapi/v2/user endpoint you can: Create new users and define most of their attributes Update existing users Check and clear user lockout state Manage agents'' skills Del'
   name: Bright Pattern Users API
   slug: bright-pattern-users-api
-artifact_total: 33
+artifact_total: 39
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bright Pattern Authentication API
   slug: open-bright-pattern-authentication-api
@@ -162,33 +161,38 @@ collections:
   name: Bright Pattern Users API
   slug: open-bright-pattern-users-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/bright-pattern/plans/bright-pattern-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bright-pattern-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/capabilities/bright-pattern-capability-edges.yml
+  href: https://artifacts.apis.io/bright-pattern/capabilities/bright-pattern-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bright-pattern-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/mcp/bright-pattern-mcp.yml
+  href: https://artifacts.apis.io/bright-pattern/mcp/bright-pattern-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bright-pattern-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/agentic-access/bright-pattern-agentic-access.yml
+  href: https://artifacts.apis.io/bright-pattern/agentic-access/bright-pattern-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bright-pattern-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/security/bright-pattern-trust-center.yml
+  href: https://artifacts.apis.io/bright-pattern/security/bright-pattern-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bright-pattern-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/security/bright-pattern-domain-security.yml
+  href: https://artifacts.apis.io/bright-pattern/security/bright-pattern-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bright-pattern-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/authentication/bright-pattern-authentication.yml
+  href: https://artifacts.apis.io/bright-pattern/authentication/bright-pattern-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bright-pattern-authentication.yml
@@ -213,7 +217,7 @@ common:
   type: GettingStarted
   url: https://help.brightpattern.com/latest:Tutorials-for-admins/API/Access
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/postman/bright-pattern-postman.yml
+  href: https://artifacts.apis.io/bright-pattern/postman/bright-pattern-postman.yml
   title: ''
   type: Postman
   url: postman/bright-pattern-postman.yml
@@ -258,77 +262,85 @@ common:
   type: ChangeLog
   url: https://help.brightpattern.com/WhatsNew
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/openapi/_original/bright-pattern-list-management-v3-2-openapi.yml
+  href: https://artifacts.apis.io/bright-pattern/openapi/_original/bright-pattern-list-management-v3-2-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/bright-pattern-list-management-v3-2-openapi.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/packages/bright-pattern-packages.yml
+  href: https://artifacts.apis.io/bright-pattern/packages/bright-pattern-packages.yml
   title: ''
   type: Packages
   url: packages/bright-pattern-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/packages/bright-pattern-packages.yml
+  href: https://artifacts.apis.io/bright-pattern/packages/bright-pattern-packages.yml
   title: ''
   type: SDKs
   url: packages/bright-pattern-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/well-known/bright-pattern-well-known.yml
+  href: https://artifacts.apis.io/bright-pattern/well-known/bright-pattern-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bright-pattern-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/llms/bright-pattern-llms.txt
+  href: https://artifacts.apis.io/bright-pattern/llms/bright-pattern-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bright-pattern-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/conformance/bright-pattern-conformance.yml
+  href: https://artifacts.apis.io/bright-pattern/conformance/bright-pattern-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bright-pattern-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/errors/bright-pattern-problem-types.yml
+  href: https://artifacts.apis.io/bright-pattern/errors/bright-pattern-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bright-pattern-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/lifecycle/bright-pattern-lifecycle.yml
+  href: https://artifacts.apis.io/bright-pattern/lifecycle/bright-pattern-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bright-pattern-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/conventions/bright-pattern-conventions.yml
+  href: https://artifacts.apis.io/bright-pattern/conventions/bright-pattern-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bright-pattern-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/conventions/bright-pattern-conventions.yml
+  href: https://artifacts.apis.io/bright-pattern/conventions/bright-pattern-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/bright-pattern-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/components/bright-pattern-components.yml
+  href: https://artifacts.apis.io/bright-pattern/components/bright-pattern-components.yml
   title: ''
   type: Components
   url: components/bright-pattern-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/data-model/bright-pattern-data-model.yml
+  href: https://artifacts.apis.io/bright-pattern/data-model/bright-pattern-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bright-pattern-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/overlays/bright-pattern-list-management-v3-2-overlay.yaml
+  href: https://artifacts.apis.io/bright-pattern/overlays/bright-pattern-list-management-v3-2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bright-pattern-list-management-v3-2-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bright-pattern/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-08'
 description: 'Bright Pattern is a cloud contact center (CCaaS) software company whose omnichannel platform routes voice, IVR, email, chat, SMS/MMS, video and social messenger conversations to agents, with built-in quality management, workforce management, outbound dialing and AI/bot assistance. The platform is multi-tenant: every customer contact center runs on its own tenant hostname, and Bright Pattern exposes nine public REST API families against that tenant — Configuration, SCIM-compliant user provisioning, List Management (v2, v3.0, v3.2), Task Routing, SMS/MMS, Interaction Content (call recordings and metadata), Real-Time Statistics, and the Mobile/Web Messaging APIs (v1 and v2) that back the iOS and Android Mobile SDKs. The public API reference is published as Postman documenter collections linked from the Bright Pattern documentation wiki.'
+finops:
+- has_sources: true
+  method: derived
+  name: Bright Pattern Finops
+  primary_unit: ''
+  service_category: ''
+  slug: bright-pattern-finops
+  template: true
 image: https://www.brightpattern.com/wp-content/uploads/2025/02/Brightpattern-Homepage-Logo.png
 layout: provider
 modified: '2026-08-08'
@@ -338,27 +350,31 @@ network: true
 overview: 'Bright Pattern publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Calling List API, Campaigns API, and 11 more. Tagged areas include Company, Contact Center, CCaaS, Customer Experience, and Omnichannel.
 
 
-  Bright Pattern''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 21
+  Bright Pattern''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
+plans:
+- name: Bright Pattern Plans Pricing
+  plan_count: 4
+  slug: bright-pattern-plans-pricing
+random_paper: 11
 score:
-  band: developing
-  composite: 52.2
+  band: strong
+  composite: 56.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 49.6
+    contract_quality: 45.3
     developer_ergonomics: 70.8
-    discoverability: 78.6
-    operational_transparency: 18.4
-  previous_composite: 52.2
+    discoverability: 71.4
+    operational_transparency: 21.1
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -381,13 +397,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/screenshots/bright-pattern-2026-08-17T080703.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bright-pattern/bright-pattern-2026-08-17T080703.png
 security:
 - kind: authentication
   name: Bright Pattern Authentication
@@ -401,6 +418,18 @@ security:
   name: Bright Pattern Trust Center
   slug: bright-pattern-trust-center
   summary_line: PCI DSS 3.2, SOC 2, HIPAA, GDPR, TCPA
+skill_count: 5
+skills:
+- name: Build a customer-facing web or mobile chat against Bright Pattern
+  slug: bright-pattern-embed-web-chat
+- name: Export call recordings and interaction metadata for compliance
+  slug: bright-pattern-export-recordings
+- name: Provision Bright Pattern users over SCIM 2.0
+  slug: bright-pattern-provision-users-scim
+- name: Queue a CRM task into Bright Pattern and track it to completion
+  slug: bright-pattern-queue-crm-task
+- name: Load a calling list and run an outbound campaign
+  slug: bright-pattern-run-outbound-campaign
 slug: bright-pattern
 tags:
 - Company

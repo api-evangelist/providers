@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: HeadSpin's v0 REST API for authentication, real-device management, capture sessions, app (APK/IPA) instrumentation, biometrics, and audio/video capture. Authenticates with a HeadSpin API token as an H
@@ -87,52 +89,52 @@ common:
   type: GitHubOrganization
   url: https://github.com/headspinio
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/headspin/refs/heads/main/authentication/headspin-authentication.yml
+  href: https://artifacts.apis.io/headspin/authentication/headspin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/headspin-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/headspin/refs/heads/main/conventions/headspin-conventions.yml
+  href: https://artifacts.apis.io/headspin/conventions/headspin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/headspin-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/headspin/refs/heads/main/conformance/headspin-conformance.yml
+  href: https://artifacts.apis.io/headspin/conformance/headspin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/headspin-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/headspin/refs/heads/main/lifecycle/headspin-lifecycle.yml
+  href: https://artifacts.apis.io/headspin/lifecycle/headspin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/headspin-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/headspin/refs/heads/main/packages/headspin-packages.yml
+  href: https://artifacts.apis.io/headspin/packages/headspin-packages.yml
   title: ''
   type: Packages
   url: packages/headspin-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/headspin/refs/heads/main/packages/headspin-packages.yml
+  href: https://artifacts.apis.io/headspin/packages/headspin-packages.yml
   title: ''
   type: SDKs
   url: packages/headspin-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/headspin/refs/heads/main/cli/headspin-cli.yml
+  href: https://artifacts.apis.io/headspin/cli/headspin-cli.yml
   title: ''
   type: CLI
   url: cli/headspin-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/headspin/refs/heads/main/mcp/headspin-mcp.yml
+  href: https://artifacts.apis.io/headspin/mcp/headspin-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/headspin-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/headspin/refs/heads/main/llms/headspin-llms.txt
+  href: https://artifacts.apis.io/headspin/llms/headspin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/headspin-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/headspin/refs/heads/main/security/headspin-domain-security.yml
+  href: https://artifacts.apis.io/headspin/security/headspin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/headspin-domain-security.yml
@@ -148,26 +150,26 @@ overview: 'HeadSpin is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   HeadSpin''s developer surface includes documentation, API reference, engineering blog, pricing, authentication, CLI, and 15 more developer resources.'
-random_paper: 8
+random_paper: 4
 score:
-  band: emerging
-  composite: 23.0
+  band: thin
+  composite: 29.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 28.6
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 22.9
+    developer_ergonomics: 54.8
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 29.1
   provenance:
     conformance: derived
     mcp: derived
@@ -177,14 +179,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/headspin/refs/heads/main/screenshots/headspin-2026-07-25T220825.png
+screenshot: https://apis.io/screenshots/headspin/headspin-2026-07-25T220825.png
 security:
 - kind: authentication
   name: Headspin Authentication

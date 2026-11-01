@@ -1,0 +1,205 @@
+---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 17.6
+  scored_at: '2026-10-31'
+api_count: 1
+apis:
+- baseURL: https://api.peptidelibrary.app
+  baseurl_source: declared
+  description: 'peptidelibrary-app API as documented publicly: 21 operations. Contract generated from the documentation by API Evangelist (2026-10-20); not the provider''s own document.'
+  name: peptidelibrary-app API
+  slug: peptidelibrary-app-api
+artifact_total: 3
+common:
+- group: design
+  href: https://artifacts.apis.io/peptidelibrary-app/rules/peptidelibrary-app-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/peptidelibrary-app-rules.yml
+- group: design
+  href: https://artifacts.apis.io/peptidelibrary-app/vocabulary/peptidelibrary-app-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/peptidelibrary-app-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/peptidelibrary-app/conformance/peptidelibrary-app-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/peptidelibrary-app-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/peptidelibrary-app/llms/peptidelibrary-app-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/peptidelibrary-app-llms.txt
+- group: agent
+  href: https://artifacts.apis.io/peptidelibrary-app/well-known/peptidelibrary-app-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/peptidelibrary-app-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/peptidelibrary-app/hosts/peptidelibrary-app-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/peptidelibrary-app-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/peptidelibrary-app/vendors/peptidelibrary-app-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/peptidelibrary-app-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://peptidelibrary.app/terms
+- group: operate
+  title: ''
+  type: Support
+  url: https://peptidelibrary.app/support
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://peptidelibrary.app/privacy
+- group: start
+  title: ''
+  type: Login
+  url: https://peptidelibrary.app/sign-in
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://peptidelibrary.app/developers
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://peptidelibrary.app/developers/changelog
+- group: company
+  title: ''
+  type: Blog
+  url: https://peptidelibrary.app/blog
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://peptidelibrary.app/developers/docs
+- group: auth
+  href: https://artifacts.apis.io/peptidelibrary-app/security/peptidelibrary-app-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/peptidelibrary-app-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://peptidelibrary.app/
+coverage:
+  detail: the company serves an API surface but requires credentials before any description of it can be read
+  evidence:
+  - status: null
+    url: https://peptidelibrary.app/mcp
+  - status: null
+    url: https://api.peptidelibrary.app/openapi.json
+  - status: 403
+    url: https://api.peptidelibrary.app/mcp
+  - status: 200
+    url: https://peptidelibrary.app/
+  reason: partner-login
+  state: gated
+created: '2026-10-20'
+description: Peptide Library is an independent platform that provides searchable peptide profiles, vendor pricing comparison, concentration calculators, and research tracking tools for peptide research. It does not sell peptides and is intended for research and educational use only. The service offers free browser access and optional paid accounts for cloud sync and inventory management.
+image: https://peptidelibrary.app/opengraph-image
+layout: provider
+modified: '2026-10-20'
+name: peptidelibrary-app
+nav: Providers
+network: true
+overview: 'peptidelibrary-app is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Peptide Research, Vendor Comparison, Research Tools, and Inventory Management.
+
+
+  The peptidelibrary-app catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  peptidelibrary-app''s developer surface includes support, changelog, engineering blog, API reference, and 13 more developer resources.'
+random_paper: 22
+rules:
+- authorship: generated
+  effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: peptidelibrary-app API Rules
+  rule_count: 10
+  severity_counts:
+    error: 9
+    hint: 0
+    info: 1
+    warn: 0
+  slug: peptidelibrary-app-rules
+score:
+  band: emerging
+  composite: 24.9
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 34.2
+    contract_governance: 19.7
+    contract_quality: 10.7
+    developer_ergonomics: 23.8
+    discoverability: 57.1
+    operational_transparency: 15.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 12
+      marker_coverage: 100.0
+      total: 12
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Peptidelibrary App Domain Security
+  slug: peptidelibrary-app-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: peptidelibrary-app
+tags:
+- Peptide Research
+- Vendor Comparison
+- Research Tools
+- Inventory Management
+website: https://peptidelibrary.app/
+---

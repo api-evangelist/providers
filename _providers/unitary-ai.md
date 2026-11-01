@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 25.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.unitary.ai/v1
@@ -62,15 +64,12 @@ apis:
   description: The Policy Classification API from Unitary AI — 6 operation(s) for policy classification.
   name: Unitary AI Policy Classification API
   slug: unitary-ai-policy-classification-api
-artifact_total: 15
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Unitary Ai Webhooks
   slug: unitary-ai-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Unitary content classification API Authentication API
   slug: open-unitary-ai-api-authentication-api
@@ -88,7 +87,7 @@ collections:
   slug: open-unitary-ai-policy-classification-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/overlays/unitary-ai-content-classification-overlay.yaml
+  href: https://artifacts.apis.io/unitary-ai/overlays/unitary-ai-content-classification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/unitary-ai-content-classification-overlay.yaml
@@ -109,7 +108,7 @@ common:
   type: APIReference
   url: https://docs.unitary.ai/api-references/policy-classification
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/authentication/unitary-ai-authentication.yml
+  href: https://artifacts.apis.io/unitary-ai/authentication/unitary-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unitary-ai-authentication.yml
@@ -130,67 +129,67 @@ common:
   type: PrivacyPolicy
   url: https://www.unitary.ai/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/security/unitary-ai-trust-center.yml
+  href: https://artifacts.apis.io/unitary-ai/security/unitary-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/unitary-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/security/unitary-ai-domain-security.yml
+  href: https://artifacts.apis.io/unitary-ai/security/unitary-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unitary-ai-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/packages/unitary-ai-packages.yml
+  href: https://artifacts.apis.io/unitary-ai/packages/unitary-ai-packages.yml
   title: ''
   type: Packages
   url: packages/unitary-ai-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/well-known/unitary-ai-well-known.yml
+  href: https://artifacts.apis.io/unitary-ai/well-known/unitary-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/unitary-ai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/mcp/unitary-ai-mcp.yml
+  href: https://artifacts.apis.io/unitary-ai/mcp/unitary-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/unitary-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/llms/unitary-ai-docs-llms.txt
+  href: https://artifacts.apis.io/unitary-ai/llms/unitary-ai-docs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unitary-ai-docs-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/conformance/unitary-ai-conformance.yml
+  href: https://artifacts.apis.io/unitary-ai/conformance/unitary-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unitary-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/errors/unitary-ai-problem-types.yml
+  href: https://artifacts.apis.io/unitary-ai/errors/unitary-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/unitary-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/lifecycle/unitary-ai-lifecycle.yml
+  href: https://artifacts.apis.io/unitary-ai/lifecycle/unitary-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unitary-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/conventions/unitary-ai-conventions.yml
+  href: https://artifacts.apis.io/unitary-ai/conventions/unitary-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unitary-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/asyncapi/unitary-ai-webhooks.yml
+  href: https://artifacts.apis.io/unitary-ai/asyncapi/unitary-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/unitary-ai-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/data-model/unitary-ai-data-model.yml
+  href: https://artifacts.apis.io/unitary-ai/data-model/unitary-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unitary-ai-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/unitary-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -209,10 +208,10 @@ overview: 'Unitary AI publishes 5 API contracts indexed on the [APIs.io](https:/
 
 
   Unitary AI''s developer surface includes documentation, getting-started guide, API reference, authentication, engineering blog, support, and 17 more developer resources.'
-random_paper: 15
+random_paper: 19
 score:
   band: thin
-  composite: 33.2
+  composite: 36.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -220,14 +219,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 4.5
     contract_quality: 51.2
-    developer_ergonomics: 20.8
-    discoverability: 73.2
-    operational_transparency: 10.5
+    developer_ergonomics: 49.4
+    discoverability: 66.1
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -236,7 +235,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 33.1
+  previous_composite: 36.5
   provenance:
     conformance: derived
     contracts:
@@ -256,13 +255,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/unitary-ai/refs/heads/main/screenshots/unitary-ai-2026-09-02T164919.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/unitary-ai/unitary-ai-2026-09-02T164919.png
 security:
 - kind: authentication
   name: Unitary Ai Authentication
@@ -276,6 +276,14 @@ security:
   name: Unitary Ai Trust Center
   slug: unitary-ai-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Classify a video against content policy
+  slug: unitary-ai-classify-video-policy
+- name: Detect toxic language in text
+  slug: unitary-ai-detoxify-text
+- name: Moderate content with a Virtual Trust and Safety Agent
+  slug: unitary-ai-virtual-moderator
 slug: unitary-ai
 tags:
 - Company

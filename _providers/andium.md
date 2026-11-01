@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,16 +37,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol shopping service on Andium's merchandise storefront, exposed as a Model Context Protocol endpoint over JSON-RPC 2.0. Thirteen tools cover catalog search and lookup, pro
   name: Andium Store UCP / MCP
   slug: store-ucp
-artifact_total: 5
+artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/security/andium-domain-security.yml
+  href: https://artifacts.apis.io/andium/security/andium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/andium-domain-security.yml
@@ -85,67 +87,67 @@ common:
   type: Careers
   url: https://ats.rippling.com/andium-careers/jobs
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/mcp/andium-mcp.yml
+  href: https://artifacts.apis.io/andium/mcp/andium-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/andium-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/well-known/andium-well-known.yml
+  href: https://artifacts.apis.io/andium/well-known/andium-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/andium-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/llms/andium-llms.txt
+  href: https://artifacts.apis.io/andium/llms/andium-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/andium-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/andium/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/authentication/andium-authentication.yml
+  href: https://artifacts.apis.io/andium/authentication/andium-authentication.yml
   title: ''
   type: Authentication
   url: authentication/andium-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/scopes/andium-scopes.yml
+  href: https://artifacts.apis.io/andium/scopes/andium-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/andium-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/conventions/andium-conventions.yml
+  href: https://artifacts.apis.io/andium/conventions/andium-conventions.yml
   title: ''
   type: Conventions
   url: conventions/andium-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/conventions/andium-conventions.yml
+  href: https://artifacts.apis.io/andium/conventions/andium-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/andium-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/errors/andium-problem-types.yml
+  href: https://artifacts.apis.io/andium/errors/andium-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/andium-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/lifecycle/andium-lifecycle.yml
+  href: https://artifacts.apis.io/andium/lifecycle/andium-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/andium-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/conformance/andium-conformance.yml
+  href: https://artifacts.apis.io/andium/conformance/andium-conformance.yml
   title: ''
   type: Conformance
   url: conformance/andium-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/data-model/andium-data-model.yml
+  href: https://artifacts.apis.io/andium/data-model/andium-data-model.yml
   title: ''
   type: DataModel
   url: data-model/andium-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/packages/andium-packages.yml
+  href: https://artifacts.apis.io/andium/packages/andium-packages.yml
   title: ''
   type: Packages
   url: packages/andium-packages.yml
@@ -169,7 +171,7 @@ overview: 'Andium is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Andium''s developer surface includes engineering blog, support, authentication, and 21 more developer resources.'
-random_paper: 0
+random_paper: 14
 scopes:
 - name: Andium Scopes
   scope_count: 4
@@ -177,9 +179,9 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 24.3
+  composite: 23.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -191,9 +193,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 75.8
-    operational_transparency: 2.6
-  previous_composite: 24.3
+    discoverability: 66.7
+    operational_transparency: 5.3
+  previous_composite: 23.8
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -204,14 +206,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/screenshots/andium-2026-08-07T161400.png
+screenshot: https://apis.io/screenshots/andium/andium-2026-08-07T161400.png
 security:
 - kind: authentication
   name: Andium Authentication
@@ -221,6 +223,10 @@ security:
   name: Andium Domain Security
   slug: andium-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Buy from the Andium Store
+  slug: andium-store-buy-flow
 slug: andium
 tags:
 - Company

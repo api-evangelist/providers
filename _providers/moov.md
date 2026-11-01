@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 63.1
-  scored_at: '2026-10-17'
+  score: 56.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 8
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 189
   slug: moov-agentic-access
   summary_line: 189 operations · 82 acting · 8 human-in-the-loop
-api_count: 4
+api_count: 3
 apis:
 - description: 'Moov.js is a client-side JavaScript SDK designed to streamline interactions with the Moov API while keeping personally identifiable information out of developer infrastructure. All PII is transmitted '
   name: Moov.js
@@ -249,15 +251,12 @@ apis:
   description: The Webhooks API from Moov — 5 operation(s) for webhooks.
   name: Moov Webhooks API
   slug: moov-webhooks-api
-artifact_total: 161
+artifact_total: 162
 asyncapis:
 - description: Moov delivers real-time event notifications to your application via webhooks when state changes occur on your platform. When an event occurs, Moov sends an HTTP POST request with a JSON payload to you
   name: Moov Webhooks
   slug: moov-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Moov Accounts API
   slug: open-moov-accounts-api
@@ -314,57 +313,57 @@ collections:
   slug: open-moov-wallets-api
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/rules/moov-rules.yml
+  href: https://artifacts.apis.io/moov/rules/moov-rules.yml
   title: ''
   type: Spectral
   url: rules/moov-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/rules/moov-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/moov/rules/moov-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/moov-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/rules/moov-asyncapi-spectral-rules.yml
+  href: https://artifacts.apis.io/moov/rules/moov-asyncapi-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/moov-asyncapi-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/vocabulary/moov-vocabulary.yml
+  href: https://artifacts.apis.io/moov/vocabulary/moov-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/moov-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/moov/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/asyncapi/moov-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/moov/asyncapi/moov-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/moov-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/data-model/moov-data-model.yml
+  href: https://artifacts.apis.io/moov/data-model/moov-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moov-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/changelog/moov-changelog.yml
+  href: https://artifacts.apis.io/moov/changelog/moov-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/moov-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/conventions/moov-conventions.yml
+  href: https://artifacts.apis.io/moov/conventions/moov-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/moov-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/conventions/moov-conventions.yml
+  href: https://artifacts.apis.io/moov/conventions/moov-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moov-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/sandbox/moov-sandbox.yml
+  href: https://artifacts.apis.io/moov/sandbox/moov-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/moov-sandbox.yml
@@ -373,72 +372,72 @@ common:
   type: Compliance
   url: https://trust.moov.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/scopes/moov-scopes.yml
+  href: https://artifacts.apis.io/moov/scopes/moov-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/moov-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/lifecycle/moov-lifecycle.yml
+  href: https://artifacts.apis.io/moov/lifecycle/moov-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moov-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/errors/moov-decline-codes.yml
+  href: https://artifacts.apis.io/moov/errors/moov-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/moov-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/errors/moov-problem-types.yml
+  href: https://artifacts.apis.io/moov/errors/moov-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/moov-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/conformance/moov-conformance.yml
+  href: https://artifacts.apis.io/moov/conformance/moov-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moov-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/overlays/moov-openapi-overlay.yaml
+  href: https://artifacts.apis.io/moov/overlays/moov-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moov-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/llms/moov-llms.txt
+  href: https://artifacts.apis.io/moov/llms/moov-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moov-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/mcp/moov-mcp.yml
+  href: https://artifacts.apis.io/moov/mcp/moov-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/moov-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/well-known/moov-well-known.yml
+  href: https://artifacts.apis.io/moov/well-known/moov-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/moov-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/hosts/moov-hosts.yml
+  href: https://artifacts.apis.io/moov/hosts/moov-hosts.yml
   title: ''
   type: Hosts
   url: hosts/moov-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/integrations/moov-integration-edges.yml
+  href: https://artifacts.apis.io/moov/integrations/moov-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/moov-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/vendors/moov-vendors.yml
+  href: https://artifacts.apis.io/moov/vendors/moov-vendors.yml
   title: ''
   type: Vendors
   url: vendors/moov-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/packages/moov-packages.yml
+  href: https://artifacts.apis.io/moov/packages/moov-packages.yml
   title: ''
   type: SDKs
   url: packages/moov-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/packages/moov-packages.yml
+  href: https://artifacts.apis.io/moov/packages/moov-packages.yml
   title: ''
   type: Packages
   url: packages/moov-packages.yml
@@ -451,7 +450,7 @@ common:
   type: Pricing
   url: https://moov.io/pricing/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/capabilities/moov-capability-edges.yml
+  href: https://artifacts.apis.io/moov/capabilities/moov-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/moov-capability-edges.yml
@@ -488,22 +487,22 @@ common:
   type: GettingStarted
   url: https://docs.moov.io/guides/quick-start
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/agentic-access/moov-agentic-access.yml
+  href: https://artifacts.apis.io/moov/agentic-access/moov-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/moov-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/security/moov-trust-center.yml
+  href: https://artifacts.apis.io/moov/security/moov-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/moov-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/security/moov-domain-security.yml
+  href: https://artifacts.apis.io/moov/security/moov-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moov-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/authentication/moov-authentication.yml
+  href: https://artifacts.apis.io/moov/authentication/moov-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moov-authentication.yml
@@ -540,17 +539,17 @@ common:
   type: LlmsText
   url: https://docs.moov.io/llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/plans/moov-plans-pricing.yml
+  href: https://artifacts.apis.io/moov/plans/moov-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/moov-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/rate-limits/moov-rate-limits.yml
+  href: https://artifacts.apis.io/moov/rate-limits/moov-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/moov-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/finops/moov-finops.yml
+  href: https://artifacts.apis.io/moov/finops/moov-finops.yml
   title: ''
   type: FinOps
   url: finops/moov-finops.yml
@@ -575,10 +574,10 @@ features:
 - Custom pricing for high-volume
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Moov Finops
-  primary_unit: ''
-  service_category: Embedded Finance
+  primary_unit: transaction
+  service_category: ''
   slug: moov-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moov.png
@@ -819,7 +818,7 @@ plans:
 - name: Moov Price Estimates
   plan_count: 0
   slug: moov-price-estimates
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Moov Rate Limits
@@ -867,23 +866,23 @@ scopes:
   summary_line: 27 scopes
 score:
   band: exemplar
-  composite: 74.4
+  composite: 74.2
   coverage:
     artifact_dirs: 36
-    catalog_earned: 77.8
+    catalog_earned: 80.8
     catalog_earned_first_party: 20.0
-    catalog_gap: 37.3
+    catalog_gap: 34.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.8
+  delta: 1.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 22.0
-    contract_quality: 74.9
+    contract_quality: 72.7
     developer_ergonomics: 73.2
-    discoverability: 73.3
-    operational_transparency: 68.4
-  previous_composite: 65.6
+    discoverability: 70.0
+    operational_transparency: 71.1
+  previous_composite: 72.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -900,13 +899,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/screenshots/moov-2026-08-07T184251.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/moov/moov-2026-08-07T184251.png
 security:
 - kind: authentication
   name: Moov Authentication
@@ -920,6 +920,12 @@ security:
   name: Moov Trust Center
   slug: moov-trust-center
   summary_line: SOC 2
+skill_count: 2
+skills:
+- name: moov-move-money
+  slug: moov-move-money
+- name: moov-onboard-and-link-bank
+  slug: moov-onboard-and-link-bank
 slug: moov
 tags:
 - Banking

@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,11 +65,8 @@ apis:
   description: Retrieve digital attestations and provenance information for Python package distribution files hosted on PyPI.
   name: PyPI Provenance API
   slug: pypi-provenance-api
-artifact_total: 24
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PyPI Index Downloads API
   slug: open-pypi-downloads-api
@@ -94,37 +93,37 @@ collections:
   slug: open-pypi-upload-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/plans/pypi-plans-pricing.yml
+  href: https://artifacts.apis.io/pypi/plans/pypi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pypi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/rate-limits/pypi-rate-limits.yml
+  href: https://artifacts.apis.io/pypi/rate-limits/pypi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pypi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/finops/pypi-finops.yml
+  href: https://artifacts.apis.io/pypi/finops/pypi-finops.yml
   title: ''
   type: FinOps
   url: finops/pypi-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/agentic-access/pypi-agentic-access.yml
+  href: https://artifacts.apis.io/pypi/agentic-access/pypi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pypi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/security/pypi-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pypi/security/pypi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pypi-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/security/pypi-domain-security.yml
+  href: https://artifacts.apis.io/pypi/security/pypi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pypi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/authentication/pypi-authentication.yml
+  href: https://artifacts.apis.io/pypi/authentication/pypi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pypi-authentication.yml
@@ -203,7 +202,7 @@ plans:
 - name: Pypi Plans Pricing
   plan_count: 1
   slug: pypi-plans-pricing
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Pypi Rate Limits
@@ -221,24 +220,24 @@ rules:
     warn: 5
   slug: pypi-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 35.1
+  band: developing
+  composite: 40.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 47.3
     catalog_earned_first_party: 0.0
     catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
-    access_clarity: 22.4
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 51.2
     developer_ergonomics: 38.1
     discoverability: 62.5
-    operational_transparency: 7.9
-  previous_composite: 36.2
+    operational_transparency: 21.1
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -251,15 +250,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 30.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/screenshots/pypi-2026-06-20T192329.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pypi/pypi-2026-06-20T192329.png
 security:
 - kind: authentication
   name: Pypi Authentication

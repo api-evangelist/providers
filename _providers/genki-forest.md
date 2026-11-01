@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://open.yuanqisenlin.com/
@@ -70,52 +72,52 @@ common:
   type: GitHubOrganization
   url: https://github.com/chiforest
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/genki-forest/refs/heads/main/llms/genki-forest-llms.txt
+  href: https://artifacts.apis.io/genki-forest/llms/genki-forest-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/genki-forest-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/genki-forest/refs/heads/main/authentication/genki-forest-authentication.yml
+  href: https://artifacts.apis.io/genki-forest/authentication/genki-forest-authentication.yml
   title: ''
   type: Authentication
   url: authentication/genki-forest-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genki-forest/refs/heads/main/errors/genki-forest-problem-types.yml
+  href: https://artifacts.apis.io/genki-forest/errors/genki-forest-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/genki-forest-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genki-forest/refs/heads/main/conventions/genki-forest-conventions.yml
+  href: https://artifacts.apis.io/genki-forest/conventions/genki-forest-conventions.yml
   title: ''
   type: Conventions
   url: conventions/genki-forest-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genki-forest/refs/heads/main/conformance/genki-forest-conformance.yml
+  href: https://artifacts.apis.io/genki-forest/conformance/genki-forest-conformance.yml
   title: ''
   type: Conformance
   url: conformance/genki-forest-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genki-forest/refs/heads/main/lifecycle/genki-forest-lifecycle.yml
+  href: https://artifacts.apis.io/genki-forest/lifecycle/genki-forest-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/genki-forest-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/genki-forest/refs/heads/main/plans/genki-forest-plans-pricing.yml
+  href: https://artifacts.apis.io/genki-forest/plans/genki-forest-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/genki-forest-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/genki-forest/refs/heads/main/rate-limits/genki-forest-rate-limits.yml
+  href: https://artifacts.apis.io/genki-forest/rate-limits/genki-forest-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/genki-forest-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/genki-forest/refs/heads/main/security/genki-forest-domain-security.yml
+  href: https://artifacts.apis.io/genki-forest/security/genki-forest-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/genki-forest-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/genki-forest/refs/heads/main/overlays/genki-forest-open-platform-overlay.yaml
+  href: https://artifacts.apis.io/genki-forest/overlays/genki-forest-open-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/genki-forest-open-platform-overlay.yaml
@@ -127,7 +129,7 @@ modified: '2026-08-21'
 name: Genki Forest
 nav: Providers
 network: true
-overview: 'Genki Forest is listed with 1 API on the [APIs.io](https://apis.io/) network: Open Platform — Distributor & Receivables Management. Tagged areas include Company, Beverages, Food and Beverage, Consumer Packaged Goods, and Manufacturing.
+overview: 'Genki Forest publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Open Platform — Distributor & Receivables Management. Tagged areas include Company, Beverages, Food and Beverage, Consumer Packaged Goods, and Manufacturing.
 
 
   Genki Forest''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 11 more developer resources.'
@@ -135,14 +137,14 @@ plans:
 - name: Genki Forest Plans Pricing
   plan_count: 0
   slug: genki-forest-plans-pricing
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Genki Forest Rate Limits
   slug: genki-forest-rate-limits
 score:
   band: emerging
-  composite: 20.7
+  composite: 23.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -154,10 +156,10 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 26.3
-    developer_ergonomics: 28.6
-    discoverability: 73.2
-    operational_transparency: 2.6
+    contract_quality: 33.7
+    developer_ergonomics: 35.7
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -165,7 +167,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 20.7
+  previous_composite: 23.6
   provenance:
     conformance: derived
     contracts:
@@ -180,14 +182,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/genki-forest/refs/heads/main/screenshots/genki-forest-2026-09-02T145622.png
+screenshot: https://apis.io/screenshots/genki-forest/genki-forest-2026-09-02T145622.png
 security:
 - kind: authentication
   name: Genki Forest Authentication

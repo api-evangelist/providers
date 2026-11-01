@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Authenticated REST surface behind the Forcelink mobile field-service ERP, served from the vendor-hosted za2.forcelink.net tenant alongside the Forcelink web login and the Forcelink Android/iOS apps. E
@@ -70,42 +72,42 @@ common:
   type: Login
   url: https://za2.forcelink.net/forcelink/login
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acumensoftware/refs/heads/main/llms/acumensoftware-llms.txt
+  href: https://artifacts.apis.io/acumensoftware/llms/acumensoftware-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/acumensoftware-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acumensoftware/refs/heads/main/mcp/acumensoftware-mcp.yml
+  href: https://artifacts.apis.io/acumensoftware/mcp/acumensoftware-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/acumensoftware-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acumensoftware/refs/heads/main/conformance/acumensoftware-conformance.yml
+  href: https://artifacts.apis.io/acumensoftware/conformance/acumensoftware-conformance.yml
   title: ''
   type: Conformance
   url: conformance/acumensoftware-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acumensoftware/refs/heads/main/conformance/acumensoftware-conformance.yml
+  href: https://artifacts.apis.io/acumensoftware/conformance/acumensoftware-conformance.yml
   title: ''
   type: Compliance
   url: conformance/acumensoftware-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acumensoftware/refs/heads/main/security/acumensoftware-domain-security.yml
+  href: https://artifacts.apis.io/acumensoftware/security/acumensoftware-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/acumensoftware-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/acumensoftware/refs/heads/main/packages/acumensoftware-packages.yml
+  href: https://artifacts.apis.io/acumensoftware/packages/acumensoftware-packages.yml
   title: ''
   type: Packages
   url: packages/acumensoftware-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/acumensoftware/refs/heads/main/plans/acumensoftware-plans-pricing.yml
+  href: https://artifacts.apis.io/acumensoftware/plans/acumensoftware-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/acumensoftware-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/acumensoftware/refs/heads/main/rate-limits/acumensoftware-rate-limits.yml
+  href: https://artifacts.apis.io/acumensoftware/rate-limits/acumensoftware-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/acumensoftware-rate-limits.yml
@@ -121,7 +123,7 @@ modified: '2026-10-06'
 name: Acumen Software
 nav: Providers
 network: true
-overview: 'Acumen Software is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Field Service, Workforce Management, Asset Management, ERP, and Smart Cities.
+overview: 'Acumen Software is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Field Service Management, Workforce Management, Asset Management, ERP, and Smart Cities.
 
 
   Acumen Software''s developer surface includes engineering blog, support, and 14 more developer resources.'
@@ -129,14 +131,14 @@ plans:
 - name: Acumensoftware Plans Pricing
   plan_count: 0
   slug: acumensoftware-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Acumensoftware Rate Limits
   slug: acumensoftware-rate-limits
 score:
   band: emerging
-  composite: 19.7
+  composite: 20.7
   coverage:
     artifact_dirs: 12
     catalog_earned: 40.0
@@ -146,11 +148,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 80.0
+    discoverability: 76.7
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -159,7 +161,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 19.7
+  previous_composite: 20.7
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -169,14 +171,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/acumensoftware/refs/heads/main/screenshots/acumensoftware-2026-10-11T092729.png
+screenshot: https://apis.io/screenshots/acumensoftware/acumensoftware-2026-10-11T092729.png
 security:
 - kind: domain-security
   name: Acumensoftware Domain Security
@@ -184,7 +186,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: acumensoftware
 tags:
-- Field Service
+- Field Service Management
 - Workforce Management
 - Asset Management
 - ERP

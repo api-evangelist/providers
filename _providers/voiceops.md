@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Live first-party remote Model Context Protocol server operated by VoiceOps. JSON-RPC 2.0 over HTTP (streamable HTTP transport), authenticated with a VoiceOps API key sent in the Authorization header. '
@@ -67,22 +69,22 @@ common:
   type: PrivacyPolicy
   url: https://www.voiceops.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voiceops/refs/heads/main/mcp/voiceops-mcp.yml
+  href: https://artifacts.apis.io/voiceops/mcp/voiceops-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/voiceops-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voiceops/refs/heads/main/authentication/voiceops-authentication.yml
+  href: https://artifacts.apis.io/voiceops/authentication/voiceops-authentication.yml
   title: ''
   type: Authentication
   url: authentication/voiceops-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voiceops/refs/heads/main/scopes/voiceops-scopes.yml
+  href: https://artifacts.apis.io/voiceops/scopes/voiceops-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/voiceops-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voiceops/refs/heads/main/well-known/voiceops-well-known.yml
+  href: https://artifacts.apis.io/voiceops/well-known/voiceops-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/voiceops-well-known.yml
@@ -95,7 +97,7 @@ common:
   type: Security
   url: https://app.voiceops.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voiceops/refs/heads/main/security/voiceops-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/voiceops/security/voiceops-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/voiceops-vulnerability-disclosure.yml
@@ -108,42 +110,42 @@ common:
   type: Compliance
   url: https://trust.voiceops.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voiceops/refs/heads/main/conformance/voiceops-conformance.yml
+  href: https://artifacts.apis.io/voiceops/conformance/voiceops-conformance.yml
   title: ''
   type: Conformance
   url: conformance/voiceops-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voiceops/refs/heads/main/security/voiceops-domain-security.yml
+  href: https://artifacts.apis.io/voiceops/security/voiceops-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voiceops-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voiceops/refs/heads/main/errors/voiceops-problem-types.yml
+  href: https://artifacts.apis.io/voiceops/errors/voiceops-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/voiceops-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voiceops/refs/heads/main/conventions/voiceops-conventions.yml
+  href: https://artifacts.apis.io/voiceops/conventions/voiceops-conventions.yml
   title: ''
   type: Conventions
   url: conventions/voiceops-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voiceops/refs/heads/main/lifecycle/voiceops-lifecycle.yml
+  href: https://artifacts.apis.io/voiceops/lifecycle/voiceops-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/voiceops-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/voiceops/refs/heads/main/rate-limits/voiceops-rate-limits.yml
+  href: https://artifacts.apis.io/voiceops/rate-limits/voiceops-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/voiceops-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/voiceops/refs/heads/main/plans/voiceops-plans-pricing.yml
+  href: https://artifacts.apis.io/voiceops/plans/voiceops-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/voiceops-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voiceops/refs/heads/main/llms/voiceops-llms.txt
+  href: https://artifacts.apis.io/voiceops/llms/voiceops-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/voiceops-llms.txt
@@ -168,7 +170,7 @@ plans:
 - name: Voiceops Plans Pricing
   plan_count: 0
   slug: voiceops-plans-pricing
-random_paper: 14
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Voiceops Rate Limits
@@ -180,7 +182,7 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: thin
-  composite: 27.2
+  composite: 28.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -188,15 +190,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 78.3
-    operational_transparency: 5.3
-  previous_composite: 27.1
+    discoverability: 75.0
+    operational_transparency: 10.5
+  previous_composite: 28.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -206,14 +208,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/voiceops/refs/heads/main/screenshots/voiceops-2026-09-02T170208.png
+screenshot: https://apis.io/screenshots/voiceops/voiceops-2026-09-02T170208.png
 security:
 - kind: authentication
   name: Voiceops Authentication

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.1) covering the sourcing lifecycle — RFQs, vendors, conversations, quotes, files, and webhooks. API-key authentication with team and environment scoping; the full reference and int
@@ -79,57 +81,57 @@ common:
   type: Login
   url: https://app.purchaser.ai/login
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/purchaser/refs/heads/main/conventions/purchaser-conventions.yml
+  href: https://artifacts.apis.io/purchaser/conventions/purchaser-conventions.yml
   title: ''
   type: Conventions
   url: conventions/purchaser-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/purchaser/refs/heads/main/conventions/purchaser-conventions.yml
+  href: https://artifacts.apis.io/purchaser/conventions/purchaser-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/purchaser-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/purchaser/refs/heads/main/authentication/purchaser-authentication.yml
+  href: https://artifacts.apis.io/purchaser/authentication/purchaser-authentication.yml
   title: ''
   type: Authentication
   url: authentication/purchaser-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/purchaser/refs/heads/main/lifecycle/purchaser-lifecycle.yml
+  href: https://artifacts.apis.io/purchaser/lifecycle/purchaser-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/purchaser-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/purchaser/refs/heads/main/asyncapi/purchaser-webhooks.yml
+  href: https://artifacts.apis.io/purchaser/asyncapi/purchaser-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/purchaser-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/purchaser/refs/heads/main/conformance/purchaser-conformance.yml
+  href: https://artifacts.apis.io/purchaser/conformance/purchaser-conformance.yml
   title: ''
   type: Conformance
   url: conformance/purchaser-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/purchaser/refs/heads/main/security/purchaser-trust-center.yml
+  href: https://artifacts.apis.io/purchaser/security/purchaser-trust-center.yml
   title: ''
   type: Compliance
   url: security/purchaser-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/purchaser/refs/heads/main/security/purchaser-trust-center.yml
+  href: https://artifacts.apis.io/purchaser/security/purchaser-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/purchaser-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/purchaser/refs/heads/main/security/purchaser-domain-security.yml
+  href: https://artifacts.apis.io/purchaser/security/purchaser-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/purchaser-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/purchaser/refs/heads/main/data-model/purchaser-data-model.yml
+  href: https://artifacts.apis.io/purchaser/data-model/purchaser-data-model.yml
   title: ''
   type: DataModel
   url: data-model/purchaser-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/purchaser/refs/heads/main/mcp/purchaser-mcp.yml
+  href: https://artifacts.apis.io/purchaser/mcp/purchaser-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/purchaser-mcp.yml
@@ -148,10 +150,10 @@ overview: 'Purchaser is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Purchaser''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 5
+random_paper: 13
 score:
   band: thin
-  composite: 27.8
+  composite: 34.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 32.0
@@ -159,15 +161,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 45.2
     discoverability: 57.1
     operational_transparency: 7.9
-  previous_composite: 27.7
+  previous_composite: 34.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -177,14 +179,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/purchaser/refs/heads/main/screenshots/purchaser-2026-09-02T152339.png
+screenshot: https://apis.io/screenshots/purchaser/purchaser-2026-09-02T152339.png
 security:
 - kind: authentication
   name: Purchaser Authentication

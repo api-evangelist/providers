@@ -14,26 +14,28 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blazebioscience/refs/heads/main/hosts/blazebioscience-hosts.yml
+  href: https://artifacts.apis.io/blazebioscience/hosts/blazebioscience-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blazebioscience-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blazebioscience/refs/heads/main/vendors/blazebioscience-vendors.yml
+  href: https://artifacts.apis.io/blazebioscience/vendors/blazebioscience-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blazebioscience-vendors.yml
@@ -42,7 +44,7 @@ common:
   type: Newsroom
   url: https://www.blazebioscience.com/News
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blazebioscience/refs/heads/main/security/blazebioscience-domain-security.yml
+  href: https://artifacts.apis.io/blazebioscience/security/blazebioscience-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blazebioscience-domain-security.yml
@@ -69,7 +71,7 @@ name: Blazebioscience
 nav: Providers
 network: true
 overview: Blazebioscience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Imaging, Fluorescence, and Tumor-Paint.
-random_paper: 8
+random_paper: 10
 score:
   band: minimal
   composite: 5.9
@@ -97,8 +99,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

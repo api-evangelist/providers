@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 21.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: The Top Level Lists API from Rotten Tomatoes — 3 operation(s) for top level lists.
   name: Rotten Tomatoes Top Level Lists API
   slug: rottentomatoes-top-level-lists-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Rotten Tomatoes Detailed Info API
   slug: open-rottentomatoes-detailed-info-api
@@ -92,32 +91,32 @@ collections:
   slug: open-rottentomatoes-top-level-lists-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/rottentomatoes/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/rottentomatoes/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/rottentomatoes/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/agentic-access/rottentomatoes-agentic-access.yml
+  href: https://artifacts.apis.io/rottentomatoes/agentic-access/rottentomatoes-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rottentomatoes-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/security/rottentomatoes-domain-security.yml
+  href: https://artifacts.apis.io/rottentomatoes/security/rottentomatoes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rottentomatoes-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/authentication/rottentomatoes-authentication.yml
+  href: https://artifacts.apis.io/rottentomatoes/authentication/rottentomatoes-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rottentomatoes-authentication.yml
@@ -211,7 +210,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 4
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -230,7 +229,7 @@ rules:
   slug: rottentomatoes-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.6
+  composite: 31.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 47.3
@@ -238,15 +237,15 @@ score:
     catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 42.6
-    developer_ergonomics: 23.8
+    developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 34.8
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     contracts:
@@ -260,14 +259,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/screenshots/rottentomatoes-2026-08-17T081638.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rottentomatoes/rottentomatoes-2026-08-17T081638.png
 security:
 - kind: authentication
   name: Rottentomatoes Authentication

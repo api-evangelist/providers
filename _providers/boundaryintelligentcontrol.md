@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -36,22 +38,22 @@ common:
   type: Security
   url: https://www.boundarycontrol.com/trust#responsible-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boundaryintelligentcontrol/refs/heads/main/well-known/boundaryintelligentcontrol-security.txt
+  href: https://artifacts.apis.io/boundaryintelligentcontrol/well-known/boundaryintelligentcontrol-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/boundaryintelligentcontrol-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boundaryintelligentcontrol/refs/heads/main/well-known/boundaryintelligentcontrol-well-known.yml
+  href: https://artifacts.apis.io/boundaryintelligentcontrol/well-known/boundaryintelligentcontrol-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/boundaryintelligentcontrol-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/boundaryintelligentcontrol/refs/heads/main/hosts/boundaryintelligentcontrol-hosts.yml
+  href: https://artifacts.apis.io/boundaryintelligentcontrol/hosts/boundaryintelligentcontrol-hosts.yml
   title: ''
   type: Hosts
   url: hosts/boundaryintelligentcontrol-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/boundaryintelligentcontrol/refs/heads/main/vendors/boundaryintelligentcontrol-vendors.yml
+  href: https://artifacts.apis.io/boundaryintelligentcontrol/vendors/boundaryintelligentcontrol-vendors.yml
   title: ''
   type: Vendors
   url: vendors/boundaryintelligentcontrol-vendors.yml
@@ -68,17 +70,17 @@ common:
   type: Login
   url: https://www.boundarycontrol.com/login
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boundaryintelligentcontrol/refs/heads/main/security/boundaryintelligentcontrol-trust-center.yml
+  href: https://artifacts.apis.io/boundaryintelligentcontrol/security/boundaryintelligentcontrol-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/boundaryintelligentcontrol-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boundaryintelligentcontrol/refs/heads/main/security/boundaryintelligentcontrol-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/boundaryintelligentcontrol/security/boundaryintelligentcontrol-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/boundaryintelligentcontrol-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boundaryintelligentcontrol/refs/heads/main/security/boundaryintelligentcontrol-domain-security.yml
+  href: https://artifacts.apis.io/boundaryintelligentcontrol/security/boundaryintelligentcontrol-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/boundaryintelligentcontrol-domain-security.yml
@@ -102,8 +104,8 @@ modified: '2026-10-03'
 name: Boundaryintelligentcontrol
 nav: Providers
 network: true
-overview: Boundaryintelligentcontrol is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Governance, DataPrivacy, Enterprise, and Platform.
-random_paper: 4
+overview: Boundaryintelligentcontrol is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Governance, Privacy, Enterprise, and Platform.
+random_paper: 12
 score:
   band: emerging
   composite: 17.3
@@ -131,8 +133,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
@@ -155,7 +157,7 @@ slug: boundaryintelligentcontrol
 tags:
 - Artificial Intelligence
 - Governance
-- DataPrivacy
+- Privacy
 - Enterprise
 - Platform
 website: https://www.boundarycontrol.com

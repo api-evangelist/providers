@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 30
   slug: markforged-agentic-access
   summary_line: 30 operations · 9 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: Secure, licensed distribution of manufacturer-certified parts for distributed (point-of-need) manufacturing. Built on the Markforged platform (ISO 27001 certified); no separate public developer API is
   name: Markforged Digital Source
@@ -78,11 +80,8 @@ apis:
   description: The Printed Parts API from Markforged — 3 operation(s) for printed parts.
   name: Markforged Printed Parts API
   slug: markforged-printed-parts-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Eiger API V3 Builds API
   slug: open-markforged-builds-api
@@ -106,22 +105,22 @@ collections:
   slug: open-markforged
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/capabilities/markforged-capability-edges.yml
+  href: https://artifacts.apis.io/markforged/capabilities/markforged-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/markforged-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/agentic-access/markforged-agentic-access.yml
+  href: https://artifacts.apis.io/markforged/agentic-access/markforged-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/markforged-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/security/markforged-domain-security.yml
+  href: https://artifacts.apis.io/markforged/security/markforged-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/markforged-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/authentication/markforged-authentication.yml
+  href: https://artifacts.apis.io/markforged/authentication/markforged-authentication.yml
   title: ''
   type: Authentication
   url: authentication/markforged-authentication.yml
@@ -142,17 +141,17 @@ common:
   type: Documentation
   url: https://www.eiger.io/developer
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/plans/markforged-plans-pricing.yml
+  href: https://artifacts.apis.io/markforged/plans/markforged-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/markforged-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/rate-limits/markforged-rate-limits.yml
+  href: https://artifacts.apis.io/markforged/rate-limits/markforged-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/markforged-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/finops/markforged-finops.yml
+  href: https://artifacts.apis.io/markforged/finops/markforged-finops.yml
   title: ''
   type: FinOps
   url: finops/markforged-finops.yml
@@ -191,7 +190,7 @@ rate_limits:
   slug: markforged-rate-limits
 score:
   band: emerging
-  composite: 23.7
+  composite: 24.7
   coverage:
     artifact_dirs: 12
     catalog_earned: 32.0
@@ -199,15 +198,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 32.1
     discoverability: 48.2
-    operational_transparency: 7.9
-  previous_composite: 31.9
+    operational_transparency: 10.5
+  previous_composite: 24.7
   provenance:
     agentic_access: derived
     contracts:
@@ -221,13 +220,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/screenshots/markforged-2026-06-20T184959.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/markforged/markforged-2026-06-20T184959.png
 security:
 - kind: authentication
   name: Markforged Authentication

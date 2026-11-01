@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The REST API served by every Qumulo cluster for managing files, snapshots, quotas, replication, multi-protocol shares (NFS/SMB/S3/FTP), networking, cluster lifecycle, monitoring/analytics, and access '
@@ -43,7 +45,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qumulo/refs/heads/main/security/qumulo-domain-security.yml
+  href: https://artifacts.apis.io/qumulo/security/qumulo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qumulo-domain-security.yml
@@ -100,57 +102,57 @@ common:
   type: TrustCenter
   url: https://trust.qumulo.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qumulo/refs/heads/main/cli/qumulo-cli.yml
+  href: https://artifacts.apis.io/qumulo/cli/qumulo-cli.yml
   title: ''
   type: CLI
   url: cli/qumulo-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qumulo/refs/heads/main/packages/qumulo-packages.yml
+  href: https://artifacts.apis.io/qumulo/packages/qumulo-packages.yml
   title: ''
   type: Packages
   url: packages/qumulo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qumulo/refs/heads/main/packages/qumulo-packages.yml
+  href: https://artifacts.apis.io/qumulo/packages/qumulo-packages.yml
   title: ''
   type: SDKs
   url: packages/qumulo-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qumulo/refs/heads/main/authentication/qumulo-authentication.yml
+  href: https://artifacts.apis.io/qumulo/authentication/qumulo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qumulo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qumulo/refs/heads/main/conventions/qumulo-conventions.yml
+  href: https://artifacts.apis.io/qumulo/conventions/qumulo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qumulo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qumulo/refs/heads/main/lifecycle/qumulo-lifecycle.yml
+  href: https://artifacts.apis.io/qumulo/lifecycle/qumulo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qumulo-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qumulo/refs/heads/main/lifecycle/qumulo-lifecycle.yml
+  href: https://artifacts.apis.io/qumulo/lifecycle/qumulo-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/qumulo-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qumulo/refs/heads/main/changelog/qumulo-changelog.yml
+  href: https://artifacts.apis.io/qumulo/changelog/qumulo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/qumulo-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qumulo/refs/heads/main/conformance/qumulo-conformance.yml
+  href: https://artifacts.apis.io/qumulo/conformance/qumulo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qumulo-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qumulo/refs/heads/main/well-known/qumulo-well-known.yml
+  href: https://artifacts.apis.io/qumulo/well-known/qumulo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/qumulo-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qumulo/refs/heads/main/llms/qumulo-llms.txt
+  href: https://artifacts.apis.io/qumulo/llms/qumulo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qumulo-llms.txt
@@ -166,10 +168,10 @@ overview: 'Qumulo is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Qumulo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 18 more developer resources.'
-random_paper: 15
+random_paper: 3
 score:
   band: developing
-  composite: 39.9
+  composite: 39.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -177,15 +179,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 39.8
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 39.5
   provenance:
     conformance: first-party
   regulatory:
@@ -194,14 +196,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/qumulo/refs/heads/main/screenshots/qumulo-2026-09-02T152713.png
+screenshot: https://apis.io/screenshots/qumulo/qumulo-2026-09-02T152713.png
 security:
 - kind: authentication
   name: Qumulo Authentication

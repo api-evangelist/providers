@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Single JSON API for issuing, receiving, and archiving locally compliant invoices — e-invoicing, PEPPOL exchange, fiscalization, and real-time tax reporting across 30+ countries. Uses a custom IoT conn
@@ -96,37 +98,37 @@ common:
   type: Compliance
   url: https://dddinvoices.com/data-processing
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ddd-invoices/refs/heads/main/llms/ddd-invoices-llms.txt
+  href: https://artifacts.apis.io/ddd-invoices/llms/ddd-invoices-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ddd-invoices-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ddd-invoices/refs/heads/main/authentication/ddd-invoices-authentication.yml
+  href: https://artifacts.apis.io/ddd-invoices/authentication/ddd-invoices-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ddd-invoices-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ddd-invoices/refs/heads/main/conventions/ddd-invoices-conventions.yml
+  href: https://artifacts.apis.io/ddd-invoices/conventions/ddd-invoices-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ddd-invoices-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ddd-invoices/refs/heads/main/sandbox/ddd-invoices-sandbox.yml
+  href: https://artifacts.apis.io/ddd-invoices/sandbox/ddd-invoices-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ddd-invoices-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ddd-invoices/refs/heads/main/mcp/ddd-invoices-mcp.yml
+  href: https://artifacts.apis.io/ddd-invoices/mcp/ddd-invoices-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ddd-invoices-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ddd-invoices/refs/heads/main/conformance/ddd-invoices-conformance.yml
+  href: https://artifacts.apis.io/ddd-invoices/conformance/ddd-invoices-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ddd-invoices-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ddd-invoices/refs/heads/main/security/ddd-invoices-domain-security.yml
+  href: https://artifacts.apis.io/ddd-invoices/security/ddd-invoices-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ddd-invoices-domain-security.yml
@@ -142,10 +144,10 @@ overview: 'DDD Invoices is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   DDD Invoices'' developer surface includes documentation, API reference, quickstart, pricing, signup flow, engineering blog, support, and 13 more developer resources.'
-random_paper: 21
+random_paper: 9
 score:
   band: thin
-  composite: 33.1
+  composite: 32.4
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -159,9 +161,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 54.8
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 33.1
+  previous_composite: 32.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -175,14 +177,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ddd-invoices/refs/heads/main/screenshots/ddd-invoices-2026-07-25T211507.png
+screenshot: https://apis.io/screenshots/ddd-invoices/ddd-invoices-2026-07-25T211507.png
 security:
 - kind: authentication
   name: Ddd Invoices Authentication

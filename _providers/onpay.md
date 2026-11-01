@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 27.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -76,11 +78,8 @@ apis:
   description: The User API from OnPay — 1 operation(s) for user.
   name: OnPay User API
   slug: onpay-user-api
-artifact_total: 18
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OnPay Company API
   slug: open-onpay-company-api
@@ -100,28 +99,33 @@ collections:
   name: OnPay User API
   slug: open-onpay-user-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/onpay/plans/onpay-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/onpay-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/capabilities/onpay-capability-edges.yml
+  href: https://artifacts.apis.io/onpay/capabilities/onpay-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/onpay-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/mcp/onpay-mcp.yml
+  href: https://artifacts.apis.io/onpay/mcp/onpay-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/onpay-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/overlays/onpay-api-overlay.yaml
+  href: https://artifacts.apis.io/onpay/overlays/onpay-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/onpay-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/security/onpay-domain-security.yml
+  href: https://artifacts.apis.io/onpay/security/onpay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onpay-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/agentic-access/onpay-agentic-access.yml
+  href: https://artifacts.apis.io/onpay/agentic-access/onpay-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/onpay-agentic-access.yml
@@ -182,57 +186,65 @@ common:
   type: Compliance
   url: https://onpay.com/security/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/llms/onpay-llms.txt
+  href: https://artifacts.apis.io/onpay/llms/onpay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/onpay-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/authentication/onpay-authentication.yml
+  href: https://artifacts.apis.io/onpay/authentication/onpay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/onpay-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/scopes/onpay-scopes.yml
+  href: https://artifacts.apis.io/onpay/scopes/onpay-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/onpay-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/conventions/onpay-conventions.yml
+  href: https://artifacts.apis.io/onpay/conventions/onpay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/onpay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/errors/onpay-problem-types.yml
+  href: https://artifacts.apis.io/onpay/errors/onpay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/onpay-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/lifecycle/onpay-lifecycle.yml
+  href: https://artifacts.apis.io/onpay/lifecycle/onpay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/onpay-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/conformance/onpay-conformance.yml
+  href: https://artifacts.apis.io/onpay/conformance/onpay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/onpay-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/data-model/onpay-data-model.yml
+  href: https://artifacts.apis.io/onpay/data-model/onpay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/onpay-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/security/onpay-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/onpay/security/onpay-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/onpay-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/onpay/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-04'
 description: OnPay is an Atlanta, Georgia based provider of full-service online payroll, HR, and employee benefits software for small and mid-size US businesses, founded in 2011 and funded by Carrick Capital Partners. The platform runs payroll and direct deposit, files federal, state, and local payroll taxes, and handles onboarding, PTO, org charts, health insurance, 401(k), and workers' compensation. For developers, OnPay publishes a partner-only REST API (v2) documented on a public ReadMe hub, covering employees, employee deductions, wages, leave, tax fields, bank accounts, terminations and rehires, company worksites, locations, departments and positions, pay schedules, and payroll reporting. Access is limited to approved partners, authorized with OAuth 2.0 authorization-code grants against app.onpay.com and role-scoped bearer tokens.
+finops:
+- has_sources: true
+  method: derived
+  name: Onpay Finops
+  primary_unit: base + per worker
+  service_category: ''
+  slug: onpay-finops
+  template: false
 image: https://onpay.com/wp-content/uploads/2017/08/d9fo84j1zi.jpg
 layout: provider
 modified: '2026-08-04'
@@ -242,8 +254,15 @@ network: true
 overview: 'OnPay publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Company API, Deductions API, Employees API, and 3 more. Tagged areas include Payroll, Human Resources, Employee Benefits, payroll-tax, and Small Business.
 
 
-  OnPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 1
+  OnPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+plans:
+- name: Onpay Plans Pricing
+  plan_count: 9
+  slug: onpay-plans-pricing
+- name: Onpay Price Estimates
+  plan_count: 0
+  slug: onpay-price-estimates
+random_paper: 23
 scopes:
 - name: Onpay Scopes
   scope_count: 6
@@ -251,23 +270,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.2
+  composite: 54.2
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 52.6
+    access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 44.9
-    developer_ergonomics: 39.9
+    contract_quality: 43.5
+    developer_ergonomics: 58.9
     discoverability: 73.2
     operational_transparency: 10.5
-  previous_composite: 42.2
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -284,13 +303,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/screenshots/onpay-2026-08-07T190403.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/onpay/onpay-2026-08-07T190403.png
 security:
 - kind: authentication
   name: Onpay Authentication
@@ -304,6 +324,14 @@ security:
   name: Onpay Vulnerability Disclosure
   slug: onpay-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 3
+skills:
+- name: Change employee pay safely in OnPay
+  slug: onpay-change-employee-pay-safely
+- name: Onboard an employee in OnPay
+  slug: onpay-onboard-an-employee
+- name: Reconcile an OnPay pay run
+  slug: onpay-reconcile-a-pay-run
 slug: onpay
 tags:
 - Payroll

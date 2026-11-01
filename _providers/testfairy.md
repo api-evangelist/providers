@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,18 +37,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for managing TestFairy projects, builds, testers, tester groups, sites, webhooks, permissions, feedback, and audit trails. Authenticated with HTTP Basic (email:api-key) or OIDC bearer tokens.
   name: TestFairy REST API
   slug: testfairy-rest-api
-artifact_total: 5
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Testfairy Webhooks Asyncapi
   slug: testfairy-webhooks-asyncapi
 common:
+- group: commercial
+  href: https://artifacts.apis.io/testfairy/plans/testfairy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/testfairy-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -104,62 +111,62 @@ common:
   type: Support
   url: https://docs.saucelabs.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/authentication/testfairy-authentication.yml
+  href: https://artifacts.apis.io/testfairy/authentication/testfairy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/testfairy-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/packages/testfairy-packages.yml
+  href: https://artifacts.apis.io/testfairy/packages/testfairy-packages.yml
   title: ''
   type: Packages
   url: packages/testfairy-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/packages/testfairy-packages.yml
+  href: https://artifacts.apis.io/testfairy/packages/testfairy-packages.yml
   title: ''
   type: SDKs
   url: packages/testfairy-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/cli/testfairy-cli.yml
+  href: https://artifacts.apis.io/testfairy/cli/testfairy-cli.yml
   title: ''
   type: CLI
   url: cli/testfairy-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/mcp/testfairy-mcp.yml
+  href: https://artifacts.apis.io/testfairy/mcp/testfairy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/testfairy-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/llms/testfairy-llms.txt
+  href: https://artifacts.apis.io/testfairy/llms/testfairy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/testfairy-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/conventions/testfairy-conventions.yml
+  href: https://artifacts.apis.io/testfairy/conventions/testfairy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/testfairy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/lifecycle/testfairy-lifecycle.yml
+  href: https://artifacts.apis.io/testfairy/lifecycle/testfairy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/testfairy-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/lifecycle/testfairy-lifecycle.yml
+  href: https://artifacts.apis.io/testfairy/lifecycle/testfairy-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/testfairy-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/changelog/testfairy-changelog.yml
+  href: https://artifacts.apis.io/testfairy/changelog/testfairy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/testfairy-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/errors/testfairy-problem-types.yml
+  href: https://artifacts.apis.io/testfairy/errors/testfairy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/testfairy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/conformance/testfairy-conformance.yml
+  href: https://artifacts.apis.io/testfairy/conformance/testfairy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/testfairy-conformance.yml
@@ -168,37 +175,45 @@ common:
   type: Compliance
   url: https://trust.saucelabs.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/security/testfairy-trust-center.yml
+  href: https://artifacts.apis.io/testfairy/security/testfairy-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/testfairy-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/data-model/testfairy-data-model.yml
+  href: https://artifacts.apis.io/testfairy/data-model/testfairy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/testfairy-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/asyncapi/testfairy-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/testfairy/asyncapi/testfairy-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/testfairy-webhooks-asyncapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/asyncapi/testfairy-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/testfairy/asyncapi/testfairy-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/testfairy-webhooks-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/well-known/testfairy-well-known.yml
+  href: https://artifacts.apis.io/testfairy/well-known/testfairy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/testfairy-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/security/testfairy-domain-security.yml
+  href: https://artifacts.apis.io/testfairy/security/testfairy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/testfairy-domain-security.yml
 created: '2026-07-17'
 description: TestFairy is a mobile app testing and distribution platform, now part of Sauce Labs, that lets teams upload iOS and Android builds, distribute them to beta testers, and record video sessions of testers using the app alongside device logs, crash reports, and CPU/memory/network telemetry for debugging. It exposes a REST API for managing projects, builds, testers, tester groups, sites, webhooks, and audit trails, plus a separate Upload API for pushing APK/AAB/IPA packages and symbol files from CI. Native SDKs (iOS, Android) and cross-platform wrappers (React Native, Flutter, Cordova, Unity, Xamarin, NativeScript) instrument apps, and command-line uploaders integrate with Jenkins, fastlane, Travis, and CircleCI. Authentication is HTTP Basic (email + API key) or OIDC bearer tokens.
+finops:
+- has_sources: true
+  method: derived
+  name: Testfairy Finops
+  primary_unit: month, billed annually
+  service_category: ''
+  slug: testfairy-finops
+  template: false
 image: https://raw.githubusercontent.com/api-evangelist/testfairy/main/testfairy.png
 layout: provider
 modified: '2026-10-06'
@@ -211,27 +226,34 @@ overview: 'TestFairy is listed with 1 API on the [APIs.io](https://apis.io/) net
   The TestFairy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  TestFairy''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, pricing, support, and 26 more developer resources.'
-random_paper: 19
+  TestFairy''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, pricing, support, and 27 more developer resources.'
+plans:
+- name: Testfairy Plans Pricing
+  plan_count: 7
+  slug: testfairy-plans-pricing
+- name: Testfairy Price Estimates
+  plan_count: 0
+  slug: testfairy-price-estimates
+random_paper: 3
 score:
   band: strong
-  composite: 54.3
+  composite: 61.8
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 50.0
-  previous_composite: 53.7
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 53.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -245,14 +267,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/screenshots/testfairy-2026-08-17T082325.png
+screenshot: https://apis.io/screenshots/testfairy/testfairy-2026-08-17T082325.png
 security:
 - kind: authentication
   name: Testfairy Authentication

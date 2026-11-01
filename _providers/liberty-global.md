@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 30.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,7 +56,7 @@ apis:
 - description: The STB API from Liberty Global — 2 operation(s) for stb.
   name: Liberty Global STB API
   slug: liberty-global-stb-api
-artifact_total: 10
+artifact_total: 13
 collections:
 - collection_type: open
   name: AppStore Bundle Service API
@@ -67,22 +69,22 @@ collections:
   slug: open-liberty-global-appstore-metadata-service
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/overlays/liberty-global-appstore-metadata-service-overlay.yaml
+  href: https://artifacts.apis.io/liberty-global/overlays/liberty-global-appstore-metadata-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/liberty-global-appstore-metadata-service-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/overlays/liberty-global-appstore-bundle-service-overlay.yaml
+  href: https://artifacts.apis.io/liberty-global/overlays/liberty-global-appstore-bundle-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/liberty-global-appstore-bundle-service-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/overlays/liberty-global-appstore-caching-service-overlay.yaml
+  href: https://artifacts.apis.io/liberty-global/overlays/liberty-global-appstore-caching-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/liberty-global-appstore-caching-service-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/mcp/liberty-global-mcp.yml
+  href: https://artifacts.apis.io/liberty-global/mcp/liberty-global-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/liberty-global-mcp.yml
@@ -95,12 +97,12 @@ common:
   type: License
   url: https://github.com/LibertyGlobal/appstore-metadata-service/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/agentic-access/liberty-global-agentic-access.yml
+  href: https://artifacts.apis.io/liberty-global/agentic-access/liberty-global-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/liberty-global-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/security/liberty-global-domain-security.yml
+  href: https://artifacts.apis.io/liberty-global/security/liberty-global-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/liberty-global-domain-security.yml
@@ -141,62 +143,62 @@ common:
   type: Compliance
   url: https://www.libertyglobal.com/about/corporate-governance/data-privacy-protection/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/conformance/liberty-global-conformance.yml
+  href: https://artifacts.apis.io/liberty-global/conformance/liberty-global-conformance.yml
   title: ''
   type: Conformance
   url: conformance/liberty-global-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/authentication/liberty-global-authentication.yml
+  href: https://artifacts.apis.io/liberty-global/authentication/liberty-global-authentication.yml
   title: ''
   type: Authentication
   url: authentication/liberty-global-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/conventions/liberty-global-conventions.yml
+  href: https://artifacts.apis.io/liberty-global/conventions/liberty-global-conventions.yml
   title: ''
   type: Conventions
   url: conventions/liberty-global-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/errors/liberty-global-problem-types.yml
+  href: https://artifacts.apis.io/liberty-global/errors/liberty-global-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/liberty-global-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/data-model/liberty-global-data-model.yml
+  href: https://artifacts.apis.io/liberty-global/data-model/liberty-global-data-model.yml
   title: ''
   type: DataModel
   url: data-model/liberty-global-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/lifecycle/liberty-global-lifecycle.yml
+  href: https://artifacts.apis.io/liberty-global/lifecycle/liberty-global-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/liberty-global-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/changelog/liberty-global-changelog.yml
+  href: https://artifacts.apis.io/liberty-global/changelog/liberty-global-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/liberty-global-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/packages/liberty-global-packages.yml
+  href: https://artifacts.apis.io/liberty-global/packages/liberty-global-packages.yml
   title: ''
   type: Packages
   url: packages/liberty-global-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/sandbox/liberty-global-sandbox.yml
+  href: https://artifacts.apis.io/liberty-global/sandbox/liberty-global-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/liberty-global-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/security/liberty-global-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/liberty-global/security/liberty-global-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/liberty-global-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/liberty-global/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/llms/liberty-global-llms.txt
+  href: https://artifacts.apis.io/liberty-global/llms/liberty-global-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/liberty-global-llms.txt
@@ -213,12 +215,12 @@ overview: 'Liberty Global publishes 3 API contracts indexed on the [APIs.io](htt
 
 
   Liberty Global''s developer surface includes engineering blog, authentication, changelog, sandbox, and 25 more developer resources.'
-random_paper: 3
+random_paper: 17
 score:
   band: thin
-  composite: 37.1
+  composite: 37.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -228,10 +230,10 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 41.2
+    contract_quality: 37.8
     developer_ergonomics: 39.9
-    discoverability: 69.6
-    operational_transparency: 18.4
+    discoverability: 62.5
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -240,7 +242,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 37.1
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -257,13 +259,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/screenshots/liberty-global-2026-08-07T171613.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/liberty-global/liberty-global-2026-08-07T171613.png
 security:
 - kind: authentication
   name: Liberty Global Authentication
@@ -277,6 +280,14 @@ security:
   name: Liberty Global Vulnerability Disclosure
   slug: liberty-global-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 3
+skills:
+- name: Discover AppStore applications from a set-top box
+  slug: liberty-global-discover-apps-from-a-set-top-box
+- name: Fetch a generated application bundle
+  slug: liberty-global-fetch-an-application-bundle
+- name: Publish an RDK app to the Liberty Global AppStore
+  slug: liberty-global-publish-an-rdk-app
 slug: liberty-global
 tags:
 - Telecommunications

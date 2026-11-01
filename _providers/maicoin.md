@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-17'
+  score: 31.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Real-time streaming service for MAX Exchange. Public channels cover order book (book), trade, ticker, kline, market_status and m-wallet pool_quota; private channels stream order snapshots/updates, tra
@@ -80,7 +82,7 @@ apis:
   description: Requires authentication
   name: MaiCoin Wallet API
   slug: maicoin-wallet-api
-artifact_total: 14
+artifact_total: 18
 asyncapis:
 - description: 'Real-time streaming for MAX Exchange (MaiCoin). One WebSocket endpoint carries both public market-data channels and, after authentication, private account channels. Field names are abbreviated on the '
   name: MAX Exchange WebSocket API
@@ -91,12 +93,12 @@ common:
   type: BlogRSS
   url: https://blog.maicoin.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/capabilities/maicoin-capability-edges.yml
+  href: https://artifacts.apis.io/maicoin/capabilities/maicoin-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/maicoin-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/security/maicoin-domain-security.yml
+  href: https://artifacts.apis.io/maicoin/security/maicoin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/maicoin-domain-security.yml
@@ -153,97 +155,105 @@ common:
   type: PrivacyPolicy
   url: https://assets.maicoin.com/max/max-privacy-policy.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/llms/maicoin-llms.txt
+  href: https://artifacts.apis.io/maicoin/llms/maicoin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/maicoin-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/packages/maicoin-packages.yml
+  href: https://artifacts.apis.io/maicoin/packages/maicoin-packages.yml
   title: ''
   type: Packages
   url: packages/maicoin-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/packages/maicoin-packages.yml
+  href: https://artifacts.apis.io/maicoin/packages/maicoin-packages.yml
   title: ''
   type: SDKs
   url: packages/maicoin-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/authentication/maicoin-authentication.yml
+  href: https://artifacts.apis.io/maicoin/authentication/maicoin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/maicoin-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/conventions/maicoin-conventions.yml
+  href: https://artifacts.apis.io/maicoin/conventions/maicoin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/maicoin-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/conventions/maicoin-conventions.yml
+  href: https://artifacts.apis.io/maicoin/conventions/maicoin-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/maicoin-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/errors/maicoin-problem-types.yml
+  href: https://artifacts.apis.io/maicoin/errors/maicoin-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/maicoin-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/errors/maicoin-error-codes.yml
+  href: https://artifacts.apis.io/maicoin/errors/maicoin-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/maicoin-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/lifecycle/maicoin-lifecycle.yml
+  href: https://artifacts.apis.io/maicoin/lifecycle/maicoin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/maicoin-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/changelog/maicoin-changelog.yml
+  href: https://artifacts.apis.io/maicoin/changelog/maicoin-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/maicoin-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/rate-limits/maicoin-rate-limits.yml
+  href: https://artifacts.apis.io/maicoin/rate-limits/maicoin-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/maicoin-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/plans/maicoin-plans-pricing.yml
+  href: https://artifacts.apis.io/maicoin/plans/maicoin-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/maicoin-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/data-model/maicoin-data-model.yml
+  href: https://artifacts.apis.io/maicoin/data-model/maicoin-data-model.yml
   title: ''
   type: DataModel
   url: data-model/maicoin-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/conformance/maicoin-conformance.yml
+  href: https://artifacts.apis.io/maicoin/conformance/maicoin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/maicoin-conformance.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/asyncapi/maicoin-max-websocket-asyncapi.yml
+  href: https://artifacts.apis.io/maicoin/asyncapi/maicoin-max-websocket-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/maicoin-max-websocket-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/maicoin/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/overlays/maicoin-max-v3-overlay.yaml
+  href: https://artifacts.apis.io/maicoin/overlays/maicoin-max-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/maicoin-max-v3-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/mcp/maicoin-mcp.yml
+  href: https://artifacts.apis.io/maicoin/mcp/maicoin-mcp.yml
   title: ''
   type: MCPCandidate
   url: mcp/maicoin-mcp.yml
 created: '2026-08-25'
 description: MaiCoin is a Taiwan-based digital asset group that operates MAX (MaiCoin Assets eXchange), a regulated cryptocurrency exchange offering spot trading, margin borrowing (m-wallet), staking, and fiat TWD on/off-ramps. MAX publishes a public V3 RESTful trading API with 54 operations spanning public market data (markets, tickers, order book depth, k-line, public trades), order management, trade history, wallet and account balances, deposits and withdrawals, internal transfers, currency conversion, and margin loan/repayment/liquidation. A companion WebSocket streaming service delivers real-time order book, ticker, k-line, trade, market status and private order/trade/account events. Authentication uses HMAC-SHA256 request signing over a base64 payload with X-MAX-ACCESSKEY, X-MAX-PAYLOAD and X-MAX-SIGNATURE headers.
+finops:
+- has_sources: true
+  method: derived
+  name: Maicoin Finops
+  primary_unit: ''
+  service_category: ''
+  slug: maicoin-finops
+  template: true
 image: https://cdn.prod.website-files.com/61c42c1d462b6844a0915d9b/6a7160b6139bc8cdd5e3cf27_logo_MAX.png
 layout: provider
 modified: '2026-10-06'
@@ -261,29 +271,29 @@ plans:
 - name: Maicoin Plans Pricing
   plan_count: 10
   slug: maicoin-plans-pricing
-random_paper: 10
+random_paper: 16
 rate_limits:
 - limit_count: 6
   name: Maicoin Rate Limits
   slug: maicoin-rate-limits
 score:
   band: strong
-  composite: 58.3
+  composite: 58.6
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 51.4
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 65.8
+    discoverability: 66.1
+    operational_transparency: 68.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -291,7 +301,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 58.2
+  previous_composite: 58.6
   provenance:
     conformance: derived
     contracts:
@@ -307,13 +317,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/screenshots/maicoin-2026-09-02T150513.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/maicoin/maicoin-2026-09-02T150513.png
 security:
 - kind: authentication
   name: Maicoin Authentication
@@ -323,6 +334,14 @@ security:
   name: Maicoin Domain Security
   slug: maicoin-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: maicoin-authenticate-private-channels
+  slug: maicoin-authenticate-private-channels
+- name: maicoin-place-and-confirm-order
+  slug: maicoin-place-and-confirm-order
+- name: maicoin-stream-market-data
+  slug: maicoin-stream-market-data
 slug: maicoin
 tags:
 - Company

@@ -15,16 +15,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.2
-  scored_at: '2026-10-17'
+  score: 43.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,77 +59,77 @@ apis:
 artifact_total: 12
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/agentic-access/isbusinessemail-agentic-access.yml
+  href: https://artifacts.apis.io/isbusinessemail/agentic-access/isbusinessemail-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/isbusinessemail-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/rate-limits/isbusinessemail-rate-limits.yml
+  href: https://artifacts.apis.io/isbusinessemail/rate-limits/isbusinessemail-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/isbusinessemail-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/rules/isbusinessemail-rules.yml
+  href: https://artifacts.apis.io/isbusinessemail/rules/isbusinessemail-rules.yml
   title: ''
   type: Spectral
   url: rules/isbusinessemail-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/json-ld/isbusinessemail-context.jsonld
+  href: https://artifacts.apis.io/isbusinessemail/json-ld/isbusinessemail-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/isbusinessemail-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/vocabulary/isbusinessemail-vocabulary.yml
+  href: https://artifacts.apis.io/isbusinessemail/vocabulary/isbusinessemail-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/isbusinessemail-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/data-model/isbusinessemail-data-model.yml
+  href: https://artifacts.apis.io/isbusinessemail/data-model/isbusinessemail-data-model.yml
   title: ''
   type: DataModel
   url: data-model/isbusinessemail-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/lifecycle/isbusinessemail-lifecycle.yml
+  href: https://artifacts.apis.io/isbusinessemail/lifecycle/isbusinessemail-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/isbusinessemail-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/lifecycle/isbusinessemail-lifecycle.yml
+  href: https://artifacts.apis.io/isbusinessemail/lifecycle/isbusinessemail-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/isbusinessemail-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/errors/isbusinessemail-problem-types.yml
+  href: https://artifacts.apis.io/isbusinessemail/errors/isbusinessemail-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/isbusinessemail-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/conformance/isbusinessemail-conformance.yml
+  href: https://artifacts.apis.io/isbusinessemail/conformance/isbusinessemail-conformance.yml
   title: ''
   type: Conformance
   url: conformance/isbusinessemail-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/llms/isbusinessemail-llms.txt
+  href: https://artifacts.apis.io/isbusinessemail/llms/isbusinessemail-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/isbusinessemail-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/well-known/isbusinessemail-security.txt
+  href: https://artifacts.apis.io/isbusinessemail/well-known/isbusinessemail-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/isbusinessemail-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/well-known/isbusinessemail-well-known.yml
+  href: https://artifacts.apis.io/isbusinessemail/well-known/isbusinessemail-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/isbusinessemail-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/hosts/isbusinessemail-hosts.yml
+  href: https://artifacts.apis.io/isbusinessemail/hosts/isbusinessemail-hosts.yml
   title: ''
   type: Hosts
   url: hosts/isbusinessemail-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/vendors/isbusinessemail-vendors.yml
+  href: https://artifacts.apis.io/isbusinessemail/vendors/isbusinessemail-vendors.yml
   title: ''
   type: Vendors
   url: vendors/isbusinessemail-vendors.yml
@@ -148,17 +150,17 @@ common:
   type: ChangeLog
   url: https://isbusinessemail.com/changelog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/authentication/isbusinessemail-authentication.yml
+  href: https://artifacts.apis.io/isbusinessemail/authentication/isbusinessemail-authentication.yml
   title: ''
   type: Authentication
   url: authentication/isbusinessemail-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/security/isbusinessemail-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/isbusinessemail/security/isbusinessemail-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/isbusinessemail-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/security/isbusinessemail-domain-security.yml
+  href: https://artifacts.apis.io/isbusinessemail/security/isbusinessemail-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/isbusinessemail-domain-security.yml
@@ -222,14 +224,14 @@ modified: '2026-10-05'
 name: isBusinessEmail
 nav: Providers
 network: true
-overview: 'isBusinessEmail publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Check API, Feedback API, Health API, and 1 more. Tagged areas include Company, EmailVerification, BusinessTools, and EUHosted.
+overview: 'isBusinessEmail publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Check API, Feedback API, Health API, and 1 more. Tagged areas include Company, Email Verification, BusinessTools, and EU-hosted.
 
 
   The isBusinessEmail catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   isBusinessEmail''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
-random_paper: 10
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Isbusinessemail Rate Limits
@@ -257,13 +259,15 @@ score:
     catalog_gap: 55.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 22.0
     contract_quality: 56.5
     developer_ergonomics: 47.6
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 71.1
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,11 +283,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Isbusinessemail Authentication
@@ -300,8 +306,8 @@ security:
 slug: isbusinessemail
 tags:
 - Company
-- EmailVerification
+- Email Verification
 - BusinessTools
-- EUHosted
+- EU-hosted
 website: https://isbusinessemail.com
 ---

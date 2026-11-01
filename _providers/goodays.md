@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.4
-  scored_at: '2026-10-17'
+  score: 19.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.goodays.co/v2
@@ -72,11 +74,8 @@ apis:
   description: The stats API from Goodays — 8 operation(s) for stats.
   name: Goodays Stats API
   slug: goodays-stats-api
-artifact_total: 17
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Goodays core API
   slug: open-goodays-core-api
@@ -100,12 +99,12 @@ collections:
   slug: open-goodays-stats-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/capabilities/goodays-capability-edges.yml
+  href: https://artifacts.apis.io/goodays/capabilities/goodays-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/goodays-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/overlays/goodays-openapi-overlay.yaml
+  href: https://artifacts.apis.io/goodays/overlays/goodays-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/goodays-openapi-overlay.yaml
@@ -126,52 +125,52 @@ common:
   type: GettingStarted
   url: https://apidocs.goodays.co/docs/welcome-to-goodays-api-platform
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/authentication/goodays-authentication.yml
+  href: https://artifacts.apis.io/goodays/authentication/goodays-authentication.yml
   title: ''
   type: Authentication
   url: authentication/goodays-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/conventions/goodays-conventions.yml
+  href: https://artifacts.apis.io/goodays/conventions/goodays-conventions.yml
   title: ''
   type: Conventions
   url: conventions/goodays-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/data-model/goodays-data-model.yml
+  href: https://artifacts.apis.io/goodays/data-model/goodays-data-model.yml
   title: ''
   type: DataModel
   url: data-model/goodays-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/lifecycle/goodays-lifecycle.yml
+  href: https://artifacts.apis.io/goodays/lifecycle/goodays-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/goodays-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/mcp/goodays-mcp.yml
+  href: https://artifacts.apis.io/goodays/mcp/goodays-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/goodays-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/llms/goodays-llms.txt
+  href: https://artifacts.apis.io/goodays/llms/goodays-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/goodays-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/packages/goodays-packages.yml
+  href: https://artifacts.apis.io/goodays/packages/goodays-packages.yml
   title: ''
   type: Packages
   url: packages/goodays-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/packages/goodays-packages.yml
+  href: https://artifacts.apis.io/goodays/packages/goodays-packages.yml
   title: ''
   type: SDKs
   url: packages/goodays-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/components/goodays-components.yml
+  href: https://artifacts.apis.io/goodays/components/goodays-components.yml
   title: ''
   type: Components
   url: components/goodays-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/conformance/goodays-conformance.yml
+  href: https://artifacts.apis.io/goodays/conformance/goodays-conformance.yml
   title: ''
   type: Conformance
   url: conformance/goodays-conformance.yml
@@ -180,22 +179,22 @@ common:
   type: Compliance
   url: https://community.goodays.co/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/security/goodays-domain-security.yml
+  href: https://artifacts.apis.io/goodays/security/goodays-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/goodays-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/skills/goodays-collect-feedback.md
+  href: https://artifacts.apis.io/goodays/skills/goodays-collect-feedback.md
   title: ''
   type: AgentSkill
   url: skills/goodays-collect-feedback.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/skills/goodays-respond-to-reviews.md
+  href: https://artifacts.apis.io/goodays/skills/goodays-respond-to-reviews.md
   title: ''
   type: AgentSkill
   url: skills/goodays-respond-to-reviews.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/skills/goodays-track-experience-metrics.md
+  href: https://artifacts.apis.io/goodays/skills/goodays-track-experience-metrics.md
   title: ''
   type: AgentSkill
   url: skills/goodays-track-experience-metrics.md
@@ -235,10 +234,10 @@ overview: 'Goodays publishes 7 API contracts indexed on the [APIs.io](https://ap
 
 
   Goodays'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 21 more developer resources.'
-random_paper: 10
+random_paper: 14
 score:
-  band: thin
-  composite: 34.1
+  band: developing
+  composite: 39.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -246,14 +245,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 42.4
-    developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 2.6
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -262,7 +261,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 34.0
+  previous_composite: 39.5
   provenance:
     conformance: derived
     contracts:
@@ -282,13 +281,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/screenshots/goodays-2026-07-25T220046.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/goodays/goodays-2026-07-25T220046.png
 security:
 - kind: authentication
   name: Goodays Authentication
@@ -298,6 +298,14 @@ security:
   name: Goodays Domain Security
   slug: goodays-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Collect customer feedback into Goodays
+  slug: goodays-collect-feedback
+- name: Respond to customer reviews in Goodays
+  slug: goodays-respond-to-reviews
+- name: Track customer-experience metrics in Goodays
+  slug: goodays-track-experience-metrics
 slug: goodays
 tags:
 - Company

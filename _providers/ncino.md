@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 56.7
-  scored_at: '2026-10-17'
+  score: 52.5
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Two hosted, remote Model Context Protocol servers for the nCino Mortgage platform — an LO server for loan officers and an Admin server for organization administrators. Both use OAuth 2.1 authorization
@@ -468,15 +470,12 @@ apis:
   description: The Webhooks API from nCino — 6 operation(s) for webhooks.
   name: nCino Webhooks API
   slug: ncino-webhooks-api
-artifact_total: 178
+artifact_total: 181
 asyncapis:
 - description: ''
   name: Ncino Mortgage Webhooks
   slug: ncino-mortgage-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Webhooks Account Assignment Webhooks API
   slug: open-ncino-account-assignment-webhooks-api
@@ -734,17 +733,17 @@ collections:
   slug: open-ncino-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/capabilities/ncino-capability-edges.yml
+  href: https://artifacts.apis.io/ncino/capabilities/ncino-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ncino-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/security/ncino-trust-center.yml
+  href: https://artifacts.apis.io/ncino/security/ncino-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ncino-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/security/ncino-domain-security.yml
+  href: https://artifacts.apis.io/ncino/security/ncino-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ncino-domain-security.yml
@@ -809,87 +808,87 @@ common:
   type: Trust
   url: https://www.ncino.com/ncino-trust
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/llms/ncino-llms.txt
+  href: https://artifacts.apis.io/ncino/llms/ncino-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ncino-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/well-known/ncino-well-known.yml
+  href: https://artifacts.apis.io/ncino/well-known/ncino-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ncino-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/well-known/ncino-api-catalog.json
+  href: https://artifacts.apis.io/ncino/well-known/ncino-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/ncino-api-catalog.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/packages/ncino-packages.yml
+  href: https://artifacts.apis.io/ncino/packages/ncino-packages.yml
   title: ''
   type: Packages
   url: packages/ncino-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/authentication/ncino-authentication.yml
+  href: https://artifacts.apis.io/ncino/authentication/ncino-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ncino-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/scopes/ncino-scopes.yml
+  href: https://artifacts.apis.io/ncino/scopes/ncino-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ncino-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/conventions/ncino-conventions.yml
+  href: https://artifacts.apis.io/ncino/conventions/ncino-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ncino-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/errors/ncino-problem-types.yml
+  href: https://artifacts.apis.io/ncino/errors/ncino-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ncino-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/lifecycle/ncino-lifecycle.yml
+  href: https://artifacts.apis.io/ncino/lifecycle/ncino-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ncino-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/conformance/ncino-conformance.yml
+  href: https://artifacts.apis.io/ncino/conformance/ncino-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ncino-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/data-model/ncino-data-model.yml
+  href: https://artifacts.apis.io/ncino/data-model/ncino-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ncino-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/sandbox/ncino-sandbox.yml
+  href: https://artifacts.apis.io/ncino/sandbox/ncino-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ncino-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/asyncapi/ncino-mortgage-webhooks.yml
+  href: https://artifacts.apis.io/ncino/asyncapi/ncino-mortgage-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ncino-mortgage-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ncino/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/overlays/ncino-mortgage-overlay.yaml
+  href: https://artifacts.apis.io/ncino/overlays/ncino-mortgage-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ncino-mortgage-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/mcp/ncino-mcp.yml
+  href: https://artifacts.apis.io/ncino/mcp/ncino-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ncino-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/mcp/ncino-tool-crosswalk.yml
+  href: https://artifacts.apis.io/ncino/mcp/ncino-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ncino-tool-crosswalk.yml
@@ -919,8 +918,8 @@ scopes:
   slug: ncino-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 34.7
+  band: developing
+  composite: 52.4
   coverage:
     artifact_dirs: 23
     catalog_earned: 40.0
@@ -930,13 +929,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 58.3
-    developer_ergonomics: 17.3
-    discoverability: 80.0
-    operational_transparency: 26.3
-  previous_composite: 34.7
+    contract_quality: 57.7
+    developer_ergonomics: 70.8
+    discoverability: 70.0
+    operational_transparency: 28.9
+  previous_composite: 52.4
   provenance:
     conformance: derived
     contracts:
@@ -955,14 +954,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 31.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 37.0
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/screenshots/ncino-2026-08-07T184748.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ncino/ncino-2026-08-07T184748.png
 security:
 - kind: authentication
   name: Ncino Authentication
@@ -976,6 +976,16 @@ security:
   name: Ncino Trust Center
   slug: ncino-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 4
+skills:
+- name: Authenticate against the nCino Mortgage API
+  slug: ncino-authenticate-and-call
+- name: Manage loan officers, team members and the organization hierarchy
+  slug: ncino-manage-users-and-orgs
+- name: Create a loan and attach borrowers
+  slug: ncino-originate-a-loan
+- name: Register and verify nCino Mortgage webhooks
+  slug: ncino-subscribe-to-webhooks
 slug: ncino
 tags:
 - Company

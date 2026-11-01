@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.3
-  scored_at: '2026-10-17'
+  score: 16.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,11 +56,8 @@ apis:
   description: Search and retrieve behavioral health treatment facility listings
   name: Substance Abuse and Mental Health Services Administration Treatment Facilities API
   slug: substance-abuse-and-mental-health-services-administration-treatment-facilities-api
-artifact_total: 17
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SAMHSA Behavioral Health Treatment Services Locator API
   slug: open-samhsa-treatment-locator
@@ -67,17 +66,17 @@ collections:
   slug: open-substance-abuse-and-mental-health-services-administration-treatment-facilities-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/plans/substance-abuse-and-mental-health-services-administration-plans-pricing.yml
+  href: https://artifacts.apis.io/substance-abuse-and-mental-health-services-administration/plans/substance-abuse-and-mental-health-services-administration-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/substance-abuse-and-mental-health-services-administration-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/rate-limits/substance-abuse-and-mental-health-services-administration-rate-limits.yml
+  href: https://artifacts.apis.io/substance-abuse-and-mental-health-services-administration/rate-limits/substance-abuse-and-mental-health-services-administration-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/substance-abuse-and-mental-health-services-administration-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/finops/substance-abuse-and-mental-health-services-administration-finops.yml
+  href: https://artifacts.apis.io/substance-abuse-and-mental-health-services-administration/finops/substance-abuse-and-mental-health-services-administration-finops.yml
   title: ''
   type: FinOps
   url: finops/substance-abuse-and-mental-health-services-administration-finops.yml
@@ -86,12 +85,12 @@ common:
   type: Blog
   url: https://www.samhsa.gov/blog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/agentic-access/substance-abuse-and-mental-health-services-administration-agentic-access.yml
+  href: https://artifacts.apis.io/substance-abuse-and-mental-health-services-administration/agentic-access/substance-abuse-and-mental-health-services-administration-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/substance-abuse-and-mental-health-services-administration-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/security/substance-abuse-and-mental-health-services-administration-domain-security.yml
+  href: https://artifacts.apis.io/substance-abuse-and-mental-health-services-administration/security/substance-abuse-and-mental-health-services-administration-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/substance-abuse-and-mental-health-services-administration-domain-security.yml
@@ -148,32 +147,32 @@ common:
   type: APIReference
   url: https://api.data.gov/docs/samhsa/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/vocabulary/samhsa-vocabulary.yml
+  href: https://artifacts.apis.io/substance-abuse-and-mental-health-services-administration/vocabulary/samhsa-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/samhsa-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/json-ld/samhsa-context.jsonld
+  href: https://artifacts.apis.io/substance-abuse-and-mental-health-services-administration/json-ld/samhsa-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/samhsa-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/json-schema/samhsa-treatment-facility-schema.json
+  href: https://artifacts.apis.io/substance-abuse-and-mental-health-services-administration/json-schema/samhsa-treatment-facility-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/samhsa-treatment-facility-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/json-schema/samhsa-nsduh-data-schema.json
+  href: https://artifacts.apis.io/substance-abuse-and-mental-health-services-administration/json-schema/samhsa-nsduh-data-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/samhsa-nsduh-data-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/json-structure/samhsa-treatment-facility-structure.json
+  href: https://artifacts.apis.io/substance-abuse-and-mental-health-services-administration/json-structure/samhsa-treatment-facility-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/samhsa-treatment-facility-structure.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/examples/samhsa-search-treatment-facilities-example.json
+  href: https://artifacts.apis.io/substance-abuse-and-mental-health-services-administration/examples/samhsa-search-treatment-facilities-example.json
   title: ''
   type: Examples
   url: examples/samhsa-search-treatment-facilities-example.json
@@ -187,7 +186,7 @@ finops:
 - has_sources: false
   method: generated
   name: Substance Abuse And Mental Health Services Administration Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: substance-abuse-and-mental-health-services-administration-finops
   template: true
@@ -224,7 +223,7 @@ plans:
 - name: Substance Abuse And Mental Health Services Administration Plans Pricing
   plan_count: 3
   slug: substance-abuse-and-mental-health-services-administration-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Substance Abuse And Mental Health Services Administration Rate Limits
@@ -243,7 +242,7 @@ rules:
   slug: substance-abuse-and-mental-health-services-administration-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.2
+  composite: 35.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 56.8
@@ -251,12 +250,12 @@ score:
     catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 23.5
     contract_quality: 58.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 19.0
     discoverability: 57.1
     operational_transparency: 13.2
   jurisdiction:
@@ -264,7 +263,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 38.4
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -278,14 +277,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/screenshots/substance-abuse-and-mental-health-services-administration-2026-06-20T194633.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/substance-abuse-and-mental-health-services-administration/substance-abuse-and-mental-health-services-administration-2026-06-20T194633.png
 security:
 - kind: domain-security
   name: Substance Abuse And Mental Health Services Administration Domain Security

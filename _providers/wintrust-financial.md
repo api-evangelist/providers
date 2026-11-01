@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Wintrust's commercial "API banking" for treasury clients. Rather than a documented REST API, Wintrust connects business customers directly to its secure file transfer protocol (SFTP) for account balan
@@ -45,17 +47,17 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wintrust-financial/refs/heads/main/plans/wintrust-financial-plans-pricing.yml
+  href: https://artifacts.apis.io/wintrust-financial/plans/wintrust-financial-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wintrust-financial-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wintrust-financial/refs/heads/main/rate-limits/wintrust-financial-rate-limits.yml
+  href: https://artifacts.apis.io/wintrust-financial/rate-limits/wintrust-financial-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wintrust-financial-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wintrust-financial/refs/heads/main/finops/wintrust-financial-finops.yml
+  href: https://artifacts.apis.io/wintrust-financial/finops/wintrust-financial-finops.yml
   title: ''
   type: FinOps
   url: finops/wintrust-financial-finops.yml
@@ -64,17 +66,17 @@ common:
   type: PrivacyPolicy
   url: https://www.wintrust.com/privacy-information.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wintrust-financial/refs/heads/main/security/wintrust-financial-domain-security.yml
+  href: https://artifacts.apis.io/wintrust-financial/security/wintrust-financial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wintrust-financial-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wintrust-financial/refs/heads/main/conformance/wintrust-financial-conformance.yml
+  href: https://artifacts.apis.io/wintrust-financial/conformance/wintrust-financial-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wintrust-financial-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wintrust-financial/refs/heads/main/llms/wintrust-financial-llms.txt
+  href: https://artifacts.apis.io/wintrust-financial/llms/wintrust-financial-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wintrust-financial-llms.txt
@@ -118,14 +120,14 @@ plans:
 - name: Wintrust Financial Plans Pricing
   plan_count: 1
   slug: wintrust-financial-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Wintrust Financial Rate Limits
   slug: wintrust-financial-rate-limits
 score:
-  band: minimal
-  composite: 10.4
+  band: emerging
+  composite: 11.2
   coverage:
     artifact_dirs: 10
     catalog_earned: 36.0
@@ -133,13 +135,13 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 15.8
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 10.7
-    discoverability: 64.3
+    developer_ergonomics: 11.9
+    discoverability: 57.1
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -148,7 +150,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 11.9
+  previous_composite: 11.2
   provenance:
     conformance: derived
   regulatory:
@@ -156,15 +158,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 10.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 11.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wintrust-financial/refs/heads/main/screenshots/wintrust-financial-2026-06-20T201518.png
+screenshot: https://apis.io/screenshots/wintrust-financial/wintrust-financial-2026-06-20T201518.png
 security:
 - kind: domain-security
   name: Wintrust Financial Domain Security

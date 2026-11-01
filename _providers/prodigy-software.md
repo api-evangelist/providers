@@ -19,7 +19,7 @@ name: Prodigy Software
 nav: Providers
 network: true
 overview: Prodigy Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Retail, Software-as-a-Service, and Digital Retailing.
-random_paper: 14
+random_paper: 6
 slug: prodigy-software
 tags:
 - Company

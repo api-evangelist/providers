@@ -12,7 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liazon/refs/heads/main/security/liazon-domain-security.yml
+  href: https://artifacts.apis.io/liazon/security/liazon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/liazon-domain-security.yml
@@ -26,7 +26,7 @@ name: Liazon
 nav: Providers
 network: true
 overview: Liazon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Employee Benefits, Insurance, and Health Insurance.
-random_paper: 15
+random_paper: 5
 security:
 - kind: domain-security
   name: Liazon Domain Security

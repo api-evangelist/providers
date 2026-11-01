@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: unknown
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.4
-  scored_at: '2026-10-17'
+  score: 9.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Real-time campground availability data at the campsite level across all public campgrounds Campflare tracks. Developers can query current and upcoming availability, inspect amenities (hookups, facilit
@@ -42,7 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/campflare/refs/heads/main/finops/campflare-finops.yml
+  href: https://artifacts.apis.io/campflare/finops/campflare-finops.yml
   title: ''
   type: FinOps
   url: finops/campflare-finops.yml
@@ -51,7 +53,7 @@ common:
   type: Pricing
   url: https://campflare.com/api
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/campflare/refs/heads/main/security/campflare-domain-security.yml
+  href: https://artifacts.apis.io/campflare/security/campflare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/campflare-domain-security.yml
@@ -104,22 +106,22 @@ common:
   type: StatusPage
   url: https://status.campflare.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/campflare/refs/heads/main/lifecycle/campflare-lifecycle.yml
+  href: https://artifacts.apis.io/campflare/lifecycle/campflare-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/campflare-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/campflare/refs/heads/main/plans/campflare-plans-pricing.yml
+  href: https://artifacts.apis.io/campflare/plans/campflare-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/campflare-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/campflare/refs/heads/main/rate-limits/campflare-rate-limits.yml
+  href: https://artifacts.apis.io/campflare/rate-limits/campflare-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/campflare-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/campflare/refs/heads/main/llms/campflare-llms.txt
+  href: https://artifacts.apis.io/campflare/llms/campflare-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/campflare-llms.txt
@@ -143,7 +145,7 @@ finops:
 - has_sources: false
   method: generated
   name: Campflare Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: campflare-finops
   template: true
@@ -161,14 +163,14 @@ plans:
 - name: Campflare Plans Pricing
   plan_count: 2
   slug: campflare-plans-pricing
-random_paper: 15
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Campflare Rate Limits
   slug: campflare-rate-limits
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 28.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 45.0
@@ -176,15 +178,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
-    access_clarity: 59.2
+    access_clarity: 65.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 25.5
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 28.1
   provenance:
     mcp: first-party
   regulatory:
@@ -193,14 +195,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/campflare/refs/heads/main/screenshots/campflare-2026-06-20T173909.png
+screenshot: https://apis.io/screenshots/campflare/campflare-2026-06-20T173909.png
 security:
 - kind: domain-security
   name: Campflare Domain Security

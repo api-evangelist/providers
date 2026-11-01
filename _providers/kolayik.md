@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-17'
+  score: 28.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -106,11 +108,8 @@ arazzos:
 - description: Discover the tenant's custom person fields and org tree, create the person, verify the stored record, and assign onboarding training.
   name: Onboard an employee in Kolay İK
   slug: kolayik-onboard-employee
-artifact_total: 29
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kolay Public Approval Process API
   slug: open-kolayik-approval-process-api
@@ -145,23 +144,28 @@ collections:
   name: Kolay Public Approval Process Unit API
   slug: open-kolayik-unit-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/kolayik/plans/kolayik-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kolayik-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/capabilities/kolayik-capability-edges.yml
+  href: https://artifacts.apis.io/kolayik/capabilities/kolayik-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kolayik-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/overlays/kolayik-public-api-overlay.yaml
+  href: https://artifacts.apis.io/kolayik/overlays/kolayik-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kolayik-public-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/security/kolayik-domain-security.yml
+  href: https://artifacts.apis.io/kolayik/security/kolayik-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kolayik-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/agentic-access/kolayik-agentic-access.yml
+  href: https://artifacts.apis.io/kolayik/agentic-access/kolayik-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kolayik-agentic-access.yml
@@ -262,77 +266,85 @@ common:
   type: YouTube
   url: https://www.youtube.com/channel/UCR3rklQaddzZsppuFM4YxHw
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/authentication/kolayik-authentication.yml
+  href: https://artifacts.apis.io/kolayik/authentication/kolayik-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kolayik-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/conventions/kolayik-conventions.yml
+  href: https://artifacts.apis.io/kolayik/conventions/kolayik-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kolayik-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/errors/kolayik-problem-types.yml
+  href: https://artifacts.apis.io/kolayik/errors/kolayik-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kolayik-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/lifecycle/kolayik-lifecycle.yml
+  href: https://artifacts.apis.io/kolayik/lifecycle/kolayik-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kolayik-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/changelog/kolayik-changelog.yml
+  href: https://artifacts.apis.io/kolayik/changelog/kolayik-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kolayik-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/conformance/kolayik-conformance.yml
+  href: https://artifacts.apis.io/kolayik/conformance/kolayik-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kolayik-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/packages/kolayik-packages.yml
+  href: https://artifacts.apis.io/kolayik/packages/kolayik-packages.yml
   title: ''
   type: Packages
   url: packages/kolayik-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/well-known/kolayik-well-known.yml
+  href: https://artifacts.apis.io/kolayik/well-known/kolayik-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kolayik-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/mcp/kolayik-mcp.yml
+  href: https://artifacts.apis.io/kolayik/mcp/kolayik-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kolayik-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/llms/kolayik-llms.txt
+  href: https://artifacts.apis.io/kolayik/llms/kolayik-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kolayik-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/data-model/kolayik-data-model.yml
+  href: https://artifacts.apis.io/kolayik/data-model/kolayik-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kolayik-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kolayik/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/arazzo/kolayik-onboard-employee.yml
+  href: https://artifacts.apis.io/kolayik/arazzo/kolayik-onboard-employee.yml
   title: ''
   type: Arazzo
   url: arazzo/kolayik-onboard-employee.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/arazzo/kolayik-book-leave.yml
+  href: https://artifacts.apis.io/kolayik/arazzo/kolayik-book-leave.yml
   title: ''
   type: Arazzo
   url: arazzo/kolayik-book-leave.yml
 created: '2026-07-17'
 description: Kolay İK (Kolay Yazılım A.Ş.) is an Istanbul-based cloud human-resources and human-capital-management SaaS platform serving more than 4,500 companies and 300,000+ employees, predominantly in Türkiye. The product covers employee/personnel records (özlük), payroll (bordro), performance evaluation, shift management (vardiya), compensation review, applicant tracking, HR analytics, time and attendance (PDKS), leave management, expense and asset tracking, and training. Kolay publishes an official public REST API — the "Kolay Public API" (v2, https://api.kolayik.com) — documented as a public Postman collection at apidocs.kolayik.com, covering person, unit, leave, timelog, transaction, approval, calendar, training, expense and payroll resources, authenticated with a bearer API token created from the in-product developer settings.
+finops:
+- has_sources: true
+  method: derived
+  name: Kolayik Finops
+  primary_unit: ''
+  service_category: ''
+  slug: kolayik-finops
+  template: true
 image: https://cdn.prod.website-files.com/6113889e45c6e62ebf4ca212/616f325923c82836146d34aa_kolay-ik-logo-tr.svg
 layout: provider
 modified: '2026-07-19'
@@ -342,13 +354,17 @@ network: true
 overview: 'KolayIK publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Approval Process API, Calendar API, Expense API, and 8 more. Tagged areas include Company, Human Resources, Payroll, HCM, and Employee Management.
 
 
-  KolayIK''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, changelog, and 35 more developer resources.'
-random_paper: 8
+  KolayIK''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, changelog, and 36 more developer resources.'
+plans:
+- name: Kolayik Plans Pricing
+  plan_count: 0
+  slug: kolayik-plans-pricing
+random_paper: 12
 score:
   band: developing
-  composite: 48.3
+  composite: 49.7
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 27
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -360,8 +376,8 @@ score:
     contract_governance: 18.2
     contract_quality: 49.0
     developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 36.8
+    discoverability: 66.1
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -370,7 +386,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 48.3
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -387,13 +403,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/screenshots/kolayik-2026-07-25T224126.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kolayik/kolayik-2026-07-25T224126.png
 security:
 - kind: authentication
   name: Kolayik Authentication
@@ -407,6 +424,16 @@ security:
   name: Kolayik Vulnerability Disclosure
   slug: kolayik-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 4
+skills:
+- name: Offboard (or rehire) an employee in Kolay İK
+  slug: kolayik-offboard-employee
+- name: Onboard an employee in Kolay İK
+  slug: kolayik-onboard-employee
+- name: Record time and expenses in Kolay İK
+  slug: kolayik-record-time-and-expenses
+- name: Check balances and file a leave request in Kolay İK
+  slug: kolayik-request-and-track-leave
 slug: kolayik
 tags:
 - Company

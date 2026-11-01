@@ -28,17 +28,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 66.9
-  scored_at: '2026-10-17'
-api_count: 36
+  score: 60.4
+  scored_at: '2026-10-31'
+api_count: 18
 apis:
 - description: Hosted, remote Model Context Protocol server exposing the Feedly Real-Time Threat Graph to AI agents. Feedly documents 16 tools covering threat actors, malware, vulnerabilities, TTPs, IoCs and cyberat
   name: Feedly Threat Graph MCP Server
@@ -188,7 +190,7 @@ apis:
   description: The CVEs API from Feedly — 2 operation(s) for cves.
   name: Feedly CV Es API
   slug: feedly-cves-api
-artifact_total: 55
+artifact_total: 61
 asyncapis:
 - description: ''
   name: Feedly Webhooks
@@ -250,17 +252,17 @@ collections:
   slug: open-feedly-vulnerability-agent
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/capabilities/feedly-capability-edges.yml
+  href: https://artifacts.apis.io/feedly/capabilities/feedly-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/feedly-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/security/feedly-domain-security.yml
+  href: https://artifacts.apis.io/feedly/security/feedly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/feedly-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/authentication/feedly-authentication.yml
+  href: https://artifacts.apis.io/feedly/authentication/feedly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/feedly-authentication.yml
@@ -321,32 +323,32 @@ common:
   type: StatusPage
   url: https://status.feedly.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/well-known/feedly-well-known.yml
+  href: https://artifacts.apis.io/feedly/well-known/feedly-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/feedly-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/well-known/feedly-api-catalog.json
+  href: https://artifacts.apis.io/feedly/well-known/feedly-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/feedly-api-catalog.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/packages/feedly-packages.yml
+  href: https://artifacts.apis.io/feedly/packages/feedly-packages.yml
   title: ''
   type: Packages
   url: packages/feedly-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/packages/feedly-packages.yml
+  href: https://artifacts.apis.io/feedly/packages/feedly-packages.yml
   title: ''
   type: SDKs
   url: packages/feedly-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/llms/feedly-llms.txt
+  href: https://artifacts.apis.io/feedly/llms/feedly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/feedly-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/conformance/feedly-conformance.yml
+  href: https://artifacts.apis.io/feedly/conformance/feedly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/feedly-conformance.yml
@@ -355,17 +357,17 @@ common:
   type: Compliance
   url: https://trust.feedly.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/errors/feedly-problem-types.yml
+  href: https://artifacts.apis.io/feedly/errors/feedly-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/feedly-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/lifecycle/feedly-lifecycle.yml
+  href: https://artifacts.apis.io/feedly/lifecycle/feedly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/feedly-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/lifecycle/feedly-lifecycle.yml
+  href: https://artifacts.apis.io/feedly/lifecycle/feedly-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/feedly-lifecycle.yml
@@ -374,12 +376,12 @@ common:
   type: Security
   url: https://feedly.com/legal/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/conventions/feedly-conventions.yml
+  href: https://artifacts.apis.io/feedly/conventions/feedly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/feedly-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/changelog/feedly-changelog.yml
+  href: https://artifacts.apis.io/feedly/changelog/feedly-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/feedly-changelog.yml
@@ -388,128 +390,136 @@ common:
   type: ChangeLog
   url: https://developers.feedly.com/changelog/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/data-model/feedly-data-model.yml
+  href: https://artifacts.apis.io/feedly/data-model/feedly-data-model.yml
   title: ''
   type: DataModel
   url: data-model/feedly-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/asyncapi/feedly-webhooks.yml
+  href: https://artifacts.apis.io/feedly/asyncapi/feedly-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/feedly-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/feedly/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/plans/feedly-plans-pricing.yml
+  href: https://artifacts.apis.io/feedly/plans/feedly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/feedly-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/rate-limits/feedly-rate-limits.yml
+  href: https://artifacts.apis.io/feedly/rate-limits/feedly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/feedly-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/security/feedly-trust-center.yml
+  href: https://artifacts.apis.io/feedly/security/feedly-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/feedly-trust-center.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-streams-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-streams-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-streams-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-search-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-search-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-entries-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-entries-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-entries-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-entities-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-entities-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-entities-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-ml-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-ml-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-ml-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-trends-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-trends-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-trends-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-enterprise-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-enterprise-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-enterprise-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-enterprise-users-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-enterprise-users-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-enterprise-users-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-enterprise-collections-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-enterprise-collections-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-enterprise-collections-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-intel-profiles-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-intel-profiles-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-intel-profiles-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-iocs-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-iocs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-iocs-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-ti-endpoints-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-ti-endpoints-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-ti-endpoints-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-agents-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-agents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-agents-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-alerts-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-alerts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-alerts-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-annotations-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-annotations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-annotations-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-tags-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-tags-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-tags-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-memes-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-memes-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-memes-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/overlays/feedly-vulnerability-agent-overlay.yaml
+  href: https://artifacts.apis.io/feedly/overlays/feedly-vulnerability-agent-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feedly-vulnerability-agent-overlay.yaml
 created: '2026-08-12'
 description: Feedly is a content aggregation and threat intelligence platform that reads millions of open sources and turns them into structured, machine-readable intelligence. Its consumer product is a feed reader built on RSS/Atom; its commercial product, Feedly Threat Intelligence, applies a family of AI models ("Leo") to build a Real-Time Threat Graph covering threat actors, malware families, CVEs, indicators of compromise, MITRE ATT&CK techniques, and cyberattacks. The Feedly API is a REST API over api.feedly.com/v3 that exposes those objects to security teams for SOAR/SIEM automation — collecting articles from AI Feeds, Folders and Boards, searching and asking questions of the corpus with LLMs, pulling CVE/malware/threat-actor insight cards and their relationships, exporting IoCs with context, and registering webhooks for saved-article and annotation events. Feedly also operates a hosted, OAuth-protected Model Context Protocol server over its Threat Graph, and publishes an open-source
   library of CTI Agent Skills and prompts for Claude.
+finops:
+- has_sources: true
+  method: derived
+  name: Feedly Finops
+  primary_unit: ''
+  service_category: ''
+  slug: feedly-finops
+  template: true
 image: https://feedly.com/favicon.ico
 layout: provider
 mcp_servers:
@@ -520,7 +530,7 @@ modified: '2026-08-12'
 name: Feedly
 nav: Providers
 network: true
-overview: 'Feedly publishes 30 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Annotations API, Contents API, and 27 more. Tagged areas include Threat Intelligence, Cybersecurity, cyber-threat-intelligence, Content Aggregation, and RSS.
+overview: 'Feedly publishes 30 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Annotations API, Contents API, and 27 more. Tagged areas include Threat Intelligence, Cybersecurity, Content Aggregation, RSS, and News.
 
 
   The Feedly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -531,16 +541,16 @@ plans:
 - name: Feedly Plans Pricing
   plan_count: 2
   slug: feedly-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Feedly Rate Limits
   slug: feedly-rate-limits
 score:
-  band: strong
-  composite: 59.6
+  band: exemplar
+  composite: 67.6
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 56.0
     catalog_earned_first_party: 16.0
     catalog_gap: 59.0
@@ -548,13 +558,18 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 68.4
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 60.0
-    developer_ergonomics: 51.2
-    discoverability: 80.0
-    operational_transparency: 55.3
-  previous_composite: 59.6
+    developer_ergonomics: 71.4
+    discoverability: 70.0
+    operational_transparency: 84.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 67.6
   provenance:
     conformance: first-party
     contracts:
@@ -570,13 +585,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/screenshots/feedly-2026-08-17T080410.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/feedly/feedly-2026-08-17T080410.png
 security:
 - kind: authentication
   name: Feedly Authentication
@@ -590,11 +606,22 @@ security:
   name: Feedly Trust Center
   slug: feedly-trust-center
   summary_line: SOC 2 Type 1, SOC 2 Type 2
+skill_count: 5
+skills:
+- name: feedly-collect-articles-from-a-feed
+  slug: feedly-collect-articles-from-a-feed
+- name: feedly-enrich-an-ioc
+  slug: feedly-enrich-an-ioc
+- name: intelligence-requirements-builder
+  slug: feedly-intelligence-requirements-builder
+- name: feedly-register-a-webhook
+  slug: feedly-register-a-webhook
+- name: feedly-triage-a-cve
+  slug: feedly-triage-a-cve
 slug: feedly
 tags:
 - Threat Intelligence
 - Cybersecurity
-- cyber-threat-intelligence
 - Content Aggregation
 - RSS
 - News

@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Civis Analytics provides an all‑in‑one analytics and AI platform for organizations to build data pipelines, perform advanced analytics, and generate actionable insights.
@@ -36,27 +38,27 @@ common:
   type: Security
   url: https://www.civisanalytics.com/legal-pages/security-center
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/civisanalytics/refs/heads/main/well-known/civisanalytics-security.txt
+  href: https://artifacts.apis.io/civisanalytics/well-known/civisanalytics-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/civisanalytics-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/civisanalytics/refs/heads/main/well-known/civisanalytics-platform-security.txt
+  href: https://artifacts.apis.io/civisanalytics/well-known/civisanalytics-platform-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/civisanalytics-platform-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/civisanalytics/refs/heads/main/well-known/civisanalytics-well-known.yml
+  href: https://artifacts.apis.io/civisanalytics/well-known/civisanalytics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/civisanalytics-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/civisanalytics/refs/heads/main/hosts/civisanalytics-hosts.yml
+  href: https://artifacts.apis.io/civisanalytics/hosts/civisanalytics-hosts.yml
   title: ''
   type: Hosts
   url: hosts/civisanalytics-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/civisanalytics/refs/heads/main/vendors/civisanalytics-vendors.yml
+  href: https://artifacts.apis.io/civisanalytics/vendors/civisanalytics-vendors.yml
   title: ''
   type: Vendors
   url: vendors/civisanalytics-vendors.yml
@@ -85,12 +87,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/CivisAnalytics
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/civisanalytics/refs/heads/main/security/civisanalytics-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/civisanalytics/security/civisanalytics-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/civisanalytics-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/civisanalytics/refs/heads/main/security/civisanalytics-domain-security.yml
+  href: https://artifacts.apis.io/civisanalytics/security/civisanalytics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/civisanalytics-domain-security.yml
@@ -117,7 +119,7 @@ overview: 'Civisanalytics is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   Civisanalytics'' developer surface includes support, signup flow, and 13 more developer resources.'
-random_paper: 14
+random_paper: 22
 score:
   band: emerging
   composite: 16.1
@@ -128,6 +130,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -135,6 +138,7 @@ score:
     developer_ergonomics: 4.8
     discoverability: 55.4
     operational_transparency: 15.8
+  previous_composite: 16.1
   provenance:
     mcp: unknown
   regulatory:
@@ -143,8 +147,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

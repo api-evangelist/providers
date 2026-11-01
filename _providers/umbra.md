@@ -31,14 +31,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 47.8
-  scored_at: '2026-10-17'
+  score: 45.6
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: 'Anonymous, hosted Model Context Protocol server published by Umbra on the Canopy documentation host. Exposes six tools that let an agent enumerate the Canopy OpenAPI specs, list and search endpoints, '
@@ -114,11 +116,8 @@ apis:
   description: The Thumbnail API from Umbra — 1 operation(s) for thumbnail.
   name: Umbra Thumbnail API
   slug: umbra-thumbnail-api
-artifact_total: 33
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Admin Client Credentials API
   slug: open-umbra-client-credentials-api
@@ -156,8 +155,13 @@ collections:
   name: STAC Archive Thumbnail API
   slug: open-umbra-thumbnail-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/umbra/plans/umbra-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/umbra-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/overlays/umbra-admin-overlay.yaml
+  href: https://artifacts.apis.io/umbra/overlays/umbra-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/umbra-admin-overlay.yaml
@@ -222,7 +226,7 @@ common:
   type: ChangeLog
   url: https://docs.canopy.umbra.space/docs/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/changelog/umbra-changelog.yml
+  href: https://artifacts.apis.io/umbra/changelog/umbra-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/umbra-changelog.yml
@@ -231,92 +235,100 @@ common:
   type: Deprecation
   url: https://docs.canopy.umbra.space/docs/versioning-policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/lifecycle/umbra-lifecycle.yml
+  href: https://artifacts.apis.io/umbra/lifecycle/umbra-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/umbra-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/authentication/umbra-authentication.yml
+  href: https://artifacts.apis.io/umbra/authentication/umbra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/umbra-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/scopes/umbra-scopes.yml
+  href: https://artifacts.apis.io/umbra/scopes/umbra-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/umbra-scopes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/rate-limits/umbra-rate-limits.yml
+  href: https://artifacts.apis.io/umbra/rate-limits/umbra-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/umbra-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/sandbox/umbra-sandbox.yml
+  href: https://artifacts.apis.io/umbra/sandbox/umbra-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/umbra-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/conventions/umbra-conventions.yml
+  href: https://artifacts.apis.io/umbra/conventions/umbra-conventions.yml
   title: ''
   type: Conventions
   url: conventions/umbra-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/errors/umbra-problem-types.yml
+  href: https://artifacts.apis.io/umbra/errors/umbra-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/umbra-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/conformance/umbra-conformance.yml
+  href: https://artifacts.apis.io/umbra/conformance/umbra-conformance.yml
   title: ''
   type: Conformance
   url: conformance/umbra-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/data-model/umbra-data-model.yml
+  href: https://artifacts.apis.io/umbra/data-model/umbra-data-model.yml
   title: ''
   type: DataModel
   url: data-model/umbra-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/packages/umbra-packages.yml
+  href: https://artifacts.apis.io/umbra/packages/umbra-packages.yml
   title: ''
   type: Packages
   url: packages/umbra-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/well-known/umbra-well-known.yml
+  href: https://artifacts.apis.io/umbra/well-known/umbra-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/umbra-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/well-known/umbra-api-catalog.json
+  href: https://artifacts.apis.io/umbra/well-known/umbra-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/umbra-api-catalog.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/llms/umbra-llms.txt
+  href: https://artifacts.apis.io/umbra/llms/umbra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/umbra-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/mcp/umbra-mcp.yml
+  href: https://artifacts.apis.io/umbra/mcp/umbra-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/umbra-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/mcp/umbra-tool-crosswalk.yml
+  href: https://artifacts.apis.io/umbra/mcp/umbra-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/umbra-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/umbra/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/security/umbra-domain-security.yml
+  href: https://artifacts.apis.io/umbra/security/umbra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/umbra-domain-security.yml
 created: '2026-08-05'
 description: 'Umbra is an American space technology company operating a constellation of commercial synthetic aperture radar (SAR) satellites capable of sub-25cm resolution imaging, day or night and through cloud cover. Its Canopy platform gives customers self-service access to the constellation through both a web application and a public REST API: customers calculate tasking feasibility against targets of interest, submit Tasks to collect new imagery in Spotlight, Dwell or Scan imaging modes, track Task and Collect status through the full collection-downlink-processing-delivery lifecycle, search a STAC-compliant archive catalog of existing imagery, and configure direct data delivery into their own AWS S3 or Google Cloud Storage buckets. Umbra licenses its imagery under CC BY 4.0, publishes open pricing, and runs an open data program.'
+finops:
+- has_sources: true
+  method: derived
+  name: Umbra Finops
+  primary_unit: 5x5km collection
+  service_category: ''
+  slug: umbra-finops
+  template: false
 image: https://umbra.space/wp-content/uploads/2025/10/cropped-site-identifier-logo_.png
 layout: provider
 mcp_servers:
@@ -330,7 +342,11 @@ network: true
 overview: 'Umbra publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Client Credentials API, Collections API, Collect Metadata API, and 12 more. Tagged areas include Satellite Imagery, Synthetic Aperture Radar, Earth Observation, Geospatial, and Space.
 
 
-  Umbra''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Umbra''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+plans:
+- name: Umbra Plans Pricing
+  plan_count: 7
+  slug: umbra-plans-pricing
 random_paper: 7
 rate_limits:
 - limit_count: 6
@@ -342,29 +358,29 @@ scopes:
   slug: umbra-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 45.3
+  band: strong
+  composite: 60.5
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 52.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    artifact_dirs: 25
+    catalog_earned: 67.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 31.6
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 52.7
-    developer_ergonomics: 47.0
-    discoverability: 76.7
-    operational_transparency: 46.1
+    contract_quality: 48.7
+    developer_ergonomics: 66.1
+    discoverability: 70.0
+    operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 45.2
+  previous_composite: 52.6
   provenance:
     conformance: derived
     contracts:
@@ -380,13 +396,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/screenshots/umbra-2026-08-17T082544.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/umbra/umbra-2026-08-17T082544.png
 security:
 - kind: authentication
   name: Umbra Authentication
@@ -396,6 +413,14 @@ security:
   name: Umbra Domain Security
   slug: umbra-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Configure and verify Umbra Canopy data delivery
+  slug: umbra-configure-data-delivery
+- name: Search Umbra's SAR archive and retrieve imagery
+  slug: umbra-search-archive-imagery
+- name: Task a new SAR collection with Umbra Canopy
+  slug: umbra-task-new-collection
 slug: umbra
 tags:
 - Satellite Imagery

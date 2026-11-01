@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.6
-  scored_at: '2026-10-17'
+  score: 48.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -120,7 +122,7 @@ apis:
   description: Perform and Manage card validations
   name: Moneris Validations API
   slug: moneris-validations-api
-artifact_total: 22
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Moneris Subscriptions Webhooks
@@ -130,63 +132,68 @@ collections:
   name: Moneris API
   slug: open-moneris-unified-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/moneris/plans/moneris-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/moneris-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/capabilities/moneris-capability-edges.yml
+  href: https://artifacts.apis.io/moneris/capabilities/moneris-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/moneris-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/overlays/moneris-unified-api-overlay.yaml
+  href: https://artifacts.apis.io/moneris/overlays/moneris-unified-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moneris-unified-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/security/moneris-domain-security.yml
+  href: https://artifacts.apis.io/moneris/security/moneris-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moneris-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/agentic-access/moneris-agentic-access.yml
+  href: https://artifacts.apis.io/moneris/agentic-access/moneris-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/moneris-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/scopes/moneris-scopes.yml
+  href: https://artifacts.apis.io/moneris/scopes/moneris-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/moneris-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/authentication/moneris-authentication.yml
+  href: https://artifacts.apis.io/moneris/authentication/moneris-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moneris-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/mcp/moneris-mcp.yml
+  href: https://artifacts.apis.io/moneris/mcp/moneris-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/moneris-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/conventions/moneris-conventions.yml
+  href: https://artifacts.apis.io/moneris/conventions/moneris-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moneris-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/conventions/moneris-conventions.yml
+  href: https://artifacts.apis.io/moneris/conventions/moneris-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/moneris-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/errors/moneris-problem-types.yml
+  href: https://artifacts.apis.io/moneris/errors/moneris-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/moneris-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/errors/moneris-decline-codes.yml
+  href: https://artifacts.apis.io/moneris/errors/moneris-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/moneris-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/lifecycle/moneris-lifecycle.yml
+  href: https://artifacts.apis.io/moneris/lifecycle/moneris-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moneris-lifecycle.yml
@@ -195,7 +202,7 @@ common:
   type: StatusPage
   url: https://status.moneris.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/conformance/moneris-conformance.yml
+  href: https://artifacts.apis.io/moneris/conformance/moneris-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moneris-conformance.yml
@@ -204,32 +211,32 @@ common:
   type: Compliance
   url: https://www.moneris.com/en/support/compliance-and-security/pci-data-security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/asyncapi/moneris-subscriptions-webhooks.yml
+  href: https://artifacts.apis.io/moneris/asyncapi/moneris-subscriptions-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/moneris-subscriptions-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/data-model/moneris-data-model.yml
+  href: https://artifacts.apis.io/moneris/data-model/moneris-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moneris-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/sandbox/moneris-sandbox.yml
+  href: https://artifacts.apis.io/moneris/sandbox/moneris-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/moneris-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/well-known/moneris-well-known.yml
+  href: https://artifacts.apis.io/moneris/well-known/moneris-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/moneris-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/llms/moneris-llms.txt
+  href: https://artifacts.apis.io/moneris/llms/moneris-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moneris-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/moneris/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -292,6 +299,14 @@ common:
 created: '2026-07-23'
 description: 'Moneris (Moneris Solutions Corporation) is Canada''s largest payment processor and merchant-acquiring company, founded in December 2000 as a joint venture equally owned by Royal Bank of Canada (RBC) and Bank of Montreal (BMO). It is a payment-technology and card-acquiring company rather than a deposit-taking Schedule I bank, sitting in the payments-infrastructure layer of Canadian financial services: it serves roughly 325,000 points of commerce, processes close to five billion transactions a year, and handles on the order of one in three Canadian card transactions. In 2025-2026 RBC and BMO explored a sale of the venture, with Francisco Partners (owner of Verifone) reported as the lead buyer. Unlike its bank owners, Moneris is not subject to Canada''s coming Consumer-Driven Banking framework; its "open" surface is a commercial, self-serve first-party developer program. Moneris runs a real, public developer portal at developer.moneris.com documenting the Moneris Unified API (REST,
   OpenAPI 3.0.3, hosts api.moneris.io production / api.sb.moneris.io sandbox) covering payments, tokenized payment methods, refunds, recurring billing/subscriptions, 3-D Secure, Kount fraud/risk, disputes, multi-currency pricing, and third-party merchant onboarding, secured with OAuth 2.0 client credentials and API keys, with a published Postman workspace.'
+finops:
+- has_sources: true
+  method: derived
+  name: Moneris Finops
+  primary_unit: successful credit card transaction
+  service_category: ''
+  slug: moneris-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
@@ -308,31 +323,38 @@ overview: 'Moneris publishes 15 API contracts indexed on the [APIs.io](https://a
   The Moneris catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Moneris'' developer surface includes authentication, sandbox, getting-started guide, changelog, signup flow, documentation, engineering blog, and 28 more developer resources.'
-random_paper: 17
+  Moneris'' developer surface includes authentication, sandbox, getting-started guide, changelog, signup flow, documentation, engineering blog, and 29 more developer resources.'
+plans:
+- name: Moneris Plans Pricing
+  plan_count: 3
+  slug: moneris-plans-pricing
+- name: Moneris Price Estimates
+  plan_count: 0
+  slug: moneris-price-estimates
+random_paper: 21
 scopes:
 - name: Moneris Scopes
   scope_count: 14
   slug: moneris-scopes
   summary_line: 14 scopes · clientCredentials
 score:
-  band: developing
-  composite: 41.7
+  band: strong
+  composite: 64.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 6.6
+    access_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 61.0
-    developer_ergonomics: 45.8
-    discoverability: 75.0
-    operational_transparency: 34.2
+    contract_quality: 59.6
+    developer_ergonomics: 70.8
+    discoverability: 65.0
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -340,7 +362,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 41.7
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -356,14 +378,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 36.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 48.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/screenshots/moneris-2026-08-07T184149.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/moneris/moneris-2026-08-07T184149.png
 security:
 - kind: authentication
   name: Moneris Authentication
@@ -373,6 +396,14 @@ security:
   name: Moneris Domain Security
   slug: moneris-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Create a customer and charge them
+  slug: moneris-create-customer-and-charge
+- name: Pre-authorize, complete, and refund a payment
+  slug: moneris-preauth-complete-refund
+- name: Create and manage a recurring subscription
+  slug: moneris-recurring-subscription
 slug: moneris
 tags:
 - Financial Services

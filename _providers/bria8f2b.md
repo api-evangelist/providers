@@ -2,7 +2,7 @@
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: false
     agentic_commerce: false
@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.bria.ai
@@ -66,60 +68,60 @@ apis:
   description: The Video Editing API from Bria8f2b — 1 operation(s) for video editing.
   name: Bria8f2b Video Editing API
   slug: bria8f2b-video-editing-api
-artifact_total: 12
+artifact_total: 14
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bria8f2b/refs/heads/main/plans/bria8f2b-plans-pricing.yml
+  href: https://artifacts.apis.io/bria8f2b/plans/bria8f2b-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bria8f2b-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bria8f2b/refs/heads/main/rules/bria8f2b-rules.yml
+  href: https://artifacts.apis.io/bria8f2b/rules/bria8f2b-rules.yml
   title: ''
   type: Spectral
   url: rules/bria8f2b-rules.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bria8f2b/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bria8f2b/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bria8f2b/refs/heads/main/authentication/bria8f2b-authentication.yml
+  href: https://artifacts.apis.io/bria8f2b/authentication/bria8f2b-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bria8f2b-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bria8f2b/refs/heads/main/errors/bria8f2b-problem-types.yml
+  href: https://artifacts.apis.io/bria8f2b/errors/bria8f2b-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bria8f2b-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bria8f2b/refs/heads/main/conformance/bria8f2b-conformance.yml
+  href: https://artifacts.apis.io/bria8f2b/conformance/bria8f2b-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bria8f2b-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bria8f2b/refs/heads/main/llms/bria8f2b-llms.txt
+  href: https://artifacts.apis.io/bria8f2b/llms/bria8f2b-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bria8f2b-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bria8f2b/refs/heads/main/a2a/bria8f2b-a2a.yml
+  href: https://artifacts.apis.io/bria8f2b/a2a/bria8f2b-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/bria8f2b-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bria8f2b/refs/heads/main/well-known/bria8f2b-well-known.yml
+  href: https://artifacts.apis.io/bria8f2b/well-known/bria8f2b-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bria8f2b-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bria8f2b/refs/heads/main/hosts/bria8f2b-hosts.yml
+  href: https://artifacts.apis.io/bria8f2b/hosts/bria8f2b-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bria8f2b-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bria8f2b/refs/heads/main/vendors/bria8f2b-vendors.yml
+  href: https://artifacts.apis.io/bria8f2b/vendors/bria8f2b-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bria8f2b-vendors.yml
@@ -152,7 +154,7 @@ common:
   type: Documentation
   url: https://docs.bria.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bria8f2b/refs/heads/main/security/bria8f2b-domain-security.yml
+  href: https://artifacts.apis.io/bria8f2b/security/bria8f2b-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bria8f2b-domain-security.yml
@@ -162,6 +164,14 @@ common:
   url: https://bria.ai
 created: '2026-10-03'
 description: Bria (Bria.ai) provides controllable visual AI solutions for enterprises, offering product shot generation, tailored image creation, and visual PaaS across industries such as tech, marketing, ecommerce, media, and gaming. The platform includes extensive API documentation, a status page, pricing, blog, and resources for responsible AI, security, and compliance, positioning itself as a comprehensive visual AI service for businesses.
+finops:
+- has_sources: true
+  method: derived
+  name: Bria8F2B Finops
+  primary_unit: ''
+  service_category: ''
+  slug: bria8f2b-finops
+  template: true
 image: https://cdn.sanity.io/images/zppcnj0l/production/315c9e01bd4534858413ec77d68e9130e9e86b17-1270x240.png
 layout: provider
 modified: '2026-10-03'
@@ -179,7 +189,7 @@ plans:
 - name: Bria8F2B Plans Pricing
   plan_count: 3
   slug: bria8f2b-plans-pricing
-random_paper: 16
+random_paper: 0
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -195,23 +205,23 @@ rules:
   slug: bria8f2b-rules
 score:
   band: developing
-  composite: 42.5
+  composite: 42.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 53.5
     catalog_earned_first_party: 12.0
     catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 18.2
-    contract_quality: 46.8
+    contract_quality: 45.6
     developer_ergonomics: 37.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 43.4
+  previous_composite: 42.2
   provenance:
     conformance: derived
     contracts:
@@ -227,12 +237,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Bria8F2B Authentication
@@ -242,6 +253,10 @@ security:
   name: Bria8F2B Domain Security
   slug: bria8f2b-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: bria8f2b-generate-product-shots
+  slug: bria8f2b-generate-product-shots
 slug: bria8f2b
 tags:
 - Company

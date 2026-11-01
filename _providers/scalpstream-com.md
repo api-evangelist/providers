@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: Machine-payable US recall lookups over x402. Given a product, brand, ingredient or vehicle (make/model/year), returns active recalls across FDA food/drug/device enforcement, NHTSA vehicle safety campa
@@ -52,7 +54,7 @@ common:
   type: BlogRSS
   url: https://www.scalpstream.com/blog-feed.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/security/scalpstream-com-domain-security.yml
+  href: https://artifacts.apis.io/scalpstream-com/security/scalpstream-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/scalpstream-com-domain-security.yml
@@ -81,32 +83,32 @@ common:
   type: SourceCode
   url: https://github.com/DV1-321/scalpstream-mcp
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/a2a/scalpstream-com-a2a.yml
+  href: https://artifacts.apis.io/scalpstream-com/a2a/scalpstream-com-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/scalpstream-com-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/mcp/scalpstream-com-mcp.yml
+  href: https://artifacts.apis.io/scalpstream-com/mcp/scalpstream-com-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/scalpstream-com-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/packages/scalpstream-com-packages.yml
+  href: https://artifacts.apis.io/scalpstream-com/packages/scalpstream-com-packages.yml
   title: ''
   type: Packages
   url: packages/scalpstream-com-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/well-known/scalpstream-com-well-known.yml
+  href: https://artifacts.apis.io/scalpstream-com/well-known/scalpstream-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/scalpstream-com-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/x402/scalpstream-com-x402.yml
+  href: https://artifacts.apis.io/scalpstream-com/x402/scalpstream-com-x402.yml
   title: ''
   type: X-X402
   url: x402/scalpstream-com-x402.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/llms/scalpstream-com-llms.txt
+  href: https://artifacts.apis.io/scalpstream-com/llms/scalpstream-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/scalpstream-com-llms.txt
@@ -115,57 +117,57 @@ common:
   type: LLMsTxt
   url: https://recallscout.scalpstream.com/llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/conformance/scalpstream-com-conformance.yml
+  href: https://artifacts.apis.io/scalpstream-com/conformance/scalpstream-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/scalpstream-com-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/conventions/scalpstream-com-conventions.yml
+  href: https://artifacts.apis.io/scalpstream-com/conventions/scalpstream-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/scalpstream-com-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/authentication/scalpstream-com-authentication.yml
+  href: https://artifacts.apis.io/scalpstream-com/authentication/scalpstream-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/scalpstream-com-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/errors/scalpstream-com-problem-types.yml
+  href: https://artifacts.apis.io/scalpstream-com/errors/scalpstream-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/scalpstream-com-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/lifecycle/scalpstream-com-lifecycle.yml
+  href: https://artifacts.apis.io/scalpstream-com/lifecycle/scalpstream-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/scalpstream-com-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/plans/scalpstream-com-plans-pricing.yml
+  href: https://artifacts.apis.io/scalpstream-com/plans/scalpstream-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/scalpstream-com-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/rate-limits/scalpstream-com-rate-limits.yml
+  href: https://artifacts.apis.io/scalpstream-com/rate-limits/scalpstream-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/scalpstream-com-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/changelog/scalpstream-com-changelog.yml
+  href: https://artifacts.apis.io/scalpstream-com/changelog/scalpstream-com-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/scalpstream-com-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/data-model/scalpstream-com-data-model.yml
+  href: https://artifacts.apis.io/scalpstream-com/data-model/scalpstream-com-data-model.yml
   title: ''
   type: DataModel
   url: data-model/scalpstream-com-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/sandbox/scalpstream-com-sandbox.yml
+  href: https://artifacts.apis.io/scalpstream-com/sandbox/scalpstream-com-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/scalpstream-com-sandbox.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/regulatory/scalpstream-com-regulatory-posture.yml
+  href: https://artifacts.apis.io/scalpstream-com/regulatory/scalpstream-com-regulatory-posture.yml
   title: ''
   type: X-RegulatoryPosture
   url: regulatory/scalpstream-com-regulatory-posture.yml
@@ -193,14 +195,14 @@ plans:
 - name: Scalpstream Com Plans Pricing
   plan_count: 0
   slug: scalpstream-com-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Scalpstream Com Rate Limits
   slug: scalpstream-com-rate-limits
 score:
-  band: emerging
-  composite: 25.2
+  band: thin
+  composite: 26.8
   coverage:
     artifact_dirs: 23
     catalog_earned: 49.0
@@ -208,15 +210,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 12.0
-    developer_ergonomics: 36.9
+    developer_ergonomics: 42.9
     discoverability: 76.7
-    operational_transparency: 18.4
-  previous_composite: 24.8
+    operational_transparency: 21.1
+  previous_composite: 26.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -226,14 +228,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/screenshots/scalpstream-com-2026-10-11T125535.png
+screenshot: https://apis.io/screenshots/scalpstream-com/scalpstream-com-2026-10-11T125535.png
 security:
 - kind: authentication
   name: Scalpstream Com Authentication

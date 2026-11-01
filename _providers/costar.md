@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 0.6
-  scored_at: '2026-10-17'
+  score: 3.5
+  scored_at: '2026-10-31'
 api_count: 14
 apis:
 - description: CoStar's flagship commercial real estate information platform covering property, tenant, lease, sale, and market analytics across office, industrial, retail, multifamily, and specialty CRE asset class
@@ -80,28 +82,61 @@ apis:
   slug: lands-of-america
 artifact_total: 19
 common:
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.costargroup.com/
+- group: other
+  href: https://artifacts.apis.io/costar/hosts/costar-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/costar-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/costar/integrations/costar-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/costar-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/costar/vendors/costar-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/costar-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/costar/packages/costar-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/costar-packages.yml
+- group: build
+  href: https://artifacts.apis.io/costar/packages/costar-packages.yml
+  title: ''
+  type: Packages
+  url: packages/costar-packages.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/CoStarGroup
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/costar/refs/heads/main/plans/costar-plans-pricing.yml
+  href: https://artifacts.apis.io/costar/plans/costar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/costar-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/costar/refs/heads/main/rate-limits/costar-rate-limits.yml
+  href: https://artifacts.apis.io/costar/rate-limits/costar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/costar-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/costar/refs/heads/main/finops/costar-finops.yml
+  href: https://artifacts.apis.io/costar/finops/costar-finops.yml
   title: ''
   type: FinOps
   url: finops/costar-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/costar/refs/heads/main/security/costar-trust-center.yml
+  href: https://artifacts.apis.io/costar/security/costar-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/costar-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/costar/refs/heads/main/security/costar-domain-security.yml
+  href: https://artifacts.apis.io/costar/security/costar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/costar-domain-security.yml
@@ -125,6 +160,16 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/costar-group/
+coverage:
+  checked: '2026-10-20'
+  detail: CoStar Group publishes no public developer portal or contract; api.loopnet.com/graphql answers 403 to anonymous and control requests alike and data is distributed via enterprise licensing contracts.
+  evidence:
+  - status: 403
+    url: https://api.loopnet.com/graphql
+  - status: 403
+    url: https://www.costargroup.com
+  reason: sales-gate
+  state: gated
 created: '2026-05-23'
 description: CoStar Group is the dominant commercial and residential real estate data, analytics, and marketplace company. The portfolio spans the flagship CoStar commercial real estate intelligence platform, LoopNet (CRE marketplace), Apartments.com network (residential rentals, including ForRent.com and Westside Rentals), Homes.com and Homesnap (for-sale residential), Ten-X (online CRE auctions), BizBuySell (business-for-sale marketplace), STR (hotel data), Visual Lease (lease management), Matterport (3D spatial capture), and international properties including OnTheMarket (UK), Emporis (Germany), and a controlling stake in Domain Group (Australia). Distribution to partners is via enterprise data licensing, syndication feeds, and brand-specific marketplace tooling rather than a public self-serve developer portal.
 finops:
@@ -144,49 +189,49 @@ network: true
 overview: 'CoStar Group is listed with 14 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Commercial Real Estate, Residential Real Estate, Real Estate Data, Marketplace, and Analytics.
 
 
-  CoStar Group''s developer surface includes product news and 9 more developer resources.'
+  CoStar Group''s developer surface includes product news and 16 more developer resources.'
 plans:
 - name: Costar Plans Pricing
   plan_count: 1
   slug: costar-plans-pricing
-random_paper: 14
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Costar Rate Limits
   slug: costar-rate-limits
 score:
   band: emerging
-  composite: 11.8
+  composite: 15.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 11
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 72.3
-    operational_transparency: 5.3
-  previous_composite: 17.8
+    developer_ergonomics: 16.7
+    discoverability: 73.2
+    operational_transparency: 10.5
+  previous_composite: 15.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/costar/refs/heads/main/screenshots/costar-2026-06-20T175051.png
+screenshot: https://apis.io/screenshots/costar/costar-2026-06-20T175051.png
 security:
 - kind: domain-security
   name: Costar Domain Security
@@ -195,7 +240,7 @@ security:
 - kind: trust-center
   name: Costar Trust Center
   slug: costar-trust-center
-  summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
+  summary_line: ISO 27001, PCI DSS
 slug: costar
 tags:
 - Commercial Real Estate

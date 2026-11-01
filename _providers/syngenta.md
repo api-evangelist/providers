@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Syngenta developer portal (requires login)
@@ -32,27 +34,27 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/syngenta/refs/heads/main/well-known/syngenta-well-known.yml
+  href: https://artifacts.apis.io/syngenta/well-known/syngenta-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/syngenta-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/syngenta/refs/heads/main/hosts/syngenta-hosts.yml
+  href: https://artifacts.apis.io/syngenta/hosts/syngenta-hosts.yml
   title: ''
   type: Hosts
   url: hosts/syngenta-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/syngenta/refs/heads/main/vendors/syngenta-vendors.yml
+  href: https://artifacts.apis.io/syngenta/vendors/syngenta-vendors.yml
   title: ''
   type: Vendors
   url: vendors/syngenta-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/syngenta/refs/heads/main/packages/syngenta-packages.yml
+  href: https://artifacts.apis.io/syngenta/packages/syngenta-packages.yml
   title: ''
   type: SDKs
   url: packages/syngenta-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/syngenta/refs/heads/main/packages/syngenta-packages.yml
+  href: https://artifacts.apis.io/syngenta/packages/syngenta-packages.yml
   title: ''
   type: Packages
   url: packages/syngenta-packages.yml
@@ -81,7 +83,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/syngenta
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/syngenta/refs/heads/main/security/syngenta-domain-security.yml
+  href: https://artifacts.apis.io/syngenta/security/syngenta-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/syngenta-domain-security.yml
@@ -109,7 +111,7 @@ overview: 'Syngenta is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Syngenta''s developer surface includes signup flow and 12 more developer resources.'
-random_paper: 15
+random_paper: 9
 score:
   band: emerging
   composite: 17.4
@@ -120,6 +122,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -127,6 +130,7 @@ score:
     developer_ergonomics: 16.7
     discoverability: 58.9
     operational_transparency: 5.3
+  previous_composite: 17.4
   provenance:
     mcp: derived
   regulatory:
@@ -135,8 +139,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

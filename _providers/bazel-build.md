@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
-    mcp_server: platform
+    idempotency: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-10-17'
+  score: 24.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Registry-wide metadata
   name: Bazel Registry API
   slug: bazel-build-registry-api
-artifact_total: 33
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bazel Central Registry Modules API
   slug: open-bazel-build-modules-api
@@ -79,6 +78,11 @@ collections:
   name: Bazel Central Registry API
   slug: open-bazel-central-registry
 common:
+- group: other
+  href: https://artifacts.apis.io/bazel-build/capabilities/bazel-build-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bazel-build-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -96,12 +100,12 @@ common:
   type: ContributionGuide
   url: https://github.com/bazelbuild/remote-apis/blob/main/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/agentic-access/bazel-build-agentic-access.yml
+  href: https://artifacts.apis.io/bazel-build/agentic-access/bazel-build-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bazel-build-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/security/bazel-build-domain-security.yml
+  href: https://artifacts.apis.io/bazel-build/security/bazel-build-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bazel-build-domain-security.yml
@@ -274,17 +278,17 @@ common:
   type: CodeExamples
   url: https://github.com/bazelbuild/examples
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/vocabulary/bazel-build-vocabulary.yml
+  href: https://artifacts.apis.io/bazel-build/vocabulary/bazel-build-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bazel-build-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/json-ld/bazel-build-context.jsonld
+  href: https://artifacts.apis.io/bazel-build/json-ld/bazel-build-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bazel-build-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/rules/bazel-build-rules.yml
+  href: https://artifacts.apis.io/bazel-build/rules/bazel-build-rules.yml
   title: ''
   type: SpectralRules
   url: rules/bazel-build-rules.yml
@@ -357,8 +361,8 @@ overview: 'Bazel publishes 6 API contracts indexed on the [APIs.io](https://apis
   The Bazel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Bazel''s developer surface includes developer portal, documentation, getting-started guide, API reference, engineering blog, changelog, Stack Overflow tag, and 45 more developer resources.'
-random_paper: 21
+  Bazel''s developer surface includes developer portal, documentation, getting-started guide, API reference, engineering blog, changelog, Stack Overflow tag, and 46 more developer resources.'
+random_paper: 19
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -385,23 +389,23 @@ rules:
   slug: bazel-build-rules
 score:
   band: developing
-  composite: 46.0
+  composite: 43.8
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 15
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.0
-    catalog_max: 100.0
+    catalog_gap: 57.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 28.6
+    access_clarity: 10.5
     contract_governance: 27.3
     contract_quality: 62.3
     developer_ergonomics: 61.9
-    discoverability: 60.0
-    operational_transparency: 23.7
-  previous_composite: 45.9
+    discoverability: 57.1
+    operational_transparency: 36.8
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     contracts:
@@ -416,14 +420,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/screenshots/bazel-build-2026-06-20T173055.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bazel-build/bazel-build-2026-06-20T173055.png
 security:
 - kind: domain-security
   name: Bazel Build Domain Security

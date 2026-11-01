@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,11 +56,8 @@ apis:
   description: Operations operations
   name: Azure Application Gateway Operations API
   slug: microsoft-azure-application-gateway-operations-api
-artifact_total: 13
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure Application Gateway REST Application Gateways API
   slug: open-microsoft-azure-application-gateway-application-gateways-api
@@ -70,22 +69,22 @@ collections:
   slug: open-microsoft-azure-application-gateway
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-application-gateway/refs/heads/main/plans/microsoft-azure-application-gateway-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-azure-application-gateway/plans/microsoft-azure-application-gateway-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-azure-application-gateway-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-application-gateway/refs/heads/main/rate-limits/microsoft-azure-application-gateway-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-azure-application-gateway/rate-limits/microsoft-azure-application-gateway-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-azure-application-gateway-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-application-gateway/refs/heads/main/finops/microsoft-azure-application-gateway-finops.yml
+  href: https://artifacts.apis.io/microsoft-azure-application-gateway/finops/microsoft-azure-application-gateway-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-azure-application-gateway-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-application-gateway/refs/heads/main/capabilities/microsoft-azure-application-gateway-capability-edges.yml
+  href: https://artifacts.apis.io/microsoft-azure-application-gateway/capabilities/microsoft-azure-application-gateway-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-azure-application-gateway-capability-edges.yml
@@ -94,22 +93,22 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-application-gateway/refs/heads/main/agentic-access/microsoft-azure-application-gateway-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-azure-application-gateway/agentic-access/microsoft-azure-application-gateway-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-application-gateway-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-application-gateway/refs/heads/main/security/microsoft-azure-application-gateway-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-azure-application-gateway/security/microsoft-azure-application-gateway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-application-gateway-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-application-gateway/refs/heads/main/authentication/microsoft-azure-application-gateway-authentication.yml
+  href: https://artifacts.apis.io/microsoft-azure-application-gateway/authentication/microsoft-azure-application-gateway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-application-gateway-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-application-gateway/refs/heads/main/scopes/microsoft-azure-application-gateway-scopes.yml
+  href: https://artifacts.apis.io/microsoft-azure-application-gateway/scopes/microsoft-azure-application-gateway-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-application-gateway-scopes.yml
@@ -151,7 +150,7 @@ finops:
 - has_sources: false
   method: generated
   name: Microsoft Azure Application Gateway Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: microsoft-azure-application-gateway-finops
   template: true
@@ -169,7 +168,7 @@ plans:
 - name: Microsoft Azure Application Gateway Plans Pricing
   plan_count: 3
   slug: microsoft-azure-application-gateway-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Application Gateway Rate Limits
@@ -181,7 +180,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: thin
-  composite: 37.1
+  composite: 35.9
   coverage:
     artifact_dirs: 14
     catalog_earned: 33.0
@@ -189,15 +188,15 @@ score:
     catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 38.1
     discoverability: 55.4
-    operational_transparency: 10.5
-  previous_composite: 38.6
+    operational_transparency: 13.2
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -211,13 +210,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-application-gateway/refs/heads/main/screenshots/microsoft-azure-application-gateway-2026-06-20T185354.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-azure-application-gateway/microsoft-azure-application-gateway-2026-06-20T185354.png
 security:
 - kind: authentication
   name: Microsoft Azure Application Gateway Authentication

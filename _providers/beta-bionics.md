@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The private cloud API behind the Beta Bionics Bionic (HCP) Portal and the iLet / Bionic Circle mobile apps. Observed as an Amazon API Gateway deployment at us-main-prod.betabionicsapi.com, authenticat
@@ -84,37 +86,37 @@ common:
   type: Careers
   url: https://www.betabionics.com/about-us/careers/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beta-bionics/refs/heads/main/authentication/beta-bionics-authentication.yml
+  href: https://artifacts.apis.io/beta-bionics/authentication/beta-bionics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/beta-bionics-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beta-bionics/refs/heads/main/scopes/beta-bionics-scopes.yml
+  href: https://artifacts.apis.io/beta-bionics/scopes/beta-bionics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/beta-bionics-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beta-bionics/refs/heads/main/well-known/beta-bionics-well-known.yml
+  href: https://artifacts.apis.io/beta-bionics/well-known/beta-bionics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/beta-bionics-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beta-bionics/refs/heads/main/security/beta-bionics-domain-security.yml
+  href: https://artifacts.apis.io/beta-bionics/security/beta-bionics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beta-bionics-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beta-bionics/refs/heads/main/conformance/beta-bionics-conformance.yml
+  href: https://artifacts.apis.io/beta-bionics/conformance/beta-bionics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/beta-bionics-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beta-bionics/refs/heads/main/llms/beta-bionics-llms.txt
+  href: https://artifacts.apis.io/beta-bionics/llms/beta-bionics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beta-bionics-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/beta-bionics/refs/heads/main/packages/beta-bionics-packages.yml
+  href: https://artifacts.apis.io/beta-bionics/packages/beta-bionics-packages.yml
   title: ''
   type: Packages
   url: packages/beta-bionics-packages.yml
@@ -131,7 +133,7 @@ overview: 'Beta Bionics is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   Beta Bionics'' developer surface includes support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 12
+random_paper: 0
 scopes:
 - name: Beta Bionics Scopes
   scope_count: 4
@@ -139,23 +141,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.8
+  composite: 22.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 22.7
+  previous_composite: 22.1
   provenance:
     conformance: first-party
   regulatory:
@@ -168,14 +170,14 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/beta-bionics/refs/heads/main/screenshots/beta-bionics-2026-08-07T162324.png
+screenshot: https://apis.io/screenshots/beta-bionics/beta-bionics-2026-08-07T162324.png
 security:
 - kind: authentication
   name: Beta Bionics Authentication

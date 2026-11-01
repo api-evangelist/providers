@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - description: Unified lease and loan management platform delivering originations, servicing, and remarketing on a single asset-level data model with an API-first integration framework, low-code configuration toolin
@@ -68,7 +70,7 @@ apis:
 artifact_total: 11
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/odessa-technologies/refs/heads/main/security/odessa-technologies-domain-security.yml
+  href: https://artifacts.apis.io/odessa-technologies/security/odessa-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/odessa-technologies-domain-security.yml
@@ -140,10 +142,10 @@ overview: 'Odessa Technologies is listed with 10 APIs on the [APIs.io](https://a
 
 
   Odessa Technologies'' developer surface includes engineering blog, GitHub presence, and 13 more developer resources.'
-random_paper: 10
+random_paper: 0
 score:
   band: minimal
-  composite: 8.0
+  composite: 8.1
   coverage:
     artifact_dirs: 4
     catalog_earned: 35.0
@@ -157,7 +159,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 63.4
+    discoverability: 64.3
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -166,21 +168,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 8.0
+  previous_composite: 8.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/odessa-technologies/refs/heads/main/screenshots/odessa-technologies-2026-06-20T190623.png
+screenshot: https://apis.io/screenshots/odessa-technologies/odessa-technologies-2026-06-20T190623.png
 security:
 - kind: domain-security
   name: Odessa Technologies Domain Security

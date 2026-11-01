@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,22 +20,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.2
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 36.1
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: Energy Storage Resource public data, launched May 29, 2025 per the ERCOT Public Data API release notes, beginning with four-second ESR charging MW telemetry (GET /rptesr-m/4_sec_esr_charging_mw). Docu
   name: ERCOT ESR Public Data API
@@ -234,7 +236,7 @@ apis:
   description: The Versioning API from ERCOT — 1 operation(s) for versioning.
   name: ERCOT Versioning API
   slug: ercot-versioning-api
-artifact_total: 47
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Ercot Ews Notifications
@@ -249,12 +251,12 @@ common:
   type: Blog
   url: https://www.ercot.com/news
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/capabilities/ercot-capability-edges.yml
+  href: https://artifacts.apis.io/ercot/capabilities/ercot-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ercot-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/overlays/ercot-public-data-api-overlay.yaml
+  href: https://artifacts.apis.io/ercot/overlays/ercot-public-data-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ercot-public-data-api-overlay.yaml
@@ -263,47 +265,47 @@ common:
   type: IssueTracker
   url: https://github.com/ercot/ews-client/issues
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/security/ercot-domain-security.yml
+  href: https://artifacts.apis.io/ercot/security/ercot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ercot-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/authentication/ercot-authentication.yml
+  href: https://artifacts.apis.io/ercot/authentication/ercot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ercot-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/scopes/ercot-scopes.yml
+  href: https://artifacts.apis.io/ercot/scopes/ercot-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ercot-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/well-known/ercot-well-known.yml
+  href: https://artifacts.apis.io/ercot/well-known/ercot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ercot-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/well-known/ercot-openid-configuration.json
+  href: https://artifacts.apis.io/ercot/well-known/ercot-openid-configuration.json
   title: ''
   type: OpenIDConfiguration
   url: well-known/ercot-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/conventions/ercot-conventions.yml
+  href: https://artifacts.apis.io/ercot/conventions/ercot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ercot-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/errors/ercot-problem-types.yml
+  href: https://artifacts.apis.io/ercot/errors/ercot-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ercot-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/rate-limits/ercot-rate-limits.yml
+  href: https://artifacts.apis.io/ercot/rate-limits/ercot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ercot-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/lifecycle/ercot-lifecycle.yml
+  href: https://artifacts.apis.io/ercot/lifecycle/ercot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ercot-lifecycle.yml
@@ -312,47 +314,47 @@ common:
   type: Deprecation
   url: https://developer.ercot.com/applications/pubapi/deprecation-notices/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/changelog/ercot-changelog.yml
+  href: https://artifacts.apis.io/ercot/changelog/ercot-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ercot-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/conformance/ercot-conformance.yml
+  href: https://artifacts.apis.io/ercot/conformance/ercot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ercot-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/data-model/ercot-data-model.yml
+  href: https://artifacts.apis.io/ercot/data-model/ercot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ercot-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/packages/ercot-packages.yml
+  href: https://artifacts.apis.io/ercot/packages/ercot-packages.yml
   title: ''
   type: Packages
   url: packages/ercot-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/mcp/ercot-mcp.yml
+  href: https://artifacts.apis.io/ercot/mcp/ercot-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ercot-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/mcp/ercot-tool-crosswalk.yml
+  href: https://artifacts.apis.io/ercot/mcp/ercot-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ercot-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/asyncapi/ercot-ews-notifications.yml
+  href: https://artifacts.apis.io/ercot/asyncapi/ercot-ews-notifications.yml
   title: ''
   type: Webhooks
   url: asyncapi/ercot-ews-notifications.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ercot/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/llms/ercot-llms.txt
+  href: https://artifacts.apis.io/ercot/llms/ercot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ercot-llms.txt
@@ -451,7 +453,7 @@ scopes:
   summary_line: 3 scopes · password
 score:
   band: developing
-  composite: 50.2
+  composite: 49.8
   coverage:
     artifact_dirs: 23
     catalog_earned: 38.0
@@ -459,14 +461,14 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 54.3
     developer_ergonomics: 58.9
-    discoverability: 60.7
-    operational_transparency: 55.3
+    discoverability: 53.6
+    operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -474,7 +476,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 49.7
+  previous_composite: 49.8
   provenance:
     conformance: derived
     contracts:
@@ -490,14 +492,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/screenshots/ercot-2026-08-07T164957.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ercot/ercot-2026-08-07T164957.png
 security:
 - kind: authentication
   name: Ercot Authentication
@@ -507,6 +509,16 @@ security:
   name: Ercot Domain Security
   slug: ercot-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Authenticate to the ERCOT Public Data API and discover data products
+  slug: ercot-authenticate-and-discover
+- name: Harvest ERCOT 60-day SCED and DAM disclosure reports and historic archives
+  slug: ercot-harvest-60-day-disclosures
+- name: Query ERCOT day-ahead and real-time market prices
+  slug: ercot-query-market-prices
+- name: Track ERCOT system load, wind and solar production, and outage capacity
+  slug: ercot-track-load-and-renewables
 slug: ercot
 tags:
 - Energy

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Last-mile express parcel API covering pincode serviceability, bulk and single waybill generation, order creation/manifestation, shipment tracking, order edit and cancel, shipping-charge invoicing, pac
@@ -105,32 +107,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/delhivery
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delhivery/refs/heads/main/asyncapi/delhivery-tracking-webhooks.yml
+  href: https://artifacts.apis.io/delhivery/asyncapi/delhivery-tracking-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/delhivery-tracking-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/delhivery/refs/heads/main/authentication/delhivery-authentication.yml
+  href: https://artifacts.apis.io/delhivery/authentication/delhivery-authentication.yml
   title: ''
   type: Authentication
   url: authentication/delhivery-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delhivery/refs/heads/main/conventions/delhivery-conventions.yml
+  href: https://artifacts.apis.io/delhivery/conventions/delhivery-conventions.yml
   title: ''
   type: Conventions
   url: conventions/delhivery-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delhivery/refs/heads/main/components/delhivery-components.yml
+  href: https://artifacts.apis.io/delhivery/components/delhivery-components.yml
   title: ''
   type: Components
   url: components/delhivery-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/delhivery/refs/heads/main/llms/delhivery-llms.txt
+  href: https://artifacts.apis.io/delhivery/llms/delhivery-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/delhivery-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/delhivery/refs/heads/main/security/delhivery-domain-security.yml
+  href: https://artifacts.apis.io/delhivery/security/delhivery-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/delhivery-domain-security.yml
@@ -149,10 +151,10 @@ overview: 'Delhivery is listed with 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Delhivery''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 4
+random_paper: 12
 score:
-  band: thin
-  composite: 30.7
+  band: developing
+  composite: 41.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 40.0
@@ -160,14 +162,14 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 47.6
-    discoverability: 78.6
-    operational_transparency: 10.5
+    developer_ergonomics: 64.3
+    discoverability: 71.4
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -175,21 +177,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 30.6
+  previous_composite: 41.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 19.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/delhivery/refs/heads/main/screenshots/delhivery-2026-07-25T211645.png
+screenshot: https://apis.io/screenshots/delhivery/delhivery-2026-07-25T211645.png
 security:
 - kind: authentication
   name: Delhivery Authentication

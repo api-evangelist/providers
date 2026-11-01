@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 29.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -107,7 +109,7 @@ arazzos:
 - description: Run an OpenAI-compatible tool call and feed the tool result back for a final answer.
   name: Hyperbolic Tool Calling Roundtrip
   slug: hyperbolic-ai-tool-calling-roundtrip-workflow
-artifact_total: 68
+artifact_total: 67
 collections:
 - collection_type: postman
   name: Hyperbolic Audio Generation API
@@ -124,9 +126,6 @@ collections:
 - collection_type: postman
   name: Hyperbolic Models API
   slug: postman-hyperbolic-models-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Hyperbolic Audio Generation API
   slug: open-hyperbolic-ai-audio-generation-api
@@ -158,33 +157,38 @@ collections:
   name: Hyperbolic Models API
   slug: open-hyperbolic-models-api
 common:
+- group: other
+  href: https://artifacts.apis.io/hyperbolic-ai/capabilities/hyperbolic-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hyperbolic-ai-capability-edges.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/rules/hyperbolic-ai-rules.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/rules/hyperbolic-ai-rules.yml
   title: ''
   type: Spectral
   url: rules/hyperbolic-ai-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/rules/hyperbolic-ai-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/rules/hyperbolic-ai-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/hyperbolic-ai-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/data-model/hyperbolic-ai-data-model.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/data-model/hyperbolic-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hyperbolic-ai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/errors/hyperbolic-ai-problem-types.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/errors/hyperbolic-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hyperbolic-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/conformance/hyperbolic-ai-conformance.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/conformance/hyperbolic-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hyperbolic-ai-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/integrations/hyperbolic-ai-integration-edges.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/integrations/hyperbolic-ai-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/hyperbolic-ai-integration-edges.yml
@@ -205,17 +209,17 @@ common:
   type: License
   url: https://github.com/HyperbolicLabs/hyperbolic-cli/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/agentic-access/hyperbolic-ai-agentic-access.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/agentic-access/hyperbolic-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hyperbolic-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/security/hyperbolic-ai-domain-security.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/security/hyperbolic-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hyperbolic-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/authentication/hyperbolic-ai-authentication.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/authentication/hyperbolic-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hyperbolic-ai-authentication.yml
@@ -224,47 +228,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/hyperbolic/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/arazzo/hyperbolic-ai-chat-to-image-workflow.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/arazzo/hyperbolic-ai-chat-to-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hyperbolic-ai-chat-to-image-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/arazzo/hyperbolic-ai-chat-to-speech-workflow.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/arazzo/hyperbolic-ai-chat-to-speech-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hyperbolic-ai-chat-to-speech-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/arazzo/hyperbolic-ai-discover-model-and-chat-workflow.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/arazzo/hyperbolic-ai-discover-model-and-chat-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hyperbolic-ai-discover-model-and-chat-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/arazzo/hyperbolic-ai-discover-model-and-complete-workflow.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/arazzo/hyperbolic-ai-discover-model-and-complete-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hyperbolic-ai-discover-model-and-complete-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/arazzo/hyperbolic-ai-generate-and-describe-image-workflow.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/arazzo/hyperbolic-ai-generate-and-describe-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hyperbolic-ai-generate-and-describe-image-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/arazzo/hyperbolic-ai-image-prompt-qa-workflow.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/arazzo/hyperbolic-ai-image-prompt-qa-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hyperbolic-ai-image-prompt-qa-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/arazzo/hyperbolic-ai-multimodal-story-workflow.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/arazzo/hyperbolic-ai-multimodal-story-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hyperbolic-ai-multimodal-story-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/arazzo/hyperbolic-ai-research-summarize-narrate-workflow.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/arazzo/hyperbolic-ai-research-summarize-narrate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hyperbolic-ai-research-summarize-narrate-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/arazzo/hyperbolic-ai-tool-calling-roundtrip-workflow.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/arazzo/hyperbolic-ai-tool-calling-roundtrip-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hyperbolic-ai-tool-calling-roundtrip-workflow.yml
@@ -437,27 +441,27 @@ common:
   type: ApiBaseURL
   url: https://api.hyperbolic.xyz/v1
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/plans/hyperbolic-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/plans/hyperbolic-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hyperbolic-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/rate-limits/hyperbolic-ai-rate-limits.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/rate-limits/hyperbolic-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hyperbolic-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/finops/hyperbolic-ai-finops.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/finops/hyperbolic-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/hyperbolic-ai-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/vocabulary/hyperbolic-ai-vocabulary.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/vocabulary/hyperbolic-ai-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/hyperbolic-ai-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/rules/hyperbolic-ai-rules.yml
+  href: https://artifacts.apis.io/hyperbolic-ai/rules/hyperbolic-ai-rules.yml
   title: ''
   type: SpectralRules
   url: rules/hyperbolic-ai-rules.yml
@@ -527,7 +531,7 @@ overview: 'Hyperbolic publishes 8 API contracts indexed on the [APIs.io](https:/
   The Hyperbolic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Hyperbolic''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, sandbox, engineering blog, and 63 more developer resources.'
+  Hyperbolic''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, sandbox, engineering blog, and 64 more developer resources.'
 plans:
 - name: Hyperbolic Ai Plans Pricing
   plan_count: 16
@@ -562,16 +566,16 @@ rules:
     warn: 7
   slug: hyperbolic-ai-rules
 score:
-  band: developing
-  composite: 53.7
+  band: strong
+  composite: 57.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 63.4
     catalog_earned_first_party: 0.0
     catalog_gap: 51.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 31.8
@@ -579,10 +583,7 @@ score:
     developer_ergonomics: 75.0
     discoverability: 62.5
     operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 57.7
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -598,13 +599,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/screenshots/hyperbolic-ai-2026-06-20T183118.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hyperbolic-ai/hyperbolic-ai-2026-06-20T183118.png
 security:
 - kind: authentication
   name: Hyperbolic Ai Authentication

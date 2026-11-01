@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Trip lists, trip detail, paths, and driving events.
   name: LEEO Insurance Services Trips API
   slug: leeo-insurance-services-trips-api
-artifact_total: 12
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LEEO Fleet Telematics Aggregates API
   slug: open-leeo-insurance-services-aggregates-api
@@ -83,7 +82,7 @@ collections:
   slug: open-leeo-insurance-services-trips-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/overlays/leeo-insurance-services-fleet-overlay.yaml
+  href: https://artifacts.apis.io/leeo-insurance-services/overlays/leeo-insurance-services-fleet-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/leeo-insurance-services-fleet-overlay.yaml
@@ -132,72 +131,72 @@ common:
   type: Website
   url: https://leeoinsurance.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/packages/leeo-insurance-services-packages.yml
+  href: https://artifacts.apis.io/leeo-insurance-services/packages/leeo-insurance-services-packages.yml
   title: ''
   type: Packages
   url: packages/leeo-insurance-services-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/packages/leeo-insurance-services-packages.yml
+  href: https://artifacts.apis.io/leeo-insurance-services/packages/leeo-insurance-services-packages.yml
   title: ''
   type: SDKs
   url: packages/leeo-insurance-services-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/authentication/leeo-insurance-services-authentication.yml
+  href: https://artifacts.apis.io/leeo-insurance-services/authentication/leeo-insurance-services-authentication.yml
   title: ''
   type: Authentication
   url: authentication/leeo-insurance-services-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/conventions/leeo-insurance-services-conventions.yml
+  href: https://artifacts.apis.io/leeo-insurance-services/conventions/leeo-insurance-services-conventions.yml
   title: ''
   type: Conventions
   url: conventions/leeo-insurance-services-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/errors/leeo-insurance-services-problem-types.yml
+  href: https://artifacts.apis.io/leeo-insurance-services/errors/leeo-insurance-services-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/leeo-insurance-services-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/lifecycle/leeo-insurance-services-lifecycle.yml
+  href: https://artifacts.apis.io/leeo-insurance-services/lifecycle/leeo-insurance-services-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/leeo-insurance-services-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/changelog/leeo-insurance-services-changelog.yml
+  href: https://artifacts.apis.io/leeo-insurance-services/changelog/leeo-insurance-services-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/leeo-insurance-services-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/conformance/leeo-insurance-services-conformance.yml
+  href: https://artifacts.apis.io/leeo-insurance-services/conformance/leeo-insurance-services-conformance.yml
   title: ''
   type: Conformance
   url: conformance/leeo-insurance-services-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/data-model/leeo-insurance-services-data-model.yml
+  href: https://artifacts.apis.io/leeo-insurance-services/data-model/leeo-insurance-services-data-model.yml
   title: ''
   type: DataModel
   url: data-model/leeo-insurance-services-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/mcp/leeo-insurance-services-mcp.yml
+  href: https://artifacts.apis.io/leeo-insurance-services/mcp/leeo-insurance-services-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/leeo-insurance-services-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/llms/leeo-insurance-services-llms.txt
+  href: https://artifacts.apis.io/leeo-insurance-services/llms/leeo-insurance-services-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leeo-insurance-services-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/leeo-insurance-services/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/agentic-access/leeo-insurance-services-agentic-access.yml
+  href: https://artifacts.apis.io/leeo-insurance-services/agentic-access/leeo-insurance-services-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/leeo-insurance-services-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/security/leeo-insurance-services-domain-security.yml
+  href: https://artifacts.apis.io/leeo-insurance-services/security/leeo-insurance-services-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leeo-insurance-services-domain-security.yml
@@ -213,12 +212,12 @@ overview: 'LEEO Insurance Services is listed with 4 APIs on the [APIs.io](https:
 
 
   LEEO Insurance Services'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 19 more developer resources.'
-random_paper: 15
+random_paper: 19
 score:
   band: thin
-  composite: 34.1
+  composite: 35.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -226,12 +225,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 15.2
     developer_ergonomics: 66.1
-    discoverability: 78.6
-    operational_transparency: 18.4
+    discoverability: 71.4
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -239,7 +238,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 34.1
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,14 +255,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/screenshots/leeo-insurance-services-2026-07-25T224822.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/leeo-insurance-services/leeo-insurance-services-2026-07-25T224822.png
 security:
 - kind: authentication
   name: Leeo Insurance Services Authentication
@@ -273,6 +272,14 @@ security:
   name: Leeo Insurance Services Domain Security
   slug: leeo-insurance-services-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: LEEO driver safety review
+  slug: leeo-insurance-services-driver-safety-review
+- name: LEEO fleet reporting export
+  slug: leeo-insurance-services-fleet-reporting
+- name: LEEO trip investigation
+  slug: leeo-insurance-services-trip-investigation
 slug: leeo-insurance-services
 tags:
 - Company

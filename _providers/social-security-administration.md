@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 20.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,11 +61,8 @@ apis:
   description: Query SSA Resident Station locations and hours
   name: Social Security Administration Resident Stations API
   slug: social-security-administration-resident-stations-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SSA Field Office Address Field Offices API
   slug: open-social-security-administration-field-offices-api
@@ -78,27 +77,27 @@ collections:
   slug: open-ssa-resident-station
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/plans/social-security-administration-plans-pricing.yml
+  href: https://artifacts.apis.io/social-security-administration/plans/social-security-administration-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/social-security-administration-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/rate-limits/social-security-administration-rate-limits.yml
+  href: https://artifacts.apis.io/social-security-administration/rate-limits/social-security-administration-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/social-security-administration-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/finops/social-security-administration-finops.yml
+  href: https://artifacts.apis.io/social-security-administration/finops/social-security-administration-finops.yml
   title: ''
   type: FinOps
   url: finops/social-security-administration-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/agentic-access/social-security-administration-agentic-access.yml
+  href: https://artifacts.apis.io/social-security-administration/agentic-access/social-security-administration-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/social-security-administration-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/security/social-security-administration-domain-security.yml
+  href: https://artifacts.apis.io/social-security-administration/security/social-security-administration-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/social-security-administration-domain-security.yml
@@ -127,32 +126,32 @@ common:
   type: Data.gov Organization
   url: https://catalog.data.gov/organization/ssa-gov
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/json-schema/ssa-field-office-schema.json
+  href: https://artifacts.apis.io/social-security-administration/json-schema/ssa-field-office-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/ssa-field-office-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/json-schema/ssa-resident-station-schema.json
+  href: https://artifacts.apis.io/social-security-administration/json-schema/ssa-resident-station-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/ssa-resident-station-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/json-structure/ssa-office-structure.json
+  href: https://artifacts.apis.io/social-security-administration/json-structure/ssa-office-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/ssa-office-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/json-ld/ssa-context.jsonld
+  href: https://artifacts.apis.io/social-security-administration/json-ld/ssa-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/ssa-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/vocabulary/ssa-vocabulary.yml
+  href: https://artifacts.apis.io/social-security-administration/vocabulary/ssa-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ssa-vocabulary.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/examples/ssa-field-office-query-example.json
+  href: https://artifacts.apis.io/social-security-administration/examples/ssa-field-office-query-example.json
   title: ''
   type: Examples
   url: examples/ssa-field-office-query-example.json
@@ -166,7 +165,7 @@ finops:
 - has_sources: false
   method: generated
   name: Social Security Administration Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: social-security-administration-finops
   template: true
@@ -203,7 +202,7 @@ plans:
 - name: Social Security Administration Plans Pricing
   plan_count: 3
   slug: social-security-administration-plans-pricing
-random_paper: 21
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Social Security Administration Rate Limits
@@ -242,7 +241,7 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
@@ -255,7 +254,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 27.0
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     contracts:
@@ -269,14 +268,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/screenshots/social-security-administration-2026-06-20T194118.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/social-security-administration/social-security-administration-2026-06-20T194118.png
 security:
 - kind: domain-security
   name: Social Security Administration Domain Security

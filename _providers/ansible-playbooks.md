@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -123,11 +125,8 @@ apis:
   description: The Workflow Jobs API from Ansible Playbooks — 1 operation(s) for workflow jobs.
   name: Ansible Playbooks Workflow Jobs API
   slug: ansible-playbooks-workflow-jobs-api
-artifact_total: 62
+artifact_total: 61
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ansible Automation Controller Playbooks Auth API
   slug: open-ansible-playbooks-auth-api
@@ -169,22 +168,22 @@ collections:
   slug: open-ansible-playbooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/plans/ansible-playbooks-plans-pricing.yml
+  href: https://artifacts.apis.io/ansible-playbooks/plans/ansible-playbooks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ansible-playbooks-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/rate-limits/ansible-playbooks-rate-limits.yml
+  href: https://artifacts.apis.io/ansible-playbooks/rate-limits/ansible-playbooks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ansible-playbooks-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/finops/ansible-playbooks-finops.yml
+  href: https://artifacts.apis.io/ansible-playbooks/finops/ansible-playbooks-finops.yml
   title: ''
   type: FinOps
   url: finops/ansible-playbooks-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/capabilities/ansible-playbooks-capability-edges.yml
+  href: https://artifacts.apis.io/ansible-playbooks/capabilities/ansible-playbooks-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ansible-playbooks-capability-edges.yml
@@ -213,17 +212,17 @@ common:
   type: ContributionGuide
   url: https://github.com/ansible/awx/blob/devel/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/agentic-access/ansible-playbooks-agentic-access.yml
+  href: https://artifacts.apis.io/ansible-playbooks/agentic-access/ansible-playbooks-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ansible-playbooks-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/security/ansible-playbooks-domain-security.yml
+  href: https://artifacts.apis.io/ansible-playbooks/security/ansible-playbooks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ansible-playbooks-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/authentication/ansible-playbooks-authentication.yml
+  href: https://artifacts.apis.io/ansible-playbooks/authentication/ansible-playbooks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ansible-playbooks-authentication.yml
@@ -290,11 +289,11 @@ features:
 - description: Discover, download, and manage Ansible collections and roles from Galaxy, Automation Hub, or private repositories.
   name: Collections and Role Management
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Ansible Playbooks Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: ansible-playbooks-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ansible-playbooks.png
@@ -342,9 +341,9 @@ overview: 'Ansible Playbooks publishes 18 API contracts indexed on the [APIs.io]
   Ansible Playbooks'' developer surface includes authentication, getting-started guide, engineering blog, and 20 more developer resources.'
 plans:
 - name: Ansible Playbooks Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: ansible-playbooks-plans-pricing
-random_paper: 21
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Ansible Playbooks Rate Limits
@@ -363,23 +362,23 @@ rules:
   slug: ansible-playbooks-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.3
+  composite: 51.3
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 58.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 56.3
+    artifact_dirs: 19
+    catalog_earned: 63.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -2.1
   facets:
-    access_clarity: 28.9
+    access_clarity: 52.6
     contract_governance: 23.5
-    contract_quality: 49.0
-    developer_ergonomics: 61.9
+    contract_quality: 47.7
+    developer_ergonomics: 64.3
     discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 46.8
+    operational_transparency: 39.5
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     contracts:
@@ -393,13 +392,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/screenshots/ansible-playbooks-2026-06-20T172018.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ansible-playbooks/ansible-playbooks-2026-06-20T172018.png
 security:
 - kind: authentication
   name: Ansible Playbooks Authentication

@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.3
-  scored_at: '2026-10-17'
+  score: 31.2
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Bearer-authenticated REST/JSON API for listing brands and retrieving full brand detail including color palettes, website, social links, and metadata.
@@ -35,54 +37,54 @@ apis:
 - description: Hosted streamable-HTTP MCP server exposing read-only brand tools, account tools, resources, and prompts. Auth via OAuth 2.1 or Bearer secret key. Registry name io.motomarks/mcp.
   name: MCP Server
   slug: mcp-server
-artifact_total: 10
+artifact_total: 13
 common:
 - group: company
   title: ''
   type: Website
   url: https://motomarks.io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/security/motomarks-domain-security.yml
+  href: https://artifacts.apis.io/motomarks/security/motomarks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/motomarks-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/well-known/motomarks-well-known.yml
+  href: https://artifacts.apis.io/motomarks/well-known/motomarks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/motomarks-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/authentication/motomarks-authentication.yml
+  href: https://artifacts.apis.io/motomarks/authentication/motomarks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/motomarks-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/scopes/motomarks-scopes.yml
+  href: https://artifacts.apis.io/motomarks/scopes/motomarks-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/motomarks-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/conformance/motomarks-conformance.yml
+  href: https://artifacts.apis.io/motomarks/conformance/motomarks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/motomarks-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/errors/motomarks-problem-types.yml
+  href: https://artifacts.apis.io/motomarks/errors/motomarks-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/motomarks-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/lifecycle/motomarks-lifecycle.yml
+  href: https://artifacts.apis.io/motomarks/lifecycle/motomarks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/motomarks-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/conventions/motomarks-conventions.yml
+  href: https://artifacts.apis.io/motomarks/conventions/motomarks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/motomarks-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/changelog/motomarks-changelog.yml
+  href: https://artifacts.apis.io/motomarks/changelog/motomarks-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/motomarks-changelog.yml
@@ -91,32 +93,32 @@ common:
   type: ChangeLog
   url: https://motomarks.io/changelog
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/plans/motomarks-plans-pricing.yml
+  href: https://artifacts.apis.io/motomarks/plans/motomarks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/motomarks-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/rate-limits/motomarks-rate-limits.yml
+  href: https://artifacts.apis.io/motomarks/rate-limits/motomarks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/motomarks-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/data-model/motomarks-data-model.yml
+  href: https://artifacts.apis.io/motomarks/data-model/motomarks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/motomarks-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/packages/motomarks-packages.yml
+  href: https://artifacts.apis.io/motomarks/packages/motomarks-packages.yml
   title: ''
   type: Packages
   url: packages/motomarks-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/security/motomarks-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/motomarks/security/motomarks-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/motomarks-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/security/motomarks-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/motomarks/security/motomarks-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/motomarks-vulnerability-disclosure.yml
@@ -146,6 +148,14 @@ common:
   url: https://github.com/motomarks
 created: '2026-09-08'
 description: A car-manufacturer logo API and image CDN delivering badge, wordmark, and full-logo assets plus structured brand data for 420+ automotive brands. Offers a REST/JSON API, a token-authenticated image CDN, a hosted MCP server, an llms.txt, and published agent skills.
+finops:
+- has_sources: true
+  method: derived
+  name: Motomarks Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: motomarks-finops
+  template: false
 image: https://motomarks.io/favicon.png
 layout: provider
 mcp_servers:
@@ -164,7 +174,10 @@ plans:
 - name: Motomarks Plans Pricing
   plan_count: 4
   slug: motomarks-plans-pricing
-random_paper: 21
+- name: Motomarks Price Estimates
+  plan_count: 0
+  slug: motomarks-price-estimates
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Motomarks Rate Limits
@@ -176,23 +189,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.8
+  composite: 43.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 64.0
+    artifact_dirs: 20
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 71.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 80.0
-    operational_transparency: 60.5
-  previous_composite: 41.7
+    discoverability: 76.7
+    operational_transparency: 63.2
+  previous_composite: 41.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -203,14 +216,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/screenshots/motomarks-2026-10-11T111306.png
+screenshot: https://apis.io/screenshots/motomarks/motomarks-2026-10-11T111306.png
 security:
 - kind: authentication
   name: Motomarks Authentication
@@ -224,6 +237,10 @@ security:
   name: Motomarks Vulnerability Disclosure
   slug: motomarks-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 1
+skills:
+- name: find-brand-logo
+  slug: motomarks-find-brand-logo
 slug: motomarks
 tags:
 - Automotive

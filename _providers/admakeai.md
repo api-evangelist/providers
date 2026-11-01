@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.1
-  scored_at: '2026-10-17'
+  score: 32.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +58,7 @@ apis:
 - description: 'Published SKILL.md that teaches an agent tool selection from natural-language intent, credit mechanics, pagination, destructive-action confirmation, and prompt patterns for ad creative. Installed via '
   name: AdMakeAI Agent Skill
   slug: admakeai-agent-skill
-artifact_total: 10
+artifact_total: 13
 common:
 - group: company
   title: ''
@@ -67,77 +69,77 @@ common:
   type: License
   url: https://github.com/mesmerlord/admakeai-agent-skills/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/well-known/admakeai-well-known.yml
+  href: https://artifacts.apis.io/admakeai/well-known/admakeai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/admakeai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/llms/admakeai-llms.txt
+  href: https://artifacts.apis.io/admakeai/llms/admakeai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/admakeai-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/packages/admakeai-packages.yml
+  href: https://artifacts.apis.io/admakeai/packages/admakeai-packages.yml
   title: ''
   type: Packages
   url: packages/admakeai-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/authentication/admakeai-authentication.yml
+  href: https://artifacts.apis.io/admakeai/authentication/admakeai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/admakeai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/scopes/admakeai-scopes.yml
+  href: https://artifacts.apis.io/admakeai/scopes/admakeai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/admakeai-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/agentic-access/admakeai-agentic-access.yml
+  href: https://artifacts.apis.io/admakeai/agentic-access/admakeai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/admakeai-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/admakeai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/conventions/admakeai-conventions.yml
+  href: https://artifacts.apis.io/admakeai/conventions/admakeai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/admakeai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/errors/admakeai-error-codes.yml
+  href: https://artifacts.apis.io/admakeai/errors/admakeai-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/admakeai-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/conformance/admakeai-conformance.yml
+  href: https://artifacts.apis.io/admakeai/conformance/admakeai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/admakeai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/lifecycle/admakeai-lifecycle.yml
+  href: https://artifacts.apis.io/admakeai/lifecycle/admakeai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/admakeai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/data-model/admakeai-data-model.yml
+  href: https://artifacts.apis.io/admakeai/data-model/admakeai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/admakeai-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/plans/admakeai-plans-pricing.yml
+  href: https://artifacts.apis.io/admakeai/plans/admakeai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/admakeai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/rate-limits/admakeai-rate-limits.yml
+  href: https://artifacts.apis.io/admakeai/rate-limits/admakeai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/admakeai-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/security/admakeai-domain-security.yml
+  href: https://artifacts.apis.io/admakeai/security/admakeai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/admakeai-domain-security.yml
@@ -187,6 +189,14 @@ common:
   url: https://github.com/mesmerlord/admakeai-mcp
 created: '2026-08-11'
 description: 'AI ad-creative platform for Meta, Instagram, and TikTok that turns product photos or prompts into finished ad images and UGC-style video ads, batch-generates ad-set variations, generates ad copy, researches competitor ads from the Meta Ad Library, reads Meta campaign analytics, and drafts and publishes campaigns through the official Meta Marketing API. Its machine-readable contract is not an OpenAPI: AdMakeAI is a tRPC application projected two ways, as a hosted streamable-HTTP MCP server at /api/mcp and as 1:1 REST procedure paths at /api/v1, both bound to one account and one credit pool. It implements the full MCP authorization stack (RFC 8414, RFC 9728, RFC 7591, PKCE S256) with three scopes filtered at tools/list, publishes an llms.txt, an MCP server card and an agent-skills index under /.well-known/, and ships a first-party Agent Skill for coding agents.'
+finops:
+- has_sources: true
+  method: derived
+  name: Admakeai Finops
+  primary_unit: 200 credits
+  service_category: ''
+  slug: admakeai-finops
+  template: false
 image: https://admakeai.com/apple-touch-icon.png
 layout: provider
 mcp_servers:
@@ -203,8 +213,11 @@ overview: 'AdMakeAI is listed with 3 APIs on the [APIs.io](https://apis.io/) net
   AdMakeAI''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
 plans:
 - name: Admakeai Plans Pricing
-  plan_count: 4
+  plan_count: 8
   slug: admakeai-plans-pricing
+- name: Admakeai Price Estimates
+  plan_count: 0
+  slug: admakeai-price-estimates
 random_paper: 21
 rate_limits:
 - limit_count: 2
@@ -217,23 +230,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.8
+  composite: 44.4
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 60.0
+    artifact_dirs: 21
+    catalog_earned: 63.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 26.3
-  previous_composite: 44.2
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -245,14 +258,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/screenshots/admakeai-2026-09-02T144111.png
+screenshot: https://apis.io/screenshots/admakeai/admakeai-2026-09-02T144111.png
 security:
 - kind: authentication
   name: Admakeai Authentication
@@ -262,6 +275,10 @@ security:
   name: Admakeai Domain Security
   slug: admakeai-domain-security
   summary_line: TLSv1.3
+skill_count: 1
+skills:
+- name: admakeai-api
+  slug: admakeai-api
 slug: admakeai
 tags:
 - Advertising

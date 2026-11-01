@@ -13,7 +13,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.1
-  scored_at: '2026-10-17'
+  score: 36.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -66,11 +67,8 @@ apis:
   description: The Withdrawals API from LootRush — 2 operation(s) for withdrawals.
   name: LootRush Withdrawals API
   slug: lootrush-withdrawals-api
-artifact_total: 14
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LootRush Partner Connect API
   slug: open-lootrush-connect-api
@@ -105,67 +103,67 @@ common:
   type: Support
   url: mailto:support@lootrush.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/llms/lootrush-llms.txt
+  href: https://artifacts.apis.io/lootrush/llms/lootrush-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lootrush-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/mcp/lootrush-mcp.yml
+  href: https://artifacts.apis.io/lootrush/mcp/lootrush-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lootrush-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/authentication/lootrush-authentication.yml
+  href: https://artifacts.apis.io/lootrush/authentication/lootrush-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lootrush-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/agentic-access/lootrush-agentic-access.yml
+  href: https://artifacts.apis.io/lootrush/agentic-access/lootrush-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lootrush-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/conventions/lootrush-conventions.yml
+  href: https://artifacts.apis.io/lootrush/conventions/lootrush-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lootrush-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/errors/lootrush-problem-types.yml
+  href: https://artifacts.apis.io/lootrush/errors/lootrush-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lootrush-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/rate-limits/lootrush-rate-limits.yml
+  href: https://artifacts.apis.io/lootrush/rate-limits/lootrush-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lootrush-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/lifecycle/lootrush-lifecycle.yml
+  href: https://artifacts.apis.io/lootrush/lifecycle/lootrush-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lootrush-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/conformance/lootrush-conformance.yml
+  href: https://artifacts.apis.io/lootrush/conformance/lootrush-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lootrush-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/data-model/lootrush-data-model.yml
+  href: https://artifacts.apis.io/lootrush/data-model/lootrush-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lootrush-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/security/lootrush-domain-security.yml
+  href: https://artifacts.apis.io/lootrush/security/lootrush-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lootrush-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lootrush/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/overlays/lootrush-openapi-overlay.yaml
+  href: https://artifacts.apis.io/lootrush/overlays/lootrush-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lootrush-openapi-overlay.yaml
@@ -184,14 +182,14 @@ overview: 'LootRush publishes 4 API contracts indexed on the [APIs.io](https://a
 
 
   LootRush''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 13 more developer resources.'
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Lootrush Rate Limits
   slug: lootrush-rate-limits
 score:
   band: thin
-  composite: 33.9
+  composite: 30.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 43.0
@@ -205,9 +203,9 @@ score:
     contract_governance: 4.5
     contract_quality: 50.5
     developer_ergonomics: 47.0
-    discoverability: 71.7
+    discoverability: 61.7
     operational_transparency: 21.1
-  previous_composite: 33.9
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,13 +222,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/screenshots/lootrush-2026-07-25T225545.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lootrush/lootrush-2026-07-25T225545.png
 security:
 - kind: authentication
   name: Lootrush Authentication
@@ -240,6 +239,12 @@ security:
   name: Lootrush Domain Security
   slug: lootrush-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Create and track a LootRush crypto withdrawal
+  slug: lootrush-create-withdrawal
+- name: Read a LootRush account over MCP
+  slug: lootrush-read-account-via-mcp
 slug: lootrush
 tags:
 - Company

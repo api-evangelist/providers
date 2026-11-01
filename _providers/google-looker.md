@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,9 +68,6 @@ apis:
 artifact_total: 20
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Google Looker Authentication API
   slug: open-google-looker-authentication-api
 - collection_type: open
@@ -81,23 +80,27 @@ collections:
   name: Google Looker API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-looker/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/plans/google-looker-plans-pricing.yml
+  href: https://artifacts.apis.io/google-looker/plans/google-looker-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-looker-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/rate-limits/google-looker-rate-limits.yml
+  href: https://artifacts.apis.io/google-looker/rate-limits/google-looker-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-looker-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/finops/google-looker-finops.yml
+  href: https://artifacts.apis.io/google-looker/finops/google-looker-finops.yml
   title: ''
   type: FinOps
   url: finops/google-looker-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/capabilities/google-looker-capability-edges.yml
+  href: https://artifacts.apis.io/google-looker/capabilities/google-looker-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-looker-capability-edges.yml
@@ -106,22 +109,22 @@ common:
   type: Website
   url: https://www.google.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/agentic-access/google-looker-agentic-access.yml
+  href: https://artifacts.apis.io/google-looker/agentic-access/google-looker-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-looker-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/security/google-looker-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-looker/security/google-looker-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-looker-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/security/google-looker-domain-security.yml
+  href: https://artifacts.apis.io/google-looker/security/google-looker-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-looker-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/authentication/google-looker-authentication.yml
+  href: https://artifacts.apis.io/google-looker/authentication/google-looker-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-looker-authentication.yml
@@ -169,10 +172,10 @@ created: '2024-01-01'
 description: A collection of APIs for Google Looker, a modern business intelligence and analytics platform.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Google Looker Finops
-  primary_unit: ''
-  service_category: Analytics
+  primary_unit: 1m input data tokens
+  service_category: ''
   slug: google-looker-finops
   template: false
 image: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png
@@ -196,11 +199,14 @@ overview: 'Google Looker publishes 4 API contracts indexed on the [APIs.io](http
   The Google Looker catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Looker''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, release notes, and 14 more developer resources.'
+  Google Looker''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, release notes, and 15 more developer resources.'
 plans:
 - name: Google Looker Plans Pricing
-  plan_count: 4
+  plan_count: 5
   slug: google-looker-plans-pricing
+- name: Google Looker Price Estimates
+  plan_count: 0
+  slug: google-looker-price-estimates
 random_paper: 14
 rate_limits:
 - limit_count: 7
@@ -231,24 +237,24 @@ rules:
     warn: 7
   slug: google-looker-spectral-rules
 score:
-  band: developing
-  composite: 44.1
+  band: strong
+  composite: 54.7
   coverage:
     artifact_dirs: 16
-    catalog_earned: 45.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 69.5
+    catalog_earned: 57.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 57.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.8
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 13.6
     contract_quality: 51.4
-    developer_ergonomics: 52.4
+    developer_ergonomics: 58.3
     discoverability: 55.4
-    operational_transparency: 31.6
-  previous_composite: 45.6
+    operational_transparency: 50.0
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     contracts:
@@ -262,13 +268,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/screenshots/google-looker-2026-06-20T182214.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-looker/google-looker-2026-06-20T182214.png
 security:
 - kind: authentication
   name: Google Looker Authentication

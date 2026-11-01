@@ -4,6 +4,6 @@ layout: provider
 name: data-quality-standards
 nav: Providers
 network: true
-random_paper: 19
+random_paper: 9
 slug: data-quality-standards
 ---

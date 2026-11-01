@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'GS1 AISBL''s own live, unauthenticated GS1-Conformant Resolver, implementing the GS1-Conformant Resolver Standard 1.2.0. It takes a GS1 Digital Link URI built from a GS1 identification key and returns '
@@ -70,7 +72,7 @@ common:
   type: License
   url: https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/LICENSE
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gs1/refs/heads/main/capabilities/gs1-capability-edges.yml
+  href: https://artifacts.apis.io/gs1/capabilities/gs1-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gs1-capability-edges.yml
@@ -191,9 +193,9 @@ overview: 'GS1 publishes 7 API contracts indexed on the [APIs.io](https://apis.i
 random_paper: 3
 score:
   band: emerging
-  composite: 20.4
+  composite: 21.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 55.5
     catalog_earned_first_party: 0.0
     catalog_gap: 59.5
@@ -206,7 +208,7 @@ score:
     contract_quality: 50.2
     developer_ergonomics: 9.5
     discoverability: 66.1
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -215,7 +217,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 20.4
+  previous_composite: 21.9
   provenance:
     contracts:
       callable: 0.0
@@ -227,14 +229,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 2.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 4.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gs1/refs/heads/main/screenshots/gs1-2026-08-07T165851.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gs1/gs1-2026-08-07T165851.png
 slug: gs1
 tags:
 - Logistics

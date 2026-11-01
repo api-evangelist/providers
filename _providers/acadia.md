@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 30.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Manage digital work instructions and task lists
   name: Acadia Work Instructions API
   slug: acadia-work-instructions-api
-artifact_total: 74
+artifact_total: 73
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Acadia - Platform Employees API
   slug: open-acadia-employees-api
@@ -92,17 +91,17 @@ collections:
   slug: open-acadia-work-instructions-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/plans/acadia-plans-pricing.yml
+  href: https://artifacts.apis.io/acadia/plans/acadia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/acadia-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/rate-limits/acadia-rate-limits.yml
+  href: https://artifacts.apis.io/acadia/rate-limits/acadia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/acadia-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/finops/acadia-finops.yml
+  href: https://artifacts.apis.io/acadia/finops/acadia-finops.yml
   title: ''
   type: FinOps
   url: finops/acadia-finops.yml
@@ -111,17 +110,17 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/epicor/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/agentic-access/acadia-agentic-access.yml
+  href: https://artifacts.apis.io/acadia/agentic-access/acadia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/acadia-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/security/acadia-domain-security.yml
+  href: https://artifacts.apis.io/acadia/security/acadia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/acadia-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/authentication/acadia-authentication.yml
+  href: https://artifacts.apis.io/acadia/authentication/acadia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/acadia-authentication.yml
@@ -146,12 +145,12 @@ common:
   type: Documentation
   url: https://www.acadia-software.com/features/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/rules/acadia-spectral-rules.yml
+  href: https://artifacts.apis.io/acadia/rules/acadia-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/acadia-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/vocabulary/acadia-vocabulary.yaml
+  href: https://artifacts.apis.io/acadia/vocabulary/acadia-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/acadia-vocabulary.yaml
@@ -321,7 +320,7 @@ plans:
 - name: Acadia Plans Pricing
   plan_count: 1
   slug: acadia-plans-pricing
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Acadia Rate Limits
@@ -352,7 +351,7 @@ rules:
   slug: acadia-spectral-rules
 score:
   band: thin
-  composite: 26.9
+  composite: 28.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 67.4
@@ -360,15 +359,15 @@ score:
     catalog_gap: 47.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 28.1
-    developer_ergonomics: 31.0
+    developer_ergonomics: 33.3
     discoverability: 71.4
     operational_transparency: 0.0
-  previous_composite: 28.4
+  previous_composite: 28.0
   provenance:
     agentic_access: derived
     contracts:
@@ -382,13 +381,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/screenshots/acadia-2026-06-20T163529.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/acadia/acadia-2026-06-20T163529.png
 security:
 - kind: authentication
   name: Acadia Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: G2 Track, the SaaS spend management product BetterCloud acquired from G2 on 2024-03-12 and now sells as BetterCloud Spend Optimization — spend monitoring, contract tracking, license reclamation and us
@@ -42,7 +44,7 @@ apis:
 artifact_total: 9
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/g2-track/refs/heads/main/finops/g2-track-finops.yml
+  href: https://artifacts.apis.io/g2-track/finops/g2-track-finops.yml
   title: ''
   type: FinOps
   url: finops/g2-track-finops.yml
@@ -67,7 +69,7 @@ common:
   type: Pricing
   url: https://www.bettercloud.com/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/g2-track/refs/heads/main/plans/g2-track-plans-pricing.yml
+  href: https://artifacts.apis.io/g2-track/plans/g2-track-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/g2-track-plans-pricing.yml
@@ -104,12 +106,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/BetterCloud
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/g2-track/refs/heads/main/changelog/g2-track-changelog.yml
+  href: https://artifacts.apis.io/g2-track/changelog/g2-track-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/g2-track-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/g2-track/refs/heads/main/lifecycle/g2-track-lifecycle.yml
+  href: https://artifacts.apis.io/g2-track/lifecycle/g2-track-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/g2-track-lifecycle.yml
@@ -118,32 +120,32 @@ common:
   type: StatusPage
   url: https://status.bettercloud.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/g2-track/refs/heads/main/authentication/g2-track-authentication.yml
+  href: https://artifacts.apis.io/g2-track/authentication/g2-track-authentication.yml
   title: ''
   type: Authentication
   url: authentication/g2-track-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/g2-track/refs/heads/main/mcp/g2-track-mcp.yml
+  href: https://artifacts.apis.io/g2-track/mcp/g2-track-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/g2-track-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/g2-track/refs/heads/main/well-known/g2-track-well-known.yml
+  href: https://artifacts.apis.io/g2-track/well-known/g2-track-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/g2-track-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/g2-track/refs/heads/main/llms/g2-track-llms.txt
+  href: https://artifacts.apis.io/g2-track/llms/g2-track-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/g2-track-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/g2-track/refs/heads/main/conformance/g2-track-conformance.yml
+  href: https://artifacts.apis.io/g2-track/conformance/g2-track-conformance.yml
   title: ''
   type: Conformance
   url: conformance/g2-track-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/g2-track/refs/heads/main/security/g2-track-trust-center.yml
+  href: https://artifacts.apis.io/g2-track/security/g2-track-trust-center.yml
   title: ''
   type: Compliance
   url: security/g2-track-trust-center.yml
@@ -152,40 +154,40 @@ common:
   type: TrustCenter
   url: https://trust.bettercloud.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/g2-track/refs/heads/main/security/g2-track-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/g2-track/security/g2-track-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/g2-track-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/g2-track/refs/heads/main/security/g2-track-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/g2-track/security/g2-track-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/g2-track-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/g2-track/refs/heads/main/security/g2-track-domain-security.yml
+  href: https://artifacts.apis.io/g2-track/security/g2-track-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/g2-track-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/g2-track/refs/heads/main/packages/g2-track-packages.yml
+  href: https://artifacts.apis.io/g2-track/packages/g2-track-packages.yml
   title: ''
   type: Packages
   url: packages/g2-track-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/g2-track/refs/heads/main/rate-limits/g2-track-rate-limits.yml
+  href: https://artifacts.apis.io/g2-track/rate-limits/g2-track-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/g2-track-rate-limits.yml
 created: '2026-03-27'
 description: 'G2 Track was G2''s SaaS spend management product — a single view of purchased applications, users, contracts and license utilization, used by IT and finance teams to find shadow IT, reclaim unused licenses and benchmark contracts ahead of renewal. BetterCloud acquired the G2 Track product line from G2 on 2024-03-12 and sells it today as the BetterCloud Spend Optimization module of the BetterCloud SaaS management platform, alongside User Automation, Workspace Management for Google and File Governance. The standalone product is gone: g2track.com is now a parked ad-redirect page, and the surviving surfaces — pricing, status, documentation, support and the platform API — are BetterCloud''s. There is no G2 Track-specific API; the module is reached through the BetterCloud platform API at api.bettercloud.com, which BetterCloud documents on developer.bettercloud.com.'
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: G2 Track Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: g2-track-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/g2-track.png
 layout: provider
 mcp_servers:
@@ -204,30 +206,30 @@ plans:
 - name: G2 Track Plans Pricing
   plan_count: 2
   slug: g2-track-plans-pricing
-random_paper: 5
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: G2 Track Rate Limits
   slug: g2-track-rate-limits
 score:
   band: developing
-  composite: 43.9
+  composite: 44.8
   coverage:
     artifact_dirs: 15
-    catalog_earned: 45.0
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 81.6
+    access_clarity: 89.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 75.0
-    operational_transparency: 44.7
-  previous_composite: 45.4
+    discoverability: 65.0
+    operational_transparency: 47.4
+  previous_composite: 43.2
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -237,14 +239,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/g2-track/refs/heads/main/screenshots/g2-track-2026-06-20T181631.png
+screenshot: https://apis.io/screenshots/g2-track/g2-track-2026-06-20T181631.png
 security:
 - kind: authentication
   name: G2 Track Authentication

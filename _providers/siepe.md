@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,42 +36,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/siepe/refs/heads/main/conformance/siepe-conformance.yml
+  href: https://artifacts.apis.io/siepe/conformance/siepe-conformance.yml
   title: ''
   type: Conformance
   url: conformance/siepe-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/siepe/refs/heads/main/conformance/siepe-conformance.yml
+  href: https://artifacts.apis.io/siepe/conformance/siepe-conformance.yml
   title: ''
   type: Compliance
   url: conformance/siepe-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/siepe/refs/heads/main/well-known/siepe-well-known.yml
+  href: https://artifacts.apis.io/siepe/well-known/siepe-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/siepe-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/siepe/refs/heads/main/llms/siepe-llms.txt
+  href: https://artifacts.apis.io/siepe/llms/siepe-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/siepe-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/siepe/refs/heads/main/plans/siepe-plans-pricing.yml
+  href: https://artifacts.apis.io/siepe/plans/siepe-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/siepe-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/siepe/refs/heads/main/rate-limits/siepe-rate-limits.yml
+  href: https://artifacts.apis.io/siepe/rate-limits/siepe-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/siepe-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/siepe/refs/heads/main/security/siepe-domain-security.yml
+  href: https://artifacts.apis.io/siepe/security/siepe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/siepe-domain-security.yml
@@ -154,7 +156,7 @@ rate_limits:
   slug: siepe-rate-limits
 score:
   band: emerging
-  composite: 14.4
+  composite: 14.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -168,9 +170,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 56.3
-    operational_transparency: 2.6
-  previous_composite: 14.4
+    discoverability: 50.0
+    operational_transparency: 5.3
+  previous_composite: 14.1
   provenance:
     conformance: first-party
   regulatory:
@@ -179,14 +181,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/siepe/refs/heads/main/screenshots/siepe-2026-09-02T155413.png
+screenshot: https://apis.io/screenshots/siepe/siepe-2026-09-02T155413.png
 security:
 - kind: domain-security
   name: Siepe Domain Security

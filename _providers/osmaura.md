@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.2
-  scored_at: '2026-10-17'
+  score: 26.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 4
   slug: osmaura-agentic-access
   summary_line: 4 operations
-api_count: 4
+api_count: 1
 apis:
 - baseURL: https://dashboard.osmaura.com
   baseurl_source: declared
@@ -65,30 +67,30 @@ apis:
   description: The Signals API from Osmaura — 1 operation(s) for signals.
   name: Osmaura Signals API
   slug: osmaura-signals-api
-artifact_total: 9
+artifact_total: 13
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/capabilities/osmaura-capability-edges.yml
+  href: https://artifacts.apis.io/osmaura/capabilities/osmaura-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/osmaura-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/overlays/osmaura-prospect-overlay.yaml
+  href: https://artifacts.apis.io/osmaura/overlays/osmaura-prospect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/osmaura-prospect-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/agentic-access/osmaura-agentic-access.yml
+  href: https://artifacts.apis.io/osmaura/agentic-access/osmaura-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/osmaura-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/authentication/osmaura-authentication.yml
+  href: https://artifacts.apis.io/osmaura/authentication/osmaura-authentication.yml
   title: ''
   type: Authentication
   url: authentication/osmaura-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/security/osmaura-domain-security.yml
+  href: https://artifacts.apis.io/osmaura/security/osmaura-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/osmaura-domain-security.yml
@@ -125,27 +127,27 @@ common:
   type: Pricing
   url: https://dashboard.osmaura.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/plans/osmaura-plans-pricing.yml
+  href: https://artifacts.apis.io/osmaura/plans/osmaura-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/osmaura-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/rate-limits/osmaura-rate-limits.yml
+  href: https://artifacts.apis.io/osmaura/rate-limits/osmaura-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/osmaura-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/conventions/osmaura-conventions.yml
+  href: https://artifacts.apis.io/osmaura/conventions/osmaura-conventions.yml
   title: ''
   type: Conventions
   url: conventions/osmaura-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/errors/osmaura-problem-types.yml
+  href: https://artifacts.apis.io/osmaura/errors/osmaura-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/osmaura-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/lifecycle/osmaura-lifecycle.yml
+  href: https://artifacts.apis.io/osmaura/lifecycle/osmaura-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/osmaura-lifecycle.yml
@@ -154,28 +156,36 @@ common:
   type: Deprecation
   url: https://dashboard.osmaura.com/signals/docs#legacy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/conformance/osmaura-conformance.yml
+  href: https://artifacts.apis.io/osmaura/conformance/osmaura-conformance.yml
   title: ''
   type: Conformance
   url: conformance/osmaura-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/data-model/osmaura-data-model.yml
+  href: https://artifacts.apis.io/osmaura/data-model/osmaura-data-model.yml
   title: ''
   type: DataModel
   url: data-model/osmaura-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/osmaura/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/llms/osmaura-llms.txt
+  href: https://artifacts.apis.io/osmaura/llms/osmaura-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/osmaura-llms.txt
 created: '2026-07-17'
 description: Osmaura is a Y Combinator (Summer 2026) startup building opportunity intelligence for corporate law firms. It monitors public web signals, the government record, and a firm's own context to identify companies approaching a legal need before they begin looking for outside counsel, then briefs the right partner on why the moment may matter. Coverage centers on regulatory change, market movement such as hiring and funding, litigation activity, and company milestones, mapped to practice areas including immigration, startups, and commercial litigation. Osmaura ships a production REST API — the Osmaura Prospect API — documented publicly with an OpenAPI 3.1 definition. It returns dated, human-reviewed "editions" of ranked prospect dossiers that deliberately keep source-backed data separate from analyst conclusions, and every government-derived record carries an official link, a reproducible record locator, and a data-through date. Access is bearer-key authenticated, scoped to one organization,
   gated behind a $1,000/month plan, and reached through a private invitation link. Founded by MIT graduates Kali Abeje and Jity Woldemichael.
+finops:
+- has_sources: true
+  method: derived
+  name: Osmaura Finops
+  primary_unit: organization
+  service_category: ''
+  slug: osmaura-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/osmaura.png
 layout: provider
 modified: '2026-08-14'
@@ -190,30 +200,33 @@ plans:
 - name: Osmaura Plans Pricing
   plan_count: 1
   slug: osmaura-plans-pricing
-random_paper: 12
+- name: Osmaura Price Estimates
+  plan_count: 0
+  slug: osmaura-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Osmaura Rate Limits
   slug: osmaura-rate-limits
 score:
   band: developing
-  composite: 42.0
+  composite: 42.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 1.1
   facets:
-    access_clarity: 44.7
+    access_clarity: 52.6
     contract_governance: 4.5
     contract_quality: 48.2
     developer_ergonomics: 56.5
-    discoverability: 78.6
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 41.5
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -230,14 +243,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/screenshots/osmaura-2026-08-07T191010.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/osmaura/osmaura-2026-08-07T191010.png
 security:
 - kind: authentication
   name: Osmaura Authentication
@@ -247,6 +260,12 @@ security:
   name: Osmaura Domain Security
   slug: osmaura-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Retrieve the latest Osmaura prospect edition
+  slug: osmaura-retrieve-prospect-edition
+- name: Track new Osmaura editions and diff them
+  slug: osmaura-track-new-editions
 slug: osmaura
 tags:
 - Company

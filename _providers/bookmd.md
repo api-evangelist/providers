@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GraphQL API for Bookmd providing medical data access.
@@ -32,12 +34,12 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bookmd/refs/heads/main/security/bookmd-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bookmd/security/bookmd-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/bookmd-vulnerability-disclosure.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bookmd/refs/heads/main/hosts/bookmd-hosts.yml
+  href: https://artifacts.apis.io/bookmd/hosts/bookmd-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bookmd-hosts.yml
@@ -54,12 +56,12 @@ common:
   type: PrivacyPolicy
   url: https://bookmd.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bookmd/refs/heads/main/security/bookmd-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bookmd/security/bookmd-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bookmd-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bookmd/refs/heads/main/security/bookmd-domain-security.yml
+  href: https://artifacts.apis.io/bookmd/security/bookmd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bookmd-domain-security.yml
@@ -78,7 +80,7 @@ overview: 'Bookmd is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Bookmd''s developer surface includes signup flow and 7 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: emerging
   composite: 13.2
@@ -89,7 +91,7 @@ score:
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -97,7 +99,7 @@ score:
     developer_ergonomics: 0.0
     discoverability: 44.6
     operational_transparency: 10.5
-  previous_composite: 13.1
+  previous_composite: 13.2
   provenance:
     mcp: derived
   regulatory:
@@ -106,8 +108,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

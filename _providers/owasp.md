@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Open Worldwide Application Security Project providing resources, tools, projects, and standards for application and web security.
@@ -42,27 +44,27 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/owasp/refs/heads/main/plans/owasp-plans-pricing.yml
+  href: https://artifacts.apis.io/owasp/plans/owasp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/owasp-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/owasp/refs/heads/main/rate-limits/owasp-rate-limits.yml
+  href: https://artifacts.apis.io/owasp/rate-limits/owasp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/owasp-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/owasp/refs/heads/main/finops/owasp-finops.yml
+  href: https://artifacts.apis.io/owasp/finops/owasp-finops.yml
   title: ''
   type: FinOps
   url: finops/owasp-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/owasp/refs/heads/main/security/owasp-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/owasp/security/owasp-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/owasp-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/owasp/refs/heads/main/security/owasp-domain-security.yml
+  href: https://artifacts.apis.io/owasp/security/owasp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/owasp-domain-security.yml
@@ -108,7 +110,7 @@ finops:
 - has_sources: false
   method: generated
   name: Owasp Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: owasp-finops
   template: true
@@ -129,7 +131,7 @@ plans:
 - name: Owasp Plans Pricing
   plan_count: 3
   slug: owasp-plans-pricing
-random_paper: 4
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Owasp Rate Limits
@@ -149,37 +151,37 @@ rules:
   slug: owasp-apicheck-spectral-rules
 score:
   band: emerging
-  composite: 17.0
+  composite: 21.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 53.0
     catalog_earned_first_party: 15.0
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.0
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 45.5
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 28.6
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 13.0
+    operational_transparency: 23.7
+  previous_composite: 21.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/owasp/refs/heads/main/screenshots/owasp-2026-06-20T191244.png
+screenshot: https://apis.io/screenshots/owasp/owasp-2026-06-20T191244.png
 security:
 - kind: domain-security
   name: Owasp Domain Security

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-17'
+  score: 30.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -62,17 +64,17 @@ apis:
 - description: Direct SMSC connectivity over SMPP 3.3 and 3.4 with mandatory TLS, offering high-throughput binary messaging, custom character encoding, and detailed delivery reporting. A wire protocol rather than an
   name: Optus SMS Suite SMPP API
   slug: optus-sms-suite-smpp-api
-- baseURL: https://api.sms.optus.com.au/rest/gateway
+- baseURL: https://api.sms.optus.com.au/rest/campaign_manager/v1
   baseurl_source: declared
   description: The Delete Multiple Lists API from Optus — 1 operation(s) for delete multiple lists.
   name: Optus Delete Multiple Lists API
   slug: optus-delete-multiple-lists-api
-- baseURL: https://api.sms.optus.com.au/rest/gateway
+- baseURL: https://api.sms.optus.com.au/rest/sms/v2
   baseurl_source: declared
   description: The documentation API from Optus — 1 operation(s) for documentation.
   name: Optus Documentation API
   slug: optus-documentation-api
-- baseURL: https://api.sms.optus.com.au/rest/gateway
+- baseURL: https://api.sms.optus.com.au/rest/campaign_manager/v1
   baseurl_source: declared
   description: The Lists API from Optus — 2 operation(s) for lists.
   name: Optus Lists API
@@ -82,32 +84,37 @@ apis:
   description: The Messages API from Optus — 3 operation(s) for messages.
   name: Optus Messages API
   slug: optus-messages-api
-- baseURL: https://api.sms.optus.com.au/rest/gateway
+- baseURL: https://api.sms.optus.com.au/rest/campaign_manager/v1
   baseurl_source: declared
   description: The Report API from Optus — 1 operation(s) for report.
   name: Optus Report API
   slug: optus-report-api
-- baseURL: https://api.sms.optus.com.au/rest/gateway
+- baseURL: https://api.sms.optus.com.au/rest/campaign_manager/v1
   baseurl_source: declared
   description: The Scheduled Campaigns API from Optus — 1 operation(s) for scheduled campaigns.
   name: Optus Scheduled Campaigns API
   slug: optus-scheduled-campaigns-api
-- baseURL: https://api.sms.optus.com.au/rest/gateway
+- baseURL: https://api.sms.optus.com.au/rest/services/v1
   baseurl_source: declared
   description: The Services API from Optus — 1 operation(s) for services.
   name: Optus Services API
   slug: optus-services-api
-- baseURL: https://api.sms.optus.com.au/rest/gateway
+- baseURL: https://api.sms.optus.com.au/rest/services/v1
   baseurl_source: declared
   description: The Status API from Optus — 1 operation(s) for status.
   name: Optus Status API
   slug: optus-status-api
-- baseURL: https://api.sms.optus.com.au/rest/gateway
+- baseURL: https://api.sms.optus.com.au/rest/campaign_manager/v1
   baseurl_source: declared
   description: The Templates API from Optus — 1 operation(s) for templates.
   name: Optus Templates API
   slug: optus-templates-api
-artifact_total: 25
+- baseURL: https://api.sms.optus.com.au/rest/2fa
+  baseurl_source: declared
+  description: The Healthz API from Optus — 1 operation(s) for healthz.
+  name: Optus Healthz API
+  slug: optus-healthz-api
+artifact_total: 47
 asyncapis:
 - description: Derived event description for the callbacks The Optus SMS Suite POSTs to subscriber-hosted URLs. Optus publishes NO AsyncAPI document; this file was derived by API Evangelist from two sources that are
   name: The Optus SMS Suite Callback Surface
@@ -126,43 +133,78 @@ collections:
   name: Omni Status API
   slug: open-optus-sms-suite-status
 common:
+- group: operate
+  href: https://artifacts.apis.io/optus/rate-limits/optus-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/optus-rate-limits.yml
+- group: commercial
+  href: https://artifacts.apis.io/optus/plans/optus-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/optus-plans-pricing.yml
+- group: design
+  href: https://artifacts.apis.io/optus/rules/optus-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/optus-rules.yml
+- group: design
+  href: https://artifacts.apis.io/optus/json-ld/optus-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/optus-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/optus/vocabulary/optus-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/optus-vocabulary.yml
+- group: start
+  href: https://artifacts.apis.io/optus/sandbox/optus-sandbox.yml
+  title: ''
+  type: Sandbox
+  url: sandbox/optus-sandbox.yml
+- group: design
+  href: https://artifacts.apis.io/optus/errors/optus-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/optus-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/capabilities/optus-capability-edges.yml
+  href: https://artifacts.apis.io/optus/overlays/optus-delete-multiple-lists-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/optus-delete-multiple-lists-overlay.yaml
+- group: other
+  href: https://artifacts.apis.io/optus/hosts/optus-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/optus-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/optus/integrations/optus-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/optus-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/optus/vendors/optus-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/optus-vendors.yml
+- group: other
+  href: https://artifacts.apis.io/optus/capabilities/optus-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/optus-capability-edges.yml
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/overlays/optus-sms-suite-rest-v1-overlay.yaml
-  title: ''
-  type: Overlay
-  url: overlays/optus-sms-suite-rest-v1-overlay.yaml
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/overlays/optus-sms-suite-rest-v2-overlay.yaml
-  title: ''
-  type: Overlay
-  url: overlays/optus-sms-suite-rest-v2-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/skills/optus-send-and-reconcile-sms.md
+  href: https://artifacts.apis.io/optus/skills/optus-send-and-reconcile-sms.md
   title: ''
   type: AgentSkill
   url: skills/optus-send-and-reconcile-sms.md
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/overlays/optus-sms-suite-campaign-manager-overlay.yaml
-  title: ''
-  type: Overlay
-  url: overlays/optus-sms-suite-campaign-manager-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/skills/optus-run-sms-campaign.md
+  href: https://artifacts.apis.io/optus/skills/optus-run-sms-campaign.md
   title: ''
   type: AgentSkill
   url: skills/optus-run-sms-campaign.md
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/overlays/optus-sms-suite-status-overlay.yaml
-  title: ''
-  type: Overlay
-  url: overlays/optus-sms-suite-status-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/skills/optus-check-service-health.md
+  href: https://artifacts.apis.io/optus/skills/optus-check-service-health.md
   title: ''
   type: AgentSkill
   url: skills/optus-check-service-health.md
@@ -211,22 +253,22 @@ common:
   type: PrivacyPolicy
   url: https://www.optus.com.au/about/legal/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/authentication/optus-authentication.yml
+  href: https://artifacts.apis.io/optus/authentication/optus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/optus-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/conventions/optus-conventions.yml
+  href: https://artifacts.apis.io/optus/conventions/optus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/optus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/errors/optus-error-codes.yml
+  href: https://artifacts.apis.io/optus/errors/optus-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/optus-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/lifecycle/optus-lifecycle.yml
+  href: https://artifacts.apis.io/optus/lifecycle/optus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/optus-lifecycle.yml
@@ -235,17 +277,17 @@ common:
   type: StatusPage
   url: https://status.sms.optus.com.au/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/lifecycle/optus-lifecycle.yml
+  href: https://artifacts.apis.io/optus/lifecycle/optus-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/optus-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/changelog/optus-changelog.yml
+  href: https://artifacts.apis.io/optus/changelog/optus-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/optus-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/conformance/optus-conformance.yml
+  href: https://artifacts.apis.io/optus/conformance/optus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/optus-conformance.yml
@@ -254,7 +296,7 @@ common:
   type: Compliance
   url: https://sms.optus.com.au/docs/en/solution-sheets/safe-secure/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/security/optus-trust-center.yml
+  href: https://artifacts.apis.io/optus/security/optus-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/optus-trust-center.yml
@@ -263,60 +305,45 @@ common:
   type: Security
   url: https://bugcrowd.com/optus-vdp-pro
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/security/optus-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/optus/security/optus-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/optus-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/security/optus-domain-security.yml
+  href: https://artifacts.apis.io/optus/security/optus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/optus-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/asyncapi/optus-sms-suite-asyncapi.yml
+  href: https://artifacts.apis.io/optus/asyncapi/optus-sms-suite-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/optus-sms-suite-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/asyncapi/optus-sms-suite-asyncapi.yml
+  href: https://artifacts.apis.io/optus/asyncapi/optus-sms-suite-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/optus-sms-suite-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/data-model/optus-data-model.yml
+  href: https://artifacts.apis.io/optus/data-model/optus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/optus-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/mcp/optus-mcp.yml
+  href: https://artifacts.apis.io/optus/mcp/optus-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/optus-mcp.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/mcp/optus-tool-crosswalk.yml
-  title: ''
-  type: ToolCrosswalk
-  url: mcp/optus-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/optus/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/agentic-access/optus-agentic-access.yml
+  href: https://artifacts.apis.io/optus/agentic-access/optus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/optus-agentic-access.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/llms/optus-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/optus-llms.txt
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/packages/optus-packages.yml
-  title: ''
-  type: Packages
-  url: packages/optus-packages.yml
 - group: company
   title: ''
   type: LinkedIn
@@ -328,38 +355,109 @@ common:
 created: '2026-07-25'
 description: 'Optus (Singtel Optus Pty Limited) is Australia''s second-largest telecommunications carrier, wholly owned by Singapore''s Singtel and headquartered in Macquarie Park, Sydney. It runs a national mobile network reaching over 99% of the Australian population, alongside NBN and cable broadband, satellite capacity inherited from AUSSAT, enterprise and government connectivity, IoT/M2M services, and consumer media. Its API posture is split in two. The only genuinely public, self-serve developer surface Optus operates is The Optus SMS Suite — an enterprise messaging platform white-labelled from New Zealand''s Modica Group at sms.optus.com.au, which publishes open documentation, downloadable OpenAPI/Swagger definitions, a WSDL, delivery-receipt callbacks, and a free-trial signup. Everything else is partner-gated: the IoT Control Centre is a Cisco/Jasper platform behind a referral-coded starter kit, and Optus has no first-party network-API portal — developer.optus.com.au and api.optus.com.au
   resolve on Akamai but return HTTP 403 Access Denied. On network APIs Optus is a stated GSMA Open Gateway participant and an endorser of the Bridge Alliance API Exchange (BAEx), but as of this review no CAMARA API is callable from Optus directly; its route to developers runs through its parent Singtel''s Paragon-powered BAEx and Aduna, not through anything Optus publishes itself.'
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+finops:
+- has_sources: true
+  method: derived
+  name: Optus Finops
+  primary_unit: ''
+  service_category: ''
+  slug: optus-finops
+  template: true
+image: https://www.optus.com.au/content/dam/optus/cloud/images/shop/mobile/og-image/og-optus.version-1727925929257.png
+json_schemas:
+- name: BroadcastRestResponse
+  property_count: 0
+  slug: optus-broadcast-rest-response
+- name: CampaignReport
+  property_count: 0
+  slug: optus-campaign-report
+- name: DeleteMultipleListsRequest
+  property_count: 1
+  slug: optus-delete-multiple-lists-request
+- name: ListCreateResponse
+  property_count: 2
+  slug: optus-list-create-response
+- name: ListGetResponse
+  property_count: 0
+  slug: optus-list-get-response
+- name: ListRequest
+  property_count: 6
+  slug: optus-list-request
+- name: MessageBroadcast
+  property_count: 0
+  slug: optus-message-broadcast
+- name: Message
+  property_count: 0
+  slug: optus-message
+- name: RestResponse
+  property_count: 0
+  slug: optus-rest-response
+- name: ScheduleCampaignRequest
+  property_count: 12
+  slug: optus-schedule-campaign-request
+- name: ScheduleCampaignResponse
+  property_count: 2
+  slug: optus-schedule-campaign-response
+- name: TemplateGetResponse
+  property_count: 0
+  slug: optus-template-get-response
+jsonld:
+- class_count: 12
+  name: Optus Context
+  property_count: 34
+  slug: optus-context
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-21'
 name: Optus
 nav: Providers
 network: true
-overview: 'Optus publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Delete Multiple Lists API, Documentation API, Lists API, and 12 more. Tagged areas include Telecommunications, Australia, Mobile Network Operator, Messaging, and SMS.
+overview: 'Optus publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Delete Multiple Lists API, Documentation API, Lists API, and 13 more. Tagged areas include Telecommunications, Australia, Mobile Network Operator, Messaging, and SMS.
 
 
-  The Optus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Optus catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Optus'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 36 more developer resources.'
-random_paper: 21
+  Optus'' developer surface includes sandbox, documentation, API reference, getting-started guide, signup flow, support, authentication, and 40 more developer resources.'
+plans:
+- name: Optus Plans Pricing
+  plan_count: 2
+  slug: optus-plans-pricing
+random_paper: 19
+rate_limits:
+- limit_count: 1
+  name: Optus Rate Limits
+  slug: optus-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Optus API Rules
+  rule_count: 13
+  severity_counts:
+    error: 10
+    hint: 0
+    info: 2
+    warn: 1
+  slug: optus-rules
 score:
-  band: developing
-  composite: 50.1
+  band: exemplar
+  composite: 67.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 35.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    artifact_dirs: 34
+    catalog_earned: 76.8
+    catalog_earned_first_party: 16.0
+    catalog_gap: 38.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 39.5
-    contract_governance: 18.2
-    contract_quality: 52.2
-    developer_ergonomics: 56.5
+    access_clarity: 71.1
+    contract_governance: 35.6
+    contract_quality: 65.9
+    developer_ergonomics: 63.7
     discoverability: 62.5
-    operational_transparency: 57.9
+    operational_transparency: 78.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -367,7 +465,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 50.1
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -375,7 +473,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 10
     mcp: derived
     skills: derived
   regulatory:
@@ -383,14 +481,15 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 37.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 40.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/screenshots/optus-2026-08-07T190818.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/optus/optus-2026-08-07T190818.png
 security:
 - kind: authentication
   name: Optus Authentication
@@ -408,6 +507,16 @@ security:
   name: Optus Trust Center
   slug: optus-trust-center
   summary_line: ISO 27001, SOC 2, IRAP
+skill_count: 4
+skills:
+- name: optus-check-service-health
+  slug: optus-check-service-health
+- name: optus-run-sms-campaign
+  slug: optus-run-sms-campaign
+- name: optus-send-and-reconcile-sms
+  slug: optus-send-and-reconcile-sms
+- name: optus-two-factor-authentication
+  slug: optus-two-factor-authentication
 slug: optus
 tags:
 - Telecommunications

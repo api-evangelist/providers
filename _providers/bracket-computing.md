@@ -19,7 +19,7 @@ name: Bracket Computing
 nav: Providers
 network: true
 overview: Bracket Computing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Security, Cloud Computing, and Enterprise Security.
-random_paper: 21
+random_paper: 7
 slug: bracket-computing
 tags:
 - Company

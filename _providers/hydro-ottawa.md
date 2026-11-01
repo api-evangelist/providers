@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 23.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
@@ -57,74 +59,74 @@ apis:
   description: Usage Point endpoints
   name: Hydro Ottawa Usage Point API
   slug: hydro-ottawa-usagepoint-api
-artifact_total: 8
+artifact_total: 10
 collections:
 - collection_type: open
   name: Green Button API Documentation
   slug: open-hydro-ottawa-green-button-espi
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/overlays/hydro-ottawa-green-button-espi-overlay.yaml
+  href: https://artifacts.apis.io/hydro-ottawa/overlays/hydro-ottawa-green-button-espi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hydro-ottawa-green-button-espi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/security/hydro-ottawa-domain-security.yml
+  href: https://artifacts.apis.io/hydro-ottawa/security/hydro-ottawa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hydro-ottawa-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/scopes/hydro-ottawa-scopes.yml
+  href: https://artifacts.apis.io/hydro-ottawa/scopes/hydro-ottawa-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hydro-ottawa-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/authentication/hydro-ottawa-authentication.yml
+  href: https://artifacts.apis.io/hydro-ottawa/authentication/hydro-ottawa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hydro-ottawa-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/packages/hydro-ottawa-packages.yml
+  href: https://artifacts.apis.io/hydro-ottawa/packages/hydro-ottawa-packages.yml
   title: ''
   type: Packages
   url: packages/hydro-ottawa-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/well-known/hydro-ottawa-well-known.yml
+  href: https://artifacts.apis.io/hydro-ottawa/well-known/hydro-ottawa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hydro-ottawa-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/llms/hydro-ottawa-llms.txt
+  href: https://artifacts.apis.io/hydro-ottawa/llms/hydro-ottawa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hydro-ottawa-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/conformance/hydro-ottawa-conformance.yml
+  href: https://artifacts.apis.io/hydro-ottawa/conformance/hydro-ottawa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hydro-ottawa-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/errors/hydro-ottawa-problem-types.yml
+  href: https://artifacts.apis.io/hydro-ottawa/errors/hydro-ottawa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hydro-ottawa-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/lifecycle/hydro-ottawa-lifecycle.yml
+  href: https://artifacts.apis.io/hydro-ottawa/lifecycle/hydro-ottawa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hydro-ottawa-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/conventions/hydro-ottawa-conventions.yml
+  href: https://artifacts.apis.io/hydro-ottawa/conventions/hydro-ottawa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hydro-ottawa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/data-model/hydro-ottawa-data-model.yml
+  href: https://artifacts.apis.io/hydro-ottawa/data-model/hydro-ottawa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hydro-ottawa-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hydro-ottawa/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -211,15 +213,15 @@ overview: 'Hydro Ottawa publishes 4 API contracts indexed on the [APIs.io](https
 
 
   Hydro Ottawa''s developer surface includes authentication, getting-started guide, signup flow, engineering blog, documentation, support, YouTube channel, and 23 more developer resources.'
-random_paper: 19
+random_paper: 3
 scopes:
 - name: Hydro Ottawa Scopes
   scope_count: 0
   slug: hydro-ottawa-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 22.8
+  band: thin
+  composite: 32.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 32.0
@@ -229,12 +231,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 11.1
-    developer_ergonomics: 30.4
+    developer_ergonomics: 51.8
     discoverability: 57.1
-    operational_transparency: 2.6
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -242,7 +244,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 22.8
+  previous_composite: 32.1
   provenance:
     conformance: derived
     contracts:
@@ -257,14 +259,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/screenshots/hydro-ottawa-2026-08-07T170509.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hydro-ottawa/hydro-ottawa-2026-08-07T170509.png
 security:
 - kind: authentication
   name: Hydro Ottawa Authentication
@@ -274,6 +276,12 @@ security:
   name: Hydro Ottawa Domain Security
   slug: hydro-ottawa-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Onboard as a Hydro Ottawa Green Button third party
+  slug: hydro-ottawa-green-button-onboarding
+- name: Retrieve a customer's Green Button usage data from Hydro Ottawa
+  slug: hydro-ottawa-green-button-retrieve-usage
 slug: hydro-ottawa
 tags:
 - Energy

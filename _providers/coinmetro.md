@@ -14,46 +14,48 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coinmetro/refs/heads/main/well-known/coinmetro-status-security.txt
+  href: https://artifacts.apis.io/coinmetro/well-known/coinmetro-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/coinmetro-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coinmetro/refs/heads/main/well-known/coinmetro-well-known.yml
+  href: https://artifacts.apis.io/coinmetro/well-known/coinmetro-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/coinmetro-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coinmetro/refs/heads/main/hosts/coinmetro-hosts.yml
+  href: https://artifacts.apis.io/coinmetro/hosts/coinmetro-hosts.yml
   title: ''
   type: Hosts
   url: hosts/coinmetro-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coinmetro/refs/heads/main/vendors/coinmetro-vendors.yml
+  href: https://artifacts.apis.io/coinmetro/vendors/coinmetro-vendors.yml
   title: ''
   type: Vendors
   url: vendors/coinmetro-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/coinmetro/refs/heads/main/packages/coinmetro-packages.yml
+  href: https://artifacts.apis.io/coinmetro/packages/coinmetro-packages.yml
   title: ''
   type: SDKs
   url: packages/coinmetro-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/coinmetro/refs/heads/main/packages/coinmetro-packages.yml
+  href: https://artifacts.apis.io/coinmetro/packages/coinmetro-packages.yml
   title: ''
   type: Packages
   url: packages/coinmetro-packages.yml
@@ -78,7 +80,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/CoinMetro
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coinmetro/refs/heads/main/security/coinmetro-domain-security.yml
+  href: https://artifacts.apis.io/coinmetro/security/coinmetro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coinmetro-domain-security.yml
@@ -102,14 +104,14 @@ modified: '2026-10-09'
 name: Coinmetro
 nav: Providers
 network: true
-overview: 'Coinmetro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Spot Trading, Margin Trading, Staking, and Auto Invest.
+overview: 'Coinmetro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Spot Trading, Margin Trading, Staking, and Auto-Invest.
 
 
   Coinmetro''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 8
+random_paper: 16
 score:
   band: emerging
-  composite: 11.7
+  composite: 13.0
   coverage:
     artifact_dirs: 6
     catalog_earned: 22.0
@@ -117,13 +119,15 @@ score:
     catalog_gap: 93.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 39.3
-    operational_transparency: 21.1
+    operational_transparency: 31.6
+  previous_composite: 13.0
   provenance:
     mcp: unknown
   regulatory:
@@ -132,8 +136,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -148,6 +153,6 @@ tags:
 - Spot Trading
 - Margin Trading
 - Staking
-- Auto Invest
+- Auto-Invest
 website: https://www.coinmetro.com
 ---

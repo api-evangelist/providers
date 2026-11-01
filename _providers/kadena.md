@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -40,7 +42,7 @@ agentic_access:
   operation_count: 38
   slug: kadena-agentic-access
   summary_line: 38 operations · 13 acting
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://api.chainweb.com/chainweb/0.0/mainnet01
   baseurl_source: declared
@@ -122,11 +124,8 @@ apis:
   description: The P2P communication between chainweb-nodes is sharded into several independent P2P network. The `cut` network is exchanging consensus state. There is also one mempool P2P network for each chain.
   name: Kadena Peer API
   slug: kadena-peer-api
-artifact_total: 35
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kadena Chainweb Node block API
   slug: open-kadena-block-api
@@ -177,12 +176,12 @@ collections:
   slug: open-kadena-peer-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/agentic-access/kadena-agentic-access.yml
+  href: https://artifacts.apis.io/kadena/agentic-access/kadena-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kadena-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/security/kadena-domain-security.yml
+  href: https://artifacts.apis.io/kadena/security/kadena-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kadena-domain-security.yml
@@ -219,72 +218,72 @@ common:
   type: ChangeLog
   url: https://docs.kadena.io/changelogs/chainweb-node
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/changelog/kadena-changelog.yml
+  href: https://artifacts.apis.io/kadena/changelog/kadena-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kadena-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/packages/kadena-packages.yml
+  href: https://artifacts.apis.io/kadena/packages/kadena-packages.yml
   title: ''
   type: Packages
   url: packages/kadena-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/packages/kadena-packages.yml
+  href: https://artifacts.apis.io/kadena/packages/kadena-packages.yml
   title: ''
   type: SDKs
   url: packages/kadena-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/cli/kadena-cli.yml
+  href: https://artifacts.apis.io/kadena/cli/kadena-cli.yml
   title: ''
   type: CLI
   url: cli/kadena-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/mcp/kadena-mcp.yml
+  href: https://artifacts.apis.io/kadena/mcp/kadena-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kadena-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/llms/kadena-llms.txt
+  href: https://artifacts.apis.io/kadena/llms/kadena-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kadena-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/overlays/kadena-chainweb-overlay.yaml
+  href: https://artifacts.apis.io/kadena/overlays/kadena-chainweb-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kadena-chainweb-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/overlays/kadena-pact-overlay.yaml
+  href: https://artifacts.apis.io/kadena/overlays/kadena-pact-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kadena-pact-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/conformance/kadena-conformance.yml
+  href: https://artifacts.apis.io/kadena/conformance/kadena-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kadena-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/errors/kadena-problem-types.yml
+  href: https://artifacts.apis.io/kadena/errors/kadena-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kadena-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/lifecycle/kadena-lifecycle.yml
+  href: https://artifacts.apis.io/kadena/lifecycle/kadena-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kadena-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/conventions/kadena-conventions.yml
+  href: https://artifacts.apis.io/kadena/conventions/kadena-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kadena-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/sandbox/kadena-sandbox.yml
+  href: https://artifacts.apis.io/kadena/sandbox/kadena-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kadena-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/data-model/kadena-data-model.yml
+  href: https://artifacts.apis.io/kadena/data-model/kadena-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kadena-data-model.yml
@@ -301,15 +300,15 @@ overview: 'Kadena publishes 16 API contracts indexed on the [APIs.io](https://ap
 
 
   Kadena''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, CLI, sandbox, and 17 more developer resources.'
-random_paper: 18
+random_paper: 12
 score:
   band: minimal
   composite: 0.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
@@ -337,13 +336,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/screenshots/kadena-2026-07-25T223401.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kadena/kadena-2026-07-25T223401.png
 security:
 - kind: domain-security
   name: Kadena Domain Security

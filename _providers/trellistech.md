@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 29.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://app.trellistech.com/api/v1
@@ -47,11 +49,8 @@ apis:
   description: Trellis task contracts generated from Hono/Zod schemas.
   name: Trellis Tasks API
   slug: trellistech-tasks-api
-artifact_total: 8
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Trellis Public API v1 properties API
   slug: open-trellistech-properties-api
@@ -59,43 +58,48 @@ collections:
   name: Trellis Public API v1 properties tasks API
   slug: open-trellistech-tasks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/trellistech/plans/trellistech-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/trellistech-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/capabilities/trellistech-capability-edges.yml
+  href: https://artifacts.apis.io/trellistech/capabilities/trellistech-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/trellistech-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/overlays/trellistech-public-api-overlay.yaml
+  href: https://artifacts.apis.io/trellistech/overlays/trellistech-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/trellistech-public-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/llms/trellistech-llms.txt
+  href: https://artifacts.apis.io/trellistech/llms/trellistech-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trellistech-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/mcp/trellistech-mcp.yml
+  href: https://artifacts.apis.io/trellistech/mcp/trellistech-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/trellistech-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/packages/trellistech-packages.yml
+  href: https://artifacts.apis.io/trellistech/packages/trellistech-packages.yml
   title: ''
   type: Packages
   url: packages/trellistech-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/cli/trellistech-cli.yml
+  href: https://artifacts.apis.io/trellistech/cli/trellistech-cli.yml
   title: ''
   type: CLI
   url: cli/trellistech-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/changelog/trellistech-changelog.yml
+  href: https://artifacts.apis.io/trellistech/changelog/trellistech-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/trellistech-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/lifecycle/trellistech-lifecycle.yml
+  href: https://artifacts.apis.io/trellistech/lifecycle/trellistech-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trellistech-lifecycle.yml
@@ -104,17 +108,17 @@ common:
   type: StatusPage
   url: https://status.trellistech.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/well-known/trellistech-well-known.yml
+  href: https://artifacts.apis.io/trellistech/well-known/trellistech-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/trellistech-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/security/trellistech-domain-security.yml
+  href: https://artifacts.apis.io/trellistech/security/trellistech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trellistech-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/trellistech/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -164,6 +168,14 @@ common:
   url: https://www.trellistech.com
 created: '2026-07-17'
 description: Trellis (Trellistech) is a Y Combinator-backed, AI-powered property operations platform for short-term and vacation rental operators. Trellis deploys AI agents across an operator's entire business - handling guest communications, coordinating field teams, and running day-to-day operations such as tasks, workforce scheduling, accounting, reviews, and the guest portal. For developers, Trellis publishes a versioned public REST API for CRUD access to tasks and properties, an official hosted MCP server (@trellistech/mcp-server) that exposes operational read and gated write tools to any MCP-compatible AI client, and connectors for property and finance systems including Guesty, Hostaway, Breezeway, Calry, Krossbooking, and Ramp.
+finops:
+- has_sources: true
+  method: derived
+  name: Trellistech Finops
+  primary_unit: scales with property count
+  service_category: ''
+  slug: trellistech-finops
+  template: false
 image: https://www.trellistech.com/trellis-icon.svg
 layout: provider
 mcp_servers:
@@ -177,27 +189,34 @@ network: true
 overview: 'Trellis publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Properties API and Tasks API. Tagged areas include Company, Property Management, Vacation Rentals, Short-Term Rental, and AI Agents.
 
 
-  Trellis'' developer surface includes CLI, changelog, documentation, API reference, getting-started guide, engineering blog, signup flow, and 16 more developer resources.'
-random_paper: 21
+  Trellis'' developer surface includes CLI, changelog, documentation, API reference, getting-started guide, engineering blog, signup flow, and 17 more developer resources.'
+plans:
+- name: Trellistech Plans Pricing
+  plan_count: 2
+  slug: trellistech-plans-pricing
+- name: Trellistech Price Estimates
+  plan_count: 0
+  slug: trellistech-price-estimates
+random_paper: 11
 score:
   band: developing
-  composite: 42.3
+  composite: 51.0
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 5.8
   facets:
-    access_clarity: 21.1
+    access_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 47.8
     developer_ergonomics: 66.1
-    discoverability: 71.7
-    operational_transparency: 34.2
-  previous_composite: 42.2
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 45.2
   provenance:
     conformance: derived
     contracts:
@@ -213,13 +232,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/screenshots/trellistech-2026-08-17T082435.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/trellistech/trellistech-2026-08-17T082435.png
 security:
 - kind: authentication
   name: Trellistech Authentication
@@ -229,6 +249,14 @@ security:
   name: Trellistech Domain Security
   slug: trellistech-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Trellis Create & Assign Maintenance Task
+  slug: trellistech-create-maintenance-task
+- name: Trellis Daily Work-Orders Report
+  slug: trellistech-daily-work-orders-report
+- name: Trellis Onboard Property
+  slug: trellistech-onboard-property
 slug: trellistech
 tags:
 - Company

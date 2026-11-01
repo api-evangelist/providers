@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,81 +38,81 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for API key management, usage credits/metering, rate limiting, and traffic analytics. POST/JSON endpoints authenticated with a project root key via Bearer token; single unauthenticated GET /h
   name: ReqKey REST API
   slug: reqkey-rest-api
-artifact_total: 6
+artifact_total: 8
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/mcp/reqkey-mcp.yml
+  href: https://artifacts.apis.io/reqkey/mcp/reqkey-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/reqkey-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/security/reqkey-domain-security.yml
+  href: https://artifacts.apis.io/reqkey/security/reqkey-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reqkey-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/security/reqkey-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/reqkey/security/reqkey-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/reqkey-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/authentication/reqkey-authentication.yml
+  href: https://artifacts.apis.io/reqkey/authentication/reqkey-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reqkey-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/errors/reqkey-problem-types.yml
+  href: https://artifacts.apis.io/reqkey/errors/reqkey-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/reqkey-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/conventions/reqkey-conventions.yml
+  href: https://artifacts.apis.io/reqkey/conventions/reqkey-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reqkey-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/conformance/reqkey-conformance.yml
+  href: https://artifacts.apis.io/reqkey/conformance/reqkey-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reqkey-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/lifecycle/reqkey-lifecycle.yml
+  href: https://artifacts.apis.io/reqkey/lifecycle/reqkey-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reqkey-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/data-model/reqkey-data-model.yml
+  href: https://artifacts.apis.io/reqkey/data-model/reqkey-data-model.yml
   title: ''
   type: DataModel
   url: data-model/reqkey-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/rate-limits/reqkey-rate-limits.yml
+  href: https://artifacts.apis.io/reqkey/rate-limits/reqkey-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/reqkey-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/plans/reqkey-plans.yml
+  href: https://artifacts.apis.io/reqkey/plans/reqkey-plans.yml
   title: ''
   type: Plans
   url: plans/reqkey-plans.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/packages/reqkey-packages.yml
+  href: https://artifacts.apis.io/reqkey/packages/reqkey-packages.yml
   title: ''
   type: Packages
   url: packages/reqkey-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/packages/reqkey-packages.yml
+  href: https://artifacts.apis.io/reqkey/packages/reqkey-packages.yml
   title: ''
   type: SDKs
   url: packages/reqkey-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/llms/reqkey-llms.txt
+  href: https://artifacts.apis.io/reqkey/llms/reqkey-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reqkey-llms.txt
@@ -168,6 +170,14 @@ common:
   url: https://www.linkedin.com/company/reqkey
 created: '2026-07-26'
 description: 'ReqKey is out-of-band API key authentication, usage credits, rate limiting and request analytics as a service for teams that sell or expose an API. It never sits in front of customer traffic: your own middleware makes one call to POST /key/validate per request, which checks the key, deducts a credit from that customer''s pool and records the decision, typically in under 5ms over a reused connection. The defining design choice is that credits and rate limits live on the CONSUMER rather than the key, so issuing a customer fifty keys never multiplies their plan into fifty quotas and disabling a consumer stops all of its keys at once. Validation is Redis-backed and runs in multiple AWS regions with a global sync layer reconciling credit balances. A second endpoint, POST /ingest, correlates full request/response logs to a validation by requestId and feeds an Analytics API over two datasets. Seven first-party SDKs wrap both calls as framework middleware.'
+finops:
+- has_sources: true
+  method: derived
+  name: Reqkey Finops
+  primary_unit: requests
+  service_category: ''
+  slug: reqkey-finops
+  template: false
 image: https://www.reqkey.com/og-image.png
 layout: provider
 modified: '2026-08-09'
@@ -180,32 +190,35 @@ overview: 'ReqKey is listed with 1 API on the [APIs.io](https://apis.io/) networ
   ReqKey''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
 plans:
 - name: Reqkey Plans
-  plan_count: 3
+  plan_count: 9
   slug: reqkey-plans
-random_paper: 19
+- name: Reqkey Price Estimates
+  plan_count: 0
+  slug: reqkey-price-estimates
+random_paper: 9
 rate_limits:
 - limit_count: 6
   name: Reqkey Rate Limits
   slug: reqkey-rate-limits
 score:
   band: developing
-  composite: 40.8
+  composite: 43.4
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 61.0
+    artifact_dirs: 18
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 54.8
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 40.7
+    discoverability: 66.1
+    operational_transparency: 47.4
+  previous_composite: 41.8
   provenance:
     conformance: derived
     mcp: derived
@@ -215,14 +228,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/reqkey/refs/heads/main/screenshots/reqkey-2026-09-02T153516.png
+screenshot: https://apis.io/screenshots/reqkey/reqkey-2026-09-02T153516.png
 security:
 - kind: authentication
   name: Reqkey Authentication

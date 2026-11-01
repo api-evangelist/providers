@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bon-ton-stores/refs/heads/main/security/bon-ton-stores-domain-security.yml
+  href: https://artifacts.apis.io/bon-ton-stores/security/bon-ton-stores-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bon-ton-stores-domain-security.yml
@@ -82,7 +84,7 @@ press:
 - date: ''
   title: Starcom Wins Bon-Ton Media Duties 10/13/2011
   url: https://www.mediapost.com/publications/article/160399/starcom-wins-bon-ton-media-duties.html
-random_paper: 10
+random_paper: 2
 score:
   band: minimal
   composite: 0.0
@@ -109,14 +111,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bon-ton-stores/refs/heads/main/screenshots/bon-ton-stores-2026-06-20T173558.png
+screenshot: https://apis.io/screenshots/bon-ton-stores/bon-ton-stores-2026-06-20T173558.png
 security:
 - kind: domain-security
   name: Bon Ton Stores Domain Security

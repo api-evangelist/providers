@@ -4,7 +4,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: false
     consent_identity: false
@@ -16,28 +16,37 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
-api_count: 1
+  score: 1.8
+  scored_at: '2026-10-31'
+agentic_access:
+- acting_count: 8
+  human_in_the_loop: 0
+  name: Purolator Agentic Access
+  operation_count: 16
+  slug: purolator-agentic-access
+  summary_line: 16 operations · 8 acting
+api_count: 9
 apis:
 - description: Purolator developer portal provides REST API catalogue for shipping services.
   name: Purolator Shipping API
   slug: purolator-shipping-api
-artifact_total: 2
+artifact_total: 31
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/purolator/refs/heads/main/hosts/purolator-hosts.yml
+  href: https://artifacts.apis.io/purolator/hosts/purolator-hosts.yml
   title: ''
   type: Hosts
   url: hosts/purolator-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/purolator/refs/heads/main/vendors/purolator-vendors.yml
+  href: https://artifacts.apis.io/purolator/vendors/purolator-vendors.yml
   title: ''
   type: Vendors
   url: vendors/purolator-vendors.yml
@@ -66,7 +75,7 @@ common:
   type: DeveloperPortal
   url: https://ship.purolator.com/developer/restapicatalogue?lang=en
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/purolator/refs/heads/main/security/purolator-domain-security.yml
+  href: https://artifacts.apis.io/purolator/security/purolator-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/purolator-domain-security.yml
@@ -85,48 +94,159 @@ coverage:
 created: '2026-10-13'
 description: Purolator is a leading North American courier and logistics company offering a comprehensive suite of shipping, freight, and supply chain solutions for businesses and consumers. Their services include domestic and international parcel delivery, freight transportation, customs brokerage, and e‑commerce integrations, supported by a robust online platform and developer resources. Purolator emphasizes reliability, tracking visibility, and flexible delivery options across Canada, the United States, and worldwide.
 image: https://www.purolator.com/themes/custom/purolator_theme/logo.png
+json_schemas:
+- name: ApiResponse
+  property_count: 1
+  slug: purolator-api-response
+- name: authentication200
+  property_count: 4
+  slug: purolator-authentication200
+- name: CloseManifestRequest
+  property_count: 4
+  slug: purolator-close-manifest-request
+- name: CloseManifestResponse
+  property_count: 5
+  slug: purolator-close-manifest-response
+- name: CourierEstimateRequest
+  property_count: 0
+  slug: purolator-courier-estimate-request
+- name: CourierEstimateResponse
+  property_count: 2
+  slug: purolator-courier-estimate-response
+- name: CreateShipmentRequest
+  property_count: 9
+  slug: purolator-create-shipment-request
+- name: CreateShipmentResponse
+  property_count: 8
+  slug: purolator-create-shipment-response
+- name: FreightEstimateRequest
+  property_count: 0
+  slug: purolator-freight-estimate-request
+- name: FreightEstimateResponse
+  property_count: 1
+  slug: purolator-freight-estimate-response
+- name: GetDocumentsRequest
+  property_count: 3
+  slug: purolator-get-documents-request
+- name: GetDocumentsResponse
+  property_count: 4
+  slug: purolator-get-documents-response
+- name: GetHistoryRequest
+  property_count: 6
+  slug: purolator-get-history-request
+- name: GetSummaryManifestRequest
+  property_count: 3
+  slug: purolator-get-summary-manifest-request
+- name: GetSummaryManifestResponse
+  property_count: 5
+  slug: purolator-get-summary-manifest-response
+- name: HistoryApiResponse
+  property_count: 1
+  slug: purolator-history-api-response
+- name: Language
+  property_count: 0
+  slug: purolator-language
+- name: ModifyPickup
+  property_count: 4
+  slug: purolator-modify-pickup
+- name: OnlineTrackingResponse
+  property_count: 2
+  slug: purolator-online-tracking-response
+- name: PickupCourier
+  property_count: 7
+  slug: purolator-pickup-courier
+- name: RequestReference
+  property_count: 0
+  slug: purolator-request-reference
+- name: TrackingSearchCriteria
+  property_count: 2
+  slug: purolator-tracking-search-criteria
+- name: voidRequest
+  property_count: 2
+  slug: purolator-void-request
+- name: VoidShipmentRequest
+  property_count: 4
+  slug: purolator-void-shipment-request
+- name: VoidShipmentResponse
+  property_count: 4
+  slug: purolator-void-shipment-response
+jsonld:
+- class_count: 120
+  name: Purolator Context
+  property_count: 261
+  slug: purolator-context
 layout: provider
 modified: '2026-10-13'
 name: Purolator
 nav: Providers
 network: true
-overview: 'Purolator is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Shipping, Logistics, Couriers, and Freight.
+overview: 'Purolator publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Shipping, Logistics, Couriers, and Freight.
+
+
+  The Purolator catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   Purolator''s developer surface includes support and 9 more developer resources.'
-random_paper: 10
+random_paper: 16
+rules:
+- authorship: generated
+  effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Purolator API Rules
+  rule_count: 15
+  severity_counts:
+    error: 11
+    hint: 0
+    info: 1
+    warn: 3
+  slug: purolator-rules
 score:
   band: emerging
-  composite: 15.4
+  composite: 24.0
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 32.0
+    artifact_dirs: 17
+    catalog_earned: 50.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 6.6
   facets:
     access_clarity: 34.2
-    contract_governance: 0.0
-    contract_quality: 0.0
+    contract_governance: 18.2
+    contract_quality: 20.7
     developer_ergonomics: 14.3
-    discoverability: 58.9
+    discoverability: 64.3
     operational_transparency: 0.0
+  previous_composite: 17.4
   provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
 security:
+- kind: authentication
+  name: Purolator Authentication
+  slug: purolator-authentication
+  summary_line: apiKey/http · 3 schemes
 - kind: domain-security
   name: Purolator Domain Security
   slug: purolator-domain-security

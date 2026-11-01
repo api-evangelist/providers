@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: ArmorCode provides a unified exposure management platform for AI-driven vulnerability detection and remediation.
@@ -32,27 +34,27 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/armorcodeinc/refs/heads/main/llms/armorcodeinc-llms.txt
+  href: https://artifacts.apis.io/armorcodeinc/llms/armorcodeinc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/armorcodeinc-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/armorcodeinc/refs/heads/main/well-known/armorcodeinc-status-security.txt
+  href: https://artifacts.apis.io/armorcodeinc/well-known/armorcodeinc-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/armorcodeinc-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/armorcodeinc/refs/heads/main/well-known/armorcodeinc-well-known.yml
+  href: https://artifacts.apis.io/armorcodeinc/well-known/armorcodeinc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/armorcodeinc-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/armorcodeinc/refs/heads/main/hosts/armorcodeinc-hosts.yml
+  href: https://artifacts.apis.io/armorcodeinc/hosts/armorcodeinc-hosts.yml
   title: ''
   type: Hosts
   url: hosts/armorcodeinc-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/armorcodeinc/refs/heads/main/vendors/armorcodeinc-vendors.yml
+  href: https://artifacts.apis.io/armorcodeinc/vendors/armorcodeinc-vendors.yml
   title: ''
   type: Vendors
   url: vendors/armorcodeinc-vendors.yml
@@ -89,7 +91,7 @@ common:
   type: Blog
   url: https://www.armorcode.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/armorcodeinc/refs/heads/main/security/armorcodeinc-domain-security.yml
+  href: https://artifacts.apis.io/armorcodeinc/security/armorcodeinc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/armorcodeinc-domain-security.yml
@@ -117,10 +119,10 @@ overview: 'Armorcodeinc is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   Armorcodeinc''s developer surface includes support, engineering blog, and 13 more developer resources.'
-random_paper: 16
+random_paper: 22
 score:
   band: emerging
-  composite: 16.3
+  composite: 15.6
   coverage:
     artifact_dirs: 9
     catalog_earned: 32.0
@@ -128,15 +130,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 67.9
+    discoverability: 60.7
     operational_transparency: 26.3
-  previous_composite: 16.2
+  previous_composite: 15.6
   provenance:
     mcp: derived
   regulatory:
@@ -145,14 +147,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/armorcodeinc/refs/heads/main/screenshots/armorcodeinc-2026-10-11T100326.png
+screenshot: https://apis.io/screenshots/armorcodeinc/armorcodeinc-2026-10-11T100326.png
 security:
 - kind: domain-security
   name: Armorcodeinc Domain Security

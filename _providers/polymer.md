@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for the Polymer embedded analytics platform. Manage workspaces and users, connect and sync data sources (Snowflake, BigQuery, uploads), create and update datasets, compose boards from visuali
@@ -43,12 +45,12 @@ apis:
 artifact_total: 4
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/polymer/refs/heads/main/plans/polymer-plans-pricing.yml
+  href: https://artifacts.apis.io/polymer/plans/polymer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/polymer-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/polymer/refs/heads/main/security/polymer-domain-security.yml
+  href: https://artifacts.apis.io/polymer/security/polymer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/polymer-domain-security.yml
@@ -105,57 +107,57 @@ common:
   type: StatusPage
   url: https://status.polymersearch.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/polymer/refs/heads/main/authentication/polymer-authentication.yml
+  href: https://artifacts.apis.io/polymer/authentication/polymer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/polymer-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/polymer/refs/heads/main/conventions/polymer-conventions.yml
+  href: https://artifacts.apis.io/polymer/conventions/polymer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/polymer-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/polymer/refs/heads/main/errors/polymer-problem-types.yml
+  href: https://artifacts.apis.io/polymer/errors/polymer-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/polymer-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/polymer/refs/heads/main/data-model/polymer-data-model.yml
+  href: https://artifacts.apis.io/polymer/data-model/polymer-data-model.yml
   title: ''
   type: DataModel
   url: data-model/polymer-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/polymer/refs/heads/main/components/polymer-components.yml
+  href: https://artifacts.apis.io/polymer/components/polymer-components.yml
   title: ''
   type: Components
   url: components/polymer-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/polymer/refs/heads/main/conformance/polymer-conformance.yml
+  href: https://artifacts.apis.io/polymer/conformance/polymer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/polymer-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/polymer/refs/heads/main/lifecycle/polymer-lifecycle.yml
+  href: https://artifacts.apis.io/polymer/lifecycle/polymer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/polymer-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/polymer/refs/heads/main/changelog/polymer-changelog.yml
+  href: https://artifacts.apis.io/polymer/changelog/polymer-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/polymer-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/polymer/refs/heads/main/mcp/polymer-mcp.yml
+  href: https://artifacts.apis.io/polymer/mcp/polymer-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/polymer-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/polymer/refs/heads/main/llms/polymer-llms.txt
+  href: https://artifacts.apis.io/polymer/llms/polymer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/polymer-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/polymer/refs/heads/main/well-known/polymer-well-known.yml
+  href: https://artifacts.apis.io/polymer/well-known/polymer-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/polymer-well-known.yml
@@ -175,10 +177,10 @@ plans:
 - name: Polymer Plans Pricing
   plan_count: 5
   slug: polymer-plans-pricing
-random_paper: 6
+random_paper: 8
 score:
-  band: thin
-  composite: 36.5
+  band: developing
+  composite: 39.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 49.0
@@ -186,15 +188,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 0.0
   facets:
-    access_clarity: 63.2
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 30.1
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 39.8
   provenance:
     conformance: derived
     mcp: derived
@@ -204,14 +206,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/polymer/refs/heads/main/screenshots/polymer-2026-09-02T151710.png
+screenshot: https://apis.io/screenshots/polymer/polymer-2026-09-02T151710.png
 security:
 - kind: authentication
   name: Polymer Authentication

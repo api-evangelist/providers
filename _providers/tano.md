@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: Webinar and event registrations.
   name: Tano Events API
   slug: tano-events-api
-artifact_total: 15
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tano Public Brand Signups API
   slug: open-tano-brand-signups-api
@@ -95,27 +94,27 @@ common:
   type: Blog
   url: https://www.tano.ai/blog/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/capabilities/tano-capability-edges.yml
+  href: https://artifacts.apis.io/tano/capabilities/tano-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tano-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/skills/tano-agents.md
+  href: https://artifacts.apis.io/tano/skills/tano-agents.md
   title: ''
   type: AgentSkill
   url: skills/tano-agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/mcp/tano-mcp.yml
+  href: https://artifacts.apis.io/tano/mcp/tano-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tano-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/overlays/tano-openapi-overlay.yaml
+  href: https://artifacts.apis.io/tano/overlays/tano-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tano-openapi-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/a2a/tano-a2a.yml
+  href: https://artifacts.apis.io/tano/a2a/tano-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/tano-a2a.yml
@@ -131,7 +130,7 @@ created: '2026-07-17'
 description: Tano is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 layout: provider
 mcp_servers:
-- description: Remote MCP server at tano.ai over streamable HTTP; 6 tools listed.
+- description: Remote MCP server at tano.ai over streamable HTTP; 4 tools listed.
   name: Tano
   slug: tano
 modified: '2026-10-06'
@@ -142,10 +141,10 @@ overview: 'Tano publishes 5 API contracts indexed on the [APIs.io](https://apis.
 
 
   Tano''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 16
+random_paper: 2
 score:
   band: emerging
-  composite: 15.0
+  composite: 14.5
   coverage:
     artifact_dirs: 22
     catalog_earned: 15.0
@@ -153,15 +152,15 @@ score:
     catalog_gap: 100.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 46.6
-    developer_ergonomics: 4.2
-    discoverability: 38.3
+    developer_ergonomics: 8.9
+    discoverability: 28.3
     operational_transparency: 0.0
-  previous_composite: 14.4
+  previous_composite: 14.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -178,13 +177,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/screenshots/tano-2026-09-02T162520.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tano/tano-2026-09-02T162520.png
 security:
 - kind: authentication
   name: Tano Authentication
@@ -194,6 +194,12 @@ security:
   name: Tano Domain Security
   slug: tano-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Sign up for a Tano playbook or product
+  slug: tano-playbook-signup
+- name: Submit a brand enquiry to Tano
+  slug: tano-submit-brand-enquiry
 slug: tano
 tags:
 - Company

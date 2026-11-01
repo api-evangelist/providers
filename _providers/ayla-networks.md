@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 27.6
-  scored_at: '2026-10-17'
+  score: 26.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 196
   human_in_the_loop: 8
@@ -316,32 +318,32 @@ apis:
 artifact_total: 60
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ayla-networks/refs/heads/main/capabilities/ayla-networks-capability-edges.yml
+  href: https://artifacts.apis.io/ayla-networks/capabilities/ayla-networks-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ayla-networks-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ayla-networks/refs/heads/main/agentic-access/ayla-networks-agentic-access.yml
+  href: https://artifacts.apis.io/ayla-networks/agentic-access/ayla-networks-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ayla-networks-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ayla-networks/refs/heads/main/rules/ayla-networks-rules.yml
+  href: https://artifacts.apis.io/ayla-networks/rules/ayla-networks-rules.yml
   title: ''
   type: Spectral
   url: rules/ayla-networks-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ayla-networks/refs/heads/main/errors/ayla-networks-problem-types.yml
+  href: https://artifacts.apis.io/ayla-networks/errors/ayla-networks-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ayla-networks-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ayla-networks/refs/heads/main/conformance/ayla-networks-conformance.yml
+  href: https://artifacts.apis.io/ayla-networks/conformance/ayla-networks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ayla-networks-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ayla-networks/refs/heads/main/authentication/ayla-networks-authentication.yml
+  href: https://artifacts.apis.io/ayla-networks/authentication/ayla-networks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ayla-networks-authentication.yml
@@ -350,32 +352,32 @@ common:
   type: BlogRSS
   url: https://www.aylanetworks.com/blog-feed.xml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ayla-networks/refs/heads/main/changelog/ayla-networks-changelog.yml
+  href: https://artifacts.apis.io/ayla-networks/changelog/ayla-networks-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ayla-networks-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ayla-networks/refs/heads/main/conventions/ayla-networks-conventions.yml
+  href: https://artifacts.apis.io/ayla-networks/conventions/ayla-networks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ayla-networks-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ayla-networks/refs/heads/main/llms/ayla-networks-llms.txt
+  href: https://artifacts.apis.io/ayla-networks/llms/ayla-networks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ayla-networks-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ayla-networks/refs/heads/main/well-known/ayla-networks-well-known.yml
+  href: https://artifacts.apis.io/ayla-networks/well-known/ayla-networks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ayla-networks-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ayla-networks/refs/heads/main/hosts/ayla-networks-hosts.yml
+  href: https://artifacts.apis.io/ayla-networks/hosts/ayla-networks-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ayla-networks-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ayla-networks/refs/heads/main/vendors/ayla-networks-vendors.yml
+  href: https://artifacts.apis.io/ayla-networks/vendors/ayla-networks-vendors.yml
   title: ''
   type: Vendors
   url: vendors/ayla-networks-vendors.yml
@@ -396,7 +398,7 @@ common:
   type: ChangeLog
   url: https://docs.aylanetworks.com/changelog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ayla-networks/refs/heads/main/security/ayla-networks-domain-security.yml
+  href: https://artifacts.apis.io/ayla-networks/security/ayla-networks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ayla-networks-domain-security.yml
@@ -451,7 +453,7 @@ overview: 'Ayla Networks publishes 56 API contracts indexed on the [APIs.io](htt
 
 
   Ayla Networks'' developer surface includes authentication, changelog, signup flow, documentation, API reference, getting-started guide, engineering blog, and 18 more developer resources.'
-random_paper: 19
+random_paper: 17
 rules:
 - authorship: generated
   effective_rule_count: 54
@@ -467,7 +469,7 @@ rules:
   slug: ayla-networks-rules
 score:
   band: thin
-  composite: 38.0
+  composite: 37.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 32.5
@@ -475,15 +477,15 @@ score:
     catalog_gap: 82.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 19.7
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 18.2
-    contract_quality: 54.5
+    contract_quality: 51.1
     developer_ergonomics: 57.1
-    discoverability: 58.9
+    discoverability: 51.8
     operational_transparency: 21.1
-  previous_composite: 18.3
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -499,13 +501,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ayla-networks/refs/heads/main/screenshots/ayla-networks-2026-10-11T101304.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ayla-networks/ayla-networks-2026-10-11T101304.png
 security:
 - kind: authentication
   name: Ayla Networks Authentication

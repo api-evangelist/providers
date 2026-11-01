@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -80,37 +82,37 @@ common:
   type: Careers
   url: https://www.concertai.com/careers
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/concertai/refs/heads/main/well-known/concertai-well-known.yml
+  href: https://artifacts.apis.io/concertai/well-known/concertai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/concertai-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/concertai/refs/heads/main/authentication/concertai-authentication.yml
+  href: https://artifacts.apis.io/concertai/authentication/concertai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/concertai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/concertai/refs/heads/main/scopes/concertai-scopes.yml
+  href: https://artifacts.apis.io/concertai/scopes/concertai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/concertai-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/concertai/refs/heads/main/well-known/concertai-precision-openid-configuration.json
+  href: https://artifacts.apis.io/concertai/well-known/concertai-precision-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/concertai-precision-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/concertai/refs/heads/main/conformance/concertai-conformance.yml
+  href: https://artifacts.apis.io/concertai/conformance/concertai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/concertai-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/concertai/refs/heads/main/security/concertai-domain-security.yml
+  href: https://artifacts.apis.io/concertai/security/concertai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/concertai-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/concertai/refs/heads/main/llms/concertai-llms.txt
+  href: https://artifacts.apis.io/concertai/llms/concertai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/concertai-llms.txt
@@ -144,7 +146,7 @@ overview: 'ConcertAI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   ConcertAI''s developer surface includes engineering blog, support, product news, authentication, and 14 more developer resources.'
-random_paper: 6
+random_paper: 16
 scopes:
 - name: Concertai Scopes
   scope_count: 14
@@ -152,7 +154,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: emerging
-  composite: 19.2
+  composite: 20.6
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -162,11 +164,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 49.1
+    discoverability: 50.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -175,7 +177,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 19.2
+  previous_composite: 20.6
   provenance:
     conformance: first-party
   regulatory:
@@ -188,14 +190,14 @@ score:
     regime: Health
     regime_id: health
     score: 30.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/concertai/refs/heads/main/screenshots/concertai-2026-09-02T145133.png
+screenshot: https://apis.io/screenshots/concertai/concertai-2026-09-02T145133.png
 security:
 - kind: authentication
   name: Concertai Authentication

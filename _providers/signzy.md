@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.5
-  scored_at: '2026-10-17'
+  score: 21.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -66,7 +68,7 @@ apis:
   description: The Identity (US) API from Signzy — 1 operation(s) for identity (us).
   name: Signzy Identity (US) API
   slug: signzy-identity-us-api
-artifact_total: 21
+artifact_total: 23
 collections:
 - collection_type: postman
   name: Signzy Verification Authentication API
@@ -81,9 +83,6 @@ collections:
   name: Signzy Verification Authentication Identity (US) API
   slug: postman-signzy-identity-us-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Signzy Verification Authentication API
   slug: open-signzy-authentication-api
 - collection_type: open
@@ -96,32 +95,37 @@ collections:
   name: Signzy Verification Authentication Identity (US) API
   slug: open-signzy-identity-us-api
 common:
+- group: other
+  href: https://artifacts.apis.io/signzy/capabilities/signzy-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/signzy-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/signzy/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/agentic-access/signzy-agentic-access.yml
+  href: https://artifacts.apis.io/signzy/agentic-access/signzy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/signzy-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/security/signzy-trust-center.yml
+  href: https://artifacts.apis.io/signzy/security/signzy-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/signzy-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/security/signzy-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/signzy/security/signzy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/signzy-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/security/signzy-domain-security.yml
+  href: https://artifacts.apis.io/signzy/security/signzy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/signzy-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/authentication/signzy-authentication.yml
+  href: https://artifacts.apis.io/signzy/authentication/signzy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/signzy-authentication.yml
@@ -142,17 +146,17 @@ common:
   type: Documentation
   url: https://docs.signzy.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/plans/signzy-plans-pricing.yml
+  href: https://artifacts.apis.io/signzy/plans/signzy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/signzy-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/rate-limits/signzy-rate-limits.yml
+  href: https://artifacts.apis.io/signzy/rate-limits/signzy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/signzy-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/finops/signzy-finops.yml
+  href: https://artifacts.apis.io/signzy/finops/signzy-finops.yml
   title: ''
   type: FinOps
   url: finops/signzy-finops.yml
@@ -161,52 +165,52 @@ common:
   type: Blog
   url: https://www.signzy.com/blogs
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/llms/signzy-llms.txt
+  href: https://artifacts.apis.io/signzy/llms/signzy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/signzy-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/packages/signzy-packages.yml
+  href: https://artifacts.apis.io/signzy/packages/signzy-packages.yml
   title: ''
   type: Packages
   url: packages/signzy-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/packages/signzy-packages.yml
+  href: https://artifacts.apis.io/signzy/packages/signzy-packages.yml
   title: ''
   type: SDKs
   url: packages/signzy-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/well-known/signzy-well-known.yml
+  href: https://artifacts.apis.io/signzy/well-known/signzy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/signzy-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/mcp/signzy-mcp.yml
+  href: https://artifacts.apis.io/signzy/mcp/signzy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/signzy-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/overlays/signzy-openapi-overlay.yaml
+  href: https://artifacts.apis.io/signzy/overlays/signzy-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/signzy-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/conformance/signzy-conformance.yml
+  href: https://artifacts.apis.io/signzy/conformance/signzy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/signzy-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/security/signzy-trust-center.yml
+  href: https://artifacts.apis.io/signzy/security/signzy-trust-center.yml
   title: ''
   type: Compliance
   url: security/signzy-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/errors/signzy-problem-types.yml
+  href: https://artifacts.apis.io/signzy/errors/signzy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/signzy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/lifecycle/signzy-lifecycle.yml
+  href: https://artifacts.apis.io/signzy/lifecycle/signzy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/signzy-lifecycle.yml
@@ -215,22 +219,22 @@ common:
   type: StatusPage
   url: https://status.signzy.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/conventions/signzy-conventions.yml
+  href: https://artifacts.apis.io/signzy/conventions/signzy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/signzy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/data-model/signzy-data-model.yml
+  href: https://artifacts.apis.io/signzy/data-model/signzy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/signzy-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/sandbox/signzy-sandbox.yml
+  href: https://artifacts.apis.io/signzy/sandbox/signzy-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/signzy-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/signzy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -263,7 +267,7 @@ common:
   type: SignUp
   url: https://www.signzy.com/contact
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/collections/signzy.postman_collection.json
+  href: https://artifacts.apis.io/signzy/collections/signzy.postman_collection.json
   title: ''
   type: Postman
   url: collections/signzy.postman_collection.json
@@ -286,35 +290,35 @@ network: true
 overview: 'Signzy publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Banking API, Identity (India) API, and 1 more. Tagged areas include Identity Verification, KYC, KYB, AML, and Onboarding.
 
 
-  Signzy''s developer surface includes authentication, documentation, engineering blog, sandbox, API reference, getting-started guide, support, and 30 more developer resources.'
+  Signzy''s developer surface includes authentication, documentation, engineering blog, sandbox, API reference, getting-started guide, support, and 31 more developer resources.'
 plans:
 - name: Signzy Plans Pricing
   plan_count: 2
   slug: signzy-plans-pricing
-random_paper: 16
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Signzy Rate Limits
   slug: signzy-rate-limits
 score:
   band: developing
-  composite: 51.2
+  composite: 53.6
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 42.0
     catalog_earned_first_party: 0.0
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 55.3
     contract_governance: 4.5
     contract_quality: 49.3
-    developer_ergonomics: 62.5
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 58.1
+    developer_ergonomics: 74.4
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -335,13 +339,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/screenshots/signzy-2026-08-17T081859.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/signzy/signzy-2026-08-17T081859.png
 security:
 - kind: authentication
   name: Signzy Authentication
@@ -359,6 +364,14 @@ security:
   name: Signzy Trust Center
   slug: signzy-trust-center
   summary_line: ISO 27001, SOC 2, GDPR, FATF-aligned
+skill_count: 3
+skills:
+- name: Authenticate with Signzy
+  slug: signzy-authenticate
+- name: Verify an Indian identity (Aadhaar / PAN)
+  slug: signzy-verify-india-identity
+- name: Verify a US identity document
+  slug: signzy-verify-us-document
 slug: signzy
 tags:
 - Identity Verification

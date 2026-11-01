@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,29 +37,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Castle's REST API for real-time fraud and abuse detection. The Risk API scores authenticated user events (login, transaction, profile update), the Filter API scores anonymous/pre-authentication events
   name: Castle API
   slug: castle-api
-artifact_total: 5
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Castle Webhooks
   slug: castle-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/castle/plans/castle-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/castle-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://blog.castle.io/rss/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/security/castle-trust-center.yml
+  href: https://artifacts.apis.io/castle/security/castle-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/castle-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/security/castle-domain-security.yml
+  href: https://artifacts.apis.io/castle/security/castle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/castle-domain-security.yml
@@ -118,87 +125,95 @@ common:
   type: StatusPage
   url: https://status.castle.io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/security/castle-trust-center.yml
+  href: https://artifacts.apis.io/castle/security/castle-trust-center.yml
   title: ''
   type: Compliance
   url: security/castle-trust-center.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/packages/castle-packages.yml
+  href: https://artifacts.apis.io/castle/packages/castle-packages.yml
   title: ''
   type: Packages
   url: packages/castle-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/packages/castle-packages.yml
+  href: https://artifacts.apis.io/castle/packages/castle-packages.yml
   title: ''
   type: SDKs
   url: packages/castle-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/llms/castle-llms.txt
+  href: https://artifacts.apis.io/castle/llms/castle-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/castle-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/authentication/castle-authentication.yml
+  href: https://artifacts.apis.io/castle/authentication/castle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/castle-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/conventions/castle-conventions.yml
+  href: https://artifacts.apis.io/castle/conventions/castle-conventions.yml
   title: ''
   type: Conventions
   url: conventions/castle-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/sandbox/castle-sandbox.yml
+  href: https://artifacts.apis.io/castle/sandbox/castle-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/castle-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/lifecycle/castle-lifecycle.yml
+  href: https://artifacts.apis.io/castle/lifecycle/castle-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/castle-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/changelog/castle-changelog.yml
+  href: https://artifacts.apis.io/castle/changelog/castle-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/castle-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/conformance/castle-conformance.yml
+  href: https://artifacts.apis.io/castle/conformance/castle-conformance.yml
   title: ''
   type: Conformance
   url: conformance/castle-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/errors/castle-problem-types.yml
+  href: https://artifacts.apis.io/castle/errors/castle-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/castle-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/data-model/castle-data-model.yml
+  href: https://artifacts.apis.io/castle/data-model/castle-data-model.yml
   title: ''
   type: DataModel
   url: data-model/castle-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/components/castle-components.yml
+  href: https://artifacts.apis.io/castle/components/castle-components.yml
   title: ''
   type: Components
   url: components/castle-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/mcp/castle-mcp.yml
+  href: https://artifacts.apis.io/castle/mcp/castle-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/castle-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/asyncapi/castle-webhooks.yml
+  href: https://artifacts.apis.io/castle/asyncapi/castle-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/castle-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/castle/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Castle is a fraud and account-abuse prevention platform that stops bots, credential stuffing, account takeover, and multi-accounting through behavioral analysis and device fingerprinting — without CAPTCHAs or puzzles for legitimate users. Developers integrate a client-side SDK (browser and mobile) that generates a short-lived request token, then call Castle's backend Risk API and Filter API to score authentication and transaction events in real time. Castle returns machine-learning risk scores and signals (bot, proxy/VPN, residential proxy, impossible travel, device reputation) that drive a policy rules engine, Lists, and webhooks. It serves security and trust-and-safety teams across gaming, fintech, marketplaces, and SaaS.
+finops:
+- has_sources: true
+  method: derived
+  name: Castle Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: castle-finops
+  template: false
 image: https://castle.io/og.png
 layout: provider
 modified: '2026-10-06'
@@ -211,27 +226,34 @@ overview: 'Castle is listed with 1 API on the [APIs.io](https://apis.io/) networ
   The Castle catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Castle''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 20
+  Castle''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+plans:
+- name: Castle Plans Pricing
+  plan_count: 3
+  slug: castle-plans-pricing
+- name: Castle Price Estimates
+  plan_count: 0
+  slug: castle-price-estimates
+random_paper: 12
 score:
-  band: developing
-  composite: 43.8
+  band: strong
+  composite: 61.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 32.9
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 57.7
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 43.7
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 53.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -245,15 +267,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/screenshots/castle-2026-07-25T204740.png
+screenshot: https://apis.io/screenshots/castle/castle-2026-07-25T204740.png
 security:
 - kind: authentication
   name: Castle Authentication
@@ -267,6 +289,12 @@ security:
   name: Castle Trust Center
   slug: castle-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 2
+skills:
+- name: Protect a login with Castle Risk API
+  slug: castle-protect-login
+- name: Screen a signup with Castle Filter API
+  slug: castle-screen-registration
 slug: castle
 tags:
 - Company

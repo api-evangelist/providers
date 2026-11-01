@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -55,7 +57,47 @@ apis:
   description: The Vocabularies API from Amazon Transcribe — 1 operation(s) for vocabularies.
   name: Amazon Transcribe Vocabularies API
   slug: amazon-transcribe-vocabularies-api
-artifact_total: 29
+- baseURL: https://transcribe.amazonaws.com
+  baseurl_source: declared
+  description: The Transcribe Call Analytics Category API from Amazon Transcribe — 5 operation(s) for transcribe call analytics category.
+  name: Amazon Transcribe Transcribe Call Analytics Category API
+  slug: amazon-transcribe-call-analytics-category-api
+- baseURL: https://transcribe.amazonaws.com
+  baseurl_source: declared
+  description: The Transcribe Call Analytics Job API from Amazon Transcribe — 4 operation(s) for transcribe call analytics job.
+  name: Amazon Transcribe Transcribe Call Analytics Job API
+  slug: amazon-transcribe-call-analytics-job-api
+- baseURL: https://transcribe.amazonaws.com
+  baseurl_source: declared
+  description: The Transcribe Language Model API from Amazon Transcribe — 5 operation(s) for transcribe language model.
+  name: Amazon Transcribe Transcribe Language Model API
+  slug: amazon-transcribe-language-model-api
+- baseURL: https://transcribe.amazonaws.com
+  baseurl_source: declared
+  description: The Transcribe Medical Scribe Job API from Amazon Transcribe — 4 operation(s) for transcribe medical scribe job.
+  name: Amazon Transcribe Transcribe Medical Scribe Job API
+  slug: amazon-transcribe-medical-scribe-job-api
+- baseURL: https://transcribe.amazonaws.com
+  baseurl_source: declared
+  description: The Transcribe Medical Transcription Job API from Amazon Transcribe — 4 operation(s) for transcribe medical transcription job.
+  name: Amazon Transcribe Transcribe Medical Transcription Job API
+  slug: amazon-transcribe-medical-transcription-job-api
+- baseURL: https://transcribe.amazonaws.com
+  baseurl_source: declared
+  description: The Transcribe Medical Vocabulary API from Amazon Transcribe — 5 operation(s) for transcribe medical vocabulary.
+  name: Amazon Transcribe Transcribe Medical Vocabulary API
+  slug: amazon-transcribe-medical-vocabulary-api
+- baseURL: https://transcribe.amazonaws.com
+  baseurl_source: declared
+  description: The Transcribe Operations API from Amazon Transcribe — 3 operation(s) for transcribe operations.
+  name: Amazon Transcribe Transcribe Operations API
+  slug: amazon-transcribe-operations-api
+- baseURL: https://transcribe.amazonaws.com
+  baseurl_source: declared
+  description: The Transcribe Vocabulary Filter API from Amazon Transcribe — 5 operation(s) for transcribe vocabulary filter.
+  name: Amazon Transcribe Transcribe Vocabulary Filter API
+  slug: amazon-transcribe-vocabulary-filter-api
+artifact_total: 36
 collections:
 - collection_type: postman
   name: Amazon Transcribe Transcription Jobs API
@@ -63,9 +105,6 @@ collections:
 - collection_type: postman
   name: Amazon Transcribe Transcription Jobs Vocabularies API
   slug: postman-amazon-transcribe-vocabularies-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Transcribe Transcription Jobs API
   slug: open-amazon-transcribe-transcription-jobs-api
@@ -76,18 +115,23 @@ collections:
   name: Amazon Transcribe API
   slug: open-amazon-transcribe
 common:
+- group: other
+  href: https://artifacts.apis.io/amazon-transcribe/capabilities/amazon-transcribe-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-transcribe-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/plans/amazon-transcribe-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-transcribe/plans/amazon-transcribe-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-transcribe-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/rate-limits/amazon-transcribe-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-transcribe/rate-limits/amazon-transcribe-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-transcribe-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/finops/amazon-transcribe-finops.yml
+  href: https://artifacts.apis.io/amazon-transcribe/finops/amazon-transcribe-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-transcribe-finops.yml
@@ -96,27 +140,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-transcribe/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/agentic-access/amazon-transcribe-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-transcribe/agentic-access/amazon-transcribe-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-transcribe-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/security/amazon-transcribe-trust-center.yml
+  href: https://artifacts.apis.io/amazon-transcribe/security/amazon-transcribe-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-transcribe-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/security/amazon-transcribe-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-transcribe/security/amazon-transcribe-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-transcribe-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/security/amazon-transcribe-domain-security.yml
+  href: https://artifacts.apis.io/amazon-transcribe/security/amazon-transcribe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-transcribe-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/authentication/amazon-transcribe-authentication.yml
+  href: https://artifacts.apis.io/amazon-transcribe/authentication/amazon-transcribe-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-transcribe-authentication.yml
@@ -204,13 +248,13 @@ features:
 - description: Programmatic access to Amazon Transcribe resources.
   name: API Access
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Transcribe Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: minute
+  service_category: ''
   slug: amazon-transcribe-finops
-  template: true
+  template: false
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: Amazon Transcribe Transcription Job
@@ -242,18 +286,18 @@ modified: '2026-05-19'
 name: Amazon Transcribe
 nav: Providers
 network: true
-overview: 'Amazon Transcribe publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Transcription Jobs API and Vocabularies API. Tagged areas include Audio Processing, Machine Learning, Speech Recognition, Speech-to-Text, and Transcription.
+overview: 'Amazon Transcribe publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Transcription Jobs API, Vocabularies API, Transcribe Call Analytics Category API, and 7 more. Tagged areas include Audio Processing, Machine Learning, Speech Recognition, Speech-to-Text, and Transcription.
 
 
   The Amazon Transcribe catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Transcribe''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 20 more developer resources.'
+  Amazon Transcribe''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 21 more developer resources.'
 plans:
 - name: Amazon Transcribe Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: amazon-transcribe-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Amazon Transcribe Rate Limits
@@ -283,44 +327,50 @@ rules:
     warn: 9
   slug: amazon-transcribe-spectral-rules
 score:
-  band: strong
-  composite: 57.1
+  band: exemplar
+  composite: 66.9
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 65.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    artifact_dirs: 21
+    catalog_earned: 77.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 2.4
   facets:
-    access_clarity: 53.9
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 58.1
+    contract_quality: 62.4
     developer_ergonomics: 72.6
     discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 58.6
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 2
+      marker_coverage: 80.0
+      total: 10
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/screenshots/amazon-transcribe-2026-06-20T171840.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-transcribe/amazon-transcribe-2026-06-20T171840.png
 security:
 - kind: authentication
   name: Amazon Transcribe Authentication

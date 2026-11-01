@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,20 +36,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for the Unravel data observability platform. Query and collect data from your monitored clusters and workspaces over HTTP/HTTPS with JSON requests and responses. Endpoint groups cover applica
   name: Unravel REST API
   slug: unravel-rest-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Unravel Data Systems Webhooks
   slug: unravel-data-systems-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/plans/unravel-data-systems-plans.yml
+  href: https://artifacts.apis.io/unravel-data-systems/plans/unravel-data-systems-plans.yml
   title: ''
   type: Plans
   url: plans/unravel-data-systems-plans.yml
@@ -60,7 +62,7 @@ common:
   type: YouTube
   url: https://www.youtube.com/c/UnravelData
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/security/unravel-data-systems-domain-security.yml
+  href: https://artifacts.apis.io/unravel-data-systems/security/unravel-data-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unravel-data-systems-domain-security.yml
@@ -101,7 +103,7 @@ common:
   type: Contact
   url: https://www.unraveldata.com/contact-us/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/security/unravel-data-systems-trust-center.yml
+  href: https://artifacts.apis.io/unravel-data-systems/security/unravel-data-systems-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/unravel-data-systems-trust-center.yml
@@ -110,47 +112,47 @@ common:
   type: Compliance
   url: https://www.unraveldata.com/privacy-security-faq/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/llms/unravel-data-systems-llms.txt
+  href: https://artifacts.apis.io/unravel-data-systems/llms/unravel-data-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unravel-data-systems-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/well-known/unravel-data-systems-well-known.yml
+  href: https://artifacts.apis.io/unravel-data-systems/well-known/unravel-data-systems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/unravel-data-systems-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/packages/unravel-data-systems-packages.yml
+  href: https://artifacts.apis.io/unravel-data-systems/packages/unravel-data-systems-packages.yml
   title: ''
   type: Packages
   url: packages/unravel-data-systems-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/authentication/unravel-data-systems-authentication.yml
+  href: https://artifacts.apis.io/unravel-data-systems/authentication/unravel-data-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unravel-data-systems-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/conformance/unravel-data-systems-conformance.yml
+  href: https://artifacts.apis.io/unravel-data-systems/conformance/unravel-data-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unravel-data-systems-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/conventions/unravel-data-systems-conventions.yml
+  href: https://artifacts.apis.io/unravel-data-systems/conventions/unravel-data-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unravel-data-systems-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/lifecycle/unravel-data-systems-lifecycle.yml
+  href: https://artifacts.apis.io/unravel-data-systems/lifecycle/unravel-data-systems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unravel-data-systems-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/changelog/unravel-data-systems-changelog.yml
+  href: https://artifacts.apis.io/unravel-data-systems/changelog/unravel-data-systems-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/unravel-data-systems-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/cli/unravel-data-systems-cli.yml
+  href: https://artifacts.apis.io/unravel-data-systems/cli/unravel-data-systems-cli.yml
   title: ''
   type: CLI
   url: cli/unravel-data-systems-cli.yml
@@ -159,12 +161,20 @@ common:
   type: Login
   url: https://customers.unraveldata.com/login
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/asyncapi/unravel-data-systems-webhooks.yml
+  href: https://artifacts.apis.io/unravel-data-systems/asyncapi/unravel-data-systems-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/unravel-data-systems-webhooks.yml
 created: '2026-07-17'
 description: Unravel Data Systems is an AI-powered data observability and FinOps platform that helps data teams optimize performance, cost, and reliability across modern data stacks including Databricks, Snowflake, BigQuery, Amazon EMR, and Cloudera. The self-hosted and SaaS platform exposes a REST API (JSON over HTTP, session-token authentication via /signIn, RBAC-scoped) for querying application performance, cluster operations, chargeback, anomaly detection, and pipeline data collected by its observability engine.
+finops:
+- has_sources: true
+  method: derived
+  name: Unravel Data Systems Finops
+  primary_unit: ''
+  service_category: ''
+  slug: unravel-data-systems-finops
+  template: true
 image: https://cdn.prod.website-files.com/69c4c9c7f795b263782ef5be/69c754b2bfc0db573c3c6e36_9869e478efb1fecc6dafa9f6cb79fb13_global-og-image.jpg
 layout: provider
 modified: '2026-07-21'
@@ -180,28 +190,28 @@ overview: 'Unravel Data Systems is listed with 1 API on the [APIs.io](https://ap
   Unravel Data Systems'' developer surface includes YouTube channel, documentation, engineering blog, support, pricing, authentication, changelog, and 19 more developer resources.'
 plans:
 - name: Unravel Data Systems Plans
-  plan_count: 1
+  plan_count: 0
   slug: unravel-data-systems-plans
-random_paper: 11
+random_paper: 17
 score:
   band: developing
-  composite: 48.4
+  composite: 45.1
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -4.2
   facets:
-    access_clarity: 75.0
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 42.9
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 48.3
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 49.3
   provenance:
     conformance: first-party
   regulatory:
@@ -210,14 +220,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/screenshots/unravel-data-systems-2026-08-17T082628.png
+screenshot: https://apis.io/screenshots/unravel-data-systems/unravel-data-systems-2026-08-17T082628.png
 security:
 - kind: authentication
   name: Unravel Data Systems Authentication

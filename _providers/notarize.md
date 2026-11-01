@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.0
-  scored_at: '2026-10-17'
+  score: 40.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 1
@@ -132,49 +134,59 @@ apis:
   description: The Webhooks API from Notarize — 12 operation(s) for webhooks.
   name: Notarize Webhooks API
   slug: notarize-webhooks-api
-artifact_total: 45
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Notarize Webhooks
   slug: notarize-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/notarize/plans/notarize-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/notarize-plans-pricing.yml
+- group: other
+  href: https://artifacts.apis.io/notarize/capabilities/notarize-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/notarize-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/agentic-access/notarize-agentic-access.yml
+  href: https://artifacts.apis.io/notarize/agentic-access/notarize-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/notarize-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/rules/notarize-rules.yml
+  href: https://artifacts.apis.io/notarize/rules/notarize-rules.yml
   title: ''
   type: Spectral
   url: rules/notarize-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/json-ld/notarize-context.jsonld
+  href: https://artifacts.apis.io/notarize/json-ld/notarize-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/notarize-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/vocabulary/notarize-vocabulary.yml
+  href: https://artifacts.apis.io/notarize/vocabulary/notarize-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/notarize-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/lifecycle/notarize-lifecycle.yml
+  href: https://artifacts.apis.io/notarize/lifecycle/notarize-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/notarize-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/errors/notarize-problem-types.yml
+  href: https://artifacts.apis.io/notarize/errors/notarize-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/notarize-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/hosts/notarize-hosts.yml
+  href: https://artifacts.apis.io/notarize/hosts/notarize-hosts.yml
   title: ''
   type: Hosts
   url: hosts/notarize-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/vendors/notarize-vendors.yml
+  href: https://artifacts.apis.io/notarize/vendors/notarize-vendors.yml
   title: ''
   type: Vendors
   url: vendors/notarize-vendors.yml
@@ -187,12 +199,12 @@ common:
   type: BlogRSS
   url: https://www.proof.com/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/security/notarize-trust-center.yml
+  href: https://artifacts.apis.io/notarize/security/notarize-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/notarize-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/security/notarize-domain-security.yml
+  href: https://artifacts.apis.io/notarize/security/notarize-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/notarize-domain-security.yml
@@ -249,72 +261,80 @@ common:
   type: Compliance
   url: https://security.proof.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/authentication/notarize-authentication.yml
+  href: https://artifacts.apis.io/notarize/authentication/notarize-authentication.yml
   title: ''
   type: Authentication
   url: authentication/notarize-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/scopes/notarize-scopes.yml
+  href: https://artifacts.apis.io/notarize/scopes/notarize-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/notarize-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/conventions/notarize-conventions.yml
+  href: https://artifacts.apis.io/notarize/conventions/notarize-conventions.yml
   title: ''
   type: Conventions
   url: conventions/notarize-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/errors/notarize-error-codes.yml
+  href: https://artifacts.apis.io/notarize/errors/notarize-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/notarize-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/lifecycle/notarize-lifecycle.yml
+  href: https://artifacts.apis.io/notarize/lifecycle/notarize-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/notarize-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/sandbox/notarize-sandbox.yml
+  href: https://artifacts.apis.io/notarize/sandbox/notarize-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/notarize-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/asyncapi/notarize-webhooks.yml
+  href: https://artifacts.apis.io/notarize/asyncapi/notarize-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/notarize-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/conformance/notarize-conformance.yml
+  href: https://artifacts.apis.io/notarize/conformance/notarize-conformance.yml
   title: ''
   type: Conformance
   url: conformance/notarize-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/well-known/notarize-well-known.yml
+  href: https://artifacts.apis.io/notarize/well-known/notarize-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/notarize-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/mcp/notarize-mcp.yml
+  href: https://artifacts.apis.io/notarize/mcp/notarize-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/notarize-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/llms/notarize-llms.txt
+  href: https://artifacts.apis.io/notarize/llms/notarize-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/notarize-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/data-model/notarize-data-model.yml
+  href: https://artifacts.apis.io/notarize/data-model/notarize-data-model.yml
   title: ''
   type: DataModel
   url: data-model/notarize-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/notarize/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Notarize (rebranded as Proof) provides Remote Online Notarization (RON), eSignature, identity verification, and reusable digital credentials through the Notarize Network. Its REST API (api.proof.com) lets businesses create notarization, eSign, Identify, and real-estate/mortgage closing transactions, attach and template documents, invite signers, manage notaries, and receive V2 webhooks for every transaction and notary state change. Authentication is by API key or OAuth 2.0 client credentials, with a Fairfax test environment for end-to-end sandbox testing. Widely used across proptech, lending, title, and legal workflows.
+finops:
+- has_sources: true
+  method: derived
+  name: Notarize Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: notarize-finops
+  template: false
 image: https://github.com/notarize.png
 json_schemas:
 - name: authorization_server_metadata
@@ -390,8 +410,15 @@ overview: 'Notarize publishes 18 API contracts indexed on the [APIs.io](https://
   The Notarize catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Notarize''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 31 more developer resources.'
-random_paper: 18
+  Notarize''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 33 more developer resources.'
+plans:
+- name: Notarize Plans Pricing
+  plan_count: 5
+  slug: notarize-plans-pricing
+- name: Notarize Price Estimates
+  plan_count: 0
+  slug: notarize-price-estimates
+random_paper: 12
 rules:
 - authorship: generated
   effective_rule_count: 53
@@ -411,24 +438,24 @@ scopes:
   slug: notarize-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 54.0
+  band: exemplar
+  composite: 67.7
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 65.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.3
+    artifact_dirs: 29
+    catalog_earned: 80.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 34.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 13.9
+  delta: 7.9
   facets:
-    access_clarity: 28.9
+    access_clarity: 89.5
     contract_governance: 35.6
-    contract_quality: 70.6
-    developer_ergonomics: 47.0
-    discoverability: 80.4
-    operational_transparency: 34.2
-  previous_composite: 40.1
+    contract_quality: 68.6
+    developer_ergonomics: 66.1
+    discoverability: 73.2
+    operational_transparency: 36.8
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -454,14 +481,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/screenshots/notarize-2026-08-07T185539.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/notarize/notarize-2026-08-07T185539.png
 security:
 - kind: authentication
   name: Notarize Authentication
@@ -475,6 +503,14 @@ security:
   name: Notarize Trust Center
   slug: notarize-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
+skill_count: 3
+skills:
+- name: Create and complete a notarization transaction
+  slug: notarize-create-notarization-transaction
+- name: Send an eSign transaction
+  slug: notarize-esign-transaction
+- name: Subscribe to Proof transaction webhooks (V2)
+  slug: notarize-subscribe-webhooks
 slug: notarize
 tags:
 - Company

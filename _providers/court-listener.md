@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.9
-  scored_at: '2026-10-17'
+  score: 29.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -150,11 +152,8 @@ apis:
   description: The Visualizations API from CourtListener — 2 operation(s) for visualizations.
   name: CourtListener Visualizations API
   slug: court-listener-visualizations-api
-artifact_total: 68
+artifact_total: 67
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CourtListener REST Alerts API
   slug: open-court-listener-alerts-api
@@ -219,18 +218,23 @@ collections:
   name: CourtListener REST Alerts Visualizations API
   slug: open-court-listener-visualizations-api
 common:
+- group: other
+  href: https://artifacts.apis.io/court-listener/capabilities/court-listener-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/court-listener-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/agentic-access/court-listener-agentic-access.yml
+  href: https://artifacts.apis.io/court-listener/agentic-access/court-listener-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/court-listener-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/security/court-listener-domain-security.yml
+  href: https://artifacts.apis.io/court-listener/security/court-listener-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/court-listener-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/authentication/court-listener-authentication.yml
+  href: https://artifacts.apis.io/court-listener/authentication/court-listener-authentication.yml
   title: ''
   type: Authentication
   url: authentication/court-listener-authentication.yml
@@ -263,17 +267,17 @@ common:
   type: X
   url: https://x.com/FreeLawProject
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/plans/court-listener-plans-pricing.yml
+  href: https://artifacts.apis.io/court-listener/plans/court-listener-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/court-listener-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/rate-limits/court-listener-rate-limits.yml
+  href: https://artifacts.apis.io/court-listener/rate-limits/court-listener-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/court-listener-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/finops/court-listener-finops.yml
+  href: https://artifacts.apis.io/court-listener/finops/court-listener-finops.yml
   title: ''
   type: FinOps
   url: finops/court-listener-finops.yml
@@ -360,12 +364,12 @@ overview: 'CourtListener publishes 21 API contracts indexed on the [APIs.io](htt
   The CourtListener catalog on APIs.io includes 3 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  CourtListener''s developer surface includes authentication, documentation, engineering blog, pricing, and 9 more developer resources.'
+  CourtListener''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
 plans:
 - name: Court Listener Plans Pricing
   plan_count: 7
   slug: court-listener-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Court Listener Rate Limits
@@ -384,23 +388,23 @@ rules:
   slug: court-listener-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.5
+  composite: 31.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 51.3
     catalog_earned_first_party: 0.0
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 55.6
     developer_ergonomics: 23.8
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 37.3
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     contracts:
@@ -415,14 +419,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/screenshots/court-listener-2026-06-20T175112.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/court-listener/court-listener-2026-06-20T175112.png
 security:
 - kind: authentication
   name: Court Listener Authentication

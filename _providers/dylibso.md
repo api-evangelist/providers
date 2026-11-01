@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,27 +95,27 @@ common:
   type: Sandbox
   url: https://playground.extism.org
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dylibso/refs/heads/main/packages/dylibso-packages.yml
+  href: https://artifacts.apis.io/dylibso/packages/dylibso-packages.yml
   title: ''
   type: Packages
   url: packages/dylibso-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dylibso/refs/heads/main/packages/dylibso-packages.yml
+  href: https://artifacts.apis.io/dylibso/packages/dylibso-packages.yml
   title: ''
   type: SDKs
   url: packages/dylibso-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dylibso/refs/heads/main/changelog/dylibso-changelog.yml
+  href: https://artifacts.apis.io/dylibso/changelog/dylibso-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dylibso-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dylibso/refs/heads/main/llms/dylibso-llms.txt
+  href: https://artifacts.apis.io/dylibso/llms/dylibso-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dylibso-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dylibso/refs/heads/main/security/dylibso-domain-security.yml
+  href: https://artifacts.apis.io/dylibso/security/dylibso-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dylibso-domain-security.yml
@@ -129,10 +131,10 @@ overview: 'Dylibso is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Dylibso''s developer surface includes documentation, getting-started guide, engineering blog, support, sandbox, changelog, and 13 more developer resources.'
-random_paper: 10
+random_paper: 14
 score:
   band: emerging
-  composite: 16.3
+  composite: 16.6
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -145,27 +147,24 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 55.4
-    operational_transparency: 18.4
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 16.3
+    developer_ergonomics: 52.4
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 16.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dylibso/refs/heads/main/screenshots/dylibso-2026-07-25T212550.png
+screenshot: https://apis.io/screenshots/dylibso/dylibso-2026-07-25T212550.png
 security:
 - kind: domain-security
   name: Dylibso Domain Security

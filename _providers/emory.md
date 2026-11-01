@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 22.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 186
   human_in_the_loop: 4
@@ -183,11 +185,8 @@ apis:
   name: Emory Course Atlas (CourseLeaf)
   provenance: unpublished
   slug: course-atlas
-artifact_total: 75
+artifact_total: 74
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Girder REST API (Emory Digital Slide Archive) annotation API
   slug: open-emory-annotation-api
@@ -264,17 +263,17 @@ common:
   type: Releases
   url: https://github.com/emory-libraries/dlp-curate/releases
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/agentic-access/emory-agentic-access.yml
+  href: https://artifacts.apis.io/emory/agentic-access/emory-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/emory-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/security/emory-domain-security.yml
+  href: https://artifacts.apis.io/emory/security/emory-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/emory-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/authentication/emory-authentication.yml
+  href: https://artifacts.apis.io/emory/authentication/emory-authentication.yml
   title: ''
   type: Authentication
   url: authentication/emory-authentication.yml
@@ -303,22 +302,22 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/emory-university/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/plans/emory-plans-pricing.yml
+  href: https://artifacts.apis.io/emory/plans/emory-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/emory-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/rate-limits/emory-rate-limits.yml
+  href: https://artifacts.apis.io/emory/rate-limits/emory-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/emory-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/finops/emory-finops.yml
+  href: https://artifacts.apis.io/emory/finops/emory-finops.yml
   title: ''
   type: FinOps
   url: finops/emory-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/emory/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -343,12 +342,12 @@ common:
   type: OpenData
   url: https://digital.library.emory.edu/catalog.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/conformance/emory-conformance.yml
+  href: https://artifacts.apis.io/emory/conformance/emory-conformance.yml
   title: ''
   type: Conformance
   url: conformance/emory-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/lifecycle/emory-digital-slide-archive-lifecycle.yml
+  href: https://artifacts.apis.io/emory/lifecycle/emory-digital-slide-archive-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/emory-digital-slide-archive-lifecycle.yml
@@ -432,7 +431,7 @@ plans:
 - name: Emory Plans Pricing
   plan_count: 2
   slug: emory-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Emory Rate Limits
@@ -462,7 +461,7 @@ rules:
   slug: emory-rules
 score:
   band: thin
-  composite: 34.8
+  composite: 31.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 52.7
@@ -470,11 +469,11 @@ score:
     catalog_gap: 62.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 9.8
-    contract_quality: 53.8
+    contract_quality: 52.3
     developer_ergonomics: 38.1
     discoverability: 57.1
     operational_transparency: 26.3
@@ -485,7 +484,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 40.9
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -500,13 +499,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/screenshots/emory-2026-07-25T213244.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/emory/emory-2026-07-25T213244.png
 security:
 - kind: authentication
   name: Emory Authentication

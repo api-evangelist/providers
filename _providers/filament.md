@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://orderbook.filament.finance/sei
@@ -41,7 +43,7 @@ apis:
   description: Signature-authenticated REST + WebSocket order-book API for the Filament perpetual DEX on Sei. Place limit/market orders, cancel orders, manage isolated collateral, set TP/SL, read tradable assets wit
   name: Filament API
   slug: filament-api
-artifact_total: 4
+artifact_total: 5
 asyncapis:
 - description: 'Real-time WebSocket streams for the Filament perpetual DEX on Sei: order-book state, live asset price feed, and per-account order updates.'
   name: Filament Orderbook Streaming API
@@ -76,52 +78,52 @@ common:
   type: X
   url: https://twitter.com/FilamentFinance
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/sandbox/filament-sandbox.yml
+  href: https://artifacts.apis.io/filament/sandbox/filament-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/filament-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/authentication/filament-authentication.yml
+  href: https://artifacts.apis.io/filament/authentication/filament-authentication.yml
   title: ''
   type: Authentication
   url: authentication/filament-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/conventions/filament-conventions.yml
+  href: https://artifacts.apis.io/filament/conventions/filament-conventions.yml
   title: ''
   type: Conventions
   url: conventions/filament-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/mcp/filament-mcp.yml
+  href: https://artifacts.apis.io/filament/mcp/filament-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/filament-mcp.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/asyncapi/filament-orderbook-asyncapi.yml
+  href: https://artifacts.apis.io/filament/asyncapi/filament-orderbook-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/filament-orderbook-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/lifecycle/filament-lifecycle.yml
+  href: https://artifacts.apis.io/filament/lifecycle/filament-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/filament-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/data-model/filament-data-model.yml
+  href: https://artifacts.apis.io/filament/data-model/filament-data-model.yml
   title: ''
   type: DataModel
   url: data-model/filament-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/filament/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/llms/filament-llms.txt
+  href: https://artifacts.apis.io/filament/llms/filament-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/filament-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/security/filament-domain-security.yml
+  href: https://artifacts.apis.io/filament/security/filament-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/filament-domain-security.yml
@@ -148,10 +150,10 @@ overview: 'Filament is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Filament''s developer surface includes documentation, API reference, getting-started guide, engineering blog, sandbox, authentication, and 13 more developer resources.'
-random_paper: 12
+random_paper: 8
 score:
-  band: emerging
-  composite: 24.3
+  band: thin
+  composite: 27.3
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -159,15 +161,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 39.6
-    developer_ergonomics: 42.3
-    discoverability: 73.2
+    developer_ergonomics: 61.3
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 24.2
+  previous_composite: 27.3
   provenance:
     mcp: derived
     skills: derived
@@ -177,14 +179,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 11.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/screenshots/filament-2026-07-25T214446.png
+screenshot: https://apis.io/screenshots/filament/filament-2026-07-25T214446.png
 security:
 - kind: authentication
   name: Filament Authentication
@@ -194,6 +196,10 @@ security:
   name: Filament Domain Security
   slug: filament-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 1
+skills:
+- name: Place and manage a perpetual order on Filament
+  slug: filament-place-perpetual-order
 slug: filament
 tags:
 - Company

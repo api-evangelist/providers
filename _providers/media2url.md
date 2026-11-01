@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.4
-  scored_at: '2026-10-17'
+  score: 35.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,84 +38,84 @@ apis:
 - description: Media2URL Direct Media Delivery API
   name: Media2URL API
   slug: media2url-api
-artifact_total: 9
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Media2Url Webhooks
   slug: media2url-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/agentic-access/media2url-agentic-access.yml
+  href: https://artifacts.apis.io/media2url/agentic-access/media2url-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/media2url-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/rate-limits/media2url-rate-limits.yml
+  href: https://artifacts.apis.io/media2url/rate-limits/media2url-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/media2url-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/plans/media2url-plans-pricing.yml
+  href: https://artifacts.apis.io/media2url/plans/media2url-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/media2url-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/rules/media2url-rules.yml
+  href: https://artifacts.apis.io/media2url/rules/media2url-rules.yml
   title: ''
   type: Spectral
   url: rules/media2url-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/asyncapi/media2url-webhooks.yml
+  href: https://artifacts.apis.io/media2url/asyncapi/media2url-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/media2url-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/cli/media2url-cli.yml
+  href: https://artifacts.apis.io/media2url/cli/media2url-cli.yml
   title: ''
   type: CLI
   url: cli/media2url-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/authentication/media2url-authentication.yml
+  href: https://artifacts.apis.io/media2url/authentication/media2url-authentication.yml
   title: ''
   type: Authentication
   url: authentication/media2url-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/errors/media2url-problem-types.yml
+  href: https://artifacts.apis.io/media2url/errors/media2url-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/media2url-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/conformance/media2url-conformance.yml
+  href: https://artifacts.apis.io/media2url/conformance/media2url-conformance.yml
   title: ''
   type: Conformance
   url: conformance/media2url-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/well-known/media2url-security.txt
+  href: https://artifacts.apis.io/media2url/well-known/media2url-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/media2url-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/well-known/media2url-gitlab-security.txt
+  href: https://artifacts.apis.io/media2url/well-known/media2url-gitlab-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/media2url-gitlab-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/well-known/media2url-api-security.txt
+  href: https://artifacts.apis.io/media2url/well-known/media2url-api-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/media2url-api-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/well-known/media2url-well-known.yml
+  href: https://artifacts.apis.io/media2url/well-known/media2url-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/media2url-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/hosts/media2url-hosts.yml
+  href: https://artifacts.apis.io/media2url/hosts/media2url-hosts.yml
   title: ''
   type: Hosts
   url: hosts/media2url-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/vendors/media2url-vendors.yml
+  href: https://artifacts.apis.io/media2url/vendors/media2url-vendors.yml
   title: ''
   type: Vendors
   url: vendors/media2url-vendors.yml
@@ -138,12 +140,12 @@ common:
   type: DeveloperPortal
   url: https://media2url.com/dashboard/developer
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/security/media2url-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/media2url/security/media2url-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/media2url-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/security/media2url-domain-security.yml
+  href: https://artifacts.apis.io/media2url/security/media2url-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/media2url-domain-security.yml
@@ -185,13 +187,21 @@ common:
   url: https://gitlab.com/sahukumarsonu/media2url-uploader-sdk
 created: '2026-10-06'
 description: Media2URL provides a direct media delivery platform that lets users upload images, videos, PDFs, audio, and other files and instantly obtain shareable direct URLs. The service includes tools for bulk uploads, custom domains, media library management, team workspaces, and integrations with platforms like Google Workspace, Zapier, Make, n8n, and Notion. It offers an API (base URL https://api.media2url.com/v1) secured with Bearer token authentication, supporting operations for usage stats, presigned upload URLs, finalizing uploads, and asset management.
+finops:
+- has_sources: true
+  method: derived
+  name: Media2Url Finops
+  primary_unit: seat
+  service_category: ''
+  slug: media2url-finops
+  template: false
 image: https://media2url.com/og-image.png
 layout: provider
 modified: '2026-10-06'
 name: Media2URL Direct Media Delivery API
 nav: Providers
 network: true
-overview: 'Media2URL Direct Media Delivery API is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Media, FileHosting, DirectLinks, and Upload.
+overview: 'Media2URL Direct Media Delivery API is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Media, File Hosting, Direct Links, and Upload.
 
 
   The Media2URL Direct Media Delivery API catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -202,7 +212,10 @@ plans:
 - name: Media2Url Plans Pricing
   plan_count: 4
   slug: media2url-plans-pricing
-random_paper: 21
+- name: Media2Url Price Estimates
+  plan_count: 0
+  slug: media2url-price-estimates
+random_paper: 13
 rate_limits:
 - limit_count: 32
   name: Media2Url Rate Limits
@@ -222,21 +235,23 @@ rules:
   slug: media2url-rules
 score:
   band: strong
-  composite: 54.5
+  composite: 56.0
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 60.5
+    artifact_dirs: 18
+    catalog_earned: 63.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.5
+    catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 59.5
     discoverability: 58.9
     operational_transparency: 55.3
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,8 +262,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -269,8 +285,8 @@ security:
 slug: media2url
 tags:
 - Media
-- FileHosting
-- DirectLinks
+- File Hosting
+- Direct Links
 - Upload
 website: https://media2url.com
 ---

@@ -14,7 +14,7 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.8
-  scored_at: '2026-10-17'
+  score: 43.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://salesgraph.com/api/v1
@@ -66,11 +68,8 @@ apis:
 - description: The remote MCP streamable-HTTP server at salesgraph.com/api/mcp, authenticated with an sg_live_ API key. It exposes 19 documented tools across three families — GTM commands (research, competitors, gtm
   name: Salesgraph MCP Server
   slug: salesgraph-mcp-server
-artifact_total: 17
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Salesgraph REST Audit API
   slug: open-salesgraph-audit-api
@@ -92,12 +91,12 @@ common:
   type: Website
   url: https://www.salesgraph.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/overlays/salesgraph-openapi-overlay.yaml
+  href: https://artifacts.apis.io/salesgraph/overlays/salesgraph-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/salesgraph-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/security/salesgraph-domain-security.yml
+  href: https://artifacts.apis.io/salesgraph/security/salesgraph-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/salesgraph-domain-security.yml
@@ -118,52 +117,52 @@ common:
   type: GettingStarted
   url: https://docs.salesgraph.com/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/authentication/salesgraph-authentication.yml
+  href: https://artifacts.apis.io/salesgraph/authentication/salesgraph-authentication.yml
   title: ''
   type: Authentication
   url: authentication/salesgraph-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/mcp/salesgraph-mcp.yml
+  href: https://artifacts.apis.io/salesgraph/mcp/salesgraph-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/salesgraph-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/llms/salesgraph-llms.txt
+  href: https://artifacts.apis.io/salesgraph/llms/salesgraph-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/salesgraph-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/salesgraph/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/errors/salesgraph-problem-types.yml
+  href: https://artifacts.apis.io/salesgraph/errors/salesgraph-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/salesgraph-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/conventions/salesgraph-conventions.yml
+  href: https://artifacts.apis.io/salesgraph/conventions/salesgraph-conventions.yml
   title: ''
   type: Conventions
   url: conventions/salesgraph-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/lifecycle/salesgraph-lifecycle.yml
+  href: https://artifacts.apis.io/salesgraph/lifecycle/salesgraph-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/salesgraph-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/conformance/salesgraph-conformance.yml
+  href: https://artifacts.apis.io/salesgraph/conformance/salesgraph-conformance.yml
   title: ''
   type: Conformance
   url: conformance/salesgraph-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/data-model/salesgraph-data-model.yml
+  href: https://artifacts.apis.io/salesgraph/data-model/salesgraph-data-model.yml
   title: ''
   type: DataModel
   url: data-model/salesgraph-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/changelog/salesgraph-changelog.yml
+  href: https://artifacts.apis.io/salesgraph/changelog/salesgraph-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/salesgraph-changelog.yml
@@ -184,22 +183,22 @@ common:
   type: PrivacyPolicy
   url: https://salesgraph.com/privacy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/mcp/salesgraph-tool-crosswalk.yml
+  href: https://artifacts.apis.io/salesgraph/mcp/salesgraph-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/salesgraph-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/a2a/salesgraph-a2a.yml
+  href: https://artifacts.apis.io/salesgraph/a2a/salesgraph-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/salesgraph-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/well-known/salesgraph-well-known.yml
+  href: https://artifacts.apis.io/salesgraph/well-known/salesgraph-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/salesgraph-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/conventions/salesgraph-conventions.yml
+  href: https://artifacts.apis.io/salesgraph/conventions/salesgraph-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/salesgraph-conventions.yml
@@ -208,17 +207,17 @@ common:
   type: StatusPage
   url: https://salesgraph.com/status
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/rate-limits/salesgraph-rate-limits.yml
+  href: https://artifacts.apis.io/salesgraph/rate-limits/salesgraph-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/salesgraph-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/plans/salesgraph-plans-pricing.yml
+  href: https://artifacts.apis.io/salesgraph/plans/salesgraph-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/salesgraph-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/packages/salesgraph-packages.yml
+  href: https://artifacts.apis.io/salesgraph/packages/salesgraph-packages.yml
   title: ''
   type: Packages
   url: packages/salesgraph-packages.yml
@@ -258,7 +257,7 @@ rate_limits:
   slug: salesgraph-rate-limits
 score:
   band: thin
-  composite: 31.2
+  composite: 32.3
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -268,13 +267,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 31.6
-  previous_composite: 31.2
+  previous_composite: 32.3
   provenance:
     conformance: derived
     contracts:
@@ -290,13 +289,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/screenshots/salesgraph-2026-09-02T154323.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/salesgraph/salesgraph-2026-09-02T154323.png
 security:
 - kind: authentication
   name: Salesgraph Authentication
@@ -306,6 +306,16 @@ security:
   name: Salesgraph Domain Security
   slug: salesgraph-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Run a GTM audit of a prospect and poll for the result
+  slug: salesgraph-gtm-audit
+- name: Query the OMS graph and set up a continuous research watch
+  slug: salesgraph-oms-watch
+- name: Salesgraph
+  slug: salesgraph-published-skill
+- name: Research a company and map its competitors
+  slug: salesgraph-research-competitors
 slug: salesgraph
 tags:
 - Company

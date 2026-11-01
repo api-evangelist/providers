@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,11 +56,8 @@ apis:
   description: Servers operations
   name: Azure Database for PostgreSQL Servers API
   slug: microsoft-azure-postgresql-servers-api
-artifact_total: 13
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure Database for PostgreSQL REST Operations API
   slug: open-microsoft-azure-postgresql-operations-api
@@ -70,42 +69,42 @@ collections:
   slug: open-microsoft-azure-postgresql
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/plans/microsoft-azure-postgresql-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-azure-postgresql/plans/microsoft-azure-postgresql-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-azure-postgresql-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/rate-limits/microsoft-azure-postgresql-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-azure-postgresql/rate-limits/microsoft-azure-postgresql-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-azure-postgresql-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/finops/microsoft-azure-postgresql-finops.yml
+  href: https://artifacts.apis.io/microsoft-azure-postgresql/finops/microsoft-azure-postgresql-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-azure-postgresql-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/capabilities/microsoft-azure-postgresql-capability-edges.yml
+  href: https://artifacts.apis.io/microsoft-azure-postgresql/capabilities/microsoft-azure-postgresql-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-azure-postgresql-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/agentic-access/microsoft-azure-postgresql-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-azure-postgresql/agentic-access/microsoft-azure-postgresql-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-postgresql-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/security/microsoft-azure-postgresql-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-azure-postgresql/security/microsoft-azure-postgresql-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-postgresql-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/authentication/microsoft-azure-postgresql-authentication.yml
+  href: https://artifacts.apis.io/microsoft-azure-postgresql/authentication/microsoft-azure-postgresql-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-postgresql-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/scopes/microsoft-azure-postgresql-scopes.yml
+  href: https://artifacts.apis.io/microsoft-azure-postgresql/scopes/microsoft-azure-postgresql-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-postgresql-scopes.yml
@@ -156,11 +155,11 @@ common:
 created: '2026-03-13'
 description: Azure Database for PostgreSQL is a fully managed relational database service based on the open-source PostgreSQL engine. It provides Flexible Server and Cosmos DB for PostgreSQL deployment options with built-in high availability, automated backups, scaling, and security.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Microsoft Azure Postgresql Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: microsoft-azure-postgresql-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-postgresql.png
@@ -175,9 +174,9 @@ overview: 'Azure Database for PostgreSQL is listed with 2 APIs on the [APIs.io](
   Azure Database for PostgreSQL''s developer surface includes authentication, developer portal, pricing, documentation, signup flow, support, and 13 more developer resources.'
 plans:
 - name: Microsoft Azure Postgresql Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: microsoft-azure-postgresql-plans-pricing
-random_paper: 3
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Postgresql Rate Limits
@@ -189,23 +188,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 44.1
+  composite: 41.4
   coverage:
     artifact_dirs: 15
-    catalog_earned: 43.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -6.3
   facets:
-    access_clarity: 52.6
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 47.6
     discoverability: 80.4
-    operational_transparency: 10.5
-  previous_composite: 45.6
+    operational_transparency: 13.2
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     contracts:
@@ -219,13 +218,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/screenshots/microsoft-azure-postgresql-2026-06-20T185432.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-azure-postgresql/microsoft-azure-postgresql-2026-06-20T185432.png
 security:
 - kind: authentication
   name: Microsoft Azure Postgresql Authentication

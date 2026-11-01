@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Rentec Direct Open API v3 provides RESTful access to property management data including properties, tenants, leases, payments, maintenance requests, contacts, and messaging. Available to Pro and P
@@ -46,7 +48,7 @@ common:
   type: Website
   url: https://rentecdirect.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rentec/refs/heads/main/security/rentec-domain-security.yml
+  href: https://artifacts.apis.io/rentec/security/rentec-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rentec-domain-security.yml
@@ -126,14 +128,14 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Rate Limits
   slug: rate-limits
 score:
   band: emerging
-  composite: 19.9
+  composite: 25.2
   coverage:
     artifact_dirs: 9
     catalog_earned: 40.0
@@ -141,29 +143,29 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 25.5
+  previous_composite: 25.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 12.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rentec/refs/heads/main/screenshots/rentec-2026-06-20T192855.png
+screenshot: https://apis.io/screenshots/rentec/rentec-2026-06-20T192855.png
 security:
 - kind: domain-security
   name: Rentec Domain Security

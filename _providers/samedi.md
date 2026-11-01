@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: OAuth2 / OpenID-Connect secured API to discover bookable resources and book and manage patient appointments for a clinic. Versioned in the URL path (booking v3, auth v2).
@@ -78,52 +80,52 @@ common:
   type: PrivacyPolicy
   url: https://legal.samedi.de/en/for_customers/privacy_policy_in_general/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/samedi/refs/heads/main/authentication/samedi-authentication.yml
+  href: https://artifacts.apis.io/samedi/authentication/samedi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/samedi-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/samedi/refs/heads/main/scopes/samedi-scopes.yml
+  href: https://artifacts.apis.io/samedi/scopes/samedi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/samedi-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/samedi/refs/heads/main/well-known/samedi-well-known.yml
+  href: https://artifacts.apis.io/samedi/well-known/samedi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/samedi-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/samedi/refs/heads/main/packages/samedi-packages.yml
+  href: https://artifacts.apis.io/samedi/packages/samedi-packages.yml
   title: ''
   type: Packages
   url: packages/samedi-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/samedi/refs/heads/main/packages/samedi-packages.yml
+  href: https://artifacts.apis.io/samedi/packages/samedi-packages.yml
   title: ''
   type: SDKs
   url: packages/samedi-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/samedi/refs/heads/main/conventions/samedi-conventions.yml
+  href: https://artifacts.apis.io/samedi/conventions/samedi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/samedi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/samedi/refs/heads/main/lifecycle/samedi-lifecycle.yml
+  href: https://artifacts.apis.io/samedi/lifecycle/samedi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/samedi-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/samedi/refs/heads/main/conformance/samedi-conformance.yml
+  href: https://artifacts.apis.io/samedi/conformance/samedi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/samedi-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/samedi/refs/heads/main/security/samedi-domain-security.yml
+  href: https://artifacts.apis.io/samedi/security/samedi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/samedi-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/samedi/refs/heads/main/llms/samedi-llms.txt
+  href: https://artifacts.apis.io/samedi/llms/samedi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/samedi-llms.txt
@@ -139,7 +141,7 @@ overview: 'samedi is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   samedi''s developer surface includes engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 11
+random_paper: 3
 scopes:
 - name: Samedi Scopes
   scope_count: 10
@@ -147,22 +149,22 @@ scopes:
   summary_line: 10 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 27.1
+  composite: 26.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 73.2
-    operational_transparency: 18.4
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -171,7 +173,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 26.5
+  previous_composite: 26.7
   provenance:
     conformance: first-party
   regulatory:
@@ -180,14 +182,14 @@ score:
     regime: Health
     regime_id: health
     score: 39.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/samedi/refs/heads/main/screenshots/samedi-2026-09-02T154341.png
+screenshot: https://apis.io/screenshots/samedi/samedi-2026-09-02T154341.png
 security:
 - kind: authentication
   name: Samedi Authentication

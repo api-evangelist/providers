@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.4
-  scored_at: '2026-10-17'
+  score: 17.5
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -32,17 +34,17 @@ common:
   type: BlogRSS
   url: https://arriscomposites.com/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arris-composites/refs/heads/main/well-known/arris-composites-well-known.yml
+  href: https://artifacts.apis.io/arris-composites/well-known/arris-composites-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/arris-composites-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arris-composites/refs/heads/main/hosts/arris-composites-hosts.yml
+  href: https://artifacts.apis.io/arris-composites/hosts/arris-composites-hosts.yml
   title: ''
   type: Hosts
   url: hosts/arris-composites-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arris-composites/refs/heads/main/vendors/arris-composites-vendors.yml
+  href: https://artifacts.apis.io/arris-composites/vendors/arris-composites-vendors.yml
   title: ''
   type: Vendors
   url: vendors/arris-composites-vendors.yml
@@ -59,7 +61,7 @@ common:
   type: Newsroom
   url: https://arriscomposites.com/about/media/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arris-composites/refs/heads/main/security/arris-composites-domain-security.yml
+  href: https://artifacts.apis.io/arris-composites/security/arris-composites-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arris-composites-domain-security.yml
@@ -85,7 +87,7 @@ name: Arris Composites
 nav: Providers
 network: true
 overview: Arris Composites is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Composites, AdditiveMolding, and Advanced Materials.
-random_paper: 12
+random_paper: 4
 score:
   band: minimal
   composite: 9.5
@@ -120,14 +122,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/arris-composites/refs/heads/main/screenshots/arris-composites-2026-10-11T100345.png
+screenshot: https://apis.io/screenshots/arris-composites/arris-composites-2026-10-11T100345.png
 security:
 - kind: domain-security
   name: Arris Composites Domain Security

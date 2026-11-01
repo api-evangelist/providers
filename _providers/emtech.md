@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,42 +94,42 @@ common:
   type: Marketplace
   url: https://emtech.com/beyond-suite/marketplace
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emtech/refs/heads/main/authentication/emtech-authentication.yml
+  href: https://artifacts.apis.io/emtech/authentication/emtech-authentication.yml
   title: ''
   type: Authentication
   url: authentication/emtech-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emtech/refs/heads/main/conformance/emtech-conformance.yml
+  href: https://artifacts.apis.io/emtech/conformance/emtech-conformance.yml
   title: ''
   type: Conformance
   url: conformance/emtech-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emtech/refs/heads/main/conformance/emtech-conformance.yml
+  href: https://artifacts.apis.io/emtech/conformance/emtech-conformance.yml
   title: ''
   type: Compliance
   url: conformance/emtech-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emtech/refs/heads/main/lifecycle/emtech-lifecycle.yml
+  href: https://artifacts.apis.io/emtech/lifecycle/emtech-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/emtech-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/emtech/refs/heads/main/sandbox/emtech-sandbox.yml
+  href: https://artifacts.apis.io/emtech/sandbox/emtech-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/emtech-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emtech/refs/heads/main/conventions/emtech-conventions.yml
+  href: https://artifacts.apis.io/emtech/conventions/emtech-conventions.yml
   title: ''
   type: Conventions
   url: conventions/emtech-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emtech/refs/heads/main/security/emtech-domain-security.yml
+  href: https://artifacts.apis.io/emtech/security/emtech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/emtech-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emtech/refs/heads/main/llms/emtech-llms.txt
+  href: https://artifacts.apis.io/emtech/llms/emtech-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/emtech-llms.txt
@@ -143,12 +145,12 @@ overview: 'EMTECH is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   EMTECH''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 14 more developer resources.'
-random_paper: 14
+random_paper: 6
 score:
   band: thin
-  composite: 30.8
+  composite: 31.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -156,13 +158,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 15.8
-  previous_composite: 30.8
+  previous_composite: 31.4
   provenance:
     conformance: first-party
   regulatory:
@@ -171,14 +173,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/emtech/refs/heads/main/screenshots/emtech-2026-07-25T213255.png
+screenshot: https://apis.io/screenshots/emtech/emtech-2026-07-25T213255.png
 security:
 - kind: authentication
   name: Emtech Authentication

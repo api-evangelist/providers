@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 25.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -64,7 +66,7 @@ apis:
   description: Operations on database users
   name: Google Cloud SQL Users API
   slug: google-cloud-sql-users-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: postman
   name: Google Cloud SQL Admin BackupRuns API
@@ -78,9 +80,6 @@ collections:
 - collection_type: postman
   name: Google Cloud SQL Admin BackupRuns Users API
   slug: postman-google-cloud-sql-users-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Cloud SQL Admin API
   slug: open-cloud-sql
@@ -98,22 +97,22 @@ collections:
   slug: open-google-cloud-sql-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/plans/google-cloud-sql-plans-pricing.yml
+  href: https://artifacts.apis.io/google-cloud-sql/plans/google-cloud-sql-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-cloud-sql-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/rate-limits/google-cloud-sql-rate-limits.yml
+  href: https://artifacts.apis.io/google-cloud-sql/rate-limits/google-cloud-sql-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-cloud-sql-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/finops/google-cloud-sql-finops.yml
+  href: https://artifacts.apis.io/google-cloud-sql/finops/google-cloud-sql-finops.yml
   title: ''
   type: FinOps
   url: finops/google-cloud-sql-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/capabilities/google-cloud-sql-capability-edges.yml
+  href: https://artifacts.apis.io/google-cloud-sql/capabilities/google-cloud-sql-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-cloud-sql-capability-edges.yml
@@ -126,27 +125,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-cloud-sql/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/agentic-access/google-cloud-sql-agentic-access.yml
+  href: https://artifacts.apis.io/google-cloud-sql/agentic-access/google-cloud-sql-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-cloud-sql-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/security/google-cloud-sql-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-cloud-sql/security/google-cloud-sql-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-cloud-sql-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/security/google-cloud-sql-domain-security.yml
+  href: https://artifacts.apis.io/google-cloud-sql/security/google-cloud-sql-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-cloud-sql-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/authentication/google-cloud-sql-authentication.yml
+  href: https://artifacts.apis.io/google-cloud-sql/authentication/google-cloud-sql-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-cloud-sql-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/scopes/google-cloud-sql-scopes.yml
+  href: https://artifacts.apis.io/google-cloud-sql/scopes/google-cloud-sql-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-cloud-sql-scopes.yml
@@ -191,7 +190,7 @@ common:
   type: Support
   url: https://cloud.google.com/sql/docs/mysql/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/json-ld/google-cloud-sql-context.jsonld
+  href: https://artifacts.apis.io/google-cloud-sql/json-ld/google-cloud-sql-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/google-cloud-sql-context.jsonld
@@ -202,13 +201,13 @@ common:
 created: '2026-03-13'
 description: Google Cloud SQL is a fully managed relational database service that supports MySQL, PostgreSQL, and SQL Server. It handles routine database tasks such as provisioning, replication, backups, and failover, allowing developers to focus on application development. Cloud SQL provides high availability, automatic storage scaling, and integrated security features.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Google Cloud Sql Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: vcpu hour
+  service_category: ''
   slug: google-cloud-sql-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-sql.png
 json_schemas:
 - name: Google Cloud SQL Database Instance
@@ -233,7 +232,7 @@ overview: 'Google Cloud SQL publishes 4 API contracts indexed on the [APIs.io](h
   Google Cloud SQL''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Google Cloud Sql Plans Pricing
-  plan_count: 3
+  plan_count: 18
   slug: google-cloud-sql-plans-pricing
 random_paper: 14
 rate_limits:
@@ -258,24 +257,24 @@ scopes:
   slug: google-cloud-sql-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: developing
-  composite: 47.1
+  band: strong
+  composite: 55.8
   coverage:
     artifact_dirs: 18
-    catalog_earned: 59.7
-    catalog_earned_first_party: 0.0
-    catalog_gap: 55.4
+    catalog_earned: 71.7
+    catalog_earned_first_party: 12.0
+    catalog_gap: 43.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 9.8
     contract_quality: 58.6
     developer_ergonomics: 51.2
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 48.6
+    operational_transparency: 39.5
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     contracts:
@@ -289,13 +288,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/screenshots/google-cloud-sql-2026-06-20T182138.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-cloud-sql/google-cloud-sql-2026-06-20T182138.png
 security:
 - kind: authentication
   name: Google Cloud Sql Authentication

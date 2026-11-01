@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-10-17'
+  score: 37.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -85,11 +87,8 @@ arazzos:
 - description: Browse the HSBC Bank Australia public Consumer Data Right Product Reference Data catalog, then fetch the full detail of the first product returned. Both operations are public and unauthenticated on th
   name: HSBC Australia CDR - Browse Products
   slug: hsbc-australia-browse-products
-artifact_total: 21
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-hsbc-australia-banking-account-balances-api
@@ -113,17 +112,17 @@ collections:
   slug: open-hsbc-australia-banking-products-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/capabilities/hsbc-australia-capability-edges.yml
+  href: https://artifacts.apis.io/hsbc-australia/capabilities/hsbc-australia-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hsbc-australia-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/overlays/hsbc-australia-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/hsbc-australia/overlays/hsbc-australia-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hsbc-australia-cds-banking-products-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/security/hsbc-australia-domain-security.yml
+  href: https://artifacts.apis.io/hsbc-australia/security/hsbc-australia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hsbc-australia-domain-security.yml
@@ -164,72 +163,72 @@ common:
   type: Support
   url: mailto:openbankingsupport@hsbc.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/well-known/hsbc-australia-well-known.yml
+  href: https://artifacts.apis.io/hsbc-australia/well-known/hsbc-australia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hsbc-australia-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/well-known/hsbc-australia-openid-configuration.json
+  href: https://artifacts.apis.io/hsbc-australia/well-known/hsbc-australia-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/hsbc-australia-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/authentication/hsbc-australia-authentication.yml
+  href: https://artifacts.apis.io/hsbc-australia/authentication/hsbc-australia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hsbc-australia-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/scopes/hsbc-australia-scopes.yml
+  href: https://artifacts.apis.io/hsbc-australia/scopes/hsbc-australia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hsbc-australia-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/conformance/hsbc-australia-conformance.yml
+  href: https://artifacts.apis.io/hsbc-australia/conformance/hsbc-australia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hsbc-australia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/errors/hsbc-australia-problem-types.yml
+  href: https://artifacts.apis.io/hsbc-australia/errors/hsbc-australia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hsbc-australia-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/lifecycle/hsbc-australia-lifecycle.yml
+  href: https://artifacts.apis.io/hsbc-australia/lifecycle/hsbc-australia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hsbc-australia-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/conventions/hsbc-australia-conventions.yml
+  href: https://artifacts.apis.io/hsbc-australia/conventions/hsbc-australia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hsbc-australia-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/mcp/hsbc-australia-mcp.yml
+  href: https://artifacts.apis.io/hsbc-australia/mcp/hsbc-australia-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hsbc-australia-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/llms/hsbc-australia-llms.txt
+  href: https://artifacts.apis.io/hsbc-australia/llms/hsbc-australia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hsbc-australia-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/data-model/hsbc-australia-data-model.yml
+  href: https://artifacts.apis.io/hsbc-australia/data-model/hsbc-australia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hsbc-australia-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hsbc-australia/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/arazzo/hsbc-australia-browse-products.yml
+  href: https://artifacts.apis.io/hsbc-australia/arazzo/hsbc-australia-browse-products.yml
   title: ''
   type: Arazzo
   url: arazzo/hsbc-australia-browse-products.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/agentic-access/hsbc-australia-agentic-access.yml
+  href: https://artifacts.apis.io/hsbc-australia/agentic-access/hsbc-australia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hsbc-australia-agentic-access.yml
@@ -246,15 +245,15 @@ overview: 'HSBC Bank Australia publishes 8 API contracts indexed on the [APIs.io
 
 
   HSBC Bank Australia''s developer surface includes documentation, getting-started guide, support, authentication, and 22 more developer resources.'
-random_paper: 19
+random_paper: 11
 scopes:
 - name: Hsbc Australia Scopes
   scope_count: 10
   slug: hsbc-australia-scopes
   summary_line: 10 scopes · authorizationCode
 score:
-  band: thin
-  composite: 38.7
+  band: developing
+  composite: 39.7
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -267,9 +266,9 @@ score:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 44.7
-    developer_ergonomics: 53.0
-    discoverability: 73.2
-    operational_transparency: 2.6
+    developer_ergonomics: 56.5
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -277,7 +276,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 38.7
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -294,13 +293,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/screenshots/hsbc-australia-2026-07-21T114727.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hsbc-australia/hsbc-australia-2026-07-21T114727.png
 security:
 - kind: authentication
   name: Hsbc Australia Authentication
@@ -310,6 +310,12 @@ security:
   name: Hsbc Australia Domain Security
   slug: hsbc-australia-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Browse HSBC Australia banking products
+  slug: hsbc-australia-browse-products
+- name: Get HSBC Australia product detail
+  slug: hsbc-australia-product-detail
 slug: hsbc-australia
 tags:
 - Finance

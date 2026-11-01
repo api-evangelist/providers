@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/navient/refs/heads/main/security/navient-domain-security.yml
+  href: https://artifacts.apis.io/navient/security/navient-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/navient-domain-security.yml
@@ -85,7 +87,7 @@ press:
 - date: ''
   title: Notified Public Relations Solutions
   url: https://insight.notified.com/hubfs/NF%20Whitepapers/Fact%20Sheets/PR-Product%20Sheet-PR%20Cloud-1.pdf?mobile=1
-random_paper: 9
+random_paper: 13
 score:
   band: minimal
   composite: 2.2
@@ -118,14 +120,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/navient/refs/heads/main/screenshots/navient-2026-06-20T190058.png
+screenshot: https://apis.io/screenshots/navient/navient-2026-06-20T190058.png
 security:
 - kind: domain-security
   name: Navient Domain Security

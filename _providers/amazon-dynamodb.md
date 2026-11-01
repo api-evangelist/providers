@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: derived
+    error_semantics: verified
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
-    openapi_examples: verified
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.4
-  scored_at: '2026-10-17'
+  score: 40.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -50,10 +52,10 @@ apis:
   description: Operations for batch reading and writing multiple items
   name: Amazon DynamoDB Batch API
   phrasing_intents:
-  - id: batchGetItem
+  - id: BatchGetItem
     intent: Fetch many items by key across tables
     question: How do I read up to 100 items by primary key in a single request?
-  - id: batchWriteItem
+  - id: BatchWriteItem
     intent: Put or delete many items in one batch
     question: How do I load a bunch of items into a table in one call?
   phrasing_ops: 2
@@ -63,18 +65,18 @@ apis:
   description: Operations for putting, getting, updating, and deleting individual items
   name: Amazon DynamoDB Items API
   phrasing_intents:
-  - id: putItem
-    intent: Write or replace an item in a table
-    question: How do I insert a new record into a DynamoDB table?
-  - id: getItem
-    intent: Fetch one item by its primary key
-    question: How do I look up a single record in a table by its primary key?
-  - id: updateItem
-    intent: Edit attributes on an existing item
-    question: How do I change just a few attributes on an existing item without rewriting the whole thing?
-  - id: deleteItem
+  - id: DeleteItem
     intent: Delete one item by its primary key
     question: How do I remove a single record from a DynamoDB table?
+  - id: GetItem
+    intent: Fetch one item by its primary key
+    question: How do I look up a single record in a table by its primary key?
+  - id: PutItem
+    intent: Write or replace an item in a table
+    question: How do I insert a new record into a DynamoDB table?
+  - id: UpdateItem
+    intent: Edit attributes on an existing item
+    question: How do I change just a few attributes on an existing item without rewriting the whole thing?
   phrasing_ops: 4
   slug: amazon-dynamodb-items-api
 - baseURL: https://dynamodb.{region}.amazonaws.com
@@ -82,10 +84,10 @@ apis:
   description: Operations for querying and scanning table data
   name: Amazon DynamoDB Queries API
   phrasing_intents:
-  - id: query
+  - id: Query
     intent: Find items by partition key value
     question: How do I get all items that share one partition key value?
-  - id: scan
+  - id: Scan
     intent: Read every item in a table or index
     question: How do I read through every item in a table without knowing the keys?
   phrasing_ops: 2
@@ -95,32 +97,29 @@ apis:
   description: Operations for creating, describing, updating, listing, and deleting DynamoDB tables
   name: Amazon DynamoDB Tables API
   phrasing_intents:
-  - id: createTable
-    intent: Create a new DynamoDB table
-    question: How do I create a new table in DynamoDB with a partition key and sort key?
-  - id: describeTable
-    intent: Get a table's status, key schema and indexes
-    question: Is my DynamoDB table still being created, or is it active yet?
-  - id: listTables
-    intent: List the tables in my account
-    question: What tables do I have in this account and Region?
-  - id: updateTable
-    intent: Change a table's throughput, billing or indexes
-    question: How do I raise the provisioned read and write capacity on an existing table?
-  - id: deleteTable
+  - id: DeleteTable
     intent: Delete a table and all its items
     question: How do I permanently drop a DynamoDB table along with its data?
-  phrasing_ops: 5
+  - id: DescribeTable
+    intent: Get a table's status, key schema and indexes
+    question: Is my DynamoDB table still being created, or is it active yet?
+  - id: ListTables
+    intent: List the tables in my account
+    question: What tables do I have in this account and Region?
+  - id: UpdateTable
+    intent: Change a table's throughput, billing or indexes
+    question: How do I raise the provisioned read and write capacity on an existing table?
+  phrasing_ops: 4
   slug: amazon-dynamodb-tables-api
 - baseURL: https://dynamodb.{region}.amazonaws.com
   baseurl_source: declared
   description: Operations for transactional reads and writes across multiple items
   name: Amazon DynamoDB Transactions API
   phrasing_intents:
-  - id: transactGetItems
+  - id: TransactGetItems
     intent: Read several items atomically
     question: How do I read several items as one consistent, all-or-nothing snapshot?
-  - id: transactWriteItems
+  - id: TransactWriteItems
     intent: Write several items atomically
     question: How do I make several writes succeed or fail together across tables?
   phrasing_ops: 2
@@ -128,6 +127,51 @@ apis:
 - description: API for capturing and processing change data from DynamoDB tables in near real-time, providing time-ordered sequences of item-level modifications.
   name: Amazon DynamoDB Streams API
   slug: amazon-dynamodb-streams-api
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Dynamodb Backups API from Amazon DynamoDB — 8 operation(s) for dynamodb backups.
+  name: Amazon DynamoDB Dynamodb Backups API
+  slug: amazon-dynamodb-backups-api
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Dynamodb Contributor Insights API from Amazon DynamoDB — 3 operation(s) for dynamodb contributor insights.
+  name: Amazon DynamoDB Dynamodb Contributor Insights API
+  slug: amazon-dynamodb-contributor-insights-api
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Dynamodb Exports Imports API from Amazon DynamoDB — 6 operation(s) for dynamodb exports imports.
+  name: Amazon DynamoDB Dynamodb Exports Imports API
+  slug: amazon-dynamodb-exports-imports-api
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Dynamodb Global Tables API from Amazon DynamoDB — 6 operation(s) for dynamodb global tables.
+  name: Amazon DynamoDB Dynamodb Global Tables API
+  slug: amazon-dynamodb-global-tables-api
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Dynamodb Operations API from Amazon DynamoDB — 2 operation(s) for dynamodb operations.
+  name: Amazon DynamoDB Dynamodb Operations API
+  slug: amazon-dynamodb-operations-api
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Dynamodb Resource Policies API from Amazon DynamoDB — 3 operation(s) for dynamodb resource policies.
+  name: Amazon DynamoDB Dynamodb Resource Policies API
+  slug: amazon-dynamodb-resource-policies-api
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Dynamodb Streams Kinesis API from Amazon DynamoDB — 2 operation(s) for dynamodb streams kinesis.
+  name: Amazon DynamoDB Dynamodb Streams Kinesis API
+  slug: amazon-dynamodb-streams-kinesis-api
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Dynamodb Tags API from Amazon DynamoDB — 2 operation(s) for dynamodb tags.
+  name: Amazon DynamoDB Dynamodb Tags API
+  slug: amazon-dynamodb-tags-api
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Dynamodb Ttl API from Amazon DynamoDB — 2 operation(s) for dynamodb ttl.
+  name: Amazon DynamoDB Dynamodb Ttl API
+  slug: amazon-dynamodb-ttl-api
 arazzos:
 - description: Bulk-write a set of items and read them back in a single batch.
   name: Amazon DynamoDB Batch Write Then Batch Get
@@ -156,14 +200,11 @@ arazzos:
 - description: Atomically write a group of items, then atomically read them back.
   name: Amazon DynamoDB Transactional Write Then Transactional Read
   slug: amazon-dynamodb-transaction-write-then-read-workflow
-artifact_total: 153
+artifact_total: 165
 collections:
 - collection_type: postman
   name: Amazon DynamoDB API
   slug: postman-amazon-dynamodb
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon DynamoDB Batch API
   slug: open-amazon-dynamodb-batch-api
@@ -183,113 +224,118 @@ collections:
   name: Amazon DynamoDB API
   slug: open-amazon-dynamodb
 common:
+- group: other
+  href: https://artifacts.apis.io/amazon-dynamodb/capabilities/amazon-dynamodb-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-dynamodb-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/finops/amazon-dynamodb-finops.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/finops/amazon-dynamodb-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-dynamodb-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/smithy/dynamodb-2012-08-10.json
+  href: https://artifacts.apis.io/amazon-dynamodb/smithy/dynamodb-2012-08-10.json
   title: ''
   type: Smithy
   url: smithy/dynamodb-2012-08-10.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/packages/amazon-dynamodb-packages.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/packages/amazon-dynamodb-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-dynamodb-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/packages/amazon-dynamodb-packages.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/packages/amazon-dynamodb-packages.yml
   title: ''
   type: SDKs
   url: packages/amazon-dynamodb-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/mcp/amazon-dynamodb-mcp.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/mcp/amazon-dynamodb-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/amazon-dynamodb-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/mcp/amazon-dynamodb-tool-crosswalk.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/mcp/amazon-dynamodb-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/amazon-dynamodb-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/llms/amazon-dynamodb-llms.txt
+  href: https://artifacts.apis.io/amazon-dynamodb/llms/amazon-dynamodb-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-dynamodb-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/well-known/amazon-dynamodb-well-known.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/well-known/amazon-dynamodb-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-dynamodb-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/well-known/amazon-dynamodb-security.txt
+  href: https://artifacts.apis.io/amazon-dynamodb/well-known/amazon-dynamodb-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-dynamodb-security.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/cli/amazon-dynamodb-cli.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/cli/amazon-dynamodb-cli.yml
   title: ''
   type: CLI
   url: cli/amazon-dynamodb-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/sandbox/amazon-dynamodb-sandbox.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/sandbox/amazon-dynamodb-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/amazon-dynamodb-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/changelog/amazon-dynamodb-changelog.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/changelog/amazon-dynamodb-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/amazon-dynamodb-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/lifecycle/amazon-dynamodb-lifecycle.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/lifecycle/amazon-dynamodb-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-dynamodb-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/lifecycle/amazon-dynamodb-lifecycle.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/lifecycle/amazon-dynamodb-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/amazon-dynamodb-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/conventions/amazon-dynamodb-conventions.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/conventions/amazon-dynamodb-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amazon-dynamodb-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/conventions/amazon-dynamodb-conventions.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/conventions/amazon-dynamodb-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/amazon-dynamodb-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/errors/amazon-dynamodb-problem-types.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/errors/amazon-dynamodb-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amazon-dynamodb-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/data-model/amazon-dynamodb-data-model.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/data-model/amazon-dynamodb-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amazon-dynamodb-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/conformance/amazon-dynamodb-conformance.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/conformance/amazon-dynamodb-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-dynamodb-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/plans/amazon-dynamodb-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/plans/amazon-dynamodb-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-dynamodb-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/rate-limits/amazon-dynamodb-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/rate-limits/amazon-dynamodb-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-dynamodb-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -302,27 +348,27 @@ common:
   type: Pricing
   url: https://aws.amazon.com/dynamodb/pricing/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/agentic-access/amazon-dynamodb-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/agentic-access/amazon-dynamodb-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-dynamodb-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/security/amazon-dynamodb-trust-center.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/security/amazon-dynamodb-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-dynamodb-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/security/amazon-dynamodb-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/security/amazon-dynamodb-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-dynamodb-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/security/amazon-dynamodb-domain-security.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/security/amazon-dynamodb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-dynamodb-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/authentication/amazon-dynamodb-authentication.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/authentication/amazon-dynamodb-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-dynamodb-authentication.yml
@@ -331,47 +377,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-dynamodb/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/arazzo/amazon-dynamodb-batch-write-then-batch-get-workflow.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/arazzo/amazon-dynamodb-batch-write-then-batch-get-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-dynamodb-batch-write-then-batch-get-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/arazzo/amazon-dynamodb-conditional-update-item-workflow.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/arazzo/amazon-dynamodb-conditional-update-item-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-dynamodb-conditional-update-item-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/arazzo/amazon-dynamodb-create-index-and-wait-workflow.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/arazzo/amazon-dynamodb-create-index-and-wait-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-dynamodb-create-index-and-wait-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/arazzo/amazon-dynamodb-drain-and-delete-table-workflow.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/arazzo/amazon-dynamodb-drain-and-delete-table-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-dynamodb-drain-and-delete-table-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/arazzo/amazon-dynamodb-provision-table-and-seed-workflow.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/arazzo/amazon-dynamodb-provision-table-and-seed-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-dynamodb-provision-table-and-seed-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/arazzo/amazon-dynamodb-provision-table-workflow.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/arazzo/amazon-dynamodb-provision-table-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-dynamodb-provision-table-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/arazzo/amazon-dynamodb-put-then-query-workflow.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/arazzo/amazon-dynamodb-put-then-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-dynamodb-put-then-query-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/arazzo/amazon-dynamodb-scan-paginate-workflow.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/arazzo/amazon-dynamodb-scan-paginate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-dynamodb-scan-paginate-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/arazzo/amazon-dynamodb-transaction-write-then-read-workflow.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/arazzo/amazon-dynamodb-transaction-write-then-read-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-dynamodb-transaction-write-then-read-workflow.yml
@@ -448,12 +494,12 @@ common:
   type: Compliance
   url: https://aws.amazon.com/compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/rules/amazon-dynamodb-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-dynamodb/rules/amazon-dynamodb-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-dynamodb-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/vocabulary/amazon-dynamodb-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-dynamodb/vocabulary/amazon-dynamodb-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-dynamodb-vocabulary.yaml
@@ -583,13 +629,13 @@ features:
 - description: Time to Live automatically deletes expired items to reduce storage costs.
   name: TTL
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Dynamodb Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: million write request units
+  service_category: ''
   slug: amazon-dynamodb-finops
-  template: true
+  template: false
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: Amazon DynamoDB Table
@@ -817,18 +863,18 @@ modified: '2026-09-18'
 name: Amazon DynamoDB
 nav: Providers
 network: true
-overview: 'Amazon DynamoDB publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Batch API, Items API, Queries API, and 3 more. Tagged areas include Database, Document Store, Key-Value Store, NoSQL, and Serverless.
+overview: 'Amazon DynamoDB publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Batch API, Items API, Queries API, and 12 more. Tagged areas include Database, Document Store, Key-Value Store, NoSQL, and Serverless.
 
 
   The Amazon DynamoDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon DynamoDB''s developer surface includes CLI, sandbox, changelog, pricing, authentication, developer portal, documentation, and 52 more developer resources.'
+  Amazon DynamoDB''s developer surface includes CLI, sandbox, changelog, pricing, authentication, developer portal, documentation, and 53 more developer resources.'
 plans:
 - name: Amazon Dynamodb Plans Pricing
-  plan_count: 5
+  plan_count: 12
   slug: amazon-dynamodb-plans-pricing
-random_paper: 19
+random_paper: 1
 rate_limits:
 - limit_count: 8
   name: Amazon Dynamodb Rate Limits
@@ -859,31 +905,36 @@ rules:
   slug: amazon-dynamodb-spectral-rules
 score:
   band: exemplar
-  composite: 78.8
+  composite: 80.2
   coverage:
-    artifact_dirs: 35
-    catalog_earned: 86.4
+    artifact_dirs: 36
+    catalog_earned: 89.4
     catalog_earned_first_party: 24.0
-    catalog_gap: 28.6
+    catalog_gap: 25.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 45.5
-    contract_quality: 69.6
+    contract_quality: 67.8
     developer_ergonomics: 81.5
-    discoverability: 81.7
-    operational_transparency: 84.2
-  previous_composite: 80.3
+    discoverability: 71.7
+    operational_transparency: 86.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 78.6
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 5
+      marker_coverage: 64.3
+      total: 14
     mcp: first-party
     skills: derived
   regulatory:
@@ -892,13 +943,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/screenshots/amazon-dynamodb-2026-06-20T171630.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-dynamodb/amazon-dynamodb-2026-06-20T171630.png
 security:
 - kind: authentication
   name: Amazon Dynamodb Authentication
@@ -916,6 +968,16 @@ security:
   name: Amazon Dynamodb Trust Center
   slug: amazon-dynamodb-trust-center
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
+skill_count: 4
+skills:
+- name: Provision a DynamoDB table safely
+  slug: amazon-dynamodb-provision-a-table-safely
+- name: Query and paginate a DynamoDB table completely
+  slug: amazon-dynamodb-query-and-paginate
+- name: Write a DynamoDB transaction that can be safely retried
+  slug: amazon-dynamodb-transactional-write
+- name: Write and read a DynamoDB item without losing data
+  slug: amazon-dynamodb-write-and-read-an-item
 slug: amazon-dynamodb
 tags:
 - Database

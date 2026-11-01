@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upsmith/refs/heads/main/security/upsmith-domain-security.yml
+  href: https://artifacts.apis.io/upsmith/security/upsmith-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upsmith-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upsmith/refs/heads/main/llms/upsmith-llms.txt
+  href: https://artifacts.apis.io/upsmith/llms/upsmith-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/upsmith-llms.txt
@@ -78,10 +80,10 @@ overview: 'UpSmith is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   UpSmith''s developer surface includes support and 6 more developer resources.'
-random_paper: 8
+random_paper: 10
 score:
   band: minimal
-  composite: 9.4
+  composite: 8.7
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -95,7 +97,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -104,21 +106,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 9.4
+  previous_composite: 8.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 11.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/upsmith/refs/heads/main/screenshots/upsmith-2026-09-02T165110.png
+screenshot: https://apis.io/screenshots/upsmith/upsmith-2026-09-02T165110.png
 security:
 - kind: domain-security
   name: Upsmith Domain Security
@@ -133,6 +135,6 @@ tags:
 - SMS
 - HVAC
 - Plumbing
-- Field Service
+- Field Service Management
 website: https://www.upsmith.com/
 ---

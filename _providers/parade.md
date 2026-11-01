@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.0
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -85,11 +87,8 @@ apis:
   description: The Search API from Parade — 1 operation(s) for search.
   name: Parade Search API
   slug: parade-search-api
-artifact_total: 20
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Parade Transactions Available Trucks API
   slug: open-parade-available-trucks-api
@@ -116,7 +115,7 @@ collections:
   slug: open-parade-search-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/capabilities/parade-capability-edges.yml
+  href: https://artifacts.apis.io/parade/capabilities/parade-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/parade-capability-edges.yml
@@ -153,72 +152,72 @@ common:
   type: PrivacyPolicy
   url: https://www.parade.ai/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/authentication/parade-authentication.yml
+  href: https://artifacts.apis.io/parade/authentication/parade-authentication.yml
   title: ''
   type: Authentication
   url: authentication/parade-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/conventions/parade-conventions.yml
+  href: https://artifacts.apis.io/parade/conventions/parade-conventions.yml
   title: ''
   type: Conventions
   url: conventions/parade-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/errors/parade-problem-types.yml
+  href: https://artifacts.apis.io/parade/errors/parade-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/parade-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/lifecycle/parade-lifecycle.yml
+  href: https://artifacts.apis.io/parade/lifecycle/parade-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/parade-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/data-model/parade-data-model.yml
+  href: https://artifacts.apis.io/parade/data-model/parade-data-model.yml
   title: ''
   type: DataModel
   url: data-model/parade-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/conformance/parade-conformance.yml
+  href: https://artifacts.apis.io/parade/conformance/parade-conformance.yml
   title: ''
   type: Conformance
   url: conformance/parade-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/sandbox/parade-sandbox.yml
+  href: https://artifacts.apis.io/parade/sandbox/parade-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/parade-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/_original/parade-partner-webhooks-openapi.yaml
+  href: https://artifacts.apis.io/parade/openapi/_original/parade-partner-webhooks-openapi.yaml
   title: ''
   type: Webhooks
   url: openapi/_original/parade-partner-webhooks-openapi.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/mcp/parade-mcp.yml
+  href: https://artifacts.apis.io/parade/mcp/parade-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/parade-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/parade/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/llms/parade-llms.txt
+  href: https://artifacts.apis.io/parade/llms/parade-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/parade-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/overlays/parade-digital-transactions-overlay.yaml
+  href: https://artifacts.apis.io/parade/overlays/parade-digital-transactions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/parade-digital-transactions-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/agentic-access/parade-agentic-access.yml
+  href: https://artifacts.apis.io/parade/agentic-access/parade-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/parade-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/security/parade-domain-security.yml
+  href: https://artifacts.apis.io/parade/security/parade-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/parade-domain-security.yml
@@ -234,10 +233,10 @@ overview: 'Parade publishes 8 API contracts indexed on the [APIs.io](https://api
 
 
   Parade''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, sandbox, and 17 more developer resources.'
-random_paper: 5
+random_paper: 21
 score:
   band: thin
-  composite: 38.5
+  composite: 38.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -245,15 +244,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 48.8
-    developer_ergonomics: 47.0
-    discoverability: 78.6
+    developer_ergonomics: 49.4
+    discoverability: 71.4
     operational_transparency: 7.9
-  previous_composite: 38.4
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,13 +269,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/screenshots/parade-2026-08-07T191355.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/parade/parade-2026-08-07T191355.png
 security:
 - kind: authentication
   name: Parade Authentication
@@ -286,6 +286,12 @@ security:
   name: Parade Domain Security
   slug: parade-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Post available capacity and check carrier onboarding
+  slug: parade-post-truck-and-check-carrier
+- name: Quote and book a freight load
+  slug: parade-quote-and-book-load
 slug: parade
 tags:
 - Company

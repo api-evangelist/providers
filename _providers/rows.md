@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
+  score: 20.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: Discover the workspaces available to the authenticated key.
   name: Rows Workspaces API
   slug: rows-workspaces-api
-artifact_total: 17
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Rows Data API
   slug: open-rows-data-api
@@ -91,17 +90,17 @@ collections:
   slug: open-rows-workspaces-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/plans/rows-plans-pricing.yml
+  href: https://artifacts.apis.io/rows/plans/rows-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rows-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/mcp/rows-mcp.yml
+  href: https://artifacts.apis.io/rows/mcp/rows-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rows-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/overlays/rows-openapi-overlay.yaml
+  href: https://artifacts.apis.io/rows/overlays/rows-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rows-openapi-overlay.yaml
@@ -146,52 +145,52 @@ common:
   type: ChangeLog
   url: https://rows.com/docs/whats-new-changelog
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/packages/rows-packages.yml
+  href: https://artifacts.apis.io/rows/packages/rows-packages.yml
   title: ''
   type: SDKs
   url: packages/rows-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/packages/rows-packages.yml
+  href: https://artifacts.apis.io/rows/packages/rows-packages.yml
   title: ''
   type: Packages
   url: packages/rows-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rows/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/llms/rows-llms.txt
+  href: https://artifacts.apis.io/rows/llms/rows-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rows-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/well-known/rows-well-known.yml
+  href: https://artifacts.apis.io/rows/well-known/rows-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rows-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/well-known/rows-security.txt
+  href: https://artifacts.apis.io/rows/well-known/rows-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/rows-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/authentication/rows-authentication.yml
+  href: https://artifacts.apis.io/rows/authentication/rows-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rows-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/conventions/rows-conventions.yml
+  href: https://artifacts.apis.io/rows/conventions/rows-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rows-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/lifecycle/rows-lifecycle.yml
+  href: https://artifacts.apis.io/rows/lifecycle/rows-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rows-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/conformance/rows-conformance.yml
+  href: https://artifacts.apis.io/rows/conformance/rows-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rows-conformance.yml
@@ -200,12 +199,12 @@ common:
   type: Compliance
   url: https://rows.com/docs/how-do-you-manage-security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/security/rows-trust-center.yml
+  href: https://artifacts.apis.io/rows/security/rows-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rows-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/security/rows-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/rows/security/rows-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/rows-vulnerability-disclosure.yml
@@ -214,17 +213,25 @@ common:
   type: Security
   url: https://rows.com/docs/how-do-you-manage-security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/security/rows-domain-security.yml
+  href: https://artifacts.apis.io/rows/security/rows-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rows-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/agentic-access/rows-agentic-access.yml
+  href: https://artifacts.apis.io/rows/agentic-access/rows-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rows-agentic-access.yml
 created: '2026-07-17'
 description: 'Rows is an AI-powered spreadsheet that connects to live data from dozens of business tools and lets teams build reports, dashboards and lightweight data apps without leaving a familiar grid. Beyond the app, Rows ships a public REST API (base https://api.rows.com/v1) authenticated with a Bearer API key: it exposes workspaces, folders and spreadsheets for discovery, table cell and value read-write operations for moving data in and out of a sheet, and a Vision endpoint that uses AI to extract structured tabular data from image and document files. API access is included on every plan with monthly call quotas scaling from the Free tier (500 calls/month) to Enterprise. Rows is SOC 2 Type II certified and GDPR compliant with European data residency, and joined Superhuman in 2025. It was backed by Accel.'
+finops:
+- has_sources: true
+  method: derived
+  name: Rows Finops
+  primary_unit: user
+  service_category: ''
+  slug: rows-finops
+  template: false
 image: https://rows.com/favicon.ico
 layout: provider
 modified: '2026-07-21'
@@ -239,26 +246,29 @@ plans:
 - name: Rows Plans Pricing
   plan_count: 6
   slug: rows-plans-pricing
-random_paper: 19
+- name: Rows Price Estimates
+  plan_count: 0
+  slug: rows-price-estimates
+random_paper: 3
 score:
   band: developing
-  composite: 40.8
+  composite: 44.4
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 1.6
   facets:
-    access_clarity: 78.9
+    access_clarity: 86.8
     contract_governance: 4.5
     contract_quality: 13.1
-    developer_ergonomics: 41.1
-    discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 34.5
+    developer_ergonomics: 49.4
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,13 +289,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/screenshots/rows-2026-08-17T081656.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rows/rows-2026-08-17T081656.png
 security:
 - kind: authentication
   name: Rows Authentication
@@ -303,6 +314,12 @@ security:
   name: Rows Trust Center
   slug: rows-trust-center
   summary_line: SOC 2 Type II, GDPR
+skill_count: 2
+skills:
+- name: Import data from files with Rows AI Vision
+  slug: rows-import-data-with-vision
+- name: Write data to a Rows table
+  slug: rows-write-data-to-a-table
 slug: rows
 tags:
 - Company

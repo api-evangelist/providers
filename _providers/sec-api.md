@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-17'
+  score: 25.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -79,15 +81,12 @@ apis:
   description: Convert XBRL financial data in filings to standardized JSON.
   name: SEC API XBRL API
   slug: sec-api-xbrl-api
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: AsyncAPI 2.6 description of the SEC API (sec-api.io) **Filing Stream API**, a documented public **WebSocket** surface. Per https://sec-api.io/docs/stream-api, clients open a raw WebSocket connection (
   name: SEC API Filing Stream (WebSocket)
   slug: sec-api-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SEC API (sec-api.io) REST Extractor API
   slug: open-sec-api-extractor-api
@@ -111,17 +110,17 @@ collections:
   slug: open-sec-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/agentic-access/sec-api-agentic-access.yml
+  href: https://artifacts.apis.io/sec-api/agentic-access/sec-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sec-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/security/sec-api-domain-security.yml
+  href: https://artifacts.apis.io/sec-api/security/sec-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sec-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/authentication/sec-api-authentication.yml
+  href: https://artifacts.apis.io/sec-api/authentication/sec-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sec-api-authentication.yml
@@ -138,17 +137,17 @@ common:
   type: Documentation
   url: https://sec-api.io/docs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/plans/sec-api-plans-pricing.yml
+  href: https://artifacts.apis.io/sec-api/plans/sec-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sec-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/rate-limits/sec-api-rate-limits.yml
+  href: https://artifacts.apis.io/sec-api/rate-limits/sec-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sec-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/finops/sec-api-finops.yml
+  href: https://artifacts.apis.io/sec-api/finops/sec-api-finops.yml
   title: ''
   type: FinOps
   url: finops/sec-api-finops.yml
@@ -179,7 +178,7 @@ plans:
 - name: Sec Api Plans Pricing
   plan_count: 4
   slug: sec-api-plans-pricing
-random_paper: 14
+random_paper: 2
 rate_limits:
 - limit_count: 8
   name: Sec Api Rate Limits
@@ -199,7 +198,7 @@ rules:
   slug: sec-api-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 29.8
+  composite: 30.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 47.5
@@ -207,7 +206,7 @@ score:
     catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
@@ -215,7 +214,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 38.1
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
@@ -229,13 +228,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/screenshots/sec-api-2026-08-17T081743.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sec-api/sec-api-2026-08-17T081743.png
 security:
 - kind: authentication
   name: Sec Api Authentication

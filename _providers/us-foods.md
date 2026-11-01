@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: US Foods MOXe is a comprehensive foodservice eCommerce platform enabling restaurants, healthcare facilities, and institutional customers to place orders, manage inventory, track deliveries, and pay in
@@ -45,17 +47,17 @@ apis:
 artifact_total: 12
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/us-foods/refs/heads/main/plans/us-foods-plans-pricing.yml
+  href: https://artifacts.apis.io/us-foods/plans/us-foods-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/us-foods-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/us-foods/refs/heads/main/rate-limits/us-foods-rate-limits.yml
+  href: https://artifacts.apis.io/us-foods/rate-limits/us-foods-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/us-foods-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/us-foods/refs/heads/main/finops/us-foods-finops.yml
+  href: https://artifacts.apis.io/us-foods/finops/us-foods-finops.yml
   title: ''
   type: FinOps
   url: finops/us-foods-finops.yml
@@ -64,7 +66,7 @@ common:
   type: Website
   url: https://usfoods.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/us-foods/refs/heads/main/security/us-foods-domain-security.yml
+  href: https://artifacts.apis.io/us-foods/security/us-foods-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/us-foods-domain-security.yml
@@ -136,7 +138,7 @@ press:
 - date: ''
   title: US Foods Reports First Quarter Fiscal Year 2026 Earnings
   url: https://ir.usfoods.com/newsroom/news/news-details/2026/US-Foods-Reports-First-Quarter-Fiscal-Year-2026-Earnings/default.aspx
-random_paper: 2
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Us Foods Rate Limits
@@ -163,7 +165,7 @@ score:
     catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 9.8
@@ -171,21 +173,21 @@ score:
     developer_ergonomics: 9.5
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 14.1
+  previous_composite: 12.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/us-foods/refs/heads/main/screenshots/us-foods-2026-10-11T193244.png
+screenshot: https://apis.io/screenshots/us-foods/us-foods-2026-10-11T193244.png
 security:
 - kind: domain-security
   name: Us Foods Domain Security

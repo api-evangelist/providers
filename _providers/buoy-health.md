@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.7
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 34.9
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: Auth0-backed OAuth 2.0 / OpenID Connect authorization server that issues the bearer tokens the Buoy Symptom Checker API requires. Publishes anonymous RFC 8414 authorization-server metadata and OIDC di
   name: Buoy Authorization Server
@@ -71,11 +73,8 @@ apis:
   description: The Results API from Buoy Health — 1 operation(s) for results.
   name: Buoy Health Results API
   slug: buoy-health-results-api
-artifact_total: 18
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Buoy Symptom Checker Complaints API
   slug: open-buoy-health-complaints-api
@@ -132,52 +131,52 @@ common:
   type: Postman
   url: https://www.postman.com/buoy-health-api/buoy-symptom-checker-api/overview
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/openapi/_original/buoy-health-symptom-checker-openapi.yml
+  href: https://artifacts.apis.io/buoy-health/openapi/_original/buoy-health-symptom-checker-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/buoy-health-symptom-checker-openapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/llms/buoy-health-llms.txt
+  href: https://artifacts.apis.io/buoy-health/llms/buoy-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/buoy-health-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/well-known/buoy-health-well-known.yml
+  href: https://artifacts.apis.io/buoy-health/well-known/buoy-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/buoy-health-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/authentication/buoy-health-authentication.yml
+  href: https://artifacts.apis.io/buoy-health/authentication/buoy-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/buoy-health-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/scopes/buoy-health-scopes.yml
+  href: https://artifacts.apis.io/buoy-health/scopes/buoy-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/buoy-health-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/conventions/buoy-health-conventions.yml
+  href: https://artifacts.apis.io/buoy-health/conventions/buoy-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/buoy-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/errors/buoy-health-problem-types.yml
+  href: https://artifacts.apis.io/buoy-health/errors/buoy-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/buoy-health-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/data-model/buoy-health-data-model.yml
+  href: https://artifacts.apis.io/buoy-health/data-model/buoy-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/buoy-health-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/lifecycle/buoy-health-lifecycle.yml
+  href: https://artifacts.apis.io/buoy-health/lifecycle/buoy-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/buoy-health-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/conformance/buoy-health-conformance.yml
+  href: https://artifacts.apis.io/buoy-health/conformance/buoy-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/buoy-health-conformance.yml
@@ -186,22 +185,22 @@ common:
   type: Compliance
   url: https://www.buoyhealth.com/security-and-privacy
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/sandbox/buoy-health-sandbox.yml
+  href: https://artifacts.apis.io/buoy-health/sandbox/buoy-health-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/buoy-health-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/packages/buoy-health-packages.yml
+  href: https://artifacts.apis.io/buoy-health/packages/buoy-health-packages.yml
   title: ''
   type: Packages
   url: packages/buoy-health-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/mcp/buoy-health-mcp.yml
+  href: https://artifacts.apis.io/buoy-health/mcp/buoy-health-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/buoy-health-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/buoy-health/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -210,17 +209,17 @@ common:
   type: Security
   url: https://www.buoyhealth.com/security-and-privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/security/buoy-health-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/buoy-health/security/buoy-health-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/buoy-health-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/security/buoy-health-domain-security.yml
+  href: https://artifacts.apis.io/buoy-health/security/buoy-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/buoy-health-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/overlays/buoy-health-symptom-checker-overlay.yaml
+  href: https://artifacts.apis.io/buoy-health/overlays/buoy-health-symptom-checker-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/buoy-health-symptom-checker-overlay.yaml
@@ -236,7 +235,7 @@ overview: 'Buoy Health publishes 7 API contracts indexed on the [APIs.io](https:
 
 
   Buoy Health''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
-random_paper: 0
+random_paper: 18
 scopes:
 - name: Buoy Health Scopes
   scope_count: 14
@@ -244,7 +243,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.5
+  composite: 45.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -252,13 +251,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 52.1
-    developer_ergonomics: 53.0
-    discoverability: 73.2
+    contract_quality: 48.7
+    developer_ergonomics: 58.9
+    discoverability: 66.1
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -267,7 +266,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 45.4
+  previous_composite: 45.8
   provenance:
     conformance: first-party
     contracts:
@@ -283,13 +282,14 @@ score:
     regime: Health
     regime_id: health
     score: 51.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/screenshots/buoy-health-2026-08-17T080742.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/buoy-health/buoy-health-2026-08-17T080742.png
 security:
 - kind: authentication
   name: Buoy Health Authentication
@@ -303,6 +303,14 @@ security:
   name: Buoy Health Vulnerability Disclosure
   slug: buoy-health-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 3
+skills:
+- name: Capture care-navigation intent
+  slug: buoy-health-capture-care-intent
+- name: Explain why Buoy asked a question
+  slug: buoy-health-explain-triage-reasoning
+- name: Run a Buoy triage interview end to end
+  slug: buoy-health-run-triage-interview
 slug: buoy-health
 tags:
 - Symptom Checker

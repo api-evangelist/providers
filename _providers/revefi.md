@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.9
-  scored_at: '2026-10-17'
+  score: 36.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://gateway.revefi.com/api/v1/
@@ -68,11 +69,8 @@ apis:
   description: The Update an existing Custom Data Quality Monitor API from Revefi — 1 operation(s) for update an existing custom data quality monitor.
   name: Revefi Update an existing Custom Data Quality Monitor API
   slug: revefi-update-an-existing-custom-data-quality-monitor-api
-artifact_total: 17
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Data Quality Monitors Create a Custom Data Quality Monitor API
   slug: open-revefi-create-a-custom-data-quality-monitor-api
@@ -93,12 +91,12 @@ collections:
   slug: open-revefi-update-an-existing-custom-data-quality-monitor-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/plans/revefi-plans-pricing.yml
+  href: https://artifacts.apis.io/revefi/plans/revefi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/revefi-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/capabilities/revefi-capability-edges.yml
+  href: https://artifacts.apis.io/revefi/capabilities/revefi-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/revefi-capability-edges.yml
@@ -123,57 +121,57 @@ common:
   type: GettingStarted
   url: https://docs.revefi.com/docs/publicapis
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/authentication/revefi-authentication.yml
+  href: https://artifacts.apis.io/revefi/authentication/revefi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/revefi-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/mcp/revefi-mcp.yml
+  href: https://artifacts.apis.io/revefi/mcp/revefi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/revefi-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/revefi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/llms/revefi-llms.txt
+  href: https://artifacts.apis.io/revefi/llms/revefi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/revefi-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/well-known/revefi-well-known.yml
+  href: https://artifacts.apis.io/revefi/well-known/revefi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/revefi-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/conventions/revefi-conventions.yml
+  href: https://artifacts.apis.io/revefi/conventions/revefi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/revefi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/errors/revefi-problem-types.yml
+  href: https://artifacts.apis.io/revefi/errors/revefi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/revefi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/data-model/revefi-data-model.yml
+  href: https://artifacts.apis.io/revefi/data-model/revefi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/revefi-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/overlays/revefi-data-quality-monitors-overlay.yaml
+  href: https://artifacts.apis.io/revefi/overlays/revefi-data-quality-monitors-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/revefi-data-quality-monitors-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/lifecycle/revefi-lifecycle.yml
+  href: https://artifacts.apis.io/revefi/lifecycle/revefi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/revefi-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/conformance/revefi-conformance.yml
+  href: https://artifacts.apis.io/revefi/conformance/revefi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/revefi-conformance.yml
@@ -182,7 +180,7 @@ common:
   type: Compliance
   url: https://docs.revefi.com/docs/security-and-compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/security/revefi-domain-security.yml
+  href: https://artifacts.apis.io/revefi/security/revefi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/revefi-domain-security.yml
@@ -216,6 +214,14 @@ common:
   url: https://www.revefi.com/contact
 created: '2026-07-17'
 description: Revefi is an AI-powered data operations platform that delivers FinOps, observability, and optimization for modern data warehouses and AI/LLM workloads. Its zero-touch "data copilot" (Raden) autonomously monitors data quality, spend, performance, and usage across Snowflake, Databricks, BigQuery, and Redshift, extracting only metadata, query logs, and aggregated statistics (never PII). Revefi exposes a Public API for programmatically managing custom data quality monitors and a hosted Model Context Protocol (MCP) server so AI assistants can query metadata and operate on warehouse data. The company is SOC 2 Type II certified and HIPAA compliant, and is backed by Mayfield.
+finops:
+- has_sources: true
+  method: derived
+  name: Revefi Finops
+  primary_unit: ''
+  service_category: ''
+  slug: revefi-finops
+  template: true
 image: https://www.revefi.com/favicon.ico
 layout: provider
 mcp_servers:
@@ -234,26 +240,26 @@ plans:
 - name: Revefi Plans Pricing
   plan_count: 7
   slug: revefi-plans-pricing
-random_paper: 3
+random_paper: 17
 score:
   band: developing
-  composite: 47.9
+  composite: 51.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 0.0
   facets:
-    access_clarity: 80.3
+    access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 53.6
-    developer_ergonomics: 39.9
-    discoverability: 75.0
+    contract_quality: 50.2
+    developer_ergonomics: 58.9
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 41.5
+  previous_composite: 51.7
   provenance:
     conformance: first-party
     contracts:
@@ -268,14 +274,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/screenshots/revefi-2026-08-17T081541.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/revefi/revefi-2026-08-17T081541.png
 security:
 - kind: authentication
   name: Revefi Authentication
@@ -285,6 +292,10 @@ security:
   name: Revefi Domain Security
   slug: revefi-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Manage Revefi custom data quality monitors
+  slug: revefi-manage-data-quality-monitors
 slug: revefi
 tags:
 - Data

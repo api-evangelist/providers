@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: BlogRSS
   url: https://www.datacore.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datacore/refs/heads/main/security/datacore-domain-security.yml
+  href: https://artifacts.apis.io/datacore/security/datacore-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datacore-domain-security.yml
@@ -89,10 +91,10 @@ overview: 'Datacore is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Datacore''s developer surface includes documentation, support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 21
+random_paper: 19
 score:
   band: emerging
-  composite: 15.1
+  composite: 15.5
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -107,22 +109,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 15.1
+    operational_transparency: 5.3
+  previous_composite: 15.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/datacore/refs/heads/main/screenshots/datacore-2026-07-25T211310.png
+screenshot: https://apis.io/screenshots/datacore/datacore-2026-07-25T211310.png
 security:
 - kind: domain-security
   name: Datacore Domain Security

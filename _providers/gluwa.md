@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for the Gluwa borderless financial platform — balances, fees, transactions, payment QR codes, wrap/unwrap, and the Exchange API (quotes, orders, order books). Secured with API keys and addres
@@ -79,52 +81,52 @@ common:
   type: GitHubOrganization
   url: https://github.com/gluwa
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gluwa/refs/heads/main/authentication/gluwa-authentication.yml
+  href: https://artifacts.apis.io/gluwa/authentication/gluwa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gluwa-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gluwa/refs/heads/main/conventions/gluwa-conventions.yml
+  href: https://artifacts.apis.io/gluwa/conventions/gluwa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gluwa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gluwa/refs/heads/main/conventions/gluwa-conventions.yml
+  href: https://artifacts.apis.io/gluwa/conventions/gluwa-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/gluwa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gluwa/refs/heads/main/errors/gluwa-error-codes.yml
+  href: https://artifacts.apis.io/gluwa/errors/gluwa-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/gluwa-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gluwa/refs/heads/main/asyncapi/gluwa-webhooks.yml
+  href: https://artifacts.apis.io/gluwa/asyncapi/gluwa-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/gluwa-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gluwa/refs/heads/main/changelog/gluwa-changelog.yml
+  href: https://artifacts.apis.io/gluwa/changelog/gluwa-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gluwa-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gluwa/refs/heads/main/packages/gluwa-packages.yml
+  href: https://artifacts.apis.io/gluwa/packages/gluwa-packages.yml
   title: ''
   type: Packages
   url: packages/gluwa-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gluwa/refs/heads/main/packages/gluwa-packages.yml
+  href: https://artifacts.apis.io/gluwa/packages/gluwa-packages.yml
   title: ''
   type: SDKs
   url: packages/gluwa-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gluwa/refs/heads/main/llms/gluwa-llms.txt
+  href: https://artifacts.apis.io/gluwa/llms/gluwa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gluwa-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gluwa/refs/heads/main/security/gluwa-domain-security.yml
+  href: https://artifacts.apis.io/gluwa/security/gluwa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gluwa-domain-security.yml
@@ -146,9 +148,9 @@ overview: 'Gluwa is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 16
 score:
   band: thin
-  composite: 33.7
+  composite: 33.3
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -160,23 +162,23 @@ score:
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 59.5
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 33.7
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 33.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/gluwa/refs/heads/main/screenshots/gluwa-2026-07-25T215947.png
+screenshot: https://apis.io/screenshots/gluwa/gluwa-2026-07-25T215947.png
 security:
 - kind: authentication
   name: Gluwa Authentication

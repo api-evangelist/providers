@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,27 +35,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vedanta-biosciences/refs/heads/main/security/vedanta-biosciences-domain-security.yml
+  href: https://artifacts.apis.io/vedanta-biosciences/security/vedanta-biosciences-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vedanta-biosciences-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vedanta-biosciences/refs/heads/main/packages/vedanta-biosciences-packages.yml
+  href: https://artifacts.apis.io/vedanta-biosciences/packages/vedanta-biosciences-packages.yml
   title: ''
   type: Packages
   url: packages/vedanta-biosciences-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vedanta-biosciences/refs/heads/main/conformance/vedanta-biosciences-conformance.yml
+  href: https://artifacts.apis.io/vedanta-biosciences/conformance/vedanta-biosciences-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vedanta-biosciences-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vedanta-biosciences/refs/heads/main/llms/vedanta-biosciences-llms.txt
+  href: https://artifacts.apis.io/vedanta-biosciences/llms/vedanta-biosciences-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vedanta-biosciences-llms.txt
@@ -166,12 +168,12 @@ overview: 'Vedanta Biosciences is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Vedanta Biosciences'' developer surface includes support and 27 more developer resources.'
-random_paper: 7
+random_paper: 23
 score:
   band: emerging
-  composite: 11.6
+  composite: 11.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -183,8 +185,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 57.1
-    operational_transparency: 2.6
+    discoverability: 51.8
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -192,7 +194,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 11.6
+  previous_composite: 11.5
   provenance:
     conformance: first-party
   regulatory:
@@ -201,14 +203,14 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vedanta-biosciences/refs/heads/main/screenshots/vedanta-biosciences-2026-09-02T165547.png
+screenshot: https://apis.io/screenshots/vedanta-biosciences/vedanta-biosciences-2026-09-02T165547.png
 security:
 - kind: domain-security
   name: Vedanta Biosciences Domain Security

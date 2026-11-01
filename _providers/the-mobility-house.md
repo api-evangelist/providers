@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-17'
+  score: 31.9
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Two-way WebSocket-Secure interface between ChargePilot (acting as the Charging Management System, CMS) and an upstream Depot Management, Fleet Management or ITCS system, implemented against the VDV 46
@@ -45,7 +47,7 @@ apis:
 - description: Outbound cloud-to-cloud push of billing-relevant charging session records. On completion of a charging session ChargePilot POSTs a JSON payload over HTTPS to a customer-supplied endpoint, batched by d
   name: ChargePilot Charging Data Push-API
   slug: the-mobility-house-chargepilot-charging-data-push-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: The Mobility House Webhooks
@@ -104,82 +106,90 @@ common:
   type: ChangeLog
   url: https://www.mobilityhouse.com/int_en/chargepilot/product-updates
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/llms/the-mobility-house-llms.txt
+  href: https://artifacts.apis.io/the-mobility-house/llms/the-mobility-house-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-mobility-house-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/packages/the-mobility-house-packages.yml
+  href: https://artifacts.apis.io/the-mobility-house/packages/the-mobility-house-packages.yml
   title: ''
   type: Packages
   url: packages/the-mobility-house-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/packages/the-mobility-house-packages.yml
+  href: https://artifacts.apis.io/the-mobility-house/packages/the-mobility-house-packages.yml
   title: ''
   type: SDKs
   url: packages/the-mobility-house-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/asyncapi/the-mobility-house-webhooks.yml
+  href: https://artifacts.apis.io/the-mobility-house/asyncapi/the-mobility-house-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/the-mobility-house-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/authentication/the-mobility-house-authentication.yml
+  href: https://artifacts.apis.io/the-mobility-house/authentication/the-mobility-house-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-mobility-house-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/errors/the-mobility-house-problem-types.yml
+  href: https://artifacts.apis.io/the-mobility-house/errors/the-mobility-house-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/the-mobility-house-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/conventions/the-mobility-house-conventions.yml
+  href: https://artifacts.apis.io/the-mobility-house/conventions/the-mobility-house-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-mobility-house-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/conventions/the-mobility-house-conventions.yml
+  href: https://artifacts.apis.io/the-mobility-house/conventions/the-mobility-house-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/the-mobility-house-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/conformance/the-mobility-house-conformance.yml
+  href: https://artifacts.apis.io/the-mobility-house/conformance/the-mobility-house-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-mobility-house-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/lifecycle/the-mobility-house-lifecycle.yml
+  href: https://artifacts.apis.io/the-mobility-house/lifecycle/the-mobility-house-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/the-mobility-house-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/data-model/the-mobility-house-data-model.yml
+  href: https://artifacts.apis.io/the-mobility-house/data-model/the-mobility-house-data-model.yml
   title: ''
   type: DataModel
   url: data-model/the-mobility-house-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/changelog/the-mobility-house-changelog.yml
+  href: https://artifacts.apis.io/the-mobility-house/changelog/the-mobility-house-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/the-mobility-house-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/plans/the-mobility-house-plans-pricing.yml
+  href: https://artifacts.apis.io/the-mobility-house/plans/the-mobility-house-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/the-mobility-house-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/rate-limits/the-mobility-house-rate-limits.yml
+  href: https://artifacts.apis.io/the-mobility-house/rate-limits/the-mobility-house-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/the-mobility-house-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/security/the-mobility-house-domain-security.yml
+  href: https://artifacts.apis.io/the-mobility-house/security/the-mobility-house-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-mobility-house-domain-security.yml
 created: '2026-08-30'
 description: 'The Mobility House (TMH) is a Munich-headquartered electric-mobility and energy technology company, founded in 2009, with offices in Zurich, Montreal, Paris, Singapore and Belmont (USA). Its ChargePilot smart charging and energy management system pairs an on-site controller with a cloud dashboard to run dynamic load management across mixed-vendor AC and DC charging infrastructure, and its Vehicle-to-Grid (V2G) platform markets electric-vehicle battery capacity into energy and grid-balancing markets. ChargePilot integrates with third-party systems over open, standards-based interfaces rather than a public REST developer program: OCPP to charging stations, a VDV 463 WebSocket interface to depot and fleet management systems, a Modbus TCP/IP server for building and site energy management systems, and an outbound Charging Data Push-API that delivers completed charging sessions as JSON to a customer endpoint.'
+finops:
+- has_sources: true
+  method: derived
+  name: The Mobility House Finops
+  primary_unit: ''
+  service_category: ''
+  slug: the-mobility-house-finops
+  template: true
 image: https://cdn-website.mobilityhouse.com/Open-Graph-Image_575018da3f191243c105ceb22aba34e4.png
 layout: provider
 modified: '2026-08-30'
@@ -197,16 +207,16 @@ plans:
 - name: The Mobility House Plans Pricing
   plan_count: 0
   slug: the-mobility-house-plans-pricing
-random_paper: 6
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: The Mobility House Rate Limits
   slug: the-mobility-house-rate-limits
 score:
   band: developing
-  composite: 42.6
+  composite: 43.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -218,8 +228,8 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 54.8
-    discoverability: 73.2
-    operational_transparency: 34.2
+    discoverability: 66.1
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -228,7 +238,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 42.6
+  previous_composite: 43.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -238,14 +248,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-mobility-house/refs/heads/main/screenshots/the-mobility-house-2026-09-02T163358.png
+screenshot: https://apis.io/screenshots/the-mobility-house/the-mobility-house-2026-09-02T163358.png
 security:
 - kind: authentication
   name: The Mobility House Authentication
@@ -265,7 +275,7 @@ tags:
 - Energy Management
 - Vehicle-to-Grid
 - Load Management
-- Fleet
+- Fleet Management
 - OCPP
 - VDV 463
 - Modbus

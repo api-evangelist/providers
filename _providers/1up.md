@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,13 +25,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The 1up MCP Server is a cloud-hosted Model Context Protocol server that lets an AI assistant work directly against a 1up workspace — query the knowledge base, search and edit the Q&A library, upload a
   name: 1up MCP Server
   slug: 1up-mcp-server
-artifact_total: 8
+artifact_total: 13
 common:
 - group: company
   title: ''
@@ -76,97 +78,97 @@ common:
   type: PrivacyPolicy
   url: https://1up.ai/legal/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/mcp/1up-mcp.yml
+  href: https://artifacts.apis.io/1up/mcp/1up-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/1up-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/llms/1up-llms.txt
+  href: https://artifacts.apis.io/1up/llms/1up-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/1up-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/well-known/1up-well-known.yml
+  href: https://artifacts.apis.io/1up/well-known/1up-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/1up-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/packages/1up-packages.yml
+  href: https://artifacts.apis.io/1up/packages/1up-packages.yml
   title: ''
   type: Packages
   url: packages/1up-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/packages/1up-packages.yml
+  href: https://artifacts.apis.io/1up/packages/1up-packages.yml
   title: ''
   type: SDKs
   url: packages/1up-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/cli/1up-cli.yml
+  href: https://artifacts.apis.io/1up/cli/1up-cli.yml
   title: ''
   type: CLI
   url: cli/1up-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/components/1up-components.yml
+  href: https://artifacts.apis.io/1up/components/1up-components.yml
   title: ''
   type: Components
   url: components/1up-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/authentication/1up-authentication.yml
+  href: https://artifacts.apis.io/1up/authentication/1up-authentication.yml
   title: ''
   type: Authentication
   url: authentication/1up-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/scopes/1up-scopes.yml
+  href: https://artifacts.apis.io/1up/scopes/1up-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/1up-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/conformance/1up-conformance.yml
+  href: https://artifacts.apis.io/1up/conformance/1up-conformance.yml
   title: ''
   type: Conformance
   url: conformance/1up-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/conventions/1up-conventions.yml
+  href: https://artifacts.apis.io/1up/conventions/1up-conventions.yml
   title: ''
   type: Conventions
   url: conventions/1up-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/errors/1up-problem-types.yml
+  href: https://artifacts.apis.io/1up/errors/1up-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/1up-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/lifecycle/1up-lifecycle.yml
+  href: https://artifacts.apis.io/1up/lifecycle/1up-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/1up-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/data-model/1up-data-model.yml
+  href: https://artifacts.apis.io/1up/data-model/1up-data-model.yml
   title: ''
   type: DataModel
   url: data-model/1up-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/security/1up-domain-security.yml
+  href: https://artifacts.apis.io/1up/security/1up-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/1up-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/plans/1up-plans-pricing.yml
+  href: https://artifacts.apis.io/1up/plans/1up-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/1up-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/rate-limits/1up-rate-limits.yml
+  href: https://artifacts.apis.io/1up/rate-limits/1up-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/1up-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/1up/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/security/1up-trust-center.yml
+  href: https://artifacts.apis.io/1up/security/1up-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/1up-trust-center.yml
@@ -181,6 +183,14 @@ common:
 created: '2026-09-05'
 description: '1up (1up Corp, 1up.ai) is a New York City based AI knowledge-automation company whose "Answer Engine" generates source-grounded answers for go-to-market teams. The platform connects approved knowledge sources — Confluence, Notion, Google Drive, OneDrive, SharePoint, Box, Dropbox, Egnyte, Salesforce, Highspot, Seismic, Zendesk, Gong, GitBook, GitHub and public websites — into a workspace-isolated knowledge base, then uses it to auto-complete RFPs, DDQs, security questionnaires and vendor assessments in Excel, Word, PDF, CSV and web portals such as OneTrust, Panorays and Whistic. 1up''s public machine surface is an MCP server rather than a REST developer program: a cloud-hosted, OAuth 2.1 protected Model Context Protocol endpoint at https://mcp.1up.ai/mcp exposing 31 documented tools across the Q&A library, questionnaires, knowledge base, knowledge groups and workspace, sold as its own $50/month pricing tier billed at $0.05 per answered question. Founded in 2021 by the founding
   team behind identity-security vendor HYPR, 1up has raised $8.5M from Upfront Ventures and Lightbank.'
+finops:
+- has_sources: true
+  method: derived
+  name: 1Up Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: 1up-finops
+  template: false
 image: https://cdn.prod.website-files.com/69c22ac6beee399088a918e7/69e1a4a063f3ef04164ea555_4bdbffc375cfff493276c814781ae9b9_OG.jpg
 layout: provider
 mcp_servers:
@@ -199,6 +209,9 @@ plans:
 - name: 1Up Plans Pricing
   plan_count: 6
   slug: 1up-plans-pricing
+- name: 1Up Price Estimates
+  plan_count: 0
+  slug: 1up-price-estimates
 random_paper: 14
 rate_limits:
 - limit_count: 0
@@ -211,23 +224,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.8
+  composite: 46.2
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 49.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 63.7
-    discoverability: 75.8
-    operational_transparency: 0.0
-  previous_composite: 42.7
+    discoverability: 66.7
+    operational_transparency: 10.5
+  previous_composite: 44.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -238,14 +251,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/1up/refs/heads/main/screenshots/1up-2026-10-11T092017.png
+screenshot: https://apis.io/screenshots/1up/1up-2026-10-11T092017.png
 security:
 - kind: authentication
   name: 1Up Authentication
@@ -259,6 +272,14 @@ security:
   name: 1Up Trust Center
   slug: 1up-trust-center
   summary_line: SOC 2 Type 2, ISO 27001, GDPR
+skill_count: 3
+skills:
+- name: Ask 1up a grounded question
+  slug: 1up-ask-and-cite
+- name: Automate a questionnaire with 1up
+  slug: 1up-automate-a-questionnaire
+- name: Curate the 1up Answer Library
+  slug: 1up-curate-the-answer-library
 slug: 1up
 tags:
 - Company

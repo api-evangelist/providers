@@ -15,6 +15,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,16 +29,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.8
-  scored_at: '2026-10-17'
+  score: 41.2
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - description: Real-time account and balance retrieval across fiat, digital assets and traditional securities held at Sygnum, with role-based permissions, exposed to B2B partners as REST.
@@ -70,7 +73,7 @@ apis:
 - description: Client-management surface of the developer portal — create and manage Auth0 clients, attach credentials (public key or certificate with a key identifier and expiry) and scope their access to Sygnum AP
   name: Sygnum Access Management API
   slug: sygnum-access-management-api
-artifact_total: 17
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Sygnum Webhooks
@@ -137,97 +140,97 @@ common:
   type: Pricing
   url: https://www.sygnum.com/help/accounts/custody-fees-at-sygnum/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/plans/sygnum-plans-pricing.yml
+  href: https://artifacts.apis.io/sygnum/plans/sygnum-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sygnum-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/rate-limits/sygnum-rate-limits.yml
+  href: https://artifacts.apis.io/sygnum/rate-limits/sygnum-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sygnum-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/authentication/sygnum-authentication.yml
+  href: https://artifacts.apis.io/sygnum/authentication/sygnum-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sygnum-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/scopes/sygnum-scopes.yml
+  href: https://artifacts.apis.io/sygnum/scopes/sygnum-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sygnum-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/well-known/sygnum-well-known.yml
+  href: https://artifacts.apis.io/sygnum/well-known/sygnum-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sygnum-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/well-known/sygnum-auth-openid-configuration.json
+  href: https://artifacts.apis.io/sygnum/well-known/sygnum-auth-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/sygnum-auth-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/conformance/sygnum-conformance.yml
+  href: https://artifacts.apis.io/sygnum/conformance/sygnum-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sygnum-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/conformance/sygnum-conformance.yml
+  href: https://artifacts.apis.io/sygnum/conformance/sygnum-conformance.yml
   title: ''
   type: Compliance
   url: conformance/sygnum-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/errors/sygnum-problem-types.yml
+  href: https://artifacts.apis.io/sygnum/errors/sygnum-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sygnum-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/conventions/sygnum-conventions.yml
+  href: https://artifacts.apis.io/sygnum/conventions/sygnum-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sygnum-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/lifecycle/sygnum-lifecycle.yml
+  href: https://artifacts.apis.io/sygnum/lifecycle/sygnum-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sygnum-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/sandbox/sygnum-sandbox.yml
+  href: https://artifacts.apis.io/sygnum/sandbox/sygnum-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sygnum-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/asyncapi/sygnum-webhooks.yml
+  href: https://artifacts.apis.io/sygnum/asyncapi/sygnum-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sygnum-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/security/sygnum-domain-security.yml
+  href: https://artifacts.apis.io/sygnum/security/sygnum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sygnum-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/packages/sygnum-packages.yml
+  href: https://artifacts.apis.io/sygnum/packages/sygnum-packages.yml
   title: ''
   type: Packages
   url: packages/sygnum-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/llms/sygnum-llms.txt
+  href: https://artifacts.apis.io/sygnum/llms/sygnum-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sygnum-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/well-known/sygnum-security.txt
+  href: https://artifacts.apis.io/sygnum/well-known/sygnum-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sygnum-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/security/sygnum-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sygnum/security/sygnum-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/sygnum-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/security/sygnum-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sygnum/security/sygnum-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sygnum-vulnerability-disclosure.yml
@@ -245,6 +248,14 @@ coverage:
   state: gated
 created: '2026-08-29'
 description: Sygnum is a regulated digital asset banking group, headquartered in Zurich with a Singapore arm, that received a Swiss FINMA banking and securities dealer licence in August 2019. It provides institutional custody, spot and derivatives trading, staking, tokenisation, Lombard lending and 24/7 instant settlement for banks, asset managers, exchanges and corporates. Its B2B business is delivered through an API layer published at developer.sygnum.com — a catalogue covering Banking, Trading (REST and FIX), Custody, Staking, Wallet, Digital Transfer, Sygnum Protect (off-exchange custody), Sygnum Connect (instant settlement) and Market Data (REST and WebSocket) — served from the api.sygnum.com/b2b gateway and secured with OAuth 2.0 client credentials issued from the bank's Auth0 tenant at auth.sygnum.com. The specifications themselves are downloadable only to authenticated Sygnum clients from the developer portal.
+finops:
+- has_sources: true
+  method: derived
+  name: Sygnum Finops
+  primary_unit: ''
+  service_category: ''
+  slug: sygnum-finops
+  template: true
 image: https://avatars.githubusercontent.com/sygnumbank
 layout: provider
 modified: '2026-10-06'
@@ -262,7 +273,7 @@ plans:
 - name: Sygnum Plans Pricing
   plan_count: 0
   slug: sygnum-plans-pricing
-random_paper: 15
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Sygnum Rate Limits
@@ -274,9 +285,9 @@ scopes:
   summary_line: 14 scopes
 score:
   band: developing
-  composite: 49.8
+  composite: 49.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -288,8 +299,8 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 78.6
-    operational_transparency: 21.1
+    discoverability: 71.4
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -300,7 +311,7 @@ score:
     - dach
     - europe
     - southeast-asia
-  previous_composite: 49.8
+  previous_composite: 49.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -310,14 +321,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 46.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/screenshots/sygnum-2026-09-02T161443.png
+screenshot: https://apis.io/screenshots/sygnum/sygnum-2026-09-02T161443.png
 security:
 - kind: authentication
   name: Sygnum Authentication

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,17 +36,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pharmacann/refs/heads/main/plans/pharmacann-plans-pricing.yml
+  href: https://artifacts.apis.io/pharmacann/plans/pharmacann-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pharmacann-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pharmacann/refs/heads/main/rate-limits/pharmacann-rate-limits.yml
+  href: https://artifacts.apis.io/pharmacann/rate-limits/pharmacann-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pharmacann-rate-limits.yml
@@ -81,12 +83,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/Pharmacann
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pharmacann/refs/heads/main/llms/pharmacann-llms.txt
+  href: https://artifacts.apis.io/pharmacann/llms/pharmacann-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pharmacann-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pharmacann/refs/heads/main/security/pharmacann-domain-security.yml
+  href: https://artifacts.apis.io/pharmacann/security/pharmacann-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pharmacann-domain-security.yml
@@ -128,14 +130,14 @@ plans:
 - name: Pharmacann Plans Pricing
   plan_count: 0
   slug: pharmacann-plans-pricing
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Pharmacann Rate Limits
   slug: pharmacann-rate-limits
 score:
-  band: minimal
-  composite: 10.6
+  band: emerging
+  composite: 11.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -150,22 +152,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 10.6
+    operational_transparency: 5.3
+  previous_composite: 11.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pharmacann/refs/heads/main/screenshots/pharmacann-2026-09-02T151130.png
+screenshot: https://apis.io/screenshots/pharmacann/pharmacann-2026-09-02T151130.png
 security:
 - kind: domain-security
   name: Pharmacann Domain Security

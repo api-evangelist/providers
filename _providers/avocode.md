@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Avocode REST API provided programmatic access to projects, design files, shared screens, annotations, and design spec data, enabling integrations with third-party tools and automation of design-to
@@ -46,7 +48,7 @@ common:
   type: Blog
   url: https://avocode.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avocode/refs/heads/main/security/avocode-domain-security.yml
+  href: https://artifacts.apis.io/avocode/security/avocode-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/avocode-domain-security.yml
@@ -83,17 +85,17 @@ common:
   type: X
   url: https://x.com/avocode
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/avocode/refs/heads/main/plans/avocode-plans-pricing.yml
+  href: https://artifacts.apis.io/avocode/plans/avocode-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/avocode-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/avocode/refs/heads/main/rate-limits/avocode-rate-limits.yml
+  href: https://artifacts.apis.io/avocode/rate-limits/avocode-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/avocode-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/avocode/refs/heads/main/finops/avocode-finops.yml
+  href: https://artifacts.apis.io/avocode/finops/avocode-finops.yml
   title: ''
   type: FinOps
   url: finops/avocode-finops.yml
@@ -129,14 +131,14 @@ plans:
 - name: Avocode Plans Pricing
   plan_count: 2
   slug: avocode-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Avocode Rate Limits
   slug: avocode-rate-limits
 score:
   band: emerging
-  composite: 11.8
+  composite: 16.0
   coverage:
     artifact_dirs: 9
     catalog_earned: 42.0
@@ -144,29 +146,29 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 6.7
-    developer_ergonomics: 1.2
+    developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 28.9
-  previous_composite: 18.7
+  previous_composite: 16.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/avocode/refs/heads/main/screenshots/avocode-2026-06-20T172727.png
+screenshot: https://apis.io/screenshots/avocode/avocode-2026-06-20T172727.png
 security:
 - kind: domain-security
   name: Avocode Domain Security

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,37 +25,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clingsystems/refs/heads/main/security/clingsystems-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/clingsystems/security/clingsystems-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/clingsystems-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clingsystems/refs/heads/main/llms/clingsystems-llms.txt
+  href: https://artifacts.apis.io/clingsystems/llms/clingsystems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clingsystems-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clingsystems/refs/heads/main/well-known/clingsystems-security.txt
+  href: https://artifacts.apis.io/clingsystems/well-known/clingsystems-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/clingsystems-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clingsystems/refs/heads/main/well-known/clingsystems-well-known.yml
+  href: https://artifacts.apis.io/clingsystems/well-known/clingsystems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/clingsystems-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clingsystems/refs/heads/main/hosts/clingsystems-hosts.yml
+  href: https://artifacts.apis.io/clingsystems/hosts/clingsystems-hosts.yml
   title: ''
   type: Hosts
   url: hosts/clingsystems-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clingsystems/refs/heads/main/vendors/clingsystems-vendors.yml
+  href: https://artifacts.apis.io/clingsystems/vendors/clingsystems-vendors.yml
   title: ''
   type: Vendors
   url: vendors/clingsystems-vendors.yml
@@ -70,12 +72,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/clingsystems
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clingsystems/refs/heads/main/security/clingsystems-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/clingsystems/security/clingsystems-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/clingsystems-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clingsystems/refs/heads/main/security/clingsystems-domain-security.yml
+  href: https://artifacts.apis.io/clingsystems/security/clingsystems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clingsystems-domain-security.yml
@@ -99,11 +101,11 @@ modified: '2026-10-08'
 name: Clingsystems
 nav: Providers
 network: true
-overview: Clingsystems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Battery, Marketplace, circular-economy, Sustainability, and Sweden.
-random_paper: 19
+overview: Clingsystems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Battery, Marketplace, Circular Economy, Sustainability, and Sweden.
+random_paper: 21
 score:
   band: emerging
-  composite: 12.5
+  composite: 11.8
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -111,13 +113,23 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 15.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - sweden
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  previous_composite: 11.8
   provenance:
     mcp: derived
   regulatory:
@@ -126,8 +138,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -145,7 +158,7 @@ slug: clingsystems
 tags:
 - Battery
 - Marketplace
-- circular-economy
+- Circular Economy
 - Sustainability
 - Sweden
 website: https://clingsystems.com

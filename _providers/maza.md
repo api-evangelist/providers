@@ -30,7 +30,7 @@ name: Maza
 nav: Providers
 network: true
 overview: Maza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Banking, and Immigration.
-random_paper: 7
+random_paper: 17
 slug: maza
 tags:
 - Company

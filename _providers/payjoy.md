@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.4
-  scored_at: '2026-10-17'
+  score: 30.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'REST API for online checkout and credit-application flows: retrieve supported devices, begin a sale, and receive completion webhooks. Bearer-token authenticated plus a symmetric E-commerce key for enc'
@@ -81,15 +83,12 @@ apis:
   description: Endpoints related to vouchers management
   name: PayJoy Vouchers API
   slug: payjoy-vouchers-api
-artifact_total: 21
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Payjoy Webhooks
   slug: payjoy-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PayJoy Partner API V2 Carts API
   slug: open-payjoy-carts-api
@@ -116,7 +115,7 @@ collections:
   slug: open-payjoy-vouchers-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/overlays/payjoy-partner-api-overlay.yaml
+  href: https://artifacts.apis.io/payjoy/overlays/payjoy-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/payjoy-partner-api-overlay.yaml
@@ -161,67 +160,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/payjoy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/llms/payjoy-llms.txt
+  href: https://artifacts.apis.io/payjoy/llms/payjoy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/payjoy-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/authentication/payjoy-authentication.yml
+  href: https://artifacts.apis.io/payjoy/authentication/payjoy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/payjoy-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/conventions/payjoy-conventions.yml
+  href: https://artifacts.apis.io/payjoy/conventions/payjoy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/payjoy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/conventions/payjoy-conventions.yml
+  href: https://artifacts.apis.io/payjoy/conventions/payjoy-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/payjoy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/errors/payjoy-problem-types.yml
+  href: https://artifacts.apis.io/payjoy/errors/payjoy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/payjoy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/lifecycle/payjoy-lifecycle.yml
+  href: https://artifacts.apis.io/payjoy/lifecycle/payjoy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/payjoy-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/sandbox/payjoy-sandbox.yml
+  href: https://artifacts.apis.io/payjoy/sandbox/payjoy-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/payjoy-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/conformance/payjoy-conformance.yml
+  href: https://artifacts.apis.io/payjoy/conformance/payjoy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/payjoy-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/data-model/payjoy-data-model.yml
+  href: https://artifacts.apis.io/payjoy/data-model/payjoy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/payjoy-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/asyncapi/payjoy-webhooks.yml
+  href: https://artifacts.apis.io/payjoy/asyncapi/payjoy-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/payjoy-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/mcp/payjoy-mcp.yml
+  href: https://artifacts.apis.io/payjoy/mcp/payjoy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/payjoy-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/payjoy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/security/payjoy-domain-security.yml
+  href: https://artifacts.apis.io/payjoy/security/payjoy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/payjoy-domain-security.yml
@@ -240,10 +239,10 @@ overview: 'PayJoy publishes 9 API contracts indexed on the [APIs.io](https://api
 
 
   PayJoy''s developer surface includes documentation, getting-started guide, support, signup flow, engineering blog, authentication, sandbox, and 17 more developer resources.'
-random_paper: 8
+random_paper: 20
 score:
   band: developing
-  composite: 43.3
+  composite: 43.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -251,15 +250,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 57.1
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 43.2
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 43.6
   provenance:
     conformance: derived
     contracts:
@@ -275,13 +274,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/screenshots/payjoy-2026-08-07T191639.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/payjoy/payjoy-2026-08-07T191639.png
 security:
 - kind: authentication
   name: Payjoy Authentication
@@ -291,6 +291,16 @@ security:
   name: Payjoy Domain Security
   slug: payjoy-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Look up a PayJoy cart / sale
+  slug: payjoy-lookup-cart
+- name: Process a customer repayment
+  slug: payjoy-process-repayment
+- name: Reconcile PayJoy transactions
+  slug: payjoy-reconcile-transactions
+- name: Redeem or cancel a PayJoy voucher
+  slug: payjoy-redeem-voucher
 slug: payjoy
 tags:
 - Company

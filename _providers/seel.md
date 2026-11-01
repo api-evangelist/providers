@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.3
-  scored_at: '2026-10-17'
+  score: 25.2
+  scored_at: '2026-10-31'
 api_count: 9
 apis:
 - baseURL: https://api-test.seel.com/v1
@@ -83,15 +85,12 @@ apis:
   description: The Quote API from Seel — 2 operation(s) for quote.
   name: Seel Quote API
   slug: seel-quote-api
-artifact_total: 22
+artifact_total: 23
 asyncapis:
 - description: Seel delivers webhook notifications to a merchant-configured HTTPS endpoint when protection contract and claim lifecycle events occur. Each notification is a Notification object with id, created_ts, t
   name: Seel Webhooks
   slug: seel-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Seel Commerce Protection Bill API
   slug: open-seel-bill-api
@@ -121,12 +120,12 @@ collections:
   slug: open-seel-quote-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/mcp/seel-mcp.yml
+  href: https://artifacts.apis.io/seel/mcp/seel-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/seel-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/overlays/seel-openapi-overlay.yaml
+  href: https://artifacts.apis.io/seel/overlays/seel-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seel-openapi-overlay.yaml
@@ -167,22 +166,22 @@ common:
   type: PrivacyPolicy
   url: https://www.seel.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/llms/seel-llms.txt
+  href: https://artifacts.apis.io/seel/llms/seel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/seel-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/well-known/seel-well-known.yml
+  href: https://artifacts.apis.io/seel/well-known/seel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/seel-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/security/seel-domain-security.yml
+  href: https://artifacts.apis.io/seel/security/seel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/seel-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/seel/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -201,10 +200,10 @@ overview: 'Seel is listed with 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Seel''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 11 more developer resources.'
-random_paper: 7
+random_paper: 17
 score:
-  band: emerging
-  composite: 25.5
+  band: thin
+  composite: 29.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -212,15 +211,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 9.3
-    developer_ergonomics: 47.0
-    discoverability: 78.6
+    contract_quality: 8.1
+    developer_ergonomics: 66.1
+    discoverability: 71.4
     operational_transparency: 7.9
-  previous_composite: 25.4
+  previous_composite: 29.0
   provenance:
     conformance: derived
     contracts:
@@ -236,13 +235,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/screenshots/seel-2026-09-02T154753.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/seel/seel-2026-09-02T154753.png
 security:
 - kind: authentication
   name: Seel Authentication
@@ -252,6 +252,12 @@ security:
   name: Seel Domain Security
   slug: seel-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Quote and protect an order
+  slug: seel-quote-and-protect-order
+- name: Track a claim to resolution
+  slug: seel-track-claim-resolution
 slug: seel
 tags:
 - Company

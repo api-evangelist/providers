@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -53,32 +55,32 @@ common:
   type: Blog
   url: https://www.hyro.ai/blog/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyro/refs/heads/main/well-known/hyro-well-known.yml
+  href: https://artifacts.apis.io/hyro/well-known/hyro-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/hyro-well-known.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hyro/refs/heads/main/plans/hyro-plans-pricing.yml
+  href: https://artifacts.apis.io/hyro/plans/hyro-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hyro-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hyro/refs/heads/main/rate-limits/hyro-rate-limits.yml
+  href: https://artifacts.apis.io/hyro/rate-limits/hyro-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hyro-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hyro/refs/heads/main/regulatory/hyro-regulatory-posture.yml
+  href: https://artifacts.apis.io/hyro/regulatory/hyro-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/hyro-regulatory-posture.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyro/refs/heads/main/security/hyro-domain-security.yml
+  href: https://artifacts.apis.io/hyro/security/hyro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hyro-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hyro/refs/heads/main/lifecycle/hyro-lifecycle.yml
+  href: https://artifacts.apis.io/hyro/lifecycle/hyro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hyro-lifecycle.yml
@@ -106,7 +108,7 @@ plans:
 - name: Hyro Plans Pricing
   plan_count: 0
   slug: hyro-plans-pricing
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Hyro Rate Limits
@@ -143,14 +145,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hyro/refs/heads/main/screenshots/hyro-2026-07-25T221939.png
+screenshot: https://apis.io/screenshots/hyro/hyro-2026-07-25T221939.png
 security:
 - kind: domain-security
   name: Hyro Domain Security

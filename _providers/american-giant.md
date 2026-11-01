@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,27 +25,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/american-giant/refs/heads/main/mcp/american-giant-mcp.yml
+  href: https://artifacts.apis.io/american-giant/mcp/american-giant-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/american-giant-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/american-giant/refs/heads/main/hosts/american-giant-hosts.yml
+  href: https://artifacts.apis.io/american-giant/hosts/american-giant-hosts.yml
   title: ''
   type: Hosts
   url: hosts/american-giant-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/american-giant/refs/heads/main/vendors/american-giant-vendors.yml
+  href: https://artifacts.apis.io/american-giant/vendors/american-giant-vendors.yml
   title: ''
   type: Vendors
   url: vendors/american-giant-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/american-giant/refs/heads/main/security/american-giant-domain-security.yml
+  href: https://artifacts.apis.io/american-giant/security/american-giant-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/american-giant-domain-security.yml
@@ -63,7 +65,7 @@ created: '2026-09-24'
 description: American Giant is an American-made clothing and activewear brand offering a range of apparel including sweatshirts, hoodies, tees, and outerwear. The company emphasizes quality, domestic manufacturing, and sustainable practices, providing free shipping on orders over $150 and a focus on classic, durable designs.
 layout: provider
 mcp_servers:
-- description: Remote MCP server at americangiant.myshopify.com.
+- description: Remote MCP server at americangiant.myshopify.com; 13 tools listed.
   name: American Giant MCP Server
   slug: american-giant-mcp-yml
 modified: '2026-09-24'
@@ -71,10 +73,10 @@ name: American Giant
 nav: Providers
 network: true
 overview: American Giant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Clothing, Activewear, AmericanMade, and E-Commerce.
-random_paper: 0
+random_paper: 16
 score:
   band: minimal
-  composite: 3.5
+  composite: 3.1
   coverage:
     artifact_dirs: 7
     catalog_earned: 25.0
@@ -82,26 +84,20 @@ score:
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 48.3
+    discoverability: 45.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: venue_as_website
-  previous_composite: 3.4
+  previous_composite: 3.1
   provenance:
     mcp: platform-generated
   regulatory:
@@ -110,14 +106,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/american-giant/refs/heads/main/screenshots/american-giant-2026-10-11T093837.png
+screenshot: https://apis.io/screenshots/american-giant/american-giant-2026-10-11T093837.png
 security:
 - kind: domain-security
   name: American Giant Domain Security

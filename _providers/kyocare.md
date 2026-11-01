@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Attain platform API is the backend serving the Kyo Care portal (portal.kyocare.com) and the Kyo Care mobile app. It is an OAuth 2.0 / OpenID Connect protected API fronted by AWS Cognito, publishin
@@ -70,37 +72,37 @@ common:
   type: Careers
   url: https://kyocare.com/careers/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kyocare/refs/heads/main/authentication/kyocare-authentication.yml
+  href: https://artifacts.apis.io/kyocare/authentication/kyocare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kyocare-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kyocare/refs/heads/main/scopes/kyocare-scopes.yml
+  href: https://artifacts.apis.io/kyocare/scopes/kyocare-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kyocare-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kyocare/refs/heads/main/well-known/kyocare-well-known.yml
+  href: https://artifacts.apis.io/kyocare/well-known/kyocare-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kyocare-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kyocare/refs/heads/main/conformance/kyocare-conformance.yml
+  href: https://artifacts.apis.io/kyocare/conformance/kyocare-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kyocare-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kyocare/refs/heads/main/conventions/kyocare-conventions.yml
+  href: https://artifacts.apis.io/kyocare/conventions/kyocare-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kyocare-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kyocare/refs/heads/main/security/kyocare-domain-security.yml
+  href: https://artifacts.apis.io/kyocare/security/kyocare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kyocare-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kyocare/refs/heads/main/llms/kyocare-llms.txt
+  href: https://artifacts.apis.io/kyocare/llms/kyocare-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kyocare-llms.txt
@@ -116,7 +118,7 @@ overview: 'Kyo is listed with 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Kyo''s developer surface includes developer portal, signup flow, support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 2
+random_paper: 6
 scopes:
 - name: Kyocare Scopes
   scope_count: 2
@@ -124,7 +126,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 22.6
+  composite: 21.9
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -138,9 +140,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 22.6
+  previous_composite: 21.9
   provenance:
     conformance: first-party
   regulatory:
@@ -149,14 +151,14 @@ score:
     regime: Health
     regime_id: health
     score: 29.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kyocare/refs/heads/main/screenshots/kyocare-2026-07-25T224350.png
+screenshot: https://apis.io/screenshots/kyocare/kyocare-2026-07-25T224350.png
 security:
 - kind: authentication
   name: Kyocare Authentication

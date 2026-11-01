@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,27 +79,27 @@ common:
   type: YouTube
   url: https://www.youtube.com/@chaoslabs-ai
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chaoslabs/refs/heads/main/llms/chaoslabs-llms.txt
+  href: https://artifacts.apis.io/chaoslabs/llms/chaoslabs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chaoslabs-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chaoslabs/refs/heads/main/packages/chaoslabs-packages.yml
+  href: https://artifacts.apis.io/chaoslabs/packages/chaoslabs-packages.yml
   title: ''
   type: Packages
   url: packages/chaoslabs-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chaoslabs/refs/heads/main/conformance/chaoslabs-conformance.yml
+  href: https://artifacts.apis.io/chaoslabs/conformance/chaoslabs-conformance.yml
   title: ''
   type: Compliance
   url: conformance/chaoslabs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chaoslabs/refs/heads/main/conformance/chaoslabs-conformance.yml
+  href: https://artifacts.apis.io/chaoslabs/conformance/chaoslabs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chaoslabs-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chaoslabs/refs/heads/main/security/chaoslabs-domain-security.yml
+  href: https://artifacts.apis.io/chaoslabs/security/chaoslabs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chaoslabs-domain-security.yml
@@ -114,12 +116,12 @@ overview: 'Chaoslabs is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Chaoslabs'' developer surface includes documentation, engineering blog, YouTube channel, and 12 more developer resources.'
-random_paper: 20
+random_paper: 8
 score:
   band: emerging
-  composite: 19.1
+  composite: 18.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -131,8 +133,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 55.4
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -140,7 +142,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 19.1
+  previous_composite: 18.8
   provenance:
     conformance: first-party
   regulatory:
@@ -149,14 +151,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/chaoslabs/refs/heads/main/screenshots/chaoslabs-2026-07-25T205051.png
+screenshot: https://apis.io/screenshots/chaoslabs/chaoslabs-2026-07-25T205051.png
 security:
 - kind: domain-security
   name: Chaoslabs Domain Security

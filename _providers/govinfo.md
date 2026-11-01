@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 20.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 11
   slug: govinfo-agentic-access
   summary_line: 11 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.govinfo.gov
   baseurl_source: declared
@@ -70,11 +72,8 @@ apis:
   description: Discover documents on GovInfo using search queries and field operators available in the GovInfo UI
   name: GovInfo Search API
   slug: govinfo-search-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: GovInfo Collections API
   slug: open-govinfo-collections-api
@@ -95,17 +94,17 @@ collections:
   slug: open-openapi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/plans/govinfo-plans-pricing.yml
+  href: https://artifacts.apis.io/govinfo/plans/govinfo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/govinfo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/rate-limits/govinfo-rate-limits.yml
+  href: https://artifacts.apis.io/govinfo/rate-limits/govinfo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/govinfo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/finops/govinfo-finops.yml
+  href: https://artifacts.apis.io/govinfo/finops/govinfo-finops.yml
   title: ''
   type: FinOps
   url: finops/govinfo-finops.yml
@@ -118,17 +117,17 @@ common:
   type: Website
   url: https://www.govinfo.gov/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/agentic-access/govinfo-agentic-access.yml
+  href: https://artifacts.apis.io/govinfo/agentic-access/govinfo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/govinfo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/security/govinfo-domain-security.yml
+  href: https://artifacts.apis.io/govinfo/security/govinfo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/govinfo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/authentication/govinfo-authentication.yml
+  href: https://artifacts.apis.io/govinfo/authentication/govinfo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/govinfo-authentication.yml
@@ -174,7 +173,7 @@ finops:
 - has_sources: false
   method: generated
   name: Govinfo Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: govinfo-finops
   template: true
@@ -192,24 +191,24 @@ plans:
 - name: Govinfo Plans Pricing
   plan_count: 3
   slug: govinfo-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Govinfo Rate Limits
   slug: govinfo-rate-limits
 score:
   band: thin
-  composite: 31.0
+  composite: 36.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 44.0
     developer_ergonomics: 42.9
@@ -220,7 +219,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 32.6
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -233,15 +232,15 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 19.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/screenshots/govinfo-2026-06-20T182303.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/govinfo/govinfo-2026-06-20T182303.png
 security:
 - kind: authentication
   name: Govinfo Authentication

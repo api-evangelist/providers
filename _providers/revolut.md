@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.9
-  scored_at: '2026-10-17'
+  score: 50.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 1
@@ -286,9 +288,6 @@ asyncapis:
   slug: revolut-webhooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Business Accounting API
   slug: open-revolut-accounting-api
 - collection_type: open
@@ -428,32 +427,32 @@ collections:
   slug: open-revolut-webhooks-v2-api
 common:
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/integrations/revolut-integration-edges.yml
+  href: https://artifacts.apis.io/revolut/integrations/revolut-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/revolut-integration-edges.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/rules/revolut-rules.yml
+  href: https://artifacts.apis.io/revolut/rules/revolut-rules.yml
   title: ''
   type: Spectral
   url: rules/revolut-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/json-ld/revolut-context.jsonld
+  href: https://artifacts.apis.io/revolut/json-ld/revolut-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/revolut-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/vocabulary/revolut-vocabulary.yml
+  href: https://artifacts.apis.io/revolut/vocabulary/revolut-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/revolut-vocabulary.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/hosts/revolut-hosts.yml
+  href: https://artifacts.apis.io/revolut/hosts/revolut-hosts.yml
   title: ''
   type: Hosts
   url: hosts/revolut-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/vendors/revolut-vendors.yml
+  href: https://artifacts.apis.io/revolut/vendors/revolut-vendors.yml
   title: ''
   type: Vendors
   url: vendors/revolut-vendors.yml
@@ -466,7 +465,7 @@ common:
   type: PrivacyPolicy
   url: https://www.revolut.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/scopes/revolut-scopes.yml
+  href: https://artifacts.apis.io/revolut/scopes/revolut-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/revolut-scopes.yml
@@ -475,7 +474,7 @@ common:
   type: Blog
   url: https://www.revolut.com/blog/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/rate-limits/revolut-rate-limits.yml
+  href: https://artifacts.apis.io/revolut/rate-limits/revolut-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/revolut-rate-limits.yml
@@ -484,12 +483,12 @@ common:
   type: Pricing
   url: https://www.revolut.com/en-US/business/business-account-plans/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/plans/revolut-plans-pricing.yml
+  href: https://artifacts.apis.io/revolut/plans/revolut-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/revolut-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/capabilities/revolut-capability-edges.yml
+  href: https://artifacts.apis.io/revolut/capabilities/revolut-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/revolut-capability-edges.yml
@@ -498,7 +497,7 @@ common:
   type: IssueTracker
   url: https://github.com/revolut-engineering/revolut-openapi/issues
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/overlays/revolut-business-overlay.yaml
+  href: https://artifacts.apis.io/revolut/overlays/revolut-business-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/revolut-business-overlay.yaml
@@ -531,92 +530,92 @@ common:
   type: SourceCode
   url: https://github.com/revolut-engineering/revolut-openapi
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/authentication/revolut-authentication.yml
+  href: https://artifacts.apis.io/revolut/authentication/revolut-authentication.yml
   title: ''
   type: Authentication
   url: authentication/revolut-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/conventions/revolut-conventions.yml
+  href: https://artifacts.apis.io/revolut/conventions/revolut-conventions.yml
   title: ''
   type: Conventions
   url: conventions/revolut-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/conventions/revolut-conventions.yml
+  href: https://artifacts.apis.io/revolut/conventions/revolut-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/revolut-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/errors/revolut-problem-types.yml
+  href: https://artifacts.apis.io/revolut/errors/revolut-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/revolut-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/lifecycle/revolut-lifecycle.yml
+  href: https://artifacts.apis.io/revolut/lifecycle/revolut-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/revolut-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/lifecycle/revolut-lifecycle.yml
+  href: https://artifacts.apis.io/revolut/lifecycle/revolut-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/revolut-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/changelog/revolut-changelog.yml
+  href: https://artifacts.apis.io/revolut/changelog/revolut-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/revolut-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/conformance/revolut-conformance.yml
+  href: https://artifacts.apis.io/revolut/conformance/revolut-conformance.yml
   title: ''
   type: Conformance
   url: conformance/revolut-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/conformance/revolut-conformance.yml
+  href: https://artifacts.apis.io/revolut/conformance/revolut-conformance.yml
   title: ''
   type: Compliance
   url: conformance/revolut-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/data-model/revolut-data-model.yml
+  href: https://artifacts.apis.io/revolut/data-model/revolut-data-model.yml
   title: ''
   type: DataModel
   url: data-model/revolut-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/sandbox/revolut-sandbox.yml
+  href: https://artifacts.apis.io/revolut/sandbox/revolut-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/revolut-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/asyncapi/revolut-webhooks.yml
+  href: https://artifacts.apis.io/revolut/asyncapi/revolut-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/revolut-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/packages/revolut-packages.yml
+  href: https://artifacts.apis.io/revolut/packages/revolut-packages.yml
   title: ''
   type: Packages
   url: packages/revolut-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/packages/revolut-packages.yml
+  href: https://artifacts.apis.io/revolut/packages/revolut-packages.yml
   title: ''
   type: SDKs
   url: packages/revolut-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/mcp/revolut-mcp.yml
+  href: https://artifacts.apis.io/revolut/mcp/revolut-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/revolut-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/revolut/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/well-known/revolut-well-known.yml
+  href: https://artifacts.apis.io/revolut/well-known/revolut-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/revolut-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/well-known/revolut-security.txt
+  href: https://artifacts.apis.io/revolut/well-known/revolut-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/revolut-security.txt
@@ -625,22 +624,30 @@ common:
   type: Security
   url: https://www.revolut.com/responsible-disclosure-program
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/security/revolut-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/revolut/security/revolut-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/revolut-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/security/revolut-domain-security.yml
+  href: https://artifacts.apis.io/revolut/security/revolut-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/revolut-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/agentic-access/revolut-agentic-access.yml
+  href: https://artifacts.apis.io/revolut/agentic-access/revolut-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/revolut-agentic-access.yml
 created: '2026-07-17'
 description: 'Revolut is a global financial technology company providing banking, payments, cards, foreign exchange, savings, and crypto services to retail and business customers. Its developer platform publishes several distinct REST APIs: the Business API (accounts, transfers, payments, counterparties, cards, webhooks), the Merchant API (online card acquiring, orders, captures, refunds, subscriptions), the Open Banking API (UK Open Banking / PSD2 account information and payment initiation, FAPI-secured with detached JWS), the Crypto Ramp API (fiat-to-crypto on/off ramp for partners), and the Revolut X crypto exchange API (balances, orders, trades, market data). Revolut publishes official OpenAPI specifications and Agent Skills on GitHub.'
+finops:
+- has_sources: true
+  method: derived
+  name: Revolut Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: revolut-finops
+  template: false
 image: https://assets.revolut.com/assets/revolut-app-icons/Developer.png
 json_schemas:
 - name: AccountBalance
@@ -1163,9 +1170,9 @@ plans:
   plan_count: 4
   slug: revolut-plans-pricing
 - name: Revolut Price Estimates
-  plan_count: 1
+  plan_count: 0
   slug: revolut-price-estimates
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Revolut Rate Limits
@@ -1192,21 +1199,21 @@ score:
   band: exemplar
   composite: 70.0
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 77.8
+    artifact_dirs: 33
+    catalog_earned: 80.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 37.3
+    catalog_gap: 34.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 10.7
+  delta: 1.6
   facets:
-    access_clarity: 60.5
+    access_clarity: 68.4
     contract_governance: 22.0
-    contract_quality: 77.9
-    developer_ergonomics: 75.0
+    contract_quality: 75.5
+    developer_ergonomics: 78.6
     discoverability: 71.4
-    operational_transparency: 44.7
-  previous_composite: 59.3
+    operational_transparency: 47.4
+  previous_composite: 68.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1214,7 +1221,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 47
+      total: 50
     mcp: derived
     skills: first-party
   regulatory:
@@ -1227,13 +1234,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 59.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/screenshots/revolut-2026-08-17T081548.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/revolut/revolut-2026-08-17T081548.png
 security:
 - kind: authentication
   name: Revolut Authentication

@@ -14,36 +14,38 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.7
-  scored_at: '2026-10-17'
+  score: 21.8
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ctristack/refs/heads/main/llms/ctristack-llms.txt
+  href: https://artifacts.apis.io/ctristack/llms/ctristack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ctristack-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ctristack/refs/heads/main/well-known/ctristack-well-known.yml
+  href: https://artifacts.apis.io/ctristack/well-known/ctristack-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ctristack-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ctristack/refs/heads/main/hosts/ctristack-hosts.yml
+  href: https://artifacts.apis.io/ctristack/hosts/ctristack-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ctristack-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ctristack/refs/heads/main/vendors/ctristack-vendors.yml
+  href: https://artifacts.apis.io/ctristack/vendors/ctristack-vendors.yml
   title: ''
   type: Vendors
   url: vendors/ctristack-vendors.yml
@@ -64,7 +66,7 @@ common:
   type: Documentation
   url: https://dev.augment.market/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ctristack/refs/heads/main/security/ctristack-domain-security.yml
+  href: https://artifacts.apis.io/ctristack/security/ctristack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ctristack-domain-security.yml
@@ -87,14 +89,14 @@ modified: '2026-10-11'
 name: Ctristack
 nav: Providers
 network: true
-overview: 'Ctristack is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PrivateLiquidity, Market Data, Investor, and TradingPlatform.
+overview: 'Ctristack is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PrivateLiquidity, Market Data, Investor, and Trading Platform.
 
 
   Ctristack''s developer surface includes documentation and 9 more developer resources.'
-random_paper: 0
+random_paper: 8
 score:
-  band: emerging
-  composite: 11.2
+  band: minimal
+  composite: 10.4
   coverage:
     artifact_dirs: 6
     catalog_earned: 25.0
@@ -102,13 +104,15 @@ score:
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 53.6
+    discoverability: 46.4
     operational_transparency: 0.0
+  previous_composite: 10.4
   provenance:
     mcp: unknown
   regulatory:
@@ -117,8 +121,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -134,6 +139,6 @@ tags:
 - PrivateLiquidity
 - Market Data
 - Investor
-- TradingPlatform
+- Trading Platform
 website: https://augment.market/c/ctristack
 ---

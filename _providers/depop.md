@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: documented
+    rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.5
-  scored_at: '2026-10-17'
+  score: 40.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -108,6 +111,11 @@ apis:
   description: The Seller API API from depop — 0 operation(s) for seller api.
   name: depop Seller API
   slug: depop-seller-api-api
+- baseURL: https://partnerapi.depop.com
+  baseurl_source: declared
+  description: Webhook configuration management for receiving Depop event notifications
+  name: depop Webhook Configuration API
+  slug: depop-webhook-configuration-api
 arazzos:
 - description: Create/update a Depop listing by SKU, verify it, then mark it as sold.
   name: List a product and mark it sold
@@ -115,15 +123,12 @@ arazzos:
 - description: Read an order, mark a parcel shipped with tracking, optionally refund.
   name: Order fulfillment
   slug: depop-order-fulfillment.arazzo
-artifact_total: 35
+artifact_total: 38
 asyncapis:
 - description: Event surface for the Depop Selling API, generated from the webhooks section of the OpenAPI 3.1 document. Depop delivers order and product engagement events to a partner-registered HTTPS endpoint. Eve
   name: Depop Selling API — Webhooks
   slug: depop-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Seller API status API
   slug: open-depop-api-status-api
@@ -162,17 +167,17 @@ collections:
   slug: open-depop-shop-management-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/rate-limits/depop-rate-limits.yml
+  href: https://artifacts.apis.io/depop/rate-limits/depop-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/depop-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/capabilities/depop-capability-edges.yml
+  href: https://artifacts.apis.io/depop/capabilities/depop-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/depop-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/overlays/depop-selling-overlay.yaml
+  href: https://artifacts.apis.io/depop/overlays/depop-selling-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/depop-selling-overlay.yaml
@@ -221,102 +226,102 @@ common:
   type: Website
   url: https://www.depop.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/authentication/depop-authentication.yml
+  href: https://artifacts.apis.io/depop/authentication/depop-authentication.yml
   title: ''
   type: Authentication
   url: authentication/depop-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/scopes/depop-scopes.yml
+  href: https://artifacts.apis.io/depop/scopes/depop-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/depop-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/errors/depop-problem-types.yml
+  href: https://artifacts.apis.io/depop/errors/depop-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/depop-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/conventions/depop-conventions.yml
+  href: https://artifacts.apis.io/depop/conventions/depop-conventions.yml
   title: ''
   type: Conventions
   url: conventions/depop-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/rate-limits/depop-rate-limits.yml
+  href: https://artifacts.apis.io/depop/rate-limits/depop-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/depop-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/lifecycle/depop-lifecycle.yml
+  href: https://artifacts.apis.io/depop/lifecycle/depop-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/depop-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/lifecycle/depop-lifecycle.yml
+  href: https://artifacts.apis.io/depop/lifecycle/depop-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/depop-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/changelog/depop-changelog.yml
+  href: https://artifacts.apis.io/depop/changelog/depop-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/depop-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/sandbox/depop-sandbox.yml
+  href: https://artifacts.apis.io/depop/sandbox/depop-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/depop-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/conformance/depop-conformance.yml
+  href: https://artifacts.apis.io/depop/conformance/depop-conformance.yml
   title: ''
   type: Conformance
   url: conformance/depop-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/data-model/depop-data-model.yml
+  href: https://artifacts.apis.io/depop/data-model/depop-data-model.yml
   title: ''
   type: DataModel
   url: data-model/depop-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/asyncapi/depop-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/depop/asyncapi/depop-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/depop-webhooks-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/mcp/depop-mcp.yml
+  href: https://artifacts.apis.io/depop/mcp/depop-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/depop-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/llms/depop-llms.txt
+  href: https://artifacts.apis.io/depop/llms/depop-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/depop-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/well-known/depop-well-known.yml
+  href: https://artifacts.apis.io/depop/well-known/depop-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/depop-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/agentic-access/depop-agentic-access.yml
+  href: https://artifacts.apis.io/depop/agentic-access/depop-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/depop-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/depop/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/arazzo/depop-list-and-sell.arazzo.yml
+  href: https://artifacts.apis.io/depop/arazzo/depop-list-and-sell.arazzo.yml
   title: ''
   type: Arazzo
   url: arazzo/depop-list-and-sell.arazzo.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/arazzo/depop-order-fulfillment.arazzo.yml
+  href: https://artifacts.apis.io/depop/arazzo/depop-order-fulfillment.arazzo.yml
   title: ''
   type: Arazzo
   url: arazzo/depop-order-fulfillment.arazzo.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/security/depop-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/depop/security/depop-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/depop-vulnerability-disclosure.yml
@@ -325,7 +330,7 @@ common:
   type: Security
   url: https://www.depop.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/security/depop-domain-security.yml
+  href: https://artifacts.apis.io/depop/security/depop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/depop-domain-security.yml
@@ -337,7 +342,7 @@ modified: '2026-07-18'
 name: depop
 nav: Providers
 network: true
-overview: 'depop publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including API status API, Authentication API, Docs API, and 10 more. Tagged areas include Company, Fashion, Marketplace, E-Commerce, and Resale.
+overview: 'depop publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including API status API, Authentication API, Docs API, and 11 more. Tagged areas include Company, Fashion, Marketplace, E-Commerce, and Resale.
 
 
   The depop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -355,8 +360,8 @@ scopes:
   slug: depop-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: strong
-  composite: 57.7
+  band: developing
+  composite: 54.2
   coverage:
     artifact_dirs: 26
     catalog_earned: 45.0
@@ -364,15 +369,20 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 61.5
+    contract_quality: 59.6
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 81.6
-  previous_composite: 57.6
+    discoverability: 66.1
+    operational_transparency: 84.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -380,7 +390,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 13
+      total: 26
     mcp: derived
     skills: derived
   regulatory:
@@ -389,13 +399,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/screenshots/depop-2026-07-25T211730.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/depop/depop-2026-07-25T211730.png
 security:
 - kind: authentication
   name: Depop Authentication
@@ -409,6 +420,14 @@ security:
   name: Depop Vulnerability Disclosure
   slug: depop-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Connect a Depop seller via OAuth
+  slug: depop-connect-seller-oauth
+- name: Fulfill and refund a Depop order
+  slug: depop-fulfill-order
+- name: List a product on Depop
+  slug: depop-list-product
 slug: depop
 tags:
 - Company

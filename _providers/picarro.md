@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - baseURL: grpc://localhost:3343
@@ -53,14 +55,14 @@ apis:
 - description: P-Cubed is Picarro's cloud data processing and storage platform. Picarro analyzers stream or batch data to it, customers interact with the results in a graphics-rich web environment, and — per Picarro
   name: Picarro P-Cubed Platform
   slug: picarro-p-cubed-platform
-artifact_total: 9
+artifact_total: 12
 asyncapis:
 - description: 'Picarro Edge implements a publish/subscribe surface on top of gRPC server streaming: every service exposes a `watch(picarro.signal.Filter)` method that returns a stream of `Signal` messages, where the'
   name: Picarro Edge — SAM FOUP Signal Streams
   slug: picarro-sam-foup-asyncapi
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/security/picarro-domain-security.yml
+  href: https://artifacts.apis.io/picarro/security/picarro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/picarro-domain-security.yml
@@ -153,107 +155,107 @@ common:
   type: Partners
   url: https://www.picarro.com/partners
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/packages/picarro-packages.yml
+  href: https://artifacts.apis.io/picarro/packages/picarro-packages.yml
   title: ''
   type: Packages
   url: packages/picarro-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/packages/picarro-packages.yml
+  href: https://artifacts.apis.io/picarro/packages/picarro-packages.yml
   title: ''
   type: SDKs
   url: packages/picarro-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/cli/picarro-cli.yml
+  href: https://artifacts.apis.io/picarro/cli/picarro-cli.yml
   title: ''
   type: CLI
   url: cli/picarro-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/sandbox/picarro-sandbox.yml
+  href: https://artifacts.apis.io/picarro/sandbox/picarro-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/picarro-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/well-known/picarro-well-known.yml
+  href: https://artifacts.apis.io/picarro/well-known/picarro-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/picarro-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/authentication/picarro-authentication.yml
+  href: https://artifacts.apis.io/picarro/authentication/picarro-authentication.yml
   title: ''
   type: Authentication
   url: authentication/picarro-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/scopes/picarro-scopes.yml
+  href: https://artifacts.apis.io/picarro/scopes/picarro-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/picarro-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/conventions/picarro-conventions.yml
+  href: https://artifacts.apis.io/picarro/conventions/picarro-conventions.yml
   title: ''
   type: Conventions
   url: conventions/picarro-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/errors/picarro-problem-types.yml
+  href: https://artifacts.apis.io/picarro/errors/picarro-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/picarro-problem-types.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/asyncapi/picarro-sam-foup-asyncapi.yml
+  href: https://artifacts.apis.io/picarro/asyncapi/picarro-sam-foup-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/picarro-sam-foup-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/conformance/picarro-conformance.yml
+  href: https://artifacts.apis.io/picarro/conformance/picarro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/picarro-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/lifecycle/picarro-lifecycle.yml
+  href: https://artifacts.apis.io/picarro/lifecycle/picarro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/picarro-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/changelog/picarro-changelog.yml
+  href: https://artifacts.apis.io/picarro/changelog/picarro-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/picarro-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/data-model/picarro-data-model.yml
+  href: https://artifacts.apis.io/picarro/data-model/picarro-data-model.yml
   title: ''
   type: DataModel
   url: data-model/picarro-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/mcp/picarro-tool-crosswalk.yml
+  href: https://artifacts.apis.io/picarro/mcp/picarro-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/picarro-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/security/picarro-trust-center.yml
+  href: https://artifacts.apis.io/picarro/security/picarro-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/picarro-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/llms/picarro-llms.txt
+  href: https://artifacts.apis.io/picarro/llms/picarro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/picarro-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/picarro/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/skills/picarro-run-foup-measurement.md
+  href: https://artifacts.apis.io/picarro/skills/picarro-run-foup-measurement.md
   title: ''
   type: AgentSkill
   url: skills/picarro-run-foup-measurement.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/skills/picarro-manage-measurement-sets.md
+  href: https://artifacts.apis.io/picarro/skills/picarro-manage-measurement-sets.md
   title: ''
   type: AgentSkill
   url: skills/picarro-manage-measurement-sets.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/skills/picarro-monitor-analyzer-health.md
+  href: https://artifacts.apis.io/picarro/skills/picarro-monitor-analyzer-health.md
   title: ''
   type: AgentSkill
   url: skills/picarro-monitor-analyzer-health.md
@@ -273,7 +275,7 @@ overview: 'Picarro is listed with 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Picarro''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 37 more developer resources.'
-random_paper: 4
+random_paper: 8
 scopes:
 - name: Picarro Scopes
   scope_count: 9
@@ -281,7 +283,7 @@ scopes:
   summary_line: 9 scopes · authorizationCode/implicit/password/clientCredentials
 score:
   band: developing
-  composite: 45.5
+  composite: 51.5
   coverage:
     artifact_dirs: 21
     catalog_earned: 35.0
@@ -294,10 +296,10 @@ score:
     access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 39.6
-    developer_ergonomics: 42.3
+    developer_ergonomics: 70.8
     discoverability: 62.5
-    operational_transparency: 34.2
-  previous_composite: 45.5
+    operational_transparency: 36.8
+  previous_composite: 51.5
   provenance:
     conformance: derived
     mcp: derived
@@ -308,14 +310,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 38.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/screenshots/picarro-2026-08-17T081215.png
+screenshot: https://apis.io/screenshots/picarro/picarro-2026-08-17T081215.png
 security:
 - kind: authentication
   name: Picarro Authentication
@@ -329,6 +331,14 @@ security:
   name: Picarro Trust Center
   slug: picarro-trust-center
   summary_line: ISO/IEC 27001:2022, ISO/IEC 27017, ISO/IEC 27018, SOC 2 Type 2, ISO 9001:2015
+skill_count: 3
+skills:
+- name: Manage Picarro measurement sets
+  slug: picarro-manage-measurement-sets
+- name: Monitor Picarro analyzer health and FDC alerts
+  slug: picarro-monitor-analyzer-health
+- name: Run a Picarro FOUP measurement and collect results
+  slug: picarro-run-foup-measurement
 slug: picarro
 tags:
 - Company

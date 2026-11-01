@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.4
-  scored_at: '2026-10-17'
+  score: 51.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 4
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 263
   slug: gr4vy-agentic-access
   summary_line: 263 operations · 147 acting · 4 human-in-the-loop
-api_count: 6
+api_count: 3
 apis:
 - description: 'Hosted, unauthenticated Model Context Protocol server over the Gr4vy documentation: search, read-only docs filesystem queries and a docs-feedback tool. It does not execute payment operations.'
   name: Gr4vy Docs MCP Server
@@ -341,7 +343,7 @@ apis:
   description: Endpoints related to webhooks to integrate Gr4vy with payment services webhooks functionality.
   name: Gr4vy Webhooks API
   slug: gr4vy-webhooks-api
-artifact_total: 70
+artifact_total: 76
 asyncapis:
 - description: ''
   name: Gr4Vy Webhooks
@@ -352,27 +354,27 @@ common:
   type: BlogRSS
   url: https://gr4vy.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/capabilities/gr4vy-capability-edges.yml
+  href: https://artifacts.apis.io/gr4vy/capabilities/gr4vy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gr4vy-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/agentic-access/gr4vy-agentic-access.yml
+  href: https://artifacts.apis.io/gr4vy/agentic-access/gr4vy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gr4vy-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/llms/gr4vy-website-llms.txt
+  href: https://artifacts.apis.io/gr4vy/llms/gr4vy-website-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gr4vy-website-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/overlays/gr4vy-openapi-overlay.yaml
+  href: https://artifacts.apis.io/gr4vy/overlays/gr4vy-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gr4vy-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/security/gr4vy-domain-security.yml
+  href: https://artifacts.apis.io/gr4vy/security/gr4vy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gr4vy-domain-security.yml
@@ -397,52 +399,52 @@ common:
   type: GettingStarted
   url: https://docs.gr4vy.com/guides/get-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/authentication/gr4vy-authentication.yml
+  href: https://artifacts.apis.io/gr4vy/authentication/gr4vy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gr4vy-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/scopes/gr4vy-scopes.yml
+  href: https://artifacts.apis.io/gr4vy/scopes/gr4vy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/gr4vy-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/packages/gr4vy-packages.yml
+  href: https://artifacts.apis.io/gr4vy/packages/gr4vy-packages.yml
   title: ''
   type: Packages
   url: packages/gr4vy-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/packages/gr4vy-packages.yml
+  href: https://artifacts.apis.io/gr4vy/packages/gr4vy-packages.yml
   title: ''
   type: SDKs
   url: packages/gr4vy-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/cli/gr4vy-cli.yml
+  href: https://artifacts.apis.io/gr4vy/cli/gr4vy-cli.yml
   title: ''
   type: CLI
   url: cli/gr4vy-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/components/gr4vy-components.yml
+  href: https://artifacts.apis.io/gr4vy/components/gr4vy-components.yml
   title: ''
   type: Components
   url: components/gr4vy-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/well-known/gr4vy-well-known.yml
+  href: https://artifacts.apis.io/gr4vy/well-known/gr4vy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gr4vy-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/a2a/gr4vy-a2a.yml
+  href: https://artifacts.apis.io/gr4vy/a2a/gr4vy-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/gr4vy-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/gr4vy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/llms/gr4vy-llms.txt
+  href: https://artifacts.apis.io/gr4vy/llms/gr4vy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gr4vy-llms.txt
@@ -451,7 +453,7 @@ common:
   type: LLMsTxt
   url: https://docs.gr4vy.com/llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/conformance/gr4vy-conformance.yml
+  href: https://artifacts.apis.io/gr4vy/conformance/gr4vy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gr4vy-conformance.yml
@@ -460,12 +462,12 @@ common:
   type: Compliance
   url: https://gr4vy.com/regulation-and-compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/lifecycle/gr4vy-lifecycle.yml
+  href: https://artifacts.apis.io/gr4vy/lifecycle/gr4vy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gr4vy-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/lifecycle/gr4vy-lifecycle.yml
+  href: https://artifacts.apis.io/gr4vy/lifecycle/gr4vy-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/gr4vy-lifecycle.yml
@@ -474,7 +476,7 @@ common:
   type: StatusPage
   url: https://status.gr4vy.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/changelog/gr4vy-changelog.yml
+  href: https://artifacts.apis.io/gr4vy/changelog/gr4vy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gr4vy-changelog.yml
@@ -483,12 +485,12 @@ common:
   type: ChangeLog
   url: https://docs.gr4vy.com/updates
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/plans/gr4vy-plans-pricing.yml
+  href: https://artifacts.apis.io/gr4vy/plans/gr4vy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gr4vy-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/rate-limits/gr4vy-rate-limits.yml
+  href: https://artifacts.apis.io/gr4vy/rate-limits/gr4vy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gr4vy-rate-limits.yml
@@ -518,6 +520,14 @@ common:
   url: https://www.linkedin.com/company/gr4vy
 created: '2026-09-20'
 description: Gr4vy is a cloud-native payment orchestration platform delivered as dedicated, per-merchant infrastructure. A single REST API and a PCI DSS Level 1 vault connect merchants and platforms to hundreds of payment services, payment methods, anti-fraud providers, digital wallets and gift-card services, with no-code Flow routing rules, network tokens, 3-D Secure, payouts, payment links, reporting and webhooks. Gr4vy publishes an OpenAPI 3.1 contract, Speakeasy-generated server SDKs in six languages, mobile and web checkout components (Embed, Secure Fields), a native CLI, a Postman collection, a docs MCP server, an A2A agent card and an Agent Skill.
+finops:
+- has_sources: true
+  method: derived
+  name: Gr4Vy Finops
+  primary_unit: ''
+  service_category: ''
+  slug: gr4vy-finops
+  template: true
 image: https://avatars.githubusercontent.com/u/17150969
 layout: provider
 mcp_servers:
@@ -539,7 +549,7 @@ plans:
 - name: Gr4Vy Plans Pricing
   plan_count: 0
   slug: gr4vy-plans-pricing
-random_paper: 2
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Gr4Vy Rate Limits
@@ -551,9 +561,9 @@ scopes:
   summary_line: 86 scopes · password
 score:
   band: strong
-  composite: 62.4
+  composite: 61.9
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 31
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -563,11 +573,11 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 60.6
+    contract_quality: 57.3
     developer_ergonomics: 90.5
-    discoverability: 80.0
+    discoverability: 76.7
     operational_transparency: 73.7
-  previous_composite: 62.4
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -588,13 +598,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/screenshots/gr4vy-2026-10-11T105003.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gr4vy/gr4vy-2026-10-11T105003.png
 security:
 - kind: authentication
   name: Gr4Vy Authentication
@@ -604,6 +615,18 @@ security:
   name: Gr4Vy Domain Security
   slug: gr4vy-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 5
+skills:
+- name: gr4vy
+  slug: gr4vy-gr4vy
+- name: gr4vy-reverse-a-payment
+  slug: gr4vy-reverse-a-payment
+- name: gr4vy-subscribe-to-webhooks
+  slug: gr4vy-subscribe-to-webhooks
+- name: gr4vy-take-a-payment
+  slug: gr4vy-take-a-payment
+- name: gr4vy-vault-a-buyer-payment-method
+  slug: gr4vy-vault-a-buyer-payment-method
 slug: gr4vy
 tags:
 - Payments

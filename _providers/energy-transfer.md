@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,11 +62,8 @@ apis:
   description: Access gas scheduling and capacity data.
   name: Energy Transfer Schedules API
   slug: energy-transfer-schedules-api
-artifact_total: 14
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Energy Transfer Messenger+ API
   slug: open-energy-transfer-messenger-api
@@ -78,18 +77,23 @@ collections:
   name: Energy Transfer Messenger+ Nominations Schedules API
   slug: open-energy-transfer-schedules-api
 common:
+- group: other
+  href: https://artifacts.apis.io/energy-transfer/capabilities/energy-transfer-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/energy-transfer-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/plans/energy-transfer-plans-pricing.yml
+  href: https://artifacts.apis.io/energy-transfer/plans/energy-transfer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/energy-transfer-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/rate-limits/energy-transfer-rate-limits.yml
+  href: https://artifacts.apis.io/energy-transfer/rate-limits/energy-transfer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/energy-transfer-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/finops/energy-transfer-finops.yml
+  href: https://artifacts.apis.io/energy-transfer/finops/energy-transfer-finops.yml
   title: ''
   type: FinOps
   url: finops/energy-transfer-finops.yml
@@ -102,17 +106,17 @@ common:
   type: Website
   url: https://energytransfer.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/agentic-access/energy-transfer-agentic-access.yml
+  href: https://artifacts.apis.io/energy-transfer/agentic-access/energy-transfer-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/energy-transfer-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/security/energy-transfer-domain-security.yml
+  href: https://artifacts.apis.io/energy-transfer/security/energy-transfer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/energy-transfer-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/authentication/energy-transfer-authentication.yml
+  href: https://artifacts.apis.io/energy-transfer/authentication/energy-transfer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/energy-transfer-authentication.yml
@@ -139,27 +143,27 @@ network: true
 overview: 'Energy Transfer publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Nominations API, Pipelines API, and Schedules API. Tagged areas include Energy, Pipelines, Midstream, Gas Scheduling, and Fortune 100.
 
 
-  Energy Transfer''s developer surface includes engineering blog, authentication, and 7 more developer resources.'
+  Energy Transfer''s developer surface includes engineering blog, authentication, and 8 more developer resources.'
 plans:
 - name: Energy Transfer Plans Pricing
   plan_count: 1
   slug: energy-transfer-plans-pricing
-random_paper: 2
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Energy Transfer Rate Limits
   slug: energy-transfer-rate-limits
 score:
   band: emerging
-  composite: 23.1
+  composite: 23.8
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -167,7 +171,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 24.2
+  previous_composite: 23.8
   provenance:
     agentic_access: derived
     contracts:
@@ -181,13 +185,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/screenshots/energy-transfer-2026-06-20T180705.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/energy-transfer/energy-transfer-2026-06-20T180705.png
 security:
 - kind: authentication
   name: Energy Transfer Authentication

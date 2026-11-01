@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.3
-  scored_at: '2026-10-17'
+  score: 29.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 17
@@ -175,11 +177,8 @@ apis:
   description: The Workers API from NGINX — 2 operation(s) for workers.
   name: NGINX Workers API
   slug: nginx-workers-api
-artifact_total: 261
+artifact_total: 260
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NGINX njs Scripting Connections API
   slug: open-nginx-connections-api
@@ -265,18 +264,22 @@ collections:
   name: NGINX njs Scripting Connections Workers API
   slug: open-nginx-workers-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/nginx/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/plans/nginx-plans-pricing.yml
+  href: https://artifacts.apis.io/nginx/plans/nginx-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nginx-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/rate-limits/nginx-rate-limits.yml
+  href: https://artifacts.apis.io/nginx/rate-limits/nginx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nginx-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/finops/nginx-finops.yml
+  href: https://artifacts.apis.io/nginx/finops/nginx-finops.yml
   title: ''
   type: FinOps
   url: finops/nginx-finops.yml
@@ -305,12 +308,12 @@ common:
   type: License
   url: https://github.com/nginx/nginx/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/agentic-access/nginx-agentic-access.yml
+  href: https://artifacts.apis.io/nginx/agentic-access/nginx-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nginx-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/security/nginx-domain-security.yml
+  href: https://artifacts.apis.io/nginx/security/nginx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nginx-domain-security.yml
@@ -391,12 +394,12 @@ common:
   type: CodeExamples
   url: https://github.com/nginx/njs-examples
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/rules/nginx-spectral-rules.yml
+  href: https://artifacts.apis.io/nginx/rules/nginx-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/nginx-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/vocabulary/nginx-vocabulary.yaml
+  href: https://artifacts.apis.io/nginx/vocabulary/nginx-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/nginx-vocabulary.yaml
@@ -602,7 +605,7 @@ finops:
 - has_sources: true
   method: generated
   name: Nginx Finops
-  primary_unit: ''
+  primary_unit: instance-year
   service_category: API Gateway + Load Balancer
   slug: nginx-finops
   template: false
@@ -994,7 +997,7 @@ overview: 'NGINX publishes 28 API contracts indexed on the [APIs.io](https://api
   The NGINX catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  NGINX''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, YouTube channel, Stack Overflow tag, and 27 more developer resources.'
+  NGINX''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, YouTube channel, Stack Overflow tag, and 28 more developer resources.'
 plans:
 - name: Nginx Plans Pricing
   plan_count: 6
@@ -1030,26 +1033,23 @@ rules:
   slug: nginx-spectral-rules
 score:
   band: developing
-  composite: 44.0
+  composite: 40.8
   coverage:
     artifact_dirs: 18
-    catalog_earned: 55.0
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 1.8
   facets:
-    access_clarity: 7.9
+    access_clarity: 15.8
     contract_governance: 27.3
     contract_quality: 45.6
-    developer_ergonomics: 59.5
+    developer_ergonomics: 60.7
     discoverability: 63.3
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 45.3
+    operational_transparency: 39.5
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1063,13 +1063,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/screenshots/nginx-2026-06-20T190304.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nginx/nginx-2026-06-20T190304.png
 security:
 - kind: domain-security
   name: Nginx Domain Security

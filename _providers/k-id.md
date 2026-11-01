@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: HTTP RPC-style API for age gates, age verification, verifiable parental consent, k-ID sessions, and permission management. Methods take the form https://game-api.k-id.com/api/v1/{method} with bearer A
   name: k-ID API
   slug: k-id-api
-artifact_total: 5
+artifact_total: 13
 asyncapis:
 - description: ''
   name: K Id Webhooks
@@ -100,7 +102,7 @@ common:
   type: StatusPage
   url: https://status.k-id.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/lifecycle/k-id-lifecycle.yml
+  href: https://artifacts.apis.io/k-id/lifecycle/k-id-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/k-id-lifecycle.yml
@@ -109,72 +111,72 @@ common:
   type: TrustCenter
   url: https://security.k-id.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/authentication/k-id-authentication.yml
+  href: https://artifacts.apis.io/k-id/authentication/k-id-authentication.yml
   title: ''
   type: Authentication
   url: authentication/k-id-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/llms/k-id-llms.txt
+  href: https://artifacts.apis.io/k-id/llms/k-id-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/k-id-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/changelog/k-id-changelog.yml
+  href: https://artifacts.apis.io/k-id/changelog/k-id-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/k-id-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/lifecycle/k-id-lifecycle.yml
+  href: https://artifacts.apis.io/k-id/lifecycle/k-id-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/k-id-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/errors/k-id-problem-types.yml
+  href: https://artifacts.apis.io/k-id/errors/k-id-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/k-id-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/conventions/k-id-conventions.yml
+  href: https://artifacts.apis.io/k-id/conventions/k-id-conventions.yml
   title: ''
   type: Conventions
   url: conventions/k-id-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/conformance/k-id-conformance.yml
+  href: https://artifacts.apis.io/k-id/conformance/k-id-conformance.yml
   title: ''
   type: Conformance
   url: conformance/k-id-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/data-model/k-id-data-model.yml
+  href: https://artifacts.apis.io/k-id/data-model/k-id-data-model.yml
   title: ''
   type: DataModel
   url: data-model/k-id-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/sandbox/k-id-sandbox.yml
+  href: https://artifacts.apis.io/k-id/sandbox/k-id-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/k-id-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/components/k-id-components.yml
+  href: https://artifacts.apis.io/k-id/components/k-id-components.yml
   title: ''
   type: Components
   url: components/k-id-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/asyncapi/k-id-webhooks.yml
+  href: https://artifacts.apis.io/k-id/asyncapi/k-id-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/k-id-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/mcp/k-id-mcp.yml
+  href: https://artifacts.apis.io/k-id/mcp/k-id-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/k-id-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/k-id/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/security/k-id-domain-security.yml
+  href: https://artifacts.apis.io/k-id/security/k-id-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/k-id-domain-security.yml
@@ -193,12 +195,12 @@ overview: 'k-ID is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   k-ID''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, changelog, and 22 more developer resources.'
-random_paper: 5
+random_paper: 21
 score:
   band: developing
-  composite: 43.9
+  composite: 48.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -206,13 +208,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 59.5
-    discoverability: 73.2
-    operational_transparency: 50.0
-  previous_composite: 43.9
+    developer_ergonomics: 71.4
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 48.6
   provenance:
     conformance: derived
     mcp: derived
@@ -223,14 +225,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/screenshots/k-id-2026-08-17T123933.png
+screenshot: https://apis.io/screenshots/k-id/k-id-2026-08-17T123933.png
 security:
 - kind: authentication
   name: K Id Authentication
@@ -244,6 +246,24 @@ security:
   name: K Id Trust Center
   slug: k-id-trust-center
   summary_line: trust center published
+skill_count: 8
+skills:
+- name: k-id-age-gate
+  slug: k-id-age-gate
+- name: k-id-age-verification
+  slug: k-id-age-verification
+- name: k-id-consent-and-challenges
+  slug: k-id-consent-and-challenges
+- name: k-id-integration
+  slug: k-id-integration
+- name: k-id-mobile-native
+  slug: k-id-mobile-native
+- name: k-id-server-trust-boundary
+  slug: k-id-server-trust-boundary
+- name: k-id-sessions-and-permissions
+  slug: k-id-sessions-and-permissions
+- name: k-id-webhooks
+  slug: k-id-webhooks
 slug: k-id
 tags:
 - Company

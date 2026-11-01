@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Regional bill-payment and payments infrastructure API — biller directory, service/bill payments, phone recharges, subscriptions, scheduled-payment agendas and digital gift cards, with a token-based Lo
@@ -78,32 +80,32 @@ common:
   type: Security
   url: https://tapi.la/politica-de-seguridad-de-la-informacion/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tapi/refs/heads/main/authentication/tapi-authentication.yml
+  href: https://artifacts.apis.io/tapi/authentication/tapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tapi-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tapi/refs/heads/main/conventions/tapi-conventions.yml
+  href: https://artifacts.apis.io/tapi/conventions/tapi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tapi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tapi/refs/heads/main/asyncapi/tapi-webhooks.yml
+  href: https://artifacts.apis.io/tapi/asyncapi/tapi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tapi-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tapi/refs/heads/main/mcp/tapi-mcp.yml
+  href: https://artifacts.apis.io/tapi/mcp/tapi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tapi-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tapi/refs/heads/main/llms/tapi-llms.txt
+  href: https://artifacts.apis.io/tapi/llms/tapi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tapi-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tapi/refs/heads/main/security/tapi-domain-security.yml
+  href: https://artifacts.apis.io/tapi/security/tapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tapi-domain-security.yml
@@ -134,31 +136,31 @@ overview: 'Tapi is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Tapi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, YouTube channel, and 11 more developer resources.'
-random_paper: 12
+random_paper: 22
 score:
-  band: emerging
-  composite: 24.2
+  band: thin
+  composite: 29.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 21.4
-    discoverability: 64.3
+    developer_ergonomics: 52.4
+    discoverability: 57.1
     operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 24.1
+  previous_composite: 29.7
   provenance:
     mcp: derived
   regulatory:
@@ -167,14 +169,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 14.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tapi/refs/heads/main/screenshots/tapi-2026-09-02T162529.png
+screenshot: https://apis.io/screenshots/tapi/tapi-2026-09-02T162529.png
 security:
 - kind: authentication
   name: Tapi Authentication

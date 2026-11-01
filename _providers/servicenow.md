@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.9
-  scored_at: '2026-10-17'
+  score: 46.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -339,7 +341,7 @@ arazzos:
 - description: Find a CSM contact by email and update it if it exists, otherwise create it.
   name: ServiceNow Upsert Contact
   slug: servicenow-upsert-contact-workflow
-artifact_total: 328
+artifact_total: 327
 asyncapis:
 - description: ServiceNow supports outbound event-driven integrations through business rules, event management, and outbound REST messages. When records are created, updated, or deleted in ServiceNow tables, busines
   name: ServiceNow Events and Notifications
@@ -372,9 +374,6 @@ collections:
 - collection_type: postman
   name: ServiceNow Trouble Ticket Open API
   slug: postman-trouble-ticket
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ServiceNow Aggregate API
   slug: open-servicenow-aggregate-api
@@ -443,42 +442,42 @@ collections:
   slug: open-servicenow-trouble-ticket-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/finops/servicenow-finops.yml
+  href: https://artifacts.apis.io/servicenow/finops/servicenow-finops.yml
   title: ''
   type: FinOps
   url: finops/servicenow-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/rate-limits/servicenow-rate-limits.yml
+  href: https://artifacts.apis.io/servicenow/rate-limits/servicenow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/servicenow-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/plans/servicenow-plans-pricing.yml
+  href: https://artifacts.apis.io/servicenow/plans/servicenow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/servicenow-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/rules/servicenow-spectral-rules.yml
+  href: https://artifacts.apis.io/servicenow/rules/servicenow-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/servicenow-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/rules/servicenow-rules.yml
+  href: https://artifacts.apis.io/servicenow/rules/servicenow-rules.yml
   title: ''
   type: Spectral
   url: rules/servicenow-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/rules/servicenow-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/servicenow/rules/servicenow-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/servicenow-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/rules/servicenow-asyncapi-spectral-rules.yml
+  href: https://artifacts.apis.io/servicenow/rules/servicenow-asyncapi-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/servicenow-asyncapi-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/vocabulary/servicenow-vocabulary.yml
+  href: https://artifacts.apis.io/servicenow/vocabulary/servicenow-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/servicenow-vocabulary.yml
@@ -487,147 +486,147 @@ common:
   type: Compliance
   url: https://www.servicenow.com/company/trust.html
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/lifecycle/servicenow-lifecycle.yml
+  href: https://artifacts.apis.io/servicenow/lifecycle/servicenow-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/servicenow-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/hosts/servicenow-hosts.yml
+  href: https://artifacts.apis.io/servicenow/hosts/servicenow-hosts.yml
   title: ''
   type: Hosts
   url: hosts/servicenow-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/vendors/servicenow-vendors.yml
+  href: https://artifacts.apis.io/servicenow/vendors/servicenow-vendors.yml
   title: ''
   type: Vendors
   url: vendors/servicenow-vendors.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/capabilities/servicenow-capability-edges.yml
+  href: https://artifacts.apis.io/servicenow/capabilities/servicenow-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/servicenow-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/agentic-access/servicenow-agentic-access.yml
+  href: https://artifacts.apis.io/servicenow/agentic-access/servicenow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/servicenow-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/security/servicenow-domain-security.yml
+  href: https://artifacts.apis.io/servicenow/security/servicenow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/servicenow-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/authentication/servicenow-authentication.yml
+  href: https://artifacts.apis.io/servicenow/authentication/servicenow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/servicenow-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/scopes/servicenow-scopes.yml
+  href: https://artifacts.apis.io/servicenow/scopes/servicenow-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/servicenow-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/packages/servicenow-packages.yml
+  href: https://artifacts.apis.io/servicenow/packages/servicenow-packages.yml
   title: ''
   type: Packages
   url: packages/servicenow-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/cli/servicenow-cli.yml
+  href: https://artifacts.apis.io/servicenow/cli/servicenow-cli.yml
   title: ''
   type: CLI
   url: cli/servicenow-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/mcp/servicenow-mcp.yml
+  href: https://artifacts.apis.io/servicenow/mcp/servicenow-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/servicenow-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/llms/servicenow-llms.txt
+  href: https://artifacts.apis.io/servicenow/llms/servicenow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/servicenow-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/conformance/servicenow-conformance.yml
+  href: https://artifacts.apis.io/servicenow/conformance/servicenow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/servicenow-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/errors/servicenow-problem-types.yml
+  href: https://artifacts.apis.io/servicenow/errors/servicenow-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/servicenow-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/lifecycle/servicenow-lifecycle.yml
+  href: https://artifacts.apis.io/servicenow/lifecycle/servicenow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/servicenow-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/conventions/servicenow-conventions.yml
+  href: https://artifacts.apis.io/servicenow/conventions/servicenow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/servicenow-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/changelog/servicenow-changelog.yml
+  href: https://artifacts.apis.io/servicenow/changelog/servicenow-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/servicenow-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/data-model/servicenow-data-model.yml
+  href: https://artifacts.apis.io/servicenow/data-model/servicenow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/servicenow-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/sandbox/servicenow-sandbox.yml
+  href: https://artifacts.apis.io/servicenow/sandbox/servicenow-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/servicenow-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/security/servicenow-trust-center.yml
+  href: https://artifacts.apis.io/servicenow/security/servicenow-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/servicenow-trust-center.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/overlays/servicenow-table-api-overlay.yaml
+  href: https://artifacts.apis.io/servicenow/overlays/servicenow-table-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/servicenow-table-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/overlays/servicenow-aggregate-api-overlay.yaml
+  href: https://artifacts.apis.io/servicenow/overlays/servicenow-aggregate-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/servicenow-aggregate-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/overlays/servicenow-attachment-api-overlay.yaml
+  href: https://artifacts.apis.io/servicenow/overlays/servicenow-attachment-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/servicenow-attachment-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/overlays/servicenow-change-management-api-overlay.yaml
+  href: https://artifacts.apis.io/servicenow/overlays/servicenow-change-management-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/servicenow-change-management-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/overlays/servicenow-cmdb-instance-api-overlay.yaml
+  href: https://artifacts.apis.io/servicenow/overlays/servicenow-cmdb-instance-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/servicenow-cmdb-instance-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/overlays/servicenow-import-set-api-overlay.yaml
+  href: https://artifacts.apis.io/servicenow/overlays/servicenow-import-set-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/servicenow-import-set-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/overlays/servicenow-service-catalog-api-overlay.yaml
+  href: https://artifacts.apis.io/servicenow/overlays/servicenow-service-catalog-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/servicenow-service-catalog-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/overlays/servicenow-contact-api-overlay.yaml
+  href: https://artifacts.apis.io/servicenow/overlays/servicenow-contact-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/servicenow-contact-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/overlays/servicenow-trouble-ticket-overlay.yaml
+  href: https://artifacts.apis.io/servicenow/overlays/servicenow-trouble-ticket-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/servicenow-trouble-ticket-overlay.yaml
@@ -636,152 +635,152 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/servicenow/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-add-incident-worknote-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-add-incident-worknote-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-add-incident-worknote-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-assign-open-tasks-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-assign-open-tasks-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-assign-open-tasks-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-bulk-import-records-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-bulk-import-records-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-bulk-import-records-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-cart-checkout-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-cart-checkout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-cart-checkout-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-change-add-task-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-change-add-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-change-add-task-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-close-problem-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-close-problem-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-close-problem-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-create-change-request-then-approve-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-create-change-request-then-approve-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-create-change-request-then-approve-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-create-emergency-change-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-create-emergency-change-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-create-emergency-change-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-create-incident-then-update-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-create-incident-then-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-create-incident-then-update-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-create-problem-from-incident-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-create-problem-from-incident-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-create-problem-from-incident-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-create-trouble-ticket-then-update-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-create-trouble-ticket-then-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-create-trouble-ticket-then-update-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-escalate-trouble-ticket-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-escalate-trouble-ticket-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-escalate-trouble-ticket-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-import-set-load-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-import-set-load-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-import-set-load-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-incident-backlog-report-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-incident-backlog-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-incident-backlog-report-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-incident-with-attachment-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-incident-with-attachment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-incident-with-attachment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-link-ci-to-incident-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-link-ci-to-incident-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-link-ci-to-incident-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-onboard-contact-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-onboard-contact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-onboard-contact-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-order-catalog-item-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-order-catalog-item-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-order-catalog-item-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-publish-knowledge-article-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-publish-knowledge-article-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-publish-knowledge-article-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-resolve-incident-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-resolve-incident-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-resolve-incident-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-standard-change-from-template-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-standard-change-from-template-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-standard-change-from-template-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-table-record-crud-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-table-record-crud-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-table-record-crud-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-update-ci-attributes-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-update-ci-attributes-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-update-ci-attributes-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/arazzo/servicenow-upsert-contact-workflow.yml
+  href: https://artifacts.apis.io/servicenow/arazzo/servicenow-upsert-contact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/servicenow-upsert-contact-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-ld/servicenow-context.jsonld
+  href: https://artifacts.apis.io/servicenow/json-ld/servicenow-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/servicenow-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-schema/servicenow-incident-schema.json
+  href: https://artifacts.apis.io/servicenow/json-schema/servicenow-incident-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/servicenow-incident-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-schema/servicenow-change-request-schema.json
+  href: https://artifacts.apis.io/servicenow/json-schema/servicenow-change-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/servicenow-change-request-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-schema/servicenow-configuration-item-schema.json
+  href: https://artifacts.apis.io/servicenow/json-schema/servicenow-configuration-item-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/servicenow-configuration-item-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-schema/servicenow-catalog-request-schema.json
+  href: https://artifacts.apis.io/servicenow/json-schema/servicenow-catalog-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/servicenow-catalog-request-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-schema/servicenow-user-schema.json
+  href: https://artifacts.apis.io/servicenow/json-schema/servicenow-user-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/servicenow-user-schema.json
@@ -938,57 +937,57 @@ common:
   type: APIReference
   url: https://developer.servicenow.com/dev.do#!/reference/api/yokohama/rest/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-ld/contact-context.jsonld
+  href: https://artifacts.apis.io/servicenow/json-ld/contact-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/contact-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-ld/servicenow-aggregate-context.jsonld
+  href: https://artifacts.apis.io/servicenow/json-ld/servicenow-aggregate-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/servicenow-aggregate-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-ld/servicenow-attachment-context.jsonld
+  href: https://artifacts.apis.io/servicenow/json-ld/servicenow-attachment-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/servicenow-attachment-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-ld/servicenow-change-management-context.jsonld
+  href: https://artifacts.apis.io/servicenow/json-ld/servicenow-change-management-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/servicenow-change-management-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-ld/servicenow-cmdb-instance-context.jsonld
+  href: https://artifacts.apis.io/servicenow/json-ld/servicenow-cmdb-instance-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/servicenow-cmdb-instance-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-ld/servicenow-import-set-context.jsonld
+  href: https://artifacts.apis.io/servicenow/json-ld/servicenow-import-set-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/servicenow-import-set-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-ld/servicenow-service-catalog-context.jsonld
+  href: https://artifacts.apis.io/servicenow/json-ld/servicenow-service-catalog-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/servicenow-service-catalog-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-ld/servicenow-table-context.jsonld
+  href: https://artifacts.apis.io/servicenow/json-ld/servicenow-table-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/servicenow-table-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-ld/trouble-ticket-context.jsonld
+  href: https://artifacts.apis.io/servicenow/json-ld/trouble-ticket-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/trouble-ticket-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/rules/servicenow-spectral-rules.yml
+  href: https://artifacts.apis.io/servicenow/rules/servicenow-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/servicenow-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/vocabulary/servicenow-vocabulary.yaml
+  href: https://artifacts.apis.io/servicenow/vocabulary/servicenow-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/servicenow-vocabulary.yaml
@@ -1591,7 +1590,7 @@ plans:
 - name: Servicenow Plans Pricing
   plan_count: 1
   slug: servicenow-plans-pricing
-random_paper: 15
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Servicenow Rate Limits
@@ -1651,7 +1650,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 66.0
+  composite: 65.9
   coverage:
     artifact_dirs: 41
     catalog_earned: 59.0
@@ -1659,15 +1658,20 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 31.8
     contract_quality: 61.5
     developer_ergonomics: 86.2
-    discoverability: 69.6
+    discoverability: 61.7
     operational_transparency: 50.0
-  previous_composite: 67.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 65.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1683,13 +1687,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/screenshots/servicenow-2026-06-20T193735.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/servicenow/servicenow-2026-06-20T193735.png
 security:
 - kind: authentication
   name: Servicenow Authentication

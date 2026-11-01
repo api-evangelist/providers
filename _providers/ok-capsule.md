@@ -30,16 +30,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.0
-  scored_at: '2026-10-17'
+  score: 46.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A production remote MCP server that exposes the OK Capsule platform — catalog, product intelligence, pack builder, recommendation validation, consumers, orders and fulfillments — as OAuth 2.1 scoped t
@@ -255,15 +257,15 @@ apis:
   description: Routes to manage client users
   name: OK Capsule Users API
   slug: ok-capsule-users-api
-artifact_total: 49
+artifact_total: 53
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/capabilities/ok-capsule-capability-edges.yml
+  href: https://artifacts.apis.io/ok-capsule/capabilities/ok-capsule-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ok-capsule-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/overlays/ok-capsule-core-api-v2-overlay.yaml
+  href: https://artifacts.apis.io/ok-capsule/overlays/ok-capsule-core-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ok-capsule-core-api-v2-overlay.yaml
@@ -324,97 +326,105 @@ common:
   type: MCPServer
   url: https://storefront.okcapsule.app/mcp
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/packages/ok-capsule-packages.yml
+  href: https://artifacts.apis.io/ok-capsule/packages/ok-capsule-packages.yml
   title: ''
   type: Packages
   url: packages/ok-capsule-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/well-known/ok-capsule-well-known.yml
+  href: https://artifacts.apis.io/ok-capsule/well-known/ok-capsule-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ok-capsule-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/llms/ok-capsule-llms.txt
+  href: https://artifacts.apis.io/ok-capsule/llms/ok-capsule-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ok-capsule-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/conformance/ok-capsule-conformance.yml
+  href: https://artifacts.apis.io/ok-capsule/conformance/ok-capsule-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ok-capsule-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/conformance/ok-capsule-conformance.yml
+  href: https://artifacts.apis.io/ok-capsule/conformance/ok-capsule-conformance.yml
   title: ''
   type: Compliance
   url: conformance/ok-capsule-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/errors/ok-capsule-problem-types.yml
+  href: https://artifacts.apis.io/ok-capsule/errors/ok-capsule-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ok-capsule-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/lifecycle/ok-capsule-lifecycle.yml
+  href: https://artifacts.apis.io/ok-capsule/lifecycle/ok-capsule-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ok-capsule-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/lifecycle/ok-capsule-lifecycle.yml
+  href: https://artifacts.apis.io/ok-capsule/lifecycle/ok-capsule-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/ok-capsule-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/scopes/ok-capsule-scopes.yml
+  href: https://artifacts.apis.io/ok-capsule/scopes/ok-capsule-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ok-capsule-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/authentication/ok-capsule-authentication.yml
+  href: https://artifacts.apis.io/ok-capsule/authentication/ok-capsule-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ok-capsule-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/security/ok-capsule-domain-security.yml
+  href: https://artifacts.apis.io/ok-capsule/security/ok-capsule-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ok-capsule-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/conventions/ok-capsule-conventions.yml
+  href: https://artifacts.apis.io/ok-capsule/conventions/ok-capsule-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ok-capsule-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/sandbox/ok-capsule-sandbox.yml
+  href: https://artifacts.apis.io/ok-capsule/sandbox/ok-capsule-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ok-capsule-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/data-model/ok-capsule-data-model.yml
+  href: https://artifacts.apis.io/ok-capsule/data-model/ok-capsule-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ok-capsule-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/components/ok-capsule-components.yml
+  href: https://artifacts.apis.io/ok-capsule/components/ok-capsule-components.yml
   title: ''
   type: Components
   url: components/ok-capsule-components.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/plans/ok-capsule-plans-pricing.yml
+  href: https://artifacts.apis.io/ok-capsule/plans/ok-capsule-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ok-capsule-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/rate-limits/ok-capsule-rate-limits.yml
+  href: https://artifacts.apis.io/ok-capsule/rate-limits/ok-capsule-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ok-capsule-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ok-capsule/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-26'
 description: 'OK Capsule is an on-demand, private-label supplement manufacturing and fulfillment platform. Health brands, telehealth providers, clinics and retailers use it to launch personalized daily vitamin packs without minimum order quantities, inventory or upfront deposits. The platform exposes its whole supply chain programmatically: a REST Core API V2 (199 operations across clients, consumers, orders, order lines, fulfillments, assemblies, batches, billings, product lines, pack builders and UPC codes) and a production remote MCP server that publishes the same catalog, pack-building, order and fulfillment surface as OAuth 2.1 scoped tools for Claude, ChatGPT, Gemini and other MCP hosts. Supplements are manufactured in cGMP-certified, FDA-registered facilities and lot-tested by ISO 17025 accredited third-party labs.'
+finops:
+- has_sources: true
+  method: derived
+  name: Ok Capsule Finops
+  primary_unit: 30 day pack
+  service_category: ''
+  slug: ok-capsule-finops
+  template: false
 image: https://okcapsule.com/og-preview.png
 layout: provider
 mcp_servers:
@@ -433,7 +443,7 @@ plans:
 - name: Ok Capsule Plans Pricing
   plan_count: 3
   slug: ok-capsule-plans-pricing
-random_paper: 0
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Ok Capsule Rate Limits
@@ -445,23 +455,23 @@ scopes:
   summary_line: 16 scopes · authorization_code/refresh_token
 score:
   band: strong
-  composite: 56.5
+  composite: 58.7
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 49.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 53.0
-    developer_ergonomics: 58.9
-    discoverability: 75.0
-    operational_transparency: 10.5
-  previous_composite: 56.4
+    contract_quality: 49.6
+    developer_ergonomics: 66.1
+    discoverability: 65.0
+    operational_transparency: 13.2
+  previous_composite: 57.1
   provenance:
     conformance: first-party
     contracts:
@@ -477,13 +487,14 @@ score:
     regime: Health
     regime_id: health
     score: 40.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/screenshots/ok-capsule-2026-09-02T150831.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ok-capsule/ok-capsule-2026-09-02T150831.png
 security:
 - kind: authentication
   name: Ok Capsule Authentication
@@ -493,6 +504,14 @@ security:
   name: Ok Capsule Domain Security
   slug: ok-capsule-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: ok-capsule-create-personalized-supplement-order
+  slug: ok-capsule-create-personalized-supplement-order
+- name: ok-capsule-operate-catalog-via-mcp
+  slug: ok-capsule-operate-catalog-via-mcp
+- name: ok-capsule-track-order-to-delivery
+  slug: ok-capsule-track-order-to-delivery
 slug: ok-capsule
 tags:
 - Supplements

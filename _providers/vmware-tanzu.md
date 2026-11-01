@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Create and manage TanzuKubernetesCluster resources
   name: VMware Tanzu Kubernetes Clusters API
   slug: vmware-tanzu-tanzu-kubernetes-clusters-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: VMware Tanzu Service Mesh Authentication API
   slug: open-vmware-tanzu-authentication-api
@@ -95,22 +94,22 @@ collections:
   slug: open-vmware-tanzu-tanzu-kubernetes-clusters-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/plans/vmware-tanzu-plans-pricing.yml
+  href: https://artifacts.apis.io/vmware-tanzu/plans/vmware-tanzu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vmware-tanzu-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/rate-limits/vmware-tanzu-rate-limits.yml
+  href: https://artifacts.apis.io/vmware-tanzu/rate-limits/vmware-tanzu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vmware-tanzu-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/finops/vmware-tanzu-finops.yml
+  href: https://artifacts.apis.io/vmware-tanzu/finops/vmware-tanzu-finops.yml
   title: ''
   type: FinOps
   url: finops/vmware-tanzu-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/capabilities/vmware-tanzu-capability-edges.yml
+  href: https://artifacts.apis.io/vmware-tanzu/capabilities/vmware-tanzu-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vmware-tanzu-capability-edges.yml
@@ -119,17 +118,17 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/vmware/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/agentic-access/vmware-tanzu-agentic-access.yml
+  href: https://artifacts.apis.io/vmware-tanzu/agentic-access/vmware-tanzu-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vmware-tanzu-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/security/vmware-tanzu-domain-security.yml
+  href: https://artifacts.apis.io/vmware-tanzu/security/vmware-tanzu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vmware-tanzu-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/authentication/vmware-tanzu-authentication.yml
+  href: https://artifacts.apis.io/vmware-tanzu/authentication/vmware-tanzu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vmware-tanzu-authentication.yml
@@ -183,7 +182,7 @@ common:
   url: https://github.com/vmware-tanzu/cartographer
 crds:
 - name: tanzukubernetescluster crd
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/crd/tanzukubernetescluster-crd.yaml
+  url: https://artifacts.apis.io/vmware-tanzu/crd/tanzukubernetescluster-crd.yaml
 created: '2026-03-26'
 description: VMware Tanzu (now part of Broadcom) is a portfolio of products for modernizing applications and infrastructure with a common approach to building, running, and managing Kubernetes across multi-cloud environments. Key APIs include the Tanzu Service Mesh REST API for cluster and global namespace management, Kubernetes CRD-based APIs for VM Operator, Projects Operator, and NSX Operator, and the Tanzu CLI plugin runtime.
 examples:
@@ -197,7 +196,7 @@ finops:
 - has_sources: false
   method: generated
   name: Vmware Tanzu Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: vmware-tanzu-finops
   template: true
@@ -234,7 +233,7 @@ plans:
 - name: Vmware Tanzu Plans Pricing
   plan_count: 3
   slug: vmware-tanzu-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Vmware Tanzu Rate Limits
@@ -265,7 +264,7 @@ rules:
   slug: vmware-tanzu-rules
 score:
   band: thin
-  composite: 33.5
+  composite: 35.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 53.5
@@ -273,15 +272,15 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 31.6
     contract_governance: 13.6
-    contract_quality: 59.3
+    contract_quality: 55.9
     developer_ergonomics: 31.0
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 35.0
+    operational_transparency: 13.2
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -295,13 +294,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/screenshots/vmware-tanzu-2026-06-20T201119.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vmware-tanzu/vmware-tanzu-2026-06-20T201119.png
 security:
 - kind: authentication
   name: Vmware Tanzu Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.6
-  scored_at: '2026-10-17'
+  score: 26.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -129,11 +131,8 @@ apis:
   description: The oauth API from Procurify — 1 operation(s) for oauth.
   name: Procurify OAUTH API
   slug: procurify-oauth-api
-artifact_total: 385
+artifact_total: 384
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Procurify API Documentation account-codes API
   slug: open-procurify-account-codes-api
@@ -187,27 +186,27 @@ collections:
   slug: open-procurify-vendors-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/capabilities/procurify-capability-edges.yml
+  href: https://artifacts.apis.io/procurify/capabilities/procurify-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/procurify-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/agentic-access/procurify-agentic-access.yml
+  href: https://artifacts.apis.io/procurify/agentic-access/procurify-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/procurify-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/security/procurify-domain-security.yml
+  href: https://artifacts.apis.io/procurify/security/procurify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/procurify-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/authentication/procurify-authentication.yml
+  href: https://artifacts.apis.io/procurify/authentication/procurify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/procurify-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/scopes/procurify-scopes.yml
+  href: https://artifacts.apis.io/procurify/scopes/procurify-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/procurify-scopes.yml
@@ -244,17 +243,17 @@ common:
   type: X
   url: https://x.com/procurify
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/plans/procurify-plans-pricing.yml
+  href: https://artifacts.apis.io/procurify/plans/procurify-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/procurify-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/rate-limits/procurify-rate-limits.yml
+  href: https://artifacts.apis.io/procurify/rate-limits/procurify-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/procurify-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/finops/procurify-finops.yml
+  href: https://artifacts.apis.io/procurify/finops/procurify-finops.yml
   title: ''
   type: FinOps
   url: finops/procurify-finops.yml
@@ -263,12 +262,12 @@ common:
   type: KnowledgeBase
   url: https://success.procurify.com/en/articles/9002277-does-procurify-offer-api
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/vocabulary/procurify-vocabulary.yml
+  href: https://artifacts.apis.io/procurify/vocabulary/procurify-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/procurify-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/json-ld/procurify-context.jsonld
+  href: https://artifacts.apis.io/procurify/json-ld/procurify-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/procurify-context.jsonld
@@ -1329,7 +1328,7 @@ plans:
 - name: Procurify Plans Pricing
   plan_count: 2
   slug: procurify-plans-pricing
-random_paper: 5
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Procurify Rate Limits
@@ -1353,7 +1352,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.7
+  composite: 36.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 63.2
@@ -1361,15 +1360,15 @@ score:
     catalog_gap: 51.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 23.5
-    contract_quality: 55.4
+    contract_quality: 54.5
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 45.7
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1383,13 +1382,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/screenshots/procurify-2026-06-20T192129.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/procurify/procurify-2026-06-20T192129.png
 security:
 - kind: authentication
   name: Procurify Authentication

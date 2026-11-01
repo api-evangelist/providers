@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -55,32 +57,32 @@ common:
   type: HelpCenter
   url: https://help.eargo.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eargo/refs/heads/main/llms/eargo-llms.txt
+  href: https://artifacts.apis.io/eargo/llms/eargo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eargo-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eargo/refs/heads/main/security/eargo-domain-security.yml
+  href: https://artifacts.apis.io/eargo/security/eargo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eargo-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eargo/refs/heads/main/lifecycle/eargo-lifecycle.yml
+  href: https://artifacts.apis.io/eargo/lifecycle/eargo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eargo-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eargo/refs/heads/main/packages/eargo-packages.yml
+  href: https://artifacts.apis.io/eargo/packages/eargo-packages.yml
   title: ''
   type: Packages
   url: packages/eargo-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eargo/refs/heads/main/plans/eargo-plans-pricing.yml
+  href: https://artifacts.apis.io/eargo/plans/eargo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eargo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eargo/refs/heads/main/rate-limits/eargo-rate-limits.yml
+  href: https://artifacts.apis.io/eargo/rate-limits/eargo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eargo-rate-limits.yml
@@ -124,7 +126,7 @@ plans:
 - name: Eargo Plans Pricing
   plan_count: 0
   slug: eargo-plans-pricing
-random_paper: 20
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Eargo Rate Limits
@@ -155,14 +157,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/eargo/refs/heads/main/screenshots/eargo-2026-09-02T145316.png
+screenshot: https://apis.io/screenshots/eargo/eargo-2026-09-02T145316.png
 security:
 - kind: domain-security
   name: Eargo Domain Security

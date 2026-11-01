@@ -4,6 +4,6 @@ layout: provider
 name: oracle-platforms
 nav: Providers
 network: true
-random_paper: 9
+random_paper: 3
 slug: oracle-platforms
 ---

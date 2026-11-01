@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.7
-  scored_at: '2026-10-17'
+  score: 50.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 11
   slug: sybilion-agentic-access
   summary_line: 11 operations · 3 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Hosted Streamable-HTTP MCP server providing agent-native tools for forecasts (submit_forecast, get_forecast, get_forecast_chart, get_forecast_artifact), alerts (get_alerts) and catalog discovery (list
   name: Sybilion MCP Server
@@ -92,7 +94,7 @@ apis:
   description: The Usage API from Sybilion — 1 operation(s) for usage.
   name: Sybilion Usage API
   slug: sybilion-usage-api
-artifact_total: 18
+artifact_total: 22
 collections:
 - collection_type: open
   name: Sybilion API
@@ -151,107 +153,115 @@ common:
   type: CaseStudies
   url: https://www.sybilion.com/case-studies
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/llms/sybilion-llms.txt
+  href: https://artifacts.apis.io/sybilion/llms/sybilion-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sybilion-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/well-known/sybilion-well-known.yml
+  href: https://artifacts.apis.io/sybilion/well-known/sybilion-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sybilion-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/authentication/sybilion-authentication.yml
+  href: https://artifacts.apis.io/sybilion/authentication/sybilion-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sybilion-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/scopes/sybilion-scopes.yml
+  href: https://artifacts.apis.io/sybilion/scopes/sybilion-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sybilion-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/conventions/sybilion-conventions.yml
+  href: https://artifacts.apis.io/sybilion/conventions/sybilion-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sybilion-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/conventions/sybilion-conventions.yml
+  href: https://artifacts.apis.io/sybilion/conventions/sybilion-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/sybilion-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/errors/sybilion-problem-types.yml
+  href: https://artifacts.apis.io/sybilion/errors/sybilion-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sybilion-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/lifecycle/sybilion-lifecycle.yml
+  href: https://artifacts.apis.io/sybilion/lifecycle/sybilion-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sybilion-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/conformance/sybilion-conformance.yml
+  href: https://artifacts.apis.io/sybilion/conformance/sybilion-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sybilion-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/security/sybilion-domain-security.yml
+  href: https://artifacts.apis.io/sybilion/security/sybilion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sybilion-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/data-model/sybilion-data-model.yml
+  href: https://artifacts.apis.io/sybilion/data-model/sybilion-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sybilion-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/packages/sybilion-packages.yml
+  href: https://artifacts.apis.io/sybilion/packages/sybilion-packages.yml
   title: ''
   type: Packages
   url: packages/sybilion-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/packages/sybilion-packages.yml
+  href: https://artifacts.apis.io/sybilion/packages/sybilion-packages.yml
   title: ''
   type: SDKs
   url: packages/sybilion-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/mcp/sybilion-mcp.yml
+  href: https://artifacts.apis.io/sybilion/mcp/sybilion-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sybilion-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/mcp/sybilion-tool-crosswalk.yml
+  href: https://artifacts.apis.io/sybilion/mcp/sybilion-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/sybilion-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sybilion/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/agentic-access/sybilion-agentic-access.yml
+  href: https://artifacts.apis.io/sybilion/agentic-access/sybilion-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sybilion-agentic-access.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/overlays/sybilion-operational-api-overlay.yaml
+  href: https://artifacts.apis.io/sybilion/overlays/sybilion-operational-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sybilion-operational-api-overlay.yaml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/plans/sybilion-plans-pricing.yml
+  href: https://artifacts.apis.io/sybilion/plans/sybilion-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sybilion-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/rate-limits/sybilion-rate-limits.yml
+  href: https://artifacts.apis.io/sybilion/rate-limits/sybilion-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sybilion-rate-limits.yml
 created: '2026-07-05'
 description: 'Sybilion is a decision layer for industrial companies, providing economic and causal forecasting that connects external market dynamics to internal exposure for procurement, trading and risk teams. It forecasts monthly business time series up to twelve months ahead with 80% and 90% quantile bands, ranks the external macroeconomic drivers that move a series with Granger lag relationships and feature-importance scores, backtests against the last twelve months, and raises alerts on the market movements turning relevant to a customer''s exposure right now. The same causal model is reachable two ways: an anonymously-specified OpenAPI 3.0.3 REST API at api.sybilion.dev using Bearer API keys, and a hosted OAuth MCP server at mcp.sybilion.dev that ChatGPT, Claude and the TradingView Remix extension connect to directly. Billing is a prepaid EUR-cent balance with expiring credit tranches and pre-flight holds. Official Python, Go, TypeScript and R SDKs are published.'
+finops:
+- has_sources: true
+  method: derived
+  name: Sybilion Finops
+  primary_unit: ''
+  service_category: ''
+  slug: sybilion-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sybilion.png
 layout: provider
 mcp_servers:
@@ -270,7 +280,7 @@ plans:
 - name: Sybilion Plans Pricing
   plan_count: 5
   slug: sybilion-plans-pricing
-random_paper: 15
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Sybilion Rate Limits
@@ -282,23 +292,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.7
+  composite: 52.5
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 64.0
+    artifact_dirs: 24
+    catalog_earned: 61.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.7
+  delta: -0.5
   facets:
-    access_clarity: 52.6
+    access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 47.9
-    developer_ergonomics: 56.5
-    discoverability: 73.3
-    operational_transparency: 34.2
-  previous_composite: 45.0
+    developer_ergonomics: 66.1
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -315,13 +325,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/screenshots/sybilion-2026-08-17T082216.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sybilion/sybilion-2026-08-17T082216.png
 security:
 - kind: authentication
   name: Sybilion Authentication
@@ -331,6 +342,14 @@ security:
   name: Sybilion Domain Security
   slug: sybilion-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Use the Sybilion MCP connector from an agent
+  slug: sybilion-connect-mcp-agent
+- name: Forecast a monthly series and explain what drove it
+  slug: sybilion-forecast-and-explain
+- name: Rank external drivers for a series without double-billing
+  slug: sybilion-rank-drivers-safely
 slug: sybilion
 tags:
 - Industrial market intelligence

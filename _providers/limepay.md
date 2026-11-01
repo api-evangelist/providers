@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: REST API for accepting and managing card and BNPL payments — create and pay orders, capture or void authorised (pre-auth) transactions, issue refunds, save cards as payment sources, and run 3-D Secure
@@ -47,50 +49,50 @@ apis:
 - description: Embeddable, customisable checkout that merchants drop into a web store (with plugins for WooCommerce, Magento, PrestaShop and Salesforce Commerce Cloud) to accept card payments and present the pay-in-
   name: Limepay Checkout
   slug: limepay-checkout
-artifact_total: 5
+artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/limepay/refs/heads/main/security/limepay-domain-security.yml
+  href: https://artifacts.apis.io/limepay/security/limepay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/limepay-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/limepay/refs/heads/main/packages/limepay-packages.yml
+  href: https://artifacts.apis.io/limepay/packages/limepay-packages.yml
   title: ''
   type: Packages
   url: packages/limepay-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/limepay/refs/heads/main/packages/limepay-packages.yml
+  href: https://artifacts.apis.io/limepay/packages/limepay-packages.yml
   title: ''
   type: SDKs
   url: packages/limepay-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limepay/refs/heads/main/components/limepay-components.yml
+  href: https://artifacts.apis.io/limepay/components/limepay-components.yml
   title: ''
   type: Components
   url: components/limepay-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/limepay/refs/heads/main/authentication/limepay-authentication.yml
+  href: https://artifacts.apis.io/limepay/authentication/limepay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/limepay-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limepay/refs/heads/main/data-model/limepay-data-model.yml
+  href: https://artifacts.apis.io/limepay/data-model/limepay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/limepay-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limepay/refs/heads/main/conformance/limepay-conformance.yml
+  href: https://artifacts.apis.io/limepay/conformance/limepay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/limepay-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/limepay/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/limepay/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/limepay/refs/heads/main/llms/limepay-llms.txt
+  href: https://artifacts.apis.io/limepay/llms/limepay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/limepay-llms.txt
@@ -123,10 +125,10 @@ overview: 'Limepay is listed with 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Limepay''s developer surface includes authentication, documentation, API reference, and 10 more developer resources.'
-random_paper: 5
+random_paper: 9
 score:
   band: emerging
-  composite: 11.1
+  composite: 16.3
   coverage:
     artifact_dirs: 13
     catalog_earned: 35.0
@@ -139,7 +141,7 @@ score:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 20.8
+    developer_ergonomics: 47.0
     discoverability: 62.5
     operational_transparency: 0.0
   jurisdiction:
@@ -149,7 +151,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 11.1
+  previous_composite: 16.3
   provenance:
     conformance: derived
     skills: derived
@@ -159,14 +161,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/limepay/refs/heads/main/screenshots/limepay-2026-07-25T225213.png
+screenshot: https://apis.io/screenshots/limepay/limepay-2026-07-25T225213.png
 security:
 - kind: authentication
   name: Limepay Authentication
@@ -176,6 +178,10 @@ security:
   name: Limepay Domain Security
   slug: limepay-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: limepay-accept-payment
+  slug: limepay-accept-payment
 slug: limepay
 tags:
 - Payments

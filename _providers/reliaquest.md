@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.9
-  scored_at: '2026-10-17'
+  score: 8.8
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The GreyMatter API exposes select GreyMatter capabilities through a single GraphQL endpoint. All requests are HTTPS POSTs with JSON bodies authenticated by an X-API-KEY header; 58 queries and 95 mutat
@@ -32,14 +34,14 @@ apis:
 - description: REST API of the Digital Shadows SearchLight digital-risk-protection portal, operated by ReliaQuest since its 2022 acquisition of Digital Shadows (unauthenticated calls return a JSON error that names d
   name: Digital Shadows SearchLight Portal API
   slug: searchlight-portal-api
-artifact_total: 10
+artifact_total: 13
 collections:
 - collection_type: postman
   name: GreyMatter API
   slug: postman-reliaquest-greymatter-api
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reliaquest/refs/heads/main/security/reliaquest-domain-security.yml
+  href: https://artifacts.apis.io/reliaquest/security/reliaquest-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reliaquest-domain-security.yml
@@ -72,7 +74,7 @@ common:
   type: ChangeLog
   url: https://reliaquest.com/product-release/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/reliaquest/refs/heads/main/changelog/reliaquest-changelog.yml
+  href: https://artifacts.apis.io/reliaquest/changelog/reliaquest-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/reliaquest-changelog.yml
@@ -85,7 +87,7 @@ common:
   type: Pricing
   url: https://reliaquest.com/resources/greymatter-faq/pricing-and-return-on-investment-faq/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/reliaquest/refs/heads/main/plans/reliaquest-plans-pricing.yml
+  href: https://artifacts.apis.io/reliaquest/plans/reliaquest-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/reliaquest-plans-pricing.yml
@@ -122,7 +124,7 @@ common:
   type: LLMsTxt
   url: https://reliaquest.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reliaquest/refs/heads/main/llms/reliaquest-llms.txt
+  href: https://artifacts.apis.io/reliaquest/llms/reliaquest-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reliaquest-llms.txt
@@ -135,42 +137,42 @@ common:
   type: SecurityPolicy
   url: https://bugcrowd.com/engagements/reliaquest-vdpesf
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/reliaquest/refs/heads/main/packages/reliaquest-packages.yml
+  href: https://artifacts.apis.io/reliaquest/packages/reliaquest-packages.yml
   title: ''
   type: Packages
   url: packages/reliaquest-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/reliaquest/refs/heads/main/cli/reliaquest-cli.yml
+  href: https://artifacts.apis.io/reliaquest/cli/reliaquest-cli.yml
   title: ''
   type: CLI
   url: cli/reliaquest-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reliaquest/refs/heads/main/conformance/reliaquest-conformance.yml
+  href: https://artifacts.apis.io/reliaquest/conformance/reliaquest-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reliaquest-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reliaquest/refs/heads/main/conformance/reliaquest-conformance.yml
+  href: https://artifacts.apis.io/reliaquest/conformance/reliaquest-conformance.yml
   title: ''
   type: Compliance
   url: conformance/reliaquest-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reliaquest/refs/heads/main/lifecycle/reliaquest-lifecycle.yml
+  href: https://artifacts.apis.io/reliaquest/lifecycle/reliaquest-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reliaquest-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/reliaquest/refs/heads/main/rate-limits/reliaquest-rate-limits.yml
+  href: https://artifacts.apis.io/reliaquest/rate-limits/reliaquest-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/reliaquest-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reliaquest/refs/heads/main/conventions/reliaquest-conventions.yml
+  href: https://artifacts.apis.io/reliaquest/conventions/reliaquest-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reliaquest-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reliaquest/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/reliaquest/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -194,14 +196,14 @@ plans:
 - name: Reliaquest Plans Pricing
   plan_count: 0
   slug: reliaquest-plans-pricing
-random_paper: 9
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Reliaquest Rate Limits
   slug: reliaquest-rate-limits
 score:
   band: thin
-  composite: 37.8
+  composite: 38.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -209,14 +211,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 6.5
     developer_ergonomics: 49.4
-    discoverability: 73.2
-    operational_transparency: 44.7
+    discoverability: 71.7
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -224,7 +226,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 37.7
+  previous_composite: 38.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -235,14 +237,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/reliaquest/refs/heads/main/screenshots/reliaquest-2026-10-11T125115.png
+screenshot: https://apis.io/screenshots/reliaquest/reliaquest-2026-10-11T125115.png
 security:
 - kind: authentication
   name: Reliaquest Authentication
@@ -260,6 +262,14 @@ security:
   name: Reliaquest Trust Center
   slug: reliaquest-trust-center
   summary_line: SOC 2 Type II, HIPAA, PCI DSS
+skill_count: 3
+skills:
+- name: Run a response playbook and monitor the run
+  slug: reliaquest-run-a-response-playbook
+- name: Triage and close a GreyMatter incident
+  slug: reliaquest-triage-and-close-an-incident
+- name: Work digital-risk-protection alerts
+  slug: reliaquest-work-drp-alerts
 slug: reliaquest
 tags:
 - Cybersecurity

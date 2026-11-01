@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.3
-  scored_at: '2026-10-17'
+  score: 23.2
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: WebSockets feed for order book and ticker data, documented with samples in the independentreserve/websockets GitHub repository.
@@ -42,77 +44,77 @@ apis:
 artifact_total: 14
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/rules/independent-reserve-rules.yml
+  href: https://artifacts.apis.io/independent-reserve/rules/independent-reserve-rules.yml
   title: ''
   type: Spectral
   url: rules/independent-reserve-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/json-ld/independent-reserve-context.jsonld
+  href: https://artifacts.apis.io/independent-reserve/json-ld/independent-reserve-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/independent-reserve-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/vocabulary/independent-reserve-vocabulary.yml
+  href: https://artifacts.apis.io/independent-reserve/vocabulary/independent-reserve-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/independent-reserve-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/data-model/independent-reserve-data-model.yml
+  href: https://artifacts.apis.io/independent-reserve/data-model/independent-reserve-data-model.yml
   title: ''
   type: DataModel
   url: data-model/independent-reserve-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/conventions/independent-reserve-conventions.yml
+  href: https://artifacts.apis.io/independent-reserve/conventions/independent-reserve-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/independent-reserve-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/conventions/independent-reserve-conventions.yml
+  href: https://artifacts.apis.io/independent-reserve/conventions/independent-reserve-conventions.yml
   title: ''
   type: Conventions
   url: conventions/independent-reserve-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/authentication/independent-reserve-authentication.yml
+  href: https://artifacts.apis.io/independent-reserve/authentication/independent-reserve-authentication.yml
   title: ''
   type: Authentication
   url: authentication/independent-reserve-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/lifecycle/independent-reserve-lifecycle.yml
+  href: https://artifacts.apis.io/independent-reserve/lifecycle/independent-reserve-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/independent-reserve-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/lifecycle/independent-reserve-lifecycle.yml
+  href: https://artifacts.apis.io/independent-reserve/lifecycle/independent-reserve-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/independent-reserve-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/errors/independent-reserve-error-codes.yml
+  href: https://artifacts.apis.io/independent-reserve/errors/independent-reserve-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/independent-reserve-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/conformance/independent-reserve-conformance.yml
+  href: https://artifacts.apis.io/independent-reserve/conformance/independent-reserve-conformance.yml
   title: ''
   type: Conformance
   url: conformance/independent-reserve-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/hosts/independent-reserve-hosts.yml
+  href: https://artifacts.apis.io/independent-reserve/hosts/independent-reserve-hosts.yml
   title: ''
   type: Hosts
   url: hosts/independent-reserve-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/vendors/independent-reserve-vendors.yml
+  href: https://artifacts.apis.io/independent-reserve/vendors/independent-reserve-vendors.yml
   title: ''
   type: Vendors
   url: vendors/independent-reserve-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/security/independent-reserve-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/independent-reserve/security/independent-reserve-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/independent-reserve-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/security/independent-reserve-domain-security.yml
+  href: https://artifacts.apis.io/independent-reserve/security/independent-reserve-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/independent-reserve-domain-security.yml
@@ -161,7 +163,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/independentreserve
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/postman/independent-reserve-api-postman-collection.json
+  href: https://artifacts.apis.io/independent-reserve/postman/independent-reserve-api-postman-collection.json
   title: ''
   type: Postman
   url: postman/independent-reserve-api-postman-collection.json
@@ -216,7 +218,7 @@ overview: 'Independent Reserve is listed with 3 APIs on the [APIs.io](https://ap
 
 
   Independent Reserve''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, and 22 more developer resources.'
-random_paper: 17
+random_paper: 7
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -232,7 +234,7 @@ rules:
   slug: independent-reserve-rules
 score:
   band: thin
-  composite: 38.1
+  composite: 38.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 58.8
@@ -240,6 +242,7 @@ score:
     catalog_gap: 56.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 22.0
@@ -247,6 +250,12 @@ score:
     developer_ergonomics: 51.9
     discoverability: 58.9
     operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 38.8
   provenance:
     conformance: derived
     contracts:
@@ -261,11 +270,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Independent Reserve Authentication

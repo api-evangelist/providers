@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.9
-  scored_at: '2026-10-17'
+  score: 8.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST HTTP API returning JSON/CSV for crypto market datasets. Includes a free Research scope (no paid key required) and a paid Market Events v1 scope with versioned releases, schema, manifest, and chec
@@ -32,7 +34,7 @@ apis:
 artifact_total: 6
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/coinnudge-api/refs/heads/main/rate-limits/coinnudge-api-rate-limits.yml
+  href: https://artifacts.apis.io/coinnudge-api/rate-limits/coinnudge-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/coinnudge-api-rate-limits.yml
@@ -41,17 +43,17 @@ common:
   type: Website
   url: https://coinnudge.site/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coinnudge-api/refs/heads/main/security/coinnudge-api-domain-security.yml
+  href: https://artifacts.apis.io/coinnudge-api/security/coinnudge-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coinnudge-api-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/coinnudge-api/refs/heads/main/plans/coinnudge-api-plans-pricing.yml
+  href: https://artifacts.apis.io/coinnudge-api/plans/coinnudge-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/coinnudge-api-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coinnudge-api/refs/heads/main/conformance/coinnudge-api-conformance.yml
+  href: https://artifacts.apis.io/coinnudge-api/conformance/coinnudge-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coinnudge-api-conformance.yml
@@ -90,14 +92,14 @@ plans:
 - name: Coinnudge Api Plans Pricing
   plan_count: 5
   slug: coinnudge-api-plans-pricing
-random_paper: 17
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Coinnudge Api Rate Limits
   slug: coinnudge-api-rate-limits
 score:
   band: thin
-  composite: 30.7
+  composite: 30.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 59.0
@@ -111,9 +113,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 69.6
+    discoverability: 68.3
     operational_transparency: 31.6
-  previous_composite: 30.7
+  previous_composite: 30.6
   provenance:
     conformance: derived
     mcp: derived
@@ -123,14 +125,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/coinnudge-api/refs/heads/main/screenshots/coinnudge-api-2026-10-11T103125.png
+screenshot: https://apis.io/screenshots/coinnudge-api/coinnudge-api-2026-10-11T103125.png
 security:
 - kind: authentication
   name: Coinnudge Api Authentication

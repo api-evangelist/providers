@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,17 +24,19 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.4
-  scored_at: '2026-10-17'
+  score: 39.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -41,7 +44,7 @@ agentic_access:
   operation_count: 89
   slug: archastro-agentic-access
   summary_line: 89 operations · 50 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://developers.archastro.ai
   baseurl_source: declared
@@ -93,15 +96,12 @@ apis:
   description: The Oauth API from Archastro — 5 operation(s) for oauth.
   name: Archastro OAUTH API
   slug: archastro-oauth-api
-artifact_total: 25
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Archastro Webhooks
   slug: archastro-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ArchAstro Platform Activity Feed API
   slug: open-archastro-activity-feed-api
@@ -133,6 +133,11 @@ collections:
   name: ArchAstro Platform Activity Feed Users API
   slug: open-archastro-users-api
 common:
+- group: other
+  href: https://artifacts.apis.io/archastro/capabilities/archastro-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/archastro-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -150,102 +155,102 @@ common:
   type: GettingStarted
   url: https://docs.archastro.ai/docs/start-here/getting-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/authentication/archastro-authentication.yml
+  href: https://artifacts.apis.io/archastro/authentication/archastro-authentication.yml
   title: ''
   type: Authentication
   url: authentication/archastro-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/packages/archastro-packages.yml
+  href: https://artifacts.apis.io/archastro/packages/archastro-packages.yml
   title: ''
   type: SDKs
   url: packages/archastro-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/packages/archastro-packages.yml
+  href: https://artifacts.apis.io/archastro/packages/archastro-packages.yml
   title: ''
   type: Packages
   url: packages/archastro-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/cli/archastro-cli.yml
+  href: https://artifacts.apis.io/archastro/cli/archastro-cli.yml
   title: ''
   type: CLI
   url: cli/archastro-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/mcp/archastro-mcp.yml
+  href: https://artifacts.apis.io/archastro/mcp/archastro-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/archastro-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/archastro/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/sandbox/archastro-sandbox.yml
+  href: https://artifacts.apis.io/archastro/sandbox/archastro-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/archastro-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/well-known/archastro-well-known.yml
+  href: https://artifacts.apis.io/archastro/well-known/archastro-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/archastro-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/llms/archastro-llms.txt
+  href: https://artifacts.apis.io/archastro/llms/archastro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/archastro-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/changelog/archastro-changelog.yml
+  href: https://artifacts.apis.io/archastro/changelog/archastro-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/archastro-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/lifecycle/archastro-lifecycle.yml
+  href: https://artifacts.apis.io/archastro/lifecycle/archastro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/archastro-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/conventions/archastro-conventions.yml
+  href: https://artifacts.apis.io/archastro/conventions/archastro-conventions.yml
   title: ''
   type: Conventions
   url: conventions/archastro-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/conventions/archastro-conventions.yml
+  href: https://artifacts.apis.io/archastro/conventions/archastro-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/archastro-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/errors/archastro-problem-types.yml
+  href: https://artifacts.apis.io/archastro/errors/archastro-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/archastro-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/data-model/archastro-data-model.yml
+  href: https://artifacts.apis.io/archastro/data-model/archastro-data-model.yml
   title: ''
   type: DataModel
   url: data-model/archastro-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/conformance/archastro-conformance.yml
+  href: https://artifacts.apis.io/archastro/conformance/archastro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/archastro-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/asyncapi/archastro-webhooks.yml
+  href: https://artifacts.apis.io/archastro/asyncapi/archastro-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/archastro-webhooks.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/overlays/archastro-platform-overlay.yaml
+  href: https://artifacts.apis.io/archastro/overlays/archastro-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/archastro-platform-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/security/archastro-domain-security.yml
+  href: https://artifacts.apis.io/archastro/security/archastro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/archastro-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/agentic-access/archastro-agentic-access.yml
+  href: https://artifacts.apis.io/archastro/agentic-access/archastro-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/archastro-agentic-access.yml
@@ -279,27 +284,27 @@ overview: 'Archastro publishes 10 API contracts indexed on the [APIs.io](https:/
   The Archastro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Archastro''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 21 more developer resources.'
-random_paper: 21
+  Archastro''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 22 more developer resources.'
+random_paper: 7
 score:
   band: developing
-  composite: 45.2
+  composite: 43.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 51.8
-    developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 45.1
+    contract_quality: 50.8
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,7 +312,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 10
+      total: 20
     mcp: derived
     skills: derived
   regulatory:
@@ -316,13 +321,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/screenshots/archastro-2026-07-25T201021.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/archastro/archastro-2026-07-25T201021.png
 security:
 - kind: authentication
   name: Archastro Authentication
@@ -332,6 +338,12 @@ security:
   name: Archastro Domain Security
   slug: archastro-domain-security
   summary_line: TLSv1.3
+skill_count: 2
+skills:
+- name: Create and deploy an ArchAstro agent
+  slug: archastro-create-and-deploy-agent
+- name: Start a thread with an agent and follow the conversation
+  slug: archastro-start-thread-with-agent
 slug: archastro
 tags:
 - Company

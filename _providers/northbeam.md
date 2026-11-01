@@ -24,17 +24,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.2
-  scored_at: '2026-10-17'
-api_count: 8
+  score: 52.8
+  scored_at: '2026-10-31'
+api_count: 4
 apis:
 - description: First-party remote Model Context Protocol server giving an agent read-only access to the caller's Northbeam dashboards — performance, attribution, spend and orders. Documented as a custom connector fo
   name: Northbeam MCP Server
@@ -133,40 +135,45 @@ apis:
     question: How do I remove an hourly spend entry that was wrong?
   phrasing_ops: 3
   slug: northbeam-spend-hourly-api
-artifact_total: 16
+artifact_total: 20
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/overlays/northbeam-orders-v2-overlay.yaml
+  href: https://artifacts.apis.io/northbeam/capabilities/northbeam-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/northbeam-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/northbeam/overlays/northbeam-orders-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/northbeam-orders-v2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/overlays/northbeam-orders-v1-overlay.yaml
+  href: https://artifacts.apis.io/northbeam/overlays/northbeam-orders-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/northbeam-orders-v1-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/skills/northbeam-sync-orders.md
+  href: https://artifacts.apis.io/northbeam/skills/northbeam-sync-orders.md
   title: ''
   type: AgentSkill
   url: skills/northbeam-sync-orders.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/overlays/northbeam-spend-v1-overlay.yaml
+  href: https://artifacts.apis.io/northbeam/overlays/northbeam-spend-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/northbeam-spend-v1-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/skills/northbeam-sync-ad-spend.md
+  href: https://artifacts.apis.io/northbeam/skills/northbeam-sync-ad-spend.md
   title: ''
   type: AgentSkill
   url: skills/northbeam-sync-ad-spend.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/overlays/northbeam-data-export-v1-overlay.yaml
+  href: https://artifacts.apis.io/northbeam/overlays/northbeam-data-export-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/northbeam-data-export-v1-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/skills/northbeam-export-attribution-data.md
+  href: https://artifacts.apis.io/northbeam/skills/northbeam-export-attribution-data.md
   title: ''
   type: AgentSkill
   url: skills/northbeam-export-attribution-data.md
@@ -239,125 +246,125 @@ common:
   type: Compliance
   url: https://www.northbeam.io/data-security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/security/northbeam-trust-center.yml
+  href: https://artifacts.apis.io/northbeam/security/northbeam-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/northbeam-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/security/northbeam-domain-security.yml
+  href: https://artifacts.apis.io/northbeam/security/northbeam-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/northbeam-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/authentication/northbeam-authentication.yml
+  href: https://artifacts.apis.io/northbeam/authentication/northbeam-authentication.yml
   title: ''
   type: Authentication
   url: authentication/northbeam-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/conventions/northbeam-conventions.yml
+  href: https://artifacts.apis.io/northbeam/conventions/northbeam-conventions.yml
   title: ''
   type: Conventions
   url: conventions/northbeam-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/conventions/northbeam-conventions.yml
+  href: https://artifacts.apis.io/northbeam/conventions/northbeam-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/northbeam-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/conformance/northbeam-conformance.yml
+  href: https://artifacts.apis.io/northbeam/conformance/northbeam-conformance.yml
   title: ''
   type: Conformance
   url: conformance/northbeam-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/errors/northbeam-problem-types.yml
+  href: https://artifacts.apis.io/northbeam/errors/northbeam-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/northbeam-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/lifecycle/northbeam-lifecycle.yml
+  href: https://artifacts.apis.io/northbeam/lifecycle/northbeam-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/northbeam-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/data-model/northbeam-data-model.yml
+  href: https://artifacts.apis.io/northbeam/data-model/northbeam-data-model.yml
   title: ''
   type: DataModel
   url: data-model/northbeam-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/sandbox/northbeam-sandbox.yml
+  href: https://artifacts.apis.io/northbeam/sandbox/northbeam-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/northbeam-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/components/northbeam-components.yml
+  href: https://artifacts.apis.io/northbeam/components/northbeam-components.yml
   title: ''
   type: Components
   url: components/northbeam-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/packages/northbeam-packages.yml
+  href: https://artifacts.apis.io/northbeam/packages/northbeam-packages.yml
   title: ''
   type: Packages
   url: packages/northbeam-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/well-known/northbeam-well-known.yml
+  href: https://artifacts.apis.io/northbeam/well-known/northbeam-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/northbeam-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/llms/northbeam-llms.txt
+  href: https://artifacts.apis.io/northbeam/llms/northbeam-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/northbeam-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/northbeam/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/mcp/northbeam-mcp.yml
+  href: https://artifacts.apis.io/northbeam/mcp/northbeam-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/northbeam-mcp.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/plans/northbeam-plans-pricing.yml
+  href: https://artifacts.apis.io/northbeam/plans/northbeam-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/northbeam-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/rate-limits/northbeam-rate-limits.yml
+  href: https://artifacts.apis.io/northbeam/rate-limits/northbeam-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/northbeam-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/finops/northbeam-finops.yml
+  href: https://artifacts.apis.io/northbeam/finops/northbeam-finops.yml
   title: ''
   type: FinOps
   url: finops/northbeam-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/vocabulary/northbeam-vocabulary.yml
+  href: https://artifacts.apis.io/northbeam/vocabulary/northbeam-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/northbeam-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/json-ld/northbeam-context.jsonld
+  href: https://artifacts.apis.io/northbeam/json-ld/northbeam-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/northbeam-context.jsonld
 - group: company
-  href: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/blogs/blogs.json
+  href: https://artifacts.apis.io/northbeam/blogs/blogs.json
   title: ''
   type: BlogPosts
   url: blogs/blogs.json
 created: '2026-06-13'
 description: 'Northbeam is a multi-touch marketing attribution platform for e-commerce brands. It joins first-party click and view data collected by its own browser pixel to order-level revenue and to ad spend across every channel, then reports channel, campaign, adset and ad level ROAS, CAC, AOV and creative performance under a choice of attribution models and windows. The developer surface is three REST APIs published as OpenAPI: an Orders API for pushing purchase data in as the revenue ground truth, a Spend API for uploading cost from channels Northbeam does not integrate with natively, and an asynchronous Data Export API for pulling attribution metrics back out to Northbeam documents, GCS or S3. Northbeam also runs a first-party remote MCP server at mcp.northbeam.io, OAuth-secured and read-only, which it documents as a custom connector for Claude and ChatGPT.'
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Northbeam Finops
-  primary_unit: ''
+  primary_unit: subscription
   service_category: ''
   slug: northbeam-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/northbeam.png
 jsonld:
 - class_count: 11
@@ -379,35 +386,38 @@ overview: 'Northbeam publishes 8 API contracts indexed on the [APIs.io](https://
   The Northbeam catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Northbeam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
+  Northbeam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 40 more developer resources.'
 plans:
 - name: Northbeam Plans Pricing
   plan_count: 4
   slug: northbeam-plans-pricing
-random_paper: 14
+- name: Northbeam Price Estimates
+  plan_count: 0
+  slug: northbeam-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 8
   name: Northbeam Rate Limits
   slug: northbeam-rate-limits
 score:
   band: strong
-  composite: 65.2
+  composite: 66.4
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 79.5
+    artifact_dirs: 27
+    catalog_earned: 82.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 35.5
+    catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 31.8
     contract_quality: 55.9
-    developer_ergonomics: 55.4
-    discoverability: 80.0
+    developer_ergonomics: 66.1
+    discoverability: 70.0
     operational_transparency: 36.8
-  previous_composite: 66.7
+  previous_composite: 64.8
   provenance:
     conformance: first-party
     contracts:
@@ -423,13 +433,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/screenshots/northbeam-2026-06-20T190413.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/northbeam/northbeam-2026-06-20T190413.png
 security:
 - kind: authentication
   name: Northbeam Authentication
@@ -443,6 +454,14 @@ security:
   name: Northbeam Trust Center
   slug: northbeam-trust-center
   summary_line: SOC 2 Type 2
+skill_count: 3
+skills:
+- name: northbeam-export-attribution-data
+  slug: northbeam-export-attribution-data
+- name: northbeam-sync-ad-spend
+  slug: northbeam-sync-ad-spend
+- name: northbeam-sync-orders
+  slug: northbeam-sync-orders
 slug: northbeam
 tags:
 - Marketing Attribution

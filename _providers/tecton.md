@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Low-latency online feature serving for model inference — read single or batched feature vectors, wildcard queries, and feature-service metadata. Authenticated with an Authorization Tecton-key header b
@@ -76,67 +78,67 @@ common:
   type: Compliance
   url: https://docs.tecton.ai/docs/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tecton/refs/heads/main/security/tecton-trust-center.yml
+  href: https://artifacts.apis.io/tecton/security/tecton-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tecton-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tecton/refs/heads/main/security/tecton-domain-security.yml
+  href: https://artifacts.apis.io/tecton/security/tecton-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tecton-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tecton/refs/heads/main/authentication/tecton-authentication.yml
+  href: https://artifacts.apis.io/tecton/authentication/tecton-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tecton-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tecton/refs/heads/main/packages/tecton-packages.yml
+  href: https://artifacts.apis.io/tecton/packages/tecton-packages.yml
   title: ''
   type: Packages
   url: packages/tecton-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tecton/refs/heads/main/packages/tecton-packages.yml
+  href: https://artifacts.apis.io/tecton/packages/tecton-packages.yml
   title: ''
   type: SDKs
   url: packages/tecton-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tecton/refs/heads/main/cli/tecton-cli.yml
+  href: https://artifacts.apis.io/tecton/cli/tecton-cli.yml
   title: ''
   type: CLI
   url: cli/tecton-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tecton/refs/heads/main/conventions/tecton-conventions.yml
+  href: https://artifacts.apis.io/tecton/conventions/tecton-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tecton-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tecton/refs/heads/main/conformance/tecton-conformance.yml
+  href: https://artifacts.apis.io/tecton/conformance/tecton-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tecton-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tecton/refs/heads/main/lifecycle/tecton-lifecycle.yml
+  href: https://artifacts.apis.io/tecton/lifecycle/tecton-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tecton-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tecton/refs/heads/main/lifecycle/tecton-lifecycle.yml
+  href: https://artifacts.apis.io/tecton/lifecycle/tecton-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/tecton-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tecton/refs/heads/main/data-model/tecton-data-model.yml
+  href: https://artifacts.apis.io/tecton/data-model/tecton-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tecton-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tecton/refs/heads/main/mcp/tecton-mcp.yml
+  href: https://artifacts.apis.io/tecton/mcp/tecton-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tecton-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tecton/refs/heads/main/llms/tecton-llms.txt
+  href: https://artifacts.apis.io/tecton/llms/tecton-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tecton-llms.txt
@@ -152,26 +154,26 @@ overview: 'Tecton is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Tecton''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, and 16 more developer resources.'
-random_paper: 15
+random_paper: 5
 score:
   band: thin
-  composite: 26.6
+  composite: 27.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 57.1
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 26.5
+    developer_ergonomics: 64.3
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 27.7
   provenance:
     conformance: derived
     mcp: derived
@@ -185,14 +187,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tecton/refs/heads/main/screenshots/tecton-2026-09-02T162711.png
+screenshot: https://apis.io/screenshots/tecton/tecton-2026-09-02T162711.png
 security:
 - kind: authentication
   name: Tecton Authentication

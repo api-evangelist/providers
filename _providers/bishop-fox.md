@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Authenticated REST API for the Bishop Fox Cosmos attack-surface management platform. Exposes the customer's discovered asset inventory through /v5/asset-view/* resources (domains, subdomains, dns-reco
@@ -80,67 +82,67 @@ common:
   type: Security
   url: https://bishopfox.com/vulnerability-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bishop-fox/refs/heads/main/security/bishop-fox-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bishop-fox/security/bishop-fox-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bishop-fox-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bishop-fox/refs/heads/main/well-known/bishop-fox-security.txt
+  href: https://artifacts.apis.io/bishop-fox/well-known/bishop-fox-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bishop-fox-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bishop-fox/refs/heads/main/well-known/bishop-fox-well-known.yml
+  href: https://artifacts.apis.io/bishop-fox/well-known/bishop-fox-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bishop-fox-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bishop-fox/refs/heads/main/security/bishop-fox-domain-security.yml
+  href: https://artifacts.apis.io/bishop-fox/security/bishop-fox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bishop-fox-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bishop-fox/refs/heads/main/llms/bishop-fox-llms.txt
+  href: https://artifacts.apis.io/bishop-fox/llms/bishop-fox-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bishop-fox-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bishop-fox/refs/heads/main/authentication/bishop-fox-authentication.yml
+  href: https://artifacts.apis.io/bishop-fox/authentication/bishop-fox-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bishop-fox-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bishop-fox/refs/heads/main/scopes/bishop-fox-scopes.yml
+  href: https://artifacts.apis.io/bishop-fox/scopes/bishop-fox-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bishop-fox-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bishop-fox/refs/heads/main/conventions/bishop-fox-conventions.yml
+  href: https://artifacts.apis.io/bishop-fox/conventions/bishop-fox-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bishop-fox-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bishop-fox/refs/heads/main/errors/bishop-fox-problem-types.yml
+  href: https://artifacts.apis.io/bishop-fox/errors/bishop-fox-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bishop-fox-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bishop-fox/refs/heads/main/data-model/bishop-fox-data-model.yml
+  href: https://artifacts.apis.io/bishop-fox/data-model/bishop-fox-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bishop-fox-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bishop-fox/refs/heads/main/lifecycle/bishop-fox-lifecycle.yml
+  href: https://artifacts.apis.io/bishop-fox/lifecycle/bishop-fox-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bishop-fox-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bishop-fox/refs/heads/main/conformance/bishop-fox-conformance.yml
+  href: https://artifacts.apis.io/bishop-fox/conformance/bishop-fox-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bishop-fox-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bishop-fox/refs/heads/main/packages/bishop-fox-packages.yml
+  href: https://artifacts.apis.io/bishop-fox/packages/bishop-fox-packages.yml
   title: ''
   type: Packages
   url: packages/bishop-fox-packages.yml
@@ -161,7 +163,7 @@ overview: 'Bishop Fox is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Bishop Fox''s developer surface includes developer portal, engineering blog, support, authentication, and 19 more developer resources.'
-random_paper: 11
+random_paper: 15
 scopes:
 - name: Bishop Fox Scopes
   scope_count: 7
@@ -169,23 +171,23 @@ scopes:
   summary_line: 7 scopes · clientCredentials
 score:
   band: emerging
-  composite: 23.2
+  composite: 22.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 23.1
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 22.8
   provenance:
     conformance: derived
   regulatory:
@@ -194,14 +196,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bishop-fox/refs/heads/main/screenshots/bishop-fox-2026-08-07T162514.png
+screenshot: https://apis.io/screenshots/bishop-fox/bishop-fox-2026-08-07T162514.png
 security:
 - kind: authentication
   name: Bishop Fox Authentication

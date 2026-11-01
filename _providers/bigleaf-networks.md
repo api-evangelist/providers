@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,32 +25,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bigleaf-networks/refs/heads/main/llms/bigleaf-networks-llms.txt
+  href: https://artifacts.apis.io/bigleaf-networks/llms/bigleaf-networks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bigleaf-networks-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bigleaf-networks/refs/heads/main/well-known/bigleaf-networks-status-security.txt
+  href: https://artifacts.apis.io/bigleaf-networks/well-known/bigleaf-networks-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bigleaf-networks-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bigleaf-networks/refs/heads/main/well-known/bigleaf-networks-well-known.yml
+  href: https://artifacts.apis.io/bigleaf-networks/well-known/bigleaf-networks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bigleaf-networks-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bigleaf-networks/refs/heads/main/hosts/bigleaf-networks-hosts.yml
+  href: https://artifacts.apis.io/bigleaf-networks/hosts/bigleaf-networks-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bigleaf-networks-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bigleaf-networks/refs/heads/main/vendors/bigleaf-networks-vendors.yml
+  href: https://artifacts.apis.io/bigleaf-networks/vendors/bigleaf-networks-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bigleaf-networks-vendors.yml
@@ -81,7 +83,7 @@ common:
   type: Blog
   url: https://www.bigleaf.net/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bigleaf-networks/refs/heads/main/security/bigleaf-networks-domain-security.yml
+  href: https://artifacts.apis.io/bigleaf-networks/security/bigleaf-networks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bigleaf-networks-domain-security.yml
@@ -109,26 +111,26 @@ overview: 'Bigleaf Networks is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Bigleaf Networks'' developer surface includes support, pricing, engineering blog, and 11 more developer resources.'
-random_paper: 2
+random_paper: 20
 score:
   band: emerging
-  composite: 12.8
+  composite: 13.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 58.9
-    operational_transparency: 15.8
-  previous_composite: 12.7
+    discoverability: 51.8
+    operational_transparency: 26.3
+  previous_composite: 13.4
   provenance:
     mcp: derived
   regulatory:
@@ -137,14 +139,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bigleaf-networks/refs/heads/main/screenshots/bigleaf-networks-2026-10-11T102129.png
+screenshot: https://apis.io/screenshots/bigleaf-networks/bigleaf-networks-2026-10-11T102129.png
 security:
 - kind: domain-security
   name: Bigleaf Networks Domain Security

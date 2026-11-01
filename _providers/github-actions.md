@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.0
-  scored_at: '2026-10-17'
+  score: 46.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -353,7 +355,7 @@ arazzos:
 - description: Look up a repository variable by name and either create it or update it, then read it back.
   name: GitHub Actions Upsert a Repository Variable
   slug: github-actions-upsert-repo-variable-workflow
-artifact_total: 166
+artifact_total: 172
 asyncapis:
 - description: ''
   name: Github Actions Webhooks
@@ -362,9 +364,6 @@ collections:
 - collection_type: postman
   name: GitHub Actions API
   slug: postman-github-actions
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: GitHub Actions Artifacts API
   slug: open-github-actions-artifacts-api
@@ -407,17 +406,17 @@ common:
   type: Website
   url: https://github.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/capabilities/github-actions-capability-edges.yml
+  href: https://artifacts.apis.io/github-actions/capabilities/github-actions-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/github-actions-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/agentic-access/github-actions-agentic-access.yml
+  href: https://artifacts.apis.io/github-actions/agentic-access/github-actions-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/github-actions-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/authentication/github-actions-authentication.yml
+  href: https://artifacts.apis.io/github-actions/authentication/github-actions-authentication.yml
   title: ''
   type: Authentication
   url: authentication/github-actions-authentication.yml
@@ -426,57 +425,57 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/github-actions/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/arazzo/github-actions-approve-pending-deployment-workflow.yml
+  href: https://artifacts.apis.io/github-actions/arazzo/github-actions-approve-pending-deployment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-actions-approve-pending-deployment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/arazzo/github-actions-cancel-run-workflow.yml
+  href: https://artifacts.apis.io/github-actions/arazzo/github-actions-cancel-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-actions-cancel-run-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/arazzo/github-actions-collect-run-artifacts-workflow.yml
+  href: https://artifacts.apis.io/github-actions/arazzo/github-actions-collect-run-artifacts-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-actions-collect-run-artifacts-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/arazzo/github-actions-dispatch-and-track-run-workflow.yml
+  href: https://artifacts.apis.io/github-actions/arazzo/github-actions-dispatch-and-track-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-actions-dispatch-and-track-run-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/arazzo/github-actions-inspect-failed-job-logs-workflow.yml
+  href: https://artifacts.apis.io/github-actions/arazzo/github-actions-inspect-failed-job-logs-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-actions-inspect-failed-job-logs-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/arazzo/github-actions-prune-repo-caches-workflow.yml
+  href: https://artifacts.apis.io/github-actions/arazzo/github-actions-prune-repo-caches-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-actions-prune-repo-caches-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/arazzo/github-actions-register-runner-workflow.yml
+  href: https://artifacts.apis.io/github-actions/arazzo/github-actions-register-runner-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-actions-register-runner-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/arazzo/github-actions-rerun-failed-run-workflow.yml
+  href: https://artifacts.apis.io/github-actions/arazzo/github-actions-rerun-failed-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-actions-rerun-failed-run-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/arazzo/github-actions-share-org-secret-workflow.yml
+  href: https://artifacts.apis.io/github-actions/arazzo/github-actions-share-org-secret-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-actions-share-org-secret-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/arazzo/github-actions-upsert-repo-secret-workflow.yml
+  href: https://artifacts.apis.io/github-actions/arazzo/github-actions-upsert-repo-secret-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-actions-upsert-repo-secret-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/arazzo/github-actions-upsert-repo-variable-workflow.yml
+  href: https://artifacts.apis.io/github-actions/arazzo/github-actions-upsert-repo-variable-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-actions-upsert-repo-variable-workflow.yml
@@ -585,52 +584,52 @@ common:
   type: Security
   url: https://docs.github.com/en/actions/security-for-github-actions
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/json-ld/github-actions-context.jsonld
+  href: https://artifacts.apis.io/github-actions/json-ld/github-actions-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/github-actions-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/json-schema/github-actions-workflow-schema.json
+  href: https://artifacts.apis.io/github-actions/json-schema/github-actions-workflow-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/github-actions-workflow-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/json-schema/github-actions-run-schema.json
+  href: https://artifacts.apis.io/github-actions/json-schema/github-actions-run-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/github-actions-run-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/json-schema/github-actions-job-schema.json
+  href: https://artifacts.apis.io/github-actions/json-schema/github-actions-job-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/github-actions-job-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/json-schema/github-actions-artifact-schema.json
+  href: https://artifacts.apis.io/github-actions/json-schema/github-actions-artifact-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/github-actions-artifact-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/json-schema/github-actions-secret-schema.json
+  href: https://artifacts.apis.io/github-actions/json-schema/github-actions-secret-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/github-actions-secret-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/json-schema/github-actions-runner-schema.json
+  href: https://artifacts.apis.io/github-actions/json-schema/github-actions-runner-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/github-actions-runner-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/json-schema/github-actions-variable-schema.json
+  href: https://artifacts.apis.io/github-actions/json-schema/github-actions-variable-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/github-actions-variable-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/json-schema/github-actions-cache-schema.json
+  href: https://artifacts.apis.io/github-actions/json-schema/github-actions-cache-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/github-actions-cache-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/json-schema/github-actions-simple-user-schema.json
+  href: https://artifacts.apis.io/github-actions/json-schema/github-actions-simple-user-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/github-actions-simple-user-schema.json
@@ -639,127 +638,127 @@ common:
   type: LlmsText
   url: https://docs.github.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/llms/github-actions-llms.txt
+  href: https://artifacts.apis.io/github-actions/llms/github-actions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/github-actions-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/packages/github-actions-packages.yml
+  href: https://artifacts.apis.io/github-actions/packages/github-actions-packages.yml
   title: ''
   type: Packages
   url: packages/github-actions-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/well-known/github-actions-well-known.yml
+  href: https://artifacts.apis.io/github-actions/well-known/github-actions-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/github-actions-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/well-known/github-actions-security.txt
+  href: https://artifacts.apis.io/github-actions/well-known/github-actions-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/github-actions-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/mcp/github-actions-mcp.yml
+  href: https://artifacts.apis.io/github-actions/mcp/github-actions-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/github-actions-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/conformance/github-actions-conformance.yml
+  href: https://artifacts.apis.io/github-actions/conformance/github-actions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/github-actions-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/errors/github-actions-error-codes.yml
+  href: https://artifacts.apis.io/github-actions/errors/github-actions-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/github-actions-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/lifecycle/github-actions-lifecycle.yml
+  href: https://artifacts.apis.io/github-actions/lifecycle/github-actions-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/github-actions-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/scopes/github-actions-scopes.yml
+  href: https://artifacts.apis.io/github-actions/scopes/github-actions-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/github-actions-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/security/github-actions-domain-security.yml
+  href: https://artifacts.apis.io/github-actions/security/github-actions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/github-actions-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/security/github-actions-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/github-actions/security/github-actions-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/github-actions-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/security/github-actions-trust-center.yml
+  href: https://artifacts.apis.io/github-actions/security/github-actions-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/github-actions-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/conventions/github-actions-conventions.yml
+  href: https://artifacts.apis.io/github-actions/conventions/github-actions-conventions.yml
   title: ''
   type: Conventions
   url: conventions/github-actions-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/changelog/github-actions-changelog.yml
+  href: https://artifacts.apis.io/github-actions/changelog/github-actions-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/github-actions-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/cli/github-actions-cli.yml
+  href: https://artifacts.apis.io/github-actions/cli/github-actions-cli.yml
   title: ''
   type: CLI
   url: cli/github-actions-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/data-model/github-actions-data-model.yml
+  href: https://artifacts.apis.io/github-actions/data-model/github-actions-data-model.yml
   title: ''
   type: DataModel
   url: data-model/github-actions-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/asyncapi/github-actions-webhooks.yml
+  href: https://artifacts.apis.io/github-actions/asyncapi/github-actions-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/github-actions-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/github-actions/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/mcp/github-actions-tool-crosswalk.yml
+  href: https://artifacts.apis.io/github-actions/mcp/github-actions-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/github-actions-tool-crosswalk.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/plans/github-actions-plans-pricing.yml
+  href: https://artifacts.apis.io/github-actions/plans/github-actions-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/github-actions-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/rate-limits/github-actions-rate-limits.yml
+  href: https://artifacts.apis.io/github-actions/rate-limits/github-actions-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/github-actions-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/vocabulary/github-actions-vocabulary.yaml
+  href: https://artifacts.apis.io/github-actions/vocabulary/github-actions-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/github-actions-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/rules/github-actions-spectral-rules.yml
+  href: https://artifacts.apis.io/github-actions/rules/github-actions-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/github-actions-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/rules/github-actions-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/github-actions/rules/github-actions-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/github-actions-jsonschema-spectral-rules.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/finops/github-actions-finops.yml
+  href: https://artifacts.apis.io/github-actions/finops/github-actions-finops.yml
   title: ''
   type: FinOps
   url: finops/github-actions-finops.yml
@@ -780,37 +779,37 @@ common:
   type: Postman
   url: https://www.postman.com/kinlaneapi/github-actions/overview
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/examples/github-actions-workflow-run-example.json
+  href: https://artifacts.apis.io/github-actions/examples/github-actions-workflow-run-example.json
   title: ''
   type: Examples
   url: examples/github-actions-workflow-run-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/examples/github-actions-job-example.json
+  href: https://artifacts.apis.io/github-actions/examples/github-actions-job-example.json
   title: ''
   type: Examples
   url: examples/github-actions-job-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/examples/github-actions-artifact-example.json
+  href: https://artifacts.apis.io/github-actions/examples/github-actions-artifact-example.json
   title: ''
   type: Examples
   url: examples/github-actions-artifact-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/examples/github-actions-actions-secret-example.json
+  href: https://artifacts.apis.io/github-actions/examples/github-actions-actions-secret-example.json
   title: ''
   type: Examples
   url: examples/github-actions-actions-secret-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/examples/github-actions-self-hosted-runner-example.json
+  href: https://artifacts.apis.io/github-actions/examples/github-actions-self-hosted-runner-example.json
   title: ''
   type: Examples
   url: examples/github-actions-self-hosted-runner-example.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/well-known/github-actions-oauth-protected-resource.json
+  href: https://artifacts.apis.io/github-actions/well-known/github-actions-oauth-protected-resource.json
   title: ''
   type: WellKnown
   url: well-known/github-actions-oauth-protected-resource.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/well-known/github-actions-oauth-authorization-server.json
+  href: https://artifacts.apis.io/github-actions/well-known/github-actions-oauth-authorization-server.json
   title: ''
   type: WellKnown
   url: well-known/github-actions-oauth-authorization-server.json
@@ -916,13 +915,13 @@ features:
 - Dependency caching for faster builds
 - Runner groups for organizational access control
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Github Actions Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: user
+  service_category: ''
   slug: github-actions-finops
-  template: true
+  template: false
 image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 integrations:
 - AWS (via OIDC)
@@ -1149,7 +1148,10 @@ plans:
 - name: Github Actions Plans Pricing
   plan_count: 5
   slug: github-actions-plans-pricing
-random_paper: 11
+- name: Github Actions Price Estimates
+  plan_count: 0
+  slug: github-actions-price-estimates
+random_paper: 1
 rate_limits:
 - limit_count: 9
   name: Github Actions Rate Limits
@@ -1185,23 +1187,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 81.3
+  composite: 82.8
   coverage:
     artifact_dirs: 36
-    catalog_earned: 84.0
+    catalog_earned: 87.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 31.0
+    catalog_gap: 28.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 31.8
     contract_quality: 70.2
-    developer_ergonomics: 83.3
-    discoverability: 75.0
-    operational_transparency: 97.4
-  previous_composite: 82.8
+    developer_ergonomics: 83.9
+    discoverability: 71.7
+    operational_transparency: 100.0
+  previous_composite: 81.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1218,13 +1220,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/screenshots/github-actions-2026-06-20T181837.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/github-actions/github-actions-2026-06-20T181837.png
 security:
 - kind: authentication
   name: Github Actions Authentication
@@ -1242,6 +1245,20 @@ security:
   name: Github Actions Trust Center
   slug: github-actions-trust-center
   summary_line: SOC 1 Type 2, SOC 2 Type 2, SOC 3, ISO/IEC 27001:2013, ISO/IEC 42001:2023, CSA STAR Level 2, FedRAMP LI-SaaS (ATO)
+skill_count: 6
+skills:
+- name: Approve a pending deployment
+  slug: github-actions-approve-pending-deployment
+- name: Collect artifacts from a workflow run
+  slug: github-actions-collect-run-artifacts
+- name: Dispatch a workflow and track the run
+  slug: github-actions-dispatch-and-track-run
+- name: Diagnose a failed workflow run
+  slug: github-actions-inspect-failed-run
+- name: Register and manage a self-hosted runner
+  slug: github-actions-manage-self-hosted-runners
+- name: Store a repository secret
+  slug: github-actions-upsert-repo-secret
 slug: github-actions
 tags:
 - CI/CD

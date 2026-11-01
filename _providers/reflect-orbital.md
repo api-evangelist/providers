@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reflect-orbital/refs/heads/main/security/reflect-orbital-domain-security.yml
+  href: https://artifacts.apis.io/reflect-orbital/security/reflect-orbital-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reflect-orbital-domain-security.yml
@@ -65,12 +67,12 @@ overview: 'Reflect Orbital is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Reflect Orbital''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 17
+random_paper: 23
 score:
   band: minimal
   composite: 5.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -91,14 +93,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/reflect-orbital/refs/heads/main/screenshots/reflect-orbital-2026-09-02T153234.png
+screenshot: https://apis.io/screenshots/reflect-orbital/reflect-orbital-2026-09-02T153234.png
 security:
 - kind: domain-security
   name: Reflect Orbital Domain Security

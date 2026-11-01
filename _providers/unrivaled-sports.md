@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unrivaled-sports/refs/heads/main/security/unrivaled-sports-domain-security.yml
+  href: https://artifacts.apis.io/unrivaled-sports/security/unrivaled-sports-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unrivaled-sports-domain-security.yml
@@ -90,7 +92,7 @@ name: Unrivaled Sports
 nav: Providers
 network: true
 overview: Unrivaled Sports is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Youth Sports, Baseball, and Softball.
-random_paper: 4
+random_paper: 18
 score:
   band: minimal
   composite: 6.1
@@ -116,14 +118,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/unrivaled-sports/refs/heads/main/screenshots/unrivaled-sports-2026-10-11T131500.png
+screenshot: https://apis.io/screenshots/unrivaled-sports/unrivaled-sports-2026-10-11T131500.png
 security:
 - kind: domain-security
   name: Unrivaled Sports Domain Security

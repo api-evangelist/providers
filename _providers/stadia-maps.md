@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.stadiamaps.com
@@ -127,9 +129,6 @@ collections:
   name: Stadia Maps Search API
   slug: postman-stadia-maps-search-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Stadia Maps Attributes API
   slug: open-stadia-maps-attributes-api
 - collection_type: open
@@ -164,17 +163,17 @@ collections:
   slug: open-stadia-maps-search-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stadia-maps/refs/heads/main/plans/stadia-maps-plans-pricing.yml
+  href: https://artifacts.apis.io/stadia-maps/plans/stadia-maps-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stadia-maps-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stadia-maps/refs/heads/main/rate-limits/stadia-maps-rate-limits.yml
+  href: https://artifacts.apis.io/stadia-maps/rate-limits/stadia-maps-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stadia-maps-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stadia-maps/refs/heads/main/finops/stadia-maps-finops.yml
+  href: https://artifacts.apis.io/stadia-maps/finops/stadia-maps-finops.yml
   title: ''
   type: FinOps
   url: finops/stadia-maps-finops.yml
@@ -187,7 +186,7 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/stadia-maps/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stadia-maps/refs/heads/main/security/stadia-maps-domain-security.yml
+  href: https://artifacts.apis.io/stadia-maps/security/stadia-maps-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stadia-maps-domain-security.yml
@@ -256,13 +255,13 @@ examples:
   name: Stadia Maps Tz Lookup Example
   slug: stadia-maps-tz-lookup-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Stadia Maps Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: credits
+  service_category: ''
   slug: stadia-maps-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stadia-maps.png
 json_schemas:
 - name: Stadia Maps Location
@@ -298,9 +297,12 @@ overview: 'Stadia Maps publishes 11 API contracts indexed on the [APIs.io](https
   Stadia Maps'' developer surface includes developer portal, documentation, API reference, pricing, authentication, engineering blog, and 13 more developer resources.'
 plans:
 - name: Stadia Maps Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: stadia-maps-plans-pricing
-random_paper: 8
+- name: Stadia Maps Price Estimates
+  plan_count: 0
+  slug: stadia-maps-price-estimates
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Stadia Maps Rate Limits
@@ -331,23 +333,23 @@ rules:
   slug: stadia-maps-rules
 score:
   band: developing
-  composite: 39.9
+  composite: 46.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 65.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    artifact_dirs: 19
+    catalog_earned: 77.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 18.4
+    access_clarity: 50.0
     contract_governance: 27.3
     contract_quality: 59.0
     developer_ergonomics: 48.8
     discoverability: 71.7
     operational_transparency: 13.2
-  previous_composite: 41.4
+  previous_composite: 45.3
   provenance:
     contracts:
       callable: 100.0
@@ -360,13 +362,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/stadia-maps/refs/heads/main/screenshots/stadia-maps-2026-06-20T194456.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/stadia-maps/stadia-maps-2026-06-20T194456.png
 security:
 - kind: domain-security
   name: Stadia Maps Domain Security

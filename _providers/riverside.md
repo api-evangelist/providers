@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -80,9 +82,6 @@ collections:
   name: Riverside Business Exports Webinars API
   slug: postman-riverside-webinars-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Riverside Business API
   slug: open-riverside-business
 - collection_type: open
@@ -98,18 +97,23 @@ collections:
   name: Riverside Business Exports Webinars API
   slug: open-riverside-webinars-api
 common:
+- group: other
+  href: https://artifacts.apis.io/riverside/capabilities/riverside-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/riverside-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/plans/riverside-plans-pricing.yml
+  href: https://artifacts.apis.io/riverside/plans/riverside-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/riverside-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/rate-limits/riverside-rate-limits.yml
+  href: https://artifacts.apis.io/riverside/rate-limits/riverside-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/riverside-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/finops/riverside-finops.yml
+  href: https://artifacts.apis.io/riverside/finops/riverside-finops.yml
   title: ''
   type: FinOps
   url: finops/riverside-finops.yml
@@ -118,17 +122,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/riverside/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/agentic-access/riverside-agentic-access.yml
+  href: https://artifacts.apis.io/riverside/agentic-access/riverside-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/riverside-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/security/riverside-domain-security.yml
+  href: https://artifacts.apis.io/riverside/security/riverside-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/riverside-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/authentication/riverside-authentication.yml
+  href: https://artifacts.apis.io/riverside/authentication/riverside-authentication.yml
   title: ''
   type: Authentication
   url: authentication/riverside-authentication.yml
@@ -195,13 +199,13 @@ examples:
   name: Riverside List Recordings Example
   slug: riverside-list-recordings-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Riverside Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: riverside-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/riverside.png
 json_schemas:
 - name: Riverside Recording
@@ -227,12 +231,15 @@ overview: 'Riverside publishes 4 API contracts indexed on the [APIs.io](https://
   The Riverside catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Riverside''s developer surface includes authentication, documentation, support, pricing, engineering blog, signup flow, and 15 more developer resources.'
+  Riverside''s developer surface includes authentication, documentation, support, pricing, engineering blog, signup flow, and 16 more developer resources.'
 plans:
 - name: Riverside Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: riverside-plans-pricing
-random_paper: 5
+- name: Riverside Price Estimates
+  plan_count: 0
+  slug: riverside-price-estimates
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Riverside Rate Limits
@@ -263,23 +270,23 @@ rules:
   slug: riverside-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.5
+  composite: 53.9
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 65.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    artifact_dirs: 21
+    catalog_earned: 77.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.7
+  delta: 1.6
   facets:
-    access_clarity: 35.5
+    access_clarity: 84.2
     contract_governance: 27.3
     contract_quality: 59.8
     developer_ergonomics: 41.7
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 48.2
+    operational_transparency: 13.2
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     contracts:
@@ -292,14 +299,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/screenshots/riverside-2026-06-20T193133.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/riverside/riverside-2026-06-20T193133.png
 security:
 - kind: authentication
   name: Riverside Authentication

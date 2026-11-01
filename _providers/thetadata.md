@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
-    idempotency: na
-    mcp_server: false
+    idempotency: documented
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-17'
+  score: 32.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: ws://127.0.0.1:25520/v1/events
@@ -71,7 +73,7 @@ apis:
   description: The Stock API from ThetaData — 15 operation(s) for stock.
   name: ThetaData Stock API
   slug: thetadata-stock-api
-artifact_total: 37
+artifact_total: 41
 asyncapis:
 - description: JSON WebSocket streaming of US stock trade/quote, option trade/quote/full-trade, and index price/market-value streams, served locally by Theta Terminal v3. A single connection per user is permitted; a
   name: ThetaData Streaming WebSocket API (derived)
@@ -114,9 +116,6 @@ collections:
   name: Theta Data v3 At-Time Year API
   slug: postman-thetadata-year-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Theta Data v3 At-Time API
   slug: open-thetadata-at-time-api
 - collection_type: open
@@ -154,37 +153,37 @@ collections:
   slug: open-thetadata-year-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/overlays/thetadata-at-time-api-overlay.yaml
+  href: https://artifacts.apis.io/thetadata/overlays/thetadata-at-time-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thetadata-at-time-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/overlays/thetadata-flatfile-api-overlay.yaml
+  href: https://artifacts.apis.io/thetadata/overlays/thetadata-flatfile-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thetadata-flatfile-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/overlays/thetadata-history-api-overlay.yaml
+  href: https://artifacts.apis.io/thetadata/overlays/thetadata-history-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thetadata-history-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/overlays/thetadata-list-api-overlay.yaml
+  href: https://artifacts.apis.io/thetadata/overlays/thetadata-list-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thetadata-list-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/overlays/thetadata-single-day-api-overlay.yaml
+  href: https://artifacts.apis.io/thetadata/overlays/thetadata-single-day-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thetadata-single-day-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/overlays/thetadata-snapshot-api-overlay.yaml
+  href: https://artifacts.apis.io/thetadata/overlays/thetadata-snapshot-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thetadata-snapshot-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/overlays/thetadata-year-api-overlay.yaml
+  href: https://artifacts.apis.io/thetadata/overlays/thetadata-year-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thetadata-year-api-overlay.yaml
@@ -193,7 +192,7 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/thetadata/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/security/thetadata-domain-security.yml
+  href: https://artifacts.apis.io/thetadata/security/thetadata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thetadata-domain-security.yml
@@ -262,37 +261,37 @@ common:
   type: SampleData
   url: https://docs.thetadata.us/Articles/Getting-Started/Sample-Data.html
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/packages/thetadata-packages.yml
+  href: https://artifacts.apis.io/thetadata/packages/thetadata-packages.yml
   title: ''
   type: Packages
   url: packages/thetadata-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/packages/thetadata-packages.yml
+  href: https://artifacts.apis.io/thetadata/packages/thetadata-packages.yml
   title: ''
   type: SDKs
   url: packages/thetadata-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/well-known/thetadata-well-known.yml
+  href: https://artifacts.apis.io/thetadata/well-known/thetadata-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/thetadata-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/llms/thetadata-llms.txt
+  href: https://artifacts.apis.io/thetadata/llms/thetadata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thetadata-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/conformance/thetadata-conformance.yml
+  href: https://artifacts.apis.io/thetadata/conformance/thetadata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/thetadata-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/errors/thetadata-problem-types.yml
+  href: https://artifacts.apis.io/thetadata/errors/thetadata-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/thetadata-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/lifecycle/thetadata-lifecycle.yml
+  href: https://artifacts.apis.io/thetadata/lifecycle/thetadata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/thetadata-lifecycle.yml
@@ -301,57 +300,65 @@ common:
   type: Deprecation
   url: https://docs.thetadata.us/Articles/Getting-Started/v2-migration-guide.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/authentication/thetadata-authentication.yml
+  href: https://artifacts.apis.io/thetadata/authentication/thetadata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thetadata-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/sandbox/thetadata-sandbox.yml
+  href: https://artifacts.apis.io/thetadata/sandbox/thetadata-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/thetadata-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/conventions/thetadata-conventions.yml
+  href: https://artifacts.apis.io/thetadata/conventions/thetadata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/thetadata-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/conventions/thetadata-conventions.yml
+  href: https://artifacts.apis.io/thetadata/conventions/thetadata-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/thetadata-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/changelog/thetadata-changelog.yml
+  href: https://artifacts.apis.io/thetadata/changelog/thetadata-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/thetadata-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/components/thetadata-components.yml
+  href: https://artifacts.apis.io/thetadata/components/thetadata-components.yml
   title: ''
   type: Components
   url: components/thetadata-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/data-model/thetadata-data-model.yml
+  href: https://artifacts.apis.io/thetadata/data-model/thetadata-data-model.yml
   title: ''
   type: DataModel
   url: data-model/thetadata-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/rate-limits/thetadata-rate-limits.yml
+  href: https://artifacts.apis.io/thetadata/rate-limits/thetadata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/thetadata-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/plans/thetadata-plans.yml
+  href: https://artifacts.apis.io/thetadata/plans/thetadata-plans.yml
   title: ''
   type: Plans
   url: plans/thetadata-plans.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/thetadata/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-21'
 description: ThetaData is a developer-first US market data vendor founded in 2022 by Bailey Danseglio, selling real-time and historical options, stocks, indices, and interest-rates data with unfiltered tick-level trades, quotes, and Greeks. Delivery is self-serve via the Theta Terminal, a local Java application that authenticates with an API key or account credentials and exposes a local REST API (127.0.0.1:25503/v3), a WebSocket streaming API (127.0.0.1:25520), and an MCP server, backed by a published OpenAPI 3.1 spec, Python library, flat files, and tiered monthly subscriptions.
+finops:
+- has_sources: true
+  method: derived
+  name: Thetadata Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: thetadata-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thetadata.png
 layout: provider
 modified: '2026-07-22'
@@ -367,32 +374,35 @@ overview: 'ThetaData publishes 7 API contracts indexed on the [APIs.io](https://
   ThetaData''s developer surface includes developer portal, documentation, engineering blog, pricing, signup flow, support, getting-started guide, and 36 more developer resources.'
 plans:
 - name: Thetadata Plans
-  plan_count: 7
+  plan_count: 3
   slug: thetadata-plans
-random_paper: 20
+- name: Thetadata Price Estimates
+  plan_count: 0
+  slug: thetadata-price-estimates
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Thetadata Rate Limits
   slug: thetadata-rate-limits
 score:
   band: strong
-  composite: 59.9
+  composite: 62.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 61.0
+    artifact_dirs: 27
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 48.2
-    developer_ergonomics: 69.6
+    developer_ergonomics: 74.4
     discoverability: 66.1
-    operational_transparency: 78.9
-  previous_composite: 59.8
+    operational_transparency: 81.6
+  previous_composite: 61.2
   provenance:
     conformance: derived
     contracts:
@@ -408,14 +418,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/screenshots/thetadata-2026-07-22T202634.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/thetadata/thetadata-2026-07-22T202634.png
 security:
 - kind: authentication
   name: Thetadata Authentication
@@ -425,6 +435,14 @@ security:
   name: Thetadata Domain Security
   slug: thetadata-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Pull historical option data for research or backtesting
+  slug: thetadata-historical-options-research
+- name: Snapshot a live option chain with Greeks
+  slug: thetadata-option-chain-snapshot
+- name: Read a stock's market day (calendar, history, live snapshot)
+  slug: thetadata-stock-market-day
 slug: thetadata
 tags:
 - Finance

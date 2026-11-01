@@ -12,30 +12,33 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
-    protected_resource_metadata: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.3
-  scored_at: '2026-10-17'
+  score: 43.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -43,79 +46,84 @@ agentic_access:
   operation_count: 53
   slug: leonardo-ai-agentic-access
   summary_line: 53 operations · 32 acting
-api_count: 14
+api_count: 17
 apis:
 - baseURL: https://cloud.leonardo.ai/api/rest/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: The 3D Model Assets API from Leonardo.AI — 3 operation(s) for 3d model assets.
   name: Leonardo.AI 3D Model Assets API
   slug: leonardo-ai-3d-model-assets-api
 - baseURL: https://cloud.leonardo.ai/api/rest/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Blueprints API from Leonardo.AI — 6 operation(s) for blueprints.
   name: Leonardo.AI Blueprints API
   slug: leonardo-ai-blueprints-api
 - baseURL: https://cloud.leonardo.ai/api/rest/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Dataset API from Leonardo.AI — 4 operation(s) for dataset.
   name: Leonardo.AI Dataset API
   slug: leonardo-ai-dataset-api
 - baseURL: https://cloud.leonardo.ai/api/rest/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Elements API from Leonardo.AI — 3 operation(s) for elements.
   name: Leonardo.AI Elements API
   slug: leonardo-ai-elements-api
 - baseURL: https://cloud.leonardo.ai/api/rest/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Image API from Leonardo.AI — 3 operation(s) for image.
   name: Leonardo.AI Image API
   slug: leonardo-ai-image-api
 - baseURL: https://cloud.leonardo.ai/api/rest/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Init Images API from Leonardo.AI — 3 operation(s) for init images.
   name: Leonardo.AI Init Images API
   slug: leonardo-ai-init-images-api
 - baseURL: https://cloud.leonardo.ai/api/rest/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Media API from Leonardo.AI — 2 operation(s) for media.
   name: Leonardo.AI Media API
   slug: leonardo-ai-media-api
 - baseURL: https://cloud.leonardo.ai/api/rest/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Models API from Leonardo.AI — 4 operation(s) for models.
   name: Leonardo.AI Models API
   slug: leonardo-ai-models-api
 - baseURL: https://cloud.leonardo.ai/api/rest/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Motion API from Leonardo.AI — 3 operation(s) for motion.
   name: Leonardo.AI Motion API
   slug: leonardo-ai-motion-api
 - baseURL: https://cloud.leonardo.ai/api/rest/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Pricing Calculator API from Leonardo.AI — 1 operation(s) for pricing calculator.
   name: Leonardo.AI Pricing Calculator API
   slug: leonardo-ai-pricing-calculator-api
 - baseURL: https://cloud.leonardo.ai/api/rest/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Prompt API from Leonardo.AI — 2 operation(s) for prompt.
   name: Leonardo.AI Prompt API
   slug: leonardo-ai-prompt-api
 - baseURL: https://cloud.leonardo.ai/api/rest/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Realtime Canvas API from Leonardo.AI — 4 operation(s) for realtime canvas.
   name: Leonardo.AI Realtime Canvas API
   slug: leonardo-ai-realtime-canvas-api
 - baseURL: https://cloud.leonardo.ai/api/rest/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: The User API from Leonardo.AI — 1 operation(s) for user.
   name: Leonardo.AI User API
   slug: leonardo-ai-user-api
 - baseURL: https://cloud.leonardo.ai/api/rest/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Variation API from Leonardo.AI — 6 operation(s) for variation.
   name: Leonardo.AI Variation API
   slug: leonardo-ai-variation-api
-artifact_total: 95
+- baseURL: https://cloud.leonardo.ai/api/rest/v1
+  baseurl_source: declared
+  description: The Generations API from Leonardo.AI — 1 operation(s) for generations.
+  name: Leonardo.AI Generations API
+  slug: leonardo-ai-generations-api
+artifact_total: 107
 asyncapis:
 - description: AsyncAPI description of Leonardo.AI's outbound webhook callback surface. Leonardo delivers asynchronous job-completion notifications to a customer- hosted HTTPS endpoint that is configured per Product
   name: Leonardo.AI Webhook Callbacks
@@ -163,9 +171,6 @@ collections:
 - collection_type: postman
   name: Leonardo.AI 3D Model Assets Variation API
   slug: postman-leonardo-ai-variation-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Leonardo.AI 3D Model Assets API
   slug: open-leonardo-ai-3d-model-assets-api
@@ -251,12 +256,141 @@ collections:
   name: Leonardo.AI Video Generation API
   slug: open-leonardo-ai-video-generation
 common:
+- group: design
+  href: https://artifacts.apis.io/leonardo-ai/rules/leonardo-ai-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/leonardo-ai-rules.yml
+- group: design
+  href: https://artifacts.apis.io/leonardo-ai/rules/leonardo-ai-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/leonardo-ai-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/leonardo-ai/rules/leonardo-ai-asyncapi-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/leonardo-ai-asyncapi-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/leonardo-ai/vocabulary/leonardo-ai-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/leonardo-ai-vocabulary.yml
+- group: agent
+  href: https://artifacts.apis.io/leonardo-ai/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://artifacts.apis.io/leonardo-ai/asyncapi/leonardo-ai-webhooks-asyncapi.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/leonardo-ai-webhooks-asyncapi.yml
+- group: design
+  href: https://artifacts.apis.io/leonardo-ai/data-model/leonardo-ai-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/leonardo-ai-data-model.yml
+- group: operate
+  href: https://artifacts.apis.io/leonardo-ai/changelog/leonardo-ai-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/leonardo-ai-changelog.yml
+- group: design
+  href: https://artifacts.apis.io/leonardo-ai/conventions/leonardo-ai-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/leonardo-ai-conventions.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.leonardo.ai/docs/deprecations-changes
+- group: design
+  href: https://artifacts.apis.io/leonardo-ai/lifecycle/leonardo-ai-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/leonardo-ai-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/leonardo-ai/errors/leonardo-ai-error-codes.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/leonardo-ai-error-codes.yml
+- group: design
+  href: https://artifacts.apis.io/leonardo-ai/errors/leonardo-ai-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/leonardo-ai-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/leonardo-ai/conformance/leonardo-ai-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/leonardo-ai-conformance.yml
+- group: other
+  href: https://artifacts.apis.io/leonardo-ai/overlays/leonardo-ai-3d-model-assets-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/leonardo-ai-3d-model-assets-api-overlay.yaml
+- group: agent
+  href: https://artifacts.apis.io/leonardo-ai/llms/leonardo-ai-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/leonardo-ai-llms.txt
+- group: build
+  href: https://artifacts.apis.io/leonardo-ai/mcp/leonardo-ai-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/leonardo-ai-tool-crosswalk.yml
+- group: agent
+  href: https://artifacts.apis.io/leonardo-ai/mcp/leonardo-ai-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/leonardo-ai-mcp.yml
+- group: auth
+  href: https://artifacts.apis.io/leonardo-ai/well-known/leonardo-ai-www-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/leonardo-ai-www-security.txt
+- group: auth
+  href: https://artifacts.apis.io/leonardo-ai/well-known/leonardo-ai-intercom-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/leonardo-ai-intercom-security.txt
+- group: auth
+  href: https://artifacts.apis.io/leonardo-ai/well-known/leonardo-ai-api-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/leonardo-ai-api-security.txt
+- group: agent
+  href: https://artifacts.apis.io/leonardo-ai/well-known/leonardo-ai-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/leonardo-ai-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/leonardo-ai/hosts/leonardo-ai-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/leonardo-ai-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/leonardo-ai/integrations/leonardo-ai-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/leonardo-ai-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/leonardo-ai/vendors/leonardo-ai-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/leonardo-ai-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/leonardo-ai/packages/leonardo-ai-packages.yml
+  title: ''
+  type: Packages
+  url: packages/leonardo-ai-packages.yml
 - group: company
   title: ''
   type: Website
   url: https://leonardo.ai
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/capabilities/leonardo-ai-capability-edges.yml
+  href: https://artifacts.apis.io/leonardo-ai/capabilities/leonardo-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/leonardo-ai-capability-edges.yml
@@ -265,17 +399,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/leonardoai/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/agentic-access/leonardo-ai-agentic-access.yml
+  href: https://artifacts.apis.io/leonardo-ai/agentic-access/leonardo-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/leonardo-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/security/leonardo-ai-domain-security.yml
+  href: https://artifacts.apis.io/leonardo-ai/security/leonardo-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leonardo-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/authentication/leonardo-ai-authentication.yml
+  href: https://artifacts.apis.io/leonardo-ai/authentication/leonardo-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/leonardo-ai-authentication.yml
@@ -314,17 +448,13 @@ common:
 - group: operate
   title: ''
   type: RateLimits
-  url: https://docs.leonardo.ai/docs/concurrency-rate-limits-and-queue
-- group: design
-  title: ''
-  type: Webhooks
-  url: https://docs.leonardo.ai/docs/webhook-callback-feature
+  url: https://docs.leonardo.ai/docs/guide-to-concurrency-queue-and-rate-limit
 - group: design
   title: ''
   type: Webhooks
   url: https://docs.leonardo.ai/docs/guide-to-the-webhook-callback-feature
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/asyncapi/leonardo-ai-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/leonardo-ai/asyncapi/leonardo-ai-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/leonardo-ai-webhooks-asyncapi.yml
@@ -343,11 +473,11 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.leonardo.ai/docs/mcp-server
+  url: https://docs.leonardo.ai/docs/connect-to-leonardoai-mcp
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.leonardo.ai/docs/nsfw-handling
+  url: https://docs.leonardo.ai/docs/guide-to-handling-not-safe-for-work-image-generation-nsfw
 - group: build
   title: ''
   type: GitHubOrganization
@@ -431,22 +561,30 @@ common:
 - group: other
   title: ''
   type: X
-  url: https://x.com/LeonardoAi_
+  url: https://x.com/LeonardoAi
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/plans/leonardo-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/leonardo-ai/plans/leonardo-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/leonardo-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/rate-limits/leonardo-ai-rate-limits.yml
+  href: https://artifacts.apis.io/leonardo-ai/rate-limits/leonardo-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/leonardo-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/finops/leonardo-ai-finops.yml
+  href: https://artifacts.apis.io/leonardo-ai/finops/leonardo-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/leonardo-ai-finops.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.leonardo.ai/docs/need-more-support
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://docs.leonardo.ai/docs/pricing-and-plans-faq
 created: '2026-05-25'
 description: Leonardo.AI is an Australian generative-AI company (acquired by Canva in July 2024) offering a Production API for AI image generation, video generation, 3D model creation, custom model and element training, realtime canvas editing, upscaling and variations, and Blueprint workflow execution. The platform supports in-house Leonardo models (Phoenix, Lucid Origin, Lucid Realism) and third-party models (FLUX.1/FLUX.2, Ideogram 3.0, GPT Image, Nano Banana, Seedream, Kling, LTX, Veo, Seedance, Hailuo, Rodin) under a unified pay-as-you-go dollar-denominated API surface with webhook callbacks, MCP server integration, and official Python and TypeScript SDKs.
 examples:
@@ -487,20 +625,38 @@ features:
 - Acquired by Canva July 2024; tech being integrated into Canva Magic Studio while the API remains independent
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Leonardo Ai Finops
-  primary_unit: usd
-  service_category: AI and Machine Learning
+  primary_unit: ''
+  service_category: ''
   slug: leonardo-ai-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/leonardo-ai.png
 json_schemas:
+- name: Anime
+  property_count: 3
+  slug: leonardo-ai-anime-xl-generation-request
 - name: Leonardo.AI Generation
   property_count: 0
   slug: leonardo-ai-generation
+- name: Illustrative Albedo
+  property_count: 3
+  slug: leonardo-ai-illustrative-albedo-generation-request
+- name: Cinematic Kino
+  property_count: 3
+  slug: leonardo-ai-kino-xl-generation-request
+- name: Lifelike Vision
+  property_count: 3
+  slug: leonardo-ai-lifelike-vision-generation-request
+- name: Leonardo Lightning
+  property_count: 3
+  slug: leonardo-ai-lightning-xl-generation-request
 - name: Leonardo.AI Model
   property_count: 0
   slug: leonardo-ai-model
+- name: Portrait Perfect
+  property_count: 3
+  slug: leonardo-ai-portrait-perfect-generation-request
 json_structures:
 - name: Leonardo Ai Generation Structure
   property_count: 0
@@ -511,24 +667,28 @@ jsonld:
   property_count: 7
   slug: leonardo-ai-context
 layout: provider
-modified: '2026-09-16'
+mcp_servers:
+- description: Official hosted MCP server ("Leonardo.Ai Connector") that lets an AI assistant use Leonardo.Ai image generation over the Model Context Protocol. Requires a Leonardo.Ai API plan and API key.
+  name: Leonardo.Ai Connector (MCP Server)
+  slug: leonardo-ai-connector-mcp-server
+modified: '2026-10-21'
 name: Leonardo.AI
 nav: Providers
 network: true
-overview: 'Leonardo.AI publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including 3D Model Assets API, Blueprints API, Dataset API, and 11 more. Tagged areas include Artificial Intelligence, Image Generation, Video Generation, Generative AI, and Creative.
+overview: 'Leonardo.AI publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including 3D Model Assets API, Blueprints API, Dataset API, and 12 more. Tagged areas include Artificial Intelligence, Image Generation, Video Generation, Generative AI, and Creative.
 
 
   The Leonardo.AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Leonardo.AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, tooling, signup flow, and 40 more developer resources.'
+  Leonardo.AI''s developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, pricing, tooling, and 67 more developer resources.'
 plans:
 - name: Leonardo Ai Plans Pricing
-  plan_count: 5
+  plan_count: 2
   slug: leonardo-ai-plans-pricing
-random_paper: 21
+random_paper: 19
 rate_limits:
-- limit_count: 2
+- limit_count: 1
   name: Leonardo Ai Rate Limits
   slug: leonardo-ai-rate-limits
 rules:
@@ -568,49 +728,53 @@ rules:
     warn: 4
   slug: leonardo-ai-rules
 score:
-  band: developing
-  composite: 50.6
+  band: strong
+  composite: 64.2
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 61.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.5
+    artifact_dirs: 36
+    catalog_earned: 79.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 36.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.3
+  delta: -1.6
   facets:
-    access_clarity: 60.5
-    contract_governance: 13.6
-    contract_quality: 66.5
-    developer_ergonomics: 57.1
-    discoverability: 64.3
-    operational_transparency: 18.4
+    access_clarity: 65.8
+    contract_governance: 31.8
+    contract_quality: 66.1
+    developer_ergonomics: 69.6
+    discoverability: 71.7
+    operational_transparency: 68.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - australia
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 56.9
+  previous_composite: 65.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 14
+      total: 15
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/screenshots/leonardo-ai-2026-06-20T184426.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/leonardo-ai/leonardo-ai-2026-06-20T184426.png
 security:
 - kind: authentication
   name: Leonardo Ai Authentication
@@ -619,7 +783,19 @@ security:
 - kind: domain-security
   name: Leonardo Ai Domain Security
   slug: leonardo-ai-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · DMARC
+skill_count: 5
+skills:
+- name: animate-an-image
+  slug: leonardo-ai-animate-an-image
+- name: generate-images
+  slug: leonardo-ai-generate-images
+- name: remove-background-and-upscale
+  slug: leonardo-ai-remove-background-and-upscale
+- name: run-a-blueprint
+  slug: leonardo-ai-run-a-blueprint
+- name: train-a-custom-model
+  slug: leonardo-ai-train-a-custom-model
 slug: leonardo-ai
 tags:
 - Artificial Intelligence
@@ -628,7 +804,7 @@ tags:
 - Generative AI
 - Creative
 - 3D
-- Diffusion
+- Diffusion Models
 - Canva
 website: https://leonardo.ai
 ---

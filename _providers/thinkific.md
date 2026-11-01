@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.7
-  scored_at: '2026-10-17'
+  score: 46.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -233,9 +235,6 @@ collections:
   name: Thinkific Admin Bundles Webhooks API
   slug: postman-thinkific-webhooks-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Thinkific Admin Bundles API
   slug: open-thinkific-bundles-api
 - collection_type: open
@@ -303,7 +302,7 @@ collections:
   slug: open-thinkific-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/capabilities/thinkific-capability-edges.yml
+  href: https://artifacts.apis.io/thinkific/capabilities/thinkific-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/thinkific-capability-edges.yml
@@ -312,17 +311,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/thinkific/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/agentic-access/thinkific-agentic-access.yml
+  href: https://artifacts.apis.io/thinkific/agentic-access/thinkific-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/thinkific-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/security/thinkific-domain-security.yml
+  href: https://artifacts.apis.io/thinkific/security/thinkific-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thinkific-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/authentication/thinkific-authentication.yml
+  href: https://artifacts.apis.io/thinkific/authentication/thinkific-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thinkific-authentication.yml
@@ -367,27 +366,27 @@ common:
   type: X
   url: https://x.com/thinkific
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/plans/thinkific-plans-pricing.yml
+  href: https://artifacts.apis.io/thinkific/plans/thinkific-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/thinkific-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/rate-limits/thinkific-rate-limits.yml
+  href: https://artifacts.apis.io/thinkific/rate-limits/thinkific-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/thinkific-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/finops/thinkific-finops.yml
+  href: https://artifacts.apis.io/thinkific/finops/thinkific-finops.yml
   title: ''
   type: FinOps
   url: finops/thinkific-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/vocabulary/thinkific-vocabulary.yml
+  href: https://artifacts.apis.io/thinkific/vocabulary/thinkific-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/thinkific-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/json-ld/thinkific-context.jsonld
+  href: https://artifacts.apis.io/thinkific/json-ld/thinkific-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/thinkific-context.jsonld
@@ -407,13 +406,13 @@ examples:
   name: Thinkific User Example
   slug: thinkific-user-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Thinkific Finops
-  primary_unit: ''
+  primary_unit: site
   service_category: ''
   slug: thinkific-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thinkific.png
 json_schemas:
 - name: BundleResponse
@@ -463,9 +462,12 @@ overview: 'Thinkific publishes 23 API contracts indexed on the [APIs.io](https:/
   Thinkific''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, pricing, and 14 more developer resources.'
 plans:
 - name: Thinkific Plans Pricing
-  plan_count: 4
+  plan_count: 8
   slug: thinkific-plans-pricing
-random_paper: 7
+- name: Thinkific Price Estimates
+  plan_count: 0
+  slug: thinkific-price-estimates
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Thinkific Rate Limits
@@ -484,22 +486,22 @@ rules:
   slug: thinkific-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.2
+  composite: 46.7
   coverage:
     artifact_dirs: 21
-    catalog_earned: 58.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 56.3
+    catalog_earned: 70.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.6
   facets:
-    access_clarity: 18.4
+    access_clarity: 50.0
     contract_governance: 23.5
-    contract_quality: 60.7
+    contract_quality: 57.3
     developer_ergonomics: 36.9
-    discoverability: 68.3
-    operational_transparency: 42.1
+    discoverability: 66.1
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -507,7 +509,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 51.5
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
@@ -522,13 +524,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/screenshots/thinkific-2026-06-20T195305.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/thinkific/thinkific-2026-06-20T195305.png
 security:
 - kind: authentication
   name: Thinkific Authentication

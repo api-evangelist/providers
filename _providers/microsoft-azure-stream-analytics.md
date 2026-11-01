@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -75,11 +77,8 @@ apis:
   description: The Transformations API from Azure Stream Analytics — 1 operation(s) for transformations.
   name: Azure Stream Analytics Transformations API
   slug: microsoft-azure-stream-analytics-transformations-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure Stream Analytics REST Clusters API
   slug: open-microsoft-azure-stream-analytics-clusters-api
@@ -103,17 +102,17 @@ collections:
   slug: open-microsoft-azure-stream-analytics
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/plans/microsoft-azure-stream-analytics-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-azure-stream-analytics/plans/microsoft-azure-stream-analytics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-azure-stream-analytics-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/rate-limits/microsoft-azure-stream-analytics-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-azure-stream-analytics/rate-limits/microsoft-azure-stream-analytics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-azure-stream-analytics-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/finops/microsoft-azure-stream-analytics-finops.yml
+  href: https://artifacts.apis.io/microsoft-azure-stream-analytics/finops/microsoft-azure-stream-analytics-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-azure-stream-analytics-finops.yml
@@ -122,17 +121,17 @@ common:
   type: Website
   url: https://microsoft.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/agentic-access/microsoft-azure-stream-analytics-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-azure-stream-analytics/agentic-access/microsoft-azure-stream-analytics-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-stream-analytics-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/security/microsoft-azure-stream-analytics-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-azure-stream-analytics/security/microsoft-azure-stream-analytics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-stream-analytics-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/authentication/microsoft-azure-stream-analytics-authentication.yml
+  href: https://artifacts.apis.io/microsoft-azure-stream-analytics/authentication/microsoft-azure-stream-analytics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-stream-analytics-authentication.yml
@@ -187,11 +186,11 @@ common:
 created: '2026-03-13'
 description: Azure Stream Analytics REST API provides management of real-time analytics jobs that process streaming data from IoT devices, Event Hubs, and blob storage. It supports creating streaming jobs, defining input sources, output destinations, and transformation queries using SQL-like syntax.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Microsoft Azure Stream Analytics Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: microsoft-azure-stream-analytics-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-stream-analytics.png
@@ -206,32 +205,32 @@ overview: 'Azure Stream Analytics is listed with 6 APIs on the [APIs.io](https:/
   Azure Stream Analytics'' developer surface includes authentication, developer portal, pricing, documentation, getting-started guide, support, engineering blog, and 12 more developer resources.'
 plans:
 - name: Microsoft Azure Stream Analytics Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: microsoft-azure-stream-analytics-plans-pricing
-random_paper: 10
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Stream Analytics Rate Limits
   slug: microsoft-azure-stream-analytics-rate-limits
 score:
   band: developing
-  composite: 41.4
+  composite: 45.5
   coverage:
     artifact_dirs: 12
-    catalog_earned: 41.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_earned: 50.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 42.9
-    developer_ergonomics: 47.6
+    developer_ergonomics: 50.0
     discoverability: 76.8
-    operational_transparency: 26.3
-  previous_composite: 42.9
+    operational_transparency: 28.9
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -245,13 +244,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/screenshots/microsoft-azure-stream-analytics-2026-06-20T185440.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-azure-stream-analytics/microsoft-azure-stream-analytics-2026-06-20T185440.png
 security:
 - kind: authentication
   name: Microsoft Azure Stream Analytics Authentication

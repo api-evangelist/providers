@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -78,7 +80,7 @@ common:
   type: ChangeLog
   url: https://chainflip.io/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/chainflip/refs/heads/main/changelog/chainflip-changelog.yml
+  href: https://artifacts.apis.io/chainflip/changelog/chainflip-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/chainflip-changelog.yml
@@ -87,47 +89,47 @@ common:
   type: Whitepaper
   url: https://assets.chainflip.io/whitepaper.pdf
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chainflip/refs/heads/main/llms/chainflip-llms.txt
+  href: https://artifacts.apis.io/chainflip/llms/chainflip-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chainflip-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chainflip/refs/heads/main/packages/chainflip-packages.yml
+  href: https://artifacts.apis.io/chainflip/packages/chainflip-packages.yml
   title: ''
   type: Packages
   url: packages/chainflip-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chainflip/refs/heads/main/packages/chainflip-packages.yml
+  href: https://artifacts.apis.io/chainflip/packages/chainflip-packages.yml
   title: ''
   type: SDKs
   url: packages/chainflip-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chainflip/refs/heads/main/cli/chainflip-cli.yml
+  href: https://artifacts.apis.io/chainflip/cli/chainflip-cli.yml
   title: ''
   type: CLI
   url: cli/chainflip-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/chainflip/refs/heads/main/sandbox/chainflip-sandbox.yml
+  href: https://artifacts.apis.io/chainflip/sandbox/chainflip-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/chainflip-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chainflip/refs/heads/main/authentication/chainflip-authentication.yml
+  href: https://artifacts.apis.io/chainflip/authentication/chainflip-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chainflip-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chainflip/refs/heads/main/conventions/chainflip-conventions.yml
+  href: https://artifacts.apis.io/chainflip/conventions/chainflip-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chainflip-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chainflip/refs/heads/main/security/chainflip-domain-security.yml
+  href: https://artifacts.apis.io/chainflip/security/chainflip-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chainflip-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chainflip/refs/heads/main/security/chainflip-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/chainflip/security/chainflip-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/chainflip-vulnerability-disclosure.yml
@@ -147,10 +149,10 @@ overview: 'Chainflip is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Chainflip''s developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, CLI, sandbox, and 15 more developer resources.'
-random_paper: 18
+random_paper: 6
 score:
   band: emerging
-  composite: 22.7
+  composite: 24.7
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -163,24 +165,24 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 61.9
-    discoverability: 55.4
-    operational_transparency: 34.2
-  previous_composite: 22.7
+    developer_ergonomics: 73.8
+    discoverability: 48.2
+    operational_transparency: 36.8
+  previous_composite: 24.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/chainflip/refs/heads/main/screenshots/chainflip-2026-07-25T205022.png
+screenshot: https://apis.io/screenshots/chainflip/chainflip-2026-07-25T205022.png
 security:
 - kind: authentication
   name: Chainflip Authentication

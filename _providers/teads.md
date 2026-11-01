@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-17'
+  score: 8.5
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Server-side API for sending advertiser conversion events (Purchase, AddToCart, Lead, ViewContent, etc.) to Teads for measurement and optimization, using a Conversion API Token generated in Teads Ad Ma
@@ -42,110 +44,110 @@ apis:
 - description: V2.0 REST API that lets chatbot and LLM publishers programmatically retrieve contextually relevant sponsored and organic ad recommendations and inject them into conversational interfaces, authenticate
   name: Teads In-Chat API
   slug: teads-in-chat-api
-artifact_total: 8
+artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/security/teads-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/teads/security/teads-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/teads-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/security/teads-domain-security.yml
+  href: https://artifacts.apis.io/teads/security/teads-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teads-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/security/teads-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/teads/security/teads-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/teads-vulnerability-disclosure.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/packages/teads-packages.yml
+  href: https://artifacts.apis.io/teads/packages/teads-packages.yml
   title: ''
   type: Packages
   url: packages/teads-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/packages/teads-packages.yml
+  href: https://artifacts.apis.io/teads/packages/teads-packages.yml
   title: ''
   type: SDKs
   url: packages/teads-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/well-known/teads-well-known.yml
+  href: https://artifacts.apis.io/teads/well-known/teads-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/teads-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/authentication/teads-authentication.yml
+  href: https://artifacts.apis.io/teads/authentication/teads-authentication.yml
   title: ''
   type: Authentication
   url: authentication/teads-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/conventions/teads-conventions.yml
+  href: https://artifacts.apis.io/teads/conventions/teads-conventions.yml
   title: ''
   type: Conventions
   url: conventions/teads-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/llms/teads-llms.txt
+  href: https://artifacts.apis.io/teads/llms/teads-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/teads-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/well-known/teads-security.txt
+  href: https://artifacts.apis.io/teads/well-known/teads-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/teads-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/security/teads-trust-center.yml
+  href: https://artifacts.apis.io/teads/security/teads-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/teads-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/security/teads-trust-center.yml
+  href: https://artifacts.apis.io/teads/security/teads-trust-center.yml
   title: ''
   type: Compliance
   url: security/teads-trust-center.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/sandbox/teads-sandbox.yml
+  href: https://artifacts.apis.io/teads/sandbox/teads-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/teads-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/rate-limits/teads-rate-limits.yml
+  href: https://artifacts.apis.io/teads/rate-limits/teads-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/teads-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/plans/teads-plans-pricing.yml
+  href: https://artifacts.apis.io/teads/plans/teads-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/teads-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/components/teads-components.yml
+  href: https://artifacts.apis.io/teads/components/teads-components.yml
   title: ''
   type: Components
   url: components/teads-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/data-model/teads-data-model.yml
+  href: https://artifacts.apis.io/teads/data-model/teads-data-model.yml
   title: ''
   type: DataModel
   url: data-model/teads-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/lifecycle/teads-lifecycle.yml
+  href: https://artifacts.apis.io/teads/lifecycle/teads-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/teads-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/lifecycle/teads-lifecycle.yml
+  href: https://artifacts.apis.io/teads/lifecycle/teads-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/teads-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/changelog/teads-changelog.yml
+  href: https://artifacts.apis.io/teads/changelog/teads-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/teads-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/conformance/teads-conformance.yml
+  href: https://artifacts.apis.io/teads/conformance/teads-conformance.yml
   title: ''
   type: Conformance
   url: conformance/teads-conformance.yml
@@ -195,6 +197,14 @@ common:
   url: https://www.teads.com/privacy-policy/
 created: '2026-07-17'
 description: Teads is an omnichannel advertising technology platform (combined with Outbrain since 2024) that helps brands reach audiences across video, display, CTV, and conversational surfaces on 10,000+ premium publisher properties in 50+ markets. For developers and advertisers Teads exposes a server-side Conversions API for privacy-safe conversion event delivery, an In-Chat Recommendations API (V2.0) for injecting contextual ad recommendations into chatbots and LLM experiences, and first-party mobile ad SDKs for iOS, Android, React Native, and Flutter used to build premium outstream inventory inside apps. This profile catalogs those developer-facing surfaces for API discovery.
+finops:
+- has_sources: true
+  method: derived
+  name: Teads Finops
+  primary_unit: ''
+  service_category: ''
+  slug: teads-finops
+  template: true
 image: https://www.teads.com/wp-content/themes/teads/assets/img/teads-logo.svg
 layout: provider
 modified: '2026-08-13'
@@ -216,23 +226,23 @@ rate_limits:
   slug: teads-rate-limits
 score:
   band: developing
-  composite: 39.9
+  composite: 40.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 40.2
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 40.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -248,14 +258,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/screenshots/teads-2026-09-02T162643.png
+screenshot: https://apis.io/screenshots/teads/teads-2026-09-02T162643.png
 security:
 - kind: authentication
   name: Teads Authentication

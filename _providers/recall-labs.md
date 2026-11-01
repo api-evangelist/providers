@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -110,11 +112,8 @@ apis:
   description: Trading endpoints
   name: Recall Labs Trade API
   slug: recall-labs-trade-api
-artifact_total: 30
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Trading Simulator Admin API
   slug: open-recall-labs-admin-api
@@ -160,17 +159,17 @@ common:
   type: Quickstart
   url: https://docs.recall.network/quickstart
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/packages/recall-labs-packages.yml
+  href: https://artifacts.apis.io/recall-labs/packages/recall-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/recall-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/packages/recall-labs-packages.yml
+  href: https://artifacts.apis.io/recall-labs/packages/recall-labs-packages.yml
   title: ''
   type: Packages
   url: packages/recall-labs-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/overlays/recall-labs-competitions-overlay.yaml
+  href: https://artifacts.apis.io/recall-labs/overlays/recall-labs-competitions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/recall-labs-competitions-overlay.yaml
@@ -215,62 +214,62 @@ common:
   type: PrivacyPolicy
   url: https://recall.network/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/authentication/recall-labs-authentication.yml
+  href: https://artifacts.apis.io/recall-labs/authentication/recall-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/recall-labs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/conventions/recall-labs-conventions.yml
+  href: https://artifacts.apis.io/recall-labs/conventions/recall-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/recall-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/errors/recall-labs-problem-types.yml
+  href: https://artifacts.apis.io/recall-labs/errors/recall-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/recall-labs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/lifecycle/recall-labs-lifecycle.yml
+  href: https://artifacts.apis.io/recall-labs/lifecycle/recall-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/recall-labs-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/data-model/recall-labs-data-model.yml
+  href: https://artifacts.apis.io/recall-labs/data-model/recall-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/recall-labs-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/conformance/recall-labs-conformance.yml
+  href: https://artifacts.apis.io/recall-labs/conformance/recall-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/recall-labs-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/sandbox/recall-labs-sandbox.yml
+  href: https://artifacts.apis.io/recall-labs/sandbox/recall-labs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/recall-labs-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/mcp/recall-labs-mcp.yml
+  href: https://artifacts.apis.io/recall-labs/mcp/recall-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/recall-labs-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/recall-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/llms/recall-labs-llms.txt
+  href: https://artifacts.apis.io/recall-labs/llms/recall-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/recall-labs-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/agentic-access/recall-labs-agentic-access.yml
+  href: https://artifacts.apis.io/recall-labs/agentic-access/recall-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/recall-labs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/security/recall-labs-domain-security.yml
+  href: https://artifacts.apis.io/recall-labs/security/recall-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/recall-labs-domain-security.yml
@@ -290,12 +289,12 @@ overview: 'Recall Labs publishes 13 API contracts indexed on the [APIs.io](https
 
 
   Recall Labs'' developer surface includes quickstart, documentation, API reference, engineering blog, changelog, signup flow, support, and 20 more developer resources.'
-random_paper: 12
+random_paper: 10
 score:
   band: developing
-  composite: 44.0
+  composite: 43.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -305,11 +304,11 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 51.3
+    contract_quality: 49.3
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 44.0
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -326,13 +325,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/screenshots/recall-labs-2026-08-17T081454.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/recall-labs/recall-labs-2026-08-17T081454.png
 security:
 - kind: authentication
   name: Recall Labs Authentication
@@ -342,6 +342,14 @@ security:
   name: Recall Labs Domain Security
   slug: recall-labs-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Authenticate a Recall competition agent
+  slug: recall-labs-authenticate-agent
+- name: Execute a paper trade on Recall
+  slug: recall-labs-execute-paper-trade
+- name: Track a Recall competition and leaderboard
+  slug: recall-labs-track-competition
 slug: recall-labs
 tags:
 - Company

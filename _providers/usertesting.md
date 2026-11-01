@@ -10,7 +10,8 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -19,21 +20,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.0
-  scored_at: '2026-10-17'
+  score: 47.0
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://api.use2.usertesting.com
@@ -76,11 +79,8 @@ apis:
   description: The Workspaces API from UserTesting — 2 operation(s) for workspaces.
   name: UserTesting Workspaces API
   slug: usertesting-workspaces-api
-artifact_total: 24
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Integrations (v1) Clip API
   slug: open-usertesting-clip-api
@@ -106,6 +106,11 @@ collections:
   name: Integrations (v1) Clip Workspaces API
   slug: open-usertesting-workspaces-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/usertesting/plans/usertesting-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/usertesting-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -127,52 +132,52 @@ common:
   type: GettingStarted
   url: https://developer.usertesting.com/docs/getting-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/authentication/usertesting-authentication.yml
+  href: https://artifacts.apis.io/usertesting/authentication/usertesting-authentication.yml
   title: ''
   type: Authentication
   url: authentication/usertesting-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/scopes/usertesting-scopes.yml
+  href: https://artifacts.apis.io/usertesting/scopes/usertesting-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/usertesting-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/llms/usertesting-llms.txt
+  href: https://artifacts.apis.io/usertesting/llms/usertesting-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/usertesting-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/well-known/usertesting-well-known.yml
+  href: https://artifacts.apis.io/usertesting/well-known/usertesting-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/usertesting-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/mcp/usertesting-mcp.yml
+  href: https://artifacts.apis.io/usertesting/mcp/usertesting-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/usertesting-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/overlays/usertesting-results-v2-overlay.yaml
+  href: https://artifacts.apis.io/usertesting/overlays/usertesting-results-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/usertesting-results-v2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/overlays/usertesting-legacy-v1-overlay.yaml
+  href: https://artifacts.apis.io/usertesting/overlays/usertesting-legacy-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/usertesting-legacy-v1-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/conformance/usertesting-conformance.yml
+  href: https://artifacts.apis.io/usertesting/conformance/usertesting-conformance.yml
   title: ''
   type: Conformance
   url: conformance/usertesting-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/errors/usertesting-problem-types.yml
+  href: https://artifacts.apis.io/usertesting/errors/usertesting-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/usertesting-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/lifecycle/usertesting-lifecycle.yml
+  href: https://artifacts.apis.io/usertesting/lifecycle/usertesting-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/usertesting-lifecycle.yml
@@ -181,42 +186,42 @@ common:
   type: StatusPage
   url: https://status.usertesting.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/rate-limits/usertesting-rate-limits.yml
+  href: https://artifacts.apis.io/usertesting/rate-limits/usertesting-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/usertesting-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/conventions/usertesting-conventions.yml
+  href: https://artifacts.apis.io/usertesting/conventions/usertesting-conventions.yml
   title: ''
   type: Conventions
   url: conventions/usertesting-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/changelog/usertesting-changelog.yml
+  href: https://artifacts.apis.io/usertesting/changelog/usertesting-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/usertesting-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/data-model/usertesting-data-model.yml
+  href: https://artifacts.apis.io/usertesting/data-model/usertesting-data-model.yml
   title: ''
   type: DataModel
   url: data-model/usertesting-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/usertesting/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/packages/usertesting-packages.yml
+  href: https://artifacts.apis.io/usertesting/packages/usertesting-packages.yml
   title: ''
   type: Packages
   url: packages/usertesting-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/security/usertesting-domain-security.yml
+  href: https://artifacts.apis.io/usertesting/security/usertesting-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/usertesting-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/security/usertesting-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/usertesting/security/usertesting-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/usertesting-vulnerability-disclosure.yml
@@ -225,7 +230,7 @@ common:
   type: Security
   url: https://hackerone.com/usertesting
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/security/usertesting-trust-center.yml
+  href: https://artifacts.apis.io/usertesting/security/usertesting-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/usertesting-trust-center.yml
@@ -267,6 +272,14 @@ common:
   url: https://www.usertesting.com/privacy-center/privacy-policy
 created: '2026-07-17'
 description: 'UserTesting is a human insight platform for experience research: teams recruit vetted participants, run usability tests, surveys, live conversations, and interaction tests, and analyze session videos, transcripts, and QXscore experience metrics. Its developer surface at developer.usertesting.com exposes the Results API (v2) for programmatic access to session data, videos, transcripts, clips, highlight reels, and QXscores, plus Legacy (v1) endpoints for embedding content from classic tests. Authentication is OAuth 2.0 client credentials issued against its Okta authorization server, and an official MCP server (early access) connects the platform to Claude, ChatGPT, Figma Make, and other AI clients.'
+finops:
+- has_sources: true
+  method: derived
+  name: Usertesting Finops
+  primary_unit: ''
+  service_category: ''
+  slug: usertesting-finops
+  template: true
 image: https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/880/U-Glyph-with_R_RGB_Blue_2x.png
 layout: provider
 mcp_servers:
@@ -277,11 +290,15 @@ modified: '2026-07-21'
 name: UserTesting
 nav: Providers
 network: true
-overview: 'UserTesting publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clip API, General Session Data API, Highlightreel API, and 5 more. Tagged areas include Company, UX Research, Usability Testing, Human Insight, and Customer Experience.
+overview: 'UserTesting publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clip API, General Session Data API, Highlightreel API, and 5 more. Tagged areas include Company, User Research, Usability Testing, Human Insight, and Customer Experience.
 
 
-  UserTesting''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 28 more developer resources.'
-random_paper: 3
+  UserTesting''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 29 more developer resources.'
+plans:
+- name: Usertesting Plans Pricing
+  plan_count: 3
+  slug: usertesting-plans-pricing
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Usertesting Rate Limits
@@ -292,24 +309,24 @@ scopes:
   slug: usertesting-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: developing
-  composite: 51.5
+  band: strong
+  composite: 61.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 39.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    artifact_dirs: 24
+    catalog_earned: 51.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 6.3
   facets:
-    access_clarity: 53.9
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 52.0
-    developer_ergonomics: 43.5
-    discoverability: 75.0
-    operational_transparency: 50.0
-  previous_composite: 51.4
+    developer_ergonomics: 58.9
+    discoverability: 65.0
+    operational_transparency: 52.6
+  previous_composite: 55.3
   provenance:
     conformance: derived
     contracts:
@@ -333,14 +350,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/screenshots/usertesting-2026-08-17T082654.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/usertesting/usertesting-2026-08-17T082654.png
 security:
 - kind: authentication
   name: Usertesting Authentication
@@ -358,10 +375,18 @@ security:
   name: Usertesting Trust Center
   slug: usertesting-trust-center
   summary_line: SOC 2, ISO 27001:2022 (auditor CoalFire), ISO 27701, CSA STAR, HIPAA, GDPR, CCPA
+skill_count: 3
+skills:
+- name: Download session videos, transcripts, and clips
+  slug: usertesting-download-session-media
+- name: Pull all session results for a test
+  slug: usertesting-pull-test-session-results
+- name: Track QXscore and export highlight reels
+  slug: usertesting-qxscore-and-highlight-reels
 slug: usertesting
 tags:
 - Company
-- UX Research
+- User Research
 - Usability Testing
 - Human Insight
 - Customer Experience

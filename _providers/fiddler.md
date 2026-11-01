@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: Fiddler Everywhere is a cross-platform web debugging proxy for macOS, Windows, and Linux. It captures HTTP and HTTPS traffic, provides API composition capabilities, and includes collaboration features
@@ -51,10 +53,10 @@ apis:
 - description: RETIRED. Fiddler Jam was a browser-based troubleshooting solution that let non-technical users capture HTTP traffic logs and share them with development teams. Progress Software discontinued it on 202
   name: Fiddler Jam
   slug: fiddler-jam
-artifact_total: 13
+artifact_total: 17
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/finops/fiddler-finops.yml
+  href: https://artifacts.apis.io/fiddler/finops/fiddler-finops.yml
   title: ''
   type: FinOps
   url: finops/fiddler-finops.yml
@@ -95,12 +97,12 @@ common:
   type: Pricing
   url: https://www.telerik.com/purchase/fiddler
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/plans/fiddler-plans-pricing.yml
+  href: https://artifacts.apis.io/fiddler/plans/fiddler-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fiddler-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/rate-limits/fiddler-rate-limits.yml
+  href: https://artifacts.apis.io/fiddler/rate-limits/fiddler-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fiddler-rate-limits.yml
@@ -125,57 +127,57 @@ common:
   type: Download
   url: https://www.telerik.com/download/fiddler-everywhere
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/mcp/fiddler-mcp.yml
+  href: https://artifacts.apis.io/fiddler/mcp/fiddler-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/fiddler-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fiddler/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/llms/fiddler-llms.txt
+  href: https://artifacts.apis.io/fiddler/llms/fiddler-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fiddler-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/packages/fiddler-packages.yml
+  href: https://artifacts.apis.io/fiddler/packages/fiddler-packages.yml
   title: ''
   type: Packages
   url: packages/fiddler-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/packages/fiddler-packages.yml
+  href: https://artifacts.apis.io/fiddler/packages/fiddler-packages.yml
   title: ''
   type: SDKs
   url: packages/fiddler-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/authentication/fiddler-authentication.yml
+  href: https://artifacts.apis.io/fiddler/authentication/fiddler-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fiddler-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/conventions/fiddler-conventions.yml
+  href: https://artifacts.apis.io/fiddler/conventions/fiddler-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fiddler-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/conformance/fiddler-conformance.yml
+  href: https://artifacts.apis.io/fiddler/conformance/fiddler-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fiddler-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/conformance/fiddler-conformance.yml
+  href: https://artifacts.apis.io/fiddler/conformance/fiddler-conformance.yml
   title: ''
   type: Compliance
   url: conformance/fiddler-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/changelog/fiddler-changelog.yml
+  href: https://artifacts.apis.io/fiddler/changelog/fiddler-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fiddler-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/lifecycle/fiddler-lifecycle.yml
+  href: https://artifacts.apis.io/fiddler/lifecycle/fiddler-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fiddler-lifecycle.yml
@@ -188,32 +190,32 @@ common:
   type: Deprecation
   url: https://www.telerik.com/purchase/license-agreement/fiddler
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/well-known/fiddler-well-known.yml
+  href: https://artifacts.apis.io/fiddler/well-known/fiddler-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fiddler-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/well-known/fiddler-security.txt
+  href: https://artifacts.apis.io/fiddler/well-known/fiddler-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/fiddler-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/security/fiddler-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/fiddler/security/fiddler-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/fiddler-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/security/fiddler-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/fiddler/security/fiddler-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fiddler-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/security/fiddler-trust-center.yml
+  href: https://artifacts.apis.io/fiddler/security/fiddler-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fiddler-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/security/fiddler-domain-security.yml
+  href: https://artifacts.apis.io/fiddler/security/fiddler-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fiddler-domain-security.yml
@@ -232,13 +234,13 @@ common:
 created: '2026-03-26'
 description: Fiddler by Telerik (Progress Software) is a family of HTTP debugging proxy tools for capturing, inspecting, modifying, and replaying HTTP and HTTPS traffic between a machine and the internet. The line comprises Fiddler Everywhere (the cross-platform flagship), Fiddler Classic (the original Windows proxy, licensed for non-commercial use only as of 2026-08-03), Fiddler Everywhere Reporter (a free capture-and-report companion) and FiddlerCore (an embeddable proxy engine for .NET). Fiddler publishes no hosted REST API; its programmatic surface is a first-party Model Context Protocol server hosted by the Fiddler Everywhere desktop app on the loopback interface, exposing 20 documented tools that let a coding agent start captures, read sessions and request/response details, apply filters, create traffic-rewriting rules, run a reverse proxy and cache LLM agent calls. Progress also publishes three official Agent Skills for it. Fiddler Jam was retired by Progress on 2024-07-01.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Fiddler Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: user
+  service_category: ''
   slug: fiddler-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fiddler.png
 layout: provider
 mcp_servers:
@@ -255,32 +257,35 @@ overview: 'Fiddler is listed with 5 APIs on the [APIs.io](https://apis.io/) netw
   Fiddler''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 plans:
 - name: Fiddler Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: fiddler-plans-pricing
-random_paper: 4
+- name: Fiddler Price Estimates
+  plan_count: 0
+  slug: fiddler-price-estimates
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Fiddler Rate Limits
   slug: fiddler-rate-limits
 score:
   band: developing
-  composite: 48.2
+  composite: 49.4
   coverage:
     artifact_dirs: 18
-    catalog_earned: 47.0
+    catalog_earned: 50.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 68.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 68.3
-    operational_transparency: 57.9
-  previous_composite: 49.7
+    discoverability: 61.7
+    operational_transparency: 60.5
+  previous_composite: 47.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -291,14 +296,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/screenshots/fiddler-2026-06-20T181148.png
+screenshot: https://apis.io/screenshots/fiddler/fiddler-2026-06-20T181148.png
 security:
 - kind: authentication
   name: Fiddler Authentication
@@ -316,6 +321,14 @@ security:
   name: Fiddler Trust Center
   slug: fiddler-trust-center
   summary_line: ISO/IEC 27001, SOC 2, HIPAA
+skill_count: 3
+skills:
+- name: fiddler-download-setup
+  slug: fiddler-download-setup
+- name: fiddler-mcp-setup
+  slug: fiddler-mcp-setup
+- name: fiddler-traffic-debugging
+  slug: fiddler-traffic-debugging
 slug: fiddler
 tags:
 - API Debugging

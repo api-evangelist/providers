@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -62,11 +64,8 @@ apis:
   description: The SearchHotel API from Trip.com — 1 operation(s) for searchhotel.
   name: Trip.com SearchHotel API
   slug: tripcom-searchhotel-api
-artifact_total: 11
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Trip.com Plugin- Personal Travel Assistant. SearchAttractionAndActivity API
   slug: open-tripcom-searchattractionandactivity-api
@@ -85,52 +84,52 @@ common:
   type: Website
   url: https://www.trip.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/overlays/tripcom-plugin-overlay.yaml
+  href: https://artifacts.apis.io/tripcom/overlays/tripcom-plugin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tripcom-plugin-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/security/tripcom-domain-security.yml
+  href: https://artifacts.apis.io/tripcom/security/tripcom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tripcom-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/agentic-access/tripcom-agentic-access.yml
+  href: https://artifacts.apis.io/tripcom/agentic-access/tripcom-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tripcom-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/llms/tripcom-llms.txt
+  href: https://artifacts.apis.io/tripcom/llms/tripcom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tripcom-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/well-known/tripcom-well-known.yml
+  href: https://artifacts.apis.io/tripcom/well-known/tripcom-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tripcom-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/mcp/tripcom-mcp.yml
+  href: https://artifacts.apis.io/tripcom/mcp/tripcom-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tripcom-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/conformance/tripcom-conformance.yml
+  href: https://artifacts.apis.io/tripcom/conformance/tripcom-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tripcom-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/lifecycle/tripcom-lifecycle.yml
+  href: https://artifacts.apis.io/tripcom/lifecycle/tripcom-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tripcom-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/conventions/tripcom-conventions.yml
+  href: https://artifacts.apis.io/tripcom/conventions/tripcom-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tripcom-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tripcom/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -166,10 +165,10 @@ overview: 'Trip.com publishes 4 API contracts indexed on the [APIs.io](https://a
 
 
   Trip.com''s developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 18
+random_paper: 22
 score:
-  band: emerging
-  composite: 23.8
+  band: thin
+  composite: 26.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -177,15 +176,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 43.5
     developer_ergonomics: 18.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 23.7
+  previous_composite: 26.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -201,19 +200,32 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/screenshots/tripcom-2026-09-02T164241.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tripcom/tripcom-2026-09-02T164241.png
 security:
 - kind: domain-security
   name: Tripcom Domain Security
   slug: tripcom-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 5
+skills:
+- name: Plan a trip (flights + hotels + things to do)
+  slug: tripcom-plan-trip
+- name: Search attractions and activities on Trip.com
+  slug: tripcom-search-attractions
+- name: Search rental cars on Trip.com
+  slug: tripcom-search-cars
+- name: Search flights on Trip.com
+  slug: tripcom-search-flights
+- name: Search hotels on Trip.com
+  slug: tripcom-search-hotels
 slug: tripcom
 tags:
 - Company

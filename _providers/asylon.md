@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/asylon/refs/heads/main/security/asylon-domain-security.yml
+  href: https://artifacts.apis.io/asylon/security/asylon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/asylon-domain-security.yml
@@ -70,10 +72,10 @@ overview: 'Asylon is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Asylon''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 2
+random_paper: 14
 score:
   band: minimal
-  composite: 6.8
+  composite: 7.2
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -88,7 +90,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 48.2
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -96,21 +98,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 6.8
+  previous_composite: 7.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/asylon/refs/heads/main/screenshots/asylon-2026-07-25T201521.png
+screenshot: https://apis.io/screenshots/asylon/asylon-2026-07-25T201521.png
 security:
 - kind: domain-security
   name: Asylon Domain Security

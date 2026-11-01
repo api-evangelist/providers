@@ -23,21 +23,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inductive/refs/heads/main/security/inductive-domain-security.yml
+  href: https://artifacts.apis.io/inductive/security/inductive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/inductive-domain-security.yml
@@ -46,12 +48,12 @@ common:
   type: Website
   url: https://inductive.bio
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/inductive/refs/heads/main/llms/inductive-llms.txt
+  href: https://artifacts.apis.io/inductive/llms/inductive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/inductive-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inductive/refs/heads/main/conformance/inductive-conformance.yml
+  href: https://artifacts.apis.io/inductive/conformance/inductive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/inductive-conformance.yml
@@ -91,25 +93,25 @@ overview: 'Inductive is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Inductive''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 3
+random_paper: 11
 score:
   band: emerging
-  composite: 11.7
+  composite: 12.3
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 14.5
+    access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 58.3
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -117,7 +119,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 11.6
+  previous_composite: 12.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -127,14 +129,14 @@ score:
     regime: Health
     regime_id: health
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/inductive/refs/heads/main/screenshots/inductive-2026-07-25T222338.png
+screenshot: https://apis.io/screenshots/inductive/inductive-2026-07-25T222338.png
 security:
 - kind: domain-security
   name: Inductive Domain Security

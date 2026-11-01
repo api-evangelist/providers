@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: Aggregated international trade events including trade missions, conferences, webinars, and trade shows from federal partners.
   name: International Trade Administration Trade Events API
   slug: international-trade-administration-trade-events-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: International Trade Administration Data Services Consolidated Screening List API
   slug: open-international-trade-administration-consolidated-screening-list-api
@@ -103,37 +102,37 @@ collections:
   slug: open-international-trade-administration
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/plans/international-trade-administration-plans-pricing.yml
+  href: https://artifacts.apis.io/international-trade-administration/plans/international-trade-administration-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/international-trade-administration-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/rate-limits/international-trade-administration-rate-limits.yml
+  href: https://artifacts.apis.io/international-trade-administration/rate-limits/international-trade-administration-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/international-trade-administration-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/finops/international-trade-administration-finops.yml
+  href: https://artifacts.apis.io/international-trade-administration/finops/international-trade-administration-finops.yml
   title: ''
   type: FinOps
   url: finops/international-trade-administration-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/capabilities/international-trade-administration-capability-edges.yml
+  href: https://artifacts.apis.io/international-trade-administration/capabilities/international-trade-administration-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/international-trade-administration-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/agentic-access/international-trade-administration-agentic-access.yml
+  href: https://artifacts.apis.io/international-trade-administration/agentic-access/international-trade-administration-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/international-trade-administration-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/security/international-trade-administration-domain-security.yml
+  href: https://artifacts.apis.io/international-trade-administration/security/international-trade-administration-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/international-trade-administration-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/authentication/international-trade-administration-authentication.yml
+  href: https://artifacts.apis.io/international-trade-administration/authentication/international-trade-administration-authentication.yml
   title: ''
   type: Authentication
   url: authentication/international-trade-administration-authentication.yml
@@ -179,7 +178,7 @@ finops:
 - has_sources: false
   method: generated
   name: International Trade Administration Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: international-trade-administration-finops
   template: true
@@ -200,7 +199,7 @@ plans:
 - name: International Trade Administration Plans Pricing
   plan_count: 3
   slug: international-trade-administration-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: International Trade Administration Rate Limits
@@ -219,7 +218,7 @@ rules:
   slug: international-trade-administration-rules
 score:
   band: thin
-  composite: 33.2
+  composite: 39.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.0
@@ -227,20 +226,20 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 49.3
-    developer_ergonomics: 31.0
+    developer_ergonomics: 47.6
     discoverability: 66.1
-    operational_transparency: 10.5
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 34.8
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -254,14 +253,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/screenshots/international-trade-administration-2026-06-20T183459.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/international-trade-administration/international-trade-administration-2026-06-20T183459.png
 security:
 - kind: authentication
   name: International Trade Administration Authentication

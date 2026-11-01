@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.8
-  scored_at: '2026-10-17'
+  score: 32.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://open-api.teambridge.com
@@ -61,15 +63,12 @@ apis:
   description: The Teambridge External API API from Teambridge — 0 operation(s) for teambridge external api.
   name: Teambridge External API
   slug: teambridge-teambridge-external-api-api
-artifact_total: 15
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Teambridge Webhooks
   slug: teambridge-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Teambridge External Collections (Unified API) Collections (Unified API) Collections (Unified API) API
   slug: open-teambridge-collections-unified-api-api
@@ -100,37 +99,37 @@ common:
   type: APIReference
   url: https://docs.teambridge.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/authentication/teambridge-authentication.yml
+  href: https://artifacts.apis.io/teambridge/authentication/teambridge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/teambridge-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/scopes/teambridge-scopes.yml
+  href: https://artifacts.apis.io/teambridge/scopes/teambridge-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/teambridge-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/conventions/teambridge-conventions.yml
+  href: https://artifacts.apis.io/teambridge/conventions/teambridge-conventions.yml
   title: ''
   type: Conventions
   url: conventions/teambridge-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/errors/teambridge-problem-types.yml
+  href: https://artifacts.apis.io/teambridge/errors/teambridge-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/teambridge-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/asyncapi/teambridge-webhooks.yml
+  href: https://artifacts.apis.io/teambridge/asyncapi/teambridge-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/teambridge-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/lifecycle/teambridge-lifecycle.yml
+  href: https://artifacts.apis.io/teambridge/lifecycle/teambridge-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/teambridge-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/conformance/teambridge-conformance.yml
+  href: https://artifacts.apis.io/teambridge/conformance/teambridge-conformance.yml
   title: ''
   type: Conformance
   url: conformance/teambridge-conformance.yml
@@ -139,37 +138,37 @@ common:
   type: Compliance
   url: https://security.teambridge.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/data-model/teambridge-data-model.yml
+  href: https://artifacts.apis.io/teambridge/data-model/teambridge-data-model.yml
   title: ''
   type: DataModel
   url: data-model/teambridge-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/overlays/teambridge-external-api-overlay.yaml
+  href: https://artifacts.apis.io/teambridge/overlays/teambridge-external-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/teambridge-external-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/mcp/teambridge-mcp.yml
+  href: https://artifacts.apis.io/teambridge/mcp/teambridge-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/teambridge-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/llms/teambridge-llms.txt
+  href: https://artifacts.apis.io/teambridge/llms/teambridge-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/teambridge-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/teambridge/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/security/teambridge-trust-center.yml
+  href: https://artifacts.apis.io/teambridge/security/teambridge-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/teambridge-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/security/teambridge-domain-security.yml
+  href: https://artifacts.apis.io/teambridge/security/teambridge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teambridge-domain-security.yml
@@ -212,7 +211,7 @@ overview: 'Teambridge publishes 5 API contracts indexed on the [APIs.io](https:/
 
 
   Teambridge''s developer surface includes documentation, API reference, authentication, pricing, engineering blog, signup flow, and 19 more developer resources.'
-random_paper: 10
+random_paper: 12
 scopes:
 - name: Teambridge Scopes
   scope_count: 1
@@ -220,7 +219,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 50.7
+  composite: 48.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -232,18 +231,18 @@ score:
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 57.9
+    contract_quality: 58.1
     developer_ergonomics: 42.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 50.7
+  previous_composite: 48.0
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 4
     mcp: derived
     skills: derived
   regulatory:
@@ -252,13 +251,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/screenshots/teambridge-2026-08-17T082257.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/teambridge/teambridge-2026-08-17T082257.png
 security:
 - kind: authentication
   name: Teambridge Authentication
@@ -272,6 +272,14 @@ security:
   name: Teambridge Trust Center
   slug: teambridge-trust-center
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+skill_count: 3
+skills:
+- name: Consume and verify Teambridge webhooks
+  slug: teambridge-consume-webhooks
+- name: Read Teambridge collection records
+  slug: teambridge-read-collection-records
+- name: Create records and sync external mappings
+  slug: teambridge-sync-external-mappings
 slug: teambridge
 tags:
 - Company

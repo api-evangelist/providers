@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
@@ -57,47 +59,47 @@ common:
   type: PrivacyPolicy
   url: https://www.firstsolar.com/Policies/Privacy-Policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/first-solar/refs/heads/main/well-known/first-solar-well-known.yml
+  href: https://artifacts.apis.io/first-solar/well-known/first-solar-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/first-solar-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/first-solar/refs/heads/main/authentication/first-solar-authentication.yml
+  href: https://artifacts.apis.io/first-solar/authentication/first-solar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/first-solar-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/first-solar/refs/heads/main/scopes/first-solar-scopes.yml
+  href: https://artifacts.apis.io/first-solar/scopes/first-solar-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/first-solar-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/first-solar/refs/heads/main/conformance/first-solar-conformance.yml
+  href: https://artifacts.apis.io/first-solar/conformance/first-solar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/first-solar-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/first-solar/refs/heads/main/packages/first-solar-packages.yml
+  href: https://artifacts.apis.io/first-solar/packages/first-solar-packages.yml
   title: ''
   type: Packages
   url: packages/first-solar-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/first-solar/refs/heads/main/plans/first-solar-plans-pricing.yml
+  href: https://artifacts.apis.io/first-solar/plans/first-solar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/first-solar-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/first-solar/refs/heads/main/rate-limits/first-solar-rate-limits.yml
+  href: https://artifacts.apis.io/first-solar/rate-limits/first-solar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/first-solar-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/first-solar/refs/heads/main/llms/first-solar-llms.txt
+  href: https://artifacts.apis.io/first-solar/llms/first-solar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/first-solar-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/first-solar/refs/heads/main/security/first-solar-domain-security.yml
+  href: https://artifacts.apis.io/first-solar/security/first-solar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/first-solar-domain-security.yml
@@ -133,7 +135,7 @@ press:
 - date: ''
   title: First Solar Inaugurates New $1.1 Billion AI-Enabled ...
   url: https://www.opportunitylouisiana.gov/news/first-solar-inaugurates-new-1-1-billion-ai-enabled-louisiana-manufacturing-facility
-random_paper: 20
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: First Solar Rate Limits
@@ -147,7 +149,7 @@ score:
   band: emerging
   composite: 17.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -175,14 +177,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/first-solar/refs/heads/main/screenshots/first-solar-2026-06-20T181242.png
+screenshot: https://apis.io/screenshots/first-solar/first-solar-2026-06-20T181242.png
 security:
 - kind: authentication
   name: First Solar Authentication

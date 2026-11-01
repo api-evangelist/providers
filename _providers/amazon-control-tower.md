@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 17
@@ -87,14 +89,11 @@ arazzos:
 - description: Update a landing zone's version or manifest, poll the async operation, then read back its details.
   name: AWS Control Tower Update Landing Zone and Confirm
   slug: amazon-control-tower-update-landing-zone-workflow
-artifact_total: 170
+artifact_total: 169
 collections:
 - collection_type: postman
   name: AWS Control Tower API
   slug: postman-amazon-control-tower
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AWS Control Tower Baselines API
   slug: open-amazon-control-tower-baselines-api
@@ -112,17 +111,17 @@ collections:
   slug: open-amazon-control-tower
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/plans/amazon-control-tower-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-control-tower/plans/amazon-control-tower-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-control-tower-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/rate-limits/amazon-control-tower-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-control-tower/rate-limits/amazon-control-tower-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-control-tower-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/finops/amazon-control-tower-finops.yml
+  href: https://artifacts.apis.io/amazon-control-tower/finops/amazon-control-tower-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-control-tower-finops.yml
@@ -131,27 +130,27 @@ common:
   type: Website
   url: https://aws.amazon.com/controltower/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/agentic-access/amazon-control-tower-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-control-tower/agentic-access/amazon-control-tower-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-control-tower-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/security/amazon-control-tower-trust-center.yml
+  href: https://artifacts.apis.io/amazon-control-tower/security/amazon-control-tower-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-control-tower-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/security/amazon-control-tower-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-control-tower/security/amazon-control-tower-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-control-tower-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/security/amazon-control-tower-domain-security.yml
+  href: https://artifacts.apis.io/amazon-control-tower/security/amazon-control-tower-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-control-tower-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/authentication/amazon-control-tower-authentication.yml
+  href: https://artifacts.apis.io/amazon-control-tower/authentication/amazon-control-tower-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-control-tower-authentication.yml
@@ -160,37 +159,37 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-control-tower/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/arazzo/amazon-control-tower-create-landing-zone-workflow.yml
+  href: https://artifacts.apis.io/amazon-control-tower/arazzo/amazon-control-tower-create-landing-zone-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-control-tower-create-landing-zone-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/arazzo/amazon-control-tower-disable-control-workflow.yml
+  href: https://artifacts.apis.io/amazon-control-tower/arazzo/amazon-control-tower-disable-control-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-control-tower-disable-control-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/arazzo/amazon-control-tower-enable-baseline-workflow.yml
+  href: https://artifacts.apis.io/amazon-control-tower/arazzo/amazon-control-tower-enable-baseline-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-control-tower-enable-baseline-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/arazzo/amazon-control-tower-enable-control-workflow.yml
+  href: https://artifacts.apis.io/amazon-control-tower/arazzo/amazon-control-tower-enable-control-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-control-tower-enable-control-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/arazzo/amazon-control-tower-update-enabled-baseline-workflow.yml
+  href: https://artifacts.apis.io/amazon-control-tower/arazzo/amazon-control-tower-update-enabled-baseline-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-control-tower-update-enabled-baseline-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/arazzo/amazon-control-tower-update-enabled-control-workflow.yml
+  href: https://artifacts.apis.io/amazon-control-tower/arazzo/amazon-control-tower-update-enabled-control-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-control-tower-update-enabled-control-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/arazzo/amazon-control-tower-update-landing-zone-workflow.yml
+  href: https://artifacts.apis.io/amazon-control-tower/arazzo/amazon-control-tower-update-landing-zone-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-control-tower-update-landing-zone-workflow.yml
@@ -251,12 +250,12 @@ common:
   type: Pricing
   url: https://aws.amazon.com/controltower/pricing/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/rules/amazon-control-tower-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-control-tower/rules/amazon-control-tower-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-control-tower-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/vocabulary/amazon-control-tower-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-control-tower/vocabulary/amazon-control-tower-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-control-tower-vocabulary.yaml
@@ -408,11 +407,11 @@ features:
 - description: Seamlessly integrate third-party security, compliance, and ITSM tools at scale to enhance your AWS multi-account environment.
   name: Third-Party Integrations
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Control Tower Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: amazon-control-tower-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-control-tower.png
@@ -695,9 +694,9 @@ overview: 'Amazon Control Tower is listed with 4 APIs on the [APIs.io](https://a
   Amazon Control Tower''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 26 more developer resources.'
 plans:
 - name: Amazon Control Tower Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: amazon-control-tower-plans-pricing
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Amazon Control Tower Rate Limits
@@ -728,23 +727,23 @@ rules:
   slug: amazon-control-tower-spectral-rules
 score:
   band: developing
-  composite: 44.6
+  composite: 53.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 75.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 40.0
+    artifact_dirs: 21
+    catalog_earned: 80.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 35.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -2.1
   facets:
-    access_clarity: 53.9
+    access_clarity: 73.7
     contract_governance: 27.3
     contract_quality: 27.9
-    developer_ergonomics: 53.6
+    developer_ergonomics: 65.5
     discoverability: 71.4
-    operational_transparency: 26.3
-  previous_composite: 46.1
+    operational_transparency: 39.5
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     contracts:
@@ -758,13 +757,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/screenshots/amazon-control-tower-2026-06-20T171608.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-control-tower/amazon-control-tower-2026-06-20T171608.png
 security:
 - kind: authentication
   name: Amazon Control Tower Authentication

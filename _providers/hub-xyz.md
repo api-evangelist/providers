@@ -1,0 +1,132 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-10-31'
+api_count: 1
+apis:
+- description: Hub's API surface for accessing real-world, multimodal training datasets (egocentric, image, video, and audio) and requesting bespoke data collection projects. The public developer surface is minimal;
+  name: Hub Datasets API
+  slug: hub-datasets-api
+artifact_total: 2
+common:
+- group: auth
+  href: https://artifacts.apis.io/hub-xyz/security/hub-xyz-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/hub-xyz-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://hub.xyz
+- group: company
+  title: ''
+  type: Blog
+  url: https://medium.hub.xyz
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://hub.xyz/privacypolicy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://ai.hub.xyz
+- group: agent
+  href: https://artifacts.apis.io/hub-xyz/llms/hub-xyz-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/hub-xyz-llms.txt
+created: '2026-07-17'
+description: Hub (Hub.xyz) is a distributed physical-AI data infrastructure company that creates, annotates, and curates custom real-world datasets — egocentric first-person video, image, video, and audio — used to train AI and robotics models. Data is sourced through a global network of 500,000+ retail contributors and verified small and medium businesses across 150+ countries and 100+ languages. Hub offers both off-the-shelf labeled datasets and bespoke, custom-scoped data collection projects quoted within hours, delivered through a fully managed pipeline that couples automation with human-in-the-loop validation for frontier AI labs and Fortune 500 companies.
+image: https://hub.xyz/landing-v2/og-image.png
+layout: provider
+modified: '2026-07-19'
+name: Hub
+nav: Providers
+network: true
+overview: 'Hub is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Training Data, and Robotics.
+
+
+  Hub''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
+random_paper: 7
+score:
+  band: minimal
+  composite: 10.5
+  coverage:
+    artifact_dirs: 6
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 23.7
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.4
+    discoverability: 66.1
+    operational_transparency: 0.0
+  regulatory:
+    applies: true
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 9.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hub-xyz/hub-xyz-2026-07-25T221605.png
+security:
+- kind: domain-security
+  name: Hub Xyz Domain Security
+  slug: hub-xyz-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: hub-xyz
+tags:
+- Company
+- Artificial Intelligence
+- Machine Learning
+- Training Data
+- Robotics
+- Physical AI
+- Datasets
+- Data Infrastructure
+- Annotation
+- Multi-Modal
+website: https://hub.xyz
+---

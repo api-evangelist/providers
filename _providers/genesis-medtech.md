@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/genesis-medtech/refs/heads/main/security/genesis-medtech-domain-security.yml
+  href: https://artifacts.apis.io/genesis-medtech/security/genesis-medtech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/genesis-medtech-domain-security.yml
@@ -73,7 +75,7 @@ overview: 'Genesis Medtech is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Genesis Medtech''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 7
+random_paper: 13
 score:
   band: minimal
   composite: 7.7
@@ -99,14 +101,14 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/genesis-medtech/refs/heads/main/screenshots/genesis-medtech-2026-07-25T215611.png
+screenshot: https://apis.io/screenshots/genesis-medtech/genesis-medtech-2026-07-25T215611.png
 security:
 - kind: domain-security
   name: Genesis Medtech Domain Security

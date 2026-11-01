@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: A live, unauthenticated remote Model Context Protocol endpoint served at the AgroBox structural-biology service site. The server is the Wix "Site Visitor Assistant" — a PLATFORM-AUTHORED MCP surface g
@@ -39,7 +41,7 @@ common:
   type: BlogRSS
   url: https://www.agrodesign.co.jp/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agrodesignstudio/refs/heads/main/security/agrodesignstudio-domain-security.yml
+  href: https://artifacts.apis.io/agrodesignstudio/security/agrodesignstudio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agrodesignstudio-domain-security.yml
@@ -68,42 +70,42 @@ common:
   type: LinkedIn
   url: https://jp.linkedin.com/company/agrodesignstudios
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agrodesignstudio/refs/heads/main/mcp/agrodesignstudio-mcp.yml
+  href: https://artifacts.apis.io/agrodesignstudio/mcp/agrodesignstudio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/agrodesignstudio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agrodesignstudio/refs/heads/main/llms/agrodesignstudio-llms.txt
+  href: https://artifacts.apis.io/agrodesignstudio/llms/agrodesignstudio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agrodesignstudio-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agrodesignstudio/refs/heads/main/authentication/agrodesignstudio-authentication.yml
+  href: https://artifacts.apis.io/agrodesignstudio/authentication/agrodesignstudio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agrodesignstudio-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agrodesignstudio/refs/heads/main/conformance/agrodesignstudio-conformance.yml
+  href: https://artifacts.apis.io/agrodesignstudio/conformance/agrodesignstudio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agrodesignstudio-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agrodesignstudio/refs/heads/main/conventions/agrodesignstudio-conventions.yml
+  href: https://artifacts.apis.io/agrodesignstudio/conventions/agrodesignstudio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agrodesignstudio-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agrodesignstudio/refs/heads/main/rate-limits/agrodesignstudio-rate-limits.yml
+  href: https://artifacts.apis.io/agrodesignstudio/rate-limits/agrodesignstudio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agrodesignstudio-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agrodesignstudio/refs/heads/main/plans/agrodesignstudio-plans-pricing.yml
+  href: https://artifacts.apis.io/agrodesignstudio/plans/agrodesignstudio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agrodesignstudio-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/agrodesignstudio/refs/heads/main/packages/agrodesignstudio-packages.yml
+  href: https://artifacts.apis.io/agrodesignstudio/packages/agrodesignstudio-packages.yml
   title: ''
   type: Packages
   url: packages/agrodesignstudio-packages.yml
@@ -127,14 +129,14 @@ plans:
 - name: Agrodesignstudio Plans Pricing
   plan_count: 0
   slug: agrodesignstudio-plans-pricing
-random_paper: 7
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Agrodesignstudio Rate Limits
   slug: agrodesignstudio-rate-limits
 score:
   band: emerging
-  composite: 18.8
+  composite: 17.8
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -148,7 +150,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -157,7 +159,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 18.8
+  previous_composite: 17.8
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -167,14 +169,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/agrodesignstudio/refs/heads/main/screenshots/agrodesignstudio-2026-10-11T093200.png
+screenshot: https://apis.io/screenshots/agrodesignstudio/agrodesignstudio-2026-10-11T093200.png
 security:
 - kind: authentication
   name: Agrodesignstudio Authentication

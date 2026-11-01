@@ -25,23 +25,43 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 2.9
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 8
 common:
+- group: other
+  href: https://artifacts.apis.io/royal-caribbean/hosts/royal-caribbean-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/royal-caribbean-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/royal-caribbean/vendors/royal-caribbean-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/royal-caribbean-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://royalcaribbeangroup.com/news
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://dev.royalcaribbeangroup.com/
 - group: company
   title: ''
   type: Blog
   url: https://www.royalcaribbeangroup.com/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/royal-caribbean/refs/heads/main/security/royal-caribbean-domain-security.yml
+  href: https://artifacts.apis.io/royal-caribbean/security/royal-caribbean-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/royal-caribbean-domain-security.yml
@@ -57,6 +77,10 @@ common:
   title: ''
   type: Website
   url: https://www.royalcaribbeangroup.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.royalcaribbeangroup.com/royal-caribbeans-privacy-notice/
 - group: other
   title: ''
   type: ConsumerSite
@@ -65,15 +89,23 @@ common:
   title: ''
   type: TravelPartnerPortal
   url: https://www.cruisingpower.com/
-- group: other
-  title: ''
-  type: LoyaltyProgram
-  url: https://www.royalcaribbean.com/loyalty/crown-and-anchor
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/royal-caribbean/refs/heads/main/vocabulary/royal-caribbean-vocabulary.yml
+  href: https://artifacts.apis.io/royal-caribbean/vocabulary/royal-caribbean-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/royal-caribbean-vocabulary.yml
+coverage:
+  checked: '2026-10-20'
+  detail: Royal Caribbean Group publishes no public API or contract; api.* hosts serve no OpenAPI/GraphQL/MCP, dev.royalcaribbeangroup.com is a mirror of the corporate site rather than a developer portal, and travel-partner integration sits behind the authenticated CruisingPower agent portal.
+  evidence:
+  - status: 200
+    url: https://dev.royalcaribbeangroup.com/
+  - status: 403
+    url: https://www.royalcaribbean.com/mcp/v1
+  - status: 404
+    url: https://www.royalcaribbean.com/llms.txt
+  reason: no-developer-program
+  state: none
 created: '2026-05-05'
 description: Royal Caribbean Group is a global cruise vacation company operating Royal Caribbean International, Celebrity Cruises, and Silversea Cruises. Royal Caribbean does not publish a public developer API. Travel partner and agent integration is operated through the CruisingPower B2B portal (cruisingpower.com), which requires authenticated agent access. The company also operates loyalty (Crown & Anchor Society) and consumer booking platforms with no public API surface.
 features:
@@ -91,44 +123,44 @@ modified: '2026-10-06'
 name: Royal Caribbean Group
 nav: Providers
 network: true
-overview: 'Royal Caribbean Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cruise Lines, Travel, and Hospitality.
+overview: 'Royal Caribbean Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cruise Lines, Travel, Hospitality, Cruises, and Leisure.
 
 
-  Royal Caribbean Group''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 19
+  Royal Caribbean Group''s developer surface includes documentation, engineering blog, and 11 more developer resources.'
+random_paper: 3
 score:
   band: minimal
-  composite: 5.7
+  composite: 10.6
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 26.5
+    artifact_dirs: 9
+    catalog_earned: 28.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.5
+    catalog_gap: 86.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 0.0
-    contract_governance: 13.6
+    access_clarity: 10.5
+    contract_governance: 3.8
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 39.3
-    operational_transparency: 2.6
-  previous_composite: 5.2
+    developer_ergonomics: 11.9
+    discoverability: 50.0
+    operational_transparency: 5.3
+  previous_composite: 10.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 14.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/royal-caribbean/refs/heads/main/screenshots/royal-caribbean-2026-06-20T193231.png
+screenshot: https://apis.io/screenshots/royal-caribbean/royal-caribbean-2026-06-20T193231.png
 security:
 - kind: domain-security
   name: Royal Caribbean Domain Security
@@ -139,6 +171,8 @@ tags:
 - Cruise Lines
 - Travel
 - Hospitality
+- Cruises
+- Leisure
 use_cases:
 - description: Travel agents book cruises and manage groups via CruisingPower
   name: Travel Agent Booking

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 32.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -114,11 +116,8 @@ apis:
   description: Wallet information endpoints
   name: Octav Wallet API
   slug: octav-wallet-api
-artifact_total: 33
+artifact_total: 36
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Octav Airdrops API
   slug: open-octav-airdrops-api
@@ -162,97 +161,102 @@ collections:
   name: Octav Airdrops Wallet API
   slug: open-octav-wallet-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/octav/plans/octav-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/octav-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
   url: https://octav.fi/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/security/octav-domain-security.yml
+  href: https://artifacts.apis.io/octav/security/octav-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/octav-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/agentic-access/octav-agentic-access.yml
+  href: https://artifacts.apis.io/octav/agentic-access/octav-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/octav-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/authentication/octav-authentication.yml
+  href: https://artifacts.apis.io/octav/authentication/octav-authentication.yml
   title: ''
   type: Authentication
   url: authentication/octav-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/_original/octav-openapi-original.json
+  href: https://artifacts.apis.io/octav/openapi/_original/octav-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/octav-openapi-original.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/overlays/octav-openapi-overlay.yaml
+  href: https://artifacts.apis.io/octav/overlays/octav-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/octav-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/mcp/octav-mcp.yml
+  href: https://artifacts.apis.io/octav/mcp/octav-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/octav-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/packages/octav-packages.yml
+  href: https://artifacts.apis.io/octav/packages/octav-packages.yml
   title: ''
   type: Packages
   url: packages/octav-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/cli/octav-cli.yml
+  href: https://artifacts.apis.io/octav/cli/octav-cli.yml
   title: ''
   type: CLI
   url: cli/octav-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/octav/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/llms/octav-llms.txt
+  href: https://artifacts.apis.io/octav/llms/octav-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/octav-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/conventions/octav-conventions.yml
+  href: https://artifacts.apis.io/octav/conventions/octav-conventions.yml
   title: ''
   type: Conventions
   url: conventions/octav-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/errors/octav-problem-types.yml
+  href: https://artifacts.apis.io/octav/errors/octav-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/octav-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/lifecycle/octav-lifecycle.yml
+  href: https://artifacts.apis.io/octav/lifecycle/octav-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/octav-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/conformance/octav-conformance.yml
+  href: https://artifacts.apis.io/octav/conformance/octav-conformance.yml
   title: ''
   type: Conformance
   url: conformance/octav-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/conformance/octav-conformance.yml
+  href: https://artifacts.apis.io/octav/conformance/octav-conformance.yml
   title: ''
   type: Compliance
   url: conformance/octav-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/data-model/octav-data-model.yml
+  href: https://artifacts.apis.io/octav/data-model/octav-data-model.yml
   title: ''
   type: DataModel
   url: data-model/octav-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/well-known/octav-well-known.yml
+  href: https://artifacts.apis.io/octav/well-known/octav-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/octav-well-known.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/changelog/octav-changelog.yml
+  href: https://artifacts.apis.io/octav/changelog/octav-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/octav-changelog.yml
@@ -306,6 +310,14 @@ common:
   url: https://octav.fi
 created: '2026-07-17'
 description: Octav is a cryptocurrency portfolio intelligence platform that provides real-time, multi-chain portfolio data, transaction history, DeFi protocol positions, and historical snapshots across 65+ blockchain networks and 2M+ tokens. Its credit-based, read-only REST API lets developers and AI agents build portfolio dashboards, tax tools, NAV reporting, alerting, and analytics applications, with decoded DeFi positions (lending, LPs, staking, vaults, perps), Solana and EVM address support, Ethereum Beacon validator data, and drop-in migration guides from DeBank, Zerion, Zapper, Nansen, Covalent, and others. Octav is SOC 2 Type 1 & 2 certified and ships official MCP server, Rust CLI, and Agent Skill tooling. Backed by Speedinvest.
+finops:
+- has_sources: true
+  method: derived
+  name: Octav Finops
+  primary_unit: credit package
+  service_category: ''
+  slug: octav-finops
+  template: false
 image: https://framerusercontent.com/images/mzciJN6fJmiKcfU39pZcq3Zn3z4.png
 layout: provider
 mcp_servers:
@@ -319,27 +331,34 @@ network: true
 overview: 'Octav publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Airdrops API, Approvals API, Beacon Validators API, and 11 more. Tagged areas include Company, Cryptocurrency, Blockchain, Portfolio, and DeFi.
 
 
-  Octav''s developer surface includes engineering blog, authentication, CLI, changelog, documentation, API reference, getting-started guide, and 24 more developer resources.'
+  Octav''s developer surface includes engineering blog, authentication, CLI, changelog, documentation, API reference, getting-started guide, and 25 more developer resources.'
+plans:
+- name: Octav Plans Pricing
+  plan_count: 5
+  slug: octav-plans-pricing
+- name: Octav Price Estimates
+  plan_count: 0
+  slug: octav-price-estimates
 random_paper: 13
 score:
-  band: developing
-  composite: 49.8
+  band: strong
+  composite: 57.9
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 7.9
   facets:
-    access_clarity: 52.6
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 50.9
     developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 49.3
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -356,13 +375,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/screenshots/octav-2026-08-07T185936.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/octav/octav-2026-08-07T185936.png
 security:
 - kind: authentication
   name: Octav Authentication
@@ -372,6 +392,10 @@ security:
   name: Octav Domain Security
   slug: octav-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: octav-api
+  slug: octav-api-skill
 slug: octav
 tags:
 - Company

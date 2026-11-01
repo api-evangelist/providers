@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -69,37 +71,37 @@ common:
   type: PrivacyPolicy
   url: https://docs.privado.ai/about-privado/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/privado/refs/heads/main/llms/privado-llms.txt
+  href: https://artifacts.apis.io/privado/llms/privado-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/privado-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/privado/refs/heads/main/cli/privado-cli.yml
+  href: https://artifacts.apis.io/privado/cli/privado-cli.yml
   title: ''
   type: CLI
   url: cli/privado-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/privado/refs/heads/main/packages/privado-packages.yml
+  href: https://artifacts.apis.io/privado/packages/privado-packages.yml
   title: ''
   type: Packages
   url: packages/privado-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/privado/refs/heads/main/changelog/privado-changelog.yml
+  href: https://artifacts.apis.io/privado/changelog/privado-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/privado-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/privado/refs/heads/main/security/privado-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/privado/security/privado-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/privado-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/privado/refs/heads/main/security/privado-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/privado/security/privado-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/privado-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/privado/refs/heads/main/security/privado-domain-security.yml
+  href: https://artifacts.apis.io/privado/security/privado-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/privado-domain-security.yml
@@ -115,10 +117,10 @@ overview: 'Privado is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Privado''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, CLI, changelog, and 8 more developer resources.'
-random_paper: 9
+random_paper: 13
 score:
   band: emerging
-  composite: 20.7
+  composite: 20.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -132,23 +134,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 55.4
-    operational_transparency: 28.9
-  previous_composite: 20.7
+    discoverability: 48.2
+    operational_transparency: 31.6
+  previous_composite: 20.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/privado/refs/heads/main/screenshots/privado-2026-09-02T152045.png
+screenshot: https://apis.io/screenshots/privado/privado-2026-09-02T152045.png
 security:
 - kind: domain-security
   name: Privado Domain Security

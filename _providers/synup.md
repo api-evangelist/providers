@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 60.5
-  scored_at: '2026-10-17'
+  score: 54.6
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: First-party remote Model Context Protocol server enumerating 126 tools in its published tool table across six surfaces (Locations, Listings, Reviews, Rankings, Posts & Social, Account & Insights). Ten
@@ -135,7 +137,7 @@ apis:
   description: The Webhooks/Webhooks API from Synup — 0 operation(s) for webhooks/webhooks.
   name: Synup Webhooks/Webhooks API
   slug: synup-webhooks-webhooks-api
-artifact_total: 30
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Synup Webhooks
@@ -150,7 +152,7 @@ common:
   type: BlogRSS
   url: https://synup.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/capabilities/synup-capability-edges.yml
+  href: https://artifacts.apis.io/synup/capabilities/synup-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/synup-capability-edges.yml
@@ -175,72 +177,72 @@ common:
   type: GettingStarted
   url: https://developer.synup.com/synup-local-seo-api-getting-started-doc-824500
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/_original/synup-api-openapi.yml
+  href: https://artifacts.apis.io/synup/openapi/_original/synup-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/synup-api-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/_original/synup-webhooks-openapi.yml
+  href: https://artifacts.apis.io/synup/openapi/_original/synup-webhooks-openapi.yml
   title: ''
   type: Webhooks
   url: openapi/_original/synup-webhooks-openapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/mcp/synup-mcp.yml
+  href: https://artifacts.apis.io/synup/mcp/synup-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/synup-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/mcp/synup-tool-crosswalk.yml
+  href: https://artifacts.apis.io/synup/mcp/synup-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/synup-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/synup/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/llms/synup-llms.txt
+  href: https://artifacts.apis.io/synup/llms/synup-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/synup-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/well-known/synup-well-known.yml
+  href: https://artifacts.apis.io/synup/well-known/synup-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/synup-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/authentication/synup-authentication.yml
+  href: https://artifacts.apis.io/synup/authentication/synup-authentication.yml
   title: ''
   type: Authentication
   url: authentication/synup-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/scopes/synup-scopes.yml
+  href: https://artifacts.apis.io/synup/scopes/synup-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/synup-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/errors/synup-error-codes.yml
+  href: https://artifacts.apis.io/synup/errors/synup-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/synup-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/conventions/synup-conventions.yml
+  href: https://artifacts.apis.io/synup/conventions/synup-conventions.yml
   title: ''
   type: Conventions
   url: conventions/synup-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/data-model/synup-data-model.yml
+  href: https://artifacts.apis.io/synup/data-model/synup-data-model.yml
   title: ''
   type: DataModel
   url: data-model/synup-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/conformance/synup-conformance.yml
+  href: https://artifacts.apis.io/synup/conformance/synup-conformance.yml
   title: ''
   type: Conformance
   url: conformance/synup-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/lifecycle/synup-lifecycle.yml
+  href: https://artifacts.apis.io/synup/lifecycle/synup-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/synup-lifecycle.yml
@@ -249,67 +251,67 @@ common:
   type: ChangeLog
   url: https://www.synup.com/en/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/changelog/synup-changelog.yml
+  href: https://artifacts.apis.io/synup/changelog/synup-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/synup-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/packages/synup-packages.yml
+  href: https://artifacts.apis.io/synup/packages/synup-packages.yml
   title: ''
   type: Packages
   url: packages/synup-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/packages/synup-packages.yml
+  href: https://artifacts.apis.io/synup/packages/synup-packages.yml
   title: ''
   type: SDKs
   url: packages/synup-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/components/synup-components.yml
+  href: https://artifacts.apis.io/synup/components/synup-components.yml
   title: ''
   type: Components
   url: components/synup-components.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/overlays/synup-api-overlay.yaml
+  href: https://artifacts.apis.io/synup/overlays/synup-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/synup-api-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/examples/synup-examples.yml
+  href: https://artifacts.apis.io/synup/examples/synup-examples.yml
   title: ''
   type: Examples
   url: examples/synup-examples.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/json-schema/synup-schemas.json
+  href: https://artifacts.apis.io/synup/json-schema/synup-schemas.json
   title: ''
   type: JSONSchema
   url: json-schema/synup-schemas.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/vocabulary/synup-vocabulary.yml
+  href: https://artifacts.apis.io/synup/vocabulary/synup-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/synup-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/json-ld/synup-context.jsonld
+  href: https://artifacts.apis.io/synup/json-ld/synup-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/synup-context.jsonld
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/security/synup-domain-security.yml
+  href: https://artifacts.apis.io/synup/security/synup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/synup-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/plans/synup-plans-pricing.yml
+  href: https://artifacts.apis.io/synup/plans/synup-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/synup-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/rate-limits/synup-rate-limits.yml
+  href: https://artifacts.apis.io/synup/rate-limits/synup-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/synup-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/finops/synup-finops.yml
+  href: https://artifacts.apis.io/synup/finops/synup-finops.yml
   title: ''
   type: FinOps
   url: finops/synup-finops.yml
@@ -356,13 +358,13 @@ common:
 created: '2026-06-13'
 description: Synup is a local marketing platform for agencies and multi-location brands, providing a REST API (v4) for managing business locations, syndicating listing data to 80+ directories including Google, Apple, Bing and Facebook, aggregating and responding to reviews across every connected platform, running SMS and email review campaigns, tracking local search rankings with grid-rank heatmaps, publishing local and social posts, and pulling unified profile analytics. The platform serves marketing agencies with white-label tooling covering listings sync, reputation management, social media, local SEO and reporting, and ships a first-party remote MCP server so AI agents can drive the same surface as the dashboard.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Synup Finops
-  primary_unit: ''
+  primary_unit: 1 location
   service_category: ''
   slug: synup-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synup.png
 json_schemas:
 - name: Synup API v4 component schemas
@@ -391,9 +393,12 @@ overview: 'Synup publishes 20 API contracts indexed on the [APIs.io](https://api
   Synup''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, changelog, code examples, and 39 more developer resources.'
 plans:
 - name: Synup Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: synup-plans-pricing
-random_paper: 3
+- name: Synup Price Estimates
+  plan_count: 0
+  slug: synup-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Synup Rate Limits
@@ -405,23 +410,23 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 61.7
+  composite: 62.9
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 66.9
+    artifact_dirs: 30
+    catalog_earned: 69.9
     catalog_earned_first_party: 12.0
-    catalog_gap: 48.1
+    catalog_gap: 45.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.5
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 68.3
+    contract_quality: 70.0
     developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 26.3
-  previous_composite: 63.2
+    discoverability: 65.0
+    operational_transparency: 28.9
+  previous_composite: 61.4
   provenance:
     conformance: derived
     contracts:
@@ -437,13 +442,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/screenshots/synup-2026-06-20T194835.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/synup/synup-2026-06-20T194835.png
 security:
 - kind: authentication
   name: Synup Authentication
@@ -453,6 +459,18 @@ security:
   name: Synup Domain Security
   slug: synup-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: synup-grid-rank-report
+  slug: synup-grid-rank-report
+- name: synup-listings-health-audit
+  slug: synup-listings-health-audit
+- name: synup-onboard-a-location
+  slug: synup-onboard-a-location
+- name: synup-review-campaign
+  slug: synup-review-campaign
+- name: synup-review-response-desk
+  slug: synup-review-response-desk
 slug: synup
 tags:
 - Local Marketing

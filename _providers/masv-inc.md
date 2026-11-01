@@ -1,0 +1,220 @@
+---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 23.3
+  scored_at: '2026-10-31'
+api_count: 0
+artifact_total: 4
+asyncapis:
+- description: ''
+  name: Masv Inc Webhooks
+  slug: masv-inc-webhooks
+common:
+- group: auth
+  href: https://artifacts.apis.io/masv-inc/well-known/masv-inc-masv-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/masv-inc-masv-security.txt
+- group: agent
+  href: https://artifacts.apis.io/masv-inc/well-known/masv-inc-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/masv-inc-well-known.yml
+- group: commercial
+  href: https://artifacts.apis.io/masv-inc/plans/masv-inc-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/masv-inc-plans-pricing.yml
+- group: design
+  href: https://artifacts.apis.io/masv-inc/asyncapi/masv-inc-webhooks.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/masv-inc-webhooks.yml
+- group: operate
+  href: https://artifacts.apis.io/masv-inc/changelog/masv-inc-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/masv-inc-changelog.yml
+- group: design
+  href: https://artifacts.apis.io/masv-inc/conventions/masv-inc-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/masv-inc-conventions.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://masv.io/security
+- group: agent
+  href: https://artifacts.apis.io/masv-inc/llms/masv-inc-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/masv-inc-llms.txt
+- group: other
+  href: https://artifacts.apis.io/masv-inc/hosts/masv-inc-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/masv-inc-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/masv-inc/vendors/masv-inc-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/masv-inc-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://masv.io/legal/terms-of-service
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.massive.io/en
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://masv.statuspage.io/
+- group: auth
+  title: ''
+  type: Security
+  url: https://masv.io/security
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://masv.io/legal/privacy-policy
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://masv.io/pricing
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://masv.io/news
+- group: company
+  title: ''
+  type: Blog
+  url: https://masv.io/blog
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.masv.io/engine/install-docker/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.massive.io/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.masv.io/
+- group: auth
+  href: https://artifacts.apis.io/masv-inc/security/masv-inc-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/masv-inc-trust-center.yml
+- group: auth
+  href: https://artifacts.apis.io/masv-inc/security/masv-inc-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/masv-inc-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://masv.io/
+coverage:
+  detail: the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - status: 403
+    url: https://help.massive.io/mcp
+  - status: 200
+    url: https://massive.io/
+  reason: no-developer-program
+  state: none
+created: '2026-10-23'
+description: MASV Inc. provides a fast, secure, and reliable large file transfer service designed for media professionals, enterprises, and developers. Their platform enables users to upload, store, and share massive files up to multiple terabytes with high speed, encryption, and granular access controls. MASV offers integrations with cloud storage, automation tools, and SDKs, supporting workflows in post‑production, broadcast, journalism, AI, and geospatial data handling. The service emphasizes simplicity, no‑size‑limits, and pay‑as‑you‑go pricing, making large‑scale file transfers effortless and cost‑effective.
+image: https://masv.io/cdn-cgi/image/format=jpeg,quality=80/https://masv.io/img-original/https%3A%2F%2Fcdn.prod.website-files.com%2F69f2bb1a3268ff2bfd7df335%2F6a46ce1e641e26e565039e3f_MASV%2520Feature%2520Image.png
+layout: provider
+modified: '2026-10-23'
+name: MASV Inc.
+nav: Providers
+network: true
+overview: 'MASV Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FileTransfer, Media, CloudIntegration, and Enterprise.
+
+
+  The MASV Inc. catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  MASV Inc.''s developer surface includes changelog, support, pricing, engineering blog, getting-started guide, documentation, and 18 more developer resources.'
+plans:
+- name: Masv Inc Plans Pricing
+  plan_count: 9
+  slug: masv-inc-plans-pricing
+random_paper: 6
+score:
+  band: developing
+  composite: 45.2
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 78.9
+    contract_governance: 0.0
+    contract_quality: 39.0
+    developer_ergonomics: 38.1
+    discoverability: 50.0
+    operational_transparency: 50.0
+  provenance:
+    mcp: unknown
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Masv Inc Domain Security
+  slug: masv-inc-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Masv Inc Trust Center
+  slug: masv-inc-trust-center
+  summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+slug: masv-inc
+tags:
+- Company
+- FileTransfer
+- Media
+- CloudIntegration
+- Enterprise
+website: https://masv.io/
+---

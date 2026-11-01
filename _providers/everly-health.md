@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-17'
+  score: 16.8
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The OAuth 2.0 authorization server and OpenID Connect provider that fronts the Everlywell member account. It is not a documented developer product — Everly Health publishes no API reference for it — b
@@ -96,67 +98,67 @@ common:
   type: SecondaryMarket
   url: https://www.hiive.com/securities/everly-health-stock
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/everly-health/refs/heads/main/well-known/everly-health-well-known.yml
+  href: https://artifacts.apis.io/everly-health/well-known/everly-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/everly-health-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/everly-health/refs/heads/main/authentication/everly-health-authentication.yml
+  href: https://artifacts.apis.io/everly-health/authentication/everly-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/everly-health-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/everly-health/refs/heads/main/scopes/everly-health-scopes.yml
+  href: https://artifacts.apis.io/everly-health/scopes/everly-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/everly-health-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/everly-health/refs/heads/main/conformance/everly-health-conformance.yml
+  href: https://artifacts.apis.io/everly-health/conformance/everly-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/everly-health-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/everly-health/refs/heads/main/security/everly-health-domain-security.yml
+  href: https://artifacts.apis.io/everly-health/security/everly-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/everly-health-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/everly-health/refs/heads/main/llms/everly-health-llms.txt
+  href: https://artifacts.apis.io/everly-health/llms/everly-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/everly-health-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/everly-health/refs/heads/main/packages/everly-health-packages.yml
+  href: https://artifacts.apis.io/everly-health/packages/everly-health-packages.yml
   title: ''
   type: Packages
   url: packages/everly-health-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/everly-health/refs/heads/main/components/everly-health-components.yml
+  href: https://artifacts.apis.io/everly-health/components/everly-health-components.yml
   title: ''
   type: Components
   url: components/everly-health-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/everly-health/refs/heads/main/mcp/everly-health-mcp.yml
+  href: https://artifacts.apis.io/everly-health/mcp/everly-health-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/everly-health-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/everly-health/refs/heads/main/lifecycle/everly-health-lifecycle.yml
+  href: https://artifacts.apis.io/everly-health/lifecycle/everly-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/everly-health-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/everly-health/refs/heads/main/plans/everly-health-plans-pricing.yml
+  href: https://artifacts.apis.io/everly-health/plans/everly-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/everly-health-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/everly-health/refs/heads/main/rate-limits/everly-health-rate-limits.yml
+  href: https://artifacts.apis.io/everly-health/rate-limits/everly-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/everly-health-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/everly-health/refs/heads/main/conformance/everly-health-conformance.yml
+  href: https://artifacts.apis.io/everly-health/conformance/everly-health-conformance.yml
   title: ''
   type: Compliance
   url: conformance/everly-health-conformance.yml
@@ -210,10 +212,10 @@ scopes:
   slug: everly-health-scopes
   summary_line: 2 scopes · authorizationCode/password
 score:
-  band: emerging
-  composite: 24.9
+  band: thin
+  composite: 27.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -221,13 +223,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 23.8
-    discoverability: 68.3
-    operational_transparency: 2.6
-  previous_composite: 24.9
+    developer_ergonomics: 28.6
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 27.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -237,14 +239,14 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/everly-health/refs/heads/main/screenshots/everly-health-2026-08-07T165035.png
+screenshot: https://apis.io/screenshots/everly-health/everly-health-2026-08-07T165035.png
 security:
 - kind: authentication
   name: Everly Health Authentication

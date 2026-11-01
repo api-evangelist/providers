@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: The Properties API from RentCast — 3 operation(s) for properties.
   name: RentCast Properties API
   slug: rentcast-properties-api
-artifact_total: 24
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: RentCast Avm API
   slug: open-rentcast-avm-api
@@ -87,37 +86,37 @@ collections:
   slug: open-rentcast
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/plans/rentcast-plans-pricing.yml
+  href: https://artifacts.apis.io/rentcast/plans/rentcast-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rentcast-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/rate-limits/rentcast-rate-limits.yml
+  href: https://artifacts.apis.io/rentcast/rate-limits/rentcast-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rentcast-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/finops/rentcast-finops.yml
+  href: https://artifacts.apis.io/rentcast/finops/rentcast-finops.yml
   title: ''
   type: FinOps
   url: finops/rentcast-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/capabilities/rentcast-capability-edges.yml
+  href: https://artifacts.apis.io/rentcast/capabilities/rentcast-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rentcast-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/agentic-access/rentcast-agentic-access.yml
+  href: https://artifacts.apis.io/rentcast/agentic-access/rentcast-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rentcast-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/security/rentcast-domain-security.yml
+  href: https://artifacts.apis.io/rentcast/security/rentcast-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rentcast-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/authentication/rentcast-authentication.yml
+  href: https://artifacts.apis.io/rentcast/authentication/rentcast-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rentcast-authentication.yml
@@ -166,7 +165,7 @@ finops:
 - has_sources: false
   method: generated
   name: Rentcast Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: rentcast-finops
   template: true
@@ -203,7 +202,7 @@ plans:
 - name: Rentcast Plans Pricing
   plan_count: 3
   slug: rentcast-plans-pricing
-random_paper: 10
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Rentcast Rate Limits
@@ -234,7 +233,7 @@ rules:
   slug: rentcast-rules
 score:
   band: thin
-  composite: 36.5
+  composite: 37.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 65.4
@@ -242,15 +241,15 @@ score:
     catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 60.5
-    developer_ergonomics: 38.1
+    developer_ergonomics: 42.9
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 38.0
+    operational_transparency: 13.2
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -264,14 +263,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/screenshots/rentcast-2026-06-20T192855.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rentcast/rentcast-2026-06-20T192855.png
 security:
 - kind: authentication
   name: Rentcast Authentication

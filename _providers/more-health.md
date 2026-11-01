@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,37 +36,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/more-health/refs/heads/main/plans/more-health-plans-pricing.yml
+  href: https://artifacts.apis.io/more-health/plans/more-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/more-health-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/more-health/refs/heads/main/rate-limits/more-health-rate-limits.yml
+  href: https://artifacts.apis.io/more-health/rate-limits/more-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/more-health-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/more-health/refs/heads/main/security/more-health-trust-center.yml
+  href: https://artifacts.apis.io/more-health/security/more-health-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/more-health-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/more-health/refs/heads/main/security/more-health-domain-security.yml
+  href: https://artifacts.apis.io/more-health/security/more-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/more-health-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/more-health/refs/heads/main/conformance/more-health-conformance.yml
+  href: https://artifacts.apis.io/more-health/conformance/more-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/more-health-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/more-health/refs/heads/main/llms/more-health-llms.txt
+  href: https://artifacts.apis.io/more-health/llms/more-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/more-health-llms.txt
@@ -137,7 +139,7 @@ plans:
 - name: More Health Plans Pricing
   plan_count: 0
   slug: more-health-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: More Health Rate Limits
@@ -176,14 +178,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/more-health/refs/heads/main/screenshots/more-health-2026-09-02T150632.png
+screenshot: https://apis.io/screenshots/more-health/more-health-2026-09-02T150632.png
 security:
 - kind: domain-security
   name: More Health Domain Security

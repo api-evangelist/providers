@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.7
-  scored_at: '2026-10-17'
+  score: 35.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -107,9 +109,6 @@ collections:
   name: Microsoft Power Apps Microsoft Dataverse Web Accounts Entities API
   slug: postman-microsoft-power-apps-entities-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Microsoft Power Apps Microsoft Dataverse Web Accounts API
   slug: open-microsoft-power-apps-accounts-api
 - collection_type: open
@@ -122,18 +121,23 @@ collections:
   name: Microsoft Power Apps Microsoft Dataverse Web Accounts Entities API
   slug: open-microsoft-power-apps-entities-api
 common:
+- group: other
+  href: https://artifacts.apis.io/microsoft-power-apps/capabilities/microsoft-power-apps-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-power-apps-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/plans/microsoft-power-apps-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-power-apps/plans/microsoft-power-apps-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-power-apps-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/rate-limits/microsoft-power-apps-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-power-apps/rate-limits/microsoft-power-apps-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-power-apps-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/finops/microsoft-power-apps-finops.yml
+  href: https://artifacts.apis.io/microsoft-power-apps/finops/microsoft-power-apps-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-power-apps-finops.yml
@@ -186,27 +190,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-power-apps/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/agentic-access/microsoft-power-apps-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-power-apps/agentic-access/microsoft-power-apps-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-power-apps-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/security/microsoft-power-apps-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/microsoft-power-apps/security/microsoft-power-apps-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-power-apps-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/security/microsoft-power-apps-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-power-apps/security/microsoft-power-apps-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-power-apps-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/authentication/microsoft-power-apps-authentication.yml
+  href: https://artifacts.apis.io/microsoft-power-apps/authentication/microsoft-power-apps-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-power-apps-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/scopes/microsoft-power-apps-scopes.yml
+  href: https://artifacts.apis.io/microsoft-power-apps/scopes/microsoft-power-apps-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-power-apps-scopes.yml
@@ -323,10 +327,10 @@ features:
   name: Component Framework
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Microsoft Power Apps Finops
-  primary_unit: ''
-  service_category: Business Applications / Low-Code
+  primary_unit: user
+  service_category: ''
   slug: microsoft-power-apps-finops
   template: false
 image: https://powerplatform.microsoft.com/images/power-apps-logo.png
@@ -429,12 +433,15 @@ overview: 'Microsoft Power Apps publishes 15 API contracts indexed on the [APIs.
   The Microsoft Power Apps catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Power Apps'' developer surface includes developer portal, getting-started guide, changelog, authentication, engineering blog, pricing, support, and 32 more developer resources.'
+  Microsoft Power Apps'' developer surface includes developer portal, getting-started guide, changelog, authentication, engineering blog, pricing, support, and 33 more developer resources.'
 plans:
 - name: Microsoft Power Apps Plans Pricing
-  plan_count: 6
+  plan_count: 5
   slug: microsoft-power-apps-plans-pricing
-random_paper: 19
+- name: Microsoft Power Apps Price Estimates
+  plan_count: 0
+  slug: microsoft-power-apps-price-estimates
+random_paper: 1
 rate_limits:
 - limit_count: 9
   name: Microsoft Power Apps Rate Limits
@@ -470,23 +477,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 54.3
+  composite: 64.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 52.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 62.1
+    artifact_dirs: 20
+    catalog_earned: 64.9
+    catalog_earned_first_party: 12.0
+    catalog_gap: 50.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 28.9
+    access_clarity: 71.1
     contract_governance: 13.6
-    contract_quality: 64.7
-    developer_ergonomics: 76.7
+    contract_quality: 62.0
+    developer_ergonomics: 79.0
     discoverability: 63.3
-    operational_transparency: 44.7
-  previous_composite: 55.8
+    operational_transparency: 55.3
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     contracts:
@@ -500,13 +507,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/screenshots/microsoft-power-apps-2026-06-20T185522.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-power-apps/microsoft-power-apps-2026-06-20T185522.png
 security:
 - kind: authentication
   name: Microsoft Power Apps Authentication

@@ -23,21 +23,43 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 4.7
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
+- group: agent
+  href: https://artifacts.apis.io/aerialoop/llms/aerialoop-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/aerialoop-llms.txt
+- group: agent
+  href: https://artifacts.apis.io/aerialoop/mcp/aerialoop-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/aerialoop-mcp.yml
+- group: other
+  href: https://artifacts.apis.io/aerialoop/hosts/aerialoop-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/aerialoop-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/aerialoop/vendors/aerialoop-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/aerialoop-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aerialoop/refs/heads/main/security/aerialoop-domain-security.yml
+  href: https://artifacts.apis.io/aerialoop/security/aerialoop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aerialoop-domain-security.yml
@@ -61,10 +83,26 @@ common:
   title: ''
   type: Twitter
   url: https://x.com/Aerialoop_com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Aerialoop
+coverage:
+  checked: '2026-10-27'
+  detail: Aerialoop does not expose any public developer API or documentation.
+  evidence:
+  - status: 404
+    url: https://api.aerialoop.com/openapi.json
+  reason: not-a-software-company
+  state: none
 created: '2026-07-17'
 description: Aerialoop is a drone technology and urban logistics company that designs, builds, and operates intelligent aerial networks for cargo delivery, surveillance, and infrastructure inspection. Founded in 2020 and headquartered in Miami with operations rooted in Quito, Ecuador, it is one of the fastest-growing drone delivery operations in Latin America. Its ALT 6-8 delivery drone carries a 5kg payload for urban logistics, while the ALT 6-ISR line adds HD, infrared, and night-vision cameras with AI-powered intrusion detection; extended-range variants operate up to 120km using LEO satellite connectivity for beyond-visual-line-of-sight flights. The company has completed over 50,000 flights across six countries. Aerialoop is a Techstars Miami (powered by J.P. Morgan) portfolio company. It currently publishes no public developer API, documentation, or SDKs.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aerialoop.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at www.aerialoop.com.
+  name: Aerialoop MCP Server
+  slug: aerialoop-mcp-yml
 modified: '2026-07-17'
 name: Aerialoop
 nav: Providers
@@ -72,26 +110,30 @@ network: true
 overview: 'Aerialoop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Drones, UAV, Logistics, and Delivery.
 
 
-  Aerialoop''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 10
+  Aerialoop''s developer surface includes engineering blog and 10 more developer resources.'
+random_paper: 20
+rate_limits:
+- limit_count: 0
+  name: Aerialoop Rate Limits
+  slug: aerialoop-rate-limits
 score:
   band: minimal
-  composite: 5.2
+  composite: 7.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 16
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 48.2
-    operational_transparency: 0.0
+    discoverability: 48.3
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -99,21 +141,24 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 5.2
+  previous_composite: 6.6
+  provenance:
+    conformance: unknown
+    mcp: platform-generated
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aerialoop/refs/heads/main/screenshots/aerialoop-2026-07-25T181721.png
+screenshot: https://apis.io/screenshots/aerialoop/aerialoop-2026-07-25T181721.png
 security:
 - kind: domain-security
   name: Aerialoop Domain Security

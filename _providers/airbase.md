@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 9
 apis:
 - description: 'Programmatically create, list, retrieve, and update bills and vendor invoices flowing through Airbase''s AP automation - including bill line items, approval state, payment status, and payment method - '
@@ -66,7 +68,7 @@ apis:
 artifact_total: 13
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airbase/refs/heads/main/security/airbase-domain-security.yml
+  href: https://artifacts.apis.io/airbase/security/airbase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/airbase-domain-security.yml
@@ -83,17 +85,17 @@ common:
   type: Documentation
   url: https://developer.airbase.io/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/airbase/refs/heads/main/plans/airbase-plans-pricing.yml
+  href: https://artifacts.apis.io/airbase/plans/airbase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/airbase-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/airbase/refs/heads/main/rate-limits/airbase-rate-limits.yml
+  href: https://artifacts.apis.io/airbase/rate-limits/airbase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/airbase-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/airbase/refs/heads/main/finops/airbase-finops.yml
+  href: https://artifacts.apis.io/airbase/finops/airbase-finops.yml
   title: ''
   type: FinOps
   url: finops/airbase-finops.yml
@@ -122,7 +124,7 @@ plans:
 - name: Airbase Plans Pricing
   plan_count: 2
   slug: airbase-plans-pricing
-random_paper: 1
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Airbase Rate Limits
@@ -137,7 +139,7 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -145,21 +147,21 @@ score:
     developer_ergonomics: 9.5
     discoverability: 62.5
     operational_transparency: 5.3
-  previous_composite: 13.8
+  previous_composite: 7.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/airbase/refs/heads/main/screenshots/airbase-2026-07-25T195412.png
+screenshot: https://apis.io/screenshots/airbase/airbase-2026-07-25T195412.png
 security:
 - kind: domain-security
   name: Airbase Domain Security

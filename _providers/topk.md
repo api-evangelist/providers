@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Structured document store and query surface. Create collections with typed, indexed fields (keyword_index, semantic_index, vector index), upsert/update/delete documents by `_id`, and run hybrid querie
@@ -46,8 +48,13 @@ apis:
 - description: Create, list, get, update, and delete datasets and collections that back TopK search and retrieval.
   name: TopK Management API
   slug: management-api
-artifact_total: 8
+artifact_total: 12
 common:
+- group: commercial
+  href: https://artifacts.apis.io/topk/plans/topk-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/topk-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -105,7 +112,7 @@ common:
   type: Compliance
   url: https://trust.topk.io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/security/topk-trust-center.yml
+  href: https://artifacts.apis.io/topk/security/topk-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/topk-trust-center.yml
@@ -114,87 +121,95 @@ common:
   type: Security
   url: https://topk.io/security
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/packages/topk-packages.yml
+  href: https://artifacts.apis.io/topk/packages/topk-packages.yml
   title: ''
   type: Packages
   url: packages/topk-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/packages/topk-packages.yml
+  href: https://artifacts.apis.io/topk/packages/topk-packages.yml
   title: ''
   type: SDKs
   url: packages/topk-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/cli/topk-cli.yml
+  href: https://artifacts.apis.io/topk/cli/topk-cli.yml
   title: ''
   type: CLI
   url: cli/topk-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/mcp/topk-mcp.yml
+  href: https://artifacts.apis.io/topk/mcp/topk-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/topk-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/llms/topk-llms.txt
+  href: https://artifacts.apis.io/topk/llms/topk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/topk-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/well-known/topk-well-known.yml
+  href: https://artifacts.apis.io/topk/well-known/topk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/topk-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/well-known/topk-security.txt
+  href: https://artifacts.apis.io/topk/well-known/topk-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/topk-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/authentication/topk-authentication.yml
+  href: https://artifacts.apis.io/topk/authentication/topk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/topk-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/lifecycle/topk-lifecycle.yml
+  href: https://artifacts.apis.io/topk/lifecycle/topk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/topk-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/changelog/topk-changelog.yml
+  href: https://artifacts.apis.io/topk/changelog/topk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/topk-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/conventions/topk-conventions.yml
+  href: https://artifacts.apis.io/topk/conventions/topk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/topk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/data-model/topk-data-model.yml
+  href: https://artifacts.apis.io/topk/data-model/topk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/topk-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/conformance/topk-conformance.yml
+  href: https://artifacts.apis.io/topk/conformance/topk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/topk-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/security/topk-domain-security.yml
+  href: https://artifacts.apis.io/topk/security/topk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/topk-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/security/topk-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/topk/security/topk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/topk-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/topk/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: TopK is a search engine for accuracy-critical AI applications, delivering hybrid search, multi-vector (late-interaction) retrieval, dense and sparse vector search, BM25 keyword search, custom ranking, document parsing, and grounded question answering through a single API. Built on object storage for roughly 10x lower cost and effectively unlimited scale, TopK exposes a Collection API for structured document storage and querying, a Dataset API for unstructured document ingestion, semantic search, and evidence-backed answers, and a Management API for datasets and collections. It ships official Python, JavaScript, Rust, and SQL (PostgreSQL-wire) SDKs, a Homebrew-installable CLI, and a hosted MCP server so AI agents can query private data with natural language. TopK is developed by topk-io and is a portfolio company of Earlybird.
+finops:
+- has_sources: true
+  method: derived
+  name: Topk Finops
+  primary_unit: gib / month
+  service_category: ''
+  slug: topk-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/topk.png
 layout: provider
 mcp_servers:
@@ -208,27 +223,31 @@ network: true
 overview: 'Topk is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Search, Vector Search, Hybrid Search, and Multi-Vector Retrieval.
 
 
-  Topk''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 25 more developer resources.'
-random_paper: 6
+  Topk''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 26 more developer resources.'
+plans:
+- name: Topk Plans Pricing
+  plan_count: 10
+  slug: topk-plans-pricing
+random_paper: 14
 score:
   band: developing
-  composite: 43.1
+  composite: 51.7
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 19
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 53.9
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 68.5
-    discoverability: 80.0
-    operational_transparency: 44.7
-  previous_composite: 43.0
+    discoverability: 70.0
+    operational_transparency: 47.4
+  previous_composite: 43.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -239,14 +258,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/screenshots/topk-2026-08-17T082413.png
+screenshot: https://apis.io/screenshots/topk/topk-2026-08-17T082413.png
 security:
 - kind: authentication
   name: Topk Authentication
@@ -264,6 +283,12 @@ security:
   name: Topk Trust Center
   slug: topk-trust-center
   summary_line: SOC 2
+skill_count: 2
+skills:
+- name: Ingest documents and get grounded answers (RAG)
+  slug: topk-grounded-qa
+- name: Build a collection and run hybrid search
+  slug: topk-hybrid-search
 slug: topk
 tags:
 - Company

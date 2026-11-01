@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -10,21 +9,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 40.8
-  scored_at: '2026-10-17'
+  score: 35.3
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: API reference for BytePlus services as listed in the documentation.
@@ -38,22 +39,22 @@ apis:
 artifact_total: 8
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/rules/byteplus-rules.yml
+  href: https://artifacts.apis.io/byteplus/rules/byteplus-rules.yml
   title: ''
   type: Spectral
   url: rules/byteplus-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/json-ld/byteplus-context.jsonld
+  href: https://artifacts.apis.io/byteplus/json-ld/byteplus-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/byteplus-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/vocabulary/byteplus-vocabulary.yml
+  href: https://artifacts.apis.io/byteplus/vocabulary/byteplus-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/byteplus-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/data-model/byteplus-data-model.yml
+  href: https://artifacts.apis.io/byteplus/data-model/byteplus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/byteplus-data-model.yml
@@ -62,57 +63,57 @@ common:
   type: Compliance
   url: https://www.byteplus.com/en/trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/security/byteplus-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/byteplus/security/byteplus-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/byteplus-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/conformance/byteplus-conformance.yml
+  href: https://artifacts.apis.io/byteplus/conformance/byteplus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/byteplus-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/llms/byteplus-llms.txt
+  href: https://artifacts.apis.io/byteplus/llms/byteplus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/byteplus-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/well-known/byteplus-well-known.yml
+  href: https://artifacts.apis.io/byteplus/well-known/byteplus-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/byteplus-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/hosts/byteplus-hosts.yml
+  href: https://artifacts.apis.io/byteplus/hosts/byteplus-hosts.yml
   title: ''
   type: Hosts
   url: hosts/byteplus-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/vendors/byteplus-vendors.yml
+  href: https://artifacts.apis.io/byteplus/vendors/byteplus-vendors.yml
   title: ''
   type: Vendors
   url: vendors/byteplus-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/packages/byteplus-packages.yml
+  href: https://artifacts.apis.io/byteplus/packages/byteplus-packages.yml
   title: ''
   type: SDKs
   url: packages/byteplus-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/packages/byteplus-packages.yml
+  href: https://artifacts.apis.io/byteplus/packages/byteplus-packages.yml
   title: ''
   type: Packages
   url: packages/byteplus-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/security/byteplus-trust-center.yml
+  href: https://artifacts.apis.io/byteplus/security/byteplus-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/byteplus-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/security/byteplus-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/byteplus/security/byteplus-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/byteplus-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/security/byteplus-domain-security.yml
+  href: https://artifacts.apis.io/byteplus/security/byteplus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/byteplus-domain-security.yml
@@ -187,7 +188,7 @@ overview: 'BytePlus is listed with 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   BytePlus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
-random_paper: 8
+random_paper: 0
 rules:
 - authorship: generated
   effective_rule_count: 51
@@ -203,7 +204,7 @@ rules:
   slug: byteplus-rules
 score:
   band: thin
-  composite: 37.3
+  composite: 36.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 46.2
@@ -211,15 +212,15 @@ score:
     catalog_gap: 68.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -13.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     contract_governance: 22.0
     contract_quality: 18.5
     developer_ergonomics: 52.4
-    discoverability: 60.7
+    discoverability: 53.6
     operational_transparency: 10.5
-  previous_composite: 50.7
+  previous_composite: 36.6
   provenance:
     conformance: derived
     contracts:
@@ -234,14 +235,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/screenshots/byteplus-2026-10-11T102640.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/byteplus/byteplus-2026-10-11T102640.png
 security:
 - kind: domain-security
   name: Byteplus Domain Security

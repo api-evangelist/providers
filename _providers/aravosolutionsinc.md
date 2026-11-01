@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,22 +25,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aravosolutionsinc/refs/heads/main/well-known/aravosolutionsinc-well-known.yml
+  href: https://artifacts.apis.io/aravosolutionsinc/well-known/aravosolutionsinc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aravosolutionsinc-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aravosolutionsinc/refs/heads/main/hosts/aravosolutionsinc-hosts.yml
+  href: https://artifacts.apis.io/aravosolutionsinc/hosts/aravosolutionsinc-hosts.yml
   title: ''
   type: Hosts
   url: hosts/aravosolutionsinc-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aravosolutionsinc/refs/heads/main/vendors/aravosolutionsinc-vendors.yml
+  href: https://artifacts.apis.io/aravosolutionsinc/vendors/aravosolutionsinc-vendors.yml
   title: ''
   type: Vendors
   url: vendors/aravosolutionsinc-vendors.yml
@@ -59,7 +61,7 @@ common:
   type: GettingStarted
   url: https://aravo.com/intelligence-first-platform/capabilities/vendor-onboarding/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aravosolutionsinc/refs/heads/main/security/aravosolutionsinc-domain-security.yml
+  href: https://artifacts.apis.io/aravosolutionsinc/security/aravosolutionsinc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aravosolutionsinc-domain-security.yml
@@ -121,14 +123,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aravosolutionsinc/refs/heads/main/screenshots/aravosolutionsinc-2026-10-11T100129.png
+screenshot: https://apis.io/screenshots/aravosolutionsinc/aravosolutionsinc-2026-10-11T100129.png
 security:
 - kind: domain-security
   name: Aravosolutionsinc Domain Security

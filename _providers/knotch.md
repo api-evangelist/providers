@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,8 +36,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-10-17'
-api_count: 2
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://events.knotch.it
   baseurl_source: declared
@@ -56,7 +58,7 @@ apis:
   description: The Health API from Knotch — 1 operation(s) for health.
   name: Knotch Health API
   slug: knotch-health-api
-artifact_total: 9
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -95,87 +97,87 @@ common:
   type: PrivacyPolicy
   url: https://knotch.com/legal/privacy-policy
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/openapi/knotch-events-api-openapi.yml
+  href: https://artifacts.apis.io/knotch/openapi/knotch-events-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/knotch-events-api-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/authentication/knotch-authentication.yml
+  href: https://artifacts.apis.io/knotch/authentication/knotch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/knotch-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/conventions/knotch-conventions.yml
+  href: https://artifacts.apis.io/knotch/conventions/knotch-conventions.yml
   title: ''
   type: Conventions
   url: conventions/knotch-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/conventions/knotch-conventions.yml
+  href: https://artifacts.apis.io/knotch/conventions/knotch-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/knotch-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/errors/knotch-problem-types.yml
+  href: https://artifacts.apis.io/knotch/errors/knotch-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/knotch-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/data-model/knotch-data-model.yml
+  href: https://artifacts.apis.io/knotch/data-model/knotch-data-model.yml
   title: ''
   type: DataModel
   url: data-model/knotch-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/conformance/knotch-conformance.yml
+  href: https://artifacts.apis.io/knotch/conformance/knotch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/knotch-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/lifecycle/knotch-lifecycle.yml
+  href: https://artifacts.apis.io/knotch/lifecycle/knotch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/knotch-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/sandbox/knotch-sandbox.yml
+  href: https://artifacts.apis.io/knotch/sandbox/knotch-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/knotch-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/components/knotch-components.yml
+  href: https://artifacts.apis.io/knotch/components/knotch-components.yml
   title: ''
   type: Components
   url: components/knotch-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/packages/knotch-packages.yml
+  href: https://artifacts.apis.io/knotch/packages/knotch-packages.yml
   title: ''
   type: Packages
   url: packages/knotch-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/plans/knotch-plans-pricing.yml
+  href: https://artifacts.apis.io/knotch/plans/knotch-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/knotch-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/rate-limits/knotch-rate-limits.yml
+  href: https://artifacts.apis.io/knotch/rate-limits/knotch-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/knotch-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/overlays/knotch-events-api-overlay.yaml
+  href: https://artifacts.apis.io/knotch/overlays/knotch-events-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/knotch-events-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/knotch/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/security/knotch-domain-security.yml
+  href: https://artifacts.apis.io/knotch/security/knotch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/knotch-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/llms/knotch-llms.txt
+  href: https://artifacts.apis.io/knotch/llms/knotch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/knotch-llms.txt
@@ -196,7 +198,7 @@ plans:
 - name: Knotch Plans Pricing
   plan_count: 0
   slug: knotch-plans-pricing
-random_paper: 9
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Knotch Rate Limits
@@ -211,13 +213,13 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 41.0
     developer_ergonomics: 63.7
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -226,7 +228,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 35.5
+  previous_composite: 35.6
   provenance:
     conformance: derived
     contracts:
@@ -242,13 +244,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/screenshots/knotch-2026-07-25T224004.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/knotch/knotch-2026-07-25T224004.png
 security:
 - kind: authentication
   name: Knotch Authentication
@@ -258,6 +261,12 @@ security:
   name: Knotch Domain Security
   slug: knotch-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Instrument a page with the Knotch Measurement Unit
+  slug: knotch-instrument-measurement-unit
+- name: Send conversion events to Knotch
+  slug: knotch-send-conversion-events
 slug: knotch
 tags:
 - Company

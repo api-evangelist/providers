@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
+  score: 33.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 248
   slug: seekr-agentic-access
   summary_line: 248 operations · 124 acting
-api_count: 8
+api_count: 4
 apis:
 - description: A hosted, anonymous, read-only MCP server that gives an AI assistant direct access to the SeekrFlow documentation and the four SeekrFlow OpenAPI specs, so the assistant can generate working authentica
   name: Seekr Documentation MCP Server
@@ -217,11 +219,8 @@ apis:
   description: The Wake Up API from Seekr — 1 operation(s) for wake up.
   name: Seekr Wake Up API
   slug: seekr-wake-up-api
-artifact_total: 77
+artifact_total: 82
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Seekr Agents API
   slug: open-seekr-agents-api
@@ -330,22 +329,22 @@ common:
   type: BlogRSS
   url: https://www.seekr.com/feed/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/plans/seekr-plans-pricing.yml
+  href: https://artifacts.apis.io/seekr/plans/seekr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/seekr-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/capabilities/seekr-capability-edges.yml
+  href: https://artifacts.apis.io/seekr/capabilities/seekr-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/seekr-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/agentic-access/seekr-agentic-access.yml
+  href: https://artifacts.apis.io/seekr/agentic-access/seekr-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/seekr-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/security/seekr-trust-center.yml
+  href: https://artifacts.apis.io/seekr/security/seekr-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/seekr-trust-center.yml
@@ -406,7 +405,7 @@ common:
   type: ChangeLog
   url: https://docs.seekr.com/flow/changelog/seekr-managed/2026
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/changelog/seekr-changelog.yml
+  href: https://artifacts.apis.io/seekr/changelog/seekr-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/seekr-changelog.yml
@@ -415,7 +414,7 @@ common:
   type: Deprecation
   url: https://docs.seekr.com/flow/reference/getting-started-with-your-api#versioning
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/lifecycle/seekr-lifecycle.yml
+  href: https://artifacts.apis.io/seekr/lifecycle/seekr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/seekr-lifecycle.yml
@@ -424,92 +423,92 @@ common:
   type: Compliance
   url: https://www.seekr.com/security-compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/conformance/seekr-conformance.yml
+  href: https://artifacts.apis.io/seekr/conformance/seekr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/seekr-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/authentication/seekr-authentication.yml
+  href: https://artifacts.apis.io/seekr/authentication/seekr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/seekr-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/conventions/seekr-conventions.yml
+  href: https://artifacts.apis.io/seekr/conventions/seekr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/seekr-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/errors/seekr-problem-types.yml
+  href: https://artifacts.apis.io/seekr/errors/seekr-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/seekr-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/data-model/seekr-data-model.yml
+  href: https://artifacts.apis.io/seekr/data-model/seekr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/seekr-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/packages/seekr-packages.yml
+  href: https://artifacts.apis.io/seekr/packages/seekr-packages.yml
   title: ''
   type: Packages
   url: packages/seekr-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/packages/seekr-packages.yml
+  href: https://artifacts.apis.io/seekr/packages/seekr-packages.yml
   title: ''
   type: SDKs
   url: packages/seekr-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/mcp/seekr-mcp.yml
+  href: https://artifacts.apis.io/seekr/mcp/seekr-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/seekr-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/mcp/seekr-tool-crosswalk.yml
+  href: https://artifacts.apis.io/seekr/mcp/seekr-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/seekr-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/a2a/seekr-a2a.yml
+  href: https://artifacts.apis.io/seekr/a2a/seekr-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/seekr-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/seekr/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/llms/seekr-llms.txt
+  href: https://artifacts.apis.io/seekr/llms/seekr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/seekr-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/well-known/seekr-well-known.yml
+  href: https://artifacts.apis.io/seekr/well-known/seekr-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/seekr-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/security/seekr-domain-security.yml
+  href: https://artifacts.apis.io/seekr/security/seekr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/seekr-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/overlays/seekr-llm-training-overlay.yaml
+  href: https://artifacts.apis.io/seekr/overlays/seekr-llm-training-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seekr-llm-training-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/overlays/seekr-agents-overlay.yaml
+  href: https://artifacts.apis.io/seekr/overlays/seekr-agents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seekr-agents-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/overlays/seekr-explainability-overlay.yaml
+  href: https://artifacts.apis.io/seekr/overlays/seekr-explainability-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seekr-explainability-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/overlays/seekr-serving-overlay.yaml
+  href: https://artifacts.apis.io/seekr/overlays/seekr-serving-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seekr-serving-overlay.yaml
@@ -527,6 +526,14 @@ common:
   url: https://x.com/seekrtechnology
 created: '2026-08-05'
 description: Seekr Technologies builds explainable, auditable, sovereign AI for regulated industries and high-stakes government missions. Its platform, SeekrFlow, is an end-to-end AI operating system that covers document ingestion and AI-ready data preparation, vector databases and retrieval, instruction / LoRA / DPO / GRPO / vision-language fine-tuning, model deployment, OpenAI-compatible inference, and agent orchestration with tools — all wrapped in an explainability layer that traces every response back to the retrieved chunks, tool calls, spans and training examples that produced it. Companion products are SeekrGuard (third-party and open-weight model evaluation and certification), SeekrGeo (multimodal geospatial intelligence) and SeekrIntel (investigative entity mapping). SeekrFlow is reachable through a no-code web app, the seekrai Python SDK, and a REST API at flow.seekr.com, and deploys to Seekr's cloud, a customer cloud, on-premises, the edge or fully air-gapped environments.
+finops:
+- has_sources: true
+  method: derived
+  name: Seekr Finops
+  primary_unit: 1m tokens
+  service_category: ''
+  slug: seekr-finops
+  template: false
 image: https://s48368.pcdn.co/wp-content/uploads/2025/10/Seekr-Thumbnail-OG-Image-1.png
 layout: provider
 mcp_servers:
@@ -551,23 +558,23 @@ plans:
 random_paper: 10
 score:
   band: strong
-  composite: 63.4
+  composite: 62.5
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.0
+    artifact_dirs: 25
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 48.5
+    contract_quality: 47.3
     developer_ergonomics: 71.4
-    discoverability: 76.7
+    discoverability: 70.0
     operational_transparency: 39.5
-  previous_composite: 63.5
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -588,13 +595,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/screenshots/seekr-2026-08-17T081750.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/seekr/seekr-2026-08-17T081750.png
 security:
 - kind: authentication
   name: Seekr Authentication
@@ -608,6 +616,18 @@ security:
   name: Seekr Trust Center
   slug: seekr-trust-center
   summary_line: SOC 2 Type 1, SOC 2 Type 2, ISO/IEC 27001:2022, CMMC Certified
+skill_count: 5
+skills:
+- name: Explain a SeekrFlow response — trace it to sources, spans and training data
+  slug: seekr-explain-a-response
+- name: Turn documents into a fine-tuned, deployed SeekrFlow model
+  slug: seekr-fine-tune-and-deploy
+- name: Run inference on SeekrFlow (chat, embeddings, rerank, transcription)
+  slug: seekr-inference
+- name: Build and run a retrieval-grounded SeekrFlow agent
+  slug: seekr-rag-agent
+- name: Seekr
+  slug: seekr-seekrflow
 slug: seekr
 tags:
 - Artificial Intelligence

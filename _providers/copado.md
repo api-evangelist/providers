@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,10 +36,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 4
+artifact_total: 6
 common:
+- group: commercial
+  href: https://artifacts.apis.io/copado/plans/copado-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/copado-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -87,32 +94,32 @@ common:
   type: PrivacyPolicy
   url: https://www.copado.com/legal/privacy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/copado/refs/heads/main/packages/copado-packages.yml
+  href: https://artifacts.apis.io/copado/packages/copado-packages.yml
   title: ''
   type: Packages
   url: packages/copado-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/copado/refs/heads/main/packages/copado-packages.yml
+  href: https://artifacts.apis.io/copado/packages/copado-packages.yml
   title: ''
   type: SDKs
   url: packages/copado-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/copado/refs/heads/main/cli/copado-cli.yml
+  href: https://artifacts.apis.io/copado/cli/copado-cli.yml
   title: ''
   type: CLI
   url: cli/copado-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/copado/refs/heads/main/authentication/copado-authentication.yml
+  href: https://artifacts.apis.io/copado/authentication/copado-authentication.yml
   title: ''
   type: Authentication
   url: authentication/copado-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/copado/refs/heads/main/changelog/copado-changelog.yml
+  href: https://artifacts.apis.io/copado/changelog/copado-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/copado-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/copado/refs/heads/main/lifecycle/copado-lifecycle.yml
+  href: https://artifacts.apis.io/copado/lifecycle/copado-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/copado-lifecycle.yml
@@ -121,7 +128,7 @@ common:
   type: StatusPage
   url: https://status.copado.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/copado/refs/heads/main/conformance/copado-conformance.yml
+  href: https://artifacts.apis.io/copado/conformance/copado-conformance.yml
   title: ''
   type: Conformance
   url: conformance/copado-conformance.yml
@@ -130,17 +137,17 @@ common:
   type: Compliance
   url: https://trust.copado.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/copado/refs/heads/main/security/copado-trust-center.yml
+  href: https://artifacts.apis.io/copado/security/copado-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/copado-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/copado/refs/heads/main/security/copado-domain-security.yml
+  href: https://artifacts.apis.io/copado/security/copado-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/copado-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/copado/refs/heads/main/security/copado-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/copado/security/copado-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/copado-vulnerability-disclosure.yml
@@ -149,12 +156,20 @@ common:
   type: Security
   url: https://www.copado.com/disclosure
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/copado/refs/heads/main/llms/copado-llms.txt
+  href: https://artifacts.apis.io/copado/llms/copado-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/copado-llms.txt
 created: '2026-07-17'
 description: Copado is an AI-powered DevOps platform for Salesforce and other low-code SaaS clouds. It provides CI/CD, release management, version control, automated robotic testing, data deployment, and security & governance for enterprise Salesforce delivery teams. Copado extends its platform through a Developer Hub (Functions, Actions, Job Engine, custom pipelines), a REST Actions API and Webhooks API, an official Salesforce-CLI plugin, and a Python AI SDK. The company is backed by Insight Partners and SoftBank Vision Fund and maintains SOC 2 Type 2, ISO 27001, FedRAMP, and GDPR-aligned security posture.
+finops:
+- has_sources: true
+  method: derived
+  name: Copado Finops
+  primary_unit: ''
+  service_category: ''
+  slug: copado-finops
+  template: true
 image: https://cdn.prod.website-files.com/62d8507d84c54d359ad063bc/68d6224cfed524ccca1b4ff4_Web%20Thumbnail_Copado_Intelligent%20DevOps%20Platform%20for%20Salesforce.avif
 layout: provider
 modified: '2026-07-18'
@@ -164,27 +179,31 @@ network: true
 overview: 'Copado is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, Salesforce, CI/CD, and Release Management.
 
 
-  Copado''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, CLI, and 19 more developer resources.'
-random_paper: 14
+  Copado''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, CLI, and 20 more developer resources.'
+plans:
+- name: Copado Plans Pricing
+  plan_count: 2
+  slug: copado-plans-pricing
+random_paper: 6
 score:
   band: developing
-  composite: 40.9
+  composite: 46.8
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 14
+    catalog_earned: 35.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 53.9
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 67.9
-    discoverability: 55.4
-    operational_transparency: 44.7
-  previous_composite: 40.9
+    developer_ergonomics: 71.4
+    discoverability: 48.2
+    operational_transparency: 47.4
+  previous_composite: 42.6
   provenance:
     conformance: first-party
   regulatory:
@@ -199,14 +218,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/copado/refs/heads/main/screenshots/copado-2026-07-25T210407.png
+screenshot: https://apis.io/screenshots/copado/copado-2026-07-25T210407.png
 security:
 - kind: authentication
   name: Copado Authentication

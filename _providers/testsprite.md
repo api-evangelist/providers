@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,12 +37,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 5
+artifact_total: 9
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/plans/testsprite-plans-pricing.yml
+  href: https://artifacts.apis.io/testsprite/plans/testsprite-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/testsprite-plans-pricing.yml
@@ -109,72 +111,80 @@ common:
   type: PrivacyPolicy
   url: https://www.testsprite.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/mcp/testsprite-mcp.yml
+  href: https://artifacts.apis.io/testsprite/mcp/testsprite-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/testsprite-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/cli/testsprite-cli.yml
+  href: https://artifacts.apis.io/testsprite/cli/testsprite-cli.yml
   title: ''
   type: CLI
   url: cli/testsprite-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/packages/testsprite-packages.yml
+  href: https://artifacts.apis.io/testsprite/packages/testsprite-packages.yml
   title: ''
   type: Packages
   url: packages/testsprite-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/authentication/testsprite-authentication.yml
+  href: https://artifacts.apis.io/testsprite/authentication/testsprite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/testsprite-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/scopes/testsprite-scopes.yml
+  href: https://artifacts.apis.io/testsprite/scopes/testsprite-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/testsprite-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/errors/testsprite-error-codes.yml
+  href: https://artifacts.apis.io/testsprite/errors/testsprite-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/testsprite-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/conventions/testsprite-conventions.yml
+  href: https://artifacts.apis.io/testsprite/conventions/testsprite-conventions.yml
   title: ''
   type: Conventions
   url: conventions/testsprite-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/conventions/testsprite-conventions.yml
+  href: https://artifacts.apis.io/testsprite/conventions/testsprite-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/testsprite-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/lifecycle/testsprite-lifecycle.yml
+  href: https://artifacts.apis.io/testsprite/lifecycle/testsprite-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/testsprite-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/security/testsprite-domain-security.yml
+  href: https://artifacts.apis.io/testsprite/security/testsprite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/testsprite-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/conformance/testsprite-conformance.yml
+  href: https://artifacts.apis.io/testsprite/conformance/testsprite-conformance.yml
   title: ''
   type: Conformance
   url: conformance/testsprite-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/testsprite/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/llms/testsprite-llms.txt
+  href: https://artifacts.apis.io/testsprite/llms/testsprite-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/testsprite-llms.txt
 created: '2026-07-17'
 description: 'TestSprite is an AI-powered software testing platform (a Techstars-backed company) that gives autonomous coding agents a verification loop: it uses an app like a real user, generates and executes end-to-end UI and backend API tests, and returns actionable failure bundles (screenshots, DOM snapshots, root causes, and fix suggestions) so an agent can repair its own work before bugs ship. It is delivered as an official Model Context Protocol (MCP) server that runs inside AI coding assistants (Cursor, Claude Code, VS Code, Copilot), a first-party command-line interface for terminal and CI/CD use, a browser Web Portal, and a GitHub App that tests every pull request. Authentication is by scoped API key.'
+finops:
+- has_sources: true
+  method: derived
+  name: Testsprite Finops
+  primary_unit: (from 10 seats)
+  service_category: ''
+  slug: testsprite-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/testsprite.png
 layout: provider
 mcp_servers:
@@ -193,7 +203,10 @@ plans:
 - name: Testsprite Plans Pricing
   plan_count: 5
   slug: testsprite-plans-pricing
-random_paper: 11
+- name: Testsprite Price Estimates
+  plan_count: 0
+  slug: testsprite-price-estimates
+random_paper: 7
 scopes:
 - name: Testsprite Scopes
   scope_count: 5
@@ -201,23 +214,23 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 40.4
+  composite: 41.4
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 39.0
+    artifact_dirs: 19
+    catalog_earned: 42.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 76.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 66.1
-    discoverability: 58.3
-    operational_transparency: 23.7
-  previous_composite: 34.0
+    discoverability: 48.3
+    operational_transparency: 26.3
+  previous_composite: 39.8
   provenance:
     conformance: derived
     mcp: first-party
@@ -228,14 +241,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/screenshots/testsprite-2026-09-02T163244.png
+screenshot: https://apis.io/screenshots/testsprite/testsprite-2026-09-02T163244.png
 security:
 - kind: authentication
   name: Testsprite Authentication
@@ -245,6 +258,12 @@ security:
   name: Testsprite Domain Security
   slug: testsprite-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Gate CI on TestSprite results with the CLI
+  slug: testsprite-cli-ci-gate
+- name: Verify an app with the TestSprite MCP server
+  slug: testsprite-mcp-verify-app
 slug: testsprite
 tags:
 - Company

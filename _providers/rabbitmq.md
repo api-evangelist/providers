@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-17'
+  score: 20.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -113,15 +115,12 @@ apis:
   description: The Virtual Hosts API from RabbitMQ — 2 operation(s) for virtual hosts.
   name: RabbitMQ Virtual Hosts API
   slug: rabbitmq-virtual-hosts-api
-artifact_total: 39
+artifact_total: 38
 asyncapis:
 - description: RabbitMQ messaging via AMQP 0-9-1 protocol. Producers publish messages to exchanges which route them to queues based on bindings and routing keys. Consumers subscribe to queues to receive messages.
   name: RabbitMQ AMQP Messaging API
   slug: rabbitmq-messaging
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: RabbitMQ Management HTTP Bindings API
   slug: open-rabbitmq-bindings-api
@@ -166,32 +165,32 @@ collections:
   slug: open-rabbitmq-virtual-hosts-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rabbitmq/refs/heads/main/plans/rabbitmq-plans-pricing.yml
+  href: https://artifacts.apis.io/rabbitmq/plans/rabbitmq-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rabbitmq-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rabbitmq/refs/heads/main/rate-limits/rabbitmq-rate-limits.yml
+  href: https://artifacts.apis.io/rabbitmq/rate-limits/rabbitmq-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rabbitmq-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rabbitmq/refs/heads/main/finops/rabbitmq-finops.yml
+  href: https://artifacts.apis.io/rabbitmq/finops/rabbitmq-finops.yml
   title: ''
   type: FinOps
   url: finops/rabbitmq-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rabbitmq/refs/heads/main/agentic-access/rabbitmq-agentic-access.yml
+  href: https://artifacts.apis.io/rabbitmq/agentic-access/rabbitmq-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rabbitmq-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rabbitmq/refs/heads/main/security/rabbitmq-domain-security.yml
+  href: https://artifacts.apis.io/rabbitmq/security/rabbitmq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rabbitmq-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rabbitmq/refs/heads/main/authentication/rabbitmq-authentication.yml
+  href: https://artifacts.apis.io/rabbitmq/authentication/rabbitmq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rabbitmq-authentication.yml
@@ -225,7 +224,7 @@ finops:
 - has_sources: false
   method: generated
   name: Rabbitmq Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: rabbitmq-finops
   template: true
@@ -250,7 +249,7 @@ plans:
 - name: Rabbitmq Plans Pricing
   plan_count: 3
   slug: rabbitmq-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Rabbitmq Rate Limits
@@ -281,7 +280,7 @@ rules:
   slug: rabbitmq-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.8
+  composite: 28.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 47.9
@@ -289,15 +288,15 @@ score:
     catalog_gap: 67.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 51.2
     developer_ergonomics: 28.6
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 31.3
+    operational_transparency: 13.2
+  previous_composite: 28.7
   provenance:
     agentic_access: derived
     contracts:
@@ -311,13 +310,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/rabbitmq/refs/heads/main/screenshots/rabbitmq-2026-06-20T192503.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rabbitmq/rabbitmq-2026-06-20T192503.png
 security:
 - kind: authentication
   name: Rabbitmq Authentication

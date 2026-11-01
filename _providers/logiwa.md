@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Logiwa Integration API is an RPC-over-HTTP interface with 81 documented operations covering products and kits, shipment orders and order details, purchase orders, receipt orders and receiving, inv
@@ -45,7 +47,7 @@ apis:
 - description: Logiwa's outbound event surface. Eleven documented topics deliver order status, receipt and purchase order status, inventory change, location update, movement, receipt, shipment tracking and consolida
   name: Logiwa Webhooks
   slug: logiwa-webhooks
-artifact_total: 10
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Logiwa Webhooks
@@ -92,93 +94,101 @@ common:
   type: PrivacyPolicy
   url: https://www.logiwa.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/authentication/logiwa-authentication.yml
+  href: https://artifacts.apis.io/logiwa/authentication/logiwa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/logiwa-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/scopes/logiwa-scopes.yml
+  href: https://artifacts.apis.io/logiwa/scopes/logiwa-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/logiwa-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/conventions/logiwa-conventions.yml
+  href: https://artifacts.apis.io/logiwa/conventions/logiwa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/logiwa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/errors/logiwa-error-codes.yml
+  href: https://artifacts.apis.io/logiwa/errors/logiwa-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/logiwa-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/rate-limits/logiwa-rate-limits.yml
+  href: https://artifacts.apis.io/logiwa/rate-limits/logiwa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/logiwa-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/plans/logiwa-plans-pricing.yml
+  href: https://artifacts.apis.io/logiwa/plans/logiwa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/logiwa-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/lifecycle/logiwa-lifecycle.yml
+  href: https://artifacts.apis.io/logiwa/lifecycle/logiwa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/logiwa-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/conformance/logiwa-conformance.yml
+  href: https://artifacts.apis.io/logiwa/conformance/logiwa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/logiwa-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/security/logiwa-trust-center.yml
+  href: https://artifacts.apis.io/logiwa/security/logiwa-trust-center.yml
   title: ''
   type: Compliance
   url: security/logiwa-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/security/logiwa-trust-center.yml
+  href: https://artifacts.apis.io/logiwa/security/logiwa-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/logiwa-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/security/logiwa-domain-security.yml
+  href: https://artifacts.apis.io/logiwa/security/logiwa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/logiwa-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/data-model/logiwa-data-model.yml
+  href: https://artifacts.apis.io/logiwa/data-model/logiwa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/logiwa-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/packages/logiwa-packages.yml
+  href: https://artifacts.apis.io/logiwa/packages/logiwa-packages.yml
   title: ''
   type: Packages
   url: packages/logiwa-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/asyncapi/logiwa-webhooks.yml
+  href: https://artifacts.apis.io/logiwa/asyncapi/logiwa-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/logiwa-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/well-known/logiwa-well-known.yml
+  href: https://artifacts.apis.io/logiwa/well-known/logiwa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/logiwa-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/llms/logiwa-llms.txt
+  href: https://artifacts.apis.io/logiwa/llms/logiwa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/logiwa-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/logiwa/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-25'
 description: 'Logiwa is a Chicago-based cloud fulfillment software company whose flagship product, Logiwa IO, is a warehouse management and fulfillment management system (WMS/FMS) built for high-volume B2C and DTC brands, wholesalers and third-party logistics providers (3PLs). Logiwa exposes a documented Integration API covering products, shipment orders, purchase orders, receipt orders, inventory, locations, count plans, documents, warehouse tasks, transaction history and 3PL billing, plus an eleven-topic webhook surface for order, inventory, movement and shipment tracking events. The API is an RPC-over-POST design: 81 documented operations, all reached by POST to /en/api/IntegrationApi/{Method} on a per-tenant host, authenticated with an OAuth 2.0 password grant that yields a bearer token. Logiwa publishes no OpenAPI, AsyncAPI or other machine-readable contract, and no first-party SDKs; the reference is a JavaScript-rendered developer portal and API credentials are provisioned by sales
   rather than self-service.'
+finops:
+- has_sources: true
+  method: derived
+  name: Logiwa Finops
+  primary_unit: ''
+  service_category: ''
+  slug: logiwa-finops
+  template: true
 image: https://developer.logiwa.com/Content/img/logiwa_new_logo.png
 layout: provider
 modified: '2026-10-06'
@@ -196,7 +206,7 @@ plans:
 - name: Logiwa Plans Pricing
   plan_count: 0
   slug: logiwa-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 6
   name: Logiwa Rate Limits
@@ -208,21 +218,21 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 46.6
+  composite: 45.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -231,7 +241,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 46.5
+  previous_composite: 45.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -242,14 +252,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/screenshots/logiwa-2026-09-02T150306.png
+screenshot: https://apis.io/screenshots/logiwa/logiwa-2026-09-02T150306.png
 security:
 - kind: authentication
   name: Logiwa Authentication
@@ -267,6 +277,14 @@ security:
   name: Logiwa Trust Center
   slug: logiwa-trust-center
   summary_line: SOC 2 Type II
+skill_count: 3
+skills:
+- name: logiwa-carrier-partner-integration
+  slug: logiwa-carrier-partner-integration
+- name: logiwa-inventory-sync
+  slug: logiwa-inventory-sync
+- name: logiwa-order-intake-and-fulfillment
+  slug: logiwa-order-intake-and-fulfillment
 slug: logiwa
 tags:
 - Company

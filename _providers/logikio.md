@@ -31,14 +31,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 31.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -103,14 +105,11 @@ apis:
   description: Get Bill of Materials (BOM) information for a given configuration UUID.
   name: Logik.io Runtime - Bill of Materials API
   slug: logikio-runtime-bill-of-materials-api
-artifact_total: 29
+artifact_total: 30
 collections:
 - collection_type: postman
   name: Logik Configurator Runtime APIs
   slug: postman-logikio-runtime
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Logik.io Admin API - Blueprint Import/Export Blueprint > Export API
   slug: open-logikio-blueprint-export-api
@@ -146,7 +145,7 @@ collections:
   slug: open-logikio-runtime-bill-of-materials-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/capabilities/logikio-capability-edges.yml
+  href: https://artifacts.apis.io/logikio/capabilities/logikio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/logikio-capability-edges.yml
@@ -155,7 +154,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/servicenow/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/overlays/logikio-admin-blueprint-overlay.yaml
+  href: https://artifacts.apis.io/logikio/overlays/logikio-admin-blueprint-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/logikio-admin-blueprint-overlay.yaml
@@ -176,87 +175,87 @@ common:
   type: GitHubOrganization
   url: https://github.com/logikioopensource
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/postman/logikio-runtime.postman_collection.json
+  href: https://artifacts.apis.io/logikio/postman/logikio-runtime.postman_collection.json
   title: ''
   type: Postman
   url: postman/logikio-runtime.postman_collection.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/authentication/logikio-authentication.yml
+  href: https://artifacts.apis.io/logikio/authentication/logikio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/logikio-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/conventions/logikio-conventions.yml
+  href: https://artifacts.apis.io/logikio/conventions/logikio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/logikio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/errors/logikio-problem-types.yml
+  href: https://artifacts.apis.io/logikio/errors/logikio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/logikio-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/lifecycle/logikio-lifecycle.yml
+  href: https://artifacts.apis.io/logikio/lifecycle/logikio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/logikio-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/conformance/logikio-conformance.yml
+  href: https://artifacts.apis.io/logikio/conformance/logikio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/logikio-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/conformance/logikio-conformance.yml
+  href: https://artifacts.apis.io/logikio/conformance/logikio-conformance.yml
   title: ''
   type: Compliance
   url: conformance/logikio-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/data-model/logikio-data-model.yml
+  href: https://artifacts.apis.io/logikio/data-model/logikio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/logikio-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/sandbox/logikio-sandbox.yml
+  href: https://artifacts.apis.io/logikio/sandbox/logikio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/logikio-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/packages/logikio-packages.yml
+  href: https://artifacts.apis.io/logikio/packages/logikio-packages.yml
   title: ''
   type: Packages
   url: packages/logikio-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/mcp/logikio-mcp.yml
+  href: https://artifacts.apis.io/logikio/mcp/logikio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/logikio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/llms/logikio-llms.txt
+  href: https://artifacts.apis.io/logikio/llms/logikio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/logikio-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/logikio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/agentic-access/logikio-agentic-access.yml
+  href: https://artifacts.apis.io/logikio/agentic-access/logikio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/logikio-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/security/logikio-domain-security.yml
+  href: https://artifacts.apis.io/logikio/security/logikio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/logikio-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/plans/logikio-plans-pricing.yml
+  href: https://artifacts.apis.io/logikio/plans/logikio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/logikio-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/rate-limits/logikio-rate-limits.yml
+  href: https://artifacts.apis.io/logikio/rate-limits/logikio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/logikio-rate-limits.yml
@@ -280,14 +279,14 @@ plans:
 - name: Logikio Plans Pricing
   plan_count: 0
   slug: logikio-plans-pricing
-random_paper: 2
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Logikio Rate Limits
   slug: logikio-rate-limits
 score:
   band: thin
-  composite: 33.5
+  composite: 33.2
   coverage:
     artifact_dirs: 24
     catalog_earned: 40.0
@@ -295,15 +294,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.1
   facets:
     access_clarity: 7.9
     contract_governance: 18.2
-    contract_quality: 50.3
+    contract_quality: 47.8
     developer_ergonomics: 43.5
-    discoverability: 78.6
-    operational_transparency: 2.6
-  previous_composite: 33.4
+    discoverability: 71.4
+    operational_transparency: 5.3
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -324,13 +323,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/screenshots/logikio-2026-07-25T225503.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/logikio/logikio-2026-07-25T225503.png
 security:
 - kind: authentication
   name: Logikio Authentication
@@ -340,6 +340,12 @@ security:
   name: Logikio Domain Security
   slug: logikio-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Configure a product and retrieve its BOM (Runtime v2)
+  slug: logikio-configure-and-get-bom
+- name: Manage a Logik.io managed data table (Admin API)
+  slug: logikio-manage-tables
 slug: logikio
 tags:
 - Company

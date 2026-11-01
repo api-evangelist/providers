@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Hyperliquid data REST API using a single POST /info operation dispatcher (type field selects the operation). Bearer-token authentication. Provides user state, positions, asset data, order data, histor
@@ -35,72 +37,72 @@ apis:
 artifact_total: 8
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hydromancer-leading-hyperliquid-data-provider/refs/heads/main/rate-limits/hydromancer-leading-hyperliquid-data-provider-websocket-rate-limits.yml
+  href: https://artifacts.apis.io/hydromancer-leading-hyperliquid-data-provider/rate-limits/hydromancer-leading-hyperliquid-data-provider-websocket-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hydromancer-leading-hyperliquid-data-provider-websocket-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hydromancer-leading-hyperliquid-data-provider/refs/heads/main/mcp/hydromancer-leading-hyperliquid-data-provider-mcp.yml
+  href: https://artifacts.apis.io/hydromancer-leading-hyperliquid-data-provider/mcp/hydromancer-leading-hyperliquid-data-provider-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hydromancer-leading-hyperliquid-data-provider-mcp.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hydromancer-leading-hyperliquid-data-provider/refs/heads/main/rate-limits/hydromancer-leading-hyperliquid-data-provider-rate-limits.yml
+  href: https://artifacts.apis.io/hydromancer-leading-hyperliquid-data-provider/rate-limits/hydromancer-leading-hyperliquid-data-provider-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hydromancer-leading-hyperliquid-data-provider-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hydromancer-leading-hyperliquid-data-provider/refs/heads/main/plans/hydromancer-leading-hyperliquid-data-provider-plans-pricing.yml
+  href: https://artifacts.apis.io/hydromancer-leading-hyperliquid-data-provider/plans/hydromancer-leading-hyperliquid-data-provider-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hydromancer-leading-hyperliquid-data-provider-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hydromancer-leading-hyperliquid-data-provider/refs/heads/main/changelog/hydromancer-leading-hyperliquid-data-provider-changelog.yml
+  href: https://artifacts.apis.io/hydromancer-leading-hyperliquid-data-provider/changelog/hydromancer-leading-hyperliquid-data-provider-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hydromancer-leading-hyperliquid-data-provider-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hydromancer-leading-hyperliquid-data-provider/refs/heads/main/conventions/hydromancer-leading-hyperliquid-data-provider-conventions.yml
+  href: https://artifacts.apis.io/hydromancer-leading-hyperliquid-data-provider/conventions/hydromancer-leading-hyperliquid-data-provider-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hydromancer-leading-hyperliquid-data-provider-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/hydromancer-leading-hyperliquid-data-provider/refs/heads/main/sandbox/hydromancer-leading-hyperliquid-data-provider-sandbox.yml
+  href: https://artifacts.apis.io/hydromancer-leading-hyperliquid-data-provider/sandbox/hydromancer-leading-hyperliquid-data-provider-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hydromancer-leading-hyperliquid-data-provider-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hydromancer-leading-hyperliquid-data-provider/refs/heads/main/authentication/hydromancer-leading-hyperliquid-data-provider-authentication.yml
+  href: https://artifacts.apis.io/hydromancer-leading-hyperliquid-data-provider/authentication/hydromancer-leading-hyperliquid-data-provider-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hydromancer-leading-hyperliquid-data-provider-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hydromancer-leading-hyperliquid-data-provider/refs/heads/main/lifecycle/hydromancer-leading-hyperliquid-data-provider-lifecycle.yml
+  href: https://artifacts.apis.io/hydromancer-leading-hyperliquid-data-provider/lifecycle/hydromancer-leading-hyperliquid-data-provider-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/hydromancer-leading-hyperliquid-data-provider-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hydromancer-leading-hyperliquid-data-provider/refs/heads/main/lifecycle/hydromancer-leading-hyperliquid-data-provider-lifecycle.yml
+  href: https://artifacts.apis.io/hydromancer-leading-hyperliquid-data-provider/lifecycle/hydromancer-leading-hyperliquid-data-provider-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hydromancer-leading-hyperliquid-data-provider-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hydromancer-leading-hyperliquid-data-provider/refs/heads/main/errors/hydromancer-leading-hyperliquid-data-provider-problem-types.yml
+  href: https://artifacts.apis.io/hydromancer-leading-hyperliquid-data-provider/errors/hydromancer-leading-hyperliquid-data-provider-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hydromancer-leading-hyperliquid-data-provider-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hydromancer-leading-hyperliquid-data-provider/refs/heads/main/llms/hydromancer-leading-hyperliquid-data-provider-llms.txt
+  href: https://artifacts.apis.io/hydromancer-leading-hyperliquid-data-provider/llms/hydromancer-leading-hyperliquid-data-provider-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hydromancer-leading-hyperliquid-data-provider-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hydromancer-leading-hyperliquid-data-provider/refs/heads/main/well-known/hydromancer-leading-hyperliquid-data-provider-well-known.yml
+  href: https://artifacts.apis.io/hydromancer-leading-hyperliquid-data-provider/well-known/hydromancer-leading-hyperliquid-data-provider-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hydromancer-leading-hyperliquid-data-provider-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hydromancer-leading-hyperliquid-data-provider/refs/heads/main/security/hydromancer-leading-hyperliquid-data-provider-domain-security.yml
+  href: https://artifacts.apis.io/hydromancer-leading-hyperliquid-data-provider/security/hydromancer-leading-hyperliquid-data-provider-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hydromancer-leading-hyperliquid-data-provider-domain-security.yml
@@ -147,7 +149,7 @@ plans:
 - name: Hydromancer Leading Hyperliquid Data Provider Plans Pricing
   plan_count: 4
   slug: hydromancer-leading-hyperliquid-data-provider-plans-pricing
-random_paper: 15
+random_paper: 9
 rate_limits:
 - limit_count: 6
   name: Hydromancer Leading Hyperliquid Data Provider Rate Limits
@@ -157,7 +159,7 @@ rate_limits:
   slug: hydromancer-leading-hyperliquid-data-provider-websocket-rate-limits
 score:
   band: thin
-  composite: 30.8
+  composite: 30.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 59.0
@@ -165,15 +167,15 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 71.7
+    discoverability: 68.3
     operational_transparency: 55.3
-  previous_composite: 30.7
+  previous_composite: 30.4
   provenance:
     mcp: first-party
   regulatory:
@@ -182,14 +184,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hydromancer-leading-hyperliquid-data-provider/refs/heads/main/screenshots/hydromancer-leading-hyperliquid-data-provider-2026-10-11T105522.png
+screenshot: https://apis.io/screenshots/hydromancer-leading-hyperliquid-data-provider/hydromancer-leading-hyperliquid-data-provider-2026-10-11T105522.png
 security:
 - kind: authentication
   name: Hydromancer Leading Hyperliquid Data Provider Authentication

@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: The Weather API from Ambee — 3 operation(s) for weather.
   name: Ambee Weather API
   slug: ambee-weather-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ambee Air Quality API
   slug: open-ambee-air-quality-api
@@ -102,17 +101,17 @@ collections:
   slug: open-ambee
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/agentic-access/ambee-agentic-access.yml
+  href: https://artifacts.apis.io/ambee/agentic-access/ambee-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ambee-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/security/ambee-domain-security.yml
+  href: https://artifacts.apis.io/ambee/security/ambee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ambee-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/authentication/ambee-authentication.yml
+  href: https://artifacts.apis.io/ambee/authentication/ambee-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ambee-authentication.yml
@@ -137,17 +136,17 @@ common:
   type: Documentation
   url: https://docs.ambeedata.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/plans/ambee-plans-pricing.yml
+  href: https://artifacts.apis.io/ambee/plans/ambee-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ambee-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/rate-limits/ambee-rate-limits.yml
+  href: https://artifacts.apis.io/ambee/rate-limits/ambee-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ambee-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/finops/ambee-finops.yml
+  href: https://artifacts.apis.io/ambee/finops/ambee-finops.yml
   title: ''
   type: FinOps
   url: finops/ambee-finops.yml
@@ -175,14 +174,14 @@ plans:
 - name: Ambee Plans Pricing
   plan_count: 2
   slug: ambee-plans-pricing
-random_paper: 0
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Ambee Rate Limits
   slug: ambee-rate-limits
 score:
   band: thin
-  composite: 26.7
+  composite: 27.0
   coverage:
     artifact_dirs: 12
     catalog_earned: 42.0
@@ -190,15 +189,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 46.8
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 33.6
+    operational_transparency: 13.2
+  previous_composite: 27.0
   provenance:
     agentic_access: derived
     contracts:
@@ -212,14 +211,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/screenshots/ambee-2026-07-25T200014.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ambee/ambee-2026-07-25T200014.png
 security:
 - kind: authentication
   name: Ambee Authentication

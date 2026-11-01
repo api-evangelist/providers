@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 18.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -82,11 +84,8 @@ apis:
   description: The Quotations API from Insightly — 1 operation(s) for quotations.
   name: Insightly Quotations API
   slug: insightly-quotations-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Insightly CRM Contacts API
   slug: open-insightly-contacts-api
@@ -113,27 +112,27 @@ collections:
   slug: open-insightly
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/capabilities/insightly-capability-edges.yml
+  href: https://artifacts.apis.io/insightly/capabilities/insightly-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/insightly-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/agentic-access/insightly-agentic-access.yml
+  href: https://artifacts.apis.io/insightly/agentic-access/insightly-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/insightly-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/security/insightly-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/insightly/security/insightly-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/insightly-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/security/insightly-domain-security.yml
+  href: https://artifacts.apis.io/insightly/security/insightly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/insightly-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/authentication/insightly-authentication.yml
+  href: https://artifacts.apis.io/insightly/authentication/insightly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/insightly-authentication.yml
@@ -181,10 +180,10 @@ overview: 'Insightly publishes 8 API contracts indexed on the [APIs.io](https://
 
 
   Insightly''s developer surface includes authentication, documentation, support, signup flow, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 19
+random_paper: 3
 score:
   band: thin
-  composite: 28.3
+  composite: 30.8
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -192,15 +191,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 48.7
-    developer_ergonomics: 23.8
+    contract_quality: 45.3
+    developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 28.2
+    operational_transparency: 15.8
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
@@ -214,13 +213,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/screenshots/insightly-2026-06-20T183401.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/insightly/insightly-2026-06-20T183401.png
 security:
 - kind: authentication
   name: Insightly Authentication

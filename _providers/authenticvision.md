@@ -14,41 +14,43 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/authenticvision/refs/heads/main/llms/authenticvision-llms.txt
+  href: https://artifacts.apis.io/authenticvision/llms/authenticvision-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/authenticvision-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/authenticvision/refs/heads/main/hosts/authenticvision-hosts.yml
+  href: https://artifacts.apis.io/authenticvision/hosts/authenticvision-hosts.yml
   title: ''
   type: Hosts
   url: hosts/authenticvision-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/authenticvision/refs/heads/main/vendors/authenticvision-vendors.yml
+  href: https://artifacts.apis.io/authenticvision/vendors/authenticvision-vendors.yml
   title: ''
   type: Vendors
   url: vendors/authenticvision-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/authenticvision/refs/heads/main/packages/authenticvision-packages.yml
+  href: https://artifacts.apis.io/authenticvision/packages/authenticvision-packages.yml
   title: ''
   type: SDKs
   url: packages/authenticvision-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/authenticvision/refs/heads/main/packages/authenticvision-packages.yml
+  href: https://artifacts.apis.io/authenticvision/packages/authenticvision-packages.yml
   title: ''
   type: Packages
   url: packages/authenticvision-packages.yml
@@ -65,7 +67,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/authenticvision
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/authenticvision/refs/heads/main/security/authenticvision-domain-security.yml
+  href: https://artifacts.apis.io/authenticvision/security/authenticvision-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/authenticvision-domain-security.yml
@@ -104,10 +106,10 @@ overview: 'Authenticvision is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Authenticvision''s developer surface includes documentation, engineering blog, support, and 12 more developer resources.'
-random_paper: 1
+random_paper: 21
 score:
   band: emerging
-  composite: 13.8
+  composite: 13.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 25.0
@@ -121,9 +123,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 51.8
+    discoverability: 44.6
     operational_transparency: 5.3
-  previous_composite: 13.8
+  previous_composite: 13.1
   provenance:
     mcp: unknown
   regulatory:
@@ -132,14 +134,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/authenticvision/refs/heads/main/screenshots/authenticvision-2026-10-11T100902.png
+screenshot: https://apis.io/screenshots/authenticvision/authenticvision-2026-10-11T100902.png
 security:
 - kind: domain-security
   name: Authenticvision Domain Security

@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: unknown
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.5
-  scored_at: '2026-10-17'
+  score: 35.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: Google Shopping product results.
   name: ValueSERP Shopping API
   slug: valueserp-shopping-api
-artifact_total: 28
+artifact_total: 33
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ValueSERP Search Images API
   slug: open-valueserp-images-api
@@ -98,18 +97,27 @@ collections:
   name: ValueSERP Search Images Shopping API
   slug: open-valueserp-shopping-api
 common:
+- group: other
+  href: https://artifacts.apis.io/valueserp/capabilities/valueserp-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/valueserp-capability-edges.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/valueserp/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/agentic-access/valueserp-agentic-access.yml
+  href: https://artifacts.apis.io/valueserp/agentic-access/valueserp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/valueserp-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/security/valueserp-domain-security.yml
+  href: https://artifacts.apis.io/valueserp/security/valueserp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/valueserp-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/authentication/valueserp-authentication.yml
+  href: https://artifacts.apis.io/valueserp/authentication/valueserp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/valueserp-authentication.yml
@@ -142,17 +150,17 @@ common:
   type: X
   url: https://x.com/valueserp
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/plans/valueserp-plans-pricing.yml
+  href: https://artifacts.apis.io/valueserp/plans/valueserp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/valueserp-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/rate-limits/valueserp-rate-limits.yml
+  href: https://artifacts.apis.io/valueserp/rate-limits/valueserp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/valueserp-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/finops/valueserp-finops.yml
+  href: https://artifacts.apis.io/valueserp/finops/valueserp-finops.yml
   title: ''
   type: FinOps
   url: finops/valueserp-finops.yml
@@ -165,72 +173,72 @@ common:
   type: JSONLDContext
   url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/json-ld/valueserp-context.jsonld
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/llms/valueserp-llms.txt
+  href: https://artifacts.apis.io/valueserp/llms/valueserp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/valueserp-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/packages/valueserp-packages.yml
+  href: https://artifacts.apis.io/valueserp/packages/valueserp-packages.yml
   title: ''
   type: Packages
   url: packages/valueserp-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/mcp/valueserp-mcp.yml
+  href: https://artifacts.apis.io/valueserp/mcp/valueserp-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/valueserp-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/conventions/valueserp-conventions.yml
+  href: https://artifacts.apis.io/valueserp/conventions/valueserp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/valueserp-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/errors/valueserp-problem-types.yml
+  href: https://artifacts.apis.io/valueserp/errors/valueserp-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/valueserp-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/conformance/valueserp-conformance.yml
+  href: https://artifacts.apis.io/valueserp/conformance/valueserp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/valueserp-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/lifecycle/valueserp-lifecycle.yml
+  href: https://artifacts.apis.io/valueserp/lifecycle/valueserp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/valueserp-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/changelog/valueserp-changelog.yml
+  href: https://artifacts.apis.io/valueserp/changelog/valueserp-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/valueserp-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/sandbox/valueserp-sandbox.yml
+  href: https://artifacts.apis.io/valueserp/sandbox/valueserp-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/valueserp-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/data-model/valueserp-data-model.yml
+  href: https://artifacts.apis.io/valueserp/data-model/valueserp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/valueserp-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/webhooks/valueserp-webhooks.yml
+  href: https://artifacts.apis.io/valueserp/webhooks/valueserp-webhooks.yml
   title: ''
   type: Webhooks
   url: webhooks/valueserp-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/valueserp/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/security/valueserp-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/valueserp/security/valueserp-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/valueserp-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/security/valueserp-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/valueserp/security/valueserp-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/valueserp-vulnerability-disclosure.yml
@@ -290,13 +298,13 @@ examples:
   name: Valueserp Shopping Search Example
   slug: valueserp-shopping-search-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Valueserp Finops
-  primary_unit: ''
+  primary_unit: searches/month
   service_category: ''
   slug: valueserp-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/valueserp.png
 json_schemas:
 - name: ValueSERP Search Request
@@ -315,18 +323,21 @@ modified: 2026-08-13
 name: ValueSERP
 nav: Providers
 network: true
-overview: 'ValueSERP publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Images API, News API, Places API, and 3 more. Tagged areas include SERP, Search Engine Results, Google Search, Search API, and SEO.
+overview: 'ValueSERP publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Images API, News API, Places API, and 3 more. Tagged areas include SERP, Search Engine Results, Google Search, SEO, and Web Scraping.
 
 
   The ValueSERP catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ValueSERP''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, sandbox, API reference, and 32 more developer resources.'
+  ValueSERP''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, sandbox, API reference, and 34 more developer resources.'
 plans:
 - name: Valueserp Plans Pricing
-  plan_count: 12
+  plan_count: 11
   slug: valueserp-plans-pricing
-random_paper: 15
+- name: Valueserp Price Estimates
+  plan_count: 0
+  slug: valueserp-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 11
   name: Valueserp Rate Limits
@@ -344,24 +355,24 @@ rules:
     warn: 4
   slug: valueserp-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 64.7
+  band: exemplar
+  composite: 67.1
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 85.8
+    artifact_dirs: 31
+    catalog_earned: 88.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 29.3
+    catalog_gap: 26.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.8
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 28.0
     contract_quality: 63.4
-    developer_ergonomics: 56.5
-    discoverability: 73.2
+    developer_ergonomics: 57.7
+    discoverability: 66.1
     operational_transparency: 81.6
-  previous_composite: 66.2
+  previous_composite: 65.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -378,14 +389,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/screenshots/valueserp-2026-06-20T200802.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/valueserp/valueserp-2026-06-20T200802.png
 security:
 - kind: authentication
   name: Valueserp Authentication
@@ -399,12 +410,23 @@ security:
   name: Valueserp Vulnerability Disclosure
   slug: valueserp-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 5
+skills:
+- name: Collect SERPs in bulk with Batches and a webhook
+  slug: valueserp-bulk-collect-with-batches
+- name: Capture Google AI Overviews for a query
+  slug: valueserp-capture-ai-overview
+- name: Monitor a business in the Google local pack
+  slug: valueserp-monitor-local-pack
+- name: Rank-track a keyword in a specific market
+  slug: valueserp-rank-track-a-keyword
+- name: Track a product across Google Shopping and News
+  slug: valueserp-track-shopping-and-news
 slug: valueserp
 tags:
 - SERP
 - Search Engine Results
 - Google Search
-- Search API
 - SEO
 - Web Scraping
 - Shopping Results

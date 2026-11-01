@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -88,9 +90,6 @@ arazzos:
 artifact_total: 21
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-bankvic-banking-account-balances-api
 - collection_type: open
@@ -117,37 +116,37 @@ common:
   type: Blog
   url: https://www.bankvic.com.au/our-story/news/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/capabilities/bankvic-capability-edges.yml
+  href: https://artifacts.apis.io/bankvic/capabilities/bankvic-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bankvic-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/agentic-access/bankvic-agentic-access.yml
+  href: https://artifacts.apis.io/bankvic/agentic-access/bankvic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bankvic-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/security/bankvic-domain-security.yml
+  href: https://artifacts.apis.io/bankvic/security/bankvic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bankvic-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/authentication/bankvic-authentication.yml
+  href: https://artifacts.apis.io/bankvic/authentication/bankvic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bankvic-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/errors/bankvic-problem-types.yml
+  href: https://artifacts.apis.io/bankvic/errors/bankvic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bankvic-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/conventions/bankvic-conventions.yml
+  href: https://artifacts.apis.io/bankvic/conventions/bankvic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bankvic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/conformance/bankvic-conformance.yml
+  href: https://artifacts.apis.io/bankvic/conformance/bankvic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bankvic-conformance.yml
@@ -156,22 +155,22 @@ common:
   type: Compliance
   url: https://uat.bankvic.com.au/documents/95c3605a8cf64a12ae35608ca0188c73.pdf
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/scopes/bankvic-scopes.yml
+  href: https://artifacts.apis.io/bankvic/scopes/bankvic-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bankvic-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/arazzo/bankvic-product-discovery.yml
+  href: https://artifacts.apis.io/bankvic/arazzo/bankvic-product-discovery.yml
   title: ''
   type: Arazzo
   url: arazzo/bankvic-product-discovery.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/arazzo/bankvic-account-data-overview.yml
+  href: https://artifacts.apis.io/bankvic/arazzo/bankvic-account-data-overview.yml
   title: ''
   type: Arazzo
   url: arazzo/bankvic-account-data-overview.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/lifecycle/bankvic-lifecycle.yml
+  href: https://artifacts.apis.io/bankvic/lifecycle/bankvic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bankvic-lifecycle.yml
@@ -180,27 +179,27 @@ common:
   type: Deprecation
   url: https://consumerdatastandardsaustralia.github.io/standards/#versioning
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/data-model/bankvic-data-model.yml
+  href: https://artifacts.apis.io/bankvic/data-model/bankvic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bankvic-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/mcp/bankvic-mcp.yml
+  href: https://artifacts.apis.io/bankvic/mcp/bankvic-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bankvic-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/llms/bankvic-llms.txt
+  href: https://artifacts.apis.io/bankvic/llms/bankvic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bankvic-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/overlays/bankvic-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/bankvic/overlays/bankvic-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bankvic-cds-banking-products-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/skills/bankvic-product-reference-data.md
+  href: https://artifacts.apis.io/bankvic/skills/bankvic-product-reference-data.md
   title: ''
   type: AgentSkill
   url: skills/bankvic-product-reference-data.md
@@ -256,7 +255,7 @@ overview: 'BankVic publishes 7 API contracts indexed on the [APIs.io](https://ap
 
 
   BankVic''s developer surface includes engineering blog, authentication, documentation, getting-started guide, API reference, support, signup flow, and 22 more developer resources.'
-random_paper: 8
+random_paper: 14
 scopes:
 - name: Bankvic Scopes
   scope_count: 9
@@ -264,7 +263,7 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.8
+  composite: 44.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -272,13 +271,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 44.7
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -287,7 +286,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 41.3
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -307,14 +306,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 38.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 41.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/screenshots/bankvic-2026-07-21T114709.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bankvic/bankvic-2026-07-21T114709.png
 security:
 - kind: authentication
   name: Bankvic Authentication
@@ -324,6 +324,10 @@ security:
   name: Bankvic Domain Security
   slug: bankvic-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Query BankVic product reference data
+  slug: bankvic-product-reference-data
 slug: bankvic
 tags:
 - Finance

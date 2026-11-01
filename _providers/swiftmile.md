@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,27 +36,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/swiftmile/refs/heads/main/plans/swiftmile-plans-pricing.yml
+  href: https://artifacts.apis.io/swiftmile/plans/swiftmile-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/swiftmile-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/swiftmile/refs/heads/main/rate-limits/swiftmile-rate-limits.yml
+  href: https://artifacts.apis.io/swiftmile/rate-limits/swiftmile-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/swiftmile-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swiftmile/refs/heads/main/security/swiftmile-domain-security.yml
+  href: https://artifacts.apis.io/swiftmile/security/swiftmile-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/swiftmile-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/swiftmile/refs/heads/main/llms/swiftmile-llms.txt
+  href: https://artifacts.apis.io/swiftmile/llms/swiftmile-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/swiftmile-llms.txt
@@ -96,14 +98,14 @@ plans:
 - name: Swiftmile Plans Pricing
   plan_count: 0
   slug: swiftmile-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Swiftmile Rate Limits
   slug: swiftmile-rate-limits
 score:
   band: minimal
-  composite: 3.9
+  composite: 3.2
   coverage:
     artifact_dirs: 7
     catalog_earned: 25.0
@@ -117,7 +119,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 51.8
+    discoverability: 44.6
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -126,21 +128,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 3.9
+  previous_composite: 3.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/swiftmile/refs/heads/main/screenshots/swiftmile-2026-09-02T161356.png
+screenshot: https://apis.io/screenshots/swiftmile/swiftmile-2026-09-02T161356.png
 security:
 - kind: domain-security
   name: Swiftmile Domain Security

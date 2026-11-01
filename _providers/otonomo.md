@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-10-17'
+  score: 33.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -53,15 +55,12 @@ apis:
   description: The US API from Otonomo — 2 operation(s) for us.
   name: Otonomo US API
   slug: otonomo-us-api
-artifact_total: 11
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Otonomo Events Webhooks
   slug: otonomo-events-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Otonomo Fleet EU API
   slug: open-otonomo-eu-api
@@ -70,37 +69,37 @@ collections:
   slug: open-otonomo-us-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/rate-limits/otonomo-rate-limits.yml
+  href: https://artifacts.apis.io/otonomo/rate-limits/otonomo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/otonomo-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/capabilities/otonomo-capability-edges.yml
+  href: https://artifacts.apis.io/otonomo/capabilities/otonomo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/otonomo-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/skills/otonomo-check-vehicle-connectivity.md
+  href: https://artifacts.apis.io/otonomo/skills/otonomo-check-vehicle-connectivity.md
   title: ''
   type: AgentSkill
   url: skills/otonomo-check-vehicle-connectivity.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/mcp/otonomo-mcp.yml
+  href: https://artifacts.apis.io/otonomo/mcp/otonomo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/otonomo-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/overlays/otonomo-fleet-overlay.yaml
+  href: https://artifacts.apis.io/otonomo/overlays/otonomo-fleet-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/otonomo-fleet-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/agentic-access/otonomo-agentic-access.yml
+  href: https://artifacts.apis.io/otonomo/agentic-access/otonomo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/otonomo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/scopes/otonomo-scopes.yml
+  href: https://artifacts.apis.io/otonomo/scopes/otonomo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/otonomo-scopes.yml
@@ -129,12 +128,12 @@ common:
   type: Postman
   url: https://docs.otonomo.io/docs/postman-collection-get-car-status
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/packages/otonomo-packages.yml
+  href: https://artifacts.apis.io/otonomo/packages/otonomo-packages.yml
   title: ''
   type: Packages
   url: packages/otonomo-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/security/otonomo-domain-security.yml
+  href: https://artifacts.apis.io/otonomo/security/otonomo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/otonomo-domain-security.yml
@@ -153,7 +152,7 @@ overview: 'Otonomo publishes 2 API contracts indexed on the [APIs.io](https://ap
 
 
   Otonomo''s developer surface includes documentation, API reference, getting-started guide, support, and 11 more developer resources.'
-random_paper: 9
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Otonomo Rate Limits
@@ -165,7 +164,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 30.1
+  composite: 35.8
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -173,15 +172,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 56.4
-    developer_ergonomics: 30.4
-    discoverability: 73.2
+    developer_ergonomics: 58.9
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 30.0
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -198,13 +197,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/screenshots/otonomo-2026-10-11T192059.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/otonomo/otonomo-2026-10-11T192059.png
 security:
 - kind: authentication
   name: Otonomo Authentication
@@ -214,6 +214,14 @@ security:
   name: Otonomo Domain Security
   slug: otonomo-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Check a vehicle's connectivity before requesting data
+  slug: otonomo-check-vehicle-connectivity
+- name: Generate and download an asynchronous fleet trips report
+  slug: otonomo-generate-fleet-report
+- name: Onboard fleet vehicles and read their status
+  slug: otonomo-onboard-and-get-status
 slug: otonomo
 tags:
 - Company

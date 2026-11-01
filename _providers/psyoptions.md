@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,27 +71,27 @@ common:
   type: SourceCode
   url: https://github.com/mithraiclabs/psyoptions
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/psyoptions/refs/heads/main/packages/psyoptions-packages.yml
+  href: https://artifacts.apis.io/psyoptions/packages/psyoptions-packages.yml
   title: ''
   type: Packages
   url: packages/psyoptions-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/psyoptions/refs/heads/main/packages/psyoptions-packages.yml
+  href: https://artifacts.apis.io/psyoptions/packages/psyoptions-packages.yml
   title: ''
   type: SDKs
   url: packages/psyoptions-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/psyoptions/refs/heads/main/lifecycle/psyoptions-lifecycle.yml
+  href: https://artifacts.apis.io/psyoptions/lifecycle/psyoptions-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/psyoptions-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/psyoptions/refs/heads/main/security/psyoptions-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/psyoptions/security/psyoptions-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/psyoptions-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/psyoptions/refs/heads/main/security/psyoptions-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/psyoptions/security/psyoptions-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/psyoptions-vulnerability-disclosure.yml
@@ -105,12 +107,12 @@ overview: 'PsyOptions is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   PsyOptions'' developer surface includes documentation and 12 more developer resources.'
-random_paper: 6
+random_paper: 0
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -125,9 +127,6 @@ score:
     discoverability: 0.0
     operational_transparency: 0.0
   lifecycle: defunct
-  open_source:
-    applies: true
-    score: 0.0
   previous_composite: 0.0
   regulatory:
     applies: true
@@ -135,8 +134,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 11.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

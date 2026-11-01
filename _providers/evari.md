@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.2
-  scored_at: '2026-10-17'
+  score: 20.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -50,14 +52,14 @@ apis:
   description: The Evari Quotes microservice - the internal broker and underwriter quoting surface at /api/quotes/** plus a customer-facing mirror at /api/quotes/public/**. 49 paths, 56 operations and 70 definitions
   name: Evari Quotes API
   slug: evari-quotes-api
-artifact_total: 9
+artifact_total: 15
 collections:
 - collection_type: open
   name: Evari Quotes API
   slug: open-evari-quotes-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/capabilities/evari-capability-edges.yml
+  href: https://artifacts.apis.io/evari/capabilities/evari-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/evari-capability-edges.yml
@@ -94,7 +96,7 @@ common:
   type: Pricing
   url: https://evari.tech/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/plans/evari-plans.yml
+  href: https://artifacts.apis.io/evari/plans/evari-plans.yml
   title: ''
   type: Plans
   url: plans/evari-plans.yml
@@ -115,7 +117,7 @@ common:
   type: TrustCenter
   url: https://evari.tech/trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/security/evari-trust-center.yml
+  href: https://artifacts.apis.io/evari/security/evari-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/evari-trust-center.yml
@@ -128,87 +130,87 @@ common:
   type: Security
   url: https://evari.tech/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/security/evari-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/evari/security/evari-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/evari-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/well-known/evari-security.txt
+  href: https://artifacts.apis.io/evari/well-known/evari-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/evari-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/well-known/evari-well-known.yml
+  href: https://artifacts.apis.io/evari/well-known/evari-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/evari-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/security/evari-domain-security.yml
+  href: https://artifacts.apis.io/evari/security/evari-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/evari-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/openapi/evari-quotes-api-openapi.yml
+  href: https://artifacts.apis.io/evari/openapi/evari-quotes-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/evari-quotes-api-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/json-schema/evari-contracts-types.json
+  href: https://artifacts.apis.io/evari/json-schema/evari-contracts-types.json
   title: ''
   type: JSONSchema
   url: json-schema/evari-contracts-types.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/packages/evari-packages.yml
+  href: https://artifacts.apis.io/evari/packages/evari-packages.yml
   title: ''
   type: Packages
   url: packages/evari-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/authentication/evari-authentication.yml
+  href: https://artifacts.apis.io/evari/authentication/evari-authentication.yml
   title: ''
   type: Authentication
   url: authentication/evari-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/conventions/evari-conventions.yml
+  href: https://artifacts.apis.io/evari/conventions/evari-conventions.yml
   title: ''
   type: Conventions
   url: conventions/evari-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/data-model/evari-data-model.yml
+  href: https://artifacts.apis.io/evari/data-model/evari-data-model.yml
   title: ''
   type: DataModel
   url: data-model/evari-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/conformance/evari-conformance.yml
+  href: https://artifacts.apis.io/evari/conformance/evari-conformance.yml
   title: ''
   type: Conformance
   url: conformance/evari-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/lifecycle/evari-lifecycle.yml
+  href: https://artifacts.apis.io/evari/lifecycle/evari-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/evari-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/agentic-access/evari-agentic-access.yml
+  href: https://artifacts.apis.io/evari/agentic-access/evari-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/evari-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/mcp/evari-mcp.yml
+  href: https://artifacts.apis.io/evari/mcp/evari-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/evari-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/evari/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/llms/evari-llms.txt
+  href: https://artifacts.apis.io/evari/llms/evari-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/evari-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/overlays/evari-quotes-api-overlay.yaml
+  href: https://artifacts.apis.io/evari/overlays/evari-quotes-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/evari-quotes-api-overlay.yaml
@@ -219,6 +221,14 @@ common:
 created: '2026-07-25'
 description: Evari is an insurance technology company founded in Sydney by Daniel Fogarty (former CEO of Zurich Australia and New Zealand), Robert Jeffery and Brack Norris, and now operating as Evari Services UK Ltd. It launched as a digital small-business and trades insurance brand at evari.insure, a Lloyd's coverholder with direct and partner distribution, then moved upstream into core systems with CloudStream, a cloud-native policy administration platform covering quote, bind and issue through endorsement, renewal and cancellation, broker and MGA portals, appetite and eligibility rules, commission tracking and policyholder self-service. Its current positioning is insurance AI operations for brokers, MGAs and insurers, delivered as 30-day assistant deployment sprints powered by the third-party QuivaWorks platform. Evari publishes no developer portal and no API reference, and every running API host is tenant-scoped and closed - api.cloudstream.evari.tech returns 404 unauthenticated, api.envest.evari.tech
   returns 502, and the customer and admin applications are login walls. One real first-party contract does exist off-portal - Evari published its Quotes microservice to npm as evari-quotes-api, and that tarball ships a generated Swagger 2.0 document of 49 paths and 56 operations plus a draft-07 JSON Schema set of 369 definitions, both harvested here. Evari is otherwise a consumer of other vendors' APIs, integrating into Socotra, Vertafore AMS360 and Sagitta, Applied Epic and Guidewire read access, and no ACORD, AL3 or IVANS reference appears anywhere on its site, in its help centre or in its data model.
+finops:
+- has_sources: true
+  method: derived
+  name: Evari Finops
+  primary_unit: platform subscription
+  service_category: ''
+  slug: evari-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 json_schemas:
 - name: Evari Contracts Types
@@ -237,25 +247,28 @@ plans:
 - name: Evari Plans
   plan_count: 6
   slug: evari-plans
+- name: Evari Price Estimates
+  plan_count: 0
+  slug: evari-price-estimates
 random_paper: 7
 score:
   band: developing
-  composite: 47.6
+  composite: 52.1
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 54.4
+    artifact_dirs: 22
+    catalog_earned: 57.4
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.6
+    catalog_gap: 57.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 78.9
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 43.5
     developer_ergonomics: 42.3
-    discoverability: 73.2
-    operational_transparency: 13.2
+    discoverability: 66.1
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -263,7 +276,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 47.5
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -280,13 +293,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 29.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/screenshots/evari-2026-07-25T213710.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/evari/evari-2026-07-25T213710.png
 security:
 - kind: authentication
   name: Evari Authentication
@@ -304,6 +318,16 @@ security:
   name: Evari Trust Center
   slug: evari-trust-center
   summary_line: ISO 27001, GDPR
+skill_count: 4
+skills:
+- name: Evari broker quote lifecycle
+  slug: evari-broker-quote-lifecycle
+- name: Evari price a mid-term endorsement
+  slug: evari-price-an-endorsement
+- name: Evari public quote to confirmation
+  slug: evari-public-quote-to-confirmation
+- name: Evari refer a quote to an underwriter
+  slug: evari-refer-quote-to-underwriter
 slug: evari
 tags:
 - Insurance

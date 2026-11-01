@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The OpenID Connect / OAuth 2.0 authorization surface behind MainStreet sign-in, served from login.mainstreet.com on an Auth0 tenant. It publishes a complete OIDC Discovery 1.0 document and an RFC 8414
@@ -92,42 +94,42 @@ common:
   type: ChangeLog
   url: https://mainstreet.ai/updates.html
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mainstreet/refs/heads/main/changelog/mainstreet-changelog.yml
+  href: https://artifacts.apis.io/mainstreet/changelog/mainstreet-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mainstreet-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mainstreet/refs/heads/main/authentication/mainstreet-authentication.yml
+  href: https://artifacts.apis.io/mainstreet/authentication/mainstreet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mainstreet-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mainstreet/refs/heads/main/scopes/mainstreet-scopes.yml
+  href: https://artifacts.apis.io/mainstreet/scopes/mainstreet-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mainstreet-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mainstreet/refs/heads/main/well-known/mainstreet-well-known.yml
+  href: https://artifacts.apis.io/mainstreet/well-known/mainstreet-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mainstreet-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mainstreet/refs/heads/main/llms/mainstreet-llms.txt
+  href: https://artifacts.apis.io/mainstreet/llms/mainstreet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mainstreet-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mainstreet/refs/heads/main/conformance/mainstreet-conformance.yml
+  href: https://artifacts.apis.io/mainstreet/conformance/mainstreet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mainstreet-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mainstreet/refs/heads/main/lifecycle/mainstreet-lifecycle.yml
+  href: https://artifacts.apis.io/mainstreet/lifecycle/mainstreet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mainstreet-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mainstreet/refs/heads/main/security/mainstreet-domain-security.yml
+  href: https://artifacts.apis.io/mainstreet/security/mainstreet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mainstreet-domain-security.yml
@@ -148,7 +150,7 @@ overview: 'MainStreet is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   MainStreet''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 14 more developer resources.'
-random_paper: 6
+random_paper: 4
 scopes:
 - name: Mainstreet Scopes
   scope_count: 14
@@ -156,7 +158,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/implicit/deviceCode
 score:
   band: thin
-  composite: 31.5
+  composite: 32.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -166,13 +168,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 31.5
+  previous_composite: 32.1
   provenance:
     conformance: first-party
   regulatory:
@@ -185,14 +187,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mainstreet/refs/heads/main/screenshots/mainstreet-2026-08-07T171931.png
+screenshot: https://apis.io/screenshots/mainstreet/mainstreet-2026-08-07T171931.png
 security:
 - kind: authentication
   name: Mainstreet Authentication

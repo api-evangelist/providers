@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.0
-  scored_at: '2026-10-17'
+  score: 12.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://plg-api.preciser.io/v1
@@ -45,11 +47,8 @@ apis:
   description: The Opp Team Data API from Preciser — 1 operation(s) for opp team data.
   name: Preciser Opp Team Data API
   slug: preciser-opp-team-data-api
-artifact_total: 6
+artifact_total: 5
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Preciser Chart Data API
   slug: open-preciser-chart-data-api
@@ -102,37 +101,37 @@ common:
   type: Instagram
   url: https://www.instagram.com/precisersports/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/preciser/refs/heads/main/openapi/_original/preciser-api-openapi.yml
+  href: https://artifacts.apis.io/preciser/openapi/_original/preciser-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/preciser-api-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/preciser/refs/heads/main/overlays/preciser-api-overlay.yaml
+  href: https://artifacts.apis.io/preciser/overlays/preciser-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/preciser-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/preciser/refs/heads/main/mcp/preciser-mcp.yml
+  href: https://artifacts.apis.io/preciser/mcp/preciser-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/preciser-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/preciser/refs/heads/main/llms/preciser-llms.txt
+  href: https://artifacts.apis.io/preciser/llms/preciser-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/preciser-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/preciser/refs/heads/main/conformance/preciser-conformance.yml
+  href: https://artifacts.apis.io/preciser/conformance/preciser-conformance.yml
   title: ''
   type: Conformance
   url: conformance/preciser-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/preciser/refs/heads/main/data-model/preciser-data-model.yml
+  href: https://artifacts.apis.io/preciser/data-model/preciser-data-model.yml
   title: ''
   type: DataModel
   url: data-model/preciser-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/preciser/refs/heads/main/security/preciser-domain-security.yml
+  href: https://artifacts.apis.io/preciser/security/preciser-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/preciser-domain-security.yml
@@ -148,26 +147,26 @@ overview: 'Preciser publishes 2 API contracts indexed on the [APIs.io](https://a
 
 
   Preciser''s developer surface includes API reference, engineering blog, signup flow, support, and 14 more developer resources.'
-random_paper: 3
+random_paper: 21
 score:
-  band: emerging
-  composite: 18.3
+  band: thin
+  composite: 28.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 44.7
-    developer_ergonomics: 0.0
-    discoverability: 73.2
+    developer_ergonomics: 14.3
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 18.2
+  previous_composite: 28.4
   provenance:
     conformance: derived
     contracts:
@@ -181,15 +180,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 17.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/preciser/refs/heads/main/screenshots/preciser-2026-09-02T151907.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/preciser/preciser-2026-09-02T151907.png
 security:
 - kind: domain-security
   name: Preciser Domain Security

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,17 +37,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pure-watercraft/refs/heads/main/plans/pure-watercraft-plans-pricing.yml
+  href: https://artifacts.apis.io/pure-watercraft/plans/pure-watercraft-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pure-watercraft-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pure-watercraft/refs/heads/main/rate-limits/pure-watercraft-rate-limits.yml
+  href: https://artifacts.apis.io/pure-watercraft/rate-limits/pure-watercraft-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pure-watercraft-rate-limits.yml
@@ -54,12 +56,12 @@ common:
   type: Website
   url: https://purewatercraft.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pure-watercraft/refs/heads/main/llms/pure-watercraft-llms.txt
+  href: https://artifacts.apis.io/pure-watercraft/llms/pure-watercraft-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pure-watercraft-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pure-watercraft/refs/heads/main/security/pure-watercraft-domain-security.yml
+  href: https://artifacts.apis.io/pure-watercraft/security/pure-watercraft-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pure-watercraft-domain-security.yml
@@ -93,7 +95,7 @@ plans:
 - name: Pure Watercraft Plans Pricing
   plan_count: 0
   slug: pure-watercraft-plans-pricing
-random_paper: 2
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Pure Watercraft Rate Limits
@@ -124,14 +126,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pure-watercraft/refs/heads/main/screenshots/pure-watercraft-2026-09-02T152330.png
+screenshot: https://apis.io/screenshots/pure-watercraft/pure-watercraft-2026-09-02T152330.png
 security:
 - kind: domain-security
   name: Pure Watercraft Domain Security

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.3
-  scored_at: '2026-10-17'
+  score: 29.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,22 +50,19 @@ apis:
   description: Predict the gender of one or more first names.
   name: Genderize.io Gender Prediction API
   slug: genderize-gender-prediction-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Genderize.io Gender Prediction API
   slug: open-genderize-gender-prediction-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/genderize/refs/heads/main/agentic-access/genderize-agentic-access.yml
+  href: https://artifacts.apis.io/genderize/agentic-access/genderize-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/genderize-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/genderize/refs/heads/main/security/genderize-domain-security.yml
+  href: https://artifacts.apis.io/genderize/security/genderize-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/genderize-domain-security.yml
@@ -80,17 +79,17 @@ common:
   type: Pricing
   url: https://genderize.io/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/genderize/refs/heads/main/plans/genderize-plans-pricing.yml
+  href: https://artifacts.apis.io/genderize/plans/genderize-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/genderize-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/genderize/refs/heads/main/rate-limits/genderize-rate-limits.yml
+  href: https://artifacts.apis.io/genderize/rate-limits/genderize-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/genderize-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/genderize/refs/heads/main/finops/genderize-finops.yml
+  href: https://artifacts.apis.io/genderize/finops/genderize-finops.yml
   title: ''
   type: FinOps
   url: finops/genderize-finops.yml
@@ -181,7 +180,7 @@ plans:
 - name: Genderize Plans Pricing
   plan_count: 3
   slug: genderize-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Genderize Rate Limits
@@ -200,7 +199,7 @@ rules:
   slug: genderize-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.8
+  composite: 32.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 51.3
@@ -208,15 +207,15 @@ score:
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 31.6
     contract_governance: 9.8
     contract_quality: 51.8
-    developer_ergonomics: 9.5
-    discoverability: 68.3
-    operational_transparency: 21.1
-  previous_composite: 38.1
+    developer_ergonomics: 11.9
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -231,14 +230,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/genderize/refs/heads/main/screenshots/genderize-2026-06-20T181721.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/genderize/genderize-2026-06-20T181721.png
 security:
 - kind: domain-security
   name: Genderize Domain Security

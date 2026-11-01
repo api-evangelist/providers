@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The API layer of Open GI's cloud Mobius broking platform. Open GI's public Mobius release notes document real API capability — a Client Checks API whose sanctions-check endpoints include a POST to ini
@@ -53,7 +55,7 @@ common:
   type: BlogRSS
   url: https://www.opengi.co.uk/news/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/open-gi/refs/heads/main/security/open-gi-domain-security.yml
+  href: https://artifacts.apis.io/open-gi/security/open-gi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/open-gi-domain-security.yml
@@ -74,7 +76,7 @@ common:
   type: ChangeLog
   url: https://www.opengi.co.uk/mobius-release
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/open-gi/refs/heads/main/changelog/open-gi-changelog.yml
+  href: https://artifacts.apis.io/open-gi/changelog/open-gi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/open-gi-changelog.yml
@@ -123,17 +125,17 @@ common:
   type: Compliance
   url: https://www.opengi.co.uk/legals/operational-resilience
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/open-gi/refs/heads/main/conformance/open-gi-conformance.yml
+  href: https://artifacts.apis.io/open-gi/conformance/open-gi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/open-gi-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/open-gi/refs/heads/main/lifecycle/open-gi-lifecycle.yml
+  href: https://artifacts.apis.io/open-gi/lifecycle/open-gi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/open-gi-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/open-gi/refs/heads/main/llms/open-gi-llms.txt
+  href: https://artifacts.apis.io/open-gi/llms/open-gi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/open-gi-llms.txt
@@ -162,7 +164,7 @@ overview: 'Open GI is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Open GI''s developer surface includes engineering blog, changelog, release notes, documentation, FAQ, support, and 19 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: emerging
   composite: 19.7
@@ -199,14 +201,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/open-gi/refs/heads/main/screenshots/open-gi-2026-08-07T190454.png
+screenshot: https://apis.io/screenshots/open-gi/open-gi-2026-08-07T190454.png
 security:
 - kind: domain-security
   name: Open Gi Domain Security

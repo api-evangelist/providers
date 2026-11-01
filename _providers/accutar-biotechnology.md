@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/accutar-biotechnology/refs/heads/main/security/accutar-biotechnology-domain-security.yml
+  href: https://artifacts.apis.io/accutar-biotechnology/security/accutar-biotechnology-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/accutar-biotechnology-domain-security.yml
@@ -57,12 +59,12 @@ common:
   type: Careers
   url: https://www.accutarbio.com/careers/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/accutar-biotechnology/refs/heads/main/llms/accutar-biotechnology-llms.txt
+  href: https://artifacts.apis.io/accutar-biotechnology/llms/accutar-biotechnology-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/accutar-biotechnology-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/accutar-biotechnology/refs/heads/main/plans/accutar-biotechnology-plans-pricing.yml
+  href: https://artifacts.apis.io/accutar-biotechnology/plans/accutar-biotechnology-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/accutar-biotechnology-plans-pricing.yml
@@ -100,10 +102,10 @@ plans:
 - name: Accutar Biotechnology Plans Pricing
   plan_count: 0
   slug: accutar-biotechnology-plans-pricing
-random_paper: 4
+random_paper: 22
 score:
   band: minimal
-  composite: 4.2
+  composite: 4.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -117,7 +119,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 49.1
+    discoverability: 50.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -126,21 +128,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 4.2
+  previous_composite: 4.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/accutar-biotechnology/refs/heads/main/screenshots/accutar-biotechnology-2026-10-11T092558.png
+screenshot: https://apis.io/screenshots/accutar-biotechnology/accutar-biotechnology-2026-10-11T092558.png
 security:
 - kind: domain-security
   name: Accutar Biotechnology Domain Security

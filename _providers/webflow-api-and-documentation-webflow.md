@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.4
-  scored_at: '2026-10-17'
+  score: 39.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 0
@@ -167,7 +170,7 @@ arazzos:
 - description: List a site's pages, read the first page's metadata, update its SEO, then publish the site.
   name: Webflow Update Page SEO and Publish
   slug: webflow-api-and-documentation-webflow-update-page-seo-workflow
-artifact_total: 206
+artifact_total: 205
 collections:
 - collection_type: postman
   name: Webflow Collections API
@@ -184,9 +187,6 @@ collections:
 - collection_type: postman
   name: Webflow Webhooks API
   slug: postman-webflow-webhooks
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Webflow Collections Asset Folders API
   slug: open-webflow-api-and-documentation-webflow-asset-folders-api
@@ -270,47 +270,47 @@ collections:
   slug: open-webflow-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/plans/webflow-api-and-documentation-webflow-plans-pricing.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/plans/webflow-api-and-documentation-webflow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/webflow-api-and-documentation-webflow-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/finops/webflow-api-and-documentation-webflow-finops.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/finops/webflow-api-and-documentation-webflow-finops.yml
   title: ''
   type: FinOps
   url: finops/webflow-api-and-documentation-webflow-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/capabilities/webflow-api-and-documentation-webflow-capability-edges.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/capabilities/webflow-api-and-documentation-webflow-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/webflow-api-and-documentation-webflow-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/agentic-access/webflow-api-and-documentation-webflow-agentic-access.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/agentic-access/webflow-api-and-documentation-webflow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/webflow-api-and-documentation-webflow-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/security/webflow-api-and-documentation-webflow-trust-center.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/security/webflow-api-and-documentation-webflow-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/webflow-api-and-documentation-webflow-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/security/webflow-api-and-documentation-webflow-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/security/webflow-api-and-documentation-webflow-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/webflow-api-and-documentation-webflow-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/security/webflow-api-and-documentation-webflow-domain-security.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/security/webflow-api-and-documentation-webflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/webflow-api-and-documentation-webflow-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/authentication/webflow-api-and-documentation-webflow-authentication.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/authentication/webflow-api-and-documentation-webflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/webflow-api-and-documentation-webflow-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/scopes/webflow-api-and-documentation-webflow-scopes.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/scopes/webflow-api-and-documentation-webflow-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/webflow-api-and-documentation-webflow-scopes.yml
@@ -319,47 +319,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/webflow-api-and-documentation/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/arazzo/webflow-api-and-documentation-webflow-apply-custom-code-workflow.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/arazzo/webflow-api-and-documentation-webflow-apply-custom-code-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-api-and-documentation-webflow-apply-custom-code-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/arazzo/webflow-api-and-documentation-webflow-create-collection-and-first-item-workflow.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/arazzo/webflow-api-and-documentation-webflow-create-collection-and-first-item-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-api-and-documentation-webflow-create-collection-and-first-item-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/arazzo/webflow-api-and-documentation-webflow-create-item-and-publish-site-workflow.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/arazzo/webflow-api-and-documentation-webflow-create-item-and-publish-site-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-api-and-documentation-webflow-create-item-and-publish-site-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/arazzo/webflow-api-and-documentation-webflow-create-product-and-publish-workflow.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/arazzo/webflow-api-and-documentation-webflow-create-product-and-publish-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-api-and-documentation-webflow-create-product-and-publish-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/arazzo/webflow-api-and-documentation-webflow-form-schema-and-webhook-workflow.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/arazzo/webflow-api-and-documentation-webflow-form-schema-and-webhook-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-api-and-documentation-webflow-form-schema-and-webhook-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/arazzo/webflow-api-and-documentation-webflow-fulfill-order-workflow.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/arazzo/webflow-api-and-documentation-webflow-fulfill-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-api-and-documentation-webflow-fulfill-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/arazzo/webflow-api-and-documentation-webflow-register-webhook-workflow.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/arazzo/webflow-api-and-documentation-webflow-register-webhook-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-api-and-documentation-webflow-register-webhook-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/arazzo/webflow-api-and-documentation-webflow-resolve-site-add-item-workflow.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/arazzo/webflow-api-and-documentation-webflow-resolve-site-add-item-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-api-and-documentation-webflow-resolve-site-add-item-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/arazzo/webflow-api-and-documentation-webflow-update-page-seo-workflow.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/arazzo/webflow-api-and-documentation-webflow-update-page-seo-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-api-and-documentation-webflow-update-page-seo-workflow.yml
@@ -432,17 +432,17 @@ common:
   type: Marketplace
   url: https://webflow.com/marketplace
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/rules/webflow-spectral-rules.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/rules/webflow-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/webflow-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/vocabulary/webflow-api-and-documentation-webflow-vocabulary.yml
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/vocabulary/webflow-api-and-documentation-webflow-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/webflow-api-and-documentation-webflow-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/json-ld/webflow-context.jsonld
+  href: https://artifacts.apis.io/webflow-api-and-documentation-webflow/json-ld/webflow-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/webflow-context.jsonld
@@ -856,7 +856,7 @@ plans:
 - name: Webflow Api And Documentation Webflow Plans Pricing
   plan_count: 5
   slug: webflow-api-and-documentation-webflow-plans-pricing
-random_paper: 1
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Webflow Api And Documentation Webflow Rate Limits
@@ -903,7 +903,7 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: strong
-  composite: 54.5
+  composite: 56.8
   coverage:
     artifact_dirs: 23
     catalog_earned: 67.0
@@ -911,15 +911,20 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 27.3
-    contract_quality: 62.4
+    contract_quality: 63.3
     developer_ergonomics: 58.3
     discoverability: 69.6
-    operational_transparency: 44.7
-  previous_composite: 56.0
+    operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     contracts:
@@ -933,13 +938,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/screenshots/webflow-api-and-documentation-webflow-2026-06-20T201331.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/webflow-api-and-documentation-webflow/webflow-api-and-documentation-webflow-2026-06-20T201331.png
 security:
 - kind: authentication
   name: Webflow Api And Documentation Webflow Authentication

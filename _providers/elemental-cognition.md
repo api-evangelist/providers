@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -51,22 +53,22 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/elementalcognition
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elemental-cognition/refs/heads/main/security/elemental-cognition-domain-security.yml
+  href: https://artifacts.apis.io/elemental-cognition/security/elemental-cognition-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/elemental-cognition-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/elemental-cognition/refs/heads/main/plans/elemental-cognition-plans-pricing.yml
+  href: https://artifacts.apis.io/elemental-cognition/plans/elemental-cognition-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/elemental-cognition-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/elemental-cognition/refs/heads/main/rate-limits/elemental-cognition-rate-limits.yml
+  href: https://artifacts.apis.io/elemental-cognition/rate-limits/elemental-cognition-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/elemental-cognition-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elemental-cognition/refs/heads/main/llms/elemental-cognition-llms.txt
+  href: https://artifacts.apis.io/elemental-cognition/llms/elemental-cognition-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/elemental-cognition-llms.txt
@@ -98,14 +100,14 @@ plans:
 - name: Elemental Cognition Plans Pricing
   plan_count: 0
   slug: elemental-cognition-plans-pricing
-random_paper: 8
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Elemental Cognition Rate Limits
   slug: elemental-cognition-rate-limits
 score:
   band: minimal
-  composite: 4.4
+  composite: 4.1
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -119,17 +121,17 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 4.4
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 4.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

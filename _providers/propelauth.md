@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -175,7 +177,7 @@ arazzos:
 - description: Look a user up by email and update them if they exist, otherwise create them.
   name: PropelAuth Upsert User By Email
   slug: propelauth-upsert-user-by-email-workflow
-artifact_total: 96
+artifact_total: 95
 collections:
 - collection_type: postman
   name: PropelAuth End-User API Keys API
@@ -192,9 +194,6 @@ collections:
 - collection_type: postman
   name: PropelAuth User API
   slug: postman-propelauth-user-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PropelAuth End-User API Keys Access Tokens API
   slug: open-propelauth-access-tokens-api
@@ -260,7 +259,7 @@ collections:
   slug: open-propelauth-validation-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/capabilities/propelauth-capability-edges.yml
+  href: https://artifacts.apis.io/propelauth/capabilities/propelauth-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/propelauth-capability-edges.yml
@@ -269,22 +268,22 @@ common:
   type: Website
   url: https://www.propelauth.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/agentic-access/propelauth-agentic-access.yml
+  href: https://artifacts.apis.io/propelauth/agentic-access/propelauth-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/propelauth-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/security/propelauth-trust-center.yml
+  href: https://artifacts.apis.io/propelauth/security/propelauth-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/propelauth-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/security/propelauth-domain-security.yml
+  href: https://artifacts.apis.io/propelauth/security/propelauth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/propelauth-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/authentication/propelauth-authentication.yml
+  href: https://artifacts.apis.io/propelauth/authentication/propelauth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/propelauth-authentication.yml
@@ -293,67 +292,67 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/propelauth/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/arazzo/propelauth-create-and-update-user-workflow.yml
+  href: https://artifacts.apis.io/propelauth/arazzo/propelauth-create-and-update-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/propelauth-create-and-update-user-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/arazzo/propelauth-invite-existing-user-by-id-workflow.yml
+  href: https://artifacts.apis.io/propelauth/arazzo/propelauth-invite-existing-user-by-id-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/propelauth-invite-existing-user-by-id-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/arazzo/propelauth-invite-user-to-org-workflow.yml
+  href: https://artifacts.apis.io/propelauth/arazzo/propelauth-invite-user-to-org-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/propelauth-invite-user-to-org-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/arazzo/propelauth-issue-magic-link-for-new-user-workflow.yml
+  href: https://artifacts.apis.io/propelauth/arazzo/propelauth-issue-magic-link-for-new-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/propelauth-issue-magic-link-for-new-user-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/arazzo/propelauth-migrate-user-with-password-workflow.yml
+  href: https://artifacts.apis.io/propelauth/arazzo/propelauth-migrate-user-with-password-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/propelauth-migrate-user-with-password-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/arazzo/propelauth-offboard-user-from-org-workflow.yml
+  href: https://artifacts.apis.io/propelauth/arazzo/propelauth-offboard-user-from-org-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/propelauth-offboard-user-from-org-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/arazzo/propelauth-onboard-user-into-org-workflow.yml
+  href: https://artifacts.apis.io/propelauth/arazzo/propelauth-onboard-user-into-org-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/propelauth-onboard-user-into-org-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/arazzo/propelauth-promote-org-member-workflow.yml
+  href: https://artifacts.apis.io/propelauth/arazzo/propelauth-promote-org-member-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/propelauth-promote-org-member-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/arazzo/propelauth-provision-org-api-key-workflow.yml
+  href: https://artifacts.apis.io/propelauth/arazzo/propelauth-provision-org-api-key-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/propelauth-provision-org-api-key-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/arazzo/propelauth-provision-org-with-admin-workflow.yml
+  href: https://artifacts.apis.io/propelauth/arazzo/propelauth-provision-org-with-admin-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/propelauth-provision-org-with-admin-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/arazzo/propelauth-revoke-pending-invite-workflow.yml
+  href: https://artifacts.apis.io/propelauth/arazzo/propelauth-revoke-pending-invite-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/propelauth-revoke-pending-invite-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/arazzo/propelauth-rotate-user-api-key-workflow.yml
+  href: https://artifacts.apis.io/propelauth/arazzo/propelauth-rotate-user-api-key-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/propelauth-rotate-user-api-key-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/arazzo/propelauth-upsert-user-by-email-workflow.yml
+  href: https://artifacts.apis.io/propelauth/arazzo/propelauth-upsert-user-by-email-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/propelauth-upsert-user-by-email-workflow.yml
@@ -578,27 +577,27 @@ common:
   type: CodeExamples
   url: https://github.com/PropelAuth/windows-login-pages
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/plans/propelauth-plans-pricing.yml
+  href: https://artifacts.apis.io/propelauth/plans/propelauth-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/propelauth-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/rate-limits/propelauth-rate-limits.yml
+  href: https://artifacts.apis.io/propelauth/rate-limits/propelauth-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/propelauth-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/finops/propelauth-finops.yml
+  href: https://artifacts.apis.io/propelauth/finops/propelauth-finops.yml
   title: ''
   type: FinOps
   url: finops/propelauth-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/vocabulary/propelauth-vocabulary.yml
+  href: https://artifacts.apis.io/propelauth/vocabulary/propelauth-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/propelauth-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/rules/propelauth-rules.yml
+  href: https://artifacts.apis.io/propelauth/rules/propelauth-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/propelauth-rules.yml
@@ -641,10 +640,10 @@ features:
 - Bring-Your-Own-Auth deployment mode (`byo.propelauth.com`)
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Propelauth Finops
   primary_unit: mau
-  service_category: Identity
+  service_category: ''
   slug: propelauth-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/propelauth.png
@@ -679,7 +678,7 @@ plans:
 - name: Propelauth Plans Pricing
   plan_count: 4
   slug: propelauth-plans-pricing
-random_paper: 14
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Propelauth Rate Limits
@@ -710,23 +709,23 @@ rules:
   slug: propelauth-rules
 score:
   band: strong
-  composite: 56.5
+  composite: 61.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 67.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    artifact_dirs: 20
+    catalog_earned: 76.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 39.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.7
+  delta: 0.0
   facets:
-    access_clarity: 68.4
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 61.9
+    contract_quality: 60.5
     developer_ergonomics: 63.1
     discoverability: 62.5
     operational_transparency: 28.9
-  previous_composite: 63.2
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     contracts:
@@ -740,13 +739,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/screenshots/propelauth-2026-06-20T192214.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/propelauth/propelauth-2026-06-20T192214.png
 security:
 - kind: authentication
   name: Propelauth Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.2
-  scored_at: '2026-10-17'
+  score: 33.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -175,15 +177,12 @@ apis:
   description: Convert, Deposit, Withdraw, Transfers, and Sub Account Transfer operations.
   name: Coins.ph Wallet API
   slug: coinsph-wallet-api
-artifact_total: 58
+artifact_total: 61
 asyncapis:
 - description: ''
   name: Coinsph Webhooks
   slug: coinsph-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TRADING Account API
   slug: open-coinsph-account-api
@@ -320,97 +319,97 @@ common:
   type: Website
   url: https://coins.ph/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/authentication/coinsph-authentication.yml
+  href: https://artifacts.apis.io/coinsph/authentication/coinsph-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coinsph-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/agentic-access/coinsph-agentic-access.yml
+  href: https://artifacts.apis.io/coinsph/agentic-access/coinsph-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/coinsph-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/packages/coinsph-packages.yml
+  href: https://artifacts.apis.io/coinsph/packages/coinsph-packages.yml
   title: ''
   type: Packages
   url: packages/coinsph-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/packages/coinsph-packages.yml
+  href: https://artifacts.apis.io/coinsph/packages/coinsph-packages.yml
   title: ''
   type: SDKs
   url: packages/coinsph-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/components/coinsph-components.yml
+  href: https://artifacts.apis.io/coinsph/components/coinsph-components.yml
   title: ''
   type: Components
   url: components/coinsph-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/sandbox/coinsph-sandbox.yml
+  href: https://artifacts.apis.io/coinsph/sandbox/coinsph-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/coinsph-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/conventions/coinsph-conventions.yml
+  href: https://artifacts.apis.io/coinsph/conventions/coinsph-conventions.yml
   title: ''
   type: Conventions
   url: conventions/coinsph-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/conventions/coinsph-conventions.yml
+  href: https://artifacts.apis.io/coinsph/conventions/coinsph-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/coinsph-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/lifecycle/coinsph-lifecycle.yml
+  href: https://artifacts.apis.io/coinsph/lifecycle/coinsph-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/coinsph-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/conformance/coinsph-conformance.yml
+  href: https://artifacts.apis.io/coinsph/conformance/coinsph-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coinsph-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/errors/coinsph-problem-types.yml
+  href: https://artifacts.apis.io/coinsph/errors/coinsph-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/coinsph-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/data-model/coinsph-data-model.yml
+  href: https://artifacts.apis.io/coinsph/data-model/coinsph-data-model.yml
   title: ''
   type: DataModel
   url: data-model/coinsph-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/mcp/coinsph-mcp.yml
+  href: https://artifacts.apis.io/coinsph/mcp/coinsph-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/coinsph-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/security/coinsph-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/coinsph/security/coinsph-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/coinsph-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/security/coinsph-domain-security.yml
+  href: https://artifacts.apis.io/coinsph/security/coinsph-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coinsph-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/asyncapi/coinsph-webhooks.yml
+  href: https://artifacts.apis.io/coinsph/asyncapi/coinsph-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/coinsph-webhooks.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/overlays/coinsph-payment-overlay.yaml
+  href: https://artifacts.apis.io/coinsph/overlays/coinsph-payment-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coinsph-payment-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/llms/coinsph-llms.txt
+  href: https://artifacts.apis.io/coinsph/llms/coinsph-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/coinsph-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/coinsph/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -429,10 +428,10 @@ overview: 'Coins.ph publishes 26 API contracts indexed on the [APIs.io](https://
 
 
   Coins.ph''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 8
+random_paper: 12
 score:
   band: developing
-  composite: 50.5
+  composite: 51.8
   coverage:
     artifact_dirs: 23
     catalog_earned: 40.0
@@ -445,9 +444,9 @@ score:
     access_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 58.9
-    developer_ergonomics: 54.2
-    discoverability: 78.6
-    operational_transparency: 44.7
+    developer_ergonomics: 73.2
+    discoverability: 71.4
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -455,7 +454,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 50.5
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -472,13 +471,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/screenshots/coinsph-2026-07-25T210033.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/coinsph/coinsph-2026-07-25T210033.png
 security:
 - kind: authentication
   name: Coinsph Authentication
@@ -492,6 +492,16 @@ security:
   name: Coinsph Vulnerability Disclosure
   slug: coinsph-vulnerability-disclosure
   summary_line: contact published
+skill_count: 4
+skills:
+- name: Convert one crypto to another via quote-and-accept
+  slug: coinsph-convert-quote
+- name: Collect a payment with a dynamic QR PH code
+  slug: coinsph-qrph-collection
+- name: Place and manage a spot order on Coins Pro
+  slug: coinsph-spot-trading
+- name: Deposit and withdraw crypto on Coins Pro
+  slug: coinsph-wallet-deposit-withdraw
 slug: coinsph
 tags:
 - Company

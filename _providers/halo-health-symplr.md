@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -61,7 +63,7 @@ common:
   type: TermsOfService
   url: https://www.symplr.com/wp-content/uploads/2025/12/symplr-Solution-Terms-All-Nov-2025.pdf
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/halo-health-symplr/refs/heads/main/security/halo-health-symplr-trust-center.yml
+  href: https://artifacts.apis.io/halo-health-symplr/security/halo-health-symplr-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/halo-health-symplr-trust-center.yml
@@ -70,7 +72,7 @@ common:
   type: Compliance
   url: https://trust.symplr.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/halo-health-symplr/refs/heads/main/security/halo-health-symplr-domain-security.yml
+  href: https://artifacts.apis.io/halo-health-symplr/security/halo-health-symplr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/halo-health-symplr-domain-security.yml
@@ -86,10 +88,10 @@ overview: 'Halo Health (Symplr) is profiled on the [APIs.io](https://apis.io/) n
 
 
   Halo Health (Symplr)''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 15
+random_paper: 19
 score:
   band: emerging
-  composite: 11.2
+  composite: 16.6
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -99,27 +101,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 30.3
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 3.6
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 11.2
+  previous_composite: 16.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 9.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 14.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/halo-health-symplr/refs/heads/main/screenshots/halo-health-symplr-2026-07-25T220551.png
+screenshot: https://apis.io/screenshots/halo-health-symplr/halo-health-symplr-2026-07-25T220551.png
 security:
 - kind: domain-security
   name: Halo Health Symplr Domain Security

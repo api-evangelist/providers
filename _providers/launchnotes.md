@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-10-17'
+  score: 7.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: LaunchNotes is a release communication platform for sharing changelogs, roadmaps, and deprecation notices. The platform exposes an extensible API documented through its Help Center for integrating rel
@@ -42,27 +44,27 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/launchnotes/refs/heads/main/plans/launchnotes-plans-pricing.yml
+  href: https://artifacts.apis.io/launchnotes/plans/launchnotes-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/launchnotes-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/launchnotes/refs/heads/main/rate-limits/launchnotes-rate-limits.yml
+  href: https://artifacts.apis.io/launchnotes/rate-limits/launchnotes-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/launchnotes-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/launchnotes/refs/heads/main/finops/launchnotes-finops.yml
+  href: https://artifacts.apis.io/launchnotes/finops/launchnotes-finops.yml
   title: ''
   type: FinOps
   url: finops/launchnotes-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/launchnotes/refs/heads/main/security/launchnotes-trust-center.yml
+  href: https://artifacts.apis.io/launchnotes/security/launchnotes-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/launchnotes-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/launchnotes/refs/heads/main/security/launchnotes-domain-security.yml
+  href: https://artifacts.apis.io/launchnotes/security/launchnotes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/launchnotes-domain-security.yml
@@ -100,7 +102,7 @@ finops:
 - has_sources: false
   method: generated
   name: Launchnotes Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: launchnotes-finops
   template: true
@@ -122,14 +124,14 @@ plans:
 - name: Launchnotes Plans Pricing
   plan_count: 3
   slug: launchnotes-plans-pricing
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Launchnotes Rate Limits
   slug: launchnotes-rate-limits
 score:
   band: emerging
-  composite: 17.0
+  composite: 17.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 38.0
@@ -137,15 +139,15 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 60.0
-    operational_transparency: 10.5
-  previous_composite: 18.5
+    discoverability: 57.1
+    operational_transparency: 13.2
+  previous_composite: 17.1
   provenance:
     mcp: first-party
   regulatory:
@@ -154,14 +156,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/launchnotes/refs/heads/main/screenshots/launchnotes-2026-06-20T184332.png
+screenshot: https://apis.io/screenshots/launchnotes/launchnotes-2026-06-20T184332.png
 security:
 - kind: domain-security
   name: Launchnotes Domain Security

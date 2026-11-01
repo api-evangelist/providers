@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,11 +62,8 @@ apis:
   description: The Registrations API from Azure Notification Hubs — 1 operation(s) for registrations.
   name: Azure Notification Hubs Registrations API
   slug: microsoft-azure-notification-hubs-registrations-api
-artifact_total: 14
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure Notification Hubs REST Installations API
   slug: open-microsoft-azure-notification-hubs-installations-api
@@ -79,32 +78,32 @@ collections:
   slug: open-microsoft-azure-notification-hubs
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/plans/microsoft-azure-notification-hubs-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-azure-notification-hubs/plans/microsoft-azure-notification-hubs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-azure-notification-hubs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/rate-limits/microsoft-azure-notification-hubs-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-azure-notification-hubs/rate-limits/microsoft-azure-notification-hubs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-azure-notification-hubs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/finops/microsoft-azure-notification-hubs-finops.yml
+  href: https://artifacts.apis.io/microsoft-azure-notification-hubs/finops/microsoft-azure-notification-hubs-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-azure-notification-hubs-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/agentic-access/microsoft-azure-notification-hubs-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-azure-notification-hubs/agentic-access/microsoft-azure-notification-hubs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-notification-hubs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/security/microsoft-azure-notification-hubs-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-azure-notification-hubs/security/microsoft-azure-notification-hubs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-notification-hubs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/authentication/microsoft-azure-notification-hubs-authentication.yml
+  href: https://artifacts.apis.io/microsoft-azure-notification-hubs/authentication/microsoft-azure-notification-hubs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-notification-hubs-authentication.yml
@@ -154,7 +153,7 @@ finops:
 - has_sources: false
   method: generated
   name: Microsoft Azure Notification Hubs Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: microsoft-azure-notification-hubs-finops
   template: true
@@ -172,14 +171,14 @@ plans:
 - name: Microsoft Azure Notification Hubs Plans Pricing
   plan_count: 3
   slug: microsoft-azure-notification-hubs-plans-pricing
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Notification Hubs Rate Limits
   slug: microsoft-azure-notification-hubs-rate-limits
 score:
-  band: thin
-  composite: 38.3
+  band: developing
+  composite: 39.5
   coverage:
     artifact_dirs: 10
     catalog_earned: 46.0
@@ -187,15 +186,15 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 46.5
-    developer_ergonomics: 23.8
+    developer_ergonomics: 35.7
     discoverability: 78.6
-    operational_transparency: 10.5
-  previous_composite: 39.8
+    operational_transparency: 13.2
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -209,13 +208,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/screenshots/microsoft-azure-notification-hubs-2026-06-20T185428.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-azure-notification-hubs/microsoft-azure-notification-hubs-2026-06-20T185428.png
 security:
 - kind: authentication
   name: Microsoft Azure Notification Hubs Authentication

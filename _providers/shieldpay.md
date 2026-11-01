@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API to manage payment workflows end to end — create projects, manage payers and payees, run KYC verification, and authorise payments to disburse funds securely. Secured with mTLS + API key + RSA-
@@ -100,62 +102,62 @@ common:
   type: StatusPage
   url: https://status.shieldpay.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/authentication/shieldpay-authentication.yml
+  href: https://artifacts.apis.io/shieldpay/authentication/shieldpay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shieldpay-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/conventions/shieldpay-conventions.yml
+  href: https://artifacts.apis.io/shieldpay/conventions/shieldpay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shieldpay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/conventions/shieldpay-conventions.yml
+  href: https://artifacts.apis.io/shieldpay/conventions/shieldpay-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/shieldpay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/errors/shieldpay-problem-types.yml
+  href: https://artifacts.apis.io/shieldpay/errors/shieldpay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/shieldpay-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/asyncapi/shieldpay-webhooks.yml
+  href: https://artifacts.apis.io/shieldpay/asyncapi/shieldpay-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/shieldpay-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/sandbox/shieldpay-sandbox.yml
+  href: https://artifacts.apis.io/shieldpay/sandbox/shieldpay-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/shieldpay-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/lifecycle/shieldpay-lifecycle.yml
+  href: https://artifacts.apis.io/shieldpay/lifecycle/shieldpay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shieldpay-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/well-known/shieldpay-well-known.yml
+  href: https://artifacts.apis.io/shieldpay/well-known/shieldpay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/shieldpay-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/well-known/shieldpay-security.txt
+  href: https://artifacts.apis.io/shieldpay/well-known/shieldpay-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/shieldpay-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/conformance/shieldpay-conformance.yml
+  href: https://artifacts.apis.io/shieldpay/conformance/shieldpay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shieldpay-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/conformance/shieldpay-conformance.yml
+  href: https://artifacts.apis.io/shieldpay/conformance/shieldpay-conformance.yml
   title: ''
   type: Compliance
   url: conformance/shieldpay-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/security/shieldpay-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/shieldpay/security/shieldpay-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/shieldpay-vulnerability-disclosure.yml
@@ -164,17 +166,17 @@ common:
   type: Security
   url: https://www.shieldpay.com/security/vulnerability-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/security/shieldpay-trust-center.yml
+  href: https://artifacts.apis.io/shieldpay/security/shieldpay-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/shieldpay-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/security/shieldpay-domain-security.yml
+  href: https://artifacts.apis.io/shieldpay/security/shieldpay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shieldpay-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/llms/shieldpay-llms.txt
+  href: https://artifacts.apis.io/shieldpay/llms/shieldpay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shieldpay-llms.txt
@@ -194,10 +196,10 @@ overview: 'Shieldpay is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Shieldpay''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 22 more developer resources.'
-random_paper: 17
+random_paper: 3
 score:
   band: developing
-  composite: 47.5
+  composite: 48.4
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -207,13 +209,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 47.5
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 48.4
   provenance:
     conformance: first-party
   regulatory:
@@ -222,14 +224,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 33.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/shieldpay/refs/heads/main/screenshots/shieldpay-2026-08-17T081831.png
+screenshot: https://apis.io/screenshots/shieldpay/shieldpay-2026-08-17T081831.png
 security:
 - kind: authentication
   name: Shieldpay Authentication

@@ -1,0 +1,120 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.1
+  scored_at: '2026-10-31'
+api_count: 0
+artifact_total: 1
+common:
+- group: other
+  href: https://artifacts.apis.io/ourzora-com/hosts/ourzora-com-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/ourzora-com-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/ourzora-com/vendors/ourzora-com-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/ourzora-com-vendors.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://zora.co/settings/developer
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://zora.co/onboarding
+- group: auth
+  href: https://artifacts.apis.io/ourzora-com/security/ourzora-com-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/ourzora-com-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://ourzora.com/
+coverage:
+  checked: '2026-10-22'
+  detail: Developer docs redirect to a JavaScript‑rendered site with no machine‑readable spec.
+  evidence:
+  - status: 302
+    url: https://zora.co/developers
+  reason: js-rendered-docs
+  state: unreadable
+created: '2026-10-22'
+description: 'Zora is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by kindred-ventures) and added to the network as a stub for full-pipeline profiling.'
+image: https://zora.co/assets/image/default-og-image.png
+layout: provider
+modified: '2026-10-22'
+name: Zora
+nav: Providers
+network: true
+overview: 'Zora is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+
+
+  Zora''s developer surface includes getting-started guide and 5 more developer resources.'
+random_paper: 22
+score:
+  band: minimal
+  composite: 5.9
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 17.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 98.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 21.4
+    discoverability: 30.4
+    operational_transparency: 0.0
+  provenance:
+    mcp: unknown
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 5.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Ourzora Com Domain Security
+  slug: ourzora-com-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: ourzora-com
+tags:
+- Company
+website: https://ourzora.com/
+---

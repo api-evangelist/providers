@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 23.0
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.myome.com/0/
   baseurl_source: declared
@@ -54,20 +56,20 @@ apis:
   description: Reference data—orderable products and consent types (general and product-specific).
   name: MyOme Resources API
   slug: myome-resources-api
-artifact_total: 7
+artifact_total: 10
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/myome/refs/heads/main/capabilities/myome-capability-edges.yml
+  href: https://artifacts.apis.io/myome/capabilities/myome-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/myome-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/myome/refs/heads/main/overlays/myome-openapi-overlay.yaml
+  href: https://artifacts.apis.io/myome/overlays/myome-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/myome-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/myome/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/myome/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -120,33 +122,41 @@ common:
   type: Compliance
   url: https://myome.com/about-us/privacy-and-security
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/myome/refs/heads/main/plans/myome-plans-pricing.yml
+  href: https://artifacts.apis.io/myome/plans/myome-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/myome-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/myome/refs/heads/main/rate-limits/myome-rate-limits.yml
+  href: https://artifacts.apis.io/myome/rate-limits/myome-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/myome-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/myome/refs/heads/main/packages/myome-packages.yml
+  href: https://artifacts.apis.io/myome/packages/myome-packages.yml
   title: ''
   type: Packages
   url: packages/myome-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/myome/refs/heads/main/llms/myome-llms.txt
+  href: https://artifacts.apis.io/myome/llms/myome-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/myome-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/myome/refs/heads/main/security/myome-domain-security.yml
+  href: https://artifacts.apis.io/myome/security/myome-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/myome-domain-security.yml
 created: '2026-08-26'
 description: 'MyOme is a CLIA-certified and CAP-accredited clinical laboratory in Menlo Park, California that builds a whole-genome analysis platform for inherited disease risk. A single patient sample is sequenced once and re-interpreted over time to produce clinically actionable reports: Single-Gene Risk, Medication Response (pharmacogenomics), and cross-ancestry Integrated Polygenic Risk Scores (iPRS) for breast cancer, coronary artery disease, prostate cancer and type 2 diabetes, alongside a rare-disease portfolio spanning genome, exome and copy-number analysis. MyOme publishes a partner-facing REST API (OpenAPI 3.0.2, version 2.51.0) at api.myome.com that lets institutional clients list orderable products, submit sequencing requisitions, track requisition and order status, and retrieve results including sequencing data, structured interpretation data and PDF reports. Authorization is bearer JWT issued by MyOme''s Keycloak at auth.myome.com using partner-specific credentials, and a separate
   external sandbox instance (api.sbx.myome.com) is published for partner testing and development.'
+finops:
+- has_sources: true
+  method: derived
+  name: Myome Finops
+  primary_unit: ''
+  service_category: ''
+  slug: myome-finops
+  template: true
 image: https://myome.com/ext/myome.png
 layout: provider
 modified: '2026-08-26'
@@ -161,16 +171,16 @@ plans:
 - name: Myome Plans Pricing
   plan_count: 0
   slug: myome-plans-pricing
-random_paper: 1
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Myome Rate Limits
   slug: myome-rate-limits
 score:
   band: developing
-  composite: 41.7
+  composite: 41.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -178,13 +188,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 50.6
     developer_ergonomics: 44.6
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 41.7
+    operational_transparency: 5.3
+  previous_composite: 41.9
   provenance:
     conformance: derived
     contracts:
@@ -200,13 +210,14 @@ score:
     regime: Health
     regime_id: health
     score: 39.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/myome/refs/heads/main/screenshots/myome-2026-09-02T150707.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/myome/myome-2026-09-02T150707.png
 security:
 - kind: authentication
   name: Myome Authentication
@@ -216,6 +227,12 @@ security:
   name: Myome Domain Security
   slug: myome-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: myome-order-genomic-test
+  slug: myome-order-genomic-test
+- name: myome-track-order-and-retrieve-report
+  slug: myome-track-order-and-retrieve-report
 slug: myome
 tags:
 - Company

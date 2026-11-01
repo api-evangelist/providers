@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Local JSON-over-HTTPS RPC surface exposed by the chia-blockchain reference node. Each service (full_node, wallet, farmer, harvester, datalayer, crawler, timelord, solver) listens on its own port and i
@@ -46,7 +48,7 @@ common:
   type: BlogRSS
   url: https://www.chia.net/feed/
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/chia-network/refs/heads/main/sandbox/chia-network-sandbox.yml
+  href: https://artifacts.apis.io/chia-network/sandbox/chia-network-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/chia-network-sandbox.yml
@@ -123,52 +125,52 @@ common:
   type: ChangeLog
   url: https://github.com/Chia-Network/chia-blockchain/blob/main/CHANGELOG.md
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chia-network/refs/heads/main/packages/chia-network-packages.yml
+  href: https://artifacts.apis.io/chia-network/packages/chia-network-packages.yml
   title: ''
   type: Packages
   url: packages/chia-network-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chia-network/refs/heads/main/packages/chia-network-packages.yml
+  href: https://artifacts.apis.io/chia-network/packages/chia-network-packages.yml
   title: ''
   type: SDKs
   url: packages/chia-network-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chia-network/refs/heads/main/cli/chia-network-cli.yml
+  href: https://artifacts.apis.io/chia-network/cli/chia-network-cli.yml
   title: ''
   type: CLI
   url: cli/chia-network-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chia-network/refs/heads/main/authentication/chia-network-authentication.yml
+  href: https://artifacts.apis.io/chia-network/authentication/chia-network-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chia-network-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chia-network/refs/heads/main/conventions/chia-network-conventions.yml
+  href: https://artifacts.apis.io/chia-network/conventions/chia-network-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chia-network-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chia-network/refs/heads/main/lifecycle/chia-network-lifecycle.yml
+  href: https://artifacts.apis.io/chia-network/lifecycle/chia-network-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chia-network-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chia-network/refs/heads/main/conformance/chia-network-conformance.yml
+  href: https://artifacts.apis.io/chia-network/conformance/chia-network-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chia-network-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chia-network/refs/heads/main/well-known/chia-network-well-known.yml
+  href: https://artifacts.apis.io/chia-network/well-known/chia-network-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/chia-network-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chia-network/refs/heads/main/security/chia-network-domain-security.yml
+  href: https://artifacts.apis.io/chia-network/security/chia-network-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chia-network-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chia-network/refs/heads/main/llms/chia-network-llms.txt
+  href: https://artifacts.apis.io/chia-network/llms/chia-network-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chia-network-llms.txt
@@ -184,29 +186,26 @@ overview: 'Chia Network is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   Chia Network''s developer surface includes sandbox, documentation, API reference, getting-started guide, engineering blog, changelog, CLI, and 23 more developer resources.'
-random_paper: 18
+random_paper: 4
 score:
-  band: developing
-  composite: 40.0
+  band: thin
+  composite: 32.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 73.8
-    discoverability: 64.3
-    operational_transparency: 44.7
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 39.9
+    discoverability: 57.1
+    operational_transparency: 47.4
+  previous_composite: 32.8
   provenance:
     conformance: derived
   regulatory:
@@ -215,14 +214,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/chia-network/refs/heads/main/screenshots/chia-network-2026-07-25T205208.png
+screenshot: https://apis.io/screenshots/chia-network/chia-network-2026-07-25T205208.png
 security:
 - kind: authentication
   name: Chia Network Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: Health and deployment information
   name: API3 Status API
   slug: api3-status-api
-artifact_total: 17
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: API3 Signed Airnodes API
   slug: open-api3-airnodes-api
@@ -85,17 +84,17 @@ collections:
   slug: open-api3-status-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/agentic-access/api3-agentic-access.yml
+  href: https://artifacts.apis.io/api3/agentic-access/api3-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/api3-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/security/api3-domain-security.yml
+  href: https://artifacts.apis.io/api3/security/api3-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/api3-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/authentication/api3-authentication.yml
+  href: https://artifacts.apis.io/api3/authentication/api3-authentication.yml
   title: ''
   type: Authentication
   url: authentication/api3-authentication.yml
@@ -140,27 +139,27 @@ common:
   type: Market
   url: https://market.api3.org/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/openapi/_original/api3-signed-api-openapi.yml
+  href: https://artifacts.apis.io/api3/openapi/_original/api3-signed-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/api3-signed-api-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/json-ld/api3-context.jsonld
+  href: https://artifacts.apis.io/api3/json-ld/api3-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/api3-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/plans/api3-plans.yml
+  href: https://artifacts.apis.io/api3/plans/api3-plans.yml
   title: ''
   type: Plans
   url: plans/api3-plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/rate-limits/api3-rate-limits.yml
+  href: https://artifacts.apis.io/api3/rate-limits/api3-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/api3-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/finops/api3-finops.yml
+  href: https://artifacts.apis.io/api3/finops/api3-finops.yml
   title: ''
   type: FinOps
   url: finops/api3-finops.yml
@@ -196,30 +195,30 @@ plans:
 - name: Api3 Plans
   plan_count: 3
   slug: api3-plans
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Api3 Rate Limits
   slug: api3-rate-limits
 score:
   band: thin
-  composite: 31.5
+  composite: 32.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 51.0
     catalog_earned_first_party: 0.0
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 57.1
     developer_ergonomics: 40.5
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 39.7
+    operational_transparency: 13.2
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -233,13 +232,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/screenshots/api3-2026-06-20T172222.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/api3/api3-2026-06-20T172222.png
 security:
 - kind: authentication
   name: Api3 Authentication

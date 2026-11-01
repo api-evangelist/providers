@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.7
-  scored_at: '2026-10-17'
+  score: 41.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -176,15 +178,12 @@ apis:
   description: The Version API from FieldPulse — 1 operation(s) for version.
   name: FieldPulse Version API
   slug: fieldpulse-version-api
-artifact_total: 59
+artifact_total: 63
 asyncapis:
 - description: ''
   name: Fieldpulse Events Webhooks
   slug: fieldpulse-events-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: FieldPulse Assets API
   slug: open-fieldpulse-assets-api
@@ -266,12 +265,12 @@ common:
   type: Blog
   url: https://www.fieldpulse.com/resources/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/capabilities/fieldpulse-capability-edges.yml
+  href: https://artifacts.apis.io/fieldpulse/capabilities/fieldpulse-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fieldpulse-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/overlays/fieldpulse-api-overlay.yaml
+  href: https://artifacts.apis.io/fieldpulse/overlays/fieldpulse-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fieldpulse-api-overlay.yaml
@@ -328,7 +327,7 @@ common:
   type: Roadmap
   url: https://help.fieldpulse.com/what-s-new/fieldpulse-feature-roadmap
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/changelog/fieldpulse-changelog.yml
+  href: https://artifacts.apis.io/fieldpulse/changelog/fieldpulse-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fieldpulse-changelog.yml
@@ -337,92 +336,92 @@ common:
   type: Postman
   url: https://documenter.getpostman.com/view/35988189/2sA3XLEjFd
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/a2a/fieldpulse-a2a.yml
+  href: https://artifacts.apis.io/fieldpulse/a2a/fieldpulse-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/fieldpulse-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fieldpulse/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/llms/fieldpulse-llms.txt
+  href: https://artifacts.apis.io/fieldpulse/llms/fieldpulse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fieldpulse-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/well-known/fieldpulse-well-known.yml
+  href: https://artifacts.apis.io/fieldpulse/well-known/fieldpulse-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fieldpulse-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/authentication/fieldpulse-authentication.yml
+  href: https://artifacts.apis.io/fieldpulse/authentication/fieldpulse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fieldpulse-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/conventions/fieldpulse-conventions.yml
+  href: https://artifacts.apis.io/fieldpulse/conventions/fieldpulse-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fieldpulse-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/errors/fieldpulse-problem-types.yml
+  href: https://artifacts.apis.io/fieldpulse/errors/fieldpulse-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fieldpulse-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/lifecycle/fieldpulse-lifecycle.yml
+  href: https://artifacts.apis.io/fieldpulse/lifecycle/fieldpulse-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fieldpulse-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/conformance/fieldpulse-conformance.yml
+  href: https://artifacts.apis.io/fieldpulse/conformance/fieldpulse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fieldpulse-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/data-model/fieldpulse-data-model.yml
+  href: https://artifacts.apis.io/fieldpulse/data-model/fieldpulse-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fieldpulse-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/packages/fieldpulse-packages.yml
+  href: https://artifacts.apis.io/fieldpulse/packages/fieldpulse-packages.yml
   title: ''
   type: Packages
   url: packages/fieldpulse-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/agentic-access/fieldpulse-agentic-access.yml
+  href: https://artifacts.apis.io/fieldpulse/agentic-access/fieldpulse-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fieldpulse-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/security/fieldpulse-domain-security.yml
+  href: https://artifacts.apis.io/fieldpulse/security/fieldpulse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fieldpulse-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/plans/fieldpulse-plans.yml
+  href: https://artifacts.apis.io/fieldpulse/plans/fieldpulse-plans.yml
   title: ''
   type: Plans
   url: plans/fieldpulse-plans.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/sandbox/fieldpulse-sandbox.yml
+  href: https://artifacts.apis.io/fieldpulse/sandbox/fieldpulse-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fieldpulse-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/asyncapi/fieldpulse-events-webhooks.yml
+  href: https://artifacts.apis.io/fieldpulse/asyncapi/fieldpulse-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fieldpulse-events-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/rate-limits/fieldpulse-rate-limits.yml
+  href: https://artifacts.apis.io/fieldpulse/rate-limits/fieldpulse-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fieldpulse-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/examples/fieldpulse-examples.yml
+  href: https://artifacts.apis.io/fieldpulse/examples/fieldpulse-examples.yml
   title: ''
   type: Examples
   url: examples/fieldpulse-examples.yml
@@ -433,6 +432,14 @@ common:
 created: '2026-08-04'
 description: FieldPulse is an all-in-one field service management (FSM) platform, founded in 2015 and headquartered in Dallas, Texas, serving residential and commercial service contractors across HVAC/R, electrical, plumbing, garage door, locksmith, appliance repair, fire and security, septic, glass, and property management trades. The platform combines scheduling and dispatch, customer and job management, estimates, invoices, payments, purchase orders, material lists, timesheets, projects, custom forms, reporting, and workflow automation, with add-on products for VoIP (Engage), Operator AI, Pricebook, FieldPulse Payments, and fleet tracking. FieldPulse publishes a public REST API — the "Open API", available on the Enterprise plan — documented on a Mintlify docs site with a machine-readable OpenAPI 3.0 definition covering 57 paths and 109 operations across 25 resource areas, authenticated with an x-api-key header issued by support, rate limited to 50 requests per second, plus an outbound
   webhook surface for job, estimate, and invoice events.
+finops:
+- has_sources: true
+  method: derived
+  name: Fieldpulse Finops
+  primary_unit: ''
+  service_category: ''
+  slug: fieldpulse-finops
+  template: true
 image: https://www.fieldpulse.com/logo.png
 layout: provider
 mcp_servers:
@@ -443,7 +450,7 @@ modified: '2026-10-06'
 name: FieldPulse
 nav: Providers
 network: true
-overview: 'FieldPulse publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Assets Category API, Comments API, and 23 more. Tagged areas include Company, Field Service, Service Management, Scheduling, and Dispatch.
+overview: 'FieldPulse publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Assets Category API, Comments API, and 23 more. Tagged areas include Company, Field Service Management, Service Management, Scheduling, and Dispatch.
 
 
   The FieldPulse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -452,7 +459,7 @@ overview: 'FieldPulse publishes 26 API contracts indexed on the [APIs.io](https:
   FieldPulse''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, changelog, and 30 more developer resources.'
 plans:
 - name: Fieldpulse Plans
-  plan_count: 3
+  plan_count: 0
   slug: fieldpulse-plans
 random_paper: 13
 rate_limits:
@@ -460,22 +467,22 @@ rate_limits:
   name: Fieldpulse Rate Limits
   slug: fieldpulse-rate-limits
 score:
-  band: strong
-  composite: 59.8
+  band: developing
+  composite: 53.7
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 57.0
-    catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    artifact_dirs: 29
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -6.3
   facets:
-    access_clarity: 69.7
+    access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 61.6
+    contract_quality: 58.3
     developer_ergonomics: 70.8
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 65.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -484,7 +491,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 59.3
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -501,13 +508,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/screenshots/fieldpulse-2026-08-07T165250.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fieldpulse/fieldpulse-2026-08-07T165250.png
 security:
 - kind: authentication
   name: Fieldpulse Authentication
@@ -517,10 +525,20 @@ security:
   name: Fieldpulse Domain Security
   slug: fieldpulse-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: Take a FieldPulse estimate through to invoice and payment
+  slug: fieldpulse-estimate-to-invoice-to-payment
+- name: Fieldpulse
+  slug: fieldpulse-fieldpulse-skill
+- name: Stage FieldPulse materials and raise a purchase order
+  slug: fieldpulse-materials-and-purchase-orders
+- name: Onboard a FieldPulse customer and schedule a job
+  slug: fieldpulse-onboard-customer-and-schedule-job
 slug: fieldpulse
 tags:
 - Company
-- Field Service
+- Field Service Management
 - Service Management
 - Scheduling
 - Dispatch

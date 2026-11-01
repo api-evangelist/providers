@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 21.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,9 +78,6 @@ apis:
 artifact_total: 28
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: OpenMenu Analytics API
   slug: open-openmenu-analytics-api
 - collection_type: open
@@ -98,12 +97,12 @@ collections:
   slug: open-openmenu
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/plans/openmenu-plans-pricing.yml
+  href: https://artifacts.apis.io/openmenu/plans/openmenu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/openmenu-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/finops/openmenu-finops.yml
+  href: https://artifacts.apis.io/openmenu/finops/openmenu-finops.yml
   title: ''
   type: FinOps
   url: finops/openmenu-finops.yml
@@ -112,17 +111,17 @@ common:
   type: Blog
   url: https://www.openmenu.com/insights
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/agentic-access/openmenu-agentic-access.yml
+  href: https://artifacts.apis.io/openmenu/agentic-access/openmenu-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openmenu-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/security/openmenu-domain-security.yml
+  href: https://artifacts.apis.io/openmenu/security/openmenu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openmenu-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/authentication/openmenu-authentication.yml
+  href: https://artifacts.apis.io/openmenu/authentication/openmenu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openmenu-authentication.yml
@@ -165,12 +164,12 @@ examples:
   slug: openmenu-search-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Openmenu Finops
-  primary_unit: ''
+  primary_unit: api calls
   service_category: ''
   slug: openmenu-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openmenu.png
 json_schemas:
 - name: OpenMenu Menu Item
@@ -205,9 +204,12 @@ overview: 'OpenMenu publishes 6 API contracts indexed on the [APIs.io](https://a
   OpenMenu''s developer surface includes engineering blog, authentication, documentation, API reference, signup flow, and 8 more developer resources.'
 plans:
 - name: Openmenu Plans Pricing
-  plan_count: 4
+  plan_count: 11
   slug: openmenu-plans-pricing
-random_paper: 13
+- name: Openmenu Price Estimates
+  plan_count: 0
+  slug: openmenu-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Openmenu Rate Limits
@@ -238,23 +240,23 @@ rules:
   slug: openmenu-rules
 score:
   band: developing
-  composite: 41.2
+  composite: 47.5
   coverage:
     artifact_dirs: 17
-    catalog_earned: 66.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_earned: 78.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.1
+  delta: 1.6
   facets:
-    access_clarity: 31.6
+    access_clarity: 63.2
     contract_governance: 27.3
     contract_quality: 62.3
     developer_ergonomics: 42.9
     discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 46.3
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -268,14 +270,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/screenshots/openmenu-2026-06-20T191015.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openmenu/openmenu-2026-06-20T191015.png
 security:
 - kind: authentication
   name: Openmenu Authentication

@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: The Simplifier.net FHIR Package API API from Firely — 2 operation(s) for simplifier.net fhir package api.
   name: Firely Simplifier.net FHIR Package API
   slug: firely-server-simplifier-net-fhir-package-api-api
-artifact_total: 34
+artifact_total: 33
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Simplifier.net FHIR Package Catalog API
   slug: open-firely-server-catalog-api
@@ -71,12 +70,12 @@ collections:
   slug: open-simplifier-package-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/firely-server/refs/heads/main/agentic-access/firely-server-agentic-access.yml
+  href: https://artifacts.apis.io/firely-server/agentic-access/firely-server-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/firely-server-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firely-server/refs/heads/main/security/firely-server-domain-security.yml
+  href: https://artifacts.apis.io/firely-server/security/firely-server-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/firely-server-domain-security.yml
@@ -331,10 +330,10 @@ overview: 'Firely publishes 3 API contracts indexed on the [APIs.io](https://api
 
 
   Firely''s developer surface includes developer portal, documentation, tooling, code examples, pricing, signup flow, training material, and 48 more developer resources.'
-random_paper: 17
+random_paper: 15
 score:
   band: thin
-  composite: 26.9
+  composite: 29.8
   coverage:
     artifact_dirs: 8
     catalog_earned: 32.0
@@ -342,14 +341,14 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 48.6
-    developer_ergonomics: 35.7
+    developer_ergonomics: 38.1
     discoverability: 57.1
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -358,7 +357,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 26.8
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     contracts:
@@ -372,14 +371,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/firely-server/refs/heads/main/screenshots/firely-server-2026-06-20T181232.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/firely-server/firely-server-2026-06-20T181232.png
 security:
 - kind: domain-security
   name: Firely Server Domain Security

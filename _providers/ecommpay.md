@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Hosted, highly customisable payment form for accepting payments across cards, alternative payment methods, and wallets. Merchants open the Payment Page with a signed request (HMAC signature over the r
@@ -57,7 +59,7 @@ asyncapis:
   slug: ecommpay-callbacks-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/security/ecommpay-domain-security.yml
+  href: https://artifacts.apis.io/ecommpay/security/ecommpay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ecommpay-domain-security.yml
@@ -118,52 +120,52 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/ecommpay
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/authentication/ecommpay-authentication.yml
+  href: https://artifacts.apis.io/ecommpay/authentication/ecommpay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ecommpay-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/conventions/ecommpay-conventions.yml
+  href: https://artifacts.apis.io/ecommpay/conventions/ecommpay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ecommpay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/conventions/ecommpay-conventions.yml
+  href: https://artifacts.apis.io/ecommpay/conventions/ecommpay-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ecommpay-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/packages/ecommpay-packages.yml
+  href: https://artifacts.apis.io/ecommpay/packages/ecommpay-packages.yml
   title: ''
   type: Packages
   url: packages/ecommpay-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/packages/ecommpay-packages.yml
+  href: https://artifacts.apis.io/ecommpay/packages/ecommpay-packages.yml
   title: ''
   type: SDKs
   url: packages/ecommpay-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/sandbox/ecommpay-sandbox.yml
+  href: https://artifacts.apis.io/ecommpay/sandbox/ecommpay-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ecommpay-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/errors/ecommpay-decline-codes.yml
+  href: https://artifacts.apis.io/ecommpay/errors/ecommpay-decline-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ecommpay-decline-codes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/errors/ecommpay-decline-codes.yml
+  href: https://artifacts.apis.io/ecommpay/errors/ecommpay-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/ecommpay-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/asyncapi/ecommpay-callbacks-webhooks.yml
+  href: https://artifacts.apis.io/ecommpay/asyncapi/ecommpay-callbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ecommpay-callbacks-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/conformance/ecommpay-conformance.yml
+  href: https://artifacts.apis.io/ecommpay/conformance/ecommpay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ecommpay-conformance.yml
@@ -172,17 +174,17 @@ common:
   type: Compliance
   url: https://ecommpay.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/lifecycle/ecommpay-lifecycle.yml
+  href: https://artifacts.apis.io/ecommpay/lifecycle/ecommpay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ecommpay-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/components/ecommpay-components.yml
+  href: https://artifacts.apis.io/ecommpay/components/ecommpay-components.yml
   title: ''
   type: Components
   url: components/ecommpay-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/llms/ecommpay-llms.txt
+  href: https://artifacts.apis.io/ecommpay/llms/ecommpay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ecommpay-llms.txt
@@ -201,10 +203,10 @@ overview: 'ECOMMPAY is listed with 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   ECOMMPAY''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 22 more developer resources.'
-random_paper: 1
+random_paper: 19
 score:
-  band: thin
-  composite: 33.0
+  band: developing
+  composite: 49.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 35.0
@@ -214,12 +216,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 52.4
-    discoverability: 69.6
-    operational_transparency: 18.4
+    developer_ergonomics: 71.4
+    discoverability: 62.5
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -228,7 +230,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 33.0
+  previous_composite: 49.7
   provenance:
     conformance: first-party
   regulatory:
@@ -240,15 +242,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 39.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/screenshots/ecommpay-2026-07-25T212806.png
+screenshot: https://apis.io/screenshots/ecommpay/ecommpay-2026-07-25T212806.png
 security:
 - kind: authentication
   name: Ecommpay Authentication

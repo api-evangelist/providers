@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.7
-  scored_at: '2026-10-17'
-api_count: 58
+  score: 28.3
+  scored_at: '2026-10-31'
+api_count: 30
 apis:
 - baseURL: https://{sensors_data_url}/api/v3/analytics/v1
   baseurl_source: declared
@@ -179,7 +181,7 @@ apis:
   description: The Web Sections API from Sensors Data — 4 operation(s) for web sections.
   name: Sensors Data Web Sections API
   slug: sensors-data-web-sections-api
-artifact_total: 63
+artifact_total: 68
 asyncapis:
 - description: ''
   name: Sensors Data Webhooks
@@ -274,42 +276,42 @@ collections:
   slug: open-sensors-data-portal-resource-management-v2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/capabilities/sensors-data-capability-edges.yml
+  href: https://artifacts.apis.io/sensors-data/capabilities/sensors-data-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sensors-data-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/skills/sensors-data-run-funnel-analysis.md
+  href: https://artifacts.apis.io/sensors-data/skills/sensors-data-run-funnel-analysis.md
   title: ''
   type: AgentSkill
   url: skills/sensors-data-run-funnel-analysis.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/overlays/sensors-data-horizon-overlay.yaml
+  href: https://artifacts.apis.io/sensors-data/overlays/sensors-data-horizon-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sensors-data-horizon-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/skills/sensors-data-build-and-evaluate-a-segment.md
+  href: https://artifacts.apis.io/sensors-data/skills/sensors-data-build-and-evaluate-a-segment.md
   title: ''
   type: AgentSkill
   url: skills/sensors-data-build-and-evaluate-a-segment.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/overlays/sensors-data-focus-overlay.yaml
+  href: https://artifacts.apis.io/sensors-data/overlays/sensors-data-focus-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sensors-data-focus-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/skills/sensors-data-receive-focus-webhooks.md
+  href: https://artifacts.apis.io/sensors-data/skills/sensors-data-receive-focus-webhooks.md
   title: ''
   type: AgentSkill
   url: skills/sensors-data-receive-focus-webhooks.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/overlays/sensors-data-portal-overlay.yaml
+  href: https://artifacts.apis.io/sensors-data/overlays/sensors-data-portal-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sensors-data-portal-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/skills/sensors-data-provision-account-access.md
+  href: https://artifacts.apis.io/sensors-data/skills/sensors-data-provision-account-access.md
   title: ''
   type: AgentSkill
   url: skills/sensors-data-provision-account-access.md
@@ -326,22 +328,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/sensorsdata
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/packages/sensors-data-packages.yml
+  href: https://artifacts.apis.io/sensors-data/packages/sensors-data-packages.yml
   title: ''
   type: Packages
   url: packages/sensors-data-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/packages/sensors-data-packages.yml
+  href: https://artifacts.apis.io/sensors-data/packages/sensors-data-packages.yml
   title: ''
   type: SDKs
   url: packages/sensors-data-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/llms/sensors-data-llms.txt
+  href: https://artifacts.apis.io/sensors-data/llms/sensors-data-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sensors-data-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/security/sensors-data-domain-security.yml
+  href: https://artifacts.apis.io/sensors-data/security/sensors-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sensors-data-domain-security.yml
@@ -370,12 +372,12 @@ common:
   type: TrustCenter
   url: https://www.sensorsdata.cn/trust/compliance.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/conformance/sensors-data-conformance.yml
+  href: https://artifacts.apis.io/sensors-data/conformance/sensors-data-conformance.yml
   title: ''
   type: Compliance
   url: conformance/sensors-data-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/conformance/sensors-data-conformance.yml
+  href: https://artifacts.apis.io/sensors-data/conformance/sensors-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sensors-data-conformance.yml
@@ -384,67 +386,67 @@ common:
   type: ChangeLog
   url: https://manual.sensorsdata.cn/sa/docs/update_log
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/authentication/sensors-data-authentication.yml
+  href: https://artifacts.apis.io/sensors-data/authentication/sensors-data-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sensors-data-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/conventions/sensors-data-conventions.yml
+  href: https://artifacts.apis.io/sensors-data/conventions/sensors-data-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sensors-data-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/errors/sensors-data-problem-types.yml
+  href: https://artifacts.apis.io/sensors-data/errors/sensors-data-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sensors-data-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/data-model/sensors-data-data-model.yml
+  href: https://artifacts.apis.io/sensors-data/data-model/sensors-data-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sensors-data-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/lifecycle/sensors-data-lifecycle.yml
+  href: https://artifacts.apis.io/sensors-data/lifecycle/sensors-data-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sensors-data-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/changelog/sensors-data-changelog.yml
+  href: https://artifacts.apis.io/sensors-data/changelog/sensors-data-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sensors-data-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/plans/sensors-data-plans-pricing.yml
+  href: https://artifacts.apis.io/sensors-data/plans/sensors-data-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sensors-data-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/rate-limits/sensors-data-rate-limits.yml
+  href: https://artifacts.apis.io/sensors-data/rate-limits/sensors-data-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sensors-data-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/asyncapi/sensors-data-webhooks.yml
+  href: https://artifacts.apis.io/sensors-data/asyncapi/sensors-data-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sensors-data-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/mcp/sensors-data-mcp.yml
+  href: https://artifacts.apis.io/sensors-data/mcp/sensors-data-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sensors-data-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/components/sensors-data-components.yml
+  href: https://artifacts.apis.io/sensors-data/components/sensors-data-components.yml
   title: ''
   type: Components
   url: components/sensors-data-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sensors-data/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/security/sensors-data-trust-center.yml
+  href: https://artifacts.apis.io/sensors-data/security/sensors-data-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sensors-data-trust-center.yml
@@ -453,12 +455,20 @@ common:
   type: HelpCenter
   url: https://docs.sensorsdata.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/overlays/sensors-data-analytics-overlay.yaml
+  href: https://artifacts.apis.io/sensors-data/overlays/sensors-data-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sensors-data-analytics-overlay.yaml
 created: '2026-07-17'
 description: Sensors Data (神策数据) is a customer data analytics and CDP (Customer Data Platform) company. Its platform unifies customer data across channels into real-time customer profiles and provides product analytics, user profiling, marketing and ad attribution, A/B testing, and smart-operations tooling. Sensors Data processes 250+ billion data points daily, ships 50+ data-collection SDKs across web, mobile, mini-program and server-side languages, and serves 2,000+ enterprise customers with both cloud and on-premise deployment. An OpenAPI is exposed for ecosystem integration.
+finops:
+- has_sources: true
+  method: derived
+  name: Sensors Data Finops
+  primary_unit: ''
+  service_category: ''
+  slug: sensors-data-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sensors-data.png
 layout: provider
 modified: '2026-09-16'
@@ -476,30 +486,30 @@ plans:
 - name: Sensors Data Plans Pricing
   plan_count: 0
   slug: sensors-data-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Sensors Data Rate Limits
   slug: sensors-data-rate-limits
 score:
   band: developing
-  composite: 43.3
+  composite: 42.6
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 4.5
     contract_quality: 44.5
-    developer_ergonomics: 60.1
-    discoverability: 78.6
-    operational_transparency: 26.3
-  previous_composite: 43.2
+    developer_ergonomics: 66.1
+    discoverability: 71.4
+    operational_transparency: 28.9
+  previous_composite: 42.6
   provenance:
     conformance: derived
     contracts:
@@ -515,13 +525,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/screenshots/sensors-data-2026-08-17T081809.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sensors-data/sensors-data-2026-08-17T081809.png
 security:
 - kind: authentication
   name: Sensors Data Authentication
@@ -535,6 +546,16 @@ security:
   name: Sensors Data Trust Center
   slug: sensors-data-trust-center
   summary_line: 网络安全等级保护三级 (MLPS Level 3), ISO/IEC 27001, ISO/IEC 27701, ISO 9001, CMMI Level 3, SDK 安全专项测评 (CAICT SDK security assessment)
+skill_count: 4
+skills:
+- name: sensors-data-build-and-evaluate-a-segment
+  slug: sensors-data-build-and-evaluate-a-segment
+- name: sensors-data-provision-account-access
+  slug: sensors-data-provision-account-access
+- name: sensors-data-receive-focus-webhooks
+  slug: sensors-data-receive-focus-webhooks
+- name: sensors-data-run-funnel-analysis
+  slug: sensors-data-run-funnel-analysis
 slug: sensors-data
 tags:
 - Company

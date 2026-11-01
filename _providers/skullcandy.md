@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Universal Commerce Protocol (UCP) merchant surface for the Skullcandy Shopify storefront. Agents discover capabilities at /.well-known/ucp and transact against a hosted MCP endpoint (catalog search, c
@@ -52,37 +54,37 @@ common:
   type: Website
   url: https://skullcandy.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skullcandy/refs/heads/main/llms/skullcandy-llms.txt
+  href: https://artifacts.apis.io/skullcandy/llms/skullcandy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/skullcandy-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skullcandy/refs/heads/main/well-known/skullcandy-well-known.yml
+  href: https://artifacts.apis.io/skullcandy/well-known/skullcandy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/skullcandy-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skullcandy/refs/heads/main/mcp/skullcandy-mcp.yml
+  href: https://artifacts.apis.io/skullcandy/mcp/skullcandy-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/skullcandy-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skullcandy/refs/heads/main/authentication/skullcandy-authentication.yml
+  href: https://artifacts.apis.io/skullcandy/authentication/skullcandy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/skullcandy-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skullcandy/refs/heads/main/scopes/skullcandy-scopes.yml
+  href: https://artifacts.apis.io/skullcandy/scopes/skullcandy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/skullcandy-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skullcandy/refs/heads/main/conventions/skullcandy-conventions.yml
+  href: https://artifacts.apis.io/skullcandy/conventions/skullcandy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/skullcandy-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skullcandy/refs/heads/main/security/skullcandy-domain-security.yml
+  href: https://artifacts.apis.io/skullcandy/security/skullcandy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skullcandy-domain-security.yml
@@ -126,7 +128,7 @@ overview: 'Skullcandy is listed with 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   Skullcandy''s developer surface includes authentication, documentation, support, and 11 more developer resources.'
-random_paper: 4
+random_paper: 2
 scopes:
 - name: Skullcandy Scopes
   scope_count: 4
@@ -134,7 +136,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.1
+  composite: 20.4
   coverage:
     artifact_dirs: 10
     catalog_earned: 35.0
@@ -142,15 +144,15 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 31.0
-    discoverability: 71.7
-    operational_transparency: 2.6
-  previous_composite: 20.0
+    developer_ergonomics: 35.7
+    discoverability: 61.7
+    operational_transparency: 5.3
+  previous_composite: 20.4
   provenance:
     mcp: platform-generated
   regulatory:
@@ -159,14 +161,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/skullcandy/refs/heads/main/screenshots/skullcandy-2026-09-02T155747.png
+screenshot: https://apis.io/screenshots/skullcandy/skullcandy-2026-09-02T155747.png
 security:
 - kind: authentication
   name: Skullcandy Authentication

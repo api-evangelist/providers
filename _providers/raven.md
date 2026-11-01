@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,17 +63,17 @@ common:
   type: PrivacyPolicy
   url: https://raven.io/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/raven/refs/heads/main/llms/raven-llms.txt
+  href: https://artifacts.apis.io/raven/llms/raven-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/raven-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/raven/refs/heads/main/packages/raven-packages.yml
+  href: https://artifacts.apis.io/raven/packages/raven-packages.yml
   title: ''
   type: Packages
   url: packages/raven-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/raven/refs/heads/main/security/raven-domain-security.yml
+  href: https://artifacts.apis.io/raven/security/raven-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/raven-domain-security.yml
@@ -90,9 +92,9 @@ overview: 'Raven is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 12
 score:
   band: emerging
-  composite: 14.0
+  composite: 13.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -104,23 +106,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 14.0
+  previous_composite: 13.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/raven/refs/heads/main/screenshots/raven-2026-09-02T152922.png
+screenshot: https://apis.io/screenshots/raven/raven-2026-09-02T152922.png
 security:
 - kind: domain-security
   name: Raven Domain Security

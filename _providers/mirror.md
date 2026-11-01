@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Read-only GraphQL data service (Mirror Graph) exposing Mirror Protocol state — synthetic assets (mAssets), prices, positions, and staking — from a single unauthenticated HTTP POST endpoint, with a Gra
@@ -74,62 +76,62 @@ common:
   type: Security
   url: https://docs.mirror.finance/security
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mirror/refs/heads/main/packages/mirror-packages.yml
+  href: https://artifacts.apis.io/mirror/packages/mirror-packages.yml
   title: ''
   type: SDKs
   url: packages/mirror-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mirror/refs/heads/main/packages/mirror-packages.yml
+  href: https://artifacts.apis.io/mirror/packages/mirror-packages.yml
   title: ''
   type: Packages
   url: packages/mirror-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mirror/refs/heads/main/cli/mirror-cli.yml
+  href: https://artifacts.apis.io/mirror/cli/mirror-cli.yml
   title: ''
   type: CLI
   url: cli/mirror-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mirror/refs/heads/main/authentication/mirror-authentication.yml
+  href: https://artifacts.apis.io/mirror/authentication/mirror-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mirror-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mirror/refs/heads/main/conventions/mirror-conventions.yml
+  href: https://artifacts.apis.io/mirror/conventions/mirror-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mirror-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mirror/refs/heads/main/conformance/mirror-conformance.yml
+  href: https://artifacts.apis.io/mirror/conformance/mirror-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mirror-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/mirror/refs/heads/main/sandbox/mirror-sandbox.yml
+  href: https://artifacts.apis.io/mirror/sandbox/mirror-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/mirror-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mirror/refs/heads/main/lifecycle/mirror-lifecycle.yml
+  href: https://artifacts.apis.io/mirror/lifecycle/mirror-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mirror-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mirror/refs/heads/main/security/mirror-domain-security.yml
+  href: https://artifacts.apis.io/mirror/security/mirror-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mirror-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mirror/refs/heads/main/security/mirror-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mirror/security/mirror-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mirror-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mirror/refs/heads/main/mcp/mirror-mcp.yml
+  href: https://artifacts.apis.io/mirror/mcp/mirror-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mirror-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mirror/refs/heads/main/llms/mirror-llms.txt
+  href: https://artifacts.apis.io/mirror/llms/mirror-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mirror-llms.txt
@@ -145,12 +147,12 @@ overview: 'Mirror is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Mirror''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, sandbox, and 13 more developer resources.'
-random_paper: 7
+random_paper: 19
 score:
   band: emerging
-  composite: 16.4
+  composite: 25.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -161,10 +163,10 @@ score:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 35.7
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 16.4
+    developer_ergonomics: 73.8
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 25.1
   provenance:
     conformance: derived
     mcp: derived
@@ -174,14 +176,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mirror/refs/heads/main/screenshots/mirror-2026-08-07T183830.png
+screenshot: https://apis.io/screenshots/mirror/mirror-2026-08-07T183830.png
 security:
 - kind: authentication
   name: Mirror Authentication

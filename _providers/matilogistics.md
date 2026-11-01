@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,13 +38,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST/JSON API versioned under /v2 at https://api.matilogistics.com for tracking requests, shipments, containers, carrier and terminal reference data, and webhooks. Bearer-token auth (tnt_ keys, one pe
   name: Mati Logistics Track and Trace API
   slug: mati-logistics-track-and-trace-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Matilogistics Webhooks
@@ -77,67 +79,75 @@ common:
   type: Login
   url: https://www.matilogistics.com/login
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/authentication/matilogistics-authentication.yml
+  href: https://artifacts.apis.io/matilogistics/authentication/matilogistics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/matilogistics-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/conventions/matilogistics-conventions.yml
+  href: https://artifacts.apis.io/matilogistics/conventions/matilogistics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/matilogistics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/errors/matilogistics-problem-types.yml
+  href: https://artifacts.apis.io/matilogistics/errors/matilogistics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/matilogistics-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/rate-limits/matilogistics-rate-limits.yml
+  href: https://artifacts.apis.io/matilogistics/rate-limits/matilogistics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/matilogistics-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/lifecycle/matilogistics-lifecycle.yml
+  href: https://artifacts.apis.io/matilogistics/lifecycle/matilogistics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/matilogistics-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/asyncapi/matilogistics-webhooks.yml
+  href: https://artifacts.apis.io/matilogistics/asyncapi/matilogistics-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/matilogistics-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/data-model/matilogistics-data-model.yml
+  href: https://artifacts.apis.io/matilogistics/data-model/matilogistics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/matilogistics-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/conformance/matilogistics-conformance.yml
+  href: https://artifacts.apis.io/matilogistics/conformance/matilogistics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/matilogistics-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/plans/matilogistics-plans-pricing.yml
+  href: https://artifacts.apis.io/matilogistics/plans/matilogistics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/matilogistics-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/packages/matilogistics-packages.yml
+  href: https://artifacts.apis.io/matilogistics/packages/matilogistics-packages.yml
   title: ''
   type: Packages
   url: packages/matilogistics-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/llms/matilogistics-llms.txt
+  href: https://artifacts.apis.io/matilogistics/llms/matilogistics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/matilogistics-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/security/matilogistics-domain-security.yml
+  href: https://artifacts.apis.io/matilogistics/security/matilogistics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/matilogistics-domain-security.yml
 created: '2026-08-27'
 description: 'Mati Logistics runs a network for global trade connecting buyers, suppliers, distributors, forwarders and NVOCCs, with two products: an AI sourcing agent over customs-derived trade data covering 66,459 manufacturers and exporters, and Track and Trace. Track and Trace is the API product: a REST/JSON API for ocean container, bill-of-lading and booking shipment visibility across 24 ocean carriers and NVOCCs, returning normalized milestone events, carrier-stated routes, transshipment dwell and last-free-day data by polling or by HMAC-signed webhook. Bearer-token auth, cursor pagination, ISO 6346 and SCAC identifiers. API access is gated behind a paid subscription tier.'
+finops:
+- has_sources: true
+  method: derived
+  name: Matilogistics Finops
+  primary_unit: shipment
+  service_category: ''
+  slug: matilogistics-finops
+  template: false
 image: https://www.matilogistics.com/landing-logo.svg
 layout: provider
 modified: '2026-08-27'
@@ -153,32 +163,35 @@ overview: 'Mati Logistics is listed with 1 API on the [APIs.io](https://apis.io/
   Mati Logistics'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, and 13 more developer resources.'
 plans:
 - name: Matilogistics Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: matilogistics-plans-pricing
-random_paper: 18
+- name: Matilogistics Price Estimates
+  plan_count: 0
+  slug: matilogistics-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Matilogistics Rate Limits
   slug: matilogistics-rate-limits
 score:
   band: developing
-  composite: 41.2
+  composite: 42.7
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 54.0
+    artifact_dirs: 18
+    catalog_earned: 57.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 61.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 55.3
+    access_clarity: 63.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 40.5
     discoverability: 60.7
     operational_transparency: 28.9
-  previous_composite: 41.1
+  previous_composite: 41.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -188,14 +201,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/screenshots/matilogistics-2026-09-02T150521.png
+screenshot: https://apis.io/screenshots/matilogistics/matilogistics-2026-09-02T150521.png
 security:
 - kind: authentication
   name: Matilogistics Authentication

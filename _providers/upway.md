@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,16 +25,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Upway's agent-facing commerce surface. A remote Model Context Protocol server at https://upway.co/api/ucp/mcp implementing the Universal Commerce Protocol shopping service, version 2026-08-25. Anonymo
   name: Upway Commerce (UCP MCP) API
   slug: upway-commerce-ucp-mcp
-artifact_total: 7
+artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upway/refs/heads/main/security/upway-domain-security.yml
+  href: https://artifacts.apis.io/upway/security/upway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upway-domain-security.yml
@@ -69,77 +71,77 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/shopupway
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upway/refs/heads/main/llms/upway-llms.txt
+  href: https://artifacts.apis.io/upway/llms/upway-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/upway-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upway/refs/heads/main/well-known/upway-well-known.yml
+  href: https://artifacts.apis.io/upway/well-known/upway-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/upway-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upway/refs/heads/main/mcp/upway-mcp.yml
+  href: https://artifacts.apis.io/upway/mcp/upway-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/upway-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upway/refs/heads/main/authentication/upway-authentication.yml
+  href: https://artifacts.apis.io/upway/authentication/upway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/upway-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upway/refs/heads/main/scopes/upway-scopes.yml
+  href: https://artifacts.apis.io/upway/scopes/upway-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/upway-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upway/refs/heads/main/conventions/upway-conventions.yml
+  href: https://artifacts.apis.io/upway/conventions/upway-conventions.yml
   title: ''
   type: Conventions
   url: conventions/upway-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upway/refs/heads/main/conventions/upway-conventions.yml
+  href: https://artifacts.apis.io/upway/conventions/upway-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/upway-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upway/refs/heads/main/errors/upway-problem-types.yml
+  href: https://artifacts.apis.io/upway/errors/upway-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/upway-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/upway/refs/heads/main/rate-limits/upway-rate-limits.yml
+  href: https://artifacts.apis.io/upway/rate-limits/upway-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/upway-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/upway/refs/heads/main/plans/upway-plans-pricing.yml
+  href: https://artifacts.apis.io/upway/plans/upway-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/upway-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upway/refs/heads/main/lifecycle/upway-lifecycle.yml
+  href: https://artifacts.apis.io/upway/lifecycle/upway-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/upway-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upway/refs/heads/main/conformance/upway-conformance.yml
+  href: https://artifacts.apis.io/upway/conformance/upway-conformance.yml
   title: ''
   type: Conformance
   url: conformance/upway-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upway/refs/heads/main/data-model/upway-data-model.yml
+  href: https://artifacts.apis.io/upway/data-model/upway-data-model.yml
   title: ''
   type: DataModel
   url: data-model/upway-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/upway/refs/heads/main/packages/upway-packages.yml
+  href: https://artifacts.apis.io/upway/packages/upway-packages.yml
   title: ''
   type: Packages
   url: packages/upway-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upway/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/upway/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -163,7 +165,7 @@ plans:
 - name: Upway Plans Pricing
   plan_count: 0
   slug: upway-plans-pricing
-random_paper: 16
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Upway Rate Limits
@@ -175,7 +177,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 26.9
+  composite: 27.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 45.0
@@ -183,15 +185,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 21.1
-  previous_composite: 26.8
+  previous_composite: 27.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -202,14 +204,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/upway/refs/heads/main/screenshots/upway-2026-10-11T131526.png
+screenshot: https://apis.io/screenshots/upway/upway-2026-10-11T131526.png
 security:
 - kind: authentication
   name: Upway Authentication
@@ -219,6 +221,12 @@ security:
   name: Upway Domain Security
   slug: upway-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 2
+skills:
+- name: upway-browse-catalog
+  slug: upway-browse-catalog
+- name: upway-buy-a-used-ebike
+  slug: upway-buy-a-used-ebike
 slug: upway
 tags:
 - Company

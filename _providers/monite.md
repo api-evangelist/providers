@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 43.8
-  scored_at: '2026-10-17'
+  score: 42.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 4
@@ -384,159 +386,159 @@ apis:
   description: The Webhook subscriptions API from Monite — 10 operation(s) for webhook subscriptions.
   name: Monite Webhook subscriptions API
   slug: monite-webhook-subscriptions-api
-artifact_total: 87
+artifact_total: 90
 asyncapis:
 - description: ''
   name: Monite Webhooks
   slug: monite-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/capabilities/monite-capability-edges.yml
+  href: https://artifacts.apis.io/monite/capabilities/monite-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/monite-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/agentic-access/monite-agentic-access.yml
+  href: https://artifacts.apis.io/monite/agentic-access/monite-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/monite-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/rate-limits/monite-rate-limits.yml
+  href: https://artifacts.apis.io/monite/rate-limits/monite-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/monite-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/rules/monite-rules.yml
+  href: https://artifacts.apis.io/monite/rules/monite-rules.yml
   title: ''
   type: Spectral
   url: rules/monite-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/rules/monite-api-style-guide-spectral-rules.yml
+  href: https://artifacts.apis.io/monite/rules/monite-api-style-guide-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/monite-api-style-guide-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/json-ld/monite-context.jsonld
+  href: https://artifacts.apis.io/monite/json-ld/monite-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/monite-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/vocabulary/monite-vocabulary.yml
+  href: https://artifacts.apis.io/monite/vocabulary/monite-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/monite-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/monite/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/asyncapi/monite-webhooks.yml
+  href: https://artifacts.apis.io/monite/asyncapi/monite-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/monite-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/data-model/monite-data-model.yml
+  href: https://artifacts.apis.io/monite/data-model/monite-data-model.yml
   title: ''
   type: DataModel
   url: data-model/monite-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/components/monite-components.yml
+  href: https://artifacts.apis.io/monite/components/monite-components.yml
   title: ''
   type: Components
   url: components/monite-components.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/changelog/monite-changelog.yml
+  href: https://artifacts.apis.io/monite/changelog/monite-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/monite-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/conventions/monite-conventions.yml
+  href: https://artifacts.apis.io/monite/conventions/monite-conventions.yml
   title: ''
   type: Conventions
   url: conventions/monite-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/sandbox/monite-sandbox.yml
+  href: https://artifacts.apis.io/monite/sandbox/monite-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/monite-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/scopes/monite-scopes.yml
+  href: https://artifacts.apis.io/monite/scopes/monite-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/monite-scopes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/lifecycle/monite-lifecycle.yml
+  href: https://artifacts.apis.io/monite/lifecycle/monite-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/monite-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/lifecycle/monite-lifecycle.yml
+  href: https://artifacts.apis.io/monite/lifecycle/monite-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/monite-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/errors/monite-problem-types.yml
+  href: https://artifacts.apis.io/monite/errors/monite-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/monite-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/conformance/monite-conformance.yml
+  href: https://artifacts.apis.io/monite/conformance/monite-conformance.yml
   title: ''
   type: Conformance
   url: conformance/monite-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/overlays/monite-openapi-overlay.yaml
+  href: https://artifacts.apis.io/monite/overlays/monite-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/monite-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/llms/monite-llms.txt
+  href: https://artifacts.apis.io/monite/llms/monite-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/monite-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/mcp/monite-tool-crosswalk.yml
+  href: https://artifacts.apis.io/monite/mcp/monite-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/monite-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/mcp/monite-mcp.yml
+  href: https://artifacts.apis.io/monite/mcp/monite-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/monite-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/well-known/monite-well-known.yml
+  href: https://artifacts.apis.io/monite/well-known/monite-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/monite-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/hosts/monite-hosts.yml
+  href: https://artifacts.apis.io/monite/hosts/monite-hosts.yml
   title: ''
   type: Hosts
   url: hosts/monite-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/vendors/monite-vendors.yml
+  href: https://artifacts.apis.io/monite/vendors/monite-vendors.yml
   title: ''
   type: Vendors
   url: vendors/monite-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/packages/monite-packages.yml
+  href: https://artifacts.apis.io/monite/packages/monite-packages.yml
   title: ''
   type: SDKs
   url: packages/monite-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/packages/monite-packages.yml
+  href: https://artifacts.apis.io/monite/packages/monite-packages.yml
   title: ''
   type: Packages
   url: packages/monite-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/authentication/monite-authentication.yml
+  href: https://artifacts.apis.io/monite/authentication/monite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/monite-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/security/monite-domain-security.yml
+  href: https://artifacts.apis.io/monite/security/monite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/monite-domain-security.yml
@@ -667,7 +669,7 @@ plans:
 - name: Monite Plans Pricing
   plan_count: 0
   slug: monite-plans-pricing
-random_paper: 14
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Monite Rate Limits
@@ -717,23 +719,23 @@ scopes:
   summary_line: 27 scopes
 score:
   band: strong
-  composite: 66.3
+  composite: 62.4
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 33
     catalog_earned: 73.8
     catalog_earned_first_party: 8.0
     catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 35.6
-    contract_quality: 77.6
+    contract_quality: 74.2
     developer_ergonomics: 70.8
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 57.9
-  previous_composite: 67.2
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -750,13 +752,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/monite/refs/heads/main/screenshots/monite-2026-10-11T111245.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/monite/monite-2026-10-11T111245.png
 security:
 - kind: authentication
   name: Monite Authentication
@@ -766,6 +769,14 @@ security:
   name: Monite Domain Security
   slug: monite-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: monite-issue-and-send-invoice
+  slug: monite-issue-and-send-invoice
+- name: monite-onboard-entity
+  slug: monite-onboard-entity
+- name: monite-process-payable
+  slug: monite-process-payable
 slug: monite
 tags:
 - Company

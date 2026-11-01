@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The authenticated backend behind Celsius, SeekOps' cloud analytics and emissions-reconciliation dashboard. Observed as a Django REST Framework service at https://celsius.seekops.com/api/ — every probe
@@ -77,27 +79,27 @@ common:
   type: Compliance
   url: https://seekops.com/iso-9001-certification/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seekops/refs/heads/main/conformance/seekops-conformance.yml
+  href: https://artifacts.apis.io/seekops/conformance/seekops-conformance.yml
   title: ''
   type: Conformance
   url: conformance/seekops-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seekops/refs/heads/main/security/seekops-domain-security.yml
+  href: https://artifacts.apis.io/seekops/security/seekops-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/seekops-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seekops/refs/heads/main/llms/seekops-llms.txt
+  href: https://artifacts.apis.io/seekops/llms/seekops-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/seekops-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/seekops/refs/heads/main/plans/seekops-plans-pricing.yml
+  href: https://artifacts.apis.io/seekops/plans/seekops-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/seekops-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/seekops/refs/heads/main/rate-limits/seekops-rate-limits.yml
+  href: https://artifacts.apis.io/seekops/rate-limits/seekops-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/seekops-rate-limits.yml
@@ -136,7 +138,7 @@ plans:
 - name: Seekops Plans Pricing
   plan_count: 0
   slug: seekops-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Seekops Rate Limits
@@ -169,14 +171,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 21.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/seekops/refs/heads/main/screenshots/seekops-2026-09-02T154745.png
+screenshot: https://apis.io/screenshots/seekops/seekops-2026-09-02T154745.png
 security:
 - kind: authentication
   name: Seekops Authentication

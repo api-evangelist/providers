@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 0
@@ -204,11 +206,8 @@ apis:
   description: Manage Cribl Cloud workspaces which are unique VPC containers each isolating an instance of the Cribl Product Suite including Stream, Edge, Search, and Lake.
   name: Cribl Workspaces API
   slug: cribl-workspaces-api
-artifact_total: 126
+artifact_total: 125
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cribl As Code API Credentials API
   slug: open-cribl-api-credentials-api
@@ -325,12 +324,12 @@ collections:
   slug: open-cribl-workspaces-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/rate-limits/cribl-rate-limits.yml
+  href: https://artifacts.apis.io/cribl/rate-limits/cribl-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cribl-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/finops/cribl-finops.yml
+  href: https://artifacts.apis.io/cribl/finops/cribl-finops.yml
   title: ''
   type: FinOps
   url: finops/cribl-finops.yml
@@ -339,37 +338,37 @@ common:
   type: Pricing
   url: https://cribl.io/pricing/plan/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/plans/cribl-plans-pricing.yml
+  href: https://artifacts.apis.io/cribl/plans/cribl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cribl-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/capabilities/cribl-capability-edges.yml
+  href: https://artifacts.apis.io/cribl/capabilities/cribl-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cribl-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/agentic-access/cribl-agentic-access.yml
+  href: https://artifacts.apis.io/cribl/agentic-access/cribl-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cribl-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/security/cribl-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cribl/security/cribl-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cribl-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/security/cribl-domain-security.yml
+  href: https://artifacts.apis.io/cribl/security/cribl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cribl-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/authentication/cribl-authentication.yml
+  href: https://artifacts.apis.io/cribl/authentication/cribl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cribl-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/scopes/cribl-scopes.yml
+  href: https://artifacts.apis.io/cribl/scopes/cribl-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cribl-scopes.yml
@@ -382,32 +381,32 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/cribl
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/json-ld/cribl-context.jsonld
+  href: https://artifacts.apis.io/cribl/json-ld/cribl-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cribl-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/json-schema/cribl-pipeline-schema.json
+  href: https://artifacts.apis.io/cribl/json-schema/cribl-pipeline-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cribl-pipeline-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/json-schema/cribl-route-schema.json
+  href: https://artifacts.apis.io/cribl/json-schema/cribl-route-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cribl-route-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/json-schema/cribl-source-schema.json
+  href: https://artifacts.apis.io/cribl/json-schema/cribl-source-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cribl-source-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/json-schema/cribl-destination-schema.json
+  href: https://artifacts.apis.io/cribl/json-schema/cribl-destination-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cribl-destination-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/json-schema/cribl-worker-group-schema.json
+  href: https://artifacts.apis.io/cribl/json-schema/cribl-worker-group-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cribl-worker-group-schema.json
@@ -447,12 +446,12 @@ created: '2025-03-05'
 description: Cribl is an observability pipeline company providing a suite of products for collecting, processing, routing, searching, and storing telemetry data at scale. Cribl's developer platform offers REST APIs across Stream, Edge, Search, Lake, and the As Code product line, exposing programmatic control over data pipelines, edge agents, federated search jobs, lake datasets, and infrastructure-as-code configuration management. The Cribl Cloud API acts as a centrally managed control plane across all deployments and authenticates with OAuth 2.0 client credentials.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Cribl Finops
   primary_unit: ''
-  service_category: Observability Pipeline
+  service_category: ''
   slug: cribl-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cribl.png
 json_schemas:
 - name: ApiCredential
@@ -594,7 +593,7 @@ plans:
 - name: Cribl Plans Pricing
   plan_count: 3
   slug: cribl-plans-pricing
-random_paper: 18
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Cribl Rate Limits
@@ -690,7 +689,7 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.2
+  composite: 52.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 67.5
@@ -698,15 +697,15 @@ score:
     catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.8
+  delta: 0.0
   facets:
-    access_clarity: 69.7
+    access_clarity: 76.3
     contract_governance: 13.6
-    contract_quality: 58.7
+    contract_quality: 55.3
     developer_ergonomics: 33.3
     discoverability: 78.6
-    operational_transparency: 10.5
-  previous_composite: 55.0
+    operational_transparency: 23.7
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     contracts:
@@ -720,13 +719,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/screenshots/cribl-2026-06-20T175228.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cribl/cribl-2026-06-20T175228.png
 security:
 - kind: authentication
   name: Cribl Authentication

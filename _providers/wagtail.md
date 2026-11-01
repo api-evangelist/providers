@@ -13,7 +13,7 @@ agent_readiness:
   band: human-only
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: unknown
     agentic_access: false
     agentic_commerce: false
     auth_clarity: false
@@ -26,28 +26,53 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.6
-  scored_at: '2026-10-17'
-api_count: 1
+  score: 3.9
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - description: The Wagtail REST API v2 exposes site content — pages, images, documents, and redirects — as JSON. Endpoints support filtering by field value, tree relationships (child_of, ancestor_of, descendant_of),
   name: Wagtail API v2
   slug: wagtail-api-v2
-artifact_total: 6
+- description: 'Wagtail API v3, a preview introduced in Wagtail 8.0 and built on Django Ninja, adds authenticated CMS writes to content reads: create and update pages, images, documents and snippets, save draft revis'
+  name: Wagtail API v3
+  slug: wagtail-api-v3
+artifact_total: 7
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: https://github.com/wagtail/agent-skills/tree/main/skills/wagtail-api
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: https://github.com/wagtail/agent-skills/tree/main/skills/wagtail-backend
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: https://github.com/wagtail/agent-skills/tree/main/skills/wagtail-content-modeling
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: https://github.com/wagtail/agent-skills/tree/main/skills/wagtail-frontend
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: https://github.com/wagtail/agent-skills/tree/main/skills/wagtail-upgrade
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wagtail/refs/heads/main/security/wagtail-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/wagtail/security/wagtail-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wagtail-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wagtail/refs/heads/main/security/wagtail-domain-security.yml
+  href: https://artifacts.apis.io/wagtail/security/wagtail-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wagtail-domain-security.yml
@@ -80,27 +105,27 @@ common:
   type: X
   url: https://twitter.com/WagtailCMS
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wagtail/refs/heads/main/plans/wagtail-plans-pricing.yml
+  href: https://artifacts.apis.io/wagtail/plans/wagtail-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wagtail-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wagtail/refs/heads/main/rate-limits/wagtail-rate-limits.yml
+  href: https://artifacts.apis.io/wagtail/rate-limits/wagtail-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wagtail-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wagtail/refs/heads/main/finops/wagtail-finops.yml
+  href: https://artifacts.apis.io/wagtail/finops/wagtail-finops.yml
   title: ''
   type: FinOps
   url: finops/wagtail-finops.yml
 - group: company
-  href: https://raw.githubusercontent.com/api-evangelist/wagtail/refs/heads/main/blogs/blogs.json
+  href: https://artifacts.apis.io/wagtail/blogs/blogs.json
   title: ''
   type: BlogPosts
   url: blogs/blogs.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wagtail/refs/heads/main/json-ld/wagtail.json
+  href: https://artifacts.apis.io/wagtail/json-ld/wagtail.json
   title: ''
   type: JSONLD
   url: json-ld/wagtail.json
@@ -120,52 +145,52 @@ modified: 2026-06-13
 name: Wagtail
 nav: Providers
 network: true
-overview: 'Wagtail is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CMS, Content Management, Django, Python, and Headless CMS.
+overview: 'Wagtail is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CMS, Content Management, Django, Python, and Headless CMS.
 
 
-  Wagtail''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
+  Wagtail''s developer surface includes documentation, engineering blog, pricing, and 16 more developer resources.'
 plans:
 - name: Wagtail Plans Pricing
   plan_count: 5
   slug: wagtail-plans-pricing
-random_paper: 19
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Wagtail Rate Limits
   slug: wagtail-rate-limits
 score:
   band: emerging
-  composite: 12.9
+  composite: 15.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 1.3
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 18.3
     discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 18.5
+    operational_transparency: 15.8
+  previous_composite: 14.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wagtail/refs/heads/main/screenshots/wagtail-2026-06-20T201200.png
+screenshot: https://apis.io/screenshots/wagtail/wagtail-2026-06-20T201200.png
 security:
 - kind: domain-security
   name: Wagtail Domain Security

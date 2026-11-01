@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -72,11 +74,8 @@ apis:
   description: Ethereum-compatible JSON-RPC methods exposed by the Blast node.
   name: Blast JSON-RPC API
   slug: blast-network-json-rpc-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Blast Network JSON-RPC API
   slug: open-blast-network-json-rpc-api
@@ -85,32 +84,32 @@ collections:
   slug: open-blast-network
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blast-network/refs/heads/main/plans/blast-network-plans-pricing.yml
+  href: https://artifacts.apis.io/blast-network/plans/blast-network-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blast-network-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blast-network/refs/heads/main/rate-limits/blast-network-rate-limits.yml
+  href: https://artifacts.apis.io/blast-network/rate-limits/blast-network-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blast-network-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blast-network/refs/heads/main/finops/blast-network-finops.yml
+  href: https://artifacts.apis.io/blast-network/finops/blast-network-finops.yml
   title: ''
   type: FinOps
   url: finops/blast-network-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blast-network/refs/heads/main/agentic-access/blast-network-agentic-access.yml
+  href: https://artifacts.apis.io/blast-network/agentic-access/blast-network-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/blast-network-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blast-network/refs/heads/main/security/blast-network-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/blast-network/security/blast-network-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/blast-network-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blast-network/refs/heads/main/security/blast-network-domain-security.yml
+  href: https://artifacts.apis.io/blast-network/security/blast-network-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blast-network-domain-security.yml
@@ -198,30 +197,30 @@ plans:
 - name: Blast Network Plans Pricing
   plan_count: 1
   slug: blast-network-plans-pricing
-random_paper: 15
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Blast Network Rate Limits
   slug: blast-network-rate-limits
 score:
   band: thin
-  composite: 27.5
+  composite: 34.9
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 47.1
     developer_ergonomics: 35.7
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 33.5
+    operational_transparency: 21.1
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -234,14 +233,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 19.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/blast-network/refs/heads/main/screenshots/blast-network-2026-06-20T173346.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/blast-network/blast-network-2026-06-20T173346.png
 security:
 - kind: domain-security
   name: Blast Network Domain Security

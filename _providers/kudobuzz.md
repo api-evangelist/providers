@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Kudobuzz Developer API lets merchants and integration developers create customer reviews and sync customers and orders into the After Purchase Mail (APM) product for segmentation and post-purchase
   name: Kudobuzz Developer API
   slug: kudobuzz-developer-api
-artifact_total: 7
+artifact_total: 9
 common:
 - group: operate
   title: ''
@@ -68,77 +70,77 @@ common:
   type: GettingStarted
   url: https://docs.kudobuzz.com/#/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/authentication/kudobuzz-authentication.yml
+  href: https://artifacts.apis.io/kudobuzz/authentication/kudobuzz-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kudobuzz-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/conventions/kudobuzz-conventions.yml
+  href: https://artifacts.apis.io/kudobuzz/conventions/kudobuzz-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kudobuzz-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/conventions/kudobuzz-conventions.yml
+  href: https://artifacts.apis.io/kudobuzz/conventions/kudobuzz-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/kudobuzz-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/errors/kudobuzz-error-codes.yml
+  href: https://artifacts.apis.io/kudobuzz/errors/kudobuzz-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kudobuzz-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/rate-limits/kudobuzz-rate-limits.yml
+  href: https://artifacts.apis.io/kudobuzz/rate-limits/kudobuzz-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kudobuzz-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/data-model/kudobuzz-data-model.yml
+  href: https://artifacts.apis.io/kudobuzz/data-model/kudobuzz-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kudobuzz-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/lifecycle/kudobuzz-lifecycle.yml
+  href: https://artifacts.apis.io/kudobuzz/lifecycle/kudobuzz-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kudobuzz-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/lifecycle/kudobuzz-lifecycle.yml
+  href: https://artifacts.apis.io/kudobuzz/lifecycle/kudobuzz-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/kudobuzz-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/packages/kudobuzz-packages.yml
+  href: https://artifacts.apis.io/kudobuzz/packages/kudobuzz-packages.yml
   title: ''
   type: Packages
   url: packages/kudobuzz-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/packages/kudobuzz-packages.yml
+  href: https://artifacts.apis.io/kudobuzz/packages/kudobuzz-packages.yml
   title: ''
   type: SDKs
   url: packages/kudobuzz-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/well-known/kudobuzz-well-known.yml
+  href: https://artifacts.apis.io/kudobuzz/well-known/kudobuzz-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kudobuzz-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/mcp/kudobuzz-mcp.yml
+  href: https://artifacts.apis.io/kudobuzz/mcp/kudobuzz-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kudobuzz-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/llms/kudobuzz-llms.txt
+  href: https://artifacts.apis.io/kudobuzz/llms/kudobuzz-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kudobuzz-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kudobuzz/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/conformance/kudobuzz-conformance.yml
+  href: https://artifacts.apis.io/kudobuzz/conformance/kudobuzz-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kudobuzz-conformance.yml
@@ -147,27 +149,27 @@ common:
   type: Compliance
   url: https://kudobuzz.com/gdpr
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/security/kudobuzz-trust-center.yml
+  href: https://artifacts.apis.io/kudobuzz/security/kudobuzz-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kudobuzz-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/security/kudobuzz-domain-security.yml
+  href: https://artifacts.apis.io/kudobuzz/security/kudobuzz-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kudobuzz-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/security/kudobuzz-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kudobuzz/security/kudobuzz-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kudobuzz-vulnerability-disclosure.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/plans/kudobuzz-plans-pricing.yml
+  href: https://artifacts.apis.io/kudobuzz/plans/kudobuzz-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kudobuzz-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/components/kudobuzz-components.yml
+  href: https://artifacts.apis.io/kudobuzz/components/kudobuzz-components.yml
   title: ''
   type: Components
   url: components/kudobuzz-components.yml
@@ -252,14 +254,14 @@ plans:
 - name: Kudobuzz Plans Pricing
   plan_count: 0
   slug: kudobuzz-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Kudobuzz Rate Limits
   slug: kudobuzz-rate-limits
 score:
   band: thin
-  composite: 37.0
+  composite: 38.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -272,10 +274,10 @@ score:
     access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 56.5
-    discoverability: 73.2
-    operational_transparency: 21.1
-  previous_composite: 37.0
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 23.7
+  previous_composite: 38.6
   provenance:
     conformance: derived
     mcp: derived
@@ -286,14 +288,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/screenshots/kudobuzz-2026-07-25T224319.png
+screenshot: https://apis.io/screenshots/kudobuzz/kudobuzz-2026-07-25T224319.png
 security:
 - kind: authentication
   name: Kudobuzz Authentication
@@ -311,6 +313,12 @@ security:
   name: Kudobuzz Trust Center
   slug: kudobuzz-trust-center
   summary_line: trust center published
+skill_count: 2
+skills:
+- name: kudobuzz-collect-review
+  slug: kudobuzz-collect-review
+- name: kudobuzz-sync-orders-and-customers
+  slug: kudobuzz-sync-orders-and-customers
 slug: kudobuzz
 tags:
 - Company

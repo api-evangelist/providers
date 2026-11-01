@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/marqvision/refs/heads/main/security/marqvision-domain-security.yml
+  href: https://artifacts.apis.io/marqvision/security/marqvision-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/marqvision-domain-security.yml
@@ -80,37 +82,37 @@ common:
   type: Compliance
   url: https://www.marqvision.com/blog/marqvision-soc-2-type-ii
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/marqvision/refs/heads/main/lifecycle/marqvision-lifecycle.yml
+  href: https://artifacts.apis.io/marqvision/lifecycle/marqvision-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/marqvision-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/marqvision/refs/heads/main/conformance/marqvision-conformance.yml
+  href: https://artifacts.apis.io/marqvision/conformance/marqvision-conformance.yml
   title: ''
   type: Conformance
   url: conformance/marqvision-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/marqvision/refs/heads/main/well-known/marqvision-well-known.yml
+  href: https://artifacts.apis.io/marqvision/well-known/marqvision-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/marqvision-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/marqvision/refs/heads/main/packages/marqvision-packages.yml
+  href: https://artifacts.apis.io/marqvision/packages/marqvision-packages.yml
   title: ''
   type: Packages
   url: packages/marqvision-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/marqvision/refs/heads/main/plans/marqvision-plans-pricing.yml
+  href: https://artifacts.apis.io/marqvision/plans/marqvision-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/marqvision-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/marqvision/refs/heads/main/rate-limits/marqvision-rate-limits.yml
+  href: https://artifacts.apis.io/marqvision/rate-limits/marqvision-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/marqvision-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/marqvision/refs/heads/main/llms/marqvision-llms.txt
+  href: https://artifacts.apis.io/marqvision/llms/marqvision-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/marqvision-llms.txt
@@ -144,14 +146,14 @@ plans:
 - name: Marqvision Plans Pricing
   plan_count: 0
   slug: marqvision-plans-pricing
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Marqvision Rate Limits
   slug: marqvision-rate-limits
 score:
   band: emerging
-  composite: 16.7
+  composite: 21.2
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -159,15 +161,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 48.2
-    operational_transparency: 18.4
-  previous_composite: 16.6
+    operational_transparency: 21.1
+  previous_composite: 21.2
   provenance:
     conformance: first-party
   regulatory:
@@ -176,14 +178,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/marqvision/refs/heads/main/screenshots/marqvision-2026-09-02T150435.png
+screenshot: https://apis.io/screenshots/marqvision/marqvision-2026-09-02T150435.png
 security:
 - kind: domain-security
   name: Marqvision Domain Security

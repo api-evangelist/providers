@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-17'
+  score: 24.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -112,11 +114,8 @@ apis:
   description: Sub-units associated with a reservation
   name: Hostaway Reservation Units API
   slug: hostaway-reservation-units-api
-artifact_total: 62
+artifact_total: 61
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Hostaway Calendar API
   slug: open-hostaway-calendar-api
@@ -148,8 +147,12 @@ collections:
   name: Hostaway Calendar Webhooks API
   slug: open-hostaway-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/hostaway/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/capabilities/hostaway-capability-edges.yml
+  href: https://artifacts.apis.io/hostaway/capabilities/hostaway-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hostaway-capability-edges.yml
@@ -158,22 +161,22 @@ common:
   type: Website
   url: https://www.hostaway.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/agentic-access/hostaway-agentic-access.yml
+  href: https://artifacts.apis.io/hostaway/agentic-access/hostaway-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hostaway-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/security/hostaway-domain-security.yml
+  href: https://artifacts.apis.io/hostaway/security/hostaway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hostaway-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/authentication/hostaway-authentication.yml
+  href: https://artifacts.apis.io/hostaway/authentication/hostaway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hostaway-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/scopes/hostaway-scopes.yml
+  href: https://artifacts.apis.io/hostaway/scopes/hostaway-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hostaway-scopes.yml
@@ -341,12 +344,12 @@ overview: 'Hostaway is listed with 16 APIs on the [APIs.io](https://apis.io/) ne
   The Hostaway catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Hostaway''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, getting-started guide, engineering blog, and 22 more developer resources.'
+  Hostaway''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, getting-started guide, engineering blog, and 23 more developer resources.'
 plans:
 - name: Hostaway Plans Pricing
   plan_count: 2
   slug: hostaway-plans-pricing
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Hostaway Rate Limits
@@ -370,7 +373,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 46.5
+  composite: 46.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 55.7
@@ -378,15 +381,15 @@ score:
     catalog_gap: 59.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.5
+  delta: 0.2
   facets:
     access_clarity: 57.9
     contract_governance: 9.8
-    contract_quality: 56.0
-    developer_ergonomics: 50.0
+    contract_quality: 52.6
+    developer_ergonomics: 51.2
     discoverability: 62.5
     operational_transparency: 10.5
-  previous_composite: 51.0
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -400,13 +403,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/screenshots/hostaway-2026-06-20T182839.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hostaway/hostaway-2026-06-20T182839.png
 security:
 - kind: authentication
   name: Hostaway Authentication

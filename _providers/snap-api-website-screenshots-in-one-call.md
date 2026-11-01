@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.9
-  scored_at: '2026-10-17'
+  score: 8.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST/HTTP screenshot and rendering API. GET /v1/take (alias /v1/render) captures screenshots and PDFs; /v1/record for scroll/video recording; /v1/usage for plan and credit metering. API-key authentica
@@ -32,12 +34,12 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/snap-api-website-screenshots-in-one-call/refs/heads/main/plans/snap-api-website-screenshots-in-one-call-plans-pricing.yml
+  href: https://artifacts.apis.io/snap-api-website-screenshots-in-one-call/plans/snap-api-website-screenshots-in-one-call-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/snap-api-website-screenshots-in-one-call-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/snap-api-website-screenshots-in-one-call/refs/heads/main/rate-limits/snap-api-website-screenshots-in-one-call-rate-limits.yml
+  href: https://artifacts.apis.io/snap-api-website-screenshots-in-one-call/rate-limits/snap-api-website-screenshots-in-one-call-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/snap-api-website-screenshots-in-one-call-rate-limits.yml
@@ -86,7 +88,7 @@ common:
   type: LLMsTxt
   url: https://snap.flyhold.in/llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snap-api-website-screenshots-in-one-call/refs/heads/main/security/snap-api-website-screenshots-in-one-call-domain-security.yml
+  href: https://artifacts.apis.io/snap-api-website-screenshots-in-one-call/security/snap-api-website-screenshots-in-one-call-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snap-api-website-screenshots-in-one-call-domain-security.yml
@@ -102,7 +104,7 @@ modified: '2026-09-17'
 name: Snap API
 nav: Providers
 network: true
-overview: 'Snap API is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include screenshot-api, Developer Tools, Web Capture, n8n, and Web Scraping.
+overview: 'Snap API is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Screenshots, Developer Tools, Web Capture, n8n, and Web Scraping.
 
 
   Snap API''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, and 8 more developer resources.'
@@ -110,14 +112,14 @@ plans:
 - name: Snap Api Website Screenshots In One Call Plans Pricing
   plan_count: 3
   slug: snap-api-website-screenshots-in-one-call-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Snap Api Website Screenshots In One Call Rate Limits
   slug: snap-api-website-screenshots-in-one-call-rate-limits
 score:
   band: thin
-  composite: 30.9
+  composite: 30.8
   coverage:
     artifact_dirs: 12
     catalog_earned: 41.0
@@ -125,13 +127,13 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 58.9
+    discoverability: 58.3
     operational_transparency: 0.0
   previous_composite: 30.8
   provenance:
@@ -142,14 +144,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/snap-api-website-screenshots-in-one-call/refs/heads/main/screenshots/snap-api-website-screenshots-in-one-call-2026-10-11T130015.png
+screenshot: https://apis.io/screenshots/snap-api-website-screenshots-in-one-call/snap-api-website-screenshots-in-one-call-2026-10-11T130015.png
 security:
 - kind: authentication
   name: Snap Api Website Screenshots In One Call Authentication
@@ -161,7 +163,7 @@ security:
   summary_line: TLSv1.3
 slug: snap-api-website-screenshots-in-one-call
 tags:
-- screenshot-api
+- Screenshots
 - Developer Tools
 - Web Capture
 - n8n

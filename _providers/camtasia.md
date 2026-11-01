@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -48,61 +50,58 @@ apis:
 - description: 'Public oEmbed API for TechSmith Screencast (app.screencast.com), the cloud destination where Camtasia videos and images are shared. The oEmbed endpoint returns embed HTML, thumbnail, and metadata for '
   name: TechSmith Screencast oEmbed API
   slug: screencast-oembed-api
-- baseURL: https://app.screencast.com/services/oembed
+- baseURL: https://api.techsmith.com/camtasia/v1
   baseurl_source: declared
   description: Browse and manage media assets
   name: Camtasia Assets API
   slug: camtasia-assets-api
-- baseURL: https://app.screencast.com/services/oembed
+- baseURL: https://api.techsmith.com/camtasia/v1
   baseurl_source: declared
   description: Browse asset categories
   name: Camtasia Categories API
   slug: camtasia-categories-api
-- baseURL: https://app.screencast.com/services/oembed
+- baseURL: https://api.techsmith.com/camtasia/v1
   baseurl_source: declared
   description: Download asset files
   name: Camtasia Downloads API
   slug: camtasia-downloads-api
-- baseURL: https://app.screencast.com/services/oembed
+- baseURL: https://api.techsmith.com/camtasia/v1
   baseurl_source: declared
   description: Manage asset libraries and collections
   name: Camtasia Libraries API
   slug: camtasia-libraries-api
-- baseURL: https://app.screencast.com/services/oembed
+- baseURL: https://api.techsmith.com/camtasia/v1
   baseurl_source: declared
   description: Manage media items on project tracks
   name: Camtasia Media API
   slug: camtasia-media-api
-- baseURL: https://app.screencast.com/services/oembed
+- baseURL: https://api.techsmith.com/camtasia/v1
   baseurl_source: declared
   description: Produce and export finished videos
   name: Camtasia Productions API
   slug: camtasia-productions-api
-- baseURL: https://app.screencast.com/services/oembed
+- baseURL: https://api.techsmith.com/camtasia/v1
   baseurl_source: declared
   description: Create and manage Camtasia projects
   name: Camtasia Projects API
   slug: camtasia-projects-api
-- baseURL: https://app.screencast.com/services/oembed
+- baseURL: https://api.techsmith.com/camtasia/v1
   baseurl_source: declared
   description: Manage screen recordings
   name: Camtasia Recordings API
   slug: camtasia-recordings-api
-- baseURL: https://app.screencast.com/services/oembed
+- baseURL: https://api.techsmith.com/camtasia/v1
   baseurl_source: declared
   description: Manage video project templates
   name: Camtasia Templates API
   slug: camtasia-templates-api
-- baseURL: https://app.screencast.com/services/oembed
+- baseURL: https://api.techsmith.com/camtasia/v1
   baseurl_source: declared
   description: Manage timeline tracks within a project
   name: Camtasia Tracks API
   slug: camtasia-tracks-api
-artifact_total: 35
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Camtasia Asset Library API
   slug: open-camtasia-asset-library
@@ -140,18 +139,22 @@ collections:
   name: Camtasia Asset Library Assets Tracks API
   slug: open-camtasia-tracks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/camtasia/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/plans/camtasia-plans-pricing.yml
+  href: https://artifacts.apis.io/camtasia/plans/camtasia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/camtasia-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/rate-limits/camtasia-rate-limits.yml
+  href: https://artifacts.apis.io/camtasia/rate-limits/camtasia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/camtasia-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/finops/camtasia-finops.yml
+  href: https://artifacts.apis.io/camtasia/finops/camtasia-finops.yml
   title: ''
   type: FinOps
   url: finops/camtasia-finops.yml
@@ -160,22 +163,22 @@ common:
   type: IssueTracker
   url: https://github.com/TechSmith/screencast-public-api-docs/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/agentic-access/camtasia-agentic-access.yml
+  href: https://artifacts.apis.io/camtasia/agentic-access/camtasia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/camtasia-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/security/camtasia-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/camtasia/security/camtasia-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/camtasia-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/security/camtasia-domain-security.yml
+  href: https://artifacts.apis.io/camtasia/security/camtasia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/camtasia-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/authentication/camtasia-authentication.yml
+  href: https://artifacts.apis.io/camtasia/authentication/camtasia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/camtasia-authentication.yml
@@ -216,7 +219,7 @@ common:
   type: PrivacyPolicy
   url: https://www.techsmith.com/privacy.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/json-ld/camtasia-context.jsonld
+  href: https://artifacts.apis.io/camtasia/json-ld/camtasia-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/camtasia-context.jsonld
@@ -226,7 +229,7 @@ finops:
 - has_sources: false
   method: generated
   name: Camtasia Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: camtasia-finops
   template: true
@@ -254,12 +257,12 @@ overview: 'Camtasia publishes 11 API contracts indexed on the [APIs.io](https://
   The Camtasia catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Camtasia''s developer surface includes authentication, getting-started guide, engineering blog, support, and 14 more developer resources.'
+  Camtasia''s developer surface includes authentication, getting-started guide, engineering blog, support, and 15 more developer resources.'
 plans:
 - name: Camtasia Plans Pricing
   plan_count: 3
   slug: camtasia-plans-pricing
-random_paper: 21
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Camtasia Rate Limits
@@ -277,24 +280,24 @@ rules:
     warn: 3
   slug: camtasia-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 36.4
+  band: developing
+  composite: 41.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 51.3
     catalog_earned_first_party: 0.0
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.2
   facets:
-    access_clarity: 18.4
+    access_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 58.4
-    developer_ergonomics: 38.1
+    contract_quality: 55.0
+    developer_ergonomics: 41.7
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 37.9
+    operational_transparency: 23.7
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -307,14 +310,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 30.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/screenshots/camtasia-2026-06-20T173915.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/camtasia/camtasia-2026-06-20T173915.png
 security:
 - kind: authentication
   name: Camtasia Authentication

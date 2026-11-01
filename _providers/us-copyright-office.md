@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The Copyright Public Records System (CPRS) provides access to U.S. copyright registration and recordation data with advanced search capabilities and improved interfaces. Replaced the Online Public Cat
@@ -51,22 +53,22 @@ apis:
 artifact_total: 32
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/us-copyright-office/refs/heads/main/plans/us-copyright-office-plans-pricing.yml
+  href: https://artifacts.apis.io/us-copyright-office/plans/us-copyright-office-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/us-copyright-office-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/us-copyright-office/refs/heads/main/rate-limits/us-copyright-office-rate-limits.yml
+  href: https://artifacts.apis.io/us-copyright-office/rate-limits/us-copyright-office-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/us-copyright-office-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/us-copyright-office/refs/heads/main/finops/us-copyright-office-finops.yml
+  href: https://artifacts.apis.io/us-copyright-office/finops/us-copyright-office-finops.yml
   title: ''
   type: FinOps
   url: finops/us-copyright-office-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/us-copyright-office/refs/heads/main/security/us-copyright-office-domain-security.yml
+  href: https://artifacts.apis.io/us-copyright-office/security/us-copyright-office-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/us-copyright-office-domain-security.yml
@@ -143,7 +145,7 @@ finops:
 - has_sources: false
   method: generated
   name: Us Copyright Office Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: us-copyright-office-finops
   template: true
@@ -194,7 +196,7 @@ plans:
 - name: Us Copyright Office Plans Pricing
   plan_count: 3
   slug: us-copyright-office-plans-pricing
-random_paper: 13
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Us Copyright Office Rate Limits
@@ -213,7 +215,7 @@ rules:
   slug: us-copyright-office-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.8
+  composite: 24.5
   coverage:
     artifact_dirs: 13
     catalog_earned: 63.8
@@ -221,9 +223,9 @@ score:
     catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.7
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 23.5
     contract_quality: 26.7
     developer_ergonomics: 23.8
@@ -234,21 +236,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 23.5
+  previous_composite: 24.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 14.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/us-copyright-office/refs/heads/main/screenshots/us-copyright-office-2026-06-20T200655.png
+screenshot: https://apis.io/screenshots/us-copyright-office/us-copyright-office-2026-06-20T200655.png
 security:
 - kind: domain-security
   name: Us Copyright Office Domain Security

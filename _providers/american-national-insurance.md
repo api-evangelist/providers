@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 13
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/american-national-insurance/refs/heads/main/security/american-national-insurance-domain-security.yml
+  href: https://artifacts.apis.io/american-national-insurance/security/american-national-insurance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/american-national-insurance-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/american-national-insurance/refs/heads/main/llms/american-national-insurance-llms.txt
+  href: https://artifacts.apis.io/american-national-insurance/llms/american-national-insurance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/american-national-insurance-llms.txt
@@ -134,10 +136,10 @@ press:
 - date: ''
   title: American National Insurance Company Experiences Data ...
   url: https://www.jdsupra.com/legalnews/american-national-insurance-company-3470457/
-random_paper: 16
+random_paper: 8
 score:
   band: minimal
-  composite: 10.5
+  composite: 9.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -151,7 +153,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -160,21 +162,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 10.5
+  previous_composite: 9.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/american-national-insurance/refs/heads/main/screenshots/american-national-insurance-2026-10-11T141639.png
+screenshot: https://apis.io/screenshots/american-national-insurance/american-national-insurance-2026-10-11T141639.png
 security:
 - kind: domain-security
   name: American National Insurance Domain Security

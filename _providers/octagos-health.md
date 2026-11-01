@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,12 +38,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octagos-health/refs/heads/main/security/octagos-health-domain-security.yml
+  href: https://artifacts.apis.io/octagos-health/security/octagos-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/octagos-health-domain-security.yml
@@ -74,32 +76,32 @@ common:
   type: Login
   url: https://app.octagos.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/octagos-health/refs/heads/main/llms/octagos-health-llms.txt
+  href: https://artifacts.apis.io/octagos-health/llms/octagos-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/octagos-health-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octagos-health/refs/heads/main/conformance/octagos-health-conformance.yml
+  href: https://artifacts.apis.io/octagos-health/conformance/octagos-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/octagos-health-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octagos-health/refs/heads/main/conformance/octagos-health-conformance.yml
+  href: https://artifacts.apis.io/octagos-health/conformance/octagos-health-conformance.yml
   title: ''
   type: Compliance
   url: conformance/octagos-health-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/octagos-health/refs/heads/main/plans/octagos-health-plans-pricing.yml
+  href: https://artifacts.apis.io/octagos-health/plans/octagos-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/octagos-health-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/octagos-health/refs/heads/main/rate-limits/octagos-health-rate-limits.yml
+  href: https://artifacts.apis.io/octagos-health/rate-limits/octagos-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/octagos-health-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octagos-health/refs/heads/main/lifecycle/octagos-health-lifecycle.yml
+  href: https://artifacts.apis.io/octagos-health/lifecycle/octagos-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/octagos-health-lifecycle.yml
@@ -136,14 +138,14 @@ plans:
 - name: Octagos Health Plans Pricing
   plan_count: 4
   slug: octagos-health-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Octagos Health Rate Limits
   slug: octagos-health-rate-limits
 score:
   band: thin
-  composite: 27.0
+  composite: 27.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 39.0
@@ -153,13 +155,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 77.6
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 27.0
+  previous_composite: 27.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -173,14 +175,14 @@ score:
     regime: Health
     regime_id: health
     score: 27.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/octagos-health/refs/heads/main/screenshots/octagos-health-2026-09-02T151102.png
+screenshot: https://apis.io/screenshots/octagos-health/octagos-health-2026-09-02T151102.png
 security:
 - kind: authentication
   name: Octagos Health Authentication

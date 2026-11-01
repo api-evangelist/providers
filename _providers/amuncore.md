@@ -30,16 +30,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.6
-  scored_at: '2026-10-17'
+  score: 51.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,14 +49,14 @@ agentic_access:
   operation_count: 5
   slug: amuncore-agentic-access
   summary_line: 5 operations · 3 acting
-api_count: 4
+api_count: 2
 apis:
 - baseURL: https://amuncore.com
   baseurl_source: spec
   description: Generated CRUD over a table or view exposed as an endpoint on a registered AmunCore application.
   name: AmunCore Dynamic API
   slug: amuncore-dynamic-api-api
-artifact_total: 11
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Amuncore Webhooks
@@ -65,22 +67,22 @@ collections:
   slug: open-amuncore-dynamic-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/overlays/amuncore-dynamic-api-overlay.yaml
+  href: https://artifacts.apis.io/amuncore/overlays/amuncore-dynamic-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amuncore-dynamic-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/mcp/amuncore-mcp.yml
+  href: https://artifacts.apis.io/amuncore/mcp/amuncore-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/amuncore-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/agentic-access/amuncore-agentic-access.yml
+  href: https://artifacts.apis.io/amuncore/agentic-access/amuncore-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amuncore-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/security/amuncore-domain-security.yml
+  href: https://artifacts.apis.io/amuncore/security/amuncore-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amuncore-domain-security.yml
@@ -97,107 +99,107 @@ common:
   type: LLMsTxt
   url: https://amuncore.com/llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/openapi/_original/amuncore-dynamic-api-openapi.yml
+  href: https://artifacts.apis.io/amuncore/openapi/_original/amuncore-dynamic-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/amuncore-dynamic-api-openapi.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/examples/amuncore-dynamic-api-examples.yml
+  href: https://artifacts.apis.io/amuncore/examples/amuncore-dynamic-api-examples.yml
   title: ''
   type: Examples
   url: examples/amuncore-dynamic-api-examples.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/overlays/amuncore-dynamic-api-overlay.yaml
+  href: https://artifacts.apis.io/amuncore/overlays/amuncore-dynamic-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amuncore-dynamic-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/llms/amuncore-llms.txt
+  href: https://artifacts.apis.io/amuncore/llms/amuncore-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amuncore-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/well-known/amuncore-well-known.yml
+  href: https://artifacts.apis.io/amuncore/well-known/amuncore-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amuncore-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/mcp/amuncore-mcp.yml
+  href: https://artifacts.apis.io/amuncore/mcp/amuncore-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/amuncore-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/mcp/amuncore-tool-crosswalk.yml
+  href: https://artifacts.apis.io/amuncore/mcp/amuncore-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/amuncore-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/amuncore/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/authentication/amuncore-authentication.yml
+  href: https://artifacts.apis.io/amuncore/authentication/amuncore-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amuncore-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/scopes/amuncore-scopes.yml
+  href: https://artifacts.apis.io/amuncore/scopes/amuncore-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/amuncore-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/conventions/amuncore-conventions.yml
+  href: https://artifacts.apis.io/amuncore/conventions/amuncore-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amuncore-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/errors/amuncore-problem-types.yml
+  href: https://artifacts.apis.io/amuncore/errors/amuncore-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amuncore-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/rate-limits/amuncore-rate-limits.yml
+  href: https://artifacts.apis.io/amuncore/rate-limits/amuncore-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amuncore-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/lifecycle/amuncore-lifecycle.yml
+  href: https://artifacts.apis.io/amuncore/lifecycle/amuncore-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amuncore-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/data-model/amuncore-data-model.yml
+  href: https://artifacts.apis.io/amuncore/data-model/amuncore-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amuncore-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/conformance/amuncore-conformance.yml
+  href: https://artifacts.apis.io/amuncore/conformance/amuncore-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amuncore-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/security/amuncore-trust-center.yml
+  href: https://artifacts.apis.io/amuncore/security/amuncore-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amuncore-trust-center.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/sandbox/amuncore-sandbox.yml
+  href: https://artifacts.apis.io/amuncore/sandbox/amuncore-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/amuncore-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/asyncapi/amuncore-webhooks.yml
+  href: https://artifacts.apis.io/amuncore/asyncapi/amuncore-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/amuncore-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/packages/amuncore-packages.yml
+  href: https://artifacts.apis.io/amuncore/packages/amuncore-packages.yml
   title: ''
   type: Packages
   url: packages/amuncore-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/plans/amuncore-plans-pricing.yml
+  href: https://artifacts.apis.io/amuncore/plans/amuncore-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amuncore-plans-pricing.yml
@@ -231,6 +233,14 @@ common:
   url: https://amuncore.com/about.html
 created: '2026-08-03'
 description: 'AmunCore turns a database into a secure REST API without writing a backend. You connect a database, pick tables, and endpoints go live with routing, authentication, validation, pagination, joins, errors, logs and docs already handled — the layer between a database and HTTP that would otherwise be a two-to-six-week project. It supports SQL Server, MySQL, MariaDB, PostgreSQL, Oracle and SQLite, with a visual builder that is the same regardless of the engine underneath. It is MCP-native by design: the endpoints you build become tools an AI assistant can call under the same keys, permissions and audit trail, and the MCP endpoint is live, token-gated and now fronted by RFC 8414/9728 OAuth discovery. A public OpenAPI 3.0.1 describes the five generated CRUD operations; REST auth is an X-Api-Key header. Built and operated by HYNOWorld, with a self-hosted option for regulated deployments. Full CRUD, a free plan forever, and paid tiers from $29/mo.'
+finops:
+- has_sources: true
+  method: derived
+  name: Amuncore Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: amuncore-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amuncore.png
 layout: provider
 mcp_servers:
@@ -252,7 +262,10 @@ plans:
 - name: Amuncore Plans Pricing
   plan_count: 4
   slug: amuncore-plans-pricing
-random_paper: 0
+- name: Amuncore Price Estimates
+  plan_count: 0
+  slug: amuncore-price-estimates
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Amuncore Rate Limits
@@ -264,21 +277,21 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 55.4
+  composite: 56.9
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 59.0
     catalog_earned_first_party: 24.0
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.5
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 56.6
     developer_ergonomics: 35.1
-    discoverability: 71.7
+    discoverability: 63.3
     operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -289,7 +302,7 @@ score:
     - africa
     - mena
     - north-africa
-  previous_composite: 54.8
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -306,13 +319,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/screenshots/amuncore-2026-08-07T161347.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amuncore/amuncore-2026-08-07T161347.png
 security:
 - kind: authentication
   name: Amuncore Authentication
@@ -326,6 +340,14 @@ security:
   name: Amuncore Trust Center
   slug: amuncore-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Expose a database table as an API over MCP
+  slug: amuncore-expose-a-table-over-mcp
+- name: Query a table through an AmunCore endpoint
+  slug: amuncore-query-a-table
+- name: Create, update and delete a record safely
+  slug: amuncore-write-a-record
 slug: amuncore
 tags:
 - Database

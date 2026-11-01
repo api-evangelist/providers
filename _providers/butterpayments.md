@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,20 +37,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Source-agnostic payment-event ingestion API for payment recovery. Merchants POST standardized successful and failed payment events and payment-method updates; Recover optimizes retry timing and report
   name: Recover Enterprise API
   slug: recover-enterprise-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Butterpayments Webhooks
   slug: butterpayments-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/plans/butterpayments-plans-pricing.yml
+  href: https://artifacts.apis.io/butterpayments/plans/butterpayments-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/butterpayments-plans-pricing.yml
@@ -101,47 +103,47 @@ common:
   type: PrivacyPolicy
   url: https://butterpayments.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/authentication/butterpayments-authentication.yml
+  href: https://artifacts.apis.io/butterpayments/authentication/butterpayments-authentication.yml
   title: ''
   type: Authentication
   url: authentication/butterpayments-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/conventions/butterpayments-conventions.yml
+  href: https://artifacts.apis.io/butterpayments/conventions/butterpayments-conventions.yml
   title: ''
   type: Conventions
   url: conventions/butterpayments-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/asyncapi/butterpayments-webhooks.yml
+  href: https://artifacts.apis.io/butterpayments/asyncapi/butterpayments-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/butterpayments-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/components/butterpayments-components.yml
+  href: https://artifacts.apis.io/butterpayments/components/butterpayments-components.yml
   title: ''
   type: Components
   url: components/butterpayments-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/sandbox/butterpayments-sandbox.yml
+  href: https://artifacts.apis.io/butterpayments/sandbox/butterpayments-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/butterpayments-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/data-model/butterpayments-data-model.yml
+  href: https://artifacts.apis.io/butterpayments/data-model/butterpayments-data-model.yml
   title: ''
   type: DataModel
   url: data-model/butterpayments-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/mcp/butterpayments-mcp.yml
+  href: https://artifacts.apis.io/butterpayments/mcp/butterpayments-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/butterpayments-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/llms/butterpayments-llms.txt
+  href: https://artifacts.apis.io/butterpayments/llms/butterpayments-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/butterpayments-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/conformance/butterpayments-conformance.yml
+  href: https://artifacts.apis.io/butterpayments/conformance/butterpayments-conformance.yml
   title: ''
   type: Conformance
   url: conformance/butterpayments-conformance.yml
@@ -150,22 +152,30 @@ common:
   type: Compliance
   url: https://security.butterpayments.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/security/butterpayments-trust-center.yml
+  href: https://artifacts.apis.io/butterpayments/security/butterpayments-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/butterpayments-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/security/butterpayments-domain-security.yml
+  href: https://artifacts.apis.io/butterpayments/security/butterpayments-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/butterpayments-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/well-known/butterpayments-well-known.yml
+  href: https://artifacts.apis.io/butterpayments/well-known/butterpayments-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/butterpayments-well-known.yml
 created: '2026-07-17'
 description: Butter Payments is a payment recovery and involuntary-churn platform that uses machine learning to recover revenue from failed subscription payments. Its Recover product ingests real-time transaction and payment-method events, optimizes retry timing, and reports outcomes back to merchants via HMAC-SHA256 signed webhooks; Dispute (powered by Verifi) intercepts chargebacks and runs Rapid Dispute Resolution; PaymentScore identifies recoverable failed payments; and a PCI DSS Level 2 Card Vault secures card data behind a secure-iframe element. Butter integrates turnkey with Stripe Billing, Braintree, and Recharge, or directly through the Recover Enterprise API.
+finops:
+- has_sources: true
+  method: derived
+  name: Butterpayments Finops
+  primary_unit: ''
+  service_category: ''
+  slug: butterpayments-finops
+  template: true
 image: https://cdn.prod.website-files.com/6570760e6e7b5aa59f8f2452/657b7105d992d17f87a2d0e2_hero-img-m.avif
 layout: provider
 modified: '2026-10-06'
@@ -183,12 +193,12 @@ plans:
 - name: Butterpayments Plans Pricing
   plan_count: 0
   slug: butterpayments-plans-pricing
-random_paper: 3
+random_paper: 7
 score:
   band: developing
-  composite: 42.2
+  composite: 43.7
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -196,13 +206,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 42.2
+  previous_composite: 43.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -215,15 +225,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 31.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/screenshots/butterpayments-2026-07-25T204125.png
+screenshot: https://apis.io/screenshots/butterpayments/butterpayments-2026-07-25T204125.png
 security:
 - kind: authentication
   name: Butterpayments Authentication

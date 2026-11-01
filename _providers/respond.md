@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: Workspace tags and contact tag assignment.
   name: Respond.io Tags API
   slug: respond-tags-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Respond.io Developer Comments API
   slug: open-respond-comments-api
@@ -107,27 +106,27 @@ common:
   type: Pricing
   url: https://respond.io/pricing
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/capabilities/respond-capability-edges.yml
+  href: https://artifacts.apis.io/respond/capabilities/respond-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/respond-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/agentic-access/respond-agentic-access.yml
+  href: https://artifacts.apis.io/respond/agentic-access/respond-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/respond-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/security/respond-trust-center.yml
+  href: https://artifacts.apis.io/respond/security/respond-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/respond-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/security/respond-domain-security.yml
+  href: https://artifacts.apis.io/respond/security/respond-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/respond-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/authentication/respond-authentication.yml
+  href: https://artifacts.apis.io/respond/authentication/respond-authentication.yml
   title: ''
   type: Authentication
   url: authentication/respond-authentication.yml
@@ -144,17 +143,17 @@ common:
   type: Documentation
   url: https://developers.respond.io/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/plans/respond-plans-pricing.yml
+  href: https://artifacts.apis.io/respond/plans/respond-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/respond-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/rate-limits/respond-rate-limits.yml
+  href: https://artifacts.apis.io/respond/rate-limits/respond-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/respond-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/finops/respond-finops.yml
+  href: https://artifacts.apis.io/respond/finops/respond-finops.yml
   title: ''
   type: FinOps
   url: finops/respond-finops.yml
@@ -186,14 +185,14 @@ plans:
 - name: Respond Plans Pricing
   plan_count: 4
   slug: respond-plans-pricing
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Respond Rate Limits
   slug: respond-rate-limits
 score:
   band: thin
-  composite: 39.2
+  composite: 37.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 52.0
@@ -201,15 +200,15 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 54.1
+    contract_quality: 51.5
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 43.3
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -223,13 +222,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/screenshots/respond-2026-06-20T192954.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/respond/respond-2026-06-20T192954.png
 security:
 - kind: authentication
   name: Respond Authentication

@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
+  score: 23.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://core-v1.carbon.prod.andersonopt.com
@@ -59,15 +61,15 @@ apis:
   description: The Team API from PVcase — 2 operation(s) for team.
   name: PVcase Team API
   slug: pvcase-team-api
-artifact_total: 10
+artifact_total: 13
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/authentication/pvcase-authentication.yml
+  href: https://artifacts.apis.io/pvcase/authentication/pvcase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pvcase-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/security/pvcase-domain-security.yml
+  href: https://artifacts.apis.io/pvcase/security/pvcase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pvcase-domain-security.yml
@@ -120,67 +122,75 @@ common:
   type: Compliance
   url: https://pvcase.com/trust-center
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/llms/pvcase-llms.txt
+  href: https://artifacts.apis.io/pvcase/llms/pvcase-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pvcase-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/conventions/pvcase-conventions.yml
+  href: https://artifacts.apis.io/pvcase/conventions/pvcase-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pvcase-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/errors/pvcase-problem-types.yml
+  href: https://artifacts.apis.io/pvcase/errors/pvcase-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pvcase-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/lifecycle/pvcase-lifecycle.yml
+  href: https://artifacts.apis.io/pvcase/lifecycle/pvcase-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pvcase-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/changelog/pvcase-changelog.yml
+  href: https://artifacts.apis.io/pvcase/changelog/pvcase-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pvcase-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/rate-limits/pvcase-rate-limits.yml
+  href: https://artifacts.apis.io/pvcase/rate-limits/pvcase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pvcase-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/plans/pvcase-plans-pricing.yml
+  href: https://artifacts.apis.io/pvcase/plans/pvcase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pvcase-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/conformance/pvcase-conformance.yml
+  href: https://artifacts.apis.io/pvcase/conformance/pvcase-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pvcase-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/data-model/pvcase-data-model.yml
+  href: https://artifacts.apis.io/pvcase/data-model/pvcase-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pvcase-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pvcase/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/packages/pvcase-packages.yml
+  href: https://artifacts.apis.io/pvcase/packages/pvcase-packages.yml
   title: ''
   type: Packages
   url: packages/pvcase-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/overlays/pvcase-anderson-optimization-overlay.yaml
+  href: https://artifacts.apis.io/pvcase/overlays/pvcase-anderson-optimization-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pvcase-anderson-optimization-overlay.yaml
 created: '2026-08-26'
 description: 'PVcase is a Lithuanian solar engineering software company building an end-to-end platform for utility-scale and commercial photovoltaic project development, covering site prospecting, land and grid screening, ground-mount and roof-mount PV layout design, terrain-aware engineering and energy yield simulation. Its product family includes PVcase Prospect (site selection, parcel and landowner data, interconnection capacity and buildable-area analysis, built on the Anderson Optimization platform it acquired in June 2023), PVcase Ground Mount and Roof Mount (AutoCAD-based PV layout design), and PVcase Yield (energy simulation). The developer surface is narrow and early: a beta REST API for PVcase Prospect, documented under "Advanced tools" in the Prospect GitBook documentation as an Anderson Optimization API with an OpenAPI 3.0.3 description covering teams, projects and geospatial assets, offered to enterprise customers alongside a read-only WMS layer and SSO.'
+finops:
+- has_sources: true
+  method: derived
+  name: Pvcase Finops
+  primary_unit: ''
+  service_category: ''
+  slug: pvcase-finops
+  template: true
 image: https://pvcase.com/favicon.ico
 layout: provider
 modified: '2026-08-26'
@@ -193,32 +203,32 @@ overview: 'PVcase publishes 4 API contracts indexed on the [APIs.io](https://api
   PVcase''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 19 more developer resources.'
 plans:
 - name: Pvcase Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: pvcase-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Pvcase Rate Limits
   slug: pvcase-rate-limits
 score:
   band: developing
-  composite: 44.9
+  composite: 45.2
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 22
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
-    access_clarity: 68.4
+    access_clarity: 71.1
     contract_governance: 0.0
-    contract_quality: 45.8
+    contract_quality: 44.8
     developer_ergonomics: 49.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 44.9
+  previous_composite: 47.3
   provenance:
     conformance: derived
     contracts:
@@ -234,13 +244,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 21.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/screenshots/pvcase-2026-09-02T152352.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pvcase/pvcase-2026-09-02T152352.png
 security:
 - kind: authentication
   name: Pvcase Authentication
@@ -258,6 +269,12 @@ security:
   name: Pvcase Trust Center
   slug: pvcase-trust-center
   summary_line: SOC 2 Type I, SOC 2 Type II, SOC 3
+skill_count: 2
+skills:
+- name: pvcase-inventory-grid-assets
+  slug: pvcase-inventory-grid-assets
+- name: pvcase-screen-project-pipeline
+  slug: pvcase-screen-project-pipeline
 slug: pvcase
 tags:
 - Solar

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.3
-  scored_at: '2026-10-17'
+  score: 20.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: This is an OpenAPI for the Mastodon API.
@@ -50,12 +52,12 @@ collections:
   slug: open-mastodon
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mastodon/refs/heads/main/plans/mastodon-plans-pricing.yml
+  href: https://artifacts.apis.io/mastodon/plans/mastodon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mastodon-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mastodon/refs/heads/main/finops/mastodon-finops.yml
+  href: https://artifacts.apis.io/mastodon/finops/mastodon-finops.yml
   title: ''
   type: FinOps
   url: finops/mastodon-finops.yml
@@ -64,7 +66,7 @@ common:
   type: Website
   url: https://www.joinmastodon.org/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mastodon/refs/heads/main/security/mastodon-domain-security.yml
+  href: https://artifacts.apis.io/mastodon/security/mastodon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mastodon-domain-security.yml
@@ -106,7 +108,7 @@ finops:
 - has_sources: false
   method: generated
   name: Mastodon Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: mastodon-finops
   template: true
@@ -127,7 +129,7 @@ plans:
 - name: Mastodon Plans Pricing
   plan_count: 3
   slug: mastodon-plans-pricing
-random_paper: 11
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Mastodon Rate Limits
@@ -147,7 +149,7 @@ rules:
   slug: mastodon-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 26.5
+  composite: 26.2
   coverage:
     artifact_dirs: 14
     catalog_earned: 36.8
@@ -155,15 +157,15 @@ score:
     catalog_gap: 78.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 11.4
-    contract_quality: 39.2
+    contract_quality: 36.5
     developer_ergonomics: 40.5
     discoverability: 48.2
-    operational_transparency: 10.5
-  previous_composite: 28.0
+    operational_transparency: 13.2
+  previous_composite: 26.2
   provenance:
     contracts:
       callable: 0.0
@@ -176,14 +178,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mastodon/refs/heads/main/screenshots/mastodon-2026-06-20T185024.png
+screenshot: https://apis.io/screenshots/mastodon/mastodon-2026-06-20T185024.png
 security:
 - kind: domain-security
   name: Mastodon Domain Security

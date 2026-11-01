@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -18,7 +19,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
@@ -26,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: documented
+    rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.3
-  scored_at: '2026-10-17'
+  score: 43.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 224
   human_in_the_loop: 4
@@ -41,7 +44,7 @@ agentic_access:
   operation_count: 418
   slug: clickfunnels-agentic-access
   summary_line: 418 operations · 224 acting · 4 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://{subdomain}.myclickfunnels.com/api/v2
   baseurl_source: declared
@@ -553,15 +556,62 @@ apis:
   description: Workspace
   name: ClickFunnels Workspace API
   slug: clickfunnels-workspace-api
-artifact_total: 113
+- baseURL: https://{subdomain}.myclickfunnels.com/api/v2
+  baseurl_source: declared
+  description: Contact Activity Event reads, excluding MessageHub conversations.
+  name: ClickFunnels Contacts::Event API
+  slug: clickfunnels-contacts-event-api
+- baseURL: https://{subdomain}.myclickfunnels.com/api/v2
+  baseurl_source: declared
+  description: Notes in a contact's Activity tab, with full CRUD.
+  name: ClickFunnels Contacts::Events::Note API
+  slug: clickfunnels-contacts-events-note-api
+- baseURL: https://{subdomain}.myclickfunnels.com/api/v2
+  baseurl_source: declared
+  description: Read-only contact subscription-change history.
+  name: ClickFunnels Contacts::Subscription Change API
+  slug: clickfunnels-contacts-subscriptionchange-api
+- baseURL: https://{subdomain}.myclickfunnels.com/api/v2
+  baseurl_source: declared
+  description: Contact topic opt-outs and consent-based resubscription.
+  name: ClickFunnels Contacts::Unsubscribed Topic API
+  slug: clickfunnels-contacts-unsubscribedtopic-api
+- baseURL: https://{subdomain}.myclickfunnels.com/api/v2
+  baseurl_source: declared
+  description: '> Duplicate a funnel asynchronously in its current workspace and poll the action for the copied funnel ID. Each action creates a new copy. See the [Funnels Skill](https://accounts.myclickfunnels.com/.'
+  name: ClickFunnels Funnels::Clone Action API
+  slug: clickfunnels-funnels-cloneaction-api
+- baseURL: https://{subdomain}.myclickfunnels.com/api/v2
+  baseurl_source: declared
+  description: Named contact audiences.
+  name: ClickFunnels Segment API
+  slug: clickfunnels-segment-api
+- baseURL: https://{subdomain}.myclickfunnels.com/api/v2
+  baseurl_source: declared
+  description: Branded short links and tracked click statistics.
+  name: ClickFunnels URL Redirect API
+  slug: clickfunnels-urlredirect-api
+- baseURL: https://{subdomain}.myclickfunnels.com/api/v2
+  baseurl_source: declared
+  description: Endpoints that receive purchases from external commerce providers and turn them into ClickFunnels orders.
+  name: ClickFunnels Webhooks::Incoming::External Purchase Endpoint API
+  slug: clickfunnels-webhooks-incoming-externalpurchaseendpoint-api
+- baseURL: https://{subdomain}.myclickfunnels.com/api/v2
+  baseurl_source: declared
+  description: Raw deliveries received by incoming external purchase endpoints and their processing outcomes.
+  name: ClickFunnels Webhooks::Incoming::External Purchase Event API
+  slug: clickfunnels-webhooks-incoming-externalpurchaseevent-api
+- baseURL: https://{subdomain}.myclickfunnels.com/api/v2
+  baseurl_source: declared
+  description: Mappings from provider plan or SKU identifiers to ClickFunnels product variants and prices.
+  name: ClickFunnels Webhooks::Incoming::External Purchase Product Mapping API
+  slug: clickfunnels-webhooks-incoming-externalpurchaseproductmapping-api
+artifact_total: 140
 asyncapis:
 - description: ''
   name: Clickfunnels Webhooks
   slug: clickfunnels-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ClickFunnels API
   slug: open-clickfunnels-api
@@ -574,62 +624,62 @@ common:
   type: License
   url: https://github.com/clickfunnels/cli/blob/main/LICENSE
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/capabilities/clickfunnels-capability-edges.yml
+  href: https://artifacts.apis.io/clickfunnels/capabilities/clickfunnels-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/clickfunnels-capability-edges.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/_original/clickfunnels-api-openapi-original.json
+  href: https://artifacts.apis.io/clickfunnels/openapi/_original/clickfunnels-api-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/clickfunnels-api-openapi-original.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/clickfunnels/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/llms/clickfunnels-llms.txt
+  href: https://artifacts.apis.io/clickfunnels/llms/clickfunnels-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clickfunnels-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/well-known/clickfunnels-well-known.yml
+  href: https://artifacts.apis.io/clickfunnels/well-known/clickfunnels-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/clickfunnels-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/well-known/clickfunnels-api-catalog.json
+  href: https://artifacts.apis.io/clickfunnels/well-known/clickfunnels-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/clickfunnels-api-catalog.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/authentication/clickfunnels-authentication.yml
+  href: https://artifacts.apis.io/clickfunnels/authentication/clickfunnels-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clickfunnels-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/scopes/clickfunnels-scopes.yml
+  href: https://artifacts.apis.io/clickfunnels/scopes/clickfunnels-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/clickfunnels-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/conventions/clickfunnels-conventions.yml
+  href: https://artifacts.apis.io/clickfunnels/conventions/clickfunnels-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clickfunnels-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/errors/clickfunnels-problem-types.yml
+  href: https://artifacts.apis.io/clickfunnels/errors/clickfunnels-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clickfunnels-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/asyncapi/clickfunnels-webhooks.yml
+  href: https://artifacts.apis.io/clickfunnels/asyncapi/clickfunnels-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/clickfunnels-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/lifecycle/clickfunnels-lifecycle.yml
+  href: https://artifacts.apis.io/clickfunnels/lifecycle/clickfunnels-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clickfunnels-lifecycle.yml
@@ -638,67 +688,67 @@ common:
   type: StatusPage
   url: https://status.myclickfunnels.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/changelog/clickfunnels-changelog.yml
+  href: https://artifacts.apis.io/clickfunnels/changelog/clickfunnels-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/clickfunnels-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/rate-limits/clickfunnels-rate-limits.yml
+  href: https://artifacts.apis.io/clickfunnels/rate-limits/clickfunnels-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/clickfunnels-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/plans/clickfunnels-plans-pricing.yml
+  href: https://artifacts.apis.io/clickfunnels/plans/clickfunnels-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/clickfunnels-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/packages/clickfunnels-packages.yml
+  href: https://artifacts.apis.io/clickfunnels/packages/clickfunnels-packages.yml
   title: ''
   type: Packages
   url: packages/clickfunnels-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/packages/clickfunnels-packages.yml
+  href: https://artifacts.apis.io/clickfunnels/packages/clickfunnels-packages.yml
   title: ''
   type: SDKs
   url: packages/clickfunnels-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/cli/clickfunnels-cli.yml
+  href: https://artifacts.apis.io/clickfunnels/cli/clickfunnels-cli.yml
   title: ''
   type: CLI
   url: cli/clickfunnels-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/components/clickfunnels-components.yml
+  href: https://artifacts.apis.io/clickfunnels/components/clickfunnels-components.yml
   title: ''
   type: Components
   url: components/clickfunnels-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/sandbox/clickfunnels-sandbox.yml
+  href: https://artifacts.apis.io/clickfunnels/sandbox/clickfunnels-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/clickfunnels-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/data-model/clickfunnels-data-model.yml
+  href: https://artifacts.apis.io/clickfunnels/data-model/clickfunnels-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clickfunnels-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/conformance/clickfunnels-conformance.yml
+  href: https://artifacts.apis.io/clickfunnels/conformance/clickfunnels-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clickfunnels-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/overlays/clickfunnels-api-overlay.yaml
+  href: https://artifacts.apis.io/clickfunnels/overlays/clickfunnels-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clickfunnels-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/agentic-access/clickfunnels-agentic-access.yml
+  href: https://artifacts.apis.io/clickfunnels/agentic-access/clickfunnels-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/clickfunnels-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/security/clickfunnels-domain-security.yml
+  href: https://artifacts.apis.io/clickfunnels/security/clickfunnels-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clickfunnels-domain-security.yml
@@ -776,13 +826,21 @@ common:
   url: https://apidocs.clickfunnels.com/
 created: '2026-05-11'
 description: 'ClickFunnels is a sales funnel and online business platform that lets entrepreneurs build landing pages, sales funnels, checkout flows, courses, membership sites, communities, blogs and email marketing campaigns without code. The ClickFunnels 2.0 REST API is a 418-operation OpenAPI 3.1 contract covering teams, workspaces, funnels, pages, blogs, products, discounts, orders, invoices, transactions, subscriptions, contacts, courses, communities, forms, workflows, email and analytics, authenticated with a team-scoped Bearer token or with workspace-scoped OAuth 2.0. It is discoverable the correct way: an RFC 9727 api-catalog links the spec, RFC 8414 metadata publishes the OAuth scopes, and sixteen Markdown Agent Skills are served from /.well-known/ for agents driving the API.'
+finops:
+- has_sources: true
+  method: derived
+  name: Clickfunnels Finops
+  primary_unit: account
+  service_category: ''
+  slug: clickfunnels-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clickfunnels.png
 layout: provider
 modified: '2026-08-13'
 name: ClickFunnels
 nav: Providers
 network: true
-overview: 'ClickFunnels publishes 102 API contracts indexed on the [APIs.io](https://apis.io/) network, including Addresses::Country API, Addresses::Region API, Appointments::Scheduled Event API, and 99 more. Tagged areas include Sales Funnels, Landing Pages, E-Commerce, Marketing, and Checkout.
+overview: 'ClickFunnels publishes 112 API contracts indexed on the [APIs.io](https://apis.io/) network, including Addresses::Country API, Addresses::Region API, Appointments::Scheduled Event API, and 109 more. Tagged areas include Sales Funnels, Landing Pages, E-Commerce, Marketing, and Checkout.
 
 
   The ClickFunnels catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -791,9 +849,12 @@ overview: 'ClickFunnels publishes 102 API contracts indexed on the [APIs.io](htt
   ClickFunnels'' developer surface includes authentication, changelog, CLI, sandbox, documentation, API reference, getting-started guide, and 38 more developer resources.'
 plans:
 - name: Clickfunnels Plans Pricing
-  plan_count: 4
+  plan_count: 7
   slug: clickfunnels-plans-pricing
-random_paper: 5
+- name: Clickfunnels Price Estimates
+  plan_count: 0
+  slug: clickfunnels-price-estimates
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Clickfunnels Rate Limits
@@ -805,23 +866,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.9
+  composite: 65.6
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 49.0
+    artifact_dirs: 30
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 60.9
-    developer_ergonomics: 66.7
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 64.9
+    contract_quality: 61.0
+    developer_ergonomics: 85.7
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 64.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -829,7 +890,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 102
+      total: 214
     mcp: derived
     skills: first-party
   regulatory:
@@ -838,13 +899,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/screenshots/clickfunnels-2026-06-20T174514.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/clickfunnels/clickfunnels-2026-06-20T174514.png
 security:
 - kind: authentication
   name: Clickfunnels Authentication
@@ -858,6 +920,40 @@ security:
   name: Clickfunnels Vulnerability Disclosure
   slug: clickfunnels-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 16
+skills:
+- name: clickfunnels-import-external-blog-post
+  slug: clickfunnels-blogs-import-external-post-skill
+- name: clickfunnels-blogs
+  slug: clickfunnels-blogs-skill
+- name: clickfunnels-courses
+  slug: clickfunnels-courses-skill
+- name: clickfunnels-emails
+  slug: clickfunnels-emails-skill
+- name: clickfunnels-funnels
+  slug: clickfunnels-funnels-skill
+- name: clickfunnels-orders
+  slug: clickfunnels-orders-skill
+- name: clickfunnels-page-markup
+  slug: clickfunnels-page-markup-skill
+- name: clickfunnels-pages
+  slug: clickfunnels-pages-skill
+- name: clickfunnels-products
+  slug: clickfunnels-products-skill
+- name: clickfunnels-refine-filters
+  slug: clickfunnels-refine-filters-skill
+- name: clickfunnels-sdk-checkout
+  slug: clickfunnels-sdk-add-checkout-skill
+- name: clickfunnels-sdk-external-page
+  slug: clickfunnels-sdk-create-external-page-skill
+- name: clickfunnels-sdk-migrate-external-page-domain
+  slug: clickfunnels-sdk-migrate-external-page-domain-skill
+- name: clickfunnels-stats
+  slug: clickfunnels-stats-skill
+- name: clickfunnels-subscription-changes
+  slug: clickfunnels-subscription-changes-skill
+- name: clickfunnels-workflows
+  slug: clickfunnels-workflows-skill
 slug: clickfunnels
 tags:
 - Sales Funnels

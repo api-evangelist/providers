@@ -19,7 +19,7 @@ name: Infiot
 nav: Providers
 network: true
 overview: Infiot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SASE, Networking, SD-WAN, and Zero Trust.
-random_paper: 11
+random_paper: 1
 slug: infiot
 tags:
 - Company

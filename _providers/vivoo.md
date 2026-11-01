@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Hosted Universal Commerce Protocol (UCP) shopping MCP server exposed natively by the Shopify-hosted Vivoo storefront: agent-driven catalog search, cart, and buyer-approved checkout. Checkout requires '
@@ -50,32 +52,32 @@ common:
   type: Website
   url: https://vivoo.io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vivoo/refs/heads/main/mcp/vivoo-mcp.yml
+  href: https://artifacts.apis.io/vivoo/mcp/vivoo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/vivoo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vivoo/refs/heads/main/well-known/vivoo-well-known.yml
+  href: https://artifacts.apis.io/vivoo/well-known/vivoo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vivoo-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vivoo/refs/heads/main/llms/vivoo-llms.txt
+  href: https://artifacts.apis.io/vivoo/llms/vivoo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vivoo-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vivoo/refs/heads/main/authentication/vivoo-authentication.yml
+  href: https://artifacts.apis.io/vivoo/authentication/vivoo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vivoo-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vivoo/refs/heads/main/scopes/vivoo-scopes.yml
+  href: https://artifacts.apis.io/vivoo/scopes/vivoo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vivoo-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vivoo/refs/heads/main/security/vivoo-domain-security.yml
+  href: https://artifacts.apis.io/vivoo/security/vivoo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vivoo-domain-security.yml
@@ -111,7 +113,7 @@ overview: 'Vivoo is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Vivoo''s developer surface includes engineering blog, authentication, support, and 9 more developer resources.'
-random_paper: 13
+random_paper: 11
 scopes:
 - name: Vivoo Scopes
   scope_count: 4
@@ -119,7 +121,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.0
+  composite: 19.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -127,15 +129,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 19.4
+  previous_composite: 19.0
   provenance:
     mcp: platform-generated
   regulatory:
@@ -144,14 +146,14 @@ score:
     regime: Health
     regime_id: health
     score: 28.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vivoo/refs/heads/main/screenshots/vivoo-2026-09-02T170145.png
+screenshot: https://apis.io/screenshots/vivoo/vivoo-2026-09-02T170145.png
 security:
 - kind: authentication
   name: Vivoo Authentication

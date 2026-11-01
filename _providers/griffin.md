@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.4
-  scored_at: '2026-10-17'
+  score: 36.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 1
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 97
   slug: griffin-agentic-access
   summary_line: 97 operations · 39 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.griffin.com/v0
   baseurl_source: declared
@@ -185,15 +187,12 @@ apis:
   description: A [workflow](/docs/terms/workflow) determines which checks will be run against a [legal person](#tag/Legal-persons) as part of a [verification](#tag/Verifications)
   name: Griffin Workflows API
   slug: griffin-workflows-api
-artifact_total: 66
+artifact_total: 69
 asyncapis:
 - description: ''
   name: Griffin Webhooks
   slug: griffin-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: The Griffin API keys API
   slug: open-griffin-api-keys-api
@@ -280,37 +279,37 @@ collections:
   slug: open-griffin-workflows-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/rate-limits/griffin-rate-limits.yml
+  href: https://artifacts.apis.io/griffin/rate-limits/griffin-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/griffin-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/rules/griffin-rules.yml
+  href: https://artifacts.apis.io/griffin/rules/griffin-rules.yml
   title: ''
   type: Spectral
   url: rules/griffin-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/vocabulary/griffin-vocabulary.yml
+  href: https://artifacts.apis.io/griffin/vocabulary/griffin-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/griffin-vocabulary.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/hosts/griffin-hosts.yml
+  href: https://artifacts.apis.io/griffin/hosts/griffin-hosts.yml
   title: ''
   type: Hosts
   url: hosts/griffin-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/integrations/griffin-integration-edges.yml
+  href: https://artifacts.apis.io/griffin/integrations/griffin-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/griffin-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/vendors/griffin-vendors.yml
+  href: https://artifacts.apis.io/griffin/vendors/griffin-vendors.yml
   title: ''
   type: Vendors
   url: vendors/griffin-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/packages/griffin-packages.yml
+  href: https://artifacts.apis.io/griffin/packages/griffin-packages.yml
   title: ''
   type: SDKs
   url: packages/griffin-packages.yml
@@ -323,12 +322,12 @@ common:
   type: Leadership
   url: https://griffin.com/team
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/plans/griffin-plans-pricing.yml
+  href: https://artifacts.apis.io/griffin/plans/griffin-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/griffin-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/capabilities/griffin-capability-edges.yml
+  href: https://artifacts.apis.io/griffin/capabilities/griffin-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/griffin-capability-edges.yml
@@ -397,97 +396,105 @@ common:
   type: Postman
   url: https://github.com/griffinbank/griffin-postman
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/openapi/_original/griffin-openapi-original.yml
+  href: https://artifacts.apis.io/griffin/openapi/_original/griffin-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/griffin-openapi-original.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/authentication/griffin-authentication.yml
+  href: https://artifacts.apis.io/griffin/authentication/griffin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/griffin-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/conventions/griffin-conventions.yml
+  href: https://artifacts.apis.io/griffin/conventions/griffin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/griffin-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/errors/griffin-problem-types.yml
+  href: https://artifacts.apis.io/griffin/errors/griffin-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/griffin-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/lifecycle/griffin-lifecycle.yml
+  href: https://artifacts.apis.io/griffin/lifecycle/griffin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/griffin-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/lifecycle/griffin-lifecycle.yml
+  href: https://artifacts.apis.io/griffin/lifecycle/griffin-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/griffin-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/sandbox/griffin-sandbox.yml
+  href: https://artifacts.apis.io/griffin/sandbox/griffin-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/griffin-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/changelog/griffin-changelog.yml
+  href: https://artifacts.apis.io/griffin/changelog/griffin-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/griffin-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/mcp/griffin-mcp.yml
+  href: https://artifacts.apis.io/griffin/mcp/griffin-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/griffin-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/packages/griffin-packages.yml
+  href: https://artifacts.apis.io/griffin/packages/griffin-packages.yml
   title: ''
   type: Packages
   url: packages/griffin-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/asyncapi/griffin-webhooks.yml
+  href: https://artifacts.apis.io/griffin/asyncapi/griffin-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/griffin-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/data-model/griffin-data-model.yml
+  href: https://artifacts.apis.io/griffin/data-model/griffin-data-model.yml
   title: ''
   type: DataModel
   url: data-model/griffin-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/conformance/griffin-conformance.yml
+  href: https://artifacts.apis.io/griffin/conformance/griffin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/griffin-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/llms/griffin-llms.txt
+  href: https://artifacts.apis.io/griffin/llms/griffin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/griffin-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/overlays/griffin-api-overlay.yaml
+  href: https://artifacts.apis.io/griffin/overlays/griffin-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/griffin-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/griffin/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/agentic-access/griffin-agentic-access.yml
+  href: https://artifacts.apis.io/griffin/agentic-access/griffin-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/griffin-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/security/griffin-domain-security.yml
+  href: https://artifacts.apis.io/griffin/security/griffin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/griffin-domain-security.yml
 created: '2026-07-17'
 description: Griffin is a UK-regulated bank (Financial Conduct Authority authorised, Prudential Regulation Authority regulated) offering Banking-as-a-Service via a REST API. Fintechs and businesses embed FSCS-eligible bank accounts, payments (Faster Payments, BACS, CHAPS, book transfers, Confirmation of Payee), automated KYC/KYB onboarding (Verify), client-money and safeguarding accounts, savings accounts, and open banking directly into their own products. The v0 API uses API-key authentication with mandatory HTTP message signatures in live, documented webhooks, a full sandbox, and a first-party MCP server.
+finops:
+- has_sources: true
+  method: derived
+  name: Griffin Finops
+  primary_unit: minimum spend
+  service_category: ''
+  slug: griffin-finops
+  template: false
 image: https://griffin.com/social.png
 layout: provider
 mcp_servers:
@@ -512,7 +519,7 @@ plans:
 - name: Griffin Price Estimates
   plan_count: 0
   slug: griffin-price-estimates
-random_paper: 15
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Griffin Rate Limits
@@ -531,24 +538,29 @@ rules:
     warn: 3
   slug: griffin-rules
 score:
-  band: strong
-  composite: 65.2
+  band: exemplar
+  composite: 67.6
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 62.8
+    artifact_dirs: 31
+    catalog_earned: 65.8
     catalog_earned_first_party: 20.0
-    catalog_gap: 52.3
+    catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.7
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 35.6
-    contract_quality: 61.7
+    contract_quality: 58.3
     developer_ergonomics: 78.0
-    discoverability: 75.0
-    operational_transparency: 71.1
-  previous_composite: 58.5
+    discoverability: 68.3
+    operational_transparency: 73.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -565,13 +577,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/screenshots/griffin-2026-07-25T220332.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/griffin/griffin-2026-07-25T220332.png
 security:
 - kind: authentication
   name: Griffin Authentication
@@ -581,6 +594,14 @@ security:
   name: Griffin Domain Security
   slug: griffin-domain-security
   summary_line: TLSv1.2 · DMARC
+skill_count: 3
+skills:
+- name: griffin-create-and-submit-a-payment
+  slug: griffin-create-and-submit-a-payment
+- name: griffin-onboard-a-legal-person
+  slug: griffin-onboard-a-legal-person
+- name: griffin-open-a-bank-account
+  slug: griffin-open-a-bank-account
 slug: griffin
 tags:
 - Company

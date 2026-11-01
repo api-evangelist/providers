@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.1
-  scored_at: '2026-10-17'
+  score: 41.9
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Demostack webhooks push real-time demo engagement events to any CRM, data warehouse, BI tool, or custom HTTP endpoint. Events are fired when prospects view, interact with, or complete a demo, enabling
@@ -50,12 +52,12 @@ asyncapis:
   slug: demostack-events-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/security/demostack-trust-center.yml
+  href: https://artifacts.apis.io/demostack/security/demostack-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/demostack-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/security/demostack-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/demostack/security/demostack-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/demostack-vulnerability-disclosure.yml
@@ -68,12 +70,12 @@ common:
   type: Compliance
   url: https://www.demostack.com/trust-center
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/security/demostack-domain-security.yml
+  href: https://artifacts.apis.io/demostack/security/demostack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/demostack-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/conformance/demostack-conformance.yml
+  href: https://artifacts.apis.io/demostack/conformance/demostack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/demostack-conformance.yml
@@ -118,12 +120,12 @@ common:
   type: StatusPage
   url: https://status.demostack.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/lifecycle/demostack-lifecycle.yml
+  href: https://artifacts.apis.io/demostack/lifecycle/demostack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/demostack-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/changelog/demostack-changelog.yml
+  href: https://artifacts.apis.io/demostack/changelog/demostack-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/demostack-changelog.yml
@@ -132,65 +134,65 @@ common:
   type: X
   url: https://twitter.com/DemostackHQ
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/plans/demostack-plans-pricing.yml
+  href: https://artifacts.apis.io/demostack/plans/demostack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/demostack-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/rate-limits/demostack-rate-limits.yml
+  href: https://artifacts.apis.io/demostack/rate-limits/demostack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/demostack-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/finops/demostack-finops.yml
+  href: https://artifacts.apis.io/demostack/finops/demostack-finops.yml
   title: ''
   type: FinOps
   url: finops/demostack-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/packages/demostack-packages.yml
+  href: https://artifacts.apis.io/demostack/packages/demostack-packages.yml
   title: ''
   type: Packages
   url: packages/demostack-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/mcp/demostack-mcp.yml
+  href: https://artifacts.apis.io/demostack/mcp/demostack-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/demostack-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/authentication/demostack-authentication.yml
+  href: https://artifacts.apis.io/demostack/authentication/demostack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/demostack-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/scopes/demostack-scopes.yml
+  href: https://artifacts.apis.io/demostack/scopes/demostack-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/demostack-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/asyncapi/demostack-events-webhooks.yml
+  href: https://artifacts.apis.io/demostack/asyncapi/demostack-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/demostack-events-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/well-known/demostack-well-known.yml
+  href: https://artifacts.apis.io/demostack/well-known/demostack-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/demostack-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/well-known/demostack-security.txt
+  href: https://artifacts.apis.io/demostack/well-known/demostack-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/demostack-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/llms/demostack-llms.txt
+  href: https://artifacts.apis.io/demostack/llms/demostack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/demostack-llms.txt
 created: '2026-06-13'
 description: Demostack is an enterprise-grade product simulation and demo automation platform that enables SaaS go-to-market teams to create, deliver, and analyze interactive product demos at scale. The platform provides a patented Cloner technology that converts live product workflows into fully independent demo environments, allowing sales engineers to personalize demo data and product experiences without touching production systems. Demostack exposes webhooks and native CRM integrations to push real-time demo engagement events into Salesforce, HubSpot, Slack, and custom endpoints, enabling revenue teams to measure how demos impact deals. The platform additionally ships a first-party remote MCP server so demo intelligence can be queried through AI assistants such as Claude, ChatGPT, and Gemini using natural language. Demostack publishes no public API reference or OpenAPI definition; its machine-readable surface is the OAuth-protected MCP endpoint and the in-product webhook configuration.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Demostack Finops
   primary_unit: ''
   service_category: ''
@@ -222,7 +224,7 @@ plans:
 - name: Demostack Plans Pricing
   plan_count: 0
   slug: demostack-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Demostack Rate Limits
@@ -234,23 +236,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.0
+  composite: 50.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 48.0
     catalog_earned_first_party: 0.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 53.2
     developer_ergonomics: 28.6
-    discoverability: 75.0
-    operational_transparency: 42.1
-  previous_composite: 50.5
+    discoverability: 65.0
+    operational_transparency: 50.0
+  previous_composite: 50.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -266,14 +268,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/screenshots/demostack-2026-06-20T175910.png
+screenshot: https://apis.io/screenshots/demostack/demostack-2026-06-20T175910.png
 security:
 - kind: authentication
   name: Demostack Authentication

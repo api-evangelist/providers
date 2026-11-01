@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: DBOS Transact is a durable execution library that decorates application functions with workflow, step, transaction, scheduled, and Kafka consumer semantics, persisting all state to Postgres so workflo
@@ -45,17 +47,17 @@ apis:
 artifact_total: 11
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dbos/refs/heads/main/plans/dbos-plans-pricing.yml
+  href: https://artifacts.apis.io/dbos/plans/dbos-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dbos-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dbos/refs/heads/main/rate-limits/dbos-rate-limits.yml
+  href: https://artifacts.apis.io/dbos/rate-limits/dbos-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dbos-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dbos/refs/heads/main/finops/dbos-finops.yml
+  href: https://artifacts.apis.io/dbos/finops/dbos-finops.yml
   title: ''
   type: FinOps
   url: finops/dbos-finops.yml
@@ -76,7 +78,7 @@ common:
   type: License
   url: https://github.com/dbos-inc/dbos-transact-py/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dbos/refs/heads/main/security/dbos-domain-security.yml
+  href: https://artifacts.apis.io/dbos/security/dbos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dbos-domain-security.yml
@@ -113,17 +115,17 @@ common:
   type: Discord
   url: https://discord.gg/dbos
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dbos/refs/heads/main/json-ld/dbos-context.jsonld
+  href: https://artifacts.apis.io/dbos/json-ld/dbos-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dbos-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dbos/refs/heads/main/vocabulary/dbos-vocabulary.yml
+  href: https://artifacts.apis.io/dbos/vocabulary/dbos-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/dbos-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dbos/refs/heads/main/rules/dbos-rules.yml
+  href: https://artifacts.apis.io/dbos/rules/dbos-rules.yml
   title: ''
   type: Rules
   url: rules/dbos-rules.yml
@@ -141,7 +143,7 @@ finops:
 - has_sources: false
   method: generated
   name: Dbos Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: dbos-finops
   template: true
@@ -175,7 +177,7 @@ plans:
 - name: Dbos Plans Pricing
   plan_count: 3
   slug: dbos-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Dbos Rate Limits
@@ -206,7 +208,7 @@ rules:
   slug: dbos-rules
 score:
   band: thin
-  composite: 27.7
+  composite: 27.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 57.4
@@ -214,32 +216,29 @@ score:
     catalog_gap: 57.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 13.9
-    developer_ergonomics: 28.6
+    developer_ergonomics: 35.7
     discoverability: 63.3
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 29.0
+    operational_transparency: 28.9
+  previous_composite: 27.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dbos/refs/heads/main/screenshots/dbos-2026-06-20T175736.png
+screenshot: https://apis.io/screenshots/dbos/dbos-2026-06-20T175736.png
 security:
 - kind: domain-security
   name: Dbos Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -70,32 +72,32 @@ common:
   type: PrivacyPolicy
   url: https://docs.triumpharcade.com/privacy-policy-multi-product
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/triumph/refs/heads/main/llms/triumph-llms.txt
+  href: https://artifacts.apis.io/triumph/llms/triumph-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/triumph-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/triumph/refs/heads/main/packages/triumph-packages.yml
+  href: https://artifacts.apis.io/triumph/packages/triumph-packages.yml
   title: ''
   type: Packages
   url: packages/triumph-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/triumph/refs/heads/main/packages/triumph-packages.yml
+  href: https://artifacts.apis.io/triumph/packages/triumph-packages.yml
   title: ''
   type: SDKs
   url: packages/triumph-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/triumph/refs/heads/main/authentication/triumph-authentication.yml
+  href: https://artifacts.apis.io/triumph/authentication/triumph-authentication.yml
   title: ''
   type: Authentication
   url: authentication/triumph-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/triumph/refs/heads/main/sandbox/triumph-sandbox.yml
+  href: https://artifacts.apis.io/triumph/sandbox/triumph-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/triumph-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/triumph/refs/heads/main/security/triumph-domain-security.yml
+  href: https://artifacts.apis.io/triumph/security/triumph-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/triumph-domain-security.yml
@@ -111,10 +113,10 @@ overview: 'Triumph is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Triumph''s developer surface includes documentation, getting-started guide, signup flow, authentication, sandbox, and 9 more developer resources.'
-random_paper: 7
+random_paper: 9
 score:
   band: emerging
-  composite: 19.4
+  composite: 23.5
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -122,29 +124,29 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 47.6
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 19.3
+    developer_ergonomics: 57.1
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 23.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/triumph/refs/heads/main/screenshots/triumph-2026-09-02T164308.png
+screenshot: https://apis.io/screenshots/triumph/triumph-2026-09-02T164308.png
 security:
 - kind: authentication
   name: Triumph Authentication

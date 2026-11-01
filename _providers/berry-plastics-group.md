@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 12
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/berry-plastics-group/refs/heads/main/security/berry-plastics-group-domain-security.yml
+  href: https://artifacts.apis.io/berry-plastics-group/security/berry-plastics-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/berry-plastics-group-domain-security.yml
@@ -115,7 +117,7 @@ press:
 - date: ''
   title: Berry Plastics Shares Details of Financial Performance and Plasti...
   url: https://www.industrialinfo.com/news/article/berry-plastics-shares-details-of-financial-performance-and-plastics-industry--231672
-random_paper: 16
+random_paper: 22
 score:
   band: minimal
   composite: 0.0
@@ -142,14 +144,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/berry-plastics-group/refs/heads/main/screenshots/berry-plastics-group-2026-06-20T173147.png
+screenshot: https://apis.io/screenshots/berry-plastics-group/berry-plastics-group-2026-06-20T173147.png
 security:
 - kind: domain-security
   name: Berry Plastics Group Domain Security

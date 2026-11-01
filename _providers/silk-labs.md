@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,27 +71,27 @@ common:
   type: Documentation
   url: https://github.com/silklabs/silk/tree/master/docs/tutorial
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/silk-labs/refs/heads/main/packages/silk-labs-packages.yml
+  href: https://artifacts.apis.io/silk-labs/packages/silk-labs-packages.yml
   title: ''
   type: Packages
   url: packages/silk-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/silk-labs/refs/heads/main/packages/silk-labs-packages.yml
+  href: https://artifacts.apis.io/silk-labs/packages/silk-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/silk-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/silk-labs/refs/heads/main/cli/silk-labs-cli.yml
+  href: https://artifacts.apis.io/silk-labs/cli/silk-labs-cli.yml
   title: ''
   type: CLI
   url: cli/silk-labs-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/silk-labs/refs/heads/main/llms/silk-labs-llms.txt
+  href: https://artifacts.apis.io/silk-labs/llms/silk-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/silk-labs-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silk-labs/refs/heads/main/security/silk-labs-domain-security.yml
+  href: https://artifacts.apis.io/silk-labs/security/silk-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/silk-labs-domain-security.yml
@@ -105,12 +107,12 @@ overview: 'Silk Labs is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Silk Labs'' developer surface includes documentation, CLI, and 11 more developer resources.'
-random_paper: 18
+random_paper: 10
 score:
-  band: emerging
-  composite: 12.1
+  band: minimal
+  composite: 8.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -122,26 +124,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 55.4
-    operational_transparency: 2.6
-  open_source:
-    applies: true
-    score: 40.0
-  previous_composite: 12.1
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 8.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/silk-labs/refs/heads/main/screenshots/silk-labs-2026-09-02T155516.png
+screenshot: https://apis.io/screenshots/silk-labs/silk-labs-2026-09-02T155516.png
 security:
 - kind: domain-security
   name: Silk Labs Domain Security

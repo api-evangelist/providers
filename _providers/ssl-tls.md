@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -75,11 +77,8 @@ apis:
   description: Certificate revocation
   name: SSL/TLS Revocation API
   slug: ssl-tls-revocation-api
-artifact_total: 28
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SSL/TLS Certificate Management API
   slug: open-ssl-tls-certificate-management
@@ -100,42 +99,42 @@ collections:
   slug: open-ssl-tls-revocation-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/plans/ssl-tls-plans-pricing.yml
+  href: https://artifacts.apis.io/ssl-tls/plans/ssl-tls-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ssl-tls-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/rate-limits/ssl-tls-rate-limits.yml
+  href: https://artifacts.apis.io/ssl-tls/rate-limits/ssl-tls-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ssl-tls-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/finops/ssl-tls-finops.yml
+  href: https://artifacts.apis.io/ssl-tls/finops/ssl-tls-finops.yml
   title: ''
   type: FinOps
   url: finops/ssl-tls-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/capabilities/ssl-tls-capability-edges.yml
+  href: https://artifacts.apis.io/ssl-tls/capabilities/ssl-tls-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ssl-tls-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/agentic-access/ssl-tls-agentic-access.yml
+  href: https://artifacts.apis.io/ssl-tls/agentic-access/ssl-tls-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ssl-tls-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/security/ssl-tls-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ssl-tls/security/ssl-tls-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ssl-tls-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/security/ssl-tls-domain-security.yml
+  href: https://artifacts.apis.io/ssl-tls/security/ssl-tls-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ssl-tls-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/authentication/ssl-tls-authentication.yml
+  href: https://artifacts.apis.io/ssl-tls/authentication/ssl-tls-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ssl-tls-authentication.yml
@@ -226,7 +225,7 @@ plans:
 - name: Ssl Tls Plans Pricing
   plan_count: 1
   slug: ssl-tls-plans-pricing
-random_paper: 18
+random_paper: 2
 rate_limits:
 - limit_count: 7
   name: Ssl Tls Rate Limits
@@ -257,7 +256,7 @@ rules:
   slug: ssl-tls-rules
 score:
   band: thin
-  composite: 30.5
+  composite: 32.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 59.0
@@ -265,15 +264,15 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 52.2
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 32.0
+    operational_transparency: 23.7
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -287,13 +286,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/screenshots/ssl-tls-2026-06-20T194435.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ssl-tls/ssl-tls-2026-06-20T194435.png
 security:
 - kind: authentication
   name: Ssl Tls Authentication

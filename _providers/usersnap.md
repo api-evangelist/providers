@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.1
-  scored_at: '2026-10-17'
+  score: 46.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,7 +68,7 @@ apis:
   description: Submit feedback
   name: Usersnap Submit API
   slug: usersnap-submit-api
-artifact_total: 21
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Usersnap Webhooks
@@ -85,9 +87,6 @@ collections:
   name: Usersnap feedback submit API
   slug: postman-usersnap-submit-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Usersnap feedback API
   slug: open-usersnap-feedback-api
 - collection_type: open
@@ -100,6 +99,11 @@ collections:
   name: Usersnap feedback submit API
   slug: open-usersnap-submit-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/usersnap/plans/usersnap-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/usersnap-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -109,12 +113,12 @@ common:
   type: BlogRSS
   url: https://usersnap.com/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/capabilities/usersnap-capability-edges.yml
+  href: https://artifacts.apis.io/usersnap/capabilities/usersnap-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/usersnap-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/overlays/usersnap-api-overlay.yaml
+  href: https://artifacts.apis.io/usersnap/overlays/usersnap-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/usersnap-api-overlay.yaml
@@ -123,17 +127,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/usersnap/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/agentic-access/usersnap-agentic-access.yml
+  href: https://artifacts.apis.io/usersnap/agentic-access/usersnap-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/usersnap-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/security/usersnap-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/usersnap/security/usersnap-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/usersnap-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/security/usersnap-domain-security.yml
+  href: https://artifacts.apis.io/usersnap/security/usersnap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/usersnap-domain-security.yml
@@ -198,7 +202,7 @@ common:
   type: Security
   url: https://usersnap.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/security/usersnap-trust-center.yml
+  href: https://artifacts.apis.io/usersnap/security/usersnap-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/usersnap-trust-center.yml
@@ -211,87 +215,95 @@ common:
   type: ChangeLog
   url: https://portal.usersnap.com/changelog/2bdcb520-7c12-4691-b9fe-94784b8bd8d6
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/changelog/usersnap-changelog.yml
+  href: https://artifacts.apis.io/usersnap/changelog/usersnap-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/usersnap-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/llms/usersnap-llms.txt
+  href: https://artifacts.apis.io/usersnap/llms/usersnap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/usersnap-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/mcp/usersnap-mcp.yml
+  href: https://artifacts.apis.io/usersnap/mcp/usersnap-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/usersnap-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/packages/usersnap-packages.yml
+  href: https://artifacts.apis.io/usersnap/packages/usersnap-packages.yml
   title: ''
   type: Packages
   url: packages/usersnap-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/packages/usersnap-packages.yml
+  href: https://artifacts.apis.io/usersnap/packages/usersnap-packages.yml
   title: ''
   type: SDKs
   url: packages/usersnap-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/well-known/usersnap-well-known.yml
+  href: https://artifacts.apis.io/usersnap/well-known/usersnap-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/usersnap-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/authentication/usersnap-authentication.yml
+  href: https://artifacts.apis.io/usersnap/authentication/usersnap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/usersnap-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/scopes/usersnap-scopes.yml
+  href: https://artifacts.apis.io/usersnap/scopes/usersnap-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/usersnap-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/errors/usersnap-problem-types.yml
+  href: https://artifacts.apis.io/usersnap/errors/usersnap-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/usersnap-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/conventions/usersnap-conventions.yml
+  href: https://artifacts.apis.io/usersnap/conventions/usersnap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/usersnap-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/conformance/usersnap-conformance.yml
+  href: https://artifacts.apis.io/usersnap/conformance/usersnap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/usersnap-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/lifecycle/usersnap-lifecycle.yml
+  href: https://artifacts.apis.io/usersnap/lifecycle/usersnap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/usersnap-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/data-model/usersnap-data-model.yml
+  href: https://artifacts.apis.io/usersnap/data-model/usersnap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/usersnap-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/components/usersnap-components.yml
+  href: https://artifacts.apis.io/usersnap/components/usersnap-components.yml
   title: ''
   type: Components
   url: components/usersnap-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/asyncapi/usersnap-webhooks.yml
+  href: https://artifacts.apis.io/usersnap/asyncapi/usersnap-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/usersnap-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/usersnap/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Usersnap is a user feedback platform from Perg/Linz, Austria that lets product, development, customer success, and marketing teams capture, organize, and act on user feedback with embeddable widgets for screenshots, screen recordings, ratings, and surveys. Beyond the widgets, Usersnap ships a plan-gated platform REST API (JWT bearer auth) for submitting and querying feedback, HMAC-signed webhooks, an official npm browser package, and a hosted MCP server (mcp.usersnap.com) secured with OAuth 2.1 + PKCE so AI assistants can query feedback and create opportunities.
+finops:
+- has_sources: true
+  method: derived
+  name: Usersnap Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: usersnap-finops
+  template: false
 image: https://github.com/usersnap.png
 layout: provider
 mcp_servers:
@@ -308,32 +320,44 @@ overview: 'Usersnap publishes 4 API contracts indexed on the [APIs.io](https://a
   The Usersnap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Usersnap''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 35 more developer resources.'
-random_paper: 1
+  Usersnap''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 36 more developer resources.'
+plans:
+- name: Usersnap Plans Pricing
+  plan_count: 5
+  slug: usersnap-plans-pricing
+- name: Usersnap Price Estimates
+  plan_count: 0
+  slug: usersnap-price-estimates
+random_paper: 17
 scopes:
 - name: Usersnap Scopes
   scope_count: 2
   slug: usersnap-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: strong
-  composite: 54.6
+  band: exemplar
+  composite: 66.5
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 28
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 57.1
-    developer_ergonomics: 53.0
-    discoverability: 75.0
-    operational_transparency: 44.7
-  previous_composite: 54.5
+    developer_ergonomics: 67.3
+    discoverability: 65.0
+    operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - austria
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 58.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -350,13 +374,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/screenshots/usersnap-2026-08-17T082655.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/usersnap/usersnap-2026-08-17T082655.png
 security:
 - kind: authentication
   name: Usersnap Authentication
@@ -374,6 +399,12 @@ security:
   name: Usersnap Trust Center
   slug: usersnap-trust-center
   summary_line: trust center published
+skill_count: 2
+skills:
+- name: Pull and filter feedback from Usersnap
+  slug: usersnap-pull-and-filter-feedback
+- name: Submit user feedback to a Usersnap project
+  slug: usersnap-submit-feedback
 slug: usersnap
 tags:
 - Company

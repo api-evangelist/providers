@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.1
-  scored_at: '2026-10-17'
+  score: 41.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 10
@@ -92,11 +94,8 @@ apis:
   description: Security Functions
   name: PlanSource Security API
   slug: plansource-security-api
-artifact_total: 29
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Plansource Admin ACA API
   slug: open-plansource-aca-api
@@ -146,12 +145,12 @@ common:
   type: BlogRSS
   url: https://plansource.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/capabilities/plansource-capability-edges.yml
+  href: https://artifacts.apis.io/plansource/capabilities/plansource-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/plansource-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/overlays/plansource-admin-api-overlay.yaml
+  href: https://artifacts.apis.io/plansource/overlays/plansource-admin-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/plansource-admin-api-overlay.yaml
@@ -200,7 +199,7 @@ common:
   type: PrivacyPolicy
   url: https://plansource.com/privacy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/security/plansource-trust-center.yml
+  href: https://artifacts.apis.io/plansource/security/plansource-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/plansource-trust-center.yml
@@ -209,77 +208,77 @@ common:
   type: Compliance
   url: https://trust.plansource.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/llms/plansource-llms.txt
+  href: https://artifacts.apis.io/plansource/llms/plansource-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/plansource-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/well-known/plansource-well-known.yml
+  href: https://artifacts.apis.io/plansource/well-known/plansource-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/plansource-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/mcp/plansource-mcp.yml
+  href: https://artifacts.apis.io/plansource/mcp/plansource-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/plansource-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/plansource/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/security/plansource-domain-security.yml
+  href: https://artifacts.apis.io/plansource/security/plansource-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/plansource-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/authentication/plansource-authentication.yml
+  href: https://artifacts.apis.io/plansource/authentication/plansource-authentication.yml
   title: ''
   type: Authentication
   url: authentication/plansource-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/scopes/plansource-scopes.yml
+  href: https://artifacts.apis.io/plansource/scopes/plansource-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/plansource-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/conformance/plansource-conformance.yml
+  href: https://artifacts.apis.io/plansource/conformance/plansource-conformance.yml
   title: ''
   type: Conformance
   url: conformance/plansource-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/lifecycle/plansource-lifecycle.yml
+  href: https://artifacts.apis.io/plansource/lifecycle/plansource-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/plansource-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/sandbox/plansource-sandbox.yml
+  href: https://artifacts.apis.io/plansource/sandbox/plansource-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/plansource-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/conventions/plansource-conventions.yml
+  href: https://artifacts.apis.io/plansource/conventions/plansource-conventions.yml
   title: ''
   type: Conventions
   url: conventions/plansource-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/errors/plansource-problem-types.yml
+  href: https://artifacts.apis.io/plansource/errors/plansource-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/plansource-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/data-model/plansource-data-model.yml
+  href: https://artifacts.apis.io/plansource/data-model/plansource-data-model.yml
   title: ''
   type: DataModel
   url: data-model/plansource-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/examples/plansource-examples.yml
+  href: https://artifacts.apis.io/plansource/examples/plansource-examples.yml
   title: ''
   type: Examples
   url: examples/plansource-examples.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/agentic-access/plansource-agentic-access.yml
+  href: https://artifacts.apis.io/plansource/agentic-access/plansource-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/plansource-agentic-access.yml
@@ -300,7 +299,7 @@ overview: 'PlanSource publishes 9 API contracts indexed on the [APIs.io](https:/
 
 
   PlanSource''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, sandbox, and 25 more developer resources.'
-random_paper: 6
+random_paper: 4
 scopes:
 - name: Plansource Scopes
   scope_count: 8
@@ -308,7 +307,7 @@ scopes:
   summary_line: 8 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 45.5
+  composite: 50.8
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -316,15 +315,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 56.9
-    developer_ergonomics: 49.4
-    discoverability: 75.0
+    developer_ergonomics: 70.8
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 45.4
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -347,13 +346,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/screenshots/plansource-2026-08-17T081304.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/plansource/plansource-2026-08-17T081304.png
 security:
 - kind: authentication
   name: Plansource Authentication
@@ -367,6 +367,16 @@ security:
   name: Plansource Trust Center
   slug: plansource-trust-center
   summary_line: SOC 2 Type 2, ISO/IEC 27001:2022, HIPAA, CCPA, 23 NYCRR 500
+skill_count: 4
+skills:
+- name: Create, stack, and terminate benefit coverages
+  slug: plansource-manage-coverages
+- name: Return carrier EOI decisions to PlanSource
+  slug: plansource-process-eoi-decisions
+- name: Pull payroll deductions back into the payroll system
+  slug: plansource-pull-payroll-deductions
+- name: Sync employee demographics from an HCM into PlanSource
+  slug: plansource-sync-employee-demographics
 slug: plansource
 tags:
 - Employee Benefits

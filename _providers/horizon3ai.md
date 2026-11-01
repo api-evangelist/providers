@@ -25,27 +25,34 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.4
-  scored_at: '2026-10-17'
+  score: 43.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The NodeZero API is a publicly accessible GraphQL API that exposes a subset of the Horizon3.ai Portal: schedule and control autonomous pentest operations, and read pentests, ops, weaknesses, attack pa'
   name: NodeZero GraphQL API
   slug: nodezero-graphql-api
-artifact_total: 8
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Horizon3Ai Webhooks
   slug: horizon3ai-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/horizon3ai/plans/horizon3ai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/horizon3ai-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -127,92 +134,100 @@ common:
   type: Security
   url: https://horizon3.ai/vulnerability-disclosure-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/mcp/horizon3ai-mcp.yml
+  href: https://artifacts.apis.io/horizon3ai/mcp/horizon3ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/horizon3ai-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/cli/horizon3ai-cli.yml
+  href: https://artifacts.apis.io/horizon3ai/cli/horizon3ai-cli.yml
   title: ''
   type: CLI
   url: cli/horizon3ai-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/packages/horizon3ai-packages.yml
+  href: https://artifacts.apis.io/horizon3ai/packages/horizon3ai-packages.yml
   title: ''
   type: Packages
   url: packages/horizon3ai-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/authentication/horizon3ai-authentication.yml
+  href: https://artifacts.apis.io/horizon3ai/authentication/horizon3ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/horizon3ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/scopes/horizon3ai-scopes.yml
+  href: https://artifacts.apis.io/horizon3ai/scopes/horizon3ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/horizon3ai-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/well-known/horizon3ai-well-known.yml
+  href: https://artifacts.apis.io/horizon3ai/well-known/horizon3ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/horizon3ai-well-known.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/changelog/horizon3ai-changelog.yml
+  href: https://artifacts.apis.io/horizon3ai/changelog/horizon3ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/horizon3ai-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/lifecycle/horizon3ai-lifecycle.yml
+  href: https://artifacts.apis.io/horizon3ai/lifecycle/horizon3ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/horizon3ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/conventions/horizon3ai-conventions.yml
+  href: https://artifacts.apis.io/horizon3ai/conventions/horizon3ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/horizon3ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/errors/horizon3ai-problem-types.yml
+  href: https://artifacts.apis.io/horizon3ai/errors/horizon3ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/horizon3ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/conformance/horizon3ai-conformance.yml
+  href: https://artifacts.apis.io/horizon3ai/conformance/horizon3ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/horizon3ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/data-model/horizon3ai-data-model.yml
+  href: https://artifacts.apis.io/horizon3ai/data-model/horizon3ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/horizon3ai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/asyncapi/horizon3ai-webhooks.yml
+  href: https://artifacts.apis.io/horizon3ai/asyncapi/horizon3ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/horizon3ai-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/security/horizon3ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/horizon3ai/security/horizon3ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/horizon3ai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/security/horizon3ai-domain-security.yml
+  href: https://artifacts.apis.io/horizon3ai/security/horizon3ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/horizon3ai-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/llms/horizon3ai-llms.txt
+  href: https://artifacts.apis.io/horizon3ai/llms/horizon3ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/horizon3ai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/horizon3ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Horizon3.ai is a cybersecurity company whose NodeZero platform delivers autonomous penetration testing and continuous security posture management. NodeZero safely attacks your internal, external, cloud, and hybrid environments the way a real adversary would, proving exploitable attack paths, prioritizing the fixes that matter, and verifying that remediations actually work. Horizon3.ai exposes a publicly documented GraphQL API (the NodeZero API) plus an h3-cli command-line tool and a hosted Model Context Protocol (MCP) server, letting teams schedule pentests, retrieve findings, weaknesses, attack paths, credentials, and host inventory, and wire results into CI/CD, ticketing (Jira, ServiceNow), and agentic workflows. NodeZero Federal is FedRAMP High authorized for public-sector use.
+finops:
+- has_sources: true
+  method: derived
+  name: Horizon3Ai Finops
+  primary_unit: asset
+  service_category: ''
+  slug: horizon3ai-finops
+  template: false
 image: https://www.horizon3.ai/wp-content/uploads/2023/08/1200x627-NodeZero-UI_Sankey.jpg
 layout: provider
 mcp_servers:
@@ -229,32 +244,36 @@ overview: 'Horizon3.ai is listed with 1 API on the [APIs.io](https://apis.io/) n
   The Horizon3.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Horizon3.ai''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, signup flow, CLI, and 30 more developer resources.'
-random_paper: 18
+  Horizon3.ai''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, signup flow, CLI, and 31 more developer resources.'
+plans:
+- name: Horizon3Ai Plans Pricing
+  plan_count: 9
+  slug: horizon3ai-plans-pricing
+random_paper: 22
 scopes:
 - name: Horizon3Ai Scopes
   scope_count: 2
   slug: horizon3ai-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: developing
-  composite: 49.8
+  band: strong
+  composite: 63.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 47.4
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 49.4
-    discoverability: 75.0
-    operational_transparency: 50.0
-  previous_composite: 49.7
+    developer_ergonomics: 61.3
+    discoverability: 65.0
+    operational_transparency: 60.5
+  previous_composite: 55.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -269,14 +288,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/screenshots/horizon3ai-2026-07-25T221429.png
+screenshot: https://apis.io/screenshots/horizon3ai/horizon3ai-2026-07-25T221429.png
 security:
 - kind: authentication
   name: Horizon3Ai Authentication
@@ -294,6 +313,14 @@ security:
   name: Horizon3Ai Trust Center
   slug: horizon3ai-trust-center
   summary_line: FedRAMP High, SOC 2, CMMC 2.0, NIST SP 800-53 Rev. 5
+skill_count: 3
+skills:
+- name: Run an autonomous NodeZero pentest and fetch the report
+  slug: horizon3ai-run-autonomous-pentest
+- name: Schedule recurring NodeZero pentests
+  slug: horizon3ai-schedule-recurring-pentests
+- name: Triage and re-verify NodeZero weaknesses
+  slug: horizon3ai-triage-weaknesses
 slug: horizon3ai
 tags:
 - Company

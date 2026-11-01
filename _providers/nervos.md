@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.9
-  scored_at: '2026-10-17'
+  score: 29.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Public JSON-RPC 2.0 interface to Nervos CKB nodes for querying chain state (blocks, transactions, cells), submitting signed transactions, and subscribing to new-tip events over WebSocket. Unauthentica
@@ -70,87 +72,87 @@ common:
   type: ChangeLog
   url: https://github.com/nervosnetwork/ckb/releases
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/packages/nervos-packages.yml
+  href: https://artifacts.apis.io/nervos/packages/nervos-packages.yml
   title: ''
   type: Packages
   url: packages/nervos-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/packages/nervos-packages.yml
+  href: https://artifacts.apis.io/nervos/packages/nervos-packages.yml
   title: ''
   type: SDKs
   url: packages/nervos-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/cli/nervos-cli.yml
+  href: https://artifacts.apis.io/nervos/cli/nervos-cli.yml
   title: ''
   type: CLI
   url: cli/nervos-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/mcp/nervos-mcp.yml
+  href: https://artifacts.apis.io/nervos/mcp/nervos-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nervos-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/llms/nervos-llms.txt
+  href: https://artifacts.apis.io/nervos/llms/nervos-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nervos-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nervos/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/authentication/nervos-authentication.yml
+  href: https://artifacts.apis.io/nervos/authentication/nervos-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nervos-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/conventions/nervos-conventions.yml
+  href: https://artifacts.apis.io/nervos/conventions/nervos-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nervos-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/lifecycle/nervos-lifecycle.yml
+  href: https://artifacts.apis.io/nervos/lifecycle/nervos-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nervos-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/lifecycle/nervos-lifecycle.yml
+  href: https://artifacts.apis.io/nervos/lifecycle/nervos-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/nervos-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/conformance/nervos-conformance.yml
+  href: https://artifacts.apis.io/nervos/conformance/nervos-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nervos-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/sandbox/nervos-sandbox.yml
+  href: https://artifacts.apis.io/nervos/sandbox/nervos-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nervos-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/well-known/nervos-well-known.yml
+  href: https://artifacts.apis.io/nervos/well-known/nervos-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nervos-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/security/nervos-domain-security.yml
+  href: https://artifacts.apis.io/nervos/security/nervos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nervos-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/errors/nervos-error-codes.yml
+  href: https://artifacts.apis.io/nervos/errors/nervos-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/nervos-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/asyncapi/nervos-ckb-subscriptions.yml
+  href: https://artifacts.apis.io/nervos/asyncapi/nervos-ckb-subscriptions.yml
   title: ''
   type: Webhooks
   url: asyncapi/nervos-ckb-subscriptions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/changelog/nervos-changelog.yml
+  href: https://artifacts.apis.io/nervos/changelog/nervos-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nervos-changelog.yml
@@ -173,26 +175,26 @@ overview: 'Nervos is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Nervos'' developer surface includes documentation, getting-started guide, API reference, changelog, CLI, authentication, sandbox, and 16 more developer resources.'
-random_paper: 9
+random_paper: 21
 score:
   band: thin
-  composite: 37.9
+  composite: 37.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 69.0
-    discoverability: 75.0
-    operational_transparency: 34.2
-  previous_composite: 37.8
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 37.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -203,14 +205,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nervos/refs/heads/main/screenshots/nervos-2026-10-11T191448.png
+screenshot: https://apis.io/screenshots/nervos/nervos-2026-10-11T191448.png
 security:
 - kind: authentication
   name: Nervos Authentication

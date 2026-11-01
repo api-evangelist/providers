@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 18.8
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://sandbox.nory.ai/app/v1
   baseurl_source: declared
@@ -88,14 +90,10 @@ apis:
   description: The Templates API from Nory — 5 operation(s) for templates.
   name: Nory Templates API
   slug: nory-templates-api
-artifact_total: 13
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
+artifact_total: 14
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/capabilities/nory-capability-edges.yml
+  href: https://artifacts.apis.io/nory/capabilities/nory-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nory-capability-edges.yml
@@ -124,72 +122,72 @@ common:
   type: TermsOfService
   url: https://nory.ai/legal/terms-and-conditions
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/openapi/_original/nory-middleware-openapi.json
+  href: https://artifacts.apis.io/nory/openapi/_original/nory-middleware-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/nory-middleware-openapi.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/overlays/nory-middleware-overlay.yaml
+  href: https://artifacts.apis.io/nory/overlays/nory-middleware-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nory-middleware-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/authentication/nory-authentication.yml
+  href: https://artifacts.apis.io/nory/authentication/nory-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nory-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/errors/nory-problem-types.yml
+  href: https://artifacts.apis.io/nory/errors/nory-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nory-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/conventions/nory-conventions.yml
+  href: https://artifacts.apis.io/nory/conventions/nory-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nory-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/data-model/nory-data-model.yml
+  href: https://artifacts.apis.io/nory/data-model/nory-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nory-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/mcp/nory-mcp.yml
+  href: https://artifacts.apis.io/nory/mcp/nory-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nory-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/conformance/nory-conformance.yml
+  href: https://artifacts.apis.io/nory/conformance/nory-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nory-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/lifecycle/nory-lifecycle.yml
+  href: https://artifacts.apis.io/nory/lifecycle/nory-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nory-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/sandbox/nory-sandbox.yml
+  href: https://artifacts.apis.io/nory/sandbox/nory-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nory-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/well-known/nory-well-known.yml
+  href: https://artifacts.apis.io/nory/well-known/nory-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nory-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/security/nory-domain-security.yml
+  href: https://artifacts.apis.io/nory/security/nory-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nory-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nory/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/llms/nory-llms.txt
+  href: https://artifacts.apis.io/nory/llms/nory-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nory-llms.txt
@@ -205,10 +203,10 @@ overview: 'Nory publishes 10 API contracts indexed on the [APIs.io](https://apis
 
 
   Nory''s developer surface includes engineering blog, support, authentication, sandbox, and 17 more developer resources.'
-random_paper: 16
+random_paper: 0
 score:
   band: thin
-  composite: 30.1
+  composite: 31.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -218,13 +216,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 39.2
     developer_ergonomics: 35.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 30.1
+  previous_composite: 31.4
   provenance:
     conformance: derived
     contracts:
@@ -240,13 +238,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/screenshots/nory-2026-08-07T185535.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nory/nory-2026-08-07T185535.png
 security:
 - kind: authentication
   name: Nory Authentication
@@ -256,6 +255,12 @@ security:
   name: Nory Domain Security
   slug: nory-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Ingest items and record an inventory count
+  slug: nory-inventory-count
+- name: Generate and accept a recommended purchase order
+  slug: nory-recommended-order
 slug: nory
 tags:
 - Company

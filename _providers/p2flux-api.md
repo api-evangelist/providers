@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.6
-  scored_at: '2026-10-17'
+  score: 35.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.p2flux.com
@@ -56,15 +58,20 @@ apis:
   description: The Subscriptions API from P2Flux API — 1 operation(s) for subscriptions.
   name: P2Flux API Subscriptions API
   slug: p2flux-api-subscriptions-api
-artifact_total: 11
+artifact_total: 16
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/overlays/p2flux-api-openapi-overlay.yaml
+  href: https://artifacts.apis.io/p2flux-api/capabilities/p2flux-api-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/p2flux-api-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/p2flux-api/overlays/p2flux-api-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/p2flux-api-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/security/p2flux-api-domain-security.yml
+  href: https://artifacts.apis.io/p2flux-api/security/p2flux-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/p2flux-api-domain-security.yml
@@ -117,7 +124,7 @@ common:
   type: LLMsTxt
   url: https://p2flux.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/well-known/p2flux-api-well-known.yml
+  href: https://artifacts.apis.io/p2flux-api/well-known/p2flux-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/p2flux-api-well-known.yml
@@ -126,87 +133,95 @@ common:
   type: APIOnboarding
   url: https://p2flux.com/.well-known/api-onboarding
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/packages/p2flux-api-packages.yml
+  href: https://artifacts.apis.io/p2flux-api/packages/p2flux-api-packages.yml
   title: ''
   type: Packages
   url: packages/p2flux-api-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/packages/p2flux-api-packages.yml
+  href: https://artifacts.apis.io/p2flux-api/packages/p2flux-api-packages.yml
   title: ''
   type: SDKs
   url: packages/p2flux-api-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/components/p2flux-api-components.yml
+  href: https://artifacts.apis.io/p2flux-api/components/p2flux-api-components.yml
   title: ''
   type: Components
   url: components/p2flux-api-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/sandbox/p2flux-api-sandbox.yml
+  href: https://artifacts.apis.io/p2flux-api/sandbox/p2flux-api-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/p2flux-api-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/rate-limits/p2flux-api-rate-limits.yml
+  href: https://artifacts.apis.io/p2flux-api/rate-limits/p2flux-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/p2flux-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/plans/p2flux-api-plans-pricing.yml
+  href: https://artifacts.apis.io/p2flux-api/plans/p2flux-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/p2flux-api-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/conventions/p2flux-api-conventions.yml
+  href: https://artifacts.apis.io/p2flux-api/conventions/p2flux-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/p2flux-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/conventions/p2flux-api-conventions.yml
+  href: https://artifacts.apis.io/p2flux-api/conventions/p2flux-api-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/p2flux-api-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/authentication/p2flux-api-authentication.yml
+  href: https://artifacts.apis.io/p2flux-api/authentication/p2flux-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/p2flux-api-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/errors/p2flux-api-problem-types.yml
+  href: https://artifacts.apis.io/p2flux-api/errors/p2flux-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/p2flux-api-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/errors/p2flux-api-decline-codes.yml
+  href: https://artifacts.apis.io/p2flux-api/errors/p2flux-api-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/p2flux-api-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/conformance/p2flux-api-conformance.yml
+  href: https://artifacts.apis.io/p2flux-api/conformance/p2flux-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/p2flux-api-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/lifecycle/p2flux-api-lifecycle.yml
+  href: https://artifacts.apis.io/p2flux-api/lifecycle/p2flux-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/p2flux-api-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/mcp/p2flux-api-mcp.yml
+  href: https://artifacts.apis.io/p2flux-api/mcp/p2flux-api-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/p2flux-api-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/data-model/p2flux-api-data-model.yml
+  href: https://artifacts.apis.io/p2flux-api/data-model/p2flux-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/p2flux-api-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/p2flux-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-09-15'
 description: Non-custodial USDC payments API on the Base blockchain. Provides REST endpoints for one-time USDC payment intents with on-chain verification, recurring/subscription payments with merchant-triggered charges, and refunds. Payments are authorized per-request via HMAC-signed capabilities plus the payer's EIP-712 wallet signature — no signup, no dashboard, no issued credentials, and no custody of funds.
+finops:
+- has_sources: true
+  method: derived
+  name: P2Flux Api Finops
+  primary_unit: payment
+  service_category: ''
+  slug: p2flux-api-finops
+  template: false
 image: https://p2flux.com/assets/apple-touch-icon.png
 layout: provider
 mcp_servers:
@@ -220,35 +235,38 @@ network: true
 overview: 'P2Flux API publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cancellation API, One-time payments API, Recurring payments API, and 3 more. Tagged areas include Payments, Payment API, Cryptocurrency, Stablecoins, and USDC.
 
 
-  P2Flux API''s developer surface includes documentation, getting-started guide, API reference, pricing, support, sandbox, authentication, and 25 more developer resources.'
+  P2Flux API''s developer surface includes documentation, getting-started guide, API reference, pricing, support, sandbox, authentication, and 26 more developer resources.'
 plans:
 - name: P2Flux Api Plans Pricing
-  plan_count: 0
+  plan_count: 3
   slug: p2flux-api-plans-pricing
-random_paper: 0
+- name: P2Flux Api Price Estimates
+  plan_count: 0
+  slug: p2flux-api-price-estimates
+random_paper: 8
 rate_limits:
 - limit_count: 13
   name: P2Flux Api Rate Limits
   slug: p2flux-api-rate-limits
 score:
-  band: developing
-  composite: 44.6
+  band: strong
+  composite: 54.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 46.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 69.0
+    artifact_dirs: 23
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.2
   facets:
-    access_clarity: 26.3
+    access_clarity: 71.1
     contract_governance: 4.5
     contract_quality: 46.4
     developer_ergonomics: 70.8
-    discoverability: 67.9
-    operational_transparency: 50.0
-  previous_composite: 44.5
+    discoverability: 66.7
+    operational_transparency: 52.6
+  previous_composite: 47.2
   provenance:
     conformance: derived
     contracts:
@@ -264,13 +282,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/screenshots/p2flux-api-2026-10-11T112252.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/p2flux-api/p2flux-api-2026-10-11T112252.png
 security:
 - kind: authentication
   name: P2Flux Api Authentication
@@ -280,6 +299,14 @@ security:
   name: P2Flux Api Domain Security
   slug: p2flux-api-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: p2flux-recurring-subscription
+  slug: p2flux-api-recurring-subscription
+- name: p2flux-refund-payment
+  slug: p2flux-api-refund-payment
+- name: p2flux-take-one-time-payment
+  slug: p2flux-api-take-one-time-payment
 slug: p2flux-api
 tags:
 - Payments

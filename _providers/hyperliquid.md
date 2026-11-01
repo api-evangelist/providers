@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,15 +68,12 @@ apis:
   description: The Info API from Hyperliquid — 1 operation(s) for info.
   name: Hyperliquid Info API
   slug: hyperliquid-info-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: AsyncAPI 2.6 specification for the Hyperliquid public WebSocket API. Clients connect to wss://api.hyperliquid.xyz/ws (mainnet) or wss://api.hyperliquid-testnet.xyz/ws (testnet) and send subscribe / un
   name: Hyperliquid WebSocket API
   slug: hyperliquid-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Hyperliquid Info API
   slug: open-hyperliquid-info-api
@@ -83,17 +82,17 @@ collections:
   slug: open-hyperliquid
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/plans/hyperliquid-plans-pricing.yml
+  href: https://artifacts.apis.io/hyperliquid/plans/hyperliquid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hyperliquid-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/rate-limits/hyperliquid-rate-limits.yml
+  href: https://artifacts.apis.io/hyperliquid/rate-limits/hyperliquid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hyperliquid-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/finops/hyperliquid-finops.yml
+  href: https://artifacts.apis.io/hyperliquid/finops/hyperliquid-finops.yml
   title: ''
   type: FinOps
   url: finops/hyperliquid-finops.yml
@@ -114,12 +113,12 @@ common:
   type: License
   url: https://github.com/hyperliquid-dex/hyperliquid-python-sdk/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/agentic-access/hyperliquid-agentic-access.yml
+  href: https://artifacts.apis.io/hyperliquid/agentic-access/hyperliquid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hyperliquid-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/security/hyperliquid-domain-security.yml
+  href: https://artifacts.apis.io/hyperliquid/security/hyperliquid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hyperliquid-domain-security.yml
@@ -182,7 +181,7 @@ plans:
 - name: Hyperliquid Plans Pricing
   plan_count: 1
   slug: hyperliquid-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Hyperliquid Rate Limits
@@ -202,7 +201,7 @@ rules:
   slug: hyperliquid-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 31.3
+  composite: 29.1
   coverage:
     artifact_dirs: 13
     catalog_earned: 44.8
@@ -210,7 +209,7 @@ score:
     catalog_gap: 70.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 11.4
@@ -218,10 +217,7 @@ score:
     developer_ergonomics: 14.3
     discoverability: 66.1
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 60.0
-  previous_composite: 36.8
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -235,13 +231,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 11.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/screenshots/hyperliquid-2026-06-20T183045.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hyperliquid/hyperliquid-2026-06-20T183045.png
 security:
 - kind: domain-security
   name: Hyperliquid Domain Security

@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-17'
+  score: 17.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.zo.computer
@@ -45,11 +47,8 @@ apis:
   description: The Personas API from Zocomputer — 1 operation(s) for personas.
   name: Zocomputer Personas API
   slug: zocomputer-personas-api
-artifact_total: 7
+artifact_total: 6
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Zo AI API
   slug: open-zocomputer-ai-api
@@ -58,12 +57,12 @@ collections:
   slug: open-zocomputer-personas-api
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zocomputer/refs/heads/main/security/zocomputer-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zocomputer/security/zocomputer-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zocomputer-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zocomputer/refs/heads/main/security/zocomputer-domain-security.yml
+  href: https://artifacts.apis.io/zocomputer/security/zocomputer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zocomputer-domain-security.yml
@@ -76,10 +75,10 @@ name: Zocomputer
 nav: Providers
 network: true
 overview: 'Zocomputer publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: AI API and Personas API. Tagged areas include Company.'
-random_paper: 12
+random_paper: 8
 score:
   band: emerging
-  composite: 15.3
+  composite: 16.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 22.0
@@ -87,21 +86,15 @@ score:
     catalog_gap: 93.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 47.4
     developer_ergonomics: 0.0
-    discoverability: 46.4
-    operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
-  previous_composite: 15.2
+    discoverability: 39.3
+    operational_transparency: 10.5
+  previous_composite: 16.7
   provenance:
     contracts:
       callable: 100.0
@@ -114,12 +107,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Zocomputer Domain Security

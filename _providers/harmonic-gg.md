@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 6.3
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: gRPC bundle-submission interface for searchers. Authenticate with a Solana keypair (challenge-response to Bearer tokens), then submit atomic transaction bundles with revert protection. Backwards-compa
@@ -42,7 +44,7 @@ apis:
 - description: 'gRPC services the Harmonic validator clients (Salsa/Samba) use to bind to a block builder: subscribe to packet and bundle streams, set the scheduling strategy, discover block engine endpoints, report '
   name: Harmonic Validator API (gRPC)
   slug: harmonic-validator-api-grpc
-artifact_total: 4
+artifact_total: 5
 common:
 - group: operate
   title: ''
@@ -89,72 +91,72 @@ common:
   type: TermsOfService
   url: https://harmonic.gg/terms-and-conditions
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/grpc/harmonic-gg-searcher-searcher.proto
+  href: https://artifacts.apis.io/harmonic-gg/grpc/harmonic-gg-searcher-searcher.proto
   title: ''
   type: Protobuf
   url: grpc/harmonic-gg-searcher-searcher.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/grpc/harmonic-gg-validator-block_engine.proto
+  href: https://artifacts.apis.io/harmonic-gg/grpc/harmonic-gg-validator-block_engine.proto
   title: ''
   type: Protobuf
   url: grpc/harmonic-gg-validator-block_engine.proto
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/llms/harmonic-gg-llms.txt
+  href: https://artifacts.apis.io/harmonic-gg/llms/harmonic-gg-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/harmonic-gg-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/authentication/harmonic-gg-authentication.yml
+  href: https://artifacts.apis.io/harmonic-gg/authentication/harmonic-gg-authentication.yml
   title: ''
   type: Authentication
   url: authentication/harmonic-gg-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/sandbox/harmonic-gg-sandbox.yml
+  href: https://artifacts.apis.io/harmonic-gg/sandbox/harmonic-gg-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/harmonic-gg-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/conventions/harmonic-gg-conventions.yml
+  href: https://artifacts.apis.io/harmonic-gg/conventions/harmonic-gg-conventions.yml
   title: ''
   type: Conventions
   url: conventions/harmonic-gg-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/conformance/harmonic-gg-conformance.yml
+  href: https://artifacts.apis.io/harmonic-gg/conformance/harmonic-gg-conformance.yml
   title: ''
   type: Conformance
   url: conformance/harmonic-gg-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/errors/harmonic-gg-error-codes.yml
+  href: https://artifacts.apis.io/harmonic-gg/errors/harmonic-gg-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/harmonic-gg-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/lifecycle/harmonic-gg-lifecycle.yml
+  href: https://artifacts.apis.io/harmonic-gg/lifecycle/harmonic-gg-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/harmonic-gg-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/data-model/harmonic-gg-data-model.yml
+  href: https://artifacts.apis.io/harmonic-gg/data-model/harmonic-gg-data-model.yml
   title: ''
   type: DataModel
   url: data-model/harmonic-gg-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/mcp/harmonic-gg-mcp.yml
+  href: https://artifacts.apis.io/harmonic-gg/mcp/harmonic-gg-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/harmonic-gg-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/harmonic-gg/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/packages/harmonic-gg-packages.yml
+  href: https://artifacts.apis.io/harmonic-gg/packages/harmonic-gg-packages.yml
   title: ''
   type: Packages
   url: packages/harmonic-gg-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/security/harmonic-gg-domain-security.yml
+  href: https://artifacts.apis.io/harmonic-gg/security/harmonic-gg-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/harmonic-gg-domain-security.yml
@@ -170,10 +172,10 @@ overview: 'Harmonic GG is listed with 2 APIs on the [APIs.io](https://apis.io/) 
 
 
   Harmonic GG''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 18 more developer resources.'
-random_paper: 0
+random_paper: 20
 score:
-  band: thin
-  composite: 29.9
+  band: emerging
+  composite: 26.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -181,15 +183,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 24.0
+    contract_quality: 0.0
     developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 29.8
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 26.1
   provenance:
     conformance: derived
     mcp: derived
@@ -200,14 +202,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/screenshots/harmonic-gg-2026-07-25T220716.png
+screenshot: https://apis.io/screenshots/harmonic-gg/harmonic-gg-2026-07-25T220716.png
 security:
 - kind: authentication
   name: Harmonic Gg Authentication
@@ -217,6 +219,10 @@ security:
   name: Harmonic Gg Domain Security
   slug: harmonic-gg-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 1
+skills:
+- name: Send a searcher bundle to Harmonic
+  slug: harmonic-gg-send-bundle
 slug: harmonic-gg
 tags:
 - Company

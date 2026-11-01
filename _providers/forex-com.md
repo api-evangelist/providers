@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -86,11 +88,8 @@ apis:
   description: Authenticate and manage API sessions for the FOREX.com trading platform. A POST request to the session endpoint with username, password, and AppKey returns a session ID used as a header credential for
   name: FOREX.com Session API
   slug: forex-com-session-api
-artifact_total: 41
+artifact_total: 40
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: FOREX.com REST Account API
   slug: open-forex-com-account-api
@@ -114,42 +113,42 @@ collections:
   slug: open-forex-com-session-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/plans/forex-com-plans-pricing.yml
+  href: https://artifacts.apis.io/forex-com/plans/forex-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/forex-com-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/rate-limits/forex-com-rate-limits.yml
+  href: https://artifacts.apis.io/forex-com/rate-limits/forex-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/forex-com-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/finops/forex-com-finops.yml
+  href: https://artifacts.apis.io/forex-com/finops/forex-com-finops.yml
   title: ''
   type: FinOps
   url: finops/forex-com-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/capabilities/forex-com-capability-edges.yml
+  href: https://artifacts.apis.io/forex-com/capabilities/forex-com-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/forex-com-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/agentic-access/forex-com-agentic-access.yml
+  href: https://artifacts.apis.io/forex-com/agentic-access/forex-com-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/forex-com-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/security/forex-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/forex-com/security/forex-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/forex-com-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/security/forex-com-domain-security.yml
+  href: https://artifacts.apis.io/forex-com/security/forex-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/forex-com-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/authentication/forex-com-authentication.yml
+  href: https://artifacts.apis.io/forex-com/authentication/forex-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/forex-com-authentication.yml
@@ -250,14 +249,14 @@ plans:
 - name: Forex Com Plans Pricing
   plan_count: 3
   slug: forex-com-plans-pricing
-random_paper: 10
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Forex Com Rate Limits
   slug: forex-com-rate-limits
 score:
-  band: thin
-  composite: 37.8
+  band: developing
+  composite: 39.9
   coverage:
     artifact_dirs: 13
     catalog_earned: 38.0
@@ -265,15 +264,15 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 52.8
     developer_ergonomics: 47.6
     discoverability: 48.2
-    operational_transparency: 7.9
-  previous_composite: 46.1
+    operational_transparency: 18.4
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     contracts:
@@ -287,13 +286,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/screenshots/forex-com-2026-06-20T181434.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/forex-com/forex-com-2026-06-20T181434.png
 security:
 - kind: authentication
   name: Forex Com Authentication

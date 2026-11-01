@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -44,7 +46,7 @@ common:
   type: BlogRSS
   url: https://www.mindfoundry.ai/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mind-foundry/refs/heads/main/security/mind-foundry-domain-security.yml
+  href: https://artifacts.apis.io/mind-foundry/security/mind-foundry-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mind-foundry-domain-security.yml
@@ -69,37 +71,37 @@ common:
   type: PrivacyPolicy
   url: https://www.mindfoundry.ai/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mind-foundry/refs/heads/main/packages/mind-foundry-packages.yml
+  href: https://artifacts.apis.io/mind-foundry/packages/mind-foundry-packages.yml
   title: ''
   type: Packages
   url: packages/mind-foundry-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mind-foundry/refs/heads/main/conformance/mind-foundry-conformance.yml
+  href: https://artifacts.apis.io/mind-foundry/conformance/mind-foundry-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mind-foundry-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mind-foundry/refs/heads/main/conformance/mind-foundry-conformance.yml
+  href: https://artifacts.apis.io/mind-foundry/conformance/mind-foundry-conformance.yml
   title: ''
   type: Compliance
   url: conformance/mind-foundry-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mind-foundry/refs/heads/main/lifecycle/mind-foundry-lifecycle.yml
+  href: https://artifacts.apis.io/mind-foundry/lifecycle/mind-foundry-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mind-foundry-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mind-foundry/refs/heads/main/llms/mind-foundry-llms.txt
+  href: https://artifacts.apis.io/mind-foundry/llms/mind-foundry-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mind-foundry-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mind-foundry/refs/heads/main/plans/mind-foundry-plans-pricing.yml
+  href: https://artifacts.apis.io/mind-foundry/plans/mind-foundry-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mind-foundry-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mind-foundry/refs/heads/main/rate-limits/mind-foundry-rate-limits.yml
+  href: https://artifacts.apis.io/mind-foundry/rate-limits/mind-foundry-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mind-foundry-rate-limits.yml
@@ -136,29 +138,29 @@ plans:
 - name: Mind Foundry Plans Pricing
   plan_count: 0
   slug: mind-foundry-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Mind Foundry Rate Limits
   slug: mind-foundry-rate-limits
 score:
   band: emerging
-  composite: 12.9
+  composite: 13.3
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -167,7 +169,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 12.8
+  previous_composite: 13.3
   provenance:
     conformance: first-party
   regulatory:
@@ -176,14 +178,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mind-foundry/refs/heads/main/screenshots/mind-foundry-2026-09-02T150545.png
+screenshot: https://apis.io/screenshots/mind-foundry/mind-foundry-2026-09-02T150545.png
 security:
 - kind: domain-security
   name: Mind Foundry Domain Security

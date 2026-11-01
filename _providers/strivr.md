@@ -14,7 +14,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-17'
+  score: 8.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Strivr Software Development Kit for Unity makes Unity projects compatible with the Strivr Player in-headset software and with the Strivr Portal. It is used to create and score experiences, track c
@@ -90,77 +92,77 @@ common:
   type: TrustCenter
   url: https://trust.strivr.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/strivr/refs/heads/main/security/strivr-trust-center.yml
+  href: https://artifacts.apis.io/strivr/security/strivr-trust-center.yml
   title: ''
   type: Compliance
   url: security/strivr-trust-center.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/strivr/refs/heads/main/packages/strivr-packages.yml
+  href: https://artifacts.apis.io/strivr/packages/strivr-packages.yml
   title: ''
   type: Packages
   url: packages/strivr-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/strivr/refs/heads/main/packages/strivr-packages.yml
+  href: https://artifacts.apis.io/strivr/packages/strivr-packages.yml
   title: ''
   type: SDKs
   url: packages/strivr-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/strivr/refs/heads/main/authentication/strivr-authentication.yml
+  href: https://artifacts.apis.io/strivr/authentication/strivr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/strivr-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strivr/refs/heads/main/conventions/strivr-conventions.yml
+  href: https://artifacts.apis.io/strivr/conventions/strivr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/strivr-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strivr/refs/heads/main/conformance/strivr-conformance.yml
+  href: https://artifacts.apis.io/strivr/conformance/strivr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/strivr-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strivr/refs/heads/main/lifecycle/strivr-lifecycle.yml
+  href: https://artifacts.apis.io/strivr/lifecycle/strivr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/strivr-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/strivr/refs/heads/main/changelog/strivr-changelog.yml
+  href: https://artifacts.apis.io/strivr/changelog/strivr-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/strivr-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/strivr/refs/heads/main/sandbox/strivr-sandbox.yml
+  href: https://artifacts.apis.io/strivr/sandbox/strivr-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/strivr-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strivr/refs/heads/main/components/strivr-components.yml
+  href: https://artifacts.apis.io/strivr/components/strivr-components.yml
   title: ''
   type: Components
   url: components/strivr-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strivr/refs/heads/main/data-model/strivr-data-model.yml
+  href: https://artifacts.apis.io/strivr/data-model/strivr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/strivr-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/strivr/refs/heads/main/plans/strivr-plans-pricing.yml
+  href: https://artifacts.apis.io/strivr/plans/strivr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/strivr-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/strivr/refs/heads/main/rate-limits/strivr-rate-limits.yml
+  href: https://artifacts.apis.io/strivr/rate-limits/strivr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/strivr-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/strivr/refs/heads/main/llms/strivr-llms.txt
+  href: https://artifacts.apis.io/strivr/llms/strivr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/strivr-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/strivr/refs/heads/main/security/strivr-domain-security.yml
+  href: https://artifacts.apis.io/strivr/security/strivr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/strivr-domain-security.yml
@@ -180,14 +182,14 @@ plans:
 - name: Strivr Plans Pricing
   plan_count: 0
   slug: strivr-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Strivr Rate Limits
   slug: strivr-rate-limits
 score:
   band: thin
-  composite: 34.3
+  composite: 35.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -200,10 +202,10 @@ score:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 54.8
-    discoverability: 73.2
+    developer_ergonomics: 64.3
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 34.3
+  previous_composite: 35.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -213,14 +215,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/strivr/refs/heads/main/screenshots/strivr-2026-09-02T161019.png
+screenshot: https://apis.io/screenshots/strivr/strivr-2026-09-02T161019.png
 security:
 - kind: authentication
   name: Strivr Authentication

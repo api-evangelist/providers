@@ -4,6 +4,6 @@ layout: provider
 name: dhcp
 nav: Providers
 network: true
-random_paper: 19
+random_paper: 7
 slug: dhcp
 ---

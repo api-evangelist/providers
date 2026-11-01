@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The AWS S3-compatible object storage API for Cubbit DS3. Supports bucket create/delete/list, object upload/download/copy/delete, multipart upload, object versioning, object lock (COMPLIANCE and GOVERN
@@ -46,7 +48,7 @@ common:
   type: BlogRSS
   url: https://blog.cubbit.io/rss/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/security/cubbit-domain-security.yml
+  href: https://artifacts.apis.io/cubbit/security/cubbit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cubbit-domain-security.yml
@@ -103,52 +105,52 @@ common:
   type: PrivacyPolicy
   url: https://www.cubbit.io/legal/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/authentication/cubbit-authentication.yml
+  href: https://artifacts.apis.io/cubbit/authentication/cubbit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cubbit-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/lifecycle/cubbit-lifecycle.yml
+  href: https://artifacts.apis.io/cubbit/lifecycle/cubbit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cubbit-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/conventions/cubbit-conventions.yml
+  href: https://artifacts.apis.io/cubbit/conventions/cubbit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cubbit-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/errors/cubbit-error-codes.yml
+  href: https://artifacts.apis.io/cubbit/errors/cubbit-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/cubbit-error-codes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/packages/cubbit-packages.yml
+  href: https://artifacts.apis.io/cubbit/packages/cubbit-packages.yml
   title: ''
   type: Packages
   url: packages/cubbit-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/cli/cubbit-cli.yml
+  href: https://artifacts.apis.io/cubbit/cli/cubbit-cli.yml
   title: ''
   type: CLI
   url: cli/cubbit-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/sandbox/cubbit-sandbox.yml
+  href: https://artifacts.apis.io/cubbit/sandbox/cubbit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cubbit-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/data-model/cubbit-data-model.yml
+  href: https://artifacts.apis.io/cubbit/data-model/cubbit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cubbit-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/llms/cubbit-llms.txt
+  href: https://artifacts.apis.io/cubbit/llms/cubbit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cubbit-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/conformance/cubbit-conformance.yml
+  href: https://artifacts.apis.io/cubbit/conformance/cubbit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cubbit-conformance.yml
@@ -157,12 +159,12 @@ common:
   type: Compliance
   url: https://www.cubbit.io/legal/certifications
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/security/cubbit-trust-center.yml
+  href: https://artifacts.apis.io/cubbit/security/cubbit-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cubbit-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/security/cubbit-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cubbit/security/cubbit-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cubbit-vulnerability-disclosure.yml
@@ -182,10 +184,10 @@ overview: 'Cubbit is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Cubbit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 17
+random_paper: 9
 score:
-  band: thin
-  composite: 39.0
+  band: developing
+  composite: 42.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -195,13 +197,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 21.1
-  previous_composite: 39.0
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 42.3
   provenance:
     conformance: first-party
   regulatory:
@@ -216,14 +218,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/screenshots/cubbit-2026-07-25T210852.png
+screenshot: https://apis.io/screenshots/cubbit/cubbit-2026-07-25T210852.png
 security:
 - kind: authentication
   name: Cubbit Authentication

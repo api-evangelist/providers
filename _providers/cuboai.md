@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,77 +25,77 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cuboai/refs/heads/main/conformance/cuboai-conformance.yml
+  href: https://artifacts.apis.io/cuboai/conformance/cuboai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cuboai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cuboai/refs/heads/main/llms/cuboai-llms.txt
+  href: https://artifacts.apis.io/cuboai/llms/cuboai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cuboai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cuboai/refs/heads/main/mcp/cuboai-mcp.yml
+  href: https://artifacts.apis.io/cuboai/mcp/cuboai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cuboai-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuboai/refs/heads/main/well-known/cuboai-tw-security.txt
+  href: https://artifacts.apis.io/cuboai/well-known/cuboai-tw-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cuboai-tw-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuboai/refs/heads/main/well-known/cuboai-security.txt
+  href: https://artifacts.apis.io/cuboai/well-known/cuboai-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cuboai-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuboai/refs/heads/main/well-known/cuboai-jp-security.txt
+  href: https://artifacts.apis.io/cuboai/well-known/cuboai-jp-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cuboai-jp-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuboai/refs/heads/main/well-known/cuboai-fr-security.txt
+  href: https://artifacts.apis.io/cuboai/well-known/cuboai-fr-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cuboai-fr-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuboai/refs/heads/main/well-known/cuboai-de-security.txt
+  href: https://artifacts.apis.io/cuboai/well-known/cuboai-de-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cuboai-de-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuboai/refs/heads/main/well-known/cuboai-ca-security.txt
+  href: https://artifacts.apis.io/cuboai/well-known/cuboai-ca-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cuboai-ca-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuboai/refs/heads/main/well-known/cuboai-au-security.txt
+  href: https://artifacts.apis.io/cuboai/well-known/cuboai-au-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cuboai-au-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuboai/refs/heads/main/well-known/cuboai-api-security.txt
+  href: https://artifacts.apis.io/cuboai/well-known/cuboai-api-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cuboai-api-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cuboai/refs/heads/main/well-known/cuboai-well-known.yml
+  href: https://artifacts.apis.io/cuboai/well-known/cuboai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cuboai-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cuboai/refs/heads/main/hosts/cuboai-hosts.yml
+  href: https://artifacts.apis.io/cuboai/hosts/cuboai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cuboai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cuboai/refs/heads/main/vendors/cuboai-vendors.yml
+  href: https://artifacts.apis.io/cuboai/vendors/cuboai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cuboai-vendors.yml
@@ -114,12 +116,12 @@ common:
   type: Newsroom
   url: https://us.getcubo.com/blogs/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuboai/refs/heads/main/security/cuboai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cuboai/security/cuboai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cuboai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuboai/refs/heads/main/security/cuboai-domain-security.yml
+  href: https://artifacts.apis.io/cuboai/security/cuboai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cuboai-domain-security.yml
@@ -159,10 +161,10 @@ overview: 'Cuboai is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cuboai''s developer surface includes support, documentation, engineering blog, and 20 more developer resources.'
-random_paper: 11
+random_paper: 3
 score:
   band: emerging
-  composite: 15.5
+  composite: 14.5
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -170,13 +172,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 60.0
+    discoverability: 50.0
     operational_transparency: 10.5
+  previous_composite: 14.5
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -190,8 +194,9 @@ score:
     regime: Health
     regime_id: health
     score: 15.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Cabela's offers an online storefront for hunting, fishing, camping, and outdoor gear, along with store locator, customer service, and loyalty program pages. No public developer API is currently docume
@@ -43,27 +45,27 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cabelas/refs/heads/main/plans/cabelas-plans-pricing.yml
+  href: https://artifacts.apis.io/cabelas/plans/cabelas-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cabelas-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cabelas/refs/heads/main/rate-limits/cabelas-rate-limits.yml
+  href: https://artifacts.apis.io/cabelas/rate-limits/cabelas-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cabelas-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cabelas/refs/heads/main/finops/cabelas-finops.yml
+  href: https://artifacts.apis.io/cabelas/finops/cabelas-finops.yml
   title: ''
   type: FinOps
   url: finops/cabelas-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cabelas/refs/heads/main/security/cabelas-domain-security.yml
+  href: https://artifacts.apis.io/cabelas/security/cabelas-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cabelas-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cabelas/refs/heads/main/llms/cabelas-llms.txt
+  href: https://artifacts.apis.io/cabelas/llms/cabelas-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cabelas-llms.txt
@@ -113,7 +115,7 @@ finops:
 - has_sources: false
   method: generated
   name: Cabelas Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: cabelas-finops
   template: true
@@ -147,14 +149,14 @@ press:
 - date: ''
   title: B+E Brokers $324 million Cabela's Sale-leaseback ...
   url: https://www.24-7pressrelease.com/press-release/463191/be-brokers-324-million-cabelas-sale-leaseback-through-proprietary-digital-platform
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Cabelas Rate Limits
   slug: cabelas-rate-limits
 score:
-  band: emerging
-  composite: 11.4
+  band: minimal
+  composite: 10.7
   coverage:
     artifact_dirs: 13
     catalog_earned: 32.0
@@ -162,29 +164,29 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 12.9
+  previous_composite: 10.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cabelas/refs/heads/main/screenshots/cabelas-2026-06-20T173836.png
+screenshot: https://apis.io/screenshots/cabelas/cabelas-2026-06-20T173836.png
 security:
 - kind: domain-security
   name: Cabelas Domain Security

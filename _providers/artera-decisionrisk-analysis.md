@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/artera-decisionrisk-analysis/refs/heads/main/hosts/artera-decisionrisk-analysis-hosts.yml
+  href: https://artifacts.apis.io/artera-decisionrisk-analysis/hosts/artera-decisionrisk-analysis-hosts.yml
   title: ''
   type: Hosts
   url: hosts/artera-decisionrisk-analysis-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/artera-decisionrisk-analysis/refs/heads/main/vendors/artera-decisionrisk-analysis-vendors.yml
+  href: https://artifacts.apis.io/artera-decisionrisk-analysis/vendors/artera-decisionrisk-analysis-vendors.yml
   title: ''
   type: Vendors
   url: vendors/artera-decisionrisk-analysis-vendors.yml
@@ -54,12 +56,12 @@ common:
   type: Newsroom
   url: https://artera.ai/news/mind-the-gap
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artera-decisionrisk-analysis/refs/heads/main/security/artera-decisionrisk-analysis-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/artera-decisionrisk-analysis/security/artera-decisionrisk-analysis-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/artera-decisionrisk-analysis-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artera-decisionrisk-analysis/refs/heads/main/security/artera-decisionrisk-analysis-domain-security.yml
+  href: https://artifacts.apis.io/artera-decisionrisk-analysis/security/artera-decisionrisk-analysis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/artera-decisionrisk-analysis-domain-security.yml
@@ -111,12 +113,12 @@ overview: 'Artera Decisionrisk Analysis is profiled on the [APIs.io](https://api
 
 
   Artera Decisionrisk Analysis'' developer surface includes documentation, API reference, getting-started guide, support, and 11 more developer resources.'
-random_paper: 2
+random_paper: 4
 score:
   band: emerging
   composite: 21.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -137,14 +139,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/artera-decisionrisk-analysis/refs/heads/main/screenshots/artera-decisionrisk-analysis-2026-10-11T100410.png
+screenshot: https://apis.io/screenshots/artera-decisionrisk-analysis/artera-decisionrisk-analysis-2026-10-11T100410.png
 security:
 - kind: domain-security
   name: Artera Decisionrisk Analysis Domain Security

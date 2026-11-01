@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 9
 apis:
 - description: Asynchronous payouts designed for Money Transfer Organizations (MTOs) and disbursement partners. Partners create payments to mobile money wallets, cash pickup points, and bank accounts; results are de
@@ -65,12 +67,12 @@ apis:
 artifact_total: 11
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onafriq/refs/heads/main/security/onafriq-trust-center.yml
+  href: https://artifacts.apis.io/onafriq/security/onafriq-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/onafriq-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onafriq/refs/heads/main/security/onafriq-domain-security.yml
+  href: https://artifacts.apis.io/onafriq/security/onafriq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onafriq-domain-security.yml
@@ -171,10 +173,10 @@ overview: 'Onafriq is listed with 9 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Onafriq''s developer surface includes developer portal, documentation, engineering blog, and 20 more developer resources.'
-random_paper: 4
+random_paper: 8
 score:
   band: emerging
-  composite: 11.0
+  composite: 11.3
   coverage:
     artifact_dirs: 4
     catalog_earned: 35.0
@@ -189,7 +191,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 21.4
     discoverability: 62.5
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -199,21 +201,21 @@ score:
     - africa
     - europe
     - united-kingdom-ireland
-  previous_composite: 11.0
+  previous_composite: 11.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/onafriq/refs/heads/main/screenshots/onafriq-2026-06-20T190708.png
+screenshot: https://apis.io/screenshots/onafriq/onafriq-2026-06-20T190708.png
 security:
 - kind: domain-security
   name: Onafriq Domain Security

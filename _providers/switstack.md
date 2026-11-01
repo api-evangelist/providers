@@ -14,7 +14,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-17'
+  score: 31.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 1
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 125
   slug: switstack-agentic-access
   summary_line: 125 operations · 85 acting · 1 human-in-the-loop
-api_count: 4
+api_count: 3
 apis:
 - baseURL: https://switcloud.switstack.io/
   baseurl_source: declared
@@ -97,30 +99,30 @@ arazzos:
 - description: 'The backend half of a Switcloud card-present transaction: authenticate as a basic/machine user, create a Payment against a POI and POIConfig, wait for the on-device leg, then read the completed transa'
   name: Take a Switcloud payment and reconcile it
   slug: switstack-take-a-payment
-artifact_total: 17
+artifact_total: 23
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/capabilities/switstack-capability-edges.yml
+  href: https://artifacts.apis.io/switstack/capabilities/switstack-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/switstack-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/overlays/switstack-switcloud-overlay.yaml
+  href: https://artifacts.apis.io/switstack/overlays/switstack-switcloud-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/switstack-switcloud-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/overlays/switstack-swittest-overlay.yaml
+  href: https://artifacts.apis.io/switstack/overlays/switstack-swittest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/switstack-swittest-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/agentic-access/switstack-agentic-access.yml
+  href: https://artifacts.apis.io/switstack/agentic-access/switstack-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/switstack-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/scopes/switstack-scopes.yml
+  href: https://artifacts.apis.io/switstack/scopes/switstack-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/switstack-scopes.yml
@@ -169,82 +171,82 @@ common:
   type: License
   url: https://docs.switstack.io/moka/license/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/authentication/switstack-authentication.yml
+  href: https://artifacts.apis.io/switstack/authentication/switstack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/switstack-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/conventions/switstack-conventions.yml
+  href: https://artifacts.apis.io/switstack/conventions/switstack-conventions.yml
   title: ''
   type: Conventions
   url: conventions/switstack-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/errors/switstack-problem-types.yml
+  href: https://artifacts.apis.io/switstack/errors/switstack-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/switstack-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/data-model/switstack-data-model.yml
+  href: https://artifacts.apis.io/switstack/data-model/switstack-data-model.yml
   title: ''
   type: DataModel
   url: data-model/switstack-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/lifecycle/switstack-lifecycle.yml
+  href: https://artifacts.apis.io/switstack/lifecycle/switstack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/switstack-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/conformance/switstack-conformance.yml
+  href: https://artifacts.apis.io/switstack/conformance/switstack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/switstack-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/packages/switstack-packages.yml
+  href: https://artifacts.apis.io/switstack/packages/switstack-packages.yml
   title: ''
   type: Packages
   url: packages/switstack-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/packages/switstack-packages.yml
+  href: https://artifacts.apis.io/switstack/packages/switstack-packages.yml
   title: ''
   type: SDKs
   url: packages/switstack-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/cli/switstack-cli.yml
+  href: https://artifacts.apis.io/switstack/cli/switstack-cli.yml
   title: ''
   type: CLI
   url: cli/switstack-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/sandbox/switstack-sandbox.yml
+  href: https://artifacts.apis.io/switstack/sandbox/switstack-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/switstack-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/plans/switstack-plans-pricing.yml
+  href: https://artifacts.apis.io/switstack/plans/switstack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/switstack-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/rate-limits/switstack-rate-limits.yml
+  href: https://artifacts.apis.io/switstack/rate-limits/switstack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/switstack-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/llms/switstack-llms.txt
+  href: https://artifacts.apis.io/switstack/llms/switstack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/switstack-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/switstack/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/security/switstack-domain-security.yml
+  href: https://artifacts.apis.io/switstack/security/switstack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/switstack-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/examples/switstack-code-samples.yml
+  href: https://artifacts.apis.io/switstack/examples/switstack-code-samples.yml
   title: ''
   type: Examples
   url: examples/switstack-code-samples.yml
@@ -253,22 +255,30 @@ common:
   type: Examples
   url: https://docs.switstack.io/switcloud/examples/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/arazzo/switstack-onboard-a-terminal.yml
+  href: https://artifacts.apis.io/switstack/arazzo/switstack-onboard-a-terminal.yml
   title: ''
   type: Arazzo
   url: arazzo/switstack-onboard-a-terminal.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/arazzo/switstack-take-a-payment.yml
+  href: https://artifacts.apis.io/switstack/arazzo/switstack-take-a-payment.yml
   title: ''
   type: Arazzo
   url: arazzo/switstack-take-a-payment.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/arazzo/switstack-run-a-test-suite.yml
+  href: https://artifacts.apis.io/switstack/arazzo/switstack-run-a-test-suite.yml
   title: ''
   type: Arazzo
   url: arazzo/switstack-run-a-test-suite.yml
 created: '2026-08-17'
 description: 'Switstack is a payment infrastructure company building software-defined EMV acceptance for physical retail. It ships three products: switstack moka, a source-available EMV Level 2 kernel stack with brand Letters of Compliance; Switcloud, a hosted "universal compliance infrastructure" that abstracts EMV L2 execution and centralizes estate (organization/merchant/store/POI) and EMV configuration (CAPK, BIN, CRL, kernel parameter) management behind a REST API; and Swittest, a managed EMV functional test-automation service for labs and developers certifying card-present applications. The platform is terminal-agnostic and L2-stack agnostic — one L3 application runs across Android COTS tap-to-pay devices and PCI-PTS terminals via a GLA adapter layer — and Switstack supplies pre-certified PCI MPoC software and service components to shrink certification scope.'
+finops:
+- has_sources: true
+  method: derived
+  name: Switstack Finops
+  primary_unit: ''
+  service_category: ''
+  slug: switstack-finops
+  template: true
 image: https://cdn.prod.website-files.com/677bdd3fa1a7f9a1d8e76d2e/67879a394c57fb7c99783259_switstack_meta.png
 layout: provider
 modified: '2026-08-17'
@@ -283,7 +293,7 @@ plans:
 - name: Switstack Plans Pricing
   plan_count: 0
   slug: switstack-plans-pricing
-random_paper: 21
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Switstack Rate Limits
@@ -295,9 +305,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 39.4
+  composite: 39.6
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 29
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -307,11 +317,11 @@ score:
   facets:
     access_clarity: 13.2
     contract_governance: 18.2
-    contract_quality: 44.3
+    contract_quality: 40.9
     developer_ergonomics: 80.4
     discoverability: 71.4
-    operational_transparency: 2.6
-  previous_composite: 39.4
+    operational_transparency: 5.3
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -328,13 +338,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/screenshots/switstack-2026-09-02T161419.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/switstack/switstack-2026-09-02T161419.png
 security:
 - kind: authentication
   name: Switstack Authentication
@@ -344,6 +355,18 @@ security:
   name: Switstack Domain Security
   slug: switstack-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 5
+skills:
+- name: Authenticate against a Switstack API
+  slug: switstack-authenticate
+- name: Build a Switcloud merchant estate
+  slug: switstack-build-the-estate
+- name: Configure EMV for a Switcloud terminal
+  slug: switstack-configure-emv-for-a-terminal
+- name: Create and reconcile a Switcloud payment
+  slug: switstack-create-a-payment
+- name: Run EMV tests with Swittest
+  slug: switstack-run-emv-tests
 slug: switstack
 tags:
 - Company

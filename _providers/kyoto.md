@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.2
-  scored_at: '2026-10-17'
+  score: 20.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,11 +64,8 @@ apis:
 - description: Kyoto University operates its own Shibboleth SAML 2.0 identity provider, run by the Institute for Information Management and Communication, with public machine-readable metadata at the canonical /idp/
   name: Kyoto University Shibboleth Identity Provider (GakuNin)
   slug: sso
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: KURENAI Repository API (DSpace 7.6 REST + ) OAI-PMH API
   slug: open-kyoto-oai-pmh-api
@@ -75,7 +74,7 @@ collections:
   slug: open-kyoto-rest-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/capabilities/kyoto-capability-edges.yml
+  href: https://artifacts.apis.io/kyoto/capabilities/kyoto-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kyoto-capability-edges.yml
@@ -148,77 +147,77 @@ common:
   type: YouTube
   url: https://www.youtube.com/c/KyotoUniversityOfficial
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/conformance/kyoto-education-standards-conformance.yml
+  href: https://artifacts.apis.io/kyoto/conformance/kyoto-education-standards-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kyoto-education-standards-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/authentication/kyoto-authentication.yml
+  href: https://artifacts.apis.io/kyoto/authentication/kyoto-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kyoto-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/errors/kyoto-errors.yml
+  href: https://artifacts.apis.io/kyoto/errors/kyoto-errors.yml
   title: ''
   type: Errors
   url: errors/kyoto-errors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/scopes/kyoto-scopes.yml
+  href: https://artifacts.apis.io/kyoto/scopes/kyoto-scopes.yml
   title: ''
   type: Scopes
   url: scopes/kyoto-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/lifecycle/kyoto-lifecycle.yml
+  href: https://artifacts.apis.io/kyoto/lifecycle/kyoto-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kyoto-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/vocabulary/kyoto-vocabulary.yml
+  href: https://artifacts.apis.io/kyoto/vocabulary/kyoto-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/kyoto-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/json-ld/kyoto-context.jsonld
+  href: https://artifacts.apis.io/kyoto/json-ld/kyoto-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/kyoto-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/rules/kyoto-rules.yml
+  href: https://artifacts.apis.io/kyoto/rules/kyoto-rules.yml
   title: ''
   type: Rules
   url: rules/kyoto-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/rules/kyoto-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/kyoto/rules/kyoto-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/kyoto-jsonschema-spectral-rules.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/agentic-access/kyoto-agentic-access.yml
+  href: https://artifacts.apis.io/kyoto/agentic-access/kyoto-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kyoto-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/security/kyoto-domain-security.yml
+  href: https://artifacts.apis.io/kyoto/security/kyoto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kyoto-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/plans/kyoto-plans-pricing.yml
+  href: https://artifacts.apis.io/kyoto/plans/kyoto-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kyoto-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/rate-limits/kyoto-rate-limits.yml
+  href: https://artifacts.apis.io/kyoto/rate-limits/kyoto-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kyoto-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/finops/kyoto-finops.yml
+  href: https://artifacts.apis.io/kyoto/finops/kyoto-finops.yml
   title: ''
   type: FinOps
   url: finops/kyoto-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/kyoto/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -294,7 +293,7 @@ plans:
 - name: Kyoto Plans Pricing
   plan_count: 2
   slug: kyoto-plans-pricing
-random_paper: 16
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Kyoto Rate Limits
@@ -338,7 +337,7 @@ score:
     catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 17.4
@@ -353,7 +352,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 39.0
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -368,14 +367,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/screenshots/kyoto-2026-06-20T184226.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kyoto/kyoto-2026-06-20T184226.png
 security:
 - kind: authentication
   name: Kyoto Authentication

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST API for the Cynet 360 SaaS platform (V3). Provides programmatic access to alerts, hosts and host groups, remediation actions, scans, and account/token operations. Authenticated with a tenant-scop
@@ -43,8 +45,13 @@ apis:
 - description: REST API for the on-premises Cynet 360 deployment (V1). Documents authentication (get token), Cynet APIs for hosts, network, and client web API operations. Access-token based authentication using Cyne
   name: Cynet 360 API (On-Prem V1)
   slug: cynet-360-api-on-prem-v1
-artifact_total: 6
+artifact_total: 8
 common:
+- group: commercial
+  href: https://artifacts.apis.io/cynet/plans/cynet-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cynet-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -114,37 +121,37 @@ common:
   type: Compliance
   url: https://www.cynet.com/cynet-trust-center/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cynet/refs/heads/main/authentication/cynet-authentication.yml
+  href: https://artifacts.apis.io/cynet/authentication/cynet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cynet-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cynet/refs/heads/main/conventions/cynet-conventions.yml
+  href: https://artifacts.apis.io/cynet/conventions/cynet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cynet-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cynet/refs/heads/main/conformance/cynet-conformance.yml
+  href: https://artifacts.apis.io/cynet/conformance/cynet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cynet-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cynet/refs/heads/main/lifecycle/cynet-lifecycle.yml
+  href: https://artifacts.apis.io/cynet/lifecycle/cynet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cynet-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cynet/refs/heads/main/changelog/cynet-changelog.yml
+  href: https://artifacts.apis.io/cynet/changelog/cynet-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cynet-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cynet/refs/heads/main/security/cynet-domain-security.yml
+  href: https://artifacts.apis.io/cynet/security/cynet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cynet-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cynet/refs/heads/main/security/cynet-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cynet/security/cynet-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cynet-vulnerability-disclosure.yml
@@ -153,17 +160,25 @@ common:
   type: Security
   url: https://www.cynet.com/cynet-trust-center/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cynet/refs/heads/main/security/cynet-trust-center.yml
+  href: https://artifacts.apis.io/cynet/security/cynet-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cynet-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cynet/refs/heads/main/llms/cynet-llms.txt
+  href: https://artifacts.apis.io/cynet/llms/cynet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cynet-llms.txt
 created: '2026-07-17'
 description: Cynet is a unified, AI-powered cybersecurity platform built for MSPs and lean IT/security teams that consolidates endpoint (EDR/EPP), network, email, cloud/SaaS, mobile, and identity protection into a single agent and console. Its CyAI machine-learning engine automatically detects and remediates the majority of threats, CyOps delivers 24x7 managed detection and response, and built-in SOAR playbooks automate response across 80+ pre-built integrations. Cynet exposes a REST API (Cynet 360) for programmatic access to alerts, hosts, remediation, scanning, and account operations, offered as an On-Prem V1 API and a SaaS V3 API, authenticated with a tenant-scoped access token. This profile was surfaced as a portfolio company of Norwest Venture Partners and enriched by the API Evangelist pipeline.
+finops:
+- has_sources: true
+  method: derived
+  name: Cynet Finops
+  primary_unit: ''
+  service_category: ''
+  slug: cynet-finops
+  template: true
 image: https://www.cynet.com/wp-content/uploads/2025/06/cn-favicon-150x150.png
 layout: provider
 modified: '2026-10-06'
@@ -173,27 +188,31 @@ network: true
 overview: 'Cynet is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, XDR, and Endpoint Detection and Response.
 
 
-  Cynet''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
+  Cynet''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
+plans:
+- name: Cynet Plans Pricing
+  plan_count: 3
+  slug: cynet-plans-pricing
 random_paper: 19
 score:
   band: developing
-  composite: 40.6
+  composite: 47.1
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 13
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 6.3
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 52.4
-    discoverability: 73.2
+    developer_ergonomics: 57.1
+    discoverability: 66.1
     operational_transparency: 42.1
-  previous_composite: 40.5
+  previous_composite: 40.8
   provenance:
     conformance: first-party
   regulatory:
@@ -214,14 +233,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cynet/refs/heads/main/screenshots/cynet-2026-07-25T211051.png
+screenshot: https://apis.io/screenshots/cynet/cynet-2026-07-25T211051.png
 security:
 - kind: authentication
   name: Cynet Authentication

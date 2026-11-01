@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 31.8
-  scored_at: '2026-10-17'
+  score: 31.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://tester.army/api/v1
@@ -63,15 +65,12 @@ apis:
   description: The Webhooks API from Testerarmy — 2 operation(s) for webhooks.
   name: Testerarmy Webhooks API
   slug: testerarmy-webhooks-api
-artifact_total: 15
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Testerarmy Webhooks
   slug: testerarmy-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TestArmy Groups API
   slug: open-testerarmy-groups-api
@@ -88,12 +87,17 @@ collections:
   name: TestArmy Groups Webhooks API
   slug: open-testerarmy-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/testerarmy/plans/testerarmy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/testerarmy-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://tester.army/blog/feed.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/capabilities/testerarmy-capability-edges.yml
+  href: https://artifacts.apis.io/testerarmy/capabilities/testerarmy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/testerarmy-capability-edges.yml
@@ -102,87 +106,87 @@ common:
   type: Website
   url: https://www.tester.army/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/overlays/testerarmy-openapi-overlay.yaml
+  href: https://artifacts.apis.io/testerarmy/overlays/testerarmy-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/testerarmy-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/security/testerarmy-domain-security.yml
+  href: https://artifacts.apis.io/testerarmy/security/testerarmy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/testerarmy-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/authentication/testerarmy-authentication.yml
+  href: https://artifacts.apis.io/testerarmy/authentication/testerarmy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/testerarmy-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/errors/testerarmy-problem-types.yml
+  href: https://artifacts.apis.io/testerarmy/errors/testerarmy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/testerarmy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/lifecycle/testerarmy-lifecycle.yml
+  href: https://artifacts.apis.io/testerarmy/lifecycle/testerarmy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/testerarmy-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/conventions/testerarmy-conventions.yml
+  href: https://artifacts.apis.io/testerarmy/conventions/testerarmy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/testerarmy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/conformance/testerarmy-conformance.yml
+  href: https://artifacts.apis.io/testerarmy/conformance/testerarmy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/testerarmy-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/data-model/testerarmy-data-model.yml
+  href: https://artifacts.apis.io/testerarmy/data-model/testerarmy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/testerarmy-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/mcp/testerarmy-mcp.yml
+  href: https://artifacts.apis.io/testerarmy/mcp/testerarmy-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/testerarmy-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/well-known/testerarmy-well-known.yml
+  href: https://artifacts.apis.io/testerarmy/well-known/testerarmy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/testerarmy-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/packages/testerarmy-packages.yml
+  href: https://artifacts.apis.io/testerarmy/packages/testerarmy-packages.yml
   title: ''
   type: Packages
   url: packages/testerarmy-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/packages/testerarmy-packages.yml
+  href: https://artifacts.apis.io/testerarmy/packages/testerarmy-packages.yml
   title: ''
   type: SDKs
   url: packages/testerarmy-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/cli/testerarmy-cli.yml
+  href: https://artifacts.apis.io/testerarmy/cli/testerarmy-cli.yml
   title: ''
   type: CLI
   url: cli/testerarmy-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/sandbox/testerarmy-sandbox.yml
+  href: https://artifacts.apis.io/testerarmy/sandbox/testerarmy-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/testerarmy-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/asyncapi/testerarmy-webhooks.yml
+  href: https://artifacts.apis.io/testerarmy/asyncapi/testerarmy-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/testerarmy-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/testerarmy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/llms/testerarmy-llms.txt
+  href: https://artifacts.apis.io/testerarmy/llms/testerarmy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/testerarmy-llms.txt
@@ -228,6 +232,14 @@ common:
   url: https://tester.army/privacy
 created: '2026-07-17'
 description: TesterArmy is an AI-powered QA testing platform (Y Combinator, batch P26) whose browser and mobile agents test web and mobile apps like a real user - navigating pages, filling forms, handling login, OAuth and OTP flows, and catching broken flows, rendering bugs and confusing UX. You describe tests in plain English and the agent runs them in the TesterArmy cloud (or locally), on every GitHub pull request or on a schedule, returning screenshots, recordings and actionable bug reports. It exposes a public REST API (bearer API-key auth), a first-party CLI (testerarmy / ta), inbound trigger webhooks, and mobile app upload and testing.
+finops:
+- has_sources: true
+  method: derived
+  name: Testerarmy Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: testerarmy-finops
+  template: false
 image: https://tester.army/logo.png
 layout: provider
 mcp_servers:
@@ -244,27 +256,34 @@ overview: 'Testerarmy publishes 5 API contracts indexed on the [APIs.io](https:/
   The Testerarmy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Testerarmy''s developer surface includes authentication, CLI, sandbox, documentation, API reference, getting-started guide, pricing, and 23 more developer resources.'
-random_paper: 4
+  Testerarmy''s developer surface includes authentication, CLI, sandbox, documentation, API reference, getting-started guide, pricing, and 24 more developer resources.'
+plans:
+- name: Testerarmy Plans Pricing
+  plan_count: 4
+  slug: testerarmy-plans-pricing
+- name: Testerarmy Price Estimates
+  plan_count: 0
+  slug: testerarmy-price-estimates
+random_paper: 0
 score:
-  band: developing
-  composite: 47.8
+  band: strong
+  composite: 55.3
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 31.6
+    access_clarity: 71.1
     contract_governance: 4.5
-    contract_quality: 58.9
+    contract_quality: 55.5
     developer_ergonomics: 85.0
-    discoverability: 71.7
-    operational_transparency: 10.5
-  previous_composite: 47.7
+    discoverability: 65.0
+    operational_transparency: 13.2
+  previous_composite: 47.4
   provenance:
     conformance: derived
     contracts:
@@ -280,13 +299,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/screenshots/testerarmy-2026-08-17T082329.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/testerarmy/testerarmy-2026-08-17T082329.png
 security:
 - kind: authentication
   name: Testerarmy Authentication
@@ -296,6 +316,14 @@ security:
   name: Testerarmy Domain Security
   slug: testerarmy-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: testerarmy-cli
+  slug: testerarmy-cli
+- name: testerarmy-create-and-run-test
+  slug: testerarmy-create-and-run-test
+- name: testerarmy-pull-request-run
+  slug: testerarmy-pull-request-run
 slug: testerarmy
 tags:
 - Company
